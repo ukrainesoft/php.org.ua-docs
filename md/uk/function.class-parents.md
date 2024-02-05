@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.class-implements.md: « classimplements
-  - function.class-uses.md: classuses »
+  - function.class-implements.md: « class\_implements
+  - function.class-uses.md: class\_uses »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
-title: classparents
+title: class\_parents
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# classparents
+# class\_parents
 
 (PHP 5, PHP 7, PHP 8)
 
-classparents — Повертає список батьківських класів заданого класу
+class\_parents — Повертає список батьківських класів заданого класу
 
 ### Опис
 
@@ -28,7 +29,7 @@ class_parents(object|string $object_or_class, bool $autoload = true): array|fals
 
 `autoload`
 
-Чи викликати за замовчуванням [autoload](language.oop5.autoload.md)
+Чи потрібно [автоматично підвантажувати](language.oop5.autoload.md) клас, якщо він ще не завантажений.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ class_parents(object|string $object_or_class, bool $autoload = true): array|fals
 
 ### Приклади
 
-**Приклад #1 Приклад використання **classparents()****
+**Пример #1 Пример использования**class\_parents()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ print_r(class_parents('not_loaded', true));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -75,6 +76,12 @@ Array
 )
 ```
 
+### Примітки
+
+> **Зауваження**: Для перевірки того, що об'єкт реалізує інтерфейс, слід використовувати [`instanceof`](language.operators.type.md)или функцию[is\_a()](function.is-a.md)
+
 ### Дивіться також
 
--   [classimplements()](function.class-implements.md) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+-   [class\_implements()](function.class-implements.md) \- Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+-   [is\_a()](function.is-a.md) \- Перевіряє, чи об'єкт належить до типу або підтипу
+-   [`instanceof`](language.operators.type.md)

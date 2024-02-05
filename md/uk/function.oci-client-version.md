@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-cancel.md: « ocicancel
-  - function.oci-close.md: ociclose »
+  - function.oci-cancel.md: « oci\_cancel
+  - function.oci-close.md: oci\_close »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ociclientversion
+  - ref.oci8.md: OCI8 Функції
+title: oci\_client\_version
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ociclientversion
+# oci\_client\_version
 
-(PHP 5> = 5.3.7, PHP 7, PHP 8, PECL OCI8> = 1.4.6)
+(PHP 5 >= 5.3.7, PHP 7, PHP 8, PECL OCI8 >= 1.4.6)
 
-ociclientversion — Повертає версію клієнтської бібліотеки
+oci\_client\_version — Повертає версію клієнтської бібліотеки
 
 ### Опис
 
@@ -30,7 +31,7 @@ oci_client_version(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ociclientversion()****
+**Пример #1 Пример использования**oci\_client\_version()\*\*\*\*
 
 ```php
 <?php
@@ -40,10 +41,10 @@ oci_client_version(): string
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Бібліотеки Oracle версій до 10*г*R2 немає необхідного функціоналу, щоб видати номер версії. У цьому випадку функція поверне рядок " Unknown " .
+> Бібліотеки Oracle версій до 10*g*R2 немає необхідного функціоналу, щоб видати номер версії. У цьому випадку функція поверне рядок " Unknown " .
 
 ### Дивіться також
 
--   [ociserverversion()](function.oci-server-version.md) - Повертає версію сервера Oracle
+-   [oci\_server\_version()](function.oci-server-version.md) \- Повертає версію сервера Oracle

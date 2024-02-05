@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.sodium-crypto-aead-aes256gcm-decrypt.md: « sodiumcryptoaeadaes256gcmdecrypt
-  - function.sodium-crypto-aead-aes256gcm-is-available.md: sodiumcryptoaeadaes256gcmісavailable »
+  - function.sodium-crypto-aead-aes256gcm-decrypt.md: « sodium\_crypto\_aead\_aes256gcm\_decrypt
+  - function.sodium-crypto-aead-aes256gcm-is-available.md: sodium\_crypto\_aead\_aes256gcm\_is\_available »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoaeadaes256gcmencrypt
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_aead\_aes256gcm\_encrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoaeadaes256gcmencrypt
+# sodium\_crypto\_aead\_aes256gcm\_encrypt
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoaeadaes256gcmencrypt — Шифрує, а потім перевіряє справжність за допомогою AES-256-GCM
+sodium\_crypto\_aead\_aes256gcm\_encrypt — Шифрує, а потім перевіряє справжність за допомогою AES-256-GCM
 
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_aead_aes256gcm_encrypt(    string $message,    string $additional_data,    string $nonce,    string $key): string
+sodium_crypto_aead_aes256gcm_encrypt(    string $message,    string $additional_data,    string $nonce,    string $key): string
 ```
 
-Шифрує, а потім перевіряє автентичність за допомогою AES-256-GCM. Доступно, тільки якщо [sodiumcryptoaeadaes256gcmісavailable()](function.sodium-crypto-aead-aes256gcm-is-available.md) повертає **`true`**
+Шифрує, а потім перевіряє автентичність за допомогою AES-256-GCM. Доступно, тільки якщо [sodium\_crypto\_aead\_aes256gcm\_is\_available()](function.sodium-crypto-aead-aes256gcm-is-available.md) повертає **`true`**
 
 ### Список параметрів
 
@@ -40,4 +41,4 @@ sodium_crypto_aead_aes256gcm_encrypt(    string $message,    string $additional_
 
 ### Значення, що повертаються
 
-Повертає зашифрований текст і тег автентичності у вигляді рядка необроблених двійкових байтів. (Формат: зашифрований текст, потім тег.)
+Повертає зашифрований текст і тег автентичності у вигляді рядка необроблених двійкових байтів. (Формат: зашифрований текст, а потім тег.)

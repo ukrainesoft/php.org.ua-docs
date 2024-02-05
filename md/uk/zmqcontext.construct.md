@@ -4,13 +4,14 @@ navigation:
   - zmqcontext.getopt.md: 'ZMQContext::getOpt »'
   - index.md: PHP Manual
   - class.zmqcontext.md: ZMQContext
-title: 'ZMQContext::construct'
+title: 'ZMQContext::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ZMQContext::construct
+# ZMQContext::\_\_construct
 
 (PECL zmq >= 0.5.0)
 
-ZMQContext::construct - Конструктор ZMQContext
+ZMQContext::\_\_construct - Конструктор ZMQContext
 
 ### Опис
 
@@ -32,11 +33,11 @@ public ZMQContext::__construct(int $io_threads = 1, bool $is_persistent = true)
 
 ### Помилки
 
-Викидає **ZMQ Context Exception** у разі збою ініціалізації контексту.
+Викидає **ZMQContextException**в случае сбоя инициализации контекста.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ZMQContext()****
+**Пример #1 Пример использования**ZMQContext()\*\*\*\*
 
 Створимо новий контекст та створимо сокети з нього
 

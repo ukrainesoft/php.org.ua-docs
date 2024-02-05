@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::stop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::stop
 
@@ -28,7 +29,7 @@ public
 
 `how`
 
-Одна з *Ev::BREAK* [констант](class.ev.md#ev.constants.break-flags)
+Одна из*Ev::BREAK\_\** [констант](class.ev.md#ev.constants.break-flags)
 
 ### Значення, що повертаються
 
@@ -36,5 +37,5 @@ public
 
 ### Дивіться також
 
--   [EvLoop::run()](evloop.run.md) - Перевіряє події та викликає callback-функції в циклі
--   [Ev::stop()](ev.stop.md) - Зупинити подієвий цикл за замовчуванням
+-   [EvLoop::run()](evloop.run.md) \- Перевіряє події та викликає callback-функції у циклі
+-   [Ev::stop()](ev.stop.md) \- Зупинити подієвий цикл за замовчуванням

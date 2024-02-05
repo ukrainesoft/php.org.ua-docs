@@ -3,8 +3,9 @@ navigation:
   - function.png2wbmp.md: « png2wbmp
   - class.gdfont.md: GdFont »
   - index.md: PHP Manual
-  - book.image.md: ДД
+  - book.image.md: GD
 title: Клас GdImage
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас GdImage
 
@@ -16,16 +17,11 @@ title: Клас GdImage
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class GdImage
-     
+     final
+     class GdImage
      {
    }
 ```

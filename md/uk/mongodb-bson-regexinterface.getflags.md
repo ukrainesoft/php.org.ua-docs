@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-bson-regexinterface.md: « MongoDBBSONRegexInterface
-  - mongodb-bson-regexinterface.getpattern.md: 'MongoDBBSONRegexInterface::getPattern »'
+  - class.mongodb-bson-regexinterface.md: « MongoDB\\BSON\\RegexInterface
+  - mongodb-bson-regexinterface.getpattern.md: 'MongoDB\\BSON\\RegexInterface::getPattern »'
   - index.md: PHP Manual
-  - class.mongodb-bson-regexinterface.md: MongoDBBSONRegexInterface
-title: 'MongoDBBSONRegexInterface::getFlags'
+  - class.mongodb-bson-regexinterface.md: MongoDB\\BSON\\RegexInterface
+title: 'MongoDB\\BSON\\RegexInterface::getFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONRegexInterface::getFlags
+# MongoDB\\BSON\\RegexInterface::getFlags
 
 (mongodb >=1.3.0)
 
-MongoDBBSONRegexInterface::getFlags — Повертає прапори RegexInterface
+MongoDB\\BSON\\RegexInterface::getFlags — Повертає прапори RegexInterface
 
 ### Опис
 
@@ -28,4 +29,4 @@ abstract public MongoDB\BSON\RegexInterface::getFlags(): string
 
 ### Дивіться також
 
--   [MongoDBBSONRegex::getFlags()](mongodb-bson-regex.getflags.md) - Повертає прапори Regex
+-   [MongoDB\\BSON\\Regex::getFlags()](mongodb-bson-regex.getflags.md) \- Повертає прапори Regex

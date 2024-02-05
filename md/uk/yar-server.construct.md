@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yar-server.md: « YarServer
-  - yar-server.handle.md: 'YarServer::handle »'
+  - class.yar-server.md: « Yar\_Server
+  - yar-server.handle.md: 'Yar\_Server::handle »'
   - index.md: PHP Manual
-  - class.yar-server.md: YarServer
-title: 'YarServer::construct'
+  - class.yar-server.md: Yar\_Server
+title: 'Yar\_Server::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YarServer::construct
+# Yar\_Server::\_\_construct
 
 (PECL yar >= 1.0.0)
 
-YarServer::construct — Конструктор YarServer
+Yar\_Server::\_\_construct — Конструктор Yar\_Server
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public Yar_Server::__construct(Object $obj)
 
 ### Значення, що повертаються
 
-Об'єкт класу [YarServer](class.yar-server.md)
+Об'єкт класу [Yar\_Server](class.yar-server.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YarServer::construct()****
+**Пример #1 Пример использования**Yar\_Server::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -55,8 +56,8 @@ $service->handle();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ### Дивіться також
 
--   [YarServer::handle()](yar-server.handle.md) - Запустити сервер RPC
+-   [Yar\_Server::handle()](yar-server.handle.md) \- Запустити сервер RPC

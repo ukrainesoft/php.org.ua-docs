@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.radius-server-secret.md: « radiusserversecret
+  - function.radius-server-secret.md: « radius\_server\_secret
   - refs.utilspec.cmdline.md: Модулі для роботи з командним рядком »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiusstrerror
+  - ref.radius.md: Функції Radius
+title: radius\_strerror
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiusstrerror
+# radius\_strerror
 
 (PECL radius >= 1.1.0)
 
-radiusstrerror — Повертає повідомлення про помилку
+radius\_strerror — Повертає повідомлення про помилку
 
 ### Опис
 

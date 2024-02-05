@@ -4,17 +4,18 @@ navigation:
   - class.domexception.md: DOMException »
   - index.md: PHP Manual
   - class.domentityreference.md: DOMEntityReference
-title: 'DOMEntityReference::construct'
+title: 'DOMEntityReference::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DOMEntityReference::construct
+# DOMEntityReference::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMEntityReference::construct — Створює новий об'єкт класу DOM Entity Reference
+DOMEntityReference::\_\_construct — Створює новий об'єкт класу DOMEntityReference
 
 ### Опис
 
-public **DOMEntityReference::construct**(string `$name`
+public**DOMEntityReference::\_\_construct**(string`$name`) .
 
 Створює новий об'єкт класу [DOMEntityReference](class.domentityreference.md)
 
@@ -41,4 +42,4 @@ echo $dom->saveXML(); /* <?xml version="1.0" encoding="iso-8859-1"?><root></root
 
 ### Дивіться також
 
--   [DOMDocument::createEntityReference()](domdocument.createentityreference.md) - Створити новий вузол посилання на суть
+-   [DOMDocument::createEntityReference()](domdocument.createentityreference.md) \- Створити новий вузол посилання на суть

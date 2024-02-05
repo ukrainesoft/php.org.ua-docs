@@ -4,21 +4,22 @@ navigation:
   - cachingiterator.count.md: 'CachingIterator::count »'
   - index.md: PHP Manual
   - class.cachingiterator.md: CachingIterator
-title: 'CachingIterator::construct'
+title: 'CachingIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CachingIterator::construct
+# CachingIterator::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-CachingIterator::construct — Створює новий об'єкт CachingIterator для ітератора
+CachingIterator::\_\_construct — Створює новий об'єкт CachingIterator для ітератора
 
 ### Опис
 
-public **CachingIterator::construct**[Iterator](class.iterator.md) `$iterator`, int `$flags` = CachingIterator::CALLTOSTRING)
+public**CachingIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`, int`$flags`\= CachingIterator::CALL\_TOSTRING)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

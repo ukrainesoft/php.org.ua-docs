@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-controller-abstract.display.md: '« YafControllerAbstract::display'
-  - yaf-controller-abstract.getinvokearg.md: 'YafControllerAbstract::getInvokeArg »'
+  - yaf-controller-abstract.display.md: '« Yaf\_Controller\_Abstract::display'
+  - yaf-controller-abstract.getinvokearg.md: 'Yaf\_Controller\_Abstract::getInvokeArg »'
   - index.md: PHP Manual
-  - class.yaf-controller-abstract.md: YafControllerAbstract
-title: 'YafControllerAbstract::forward'
+  - class.yaf-controller-abstract.md: Yaf\_Controller\_Abstract
+title: 'Yaf\_Controller\_Abstract::forward'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafControllerAbstract::forward
+# Yaf\_Controller\_Abstract::forward
 
 (Yaf >=1.0.0)
 
-YafControllerAbstract::forward — Переходить до іншої дії
+Yaf\_Controller\_Abstract::forward — Переходить до іншої дії
 
 ### Опис
 
@@ -23,12 +24,12 @@ public Yaf_Controller_Abstract::forward(string $controller, string $action, arra
 ```
 
 ```methodsynopsis
-public Yaf_Controller_Abstract::forward(    string $module,    string $controller,    string $action,    array $paramters = ?): bool
+public Yaf_Controller_Abstract::forward(    string $module,    string $controller,    string $action,    array $paramters = ?): bool
 ```
 
 Перенаправляє поточний процес виконання на іншу дію.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Метод не перемикається на вказану дію негайно, перехід відбувається після завершення поточного потоку.
 
@@ -52,11 +53,11 @@ public Yaf_Controller_Abstract::forward(    string $module,    string $controlle
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafControllerAbstract::forward()****
+**Пример #1 Пример использования**Yaf\_Controller\_Abstract::forward()\*\*\*\*
 
 ```php
 <?php
@@ -80,7 +81,7 @@ class IndexController extends Yaf_Controller_Abstract
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Вход, перенаправлено с действия Index
@@ -88,4 +89,4 @@ class IndexController extends Yaf_Controller_Abstract
 
 ### Дивіться також
 
--   **YafRequestAbstrace::getParam()**
+-   **Yaf\_Request\_Abstrace::getParam()**

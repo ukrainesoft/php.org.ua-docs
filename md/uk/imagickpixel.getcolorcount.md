@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::getColorCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::getColorCount
 
@@ -20,7 +21,7 @@ public ImagickPixel::getColorCount(): int
 
 Повертає кількість кольорів, пов'язаних із цим кольором.
 
-Кількість пікселів зображення мають той же колір, що і цей ImagickPixel.
+Кількість пікселів зображення має той же колір, що і цей ImagickPixel.
 
 ImagickPixel::getColorCount може працювати тільки з об'єктами ImagickPixel, створеними за допомогою Imagick::getImageHistogram()
 
@@ -34,7 +35,7 @@ ImagickPixel::getColorCount може працювати тільки з об'є�
 
 ### Приклади
 
-**Приклад #1 ImagickPixel **getColorCount()****
+**Пример #1 ImagickPixel**getColorCount()\*\*\*\*
 
 ```php
 <?php

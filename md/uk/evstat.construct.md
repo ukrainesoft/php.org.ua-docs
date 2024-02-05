@@ -4,22 +4,24 @@ navigation:
   - evstat.createstopped.md: 'EvStat::createStopped »'
   - index.md: PHP Manual
   - class.evstat.md: EvStat
-title: 'EvStat::construct'
+title: 'EvStat::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# EvStat::construct
+# EvStat::\_\_construct
 
 (PECL ev >= 0.2.0)
 
-EvStat::construct - Створює об'єкт спостерігача EvStat
+EvStat::\_\_construct - Створює об'єкт спостерігача EvStat
 
 ### Опис
 
-public **EvStat::construct**  
-string `$path`  
-float `$interval`  
+public**EvStat::\_\_construct**  
+string`$path`  
+float`$interval`  
 [callable](language.types.callable.md) `$callback`  
-[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` **`null`**  
-int `$priority`
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` = **`null`**  
+int`$priority` =  
+) .
 
 Створює об'єкт спостерігача EvStat та автоматично запускає спостерігача.
 
@@ -35,15 +37,15 @@ int `$priority`
 
 `callback`
 
-Дивіться [Спостерігачі зворотного виклику](ev.watcher-callbacks.md)
+Смотрите[Спостерігачі зворотного виклику](ev.watcher-callbacks.md)
 
 `data`
 
-Дані користувача, пов'язані зі спостерігачем.
+Ці дані, пов'язані зі спостерігачем.
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
+[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
 
 ### Приклади
 

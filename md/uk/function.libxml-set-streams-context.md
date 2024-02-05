@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.libxml-set-external-entity-loader.md: « libxmlsetexternalentityloader
-  - function.libxml-use-internal-errors.md: libxmluseinternalerrors »
+  - function.libxml-set-external-entity-loader.md: « libxml\_set\_external\_entity\_loader
+  - function.libxml-use-internal-errors.md: libxml\_use\_internal\_errors »
   - index.md: PHP Manual
   - ref.libxml.md: Функції libxml
-title: libxmlsetstreamscontext
+title: libxml\_set\_streams\_context
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# libxmlsetstreamscontext
+# libxml\_set\_streams\_context
 
 (PHP 5, PHP 7, PHP 8)
 
-libxmlsetstreamscontext — Встановлення контексту потоків для наступного завантаження або запису документа за допомогою libxml
+libxml\_set\_streams\_context — Встановлення контексту потоків для наступного завантаження або запису документа за допомогою libxml
 
 ### Опис
 
@@ -24,7 +25,7 @@ libxml_set_streams_context(resource $context): void
 
 `context`
 
-Ресурс контексту потоку (створений функцією [streamcontextcreate()](function.stream-context-create.md)
+Ресурс контексту потоку (створений функцією [stream\_context\_create()](function.stream-context-create.md)) .
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ libxml_set_streams_context(resource $context): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **libxmlsetstreamscontext()****
+**Пример #1 Пример использования**libxml\_set\_streams\_context()\*\*\*\*
 
 ```php
 <?php
@@ -54,4 +55,4 @@ $doc = DOMDocument::load('http://www.example.com/file.xml');
 
 ### Дивіться також
 
--   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку
+-   [stream\_context\_create()](function.stream-context-create.md) \- Створює контекст потоку

@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.locale.md: Locale
 title: 'Locale::getAllVariants'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Locale::getAllVariants
 
-# localegetallvariants
+# locale\_get\_all\_variants
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::getAllVariants -- localegetallvariants — Отримання варіантів із переданої локалі
+Locale::getAllVariants -- locale\_get\_all\_variants — Отримання варіантів із переданої локалі
 
 ### Опис
 
@@ -44,7 +45,7 @@ locale_get_all_variants(string $locale): ?array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **localegetallvariants()****
+**Пример #1 Пример использования**locale\_get\_all\_variants()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ var_export( $arr );
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array (
@@ -74,6 +75,6 @@ array (
 
 ### Дивіться також
 
--   [localegetprimarylanguage()](locale.getprimarylanguage.md) - Отримати первинну мову для локалі
--   [localegetscript()](locale.getscript.md) - Отримати алфавіт для локалі
--   [localegetregion()](locale.getregion.md) - Отримати регіон для локалі
+-   [locale\_get\_primary\_language()](locale.getprimarylanguage.md) \- Отримати первинну мову для локалі
+-   [locale\_get\_script()](locale.getscript.md) \- Отримати алфавіт для локалі
+-   [locale\_get\_region()](locale.getregion.md) \- Отримати регіон для локалі

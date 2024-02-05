@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.construct.md: '« DsVector::construct'
-  - ds-vector.copy.md: 'ДсVector::copy »'
+  - ds-vector.construct.md: '« Ds\\Vector::\_\_construct'
+  - ds-vector.copy.md: 'Ds\\Vector::copy »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::contains'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::contains'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::contains
+# Ds\\Vector::contains
 
 (PECL ds >= 1.0.0)
 
-ДсVector::contains — Перевіряє, чи у векторі задані значення
+Ds\\Vector::contains — Перевіряє, чи у векторі задані значення
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Ds\Vector::contains(mixed ...$values): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::contains()****
+**Пример #1 Пример использования**Ds\\Vector::contains()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($sequece->contains(...[]));               // true
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)

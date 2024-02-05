@@ -4,13 +4,14 @@ navigation:
   - imagickpixel.destroy.md: 'ImagickPixel::destroy »'
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
-title: 'ImagickPixel::construct'
+title: 'ImagickPixel::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ImagickPixel::construct
+# ImagickPixel::\_\_construct
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickPixel::construct — Конструктор ImagickPixel
+ImagickPixel::\_\_construct — Конструктор ImagickPixel
 
 ### Опис
 
@@ -20,9 +21,9 @@ public ImagickPixel::__construct(string $color = ?)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
-Створюється об'єкт ImagickPixel. Якщо вказано колір, то об'єкт створюється та ініціалізується із цим кольором перед поверненням.
+Створюється об'єкт ImagickPixel. Якщо вказано колір, об'єкт створюється та ініціалізується з цим кольором перед поверненням.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public ImagickPixel::__construct(string $color = ?)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickPixel::construct()****
+**Пример #1 Пример использования**ImagickPixel::construct()\*\*\*\*
 
 ```php
 <?php

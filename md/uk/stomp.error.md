@@ -1,18 +1,19 @@
 ---
 navigation:
-  - stomp.destruct.md: '« Stomp::destruct'
+  - stomp.destruct.md: '« Stomp::\_\_destruct'
   - stomp.getreadtimeout.md: 'Stomp::getReadTimeout »'
   - index.md: PHP Manual
   - class.stomp.md: Stomp
 title: 'Stomp::error'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Stomp::error
 
-# stomperror
+# stomp\_error
 
 (PECL stomp >= 0.1.0)
 
-Stomp :: error -- stomperror — Повертає останню помилку Stomp
+Stomp::error -- stomp\_error — Повертає останню помилку Stomp
 
 ### Опис
 
@@ -34,11 +35,11 @@ stomp_error(resource $link): string
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.md)
 
 ### Значення, що повертаються
 
-Повертає текст помилки або **`false`** у разі виникнення помилки.
+Повертає текст помилки або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -66,7 +67,7 @@ unset($stomp);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)
@@ -98,7 +99,7 @@ stomp_close($link);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)

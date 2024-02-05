@@ -1,20 +1,21 @@
 ---
 navigation:
-  - ui-draw-path.closefigure.md: '« UIDrawPath::closeFigure'
-  - ui-draw-path.end.md: 'ОЙDrawPath::end »'
+  - ui-draw-path.closefigure.md: '« UI\\Draw\\Path::closeFigure'
+  - ui-draw-path.end.md: 'UI\\Draw\\Path::end »'
   - index.md: PHP Manual
-  - class.ui-draw-path.md: ОЙDrawPath
-title: 'ОЙDrawPath::construct'
+  - class.ui-draw-path.md: UI\\Draw\\Path
+title: 'UI\\Draw\\Path::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawPath::construct
+# UI\\Draw\\Path::\_\_construct
 
 (UI 0.9.9)
 
-ОЙDrawPath::construct — Створити новий об'єкт Path
+UI\\Draw\\Path::\_\_construct — Створити новий об'єкт Path
 
 ### Опис
 
-public **ОЙDrawPath::construct**(int `$mode` = UIDrawPath::Winding)
+public**UI\\Draw\\Path::\_\_construct**(int`$mode`\= UI\\Draw\\Path::Winding)
 
 Створить новий шлях у заданому режимі
 

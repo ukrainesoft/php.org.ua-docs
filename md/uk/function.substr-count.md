@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.substr-compare.md: « substrcompare
-  - function.substr-replace.md: substrreplace »
+  - function.substr-compare.md: « substr\_compare
+  - function.substr-replace.md: substr\_replace »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: substrcount
+title: substr\_count
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# substrcount
+# substr\_count
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-substrcount — Повертає кількість входжень підрядка
+substr\_count — Повертає кількість входжень підрядка
 
 ### Опис
 
 ```methodsynopsis
-substr_count(    string $haystack,    string $needle,    int $offset = 0,    ?int $length = null): int
+substr_count(    string $haystack,    string $needle,    int $offset = 0,    ?int $length = null): int
 ```
 
-**substrcount()** повертає кількість входжень підрядка `needle` у рядок `haystack`. Зауважте, що параметр `needle` чутливий до регістру.
+**substr\_count()** повертає кількість входжень підрядка `needle` у рядок `haystack`Заметьте, что параметр`needle`чувствителен к регистру.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція не підраховує підстроки, що перекриваються. Дивіться приклад нижче!
 
@@ -36,11 +37,11 @@ substr_count(    string $haystack,    string $needle,    int $offset = 0,    ?in
 
 `offset`
 
-Усунення початку відліку. Якщо встановлено негативне значення, відлік позиції буде здійснено з кінця рядка.
+Усунення початку відліку. Якщо задано негативне значення, відлік позиції буде здійснено з кінця рядка.
 
 `length`
 
-Максимальна довжина рядка, в якому буде здійснюватися пошук підрядка після вказаного зміщення. Якщо сума зміщення та максимальної довжини буде більшою за довжину `haystack`, то буде виведено попередження. Негативне значення відраховуватиметься з кінця `haystack`
+Максимальна довжина рядка, в якій буде здійснюватися пошук підрядка після вказаного усунення. Якщо сума зміщення та максимальної довжини буде більшою за довжину `haystack`, то буде виведено попередження. Негативне значення буде відраховуватись з кінця `haystack`
 
 ### Значення, що повертаються
 
@@ -48,14 +49,14 @@ substr_count(    string $haystack,    string $needle,    int $offset = 0,    ?in
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `length` тепер допускає значення null. |
-|  | Додано підтримку негативних значень `offset` і `length`. . `length` тепер також може бути `0` |
+| 8.0.0 | `length` тепер допускає значення null. |
+| 7.1.0 | Додано підтримку негативних значень `offset`и`length`. . `length` тепер також може бути |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **substrcount()****
+**Пример #1 Пример использования**substr\_count()\*\*\*\*
 
 ```php
 <?php
@@ -82,7 +83,7 @@ echo substr_count($text2, 'gcdgcd');
 
 ### Дивіться також
 
--   [countchars()](function.count-chars.md) - Повертає інформацію про символи, що входять до рядка
--   [strpos()](function.strpos.md) - Повертає позицію першого входження підрядка
--   [substr()](function.substr.md) - Повертає підрядок
--   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
+-   [count\_chars()](function.count-chars.md) \- Повертає інформацію про символи, що входять до рядка
+-   [strpos()](function.strpos.md) \- Повертає позицію першого входження підрядка
+-   [substr()](function.substr.md) \- Повертає підрядок
+-   [strstr()](function.strstr.md) \- Знаходить перше входження підрядка

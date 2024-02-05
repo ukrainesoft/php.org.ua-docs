@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.eio-init.md: « eioinit
-  - function.eio-lstat.md: eiolstat »
+  - function.eio-init.md: « eio\_init
+  - function.eio-lstat.md: eio\_lstat »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiolink
+  - ref.eio.md: Eio Функції
+title: eio\_link
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiolink
+# eio\_link
 
 (PECL eio >= 0.0.1dev)
 
-eiolink — Створює жорстке посилання на файл
+eio\_link — Створює жорстке посилання на файл
 
 ### Опис
 
 ```methodsynopsis
-eio_link(    string $path,    string $new_path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_link(    string $path,    string $new_path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
-**eiolink()** створює жорстке посилання `new_path` на файл, вказаний у `path`
+**eio\_link()** створити жорстке посилання `new_path` на файл, вказаний у `path`
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ eio_link(    string $path,    string $new_path,    int $pri = EIO_PRI_DEFAULT,  
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -52,17 +53,17 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
-Довільна змінна, що передається в `callback`функцію.
+Произвольная переменная, передаваемая в`callback`\-функцію.
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eiolink()****
+**Пример #1 Пример использования**eio\_link()\*\*\*\*
 
 ```php
 <?php
@@ -102,7 +103,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -112,4 +113,4 @@ string(%d) "%ssymlink.dat"
 
 ### Дивіться також
 
--   [eiosymlink()](function.eio-symlink.md) - Створює символічне посилання
+-   [eio\_symlink()](function.eio-symlink.md) \- Створює символічне посилання

@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageconvolution
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imageconvolution
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 imageconvolution — Накладення матриці 3х3, що викривляє, використовуючи коефіцієнт і зсув
 
 ### Опис
 
 ```methodsynopsis
-imageconvolution(    GdImage $image,    array $matrix,    float $divisor,    float $offset): bool
+imageconvolution(    GdImage $image,    array $matrix,    float $divisor,    float $offset): bool
 ```
 
 Накладає матрицю, що викривляє, на зображення, використовуючи заданий коефіцієнт і зсув.
@@ -40,13 +41,13 @@ imageconvolution(    GdImage $image,    array $matrix,    float $divisor,    flo
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
@@ -64,7 +65,7 @@ imagepng($image, null, 9);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ![Висновок прикладу: Створення рельєфу на логотипі PHP.net](images/21009b70229598c6a80eef8b45bf282b-imageconvolution_emboss.png)
 
@@ -87,10 +88,10 @@ imagepng($image, null, 9);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
-![Висновок прикладу: Розмиття по Гаусу](images/21009b70229598c6a80eef8b45bf282b-imageconvolution_gaussian.png)
+![Висновок прикладу: Розмиття за Гаусом](images/21009b70229598c6a80eef8b45bf282b-imageconvolution_gaussian.png)
 
 ### Дивіться також
 
--   [imagefilter()](function.imagefilter.md) - Застосовує фільтр до зображення
+-   [imagefilter()](function.imagefilter.md) \- Застосовує фільтр до зображення

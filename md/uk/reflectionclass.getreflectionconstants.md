@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getReflectionConstants'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getReflectionConstants
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
 ReflectionClass::getReflectionConstants — Отримує константи класу
 
@@ -32,9 +33,9 @@ public ReflectionClass::getReflectionConstants(?int $filter = null): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Доданий параметр `filter` |
+| 8.0.0 | Добавлен параметр`filter` |
 
 ### Приклади
 
@@ -62,7 +63,7 @@ var_dump($consts);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 FOO
@@ -95,5 +96,5 @@ array(3) {
 
 ### Дивіться також
 
--   [ReflectionClass::getReflectionConstant()](reflectionclass.getreflectionconstant.md) - Отримує ReflectionClassConstant для константи класу
+-   [ReflectionClass::getReflectionConstant()](reflectionclass.getreflectionconstant.md) \- Отримує ReflectionClassConstant для константи класу
 -   [ReflectionClassConstant](class.reflectionclassconstant.md)

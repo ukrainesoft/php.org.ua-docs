@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.commonmark-interfaces-ivisitable.md: « CommonMarkInterfacesIVisitable
-  - class.commonmark-parser.md: CommonMarkParser »
+  - class.commonmark-interfaces-ivisitable.md: « CommonMark\\Interfaces\\IVisitable
+  - class.commonmark-parser.md: CommonMark\\Parser »
   - index.md: PHP Manual
-  - class.commonmark-interfaces-ivisitable.md: CommonMarkInterfacesIVisitable
-title: 'CommonMarkInterfacesIVisitable::accept'
+  - class.commonmark-interfaces-ivisitable.md: CommonMark\\Interfaces\\IVisitable
+title: 'CommonMark\\Interfaces\\IVisitable::accept'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkInterfacesIVisitable::accept
+# CommonMark\\Interfaces\\IVisitable::accept
 
 (cmark >= 1.0.0)
 
-CommonMarkInterfacesIVisitable::accept — Visitation
+CommonMark\\Interfaces\\IVisitable::accept — Visitation
 
 ### Опис
 
@@ -22,9 +23,9 @@ abstract public CommonMark\Interfaces\IVisitable::accept(CommonMark\Interfaces\I
 
 `visitor`
 
-Об'єкт, що реалізує [CommonMarkInterfacesIVisitor](class.commonmark-interfaces-ivisitor.md)
+Об'єкт, що реалізує [CommonMark\\Interfaces\\IVisitor](class.commonmark-interfaces-ivisitor.md)
 
 ### Дивіться також
 
--   [CommonMarkInterfacesIVisitor::enter](commonmark-interfaces-ivisitor.enter.md)
--   [CommonMarkInterfacesIVisitor::leave](commonmark-interfaces-ivisitor.leave.md)
+-   [CommonMark\\Interfaces\\IVisitor::enter](commonmark-interfaces-ivisitor.enter.md)
+-   [CommonMark\\Interfaces\\IVisitor::leave](commonmark-interfaces-ivisitor.leave.md)

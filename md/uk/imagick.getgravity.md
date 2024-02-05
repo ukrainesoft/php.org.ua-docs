@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getGravity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getGravity
 
@@ -18,7 +19,7 @@ Imagick::getGravity — Повертає значення гравітації (
 public Imagick::getGravity(): int
 ```
 
-Повертає глобальне значення гравітації об'єкту Imagick. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.4.0 або старшим.
+Повертає глобальне значення гравітації об'єкту Imagick. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.0 або старшим.
 
 ### Список параметрів
 
@@ -26,4 +27,4 @@ public Imagick::getGravity(): int
 
 ### Значення, що повертаються
 
-Повертає значення гравітації. Дивіться список [констант гравитации](imagick.constants.md#imagick.constants.gravity)
+Возвращает значение гравитации. Смотрите список[констант гравітації](imagick.constants.md#imagick.constants.gravity)

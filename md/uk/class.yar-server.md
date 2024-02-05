@@ -1,12 +1,13 @@
 ---
 navigation:
   - yar.examples.md: « Приклади
-  - yar-server.construct.md: 'YarServer::construct »'
+  - yar-server.construct.md: 'Yar\_Server::\_\_construct »'
   - index.md: PHP Manual
   - book.yar.md: Yar
-title: Клас YarServer
+title: Клас Yar\_Server
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YarServer
+# Клас Yar\_Server
 
 (No version information available, might only be in Git)
 
@@ -41,9 +42,9 @@ public handle(): bool
 
 ## Властивості
 
-executor
+\_executor
 
 ## Зміст
 
--   [YarServer::construct](yar-server.construct.md) - Конструктор YarServer
--   [YarServer::handle](yar-server.handle.md) — Запустити сервер RPC
+-   [Yar\_Server::\_\_construct](yar-server.construct.md) \- Конструктор Yar\_Server
+-   [Yar\_Server::handle](yar-server.handle.md)— Запустити сервер RPC

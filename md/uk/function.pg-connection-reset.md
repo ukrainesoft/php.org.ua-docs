@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-connection-busy.md: « pgconnectionbusy
-  - function.pg-connection-status.md: пгconnectionstatus »
+  - function.pg-connection-busy.md: « pg\_connection\_busy
+  - function.pg-connection-status.md: pg\_connection\_status »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгconnectionreset
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_connection\_reset
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгconnectionreset
+# pg\_connection\_reset
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгconnectionreset — Скинути з'єднання (перепідключення)
+pg\_connection\_reset — Скинути з'єднання (перепідключення)
 
 ### Опис
 
@@ -18,27 +19,27 @@ title: пгconnectionreset
 pg_connection_reset(PgSql\Connection $connection): bool
 ```
 
-**пгconnectionreset()** скидає підключення. Може бути використана для усунення помилок.
+**pg\_connection\_reset()** скидає підключення. Може бути використана для усунення помилок.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгconnectionreset()****
+**Пример #1 Пример использования**pg\_connection\_reset()\*\*\*\*
 
 ```php
 <?php
@@ -54,6 +55,6 @@ pg_connection_reset(PgSql\Connection $connection): bool
 
 ### Дивіться також
 
--   [пгconnect()](function.pg-connect.md) - Відкриває з'єднання з базою даних PostgreSQL
--   [пгpconnect()](function.pg-pconnect.md) - Відкриває постійне з'єднання із сервером PostgreSQL
--   [пгconnectionstatus()](function.pg-connection-status.md) - Визначає стан підключення
+-   [pg\_connect()](function.pg-connect.md) \- Відкриває з'єднання з базою даних PostgreSQL
+-   [pg\_pconnect()](function.pg-pconnect.md) \- Відкриває постійне з'єднання із сервером PostgreSQL
+-   [pg\_connection\_status()](function.pg-connection-status.md) \- Визначає стан підключення

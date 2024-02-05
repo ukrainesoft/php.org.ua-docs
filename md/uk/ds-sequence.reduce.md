@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.push.md: '« DsSequence::push'
-  - ds-sequence.remove.md: 'ДсSequence::remove »'
+  - ds-sequence.push.md: '« Ds\\Sequence::push'
+  - ds-sequence.remove.md: 'Ds\\Sequence::remove »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::reduce'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::reduce'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::reduce
+# Ds\\Sequence::reduce
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::reduce - Сплескує колекцію до одного значення використовуючи callback-функцію
+Ds\\Sequence::reduce - Сплескує колекцію до одного значення використовуючи callback-функцію
 
 ### Опис
 
@@ -46,7 +47,7 @@ callback(mixed $carry, mixed $value): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::reduce()** з початковим значенням**
+**Пример #1 Пример использования**Ds\\Sequence::reduce()\*\* з початковим значенням\*\*
 
 ```php
 <?php
@@ -68,13 +69,13 @@ var_dump($sequence->reduce($callback, 5));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(30)
 ```
 
-**Приклад #2 Приклад використання **ДсSequence::reduce()** без початкового значення**
+**Пример #2 Пример использования**Ds\\Sequence::reduce()\*\* без початкового значення\*\*
 
 ```php
 <?php
@@ -94,7 +95,7 @@ var_dump($sequence->reduce(function($carry, $value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(21)

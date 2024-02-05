@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3stmt.md: SQLite3Stmt
 title: 'SQLite3Stmt::reset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3Stmt::reset
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3Stmt::reset — Скидає підготовлений запит
 
@@ -26,4 +27,4 @@ public SQLite3Stmt::reset(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у випадку, якщо підготовлений запит був успішно скинутий або **`false`** у разі виникнення помилки.
+Повертає **`true`** у випадку, якщо підготовлений запит був успішно скинутий або \*\*`false`\*\*в случае возникновения ошибки.

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.xml-set-element-handler.md: « xmlsetelementhandler
-  - function.xml-set-external-entity-ref-handler.md: xmlsetexternalentityrefhandler »
+  - function.xml-set-element-handler.md: « xml\_set\_element\_handler
+  - function.xml-set-external-entity-ref-handler.md: xml\_set\_external\_entity\_ref\_handler »
   - index.md: PHP Manual
-  - ref.xml.md: Функции парсера XML
-title: xmlsetendnamespacedeclhandler
+  - ref.xml.md: Функції парсера XML
+title: xml\_set\_end\_namespace\_decl\_handler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlsetendnamespacedeclhandler
+# xml\_set\_end\_namespace\_decl\_handler
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
-xmlsetendnamespacedeclhandler — Встановлення обробника виходу за межі простору імен
+xml\_set\_end\_namespace\_decl\_handler — Встановлення обробника виходу за межі простору імен
 
 ### Опис
 
 ```methodsynopsis
-xml_set_end_namespace_decl_handler(XMLParser $parser, callable $handler): bool
+xml_set_end_namespace_decl_handler(XMLParser $parser, callable $handler): true
 ```
 
 Задає обробник, який викликається під час виходу межі оголошення простору імен. Цей обробник буде викликатись для кожного оголошення простору імен після того, як обробляє закінчення елемента, в якому цей простір імен було оголошено.
@@ -28,40 +29,40 @@ xml_set_end_namespace_decl_handler(XMLParser $parser, callable $handler): bool
 
 `parser`
 
-Посилання на аналізатор XML.
+Парсер XML.
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.md) з аналізатора `parser`
+Якщо передається значення **`null`** або порожній рядок, обробник повертається в стан за замовчуванням.
 
-Функція з ім'ям `handler` повинна приймати два аргументи та повертати цілий результат. Якщо обробник поверне **`false`** (як і нічого не поверне), XML аналізатор припинить роботу, а функція [xmlgeterrorcode()](function.xml-get-error-code.md) повертатиме константу **`XML_ERROR_EXTERNAL_ENTITY_HANDLING`**
+Якщо параметр `handler` є типом [callable](language.types.callable.md), то як оброблювач встановлюється callable.
+
+Якщо параметр `handler` є рядком (string), це може бути ім'я методу об'єкта, заданого за допомогою функції [xml\_set\_object()](function.xml-set-object.md)
+
+Сигнатура оброблювача має бути:
 
 ```methodsynopsis
-handler(XMLParser $parser, string $prefix)
+handler(XMLParser $parser, string|false $prefix)
 ```
 
 `parser`
 
-Перший аргумент parser є посиланням на XML-аналізатор, що викликає обробник.
+XML-парсер, що викликає оброблювач.
 
 `prefix`
 
-Префікс - рядок, що використовується як посилання на простір імен у межах об'єкта XML.
-
-Якщо як обробник передано порожній рядок або **`false`**, цей обробник вимикається.
-
-> **Зауваження**: Як аргумент замість імені функції може бути переданий масив, що містить посилання на об'єкт та ім'я методу.
+Префікс - рядок, що використовується як посилання на простір імен у межах об'єкта XML . \*\*`false`\*\*якщо префікс не існує.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| 8.0.0 | Параметр`parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався коректний `xml` ресурс (Resource). |
 
 ### Дивіться також
 
--   [xmlsetstartnamespacedeclhandler()](function.xml-set-start-namespace-decl-handler.md) - Встановлення обробника входу у межі простору імен
+-   [xml\_set\_start\_namespace\_decl\_handler()](function.xml-set-start-namespace-decl-handler.md) \- Встановлює обробник входу у межі простору імен

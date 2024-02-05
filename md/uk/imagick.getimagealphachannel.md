@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageAlphaChannel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageAlphaChannel
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::getImageAlphaChannel — Перевіряє, чи є зображення альфа-канал
 
@@ -34,6 +35,6 @@ public Imagick::getImageAlphaChannel(): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | imagick 3.6.0 | Тепер повертає логічне значення (bool); раніше поверталося ціле число (int). |

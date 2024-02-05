@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-strerror.md: « posixstrerror
-  - function.posix-ttyname.md: posixttyname »
+  - function.posix-sysconf.md: « posix\_sysconf
+  - function.posix-ttyname.md: posix\_ttyname »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixtimes
+  - ref.posix.md: POSIX Функції
+title: posix\_times
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixtimes
+# posix\_times
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posixtimes — Повертає інформацію про використання процесорного часу
+posix\_times — Повертає інформацію про використання процесорного часу
 
 ### Опис
 
@@ -32,13 +33,13 @@ posix_times(): array|false
 -   utime – час користувача, витрачений поточним процесом.
 -   stime – системний час, витрачений поточним процесом.
 -   cutime - час користувача, витрачений поточним процесом та його дочірніми процесами.
--   cstime - системний час, витрачений поточним процесом та його дочірніми процесами.
+-   cstime - системний час, витрачений поточним процесом і його дочірніми процесами.
 
-Функція повертає **`false`** у разі виникнення помилки.
+Функція повертає \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posixtimes()****
+**Пример #1 Пример использования**posix\_times()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ print_r($times);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

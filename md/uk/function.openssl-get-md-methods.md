@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-get-curve-names.md: « opensslgetcurvenames
-  - function.openssl-get-privatekey.md: opensslgetprivatekey »
+  - function.openssl-get-curve-names.md: « openssl\_get\_curve\_names
+  - function.openssl-get-privatekey.md: openssl\_get\_privatekey »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslgetмдметодів
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_get\_md\_methods
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslgetмдметодів
+# openssl\_get\_md\_methods
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-opensslgetмдmethods — Отримати список доступних методів хешування
+openssl\_get\_md\_methods — Отримати список доступних методів хешування
 
 ### Опис
 
@@ -32,7 +33,7 @@ openssl_get_md_methods(bool $aliases = false): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslgetмдmethods()****
+**Пример #1 Пример использования**openssl\_get\_md\_methods()\*\*\*\*
 
 Показує, як можуть виглядати доступні методи хешування та їх псевдоніми.
 
@@ -49,7 +50,7 @@ print_r($digest_aliases);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -118,5 +119,5 @@ Array
 
 ### Дивіться також
 
--   [openssldigest()](function.openssl-digest.md) - Обчислення дайджесту
--   [opensslgetciphermethods()](function.openssl-get-cipher-methods.md) - Отримати список доступних алгоритмів шифрування
+-   [openssl\_digest()](function.openssl-digest.md) \- Обчислення дайджесту
+-   [openssl\_get\_cipher\_methods()](function.openssl-get-cipher-methods.md) \- Отримати список доступних алгоритмів шифрування

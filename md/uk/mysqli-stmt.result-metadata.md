@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-stmt.reset.md: '« mysqlistmt::reset'
-  - mysqli-stmt.send-long-data.md: 'mysqlistmt::sendlongdata »'
+  - mysqli-stmt.reset.md: '« mysqli\_stmt::reset'
+  - mysqli-stmt.send-long-data.md: 'mysqli\_stmt::send\_long\_data »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::resultmetadata'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::result\_metadata'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::resultmetadata
+# mysqli\_stmt::result\_metadata
 
-# mysqlistmtresultmetadata
+# mysqli\_stmt\_result\_metadata
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::resultmetadata - mysqlistmtresultmetadata — Повертає метадані результуючої таблиці запиту, що готується.
+mysqli\_stmt::result\_metadata -- mysqli\_stmt\_result\_metadata — Повертає метадані результуючої таблиці запиту, що готується.
 
 ### Опис
 
@@ -28,44 +29,48 @@ public mysqli_stmt::result_metadata(): mysqli_result|false
 mysqli_stmt_result_metadata(mysqli_stmt $statement): mysqli_result|false
 ```
 
-Якщо запит, переданий у [mysqliprepare()](mysqli.prepare.md), генерує результуючу таблицю, **mysqlistmtresultmetadata()** повертає об'єкт, за допомогою якого можна отримати опис цього результуючого набору. Зокрема, можна отримати кількість полів та опис кожного окремого поля.
+Якщо запит, переданий у [mysqli\_prepare()](mysqli.prepare.md), генерирует результирующую таблицу,**mysqli\_stmt\_result\_metadata()** повертає об'єкт, за допомогою якого можна отримати опис цього результуючого набору. Зокрема, можна отримати кількість полів та опис кожного окремого поля.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Отриманий об'єктний покажчик можна передавати як аргумент функції обробки метаданих результуючих таблиць, як наприклад:
+> Отриманий об'єктний покажчик можна передавати як аргумент у функції обробки метаданих результуючих таблиць, як:
 > 
-> -   [mysqlinumfields()](mysqli-result.field-count.md)
+> -   [mysqli\_num\_fields()](mysqli-result.field-count.md)
 >     
-> -   [mysqlifetchfield()](mysqli-result.fetch-field.md)
+> -   [mysqli\_fetch\_field()](mysqli-result.fetch-field.md)
 >     
-> -   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md)
+> -   [mysqli\_fetch\_field\_direct()](mysqli-result.fetch-field-direct.md)
 >     
-> -   [mysqlifetchfields()](mysqli-result.fetch-fields.md)
+> -   [mysqli\_fetch\_fields()](mysqli-result.fetch-fields.md)
 >     
-> -   [mysqlifieldcount()](mysqli.field-count.md)
+> -   [mysqli\_field\_count()](mysqli.field-count.md)
 >     
-> -   [mysqlifieldseek()](mysqli-result.field-seek.md)
+> -   [mysqli\_field\_seek()](mysqli-result.field-seek.md)
 >     
-> -   [mysqlifieldtell()](mysqli-result.current-field.md)
+> -   [mysqli\_field\_tell()](mysqli-result.current-field.md)
 >     
-> -   [mysqlifreeresult()](mysqli-result.free.md)
+> -   [mysqli\_free\_result()](mysqli-result.free.md)
 >     
 
-Після завершення роботи з цим об'єктом пам'ять, яку він займає, необхідно звільнити. Зробити це можна, передавши об'єктний покажчик на функцію [mysqlifreeresult()](mysqli-result.free.md)
+Після завершення роботи з цим об'єктом пам'ять, яку він займає, необхідно звільнити. Зробити це можна, передавши об'єктний покажчик на функцію [mysqli\_free\_result()](mysqli-result.free.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Результуючий набір, що повертається з \*\*mysqlistmtresultmetadata()\*\*містить тільки метадані. У ньому немає рядків вибірки. Результати запиту можна отримати за допомогою функції [mysqlistmtfetch()](mysqli-stmt.fetch.md)
+> Результуючий набір, що повертається з \*\*mysqli\_stmt\_result\_metadata()\*\*містить тільки метадані. У ньому немає рядків вибірки. Результати запиту можна отримати за допомогою функції [mysqli\_stmt\_fetch()](mysqli-stmt.fetch.md)
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
-Повертає об'єкт або **`false`** у разі помилки.
+Повертає об'єкт або \*\*`false`\*\*случае возникновения ошибки.
+
+### Помилки
+
+Якщо сповіщення про помилки mysqli включено (**`MYSQLI_REPORT_ERROR`**) та запитана операція не вдалася, видається попередження. Якщо, крім того, встановлено режим **`MYSQLI_REPORT_STRICT`**, натомість буде викинуто виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.md)
 
 ### Приклади
 
@@ -131,5 +136,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
--   [mysqlifreeresult()](mysqli-result.free.md) - звільняє пам'ять, зайняту результатами запиту
+-   [mysqli\_prepare()](mysqli.prepare.md) \- готує SQL вираз до виконання
+-   [mysqli\_free\_result()](mysqli-result.free.md) \- звільняє пам'ять, зайняту результатами запиту

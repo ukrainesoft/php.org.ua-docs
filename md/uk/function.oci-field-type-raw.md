@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-field-size.md: « ocifieldsize
-  - function.oci-field-type.md: ocifieldtype »
+  - function.oci-field-size.md: « oci\_field\_size
+  - function.oci-field-type.md: oci\_field\_type »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocifieldtyperaw
+  - ref.oci8.md: OCI8 Функції
+title: oci\_field\_type\_raw
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocifieldtyperaw
+# oci\_field\_type\_raw
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocifieldtyperaw — Повертає вихідний тип поля Oracle
+oci\_field\_type\_raw — Повертає вихідний тип поля Oracle
 
 ### Опис
 
@@ -20,7 +21,7 @@ oci_field_type_raw(resource $statement, string|int $column): int|false
 
 Повертає тип "SQLT" Oracle поля `column`
 
-Якщо ви бажаєте отримати тип поля, то [ocifieldtype()](function.oci-field-type.md) підійде вам більше.
+Якщо ви бажаєте отримати тип поля, то [oci\_field\_type()](function.oci-field-type.md) підійде вам більше.
 
 ### Список параметрів
 
@@ -34,11 +35,11 @@ oci_field_type_raw(resource $statement, string|int $column): int|false
 
 ### Значення, що повертаються
 
-Повертає вихідний тип Oracle у вигляді числа або **`false`** у разі виникнення помилки.
+Повертає вихідний тип Oracle у вигляді числа або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ocifieldtyperaw()****
+**Пример #1 Пример использования**oci\_field\_type\_raw()\*\*\*\*
 
 ```php
 <?php
@@ -70,9 +71,3 @@ oci_close($conn);
 
 ?>
 ```
-
-### Примітки
-
-> **Зауваження**
-> 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumntyperaw()](function.ocicolumntyperaw.md). У PHP 5.0.0 і вище [ocicolumntyperaw()](function.ocicolumntyperaw.md) є аліасом \*\*ocifieldtyperaw()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

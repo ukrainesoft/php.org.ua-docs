@@ -1,38 +1,39 @@
 ---
 navigation:
-  - function.socket-set-nonblock.md: « socketsetnonblock
-  - function.socket-setopt.md: socketsetopt »
+  - function.socket-set-nonblock.md: « socket\_set\_nonblock
+  - function.socket-setopt.md: socket\_setopt »
   - index.md: PHP Manual
-  - ref.sockets.md: Функции сокета
-title: socketsetoption
+  - ref.sockets.md: Опції сокету
+title: socket\_set\_option
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# socketsetoption
+# socket\_set\_option
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-socketsetoption — Встановлює опції для сокету
+socket\_set\_option — Встановлює опції для сокету
 
 ### Опис
 
 ```methodsynopsis
-socket_set_option(    Socket $socket,    int $level,    int $option,    array|string|int $value): bool
+socket_set_option(    Socket $socket,    int $level,    int $option,    array|string|int $value): bool
 ```
 
-Функція **socketsetoption()** встановлює опцію, вказану в параметрі `option`, на рівні протоколу `level`у значення, вказане параметром `value` для сокету `socket`
+Функция**socket\_set\_option()** встановлює опцію, вказану в параметрі `option`, на рівні протоколу `level`, в значение, указанное параметром`value`для сокета`socket`
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.md) або [socketaccept()](function.socket-accept.md)
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socket\_create()](function.socket-create.md) або [socket\_accept()](function.socket-accept.md)
 
 `level`
 
-Параметр `level` вказує рівень протоколу, у якому використовується опція. Наприклад, щоб встановити опції на рівні сокету, параметр `level` повинен бути встановлений у **`SOL_SOCKET`**. Інші рівні, такі як TCP, можна використовувати, вказавши номер цього рівня. Номер протоколів можна знайти за допомогою функції [getprotobyname()](function.getprotobyname.md)
+Параметр`level` вказує рівень протоколу, у якому використовується опція. Наприклад, щоб встановити опції на рівні сокету, параметр `level` повинен бути встановлений у **`SOL_SOCKET`**. Інші рівні, наприклад TCP, можна використовувати, вказавши номер протоколу цього рівня. Номер протоколів можна знайти за допомогою функції [getprotobyname()](function.getprotobyname.md)
 
 `option`
 
-Можливі опції для сокету ті самі, як і для функції [socketgetoption()](function.socket-get-option.md)
+Можливі опції для сокету ті самі, як і для функції [socket\_get\_option()](function.socket-get-option.md)
 
 `value`
 
@@ -40,17 +41,17 @@ socket_set_option(    Socket $socket,    int $level,    int $option,    array|st
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| 8.0.0 | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **socketsetoption()****
+**Пример #1 Пример использования**socket\_set\_option()\*\*\*\*
 
 ```php
 <?php
@@ -80,8 +81,8 @@ if ($rval === false) {
 
 ### Дивіться також
 
--   [socketcreate()](function.socket-create.md) - створює сокет (кінцеву точку для обміну інформацією)
--   [socketbind()](function.socket-bind.md) - Прив'язує ім'я до сокету
--   [socketstrerror()](function.socket-strerror.md) - Повертає рядок, що описує помилку сокету
--   [socketlasterror()](function.socket-last-error.md) - Повертає останню помилку на сокеті
--   [socketgetoption()](function.socket-get-option.md) - Отримує опції потоку для сокету
+-   [socket\_create()](function.socket-create.md) \- створює сокет (кінцеву точку для обміну інформацією)
+-   [socket\_bind()](function.socket-bind.md) \- Прив'язує ім'я до сокету
+-   [socket\_strerror()](function.socket-strerror.md) \- Повертає рядок, що описує помилку сокету
+-   [socket\_last\_error()](function.socket-last-error.md) \- Повертає останню помилку на сокеті
+-   [socket\_get\_option()](function.socket-get-option.md) \- Отримує опції потоку для сокету

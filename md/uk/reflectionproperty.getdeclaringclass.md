@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::getDeclaringClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionProperty::getDeclaringClass
 
@@ -30,4 +31,4 @@ public ReflectionProperty::getDeclaringClass(): ReflectionClass
 
 ### Дивіться також
 
--   [ReflectionProperty::getName()](reflectionproperty.getname.md) - Отримання імені властивості
+-   [ReflectionProperty::getName()](reflectionproperty.getname.md) \- Отримання імені властивості

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-area.onkey.md: '« UIArea::onKey'
-  - ui-area.redraw.md: 'ОЙArea::redraw »'
+  - ui-area.onkey.md: '« UI\\Area::onKey'
+  - ui-area.redraw.md: 'UI\\Area::redraw »'
   - index.md: PHP Manual
-  - class.ui-area.md: ОЙArea
-title: 'ОЙArea::onMouse'
+  - class.ui-area.md: UI\\Area
+title: 'UI\\Area::onMouse'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙArea::onMouse
+# UI\\Area::onMouse
 
 (UI 0.9.9)
 
-ОЙArea::onMouse — Функція зворотного виклику миші
+UI\\Area::onMouse — Функція зворотного виклику миші
 
 ### Опис
 

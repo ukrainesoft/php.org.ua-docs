@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-sub.md: « tradersub
-  - function.trader-t3.md: tradert3 »
+  - function.trader-sub.md: « trader\_sub
+  - function.trader-t3.md: trader\_t3 »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradersum
+  - ref.trader.md: Функції Trader
+title: trader\_sum
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradersum
+# trader\_sum
 
 (PECL trader >= 0.2.0)
 
-tradersum — Підсумовування
+trader\_sum — Підсумовування
 
 ### Опис
 

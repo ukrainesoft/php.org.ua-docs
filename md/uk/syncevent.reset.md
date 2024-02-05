@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.syncevent.md: SyncEvent
 title: 'SyncEvent::reset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SyncEvent::reset
 
@@ -18,7 +19,7 @@ SyncEvent::reset — Скидає ручну подію
 public SyncEvent::reset(): bool
 ```
 
-Скидає об'єкт [SyncEvent](class.syncevent.md), який було запущено/встановлено. Дійсно лише для об'єктів подій зі скиданням вручну.
+Скидає об'єкт [SyncEvent](class.syncevent.md), який було запущено/встановлено. Дійсно, тільки для об'єктів подій зі скиданням вручну.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public SyncEvent::reset(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 **SyncEvent::reset()** example**
+**Пример #1**SyncEvent::reset()**example**
 
 ```php
 <?php
@@ -48,6 +49,6 @@ $event->fire();
 
 ### Дивіться також
 
--   [SyncEvent::fire()](syncevent.fire.md) - Запускає/встановлює подію
+-   [SyncEvent::fire()](syncevent.fire.md) \- Запускає/встановлює подію
 -   **SyncEvent::reset()**
--   [SyncEvent::wait()](syncevent.wait.md) - Очікує запуску/установки події
+-   [SyncEvent::wait()](syncevent.wait.md) \- Очікує запуску/установки події

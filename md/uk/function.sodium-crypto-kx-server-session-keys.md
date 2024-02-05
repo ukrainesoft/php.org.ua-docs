@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-kx-seed-keypair.md: « sodiumcryptoкксseedkeypair
-  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md: sodiumcryptopwhashscryptsalsa208sha256strverify »
+  - function.sodium-crypto-kx-seed-keypair.md: « sodium\_crypto\_kx\_seed\_keypair
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md: sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str\_verify »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoкксserversessionkeys
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_kx\_server\_session\_keys
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoкксserversessionkeys
+# sodium\_crypto\_kx\_server\_session\_keys
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoкксserversessionkeys — обчислює ключі сесії на стороні сервера
+sodium\_crypto\_kx\_server\_session\_keys — обчислює ключі сесії на стороні сервера
 
 ### Опис
 
@@ -24,11 +25,11 @@ sodium_crypto_kx_server_session_keys(string $server_key_pair, string $client_key
 
 `server_key_pair`
 
-Пара ключів cryptokx, наприклад, згенерована [sodiumcryptoкксkeypair()](function.sodium-crypto-kx-keypair.md)
+Пара ключів crypto\_kx, наприклад, згенерована [sodium\_crypto\_kx\_keypair()](function.sodium-crypto-kx-keypair.md)
 
 `client_key`
 
-Відкритий ключ cryptokx.
+Відкритий ключ crypto\_kx.
 
 ### Значення, що повертаються
 

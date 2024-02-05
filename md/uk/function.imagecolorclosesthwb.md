@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolorclosesthwb
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecolorclosesthwb
 
-(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 imagecolorclosesthwb — Отримання індексу кольору, що має заданий тон, білизну та затемнення
 
 ### Опис
 
 ```methodsynopsis
-imagecolorclosesthwb(    GdImage $image,    int $red,    int $green,    int $blue): int
+imagecolorclosesthwb(    GdImage $image,    int $red,    int $green,    int $blue): int
 ```
 
 Отримання індексу кольору, що має значення тону, білизни та затемнення найбільш близькі до заданого кольору.
@@ -44,13 +45,13 @@ imagecolorclosesthwb(    GdImage $image,    int $red,    int $green,    int $blu
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagecolorclosesthwb()****
+**Пример #1 Пример использования**imagecolorclosesthwb()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ imagedestroy($im);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 HWB: 33
@@ -70,4 +71,4 @@ HWB: 33
 
 ### Дивіться також
 
--   [imagecolorclosest()](function.imagecolorclosest.md) - Отримання індексу кольору найближчого до заданого
+-   [imagecolorclosest()](function.imagecolorclosest.md) \- Отримання індексу кольору найближчого до заданого

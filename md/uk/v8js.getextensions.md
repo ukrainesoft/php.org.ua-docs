@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.v8js.md: V8Js
 title: 'V8Js::getExtensions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # V8Js::getExtensions
 
@@ -18,7 +19,7 @@ V8Js::getExtensions — Повертає масив зареєстрованих
 public static V8Js::getExtensions(): array
 ```
 
-Повертає масив зареєстрованих за допомогою [V8Js::registerExtension()](v8js.registerextension.md) модулів Javascript
+Повертає масив зареєстрованих за допомогою [V8Js::registerExtension()](v8js.registerextension.md)модулей Javascript.
 
 ### Список параметрів
 

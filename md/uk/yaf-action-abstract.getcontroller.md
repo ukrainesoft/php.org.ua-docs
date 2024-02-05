@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-action-abstract.execute.md: '« YafActionAbstract::execute'
-  - yaf-controller-abstract.getcontrollername.md: 'YafActionAbstract::getControllerName »'
+  - yaf-action-abstract.execute.md: '« Yaf\_Action\_Abstract::execute'
+  - yaf-controller-abstract.getcontrollername.md: 'Yaf\_Action\_Abstract::getControllerName »'
   - index.md: PHP Manual
-  - class.yaf-action-abstract.md: YafActionAbstract
-title: 'YafActionAbstract::getController'
+  - class.yaf-action-abstract.md: Yaf\_Action\_Abstract
+title: 'Yaf\_Action\_Abstract::getController'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafActionAbstract::getController
+# Yaf\_Action\_Abstract::getController
 
 (Yaf >=1.0.0)
 
-YafActionAbstract::getController — Отримати об'єкт контролер
+Yaf\_Action\_Abstract::getController — Отримати об'єкт контролер
 
 ### Опис
 
@@ -26,4 +27,4 @@ publicYaf_Action_Abstract::getController(): Yaf_Controller_Abstract
 
 ### Значення, що повертаються
 
-Об'єкт класу [YafControllerAbstract](class.yaf-controller-abstract.md)
+Об'єкт класу [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.md)

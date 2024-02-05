@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.push.md: '« DsVector::push'
-  - ds-vector.remove.md: 'ДсVector::remove »'
+  - ds-vector.push.md: '« Ds\\Vector::push'
+  - ds-vector.remove.md: 'Ds\\Vector::remove »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::reduce'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::reduce'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::reduce
+# Ds\\Vector::reduce
 
 (PECL ds >= 1.0.0)
 
-ДсVector::reduce — Зменшує вектор до одного значення, використовуючи callback-функцію
+Ds\\Vector::reduce — Зменшує вектор до одного значення, використовуючи callback-функцію
 
 ### Опис
 
@@ -46,7 +47,7 @@ callback(mixed $carry, mixed $value): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::reduce()** з початковим значенням**
+**Пример #1 Пример использования**Ds\\Vector::reduce()\*\* з початковим значенням\*\*
 
 ```php
 <?php
@@ -68,13 +69,13 @@ var_dump($vector->reduce($callback, 5));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(30)
 ```
 
-**Приклад #2 Приклад використання **ДсVector::reduce()** без початкового значення**
+**Пример #2 Пример использования**Ds\\Vector::reduce()\*\* без початкового значення\*\*
 
 ```php
 <?php
@@ -94,7 +95,7 @@ var_dump($vector->reduce(function($carry, $value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(21)

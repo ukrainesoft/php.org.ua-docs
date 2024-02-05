@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.fannconnection.md: FANNConnection
 title: 'FANNConnection::getWeight'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FANNConnection::getWeight
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
 FANNConnection::getWeight — Повертає вагу зв'язку
 

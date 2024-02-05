@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::getCalendarObject'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::getCalendarObject
 
-# datefmtgetcalendarobject
+# datefmt\_get\_calendar\_object
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL intl >= 3.0.0)
 
-IntlDateFormatter::getCalendarObject -- datefmtgetcalendarobject — Отримує копію об'єкта календаря засобу форматування.
+IntlDateFormatter::getCalendarObject -- datefmt\_get\_calendar\_object — Отримує копію об'єкта календаря засобу форматування.
 
 ### Опис
 
@@ -36,11 +37,11 @@ datefmt_get_calendar_object(IntlDateFormatter $formatter): IntlCalendar|false|nu
 
 ### Значення, що повертаються
 
-Копія внутрішнього об'єкта календаря, що використовується засобом форматування або \*\*`null`\*\*якщо нічого не було встановлено або **`false`** у разі виникнення помилки.
+Копія внутрішнього об'єкта календаря, що використовується засобом форматування або \*\*`null`\*\*якщо нічого не було встановлено або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlDateFormatter::getCalendarObject()****
+**Пример #1 Пример использования**IntlDateFormatter::getCalendarObject()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ var_dump(
 );
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(7) "islamic"
@@ -80,6 +81,6 @@ string(5) "fr_FR"
 
 ### Дивіться також
 
--   [IntlDateFormatter::getCalendar()](intldateformatter.getcalendar.md) - Отримує тип календаря, який використовується IntlDateFormatter
--   [IntlDateFormatter::setCalendar()](intldateformatter.setcalendar.md) - Встановлює тип календаря, який використовується засобом форматування
+-   [IntlDateFormatter::getCalendar()](intldateformatter.getcalendar.md) \- Отримує тип календаря для об'єкта IntlDateFormatter
+-   [IntlDateFormatter::setCalendar()](intldateformatter.setcalendar.md) \- Встановлює тип календаря, який використовується засобом форматування
 -   [IntlCalendar](class.intlcalendar.md)

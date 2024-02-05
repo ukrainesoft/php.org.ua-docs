@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.pdo.md: PDO
 title: 'PDO::errorInfo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::errorInfo
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8, PECL pdo >= 0.1.0)
 
 PDO::errorInfo — Отримує розширену інформацію про помилку, що сталася під час останнього звернення до бази даних
 
@@ -32,7 +33,7 @@ public PDO::errorInfo(): array
 |  | Код помилки заданий драйвером. |
 |  | Повідомлення про помилку, задане драйвером |
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо не встановлено SQLSTATE код або драйвер не повідомив про помилку, то елементи наступні за нульовим будуть мати значення **`null`**
 
@@ -40,7 +41,7 @@ public PDO::errorInfo(): array
 
 ### Приклади
 
-**Приклад #1 Виведення полів масиву errorInfo() для PDOODBC підключення до бази даних DB2**
+**Приклад #1 Виведення полів масиву errorInfo() для PDO\_ODBC підключення до бази даних DB2**
 
 ```php
 <?php
@@ -53,7 +54,7 @@ if (!$stmt) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 PDO::errorInfo():
@@ -67,6 +68,6 @@ Array
 
 ### Дивіться також
 
--   [PDO::errorCode()](pdo.errorcode.md) - Повертає код SQLSTATE результату останньої операції з базою даних
--   [PDOStatement::errorCode()](pdostatement.errorcode.md) - Отримує код SQLSTATE, пов'язаний з останньою операцією в об'єкті PDOStatement
--   [PDOStatement::errorInfo()](pdostatement.errorinfo.md) - отримання розширеної інформації про помилку, що сталася в результаті роботи об'єкта PDOStatement
+-   [PDO::errorCode()](pdo.errorcode.md) \- Повертає код SQLSTATE результату останньої операції з базою даних
+-   [PDOStatement::errorCode()](pdostatement.errorcode.md) \- Отримує код SQLSTATE, пов'язаний з останньою операцією в об'єкті PDOStatement
+-   [PDOStatement::errorInfo()](pdostatement.errorinfo.md) \- отримання розширеної інформації про помилку, що сталася в результаті роботи об'єкта PDOStatement

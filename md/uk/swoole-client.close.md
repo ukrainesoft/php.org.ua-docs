@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-client.md: « SwooleClient
-  - swoole-client.connect.md: 'SwooleClient::connect »'
+  - class.swoole-client.md: « Swoole\\Client
+  - swoole-client.connect.md: 'Swoole\\Client::connect »'
   - index.md: PHP Manual
-  - class.swoole-client.md: SwooleClient
-title: 'SwooleClient::close'
+  - class.swoole-client.md: Swoole\\Client
+title: 'Swoole\\Client::close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleClient::close
+# Swoole\\Client::close
 
 (PECL swoole >= 1.9.0)
 
-SwooleClient::close — Закриває встановлене з'єднання
+Swoole\\Client::close — Закриває встановлене з'єднання
 
 ### Опис
 

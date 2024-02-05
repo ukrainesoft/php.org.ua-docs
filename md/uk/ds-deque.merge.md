@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.map.md: '« DsDeque::map'
-  - ds-deque.pop.md: 'ДсDeque::pop »'
+  - ds-deque.map.md: '« Ds\\Deque::map'
+  - ds-deque.pop.md: 'Ds\\Deque::pop »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::merge'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::merge'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::merge
+# Ds\\Deque::merge
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::merge — Повертає результат додавання всіх заданих значень у двосторонню чергу
+Ds\\Deque::merge — Повертає результат додавання всіх заданих значень у двосторонню чергу
 
 ### Опис
 
@@ -24,19 +25,19 @@ public Ds\Deque::merge(mixed $values): Ds\Deque
 
 `values`
 
-Об'єкт класу [traversable](class.traversable.md) або array.
+Об'єкт класу [traversable](class.traversable.md)или array.
 
 ### Значення, що повертаються
 
 Результат додавання всіх переданих значень у двосторонню чергу. Фактично робиться копія двосторонньої черги, до якої додаються значення.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Поточний екземпляр двосторонньої черги залишиться недоторканим.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::merge()****
+**Пример #1 Пример использования**Ds\\Deque::merge()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ var_dump($deque);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Deque)#2 (6) {

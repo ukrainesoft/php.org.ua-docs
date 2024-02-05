@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionattribute.md: ReflectionAttribute
 title: 'ReflectionAttribute::isRepeated'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionAttribute::isRepeated
 
 (PHP 8)
 
-ReflectionAttribute::isRepeated — Перевіряє, чи може атрибут вказуватися багаторазово в елементі коду
+ReflectionAttribute::isRepeated — Визначає, чи був атрибут з таким ім'ям вказаний багаторазово в елементі коду
 
 ### Опис
 
@@ -18,7 +19,7 @@ ReflectionAttribute::isRepeated — Перевіряє, чи може атриб
 public ReflectionAttribute::isRepeated(): bool
 ```
 
-Перевіряє, чи атрибут може вказуватися багаторазово в елементі коду.
+Повертає, чи атрибут з таким іменем був вказаний багаторазово в елементі коду.
 
 ### Список параметрів
 
@@ -26,4 +27,4 @@ public ReflectionAttribute::isRepeated(): bool
 
 ### Значення, що повертаються
 
-Повертає \*\*`true`\*\*якщо атрибут може використовуватися багаторазово, в іншому випадку **`false`**
+Повертає **`true`**, якщо атрибут використовувався багаторазово, інакше повертає **`false`**

@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.is-writable.md: « iswritable
+  - function.is-writable.md: « is\_writable
   - function.lchgrp.md: lchgrp »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
-title: ісwriteable
+title: is\_writeable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісwriteable
+# is\_writeable
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісwriteable - Псевдонім [ісwritable()](function.is-writable.md)
+is\_writeable — Псевдоним[is\_writable()](function.is-writable.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ісwritable()](function.is-writable.md)
+Функция — псевдоним функции:[is\_writable()](function.is-writable.md)

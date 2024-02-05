@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.filter.md: '« DsVector::filter'
-  - ds-vector.first.md: 'ДсVector::first »'
+  - ds-vector.filter.md: '« Ds\\Vector::filter'
+  - ds-vector.first.md: 'Ds\\Vector::first »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::find'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::find'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::find
+# Ds\\Vector::find
 
 (PECL ds >= 1.0.0)
 
-ДсVector::find — Пошук індексу за значенням
+Ds\\Vector::find — Пошук індексу за значенням
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсVector::find'
 public Ds\Vector::find(mixed $value): mixed
 ```
 
-Повертає індекс значення `value` або \*\*`false`\*\*якщо нічого не знайдено.
+Повертає індекс значення `value`или\*\*`false`\*\*якщо нічого не знайдено.
 
 ### Список параметрів
 
@@ -30,13 +31,13 @@ public Ds\Vector::find(mixed $value): mixed
 
 Індекс елемента або \*\*`false`\*\*якщо значення не знайдено.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Елементи порівнюються суворо (за типом та значенням).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::find()****
+**Пример #1 Пример использования**Ds\\Vector::find()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($vector->find(1));   // 1
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(0)

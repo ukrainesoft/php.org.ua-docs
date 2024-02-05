@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.weakreference.md: WeakReference
 title: 'WeakReference::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # WeakReference::get
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 WeakReference::get — Отримує об'єкт із слабким посиланням
 

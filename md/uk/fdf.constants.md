@@ -5,61 +5,62 @@ navigation:
   - index.md: PHP Manual
   - book.fdf.md: FDF
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.
 
-**`FDFValue`** (int)
+**`FDFValue`**(int)
 
-**`FDFStatus`** (int)
+**`FDFStatus`**(int)
 
-**`FDFFile`** (int)
+**`FDFFile`**(int)
 
-**`FDFID`** (int)
+**`FDFID`**(int)
 
-**`FDFFf`** (int)
+**`FDFFf`**(int)
 
-**`FDFSetFf`** (int)
+**`FDFSetFf`**(int)
 
-**`FDFClearFf`** (int)
+**`FDFClearFf`**(int)
 
-**`FDFFlags`** (int)
+**`FDFFlags`**(int)
 
-**`FDFSetF`** (int)
+**`FDFSetF`**(int)
 
-**`FDFClrF`** (int)
+**`FDFClrF`**(int)
 
-**`FDFAP`** (int)
+**`FDFAP`**(int)
 
-**`FDFAS`** (int)
+**`FDFAS`**(int)
 
-**`FDFAction`** (int)
+**`FDFAction`**(int)
 
-**`FDFAA`** (int)
+**`FDFAA`**(int)
 
-**`FDFAPRef`** (int)
+**`FDFAPRef`**(int)
 
-**`FDFIF`** (int)
+**`FDFIF`**(int)
 
-**`FDFEnter`** (int)
+**`FDFEnter`**(int)
 
-**`FDFExit`** (int)
+**`FDFExit`**(int)
 
-**`FDFDown`** (int)
+**`FDFDown`**(int)
 
-**`FDFUp`** (int)
+**`FDFUp`**(int)
 
-**`FDFFormat`** (int)
+**`FDFFormat`**(int)
 
-**`FDFValidate`** (int)
+**`FDFValidate`**(int)
 
-**`FDFKeystroke`** (int)
+**`FDFKeystroke`**(int)
 
-**`FDFCalculate`** (int)
+**`FDFCalculate`**(int)
 
-**`FDFNormalAP`** (int)
+**`FDFNormalAP`**(int)
 
-**`FDFRolloverAP`** (int)
+**`FDFRolloverAP`**(int)
 
-**`FDFDownAP`** (int)
+**`FDFDownAP`**(int)

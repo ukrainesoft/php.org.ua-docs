@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-first-entry.md: « ldapfirstentry
-  - function.ldap-free-result.md: ldapfreeresult »
+  - function.ldap-first-entry.md: « ldap\_first\_entry
+  - function.ldap-free-result.md: ldap\_free\_result »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapfirstreference
+title: ldap\_first\_reference
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapfirstreference
+# ldap\_first\_reference
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
-ldapfirstreference — Повертає першу довідку
+ldap\_first\_reference — Повертає першу довідку
 
 ### Опис
 
@@ -20,4 +21,4 @@ ldap_first_reference(LDAP\Connection $ldap, LDAP\Result $result): LDAP\ResultEnt
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

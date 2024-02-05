@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: gethostbynamel
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gethostbynamel
 
@@ -32,7 +33,7 @@ gethostbynamel(string $hostname): array|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **gethostbynamel()****
+**Пример #1 Пример использования функции**gethostbynamel()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ print_r($hosts);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -52,8 +53,8 @@ Array
 
 ### Дивіться також
 
--   [gethostbyname()](function.gethostbyname.md) - Отримує IPv4-адресу, що відповідає переданому імені хоста
--   [gethostbyaddr()](function.gethostbyaddr.md) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
--   [checkdnsrr()](function.checkdnsrr.md) - Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
--   [getmxrr()](function.getmxrr.md) - Отримує записи MX, що відповідають переданому доменному імені хоста
--   the `named(8)` manual page
+-   [gethostbyname()](function.gethostbyname.md) \- Отримує IPv4-адресу, що відповідає переданому імені хоста
+-   [gethostbyaddr()](function.gethostbyaddr.md) \- Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
+-   [checkdnsrr()](function.checkdnsrr.md) \- Перевіряє записи DNS, що відповідають переданому імені вузла Інтернету або IP-адресі
+-   [getmxrr()](function.getmxrr.md) \- Отримує записи MX, що відповідають переданому доменному імені хоста
+-   the`named(8)`manual page

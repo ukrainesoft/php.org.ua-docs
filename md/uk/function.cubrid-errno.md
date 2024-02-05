@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-db-name.md: « cubridдбname
-  - function.cubrid-error.md: cubriderror »
+  - function.cubrid-db-name.md: « cubrid\_db\_name
+  - function.cubrid-error.md: cubrid\_error »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubriderrno
+title: cubrid\_errno
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubriderrno
+# cubrid\_errno
 
 (PECL CUBRID >= 8.3.1)
 
-cubriderrno - Повертає код помилки попередньої операції CUBRID
+cubrid\_errno - Повертає код помилки попередньої операції CUBRID
 
 ### Опис
 
@@ -20,21 +21,21 @@ cubrid_errno(resource $conn_identifier = ?): int
 
 Повертає код помилки попередньої операції CUBRID.
 
-Функція **cubriderrno()** використовується для отримання коду помилки, що відбулася. Зазвичай ви можете отримати код помилки, якщо якась функція повернула **`false`**
+Функция**cubrid\_errno()** використовується для отримання коду помилки, що відбулася. Зазвичай ви можете отримати код помилки, якщо якась функція повернула **`false`**
 
 ### Список параметрів
 
 `conn_identifier`
 
-Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.md) з'єднання.
+Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubrid\_connect()](function.cubrid-connect.md)соединение.
 
 ### Значення, що повертаються
 
-Код помилки, що виникла, або `0` (нуль), якщо помилки не було.
+Код помилки, що виникла, або (нуль), якщо помилки не було.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubriderrno()****
+**Пример #1 Пример использования**cubrid\_errno()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ if ($req) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Код ошибки: -493 Текст ошибки: Syntax: Unknown class "person". select id, [name] from person
@@ -58,6 +59,6 @@ if ($req) {
 
 ### Дивіться також
 
--   [cubriderror()](function.cubrid-error.md) - Повертає текст останньої помилки, що відбулася.
--   [cubriderrorcode()](function.cubrid-error-code.md) - Отримати код помилки
--   [cubriderrormsg()](function.cubrid-error-msg.md) - Повертає текст останньої помилки, що відбулася.
+-   [cubrid\_error()](function.cubrid-error.md) \- Повертає текст останньої помилки, що відбулася.
+-   [cubrid\_error\_code()](function.cubrid-error-code.md) \- Отримати код помилки
+-   [cubrid\_error\_msg()](function.cubrid-error-msg.md) \- Повертає текст останньої помилки, що відбулася.

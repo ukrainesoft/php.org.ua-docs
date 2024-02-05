@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ui-draw-text-font-fontfamilies.md: « UIDrawTextFontfontFamilies
-  - function.ui-run.md: ОЙrun »
+  - function.ui-draw-text-font-fontfamilies.md: « UI\\Draw\\Text\\Font\\fontFamilies
+  - function.ui-run.md: UI\\run »
   - index.md: PHP Manual
-  - ref.ui.md: Функции UI
-title: ОЙquit
+  - ref.ui.md: Функції UI
+title: UI\\quit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙquit
+# UI\\quit
 
 (UI 2.0.0)
 
-ОЙquit — Вийти з циклу UI
+UI\\quit — Вийти з циклу UI
 
 ### Опис
 

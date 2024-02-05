@@ -4,17 +4,18 @@ navigation:
   - class.soapvar.md: SoapVar »
   - index.md: PHP Manual
   - class.soapparam.md: SoapParam
-title: 'SoapParam::construct'
+title: 'SoapParam::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapParam::construct
+# SoapParam::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapParam::construct - Конструктор SoapParam
+SoapParam::\_\_construct - Конструктор SoapParam
 
 ### Опис
 
-public **SoapParam::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`, string `$name`
+public**SoapParam::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`, string`$name`) .
 
 Створює новий об'єкт [SoapParam](class.soapparam.md)
 
@@ -30,7 +31,7 @@ public **SoapParam::construct**[mixed](language.types.declarations.md#language.t
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapParam::SoapParam()****
+**Пример #1 Пример использования**SoapParam::SoapParam()\*\*\*\*
 
 ```php
 <?php
@@ -44,5 +45,5 @@ $client->SomeFunction(new SoapParam($a, "a"),
 
 ### Дивіться також
 
--   [SoapClient::soapCall()](soapclient.soapcall.md) - Викликає SOAP-функцію
+-   [SoapClient::\_\_soapCall()](soapclient.soapcall.md) \- Викликає SOAP-функцію
 -   **SoapVar::SoapVar()**

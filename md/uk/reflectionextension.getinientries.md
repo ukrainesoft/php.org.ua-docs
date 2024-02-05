@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::getINIEntries'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionExtension::getINIEntries
 
@@ -30,7 +31,7 @@ public ReflectionExtension::getINIEntries(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionExtension::getINIEntries()****
+**Пример #1 Пример использования**ReflectionExtension::getINIEntries()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ print_r($ext->getINIEntries());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -62,5 +63,5 @@ Array
 
 ### Дивіться також
 
--   [inigetall()](function.ini-get-all.md) - Отримує всі налаштування конфігурації
--   [ReflectionExtension::getConstants()](reflectionextension.getconstants.md) - Отримання констант
+-   [ini\_get\_all()](function.ini-get-all.md) \- Отримує всі налаштування конфігурації
+-   [ReflectionExtension::getConstants()](reflectionextension.getconstants.md) \- Отримання констант

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-lock.destruct.md: '« SwooleLock::destruct'
-  - swoole-lock.lock.md: 'SwooleLock::lock »'
+  - swoole-lock.destruct.md: '« Swoole\\Lock::\_\_destruct'
+  - swoole-lock.lock.md: 'Swoole\\Lock::lock »'
   - index.md: PHP Manual
-  - class.swoole-lock.md: SwooleLock
-title: 'SwooleLock::lockread'
+  - class.swoole-lock.md: Swoole\\Lock
+title: 'Swoole\\Lock::lock\_read'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleLock::lockread
+# Swoole\\Lock::lock\_read
 
 (PECL swoole >= 1.9.0)
 
-SwooleLock::lockread — Блокує читання-запис блокування для читання
+Swoole\\Lock::lock\_read - Блокує читання-запис блокування для читання
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-size.getheight.md: '« UISize::getHeight'
-  - ui-size.of.md: 'ОЙSize::of »'
+  - ui-size.getheight.md: '« UI\\Size::getHeight'
+  - ui-size.of.md: 'UI\\Size::of »'
   - index.md: PHP Manual
-  - class.ui-size.md: ОЙSize
-title: 'ОЙSize::getWidth'
+  - class.ui-size.md: UI\\Size
+title: 'UI\\Size::getWidth'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙSize::getWidth
+# UI\\Size::getWidth
 
 (UI 0.9.9)
 
-ОЙSize::getWidth — Отримує ширину
+UI\\Size::getWidth — Отримує ширину
 
 ### Опис
 

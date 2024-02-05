@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-box.md: « sodiumcryptobox
-  - function.sodium-crypto-core-ristretto255-from-hash.md: sodiumcryptocoreristretto255fromhash »
+  - function.sodium-crypto-box.md: « sodium\_crypto\_box
+  - function.sodium-crypto-core-ristretto255-from-hash.md: sodium\_crypto\_core\_ristretto255\_from\_hash »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptocoreristretto255add
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_core\_ristretto255\_add
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptocoreristretto255add
+# sodium\_crypto\_core\_ristretto255\_add
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-sodiumcryptocoreristretto255add — Додає елемент
+sodium\_crypto\_core\_ristretto255\_add — Додає елемент
 
 ### Опис
 
@@ -18,11 +19,11 @@ sodiumcryptocoreristretto255add — Додає елемент
 sodium_crypto_core_ristretto255_add(string $p, string $q): string
 ```
 
-Додає елемент `q` до `p`. Доступно, починаючи з libsodium 1.0.18.
+Додає елемент `q`к`p`. Доступно, починаючи з libsodium 1.0.18.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -40,7 +41,7 @@ sodium_crypto_core_ristretto255_add(string $p, string $q): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptocoreristretto255add()****
+**Пример #1 Пример использования**sodium\_crypto\_core\_ristretto255\_add()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ var_dump(hash_equals($foo, $value));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -63,5 +64,5 @@ bool(true)
 
 ### Дивіться також
 
--   [sodiumcryptocoreristretto255random()](function.sodium-crypto-core-ristretto255-random.md) - Генерує випадковий ключ
--   [sodiumcryptocoreristretto255sub()](function.sodium-crypto-core-ristretto255-sub.md) - Віднімає елемент
+-   [sodium\_crypto\_core\_ristretto255\_random()](function.sodium-crypto-core-ristretto255-random.md) \- Генерує випадковий ключ
+-   [sodium\_crypto\_core\_ristretto255\_sub()](function.sodium-crypto-core-ristretto255-sub.md) \- Віднімає елемент

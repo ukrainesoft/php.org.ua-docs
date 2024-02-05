@@ -1,18 +1,19 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-exception.md: « MongoDBDriverExceptionException
-  - class.mongodb-driver-exception-invalidargumentexception.md: MongoDBDriverExceptionInvalidArgumentException »
+  - class.mongodb-driver-exception-exception.md: « MongoDB\\Driver\\Exception\\Exception
+  - class.mongodb-driver-exception-invalidargumentexception.md: MongoDB\\Driver\\Exception\\InvalidArgumentException »
   - index.md: PHP Manual
-  - mongodb.exceptions.md: MongoDBDriverException
-title: Клас MongoDBDriverExceptionExecutionTimeoutException
+  - mongodb.exceptions.md: MongoDB\\Driver\\Exception
+title: Клас MongoDB\\Driver\\Exception\\ExecutionTimeoutException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverExceptionExecutionTimeoutException
+# Клас MongoDB\\Driver\\Exception\\ExecutionTimeoutException
 
 (mongodb >= 1.0.0)
 
 ## Вступ
 
-Викидається, коли запит або команда не завершується протягом певного періоду часу (наприклад, [» maxTimeMS](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems)
+Викидається, коли запит або команда не завершується протягом певного періоду часу (наприклад, [» maxTimeMS](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems)
 
 ## Огляд класів
 
@@ -43,26 +44,26 @@ title: Клас MongoDBDriverExceptionExecutionTimeoutException
 
     
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */
@@ -87,7 +88,7 @@ private Exception::__clone(): void
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL mongodb 1.5.0 |  |
-| Тепер цей клас розширює [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.md) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md) |  |
+| Тепер цей клас розширює [MongoDB\\Driver\\Exception\\ServerException](class.mongodb-driver-exception-serverexception.md) замість [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.md) |  |

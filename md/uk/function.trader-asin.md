@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-aroonosc.md: « traderaroonosc
-  - function.trader-atan.md: traderatan »
+  - function.trader-aroonosc.md: « trader\_aroonosc
+  - function.trader-atan.md: trader\_atan »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderasin
+  - ref.trader.md: Функції Trader
+title: trader\_asin
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderasin
+# trader\_asin
 
 (PECL trader >= 0.2.0)
 
-traderasin - Векторний тригонометричний арксинус
+trader\_asin — Векторний тригонометричний арксинус
 
 ### Опис
 

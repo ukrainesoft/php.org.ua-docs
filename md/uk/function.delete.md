@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: delete
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # delete
 
-delete — Дивіться опис функції [unlink()](function.unlink.md) або [unset()](function.unset.md)
+delete — Смотрите описание функции[unlink()](function.unlink.md) або [unset()](function.unset.md)
 
 ### Опис
 
@@ -16,5 +17,5 @@ delete — Дивіться опис функції [unlink()](function.unlink.m
 
 ### Дивіться також
 
--   [unlink()](function.unlink.md) - Видаляє файл
--   [unset()](function.unset.md) - Видаляє змінну
+-   [unlink()](function.unlink.md) \- Видаляє файл
+-   [unset()](function.unset.md) \- Видаляє змінну

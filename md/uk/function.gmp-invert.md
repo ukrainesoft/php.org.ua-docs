@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-intval.md: « gmpintval
-  - function.gmp-jacobi.md: gmpjacobi »
+  - function.gmp-intval.md: « gmp\_intval
+  - function.gmp-jacobi.md: gmp\_jacobi »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpinvert
+title: gmp\_invert
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpinvert
+# gmp\_invert
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpinvert — Інверсія залишку від розподілу
+gmp\_invert — Інверсія залишку від розподілу
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpinvert — Інверсія залишку від розподілу
 gmp_invert(GMP|int|string $num1, GMP|int|string $num2): GMP|false
 ```
 
-Обчислює інверсію залишку від поділу числа `num1` на число `num2`
+Обчислює інверсію залишку від поділу числа `num1`на число`num2`
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ GMP число у разі успішного виконання або \*\*`fal
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpinvert()****
+**Пример #1 Пример использования**gmp\_invert()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ echo gmp_strval($invert) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 9

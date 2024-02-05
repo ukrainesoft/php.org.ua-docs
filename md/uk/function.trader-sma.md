@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-sinh.md: « tradersinh
-  - function.trader-sqrt.md: tradersqrt »
+  - function.trader-sinh.md: « trader\_sinh
+  - function.trader-sqrt.md: trader\_sqrt »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradersma
+  - ref.trader.md: Функції Trader
+title: trader\_sma
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradersma
+# trader\_sma
 
 (PECL trader >= 0.2.0)
 
-tradersma — Просте ковзне середнє
+trader\_sma - Просте ковзне середнє
 
 ### Опис
 

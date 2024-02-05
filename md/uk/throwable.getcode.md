@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.throwable.md: Throwable
 title: 'Throwable::getCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Throwable::getCode
 
@@ -30,4 +31,4 @@ public Throwable::getCode(): int
 
 ### Дивіться також
 
--   [Exception::getCode()](exception.getcode.md) - Отримує код виключення
+-   [Exception::getCode()](exception.getcode.md) \- Отримує код виключення

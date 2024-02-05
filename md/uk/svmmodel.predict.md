@@ -1,10 +1,11 @@
 ---
 navigation:
-  - svmmodel.predict-probability.md: '« SVMModel::predictprobability'
+  - svmmodel.predict-probability.md: '« SVMModel::predict\_probability'
   - svmmodel.save.md: 'SVMModel::save »'
   - index.md: PHP Manual
   - class.svmmodel.md: SVMModel
 title: 'SVMModel::predict'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SVMModel::predict
 
@@ -32,4 +33,4 @@ public SVMModel::predict(array $data): float
 
 ### Дивіться також
 
--   [SVM::train()](svm.train.md) - Створити SVMModel на основі навчальних даних
+-   [SVM::train()](svm.train.md) \- Створити SVMModel на основі навчальних даних

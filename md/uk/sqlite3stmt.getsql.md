@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3stmt.md: SQLite3Stmt
 title: 'SQLite3Stmt::getSQL'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3Stmt::getSQL
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 SQLite3Stmt::getSQL — Отримати SQL-запит у вигляді рядка із запиту
 
@@ -18,7 +19,7 @@ SQLite3Stmt::getSQL — Отримати SQL-запит у вигляді ряд
 public SQLite3Stmt::getSQL(bool $expand = false): string|false
 ```
 
-Повертає строкове подання SQL-запиту для підготовленого запиту. Якщо параметр `expand` заданий як **`false`**, буде повернуто не модифікований SQL. Якщо ж `expand` заданий як **`true`**, всі параметри запиту будуть замінені на конкретні значення, або на `NULL`якщо значення ще не були прив'язані.
+Возвращает строковое представление SQL-запроса для подготовленного запроса. Если параметр`expand`задан как\*\*`false`**, буде повернуто не модифікований SQL. Якщо ж `expand`задан как**`true`\*\*, всі параметри запиту будуть замінені на конкретні значення, або на `NULL`якщо значення ще не були прив'язані.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ public SQLite3Stmt::getSQL(bool $expand = false): string|false
 
 ### Значення, що повертаються
 
-Повертає SQL-запит із підготовленого запиту або **`false`** у разі виникнення помилки.
+Повертає SQL-запит із підготовленого запиту або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Якщо `expand` заданий як **`true`**, але версія libsqlite нижче 3.14, буде викликана помилка рівня **`E_WARNING`** або викинуто виняток [Exception](class.exception.md), в залежності від налаштувань [SQLite3::enableExceptions()](sqlite3.enableexceptions.md)
+Якщо `expand`задан как\*\*`true`\*\*, але версія libsqlite нижче 3.14, буде викликана помилка рівня **`E_WARNING`** або викинуто виняток [Exception](class.exception.md), в зависимости от настроек[SQLite3::enableExceptions()](sqlite3.enableexceptions.md)
 
 ### Приклади
 
@@ -49,7 +50,7 @@ var_dump($stmt->getSQL(true));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(24) "SELECT 'foo', '42', NULL"

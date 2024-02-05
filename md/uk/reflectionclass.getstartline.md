@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getStartLine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getStartLine
 
@@ -20,10 +21,6 @@ public ReflectionClass::getStartLine(): int|false
 
 Повертає номер початкового рядка.
 
-**Увага**
-
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
-
 ### Список параметрів
 
 Ця функція не має параметрів.
@@ -34,4 +31,4 @@ public ReflectionClass::getStartLine(): int|false
 
 ### Дивіться також
 
--   [ReflectionClass::getEndLine()](reflectionclass.getendline.md) - Повертає номер останнього рядка
+-   [ReflectionClass::getEndLine()](reflectionclass.getendline.md) \- Повертає номер останнього рядка

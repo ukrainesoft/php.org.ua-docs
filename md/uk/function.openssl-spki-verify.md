@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-spki-new.md: « opensslspkinew
-  - function.openssl-verify.md: opensslverify »
+  - function.openssl-spki-new.md: « openssl\_spki\_new
+  - function.openssl-verify.md: openssl\_verify »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslspkiverify
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_spki\_verify
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslspkiverify
+# openssl\_spki\_verify
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-opensslspkiverify — Перевіряє підписаний відкритий ключ та виклик
+openssl\_spki\_verify — Перевіряє підписаний відкритий ключ та виклик
 
 ### Опис
 
@@ -28,7 +29,7 @@ openssl_spki_verify(string $spki): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -36,7 +37,7 @@ openssl_spki_verify(string $spki): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslspkiverify()****
+**Пример #1 Пример использования**openssl\_spki\_verify()\*\*\*\*
 
 Перевірка наявного підписаного відкритого ключа з викликом
 
@@ -53,7 +54,7 @@ if (openssl_spki_verify(preg_replace('/SPKAC=/', '', $spkac))) {
 ?>
 ```
 
-**Приклад #2 Приклад використання **opensslspkiverify()** з**
+**Пример #2 Пример использования**openssl\_spki\_verify()**с**
 
 Перевірка наявного підписаного відкритого ключа та виклику, отриманого з елемента
 
@@ -70,9 +71,9 @@ if (openssl_spki_verify(preg_replace('/SPKAC=/', '', $_POST['spkac']))) {
 
 ### Дивіться також
 
--   [opensslspkinew()](function.openssl-spki-new.md) - Створення нового підписаного відкритого ключа із викликом
--   [opensslspkiexportchallenge()](function.openssl-spki-export-challenge.md) - Експорт виклику, пов'язаного з підписаним ключем та викликом
--   [opensslspkiexport()](function.openssl-spki-export.md) - Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
--   [opensslgetмдmethods()](function.openssl-get-md-methods.md) - Отримати список доступних методів хешування
--   [opensslcsrnew()](function.openssl-csr-new.md) - Генерує CSR
--   [opensslcsrsign()](function.openssl-csr-sign.md) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [openssl\_spki\_new()](function.openssl-spki-new.md) \- Створення нового підписаного відкритого ключа із викликом
+-   [openssl\_spki\_export\_challenge()](function.openssl-spki-export-challenge.md) \- Експорт виклику, пов'язаного з підписаним ключем та викликом
+-   [openssl\_spki\_export()](function.openssl-spki-export.md) \- Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
+-   [openssl\_get\_md\_methods()](function.openssl-get-md-methods.md) \- Отримати список доступних методів хешування
+-   [openssl\_csr\_new()](function.openssl-csr-new.md) \- Генерує CSR
+-   [openssl\_csr\_sign()](function.openssl-csr-sign.md) \- Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

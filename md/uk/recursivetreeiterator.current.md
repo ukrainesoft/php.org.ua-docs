@@ -1,14 +1,15 @@
 ---
 navigation:
-  - recursivetreeiterator.construct.md: '« RecursiveTreeIterator::construct'
+  - recursivetreeiterator.construct.md: '« RecursiveTreeIterator::\_\_construct'
   - recursivetreeiterator.endchildren.md: 'RecursiveTreeIterator::endChildren »'
   - index.md: PHP Manual
   - class.recursivetreeiterator.md: RecursiveTreeIterator
 title: 'RecursiveTreeIterator::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RecursiveTreeIterator::current
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 RecursiveTreeIterator::current — Отримання поточного елемента
 
@@ -22,7 +23,7 @@ public RecursiveTreeIterator::current(): mixed
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

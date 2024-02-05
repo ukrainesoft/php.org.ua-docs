@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mailparse.installation.md: « Установка
+  - mailparse.installation.md: « Встановлення
   - mailparse.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - mailparse.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,12 +15,12 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [mailparse.defcharset](mailparse.configuration.md#ini.mailparse.def_charset) | "us-ascii" | PHPINISYSTEM |  |
+| [mailparse.def\_charset](mailparse.configuration.md#ini.mailparse.def_charset) | "us-ascii" | **`INI_SYSTEM`** |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
+Додаткова інформація та опис режимів INI\_\* дано у розділі «[Місця встановлення параметрів конфігурації](configuration.changes.modes.md)».
 
 Коротке пояснення конфігураційних директив.
 
-`mailparse.def_charset` string
+`mailparse.def_charset`string
 
 Набір символів за промовчанням.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-pkcs12-export.md: « opensslpkcs12export
-  - function.openssl-pkcs7-decrypt.md: opensslpkcs7decrypt »
+  - function.openssl-pkcs12-export.md: « openssl\_pkcs12\_export
+  - function.openssl-pkcs7-decrypt.md: openssl\_pkcs7\_decrypt »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslpkcs12read
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_pkcs12\_read
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslpkcs12read
+# openssl\_pkcs12\_read
 
-(PHP 5> = 5.2.2, PHP 7, PHP 8)
+(PHP 5 >= 5.2.2, PHP 7, PHP 8)
 
-opensslpkcs12read — Розбирає сховище сертифікатів PKCS#12 у масив
+openssl\_pkcs12\_read — Розбирає сховище сертифікатів PKCS#12 у масив
 
 ### Опис
 
@@ -18,7 +19,7 @@ opensslpkcs12read — Розбирає сховище сертифікатів P
 openssl_pkcs12_read(string $pkcs12, array &$certificates, string $passphrase): bool
 ```
 
-**opensslpkcs12read()** розбирає сховище сертифікатів PKCS#12, задане в `pkcs12` і поміщає в масив `certificates`
+\*\*openssl\_pkcs12\_read()\*\*разбирает хранилище сертификатов PKCS#12, заданное в`pkcs12` і поміщає в масив `certificates`
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ openssl_pkcs12_read(string $pkcs12, array &$certificates, string $passphrase): b
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslpkcs12read()****
+**Пример #1 Пример использования**openssl\_pkcs12\_read()\*\*\*\*
 
 ```php
 <?php

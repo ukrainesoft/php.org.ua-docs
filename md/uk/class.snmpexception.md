@@ -5,23 +5,20 @@ navigation:
   - index.md: PHP Manual
   - book.snmp.md: SNMP
 title: Клас SNMPException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SNMPException
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Представляє клас виключення SNMP, що викидається. Ви не повинні викидати винятки **SNMPException** самостійно. Докладніше про винятки в PHP читайте у розділі [Исключения](language.exceptions.md)
+Представляє клас виключення, що викидається SNMP. Ви не повинні викидати винятки **SNMPException** самостійно. Докладніше про винятки в PHP читайте у розділі [Винятки](language.exceptions.md)
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
-    
-
-    
      
       class SNMPException
      
@@ -29,43 +26,38 @@ title: Клас SNMPException
      
       extends
        RuntimeException
+      {
+
+     /* Наследуемые свойства */
      
-     {
-
-    /* Свойства */
-    
-     protected
-     string
-      $code;
-
-
-    /* Наследуемые свойства */
-    protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
-    /* Наследуемые методы */
-    
-   final public Exception::getMessage(): string
+     /* Наследуемые методы */
+     
+   public Exception::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+     final public Exception::getMessage(): string
 final public Exception::getPrevious(): ?Throwable
 final public Exception::getCode(): int
 final public Exception::getFile(): string
@@ -75,11 +67,11 @@ final public Exception::getTraceAsString(): string
 public Exception::__toString(): string
 private Exception::__clone(): void
 
-   }
+    }
 ```
 
 ## Властивості
 
 code
 
-Код помилки бібліотеки `SNMP`. Для його вилучення використовуйте [Exception::getCode()](exception.getcode.md)
+Код ошибки библиотеки`SNMP`Для его извлечения используйте[Exception::getCode()](exception.getcode.md)

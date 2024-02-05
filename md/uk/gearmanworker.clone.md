@@ -1,10 +1,11 @@
 ---
 navigation:
   - gearmanworker.addservers.md: '« GearmanWorker::addServers'
-  - gearmanworker.construct.md: 'GearmanWorker::construct »'
+  - gearmanworker.construct.md: 'GearmanWorker::\_\_construct »'
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::clone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::clone
 

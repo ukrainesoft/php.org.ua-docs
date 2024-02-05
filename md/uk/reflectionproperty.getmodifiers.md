@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::getModifiers'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionProperty::getModifiers
 
@@ -26,9 +27,9 @@ public ReflectionProperty::getModifiers(): int
 
 ### Значення, що повертаються
 
-Числове уявлення модифікаторів. Фактичне значення цих модифікаторів описано у розділі [Обумовлені константи](class.reflectionproperty.md#reflectionproperty.constants.modifiers)
+Числове уявлення модифікаторів. Фактичне значення цих модифікаторів описано у розділі [зумовлені константи](class.reflectionproperty.md#reflectionproperty.constants.modifiers)
 
 ### Дивіться також
 
--   [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.md) - Перевіряє, чи властивість закрита
--   [Reflection::getModifierNames()](reflection.getmodifiernames.md) - Отримання імен модифікаторів
+-   [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.md) \- Перевіряє, чи властивість закрита
+-   [Reflection::getModifierNames()](reflection.getmodifiernames.md) \- Отримання імен модифікаторів

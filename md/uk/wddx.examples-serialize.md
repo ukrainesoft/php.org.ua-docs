@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - wddx.examples.md: Приклади
 title: Приклади wddx
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Приклади wddx
 
@@ -51,6 +52,6 @@ echo $packet;
 <string>Seattle</string></array></var></struct></data></wddxPacket>
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Рядки повинні бути закодовані в UTF-8; Для роботи з іншими кодуваннями спочатку перетворіть рядок за допомогою функції [мбconvertencoding()](function.mb-convert-encoding.md) [UConverter::transcode()](uconverter.transcode.md) або [iconv()](function.iconv.md)
+> Рядки повинні бути закодовані в UTF-8; Для роботи з іншими кодуваннями спочатку перетворіть рядок за допомогою функції [mb\_convert\_encoding()](function.mb-convert-encoding.md) [UConverter::transcode()](uconverter.transcode.md) або [iconv()](function.iconv.md)

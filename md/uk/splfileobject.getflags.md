@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::getFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::getFlags
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::getFlags — Отримує прапори налаштування об'єкта SplFileObject
 
@@ -30,7 +31,7 @@ public SplFileObject::getFlags(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::getFlags()****
+**Пример #1 Пример использования**SplFileObject::getFlags()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ if ($file->getFlags() & SplFileObject::SKIP_EMPTY) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Не пропускать пустые строки
@@ -61,4 +62,4 @@ if ($file->getFlags() & SplFileObject::SKIP_EMPTY) {
 
 ### Дивіться також
 
--   [SplFileObject::setFlags()](splfileobject.setflags.md) - Встановлює прапори для SplFileObject
+-   [SplFileObject::setFlags()](splfileobject.setflags.md) \- Встановлює прапори для SplFileObject

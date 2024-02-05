@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::enableDebug'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::enableDebug
 
@@ -18,7 +19,7 @@ OAuth::enableDebug — Включити детальну інформацію п
 public OAuth::enableDebug(): bool
 ```
 
-Включає докладну інформацію про запит, корисний для налагодження. Відлагоджувальна інформація зберігається в полі `debugInfo`. Альтернативно можна встановити полю `debug` значення non-**`false`**, щоб увімкнути режим налагодження.
+Включає докладну інформацію про запит, корисний для налагодження. Відлагоджувальна інформація зберігається в полі `debugInfo`Альтернативно можно установить полю`debug`значение non-**`false`**, щоб увімкнути режим налагодження.
 
 ### Список параметрів
 
@@ -30,10 +31,10 @@ public OAuth::enableDebug(): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL oauth 0.99.8 | Були додані поля `debug` і `debugInfo` |
+| PECL oauth 0.99.8 | Були додані поля `debug`и`debugInfo` |
 
 ### Дивіться також
 
--   [OAuth::disableDebug()](oauth.disabledebug.md) - Вимкнути докладну налагоджувальну інформацію
+-   [OAuth::disableDebug()](oauth.disabledebug.md) \- Вимкнути докладну налагоджувальну інформацію

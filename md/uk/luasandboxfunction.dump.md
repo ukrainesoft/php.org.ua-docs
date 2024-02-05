@@ -1,10 +1,11 @@
 ---
 navigation:
-  - luasandboxfunction.construct.md: '« LuaSandboxFunction::construct'
+  - luasandboxfunction.construct.md: '« LuaSandboxFunction::\_\_construct'
   - class.luasandboxerror.md: LuaSandboxError »
   - index.md: PHP Manual
   - class.luasandboxfunction.md: LuaSandboxFunction
 title: 'LuaSandboxFunction::dump'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # LuaSandboxFunction::dump
 

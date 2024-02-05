@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-parser.push.md: '« ParleParser::push'
-  - parle-parser.right.md: 'ParleParser::right »'
+  - parle-parser.push.md: '« Parle\\Parser::push'
+  - parle-parser.right.md: 'Parle\\Parser::right »'
   - index.md: PHP Manual
-  - class.parle-parser.md: ParleParser
-title: 'ParleParser::reset'
+  - class.parle-parser.md: Parle\\Parser
+title: 'Parle\\Parser::reset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleParser::reset
+# Parle\\Parser::reset
 
 (PECL parle >= 0.7.1)
 
-ParleParser::reset — Скидає стан парсера
+Parle\\Parser::reset — Скидає стан парсера
 
 ### Опис
 

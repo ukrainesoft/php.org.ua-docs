@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::loadPhar'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::loadPhar
 
@@ -28,11 +29,11 @@ final public static Phar::loadPhar(string $filename, ?string $alias = null): boo
 
 `alias`
 
-Псевдонім для доступу до архіву. Зверніть увагу, що багато phar-архівів мають свій явно заданий псевдонім і, при заданні нового псевдоніма, буде викинуто виняток [PharException](class.pharexception.md)
+Псевдонім для доступу до архіву Зверніть увагу, що багато phar-архівів мають свій явно заданий псевдонім і, при заданні нового псевдоніма, буде викинуто виняток [PharException](class.pharexception.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -40,7 +41,7 @@ final public static Phar::loadPhar(string $filename, ?string $alias = null): boo
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::loadPhar()****
+**Пример #1 Пример использования**Phar::loadPhar()\*\*\*\*
 
 Phar::loadPhar можна використовувати будь-де, тоді як Phar::mapPhar тільки в завантажувачі (stub) Phar-архіву.
 
@@ -57,4 +58,4 @@ try {
 
 ### Дивіться також
 
--   [Phar::mapPhar()](phar.mapphar.md) - Прочитати поточний запущений phar-архів та зареєструвати його маніфест
+-   [Phar::mapPhar()](phar.mapphar.md) \- Прочитати поточний запущений phar-архів та зареєструвати його маніфест

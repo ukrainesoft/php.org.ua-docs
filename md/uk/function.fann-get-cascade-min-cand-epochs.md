@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-cascade-max-out-epochs.md: « fanngetcascademaxoutepochs
-  - function.fann-get-cascade-min-out-epochs.md: fanngetcascademinoutepochs »
+  - function.fann-get-cascade-max-out-epochs.md: « fann\_get\_cascade\_max\_out\_epochs
+  - function.fann-get-cascade-min-out-epochs.md: fann\_get\_cascade\_min\_out\_epochs »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetcascademincandepochs
+  - ref.fann.md: Функції Fann
+title: fann\_get\_cascade\_min\_cand\_epochs
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetcascademincandepochs
+# fann\_get\_cascade\_min\_cand\_epochs
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetcascademincandepochs - Отримує найменший період кандидата
+fann\_get\_cascade\_min\_cand\_epochs - Отримує найменший період кандидата
 
 ### Опис
 
@@ -30,14 +31,14 @@ fann_get_cascade_min_cand_epochs(resource $ann): int
 
 ### Значення, що повертаються
 
-Мінімальний період кандидата або **`false`** у разі виникнення помилки.
+Мінімальний період кандидата або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
--   [fannsetcascademincandepochs()](function.fann-set-cascade-min-cand-epochs.md) - встановлює найменший період кандидата
+-   [fann\_set\_cascade\_min\_cand\_epochs()](function.fann-set-cascade-min-cand-epochs.md) \- встановлює найменший період кандидата

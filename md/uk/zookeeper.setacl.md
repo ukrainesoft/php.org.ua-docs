@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::setAcl'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zookeeper::setAcl
 
@@ -35,7 +36,7 @@ ACL, який потрібно встановити.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -47,7 +48,7 @@ ACL, який потрібно встановити.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Zookeeper::setAcl()****
+**Пример #1 Пример использования**Zookeeper::setAcl()\*\*\*\*
 
 Встановіть ACL для вузла.
 
@@ -72,7 +73,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {
@@ -90,7 +91,7 @@ array(1) {
 
 ### Дивіться також
 
--   [Zookeeper::create()](zookeeper.create.md) - Створює синхронно вузол
--   [Zookeeper::getAcl()](zookeeper.getacl.md) - Синхронно отримує ACL, пов'язаний із вузлом
--   [Разрешения ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
+-   [Zookeeper::create()](zookeeper.create.md) \- Створює синхронно вузол
+-   [Zookeeper::getAcl()](zookeeper.getacl.md) \- Синхронно отримує ACL, пов'язаний із вузлом
+-   [Дозволи ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
 -   [ZookeeperException](class.zookeeperexception.md)

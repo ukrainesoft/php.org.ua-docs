@@ -4,13 +4,14 @@ navigation:
   - varnishadmin.disconnect.md: 'VarnishAdmin::disconnect »'
   - index.md: PHP Manual
   - class.varnishadmin.md: VarnishAdmin
-title: 'VarnishAdmin::construct'
+title: 'VarnishAdmin::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VarnishAdmin::construct
+# VarnishAdmin::\_\_construct
 
 (PECL varnish >= 0.3)
 
-VarnishAdmin::construct — VarnishAdmin constructor
+VarnishAdmin::\_\_construct — VarnishAdmin constructor
 
 ### Опис
 
@@ -24,13 +25,13 @@ public VarnishAdmin::__construct(array $args = ?)
 
 Аргументи конфігурації. Можливі ключі:
 
-VARNISHCONFIGIDENT - ідентифікатор екземпляра varnish VARNISHCONFIGHOST - IP-адреса екземпляра varnish VARNISHCONFIGPORT - порт екземпляра varnish VARNISHCONFIGSECRET - секрет екземпляра varnish VARNISHCONFIGTIMEOUT – час очікування читання підключення VARNISHCONFIGCOMPAT - сумісність із старшими версіями varnish
+VARNISH\_CONFIG\_IDENT - ідентифікатор екземпляра varnish VARNISH\_CONFIG\_HOST - IP-адреса екземпляра varnish VARNISH\_CONFIG\_PORT - порт екземпляра varnish VARNISH\_CONFIG\_SECRET - секрет екземпляра varnish VARNISH\_CONFIG\_TIMEOUT – час очікування читання підключення VARNISH\_CONFIG\_COMPAT - сумісність із старшими версіями varnish
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **VarnishAdmin::construct()****
+**Пример #1 Пример использования**VarnishAdmin::\_\_construct()\*\*\*\*
 
 ```php
 <?php

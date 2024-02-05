@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::setRepeatedWallTimeOption'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::setRepeatedWallTimeOption
 
@@ -17,16 +18,16 @@ IntlCalendar::setRepeatedWallTimeOption — Встановлює поведін�
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public IntlCalendar::setRepeatedWallTimeOption(int $option): bool
+public IntlCalendar::setRepeatedWallTimeOption(int $option): true
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-intlcal_set_repeated_wall_time_option(IntlCalendar $calendar, int $option): bool
+intlcal_set_repeated_wall_time_option(IntlCalendar $calendar, int $option): true
 ```
 
-Встановлює поточну стратегію роботи з часом процесора, яка повторюється щоразу, коли годинник переводиться назад під час переходу на літній час. Значення за замовчуванням - **`IntlCalendar::WALLTIME_LAST`** (Момент після переходу на літню пору). Інше можливе значення - **`IntlCalendar::WALLTIME_FIRST`** (Момент, який настає під час переходу на літню пору).
+Встановлює поточну стратегію роботи з часом процесора, яка повторюється щоразу, коли годинник переводиться назад під час переходу на літній час. Значення за замовчуванням - **`IntlCalendar::WALLTIME_LAST`**(момент после перехода на летнее время). Другое возможное значение -**`IntlCalendar::WALLTIME_FIRST`** (Момент, який настає під час переходу на літню пору).
 
 Для цієї функції потрібний ICU 4.9 або новіший.
 
@@ -38,11 +39,17 @@ intlcal_set_repeated_wall_time_option(IntlCalendar $calendar, int $option): bool
 
 `option`
 
-Одна з констант: **`IntlCalendar::WALLTIME_FIRST`** або **`IntlCalendar::WALLTIME_LAST`**
+Одна из констант:**`IntlCalendar::WALLTIME_FIRST`**или**`IntlCalendar::WALLTIME_LAST`**
 
 ### Значення, що повертаються
 
 Функція завжди повертає **`true`**
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
 
 ### Приклади
 
@@ -50,6 +57,6 @@ intlcal_set_repeated_wall_time_option(IntlCalendar $calendar, int $option): bool
 
 ### Дивіться також
 
--   [intlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.md) - Отримує поведінку для обробки повторюваного часу процесора
--   [intlCalendar::setSkippedWallTimeOption()](intlcalendar.setskippedwalltimeoption.md) - Встановлює поведінку для обробки пропущеного часу процесора при позитивних переходах усунення часового поясу
--   [intlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.md) - отримує поведінку для обробки пропущеного часу процесора
+-   [intlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.md) \- Отримує поведінку для обробки повторюваного часу процесора
+-   [intlCalendar::setSkippedWallTimeOption()](intlcalendar.setskippedwalltimeoption.md) \- Встановлює поведінку для обробки пропущеного часу процесора при позитивних переходах усунення часового поясу
+-   [intlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.md) \- отримує поведінку для обробки пропущеного часу процесора

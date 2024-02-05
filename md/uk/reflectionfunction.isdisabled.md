@@ -1,14 +1,15 @@
 ---
 navigation:
-  - reflectionfunction.invokeargs.md: '« ReflectionFunction::invokeArgs'
-  - reflectionfunction.tostring.md: 'ReflectionFunction::toString »'
+  - reflectionfunction.isanonymous.md: '« ReflectionFunction::isAnonymous'
+  - reflectionfunction.tostring.md: 'ReflectionFunction::\_\_toString »'
   - index.md: PHP Manual
   - class.reflectionfunction.md: ReflectionFunction
 title: 'ReflectionFunction::isDisabled'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunction::isDisabled
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunction::isDisabled — Перевіряє, що функція вимкнена
 
@@ -22,7 +23,7 @@ ReflectionFunction::isDisabled — Перевіряє, що функція ви�
 public ReflectionFunction::isDisabled(): bool
 ```
 
-Перевіряє, чи функція вимкнена, за допомогою директиви [disablefunctions](ini.core.md#ini.disable-functions)
+Перевіряє, чи функція вимкнена, за допомогою директиви [disable\_functions](ini.core.md#ini.disable-functions)
 
 ### Список параметрів
 
@@ -34,5 +35,5 @@ public ReflectionFunction::isDisabled(): bool
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.md) - Перевіряє, чи функція є певною користувачем
--   [Директива disablefunctions](ini.core.md#ini.disable-functions)
+-   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.md) \- Перевіряє, чи функція є певною користувачем
+-   [Директива disable\_functions](ini.core.md#ini.disable-functions)

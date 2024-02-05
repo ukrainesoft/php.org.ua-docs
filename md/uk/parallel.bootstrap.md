@@ -1,14 +1,17 @@
 ---
 navigation:
   - functional.parallel.md: « Функціональний API
-  - parallel.run.md: parallelrun »
+  - parallel.run.md: parallel\\run »
   - index.md: PHP Manual
   - functional.parallel.md: Функціональний API
-title: parallelbootstrap
+title: parallel\\bootstrap
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelbootstrap
+# parallel\\bootstrap
 
-parallelbootstrap — Початкове завантаження
+(1.0.0)
+
+parallel\\bootstrap — Початкове завантаження
 
 ### Опис
 
@@ -16,7 +19,7 @@ parallelbootstrap — Початкове завантаження
 parallel\bootstrap(string $file): void
 ```
 
-Повинен використовувати наданий `file` для початкового завантаження всіх середовищ виконання, створених для автоматичного планування за допомогою [parallelrun()](parallel.run.md)
+Повинен використовувати наданий `file` для початкового завантаження всіх середовищ виконання, створених для автоматичного планування за допомогою [parallel\\run()](parallel.run.md)
 
 ### Список параметрів
 
@@ -32,12 +35,12 @@ parallel\bootstrap(string $file): void
 
 **Увага**
 
-Викидає parallelRuntimeErrorBootstrap, якщо цей процес був раніше викликаний.
+Викидає parallel\\Runtime\\Error\\Bootstrap, якщо цей процес був раніше викликаний.
 
 **Увага**
 
-Викидає parallelRuntimeErrorBootstrap, якщо викликається після [parallelrun()](parallel.run.md)
+Викидає parallel\\Runtime\\Error\\Bootstrap, якщо викликається після [parallel\\run()](parallel.run.md)
 
 ### Дивіться також
 
--   [parallelRuntime::run](parallel-runtime.run.md)
+-   [parallel\\Runtime::run](parallel-runtime.run.md)

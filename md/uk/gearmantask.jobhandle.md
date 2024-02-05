@@ -5,19 +5,20 @@ navigation:
   - index.md: PHP Manual
   - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::jobHandle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanTask::jobHandle
 
-# gearmanjobhandle
+# gearman\_job\_handle
 
 (PECL gearman >= 0.5.0)
 
-GearmanTask::jobHandle -- gearmanjobhandle — Отримати дескриптор завдання
+GearmanTask::jobHandle -- gearman\_job\_handle — Отримати дескриптор завдання
 
 ### Опис
 
 ```methodsynopsis
-public GearmanTask::jobHandle(): string
+public GearmanTask::jobHandle(): false|string
 ```
 
 Повертає дескриптор завдання для цього завдання.
@@ -28,8 +29,8 @@ public GearmanTask::jobHandle(): string
 
 ### Значення, що повертаються
 
-Описувач роботи.
+Описувач об'єкта роботи або \*\*`false`\*\*якщо завдання ще не створено.
 
 ### Дивіться також
 
--   [GearmanClient::doJobHandle()](gearmanclient.dojobhandle.md) - Отримати дескриптор завдання, що виконується
+-   [GearmanClient::doJobHandle()](gearmanclient.dojobhandle.md) \- Отримати дескриптор завдання, що виконується

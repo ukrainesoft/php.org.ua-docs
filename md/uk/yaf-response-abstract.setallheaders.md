@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-response-abstract.response.md: '« YafResponseAbstract::response'
-  - yaf-response-abstract.setbody.md: 'YafResponseAbstract::setBody »'
+  - yaf-response-abstract.response.md: '« Yaf\_Response\_Abstract::response'
+  - yaf-response-abstract.setbody.md: 'Yaf\_Response\_Abstract::setBody »'
   - index.md: PHP Manual
-  - class.yaf-response-abstract.md: YafResponseAbstract
-title: 'YafResponseAbstract::setAllHeaders'
+  - class.yaf-response-abstract.md: Yaf\_Response\_Abstract
+title: 'Yaf\_Response\_Abstract::setAllHeaders'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafResponseAbstract::setAllHeaders
+# Yaf\_Response\_Abstract::setAllHeaders
 
 (Yaf >=1.0.0)
 
-YafResponseAbstract::setAllHeaders — Призначення setAllHeaders
+Yaf\_Response\_Abstract::setAllHeaders — Призначення setAllHeaders
 
 ### Опис
 
@@ -20,7 +21,7 @@ protected Yaf_Response_Abstract::setAllHeaders(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

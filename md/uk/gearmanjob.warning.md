@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::warning'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanJob::warning
 
@@ -20,7 +21,7 @@ public GearmanJob::warning(string $warning): bool
 
 Під час виконання завдання надсилає попередження.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей метод було замінено на [GearmanJob::sendWarning()](gearmanjob.sendwarning.md) у версії 0.6.0 модуля Gearman.
 
@@ -32,10 +33,10 @@ public GearmanJob::warning(string $warning): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [GearmanJob::sendComplete()](gearmanjob.sendcomplete.md) - Відправлення результату та статусу завершення
--   [GearmanJob::sendException()](gearmanjob.sendexception.md) - Відправлення виключення завдання, що виконується
--   [GearmanJob::sendFail()](gearmanjob.sendfail.md) - Відправлення статусу невдалої операції
+-   [GearmanJob::sendComplete()](gearmanjob.sendcomplete.md) \- Відправлення результату та статусу завершення
+-   [GearmanJob::sendException()](gearmanjob.sendexception.md) \- Відправлення виключення завдання, що виконується
+-   [GearmanJob::sendFail()](gearmanjob.sendfail.md) \- Відправлення статусу невдалої операції

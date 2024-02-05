@@ -1,10 +1,11 @@
 ---
 navigation:
-  - uconverter.construct.md: '« UConverter::construct'
+  - uconverter.construct.md: '« UConverter::\_\_construct'
   - uconverter.fromucallback.md: 'UConverter::fromUCallback »'
   - index.md: PHP Manual
   - class.uconverter.md: UConverter
 title: 'UConverter::convert'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # UConverter::convert
 
@@ -20,7 +21,7 @@ public UConverter::convert(string $str, bool $reverse = false): string|false
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

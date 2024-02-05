@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.svn-diff.md: « svndiff
-  - function.svn-fs-abort-txn.md: svnфсaborttxn »
+  - function.svn-diff.md: « svn\_diff
+  - function.svn-fs-abort-txn.md: svn\_fs\_abort\_txn »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnexport
+title: svn\_export
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnexport
+# svn\_export
 
 (PECL svn >= 0.3.0)
 
-svnexport — Експортує вміст директорії SVN
+svn\_export — Експортує вміст директорії SVN
 
 ### Опис
 
 ```methodsynopsis
-svn_export(    string $frompath,    string $topath,    bool $working_copy = true,    int $revision_no = -1): bool
+svn_export(    string $frompath,    string $topath,    bool $working_copy = true,    int $revision_no = -1): bool
 ```
 
 Експортує дані як з робочої копії, так і з репозиторію в чисту директорію.
@@ -32,15 +33,15 @@ svn_export(    string $frompath,    string $topath,    bool $working_copy = true
 
 `working_copy`
 
-При **`true`** з робочої копії будуть також експортовані ненаправлені в репозиторій файли.
+При\*\*`true`\*\* з робочої копії будуть також експортовані ненаправлені в репозиторій файли.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **svnexport()****
+**Пример #1 Пример использования**svn\_export()\*\*\*\*
 
 ```php
 <?php
@@ -53,4 +54,4 @@ svn_export($working_dir, $new_working_dir);
 
 ### Дивіться також
 
--   [svnimport()](function.svn-import.md) - Імпорт шляху без версії до репозиторії
+-   [svn\_import()](function.svn-import.md) \- Імпорт шляху без версії до репозиторії

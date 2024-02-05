@@ -1,12 +1,13 @@
 ---
 navigation:
-  - mongodb-driver-writeconcern.unserialize.md: '« MongoDBDriverWriteConcern::unserialize'
-  - mongodb-driver-readpreference.bsonserialize.md: 'MongoDBDriverReadPreference::bsonSerialize »'
+  - mongodb-driver-writeconcern.unserialize.md: '« MongoDB\\Driver\\WriteConcern::unserialize'
+  - mongodb-driver-readpreference.bsonserialize.md: 'MongoDB\\Driver\\ReadPreference::bsonSerialize »'
   - index.md: PHP Manual
-  - book.mongodb.md: MongoDBDriver
-title: Клас MongoDBDriverReadPreference
+  - book.mongodb.md: MongoDB\\Driver
+title: Клас MongoDB\\Driver\\ReadPreference
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverReadPreference
+# Клас MongoDB\\Driver\\ReadPreference
 
 (mongodb >=1.0.0)
 
@@ -80,7 +81,7 @@ title: Клас MongoDBDriverReadPreference
 
     /* Методы */
     
-   final public bsonSerialize(): object
+   final public bsonSerialize(): stdClass
 final public __construct(string|int $mode, ?array $tagSets = null, ?array $options = null)
 final public getHedge(): ?object
 final public getMaxStalenessSeconds(): int
@@ -88,7 +89,7 @@ final public getMode(): int
 final public getModeString(): string
 final public getTagSets(): array
 final public serialize(): string
-final public unserialize(string $serialized): void
+final public unserialize(string $data): void
 
    }
 ```
@@ -137,35 +138,35 @@ final public unserialize(string $serialized): void
 
 **`MongoDB\Driver\ReadPreference::NO_MAX_STALENESS`**
 
-Значення за промовчанням для параметра `"maxStalenessSeconds"` щоб вказати на обмеження на максимальне запізнення (Staleness), що означає, що драйвер не враховуватиме затримку вторинних вузлів при виборі напрямку для операції читання.
+Значение по умолчанию для параметра`"maxStalenessSeconds"` щоб вказати на обмеження на максимальне запізнення (Staleness), що означає, що драйвер не враховуватиме затримку вторинних вузлів при виборі напрямку для операції читання.
 
 **`MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS`**
 
-Мінімальне значення для параметра `"maxStalenessSeconds"` дорівнює 90 секунд. Драйвер оцінює запізнення вторинних вузлів, періодично перевіряючи останню дату запису кожного члена набору реплік. Оскільки ці перевірки нечасті, оцінка запізнення є грубою. Таким чином, драйвер не може забезпечити максимальну величину запізнення менше 90 секунд.
+Минимальное значение для параметра`"maxStalenessSeconds"` дорівнює 90 секунд. Драйвер оцінює запізнення вторинних вузлів, періодично перевіряючи останню дату запису кожного члена набору реплік. Оскільки ці перевірки нечасті, оцінка запізнення є грубою. Таким чином, драйвер не може забезпечити максимальну величину запізнення менше 90 секунд.
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL mongodb 1.7.0 |  |
 | Додані константи **`MongoDB\Driver\ReadPreference::PRIMARY`** **`MongoDB\Driver\ReadPreference::PRIMARY_PREFERRED`** **`MongoDB\Driver\ReadPreference::SECONDARY`** **`MongoDB\Driver\ReadPreference::SECONDARY_PREFERRED`** **`MongoDB\Driver\ReadPreference::NEAREST`** |  |
 
 Реалізує [Serializable](class.serializable.md)
 
-| | PECL mongodb 1.2.0
+| | PECL mongodb 1.2.0 |
 
-Додані константи **`MongoDB\Driver\ReadPreference::NO_MAX_STALENESS`** і **`MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS`**
+Додані константи **`MongoDB\Driver\ReadPreference::NO_MAX_STALENESS`**и**`MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS`**
 
-Реалізує [MongoDBBSONSerializable](class.mongodb-bson-serializable.md)
+Реалізує [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.md)
 
 ## Зміст
 
--   [MongoDBDriverReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.md) — Повертає об'єкт серіалізації BSON
--   [MongoDBDriverReadPreference::construct](mongodb-driver-readpreference.construct.md) — Створити новий ReadPreference
--   [MongoDBDriverReadPreference::getHedge](mongodb-driver-readpreference.gethedge.md) — Повертає опцію "hedge" із ReadPreference
--   [MongoDBDriverReadPreference::getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.md) — Повертає параметр "maxStalenessSeconds" ReadPreference
--   [MongoDBDriverReadPreference::getMode](mongodb-driver-readpreference.getmode.md) - Повертає параметр "mode" ReadPreference
--   [MongoDBDriverReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.md) - Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
--   [MongoDBDriverReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.md) - Повертає параметр "tagSets" ReadPreference
--   [MongoDBDriverReadPreference::serialize](mongodb-driver-readpreference.serialize.md) — Серіалізація ReadPreference
--   [MongoDBDriverReadPreference::unserialize](mongodb-driver-readpreference.unserialize.md) - Десеріалізація ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.md)— Повертає об'єкт серіалізації BSON
+-   [MongoDB\\Driver\\ReadPreference::\_\_construct](mongodb-driver-readpreference.construct.md)— Створити новий ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::getHedge](mongodb-driver-readpreference.gethedge.md) — Повертає опцію "hedge" із ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.md) — Повертає параметр "maxStalenessSeconds" ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::getMode](mongodb-driver-readpreference.getmode.md) - Повертає параметр "mode" ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.md) - Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
+-   [MongoDB\\Driver\\ReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.md) - Повертає параметр "tagSets" ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::serialize](mongodb-driver-readpreference.serialize.md)— Серіалізація ReadPreference
+-   [MongoDB\\Driver\\ReadPreference::unserialize](mongodb-driver-readpreference.unserialize.md) \- Десеріалізація ReadPreference

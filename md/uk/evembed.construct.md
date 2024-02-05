@@ -4,25 +4,27 @@ navigation:
   - evembed.createstopped.md: 'EvEmbed::createStopped »'
   - index.md: PHP Manual
   - class.evembed.md: EvEmbed
-title: 'EvEmbed::construct'
+title: 'EvEmbed::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# EvEmbed::construct
+# EvEmbed::\_\_construct
 
 (PECL ev >= 0.2.0)
 
-EvEmbed::construct — Конструктор об'єкту EvEmbed
+EvEmbed::\_\_construct — Конструктор об'єкту EvEmbed
 
 ### Опис
 
-public **EvEmbed::construct**  
-object `$other`  
-[callable](language.types.callable.md) `$callback`  
-[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`  
-int `$priority`
+public**EvEmbed::\_\_construct**  
+object`$other`  
+[callable](language.types.callable.md) `$callback` =  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` =  
+int`$priority` =  
+) .
 
-Це досить просунутий тип спостерігача, який дозволяє вбудувати один цикл подій в інший (нині підтримуються лише події введення-виводу у вбудованому циклі, інші типи спостерігачів можуть оброблятися із затримкою чи неправильно і не повинні використовуватися).
+Це досить просунутий тип спостерігача, який дозволяє вбудувати один цикл подій в інший (нині підтримуються лише події введення-виводу у вбудованому циклі, інші типи спостерігачів можуть оброблятися із затримкою чи неправильно і повинні використовуватися).
 
-Детальніше читайте в [» документации libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_embed_code_when_one_backend_)
+Детальніше читайте в [» документації libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_embed_code_when_one_backend_)
 
 Цей спостерігач найбільш корисний у *BSD* системах без працюючого `kqueue` для підтримки обробки великої кількості сокетів. Дивіться приклад нижче.
 
@@ -34,15 +36,15 @@ int `$priority`
 
 `callback`
 
-Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.md)
+Смотрите[callback-функції спостерігачів](ev.watcher-callbacks.md)
 
 `data`
 
-Дані користувача, асоційовані зі спостерігачем.
+Дані користувача, асоційовані з спостерігачем.
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
+[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
 
 ### Приклади
 
@@ -79,4 +81,4 @@ if (!$socket_loop) {
 
 ### Дивіться також
 
--   [Ev::embeddableBackends()](ev.embeddablebackends.md) - Повертає набір бекендів, які можна вбудувати в інші цикли подій
+-   [Ev::embeddableBackends()](ev.embeddablebackends.md) \- Повертає набір бекендів, які можна вбудувати в інші цикли подій

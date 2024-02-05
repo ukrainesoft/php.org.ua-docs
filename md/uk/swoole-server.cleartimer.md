@@ -1,18 +1,19 @@
 ---
 navigation:
-  - swoole-server.bind.md: '« SwooleServer::bind'
-  - swoole-server.close.md: 'SwooleServer::close »'
+  - swoole-server.bind.md: '« Swoole\\Server::bind'
+  - swoole-server.close.md: 'Swoole\\Server::close »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::clearTimer'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::clearTimer'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::clearTimer
+# Swoole\\Server::clearTimer
 
-# swooletimerclear
+# swoole\_timer\_clear
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::clearTimer -- swooletimerclear — Зупиняє та знищує таймер
+Swoole\\Server::clearTimer -- swoole\_timer\_clear — Зупиняє та знищує таймер
 
 ### Опис
 

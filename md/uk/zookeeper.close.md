@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zookeeper::close
 
@@ -29,10 +30,10 @@ public
 
 ### Помилки
 
-Метод генерує [ZookeeperException](class.zookeeperexception.md) та його похідні при закритті неініціалізованого екземпляра.
+Метод генерирует[ZookeeperException](class.zookeeperexception.md) та його похідні при закритті неініціалізованого екземпляра.
 
 ### Дивіться також
 
--   [Zookeeper::construct()](zookeeper.construct.md) - Створює дескриптор для спілкування з zookeeper
--   [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::\_\_construct()](zookeeper.construct.md) \- Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::connect()](zookeeper.connect.md) \- Створює дескриптор для спілкування з zookeeper
 -   [ZookeeperException](class.zookeeperexception.md)

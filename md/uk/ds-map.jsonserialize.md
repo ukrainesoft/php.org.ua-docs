@@ -1,19 +1,20 @@
 ---
 navigation:
-  - ds-map.isempty.md: '« DsMap::isEmpty'
-  - ds-map.keys.md: 'ДсMap::keys »'
+  - ds-map.isempty.md: '« Ds\\Map::isEmpty'
+  - ds-map.keys.md: 'Ds\\Map::keys »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::jsonSerialize'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::jsonSerialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::jsonSerialize
+# Ds\\Map::jsonSerialize
 
 (PECL ds >= 1.0.0)
 
-ДсMap::jsonSerialize — Повертає колекцію в JSON-представництві
+Ds\\Map::jsonSerialize — Повертає колекцію в JSON-представництві
 
-Дивись [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
+Смотри[JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ніколи не використовуйте цю функцію безпосередньо.

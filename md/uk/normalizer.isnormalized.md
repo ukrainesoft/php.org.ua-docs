@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.normalizer.md: Normalizer
 title: 'Normalizer::isNormalized'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Normalizer::isNormalized
 
-# normalizerісnormalized
+# normalizer\_is\_normalized
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Normalizer::isNormalized -- normalizerісnormalized — Перевірити, чи переданий рядок відповідає заданій формі нормалізації
+Normalizer::isNormalized -- normalizer\_is\_normalized — Перевірити, чи переданий рядок відповідає заданій формі нормалізації
 
 ### Опис
 
@@ -46,7 +47,7 @@ normalizer_is_normalized(string $string, int $form = Normalizer::FORM_C): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **normalizerісnormalized()****
+**Пример #1 Пример использования**normalizer\_is\_normalized()\*\*\*\*
 
 ```php
 <?php
@@ -78,7 +79,7 @@ echo ( Normalizer::isNormalized($char_norm, Normalizer::FORM_C) ) ? "normalized"
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 not normalized; normalized
@@ -86,4 +87,4 @@ not normalized; normalized
 
 ### Дивіться також
 
--   [normalizernormalize()](normalizer.normalize.md) - Нормалізація рядка
+-   [normalizer\_normalize()](normalizer.normalize.md) \- Нормалізація рядка

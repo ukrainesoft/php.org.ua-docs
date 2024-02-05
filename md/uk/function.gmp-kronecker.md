@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-jacobi.md: « gmpjacobi
-  - function.gmp-lcm.md: gmplcm »
+  - function.gmp-jacobi.md: « gmp\_jacobi
+  - function.gmp-lcm.md: gmp\_lcm »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpkronecker
+title: gmp\_kronecker
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpkronecker
+# gmp\_kronecker
 
-(PHP 7> = 7.3.0, PHP 8)
+(PHP 7 >= 7.3.0, PHP 8)
 
-gmpkronecker - Символ Кронекера - Якобі
+gmp\_kronecker - Символ Кронекера - Якобі
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpkronecker - Символ Кронекера - Якобі
 gmp_kronecker(GMP|int|string $num1, GMP|int|string $num2): int
 ```
 
-Здійснює обчислення символу Кронекера - Якобі для `num1` і `num2`
+Здійснює обчислення символу Кронекера - Якобі для `num1`и`num2`
 
 ### Список параметрів
 
@@ -32,9 +33,9 @@ gmp_kronecker(GMP|int|string $num1, GMP|int|string $num2): int
 
 ### Значення, що повертаються
 
-Повертає символ Кронекера - Якобі для `num1` і `num2`
+Повертає символ Кронекера - Якобі для `num1`и`num2`
 
 ### Дивіться також
 
--   [gmpjacobi()](function.gmp-jacobi.md) - Символ Якобі
--   [gmplegendre()](function.gmp-legendre.md) - Символ Лежандра
+-   [gmp\_jacobi()](function.gmp-jacobi.md) \- Символ Якобі
+-   [gmp\_legendre()](function.gmp-legendre.md) \- Символ Лежандра

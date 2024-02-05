@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.libxml-set-streams-context.md: « libxmlsetstreamscontext
+  - function.libxml-set-streams-context.md: « libxml\_set\_streams\_context
   - book.simplexml.md: SimpleXML »
   - index.md: PHP Manual
   - ref.libxml.md: Функції libxml
-title: libxmluseinternalerrors
+title: libxml\_use\_internal\_errors
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# libxmluseinternalerrors
+# libxml\_use\_internal\_errors
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-libxmluseinternalerrors — Вимкнення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
+libxml\_use\_internal\_errors — Вимкнення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
 
 ### Опис
 
@@ -18,7 +19,7 @@ libxmluseinternalerrors — Вимкнення помилок libxml та пер
 libxml_use_internal_errors(?bool $use_errors = null): bool
 ```
 
-**libxmluseinternalerrors()** дозволяє вимкнути стандартні помилки libxml і включити користувальницьку обробку помилок.
+**libxml\_use\_internal\_errors()** дозволяє вимкнути стандартні помилки libxml і включити користувальницьку обробку помилок.
 
 ### Список параметрів
 
@@ -32,13 +33,13 @@ libxml_use_internal_errors(?bool $use_errors = null): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `use_errors` тепер допускає значення null. Раніше значенням за умовчанням було **`false`** |
+| 8.0.0 | `use_errors` тепер допускає значення null. Раніше значенням за умовчанням було **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **libxmluseinternalerrors()****
+**Пример #1 Пример использования**libxml\_use\_internal\_errors()\*\*\*\*
 
 Цей приклад демонструє основне використання помилок libxml та значення, яке повертає ця функція.
 
@@ -62,7 +63,7 @@ if (!$doc->load('file.xml')) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -70,5 +71,5 @@ bool(false)
 
 ### Дивіться також
 
--   [libxmlclearerrors()](function.libxml-clear-errors.md) - Очищення буфера помилок libxml
--   [libxmlgeterrors()](function.libxml-get-errors.md) - Отримання масиву помилок, що відбулися.
+-   [libxml\_clear\_errors()](function.libxml-clear-errors.md) \- Очищення буфера помилок libxml
+-   [libxml\_get\_errors()](function.libxml-get-errors.md) \- Отримання масиву помилок, що відбулися.

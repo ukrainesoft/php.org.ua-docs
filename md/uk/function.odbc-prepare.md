@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-pconnect.md: « odbcpconnect
-  - function.odbc-primarykeys.md: odbcprimarykeys »
+  - function.odbc-pconnect.md: « odbc\_pconnect
+  - function.odbc-primarykeys.md: odbc\_primarykeys »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcprepare
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_prepare
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcprepare
+# odbc\_prepare
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcprepare — Підготовка запиту до виконання
+odbc\_prepare — Підготовка запиту до виконання
 
 ### Опис
 
@@ -18,7 +19,7 @@ odbcprepare — Підготовка запиту до виконання
 odbc_prepare(resource $odbc, string $query): resource|false
 ```
 
-Підготовка запиту до виконання. Ідентифікатор результату може бути використаний пізніше для виконання запиту за допомогою [odbcexecute()](function.odbc-execute.md)
+Підготовка запиту до виконання. Ідентифікатор результату може бути використаний пізніше для виконання запиту за допомогою [odbc\_execute()](function.odbc-execute.md)
 
 Деякі бази даних (наприклад, IBM DB2, MS SQL Server та Oracle) підтримують процедури, що зберігаються, які приймають параметри типу IN, INOUT і OUT, як визначено в специфікації ODBC. Однак драйвер Unified ODBC в даний час підтримує лише параметри типу IN для збережених процедур.
 
@@ -26,7 +27,7 @@ odbc_prepare(resource $odbc, string $query): resource|false
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `query`
 
@@ -38,7 +39,7 @@ odbc_prepare(resource $odbc, string $query): resource|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання [odbcexecute()](function.odbc-execute.md) і **odbcprepare()****
+**Пример #1 Пример использования[odbc\_execute()](function.odbc-execute.md)и**odbc\_prepare()\*\*\*\*
 
 У даному коді значення $success дорівнюватиме **`true`**, тільки якщо всі три параметри myproc є параметрами IN:
 
@@ -52,8 +53,8 @@ $success = odbc_execute($stmt, array($a, $b, $c));
 ?>
 ```
 
-Якщо потрібно викликати процедуру, що зберігається з використанням параметрів INOUT або OUT, рекомендується використовувати власний модуль для вашої бази даних (наприклад, [oci8](ref.oci8.md) для Oracle).
+Якщо потрібно викликати процедуру, що зберігається з використанням параметрів INOUT або OUT, рекомендується використовувати власний модуль для вашої бази даних (наприклад, [oci8](ref.oci8.md)для Oracle).
 
 ### Дивіться також
 
--   [odbcexecute()](function.odbc-execute.md) - Виконує запит
+-   [odbc\_execute()](function.odbc-execute.md) \- Виконує запит

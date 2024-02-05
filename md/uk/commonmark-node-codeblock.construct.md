@@ -1,24 +1,25 @@
 ---
 navigation:
-  - class.commonmark-node-codeblock.md: « CommonMarkNodeCodeBlock
-  - class.commonmark-node-htmlblock.md: CommonMarkNodeHTMLBlock »
+  - class.commonmark-node-codeblock.md: « CommonMark\\Node\\CodeBlock
+  - class.commonmark-node-htmlblock.md: CommonMark\\Node\\HTMLBlock »
   - index.md: PHP Manual
-  - class.commonmark-node-codeblock.md: CommonMarkNodeCodeBlock
-title: 'CommonMarkNodeCodeBlock::construct'
+  - class.commonmark-node-codeblock.md: CommonMark\\Node\\CodeBlock
+title: 'CommonMark\\Node\\CodeBlock::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkNodeCodeBlock::construct
+# CommonMark\\Node\\CodeBlock::\_\_construct
 
 (cmark >= 1.0.0)
 
-CommonMarkNodeCodeBlock::construct - Конструктор класу CodeBlock
+CommonMark\\Node\\CodeBlock::\_\_construct - Конструктор класу CodeBlock
 
 ### Опис
 
-public **CommonMarkNodeCodeBlock::construct**(string `$fence`, string `$literal`
+public**CommonMark\\Node\\CodeBlock::\_\_construct**(string`$fence`, string`$literal`) .
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

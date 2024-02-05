@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.array-unshift.md: « arrayunshift
-  - function.array-walk-recursive.md: arraywalkrecursive »
+  - function.array-unshift.md: « array\_unshift
+  - function.array-walk-recursive.md: array\_walk\_recursive »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
-title: arrayvalues
+title: array\_values
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# arrayvalues
+# array\_values
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-arrayvalues ​​- Вибирає всі значення масиву
+array\_values ​​— Повертає всі значення масиву
 
 ### Опис
 
@@ -18,7 +19,7 @@ arrayvalues ​​- Вибирає всі значення масиву
 array_values(array $array): array
 ```
 
-**arrayvalues()** повертає масив з усіма елементами масиву `array`. Вона також заново індексує масив, що повертається, числовими індексами.
+Функция**array\_values()** повертає індексний масив з усіма значеннями масиву `array`
 
 ### Список параметрів
 
@@ -28,20 +29,21 @@ array_values(array $array): array
 
 ### Значення, що повертаються
 
-Повертає індексований масив значень.
+Повертає індексний масив значень.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **arrayvalues()****
+**Пример #1 Пример использования функции**array\_values()\*\*\*\*
 
 ```php
 <?php
+
 $array = array("size" => "XL", "color" => "gold");
 print_r(array_values($array));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -53,5 +55,5 @@ Array
 
 ### Дивіться також
 
--   [arraykeys()](function.array-keys.md) - Повертає все або деяке підмножина ключів масиву
--   [arraycombine()](function.array-combine.md) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень
+-   [array\_keys()](function.array-keys.md) \- Повертає все або деяке підмножина ключів масиву
+-   [array\_combine()](function.array-combine.md) \- Створює новий масив, використовуючи один масив як ключі, а інший для його значень

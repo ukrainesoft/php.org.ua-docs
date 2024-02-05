@@ -1,16 +1,17 @@
 ---
 navigation:
-  - commonmark-cql.construct.md: '« CommonMarkCQL::construct'
-  - ref.cmark.md: Функции CommonMark »
+  - commonmark-cql.construct.md: '« CommonMark\\CQL::\_\_construct'
+  - ref.cmark.md: Функції CommonMark »
   - index.md: PHP Manual
-  - class.commonmark-cql.md: CommonMarkCQL
-title: 'CommonMarkCQL::invoke'
+  - class.commonmark-cql.md: CommonMark\\CQL
+title: 'CommonMark\\CQL::\_\_invoke'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkCQL::invoke
+# CommonMark\\CQL::\_\_invoke
 
 (cmark >= 1.1.0)
 
-CommonMarkCQL::invoke — Виконання CQL
+CommonMark\\CQL::\_\_invoke — Виконання CQL
 
 ### Опис
 
@@ -18,7 +19,7 @@ CommonMarkCQL::invoke — Виконання CQL
 public CommonMark\CQL::__invoke(CommonMark\Node $root, callable $handler)
 ```
 
-Повинен викликати поточну функцію CQL у зазначеному `root`, виконуючи вказаний `handler` при вході в [CommonMarkNode](class.commonmark-node.md)
+Повинен викликати поточну функцію CQL у зазначеному `root`, виконуючи вказаний `handler`при входе в[CommonMark\\Node](class.commonmark-node.md)
 
 ### Список параметрів
 
@@ -34,6 +35,6 @@ public CommonMark\CQL::__invoke(CommonMark\Node $root, callable $handler)
 handler(CommonMark\Node $root, CommonMark\Node $entering): ?bool
 ```
 
--   Якщо `handler` нічого не повертає (void) або повертає null, CQL продовжить виконання
+-   Якщо `handler`нічого не повертає (void) або повертає null, CQL продовжить виконання
 -   Якщо обробник поверне справжнє значення, CQL продовжить виконання
 -   Якщо обробник повертає хибне значення, CQL припинить виконання

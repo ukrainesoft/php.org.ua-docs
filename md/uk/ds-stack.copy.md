@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-stack.construct.md: '« DsStack::construct'
-  - ds-stack.count.md: 'ДсStack::count »'
+  - ds-stack.construct.md: '« Ds\\Stack::\_\_construct'
+  - ds-stack.count.md: 'Ds\\Stack::count »'
   - index.md: PHP Manual
-  - class.ds-stack.md: Стек
-title: 'ДсStack::copy'
+  - class.ds-stack.md: Ds\\Stack
+title: 'Ds\\Stack::copy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсStack::copy
+# Ds\\Stack::copy
 
 (PECL ds >= 1.0.0)
 
-ДсStack::copy — Повертає поверхневу копію колекції
+Ds\\Stack::copy — Повертає поверхневу копію колекції
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Stack::copy(): Ds\Stack
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсStack::copy()****
+**Пример #1 Пример использования**Ds\\Stack::copy()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ print_r($b);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Stack Object

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - install.windows.md: « Установка в системах Windows
+  - install.windows.md: « Встановлення в системах Windows
   - install.windows.pecl.md: PECL »
   - index.md: PHP Manual
-  - install.windows.md: Установка в системах Windows
+  - install.windows.md: Встановлення у системах Windows
 title: Вимоги до встановлення
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги до встановлення
 
@@ -12,7 +13,7 @@ title: Вимоги до встановлення
 
 PHP вимагає наявності Visual C runtime (CRT). Багато програм вимагають, щоб це вже було встановлено.
 
-Microsoft Visual C ++ для Visual Studio 2019, що розповсюджується, підходить для всіх цих версій PHP, дивіться [» https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/)
+Microsoft Visual C ++ для Visual Studio 2019, що розповсюджується, підходить для всіх цих версій PHP, дивіться [» https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/)
 
 Ви повинні завантажити x86 CRT для складання PHP x86 і x64 CRT для складання PHP x64.
 

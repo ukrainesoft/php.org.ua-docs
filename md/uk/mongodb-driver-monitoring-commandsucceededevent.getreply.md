@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandsucceededevent.getoperationid.md: '« MongoDBDriverMonitoringCommandSucceededEvent::getOperationId'
-  - mongodb-driver-monitoring-commandsucceededevent.getrequestid.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getRequestId »'
+  - mongodb-driver-monitoring-commandsucceededevent.getoperationid.md: '« MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getOperationId'
+  - mongodb-driver-monitoring-commandsucceededevent.getrequestid.md: 'MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getRequestId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
-title: 'MongoDBDriverMonitoringCommandSucceededEvent::getReply'
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDB\\Driver\\Monitoring\\CommandSucceededEvent
+title: 'MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getReply'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringCommandSucceededEvent::getReply
+# MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getReply
 
 (mongodb >=1.3.0)
 
-MongoDBDriverMonitoringCommandSucceededEvent::getReply — Повертає документ відповіді команди
+MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getReply — Повертає документ відповіді команди
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverMonitoringCommandSucceededEvent::getReply — Повертає до
 final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getReply(): object
 ```
 
-Документ відповіді буде перетворено з BSON на PHP з використанням правил [десериализации](mongodb.persistence.deserialization.md) (наприклад, документи BSON будуть перетворені на stdClass).
+Документ ответа будет преобразован из BSON в PHP с использованием правил[десеріалізації](mongodb.persistence.deserialization.md) (наприклад, документи BSON будуть перетворені на [stdClass](class.stdclass.md)
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getReply(): object
 
 ### Значення, що повертаються
 
-Повертає документ відповіді команди у вигляді об'єкту **stdClass**
+Повертає документ відповіді команди у вигляді об'єкту [stdClass](class.stdclass.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 

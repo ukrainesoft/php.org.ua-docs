@@ -1,14 +1,15 @@
 ---
 navigation:
-  - splfixedarray.toarray.md: '« SplFixedArray::toArray'
-  - splfixedarray.wakeup.md: 'SplFixedArray::wakeup »'
+  - splfixedarray.unserialize.md: '« SplFixedArray::\_\_unserialize'
+  - splfixedarray.wakeup.md: 'SplFixedArray::\_\_wakeup »'
   - index.md: PHP Manual
   - class.splfixedarray.md: SplFixedArray
 title: 'SplFixedArray::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFixedArray::valid
 
-(PHP 5> = 5.3.0, PHP 7)
+(PHP 5 >= 5.3.0, PHP 7)
 
 SplFixedArray::valid — Перевіряє масив на наявність елементів
 

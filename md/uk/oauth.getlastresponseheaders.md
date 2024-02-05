@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::getLastResponseHeaders'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::getLastResponseHeaders
 
@@ -26,4 +27,4 @@ public OAuth::getLastResponseHeaders(): string|false
 
 ### Значення, що повертаються
 
-Рядок із заголовками останньої відповіді або **`false`** у разі виникнення помилки
+Строка с заголовками последнего ответа или\*\*`false`\*\*в случае возникновения ошибки

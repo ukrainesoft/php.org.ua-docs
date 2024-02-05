@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xdiff-file-bpatch.md: xdifffilebpatch
-  - function.xdiff-file-diff.md: xdifffilediff »
+  - function.xdiff-file-bpatch.md: « xdiff\_file\_bpatch
+  - function.xdiff-file-diff.md: xdiff\_file\_diff »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
-title: xdifffilediffbinary
+title: xdiff\_file\_diff\_binary
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xdifffilediffbinary
+# xdiff\_file\_diff\_binary
 
 (PECL xdiff >= 0.2.0)
 
-xdifffilediffbinary - Псевдонім для xdifffilebdiff
+xdiff\_file\_diff\_binary — Псевдоним[xdiff\_file\_bdiff()](function.xdiff-file-bdiff.md)
 
 ### Опис
 
@@ -18,9 +19,9 @@ xdifffilediffbinary - Псевдонім для xdifffilebdiff
 xdiff_file_diff_binary(string $old_file, string $new_file, string $dest): bool
 ```
 
-Створює файл бінарного патчу, порівнюючи два файли. Ця функція працює як з бінарними, так і текстовими файлами. Надалі отриманий патч можна застосувати за допомогою функцій [xdifffilebpatch()](function.xdiff-file-bpatch.md)
+Створює файл бінарного патчу, порівнюючи два файли. Ця функція працює як з бінарними, так і текстовими файлами. Надалі отриманий патч можна застосувати за допомогою функцій [xdiff\_file\_bpatch()](function.xdiff-file-bpatch.md)
 
-Починаючи з версії 1.5.0, ця функція є псевдонімом [xdifffilebdiff()](function.xdiff-file-bdiff.md)
+Починаючи з версії 1.5.0, ця функція є псевдонімом [xdiff\_file\_bdiff()](function.xdiff-file-bdiff.md)
 
 ### Список параметрів
 
@@ -38,11 +39,11 @@ xdiff_file_diff_binary(string $old_file, string $new_file, string $dest): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Апмсер використання **xdifffilediffbinary()****
+**Пример #1 Апмсер использования**xdiff\_file\_diff\_binary()\*\*\*\*
 
 Наступний код створює бінарний патч, порівнюючи два архіви.
 
@@ -57,11 +58,11 @@ xdiff_file_diff_binary($old_version, $new_version, 'my_script.bdiff');
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Обидва файли будуть завантажені в пам'ять, тому переконайтеся, що параметр memorylimit налаштовано коректно.
+> Обидва файли будуть завантажені в пам'ять, тому переконайтеся, що параметр memory\_limit налаштовано коректно.
 
 ### Дивіться також
 
--   [xdifffilebdiff()](function.xdiff-file-bdiff.md) - Створити бінарний патч порівнюючи два файли
--   [xdifffilebpatch()](function.xdiff-file-bpatch.md) - Застосувати бінарний патч до файлу
+-   [xdiff\_file\_bdiff()](function.xdiff-file-bdiff.md) \- Створити бінарний патч порівнюючи два файли
+-   [xdiff\_file\_bpatch()](function.xdiff-file-bpatch.md) \- Застосувати бінарний патч до файлу

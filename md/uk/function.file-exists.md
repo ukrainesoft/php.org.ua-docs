@@ -1,16 +1,17 @@
 ---
 navigation:
   - function.fgetss.md: « fgetss
-  - function.file-get-contents.md: filegetcontents »
+  - function.file-get-contents.md: file\_get\_contents »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
-title: fileexists
+title: file\_exists
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fileexists
+# file\_exists
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-fileexists — Перевіряє наявність вказаного файлу чи каталогу
+file\_exists — Перевіряє наявність вказаного файлу чи каталогу
 
 ### Опис
 
@@ -26,17 +27,17 @@ file_exists(string $filename): bool
 
 Шлях до файлу чи каталогу.
 
-На платформах Windows, для перевірки наявності файлів на мережевих ресурсах, використовуйте імена, подібні //computername/share/filename або computernamesharefilename.
+На платформах Windows, для перевірки наявності файлів на мережевих ресурсах, використовуйте імена, подібні //computername/share/filename або \\\\computername\\share\\filename.
 
 ### Значення, що повертаються
 
 Повертає **`true`**, якщо файл або каталог, вказаний параметром `filename`, існує, інакше повертає **`false`**
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція повертає **`false`** для символічних посилань, які свідчать про неіснуючі файли.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Перевірка відбувається з допомогою реальних UID/GID, а чи не ефективних ідентифікаторів.
 
@@ -68,12 +69,12 @@ if (file_exists($filename)) {
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), смотрите в разделе[Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 
--   [ісreadable()](function.is-readable.md) - Визначає існування файлу і чи він доступний для читання
--   [ісwritable()](function.is-writable.md) - Визначає, чи доступний файл для запису
--   [ісfile()](function.is-file.md) - Визначає, чи файл є звичайним файлом
--   [file()](function.file.md) - Читає вміст файлу та поміщає його в масив
+-   [is\_readable()](function.is-readable.md) \- Визначає існування файлу і чи він доступний для читання
+-   [is\_writable()](function.is-writable.md) \- Визначає, чи доступний файл для запису
+-   [is\_file()](function.is-file.md) \- Визначає, чи файл є звичайним файлом
+-   [file()](function.file.md) \- Читає вміст файлу та поміщає його в масив
 -   [SplFileInfo](class.splfileinfo.md)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - commonmark-parser.construct.md: '« CommonMarkParser::construct'
-  - commonmark-parser.finish.md: 'CommonMarkParser::finish »'
+  - commonmark-parser.construct.md: '« CommonMark\\Parser::\_\_construct'
+  - commonmark-parser.finish.md: 'CommonMark\\Parser::finish »'
   - index.md: PHP Manual
-  - class.commonmark-parser.md: CommonMarkParser
-title: 'CommonMarkParser::parse'
+  - class.commonmark-parser.md: CommonMark\\Parser
+title: 'CommonMark\\Parser::parse'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkParser::parse
+# CommonMark\\Parser::parse
 
 (cmark >= 1.0.0)
 
-CommonMarkParser::parse — Розбір
+CommonMark\\Parser::parse — Розбір
 
 ### Опис
 
@@ -20,7 +21,7 @@ public CommonMark\Parser::parse(string $buffer): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

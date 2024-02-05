@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::setToken'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::setToken
 
@@ -36,7 +37,7 @@ public OAuth::setToken(string $token, string $token_secret): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **OAuth::setToken()****
+**Пример #1 Пример использования**OAuth::setToken()\*\*\*\*
 
 ```php
 <?php

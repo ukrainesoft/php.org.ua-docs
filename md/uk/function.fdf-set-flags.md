@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.fdf-set-file.md: « fdfsetfile
-  - function.fdf-set-javascript-action.md: fdfsetjavascriptaction »
+  - function.fdf-set-file.md: « fdf\_set\_file
+  - function.fdf-set-javascript-action.md: fdf\_set\_javascript\_action »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfsetflags
+title: fdf\_set\_flags
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfsetflags
+# fdf\_set\_flags
 
-(PHP 4> = 4.0.2, PHP 5 <5.3.0, PECL fdf SVN)
+(PHP 4 >= 4.0.2, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfsetflags — Встановлює прапор поля
+fdf\_set\_flags — Встановлює прапор поля
 
 ### Опис
 
 ```methodsynopsis
-fdf_set_flags(    resource $fdf_document,    string $fieldname,    int $whichFlags,    int $newFlags): bool
+fdf_set_flags(    resource $fdf_document,    string $fieldname,    int $whichFlags,    int $newFlags): bool
 ```
 
 Встановлює певні прапори поля.
@@ -24,7 +25,7 @@ fdf_set_flags(    resource $fdf_document,    string $fieldname,    int $whichFla
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md)or[fdf\_open\_string()](function.fdf-open-string.md)
 
 `fieldname`
 
@@ -36,8 +37,8 @@ fdf_set_flags(    resource $fdf_document,    string $fieldname,    int $whichFla
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fdfsetopt()](function.fdf-set-opt.md) - Встановлює параметри поля
+-   [fdf\_set\_opt()](function.fdf-set-opt.md) \- Встановлює параметри поля

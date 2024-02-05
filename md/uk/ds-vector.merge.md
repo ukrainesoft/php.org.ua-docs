@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.map.md: '« DsVector::map'
-  - ds-vector.pop.md: 'ДсVector::pop »'
+  - ds-vector.map.md: '« Ds\\Vector::map'
+  - ds-vector.pop.md: 'Ds\\Vector::pop »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::merge'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::merge'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::merge
+# Ds\\Vector::merge
 
 (PECL ds >= 1.0.0)
 
-ДсVector::merge — Повертає результат додавання всіх заданих значень у вектор.
+Ds\\Vector::merge — Повертає результат додавання всіх заданих значень у вектор.
 
 ### Опис
 
@@ -24,19 +25,19 @@ public Ds\Vector::merge(mixed $values): Ds\Vector
 
 `values`
 
-Об'єкт класу [traversable](class.traversable.md) чи масив (array).
+Об'єкт класу [traversable](class.traversable.md)или массив (array).
 
 ### Значення, що повертаються
 
 Результат додавання всіх переданих значень вектор. Фактично робиться копія вектора, який додаються значення.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Поточний екземпляр вектора залишиться недоторканим.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::merge()****
+**Пример #1 Пример использования**Ds\\Vector::merge()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ var_dump($vector);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Vector)#2 (6) {

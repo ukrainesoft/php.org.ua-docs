@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.rpminfo.md: « Введение
+  - intro.rpminfo.md: '" Вступ'
   - rpminfo.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.rpminfo.md: RpmInfo
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayIterator::current
 
@@ -30,7 +31,7 @@ public ArrayIterator::current(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayIterator::current()****
+**Пример #1 Пример использования**ArrayIterator::current()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ for($iterator = $arrayobject->getIterator();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1 => one

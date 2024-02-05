@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-stack.capacity.md: '« DsStack::capacity'
-  - ds-stack.construct.md: 'ДсStack::construct »'
+  - ds-stack.capacity.md: '« Ds\\Stack::capacity'
+  - ds-stack.construct.md: 'Ds\\Stack::\_\_construct »'
   - index.md: PHP Manual
-  - class.ds-stack.md: Стек
-title: 'ДсStack::clear'
+  - class.ds-stack.md: Ds\\Stack
+title: 'Ds\\Stack::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсStack::clear
+# Ds\\Stack::clear
 
 (PECL ds >= 1.0.0)
 
-ДсStack::clear — Видаляє всі значення з колекції
+Ds\\Stack::clear — Видаляє всі значення з колекції
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Stack::clear(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсStack::clear()****
+**Пример #1 Пример использования**Ds\\Stack::clear()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ print_r($stack);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Stack Object

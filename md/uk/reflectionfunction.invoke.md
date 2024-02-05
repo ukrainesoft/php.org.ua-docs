@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunction.md: ReflectionFunction
 title: 'ReflectionFunction::invoke'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunction::invoke
 
@@ -24,7 +25,7 @@ public ReflectionFunction::invoke(mixed ...$args): mixed
 
 `args`
 
-Передані функції аргументи. Може приймати змінну кількість аргументів за аналогією до [calluserfunc()](function.call-user-func.md)
+Передані функції аргументи. Може приймати змінну кількість аргументів за аналогією до [call\_user\_func()](function.call-user-func.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public ReflectionFunction::invoke(mixed ...$args): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionFunction::invoke()****
+**Пример #1 Пример использования**ReflectionFunction::invoke()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo $function->invoke('Dr', 'Phil');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Dr. Phil
@@ -55,12 +56,12 @@ Dr. Phil
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > **ReflectionFunction::invoke()** не можна використовувати, якщо очікуються параметри посилання. Замість нього слід використовувати [ReflectionFunction::invokeArgs()](reflectionfunction.invokeargs.md) (Передача посилань у списку аргументів).
 
 ### Дивіться також
 
--   [ReflectionFunction::export()](reflectionfunction.export.md) - Експортує функції
--   [invoke()](language.oop5.magic.md#object.invoke)
--   [calluserfunc()](function.call-user-func.md) - Викликає callback-функцію, задану у першому параметрі
+-   [ReflectionFunction::export()](reflectionfunction.export.md) \- Експортує функції
+-   [\_\_invoke()](language.oop5.magic.md#object.invoke)
+-   [call\_user\_func()](function.call-user-func.md) \- Викликає callback-функцію, задану у першому параметрі

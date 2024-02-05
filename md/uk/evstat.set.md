@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evstat.md: EvStat
 title: 'EvStat::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvStat::set
 

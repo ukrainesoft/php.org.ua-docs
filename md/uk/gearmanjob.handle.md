@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::handle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanJob::handle
 
@@ -15,7 +16,7 @@ GearmanJob::handle — Отримання дескриптора об'єкта �
 ### Опис
 
 ```methodsynopsis
-public GearmanJob::handle(): string
+public GearmanJob::handle(): false|string
 ```
 
 Повертає дескриптор завдання, наданий сервером.
@@ -26,8 +27,8 @@ public GearmanJob::handle(): string
 
 ### Значення, що повертаються
 
-Дескриптор завдання.
+Дескриптор завдання або \*\*`false`\*\*якщо завдання ще не ініціалізоване.
 
 ### Дивіться також
 
--   [GearmanTask::jobHandle()](gearmantask.jobhandle.md) - Отримати дескриптор завдання
+-   [GearmanTask::jobHandle()](gearmantask.jobhandle.md) \- Отримати дескриптор завдання

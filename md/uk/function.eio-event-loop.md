@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.eio-dup2.md: « eiodup2
-  - function.eio-fallocate.md: eiofallocate »
+  - function.eio-dup2.md: « eio\_dup2
+  - function.eio-fallocate.md: eio\_fallocate »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eioeventloop
+  - ref.eio.md: Eio Функції
+title: eio\_event\_loop
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eioeventloop
+# eio\_event\_loop
 
 (PECL eio >= 0.0.1dev)
 
-eioeventloop — Взаємодіє з libeio доти, доки всі запити не будуть виконані
+eio\_event\_loop — Взаємодіє з libeio доти, доки всі запити не будуть виконані
 
 ### Опис
 
@@ -18,7 +19,7 @@ eioeventloop — Взаємодіє з libeio доти, доки всі запи
 eio_event_loop(): bool
 ```
 
-**eioeventloop()** взаємодіє з libeio до тих пір, поки всі запити не будуть виконані.
+**eio\_event\_loop()** взаємодіє з libeio до тих пір, поки всі запити не будуть виконані.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ eio_event_loop(): bool
 
 ### Значення, що повертаються
 
-**eioeventloop()** повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_event\_loop()** повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eioeventloop()****
+**Пример #1 Пример использования**eio\_event\_loop()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 eio_chmod_ok
@@ -61,4 +62,4 @@ eio_chmod_ok
 
 ### Дивіться також
 
--   [eiopoll()](function.eio-poll.md) - Може бути викликана коли є запити, що очікують на виконання
+-   [eio\_poll()](function.eio-poll.md) \- Може бути викликана коли є запити, що очікують на виконання

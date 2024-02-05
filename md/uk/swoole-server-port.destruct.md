@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server-port.construct.md: '« SwooleServerPort::construct'
-  - swoole-server-port.on.md: 'SwooleServerPort::on »'
+  - swoole-server-port.construct.md: '« Swoole\\Server\\Port::\_\_construct'
+  - swoole-server-port.on.md: 'Swoole\\Server\\Port::on »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServerPort::destruct'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server\\Port::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServerPort::destruct
+# Swoole\\Server\\Port::\_\_destruct
 
 (PECL swoole >= 1.9.0)
 
-SwooleServerPort::destruct — Знищує порт сервера
+Swoole\\Server\\Port::\_\_destruct — Знищує порт сервера
 
 ### Опис
 

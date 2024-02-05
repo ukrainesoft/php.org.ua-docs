@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.xml-set-notation-decl-handler.md: « xmlsetnotationdeclhandler
-  - function.xml-set-processing-instruction-handler.md: xmlsetprocessinginstructionhandler »
+  - function.xml-set-notation-decl-handler.md: « xml\_set\_notation\_decl\_handler
+  - function.xml-set-processing-instruction-handler.md: xml\_set\_processing\_instruction\_handler »
   - index.md: PHP Manual
-  - ref.xml.md: Функции парсера XML
-title: xmlsetobject
+  - ref.xml.md: Функції парсера XML
+title: xml\_set\_object
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlsetobject
+# xml\_set\_object
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xmlsetobject — Використання XML-аналізатора всередині об'єкта
+xml\_set\_object — Використання XML-аналізатора всередині об'єкта
 
 ### Опис
 
 ```methodsynopsis
-xml_set_object(XMLParser $parser, object $object): bool
+xml_set_object(XMLParser $parser, object $object): true
 ```
 
-Ця функція дозволяє використовувати `parser` всередині об'єкту `object`. Усі callback-функції можуть бути встановлені функціями [xmlsetelementhandler()](function.xml-set-element-handler.md) і т.п. та використовуватись як методи об'єкту `object`
+Ця функція дозволяє використовувати `parser` всередині об'єкту `object`. Усі callback-функції можуть бути встановлені функціями [xml\_set\_element\_handler()](function.xml-set-element-handler.md) і т.п. та використовуватись як методи об'єкта `object`
 
 ### Список параметрів
 
@@ -32,21 +33,21 @@ xml_set_object(XMLParser $parser, object $object): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | Параметр`parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався коректний `xml` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xmlsetobject()****
+**Пример #1 Пример использования**xml\_set\_object()\*\*\*\*
 
 ```php
 <?php
-class XMLParser
+class CustomXMLParser
 {
     private $parser;
 
@@ -57,12 +58,6 @@ class XMLParser
         xml_set_object($this->parser, $this);
         xml_set_element_handler($this->parser, "tag_open", "tag_close");
         xml_set_character_data_handler($this->parser, "cdata");
-    }
-
-    function __destruct()
-    {
-        xml_parser_free($this->parser);
-        unset($this->parser);
     }
 
     function parse($data)
@@ -87,12 +82,12 @@ class XMLParser
 
 } // окончание определения класса xml
 
-$xml_parser = new XMLParser();
+$xml_parser = new CustomXMLParser();
 $xml_parser->parse("<A ID='hallo'>PHP</A>");
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(1) "A"

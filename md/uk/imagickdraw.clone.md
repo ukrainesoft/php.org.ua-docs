@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::clone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::clone
 
@@ -20,7 +21,7 @@ public ImagickDraw::clone(): ImagickDraw
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Робить точну копію вказаного об'єкта [ImagickDraw](class.imagickdraw.md)
 

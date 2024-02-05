@@ -1,28 +1,29 @@
 ---
 navigation:
-  - ds-collection.isempty.md: '« DsCollection::isEmpty'
-  - class.ds-hashable.md: Хешируемое »
+  - ds-collection.isempty.md: '« Ds\\Collection::isEmpty'
+  - class.ds-hashable.md: Ds\\Hashable »
   - index.md: PHP Manual
-  - class.ds-collection.md: Коллекция
-title: 'ДсCollection::toArray'
+  - class.ds-collection.md: Ds\\Collection
+title: 'Ds\\Collection::toArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсCollection::toArray
+# Ds\\Collection::toArray
 
 (PECL ds >= 1.0.0)
 
-ДсCollection::toArray — Перетворює колекцію на масив (array)
+Ds\\Collection::toArray — Перетворює колекцію на масив (array)
 
 ### Опис
 
 ```methodsynopsis
-abstract public Ds\Collection::toArray(): array
+public Ds\Collection::toArray(): array
 ```
 
 Перетворює колекцію на array.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Приведення до масиву (array) на даний момент не підтримується.
+> Приведення до масиву (array) не підтримується.
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ abstract public Ds\Collection::toArray(): array
 
 ### Значення, що повертаються
 
-Масив (array), що містить усі елементи колекції у тому порядку.
+Повертає масив (array), що містить усі елементи колекції у тому порядку.
 
 ### Приклади
 
-**Приклад #1 Приклад **ДсCollection::toArray()****
+**Пример #1 Пример использования метода**Ds\\Collection::toArray()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ var_dump($collection->toArray());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(3) {

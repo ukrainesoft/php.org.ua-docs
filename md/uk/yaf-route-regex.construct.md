@@ -1,35 +1,37 @@
 ---
 navigation:
-  - yaf-route-regex.assemble.md: '« YafRouteRegex::assemble'
-  - yaf-route-regex.route.md: 'YafRouteRegex::route »'
+  - yaf-route-regex.assemble.md: '« Yaf\_Route\_Regex::assemble'
+  - yaf-route-regex.route.md: 'Yaf\_Route\_Regex::route »'
   - index.md: PHP Manual
-  - class.yaf-route-regex.md: YafRouteRegex
-title: 'YafRouteRegex::construct'
+  - class.yaf-route-regex.md: Yaf\_Route\_Regex
+title: 'Yaf\_Route\_Regex::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteRegex::construct
+# Yaf\_Route\_Regex::\_\_construct
 
 (Yaf >=1.0.0)
 
-YafRouteRegex::construct - Конструктор класу YafRouteRegex
+Yaf\_Route\_Regex::\_\_construct - Конструктор класу Yaf\_Route\_Regex
 
 ### Опис
 
-public **YafRouteRegex::construct**  
-string `$match`  
-array `$route`  
-array `$map`  
-array `$verify`  
-string `$reverse`
+public**Yaf\_Route\_Regex::\_\_construct**  
+string`$match`,  
+array`$route`,  
+array`$map`  
+array`$verify`  
+string`$reverse`  
+) .
 
 ### Список параметрів
 
 `match`
 
-Готовий шаблон регулярного виразу використовуватиметься для перевірки відповідності URI запиту; якщо не збігається, [YafRouteRegex](class.yaf-route-regex.md) поверне **`false`**
+Готовий шаблон регулярного виразу використовуватиметься для перевірки відповідності URI запиту; якщо не збігається, [Yaf\_Route\_Regex](class.yaf-route-regex.md) поверне **`false`**
 
 `route`
 
-Коли шаблон відповідності відповідає URI запиту, [YafRouteRegex](class.yaf-route-regex.md) буде вирішувати, якого маршруту m/c/a він належить.
+Коли шаблон відповідності відповідає URI запиту, [Yaf\_Route\_Regex](class.yaf-route-regex.md) буде вирішувати, якого маршруту m/c/a він належить.
 
 Будь-який з m/c/a у цьому масиві - необов'язковий, якщо ви не призначите будь-яке значення, він перенаправить на маршрут за промовчанням.
 
@@ -41,9 +43,9 @@ string `$reverse`
 
 `reverse`
 
-Рядок, що використовується для формування URL, дивіться [YafRouteRegex::assemble()](yaf-route-regex.assemble.md)
+Строка, используемая для формирования URL, смотрите[Yaf\_Route\_Regex::assemble()](yaf-route-regex.assemble.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей параметр був представлений у версії 2.3.0
 
@@ -51,7 +53,7 @@ string `$reverse`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafRouteRegex()****
+**Пример #1 Пример использования**Yaf\_Route\_Regex()\*\*\*\*
 
 ```php
 <?php
@@ -73,7 +75,7 @@ string `$reverse`
 ?>
 ```
 
-**Приклад #2 Приклад використання **YafRouteRegex (з версії 2.3.0)()****
+**Пример #2 Пример использования**Yaf\_Route\_Regex (з версії 2.3.0)()\*\*\*\*
 
 ```php
 <?php
@@ -95,7 +97,7 @@ string `$reverse`
 ?>
 ```
 
-**Приклад #3 Приклад використання **YafRouteRegex із іменованими збігами (з версії 2.3.0)()****
+**Пример #3 Пример использования**Yaf\_Route\_Regex із іменованими збігами (з версії 2.3.0)()\*\*\*\*
 
 ```php
 <?php
@@ -117,7 +119,7 @@ string `$reverse`
 ?>
 ```
 
-**Приклад #4 Приклад використання **YafRouteRegex()****
+**Пример #4 Пример использования**Yaf\_Route\_Regex()\*\*\*\*
 
 ```php
 <?php
@@ -144,10 +146,10 @@ string `$reverse`
 
 ### Дивіться також
 
--   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора
--   [YafRouter::addConfig()](yaf-router.addconfig.md) - Додає налаштовані маршрути до маршрутизатора
--   [YafRouteStatic](class.yaf-route-static.md)
--   [YafRouteSupervar](class.yaf-route-supervar.md)
--   [YafRouteSimple](class.yaf-route-simple.md)
--   [YafRouteRewrite](class.yaf-route-rewrite.md)
--   [YafRouteMap](class.yaf-route-map.md)
+-   [Yaf\_Router::addRoute()](yaf-router.addroute.md) \- Додає новий маршрут до маршрутизатора
+-   [Yaf\_Router::addConfig()](yaf-router.addconfig.md) \- Додає налаштовані маршрути до маршрутизатора
+-   [Yaf\_Route\_Static](class.yaf-route-static.md)
+-   [Yaf\_Route\_Supervar](class.yaf-route-supervar.md)
+-   [Yaf\_Route\_Simple](class.yaf-route-simple.md)
+-   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.md)
+-   [Yaf\_Route\_Map](class.yaf-route-map.md)

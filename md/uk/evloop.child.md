@@ -1,10 +1,11 @@
 ---
 navigation:
   - evloop.check.md: '« EvLoop::check'
-  - evloop.construct.md: 'EvLoop::construct »'
+  - evloop.construct.md: 'EvLoop::\_\_construct »'
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::child'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::child
 
@@ -17,19 +18,19 @@ EvLoop::child — Створює об'єкт EvChild, пов'язаний із �
 ```methodsynopsis
 final
    public
-   EvLoop::child(    
+   EvLoop::child(    
     string
      $pid
-   ,    
+   ,    
     string
      $trace
-   ,    
+   ,    
     string
      $callback
-   ,    
+   ,    
     string
      $data
-    = ?,    
+    = ?,    
     string
      $priority
     = ?): EvChild
@@ -39,7 +40,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvChild::construct()](evchild.construct.md)
+Усі параметри, що й для [EvChild::\_\_construct()](evchild.construct.md)
 
 ### Значення, що повертаються
 
@@ -47,4 +48,4 @@ final
 
 ### Дивіться також
 
--   [EvChild::construct()](evchild.construct.md) - Створює об'єкт спостерігач EvChild
+-   [EvChild::\_\_construct()](evchild.construct.md) \- Створює об'єкт спостерігач EvChild

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-weight.md: « fannsetweight
-  - function.fann-subset-train-data.md: fannsubsettraindata »
+  - function.fann-set-weight.md: « fann\_set\_weight
+  - function.fann-subset-train-data.md: fann\_subset\_train\_data »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannshuffletraindata
+  - ref.fann.md: Функції Fann
+title: fann\_shuffle\_train\_data
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannshuffletraindata
+# fann\_shuffle\_train\_data
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannshuffletraindata — Перемішує навчальні дані у випадковому порядку
+fann\_shuffle\_train\_data — Перемішує навчальні дані у випадковому порядку
 
 ### Опис
 

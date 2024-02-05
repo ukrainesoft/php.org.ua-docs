@@ -1,16 +1,19 @@
 ---
 navigation:
   - fann.examples.md: « Приклади
-  - ref.fann.md: Функции Fann »
+  - ref.fann.md: Функції Fann »
   - index.md: PHP Manual
   - fann.examples.md: Приклади
 title: Навчання XOR
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Навчання XOR
 
 Цей приклад показує, як навчити мережу функції XOR
 
 **Приклад #1 Файл xor.data**
+
+4 2 1 -1 -1 -1 -1 1 1 1 -1 1 1 1 -1
 
 **Приклад #2 Просте навчання**
 

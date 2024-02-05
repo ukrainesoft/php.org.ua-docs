@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-kama.md: « traderkama
-  - function.trader-linearreg-intercept.md: traderlinearregintercept »
+  - function.trader-kama.md: « trader\_kama
+  - function.trader-linearreg-intercept.md: trader\_linearreg\_intercept »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderlinearregangle
+  - ref.trader.md: Функції Trader
+title: trader\_linearreg\_angle
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderlinearregangle
+# trader\_linearreg\_angle
 
 (PECL trader >= 0.2.0)
 
-traderlinearregangle - Лінійний регресійний кут
+trader\_linearreg\_angle - Лінійний регресійний кут
 
 ### Опис
 

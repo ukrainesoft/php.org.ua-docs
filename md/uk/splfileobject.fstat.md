@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fstat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::fstat
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fstat — Отримує інформацію про файл
 
@@ -30,7 +31,7 @@ public SplFileObject::fstat(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::fstat()****
+**Пример #1 Пример использования**SplFileObject::fstat()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ print_r(array_slice($stat, 13));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -66,5 +67,5 @@ Array
 
 ### Дивіться також
 
--   [fstat()](function.fstat.md) - Отримує інформацію про файл, використовуючи відкритий файловий покажчик
--   [stat()](function.stat.md) - Повертає інформацію про файл
+-   [fstat()](function.fstat.md) \- Отримує інформацію про файл, використовуючи відкритий файловий покажчик
+-   [stat()](function.stat.md) \- Повертає інформацію про файл

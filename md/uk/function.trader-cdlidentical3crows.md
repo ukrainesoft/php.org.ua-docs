@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlhomingpigeon.md: « tradercdlhomingpigeon
-  - function.trader-cdlinneck.md: tradercdlinneck »
+  - function.trader-cdlhomingpigeon.md: « trader\_cdlhomingpigeon
+  - function.trader-cdlinneck.md: trader\_cdlinneck »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlidentical3crows
+  - ref.trader.md: Функції Trader
+title: trader\_cdlidentical3crows
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlidentical3crows
+# trader\_cdlidentical3crows
 
 (PECL trader >= 0.2.0)
 
-tradercdlidentical3crows — Свічкова модель "Три однакові ворони"
+trader\_cdlidentical3crows — Свічкова модель "Три однакові ворони"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlidentical3crows(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlidentical3crows(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

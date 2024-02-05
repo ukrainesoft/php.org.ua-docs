@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-data-seek.md: « cubriddataseek
-  - function.cubrid-errno.md: cubriderrno »
+  - function.cubrid-data-seek.md: « cubrid\_data\_seek
+  - function.cubrid-errno.md: cubrid\_errno »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridдбname
+title: cubrid\_db\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridдбname
+# cubrid\_db\_name
 
 (PECL CUBRID >= 8.3.1)
 
-cubridдбname — Отримання імені бази даних із результату cubridlistdbs
+cubrid\_db\_name — Отримання імені бази даних із результату cubrid\_list\_dbs
 
 ### Опис
 
@@ -18,13 +19,13 @@ cubridдбname — Отримання імені бази даних із рез
 cubrid_db_name(array $result, int $index): string
 ```
 
-Витягує ім'я бази даних із результату виклику [cubridlistdbs()](function.cubrid-list-dbs.md)
+Витягує ім'я бази даних із результату виклику [cubrid\_list\_dbs()](function.cubrid-list-dbs.md)
 
 ### Список параметрів
 
 `result`
 
-Вказівник на результат виклику [cubridlistdbs()](function.cubrid-list-dbs.md)
+Вказівник на результат виклику [cubrid\_list\_dbs()](function.cubrid-list-dbs.md)
 
 `index`
 
@@ -32,11 +33,11 @@ cubrid_db_name(array $result, int $index): string
 
 ### Значення, що повертаються
 
-Повертає ім'я бази даних у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо повернулося **`false`**, використовуйте [cubriderror()](function.cubrid-error.md) для точного визначення помилки, що відбулася.
+Повертає ім'я бази даних у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо повернулося **`false`**, используйте[cubrid\_error()](function.cubrid-error.md) для точного визначення помилки, що відбулася.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridдбname()****
+**Пример #1 Пример использования**cubrid\_db\_name()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ while ($i < $cnt) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 demodb
@@ -62,4 +63,4 @@ demodb
 
 ### Дивіться також
 
--   [cubridlistdbs()](function.cubrid-list-dbs.md) - Отримати масив зі списком усіх баз даних CUBRID
+-   [cubrid\_list\_dbs()](function.cubrid-list-dbs.md) \- Отримати масив зі списком усіх баз даних CUBRID

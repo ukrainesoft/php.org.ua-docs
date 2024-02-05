@@ -1,30 +1,31 @@
 ---
 navigation:
-  - class.commonmark-node-orderedlist.md: « CommonMarkNodeOrderedList
-  - class.commonmark-node-item.md: CommonMarkNodeItem »
+  - class.commonmark-node-orderedlist.md: « CommonMark\\Node\\OrderedList
+  - class.commonmark-node-item.md: CommonMark\\Node\\Item »
   - index.md: PHP Manual
-  - class.commonmark-node-orderedlist.md: CommonMarkNodeOrderedList
-title: 'CommonMarkNodeOrderedList::construct'
+  - class.commonmark-node-orderedlist.md: CommonMark\\Node\\OrderedList
+title: 'CommonMark\\Node\\OrderedList::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkNodeOrderedList::construct
+# CommonMark\\Node\\OrderedList::\_\_construct
 
 (cmark >= 1.0.0)
 
-CommonMarkNodeOrderedList::construct — Конструктор класу OrderedList
+CommonMark\\Node\\OrderedList::\_\_construct — Конструктор класу OrderedList
 
 ### Опис
 
-public **CommonMarkNodeOrderedList::construct**
+public**CommonMark\\Node\\OrderedList::\_\_construct**()
 
-public **CommonMarkNodeOrderedList::construct**(int `$tight`
+public**CommonMark\\Node\\OrderedList::\_\_construct**(int`$tight`) .
 
-public **CommonMarkNodeOrderedList::construct**(int `$tight`, int `$delimiter`
+public**CommonMark\\Node\\OrderedList::\_\_construct**(int`$tight`, int`$delimiter`) .
 
-public **CommonMarkNodeOrderedList::construct**(int `$tight`, int `$delimiter`, int `$start`
+public**CommonMark\\Node\\OrderedList::\_\_construct**(int`$tight`, int`$delimiter`, int`$start`) .
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

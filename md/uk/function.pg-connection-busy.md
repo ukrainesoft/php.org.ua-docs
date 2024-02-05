@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-connect.md: « pgconnect
-  - function.pg-connection-reset.md: пгconnectionreset »
+  - function.pg-connect.md: « pg\_connect
+  - function.pg-connection-reset.md: pg\_connection\_reset »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгconnectionbusy
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_connection\_busy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгconnectionbusy
+# pg\_connection\_busy
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгconnectionbusy - Перевіряє, чи зайнято з'єднання в даний момент.
+pg\_connection\_busy - Перевіряє, чи зайнято з'єднання в даний момент.
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: пгconnectionbusy
 pg_connection_busy(PgSql\Connection $connection): bool
 ```
 
-**пгconnectionbusy()** визначає, чи зайнято з'єднання в даний момент чи ні. З'єднання працює, коли попередній запит ще виконується. Функція [пгgetresult()](function.pg-get-result.md) також блокує з'єднання на час виконання.
+**pg\_connection\_busy()** визначає, чи зайнято з'єднання в даний момент чи ні. З'єднання працює, коли попередній запит ще виконується. Функція [pg\_get\_result()](function.pg-get-result.md) також блокує з'єднання на час виконання.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
@@ -32,13 +33,13 @@ pg_connection_busy(PgSql\Connection $connection): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгconnectionbusy()****
+**Пример #1 Пример использования**pg\_connection\_busy()\*\*\*\*
 
 ```php
 <?php
@@ -54,5 +55,5 @@ pg_connection_busy(PgSql\Connection $connection): bool
 
 ### Дивіться також
 
--   [пгconnectionstatus()](function.pg-connection-status.md) - Визначає стан підключення
--   [пгgetresult()](function.pg-get-result.md) - Отримання результату асинхронного запиту
+-   [pg\_connection\_status()](function.pg-connection-status.md) \- Визначає стан підключення
+-   [pg\_get\_result()](function.pg-get-result.md) \- Отримання результату асинхронного запиту

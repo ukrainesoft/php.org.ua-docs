@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.tidynode.md: tidyNode
 title: 'tidyNode::isComment'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidyNode::isComment
 
@@ -30,7 +31,7 @@ public tidyNode::isComment(): bool
 
 ### Приклади
 
-**Приклад #1 Вилучення коментарів із змішаного HTML-документу**
+**Приклад #1 Вилучення коментарів із змішаного HTML-документа**
 
 ```php
 <?php
@@ -86,7 +87,7 @@ function get_nodes($node) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 # узел комментария #1

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - commonmark-node.unlink.md: '« CommonMarkNode::unlink'
-  - class.commonmark-interfaces-ivisitor.md: CommonMarkInterfacesIVisitor »
+  - commonmark-node.unlink.md: '« CommonMark\\Node::unlink'
+  - class.commonmark-interfaces-ivisitor.md: CommonMark\\Interfaces\\IVisitor »
   - index.md: PHP Manual
-  - class.commonmark-node.md: CommonMarkNode
-title: 'CommonMarkNode::accept'
+  - class.commonmark-node.md: CommonMark\\Node
+title: 'CommonMark\\Node::accept'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkNode::accept
+# CommonMark\\Node::accept
 
 (cmark >= 1.0.0)
 
-CommonMarkNode::accept — Visitation
+CommonMark\\Node::accept — Visitation
 
 ### Опис
 
@@ -22,9 +23,9 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 `visitor`
 
-Об'єкт, що реалізує [CommonMarkInterfacesIVisitor](class.commonmark-interfaces-ivisitor.md)
+Об'єкт, що реалізує [CommonMark\\Interfaces\\IVisitor](class.commonmark-interfaces-ivisitor.md)
 
 ### Дивіться також
 
--   [CommonMarkInterfacesIVisitor::enter](commonmark-interfaces-ivisitor.enter.md)
--   [CommonMarkInterfacesIVisitor::leave](commonmark-interfaces-ivisitor.leave.md)
+-   [CommonMark\\Interfaces\\IVisitor::enter](commonmark-interfaces-ivisitor.enter.md)
+-   [CommonMark\\Interfaces\\IVisitor::leave](commonmark-interfaces-ivisitor.leave.md)

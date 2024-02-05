@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setMltBoost'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setMltBoost
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setMltBoost — Встановлює, чи буде запит посилено релевантністю цікавого виразу
 
@@ -24,7 +25,7 @@ public SolrQuery::setMltBoost(bool $flag): SolrQuery
 
 `value`
 
-Встановіть **`true`** або **`false`**
+Установите\*\*`true`**или**`false`\*\*
 
 ### Значення, що повертаються
 

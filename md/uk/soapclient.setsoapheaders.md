@@ -1,16 +1,17 @@
 ---
 navigation:
-  - soapclient.setlocation.md: '« SoapClient::setLocation'
-  - soapclient.soapcall.md: 'SoapClient::soapCall »'
+  - soapclient.setlocation.md: '« SoapClient::\_\_setLocation'
+  - soapclient.soapcall.md: 'SoapClient::\_\_soapCall »'
   - index.md: PHP Manual
   - class.soapclient.md: SoapClient
-title: 'SoapClient::setSoapHeaders'
+title: 'SoapClient::\_\_setSoapHeaders'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapClient::setSoapHeaders
+# SoapClient::\_\_setSoapHeaders
 
-(PHP 5> = 5.0.5, PHP 7, PHP 8)
+(PHP 5 >= 5.0.5, PHP 7, PHP 8)
 
-SoapClient::setSoapHeaders — Встановлює заголовки SOAP для наступних дзвінків
+SoapClient::\_\_setSoapHeaders — Встановлює заголовки SOAP для наступних дзвінків
 
 ### Опис
 
@@ -20,7 +21,7 @@ public SoapClient::__setSoapHeaders(SoapHeader|array|null $headers = null): bool
 
 Визначає заголовки для надсилання разом із SOAP-запитами.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Виклик цього методу замінить будь-які попередні значення.
 
@@ -32,11 +33,11 @@ public SoapClient::__setSoapHeaders(SoapHeader|array|null $headers = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapClient::setSoapHeaders()****
+**Пример #1 Пример использования**SoapClient::\_\_setSoapHeaders()\*\*\*\*
 
 ```php
 <?php

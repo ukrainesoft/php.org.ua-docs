@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::toArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDocument::toArray
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrDocument::toArray — Повертає подання масиву документа
 
@@ -30,7 +31,7 @@ public SolrDocument::toArray(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDocument::toArray()****
+**Пример #1 Пример использования**SolrDocument::toArray()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ print_r($doc->toArray());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

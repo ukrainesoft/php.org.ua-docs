@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.find.md: '« DsVector::find'
-  - ds-vector.get.md: 'ДсVector::get »'
+  - ds-vector.find.md: '« Ds\\Vector::find'
+  - ds-vector.get.md: 'Ds\\Vector::get »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::first'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::first'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::first
+# Ds\\Vector::first
 
 (PECL ds >= 1.0.0)
 
-ДсVector::first — Повертає перший елемент вектора
+Ds\\Vector::first — Повертає перший елемент вектора
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Vector::first(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::first()****
+**Пример #1 Пример использования**Ds\\Vector::first()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($vector->first());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(1)

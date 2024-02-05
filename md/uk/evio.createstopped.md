@@ -1,10 +1,11 @@
 ---
 navigation:
-  - evio.construct.md: '« EvIo::construct'
+  - evio.construct.md: '« EvIo::\_\_construct'
   - evio.set.md: 'EvIo::set »'
   - index.md: PHP Manual
   - class.evio.md: EvIo
 title: 'EvIo::createStopped'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvIo::createStopped
 
@@ -18,41 +19,41 @@ EvIo::createStopped — Створює зупинений об'єкт спост
 final
    public
    static
-   EvIo::createStopped(    
+   EvIo::createStopped(    
     mixed
      $fd
-   ,    
+   ,    
     int
      $events
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
    ): EvIo
 ```
 
-Те саме, що й [EvIo::construct()](evio.construct.md) але не відбувається автоматичного запуску спостерігача.
+Те саме, що й [EvIo::\_\_construct()](evio.construct.md) але не відбувається автоматичного запуску спостерігача.
 
 ### Список параметрів
 
 `fd`
 
-Дивіться [EvIo::construct()](evio.construct.md)
+Смотрите[EvIo::\_\_construct()](evio.construct.md)
 
 `events`
 
-Дивіться [EvIo::construct()](evio.construct.md)
+Смотрите[EvIo::\_\_construct()](evio.construct.md)
 
 `callback`
 
-Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.md)
+Смотрите[Callback-функції спостерігачів](ev.watcher-callbacks.md)
 
 `data`
 
@@ -60,7 +61,7 @@ final
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
+[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
@@ -68,5 +69,5 @@ final
 
 ### Дивіться також
 
--   [EvIo::construct()](evio.construct.md) - Створює об'єкт спостерігач EvIo
--   [EvLoop::io()](evloop.io.md) - Створює об'єкт спостерігача EvIo, пов'язаний із поточним екземпляром циклу подій
+-   [EvIo::\_\_construct()](evio.construct.md) \- Створює об'єкт спостерігач EvIo
+-   [EvLoop::io()](evloop.io.md) \- Створює об'єкт спостерігача EvIo, пов'язаний із поточним екземпляром циклу подій

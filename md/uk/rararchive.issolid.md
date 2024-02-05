@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.rararchive.md: RarArchive
 title: 'RarArchive::isSolid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarArchive::isSolid
 
-# rarsolidіс
+# rar\_solid\_is
 
 (PECL rar >= 2.0.0)
 
-RarArchive::isSolid -- rarsolidis — Перевірити, чи є архів суцільним
+RarArchive::isSolid -- rar\_solid\_is — Перевірити, чи є архів суцільним
 
 ### Опис
 
@@ -34,11 +35,11 @@ rar_solid_is(RarArchive $rarfile): bool
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [raropen()](rararchive.open.md)
+Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [rar\_open()](rararchive.open.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо так і **`false`**, якщо ні.
+Повертає **`true`**, если да и\*\*`false`\*\*, якщо ні.
 
 ### Приклади
 
@@ -53,7 +54,7 @@ echo "$arch2: " . ($arch2->isSolid()?'yes':'no') . "\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 RAR Archive "C:\php_rar\trunk\tests\store_method.rar": no

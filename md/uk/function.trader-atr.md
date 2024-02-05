@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-atan.md: « traderatan
-  - function.trader-avgprice.md: traderavgprice »
+  - function.trader-atan.md: « trader\_atan
+  - function.trader-avgprice.md: trader\_avgprice »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderatr
+  - ref.trader.md: Функції Trader
+title: trader\_atr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderatr
+# trader\_atr
 
 (PECL trader >= 0.2.0)
 
-traderatr — Середній дійсний діапазон
+trader\_atr — Середній дійсний діапазон
 
 ### Опис
 
 ```methodsynopsis
-trader_atr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_atr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

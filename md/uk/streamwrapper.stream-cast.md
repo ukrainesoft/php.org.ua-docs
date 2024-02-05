@@ -1,16 +1,17 @@
 ---
 navigation:
   - streamwrapper.rmdir.md: '« streamWrapper::rmdir'
-  - streamwrapper.stream-close.md: 'streamWrapper::streamclose »'
+  - streamwrapper.stream-close.md: 'streamWrapper::stream\_close »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
-title: 'streamWrapper::streamcast'
+title: 'streamWrapper::stream\_cast'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamWrapper::streamcast
+# streamWrapper::stream\_cast
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-streamWrapper::streamcast — Отримує ресурс рівнем нижче
+streamWrapper::stream\_cast — Отримує ресурс рівнем нижче
 
 ### Опис
 
@@ -18,13 +19,13 @@ streamWrapper::streamcast — Отримує ресурс рівнем нижч�
 public streamWrapper::stream_cast(int $cast_as): resource
 ```
 
-Цей метод викликається у процесі виконання [streamselect()](function.stream-select.md)
+Цей метод викликається у процесі виконання [stream\_select()](function.stream-select.md)
 
 ### Список параметрів
 
 `cast_as`
 
-Може бути **`STREAM_CAST_FOR_SELECT`**, коли [streamselect()](function.stream-select.md) викликає **streamcast()**, або **`STREAM_CAST_AS_STREAM`**, коли **streamcast()** викликається задля інших цілей.
+Може бути **`STREAM_CAST_FOR_SELECT`**, когда[stream\_select()](function.stream-select.md) викликає **stream\_cast()**, либо\*\*`STREAM_CAST_AS_STREAM`**, когда**stream\_cast()\*\* викликається задля інших цілей.
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ public streamWrapper::stream_cast(int $cast_as): resource
 
 ### Дивіться також
 
--   [streamselect()](function.stream-select.md) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
+-   [stream\_select()](function.stream-select.md) \- Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::timer'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::timer
 
@@ -17,20 +18,20 @@ EvLoop::timer — Створює об'єкт спостерігача EvTimer, �
 ```methodsynopsis
 final
    public
-   EvLoop::timer(    
+   EvLoop::timer(    
     float
      $after
-   ,    
+   ,    
     float
      $repeat
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -41,7 +42,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvTimer::construct()](evtimer.construct.md)
+Усі параметри, що й для [EvTimer::\_\_construct()](evtimer.construct.md)
 
 ### Значення, що повертаються
 
@@ -49,4 +50,4 @@ final
 
 ### Дивіться також
 
--   [EvTimer::construct()](evtimer.construct.md) - Конструктор об'єкта спостерігача EvTimer
+-   [EvTimer::\_\_construct()](evtimer.construct.md) \- Конструктор об'єкта спостерігача EvTimer

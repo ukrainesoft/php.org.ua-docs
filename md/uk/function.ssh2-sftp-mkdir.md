@@ -1,32 +1,33 @@
 ---
 navigation:
-  - function.ssh2-sftp-lstat.md: « ssh2sftplstat
-  - function.ssh2-sftp-readlink.md: ssh2sftpreadlink »
+  - function.ssh2-sftp-lstat.md: « ssh2\_sftp\_lstat
+  - function.ssh2-sftp-readlink.md: ssh2\_sftp\_readlink »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2sftpmkdir
+title: ssh2\_sftp\_mkdir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2sftpmkdir
+# ssh2\_sftp\_mkdir
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2sftpmkdir — Створити директорію
+ssh2\_sftp\_mkdir — Створити директорію
 
 ### Опис
 
 ```methodsynopsis
-ssh2_sftp_mkdir(    resource $sftp,    string $dirname,    int $mode = 0777,    bool $recursive = false): bool
+ssh2_sftp_mkdir(    resource $sftp,    string $dirname,    int $mode = 0777,    bool $recursive = false): bool
 ```
 
-Створює директорію на сервері із заданими в `mode` правами доступу.
+Створює директорію на сервері із заданими в `mode`правами доступа.
 
-Функція аналогічна використанню [mkdir()](function.mkdir.md) з обгорткою [ssh2.sftp://](wrappers.ssh2.md)
+Функция аналогична использованию[mkdir()](function.mkdir.md) з обгорткою [ssh2.sftp://](wrappers.ssh2.md)
 
 ### Список параметрів
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.md)
 
 `dirname`
 
@@ -38,11 +39,11 @@ ssh2_sftp_mkdir(    resource $sftp,    string $dirname,    int $mode = 0777,    
 
 `recursive`
 
-Якщо `recursive` заданий як **`true`**, створюються всі батьківські директорії `dirname`якщо їх немає.
+Якщо `recursive`задан как\*\*`true`\*\*, створюються всі батьківські директорії `dirname`якщо їх немає.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -61,5 +62,5 @@ ssh2_sftp_mkdir($sftp, '/home/username/newdir');
 
 ### Дивіться також
 
--   [mkdir()](function.mkdir.md) - створює директорію
--   [ssh2sftprmdir()](function.ssh2-sftp-rmdir.md) - видаляє директорію
+-   [mkdir()](function.mkdir.md) \- створює директорію
+-   [ssh2\_sftp\_rmdir()](function.ssh2-sftp-rmdir.md) \- видаляє директорію

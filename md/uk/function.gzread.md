@@ -3,8 +3,9 @@ navigation:
   - function.gzputs.md: « gzputs
   - function.gzrewind.md: gzrewind »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzread
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzread
 
@@ -32,17 +33,17 @@ gzread(resource $stream, int $length): string|false
 
 ### Значення, що повертаються
 
-Прочитані дані або **`false`** у разі виникнення помилки.
+Прочитані дані або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі виникнення помилки повертається **`false`**; раніше, повертався `0` |
+| 7.4.0 | У разі виникнення помилки повертається **`false`**; раніше, повертався |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gzread()****
+**Пример #1 Пример использования**gzread()\*\*\*\*
 
 ```php
 <?php
@@ -56,9 +57,9 @@ gzclose($zd);
 
 ### Дивіться також
 
--   [gzwrite()](function.gzwrite.md) - Бінарний запис у gz-файл
--   [gzopen()](function.gzopen.md) - Відкрити gz-файл
--   [gzgets()](function.gzgets.md) - Отримати рядок із покажчика файлу
--   [gzgetss()](function.gzgetss.md) - Повертає рядок із покажчика gz-файлу та видалити HTML-теги
--   [gzfile()](function.gzfile.md) - Зчитує весь gz-файл у масив
--   [gzpassthru()](function.gzpassthru.md) - Виведення всіх даних з покажчика gz-файлу.
+-   [gzwrite()](function.gzwrite.md) \- Бінарний запис у gz-файл
+-   [gzopen()](function.gzopen.md) \- Відкрити gz-файл
+-   [gzgets()](function.gzgets.md) \- Отримати рядок із покажчика файлу
+-   [gzgetss()](function.gzgetss.md) \- Повертає рядок із покажчика gz-файлу та видалити HTML-теги
+-   [gzfile()](function.gzfile.md) \- Зчитує весь gz-файл у масив
+-   [gzpassthru()](function.gzpassthru.md) \- Виведення всіх даних з покажчика gz-файлу.

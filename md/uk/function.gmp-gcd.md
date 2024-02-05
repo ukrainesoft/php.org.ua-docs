@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-fact.md: « gmpfact
-  - function.gmp-gcdext.md: gmpgcdext »
+  - function.gmp-fact.md: « gmp\_fact
+  - function.gmp-gcdext.md: gmp\_gcdext »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpgcd
+title: gmp\_gcd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpgcd
+# gmp\_gcd
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpgcd - Обчислення найбільшого спільного дільника
+gmp\_gcd - Обчислення найбільшого спільного дільника
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpgcd - Обчислення найбільшого спільного діль
 gmp_gcd(GMP|int|string $num1, GMP|int|string $num2): GMP
 ```
 
-Обчислює найбільший спільний дільник чисел `num1` і `num2`. Результат завжди позитивний, навіть якщо одне з чисел, або обидва негативні.
+Обчислює найбільший спільний дільник чисел `num1`и`num2`. Результат завжди позитивний, навіть якщо одне з чисел, або обидва негативні.
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ gmp_gcd(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ### Значення, що повертаються
 
-Позитивний НОД чисел `num1` і `num2`
+Позитивний НОД чисел `num1`и`num2`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpgcd()****
+**Пример #1 Пример использования**gmp\_gcd()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ echo gmp_strval($gcd) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 3
@@ -53,4 +54,4 @@ echo gmp_strval($gcd) . "\n";
 
 ### Дивіться також
 
--   [gmplcm()](function.gmp-lcm.md) - обчислює найменше загальне кратне
+-   [gmp\_lcm()](function.gmp-lcm.md) \- обчислює найменше загальне кратне

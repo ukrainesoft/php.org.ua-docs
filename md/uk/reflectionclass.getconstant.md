@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getConstant'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getConstant
 
@@ -24,15 +25,15 @@ public ReflectionClass::getConstant(string $name): mixed
 
 `name`
 
-Назва константи класу.
+Ім'я константи класу.
 
 ### Значення, що повертаються
 
-Значення константи з ім'ям `name`. Повертає **`false`** якщо константа відсутня у класі.
+Значення константи з ім'ям `name`. Повертає \*\*`false`\*\*если константа отсутствует в классе.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getConstant()****
+**Пример #1 Пример использования**ReflectionClass::getConstant()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump($reflection->getConstant('C3'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -60,4 +61,4 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionClass::getConstants()](reflectionclass.getconstants.md) - Повертає константи
+-   [ReflectionClass::getConstants()](reflectionclass.getconstants.md) \- Повертає константи

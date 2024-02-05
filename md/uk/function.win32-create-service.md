@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.win32-continue-service.md: « win32continueservice
-  - function.win32-delete-service.md: win32deleteservice »
+  - function.win32-continue-service.md: « win32\_continue\_service
+  - function.win32-delete-service.md: win32\_delete\_service »
   - index.md: PHP Manual
   - ref.win32service.md: win32service
-title: win32createservice
+title: win32\_create\_service
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# win32createservice
+# win32\_create\_service
 
 (PECL win32service >=0.1.0)
 
-win32createservice — Створює новий запис служби у базі даних SCM
+win32\_create\_service — Створює новий запис служби у базі даних SCM
 
 ### Опис
 
@@ -44,7 +45,7 @@ win32_create_service(array $details, string $machine = ?): void
 
 `password`
 
-Пароль, відповідний `user`
+Пароль, соответствующий`user`
 
 `path`
 
@@ -56,7 +57,7 @@ win32_create_service(array $details, string $machine = ?): void
 
 `load_order`
 
-Керує loadorder. Ще не повністю підтримується.
+Керує load\_order. Ще не повністю підтримується.
 
 `svc_type`
 
@@ -72,7 +73,7 @@ win32_create_service(array $details, string $machine = ?): void
 
 `delayed_start`
 
-Якщо для `delayed_start` встановлено значення **`true`**, Це проінформує SCM про те, що служба повинна бути запущена після того, як будуть запущені інші служби автозапуску, плюс невелика затримка.
+Якщо для `delayed_start`установлено значение\*\*`true`\*\*, Це проінформує SCM про те, що служба повинна бути запущена після того, як будуть запущені інші служби автозапуску, плюс невелика затримка.
 
 Будь-яку службу можна позначити як службу з відкладеним автозапуском; однак цей параметр не діє, якщо `start_type` служби не дорівнює **`WIN32_SERVICE_AUTO_START`**
 
@@ -98,31 +99,31 @@ win32_create_service(array $details, string $machine = ?): void
 
 Дія буде виконана за першої помилки. Значення за замовчуванням - **`WIN32_SC_ACTION_NONE`**
 
-Для `recovery_action_1` можна задати одну з констант [действий восстановления Win32](win32service.constants.recovery-action.md)
+Для`recovery_action_1` можна задати одну з констант [дій відновлення Win32](win32service.constants.recovery-action.md)
 
 `recovery_action_2`
 
 Дія буде виконана за другої помилки. Значення за замовчуванням - **`WIN32_SC_ACTION_NONE`**
 
-Для `recovery_action_2` можна задати одну з констант [действий восстановления Win32](win32service.constants.recovery-action.md)
+Для`recovery_action_2` можна задати одну з констант [дій відновлення Win32](win32service.constants.recovery-action.md)
 
 `recovery_action_3`
 
 Дія буде виконана за наступних помилок. Значення за замовчуванням - **`WIN32_SC_ACTION_NONE`**
 
-Для `recovery_action_3` можна задати одну з констант [действий восстановления Win32](win32service.constants.recovery-action.md)
+Для`recovery_action_3` можна задати одну з констант [дій відновлення Win32](win32service.constants.recovery-action.md)
 
 `recovery_reset_period`
 
 Лічильник відмов буде скинутий після затримки, визначеної у параметрі. Затримка вказується за секунди.
 
-Значення за замовчуванням `86400`
+Значение по умолчанию`86400`
 
 `recovery_enabled`
 
-Встановіть для цього параметра значення **`true`** для ввімкнення налаштувань відновлення, **`false`** для вимкнення.
+Встановіть для цього параметра значення \*\*`true`**для включения настроек восстановления,**`false`\*\*для отключения.
 
-Значення за замовчуванням **`false`**
+Значение по умолчанию\*\*`false`\*\*
 
 `recovery_reboot_msg`
 
@@ -140,46 +141,46 @@ win32_create_service(array $details, string $machine = ?): void
 
 Функція не повертає значення після виконання.
 
-До версії 1.0.0, Повертає **`WIN32_NO_ERROR`** у разі успішного завершення **`false`** якщо була виявлена ​​проблема з параметрами або [код ошибки Win32](win32service.constants.errors.md) при невдалому завершенні роботи.
+До версії 1.0.0, Повертає **`WIN32_NO_ERROR`** у разі успішного завершення **`false`** якщо була виявлена ​​проблема з параметрами або [код помилки Win32](win32service.constants.errors.md) при невдалому завершенні роботи.
 
 ### Помилки
 
-Викидається [ValueError](class.valueerror.md), якщо значення параметра `service` не задано.
+Викидається [ValueError](class.valueerror.md), если значение параметра`service`не задано.
 
-Викидається [ValueError](class.valueerror.md), якщо значення параметра `path` не задано.
+Викидається [ValueError](class.valueerror.md), если значение параметра`path`не задано.
 
-Викидається [ValueError](class.valueerror.md), якщо значення параметра `svc_type` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), если значение параметра`svc_type` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.md), якщо значення параметра `start_type` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), если значение параметра`start_type` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.md), якщо значення параметра `error_control` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), если значение параметра`error_control` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.md), якщо значення параметра `base_priority` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), если значение параметра`base_priority` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.md), якщо значення параметра `recovery_delay` не в проміжку між 0 та PHPINTMAX.
+Викидається [ValueError](class.valueerror.md), если значение параметра`recovery_delay` не в проміжку між 0 та PHP\_INT\_MAX.
 
-Викидається [ValueError](class.valueerror.md), якщо значення параметра `recovery_action_1` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), если значение параметра`recovery_action_1` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.md), якщо значення параметра `recovery_action_2` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), если значение параметра`recovery_action_2` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.md), якщо значення параметра `recovery_action_3` вказано неправильно.
+Викидається [ValueError](class.valueerror.md), если значение параметра`recovery_action_3` вказано неправильно.
 
-Викидається [ValueError](class.valueerror.md), якщо значення параметра `recovery_reset_period` не в проміжку між 0 та PHPINTMAX.
+Викидається [ValueError](class.valueerror.md), если значение параметра`recovery_reset_period` не в проміжку між 0 та PHP\_INT\_MAX.
 
 У разі виникнення помилки викидається [Win32ServiceException](class.win32serviceexception.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) у разі невірних даних у параметрах раніше поверталося **`false`** |
-| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
+| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md) |
 | PECL win32service 1.0.0 | Тип повернення тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed) |
-| PECL win32service 0.4.0 | Додані параметри `dependencies` `recovery_delay` `recovery_action_1` `recovery_action_2` `recovery_action_3` `recovery_reset_period` `recovery_enabled` `recovery_reboot_msg` і `recovery_command` |
+| PECL win32service 0.4.0 | Додані параметри `dependencies` `recovery_delay` `recovery_action_1` `recovery_action_2` `recovery_action_3` `recovery_reset_period` `recovery_enabled` `recovery_reboot_msg`и`recovery_command` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **win32createservice()****
+**Пример #1 Пример использования**win32\_create\_service()\*\*\*\*
 
 Створення сервісу з короткою назвою dummyphp.
 
@@ -195,7 +196,7 @@ debug_zval_dump($x);
 ?>
 ```
 
-**Приклад #2 Приклад використання **win32createservice()** із залежностями**
+**Пример #2 Пример использования**win32\_create\_service()\*\* із залежностями\*\*
 
 Створення сервісу з короткою назвою 'dummyphp' та залежностями.
 
@@ -212,7 +213,7 @@ debug_zval_dump($x);
 ?>
 ```
 
-**Приклад #3 Приклад використання **win32createservice()** з відновленням**
+**Пример #3 Пример использования**win32\_create\_service()**с восстановлением**
 
 Створення сервісу з короткою назвою 'dummyphp' та налаштуваннями відновлення.
 
@@ -238,7 +239,7 @@ debug_zval_dump($x);
 
 ### Дивіться також
 
--   [win32deleteservice()](function.win32-delete-service.md) - Видалення запису служби з бази даних SCM
+-   [win32\_delete\_service()](function.win32-delete-service.md) \- Видалення запису служби з бази даних SCM
 -   [Базові класи пріоритету Win32](win32service.constants.basepriorities.md)
--   [Действия восстановления Win32](win32service.constants.recovery-action.md)
+-   [Дії відновлення Win32](win32service.constants.recovery-action.md)
 -   [Коди помилок Win32](win32service.constants.errors.md)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.tidy-access-count.md: « tidyaccesscount
-  - function.tidy-error-count.md: tidyerrorcount »
+  - function.tidy-access-count.md: « tidy\_access\_count
+  - function.tidy-error-count.md: tidy\_error\_count »
   - index.md: PHP Manual
   - ref.tidy.md: Tidy
-title: tidyconfigcount
+title: tidy\_config\_count
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tidyconfigcount
+# tidy\_config\_count
 
-(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
 
-tidyconfigcount — Повертає кількість помилок конфігурації Tidy, які зустрілися під час розгляду документа
+tidy\_config\_count — Повертає кількість помилок конфігурації Tidy, які зустрілися під час розгляду документа
 
 ### Опис
 
@@ -32,7 +33,7 @@ tidy_config_count(tidy $tidy): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidyconfigcount()****
+**Пример #1 Пример использования**tidy\_config\_count()\*\*\*\*
 
 ```php
 <?php

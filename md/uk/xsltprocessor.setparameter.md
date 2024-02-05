@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::setParameter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XSLTProcessor::setParameter
 
@@ -40,11 +41,11 @@ public XSLTProcessor::setParameter(string $namespace, array $options): bool
 
 `options`
 
-Масив пар `name => value`
+Массив пар`name => value`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -71,7 +72,7 @@ foreach ($collections as $name => $file) {
     $xml->load('collection_' . $file . '.xml');
 
     $proc->setParameter('', 'owner', $name);
-    $proc->transformToURI($xml, 'file:///tmp/' . $file . '.html');
+    $proc->transformToURI($xml, 'file:///tmp/' . $file . '.md');
 }
 
 ?>
@@ -79,5 +80,5 @@ foreach ($collections as $name => $file) {
 
 ### Дивіться також
 
--   [XSLTProcessor::getParameter()](xsltprocessor.getparameter.md) - Повертає значення параметра
--   [XSLTProcessor::removeParameter()](xsltprocessor.removeparameter.md) - Видаляє параметр
+-   [XSLTProcessor::getParameter()](xsltprocessor.getparameter.md) \- Повертає значення параметра
+-   [XSLTProcessor::removeParameter()](xsltprocessor.removeparameter.md) \- Видаляє параметр

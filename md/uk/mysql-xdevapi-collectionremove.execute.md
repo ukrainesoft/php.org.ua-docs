@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionremove.construct.md: '« CollectionRemove::construct'
+  - mysql-xdevapi-collectionremove.construct.md: '« CollectionRemove::\_\_construct'
   - mysql-xdevapi-collectionremove.limit.md: 'CollectionRemove::limit »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionremove.md: mysqlxdevapiCollectionRemove
+  - class.mysql-xdevapi-collectionremove.md: mysql\_xdevapi\\CollectionRemove
 title: 'CollectionRemove::execute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionRemove::execute
 
@@ -22,7 +23,7 @@ public mysql_xdevapi\CollectionRemove::execute(): mysql_xdevapi\Result
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public mysql_xdevapi\CollectionRemove::execute(): mysql_xdevapi\Result
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionRemove::execute()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionRemove::execute()\*\*\*\*
 
 ```php
 <?php

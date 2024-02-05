@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ext-weakmap.construct.md: '« WeakMap::construct'
+  - class.weakmap.md: « WeakMap
   - weakmap.getiterator.md: 'WeakMap::getIterator »'
   - index.md: PHP Manual
   - class.weakmap.md: WeakMap
 title: 'WeakMap::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # WeakMap::count
 

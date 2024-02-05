@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.function-exists.md: « functionexists
-  - function.register-shutdown-function.md: registershutdownfunction »
+  - function.function-exists.md: « function\_exists
+  - function.register-shutdown-function.md: register\_shutdown\_function »
   - index.md: PHP Manual
-  - ref.funchand.md: Функции управления функциями
-title: getdefinedфункцій
+  - ref.funchand.md: Функції керування функціями
+title: get\_defined\_functions
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getdefinedфункцій
+# get\_defined\_functions
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-getdefinedfunctions — Повертає масив усіх функцій
+get\_defined\_functions — Повертає масив усіх функцій
 
 ### Опис
 
@@ -28,18 +29,18 @@ get_defined_functions(bool $exclude_disabled = true): array
 
 ### Значення, що повертаються
 
-Ця функція повертає багатовимірний масив, що містить список всіх певних функцій, як вбудованих (внутрішніх), так і користувацьких. Внутрішні функції будуть перелічені в елементі масиву $arr"internal", а певні користувачем - в елементі $arr"user" (Дивіться приклад нижче).
+Ця функція повертає багатовимірний масив, що містить список всіх певних функцій, як вбудованих (внутрішніх), так і користувацьких. Внутрішні функції будуть перелічені в елементі масиву $arr\["internal"\], а певні користувачем - в елементі $arr\["user"\](смотрите пример ниже).
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Значення параметру `exclude_disabled` за умовчанням було змінено з **`false`** на **`true`** |
-|  | Доданий параметр `exclude_disabled` |
+| 8.0.0 | Значение параметра`exclude_disabled` за умовчанням було змінено з **`false`**на**`true`** |
+| 7.0.15, 7.1.1 | Добавлен параметр`exclude_disabled` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getdefinedfunctions()****
+**Пример #1 Пример использования**get\_defined\_functions()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ print_r($arr);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -83,7 +84,7 @@ Array
 
 ### Дивіться також
 
--   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена
--   [getdefinedvars()](function.get-defined-vars.md) - Повертає масив усіх певних змінних
--   [getdefinedconstants()](function.get-defined-constants.md) - Повертає асоціативний масив з іменами всіх констант та їх значень
--   [getdeclaredclasses()](function.get-declared-classes.md) - Повертає масив із іменами оголошених класів
+-   [function\_exists()](function.function-exists.md) \- Повертає true, якщо вказана функція визначена
+-   [get\_defined\_vars()](function.get-defined-vars.md) \- Повертає масив усіх певних змінних
+-   [get\_defined\_constants()](function.get-defined-constants.md) \- Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [get\_declared\_classes()](function.get-declared-classes.md) \- Повертає масив із іменами оголошених класів

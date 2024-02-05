@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.geoip-id-by-name.md: « geoipідбname
-  - function.geoip-netspeedcell-by-name.md: geoipnetspeedcellбname »
+  - function.geoip-id-by-name.md: « geoip\_id\_by\_name
+  - function.geoip-netspeedcell-by-name.md: geoip\_netspeedcell\_by\_name »
   - index.md: PHP Manual
-  - ref.geoip.md: Функции GeoIP
-title: geoipispбname
+  - ref.geoip.md: Функції GeoIP
+title: geoip\_isp\_by\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# geoipispбname
+# geoip\_isp\_by\_name
 
 (PECL geoip >= 1.0.2)
 
-geoipispбname — Повертає ім'я інтернет-провайдера (ISP)
+geoip\_isp\_by\_name — Повертає ім'я інтернет-провайдера (ISP)
 
 ### Опис
 
@@ -18,7 +19,7 @@ geoipispбname — Повертає ім'я інтернет-провайдер�
 geoip_isp_by_name(string $hostname): string
 ```
 
-Функція **geoipispбname()** повертає ім'я інтернет-провайдера (ISP) вказаної IP-адреси.
+Функция**geoip\_isp\_by\_name()** повертає ім'я інтернет-провайдера (ISP) вказаної IP-адреси.
 
 Ця функція доступна лише для тих, хто придбав комерційну версію GeoIP ISP. Якщо такої бази немає, виводиться попередження.
 
@@ -34,7 +35,7 @@ geoip_isp_by_name(string $hostname): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoipispбname()****
+**Пример #1 Пример использования**geoip\_isp\_by\_name()\*\*\*\*
 
 Відобразить ім'я ISP для хоста example.com.
 
@@ -47,7 +48,7 @@ if ($isp) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Адрес управляется провайдером: ICANN c/o Internet Assigned Numbers Authority

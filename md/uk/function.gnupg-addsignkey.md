@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gnupg-addencryptkey.md: « gnupgaddencryptkey
-  - function.gnupg-cleardecryptkeys.md: gnupgcleardecryptkeys »
+  - function.gnupg-addencryptkey.md: « gnupg\_addencryptkey
+  - function.gnupg-cleardecryptkeys.md: gnupg\_cleardecryptkeys »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgaddsignkey
+title: gnupg\_addsignkey
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgaddsignkey
+# gnupg\_addsignkey
 
 (PECL gnupg >= 0.5)
 
-gnupgaddsignkey — Додати ключ для підписання
+gnupg\_addsignkey — Додати ключ для підписання
 
 ### Опис
 
@@ -22,7 +23,7 @@ gnupg_addsignkey(resource $identifier, string $fingerprint, string $passphrase =
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `fingerprint`
 
@@ -34,11 +35,11 @@ gnupg_addsignkey(resource $identifier, string $fingerprint, string $passphrase =
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Процедурний приклад використання **gnupgaddsignkey()****
+**Приклад #1 Процедурний приклад використання **gnupg\_addsignkey()****
 
 ```php
 <?php
@@ -47,7 +48,7 @@ gnupg_addsignkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
 ?>
 ```
 
-**Приклад #2 Об'єктно-орієнтований приклад використання **gnupgaddsignkey()****
+**Приклад #2 Об'єктно-орієнтований приклад використання **gnupg\_addsignkey()****
 
 ```php
 <?php

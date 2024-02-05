@@ -1,10 +1,11 @@
 ---
 navigation:
-  - domentityreference.construct.md: '« DOMEntityReference::construct'
+  - domentityreference.construct.md: '« DOMEntityReference::\_\_construct'
   - class.domimplementation.md: DOMImplementation »
   - index.md: PHP Manual
   - book.dom.md: DOM
 title: Клас DOMException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас DOMException
 
@@ -12,18 +13,14 @@ title: Клас DOMException
 
 ## Вступ
 
-Операції DOM за певних обставин викидають винятки, наприклад, коли виконання операції неможливе зі зрозумілих причин.
+Операції DOM іноді викидають винятки, наприклад, коли виконання операції неможливе з нез'ясованих причин.
 
-Дивіться також [Исключения](language.exceptions.md)
+Смотрите также[Винятки](language.exceptions.md)
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
-    
-
-    
      
       final
       class DOMException
@@ -32,43 +29,44 @@ title: Клас DOMException
      
       extends
        Exception
+      {
+
+     /* Свойства */
      
-     {
-
-    /* Свойства */
-    
-     public
-     int
-      $code;
+      public
+      int
+       $code;
 
 
-    /* Наследуемые свойства */
-    protected
-     string
-      $message = "";
+     /* Наследуемые свойства */
+     protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
-    /* Наследуемые методы */
-    
-   final public Exception::getMessage(): string
+     /* Наследуемые методы */
+     
+   public Exception::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+     final public Exception::getMessage(): string
 final public Exception::getPrevious(): ?Throwable
 final public Exception::getCode(): int
 final public Exception::getFile(): string
@@ -78,11 +76,11 @@ final public Exception::getTraceAsString(): string
 public Exception::__toString(): string
 private Exception::__clone(): void
 
-   }
+    }
 ```
 
 ## Властивості
 
 code
 
-Ціло число, що вказує тип помилки, що відбулася
+Ціле число, яке вказує тип згенерованої помилки.

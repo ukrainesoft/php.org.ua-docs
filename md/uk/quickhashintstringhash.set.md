@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashintstringhash.md: QuickHashIntStringHash
 title: 'QuickHashIntStringHash::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntStringHash::set
 
@@ -36,7 +37,7 @@ public QuickHashIntStringHash::set(int $key, string $value): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntStringHash::set()****
+**Пример #1 Пример использования**QuickHashIntStringHash::set()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump( $hash->get( 46692 ) );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Set->Add

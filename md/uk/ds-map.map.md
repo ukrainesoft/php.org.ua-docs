@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.last.md: '« DsMap::last'
-  - ds-map.merge.md: 'ДсMap::merge »'
+  - ds-map.last.md: '« Ds\\Map::last'
+  - ds-map.merge.md: 'Ds\\Map::merge »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::map'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::map'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::map
+# Ds\\Map::map
 
 (PECL ds >= 1.0.0)
 
-ДсMap::map — Повертає результат застосування callback-функції до всіх значень колекції
+Ds\\Map::map — Повертає результат застосування callback-функції до всіх значень колекції
 
 ### Опис
 
@@ -28,21 +29,21 @@ public Ds\Map::map(callable $callback): Ds\Map
 callback(mixed $key, mixed $value): mixed
 ```
 
-Аргумент типу [callable](language.types.callable.md)
+Аргумент типа[callable](language.types.callable.md)
 
 Ця функція повинна повертати нове значення для кожного елемента колекції.
 
 ### Значення, що повертаються
 
-Результат застосування `callback` до кожного значення колекції.
+Результат применения`callback` до кожного значення колекції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення поточної колекції залишаться незмінними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::map()****
+**Пример #1 Пример использования**Ds\\Map::map()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ print_r($map);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 (

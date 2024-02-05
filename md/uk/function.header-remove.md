@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.header-register-callback.md: « headerregistercallback
+  - function.header-register-callback.md: « header\_register\_callback
   - function.header.md: header »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
-title: headerremove
+title: header\_remove
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# headerremove
+# header\_remove
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-headerremove — Видалення раніше встановлених заголовків
+header\_remove — Видалення раніше встановлених заголовків
 
 ### Опис
 
@@ -18,7 +19,7 @@ headerremove — Видалення раніше встановлених заг
 header_remove(?string $name = null): void
 ```
 
-Видаляє попередньо встановлений функцією [header()](function.header.md) HTTP-заголовок.
+Видаляє попередньо встановлений функцією [header()](function.header.md)HTTP-заголовок.
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ header_remove(?string $name = null): void
 
 Ім'я заголовка, що видаляється. Якщо \*\*`null`\*\*видаляються всі раніше встановлені заголовки.
 
-> **Зауваження**: Це реєстронезалежний параметр.
+> **Зауваження**: Це незалежний параметр.
 
 ### Значення, що повертаються
 
@@ -34,9 +35,9 @@ header_remove(?string $name = null): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `name` тепер допускає значення null. |
+| 8.0.0 | `name` тепер допускає значення null. |
 
 ### Приклади
 
@@ -50,7 +51,7 @@ header_remove("X-Foo");
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 X-Bar: Baz
@@ -66,19 +67,19 @@ header_remove();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ### Примітки
 
 **Застереження**
 
-Ця функція видалить *всі* заголовки, встановлені за допомогою PHP, включаючи cookies, сесію та заголовки `X-Powered-By`
+Ця функція видалить *Усе* заголовки, встановлені за допомогою PHP, включаючи cookies, сесію та заголовки `X-Powered-By`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступ до заголовків та їх висновок здійснюватиметься лише у випадку, якщо у SAPI є їх підтримка.
 
 ### Дивіться також
 
--   [header()](function.header.md) - Надсилання HTTP-заголовка
--   [headerssent()](function.headers-sent.md) - Перевіряє, чи були надіслані заголовки
+-   [header()](function.header.md) \- Надсилає необроблений (сирий) HTTP-заголовок
+-   [headers\_sent()](function.headers-sent.md) \- Перевіряє, чи були надіслані заголовки

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openal-device-open.md: « openaldeviceopen
-  - function.openal-listener-set.md: openallistenerset »
+  - function.openal-device-open.md: « openal\_device\_open
+  - function.openal-listener-set.md: openal\_listener\_set »
   - index.md: PHP Manual
-  - ref.openal.md: Функции OpenAL
-title: openallistenerget
+  - ref.openal.md: Функції OpenAL
+title: openal\_listener\_get
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# openallistenerget
+# openal\_listener\_get
 
 (PECL openal >= 0.1.0)
 
-openallistenerget — Отримати властивість прослуховувача
+openal\_listener\_get — Отримати властивість прослуховувача
 
 ### Опис
 
@@ -22,12 +23,12 @@ openal_listener_get(int $property): mixed
 
 `property`
 
-Запитувана властивість, представлена ​​однією з констант: **`AL_GAIN`** (float), **`AL_POSITION`** (array(float,float,float)), **`AL_VELOCITY`** (array(float,float,float)) та **`AL_ORIENTATION`** (array(float,float,float)).
+Запрашиваемое свойство, представленное одной из констант:**`AL_GAIN`**(float),**`AL_POSITION`**(array(float,float,float)),**`AL_VELOCITY`**(array(float,float,float)) и\*\*`AL_ORIENTATION`\*\*(array(float,float,float)).
 
 ### Значення, що повертаються
 
-Повертає число з плаваючою точкою або масив чисел з плаваючими точками (при необхідності) або **`false`** у разі виникнення помилки.
+Повертає число з плаваючою точкою або масив чисел з плаваючими точками (при необхідності) або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [openallistenerset()](function.openal-listener-set.md) - Встановлення якості прослуховувача
+-   [openal\_listener\_set()](function.openal-listener-set.md) \- Встановлення якості прослуховувача

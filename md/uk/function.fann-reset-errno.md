@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-read-train-from-file.md: « fannreadtrainfromfile
-  - function.fann-reset-errstr.md: fannreseterrstr »
+  - function.fann-read-train-from-file.md: « fann\_read\_train\_from\_file
+  - function.fann-reset-errstr.md: fann\_reset\_errstr »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannreseterrno
+  - ref.fann.md: Функції Fann
+title: fann\_reset\_errno
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannreseterrno
+# fann\_reset\_errno
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannreseterrno — Скидає номер останньої помилки
+fann\_reset\_errno — Скидає номер останньої помилки
 
 ### Опис
 
@@ -32,5 +33,5 @@ fann_reset_errno(resource $errdat): void
 
 ### Дивіться також
 
--   [fanngeterrno()](function.fann-get-errno.md) - Повертає останній номер помилки
--   [fannreseterrstr()](function.fann-reset-errstr.md) - Скидає останній рядок помилки
+-   [fann\_get\_errno()](function.fann-get-errno.md) \- Повертає останній номер помилки
+-   [fann\_reset\_errstr()](function.fann-reset-errstr.md) \- Скидає останній рядок помилки

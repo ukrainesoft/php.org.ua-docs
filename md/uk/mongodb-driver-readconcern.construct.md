@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-readconcern.bsonserialize.md: '« MongoDBDriverReadConcern::bsonSerialize'
-  - mongodb-driver-readconcern.getlevel.md: 'MongoDBDriverReadConcern::getLevel »'
+  - mongodb-driver-readconcern.bsonserialize.md: '« MongoDB\\Driver\\ReadConcern::bsonSerialize'
+  - mongodb-driver-readconcern.getlevel.md: 'MongoDB\\Driver\\ReadConcern::getLevel »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readconcern.md: MongoDBDriverReadConcern
-title: 'MongoDBDriverReadConcern::construct'
+  - class.mongodb-driver-readconcern.md: MongoDB\\Driver\\ReadConcern
+title: 'MongoDB\\Driver\\ReadConcern::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverReadConcern::construct
+# MongoDB\\Driver\\ReadConcern::\_\_construct
 
 (mongodb >=1.0.0)
 
-MongoDBDriverReadConcern::construct — Створює новий ReadConcern
+MongoDB\\Driver\\ReadConcern::\_\_construct — Створює новий ReadConcern
 
 ### Опис
 
@@ -18,21 +19,21 @@ MongoDBDriverReadConcern::construct — Створює новий ReadConcern
 final public MongoDB\Driver\ReadConcern::__construct(?string $level = null)
 ```
 
-Створює новий [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md)що є об'єктом незмінного значення.
+Створює новий [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.md)що є об'єктом незмінного значення.
 
 ### Список параметрів
 
 `level`
 
-[» Рівень гарантій читання](https://www.mongodb.com/docs/manual/reference/read-concern/#read-concern-levels). Ви можете використовувати, але не обмежуючись цим, одну з [констант класса](class.mongodb-driver-readconcern.md#mongodb-driver-readconcern.constants)
+[» Рівень гарантій читання](https://www.mongodb.com/docs/manual/reference/read-concern/#read-concern-levels). Ви можете використовувати, але не обмежуючись цим, одну з [констант класу](class.mongodb-driver-readconcern.md#mongodb-driver-readconcern.constants)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverReadConcern::construct()****
+**Пример #1 Пример использования**MongoDB\\Driver\\ReadConcern::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -51,4 +52,4 @@ $rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY);
 
 ### Дивіться також
 
--   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)
+-   [» Довідка за гарантіями читання](https://www.mongodb.com/docs/manual/reference/read-concern/)

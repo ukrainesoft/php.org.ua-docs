@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.resourcebundle.md: ResourceBundle
 title: 'ResourceBundle::getLocales'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ResourceBundle::getLocales
 
-# resourcebundlelocales
+# resourcebundle\_locales
 
 (PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-ResourceBundle::getLocales -- resourcebundlelocales — Отримати підтримувані локалі
+ResourceBundle::getLocales -- resourcebundle\_locales — Отримати підтримувані локалі
 
 ### Опис
 
@@ -34,7 +35,7 @@ resourcebundle_locales(string $bundle): array|false
 
 `bundle`
 
-Шлях до ResourceBundle або порожній рядок для отримання списку за замовчуванням або **`false`** у разі виникнення помилки.
+Шлях до ResourceBundle або порожній рядок для отримання списку за замовчуванням або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Значення, що повертаються
 
@@ -42,7 +43,7 @@ resourcebundle_locales(string $bundle): array|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **resourcebundlelocales()****
+**Пример #1 Пример использования**resourcebundle\_locales()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ echo join(PHP_EOL, resourcebundle_locales($bundle));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 es
@@ -68,7 +69,7 @@ echo join("\n", $r->getLocales($bundle));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 es
@@ -77,4 +78,4 @@ root
 
 ### Дивіться також
 
--   [resourcebundleget()](resourcebundle.get.md) - Отримати дані з пакета
+-   [resourcebundle\_get()](resourcebundle.get.md) \- Отримати дані з пакета

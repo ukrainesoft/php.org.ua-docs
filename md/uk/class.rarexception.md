@@ -1,10 +1,11 @@
 ---
 navigation:
-  - rarentry.tostring.md: '« RarEntry::toString'
+  - rarentry.tostring.md: '« RarEntry::\_\_function toString() { [native code] }'
   - rarexception.isusingexceptions.md: 'RarException::isUsingExceptions »'
   - index.md: PHP Manual
   - book.rar.md: Rar
 title: Клас RarException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас RarException
 
@@ -12,11 +13,11 @@ title: Клас RarException
 
 ## Вступ
 
-Клас служить двом цілям: це тип винятків, переданих функціями і методами модуля RAR, що дозволяє за допомогою стандартних методів робити запит і визначати помилку роботи модуля незалежно від того, передаються винятки або лише видаються попередження.
+Клас служить двом цілям: це тип винятків, переданих функціями і методами модуля RAR, що дозволяє за допомогою стандартних методів робити запит і визначати помилку роботи модуля незалежно від того, передаються винятки або видаються попередження.
 
 Використовуються такі коди помилок:
 
--   1 - помилка поза бібліотекою UnRAR
+-   \-1 - помилка поза бібліотекою UnRAR
 -   11 - недостатньо пам'яті
 -   12 - неправильні дані
 -   13 – неправильний архів
@@ -72,5 +73,5 @@ private Exception::__clone(): void
 
 ## Зміст
 
--   [RarException::isUsingExceptions](rarexception.isusingexceptions.md) — Перевірити, чи будуть функції повертати помилки або викидати винятки
--   [RarException::setUsingExceptions](rarexception.setusingexceptions.md) — Увімкнути чи вимкнути генерацію винятків замість повернення помилок
+-   [RarException::isUsingExceptions](rarexception.isusingexceptions.md)— Перевірити, чи будуть функції повертати помилки або викидати винятки
+-   [RarException::setUsingExceptions](rarexception.setusingexceptions.md)— Увімкнути чи вимкнути генерацію винятків замість повернення помилок

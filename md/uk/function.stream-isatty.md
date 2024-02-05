@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-is-local.md: « streamісlocal
-  - function.stream-notification-callback.md: streamnotificationcallback »
+  - function.stream-is-local.md: « stream\_is\_local
+  - function.stream-notification-callback.md: stream\_notification\_callback »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamisatty
+title: stream\_isatty
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamisatty
+# stream\_isatty
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-streamisatty — Перевіряє, чи є потік TTY
+stream\_isatty — Перевіряє, чи є потік TTY
 
 ### Опис
 
@@ -18,7 +19,7 @@ streamisatty — Перевіряє, чи є потік TTY
 stream_isatty(resource $stream): bool
 ```
 
-Визначає, чи належить потік `stream` до дійсного пристрою термінального типу Це більш переносима версія [posixisatty()](function.posix-isatty.md)оскільки вона працює і в системах Windows.
+Визначає, чи належить потік `stream` до дійсного пристрою термінального типу Це більш переносима версія [posix\_isatty()](function.posix-isatty.md)оскільки вона працює і в системах Windows.
 
 ### Список параметрів
 
@@ -26,22 +27,22 @@ stream_isatty(resource $stream): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад виконання **streamisatty()****
+**Приклад #1 Приклад виконання **stream\_isatty()****
 
-Ця команда може використовуватися для визначення, чи перенаправлений стандартний потік даних / стандартний потік помилок у файл.
+Ця команда може використовуватися для визначення того, чи перенаправлено стандартний потік даних / стандартний потік помилок у файл.
 
-php -r "varexport(stream)isatty(STDERR));"
+php -r "var\_export(stream\_isatty(STDERR));"
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 true
 
-php -r "varexport(stream)isatty(STDERR));" 2>output.txt
+php -r "var\_export(stream\_isatty(STDERR));" 2>output.txt
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 false

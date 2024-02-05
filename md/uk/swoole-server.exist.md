@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server-port.set.md: '« SwooleServerPort::set'
-  - swoole-server.finish.md: 'SwooleServer::finish »'
+  - swoole-server-port.set.md: '« Swoole\\Server\\Port::set'
+  - swoole-server.finish.md: 'Swoole\\Server::finish »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::exist'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::exist'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::exist
+# Swoole\\Server::exist
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::exist — Перевіряє, чи існує з'єднання.
+Swoole\\Server::exist — Перевіряє, чи існує з'єднання.
 
 ### Опис
 

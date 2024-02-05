@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-slider.onchange.md: '« UIControlsSlider::onChange'
-  - class.ui-controls-progress.md: ОЙControlsProgress »
+  - ui-controls-slider.onchange.md: '« UI\\Controls\\Slider::onChange'
+  - class.ui-controls-progress.md: UI\\Controls\\Progress »
   - index.md: PHP Manual
-  - class.ui-controls-slider.md: ОЙControlsSlider
-title: 'ОЙControlsSlider::setValue'
+  - class.ui-controls-slider.md: UI\\Controls\\Slider
+title: 'UI\\Controls\\Slider::setValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsSlider::setValue
+# UI\\Controls\\Slider::setValue
 
 (UI 0.9.9)
 
-ОЙControlsSlider::setValue — Встановити значення
+UI\\Controls\\Slider::setValue — Встановити значення
 
 ### Опис
 

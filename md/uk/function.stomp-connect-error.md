@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.stomp.md: « Функции Stomp
-  - function.stomp-version.md: stompversion »
+  - ref.stomp.md: « Функції Stomp
+  - function.stomp-version.md: stomp\_version »
   - index.md: PHP Manual
-  - ref.stomp.md: Функции Stomp
-title: stompconnecterror
+  - ref.stomp.md: Опції Stomp
+title: stomp\_connect\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# stompconnecterror
+# stomp\_connect\_error
 
 (PECL stomp >= 0.3.0)
 
-stompconnecterror — Повертає рядок із описом останньої помилки підключення
+stomp\_connect\_error — Повертає рядок із описом останньої помилки підключення
 
 ### Опис
 
@@ -26,11 +27,11 @@ stomp_connect_error(): string
 
 ### Значення, що повертаються
 
-Рядок з описом помилки, або \*\*`null`\*\*якщо помилки не сталося.
+Строка с описанием ошибки, или\*\*`null`\*\*якщо помилки не сталося.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **stompconnecterror()****
+**Пример #1 Пример использования**stomp\_connect\_error()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ if(!$link) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ошибка соединения: Invalid Broker URI scheme

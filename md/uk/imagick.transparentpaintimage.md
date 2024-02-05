@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::transparentPaintImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::transparentPaintImage
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::transparentPaintImage — Малює пікселі прозорими
 
 ### Опис
 
 ```methodsynopsis
-public Imagick::transparentPaintImage(    mixed $target,    float $alpha,    float $fuzz,    bool $invert): bool
+public Imagick::transparentPaintImage(    mixed $target,    float $alpha,    float $fuzz,    bool $invert): bool
 ```
 
 Малює пікселі, що відповідають цільовому кольору, прозорим. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.8 або старшим.
@@ -44,7 +45,7 @@ public Imagick::transparentPaintImage(    mixed $target,    float $alpha,    flo
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::transparentPaintImage()****
+**Пример #1 Пример использования**Imagick::transparentPaintImage()\*\*\*\*
 
 ```php
 <?php

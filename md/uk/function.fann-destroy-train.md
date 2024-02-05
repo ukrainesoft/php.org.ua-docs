@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-descale-train.md: « fanndescaletrain
-  - function.fann-destroy.md: fanndestroy »
+  - function.fann-descale-train.md: « fann\_descale\_train
+  - function.fann-destroy.md: fann\_destroy »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanndestroytrain
+  - ref.fann.md: Функції Fann
+title: fann\_destroy\_train
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanndestroytrain
+# fann\_destroy\_train
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanndestroytrain — Знищує тренувальні дані
+fann\_destroy\_train — Знищує тренувальні дані
 
 ### Опис
 

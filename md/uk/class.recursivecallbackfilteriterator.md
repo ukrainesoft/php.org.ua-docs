@@ -1,14 +1,15 @@
 ---
 navigation:
   - recursivecachingiterator.haschildren.md: '« RecursiveCachingIterator::hasChildren'
-  - recursivecallbackfilteriterator.construct.md: 'RecursiveCallbackFilterIterator::construct »'
+  - recursivecallbackfilteriterator.construct.md: 'RecursiveCallbackFilterIterator::\_\_construct »'
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас RecursiveCallbackFilterIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас RecursiveCallbackFilterIterator
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -16,21 +17,18 @@ title: Клас RecursiveCallbackFilterIterator
 
 ```classsynopsis
 
-     
+    
+     class RecursiveCallbackFilterIterator
     
 
     
-     
-      class RecursiveCallbackFilterIterator
-     
+     extends
+      CallbackFilterIterator
+    
 
-     
-      extends
-       CallbackFilterIterator
-     
-
-     implements 
-       RecursiveIterator {
+    
+     implements
+      RecursiveIterator {
 
     /* Методы */
     
@@ -45,7 +43,6 @@ public hasChildren(): bool
 
     public FilterIterator::accept(): bool
 public FilterIterator::current(): mixed
-public FilterIterator::getInnerIterator(): Iterator
 public FilterIterator::key(): mixed
 public FilterIterator::next(): void
 public FilterIterator::rewind(): void
@@ -116,6 +113,6 @@ foreach (new RecursiveIteratorIterator($files) as $file) {
 
 ## Зміст
 
--   [RecursiveCallbackFilterIterator::construct](recursivecallbackfilteriterator.construct.md) — Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
--   [RecursiveCallbackFilterIterator::getChildren](recursivecallbackfilteriterator.getchildren.md) — Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator
--   [RecursiveCallbackFilterIterator::hasChildren](recursivecallbackfilteriterator.haschildren.md) — Перевіряє, чи поточний елемент внутрішнього ітератора містить дочірні елементи.
+-   [RecursiveCallbackFilterIterator::\_\_construct](recursivecallbackfilteriterator.construct.md)— Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
+-   [RecursiveCallbackFilterIterator::getChildren](recursivecallbackfilteriterator.getchildren.md)— Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator
+-   [RecursiveCallbackFilterIterator::hasChildren](recursivecallbackfilteriterator.haschildren.md)— Перевіряє, чи поточний елемент внутрішнього ітератора містить дочірні елементи.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-learning-rate.md: « fanngetlearningrate
-  - function.fann-get-network-type.md: fanngetnetworktype »
+  - function.fann-get-learning-rate.md: « fann\_get\_learning\_rate
+  - function.fann-get-network-type.md: fann\_get\_network\_type »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetMSE
+  - ref.fann.md: Функції Fann
+title: fann\_get\_MSE
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetMSE
+# fann\_get\_MSE
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetMSE — Зчитує середньоквадратичну помилку мережі
+fann\_get\_MSE — Зчитує середньоквадратичну помилку мережі
 
 ### Опис
 
@@ -30,8 +31,8 @@ fann_get_MSE(resource $ann): float
 
 ### Значення, що повертаються
 
-Середньоквадратична помилка або **`false`** у разі виникнення помилки.
+Среднеквадратичная ошибка или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fanntestdata()](function.fann-test-data.md) - Тестування набору навчальних даних та обчислення MSE для нього
+-   [fann\_test\_data()](function.fann-test-data.md) \- Тестування набору навчальних даних та обчислення MSE для нього

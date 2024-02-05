@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatstartedevent.getport.md: '« MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort'
-  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDBDriverMonitoringServerHeartbeatSucceededEvent »
+  - mongodb-driver-monitoring-serverheartbeatstartedevent.getport.md: '« MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent::getPort'
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent »
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.md: MongoDBDriverMonitoringServerHeartbeatStartedEvent
-title: 'MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited'
+  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.md: MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent
+title: 'MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent::isAwaited'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited
+# MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent::isAwaited
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited — Повертає, чи використовувався в heartbeat потоковий протокол
+MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent::isAwaited — Повертає, чи використовувався в heartbeat потоковий протокол
 
 ### Опис
 
@@ -30,4 +31,4 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::isAwaited():
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

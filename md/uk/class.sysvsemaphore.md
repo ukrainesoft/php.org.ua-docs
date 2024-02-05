@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.sem.md: Семафори
 title: Клас SysvSemaphore
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SysvSemaphore
 
@@ -16,19 +17,11 @@ title: Клас SysvSemaphore
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-    
-     
-      final
-      class SysvSemaphore
-     
+     final
+     class SysvSemaphore
      {
-    
-
    }
 ```

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - gmp.serialize.md: '« GMP::serialize'
+  - gmp.serialize.md: '« GMP::\_\_serialize'
   - book.math.md: Math »
   - index.md: PHP Manual
   - class.gmp.md: GMP
-title: 'GMP::unserialize'
+title: 'GMP::\_\_unserialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GMP::unserialize
+# GMP::\_\_unserialize
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-GMP::unserialize - Десеріалізує параметр `data` в об'єкт GMP
+GMP::\_\_unserialize — Десериализует параметр`data` в об'єкт GMP
 
 ### Опис
 
@@ -20,7 +21,7 @@ public GMP::__unserialize(array $data): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

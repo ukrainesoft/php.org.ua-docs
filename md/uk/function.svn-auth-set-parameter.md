@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-auth-get-parameter.md: « svnauthgetparameter
-  - function.svn-blame.md: svnblame »
+  - function.svn-auth-get-parameter.md: « svn\_auth\_get\_parameter
+  - function.svn-blame.md: svn\_blame »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnauthsetparameter
+title: svn\_auth\_set\_parameter
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnauthsetparameter
+# svn\_auth\_set\_parameter
 
 (PECL svn >= 0.1.0)
 
-svnauthsetparameter — Встановлює параметр автентифікації
+svn\_auth\_set\_parameter — Встановлює параметр автентифікації
 
 ### Опис
 
@@ -18,7 +19,7 @@ svnauthsetparameter — Встановлює параметр автентифі
 svn_auth_set_parameter(string $key, string $value): void
 ```
 
-Встановлює параметр аутентифікації на значення `value` за ключом `key`. Список можливих ключів та їх значень доступний у [списке констант аутентификации](svn.constants.md#svn.constants.auth)
+Встановлює параметр аутентифікації на значення `value`по ключу`key`. Список можливих ключів та їх значень доступний у [списку констант аутентифікації](svn.constants.md#svn.constants.auth)
 
 ### Список параметрів
 
@@ -55,5 +56,5 @@ svn_auth_set_parameter(SVN_AUTH_PARAM_DEFAULT_PASSWORD, 'abc123');
 
 ### Дивіться також
 
--   [svnauthgetparameter()](function.svn-auth-get-parameter.md) - Повертає параметр автентифікації
+-   [svn\_auth\_get\_parameter()](function.svn-auth-get-parameter.md) \- Повертає параметр автентифікації
 -   [Константи аутентифікації](svn.constants.md#svn.constants.auth)

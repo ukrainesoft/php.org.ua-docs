@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrparams.md: SolrParams
 title: 'SolrParams::unserialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrParams::unserialize
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrParams::unserialize — Використовується для серіалізації користувача.
 

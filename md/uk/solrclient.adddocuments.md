@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::addDocuments'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::addDocuments
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrClient::addDocuments — Додає колекцію екземплярів SolrInputDocument до індексу
 
@@ -38,7 +39,7 @@ $allowDups = false так само, як і $overwrite = true
 
 `commitWithin`
 
-Кількість мілісекунд для автоматичної фіксації документа. Доступно, починаючи із Solr 1.4. За замовчуванням (0) означає вимкнено.
+Кількість мілісекунд для автоматичної фіксації документа. Доступно починаючи з Solr 1.4. За промовчанням (0) означає вимкнено.
 
 Якщо значення вказано, залишається контроль над тим, коли робити фіксацію для самого Solr, оптимізуючи кількість коммітів до мінімуму, при цьому дотримуючись вимог до затримки оновлення, і Solr автоматично виконає фіксацію, коли настане найстаріше додавання в буфер.
 
@@ -54,7 +55,7 @@ $allowDups = false так само, як і $overwrite = true
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrClient::addDocuments()****
+**Пример #1 Пример использования**SolrClient::addDocuments()\*\*\*\*
 
 ```php
 <?php
@@ -91,7 +92,7 @@ print_r($updateResponse->getResponse());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -107,5 +108,5 @@ SolrObject Object
 
 ### Дивіться також
 
--   [SolrClient::addDocument()](solrclient.adddocument.md) - Додає документ до індексу
--   [SolrClient::commit()](solrclient.commit.md) - Завершує всі додавання/видалення, зроблені в індексі
+-   [SolrClient::addDocument()](solrclient.adddocument.md) \- Додає документ до індексу
+-   [SolrClient::commit()](solrclient.commit.md) \- Завершує всі додавання/видалення, зроблені в індексі

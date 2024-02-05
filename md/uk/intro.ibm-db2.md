@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.ibm-db2.md: « IBM DB2
-  - ibm-db2.setup.md: Встановлення та налаштування »
+  - ibm-db2.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.ibm-db2.md: IBM DB2
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 

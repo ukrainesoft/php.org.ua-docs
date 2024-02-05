@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-lob2-tell.md: « cubridlob2tell
-  - function.cubrid-lock-read.md: cubridlockread »
+  - function.cubrid-lob2-tell.md: « cubrid\_lob2\_tell
+  - function.cubrid-lock-read.md: cubrid\_lock\_read »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridlob2write
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_lob2\_write
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridlob2write
+# cubrid\_lob2\_write
 
 (PECL CUBRID >= 8.4.1)
 
-cubridlob2write - Записує в LOB-об'єкт
+cubrid\_lob2\_write - Записує в LOB-об'єкт
 
 ### Опис
 
@@ -18,13 +19,13 @@ cubridlob2write - Записує в LOB-об'єкт
 cubrid_lob2_write(resource $lob_identifier, string $buf): bool
 ```
 
-Функція **cubridlob2write()** зчитує дані з `buf` та зберігає їх у LOB-об'єкт. Зауважте, що функція може лише додавати символи.
+Функция**cubrid\_lob2\_write()** зчитує дані з `buf` та зберігає їх у LOB-об'єкт. Зауважте, що функція може лише додавати символи.
 
 ### Список параметрів
 
 `lob_identifier`
 
-Ідентифікатор LOB, отриманий у результаті [cubridlob2new()](function.cubrid-lob2-new.md) або отриманий із набору результатів.
+Ідентифікатор LOB, отриманий у результаті [cubrid\_lob2\_new()](function.cubrid-lob2-new.md) або отриманий із набору результатів.
 
 `buf`
 
@@ -32,11 +33,11 @@ cubrid_lob2_write(resource $lob_identifier, string $buf): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridlob2write()****
+**Пример #1 Пример использования**cubrid\_lob2\_write()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-**Приклад #2 Приклад використання **cubridlob2write()****
+**Пример #2 Пример использования**cubrid\_lob2\_write()\*\*\*\*
 
 ```php
 <?php
@@ -96,10 +97,10 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubridlob2read()](function.cubrid-lob2-read.md) - Здійснює читання з даних BLOB/CLOB
--   [cubridlob2seek()](function.cubrid-lob2-seek.md) - Переміщує курсор LOB-об'єкта
--   [cubridlob2seek64()](function.cubrid-lob2-seek64.md) - Переміщує курсор LOB-об'єкта
--   [cubridlob2tell()](function.cubrid-lob2-tell.md) - Повідомляє положення курсору LOB-об'єкта
--   [cubridlob2tell64()](function.cubrid-lob2-tell64.md) - Повідомляє положення курсору LOB-об'єкта
--   [cubridlob2size()](function.cubrid-lob2-size.md) - Отримує розмір LOB-об'єкта
--   [cubridlob2size64()](function.cubrid-lob2-size64.md) - Отримує розмір LOB-об'єкта
+-   [cubrid\_lob2\_read()](function.cubrid-lob2-read.md) \- Здійснює читання з даних BLOB/CLOB
+-   [cubrid\_lob2\_seek()](function.cubrid-lob2-seek.md) \- Переміщує курсор LOB-об'єкта
+-   [cubrid\_lob2\_seek64()](function.cubrid-lob2-seek64.md) \- Переміщує курсор LOB-об'єкта
+-   [cubrid\_lob2\_tell()](function.cubrid-lob2-tell.md) \- Повідомляє положення курсору LOB-об'єкта
+-   [cubrid\_lob2\_tell64()](function.cubrid-lob2-tell64.md) \- Повідомляє положення курсору LOB-об'єкта
+-   [cubrid\_lob2\_size()](function.cubrid-lob2-size.md) \- Отримує розмір LOB-об'єкта
+-   [cubrid\_lob2\_size64()](function.cubrid-lob2-size64.md) \- Отримує розмір LOB-об'єкта

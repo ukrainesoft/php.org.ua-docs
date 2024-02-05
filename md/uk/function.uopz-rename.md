@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.uopz-redefine.md: « uopzredefine
-  - function.uopz-restore.md: uopzrestore »
+  - function.uopz-redefine.md: « uopz\_redefine
+  - function.uopz-restore.md: uopz\_restore »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzrename
+title: uopz\_rename
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzrename
+# uopz\_rename
 
 (PECL uopz 1, PECL uopz 2)
 
-uopzrename — Перейменувати функцію під час виконання
+uopz\_rename — Перейменувати функцію під час виконання
 
 **Увага**
 
-Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО*в PECL uopz 5.0.0.
 
 ### Опис
 
@@ -26,9 +27,9 @@ uopz_rename(string $function, string $rename): void
 uopz_rename(string $class, string $function, string $rename): void
 ```
 
-Перейменовує функцію `function` на `rename`
+Перейменовує функцію `function`на`rename`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо обидві функції існують, ця функція по суті змінює імена
 
@@ -50,7 +51,7 @@ uopz_rename(string $class, string $function, string $rename): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzrename()****
+**Пример #1 Пример использования**uopz\_rename()\*\*\*\*
 
 ```php
 <?php
@@ -60,13 +61,13 @@ echo original_strlen("Hello World");
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 11
 ```
 
-**Приклад #2 Приклад використання **uopzrename()** з класом**
+**Пример #2 Пример использования**uopz\_rename()\*\* з класом\*\*
 
 ```php
 <?php
@@ -82,7 +83,7 @@ echo My::original_strlen("Hello World");
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 11

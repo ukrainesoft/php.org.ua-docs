@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mqseries-set.md: « mqseriesset
-  - book.network.md: Сеть »
+  - function.mqseries-set.md: « mqseries\_set
+  - book.network.md: Мережа "
   - index.md: PHP Manual
-  - ref.mqseries.md: Функции mqseries
-title: mqseriesstrerror
+  - ref.mqseries.md: Функції mqseries
+title: mqseries\_strerror
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mqseriesstrerror
+# mqseries\_strerror
 
 (PECL mqseries >= 0.10.0)
 
-mqseriesstrerror — Отримати повідомлення про помилку, яке відповідає її коду (MQRC)
+mqseries\_strerror — Отримати повідомлення про помилку, яке відповідає її коду (MQRC)
 
 ### Опис
 
@@ -18,7 +19,7 @@ mqseriesstrerror — Отримати повідомлення про помил
 mqseries_strerror(int $reason): string
 ```
 
-Функція **mqseriesstrerror()** повертає повідомлення про помилку відповідно до її коду.
+Функция**mqseries\_strerror()** повертає повідомлення про помилку відповідно до її коду.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ mqseries_strerror(int $reason): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseriesstrerror()****
+**Пример #1 Пример использования**mqseries\_strerror()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ mqseries_strerror(int $reason): string
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Connx CompCode:2 Reason:2059 Text:Queue manager not available for connection.

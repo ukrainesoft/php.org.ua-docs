@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-ht-dcperiod.md: « traderхтdcperiod
-  - function.trader-ht-phasor.md: traderхтphasor »
+  - function.trader-ht-dcperiod.md: « trader\_ht\_dcperiod
+  - function.trader-ht-phasor.md: trader\_ht\_phasor »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderхтdcphase
+  - ref.trader.md: Функції Trader
+title: trader\_ht\_dcphase
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderхтdcphase
+# trader\_ht\_dcphase
 
 (PECL trader >= 0.2.0)
 
-traderхтdcphase - Перетворення Гільберта - Фаза домінуючого циклу
+trader\_ht\_dcphase - Перетворення Гільберта - Фаза домінуючого циклу
 
 ### Опис
 

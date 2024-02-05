@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rlexer.insertmacro.md: '« ParleRLexer::insertMacro'
-  - parle-rlexer.pushstate.md: 'ParleRLexer::pushState »'
+  - parle-rlexer.insertmacro.md: '« Parle\\RLexer::insertMacro'
+  - parle-rlexer.pushstate.md: 'Parle\\RLexer::pushState »'
   - index.md: PHP Manual
-  - class.parle-rlexer.md: ParleRLexer
-title: 'ParleRLexer::push'
+  - class.parle-rlexer.md: Parle\\RLexer
+title: 'Parle\\RLexer::push'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRLexer::push
+# Parle\\RLexer::push
 
 (PECL parle >= 0.5.1)
 
-ParleRLexer::push - Додає правило лексера
+Parle\\RLexer::push - Додає правило лексера
 
 ### Опис
 
@@ -19,7 +20,7 @@ public Parle\RLexer::push(string $regex, int $id): void
 ```
 
 ```methodsynopsis
-public Parle\RLexer::push(    string $state,    string $regex,    int $id,    string $newState): void
+public Parle\RLexer::push(    string $state,    string $regex,    int $id,    string $newState): void
 ```
 
 ```methodsynopsis
@@ -38,17 +39,17 @@ public Parle\RLexer::push(string $state, string $regex, string $newState): void
 
 `id`
 
-Ідентифікатор токена. Якщо екземпляр лексера призначений для автономного використання, це може бути довільне число. Якщо екземпляр лексера буде переданий синтаксичному аналізатору, це має бути ідентифікатор, який повертається [ParleRParser::tokenid()](parle-rparser.tokenid.md)
+Ідентифікатор токена. Якщо екземпляр лексера призначений для автономного використання, це може бути довільне число. Якщо екземпляр лексера буде переданий синтаксичному аналізатору, це має бути ідентифікатор, який повертається [Parle\\RParser::tokenid()](parle-rparser.tokenid.md)
 
 `state`
 
-Назва стану. Якщо як початковий стан використовується '', то правило застосовується до всіх станів лексера.
+Назва стану. Якщо як початковий стан використовується '\*', то правило застосовується до всіх станів лексера.
 
 `newState`
 
 Нова назва стану після застосування правила.
 
-Якщо як стан виходу вказано '.', то стан лексера не змінюється, коли правило збігається. Стан виходу з '>' перед іменем означає додавання. Використовуйте сигнатуру без ідентифікатора або для продовження, або для початку зіставлення, коли потрібно продовження або рекурсія.
+Якщо як стан виходу вказано '.', то стан лексера не змінюється, коли правило збігається. Стан виходу з '>' перед іменем означає додавання. Використовуйте сигнатуру без ідентифікатора або для продовження або для початку зіставлення, коли потрібно продовження або рекурсія.
 
 Якщо як стан виходу вказано '<', це означає вилучення. У цьому випадку сигнатура, що містить ідентифікатор, може бути використана для ідентифікації збігу. Зверніть увагу, що навіть якщо зазначений ідентифікатор, правило завершиться першим, коли будуть виконані всі попередні додавання.
 

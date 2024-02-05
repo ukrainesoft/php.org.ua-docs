@@ -1,40 +1,41 @@
 ---
 navigation:
-  - function.socket-create-listen.md: « socketcreatelisten
-  - function.socket-create.md: socketcreate »
+  - function.socket-create-listen.md: « socket\_create\_listen
+  - function.socket-create.md: socket\_create »
   - index.md: PHP Manual
-  - ref.sockets.md: Функции сокета
-title: socketcreatepair
+  - ref.sockets.md: Опції сокету
+title: socket\_create\_pair
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# socketcreatepair
+# socket\_create\_pair
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-socketcreatepair - Створює пару нерозрізнених сокетів і зберігає їх у масиві
+socket\_create\_pair - Створює пару нерозрізнених сокетів і зберігає їх у масиві
 
 ### Опис
 
 ```methodsynopsis
-socket_create_pair(    int $domain,    int $type,    int $protocol,    array &$pair): bool
+socket_create_pair(    int $domain,    int $type,    int $protocol,    array &$pair): bool
 ```
 
-**socketcreatepair()** створює два сполучених і нерозрізняються сокети, і зберігає їх у масиві `pair`. Ця функція зазвичай використовується IPC (міжпроцесної взаємодії).
+**socket\_create\_pair()** створює два сполучених і нерозрізняються сокети, і зберігає їх у масиві `pair`. Ця функція зазвичай використовується IPC (міжпроцесної взаємодії).
 
 ### Список параметрів
 
 `domain`
 
-Параметр `domain` визначає сімейство протоколів, яке використовуватиметься сокетом. Перегляньте їх повний список в описі функції [socketcreate()](function.socket-create.md)
+Параметр`domain` визначає сімейство протоколів, яке використовуватиметься сокетом. Перегляньте їх повний список в описі функції [socket\_create()](function.socket-create.md)
 
 `type`
 
-Параметр `type` вказує тип комунікації, яка використовуватиметься сокетом. Перегляньте їх повний список в описі функції [socketcreate()](function.socket-create.md)
+Параметр`type` вказує тип комунікації, яка використовуватиметься сокетом. Перегляньте їх повний список в описі функції [socket\_create()](function.socket-create.md)
 
 `protocol`
 
-Параметр `protocol` встановлює певний протокол у зазначеному сімействі протоколів `domain`, який використовуватиметься у зв'язку з отриманими сокетами. Відповідне значення може бути отримано на ім'я за допомогою функції [getprotobyname()](function.getprotobyname.md). Якщо потрібний протокол TCP чи UDP, то відповідні константи **`SOL_TCP`** і **`SOL_UDP`** також можуть бути використані.
+Параметр`protocol` встановлює певний протокол у зазначеному сімействі протоколів `domain`, який використовуватиметься у зв'язку з отриманими сокетами. Відповідне значення може бути отримано на ім'я за допомогою функції [getprotobyname()](function.getprotobyname.md). Якщо потрібний протокол TCP чи UDP, то відповідні константи **`SOL_TCP`**и**`SOL_UDP`** також можуть бути використані.
 
-Дивіться повний список протоколів, що підтримуються в описі функції [socketcreate()](function.socket-create.md)
+Дивіться повний список протоколів, що підтримуються в описі функції [socket\_create()](function.socket-create.md)
 
 `pair`
 
@@ -42,17 +43,17 @@ socket_create_pair(    int $domain,    int $type,    int $protocol,    array &$p
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `pair` є посиланням на масив екземплярів [Socket](class.socket.md); раніше був посиланням на масив ресурсів (resource). |
+| 8.0.0 | `pair` є посиланням на масив екземплярів [Socket](class.socket.md); раніше був посиланням на масив ресурсів (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **socketcreatepair()****
+**Пример #1 Пример использования**socket\_create\_pair()\*\*\*\*
 
 ```php
 <?php
@@ -80,7 +81,7 @@ socket_close($sockets[1]);
 ?>
 ```
 
-**Приклад #2 Приклад використання **socketcreatepair()** в IPC**
+**Пример #2 Пример использования**socket\_create\_pair()**в IPC**
 
 ```php
 <?php
@@ -120,9 +121,9 @@ if ($pid == -1) {
 
 ### Дивіться також
 
--   [socketcreate()](function.socket-create.md) - створює сокет (кінцеву точку для обміну інформацією)
--   [socketcreatelisten()](function.socket-create-listen.md) - Відкриває сокет на вказаному порту для прийняття з'єднань
--   [socketbind()](function.socket-bind.md) - Прив'язує ім'я до сокету
--   [socketlisten()](function.socket-listen.md) - Прослуховує вхідні з'єднання на сокеті
--   [socketlasterror()](function.socket-last-error.md) - Повертає останню помилку на сокеті
--   [socketstrerror()](function.socket-strerror.md) - Повертає рядок, що описує помилку сокету
+-   [socket\_create()](function.socket-create.md) \- створює сокет (кінцеву точку для обміну інформацією)
+-   [socket\_create\_listen()](function.socket-create-listen.md) \- Відкриває сокет на вказаному порту для прийняття з'єднань
+-   [socket\_bind()](function.socket-bind.md) \- Прив'язує ім'я до сокету
+-   [socket\_listen()](function.socket-listen.md) \- Прослуховує вхідні з'єднання на сокеті
+-   [socket\_last\_error()](function.socket-last-error.md) \- Повертає останню помилку на сокеті
+-   [socket\_strerror()](function.socket-strerror.md) \- Повертає рядок, що описує помилку сокету

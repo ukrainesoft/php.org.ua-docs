@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setFacetSort'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setFacetSort
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setFacetSort — Визначає порядок обмежень поля фасету
 
@@ -24,7 +25,7 @@ public SolrQuery::setFacetSort(int $facetSort, string $field_override = ?): Solr
 
 `facetSort`
 
-Використовуйте SolrQuery::FACETSORTINDEX для сортування по порядку індексу або SolrQuery :: FACETSORTCOUNT для сортування за кількістю.
+Використовуйте SolrQuery::FACET\_SORT\_INDEX для сортування по порядку індексу або SolrQuery :: FACET\_SORT\_COUNT для сортування за кількістю.
 
 `field_override`
 

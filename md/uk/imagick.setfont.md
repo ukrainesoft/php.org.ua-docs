@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setFont'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setFont
 
-(PECL imagick 2> = 2.1.0, PECL imagick 3)
+(PECL imagick 2 >= 2.1.0, PECL imagick 3)
 
 Imagick::setFont — Встановлює шрифт
 
@@ -32,7 +33,7 @@ public Imagick::setFont(string $font): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setFont()****
+**Пример #1 Пример использования**Imagick::setFont()\*\*\*\*
 
 Приклад використання Imagick::setFont
 
@@ -53,6 +54,6 @@ $im->newPseudoImage(100, 100, "caption:Hello");
 
 ### Дивіться також
 
--   [Imagick::getFont()](imagick.getfont.md) - Повертає назву шрифту
--   [ImagickDraw::setFont()](imagickdraw.setfont.md) - Встановлює вказаний шрифт для використання під час анотування текстом
--   [ImagickDraw::getFont()](imagickdraw.getfont.md) - Повертає шрифт
+-   [Imagick::getFont()](imagick.getfont.md) \- Повертає назву шрифту
+-   [ImagickDraw::setFont()](imagickdraw.setfont.md) \- Встановлює вказаний шрифт для використання під час анотування текстом
+-   [ImagickDraw::getFont()](imagickdraw.getfont.md) \- Повертає шрифт

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::adaptiveThresholdImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::adaptiveThresholdImage
 
@@ -40,7 +41,7 @@ public Imagick::adaptiveThresholdImage(int $width, int $height, int $offset): bo
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::adaptiveThresholdImage()****
+**Пример #1 Пример использования**Imagick::adaptiveThresholdImage()\*\*\*\*
 
 ```php
 <?php

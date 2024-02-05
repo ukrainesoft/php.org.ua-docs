@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::clipImagePath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::clipImagePath
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
-Imagick::clipImagePath — Опис
+Imagick::clipImagePath — Кліпи вздовж іменованих шляхів із профілю 8BIM, якщо вони є
 
 ### Опис
 
@@ -22,7 +23,7 @@ public Imagick::clipImagePath(string $pathname, string $inside): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

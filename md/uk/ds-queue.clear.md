@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-queue.capacity.md: '« DsQueue::capacity'
-  - ds-queue.construct.md: 'ДсQueue::construct »'
+  - ds-queue.capacity.md: '« Ds\\Queue::capacity'
+  - ds-queue.construct.md: 'Ds\\Queue::\_\_construct »'
   - index.md: PHP Manual
-  - class.ds-queue.md: Черга
-title: 'ДсQueue::clear'
+  - class.ds-queue.md: Ds\\Queue
+title: 'Ds\\Queue::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсQueue::clear
+# Ds\\Queue::clear
 
 (PECL ds >= 1.0.0)
 
-ДсQueue::clear — Видаляє всі значення
+Ds\\Queue::clear — Видаляє всі значення
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Queue::clear(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсQueue::clear()****
+**Пример #1 Пример использования**Ds\\Queue::clear()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ print_r($queue);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Queue Object

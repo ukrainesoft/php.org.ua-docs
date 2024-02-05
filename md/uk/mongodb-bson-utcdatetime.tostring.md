@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-utcdatetime.todatetime.md: '« MongoDBBSONUTCDateTime::toDateTime'
-  - mongodb-bson-utcdatetime.unserialize.md: 'MongoDBBSONUTCDateTime::unserialize »'
+  - mongodb-bson-utcdatetime.todatetime.md: '« MongoDB\\BSON\\UTCDateTime::toDateTime'
+  - mongodb-bson-utcdatetime.unserialize.md: 'MongoDB\\BSON\\UTCDateTime::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-utcdatetime.md: MongoDBBSONUTCDateTime
-title: 'MongoDBBSONUTCDateTime::function toString() { \[native code\] }'
+  - class.mongodb-bson-utcdatetime.md: MongoDB\\BSON\\UTCDateTime
+title: 'MongoDB\\BSON\\UTCDateTime::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONUTCDateTime::function toString() { \[native code\] }
+# MongoDB\\BSON\\UTCDateTime::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.0.0)
 
-MongoDBBSONUTCDateTime::toString — Повертає рядкову виставу UTCDateTime
+MongoDB\\BSON\\UTCDateTime::\_\_toString — Повертає рядкову виставу UTCDateTime
 
 ### Опис
 
@@ -28,7 +29,7 @@ final public MongoDB\BSON\UTCDateTime::__toString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONUTCDateTime::toString()****
+**Пример #1 Пример использования**MongoDB\\BSON\\UTCDateTime::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump((string) $utcdatetime);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(13) "1416445411987"
@@ -47,4 +48,4 @@ string(13) "1416445411987"
 
 ### Дивіться також
 
--   [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)
+-   [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)

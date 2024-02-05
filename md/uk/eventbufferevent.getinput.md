@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::getInput'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::getInput
 
@@ -21,7 +22,7 @@ public
 
 Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією. Вхідний буфер - це сховище для читання.
 
-Зверніть увагу, що є також `[input](class.eventbufferevent.md#eventbufferevent.props.input)` властивість класу [EventBufferEvent](class.eventbufferevent.md)
+Зверніть увагу, що є також `[input](class.eventbufferevent.md#eventbufferevent.props.input)`свойство класса[EventBufferEvent](class.eventbufferevent.md)
 
 ### Список параметрів
 
@@ -29,7 +30,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає екземпляр класу [EventBuffer](class.eventbuffer.md) вхідного буфера, пов'язаного з поточною буферною подією.
+Повертає екземпляр класу [EventBuffer](class.eventbuffer.md) вхідного буфера, пов'язаного із поточною буферною подією.
 
 ### Приклади
 
@@ -49,4 +50,4 @@ function readcb($bev, $base) {
 
 ### Дивіться також
 
--   [EventBufferEvent::getOutput()](eventbufferevent.getoutput.md) - Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
+-   [EventBufferEvent::getOutput()](eventbufferevent.getoutput.md) \- Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією

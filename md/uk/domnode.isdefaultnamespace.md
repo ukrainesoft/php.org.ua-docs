@@ -1,10 +1,11 @@
 ---
 navigation:
   - domnode.insertbefore.md: '« DOMNode::insertBefore'
-  - domnode.issamenode.md: 'DOMNode::isSameNode »'
+  - domnode.isequalnode.md: 'DOMNode::isEqualNode »'
   - index.md: PHP Manual
   - class.domnode.md: DOMNode
 title: 'DOMNode::isDefaultNamespace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNode::isDefaultNamespace
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-topologychangedevent.getnewdescription.md: '« MongoDBDriverMonitoringTopologyChangedEvent::getNewDescription'
-  - mongodb-driver-monitoring-topologychangedevent.gettopologyid.md: 'MongoDBDriverMonitoringTopologyChangedEvent::getTopologyId »'
+  - mongodb-driver-monitoring-topologychangedevent.getnewdescription.md: '« MongoDB\\Driver\\Monitoring\\TopologyChangedEvent::getNewDescription'
+  - mongodb-driver-monitoring-topologychangedevent.gettopologyid.md: 'MongoDB\\Driver\\Monitoring\\TopologyChangedEvent::getTopologyId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-topologychangedevent.md: MongoDBDriverMonitoringTopologyChangedEvent
-title: 'MongoDBDriverMonitoringTopology Changed Event::get Previous Description'
+  - class.mongodb-driver-monitoring-topologychangedevent.md: MongoDB\\Driver\\Monitoring\\TopologyChangedEvent
+title: 'MongoDB\\Driver\\Monitoring\\TopologyChangedEvent::getPreviousDescription'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringTopology Changed Event::get Previous Description
+# MongoDB\\Driver\\Monitoring\\TopologyChangedEvent::getPreviousDescription
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringTopologyChangedEvent::getPreviousDescription — Повертає попередній опис топології
+MongoDB\\Driver\\Monitoring\\TopologyChangedEvent::getPreviousDescription — Повертає попередній опис топології
 
 ### Опис
 
@@ -24,8 +25,8 @@ final public MongoDB\Driver\Monitoring\TopologyChangedEvent::getPreviousDescript
 
 ### Значення, що повертаються
 
-Повертає попередній опис ([MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.md)) топології.
+Повертає попередній опис ([MongoDB\\Driver\\TopologyDescription](class.mongodb-driver-topologydescription.md)) топології.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3stmt.md: SQLite3Stmt
 title: 'SQLite3Stmt::readOnly'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3Stmt::readOnly
 
-(PHP 5> = 5.3.6, PHP 7, PHP 8)
+(PHP 5 >= 5.3.6, PHP 7, PHP 8)
 
 SQLite3Stmt::readOnly — Перевіряє, чи підготовлений запит лише для читання
 

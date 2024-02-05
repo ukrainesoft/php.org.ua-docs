@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.ffi.md: FFI
 title: 'FFI::isNull'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FFI::isNull
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
-FFI::isNull — Перевіряє, чи є FFICData нульовим покажчиком
+FFI::isNull — Перевіряє, чи є FFI\\CData нульовим покажчиком
 
 ### Опис
 
@@ -18,7 +19,7 @@ FFI::isNull — Перевіряє, чи є FFICData нульовим покаж
 public static FFI::isNull(FFI\CData &$ptr): bool
 ```
 
-Перевіряє, чи є FFICData є нульовим покажчиком.
+Перевіряє, чи є FFI\\CData є нульовим покажчиком.
 
 ### Список параметрів
 
@@ -28,4 +29,4 @@ public static FFI::isNull(FFI\CData &$ptr): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`** залежно від того, чи є FFICData є нульовим покажчиком.
+Повертає **`true`**или**`false`** залежно від того, чи є [FFI\\CData](class.ffi-cdata.md) нульовим покажчиком.

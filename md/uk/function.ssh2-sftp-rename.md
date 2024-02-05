@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-sftp-realpath.md: « ssh2sftprealpath
-  - function.ssh2-sftp-rmdir.md: ssh2sftprmdir »
+  - function.ssh2-sftp-realpath.md: « ssh2\_sftp\_realpath
+  - function.ssh2-sftp-rmdir.md: ssh2\_sftp\_rmdir »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2sftprename
+title: ssh2\_sftp\_rename
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2sftprename
+# ssh2\_sftp\_rename
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2sftprename — Перейменовує файл
+ssh2\_sftp\_rename — Перейменовує файл
 
 ### Опис
 
@@ -24,19 +25,19 @@ ssh2_sftp_rename(resource $sftp, string $from, string $to): bool
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.md)
 
 `from`
 
-Початковий файл.
+Вихідний файл.
 
 `to`
 
-Нове ім'я, яке замінить `from`
+Новое имя, которое заменит`from`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -54,4 +55,4 @@ ssh2_sftp_rename($sftp, '/home/username/oldname', '/home/username/newname');
 
 ### Дивіться також
 
--   [rename()](function.rename.md) - Перейменовує файл або директорію
+-   [rename()](function.rename.md) \- Перейменовує файл або директорію

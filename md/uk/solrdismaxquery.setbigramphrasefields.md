@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'SolrDisMaxQuery::setBigramPhraseFields'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDisMaxQuery::setBigramPhraseFields
 
@@ -32,7 +33,7 @@ public SolrDisMaxQuery::setBigramPhraseFields(string $fields): SolrDisMaxQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::setBigramPhraseFields()****
+**Пример #1 Пример использования**SolrDisMaxQuery::setBigramPhraseFields()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ echo $dismaxQuery.PHP_EOL;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 q=lucene&defType=edismax&pf2=cat~5.1^2 feature^4.5
@@ -51,7 +52,7 @@ q=lucene&defType=edismax&pf2=cat~5.1^2 feature^4.5
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::setBigramPhraseSlop()](solrdismaxquery.setbigramphraseslop.md) - Встановлює коефіцієнт відхилення біграми фрази (параметр ps2)
+-   [SolrDisMaxQuery::setBigramPhraseSlop()](solrdismaxquery.setbigramphraseslop.md) \- Встановлює коефіцієнт відхилення біграми фрази (параметр ps2)
 -   **SolrDisMaxQuery::addBigramPhraseFields()**
--   [SolrDisMaxQuery::removeBigramPhraseField()](solrdismaxquery.removebigramphrasefield.md) - Видаляє поле біграми фрази (параметр pf2)
--   [SolrDisMaxQuery::setTrigramPhraseFields()](solrdismaxquery.settrigramphrasefields.md) - Безпосередньо встановлює поля триграм фрази (параметр pf3)
+-   [SolrDisMaxQuery::removeBigramPhraseField()](solrdismaxquery.removebigramphrasefield.md) \- Видаляє поле біграми фрази (параметр pf2)
+-   [SolrDisMaxQuery::setTrigramPhraseFields()](solrdismaxquery.settrigramphrasefields.md) \- Безпосередньо встановлює поля триграм фрази (параметр pf3)

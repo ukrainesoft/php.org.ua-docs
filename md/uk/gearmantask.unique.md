@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::unique'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanTask::unique
 
@@ -15,7 +16,7 @@ GearmanTask::unique — Отримання унікального ідентиф
 ### Опис
 
 ```methodsynopsis
-public GearmanTask::unique(): string
+public GearmanTask::unique(): false|string
 ```
 
 Повертає унікальний ідентифікатор цього завдання. Цей ідентифікатор надає [GearmanClient](class.gearmanclient.md), на відміну дескриптора завдання, який встановлює сервер завдань Gearman.
@@ -30,5 +31,5 @@ public GearmanTask::unique(): string
 
 ### Дивіться також
 
--   [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання та повертає результат Застарілий метод
--   [GearmanClient::addTask()](gearmanclient.addtask.md) - Додати завдання, яке буде виконано у паралельному режимі
+-   [GearmanClient::do()](gearmanclient.do.md) \- Виконує одне завдання та повертає результат\[Застарілий метод\]
+-   [GearmanClient::addTask()](gearmanclient.addtask.md) \- Додати завдання, яке буде виконано у паралельному режимі

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-macdfix.md: « tradermacdfix
-  - function.trader-mavp.md: tradermavp »
+  - function.trader-macdfix.md: « trader\_macdfix
+  - function.trader-mavp.md: trader\_mavp »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermama
+  - ref.trader.md: Функції Trader
+title: trader\_mama
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermama
+# trader\_mama
 
 (PECL trader >= 0.2.0)
 
-tradermama — MESA Адаптивна ковзна середня
+trader\_mama — MESA Адаптивна ковзна середня
 
 ### Опис
 

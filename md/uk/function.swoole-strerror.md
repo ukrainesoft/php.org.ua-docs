@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.swoole-set-process-name.md: « swoolesetprocessname
-  - function.swoole-timer-after.md: swooletimerafter »
+  - function.swoole-set-process-name.md: « swoole\_set\_process\_name
+  - function.swoole-timer-after.md: swoole\_timer\_after »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swoolestrerror
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_strerror
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swoolestrerror
+# swoole\_strerror
 
 (PECL swoole >= 1.9.0)
 
-swoolestrerror — Конвертувати Errno у повідомлення про помилки
+swoole\_strerror — Конвертувати Errno у повідомлення про помилки
 
 ### Опис
 

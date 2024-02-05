@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setTextAlignment'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setTextAlignment
 
@@ -20,7 +21,7 @@ public ImagickDraw::setTextAlignment(int $alignment): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Визначає вирівнювання тексту, яке буде застосовуватися при анотуванні текстом.
 
@@ -28,7 +29,7 @@ public ImagickDraw::setTextAlignment(int $alignment): bool
 
 `alignment`
 
-Одна з констант [ALIGN](imagick.constants.md#imagick.constants.align) `imagick::ALIGN_*`
+Одна из констант[ALIGN](imagick.constants.md#imagick.constants.align) `imagick::ALIGN_*`
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public ImagickDraw::setTextAlignment(int $alignment): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setTextAlignment()****
+**Пример #1 Пример использования**ImagickDraw::setTextAlignment()\*\*\*\*
 
 ```php
 <?php

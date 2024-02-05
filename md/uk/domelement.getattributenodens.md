@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
 title: 'DOMElement::getAttributeNodeNS'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMElement::getAttributeNodeNS
 
@@ -32,10 +33,10 @@ URI простір імен.
 
 ### Значення, що повертаються
 
-Вузол атрибуту. Зверніть увагу, що для оголошень просторів імен XML (атрибути `xmlns` і `xmlns:*`) повертається екземпляр **DOMNameSpaceNode**, а не об'єкт [DOMAttr](class.domattr.md)
+Вузол атрибуту. Зверніть увагу, що для оголошень просторів імен XML (атрибути `xmlns`и`xmlns:*`) повертається екземпляр [DOMNameSpaceNode](class.domnamespacenode.md), а не об'єкт [DOMAttr](class.domattr.md)
 
 ### Дивіться також
 
--   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) - Перевіряє, чи існує заданий атрибут
--   [DOMElement::setAttributeNodeNS()](domelement.setattributenodens.md) - Додає новий атрибут елемент
--   [DOMElement::removeAttributeNode()](domelement.removeattributenode.md) - Видаляє атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) \- Перевіряє, чи існує заданий атрибут
+-   [DOMElement::setAttributeNodeNS()](domelement.setattributenodens.md) \- Додає новий атрибут елемент
+-   [DOMElement::removeAttributeNode()](domelement.removeattributenode.md) \- Видаляє атрибут

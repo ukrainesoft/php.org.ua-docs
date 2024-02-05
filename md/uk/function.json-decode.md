@@ -1,52 +1,53 @@
 ---
 navigation:
-  - ref.json.md: « Функции JSON
-  - function.json-encode.md: jsonencode »
+  - ref.json.md: « Функції JSON
+  - function.json-encode.md: json\_encode »
   - index.md: PHP Manual
-  - ref.json.md: Функции JSON
-title: jsondecode
+  - ref.json.md: Функції JSON
+title: json\_decode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# jsondecode
+# json\_decode
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8, PECL json> = 1.2.0)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL json >= 1.2.0)
 
-jsondecode — Декодує рядок JSON
+json\_decode — Декодує рядок JSON
 
 ### Опис
 
 ```methodsynopsis
-json_decode(    string $json,    ?bool $associative = null,    int $depth = 512,    int $flags = 0): mixed
+json_decode(    string $json,    ?bool $associative = null,    int $depth = 512,    int $flags = 0): mixed
 ```
 
-Приймає закодований у JSON рядок і перетворює його на змінну PHP.
+Приймає закодований у JSON рядок і перетворює його на PHP-значення.
 
 ### Список параметрів
 
 `json`
 
-Рядок (string) `json` для декодування.
+Строка (string)`json` для декодування.
 
 Функція працює тільки з рядками кодування UTF-8.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> PHP реалізує надмножина JSON, який описаний у початковому [» RFC 7159](http://www.faqs.org/rfcs/rfc7159)
+> PHP реалізує надмножина JSON, який описаний у початковому [» RFC 7159](http://www.faqs.org/rfcs/rfc7159)
 
 `associative`
 
-Якщо **`true`**, об'єкти JSON будуть повернуті як асоціативні масиви (array); якщо **`false`**, об'єкти JSON будуть повернуті як об'єкти (object). Якщо **`null`**, об'єкти JSON будуть повернуті як асоціативні масиви (array) або об'єкти (object) в залежності від того, чи встановлена **`JSON_OBJECT_AS_ARRAY`** в `flags`
+Якщо **`true`**, об'єкти JSON будуть повернуті як асоціативні масиви (array); якщо **`false`**, об'єкти JSON будуть повернуті як об'єкти (object). Якщо **`null`**, об'єкти JSON будуть повернуті як асоціативні масиви (array) або об'єкти (object) в залежності від того, чи встановлена \*\*`JSON_OBJECT_AS_ARRAY`\*\*в`flags`
 
 `depth`
 
-Максимальна глибина вкладеності структури, на яку проводитиметься декодування. Значення має бути більшим `0` і менше чи одно `2147483647`
+Максимальна глибина вкладеності структури, на яку проводитиметься декодування. Значення має бути більшим і менше чи одно `2147483647`
 
 `flags`
 
-Бітова маска з констант **`JSON_BIGINT_AS_STRING`** **`JSON_INVALID_UTF8_IGNORE`** **`JSON_INVALID_UTF8_SUBSTITUTE`** **`JSON_OBJECT_AS_ARRAY`** **`JSON_THROW_ON_ERROR`**. Поведінка цих констант описано на сторінці [JSON-констант](json.constants.md)
+Битовая маска из констант\*\*`JSON_BIGINT_AS_STRING`\*\* **`JSON_INVALID_UTF8_IGNORE`** **`JSON_INVALID_UTF8_SUBSTITUTE`** **`JSON_OBJECT_AS_ARRAY`** **`JSON_THROW_ON_ERROR`**. Поведінка цих констант описано на сторінці [JSON-констант](json.constants.md)
 
 ### Значення, що повертаються
 
-Повертає дані `json`, перетворені на відповідні типи PHP. Значення `true` `false` і `null` повертаються як **`true`** **`false`** і **`null`** відповідно . **`null`** також повертається, якщо `json` не може бути перетворений або закодовані дані містять вкладених рівнів більше, ніж зазначена межа вкладеності.
+Повертає дані `json`, перетворені на типи PHP. Не укладені в лапки значення `true` `false`и`null` повертаються як типізовані значення **`true`** \*\*`false`**и**`null`**Значение с типом**`null`\*\*также возвращается в случаях, когда параметр`json` не може бути перетворений або глибина вкладеності структури перевищує встановлену межу.
 
 ### Помилки
 
@@ -54,16 +55,16 @@ json_decode(    string $json,    ?bool $associative = null,    int $depth = 512,
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Додано константу **`JSON_THROW_ON_ERROR`** для параметра `flags` |
-|  | `associative` тепер nullable. |
-|  | Додані константи **`JSON_INVALID_UTF8_IGNORE`** і **`JSON_INVALID_UTF8_SUBSTITUTE`** для параметра `flags` |
-|  | Порожній ключ JSON ("") буде перетворено на порожню властивість об'єкта, а не на властивість зі значенням `_empty_` |
+| 7.3.0 | Добавлена константа\*\*`JSON_THROW_ON_ERROR`\*\*для параметра`flags` |
+| 7.2.0 | `associative` тепер nullable. |
+| 7.2.0 | Додані константи \*\*`JSON_INVALID_UTF8_IGNORE`**и**`JSON_INVALID_UTF8_SUBSTITUTE`\*\*для параметра`flags` |
+| 7.1.0 | Порожній ключ JSON ("") буде перетворено на порожню властивість об'єкта, а не на властивість зі значенням `_empty_` |
 
 ### Приклади
 
-**Приклад #1 Приклади використання **jsondecode()****
+**Приклад #1 Приклади використання **json\_decode()****
 
 ```php
 <?php
@@ -75,7 +76,7 @@ var_dump(json_decode($json, true));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(stdClass)#1 (5) {
@@ -110,7 +111,7 @@ print $obj->{'foo-bar'}; // 12345
 ?>
 ```
 
-**Приклад #3 Поширена помилка під час використання **jsondecode()****
+**Приклад #3 Поширена помилка під час використання **json\_decode()****
 
 ```php
 <?php
@@ -133,7 +134,7 @@ json_decode($bad_json); // null
 ?>
 ```
 
-**Приклад #4 Помилки з глибиною вкладених об'єктів (`depth`**
+**Приклад #4 Помилки з глибиною вкладених об'єктів (`depth`) .**
 
 ```php
 <?php
@@ -162,7 +163,7 @@ echo 'Последняя ошибка: ', json_last_error_msg(), PHP_EOL, PHP_EO
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {
@@ -190,7 +191,7 @@ NULL
 Последняя ошибка: Maximum stack depth exceeded
 ```
 
-**Приклад #5 **jsondecode()** з великими цілими числами**
+**Пример #5**json\_decode()\*\* з великими цілими числами\*\*
 
 ```php
 <?php
@@ -202,7 +203,7 @@ var_dump(json_decode($json, false, 512, JSON_BIGINT_AS_STRING));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(stdClass)#1 (1) {
@@ -217,15 +218,15 @@ object(stdClass)#1 (1) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Специфікація JSON – це не JavaScript, а його підмножина.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> У разі виникнення помилки декодування можна використовувати [jsonlasterror()](function.json-last-error.md) визначення її причини.
+> У разі виникнення помилки декодування можна використовувати [json\_last\_error()](function.json-last-error.md) визначення її причини.
 
 ### Дивіться також
 
--   [jsonencode()](function.json-encode.md) - Повертає JSON-подання даних
--   [jsonlasterror()](function.json-last-error.md) - Повертає останню помилку
+-   [json\_encode()](function.json-encode.md) \- Повертає JSON-подання даних
+-   [json\_last\_error()](function.json-last-error.md) \- Повертає останню помилку

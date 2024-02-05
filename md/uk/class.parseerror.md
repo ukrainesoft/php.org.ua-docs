@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - reserved.exceptions.md: Обумовлені винятки
 title: ParseError
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ParseError
 
@@ -14,24 +15,19 @@ title: ParseError
 
 **ParseError** викидається, коли виникає помилка при розборі PHP-коду, наприклад, коли викликається функція [eval()](function.eval.md)
 
-> **Зауваження**: Починаючи з PHP 7.3.0, клас **ParseError** успадковується від [CompileError](class.compileerror.md). Раніше цей клас розширював клас [Error](class.error.md)
+> **Зауваження**: Починаючи з PHP 7.3.0, клас **ParseError**наследуется от[CompileError](class.compileerror.md). Раніше цей клас розширював клас [Error](class.error.md)
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class ParseError
     
 
     
-     
-      class ParseError
-     
-
-     
-      extends
-       CompileError
-     
+     extends
+      CompileError
      {
 
     /* Наследуемые свойства */
@@ -61,7 +57,9 @@ private
 
     /* Наследуемые методы */
     
-   final public Error::getMessage(): string
+   public Error::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+    final public Error::getMessage(): string
 final public Error::getPrevious(): ?Throwable
 final public Error::getCode(): int
 final public Error::getFile(): string

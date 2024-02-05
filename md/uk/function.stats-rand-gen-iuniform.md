@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-rand-gen-ipoisson.md: « statsrandgenipoisson
-  - function.stats-rand-gen-noncentral-chisquare.md: statsrandgennoncentralchisquare »
+  - function.stats-rand-gen-ipoisson.md: « stats\_rand\_gen\_ipoisson
+  - function.stats-rand-gen-noncentral-chisquare.md: stats\_rand\_gen\_noncentral\_chisquare »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsrandгенiuniform
+title: stats\_rand\_gen\_iuniform
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsrandгенiuniform
+# stats\_rand\_gen\_iuniform
 
 (PECL stats >= 1.0.0)
 
-statsrandгенuniform - Генерує ціле число рівномірно розподілене в діапазоні LOW (включаючи) та HIGH (включаючи)
+stats\_rand\_gen\_uniform - Генерує ціле число рівномірно розподілене в діапазоні LOW (включаючи) та HIGH (включаючи)
 
 ### Опис
 

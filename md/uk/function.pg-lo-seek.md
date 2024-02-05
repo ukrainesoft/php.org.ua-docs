@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-lo-read.md: « pgлоread
-  - function.pg-lo-tell.md: пглоtell »
+  - function.pg-lo-read.md: « pg\_lo\_read
+  - function.pg-lo-tell.md: pg\_lo\_tell »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пглоseek
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_lo\_seek
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пглоseek
+# pg\_lo\_seek
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пглоseek — Переміщує внутрішній покажчик великого об'єкта
+pg\_lo\_seek — Переміщує внутрішній вказівник великого об'єкта
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: пглоseek
 pg_lo_seek(PgSql\Lob $lob, int $offset, int $whence = SEEK_CUR): bool
 ```
 
-**пглоseek()** переміщує внутрішній покажчик екземпляра [PgSqlLob](class.pgsql-lob.md)
+**pg\_lo\_seek()** переміщує внутрішній покажчик екземпляра [PgSql\\Lob](class.pgsql-lob.md)
 
 Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
@@ -26,7 +27,7 @@ pg_lo_seek(PgSql\Lob $lob, int $offset, int $whence = SEEK_CUR): bool
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
+An[PgSql\\Lob](class.pgsql-lob.md)instance, returned by[pg\_lo\_open()](function.pg-lo-open.md)
 
 `offset`
 
@@ -34,21 +35,21 @@ pg_lo_seek(PgSql\Lob $lob, int $offset, int $whence = SEEK_CUR): bool
 
 `whence`
 
-Одна з констант: **`PGSQL_SEEK_SET`** (переміщати від початку об'єкта), **`PGSQL_SEEK_CUR`** (переміщати з поточної позиції) або **`PGSQL_SEEK_END`** (Відступати від кінця об'єкта).
+Одна из констант:**`PGSQL_SEEK_SET`** (переміщати від початку об'єкта), **`PGSQL_SEEK_CUR`** (переміщати з поточної позиції) або **`PGSQL_SEEK_END`** (Відступати від кінця об'єкта).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`lob` тепер чекає екземпляр [PgSql\\Lob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пглоseek()****
+**Пример #1 Пример использования**pg\_lo\_seek()\*\*\*\*
 
 ```php
 <?php
@@ -67,4 +68,4 @@ pg_lo_seek(PgSql\Lob $lob, int $offset, int $whence = SEEK_CUR): bool
 
 ### Дивіться також
 
--   [пглоtell()](function.pg-lo-tell.md) - Повертає поточне положення внутрішнього покажчика великого об'єкта
+-   [pg\_lo\_tell()](function.pg-lo-tell.md) \- Повертає поточне положення внутрішнього покажчика великого об'єкта

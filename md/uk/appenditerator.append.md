@@ -1,14 +1,15 @@
 ---
 navigation:
   - class.appenditerator.md: « AppendIterator
-  - appenditerator.construct.md: 'AppendIterator::construct »'
+  - appenditerator.construct.md: 'AppendIterator::\_\_construct »'
   - index.md: PHP Manual
   - class.appenditerator.md: AppendIterator
 title: 'AppendIterator::append'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # AppendIterator::append
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 AppendIterator::append — Додає ітератор
 
@@ -49,7 +50,7 @@ foreach ($iterator as $current) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 abcdef
@@ -57,4 +58,4 @@ abcdef
 
 ### Дивіться також
 
--   [AppendIterator::construct()](appenditerator.construct.md) - Створює AppendIterator
+-   [AppendIterator::\_\_construct()](appenditerator.construct.md) \- Створює AppendIterator

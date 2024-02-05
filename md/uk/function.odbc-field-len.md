@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-fetch-row.md: « odbcfetchrow
-  - function.odbc-field-name.md: odbcfieldname »
+  - function.odbc-fetch-row.md: « odbc\_fetch\_row
+  - function.odbc-field-name.md: odbc\_field\_name »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcfieldlen
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_field\_len
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcfieldlen
+# odbc\_field\_len
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcfieldlen — Повертає довжину (точність) поля
+odbc\_field\_len — Повертає довжину (точність) поля
 
 ### Опис
 
@@ -32,8 +33,8 @@ odbc_field_len(resource $statement, int $field): int|false
 
 ### Значення, що повертаються
 
-Повертає довжину поля або **`false`** у разі виникнення помилки.
+Повертає довжину поля або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [odbcfieldscale()](function.odbc-field-scale.md) - Повертає масштаб поля для набуття масштабу числа з плаваючою точкою
+-   [odbc\_field\_scale()](function.odbc-field-scale.md) \- Повертає масштаб поля для набуття масштабу числа з плаваючою точкою

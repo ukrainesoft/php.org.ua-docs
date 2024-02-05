@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.quickhash.md: Quickhash
 title: Клас QuickHashIntHash
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас QuickHashIntHash
 
@@ -77,11 +78,11 @@ public update(int $key, int $value): bool
 
 **`QuickHashIntHash::DO_NOT_USE_ZEND_ALLOC`**
 
-Забороняє використання вбудованого в PHP менеджера пам'яті внутрішніх структур. Якщо увімкнено цю опцію, то пам'ять, що використовується, не враховуватиметься налаштуванням [memorylimit](ini.core.md#ini.memory-limit)
+Забороняє використання вбудованого в PHP менеджера пам'яті внутрішніх структур. Якщо увімкнено цю опцію, то пам'ять, що використовується, не враховуватиметься налаштуванням [memory\_limit](ini.core.md#ini.memory-limit)
 
 **`QuickHashIntHash::HASHER_NO_HASH`**
 
-Вказує, що не потрібно використовувати функцію хешування, а замість неї для пошуку індексу в ланцюжку використовувати модуль. Це не швидше за звичайне хешування і породжує більше колізій.
+Вказує, що не потрібно використовувати хешування, а замість неї, для пошуку індексу в ланцюжку, використовувати модуль. Це не швидше за звичайне хешування і породжує більше колізій.
 
 **`QuickHashIntHash::HASHER_JENKINS1`**
 
@@ -93,15 +94,15 @@ public update(int $key, int $value): bool
 
 ## Зміст
 
--   [QuickHashIntHash::add](quickhashinthash.add.md) — Додати елемент у хеш
--   [QuickHashIntHash::construct](quickhashinthash.construct.md) — Створює об'єкт QuickHashIntHash
--   [QuickHashIntHash::delete](quickhashinthash.delete.md) — Метод видаляє запис із хешу
--   [QuickHashIntHash::exists](quickhashinthash.exists.md) — Метод перевіряє, чи є ключ частиною хешу
--   [QuickHashIntHash::get](quickhashinthash.get.md) — Метод отримує значення з хеша за його ключем.
--   [QuickHashIntHash::getSize](quickhashinthash.getsize.md) — Повертає кількість елементів у хеші
--   [QuickHashIntHash::loadFromFile](quickhashinthash.loadfromfile.md) — Фабричний метод створює хеш із файлу
--   [QuickHashIntHash::loadFromString](quickhashinthash.loadfromstring.md) — Фабричний метод створює хеш із рядка
--   [QuickHashIntHash::saveToFile](quickhashinthash.savetofile.md) — Метод зберігає хеш у пам'яті на диск
--   [QuickHashIntHash::saveToString](quickhashinthash.savetostring.md) — Метод повертає серіалізовану версію хешу
--   [QuickHashIntHash::set](quickhashinthash.set.md) — Метод оновлює запис у хеші новим значенням або додає новий, якщо запис не існує
--   [QuickHashIntHash::update](quickhashinthash.update.md) — Метод оновлює запис у хеші новим значенням
+-   [QuickHashIntHash::add](quickhashinthash.add.md)— Додати елемент у хеш
+-   [QuickHashIntHash::\_\_construct](quickhashinthash.construct.md)— Створює об'єкт QuickHashIntHash
+-   [QuickHashIntHash::delete](quickhashinthash.delete.md)— Метод видаляє запис із хешу
+-   [QuickHashIntHash::exists](quickhashinthash.exists.md)— Метод перевіряє, чи є ключ частиною хешу
+-   [QuickHashIntHash::get](quickhashinthash.get.md)— Метод отримує значення з хеша за його ключем.
+-   [QuickHashIntHash::getSize](quickhashinthash.getsize.md)— Повертає кількість елементів у хеші
+-   [QuickHashIntHash::loadFromFile](quickhashinthash.loadfromfile.md)— Фабричний метод створює хеш із файлу
+-   [QuickHashIntHash::loadFromString](quickhashinthash.loadfromstring.md)— Фабричний метод створює хеш із рядка
+-   [QuickHashIntHash::saveToFile](quickhashinthash.savetofile.md)— Метод зберігає хеш у пам'яті на диск
+-   [QuickHashIntHash::saveToString](quickhashinthash.savetostring.md)— Метод повертає серіалізовану версію хешу
+-   [QuickHashIntHash::set](quickhashinthash.set.md)— Метод оновлює запис у хеші новим значенням або додає новий, якщо запис не існує
+-   [QuickHashIntHash::update](quickhashinthash.update.md)— Метод оновлює запис у хеші новим значенням

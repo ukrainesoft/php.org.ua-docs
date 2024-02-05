@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::getIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::getIterator
 
@@ -26,11 +27,11 @@ public ArrayObject::getIterator(): Iterator
 
 ### Значення, що повертаються
 
-Ітератор із [ArrayObject](class.arrayobject.md)
+Итератор из[ArrayObject](class.arrayobject.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::getIterator()****
+**Пример #1 Пример использования**ArrayObject::getIterator()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ while($iterator->valid()) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1 => one

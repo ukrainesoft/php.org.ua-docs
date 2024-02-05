@@ -1,10 +1,11 @@
 ---
 navigation:
   - simplexmlelement.attributes.md: '« SimpleXMLElement::attributes'
-  - simplexmlelement.construct.md: 'SimpleXMLElement::construct »'
+  - simplexmlelement.construct.md: 'SimpleXMLElement::\_\_construct »'
   - index.md: PHP Manual
   - class.simplexmlelement.md: SimpleXMLElement
 title: 'SimpleXMLElement::children'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SimpleXMLElement::children
 
@@ -20,7 +21,7 @@ public SimpleXMLElement::children(?string $namespaceOrPrefix = null, bool $isPre
 
 Цей метод знаходить усі дочірні елементи вузла. Результат підкоряється стандартним правилам ітерації.
 
-> **Зауваження**: SimpleXML містить правило додавання ітеративних властивостей до більшості методів. Вони не можуть бути переглянуті з використанням [vardump()](function.var-dump.md) чи будь-яких інших засобів аналізу об'єктів.
+> **Зауваження**: SimpleXML містить правило додавання ітеративних властивостей до більшості методів. Вони не можуть бути переглянуті з використанням [var\_dump()](function.var-dump.md) чи будь-яких інших засобів аналізу об'єктів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public SimpleXMLElement::children(?string $namespaceOrPrefix = null, bool $isPre
 
 `isPrefix`
 
-Якщо `isPrefix` встановлений в **`true`** `namespaceOrPrefix` буде розглянуто як префікс. Якщо **`false`** `namespaceOrPrefix` буде розглянуто як простір імен URL.
+Якщо `isPrefix`установлен в\*\*`true`\*\* `namespaceOrPrefix` буде розглянуто як префікс. Якщо **`false`** `namespaceOrPrefix` буде розглянуто як простір імен URL.
 
 ### Значення, що повертаються
 
@@ -69,7 +70,7 @@ foreach ($xml->children() as $second_gen) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 У человека родился(-ась) сын, у которого родился(-ась) дочь; У человека
@@ -115,5 +116,5 @@ int(1)
 
 ### Дивіться також
 
--   [SimpleXMLElement::count()](simplexmlelement.count.md) - Підраховує кількість дочірніх елементів у поточного елемента
--   [count()](function.count.md) - Підраховує кількість елементів масиву або Countable об'єкті
+-   [SimpleXMLElement::count()](simplexmlelement.count.md) \- Підраховує кількість дочірніх елементів у поточного елемента
+-   [count()](function.count.md) \- Підраховує кількість елементів масиву або Countable об'єкті

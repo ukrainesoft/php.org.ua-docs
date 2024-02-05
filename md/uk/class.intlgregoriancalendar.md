@@ -1,14 +1,15 @@
 ---
 navigation:
   - intlcalendar.todatetime.md: '« IntlCalendar::toDateTime'
-  - intlgregoriancalendar.construct.md: 'IntlGregorianCalendar::construct »'
+  - intlgregoriancalendar.construct.md: 'IntlGregorianCalendar::\_\_construct »'
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Клас IntlGregorianCalendar
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас IntlGregorianCalendar
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -16,148 +17,184 @@ title: Клас IntlGregorianCalendar
 
 ```classsynopsis
 
-     
+    
+     class IntlGregorianCalendar
     
 
     
-     
-      class IntlGregorianCalendar
-     
-
-     
-      extends
-       IntlCalendar
-     
+     extends
+      IntlCalendar
      {
 
     /* Наследуемые константы */
     
+     public
      const
      int
-      IntlCalendar::FIELD_ERA = 0;
-const
+      IntlCalendar::FIELD_ERA;
+public
+     const
      int
-      IntlCalendar::FIELD_YEAR = 1;
-const
+      IntlCalendar::FIELD_YEAR;
+public
+     const
      int
-      IntlCalendar::FIELD_MONTH = 2;
-const
+      IntlCalendar::FIELD_MONTH;
+public
+     const
      int
-      IntlCalendar::FIELD_WEEK_OF_YEAR = 3;
-const
+      IntlCalendar::FIELD_WEEK_OF_YEAR;
+public
+     const
      int
-      IntlCalendar::FIELD_WEEK_OF_MONTH = 4;
-const
+      IntlCalendar::FIELD_WEEK_OF_MONTH;
+public
+     const
      int
-      IntlCalendar::FIELD_DATE = 5;
-const
+      IntlCalendar::FIELD_DATE;
+public
+     const
      int
-      IntlCalendar::FIELD_DAY_OF_YEAR = 6;
-const
+      IntlCalendar::FIELD_DAY_OF_YEAR;
+public
+     const
      int
-      IntlCalendar::FIELD_DAY_OF_WEEK = 7;
-const
+      IntlCalendar::FIELD_DAY_OF_WEEK;
+public
+     const
      int
-      IntlCalendar::FIELD_DAY_OF_WEEK_IN_MONTH = 8;
-const
+      IntlCalendar::FIELD_DAY_OF_WEEK_IN_MONTH;
+public
+     const
      int
-      IntlCalendar::FIELD_AM_PM = 9;
-const
+      IntlCalendar::FIELD_AM_PM;
+public
+     const
      int
-      IntlCalendar::FIELD_HOUR = 10;
-const
+      IntlCalendar::FIELD_HOUR;
+public
+     const
      int
-      IntlCalendar::FIELD_HOUR_OF_DAY = 11;
-const
+      IntlCalendar::FIELD_HOUR_OF_DAY;
+public
+     const
      int
-      IntlCalendar::FIELD_MINUTE = 12;
-const
+      IntlCalendar::FIELD_MINUTE;
+public
+     const
      int
-      IntlCalendar::FIELD_SECOND = 13;
-const
+      IntlCalendar::FIELD_SECOND;
+public
+     const
      int
-      IntlCalendar::FIELD_MILLISECOND = 14;
-const
+      IntlCalendar::FIELD_MILLISECOND;
+public
+     const
      int
-      IntlCalendar::FIELD_ZONE_OFFSET = 15;
-const
+      IntlCalendar::FIELD_ZONE_OFFSET;
+public
+     const
      int
-      IntlCalendar::FIELD_DST_OFFSET = 16;
-const
+      IntlCalendar::FIELD_DST_OFFSET;
+public
+     const
      int
-      IntlCalendar::FIELD_YEAR_WOY = 17;
-const
+      IntlCalendar::FIELD_YEAR_WOY;
+public
+     const
      int
-      IntlCalendar::FIELD_DOW_LOCAL = 18;
-const
+      IntlCalendar::FIELD_DOW_LOCAL;
+public
+     const
      int
-      IntlCalendar::FIELD_EXTENDED_YEAR = 19;
-const
+      IntlCalendar::FIELD_EXTENDED_YEAR;
+public
+     const
      int
-      IntlCalendar::FIELD_JULIAN_DAY = 20;
-const
+      IntlCalendar::FIELD_JULIAN_DAY;
+public
+     const
      int
-      IntlCalendar::FIELD_MILLISECONDS_IN_DAY = 21;
-const
+      IntlCalendar::FIELD_MILLISECONDS_IN_DAY;
+public
+     const
      int
-      IntlCalendar::FIELD_IS_LEAP_MONTH = 22;
-const
+      IntlCalendar::FIELD_IS_LEAP_MONTH;
+public
+     const
      int
-      IntlCalendar::FIELD_FIELD_COUNT  = 23;
-const
+      IntlCalendar::FIELD_FIELD_COUNT;
+public
+     const
      int
-      IntlCalendar::FIELD_DAY_OF_MONTH = 5;
-const
+      IntlCalendar::FIELD_DAY_OF_MONTH;
+public
+     const
      int
-      IntlCalendar::DOW_SUNDAY = 1;
-const
+      IntlCalendar::DOW_SUNDAY;
+public
+     const
      int
-      IntlCalendar::DOW_MONDAY = 2;
-const
+      IntlCalendar::DOW_MONDAY;
+public
+     const
      int
-      IntlCalendar::DOW_TUESDAY = 3;
-const
+      IntlCalendar::DOW_TUESDAY;
+public
+     const
      int
-      IntlCalendar::DOW_WEDNESDAY = 4;
-const
+      IntlCalendar::DOW_WEDNESDAY;
+public
+     const
      int
-      IntlCalendar::DOW_THURSDAY = 5;
-const
+      IntlCalendar::DOW_THURSDAY;
+public
+     const
      int
-      IntlCalendar::DOW_FRIDAY = 6;
-const
+      IntlCalendar::DOW_FRIDAY;
+public
+     const
      int
-      IntlCalendar::DOW_SATURDAY = 7;
-const
+      IntlCalendar::DOW_SATURDAY;
+public
+     const
      int
-      IntlCalendar::DOW_TYPE_WEEKDAY = 0;
-const
+      IntlCalendar::DOW_TYPE_WEEKDAY;
+public
+     const
      int
-      IntlCalendar::DOW_TYPE_WEEKEND = 1;
-const
+      IntlCalendar::DOW_TYPE_WEEKEND;
+public
+     const
      int
-      IntlCalendar::DOW_TYPE_WEEKEND_OFFSET = 2;
-const
+      IntlCalendar::DOW_TYPE_WEEKEND_OFFSET;
+public
+     const
      int
-      IntlCalendar::DOW_TYPE_WEEKEND_CEASE = 3;
-const
+      IntlCalendar::DOW_TYPE_WEEKEND_CEASE;
+public
+     const
      int
-      IntlCalendar::WALLTIME_FIRST = 1;
-const
+      IntlCalendar::WALLTIME_FIRST;
+public
+     const
      int
-      IntlCalendar::WALLTIME_LAST = 0;
-const
+      IntlCalendar::WALLTIME_LAST;
+public
+     const
      int
-      IntlCalendar::WALLTIME_NEXT_VALID = 2;
+      IntlCalendar::WALLTIME_NEXT_VALID;
 
 
     /* Методы */
     
    public __construct(IntlTimeZone $tz = ?, string $locale = ?)
 public __construct(int $timeZoneOrYear, int $localeOrMonth, int $dayOfMonth)
-public __construct(    int $timeZoneOrYear,    int $localeOrMonth,    int $dayOfMonth,    int $hour,    int $minute,    int $second = ?)
+public __construct(    int $timeZoneOrYear,    int $localeOrMonth,    int $dayOfMonth,    int $hour,    int $minute,    int $second = ?)
 
-    public getGregorianChange(): float
+    public createFromDate(int $year, int $month, int $dayOfMonth): static
+public createFromDateTime(    int $year,    int $month,    int $dayOfMonth,    int $hour,    int $minute,    int $second = null): static
+public getGregorianChange(): float
 public isLeapYear(int $year): bool
 public setGregorianChange(float $timestamp): bool
 
@@ -166,7 +203,7 @@ public setGregorianChange(float $timestamp): bool
     public IntlCalendar::add(int $field, int $value): bool
 public IntlCalendar::after(IntlCalendar $other): bool
 public IntlCalendar::before(IntlCalendar $other): bool
-public IntlCalendar::clear(?int $field = null): bool
+public IntlCalendar::clear(?int $field = null): true
 public static IntlCalendar::createInstance(IntlTimeZone|DateTimeZone|string|null $timezone = null, ?string $locale = null): ?IntlCalendar
 public IntlCalendar::equals(IntlCalendar $other): bool
 public IntlCalendar::fieldDifference(float $timestamp, int $field): int|false
@@ -199,13 +236,15 @@ public IntlCalendar::isLenient(): bool
 public IntlCalendar::isSet(int $field): bool
 public IntlCalendar::isWeekend(?float $timestamp = null): bool
 public IntlCalendar::roll(int $field, int|bool $value): bool
-public IntlCalendar::set(int $field, int $value): bool
-public IntlCalendar::set(    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): bool
-public IntlCalendar::setFirstDayOfWeek(int $dayOfWeek): bool
-public IntlCalendar::setLenient(bool $lenient): bool
-public IntlCalendar::setMinimalDaysInFirstWeek(int $days): bool
-public IntlCalendar::setRepeatedWallTimeOption(int $option): bool
-public IntlCalendar::setSkippedWallTimeOption(int $option): bool
+public IntlCalendar::set(int $field, int $value): true
+public IntlCalendar::set(    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): true
+public IntlCalendar::setDate(int $year, int $month, int $dayOfMonth): void
+public IntlCalendar::setDateTime(    int $year,    int $month,    int $dayOfMonth,    int $hour,    int $minute,    int $second = null): void
+public IntlCalendar::setFirstDayOfWeek(int $dayOfWeek): true
+public IntlCalendar::setLenient(bool $lenient): true
+public IntlCalendar::setMinimalDaysInFirstWeek(int $days): true
+public IntlCalendar::setRepeatedWallTimeOption(int $option): true
+public IntlCalendar::setSkippedWallTimeOption(int $option): true
 public IntlCalendar::setTime(float $timestamp): bool
 public IntlCalendar::setTimeZone(IntlTimeZone|DateTimeZone|string|null $timezone): bool
 public IntlCalendar::toDateTime(): DateTime|false
@@ -215,7 +254,9 @@ public IntlCalendar::toDateTime(): DateTime|false
 
 ## Зміст
 
--   [IntlGregorianCalendar::construct](intlgregoriancalendar.construct.md) - Конструктор класу григоріанського календаря
--   [IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.md) — Отримує дату зміни григоріанського календаря
--   [IntlGregorianCalendar::isLeapYear](intlgregoriancalendar.isleapyear.md) — Визначає, чи цей рік є високосним.
--   [IntlGregorianCalendar::setGregorianChange](intlgregoriancalendar.setgregorianchange.md) — Встановлює дату зміни у григоріанському календарі
+-   [IntlGregorianCalendar::\_\_construct](intlgregoriancalendar.construct.md) \- Конструктор класу григоріанського календаря
+-   [IntlGregorianCalendar::createFromDate](intlgregoriancalendar.createfromdate.md)— Створює новий екземпляр Intel GregorianCalendar із дати
+-   [IntlGregorianCalendar::createFromDateTime](intlgregoriancalendar.createfromdatetime.md)— Створює новий екземпляр Intel GregorianCalendar із дати та часу
+-   [IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.md)— Отримує дату зміни григоріанського календаря
+-   [IntlGregorianCalendar::isLeapYear](intlgregoriancalendar.isleapyear.md)— Визначає, чи цей рік є високосним.
+-   [IntlGregorianCalendar::setGregorianChange](intlgregoriancalendar.setgregorianchange.md)— Встановлює дату зміни у григоріанському календарі

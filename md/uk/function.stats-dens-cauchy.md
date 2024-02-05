@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-dens-beta.md: « statsdensbeta
-  - function.stats-dens-chisquare.md: statsdenschisquare »
+  - function.stats-dens-beta.md: « stats\_dens\_beta
+  - function.stats-dens-chisquare.md: stats\_dens\_chisquare »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsdenscauchy
+title: stats\_dens\_cauchy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsdenscauchy
+# stats\_dens\_cauchy
 
 (PECL stats >= 1.0.0)
 
-statsdenscauchy — Щільність ймовірності розподілу Коші
+stats\_dens\_cauchy — Щільність ймовірності розподілу Коші
 
 ### Опис
 
@@ -18,13 +19,13 @@ statsdenscauchy — Щільність ймовірності розподілу
 stats_dens_cauchy(float $x, float $ave, float $stdev): float
 ```
 
-Повертає щільність ймовірності для `x`, де `ave` і `stdev` є коефіцієнтом зсуву та масштабним параметром відповідно.
+Повертає щільність ймовірності для `x`, где`ave`и`stdev` є коефіцієнтом зсуву та масштабним параметром відповідно.
 
 ### Список параметрів
 
 `x`
 
-Значення, для якого вважається щільність ймовірності
+Значення, для якого вважається щільність імовірності
 
 `ave`
 
@@ -36,4 +37,4 @@ stats_dens_cauchy(float $x, float $ave, float $stdev): float
 
 ### Значення, що повертаються
 
-Щільність ймовірності для `x` або **`false`** у разі виникнення помилки.
+Щільність ймовірності для `x`или\*\*`false`\*\*в случае возникновения ошибки.

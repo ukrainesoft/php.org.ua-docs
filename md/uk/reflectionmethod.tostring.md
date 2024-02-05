@@ -4,13 +4,14 @@ navigation:
   - class.reflectionnamedtype.md: ReflectionNamedType »
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
-title: 'ReflectionMethod::toString'
+title: 'ReflectionMethod::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionMethod::toString
+# ReflectionMethod::\_\_function toString() { \[native code\] }
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionMethod::toString — Повертає строкове представлення об'єкта ReflectionMethod
+ReflectionMethod::\_\_toString — Повертає строкове представлення об'єкта ReflectionMethod
 
 ### Опис
 
@@ -30,7 +31,7 @@ public ReflectionMethod::__toString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionMethod::toString()****
+**Пример #1 Пример использования**ReflectionMethod::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo $reflectionMethod;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Method [ <user> public method sayHelloTo ] {
@@ -61,5 +62,5 @@ Method [ <user> public method sayHelloTo ] {
 
 ### Дивіться також
 
--   [ReflectionMethod::export()](reflectionmethod.export.md) - Експорт відбитого методу
--   [toString()](language.oop5.magic.md#object.tostring)
+-   [ReflectionMethod::export()](reflectionmethod.export.md) \- Експорт відбитого методу
+-   [\_\_toString()](language.oop5.magic.md#object.tostring)

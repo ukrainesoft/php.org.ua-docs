@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.eio-cancel.md: « eiocancel
-  - function.eio-chown.md: eiochown »
+  - function.eio-cancel.md: « eio\_cancel
+  - function.eio-chown.md: eio\_chown »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiochmod
+  - ref.eio.md: Eio Функції
+title: eio\_chmod
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiochmod
+# eio\_chmod
 
 (PECL eio >= 0.0.1dev)
 
-eiochmod — Змінює права доступу до файлу/директорії
+eio\_chmod — Змінює права доступу до файлу/директорії
 
 ### Опис
 
 ```methodsynopsis
-eio_chmod(    string $path,    int $mode,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_chmod(    string $path,    int $mode,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
-**eiochmod()** змінює права доступу до файлу/директорії. Нові права доступу вказуються у параметрі `mode`
+**eio\_chmod()** змінює права доступу до файлу/директорії. Нові права доступу вказуються у параметрі `mode`
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ eio_chmod(    string $path,    int $mode,    int $pri = EIO_PRI_DEFAULT,    call
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -56,16 +57,16 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
-Довільна змінна, що передається в `callback`функцію.
+Произвольная переменная, передаваемая в`callback`\-функцію.
 
 ### Значення, що повертаються
 
-**eiochmod()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_chmod()** повертає покажчик на запит у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [eiochown()](function.eio-chown.md) - Змінює права доступу до файлу/директорії
+-   [eio\_chown()](function.eio-chown.md) \- Змінює права доступу до файлу/директорії

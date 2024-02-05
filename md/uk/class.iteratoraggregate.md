@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Інтерфейс IteratorAggregate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс IteratorAggregate
 
@@ -18,16 +19,11 @@ title: Інтерфейс IteratorAggregate
 
 ```classsynopsis
 
-     
     
+     interface IteratorAggregate
 
-    
-     
-      interface IteratorAggregate
-      extends
-       Traversable
-     
-     {
+    extends
+      Traversable {
 
     /* Методы */
     
@@ -44,12 +40,13 @@ class myData implements IteratorAggregate {
     public $property1 = "Первое общедоступное свойство";
     public $property2 = "Второе общедоступное свойство";
     public $property3 = "Третье общедоступное свойство";
+    public $property4 = "";
 
     public function __construct() {
         $this->property4 = "последнее свойство";
     }
 
-    public function getIterator() {
+    public function getIterator(): Traversable {
         return new ArrayIterator($this);
     }
 }
@@ -63,7 +60,7 @@ foreach($obj as $key => $value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(9) "property1"
@@ -81,4 +78,4 @@ string(35) "последнее свойство"
 
 ## Зміст
 
--   [IteratorAggregate::getIterator](iteratoraggregate.getiterator.md) — Отримує зовнішній ітератор
+-   [IteratorAggregate::getIterator](iteratoraggregate.getiterator.md)— Отримує зовнішній ітератор

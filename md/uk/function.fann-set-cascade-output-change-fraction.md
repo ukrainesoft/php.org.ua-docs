@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-cascade-num-candidate-groups.md: « fannsetcascadenumcandidategroups
-  - function.fann-set-cascade-output-stagnation-epochs.md: fannsetcascadeoutputstagnationepochs »
+  - function.fann-set-cascade-num-candidate-groups.md: « fann\_set\_cascade\_num\_candidate\_groups
+  - function.fann-set-cascade-output-stagnation-epochs.md: fann\_set\_cascade\_output\_stagnation\_epochs »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetcascadeoutputchangefraction
+  - ref.fann.md: Функції Fann
+title: fann\_set\_cascade\_output\_change\_fraction
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetcascadeoutputchangefraction
+# fann\_set\_cascade\_output\_change\_fraction
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetcascadeoutputchangefraction - Встановлює частку зміни каскадних вихідних даних
+fann\_set\_cascade\_output\_change\_fraction - Встановлює частку зміни каскадних вихідних даних
 
 ### Опис
 
@@ -36,4 +37,4 @@ fann_set_cascade_output_change_fraction(resource $ann, float $cascade_output_cha
 
 ### Дивіться також
 
--   [fanngetcascadeoutputchangefraction()](function.fann-get-cascade-output-change-fraction.md) - Повертає частку зміни виходу каскаду
+-   [fann\_get\_cascade\_output\_change\_fraction()](function.fann-get-cascade-output-change-fraction.md) \- Повертає частку зміни виходу каскаду

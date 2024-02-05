@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mysql-xdevapi-schema.construct.md: '« Schema::construct'
+  - mysql-xdevapi-schema.construct.md: '« Schema::\_\_construct'
   - mysql-xdevapi-schema.dropcollection.md: 'Schema::dropCollection »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysql\_xdevapi\\Schema
 title: 'Schema::createCollection'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Schema::createCollection
 
 (No version information available, might only be in Git)
 
-Schema::createCollection — Додати колекцію до схеми
+Schema::createCollection — Додає колекцію до схеми
 
 ### Опис
 
@@ -18,7 +19,7 @@ Schema::createCollection — Додати колекцію до схеми
 public mysql_xdevapi\Schema::createCollection(string $name, string $validate = ?): mysql_xdevapi\Collection
 ```
 
-Створити колекцію усередині схеми.
+Створює колекцію усередині схеми.
 
 ### Список параметрів
 
@@ -32,17 +33,17 @@ public mysql_xdevapi\Schema::createCollection(string $name, string $validate = ?
 
 ### Значення, що повертаються
 
-Колекція об'єкта.
+Повертає об'єкт класу Collection.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Доданий необов'язковий параметр validate. |
+| 8.0.20 | Доданий необов'язковий параметр validate. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSchema::getCollection()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::createCollection()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ print_r($schema->gettables());
 print_r($schema->getcollections());
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -78,7 +79,7 @@ Array
 )
 ```
 
-**Приклад #2 Приклад використання Schema::createCollection з параметром validate**
+**Пример #2 Пример использования метода**mysql\_xdevapi\\Schema::createCollection()\*\*\*\*
 
 ```php
 <?php

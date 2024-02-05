@@ -1,10 +1,11 @@
 ---
 navigation:
   - weakmap.offsetunset.md: '« WeakMap::offsetUnset'
-  - stringable.tostring.md: 'Stringable::toString »'
+  - stringable.tostring.md: 'Stringable::\_\_toString »'
   - index.md: PHP Manual
   - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Інтерфейс Stringable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс Stringable
 
@@ -12,20 +13,16 @@ title: Інтерфейс Stringable
 
 ## Вступ
 
-Інтерфейс **Stringable** позначає клас, що реалізує метод [toString()](language.oop5.magic.md#object.tostring). На відміну від більшості інтерфейсів, **Stringable** неявно присутній у будь-якому класі, в якому визначено магічний метод [toString()](language.oop5.magic.md#object.tostring)хоча він може і повинен бути оголошений явно.
+Інтерфейс **Stringable**обозначает класс, реализующий метод[\_\_toString()](language.oop5.magic.md#object.tostring). На відміну від більшості інтерфейсів, **Stringable** неявно присутній у будь-якому класі, в якому визначено магічний метод [\_\_toString()](language.oop5.magic.md#object.tostring)хоча він може і повинен бути оголошений явно.
 
-Його основне значення - дозволити функціям виконувати перевірку типу на відповідність типу union `string|Stringable`, щоб приймати або рядковий примітив, або об'єкт, який може бути перетворений на рядок.
+Його основне значення – дозволити функціям виконувати перевірку типу на відповідність об'єднаним типам `string|Stringable`, щоб приймати або рядковий примітив, або об'єкт, який може бути перетворений на рядок.
 
 ## Огляд інтерфейсів
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      interface Stringable {
+     interface Stringable {
 
     /* Методы */
     
@@ -70,7 +67,7 @@ showStuff($ip);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 123.234.42.9
@@ -78,4 +75,4 @@ showStuff($ip);
 
 ## Зміст
 
--   [Stringable::toString](stringable.tostring.md) — Отримує рядкову виставу об'єкта
+-   [Stringable::\_\_function toString() { \[native code\] }](stringable.tostring.md)— Отримує рядкову виставу об'єкта

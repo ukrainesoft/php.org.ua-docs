@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.worker.md: Worker
 title: 'Worker::stack'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Worker::stack
 
@@ -42,7 +43,7 @@ $work = new class extends Threaded {};
 var_dump($worker->stack($work));
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(1)

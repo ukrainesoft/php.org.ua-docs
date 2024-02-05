@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-collectionmodify.arrayinsert.md: '« CollectionModify::arrayInsert'
-  - mysql-xdevapi-collectionmodify.construct.md: 'CollectionModify::construct »'
+  - mysql-xdevapi-collectionmodify.construct.md: 'CollectionModify::\_\_construct »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: mysql\_xdevapi\\CollectionModify
 title: 'CollectionModify::bind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionModify::bind
 
@@ -26,7 +27,7 @@ public mysql_xdevapi\CollectionModify::bind(array $placeholder_values): mysql_xd
 
 `placeholder_values`
 
-Підстановочні значення для заміни за умови пошуку. Допускається використання кількох значень, які необхідно передати у вигляді масиву зіставлень PLACEHOLDERNAME->PLACEHOLDERVALUE.
+Підстановочні значення для заміни за умови пошуку. Допускається використання кількох значень, які необхідно передати у вигляді масиву зіставлень PLACEHOLDER\_NAME->PLACEHOLDER\_VALUE.
 
 ### Значення, що повертаються
 
@@ -34,7 +35,7 @@ public mysql_xdevapi\CollectionModify::bind(array $placeholder_values): mysql_xd
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::bind()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::bind()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ print_r($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

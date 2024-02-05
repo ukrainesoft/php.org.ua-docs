@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-stochf.md: « traderstochf
-  - function.trader-sub.md: tradersub »
+  - function.trader-stochf.md: « trader\_stochf
+  - function.trader-sub.md: trader\_sub »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderstochrsi
+  - ref.trader.md: Функції Trader
+title: trader\_stochrsi
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderstochrsi
+# trader\_stochrsi
 
 (PECL trader >= 0.2.0)
 
-traderstochrsi - Стохастичний відносний індекс сили
+trader\_stochrsi - Стохастичний відносний індекс сили
 
 ### Опис
 
 ```methodsynopsis
-trader_stochrsi(    array $real,    int $timePeriod = ?,    int $fastK_Period = ?,    int $fastD_Period = ?,    int $fastD_MAType = ?): array
+trader_stochrsi(    array $real,    int $timePeriod = ?,    int $fastK_Period = ?,    int $fastD_Period = ?,    int $fastD_MAType = ?): array
 ```
 
 ### Список параметрів
@@ -38,7 +39,7 @@ trader_stochrsi(    array $real,    int $timePeriod = ?,    int $fastK_Period = 
 
 `fastD_MAType`
 
-Тип ковзної середньої для Fast-D. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
+Тип ковзної середньої для Fast-D. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.md)
 
 ### Значення, що повертаються
 

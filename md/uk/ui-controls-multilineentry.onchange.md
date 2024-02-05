@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-multilineentry.isreadonly.md: '« UIControlsMultilineEntry::isReadOnly'
-  - ui-controls-multilineentry.setreadonly.md: 'ОЙControlsMultilineEntry::setReadOnly »'
+  - ui-controls-multilineentry.isreadonly.md: '« UI\\Controls\\MultilineEntry::isReadOnly'
+  - ui-controls-multilineentry.setreadonly.md: 'UI\\Controls\\MultilineEntry::setReadOnly »'
   - index.md: PHP Manual
-  - class.ui-controls-multilineentry.md: ОЙControlsMultilineEntry
-title: 'ОЙControlsMultilineEntry::onChange'
+  - class.ui-controls-multilineentry.md: UI\\Controls\\MultilineEntry
+title: 'UI\\Controls\\MultilineEntry::onChange'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsMultilineEntry::onChange
+# UI\\Controls\\MultilineEntry::onChange
 
 (UI 0.9.9)
 
-ОЙControlsMultilineEntry::onChange — Обробник зміни
+UI\\Controls\\MultilineEntry::onChange — Обробник зміни
 
 ### Опис
 

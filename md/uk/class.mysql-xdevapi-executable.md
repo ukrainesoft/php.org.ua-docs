@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-exception.md: « mysqlxdevapiException
+  - class.mysql-xdevapi-exception.md: « mysql\_xdevapi\\Exception
   - mysql-xdevapi-executable.execute.md: 'Executable::execute »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Інтерфейс Executable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс Executable
 
@@ -34,4 +35,4 @@ title: Інтерфейс Executable
 
 ## Зміст
 
--   [Executable::execute](mysql-xdevapi-executable.execute.md) - Виконує твердження
+-   [Executable::execute](mysql-xdevapi-executable.execute.md) \- Виконує твердження

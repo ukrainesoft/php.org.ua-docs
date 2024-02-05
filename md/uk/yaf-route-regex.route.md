@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-route-regex.construct.md: '« YafRouteRegex::construct'
-  - class.yaf-route-rewrite.md: YafRouteRewrite »
+  - yaf-route-regex.construct.md: '« Yaf\_Route\_Regex::\_\_construct'
+  - class.yaf-route-rewrite.md: Yaf\_Route\_Rewrite »
   - index.md: PHP Manual
-  - class.yaf-route-regex.md: YafRouteRegex
-title: 'YafRouteRegex::route'
+  - class.yaf-route-regex.md: Yaf\_Route\_Regex
+title: 'Yaf\_Route\_Regex::route'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteRegex::route
+# Yaf\_Route\_Regex::route
 
 (Yaf >=1.0.0)
 
-YafRouteRegex::route — Мета маршруту
+Yaf\_Route\_Regex::route — Мета маршруту
 
 ### Опис
 
@@ -22,7 +23,7 @@ public Yaf_Route_Regex::route(Yaf_Request_Abstract $request): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ public Yaf_Route_Regex::route(Yaf_Request_Abstract $request): bool
 
 ### Значення, що повертаються
 
-Якщо шаблон встановлено першим параметром **YafRouteRegex::construct()** проводить відповідність із запитом URI, повертаючи **`true`**, в іншому випадку - **`false`**
+Якщо шаблон встановлено першим параметром **Yaf\_Route\_Regex::\_construct()** проводить відповідність із запитом URI, повертаючи **`true`**, в іншому випадку - **`false`**

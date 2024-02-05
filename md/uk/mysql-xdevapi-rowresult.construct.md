@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.mysql-xdevapi-rowresult.md: « mysqlxdevapiRowResult
+  - class.mysql-xdevapi-rowresult.md: « mysql\_xdevapi\\RowResult
   - mysql-xdevapi-rowresult.fetchall.md: 'RowResult::fetchAll »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-rowresult.md: mysqlxdevapiRowResult
-title: 'RowResult::construct'
+  - class.mysql-xdevapi-rowresult.md: mysql\_xdevapi\\RowResult
+title: 'RowResult::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# RowResult::construct
+# RowResult::\_\_construct
 
 (No version information available, might only be in Git)
 
-RowResult::construct - Конструктор класу RowResult
+RowResult::\_\_construct - Конструктор класу RowResult
 
 ### Опис
 
-private **mysqlxdevapiRowResult::construct**
+private**mysql\_xdevapi\\RowResult::\_\_construct**()
 
 Представляє набір результатів, отриманий під час звернення до бази даних.
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiRowResult::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiRowResult::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\RowResult::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ $row = $table->select('name', 'age')->where('age > 18')->execute()->fetchAll();
 print_r($row);
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

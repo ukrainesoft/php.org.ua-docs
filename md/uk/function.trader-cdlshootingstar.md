@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlseparatinglines.md: « tradercdlseparatinglines
-  - function.trader-cdlshortline.md: tradercdlshortline »
+  - function.trader-cdlseparatinglines.md: « trader\_cdlseparatinglines
+  - function.trader-cdlshortline.md: trader\_cdlshortline »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlshootingstar
+  - ref.trader.md: Функції Trader
+title: trader\_cdlshootingstar
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlshootingstar
+# trader\_cdlshootingstar
 
 (PECL trader >= 0.2.0)
 
-tradercdlshootingstar — Падаюча зірка
+trader\_cdlshootingstar — Падаюча зірка
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlshootingstar(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlshootingstar(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

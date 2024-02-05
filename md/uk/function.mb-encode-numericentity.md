@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.mb-encode-mimeheader.md: « mbencodemimeheader
-  - function.mb-encoding-aliases.md: мбencodingaliases »
+  - function.mb-encode-mimeheader.md: « mb\_encode\_mimeheader
+  - function.mb-encoding-aliases.md: mb\_encoding\_aliases »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбencodenumericentity
+title: mb\_encode\_numericentity
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбencodenumericentity
+# mb\_encode\_numericentity
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-мбencodenumericentity — Кодує символ у числове HTML-посилання
+mb\_encode\_numericentity — Кодує символ у числове HTML-посилання
 
 ### Опис
 
 ```methodsynopsis
-mb_encode_numericentity(    string $string,    array $map,    ?string $encoding = null,    bool $hex = false): string
+mb_encode_numericentity(    string $string,    array $map,    ?string $encoding = null,    bool $hex = false): string
 ```
 
 Перетворює задані коди символів у рядку (string) `string` з кодів у числові HTML-посилання.
@@ -28,32 +29,33 @@ mb_encode_numericentity(    string $string,    array $map,    ?string $encoding 
 
 `map`
 
-`map` - Масив, що задає діапазон кодів.
+Параметр`map`— массив, задающий область кода для преобразования.
 
 `encoding`
 
-Параметр `encoding` є символьним кодуванням. Якщо він опущений або дорівнює **`null`**, замість нього буде використано значення внутрішнього кодування.
+Параметр`encoding` - Це кодування символів. Якщо він опущений або дорівнює **`null`**, для нього буде встановлено внутрішнє кодування символів.
 
 `hex`
 
-Чи повинна сутність, що повертається, бути представлена ​​в шістнадцятковій нотації (інакше в десятковій)
+Чи має посилання, що повертається на сутність, бути в шістнадцятковій нотації (інакше вона буде в десятковій).
 
 ### Значення, що повертаються
 
-Сконвертований рядок (string).
+Повертає перетворений рядок (string).
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер параметр `encoding` може набувати значення **`null`** |
+| 8.0.0 | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання `map`**
+**Пример #1 Пример использования параметра`map`**
 
 ```php
 <?php
+
 $convmap = array (
  int start_code1, int end_code1, int offset1, int mask1,
  int start_code2, int end_code2, int offset2, int mask2,
@@ -65,15 +67,16 @@ $convmap = array (
 ?>
 ```
 
-**Приклад #2 Приклад використання **мбencodenumericentity()****
+**Пример #2 Пример использования функции**mb\_encode\_numericentity()\*\*\*\*
 
 ```php
 <?php
+
 /* Преобразование левой части ISO-8859-1 в числовую HTML-ссылку */
 $convmap = array(0x80, 0xff, 0, 0xff);
 $str = mb_encode_numericentity($str, $convmap, "ISO-8859-1");
 
-/* Преобразование заданного пользователем SJIS-win кода в блоке в числовую ссыку*/
+/* Преобразование заданного пользователем кода SJIS-win в блоке 95-104 в числовую ссыку*/
 $convmap = array(
        0xe000, 0xe03e, 0x1040, 0xffff,
        0xe03f, 0xe0bb, 0x1041, 0xffff,
@@ -91,4 +94,4 @@ $str = mb_encode_numericentity($str, $convmap, "sjis-win");
 
 ### Дивіться також
 
--   [мбdecodenumericentity()](function.mb-decode-numericentity.md) - Декодує посилання на числовий рядок HTML на символ
+-   [mb\_decode\_numericentity()](function.mb-decode-numericentity.md) \- Декодує посилання на числовий рядок HTML на символ

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-drop-db.md: « ibasedropдб
-  - function.ibase-errmsg.md: ibaseerrmsg »
+  - function.ibase-drop-db.md: « ibase\_drop\_db
+  - function.ibase-errmsg.md: ibase\_errmsg »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseerrcode
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_errcode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseerrcode
+# ibase\_errcode
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseerrcode — Повертає код помилки
+ibase\_errcode — Повертає код помилки
 
 ### Опис
 
@@ -30,4 +31,4 @@ ibase_errcode(): int
 
 ### Дивіться також
 
--   [ibaseerrmsg()](function.ibase-errmsg.md) - Повертає повідомлення про помилку
+-   [ibase\_errmsg()](function.ibase-errmsg.md) \- Повертає повідомлення про помилку

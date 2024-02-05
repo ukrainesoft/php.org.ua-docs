@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::startPi'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLWriter::startPi
 
-# xmlwriterstartпі
+# xmlwriter\_start\_pi
 
 (PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::startPi -- xmlwriterstartpi — Створити стартовий тег PI
+XMLWriter::startPi -- xmlwriter\_start\_pi — Створити стартовий тег PI
 
 ### Опис
 
@@ -34,7 +35,7 @@ xmlwriter_start_pi(XMLWriter $writer, string $target): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.md) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.md)
 
 `target`
 
@@ -42,15 +43,15 @@ xmlwriter_start_pi(XMLWriter $writer, string $target): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | В параметре`writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::endPi()](xmlwriter.endpi.md) - Закінчити поточну інструкцію обробки (PI)
--   [XMLWriter::writePi()](xmlwriter.writepi.md) - Записати інструкцію обробки (PI)
+-   [XMLWriter::endPi()](xmlwriter.endpi.md) \- Закінчити поточну інструкцію обробки (PI)
+-   [XMLWriter::writePi()](xmlwriter.writepi.md) \- Записати інструкцію обробки (PI)

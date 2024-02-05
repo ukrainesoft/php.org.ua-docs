@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::getOptions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::getOptions
 
-(PECL solr> = 0.9.6)
+(PECL solr >= 0.9.6)
 
 SolrClient::getOptions — Повертає внутрішні параметри клієнта
 
@@ -30,4 +31,4 @@ public SolrClient::getOptions(): array
 
 ### Дивіться також
 
--   [SolrClient::construct()](solrclient.construct.md) - Конструктор об'єкта SolrClient
+-   [SolrClient::\_\_construct()](solrclient.construct.md) \- Конструктор об'єкта SolrClient

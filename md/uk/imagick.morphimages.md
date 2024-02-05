@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::morphImages'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::morphImages
 
@@ -28,4 +29,4 @@ public Imagick::morphImages(int $number_frames): Imagick
 
 ### Значення, що повертаються
 
-Метод повертає новий об'єкт Imagick у разі успішного виконання. Викликає **ImagickException** у разі виникнення помилки.
+Метод повертає новий об'єкт Imagick у разі успішного виконання. Викликає **ImagickException**в случае возникновения ошибки.

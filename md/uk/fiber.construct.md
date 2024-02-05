@@ -4,20 +4,21 @@ navigation:
   - fiber.start.md: 'Fiber::start »'
   - index.md: PHP Manual
   - class.fiber.md: Fiber
-title: 'Fiber::construct'
+title: 'Fiber::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Fiber::construct
+# Fiber::\_\_construct
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-Fiber::construct - Створює новий екземпляр Fiber
+Fiber::\_\_construct - Створює новий екземпляр Fiber
 
 ### Опис
 
-public **Fiber::construct**[callable](language.types.callable.md) `$callback`
+public**Fiber::\_\_construct** [callable](language.types.callable.md) `$callback`) .
 
 ### Список параметрів
 
 `callback`
 
-[callable](language.types.callable.md)функція виклику під час запуску файбера. Аргументи для [Fiber::start()](fiber.start.md) будуть надається як аргументи для даного викликаного об'єкта.
+[callable](language.types.callable.md)\-функція виклику під час запуску файбера. Аргументи для [Fiber::start()](fiber.start.md) будуть надається як аргументи для даного викликаного об'єкта.

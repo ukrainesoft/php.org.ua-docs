@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::setimagerenderingintent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::setimagerenderingintent
 
@@ -24,7 +25,7 @@ public Gmagick::setimagerenderingintent(int $rendering_intent): Gmagick
 
 `rendering_intent`
 
-Одна з констант [способа отображения](gmagick.constants.md#gmagick.constants.renderingintent) `Gmagick::RENDERINGINTENT_*`
+Одна из констант[способу відображення](gmagick.constants.md#gmagick.constants.renderingintent) `Gmagick::RENDERINGINTENT_*`
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ public Gmagick::setimagerenderingintent(int $rendering_intent): Gmagick
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

@@ -1,16 +1,17 @@
 ---
 navigation:
   - cubridmysql.cubrid.md: « Функції сумісності CUBRID MySQL
-  - function.cubrid-client-encoding.md: cubridclientencoding »
+  - function.cubrid-client-encoding.md: cubrid\_client\_encoding »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridaffectedrows
+title: cubrid\_affected\_rows
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridaffectedrows
+# cubrid\_affected\_rows
 
 (PECL CUBRID >= 8.3.0)
 
-cubridaffectedrows — Кількість рядків, порушених останнім SQL-запитом
+cubrid\_affected\_rows — Кількість рядків, порушених останнім SQL-запитом
 
 ### Опис
 
@@ -22,29 +23,29 @@ cubrid_affected_rows(resource $conn_identifier = ?): int
 cubrid_affected_rows(resource $req_identifier = ?): int
 ```
 
-Функція **cubridaffectedrows()** використовується для отримання кількості рядків, які торкнулися останнім SQL-запитом типу INSERT, DELETE або UPDATE.
+Функция**cubrid\_affected\_rows()** використовується для отримання кількості рядків, які торкнулися останнім SQL-запитом типу INSERT, DELETE або UPDATE.
 
 ### Список параметрів
 
 `conn_identifier`
 
-Ідентифікатор з'єднання CUBRID. Якщо не задано, то використовуватиметься останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.md) з'єднання.
+Ідентифікатор з'єднання CUBRID. Якщо не задано, то використовуватиметься останнє відкрите за допомогою [cubrid\_connect()](function.cubrid-connect.md)соединение.
 
 `req_identifier`
 
-Ідентифікатор запиту має бути повернутий функціями [cubridprepare()](function.cubrid-prepare.md) або [cubridexecute()](function.cubrid-execute.md). Якщо не заданий, буде використано останній запит, повернутий [cubridprepare()](function.cubrid-prepare.md) або [cubridexecute()](function.cubrid-execute.md)
+Ідентифікатор запиту повинен бути повернутий функціями [cubrid\_prepare()](function.cubrid-prepare.md) або [cubrid\_execute()](function.cubrid-execute.md). Якщо не заданий, буде використано останній запит, повернутий [cubrid\_prepare()](function.cubrid-prepare.md) або [cubrid\_execute()](function.cubrid-execute.md)
 
 ### Значення, що повертаються
 
 Кількість рядків, які торкнулися останнім SQL-запитом, у разі успішного виконання.
 
-1, якщо запит не був типом INSERT, DELETE або UPDATE.
+\-1, якщо запит не був типом INSERT, DELETE або UPDATE.
 
 **`false`**, якщо ідентифікатор запиту не вказано та відсутні будь-які виконані запити.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridaffectedrows()****
+**Пример #1 Пример использования**cubrid\_affected\_rows()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ print "done!";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Rows deleted: 5
@@ -78,4 +79,4 @@ Rows deleted: 5
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
+-   [cubrid\_execute()](function.cubrid-execute.md) \- Виконує підготовлений SQL-оператор

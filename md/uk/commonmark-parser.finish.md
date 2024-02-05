@@ -1,16 +1,17 @@
 ---
 navigation:
-  - commonmark-parser.parse.md: '« CommonMarkParser::parse'
-  - class.commonmark-cql.md: CommonMarkCQL »
+  - commonmark-parser.parse.md: '« CommonMark\\Parser::parse'
+  - class.commonmark-cql.md: CommonMark\\CQL »
   - index.md: PHP Manual
-  - class.commonmark-parser.md: CommonMarkParser
-title: 'CommonMarkParser::finish'
+  - class.commonmark-parser.md: CommonMark\\Parser
+title: 'CommonMark\\Parser::finish'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkParser::finish
+# CommonMark\\Parser::finish
 
 (cmark >= 1.0.0)
 
-CommonMarkParser::finish — Розбір
+CommonMark\\Parser::finish — Розбір
 
 ### Опис
 
@@ -20,7 +21,7 @@ public CommonMark\Parser::finish(): CommonMark\Node
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

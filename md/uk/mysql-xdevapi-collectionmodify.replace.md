@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionmodify.patch.md: '« CollectionModify::patch'
   - mysql-xdevapi-collectionmodify.set.md: 'CollectionModify::set »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: mysql\_xdevapi\\CollectionModify
 title: 'CollectionModify::replace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionModify::replace
 
@@ -36,7 +37,7 @@ public mysql_xdevapi\CollectionModify::replace(string $collection_field, string 
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::replace()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::replace()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ print_r($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

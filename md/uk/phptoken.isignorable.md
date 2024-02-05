@@ -1,10 +1,11 @@
 ---
 navigation:
   - phptoken.is.md: '« PhpToken::is'
-  - phptoken.tostring.md: 'PhpToken::toString »'
+  - phptoken.tostring.md: 'PhpToken::\_\_toString »'
   - index.md: PHP Manual
   - class.phptoken.md: PhpToken
 title: 'PhpToken::isIgnorable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PhpToken::isIgnorable
 
@@ -30,7 +31,7 @@ public PhpToken::isIgnorable(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PhpToken::isIgnorable()****
+**Пример #1 Пример использования**PhpToken::isIgnorable()\*\*\*\*
 
 ```php
 <?php
@@ -43,4 +44,4 @@ var_dump($space->isIgnorable());  // -> bool(true)
 
 ### Дивіться також
 
--   [PhpToken::tokenize()](phptoken.tokenize.md) - Розбирає заданий рядок, що містить програму на PHP, на масив об'єктів PhpToken
+-   [PhpToken::tokenize()](phptoken.tokenize.md) \- Розбирає заданий рядок, що містить програму на PHP, на масив об'єктів PhpToken

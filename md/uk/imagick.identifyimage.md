@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::identifyImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::identifyImage
 
@@ -36,7 +37,7 @@ public Imagick::identifyImage(bool $appendRawOutput = false): array
 
 **Приклад #1 Приклад результату**
 
-Array ( imageName => /соме/патх/імаге.жпг format => JPEG (Joint Photographic Experts Group JFIF format) geometry => Array ( width => 90 height => 90 )
+Array (\[imageName\] => /some/path/image.jpg \[format\] => JPEG (Joint Photographic Experts Group JFIF format) \[geometry\] => Array ( \[width\] => 90 \[height\] => 90 )
 
 ```
 \[type\] => TrueColor
@@ -52,3 +53,5 @@ Array ( imageName => /соме/патх/імаге.жпг format => JPEG (Joint 
 \[compression\] => JPEG
 \[signature\] => 9a6dc8f604f97d0d691c0286176ddf992e188f0bebba98494b2146ee2d7118da
 ```
+
+) .

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlhangingman.md: « tradercdlhangingman
-  - function.trader-cdlharamicross.md: tradercdlharamicross »
+  - function.trader-cdlhangingman.md: « trader\_cdlhangingman
+  - function.trader-cdlharamicross.md: trader\_cdlharamicross »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlharami
+  - ref.trader.md: Функції Trader
+title: trader\_cdlharami
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlharami
+# trader\_cdlharami
 
 (PECL trader >= 0.2.0)
 
-tradercdlharami — Паттерн Харамі
+trader\_cdlharami — Паттерн Харамі
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlharami(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlharami(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

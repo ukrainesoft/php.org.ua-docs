@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionadd.construct.md: '« CollectionAdd::construct'
-  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind »
+  - mysql-xdevapi-collectionadd.construct.md: '« CollectionAdd::\_\_construct'
+  - class.mysql-xdevapi-collectionfind.md: mysql\_xdevapi\\CollectionFind »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionadd.md: mysqlxdevapiCollectionAdd
+  - class.mysql-xdevapi-collectionadd.md: mysql\_xdevapi\\CollectionAdd
 title: 'CollectionAdd::execute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionAdd::execute
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\CollectionAdd::execute(): mysql_xdevapi\Result
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionAdd::execute()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionAdd::execute()\*\*\*\*
 
 ```php
 <?php
@@ -69,7 +70,7 @@ print_r($ids);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

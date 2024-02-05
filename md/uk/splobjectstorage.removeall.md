@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::removeAll'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplObjectStorage::removeAll
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplObjectStorage::removeAll — Видаляє з поточного контейнера об'єкти, які є в іншому контейнері
 
@@ -32,12 +33,12 @@ public SplObjectStorage::removeAll(SplObjectStorage $storage): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplObjectStorage::removeAll()****
+**Пример #1 Пример использования**SplObjectStorage::removeAll()\*\*\*\*
 
 ```php
 <?php
-$o1 = new StdClass;
-$o2 = new StdClass;
+$o1 = new stdClass;
+$o2 = new stdClass;
 $a = new SplObjectStorage();
 $a[$o1] = "foo";
 
@@ -51,7 +52,7 @@ var_dump(count($b));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(2)
@@ -60,4 +61,4 @@ int(1)
 
 ### Дивіться також
 
--   [SplObjectStorage::addAll()](splobjectstorage.addall.md) - Додає всі об'єкти з іншого контейнера
+-   [SplObjectStorage::addAll()](splobjectstorage.addall.md) \- Додає всі об'єкти з іншого контейнера

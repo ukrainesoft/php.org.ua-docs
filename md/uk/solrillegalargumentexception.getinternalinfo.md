@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.solrillegalargumentexception.md: SolrIllegalArgumentException
 title: 'SolrIllegalArgumentException::getInternalInfo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrIllegalArgumentException::getInternalInfo
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrIllegalArgumentException::getInternalInfo — Повертає внутрішню інформацію про те, де було викинуто виняток
+Solr IllegalArgumentException::getInternalInfo — Повертає внутрішню інформацію про те, де було викинуто виняток
 
 ### Опис
 
@@ -22,7 +23,7 @@ public SolrIllegalArgumentException::getInternalInfo(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

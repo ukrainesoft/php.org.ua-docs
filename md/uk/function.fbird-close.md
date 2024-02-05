@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.fbird-blob-open.md: « fbirdblobopen
-  - function.fbird-commit-ret.md: fbirdcommitret »
+  - function.fbird-blob-open.md: « fbird\_blob\_open
+  - function.fbird-commit-ret.md: fbird\_commit\_ret »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: fbirdclose
+  - ref.ibase.md: Функції Firebird/InterBase
+title: fbird\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fbirdclose
+# fbird\_close
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdclose - Псевдонім [ibaseclose()](function.ibase-close.md)
+fbird\_close — Псевдоним[ibase\_close()](function.ibase-close.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseclose()](function.ibase-close.md)
+Функция — псевдоним функции:[ibase\_close()](function.ibase-close.md)
 
 ### Дивіться також
 
--   [fbirdconnect()](function.fbird-connect.md) - Псевдонім ibaseconnect
--   [fbirdpconnect()](function.fbird-pconnect.md) - Псевдонім ibasepconnect
+-   [fbird\_connect()](function.fbird-connect.md) \- Псевдонім ibase\_connect
+-   [fbird\_pconnect()](function.fbird-pconnect.md) \- Псевдонім ibase\_pconnect

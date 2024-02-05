@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::setWatermark'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::setWatermark
 
@@ -30,7 +31,7 @@ public
 
 Регулює водяні знаки читання, *водяні знаки* записи або й те, й інше для однієї події буфера.
 
-Водяний знак події буфера – це значення, що визначає кількість байтів, які мають бути прочитані чи записані перед викликом callback-функції. За замовчуванням, кожна подія читання/запису запускає виклик callback-функції. Зверніться до [» Fast portable non-blocking network programming with Libevent: Callbacks and watermarks](http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.md#_callbacks_and_watermarks)
+Водяний знак події буфера – це значення, що визначає кількість байтів, які мають бути прочитані чи записані перед викликом callback-функції. За замовчуванням, кожна подія читання/запису запускає виклик callback-функції. Зверніться до [» Fast portable non-blocking network programming with Libevent: Callbacks and watermarks](http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.md#_callbacks_and_watermarks)
 
 ### Список параметрів
 
@@ -44,7 +45,7 @@ public
 
 `highmark`
 
-Максимальне значення водяного знаку . **`0`** означає "без обмежень".
+Максимальне значення водяного знаку . означає "без обмежень".
 
 ### Значення, що повертаються
 

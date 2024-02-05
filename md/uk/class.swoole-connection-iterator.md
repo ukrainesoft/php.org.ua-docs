@@ -1,12 +1,13 @@
 ---
 navigation:
-  - swoole-client.wakeup.md: '« SwooleClient::wakeup'
-  - swoole-connection-iterator.count.md: 'SwooleConnectionIterator::count »'
+  - swoole-client.wakeup.md: '« Swoole\\Client::wakeup'
+  - swoole-connection-iterator.count.md: 'Swoole\\Connection\\Iterator::count »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
-title: Клас SwooleConnectionIterator
+title: Клас Swoole\\Connection\\Iterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас SwooleConnectionIterator
+# Клас Swoole\\Connection\\Iterator
 
 (PECL swoole >= 1.9.0)
 
@@ -45,13 +46,13 @@ public valid(): bool
 
 ## Зміст
 
--   [SwooleConnectionIterator::count](swoole-connection-iterator.count.md) - Вважає з'єднання
--   [SwooleConnectionIterator::current](swoole-connection-iterator.current.md) — Повертає поточний запис з'єднання
--   [SwooleConnectionIterator::key](swoole-connection-iterator.key.md) — Повертає ключ поточного з'єднання
--   [SwooleConnectionIterator::next](swoole-connection-iterator.next.md) — Переходить до наступного з'єднання
--   [SwooleConnectionIterator::offsetExists](swoole-connection-iterator.offsetexists.md) — Перевіряє, чи є зміщення
--   [SwooleConnectionIterator::offsetGet](swoole-connection-iterator.offsetget.md) - Зміщення для вилучення
--   [SwooleConnectionIterator::offsetSet](swoole-connection-iterator.offsetset.md) — Призначає з'єднання для зазначеного усунення
--   [SwooleConnectionIterator::offsetUnset](swoole-connection-iterator.offsetunset.md) — скидає зміщення
--   [SwooleConnectionIterator::rewind](swoole-connection-iterator.rewind.md) - Перемотує ітератор
--   [SwooleConnectionIterator::valid](swoole-connection-iterator.valid.md) - Перевіряє правильність поточної позиції
+-   [Swoole\\Connection\\Iterator::count](swoole-connection-iterator.count.md) \- Вважає з'єднання
+-   [Swoole\\Connection\\Iterator::current](swoole-connection-iterator.current.md)— Повертає поточний запис з'єднання
+-   [Swoole\\Connection\\Iterator::key](swoole-connection-iterator.key.md)— Повертає ключ поточного з'єднання
+-   [Swoole\\Connection\\Iterator::next](swoole-connection-iterator.next.md)— Переходить до наступного з'єднання
+-   [Swoole\\Connection\\Iterator::offsetExists](swoole-connection-iterator.offsetexists.md)— Перевіряє, чи є зміщення
+-   [Swoole\\Connection\\Iterator::offsetGet](swoole-connection-iterator.offsetget.md) \- Зміщення для вилучення
+-   [Swoole\\Connection\\Iterator::offsetSet](swoole-connection-iterator.offsetset.md)— Призначає з'єднання для зазначеного усунення
+-   [Swoole\\Connection\\Iterator::offsetUnset](swoole-connection-iterator.offsetunset.md)— скидає зміщення
+-   [Swoole\\Connection\\Iterator::rewind](swoole-connection-iterator.rewind.md) \- Перемотує ітератор
+-   [Swoole\\Connection\\Iterator::valid](swoole-connection-iterator.valid.md) \- Перевіряє правильність поточної позиції

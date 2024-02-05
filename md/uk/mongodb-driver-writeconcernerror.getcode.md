@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-writeconcernerror.md: « MongoDBDriverWriteConcernError
-  - mongodb-driver-writeconcernerror.getinfo.md: 'MongoDBDriverWriteConcernError::getInfo »'
+  - class.mongodb-driver-writeconcernerror.md: « MongoDB\\Driver\\WriteConcernError
+  - mongodb-driver-writeconcernerror.getinfo.md: 'MongoDB\\Driver\\WriteConcernError::getInfo »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeconcernerror.md: MongoDBDriverWriteConcernError
-title: 'MongoDBDriverWriteConcernError::getCode'
+  - class.mongodb-driver-writeconcernerror.md: MongoDB\\Driver\\WriteConcernError
+title: 'MongoDB\\Driver\\WriteConcernError::getCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteConcernError::getCode
+# MongoDB\\Driver\\WriteConcernError::getCode
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteConcernError::getCode — Повертає код помилки WriteConcernError
+MongoDB\\Driver\\WriteConcernError::getCode — Повертає код помилки WriteConcernError
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\Driver\WriteConcernError::getCode(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteConcernError::getCode()****
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteConcernError::getCode()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(64)
@@ -61,4 +62,4 @@ int(64)
 
 ### Дивіться також
 
--   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Довідка по гарантіях запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

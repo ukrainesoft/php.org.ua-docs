@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-cosh.md: « tradercosh
-  - function.trader-div.md: traderdiv »
+  - function.trader-cosh.md: « trader\_cosh
+  - function.trader-div.md: trader\_div »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderdema
+  - ref.trader.md: Функції Trader
+title: trader\_dema
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderdema
+# trader\_dema
 
 (PECL trader >= 0.2.0)
 
-traderdema — Подвійна експоненційна ковзна середня
+trader\_dema — Подвійна експоненційна ковзна середня
 
 ### Опис
 

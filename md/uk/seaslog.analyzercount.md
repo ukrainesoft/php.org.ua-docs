@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::analyzerCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::analyzerCount
 
 (PECL seaslog >=1.1.6)
 
-SeasLog::analyzerCount — Отримує кількість журналів за рівнем, logpath і keyслово
+SeasLog::analyzerCount — Отримує кількість журналів за рівнем, log\_path і key\_word
 
 ### Опис
 
@@ -18,7 +19,7 @@ SeasLog::analyzerCount — Отримує кількість журналів з
 public static SeasLog::analyzerCount(string $level, string $log_path = ?, string $key_word = ?): mixed
 ```
 
-SeasLog набуває значення лічильника grep -ai '{level}' | grep -aic '{keyword}', використовуючи системний канал і повертає до PHP (масив чи ціле число).
+\`SeasLog\` набуває значення лічильника \`grep -ai '{level}' | grep -aic '{key\_word}'\`, використовуючи системний канал і повертає до PHP (масив чи ціле число).
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ SeasLog набуває значення лічильника grep -ai '{level}' 
 
 ### Значення, що повертаються
 
-Якщо level дорівнює SEASLOGALL чи не заданий, повертаються всі рівні як масив. Якщо level дорівнює SEASLOGINFO або інший рівень повертається кількість як ціле число.
+Якщо \`level\`равен SEASLOG\_ALL чи не заданий, повертаються всі рівні як масив. Якщо \`level\`равен SEASLOG\_INFO або інший рівень повертається кількість як ціле число.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::analyzerCount()****
+**Пример #1 Пример использования**SeasLog::analyzerCount()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ var_dump($countResult1,$countResult2,$countResult3,$countResult4);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(8) {
@@ -92,4 +93,4 @@ int(29)
 
 ### Дивіться також
 
--   [SeasLog::analyzerDetail()](seaslog.analyzerdetail.md) - Отримує деталізацію журналу за рівнем, logpath, keyword, start, limit, order
+-   [SeasLog::analyzerDetail()](seaslog.analyzerdetail.md) \- Отримує деталізацію журналу за рівнем, log\_path, key\_word, start, limit, order

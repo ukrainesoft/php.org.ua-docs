@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.ui-controls-separator.md: « UIControlsSeparator
-  - class.ui-controls-combo.md: ОЙControlsCombo »
+  - class.ui-controls-separator.md: « UI\\Controls\\Separator
+  - class.ui-controls-combo.md: UI\\Controls\\Combo »
   - index.md: PHP Manual
-  - class.ui-controls-separator.md: ОЙControlsSeparator
-title: 'ОЙControlsSeparator::construct'
+  - class.ui-controls-separator.md: UI\\Controls\\Separator
+title: 'UI\\Controls\\Separator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsSeparator::construct
+# UI\\Controls\\Separator::\_\_construct
 
 (UI 0.9.9)
 
-ОЙControlsSeparator::construct — Створити новий об'єкт Separator
+UI\\Controls\\Separator::\_\_construct — Створити новий об'єкт Separator
 
 ### Опис
 
-public **ОЙControlsSeparator::construct**(int `$type` = UIControlsSeparator::Horizontal)
+public**UI\\Controls\\Separator::\_\_construct**(int`$type`\= UI\\Controls\\Separator::Horizontal)
 
 Створить новий об'єкт Separator заданого типу
 

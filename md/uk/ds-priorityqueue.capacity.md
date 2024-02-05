@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-priorityqueue.allocate.md: '« DsPriorityQueue::allocate'
-  - ds-priorityqueue.clear.md: 'ДсPriorityQueue::clear »'
+  - ds-priorityqueue.allocate.md: '« Ds\\PriorityQueue::allocate'
+  - ds-priorityqueue.clear.md: 'Ds\\PriorityQueue::clear »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.md: Черга з пріоритетом
-title: 'ДсPriorityQueue::capacity'
+  - class.ds-priorityqueue.md: Ds\\PriorityQueue
+title: 'Ds\\PriorityQueue::capacity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсPriorityQueue::capacity
+# Ds\\PriorityQueue::capacity
 
 (PECL ds >= 1.0.0)
 
-ДсPriorityQueue::capacity — Повертає поточну місткість
+Ds\\PriorityQueue::capacity — Повертає поточну місткість
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\PriorityQueue::capacity(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсPriorityQueue::capacity()****
+**Пример #1 Пример использования**Ds\\PriorityQueue::capacity()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump($queue->capacity());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(8)

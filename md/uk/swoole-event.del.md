@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-event.defer.md: '« SwooleEvent::defer'
-  - swoole-event.exit.md: 'SwooleEvent::exit »'
+  - swoole-event.defer.md: '« Swoole\\Event::defer'
+  - swoole-event.exit.md: 'Swoole\\Event::exit »'
   - index.md: PHP Manual
-  - class.swoole-event.md: SwooleEvent
-title: 'SwooleEvent::del'
+  - class.swoole-event.md: Swoole\\Event
+title: 'Swoole\\Event::del'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleEvent::del
+# Swoole\\Event::del
 
 (PECL swoole >= 1.9.0)
 
-SwooleEvent::del — Видаляє всі callback-функції події сокету
+Swoole\\Event::del — Видаляє всі callback-функції події сокету
 
 ### Опис
 

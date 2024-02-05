@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getOwner'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::getOwner
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getOwner — Отримує власника файлу
 
@@ -26,7 +27,7 @@ public SplFileInfo::getOwner(): int|false
 
 ### Значення, що повертаються
 
-Ідентифікатор власника файлу у вигляді числа у разі успішного виконання або **`false`** у разі виникнення помилки.
+Ідентифікатор власника файлу у вигляді числа у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -34,16 +35,33 @@ public SplFileInfo::getOwner(): int|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::getOwner()****
+**Пример #1 Пример использования**SplFileInfo::getOwner()\*\*\*\*
 
 ```php
 <?php
-$info = new SplFileInfo('file.txt');
+$info = new SplFileInfo('example.jpg');
+echo info->getFilename() . ' принадлежит группе ' . $info->getOwner() . "\n";
 print_r(posix_getpwuid($info->getOwner()));
 ?>
 ```
 
+Висновок наведеного прикладу буде схожим на:
+
+```
+example.jpg принадлежит группе 501
+Array
+(
+    [name] => tom
+    [passwd] => x
+    [uid] => 501
+    [gid] => 42
+    [gecos] => Tom Cat
+    [dir] => /home/tom
+    [shell] => /bin/bash
+)
+```
+
 ### Дивіться також
 
--   [posixgetpwuid()](function.posix-getpwuid.md) - Повертає інформацію про користувача, використовуючи його ID
--   [SplFileInfo::getGroup()](splfileinfo.getgroup.md) - Отримує групу файлу
+-   [posix\_getpwuid()](function.posix-getpwuid.md) \- Повертає інформацію про користувача, використовуючи його ID
+-   [SplFileInfo::getGroup()](splfileinfo.getgroup.md) \- Отримує групу файлу

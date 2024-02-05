@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.exception.md: Exception
 title: 'Exception::getCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Exception::getCode
 
@@ -30,7 +31,7 @@ final public Exception::getCode(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Exception::getCode()****
+**Пример #1 Пример использования**Exception::getCode()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Код исключения: 30
@@ -50,4 +51,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getCode()](throwable.getcode.md) - Повертає код виключення
+-   [Throwable::getCode()](throwable.getcode.md) \- Повертає код виключення

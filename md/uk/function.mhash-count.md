@@ -1,20 +1,21 @@
 ---
 navigation:
-  - ref.mhash.md: « Функции Mhash
-  - function.mhash-get-block-size.md: mhashgetblocksize »
+  - ref.mhash.md: « Функції Mhash
+  - function.mhash-get-block-size.md: mhash\_get\_block\_size »
   - index.md: PHP Manual
-  - ref.mhash.md: Функции Mhash
-title: mhashcount
+  - ref.mhash.md: Функції Mhash
+title: mhash\_count
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mhashcount
+# mhash\_count
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-mhashcount — Отримати найбільш доступний ідентифікатор хешу
+mhash\_count — Отримати найбільш доступний ідентифікатор хешу
 
 **Увага**
 
-Функція оголошена *застарілої*починаючи з PHP 8.1.0. Використовувати цю функцію не рекомендується.
+Функція оголошена *застарілої* починаючи з PHP 8.1.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -34,9 +35,9 @@ mhash_count(): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.md) |
+| 8.1.0 | Функцію оголошено застарілою. Використовуйте замість неї [функції `hash_*()`](ref.hash.md) |
 
 ### Приклади
 

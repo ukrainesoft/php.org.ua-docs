@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.throwable.md: Throwable
 title: 'Throwable::getTrace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Throwable::getTrace
 
@@ -26,8 +27,8 @@ public Throwable::getTrace(): array
 
 ### Значення, що повертаються
 
-Повертає трасування стека у вигляді масиву в такому ж форматі, що й [debugbacktrace()](function.debug-backtrace.md)
+Повертає трасування стека у вигляді масиву в такому ж форматі, що й [debug\_backtrace()](function.debug-backtrace.md)
 
 ### Дивіться також
 
--   [Exception::getTrace()](exception.gettrace.md) - Отримує трасування стека
+-   [Exception::getTrace()](exception.gettrace.md) \- Отримує трасування стека

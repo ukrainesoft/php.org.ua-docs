@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.xmldiff-file.md: « XMLDiffFile
-  - xmldiff-file.merge.md: 'XMLDiffFile::merge »'
+  - class.xmldiff-file.md: « XMLDiff\\File
+  - xmldiff-file.merge.md: 'XMLDiff\\File::merge »'
   - index.md: PHP Manual
-  - class.xmldiff-file.md: XMLDiffFile
-title: 'XMLDiffFile::diff'
+  - class.xmldiff-file.md: XMLDiff\\File
+title: 'XMLDiff\\File::diff'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# XMLDiffFile::diff
+# XMLDiff\\File::diff
 
 (PECL xmldiff >= 0.8.0)
 
-XMLDiffFile::diff — Порівняння двох файлів XML
+XMLDiff\\File::diff — Порівняння двох файлів XML
 
 ### Опис
 

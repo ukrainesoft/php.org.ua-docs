@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-simple.set.md: '« YafConfigSimple::set'
-  - yaf-config-simple.valid.md: 'YafConfigSimple::valid »'
+  - yaf-config-simple.set.md: '« Yaf\_Config\_Simple::\_\_set'
+  - yaf-config-simple.valid.md: 'Yaf\_Config\_Simple::valid »'
   - index.md: PHP Manual
-  - class.yaf-config-simple.md: YafConfigSimple
-title: 'YafConfigSimple::toArray'
+  - class.yaf-config-simple.md: Yaf\_Config\_Simple
+title: 'Yaf\_Config\_Simple::toArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigSimple::toArray
+# Yaf\_Config\_Simple::toArray
 
 (Yaf >=1.0.0)
 
-YafConfigSimple::toArray — Повертає масив PHP
+Yaf\_Config\_Simple::toArray — Повертає масив PHP
 
 ### Опис
 
@@ -18,7 +19,7 @@ YafConfigSimple::toArray — Повертає масив PHP
 public Yaf_Config_Simple::toArray(): array
 ```
 
-Повертає масив PHP з [YafConfigSimple](class.yaf-config-simple.md)
+Повертає масив PHP з [Yaf\_Config\_Simple](class.yaf-config-simple.md)
 
 ### Список параметрів
 

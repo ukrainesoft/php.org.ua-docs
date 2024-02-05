@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.json.md: « Введение
+  - intro.json.md: '" Вступ'
   - json.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.json.md: JSON
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

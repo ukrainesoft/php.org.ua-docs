@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isIDPart'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isIDPart
 
@@ -20,17 +21,17 @@ public static IntlChar::isIDPart(int|string $codepoint): ?bool
 
 Перевіряє, чи можна використовувати символ в ідентифікаторі.
 
-**`true`** для символів категорії "L" (літери), "Nl" (символи цифр), "Nd" (десяткові цифри), "Mc" та "Mn" (мітки суміщення), "Pc" (з'єднувальна пунктуація), та uisIDIgnorable(c).
+**`true`** для символів категорії "L" (літери), "Nl" (символи цифр), "Nd" (десяткові цифри), "Mc" та "Mn" (мітки суміщення), "Pc" (з'єднувальна пунктуація), та u\_isIDIgnorable(c).
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Майже те саме, що і IDContinue в Unicode (**`IntlChar::PROPERTY_ID_CONTINUE`**) за винятком того, що Unicode рекомендує ігнорувати Cf, які менше [IntlChar::isIDIgnorable()](intlchar.isidignorable.md)
+> Майже те саме, що і ID\_Continue в Unicode (**`IntlChar::PROPERTY_ID_CONTINUE`**) за винятком того, що Unicode рекомендує ігнорувати Cf, які менше [IntlChar::isIDIgnorable()](intlchar.isidignorable.md)
 
 ### Список параметрів
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
@@ -49,7 +50,7 @@ var_dump(IntlChar::isIDPart("\u{2603}"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -60,6 +61,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isIDIgnorable()](intlchar.isidignorable.md) - Перевірити, чи символ ігнорується
--   [IntlChar::isIDStart()](intlchar.isidstart.md) - Перевірити, чи можна використовувати символ на початку ідентифікатора
+-   [IntlChar::isIDIgnorable()](intlchar.isidignorable.md) \- Перевірити, чи символ ігнорується
+-   [IntlChar::isIDStart()](intlchar.isidstart.md) \- Перевірити, чи можна використовувати символ на початку ідентифікатора
 -   **`IntlChar::PROPERTY_ID_CONTINUE`**

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.imap-rfc822-write-address.md: « imaprfc822writeaddress
-  - function.imap-scan.md: imapscan »
+  - function.imap-rfc822-write-address.md: « imap\_rfc822\_write\_address
+  - function.imap-scan.md: imap\_scan »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapsavebody
+  - ref.imap.md: Функції IMAP
+title: imap\_savebody
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapsavebody
+# imap\_savebody
 
-(PHP 5> = 5.1.3, PHP 7, PHP 8)
+(PHP 5 >= 5.1.3, PHP 7, PHP 8)
 
-imapsavebody — Зберегти частину тіла повідомлення у файл
+imap\_savebody — Зберігає частину тіла повідомлення у файл
 
 ### Опис
 
 ```methodsynopsis
-imap_savebody(    IMAP\Connection $imap,    resource|string|int $file,    int $message_num,    string $section = "",    int $flags = 0): bool
+imap_savebody(    IMAP\Connection $imap,    resource|string|int $file,    int $message_num,    string $section = "",    int $flags = 0): bool
 ```
 
 Записує частину тіла повідомлення у файл.
@@ -24,7 +25,7 @@ imap_savebody(    IMAP\Connection $imap,    resource|string|int $file,    int $m
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `file`
 
@@ -42,20 +43,20 @@ imap_savebody(    IMAP\Connection $imap,    resource|string|int $file,    int $m
 
 Бітова маска з однієї або кількох опцій:
 
--   **`FT_UID`** - The `message_num` is a UID
--   **`FT_PEEK`** - Не встановлювати прапор Seen, якщо його вже не встановлено
--   **`FT_INTERNAL`** - Повертати рядок у внутрішньому форматі, без перетворення кінців рядків до CRLF.
+-   \*\*`FT_UID`\*\*- The`message_num`is a UID
+-   \*\*`FT_PEEK`\*\*- Не встановлювати прапор\\Seen, якщо він уже не встановлений
+-   \*\*`FT_INTERNAL`\*\*- Повертати рядок у внутрішньому форматі, без перетворення кінців рядків до CRLF.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Дивіться також
 
--   [imapfetchbody()](function.imap-fetchbody.md) - Витягти конкретну секцію тіла повідомлення
+-   [imap\_fetchbody()](function.imap-fetchbody.md) \- Витягує конкретну секцію тіла повідомлення

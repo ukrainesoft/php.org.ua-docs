@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.yaml-parse-file.md: « yamlparsefile
-  - function.yaml-parse.md: yamlparse »
+  - function.yaml-parse-file.md: « yaml\_parse\_file
+  - function.yaml-parse.md: yaml\_parse »
   - index.md: PHP Manual
-  - ref.yaml.md: Функции Yaml
-title: yamlparseurl
+  - ref.yaml.md: Функції Yaml
+title: yaml\_parse\_url
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yamlparseurl
+# yaml\_parse\_url
 
 (PECL yaml >= 0.4.0)
 
-yamlparseurl - Розбирає YAML-потік з URL
+yaml\_parse\_url - Розбирає YAML-потік з URL
 
 ### Опис
 
 ```methodsynopsis
-yaml_parse_url(    string $url,    int $pos = 0,    int &$ndocs = ?,    array $callbacks = null): mixed
+yaml_parse_url(    string $url,    int $pos = 0,    int &$ndocs = ?,    array $callbacks = null): mixed
 ```
 
 Конвертує повністю або частково потік YAML-документів, що читаються з URL, змінну PHP.
@@ -28,7 +29,7 @@ yaml_parse_url(    string $url,    int $pos = 0,    int &$ndocs = ?,    array $c
 
 `pos`
 
-Індекс документа для вилучення з потоку (`-1` для всіх документів, `0` для першого документа, ...).
+Індекс документа для вилучення з потоку (`-1` для всіх документів, для первого документа, ...).
 
 `ndocs`
 
@@ -40,16 +41,16 @@ yaml_parse_url(    string $url,    int $pos = 0,    int &$ndocs = ?,    array $c
 
 ### Значення, що повертаються
 
-Повертає значення, закодоване в `input`, у відповідному PHP типі або **`false`** у разі виникнення помилки. Якщо параметр `pos` дорівнює `-1`, то буде повернуто масив (array), що містить по одному запису для кожного документа, знайденого в потоці.
+Повертає значення, закодоване в `input`, у відповідному PHP типі або \*\*`false`\*\*в случае возникновения ошибки. Если параметр`pos`равен`-1`, то буде повернуто масив (array), що містить по одному запису для кожного документа, знайденого в потоці.
 
 ### Примітки
 
 **Увага**
 
-Обробляти неперевірене введення користувача за допомогою функції [yamlparsefile()](function.yaml-parse-file.md) у випадку, якщо дозволено використовувати [unserialize()](function.unserialize.md) для вузлів із тегом `!php/object` - Вкрай небезпечно. Така поведінка може бути заборонена за допомогою ini-налаштування `yaml.decode_php`
+Обробляти неперевірене введення користувача за допомогою функції [yaml\_parse\_file()](function.yaml-parse-file.md) у випадку, якщо дозволено використовувати [unserialize()](function.unserialize.md) для вузлів із тегом `!php/object` - Вкрай небезпечно. Така поведінка може бути заборонена за допомогою ini-налаштування `yaml.decode_php`
 
 ### Дивіться також
 
--   [yamlparse()](function.yaml-parse.md) - Розбирає потік YAML
--   [yamlparsefile()](function.yaml-parse-file.md) - Розбирає YAML-потік із файлу
--   [yamlemit()](function.yaml-emit.md) - Повертає YAML-подання значення
+-   [yaml\_parse()](function.yaml-parse.md) \- Розбирає потік YAML
+-   [yaml\_parse\_file()](function.yaml-parse-file.md) \- Розбирає YAML-потік із файлу
+-   [yaml\_emit()](function.yaml-emit.md) \- Повертає YAML-подання значення

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - book.solr.md: Solr
 title: Клас SolrUtils
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SolrUtils
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 ## Вступ
 
@@ -42,7 +43,7 @@ public static queryPhrase(string $str): string
 
 ## Зміст
 
--   [SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.md) — Перетворює XML-рядок відповіді на SolrObject
--   [SolrUtils::escapeQueryChars](solrutils.escapequerychars.md) — Екранує рядок запиту Lucene
--   [SolrUtils::getSolrVersion](solrutils.getsolrversion.md) — Повертає поточну версію модуля Solr
--   [SolrUtils::queryPhrase](solrutils.queryphrase.md) — Підготовка фрази з неекранованого рядка запиту Lucene
+-   [SolrUtils::digestXmlResponse](solrutils.digestxmlresponse.md)— Перетворює XML-рядок відповіді на об'єкт SolrObject
+-   [SolrUtils::escapeQueryChars](solrutils.escapequerychars.md)— Екранує рядок запиту Lucene
+-   [SolrUtils::getSolrVersion](solrutils.getsolrversion.md)— Повертає поточну версію модуля Solr
+-   [SolrUtils::queryPhrase](solrutils.queryphrase.md)— Підготовка фрази з неекранованого рядка запиту Lucene

@@ -3,12 +3,13 @@ navigation:
   - datetimeimmutable.sub.md: '« DateTimeImmutable::sub'
   - datetime.diff.md: 'DateTimeInterface::diff »'
   - index.md: PHP Manual
-  - book.datetime.md: Дата/время
+  - book.datetime.md: Дата час
 title: Інтерфейс DateTimeInterface
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс DateTimeInterface
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -20,70 +21,80 @@ title: Інтерфейс DateTimeInterface
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      interface DateTimeInterface {
+     interface DateTimeInterface {
 
     /* Константы */
     
+     public
      const
      string
-      ATOM = "Y-m-d\TH:i:sP";
+      ATOM = "Y-m-d\\TH:i:sP";
 
-    const
+    public
+     const
      string
       COOKIE = "l, d-M-Y H:i:s T";
 
-    const
+    public
+     const
      string
-      ISO8601 = "Y-m-d\TH:i:sO";
+      ISO8601 = "Y-m-d\\TH:i:sO";
 
-    const
+    public
+     const
      string
-      ISO8601_EXPANDED = "X-m-d\TH:i:sP";
+      ISO8601_EXPANDED = "X-m-d\\TH:i:sP";
 
-    const
+    public
+     const
      string
       RFC822 = "D, d M y H:i:s O";
 
-    const
+    public
+     const
      string
       RFC850 = "l, d-M-y H:i:s T";
 
-    const
+    public
+     const
      string
       RFC1036 = "D, d M y H:i:s O";
 
-    const
+    public
+     const
      string
       RFC1123 = "D, d M Y H:i:s O";
 
-    const
+    public
+     const
      string
-      RFC7231 = "D, d M Y H:i:s \G\M\T";
+      RFC7231 = "D, d M Y H:i:s \\G\\M\\T";
 
-    const
+    public
+     const
      string
       RFC2822 = "D, d M Y H:i:s O";
 
-    const
+    public
+     const
      string
-      RFC3339 = "Y-m-d\TH:i:sP";
+      RFC3339 = "Y-m-d\\TH:i:sP";
 
-    const
+    public
+     const
      string
-      RFC3339_EXTENDED = "Y-m-d\TH:i:s.vP";
+      RFC3339_EXTENDED = "Y-m-d\\TH:i:s.vP";
 
-    const
+    public
+     const
      string
       RSS = "D, d M Y H:i:s O";
 
-    const
+    public
+     const
      string
-      W3C = "Y-m-d\TH:i:sP";
+      W3C = "Y-m-d\\TH:i:sP";
 
 
     /* Методы */
@@ -118,7 +129,7 @@ HTTP Cookies (приклад: Monday, 15-Aug-05 15:52:01 UTC)
 
 ISO-8601 (приклад: 2005-08-15T15:52:01+0000)
 
-> **Зауваження**: Цей формат не сумісний із ISO-8601, але залишається для зворотної сумісності. Замість нього використовуйте **`DateTimeInterface::ISO8601_EXPANDED`** або **`DateTimeInterface::ATOM`** для сумісності із ISO-8601.
+> **Зауваження**: Цей формат не сумісний із ISO-8601, але залишається для зворотної сумісності. Замість нього використовуйте **`DateTimeInterface::ISO8601_EXPANDED`**или**`DateTimeInterface::ATOM`** для сумісності із ISO-8601. (посилання на ISO8601:2004 розділ 4.3.3, пункт d)
 
 **`DateTimeInterface::ISO8601_EXPANDED`**
 
@@ -126,7 +137,7 @@ ISO-8601 (приклад: 2005-08-15T15:52:01+0000)
 
 ISO-8601 Expanded (приклад: +10191-07-26T08:59:52+01:00)
 
-> **Зауваження**: Формат дозволяє використовувати діапазони років, що виходять за межі звичайного діапазону ISO-8601 (`0000``9999`), завжди включаючи знак значок. Він також враховує, що частина часового поясу (`+01:00`) сумісна з ISO-8601.
+> **Зауваження**: Формат дозволяє використовувати діапазони років, що виходять за межі звичайного діапазону ISO-8601 (`0000`\-`9999`), завжди включаючи знак значок. Він також враховує, що частина часового поясу (`+01:00`) сумісна з ISO-8601.
 
 **`DateTime::RFC822`**
 
@@ -190,16 +201,16 @@ World Wide Web Consortium (приклад: 2005-08-15T15:52:01+00:00)
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Додано константу DateTimeInterface::ISO8601EXPANDED. |
-|  | Константи класу тепер [DateTime](class.datetime.md) визначено в **DateTimeInterface** |
+| 8.2.0 | Добавлена константа\*\*`DateTimeInterface::ISO8601_EXPANDED`\*\* |
+| 7.2.0 | Константи класу тепер [DateTime](class.datetime.md) визначено в **DateTimeInterface** |
 
 ## Зміст
 
--   [DateTimeInterface::diff](datetime.diff.md) — Повертає різницю між двома об'єктами DateTime
--   [DateTimeInterface::format](datetime.format.md) — Повертає дату, відформатовану згідно з переданим форматом
--   [DateTimeInterface::getOffset](datetime.getoffset.md) — Повертає усунення часового поясу
--   [DateTimeInterface::getTimestamp](datetime.gettimestamp.md) — Повертає тимчасову мітку Unix
--   [DateTimeInterface::getTimezone](datetime.gettimezone.md) — Повертає часовий пояс щодо поточного значення DateTime
--   [DateTime::wakeup](datetime.wakeup.md) - Обробник wakeup
+-   [DateTimeInterface::diff](datetime.diff.md)— Повертає різницю між двома об'єктами DateTime
+-   [DateTimeInterface::format](datetime.format.md)— Повертає дату, відформатовану згідно з переданим форматом
+-   [DateTimeInterface::getOffset](datetime.getoffset.md)— Повертає усунення часового поясу
+-   [DateTimeInterface::getTimestamp](datetime.gettimestamp.md)— Повертає тимчасову мітку Unix
+-   [DateTimeInterface::getTimezone](datetime.gettimezone.md)— Повертає часовий пояс щодо поточного значення DateTime
+-   [DateTime::\_\_wakeup](datetime.wakeup.md) \- Обробник\_\_wakeup

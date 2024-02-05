@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-sign-secretkey.md: « sodiumcryptosignsecretkey
-  - function.sodium-crypto-sign-verify-detached.md: sodiumcryptosignverifydetached »
+  - function.sodium-crypto-sign-secretkey.md: « sodium\_crypto\_sign\_secretkey
+  - function.sodium-crypto-sign-verify-detached.md: sodium\_crypto\_sign\_verify\_detached »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptosignseedkeypair
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_sign\_seed\_keypair
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptosignseedkeypair
+# sodium\_crypto\_sign\_seed\_keypair
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptosignseedkeypair - Детермінований виведення пари ключів з одного ключа
+sodium\_crypto\_sign\_seed\_keypair - Детермінований виведення пари ключів з одного ключа
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-application.getconfig.md: '« YafApplication::getConfig'
-  - yaf-application.getlasterrormsg.md: 'YafApplication::getLastErrorMsg »'
+  - yaf-application.getconfig.md: '« Yaf\_Application::getConfig'
+  - yaf-application.getlasterrormsg.md: 'Yaf\_Application::getLastErrorMsg »'
   - index.md: PHP Manual
-  - class.yaf-application.md: YafApplication
-title: 'YafApplication::getDispatcher'
+  - class.yaf-application.md: Yaf\_Application
+title: 'Yaf\_Application::getDispatcher'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafApplication::getDispatcher
+# Yaf\_Application::getDispatcher
 
 (Yaf >=1.0.0)
 
-YafApplication::getDispatcher — Отримати примірник класу YafDispatcher
+Yaf\_Application::getDispatcher — Отримати примірник класу Yaf\_Dispatcher
 
 ### Опис
 
@@ -26,7 +27,7 @@ public Yaf_Application::getDispatcher(): Yaf_Dispatcher
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafApplication::getDispatcher()****
+**Пример #1 Пример использования**Yaf\_Application::getDispatcher()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ print_r($application->getDispatcher());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Yaf_Dispatcher Object

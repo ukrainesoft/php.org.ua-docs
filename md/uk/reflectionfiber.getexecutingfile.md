@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfiber.md: ReflectionFiber
 title: 'ReflectionFiber::getExecutingFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFiber::getExecutingFile
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionFiber::getExecutingFile — Отримує ім'я файлу поточної точки виконання
 

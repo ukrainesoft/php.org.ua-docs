@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-rows-affected.md: « sqlsrvrowsaffected
-  - function.sqlsrv-server-info.md: sqlsrvserverinfo »
+  - function.sqlsrv-rows-affected.md: « sqlsrv\_rows\_affected
+  - function.sqlsrv-server-info.md: sqlsrv\_server\_info »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvsendstreamdata
+title: sqlsrv\_send\_stream\_data
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvsendstreamdata
+# sqlsrv\_send\_stream\_data
 
 (No version information available, might only be in Git)
 
-sqlsrvsendstreamdata — Надсилання даних із потоків параметрів на сервер
+sqlsrv\_send\_stream\_data — Надсилання даних із потоків параметрів на сервер
 
 ### Опис
 
@@ -24,7 +25,7 @@ sqlsrv_send_stream_data(resource $stmt): bool
 
 `stmt`
 
-Ресурс виразу, що повертається [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvexecute()](function.sqlsrv-execute.md)
+Ресурс виразу, що повертається [sqlsrv\_query()](function.sqlsrv-query.md) або [sqlsrv\_execute()](function.sqlsrv-execute.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ sqlsrv_send_stream_data(resource $stmt): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvsendstreamdata()****
+**Пример #1 Пример использования**sqlsrv\_send\_stream\_data()\*\*\*\*
 
 ```php
 <?php
@@ -45,11 +46,11 @@ if( $conn === false ) {
 
 $sql = "UPDATE Table_1 SET data = ( ?) WHERE id = 100";
 
-// Откройте данные параметров как поток и поместите их в Масив $params.
+// Откройте данные параметров как поток и поместите их в массив $params.
 $data = fopen( "data://text/plain,[ Lengthy content here. ]", "r");
 $params = array( &$data);
 
-// Подготовьте выражение. Используйте Масив $options, чтобы
+// Подготовьте выражение. Используйте массив $options, чтобы
 // отключить поведение по умолчанию, которое заключается в отправке всех данных
 // потока во время выполнения запроса.
 $options = array("SendStreamParamsAtExec"=>0);
@@ -69,5 +70,5 @@ echo "$i вызовов было сделано.";
 
 ### Дивіться також
 
--   [sqlsrvprepare()](function.sqlsrv-prepare.md) - готує запит до виконання
--   [sqlsrvquery()](function.sqlsrv-query.md) - готує та виконує запит
+-   [sqlsrv\_prepare()](function.sqlsrv-prepare.md) \- готує запит до виконання
+-   [sqlsrv\_query()](function.sqlsrv-query.md) \- готує та виконує запит

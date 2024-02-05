@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::setimageresolution'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::setimageresolution
 
@@ -36,4 +37,4 @@ public Gmagick::setimageresolution(float $xResolution, float $yResolution): Gmag
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

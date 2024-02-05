@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-colorbutton.setcolor.md: '« UIControlsColorButton::setColor'
-  - ui-controls-label.construct.md: 'ОЙControlsLabel::construct »'
+  - ui-controls-colorbutton.setcolor.md: '« UI\\Controls\\ColorButton::setColor'
+  - ui-controls-label.construct.md: 'UI\\Controls\\Label::\_\_construct »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Мітка"
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Мітка"
 
@@ -60,6 +61,6 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsLabel::construct](ui-controls-label.construct.md) - Створити новий об'єкт Label
--   [ОЙControlsLabel::getText](ui-controls-label.gettext.md) — Отримати текст
--   [ОЙControlsLabel::setText](ui-controls-label.settext.md) — Встановити текст
+-   [UI\\Controls\\Label::\_\_construct](ui-controls-label.construct.md) \- Створити новий об'єкт Label
+-   [UI\\Controls\\Label::getText](ui-controls-label.gettext.md)— Отримати текст
+-   [UI\\Controls\\Label::setText](ui-controls-label.settext.md)— Встановити текст

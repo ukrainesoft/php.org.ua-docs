@@ -3,8 +3,9 @@ navigation:
   - class.ev.md: « Ev
   - ev.depth.md: 'Ev::depth »'
   - index.md: PHP Manual
-  - class.ev.md: Єв
+  - class.ev.md: Ev
 title: 'Ev::backend'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Ev::backend
 
@@ -21,7 +22,7 @@ final
    Ev::backend(): int
 ```
 
-Повертає ціле число, що описує бекенд, що використовується *libev*. Дивіться [Прапори бекенда](class.ev.md#ev.constants.watcher-backends)
+Повертає ціле число, що описує бекенд, що використовується *libev*Смотрите[Прапори бекенда](class.ev.md#ev.constants.watcher-backends)
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ final
 ### Дивіться також
 
 -   [EvEmbed](class.evembed.md)
--   [Ev::embeddableBackends()](ev.embeddablebackends.md) - Повертає набір бекендів, які можна вбудувати в інші цикли подій
--   [Ev::recommendedBackends()](ev.recommendedbackends.md) - Отримати бітову маску рекомендованих бекендів для даної платформи
--   [Ev::supportedBackends()](ev.supportedbackends.md) - Повертає набір бекендів, які підтримуються поточною конфігурацією libev
+-   [Ev::embeddableBackends()](ev.embeddablebackends.md) \- Повертає набір бекендів, які можна вбудувати в інші цикли подій
+-   [Ev::recommendedBackends()](ev.recommendedbackends.md) \- Отримати бітову маску рекомендованих бекендів для даної платформи
+-   [Ev::supportedBackends()](ev.supportedbackends.md) \- Повертає набір бекендів, які підтримуються поточною конфігурацією libev
 -   [Прапори бекенда](class.ev.md#ev.constants.watcher-backends)

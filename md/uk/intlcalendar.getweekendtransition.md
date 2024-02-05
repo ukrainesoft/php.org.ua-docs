@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getWeekendTransition'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getWeekendTransition
 
@@ -28,7 +29,7 @@ intlcal_get_weekend_transition(IntlCalendar $calendar, int $dayOfWeek): int|fals
 
 Повертає кількість мілісекундів після опівночі, коли вихідні починаються або закінчуються.
 
-Застосовується тільки для днів тижня, для яких [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.md) повертає або **`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**, або **`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`**. Виклик цієї функції для інших днів тижня є помилкою.
+Застосовується тільки для днів тижня, для яких [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.md) повертає або **`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**, либо\*\*`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`\*\*. Виклик цієї функції для інших днів тижня є помилкою.
 
 Для цієї функції потрібний ICU 4.4 або новіший.
 
@@ -40,11 +41,11 @@ intlcal_get_weekend_transition(IntlCalendar $calendar, int $dayOfWeek): int|fals
 
 `dayOfWeek`
 
-Одна з констант: **`IntlCalendar::DOW_SUNDAY`** **`IntlCalendar::DOW_MONDAY`** **`IntlCalendar::DOW_SATURDAY`**
+Одна из констант:**`IntlCalendar::DOW_SUNDAY`** **`IntlCalendar::DOW_MONDAY`** **`IntlCalendar::DOW_SATURDAY`**
 
 ### Значення, що повертаються
 
-Кількість мілісекунд після опівночі, коли вихідні починаються або закінчуються або **`false`** у разі виникнення помилки.
+Кількість мілісекунд після опівночі, коли вихідні починаються або закінчуються або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

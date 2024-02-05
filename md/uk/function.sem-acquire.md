@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.msg-stat-queue.md: « msgstatqueue
-  - function.sem-get.md: semget »
+  - function.msg-stat-queue.md: « msg\_stat\_queue
+  - function.sem-get.md: sem\_get »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
-title: semacquire
+title: sem\_acquire
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# semacquire
+# sem\_acquire
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-semacquire - Захоплення семафору
+sem\_acquire - Захоплення семафору
 
 ### Опис
 
@@ -18,7 +19,7 @@ semacquire - Захоплення семафору
 sem_acquire(SysvSemaphore $semaphore, bool $non_blocking = false): bool
 ```
 
-**semacquire()** блокується (за потреби) до моменту захоплення семафору. Процес, який спробує захопити семафор, вже захоплений ним же буде заблокований назавжди, якщо буде перевищено максимальне значення семафору.
+**sem\_acquire()** блокується (за потреби) до моменту захоплення семафору. Процес, який спробує захопити семафор, вже захоплений ним же буде заблокований назавжди, якщо буде перевищено максимальне значення семафору.
 
 Після виконання запиту всі захоплені, але явно не звільнені процесом, семафори звільняються автоматично і генерується попередження.
 
@@ -26,23 +27,23 @@ sem_acquire(SysvSemaphore $semaphore, bool $non_blocking = false): bool
 
 `semaphore`
 
-`semaphore` - Семафор.
+`semaphore`\- семафор.
 
 `non_blocking`
 
-Вказує, чи процес повинен чекати для захоплення семафора. Якщо встановлено `true`, виклик негайно поверне `false`якщо семафор не може бути захоплений.
+Вказує, чи процес повинен чекати для захоплення семафора. Якщо встановлено **`true`**, виклик негайно поверне \*\*`false`\*\*якщо семафор не може бути захоплений.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | Параметр`semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [semget()](function.sem-get.md) - Отримання ідентифікатора семафору
--   [semrelease()](function.sem-release.md) - Звільнення семафору
+-   [sem\_get()](function.sem-get.md) \- Отримання ідентифікатора семафору
+-   [sem\_release()](function.sem-release.md) \- Звільнення семафору

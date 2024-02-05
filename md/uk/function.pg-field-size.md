@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-field-prtlen.md: « pgfieldprtlen
-  - function.pg-field-table.md: пгfieldtable »
+  - function.pg-field-prtlen.md: « pg\_field\_prtlen
+  - function.pg-field-table.md: pg\_field\_table »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгfieldsize
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_field\_size
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгfieldsize
+# pg\_field\_size
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгfieldsize — Повертає розмір поля
+pg\_field\_size — Повертає розмір поля
 
 ### Опис
 
@@ -18,17 +19,17 @@ title: пгfieldsize
 pg_field_size(PgSql\Result $result, int $field): int
 ```
 
-**пгfieldsize()** повертає обсяг пам'яті (в байтах), який займає значення поля результату запиту PostgreSQL `result`
+**pg\_field\_size()** повертає обсяг пам'яті (в байтах), який займає значення поля результату запиту PostgreSQL `result`
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Колишня назва функції: **пгfieldsize()**
+> Прежнее название функции:**pg\_fieldsize()**
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSql\\Result](class.pgsql-result.md), що повертається функціями [pg\_query()](function.pg-query.md) [pg\_query\_params()](function.pg-query-params.md) або [pg\_execute()](function.pg-execute.md)(среди прочего).
 
 `field`
 
@@ -40,9 +41,9 @@ pg_field_size(PgSql\Result $result, int $field): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -65,7 +66,7 @@ pg_field_size(PgSql\Result $result, int $field): int
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 column 0
@@ -89,5 +90,5 @@ field type: varchar
 
 ### Дивіться також
 
--   [пгfieldprtlen()](function.pg-field-prtlen.md) - Повертає кількість друкованих символів
--   [пгfieldtype()](function.pg-field-type.md) - Повертає ім'я типу заданого поля
+-   [pg\_field\_prtlen()](function.pg-field-prtlen.md) \- Повертає кількість друкованих символів
+-   [pg\_field\_type()](function.pg-field-type.md) \- Повертає ім'я типу заданого поля

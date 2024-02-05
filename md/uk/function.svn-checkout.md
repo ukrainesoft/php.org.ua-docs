@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.svn-cat.md: « svncat
-  - function.svn-cleanup.md: svncleanup »
+  - function.svn-cat.md: « svn\_cat
+  - function.svn-cleanup.md: svn\_cleanup »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svncheckout
+title: svn\_checkout
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svncheckout
+# svn\_checkout
 
-(PECL svn> = 0.1.0)
+(PECL svn >= 0.1.0)
 
-svncheckout — Отримує робочу копію з репозиторію
+svn\_checkout — Отримує робочу копію з репозиторію
 
 ### Опис
 
 ```methodsynopsis
-svn_checkout(    string $repos,    string $targetpath,    int $revision = ?,    int $flags = 0): bool
+svn_checkout(    string $repos,    string $targetpath,    int $revision = ?,    int $flags = 0): bool
 ```
 
-Отримує робочу копію з ревізією `revision` з репозиторію `repos` і розміщує в `targetpath`
+Отримує робочу копію з ревізією `revision`из репозитория`repos` і розміщує в `targetpath`
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ svn_checkout(    string $repos,    string $targetpath,    int $revision = ?,    
 
 Локальний шлях, куди потрібно отримати робочу копію.
 
-> **Зауваження**: Відносні шляхи будуть обчислені, якби поточна робоча директорія була домашньою папкою самого PHP Щоб використовувати робочу директорію скрипта, що викликає, використовуйте [realpath()](function.realpath.md) або dirname(FILE
+> **Зауваження**: Відносні шляхи будуть обчислені, якби поточна робоча директорія була домашньою папкою самого PHP Щоб використовувати робочу директорію скрипта, що викликає, використовуйте [realpath()](function.realpath.md)или dirname(\_\_FILE\_\_
 
 `revision`
 
@@ -38,11 +39,11 @@ svn_checkout(    string $repos,    string $targetpath,    int $revision = ?,    
 
 `flags`
 
-Комбінації із констант **`SVN_NON_RECURSIVE`** і **`SVN_IGNORE_EXTERNALS`**
+Комбинации из констант\*\*`SVN_NON_RECURSIVE`**и**`SVN_IGNORE_EXTERNALS`\*\*
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -56,7 +57,7 @@ svn_checkout('http://www.example.com/svnroot/calc/trunk', dirname(__FILE__) . '/
 ?>
 ```
 
-Вираз `dirname(__FILE__)` використовується для перетворення з відносного шляху calc в абсолютний шлях. Якщо calc існує, можна використовувати [realpath()](function.realpath.md) для здобуття абсолютного шляху.
+Вираз `dirname(__FILE__)` використовується для перетворення з відносного шляху calc в абсолютний шлях. Якщо calc існує, можна використовувати [realpath()](function.realpath.md)для получения абсолютного пути.
 
 ### Примітки
 
@@ -66,8 +67,8 @@ svn_checkout('http://www.example.com/svnroot/calc/trunk', dirname(__FILE__) . '/
 
 ### Дивіться також
 
--   [svnadd()](function.svn-add.md) - Додає елементи до списку запланованих для додавання до робочої копії
--   [svncommit()](function.svn-commit.md) - Відправляє зміни з робочої директорії до репозиторію
--   [svnstatus()](function.svn-status.md) - Повертає SVN-статус файлів та директорій робочої копії
--   [svnupdate()](function.svn-update.md) - Оновлює робочу копію
--   [» SVN-документация о команде svn checkout](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.checkout.md)
+-   [svn\_add()](function.svn-add.md) \- Додає елементи до списку запланованих для додавання до робочої копії
+-   [svn\_commit()](function.svn-commit.md) \- Відправляє зміни з робочої директорії до репозиторію
+-   [svn\_status()](function.svn-status.md) \- Повертає SVN-статус файлів та директорій робочої копії
+-   [svn\_update()](function.svn-update.md) \- Оновлює робочу копію
+-   [» SVN-документація про команду svn checkout](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.checkout.md)

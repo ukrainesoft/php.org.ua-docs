@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::getColorAsString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::getColorAsString
 
-(PECL imagick 2> = 2.1.0, PECL imagick 3)
+(PECL imagick 2 >= 2.1.0, PECL imagick 3)
 
 ImagickPixel::getColorAsString — Повертає колір у вигляді рядка
 
@@ -30,7 +31,7 @@ public ImagickPixel::getColorAsString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::getColorAsString()****
+**Пример #1 Пример использования**Imagick::getColorAsString()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ print_r($colorInfo);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 rgb(165,42,42)

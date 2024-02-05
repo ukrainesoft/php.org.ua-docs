@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pathStart'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::pathStart
 
@@ -20,7 +21,7 @@ public ImagickDraw::pathStart(): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Оголошує початок відображення контуру, яке завершується відповідною командою DrawPathFinish(). Всі інші команди DrawPath мають бути укладені між DrawPathStart() та DrawPathFinish(). Це з тим, що команди малювання шляху працюють самі собою.
 
@@ -30,7 +31,7 @@ public ImagickDraw::pathStart(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::pathStart()****
+**Пример #1 Пример использования**ImagickDraw::pathStart()\*\*\*\*
 
 ```php
 <?php

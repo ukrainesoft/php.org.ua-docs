@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-button.construct.md: '« UIControlsButton::construct'
-  - ui-controls-button.onclick.md: 'ОЙControlsButton::onClick »'
+  - ui-controls-button.construct.md: '« UI\\Controls\\Button::\_\_construct'
+  - ui-controls-button.onclick.md: 'UI\\Controls\\Button::onClick »'
   - index.md: PHP Manual
-  - class.ui-controls-button.md: ОЙControlsButton
-title: 'ОЙControlsButton::getText'
+  - class.ui-controls-button.md: UI\\Controls\\Button
+title: 'UI\\Controls\\Button::getText'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsButton::getText
+# UI\\Controls\\Button::getText
 
 (UI 0.9.9)
 
-ОЙControlsButton::getText — Отримати текст
+UI\\Controls\\Button::getText — Отримати текст
 
 ### Опис
 

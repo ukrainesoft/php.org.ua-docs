@@ -1,14 +1,15 @@
 ---
 navigation:
-  - openssl.setup.md: « Встановлення та налаштування
-  - openssl.installation.md: Установка »
+  - openssl.setup.md: '" Встановлення та налаштування'
+  - openssl.installation.md: Встановлення »
   - index.md: PHP Manual
   - openssl.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 
-Для використання функцій OpenSSL необхідно встановити бібліотеку [» OpenSSL](http://www.openssl.org/). Для версії PHP 7 необхідно як мінімум OpenSSL >= 0.9.8. PHP версій >= 7.1.0 вимагають OpenSSL >= 1.0.1. Тільки PHP >= 8.1 підтримує OpenSSL >= 3.0.
+Для использования функций OpenSSL вам необходимо установить библиотеку[» OpenSSL](http://www.openssl.org/). . Для версії PHP 7.0 потрібно OpenSSL >= 0.9.8, < 1.2. Для версії PHP 7.1-8.0 потрібна OpenSSL >= 1.0.1, < 3.0. Для версії PHP >= 8.1 потрібно OpenSSL >= 1.0.2, < 4.0.
 
 **Увага**
 

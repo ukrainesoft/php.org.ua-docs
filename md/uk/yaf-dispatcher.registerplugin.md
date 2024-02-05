@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-dispatcher.initview.md: '« YafDispatcher::initView'
-  - yaf-dispatcher.returnresponse.md: 'YafDispatcher::returnResponse »'
+  - yaf-dispatcher.initview.md: '« Yaf\_Dispatcher::initView'
+  - yaf-dispatcher.returnresponse.md: 'Yaf\_Dispatcher::returnResponse »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::registerPlugin'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::registerPlugin'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::registerPlugin
+# Yaf\_Dispatcher::registerPlugin
 
 (Yaf >=1.0.0)
 
-YafDispatcher::registerPlugin — Реєструє плагін
+Yaf\_Dispatcher::registerPlugin — Реєструє плагін
 
 ### Опис
 
@@ -18,7 +19,7 @@ YafDispatcher::registerPlugin — Реєструє плагін
 public Yaf_Dispatcher::registerPlugin(Yaf_Plugin_Abstract $plugin): Yaf_Dispatcher
 ```
 
-Реєструє плагін (дивіться [YafPluginAbstract](class.yaf-plugin-abstract.md)). Як правило, ми реєструємо плагіни в Bootstrap (дивіться [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)
+Регистрирует плагин (смотрите[Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.md)). Як правило, ми реєструємо плагіни в Bootstrap (дивіться [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.md)
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public Yaf_Dispatcher::registerPlugin(Yaf_Plugin_Abstract $plugin): Yaf_Dispatch
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafDispatcher::registerPlugin()****
+**Пример #1 Пример использования**Yaf\_Dispatcher::registerPlugin()\*\*\*\*
 
 ```php
 <?php
@@ -48,6 +49,6 @@ class Bootstrap extends Yaf_Bootstrap_Abstract {
 
 ### Дивіться також
 
--   [YafPluginAbstract](class.yaf-plugin-abstract.md)
+-   [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.md)
     
--   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)
+-   [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.md)

@@ -3,8 +3,9 @@ navigation:
   - migration70.new-functions.md: « Нові функції
   - migration70.constants.md: Нові глобальні константи »
   - index.md: PHP Manual
-  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
+  - migration70.md: Міграція з PHP 5.6.x на PHP 7.0.x
 title: Нові класи та інтерфейси
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Нові класи та інтерфейси
 
@@ -19,7 +20,7 @@ title: Нові класи та інтерфейси
 -   [ReflectionType](class.reflectiontype.md)
     
 
-### [Управление сессиями](book.session.md)
+### [Управління сесіями](book.session.md)
 
 -   [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md)
 

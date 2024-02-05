@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfixedarray.md: SplFixedArray
 title: 'SplFixedArray::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFixedArray::current
 
-(PHP 5> = 5.3.0, PHP 7)
+(PHP 5 >= 5.3.0, PHP 7)
 
 SplFixedArray::current — Повертає поточний елемент масиву
 

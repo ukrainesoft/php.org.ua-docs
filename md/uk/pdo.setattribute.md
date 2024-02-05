@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.pdo.md: PDO
 title: 'PDO::setAttribute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::setAttribute
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8, PECL pdo >= 0.1.0)
 
 PDO::setAttribute — Встановлення атрибуту
 
@@ -68,11 +69,11 @@ public PDO::setAttribute(int $attribute, mixed $value): bool
 
 **`PDO::NULL_TO_STRING`**
 
-**`null`** перетворюється на порожній рядок.
+\*\*`null`\*\*преобразуется в пустую строку.
 
 **`PDO::ATTR_STRINGIFY_FETCHES`**
 
-Чи слід перетворювати числові значення у рядки під час вибірки. Приймає логічне значення (bool): **`true`** для включення та **`false`** для вимикання.
+Чи слід перетворювати числові значення у рядки під час вибірки. Приймає логічне значення (bool): **`true`**для включения и**`false`** для вимикання.
 
 **`PDO::ATTR_STATEMENT_CLASS`**
 
@@ -86,7 +87,7 @@ public PDO::setAttribute(int $attribute, mixed $value): bool
 
 Вказує тривалість очікування в секундах. Приймає значення як цілого числа (int).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Не всі драйвери підтримують цей параметр і його значення може відрізнятися від драйвера до драйвера. Наприклад, SQLite буде чекати до цього часу, перш ніж відмовитися від отримання блокування на запис, але інші драйвери можуть інтерпретувати це як інтервал очікування з'єднання або читання.
 
@@ -94,7 +95,7 @@ public PDO::setAttribute(int $attribute, mixed $value): bool
 
 > **Зауваження**: Доступно лише для драйверів OCI, Firebird та MySQL.
 
-Чи слід автоматично фіксувати кожен окремий оператор. Приймає логічне значення (bool): **`true`** для включення та **`false`** для вимкнення. За замовчуванням **`true`**
+Чи слід автоматично фіксувати кожен окремий оператор. Приймає логічне значення (bool): **`true`**для включения и**`false`**для отключения. По умолчанию**`true`**
 
 **`PDO::ATTR_EMULATE_PREPARES`**
 
@@ -106,7 +107,7 @@ public PDO::setAttribute(int $attribute, mixed $value): bool
 
 > **Зауваження**: Доступно лише для драйвера MySQL.
 
-Визначає, чи можна використовувати буферизовані запити. Приймає логічне значення (bool): **`true`** для включення та **`false`** для вимкнення. За замовчуванням **`false`**
+Визначає, чи можна використовувати буферизовані запити. Приймає логічне значення (bool): **`true`**для включения и**`false`**для отключения. По умолчанию**`true`**
 
 **`PDO::ATTR_DEFAULT_FETCH_MODE`**
 
@@ -120,14 +121,14 @@ public PDO::setAttribute(int $attribute, mixed $value): bool
 
 `value`
 
-Значення для встановлення параметра `attribute`може вимагати певного типу в залежності від атрибуту.
+Значение для установки параметра`attribute`може вимагати певного типу в залежності від атрибуту.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [PDO::getAttribute()](pdo.getattribute.md) - Отримати атрибут з'єднання з базою даних
--   [PDOStatement::getAttribute()](pdostatement.getattribute.md) - Отримання значення атрибуту запиту PDOStatement
--   [PDOStatement::setAttribute()](pdostatement.setattribute.md) - Встановлює атрибут об'єкту PDOStatement
+-   [PDO::getAttribute()](pdo.getattribute.md) \- Отримує атрибут з'єднання з базою даних
+-   [PDOStatement::getAttribute()](pdostatement.getattribute.md) \- Отримання значення атрибуту запиту PDOStatement
+-   [PDOStatement::setAttribute()](pdostatement.setattribute.md) \- Встановлює атрибут об'єкту PDOStatement

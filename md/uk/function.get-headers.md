@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.base64-encode.md: « base64encode
-  - function.get-meta-tags.md: getmetatags »
+  - function.base64-encode.md: « base64\_encode
+  - function.get-meta-tags.md: get\_meta\_tags »
   - index.md: PHP Manual
   - ref.url.md: Функції URL
-title: getheaders
+title: get\_headers
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getheaders
+# get\_headers
 
 (PHP 5, PHP 7, PHP 8)
 
-getheaders — Повертає всі заголовки з відповіді сервера на запит HTTP
+get\_headers — Повертає всі заголовки з відповіді сервера на запит HTTP
 
 ### Опис
 
@@ -18,7 +19,7 @@ getheaders — Повертає всі заголовки з відповіді 
 get_headers(string $url, bool $associative = false, ?resource $context = null): array|false
 ```
 
-**getheaders()** повертає масив із заголовками із відповіді сервера на HTTP-запит.
+**get\_headers()** повертає масив із заголовками із відповіді сервера на HTTP-запит.
 
 ### Список параметрів
 
@@ -28,26 +29,26 @@ get_headers(string $url, bool $associative = false, ?resource $context = null): 
 
 `associative`
 
-Якщо необов'язковий параметр `associative` встановлений у ненульове значення, **getheaders()** розбере відповідь сервера і встановить ключі для масиву, що повертається.
+Якщо необов'язковий параметр `associative`установлен в ненулевое значение,**get\_headers()** розбере відповідь сервера і встановить ключі для масиву, що повертається.
 
 `context`
 
-Коректний контекст ресурсу, створений за допомогою [streamcontextcreate()](function.stream-context-create.md) або **`null`**, щоб використовувати контекст за замовчуванням.
+Коректний контекст ресурсу, створений за допомогою [stream\_context\_create()](function.stream-context-create.md)или\*\*`null`\*\*, щоб використовувати контекст за замовчуванням.
 
 ### Значення, що повертаються
 
-Повертає індексований або асоціативний масив із заголовками відповіді або **`false`** у разі виникнення помилки.
+Повертає індексований або асоціативний масив із заголовками відповіді або \*\*`false`\*\*при возникновении ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тип параметра `associative` був змінений із цілого числа (int) на логічне значення (bool). |
-|  | Доданий параметр `context` |
+| 8.0.0 | Тип параметра `associative` був змінений із цілого числа (int) на логічне значення (bool). |
+| 7.1.0 | Добавлен параметр`context` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getheaders()****
+**Пример #1 Пример использования**get\_headers()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ print_r(get_headers($url, true));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -89,23 +90,23 @@ Array
 )
 ```
 
-**Приклад #2 Приклад використання запиту HEAD у функції**getheaders()\*\*\*\*
+**Приклад #2 Приклад використання запиту HEAD у функції**get\_headers()\*\*\*\*
 
 ```php
 <?php
 // По умолчанию функция get_headers использует GET-запрос для получения заголовков. Если
 // вы хотите вместо него отправить HEAD-запрос, то это можно сделать, используя контекста потока:
-stream_context_set_default(
-    array(
+$context = stream_context_create(
+    [
         'http' => array(
             'method' => 'HEAD'
         )
-    )
+    ]
 );
-$headers = get_headers('http://example.com');
+$headers = get_headers('http://example.com', false, $context);
 ?>
 ```
 
 ### Дивіться також
 
--   [apacherequestheaders()](function.apache-request-headers.md) - Отримує список усіх заголовків HTTP-запиту
+-   [apache\_request\_headers()](function.apache-request-headers.md) \- Отримує список усіх заголовків HTTP-запиту

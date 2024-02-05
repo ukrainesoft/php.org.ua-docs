@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::next'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplObjectStorage::next
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::next — Перехід до наступного об'єкта
 
@@ -30,14 +31,14 @@ public SplObjectStorage::next(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplObjectStorage::next()****
+**Пример #1 Пример использования**SplObjectStorage::next()\*\*\*\*
 
 ```php
 <?php
 $s = new SplObjectStorage();
 
-$o1 = new StdClass;
-$o2 = new StdClass;
+$o1 = new stdClass;
+$o2 = new stdClass;
 
 $s->attach($o1, "d1");
 $s->attach($o2, "d2");
@@ -54,7 +55,7 @@ while($s->valid()) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(0)
@@ -67,4 +68,4 @@ object(stdClass)#3 (0) {
 
 ### Дивіться також
 
--   [SPLObjectStorage::rewind()](splobjectstorage.rewind.md) - перекладає ітератор на перший елемент контейнера
+-   [SPLObjectStorage::rewind()](splobjectstorage.rewind.md) \- перекладає ітератор на перший елемент контейнера

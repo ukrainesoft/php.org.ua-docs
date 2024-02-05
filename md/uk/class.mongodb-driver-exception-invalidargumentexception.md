@@ -1,18 +1,19 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-executiontimeoutexception.md: « MongoDBDriverExceptionExecutionTimeoutException
-  - class.mongodb-driver-exception-logicexception.md: MongoDBDriverExceptionLogicException »
+  - class.mongodb-driver-exception-executiontimeoutexception.md: « MongoDB\\Driver\\Exception\\ExecutionTimeoutException
+  - class.mongodb-driver-exception-logicexception.md: MongoDB\\Driver\\Exception\\LogicException »
   - index.md: PHP Manual
-  - mongodb.exceptions.md: MongoDBDriverException
-title: Клас MongoDBDriverExceptionInvalidArgumentException
+  - mongodb.exceptions.md: MongoDB\\Driver\\Exception
+title: Клас MongoDB\\Driver\\Exception\\InvalidArgumentException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverExceptionInvalidArgumentException
+# Клас MongoDB\\Driver\\Exception\\InvalidArgumentException
 
 (mongodb >= 1.0.0)
 
 ## Вступ
 
-Викидається, коли методу драйвера передано некоректні аргументи (наприклад, неприпустимі типи опцій).
+Викидається, коли метод драйвера передано некоректні аргументи (наприклад, неприпустимі типи опцій).
 
 ## Огляд класів
 
@@ -36,27 +37,27 @@ title: Клас MongoDBDriverExceptionInvalidArgumentException
     /* Наследуемые свойства */
     
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */

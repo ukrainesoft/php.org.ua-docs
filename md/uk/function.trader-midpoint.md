@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-mfi.md: « tradermfi
-  - function.trader-midprice.md: tradermidprice »
+  - function.trader-mfi.md: « trader\_mfi
+  - function.trader-midprice.md: trader\_midprice »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermidpoint
+  - ref.trader.md: Функції Trader
+title: trader\_midpoint
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermidpoint
+# trader\_midpoint
 
 (PECL trader >= 0.2.0)
 
-tradermidpoint - Середина відрізка за період
+trader\_midpoint - Середина відрізка за період
 
 ### Опис
 

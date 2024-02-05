@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::hasBinaryProperty'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::hasBinaryProperty
 
@@ -22,13 +23,13 @@ public static IntlChar::hasBinaryProperty(int|string $codepoint, int $property):
 
 Unicode, особливо у версії 3.2, визначає значно більше властивостей, ніж у оригінальному наборі UnicodeData.txt.
 
-API властивостей служить для відображення властивостей Unicode, як визначено в базі даних символів Unicode (Unicode Character Database або UCD) та технічних звітах Unicode (Unicode Technical Reports або UTR). Більш детальний опис доступний на чайі [» http://www.unicode.org/ucd/](http://www.unicode.org/ucd/). Імена властивостей Unicode дивіться у файлі UCD PropertyAliases.txt.
+API властивостей служить для відображення властивостей Unicode, як визначено у базі даних символів Unicode (Unicode Character Database або UCD) та технічних звітах Unicode (Unicode Technical Reports або UTR). Більш детальний опис доступний на чайі [» http://www.unicode.org/ucd/](http://www.unicode.org/ucd/)Имена свойств Unicode смотрите в файле UCD PropertyAliases.txt.
 
 ### Список параметрів
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 `property`
 
@@ -36,7 +37,7 @@ API властивостей служить для відображення вл
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`** залежно від значення бінарної властивості Unicode символу `codepoint`. Також повертає **`false`** якщо `property` знаходиться поза межами або якщо використовується версія Unicode не містить даних для цієї властивості взагалі або конкретно для цього символу. У разі виникнення помилки повертає **`null`**
+Повертає **`true`**или**`false`** залежно від значення бінарної властивості Unicode символу `codepoint`. Також повертає **`false`** якщо `property` знаходиться поза межами або якщо використовується версія Unicode не містить даних для цієї властивості взагалі або конкретно для цього символу. У разі виникнення помилки повертає **`null`**
 
 ### Приклади
 
@@ -53,7 +54,7 @@ var_dump(IntlChar::hasBinaryProperty("[", IntlChar::PROPERTY_BIDI_MIRRORED));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -66,5 +67,5 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) - Отримати значення властивості Unicode для символу
--   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) - Отримати версію Unicode
+-   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) \- Отримати значення властивості Unicode для символу
+-   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) \- Отримати версію Unicode

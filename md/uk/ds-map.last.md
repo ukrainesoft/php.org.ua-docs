@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.ksorted.md: '« DsMap::ksorted'
-  - ds-map.map.md: 'ДсMap::map »'
+  - ds-map.ksorted.md: '« Ds\\Map::ksorted'
+  - ds-map.map.md: 'Ds\\Map::map »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::last'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::last'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::last
+# Ds\\Map::last
 
 (PECL ds >= 1.0.0)
 
-ДсMap::last — Повертає останню пару колекції
+Ds\\Map::last — Повертає останню пару колекції
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Map::last(): Ds\Pair
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::last()****
+**Пример #1 Пример использования**Ds\\Map::last()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($map->last());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Pair)#2 (2) {

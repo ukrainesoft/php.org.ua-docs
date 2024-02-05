@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-field-precision.md: « ocifieldprecision
-  - function.oci-field-size.md: ocifieldsize »
+  - function.oci-field-precision.md: « oci\_field\_precision
+  - function.oci-field-size.md: oci\_field\_size »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocifieldscale
+  - ref.oci8.md: OCI8 Функції
+title: oci\_field\_scale
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocifieldscale
+# oci\_field\_scale
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocifieldscale — Повертає масштаб поля
+oci\_field\_scale — Повертає масштаб поля
 
 ### Опис
 
@@ -20,7 +21,7 @@ oci_field_scale(resource $statement, string|int $column): int|false
 
 Повертає масштаб поля під номером `column`
 
-Для полів типу FLOAT точність, що отримується за допомогою [ocifieldprecision()](function.oci-field-precision.md)більше нуля, а масштаб дорівнює -127. Якщо точність поля дорівнює нулю, тип поля - NUMBER. Інакше, тип поля може бути описаний як NUMBER(precision, scale).
+Для полів типу FLOAT точність, що отримується за допомогою [oci\_field\_precision()](function.oci-field-precision.md)більше нуля, а масштаб дорівнює -127. Якщо точність поля дорівнює нулю, тип поля - NUMBER. Інакше, тип поля може бути описаний як NUMBER(precision, scale).
 
 ### Список параметрів
 
@@ -34,11 +35,11 @@ oci_field_scale(resource $statement, string|int $column): int|false
 
 ### Значення, що повертаються
 
-Повертає масштаб у вигляді числа або **`false`** у разі виникнення помилки.
+Повертає масштаб у вигляді числа або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 **ocifieldscale()** Example**
+**Пример #1**oci\_field\_scale()**Example**
 
 ```php
 <?php
@@ -74,13 +75,7 @@ oci_close($conn);
 ?>
 ```
 
-### Примітки
-
-> **Зауваження**
-> 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnscale()](function.ocicolumnscale.md). У PHP 5.0.0 і вище [ocicolumnscale()](function.ocicolumnscale.md) є аліасом \*\*ocifieldscale()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
-
 ### Дивіться також
 
--   [ocifieldprecision()](function.oci-field-precision.md) - Повертає точність поля
--   [ocifieldtype()](function.oci-field-type.md) - Повертає ім'я типу поля
+-   [oci\_field\_precision()](function.oci-field-precision.md) \- Повертає точність поля
+-   [oci\_field\_type()](function.oci-field-type.md) \- Повертає ім'я типу поля

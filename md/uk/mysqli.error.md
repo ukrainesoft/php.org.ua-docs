@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli.error-list.md: '« mysqli::$errorlist'
-  - mysqli.field-count.md: 'mysqli::$fieldcount »'
+  - mysqli.error-list.md: '« mysqli::$error\_list'
+  - mysqli.execute-query.md: 'mysqli::execute\_query »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::$error'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # mysqli::$error
 
-# mysqlierror
+# mysqli\_error
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$error -- mysqlierror — Повертає рядок із описом останньої помилки
+mysqli::$error -- mysqli\_error — Повертає рядок із описом останньої помилки
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-string [$mysqli->error](mysqli.error.md)
+string[$mysqli->error](mysqli.error.md)
 
 Процедурний стиль
 
@@ -32,7 +33,7 @@ mysqli_error(mysqli $mysql): string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -84,7 +85,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Сообщение ошибки: Unknown system variable 'a'
@@ -92,7 +93,7 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqliconnecterrno()](mysqli.connect-errno.md) - Повертає код помилки останньої спроби з'єднання
--   [mysqliconnecterror()](mysqli.connect-error.md) - Повертає опис останньої помилки підключення
--   [mysqlierrno()](mysqli.errno.md) - Повертає код помилки останнього виклику функції
--   [mysqlisqlstate()](mysqli.sqlstate.md) - Повертає код стану SQLSTATE останній MySQL операції
+-   [mysqli\_connect\_errno()](mysqli.connect-errno.md) \- Повертає код помилки останньої спроби з'єднання
+-   [mysqli\_connect\_error()](mysqli.connect-error.md) \- Повертає опис останньої помилки підключення
+-   [mysqli\_errno()](mysqli.errno.md) \- Повертає код помилки останнього виклику функції
+-   [mysqli\_sqlstate()](mysqli.sqlstate.md) \- Повертає код стану SQLSTATE останній MySQL операції

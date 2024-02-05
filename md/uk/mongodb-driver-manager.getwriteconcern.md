@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-manager.getservers.md: '« MongoDBDriverManager::getServers'
-  - mongodb-driver-manager.removesubscriber.md: 'MongoDBDriverManager::removeSubscriber »'
+  - mongodb-driver-manager.getservers.md: '« MongoDB\\Driver\\Manager::getServers'
+  - mongodb-driver-manager.removesubscriber.md: 'MongoDB\\Driver\\Manager::removeSubscriber »'
   - index.md: PHP Manual
-  - class.mongodb-driver-manager.md: MongoDBDriverManager
-title: 'MongoDBDriverManager::getWriteConcern'
+  - class.mongodb-driver-manager.md: MongoDB\\Driver\\Manager
+title: 'MongoDB\\Driver\\Manager::getWriteConcern'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverManager::getWriteConcern
+# MongoDB\\Driver\\Manager::getWriteConcern
 
 (mongodb >=1.0.0)
 
-MongoDBDriverManager::getWriteConcern — Повертає WriteConcern для Manager
+MongoDB\\Driver\\Manager::getWriteConcern — Повертає WriteConcern для Manager
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverManager::getWriteConcern — Повертає WriteConcern для M
 final public MongoDB\Driver\Manager::getWriteConcern(): MongoDB\Driver\WriteConcern
 ```
 
-Повертає [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md) для Manager, отриманий із його URI-опцій. Це гарантія запису за промовчанням для запитів і команд, що виконуються в Manager.
+Повертає [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.md) для Manager, отриманий із його URI-опцій. Це гарантія запису за промовчанням для запитів і команд, що виконуються в Manager.
 
 ### Список параметрів
 
@@ -26,15 +27,15 @@ final public MongoDB\Driver\Manager::getWriteConcern(): MongoDB\Driver\WriteConc
 
 ### Значення, що повертаються
 
-[MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md) для Manager.
+[MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.md)для Manager.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverManager::getWriteConcern()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Manager::getWriteConcern()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($manager->getWriteConcern());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(MongoDB\Driver\WriteConcern)#2 (0) {
@@ -63,5 +64,5 @@ object(MongoDB\Driver\WriteConcern)#1 (2) {
 
 ### Дивіться також
 
--   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
--   [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.md) - Створює новий Manager MongoDB
+-   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.md)
+-   [MongoDB\\Driver\\Manager::\_\_construct()](mongodb-driver-manager.construct.md) \- Створює новий Manager MongoDB

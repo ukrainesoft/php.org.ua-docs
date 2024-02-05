@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-buffer.substr.md: '« SwooleBuffer::substr'
-  - swoole-buffer.write.md: 'SwooleBuffer::write »'
+  - swoole-buffer.substr.md: '« Swoole\\Buffer::substr'
+  - swoole-buffer.write.md: 'Swoole\\Buffer::write »'
   - index.md: PHP Manual
-  - class.swoole-buffer.md: SwooleBuffer
-title: 'SwooleBuffer::function toString() { \[native code\] }'
+  - class.swoole-buffer.md: Swoole\\Buffer
+title: 'Swoole\\Buffer::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleBuffer::function toString() { \[native code\] }
+# Swoole\\Buffer::\_\_function toString() { \[native code\] }
 
 (PECL swoole >= 1.9.0)
 
-SwooleBuffer::toString — Отримує строкове значення буфера пам'яті
+Swoole\\Buffer::\_\_toString — Отримує строкове значення буфера пам'яті
 
 ### Опис
 

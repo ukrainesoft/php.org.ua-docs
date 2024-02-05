@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-mysql.close.md: '« SwooleMySQL::close'
-  - swoole-mysql.construct.md: 'SwooleMySQL::construct »'
+  - swoole-mysql.close.md: '« Swoole\\MySQL::close'
+  - swoole-mysql.construct.md: 'Swoole\\MySQL::\_\_construct »'
   - index.md: PHP Manual
-  - class.swoole-mysql.md: SwooleMySQL
-title: 'SwooleMySQL::connect'
+  - class.swoole-mysql.md: Swoole\\MySQL
+title: 'Swoole\\MySQL::connect'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleMySQL::connect
+# Swoole\\MySQL::connect
 
 (PECL swoole >= 1.9.0)
 
-SwooleMySQL::connect — Підключається до віддаленого сервера MySQL
+Swoole\\MySQL::connect — Підключається до віддаленого сервера MySQL
 
 ### Опис
 

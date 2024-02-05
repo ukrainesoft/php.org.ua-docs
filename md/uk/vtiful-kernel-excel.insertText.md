@@ -1,21 +1,22 @@
 ---
 navigation:
-  - vtiful-kernel-excel.insertImage.md: '« VtifulKernelExcel::insertImage'
-  - vtiful-kernel-excel.mergeCells.md: 'VtifulKernelExcel::mergeCells »'
+  - vtiful-kernel-excel.insertImage.md: '« Vtiful\\Kernel\\Excel::insertImage'
+  - vtiful-kernel-excel.mergeCells.md: 'Vtiful\\Kernel\\Excel::mergeCells »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.md: VtifulKernelExcel
-title: 'VtifulKernelExcel::insertText'
+  - class.vtiful-kernel-excel.md: Vtiful\\Kernel\\Excel
+title: 'Vtiful\\Kernel\\Excel::insertText'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelExcel::insertText
+# Vtiful\\Kernel\\Excel::insertText
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelExcel::insertText — Вставити текст
+Vtiful\\Kernel\\Excel::insertText — Вставити текст
 
 ### Опис
 
 ```methodsynopsis
-public Vtiful\Kernel\Excel::insertText(    int $row,    int $column,    stringintdouble $data,    string $format = ?)
+public Vtiful\Kernel\Excel::insertText(    int $row,    int $column,    int|float|string $data,    string $format = ?)
 ```
 
 Вставити текст у комірку.
@@ -40,7 +41,7 @@ public Vtiful\Kernel\Excel::insertText(    int $row,    int $column,    stringin
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

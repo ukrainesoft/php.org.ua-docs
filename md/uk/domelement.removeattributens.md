@@ -1,10 +1,11 @@
 ---
 navigation:
   - domelement.removeattributenode.md: '« DOMElement::removeAttributeNode'
-  - domelement.setattribute.md: 'DOMElement::setAttribute »'
+  - domelement.replacechildren.md: 'DOMElement::replaceChildren »'
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
 title: 'DOMElement::removeAttributeNS'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMElement::removeAttributeNS
 
@@ -18,7 +19,7 @@ DOMElement::removeAttributeNS — Видаляє атрибут
 public DOMElement::removeAttributeNS(?string $namespace, string $localName): void
 ```
 
-Видаляє атрибут `localName` у просторі імен `namespace` елемент.
+Удаляет атрибут`localName` у просторі імен `namespace` елемент.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ URI простір імен.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція не повертає значення після виконання.
 
 ### Помилки
 
@@ -42,6 +43,6 @@ URI простір імен.
 
 ### Дивіться також
 
--   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) - Перевіряє, чи існує заданий атрибут
--   [DOMElement::getAttributeNS()](domelement.getattributens.md) - Повертає значення атрибуту
--   [DOMElement::setAttributeNS()](domelement.setattributens.md) - Додає новий атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) \- Перевіряє, чи існує заданий атрибут
+-   [DOMElement::getAttributeNS()](domelement.getattributens.md) \- Повертає значення атрибуту
+-   [DOMElement::setAttributeNS()](domelement.setattributens.md) \- Додає новий атрибут

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.errorfunc.md: « Функции обработки ошибок
-  - function.debug-print-backtrace.md: debugprintbacktrace »
+  - ref.errorfunc.md: « Функції обробки помилок
+  - function.debug-print-backtrace.md: debug\_print\_backtrace »
   - index.md: PHP Manual
-  - ref.errorfunc.md: Функции обработки ошибок
-title: debugbacktrace
+  - ref.errorfunc.md: Функції обробки помилок
+title: debug\_backtrace
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# debugbacktrace
+# debug\_backtrace
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-debugbacktrace — Виводить стек викликів функцій у масив
+debug\_backtrace - Генерує стек викликів функцій
 
 ### Опис
 
@@ -18,39 +19,47 @@ debugbacktrace — Виводить стек викликів функцій у 
 debug_backtrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT, int $limit = 0): array
 ```
 
-**debugbacktrace()** виводить стек викликів функцій PHP масив.
+Функция**debug\_backtrace()** генерує стек викликів функцій PHP.
 
 ### Список параметрів
 
 `options`
 
-Аргумент є бітовою маскою для наступних налаштувань:
+Цей параметр – бітова маска для наступних налаштувань:
 
-<table class="doctable table"><caption><strong>Опції <span class="function"><strong>debug_backtrace()</strong></span></strong></caption><tbody class="tbody"><tr><td>DEBUG_BACKTRACE_PROVIDE_OBJECT</td><td>Чи потрібно заповнювати дані для ключа object.</td></tr><tr><td>DEBUG_BACKTRACE_IGNORE_ARGS</td><td>Чи потрібно? виключити аргументи всіх функцій/методів у ключі "args" для зменшення витрати пам'яті.</td></tr></tbody></table>
+<table class="doctable table"><caption><strong>Опції <span class="function"><strong>debug_backtrace()</strong></span></strong></caption><tbody class="tbody"><tr><td>DEBUG_BACKTRACE_PROVIDE_OBJECT</td><td>Чи потрібно заповнювати ключ "object" (у виході масиві).</td></tr><tr><td>DEBUG_BACKTRACE_IGNORE_ARGS</td><td>Чи потрібно виключити ключ "args" (з вихідного масиву) з супутнім виключенням всіх аргументів функцій/методів, щоб зменшити витрату пам'яті.</td></tr></tbody></table>
+
+> **Зауваження** :
+> 
+> Можливі чотири комбінації:
+> 
+> < /tr>
+> 
+> <table class="doctable table"><caption><strong>Опції <span class="function"><strong>debug_backtrace()</strong></span></strong></caption><tbody class="tbody"><tr><td><code class="code">debug_backtrace()</code></td><td rowspan="3" style="vertical-align: middle;">Заповнюються обидва ключі .</td></tr><tr><td><code class="code">debug_backtrace(DEBUG_BACKTRACE_PROVIDE_OBJECT)</code></td></tr><tr><td><code class=" code">debug_backtrace(1)</code></td></tr><tr><td><code class="code">debug_backtrace(0)</code></td><td style=" vertical-align: middle;">Не вмикається ключ <code class="literal">"object"</code> і заповнюється ключ <code class="literal">"args"</code>.</td></tr><tr><td><code class="code">debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS)</code></td><td rowspan="2" style="vertical-align: middle;">Опускається ключ &lt; code class="literal"&gt;"object" <em>і</em> ключ <code class="literal">"args"</code>.</td></tr><tr><td><code class="code">debug_backtrace(2)</code></td></tr><tr><td><code class="code">debug_backtrace(DEBUG_BACKTRACE_PROVIDE_OBJECT|DEBUG_BACKTRACE_IGNORE_ARGS)</code></td><td rowspan="2" style="vertical-align: middle;">Заповнюється ключ <code class="literal">"object"</code> <em>і</em> опускається ключ <code class="literal">"args"</code>.</td></tr><tr><td><code class="code">debug_backtrace(3)</code></td></tr></tbody></table>
 
 `limit`
 
-Аргумент використовується для обмеження кількості дзвінків функцій, які будуть виведені. За замовчуванням (`limit``0`) буде виведено весь стек викликів.
+Цим параметром можна обмежити кількість функцій, що повертаються. За замовчуванням параметр (`limit`\= ) — буде виведено весь стек викликів.
 
 ### Значення, що повертаються
 
-Повертає масив вкладених асоціативних масивів (array). Опис елементів масиву наведено нижче:
+Функція повертає масив вкладених асоціативних масивів (array). Опис елементів масиву наведено нижче:
 
-**Список можливих елементів масивів, що повертаються функцією **debugbacktrace()****
+**Список можливих елементів масивів, що повертаються функцією **debug\_backtrace()****
 
-| Имя | Тип | Описание |
+| Имя | Тип | Опис |
 | --- | --- | --- |
-| function | string | Ім'я поточної функції. Дивіться також [FUNCTION](language.constants.predefined.md) |
-| line | int | Поточний номер рядка. Дивіться також [LINE](language.constants.predefined.md) |
-| file | string | Назва поточного файлу. Дивіться також [FILE](language.constants.predefined.md) |
-| class | string | Ім'я поточного [класса](language.oop5.md). Дивіться також [CLASS](language.constants.predefined.md) |
-| object | object | Поточний [об'єкт](language.oop5.md) |
-| type | string | Поточний тип дзвінка функції. Якщо це виклик методу об'єкта, буде виведено "->". Якщо це виклик статичного методу класу, то "::". Якщо це простий виклик функції, нічого не виводиться. |
-| args | array | При знаходженні всередині функції буде виведено список аргументів цієї функції. Якщо всередині файлу буде виведено список файлів, що включаються. |
+| function | string | Ім'я поточної функції. Дивіться також [\_\_FUNCTION\_\_](language.constants.predefined.md) |
+| line | int | Поточний номер рядка. Дивіться також [\_\_LINE\_\_](language.constants.predefined.md) |
+| file | string | Назва поточного файлу. Дивіться також [\_\_FILE\_\_](language.constants.predefined.md) |
+| class | string | Ім'я поточного [класу](language.oop5.md)Смотрите также[\_\_CLASS\_\_](language.constants.predefined.md) |
+| object | object | Текущий[об'єкт](language.oop5.md) |
+| type | string | Поточний тип дзвінка функції. Якщо це виклик методу об'єкта, буде повернуто значення "->". Якщо це виклик статичного методу класу, то "::". Якщо це простий дзвінок функції, нічого не повертається. |
+| args | array | Якщо (функція **debug\_backtrace()**) викликана всередині функції, у цих ключах буде перераховано аргументи функцій. Якщо дзвінок здійснено всередині файлу, буде перераховано імена включених файлів. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **debugbacktrace()****
+**Пример #1 Пример использования**debug\_backtrace()\*\*\*\*
 
 ```php
 <?php
@@ -101,5 +110,5 @@ array(4) {
 
 ### Дивіться також
 
--   [triggererror()](function.trigger-error.md) - Викликає помилку користувача/попередження/повідомлення
--   [debugprintbacktrace()](function.debug-print-backtrace.md) - Виводить стек викликів функцій
+-   [trigger\_error()](function.trigger-error.md) \- Викликає помилку користувача/попередження/повідомлення
+-   [debug\_print\_backtrace()](function.debug-print-backtrace.md) \- Виводить стек викликів функцій

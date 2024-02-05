@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::setLenient'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::setLenient
 
-# datefmtsetlenient
+# datefmt\_set\_lenient
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::setLenient -- datefmtsetlenient — Встановлює м'який режим аналізатора
+IntlDateFormatter::setLenient -- datefmt\_set\_lenient — Встановлює м'який режим аналізатора
 
 ### Опис
 
@@ -38,15 +39,15 @@ datefmt_set_lenient(IntlDateFormatter $formatter, bool $lenient): void
 
 `lenient`
 
-Встановлює, чи аналізатор vzurbv чи ні, за замовчуванням **`true`** (м'який).
+Встановлює, чи аналізатор vzurbv чи ні, за замовчуванням **`true`**(мягкий).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmtsetlenient()****
+**Пример #1 Пример использования**datefmt\_set\_lenient()\*\*\*\*
 
 ```php
 <?php
@@ -129,7 +130,7 @@ if (intl_get_error_code() != 0) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Мягкий режим средства форматирования : ДА
@@ -144,5 +145,5 @@ if (intl_get_error_code() != 0) {
 
 ### Дивіться також
 
--   [datefmtісlenient()](intldateformatter.islenient.md) - Отримує поблажливість, що використовується для IntlDateFormatter
--   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати
+-   [datefmt\_is\_lenient()](intldateformatter.islenient.md) \- Отримує поблажливість, що використовується для IntlDateFormatter
+-   [datefmt\_create()](intldateformatter.create.md) \- Створює засіб форматування дати

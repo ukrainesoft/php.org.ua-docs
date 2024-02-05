@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.reflectiongenerator.md: ReflectionGenerator
 title: 'ReflectionGenerator::getThis'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionGenerator::getThis
 
 (PHP 7, PHP 8)
 
-ReflectionGenerator::getThis — Отримує значення `$this` генератора
+ReflectionGenerator::getThis — Получает значение`$this`генератора
 
 ### Опис
 
@@ -18,7 +19,7 @@ ReflectionGenerator::getThis — Отримує значення `$this` ген�
 public ReflectionGenerator::getThis(): ?object
 ```
 
-Отримати значення `$this`, До якого має доступ генератор.
+Получить значение`$this`, До якого має доступ генератор.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public ReflectionGenerator::getThis(): ?object
 
 ### Значення, що повертаються
 
-Повертає значення `$this` або \*\*`null`\*\*якщо генератор створений поза контекстом класу.
+Повертає значення `$this`или\*\*`null`\*\*якщо генератор створений поза контекстом класу.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionGenerator::getThis()****
+**Пример #1 Пример использования**ReflectionGenerator::getThis()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ $reflectionGen = new ReflectionGenerator($gen);
 var_dump($reflectionGen->getThis());
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(GenExample)#3 (0) {
@@ -59,5 +60,5 @@ object(GenExample)#3 (0) {
 
 ### Дивіться також
 
--   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.md) - Отримати ім'я функції генератора
--   [ReflectionGenerator::getTrace()](reflectiongenerator.gettrace.md) - Отримати трасування запущеного генератора
+-   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.md) \- Отримати ім'я функції генератора
+-   [ReflectionGenerator::getTrace()](reflectiongenerator.gettrace.md) \- Отримати трасування запущеного генератора

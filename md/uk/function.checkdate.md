@@ -1,10 +1,11 @@
 ---
 navigation:
   - ref.datetime.md: « Функції дати та часу
-  - function.date-add.md: dateadd »
+  - function.date-add.md: date\_add »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: checkdate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # checkdate
 
@@ -40,7 +41,7 @@ checkdate(int $month, int $day, int $year): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **checkdate()****
+**Пример #1 Пример использования функции**checkdate()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump(checkdate(2, 29, 2001));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -58,5 +59,5 @@ bool(false)
 
 ### Дивіться також
 
--   [mktime()](function.mktime.md) - Повертає позначку часу Unix для заданої дати
--   [strtotime()](function.strtotime.md) - Перетворює текстове подання дати англійською мовою на мітку часу Unix
+-   [mktime()](function.mktime.md) \- Повертає позначку часу Unix для заданої дати
+-   [strtotime()](function.strtotime.md) \- Перетворює текстове подання дати англійською мовою на мітку часу Unix

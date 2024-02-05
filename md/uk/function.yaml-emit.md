@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.yaml-emit-file.md: « yamlemitfile
-  - function.yaml-parse-file.md: yamlparsefile »
+  - function.yaml-emit-file.md: « yaml\_emit\_file
+  - function.yaml-parse-file.md: yaml\_parse\_file »
   - index.md: PHP Manual
-  - ref.yaml.md: Функции Yaml
-title: yamlemit
+  - ref.yaml.md: Функції Yaml
+title: yaml\_emit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yamlemit
+# yaml\_emit
 
 (PECL yaml >= 0.5.0)
 
-yamlemit — Повертає YAML-подання значення
+yaml\_emit — Повертає YAML-подання значення
 
 ### Опис
 
 ```methodsynopsis
-yaml_emit(    mixed $data,    int $encoding = YAML_ANY_ENCODING,    int $linebreak = YAML_ANY_BREAK,    array $callbacks = null): string
+yaml_emit(    mixed $data,    int $encoding = YAML_ANY_ENCODING,    int $linebreak = YAML_ANY_BREAK,    array $callbacks = null): string
 ```
 
 Повертає YAML-подання переданих у параметрі `data` даних.
@@ -44,13 +45,13 @@ yaml_emit(    mixed $data,    int $encoding = YAML_ANY_ENCODING,    int $linebre
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL yaml 1.1.0 | Доданий параметр `callbacks` |
+| PECL yaml 1.1.0 | Добавлен параметр`callbacks` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **yamlemit()****
+**Пример #1 Пример использования**yaml\_emit()\*\*\*\*
 
 ```php
 <?php
@@ -92,7 +93,7 @@ var_dump(yaml_emit($invoice));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(628) "---
@@ -136,5 +137,5 @@ comments: Late afternoon is best. Backup contact is Nancy Billsmer @ 338-4338.
 
 ### Дивіться також
 
--   [yamlemitfile()](function.yaml-emit-file.md) - Відправляє YAML-подання значення файлу
--   [yamlparse()](function.yaml-parse.md) - Розбирає потік YAML
+-   [yaml\_emit\_file()](function.yaml-emit-file.md) \- Відправляє YAML-подання значення файлу
+-   [yaml\_parse()](function.yaml-parse.md) \- Розбирає потік YAML

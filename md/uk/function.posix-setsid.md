@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-setrlimit.md: « posixsetrlimit
-  - function.posix-setuid.md: posixsetuid »
+  - function.posix-setrlimit.md: « posix\_setrlimit
+  - function.posix-setuid.md: posix\_setuid »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixsetsid
+  - ref.posix.md: POSIX Функції
+title: posix\_setsid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixsetsid
+# posix\_setsid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posixsetsid - Робить поточний процес лідером сесії
+posix\_setsid - Робить поточний процес лідером сесії
 
 ### Опис
 

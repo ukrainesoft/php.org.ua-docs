@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::resizeImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::resizeImage
 
@@ -15,12 +16,12 @@ Imagick::resizeImage — Масштабування зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::resizeImage(    int $columns,    int $rows,    int $filter,    float $blur,    bool $bestfit = false,    bool $legacy = false): bool
+public Imagick::resizeImage(    int $columns,    int $rows,    int $filter,    float $blur,    bool $bestfit = false,    bool $legacy = false): bool
 ```
 
 Масштабує зображення до бажаних розмірів за допомогою [filter](imagick.constants.md#imagick.constants.filters)
 
-> **Зауваження**: Поведінка параметра `bestfit` було змінено у Imagick 3.0.0. До цієї версії при зміні зображення розміром 200×150 до 400×300 жодних операцій не відбувалося. В Imagick 3.0.0 і далі зображення буде масштабовано до розмірів 400x300, оскільки це найкраще відповідає ("best fit") даним розмірам. Якщо використовується параметр `bestfit`, то ширина та висота також повинні бути визначені.
+> **Зауваження**: Поведение параметра`bestfit` було змінено у Imagick 3.0.0. До цієї версії при зміні зображення розміром 200 x 150 до 400 x 300 жодних операцій не відбувалося. В Imagick 3.0.0 і пізніших версіях зображення буде масштабовано до розміру 400 x 300, тому що найбільше відповідає ("best fit") даним розмірам. Якщо вказано параметр `bestfit`, то ширина та висота також повинні бути визначені.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public Imagick::resizeImage(    int $columns,    int $rows,    int $filter,    f
 
 `filter`
 
-Зверніться до списку [констант FILTER](imagick.constants.md#imagick.constants.filters)
+Обратитесь к списку[констант FILTER](imagick.constants.md#imagick.constants.filters)
 
 `blur`
 
@@ -50,13 +51,13 @@ public Imagick::resizeImage(    int $columns,    int $rows,    int $filter,    f
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL imagick 2.1.0 | Додано необов'язковий параметр припасування. Тепер метод підтримує пропорційне масштабування. Для пропорційного масштабування необхідно передати нуль як будь-який параметр. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::resizeImage()****
+**Пример #1 Пример использования**Imagick::resizeImage()\*\*\*\*
 
 ```php
 <?php

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setCompression'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setCompression
 
@@ -24,7 +25,7 @@ public Imagick::setCompression(int $compression): bool
 
 `compression`
 
-Тип стиснення. Дивіться константи [Imagick::COMPRESSION](imagick.constants.md)
+Тип стиснення. Дивіться константи [Imagick::COMPRESSION\_\*](imagick.constants.md)
 
 ### Значення, що повертаються
 

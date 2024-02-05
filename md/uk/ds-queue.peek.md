@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-queue.jsonserialize.md: '« DsQueue::jsonSerialize'
-  - ds-queue.pop.md: 'ДсQueue::pop »'
+  - ds-queue.jsonserialize.md: '« Ds\\Queue::jsonSerialize'
+  - ds-queue.pop.md: 'Ds\\Queue::pop »'
   - index.md: PHP Manual
-  - class.ds-queue.md: Черга
-title: 'ДсQueue::peek'
+  - class.ds-queue.md: Ds\\Queue
+title: 'Ds\\Queue::peek'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсQueue::peek
+# Ds\\Queue::peek
 
 (PECL ds >= 1.0.0)
 
-ДсQueue::peek — Повертає значення з початку черги
+Ds\\Queue::peek — Повертає значення з початку черги
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Queue::peek(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсQueue::peek()****
+**Пример #1 Пример использования**Ds\\Queue::peek()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($queue->peek());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"

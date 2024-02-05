@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-session.setsavepoint.md: '« Session::setSavepoint'
   - mysql-xdevapi-session.starttransaction.md: 'Session::startTransaction »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::sql'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::sql
 
 (No version information available, might only be in Git)
 
-Session::sql — Виконує запит SQL.
+Session::sql — Створює SQL-запит.
 
 ### Опис
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\Session::sql(string $query): mysql_xdevapi\SqlStatement
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::sql()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::sql()\*\*\*\*
 
 ```php
 <?php

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::offsetUnset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::offsetUnset
 
@@ -32,7 +33,7 @@ public ArrayObject::offsetUnset(mixed $key): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::offsetUnset()****
+**Пример #1 Пример использования**ArrayObject::offsetUnset()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($arrayobj);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(ArrayObject)#1 (1) {

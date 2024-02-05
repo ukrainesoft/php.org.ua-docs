@@ -1,10 +1,11 @@
 ---
 navigation:
   - security.hiding.md: « Приховування PHP
-  - features.md: Відмітні особливості "
+  - features.md: Особливості "
   - index.md: PHP Manual
   - security.md: Безпека
 title: Необхідність оновлень
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Необхідність оновлень
 

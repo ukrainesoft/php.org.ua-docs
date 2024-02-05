@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::newimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::newimage
 
@@ -15,7 +16,7 @@ Gmagick::newimage — Створює нове зображення
 ### Опис
 
 ```methodsynopsis
-public Gmagick::newimage(    int $width,    int $height,    string $background,    string $format = ?): Gmagick
+public Gmagick::newimage(    int $width,    int $height,    string $background,    string $format = ?): Gmagick
 ```
 
 Створює нове зображення із зазначеним фоновим кольором.
@@ -44,4 +45,4 @@ public Gmagick::newimage(    int $width,    int $height,    string $background, 
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

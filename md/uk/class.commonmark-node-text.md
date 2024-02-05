@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.commonmark-node-item.md: « CommonMarkNodeItem
-  - commonmark-node-text.construct.md: 'CommonMarkNodeText::construct »'
+  - class.commonmark-node-item.md: « CommonMark\\Node\\Item
+  - commonmark-node-text.construct.md: 'CommonMark\\Node\\Text::\_\_construct »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: Text успадковує CommonMarkNode
+title: Text успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Text успадковує CommonMarkNode
+# Text успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 
@@ -97,4 +98,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNodeText::construct](commonmark-node-text.construct.md) - Конструктор класу Text
+-   [CommonMark\\Node\\Text::\_\_construct](commonmark-node-text.construct.md) \- Конструктор класу Text

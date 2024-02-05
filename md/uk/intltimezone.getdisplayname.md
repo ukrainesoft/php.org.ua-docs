@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getDisplayName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlTimeZone::getDisplayName
 
-# intltzgetdisplayname
+# intltz\_get\_display\_name
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getDisplayName -- intltzgetdisplayname — Отримати ім'я часового поясу для відображення користувача
+IntlTimeZone::getDisplayName -- intltz\_get\_display\_name — Отримати ім'я часового поясу для відображення користувача
 
 ### Опис
 
@@ -25,12 +26,12 @@ public IntlTimeZone::getDisplayName(bool $dst = false, int $style = IntlTimeZone
 Процедурний стиль:
 
 ```methodsynopsis
-intltz_get_display_name(    IntlTimeZone $timezone,    bool $dst = false,    int $style = IntlTimeZone::DISPLAY_LONG,    ?string $locale = null): string|false
+intltz_get_display_name(    IntlTimeZone $timezone,    bool $dst = false,    int $style = IntlTimeZone::DISPLAY_LONG,    ?string $locale = null): string|false
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-minmax.md: « traderminmax
-  - function.trader-minus-di.md: traderminusdi »
+  - function.trader-minmax.md: « trader\_minmax
+  - function.trader-minus-di.md: trader\_minus\_di »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderminmaxindex
+  - ref.trader.md: Функції Trader
+title: trader\_minmaxindex
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderminmaxindex
+# trader\_minmaxindex
 
 (PECL trader >= 0.2.0)
 
-traderminmaxindex — Індекси найнижчих та найвищих значень за вказаний період
+trader\_minmaxindex — Індекси найнижчих та найвищих значень за вказаний період
 
 ### Опис
 

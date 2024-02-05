@@ -1,18 +1,19 @@
 ---
 navigation:
-  - datetime.set-state.md: '« DateTime::setstate'
+  - datetime.set-state.md: '« DateTime::\_\_set\_state'
   - datetime.setisodate.md: 'DateTime::setISODate »'
   - index.md: PHP Manual
   - class.datetime.md: DateTime
 title: 'DateTime::setDate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTime::setDate
 
-# datedateset
+# date\_date\_set
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-DateTime::setDate -- datedateset — Встановлює дату
+DateTime::setDate -- date\_date\_set — Встановлює дату
 
 ### Опис
 
@@ -25,12 +26,12 @@ public DateTime::setDate(int $year, int $month, int $day): DateTime
 Процедурний стиль
 
 ```methodsynopsis
-date_date_set(    DateTime $object,    int $year,    int $month,    int $day): DateTime
+date_date_set(    DateTime $object,    int $year,    int $month,    int $day): DateTime
 ```
 
 Встановлює поточне значення дати об'єкта DateTime на нове значення.
 
-Подібний до методу [DateTimeImmutable::setDate()](datetimeimmutable.setdate.md), крім роботи з об'єктом [DateTime](class.datetime.md) та зміною існуючого об'єкта.
+Подобен методу[DateTimeImmutable::setDate()](datetimeimmutable.setdate.md), крім роботи з об'єктом [DateTime](class.datetime.md) та зміною існуючого об'єкта.
 
 Процедурна версія приймає об'єкт [DateTime](class.datetime.md) як перший аргумент.
 
@@ -38,7 +39,7 @@ date_date_set(    DateTime $object,    int $year,    int $month,    int $day): D
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [date\_create()](function.date-create.md). Функція змінює цей об'єкт.
 
 `year`
 
@@ -54,8 +55,8 @@ date_date_set(    DateTime $object,    int $year,    int $month,    int $day): D
 
 ### Значення, що повертаються
 
-Повертає модифікований об'єкт [DateTime](class.datetime.md) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
+Повертає модифікований об'єкт [DateTime](class.datetime.md)для применения в цепи методов.
 
 ### Дивіться також
 
--   [DateTimeImmutable::setDate()](datetimeimmutable.setdate.md) - Встановлює дату
+-   [DateTimeImmutable::setDate()](datetimeimmutable.setdate.md) \- Встановлює дату

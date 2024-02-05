@@ -1,18 +1,19 @@
 ---
 navigation:
-  - yaf-plugin-abstract.routerstartup.md: '« YafPluginAbstract::routerStartup'
-  - yaf-registry.construct.md: 'YafRegistry::construct »'
+  - yaf-plugin-abstract.routerstartup.md: '« Yaf\_Plugin\_Abstract::routerStartup'
+  - yaf-registry.construct.md: 'Yaf\_Registry::\_\_construct »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafRegistry
+title: Клас Yaf\_Registry
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafRegistry
+# Клас Yaf\_Registry
 
 (Yaf >=1.0.0)
 
 ## Вступ
 
-Усі методи **YafRegistry** визначено як статичні, роблячи їх універсально доступними. Це надає можливості прочитати або записати будь-які дані з будь-якого місця у вашому додатку.
+Усі методи **Yaf\_Registry** визначено як статичні, роблячи їх універсально доступними. Це надає можливості прочитати або записати будь-які дані з будь-якого місця у вашому додатку.
 
 ## Огляд класів
 
@@ -50,14 +51,14 @@ public static set(string $name, string $value): bool
 
 ## Властивості
 
-instance
+\_instance
 
-entries
+\_entries
 
 ## Зміст
 
--   [YafRegistry::construct](yaf-registry.construct.md) - YafRegistry реалізує шаблон проектування "Одиночка"
--   [YafRegistry::del](yaf-registry.del.md) — Видаляє елемент із реєстру
--   [YafRegistry::get](yaf-registry.get.md) — Отримує елемент із реєстру
--   [YafRegistry::has](yaf-registry.has.md) — Перевіряє, чи існує елемент
--   [YafRegistry::set](yaf-registry.set.md) — Додає елемент до реєстру
+-   [Yaf\_Registry::\_\_construct](yaf-registry.construct.md)— Yaf\_Registry реалізує шаблон проектування "Одиночка"
+-   [Yaf\_Registry::del](yaf-registry.del.md)— Видаляє елемент із реєстру
+-   [Yaf\_Registry::get](yaf-registry.get.md)— Отримує елемент із реєстру
+-   [Yaf\_Registry::has](yaf-registry.has.md)— Перевіряє, чи існує елемент
+-   [Yaf\_Registry::set](yaf-registry.set.md)— Додає елемент до реєстру

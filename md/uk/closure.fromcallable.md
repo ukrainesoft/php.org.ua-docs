@@ -1,14 +1,15 @@
 ---
 navigation:
   - closure.call.md: '« Closure::call'
-  - class.generator.md: Generator »
+  - class.stdclass.md: stdClass »
   - index.md: PHP Manual
   - class.closure.md: Closure
 title: 'Closure::fromCallable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Closure::fromCallable
 
-(PHP 7> = 7.1.0)
+(PHP 7 >= 7.1.0)
 
 Closure::fromCallable — Конвертує callable у замикання
 
@@ -18,9 +19,9 @@ Closure::fromCallable — Конвертує callable у замикання
 public static Closure::fromCallable(callable $callback): Closure
 ```
 
-Створює та повертає нову [анонимную функцию](functions.anonymous.md) із заданого `callback`, використовуючи поточну область видимості. Цей метод перевіряє, що `callback` є типом callable у поточній області видимості та викидає виняток [TypeError](class.typeerror.md), якщо це не так.
+Створює та повертає нову [анонімну функцію](functions.anonymous.md)из заданного`callback`, використовуючи поточну область видимості. Цей метод перевіряє, що `callback` є типом callable у поточній області видимості та викидає виняток [TypeError](class.typeerror.md), якщо це не так.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Починаючи з PHP 8.1.0, у [Callback-функцій як об'єктів першого класу](functions.first_class_callable_syntax.md) та сама семантика, що й у цього методу.
 

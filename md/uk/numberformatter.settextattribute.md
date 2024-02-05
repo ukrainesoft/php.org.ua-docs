@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::setTextAttribute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NumberFormatter::setTextAttribute
 
-# numfmtsettextattribute
+# numfmt\_set\_text\_attribute
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::setTextAttribute -- numfmtsettextattribute — Встановлює текстовий атрибут
+NumberFormatter::setTextAttribute -- numfmt\_set\_text\_attribute — Встановлює текстовий атрибут
 
 ### Опис
 
@@ -28,7 +29,7 @@ public NumberFormatter::setTextAttribute(int $attribute, string $value): bool
 numfmt_set_text_attribute(NumberFormatter $formatter, int $attribute, string $value): bool
 ```
 
-Встановлює текстовий атрибут, пов'язаний із засобом форматування. Приклад текстового атрибута є суфікс для позитивних чисел. Якщо засіб форматування не розуміє атрибут, видається помилка **`U_UNSUPPORTED_ERROR`**. Засоби форматування на основі правил розуміють лише **`NumberFormatter::DEFAULT_RULESET`** і **`NumberFormatter::PUBLIC_RULESETS`**
+Встановлює текстовий атрибут, пов'язаний із засобом форматування. Приклад текстового атрибута є суфікс для позитивних чисел. Якщо засіб форматування не розуміє атрибут, видається помилка **`U_UNSUPPORTED_ERROR`**Средства форматирования на основе правил понимают только**`NumberFormatter::DEFAULT_RULESET`**и**`NumberFormatter::PUBLIC_RULESETS`**
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ numfmt_set_text_attribute(NumberFormatter $formatter, int $attribute, string $va
 
 `attribute`
 
-Специфікатор атрибуту - одна з констант [текстового атрибуту](class.numberformatter.md#intl.numberformatter-constants.unumberformattextattribute)
+Спецификатор атрибута - одна из констант[текстового атрибуту](class.numberformatter.md#intl.numberformatter-constants.unumberformattextattribute)
 
 `value`
 
@@ -46,11 +47,11 @@ numfmt_set_text_attribute(NumberFormatter $formatter, int $attribute, string $va
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmtsettextattribute()****
+**Пример #1 Пример использования**numfmt\_set\_text\_attribute()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +77,7 @@ echo $fmt->format(-1234567.891234567890000)."\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Префикс: -
@@ -87,6 +88,6 @@ MINUS1.234.567,891
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
--   [numfmtgettextattribute()](numberformatter.gettextattribute.md) - Отримує текстовий атрибут
--   [numfmtsetattribute()](numberformatter.setattribute.md) - Встановлює атрибут
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.md) \- Отримує останній код помилки засобу форматування
+-   [numfmt\_get\_text\_attribute()](numberformatter.gettextattribute.md) \- Отримує текстовий атрибут
+-   [numfmt\_set\_attribute()](numberformatter.setattribute.md) \- Встановлює атрибут

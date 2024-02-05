@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectiongenerator.md: ReflectionGenerator
 title: 'ReflectionGenerator::getTrace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionGenerator::getTrace
 
@@ -24,11 +25,11 @@ public ReflectionGenerator::getTrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJE
 
 `options`
 
-Значення `options` може бути одним з наступних прапорів:
+Значение`options` може бути одним з наступних прапорів:
 
 **Доступні опції**
 
-| Опция | Описание |
+| Опция | Опис |
 | --- | --- |
 | **`DEBUG_BACKTRACE_PROVIDE_OBJECT`** | За замовчуванням. |
 | **`DEBUG_BACKTRACE_IGNORE_ARGS`** | Не включати інформацію про аргументи функцій у стеку дзвінків. |
@@ -39,7 +40,7 @@ public ReflectionGenerator::getTrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJE
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionGenerator::getTrace()****
+**Пример #1 Пример использования**ReflectionGenerator::getTrace()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ $gen->valid(); // запускаем генератор
 var_dump((new ReflectionGenerator($gen))->getTrace());
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {
@@ -96,5 +97,5 @@ array(2) {
 
 ### Дивіться також
 
--   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.md) - Отримати ім'я функції генератора
--   [ReflectionGenerator::getThis()](reflectiongenerator.getthis.md) - Отримує значення $this генератора
+-   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.md) \- Отримати ім'я функції генератора
+-   [ReflectionGenerator::getThis()](reflectiongenerator.getthis.md) \- Отримує значення $this генератора

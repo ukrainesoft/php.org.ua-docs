@@ -1,149 +1,151 @@
 ---
 navigation:
-  - ref.pdo-informix.connection.md: « PDOINFORMIX DSN
-  - ref.pdo-mysql.connection.md: PDOMYSQL DSN »
+  - ref.pdo-informix.connection.md: « PDO\_INFORMIX DSN
+  - ref.pdo-mysql.connection.md: PDO\_MYSQL DSN »
   - index.md: PHP Manual
   - pdo.drivers.md: Драйвери PDO
-title: Функції MySQL (PDOMYSQL)
+title: Функції MySQL (PDO\_MYSQL)
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Функції MySQL (PDOMYSQL)
+# Функції MySQL (PDO\_MYSQL)
 
 ## Вступ
 
-PDOMYSQL - це драйвер, що реалізує інтерфейс [PHP Data Objects (PDO)](intro.pdo.md) та надає доступ з PHP до баз даних MySQL.
+PDO\_MYSQL – це драйвер, який реалізує інтерфейс [PHP Data Objects (PDO)](intro.pdo.md) та дає PHP доступ до баз даних MySQL.
 
-PDOMYSQL за умовчанням використовує емульовану підготовку.
+Драйвер PDO\_MYSQL за умовчанням використовує емульовану підготовку.
 
-*MySQL 8*
+**MySQL 8**
 
-При запуску PHP до версії 7.1.16 або PHP 7.2 до 7.2.4 встановіть плагін пароля за умовчанням MySQL 8 Server в *mysqlnativepassword*, інакше ви побачите помилки, схожі на *Server потребує authentication method unknown to the client cachingsha2password*, навіть коли *cachingsha2password* не використовується.
+При запуску PHP до версії 7.1.16 або PHP з версії 7.2 до 7.2.4 як плагін шифрування паролів за промовчанням для сервера MySQL 8 встановлюють *mysql\_native\_password*, інакше буде видана помилка на кшталт *The server requested authentication method unknown to the client\[caching\_sha2\_password\]*, даже когда плагин*caching\_sha2\_password*не задан.
 
-Це пов'язано з тим, що MySQL 8 за замовчуванням використовує cachingsha2password, і плагін не розпізнається старими версіями PHP (mysqlnd). Натомість змініть це, встановивши `default_authentication_plugin=mysql_native_password` у my.cnf. Плагін *cachingsha2password* буде підтримуватись у майбутній версії PHP. Поки що модуль [mysqlxdevapi](book.mysql-xdevapi.md) підтримує його.
+Причина цього в тому, що на сервері MySQL 8 як плагін за замовчуванням вказано caching\_sha2\_password, який не розпізнається старими версіями PHP (модулем mysqlnd). Замість нього у файлі конфігурації сервера my.cnf вказують `default_authentication_plugin=mysql_native_password`Плагин*caching\_sha2\_password* отримав повну підтримку з PHP 7.4.4. У попередніх версіях PHP його підтримує модуль [mysql\_xdevapi](book.mysql-xdevapi.md)
 
 **Увага**
 
-Обережно: Деякі типи MySQL таблиць (механізми зберігання, двигунів) не підтримують транзакції. При написанні коду з використанням транзакцій стосовно таблиць, які їх не підтримують, MySQL буде вважати, що транзакція була розпочата успішно. Крім того, виконання будь-якого DDL-запиту завершить усі відкриті транзакції, а також виконає весь стек незавершених запитів.
+Обережно: MySQL таблиці підсистеми зберігання даних не підтримують транзакції. Якщо в коді, який працює з транзакційною базою даних, вказана таблиця, що не підтримує транзакції, MySQL вдасть, що транзакцію успішно розпочато. І ще, кожен виконаний DDL-запит буде неявно фіксувати незавершені транзакції - тобто завершувати відкриті транзакції і виконувати стек незавершених запитів.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Драйвер MySQL не підтримує належним чином **`PDO::PARAM_INPUT_OUTPUT`** через [PDOStatement::bindParam()](pdostatement.bindparam.md); хоча параметр можна використовувати, він не оновлюється (тобто фактичний висновок ігнорується).
+> Драйвер MySQL неправильно обробляє біт \*\*`PDO::PARAM_INPUT_OUTPUT`\*\*в методе[PDOStatement::bindParam()](pdostatement.bindparam.md); хоча такі параметри і можна використовувати, вони не оновлюються (тобто фактичний висновок ігнорується).
 
-## Встановлення
+## Установка
 
 Зазвичай інсталяційні пакети Unix мають у собі бінарні пакети PHP. Незважаючи на те, що ці бінарні пакети зазвичай зібрані за допомогою модуля MySQL, може знадобитися установка бібліотек модулів окремо. Перевірте дистрибутив на наявність потрібних бібліотек через пакетний менеджер.
 
-Наприклад, на Ubuntu встановлення пакету `php5-mysql` встановлює модулі ext/mysql, ext/mysqli та PDOMYSQL. На CentOS пакет `php-mysql` також встановлює ці три модулі.
+К примеру, на Ubuntu установка пакета`php5-mysql` встановлює модулі ext/mysql, ext/mysqli та PDO\_MYSQL. На CentOS пакет`php-mysql` також встановлює ці три модулі.
 
 Також ви завжди можете скомпілювати необхідні модулі самостійно. Складання PHP із вихідних кодів дозволить вам зібрати саме ті модулі MySQL, які вам потрібні, а також вибрати потрібну клієнтську бібліотеку для кожного модуля.
 
-Використовуйте **\-with-pdo-mysql=DIR** для встановлення модуля PDO MySQL, де необов'язковий параметр `[=DIR]` вказує директорію, де встановлено MySQL. За замовчуванням використовується бібліотека [mysqlnd](book.mysqlnd.md). Більш детальний розбір на вибір бібліотеки можна почитати в розділі "[Вибір бібліотеки MySQL](mysqlinfo.library.choosing.md)".
+Используйте**\--with-pdo-mysql\[=DIR\]** для встановлення модуля PDO MySQL, де необов'язковий параметр `[=DIR]` вказує директорію, де встановлено MySQL. За замовчуванням використовується бібліотека [mysqlnd](book.mysqlnd.md). . Більш детальний розбір на вибір бібліотеки можна почитати в розділі "[Вибір бібліотеки MySQL](mysqlinfo.library.choosing.md)".
 
-Додатковий параметр **\-with-mysql-sock=DIR** вказує розташування unix-сокету MySQL для всіх модулів MySQL, включаючи PDOMYSQL. Якщо параметр не вказано, пошук здійснюється в директоріях за промовчанням.
+Додатковий параметр **\--with-mysql-sock\[=DIR\]** вказує розташування unix-сокету MySQL для всіх модулів MySQL, включаючи PDO\_MYSQL. Якщо параметр не вказано, пошук здійснюється в директоріях за промовчанням.
 
-Додатковий параметр **\-with-zlib-dir=DIR** використовується як префікс шляху до libz.
+Додатковий параметр **\--with-zlib-dir\[=DIR\]** використовується як префікс шляху до libz.
 
 ```
 $ ./configure --with-pdo-mysql --with-mysql-sock=/var/mysql/mysql.sock
 ```
 
-Підтримка SSL вмикається, використовуючи відповідну [константу PDOMySQL](ref.pdo-mysql.md#pdo-mysql.constants), яка еквівалентна виклику [» API MySQL-функції mysqlsslset() в C](http://dev.mysql.com/doc/mysql/en/mysql-ssl-set.md). До того ж, SSL не може бути включений за допомогою **PDO::setAttribute**тому, що з'єднання вже існує. Дивіться документацію MySQL про [» підключення до MySQL з SSL](https://dev.mysql.com/doc/en/using-encrypted-connections.md)
+Підтримка SSL вмикається, використовуючи відповідну [константу PDO\_MySQL](ref.pdo-mysql.md#pdo-mysql.constants), яка еквівалентна виклику [» API MySQL-функції mysql\_ssl\_set() в C](http://dev.mysql.com/doc/mysql/en/mysql-ssl-set.md). До того ж, SSL не може бути включений за допомогою **PDO::setAttribute**тому, що з'єднання вже існує. Дивіться документацію MySQL про [» підключення до MySQL з SSL](https://dev.mysql.com/doc/en/using-encrypted-connections.md)
 
 ## Обумовлені константи
 
-Наведені нижче константи визначені цим драйвером і будуть доступні лише у випадку, якщо PHP був зібраний з підтримкою цього модуля, або цей модуль був динамічно завантажений під час виконання. Крім того, ці залежні від драйвера константи повинні бути використані лише разом із цим драйвером. Використання атрибутів, специфічних для деякого драйвера з іншим драйвером, може викликати несподівану поведінку. Якщо ваш код виконується з кількома драйверами, можна використовувати функцію [PDO::getAttribute()](pdo.getattribute.md) для отримання атрибуту **`PDO::ATTR_DRIVER_NAME`** для перевірки драйвера.
+Наведені нижче константи визначені цим драйвером і будуть доступні лише у випадку, якщо PHP був зібраний за допомогою цього модуля, або модуль був динамічно завантажений під час виконання. Крім того, ці залежні від драйвера константи повинні бути використані лише разом із цим драйвером. Використання атрибутів, специфічних для деякого драйвера з іншим драйвером, може викликати несподівану поведінку. Якщо ваш код виконується з кількома драйверами, можна використовувати функцію [PDO::getAttribute()](pdo.getattribute.md)для получения атрибута\*\*`PDO::ATTR_DRIVER_NAME`\*\*для проверки драйвера.
 
-**`PDO::MYSQL_ATTR_USE_BUFFERED_QUERY`** (int)
+**`PDO::MYSQL_ATTR_USE_BUFFERED_QUERY`**(bool)
 
-Якщо цей атрибут встановлений у **`true`** в [PDOStatement](class.pdostatement.md), MySQL драйвер буде використовувати буферизовані версії API MySQL. Якщо ви пишете код, що переноситься на інші бібліотеки, ви повинні використовувати [PDOStatement::fetchAll()](pdostatement.fetchall.md)
+За замовчуванням всі запити виконуються в [буферизованому режимі](mysqlinfo.concepts.buffering.md). Якщо цей атрибут встановлено на значення **`false`** для об'єкту [PDO](class.pdo.md), драйвер MySQL використовуватиме небуферизований режим.
 
-**Приклад #1 Буферизація запитів MySQL**
+**Приклад #1 Встановлення небуферизованого режиму MySQL**
 
 ```php
 <?php
-if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
-    $stmt = $db->prepare('select * from foo',
-        array(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true));
-} else {
-    die("приложение работает только с mysql; Следует использовать \$stmt->fetchAll() вместо этого");
+$pdo = new PDO("mysql:host=localhost;dbname=world", 'my_user', 'my_password');
+$pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, false);
+
+$unbufferedResult = $pdo->query("SELECT Name FROM City");
+foreach ($unbufferedResult as $row) {
+    echo $row['Name'] . PHP_EOL;
 }
 ?>
 ```
 
-**`PDO::MYSQL_ATTR_LOCAL_INFILE`** (int)
+**`PDO::MYSQL_ATTR_LOCAL_INFILE`**(int)
 
 увімкнути `LOAD LOCAL INFILE`
 
 Зверніть увагу, що ця константа може бути використана тільки в масиві `driver_options` під час створення дескриптора нової бази даних.
 
-**`PDO::MYSQL_ATTR_LOCAL_INFILE_DIRECTORY`** (string)
+**`PDO::MYSQL_ATTR_LOCAL_INFILE_DIRECTORY`**(string)
 
 Дозволяє обмежити завантаження LOCAL DATA файлами, розташованими у вказаному каталозі. Доступно з версії PHP 8.1.0.
 
 Зверніть увагу, що ця константа може використовуватися лише у масиві `driver_options` під час створення нового дескриптора бази даних.
 
-**`PDO::MYSQL_ATTR_INIT_COMMAND`** (string)
+**`PDO::MYSQL_ATTR_INIT_COMMAND`**(string)
 
 Команда, яку потрібно виконати при підключенні до MySQL-сервера. Також буде автоматично виконана під час перепідключення.
 
 Зверніть увагу, що ця константа може бути використана тільки в масиві `driver_options` під час створення дескриптора нової бази даних.
 
-**`PDO::MYSQL_ATTR_READ_DEFAULT_FILE`** (int)
+**`PDO::MYSQL_ATTR_READ_DEFAULT_FILE`**(int)
 
 Читання іменованих параметрів із файлу my.cnf. Ця опція недоступна, якщо використовується mysqlnd, тому що mysqlnd не читає конфігураційні файли MySQL.
 
-**`PDO::MYSQL_ATTR_READ_DEFAULT_GROUP`** (int)
+**`PDO::MYSQL_ATTR_READ_DEFAULT_GROUP`**(int)
 
 Читання іменованої групи параметрів з файлу my.cnf або файлу, визначеного в константі **`MYSQL_READ_DEFAULT_FILE`**. Ця опція недоступна, якщо використовується mysqlnd, тому що mysqlnd не читає конфігураційні файли MySQL.
 
-**`PDO::MYSQL_ATTR_MAX_BUFFER_SIZE`** (int)
+**`PDO::MYSQL_ATTR_MAX_BUFFER_SIZE`**(int)
 
 Максимальний розмір буфера. За промовчанням дорівнює 1 Мб. Ця константа не підтримується під час компіляції разом з mysqlnd.
 
-**`PDO::MYSQL_ATTR_DIRECT_QUERY`** (int)
+**`PDO::MYSQL_ATTR_DIRECT_QUERY`**(int)
 
 Виконувати прямі запити, не використовувати підготовлені конструкції.
 
-**`PDO::MYSQL_ATTR_FOUND_ROWS`** (int)
+**`PDO::MYSQL_ATTR_FOUND_ROWS`**(int)
 
 Повертає кількість знайдених рядків, а не кількість змінених рядків.
 
-**`PDO::MYSQL_ATTR_IGNORE_SPACE`** (int)
+**`PDO::MYSQL_ATTR_IGNORE_SPACE`**(int)
 
 Дозволяє прогалини після імен функцій. Робить усі імена функцій зарезервованими словами.
 
-**`PDO::MYSQL_ATTR_COMPRESS`** (int)
+**`PDO::MYSQL_ATTR_COMPRESS`**(int)
 
 Увімкнути стиснення мережного з'єднання.
 
-**`PDO::MYSQL_ATTR_SSL_CA`** (int)
+**`PDO::MYSQL_ATTR_SSL_CA`**(int)
 
 Шлях до файлу SSL-сертифіката.
 
-**`PDO::MYSQL_ATTR_SSL_CAPATH`** (int)
+**`PDO::MYSQL_ATTR_SSL_CAPATH`**(int)
 
 Шлях до директорії, що містить SSL-сертифікати довірених центрів (CA), що зберігаються у форматі PEM.
 
-**`PDO::MYSQL_ATTR_SSL_CERT`** (int)
+**`PDO::MYSQL_ATTR_SSL_CERT`**(int)
 
 Шлях до файлу із SSL-сертифікатом.
 
-**`PDO::MYSQL_ATTR_SSL_CIPHER`** (int)
+**`PDO::MYSQL_ATTR_SSL_CIPHER`**(int)
 
 Список з одного або більше допустимих шифрів для використання у SSL-шифруванні у форматі, який розуміє OpenSSL. Наприклад: `DHE-RSA-AES256-SHA:AES128-SHA`
 
-**`PDO::MYSQL_ATTR_SSL_KEY`** (int)
+**`PDO::MYSQL_ATTR_SSL_KEY`**(int)
 
 Шлях до файлу із ключем SSL.
 
-**`PDO::MYSQL_ATTR_SSL_VERIFY_SERVER_CERT`** (int)
+**`PDO::MYSQL_ATTR_SSL_VERIFY_SERVER_CERT`**(int)
 
 Надає спосіб вимкнення перевірки SSL-сертифіката сервера.
 
-Існує, починаючи з PHP 7.0.18 та PHP 7.1.4.
+Існує починаючи з PHP 7.0.18 та PHP 7.1.4.
 
-**`PDO::MYSQL_ATTR_MULTI_STATEMENTS`** (int)
+**`PDO::MYSQL_ATTR_MULTI_STATEMENTS`**(int)
 
-Якщо встановлено як **`false`**, забороняє запуск множинних запитів, як для [PDO::prepare()](pdo.prepare.md), так і для [PDO::query()](pdo.query.md)
+Если установлено как\*\*`false`\*\*, забороняє запуск множинних запитів, як для [PDO::prepare()](pdo.prepare.md), так і для [PDO::query()](pdo.query.md)
 
 Зверніть увагу, що ця константа може бути використана тільки в масиві `driver_options` під час створення нового дескриптора БД.
 
@@ -151,25 +153,25 @@ if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
 
 Поведінка цих функцій залежить від установок у php.ini.
 
-**Опції конфігурації PDOMYSQL**
+**Опції конфігурації PDO\_MYSQL**
 
 | Имя | По умолчанию | Место изменения |
 | --- | --- | --- |
-| [pdomysql.defaultsocket](ref.pdo-mysql.md#ini.pdo-mysql.default-socket) | "/тмп/мускл.сок" | PHPINISYSTEM |
-| [pdomysql.debug](ref.pdo-mysql.md#ini.pdo-mysql.debug) | NULL | PHPINISYSTEM |
+| [pdo\_mysql.default\_socket](ref.pdo-mysql.md#ini.pdo-mysql.default-socket) | "/tmp/mysql.sock" | **`INI_SYSTEM`** |
+| [pdo\_mysql.debug](ref.pdo-mysql.md#ini.pdo-mysql.debug) | NULL | **`INI_SYSTEM`** |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
+Додаткова інформація та опис режимів INI\_\* дано у розділі «[Місця встановлення параметрів конфігурації](configuration.changes.modes.md)».
 
 Коротке пояснення конфігураційних директив.
 
-`pdo_mysql.default_socket` string
+`pdo_mysql.default_socket`string
 
 Встановлює сокет домену UNIX. Цю опцію необхідно вказати під час компіляції, якщо сокет домену знайдено під час конфігурації. Це налаштування лише для Unix.
 
-`pdo_mysql.debug` bool
+`pdo_mysql.debug`bool
 
-Дозволяє налагодження для PDOMYSQL. Це налаштування доступне лише, якщо PDOMYSQL скомпільований з "mysqlnd" та в режимі налагодження PDO.
+Дозволяє налагодження для PDO\_MYSQL. Це налаштування доступне лише, якщо PDO\_MYSQL скомпільований з "mysqlnd" та в режимі налагодження PDO.
 
 ## Зміст
 
--   [PDOMYSQL DSN](ref.pdo-mysql.connection.md) — З'єднання з базою даних MySQL
+-   [PDO\_MYSQL DSN](ref.pdo-mysql.connection.md)— З'єднання з базою даних MySQL

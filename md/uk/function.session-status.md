@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.session-start.md: « sessionstart
-  - function.session-unset.md: sessionunset »
+  - function.session-start.md: « session\_start
+  - function.session-unset.md: session\_unset »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
-title: sessionstatus
+title: session\_status
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sessionstatus
+# session\_status
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
-sessionstatus — Повертає стан поточної сесії
+session\_status — Повертає стан поточної сесії
 
 ### Опис
 
@@ -18,7 +19,7 @@ sessionstatus — Повертає стан поточної сесії
 session_status(): int
 ```
 
-Функція **sessionstatus()** повертає стан поточної сесії
+Функция**session\_status()** повертає стан поточної сесії
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ session_status(): int
 
 ### Дивіться також
 
--   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу
+-   [session\_start()](function.session-start.md) \- Стартує нову сесію, або відновлює існуючу

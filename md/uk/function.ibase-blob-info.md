@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-blob-import.md: « ibaseblobimport
-  - function.ibase-blob-open.md: ibaseblobopen »
+  - function.ibase-blob-import.md: « ibase\_blob\_import
+  - function.ibase-blob-open.md: ibase\_blob\_open »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseblobinfo
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_blob\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseblobinfo
+# ibase\_blob\_info
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseblobinfo — Повертає довжину BLOB-об'єкта та іншу корисну інформацію
+ibase\_blob\_info — Повертає довжину BLOB-об'єкта та іншу корисну інформацію
 
 ### Опис
 
@@ -28,7 +29,7 @@ ibase_blob_info(string $blob_id): array
 
 `link_identifier`
 
-Ідентифікатор посилання на InterBase. Якщо не вказано, передбачається останнє відкрите посилання.
+Ідентифікатор посилання InterBase. Якщо не вказано, передбачається останнє відкрите посилання.
 
 `blob_id`
 

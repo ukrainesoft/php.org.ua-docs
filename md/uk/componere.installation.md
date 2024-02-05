@@ -1,11 +1,12 @@
 ---
 navigation:
   - componere.requirements.md: « Вимоги
-  - class.componere-abstract-definition.md: ComponereAbstractDefinition »
+  - class.componere-abstract-definition.md: Componere\\Abstract\\Definition »
   - index.md: PHP Manual
   - componere.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Вихідний код Componere та випуски доступні на [» github](https://github.com/krakjoe/componere)
+Вихідний код Componere та випуски доступні на [» github](https://github.com/krakjoe/componere)

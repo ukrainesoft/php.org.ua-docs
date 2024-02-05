@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.setbaseuri.md: '« YafRequestAbstract::setBaseUri'
-  - yaf-request-abstract.setdispatched.md: 'YafRequestAbstract::setDispatched »'
+  - yaf-request-abstract.setbaseuri.md: '« Yaf\_Request\_Abstract::setBaseUri'
+  - yaf-request-abstract.setdispatched.md: 'Yaf\_Request\_Abstract::setDispatched »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::setControllerName'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::setControllerName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::setControllerName
+# Yaf\_Request\_Abstract::setControllerName
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::setControllerName — Встановлює ім'я контролера
+Yaf\_Request\_Abstract::setControllerName — Встановлює ім'я контролера
 
 ### Опис
 
@@ -18,16 +19,16 @@ YafRequestAbstract::setControllerName — Встановлює ім'я конт�
 public Yaf_Request_Abstract::setControllerName(string $controller, bool $format_name = true): void
 ```
 
-Встановлює ім'я контролера для запиту, зазвичай використовується маршрутизатором для встановлення імені контролера результату маршруту.
+Встановлює ім'я контролера для запиту, зазвичай використовується маршрутизатором, що налаштовується для встановлення імені контролера результату маршруту.
 
 ### Список параметрів
 
 `controller`
 
-string, ім'я контролера, має бути в CamelCase, наприклад, "Index" або "FooBar"
+string, ім'я контролера, має бути в CamelCase, наприклад, "Index" або "Foo\_Bar"
 
 `format_name`
 
-Додано в Yaf 3.2.0, за умовчанням Yaf відформатує ім'я CamelCase, якщо для нього встановлено значення **`false`**, Yaf установить оригінальне ім'я для запиту.
+Добавлено в Yaf 3.2.0, по умолчанию Yaf отформатирует имя в CamelCase, если для него установлено значение\*\*`false`\*\*, Yaf встановить оригінальне ім'я на запит.
 
 ### Значення, що повертаються

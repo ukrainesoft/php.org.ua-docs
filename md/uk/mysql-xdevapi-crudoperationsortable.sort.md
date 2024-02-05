@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-crudoperationsortable.md: « mysqlxdevapiCrudOperationSortable
-  - class.mysql-xdevapi-databaseobject.md: mysqlxdevapiDatabaseObject »
+  - class.mysql-xdevapi-crudoperationsortable.md: « mysql\_xdevapi\\CrudOperationSortable
+  - class.mysql-xdevapi-databaseobject.md: mysql\_xdevapi\\DatabaseObject »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-crudoperationsortable.md: mysqlxdevapiCrudOperationSortable
+  - class.mysql-xdevapi-crudoperationsortable.md: mysql\_xdevapi\\CrudOperationSortable
 title: 'CrudOperationSortable::sort'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CrudOperationSortable::sort
 
@@ -18,11 +19,11 @@ CrudOperationSortable::sort — Сортує результати
 abstract public mysql_xdevapi\CrudOperationSortable::sort(string $sort_expr): mysql_xdevapi\CrudOperationSortable
 ```
 
-Сортує результуючий набір по полю, вибраному в аргументі sortexpr. Допустимий порядок сортування: ASC (за зростанням) або DESC (за спаданням). Ця операція еквівалентна операції SQL 'ORDER BY' і слідує тому ж набору правил.
+Сортує результуючий набір по полю, вибраному в аргументі sort\_expr. Допустимий порядок сортування: ASC (за зростанням) або DESC (за спаданням). Ця операція еквівалентна операції SQL 'ORDER BY' і слідує тому ж набору правил.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ abstract public mysql_xdevapi\CrudOperationSortable::sort(string $sort_expr): my
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCrudOperationSortable::sort()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CrudOperationSortable::sort()\*\*\*\*
 
 ```php
 <?php

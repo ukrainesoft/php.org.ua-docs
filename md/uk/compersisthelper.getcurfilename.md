@@ -1,10 +1,11 @@
 ---
 navigation:
-  - compersisthelper.construct.md: '« COMPersistHelper::construct'
+  - compersisthelper.construct.md: '« COMPersistHelper::\_\_construct'
   - compersisthelper.getmaxstreamsize.md: 'COMPersistHelper::GetMaxStreamSize »'
   - index.md: PHP Manual
   - class.compersisthelper.md: COMPersistHelper
 title: 'COMPersistHelper::GetCurFileName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # COMPersistHelper::GetCurFileName
 
@@ -30,4 +31,4 @@ public COMPersistHelper::GetCurFileName(): string|false
 
 ### Помилки
 
-Викидає виняток [comexception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistFile**або якщо виклик **IPersistFile::GetCurFile()** завершився помилкою.
+Викидає виняток [com\_exception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistFile**або якщо виклик **IPersistFile::GetCurFile()** завершився помилкою.

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zookeeper::get
 
@@ -16,7 +17,7 @@ Zookeeper::get — Синхронно отримує дані, пов'язані
 
 ```methodsynopsis
 public
-   Zookeeper::get(    string $path,    callable $watcher_cb = null,    array &$stat = null,    int $max_size = 0): string
+   Zookeeper::get(    string $path,    callable $watcher_cb = null,    array &$stat = null,    int $max_size = 0): string
 ```
 
 ### Список параметрів
@@ -51,7 +52,7 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Zookeeper::get()****
+**Пример #1 Пример использования**Zookeeper::get()\*\*\*\*
 
 Набуття значення від вузла.
 
@@ -70,13 +71,13 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 nodevalue
 ```
 
-**Приклад #2 Приклад використання stat **Zookeeper::get()****
+**Пример #2 Пример использования stat**Zookeeper::get()\*\*\*\*
 
 Отримання інформації про статистику сайту.
 
@@ -90,7 +91,7 @@ var_dump($stat);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(11) {
@@ -121,5 +122,5 @@ array(11) {
 
 ### Дивіться також
 
--   [Zookeeper::set()](zookeeper.set.md) - Встановлює дані, пов'язані з вузлом
+-   [Zookeeper::set()](zookeeper.set.md) \- Встановлює дані, пов'язані з вузлом
 -   [ZookeeperException](class.zookeeperexception.md)

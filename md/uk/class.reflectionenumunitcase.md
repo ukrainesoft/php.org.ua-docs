@@ -1,48 +1,51 @@
 ---
 navigation:
   - reflectionenum.isbacked.md: '« ReflectionEnum::isBacked'
-  - reflectionenumunitcase.construct.md: 'ReflectionEnumUnitCase::construct »'
+  - reflectionenumunitcase.construct.md: 'ReflectionEnumUnitCase::\_\_construct »'
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Клас ReflectionEnumUnitCase
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ReflectionEnumUnitCase
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
-Клас **ReflectionEnumUnitCase** повідомляє інформацію про варіант перерахування, що не має скалярного еквівалента.
+Класс**ReflectionEnumUnitCase** повідомляє інформацію про варіант перерахування, що не має скалярного еквівалента.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class ReflectionEnumUnitCase
     
 
     
-     
-      class ReflectionEnumUnitCase
-     
-
-     
-      extends
-       ReflectionClassConstant
-     
+     extends
+      ReflectionClassConstant
      {
 
     /* Наследуемые константы */
     
+     public
      const
      int
-      ReflectionClassConstant::IS_PUBLIC = 1;
-const
+      ReflectionClassConstant::IS_PUBLIC;
+public
+     const
      int
-      ReflectionClassConstant::IS_PROTECTED = 2;
-const
+      ReflectionClassConstant::IS_PROTECTED;
+public
+     const
      int
-      ReflectionClassConstant::IS_PRIVATE = 4;
+      ReflectionClassConstant::IS_PRIVATE;
+public
+     const
+     int
+      ReflectionClassConstant::IS_FINAL;
 
 
     /* Наследуемые свойства */
@@ -82,11 +85,11 @@ public ReflectionClassConstant::__toString(): string
 
 ## Дивіться також
 
--   [Перечисления](language.enumerations.md)
+-   [Перерахування](language.enumerations.md)
 -   [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
 
 ## Зміст
 
--   [ReflectionEnumUnitCase::construct](reflectionenumunitcase.construct.md) — Створює екземпляр об'єкту ReflectionEnumUnitCase
--   [ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.md) — Отримує Reflection-об'єкт перерахування цього варіанта
--   [ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.md) — Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом
+-   [ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.md)— Створює екземпляр об'єкту ReflectionEnumUnitCase
+-   [ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.md)— Отримує Reflection-об'єкт перерахування цього варіанта
+-   [ReflectionEnumUnitCase::getValue](reflectionenumunitcase.getvalue.md)— Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом

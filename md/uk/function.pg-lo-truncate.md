@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-lo-tell.md: « pgлоtell
-  - function.pg-lo-unlink.md: пглоunlink »
+  - function.pg-lo-tell.md: « pg\_lo\_tell
+  - function.pg-lo-unlink.md: pg\_lo\_unlink »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пглоtruncate
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_lo\_truncate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пглоtruncate
+# pg\_lo\_truncate
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-пглоtruncate — Обрізає великий об'єкт
+pg\_lo\_truncate — Обрізає великий об'єкт
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: пглоtruncate
 pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 ```
 
-**пглоtruncate()** обрізає екземпляр [PgSqlLob](class.pgsql-lob.md)
+**pg\_lo\_truncate()** обрізає екземпляр [PgSql\\Lob](class.pgsql-lob.md)
 
 Для використання інтерфейсу великого об'єкта необхідно укласти його в блок транзакцій.
 
@@ -26,7 +27,7 @@ pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
+An[PgSql\\Lob](class.pgsql-lob.md)instance, returned by[pg\_lo\_open()](function.pg-lo-open.md)
 
 `size`
 
@@ -34,17 +35,17 @@ pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`lob` тепер чекає екземпляр [PgSql\\Lob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пглоtruncate()****
+**Пример #1 Пример использования**pg\_lo\_truncate()\*\*\*\*
 
 ```php
 <?php
@@ -61,4 +62,4 @@ pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 
 ### Дивіться також
 
--   [пглоtell()](function.pg-lo-tell.md) - Повертає поточне положення внутрішнього покажчика великого об'єкта
+-   [pg\_lo\_tell()](function.pg-lo-tell.md) \- Повертає поточне положення внутрішнього покажчика великого об'єкта

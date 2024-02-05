@@ -1,23 +1,24 @@
 ---
 navigation:
-  - function.mysql-get-proto-info.md: « mysqlgetprotoinfo
-  - function.mysql-info.md: mysqlinfo »
+  - function.mysql-get-proto-info.md: « mysql\_get\_proto\_info
+  - function.mysql-info.md: mysql\_info »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlgetserverinfo
+title: mysql\_get\_server\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlgetserverinfo
+# mysql\_get\_server\_info
 
-(PHP 4> = 4.0.5, PHP 5)
+(PHP 4 >= 4.0.5, PHP 5)
 
-mysqlgetserverinfo — Повертає інформацію про сервер MySQL
+mysql\_get\_server\_info — Повертає інформацію про сервер MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqligetserverinfo()](mysqli.get-server-info.md)
--   [PDO::getAttribute(PDO::ATTRSERVERVERSION)](pdo.getattribute.md)
+-   [mysqli\_get\_server\_info()](mysqli.get-server-info.md)
+-   [PDO::getAttribute()](pdo.getattribute.md)с параметром`attribute`заданим як\*\*`PDO::ATTR_SERVER_VERSION`\*\*
 
 ### Опис
 
@@ -31,15 +32,15 @@ mysql_get_server_info(resource $link_identifier = NULL): string|false
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, буде використано останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Повертає версію сервера MySQL у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає версію сервера MySQL у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlgetserverinfo()****
+**Пример #1 Пример использования**mysql\_get\_server\_info()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ printf("Версия сервера MySQL: %s\n", mysql_get_server_info());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Версия сервера MySQL: 4.0.1-alpha
@@ -59,7 +60,7 @@ printf("Версия сервера MySQL: %s\n", mysql_get_server_info());
 
 ### Дивіться також
 
--   [mysqlgetclientinfo()](function.mysql-get-client-info.md) - Повертає дані про MySQL-клієнт
--   [mysqlgethostinfo()](function.mysql-get-host-info.md) - Повертає інформацію про з'єднання з MySQL
--   [mysqlgetprotoinfo()](function.mysql-get-proto-info.md) - Повертає інформацію про протокол MySQL
--   [phpversion()](function.phpversion.md) - Отримує поточну версію PHP
+-   [mysql\_get\_client\_info()](function.mysql-get-client-info.md) \- Повертає дані про MySQL-клієнт
+-   [mysql\_get\_host\_info()](function.mysql-get-host-info.md) \- Повертає інформацію про з'єднання з MySQL
+-   [mysql\_get\_proto\_info()](function.mysql-get-proto-info.md) \- Повертає інформацію про протокол MySQL
+-   [phpversion()](function.phpversion.md) \- Отримує поточну версію PHP

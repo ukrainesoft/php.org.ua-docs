@@ -4,12 +4,13 @@ navigation:
   - gmagick.configuration.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - gmagick.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/gmagick](https://pecl.php.net/package/gmagick)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Встановлення PECL модулів](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/gmagick](https://pecl.php.net/package/gmagick)
 
-> **Зауваження**: Офіційне ім'я модуля - *gmagick*
+> **Зауваження**: Официальное имя модуля -*gmagick*
 
-Складання модуля для Windows доступне [»тут](http://valokuva.org/magick/)
+Сборка модуля для Windows доступна[»тут](http://valokuva.org/magick/)

@@ -5,7 +5,8 @@ navigation:
   - index.md: PHP Manual
   - inotify.setup.md: Встановлення та налаштування
 title: Типи ресурсів
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Типи ресурсів
 
-Модуль визначає потоковий ресурс, що повертається [inotifyinit()](function.inotify-init.md)
+Модуль визначає потоковий ресурс, що повертається [inotify\_init()](function.inotify-init.md)

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::setProfiling'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XSLTProcessor::setProfiling
 
@@ -15,7 +16,7 @@ XSLTProcessor::setProfiling — Встановлює файл для профі�
 ### Опис
 
 ```methodsynopsis
-public XSLTProcessor::setProfiling(?string $filename): bool
+public XSLTProcessor::setProfiling(?string $filename): true
 ```
 
 Встановлює файл для запису профілюючої інформації під час обробки таблиць стилів.
@@ -28,7 +29,7 @@ public XSLTProcessor::setProfiling(?string $filename): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### Приклади
 

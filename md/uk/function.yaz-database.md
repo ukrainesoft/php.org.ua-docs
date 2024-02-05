@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.yaz-connect.md: « yazconnect
-  - function.yaz-element.md: yazelement »
+  - function.yaz-connect.md: « yaz\_connect
+  - function.yaz-element.md: yaz\_element »
   - index.md: PHP Manual
-  - ref.yaz.md: Функции YAZ
-title: yazdatabase
+  - ref.yaz.md: Функції YAZ
+title: yaz\_database
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yazdatabase
+# yaz\_database
 
-(PHP 4> = 4.0.6, PECL yaz> = 0.9.0)
+(PHP 4 >= 4.0.6, PECL yaz >= 0.9.0)
 
-yazdatabase — Визначає бази даних у сеансі
+yaz\_database — Визначає бази даних у сеансі
 
 ### Опис
 
@@ -18,13 +19,13 @@ yazdatabase — Визначає бази даних у сеансі
 yaz_database(resource $id, string $databases): bool
 ```
 
-Функція дозволяє змінювати бази даних протягом сеансу, вказавши одну або кілька баз даних, які будуть використовуватися для пошуку, пошуку і т.д. - перевизначення баз даних, вказаних у виклику [yazconnect()](function.yaz-connect.md)
+Функція дозволяє змінювати бази даних протягом сеансу, вказавши одну або кілька баз даних, які будуть використовуватися для пошуку, пошуку і т.д. - перевизначення баз даних, вказаних у виклику [yaz\_connect()](function.yaz-connect.md)
 
 ### Список параметрів
 
 `id`
 
-Ресурс з'єднання, повернутий [yazconnect()](function.yaz-connect.md)
+Ресурс з'єднання, повернутий [yaz\_connect()](function.yaz-connect.md)
 
 `databases`
 
@@ -32,4 +33,4 @@ yaz_database(resource $id, string $databases): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

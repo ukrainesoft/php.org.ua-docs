@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.timezone-transitions-get.md: « timezonetransitionsget
-  - datetime.formats.md: Допустимі формати дати/часу »
+  - function.timezone-transitions-get.md: « timezone\_transitions\_get
+  - datetime.error.tree.md: Date/Time Errors and Exceptions »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
-title: timezoneversionget
+title: timezone\_version\_get
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# timezoneversionget
+# timezone\_version\_get
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-timezoneversionget — отримання номера версії бази даних часових поясів
+timezone\_version\_get — отримання номера версії бази даних часових поясів
 
 ### Опис
 
@@ -26,7 +27,11 @@ timezone_version_get(): string
 
 ### Значення, що повертаються
 
-Повертає рядок (string).
+Повертає рядок (string) у форматі `YYYY.increment`, например,`2022.2`
+
+Якщо у вас стара версія бази даних часових поясів (наприклад, вона показує не поточний рік), то ви можете оновити інформацію про часові пояси, або оновивши версію PHP, або встановивши пакет PECL [» timezonedb](https://pecl.php.net/package/timezonedb)
+
+Деякі Linux-дистрибутиви виправляють підтримку дати/часу в PHP, щоб використовувати альтернативне джерело інформації про часові пояси. У такій ситуації функція повертатиме `0.system`. У цьому випадку рекомендується встановити пакет PECL [» timezonedb](https://pecl.php.net/package/timezonedb)
 
 ### Приклади
 
@@ -38,10 +43,10 @@ echo timezone_version_get();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
-2009.7
+2022.2
 ```
 
 ### Дивіться також

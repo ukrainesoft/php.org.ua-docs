@@ -3,8 +3,9 @@ navigation:
   - function.gzgets.md: « gzgets
   - function.gzinflate.md: gzinflate »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzgetss
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzgetss
 
@@ -14,7 +15,7 @@ gzgetss — Повертає рядок із покажчика gz-файлу т
 
 **Увага**
 
-Ця функція оголошена *застарілої*, починаючи з PHP 7.3.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.3.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -40,11 +41,11 @@ gzgetss(resource $zp, int $length, string $allowable_tags = ?): string
 
 ### Значення, що повертаються
 
-Нестиснений очищений рядок або **`false`** у разі виникнення помилки.
+Несжатая очищенная строка или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gzgetss()****
+**Пример #1 Пример использования**gzgetss()\*\*\*\*
 
 ```php
 <?php
@@ -59,6 +60,6 @@ gzclose($handle);
 
 ### Дивіться також
 
--   [gzopen()](function.gzopen.md) - Відкрити gz-файл
--   [gzgets()](function.gzgets.md) - Отримати рядок із покажчика файлу
--   [striptags()](function.strip-tags.md) - Видаляє теги HTML та PHP з рядка
+-   [gzopen()](function.gzopen.md) \- Відкрити gz-файл
+-   [gzgets()](function.gzgets.md) \- Отримати рядок із покажчика файлу
+-   [strip\_tags()](function.strip-tags.md) \- Видаляє теги HTML та PHP з рядка

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::removeOptions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::removeOptions
 
@@ -15,14 +16,14 @@ GearmanClient::removeOptions — Видалити опції клієнта
 ### Опис
 
 ```methodsynopsis
-public GearmanClient::removeOptions(int $options): bool
+public GearmanClient::removeOptions(int $option): bool
 ```
 
 Видаляє одну або кілька опцій клієнта.
 
 ### Список параметрів
 
-`options`
+`option`
 
 Опції, які потрібно видалити.
 

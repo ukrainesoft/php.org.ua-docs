@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
 title: 'DOMElement::hasAttribute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMElement::hasAttribute
 
@@ -28,11 +29,11 @@ public DOMElement::hasAttribute(string $qualifiedName): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) - Перевіряє, чи існує заданий атрибут
--   [DOMElement::getAttribute()](domelement.getattribute.md) - Повертає значення атрибуту
--   [DOMElement::setAttribute()](domelement.setattribute.md) - Додає новий або змінює існуючий атрибут
--   [DOMElement::removeAttribute()](domelement.removeattribute.md) - Видаляє атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) \- Перевіряє, чи існує заданий атрибут
+-   [DOMElement::getAttribute()](domelement.getattribute.md) \- Повертає значення атрибуту
+-   [DOMElement::setAttribute()](domelement.setattribute.md) \- Додає новий або змінює існуючий атрибут
+-   [DOMElement::removeAttribute()](domelement.removeattribute.md) \- Видаляє атрибут

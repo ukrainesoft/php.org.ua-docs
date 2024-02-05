@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-router.getroute.md: '« YafRouter::getRoute'
-  - yaf-router.route.md: 'YafRouter::route »'
+  - yaf-router.getroute.md: '« Yaf\_Router::getRoute'
+  - yaf-router.route.md: 'Yaf\_Router::route »'
   - index.md: PHP Manual
-  - class.yaf-router.md: YafRouter
-title: 'YafRouter::getRoutes'
+  - class.yaf-router.md: Yaf\_Router
+title: 'Yaf\_Router::getRoutes'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouter::getRoutes
+# Yaf\_Router::getRoutes
 
 (Yaf >=1.0.0)
 
-YafRouter::getRoutes — Отримує зареєстровані маршрути
+Yaf\_Router::getRoutes — Отримує зареєстровані маршрути
 
 ### Опис
 

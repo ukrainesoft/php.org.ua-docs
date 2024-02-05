@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.finish.md: '« SwooleServer::finish'
-  - swoole-server.getclientlist.md: 'SwooleServer::getClientList »'
+  - swoole-server.finish.md: '« Swoole\\Server::finish'
+  - swoole-server.getclientlist.md: 'Swoole\\Server::getClientList »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::getClientInfo'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::getClientInfo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::getClientInfo
+# Swoole\\Server::getClientInfo
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::getClientInfo — Отримує інформацію про з'єднання з описом файлу
+Swoole\\Server::getClientInfo — Отримує інформацію про з'єднання з описом файлу
 
 ### Опис
 

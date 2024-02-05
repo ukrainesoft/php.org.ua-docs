@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.enchant-dict-add.md: « enchantdictadd
-  - function.enchant-dict-describe.md: enchantdictdescribe »
+  - function.enchant-dict-add.md: « enchant\_dict\_add
+  - function.enchant-dict-describe.md: enchant\_dict\_describe »
   - index.md: PHP Manual
-  - ref.enchant.md: Функции Enchant
-title: enchantdictcheck
+  - ref.enchant.md: Функції Enchant
+title: enchant\_dict\_check
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# enchantdictcheck
+# enchant\_dict\_check
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL enchant >= 0.1.0 )
 
-enchantdictcheck — Перевіряє, чи правильно задано слово
+enchant\_dict\_check — Перевіряє, чи правильно задано слово
 
 ### Опис
 
@@ -24,7 +25,7 @@ enchant_dict_check(EnchantDictionary $dictionary, string $word): bool
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.md) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 
@@ -36,6 +37,6 @@ enchant_dict_check(EnchantDictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |

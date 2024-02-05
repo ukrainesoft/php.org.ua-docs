@@ -1,16 +1,17 @@
 ---
 navigation:
-  - reserved.variables.post.md: POST
-  - reserved.variables.request.md: REQUEST »
+  - reserved.variables.post.md: « $\_POST
+  - reserved.variables.request.md: $\_REQUEST »
   - index.md: PHP Manual
   - reserved.variables.md: Зумовлені змінні
-title: FILES
+title: $\_FILES
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# FILES
+# $\_FILES
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-FILES — Змінні файли, завантажені за HTTP
+$\_FILES — Змінні файли, завантажені за HTTP
 
 ### Опис
 
@@ -18,11 +19,11 @@ FILES — Змінні файли, завантажені за HTTP
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Це 'суперглобальна' або автоматична глобальна змінна. Це просто означає, що вона доступна у всіх контекстах скрипту. Немає необхідності виконувати **global $variable;** для доступу до неї всередині методу чи функції.
+> Це «суперглобальна» чи автоматична глобальна змінна. Це просто означає, що вона доступна у всіх контекстах скрипту. Немає необхідності виконувати **global $variable;** для доступу до неї всередині методу чи функції.
 
 ### Дивіться також
 
--   [moveuploadedfile()](function.move-uploaded-file.md) - Переміщує завантажений файл у нове місце
--   [Загрузка файлов на сервер](features.file-upload.md)
+-   [move\_uploaded\_file()](function.move-uploaded-file.md) \- Переміщує завантажений файл у нове місце
+-   [Завантаження файлів на сервер](features.file-upload.md)

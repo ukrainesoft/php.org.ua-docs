@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-name-result.md: « ibasenameresult
-  - function.ibase-num-params.md: ibasenumparams »
+  - function.ibase-name-result.md: « ibase\_name\_result
+  - function.ibase-num-params.md: ibase\_num\_params »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibasenumfields
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_num\_fields
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibasenumfields
+# ibase\_num\_fields
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibasenumfields — Повертає кількість полів у результуючому наборі
+ibase\_num\_fields — Повертає кількість полів у результуючому наборі
 
 ### Опис
 
@@ -32,7 +33,7 @@ ibase_num_fields(resource $result_id): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibasenumfields()****
+**Пример #1 Пример использования**ibase\_num\_fields()\*\*\*\*
 
 ```php
 <?php
@@ -51,4 +52,4 @@ for ($i = 0; $i < $coln; $i++) {
 
 ### Дивіться також
 
--   [ibasefieldinfo()](function.ibase-field-info.md) - Отримує інформацію про поле
+-   [ibase\_field\_info()](function.ibase-field-info.md) \- Отримує інформацію про поле

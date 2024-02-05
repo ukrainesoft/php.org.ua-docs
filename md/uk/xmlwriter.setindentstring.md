@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::setIndentString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLWriter::setIndentString
 
-# xmlwritersetindentstring
+# xmlwriter\_set\_indent\_string
 
 (PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::setIndentString -- xmlwritersetindentstring — Встановити рядок, який використовується для відступів
+XMLWriter::setIndentString -- xmlwriter\_set\_indent\_string — Встановити рядок, який використовується для відступів
 
 ### Опис
 
@@ -34,7 +35,7 @@ xmlwriter_set_indent_string(XMLWriter $writer, string $indentation): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.md) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.md)
 
 `indentString`
 
@@ -42,20 +43,20 @@ xmlwriter_set_indent_string(XMLWriter $writer, string $indentation): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| 8.0.0 | В параметре`writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Відступ скидається при відкритті xmlwriter.
 
 ### Дивіться також
 
--   [XMLWriter::setIndent()](xmlwriter.setindent.md) - Увімкнути або вимкнути відступи
+-   [XMLWriter::setIndent()](xmlwriter.setindent.md) \- Увімкнути або вимкнути відступи

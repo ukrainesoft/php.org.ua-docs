@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.pdostatement.md: PDOStatement
 title: 'PDOStatement::bindValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDOStatement::bindValue
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 1.0.0)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8, PECL pdo >= 1.0.0)
 
 PDOStatement::bindValue — Зв'язує параметр із заданим значенням
 
@@ -36,7 +37,13 @@ public PDOStatement::bindValue(string|int $param, mixed $value, int $type = PDO:
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+
+### Помилки
+
+Видає помилку рівня **`E_WARNING`**, якщо атрибуту **`PDO::ATTR_ERRMODE`**установлено значение**`PDO::ERRMODE_WARNING`**
+
+Викидає виняток [PDOException](class.pdoexception.md), якщо атрибуту **`PDO::ATTR_ERRMODE`**установлено значение**`PDO::ERRMODE_EXCEPTION`**
 
 ### Приклади
 
@@ -50,8 +57,10 @@ $colour = 'red';
 $sth = $dbh->prepare('SELECT name, colour, calories
     FROM fruit
     WHERE calories < :calories AND colour = :colour');
+
+/* Устанавливает значение параметра, используя его имя */
 $sth->bindValue('calories', $calories, PDO::PARAM_INT);
-/* Имена также могут начинаться с двоеточия ":" (необязательно) */
+/* По желанию, в именах параметров можно также ставить двоеточие ":" */
 $sth->bindValue(':colour', $colour, PDO::PARAM_STR);
 $sth->execute();
 ?>
@@ -75,6 +84,6 @@ $sth->execute();
 
 ### Дивіться також
 
--   [PDO::prepare()](pdo.prepare.md) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
--   [PDOStatement::execute()](pdostatement.execute.md) - Запускає підготовлений запит на виконання
--   [PDOStatement::bindParam()](pdostatement.bindparam.md) - Прив'язує параметр запиту до змінної
+-   [PDO::prepare()](pdo.prepare.md) \- готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDOStatement::execute()](pdostatement.execute.md) \- Запускає підготовлений запит на виконання
+-   [PDOStatement::bindParam()](pdostatement.bindparam.md) \- Прив'язує параметр запиту до змінної

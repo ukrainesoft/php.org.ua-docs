@@ -1,14 +1,15 @@
 ---
 navigation:
-  - functions.returning-values.md: « Возврат значений
+  - functions.returning-values.md: « Повернення значень
   - functions.internal.md: Вбудовані функції »
   - index.md: PHP Manual
   - language.functions.md: Функції
 title: Звернення до функцій через змінні
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Звернення до функцій через змінні
 
-PHP підтримує концепцію змінних функцій. Це означає, що якщо до імені змінної приєднані круглі дужки, PHP шукає функцію з тим самим ім'ям, що й результат обчислення змінної, і намагається її виконати. Цю можливість можна використовувати для реалізації зворотних викликів, таблиць функцій та безлічі інших речей.
+PHP підтримує концепцію змінних функцій. Це означає, що якщо до імені змінної приєднані круглі дужки, PHP шукає функцію з тим самим ім'ям, що й результат обчислення змінної і намагається її виконати. Цю можливість можна використовувати для реалізації зворотних викликів, таблиць функцій та безлічі інших речей.
 
 Змінні функції не працюватимуть з такими мовними конструкціями, як [echo](function.echo.md) [print](function.print.md) [unset()](function.unset.md) [isset()](function.isset.md) [empty()](function.empty.md) [include](function.include.md) [require](function.require.md) і т.п. Вам необхідно реалізувати свою функцію-обертку для того, щоб наведені вище конструкції могли працювати зі змінними функціями.
 
@@ -118,7 +119,7 @@ $func(); // выведет "bar"
 
 ### Дивіться також
 
--   [ісcallable()](function.is-callable.md)
--   [calluserfunc()](function.call-user-func.md)
--   [functionexists()](function.function-exists.md)
+-   [is\_callable()](function.is-callable.md)
+-   [call\_user\_func()](function.call-user-func.md)
+-   [function\_exists()](function.function-exists.md)
 -   [змінні змінних](language.variables.variable.md)

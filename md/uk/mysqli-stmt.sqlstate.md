@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli-stmt.send-long-data.md: '« mysqlistmt::sendlongdata'
-  - mysqli-stmt.store-result.md: 'mysqlistmt::storeresult »'
+  - mysqli-stmt.send-long-data.md: '« mysqli\_stmt::send\_long\_data'
+  - mysqli-stmt.store-result.md: 'mysqli\_stmt::store\_result »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::$sqlstate'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::$sqlstate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::$sqlstate
+# mysqli\_stmt::$sqlstate
 
-# mysqlistmtsqlstate
+# mysqli\_stmt\_sqlstate
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::$sqlstate -- mysqlistmtsqlstate — Повернення коду помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
+mysqli\_stmt::$sqlstate -- mysqli\_stmt\_sqlstate — Повернення коду помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-string [$mysqlistmt->sqlstate](mysqli-stmt.sqlstate.md)
+string[$mysqli\_stmt->sqlstate](mysqli-stmt.sqlstate.md)
 
 Процедурний стиль
 
@@ -26,13 +27,13 @@ string [$mysqlistmt->sqlstate](mysqli-stmt.sqlstate.md)
 mysqli_stmt_sqlstate(mysqli_stmt $statement): string
 ```
 
-Повертає рядок, що містить код SQLSTATE, помилки, викликаної в результаті виконання останньої операції над запитом, яка може завершуватися успішно або неуспішно. Цей код складається з п'яти символів . `'00000'` означає відсутність помилок. Значення цього коду визначено у стандарті ANSI SQL, а також у ODBC. Повний список можливих кодів можна переглянути на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.html](http://dev.mysql.com/doc/mysql/en/error-handling.md)
+Повертає рядок, що містить код SQLSTATE, помилки, викликаної в результаті виконання останньої операції над запитом, яка може завершуватися успішно або неуспішно. Цей код складається з п'яти символів . `'00000'` означає відсутність помилок. Значення цього коду визначено у стандарті ANSI SQL, а також у ODBC. Повний список можливих кодів можна переглянути на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.md](http://dev.mysql.com/doc/mysql/en/error-handling.md)
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -114,7 +115,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Ошибка: 42S02.
@@ -122,11 +123,11 @@ mysqli_close($link);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Слід зазначити, що не всі помилки MySQL мають свій відбиток у кодах SQLSTATE. Для таких помилок використовується загальний код `HY000` (Загальна помилка).
 
 ### Дивіться також
 
--   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
--   [mysqlistmterror()](mysqli-stmt.error.md) - Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqli\_stmt\_errno()](mysqli-stmt.errno.md) \- Повертає код помилки виконання останнього запиту
+-   [mysqli\_stmt\_error()](mysqli-stmt.error.md) \- Повертає рядок із поясненням останньої помилки під час виконання запиту

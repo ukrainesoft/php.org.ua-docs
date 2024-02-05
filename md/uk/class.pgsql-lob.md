@@ -1,14 +1,15 @@
 ---
 navigation:
-  - class.pgsql-result.md: « PgSqlResult
+  - class.pgsql-result.md: « PgSql\\Result
   - book.sqlite3.md: SQLite3 »
   - index.md: PHP Manual
   - book.pgsql.md: PostgreSQL
-title: Клас PgSqlЛоб
+title: Клас PgSql\\Lob
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас PgSqlЛоб
+# Клас PgSql\\Lob
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -16,19 +17,11 @@ title: Клас PgSqlЛоб
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-    
-     
-      final
-      class PgSql\Lob
-     
+     final
+     class PgSql\Lob
      {
-    
-
    }
 ```

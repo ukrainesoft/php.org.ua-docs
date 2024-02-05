@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.swoole-get-local-ip.md: « swoolegetlocalіп
-  - function.swoole-load-module.md: swooleloadmodule »
+  - function.swoole-get-local-ip.md: « swoole\_get\_local\_ip
+  - function.swoole-load-module.md: swoole\_load\_module »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swoolelasterror
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_last\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swoolelasterror
+# swoole\_last\_error
 
 (PECL swoole >= 1.9.0)
 
-swoolelasterror — Отримати останнє повідомлення про помилку
+swoole\_last\_error — Отримати останнє повідомлення про помилку
 
 ### Опис
 

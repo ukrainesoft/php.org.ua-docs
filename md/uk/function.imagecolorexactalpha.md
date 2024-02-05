@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolorexactalpha
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecolorexactalpha
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagecolorexactalpha — Отримання індексу заданого кольору та альфа компонента
 
 ### Опис
 
 ```methodsynopsis
-imagecolorexactalpha(    GdImage $image,    int $red,    int $green,    int $blue,    int $alpha): int
+imagecolorexactalpha(    GdImage $image,    int $red,    int $green,    int $blue,    int $alpha): int
 ```
 
 Повертає індекс для заданого кольору та альфа компонента на панелі зображення.
@@ -40,7 +41,7 @@ imagecolorexactalpha(    GdImage $image,    int $red,    int $green,    int $blu
 
 `alpha`
 
-Значення в діапазоні від `0` до `127`. . `0` означає непрозорість, `127` означає абсолютну прозорість.
+Значение в диапазоне от до`127`. . означає непрозорість, `127` означає абсолютну прозорість.
 
 Параметри кольору можуть бути цілими в діапазоні від 0 до 255, або шістнадцятковими в діапазоні від 0x00 до 0xFF.
 
@@ -50,9 +51,9 @@ imagecolorexactalpha(    GdImage $image,    int $red,    int $green,    int $blu
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
@@ -77,7 +78,7 @@ imagedestroy($im);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -91,4 +92,4 @@ Array
 
 ### Дивіться також
 
--   [imagecolorclosestalpha()](function.imagecolorclosestalpha.md) - Отримання індексу кольору найближчого до заданого з урахуванням прозорості
+-   [imagecolorclosestalpha()](function.imagecolorclosestalpha.md) \- Отримання індексу кольору найближчого до заданого з урахуванням прозорості

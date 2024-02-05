@@ -1,16 +1,17 @@
 ---
 navigation:
   - function.sscanf.md: « sscanf
-  - function.str-ends-with.md: strendswith »
+  - function.str-decrement.md: str\_decrement »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: strcontains
+title: str\_contains
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# strcontains
+# str\_contains
 
 (PHP 8)
 
-strcontains — Визначає, чи містить рядок заданий підрядок
+str\_contains — Визначає, чи містить рядок заданий підрядок
 
 ### Опис
 
@@ -18,7 +19,7 @@ strcontains — Визначає, чи містить рядок заданий 
 str_contains(string $haystack, string $needle): bool
 ```
 
-Виконує перевірку з урахуванням регістру, що вказує, чи міститься `needle` в `haystack`
+Виконує перевірку з урахуванням регістру, що вказує, чи міститься `needle`в`haystack`
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ str_contains(string $haystack, string $needle): bool
 
 `needle`
 
-Підстрока для пошуку в `haystack`
+Подстрока для поиска в`haystack`
 
 ### Значення, що повертаються
 
@@ -46,7 +47,7 @@ if (str_contains('абв', '')) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Проверка существования пустой строки всегда возвращает true
@@ -71,7 +72,7 @@ if (str_contains($string, 'Ленивая')) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Строка 'ленивая' найдена в проверяемой строке
@@ -84,12 +85,12 @@ if (str_contains($string, 'Ленивая')) {
 
 ### Дивіться також
 
--   [strendswith()](function.str-ends-with.md) - Перевіряє, чи закінчується рядок заданим підрядком
--   [strstartswith()](function.str-starts-with.md) - Перевіряє, чи починається рядок із заданого підрядка
--   [stripos()](function.stripos.md) - Повертає позицію першого входження підрядка без урахування регістру
--   [strrpos()](function.strrpos.md) - Повертає позицію останнього входження підрядка у рядку
--   [strripos()](function.strripos.md) - Повертає позицію останнього входження підрядка без урахування регістру
--   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
--   [strpbrk()](function.strpbrk.md) - Шукає у рядку будь-який символ із заданого набору
--   [substr()](function.substr.md) - Повертає підрядок
--   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
+-   [str\_ends\_with()](function.str-ends-with.md) \- Перевіряє, чи закінчується рядок заданим підрядком
+-   [str\_starts\_with()](function.str-starts-with.md) \- Перевіряє, чи починається рядок із заданого підрядка
+-   [stripos()](function.stripos.md) \- Повертає позицію першого входження підрядка без урахування регістру
+-   [strrpos()](function.strrpos.md) \- Повертає позицію останнього входження підрядка у рядку
+-   [strripos()](function.strripos.md) \- Повертає позицію останнього входження підрядка без урахування регістру
+-   [strstr()](function.strstr.md) \- Знаходить перше входження підрядка
+-   [strpbrk()](function.strpbrk.md) \- Шукає у рядку будь-який символ із заданого набору
+-   [substr()](function.substr.md) \- Повертає підрядок
+-   [preg\_match()](function.preg-match.md) \- Виконує перевірку на відповідність регулярному виразу

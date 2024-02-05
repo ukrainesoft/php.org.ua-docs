@@ -5,22 +5,23 @@ navigation:
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::natsort'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::natsort
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ArrayObject::natsort — Сортувати масив за допомогою алгоритму "natural order"
 
 ### Опис
 
 ```methodsynopsis
-public ArrayObject::natsort(): bool
+public ArrayObject::natsort(): true
 ```
 
 Цей метод реалізує алгоритм сортування, при якому порядок літерно-цифрових рядків буде звичним для людини, зберігаючи при цьому ключ/значення. Такий алгоритм називається "природний порядок" (natural ordering). Приклад різниці між цим алгоритмом та звичайними алгоритмами сортування, (використовуються в [ArrayObject::asort](arrayobject.asort.md)) можна побачити у прикладі нижче.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо обидва порівнювані значення еквівалентні, вони зберігають свій початковий порядок. До PHP 8.0.0 їх відносний порядок у відсортованому масиві не було визначено.
 
@@ -32,9 +33,15 @@ public ArrayObject::natsort(): bool
 
 Функція не повертає значення після виконання.
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
+
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::natsort()****
+**Пример #1 Пример использования**ArrayObject::natsort()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +60,7 @@ print_r($arr2);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Стандартная сортировка
@@ -75,13 +82,13 @@ ArrayObject Object
 )
 ```
 
-Для більш детальної інформації дивіться сторінку Мартіна Пула (Martin Pool) [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
+Для більш детальної інформації дивіться сторінку Мартіна Пула (Martin Pool) [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
 
 ### Дивіться також
 
--   [ArrayObject::asort()](arrayobject.asort.md) - Сортувати записи за значенням
--   [ArrayObject::ksort()](arrayobject.ksort.md) - Сортувати записи за ключами
+-   [ArrayObject::asort()](arrayobject.asort.md) \- Сортувати записи за значенням
+-   [ArrayObject::ksort()](arrayobject.ksort.md) \- Сортувати записи за ключами
 -   [ArrayObject::natcasesort()](arrayobject.natcasesort.md) - Сортувати масив, використовуючи реєстронезалежний алгоритм "natural order"
--   [ArrayObject::uasort()](arrayobject.uasort.md) - Сортувати записи, використовуючи функцію користувача для порівняння елементів і зберігаючи при цьому зв'язок ключ/значення
--   [ArrayObject::uksort()](arrayobject.uksort.md) - Сортувати масив за ключами, використовуючи функцію користувача для порівняння
+-   [ArrayObject::uasort()](arrayobject.uasort.md) \- Сортувати записи, використовуючи функцію користувача для порівняння елементів і зберігаючи при цьому зв'язок ключ/значення
+-   [ArrayObject::uksort()](arrayobject.uksort.md) \- Сортувати масив за ключами, використовуючи функцію користувача для порівняння
 -   [natsort()](function.natsort.md) - Сортує масив, використовуючи алгоритм "natural order"

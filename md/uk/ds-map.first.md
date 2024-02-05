@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.filter.md: '« DsMap::filter'
-  - ds-map.get.md: 'ДсMap::get »'
+  - ds-map.filter.md: '« Ds\\Map::filter'
+  - ds-map.get.md: 'Ds\\Map::get »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::first'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::first'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::first
+# Ds\\Map::first
 
 (PECL ds >= 1.0.0)
 
-ДсMap::first — Повертає перший елемент колекції
+Ds\\Map::first — Повертає перший елемент колекції
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Map::first(): Ds\Pair
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::first()****
+**Пример #1 Пример использования**Ds\\Map::first()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($map->first());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Pair)#2 (2) {

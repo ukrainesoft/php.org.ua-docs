@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.mysql-query.md: « mysqlquery
-  - function.mysql-result.md: mysqlresult »
+  - function.mysql-query.md: « mysql\_query
+  - function.mysql-result.md: mysql\_result »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlrealescapestring
+title: mysql\_real\_escape\_string
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlrealescapestring
+# mysql\_real\_escape\_string
 
-(PHP 4> = 4.3.0, PHP 5)
+(PHP 4 >= 4.3.0, PHP 5)
 
-mysqlrealescapestring — Екран спеціальних символів у рядках для використання у виразах SQL
+mysql\_real\_escape\_string — Екран спеціальних символів у рядках для використання у виразах SQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlirealescapestring()](mysqli.real-escape-string.md)
+-   [mysqli\_real\_escape\_string()](mysqli.real-escape-string.md)
 -   [PDO::quote()](pdo.quote.md)
 
 ### Опис
@@ -25,9 +26,9 @@ mysqlrealescapestring — Екран спеціальних символів у 
 mysql_real_escape_string(string $unescaped_string, resource $link_identifier = NULL): string
 ```
 
-Екранує спеціальні символи в `unescaped_string`, беручи до уваги кодування з'єднання, таким чином, що результат можна безпечно використовувати в SQL-запиті у функції [mysqlquery()](function.mysql-query.md). Якщо вставляються бінарні дані, то до них необхідно застосовувати цю функцію.
+Екранує спеціальні символи в `unescaped_string`, беручи до уваги кодування з'єднання, таким чином, що результат можна безпечно використовувати в SQL-запиті у функції [mysql\_query()](function.mysql-query.md). Якщо вставляються бінарні дані, то до них необхідно застосовувати цю функцію.
 
-**mysqlrealescapestring()** викликає бібліотечну функцію MySQL mysqlrealescapestring, яка додає зворотну косу рису до наступних символів: `\x00` `\n` `\r` `\` `'` `"` і `\x1a`
+**mysql\_real\_escape\_string()** викликає бібліотечну функцію MySQL mysql\_real\_escape\_string, яка додає зворотну косу рису до наступних символів: `\x00` `\n` `\r` `\` `'` `"`и`\x1a`
 
 Ця функція повинна завжди (за декількома винятками) використовуватися для того, щоб убезпечити дані, що вставляють у запит перед відправкою його до MySQL.
 
@@ -35,7 +36,7 @@ mysql_real_escape_string(string $unescaped_string, resource $link_identifier = N
 
 # Безпека: кодування символів за промовчанням
 
-Кодування символів має встановлюватися як на сервері, так і за допомогою функції [mysqlsetcharset()](function.mysql-set-charset.md), щоб впливати на поведінку **mysqlrealescapestring()**. Докладніше описано в розділі [кодування символів](mysqlinfo.concepts.charset.md)
+Кодування символів має встановлюватися як на сервері, так і за допомогою функції [mysql\_set\_charset()](function.mysql-set-charset.md), щоб впливати на поведінку **mysql\_real\_escape\_string()**. Докладніше описано в розділі [кодування символів](mysqlinfo.concepts.charset.md)
 
 ### Список параметрів
 
@@ -45,11 +46,11 @@ mysql_real_escape_string(string $unescaped_string, resource $link_identifier = N
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, буде використано останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Повертає рядок, де екрановані всі необхідні символи, або **`false`** у разі виникнення помилки.
+Повертає рядок, де екрановані всі необхідні символи, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -57,7 +58,7 @@ mysql_real_escape_string(string $unescaped_string, resource $link_identifier = N
 
 ### Приклади
 
-**Приклад #1 Простий приклад використання **mysqlrealescapestring()****
+**Приклад #1 Простий приклад використання **mysql\_real\_escape\_string()****
 
 ```php
 <?php
@@ -72,7 +73,7 @@ $query = sprintf("SELECT * FROM users WHERE user='%s' AND password='%s'",
 ?>
 ```
 
-**Приклад #2 Приклад використання **mysqlrealescapestring()** без наявності з'єднання**
+**Пример #2 Пример использования**mysql\_real\_escape\_string()\*\* без наявності з'єднання\*\*
 
 Цей приклад показує, що станеться, якщо викликати цю функцію без з'єднання з MySQL.
 
@@ -90,7 +91,7 @@ var_dump($query);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Warning: mysql_real_escape_string(): No such file or directory in /this/test/script.php on line 5
@@ -128,25 +129,17 @@ SELECT * FROM users WHERE user='aidan' AND password='' OR ''=''
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> функцію **mysqlrealescapestring()** можна використовувати тільки після встановлення з'єднання з MySQL. В іншому випадку виникне помилка рівня **`E_WARNING`**, а функція поверне **`false`**. Якщо `link_identifier` не вказано, використовується останнє відкрите з'єднання.
+> Функцию**mysql\_real\_escape\_string()** можна використовувати тільки після встановлення з'єднання з MySQL. В іншому випадку виникне помилка рівня **`E_WARNING`**, а функція поверне **`false`**. Якщо `link_identifier` не вказано, використовується останнє відкрите з'єднання.
 
-> **Зауваження**
-> 
-> Якщо [magicquotesgpc](info.configuration.md#ini.magic-quotes-gpc) включені, то спочатку дані слід обробити функцією [stripslashes()](function.stripslashes.md). Якщо цю функцію застосувати до вже проекранованих даних, дані будуть проекрановані двічі.
-
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо не користуватися цією функцією, то запит стає вразливим для [злому за допомогою SQL-ін'єкцій](security.database.sql-injection.md)
 
-> **Зауваження** **mysqlrealescapestring()** не екранує символи `%` і `_`. Ці символи є масками груп символів в операторах MySQL `LIKE` `GRANT` і `REVOKE`
+> **Зауваження** **mysql\_real\_escape\_string()** не екранує символи `%`и`_`. Ці символи є масками груп символів в операторах MySQL `LIKE` `GRANT`и`REVOKE`
 
 ### Дивіться також
 
--   [mysqlsetcharset()](function.mysql-set-charset.md) - Встановлює кодування клієнта
--   [mysqlclientencoding()](function.mysql-client-encoding.md) - Повертає кодування з'єднання
--   [addslashes()](function.addslashes.md) - Екранує рядок за допомогою слішів
--   [stripslashes()](function.stripslashes.md) - Видаляє екранування символів
--   Директива [magicquotesgpc](info.configuration.md#ini.magic-quotes-gpc)
--   Директива [magicquotesruntime](info.configuration.md#ini.magic-quotes-runtime)
+-   [mysql\_set\_charset()](function.mysql-set-charset.md) \- Встановлює кодування клієнта
+-   [mysql\_client\_encoding()](function.mysql-client-encoding.md) \- Повертає кодування з'єднання

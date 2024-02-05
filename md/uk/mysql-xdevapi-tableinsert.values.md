@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-tableinsert.execute.md: '« TableInsert::execute'
-  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect »
+  - class.mysql-xdevapi-tableselect.md: mysql\_xdevapi\\TableSelect »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableinsert.md: mysqlxdevapiTableInsert
+  - class.mysql-xdevapi-tableinsert.md: mysql\_xdevapi\\TableInsert
 title: 'TableInsert::values'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableInsert::values
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableInsert::values(array $row_values): mysql_xdevapi\Table
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableInsert::values()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableInsert::values()\*\*\*\*
 
 ```php
 <?php

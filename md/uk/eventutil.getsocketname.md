@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventutil.md: EventUtil
 title: 'EventUtil::getSocketName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventUtil::getSocketName
 
@@ -47,4 +48,4 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

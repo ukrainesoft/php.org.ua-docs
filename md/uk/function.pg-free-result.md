@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-flush.md: « pgflush
-  - function.pg-get-notify.md: пгgetnotify »
+  - function.pg-flush.md: « pg\_flush
+  - function.pg-get-notify.md: pg\_get\_notify »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгfreeresult
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_free\_result
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгfreeresult
+# pg\_free\_result
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгfreeresult — Очищення результату запиту та звільнення пам'яті
+pg\_free\_result — Очищення результату запиту та звільнення пам'яті
 
 ### Опис
 
@@ -18,33 +19,33 @@ title: пгfreeresult
 pg_free_result(PgSql\Result $result): bool
 ```
 
-**пгfreeresult()** звільняє пам'ять, зайняту екземпляром [PgSqlResult](class.pgsql-result.md)
+**pg\_free\_result()** звільняє пам'ять, зайняту екземпляром [PgSql\\Result](class.pgsql-result.md)
 
-Викликати цю функцію слід лише у разі нестачі пам'яті під час виконання скрипта. У будь-якому випадку пам'ять буде звільнено автоматично після закінчення роботи скрипту.
+Викликати цю функцію слід лише у разі нестачі пам'яті під час виконання скрипту. У будь-якому випадку пам'ять буде звільнено автоматично після закінчення роботи скрипту.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Колишня назва функції: **пгfreeresult()**
+> Прежнее название функции:**pg\_freeresult()**
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSql\\Result](class.pgsql-result.md), що повертається функціями [pg\_query()](function.pg-query.md) [pg\_query\_params()](function.pg-query-params.md) або [pg\_execute()](function.pg-execute.md)(среди прочего).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгfreeresult()****
+**Пример #1 Пример использования**pg\_free\_result()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ pg_free_result($res);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Первое поле во второй строчке: 2
@@ -68,6 +69,6 @@ pg_free_result($res);
 
 ### Дивіться також
 
--   [пгquery()](function.pg-query.md) - Виконує запит
--   [пгqueryparams()](function.pg-query-params.md) - Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту
--   [пгexecute()](function.pg-execute.md) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
+-   [pg\_query()](function.pg-query.md) \- Виконує запит
+-   [pg\_query\_params()](function.pg-query-params.md) \- Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту
+-   [pg\_execute()](function.pg-execute.md) \- Запускає виконання раніше підготовленого параметризованого запиту та чекає результату

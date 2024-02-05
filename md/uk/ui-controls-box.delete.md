@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-box.construct.md: '« UIControlsBox::construct'
-  - ui-controls-box.getorientation.md: 'ОЙControlsBox::getOrientation »'
+  - ui-controls-box.construct.md: '« UI\\Controls\\Box::\_\_construct'
+  - ui-controls-box.getorientation.md: 'UI\\Controls\\Box::getOrientation »'
   - index.md: PHP Manual
-  - class.ui-controls-box.md: ОЙControlsBox
-title: 'ОЙControlsBox::delete'
+  - class.ui-controls-box.md: UI\\Controls\\Box
+title: 'UI\\Controls\\Box::delete'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsBox::delete
+# UI\\Controls\\Box::delete
 
 (UI 0.9.9)
 
-ОЙControlsBox::delete — Видалити елемент керування
+UI\\Controls\\Box::delete — Видалити елемент керування
 
 ### Опис
 

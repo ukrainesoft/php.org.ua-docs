@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.merge.md: '« DsSet::merge'
-  - ds-set.remove.md: 'ДсSet::remove »'
+  - ds-set.merge.md: '« Ds\\Set::merge'
+  - ds-set.remove.md: 'Ds\\Set::remove »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::reduce'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::reduce'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::reduce
+# Ds\\Set::reduce
 
 (PECL ds >= 1.0.0)
 
-ДсSet::reduce — Зменшує колекцію до одного значення, використовуючи callback-функцію
+Ds\\Set::reduce — Зменшує колекцію до одного значення, використовуючи callback-функцію
 
 ### Опис
 
@@ -46,7 +47,7 @@ callback(mixed $carry, mixed $value): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::reduce()** з початковим значенням**
+**Пример #1 Пример использования**Ds\\Set::reduce()\*\* з початковим значенням\*\*
 
 ```php
 <?php
@@ -68,13 +69,13 @@ var_dump($set->reduce($callback, 5));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(30)
 ```
 
-**Приклад #2 Приклад використання **ДсSet::reduce()** без початкового значення**
+**Пример #2 Пример использования**Ds\\Set::reduce()\*\* без початкового значення\*\*
 
 ```php
 <?php
@@ -94,7 +95,7 @@ var_dump($set->reduce(function($carry, $value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(21)

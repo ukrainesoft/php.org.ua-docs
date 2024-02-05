@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.apcuiterator.md: APCUIterator
 title: 'APCUIterator::getTotalHits'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # APCUIterator::getTotalHits
 
@@ -22,7 +23,7 @@ public APCUIterator::getTotalHits(): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,10 +31,10 @@ public APCUIterator::getTotalHits(): int
 
 ### Значення, що повертаються
 
-Кількість влучень у разі успішного виконання або **`false`** у разі виникнення помилки.
+Кількість влучень у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.md) - Отримати загальну кількість записів
--   [APCUIterator::getTotalSize()](apcuiterator.gettotalsize.md) - Загальний розмір кешу
--   [apcucacheinfo()](function.apcu-cache-info.md) - Витягує закешовану інформацію зі сховища APCu
+-   [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.md) \- Отримати загальну кількість записів
+-   [APCUIterator::getTotalSize()](apcuiterator.gettotalsize.md) \- Загальний розмір кешу
+-   [apcu\_cache\_info()](function.apcu-cache-info.md) \- Витягує закешовану інформацію зі сховища APCu

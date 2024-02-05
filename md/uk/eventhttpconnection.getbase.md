@@ -1,10 +1,11 @@
 ---
 navigation:
-  - eventhttpconnection.construct.md: '« EventHttpConnection::construct'
+  - eventhttpconnection.construct.md: '« EventHttpConnection::\_\_construct'
   - eventhttpconnection.getpeer.md: 'EventHttpConnection::getPeer »'
   - index.md: PHP Manual
   - class.eventhttpconnection.md: EventHttpConnection
 title: 'EventHttpConnection::getBase'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpConnection::getBase
 

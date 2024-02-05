@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-set-db-operation.md: « ocisetдбoperation
-  - function.oci-set-module-name.md: ocisetmodulename »
+  - function.oci-set-db-operation.md: « oci\_set\_db\_operation
+  - function.oci-set-module-name.md: oci\_set\_module\_name »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocisetedition
+  - ref.oci8.md: OCI8 Функції
+title: oci\_set\_edition
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocisetedition
+# oci\_set\_edition
 
-(PHP 5> = 5.3.2, PHP 7, PHP 8, PECL OCI8> = 1.4.0)
+(PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL OCI8 >= 1.4.0)
 
-ocisetedition - Задає випуск (edition) бази даних
+oci\_set\_edition - Задає випуск (edition) бази даних
 
 ### Опис
 
@@ -22,9 +23,9 @@ oci_set_edition(string $edition): bool
 
 Подібні "випуски" Oracle дозволяють запускати програми, що використовують однакові схеми та імена об'єктів у конкурентному режимі. Це може бути корисним при модернізації працюючих систем без їх відключення.
 
-Викликайте **ocisetedition()** до виклику [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md) або [ocinewconnect()](function.oci-new-connect.md)
+Викликайте **oci\_set\_edition()** до виклику [oci\_connect()](function.oci-connect.md) [oci\_pconnect()](function.oci-pconnect.md) або [oci\_new\_connect()](function.oci-new-connect.md)
 
-Якщо заданий випуск неприпустимий у базі даних, з'єднання не встановлюватиметься, навіть якщо функція **ocisetedition()** успішно виконається.
+Якщо заданий випуск неприпустимий у базі даних, з'єднання не встановлюватиметься, навіть якщо функція **oci\_set\_edition()** успішно виконається.
 
 При використанні постійних з'єднань, якщо з'єднання з цим значенням серії вже існує, воно буде використано повторно. В інших випадках буде створюватись нове з'єднання.
 
@@ -36,7 +37,7 @@ oci_set_edition(string $edition): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -82,7 +83,7 @@ echo "Результат: $r\n";
 
 > **Зауваження** **Вимога до версії Oracle**
 > 
-> Ця функція доступна, починаючи з Oracle 11*г*R2.
+> Ця функція доступна, починаючи з Oracle 11*g*R2.
 
 **Застереження**
 
@@ -94,4 +95,4 @@ echo "Результат: $r\n";
 
 # DRCP об'єднання з'єднань у пул
 
-Щоб уникнути несумісності та випадкових помилок при використанні серій та [DRCP](oci8.connection.md) в Oracle 11.2.0.1 дотримуйтесь однозначної відповідності між [oci8.connectionclass](oci8.configuration.md#ini.oci8.connection-class) та ім'ям "випуску", яким користуються додатки. Кожен сервер, що входить до складу пулу із заданим класом з'єднань, повинен використовуватися лише з одним "випуском". Це обмеження усунуто у версії Oracle 11.2.0.2.
+Щоб уникнути несумісності та випадкових помилок при використанні серій та [DRCP](oci8.connection.md) в Oracle 11.2.0.1 дотримуйтесь однозначної відповідності між [oci8.connection\_class](oci8.configuration.md#ini.oci8.connection-class) та ім'ям "випуску", яким користуються додатки. Кожен сервер, що входить до складу пулу із заданим класом з'єднань, повинен використовуватися лише з одним "випуском". Це обмеження усунуто у версії Oracle 11.2.0.2.

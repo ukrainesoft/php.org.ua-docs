@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getwriteerrors.md: '« MongoDBDriverWriteResult::getWriteErrors'
-  - book.bson.md: MongoDBBSON »
+  - mongodb-driver-writeresult.getwriteerrors.md: '« MongoDB\\Driver\\WriteResult::getWriteErrors'
+  - book.bson.md: MongoDB\\BSON »
   - index.md: PHP Manual
-  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
-title: 'MongoDBDriverWriteResult::isAcknowledged'
+  - class.mongodb-driver-writeresult.md: MongoDB\\Driver\\WriteResult
+title: 'MongoDB\\Driver\\WriteResult::isAcknowledged'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteResult::isAcknowledged
+# MongoDB\\Driver\\WriteResult::isAcknowledged
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteResult::isAcknowledged — Повертає, чи був запис підтверджений
+MongoDB\\Driver\\WriteResult::isAcknowledged — Повертає, чи був запис підтверджений
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverWriteResult::isAcknowledged — Повертає, чи був за�
 final public MongoDB\Driver\WriteResult::isAcknowledged(): bool
 ```
 
-Якщо запис підтверджено, інші поля будуть доступні в об'єкті [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md)
+Якщо запис підтверджено, інші поля будуть доступні в об'єкті [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.md)
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ final public MongoDB\Driver\WriteResult::isAcknowledged(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteResult::isAcknowledged()** з підтвердженими гарантіями запису**
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::isAcknowledged()\*\* з підтвердженими гарантіями запису\*\*
 
 ```php
 <?php
@@ -51,13 +52,13 @@ var_dump($result->isAcknowledged());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
 ```
 
-**Приклад #2 Приклад використання **MongoDBDriverWriteResult::isAcknowledged()** з непідтвердженими гарантіями запису**
+**Пример #2 Пример использования**MongoDB\\Driver\\WriteResult::isAcknowledged()\*\* з непідтвердженими гарантіями запису\*\*
 
 ```php
 <?php
@@ -74,7 +75,7 @@ var_dump($result->isAcknowledged());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -82,5 +83,5 @@ bool(false)
 
 ### Дивіться також
 
--   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
--   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.md)
+-   [» Довідка по гарантіях запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-response-abstract.setbody.md: '« YafResponseAbstract::setBody'
-  - yaf-response-abstract.setredirect.md: 'YafResponseAbstract::setRedirect »'
+  - yaf-response-abstract.setbody.md: '« Yaf\_Response\_Abstract::setBody'
+  - yaf-response-abstract.setredirect.md: 'Yaf\_Response\_Abstract::setRedirect »'
   - index.md: PHP Manual
-  - class.yaf-response-abstract.md: YafResponseAbstract
-title: 'YafResponseAbstract::setHeader'
+  - class.yaf-response-abstract.md: Yaf\_Response\_Abstract
+title: 'Yaf\_Response\_Abstract::setHeader'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafResponseAbstract::setHeader
+# Yaf\_Response\_Abstract::setHeader
 
 (Yaf >=1.0.0)
 
-YafResponseAbstract::setHeader — Встановлює заголовок відповіді
+Yaf\_Response\_Abstract::setHeader — Встановлює заголовок відповіді
 
 ### Опис
 
@@ -28,5 +29,5 @@ public Yaf_Response_Abstract::setHeader(string $name, string $value, bool $repla
 
 ### Дивіться також
 
--   [YafResponseAbstract::getHeader()](yaf-response-abstract.getheader.md) - Призначення getHeader
--   **YafResponseAbstract::cleanHeaders()**
+-   [Yaf\_Response\_Abstract::getHeader()](yaf-response-abstract.getheader.md) \- Призначення getHeader
+-   **Yaf\_Response\_Abstract::cleanHeaders()**

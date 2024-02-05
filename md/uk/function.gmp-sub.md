@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-strval.md: « gmpstrval
-  - function.gmp-testbit.md: gmptestbit »
+  - function.gmp-strval.md: « gmp\_strval
+  - function.gmp-testbit.md: gmp\_testbit »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpsub
+title: gmp\_sub
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpsub
+# gmp\_sub
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpsub — Віднімання чисел
+gmp\_sub — Віднімання чисел
 
 ### Опис
 
@@ -36,11 +37,11 @@ gmp_sub(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.md)ю
+Об'єкт класу [GMP](class.gmp.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpsub()****
+**Пример #1 Пример использования**gmp\_sub()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ echo gmp_strval($sub) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 281470681743360

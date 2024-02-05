@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isUserDefined'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::isUserDefined
 
@@ -26,8 +27,8 @@ public ReflectionClass::isUserDefined(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ReflectionClass::isInternal()](reflectionclass.isinternal.md) - Перевіряє, чи є клас вбудованим у модуль чи ядро
+-   [ReflectionClass::isInternal()](reflectionclass.isinternal.md) \- Перевіряє, чи клас вбудований в модуль або в ядро

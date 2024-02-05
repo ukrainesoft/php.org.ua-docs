@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-stroke.setjoin.md: '« UIDrawStroke::setJoin'
-  - ui-draw-stroke.setthickness.md: 'ОЙDrawStroke::setThickness »'
+  - ui-draw-stroke.setjoin.md: '« UI\\Draw\\Stroke::setJoin'
+  - ui-draw-stroke.setthickness.md: 'UI\\Draw\\Stroke::setThickness »'
   - index.md: PHP Manual
-  - class.ui-draw-stroke.md: ОЙDrawStroke
-title: 'ОЙDrawStroke::setMiterLimit'
+  - class.ui-draw-stroke.md: UI\\Draw\\Stroke
+title: 'UI\\Draw\\Stroke::setMiterLimit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawStroke::setMiterLimit
+# UI\\Draw\\Stroke::setMiterLimit
 
 (UI 0.9.9)
 
-ОЙDrawStroke::setMiterLimit — Встановити межу зрізу
+UI\\Draw\\Stroke::setMiterLimit — Встановити межу зрізу
 
 ### Опис
 

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - evloop.construct.md: '« EvLoop::construct'
+  - evloop.construct.md: '« EvLoop::\_\_construct'
   - evloop.embed.md: 'EvLoop::embed »'
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::defaultLoop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::defaultLoop
 
@@ -17,19 +18,19 @@ EvLoop::defaultLoop — Повертає або створює цикл поді
 ```methodsynopsis
 public
    static
-   EvLoop::defaultLoop(    
+   EvLoop::defaultLoop(    
     int
      $flags
      = Ev::FLAG_AUTO
-   ,    
+   ,    
     mixed
      $data
      = NULL
-   ,    
+   ,    
     float
      $io_interval
      = 0.
-   ,    
+   ,    
     float
      $timeout_interval
      = 0.
@@ -42,7 +43,7 @@ public
 
 `flags`
 
-Один з [прапори циклу подій](class.ev.md#ev.constants.loop-flags)
+Один из[прапори циклу подій](class.ev.md#ev.constants.loop-flags)
 
 `data`
 
@@ -50,11 +51,11 @@ public
 
 `io_collect_interval`
 
-Дивіться [іоinterval](class.evloop.md#evloop.props.io-interval)
+Смотрите[io\_interval](class.evloop.md#evloop.props.io-interval)
 
 `timeout_collect_interval`
 
-Дивіться [timeoutinterval](class.evloop.md#evloop.props.timeout-interval)
+Смотрите[timeout\_interval](class.evloop.md#evloop.props.timeout-interval)
 
 ### Значення, що повертаються
 
@@ -62,4 +63,4 @@ public
 
 ### Дивіться також
 
--   [EvLoop::construct()](evloop.construct.md) - Конструктор об'єкта циклу подій
+-   [EvLoop::\_\_construct()](evloop.construct.md) \- Конструктор об'єкта циклу подій

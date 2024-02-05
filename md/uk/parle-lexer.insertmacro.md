@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-lexer.gettoken.md: '« ParleLexer::getToken'
-  - parle-lexer.push.md: 'ParleLexer::push »'
+  - parle-lexer.gettoken.md: '« Parle\\Lexer::getToken'
+  - parle-lexer.push.md: 'Parle\\Lexer::push »'
   - index.md: PHP Manual
-  - class.parle-lexer.md: ParleLexer
-title: 'ParleLexer::insertMacro'
+  - class.parle-lexer.md: Parle\\Lexer
+title: 'Parle\\Lexer::insertMacro'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleLexer::insertMacro
+# Parle\\Lexer::insertMacro
 
 (PECL parle >= 0.5.1)
 
-ParleLexer::insertMacro — Вставляє макрос регулярного виразу
+Parle\\Lexer::insertMacro — Вставляє макрос регулярного виразу
 
 ### Опис
 

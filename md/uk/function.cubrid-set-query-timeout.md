@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-set-drop.md: « cubridsetdrop
-  - function.cubrid-version.md: cubridversion »
+  - function.cubrid-set-drop.md: « cubrid\_set\_drop
+  - function.cubrid-version.md: cubrid\_version »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridsetquerytimeout
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_set\_query\_timeout
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridsetquerytimeout
+# cubrid\_set\_query\_timeout
 
 (PECL CUBRID >= 8.4.1)
 
-cubridsetquerytimeout — Встановлює час очікування на виконання запиту
+cubrid\_set\_query\_timeout — Встановлює час очікування на виконання запиту
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridsetquerytimeout — Встановлює час очікування на 
 cubrid_set_query_timeout(resource $req_identifier, int $timeout): bool
 ```
 
-Функція **cubridsetquerytimeout()** використовується для встановлення часу очікування на виконання запиту.
+Функция**cubrid\_set\_query\_timeout()** використовується для встановлення часу очікування на виконання запиту.
 
 ### Список параметрів
 
@@ -32,8 +33,8 @@ Request identifier.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [cubridgetquerytimeout()](function.cubrid-get-query-timeout.md) - Отримує значення часу очікування запиту
+-   [cubrid\_get\_query\_timeout()](function.cubrid-get-query-timeout.md) \- Отримує значення часу очікування запиту

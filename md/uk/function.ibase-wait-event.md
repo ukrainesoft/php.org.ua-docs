@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-trans.md: « ibasetrans
+  - function.ibase-trans.md: « ibase\_trans
   - book.ibm-db2.md: IBM DB2 »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibasewaitevent
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_wait\_event
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibasewaitevent
+# ibase\_wait\_event
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibasewaitevent — Чекаємо, доки подія буде опублікована в базі даних
+ibase\_wait\_event — Чекаємо, доки подія буде опублікована в базі даних
 
 ### Опис
 
@@ -38,5 +39,5 @@ ibase_wait_event(resource $connection, string $event_name, string ...$event_name
 
 ### Дивіться також
 
--   [ibaseseteventhandler()](function.ibase-set-event-handler.md) - Реєструє callback-функцію, яка буде викликатись при публікації подій
--   [ibasefreeeventhandler()](function.ibase-free-event-handler.md) - скасовує зареєстрований обробник події
+-   [ibase\_set\_event\_handler()](function.ibase-set-event-handler.md) \- Реєструє callback-функцію, яка буде викликатись при публікації подій
+-   [ibase\_free\_event\_handler()](function.ibase-free-event-handler.md) \- скасовує зареєстрований обробник події

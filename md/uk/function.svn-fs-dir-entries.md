@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-delete.md: « svnфсdelete
-  - function.svn-fs-file-contents.md: svnфсfilecontents »
+  - function.svn-fs-delete.md: « svn\_fs\_delete
+  - function.svn-fs-file-contents.md: svn\_fs\_file\_contents »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсdirentries
+title: svn\_fs\_dir\_entries
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсdirentries
+# svn\_fs\_dir\_entries
 
 (PECL svn >= 0.1.0)
 
-svnфсdirentries - Перераховує елементи директорії по заданому шляху; повертає хеш імен директорій та типів файлів
+svn\_fs\_dir\_entries - Перераховує елементи директорії по заданому шляху; повертає хеш імен директорій та типів файлів
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_dir_entries(resource $fsroot, string $path): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Перераховує елементи директорії заданим шляхом; повертає хеш імен директорій та типів файлів.
 

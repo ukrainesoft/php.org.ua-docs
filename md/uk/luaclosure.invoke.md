@@ -4,13 +4,14 @@ navigation:
   - book.luasandbox.md: LuaSandbox »
   - index.md: PHP Manual
   - class.luaclosure.md: LuaClosure
-title: 'LuaClosure::invoke'
+title: 'LuaClosure::\_\_invoke'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# LuaClosure::invoke
+# LuaClosure::\_\_invoke
 
-(PECL lua> = 0.9.0)
+(PECL lua >=0.9.0)
 
-LuaClosure::invoke — Виклик замикання Lua
+LuaClosure::\_\_invoke — Виклик замикання Lua
 
 ### Опис
 
@@ -20,7 +21,7 @@ public LuaClosure::__invoke(mixed ...$args): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public LuaClosure::__invoke(mixed ...$args): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання**LuaClosure::invoke()\*\*\*\*
+**Приклад #1 Приклад використання**LuaClosure::\_\_invoke()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ $closure();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 hello worldhello world

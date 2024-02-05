@@ -1,16 +1,17 @@
 ---
 navigation:
-  - simplexml.examples-basic.md: « Базовое использование SimpleXML
+  - simplexml.examples-basic.md: « Базове використання SimpleXML
   - class.simplexmlelement.md: SimpleXMLElement »
   - index.md: PHP Manual
   - simplexml.examples.md: Приклади
 title: Робота з помилками XML
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Робота з помилками XML
 
 Робота з помилками XML під час завантаження документів є дуже простим завданням. Використання функціональності [libxml](book.libxml.md) дозволяє придушити всі помилки XML під час завантаження документа і потім обробити їх.
 
-Об'єкт [libXMLError](class.libxmlerror.md), що повертається [libxmlgeterrors()](function.libxml-get-errors.md)містить кілька властивостей, у тому числі [сообщение](class.libxmlerror.md#libxmlerror.props.message) [номер рядка](class.libxmlerror.md#libxmlerror.props.line) і [колонку](class.libxmlerror.md#libxmlerror.props.column) (Позицію) цієї помилки.
+Об'єкт [libXMLError](class.libxmlerror.md), що повертається [libxml\_get\_errors()](function.libxml-get-errors.md)містить кілька властивостей, у тому числі [повідомлення](class.libxmlerror.md#libxmlerror.props.message) [номер рядка](class.libxmlerror.md#libxmlerror.props.line) і [колонку](class.libxmlerror.md#libxmlerror.props.column) (Позицію) цієї помилки.
 
 **Приклад #1 Завантаження синтаксично неправильного рядка XML**
 
@@ -27,7 +28,7 @@ if (!$sxe) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Ошибка загрузки XML
@@ -39,6 +40,6 @@ if (!$sxe) {
 
 ## Дивіться також
 
--   [libxmluseinternalerrors()](function.libxml-use-internal-errors.md)
--   [libxmlgeterrors()](function.libxml-get-errors.md)
--   [libXMLError](class.libxmlerror.md)
+-   [libxml\_use\_internal\_errors()](function.libxml-use-internal-errors.md)
+-   [libxml\_get\_errors()](function.libxml-get-errors.md)
+-   [LibXMLError](class.libxmlerror.md)

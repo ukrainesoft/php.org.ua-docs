@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::getCPUUsage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # LuaSandbox::getCPUUsage
 
@@ -28,14 +29,14 @@ public LuaSandbox::getCPUUsage(): float
 
 ### Значення, що повертаються
 
-Повертає поточний час використання процесора за секунди.
+Повертає час використання процесора в секундах.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > У Windows ця функція завжди повертає нуль. В операційних системах, які не підтримують **`CLOCK_THREAD_CPUTIME_ID`**, таких як FreeBSD і Mac OS X, функція повертає минулий фізичний час, а чи не час процесора.
 
 ### Дивіться також
 
--   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.md) - Повертає поточне використання пам'яті у середовищі Lua
--   [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.md) - Повертає пікове використання пам'яті в середовищі Lua
--   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.md) - Встановлює обмеження часу процесора для середовища Lua
+-   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.md) \- Повертає поточне використання пам'яті у середовищі Lua
+-   [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.md) \- Повертає пікове використання пам'яті в середовищі Lua
+-   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.md) \- Встановлює обмеження часу процесора для середовища Lua

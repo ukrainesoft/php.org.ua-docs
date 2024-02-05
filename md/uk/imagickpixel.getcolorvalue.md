@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::getColorValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::getColorValue
 
@@ -24,7 +25,7 @@ public ImagickPixel::getColorValue(int $color): float
 
 `color`
 
-Колір, для якого виходить значення, задане однією з констант Imagick. Це RGB колір, CMYK колір, альфа канал або прозорість (Imagick::COLORBLUE, Imagick::COLORMAGENTA);
+Колір, для якого виходить значення, задане однією з констант Imagick. Це RGB колір, CMYK колір, альфа канал або прозорість (Imagick::COLOR\_BLUE, Imagick::COLOR\_MAGENTA);
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public ImagickPixel::getColorValue(int $color): float
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::getColorValue()****
+**Пример #1 Пример использования**Imagick::getColorValue()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ echo "Значение чёрного канала ".$color->getColorValue(Imagi
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Значение альфа канала 0.74999618524453

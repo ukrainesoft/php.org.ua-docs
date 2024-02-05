@@ -4,49 +4,50 @@ navigation:
   - eventbufferevent.createpair.md: 'EventBufferEvent::createPair »'
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
-title: 'EventBufferEvent::construct'
+title: 'EventBufferEvent::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# EventBufferEvent::construct
+# EventBufferEvent::\_\_construct
 
 (PECL event >= 1.2.6-beta)
 
-EventBufferEvent::construct — Створює об'єкт EventBufferEvent
+EventBufferEvent::\_\_construct — Створює об'єкт EventBufferEvent
 
 ### Опис
 
 ```methodsynopsis
 public
-   EventBufferEvent::__construct(    
+   EventBufferEvent::__construct(    
     EventBase
      $base
-   ,    
+   ,    
     mixed
      $socket
      = null
-   ,    
+   ,    
     int
      $options
      = 0
-   ,    
+   ,    
     callable
      $readcb
      = null
-   ,    
+   ,    
     callable
      $writecb
      = null
-   ,    
+   ,    
     callable
      $eventcb
      = null
-   ,    
+   ,    
     mixed
      $arg
      = null
    )
 ```
 
-Створює подію буфера для сокету, потоку чи файлового дескриптора. Передача **`null`** в `socket` означає, що сокет повинен бути створений пізніше, наприклад, за допомогою [EventBufferEvent::connect()](eventbufferevent.connect.md)
+Створює подію буфера для сокету, потоку чи файлового дескриптора. Передача \*\*`null`\*\*в`socket` означає, що сокет повинен бути створений пізніше, наприклад, за допомогою [EventBufferEvent::connect()](eventbufferevent.connect.md)
 
 ### Список параметрів
 
@@ -56,33 +57,29 @@ public
 
 `socket`
 
-Може бути створений у вигляді потоку (не обов'язково за допомогою модуля `sockets`
+Дозволено створювати у вигляді потоку (не обов'язково засобами модуля `sockets`
 
 `options`
 
-Одна з [констант EventBufferEvent::OPT](class.eventbufferevent.md#eventbufferevent.constants) або **`0`**
+Константа семейства[EventBufferEvent::OPT\_\*](class.eventbufferevent.md#eventbufferevent.constants)или
 
 `readcb`
 
-Callback-функція читання. Зверніться до розділу [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md)
+Callback-функція події читання. Докладніше розказано у розділі « [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md) ».
 
 `writecb`
 
-Callback-функція запису. Зверніться до розділу [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md)
+Callback – функція події запису. Докладніше розказано у розділі « [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md) ».
 
 `eventcb`
 
-Callback – функція події зміни статусу. Зверніться до розділу [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md)
+Callback – функція події зміни статусу. Докладніше розказано у розділі « [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md) ».
 
 `arg`
 
-Змінна, яка буде передана всім callback-функціям.
-
-### Значення, що повертаються
-
-Повертає ресурс події буфера, пов'язаний у разі потреби з ресурсом сокету.
+Змінна, яка буде передана кожній callback-функції.
 
 ### Дивіться також
 
--   [EventBufferEvent::sslFilter()](eventbufferevent.sslfilter.md) - Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
--   [EventBufferEvent::sslSocket()](eventbufferevent.sslsocket.md) - Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
+-   [EventBufferEvent::sslFilter()](eventbufferevent.sslfilter.md) \- Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
+-   [EventBufferEvent::sslSocket()](eventbufferevent.sslsocket.md) \- Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет

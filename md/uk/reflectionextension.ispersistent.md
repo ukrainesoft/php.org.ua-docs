@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::isPersistent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionExtension::isPersistent
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 ReflectionExtension::isPersistent — Визначає, чи модуль постійний
 
@@ -18,9 +19,9 @@ ReflectionExtension::isPersistent — Визначає, чи модуль пос
 public ReflectionExtension::isPersistent(): bool
 ```
 
-**Увага**
+Перевіряє, чи модуль постійний
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Модуль є незмінним, якщо він завантажується за допомогою php.ini. Модуль є тимчасовим, а не постійним, якщо він завантажується за допомогою функції [dl()](function.dl.md)
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ public ReflectionExtension::isPersistent(): bool
 
 ### Дивіться також
 
--   [ReflectionExtension::isTemporary()](reflectionextension.istemporary.md) - Визначає, чи модуль тимчасовим
+-   [ReflectionExtension::isTemporary()](reflectionextension.istemporary.md) \- Визначає, чи модуль тимчасовим

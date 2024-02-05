@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fgetc'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::fgetc
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fgetc — Отримує символ із файлу
 
@@ -26,15 +27,15 @@ public SplFileObject::fgetc(): string|false
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить один символ, прочитаний із файлу, або **`false`** при досягненні кінця файлу (EOF).
+Повертає рядок, що містить один символ, прочитаний із файлу, або \*\*`false`\*\*при достижении конца файла (EOF).
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Логічний тип](language.types.boolean.md)Используйте[оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::fgetc()****
+**Пример #1 Пример использования**SplFileObject::fgetc()\*\*\*\*
 
 ```php
 <?php
@@ -47,4 +48,4 @@ while (false !== ($char = $file->fgetc())) {
 
 ### Дивіться також
 
--   [SplFileObject::fgets()](splfileobject.fgets.md) - Отримує рядок із файлу
+-   [SplFileObject::fgets()](splfileobject.fgets.md) \- Отримує рядок із файлу

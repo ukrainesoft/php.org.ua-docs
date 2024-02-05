@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sessionhandlerinterface.md: SessionHandlerInterface
 title: 'SessionHandlerInterface::destroy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SessionHandlerInterface::destroy
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SessionHandlerInterface::destroy — Знищує сесію
 
@@ -18,7 +19,7 @@ SessionHandlerInterface::destroy — Знищує сесію
 public SessionHandlerInterface::destroy(string $id): bool
 ```
 
-Знищує сесію. Викликається функціями [sessionregenerateid()](function.session-regenerate-id.md) (З $destroy = **`true`** [sessiondestroy()](function.session-destroy.md) та при невдалому завершенні функції [sessiondecode()](function.session-decode.md)
+Знищує сесію. Викликається функціями [session\_regenerate\_id()](function.session-regenerate-id.md)(с $destroy =**`true`** [session\_destroy()](function.session-destroy.md) та при невдалому завершенні функції [session\_decode()](function.session-decode.md)
 
 ### Список параметрів
 

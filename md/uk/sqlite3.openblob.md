@@ -5,22 +5,23 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3.md: SQLite3
 title: 'SQLite3::openBlob'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3::openBlob
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::openBlob — Відкриває ресурс потоку для читання BLOB
 
 ### Опис
 
 ```methodsynopsis
-public SQLite3::openBlob(    string $table,    string $column,    int $rowid,    string $database = "main",    int $flags = SQLITE3_OPEN_READONLY): resource|false
+public SQLite3::openBlob(    string $table,    string $column,    int $rowid,    string $database = "main",    int $flags = SQLITE3_OPEN_READONLY): resource|false
 ```
 
 Відкриває потоковий ресурс для читання або запису BLOB, який буде обраний:
 
-SELECT `column` FROM `database``table` WHERE rowid = `rowid`
+SELECT`column`FROM`database` `table`WHERE rowid =`rowid`
 
 > **Зауваження**: Неможливо змінити розмір BLOB шляхом запису до потоку. Натомість необхідно виконати запит UPDATE, можливо, використовуючи SQLite-функцію zeroblob(), щоб задати бажаний розмір BLOB.
 
@@ -44,21 +45,21 @@ SELECT `column` FROM `database``table` WHERE rowid = `rowid`
 
 `flags`
 
-Або **`SQLITE3_OPEN_READONLY`**, або **`SQLITE3_OPEN_READWRITE`**, щоб відкрити потік тільки для читання або для читання та запису відповідно.
+Либо\*\*`SQLITE3_OPEN_READONLY`**, либо**`SQLITE3_OPEN_READWRITE`\*\*, щоб відкрити потік тільки для читання або для читання та запису відповідно.
 
 ### Значення, що повертаються
 
-Повертає ресурс потоку або **`false`** у разі виникнення помилки.
+Повертає ресурс потоку або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Доданий параметр `flags`, Що дозволяє записати BLOB; раніше підтримувалося лише читання. |
+| 7.2.0 | Добавлен параметр`flags`, Що дозволяє записати BLOB; раніше підтримувалося лише читання. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SQLite3::openBlob()****
+**Пример #1 Пример использования**SQLite3::openBlob()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ $conn->close();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Lorem ipsum
@@ -95,7 +96,7 @@ $conn->close();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Lorem ipsum

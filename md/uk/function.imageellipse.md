@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageellipse
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imageellipse
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imageellipse - Малювання еліпса
 
 ### Опис
 
 ```methodsynopsis
-imageellipse(    GdImage $image,    int $center_x,    int $center_y,    int $width,    int $height,    int $color): bool
+imageellipse(    GdImage $image,    int $center_x,    int $center_y,    int $width,    int $height,    int $color): bool
 ```
 
 Малює еліпс із центром у заданих координатах.
@@ -48,17 +49,17 @@ y-координат центру.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imageellipse()****
+**Пример #1 Пример использования**imageellipse()\*\*\*\*
 
 ```php
 <?php
@@ -85,17 +86,17 @@ imagepng($image);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: imageellipse()](images/21009b70229598c6a80eef8b45bf282b-imageellipse.png)
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > **imageellipse()** ігнорує [imagesetthickness()](function.imagesetthickness.md)
 
 ### Дивіться також
 
--   [imagefilledellipse()](function.imagefilledellipse.md) - Малювання зафарбованого еліпса
--   [imagearc()](function.imagearc.md) - Малювання дуги
+-   [imagefilledellipse()](function.imagefilledellipse.md) \- Малювання зафарбованого еліпса
+-   [imagearc()](function.imagearc.md) \- Малювання дуги

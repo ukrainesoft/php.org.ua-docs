@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-sync.construct.md: '« parallelSync::construct'
-  - parallel-sync.set.md: 'parallelSync::set »'
+  - parallel-sync.construct.md: '« parallel\\Sync::\_\_construct'
+  - parallel-sync.set.md: 'parallel\\Sync::set »'
   - index.md: PHP Manual
-  - class.parallel-sync.md: parallelSync
-title: 'parallelSync::get'
+  - class.parallel-sync.md: parallel\\Sync
+title: 'parallel\\Sync::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelSync::get
+# parallel\\Sync::get
 
-parallelSync::get — Доступ
+(1.1.0)
+
+parallel\\Sync::get — Доступ
 
 ### Опис
 

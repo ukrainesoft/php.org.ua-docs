@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getNow'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getNow
 
@@ -38,7 +39,7 @@ intlcal_get_now(): float
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::getNow()****
+**Пример #1 Пример использования**IntlCalendar::getNow()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump($val);
 echo $formatter->format(IntlCalendar::getNow() / 1000.), "\n";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 float(1371425814666)

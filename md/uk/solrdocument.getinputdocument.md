@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::getInputDocument'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDocument::getInputDocument
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrDocument::getInputDocument — Повертає SolrInputDocument еквівалент об'єкту
 
@@ -26,4 +27,4 @@ SolrInputDocument повертає еквівалент об'єкта. Це ко
 
 ### Значення, що повертаються
 
-Повертає SolrInputDocument у разі успішного виконання та **`null`** у разі виникнення помилки.
+Повертає SolrInputDocument у разі успішного виконання та \*\*`null`\*\*в случае возникновения ошибки.

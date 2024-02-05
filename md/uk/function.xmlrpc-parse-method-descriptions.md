@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xmlrpc-is-fault.md: « xmlrpcісfault
-  - function.xmlrpc-server-add-introspection-data.md: xmlrpcserveraddintrospectiondata »
+  - function.xmlrpc-is-fault.md: « xmlrpc\_is\_fault
+  - function.xmlrpc-server-add-introspection-data.md: xmlrpc\_server\_add\_introspection\_data »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcparseметодdescriptions
+title: xmlrpc\_parse\_method\_descriptions
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcparseметодdescriptions
+# xmlrpc\_parse\_method\_descriptions
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcparseметодdescriptions — Декодує XML до списку описів методів
+xmlrpc\_parse\_method\_descriptions — Декодує XML до списку описів методів
 
 ### Опис
 
@@ -24,4 +25,4 @@ xmlrpc_parse_method_descriptions(string $xml): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

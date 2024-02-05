@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.calendar.md: « Введение
+  - intro.calendar.md: '" Вступ'
   - calendar.requirements.md: Вимоги »
   - index.md: PHP Manual
-  - book.calendar.md: Календарь
+  - book.calendar.md: Календар
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

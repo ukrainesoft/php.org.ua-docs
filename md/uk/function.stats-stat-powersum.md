@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-stat-percentile.md: « statsstatpercentile
-  - function.stats-variance.md: statsvariance »
+  - function.stats-stat-percentile.md: « stats\_stat\_percentile
+  - function.stats-variance.md: stats\_variance »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsстатиpowersum
+title: stats\_stat\_powersum
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsстатиpowersum
+# stats\_stat\_powersum
 
 (PECL stats >= 1.0.0)
 
-statsстатиpowersum — Повертає статечну суму вектора
+stats\_stat\_powersum — Повертає статечну суму вектора
 
 ### Опис
 
@@ -18,7 +19,7 @@ statsстатиpowersum — Повертає статечну суму вект�
 stats_stat_powersum(array $arr, float $power): float
 ```
 
-Повертає суму `power`ого ступеня вектора, представленого у вигляді масиву `arr`
+Повертає суму `power`\-ого ступеня вектора, представленого у вигляді масиву `arr`
 
 ### Список параметрів
 

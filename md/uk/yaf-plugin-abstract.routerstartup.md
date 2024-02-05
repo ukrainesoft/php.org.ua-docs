@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-plugin-abstract.routershutdown.md: '« YafPluginAbstract::routerShutdown'
-  - class.yaf-registry.md: YafRegistry »
+  - yaf-plugin-abstract.routershutdown.md: '« Yaf\_Plugin\_Abstract::routerShutdown'
+  - class.yaf-registry.md: Yaf\_Registry »
   - index.md: PHP Manual
-  - class.yaf-plugin-abstract.md: YafPluginAbstract
-title: 'YafPluginAbstract::routerStartup'
+  - class.yaf-plugin-abstract.md: Yaf\_Plugin\_Abstract
+title: 'Yaf\_Plugin\_Abstract::routerStartup'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafPluginAbstract::routerStartup
+# Yaf\_Plugin\_Abstract::routerStartup
 
 (Yaf >=1.0.0)
 
-YafPluginAbstract::routerStartup — Перехоплювач RouterStartup
+Yaf\_Plugin\_Abstract::routerStartup — Перехоплювач RouterStartup
 
 ### Опис
 
@@ -22,7 +23,7 @@ public Yaf_Plugin_Abstract::routerStartup(Yaf_Request_Abstract $request, Yaf_Res
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,8 +35,8 @@ public Yaf_Plugin_Abstract::routerStartup(Yaf_Request_Abstract $request, Yaf_Res
 
 ### Дивіться також
 
--   [YafPluginAbstract::routerShutdown()](yaf-plugin-abstract.routershutdown.md) - Призначення routerShutdown
--   [YafPluginAbstract::dispatchLoopStartup()](yaf-plugin-abstract.dispatchloopstartup.md) - Хук перед відправкою циклу
--   [YafPluginAbstract::preDispatch()](yaf-plugin-abstract.predispatch.md) - Призначення preDispatch
--   [YafPluginAbstract::postDispatch()](yaf-plugin-abstract.postdispatch.md) - Призначення postDispatch
--   [YafPluginAbstract::dispatchLoopShutdown()](yaf-plugin-abstract.dispatchloopshutdown.md) - Призначення dispatchLoopShutdown
+-   [Yaf\_Plugin\_Abstract::routerShutdown()](yaf-plugin-abstract.routershutdown.md) \- Призначення routerShutdown
+-   [Yaf\_Plugin\_Abstract::dispatchLoopStartup()](yaf-plugin-abstract.dispatchloopstartup.md) \- Хук перед відправкою циклу
+-   [Yaf\_Plugin\_Abstract::preDispatch()](yaf-plugin-abstract.predispatch.md) \- Призначення preDispatch
+-   [Yaf\_Plugin\_Abstract::postDispatch()](yaf-plugin-abstract.postdispatch.md) \- Призначення postDispatch
+-   [Yaf\_Plugin\_Abstract::dispatchLoopShutdown()](yaf-plugin-abstract.dispatchloopshutdown.md) \- Призначення dispatchLoopShutdown

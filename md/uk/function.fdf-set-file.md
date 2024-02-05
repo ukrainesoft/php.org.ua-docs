@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-set-encoding.md: « fdfsetencoding
-  - function.fdf-set-flags.md: fdfsetflags »
+  - function.fdf-set-encoding.md: « fdf\_set\_encoding
+  - function.fdf-set-flags.md: fdf\_set\_flags »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfsetfile
+title: fdf\_set\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfsetfile
+# fdf\_set\_file
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfsetfile — Встановлює PDF-документ для відображення даних FDF
+fdf\_set\_file — Встановлює PDF-документ для відображення даних FDF
 
 ### Опис
 
@@ -18,13 +19,13 @@ fdfsetfile — Встановлює PDF-документ для відображ
 fdf_set_file(resource $fdf_document, string $url, string $target_frame = ?): bool
 ```
 
-Вибирає інший PDF-файл для відображення результатів форми в тій формі, з якої він був створений.
+Вибирає інший PDF-файл для відображення результатів форми у формі, з якої він був створений.
 
 ### Список параметрів
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md)or[fdf\_open\_string()](function.fdf-open-string.md)
 
 `url`
 
@@ -32,11 +33,11 @@ fdf_set_file(resource $fdf_document, string $url, string $target_frame = ?): boo
 
 `target_frame`
 
-Використовуйте цей параметр, щоб вказати кадр, у якому буде відображено документ. Ви також можете встановити значення за промовчанням для цього параметра за допомогою [fdfsettargetframe()](function.fdf-set-target-frame.md)
+Використовуйте цей параметр, щоб вказати кадр, у якому буде відображено документ. Ви також можете встановити значення за промовчанням для цього параметра за допомогою [fdf\_set\_target\_frame()](function.fdf-set-target-frame.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -66,5 +67,5 @@ fdf_set_file(resource $fdf_document, string $url, string $target_frame = ?): boo
 
 ### Дивіться також
 
--   [fdfgetfile()](function.fdf-get-file.md) - Отримує значення ключа /F
--   [fdfsettargetframe()](function.fdf-set-target-frame.md) - Встановлює цільовий кадр для відображення форми
+-   [fdf\_get\_file()](function.fdf-get-file.md) \- Отримує значення ключа /F
+-   [fdf\_set\_target\_frame()](function.fdf-set-target-frame.md) \- Встановлює цільовий кадр для відображення форми

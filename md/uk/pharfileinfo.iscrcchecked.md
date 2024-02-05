@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.pharfileinfo.md: PharFileInfo
 title: 'PharFileInfo::isCRCChecked'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharFileInfo::isCRCChecked
 
@@ -30,7 +31,7 @@ public PharFileInfo::isCRCChecked(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharFileInfo::isCRCChecked()****
+**Пример #1 Пример использования**PharFileInfo::isCRCChecked()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)

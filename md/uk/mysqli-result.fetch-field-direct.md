@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-result.fetch-column.md: '« mysqliresult::fetchcolumn'
-  - mysqli-result.fetch-field.md: 'mysqliresult::fetchfield »'
+  - mysqli-result.fetch-column.md: '« mysqli\_result::fetch\_column'
+  - mysqli-result.fetch-field.md: 'mysqli\_result::fetch\_field »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::fetchfielddirect'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::fetch\_field\_direct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::fetchfielddirect
+# mysqli\_result::fetch\_field\_direct
 
-# mysqlifetchfielddirect
+# mysqli\_fetch\_field\_direct
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliresult::fetchfielddirect -- mysqlifetchfielddirect — Отримання метаданих конкретного поля
+mysqli\_result::fetch\_field\_direct -- mysqli\_fetch\_field\_direct — Отримання метаданих конкретного поля
 
 ### Опис
 
@@ -34,26 +35,26 @@ mysqli_fetch_field_direct(mysqli_result $result, int $index): object|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 `index`
 
-Номер поля. Число повинне лежати в діапазоні від `0` до `количество полей - 1`
+Номер поля. Число повинне лежати в діапазоні від до`кількість полів - 1`
 
 ### Значення, що повертаються
 
-Повертає об'єкт, що містить визначення поля або **`false`**, якщо поле з номером `fieldnr` недоступне.
+Повертає об'єкт, що містить визначення поля, або **`false`**, якщо поле з номером, вказаним для параметра `index`, недоступне.
 
 **Властивості об'єкту**
 
-| Свойство | Описание |
+| Свойство | Опис |
 | --- | --- |
 | name | Ім'я стовпця |
 | orgname | Вихідне ім'я стовпця, якщо він має псевдонім |
 | table | Ім'я таблиці, якій належить стовпець (якщо не обчислено) |
 | orgtable | Початкове ім'я таблиці, якщо є псевдонім |
 | def | Зарезервовано для стандартного значення, на даний момент завжди "" |
-| maxlength | Максимальна ширина поля результуючого набору. |
+| max\_length | Максимальна ширина поля результуючого набору. Починаючи з PHP 8.1 це значення завжди |
 | length | Ширина поля, як вона задана щодо таблиці. |
 | charsetnr | Кількість наборів символів для поля. |
 | flags | Ціла кількість, що представляє бітові прапори для поля. |
@@ -128,7 +129,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Имя:         SurfaceArea
@@ -140,6 +141,6 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlinumfields()](mysqli-result.field-count.md) - Отримує кількість полів у наборі результатів
--   [mysqlifetchfield()](mysqli-result.fetch-field.md) - Повертає наступне поле результуючого набору
--   [mysqlifetchfields()](mysqli-result.fetch-fields.md) - Повертає масив об'єктів, що становлять поля результуючого набору
+-   [mysqli\_num\_fields()](mysqli-result.field-count.md) \- Отримує кількість полів у наборі результатів
+-   [mysqli\_fetch\_field()](mysqli-result.fetch-field.md) \- Повертає наступне поле результуючого набору
+-   [mysqli\_fetch\_fields()](mysqli-result.fetch-fields.md) \- Повертає масив об'єктів, що становлять поля результуючого набору

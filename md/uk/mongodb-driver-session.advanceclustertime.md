@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-session.aborttransaction.md: '« MongoDBDriverSession::abortTransaction'
-  - mongodb-driver-session.advanceoperationtime.md: 'MongoDBDriverSession::advanceOperationTime »'
+  - mongodb-driver-session.aborttransaction.md: '« MongoDB\\Driver\\Session::abortTransaction'
+  - mongodb-driver-session.advanceoperationtime.md: 'MongoDB\\Driver\\Session::advanceOperationTime »'
   - index.md: PHP Manual
-  - class.mongodb-driver-session.md: MongoDBDriverSession
-title: 'MongoDBDriverSession::advanceClusterTime'
+  - class.mongodb-driver-session.md: MongoDB\\Driver\\Session
+title: 'MongoDB\\Driver\\Session::advanceClusterTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverSession::advanceClusterTime
+# MongoDB\\Driver\\Session::advanceClusterTime
 
 (mongodb >=1.4.0)
 
-MongoDBDriverSession::advanceClusterTime — Збільшує час кластера для сеансу
+MongoDB\\Driver\\Session::advanceClusterTime — Збільшує час кластера для сеансу
 
 ### Опис
 
@@ -20,13 +21,13 @@ final public MongoDB\Driver\Session::advanceClusterTime(array|object $clusterTim
 
 Підвищує час кластера для сеансу. Якщо час кластера менше або дорівнює поточному часу кластера сеансу, функція не працюватиме.
 
-Використовуючи цей метод у поєднанні з [MongoDBDriverSession::advanceOperationTime()](mongodb-driver-session.advanceoperationtime.md) Для копіювання кластера та часу операцій з іншого сеансу, ви можете переконатися, що операції на цьому сеансі причинно відповідають останній операції в іншому сеансі.
+Використовуючи цей метод у поєднанні з [MongoDB\\Driver\\Session::advanceOperationTime()](mongodb-driver-session.advanceoperationtime.md) Для копіювання кластера та часу операцій з іншого сеансу, ви можете переконатися, що операції на цьому сеансі причинно відповідають останній операції в іншому сеансі.
 
 ### Список параметрів
 
 `clusterTime`
 
-Час кластера - це документ, що містить логічну мітку часу та сигнатуру сервера. Як правило, це значення буде отримано шляхом виклику [MongoDBDriverSession::getClusterTime()](mongodb-driver-session.getclustertime.md) для іншого об'єкта сеансу.
+Час кластера - це документ, що містить логічну мітку часу та сигнатуру сервера. Як правило, це значення буде отримано шляхом виклику [MongoDB\\Driver\\Session::getClusterTime()](mongodb-driver-session.getclustertime.md) для іншого об'єкта сеансу.
 
 ### Значення, що повертаються
 
@@ -34,9 +35,9 @@ final public MongoDB\Driver\Session::advanceClusterTime(array|object $clusterTim
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverSession::advanceOperationTime()](mongodb-driver-session.advanceoperationtime.md) - Збільшує час операції для сеансу
--   [MongoDBDriverSession::getClusterTime()](mongodb-driver-session.getclustertime.md) - Повертає час кластера для цього сеансу
+-   [MongoDB\\Driver\\Session::advanceOperationTime()](mongodb-driver-session.advanceoperationtime.md) \- Збільшує час операції для сеансу
+-   [MongoDB\\Driver\\Session::getClusterTime()](mongodb-driver-session.getclustertime.md) \- Повертає час кластера для цього сеансу

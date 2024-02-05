@@ -1,10 +1,11 @@
 ---
 navigation:
-  - xsltprocessor.construct.md: '« XSLTProcessor::construct'
+  - xsltprocessor.construct.md: '« XSLTProcessor::\_\_construct'
   - xsltprocessor.getsecurityprefs.md: 'XSLTProcessor::getSecurityPrefs »'
   - index.md: PHP Manual
   - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::getParameter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XSLTProcessor::getParameter
 
@@ -18,7 +19,7 @@ XSLTProcessor::getParameter — Повертає значення парамет
 public XSLTProcessor::getParameter(string $namespace, string $name): string|false
 ```
 
-Повертає параметр, якщо його раніше встановлено за допомогою [XSLTProcessor::setParameter()](xsltprocessor.setparameter.md)
+Возвращает параметр, если он раньше установлен с помощью[XSLTProcessor::setParameter()](xsltprocessor.setparameter.md)
 
 ### Список параметрів
 
@@ -32,9 +33,9 @@ public XSLTProcessor::getParameter(string $namespace, string $name): string|fals
 
 ### Значення, що повертаються
 
-Значення параметра (у вигляді рядка), або \*\*`false`\*\*якщо воно не встановлено.
+Значение параметра (в виде строки), или\*\*`false`\*\*якщо воно не встановлено.
 
 ### Дивіться також
 
--   [XSLTProcessor::setParameter()](xsltprocessor.setparameter.md) - Встановлює значення параметра
--   [XSLTProcessor::removeParameter()](xsltprocessor.removeparameter.md) - Видаляє параметр
+-   [XSLTProcessor::setParameter()](xsltprocessor.setparameter.md) \- Встановлює значення параметра
+-   [XSLTProcessor::removeParameter()](xsltprocessor.removeparameter.md) \- Видаляє параметр

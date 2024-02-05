@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-cursor.getserver.md: '« MongoDBDriverCursor::getServer'
-  - mongodb-driver-cursor.key.md: 'MongoDBDriverCursor::key »'
+  - mongodb-driver-cursor.getserver.md: '« MongoDB\\Driver\\Cursor::getServer'
+  - mongodb-driver-cursor.key.md: 'MongoDB\\Driver\\Cursor::key »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
-title: 'MongoDBDriverCursor::isDead'
+  - class.mongodb-driver-cursor.md: MongoDB\\Driver\\Cursor
+title: 'MongoDB\\Driver\\Cursor::isDead'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverCursor::isDead
+# MongoDB\\Driver\\Cursor::isDead
 
 (mongodb >=1.0.0)
 
-MongoDBDriverCursor::isDead — Перевіряє, чи курсор вичерпано, чи може містити додаткові результати.
+MongoDB\\Driver\\Cursor::isDead — Перевіряє, чи курсор вичерпано, чи може містити додаткові результати.
 
 ### Опис
 
@@ -18,18 +19,18 @@ MongoDBDriverCursor::isDead — Перевіряє, чи курсор вичер
 final public MongoDB\Driver\Cursor::isDead(): bool
 ```
 
-Перевіряє, чи немає курсора додаткових результатів. Цей метод аналогічний методу [» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/) в оболонці MongoDB і насамперед корисний при виконанні ітерації [» хвостових курсорів](https://www.mongodb.com/docs/manual/core/tailable-cursors/)
+Перевіряє, чи немає курсора додаткових результатів. Цей метод аналогічний методу [» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/) в оболонці MongoDB і насамперед корисний при виконанні ітерації [» хвостових курсорів](https://www.mongodb.com/docs/manual/core/tailable-cursors/)
 
 Курсор не має додаткових результатів і вважається "мертвим", якщо виконується одна з наступних умов:
 
--   Поточний пакет повністю повторений *і* ідентифікатор курсору дорівнює нулю (тобто [» getMore](https://www.mongodb.com/docs/manual/reference/command/getMore/) не може бути виконаний).
+-   Поточний пакет повністю повторений*і*ідентифікатор курсору дорівнює нулю (тобто[» getMore](https://www.mongodb.com/docs/manual/reference/command/getMore/)не може бути виконаний).
 -   Сталася помилка під час ітерації курсору.
 -   Курсор досяг своєї встановленої межі.
 
 Навмисно не завжди можна визначити, чи курсор має додаткові результати. Випадки, коли курсор *може* мати більше доступних даних, такі:
 
 -   У поточному пакеті є додаткові документи, які буферизуються за клієнта. Ітерація витягне документ із локального буфера.
--   У пакеті немає додаткових документів (тобто локального буфера), але ідентифікатор курсору не дорівнює нулю. Ітерація вимагатиме більше документів із сервера за допомогою операції [» getMore](https://www.mongodb.com/docs/manual/reference/command/getMore/)яка може повертати або не повертати додаткові результати та/або вказувати, що курсор був закритий на сервері, повертаючи нуль для його ідентифікатора.
+-   У поточному пакеті немає додаткових документів (тобто локального буфера), але ідентифікатор курсору не дорівнює нулю. Ітерація вимагатиме більше документів із сервера за допомогою операції[» getMore](https://www.mongodb.com/docs/manual/reference/command/getMore/)яка може повертати або не повертати додаткові результати та/або вказувати, що курсор був закритий на сервері, повертаючи нуль для його ідентифікатора.
 
 ### Список параметрів
 
@@ -41,11 +42,11 @@ final public MongoDB\Driver\Cursor::isDead(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverCursor::isDead()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Cursor::isDead()\*\*\*\*
 
 ```php
 <?php
@@ -78,7 +79,7 @@ var_dump($cursor->isDead());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -89,5 +90,5 @@ bool(true)
 
 ### Дивіться також
 
--   [» Хвостові курсори](https://www.mongodb.com/docs/manual/core/tailable-cursors/) у посібнику MongoDB
--   [» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/) у посібнику MongoDB
+-   [» Хвостові курсори](https://www.mongodb.com/docs/manual/core/tailable-cursors/)у посібнику MongoDB
+-   [» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/)у посібнику MongoDB

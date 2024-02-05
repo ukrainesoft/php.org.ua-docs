@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::getSymbol'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NumberFormatter::getSymbol
 
-# numfmtgetsymbol
+# numfmt\_get\_symbol
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::getSymbol -- numfmtgetsymbol — Отримує значення символу
+NumberFormatter::getSymbol -- numfmt\_get\_symbol — Отримує значення символу
 
 ### Опис
 
@@ -28,7 +29,7 @@ public NumberFormatter::getSymbol(int $symbol): string|false
 numfmt_get_symbol(NumberFormatter $formatter, int $symbol): string|false
 ```
 
-Отримує символ, пов'язаний із засобом форматування. Засіб форматування використовує символи для представлення спеціальних символів, які залежать від мови, у числах, наприклад, знак відсотка. Цей API не підтримується для форматування на основі правил.
+Отримує символ, пов'язаний із засобом форматування. Засіб форматування використовує символи для представлення спеціальних символів, що залежать від мови, у числах, наприклад, знак відсотка. Цей API не підтримується для форматування на основі правил.
 
 ### Список параметрів
 
@@ -38,15 +39,15 @@ numfmt_get_symbol(NumberFormatter $formatter, int $symbol): string|false
 
 `symbol`
 
-Специфікатор символу, одна з констант [символів форматування](class.numberformatter.md#intl.numberformatter-constants.unumberformatsymbol)
+Спецификатор символа, одна из констант[символів форматування](class.numberformatter.md#intl.numberformatter-constants.unumberformatsymbol)
 
 ### Значення, що повертаються
 
-Рядок символу або **`false`** у разі виникнення помилки.
+Строка символа или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmtgetsymbol()****
+**Пример #1 Пример использования**numfmt\_get\_symbol()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ echo $fmt->format(1234567.891234567890000)."\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Разделитель: .
@@ -83,5 +84,5 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
--   [numfmtsetsymbol()](numberformatter.setsymbol.md) - Встановлює значення символу
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.md) \- Отримує останній код помилки засобу форматування
+-   [numfmt\_set\_symbol()](numberformatter.setsymbol.md) \- Встановлює значення символу

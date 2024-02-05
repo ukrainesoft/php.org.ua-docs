@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-rawlist.md: « ftprawlist
-  - function.ftp-rmdir.md: ftprmdir »
+  - function.ftp-rawlist.md: « ftp\_rawlist
+  - function.ftp-rmdir.md: ftp\_rmdir »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftprename
+title: ftp\_rename
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftprename
+# ftp\_rename
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftprename — Перейменовує файл або директорію на FTP-сервері
+ftp\_rename — Перейменовує файл або директорію на FTP-сервері
 
 ### Опис
 
@@ -18,13 +19,13 @@ ftprename — Перейменовує файл або директорію на
 ftp_rename(FTP\Connection $ftp, string $from, string $to): bool
 ```
 
-**ftprename()** перейменовує файл або директорію на сервері FTP.
+**ftp\_rename()** перейменовує файл або директорію на сервері FTP.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `from`
 
@@ -40,13 +41,13 @@ ftp_rename(FTP\Connection $ftp, string $from, string $to): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftprename()****
+**Пример #1 Пример использования**ftp\_rename()\*\*\*\*
 
 ```php
 <?php

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::annotateimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::annotateimage
 
@@ -15,7 +16,7 @@ Gmagick::annotateimage — Підписати зображення тексто�
 ### Опис
 
 ```methodsynopsis
-public Gmagick::annotateimage(    GmagickDraw $GmagickDraw,    float $x,    float $y,    float $angle,    string $text): Gmagick
+public Gmagick::annotateimage(    GmagickDraw $GmagickDraw,    float $x,    float $y,    float $angle,    string $text): Gmagick
 ```
 
 Підписати зображення тексту.
@@ -48,4 +49,4 @@ public Gmagick::annotateimage(    GmagickDraw $GmagickDraw,    float $x,    floa
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

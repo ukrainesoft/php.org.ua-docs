@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.sodium-crypto-aead-chacha20poly1305-keygen.md: « sodiumcryptoaeadchacha20poly1305keygen
-  - function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.md: sodiumcryptoaeadxchacha20poly1305ietfencrypt »
+  - function.sodium-crypto-aead-chacha20poly1305-keygen.md: « sodium\_crypto\_aead\_chacha20poly1305\_keygen
+  - function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.md: sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_encrypt »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoaeadxchacha20poly1305ietfdecrypt
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_decrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoaeadxchacha20poly1305ietfdecrypt
+# sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_decrypt
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoaeadxchacha20poly1305ietfdecrypt — (Переважно) Перевіряє, потім розшифровує за допомогою XChaCha20-Poly1305
+sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_decrypt — (Переважно) Перевіряє, потім розшифровує за допомогою XChaCha20-Poly1305
 
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_aead_xchacha20poly1305_ietf_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
+sodium_crypto_aead_xchacha20poly1305_ietf_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
 ```
 
 (Переважно) Перевіряє, потім розшифровує за допомогою XChaCha20-Poly1305
@@ -26,7 +27,7 @@ sodium_crypto_aead_xchacha20poly1305_ietf_decrypt(    string $ciphertext,    str
 
 `ciphertext`
 
-Має бути у форматі, наданому [sodiumcryptoaeadchacha20poly1305ietfencrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.md) (Зашифрований текст та тег, об'єднані).
+Має бути у форматі, наданому [sodium\_crypto\_aead\_chacha20poly1305\_ietf\_encrypt()](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.md) (Зашифрований текст та тег, об'єднані).
 
 `additional_data`
 
@@ -34,7 +35,7 @@ sodium_crypto_aead_xchacha20poly1305_ietf_decrypt(    string $ciphertext,    str
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.md)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [random\_bytes()](function.random-bytes.md)
 
 `key`
 
@@ -42,4 +43,4 @@ sodium_crypto_aead_xchacha20poly1305_ietf_decrypt(    string $ciphertext,    str
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає текст або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає текст або \*\*`false`\*\*в случае возникновения ошибки.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.find.md: '« DsDeque::find'
-  - ds-deque.get.md: 'ДсDeque::get »'
+  - ds-deque.find.md: '« Ds\\Deque::find'
+  - ds-deque.get.md: 'Ds\\Deque::get »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::first'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::first'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::first
+# Ds\\Deque::first
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::first — Повертає перший елемент двосторонньої черги
+Ds\\Deque::first — Повертає перший елемент двосторонньої черги
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Deque::first(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::first()****
+**Пример #1 Пример использования**Ds\\Deque::first()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($deque->first());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(1)

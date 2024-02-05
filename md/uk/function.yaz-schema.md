@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.yaz-scan.md: « yazscan
-  - function.yaz-search.md: yazsearch »
+  - function.yaz-scan.md: « yaz\_scan
+  - function.yaz-search.md: yaz\_search »
   - index.md: PHP Manual
-  - ref.yaz.md: Функции YAZ
-title: yazschema
+  - ref.yaz.md: Функції YAZ
+title: yaz\_schema
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yazschema
+# yaz\_schema
 
-(PHP 4> = 4.2.0, PECL yaz> = 0.9.0)
+(PHP 4 >= 4.2.0, PECL yaz >= 0.9.0)
 
-yazschema — Встановлює схему для значень, що повертаються.
+yaz\_schema — Встановлює схему для значень, що повертаються.
 
 ### Опис
 
@@ -18,19 +19,19 @@ yazschema — Встановлює схему для значень, що пов
 yaz_schema(resource $id, string $schema): void
 ```
 
-**yazschema()** встановлює схему для значень, що повертаються.
+**yaz\_schema()** встановлює схему для значень, що повертаються.
 
-Функція має бути викликана до [yazsearch()](function.yaz-search.md) або [yazpresent()](function.yaz-present.md)
+Функція має бути викликана до [yaz\_search()](function.yaz-search.md) або [yaz\_present()](function.yaz-present.md)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, повернутий [yazconnect()](function.yaz-connect.md)
+Дескриптор з'єднання, повернутий [yaz\_connect()](function.yaz-connect.md)
 
 `schema`
 
-Схема має бути визначена як OID (Object Identifier) ​​у вихідному поданні з роздільниками у вигляді точок (наприклад `1.2.840.10003.13.4`) або як одна з відомих форм імені схеми: `GILS-schema` `Holdings` `Zthes`
+Схема має бути визначена як OID (Object Identifier) ​​у вихідному поданні з роздільниками у вигляді точок (наприклад `1.2.840.10003.13.4`) або як одна з відомих форм імені схеми: `GILS-schema` `Holdings` `Zthes`, ...
 
 ### Значення, що повертаються
 

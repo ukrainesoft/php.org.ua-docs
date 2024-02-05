@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.swoole-funcs.md: « Функции Swoole
-  - function.swoole-async-read.md: swooleasyncread »
+  - ref.swoole-funcs.md: « Функції Swoole
+  - function.swoole-async-read.md: swoole\_async\_read »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swooleasyncdnslookup
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_async\_dns\_lookup
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swooleasyncdnslookup
+# swoole\_async\_dns\_lookup
 
 (PECL swoole >= 1.9.0)
 
-swooleasyncdnslookup — Асинхронний та неблокуючий пошук імені хоста або IP-адреси
+swoole\_async\_dns\_lookup — Асинхронний та неблокуючий пошук імені хоста або IP-адреси
 
 ### Опис
 
@@ -40,4 +41,4 @@ IP-адреса.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

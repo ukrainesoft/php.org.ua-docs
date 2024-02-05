@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-process.md: « SwooleProcess
-  - swoole-process.close.md: 'SwooleProcess::close »'
+  - class.swoole-process.md: « Swoole\\Process
+  - swoole-process.close.md: 'Swoole\\Process::close »'
   - index.md: PHP Manual
-  - class.swoole-process.md: SwooleProcess
-title: 'SwooleProcess::alarm'
+  - class.swoole-process.md: Swoole\\Process
+title: 'Swoole\\Process::alarm'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleProcess::alarm
+# Swoole\\Process::alarm
 
 (PECL swoole >= 1.9.0)
 
-SwooleProcess::alarm — Таймер високої точності, який запускає сигнал із фіксованим інтервалом
+Swoole\\Process::alarm — Таймер високої точності, який запускає сигнал із фіксованим інтервалом
 
 ### Опис
 

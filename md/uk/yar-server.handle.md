@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yar-server.construct.md: '« YarServer::construct'
-  - class.yar-client.md: YarClient »
+  - yar-server.construct.md: '« Yar\_Server::\_\_construct'
+  - class.yar-client.md: Yar\_Client »
   - index.md: PHP Manual
-  - class.yar-server.md: YarServer
-title: 'YarServer::handle'
+  - class.yar-server.md: Yar\_Server
+title: 'Yar\_Server::handle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YarServer::handle
+# Yar\_Server::handle
 
 (PECL yar >= 1.0.0)
 
-YarServer::handle — Запустити сервер RPC
+Yar\_Server::handle — Запустити сервер RPC
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yar_Server::handle(): bool
 
 Запустити сервер RPC HTTP і підготуватися приймати запити.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Зазвичай RPC-запити здійснюються за допомогою HTTP POST. Якщо буде використано запит HTTP GET, то буде надруковано інформацію про сервіс (закоментована секція вище).
 
@@ -34,7 +35,7 @@ boolean
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YarServer::handle()****
+**Пример #1 Пример использования**Yar\_Server::handle()\*\*\*\*
 
 ```php
 <?php
@@ -56,8 +57,8 @@ $service->handle();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ### Дивіться також
 
--   [YarServer::construct()](yar-server.construct.md) - Конструктор YarServer
+-   [Yar\_Server::\_\_construct()](yar-server.construct.md) \- Конструктор Yar\_Server

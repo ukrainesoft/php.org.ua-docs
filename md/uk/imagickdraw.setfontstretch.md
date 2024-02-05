@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setFontStretch'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setFontStretch
 
@@ -20,7 +21,7 @@ public ImagickDraw::setFontStretch(int $fontStretch): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Встановлює розтягування шрифту для використання під час анотування текстом. Використання AnyStretch діє як "будь-яке".
 
@@ -28,7 +29,7 @@ public ImagickDraw::setFontStretch(int $fontStretch): bool
 
 `fontStretch`
 
-Одна з констант [STRETCH](imagick.constants.md#imagick.constants.stretch) `imagick::STRETCH_*`
+Одна из констант[STRETCH](imagick.constants.md#imagick.constants.stretch) `imagick::STRETCH_*`
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public ImagickDraw::setFontStretch(int $fontStretch): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setFontStretch()****
+**Пример #1 Пример использования**ImagickDraw::setFontStretch()\*\*\*\*
 
 ```php
 <?php

@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::affineTransformImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::affineTransformImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::affineTransformImage — Перетворення зображення
+Imagick::affineTransformImage — Перетворює зображення
 
 ### Опис
 
@@ -18,13 +19,13 @@ Imagick::affineTransformImage — Перетворення зображення
 public Imagick::affineTransformImage(ImagickDraw $matrix): bool
 ```
 
-Перетворення зображення за допомогою афінної матриці.
+Перетворює зображення як продиктоване афінною матрицею.
 
 ### Список параметрів
 
 `matrix`
 
-Афінна матриця
+Афінна матриця.
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public Imagick::affineTransformImage(ImagickDraw $matrix): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::affineTransformImage()****
+**Пример #1 Пример использования метода**Imagick::affineTransformImage()\*\*\*\*
 
 ```php
 <?php

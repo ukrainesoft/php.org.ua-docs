@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xdiff-file-bdiff.md: xdifffilebdiff
-  - function.xdiff-file-diff-binary.md: xdifffilediffbinary »
+  - function.xdiff-file-bdiff.md: « xdiff\_file\_bdiff
+  - function.xdiff-file-diff-binary.md: xdiff\_file\_diff\_binary »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
-title: xdifffilebpatch
+title: xdiff\_file\_bpatch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xdifffilebpatch
+# xdiff\_file\_bpatch
 
 (PECL xdiff >= 1.5.0)
 
-xdifffilebpatch — Застосувати бінарний патч до файлу
+xdiff\_file\_bpatch — Застосувати бінарний патч до файлу
 
 ### Опис
 
@@ -18,7 +19,7 @@ xdifffilebpatch — Застосувати бінарний патч до фай
 xdiff_file_bpatch(string $file, string $patch, string $dest): bool
 ```
 
-Застосувати до файлу `file` патч `patch` і записати результат у файл `dest`. Ця функція приймає патчі, створені як [xdifffilebdiff()](function.xdiff-file-bdiff.md) так і [xdifffilerabdiff()](function.xdiff-file-rabdiff.md) або їх копії.
+Применить к файлу`file`патч`patch`и записать результат в файл`dest`. Ця функція приймає патчі, створені як [xdiff\_file\_bdiff()](function.xdiff-file-bdiff.md)так и[xdiff\_file\_rabdiff()](function.xdiff-file-rabdiff.md) або їх копії.
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ xdiff_file_bpatch(string $file, string $patch, string $dest): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdifffilebpatch()****
+**Пример #1 Пример использования**xdiff\_file\_bpatch()\*\*\*\*
 
 У наступному коді показано застосування бінарного патчу до файлу.
 
@@ -61,11 +62,11 @@ if ($result) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Обидва файли (`file` і `patch`) будуть завантажені в пам'ять, так що переконайтеся, що параметр memorylimit налаштовано коректно.
+> Обидва файли (`file`и`patch`) будуть завантажені в пам'ять, так що переконайтеся, що параметр memory\_limit налаштовано коректно.
 
 ### Дивіться також
 
--   [xdifffilebdiff()](function.xdiff-file-bdiff.md) - Створити бінарний патч порівнюючи два файли
--   [xdifffilerabdiff()](function.xdiff-file-rabdiff.md) - Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting
+-   [xdiff\_file\_bdiff()](function.xdiff-file-bdiff.md) \- Створити бінарний патч порівнюючи два файли
+-   [xdiff\_file\_rabdiff()](function.xdiff-file-rabdiff.md) \- Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting

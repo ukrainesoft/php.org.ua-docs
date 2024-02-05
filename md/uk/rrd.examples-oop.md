@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - rrd.examples.md: Приклади
 title: Об'єктно-орієнтований приклад PECL/rrd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Об'єктно-орієнтований приклад PECL/rrd
 

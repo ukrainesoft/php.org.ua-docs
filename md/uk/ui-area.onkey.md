@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-area.ondraw.md: '« UIArea::onDraw'
-  - ui-area.onmouse.md: 'ОЙArea::onMouse »'
+  - ui-area.ondraw.md: '« UI\\Area::onDraw'
+  - ui-area.onmouse.md: 'UI\\Area::onMouse »'
   - index.md: PHP Manual
-  - class.ui-area.md: ОЙArea
-title: 'ОЙArea::onKey'
+  - class.ui-area.md: UI\\Area
+title: 'UI\\Area::onKey'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙArea::onKey
+# UI\\Area::onKey
 
 (UI 0.9.9)
 
-ОЙArea::onKey — Функція зворотного дзвінка при натисканні
+UI\\Area::onKey — Функція зворотного дзвінка при натисканні
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.start.md: '« SwooleServer::start'
-  - swoole-server.stop.md: 'SwooleServer::stop »'
+  - swoole-server.start.md: '« Swoole\\Server::start'
+  - swoole-server.stop.md: 'Swoole\\Server::stop »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::stats'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::stats'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::stats
+# Swoole\\Server::stats
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::stats — Отримує статистику сервера Swoole
+Swoole\\Server::stats — Отримує статистику сервера Swoole
 
 ### Опис
 

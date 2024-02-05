@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-loader.getnamespacepath.md: '« YafLoader::getNamespacePath'
-  - yaf-loader.import.md: 'YafLoader::import »'
+  - yaf-loader.getnamespacepath.md: '« Yaf\_Loader::getNamespacePath'
+  - yaf-loader.import.md: 'Yaf\_Loader::import »'
   - index.md: PHP Manual
-  - class.yaf-loader.md: YafLoader
-title: 'YafLoader::getLocalNamespace'
+  - class.yaf-loader.md: Yaf\_Loader
+title: 'Yaf\_Loader::getLocalNamespace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafLoader::getLocalNamespace
+# Yaf\_Loader::getLocalNamespace
 
 (Yaf >=1.0.0)
 
-YafLoader::getLocalNamespace — Отримує всю інформацію про зареєстровані простори імен
+Yaf\_Loader::getLocalNamespace — Отримує всю інформацію про зареєстровані простори імен
 
 ### Опис
 

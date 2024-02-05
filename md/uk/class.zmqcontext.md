@@ -1,10 +1,11 @@
 ---
 navigation:
-  - zmq.construct.md: '« ZMQ::construct'
-  - zmqcontext.construct.md: 'ZMQContext::construct »'
+  - zmq.construct.md: '« ZMQ::\_\_construct'
+  - zmqcontext.construct.md: 'ZMQContext::\_\_construct »'
   - index.md: PHP Manual
   - book.zmq.md: Обмін повідомленнями 0MQ
 title: Клас ZMQContext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ZMQContext
 
@@ -38,8 +39,8 @@ public setOpt(int $key, mixed $value): ZMQContext
 
 ## Зміст
 
--   [ZMQContext::construct](zmqcontext.construct.md) - Конструктор ZMQContext
--   [ZMQContext::getOpt](zmqcontext.getopt.md) — Отримати опцію контексту
--   [ZMQContext::getSocket](zmqcontext.getsocket.md) - Створює новий сокет
--   [ZMQContext::isPersistent](zmqcontext.ispersistent.md) — Чи контекст є постійним
--   [ZMQContext::setOpt](zmqcontext.setopt.md) - Встановити опцію сокету
+-   [ZMQContext::\_\_construct](zmqcontext.construct.md) \- Конструктор ZMQContext
+-   [ZMQContext::getOpt](zmqcontext.getopt.md)— Отримати опцію контексту
+-   [ZMQContext::getSocket](zmqcontext.getsocket.md) \- Створює новий сокет
+-   [ZMQContext::isPersistent](zmqcontext.ispersistent.md)— Чи контекст є постійним
+-   [ZMQContext::setOpt](zmqcontext.setopt.md) \- Встановити опцію сокету

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mt-getrandmax.md: « mtgetrandmax
-  - function.mt-srand.md: мтsrand »
+  - function.mt-getrandmax.md: « mt\_getrandmax
+  - function.mt-srand.md: mt\_srand »
   - index.md: PHP Manual
-  - ref.math.md: Математичні функції
-title: мтrand
+  - ref.random.md: Функції Random
+title: mt\_rand
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мтrand
+# mt\_rand
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-мтrand - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
+mt\_rand - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
 
 ### Опис
 
@@ -22,13 +23,15 @@ mt_rand(): int
 mt_rand(int $min, int $max): int
 ```
 
+Багато генераторів випадкових чисел у старих бібліотеках мають сумнівні чи невідомі характеристики, а також працюють досить повільно. Функція **mt\_rand()** є заміною старої функції [rand()](function.rand.md). Вона використовує генератор випадкових чисел з відомими характеристиками, заснований на [» Вихор Мерсенна](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md)що генерує випадкові числа в середньому в чотири рази швидше, ніж libc rand().
+
+Викликана без необов'язкових параметрів `min`и`max`, функция**mt\_rand()** повертає псевдовипадкове значення між 0 та [mt\_getrandmax()](function.mt-getrandmax.md). Якщо потрібно, наприклад, випадкове число між 5 і 15 (включно), використовуйте виклик `mt_rand(5,15)`
+
 **Застереження**
 
-Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.md) [randombytes()](function.random-bytes.md) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) замість цієї.
+Функція не створює криптографічно захищені значення та *не повинна* використовуватися для криптографічних цілей або цілей, що вимагають, щоб значення, що повертаються, були недоступні для розгадування.
 
-Багато генераторів випадкових чисел у старих бібліотеках мають сумнівні чи невідомі характеристики, а також працюють досить повільно. Функція **мтrand()** є заміною старої функції [rand()](function.rand.md). Вона використовує генератор випадкових чисел з відомими характеристиками, заснований на [» Вихор Мерсенна](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md)що генерує випадкові числа в середньому в чотири рази швидше, ніж libc rand().
-
-Викликана без необов'язкових параметрів `min` і `max`, функція **мтrand()** повертає псевдовипадкове значення між 0 та [мтgetrandmax()](function.mt-getrandmax.md). Якщо потрібно, наприклад, випадкове число між 5 і 15 (включно), використовуйте виклик `mt_rand(5,15)`
+Якщо потрібна криптографічно безпечна випадкова послідовність, можна використати клас [Random\\Randomizer](class.random-randomizer.md) з двигуном [Random\\Engine\\Secure](class.random-engine-secure.md). Для простих сценаріїв є функції [random\_int()](function.random-int.md) і [random\_bytes()](function.random-bytes.md) із зручним API криптографічно безпечного генератора псевдовипадкових чисел (CSPRNG), що підтримується операційною системою.
 
 ### Список параметрів
 
@@ -38,34 +41,34 @@ mt_rand(int $min, int $max): int
 
 `max`
 
-Необов'язковий параметр: максимальне значення випадкового числа (за замовчуванням: [мтgetrandmax()](function.mt-getrandmax.md)
+Необов'язковий параметр: максимальне значення випадкового числа (за замовчуванням: [mt\_getrandmax()](function.mt-getrandmax.md)) .
 
 ### Значення, що повертаються
 
-Випадкове ціле значення між `min` (або 0) та `max` (або [мтgetrandmax()](function.mt-getrandmax.md), включно), або **`false`** у разі якщо `max` менше `min`
+Случайное целое значение между`min` (або 0) та `max`(или[mt\_getrandmax()](function.mt-getrandmax.md), включно), або **`false`** у разі якщо `max`меньше`min`
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Для **мтrand()** [произведено исправление бага](migration72.incompatible.md#migration72.incompatible.rand-mt_rand-output) усунення по модулю. Це означає, що послідовності згенеровані з конкретним початковим значенням можуть відрізнятися від згенерованих PHP 7.1 для 64-бітних машин. |
-|  | [rand()](function.rand.md) [тепер є](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) псевдонімом для **мтrand()** |
-|  | Функція **мтrand()** [була оновлена](migration71.incompatible.md#migration71.incompatible.fixes-to-mt_rand-algorithm) і тепер використовує коректну версію генератора випадкових чисел з урахуванням Вихря Мерсенна. Для використання старої поведінки, використовуйте [мтsrand()](function.mt-srand.md) з другим параметром, встановленим у **`MT_RAND_PHP`** |
+| 7.2.0 | Для**mt\_rand()** [здійснено виправлення бага](migration72.incompatible.md#migration72.incompatible.rand-mt_rand-output) усунення по модулю. Це означає, що послідовності згенеровані з конкретним початковим значенням можуть відрізнятися від згенерованих PHP 7.1 для 64-бітних машин. |
+| 7.1.0 | [rand()](function.rand.md) [тепер є](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) псевдонімом для **mt\_rand()** |
+| 7.1.0 | Функция**mt\_rand()** [була оновлена](migration71.incompatible.md#migration71.incompatible.fixes-to-mt_rand-algorithm) і тепер використовує коректну версію генератора випадкових чисел з урахуванням Вихря Мерсенна. Для використання старої поведінки, використовуйте [mt\_srand()](function.mt-srand.md) з другим параметром, встановленим у **`MT_RAND_PHP`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **мтrand()****
+**Пример #1 Пример использования**mt\_rand()\*\*\*\*
 
 ```php
 <?php
-echo mt_rand() . "\n";
-echo mt_rand() . "\n";
+echo mt_rand(), "\n";
+echo mt_rand(), "\n";
 
-echo mt_rand(5, 15);
+echo mt_rand(5, 15), "\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 1604716014
@@ -77,13 +80,11 @@ echo mt_rand(5, 15);
 
 **Увага**
 
-Діапазон `min` `max` не повинен виходити за кордон [мтgetrandmax()](function.mt-getrandmax.md). Тобто (`max` `min`) <= [мтgetrandmax()](function.mt-getrandmax.md). В іншому випадку, **мтrand()** може повертати менш якісні випадкові числа.
+Диапазон`min` `max` не повинен виходити за кордон [mt\_getrandmax()](function.mt-getrandmax.md). Тобто (`max` `min`) <= [mt\_getrandmax()](function.mt-getrandmax.md). В іншому випадку, **mt\_rand()** може повертати менш якісні довільні числа.
 
 ### Дивіться також
 
--   [мтsrand()](function.mt-srand.md) - Проініціалізує генератор випадкових чисел на базі Вихря Мерсенна
--   [мтgetrandmax()](function.mt-getrandmax.md) - Показує максимально можливе значення випадкового числа
--   [randomint()](function.random-int.md) - Генерує криптографічно безпечні псевдовипадкові цілі числа
--   [randombytes()](function.random-bytes.md) - Генерує криптографічно безпечні псевдовипадкові байти
--   [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) - Генерує псевдовипадкову послідовність байт
--   [rand()](function.rand.md) - Генерує випадкове число
+-   [mt\_srand()](function.mt-srand.md) \- Ініціалізує генератор випадкових чисел на базі Вихря Мерсенна
+-   [mt\_getrandmax()](function.mt-getrandmax.md) \- Показує максимально можливе значення випадкового числа
+-   [random\_int()](function.random-int.md) \- Отримує криптографічно безпечне, рівномірно вибране ціле число
+-   [random\_bytes()](function.random-bytes.md) \- Отримує криптографічно безпечні випадкові байти

@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli.insert-id.md: '« mysqli::$insertід'
-  - mysqli.more-results.md: 'mysqli::moreresults »'
+  - mysqli.insert-id.md: '« mysqli::$insert\_id'
+  - mysqli.more-results.md: 'mysqli::more\_results »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::kill'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # mysqli::kill
 
-# mysqlikill
+# mysqli\_kill
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::kill -- mysqlikill — Запит для сервера завершити виконання MySQL
+mysqli::kill -- mysqli\_kill — Запит для сервера завершити виконання MySQL
 
 ### Опис
 
@@ -28,7 +29,7 @@ public mysqli::kill(int $process_id): bool
 mysqli_kill(mysqli $mysql, int $process_id): bool
 ```
 
-Ця функція використовується, щоб відправити на сервер команду завершити MySQL процес заданий параметром `process_id`. Значення цього параметра має бути отримано за допомогою функції [mysqlithreadid()](mysqli.thread-id.md)
+Ця функція використовується, щоб відправити на сервер команду завершити MySQL процес заданий параметром `process_id`. Значення цього параметра має бути отримано за допомогою функції [mysqli\_thread\_id()](mysqli.thread-id.md)
 
 Для завершення поточного запиту використовуйте SQL команду `KILL QUERY processid`
 
@@ -36,15 +37,19 @@ mysqli_kill(mysqli $mysql, int $process_id): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+
+### Помилки
+
+Якщо сповіщення про помилки mysqli включено (**`MYSQLI_REPORT_ERROR`**) та запитана операція не вдалася, видається попередження. Якщо, крім того, встановлено режим **`MYSQLI_REPORT_STRICT`**, натомість буде викинуто виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::kill()****
+**Пример #1 Пример использования**mysqli::kill()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -104,7 +109,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Error: MySQL server has gone away
@@ -112,4 +117,4 @@ Error: MySQL server has gone away
 
 ### Дивіться також
 
--   [mysqlithreadid()](mysqli.thread-id.md) - Повертає ID процесу поточного підключення
+-   [mysqli\_thread\_id()](mysqli.thread-id.md) \- Повертає ID процесу поточного підключення

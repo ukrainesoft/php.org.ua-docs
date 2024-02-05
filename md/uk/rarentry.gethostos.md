@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.rarentry.md: RarEntry
 title: 'RarEntry::getHostOs'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarEntry::getHostOs
 
@@ -26,11 +27,11 @@ public RarEntry::getHostOs(): int
 
 ### Значення, що повертаються
 
-Повертає код ОС, або **`false`** у разі виникнення помилки.
+Повертає код ОС, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RarEntry::getHostOs()**(версії >= 2.0.0)**
+**Пример #1 Пример использования**RarEntry::getHostOs()**(версії >= 2.0.0)**
 
 ```php
 <?php
@@ -63,7 +64,7 @@ switch ($entry->getHostOs()) {
 ?>
 ```
 
-**Приклад #2 **Приклад використання RarEntry::getHostOs()**(версії <= 1.0.0)**
+**Пример #2**Приклад використання RarEntry::getHostOs()**(версії <= 1.0.0)**
 
 ```php
 <?php
@@ -98,4 +99,4 @@ switch ($entry->getHostOs()) {
 
 ### Дивіться також
 
--   [RarEntry::extract()](rarentry.extract.md) - Витягує елемент із архіву
+-   [RarEntry::extract()](rarentry.extract.md) \- Витягує елемент із архіву

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getTimeZone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getTimeZone
 
@@ -36,11 +37,11 @@ intlcal_get_time_zone(IntlCalendar $calendar): IntlTimeZone|false
 
 ### Значення, що повертаються
 
-Об'єкт [IntlTimeZone](class.intltimezone.md), що відповідає тому, що використовується всередині об'єкта. Повертає **`false`** у разі виникнення помилки.
+Об'єкт [IntlTimeZone](class.intltimezone.md), що відповідає тому, що використовується всередині об'єкта. Повертає \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::getTimeZone()****
+**Пример #1 Пример использования**IntlCalendar::getTimeZone()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ $cal = IntlCalendar::fromDateTime('2012-01-01 00:00:00 GMT+03:33');
 print_r($cal->getTimeZone());
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 IntlTimeZone Object
@@ -85,6 +86,6 @@ IntlTimeZone Object
 
 ### Дивіться також
 
--   [IntlCalendar::setTimeZone()](intlcalendar.settimezone.md) - Встановлює часовий пояс, що використовується календарем
--   [IntlCalendar::createInstance()](intlcalendar.createinstance.md) - Створює новий об'єкт IntlCalendar
--   [IntlGregorianCalendar::construct()](intlgregoriancalendar.construct.md) - Конструктор класу григоріанського календаря
+-   [IntlCalendar::setTimeZone()](intlcalendar.settimezone.md) \- Встановлює часовий пояс, що використовується календарем
+-   [IntlCalendar::createInstance()](intlcalendar.createinstance.md) \- Створює новий об'єкт IntlCalendar
+-   [IntlGregorianCalendar::\_\_construct()](intlgregoriancalendar.construct.md) \- Конструктор класу григоріанського календаря

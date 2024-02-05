@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.image.md: « Введение
+  - intro.image.md: '" Вступ'
   - image.requirements.md: Вимоги »
   - index.md: PHP Manual
-  - book.image.md: ДД
+  - book.image.md: GD
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

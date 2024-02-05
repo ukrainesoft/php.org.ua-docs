@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-columns.md: « odbccolumns
-  - function.odbc-connect.md: odbcconnect »
+  - function.odbc-columns.md: « odbc\_columns
+  - function.odbc-connect.md: odbc\_connect »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbccommit
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_commit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbccommit
+# odbc\_commit
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbccommit - Фіксує транзакцію ODBC
+odbc\_commit - Фіксує транзакцію ODBC
 
 ### Опис
 
@@ -24,8 +25,8 @@ odbc_commit(resource $odbc): bool
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

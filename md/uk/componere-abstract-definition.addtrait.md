@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-abstract-definition.addmethod.md: '« ComponereAbstractDefinition::addMethod'
-  - componere-abstract-definition.getreflector.md: 'ComponereAbstractDefinition::getReflector »'
+  - componere-abstract-definition.addmethod.md: '« Componere\\Abstract\\Definition::addMethod'
+  - componere-abstract-definition.getreflector.md: 'Componere\\Abstract\\Definition::getReflector »'
   - index.md: PHP Manual
-  - class.componere-abstract-definition.md: ComponereAbstractDefinition
-title: 'ComponereAbstractDefinition::addTrait'
+  - class.componere-abstract-definition.md: Componere\\Abstract\\Definition
+title: 'Componere\\Abstract\\Definition::addTrait'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereAbstractDefinition::addTrait
+# Componere\\Abstract\\Definition::addTrait
 
 (Componere 2 >= 2.1.0)
 
-ComponereAbstractDefinition::addTrait — Додає трейт
+Componere\\Abstract\\Definition::addTrait — Додає трейт
 
 ### Опис
 

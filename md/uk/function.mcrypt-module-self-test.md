@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.mcrypt-module-open.md: « mcryptmoduleopen
-  - function.mdecrypt-generic.md: mdecryptgeneric »
+  - function.mcrypt-module-open.md: « mcrypt\_module\_open
+  - function.mdecrypt-generic.md: mdecrypt\_generic »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
-title: mcryptmoduleselftest
+title: mcrypt\_module\_self\_test
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mcryptmoduleselftest
+# mcrypt\_module\_self\_test
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcryptmoduleselftest — Функція запускає самоперевірку вказаного модуля
+mcrypt\_module\_self\_test — Функція запускає самоперевірку вказаного модуля
 
 **Увага**
 
-Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -28,7 +29,7 @@ mcrypt_module_self_test(string $algorithm, string $lib_dir = ?): bool
 
 `algorithm`
 
-Одна з констант **`MCRYPT_ciphername`** або назва алгоритму у вигляді рядка.
+Одна из констант\*\*`MCRYPT_ciphername`\*\*или название алгоритма в виде строки.
 
 `lib_dir`
 
@@ -40,7 +41,7 @@ mcrypt_module_self_test(string $algorithm, string $lib_dir = ?): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mcryptmoduleselftest()****
+**Пример #1 Пример использования**mcrypt\_module\_self\_test()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump(mcrypt_module_self_test(MCRYPT_BOGUS_CYPHER));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)

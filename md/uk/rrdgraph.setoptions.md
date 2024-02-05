@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.rrdgraph.md: RRDGraph
 title: 'RRDGraph::setOptions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RRDGraph::setOptions
 
@@ -30,7 +31,7 @@ public RRDGraph::setOptions(array $options): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RRDGraph::setOptions()****
+**Пример #1 Пример использования**RRDGraph::setOptions()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ $graphObj->setOptions(array(
 ?>
 ```
 
-**Приклад #2 Встановлення кількох варіантів кольорів**
+**Приклад #2 Установка кількох варіантів кольорів**
 
 ```php
 <?php

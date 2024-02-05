@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplObjectStorage::valid
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::valid — Визначає, чи допустиме поточне значення ітератора
 
@@ -30,14 +31,14 @@ public SplObjectStorage::valid(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplObjectStorage::valid()****
+**Пример #1 Пример использования**SplObjectStorage::valid()\*\*\*\*
 
 ```php
 <?php
 $s = new SplObjectStorage();
 
-$o1 = new StdClass;
-$o2 = new StdClass;
+$o1 = new stdClass;
+$o2 = new stdClass;
 
 $s->attach($o1, "d1");
 $s->attach($o2, "d2");
@@ -50,7 +51,7 @@ while($s->valid()) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 0
@@ -59,5 +60,5 @@ while($s->valid()) {
 
 ### Дивіться також
 
--   [SplObjectStorage::current()](splobjectstorage.current.md) - Повертає поточний об'єкт
--   [SplObjectStorage::getInfo()](splobjectstorage.getinfo.md) - Повертає дані, що асоціюються з поточним об'єктом
+-   [SplObjectStorage::current()](splobjectstorage.current.md) \- Повертає поточний об'єкт
+-   [SplObjectStorage::getInfo()](splobjectstorage.getinfo.md) \- Повертає дані, що асоціюються з поточним об'єктом

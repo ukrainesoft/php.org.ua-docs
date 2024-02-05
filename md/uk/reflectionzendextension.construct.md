@@ -1,27 +1,30 @@
 ---
 navigation:
-  - reflectionzendextension.clone.md: '« ReflectionZendExtension::clone'
+  - reflectionzendextension.clone.md: '« ReflectionZendExtension::\_\_clone'
   - reflectionzendextension.export.md: 'ReflectionZendExtension::export »'
   - index.md: PHP Manual
   - class.reflectionzendextension.md: ReflectionZendExtension
-title: 'ReflectionZendExtension::construct'
+title: 'ReflectionZendExtension::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionZendExtension::construct
+# ReflectionZendExtension::\_\_construct
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
-ReflectionZendExtension::construct — Конструктор
+ReflectionZendExtension::\_\_construct — Створює об'єкт ReflectionZendExtension
 
 ### Опис
 
-public **ReflectionZendExtension::construct**(string `$name`
+public**ReflectionZendExtension::\_\_construct**(string`$name`) .
 
-**Увага**
-
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Створює об'єкт [ReflectionZendExtension](class.reflectionzendextension.md)
 
 ### Список параметрів
 
 `name`
 
-### Значення, що повертаються
+Ім'я модуль.
+
+### Помилки
+
+Викидає виняток [ReflectionException](class.reflectionexception.md)якщо вказаний модуль не існує.

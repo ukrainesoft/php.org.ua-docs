@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-restore.md: « uopzrestore
-  - function.uopz-set-mock.md: uopzsetmock »
+  - function.uopz-restore.md: « uopz\_restore
+  - function.uopz-set-mock.md: uopz\_set\_mock »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzsethook
+title: uopz\_set\_hook
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzsethook
+# uopz\_set\_hook
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzsethook — Встановлює обробник для виконання під час виклику функції або методу
+uopz\_set\_hook — Встановлює обробник для виконання під час виклику функції або методу
 
 ### Опис
 
@@ -40,11 +41,11 @@ uopz_set_hook(string $class, string $function, Closure $hook): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Просте використання **uopzsethook()****
+**Пример #1 Простое использование**uopz\_set\_hook()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ foo();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 barfoo
@@ -64,5 +65,5 @@ barfoo
 
 ### Дивіться також
 
--   [uopzgethook()](function.uopz-get-hook.md) - отримує раніше встановлений обробник на функцію або метод
--   [uopzunsethook()](function.uopz-unset-hook.md) - Видаляє раніше встановлену функцію чи метод
+-   [uopz\_get\_hook()](function.uopz-get-hook.md) \- отримує раніше встановлений обробник на функцію або метод
+-   [uopz\_unset\_hook()](function.uopz-unset-hook.md) \- Видаляє раніше встановлену функцію чи метод

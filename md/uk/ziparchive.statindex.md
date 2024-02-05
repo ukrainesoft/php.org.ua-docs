@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::statIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::statIndex
 
@@ -32,7 +33,7 @@ public ZipArchive::statIndex(int $index, int $flags = 0): array|false
 
 ### Значення, що повертаються
 
-Повертає масив, що містить детальну інформацію про елемент або **`false`** у разі виникнення помилки.
+Повертає масив, що містить детальну інформацію про елемент або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -51,7 +52,7 @@ if ($res === TRUE) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

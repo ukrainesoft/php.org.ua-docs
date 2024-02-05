@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.runkit7-function-rename.md: « runkit7functionrename
-  - function.runkit7-method-add.md: runkit7methodadd »
+  - function.runkit7-function-rename.md: « runkit7\_function\_rename
+  - function.runkit7-method-add.md: runkit7\_method\_add »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
-title: runkit7import
+title: runkit7\_import
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# runkit7import
+# runkit7\_import
 
-(PECL runkit7> = Unknown)
+(PECL runkit7 >= Unknown)
 
-runkit7import — Обробляє функцію імпорту файлу PHP та визначення класів, за потреби перезаписуючи
+runkit7\_import — Обробляє функцію імпорту файлу PHP та визначення класів, за потреби перезаписуючи
 
 **Увага**
 
-Функціонал був *віддалений* у PECL runkit7 4.0.0.
+Функціонал був *віддалений*в PECL runkit7 4.0.0.
 
 ### Опис
 
@@ -22,7 +23,7 @@ runkit7import — Обробляє функцію імпорту файлу PHP 
 runkit7_import(string $filename, int $flags = ?): bool
 ```
 
-Функція подібна [include](function.include.md). Однак будь-який код, який знаходиться за межами функції або класу, просто ігнорується. Крім того, залежно від значення `flags`, будь-які функції або класи, які вже існують у поточному запущеному середовищі, можуть бути автоматично перезаписані їх новими визначеннями.
+Функция подобна[include](function.include.md). Однак будь-який код, який знаходиться за межами функції або класу, просто ігнорується. Крім того, залежно від значення `flags`, будь-які функції або класи, які вже існують у поточному запущеному середовищі, можуть бути автоматично перезаписані їх новими визначеннями.
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ runkit7_import(string $filename, int $flags = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

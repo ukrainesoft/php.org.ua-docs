@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-sftp-readlink.md: « ssh2sftpreadlink
-  - function.ssh2-sftp-rename.md: ssh2sftprename »
+  - function.ssh2-sftp-readlink.md: « ssh2\_sftp\_readlink
+  - function.ssh2-sftp-rename.md: ssh2\_sftp\_rename »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2sftprealpath
+title: ssh2\_sftp\_realpath
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2sftprealpath
+# ssh2\_sftp\_realpath
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2sftprealpath — Визначає повний шлях по даному рядку шляхом
+ssh2\_sftp\_realpath — Визначає повний шлях по даному рядку шляхом
 
 ### Опис
 
@@ -18,13 +19,13 @@ ssh2sftprealpath — Визначає повний шлях по даному р
 ssh2_sftp_realpath(resource $sftp, string $filename): string
 ```
 
-Перетворює `filename` на повний шлях до файлу на віддаленому сервері.
+Перетворює ім'я файлу `filename` на повний шлях до файлу на віддаленому сервері.
 
 ### Список параметрів
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.md)
 
 `filename`
 
@@ -49,6 +50,6 @@ $realpath = ssh2_sftp_realpath($sftp, '/home/username/../../../..//./usr/../etc/
 
 ### Дивіться також
 
--   [realpath()](function.realpath.md) - Повертає абсолютний канонізований шлях до файлу
--   [ssh2sftpsymlink()](function.ssh2-sftp-symlink.md) - Створити символічне посилання
--   [ssh2sftpreadlink()](function.ssh2-sftp-readlink.md) - Повертає об'єкт за символічним посиланням
+-   [realpath()](function.realpath.md) \- Повертає абсолютний канонізований шлях до файлу
+-   [ssh2\_sftp\_symlink()](function.ssh2-sftp-symlink.md) \- Створити символічне посилання
+-   [ssh2\_sftp\_readlink()](function.ssh2-sftp-readlink.md) \- Повертає об'єкт за символічним посиланням

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-is-valid-point.md: « sodiumcryptocoreristretto255ісvalidpoint
-  - function.sodium-crypto-core-ristretto255-scalar-add.md: sodiumcryptocoreristretto255scalaradd »
+  - function.sodium-crypto-core-ristretto255-is-valid-point.md: « sodium\_crypto\_core\_ristretto255\_is\_valid\_point
+  - function.sodium-crypto-core-ristretto255-scalar-add.md: sodium\_crypto\_core\_ristretto255\_scalar\_add »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptocoreristretto255random
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_core\_ristretto255\_random
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptocoreristretto255random
+# sodium\_crypto\_core\_ristretto255\_random
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-sodiumcryptocoreristretto255random - Генерує випадковий ключ
+sodium\_crypto\_core\_ristretto255\_random - Генерує випадковий ключ
 
 ### Опис
 
@@ -22,7 +23,7 @@ sodium_crypto_core_ristretto255_random(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ sodium_crypto_core_ristretto255_random(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptocoreristretto255random()****
+**Пример #1 Пример использования**sodium\_crypto\_core\_ristretto255\_random()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump(hash_equals($foo, $value));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -57,5 +58,5 @@ bool(true)
 
 ### Дивіться також
 
--   [sodiumcryptocoreristretto255add()](function.sodium-crypto-core-ristretto255-add.md) - Додає елемент
--   [sodiumcryptocoreristretto255sub()](function.sodium-crypto-core-ristretto255-sub.md) - Віднімає елемент
+-   [sodium\_crypto\_core\_ristretto255\_add()](function.sodium-crypto-core-ristretto255-add.md) \- Додає елемент
+-   [sodium\_crypto\_core\_ristretto255\_sub()](function.sodium-crypto-core-ristretto255-sub.md) \- Віднімає елемент

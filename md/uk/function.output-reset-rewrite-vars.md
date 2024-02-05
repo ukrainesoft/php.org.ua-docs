@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.output-add-rewrite-var.md: « outputaddrewritevar
-  - book.info.md: Опции/информация PHP »
+  - function.output-add-rewrite-var.md: « output\_add\_rewrite\_var
+  - book.info.md: Опції/інформація PHP »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
-title: outputresetrewritevars
+title: output\_reset\_rewrite\_vars
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# outputresetrewritevars
+# output\_reset\_rewrite\_vars
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-outputresetrewritevars — Скинути значення обробника URL
+output\_reset\_rewrite\_vars — Скинути значення обробника URL
 
 ### Опис
 
@@ -18,7 +19,7 @@ outputresetrewritevars — Скинути значення обробника UR
 output_reset_rewrite_vars(): bool
 ```
 
-Ця функція скидає обробник URL та видаляє всі значення, встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.md)
+Функція видаляє всі змінні перезаписи, раніше встановлені функцією [output\_add\_rewrite\_var()](function.output-add-rewrite-var.md)
 
 ### Список параметрів
 
@@ -26,21 +27,23 @@ output_reset_rewrite_vars(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | До PHP 7.1.0, змінні перезаписи встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.md) використовують той самий буфер модуля сесії "trans sid". З PHP 7.1.0, використовується окремий буфер і **outputresetrewritevars()** тільки видаляє перемінні перезаписи [outputaddrewritevar()](function.output-add-rewrite-var.md) |
+| 7.1.0 | До PHP 7.1.0, змінні перезаписи встановлені функцією [output\_add\_rewrite\_var()](function.output-add-rewrite-var.md) використовують той самий буфер модуля сесії "trans sid". З PHP 7.1.0, використовується окремий буфер і **output\_reset\_rewrite\_vars()** тільки видаляє перемінні перезаписи [output\_add\_rewrite\_var()](function.output-add-rewrite-var.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **outputresetrewritevars()****
+**Пример #1 Пример использования функции**output\_reset\_rewrite\_vars()\*\*\*\*
 
 ```php
 <?php
-session_start();
+
+ini_set('url_rewriter.tags', 'a=href');
+
 output_add_rewrite_var('var', 'value');
 
 echo '<a href="file.php">ссылка</a>';
@@ -51,19 +54,19 @@ echo '<a href="file.php">ссылка</a>';
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-<a href="file.php?PHPSESSID=xxx&var=value">ссылка</a>
+<a href="file.php?var=value">ссылка</a>
 <a href="file.php">ссылка</a>
 ```
 
 ### Дивіться також
 
--   [outputaddrewritevar()](function.output-add-rewrite-var.md) - Додати значення в обробник URL
--   [проflush()](function.ob-flush.md) - Скинути (надіслати) буфер виводу
--   [проlisthandlers()](function.ob-list-handlers.md) - Список всіх використовуваних обробників виводу
--   [urlrewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags)
--   [urlrewriter.hosts](outcontrol.configuration.md#ini.url-rewriter.hosts)
--   [session.transsidtags](session.configuration.md#ini.session.trans-sid-tags)
--   [session.transsidhosts](session.configuration.md#ini.session.trans-sid-hosts)
+-   [output\_add\_rewrite\_var()](function.output-add-rewrite-var.md) \- Додає значення до обробника перезапису URL
+-   [ob\_flush()](function.ob-flush.md) \- Скидає (відправляє) повернене активним обробником висновку значення
+-   [ob\_list\_handlers()](function.ob-list-handlers.md) \- Повертає список активних обробників виводу
+-   [url\_rewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags)
+-   [url\_rewriter.hosts](outcontrol.configuration.md#ini.url-rewriter.hosts)
+-   [session.trans\_sid\_tags](session.configuration.md#ini.session.trans-sid-tags)
+-   [session.trans\_sid\_hosts](session.configuration.md#ini.session.trans-sid-hosts)

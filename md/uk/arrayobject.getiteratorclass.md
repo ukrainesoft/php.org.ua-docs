@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::getIteratorClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::getIteratorClass
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ArrayObject::getIteratorClass — Отримує ім'я класу ітератора для ArrayObject
 
@@ -30,7 +31,7 @@ public ArrayObject::getIteratorClass(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::getIteratorClass()****
+**Пример #1 Пример использования**ArrayObject::getIteratorClass()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ class MyArrayIterator extends ArrayIterator {
     // пользовательская реализация
 }
 
-// Масив доступных фруктов
+// Массив доступных фруктов
 $fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
 $fruitsArrayObject = new ArrayObject($fruits);
@@ -57,7 +58,7 @@ var_dump($className);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(13) "ArrayIterator"

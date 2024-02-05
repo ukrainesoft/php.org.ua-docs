@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-ini.offsetget.md: '« YafConfigIni::offsetGet'
-  - yaf-config-ini.offsetunset.md: 'YafConfigIni::offsetUnset »'
+  - yaf-config-ini.offsetget.md: '« Yaf\_Config\_Ini::offsetGet'
+  - yaf-config-ini.offsetunset.md: 'Yaf\_Config\_Ini::offsetUnset »'
   - index.md: PHP Manual
-  - class.yaf-config-ini.md: YafConfigIni
-title: 'YafConfigIni::offsetSet'
+  - class.yaf-config-ini.md: Yaf\_Config\_Ini
+title: 'Yaf\_Config\_Ini::offsetSet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigIni::offsetSet
+# Yaf\_Config\_Ini::offsetSet
 
 (Yaf >=1.0.0)
 
-YafConfigIni::offsetSet — Призначення offsetSet
+Yaf\_Config\_Ini::offsetSet — Призначення offsetSet
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Ini::offsetSet(string $name, string $value): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

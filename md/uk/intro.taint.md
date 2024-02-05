@@ -1,18 +1,19 @@
 ---
 navigation:
   - book.taint.md: « Taint
-  - taint.setup.md: Встановлення та налаштування »
+  - taint.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.taint.md: Taint
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 
-Taint - модуль, використовуваний визначення кодів XSS (зіпсовані чи підозрілі рядки, tainted strings). Також може використовуватися виявлення спроб використання SQL-ін'єкцій, shell-ін'єкцій тощо.
+Taint — модуль визначення кодів XSS (зіпсовані або підозрілі рядки, tainted strings). Також може бути корисним для виявлення спроб впровадження SQL-ін'єкцій, shell-ін'єкцій і т.д.
 
-Якщо модуль увімкнено, то коли ви передаєте підозрілий рядок (з $GET, $POST або $COOKIE) деяким функціям буде видано попередження.
+Якщо модуль увімкнено, то коли ви передаєте підозрілий рядок (з $\_GET, $\_POST або $\_COOKIE) деяким функціям буде видано попередження.
 
-**Приклад #1 Приклад використання [Taint()](function.taint.md)**
+**Пример #1 Пример использования[Taint()](function.taint.md)**
 
 ```php
 <?php
@@ -28,13 +29,13 @@ echo $output;
 
 print $$var;
 
-include($file_name);
+include $file_name;
 
 mysql_query($sql);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Warning: main() [function.echo]: Attempt to echo a string that might be tainted

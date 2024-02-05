@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phardata.md: PharData
 title: 'PharData::copy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharData::copy
 
@@ -36,9 +37,9 @@ public PharData::copy(string $from, string $to): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharData::copy()****
+**Пример #1 Пример использования**PharData::copy()\*\*\*\*
 
-У прикладі показано використання **PharData::copy()** та аналог з використанням потокової обгортки. Головна різниця між цими підходами – обробка помилок. Усі методи PharData викидають винятки, тоді як потокові обгортки використовують функцію [triggererror()](function.trigger-error.md)
+В примере показано использование**PharData::copy()** та аналог з використанням потокової обгортки. Головна різниця між цими підходами – обробка помилок. Усі методи PharData викидають винятки, тоді як потокові обгортки використовують функцію [trigger\_error()](function.trigger-error.md)
 
 ```php
 <?php

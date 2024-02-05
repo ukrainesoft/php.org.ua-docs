@@ -1,14 +1,15 @@
 ---
 navigation:
   - solrdocument.valid.md: '« SolrDocument::valid'
-  - solrdocumentfield.construct.md: 'SolrDocumentField::construct »'
+  - solrdocumentfield.construct.md: 'SolrDocumentField::\_\_construct »'
   - index.md: PHP Manual
   - book.solr.md: Solr
 title: Клас SolrDocumentField
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SolrDocumentField
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 ## Вступ
 
@@ -16,7 +17,7 @@ title: Клас SolrDocumentField
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 
@@ -71,5 +72,5 @@ values
 
 ## Зміст
 
--   [SolrDocumentField::construct](solrdocumentfield.construct.md) - Конструктор
--   [SolrDocumentField::destruct](solrdocumentfield.destruct.md) - Деструктор
+-   [SolrDocumentField::\_\_construct](solrdocumentfield.construct.md) \- Конструктор
+-   [SolrDocumentField::\_\_destruct](solrdocumentfield.destruct.md) \- Деструктор

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.dbase-numfields.md: « dbasenumfields
-  - function.dbase-open.md: dbaseopen »
+  - function.dbase-numfields.md: « dbase\_numfields
+  - function.dbase-open.md: dbase\_open »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
-title: dbasenumrecords
+title: dbase\_numrecords
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dbasenumrecords
+# dbase\_numrecords
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-dbasenumrecords — Отримує кількість записів у базі даних
+dbase\_numrecords — Отримує кількість записів у базі даних
 
 ### Опис
 
@@ -20,29 +21,29 @@ dbase_numrecords(resource $database): int
 
 Отримує кількість записів (рядків) у зазначеній базі даних.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Записи, позначені як віддалені, також враховуються.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Записи бази даних нумеруються від 1 `dbase_numrecords($db)`, тоді як поля від 0 до `dbase_numfields($db)-1`
+> Записи бази даних нумеруються від 1 `dbase_numrecords($db)`, тогда как поля от 0 до`dbase_numfields($db)-1`
 
 ### Список параметрів
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
+Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.md) або [dbase\_create()](function.dbase-create.md)
 
 ### Значення, що повертаються
 
-Кількість записів у базі даних, або **`false`** у разі виникнення помилки.
+Кількість записів у базі даних, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
+| dbase 7.0.0 | Параметр`database` тепер має тип resource, а не int. |
 
 ### Приклади
 
@@ -66,4 +67,4 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbasenumfields()](function.dbase-numfields.md) - Отримує кількість полів бази даних
+-   [dbase\_numfields()](function.dbase-numfields.md) \- Отримує кількість полів бази даних

@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.hash.md: « Hash
-  - hash.setup.md: Встановлення та налаштування »
+  - hash.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.hash.md: Hash
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 

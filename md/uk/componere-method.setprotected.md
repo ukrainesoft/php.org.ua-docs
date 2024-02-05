@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-method.setprivate.md: '« ComponereMethod::setPrivate'
-  - componere-method.setstatic.md: 'ComponereMethod::setStatic »'
+  - componere-method.setprivate.md: '« Componere\\Method::setPrivate'
+  - componere-method.setstatic.md: 'Componere\\Method::setStatic »'
   - index.md: PHP Manual
-  - class.componere-method.md: ComponereMethod
-title: 'ComponereMethod::setProtected'
+  - class.componere-method.md: Componere\\Method
+title: 'Componere\\Method::setProtected'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereMethod::setProtected
+# Componere\\Method::setProtected
 
 (Componere 2 >= 2.1.0)
 
-ComponereMethod::setProtected — Зміна доступності
+Componere\\Method::setProtected — Зміна доступності
 
 ### Опис
 

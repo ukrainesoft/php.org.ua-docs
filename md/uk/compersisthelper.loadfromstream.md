@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.compersisthelper.md: COMPersistHelper
 title: 'COMPersistHelper::LoadFromStream'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # COMPersistHelper::LoadFromStream
 
@@ -28,8 +29,8 @@ public COMPersistHelper::LoadFromStream(resource $stream): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Викидає виняток [comexception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStream**або якщо виклик **IPersistStream::Load()** завершився помилкою.
+Викидає виняток [com\_exception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStream**або якщо виклик **IPersistStream::Load()** завершився помилкою.

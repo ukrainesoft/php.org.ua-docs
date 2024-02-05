@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-timestamp.jsonserialize.md: '« MongoDBBSONTimestamp::jsonSerialize'
-  - mongodb-bson-timestamp.tostring.md: 'MongoDBBSONTimestamp::toString »'
+  - mongodb-bson-timestamp.jsonserialize.md: '« MongoDB\\BSON\\Timestamp::jsonSerialize'
+  - mongodb-bson-timestamp.tostring.md: 'MongoDB\\BSON\\Timestamp::\_\_toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-timestamp.md: MongoDBBSONTimestamp
-title: 'MongoDBBSONTimestamp::serialize'
+  - class.mongodb-bson-timestamp.md: MongoDB\\BSON\\Timestamp
+title: 'MongoDB\\BSON\\Timestamp::serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONTimestamp::serialize
+# MongoDB\\BSON\\Timestamp::serialize
 
 (mongodb >=1.2.0)
 
-MongoDBBSONTimestamp::serialize — Серіалізує Timestamp
+MongoDB\\BSON\\Timestamp::serialize — Серіалізує Timestamp
 
 ### Опис
 
@@ -24,14 +25,14 @@ final public MongoDB\BSON\Timestamp::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.md)
+Возвращает сериализованное представление[MongoDB\\BSON\\Timestamp](class.mongodb-bson-timestamp.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONTimestamp::unserialize()](mongodb-bson-timestamp.unserialize.md) - Десеріалізує Timestamp
--   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
+-   [MongoDB\\BSON\\Timestamp::unserialize()](mongodb-bson-timestamp.unserialize.md) \- Десеріалізує Timestamp
+-   [serialize()](function.serialize.md) \- Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

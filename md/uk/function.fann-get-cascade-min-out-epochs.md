@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-cascade-min-cand-epochs.md: « fanngetcascademincandepochs
-  - function.fann-get-cascade-num-candidate-groups.md: fanngetcascadenumcandidategroups »
+  - function.fann-get-cascade-min-cand-epochs.md: « fann\_get\_cascade\_min\_cand\_epochs
+  - function.fann-get-cascade-num-candidate-groups.md: fann\_get\_cascade\_num\_candidate\_groups »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetcascademinoutepochs
+  - ref.fann.md: Функції Fann
+title: fann\_get\_cascade\_min\_out\_epochs
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetcascademinoutepochs
+# fann\_get\_cascade\_min\_out\_epochs
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetcascademinoutepochs — Повертає мінімальну кількість періодів
+fann\_get\_cascade\_min\_out\_epochs — Повертає мінімальну кількість періодів
 
 ### Опис
 
@@ -30,14 +31,14 @@ fann_get_cascade_min_out_epochs(resource $ann): int
 
 ### Значення, що повертаються
 
-Мінімальна кількість періодів або **`false`** у разі виникнення помилки.
+Минимальное количество периодов или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
--   [fannsetcascademinoutepochs()](function.fann-set-cascade-min-out-epochs.md) - Встановлює мінімальні епохи вихідних даних
+-   [fann\_set\_cascade\_min\_out\_epochs()](function.fann-set-cascade-min-out-epochs.md) \- Встановлює мінімальні епохи вихідних даних

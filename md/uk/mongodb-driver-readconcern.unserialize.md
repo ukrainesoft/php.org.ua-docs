@@ -1,28 +1,29 @@
 ---
 navigation:
-  - mongodb-driver-readconcern.serialize.md: '« MongoDBDriverReadConcern::serialize'
-  - class.mongodb-driver-cursor.md: MongoDBDriverCursor »
+  - mongodb-driver-readconcern.serialize.md: '« MongoDB\\Driver\\ReadConcern::serialize'
+  - class.mongodb-driver-cursor.md: MongoDB\\Driver\\Cursor »
   - index.md: PHP Manual
-  - class.mongodb-driver-readconcern.md: MongoDBDriverReadConcern
-title: 'MongoDBDriverReadConcern::unserialize'
+  - class.mongodb-driver-readconcern.md: MongoDB\\Driver\\ReadConcern
+title: 'MongoDB\\Driver\\ReadConcern::unserialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverReadConcern::unserialize
+# MongoDB\\Driver\\ReadConcern::unserialize
 
 (mongodb >=1.7.0)
 
-MongoDBDriverReadConcern::unserialize — Десеріалізація ReadConcern
+MongoDB\\Driver\\ReadConcern::unserialize — Десеріалізація ReadConcern
 
 ### Опис
 
 ```methodsynopsis
-final public MongoDB\Driver\ReadConcern::unserialize(string $serialized): void
+final public MongoDB\Driver\ReadConcern::unserialize(string $data): void
 ```
 
 ### Список параметрів
 
-`serialized`
+`data`
 
-Серіалізований [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md)
+Серіалізований [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.md)
 
 ### Значення, що повертаються
 
@@ -30,12 +31,12 @@ final public MongoDB\Driver\ReadConcern::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   Кидає виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) якщо виникла неможливо зробити десеріалізацію властивості, наприклад, якщо значення `serialized` не коректно.
--   Кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) якщо властивості не коректні, наприклад, пропущені поля або вони мають некоректні значення.
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Кидає виняток [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)якщо виникла неможливо зробити десеріалізацію властивості, наприклад, якщо значення`serialized`не коректно.
+-   Кидає виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо властивості не коректні, наприклад, пропущені поля або вони мають некоректні значення.
 
 ### Дивіться також
 
--   [MongoDBDriverReadConcern::serialize()](mongodb-driver-readconcern.serialize.md) - Серіалізація ReadConcern
--   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [MongoDB\\Driver\\ReadConcern::serialize()](mongodb-driver-readconcern.serialize.md) \- Серіалізація ReadConcern
+-   [unserialize()](function.unserialize.md) \- Створює PHP-значення зі збереженого уявлення
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

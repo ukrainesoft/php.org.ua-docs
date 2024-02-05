@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli.field-count.md: '« mysqli::$fieldcount'
-  - mysqli.get-client-info.md: 'mysqli::$clientinfo »'
+  - mysqli.field-count.md: '« mysqli::$field\_count'
+  - mysqli.get-client-info.md: 'mysqli::$client\_info »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::getcharset'
+title: 'mysqli::get\_charset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::getcharset
+# mysqli::get\_charset
 
-# mysqligetcharset
+# mysqli\_get\_charset
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-mysqli::getcharset - mysqligetcharset — Повертає об'єкт, що описує кодування
+mysqli::get\_charset -- mysqli\_get\_charset — Повертає об'єкт, що описує кодування
 
 ### Опис
 
@@ -34,7 +35,7 @@ mysqli_get_charset(mysqli $mysql): ?object
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -70,7 +71,7 @@ mysqli_get_charset(mysqli $mysql): ?object
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::getcharset()****
+**Пример #1 Пример использования**mysqli::get\_charset()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -92,7 +93,7 @@ mysqli_get_charset(mysqli $mysql): ?object
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 object(stdClass)#2 (7) {
@@ -115,5 +116,5 @@ object(stdClass)#2 (7) {
 
 ### Дивіться також
 
--   [mysqlicharactersetname()](mysqli.character-set-name.md) - Повертає поточне кодування, встановлене для з'єднання з БД
--   [mysqlisetcharset()](mysqli.set-charset.md) - Встановлює набір символів
+-   [mysqli\_character\_set\_name()](mysqli.character-set-name.md) \- Повертає поточне кодування, встановлене для з'єднання з БД
+-   [mysqli\_set\_charset()](mysqli.set-charset.md) \- Встановлює набір символів

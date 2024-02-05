@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.md: « sodiumcryptoaeadchacha20poly1305ietfdecrypt
-  - function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.md: sodiumcryptoaeadchacha20poly1305ietfkeygen »
+  - function.sodium-crypto-aead-chacha20poly1305-ietf-decrypt.md: « sodium\_crypto\_aead\_chacha20poly1305\_ietf\_decrypt
+  - function.sodium-crypto-aead-chacha20poly1305-ietf-keygen.md: sodium\_crypto\_aead\_chacha20poly1305\_ietf\_keygen »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoaeadchacha20poly1305ietfencrypt
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_aead\_chacha20poly1305\_ietf\_encrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoaeadchacha20poly1305ietfencrypt
+# sodium\_crypto\_aead\_chacha20poly1305\_ietf\_encrypt
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoaeadchacha20poly1305ietfencrypt — Зашифрувати повідомлення
+sodium\_crypto\_aead\_chacha20poly1305\_ietf\_encrypt — Зашифрувати повідомлення
 
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_aead_chacha20poly1305_ietf_encrypt(    string $message,    string $additional_data,    string $nonce,    string $key): string
+sodium_crypto_aead_chacha20poly1305_ietf_encrypt(    string $message,    string $additional_data,    string $nonce,    string $key): string
 ```
 
 Шифрує, а потім перевіряє справжність за допомогою ChaCha20-Poly1305 (варіант IETF).
@@ -42,4 +43,4 @@ sodium_crypto_aead_chacha20poly1305_ietf_encrypt(    string $message,    string 
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає зашифрований текст та тег або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає зашифрований текст та тег або \*\*`false`\*\*в случае возникновения ошибки.

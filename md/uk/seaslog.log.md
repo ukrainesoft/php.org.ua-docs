@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::log'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::log
 
@@ -15,7 +16,7 @@ SeasLog::log — Загальна функція запису до журнал�
 ### Опис
 
 ```methodsynopsis
-public static SeasLog::log(    string $level,    string $message = ?,    array $content = ?,    string $logger = ?): bool
+public static SeasLog::log(    string $level,    string $message = ?,    array $content = ?,    string $logger = ?): bool
 ```
 
 Загальна функція запису журналу.
@@ -26,14 +27,14 @@ public static SeasLog::log(    string $level,    string $message = ?,    array $
 
 Можна використовувати рівень один із:
 
--   [SEASLOGDEBUG](seaslog.constants.md#constant.seaslog-debug)
--   [SEASLOGINFO](seaslog.constants.md#constant.seaslog-info)
--   [SEASLOGNOTICE](seaslog.constants.md#constant.seaslog-notice)
--   [SEASLOGWARNING](seaslog.constants.md#constant.seaslog-warning)
--   [SEASLOGERROR](seaslog.constants.md#constant.seaslog-error)
--   [SEASLOGCRITICAL](seaslog.constants.md#constant.seaslog-critical)
--   [SEASLOGALERT](seaslog.constants.md#constant.seaslog-alert)
--   [SEASLOGEMERGENCY](seaslog.constants.md#constant.seaslog-emergency)
+-   [SEASLOG\_DEBUG](seaslog.constants.md#constant.seaslog-debug)
+-   [SEASLOG\_INFO](seaslog.constants.md#constant.seaslog-info)
+-   [SEASLOG\_NOTICE](seaslog.constants.md#constant.seaslog-notice)
+-   [SEASLOG\_WARNING](seaslog.constants.md#constant.seaslog-warning)
+-   [SEASLOG\_ERROR](seaslog.constants.md#constant.seaslog-error)
+-   [SEASLOG\_CRITICAL](seaslog.constants.md#constant.seaslog-critical)
+-   [SEASLOG\_ALERT](seaslog.constants.md#constant.seaslog-alert)
+-   [SEASLOG\_EMERGENCY](seaslog.constants.md#constant.seaslog-emergency)
 
 Або ви можете створити власний рівень.
 
@@ -43,11 +44,11 @@ public static SeasLog::log(    string $level,    string $message = ?,    array $
 
 `content`
 
-Повідомлення містить заповнювачі, які заміняють розробники значеннями з масиву вмісту. Якщо message - це інформація журналу від {NAME}, а content array('NAME' => 'Микити'), інформація журналу буде інформація журналу від Микити
+Повідомлення містить заповнювачі, які розробники замінюють значеннями масиву вмісту. Якщо \`message\` - це \`інформація журналу від {NAME}\`, а\`content\` \`array('NAME' => 'Микити')\`, інформація журналу буде \`інформація журналу від Микити\`
 
 `logger`
 
-logger, укладений у третій параметр, буде використовуватися зараз, як тимчасовий реєстратор, якщо функція SeasLog::setLogger() викликається у попередньому вмісті. Якщо logger дорівнює NULL або "" (порожній рядок), SeasLog використовуватиме останній реєстратор, встановлений методом [SeasLog::setLogger()](seaslog.setlogger.md)
+\`logger\`, укладений у третій параметр, буде використовуватися зараз, як тимчасовий реєстратор, якщо функція SeasLog::setLogger() викликається у попередньому вмісті. Якщо \`logger\` дорівнює NULL або "" (порожній рядок), SeasLog використовуватиме останній реєстратор, встановлений методом [SeasLog::setLogger()](seaslog.setlogger.md)
 
 ### Значення, що повертаються
 
@@ -55,7 +56,7 @@ logger, укладений у третій параметр, буде викор
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::log()****
+**Пример #1 Пример использования**SeasLog::log()\*\*\*\*
 
 ```php
 <?php
@@ -79,7 +80,7 @@ var_dump(SeasLog::getBuffer());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -125,7 +126,7 @@ array(1) {
 
 ### Дивіться також
 
--   [seaslog.defaulttemplate](seaslog.configuration.md#ini.seaslog.default-template)
+-   [seaslog.default\_template](seaslog.configuration.md#ini.seaslog.default-template)
 -   [SeasLog::debug()](seaslog.debug.md) - Записує інформацію рівня "debug" до журналу
 -   [SeasLog::info()](seaslog.info.md) - Записує інформацію рівня "info" до журналу
 -   [SeasLog::notice()](seaslog.notice.md) - Записує інформацію рівня "notice" у журнал

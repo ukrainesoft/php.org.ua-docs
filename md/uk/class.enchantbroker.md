@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.enchant-dict-suggest.md: « enchantdictsuggest
+  - function.enchant-dict-suggest.md: « enchant\_dict\_suggest
   - class.enchantdictionary.md: EnchantDictionary »
   - index.md: PHP Manual
   - book.enchant.md: Enchant
 title: Клас EnchantBroker
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EnchantBroker
 
@@ -16,16 +17,11 @@ title: Клас EnchantBroker
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class EnchantBroker
-     
+     final
+     class EnchantBroker
      {
    }
 ```

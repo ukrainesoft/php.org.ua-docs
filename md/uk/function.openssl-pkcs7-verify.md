@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.openssl-pkcs7-sign.md: « opensslpkcs7sign
-  - function.openssl-pkey-derive.md: opensslpkeyderive »
+  - function.openssl-pkcs7-sign.md: « openssl\_pkcs7\_sign
+  - function.openssl-pkey-derive.md: openssl\_pkey\_derive »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslpkcs7verify
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_pkcs7\_verify
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslpkcs7verify
+# openssl\_pkcs7\_verify
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-opensslpkcs7verify — Перевірити підпис повідомлення S/MIME
+openssl\_pkcs7\_verify — Перевірити підпис повідомлення S/MIME
 
 ### Опис
 
 ```methodsynopsis
-openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?string $signers_certificates_filename = null,    array $ca_info = [],    ?string $untrusted_certificates_filename = null,    ?string $content = null,    ?string $output_filename = null): bool|int
+openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?string $signers_certificates_filename = null,    array $ca_info = [],    ?string $untrusted_certificates_filename = null,    ?string $content = null,    ?string $output_filename = null): bool|int
 ```
 
-**opensslpkcs7verify()** читає S/MIME повідомлення з файлу та перевіряє його підпис.
+**openssl\_pkcs7\_verify()** читає S/MIME повідомлення з файлу та перевіряє його підпис.
 
 ### Список параметрів
 
@@ -32,19 +33,19 @@ openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?string $sign
 
 `signers_certificates_filename`
 
-Якщо встановлено параметр `signers_certificates_filename`, то в ньому має бути рядок з ім'ям файлу, в який будуть збережені сертифікати, використані під час підписання, у форматі PEM.
+Если задан параметр`signers_certificates_filename`, то в ньому має бути рядок з ім'ям файлу, в який буде збережено сертифікати, використані під час підписання, у форматі PEM.
 
 `ca_info`
 
-Якщо встановлено параметр `ca_info`, то в ньому повинна бути інформація про довірені сертифікати CA, які необхідно використовувати в процесі перевірки. Докладніше читайте на сторінці [проверки сертификатов](openssl.cert.verification.md)
+Если задан параметр`ca_info`, то в ньому повинна бути інформація про довірені сертифікати CA, які необхідно використовувати в процесі перевірки. Докладніше читайте на сторінці [перевірки сертифікатів](openssl.cert.verification.md)
 
 `untrusted_certificates_filename`
 
-Якщо встановлено параметр `untrusted_certificates_filename`, у ньому має бути ім'я файлу, що містить набір недовірених сертифікатів CA.
+Если задан параметр`untrusted_certificates_filename`, у ньому має бути ім'я файлу, що містить набір недовірених сертифікатів CA.
 
 `content`
 
-У параметрі `content` можна вказати ім'я файлу, до якого буде записано верифіковані дані без інформації про підпис.
+В параметре`content` можна вказати ім'я файлу, до якого буде записано верифіковані дані без інформації про підпис.
 
 `output_filename`
 
@@ -54,11 +55,11 @@ openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?string $sign
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `signers_certificates_filename` `untrusted_certificates_filename` `content` і `output_filename` тепер допускають значення null. |
-|  | Доданий параметр `output_filename` |
+| 8.0.0 | `signers_certificates_filename` `untrusted_certificates_filename` `content`и`output_filename` тепер допускають значення null. |
+| 7.2.0 | Добавлен параметр`output_filename` |
 
 ### Примітки
 
-> **Зауваження**: Як зазначено в RFC 2045, довжина параметра `input_filename` не має бути довшим за 76 символів.
+> **Зауваження**: Как указано в RFC 2045, длина параметра`input_filename` не повинна бути довшою за 76 символів.

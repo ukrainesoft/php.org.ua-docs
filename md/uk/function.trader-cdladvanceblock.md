@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlabandonedbaby.md: « tradercdlabandonedbaby
-  - function.trader-cdlbelthold.md: tradercdlbelthold »
+  - function.trader-cdlabandonedbaby.md: « trader\_cdlabandonedbaby
+  - function.trader-cdlbelthold.md: trader\_cdlbelthold »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdladvanceblock
+  - ref.trader.md: Функції Trader
+title: trader\_cdladvanceblock
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdladvanceblock
+# trader\_cdladvanceblock
 
 (PECL trader >= 0.2.0)
 
-tradercdladvanceblock - Відбитий наступ
+trader\_cdladvanceblock - Відбитий наступ
 
 ### Опис
 
 ```methodsynopsis
-trader_cdladvanceblock(    array $open,    array $high,    array $low,    array $close): array
+trader_cdladvanceblock(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

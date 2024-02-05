@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::flipimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::flipimage
 
@@ -30,8 +31,8 @@ public Gmagick::flipimage(): Gmagick
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [Gmagick::flopimage()](gmagick.flopimage.md) - Створює горизонтальне дзеркальне відображення
+-   [Gmagick::flopimage()](gmagick.flopimage.md) \- Створює горизонтальне дзеркальне відображення

@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.sysvsemaphore.md: « SysvSemaphore
-  - book.shmop.md: Управление разделяемой памятью »
+  - book.shmop.md: 'Управління пам''яттю, що розділяється »'
   - index.md: PHP Manual
   - book.sem.md: Семафори
 title: Клас SysvSharedMemory
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SysvSharedMemory
 
@@ -16,16 +17,12 @@ title: Клас SysvSharedMemory
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class SysvSharedMemory
-     
+     final
+     class SysvSharedMemory
      {
+
    }
 ```

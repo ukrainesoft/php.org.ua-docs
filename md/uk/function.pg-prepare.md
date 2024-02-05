@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-port.md: « pgport
-  - function.pg-put-line.md: пгputline »
+  - function.pg-port.md: « pg\_port
+  - function.pg-put-line.md: pg\_put\_line »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгprepare
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_prepare
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгprepare
+# pg\_prepare
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-пгprepare — Надсилає запит на створення параметризованого SQL виразу та чекає на його завершення
+pg\_prepare — Надсилає запит на створення параметризованого SQL виразу і чекає на його завершення
 
 ### Опис
 
@@ -18,17 +19,17 @@ title: пгprepare
 pg_prepare(PgSql\Connection $connection = ?, string $stmtname, string $query): PgSql\Result|false
 ```
 
-**пгprepare()** створює заготівлю SQL вирази на сервері для подальшого запуску функціями [пгexecute()](function.pg-execute.md) або [пгsendexecute()](function.pg-send-execute.md). Це дозволяє багаторазово виконувати один раз створені запити з різними параметрами . **пгprepare()** підтримується PostgreSQL версії 7.4 та вище. Функція не працюватиме з серверами ранніх версій.
+**pg\_prepare()** створює заготівлю SQL вирази на сервері для подальшого запуску функціями [pg\_execute()](function.pg-execute.md) або [pg\_send\_execute()](function.pg-send-execute.md). Це дозволяє багаторазово виконувати один раз створені запити з різними параметрами . **pg\_prepare()** підтримується PostgreSQL версії 7.4 та вище. Функція не працюватиме з серверами ранніх версій.
 
 Функція створює заготівлю SQL запиту під назвою `stmtname` і тілом `query`, який повинен містити один SQL вираз . `stmtname` може бути порожнім рядком, тоді буде створено безіменну заготівлю. Якщо якась безіменна заготовка вже визначена, вона буде замінена на нову автоматично. В інших випадках збіг імен нової та існуючої в даній сесії заготовок призведе до помилки. Якщо в `query` будуть передаватися параметри, вони замінять псевдозмінні $1, $2 і т.д. під час передачі запиту.
 
-Подібні заготовки запитів можна також робити за допомогою SQL-команди `PREPARE` (але **пгprepare()** більш гнучка, оскільки вимагає суворої типізації своїх параметрів). Важливо, що у PHP немає функцій видалення підготовлених SQL-выражений, цього використовуйте команду SQL `DEALLOCATE`
+Подібні заготівлі запитів можна також робити за допомогою SQL-команди `PREPARE` (але **pg\_prepare()** більш гнучка, оскільки вимагає суворої типізації своїх параметрів). Важливо, що у PHP немає функцій видалення підготовлених SQL-выражений, цього використовуйте команду SQL `DEALLOCATE`
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection` не вказано, буде вибрано стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -44,18 +45,18 @@ pg_prepare(PgSql\Connection $connection = ?, string $stmtname, string $query): P
 
 ### Значення, що повертаються
 
-Екземпляр [PgSqlResult](class.pgsql-result.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Екземпляр [PgSql\\Result](class.pgsql-result.md) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Повертає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгprepare()****
+**Пример #1 Пример использования**pg\_prepare()\*\*\*\*
 
 ```php
 <?php
@@ -77,5 +78,5 @@ $result = pg_execute($dbconn, "my_query", array("Clothes Clothes Clothes"));
 
 ### Дивіться також
 
--   [пгexecute()](function.pg-execute.md) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
--   [пгsendexecute()](function.pg-send-execute.md) - Запускає попередньо підготовлений SQL-запит та передає йому параметри; не чекає результату, що повертається
+-   [pg\_execute()](function.pg-execute.md) \- Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
+-   [pg\_send\_execute()](function.pg-send-execute.md) \- Запускає попередньо підготовлений SQL-запит та передає йому параметри; не чекає результату, що повертається

@@ -1,30 +1,33 @@
 ---
 navigation:
-  - function.str-getcsv.md: « strgetcsv
-  - function.str-pad.md: strpad »
+  - function.str-increment.md: « str\_increment
+  - function.str-pad.md: str\_pad »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: strireplace
+title: str\_ireplace
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# strireplace
+# str\_ireplace
 
 (PHP 5, PHP 7, PHP 8)
 
-strireplace - Реєстронезалежний варіант функції [strreplace()](function.str-replace.md)
+str\_ireplace - Реєстронезалежний варіант функції [str\_replace()](function.str-replace.md)
 
 ### Опис
 
 ```methodsynopsis
-str_ireplace(    array|string $search,    array|string $replace,    string|array $subject,    int &$count = null): string|array
+str_ireplace(    array|string $search,    array|string $replace,    string|array $subject,    int &$count = null): string|array
 ```
 
-Ця функція повертає рядок або масив, в якому всі входження `search` в `subject` замінені на `replace` (без урахування регістру символів). Якщо не потрібні складні правила пошуку/заміни, використання цієї функції краще [pregreplace()](function.preg-replace.md) з модифікатором `i`
+Ця функція повертає рядок або масив, в якому всі входження `search`в`subject` замінені на `replace` (без урахування регістру символів).
+
+Щоб замінити текст на основі шаблону, а не фіксованого рядка, скористайтеся функцією [preg\_replace()](function.preg-replace.md)с[модифікатор шаблону](reference.pcre.pattern.modifiers.md) `i`
 
 ### Список параметрів
 
-Якщо `search` і `replace` - масиви, то **strireplace()** використовує кожне значення з відповідного масиву для пошуку та заміни в `subject`. Якщо в масиві `replace` менше елементів, ніж у `search`, як рядок заміни для значень, що залишилися, буде використаний порожній рядок. Якщо `search` - масив, а `replace` - рядок, то цей рядок заміни буде використаний для кожного елемента масиву `search`. Зворотний випадок не має сенсу.
+Якщо `search`и`replace` - масиви, то **str\_ireplace()** використовує кожне значення з відповідного масиву для пошуку та заміни в `subject`. Якщо в масиві `replace` менше елементів, ніж у `search`, як рядок заміни для значень, що залишилися, буде використаний порожній рядок. Якщо `search`\- массив, а`replace` - рядок, то цей рядок заміни буде використаний для кожного елемента масиву `search`. Зворотний випадок не має сенсу.
 
-Якщо `search` або `replace` є масивами, їх елементи будуть оброблені від першого до останнього.
+Якщо `search`или`replace` є масивами, їх елементи будуть оброблені від першого до останнього.
 
 `search`
 
@@ -36,7 +39,7 @@ str_ireplace(    array|string $search,    array|string $replace,    string|array
 
 `subject`
 
-Рядок або масив, в якому проводиться пошук і заміна, також відомий як *haystack* (Стіг сіна).
+Рядок або масив, в якому проводиться пошук і заміна, також відомий як *haystack*(стог сена).
 
 Якщо `subject` є масивом, то пошук із заміною буде здійснюватися над кожним елементом `subject`, а результатом функції також буде масив.
 
@@ -48,9 +51,15 @@ str_ireplace(    array|string $search,    array|string $replace,    string|array
 
 Повертає рядок або масив із заміненими значеннями.
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Перетворення регістру більше не залежить від локалі, встановленої за допомогою функції [setlocale()](function.setlocale.md). . Буде перетворено лише символи ASCII. Байти не ASCII-кодування будуть порівнюватися за значенням байта. |
+
 ### Приклади
 
-**Приклад #1 Приклад використання **strireplace()****
+**Пример #1 Пример использования**str\_ireplace()\*\*\*\*
 
 ```php
 <?php
@@ -67,10 +76,10 @@ echo $bodytag; // <body text=black>
 
 # Зауваження щодо порядку заміни
 
-Так як **strireplace()** здійснює заміну ліворуч, то при використанні множинних замін вона може замінити раніше вставлене значення на інше. Приклад №2 у документації [strreplace()](function.str-replace.md) пояснює, як це працює на практиці.
+Так как**str\_ireplace()** здійснює заміну ліворуч, то при використанні множинних замін вона може замінити раніше вставлене значення на інше. Приклад №2 у документації [str\_replace()](function.str-replace.md) пояснює, як це працює на практиці.
 
 ### Дивіться також
 
--   [strreplace()](function.str-replace.md) - Замінює всі входження рядка пошуку на рядок заміни
--   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
--   [strtr()](function.strtr.md) - Перетворює задані символи або замінює підрядки
+-   [str\_replace()](function.str-replace.md) \- Замінює всі входження рядка пошуку на рядок заміни
+-   [preg\_replace()](function.preg-replace.md) \- Виконує пошук та заміну за регулярним виразом
+-   [strtr()](function.strtr.md) \- Перетворює задані символи або замінює підрядки

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::getFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayIterator::getFlags
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ArrayIterator::getFlags — Отримує прапори поведінки
 
@@ -18,7 +19,7 @@ ArrayIterator::getFlags — Отримує прапори поведінки
 public ArrayIterator::getFlags(): int
 ```
 
-Отримує прапори поведінки [ArrayIterator](class.arrayiterator.md). Дивіться метод [ArrayIterator::setFlags](arrayiterator.setflags.md) Щоб переглянути список доступних прапорів.
+Получает флаги поведения[ArrayIterator](class.arrayiterator.md)Смотрите метод[ArrayIterator::setFlags](arrayiterator.setflags.md) Щоб переглянути список доступних прапорів.
 
 ### Список параметрів
 
@@ -30,5 +31,5 @@ public ArrayIterator::getFlags(): int
 
 ### Дивіться також
 
--   [ArrayIterator::setFlags()](arrayiterator.setflags.md) - Встановлює прапори, що змінюють поведінку ArrayIterator
--   [ArrayIterator::valid()](arrayiterator.valid.md) - Перевіряє, чи містить масив ще запису
+-   [ArrayIterator::setFlags()](arrayiterator.setflags.md) \- Встановлює прапори, що змінюють поведінку ArrayIterator
+-   [ArrayIterator::valid()](arrayiterator.valid.md) \- Перевіряє, чи містить масив ще записи

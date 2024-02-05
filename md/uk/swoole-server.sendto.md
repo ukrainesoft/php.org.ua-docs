@@ -1,21 +1,22 @@
 ---
 navigation:
-  - swoole-server.sendmessage.md: '« SwooleServer::sendMessage'
-  - swoole-server.sendwait.md: 'SwooleServer::sendwait »'
+  - swoole-server.sendmessage.md: '« Swoole\\Server::sendMessage'
+  - swoole-server.sendwait.md: 'Swoole\\Server::sendwait »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::sendto'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::sendto'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::sendto
+# Swoole\\Server::sendto
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::sendto — Надсилає дані на віддалену UDP-адресу
+Swoole\\Server::sendto — Надсилає дані на віддалену UDP-адресу
 
 ### Опис
 
 ```methodsynopsis
-public Swoole\Server::sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
+public Swoole\Server::sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
 ```
 
 ### Список параметрів

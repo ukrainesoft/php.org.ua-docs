@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-box.delete.md: '« UIControlsBox::delete'
-  - ui-controls-box.ispadded.md: 'ОЙControlsBox::isPadded »'
+  - ui-controls-box.delete.md: '« UI\\Controls\\Box::delete'
+  - ui-controls-box.ispadded.md: 'UI\\Controls\\Box::isPadded »'
   - index.md: PHP Manual
-  - class.ui-controls-box.md: ОЙControlsBox
-title: 'ОЙControlsBox::getOrientation'
+  - class.ui-controls-box.md: UI\\Controls\\Box
+title: 'UI\\Controls\\Box::getOrientation'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsBox::getOrientation
+# UI\\Controls\\Box::getOrientation
 
 (UI 0.9.9)
 
-ОЙControlsBox::getOrientation — Отримати орієнтацію
+UI\\Controls\\Box::getOrientation — Отримати орієнтацію
 
 ### Опис
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fflush'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::fflush
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fflush — Скидає буфер виводу у файл
 
@@ -26,11 +27,11 @@ public SplFileObject::fflush(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::fflush()****
+**Пример #1 Пример использования**SplFileObject::fflush()\*\*\*\*
 
 ```php
 <?php
@@ -44,4 +45,4 @@ $file->ftruncate($file->ftell());
 
 ### Дивіться також
 
--   [SplFileObject::fwrite()](splfileobject.fwrite.md) - Запис у файл
+-   [SplFileObject::fwrite()](splfileobject.fwrite.md) \- Запис у файл

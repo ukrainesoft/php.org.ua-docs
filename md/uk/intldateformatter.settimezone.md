@@ -5,27 +5,28 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::setTimeZone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::setTimeZone
 
-# datefmtsettimezone
+# datefmt\_set\_timezone
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL intl >= 3.0.0)
 
-IntlDateFormatter::setTimeZone -- datefmtsettimezone — Встановлює часовий пояс засобу форматування
+IntlDateFormatter::setTimeZone -- datefmt\_set\_timezone — Встановлює часовий пояс засобу форматування
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public IntlDateFormatter::setTimeZone(IntlTimeZone|DateTimeZone|string|null $timezone): ?bool
+public IntlDateFormatter::setTimeZone(IntlTimeZone|DateTimeZone|string|null $timezone): bool
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-datefmt_set_timezone(IntlDateFormatter $formatter, IntlTimeZone|DateTimeZone|string|null $timezone): ?bool
+datefmt_set_timezone(IntlDateFormatter $formatter, IntlTimeZone|DateTimeZone|string|null $timezone): bool
 ```
 
 Встановлює часовий пояс, який використовується об'єктом IntlDateFormatter.
@@ -40,22 +41,28 @@ datefmt_set_timezone(IntlDateFormatter $formatter, IntlTimeZone|DateTimeZone|str
 
 Часовий пояс для засобу форматування. Можна вказати у таких форматах:
 
--   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування [date.timezone](datetime.configuration.md#ini.date.timezone) або за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.md) та повернена функцією [datedefaulttimezoneget()](function.date-default-timezone-get.md)
+-   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування[date.timezone](datetime.configuration.md#ini.date.timezone)або за допомогою функції[date\_default\_timezone\_set()](function.date-default-timezone-set.md)та повернена функцією[date\_default\_timezone\_get()](function.date-default-timezone-get.md)
     
 -   Об'єкт класу [IntlTimeZone](class.intltimezone.md)
     
 -   Об'єкт класу [DateTimeZone](class.datetimezone.md). Його ідентифікатор буде вилучено і на його основі буде створено об'єкт часового поясу ICU; часовий пояс буде збережено в базі даних ICU, а не PHP.
     
--   Рядок є коректним ідентифікатором часового поясу ICU. Дивіться [IntlTimeZone::createTimeZoneIDEnumeration()](intltimezone.createtimezoneidenumeration.md). "Сирі" усунення, типу `"GMT+08:30"`, також підтримуються.
+-   Рядок є коректним ідентифікатором часового поясу ICU. Дивіться[IntlTimeZone::createTimeZoneIDEnumeration()](intltimezone.createtimezoneidenumeration.md). . "Сирі" усунення, типу `"GMT+08:30"`, також підтримуються.
     
 
 ### Значення, що повертаються
 
-Повертає **`null`** у разі успішного виконання та **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.3.0 | Функція тепер повертає **`true`** у разі успішного виконання; раніше вона повертала **`null`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlDateFormatter::setTimeZone()****
+**Пример #1 Пример использования**IntlDateFormatter::setTimeZone()\*\*\*\*
 
 ```php
 <?php
@@ -79,7 +86,7 @@ $formatter->setTimeZone('GMT+00:30');
 print_r($formatter->getTimeZone());
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 NULL
@@ -101,4 +108,4 @@ IntlTimeZone Object
 
 ### Дивіться також
 
--   [IntlDateFormatter::getTimeZone()](intldateformatter.gettimezone.md) - Отримує часовий пояс засобу форматування
+-   [IntlDateFormatter::getTimeZone()](intldateformatter.gettimezone.md) \- Отримує часовий пояс засобу форматування

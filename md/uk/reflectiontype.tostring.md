@@ -4,17 +4,18 @@ navigation:
   - class.reflectionuniontype.md: ReflectionUnionType »
   - index.md: PHP Manual
   - class.reflectiontype.md: ReflectionType
-title: 'ReflectionType::function toString() { \[native code\] }'
+title: 'ReflectionType::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionType::function toString() { \[native code\] }
+# ReflectionType::\_\_function toString() { \[native code\] }
 
 (PHP 7, PHP 8)
 
-ReflectionType::toString — Перетворення на рядок
+ReflectionType::\_\_toString — Перетворення на рядок
 
 **Увага**
 
-Ця функція оголошена *застарілої*починаючи з PHP 7.1.0. Використовувати цю функцію вкрай не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.1.0. Використовувати цю функцію вкрай не рекомендується.
 
 ### Опис
 
@@ -34,13 +35,13 @@ public ReflectionType::__toString(): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | **ReflectionType::toString()** оголошено застарілим. |
+| 7.1.0 | **ReflectionType::\_\_toString()** оголошено застарілим. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionType::toString()****
+**Пример #1 Пример использования**ReflectionType::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ $reflectionParam = $reflectionFunc->getParameters()[0];
 echo $reflectionParam->getType();
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string
@@ -60,8 +61,8 @@ string
 
 ### Дивіться також
 
--   [ReflectionNamedType::getName()](reflectionnamedtype.getname.md) - Отримує ім'я типу у вигляді рядка
--   [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.md) - Перевіряє, чи є тип вбудованим
--   [ReflectionType::allowsNull()](reflectiontype.allowsnull.md) - Перевіряє, чи допустимо NULL
--   [ReflectionUnionType::getTypes()](reflectionuniontype.gettypes.md) - Повертає типи, включені до типу union
--   [ReflectionParameter::getType()](reflectionparameter.gettype.md) - Отримати тип параметра
+-   [ReflectionNamedType::getName()](reflectionnamedtype.getname.md) \- Отримує ім'я типу у вигляді рядка
+-   [ReflectionNamedType::isBuiltin()](reflectionnamedtype.isbuiltin.md) \- Перевіряє, чи є тип вбудованим
+-   [ReflectionType::allowsNull()](reflectiontype.allowsnull.md) \- Перевіряє, чи допустимо NULL
+-   [ReflectionUnionType::getTypes()](reflectionuniontype.gettypes.md) \- Повертає типи, включені до типу union
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.md) \- Отримати тип параметра

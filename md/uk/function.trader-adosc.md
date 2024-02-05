@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-add.md: « traderadd
-  - function.trader-adx.md: traderadx »
+  - function.trader-add.md: « trader\_add
+  - function.trader-adx.md: trader\_adx »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderadosc
+  - ref.trader.md: Функції Trader
+title: trader\_adosc
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderadosc
+# trader\_adosc
 
 (PECL trader >= 0.2.0)
 
-traderadosc - Осцилятор Чайкіна
+trader\_adosc - Осцилятор Чайкіна
 
 ### Опис
 
 ```methodsynopsis
-trader_adosc(    array $high,    array $low,    array $close,    array $volume,    int $fastPeriod = ?,    int $slowPeriod = ?): array
+trader_adosc(    array $high,    array $low,    array $close,    array $volume,    int $fastPeriod = ?,    int $slowPeriod = ?): array
 ```
 
 ### Список параметрів

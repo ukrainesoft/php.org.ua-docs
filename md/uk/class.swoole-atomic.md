@@ -1,12 +1,13 @@
 ---
 navigation:
-  - swoole-async.writefile.md: '« SwooleAsync::writeFile'
-  - swoole-atomic.add.md: 'SwooleAtomic::add »'
+  - swoole-async.writefile.md: '« Swoole\\Async::writeFile'
+  - swoole-atomic.add.md: 'Swoole\\Atomic::add »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
-title: Клас SwooleAtomic
+title: Клас Swoole\\Atomic
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас SwooleAtomic
+# Клас Swoole\\Atomic
 
 (PECL swoole >= 1.9.0)
 
@@ -38,9 +39,9 @@ public sub(int $sub_value = ?): int
 
 ## Зміст
 
--   [SwooleAtomic::add](swoole-atomic.add.md) - Додає число до значення атомарного об'єкта
--   [SwooleAtomic::cmpset](swoole-atomic.cmpset.md) — Порівнює та встановлює значення атомарного об'єкта
--   [SwooleAtomic::construct](swoole-atomic.construct.md) - Створює атомарний об'єкт swoole
--   [SwooleAtomic::get](swoole-atomic.get.md) — Отримує поточне значення атомарного об'єкта
--   [SwooleAtomic::set](swoole-atomic.set.md) — Встановлює нове значення для атомарного об'єкту
--   [SwooleAtomic::sub](swoole-atomic.sub.md) — Віднімає число із значення атомарного об'єкта
+-   [Swoole\\Atomic::add](swoole-atomic.add.md) \- Додає число до значення атомарного об'єкта
+-   [Swoole\\Atomic::cmpset](swoole-atomic.cmpset.md)— Порівнює та встановлює значення атомарного об'єкта
+-   [Swoole\\Atomic::\_\_construct](swoole-atomic.construct.md) \- Створює атомарний об'єкт swoole
+-   [Swoole\\Atomic::get](swoole-atomic.get.md)— Отримує поточне значення атомарного об'єкта
+-   [Swoole\\Atomic::set](swoole-atomic.set.md)— Встановлює нове значення для атомарного об'єкту
+-   [Swoole\\Atomic::sub](swoole-atomic.sub.md)— Віднімає число із значення атомарного об'єкта

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfixedarray.md: SplFixedArray
 title: 'SplFixedArray::offsetSet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFixedArray::offsetSet
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplFixedArray::offsetSet — Встановлює нове значення за заданим індексом
 
@@ -18,7 +19,7 @@ SplFixedArray::offsetSet — Встановлює нове значення за
 public SplFixedArray::offsetSet(int $index, mixed $value): void
 ```
 
-За індексом `index` встановлює значення `value`
+По индексу`index`устанавливает значение`value`
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public SplFixedArray::offsetSet(int $index, mixed $value): void
 
 `value`
 
-Нове значення для індексу `index`
+Новое значение для индекса`index`
 
 ### Значення, що повертаються
 
@@ -36,4 +37,4 @@ public SplFixedArray::offsetSet(int $index, mixed $value): void
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.md), коли `index` перевищує заданий розмір масиву або коли `index` не можна розпізнати як ціле число.
+Викидає виняток [RuntimeException](class.runtimeexception.md), когда`index` перевищує заданий розмір масиву або коли `index` не можна розпізнати як ціле число.

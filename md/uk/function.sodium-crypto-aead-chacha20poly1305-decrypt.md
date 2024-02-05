@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.sodium-crypto-aead-aes256gcm-keygen.md: « sodiumcryptoaeadaes256gcmkeygen
-  - function.sodium-crypto-aead-chacha20poly1305-encrypt.md: sodiumcryptoaeadchacha20poly1305encrypt »
+  - function.sodium-crypto-aead-aes256gcm-keygen.md: « sodium\_crypto\_aead\_aes256gcm\_keygen
+  - function.sodium-crypto-aead-chacha20poly1305-encrypt.md: sodium\_crypto\_aead\_chacha20poly1305\_encrypt »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoaeadchacha20poly1305decrypt
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_aead\_chacha20poly1305\_decrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoaeadchacha20poly1305decrypt
+# sodium\_crypto\_aead\_chacha20poly1305\_decrypt
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoaeadchacha20poly1305decrypt — Перевіряє, потім розшифровує за допомогою ChaCha20-Poly1305
+sodium\_crypto\_aead\_chacha20poly1305\_decrypt — Перевіряє, потім розшифровує за допомогою ChaCha20-Poly1305
 
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_aead_chacha20poly1305_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
+sodium_crypto_aead_chacha20poly1305_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
 ```
 
 Перевіряє, потім розшифровує за допомогою ChaCha20-Poly1305
@@ -24,7 +25,7 @@ sodium_crypto_aead_chacha20poly1305_decrypt(    string $ciphertext,    string $a
 
 `ciphertext`
 
-Має бути у форматі, наданому [sodiumcryptoaeadchacha20poly1305encrypt()](function.sodium-crypto-aead-chacha20poly1305-encrypt.md) (Зашифрований текст та тег, об'єднані).
+Має бути у форматі, наданому [sodium\_crypto\_aead\_chacha20poly1305\_encrypt()](function.sodium-crypto-aead-chacha20poly1305-encrypt.md) (Зашифрований текст та тег, об'єднані).
 
 `additional_data`
 
@@ -40,4 +41,4 @@ sodium_crypto_aead_chacha20poly1305_decrypt(    string $ciphertext,    string $a
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає текст або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає текст або \*\*`false`\*\*в случае возникновения ошибки.

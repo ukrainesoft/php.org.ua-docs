@@ -1,151 +1,152 @@
 ---
 navigation:
   - openal.resources.md: « Типи ресурсів
-  - ref.openal.md: Функции OpenAL »
+  - ref.openal.md: Функції OpenAL »
   - index.md: PHP Manual
   - book.openal.md: OpenAL
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.
 
-**`ALC_FREQUENCY`** (int)
-
-Атрибут контексту
-
-**`ALC_REFRESH`** (int)
+**`ALC_FREQUENCY`**(int)
 
 Атрибут контексту
 
-**`ALC_SYNC`** (int)
+**`ALC_REFRESH`**(int)
 
 Атрибут контексту
 
-**`AL_FREQUENCY`** (int)
+**`ALC_SYNC`**(int)
+
+Атрибут контексту
+
+**`AL_FREQUENCY`**(int)
 
 Налаштування буфера
 
-**`AL_BITS`** (int)
+**`AL_BITS`**(int)
 
 Налаштування буфера
 
-**`AL_CHANNELS`** (int)
+**`AL_CHANNELS`**(int)
 
 Налаштування буфера
 
-**`AL_SIZE`** (int)
+**`AL_SIZE`**(int)
 
 Налаштування буфера
 
-**`AL_BUFFER`** (int)
+**`AL_BUFFER`**(int)
 
 Налаштування джерела/слухача (ціле число)
 
-**`AL_SOURCE_RELATIVE`** (int)
+**`AL_SOURCE_RELATIVE`**(int)
 
 Налаштування джерела/слухача (ціле число)
 
-**`AL_SOURCE_STATE`** (int)
+**`AL_SOURCE_STATE`**(int)
 
 Налаштування джерела/слухача (ціле число)
 
-**`AL_PITCH`** (int)
+**`AL_PITCH`**(int)
 
 Налаштування джерела/слухача (раціональне число)
 
-**`AL_GAIN`** (int)
+**`AL_GAIN`**(int)
 
 Налаштування джерела/слухача (раціональне число)
 
-**`AL_MIN_GAIN`** (int)
+**`AL_MIN_GAIN`**(int)
 
 Налаштування джерела/слухача (раціональне число)
 
-**`AL_MAX_GAIN`** (int)
+**`AL_MAX_GAIN`**(int)
 
 Налаштування джерела/слухача (раціональне число)
 
-**`AL_MAX_DISTANCE`** (int)
+**`AL_MAX_DISTANCE`**(int)
 
 Налаштування джерела/слухача (раціональне число)
 
-**`AL_ROLLOFF_FACTOR`** (int)
+**`AL_ROLLOFF_FACTOR`**(int)
 
 Налаштування джерела/слухача (раціональне число)
 
-**`AL_CONE_OUTER_GAIN`** (int)
+**`AL_CONE_OUTER_GAIN`**(int)
 
 Налаштування джерела/слухача (раціональне число)
 
-**`AL_CONE_INNER_ANGLE`** (int)
+**`AL_CONE_INNER_ANGLE`**(int)
 
 Налаштування джерела/слухача (раціональне число)
 
-**`AL_CONE_OUTER_ANGLE`** (int)
+**`AL_CONE_OUTER_ANGLE`**(int)
 
 Налаштування джерела/слухача (раціональне число)
 
-**`AL_REFERENCE_DISTANCE`** (int)
+**`AL_REFERENCE_DISTANCE`**(int)
 
 Налаштування джерела/слухача (раціональне число)
 
-**`AL_POSITION`** (int)
+**`AL_POSITION`**(int)
 
 Налаштування джерела/слухача (раціональний вектор)
 
-**`AL_VELOCITY`** (int)
+**`AL_VELOCITY`**(int)
 
 Налаштування джерела/слухача (раціональний вектор)
 
-**`AL_DIRECTION`** (int)
+**`AL_DIRECTION`**(int)
 
 Налаштування джерела/слухача (раціональний вектор)
 
-**`AL_ORIENTATION`** (int)
+**`AL_ORIENTATION`**(int)
 
 Налаштування джерела/слухача (раціональний вектор)
 
-**`AL_FORMAT_MONO8`** (int)
+**`AL_FORMAT_MONO8`**(int)
 
 Формат PCM
 
-**`AL_FORMAT_MONO16`** (int)
+**`AL_FORMAT_MONO16`**(int)
 
 Формат PCM
 
-**`AL_FORMAT_STEREO8`** (int)
+**`AL_FORMAT_STEREO8`**(int)
 
 Формат PCM
 
-**`AL_FORMAT_STEREO16`** (int)
+**`AL_FORMAT_STEREO16`**(int)
 
 Формат PCM
 
-**`AL_INITIAL`** (int)
+**`AL_INITIAL`**(int)
 
 Статус джерела
 
-**`AL_PLAYING`** (int)
+**`AL_PLAYING`**(int)
 
 Статус джерела
 
-**`AL_PAUSED`** (int)
+**`AL_PAUSED`**(int)
 
 Статус джерела
 
-**`AL_STOPPED`** (int)
+**`AL_STOPPED`**(int)
 
 Статус джерела
 
-**`AL_LOOPING`** (int)
+**`AL_LOOPING`**(int)
 
 Статус джерела
 
-**`AL_TRUE`** (int)
+**`AL_TRUE`**(int)
 
 Логічне значення, яке розуміється OpenAL
 
-**`AL_FALSE`** (int)
+**`AL_FALSE`**(int)
 
 Логічне значення, яке розуміється OpenAL

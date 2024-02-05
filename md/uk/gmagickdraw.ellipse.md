@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::ellipse'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GmagickDraw::ellipse
 
@@ -15,7 +16,7 @@ GmagickDraw::ellipse — Малює еліпс на зображенні
 ### Опис
 
 ```methodsynopsis
-public GmagickDraw::ellipse(    float $ox,    float $oy,    float $rx,    float $ry,    float $start,    float $end): GmagickDraw
+public GmagickDraw::ellipse(    float $ox,    float $oy,    float $rx,    float $ry,    float $start,    float $end): GmagickDraw
 ```
 
 Малює еліпс на зображенні.

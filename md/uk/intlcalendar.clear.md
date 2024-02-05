@@ -1,10 +1,11 @@
 ---
 navigation:
   - intlcalendar.before.md: '« IntlCalendar::before'
-  - intlcalendar.construct.md: 'IntlCalendar::construct »'
+  - intlcalendar.construct.md: 'IntlCalendar::\_\_construct »'
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::clear
 
@@ -17,16 +18,16 @@ IntlCalendar::clear — Очищає поле чи всі поля
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public IntlCalendar::clear(?int $field = null): bool
+public IntlCalendar::clear(?int $field = null): true
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-intlcal_clear(IntlCalendar $calendar, ?int $field = null): bool
+intlcal_clear(IntlCalendar $calendar, ?int $field = null): true
 ```
 
-Очищає всі поля, або певне поле. Очищене поле позначається як не задане, що дає йому найнижчий пріоритет щодо перевизначальних полів або навіть за замовчуванням при обчисленні часу. Крім того, його значення встановлено на `0`, хоча, враховуючи низький пріоритет поля, його значення могло бути внутрішньо встановлено інше значення на момент завершення запиту поля.
+Очищає всі поля, або певне поле. Очищене поле позначається як не задане, що дає йому найнижчий пріоритет щодо перевизначальних полів або навіть за замовчуванням при обчисленні часу. Крім того, його значення встановлено на , хоча, враховуючи низький пріоритет поля, його значення могло бути внутрішньо встановлено інше значення на момент завершення запиту поля.
 
 ### Список параметрів
 
@@ -36,15 +37,21 @@ intlcal_clear(IntlCalendar $calendar, ?int $field = null): bool
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants)полей типа дата/время. Целое число от до\*\*`IntlCalendar::FIELD_COUNT`\*\*
 
 ### Значення, що повертаються
 
 Функція завжди повертає **`true`**
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
+
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::clear()****
+**Пример #1 Пример использования**IntlCalendar::clear()\*\*\*\*
 
 ```php
 <?php
@@ -122,7 +129,7 @@ print_r(getSetFields($cal));
 echo IntlDateFormatter::formatObject($cal), "\n";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 После создания григорианского календаря

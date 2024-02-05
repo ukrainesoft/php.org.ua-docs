@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::setDatetimeFormat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::setDatetimeFormat
 
@@ -22,7 +23,7 @@ public static SeasLog::setDatetimeFormat(string $format): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public static SeasLog::setDatetimeFormat(string $format): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::setDatetimeFormat()****
+**Пример #1 Пример использования**SeasLog::setDatetimeFormat()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump(SeasLog::setDateTimeFormat('Ymd His'));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -54,4 +55,4 @@ bool(true)
 
 ### Дивіться також
 
--   [SeasLog::getDateTimeFormat()](seaslog.getdatetimeformat.md) - Отримує стиль формату дати та часу SeasLog
+-   [SeasLog::getDateTimeFormat()](seaslog.getdatetimeformat.md) \- Отримує стиль формату дати та часу SeasLog

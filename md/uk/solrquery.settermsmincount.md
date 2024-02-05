@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setTermsMinCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setTermsMinCount
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setTermsMinCount - Встановлює мінімальну частоту документів
 

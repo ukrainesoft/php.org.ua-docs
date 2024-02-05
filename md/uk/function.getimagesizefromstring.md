@@ -1,14 +1,15 @@
 ---
 navigation:
   - function.getimagesize.md: « getimagesize
-  - function.image-type-to-extension.md: imagetypeтоextension »
+  - function.image-type-to-extension.md: image\_type\_to\_extension »
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: getimagesizefromstring
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # getimagesizefromstring
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 getimagesizefromstring — Отримання розміру зображення з рядка даних
 
@@ -30,15 +31,15 @@ getimagesizefromstring(string $string, array &$image_info = null): array|false
 
 `image_info`
 
-Дивіться [getimagesize()](function.getimagesize.md)
+Смотрите[getimagesize()](function.getimagesize.md)
 
 ### Значення, що повертаються
 
-Дивіться [getimagesize()](function.getimagesize.md)
+Смотрите[getimagesize()](function.getimagesize.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getimagesizefromstring()****
+**Пример #1 Пример использования**getimagesizefromstring()\*\*\*\*
 
 ```php
 <?php
@@ -55,4 +56,4 @@ $size_info2 = getimagesizefromstring($data);
 
 ### Дивіться також
 
--   [getimagesize()](function.getimagesize.md) - Отримання розміру зображення
+-   [getimagesize()](function.getimagesize.md) \- Отримання розміру зображення

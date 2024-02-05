@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::write'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::write
 
@@ -22,7 +23,7 @@ public
    ): bool
 ```
 
-Додає `data` у буфер виведення буферної події
+Добавляет`data` у буфер виведення буферної події
 
 ### Список параметрів
 
@@ -32,8 +33,8 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventBufferEvent::writeBuffer()](eventbufferevent.writebuffer.md) - Додає вміст буфера в буфер виведення буферної події
+-   [EventBufferEvent::writeBuffer()](eventbufferevent.writebuffer.md) \- Додає вміст буфера в буфер виведення буферної події

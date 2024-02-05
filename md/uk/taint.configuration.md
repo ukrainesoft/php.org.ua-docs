@@ -1,10 +1,11 @@
 ---
 navigation:
-  - taint.installation.md: « Установка
+  - taint.installation.md: « Встановлення
   - taint.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - taint.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,15 +15,15 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [taint.enable](taint.configuration.md#ini.taint.enable) |  | PHPINISYSTEM |  |
-| [taint.errorlevel](taint.configuration.md#ini.taint.error-level) | ЕWARNING | PHPINIALL |  |
+| [taint.enable](taint.configuration.md#ini.taint.enable) |  | **`INI_SYSTEM`** |  |
+| [taint.error\_level](taint.configuration.md#ini.taint.error-level) | E\_WARNING | **`INI_ALL`** |  |
 
 Коротке пояснення конфігураційних директив.
 
-`taint.enable` int
+`taint.enable`int
 
-Чи увімкнено модуль.
+Чи включений модуль.
 
-`taint.error_level` int
+`taint.error_level`int
 
 Тип помилки, який повертатиме модуль при виявленні підозрілого рядка.

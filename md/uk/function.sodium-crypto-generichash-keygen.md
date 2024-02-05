@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-generichash-init.md: « sodiumcryptogenerichashinit
-  - function.sodium-crypto-generichash-update.md: sodiumcryptogenerichashupdate »
+  - function.sodium-crypto-generichash-init.md: « sodium\_crypto\_generichash\_init
+  - function.sodium-crypto-generichash-update.md: sodium\_crypto\_generichash\_update »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptogenerichashkeygen
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_generichash\_keygen
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptogenerichashkeygen
+# sodium\_crypto\_generichash\_keygen
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptogenerichashkeygen — Створює випадковий загальний хеш-ключ
+sodium\_crypto\_generichash\_keygen — Створює випадковий загальний хеш-ключ
 
 ### Опис
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::pingImageBlob'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::pingImageBlob
 
@@ -18,7 +19,7 @@ Imagick::pingImageBlob — Швидко витягує атрибути
 public Imagick::pingImageBlob(string $image): bool
 ```
 
-Метод можна використовувати для запиту ширини, висоти, розміру та формату зображення без зчитування всього зображення на згадку. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Метод можна використовувати для запиту ширини, висоти, розміру та формату зображення без зчитування всього зображення на згадку. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public Imagick::pingImageBlob(string $image): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::pingImageBlob()****
+**Пример #1 Пример использования**Imagick::pingImageBlob()\*\*\*\*
 
 Отримання зображення з рядка
 
@@ -54,8 +55,8 @@ echo $im->getImageWidth() . 'x' . $im->getImageHeight();
 
 ### Дивіться також
 
--   [Imagick::pingImage()](imagick.pingimage.md) - Отримує основні атрибути зображення
--   [Imagick::pingImageFile()](imagick.pingimagefile.md) - Отримує базові атрибути зображення спрощеним способом
--   [Imagick::readImage()](imagick.readimage.md) - Читає зображення із файлу
--   [Imagick::readImageBlob()](imagick.readimageblob.md) - Зчитує зображення з двійкового рядка
--   [Imagick::readImageFile()](imagick.readimagefile.md) - Читає зображення із відкритого дескриптора файлу
+-   [Imagick::pingImage()](imagick.pingimage.md) \- Отримує основні атрибути зображення
+-   [Imagick::pingImageFile()](imagick.pingimagefile.md) \- Отримує базові атрибути зображення спрощеним способом
+-   [Imagick::readImage()](imagick.readimage.md) \- Читає зображення із файлу
+-   [Imagick::readImageBlob()](imagick.readimageblob.md) \- Зчитує зображення з двійкового рядка
+-   [Imagick::readImageFile()](imagick.readimagefile.md) \- Читає зображення із відкритого дескриптора файлу

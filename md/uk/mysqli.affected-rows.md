@@ -4,21 +4,22 @@ navigation:
   - mysqli.autocommit.md: 'mysqli::autocommit »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::$affectedrows'
+title: 'mysqli::$affected\_rows'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::$affectedrows
+# mysqli::$affected\_rows
 
-# mysqliaffectedrows
+# mysqli\_affected\_rows
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$affectedrows - mysqliaffectedrows — Отримує кількість рядків, які стосуються попередньої операції MySQL
+mysqli::$affected\_rows -- mysqli\_affected\_rows — Отримує кількість рядків, які стосуються попередньої операції MySQL
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqli->affectedrows](mysqli.affected-rows.md)
+int|string[$mysqli->affected\_rows](mysqli.affected-rows.md)
 
 Процедурний стиль
 
@@ -26,25 +27,25 @@ int|string [$mysqli->affectedrows](mysqli.affected-rows.md)
 mysqli_affected_rows(mysqli $mysql): int|string
 ```
 
-Повертає кількість рядків, які торкнулися останнім запитом `INSERT` `UPDATE` `REPLACE` або `DELETE`. Працює аналогічно [mysqlinumrows()](mysqli-result.num-rows.md) для виразів `SELECT`
+Повертає кількість рядків, які торкнулися останнім запитом `INSERT` `UPDATE` `REPLACE`или`DELETE`. Працює аналогічно [mysqli\_num\_rows()](mysqli-result.num-rows.md) для виразів `SELECT`
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
-Ціле число, більше нуля, означає кількість порушених чи отриманих рядків. Нуль означає, що записи для оператора `UPDATE` не оновлювалися, жодний рядок не відповідав виразу `WHERE` у запиті або що жодного запиту ще не було виконано . `-1` означає, що під час виконання запиту сталася помилка або що **mysqliaffectedrows()** була викликана для небуферизованого запиту `SELECT`
+Ціле число, більше нуля, означає кількість порушених чи отриманих рядків. Нуль означає, що записи для оператора `UPDATE` не оновлювалися, жодний рядок не відповідав виразу `WHERE` у запиті або що жодного запиту ще не було виконано . `-1` означає, що під час виконання запиту сталася помилка або що **mysqli\_affected\_rows()** була викликана для небуферизованого запиту `SELECT`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо число порушених рядків більше, ніж максимальне значення цілого числа (**`PHP_INT_MAX`**), то число порушених рядків буде повернено у вигляді рядка.
 
 ### Приклади
 
-**Приклад #1 Приклад використання $mysqli->affectedrows**
+**Приклад #1 Приклад використання $mysqli->affected\_rows**
 
 Об'єктно-орієнтований стиль
 
@@ -108,7 +109,7 @@ mysqli_query($link, "DROP TABLE Language");
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Затронутые строки (INSERT): 984
@@ -119,5 +120,5 @@ mysqli_query($link, "DROP TABLE Language");
 
 ### Дивіться також
 
--   [mysqlinumrows()](mysqli-result.num-rows.md) - Отримує кількість рядків у наборі результатів
--   [mysqliinfo()](mysqli.info.md) - Витягує інформацію про останній виконаний запит
+-   [mysqli\_num\_rows()](mysqli-result.num-rows.md) \- Отримує кількість рядків у наборі результатів
+-   [mysqli\_info()](mysqli.info.md) \- Витягує інформацію про останній виконаний запит

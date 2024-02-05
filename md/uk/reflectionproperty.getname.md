@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::getName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionProperty::getName
 
@@ -30,4 +31,4 @@ public ReflectionProperty::getName(): string
 
 ### Дивіться також
 
--   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) - набуває значення
+-   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) \- набуває значення

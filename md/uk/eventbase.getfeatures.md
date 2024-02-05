@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbase.md: EventBase
 title: 'EventBase::getFeatures'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBase::getFeatures
 
@@ -27,11 +28,11 @@ public
 
 ### Значення, що повертаються
 
-Повертає бітову маску функцій, що підтримуються. Дивіться константи [EventConfig::FEATURE](class.eventconfig.md#eventconfig.constants)
+Повертає бітову маску функцій, що підтримуються. Дивіться константи [EventConfig::FEATURE\_\*](class.eventconfig.md#eventconfig.constants)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventBase::getFeatures()****
+**Пример #1 Пример использования**EventBase::getFeatures()\*\*\*\*
 
 ```php
 <?php
@@ -45,13 +46,13 @@ $base = new EventBase($cfg);
 
 echo "Характеристики:\n";
 $features = $base->getFeatures();
-($features & EventConfig::FEATURE_ET) and print("ET - edge-triggered IO\n");
-($features & EventConfig::FEATURE_O1) and print("O1 - O(1) operation for adding/deletting events\n");
-($features & EventConfig::FEATURE_FDS) and print("FDS - arbitrary file descriptor types, and not just sockets\n");
+($features & EventConfig::FEATURE_ET) and print "ET — edge-triggered IO\n";
+($features & EventConfig::FEATURE_O1) and print "O1 — O(1) operation for adding/deletting events\n";
+($features & EventConfig::FEATURE_FDS) and print "FDS — arbitrary file descriptor types, and not just sockets\n";
 ?>
 ```
 
 ### Дивіться також
 
--   [EventBase::getMethod()](eventbase.getmethod.md) - Повертає використовуваний метод події
+-   [EventBase::getMethod()](eventbase.getmethod.md) \- Повертає використовуваний метод події
 -   [EventConfig](class.eventconfig.md)

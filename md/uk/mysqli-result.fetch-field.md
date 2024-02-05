@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-result.fetch-field-direct.md: '« mysqliresult::fetchfielddirect'
-  - mysqli-result.fetch-fields.md: 'mysqliresult::fetchfields »'
+  - mysqli-result.fetch-field-direct.md: '« mysqli\_result::fetch\_field\_direct'
+  - mysqli-result.fetch-fields.md: 'mysqli\_result::fetch\_fields »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::fetchfield'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::fetch\_field'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::fetchfield
+# mysqli\_result::fetch\_field
 
-# mysqlifetchfield
+# mysqli\_fetch\_field
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliresult::fetchfield - mysqlifetchfield — Повертає наступне поле результуючого набору
+mysqli\_result::fetch\_field -- mysqli\_fetch\_field — Повертає наступне поле результуючого набору
 
 ### Опис
 
@@ -34,7 +35,7 @@ mysqli_fetch_field(mysqli_result $result): object|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
@@ -42,16 +43,16 @@ mysqli_fetch_field(mysqli_result $result): object|false
 
 **Властивості об'єкту**
 
-| Свойство | Описание |
+| Свойство | Опис |
 | --- | --- |
 | name | Ім'я стовпця |
 | orgname | Вихідне ім'я стовпця, якщо він має псевдонім |
 | table | Ім'я таблиці, якій належить стовпець (якщо не обчислено) |
 | orgtable | Початкове ім'я таблиці, якщо є псевдонім |
 | def | Зарезервовано для стандартного значення, на даний момент завжди "" |
-| дб | Ім'я бази даних |
+| db | Ім'я бази даних |
 | catalog | Ім'я каталогу завжди "def" |
-| maxlength | Максимальна ширина поля результуючого набору. |
+| max\_length | Максимальна ширина поля результуючого набору. |
 | length | Ширина поля, як вона задана щодо таблиці. |
 | charsetnr | Кількість наборів символів для поля. |
 | flags | Ціла кількість, що представляє бітові прапори для поля. |
@@ -125,7 +126,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Имя:         Name
@@ -143,7 +144,7 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlinumfields()](mysqli-result.field-count.md) - Отримує кількість полів у наборі результатів
--   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) - Отримання метаданих конкретного поля
--   [mysqlifetchfields()](mysqli-result.fetch-fields.md) - Повертає масив об'єктів, що становлять поля результуючого набору
--   [mysqlifieldseek()](mysqli-result.field-seek.md) - встановити покажчик поля на певне зміщення
+-   [mysqli\_num\_fields()](mysqli-result.field-count.md) \- Отримує кількість полів у наборі результатів
+-   [mysqli\_fetch\_field\_direct()](mysqli-result.fetch-field-direct.md) \- Отримання метаданих конкретного поля
+-   [mysqli\_fetch\_fields()](mysqli-result.fetch-fields.md) \- Повертає масив об'єктів, що становлять поля результуючого набору
+-   [mysqli\_field\_seek()](mysqli-result.field-seek.md) \- встановити покажчик поля на певне зміщення

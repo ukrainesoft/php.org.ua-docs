@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-reset-errno.md: « fannreseterrno
-  - function.fann-reset-mse.md: fannresetMSE »
+  - function.fann-reset-errno.md: « fann\_reset\_errno
+  - function.fann-reset-mse.md: fann\_reset\_MSE »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannreseterrstr
+  - ref.fann.md: Функції Fann
+title: fann\_reset\_errstr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannreseterrstr
+# fann\_reset\_errstr
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannreseterrstr — Скидає останній рядок помилки
+fann\_reset\_errstr — Скидає останній рядок помилки
 
 ### Опис
 
@@ -32,5 +33,5 @@ fann_reset_errstr(resource $errdat): void
 
 ### Дивіться також
 
--   [fanngeterrstr()](function.fann-get-errstr.md) - Повертає останній рядок помилки
--   [fannreseterrno()](function.fann-reset-errno.md) - скидає номер останньої помилки
+-   [fann\_get\_errstr()](function.fann-get-errstr.md) \- Повертає останній рядок помилки
+-   [fann\_reset\_errno()](function.fann-reset-errno.md) \- скидає номер останньої помилки

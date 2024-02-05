@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-from-hash.md: « sodiumcryptocoreristretto255fromhash
-  - function.sodium-crypto-core-ristretto255-random.md: sodiumcryptocoreristretto255random »
+  - function.sodium-crypto-core-ristretto255-from-hash.md: « sodium\_crypto\_core\_ristretto255\_from\_hash
+  - function.sodium-crypto-core-ristretto255-random.md: sodium\_crypto\_core\_ristretto255\_random »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptocoreristretto255ісvalidpoint
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_core\_ristretto255\_is\_valid\_point
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptocoreristretto255ісvalidpoint
+# sodium\_crypto\_core\_ristretto255\_is\_valid\_point
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-sodiumcryptocoreristretto255ісvalidpoint — Визначає, чи лежить точка на кривій ristretto255
+sodium\_crypto\_core\_ristretto255\_is\_valid\_point — Визначає, чи лежить точка на кривій ristretto255
 
 ### Опис
 
@@ -22,7 +23,7 @@ sodium_crypto_core_ristretto255_is_valid_point(string $s): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ sodium_crypto_core_ristretto255_is_valid_point(string $s): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо точка `s` знаходиться на кривій ristretto255, інакше повертає\*\*`false`
+Повертає \*\*`true`\*\*якщо точка `s` знаходиться на кривій ristretto255, інакше повертає\*\*`false`\*\*.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptocoreristretto255ісvalidpoint()****
+**Пример #1 Пример использования**sodium\_crypto\_core\_ristretto255\_is\_valid\_point()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump(sodium_crypto_core_ristretto255_is_valid_point($bar));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -56,5 +57,5 @@ bool(true)
 
 ### Дивіться також
 
--   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.md) - Генерує випадковий ключ
--   [sodiumcryptoscalarmultristretto255base()](function.sodium-crypto-scalarmult-ristretto255-base.md) - Обчислює відкритий ключ із закритого ключа
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_random()](function.sodium-crypto-core-ristretto255-scalar-random.md) \- Генерує випадковий ключ
+-   [sodium\_crypto\_scalarmult\_ristretto255\_base()](function.sodium-crypto-scalarmult-ristretto255-base.md) \- Обчислює відкритий ключ із закритого ключа

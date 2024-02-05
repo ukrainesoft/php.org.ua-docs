@@ -1,76 +1,81 @@
 ---
 navigation:
   - libxml.resources.md: « Типи ресурсів
-  - class.libxmlerror.md: libXMLError »
+  - class.libxmlerror.md: LibXMLError »
   - index.md: PHP Manual
   - book.libxml.md: libxml
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.
 
-**`LIBXML_BIGLINES`** (int)
+**`LIBXML_BIGLINES`**(int)
 
 Дозволяє коректно повідомляти про номери рядків більше 65535.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступно з PHP 7.0.0 з Libxml >= 2.9.0
 
-**`LIBXML_COMPACT`** (int)
+**`LIBXML_COMPACT`**(int)
 
 Активує оптимізацію виділення пам'яті для маленьких вузлів. Це може підвищити швидкодію програми без внесення змін до коду.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступна лише в Libxml >= 2.6.21
 
-**`LIBXML_DTDATTR`** (int)
+**`LIBXML_DTDATTR`**(int)
 
 DTD-атрибути за замовчуванням
 
-**`LIBXML_DTDLOAD`** (int)
+**`LIBXML_DTDLOAD`**(int)
 
 Завантаження зовнішнього підмножини
 
-**`LIBXML_DTDVALID`** (int)
+**`LIBXML_DTDVALID`**(int)
 
 Перевірка коректності документа за допомогою DTD
 
-**`LIBXML_HTML_NOIMPLIED`** (int)
+**Застереження**
 
-Встановлює прапор HTMLPARSENOIMPLIED, який відключає автоматичне додавання елементів, що бракують html/body....
+Увімкнення перевірки DTD може сприяти атакам XML External Entity (XXE).
 
-> **Зауваження**
+**`LIBXML_HTML_NOIMPLIED`**(int)
+
+Встановлює прапор HTML\_PARSE\_NOIMPLIED, який відключає автоматичне додавання елементів, що бракують html/body....
+
+> **Зауваження** :
 > 
 > Доступно лише в Libxml >= 2.7.7 (починаючи з PHP >= 5.4.0)
 
-**`LIBXML_HTML_NODEFDTD`** (int)
+**`LIBXML_HTML_NODEFDTD`**(int)
 
-Встановлює прапор HTMLPARSENODEFDTD, який запобігає додаванню стандартного doctype, якщо він не був знайдений.
+Встановлює прапор HTML\_PARSE\_NODEFDTD, який запобігає додаванню стандартного doctype, якщо він не був знайдений.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступно лише в Libxml >= 2.7.8 (починаючи з >= 5.4.0)
 
-**`LIBXML_NOBLANKS`** (int)
+**`LIBXML_NOBLANKS`**(int)
 
 Видалення порожніх вузлів
 
-**`LIBXML_NOCDATA`** (int)
+**`LIBXML_NOCDATA`**(int)
 
 Об'єднати CDATA як текстові вузли
 
-**`LIBXML_NOEMPTYTAG`** (int)
+**`LIBXML_NOEMPTYTAG`**(int)
 
-Розгортати порожні теги (наприклад, `<br/>` в `<br></br>`
+Розгортати порожні теги (наприклад, `<br/>`в`<br></br>`) .
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця настройка доступна на даний момент лише у функціях [DOMDocument::save](domdocument.save.md) і [DOMDocument::saveXML](domdocument.savexml.md)
 
-**`LIBXML_NOENT`** (int)
+**`LIBXML_NOENT`**(int)
 
 Заміщення сутностей
 
@@ -78,78 +83,78 @@ DTD-атрибути за замовчуванням
 
 Увімкнення заміщення об'єкта може полегшити атаки на зовнішній об'єкт XML (XXE).
 
-**`LIBXML_NOERROR`** (int)
+**`LIBXML_NOERROR`**(int)
 
 Заборонити звіти про помилки
 
-**`LIBXML_NONET`** (int)
+**`LIBXML_NONET`**(int)
 
 Вимкнути доступ до мережі під час завантаження документів
 
-**`LIBXML_NOWARNING`** (int)
+**`LIBXML_NOWARNING`**(int)
 
 Заборонити попередження
 
-**`LIBXML_NOXMLDECL`** (int)
+**`LIBXML_NOXMLDECL`**(int)
 
 Видалити оголошення XML під час збереження документа
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступна лише в Libxml >= 2.6.21
 
-**`LIBXML_NSCLEAN`** (int)
+**`LIBXML_NSCLEAN`**(int)
 
 Видалити зайві оголошення просторів імен
 
-**`LIBXML_PARSEHUGE`** (int)
+**`LIBXML_PARSEHUGE`**(int)
 
-Встановити прапор XMLPARSEHUGE, що відключає жорстко заданий ліміт у парсері. Це зачіпає як ліміти максимальної глибини документа чи рекурсії елементів, і ліміти розмірів текстових елементів.
+Встановити прапор XML\_PARSE\_HUGE, що відключає жорстко заданий ліміт у парсері. Це зачіпає як ліміти максимальної глибини документа чи рекурсії елементів, і ліміти розмірів текстових елементів.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступно тільки в Libxml >= 2.7.0 (починаючи з PHP >= 5.3.2 та PHP >= 5.2.12)
 
-**`LIBXML_PEDANTIC`** (int)
+**`LIBXML_PEDANTIC`**(int)
 
-Встановлює прапор XMLPARSEPEDANTIC, який включає педантичний звіт про помилки.
+Встановлює прапор XML\_PARSE\_PEDANTIC, який включає педантичний звіт про помилки.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступно з PHP >= 5.4.0
 
-**`LIBXML_XINCLUDE`** (int)
+**`LIBXML_XINCLUDE`**(int)
 
 Реалізувати заміщення XInclude
 
-**`LIBXML_ERR_ERROR`** (int)
+**`LIBXML_ERR_ERROR`**(int)
 
 Усувна помилка
 
-**`LIBXML_ERR_FATAL`** (int)
+**`LIBXML_ERR_FATAL`**(int)
 
 Фатальна помилка
 
-**`LIBXML_ERR_NONE`** (int)
+**`LIBXML_ERR_NONE`**(int)
 
 Немає помилок
 
-**`LIBXML_ERR_WARNING`** (int)
+**`LIBXML_ERR_WARNING`**(int)
 
 Просте попередження
 
-**`LIBXML_VERSION`** (int)
+**`LIBXML_VERSION`**(int)
 
 Версія libxml у вигляді 20605 або 20617
 
-**`LIBXML_DOTTED_VERSION`** (string)
+**`LIBXML_DOTTED_VERSION`**(string)
 
 Версія libxml у вигляді 2.6.5 або 2.6.17
 
-**`LIBXML_SCHEMA_CREATE`** (int)
+**`LIBXML_SCHEMA_CREATE`**(int)
 
 Створює значення за замовчуванням або фіксовані вузли під час перевірки схеми XSD
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступно тільки в Libxml >= 2.6.14 (PHP >= 5.5.2)

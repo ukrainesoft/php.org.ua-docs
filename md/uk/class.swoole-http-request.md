@@ -1,12 +1,13 @@
 ---
 navigation:
-  - swoole-http-client.upgrade.md: '« SwooleHttpClient::upgrade'
-  - swoole-http-request.destruct.md: 'SwooleHttpRequest::destruct »'
+  - swoole-http-client.upgrade.md: '« Swoole\\Http\\Client::upgrade'
+  - swoole-http-request.destruct.md: 'Swoole\\Http\\Request::\_\_destruct »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
-title: Клас SwooleHttpRequest
+title: Клас Swoole\\Http\\Request
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас SwooleHttpRequest
+# Клас Swoole\\Http\\Request
 
 (PECL swoole >= 1.9.0)
 
@@ -35,5 +36,5 @@ public rawcontent(): string
 
 ## Зміст
 
--   [SwooleHttpRequest::destruct](swoole-http-request.destruct.md) - Знищує HTTP-запит
--   [SwooleHttpRequest::rawcontent](swoole-http-request.rawcontent.md) — Отримує необроблене тіло HTTP POST
+-   [Swoole\\Http\\Request::\_\_destruct](swoole-http-request.destruct.md) \- Знищує HTTP-запит
+-   [Swoole\\Http\\Request::rawcontent](swoole-http-request.rawcontent.md)— Отримує необроблене тіло HTTP POST

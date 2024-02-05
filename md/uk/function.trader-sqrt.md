@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-sma.md: « tradersma
-  - function.trader-stddev.md: traderstddev »
+  - function.trader-sma.md: « trader\_sma
+  - function.trader-stddev.md: trader\_stddev »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradersqrt
+  - ref.trader.md: Функції Trader
+title: trader\_sqrt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradersqrt
+# trader\_sqrt
 
 (PECL trader >= 0.2.0)
 
-tradersqrt — векторний квадратний корінь
+trader\_sqrt — векторний квадратний корінь
 
 ### Опис
 

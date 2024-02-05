@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-macdext.md: « tradermacdext
-  - function.trader-mama.md: tradermama »
+  - function.trader-macdext.md: « trader\_macdext
+  - function.trader-mama.md: trader\_mama »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermacdfix
+  - ref.trader.md: Функції Trader
+title: trader\_macdfix
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermacdfix
+# trader\_macdfix
 
 (PECL trader >= 0.2.0)
 
-tradermacdfix — Виправлення сходження/розходження ковзної середньої 12/26
+trader\_macdfix — Виправлення сходження/розходження ковзної середньої 12/26
 
 ### Опис
 

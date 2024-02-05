@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-x509-export-to-file.md: « opensslx509exportтоfile
-  - function.openssl-x509-fingerprint.md: opensslx509fingerprint »
+  - function.openssl-x509-export-to-file.md: « openssl\_x509\_export\_to\_file
+  - function.openssl-x509-fingerprint.md: openssl\_x509\_fingerprint »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslx509export
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_x509\_export
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslx509export
+# openssl\_x509\_export
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-opensslx509export — Експортує сертифікат у рядок
+openssl\_x509\_export — Експортує сертифікат у рядок
 
 ### Опис
 
@@ -18,7 +19,7 @@ opensslx509export — Експортує сертифікат у рядок
 openssl_x509_export(OpenSSLCertificate|string $certificate, string &$output, bool $no_text = true): bool
 ```
 
-**opensslx509export()** зберігає сертифікат `certificate` у вигляді PEM рядка в `output`
+\*\*openssl\_x509\_export()\*\*сохраняет сертификат`certificate` у вигляді PEM рядка в `output`
 
 ### Список параметрів
 
@@ -28,18 +29,18 @@ openssl_x509_export(OpenSSLCertificate|string $certificate, string &$output, boo
 
 `output`
 
-У разі успішного виконання цієї змінної буде PEM-представлення сертифіката.
+У разі успішного виконання цієї змінної буде PEM-подання сертифіката.
 
 `no_text`
 
-Необов'язковий параметр `notext` впливає на деталізацію повідомлень виводу; якщо він встановлений у **`false`**, то у висновок додається додаткова людина читана інформація. Значення за замовчуванням `notext` є **`true`**
+Необов'язковий параметр `notext` впливає на деталізацію повідомлень виводу; якщо він встановлений у **`false`**, то у висновок додається додаткова людиночитана інформація. Значення за замовчуванням `notext`является\*\*`true`\*\*
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
+| 8.0.0 | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL X.509` |

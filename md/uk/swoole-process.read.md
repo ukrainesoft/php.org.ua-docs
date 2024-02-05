@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-process.push.md: '« SwooleProcess::push'
-  - swoole-process.signal.md: 'SwooleProcess::signal »'
+  - swoole-process.push.md: '« Swoole\\Process::push'
+  - swoole-process.signal.md: 'Swoole\\Process::signal »'
   - index.md: PHP Manual
-  - class.swoole-process.md: SwooleProcess
-title: 'SwooleProcess::read'
+  - class.swoole-process.md: Swoole\\Process
+title: 'Swoole\\Process::read'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleProcess::read
+# Swoole\\Process::read
 
 (PECL swoole >= 1.9.0)
 
-SwooleProcess::read - Читає дані відправки в процес
+Swoole\\Process::read - Читає дані відправки в процес
 
 ### Опис
 

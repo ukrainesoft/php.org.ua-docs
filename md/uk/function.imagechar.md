@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagechar
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagechar
 
@@ -15,10 +16,10 @@ imagechar — Малювання символу по горизонталі
 ### Опис
 
 ```methodsynopsis
-imagechar(    GdImage $image,    GdFont|int $font,    int $x,    int $y,    string $char,    int $color): bool
+imagechar(    GdImage $image,    GdFont|int $font,    int $x,    int $y,    string $char,    int $color): bool
 ```
 
-**imagechar()** малює перший символ аргументу `char` на зображенні з ідентифікатором `image` на координатах `x``y` (координати відраховуються з лівого верхнього кута) кольором `color`
+**imagechar()** малює перший символ аргументу `char` на зображенні з ідентифікатором `image`на координатах`x`,`y` (координати відраховуються з лівого верхнього кута) кольором `color`
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ imagechar(    GdImage $image,    GdFont|int $font,    int $x,    int $y,    stri
 
 `font`
 
-Може приймати значення 1, 2, 3, 4, 5 для вбудованих шрифтів у кодуванні latin2 (вища кількість відповідає більшому шрифту) або екземпляр [GdFont](class.gdfont.md), що повертається функцією [imageloadfont()](function.imageloadfont.md)
+Може приймати значення 1, 2, 3, 4, 5 для вбудованих шрифтів у кодуванні latin2 (вища кількість відповідає більшому шрифту) або екземпляр [GdFont](class.gdfont.md), що повертається функцією [imageloadfont()](function.imageloadfont.md) .. .
 
 `x`
 
@@ -48,18 +49,18 @@ y-координата початку малювання.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.md), і ціле число (int); раніше приймалося лише ціле число (int). |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.1.0 | Параметр`font` тепер приймає як екземпляр [GdFont](class.gdfont.md), і ціле число (int); раніше приймалося лише ціле число (int). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagechar()****
+**Пример #1 Пример использования**imagechar()\*\*\*\*
 
 ```php
 <?php
@@ -80,11 +81,11 @@ imagepng($im);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: imagechar()](images/21009b70229598c6a80eef8b45bf282b-imagechar.png)
 
 ### Дивіться також
 
--   [imagecharup()](function.imagecharup.md) - Малювання символу вертикально
--   [imageloadfont()](function.imageloadfont.md) - Завантаження шрифту
+-   [imagecharup()](function.imagecharup.md) \- Малювання символу вертикально
+-   [imageloadfont()](function.imageloadfont.md) \- Завантаження шрифту

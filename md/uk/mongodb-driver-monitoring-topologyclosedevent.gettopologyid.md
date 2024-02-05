@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-topologyclosedevent.md: « MongoDBDriverMonitoringTopologyClosedEvent
-  - class.mongodb-driver-monitoring-topologyopeningevent.md: MongoDBDriverMonitoringTopologyOpeningEvent »
+  - class.mongodb-driver-monitoring-topologyclosedevent.md: « MongoDB\\Driver\\Monitoring\\TopologyClosedEvent
+  - class.mongodb-driver-monitoring-topologyopeningevent.md: MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent »
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-topologyclosedevent.md: MongoDBDriverMonitoringTopologyClosedEvent
-title: 'MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId'
+  - class.mongodb-driver-monitoring-topologyclosedevent.md: MongoDB\\Driver\\Monitoring\\TopologyClosedEvent
+title: 'MongoDB\\Driver\\Monitoring\\TopologyClosedEvent::getTopologyId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId
+# MongoDB\\Driver\\Monitoring\\TopologyClosedEvent::getTopologyId
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId — Повертає ідентифікатор топології
+MongoDB\\Driver\\Monitoring\\TopologyClosedEvent::getTopologyId — Повертає ідентифікатор топології
 
 ### Опис
 
@@ -28,4 +29,4 @@ final public MongoDB\Driver\Monitoring\TopologyClosedEvent::getTopologyId(): Mon
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

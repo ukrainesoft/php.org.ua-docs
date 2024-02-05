@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.commonmark-node-code.md: « CommonMarkNodeCode
-  - commonmark-node-codeblock.construct.md: 'CommonMarkNodeCodeBlock::construct »'
+  - class.commonmark-node-code.md: « CommonMark\\Node\\Code
+  - commonmark-node-codeblock.construct.md: 'CommonMark\\Node\\CodeBlock::\_\_construct »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: CodeBlock успадковує CommonMarkNode
+title: CodeBlock успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CodeBlock успадковує CommonMarkNode
+# CodeBlock успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 
@@ -103,4 +104,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNodeCodeBlock::construct](commonmark-node-codeblock.construct.md) - Конструктор класу CodeBlock
+-   [CommonMark\\Node\\CodeBlock::\_\_construct](commonmark-node-codeblock.construct.md) \- Конструктор класу CodeBlock

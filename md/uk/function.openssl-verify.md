@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.openssl-spki-verify.md: « opensslspkiverify
-  - function.openssl-x509-check-private-key.md: opensslx509checkprivatekey »
+  - function.openssl-spki-verify.md: « openssl\_spki\_verify
+  - function.openssl-x509-check-private-key.md: openssl\_x509\_check\_private\_key »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslverify
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_verify
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslverify
+# openssl\_verify
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-opensslverify - Звіряння сигнатури
+openssl\_verify - Звіряння сигнатури
 
 ### Опис
 
 ```methodsynopsis
-openssl_verify(    string $data,    string $signature,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key,    string|int $algorithm = OPENSSL_ALGO_SHA1): int|false
+openssl_verify(    string $data,    string $signature,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key,    string|int $algorithm = OPENSSL_ALGO_SHA1): int|false
 ```
 
-**opensslverify()** перевіряє, що підпис `signature` коректна для даних `data` та відкритого ключа `public_key`. Відкритий ключ повинен відповідати закритому ключу, за допомогою якого генерувався підпис.
+**openssl\_verify()** перевіряє, що підпис `signature` коректна для даних `data` та відкритого ключа `public_key`. Відкритий ключ повинен відповідати закритому ключу, за допомогою якого генерувався підпис.
 
 ### Список параметрів
 
@@ -28,33 +29,33 @@ openssl_verify(    string $data,    string $signature,    OpenSSLAsymmetricKey|O
 
 `signature`
 
-Необроблений бінарний рядок, створений функцією [opensslsign()](function.openssl-sign.md) або її аналогом
+Необроблений бінарний рядок, створений функцією [openssl\_sign()](function.openssl-sign.md) або її аналогом
 
 `public_key`
 
-Змінна типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), що містить ключ, підготовлений [opensslgetpublickey()](function.openssl-get-publickey.md)
+Переменная типа[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), що містить ключ, підготовлений [openssl\_get\_publickey()](function.openssl-get-publickey.md)
 
-Рядок із ключем у форматі PEM. Приблизно такого виду "-----BEGIN PUBLIC KEY----- MIIBCgK..."
+Рядок із ключем у форматі PEM. Приблизно такого виду `-----BEGIN PUBLIC KEY----- MIIBCgK...`
 
 `algorithm`
 
-Ціло число, що відповідає одному з [алгоритмов подписи](openssl.signature-algos.md)
+Целое число, соответствующее одному из[алгоритмів підпису](openssl.signature-algos.md)
 
-Рядок, повернутий [opensslgetмдmethods()](function.openssl-get-md-methods.md)наприклад "sha1WithRSAEncryption" або "sha512".
+Рядок, повернутий [openssl\_get\_md\_methods()](function.openssl-get-md-methods.md)наприклад "sha1WithRSAEncryption" або "sha512".
 
 ### Значення, що повертаються
 
-Повертає 1, якщо підпис коректний, 0, якщо ні та -1 або **`false`** у разі виникнення помилки.
+Повертає 1, якщо підпис коректний, 0, якщо ні та -1 або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
+| 8.0.0 | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL key`или`OpenSSL X.509` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslverify()****
+**Пример #1 Пример использования**openssl\_verify()\*\*\*\*
 
 ```php
 <?php
@@ -77,7 +78,7 @@ openssl_free_key($pubkeyid);
 ?>
 ```
 
-**Приклад #2 Приклад використання **opensslverify()****
+**Пример #2 Пример использования**openssl\_verify()\*\*\*\*
 
 ```php
 <?php
@@ -109,4 +110,4 @@ if ($ok == 1) {
 
 ### Дивіться також
 
--   [opensslsign()](function.openssl-sign.md) - генерація підпису
+-   [openssl\_sign()](function.openssl-sign.md) \- генерація підпису

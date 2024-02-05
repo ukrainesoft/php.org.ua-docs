@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::brightnessContrastImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::brightnessContrastImage
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
-Imagick::brightnessContrastImage — Опис
+Imagick::brightnessContrastImage — Змінює яскравість та/або контраст зображення
 
 ### Опис
 
@@ -18,7 +19,7 @@ Imagick::brightnessContrastImage — Опис
 public Imagick::brightnessContrastImage(float $brightness, float $contrast, int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
-Змінює яскравість та/або контраст зображення. Перетворює параметри яскравості та контрастності на нахил та перетин та викликає поліномічну функцію для застосування до зображення.
+Змінює яскравість та/або контраст зображення. Перетворює параметри яскравості та контрастності в нахил та перетин та викликає поліномічну функцію для застосування до зображення.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public Imagick::brightnessContrastImage(float $brightness, float $contrast, int 
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::brightnessContrastImage()****
+**Пример #1 Пример использования метода**Imagick::brightnessContrastImage()\*\*\*\*
 
 ```php
 <?php

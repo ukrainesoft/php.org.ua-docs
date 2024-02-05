@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-sum.md: « tradersum
-  - function.trader-tan.md: tradertan »
+  - function.trader-sum.md: « trader\_sum
+  - function.trader-tan.md: trader\_tan »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderтз
+  - ref.trader.md: Функції Trader
+title: trader\_t3
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderтз
+# trader\_t3
 
 (PECL trader >= 0.2.0)
 
-tradert3 - Потрійна експоненційна ковзна середня
+trader\_t3 - Потрійна експоненційна ковзна середня
 
 ### Опис
 

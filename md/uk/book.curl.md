@@ -1,14 +1,15 @@
 ---
 navigation:
   - refs.remote.other.md: « Інші служби
-  - intro.curl.md: Введение »
+  - intro.curl.md: Вступ "
   - index.md: PHP Manual
   - refs.remote.other.md: Інші служби
 title: Клієнтська бібліотека роботи з URL
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клієнтська бібліотека роботи з URL
 
--   [Введение](intro.curl.md)
+-   [Вступ](intro.curl.md)
 -   [Встановлення та налаштування](curl.setup.md)
     -   [Вимоги](curl.requirements.md)
     -   [Установка](curl.installation.md)
@@ -17,48 +18,48 @@ title: Клієнтська бібліотека роботи з URL
 -   [Обумовлені константи](curl.constants.md)
 -   [Приклади](curl.examples.md)
     -   [Простий приклад використання curl](curl.examples-basic.md)
--   [Функции cURL](ref.curl.md)
-    -   [curlclose](function.curl-close.md) - Завершує сеанс cURL
-    -   [curlcopyhandle](function.curl-copy-handle.md) — Копіює дескриптор cURL разом із усіма його налаштуваннями
-    -   [curlerrno](function.curl-errno.md) — Повертає код останньої помилки
-    -   [curlerror](function.curl-error.md) — Повертає рядок із описом останньої помилки поточного сеансу
-    -   [curlescape](function.curl-escape.md) — Кодує рядок як URL
-    -   [curlexec](function.curl-exec.md) — Виконує запит cURL
-    -   [curlfilecreate](function.curl-file-create.md) — Створює об'єкт CURLFile
-    -   [curlgetinfo](function.curl-getinfo.md) — Повертає інформацію про певну операцію
-    -   [curlinit](function.curl-init.md) - Ініціалізує сеанс cURL
-    -   [curlmultiaddhandle](function.curl-multi-add-handle.md) — Додає звичайний cURL-дескриптор до набору cURL-дескрипторів
-    -   [curlmulticlose](function.curl-multi-close.md) — Закриває набір cURL-дескрипторів
-    -   [curlmultierrno](function.curl-multi-errno.md) — Повертає код останньої помилки множинного curl
-    -   [curlmultiexec](function.curl-multi-exec.md) — Запускає підключення поточного дескриптора cURL
-    -   [curlmultigetcontent](function.curl-multi-getcontent.md) — Повертає результат операції, якщо було встановлено опцію CURLOPTRETURNTRANSFER
-    -   [curlmultiinforead](function.curl-multi-info-read.md) — Повертає інформацію про поточні операції
-    -   [curlmultiinit](function.curl-multi-init.md) — Створює набір cURL-дескрипторів
-    -   [curlmultiremovehandle](function.curl-multi-remove-handle.md) — Видаляє cURL дескриптор із набору cURL дескрипторів
-    -   [curlmultiselect](function.curl-multi-select.md) — Чекає на активність на будь-якому curlmulti з'єднанні
-    -   [curlmultisetopt](function.curl-multi-setopt.md) — Встановити налаштування для множинного дескриптора cURL
-    -   [curlmultistrerror](function.curl-multi-strerror.md) — Повертає рядок, що описує помилку
-    -   [curlpause](function.curl-pause.md) — Припинити та відновити з'єднання
-    -   [curlreset](function.curl-reset.md) — Скинути налаштування обробника сесії libcurl
-    -   [curlsetoptarray](function.curl-setopt-array.md) — Встановлює кілька параметрів сеансу cURL
-    -   [curlsetopt](function.curl-setopt.md) — Встановлює параметр сеансу CURL
-    -   [curlshareclose](function.curl-share-close.md) — Закрити оброблюваний обробник cURL
-    -   [curlshareerrno](function.curl-share-errno.md) — Повертає код останньої помилки оброблюваного обробника curl
-    -   [curlshareinit](function.curl-share-init.md) — Ініціалізація оброблюваного обробника cURL
-    -   [curlsharesetopt](function.curl-share-setopt.md) — Встановити опції роздільного обробника cURL
-    -   [curlsharestrerror](function.curl-share-strerror.md) — Повертає опис для заданого коду помилки
-    -   [curlstrerror](function.curl-strerror.md) — Отримати текстовий опис для коду помилки
-    -   [curlunescape](function.curl-unescape.md) — Декодує закодований URL-рядок
-    -   [curlversion](function.curl-version.md) — Повертає версію cURL
--   [CurlHandle](class.curlhandle.md) - Клас CurlHandle
--   [CurlMultiHandle](class.curlmultihandle.md) - Клас CurlMultiHandle
--   [CurlShareHandle](class.curlsharehandle.md) - Клас CurlShareHandle
--   [CURLFile](class.curlfile.md) - Клас CURLFile
-    -   [CURLFile::construct](curlfile.construct.md) — Створює об'єкт CURLFile
-    -   [CURLFile::getFilename](curlfile.getfilename.md) — Повертає ім'я файлу на сервері
-    -   [CURLFile::getMimeType](curlfile.getmimetype.md) - Повертає MIME-тип файлу
-    -   [CURLFile::getPostFilename](curlfile.getpostfilename.md) — Повертає ім'я файлу, що надсилається POST-запитом
-    -   [CURLFile::setMimeType](curlfile.setmimetype.md) - Встановлює MIME-тип
-    -   [CURLFile::setPostFilename](curlfile.setpostfilename.md) — Встановлює ім'я файлу для надсилання методом POST
--   [CURLStringFile](class.curlstringfile.md) - Клас CURLStringFile
-    -   [CURLStringFile::construct](curlstringfile.construct.md) — Створює об'єкт CURLStringFile
+-   [Опції cURL](ref.curl.md)
+    -   [curl\_close](function.curl-close.md) \- Завершує сеанс cURL
+    -   [curl\_copy\_handle](function.curl-copy-handle.md)— Копіює дескриптор cURL разом із усіма його налаштуваннями
+    -   [curl\_errno](function.curl-errno.md)— Повертає код останньої помилки
+    -   [curl\_error](function.curl-error.md)— Повертає рядок із описом останньої помилки поточного сеансу
+    -   [curl\_escape](function.curl-escape.md)— Кодує рядок як URL
+    -   [curl\_exec](function.curl-exec.md)— Виконує запит cURL
+    -   [curl\_getinfo](function.curl-getinfo.md)— Отримує інформацію про конкретну передачу
+    -   [curl\_init](function.curl-init.md) \- Ініціалізує сеанс cURL
+    -   [curl\_multi\_add\_handle](function.curl-multi-add-handle.md)— Додає звичайний cURL-дескриптор до набору cURL-дескрипторів
+    -   [curl\_multi\_close](function.curl-multi-close.md)— Закриває набір cURL-дескрипторів
+    -   [curl\_multi\_errno](function.curl-multi-errno.md)— Повертає код останньої помилки множинного curl
+    -   [curl\_multi\_exec](function.curl-multi-exec.md)— Запускає підключення поточного дескриптора cURL
+    -   [curl\_multi\_getcontent](function.curl-multi-getcontent.md)— Повертає результат операції, якщо було встановлено опцію CURLOPT\_RETURNTRANSFER
+    -   [curl\_multi\_info\_read](function.curl-multi-info-read.md)— Повертає інформацію про поточні операції
+    -   [curl\_multi\_init](function.curl-multi-init.md)— Створює набір cURL-дескрипторів
+    -   [curl\_multi\_remove\_handle](function.curl-multi-remove-handle.md)— Видаляє cURL дескриптор із набору cURL дескрипторів
+    -   [curl\_multi\_select](function.curl-multi-select.md)— Чекає на активність на будь-якому curl\_multi з'єднанні
+    -   [curl\_multi\_setopt](function.curl-multi-setopt.md)— Встановлює настройки множинного дескриптора cURL
+    -   [curl\_multi\_strerror](function.curl-multi-strerror.md)— Повертає рядок, що описує помилку
+    -   [curl\_pause](function.curl-pause.md)— Припинити та відновити з'єднання
+    -   [curl\_reset](function.curl-reset.md)— Скинути налаштування обробника сесії libcurl
+    -   [curl\_setopt\_array](function.curl-setopt-array.md)— Встановлює кілька параметрів сеансу cURL
+    -   [curl\_setopt](function.curl-setopt.md)— Встановлює параметр для передачі cURL
+    -   [curl\_share\_close](function.curl-share-close.md)— Закрити оброблюваний обробник cURL
+    -   [curl\_share\_errno](function.curl-share-errno.md)— Повертає код останньої помилки оброблюваного обробника curl
+    -   [curl\_share\_init](function.curl-share-init.md)— Ініціалізація оброблюваного обробника cURL
+    -   [curl\_share\_setopt](function.curl-share-setopt.md)— Встановити опції оброблюваного cURL
+    -   [curl\_share\_strerror](function.curl-share-strerror.md)— Повертає опис для заданого коду помилки
+    -   [curl\_strerror](function.curl-strerror.md)— Отримати текстовий опис для коду помилки
+    -   [curl\_unescape](function.curl-unescape.md)— Декодує закодований URL-рядок
+    -   [curl\_upkeep](function.curl_upkeep.md)— Виконує будь-які перевірки працездатності з'єднань
+    -   [curl\_version](function.curl-version.md)— Повертає версію cURL
+-   [CurlHandle](class.curlhandle.md) \- Клас CurlHandle
+-   [CurlMultiHandle](class.curlmultihandle.md) \- Клас CurlMultiHandle
+-   [CurlShareHandle](class.curlsharehandle.md) \- Клас CurlShareHandle
+-   [CURLFile](class.curlfile.md) \- Клас CURLFile
+    -   [CURLFile::\_\_construct](curlfile.construct.md)— Створює об'єкт CURLFile
+    -   [CURLFile::getFilename](curlfile.getfilename.md)— Повертає ім'я файлу на сервері
+    -   [CURLFile::getMimeType](curlfile.getmimetype.md) \- Повертає MIME-тип файлу
+    -   [CURLFile::getPostFilename](curlfile.getpostfilename.md)— Повертає ім'я файлу, що надсилається POST-запитом
+    -   [CURLFile::setMimeType](curlfile.setmimetype.md) \- Встановлює MIME-тип
+    -   [CURLFile::setPostFilename](curlfile.setpostfilename.md)— Встановлює ім'я файлу для надсилання методом POST
+-   [CURLStringFile](class.curlstringfile.md) \- Клас CURLStringFile
+    -   [CURLStringFile::\_\_construct](curlstringfile.construct.md)— Створює об'єкт CURLStringFile

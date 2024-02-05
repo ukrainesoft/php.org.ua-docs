@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sessionhandler.md: SessionHandler
 title: 'SessionHandler::read'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SessionHandler::read
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SessionHandler::read — Зчитує дані сесії
 
@@ -18,13 +19,13 @@ SessionHandler::read — Зчитує дані сесії
 public SessionHandler::read(string $id): string|false
 ```
 
-Зчитує дані сесії зі сховища та повертає результат назад у PHP для внутрішньої обробки. Цей метод викликається автоматично, коли PHP стартує сесію (або автоматично або безпосередньо викликом. [sessionstart()](function.session-start.md) з наступним викликом [SessionHandler::open()](sessionhandler.open.md)
+Зчитує дані сесії зі сховища та повертає результат назад у PHP для внутрішньої обробки. Цей метод викликається автоматично, коли PHP стартує сесію (або автоматично або безпосередньо викликом. [session\_start()](function.session-start.md) з наступним викликом [SessionHandler::open()](sessionhandler.open.md)
 
-Цей метод є обертанням внутрішнього обробника PHP, визначеного в параметрі ini-файлу [session.savehandler](session.configuration.md#ini.session.save-handler) який встановлюється до того, як буде визначено оброблювач сесії викликом [sessionsetsavehandler()](function.session-set-save-handler.md)
+Цей метод є обертанням внутрішнього обробника PHP, визначеного в параметрі ini-файлу [session.save\_handler](session.configuration.md#ini.session.save-handler) який встановлюється до того, як буде визначено оброблювач сесії викликом [session\_set\_save\_handler()](function.session-set-save-handler.md)
 
 Якщо цей клас розширено шляхом успадкування, виклик батьківського методу `read` викликає обгортку для цього методу і, відповідно, виклик внутрішнього оброблювача. Це дозволяє методу бути перевантаженим, та/або перехопленим та відфільтрованим (наприклад для розшифровки, значення параметра `$data`, що повертає батьківський метод `read`
 
-Для додаткової інформації дивіться документацію за методом [SessionHandlerInterface::read()](sessionhandlerinterface.read.md)
+Для дополнительной информации смотрите документацию по методу[SessionHandlerInterface::read()](sessionhandlerinterface.read.md)
 
 ### Список параметрів
 
@@ -38,4 +39,4 @@ public SessionHandler::read(string $id): string|false
 
 ### Дивіться також
 
--   Директива налаштування [session.serializehandler](session.configuration.md#ini.session.serialize-handler)
+-   Директива налаштування[session.serialize\_handler](session.configuration.md#ini.session.serialize-handler)

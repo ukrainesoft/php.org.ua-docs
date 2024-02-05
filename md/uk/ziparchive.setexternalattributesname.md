@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::setExternalAttributesName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::setExternalAttributesName
 
@@ -15,7 +16,7 @@ ZipArchive::setExternalAttributesName — Встановлення зовніш�
 ### Опис
 
 ```methodsynopsis
-public ZipArchive::setExternalAttributesName(    string $name,    int $opsys,    int $attr,    int $flags = 0): bool
+public ZipArchive::setExternalAttributesName(    string $name,    int $opsys,    int $attr,    int $flags = 0): bool
 ```
 
 Встановлення зовнішніх атрибутів запису, заданого на ім'я.
@@ -28,7 +29,7 @@ public ZipArchive::setExternalAttributesName(    string $name,    int $opsys,   
 
 `opsys`
 
-Код операційної системи визначається однією з констант ZipArchive::OPSYS
+Код операційної системи визначається однією з констант ZipArchive::OPSYS\_
 
 `attr`
 
@@ -40,7 +41,7 @@ public ZipArchive::setExternalAttributesName(    string $name,    int $opsys,   
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

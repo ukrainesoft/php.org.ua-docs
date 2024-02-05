@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::extractTo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::extractTo
 
@@ -22,13 +23,15 @@ public ZipArchive::extractTo(string $pathto, array|string|null $files = null): b
 
 **Увага**
 
-Дозволи за промовчанням для вилучених файлів та каталогів надають максимально широкий доступ. Це можна обмежити встановленням поточного umask, який змінюється за допомогою [umask()](function.umask.md)
+Дозволи за промовчанням для вилучених файлів та каталогів дають максимально широкий доступ. Це можна обмежити, встановивши поточну маску дозволів umask функцією [umask()](function.umask.md)
+
+З міркувань безпеки вихідні дозволи не відновлюються . [Приклади](ziparchive.getexternalattributesindex.md#ziparchive.getexternalattributesindex.examples.perms) того, як їх відновити, показано на сторінці з описом методу [ZipArchive::getExternalAttributesIndex()](ziparchive.getexternalattributesindex.md)
 
 ### Список параметрів
 
 `pathto`
 
-Місце призначення, куди виймати файли.
+Директорія, в яку потрібно отримувати файли.
 
 `files`
 
@@ -36,7 +39,7 @@ public ZipArchive::extractTo(string $pathto, array|string|null $files = null): b
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -73,6 +76,6 @@ if ($res === TRUE) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Файлові системи Windows NTFS не підтримують деякі символи в іменах файлів, зокрема `<|>*?":`. Імена файлів із точкою в кінці також не підтримуються. На відміну від деяких інструментів вилучення, цей метод не підтримує заміну цих символів на підкреслення, а натомість виникає помилка при вийманні таких файлів.

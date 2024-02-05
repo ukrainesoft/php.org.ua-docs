@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::addPattern'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::addPattern
 
@@ -24,11 +25,11 @@ public ZipArchive::addPattern(string $pattern, string $path = ".", array $option
 
 `pattern`
 
-Шаблон [PCRE](book.pcre.md)
+Шаблон[PCRE](book.pcre.md)
 
 `path`
 
-Директорія для сканування За промовчанням вибирається поточна директорія.
+Директорія для сканування. За промовчанням вибирається поточна директорія.
 
 `options`
 
@@ -36,11 +37,11 @@ public ZipArchive::addPattern(string $pattern, string $path = ".", array $option
 
 ### Значення, що повертаються
 
-Масив (array) доданих файлів у разі успішного виконання або **`false`** у разі виникнення помилки
+Масив (array) доданих файлів у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ZipArchive::addPattern()****
+**Пример #1 Пример использования**ZipArchive::addPattern()\*\*\*\*
 
 Додати до архіву всі текстові файли та файли скриптів PHP з поточної директорії
 
@@ -61,5 +62,5 @@ if ($ret !== TRUE) {
 
 ### Дивіться також
 
--   [ZipArchive::addFile()](ziparchive.addfile.md) - Додає до ZIP-архіву файл по зазначеному шляху
--   [ZipArchive::addGlob()](ziparchive.addglob.md) - Додати файли з директорії відповідно до шаблону
+-   [ZipArchive::addFile()](ziparchive.addfile.md) \- Додає до ZIP-архіву файл по зазначеному шляху
+-   [ZipArchive::addGlob()](ziparchive.addglob.md) \- Додати файли з директорії відповідно до шаблону

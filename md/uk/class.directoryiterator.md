@@ -1,10 +1,11 @@
 ---
 navigation:
-  - callbackfilteriterator.construct.md: '« CallbackFilterIterator::construct'
-  - directoryiterator.construct.md: 'DirectoryIterator::construct »'
+  - callbackfilteriterator.construct.md: '« CallbackFilterIterator::\_\_construct'
+  - directoryiterator.construct.md: 'DirectoryIterator::\_\_construct »'
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас DirectoryIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас DirectoryIterator
 
@@ -18,54 +19,33 @@ title: Клас DirectoryIterator
 
 ```classsynopsis
 
-     
+    
+     class DirectoryIterator
     
 
     
-     
-      class DirectoryIterator
-     
+     extends
+      SplFileInfo
+    
 
-     
-      extends
-       SplFileInfo
-     
-
-     implements 
-       SeekableIterator {
+    
+     implements
+      SeekableIterator {
 
     /* Методы */
     
    public __construct(string $directory)
 
     public current(): mixed
-public getATime(): int
 public getBasename(string $suffix = ""): string
-public getCTime(): int
 public getExtension(): string
 public getFilename(): string
-public getGroup(): int
-public getInode(): int
-public getMTime(): int
-public getOwner(): int
-public getPath(): string
-public getPathname(): string
-public getPerms(): int
-public getSize(): int
-public getType(): string
-public isDir(): bool
 public isDot(): bool
-public isExecutable(): bool
-public isFile(): bool
-public isLink(): bool
-public isReadable(): bool
-public isWritable(): bool
 public key(): mixed
 public next(): void
 public rewind(): void
 public seek(int $offset): void
-public
-   __toString(): string
+public __toString(): string
 public valid(): bool
 
 
@@ -104,32 +84,15 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [DirectoryIterator::construct](directoryiterator.construct.md) — Створює новий ітератор директорій на шляху
--   [DirectoryIterator::current](directoryiterator.current.md) — Повертає поточний елемент DirectoryIterator
--   [DirectoryIterator::getATime](directoryiterator.getatime.md) — Повертає час останнього доступу до поточного елементу DirectoryIterator
--   [DirectoryIterator::getBasename](directoryiterator.getbasename.md) — Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
--   [DirectoryIterator::getCTime](directoryiterator.getctime.md) — Повертає час останньої зміни inode поточного елемента DirectoryIterator
--   [DirectoryIterator::getExtension](directoryiterator.getextension.md) — Повертає розширення файлу
--   [DirectoryIterator::getFilename](directoryiterator.getfilename.md) — Повертає ім'я файлу поточного елемента DirectoryIterator
--   [DirectoryIterator::getGroup](directoryiterator.getgroup.md) — Повертає ідентифікатор групи поточного елемента DirectoryIterator
--   [DirectoryIterator::getInode](directoryiterator.getinode.md) — Повертає inode поточного елемента DirectoryIterator
--   [DirectoryIterator::getMTime](directoryiterator.getmtime.md) — Повертає час останньої зміни поточного елемента DirectoryIterator
--   [DirectoryIterator::getOwner](directoryiterator.getowner.md) — Повертає ідентифікатор власника поточного елемента DirectoryIterator
--   [DirectoryIterator::getPath](directoryiterator.getpath.md) — Повертає шлях до поточного елементу DirectoryIterator без імені файлу
--   [DirectoryIterator::getPathname](directoryiterator.getpathname.md) — Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
--   [DirectoryIterator::getPerms](directoryiterator.getperms.md) — Повертає набір прав для поточного елемента DirectoryIterator item
--   [DirectoryIterator::getSize](directoryiterator.getsize.md) — Повертає розмір поточного елемента DirectoryIterator
--   [DirectoryIterator::getType](directoryiterator.gettype.md) — Визначає тип поточного елемента DirectoryIterator
--   [DirectoryIterator::isDir](directoryiterator.isdir.md) — Визначає, чи поточний елемент DirectoryIterator є директорією
--   [DirectoryIterator::isDot](directoryiterator.isdot.md) — Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
--   [DirectoryIterator::isExecutable](directoryiterator.isexecutable.md) — Визначає, чи поточний елемент DirectoryIterator виконується
--   [DirectoryIterator::isFile](directoryiterator.isfile.md) — Визначає, чи поточний елемент DirectoryIterator є звичайним файлом
--   [DirectoryIterator::isLink](directoryiterator.islink.md) — Визначає, чи є поточний елемент DirectoryIterator символічним посиланням
--   [DirectoryIterator::isReadable](directoryiterator.isreadable.md) — Визначає, чи доступний поточний елемент DirectoryIterator для читання
--   [DirectoryIterator::isWritable](directoryiterator.iswritable.md) — Визначає, чи поточний елемент DirectoryIterator доступний для запису.
--   [DirectoryIterator::key](directoryiterator.key.md) — Повертає ключ поточного елемента DirectoryIterator
--   [DirectoryIterator::next](directoryiterator.next.md) — Переміщує покажчик на наступний елемент DirectoryIterator
--   [DirectoryIterator::rewind](directoryiterator.rewind.md) — Встановлює покажчик на перший елемент DirectoryIterator
--   [DirectoryIterator::seek](directoryiterator.seek.md) — Переміщує вказівник DirectoryIterator на певну позицію
--   [DirectoryIterator::toString](directoryiterator.tostring.md) — Повертає ім'я файлу у вигляді рядка
--   [DirectoryIterator::valid](directoryiterator.valid.md) — Перевіряє, чи поточний елемент DirectoryIterator є допустимим файлом
+-   [DirectoryIterator::\_\_construct](directoryiterator.construct.md)— Створює новий ітератор каталогів із шляху
+-   [DirectoryIterator::current](directoryiterator.current.md)— Повертає поточний елемент DirectoryIterator
+-   [DirectoryIterator::getBasename](directoryiterator.getbasename.md)— Отримує базове ім'я поточного елемента DirectoryIterator
+-   [DirectoryIterator::getExtension](directoryiterator.getextension.md)— Отримує розширення файлу
+-   [DirectoryIterator::getFilename](directoryiterator.getfilename.md)— Повертає ім'я файлу поточного елемента DirectoryIterator
+-   [DirectoryIterator::isDot](directoryiterator.isdot.md) — Визначає, чи є поточний елемент DirectoryIterator '.' або '.'.
+-   [DirectoryIterator::key](directoryiterator.key.md)— Повертає ключ до поточного елементу DirectoryIterator
+-   [DirectoryIterator::next](directoryiterator.next.md)— Перехід до наступного елементу DirectoryIterator
+-   [DirectoryIterator::rewind](directoryiterator.rewind.md) \- Перемотування ітератора DirectoryIterator назад до початку
+-   [DirectoryIterator::seek](directoryiterator.seek.md)— Перехід до елемента DirectoryIterator
+-   [DirectoryIterator::\_\_function toString() { \[native code\] }](directoryiterator.tostring.md)— Отримує ім'я файлу у вигляді рядка
+-   [DirectoryIterator::valid](directoryiterator.valid.md)— Перевіряє, чи поточна позиція DirectoryIterator є коректним файлом

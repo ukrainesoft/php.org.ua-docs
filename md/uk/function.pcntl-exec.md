@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pcntl-errno.md: pcntlerrno
-  - function.pcntl-fork.md: pcntlfork »
+  - function.pcntl-errno.md: « pcntl\_errno
+  - function.pcntl-fork.md: pcntl\_fork »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
-title: pcntlexec
+title: pcntl\_exec
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pcntlexec
+# pcntl\_exec
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-pcntlexec — Запуск цієї програми в області поточного процесу
+pcntl\_exec — Запуск цієї програми в області поточного процесу
 
 ### Опис
 
@@ -18,7 +19,7 @@ pcntlexec — Запуск цієї програми в області пото�
 pcntl_exec(string $path, array $args = [], array $env_vars = []): bool
 ```
 
-Запускає програму з переданими аргументами.
+Запускає програму із переданими аргументами.
 
 ### Список параметрів
 

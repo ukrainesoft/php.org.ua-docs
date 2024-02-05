@@ -1,10 +1,11 @@
 ---
 navigation:
-  - pdo.installation.md: « Установка
+  - pdo.installation.md: « Встановлення
   - pdo.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - pdo.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,10 +15,10 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [pdo.dsn.](pdo.configuration.md#ini.pdo.dsn) |  | тільки php.ini |  |
+| [pdo.dsn.\*](pdo.configuration.md#ini.pdo.dsn) |  | тільки php.ini |  |
 
 Коротке пояснення конфігураційних директив.
 
-`pdo.dsn.*` string
+`pdo.dsn.*`string
 
-Визначає псевдонім DSN. Додатково дивіться [PDO::construct()](pdo.construct.md)
+Определяет псевдоним DSN. Дополнительно смотрите[PDO::\_\_construct()](pdo.construct.md)

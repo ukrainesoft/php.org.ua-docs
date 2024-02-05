@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashintset.md: QuickHashIntSet
 title: 'QuickHashIntSet::getSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntSet::getSize
 
@@ -30,7 +31,7 @@ publicQuickHashIntSet::getSize(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntSet::getSize()****
+**Пример #1 Пример использования**QuickHashIntSet::getSize()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ var_dump( $set->getSize() );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)

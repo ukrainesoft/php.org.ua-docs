@@ -1,20 +1,21 @@
 ---
 navigation:
-  - yaf-controller-abstract.setviewpath.md: '« YafControllerAbstract::setViewpath'
-  - yaf-action-abstract.execute.md: 'YafActionAbstract::execute »'
+  - yaf-controller-abstract.setviewpath.md: '« Yaf\_Controller\_Abstract::setViewpath'
+  - yaf-action-abstract.execute.md: 'Yaf\_Action\_Abstract::execute »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafActionAbstract
+title: Клас Yaf\_Action\_Abstract
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafActionAbstract
+# Клас Yaf\_Action\_Abstract
 
 (Yaf >=1.0.0)
 
 ## Вступ
 
-Дія повинна визначатися в окремому файлі в Yaf (див. [YafControllerAbstract](class.yaf-controller-abstract.md)). Також всі класи дії повинні розширювати **YafActionAbstract**
+Дія повинна визначатися в окремому файлі в Yaf (див. [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.md)). Також всі класи дії повинні розширювати **Yaf\_Action\_Abstract**
 
-Так як необхідна точка входу, яку міг би використовувати Yaf, ви, у вашому класі, повинні реалізувати метод [YafActionAbstract::execute()](yaf-action-abstract.execute.md)
+Так як необхідна точка входу, яку міг би використовувати Yaf, ви, у вашому класі, повинні реалізувати метод [Yaf\_Action\_Abstract::execute()](yaf-action-abstract.execute.md)
 
 ## Огляд класів
 
@@ -70,22 +71,22 @@ public Yaf_Controller_Abstract::setViewpath(string $view_directory): void
 
 ## Властивості
 
-module
+\_module
 
-name
+\_name
 
-request
+\_request
 
-response
+\_response
 
-invokeargs
+\_invoke\_args
 
-view
+\_view
 
-controller
+\_controller
 
 ## Зміст
 
--   [YafActionAbstract::execute](yaf-action-abstract.execute.md) - Точка входу для Action-класів
--   [YafActionAbstract::getController](yaf-action-abstract.getcontroller.md) - Отримати об'єкт контролер
--   [YafActionAbstract::getControllerName](yaf-controller-abstract.getcontrollername.md) — Отримує ім'я контролера
+-   [Yaf\_Action\_Abstract::execute](yaf-action-abstract.execute.md) \- Точка входу для Action-класів
+-   [Yaf\_Action\_Abstract::getController](yaf-action-abstract.getcontroller.md) \- Отримати об'єкт контролер
+-   [Yaf\_Action\_Abstract::getControllerName](yaf-controller-abstract.getcontrollername.md)— Отримує ім'я контролера

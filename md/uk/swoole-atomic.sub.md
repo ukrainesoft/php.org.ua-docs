@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-atomic.set.md: '« SwooleAtomic::set'
-  - class.swoole-buffer.md: SwooleBuffer »
+  - swoole-atomic.set.md: '« Swoole\\Atomic::set'
+  - class.swoole-buffer.md: Swoole\\Buffer »
   - index.md: PHP Manual
-  - class.swoole-atomic.md: SwooleAtomic
-title: 'SwooleAtomic::sub'
+  - class.swoole-atomic.md: Swoole\\Atomic
+title: 'Swoole\\Atomic::sub'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleAtomic::sub
+# Swoole\\Atomic::sub
 
 (PECL swoole >= 1.9.0)
 
-SwooleAtomic::sub — Віднімає число із значення атомарного об'єкта
+Swoole\\Atomic::sub — Віднімає число із значення атомарного об'єкта
 
 ### Опис
 
@@ -18,7 +19,7 @@ SwooleAtomic::sub — Віднімає число із значення атом
 public Swoole\Atomic::sub(int $sub_value = ?): int
 ```
 
-Віднімає число із значення атомарного об'єкта.
+Віднімає число значення атомарного об'єкта.
 
 ### Список параметрів
 

@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::jobStatus'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::jobStatus
 
-# gearmanjobstatus
+# gearman\_job\_status
 
 (PECL gearman >= 0.5.0)
 
-GearmanClient::jobStatus -- gearmanjobstatus — отримання статусу виконання фонового завдання
+GearmanClient::jobStatus -- gearman\_job\_status — отримання статусу виконання фонового завдання
 
 ### Опис
 
@@ -72,7 +73,7 @@ echo "завершено!\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Выполняется: true, обработано: 3, всего: 14
@@ -85,4 +86,4 @@ echo "завершено!\n";
 
 ### Дивіться також
 
--   [GearmanClient::doStatus()](gearmanclient.dostatus.md) - Отримання статусу завдання, що виконується
+-   [GearmanClient::doStatus()](gearmanclient.dostatus.md) \- Отримання статусу завдання, що виконується

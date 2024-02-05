@@ -1,10 +1,11 @@
 ---
 navigation:
   - gmagick.commentimage.md: '« Gmagick::commentimage'
-  - gmagick.construct.md: 'Gmagick::construct »'
+  - gmagick.construct.md: 'Gmagick::\_\_construct »'
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::compositeimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::compositeimage
 
@@ -15,7 +16,7 @@ Gmagick::compositeimage — Накладає одне зображення на 
 ### Опис
 
 ```methodsynopsis
-public Gmagick::compositeimage(    Gmagick $source,    int $COMPOSE,    int $x,    int $y): Gmagick
+public Gmagick::compositeimage(    Gmagick $source,    int $COMPOSE,    int $x,    int $y): Gmagick
 ```
 
 Накладає одне зображення на інше із зазначеним усуненням.
@@ -44,4 +45,4 @@ public Gmagick::compositeimage(    Gmagick $source,    int $COMPOSE,    int $x, 
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

@@ -1,40 +1,41 @@
 ---
 navigation:
-  - mysqlnd.plugin.architecture.md: « Архитектура плагинов MySQL Native Driver
-  - mysqlnd.plugin.developing.md: Начинаем разработку плагина mysqlnd »
+  - mysqlnd.plugin.architecture.md: « Архітектура плагінів MySQL Native Driver
+  - mysqlnd.plugin.developing.md: Розпочинаємо розробку плагіна mysqlnd »
   - index.md: PHP Manual
-  - mysqlnd.plugin.md: API для плагинов к встроенному драйверу MySQL
+  - mysqlnd.plugin.md: API для плагінів до вбудованого драйвера MySQL
 title: API плагінів mysqlnd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## API плагінів mysqlnd
 
-API плагінів `mysqlnd` надає такі функції:
+API плагінів `mysqlnd`предоставляет следующие функции:
 
--   mysqlndpluginregister()
+-   mysqlnd\_plugin\_register()
     
--   mysqlndplugincount()
+-   mysqlnd\_plugin\_count()
     
--   mysqlndplugingetpluginconnectiondata()
+-   mysqlnd\_plugin\_get\_plugin\_connection\_data()
     
--   mysqlndplugingetpluginresultdata()
+-   mysqlnd\_plugin\_get\_plugin\_result\_data()
     
--   mysqlndplugingetpluginstmtdata()
+-   mysqlnd\_plugin\_get\_plugin\_stmt\_data()
     
--   mysqlndplugingetpluginnetdata()
+-   mysqlnd\_plugin\_get\_plugin\_net\_data()
     
--   mysqlndplugingetpluginprotocoldata()
+-   mysqlnd\_plugin\_get\_plugin\_protocol\_data()
     
--   mysqlndconngetmethods()
+-   mysqlnd\_conn\_get\_methods()
     
--   mysqlndresultgetmethods()
+-   mysqlnd\_result\_get\_methods()
     
--   mysqlndresultmetagetmethods()
+-   mysqlnd\_result\_meta\_get\_methods()
     
--   mysqlndstmtgetmethods()
+-   mysqlnd\_stmt\_get\_methods()
     
--   mysqlndnetgetmethods()
+-   mysqlnd\_net\_get\_methods()
     
--   mysqlndprotocolgetmethods()
+-   mysqlnd\_protocol\_get\_methods()
     
 
 Немає стандартних визначень того, що таке плагін та як він працює.
@@ -50,9 +51,9 @@ API плагінів `mysqlnd` надає такі функції:
 -   API сервісів програми (або API модулів)
     
 
-Концепція плагіна `mysqlnd` експлуатує цю функціональність і, крім того, тішить нас відкритою архітектурою.
+Концепция плагина`mysqlnd` експлуатує цю функціональність і, крім того, тішить нас відкритою архітектурою.
 
-*Немає заборон*
+**Немає заборон**
 
 Плагін має повний доступ до всіх нутрощів. `mysqlnd`. Немає обмежень або заборон, пов'язаних із безпекою. Все, що завгодно, можна переписати для реалізації дружніх або ворожих алгоритмів, так що рекомендується ставити плагіни тільки з довірених джерел.
 
@@ -65,42 +66,42 @@ API плагінів `mysqlnd` надає такі функції:
 | Модуль | Указатель mysqlnd.query() | Стек вызова, если вызывается родитель |
 | --- | --- | --- |
 | ext/mysqlnd | mysqlnd.query() | mysqlnd.query |
-| ext/mysqlndcache | mysqlndcache.query() |  |
+| ext/mysqlnd\_cache | mysqlnd\_cache.query() |  |
 
-1.  mysqlndcache.query()
+1.  mysqlnd\_cache.query()
     
 2.  mysqlnd.query
     
 
-| | ext/mysqlndmonitor | mysqlndmonitor.query() |
+| | ext/mysqlnd\_monitor | mysqlnd\_monitor.query() |
 
-1.  mysqlndmonitor.query()
+1.  mysqlnd\_monitor.query()
     
-2.  mysqlndcache.query()
+2.  mysqlnd\_cache.query()
     
 3.  mysqlnd.query
     
 
-У цьому сценарії завантажені плагіни кеша (`ext/mysqlnd_cache`) та моніторингу (`ext/mysqlnd_monitor`). Обидва успадковують клас `Connection::query()`. реєстрація плагінів відбувається на етапі `MINIT` відповідно до описаної вище логіки. PHP за замовчуванням викликає модулі в алфавітному порядку. Плагіни не знають один про одного і не накладають будь-яких залежностей.
+У цьому сценарії завантажені плагіни кеша (`ext/mysqlnd_cache`) та моніторингу (`ext/mysqlnd_monitor`). Оба наследуют класс`Connection::query()`. реєстрація плагінів відбувається на етапі `MINIT` відповідно до описаної вище логіки. PHP за замовчуванням викликає модулі в алфавітному порядку. Плагіни не знають один про одного і не накладають будь-яких залежностей.
 
-За замовчуванням, плагіни викликають батьківський метод query зі своєї перевизначеної версії цього методу.
+За умовчанням, плагіни викликають батьківський метод query зі своєї, перевизначеної, версії цього методу.
 
-*Резюме з модуля PHP*
+**Резюме з модуля PHP**
 
-Повторення пройденого матеріалу на прикладі поведінки плагіна `ext/mysqlnd_plugin`, що використовує API плагінів `mysqlnd` для PHP:
+Повторення пройденого матеріалу на прикладі поведінки плагіна `ext/mysqlnd_plugin`, що використовує API плагінів `mysqlnd`для PHP:
 
 -   Будь-яка програма PHP, що використовує MySQL намагається встановити з'єднання за адресою 192.168.2.29
     
--   Додаток використовує один із наступних модулів `ext/mysql` `ext/mysqli` або `PDO_MYSQL`. Усі три модулі використовують `mysqlnd` для з'єднання з 192.168.2.29.
+-   Додаток використовує один із наступних модулів`ext/mysql` `ext/mysqli`или`PDO_MYSQL`. Усі три модулі використовують`mysqlnd`для з'єднання з 192.168.2.29.
     
--   `Mysqlnd` викликає метод з'єднання, який успадковується плагіном `ext/mysqlnd_plugin`
+-   `Mysqlnd`викликає метод з'єднання, який успадковується плагіном`ext/mysqlnd_plugin`
     
--   `ext/mysqlnd_plugin` викликає зареєстрований користувачем метод `proxy::connect()`
+-   `ext/mysqlnd_plugin`викликає зареєстрований користувачем метод`proxy::connect()`
     
--   Цей метод підміняє IP адресу з'єднання з 192.168.2.29 на 127.0.0.1 та повертає встановлене `parent::connect()` з'єднання.
+-   Цей метод підміняє IP адресу з'єднання з 192.168.2.29 на 127.0.0.1 та повертає встановлене`parent::connect()`соединение.
     
--   `ext/mysqlnd_plugin` робить те саме, що і `parent::connect(127.0.0.1)`викликаючи оригінальний метод `mysqlnd` для з'єднання.
+-   `ext/mysqlnd_plugin`робить те саме, що і`parent::connect(127.0.0.1)`викликаючи оригінальний метод`mysqlnd`для соединения.
     
--   `ext/mysqlnd` встановлює з'єднання та повертає його `ext/mysqlnd_plugin`. . `ext/mysqlnd_plugin`, своєю чергою, передає його далі.
+-   `ext/mysqlnd`встановлює з'єднання та повертає його`ext/mysqlnd_plugin`. . `ext/mysqlnd_plugin`, своєю чергою, передає його далі.
     
 -   Не має значення, який модуль був використаний, він все одно отримає з'єднання до 127.0.0.1. Після цього модуль повертає це з'єднання додатку. Коло замкнулося.

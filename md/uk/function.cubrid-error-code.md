@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-error-code-facility.md: « cubriderrorcodefacility
-  - function.cubrid-error-msg.md: cubriderrormsg »
+  - function.cubrid-error-code-facility.md: « cubrid\_error\_code\_facility
+  - function.cubrid-error-msg.md: cubrid\_error\_msg »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubriderrorcode
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_error\_code
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubriderrorcode
+# cubrid\_error\_code
 
 (PECL CUBRID >= 8.3.0)
 
-cubriderrorcode — Отримати код помилки
+cubrid\_error\_code — Отримати код помилки
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubriderrorcode — Отримати код помилки
 cubrid_error_code(): int
 ```
 
-Функція **cubriderrorcode()** використовується для отримання коду помилки, що відбулася. Зазвичай ви можете отримати код помилки, якщо якась функція повернула **`false`**
+Функция**cubrid\_error\_code()** використовується для отримання коду помилки, що відбулася. Зазвичай ви можете отримати код помилки, якщо якась функція повернула **`false`**
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ cubrid_error_code(): int
 
 ### Значення, що повертаються
 
-Код помилки, що виникла, або `0` (нуль), якщо помилки не було.
+Код помилки, що виникла, або (нуль), якщо помилки не було.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubriderrorcode()****
+**Пример #1 Пример использования**cubrid\_error\_code()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ if (!$req) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Error facility: 4
@@ -58,5 +59,5 @@ Error msg: Some parameter not binded
 
 ### Дивіться також
 
--   [cubriderrorcodefacility()](function.cubrid-error-code-facility.md) - Отримати код рівня, на якому сталася помилка
--   [cubriderrormsg()](function.cubrid-error-msg.md) - Повертає текст останньої помилки, що відбулася.
+-   [cubrid\_error\_code\_facility()](function.cubrid-error-code-facility.md) \- Отримати код рівня, на якому сталася помилка
+-   [cubrid\_error\_msg()](function.cubrid-error-msg.md) \- Повертає текст останньої помилки, що відбулася.

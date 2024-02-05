@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.yaz-es-result.md: « yazесresult
-  - function.yaz-get-option.md: yazgetoption »
+  - function.yaz-es-result.md: « yaz\_es\_result
+  - function.yaz-get-option.md: yaz\_get\_option »
   - index.md: PHP Manual
-  - ref.yaz.md: Функции YAZ
-title: yazес
+  - ref.yaz.md: Функції YAZ
+title: yaz\_es
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yazес
+# yaz\_es
 
 (PECL yaz >= 0.9.0)
 
-yazes — готує Extended Service Request
+yaz\_es — готує Extended Service Request
 
 ### Опис
 
@@ -26,25 +27,25 @@ yaz_es(
 
 Функція готує Extended Service Request. Extended Services – це сімейство різних засобів Z39.50, таких як оновлення записів, порядок елементів, адміністрування баз даних тощо.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Чимало серверів Z39.50 не підтримують Extended Services.
 
-**yazes()** створює пакети Extended Service Request і поміщає в чергу операцій. Використовуйте [yazwait()](function.yaz-wait.md) для надсилання запиту(ів) на сервер. Після завершення [yazwait()](function.yaz-wait.md), результату операцій Extended Service слід очікувати за допомогою дзвінка [yazесresult()](function.yaz-es-result.md)
+**yaz\_es()** створює пакети Extended Service Request і поміщає в чергу операцій. Використовуйте [yaz\_wait()](function.yaz-wait.md)для отправки запроса(ов) на сервер. После завершения[yaz\_wait()](function.yaz-wait.md), результату операцій Extended Service слід очікувати за допомогою дзвінка [yaz\_es\_result()](function.yaz-es-result.md)
 
 ### Список параметрів
 
 `id`
 
-Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.md)
+Ресурс підключення, що повертається [yaz\_connect()](function.yaz-connect.md)
 
 `type`
 
-Рядок, що представляє тип Extended Service: `itemorder` (Item Order), `create` (Create Database), `drop` (Drop Database), `commit` (Commit Operation), `update` (Update Record), `xmlupdate` (XML Update). Кожен тип вказано у наступному розділі.
+Строка, представляющая тип Extended Service:`itemorder`(Item Order),`create`(Create Database),`drop`(Drop Database),`commit`(Commit Operation),`update`(Update Record),`xmlupdate` (XML Update). Кожен тип вказано у наступному розділі.
 
 `args`
 
-Масив з Extended Service та параметрами для конкретних пакетів. Параметри ідентичні тим, що пропонуються у C API ZOOM C. Дивіться ZOOM [» Extended Services](http://www.indexdata.dk/yaz/doc/zoom.tkl)
+Масив з Extended Service та параметрами для конкретних пакетів. Параметри ідентичні тим, що пропонуються у C API ZOOM C. Дивіться ZOOM [» Extended Services](http://www.indexdata.dk/yaz/doc/zoom.tkl)
 
 ### Значення, що повертаються
 
@@ -70,4 +71,4 @@ $result = yaz_es_result($id);
 
 ### Дивіться також
 
--   [yazесresult()](function.yaz-es-result.md) - Перевіряє результат Extended Service
+-   [yaz\_es\_result()](function.yaz-es-result.md) \- Перевіряє результат Extended Service

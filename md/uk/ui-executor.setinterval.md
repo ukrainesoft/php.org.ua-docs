@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-executor.onexecute.md: '« UIExecutor::onExecute'
-  - class.ui-controls-tab.md: ОЙControlsTab »
+  - ui-executor.onexecute.md: '« UI\\Executor::onExecute'
+  - class.ui-controls-tab.md: UI\\Controls\\Tab »
   - index.md: PHP Manual
-  - class.ui-executor.md: ОЙExecutor
-title: 'ОЙExecutor::setInterval'
+  - class.ui-executor.md: UI\\Executor
+title: 'UI\\Executor::setInterval'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙExecutor::setInterval
+# UI\\Executor::setInterval
 
 (UI 2.0.0)
 
-ОЙExecutor::setInterval — Керування інтервалом
+UI\\Executor::setInterval — Керування інтервалом
 
 ### Опис
 

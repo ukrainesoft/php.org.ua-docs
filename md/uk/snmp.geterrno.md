@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.snmp.md: SNMP
 title: 'SNMP::getErrno'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SNMP::getErrno
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SNMP::getErrno — Отримує код останньої помилки
 
@@ -30,7 +31,7 @@ public SNMP::getErrno(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SNMP::getErrno()****
+**Пример #1 Пример использования**SNMP::getErrno()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ var_dump($session->getErrno() == SNMP::ERRNO_TIMEOUT);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -49,4 +50,4 @@ bool(true)
 
 ### Дивіться також
 
--   [SNMP::getError()](snmp.geterror.md) - Отримує останнє повідомлення про помилку
+-   [SNMP::getError()](snmp.geterror.md) \- Отримує останнє повідомлення про помилку

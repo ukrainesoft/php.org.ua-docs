@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-cascade-candidate-change-fraction.md: « fannsetcascadecandidatechangefraction
-  - function.fann-set-cascade-candidate-stagnation-epochs.md: fannsetcascadecandidatestagnationepochs »
+  - function.fann-set-cascade-candidate-change-fraction.md: « fann\_set\_cascade\_candidate\_change\_fraction
+  - function.fann-set-cascade-candidate-stagnation-epochs.md: fann\_set\_cascade\_candidate\_stagnation\_epochs »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetcascadecandidatelimit
+  - ref.fann.md: Функції Fann
+title: fann\_set\_cascade\_candidate\_limit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetcascadecandidatelimit
+# fann\_set\_cascade\_candidate\_limit
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetcascadecandidatelimit - Встановлює ліміт кандидатів
+fann\_set\_cascade\_candidate\_limit - Встановлює ліміт кандидатів
 
 ### Опис
 
@@ -36,4 +37,4 @@ fann_set_cascade_candidate_limit(resource $ann, float $cascade_candidate_limit):
 
 ### Дивіться також
 
--   [fanngetcascadecandidatelimit()](function.fann-get-cascade-candidate-limit.md) - Повертає межу кандидата
+-   [fann\_get\_cascade\_candidate\_limit()](function.fann-get-cascade-candidate-limit.md) \- Повертає межу кандидата

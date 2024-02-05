@@ -1,14 +1,15 @@
 ---
 navigation:
-  - solrpingresponse.destruct.md: '« SolrPingResponse::destruct'
+  - solrpingresponse.destruct.md: '« SolrPingResponse::\_\_destruct'
   - class.solrgenericresponse.md: SolrGenericResponse »
   - index.md: PHP Manual
   - class.solrpingresponse.md: SolrPingResponse
 title: 'SolrPingResponse::getResponse'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrPingResponse::getResponse
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrPingResponse::getResponse — Повертає відповідь від сервера
 

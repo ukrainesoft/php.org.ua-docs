@@ -1,10 +1,11 @@
 ---
 navigation:
-  - domnode.isdefaultnamespace.md: '« DOMNode::isDefaultNamespace'
+  - domnode.isequalnode.md: '« DOMNode::isEqualNode'
   - domnode.issupported.md: 'DOMNode::isSupported »'
   - index.md: PHP Manual
   - class.domnode.md: DOMNode
 title: 'DOMNode::isSameNode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNode::isSameNode
 
@@ -18,7 +19,7 @@ DOMNode::isSameNode — Вказує, чи є два вузли одним і т
 public DOMNode::isSameNode(DOMNode $otherNode): bool
 ```
 
-Ця функція вказує, чи є два вузли одним і тим самим вузлом. Це порівняння відбувається *не* на основі вмісту вузлів.
+Ця функція вказує, чи є два вузли тим самим вузлом. Це порівняння відбувається *не* на основі вмісту вузлів.
 
 ### Список параметрів
 
@@ -28,4 +29,4 @@ public DOMNode::isSameNode(DOMNode $otherNode): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

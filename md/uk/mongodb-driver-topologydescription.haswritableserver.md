@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-topologydescription.hasreadableserver.md: '« MongoDBDriverTopologyDescription::hasReadableServer'
-  - class.mongodb-driver-writeconcernerror.md: MongoDBDriverWriteConcernError »
+  - mongodb-driver-topologydescription.hasreadableserver.md: '« MongoDB\\Driver\\TopologyDescription::hasReadableServer'
+  - class.mongodb-driver-writeconcernerror.md: MongoDB\\Driver\\WriteConcernError »
   - index.md: PHP Manual
-  - class.mongodb-driver-topologydescription.md: MongoDBDriverTopologyDescription
-title: 'MongoDBDriverTopologyDescription::hasWritableServer'
+  - class.mongodb-driver-topologydescription.md: MongoDB\\Driver\\TopologyDescription
+title: 'MongoDB\\Driver\\TopologyDescription::hasWritableServer'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverTopologyDescription::hasWritableServer
+# MongoDB\\Driver\\TopologyDescription::hasWritableServer
 
 (mongodb >=1.13.0)
 
-MongoDBDriverTopologyDescription::hasWritableServer — Повертає, чи є у топології сервер, доступний для запису
+MongoDB\\Driver\\TopologyDescription::hasWritableServer — Повертає, чи є у топології сервер, доступний для запису
 
 ### Опис
 
@@ -30,4 +31,4 @@ final public MongoDB\Driver\TopologyDescription::hasWritableServer(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

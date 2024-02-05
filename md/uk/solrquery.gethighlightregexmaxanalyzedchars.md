@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getHighlightRegexMaxAnalyzedChars'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getHighlightRegexMaxAnalyzedChars
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrQuery::getHighlightRegexMaxAnalyzedChars — Повертає максимальну кількість символів з поля під час використання фрагментатора регулярного виразу
+SolrQuery::getHighlightRegexMaxAnalyzedChars — Повертає максимальну кількість символів з поля при використанні фрагментатора регулярного виразу
 
 ### Опис
 

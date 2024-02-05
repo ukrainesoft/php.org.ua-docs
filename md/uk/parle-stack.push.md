@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-stack.pop.md: '« ParleStack::pop'
-  - class.parle-token.md: ParleToken »
+  - parle-stack.pop.md: '« Parle\\Stack::pop'
+  - class.parle-token.md: Parle\\Token »
   - index.md: PHP Manual
-  - class.parle-stack.md: ParleStack
-title: 'ParleStack::push'
+  - class.parle-stack.md: Parle\\Stack
+title: 'Parle\\Stack::push'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleStack::push
+# Parle\\Stack::push
 
 (PECL parle >= 0.5.1)
 
-ParleStack::push — Поміщає елемент у стек
+Parle\\Stack::push — Поміщає елемент у стек
 
 ### Опис
 

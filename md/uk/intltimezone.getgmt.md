@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getGMT'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlTimeZone::getGMT
 
-# intltzgetgmt
+# intltz\_get\_gmt
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getGMT -- intltzgetgmt — Створити часовий пояс GMT (UTC)
+IntlTimeZone::getGMT -- intltz\_get\_gmt — Створити часовий пояс GMT (UTC)
 
 ### Опис
 
@@ -30,7 +31,7 @@ intltz_get_gmt(): IntlTimeZone
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

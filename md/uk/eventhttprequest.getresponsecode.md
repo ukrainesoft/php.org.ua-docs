@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::getResponseCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::getResponseCode
 
@@ -31,6 +32,6 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::getCommand()](eventhttprequest.getcommand.md) - Повертає команду запиту (метод)
--   [EventHttpRequest::getHost()](eventhttprequest.gethost.md) - Повертає хост запиту
--   [EventHttpRequest::getUri()](eventhttprequest.geturi.md) - Повертає URI запиту
+-   [EventHttpRequest::getCommand()](eventhttprequest.getcommand.md) \- Повертає команду запиту (метод)
+-   [EventHttpRequest::getHost()](eventhttprequest.gethost.md) \- Повертає хост запиту
+-   [EventHttpRequest::getUri()](eventhttprequest.geturi.md) \- Повертає URI запиту

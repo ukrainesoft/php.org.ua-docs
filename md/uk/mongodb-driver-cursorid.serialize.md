@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-cursorid.construct.md: '« MongoDBDriverCursorId::construct'
-  - mongodb-driver-cursorid.tostring.md: 'MongoDBDriverCursorId::toString »'
+  - mongodb-driver-cursorid.construct.md: '« MongoDB\\Driver\\CursorId::\_\_construct'
+  - mongodb-driver-cursorid.tostring.md: 'MongoDB\\Driver\\CursorId::\_\_toString »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursorid.md: MongoDBDriverCursorId
-title: 'MongoDBDriverCursorId::serialize'
+  - class.mongodb-driver-cursorid.md: MongoDB\\Driver\\CursorId
+title: 'MongoDB\\Driver\\CursorId::serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverCursorId::serialize
+# MongoDB\\Driver\\CursorId::serialize
 
 (mongodb >=1.7.0)
 
-MongoDBDriverCursorId::serialize — Серіалізація CursorId
+MongoDB\\Driver\\CursorId::serialize — Серіалізація CursorId
 
 ### Опис
 
@@ -24,14 +25,14 @@ final public MongoDB\Driver\CursorId::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBDriverCursorId](class.mongodb-driver-cursorid.md)
+Возвращает сериализованное представление[MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverCursorId::unserialize()](mongodb-driver-cursorid.unserialize.md) - Десеріалізація CursorId
--   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [MongoDB\\Driver\\CursorId::unserialize()](mongodb-driver-cursorid.unserialize.md) \- Десеріалізація CursorId
+-   [serialize()](function.serialize.md) \- Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

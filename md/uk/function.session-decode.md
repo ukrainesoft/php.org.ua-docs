@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.session-create-id.md: « sessioncreateід
-  - function.session-destroy.md: sessiondestroy »
+  - function.session-create-id.md: « session\_create\_id
+  - function.session-destroy.md: session\_destroy »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
-title: sessiondecode
+title: session\_decode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sessiondecode
+# session\_decode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-sessiondecode — Декодує дані сесії із закодованого рядка сесії
+session\_decode — Декодує дані сесії із закодованого рядка сесії
 
 ### Опис
 
@@ -18,9 +19,9 @@ sessiondecode — Декодує дані сесії із закодованог
 session_decode(string $data): bool
 ```
 
-**sessiondecode()** декодує серіалізовані дані сесії, передані в `$data` і заповнює суперглобальний масив $SESSION отриманим результатом.
+**session\_decode()** декодує серіалізовані дані сесії, передані в `$data` і заповнює суперглобальний масив $\_SESSION отриманим результатом.
 
-За замовчуванням використовується внутрішній метод десеріалізації PHP, і результат відрізнятиметься від формату, що повертається функцією [unserialize()](function.unserialize.md). Метод серіалізації може бути встановлений за допомогою [session.serializehandler](session.configuration.md#ini.session.serialize-handler)
+За замовчуванням використовується внутрішній метод десеріалізації PHP, і результат відрізнятиметься від формату, що повертається функцією [unserialize()](function.unserialize.md). Метод серіалізації може бути встановлений за допомогою [session.serialize\_handler](session.configuration.md#ini.session.serialize-handler)
 
 ### Список параметрів
 
@@ -30,9 +31,9 @@ session_decode(string $data): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [sessionencode()](function.session-encode.md) - кодує дані поточної сесії у форматі рядка сесії
--   [session.serializehandler](session.configuration.md#ini.session.serialize-handler)
+-   [session\_encode()](function.session-encode.md) \- кодує дані поточної сесії у форматі рядка сесії
+-   [session.serialize\_handler](session.configuration.md#ini.session.serialize-handler)

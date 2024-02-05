@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.dbase-delete-record.md: « dbasedeleterecord
-  - function.dbase-get-record-with-names.md: dbasegetrecordwithnames »
+  - function.dbase-delete-record.md: « dbase\_delete\_record
+  - function.dbase-get-record-with-names.md: dbase\_get\_record\_with\_names »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
-title: dbasegetheaderinfo
+title: dbase\_get\_header\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dbasegetheaderinfo
+# dbase\_get\_header\_info
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-dbasegetheaderinfo — Отримує інформацію про властивості полів бази даних
+dbase\_get\_header\_info — Отримує інформацію про властивості полів бази даних
 
 ### Опис
 
@@ -24,7 +25,7 @@ dbase_get_header_info(resource $database): array
 
 `database`
 
-Ресурс бази даних, отриманий за допомогою [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
+Ресурс бази даних, отриманий за допомогою [dbase\_open()](function.dbase-open.md) або [dbase\_create()](function.dbase-create.md)
 
 ### Значення, що повертаються
 
@@ -60,9 +61,9 @@ offset
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
+| dbase 7.0.0 | Параметр`database` тепер має тип resource, а не int. |
 
 ### Приклади
 

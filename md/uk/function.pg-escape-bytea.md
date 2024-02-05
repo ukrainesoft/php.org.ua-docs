@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-end-copy.md: « pgendcopy
-  - function.pg-escape-identifier.md: пгescapeidentifier »
+  - function.pg-end-copy.md: « pg\_end\_copy
+  - function.pg-escape-identifier.md: pg\_escape\_identifier »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгescapebytea
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_escape\_bytea
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгescapebytea
+# pg\_escape\_bytea
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгescapebytea - Екранує спецсимволи в рядку для вставки в поле типу bytea
+pg\_escape\_bytea - Екранує спецсимволи в рядку для вставки в поле типу bytea
 
 ### Опис
 
@@ -18,11 +19,11 @@ title: пгescapebytea
 pg_escape_bytea(PgSql\Connection $connection = ?, string $data): string
 ```
 
-**пгescapebytea()** екранує спецсимволи у рядку з даними типу bytea. Повертає екранований рядок.
+**pg\_escape\_bytea()** екранує спецсимволи у рядку з даними типу bytea. Повертає екранований рядок.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> При вибірці SQL-функцією `SELECT` даних типу bytea PostgreSQL повертає значення у восьмеричній системі числення з префіксом '' (такі як 032). Користувачеві необхідно вручну перетворювати їх на двійковий формат.
+> При вибірці SQL-функцією `SELECT` даних типу bytea PostgreSQL повертає значення у восьмеричній системі числення з префіксом '\\' (такі як \\032). Користувачеві необхідно вручну перетворювати їх у двійковий формат.
 > 
 > Функція підтримується PostgreSQL версії 7.2 та вище. Для версій 7.2.0 та 7.2.1 значення мають бути перетворені до типу bytea, коли увімкнена мультибайтова підтримка. Тоді як `INSERT INTO test_table (image)VALUES ('$image_escaped'::bytea);` PostgreSQL 7.2.2 і вище не вимагає будь-яких перетворень. Виняток становить випадок, коли клієнтське (frontend) кодування не відповідає серверному (backend). При цьому виникає помилка мультибайтового потоку, і користувач повинен привести дані типу bytea, щоб її уникнути.
 
@@ -30,7 +31,7 @@ pg_escape_bytea(PgSql\Connection $connection = ?, string $data): string
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection` не вказано, буде вибрано стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -46,13 +47,13 @@ pg_escape_bytea(PgSql\Connection $connection = ?, string $data): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгescapebytea()****
+**Пример #1 Пример использования**pg\_escape\_bytea()\*\*\*\*
 
 ```php
 <?php
@@ -72,5 +73,5 @@ pg_escape_bytea(PgSql\Connection $connection = ?, string $data): string
 
 ### Дивіться також
 
--   [пгunescapebytea()](function.pg-unescape-bytea.md) - Забирає екранування двійкових даних типу bytea
--   [пгescapestring()](function.pg-escape-string.md) - Екранування спецсимволів у рядку запиту
+-   [pg\_unescape\_bytea()](function.pg-unescape-bytea.md) \- Забирає екранування двійкових даних типу bytea
+-   [pg\_escape\_string()](function.pg-escape-string.md) \- Екранування спецсимволів у рядку запиту

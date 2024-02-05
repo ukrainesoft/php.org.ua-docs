@@ -1,16 +1,17 @@
 ---
 navigation:
   - migration71.constants.md: « Нові глобальні константи
-  - migration71.deprecated.md: 'Функціонал, оголошений застарілим у PHP 7.1.x »'
+  - migration71.deprecated.md: 'Функціонал, оголошений застарілим у PHP 7.1.x'
   - index.md: PHP Manual
-  - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
+  - migration71.md: Міграція з PHP 7.0.x на PHP 7.1.x
 title: 'Зміни, що ламають зворотну сумісність'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Зміни, що ламають зворотну сумісність
 
 ### Виклик виключення під час передачі функції недостатньої кількості аргументів
 
-Раніше, якщо функція користувача викликалася з недостатньою кількістю аргументів, видавалося попередження. Тепер, замість попередження буде викликатися виняток класу Error. Ця зміна зачіпає лише функції користувача і не впливає на вбудовані. Наприклад:
+Раніше, якщо функція користувача викликалася з недостатньою кількістю аргументів, видавалося попередження. Тепер замість попередження буде викликатися виняток класу Error. Ця зміна зачіпає лише функції користувача і не впливає на вбудовані. Наприклад:
 
 ```php
 <?php
@@ -18,7 +19,7 @@ function test($param){}
 test();
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Fatal error: Uncaught ArgumentCountError: Too few arguments to function test(), 0 passed in %s on line %d and exactly 1 expected in %s:%d
@@ -26,17 +27,17 @@ Fatal error: Uncaught ArgumentCountError: Too few arguments to function test(), 
 
 ### Заборона динамічного виклику функцій інтроспекції області видимості
 
-Динамічні виклики певних функцій були заборонені (у вигляді `$func()` або `array_map('extract', ...)`, і т.д.) Ці функції перевіряють або модифікують об'єкти іншої області видимості, чим викликають неоднозначну та невизначену поведінку. Список таких функцій:
+Динамічні виклики певних функцій були заборонені (у вигляді `$func()`или`array_map('extract', ...)`, і т.д.) Ці функції перевіряють або модифікують об'єкти іншої області видимості, чим викликають неоднозначну та невизначену поведінку. Список таких функцій:
 
--   [assert()](function.assert.md) - з рядком як перший аргумент
+-   [assert()](function.assert.md) \- з рядком як перший аргумент
 -   [compact()](function.compact.md)
 -   [extract()](function.extract.md)
--   [funcgetargs()](function.func-get-args.md)
--   [funcgetarg()](function.func-get-arg.md)
--   [funcnumargs()](function.func-num-args.md)
--   [getdefinedvars()](function.get-defined-vars.md)
--   [мбparsestr()](function.mb-parse-str.md) - з одним аргументом
--   [parsestr()](function.parse-str.md) - з одним аргументом
+-   [func\_get\_args()](function.func-get-args.md)
+-   [func\_get\_arg()](function.func-get-arg.md)
+-   [func\_num\_args()](function.func-num-args.md)
+-   [get\_defined\_vars()](function.get-defined-vars.md)
+-   [mb\_parse\_str()](function.mb-parse-str.md) \- з одним аргументом
+-   [parse\_str()](function.parse-str.md) \- з одним аргументом
 
 ```php
 <?php
@@ -46,7 +47,7 @@ Fatal error: Uncaught ArgumentCountError: Too few arguments to function test(), 
 })();
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Warning: Cannot call func_num_args() dynamically in %s on line %d
@@ -61,33 +62,33 @@ Warning: Cannot call func_num_args() dynamically in %s on line %d
 
 ### Перетворення числових рядків тепер враховує наукову нотацію
 
-Цілочисленні операції та конвертації числових рядків тепер враховують наукову нотацію, включаючи приведення `(int)` та наступні функції: [intval()](function.intval.md) (З базою 10), [settype()](function.settype.md) [decbin()](function.decbin.md) [decoct()](function.decoct.md) і [dechex()](function.dechex.md)
+Цілочисельні операції та конвертації числових рядків тепер враховують наукову нотацію, включаючи приведення `(int)`и следующие функции:[intval()](function.intval.md) (З базою 10), [settype()](function.settype.md) [decbin()](function.decbin.md) [decoct()](function.decoct.md) і [dechex()](function.dechex.md)
 
-### Виправлення алгоритму [мтrand()](function.mt-rand.md)
+### Исправление алгоритма[mt\_rand()](function.mt-rand.md)
 
-[мтrand()](function.mt-rand.md) тепер за замовчуванням використовує зафіксовану версію алгоритму "Вихор Мерсена". Якщо ви покладалися на детермінований висновок [мтsrand()](function.mt-srand.md), можна використовувати константу **`MT_RAND_PHP`** як другий, необов'язковий, параметр [мтsrand()](function.mt-srand.md) задля збереження старої (неправильної) реалізації.
+[mt\_rand()](function.mt-rand.md) тепер за умовчанням використовує зафіксовану версію алгоритму "Вихор Мерсена". Якщо ви покладалися на детермінований висновок [mt\_srand()](function.mt-srand.md), можна використовувати константу **`MT_RAND_PHP`** як другий, необов'язковий, параметр [mt\_srand()](function.mt-srand.md) задля збереження старої (неправильної) реалізації.
 
-### [rand()](function.rand.md) псевдонім для [мтrand()](function.mt-rand.md) і [srand()](function.srand.md) псевдонім для [мтsrand()](function.mt-srand.md)
+### [rand()](function.rand.md)псевдоним для[mt\_rand()](function.mt-rand.md) і [srand()](function.srand.md)псевдоним для[mt\_srand()](function.mt-srand.md)
 
-[rand()](function.rand.md) і [srand()](function.srand.md) тепер є просто синонімами для [мтrand()](function.mt-rand.md) і [мтsrand()](function.mt-srand.md). Це означає, що виведення наступних функцій змінилося: [rand()](function.rand.md) [shuffle()](function.shuffle.md) [strshuffle()](function.str-shuffle.md) і [arrayrand()](function.array-rand.md)
+[rand()](function.rand.md) і [srand()](function.srand.md) тепер є просто синонімами для [mt\_rand()](function.mt-rand.md) і [mt\_srand()](function.mt-srand.md). Це означає, що виведення наступних функцій змінилося: [rand()](function.rand.md) [shuffle()](function.shuffle.md) [str\_shuffle()](function.str-shuffle.md) і [array\_rand()](function.array-rand.md)
 
-### Заборона використання символу видалення з таблиці ASCII в ідентифікаторах
+### Заборона використовувати символ видалення з таблиці ASCII в ідентифікаторах
 
 Символ видалення ASCII (`0x7F`) більше не можна використовувати в ідентифікаторах, не обгорнутих у лапки.
 
-### Значення `error_log` змінено на `syslog`
+### Значение`error_log`изменено на`syslog`
 
-Якщо ini-параметр `error_log` встановлений як `syslog`, то рівні помилок PHP проектуються на рівні помилок "syslog". Це дозволяє більш тонко логувати події, а не як раніше, коли вони записувалися з рівнем "notice".
+Если ini-параметр`error_log`установлен как`syslog`, то рівні помилок PHP проектуються на рівні помилок "syslog". Це дозволяє більш тонко логувати події, а не як раніше, коли вони записувалися з рівнем "notice".
 
 ### Деструктори не викликаються на незавершених об'єктах
 
 Тепер деструктори ніколи не викликаються, якщо було викликано виключення у конструкторі об'єкта. Раніше ця поведінка залежала від того, чи було посилання на об'єкт поза конструктором (наприклад, у трасуванні виключення).
 
-### [calluserfunc()](function.call-user-func.md) обробляє посилання на аргументи
+### [call\_user\_func()](function.call-user-func.md) обробляє посилання на аргументи
 
-Тепер [calluserfunc()](function.call-user-func.md) завжди викликає попередження, якщо викликається функція, що очікує посилання як параметри. Раніше це залежало від того, чи виклик був цілком певним.
+Тепер [call\_user\_func()](function.call-user-func.md) завжди викликає попередження, якщо викликається функція, що очікує посилання як параметри. Раніше це залежало від того, чи виклик був цілком певним.
 
-Крім того, [calluserfunc()](function.call-user-func.md) і [calluserfuncarray()](function.call-user-func-array.md) більше не припиняють виконання функції у разі. Попередження "expected reference" буде викликано, але функція продовжить виконання.
+Крім того, [call\_user\_func()](function.call-user-func.md) і [call\_user\_func\_array()](function.call-user-func-array.md) більше не припиняють виконання функції у разі. Попередження "expected reference" буде викликано, але функція продовжить виконання.
 
 ### Оператор порожнього індексу більше не застосовується до рядків
 
@@ -105,7 +106,7 @@ var_dump($a);
 ?>
 ```
 
-Результат виконання цього прикладу в PHP 7.0:
+Результат виконання наведеного прикладу в PHP 7.0:
 
 ```
 array(1) {
@@ -114,7 +115,7 @@ array(1) {
 }
 ```
 
-Результат виконання цього прикладу в PHP 7.1:
+Результат виконання наведеного прикладу в PHP 7.1:
 
 ```
 string(11) "          f"
@@ -142,7 +143,7 @@ var_dump($array);
 ?>
 ```
 
-Результат виконання цього прикладу в PHP 7.0:
+Результат виконання наведеного прикладу в PHP 7.0:
 
 ```
 array(2) {
@@ -153,7 +154,7 @@ array(2) {
 }
 ```
 
-Результат виконання цього прикладу в PHP 7.1:
+Результат виконання наведеного прикладу в PHP 7.1:
 
 ```
 array(2) {
@@ -168,21 +169,21 @@ array(2) {
 
 Внутрішній алгоритм сортування був покращений, що може призвести до відмінності у порядку розташування еквівалентних елементів після сортування порівняно з попередніми версіями PHP.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Не покладайтеся на порядок розташування еквівалентних елементів, оскільки він може змінитися будь-якої миті.
 
-### Повідомлення для помилок ERECOVERABLE
+### Повідомлення для помилок E\_RECOVERABLE
 
-Повідомлення для помилок ERECOVERABLE змінено з "Catchable fatal error" на "Recoverable fatal error".
+Повідомлення для помилок E\_RECOVERABLE змінено з "Catchable fatal error" на "Recoverable fatal error".
 
 ### Параметр $options функції unserialize()
 
-Тепер елемент `allowed_classes` параметра $options функції [unserialize()](function.unserialize.md) строго типізований, тобто якщо передати значення з типом, відмінним від array та bool, то unserialize() поверне **`false`** та викличе помилку рівня **`E_WARNING`**
+Тепер елемент `allowed_classes`параметра $options функции[unserialize()](function.unserialize.md) строго типізований, тобто якщо передати значення з типом, відмінним від array та bool, то unserialize() поверне **`false`** та викличе помилку рівня **`E_WARNING`**
 
 ### Конструктор DateTime використовує мікросекунди.
 
-Тепер [DateTime](class.datetime.md) і [DateTimeImmutable](class.datetimeimmutable.md) використовують мікросекунди при створенні з поточним часом, або у явному вигляді, або з рядком відносного часу (наприклад, `"first day of next month"`). Це означає, що порівняння двох поспіль створених екземплярів класу швидше повертатиме **`false`** ніж **`true`**
+Тепер [DateTime](class.datetime.md) і [DateTimeImmutable](class.datetimeimmutable.md) використовують мікросекунди при створенні з поточним часом, або у явному вигляді, або з рядком відносного часу (наприклад, `"first day of next month"`). Це означає, що порівняння двох поспіль створених екземплярів класу швидше повертатиме **`false`** ніж **`true`** :
 
 ```php
 <?php
@@ -192,9 +193,9 @@ new DateTime() == new DateTime();
 
 ### Виклик винятків [Error](class.error.md) замість фатальних помилок
 
-Для модуля Date при некоректних даних серіалізації класів [DateTime](class.datetime.md) або [DatePeriod](class.dateperiod.md), або помилки ініціалізації часового поясу із серіалізованих даних, викидатиметься виняток [Error](class.error.md) з методів **wakeup()** або \*\*setstate()\*\*замість виклику фатальної помилки.
+Для модуля Date при некоректних даних серіалізації класів [DateTime](class.datetime.md) або [DatePeriod](class.dateperiod.md), або помилки ініціалізації часового поясу із серіалізованих даних, викидатиметься виняток [Error](class.error.md)из методов\*\*\_\_wakeup()**или**\_\_set\_state()\*\*замість виклику фатальної помилки.
 
-У модулі DBA функції маніпулювання даними (такі як [dbainsert()](function.dba-insert.md)) тепер викидатимуть виняток [Error](class.error.md) замість виклику фатальної помилки, що відловлюється, якщо ключ не містить рівно двох елементів.
+У модулі DBA функції маніпулювання даними (такі як [dba\_insert()](function.dba-insert.md)) тепер викидатимуть виняток [Error](class.error.md) замість виклику фатальної помилки, що відловлюється, якщо ключ не містить рівно двох елементів.
 
 У модулі DOM некоректна перевірка контексту схеми чи RelaxNG тепер викидатимуть виняток [Error](class.error.md) замість виклику фатальної помилки. Аналогічно, спроби зареєструвати клас вузла, який не розширює правильний базовий клас, спроби прочитати некоректну властивість або перезаписати властивість доступну тільки для читання викидатимуть виняток [Error](class.error.md)
 
@@ -202,11 +203,11 @@ new DateTime() == new DateTime();
 
 Модуль Intl у разі виникнення помилки виклику батьківського конструктора у класі, що успадковує [Collator](class.collator.md) до виклику батьківських методів тепер викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки. Крім того, клонування об'єкта [Transliterator](class.transliterator.md) тепер викидатиме виняток [Error](class.error.md) у разі виникнення помилки клонування внутрішнього transliterator замість виклику фатальної помилки.
 
-Модуль LDAP при вказівці невідомого типу модифікації в **ldapbatchmodify()** тепер викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки.
+Модуль LDAP при вказівці невідомого типу модифікації в **ldap\_batch\_modify()** тепер викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки.
 
-У модулі mbstring функції [мбereg()](function.mb-ereg.md) і [мбeregi()](function.mb-eregi.md) тепер викидатимуть виняток [ParseError](class.parseerror.md) у разі некоректного регулярного вираження або у разі використання опції 'e'.
+В модуле mbstring функции[mb\_ereg()](function.mb-ereg.md) і [mb\_eregi()](function.mb-eregi.md) тепер викидатимуть виняток [ParseError](class.parseerror.md) у разі некоректного регулярного вираження або у разі використання опції 'e'.
 
-У модулі Mcrypt [mcryptencrypt()](function.mcrypt-encrypt.md) і [mcryptdecrypt()](function.mcrypt-decrypt.md) тепер викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки, якщо mcrypt не ініціалізовано.
+У модулі Mcrypt [mcrypt\_encrypt()](function.mcrypt-encrypt.md) і [mcrypt\_decrypt()](function.mcrypt-decrypt.md) тепер викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки, якщо mcrypt не ініціалізовано.
 
 У модулі mysqli спроби прочитати некоректну властивість або перезаписати властивість доступну тільки для читання будуть викидати виняток [Error](class.error.md) замість виклику фатальної помилки.
 
@@ -216,21 +217,21 @@ new DateTime() == new DateTime();
 
 У модулі SimpleXML спроба створення безіменного чи дублюючого атрибуту викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки.
 
-У модулі SPL спроба клонувати об'єкт **SplDirectory** викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки. Аналогічно, виклик [ArrayIterator::append()](arrayiterator.append.md) коли ітерація об'єкта закінчена буде викидати виняток [Error](class.error.md)
+У модулі SPL спроба клонувати об'єкт **SplDirectory** викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки. Аналогічно, виклик [ArrayIterator::append()](arrayiterator.append.md) коли ітерація об'єкта закінчена викидатиме виняток [Error](class.error.md)
 
-Функція [assert()](function.assert.md), коли їй переданий рядковий аргумент першим параметром, тепер викидатиме виняток [ParseError](class.parseerror.md) замість виклику фатальної помилки, що відловлюється, якщо PHP-код некоректний. Аналогічно, виклик [forwardstaticcall()](function.forward-static-call.md) за межами простору класу викидатиме виняток [Error](class.error.md)
+Функция[assert()](function.assert.md), коли їй переданий рядковий аргумент першим параметром, тепер викидатиме виняток [ParseError](class.parseerror.md) замість виклику фатальної помилки, що відловлюється, якщо PHP-код некоректний. Аналогічно, виклик [forward\_static\_call()](function.forward-static-call.md) за межами простору класу викидатиме виняток [Error](class.error.md)
 
-У модулі Tidy ручне створення [tidyNode](class.tidynode.md) викидатиме виняток [Error](class.error.md)
+В модуле Tidy ручное создание[tidyNode](class.tidynode.md) викидатиме виняток [Error](class.error.md)
 
-У модулі WDDX циклічні посилання при серіалізації викидатимуть виняток [Error](class.error.md) замість виклику фатальної помилки.
+У модулі WDDX циклічні посилання серіалізації викидатимуть виняток [Error](class.error.md) замість виклику фатальної помилки.
 
 У модулі XML-RPC циклічні посилання серіалізації будуть викидати виняток [Error](class.error.md) замість виклику фатальної помилки.
 
-У модулі Zip метод [ZipArchive::addGlob()](ziparchive.addglob.md) викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки, якщо відсутня підтримка glob.
+В модуле Zip метод[ZipArchive::addGlob()](ziparchive.addglob.md) викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки, якщо відсутня підтримка glob.
 
 ### Лексично пов'язані змінні не можуть перевикористовувати імена
 
-Змінні, прив'язані до [замиканню](functions.anonymous.md) через конструкцію `use`, не можуть використовувати ті ж імена, що і будь-які [superglobals](language.variables.predefined.md), $this або параметри. Наприклад, всі наведені функції спричинять фатальну помилку:
+Змінні, прив'язані до [замиканню](functions.anonymous.md) через конструкцію `use`, не можуть використовувати ті ж імена, що і будь-які [superglobals](language.variables.predefined.md), $this або параметри. Наприклад, всі наведені функції викликають фатальну помилку:
 
 ```php
 <?php
@@ -241,11 +242,11 @@ $f = function ($param) use ($param) {};
 
 ### Змінено тип параметра long2ip()
 
-Тепер [long2ip()](function.long2ip.md) очікує параметр типу int, а не string.
+Тепер [long2ip()](function.long2ip.md)ожидает параметр типа int а не string.
 
 ### Кодування та декодування JSON
 
-INI-налаштування `serialize_precision` визначає точність серіалізації при кодуванні значень типу float.
+INI-настройка`serialize_precision`определяет точность сериализации при кодировании значений типа float.
 
 Тепер декодування порожнього ключа призводить до появи властивості з пустим ім'ям, раніше ім'я властивості призводилося до значення `_empty_`
 
@@ -254,7 +255,7 @@ INI-налаштування `serialize_precision` визначає точніс
 var_dump(json_decode(json_encode(['' => 1])));
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(stdClass)#1 (1) {
@@ -263,11 +264,11 @@ object(stdClass)#1 (1) {
 }
 ```
 
-Під час передачі прапора **`JSON_UNESCAPED_UNICODE`** у функцію [jsonencode()](function.json-encode.md) послідовності U+2028 та U+2029 будуть екрановані.
+При передаче флага\*\*`JSON_UNESCAPED_UNICODE`\*\* у функцію [json\_encode()](function.json-encode.md) послідовності U+2028 та U+2029 будуть екрановані.
 
-### Зміна у семантиці параметрів [мбereg()](function.mb-ereg.md) і [мбeregi()](function.mb-eregi.md)
+### Изменение в семантике параметров[mb\_ereg()](function.mb-ereg.md) і [mb\_eregi()](function.mb-eregi.md)
 
-Третій параметр функцій [мбereg()](function.mb-ereg.md) і [мбeregi()](function.mb-eregi.md) `regs`) тепер встановлюється рівним порожньому масиву, якщо не було знайдено збігів. Раніше параметр залишався незмінним.
+Третий параметр функций[mb\_ereg()](function.mb-ereg.md) і [mb\_eregi()](function.mb-eregi.md) `regs`) тепер встановлюється рівним порожньому масиву, якщо не було знайдено збігів. Раніше параметр залишався незмінним.
 
 ### Видалено підтримку потоку sslv2
 

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ps-place-image.md: «psplaceimage
-  - function.ps-restore.md: псrestore »
+  - function.ps-place-image.md: « ps\_place\_image
+  - function.ps-restore.md: ps\_restore »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псrect
+title: ps\_rect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псrect
+# ps\_rect
 
 (PECL ps >= 1.1.0)
 
-псrect — Малює прямокутник
+ps\_rect — Малює прямокутник
 
 ### Опис
 
 ```methodsynopsis
-ps_rect(    resource $psdoc,    float $x,    float $y,    float $width,    float $height): bool
+ps_rect(    resource $psdoc,    float $x,    float $y,    float $width,    float $height): bool
 ```
 
 Малює прямокутник з нижнім лівим кутом у точці (`x` `y`). Прямокутник починається і закінчується у нижньому лівому кутку. Якщо функція викликається поза межами шляху, вона починає новий шлях. Якщо викликається всередині шляху, прямокутник додасться як додатковий шлях. Якщо остання операція малювання не закінчується у нижньому лівому кутку, на шляху буде розрив.
@@ -24,7 +25,7 @@ ps_rect(    resource $psdoc,    float $x,    float $y,    float $width,    float
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 `x`
 
@@ -44,10 +45,10 @@ ps_rect(    resource $psdoc,    float $x,    float $y,    float $width,    float
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псarc()](function.ps-arc.md) - Малює дугу проти годинникової стрілки
--   **псcirle()**
--   [псlineto()](function.ps-lineto.md) - Малює лінію
+-   [ps\_arc()](function.ps-arc.md) \- Малює дугу проти годинникової стрілки
+-   **ps\_cirle()**
+-   [ps\_lineto()](function.ps-lineto.md) \- Малює лінію

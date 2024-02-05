@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.mb-ereg-replace-callback.md: « mberegreplacecallback
-  - function.mb-ereg-search-getpos.md: мбeregsearchgetpos »
+  - function.mb-ereg-replace-callback.md: « mb\_ereg\_replace\_callback
+  - function.mb-ereg-search-getpos.md: mb\_ereg\_search\_getpos »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбeregreplace
+title: mb\_ereg\_replace
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбeregreplace
+# mb\_ereg\_replace
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-мбeregreplace — Здійснює заміну за регулярним виразом за допомогою багатобайтових кодувань
+mb\_ereg\_replace — Замінює за регулярним виразом за допомогою багатобайтових кодувань
 
 ### Опис
 
 ```methodsynopsis
-mb_ereg_replace(    string $pattern,    string $replacement,    string $string,    ?string $options = null): string|false|null
+mb_ereg_replace(    string $pattern,    string $replacement,    string $string,    ?string $options = null): string|false|null
 ```
 
-Сканує рядок `string` для пошуку збігів з `pattern`, потім замінює текст, що збігся на `replacement`
+Сканує рядок `string`для поиска совпадений с шаблоном`pattern`, затем заменяет совпавший текст на значение параметра`replacement`
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ mb_ereg_replace(    string $pattern,    string $replacement,    string $string, 
 
 Шаблон регулярного виразу.
 
-У `pattern` можуть використовуватись багатобайтові символи.
+У шаблоні `pattern` можна вказувати багатобайтові символи.
 
 `replacement`
 
@@ -38,31 +39,31 @@ mb_ereg_replace(    string $pattern,    string $replacement,    string $string, 
 
 `options`
 
-Опція пошуку. Детальніше дивіться [мбregexsetoptions()](function.mb-regex-set-options.md)
+Варіант пошуку. Пояснення наведено в описі функції [mb\_regex\_set\_options()](function.mb-regex-set-options.md)
 
 ### Значення, що повертаються
 
-Результуючий рядок у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо `string` некоректна для поточного кодування, повертається **`null`**
+Повертає результуючий рядок у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо рядок `string` неприпустима для поточного кодування, повертається значення **`null`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `options` тепер допускає значення null. |
-|  | Функція перевіряє, чи коректна `string` для поточного кодування. |
-|  | Модифікатор `e` оголошено застарілим. |
+| 8.0.0 | Параметр`options` тепер може набувати значення null. |
+| 7.1.0 | Функція перевіряє, чи допустимий рядок `string` для поточного кодування. |
+| 7.1.0 | Модифікатор `e` оголошено застарілим. |
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.md)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [mb\_regex\_encoding()](function.mb-regex-encoding.md)
 
 **Увага**
 
-Ніколи не використовуйте модифікатор `e` під час роботи з даними, отриманими з недостовірних джерел. Не виконується жодного автоматичного екранування цих даних (на відміну від [pregreplace()](function.preg-replace.md)). Ігнорування цих вимог, швидше за все, створить вразливість виконання віддаленого коду у вашому додатку.
+Никогда не используйте модификатор`e` під час роботи з даними, отриманими з недостовірних джерел. Не виконується жодного автоматичного екранування цих даних (на відміну від [preg\_replace()](function.preg-replace.md)). Ігнорування цих вимог, швидше за все, створить вразливість виконання коду в додатку.
 
 ### Дивіться також
 
--   [мбregexencoding()](function.mb-regex-encoding.md) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [мбeregireplace()](function.mb-eregi-replace.md) - Здійснює заміну за регулярним виразом за допомогою багатобайтових символів без урахування регістру
+-   [mb\_regex\_encoding()](function.mb-regex-encoding.md) \- Встановлює/отримує кодування символів для однобайтового регулярного виразу
+-   [mb\_eregi\_replace()](function.mb-eregi-replace.md) \- Замінює за регулярним виразом за допомогою багатобайтових символів без урахування регістру

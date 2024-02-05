@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.worker.md: Worker
 title: 'Worker::isShutdown'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Worker::isShutdown
 
@@ -26,7 +27,7 @@ public Worker::isShutdown(): bool
 
 ### Значення, що повертаються
 
-**`true`** якщо зупинено і **`false`**, якщо ні.
+**`true`**если остановлен и**`false`**, якщо ні.
 
 ### Приклади
 
@@ -44,7 +45,7 @@ $worker->shutdown();
 var_dump($worker->isShutdown());
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)

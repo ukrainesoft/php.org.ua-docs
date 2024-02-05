@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.mqseries-put.md: « mqseriesput
-  - function.mqseries-strerror.md: mqseriesstrerror »
+  - function.mqseries-put.md: « mqseries\_put
+  - function.mqseries-strerror.md: mqseries\_strerror »
   - index.md: PHP Manual
-  - ref.mqseries.md: Функции mqseries
-title: mqseriesset
+  - ref.mqseries.md: Функції mqseries
+title: mqseries\_set
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mqseriesset
+# mqseries\_set
 
 (PECL mqseries >= 0.10.0)
 
-mqseriesset — MQSeries MQSET
+mqseries\_set — MQSeries MQSET
 
 ### Опис
 
 ```methodsynopsis
-mqseries_set(    resource $hConn,    resource $hObj,    int $selectorCount,    array $selectors,    int $intAttrCount,    array $intAttrs,    int $charAttrLength,    array $charAttrs,    resource &$compCode,    resource &$reason): void
+mqseries_set(    resource $hConn,    resource $hObj,    int $selectorCount,    array $selectors,    int $intAttrCount,    array $intAttrs,    int $charAttrLength,    array $charAttrs,    resource &$compCode,    resource &$reason): void
 ```
 
-Функція **mqseriesset()** (MQSET) використовується для зміни атрибутів черги.
+Функция**mqseries\_set()**(MQSET) используется для изменения атрибутов очереди.
 
 ### Список параметрів
 
@@ -72,4 +73,4 @@ Object handle.
 
 ### Дивіться також
 
--   [mqseriesinq()](function.mqseries-inq.md) - MQSeries MQINQ
+-   [mqseries\_inq()](function.mqseries-inq.md) \- MQSeries MQINQ

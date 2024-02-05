@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-schema.getsession.md: '« Schema::getSession'
   - mysql-xdevapi-schema.gettables.md: 'Schema::getTables »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysql\_xdevapi\\Schema
 title: 'Schema::getTable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Schema::getTable
 
 (No version information available, might only be in Git)
 
-Schema::getTable — Отримати таблицю схеми
+Schema::getTable — Отримує таблицю схеми
 
 ### Опис
 
@@ -18,7 +19,7 @@ Schema::getTable — Отримати таблицю схеми
 public mysql_xdevapi\Schema::getTable(string $name): mysql_xdevapi\Table
 ```
 
-Отримання об'єкта Table для зазначеної таблиці у схемі.
+Отримує об'єкт класу Table для зазначеної таблиці у схемі.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ public mysql_xdevapi\Schema::getTable(string $name): mysql_xdevapi\Table
 
 ### Значення, що повертаються
 
-Об'єкт Table.
+Повертає об'єкт класу Table.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSchema::getTable()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::getTable()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ print_r($row);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

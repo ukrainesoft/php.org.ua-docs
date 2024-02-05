@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-dispatcher.getdefaultaction.md: '« YafDispatcher::getDefaultAction'
-  - yaf-dispatcher.getdefaultmodule.md: 'YafDispatcher::getDefaultModule »'
+  - yaf-dispatcher.getdefaultaction.md: '« Yaf\_Dispatcher::getDefaultAction'
+  - yaf-dispatcher.getdefaultmodule.md: 'Yaf\_Dispatcher::getDefaultModule »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::getDefaultController'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::getDefaultController'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::getDefaultController
+# Yaf\_Dispatcher::getDefaultController
 
-(Yaf> = 3.2.0)
+(Yaf >=3.2.0)
 
-YafDispatcher::getDefaultController — Отримує ім'я контролера за умовчанням
+Yaf\_Dispatcher::getDefaultController — Отримує ім'я контролера за умовчанням
 
 ### Опис
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.rarentry.md: RarEntry
 title: 'RarEntry::getMethod'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarEntry::getMethod
 
@@ -26,11 +27,11 @@ public RarEntry::getMethod(): int
 
 ### Значення, що повертаються
 
-Повертає номер методу або **`false`** у разі виникнення помилки.
+Повертає номер методу або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RarEntry::getMethod()****
+**Пример #1 Пример использования**RarEntry::getMethod()\*\*\*\*
 
 ```php
 <?php

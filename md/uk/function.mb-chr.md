@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mb-check-encoding.md: « mbcheckencoding
-  - function.mb-convert-case.md: мбconvertcase »
+  - function.mb-check-encoding.md: « mb\_check\_encoding
+  - function.mb-convert-case.md: mb\_convert\_case »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбchr
+title: mb\_chr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбchr
+# mb\_chr
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-мбchr — Повертає символ за значенням кодової точки Unicode
+mb\_chr — Повертає символ за значенням кодової точки Unicode
 
 ### Опис
 
@@ -20,27 +21,27 @@ mb_chr(int $codepoint, ?string $encoding = null): string|false
 
 Повертає рядок, що містить символ, вказаний значенням кодової точки Unicode, закодований у вказаному кодуванні.
 
-Функція доповнює [мбord()](function.mb-ord.md)
+Функция дополняет[mb\_ord()](function.mb-ord.md)
 
 ### Список параметрів
 
 `codepoint`
 
-Значення кодової точки Unicode, наприклад `128024` для *U+1F418 ELEPHANT*
+Значение кодовой точки Unicode, например`128024`для*U+1F418 ELEPHANT*
 
 `encoding`
 
-Параметр `encoding` є символьним кодуванням. Якщо він опущений або дорівнює **`null`**, замість нього буде використано значення внутрішнього кодування.
+Параметр`encoding` - Це кодування символів. Якщо він опущений або дорівнює **`null`**, для нього буде встановлено внутрішнє кодування символів.
 
 ### Значення, що повертаються
 
-Рядок, що містить запитаний символ, якщо він може бути представлений у зазначеному кодуванні або **`false`** у разі виникнення помилки.
+Повертає рядок, що містить запитаний символ, якщо його можна представити в заданому кодуванні, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер параметр `encoding` може набувати значення **`null`** |
+| 8.0.0 | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 
@@ -48,6 +49,7 @@ mb_chr(int $codepoint, ?string $encoding = null): string|false
 
 ```php
 <?php
+
 $values = [65, 63, 0x20AC, 128024];
 foreach ($values as $value) {
     var_dump(mb_chr($value, 'UTF-8'));
@@ -56,7 +58,7 @@ foreach ($values as $value) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(1) "A"
@@ -71,7 +73,7 @@ bool(false)
 
 ### Дивіться також
 
--   [мбinternalencoding()](function.mb-internal-encoding.md) - Встановлення/отримання внутрішнього кодування скрипту
--   [мбord()](function.mb-ord.md) - Отримує кодову точку символу Unicode
--   [IntlChar::ord()](intlchar.ord.md) - Отримати код символ Unicode
--   [chr()](function.chr.md) - Генерує односимвольний рядок за заданим числом
+-   [mb\_internal\_encoding()](function.mb-internal-encoding.md) \- Встановлює/отримує внутрішнє кодування скрипту
+-   [mb\_ord()](function.mb-ord.md) \- Отримує кодову точку символу Unicode
+-   [IntlChar::ord()](intlchar.ord.md) \- Отримати код символ Unicode
+-   [chr()](function.chr.md) \- Генерує односимвольний рядок за заданим числом

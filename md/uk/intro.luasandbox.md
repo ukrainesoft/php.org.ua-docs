@@ -1,16 +1,17 @@
 ---
 navigation:
   - book.luasandbox.md: « LuaSandbox
-  - luasandbox.setup.md: Встановлення та налаштування »
+  - luasandbox.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.luasandbox.md: LuaSandbox
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 
 LuaSandbox - це модуль для PHP 7 та PHP 8, що дозволяє безпечно запускати ненадійний код Lua 5.1 із PHP.
 
-Відмінності від модуля [Lua](book.lua.md)
+Отличия от модуля[Lua](book.lua.md) :
 
 -   LuaSandbox підтримує обмеження щодо часу та пам'яті.
     

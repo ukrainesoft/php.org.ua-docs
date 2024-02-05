@@ -1,20 +1,21 @@
 ---
 navigation:
-  - mongodb-driver-manager.startsession.md: '« MongoDBDriverManager::startSession'
-  - mongodb-driver-command.construct.md: 'MongoDBDriverCommand::construct »'
+  - mongodb-driver-manager.startsession.md: '« MongoDB\\Driver\\Manager::startSession'
+  - mongodb-driver-command.construct.md: 'MongoDB\\Driver\\Command::\_\_construct »'
   - index.md: PHP Manual
-  - book.mongodb.md: MongoDBDriver
-title: Клас The MongoDBDriverCommand
+  - book.mongodb.md: MongoDB\\Driver
+title: Клас The MongoDB\\Driver\\Command
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас The MongoDBDriverCommand
+# Клас The MongoDB\\Driver\\Command
 
 (mongodb >=1.0.0)
 
 ## Вступ
 
-Клас **MongoDBDriverCommand** - Це об'єкт значення, що представляє команду бази даних.
+Класс**MongoDB\\Driver\\Command** - Це об'єкт значення, що представляє команду бази даних.
 
-Щоб надати Помічників команд (Command Helpers) має бути створено об'єкт **MongoDBDriverCommand**
+Щоб надати Помічників команд (Command Helpers) має бути створено об'єкт **MongoDB\\Driver\\Command**
 
 ## Огляд класів
 
@@ -39,7 +40,7 @@ title: Клас The MongoDBDriverCommand
 
 ## Приклади
 
-**Приклад #1 Використання **MongoDBDriverCommand** для надання помічника зі створення колекцій**
+**Пример #1 Использование**MongoDB\\Driver\\Command**для предоставления помощника по созданию коллекций**
 
 ```php
 <?php
@@ -99,7 +100,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(MongoDB\Driver\Command)#3 (1) {
@@ -158,4 +159,4 @@ array(16) {
 
 ## Зміст
 
--   [MongoDBDriverCommand::construct](mongodb-driver-command.construct.md) — Створює новий об'єкт Command
+-   [MongoDB\\Driver\\Command::\_\_construct](mongodb-driver-command.construct.md)— Створює новий об'єкт Command

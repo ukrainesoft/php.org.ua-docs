@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::offsetGet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::offsetGet
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
 
-Phar::offsetGet — Отримати об'єкт [PharFileInfo](class.pharfileinfo.md) для конкретного файлу
+Phar::offsetGet — Отримати об'єкт [PharFileInfo](class.pharfileinfo.md)для конкретного файла
 
 ### Опис
 
@@ -24,7 +25,7 @@ public Phar::offsetGet(string $localName): SplFileInfo
 
 `localName`
 
-Назва файлу (відносний шлях).
+Ім'я файлу (відносний шлях).
 
 ### Значення, що повертаються
 
@@ -36,9 +37,9 @@ public Phar::offsetGet(string $localName): SplFileInfo
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::offsetGet()****
+**Пример #1 Пример использования**Phar::offsetGet()\*\*\*\*
 
-Як і для будь-якого іншого класу, що реалізує [ArrayAccess](class.arrayaccess.md), метод **Phar::offsetGet()** буде викликано автоматично під час використання оператора `[]`
+Як і для будь-якого іншого класу, що реалізує [ArrayAccess](class.arrayaccess.md), метод**Phar::offsetGet()** буде викликано автоматично під час використання оператора `[]`
 
 ```php
 <?php
@@ -54,7 +55,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 file exists
@@ -63,6 +64,6 @@ Entry doesnotexist.txt does not exist
 
 ### Дивіться також
 
--   [Phar::offsetExists()](phar.offsetexists.md) - Визначити, чи є файл у архіві
--   [Phar::offsetSet()](phar.offsetset.md) - Зміна вмісту файлу
--   [Phar::offsetUnset()](phar.offsetunset.md) - Видалити файл із phar-архіву
+-   [Phar::offsetExists()](phar.offsetexists.md) \- Визначити, чи є файл у архіві
+-   [Phar::offsetSet()](phar.offsetset.md) \- Зміна вмісту файлу
+-   [Phar::offsetUnset()](phar.offsetunset.md) \- Видалити файл із phar-архіву

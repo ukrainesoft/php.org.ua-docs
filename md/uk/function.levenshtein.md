@@ -5,22 +5,23 @@ navigation:
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: levenshtein
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # levenshtein
 
-(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 levenshtein — Обчислює відстань Левенштейна між двома рядками
 
 ### Опис
 
 ```methodsynopsis
-levenshtein(    string $string1,    string $string2,    int $insertion_cost = 1,    int $replacement_cost = 1,    int $deletion_cost = 1): int
+levenshtein(    string $string1,    string $string2,    int $insertion_cost = 1,    int $replacement_cost = 1,    int $deletion_cost = 1): int
 ```
 
-Відстань Левенштейна - це мінімальна кількість вставок, замін та видалень символів, необхідна для перетворення `string1` в `string2`. Складність алгоритму дорівнює `O(m*n)`, де `n` і `m` - Довжини рядків `string1` і `string2` (Непогано в порівнянні з [similartext()](function.similar-text.md), що має складність `O(max(n,m)**3)`, Але все ж таки досить багато).
+Відстань Левенштейна - це мінімальна кількість вставок, замін та видалень символів, необхідна для перетворення `string1`в`string2`. Складність алгоритму дорівнює `O(m*n)`, где`n`и`m` - Довжини рядків `string1`и`string2`(неплохо по сравнению с[similar\_text()](function.similar-text.md), що має складність `O(max(n,m)**3)`, Але все ж таки досить багато).
 
-Якщо `insertion_cost` `replacement_cost` та/або `deletion_cost` не рівні `1`алгоритм адаптується для вибору найдешевших перетворень. Наприклад. якщо `$insertion_cost + $deletion_cost < $replacement_cost`, заміни не будуть виконуватися, натомість будуть виконуватися вставки та видалення.
+Якщо `insertion_cost` `replacement_cost`и/или`deletion_cost` не рівні алгоритм адаптується для вибору найдешевших перетворень. Наприклад. якщо `$insertion_cost + $deletion_cost < $replacement_cost`, заміни не будуть виконуватися, натомість будуть виконуватися вставки та видалення.
 
 ### Список параметрів
 
@@ -46,24 +47,25 @@ levenshtein(    string $string1,    string $string2,    int $insertion_cost = 1,
 
 ### Значення, що повертаються
 
-Ця функція повертає відстань Левенштейна між двома рядками, або -1, якщо хоча б один із рядків довший за 255 символів.
+Ця функція повертає відстань Левенштейна між двома рядками.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | До цієї версії **levenshtein()** треба було викликати із двома чи п'ятьма аргументами. |
+| 8.0.0 | До цієї версії **levenshtein()** треба було викликати із двома чи п'ятьма аргументами. |
+| 8.0.0 | До цієї версії, **levenshtein()** повертала значення `-1`якщо один з рядків аргументу більше 255 символів. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **levenshtein()****
+**Пример #1 Пример использования**levenshtein()\*\*\*\*
 
 ```php
 <?php
 // введённое слово с опечаткой
 $input = 'carrrot';
 
-// Масив сверяемых слов
+// массив сверяемых слов
 $words  = array('apple','pineapple','banana','orange',
                 'radish','carrot','pea','bean','potato');
 
@@ -106,7 +108,7 @@ if ($shortest == 0) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Вы ввели: carrrot
@@ -115,6 +117,6 @@ if ($shortest == 0) {
 
 ### Дивіться також
 
--   [soundex()](function.soundex.md) - Повертає ключ soundex для рядка
--   [similartext()](function.similar-text.md) - обчислює ступінь схожості двох рядків
--   [metaphone()](function.metaphone.md) - Повертає ключ metaphone для рядка
+-   [soundex()](function.soundex.md) \- Повертає ключ soundex для рядка
+-   [similar\_text()](function.similar-text.md) \- обчислює ступінь схожості двох рядків
+-   [metaphone()](function.metaphone.md) \- Повертає ключ metaphone для рядка

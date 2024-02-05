@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.enchant-dict-is-added.md: « enchantdictісadded
-  - function.enchant-dict-quick-check.md: enchantdictquickcheck »
+  - function.enchant-dict-is-added.md: « enchant\_dict\_is\_added
+  - function.enchant-dict-quick-check.md: enchant\_dict\_quick\_check »
   - index.md: PHP Manual
-  - ref.enchant.md: Функции Enchant
-title: enchantdictісінsession
+  - ref.enchant.md: Функції Enchant
+title: enchant\_dict\_is\_in\_session
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# enchantdictісінsession
+# enchant\_dict\_is\_in\_session
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL enchant >= 0.1.0 )
 
-enchantdictісінsession — Чи є слово 'word' у сесії перевірки
+enchant\_dict\_is\_in\_session — Чи є слово 'word' у сесії перевірки
 
 **Увага**
 
@@ -18,4 +19,4 @@ enchantdictісінsession — Чи є слово 'word' у сесії пере�
 
 ### Опис
 
-Ця функція є псевдонімом: [enchantdictісadded()](function.enchant-dict-is-added.md)
+Функция — псевдоним функции:[enchant\_dict\_is\_added()](function.enchant-dict-is-added.md)

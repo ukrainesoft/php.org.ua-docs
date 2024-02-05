@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.variant-fix.md: « variantfix
-  - function.variant-idiv.md: variantidiv »
+  - function.variant-fix.md: « variant\_fix
+  - function.variant-idiv.md: variant\_idiv »
   - index.md: PHP Manual
-  - ref.com.md: Функции COM
-title: variantgettype
+  - ref.com.md: Функції COM
+title: variant\_get\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# variantgettype
+# variant\_get\_type
 
 (PHP 5, PHP 7, PHP 8)
 
-variantgettype — Отримати тип варіанта
+variant\_get\_type — Отримати тип варіанта
 
 ### Опис
 
@@ -24,14 +25,14 @@ variant_get_type(variant $variant): int
 
 `variant`
 
-Різновид.
+Варіант.
 
 ### Значення, що повертаються
 
-Функція повертає ціле значення, що означає тип `variant`, який може бути екземпляром класів [com](class.com.md) [dotnet](class.dotnet.md) або [variant](class.variant.md). Повертається значення одно з констант **`VT_XXX`**
+Функция возвращает целочисленное значение, обозначающее тип`variant`, який може бути екземпляром класів [com](class.com.md) [dotnet](class.dotnet.md) або [variant](class.variant.md). Повертається значення одно з констант **`VT_XXX`**
 
 Значення, що повертається для об'єктів COM і DOTNET зазвичай дорівнює **`VT_DISPATCH`**; єдина причина, чому ця функція працює для цих класів полягає в тому, що COM та DOTNET є нащадками VARIANT.
 
 ### Дивіться також
 
--   [variantsettype()](function.variant-set-type.md) - Приведення варіанта до іншого типу "за місцем"
+-   [variant\_set\_type()](function.variant-set-type.md) \- Наводить варіант до іншого типу «за місцем»

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-lob2-write.md: « cubridlob2write
-  - function.cubrid-lock-write.md: cubridlockwrite »
+  - function.cubrid-lob2-write.md: « cubrid\_lob2\_write
+  - function.cubrid-lock-write.md: cubrid\_lock\_write »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridlockread
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_lock\_read
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridlockread
+# cubrid\_lock\_read
 
 (PECL CUBRID >= 8.3.0)
 
-cubridlockread — Встановлює блокування читання для цього OID
+cubrid\_lock\_read — Встановлює блокування читання для цього OID
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridlockread — Встановлює блокування читання дл
 cubrid_lock_read(resource $conn_identifier, string $oid): bool
 ```
 
-Функція **cubridlockread()** використовується для встановлення блокування читання екземпляра, на який вказує даний `oid`
+Функция**cubrid\_lock\_read()** використовується для встановлення блокування читання екземпляра, на який вказує даний `oid`
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ OID екземпляра, на який необхідно встановити 
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridlockread()****
+**Пример #1 Пример использования**cubrid\_lock\_read()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(9) "{1, 2, 3}"
@@ -99,4 +100,4 @@ array(4) {
 
 ### Дивіться також
 
--   [cubridlockwrite()](function.cubrid-lock-write.md) - Встановлює блокування запису для цього OID
+-   [cubrid\_lock\_write()](function.cubrid-lock-write.md) \- Встановлює блокування запису для цього OID

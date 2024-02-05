@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-save-string.md: « fdfsavestring
-  - function.fdf-set-ap.md: fdfsetap »
+  - function.fdf-save-string.md: « fdf\_save\_string
+  - function.fdf-set-ap.md: fdf\_set\_ap »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfsave
+title: fdf\_save
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfsave
+# fdf\_save
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfsave — Зберігає документ FDF
+fdf\_save — Зберігає документ FDF
 
 ### Опис
 
@@ -24,7 +25,7 @@ fdf_save(resource $fdf_document, string $filename = ?): bool
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md)or[fdf\_open\_string()](function.fdf-open-string.md)
 
 `filename`
 
@@ -32,10 +33,10 @@ fdf_save(resource $fdf_document, string $filename = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fdfclose()](function.fdf-close.md) - Закриває FDF-документ
--   [fdfcreate()](function.fdf-create.md) - Створює новий документ FDF
--   [fdfsavestring()](function.fdf-save-string.md) - Повертає документ FDF у вигляді рядка
+-   [fdf\_close()](function.fdf-close.md) \- Закриває FDF-документ
+-   [fdf\_create()](function.fdf-create.md) \- Створює новий документ FDF
+-   [fdf\_save\_string()](function.fdf-save-string.md) \- Повертає документ FDF у вигляді рядка

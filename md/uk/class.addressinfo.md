@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.sockets.md: Сокети
 title: Клас AddressInfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас AddressInfo
 
@@ -16,16 +17,11 @@ title: Клас AddressInfo
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class AddressInfo
-     
+     final
+     class AddressInfo
      {
    }
 ```

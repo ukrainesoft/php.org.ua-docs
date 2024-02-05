@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::implodeImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::implodeImage
 
@@ -36,7 +37,7 @@ public Imagick::implodeImage(float $radius): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::implodeImage()****
+**Пример #1 Пример использования**Imagick::implodeImage()\*\*\*\*
 
 ```php
 <?php

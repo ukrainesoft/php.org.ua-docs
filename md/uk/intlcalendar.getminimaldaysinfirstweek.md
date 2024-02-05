@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getMinimalDaysInFirstWeek'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getMinimalDaysInFirstWeek
 
@@ -36,11 +37,11 @@ intlcal_get_minimal_days_in_first_week(IntlCalendar $calendar): int|false
 
 ### Значення, що повертаються
 
-Ціле число (int, що представляє кількість днів або **`false`** у разі виникнення помилки.
+Ціле число (int, що представляє кількість днів або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::getMinimalDaysInFirstWeek()****
+**Пример #1 Пример использования**IntlCalendar::getMinimalDaysInFirstWeek()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ $cal->setMinimalDaysInFirstWeek(6);
 var_dump(IntlDateFormatter::formatObject($cal, "'Week 'w' of 'Y"));
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(9) "Wednesday"

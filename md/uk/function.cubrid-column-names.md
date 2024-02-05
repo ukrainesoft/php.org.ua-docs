@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-col-size.md: « cubridcolsize
-  - function.cubrid-column-types.md: cubridcolumntypes »
+  - function.cubrid-col-size.md: « cubrid\_col\_size
+  - function.cubrid-column-types.md: cubrid\_column\_types »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridcolumnnames
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_column\_names
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridcolumnnames
+# cubrid\_column\_names
 
 (PECL CUBRID >= 8.3.0)
 
-cubridcolumnnames — Отримати імена стовпців у результуючому наборі
+cubrid\_column\_names — Отримати імена стовпців у результуючому наборі
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridcolumnnames — Отримати імена стовпців у резул
 cubrid_column_names(resource $req_identifier): array
 ```
 
-Функція **cubridcolumnnames()** використовується для отримання імен стовпців у результуючому наборі, заданому в `req_identifier`
+Функция**cubrid\_column\_names()** використовується для отримання імен стовпців у результуючому наборі, заданому в `req_identifier`
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ cubrid_column_names(resource $req_identifier): array
 
 ### Значення, що повертаються
 
-Масив рядків, що містять імена стовпців, у разі успішного виконання або **`false`** у разі виникнення помилки.
+Масив рядків, що містять імена стовпців, у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridcolumnnames()****
+**Пример #1 Пример использования**cubrid\_column\_names()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Column Names                   Column Types                   Column Maxlen
@@ -67,6 +68,6 @@ game_date                      date                           10
 
 ### Дивіться також
 
--   [cubridprepare()](function.cubrid-prepare.md) - Підготовляє SQL-вираз до виконання
--   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
--   [cubridcolumntypes()](function.cubrid-column-types.md) - Отримати типи стовпців у результуючому наборі
+-   [cubrid\_prepare()](function.cubrid-prepare.md) \- Підготовляє SQL-вираз до виконання
+-   [cubrid\_execute()](function.cubrid-execute.md) \- Виконує підготовлений SQL-оператор
+-   [cubrid\_column\_types()](function.cubrid-column-types.md) \- Отримати типи стовпців у результуючому наборі

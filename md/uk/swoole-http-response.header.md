@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-http-response.gzip.md: '« SwooleHttpResponse::gzip'
-  - swoole-http-response.initheader.md: 'SwooleHttpResponse::initHeader »'
+  - swoole-http-response.gzip.md: '« Swoole\\Http\\Response::gzip'
+  - swoole-http-response.initheader.md: 'Swoole\\Http\\Response::initHeader »'
   - index.md: PHP Manual
-  - class.swoole-http-response.md: SwooleHttpResponse
-title: 'SwooleHttpResponse::header'
+  - class.swoole-http-response.md: Swoole\\Http\\Response
+title: 'Swoole\\Http\\Response::header'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpResponse::header
+# Swoole\\Http\\Response::header
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpResponse::header — Встановлює заголовки HTTP-відповіді
+Swoole\\Http\\Response::header — Встановлює заголовки HTTP-відповіді
 
 ### Опис
 

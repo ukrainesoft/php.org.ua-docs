@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ui-controls-form.md: « UIControlsForm
-  - ui-controls-form.delete.md: 'ОЙControlsForm::delete »'
+  - class.ui-controls-form.md: « UI\\Controls\\Form
+  - ui-controls-form.delete.md: 'UI\\Controls\\Form::delete »'
   - index.md: PHP Manual
-  - class.ui-controls-form.md: ОЙControlsForm
-title: 'ОЙControlsForm::append'
+  - class.ui-controls-form.md: UI\\Controls\\Form
+title: 'UI\\Controls\\Form::append'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsForm::append
+# UI\\Controls\\Form::append
 
 (UI 0.9.9)
 
-ОЙControlsForm::append — Додати елемент керування
+UI\\Controls\\Form::append — Додати елемент керування
 
 ### Опис
 

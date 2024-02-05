@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mb-encoding-aliases.md: « mbencodingaliases
-  - function.mb-ereg-replace-callback.md: мбeregreplacecallback »
+  - function.mb-encoding-aliases.md: « mb\_encoding\_aliases
+  - function.mb-ereg-replace-callback.md: mb\_ereg\_replace\_callback »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбeregmatch
+title: mb\_ereg\_match
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбeregmatch
+# mb\_ereg\_match
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-мбeregmatch — Збіг з регулярним виразом для багатобайтового рядка
+mb\_ereg\_match — Визначає, чи багатобайтовий рядок відповідає регулярному виразу.
 
 ### Опис
 
@@ -18,9 +19,9 @@ title: мбeregmatch
 mb_ereg_match(string $pattern, string $string, ?string $options = null): bool
 ```
 
-Збіг з регулярним виразом для багатобайтового рядка.
+Визначає, чи багатобайтовий рядок збігається з регулярним виразом.
 
-> **Зауваження** `pattern` зіставляється лише на початку `string`
+> **Зауваження**: Відповідність регулярному виразу `pattern` виконуватиметься лише з початку рядка `string`
 
 ### Список параметрів
 
@@ -34,25 +35,25 @@ mb_ereg_match(string $pattern, string $string, ?string $options = null): bool
 
 `options`
 
-Опція пошуку. Детальніше дивіться [мбregexsetoptions()](function.mb-regex-set-options.md)
+Варіант пошуку. Пояснення наведено в описі функції [mb\_regex\_set\_options()](function.mb-regex-set-options.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `string` збігається з регулярним виразом `pattern` **`false`** - в іншому випадку.
+Повертає **`true`**, якщо рядок `string` збігається з регулярним виразом `pattern`, иначе\*\*`false`\*\*
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `options` тепер допускає значення null. |
+| 8.0.0 | Параметр`options` тепер набуває значення null. |
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.md)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [mb\_regex\_encoding()](function.mb-regex-encoding.md)
 
 ### Дивіться також
 
--   [мбregexencoding()](function.mb-regex-encoding.md) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [мбereg()](function.mb-ereg.md) - Збіг з регулярним виразом з підтримкою багатобайтових кодувань
+-   [mb\_regex\_encoding()](function.mb-regex-encoding.md) \- Встановлює/отримує кодування символів для однобайтового регулярного виразу
+-   [mb\_ereg()](function.mb-ereg.md) \- Знаходить збіг регулярного виразу за допомогою багатобайтових кодувань

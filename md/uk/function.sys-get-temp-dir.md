@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.set-time-limit.md: « settimelimit
-  - function.version-compare.md: versioncompare »
+  - function.set-time-limit.md: « set\_time\_limit
+  - function.version-compare.md: version\_compare »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: sysgettempdir
+title: sys\_get\_temp\_dir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sysgettempdir
+# sys\_get\_temp\_dir
 
-(PHP 5> = 5.2.1, PHP 7, PHP 8)
+(PHP 5 >= 5.2.1, PHP 7, PHP 8)
 
-sysgettempdir — Повертає шлях до директорії тимчасових файлів
+sys\_get\_temp\_dir — Повертає шлях до директорії тимчасових файлів
 
 ### Опис
 
@@ -30,7 +31,7 @@ sys_get_temp_dir(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sysgettempdir()****
+**Пример #1 Пример использования**sys\_get\_temp\_dir()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ echo $temp_file;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 C:\Windows\Temp\TuxA318.tmp
@@ -50,5 +51,5 @@ C:\Windows\Temp\TuxA318.tmp
 
 ### Дивіться також
 
--   [tmpfile()](function.tmpfile.md) - Створює тимчасовий файл
--   [tempnam()](function.tempnam.md) - Створює файл із унікальним ім'ям
+-   [tmpfile()](function.tmpfile.md) \- Створює тимчасовий файл
+-   [tempnam()](function.tempnam.md) \- Створює файл із унікальним ім'ям

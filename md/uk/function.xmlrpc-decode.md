@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xmlrpc-decode-request.md: « xmlrpcdecoderequest
-  - function.xmlrpc-encode-request.md: xmlrpcencoderequest »
+  - function.xmlrpc-decode-request.md: « xmlrpc\_decode\_request
+  - function.xmlrpc-encode-request.md: xmlrpc\_encode\_request »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcdecode
+title: xmlrpc\_decode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcdecode
+# xmlrpc\_decode
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcdecode — Декодує XML у типові типи PHP
+xmlrpc\_decode — Декодує XML у типові типи PHP
 
 ### Опис
 
@@ -38,9 +39,9 @@ XML-відповідь, що повертається методом XMLRPC.
 
 ### Приклади
 
-Дивіться приклад [xmlrpcencoderequest()](function.xmlrpc-encode-request.md)
+Смотрите пример[xmlrpc\_encode\_request()](function.xmlrpc-encode-request.md)
 
 ### Дивіться також
 
--   [xmlrpcencoderequest()](function.xmlrpc-encode-request.md) - Генерує XML для методу запиту
--   [xmlrpcісfault()](function.xmlrpc-is-fault.md) - Визначає, чи є масив значень уявленням помилки XMLRPC
+-   [xmlrpc\_encode\_request()](function.xmlrpc-encode-request.md) \- Генерує XML для методу запиту
+-   [xmlrpc\_is\_fault()](function.xmlrpc-is-fault.md) \- Визначає, чи є масив значень уявленням помилки XMLRPC

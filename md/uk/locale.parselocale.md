@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.locale.md: Locale
 title: 'Locale::parseLocale'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Locale::parseLocale
 
-# localeparse
+# locale\_parse
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::parseLocale -- localeparse - Отримати асоціативний масив усіх підтегів локалі
+Locale::parseLocale -- locale\_parse - Отримати асоціативний масив усіх підтегів локалі
 
 ### Опис
 
@@ -40,11 +41,11 @@ locale_parse(string $locale): ?array
 
 Повертає асоціативний масив, у якому ключами виступають імена підтегів, а значеннями відповідно їх значення. Підтеги відсортовані як підтеги ідентифікатора локалі, тобто. якщо ідентифікатор містить кілька варіантів '-varX-varY-varZ', то в масиві вони розташовуватимуться так: variant0=>varX, variant1=>varY, variant2=>varZ
 
-Повертає **`null`** якщо довжина параметра `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
+Повертає \*\*`null`\*\*если длина параметра`locale` перевищує **`INTL_MAX_LOCALE_LEN`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **localeparse()****
+**Пример #1 Пример использования**locale\_parse()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ if ($arr) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 language : sl , script : Latn , region : IT , variant0 : NEDIS ,
@@ -78,4 +79,4 @@ language : sl , script : Latn , region : IT , variant0 : NEDIS ,
 
 ### Дивіться також
 
--   [localecompose()](locale.composelocale.md) - Повертає коректно відсортовані та розділені ідентифікатори локалі
+-   [locale\_compose()](locale.composelocale.md) \- Повертає коректно відсортовані та розділені ідентифікатори локалі

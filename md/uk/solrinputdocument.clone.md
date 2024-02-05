@@ -1,16 +1,17 @@
 ---
 navigation:
   - solrinputdocument.clear.md: '« SolrInputDocument::clear'
-  - solrinputdocument.construct.md: 'SolrInputDocument::construct »'
+  - solrinputdocument.construct.md: 'SolrInputDocument::\_\_construct »'
   - index.md: PHP Manual
   - class.solrinputdocument.md: SolrInputDocument
-title: 'SolrInputDocument::clone'
+title: 'SolrInputDocument::\_\_clone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrInputDocument::clone
+# SolrInputDocument::\_\_clone
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrInputDocument::clone — Створює копію SolrDocument
+SolrInputDocument::\_\_clone — Створює копію SolrDocument
 
 ### Опис
 

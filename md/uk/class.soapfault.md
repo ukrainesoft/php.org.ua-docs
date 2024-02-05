@@ -1,10 +1,11 @@
 ---
 navigation:
   - soapserver.setpersistence.md: '« SoapServer::setPersistence'
-  - soapfault.construct.md: 'SoapFault::construct »'
+  - soapfault.construct.md: 'SoapFault::\_\_construct »'
   - index.md: PHP Manual
   - book.soap.md: SOAP
 title: Клас SoapFault
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SoapFault
 
@@ -18,18 +19,13 @@ title: Клас SoapFault
 
 ```classsynopsis
 
-     
+    
+     class SoapFault
     
 
     
-     
-      class SoapFault
-     
-
-     
-      extends
-       Exception
-     
+     extends
+      Exception
      {
 
     /* Свойства */
@@ -65,31 +61,31 @@ title: Клас SoapFault
 
     /* Наследуемые свойства */
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Методы */
     
-   public __construct(    array|string|null $code,    string $string,    ?string $actor = null,    mixed $details = null,    ?string $name = null,    mixed $headerFault = null)
+   public __construct(    array|string|null $code,    string $string,    ?string $actor = null,    mixed $details = null,    ?string $name = null,    mixed $headerFault = null)
 
     public __toString(): string
 
@@ -110,7 +106,7 @@ private Exception::__clone(): void
 
 ## Властивості
 
-name
+\_name
 
 detail
 
@@ -126,5 +122,5 @@ headerfault
 
 ## Зміст
 
--   [SoapFault::construct](soapfault.construct.md) - Конструктор SoapFault
--   [SoapFault::toString](soapfault.tostring.md) — Отримати текстове уявлення SoapFault
+-   [SoapFault::\_\_construct](soapfault.construct.md) \- Конструктор SoapFault
+-   [SoapFault::\_\_function toString() { \[native code\] }](soapfault.tostring.md)— Отримати текстове уявлення SoapFault

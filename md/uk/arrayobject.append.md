@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::append'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::append
 
@@ -20,7 +21,7 @@ public ArrayObject::append(mixed $value): void
 
 Додає нове значення наприкінці масиву.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей метод не може бути викликаний, якщо [ArrayObject](class.arrayobject.md) був створений із об'єкта. У цьому випадку використовуйте замість нього [ArrayObject::offsetSet()](arrayobject.offsetset.md)
 
@@ -36,7 +37,7 @@ public ArrayObject::append(mixed $value): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::append()****
+**Пример #1 Пример использования**ArrayObject::append()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ var_dump($arrayobj);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(ArrayObject)#1 (5) {
@@ -71,4 +72,4 @@ object(ArrayObject)#1 (5) {
 
 ### Дивіться також
 
--   [ArrayObject::offsetSet()](arrayobject.offsetset.md) - Встановлює нове значення за вказаним індексом
+-   [ArrayObject::offsetSet()](arrayobject.offsetset.md) \- Встановлює нове значення за вказаним індексом

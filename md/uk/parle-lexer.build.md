@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-lexer.advance.md: '« ParleLexer::advance'
-  - parle-lexer.callout.md: 'ParleLexer::callout »'
+  - parle-lexer.advance.md: '« Parle\\Lexer::advance'
+  - parle-lexer.callout.md: 'Parle\\Lexer::callout »'
   - index.md: PHP Manual
-  - class.parle-lexer.md: ParleLexer
-title: 'ParleLexer::build'
+  - class.parle-lexer.md: Parle\\Lexer
+title: 'Parle\\Lexer::build'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleLexer::build
+# Parle\\Lexer::build
 
 (PECL parle >= 0.5.1)
 
-ParleLexer::build - Завершує набір правил лексера
+Parle\\Lexer::build - Завершує набір правил лексера
 
 ### Опис
 
@@ -18,7 +19,7 @@ ParleLexer::build - Завершує набір правил лексера
 public Parle\Lexer::build(): void
 ```
 
-Правила, раніше додані за допомогою [ParleLexer::push()](parle-lexer.push.md), завершуються. Цей виклик методу має бути виконано після того, як було застосовано всі необхідні правила. Набір правил доступний лише для читання. Можна розпочинати лексування.
+Правила, раніше додані за допомогою [Parle\\Lexer::push()](parle-lexer.push.md), завершуються. Цей виклик методу має бути виконано після того, як було застосовано всі необхідні правила. Набір правил доступний лише для читання. Можна розпочинати лексування.
 
 ### Список параметрів
 

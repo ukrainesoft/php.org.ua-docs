@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::setId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::setId
 
@@ -28,11 +29,11 @@ public GearmanWorker::setId(string $id): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **GearmanWorker::setId()****
+**Пример #1 Пример использования**GearmanWorker::setId()\*\*\*\*
 
 Завдання ідентифікатора для простого оброблювача.
 
@@ -43,7 +44,7 @@ $worker->setId('test');
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Run the following command:

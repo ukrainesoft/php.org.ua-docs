@@ -1,10 +1,11 @@
 ---
 navigation:
   - function.rewind.md: « rewind
-  - function.set-file-buffer.md: setfilebuffer »
+  - function.set-file-buffer.md: set\_file\_buffer »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: rmdir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # rmdir
 
@@ -28,15 +29,15 @@ rmdir(string $directory, ?resource $context = null): bool
 
 `context`
 
-Ресурс (resource) з [контекстом потоку](stream.contexts.md)
+Ресурс (resource) с[контекстом потоку](stream.contexts.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **rmdir()****
+**Пример #1 Пример использования**rmdir()\*\*\*\*
 
 ```php
 <?php
@@ -50,6 +51,6 @@ rmdir('examples');
 
 ### Дивіться також
 
--   [ісdir()](function.is-dir.md) - Визначає, чи є ім'я файлу директорією
--   [mkdir()](function.mkdir.md) - створює директорію
--   [unlink()](function.unlink.md) - Видаляє файл
+-   [is\_dir()](function.is-dir.md) \- Визначає, чи є ім'я файлу директорією
+-   [mkdir()](function.mkdir.md) \- створює директорію
+-   [unlink()](function.unlink.md) \- Видаляє файл

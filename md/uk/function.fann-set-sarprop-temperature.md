@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-sarprop-step-error-threshold-factor.md: « fannsetsarpropsteperrorthresholdfactor
-  - function.fann-set-sarprop-weight-decay-shift.md: fannsetsarpropweightdecayshift »
+  - function.fann-set-sarprop-step-error-threshold-factor.md: « fann\_set\_sarprop\_step\_error\_threshold\_factor
+  - function.fann-set-sarprop-weight-decay-shift.md: fann\_set\_sarprop\_weight\_decay\_shift »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetsarproptemperature
+  - ref.fann.md: Функції Fann
+title: fann\_set\_sarprop\_temperature
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetsarproptemperature
+# fann\_set\_sarprop\_temperature
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetsarproptemperature - Встановлює температуру sarprop
+fann\_set\_sarprop\_temperature - Встановлює температуру sarprop
 
 ### Опис
 
@@ -28,7 +29,7 @@ fann_set_sarprop_temperature(resource $ann, float $sarprop_temperature): bool
 
 `sarprop_temperature`
 
-Температура сарprop.
+Температура sarprop.
 
 ### Значення, що повертаються
 
@@ -36,10 +37,10 @@ fann_set_sarprop_temperature(resource $ann, float $sarprop_temperature): bool
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
--   [fanngetsarproptemperature()](function.fann-get-sarprop-temperature.md) - Повертає температуру sarprop
+-   [fann\_get\_sarprop\_temperature()](function.fann-get-sarprop-temperature.md) \- Повертає температуру sarprop

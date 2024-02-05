@@ -1,10 +1,11 @@
 ---
 navigation:
   - svmmodel.getsvrprobability.md: '« SVMModel::getSvrProbability'
-  - svmmodel.predict-probability.md: 'SVMModel::predictprobability »'
+  - svmmodel.predict-probability.md: 'SVMModel::predict\_probability »'
   - index.md: PHP Manual
   - class.svmmodel.md: SVMModel
 title: 'SVMModel::load'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SVMModel::load
 
@@ -32,4 +33,4 @@ public SVMModel::load(string $filename): bool
 
 ### Дивіться також
 
--   [SVMModel::save()](svmmodel.save.md) - Зберегти готову модель у файл
+-   [SVMModel::save()](svmmodel.save.md) \- Зберегти готову модель у файл

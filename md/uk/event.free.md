@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.event.md: Event
 title: 'Event::free'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Event::free
 
@@ -23,7 +24,7 @@ public
 
 **Увага**
 
-В даний час метод **Event::free()** не знищує сам об'єкт. Для знищення об'єкта події використовуйте функцію [unset()](function.unset.md) або привласніть йому **`null`**
+В настоящее время метод**Event::free()** не знищує сам об'єкт. Для знищення об'єкта події використовуйте функцію [unset()](function.unset.md)или присвойте ему\*\*`null`\*\*
 
 ### Список параметрів
 
@@ -35,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [Event::construct()](event.construct.md) - Конструктор об'єкту Event
+-   [Event::\_\_construct()](event.construct.md) \- Конструктор об'єкту Event

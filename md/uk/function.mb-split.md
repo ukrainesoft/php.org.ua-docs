@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mb-send-mail.md: « mbsendmail
-  - function.mb-str-split.md: мбstrsplit »
+  - function.mb-send-mail.md: « mb\_send\_mail
+  - function.mb-str-pad.md: mb\_str\_pad »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбsplit
+title: mb\_split
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбsplit
+# mb\_split
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-мбsplit — Поділ рядків у багатобайтних кодуваннях, використовуючи регулярний вираз.
+mb\_split — Розділяє рядки в багатобайтних кодуваннях через регулярний вираз.
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: мбsplit
 mb_split(string $pattern, string $string, int $limit = -1): array|false
 ```
 
-Розділяє багатобайтний рядок `string`, використовуючи регулярний вираз `pattern`і повертає масив (array).
+Розділяє багатобайтний рядок `string`, зіставляючи її з регулярним виразом `pattern`і повертає масив (array).
 
 ### Список параметрів
 
@@ -32,19 +33,19 @@ mb_split(string $pattern, string $string, int $limit = -1): array|false
 
 `limit`
 
-Якщо необов'язковий аргумент `limit` заданий, функція розіб'є рядок не більше, ніж на `limit` частин.
+Якщо необов'язковий параметр `limit` заданий, функція розіб'є рядок не більше, ніж на `limit`частей.
 
 ### Значення, що повертаються
 
-Результат розбиття у вигляді масиву (array) або **`false`** у разі виникнення помилки.
+Повертає результат розбиття у вигляді масиву (array) або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Кодування символів, вказане функцією [мбregexencoding()](function.mb-regex-encoding.md), буде за замовчуванням використана для цієї функції.
+> Кодування символів, вказане функцією [mb\_regex\_encoding()](function.mb-regex-encoding.md), буде за промовчанням використана для цієї функції.
 
 ### Дивіться також
 
--   [мбregexencoding()](function.mb-regex-encoding.md) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [мбereg()](function.mb-ereg.md) - Збіг з регулярним виразом з підтримкою багатобайтових кодувань
+-   [mb\_regex\_encoding()](function.mb-regex-encoding.md) \- Встановлює/отримує кодування символів для однобайтового регулярного виразу
+-   [mb\_ereg()](function.mb-ereg.md) \- Знаходить збіг регулярного виразу за допомогою багатобайтових кодувань

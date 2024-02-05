@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.getenv.md: '« YafRequestAbstract::getEnv'
-  - yaf-request-abstract.getlanguage.md: 'YafRequestAbstract::getLanguage »'
+  - yaf-request-abstract.getenv.md: '« Yaf\_Request\_Abstract::getEnv'
+  - yaf-request-abstract.getlanguage.md: 'Yaf\_Request\_Abstract::getLanguage »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::getException'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::getException'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::getException
+# Yaf\_Request\_Abstract::getException
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::getException — Призначення getException
+Yaf\_Request\_Abstract::getException — Призначення getException
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Request_Abstract::getException(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

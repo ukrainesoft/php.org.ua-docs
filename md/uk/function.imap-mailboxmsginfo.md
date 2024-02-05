@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-mail.md: « imapmail
-  - function.imap-mime-header-decode.md: imapmimeheaderdecode »
+  - function.imap-mail.md: « imap\_mail
+  - function.imap-mime-header-decode.md: imap\_mime\_header\_decode »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapmailboxmsginfo
+  - ref.imap.md: Функції IMAP
+title: imap\_mailboxmsginfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapmailboxmsginfo
+# imap\_mailboxmsginfo
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapmailboxmsginfo — Отримати інформацію про поточну поштову скриньку
+imap\_mailboxmsginfo — Отримує інформацію про поточну поштову скриньку
 
 ### Опис
 
@@ -18,13 +19,13 @@ imapmailboxmsginfo — Отримати інформацію про поточн
 imap_mailboxmsginfo(IMAP\Connection $imap): stdClass
 ```
 
-Перевірка статусу поточної поштової скриньки на сервері. Аналогічно [imapstatus()](function.imap-status.md), але додатково обчислює сумарний розмір всіх листів у ящику, через що працює дещо повільніше.
+Перевірка статусу поточної поштової скриньки на сервері. Аналогічно [imap\_status()](function.imap-status.md), але додатково обчислює сумарний розмір всіх листів у ящику, через що працює дещо повільніше.
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 ### Значення, що повертаються
 
@@ -34,17 +35,15 @@ imap_mailboxmsginfo(IMAP\Connection $imap): stdClass
 
 <table class="doctable table"><caption><strong>Властивості поштової скриньки</strong></caption><tbody class="tbody"><tr><td>Date</td><td>дата останньої зміни (поточна дата та час)</td></tr><tr><td>Driver</td><td>драйвер</td></tr><tr><td>Mailbox</td></tr><tr><td>Nmsgs</td><td>кількість листів</td></tr><tr><td>Recent</td><td>кількість нових</td></tr><tr><td>Unread</td><td>кількість непрочитаних</td></tr><tr><td>Deleted</td><td>кількість віддалених</td></tr><tr><td>Size</td><td>розмір скриньки</td></tr></tbody></table>
 
-У разі виникнення помилки повертає **`false`**
-
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imapmailboxmsginfo()****
+**Пример #1 Пример использования**imap\_mailboxmsginfo()\*\*\*\*
 
 ```php
 <?php

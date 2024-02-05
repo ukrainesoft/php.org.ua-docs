@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::rotate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::rotate
 
@@ -20,7 +21,7 @@ public ImagickDraw::rotate(float $degrees): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Застосовує зазначений поворот до координатного простору.
 
@@ -36,7 +37,7 @@ public ImagickDraw::rotate(float $degrees): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::rotate()****
+**Пример #1 Пример использования**ImagickDraw::rotate()\*\*\*\*
 
 ```php
 <?php

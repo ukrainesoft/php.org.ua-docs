@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.openssl-seal.md: « opensslseal
-  - function.openssl-spki-export-challenge.md: opensslspkiexportchallenge »
+  - function.openssl-seal.md: « openssl\_seal
+  - function.openssl-spki-export-challenge.md: openssl\_spki\_export\_challenge »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslsign
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_sign
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslsign
+# openssl\_sign
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-opensslsign — Генерація підпису
+openssl\_sign — Генерація підпису
 
 ### Опис
 
 ```methodsynopsis
-openssl_sign(    string $data,    string &$signature,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string|int $algorithm = OPENSSL_ALGO_SHA1): bool
+openssl_sign(    string $data,    string &$signature,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string|int $algorithm = OPENSSL_ALGO_SHA1): bool
 ```
 
-**opensslsign()** обчислює підпис даних `data` шляхом генерації криптографічного цифрового зліпка з використанням секретного ключа `private_key`. Зверніть увагу, що дані не шифруються.
+**openssl\_sign()** обчислює підпис даних `data` шляхом генерації криптографічного цифрового зліпка з використанням секретного ключа `private_key`. Зверніть увагу, що дані не шифруються.
 
 ### Список параметрів
 
@@ -32,29 +33,29 @@ openssl_sign(    string $data,    string &$signature,    OpenSSLAsymmetricKey|Op
 
 `private_key`
 
-Ідентифікатор ключа типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), отриманий з [opensslgetprivatekey()](function.openssl-get-privatekey.md)
+Ідентифікатор ключа типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), отриманий з [openssl\_get\_privatekey()](function.openssl-get-privatekey.md)
 
-Рядок, що є ключем у форматі PEM
+Рядок, що є ключем у форматі PEM.
 
 `algorithm`
 
-Ціле число, що визначає алгоритм. Дивіться [алгоритми підпису](openssl.signature-algos.md)
+Целое число, определяющее алгоритм. Смотрите[алгоритми підпису](openssl.signature-algos.md)
 
-Рядок, повернутий [opensslgetмдmethods()](function.openssl-get-md-methods.md). Наприклад, "sha256WithRSAEncryption" або "sha384".
+Рядок, повернутий [openssl\_get\_md\_methods()](function.openssl-get-md-methods.md). . Наприклад, "sha256WithRSAEncryption" або "sha384".
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
+| 8.0.0 | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL key`или`OpenSSL X.509` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslsign()****
+**Пример #1 Пример использования**openssl\_sign()\*\*\*\*
 
 ```php
 <?php
@@ -71,7 +72,7 @@ openssl_free_key($pkeyid);
 ?>
 ```
 
-**Приклад #2 Приклад використання **opensslsign()****
+**Пример #2 Пример использования**openssl\_sign()\*\*\*\*
 
 ```php
 <?php
@@ -104,4 +105,4 @@ var_dump($r);
 
 ### Дивіться також
 
--   [opensslverify()](function.openssl-verify.md) - Звіряння сигнатури
+-   [openssl\_verify()](function.openssl-verify.md) \- Звіряння сигнатури

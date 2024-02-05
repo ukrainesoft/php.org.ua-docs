@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.norewinditerator.md: NoRewindIterator
 title: 'NoRewindIterator::next'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NoRewindIterator::next
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 NoRewindIterator::next — Переміщення ітератора до наступного елемента
 
@@ -22,7 +23,7 @@ public NoRewindIterator::next(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,4 +35,4 @@ public NoRewindIterator::next(): void
 
 ### Дивіться також
 
--   [NoRewindIterator::rewind()](norewinditerator.rewind.md) - Запобігає поверненню внутрішнього ітератора на початок
+-   [NoRewindIterator::rewind()](norewinditerator.rewind.md) \- Запобігає поверненню внутрішнього ітератора на початок

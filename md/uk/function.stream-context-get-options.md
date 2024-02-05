@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-context-get-default.md: « streamcontextgetdefault
-  - function.stream-context-get-params.md: streamcontextgetparams »
+  - function.stream-context-get-default.md: « stream\_context\_get\_default
+  - function.stream-context-get-params.md: stream\_context\_get\_params »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamcontextgetoptions
+title: stream\_context\_get\_options
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamcontextgetoptions
+# stream\_context\_get\_options
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-streamcontextgetoptions — Отримує опції для потоку/обгортки/контексту
+stream\_context\_get\_options — Отримує опції для потоку/обгортки/контексту
 
 ### Опис
 
@@ -32,7 +33,7 @@ stream_context_get_options(resource $stream_or_context): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **streamcontextgetoptions()****
+**Пример #1 Пример использования**stream\_context\_get\_options()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ var_dump(stream_context_get_options(stream_context_get_default()));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {

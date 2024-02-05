@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-total-neurons.md: « fanngettotalneurons
-  - function.fann-get-train-stop-function.md: fanngettrainstopfunction »
+  - function.fann-get-total-neurons.md: « fann\_get\_total\_neurons
+  - function.fann-get-train-stop-function.md: fann\_get\_train\_stop\_function »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngettrainerrorfunction
+  - ref.fann.md: Функції Fann
+title: fann\_get\_train\_error\_function
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngettrainerrorfunction
+# fann\_get\_train\_error\_function
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngettrainerrorfunction — Повертає функцію обробки помилок, що використовується під час навчання
+fann\_get\_train\_error\_function — Повертає функцію обробки помилок, що використовується під час навчання
 
 ### Опис
 
@@ -20,9 +21,9 @@ fann_get_train_error_function(resource $ann): int
 
 Повертає функцію обробки помилок, яка використовується під час навчання.
 
-Функції обробки помилок описані далі у константах [функции обработки ошибок](fann.constants.md#constants.fann-errorfunc)
+Функції обробки помилок описані далі у константах [функції обробки помилок](fann.constants.md#constants.fann-errorfunc)
 
-Функції обробки помилок за замовчуванням: **`FANN_ERRORFUNC_TANH`**
+Функции обработки ошибок по умолчанию:**`FANN_ERRORFUNC_TANH`**
 
 ### Список параметрів
 
@@ -32,8 +33,8 @@ fann_get_train_error_function(resource $ann): int
 
 ### Значення, що повертаються
 
-Константа [функции обработки ошибок](fann.constants.md#constants.fann-errorfunc) або **`false`** у разі виникнення помилки.
+Константа[функції обробки помилок](fann.constants.md#constants.fann-errorfunc)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fannsettrainerrorfunction()](function.fann-set-train-error-function.md) - Встановлює функцію помилки, що використовується під час тренування
+-   [fann\_set\_train\_error\_function()](function.fann-set-train-error-function.md) \- Встановлює функцію помилки, що використовується під час тренування

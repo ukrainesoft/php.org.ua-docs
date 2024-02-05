@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-decrypt.md: « openssldecrypt
-  - function.openssl-digest.md: openssldigest »
+  - function.openssl-decrypt.md: « openssl\_decrypt
+  - function.openssl-digest.md: openssl\_digest »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslдхcomputekey
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_dh\_compute\_key
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslдхcomputekey
+# openssl\_dh\_compute\_key
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-opensslдхcomputekey — обчислює загальний секретний ключ для віддаленого відкритого ключа DH і локального ключа DH
+openssl\_dh\_compute\_key — обчислює загальний секретний ключ для віддаленого відкритого ключа DH і локального ключа DH
 
 ### Опис
 
@@ -18,9 +19,9 @@ opensslдхcomputekey — обчислює загальний секретний
 openssl_dh_compute_key(string $public_key, OpenSSLAsymmetricKey $private_key): string|false
 ```
 
-Загальний секретний ключ, що повертається **opensslдхcomputekey()** часто використовується як ключ шифрування для секретної взаємодії з віддаленою стороною (remote party). Це відомо як алгоритм обміну ключами алгоритму Діффі-Хеллмана.
+Загальний секретний ключ, що повертається **openssl\_dh\_compute\_key()** часто використовується як ключ шифрування для секретної взаємодії з віддаленою стороною (remote party). Це відомо як алгоритм обміну ключами алгоритму Діффі-Хеллмана.
 
-> **Зауваження**: ECDH підтримується тільки з PHP 8.1.0 *і* OpenSSL 3.0.0.
+> **Зауваження**: ECDH підтримується тільки з PHP 8.1.0 *і*OpenSSL 3.0.0.
 
 ### Список параметрів
 
@@ -34,13 +35,13 @@ openssl_dh_compute_key(string $public_key, OpenSSLAsymmetricKey $private_key): s
 
 ### Значення, що повертаються
 
-Повертає загальний секретний ключ або **`false`** у разі виникнення помилки.
+Повертає загальний секретний ключ або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+| 8.0.0 | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL X.509 CSR` |
 
 ### Приклади
 
@@ -48,7 +49,7 @@ openssl_dh_compute_key(string $public_key, OpenSSLAsymmetricKey $private_key): s
 
 Спочатку згенеруйте відкриту/закриту пару ключів DH локально, і віддалена сторона зробить те саме. Нам потрібно використовувати утиліту командного рядка `openssl`
 
-генерація пари ключів (закритий/відкритий) openssl dhparam -out dhparam.pem 2048 openssl genpkey -paramfile dhparam.pem -out privatekey.pem
+\# генерація пари ключів (закритий/відкритий) openssl dhparam -out dhparam.pem 2048 openssl genpkey -paramfile dhparam.pem -out privatekey.pem
 
 # вилучення тільки відкритого ключа
 
@@ -58,7 +59,7 @@ openssl pkey -in privatekey.pem -pubout -out publickey.pem
 
 openssl pkey -pubin -in remotepublickey.pem -text -noout
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 PKCS#3 DH Public-Key: (2048 bit)
@@ -84,7 +85,7 @@ PKCS#3 DH Public-Key: (2048 bit)
  [...abbreviated...]
 ```
 
-Використовуйте відкритий ключ як параметр для **opensslдхcomputekey()** для обчислення загального таємного ключа.
+Використовуйте відкритий ключ як параметр для **openssl\_dh\_compute\_key()** для обчислення загального таємного ключа.
 
 ```php
 <?php
@@ -103,7 +104,7 @@ echo bin2hex($shared_secret)."\n";
 
 openssl dhparam -out dhparam.pem 2048 openssl dh -in dhparam.pem -noout -text
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 PKCS#3 DH Parameters: (2048 bit)
@@ -129,7 +130,7 @@ PKCS#3 DH Parameters: (2048 bit)
         generator: 2 (0x2)
 ```
 
-Значення prime і generator передаються у вигляді параметрів p і g [opensslpkeynew()](function.openssl-pkey-new.md)
+Значення prime і generator передаються у вигляді параметрів p і g [openssl\_pkey\_new()](function.openssl-pkey-new.md)
 
 ```php
 <?php
@@ -152,7 +153,7 @@ echo bin2hex($shared_secret)."\n";
 
 ### Дивіться також
 
--   [opensslpkeynew()](function.openssl-pkey-new.md) - Генерує новий закритий ключ
--   [opensslpkeygetdetails()](function.openssl-pkey-get-details.md) - Отримує масив з детальною інформацією про ключ
--   [opensslpkeygetprivate()](function.openssl-pkey-get-private.md) - Отримати закритий ключ
--   [opensslpkeygetpublic()](function.openssl-pkey-get-public.md) - Витягує відкритий ключ із сертифіката та готує його до використання
+-   [openssl\_pkey\_new()](function.openssl-pkey-new.md) \- Генерує новий закритий ключ
+-   [openssl\_pkey\_get\_details()](function.openssl-pkey-get-details.md) \- Отримує масив з детальною інформацією про ключ
+-   [openssl\_pkey\_get\_private()](function.openssl-pkey-get-private.md) \- Отримати закритий ключ
+-   [openssl\_pkey\_get\_public()](function.openssl-pkey-get-public.md) \- Витягує відкритий ключ із сертифікату та готує його до використання

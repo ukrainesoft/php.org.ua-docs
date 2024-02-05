@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::getDeclaringClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionMethod::getDeclaringClass
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionMethod::getDeclaringClass — Отримує клас, що оголошує відбитий метод
+ReflectionMethod::getDeclaringClass — Отримує клас, що оголошує відображений метод
 
 ### Опис
 
@@ -30,7 +31,7 @@ public ReflectionMethod::getDeclaringClass(): ReflectionClass
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionMethod::getDeclaringClass()****
+**Пример #1 Пример использования**ReflectionMethod::getDeclaringClass()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ var_dump($reflectionMethod->getDeclaringClass());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(ReflectionClass)#2 (1) {
@@ -58,4 +59,4 @@ object(ReflectionClass)#2 (1) {
 
 ### Дивіться також
 
--   [ReflectionMethod::isAbstract()](reflectionmethod.isabstract.md) - Перевіряє, чи є метод абстрактним
+-   [ReflectionMethod::isAbstract()](reflectionmethod.isabstract.md) \- Перевіряє, чи є метод абстрактним

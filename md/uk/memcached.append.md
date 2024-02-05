@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::append'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::append
 
@@ -15,12 +16,12 @@ Memcached::append — Додає дані до існуючого запису
 ### Опис
 
 ```methodsynopsis
-public Memcached::append(string $key, string $value): bool
+public Memcached::append(string $key, string $value): ?bool
 ```
 
-**Memcached::append()** додає передану в `value` рядок до існуючого запису. Причина того, що `value` наводиться рядок у тому, що додавання змішаних типів не визначено.
+\*\*Memcached::append()\*\*добавляет переданную в`value` рядок до існуючого запису. Причина того, що `value` приводиться до рядка у цьому, що додавання змішаних типів не визначено.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо параметр **`Memcached::OPT_COMPRESSION`** встановлений, то операція буде завершена помилкою і буде виведено попередження, тому що додавання стислих даних до запису, який вже стислий, неможливо.
 
@@ -36,11 +37,15 @@ public Memcached::append(string $key, string $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_NOTSTORED`**, якщо переданий ключ не існує.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Повертає **`null`**, якщо стиснення увімкнено.
+
+### Помилки
+
+Повертає **`null`** та видає помилку рівня **`E_WARNING`**, якщо стиснення увімкнено.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::append()****
+**Пример #1 Пример использования**Memcached::append()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +59,7 @@ var_dump($m->get('foo'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(6) "abcdef"
@@ -62,5 +67,5 @@ string(6) "abcdef"
 
 ### Дивіться також
 
--   [Memcached::appendByKey()](memcached.appendbykey.md) - Додає дані до наявного запису на заданому сервері
--   [Memcached::prepend()](memcached.prepend.md) - Додає дані на початок існуючого запису
+-   [Memcached::appendByKey()](memcached.appendbykey.md) \- Додає дані до наявного запису на заданому сервері
+-   [Memcached::prepend()](memcached.prepend.md) \- Додає дані на початок існуючого запису

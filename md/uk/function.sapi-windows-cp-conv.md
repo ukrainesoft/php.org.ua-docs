@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.php-strip-whitespace.md: « phpstripwhitespace
-  - function.sapi-windows-cp-get.md: sapiwindowsспget »
+  - function.php-strip-whitespace.md: « php\_strip\_whitespace
+  - function.sapi-windows-cp-get.md: sapi\_windows\_cp\_get »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
-title: sapiwindowsспconv
+title: sapi\_windows\_cp\_conv
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sapiwindowsспconv
+# sapi\_windows\_cp\_conv
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
-sapiwindowsспconv — Перетворити рядок з однієї кодової сторінки на іншу
+sapi\_windows\_cp\_conv — Перетворює рядок із однієї кодової сторінки на іншу
 
 ### Опис
 
@@ -18,7 +19,7 @@ sapiwindowsспconv — Перетворити рядок з однієї код
 sapi_windows_cp_conv(int|string $in_codepage, int|string $out_codepage, string $subject): ?string
 ```
 
-Перетворити рядок із однієї кодової сторінки на іншу.
+Перетворює рядок з однієї кодової сторінки на іншу.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ sapi_windows_cp_conv(int|string $in_codepage, int|string $out_codepage, string $
 
 `out_codepage`
 
-Кодова сторінка для перетворення рядка `subject`. Або ім'я чи ідентифікатор кодової сторінки.
+Кодовая страница для преобразования строки`subject`. Або ім'я чи ідентифікатор кодової сторінки.
 
 `subject`
 
@@ -36,13 +37,13 @@ sapi_windows_cp_conv(int|string $in_codepage, int|string $out_codepage, string $
 
 ### Значення, що повертаються
 
-Рядок `subject`, перетворена на `out_codepage` або **`null`** у разі виникнення помилки.
+Рядок `subject`, перетворена на кодову сторінку `out_codepage`или\*\*`null`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Ця функція видасть помилки рівня EWARNING, якщо передані неприпустимі кодові сторінки, або якщо рядок у параметрі subject некоректний для `in_codepage`
+Ця функція видасть помилки рівня E\_WARNING, якщо передані неприпустимі кодові сторінки, або якщо рядок у параметрі subject некоректний для кодової сторінки `in_codepage`
 
 ### Дивіться також
 
--   [sapiwindowsспget()](function.sapi-windows-cp-get.md) - Отримати поточну кодову сторінку
--   [iconv()](function.iconv.md) - Перетворює рядок з одного кодування символів на інший
+-   [sapi\_windows\_cp\_get()](function.sapi-windows-cp-get.md) \- Отримати поточну кодову сторінку
+-   [iconv()](function.iconv.md) \- Перетворює рядок з одного кодування символів на інший

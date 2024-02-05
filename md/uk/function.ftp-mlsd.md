@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-mkdir.md: « ftpmkdir
-  - function.ftp-nb-continue.md: ftpнбcontinue »
+  - function.ftp-mkdir.md: « ftp\_mkdir
+  - function.ftp-nb-continue.md: ftp\_nb\_continue »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpmlsd
+title: ftp\_mlsd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpmlsd
+# ftp\_mlsd
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-ftpmlsd — Повертає список файлів у заданій директорії
+ftp\_mlsd — Повертає список файлів у заданій директорії
 
 ### Опис
 
@@ -22,7 +23,7 @@ ftp_mlsd(FTP\Connection $ftp, string $directory): array|false
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `directory`
 
@@ -30,17 +31,17 @@ ftp_mlsd(FTP\Connection $ftp, string $directory): array|false
 
 ### Значення, що повертаються
 
-Повертає масив масивів з інформацією про файли із зазначеної директорії у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає масив масивів з інформацією про файли із зазначеної директорії у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpmlsd()****
+**Пример #1 Пример использования**ftp\_mlsd()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ var_dump($contents);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(5) {
@@ -164,5 +165,5 @@ array(5) {
 
 ### Дивіться також
 
--   [ftprawlist()](function.ftp-rawlist.md) - Повертає докладний список файлів у заданій директорії
--   [ftpnlist()](function.ftp-nlist.md) - Повертає список файлів у заданій директорії
+-   [ftp\_rawlist()](function.ftp-rawlist.md) \- Повертає докладний список файлів у заданій директорії
+-   [ftp\_nlist()](function.ftp-nlist.md) \- Повертає список файлів у заданій директорії

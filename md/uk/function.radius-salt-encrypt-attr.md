@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.radius-request-authenticator.md: « radiusrequestauthenticator
-  - function.radius-send-request.md: radiussendrequest »
+  - function.radius-request-authenticator.md: « radius\_request\_authenticator
+  - function.radius-send-request.md: radius\_send\_request »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiussaltencryptattr
+  - ref.radius.md: Функції Radius
+title: radius\_salt\_encrypt\_attr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiussaltencryptattr
+# radius\_salt\_encrypt\_attr
 
 (PECL radius >= 1.3.0)
 
-radiussaltencryptattr - Зашифровує значення за допомогою солі
+radius\_salt\_encrypt\_attr — Зашифровує значення за допомогою солі
 
 ### Опис
 
@@ -30,11 +31,11 @@ radius_salt_encrypt_attr(resource $radius_handle, string $data): string|false
 
 ### Значення, що повертаються
 
-Повертає дані, зашифровані за допомогою солі або **`false`** у разі виникнення помилки.
+Повертає дані, зашифровані за допомогою солі або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [radiusputaddr()](function.radius-put-addr.md) - Приєднує атрибут IP-адреси
--   [radiusputattr()](function.radius-put-attr.md) - приєднує бінарний атрибут
--   [radiusputint()](function.radius-put-int.md) - Приєднує цілісний атрибут
--   [radiusputstring()](function.radius-put-string.md) - Приєднує рядковий атрибут
+-   [radius\_put\_addr()](function.radius-put-addr.md) \- Приєднує атрибут IP-адреси
+-   [radius\_put\_attr()](function.radius-put-attr.md) \- приєднує бінарний атрибут
+-   [radius\_put\_int()](function.radius-put-int.md) \- Приєднує цілісний атрибут
+-   [radius\_put\_string()](function.radius-put-string.md) \- Приєднує рядковий атрибут

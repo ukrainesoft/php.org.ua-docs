@@ -1,14 +1,15 @@
 ---
 navigation:
-  - limititerator.getinneriterator.md: '« LimitIterator::getInnerIterator'
+  - limititerator.current.md: '« LimitIterator::current'
   - limititerator.key.md: 'LimitIterator::key »'
   - index.md: PHP Manual
   - class.limititerator.md: LimitIterator
 title: 'LimitIterator::getPosition'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # LimitIterator::getPosition
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 LimitIterator::getPosition — Повертає поточну позицію
 
@@ -30,7 +31,7 @@ public LimitIterator::getPosition(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **LimitIterator::getPosition()****
+**Пример #1 Пример использования**LimitIterator::getPosition()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ foreach ($limit_it as $item) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 2 cherry
@@ -59,4 +60,4 @@ foreach ($limit_it as $item) {
 
 ### Дивіться також
 
--   [FilterIterator::key()](filteriterator.key.md) - Отримує поточний ключ
+-   [FilterIterator::key()](filteriterator.key.md) \- Отримує поточний ключ

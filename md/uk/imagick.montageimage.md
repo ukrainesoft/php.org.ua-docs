@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::montageImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::montageImage
 
@@ -15,7 +16,7 @@ Imagick::montageImage — Створює складне зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::montageImage(    ImagickDraw $draw,    string $tile_geometry,    string $thumbnail_geometry,    int $mode,    string $frame): Imagick
+public Imagick::montageImage(    ImagickDraw $draw,    string $tile_geometry,    string $thumbnail_geometry,    int $mode,    string $frame): Imagick
 ```
 
 Створює складне зображення шляхом поєднання кількох окремих зображень. Зображення розміщуються на складовому зображенні мозаїкою, ім'я зображення може відображатися відразу під окремою плиткою.
@@ -36,7 +37,7 @@ public Imagick::montageImage(    ImagickDraw $draw,    string $tile_geometry,   
 
 `mode`
 
-Режим кадрування мініатюр, дивіться [константи режиму кадрування](imagick.constants.md#imagick.constants.montagemode)
+Режим кадрирования миниатюр, смотрите[константи режиму кадрування](imagick.constants.md#imagick.constants.montagemode)
 
 `frame`
 

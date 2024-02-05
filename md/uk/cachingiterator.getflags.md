@@ -1,14 +1,15 @@
 ---
 navigation:
   - cachingiterator.getcache.md: '« CachingIterator::getCache'
-  - cachingiterator.getinneriterator.md: 'CachingIterator::getInnerIterator »'
+  - cachingiterator.hasnext.md: 'CachingIterator::hasNext »'
   - index.md: PHP Manual
   - class.cachingiterator.md: CachingIterator
 title: 'CachingIterator::getFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CachingIterator::getFlags
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 CachingIterator::getFlags — Отримує прапори, що використовуються.
 
@@ -20,7 +21,7 @@ public CachingIterator::getFlags(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Отримує бітову маску прапорів, що використовуються для екземпляра CachingIterator.
 

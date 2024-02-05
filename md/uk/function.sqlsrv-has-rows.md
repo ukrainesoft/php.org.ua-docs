@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-get-field.md: « sqlsrvgetfield
-  - function.sqlsrv-next-result.md: sqlsrvnextresult »
+  - function.sqlsrv-get-field.md: « sqlsrv\_get\_field
+  - function.sqlsrv-next-result.md: sqlsrv\_next\_result »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvhasrows
+title: sqlsrv\_has\_rows
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvhasrows
+# sqlsrv\_has\_rows
 
 (No version information available, might only be in Git)
 
-sqlsrvhasrows — Вказує, чи є вказаний оператор рядка
+sqlsrv\_has\_rows — Вказує, чи є вказаний оператор рядка
 
 ### Опис
 
@@ -24,7 +25,7 @@ sqlsrv_has_rows(resource $stmt): bool
 
 `stmt`
 
-Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvexecute()](function.sqlsrv-execute.md)
+Ресурс оператора, що повертається [sqlsrv\_query()](function.sqlsrv-query.md) або [sqlsrv\_execute()](function.sqlsrv-execute.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ sqlsrv_has_rows(resource $stmt): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvhasrows()****
+**Пример #1 Пример использования**sqlsrv\_has\_rows()\*\*\*\*
 
 ```php
 <?php
@@ -54,5 +55,5 @@ if ($stmt) {
 
 ### Дивіться також
 
--   [sqlsrvnumrows()](function.sqlsrv-num-rows.md) - Отримує кількість рядків у наборі результатів
--   [sqlsrvquery()](function.sqlsrv-query.md) - готує та виконує запит
+-   [sqlsrv\_num\_rows()](function.sqlsrv-num-rows.md) \- Отримує кількість рядків у наборі результатів
+-   [sqlsrv\_query()](function.sqlsrv-query.md) \- готує та виконує запит

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-event.set.md: '« SwooleEvent::set'
-  - swoole-event.write.md: 'SwooleEvent::write »'
+  - swoole-event.set.md: '« Swoole\\Event::set'
+  - swoole-event.write.md: 'Swoole\\Event::write »'
   - index.md: PHP Manual
-  - class.swoole-event.md: SwooleEvent
-title: 'SwooleEvent::wait'
+  - class.swoole-event.md: Swoole\\Event
+title: 'Swoole\\Event::wait'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleEvent::wait
+# Swoole\\Event::wait
 
 (PECL swoole >= 1.9.0)
 
-SwooleEvent::wait — Опис
+Swoole\\Event::wait — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public static Swoole\Event::wait(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

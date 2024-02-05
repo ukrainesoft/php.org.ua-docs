@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-set-read-buffer.md: « streamsetreadbuffer
-  - function.stream-set-write-buffer.md: streamsetwritebuffer »
+  - function.stream-set-read-buffer.md: « stream\_set\_read\_buffer
+  - function.stream-set-write-buffer.md: stream\_set\_write\_buffer »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamsettimeout
+title: stream\_set\_timeout
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamsettimeout
+# stream\_set\_timeout
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-streamsettimeout — Встановлення часу очікування потоку.
+stream\_set\_timeout — Встановлення часу очікування потоку.
 
 ### Опис
 
@@ -18,9 +19,9 @@ streamsettimeout — Встановлення часу очікування по
 stream_set_timeout(resource $stream, int $seconds, int $microseconds = 0): bool
 ```
 
-Встановлює значення часу очікування у потоці `stream`, що дорівнює сумі параметрів `seconds` і `microseconds`
+Устанавливает значение времени ожидания в потоке`stream`, равное сумме параметров`seconds`и`microseconds`
 
-Коли час роботи потоку спливає, ключ 'timedout' масиву, що повертається функцією [streamgetmetadata()](function.stream-get-meta-data.md), встановлюється в значення \*\*`true`\*\*хоча помилка або попередження не генерується.
+Коли час роботи потоку спливає, ключ 'timed\_out' масиву, що повертається функцією [stream\_get\_meta\_data()](function.stream-get-meta-data.md), устанавливается в значение\*\*`true`\*\*хоча помилка або попередження не генерується.
 
 ### Список параметрів
 
@@ -38,11 +39,11 @@ stream_set_timeout(resource $stream, int $seconds, int $microseconds = 0): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **streamsettimeout()****
+**Пример #1 Пример использования**stream\_set\_timeout()\*\*\*\*
 
 ```php
 <?php
@@ -70,13 +71,13 @@ if (!$fp) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Ця функція не працює з просунутими операціями, такими як [streamsocketrecvfrom()](function.stream-socket-recvfrom.md). Використовуйте замість неї [streamselect()](function.stream-select.md) з параметром часу очікування.
+> Ця функція не працює з просунутими операціями, такими як [stream\_socket\_recvfrom()](function.stream-socket-recvfrom.md). Використовуйте замість неї [stream\_select()](function.stream-select.md)с параметром времени ожидания.
 
-Ця функція раніше викликалася через **setsockettimeout()** і пізніше через [socketsettimeout()](function.socket-set-timeout.md)але це використання застаріло.
+Ця функція раніше викликалася через **set\_socket\_timeout()** і пізніше через [socket\_set\_timeout()](function.socket-set-timeout.md)але це використання застаріло.
 
 ### Дивіться також
 
--   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [fsockopen()](function.fsockopen.md) \- Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [fopen()](function.fopen.md) \- Відкриває файл або URL

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.throwable.md: Throwable
 title: 'Throwable::getFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Throwable::getFile
 
@@ -30,4 +31,4 @@ public Throwable::getFile(): string
 
 ### Дивіться також
 
--   [Exception::getFile()](exception.getfile.md) - Отримує файл, у якому виник виняток
+-   [Exception::getFile()](exception.getfile.md) \- Отримує файл, у якому виник виняток

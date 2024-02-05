@@ -1,14 +1,15 @@
 ---
 navigation:
-  - class.domdocumentfragment.md: « DOMDocumentFragment
-  - domdocumentfragment.construct.md: 'DOMDocumentFragment::construct »'
+  - domdocumentfragment.append.md: '« DOMDocumentFragment::append'
+  - domdocumentfragment.construct.md: 'DOMDocumentFragment::\_\_construct »'
   - index.md: PHP Manual
   - class.domdocumentfragment.md: DOMDocumentFragment
 title: 'DOMDocumentFragment::appendXML'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocumentFragment::appendXML
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 DOMDocumentFragment::appendXML — Додавання необроблених даних XML
 
@@ -32,7 +33,7 @@ XML для додавання.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -49,7 +50,7 @@ echo $doc->saveXML();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0"?>

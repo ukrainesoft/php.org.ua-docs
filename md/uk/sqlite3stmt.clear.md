@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3stmt.md: SQLite3Stmt
 title: 'SQLite3Stmt::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3Stmt::clear
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3Stmt::clear — Видалення всіх поточних параметрів.
 
@@ -30,4 +31,4 @@ public SQLite3Stmt::clear(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного очищення прив'язаних параметрів та **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного очищення прив'язаних параметрів та \*\*`false`\*\*в случае возникновения ошибки.

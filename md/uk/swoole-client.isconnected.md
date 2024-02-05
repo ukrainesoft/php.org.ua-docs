@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-client.getsockname.md: '« SwooleClient::getsockname'
-  - swoole-client.on.md: 'SwooleClient::on »'
+  - swoole-client.getsockname.md: '« Swoole\\Client::getsockname'
+  - swoole-client.on.md: 'Swoole\\Client::on »'
   - index.md: PHP Manual
-  - class.swoole-client.md: SwooleClient
-title: 'SwooleClient::isConnected'
+  - class.swoole-client.md: Swoole\\Client
+title: 'Swoole\\Client::isConnected'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleClient::isConnected
+# Swoole\\Client::isConnected
 
 (PECL swoole >= 1.9.0)
 
-SwooleClient::isConnected — Перевіряє, чи підключено з'єднання.
+Swoole\\Client::isConnected — Перевіряє, чи підключено з'єднання.
 
 ### Опис
 

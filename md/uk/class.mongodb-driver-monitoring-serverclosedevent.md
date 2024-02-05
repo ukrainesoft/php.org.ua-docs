@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverchangedevent.gettopologyid.md: '« MongoDBDriverMonitoringServerChangedEvent::getTopologyId'
-  - mongodb-driver-monitoring-serverclosedevent.gethost.md: 'MongoDBDriverMonitoringServerClosedEvent::getHost »'
+  - mongodb-driver-monitoring-serverchangedevent.gettopologyid.md: '« MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getTopologyId'
+  - mongodb-driver-monitoring-serverclosedevent.gethost.md: 'MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getHost »'
   - index.md: PHP Manual
-  - mongodb.monitoring.md: MongoDBDriverMonitoring
-title: Клас MongoDBDriverMonitoringServerClosedEvent
+  - mongodb.monitoring.md: MongoDB\\Driver\\Monitoring
+title: Клас MongoDB\\Driver\\Monitoring\\ServerClosedEvent
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverMonitoringServerClosedEvent
+# Клас MongoDB\\Driver\\Monitoring\\ServerClosedEvent
 
 (mongodb >=1.13.0)
 
 ## Вступ
 
-Клас **MongoDBDriverMonitoringServerClosedEvent** інкапсулює інформацію про закритий сервер.
+Класс**MongoDB\\Driver\\Monitoring\\ServerClosedEvent** інкапсулює інформацію про закритий сервер.
 
 ## Огляд класів
 
@@ -39,6 +40,6 @@ final public getTopologyId(): MongoDB\BSON\ObjectId
 
 ## Зміст
 
--   [MongoDBDriverMonitoringServerClosedEvent::getHost](mongodb-driver-monitoring-serverclosedevent.gethost.md) — Повертає ім'я сервера.
--   [MongoDBDriverMonitoringServerClosedEvent::getPort](mongodb-driver-monitoring-serverclosedevent.getport.md) — Повертає порт, на якому прослуховується сервер
--   [MongoDBDriverMonitoringServerClosedEvent::getTopologyId](mongodb-driver-monitoring-serverclosedevent.gettopologyid.md) — Повертає ідентифікатор топології, пов'язаний із цим сервером
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getHost](mongodb-driver-monitoring-serverclosedevent.gethost.md)— Повертає ім'я сервера.
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getPort](mongodb-driver-monitoring-serverclosedevent.getport.md)— Повертає порт, на якому прослуховується сервер
+-   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent::getTopologyId](mongodb-driver-monitoring-serverclosedevent.gettopologyid.md)— Повертає ідентифікатор топології, пов'язаний із цим сервером

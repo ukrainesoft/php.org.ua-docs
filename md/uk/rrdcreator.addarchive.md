@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.rrdcreator.md: RRDCreator
 title: 'RRDCreator::addArchive'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RRDCreator::addArchive
 
@@ -18,7 +19,7 @@ RRDCreator::addArchive — Додає RRA - архів значень даних
 public RRDCreator::addArchive(string $description): void
 ```
 
-Додає визначення RRA щодо опису архіву. Архів складається з низки значень даних чи статистики кожного з певних джерел даних (ІД). Джерела даних визначаються методом [RRDCreator::addDataSource()](rrdcreator.adddatasource.md). Необхідно викликати цей метод кожному за запитаного архіву.
+Додає визначення RRA щодо опису архіву. Архів складається з низки значень даних чи статистики кожному за певних джерел даних (ІД). Джерела даних визначаються методом [RRDCreator::addDataSource()](rrdcreator.adddatasource.md). Необхідно викликати цей метод кожному за запитаного архіву.
 
 ### Список параметрів
 

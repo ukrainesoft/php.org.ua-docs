@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-executable.md: « mysqlxdevapiExecutable
-  - class.mysql-xdevapi-executionstatus.md: mysqlxdevapiExecutionStatus »
+  - class.mysql-xdevapi-executable.md: « mysql\_xdevapi\\Executable
+  - class.mysql-xdevapi-executionstatus.md: mysql\_xdevapi\\ExecutionStatus »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-executable.md: mysqlxdevapiExecutable
+  - class.mysql-xdevapi-executable.md: mysql\_xdevapi\\Executable
 title: 'Executable::execute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Executable::execute
 
@@ -57,7 +58,7 @@ var_dump($result_collection_executed);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(mysql_xdevapi\SqlStatementResult)#3 (0) {

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::unlinkArchive'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::unlinkArchive
 
@@ -28,7 +29,7 @@ final public static Phar::unlinkArchive(string $filename): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -36,7 +37,7 @@ final public static Phar::unlinkArchive(string $filename): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::unlinkArchive()****
+**Пример #1 Пример использования**Phar::unlinkArchive()\*\*\*\*
 
 ```php
 <?php
@@ -58,5 +59,5 @@ Phar::unlinkArchive('my.phar');
 
 ### Дивіться також
 
--   [Phar::delete()](phar.delete.md) - Видаляє файл усередині phar-архіву
--   [Phar::offsetUnset()](phar.offsetunset.md) - Видалити файл із phar-архіву
+-   [Phar::delete()](phar.delete.md) \- Видаляє файл усередині phar-архіву
+-   [Phar::offsetUnset()](phar.offsetunset.md) \- Видалити файл із phar-архіву

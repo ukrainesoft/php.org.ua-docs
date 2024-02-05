@@ -1,32 +1,33 @@
 ---
 navigation:
-  - function.ldap-parse-result.md: « ldapparseresult
-  - function.ldap-rename-ext.md: ldaprenameext »
+  - function.ldap-parse-result.md: « ldap\_parse\_result
+  - function.ldap-rename-ext.md: ldap\_rename\_ext »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapread
+title: ldap\_read
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapread
+# ldap\_read
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapread — Читає запис
+ldap\_read — Читає запис
 
 ### Опис
 
 ```methodsynopsis
-ldap_read(    LDAP\Connection|array $ldap,    array|string $base,    array|string $filter,    array $attributes = [],    int $attributes_only = 0,    int $sizelimit = -1,    int $timelimit = -1,    int $deref = LDAP_DEREF_NEVER,    ?array $controls = null): LDAP\Result|array|false
+ldap_read(    LDAP\Connection|array $ldap,    array|string $base,    array|string $filter,    array $attributes = [],    int $attributes_only = 0,    int $sizelimit = -1,    int $timelimit = -1,    int $deref = LDAP_DEREF_NEVER,    ?array $controls = null): LDAP\Result|array|false
 ```
 
 Виконує пошук для вказаного `filter` у директорії в рамках **`LDAP_SCOPE_BASE`**. Еквівалентно читання запису з директорії.
 
-Можна також виконувати паралельний пошук. У цьому випадку першим аргументом має бути масив екземплярів [LDAPConnection](class.ldap-connection.md), а чи не один екземпляр. Якщо пошук не повинен використовувати один і той же базовий DN і фільтр, як аргументи можна передати масив базових DN і/або масив фільтрів. Кількість елементів у масивах має збігатися з кількістю екземплярів [LDAPConnection](class.ldap-connection.md)оскільки перші записи масивів використовуються для одного пошуку, другі - для іншого і так далі. При паралельному пошуку повертається масив екземплярів [LDAPResult](class.ldap-result.md), за винятком виникнення помилки, коли повертається значення **`false`**
+Можна також виконувати паралельний пошук. У цьому випадку першим аргументом має бути масив екземплярів [LDAP\\Connection](class.ldap-connection.md), а чи не один екземпляр. Якщо пошук не повинен використовувати один і той же базовий DN і фільтр, як аргументи можна передати масив базових DN і/або масив фільтрів. Кількість елементів у масивах має збігатися з кількістю екземплярів [LDAP\\Connection](class.ldap-connection.md)оскільки перші записи масивів використовуються для одного пошуку, другі — для іншого і так далі. При паралельному пошуку повертається масив екземплярів [LDAP\\Result](class.ldap-result.md), за исключением возникновения ошибки, когда возвращается значение\*\*`false`\*\*
 
 ### Список параметрів
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `base`
 
@@ -38,7 +39,7 @@ ldap_read(    LDAP\Connection|array $ldap,    array|string $base,    array|strin
 
 `attributes`
 
-Масив необхідних атрибутів, наприклад, `array("mail", "sn", "cn")`. Зауважте, що "dn" завжди повертається, незалежно від того, які типи атрибутів потрібні.
+Масив необхідних атрибутів, наприклад, `array("mail", "sn", "cn")`. . Зауважте, що "dn" завжди повертається, незалежно від того, які типи атрибутів потрібні.
 
 Використання цього параметра набагато ефективніше, ніж дія за умовчанням (яка повертає всі атрибути та їх значення). Тому використання цього параметра слід вважати гарною практикою.
 
@@ -50,7 +51,7 @@ ldap_read(    LDAP\Connection|array $ldap,    array|string $base,    array|strin
 
 Дозволяє обмежити кількість вибраних записів. Встановлення цього параметра дорівнює 0 означає, що обмеження відсутнє.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей параметр НЕ може перевизначати попереднє встановлення sizelimit на стороні сервера. Хоча його можна встановити нижче.
 > 
@@ -60,7 +61,7 @@ ldap_read(    LDAP\Connection|array $ldap,    array|string $base,    array|strin
 
 Встановлює кількість секунд, що обмежує процес пошуку. Встановлення цього параметра дорівнює 0 означає, що обмеження відсутнє.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей параметр НЕ може перевизначати передустановку timelimit на стороні сервера. Хоча його можна встановити нижче.
 
@@ -68,25 +69,25 @@ ldap_read(    LDAP\Connection|array $ldap,    array|string $base,    array|strin
 
 Визначає те, як псевдоніми мають бути опрацьовані під час пошуку. Може бути одним із наступних:
 
--   **`LDAP_DEREF_NEVER`** - (за умовчанням) псевдоніми ніколи не розіменовуються.
--   **`LDAP_DEREF_SEARCHING`** - псевдоніми мають бути розіменовані під час пошуку, але не при визначенні розташування базового об'єкта пошуку.
--   **`LDAP_DEREF_FINDING`** - псевдоніми мають бути розіменовані щодо місця розташування базового об'єкта, але з під час пошуку.
--   **`LDAP_DEREF_ALWAYS`** - псевдоніми повинні завжди розіменовуватись.
+-   \*\*`LDAP_DEREF_NEVER`\*\*- (за умовчанням) псевдоніми ніколи не розіменовуються.
+-   \*\*`LDAP_DEREF_SEARCHING`\*\*- псевдоніми мають бути розіменовані під час пошуку, але не при визначенні розташування базового об'єкта пошуку.
+-   \*\*`LDAP_DEREF_FINDING`\*\*- псевдоніми мають бути розіменовані щодо місця розташування базового об'єкта, але з під час пошуку.
+-   \*\*`LDAP_DEREF_ALWAYS`\*\*- псевдоніми повинні завжди розіменовуватись.
 
 `controls`
 
-Масив [управляющих констант LDAP](ldap.controls.md) для відправки у запиті.
+Массив[керуючих констант LDAP](ldap.controls.md)для отправки в запросе.
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAPResult](class.ldap-result.md), масив екземплярів [LDAPResult](class.ldap-result.md) або **`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAP\\Result](class.ldap-result.md), масив екземплярів [LDAP\\Result](class.ldap-result.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Повертає екземпляр [LDAPResult](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
-|  | Було додано підтримку паралельного пошуку. Для більш детальної інформації дивіться [ldapsearch()](function.ldap-search.md) |
-|  | Додано підтримку параметра `controls` |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.1.0 | Повертає екземпляр [LDAP\\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+| 4.0.5 | Було додано підтримку паралельного пошуку. Для більш детальної інформації дивіться [ldap\_search()](function.ldap-search.md) |
+| 7.3.0 | Додано підтримку параметра `controls` |

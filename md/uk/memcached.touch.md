@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::touch'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::touch
 
@@ -15,7 +16,7 @@ Memcached::touch — Встановлює новий термін зберіга
 ### Опис
 
 ```methodsynopsis
-public Memcached::touch(string $key, int $expiration): bool
+public Memcached::touch(string $key, int $expiration = 0): bool
 ```
 
 **Memcached::touch()** встановлює новий термін зберігання для запису із зазначеним ключем.
@@ -32,8 +33,8 @@ public Memcached::touch(string $key, int $expiration): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки. Используйте при необходимости[Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Дивіться також
 
--   [Memcached::touchByKey()](memcached.touchbykey.md) - Встановлює новий термін зберігання для запису на вказаному сервері
+-   [Memcached::touchByKey()](memcached.touchbykey.md) \- Встановлює новий термін зберігання для запису на вказаному сервері

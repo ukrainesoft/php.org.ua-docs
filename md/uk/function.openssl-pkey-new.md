@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-pkey-get-public.md: « opensslpkeygetpublic
-  - function.openssl-private-decrypt.md: opensslprivatedecrypt »
+  - function.openssl-pkey-get-public.md: « openssl\_pkey\_get\_public
+  - function.openssl-private-decrypt.md: openssl\_private\_decrypt »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslpkeynew
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_pkey\_new
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslpkeynew
+# openssl\_pkey\_new
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-opensslpkeynew — Генерує новий закритий ключ
+openssl\_pkey\_new — Генерує новий закритий ключ
 
 ### Опис
 
@@ -18,26 +19,26 @@ opensslpkeynew — Генерує новий закритий ключ
 openssl_pkey_new(?array $options = null): OpenSSLAsymmetricKey|false
 ```
 
-**opensslpkeynew()** створює новий закритий ключ. Як отримати відкриту частину ключа показано на прикладі нижче.
+**openssl\_pkey\_new()** створює новий закритий ключ. Як отримати відкриту частину ключа показано на прикладі нижче.
 
-> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.md)
+> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [розділом установки](openssl.installation.md)
 
 ### Список параметрів
 
 `options`
 
-Ви можете налаштувати параметри генерації ключа (наприклад, вказати число біт) за допомогою `options`. Дивіться опис функції [opensslcsrnew()](function.openssl-csr-new.md) для детальної інформації про `options`
+Ви можете налаштувати параметри генерації ключа (наприклад, вказати число біт) за допомогою `options`Смотрите описание функции[openssl\_csr\_new()](function.openssl-csr-new.md) для детальної інформації про `options`
 
 ### Значення, що повертаються
 
-Повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), або **`false`** у разі виникнення помилки.
+Повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), либо\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
-|  | Доданий ключ `curve_name` option для забезпечення можливості створення EC ключів. |
+| 8.0.0 | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу`OpenSSL key` |
+| 7.1.0 | Доданий ключ `curve_name` option для забезпечення можливості створення EC ключів. |
 
 ### Приклади
 
@@ -53,7 +54,7 @@ var_dump($public_key);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 -----BEGIN PUBLIC KEY-----

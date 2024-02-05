@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::lock'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBuffer::lock
 
@@ -19,7 +20,7 @@ public
    EventBuffer::lock(): void
 ```
 
-Отримує блокування буфера. Може використовуватися в парі з [EventBuffer::unlock()](eventbuffer.unlock.md)щоб зробити набір операцій атомарним, тобто потокобезпечним. Зверніть увагу, що немає необхідності блокувати буфери для *окремих* операцій. Коли блокування увімкнено (дивіться [EventBuffer::enableLocking()](eventbuffer.enablelocking.md)), окремі операції над буферами подій є атомарними.
+Отримує блокування буфера. Може використовуватися в парі з [EventBuffer::unlock()](eventbuffer.unlock.md)щоб зробити набір операцій атомарним, тобто потокобезпечним. Зверніть увагу, що немає необхідності блокувати буфери для *окремих*операций. Когда блокировка включена (смотрите[EventBuffer::enableLocking()](eventbuffer.enablelocking.md)), окремі операції над буферами подій є атомарними.
 
 ### Список параметрів
 
@@ -31,4 +32,4 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::unlock()](eventbuffer.unlock.md) - Знімає блокування, встановлене EventBuffer::lock
+-   [EventBuffer::unlock()](eventbuffer.unlock.md) \- Знімає блокування, встановлене EventBuffer::lock

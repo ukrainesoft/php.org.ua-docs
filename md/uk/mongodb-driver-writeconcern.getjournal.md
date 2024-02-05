@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-writeconcern.construct.md: '« MongoDBDriverWriteConcern::construct'
-  - mongodb-driver-writeconcern.getw.md: 'MongoDBDriverWriteConcern::getW »'
+  - mongodb-driver-writeconcern.construct.md: '« MongoDB\\Driver\\WriteConcern::\_\_construct'
+  - mongodb-driver-writeconcern.getw.md: 'MongoDB\\Driver\\WriteConcern::getW »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern
-title: 'MongoDBDriverWriteConcern::getJournal'
+  - class.mongodb-driver-writeconcern.md: MongoDB\\Driver\\WriteConcern
+title: 'MongoDB\\Driver\\WriteConcern::getJournal'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteConcern::getJournal
+# MongoDB\\Driver\\WriteConcern::getJournal
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteConcern::getJournal - Повертає опцію "journal" WriteConcern
+MongoDB\\Driver\\WriteConcern::getJournal - Повертає опцію "journal" WriteConcern
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\Driver\WriteConcern::getJournal(): ?bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteConcern::getJournal()****
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteConcern::getJournal()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($wc->getJournal());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 NULL
@@ -59,4 +60,4 @@ bool(false)
 
 ### Дивіться також
 
--   [» Руководство по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Посібник з гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

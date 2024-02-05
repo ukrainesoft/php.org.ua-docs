@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.ftp-fget.md: « ftpfget
-  - function.ftp-get-option.md: ftpgetoption »
+  - function.ftp-fget.md: « ftp\_fget
+  - function.ftp-get-option.md: ftp\_get\_option »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpfput
+title: ftp\_fput
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpfput
+# ftp\_fput
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftpfput — Завантажує попередньо відкритий файл на сервер FTP
+ftp\_fput — Завантажує попередньо відкритий файл на сервер FTP
 
 ### Опис
 
 ```methodsynopsis
-ftp_fput(    FTP\Connection $ftp,    string $remote_filename,    resource $stream,    int $mode = FTP_BINARY,    int $offset = 0): bool
+ftp_fput(    FTP\Connection $ftp,    string $remote_filename,    resource $stream,    int $mode = FTP_BINARY,    int $offset = 0): bool
 ```
 
-**ftpfput()** завантажує дані із файлового дескриптора у віддалений файл на FTP-сервері.
+**ftp\_fput()** завантажує дані із файлового дескриптора у віддалений файл на FTP-сервері.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `remote_filename`
 
@@ -36,7 +37,7 @@ ftp_fput(    FTP\Connection $ftp,    string $remote_filename,    resource $strea
 
 `mode`
 
-Режим передачі. Має бути або **`FTP_ASCII`**, або **`FTP_BINARY`**
+Режим передачі. Має бути або **`FTP_ASCII`**, либо\*\*`FTP_BINARY`\*\*
 
 `offset`
 
@@ -44,18 +45,18 @@ ftp_fput(    FTP\Connection $ftp,    string $remote_filename,    resource $strea
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 7.3.0 | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpfput()****
+**Пример #1 Пример использования**ftp\_fput()\*\*\*\*
 
 ```php
 <?php
@@ -86,6 +87,6 @@ fclose($fp);
 
 ### Дивіться також
 
--   [ftpput()](function.ftp-put.md) - Завантажує файл на FTP-сервер
--   [ftpнбfput()](function.ftp-nb-fput.md) - Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
--   [ftpнбput()](function.ftp-nb-put.md) - Завантажує файл на сервер FTP в асинхронному режимі
+-   [ftp\_put()](function.ftp-put.md) \- Завантажує файл на FTP-сервер
+-   [ftp\_nb\_fput()](function.ftp-nb-fput.md) \- Завантажує заздалегідь відкритий файл на FTP-сервер в асинхронному режимі
+-   [ftp\_nb\_put()](function.ftp-nb-put.md) \- Завантажує файл на сервер FTP в асинхронному режимі

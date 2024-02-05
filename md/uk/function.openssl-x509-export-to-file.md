@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-x509-checkpurpose.md: « opensslx509checkpurpose
-  - function.openssl-x509-export.md: opensslx509export »
+  - function.openssl-x509-checkpurpose.md: « openssl\_x509\_checkpurpose
+  - function.openssl-x509-export.md: openssl\_x509\_export »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslx509exportтоfile
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_x509\_export\_to\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslx509exportтоfile
+# openssl\_x509\_export\_to\_file
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-opensslx509exportтоfile — Експортує сертифікат у файл
+openssl\_x509\_export\_to\_file — Експортує сертифікат у файл
 
 ### Опис
 
@@ -18,7 +19,7 @@ opensslx509exportтоfile — Експортує сертифікат у фай�
 openssl_x509_export_to_file(OpenSSLCertificate|string $certificate, string $output_filename, bool $no_text = true): bool
 ```
 
-**opensslx509exportтоfile()** зберігає сертифікат `certificate` у файл `output_filename` у вигляді рядка у форматі PEM.
+\*\*openssl\_x509\_export\_to\_file()\*\*сохраняет сертификат`certificate` у файл `output_filename` у вигляді рядка у форматі PEM.
 
 ### Список параметрів
 
@@ -32,14 +33,14 @@ openssl_x509_export_to_file(OpenSSLCertificate|string $certificate, string $outp
 
 `no_text`
 
-Необов'язковий параметр `notext` впливає на деталізацію повідомлень виводу; якщо він встановлений у **`false`**, то у висновок додається додаткова людиночитана інформація. Значення за замовчуванням `notext` є **`true`**
+Необов'язковий параметр `notext` впливає на деталізацію повідомлень виводу; якщо він встановлений у **`false`**, то у висновок додається додаткова людиночитана інформація. Значення за замовчуванням `notext`является\*\*`true`\*\*
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
+| 8.0.0 | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL X.509` |

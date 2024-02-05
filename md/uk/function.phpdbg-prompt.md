@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.phpdbg-get-executable.md: « phpdbggetexecutable
-  - function.phpdbg-start-oplog.md: phpdbgstartoplog »
+  - function.phpdbg-get-executable.md: « phpdbg\_get\_executable
+  - function.phpdbg-start-oplog.md: phpdbg\_start\_oplog »
   - index.md: PHP Manual
-  - ref.phpdbg.md: Функции phpdbg
-title: phpdbgprompt
+  - ref.phpdbg.md: Функції phpdbg
+title: phpdbg\_prompt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# phpdbgprompt
+# phpdbg\_prompt
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-phpdbgprompt — Встановити запрошення командного рядка
+phpdbg\_prompt — Встановити запрошення командного рядка
 
 ### Опис
 
@@ -32,4 +33,4 @@ phpdbg_prompt(string $string): void
 
 ### Дивіться також
 
--   [phpdbgcolor()](function.phpdbg-color.md) - Задати колір елементу
+-   [phpdbg\_color()](function.phpdbg-color.md) \- Задати колір елементу

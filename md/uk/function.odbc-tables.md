@@ -1,36 +1,37 @@
 ---
 navigation:
-  - function.odbc-tableprivileges.md: « odbctableprivileges
+  - function.odbc-tableprivileges.md: « odbc\_tableprivileges
   - book.pdo.md: PDO »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbctables
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_tables
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbctables
+# odbc\_tables
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbctables — Отримує список імен таблиць, що зберігаються у певному джерелі даних
+odbc\_tables — Отримує список імен таблиць, що зберігаються у певному джерелі даних
 
 ### Опис
 
 ```methodsynopsis
-odbc_tables(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $table = null,    ?string $types = null): resource|false
+odbc_tables(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $table = null,    ?string $types = null): resource|false
 ```
 
 Перелічує всі таблиці у запрошеному діапазоні.
 
-Для підтримки перерахування кваліфікаторів, власників та типів таблиць доступна наступна спеціальна семантика для `catalog` `schema` `table` і `table_type`
+Для підтримки перерахування кваліфікаторів, власників та типів таблиць доступна наступна спеціальна семантика для `catalog` `schema` `table`и`table_type` :
 
--   Якщо значення `catalog` дорівнює символу відсотка (%), а `schema` і `table` є порожніми рядками, то результуючий набір міститиме список допустимих кваліфікаторів для джерела даних (усі стовпці, крім стовпця TABLEQUALIFIER, містять NULL).
--   Якщо значення `schema` дорівнює символу відсотка (%), а `catalog` і `table` є порожніми рядками, то результуючий набір міститиме список допустимих власників для джерела даних (усі стовпці, крім стовпця TABLEOWNER, містять NULL).
--   Якщо значення `table_type` дорівнює символу відсотка (%), а `catalog` `schema` і `table` є порожніми рядками, то результуючий набір міститиме список допустимих типів таблиць для джерела даних. (Всі стовпці, крім стовпця TABLETYPE, містять NULL).
+-   Если значение`catalog`дорівнює символу відсотка (%), а`schema`и`table`є порожніми рядками, то результуючий набір міститиме список допустимих кваліфікаторів для джерела даних (усі стовпці, крім стовпця TABLE\_QUALIFIER, містять NULL).
+-   Если значение`schema`дорівнює символу відсотка (%), а`catalog`и`table`є порожніми рядками, то результуючий набір міститиме список допустимих власників для джерела даних (усі стовпці, крім стовпця TABLE\_OWNER, містять NULL).
+-   Если значение`table_type`дорівнює символу відсотка (%), а`catalog` `schema`и`table`є порожніми рядками, то результуючий набір міститиме список допустимих типів таблиць для джерела даних. (Всі стовпці, крім стовпця TABLE\_TYPE, містять NULL).
 
 ### Список параметрів
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `catalog`
 
@@ -46,11 +47,11 @@ odbc_tables(    resource $odbc,    ?string $catalog = null,    ?string $schema =
 
 `types`
 
-Якщо параметр `table_type` не є порожнім рядком, то він повинен містити список значень, розділених комами, для типів, що цікавлять; кожне значення може бути укладено в одинарні лапки (`'`) або не укладено в лапки. Наприклад, `'TABLE','VIEW'` або `TABLE, VIEW`. Якщо джерело даних не підтримує зазначений тип таблиці, **odbctables()** не поверне жодних результатів цього типу.
+Якщо параметр `table_type` не є порожнім рядком, то він повинен містити список значень, розділених комами, для типів, що цікавлять; кожне значення може бути укладено в одинарні лапки (`'`) або не укладено в лапки. Наприклад, `'TABLE','VIEW'`или`TABLE, VIEW`. Якщо джерело даних не підтримує зазначений тип таблиці, **odbc\_tables()** не поверне жодних результатів цього типу.
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор результату ODBC, який містить інформацію або **`false`** у разі виникнення помилки.
+Возвращает идентификатор результата ODBC, содержащий информацию или\*\*`false`\*\*в случае возникновения ошибки.
 
 У результуючому наборі є такі стовпці:
 
@@ -62,13 +63,13 @@ odbc_tables(    resource $odbc,    ?string $catalog = null,    ?string $schema =
 
 Драйвери можуть повідомляти додаткові стовпці.
 
-Результуючий набір впорядковується за `TABLE_TYPE` `TABLE_CAT` `TABLE_SCHEM` і `TABLE_NAME`
+Результирующий набор упорядочивается по`TABLE_TYPE` `TABLE_CAT` `TABLE_SCHEM`и`TABLE_NAME`
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `schema` `table` і `types` тепер можуть набувати значення null. |
+| 8.0.0 | `schema` `table`и`types` тепер можуть набувати значення null. |
 
 ### Приклади
 
@@ -85,7 +86,7 @@ while (($row = odbc_fetch_array($tables))) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -100,8 +101,8 @@ Array
 
 ### Дивіться також
 
--   [odbctableprivileges()](function.odbc-tableprivileges.md) - Перераховує таблиці та привілеї, пов'язані з кожною таблицею
--   [odbccolumns()](function.odbc-columns.md) - перераховує імена стовпців у зазначених таблицях
--   [odbcspecialcolumns()](function.odbc-specialcolumns.md) - Витягує особливі стовпці
--   [odbcstatistics()](function.odbc-statistics.md) - Отримує статистику про таблицю
--   [odbcprocedures()](function.odbc-procedures.md) - Отримує список процедур, що зберігаються у певному джерелі даних
+-   [odbc\_tableprivileges()](function.odbc-tableprivileges.md) \- Перераховує таблиці та привілеї, пов'язані з кожною таблицею
+-   [odbc\_columns()](function.odbc-columns.md) \- перераховує імена стовпців у зазначених таблицях
+-   [odbc\_specialcolumns()](function.odbc-specialcolumns.md) \- Витягує особливі стовпці
+-   [odbc\_statistics()](function.odbc-statistics.md) \- Отримує статистику про таблицю
+-   [odbc\_procedures()](function.odbc-procedures.md) \- Отримує список процедур, що зберігаються у певному джерелі даних

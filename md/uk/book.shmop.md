@@ -1,14 +1,15 @@
 ---
 navigation:
   - class.sysvsharedmemory.md: « SysvSharedMemory
-  - intro.shmop.md: Введение »
+  - intro.shmop.md: Вступ "
   - index.md: PHP Manual
-  - refs.fileprocess.process.md: Модули для управления процессами программ
+  - refs.fileprocess.process.md: Модулі для керування процесами програм
 title: 'Управління пам''яттю, що розділяється'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Управління пам'яттю, що розділяється
 
--   [Введение](intro.shmop.md)
+-   [Вступ](intro.shmop.md)
 -   [Встановлення та налаштування](shmop.setup.md)
     -   [Вимоги](shmop.requirements.md)
     -   [Установка](shmop.installation.md)
@@ -16,12 +17,12 @@ title: 'Управління пам''яттю, що розділяється'
     -   [Типи ресурсів](shmop.resources.md)
 -   [Обумовлені константи](shmop.constants.md)
 -   [Приклади](shmop.examples.md)
-    -   [Базовое использование](shmop.examples-basic.md)
+    -   [Базове використання](shmop.examples-basic.md)
 -   [Пам'ять, що розділяється (shared)](ref.shmop.md)
-    -   [shmopclose](function.shmop-close.md) — Закриття блоку пам'яті, що розділяється
-    -   [shmopdelete](function.shmop-delete.md) — Видалення блоку пам'яті, що розділяється.
-    -   [shmopopen](function.shmop-open.md) — Резервування або використання блоку пам'яті, що розділяється
-    -   [shmopread](function.shmop-read.md) — Читання даних із ділянки пам'яті, що розділяється
-    -   [shmopsize](function.shmop-size.md) — Повертає розмір блоку в пам'яті, що розділяється.
-    -   [shmopwrite](function.shmop-write.md) — Запис даних у пам'ять, що розділяється
--   [Shmop](class.shmop.md) - Клас Shmop
+    -   [shmop\_close](function.shmop-close.md)— Закриття блоку пам'яті, що розділяється
+    -   [shmop\_delete](function.shmop-delete.md)— Видалення блоку пам'яті, що розділяється.
+    -   [shmop\_open](function.shmop-open.md)— Резервування або використання блоку пам'яті, що розділяється
+    -   [shmop\_read](function.shmop-read.md)— Читання даних із ділянки пам'яті, що розділяється
+    -   [shmop\_size](function.shmop-size.md)— Повертає розмір блоку в пам'яті, що розділяється.
+    -   [shmop\_write](function.shmop-write.md)— Запис даних у пам'ять, що розділяється
+-   [Shmop](class.shmop.md) \- Клас Shmop

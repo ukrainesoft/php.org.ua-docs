@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.ui-draw-line-cap.md: « UIDrawLineCap
-  - class.ui-key.md: ОЙKey »
+  - class.ui-draw-line-cap.md: « UI\\Draw\\Line\\Cap
+  - class.ui-key.md: UI\\Key »
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Налаштування з'єднання ліній
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Налаштування з'єднання ліній
 
@@ -14,7 +15,7 @@ title: Налаштування з'єднання ліній
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 

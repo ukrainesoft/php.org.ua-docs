@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apache-getenv.md: « apachegetenv
-  - function.apache-note.md: apachenote »
+  - function.apache-getenv.md: « apache\_getenv
+  - function.apache-note.md: apache\_note »
   - index.md: PHP Manual
-  - ref.apache.md: Функции Apache
-title: apachelookupuri
+  - ref.apache.md: Функції Apache
+title: apache\_lookup\_uri
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apachelookupuri
+# apache\_lookup\_uri
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-apachelookupuri — Здійснити частковий запит на вказаний URI та повернути усі отримані відомості
+apache\_lookup\_uri — Здійснити частковий запит на вказаний URI та повернути усі отримані відомості
 
 ### Опис
 
@@ -18,7 +19,7 @@ apachelookupuri — Здійснити частковий запит на вка
 apache_lookup_uri(string $filename): object|false
 ```
 
-Ця функція здійснює частковий запит на вказаний URI. Цього достатньо для отримання всієї важливої ​​інформації про передану функцію ресурсу.
+Ця функція здійснює частковий запит на вказаний URI. Цього достатньо для отримання всієї важливої ​​інформації про функцію переданого ресурсу.
 
 Ця функція підтримується лише якщо PHP встановлений як модуль Apache у веб-серверах.
 
@@ -33,32 +34,32 @@ apache_lookup_uri(string $filename): object|false
 Об'єкт, що містить інформацію про переданий URI. Властивістю даного об'єкта є:
 
 -   status
--   therequest
--   statusline
--   метод
--   contenttype
+-   the\_request
+-   status\_line
+-   method
+-   content\_type
 -   handler
 -   uri
 -   filename
--   pathinfo
+-   path\_info
 -   args
 -   boundary
--   алеcache
--   алеlocalcopy
+-   no\_cache
+-   no\_local\_copy
 -   allowed
--   sendbodyct
--   bytessent
+-   send\_bodyct
+-   bytes\_sent
 -   byterange
 -   clength
--   unparseduri
+-   unparsed\_uri
 -   mtime
--   requesttime
+-   request\_time
 
-Повертає **`false`** у разі виникнення помилки.
+Повертає \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apachelookupuri()****
+**Пример #1 Пример использования**apache\_lookup\_uri()\*\*\*\*
 
 ```php
 <?php
@@ -71,7 +72,7 @@ if (file_exists($info->filename)) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 stdClass Object

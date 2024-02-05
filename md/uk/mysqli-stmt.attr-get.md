@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-stmt.affected-rows.md: '« mysqlistmt::$affectedrows'
-  - mysqli-stmt.attr-set.md: 'mysqlistmt::attrset »'
+  - mysqli-stmt.affected-rows.md: '« mysqli\_stmt::$affected\_rows'
+  - mysqli-stmt.attr-set.md: 'mysqli\_stmt::attr\_set »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::attrget'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::attr\_get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::attrget
+# mysqli\_stmt::attr\_get
 
-# mysqlistmtattrget
+# mysqli\_stmt\_attr\_get
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::attrget - mysqlistmtattrget — Отримує поточне значення атрибуту запиту
+mysqli\_stmt::attr\_get -- mysqli\_stmt\_attr\_get — Отримує поточне значення атрибуту запиту
 
 ### Опис
 
@@ -34,7 +35,7 @@ mysqli_stmt_attr_get(mysqli_stmt $statement, int $attribute): int
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 `attribute`
 

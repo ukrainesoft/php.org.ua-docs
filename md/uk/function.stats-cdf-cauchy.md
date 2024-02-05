@@ -1,35 +1,36 @@
 ---
 navigation:
-  - function.stats-cdf-binomial.md: « statscdfbinomial
-  - function.stats-cdf-chisquare.md: statscdfchisquare »
+  - function.stats-cdf-binomial.md: « stats\_cdf\_binomial
+  - function.stats-cdf-chisquare.md: stats\_cdf\_chisquare »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statscdfcauchy
+title: stats\_cdf\_cauchy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statscdfcauchy
+# stats\_cdf\_cauchy
 
 (PECL stats >= 1.0.0)
 
-statscdfcauchy — Обчислює один із параметрів розподілу Коші за іншими
+stats\_cdf\_cauchy — Обчислює один із параметрів розподілу Коші за іншими
 
 ### Опис
 
 ```methodsynopsis
-stats_cdf_cauchy(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_cauchy(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
-Повертає кумулятивну функцію розподілу Коші, обернену їй або один із своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`
+Повертає кумулятивну функцію розподілу Коші, обернену їй або один із своїх параметрів. Вигляд значення і параметрів (`par1` `par2`и`par3`) определяются параметром`which`
 
-У наступній таблиці перераховані значення, що повертаються, і параметри в залежності від `which`. CDF, x, x0 та gamma позначає функцію кумулятивного розподілу, значення випадкової змінної, параметр зсуву та масштабу відповідно.
+У наступній таблиці перераховані значення і параметри, що повертаються, в залежності від `which`. CDF, x, x0 та gamma позначає функцію кумулятивного розподілу, значення випадкової змінної, параметр зсуву та масштабу відповідно.
 
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
 | --- | --- | --- | --- | --- |
-|  | CDF | з | кс0 | gamma |
-|  | з | CDF | кс0 | gamma |
-|  | кс0 | з | CDF | gamma |
-|  | gamma | з | CDF | кс0 |
+|  | CDF | x | x0 | gamma |
+|  | x | CDF | x0 | gamma |
+| 3 | x0 | x | CDF | gamma |
+| 4 | gamma | x | CDF | x0 |
 
 ### Список параметрів
 

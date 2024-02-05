@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-serialize.pack.md: '« SwooleSerialize::pack'
-  - class.swoole-server.md: SwooleServer »
+  - swoole-serialize.pack.md: '« Swoole\\Serialize::pack'
+  - class.swoole-server.md: Swoole\\Server »
   - index.md: PHP Manual
-  - class.swoole-serialize.md: SwooleSerialize
-title: 'SwooleSerialize::unpack'
+  - class.swoole-serialize.md: Swoole\\Serialize
+title: 'Swoole\\Serialize::unpack'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleSerialize::unpack
+# Swoole\\Serialize::unpack
 
 (PECL swoole >= 1.9.0)
 
-SwooleSerialize::unpack — Десеріалізувати дані
+Swoole\\Serialize::unpack — Десеріалізувати дані
 
 ### Опис
 

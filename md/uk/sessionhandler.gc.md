@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sessionhandler.md: SessionHandler
 title: 'SessionHandler::gc'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SessionHandler::gc
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SessionHandler::gc — Очищає старі сесії
 
@@ -18,9 +19,9 @@ SessionHandler::gc — Очищає старі сесії
 public SessionHandler::gc(int $max_lifetime): int|false
 ```
 
-Очищає сесії з терміном життя, що минув. Викликається випадково зсередини PHP коли сесія стартує або коли викликана функція [sessionstart()](function.session-start.md). Частота, з якої вона викликається, ґрунтується на значенні параметрів конфігурації [session.gcdivisor](session.configuration.md#ini.session.gc-divisor) і [session.gcprobability](session.configuration.md#ini.session.gc-probability)
+Очищає сесії з терміном життя, що минув. Викликається випадково зсередини PHP коли сесія стартує або коли викликана функція [session\_start()](function.session-start.md). Частота, з якої вона викликається, ґрунтується на значенні параметрів конфігурації [session.gc\_divisor](session.configuration.md#ini.session.gc-divisor) і [session.gc\_probability](session.configuration.md#ini.session.gc-probability)
 
-Цей метод обертає внутрішній обробник сесії, визначений у налаштуванні ini-файлу [session.savehandler](session.configuration.md#ini.session.save-handler) який встановлюється перед тим, як визначається даний обробник функції [sessionsetsavehandler()](function.session-set-save-handler.md)
+Цей метод обертає внутрішній обробник сесії, визначений у налаштуванні ini-файлу [session.save\_handler](session.configuration.md#ini.session.save-handler) який встановлюється перед тим, як визначається даний обробник функції [session\_set\_save\_handler()](function.session-set-save-handler.md)
 
 Якщо цей клас розширюється шляхом успадкування, виклик батьківського методу `gc` виконає код обгортки для цього методу, а також внутрішній обробник. Це дозволить методу бути перевизначеним, або перехопленим та відфільтрованим.
 
@@ -38,6 +39,6 @@ public SessionHandler::gc(int $max_lifetime): int|false
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | До цієї версії, у разі успішного виконання ця функція повертала **`true`** |
+| 7.1.0 | До цієї версії, у разі успішного виконання ця функція повертала **`true`** |

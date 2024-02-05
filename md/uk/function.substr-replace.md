@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.substr-count.md: « substrcount
+  - function.substr-count.md: « substr\_count
   - function.substr.md: substr »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: substrreplace
+title: substr\_replace
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# substrreplace
+# substr\_replace
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-substrreplace — Замінює частину рядка
+substr\_replace — Замінює частину рядка
 
 ### Опис
 
 ```methodsynopsis
-substr_replace(    array|string $string,    array|string $replace,    array|int $offset,    array|int|null $length = null): string|array
+substr_replace(    array|string $string,    array|string $replace,    array|int $offset,    array|int|null $length = null): string|array
 ```
 
-**substrreplace()** замінює частину рядка `string`, що починається із символу з порядковим номером `offset` та (необов'язковою) довжиною `length`, рядком `replace` та повертає результат.
+**substr\_replace()** замінює частину рядка `string`, що починається із символу з порядковим номером `offset` та (необов'язковою) довжиною `length`, рядком `replace` та повертає результат.
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ substr_replace(    array|string $string,    array|string $replace,    array|int 
 
 Вхідний рядок.
 
-Також можна вказати масив рядків, у цьому випадку заміни відбуватимуться з кожним наданим рядком. У цьому випадку параметри `replace` `offset` і `length` можуть бути як скалярними значеннями – у цьому випадку ці значення будуть застосовані до кожного рядка, так і масивами – у цьому випадку відповідні елементи масивів будуть застосовані до кожного наданого рядка.
+Також можна вказати масив рядків, у цьому випадку заміни відбуватимуться з кожним наданим рядком. У цьому випадку параметри `replace` `offset`и`length` можуть бути як скалярними значеннями – у цьому випадку ці значення будуть застосовані до кожного рядка, так і масивами – у цьому випадку відповідні елементи масивів будуть застосовані до кожного наданого рядка.
 
 `replace`
 
@@ -36,11 +37,11 @@ substr_replace(    array|string $string,    array|string $replace,    array|int 
 
 Якщо `offset` позитивний, заміна починається з символу з порядковим номером `offset` рядки `string`
 
-Якщо `offset` від'ємний, заміна починається із символу з порядковим номером `offset`, рахуючи від кінця рядка `string`
+Якщо `offset` від'ємний, заміна починається із символу з порядковим номером `offset`, считая от конца строки`string`
 
 `length`
 
-Якщо аргумент позитивний, то він являє собою довжину підрядки, що замінюється в рядку `string`. Якщо цей аргумент є негативним, він визначає кількість символів від кінця рядка `string`на яких закінчується заміна. Цей аргумент необов'язковий і за промовчанням дорівнює strlen(`string`);, тобто заміна до кінця рядка `string`. Зрозуміло, якщо `length` дорівнює нулю, то це еквівалентно вставці `replace` в `string` на вказаній позиції `offset`
+Если аргумент положителен, то он представляет собой длину заменяемой подстроки в строке`string`. Якщо цей аргумент є негативним, він визначає кількість символів від кінця рядка `string`на яких закінчується заміна. Цей аргумент необов'язковий і за промовчанням дорівнює strlen(`string`);, то есть замена до конца строки`string`. Зрозуміло, якщо `length` дорівнює нулю, то це еквівалентно вставці `replace`в`string` на вказаній позиції `offset`
 
 ### Значення, що повертаються
 
@@ -48,13 +49,13 @@ substr_replace(    array|string $string,    array|string $replace,    array|int 
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `length` тепер допускає значення null. |
+| 8.0.0 | `length` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Простий приклад використання **substrreplace()****
+**Приклад #1 Простий приклад використання **substr\_replace()****
 
 ```php
 <?php
@@ -77,7 +78,7 @@ echo substr_replace($var, '', 10, -1) . "<br />\n";
 ?>
 ```
 
-**Приклад #2 Використання **substrreplace()** для одночасної множинної заміни рядків**
+**Пример #2 Использование**substr\_replace()\*\* для одночасної множинної заміни рядків\*\*
 
 ```php
 <?php
@@ -96,7 +97,7 @@ echo implode('; ', substr_replace($input, $replace, 3, $length))."\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 A: YYY; B: YYY; C: YYY
@@ -110,6 +111,6 @@ A: AAAXX; B: BBBX; C: CCC
 
 ### Дивіться також
 
--   [strreplace()](function.str-replace.md) - Замінює всі входження рядка пошуку на рядок заміни
--   [substr()](function.substr.md) - Повертає підрядок
--   [Доступ к символу в строке и его изменение](language.types.string.md#language.types.string.substr)
+-   [str\_replace()](function.str-replace.md) \- Замінює всі входження рядка пошуку на рядок заміни
+-   [substr()](function.substr.md) \- Повертає підрядок
+-   [Доступ до символу в рядку та його зміна](language.types.string.md#language.types.string.substr)

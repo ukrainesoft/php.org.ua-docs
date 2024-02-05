@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-query.md: « sqlsrvquery
-  - function.sqlsrv-rows-affected.md: sqlsrvrowsaffected »
+  - function.sqlsrv-query.md: « sqlsrv\_query
+  - function.sqlsrv-rows-affected.md: sqlsrv\_rows\_affected »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvrollback
+title: sqlsrv\_rollback
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvrollback
+# sqlsrv\_rollback
 
 (No version information available, might only be in Git)
 
-sqlsrvrollback - Відкочує транзакцію, розпочату [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md)
+sqlsrv\_rollback - Відкочує транзакцію, розпочату [sqlsrv\_begin\_transaction()](function.sqlsrv-begin-transaction.md)
 
 ### Опис
 
@@ -18,23 +19,23 @@ sqlsrvrollback - Відкочує транзакцію, розпочату [sqls
 sqlsrv_rollback(resource $conn): bool
 ```
 
-Відкочує транзакцію, розпочату [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md) та повертає з'єднання з режимом автоматичної фіксації.
+Відкочує транзакцію, розпочату [sqlsrv\_begin\_transaction()](function.sqlsrv-begin-transaction.md) та повертає з'єднання з режимом автоматичної фіксації.
 
 ### Список параметрів
 
 `conn`
 
-Ресурс підключення, що повертається викликом [sqlsrvconnect()](function.sqlsrv-connect.md)
+Ресурс підключення, що повертається викликом [sqlsrv\_connect()](function.sqlsrv-connect.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvrollback()****
+**Пример #1 Пример использования**sqlsrv\_rollback()\*\*\*\*
 
-У наступному прикладі показано, як використовувати [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md) разом з [sqlsrvcommit()](function.sqlsrv-commit.md) або **sqlsrvrollback()**
+У наступному прикладі показано, як використовувати [sqlsrv\_begin\_transaction()](function.sqlsrv-begin-transaction.md)вместе с[sqlsrv\_commit()](function.sqlsrv-commit.md)или**sqlsrv\_rollback()**
 
 ```php
 <?php
@@ -80,5 +81,5 @@ if( $stmt1 && $stmt2 ) {
 
 ### Дивіться також
 
--   [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md) - Починає транзакцію бази даних
--   [sqlsrvcommit()](function.sqlsrv-commit.md) - Фіксує транзакцію, розпочату за допомогою sqlsrvbegintransaction
+-   [sqlsrv\_begin\_transaction()](function.sqlsrv-begin-transaction.md) \- Починає транзакцію бази даних
+-   [sqlsrv\_commit()](function.sqlsrv-commit.md) \- Фіксує транзакцію, розпочату за допомогою sqlsrv\_begin\_transaction

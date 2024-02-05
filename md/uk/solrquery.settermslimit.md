@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setTermsLimit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setTermsLimit
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setTermsLimit — Встановлює максимальну кількість виразів, що повертаються.
 

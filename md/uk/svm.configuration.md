@@ -1,10 +1,11 @@
 ---
 navigation:
-  - svm.installation.md: « Установка
+  - svm.installation.md: « Встановлення
   - svm.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - svm.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 

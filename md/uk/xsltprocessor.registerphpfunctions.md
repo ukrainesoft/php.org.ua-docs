@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::registerPHPFunctions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XSLTProcessor::registerPHPFunctions
 
-(PHP 5> = 5.0.4, PHP 7, PHP 8)
+(PHP 5 >= 5.0.4, PHP 7, PHP 8)
 
-XSLTProcessor::registerPHPFunctions — Включає можливість використовувати PHP функції як функції XSLT
+XSLTProcessor::registerPHPFunctions — Включає здатність функцій PHP працювати як функції XSLT
 
 ### Опис
 
@@ -18,15 +19,15 @@ XSLTProcessor::registerPHPFunctions — Включає можливість ви
 public XSLTProcessor::registerPHPFunctions(array|string|null $functions = null): void
 ```
 
-Цей метод дозволяє використовувати функції PHP як функції XSLT в XSL таблицях стилів.
+Цей метод робить PHP функції доступними як XSLT-функції в таблицях стилів XSL.
 
 ### Список параметрів
 
 `functions`
 
-Використовуйте цей параметр, якщо хочете викликати з XSLT тільки деякі функції.
+Використовуйте цей параметр, щоб дозволити виклик із XSLT лише окремих функцій.
 
-Цей параметр може приймати або рядкове значення – назва функції, або масив – список назв.
+Цей параметр може приймати або рядкове значення – назву функції, або масив – список назв.
 
 ### Значення, що повертаються
 
@@ -69,8 +70,10 @@ $xsl = <<<EOB
  </xsl:template>
 </xsl:stylesheet>
 EOB;
-$xmldoc = DOMDocument::loadXML($xml);
-$xsldoc = DOMDocument::loadXML($xsl);
+$xmldoc = new DOMDocument();
+$xmldoc->loadXML($xml);
+$xsldoc = new DOMDocument();
+$xsldoc->loadXML($xsl);
 
 $proc = new XSLTProcessor();
 $proc->registerPHPFunctions();

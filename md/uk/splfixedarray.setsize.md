@@ -1,14 +1,15 @@
 ---
 navigation:
-  - splfixedarray.rewind.md: '« SplFixedArray::rewind'
+  - splfixedarray.serialize.md: '« SplFixedArray::\_\_serialize'
   - splfixedarray.toarray.md: 'SplFixedArray::toArray »'
   - index.md: PHP Manual
   - class.splfixedarray.md: SplFixedArray
 title: 'SplFixedArray::setSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFixedArray::setSize
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplFixedArray::setSize — Змінює розмір масиву
 
@@ -18,27 +19,27 @@ SplFixedArray::setSize — Змінює розмір масиву
 public SplFixedArray::setSize(int $size): bool
 ```
 
-Встановлює розмір масиву значення `size`. Якщо `size` менше поточного розміру масиву, всі зайві значення відкидаються. Якщо ж `size` більше поточного розміру масиву, то масив буде доповнено **`null`** значеннями.
+Устанавливает размер массива в значение`size`. Якщо `size` менше поточного розміру масиву, всі зайві значення відкидаються. Якщо ж `size` більше поточного розміру масиву, то масив буде доповнено **`null`** значеннями.
 
 ### Список параметрів
 
 `size`
 
-Нове значення розміру масиву. Очікується значення між `0` і **`PHP_INT_MAX`**
+Новое значение размера массива. Ожидается значение между и\*\*`PHP_INT_MAX`\*\*
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Викидає виняток [InvalidArgumentException](class.invalidargumentexception.md), коли `size` меньше нуля.
+Викидає виняток [InvalidArgumentException](class.invalidargumentexception.md), когда`size`меньше нуля.
 
-Викликає помилку рівня **`E_WARNING`**, коли `size` не можна обробити як число.
+Викликає помилку рівня **`E_WARNING`**, когда`size` не можна обробити як число.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFixedArray::setSize()****
+**Пример #1 Пример использования**SplFixedArray::setSize()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ public SplFixedArray::setSize(int $size): bool
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 5

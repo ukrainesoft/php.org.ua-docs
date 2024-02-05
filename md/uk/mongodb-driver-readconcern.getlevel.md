@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-readconcern.construct.md: '« MongoDBDriverReadConcern::construct'
-  - mongodb-driver-readconcern.isdefault.md: 'MongoDBDriverReadConcern::isDefault »'
+  - mongodb-driver-readconcern.construct.md: '« MongoDB\\Driver\\ReadConcern::\_\_construct'
+  - mongodb-driver-readconcern.isdefault.md: 'MongoDB\\Driver\\ReadConcern::isDefault »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readconcern.md: MongoDBDriverReadConcern
-title: 'MongoDBDriverReadConcern::getLevel'
+  - class.mongodb-driver-readconcern.md: MongoDB\\Driver\\ReadConcern
+title: 'MongoDB\\Driver\\ReadConcern::getLevel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverReadConcern::getLevel
+# MongoDB\\Driver\\ReadConcern::getLevel
 
 (mongodb >=1.0.0)
 
-MongoDBDriverReadConcern::getLevel — Повертає опцію "level" ReadConcern
+MongoDB\\Driver\\ReadConcern::getLevel — Повертає опцію "level" ReadConcern
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\Driver\ReadConcern::getLevel(): ?string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverReadConcern::getLevel()****
+**Пример #1 Пример использования**MongoDB\\Driver\\ReadConcern::getLevel()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($rc->getLevel());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 NULL
@@ -59,4 +60,4 @@ string(8) "majority"
 
 ### Дивіться також
 
--   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)
+-   [» Довідка за гарантіями читання](https://www.mongodb.com/docs/manual/reference/read-concern/)

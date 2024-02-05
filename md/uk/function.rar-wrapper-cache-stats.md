@@ -4,13 +4,14 @@ navigation:
   - class.rararchive.md: RarArchive »
   - index.md: PHP Manual
   - ref.rar.md: Rar
-title: rarwrappercachestats
+title: rar\_wrapper\_cache\_stats
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# rarwrappercachestats
+# rar\_wrapper\_cache\_stats
 
 (PECL rar >= 3.0.0)
 
-rarwrappercachestats — Кеш доступів та відмов обгортки URL
+rar\_wrapper\_cache\_stats — Кеш доступів та відмов обгортки URL
 
 ### Опис
 
@@ -20,7 +21,7 @@ rar_wrapper_cache_stats(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::distortImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::distortImage
 
-(PECL imagick 2> = 2.0.1, PECL imagick 3)
+(PECL imagick 2 >= 2.0.1, PECL imagick 3)
 
 Imagick::distortImage — Спотворює зображення, використовуючи різні методи спотворення
 
@@ -28,7 +29,7 @@ public Imagick::distortImage(int $method, array $arguments, bool $bestfit): bool
 
 `method`
 
-Метод спотворення зображення. Дивіться [константи спотворення](imagick.constants.md#imagick.constants.distortion)
+Метод искажения изображения. Смотрите[константи спотворення](imagick.constants.md#imagick.constants.distortion)
 
 `arguments`
 
@@ -48,7 +49,7 @@ public Imagick::distortImage(int $method, array $arguments, bool $bestfit): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::distortImage()****
+**Пример #1 Пример использования**Imagick::distortImage()\*\* :\*\*
 
 Спотворення зображення та відображення у браузері.
 
@@ -91,12 +92,12 @@ echo $im;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Приклад використання Imagick::distortImage()](images/c0d23d2d6769e53e24a1b3136c064577-distortImage.png)
 
 ### Дивіться також
 
--   [Imagick::blurImage()](imagick.blurimage.md) - Додає фільтр розмиття до зображення
--   [Imagick::motionBlurImage()](imagick.motionblurimage.md) - Імітує розмиття у русі
--   [Imagick::radialBlurImage()](imagick.radialblurimage.md) - Радіальне розмиття зображення
+-   [Imagick::blurImage()](imagick.blurimage.md) \- Додає фільтр розмиття до зображення
+-   [Imagick::motionBlurImage()](imagick.motionblurimage.md) \- Імітує розмиття у русі
+-   [Imagick::radialBlurImage()](imagick.radialblurimage.md) \- Радіальне розмиття зображення

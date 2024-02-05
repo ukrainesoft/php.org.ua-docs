@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-patch.getclosure.md: '« ComponerePatch::getClosure'
-  - class.componere-method.md: ComponereMethod »
+  - componere-patch.getclosure.md: '« Componere\\Patch::getClosure'
+  - class.componere-method.md: Componere\\Method »
   - index.md: PHP Manual
-  - class.componere-patch.md: ComponerePatch
-title: 'ComponerePatch::getClosures'
+  - class.componere-patch.md: Componere\\Patch
+title: 'Componere\\Patch::getClosures'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponerePatch::getClosures
+# Componere\\Patch::getClosures
 
 (Componere 2 >= 2.1.0)
 
-ComponerePatch::getClosures — Отримує замикання
+Componere\\Patch::getClosures — Отримує замикання
 
 ### Опис
 

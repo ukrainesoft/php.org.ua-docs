@@ -4,12 +4,13 @@ navigation:
   - cubrid.configuration.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - cubrid.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/cubrid](https://pecl.php.net/package/cubrid)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Встановлення PECL модулів](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/cubrid](https://pecl.php.net/package/cubrid)
 
-DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.md)
+DLL для цього модуля PECL поки що недоступна. Дивіться також розділ [збирання на Windows](install.windows.building.md)
 
-Інструкцію з ручного встановлення під Linux і Windows читайте у файлі build-guide.html, включеному в пакет.
+Інструкцію з ручної установки під Linux та Windows читайте у файлі build-guide.md, включеному до пакету.

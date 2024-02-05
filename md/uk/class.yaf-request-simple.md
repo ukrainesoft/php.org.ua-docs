@@ -1,18 +1,19 @@
 ---
 navigation:
-  - yaf-request-http.isxmlhttprequest.md: '« YafRequestHttp::isXmlHttpRequest'
-  - yaf-request-simple.construct.md: 'YafRequestSimple::construct »'
+  - yaf-request-http.isxmlhttprequest.md: '« Yaf\_Request\_Http::isXmlHttpRequest'
+  - yaf-request-simple.construct.md: 'Yaf\_Request\_Simple::\_\_construct »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafRequestSimple
+title: Клас Yaf\_Request\_Simple
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafRequestSimple
+# Клас Yaf\_Request\_Simple
 
 (Yaf >=1.0.0)
 
 ## Вступ
 
-**YafRequestSimple** зазвичай використовується з метою тестування. Наприклад, для емуляції спеціальних запитів із режиму CLI.
+**Yaf\_Request\_Simple** зазвичай використовується з метою тестування. Наприклад, для емуляції спеціальних запитів із режиму CLI.
 
 ## Огляд класів
 
@@ -47,7 +48,7 @@ title: Клас YafRequestSimple
 
     /* Методы */
     
-   public __construct(    string $method = ?,    string $module = ?,    string $controller = ?,    string $action = ?,    array $params = ?)
+   public __construct(    string $method = ?,    string $module = ?,    string $controller = ?,    string $action = ?,    array $params = ?)
 
     public get(): void
 public getCookie(): void
@@ -102,15 +103,15 @@ controller
 
 action
 
-метод
+method
 
 params
 
 language
 
-exception
+\_exception
 
-baseuri
+\_base\_uri
 
 uri
 
@@ -126,11 +127,11 @@ routed
 
 ## Зміст
 
--   [YafRequestSimple::construct](yaf-request-simple.construct.md) - Конструктор класу YafRequestSimple
--   [YafRequestSimple::get](yaf-request-simple.get.md) - Призначення get
--   [YafRequestSimple::getCookie](yaf-request-simple.getcookie.md) - Призначення getCookie
--   [YafRequestSimple::getFiles](yaf-request-simple.getfiles.md) - Призначення getFiles
--   [YafRequestSimple::getPost](yaf-request-simple.getpost.md) - Призначення getPost
--   [YafRequestSimple::getQuery](yaf-request-simple.getquery.md) - Призначення getQuery
--   [YafRequestSimple::getRequest](yaf-request-simple.getrequest.md) - Призначення getRequest
--   [YafRequestSimple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.md) - Визначає, чи є запит AJAX-запитом
+-   [Yaf\_Request\_Simple::\_\_construct](yaf-request-simple.construct.md) \- Конструктор класу Yaf\_Request\_Simple
+-   [Yaf\_Request\_Simple::get](yaf-request-simple.get.md) \- Призначення get
+-   [Yaf\_Request\_Simple::getCookie](yaf-request-simple.getcookie.md) \- Призначення getCookie
+-   [Yaf\_Request\_Simple::getFiles](yaf-request-simple.getfiles.md) \- Призначення getFiles
+-   [Yaf\_Request\_Simple::getPost](yaf-request-simple.getpost.md) \- Призначення getPost
+-   [Yaf\_Request\_Simple::getQuery](yaf-request-simple.getquery.md) \- Призначення getQuery
+-   [Yaf\_Request\_Simple::getRequest](yaf-request-simple.getrequest.md) \- Призначення getRequest
+-   [Yaf\_Request\_Simple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.md) \- Визначає, чи є запит AJAX-запитом

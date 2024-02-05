@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-ping.md: « cubridping
-  - function.cubrid-real-escape-string.md: cubridrealescapestring »
+  - function.cubrid-ping.md: « cubrid\_ping
+  - function.cubrid-real-escape-string.md: cubrid\_real\_escape\_string »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridquery
+title: cubrid\_query
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridquery
+# cubrid\_query
 
 (PECL CUBRID >= 8.3.1)
 
-cubridquery — Надсилання запиту CUBRID
+cubrid\_query — Надсилання запиту CUBRID
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridquery — Надсилання запиту CUBRID
 cubrid_query(string $query, resource $conn_identifier = ?): resource
 ```
 
-Функція **cubridquery()** посилає унікальний запит (множинні запити не підтримуються) поточної активної бази даних, заданої ідентифікатором з'єднання `conn_identifier`
+Функция**cubrid\_query()** посилає унікальний запит (множинні запити не підтримуються) поточної активної бази даних, заданої ідентифікатором з'єднання `conn_identifier`
 
 ### Список параметрів
 
@@ -30,25 +31,25 @@ SQL-запит
 
 `conn_identifier`
 
-Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє, відкрите за допомогою [cubridconnect()](function.cubrid-connect.md) з'єднання.
+Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє, відкрите за допомогою [cubrid\_connect()](function.cubrid-connect.md)соединение.
 
 ### Значення, що повертаються
 
-Для SELECT, SHOW, DESCRIBE, EXPLAIN та інших запитів, що повертають результуючий набір, **cubridquery()** повертає resource у разі успішного виконання та **`false`** у разі виникнення помилки.
+Для SELECT, SHOW, DESCRIBE, EXPLAIN та інших запитів, що повертають результуючий набір, **cubrid\_query()** повертає resource у разі успішного виконання та \*\*`false`\*\*в случае возникновения ошибки.
 
-Для інших типів SQL-запитів, INSERT, UPDATE, DELETE, DROP і т.д. **cubridquery()** повертає **`true`** або **`false`** залежно від успішності виконання.
+Для інших типів SQL-запитів, INSERT, UPDATE, DELETE, DROP і т.д. **cubrid\_query()** повертає **`true`**или**`false`** залежно від успішності виконання.
 
-Повернутий результат можна передавати у функцію [cubridfetcharray()](function.cubrid-fetch-array.md) і їй подібні до роботи з отриманими даними.
+Повернутий результат можна передавати у функцію [cubrid\_fetch\_array()](function.cubrid-fetch-array.md) і їй подібні до роботи з отриманими даними.
 
-Використовуйте [cubridnumrows()](function.cubrid-num-rows.md) для визначення кількості повернутих оператором SELECT рядків або [cubridaffectedrows()](function.cubrid-affected-rows.md) для визначення кількості порушених рядків, для запитів, що змінюють дані, таких як DELETE, INSERT, REPLACE та UPDATE.
+Используйте[cubrid\_num\_rows()](function.cubrid-num-rows.md) для визначення кількості повернутих оператором SELECT рядків або [cubrid\_affected\_rows()](function.cubrid-affected-rows.md) для визначення кількості порушених рядків, для запитів, що змінюють дані, таких як DELETE, INSERT, REPLACE та UPDATE.
 
-**cubridquery()** також може завершитися з помилкою та повернути **`false`**, якщо користувач не має права на доступ до таблиці, яка використовується у запиті.
+**cubrid\_query()** також може завершитися з помилкою та повернути **`false`**, якщо користувач не має права на доступ до таблиці, яка використовується у запиті.
 
 ### Приклади
 
 **Приклад #1 Некоректний запит**
 
-Наступний запит містить синтаксичну помилку, тому **cubridquery()** поверне **`false`**
+Наступний запит містить синтаксичну помилку, тому **cubrid\_query()** поверне **`false`**
 
 ```php
 <?php
@@ -64,7 +65,7 @@ if (!$result) {
 
 **Приклад #2 Коректний запит**
 
-Наступний запит коректний, тож **cubridquery()** поверне ресурс.
+Наступний запит коректний, тож **cubrid\_query()** поверне ресурс.
 
 ```php
 <?php
@@ -115,9 +116,9 @@ cubrid_free_result($result);
 
 ### Дивіться також
 
--   [cubridconnect()](function.cubrid-connect.md) - Відкриває з'єднання з сервером CUBRID
--   [cubriderror()](function.cubrid-error.md) - Повертає текст останньої помилки, що відбулася.
--   [cubridrealescapestring()](function.cubrid-real-escape-string.md) - Екранування спеціальних символів у SQL-запиті
--   [cubridresult()](function.cubrid-result.md) - Отримати значення із заданого стовпця заданого рядка
--   [cubridfetchassoc()](function.cubrid-fetch-assoc.md) - Витягти рядок із результуючого набору у вигляді асоціативного масиву
--   [cubridunbufferedquery()](function.cubrid-unbuffered-query.md) - Виконання запиту без завантаження результату на згадку
+-   [cubrid\_connect()](function.cubrid-connect.md) \- Відкриває з'єднання з сервером CUBRID
+-   [cubrid\_error()](function.cubrid-error.md) \- Повертає текст останньої помилки, що відбулася.
+-   [cubrid\_real\_escape\_string()](function.cubrid-real-escape-string.md) \- Екранування спеціальних символів у SQL-запиті
+-   [cubrid\_result()](function.cubrid-result.md) \- Отримати значення із заданого стовпця заданого рядка
+-   [cubrid\_fetch\_assoc()](function.cubrid-fetch-assoc.md) \- Витягти рядок із результуючого набору у вигляді асоціативного масиву
+-   [cubrid\_unbuffered\_query()](function.cubrid-unbuffered-query.md) \- Виконання запиту без завантаження результату на згадку

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::fromDateTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::fromDateTime
 
@@ -34,15 +35,15 @@ intlcal_from_date_time(DateTime|string $datetime, ?string $locale = null): ?Intl
 
 `datetime`
 
-Об'єкт [DateTime](class.datetime.md) або рядок (string, яка може бути передана в [DateTime::construct()](datetime.construct.md)
+Об'єкт [DateTime](class.datetime.md) або рядок (string, яка може бути передана в [DateTime::\_\_construct()](datetime.construct.md)
 
 ### Значення, що повертаються
 
-Створений об'єкт [IntlCalendar](class.intlcalendar.md) або **`null`** у разі виникнення помилки. Якщо передається рядок (string), викидається будь-який виняток, що виникає всередині конструктора [DateTime](class.datetime.md)
+Створений об'єкт [IntlCalendar](class.intlcalendar.md)или\*\*`null`\*\* у разі виникнення помилки. Якщо передається рядок (string), викидається будь-який виняток, що виникає всередині конструктора [DateTime](class.datetime.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::fromDateTime()****
+**Пример #1 Пример использования**IntlCalendar::fromDateTime()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ $cal1 = IntlCalendar::fromDateTime('2013-02-28 00:01:02 Europe/Berlin');
 echo IntlDateFormatter::formatObject($cal1, 'yyyy MMMM d HH:mm:ss VVVV', 'de_DE'), "\n";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 2013 Februar 28 00:01:02 Deutschland Zeit

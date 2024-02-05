@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-set-timeout.md: « streamsettimeout
-  - function.stream-socket-accept.md: streamsocketaccept »
+  - function.stream-set-timeout.md: « stream\_set\_timeout
+  - function.stream-socket-accept.md: stream\_socket\_accept »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamsetwritebuffer
+title: stream\_set\_write\_buffer
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamsetwritebuffer
+# stream\_set\_write\_buffer
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-streamsetwritebuffer — Встановлює буферизацію файлу під час запису у вказаний потік
+stream\_set\_write\_buffer — Встановлює буферизацію файлу під час запису у вказаний потік
 
 ### Опис
 
@@ -18,7 +19,7 @@ streamsetwritebuffer — Встановлює буферизацію файлу 
 stream_set_write_buffer(resource $stream, int $size): int
 ```
 
-Встановлює буферизацію операцій запису на заданому потоці `stream` до числа `size` байт.
+Устанавливает буферизацию для операций записи на заданном потоке`stream` до числа `size`байт.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ stream_set_write_buffer(resource $stream, int $size): int
 
 `size`
 
-Число байт для буферизації. Якщо аргумент `size` дорівнює 0, то операції запису не буферизуються. Це гарантує, що всі операції запису з використанням функції [fwrite()](function.fwrite.md) будуть завершені перед тим, як іншим процесам буде дозволено записувати потік виведення.
+Число байт для буферизации. Если аргумент`size` дорівнює 0, то операції запису не буферизуються. Це гарантує, що всі операції запису з використанням функції [fwrite()](function.fwrite.md) будуть завершені перед тим, як іншим процесам буде дозволено записувати потік виведення.
 
 ### Значення, що повертаються
 
@@ -36,9 +37,9 @@ stream_set_write_buffer(resource $stream, int $size): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **streamsetwritebuffer()****
+**Пример #1 Пример использования**stream\_set\_write\_buffer()\*\*\*\*
 
-Наступний приклад демонструє використання функції **streamsetwritebuffer()** для створення потоку, що не буферизується.
+Следующий пример демонстрирует использование функции**stream\_set\_write\_buffer()** для створення потоку, що не буферизується.
 
 ```php
 <?php
@@ -55,5 +56,5 @@ if ($fp) {
 
 ### Дивіться також
 
--   [fopen()](function.fopen.md) - Відкриває файл або URL
--   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл
+-   [fopen()](function.fopen.md) \- Відкриває файл або URL
+-   [fwrite()](function.fwrite.md) \- Бінарно-безпечний запис у файл

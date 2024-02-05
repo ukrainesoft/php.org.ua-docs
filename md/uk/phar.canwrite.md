@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::canWrite'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::canWrite
 
@@ -28,7 +29,7 @@ final public static Phar::canWrite(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::canWrite()****
+**Пример #1 Пример использования**Phar::canWrite()\*\*\*\*
 
 ```php
 <?php
@@ -41,4 +42,4 @@ if (Phar::canWrite()) {
 ### Дивіться також
 
 -   [phar.readonly](phar.configuration.md#ini.phar.readonly)
--   [Phar::isWritable()](phar.iswritable.md) - Перевіряє, чи можна модифікувати phar-архів
+-   [Phar::isWritable()](phar.iswritable.md) \- Перевіряє, чи можна модифікувати phar-архів

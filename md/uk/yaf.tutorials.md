@@ -1,10 +1,11 @@
 ---
 navigation:
-  - yaf.constants.md: « Обумовлені константи
-  - yaf.appconfig.md: Конфигурация приложения »
+  - yaf.constants.md: « Зумовлені константи
+  - yaf.appconfig.md: Конфігурація програми »
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -30,7 +31,7 @@ title: Приклади
 
 **Приклад #2 Вступ**
 
-index.php єдина точка входу в додаток, всі запити ви повинні надсилати через нього (наприклад, за допомогою .htaccess в Apache + phpmod)
+index.php єдина точка входу в додаток, всі запити ви повинні надсилати через нього (наприклад, за допомогою .htaccess в Apache + php\_mod)
 
 ```php
 <?php
@@ -55,7 +56,7 @@ server {
   listen ****;
   server_name  domain.com;
   root   document_root;
-  index  index.php index.html index.htm;
+  index  index.php index.md index.htm;
 
   if (!-e $request_filename) {
     rewrite ^/(.*)  /index.php$1 last;
@@ -72,9 +73,9 @@ $HTTP["host"] =~ "(www.)?domain.com$" {
 
 **Приклад #4 Конфігурація програми**
 
-yaf;APPLICATIONPATH має бути визначена в index.php application.directory=APPLICATIONPATH "/application/"
+\[yaf\];APPLICATION\_PATH має бути визначена в index.php application.directory=APPLICATION\_PATH "/application/"
 
-;product секція повинна успадковувати yafproduct:yaffoo=bar
+;product секция должна наследовать yaf\[product:yaf\]foo=bar
 
 **Приклад #5 Контролер за замовчуванням**
 
@@ -106,7 +107,7 @@ class IndexController extends Yaf_Controller_Abstract {
 
 **Приклад #7 Запуск програми**
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 <html>
@@ -119,6 +120,6 @@ class IndexController extends Yaf_Controller_Abstract {
 </html>
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Приклад вище можна створити за допомогою генератора коду Yaf який можна знайти тут yaf@github.

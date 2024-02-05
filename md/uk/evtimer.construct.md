@@ -4,22 +4,24 @@ navigation:
   - evtimer.createstopped.md: 'EvTimer::createStopped »'
   - index.md: PHP Manual
   - class.evtimer.md: EvTimer
-title: 'EvTimer::construct'
+title: 'EvTimer::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# EvTimer::construct
+# EvTimer::\_\_construct
 
 (PECL ev >= 0.2.0)
 
-EvTimer::construct - Конструктор об'єкта спостерігача EvTimer
+EvTimer::\_\_construct - Конструктор об'єкта спостерігача EvTimer
 
 ### Опис
 
-public **EvTimer::construct**  
-float `$after`  
-float `$repeat`  
+public**EvTimer::\_\_construct**  
+float`$after`  
+float`$repeat`  
 [callable](language.types.callable.md) `$callback`  
-[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` **`null`**  
-int `$priority`
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` = **`null`**  
+int`$priority` =  
+) .
 
 Конструктор об'єкта спостерігача EvTimer.
 
@@ -27,7 +29,7 @@ int `$priority`
 
 `after`
 
-Налаштовує таймер для запуску через `after` секунд.
+Налаштовує таймер для запуску через `after`секунд.
 
 `repeat`
 
@@ -35,15 +37,15 @@ int `$priority`
 
 `callback`
 
-Дивіться [Спостерігачі callback-функцій](ev.watcher-callbacks.md)
+Смотрите[Спостерігачі callback-функцій](ev.watcher-callbacks.md)
 
 `data`
 
-Дані користувача, пов'язані зі спостерігачем.
+Ці дані, пов'язані зі спостерігачем.
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
+[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
 
 ### Приклади
 
@@ -95,7 +97,7 @@ echo "END\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 2 секунды прошло
@@ -124,7 +126,7 @@ END
 
 ### Дивіться також
 
--   [EvTimer::createStopped()](evtimer.createstopped.md) - створює зупинений спостерігач EvTimer
+-   [EvTimer::createStopped()](evtimer.createstopped.md) \- створює зупинений спостерігач EvTimer
 -   [EvPeriodic](class.evperiodic.md)
--   [» evtimer - відносний і необов'язково повторюваний час очікування](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_timer_code_relative_and_opti)
+-   [» ev\_timer - відносний і необов'язково повторюваний час очікування](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_timer_code_relative_and_opti)
 -   [» Будьте обережні з часом очікування](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Be_smart_about_timeouts)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openal-source-pause.md: « openalsourcepause
-  - function.openal-source-rewind.md: openalsourcerewind »
+  - function.openal-source-pause.md: « openal\_source\_pause
+  - function.openal-source-rewind.md: openal\_source\_rewind »
   - index.md: PHP Manual
-  - ref.openal.md: Функции OpenAL
-title: openalsourceplay
+  - ref.openal.md: Функції OpenAL
+title: openal\_source\_play
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# openalsourceplay
+# openal\_source\_play
 
 (PECL openal >= 0.1.0)
 
-openalsourceplay — Почати відтворення джерела
+openal\_source\_play — Почати відтворення джерела
 
 ### Опис
 
@@ -22,14 +23,14 @@ openal_source_play(resource $source): bool
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.md) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.md)
+Ресурс[Open AL(Source)](openal.resources.md) (Створений раніше за допомогою [openal\_source\_create()](function.openal-source-create.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [openalsourcestop()](function.openal-source-stop.md) - Зупинити відтворення джерела
--   [openalsourcepause()](function.openal-source-pause.md) - Поставити джерело на паузу
--   [openalsourcerewind()](function.openal-source-rewind.md) - Перемотати джерело на початок
+-   [openal\_source\_stop()](function.openal-source-stop.md) \- Зупинити відтворення джерела
+-   [openal\_source\_pause()](function.openal-source-pause.md) \- Поставити джерело на паузу
+-   [openal\_source\_rewind()](function.openal-source-rewind.md) \- Перемотати джерело на початок

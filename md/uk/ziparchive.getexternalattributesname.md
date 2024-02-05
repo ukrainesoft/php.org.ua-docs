@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getExternalAttributesName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::getExternalAttributesName
 
@@ -15,7 +16,7 @@ ZipArchive::getExternalAttributesName — Вийняти зовнішні атр
 ### Опис
 
 ```methodsynopsis
-public ZipArchive::getExternalAttributesName(    string $name,    int &$opsys,    int &$attr,    int $flags = 0): bool
+public ZipArchive::getExternalAttributesName(    string $name,    int &$opsys,    int &$attr,    int $flags = 0): bool
 ```
 
 Витягує зовнішні атрибути запису на її ім'я.
@@ -28,7 +29,7 @@ public ZipArchive::getExternalAttributesName(    string $name,    int &$opsys,  
 
 `opsys`
 
-У разі успішного виконання сюди записується код операційної системи, заданий однією із констант ZipArchive::OPSYS
+У разі успішного виконання сюди записується код операційної системи, заданий однією із констант ZipArchive::OPSYS\_
 
 `attr`
 
@@ -40,4 +41,4 @@ public ZipArchive::getExternalAttributesName(    string $name,    int &$opsys,  
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

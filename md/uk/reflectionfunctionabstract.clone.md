@@ -4,13 +4,14 @@ navigation:
   - reflectionfunctionabstract.getattributes.md: 'ReflectionFunctionAbstract::getAttributes »'
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
-title: 'ReflectionFunctionAbstract::clone'
+title: 'ReflectionFunctionAbstract::\_\_clone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionFunctionAbstract::clone
+# ReflectionFunctionAbstract::\_\_clone
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::clone - Клонує функцію
+ReflectionFunctionAbstract::\_\_clone - Клонує функцію
 
 ### Опис
 
@@ -30,9 +31,9 @@ private ReflectionFunctionAbstract::__clone(): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Метод не є остаточним (final). |
+| 8.1.0 | Метод не є остаточним (final). |
 
 ### Дивіться також
 

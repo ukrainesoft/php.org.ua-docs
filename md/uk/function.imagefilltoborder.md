@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagefilltoborder
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagefilltoborder
 
@@ -15,10 +16,10 @@ imagefilltoborder - Заливка кольором
 ### Опис
 
 ```methodsynopsis
-imagefilltoborder(    GdImage $image,    int $x,    int $y,    int $border_color,    int $color): bool
+imagefilltoborder(    GdImage $image,    int $x,    int $y,    int $border_color,    int $color): bool
 ```
 
-**imagefilltoborder()** робить заливку області, обмеженою кольором `border_color`. Початкова координата `x` `y` (лівий верхній кут має координати 0, 0), а область зафарбовується кольором `color`
+**imagefilltoborder()** робить заливку області, обмеженою кольором `border_color`Начальная координата`x` `y` (лівий верхній кут має координати 0, 0), а область зафарбовується кольором `color`
 
 ### Список параметрів
 
@@ -44,13 +45,13 @@ y-координата початку.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
@@ -79,7 +80,7 @@ imagedestroy($im);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: Забарвлення еліпса](images/21009b70229598c6a80eef8b45bf282b-imagefilltoborder.png)
 

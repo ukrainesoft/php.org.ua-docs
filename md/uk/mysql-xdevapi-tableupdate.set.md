@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-tableupdate.orderby.md: '« TableUpdate::orderby'
   - mysql-xdevapi-tableupdate.where.md: 'TableUpdate::where »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
+  - class.mysql-xdevapi-tableupdate.md: mysql\_xdevapi\\TableUpdate
 title: 'TableUpdate::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableUpdate::set
 
@@ -36,7 +37,7 @@ public mysql_xdevapi\TableUpdate::set(string $table_field, string $expression_or
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableUpdate::set()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::set()\*\*\*\*
 
 ```php
 <?php

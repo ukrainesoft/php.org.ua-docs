@@ -4,13 +4,14 @@ navigation:
   - pthreads.configuration.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - pthreads.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Готові збірки pthreads розміщуються в PECL, а вихідний код на [» github](https://github.com/krakjoe/pthreads). Найпростіший шлях - встановити з PECL: [» https://pecl.php.net/package/pthreads](https://pecl.php.net/package/pthreads)
+Готові збірки pthreads розміщуються в PECL, а вихідний код на [» github](https://github.com/krakjoe/pthreads). Найпростіший шлях - встановити з PECL: [» https://pecl.php.net/package/pthreads](https://pecl.php.net/package/pthreads)
 
-Користувачам Windows потрібно завантажити підготовлений бінарний файл із сайту [» PECL](https://windows.php.net/downloads/pecl/releases/pthreads)
+Користувачам Windows потрібно завантажити підготовлений бінарний файл із сайту [» PECL](https://windows.php.net/downloads/pecl/releases/pthreads)
 
 **Застереження**
 

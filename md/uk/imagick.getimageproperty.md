@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageProperty'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageProperty
 
@@ -32,7 +33,7 @@ public Imagick::getImageProperty(string $name): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::getImageProperty()****
+**Пример #1 Пример использования**Imagick::getImageProperty()\*\* :\*\*
 
 Завдання та отримання властивості зображення
 
@@ -48,4 +49,4 @@ echo $image->getImageProperty('Exif:Make');
 
 ### Дивіться також
 
--   [Imagick::setImageProperty()](imagick.setimageproperty.md) - Встановлює властивість зображення
+-   [Imagick::setImageProperty()](imagick.setimageproperty.md) \- Встановлює властивість зображення

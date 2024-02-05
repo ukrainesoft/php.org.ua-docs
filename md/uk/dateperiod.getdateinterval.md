@@ -1,14 +1,15 @@
 ---
 navigation:
-  - dateperiod.construct.md: '« DatePeriod::construct'
+  - dateperiod.createfromiso8601string.md: '« DatePeriod::createFromISO8601String'
   - dateperiod.getenddate.md: 'DatePeriod::getEndDate »'
   - index.md: PHP Manual
   - class.dateperiod.md: DatePeriod
 title: 'DatePeriod::getDateInterval'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DatePeriod::getDateInterval
 
-(PHP 5> = 5.6.5, PHP 7, PHP 8)
+(PHP 5 >= 5.6.5, PHP 7, PHP 8)
 
 DatePeriod::getDateInterval — Повертає інтервал
 
@@ -32,7 +33,7 @@ public DatePeriod::getDateInterval(): DateInterval
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DatePeriod::getDateInterval()****
+**Пример #1 Пример использования**DatePeriod::getDateInterval()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ echo $interval->format('%d day');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1 day
@@ -50,5 +51,5 @@ echo $interval->format('%d day');
 
 ### Дивіться також
 
--   [DatePeriod::getStartDate()](dateperiod.getstartdate.md) - Повертає початкову дату періоду
--   [DatePeriod::getEndDate()](dateperiod.getenddate.md) - Повертає кінцеву дату періоду
+-   [DatePeriod::getStartDate()](dateperiod.getstartdate.md) \- Повертає початкову дату періоду
+-   [DatePeriod::getEndDate()](dateperiod.getenddate.md) \- Повертає кінцеву дату періоду

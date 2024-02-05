@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yaf-route-interface.md: « YafRouteInterface
-  - yaf-route-interface.route.md: 'YafRouteInterface::route »'
+  - class.yaf-route-interface.md: « Yaf\_Route\_Interface
+  - yaf-route-interface.route.md: 'Yaf\_Route\_Interface::route »'
   - index.md: PHP Manual
-  - class.yaf-route-interface.md: YafRouteInterface
-title: 'YafRouteInterface::assemble'
+  - class.yaf-route-interface.md: Yaf\_Route\_Interface
+title: 'Yaf\_Route\_Interface::assemble'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteInterface::assemble
+# Yaf\_Route\_Interface::assemble
 
 (Yaf >=2.3.0)
 
-YafRouteInterface::assemble — Збирає запит
+Yaf\_Route\_Interface::assemble — Збирає запит
 
 ### Опис
 

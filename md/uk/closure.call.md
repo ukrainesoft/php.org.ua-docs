@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.closure.md: Closure
 title: 'Closure::call'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Closure::call
 
@@ -36,7 +37,7 @@ public Closure::call(object $newThis, mixed ...$args): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад **Closure::call()****
+**Пример #1 Пример**Closure::call()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ $closure->call($four, 4);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(7)

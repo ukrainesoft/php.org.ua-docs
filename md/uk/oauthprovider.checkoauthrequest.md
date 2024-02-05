@@ -1,10 +1,11 @@
 ---
 navigation:
   - oauthprovider.calltokenhandler.md: '« OAuthProvider::calltokenHandler'
-  - oauthprovider.construct.md: 'OAuthProvider::construct »'
+  - oauthprovider.construct.md: 'OAuthProvider::\_\_construct »'
   - index.md: PHP Manual
   - class.oauthprovider.md: OAuthProvider
 title: 'OAuthProvider::checkOAuthRequest'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuthProvider::checkOAuthRequest
 
@@ -22,13 +23,13 @@ public OAuthProvider::checkOAuthRequest(string $uri = ?, string $method = ?): vo
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `uri`
 
-Необов'язковий URI, або кінцева точка.
+Необов'язковий URI або кінцева точка.
 
 `method`
 
@@ -40,8 +41,8 @@ public OAuthProvider::checkOAuthRequest(string $uri = ?, string $method = ?): vo
 
 ### Помилки
 
-Викликає помилку рівня **`E_ERROR`** якщо HTTP-метод заданий некоректно.
+Викликає помилку рівня \*\*`E_ERROR`\*\*если HTTP-метод задан некорректно.
 
 ### Дивіться також
 
--   [OAuthProvider::reportProblem()](oauthprovider.reportproblem.md) - Повідомити про проблему
+-   [OAuthProvider::reportProblem()](oauthprovider.reportproblem.md) \- Повідомити про проблему

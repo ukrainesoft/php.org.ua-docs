@@ -1,14 +1,15 @@
 ---
 navigation:
-  - dom.constants.md: « Обумовлені константи
+  - dom.constants.md: « Зумовлені константи
   - class.domattr.md: DOMAttr »
   - index.md: PHP Manual
   - book.dom.md: DOM
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
-Багато прикладів цього посібника вимагають XML-файл. Ми будемо використовувати book.xml, який має такий зміст:
+Багатьом прикладам цього посібника потрібен XML-файл. Працюватиме з файлом book.xml з таким змістом:
 
 **Приклад #1 book.xml**
 

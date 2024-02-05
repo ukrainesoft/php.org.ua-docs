@@ -1,10 +1,11 @@
 ---
 navigation:
-  - imagick.tostring.md: '« Imagick::toString'
+  - imagick.tostring.md: '« Imagick::\_\_function toString() { [native code] }'
   - imagick.transformimagecolorspace.md: 'Imagick::transformImageColorspace »'
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::transformImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::transformImage
 
@@ -14,7 +15,7 @@ Imagick::transformImage — Зручний метод налаштування �
 
 **Увага**
 
-Функція оголошена *Застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
@@ -22,7 +23,7 @@ Imagick::transformImage — Зручний метод налаштування �
 public Imagick::transformImage(string $crop, string $geometry): Imagick
 ```
 
-Зручний метод налаштування розміру кадрування та геометрії зображення з рядків. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Зручний метод налаштування розміру кадрування та геометрії зображення з рядків. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -40,7 +41,7 @@ public Imagick::transformImage(string $crop, string $geometry): Imagick
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::transformImage()****
+**Пример #1 Пример использования**Imagick::transformImage()\*\* :\*\*
 
 У прикладі створюється чорне зображення розміром 100×100.
 
@@ -55,6 +56,6 @@ $new_image->writeImage('test_out.jpg');
 
 ### Дивіться також
 
--   [Imagick::cropImage()](imagick.cropimage.md) - Витягує область зображення
--   [Imagick::resizeImage()](imagick.resizeimage.md) - Масштабує зображення
--   [Imagick::thumbnailImage()](imagick.thumbnailimage.md) - Змінює розмір зображення
+-   [Imagick::cropImage()](imagick.cropimage.md) \- Витягує область зображення
+-   [Imagick::resizeImage()](imagick.resizeimage.md) \- Масштабує зображення
+-   [Imagick::thumbnailImage()](imagick.thumbnailimage.md) \- Змінює розмір зображення

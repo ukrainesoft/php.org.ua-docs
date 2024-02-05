@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-quickprop-decay.md: « fannsetquickpropdecay
-  - function.fann-set-rprop-decrease-factor.md: fannsetrpropdecreasefactor »
+  - function.fann-set-quickprop-decay.md: « fann\_set\_quickprop\_decay
+  - function.fann-set-rprop-decrease-factor.md: fann\_set\_rprop\_decrease\_factor »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetquickpropму
+  - ref.fann.md: Функції Fann
+title: fann\_set\_quickprop\_mu
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetquickpropму
+# fann\_set\_quickprop\_mu
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetquickpropmu - Встановлює МЮ-фактор quickprop
+fann\_set\_quickprop\_mu - Встановлює МЮ-фактор quickprop
 
 ### Опис
 
@@ -36,4 +37,4 @@ fann_set_quickprop_mu(resource $ann, float $quickprop_mu): bool
 
 ### Дивіться також
 
--   [fanngetquickpropmu()](function.fann-get-quickprop-mu.md) - Повертає коефіцієнт mu
+-   [fann\_get\_quickprop\_mu()](function.fann-get-quickprop-mu.md) \- Повертає коефіцієнт mu

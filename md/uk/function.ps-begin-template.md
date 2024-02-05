@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-begin-pattern.md: «psbeginpattern
-  - function.ps-circle.md: псcircle »
+  - function.ps-begin-pattern.md: « ps\_begin\_pattern
+  - function.ps-circle.md: ps\_circle »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псbegintemplate
+title: ps\_begin\_template
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псbegintemplate
+# ps\_begin\_template
 
 (PECL ps >= 1.2.0)
 
-псbegintemplate — Починає новий шаблон
+ps\_begin\_template — Починає новий шаблон
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: псbegintemplate
 ps_begin_template(resource $psdoc, float $width, float $height): int
 ```
 
-Починає новий шаблон. На мові postscript шаблон називається формою. Він створюється аналогічно візерунку, але використовується як зображення. Шаблони часто використовуються для малюнків, які розміщуються в документі кілька разів, наприклад, як логотип компанії. У шаблоні можна використовувати усі функції малювання. Шаблон не буде намальований, поки він не буде розміщений за допомогою [псplaceimage()](function.ps-place-image.md)
+Починає новий шаблон. На мові postscript шаблон називається формою. Він створюється аналогічно візерунку, але використовується як зображення. Шаблони часто використовуються для малюнків, які розміщуються в документі кілька разів, наприклад, як логотип компанії. У шаблоні можна використовувати усі функції малювання. Шаблон не буде намальований, поки він не буде розміщений за допомогою [ps\_place\_image()](function.ps-place-image.md)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `width`
 
@@ -36,7 +37,7 @@ ps_begin_template(resource $psdoc, float $width, float $height): int
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -78,4 +79,4 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [псendtemplate()](function.ps-end-template.md) - Завершує шаблон
+-   [ps\_end\_template()](function.ps-end-template.md) \- Завершує шаблон

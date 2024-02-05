@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.errorfunc.md: « Введение
+  - intro.errorfunc.md: '" Вступ'
   - errorfunc.requirements.md: Вимоги »
   - index.md: PHP Manual
-  - book.errorfunc.md: Обработка ошибок
+  - book.errorfunc.md: Обробка помилок
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

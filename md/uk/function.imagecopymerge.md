@@ -5,20 +5,21 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecopymerge
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecopymerge
 
-(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 imagecopymerge — Копіює частину зображення з накладенням
 
 ### Опис
 
 ```methodsynopsis
-imagecopymerge(    GdImage $dst_image,    GdImage $src_image,    int $dst_x,    int $dst_y,    int $src_x,    int $src_y,    int $src_width,    int $src_height,    int $pct): bool
+imagecopymerge(    GdImage $dst_image,    GdImage $src_image,    int $dst_x,    int $dst_y,    int $src_x,    int $src_y,    int $src_width,    int $src_height,    int $pct): bool
 ```
 
-Копіює частину `src_image` і поміщає скопійоване на `dst_image`, починаючи з координат `src_x` `src_y` із шириною `src_width` та заввишки `src_height`. Скопійована частина міститься на координати `dst_x` і `dst_y`
+Копіює частину `src_image` і поміщає скопійоване на `dst_image`, начиная с координат`src_x` `src_y` із шириною `src_width` та заввишки `src_height`. Скопійована частина міститься на координати `dst_x`и`dst_y`
 
 ### Список параметрів
 
@@ -56,17 +57,17 @@ y-координата вихідного зображення.
 
 `pct`
 
-Два зображення поєднуються в залежності від параметра `pct`, який може змінюватись від 0 до 100. Коли `pct` = 0, накладення немає. У разі значення 100 ця функція поводиться аналогічно до функції [imagecopy()](function.imagecopy.md) для палітрових зображень, незважаючи на те, що вона підтримує прозорість для truecolor-зображень.
+Два изображения будут совмещаться в зависимости от параметра`pct`, який може змінюватись від 0 до 100. Коли `pct` = 0, накладання немає. У разі значення 100 ця функція поводиться аналогічно функції [imagecopy()](function.imagecopy.md) для палітрових зображень, незважаючи на те, що вона підтримує прозорість для truecolor-зображень.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `dst_image` і `src_image` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `dst_image`и`src_image` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

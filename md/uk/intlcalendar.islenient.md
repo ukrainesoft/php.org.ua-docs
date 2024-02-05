@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::isLenient'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::isLenient
 
@@ -40,7 +41,7 @@ intlcal_is_lenient(IntlCalendar $calendar): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::isLenient()****
+**Пример #1 Пример использования**IntlCalendar::isLenient()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ $cal->set(IntlCalendar::FIELD_DAY_OF_MONTH, 33);
 var_dump(IntlDateFormatter::formatObject($cal)); // ошибка
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(20) "01/07/2013, 00:00:00"

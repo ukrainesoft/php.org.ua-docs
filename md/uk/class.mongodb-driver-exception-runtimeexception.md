@@ -1,18 +1,19 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-logicexception.md: « MongoDBDriverExceptionLogicException
-  - mongodb-driver-runtimeexception.haserrorlabel.md: 'MongoDBDriverExceptionRuntimeException::hasErrorLabel »'
+  - class.mongodb-driver-exception-logicexception.md: « MongoDB\\Driver\\Exception\\LogicException
+  - mongodb-driver-runtimeexception.haserrorlabel.md: 'MongoDB\\Driver\\Exception\\RuntimeException::hasErrorLabel »'
   - index.md: PHP Manual
-  - mongodb.exceptions.md: MongoDBDriverException
-title: Клас MongoDBDriverExceptionRuntimeException
+  - mongodb.exceptions.md: MongoDB\\Driver\\Exception
+title: Клас MongoDB\\Driver\\Exception\\RuntimeException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverExceptionRuntimeException
+# Клас MongoDB\\Driver\\Exception\\RuntimeException
 
 (mongodb >= 1.0.0)
 
 ## Вступ
 
-Викидається, коли драйвер виявляє помилку під час виконання (наприклад, внутрішня помилка з [» libmongoc](https://github.com/mongodb/mongo-c-driver)
+Викидається, коли драйвер виявляє помилку під час виконання (наприклад, внутрішня помилка з [» libmongoc](https://github.com/mongodb/mongo-c-driver)
 
 ## Огляд класів
 
@@ -43,26 +44,26 @@ title: Клас MongoDBDriverExceptionRuntimeException
     /* Наследуемые свойства */
     
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Методы */
@@ -90,15 +91,15 @@ private Exception::__clone(): void
 
 errorLabels
 
-Містить масив позначок помилок для виключення. Наприклад, мітки помилок можуть використовуватися для визначення того, чи можна безпечно провести транзакцію, якщо є мітка TransientTransactionError. Існування певної мітки помилки має бути перевірено за допомогою [MongoDBDriverExceptionRuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.md) замість інтерпретації цієї властивості errorlabels вручну.
+Містить масив позначок помилок для виключення. Наприклад, мітки помилок можуть використовуватися для визначення того, чи можна безпечно провести транзакцію, якщо є мітка TransientTransactionError. Існування певної мітки помилки має бути перевірено за допомогою [MongoDB\\Driver\\Exception\\RuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.md) замість інтерпретації цієї властивості errorlabels вручну.
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL mongodb 1.6.0 |  |
-| Доданий метод [MongoDBDriverExceptionRuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.md) і властивість [MongoDBDriverExceptionRuntimeException::errorLabels](class.mongodb-driver-exception-runtimeexception.md#mongodb-driver-exception-runtimeexception.props.errorlabels) |  |
+| Доданий метод [MongoDB\\Driver\\Exception\\RuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.md) і властивість [MongoDB\\Driver\\Exception\\RuntimeException::errorLabels](class.mongodb-driver-exception-runtimeexception.md#mongodb-driver-exception-runtimeexception.props.errorlabels) |  |
 
 ## Зміст
 
--   [MongoDBDriverExceptionRuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.md) — Повертає, чи мітка помилки пов'язана з винятком
+-   [MongoDB\\Driver\\Exception\\RuntimeException::hasErrorLabel](mongodb-driver-runtimeexception.haserrorlabel.md)— Повертає, чи мітка помилки пов'язана з винятком

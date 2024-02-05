@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-objectid.jsonserialize.md: '« MongoDBBSONObjectId::jsonSerialize'
-  - mongodb-bson-objectid.tostring.md: 'MongoDBBSONObjectId::toString »'
+  - mongodb-bson-objectid.jsonserialize.md: '« MongoDB\\BSON\\ObjectId::jsonSerialize'
+  - mongodb-bson-objectid.tostring.md: 'MongoDB\\BSON\\ObjectId::\_\_toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-objectid.md: MongoDBBSONObjectId
-title: 'MongoDBBSONObjectId::serialize'
+  - class.mongodb-bson-objectid.md: MongoDB\\BSON\\ObjectId
+title: 'MongoDB\\BSON\\ObjectId::serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONObjectId::serialize
+# MongoDB\\BSON\\ObjectId::serialize
 
 (mongodb >=1.2.0)
 
-MongoDBBSONObjectId::serialize — Серіалізує ObjectId
+MongoDB\\BSON\\ObjectId::serialize — Серіалізує ObjectId
 
 ### Опис
 
@@ -24,14 +25,14 @@ final public MongoDB\BSON\ObjectId::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONObjectId](class.mongodb-bson-objectid.md)
+Возвращает сериализованное представление[MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONObjectId::unserialize()](mongodb-bson-objectid.unserialize.md) - Десеріалізує ObjectId
--   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [MongoDB\\BSON\\ObjectId::unserialize()](mongodb-bson-objectid.unserialize.md) \- Десеріалізує ObjectId
+-   [serialize()](function.serialize.md) \- Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

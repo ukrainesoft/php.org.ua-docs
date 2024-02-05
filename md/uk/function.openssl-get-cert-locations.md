@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-free-key.md: « opensslfreekey
-  - function.openssl-get-cipher-methods.md: opensslgetciphermethods »
+  - function.openssl-free-key.md: « openssl\_free\_key
+  - function.openssl-get-cipher-methods.md: openssl\_get\_cipher\_methods »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslgetcertlocations
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_get\_cert\_locations
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslgetcertlocations
+# openssl\_get\_cert\_locations
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-opensslgetcertlocations — Отримати доступні місця розташування сертифікатів
+openssl\_get\_cert\_locations — Отримати доступні місця розташування сертифікатів
 
 ### Опис
 
@@ -18,7 +19,7 @@ opensslgetcertlocations — Отримати доступні місця роз�
 openssl_get_cert_locations(): array
 ```
 
-**opensslgetcertlocations()** повертає масив з інформацією про доступні сховища, в яких відбуватиметься пошук SSL сертифікатів.
+**openssl\_get\_cert\_locations()** повертає масив з інформацією про доступні сховища, в яких відбуватиметься пошук SSL сертифікатів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ openssl_get_cert_locations(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslgetcertlocations()****
+**Пример #1 Пример использования**openssl\_get\_cert\_locations()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ var_dump(openssl_get_cert_locations());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(8) {

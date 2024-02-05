@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.syncreaderwriter.md: SyncReaderWriter
 title: 'SyncReaderWriter::writelock'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SyncReaderWriter::writelock
 
@@ -28,11 +29,11 @@ public SyncReaderWriter::writelock(int $wait = -1): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncReaderWriter::writelock()****
+**Пример #1 Пример использования**SyncReaderWriter::writelock()\*\*\*\*
 
 ```php
 <?php
@@ -45,4 +46,4 @@ $readwrite->writeunlock();
 
 ### Дивіться також
 
--   [SyncReaderWriter::writeunlock()](syncreaderwriter.writeunlock.md) - Знімає блокування запису
+-   [SyncReaderWriter::writeunlock()](syncreaderwriter.writeunlock.md) \- Знімає блокування запису

@@ -1,18 +1,19 @@
 ---
 navigation:
-  - parle.examples.parser.md: « Пример использования парсера
-  - parle-lexer.advance.md: 'ParleLexer::advance »'
+  - parle.examples.parser.md: « Приклад використання парсеру
+  - parle-lexer.advance.md: 'Parle\\Lexer::advance »'
   - index.md: PHP Manual
   - book.parle.md: Parle
-title: Клас ParleLexer
+title: Клас Parle\\Lexer
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас ParleLexer
+# Клас Parle\\Lexer
 
 (PECL parle >= 0.5.1)
 
 ## Вступ
 
-Клас лексера з одним станом. Лексеми можна визначати на льоту. Якщо конкретний екземпляр лексера призначений для використання з [ParleParser](class.parle-parser.md)Ідентифікатори токенів повинні бути взяті звідти. В іншому випадку можуть бути надані довільні ідентифікатори токенів. Лексер може дати певну перевагу у продуктивності в порівнянні з [ParleRLexer](class.parle-rlexer.md)якщо не потрібно кілька станів. Зверніть увагу, що [ParleRParser](class.parle-rparser.md) несумісний із цим лексером.
+Клас лексера з одним станом. Лексеми можна визначати на льоту. Якщо конкретний екземпляр лексера призначений для використання з [Parle\\Parser](class.parle-parser.md)Ідентифікатори токенів повинні бути взяті звідти. В іншому випадку можуть бути надані довільні ідентифікатори токенів. Лексер може дати певну перевагу у продуктивності в порівнянні з [Parle\\RLexer](class.parle-rlexer.md)якщо не потрібно кілька станів. Зверніть увагу, що [Parle\\RParser](class.parle-rparser.md) несумісний із цим лексером.
 
 ## Огляд класів
 
@@ -100,7 +101,7 @@ public reset(int $pos): void
 
 ## Властивості
 
-біль
+bol
 
 Прапор початку введення.
 
@@ -122,12 +123,12 @@ cursor
 
 ## Зміст
 
--   [ParleLexer::advance](parle-lexer.advance.md) - Обробляє таке правило лексера
--   [ParleLexer::build](parle-lexer.build.md) - Завершує набір правил лексера
--   [ParleLexer::callout](parle-lexer.callout.md) - Визначає callback-функцію токена
--   [ParleLexer::consume](parle-lexer.consume.md) - Передає дані на обробку
--   [ParleLexer::dump](parle-lexer.dump.md) - Виводить стан пристрою
--   [ParleLexer::getToken](parle-lexer.gettoken.md) — Отримує поточний токен
--   [ParleLexer::insertMacro](parle-lexer.insertmacro.md) — Вставляє макрос регулярного виразу
--   [ParleLexer::push](parle-lexer.push.md) - Додає правило лексера
--   [ParleLexer::reset](parle-lexer.reset.md) - скидає лексер
+-   [Parle\\Lexer::advance](parle-lexer.advance.md) \- Обробляє таке правило лексера
+-   [Parle\\Lexer::build](parle-lexer.build.md) \- Завершує набір правил лексера
+-   [Parle\\Lexer::callout](parle-lexer.callout.md) \- Визначає callback-функцію токена
+-   [Parle\\Lexer::consume](parle-lexer.consume.md) \- Передає дані на обробку
+-   [Parle\\Lexer::dump](parle-lexer.dump.md) \- Виводить стан пристрою
+-   [Parle\\Lexer::getToken](parle-lexer.gettoken.md)— Отримує поточний токен
+-   [Parle\\Lexer::insertMacro](parle-lexer.insertmacro.md)— Вставляє макрос регулярного виразу
+-   [Parle\\Lexer::push](parle-lexer.push.md) \- Додає правило лексера
+-   [Parle\\Lexer::reset](parle-lexer.reset.md) \- скидає лексер

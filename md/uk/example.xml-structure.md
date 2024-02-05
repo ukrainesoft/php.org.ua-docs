@@ -1,10 +1,11 @@
 ---
 navigation:
   - xml.examples.md: « Приклади
-  - example.xml-map-tags.md: Пример отображения XML тегов »
+  - example.xml-map-tags.md: Приклад відображення тегів XML »
   - index.md: PHP Manual
   - xml.examples.md: Приклади
 title: Приклад Структури Елементу XML
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Приклад Структури Елементу XML
 

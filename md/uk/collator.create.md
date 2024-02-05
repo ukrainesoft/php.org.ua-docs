@@ -1,18 +1,19 @@
 ---
 navigation:
-  - collator.construct.md: '« Collator::construct'
+  - collator.construct.md: '« Collator::\_\_construct'
   - collator.getattribute.md: 'Collator::getAttribute »'
   - index.md: PHP Manual
   - class.collator.md: Collator
 title: 'Collator::create'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collator::create
 
-# collatorcreate
+# collator\_create
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Collator::create -- collatorcreate — Створює новий екземпляр Collator
+Collator::create -- collator\_create — Створює новий екземпляр Collator
 
 ### Опис
 
@@ -34,15 +35,15 @@ collator_create(string $locale): ?Collator
 
 `locale`
 
-Локаль, що містить необхідні правила зіставлення. Можуть бути передані спеціальні значення для мовних стандартів, якщо для мовного стандарту передано порожній рядок (string), будуть використовуватися правила зіставлення мовних стандартів за промовчанням. Якщо передається значення `"root"`, використовуватимуться правила [» UCA](http://www.unicode.org/reports/tr10/)
+Локаль, що містить необхідні правила зіставлення. Можуть бути передані спеціальні значення для мовних стандартів, якщо для мовного стандарту передано порожній рядок (string), будуть використовуватися правила зіставлення мовних стандартів за промовчанням. Якщо передається значення `"root"`, будут использоваться правила[» UCA](https://www.unicode.org/reports/tr10/)
 
 ### Значення, що повертаються
 
-Повертає новий екземпляр [Collator](class.collator.md) або **`null`** у разі виникнення помилки.
+Повертає новий екземпляр [Collator](class.collator.md)или\*\*`null`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **collatorcreate()****
+**Пример #1 Пример использования**collator\_create()\*\*\*\*
 
 ```php
 <?php
@@ -57,4 +58,4 @@ if( !isset( $coll ) ) {
 
 ### Дивіться також
 
--   [Collator::construct()](collator.construct.md) - Створює новий екземпляр Collator
+-   [Collator::\_\_construct()](collator.construct.md) \- Створює новий екземпляр Collator

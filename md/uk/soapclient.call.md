@@ -1,16 +1,17 @@
 ---
 navigation:
   - class.soapclient.md: « SoapClient
-  - soapclient.construct.md: 'SoapClient::construct »'
+  - soapclient.construct.md: 'SoapClient::\_\_construct »'
   - index.md: PHP Manual
   - class.soapclient.md: SoapClient
-title: 'SoapClient::call'
+title: 'SoapClient::\_\_call'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapClient::call
+# SoapClient::\_\_call
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapClient::call - Викликає SOAP-функцію (застарілий метод)
+SoapClient::\_\_call - Викликає SOAP-функцію (застарілий метод)
 
 ### Опис
 
@@ -18,7 +19,7 @@ SoapClient::call - Викликає SOAP-функцію (застарілий м
 public SoapClient::__call(string $name, array $args): mixed
 ```
 
-Виклик цього методу застарів. Зазвичай функції SOAP можуть бути викликані як методи об'єкта [SoapClient](class.soapclient.md); у ситуаціях, коли це неможливо або потрібні додаткові опції, використовуйте метод [SoapClient::soapCall()](soapclient.soapcall.md)
+Виклик цього методу застарів. Зазвичай функції SOAP можуть бути викликані як методи об'єкта [SoapClient](class.soapclient.md); у ситуаціях, коли це неможливо або потрібні додаткові опції, використовуйте метод [SoapClient::\_\_soapCall()](soapclient.soapcall.md) .. .
 
 ### Список параметрів
 
@@ -34,4 +35,4 @@ public SoapClient::__call(string $name, array $args): mixed
 
 Функції SOAP можуть повертати одне чи кілька значень. Якщо функція SOAP повертає лише одне значення, то значення, що повертається, буде скаляром. Якщо повертається кілька значень, замість них повертається асоціативний масив іменованих вихідних параметрів.
 
-У разі виникнення помилки, якщо об'єкт [SoapClient](class.soapclient.md) був оголошений з опцією `exceptions` зі значенням **`false`**, буде повернуто об'єкт [SoapFault](class.soapfault.md)
+У разі виникнення помилки, якщо об'єкт [SoapClient](class.soapclient.md) був оголошений з опцією `exceptions`со значением\*\*`false`\*\*, буде повернуто об'єкт [SoapFault](class.soapfault.md)

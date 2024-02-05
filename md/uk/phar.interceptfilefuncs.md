@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::interceptFileFuncs'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::interceptFileFuncs
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-Phar::interceptFileFuncs — Вказує phar перехоплювати fopen, filegetcontents, opendir та всі stat-функції
+Phar::interceptFileFuncs — Вказує phar перехоплювати fopen, file\_get\_contents, opendir та всі stat-функції
 
 ### Опис
 
@@ -18,7 +19,7 @@ Phar::interceptFileFuncs — Вказує phar перехоплювати fopen,
 final public static Phar::interceptFileFuncs(): void
 ```
 
-Вказує phar перехоплювати [fopen()](function.fopen.md) [readfile()](function.readfile.md) [filegetcontents()](function.file-get-contents.md) [opendir()](function.opendir.md) та всі stat-функції. Якщо будь-яка з цих функцій буде викликана з phar-архіву з відносним шляхом, виклик буде модифіковано для доступу до вмісту архіву. У випадку з абсолютними шляхами працюватимуть штатні функції доступу до файлової системи.
+Вказує phar перехоплювати [fopen()](function.fopen.md) [readfile()](function.readfile.md) [file\_get\_contents()](function.file-get-contents.md) [opendir()](function.opendir.md) та всі stat-функції. Якщо будь-яка з цих функцій буде викликана з phar-архіву з відносним шляхом, виклик буде модифіковано для доступу до вмісту архіву. У випадку з абсолютними шляхами працюватимуть штатні функції доступу до файлової системи.
 
 Ця функція дозволяє писати програми, які працюють не прив'язані до жорсткого диска.
 
@@ -30,7 +31,7 @@ No parameters.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::interceptFileFuncs()****
+**Пример #1 Пример использования**Phar::interceptFileFuncs()\*\*\*\*
 
 ```php
 <?php
@@ -39,9 +40,9 @@ include 'phar://' . __FILE__ . '/file.php';
 ?>
 ```
 
-Припустимо, що ми маємо `/path/to/myphar.phar` і в ньому містяться файли `file.php` і `file2.txt`. . `file.php` містить такий код:
+Припустимо, що ми маємо `/path/to/myphar.phar` і в ньому містяться файли `file.php`и`file2.txt`. . `file.php` містить такий код:
 
-**Приклад #2 Приклад використання **Phar::interceptFileFuncs()****
+**Пример #2 Пример использования**Phar::interceptFileFuncs()\*\*\*\*
 
 ```php
 <?php

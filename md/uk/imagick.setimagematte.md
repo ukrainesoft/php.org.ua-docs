@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageMatte'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageMatte
 
@@ -18,7 +19,7 @@ Imagick::setImageMatte — Встановлює матовий канал зоб
 public Imagick::setImageMatte(bool $matte): bool
 ```
 
-Встановлює матовий канал зображення. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Встановлює матовий канал зображення. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 

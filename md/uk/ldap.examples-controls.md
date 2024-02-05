@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ldap.examples-basic.md: « Базовое использование
+  - ldap.examples-basic.md: « Базове використання
   - ref.ldap.md: Функції LDAP »
   - index.md: PHP Manual
   - ldap.examples.md: Приклади
 title: LDAP Controls
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## LDAP Controls
 
@@ -32,7 +33,7 @@ if ($ds) {
       echo "Истекает: ".$value['expire']." seconds\n";
       echo "Количество оставшихся аутентификаций: ".$value['grace']."\n";
       if (isset($value['error'])) {
-        echo "Код ошибки Ppolicy: ".$value['error'];
+        echo "Код ошибки Policy: ".$value['error'];
       }
     }
   }
@@ -131,6 +132,6 @@ if ($ds) {
       $cookie = '';
     }
     // Пустой cookie означает последнюю страницу
-  } while (!empty($cookie));
+  } while (strlen($cookie) > 0);
 ?>
 ```

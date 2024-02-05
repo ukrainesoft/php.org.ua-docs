@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-errcode.md: « ibaseerrcode
-  - function.ibase-execute.md: ibaseexecute »
+  - function.ibase-errcode.md: « ibase\_errcode
+  - function.ibase-execute.md: ibase\_execute »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseerrmsg
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_errmsg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseerrmsg
+# ibase\_errmsg
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseerrmsg — Повертає повідомлення про помилку
+ibase\_errmsg — Повертає повідомлення про помилку
 
 ### Опис
 
@@ -30,4 +31,4 @@ ibase_errmsg(): string
 
 ### Дивіться також
 
--   [ibaseerrcode()](function.ibase-errcode.md) - Повертає код помилки
+-   [ibase\_errcode()](function.ibase-errcode.md) \- Повертає код помилки

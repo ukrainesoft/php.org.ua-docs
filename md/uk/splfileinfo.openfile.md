@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::openFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::openFile
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::openFile — Отримує об'єкт SplFileObject для файлу
 
@@ -28,11 +29,11 @@ public SplFileInfo::openFile(string $mode = "r", bool $useIncludePath = false, ?
 
 `useIncludePath`
 
-Якщо встановлено **`true`**, ім'я файлу також шукається в [includepath](ini.core.md#ini.include-path)
+Если установлено в\*\*`true`\*\*, имя файла также ищется в[include\_path](ini.core.md#ini.include-path)
 
 `context`
 
-Для опису `контекстов` зверніться до наступного розділу посібника: [контекст](context.md)
+Для описания`контекстів`обратитесь к следующему разделу руководства:[контекст](context.md)
 
 ### Значення, що повертаються
 
@@ -44,13 +45,13 @@ public SplFileInfo::openFile(string $mode = "r", bool $useIncludePath = false, ?
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `context` тепер допускає значення null. |
+| 8.0.0 | `context` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::openFile()****
+**Пример #1 Пример использования**SplFileInfo::openFile()\*\*\*\*
 
 ```php
 <?php
@@ -68,5 +69,5 @@ if ($fileinfo->isWritable()) {
 ### Дивіться також
 
 -   [SplFileObject](class.splfileobject.md)
--   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку
--   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [stream\_context\_create()](function.stream-context-create.md) \- Створює контекст потоку
+-   [fopen()](function.fopen.md) \- Відкриває файл або URL

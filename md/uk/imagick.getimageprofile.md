@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageProfile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageProfile
 
@@ -18,7 +19,7 @@ Imagick::getImageProfile — Повертає іменований профіл�
 public Imagick::getImageProfile(string $name): string
 ```
 
-Повертає іменований профіль зображення.
+Повертає названий профіль зображення.
 
 ### Список параметрів
 

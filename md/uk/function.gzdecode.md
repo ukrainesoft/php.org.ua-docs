@@ -3,12 +3,13 @@ navigation:
   - function.gzcompress.md: « gzcompress
   - function.gzdeflate.md: gzdeflate »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzdecode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzdecode
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 gzdecode — Декодує рядок, стиснутий за допомогою gzip
 
@@ -32,7 +33,7 @@ gzdecode(string $data, int $max_length = 0): string|false
 
 ### Значення, що повертаються
 
-Розпакований рядок або **`false`** у разі виникнення помилки.
+Розпакований рядок або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -40,4 +41,4 @@ gzdecode(string $data, int $max_length = 0): string|false
 
 ### Дивіться також
 
--   [gzencode()](function.gzencode.md) - Створити стислий рядок gzip
+-   [gzencode()](function.gzencode.md) \- Створити стислий рядок gzip

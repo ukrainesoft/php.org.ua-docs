@@ -1,18 +1,19 @@
 ---
 navigation:
-  - tidy.html.md: '« tidy::html'
+  - tidy.md.md: '« tidy::html'
   - tidy.isxml.md: 'tidy::isXml »'
   - index.md: PHP Manual
   - class.tidy.md: tidy
 title: 'tidy::isXhtml'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidy::isXhtml
 
-# tidyісxhtml
+# tidy\_is\_xhtml
 
-(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
 
-tidy::isXhtml -- tidyісxhtml — Визначає, чи є документ XHTML-документом
+tidy::isXhtml -- tidy\_is\_xhtml — Визначає, чи є документ XHTML-документом
 
 ### Опис
 

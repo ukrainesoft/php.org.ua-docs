@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-mama.md: « tradermama
-  - function.trader-max.md: tradermax »
+  - function.trader-mama.md: « trader\_mama
+  - function.trader-max.md: trader\_max »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermavp
+  - ref.trader.md: Функції Trader
+title: trader\_mavp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermavp
+# trader\_mavp
 
 (PECL trader >= 0.2.0)
 
-tradermavp — Ковзна середня зі змінним періодом
+trader\_mavp — Ковзна середня зі змінним періодом
 
 ### Опис
 
 ```methodsynopsis
-trader_mavp(    array $real,    array $periods,    int $minPeriod = ?,    int $maxPeriod = ?,    int $mAType = ?): array
+trader_mavp(    array $real,    array $periods,    int $minPeriod = ?,    int $maxPeriod = ?,    int $mAType = ?): array
 ```
 
 ### Список параметрів
@@ -38,7 +39,7 @@ trader_mavp(    array $real,    array $periods,    int $minPeriod = ?,    int $m
 
 `mAType`
 
-Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
+Тип ковзної середньої. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.md)
 
 ### Значення, що повертаються
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandsucceededevent.getcommandname.md: '« MongoDBDriverMonitoringCommandSucceededEvent::getCommandName'
-  - mongodb-driver-monitoring-commandsucceededevent.getoperationid.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getOperationId »'
+  - mongodb-driver-monitoring-commandsucceededevent.getcommandname.md: '« MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getCommandName'
+  - mongodb-driver-monitoring-commandsucceededevent.getoperationid.md: 'MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getOperationId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
-title: 'MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros'
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDB\\Driver\\Monitoring\\CommandSucceededEvent
+title: 'MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getDurationMicros'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros
+# MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getDurationMicros
 
 (mongodb >=1.3.0)
 
-MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros — Повертає тривалість команди в мікросекундах
+MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getDurationMicros — Повертає тривалість команди в мікросекундах
 
 ### Опис
 
@@ -30,7 +31,7 @@ final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getDurationMicros(
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 

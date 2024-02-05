@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.pg-unescape-bytea.md: « pgunescapebytea
-  - function.pg-update.md: пгupdate »
+  - function.pg-unescape-bytea.md: « pg\_unescape\_bytea
+  - function.pg-update.md: pg\_update »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгuntrace
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_untrace
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгuntrace
+# pg\_untrace
 
-(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.1, PHP 5, PHP 7, PHP 8)
 
-пгuntrace — Вимикає трасування з'єднання з PostgreSQL
+pg\_untrace — Вимикає трасування з'єднання з PostgreSQL
 
 ### Опис
 
 ```methodsynopsis
-pg_untrace(?PgSql\Connection $connection = null): bool
+pg_untrace(?PgSql\Connection $connection = null): true
 ```
 
-Зупиняє трасування, запущене функцією [пгtrace()](function.pg-trace.md)
+Зупиняє трасування, запущене функцією [pg\_trace()](function.pg-trace.md)
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection`указан как\*\*`null`\*\*, вибирається стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -36,14 +37,15 @@ pg_untrace(?PgSql\Connection $connection = null): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `connection` тепер допускає значення null. |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгuntrace()****
+**Пример #1 Пример использования**pg\_untrace()\*\*\*\*
 
 ```php
 <?php
@@ -63,4 +65,4 @@ if ($pgsql_conn) {
 
 ### Дивіться також
 
--   [пгtrace()](function.pg-trace.md) - Включає трасування підключення PostgreSQL
+-   [pg\_trace()](function.pg-trace.md) \- Включає трасування підключення PostgreSQL

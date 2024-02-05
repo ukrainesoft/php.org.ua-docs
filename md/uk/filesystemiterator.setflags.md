@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.filesystemiterator.md: FilesystemIterator
 title: 'FilesystemIterator::setFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FilesystemIterator::setFlags
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 FilesystemIterator::setFlags — Завдання прапорів обробки
 
@@ -32,9 +33,9 @@ public FilesystemIterator::setFlags(int $flags): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання [FilesystemIterator::key()](filesystemiterator.key.md)**
+**Пример #1 Пример использования[FilesystemIterator::key()](filesystemiterator.key.md)**
 
-Приклад демонструє різницю між прапорами [FilesystemIterator::KEYАСPATHNAME](class.filesystemiterator.md#filesystemiterator.constants.key-as-pathname) і [FilesystemIterator::KEYАСFILENAME](class.filesystemiterator.md#filesystemiterator.constants.key-as-filename)
+Приклад демонструє різницю між прапорами [FilesystemIterator::KEY\_AS\_PATHNAME](class.filesystemiterator.md#filesystemiterator.constants.key-as-pathname) і [FilesystemIterator::KEY\_AS\_FILENAME](class.filesystemiterator.md#filesystemiterator.constants.key-as-filename)
 
 ```php
 <?php
@@ -52,15 +53,19 @@ foreach ($iterator as $key => $fileinfo) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Результат виконання наведеного прикладу PHP 8.2 аналогічний:
 
 ```
 Ключом является путь к файлу:
+/www/examples/.
+/www/examples/..
 /www/examples/apple.jpg
 /www/examples/banana.jpg
 /www/examples/example.php
 
 Ключом является имя файла:
+.
+..
 apple.jpg
 banana.jpg
 example.php
@@ -68,5 +73,5 @@ example.php
 
 ### Дивіться також
 
--   [FilesystemIterator::construct()](filesystemiterator.construct.md) - Створює новий ітератор файлової системи
--   [FilesystemIterator::getFlags()](filesystemiterator.getflags.md) - Отримання прапорів налаштувань об'єкта
+-   [FilesystemIterator::\_\_construct()](filesystemiterator.construct.md) \- Створює новий ітератор файлової системи
+-   [FilesystemIterator::getFlags()](filesystemiterator.getflags.md) \- Отримання прапорів налаштувань об'єкта

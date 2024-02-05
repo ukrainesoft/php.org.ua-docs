@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-view-simple.construct.md: '« YafViewSimple::construct'
-  - yaf-view-simple.eval.md: 'YafViewSimple::eval »'
+  - yaf-view-simple.construct.md: '« Yaf\_View\_Simple::\_\_construct'
+  - yaf-view-simple.eval.md: 'Yaf\_View\_Simple::eval »'
   - index.md: PHP Manual
-  - class.yaf-view-simple.md: YafViewSimple
-title: 'YafViewSimple::display'
+  - class.yaf-view-simple.md: Yaf\_View\_Simple
+title: 'Yaf\_View\_Simple::display'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafViewSimple::display
+# Yaf\_View\_Simple::display
 
 (Yaf >=1.0.0)
 
-YafViewSimple::display — Відображає та відображає
+Yaf\_View\_Simple::display — Відображає та відображає
 
 ### Опис
 

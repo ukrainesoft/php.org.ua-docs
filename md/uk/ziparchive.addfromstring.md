@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::addFromString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::addFromString
 
@@ -20,7 +21,7 @@ public ZipArchive::addFromString(string $name, string $content, int $flags = Zip
 
 Додає файл до ZIP-архіву, використовуючи його вміст.
 
-> **Зауваження**: Для максимальної переносимості, рекомендується завжди використовувати прямі сліші (`/`) як роздільник директорій в іменах файлів.
+> **Зауваження**: Для максимальної переносимості, рекомендується завжди використовувати прямі сліші ( ) як роздільник директорій в іменах файлів.
 
 ### Список параметрів
 
@@ -34,17 +35,17 @@ public ZipArchive::addFromString(string $name, string $content, int $flags = Zip
 
 `flags`
 
-Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константи](zip.constants.md)
+Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** \*\*`ZipArchive::FL_ENC_CP437`\*\*Поведение констант описано на странице[ZIP-константи](zip.constants.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Доданий параметр `flags` |
+| 8.0.0 / 1.18.0 | Добавлен параметр`flags` |
 
 ### Приклади
 

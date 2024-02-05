@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-menu.appendabout.md: '« UIMenu::appendAbout'
-  - ui-menu.appendpreferences.md: 'ОЙMenu::appendPreferences »'
+  - ui-menu.appendabout.md: '« UI\\Menu::appendAbout'
+  - ui-menu.appendpreferences.md: 'UI\\Menu::appendPreferences »'
   - index.md: PHP Manual
-  - class.ui-menu.md: ОЙMenu
-title: 'ОЙMenu::appendCheck'
+  - class.ui-menu.md: UI\\Menu
+title: 'UI\\Menu::appendCheck'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙMenu::appendCheck
+# UI\\Menu::appendCheck
 
 (UI 0.9.9)
 
-ОЙMenu::appendCheck — Додати пункт меню з чекбоксом
+UI\\Menu::appendCheck — Додати пункт меню з чекбоксом
 
 ### Опис
 

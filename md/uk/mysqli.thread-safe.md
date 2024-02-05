@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli.thread-id.md: '« mysqli::$threadід'
-  - mysqli.use-result.md: 'mysqli::useresult »'
+  - mysqli.thread-id.md: '« mysqli::$thread\_id'
+  - mysqli.use-result.md: 'mysqli::use\_result »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::threadsafe'
+title: 'mysqli::thread\_safe'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::threadsafe
+# mysqli::thread\_safe
 
-# mysqlithreadsafe
+# mysqli\_thread\_safe
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::threadsafe -- mysqlithreadsafe — Показує, чи безпечна робота з процесами
+mysqli::thread\_safe -- mysqli\_thread\_safe — Показує, чи безпечна робота з процесами
 
 ### Опис
 

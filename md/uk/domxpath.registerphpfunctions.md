@@ -1,14 +1,15 @@
 ---
 navigation:
   - domxpath.registernamespace.md: '« DOMXPath::registerNamespace'
-  - ref.dom.md: Функции DOM »
+  - ref.dom.md: Функції DOM »
   - index.md: PHP Manual
   - class.domxpath.md: DOMXPath
 title: 'DOMXPath::registerPhpFunctions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMXPath::registerPhpFunctions
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 DOMXPath::registerPhpFunctions — Реєстрація PHP-функцій як функцій XPath
 
@@ -40,7 +41,7 @@ public DOMXPath::registerPhpFunctions(string|array|null $restrict = null): void
 
 PHP Basics Jim Smith Jane Smith PHP Secrets Jenny Smythe XML basics Joe Black
 
-**Приклад #2 **DOMXPath::registerPHPFunctions()** з `php:functionString`**
+**Пример #2**DOMXPath::registerPHPFunctions()**с`php:functionString`**
 
 ```php
 <?php
@@ -68,7 +69,7 @@ foreach ($nodes as $node) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Найдены 2 книги, начинающиеся с 'PHP':
@@ -76,7 +77,7 @@ PHP Basics автора Jim Smith
 PHP Secrets автора Jenny Smythe
 ```
 
-**Приклад #3 **DOMXPath::registerPHPFunctions()** з `php:function`**
+**Пример #3**DOMXPath::registerPHPFunctions()**с`php:function`**
 
 ```php
 <?php
@@ -106,7 +107,7 @@ foreach ($books as $book) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Книги с двумя и более авторами:
@@ -115,6 +116,6 @@ PHP Basics
 
 ### Дивіться також
 
--   [DOMXPath::registerNamespace()](domxpath.registernamespace.md) - Реєструє простір імен з об'єктом DOMXPath
--   [DOMXPath::query()](domxpath.query.md) - Виконує заданий вираз XPath
--   [DOMXPath::evaluate()](domxpath.evaluate.md) - Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
+-   [DOMXPath::registerNamespace()](domxpath.registernamespace.md) \- Реєструє простір імен з об'єктом DOMXPath
+-   [DOMXPath::query()](domxpath.query.md) \- Виконує заданий вираз XPath
+-   [DOMXPath::evaluate()](domxpath.evaluate.md) \- Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо

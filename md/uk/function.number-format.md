@@ -4,21 +4,22 @@ navigation:
   - function.ord.md: ord »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: numberformat
+title: number\_format
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# numberformat
+# number\_format
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-numberformat — Форматує число з розділенням груп
+number\_format — Форматує число з розділенням груп
 
 ### Опис
 
 ```methodsynopsis
-number_format(    float $num,    int $decimals = 0,    ?string $decimal_separator = ".",    ?string $thousands_separator = ","): string
+number_format(    float $num,    int $decimals = 0,    ?string $decimal_separator = ".",    ?string $thousands_separator = ","): string
 ```
 
-Форматує число згрупованими тисячами та, можливо, десятковими цифрами.
+Форматує число згрупованими тисячними та, можливо, десятковими цифрами, використовуючи математичне правило округлення.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ number_format(    float $num,    int $decimals = 0,    ?string $decimal_separato
 
 `decimals`
 
-Встановлює кількість знаків після коми. Якщо `0` `decimal_separator` опускається у значенні, що повертається.
+Встановлює кількість знаків після коми. Якщо `decimal_separator` опускається у значенні, що повертається.
 
 `decimal_separator`
 
@@ -44,14 +45,14 @@ number_format(    float $num,    int $decimals = 0,    ?string $decimal_separato
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | До цієї версії функція **numberformat()** приймала один, два чи чотири параметри (але не три). |
-|  | **numberformat()** була змінена, щоб не повертати `-0`, раніше `-0` могло бути повернено у випадках, коли `num` був `-0.01` |
+| 8.0.0 | До цієї версії функція **number\_format()** приймала один, два чи чотири параметри (але не три). |
+| 7.2.0 | **number\_format()** була змінена, щоб не повертати `-0`, раніше `-0` могло бути повернено у випадках, коли `num` був `-0.01` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numberformat()****
+**Пример #1 Пример использования**number\_format()\*\*\*\*
 
 У Франції зазвичай використовуються 2 знаки після коми (','), і пробіл ('') як роздільник груп. Цей приклад демонструє різні способи форматування чисел:
 
@@ -79,7 +80,7 @@ $english_format_number = number_format($number, 2, '.', '');
 
 ### Дивіться також
 
--   [moneyformat()](function.money-format.md) - Форматує число як грошову величину
--   [sprintf()](function.sprintf.md) - Повертає відформатований рядок
--   [printf()](function.printf.md) - Виводить відформатований рядок
--   [sscanf()](function.sscanf.md) - Розбирає рядок відповідно до заданого формату
+-   [money\_format()](function.money-format.md) \- Форматує число як грошову величину
+-   [sprintf()](function.sprintf.md) \- Повертає відформатований рядок
+-   [printf()](function.printf.md) \- Виводить відформатований рядок
+-   [sscanf()](function.sscanf.md) \- Розбирає рядок відповідно до заданого формату

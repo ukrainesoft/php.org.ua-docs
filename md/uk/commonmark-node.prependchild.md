@@ -1,16 +1,17 @@
 ---
 navigation:
-  - commonmark-node.appendchild.md: '« CommonMarkNode::appendChild'
-  - commonmark-node.insertafter.md: 'CommonMarkNode::insertAfter »'
+  - commonmark-node.appendchild.md: '« CommonMark\\Node::appendChild'
+  - commonmark-node.insertafter.md: 'CommonMark\\Node::insertAfter »'
   - index.md: PHP Manual
-  - class.commonmark-node.md: CommonMarkNode
-title: 'CommonMarkNode::prependChild'
+  - class.commonmark-node.md: CommonMark\\Node
+title: 'CommonMark\\Node::prependChild'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkNode::prependChild
+# CommonMark\\Node::prependChild
 
 (cmark >= 1.0.0)
 
-CommonMarkNode::prependChild — Маніпуляції з AST (Абстрактне синтаксичне дерево)
+CommonMark\\Node::prependChild — Маніпуляції з AST (Абстрактне синтаксичне дерево)
 
 ### Опис
 
@@ -20,7 +21,7 @@ public CommonMark\Node::prependChild(CommonMark\Node $child): CommonMark\Node
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

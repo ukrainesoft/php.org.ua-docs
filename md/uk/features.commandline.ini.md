@@ -1,10 +1,11 @@
 ---
 navigation:
   - features.commandline.webserver.md: « Вбудований веб-сервер
-  - features.gc.md: Сборка мусора »
+  - features.gc.md: Складання сміття »
   - index.md: PHP Manual
-  - features.commandline.md: Використання PHP у командному рядку
+  - features.commandline.md: Робота з PHP з командного рядка
 title: Опції конфігурації
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Опції конфігурації
 
@@ -12,10 +13,10 @@ title: Опції конфігурації
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [cliserver.color](features.commandline.ini.md#ini.cli-server.color) | "0" | PHPINIALL |  |
+| [cli\_server.color](features.commandline.ini.md#ini.cli-server.color) | "0" | **`INI_ALL`** |  |
 
 Коротке пояснення конфігураційних директив.
 
-`cli_server.color` bool
+`cli_server.color`bool
 
 Включає підтримку колірних кодів ANSI у виведенні терміналу вбудованого веб-сервера.

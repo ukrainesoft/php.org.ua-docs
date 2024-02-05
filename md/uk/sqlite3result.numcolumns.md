@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3result.md: SQLite3Result
 title: 'SQLite3Result::numColumns'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3Result::numColumns
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3Result::numColumns — Повертає кількість стовпців у результуючому наборі
 

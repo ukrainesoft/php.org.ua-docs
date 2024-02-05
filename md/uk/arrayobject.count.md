@@ -1,10 +1,11 @@
 ---
 navigation:
-  - arrayobject.construct.md: '« ArrayObject::construct'
+  - arrayobject.construct.md: '« ArrayObject::\_\_construct'
   - arrayobject.exchangearray.md: 'ArrayObject::exchangeArray »'
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::count
 
@@ -28,13 +29,13 @@ public ArrayObject::count(): int
 
 Кількість загальнодоступних властивостей [ArrayObject](class.arrayobject.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо [ArrayObject](class.arrayobject.md) створюється з масиву, всі властивості є загальнодоступними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::count()****
+**Пример #1 Пример использования**ArrayObject::count()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($arrayobj->count());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(1)

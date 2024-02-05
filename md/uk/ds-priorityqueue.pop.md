@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-priorityqueue.peek.md: '« DsPriorityQueue::peek'
-  - ds-priorityqueue.push.md: 'ДсPriorityQueue::push »'
+  - ds-priorityqueue.peek.md: '« Ds\\PriorityQueue::peek'
+  - ds-priorityqueue.push.md: 'Ds\\PriorityQueue::push »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.md: Черга з пріоритетом
-title: 'ДсPriorityQueue::pop'
+  - class.ds-priorityqueue.md: Ds\\PriorityQueue
+title: 'Ds\\PriorityQueue::pop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсPriorityQueue::pop
+# Ds\\PriorityQueue::pop
 
 (PECL ds >= 1.0.0)
 
-ДсPriorityQueue::pop — Видаляє та повертає значення з найвищим пріоритетом
+Ds\\PriorityQueue::pop — Видаляє та повертає значення з найвищим пріоритетом
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Ds\PriorityQueue::pop(): mixed
 
 Видаляє і повертає значення початку черги, тобто. значення із найвищим пріоритетом.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення з однаковим пріоритетом повертаються за принципом FIFO.
 
@@ -38,7 +39,7 @@ public Ds\PriorityQueue::pop(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсPriorityQueue::pop()****
+**Пример #1 Пример использования**Ds\\PriorityQueue::pop()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ print_r($queue->pop());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"

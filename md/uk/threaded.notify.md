@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.threaded.md: Threaded
 title: 'Threaded::notify'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Threaded::notify
 
@@ -26,7 +27,7 @@ public Threaded::notify(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -54,7 +55,7 @@ var_dump($my->join());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)

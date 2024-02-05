@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-runtime.construct.md: '« parallelRuntime::construct'
-  - parallel-runtime.close.md: 'parallelRuntime::close »'
+  - parallel-runtime.construct.md: '« parallel\\Runtime::\_\_construct'
+  - parallel-runtime.close.md: 'parallel\\Runtime::close »'
   - index.md: PHP Manual
-  - class.parallel-runtime.md: parallelRuntime
-title: 'parallelRuntime::run'
+  - class.parallel-runtime.md: parallel\\Runtime
+title: 'parallel\\Runtime::run'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelRuntime::run
+# parallel\\Runtime::run
 
-parallelRuntime::run — Виконання
+(0.8.0)
+
+parallel\\Runtime::run — Виконання
 
 ### Опис
 
@@ -22,7 +25,7 @@ public parallel\Runtime::run(Closure $task): ?Future
 public parallel\Runtime::run(Closure $task, array $argv): ?Future
 ```
 
-Планує паралельне виконання `task`, передаючи `argv` під час виконання.
+Планує паралельне виконання `task`, передавая`argv` під час виконання.
 
 ### Список параметрів
 
@@ -49,11 +52,11 @@ public parallel\Runtime::run(Closure $task, array $argv): ?Future
 -   declare class
 -   declare named function
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Вкладені замикання можуть використовувати yield або передачу значення посилання, але не повинні містити оголошення класів або іменованих функцій.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Жодні інструкції не заборонені у файлах, які можуть включати завдання.
 
@@ -65,7 +68,7 @@ public parallel\Runtime::run(Closure $task, array $argv): ?Future
 -   утримувати ресурси
 -   містити внутрішні об'єкти (дивіться примітки)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > У разі ресурсів файлового потоку ресурс буде перетворено на файловий дескриптор і передано як ціле число (int), де це можливо, не підтримується у Windows.
 
@@ -73,7 +76,7 @@ public parallel\Runtime::run(Closure $task, array $argv): ?Future
 
 Внутрішні об'єкти зазвичай використовують структуру, що налаштовується, яку не можна безпечно скопіювати за значенням, в PHP в даний час відсутній механізм для цього (без серіалізації), і тому можуть використовуватися тільки об'єкти, які не використовують структуру, що налаштовується.
 
-Деякі внутрішні об'єкти не використовують структуру, що настроюється, наприклад, [parallelEventsEvent](class.parallel-events-event.md) і тому можуть використовуватись спільно.
+Деякі внутрішні об'єкти не використовують структуру, що настроюється, наприклад, [parallel\\Events\\Event](class.parallel-events-event.md) і тому можуть використовуватись спільно.
 
 Замикання - це особливий вид внутрішнього об'єкта, який підтримує копіювання за значенням, тому може використовуватись спільно.
 
@@ -87,26 +90,26 @@ public parallel\Runtime::run(Closure $task, array $argv): ?Future
 
 **Увага**
 
-Не можна ігнорувати повертається [parallelFuture](class.parallel-future.md)якщо завдання містить оператор return або throw.
+Не можна ігнорувати повертається [parallel\\Future](class.parallel-future.md)якщо завдання містить оператор return або throw.
 
 ### Винятки
 
 **Увага**
 
-Викидає parallelRuntimeErrorClosed, якщо [parallelRuntime](class.parallel-runtime.md) було закрито.
+Викидає parallel\\Runtime\\Error\\Closed, якщо [parallel\\Runtime](class.parallel-runtime.md) було закрито.
 
 **Увага**
 
-Викидає parallelRuntimeErrorIlegallegalfunction, якщо `task` є замиканням, створеним із внутрішньої функції.
+Викидає parallel\\Runtime\\Error\\IllegalFunction, если`task` є замиканням, створеним із внутрішньої функції.
 
 **Увага**
 
-Викидає parallelRuntimeErrorIlegallegalінструкції, якщо `task` містить неприпустимі інструкції.
+Викидає parallel\\Runtime\\Error\\IllegalInstruction, если`task` містить неприпустимі інструкції.
 
 **Увага**
 
-Викидає parallelRuntimeErrorIlegalкомп'ютер, якщо `task` приймає або `argv` містить неприпустимі змінні.
+Викидає parallel\\Runtime\\Error\\IllegalParameter, если`task` приймає або `argv` містить неприпустимі змінні.
 
 **Увага**
 
-Викидає parallelRuntimeErrorIllegalReturn, якщо `task` повертається некоректно.
+Викидає parallel\\Runtime\\Error\\IllegalReturn, если`task` повертається некоректно.

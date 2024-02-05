@@ -1,14 +1,15 @@
 ---
 navigation:
   - pdo.begintransaction.md: '« PDO::beginTransaction'
-  - pdo.construct.md: 'PDO::construct »'
+  - pdo.construct.md: 'PDO::\_\_construct »'
   - index.md: PHP Manual
   - class.pdo.md: PDO
 title: 'PDO::commit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::commit
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8, PECL pdo >= 0.1.0)
 
 PDO::commit - Фіксує транзакцію
 
@@ -26,7 +27,7 @@ public PDO::commit(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -86,6 +87,6 @@ $dbh->commit();
 
 ### Дивіться також
 
--   [PDO::beginTransaction()](pdo.begintransaction.md) - Ініціалізація транзакції
--   [PDO::rollBack()](pdo.rollback.md) - Відкат транзакції
+-   [PDO::beginTransaction()](pdo.begintransaction.md) \- Ініціалізація транзакції
+-   [PDO::rollBack()](pdo.rollback.md) \- Відкат транзакції
 -   [Транзакції та автоматична фіксація](pdo.transactions.md)

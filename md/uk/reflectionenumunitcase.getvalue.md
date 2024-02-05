@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionenumunitcase.md: ReflectionEnumUnitCase
 title: 'ReflectionEnumUnitCase::getValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionEnumUnitCase::getValue
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionEnumUnitCase::getValue — Отримує об'єкт варіанта перерахування, описаний Reflection-об'єктом
 
@@ -30,7 +31,7 @@ public ReflectionEnumUnitCase::getValue(): UnitEnum
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionEnum::getValue()****
+**Пример #1 Пример использования**ReflectionEnum::getValue()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump($rCase->getValue());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 enum(Suit::Diamonds)
@@ -58,4 +59,4 @@ enum(Suit::Diamonds)
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.md)
+-   [Перерахування](language.enumerations.md)

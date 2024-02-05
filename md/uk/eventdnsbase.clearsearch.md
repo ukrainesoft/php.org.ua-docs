@@ -1,10 +1,11 @@
 ---
 navigation:
   - eventdnsbase.addsearch.md: '« EventDnsBase::addSearch'
-  - eventdnsbase.construct.md: 'EventDnsBase::construct »'
+  - eventdnsbase.construct.md: 'EventDnsBase::\_\_construct »'
   - index.md: PHP Manual
   - class.eventdnsbase.md: EventDnsBase
 title: 'EventDnsBase::clearSearch'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventDnsBase::clearSearch
 
@@ -19,7 +20,7 @@ public
    EventDnsBase::clearSearch(): void
 ```
 
-Видаляє всі поточні пошукові суфікси з бази DNS; функція [EventDnsBase::addSearch()](eventdnsbase.addsearch.md) додає суфікс.
+Видаляє всі поточні пошукові суфікси з бази DNS; функція [EventDnsBase::addSearch()](eventdnsbase.addsearch.md)добавляет суффикс.
 
 ### Список параметрів
 
@@ -31,4 +32,4 @@ public
 
 ### Дивіться також
 
--   [EventDnsBase::addSearch()](eventdnsbase.addsearch.md) - Додає домен до списку пошукових доменів
+-   [EventDnsBase::addSearch()](eventdnsbase.addsearch.md) \- Додає домен до списку пошукових доменів

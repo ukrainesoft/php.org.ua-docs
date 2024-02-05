@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Інтерфейс Reflector
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс Reflector
 
@@ -18,37 +19,30 @@ title: Інтерфейс Reflector
 
 ```classsynopsis
 
-     
     
+     interface Reflector
 
-    
-     
-      interface Reflector
-      extends
-       Stringable
-     
-     {
-
-
-    /* Методы */
-    
-   public static export(): string
-public __toString(): string
-
+    extends
+      Stringable {
 
     /* Наследуемые методы */
-    public Stringable::__toString(): string
+    
+   public Stringable::__toString(): string
 
    }
 ```
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Клас **Reflector** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
+| 8.0.0 | Метод[Reflector::export()](reflector.export.md)був видалений. |
+| 8.0.0 | Класс**Reflector** тепер успадковує [Stringable](class.stringable.md). . Він успадковує [Stringable::\_\_toString()](stringable.tostring.md), замінюючи **Reflector::\_\_toString()** |
+
+## Дивіться також
+
+-   [Reflector::export()](reflector.export.md)
 
 ## Зміст
 
--   [Reflector::export](reflector.export.md) - Експорт
--   [Reflector::toString](reflector.tostring.md) — Подання у вигляді рядка
+-   [Reflector::export](reflector.export.md) \- Експорт

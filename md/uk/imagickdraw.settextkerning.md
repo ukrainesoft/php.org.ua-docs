@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setTextKerning'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setTextKerning
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 ImagickDraw::setTextKerning — Встановлює міжлітерний інтервал тексту
 
@@ -22,7 +23,7 @@ public ImagickDraw::setTextKerning(float $kerning): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

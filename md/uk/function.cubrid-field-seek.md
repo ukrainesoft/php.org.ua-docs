@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-field-name.md: « cubridfieldname
-  - function.cubrid-field-table.md: cubridfieldtable »
+  - function.cubrid-field-name.md: « cubrid\_field\_name
+  - function.cubrid-field-table.md: cubrid\_field\_table »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridfieldseek
+title: cubrid\_field\_seek
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridfieldseek
+# cubrid\_field\_seek
 
 (PECL CUBRID >= 8.3.0)
 
-cubridfieldseek — Перемістити внутрішній покажчик результуючого набору на вказаний стовпець
+cubrid\_field\_seek — Перемістити внутрішній покажчик результуючого набору на вказаний стовпець
 
 ### Опис
 
@@ -18,27 +19,27 @@ cubridfieldseek — Перемістити внутрішній покажчик
 cubrid_field_seek(resource $result, int $field_offset = 0): bool
 ```
 
-Функція переміщує внутрішній покажчик результуючого набору вказаний стовпець. Це усунення використовується функцією [cubridfetchfield()](function.cubrid-fetch-field.md), якщо не вказано параметр offset. Повертає **`true`** або **`false`** залежно від успішності виконання.
+Функція переміщує внутрішній покажчик результуючого набору вказаний стовпець. Це усунення використовується функцією [cubrid\_fetch\_field()](function.cubrid-fetch-field.md), якщо не вказано параметр offset. Повертає **`true`**либо**`false`** залежно від успішності виконання.
 
 ### Список параметрів
 
 `result`
 
-`Result`, отриманий з [cubridexecute()](function.cubrid-execute.md)
+`Result`, отриманий з [cubrid\_execute()](function.cubrid-execute.md)
 
 `field_offset`
 
-Індекс поля у рядку результуючого набору . `field_offset` починається з 0. Якщо `field_offset` не заданий, то буде викликана помилка рівня **`E_WARNING`**
+Индекс поля в строке результирующего набора`field_offset` починається з 0. Якщо `field_offset` не заданий, то буде викликана помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
 **`true`** у разі успішного виконання.
 
-**`false`** у разі виникнення помилки.
+\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridfieldseek()****
+**Пример #1 Пример использования**cubrid\_field\_seek()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(4) {

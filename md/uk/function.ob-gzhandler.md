@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ob-get-status.md: « obgetstatus
-  - function.ob-implicit-flush.md: про implicit flush »
+  - function.inflate-init.md: « inflate\_init
+  - function.readgzfile.md: readgzfile »
   - index.md: PHP Manual
-  - ref.outcontrol.md: Функції контролю виведення
-title: проgzhandler
+  - ref.zlib.md: Функції Zlib
+title: ob\_gzhandler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# проgzhandler
+# ob\_gzhandler
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-проgzhandler - callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
+ob\_gzhandler — стискає буфер виводу в gzip, діючи як callback-функція — параметр функції ob\_start
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: проgzhandler
 ob_gzhandler(string $data, int $flags): string|false
 ```
 
-Функція **проgzhandler()** призначена для використання як callback-функції для [проstart()](function.ob-start.md), щоб полегшити надсилання gz-кодованих даних браузерам, які підтримують стиснення веб-сторінок. Перш ніж **проgzhandler()** відправить стислі дані, вона визначає, який тип кодування вмісту зможе прийняти браузер ("gzip", "deflate" або взагалі ніякий) і поверне його вміст відповідним чином. Підтримуються всі браузери, які надсилають коректні заголовки про те, що вони беруть стислі веб-сторінки. Якщо браузер не підтримує стиснення сторінок, ця функція поверне **`false`**
+Функция**ob\_gzhandler()** виступає в ролі callback-функції – параметра функції [ob\_start()](function.ob-start.md), щоб спростити надсилання gz-кодованих даних для веб-браузерів, які підтримують обробку стислих веб-сторінок. Перед тим як функція **ob\_gzhandler()** відправить стислі дані, визначить прийнятий браузером тип кодування вмісту (gzip, deflate або взагалі ніякий), і поверне свій висновок. Підтримуються всі браузери, оскільки браузер сам надсилає правильний заголовок, який повідомляє, що він приймає стислі веб-сторінки. Якщо браузер не підтримує стиснення сторінок, ця функція поверне **`false`**
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ ob_gzhandler(string $data, int $flags): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **проgzhandler()****
+**Пример #1 Пример использования функции**ob\_gzhandler()\*\*\*\*
 
 ```php
 <?php
@@ -47,15 +48,15 @@ ob_start("ob_gzhandler");
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **проgzhandler()** вимагає наявність модуля [zlib](ref.zlib.md)
+> Функції \*\*ob\_gzhandler()\*\*нужен модуль[zlib](ref.zlib.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Ви не можете використовувати одночасно **проgzhandler()** і [zlib.outputcompression](zlib.configuration.md#ini.zlib.output-compression). Також зверніть увагу, що використання [zlib.outputcompression](zlib.configuration.md#ini.zlib.output-compression) краще, ніж **проgzhandler()**
+> Не можна одночасно викликати функцію **ob\_gzhandler()** та включати налаштування [zlib.output\_compression](zlib.configuration.md#ini.zlib.output-compression)Обратите также внимание, включение опции[zlib.output\_compression](zlib.configuration.md#ini.zlib.output-compression) пріоритетніший за виклик функції **ob\_gzhandler()**
 
 ### Дивіться також
 
--   [проstart()](function.ob-start.md) - Включення буферизації виводу
--   [проendflush()](function.ob-end-flush.md) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
+-   [ob\_start()](function.ob-start.md) \- Включає буферизацію виводу
+-   [ob\_end\_flush()](function.ob-end-flush.md) \- Скидає (відправляє) значення активного оброблювача виводу, що повертається, і відключає активний буфер виводу

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-sftp-stat.md: « ssh2sftpstat
-  - function.ssh2-sftp-unlink.md: ssh2sftpunlink »
+  - function.ssh2-sftp-stat.md: « ssh2\_sftp\_stat
+  - function.ssh2-sftp-unlink.md: ssh2\_sftp\_unlink »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2sftpsymlink
+title: ssh2\_sftp\_symlink
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2sftpsymlink
+# ssh2\_sftp\_symlink
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2sftpsymlink — Створити символічне посилання
+ssh2\_sftp\_symlink — Створити символічне посилання
 
 ### Опис
 
@@ -24,7 +25,7 @@ ssh2_sftp_symlink(resource $sftp, string $target, string $link): bool
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.md)
 
 `target`
 
@@ -34,7 +35,7 @@ ssh2_sftp_symlink(resource $sftp, string $target, string $link): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -52,5 +53,5 @@ ssh2_sftp_symlink($sftp, '/var/run/mysql.sock', '/tmp/mysql.sock');
 
 ### Дивіться також
 
--   [ssh2sftpreadlink()](function.ssh2-sftp-readlink.md) - Повертає об'єкт за символічним посиланням
--   [symlink()](function.symlink.md) - Створює символічне посилання
+-   [ssh2\_sftp\_readlink()](function.ssh2-sftp-readlink.md) \- Повертає об'єкт за символічним посиланням
+-   [symlink()](function.symlink.md) \- Створює символічне посилання

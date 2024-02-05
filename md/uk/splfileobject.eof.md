@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::eof'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::eof
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::eof — Перевіряє, чи кінець файлу досягнуто.
 
@@ -30,7 +31,7 @@ public SplFileObject::eof(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::eof()****
+**Пример #1 Пример использования**SplFileObject::eof()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ while ( ! $file->eof()) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 apple
@@ -53,5 +54,5 @@ elderberry
 
 ### Дивіться також
 
--   [SplFileObject::valid()](splfileobject.valid.md) - Перевіряє, чи кінець файлу (EOF) досягнуто.
--   [feof()](function.feof.md) - Перевіряє, чи кінець файлу досягнуто
+-   [SplFileObject::valid()](splfileobject.valid.md) \- Перевіряє, чи кінець файлу (EOF) досягнуто.
+-   [feof()](function.feof.md) \- Перевіряє, чи кінець файлу досягнуто

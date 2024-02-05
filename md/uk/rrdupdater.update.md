@@ -1,10 +1,11 @@
 ---
 navigation:
-  - rrdupdater.construct.md: '« RRDUpdater::construct'
+  - rrdupdater.construct.md: '« RRDUpdater::\_\_construct'
   - book.scoutapm.md: ScoutAPM »
   - index.md: PHP Manual
   - class.rrdupdater.md: RRDUpdater
 title: 'RRDUpdater::update'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RRDUpdater::update
 
@@ -20,7 +21,7 @@ public RRDUpdater::update(array $values, string $time
    ): bool
 ```
 
-Оновлює файл бази даних RRD, визначений через конструктор [RRDUpdater::construct()](rrdupdater.construct.md). Файл оновлюється за заданими значеннями.
+Оновлює файл бази даних RRD, визначений через конструктор [RRDUpdater::\_\_construct()](rrdupdater.construct.md). Файл оновлюється за заданими значеннями.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public RRDUpdater::update(array $values, string $time
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -42,7 +43,7 @@ public RRDUpdater::update(array $values, string $time
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RRDUpdater::update()****
+**Пример #1 Пример использования**RRDUpdater::update()\*\*\*\*
 
 ```php
 <?php

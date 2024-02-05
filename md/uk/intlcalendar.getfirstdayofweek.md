@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getFirstDayOfWeek'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getFirstDayOfWeek
 
@@ -36,11 +37,11 @@ intlcal_get_first_day_of_week(IntlCalendar $calendar): int|false
 
 ### Значення, що повертаються
 
-Одна з констант: **`IntlCalendar::DOW_SUNDAY`** **`IntlCalendar::DOW_MONDAY`** **`IntlCalendar::DOW_SATURDAY`** або **`false`** у разі виникнення помилки.
+Одна из констант:**`IntlCalendar::DOW_SUNDAY`** **`IntlCalendar::DOW_MONDAY`** \*\*`IntlCalendar::DOW_SATURDAY`**или**`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::getFirstDayOfWeek()****
+**Пример #1 Пример использования**IntlCalendar::getFirstDayOfWeek()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ $cal2->set(2013, 1 /* Февраль */, 3); // Воскресенье
 var_dump($cal2->get(IntlCalendar::FIELD_WEEK_OF_YEAR)); // 6
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(2)
@@ -68,4 +69,4 @@ int(6)
 
 ### Дивіться також
 
--   [IntlCalendar::setFirstDayOfWeek()](intlcalendar.setfirstdayofweek.md) - Встановлює день, який є початком тижня
+-   [IntlCalendar::setFirstDayOfWeek()](intlcalendar.setfirstdayofweek.md) \- Встановлює день, який є початком тижня

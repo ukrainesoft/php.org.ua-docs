@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.array-intersect.md: « arrayintersect
-  - function.array-key-exists.md: arraykeyexists »
+  - function.array-intersect.md: « array\_intersect
+  - function.array-key-exists.md: array\_key\_exists »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
-title: arrayісlist
+title: array\_is\_list
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# arrayісlist
+# array\_is\_list
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-arrayісlist — Перевіряє, чи є цей `array` списком
+array\_is\_list — Перевіряє, чи є цей `array`списком
 
 ### Опис
 
@@ -18,7 +19,7 @@ arrayісlist — Перевіряє, чи є цей `array` списком
 array_is_list(array $array): bool
 ```
 
-Визначає, чи є даний `array` списком. Масив (array) вважається списком, якщо його ключі складаються з послідовних чисел від `0` до `count($array)-1`
+Визначає, чи є даний `array` списком. Масив (array) вважається списком, якщо його ключі складаються з послідовних чисел від до`count($array)-1`
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ array_is_list(array $array): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **arrayісlist()****
+**Пример #1 Пример использования**array\_is\_list()\*\*\*\*
 
 ```php
 <?php
@@ -41,13 +42,13 @@ array_is_list([]); // true
 array_is_list(['apple', 2, 3]); // true
 array_is_list([0 => 'apple', 'orange']); // true
 
-// Масив начинается не с 0
+// Массив начинается не с 0
 array_is_list([1 => 'apple', 'orange']); // false
 
-// Ключи Масива не по порядку
+// Ключи массива не по порядку
 array_is_list([1 => 'apple', 0 => 'orange']); // false
 
-// Ключи Масива не являются целыми числами
+// Ключи массива не являются целыми числами
 array_is_list([0 => 'apple', 'foo' => 'bar']); // false
 
 // Непоследовательные ключи
@@ -57,10 +58,10 @@ array_is_list([0 => 'apple', 2 => 'bar']); // false
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція повертає **`true`** для пустих масивів.
 
 ### Дивіться також
 
--   [arrayvalues()](function.array-values.md) - Вибирає всі значення масиву
+-   [array\_values()](function.array-values.md) \- Повертає всі значення масиву

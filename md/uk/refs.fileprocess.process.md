@@ -1,107 +1,108 @@
 ---
 navigation:
-  - vtiful-kernel-format.underline.md: '« VtifulKernelFormat::underline'
+  - vtiful-kernel-format.underline.md: '« Vtiful\\Kernel\\Format::underline'
   - book.eio.md: Eio »
   - index.md: PHP Manual
-  - funcref.md: Справочник функций
+  - funcref.md: Довідник функцій
 title: Модулі для керування процесами програм
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Модулі для керування процесами програм
 
 -   [Eio](book.eio.md)
-    -   [Введение](intro.eio.md)
+    -   [Вступ](intro.eio.md)
     -   [Встановлення та налаштування](eio.setup.md)
     -   [Обумовлені константи](eio.constants.md)
     -   [Приклади](eio.examples.md)
-    -   [Eio Функции](ref.eio.md)
--   [Єв](book.ev.md)
-    -   [Введение](intro.ev.md)
+    -   [Eio Функції](ref.eio.md)
+-   [Ev](book.ev.md)
+    -   [Вступ](intro.ev.md)
     -   [Встановлення та налаштування](ev.setup.md)
     -   [Обумовлені константи](ev.global.constants.md)
     -   [Приклади](ev.examples.md)
     -   [Спостерігачі](ev.watchers.md)
     -   [Watcher callbacks](ev.watcher-callbacks.md)
     -   [Режими роботи періодичних спостерігачів](ev.periodic-modes.md)
-    -   [Єв](class.ev.md) - Клас Ev
-    -   [EvCheck](class.evcheck.md) - Клас EvCheck
-    -   [EvChild](class.evchild.md) - Клас EvChild
-    -   [EvEmbed](class.evembed.md) - Клас EvEmbed
-    -   [EvFork](class.evfork.md) - Клас EvFork
-    -   [EvIdle](class.evidle.md) - Клас EvIdle
-    -   [EvIo](class.evio.md) - Клас EvIo
-    -   [EvLoop](class.evloop.md) - Клас EvLoop
-    -   [EvPeriodic](class.evperiodic.md) - Клас EvPeriodic
-    -   [EvPrepare](class.evprepare.md) - Клас EvPrepare
-    -   [EvSignal](class.evsignal.md) - Клас EvSignal
-    -   [EvStat](class.evstat.md) - Клас EvStat
-    -   [EvTimer](class.evtimer.md) - Клас EvTimer
-    -   [EvWatcher](class.evwatcher.md) - Клас EvWatcher
+    -   [Ev](class.ev.md) \- Клас Ev
+    -   [EvCheck](class.evcheck.md) \- Клас EvCheck
+    -   [EvChild](class.evchild.md) \- Клас EvChild
+    -   [EvEmbed](class.evembed.md) \- Клас EvEmbed
+    -   [EvFork](class.evfork.md) \- Клас EvFork
+    -   [EvIdle](class.evidle.md) \- Клас EvIdle
+    -   [EvIo](class.evio.md) \- Клас EvIo
+    -   [EvLoop](class.evloop.md) \- Клас EvLoop
+    -   [EvPeriodic](class.evperiodic.md) \- Клас EvPeriodic
+    -   [EvPrepare](class.evprepare.md) \- Клас EvPrepare
+    -   [EvSignal](class.evsignal.md) \- Клас EvSignal
+    -   [EvStat](class.evstat.md) \- Клас EvStat
+    -   [EvTimer](class.evtimer.md) \- Клас EvTimer
+    -   [EvWatcher](class.evwatcher.md) \- Клас EvWatcher
 -   [Expect](book.expect.md)
-    -   [Введение](intro.expect.md)
+    -   [Вступ](intro.expect.md)
     -   [Встановлення та налаштування](expect.setup.md)
     -   [Обумовлені константи](expect.constants.md)
     -   [Приклади](expect.examples.md)
-    -   [Функции Expect](ref.expect.md)
--   [PCNTL](book.pcntl.md) - Управління процесами
-    -   [Введение](intro.pcntl.md)
+    -   [Опції Expect](ref.expect.md)
+-   [PCNTL](book.pcntl.md) \- Управління процесами
+    -   [Вступ](intro.pcntl.md)
     -   [Встановлення та налаштування](pcntl.setup.md)
     -   [Обумовлені константи](pcntl.constants.md)
     -   [Приклади](pcntl.examples.md)
     -   [Функції PCNTL](ref.pcntl.md)
 -   [POSIX](book.posix.md)
-    -   [Введение](intro.posix.md)
+    -   [Вступ](intro.posix.md)
     -   [Встановлення та налаштування](posix.setup.md)
     -   [Обумовлені константи](posix.constants.md)
-    -   [POSIX Функции](ref.posix.md)
--   [Запуск програми](book.exec.md) - Запуск програм у системі
-    -   [Введение](intro.exec.md)
+    -   [POSIX Функції](ref.posix.md)
+-   [Запуск програми](book.exec.md) \- Запуск програм у системі
+    -   [Вступ](intro.exec.md)
     -   [Встановлення та налаштування](exec.setup.md)
     -   [Обумовлені константи](exec.constants.md)
-    -   [Функции запуска программ](ref.exec.md)
+    -   [Функції запуску програм](ref.exec.md)
 -   [parallel](book.parallel.md)
-    -   [Введение](intro.parallel.md)
+    -   [Вступ](intro.parallel.md)
     -   [Установка](parallel.setup.md)
-    -   [Философия](philosophy.parallel.md)
+    -   [Філософія](philosophy.parallel.md)
     -   [Функціональний API](functional.parallel.md)
-    -   [parallelRuntime](class.parallel-runtime.md) - Клас parallelRuntime
-    -   [parallelFuture](class.parallel-future.md) - Клас parallelFuture
-    -   [parallelChannel](class.parallel-channel.md) - Клас parallelChannel
-    -   [parallelEvents](class.parallel-events.md) - Клас parallelEvents
-    -   [parallelEventsInput](class.parallel-events-input.md) - Клас parallelEventsInput
-    -   [parallelEventsEvent](class.parallel-events-event.md) - Клас parallelEventsEvent
-    -   [parallelEventsEventType](class.parallel-events-event-type.md) - Клас parallelEventsEventType
-    -   [parallelSync](class.parallel-sync.md) - Клас parallelSync
+    -   [parallel\\Runtime](class.parallel-runtime.md) \- Клас parallel\\Runtime
+    -   [parallel\\Future](class.parallel-future.md) \- Клас parallel\\Future
+    -   [parallel\\Channel](class.parallel-channel.md) \- Клас parallel\\Channel
+    -   [parallel\\Events](class.parallel-events.md) \- Клас parallel\\Events
+    -   [parallel\\Events\\Input](class.parallel-events-input.md) \- Клас parallel\\Events\\Input
+    -   [parallel\\Events\\Event](class.parallel-events-event.md) \- Клас parallel\\Events\\Event
+    -   [parallel\\Events\\Event\\Type](class.parallel-events-event-type.md) \- Клас parallel\\Events\\Event\\Type
+    -   [parallel\\Sync](class.parallel-sync.md) \- Клас parallel\\Sync
 -   [pthreads](book.pthreads.md)
-    -   [Введение](intro.pthreads.md)
+    -   [Вступ](intro.pthreads.md)
     -   [Встановлення та налаштування](pthreads.setup.md)
     -   [Обумовлені константи](pthreads.constants.md)
-    -   [Threaded](class.threaded.md) - Клас Threaded
-    -   [Thread](class.thread.md) - Клас Thread
-    -   [Worker](class.worker.md) - Клас Worker
-    -   [Collectable](class.collectable.md) - Інтерфейс Collectable
-    -   [Pool](class.pool.md) - Клас Pool
-    -   [Volatile](class.volatile.md) - Клас Volatile
--   [Семафори](book.sem.md) — Семафори, пам'ять, що розділяється, і IPC
-    -   [Введение](intro.sem.md)
+    -   [Threaded](class.threaded.md) \- Клас Threaded
+    -   [Thread](class.thread.md) \- Клас Thread
+    -   [Worker](class.worker.md) \- Клас Worker
+    -   [Collectable](class.collectable.md) \- Інтерфейс Collectable
+    -   [Pool](class.pool.md) \- Клас Pool
+    -   [Volatile](class.volatile.md) \- Клас Volatile
+-   [Семафори](book.sem.md)— Семафори, пам'ять, що розділяється, і IPC
+    -   [Вступ](intro.sem.md)
     -   [Встановлення та налаштування](sem.setup.md)
     -   [Обумовлені константи](sem.constants.md)
     -   [Функції семафорів](ref.sem.md)
-    -   [SysvMessageQueue](class.sysvmessagequeue.md) - Клас SysvMessageQueue
-    -   [SysvSemaphore](class.sysvsemaphore.md) - Клас SysvSemaphore
-    -   [SysvSharedMemory](class.sysvsharedmemory.md) - Клас SysvSharedMemory
--   [Управление разделяемой памятью](book.shmop.md)
-    -   [Введение](intro.shmop.md)
+    -   [SysvMessageQueue](class.sysvmessagequeue.md) \- Клас SysvMessageQueue
+    -   [SysvSemaphore](class.sysvsemaphore.md) \- Клас SysvSemaphore
+    -   [SysvSharedMemory](class.sysvsharedmemory.md) \- Клас SysvSharedMemory
+-   [Управління пам'яттю, що розділяється](book.shmop.md)
+    -   [Вступ](intro.shmop.md)
     -   [Встановлення та налаштування](shmop.setup.md)
     -   [Обумовлені константи](shmop.constants.md)
     -   [Приклади](shmop.examples.md)
     -   [Пам'ять, що розділяється (shared)](ref.shmop.md)
-    -   [Shmop](class.shmop.md) - Клас Shmop
+    -   [Shmop](class.shmop.md) \- Клас Shmop
 -   [Sync](book.sync.md)
-    -   [Введение](intro.sync.md)
+    -   [Вступ](intro.sync.md)
     -   [Встановлення та налаштування](sync.setup.md)
     -   [Обумовлені константи](sync.constants.md)
-    -   [SyncMutex](class.syncmutex.md) - Клас SyncMutex
-    -   [SyncSemaphore](class.syncsemaphore.md) - Клас SyncSemaphore
-    -   [SyncEvent](class.syncevent.md) - Клас SyncEvent
-    -   [SyncReaderWriter](class.syncreaderwriter.md) - Клас SyncReaderWriter
-    -   [SyncSharedMemory](class.syncsharedmemory.md) - Клас SyncSharedMemory
+    -   [SyncMutex](class.syncmutex.md) \- Клас SyncMutex
+    -   [SyncSemaphore](class.syncsemaphore.md) \- Клас SyncSemaphore
+    -   [SyncEvent](class.syncevent.md) \- Клас SyncEvent
+    -   [SyncReaderWriter](class.syncreaderwriter.md) \- Клас SyncReaderWriter
+    -   [SyncSharedMemory](class.syncsharedmemory.md)— Клас SyncSharedMemory

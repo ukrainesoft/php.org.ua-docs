@@ -3,12 +3,13 @@ navigation:
   - function.gzdecode.md: « gzdecode
   - function.gzencode.md: gzencode »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzdeflate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzdeflate
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gzdeflate — Стискає рядок
 
@@ -20,7 +21,7 @@ gzdeflate(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_RAW): str
 
 Ця функція стискає рядок, використовуючи формат даних `DEFLATE`
 
-Детальніше про алгоритм стиснення DEFLATE дивіться "[» Формат стиснення даних DEFLATE. Специфікація версії 1.3](http://www.faqs.org/rfcs/rfc1951)(RFC 1951).
+Детальніше про алгоритм стиснення DEFLATE дивіться "[» Формат стиснення даних DEFLATE. Специфікація версії 1.3](http://www.faqs.org/rfcs/rfc1951)" (RFC 1951).
 
 ### Список параметрів
 
@@ -34,15 +35,15 @@ gzdeflate(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_RAW): str
 
 `encoding`
 
-Одна з **`ZLIB_ENCODING_*`** констант.
+Одна из\*\*`ZLIB_ENCODING_*`\*\*констант.
 
 ### Значення, що повертаються
 
-Стиснутий рядок або **`false`** у разі виникнення помилки.
+Сжатая строка или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gzdeflate()****
+**Пример #1 Пример использования**gzdeflate()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ echo $compressed;
 
 ### Дивіться також
 
--   [gzinflate()](function.gzinflate.md) - Розпакувати стислий рядок
--   [gzcompress()](function.gzcompress.md) - Стиснути рядок
--   [gzuncompress()](function.gzuncompress.md) - Розпакувати стислий рядок
--   [gzencode()](function.gzencode.md) - Створити стислий рядок gzip
+-   [gzinflate()](function.gzinflate.md) \- Розпакувати стислий рядок
+-   [gzcompress()](function.gzcompress.md) \- Стиснути рядок
+-   [gzuncompress()](function.gzuncompress.md) \- Розпакувати стислий рядок
+-   [gzencode()](function.gzencode.md) \- Створити стислий рядок gzip

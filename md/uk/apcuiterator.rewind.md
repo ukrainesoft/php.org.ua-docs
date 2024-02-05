@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.apcuiterator.md: APCUIterator
 title: 'APCUIterator::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # APCUIterator::rewind
 
@@ -30,5 +31,5 @@ public APCUIterator::rewind(): void
 
 ### Дивіться також
 
--   [APCUIterator::next()](apcuiterator.next.md) - Переміщує покажчик на наступний елемент
--   [Iterator::next()](iterator.next.md) - Переходить до наступного елементу
+-   [APCUIterator::next()](apcuiterator.next.md) \- Переміщує покажчик на наступний елемент
+-   [Iterator::next()](iterator.next.md) \- Переходить до наступного елементу

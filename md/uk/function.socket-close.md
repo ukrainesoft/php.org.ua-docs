@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.socket-clear-error.md: « socketclearerror
-  - function.socket-cmsg-space.md: socketcmsgspace »
+  - function.socket-clear-error.md: « socket\_clear\_error
+  - function.socket-cmsg-space.md: socket\_cmsg\_space »
   - index.md: PHP Manual
-  - ref.sockets.md: Функции сокета
-title: socketclose
+  - ref.sockets.md: Опції сокету
+title: socket\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# socketclose
+# socket\_close
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-socketclose — Закриває екземпляр [Socket](class.socket.md)
+socket\_close — Закриває екземпляр [Socket](class.socket.md)
 
 ### Опис
 
@@ -18,13 +19,13 @@ socketclose — Закриває екземпляр [Socket](class.socket.md)
 socket_close(Socket $socket): void
 ```
 
-Функція **socketclose()** закриває екземпляр [Socket](class.socket.md), вказаний параметром `socket`
+Функция**socket\_close()** закриває екземпляр [Socket](class.socket.md), вказаний параметром `socket`
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.md)створений за допомогою функцій [socketcreate()](function.socket-create.md) або [socketaccept()](function.socket-accept.md)
+Екземпляр [Socket](class.socket.md)створений за допомогою функцій [socket\_create()](function.socket-create.md) або [socket\_accept()](function.socket-accept.md)
 
 ### Значення, що повертаються
 
@@ -32,13 +33,13 @@ socket_close(Socket $socket): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| 8.0.0 | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
--   [socketbind()](function.socket-bind.md) - Прив'язує ім'я до сокету
--   [socketlisten()](function.socket-listen.md) - Прослуховує вхідні з'єднання на сокеті
--   [socketcreate()](function.socket-create.md) - створює сокет (кінцеву точку для обміну інформацією)
--   [socketstrerror()](function.socket-strerror.md) - Повертає рядок, що описує помилку сокету
+-   [socket\_bind()](function.socket-bind.md) \- Прив'язує ім'я до сокету
+-   [socket\_listen()](function.socket-listen.md) \- Прослуховує вхідні з'єднання на сокеті
+-   [socket\_create()](function.socket-create.md) \- створює сокет (кінцеву точку для обміну інформацією)
+-   [socket\_strerror()](function.socket-strerror.md) \- Повертає рядок, що описує помилку сокету

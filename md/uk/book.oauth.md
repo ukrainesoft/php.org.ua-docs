@@ -1,14 +1,15 @@
 ---
 navigation:
   - refs.webservice.md: « Веб-сервіси
-  - intro.oauth.md: Введение »
+  - intro.oauth.md: Вступ "
   - index.md: PHP Manual
   - refs.webservice.md: Веб-сервіси
 title: OAuth
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth
 
--   [Введение](intro.oauth.md)
+-   [Вступ](intro.oauth.md)
 -   [Встановлення та налаштування](oauth.setup.md)
     -   [Вимоги](oauth.requirements.md)
     -   [Установка](oauth.installation.md)
@@ -17,51 +18,51 @@ title: OAuth
 -   [Обумовлені константи](oauth.constants.md)
 -   [Приклади](oauth.examples.md)
     -   [FireEagle](oauth.examples.fireeagle.md)
--   [Функции OAuth](ref.oauth.md)
-    -   [oauthgetsbs](function.oauth-get-sbs.md) - Створити базовий рядок підпису (Signature Base String)
-    -   [oauthurlencode](function.oauth-urlencode.md) — Кодує URI відповідно до RFC 3986
--   [OAuth](class.oauth.md) - Клас OAuth
-    -   [OAuth::construct](oauth.construct.md) — Створює новий об'єкт OAuth
-    -   [OAuth::destruct](oauth.destruct.md) - Деструктор
-    -   [OAuth::disableDebug](oauth.disabledebug.md) — Вимкнути докладну налагоджувальну інформацію
-    -   [OAuth::disableRedirects](oauth.disableredirects.md) — Вимкнути переадресацію
-    -   [OAuth::disableSSLChecks](oauth.disablesslchecks.md) — Вимкнути SSL перевірки
-    -   [OAuth::enableDebug](oauth.enabledebug.md) — Включити докладну налагоджувальну інформацію
-    -   [OAuth::enableRedirects](oauth.enableredirects.md) — Включити переадресацію
-    -   [OAuth::enableSSLChecks](oauth.enablesslchecks.md) — Увімкнути перевірки SSL
-    -   [OAuth::fetch](oauth.fetch.md) — Витягти захищений ресурс OAuth
-    -   [OAuth::generateSignature](oauth.generatesignature.md) - Згенерувати підпис
-    -   [OAuth::getAccessToken](oauth.getaccesstoken.md) — Отримати токен доступу
-    -   [OAuth::getCAPath](oauth.getcapath.md) — Отримати інформацію CA
-    -   [OAuth::getLastResponse](oauth.getlastresponse.md) — Отримати останню відповідь
-    -   [OAuth::getLastResponseHeaders](oauth.getlastresponseheaders.md) — Отримати заголовки останньої відповіді
-    -   [OAuth::getLastResponseInfo](oauth.getlastresponseinfo.md) — Отримати HTTP-інформацію про останню відповідь
-    -   [OAuth::getRequestHeader](oauth.getrequestheader.md) - Згенерувати підпис заголовка OAuth
-    -   [OAuth::getRequestToken](oauth.getrequesttoken.md) — Витягти токен запиту
-    -   [OAuth::setAuthType](oauth.setauthtype.md) - Встановити тип авторизації
-    -   [OAuth::setCAPath](oauth.setcapath.md) — Встановити CA для шляху та інформації
-    -   [OAuth::setNonce](oauth.setnonce.md) — Встановити nonce для подальших запитів
-    -   [OAuth::setRequestEngine](oauth.setrequestengine.md) — Використовується для setRequestEngine
-    -   [OAuth::setRSACertificate](oauth.setrsacertificate.md) — Встановити сертифікат RSA
-    -   [OAuth::setSSLChecks](oauth.setsslchecks.md) — Виконувати певні перевірки SSL для запиту
-    -   [OAuth::setTimestamp](oauth.settimestamp.md) — Встановити позначку часу
-    -   [OAuth::setToken](oauth.settoken.md) - Задати токен та його пароль
-    -   [OAuth::setVersion](oauth.setversion.md) — Встановити версію OAuth
--   [OAuthProvider](class.oauthprovider.md) - Клас OAuthProvider
-    -   [OAuthProvider::addRequiredParameter](oauthprovider.addrequiredparameter.md) — Додати необхідні параметри
-    -   [OAuthProvider::callconsumerHandler](oauthprovider.callconsumerhandler.md) — Викликати callback-функцію consumerNonceHandler
-    -   [OAuthProvider::callTimestampNonceHandler](oauthprovider.calltimestampnoncehandler.md) — Викликати callback-функцію timestampNonceHandler
-    -   [OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.md) — Викликати callback-функцію tokenNonceHandler
-    -   [OAuthProvider::checkOAuthRequest](oauthprovider.checkoauthrequest.md) - Перевірка запиту oauth
-    -   [OAuthProvider::construct](oauthprovider.construct.md) - Конструктор класу OAuthProvider
-    -   [OAuthProvider::consumerHandler](oauthprovider.consumerhandler.md) — Встановити обробник consumerHandler
-    -   [OAuthProvider::generateToken](oauthprovider.generatetoken.md) - Генерація випадкового токена
-    -   [OAuthProvider::is2LeggedEndpoint](oauthprovider.is2leggedendpoint.md) - is2LeggedEndpoint
-    -   [OAuthProvider::isRequestTokenEndpoint](oauthprovider.isrequesttokenendpoint.md) — Установка isRequestTokenEndpoint
-    -   [OAuthProvider::removeRequiredParameter](oauthprovider.removerequiredparameter.md) — Видалити потрібний параметр
-    -   [OAuthProvider::reportProblem](oauthprovider.reportproblem.md) — Повідомити про проблему
-    -   [OAuthProvider::setParam](oauthprovider.setparam.md) — Встановити параметр
-    -   [OAuthProvider::setRequestTokenPath](oauthprovider.setrequesttokenpath.md) - Встановити шлях запиту токена
-    -   [OAuthProvider::timestampNonceHandler](oauthprovider.timestampnoncehandler.md) — Встановити обробник timestampNonceHandler
-    -   [OAuthProvider::tokenHandler](oauthprovider.tokenhandler.md) — Встановити обробник tokenHandler
--   [OAuthException](class.oauthexception.md) - Клас OAuthException
+-   [Функції OAuth](ref.oauth.md)
+    -   [oauth\_get\_sbs](function.oauth-get-sbs.md) \- Створити базовий рядок підпису (Signature Base String)
+    -   [oauth\_urlencode](function.oauth-urlencode.md)— Кодує URI відповідно до RFC 3986
+-   [OAuth](class.oauth.md) \- Клас OAuth
+    -   [OAuth::\_\_construct](oauth.construct.md)— Створює новий об'єкт OAuth
+    -   [OAuth::\_\_destruct](oauth.destruct.md) \- Деструктор
+    -   [OAuth::disableDebug](oauth.disabledebug.md)— Вимкнути докладну налагоджувальну інформацію
+    -   [OAuth::disableRedirects](oauth.disableredirects.md)— Вимкнути переадресацію
+    -   [OAuth::disableSSLChecks](oauth.disablesslchecks.md)— Вимкнути SSL перевірки
+    -   [OAuth::enableDebug](oauth.enabledebug.md)— Включити докладну налагоджувальну інформацію
+    -   [OAuth::enableRedirects](oauth.enableredirects.md)— Включити переадресацію
+    -   [OAuth::enableSSLChecks](oauth.enablesslchecks.md)— Увімкнути перевірки SSL
+    -   [OAuth::fetch](oauth.fetch.md)— Витягти захищений ресурс OAuth
+    -   [OAuth::generateSignature](oauth.generatesignature.md) \- Згенерувати підпис
+    -   [OAuth::getAccessToken](oauth.getaccesstoken.md)— Отримати токен доступу
+    -   [OAuth::getCAPath](oauth.getcapath.md)— Отримати інформацію CA
+    -   [OAuth::getLastResponse](oauth.getlastresponse.md)— Отримати останню відповідь
+    -   [OAuth::getLastResponseHeaders](oauth.getlastresponseheaders.md)— Отримати заголовки останньої відповіді
+    -   [OAuth::getLastResponseInfo](oauth.getlastresponseinfo.md)— Отримати HTTP-інформацію про останню відповідь
+    -   [OAuth::getRequestHeader](oauth.getrequestheader.md) \- Згенерувати підпис заголовка OAuth
+    -   [OAuth::getRequestToken](oauth.getrequesttoken.md)— Витягти токен запиту
+    -   [OAuth::setAuthType](oauth.setauthtype.md) \- Встановити тип авторизації
+    -   [OAuth::setCAPath](oauth.setcapath.md)— Встановити CA для шляху та інформації
+    -   [OAuth::setNonce](oauth.setnonce.md)— Встановити nonce для подальших запитів
+    -   [OAuth::setRequestEngine](oauth.setrequestengine.md)— Використовується для setRequestEngine
+    -   [OAuth::setRSACertificate](oauth.setrsacertificate.md)— Встановити сертифікат RSA
+    -   [OAuth::setSSLChecks](oauth.setsslchecks.md)— Виконувати певні перевірки SSL для запиту
+    -   [OAuth::setTimestamp](oauth.settimestamp.md)— Встановити позначку часу
+    -   [OAuth::setToken](oauth.settoken.md) \- Задати токен та його пароль
+    -   [OAuth::setVersion](oauth.setversion.md)— Встановити версію OAuth
+-   [OAuthProvider](class.oauthprovider.md) \- Клас OAuthProvider
+    -   [OAuthProvider::addRequiredParameter](oauthprovider.addrequiredparameter.md)— Додати необхідні параметри
+    -   [OAuthProvider::callconsumerHandler](oauthprovider.callconsumerhandler.md)— Викликати callback-функцію consumerNonceHandler
+    -   [OAuthProvider::callTimestampNonceHandler](oauthprovider.calltimestampnoncehandler.md)— Викликати callback-функцію timestampNonceHandler
+    -   [OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.md)— Викликати callback-функцію tokenNonceHandler
+    -   [OAuthProvider::checkOAuthRequest](oauthprovider.checkoauthrequest.md) \- Перевірка запиту oauth
+    -   [OAuthProvider::\_\_construct](oauthprovider.construct.md) \- Конструктор класу OAuthProvider
+    -   [OAuthProvider::consumerHandler](oauthprovider.consumerhandler.md)— Встановити обробник consumerHandler
+    -   [OAuthProvider::generateToken](oauthprovider.generatetoken.md) \- Генерація випадкового токена
+    -   [OAuthProvider::is2LeggedEndpoint](oauthprovider.is2leggedendpoint.md)— is2LeggedEndpoint
+    -   [OAuthProvider::isRequestTokenEndpoint](oauthprovider.isrequesttokenendpoint.md)— Установка isRequestTokenEndpoint
+    -   [OAuthProvider::removeRequiredParameter](oauthprovider.removerequiredparameter.md)— Видалити потрібний параметр
+    -   [OAuthProvider::reportProblem](oauthprovider.reportproblem.md)— Повідомити про проблему
+    -   [OAuthProvider::setParam](oauthprovider.setparam.md)— Встановити параметр
+    -   [OAuthProvider::setRequestTokenPath](oauthprovider.setrequesttokenpath.md) \- Встановити шлях запиту токена
+    -   [OAuthProvider::timestampNonceHandler](oauthprovider.timestampnoncehandler.md)— Встановити обробник timestampNonceHandler
+    -   [OAuthProvider::tokenHandler](oauthprovider.tokenhandler.md)— Встановити обробник tokenHandler
+-   [OAuthException](class.oauthexception.md) \- Клас OAuthException

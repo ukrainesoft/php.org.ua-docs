@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-table.del.md: '« SwooleTable::del'
-  - swoole-table.exist.md: 'SwooleTable::exist »'
+  - swoole-table.del.md: '« Swoole\\Table::del'
+  - swoole-table.exist.md: 'Swoole\\Table::exist »'
   - index.md: PHP Manual
-  - class.swoole-table.md: SwooleTable
-title: 'SwooleTable::destroy'
+  - class.swoole-table.md: Swoole\\Table
+title: 'Swoole\\Table::destroy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTable::destroy
+# Swoole\\Table::destroy
 
 (PECL swoole >= 1.9.0)
 
-SwooleTable::destroy — Знищує таблицю Swoole
+Swoole\\Table::destroy — Знищує таблицю Swoole
 
 ### Опис
 

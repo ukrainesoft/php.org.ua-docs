@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.pspell.md: « Функции Pspell
-  - function.pspell-add-to-session.md: pspelladdтоsession »
+  - ref.pspell.md: « Функції Pspell
+  - function.pspell-add-to-session.md: pspell\_add\_to\_session »
   - index.md: PHP Manual
-  - ref.pspell.md: Функции Pspell
-title: pspelladdтоpersonal
+  - ref.pspell.md: Функції Pspell
+title: pspell\_add\_to\_personal
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pspelladdтоpersonal
+# pspell\_add\_to\_personal
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspelladdтоpersonal — Додає слово до персонального списку слів
+pspell\_add\_to\_personal — Додає слово до персонального списку слів
 
 ### Опис
 
@@ -18,13 +19,13 @@ pspelladdтоpersonal — Додає слово до персонального 
 pspell_add_to_personal(PSpell\Dictionary $dictionary, string $word): bool
 ```
 
-**pspelladdтоpersonal()** додає слово до персонального списку слів. Якщо ви використовували [pspellnewconfig()](function.pspell-new-config.md) разом з [pspellconfigpersonal()](function.pspell-config-personal.md) для відкриття словника, ви можете зберегти список слів пізніше за допомогою [pspellsavewordlist()](function.pspell-save-wordlist.md)
+**pspell\_add\_to\_personal()** додає слово до персонального списку слів. Якщо ви використовували [pspell\_new\_config()](function.pspell-new-config.md)вместе с[pspell\_config\_personal()](function.pspell-config-personal.md) для відкриття словника, ви можете зберегти список слів пізніше за допомогою [pspell\_save\_wordlist()](function.pspell-save-wordlist.md)
 
 ### Список параметрів
 
 `dictionary`
 
-Екземпляр [PSpellDictionary](class.pspell-dictionary.md)
+Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.md)
 
 `word`
 
@@ -32,17 +33,17 @@ pspell_add_to_personal(PSpell\Dictionary $dictionary, string $word): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspelladdтоpersonal()****
+**Пример #1 Пример использования**pspell\_add\_to\_personal()\*\*\*\*
 
 ```php
 <?php
@@ -57,6 +58,6 @@ pspell_save_wordlist($pspell);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція не працюватиме, якщо у вас немає pspell .11.2 і aspell .32.5 або вище.

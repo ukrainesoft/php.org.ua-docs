@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-activation-steepness.md: « fannsetactivationsteepness
-  - function.fann-set-callback.md: fannsetcallback »
+  - function.fann-set-activation-steepness.md: « fann\_set\_activation\_steepness
+  - function.fann-set-callback.md: fann\_set\_callback »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetbitfaillimit
+  - ref.fann.md: Функції Fann
+title: fann\_set\_bit\_fail\_limit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetbitfaillimit
+# fann\_set\_bit\_fail\_limit
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetbitfaillimit — Встановлює межу помилок, що використовується під час навчання
+fann\_set\_bit\_fail\_limit — Встановлює межу помилок, що використовується під час навчання
 
 ### Опис
 
@@ -18,7 +19,7 @@ fannsetbitfaillimit — Встановлює межу помилок, що ви�
 fann_set_bit_fail_limit(resource $ann, float $bit_fail_limit): bool
 ```
 
-Встановлює межу помилок, яка використовується під час навчання.
+Встановлює межу помилок, що використовується під час навчання.
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ fann_set_bit_fail_limit(resource $ann, float $bit_fail_limit): bool
 
 ### Дивіться також
 
--   [fanngetbitfaillimit()](function.fann-get-bit-fail-limit.md) - Повертає межу збою бітів, використану під час навчання
+-   [fann\_get\_bit\_fail\_limit()](function.fann-get-bit-fail-limit.md) \- Повертає межу збою бітів, використану під час навчання

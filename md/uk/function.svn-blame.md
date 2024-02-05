@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-auth-set-parameter.md: « svnauthsetparameter
-  - function.svn-cat.md: svncat »
+  - function.svn-auth-set-parameter.md: « svn\_auth\_set\_parameter
+  - function.svn-cat.md: svn\_cat »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnblame
+title: svn\_blame
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnblame
+# svn\_blame
 
 (PECL svn >= 0.3.0)
 
-svnblame — Построчно виводить автора та редакцію для файлу
+svn\_blame — Построчно виводить автора та редакцію для файлу
 
 ### Опис
 
@@ -36,7 +37,7 @@ array Порядковий масив з наступною інформаціє
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **svnblame()****
+**Пример #1 Пример использования функции**svn\_blame()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ print_r( svn_blame($svnurl) );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -66,6 +67,6 @@ Array
 
 ### Дивіться також
 
--   [svndiff()](function.svn-diff.md) - Рекурсивно показує різницю двох файлів
--   **svnlogs()**
--   [svnstatus()](function.svn-status.md) - Повертає SVN-статус файлів та директорій робочої копії
+-   [svn\_diff()](function.svn-diff.md) \- Рекурсивно показує різницю двох файлів
+-   **svn\_logs()**
+-   [svn\_status()](function.svn-status.md) \- Повертає SVN-статус файлів та директорій робочої копії

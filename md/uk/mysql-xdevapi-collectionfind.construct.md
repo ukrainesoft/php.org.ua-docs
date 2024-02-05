@@ -3,22 +3,23 @@ navigation:
   - mysql-xdevapi-collectionfind.bind.md: '« CollectionFind::bind'
   - mysql-xdevapi-collectionfind.execute.md: 'CollectionFind::execute »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
-title: 'CollectionFind::construct'
+  - class.mysql-xdevapi-collectionfind.md: mysql\_xdevapi\\CollectionFind
+title: 'CollectionFind::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CollectionFind::construct
+# CollectionFind::\_\_construct
 
 (No version information available, might only be in Git)
 
-CollectionFind::construct - Конструктор класу CollectionFind
+CollectionFind::\_\_construct - Конструктор класу CollectionFind
 
 ### Опис
 
-private **mysqlxdevapiCollectionFind::construct**
+private**mysql\_xdevapi\\CollectionFind::\_\_construct**()
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -53,7 +54,7 @@ var_dump($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {

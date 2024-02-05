@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.spl-autoload-unregister.md: « splautoloadunregister
-  - function.spl-classes.md: splclasses »
+  - function.spl-autoload-unregister.md: « spl\_autoload\_unregister
+  - function.spl-classes.md: spl\_classes »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
-title: splautoload
+title: spl\_autoload
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# splautoload
+# spl\_autoload
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-splautoload — Реалізація за замовчуванням методу autoload()
+spl\_autoload — Реализация по умолчанию метода\_\_autoload()
 
 ### Опис
 
@@ -18,7 +19,7 @@ splautoload — Реалізація за замовчуванням метод�
 spl_autoload(string $class, ?string $file_extensions = null): void
 ```
 
-Ця функція являє собою базову реалізацію методу [autoload()](function.autoload.md). Якщо вона не вказана та [splautoloadregister()](function.spl-autoload-register.md) викликається без будь-яких параметрів, то при кожному наступному виклику [autoload()](function.autoload.md) використовуватиметься саме ця функція.
+Ця функція являє собою базову реалізацію методу [\_\_autoload()](function.autoload.md)Если она не указана и[spl\_autoload\_register()](function.spl-autoload-register.md) викликається без будь-яких параметрів, то при кожному наступному виклику [\_\_autoload()](function.autoload.md) використовуватиметься саме ця функція.
 
 ### Список параметрів
 
@@ -40,6 +41,6 @@ spl_autoload(string $class, ?string $file_extensions = null): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `file_extensions` тепер допускає значення null. |
+| 8.0.0 | `file_extensions` тепер допускає значення null. |

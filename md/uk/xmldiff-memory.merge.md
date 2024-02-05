@@ -1,16 +1,17 @@
 ---
 navigation:
-  - xmldiff-memory.diff.md: '« XMLDiffMemory::diff'
-  - class.xmldiff-file.md: XMLDiffFile »
+  - xmldiff-memory.diff.md: '« XMLDiff\\Memory::diff'
+  - class.xmldiff-file.md: XMLDiff\\File »
   - index.md: PHP Manual
-  - class.xmldiff-memory.md: XMLDiffMemory
-title: 'XMLDiffMemory::merge'
+  - class.xmldiff-memory.md: XMLDiff\\Memory
+title: 'XMLDiff\\Memory::merge'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# XMLDiffMemory::merge
+# XMLDiff\\Memory::merge
 
 (PECL xmldiff >= 0.8.0)
 
-XMLDiffMemory::merge — Застосувати зміни до документа XML
+XMLDiff\\Memory::merge — Застосувати зміни до документа XML
 
 ### Опис
 
@@ -18,7 +19,7 @@ XMLDiffMemory::merge — Застосувати зміни до документ
 public XMLDiff\Memory::merge(string $src, string $diff): string
 ```
 
-Створює новий документ XML на базі джерела та списку змін.
+Створює новий документ XML на базі документа джерела та списку змін.
 
 ### Список параметрів
 

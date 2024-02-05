@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::compareImages'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::compareImages
 
@@ -28,7 +29,7 @@ public Imagick::compareImages(Imagick $compare, int $metric): array
 
 `metric`
 
-Вкажіть допустиму константу типу метрики. Дивіться список [констант метрики](imagick.constants.md#imagick.constants.metric)
+Укажите допустимую константу типа метрики. Смотрите список[констант метрики](imagick.constants.md#imagick.constants.metric)
 
 ### Значення, що повертаються
 
@@ -40,7 +41,7 @@ public Imagick::compareImages(Imagick $compare, int $metric): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::compareImages()****
+**Пример #1 Пример использования**Imagick::compareImages()\*\* :\*\*
 
 Порівняння зображення та відображення відновленого зображення
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-cascade-candidate-limit.md: « fannsetcascadecandidatelimit
-  - function.fann-set-cascade-max-cand-epochs.md: fannsetcascademaxcandepochs »
+  - function.fann-set-cascade-candidate-limit.md: « fann\_set\_cascade\_candidate\_limit
+  - function.fann-set-cascade-max-cand-epochs.md: fann\_set\_cascade\_max\_cand\_epochs »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetcascadecandidatestagnationepochs
+  - ref.fann.md: Функції Fann
+title: fann\_set\_cascade\_candidate\_stagnation\_epochs
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetcascadecandidatestagnationepochs
+# fann\_set\_cascade\_candidate\_stagnation\_epochs
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetcascadecandidatestagnationepochs - Встановлює кількість каскадних періодів застою кандидатів
+fann\_set\_cascade\_candidate\_stagnation\_epochs - Встановлює кількість каскадних періодів застою кандидатів
 
 ### Опис
 
@@ -36,4 +37,4 @@ fann_set_cascade_candidate_stagnation_epochs(resource $ann, int $cascade_candida
 
 ### Дивіться також
 
--   [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.md) - Повертає кількість періодів застою каскаду кандидата
+-   [fann\_get\_cascade\_candidate\_stagnation\_epochs()](function.fann-get-cascade-candidate-stagnation-epochs.md) \- Повертає кількість періодів застою каскаду кандидата

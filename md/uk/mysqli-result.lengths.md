@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli-result.getiterator.md: '« mysqliresult::getIterator'
-  - mysqli-result.num-rows.md: 'mysqliresult::$numrows »'
+  - mysqli-result.getiterator.md: '« mysqli\_result::getIterator'
+  - mysqli-result.num-rows.md: 'mysqli\_result::$num\_rows »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::$lengths'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::$lengths'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::$lengths
+# mysqli\_result::$lengths
 
-# mysqlifetchlengths
+# mysqli\_fetch\_lengths
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliresult::$lengths -- mysqlifetchlengths — Повертає довжини полів поточного рядка результуючого набору
+mysqli\_result::$lengths -- mysqli\_fetch\_lengths - Повертає довжини полів поточного рядка результуючого набору
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-?array [$mysqliresult->lengths](mysqli-result.lengths.md)
+?array[$mysqli\_result->lengths](mysqli-result.lengths.md)
 
 Процедурний стиль
 
@@ -26,19 +27,19 @@ mysqliresult::$lengths -- mysqlifetchlengths — Повертає довжини
 mysqli_fetch_lengths(mysqli_result $result): array|false
 ```
 
-**mysqlifetchlengths()** повертає масив, елементи якого являють собою довжини кожного поля поточного рядка результуючого набору.
+**mysqli\_fetch\_lengths()** повертає масив, елементи якого являють собою довжини кожного поля поточного рядка результуючого набору.
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
-Масив цілих чисел, що становлять розміри значень стовпців (за винятком будь-яких завершальних нуль-символів) . **`false`** у разі виникнення помилки.
+Масив цілих чисел, що представляють розміри значень стовпців (за винятком будь-яких завершальних нуль-символів) . \*\*`false`\*\*в случае возникновения ошибки.
 
-**mysqlifetchlengths()** відноситься лише до поточного рядка. Функція поверне **`false`**, якщо буде викликано до виклику mysqlifetchrow/array/object або якщо в результуючому наборі немає рядків.
+**mysqli\_fetch\_lengths()** відноситься лише до поточного рядка. Функція поверне **`false`**, якщо буде викликано до виклику mysqli\_fetch\_row/array/object або якщо в результуючому наборі немає рядків.
 
 ### Приклади
 
@@ -102,7 +103,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Поле  1 имеет длину  3

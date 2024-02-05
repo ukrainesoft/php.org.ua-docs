@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-ini.toarray.md: '« YafConfigIni::toArray'
-  - class.yaf-config-simple.md: YafConfigSimple »
+  - yaf-config-ini.toarray.md: '« Yaf\_Config\_Ini::toArray'
+  - class.yaf-config-simple.md: Yaf\_Config\_Simple »
   - index.md: PHP Manual
-  - class.yaf-config-ini.md: YafConfigIni
-title: 'YafConfigIni::valid'
+  - class.yaf-config-ini.md: Yaf\_Config\_Ini
+title: 'Yaf\_Config\_Ini::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigIni::valid
+# Yaf\_Config\_Ini::valid
 
 (Yaf >=1.0.0)
 
-YafConfigIni::valid — Призначення valid
+Yaf\_Config\_Ini::valid — Призначення valid
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Ini::valid(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-db-info.md: « ibaseдбinfo
-  - function.ibase-drop-db.md: ibasedropdb »
+  - function.ibase-db-info.md: « ibase\_db\_info
+  - function.ibase-drop-db.md: ibase\_drop\_db »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibasedeleteuser
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_delete\_user
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibasedeleteuser
+# ibase\_delete\_user
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibasedeleteuser — Видалення користувача з безпечної бази даних
+ibase\_delete\_user — Видалення користувача з безпечної бази даних
 
 ### Опис
 
@@ -30,9 +31,9 @@ ibase_delete_user(resource $service_handle, string $user_name): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ibaseadduser()](function.ibase-add-user.md) - Додає користувача до безпечної бази даних
--   [ibasemodifyuser()](function.ibase-modify-user.md) - Змінює користувача у безпечній базі даних
+-   [ibase\_add\_user()](function.ibase-add-user.md) \- Додає користувача до безпечної бази даних
+-   [ibase\_modify\_user()](function.ibase-modify-user.md) \- Змінює користувача у безпечній базі даних

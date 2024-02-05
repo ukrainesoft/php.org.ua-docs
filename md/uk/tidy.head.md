@@ -1,18 +1,19 @@
 ---
 navigation:
   - tidy.getstatus.md: '« tidy::getStatus'
-  - tidy.html.md: 'tidy::html »'
+  - tidy.md.md: 'tidy::html »'
   - index.md: PHP Manual
   - class.tidy.md: tidy
 title: 'tidy::head'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidy::head
 
-# tidygethead
+# tidy\_get\_head
 
 (PHP 5, PHP 7, PHP 8, PECL tidy 0.5.2-1.0.0)
 
-tidy::head -- tidygethead — Повертає об'єкт [tidyNode](class.tidynode.md), починаючи з тега розібраного tidy-дерева
+tidy::head -- tidy\_get\_head — Повертає об'єкт [tidyNode](class.tidynode.md), починаючи з тега разобранного tidy-дерева
 
 ### Опис
 
@@ -28,7 +29,7 @@ public tidy::head(): ?tidyNode
 tidy_get_head(tidy $tidy): ?tidyNode
 ```
 
-Повертає об'єкт [tidyNode](class.tidynode.md), починаючи з тега розібраного tidy-дерева.
+Повертає об'єкт [tidyNode](class.tidynode.md), починаючи з тега разобранного tidy-дерева.
 
 ### Список параметрів
 
@@ -42,7 +43,7 @@ tidy_get_head(tidy $tidy): ?tidyNode
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidy::head()****
+**Пример #1 Пример использования**tidy::head()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ echo $head->value;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <head>
@@ -73,5 +74,5 @@ echo $head->value;
 
 ### Дивіться також
 
--   [tidy::body()](tidy.body.md) - Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
--   [tidy::html()](tidy.html.md) - Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
+-   [tidy::body()](tidy.body.md) \- Повертає об'єкт tidyNode, починаючи з тегаразобранного tidy-дерева
+-   [tidy::html()](tidy.md.md) \- Повертає об'єкт tidyNode, починаючи з тегаразобранного tidy-дерева

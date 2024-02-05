@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xmlrpc-server-create.md: « xmlrpcservercreate
-  - function.xmlrpc-server-register-introspection-callback.md: xmlrpcserverregisterintrospectioncallback »
+  - function.xmlrpc-server-create.md: « xmlrpc\_server\_create
+  - function.xmlrpc-server-register-introspection-callback.md: xmlrpc\_server\_register\_introspection\_callback »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcserverdestroy
+title: xmlrpc\_server\_destroy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcserverdestroy
+# xmlrpc\_server\_destroy
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcserverdestroy — Знищує серверні ресурси
+xmlrpc\_server\_destroy — Знищує серверні ресурси
 
 ### Опис
 
@@ -24,4 +25,4 @@ xmlrpc_server_destroy(resource $server): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

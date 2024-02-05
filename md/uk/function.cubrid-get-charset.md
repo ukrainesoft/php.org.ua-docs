@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-get-autocommit.md: « cubridgetautocommit
-  - function.cubrid-get-class-name.md: cubridgetclassname »
+  - function.cubrid-get-autocommit.md: « cubrid\_get\_autocommit
+  - function.cubrid-get-class-name.md: cubrid\_get\_class\_name »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridgetcharset
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_get\_charset
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridgetcharset
+# cubrid\_get\_charset
 
 (PECL CUBRID >= 8.3.0)
 
-cubridgetcharset — Повертає кодування поточного з'єднання CUBRID
+cubrid\_get\_charset — Повертає кодування поточного з'єднання CUBRID
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridgetcharset — Повертає кодування поточного з'�
 cubrid_get_charset(resource $conn_identifier): string
 ```
 
-Ця функція повертає кодування поточного з'єднання CUBRID та аналогічна функції сумісності CUBRID MySQL [cubridclientencoding()](function.cubrid-client-encoding.md)
+Ця функція повертає кодування поточного з'єднання CUBRID та аналогічна функції сумісності CUBRID MySQL [cubrid\_client\_encoding()](function.cubrid-client-encoding.md)
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ cubrid_get_charset(resource $conn_identifier): string
 
 ### Значення, що повертаються
 
-Рядок, що містить кодування поточного з'єднання CUBRID у разі успішного виконання або **`false`** у разі виникнення помилки.
+Рядок, що містить кодування поточного з'єднання CUBRID у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridgetcharset()****
+**Пример #1 Пример использования**cubrid\_get\_charset()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ printf("CUBRID current charset: %s\n", cubrid_get_charset($con));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 CUBRID current charset: iso8859-1
@@ -56,4 +57,4 @@ CUBRID current charset: iso8859-1
 
 ### Дивіться також
 
--   [cubridclientencoding()](function.cubrid-client-encoding.md) - Повертає кодування поточного з'єднання CUBRID
+-   [cubrid\_client\_encoding()](function.cubrid-client-encoding.md) \- Повертає кодування поточного з'єднання CUBRID

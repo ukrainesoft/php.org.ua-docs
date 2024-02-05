@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.iteratoriterator.md: IteratorIterator
 title: 'IteratorIterator::getInnerIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IteratorIterator::getInnerIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 IteratorIterator::getInnerIterator — Отримує внутрішній ітератор
 
@@ -26,7 +27,7 @@ public IteratorIterator::getInnerIterator(): ?Iterator
 
 ### Значення, що повертаються
 
-Внутрішній ітератор, який було передано методу [IteratorIterator::construct()](iteratoriterator.construct.md) або \*\*`null`\*\*якщо внутрішній ітератор відсутній.
+Внутрішній ітератор, який було передано методу [IteratorIterator::\_\_construct()](iteratoriterator.construct.md)или\*\*`null`\*\*якщо внутрішній ітератор відсутній.
 
 ### Дивіться також
 

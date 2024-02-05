@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlinvertedhammer.md: « tradercdlinvertedhammer
-  - function.trader-cdlkickingbylength.md: tradercdlkickingbylength »
+  - function.trader-cdlinvertedhammer.md: « trader\_cdlinvertedhammer
+  - function.trader-cdlkickingbylength.md: trader\_cdlkickingbylength »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlkicking
+  - ref.trader.md: Функції Trader
+title: trader\_cdlkicking
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlkicking
+# trader\_cdlkicking
 
 (PECL trader >= 0.2.0)
 
-tradercdlkicking - Свічкова модель "Високий стрибок"
+trader\_cdlkicking - Свічкова модель "Високий стрибок"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlkicking(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlkicking(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

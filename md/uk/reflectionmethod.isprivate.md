@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::isPrivate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionMethod::isPrivate
 
@@ -30,4 +31,4 @@ public ReflectionMethod::isPrivate(): bool
 
 ### Дивіться також
 
--   [ReflectionMethod::isPublic()](reflectionmethod.ispublic.md) - Перевіряє, чи є метод загальнодоступним
+-   [ReflectionMethod::isPublic()](reflectionmethod.ispublic.md) \- Перевіряє, чи є метод загальнодоступним

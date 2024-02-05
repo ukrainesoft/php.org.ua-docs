@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pspell-config-ignore.md: « pspellconfigignore
-  - function.pspell-config-personal.md: pspellconfigpersonal »
+  - function.pspell-config-ignore.md: « pspell\_config\_ignore
+  - function.pspell-config-personal.md: pspell\_config\_personal »
   - index.md: PHP Manual
-  - ref.pspell.md: Функции Pspell
-title: pspellconfigmode
+  - ref.pspell.md: Функції Pspell
+title: pspell\_config\_mode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pspellconfigmode
+# pspell\_config\_mode
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspellconfigmode — Змінює режим кількості варіантів виправлення, що повертаються.
+pspell\_config\_mode — Змінює режим кількості варіантів виправлення, що повертаються.
 
 ### Опис
 
@@ -18,35 +19,35 @@ pspellconfigmode — Змінює режим кількості варіанті
 pspell_config_mode(PSpell\Config $config, int $mode): bool
 ```
 
-**pspellconfigmode()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.md). Ця функція визначає, скільки варіантів виправлення повертатиме функція [pspellsuggest()](function.pspell-suggest.md)
+**pspell\_config\_mode()** має бути використана для конфігурації перед викликом [pspell\_new\_config()](function.pspell-new-config.md). Ця функція визначає, скільки варіантів виправлення повертатиме функція [pspell\_suggest()](function.pspell-suggest.md)
 
 ### Список параметрів
 
 `config`
 
-Екземпляр [PSpellConfig](class.pspell-config.md)
+Екземпляр [PSpell\\Config](class.pspell-config.md)
 
 `mode`
 
 Параметр mode - це режим, у якому працюватиме перевірка орфографії. Доступно кілька режимів:
 
--   **`PSPELL_FAST`** - Швидкий режим (найменше варіантів виправлення)
--   **`PSPELL_NORMAL`** - Нормальний режим (більше варіантів виправлення)
--   **`PSPELL_BAD_SPELLERS`** - Повільний режим (багато варіантів виправлення)
+-   \*\*`PSPELL_FAST`\*\*- Швидкий режим (найменше варіантів виправлення)
+-   \*\*`PSPELL_NORMAL`\*\*- Нормальний режим (більше варіантів виправлення)
+-   \*\*`PSPELL_BAD_SPELLERS`\*\*- Повільний режим (багато варіантів виправлення)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`config` тепер чекає екземпляр [PSpell\\Config](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspellconfigmode()****
+**Пример #1 Пример использования**pspell\_config\_mode()\*\*\*\*
 
 ```php
 <?php

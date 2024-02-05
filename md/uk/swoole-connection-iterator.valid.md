@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-connection-iterator.rewind.md: '« SwooleConnectionIterator::rewind'
-  - class.swoole-coroutine.md: SwooleCoroutine »
+  - swoole-connection-iterator.rewind.md: '« Swoole\\Connection\\Iterator::rewind'
+  - class.swoole-coroutine.md: Swoole\\Coroutine »
   - index.md: PHP Manual
-  - class.swoole-connection-iterator.md: SwooleConnectionIterator
-title: 'SwooleConnectionIterator::valid'
+  - class.swoole-connection-iterator.md: Swoole\\Connection\\Iterator
+title: 'Swoole\\Connection\\Iterator::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleConnectionIterator::valid
+# Swoole\\Connection\\Iterator::valid
 
 (PECL swoole >= 1.9.0)
 
-SwooleConnectionIterator::valid — Перевіряє правильність поточної позиції
+Swoole\\Connection\\Iterator::valid — Перевіряє правильність поточної позиції
 
 ### Опис
 

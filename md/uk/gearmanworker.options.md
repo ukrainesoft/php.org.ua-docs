@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::options'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::options
 
@@ -30,4 +31,4 @@ public GearmanWorker::options(): int
 
 ### Дивіться також
 
--   [GearmanWorker::setOptions()](gearmanworker.setoptions.md) - Встановлення налаштувань обробника
+-   [GearmanWorker::setOptions()](gearmanworker.setoptions.md) \- Встановлення налаштувань обробника

@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::text'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLWriter::text
 
-# xmlwritertext
+# xmlwriter\_text
 
 (PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::text -- xmlwritertext — Записати текст
+XMLWriter::text -- xmlwriter\_text — Записати текст
 
 ### Опис
 
@@ -34,18 +35,18 @@ xmlwriter_text(XMLWriter $writer, string $content): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.md) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.md)
 
 `content`
 
-Зміст тексту. Символи `<` `>` `&` і `"` записуються як посилання на сутність (тобто . `&lt;` `&gt;` `&amp;` і `&quot;`відповідно). Всі інші символи у тому числі `'` записуються буквально. Щоб записувати спеціальні символи XML буквально або записувати буквальні посилання на сутності, необхідно використовувати [xmlwriterwriteraw()](xmlwriter.writeraw.md)
+Вміст тексту. Символи `<` `>` `&`и`"` записуються як посилання на сутність (тобто . `&lt;` `&gt;` `&amp;`и`&quot;`відповідно). Всі інші символи у тому числі `'` записуються буквально. Щоб записувати спеціальні символи XML буквально або записувати буквальні посилання на сутності, необхідно використовувати [xmlwriter\_write\_raw()](xmlwriter.writeraw.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | В параметре`writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |

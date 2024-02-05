@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.svn-repos-create.md: « svnreposcreate
-  - function.svn-repos-fs-commit-txn.md: svnreposфсcommittxn »
+  - function.svn-repos-create.md: « svn\_repos\_create
+  - function.svn-repos-fs-commit-txn.md: svn\_repos\_fs\_commit\_txn »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnreposфсbegintxnforcommit
+title: svn\_repos\_fs\_begin\_txn\_for\_commit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnreposфсbegintxnforcommit
+# svn\_repos\_fs\_begin\_txn\_for\_commit
 
 (PECL svn >= 0.2.0)
 
-svnreposфсbegintxnforcommit — Створення нової транзакції
+svn\_repos\_fs\_begin\_txn\_for\_commit — Створення нової транзакції
 
 ### Опис
 
 ```methodsynopsis
-svn_repos_fs_begin_txn_for_commit(    resource $repos,    int $rev,    string $author,    string $log_msg): resource
+svn_repos_fs_begin_txn_for_commit(    resource $repos,    int $rev,    string $author,    string $log_msg): resource
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Створення нової транзакції.
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-set-mock.md: « uopzsetmock
-  - function.uopz-set-return.md: uopzsetreturn »
+  - function.uopz-set-mock.md: « uopz\_set\_mock
+  - function.uopz-set-return.md: uopz\_set\_return »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzsetproperty
+title: uopz\_set\_property
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzsetproperty
+# uopz\_set\_property
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzsetproperty — Встановлює значення існуючої властивості класу або екземпляра
+uopz\_set\_property — Встановлює значення існуючої властивості класу або екземпляра
 
 ### Опис
 
@@ -48,7 +49,7 @@ uopz_set_property(object $instance, string $property, mixed $value): void
 
 ### Приклади
 
-**Приклад #1 Просте використання **uopzsetproperty()****
+**Пример #1 Простое использование**uopz\_set\_property()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ var_dump($foo->testBar());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(10)
@@ -78,4 +79,4 @@ int(10)
 
 ### Дивіться також
 
--   [uopzgetproperty()](function.uopz-get-property.md) - Отримує значення класу або властивість екземпляра
+-   [uopz\_get\_property()](function.uopz-get-property.md) \- Отримує значення класу або властивість екземпляра

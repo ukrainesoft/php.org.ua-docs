@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::setimagetype'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::setimagetype
 
@@ -24,7 +25,7 @@ public Gmagick::setimagetype(int $imgType): Gmagick
 
 `imgType`
 
-Одна з констант [типа изображения](gmagick.constants.md#gmagick.constants.imagetype) `Gmagick::IMGTYPE_*`
+Одна из констант[типу зображення](gmagick.constants.md#gmagick.constants.imagetype) `Gmagick::IMGTYPE_*`
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ public Gmagick::setimagetype(int $imgType): Gmagick
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-schema.getcollection.md: '« Schema::getCollection'
   - mysql-xdevapi-schema.getcollections.md: 'Schema::getCollections »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysql\_xdevapi\\Schema
 title: 'Schema::getCollectionAsTable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Schema::getCollectionAsTable
 
 (No version information available, might only be in Git)
 
-Schema::getCollectionAsTable — Отримати об'єкт таблиці колекції
+Schema::getCollectionAsTable — Отримує колекцію як об'єкт класу Table
 
 ### Опис
 
@@ -18,7 +19,7 @@ Schema::getCollectionAsTable — Отримати об'єкт таблиці к�
 public mysql_xdevapi\Schema::getCollectionAsTable(string $name): mysql_xdevapi\Table
 ```
 
-Отримати колекцію, але як об'єкт Table замість об'єкта Collection.
+Отримує колекцію, але як об'єкт Table замість Collection.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ public mysql_xdevapi\Schema::getCollectionAsTable(string $name): mysql_xdevapi\T
 
 ### Значення, що повертаються
 
-Об'єкт таблиці для колекції.
+Повертає об'єкт класу [mysql\_xdevapi\\Table](class.mysql-xdevapi-table.md) для колекції.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSchema::getCollectionAsTable()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::getCollectionAsTable()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($table);
 var_dump($collection);
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(mysql_xdevapi\Table)#4 (1) {

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.session-cache-expire.md: « sessioncacheexpire
-  - function.session-commit.md: sessioncommit »
+  - function.session-cache-expire.md: « session\_cache\_expire
+  - function.session-commit.md: session\_commit »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
-title: sessioncachelimiter
+title: session\_cache\_limiter
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sessioncachelimiter
+# session\_cache\_limiter
 
-(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.3, PHP 5, PHP 7, PHP 8)
 
-sessioncachelimiter — Отримати та/або встановити поточний режим кешування
+session\_cache\_limiter — Отримати та/або встановити поточний режим кешування
 
 ### Опис
 
@@ -18,15 +19,15 @@ sessioncachelimiter — Отримати та/або встановити пот
 session_cache_limiter(?string $value = null): string|false
 ```
 
-**sessioncachelimiter()** повертає назву поточного режиму кешування.
+**session\_cache\_limiter()** повертає ім'я поточного кешування.
 
-Режим кешування визначає, які HTTP-заголовки керування кешем надсилати клієнту. Ці заголовки визначають, якими правилами кешування контенту повинні керуватися клієнт та проміжні проксі. Встановлення обмежувача на значення `nocache` забороняє будь-яке кешування. Значення `public` дозволяє кешування як на стороні клієнта, так і на проксі-серверах . `private` забороняє кешування проксі-серверам, але дозволяє клієнту.
+Режим кешування визначає, які HTTP-заголовки керування кешем надсилати клієнту. Ці заголовки визначають, якими правилами кешування контенту повинні керуватися клієнт та проміжні проксі. Встановлення обмежувача на значення `nocache`запрещает любое кеширование. Значение`public` дозволяє кешування як на стороні клієнта, так і на проксі-серверах . `private`запрещает кеширование прокси-серверам, но разрешает клиенту.
 
-Якщо в режимі `private` надіслати заголовок Expire, то це може привести деякі браузери, включаючи Mozilla, в замішання. Ви можете обійти цю проблему, використовуючи режим `private_no_expire`. У цьому режимі заголовок `Expire` ніколи не буде посланий.
+Якщо в режимі `private` надіслати заголовок Expire, то це може привести деякі браузери, включаючи Mozilla, в замішання. Ви можете обійти цю проблему, використовуючи режим `private_no_expire`. У цьому режимі заголовок `Expire`никогда не будет послан.
 
-Встановлення режиму кешування в `''` відключає автоматичне надсилання кеш-заголовків.
+Установка режима кеширования в`''` відключає автоматичне надсилання кеш-заголовків.
 
-Під час початку запиту режим кешування скидається до значення за промовчанням, яке зберігається в [session.cachelimiter](session.configuration.md#ini.session.cache-limiter). Таким чином, вам необхідно викликати **sessioncachelimiter()** для кожного запиту (перед тим, як викликана функція [sessionstart()](function.session-start.md)
+Під час початку запиту режим кешування скидається до значення за промовчанням, яке зберігається в [session.cache\_limiter](session.configuration.md#ini.session.cache-limiter). Таким чином, вам необхідно викликати **session\_cache\_limiter()** для кожного запиту (перед тим, як викликана функція [session\_start()](function.session-start.md)
 
 ### Список параметрів
 
@@ -39,17 +40,17 @@ session_cache_limiter(?string $value = null): string|false
 | Значение | Посылаемый заголовок |
 | --- | --- |
 | `public` |  |
-| Expires: (коли в майбутньому, залежно від session.cacheexpire) |  |
-| Cache-Control: public, max-age=(колись у майбутньому, залежно від session.cacheexpire) |  |
+| Expires: (коли в майбутньому, залежно від session.cache\_expire) |  |
+| Cache-Control: public, max-age=(колись у майбутньому, залежно від session.cache\_expire) |  |
 | Last-Modified: (тимчасова мітка останнього збереження сесії) |  |
 
 `private_no_expire`
 
-Cache-Control: private, max-age=(session.cacheexpire у майбутньому), pre-check=(session.cacheexpire у майбутньому) Last-Modified: (тимчасова мітка останнього збереження сесії)
+Cache-Control: private, max-age=(session.cache\_expire у майбутньому), pre-check=(session.cache\_expire у майбутньому) Last-Modified: (тимчасова мітка останнього збереження сесії)
 
 `private`
 
-Expires: Thu, 19 Nov 1981 08:52:00 GMT Cache-Control: private, max-age=(session.cacheexpire у майбутньому), pre-check=(session.cacheexpire у майбутньому) Last-Modified: (тимчасова мітка останнього збереження сесії)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT Cache-Control: private, max-age=(session.cache\_expire у майбутньому), pre-check=(session.cache\_expire у майбутньому) Last-Modified: (тимчасова мітка останнього збереження сесії)
 
 `nocache`
 
@@ -61,13 +62,13 @@ Expires: Thu, 19 Nov 1981 08:52:00 GMT Cache-Control: no-store, no-cache, must-r
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `value` може набувати значення **`null`** |
+| 8.0.0 | `value` може набувати значення **`null`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sessioncachelimiter()****
+**Пример #1 Пример использования**session\_cache\_limiter()\*\*\*\*
 
 ```php
 <?php
@@ -83,4 +84,4 @@ echo "Режим кеширования установлен в $cache_limiter<b
 
 ### Дивіться також
 
--   [session.cachelimiter](session.configuration.md#ini.session.cache-limiter)
+-   [session.cache\_limiter](session.configuration.md#ini.session.cache-limiter)

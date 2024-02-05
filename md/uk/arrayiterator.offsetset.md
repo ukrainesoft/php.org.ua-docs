@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::offsetSet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayIterator::offsetSet
 
@@ -22,7 +23,7 @@ public ArrayIterator::offsetSet(mixed $key, mixed $value): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -40,5 +41,5 @@ public ArrayIterator::offsetSet(mixed $key, mixed $value): void
 
 ### Дивіться також
 
--   [ArrayIterator::offsetGet()](arrayiterator.offsetget.md) - Отримує значення для зміщення
--   [ArrayIterator::offsetUnset()](arrayiterator.offsetunset.md) - скидає значення зі зміщення
+-   [ArrayIterator::offsetGet()](arrayiterator.offsetget.md) \- Отримує значення для усунення
+-   [ArrayIterator::offsetUnset()](arrayiterator.offsetunset.md) \- скидає значення зі зміщення

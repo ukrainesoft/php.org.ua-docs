@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.php-uname.md: « phpuname
+  - function.php-uname.md: « php\_uname
   - function.phpinfo.md: phpinfo »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: phpcredits
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # phpcredits
 
@@ -15,7 +16,7 @@ phpcredits - Виводить список розробників PHP
 ### Опис
 
 ```methodsynopsis
-phpcredits(int $flags = CREDITS_ALL): bool
+phpcredits(int $flags = CREDITS_ALL): true
 ```
 
 Ця функція виводить список розробників PHP, модулів тощо. Вона створює відповідний HTML-код для вставки на сторінку.
@@ -24,23 +25,23 @@ phpcredits(int $flags = CREDITS_ALL): bool
 
 `flags`
 
-Використання аргументу `flags` дозволяє довільно компонувати інформацію про окремі групи розробників.
+Использование аргумента`flags` дозволяє довільно компонувати інформацію про окремі групи розробників.
 
 **Обумовлені прапори **phpcredits()****
 
-| Имя | Описание |
+| Имя | Опис |
 | --- | --- |
-| CREDITSALL | Усі розробники, еквівалентно використанню: **`CREDITS_DOCS`** **`CREDITS_GENERAL`** **`CREDITS_GROUP`** **`CREDITS_MODULES`** **`CREDITS_FULLPAGE`**. У цьому випадку буде згенеровано повністю незалежну HTML-сторінку з відповідними тегами. |
-| CREDITSDOCS | Учасники команди документування |
-| CREDITSFULLPAGE | Зазвичай використовується у комбінації з іншими прапорами. Вказує на те, що незалежна HTML-сторінка повинна містити інформацію інших прапорів. |
-| CREDITSGENERAL | Головні розробники: Концепція та дизайн мови, автори PHP та модуля SAPI. |
-| CREDITSGROUP | Список розробників ядра мови |
-| CREDITSMODULES | Список модулів для PHP та їх авторів |
-| CREDITSSAPI | Список модулів серверних API та їх авторів |
+| CREDITS\_ALL | Усі розробники, еквівалентно використанню: **`CREDITS_DOCS`** **`CREDITS_GENERAL`** **`CREDITS_GROUP`** **`CREDITS_MODULES`** **`CREDITS_FULLPAGE`**. . У цьому випадку буде згенеровано повністю незалежну HTML-сторінку з відповідними тегами. |
+| CREDITS\_DOCS | Учасники команди документування |
+| CREDITS\_FULLPAGE | Зазвичай використовується у комбінації з іншими прапорами. Вказує на те, що незалежна HTML-сторінка повинна містити інформацію інших прапорів. |
+| CREDITS\_GENERAL | Головні розробники: Концепція та дизайн мови, автори PHP та модуля SAPI. |
+| CREDITS\_GROUP | Список розробників ядра мови |
+| CREDITS\_MODULES | Список модулів для PHP та їх авторів |
+| CREDITS\_SAPI | Список модулів серверних API та їх авторів |
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### Приклади
 
@@ -79,11 +80,11 @@ phpcredits(CREDITS_ALL - CREDITS_FULLPAGE);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > У режимі роботи з командного рядка (CLI) **phpcredits()** виводить звичайний текст замість HTML.
 
 ### Дивіться також
 
--   [phpversion()](function.phpversion.md) - Отримує поточну версію PHP
--   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
+-   [phpversion()](function.phpversion.md) \- Отримує поточну версію PHP
+-   [phpinfo()](function.phpinfo.md) \- Виводить інформацію про поточну конфігурацію PHP

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-point.sety.md: '« UIPoint::setY'
-  - ui-size.construct.md: 'ОЙSize::construct »'
+  - ui-point.sety.md: '« UI\\Point::setY'
+  - ui-size.construct.md: 'UI\\Size::\_\_construct »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: 'Представляє розміри (ширина, висота)'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Представляє розміри (ширина, висота)
 
@@ -64,9 +65,9 @@ height
 
 ## Зміст
 
--   [ОЙSize::construct](ui-size.construct.md) — Створити новий об'єкт Size
--   [ОЙSize::getHeight](ui-size.getheight.md) — Отримує висоту
--   [ОЙSize::getWidth](ui-size.getwidth.md) — Отримує ширину
--   [ОЙSize::of](ui-size.of.md) - Приведення Point
--   [ОЙSize::setHeight](ui-size.setheight.md) - Встановити висоту
--   [ОЙSize::setWidth](ui-size.setwidth.md) - Встановити ширину
+-   [UI\\Size::\_\_construct](ui-size.construct.md)— Створити новий об'єкт Size
+-   [UI\\Size::getHeight](ui-size.getheight.md)— Отримує висоту
+-   [UI\\Size::getWidth](ui-size.getwidth.md)— Отримує ширину
+-   [UI\\Size::of](ui-size.of.md) \- Приведення Point
+-   [UI\\Size::setHeight](ui-size.setheight.md) \- Встановити висоту
+-   [UI\\Size::setWidth](ui-size.setwidth.md) \- Встановити ширину

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplDoublyLinkedList::valid
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplDoublyLinkedList::valid — Перевіряє, чи містить вузли двозв'язковий список
 

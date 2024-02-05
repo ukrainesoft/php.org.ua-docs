@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.exist.md: '« SwooleServer::exist'
-  - swoole-server.getclientinfo.md: 'SwooleServer::getClientInfo »'
+  - swoole-server.exist.md: '« Swoole\\Server::exist'
+  - swoole-server.getclientinfo.md: 'Swoole\\Server::getClientInfo »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::finish'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::finish'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::finish
+# Swoole\\Server::finish
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::finish — Використовується в процесі завдання для надсилання результату в робочий процес після завершення завдання
+Swoole\\Server::finish — Використовується в процесі завдання для надсилання результату в робочий процес після завершення завдання
 
 ### Опис
 

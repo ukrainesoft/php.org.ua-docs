@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.mqseries-back.md: « mqseriesback
-  - function.mqseries-close.md: mqseriesclose »
+  - function.mqseries-back.md: « mqseries\_back
+  - function.mqseries-close.md: mqseries\_close »
   - index.md: PHP Manual
-  - ref.mqseries.md: Функции mqseries
-title: mqseriesbegin
+  - ref.mqseries.md: Функції mqseries
+title: mqseries\_begin
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mqseriesbegin
+# mqseries\_begin
 
 (PECL mqseries >= 0.10.0)
 
-mqseriesbegin — MQseries MQBEGIN
+mqseries\_begin — MQseries MQBEGIN
 
 ### Опис
 
 ```methodsynopsis
-mqseries_begin(    resource $hconn,    array $beginOptions,    resource &$compCode,    resource &$reason): void
+mqseries_begin(    resource $hconn,    array $beginOptions,    resource &$compCode,    resource &$reason): void
 ```
 
-Функція **mqseriesbegin()** (MQBEGIN) відкриває транзакцію, координує роботу менеджера черг та може використовувати зовнішні ресурси менеджера.
+Функция**mqseries\_begin()** (MQBEGIN) відкриває транзакцію, координує роботу менеджера черг та може використовувати зовнішні ресурси менеджера.
 
-**mqseriesbegin()** стартує транзакцію . [mqseriesback()](function.mqseries-back.md) або [mqseriescmit()](function.mqseries-cmit.md) - Завершують.
+**mqseries\_begin()** стартує транзакцію . [mqseries\_back()](function.mqseries-back.md) або [mqseries\_cmit()](function.mqseries-cmit.md) - Завершують.
 
 ### Список параметрів
 
@@ -44,7 +45,7 @@ mqseries_begin(    resource $hconn,    array $beginOptions,    resource &$compCo
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseriesbegin()****
+**Пример #1 Пример использования**mqseries\_begin()\*\*\*\*
 
 ```php
 <?php
@@ -64,13 +65,13 @@ mqseries_begin(    resource $hconn,    array $beginOptions,    resource &$compCo
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **mqseriesbegin()** не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
+> **mqseries\_begin()** не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
 
 ### Дивіться також
 
--   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
--   [mqseriesback()](function.mqseries-back.md) - MQSeries MQBACK
--   [mqseriescmit()](function.mqseries-cmit.md) - MQSeries MQCMIT
+-   [mqseries\_conn()](function.mqseries-conn.md) \- MQSeries MQCONN
+-   [mqseries\_connx()](function.mqseries-connx.md) \- MQSeries MQCONNX
+-   [mqseries\_back()](function.mqseries-back.md) \- MQSeries MQBACK
+-   [mqseries\_cmit()](function.mqseries-cmit.md) \- MQSeries MQCMIT

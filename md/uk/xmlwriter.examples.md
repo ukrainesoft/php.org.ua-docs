@@ -1,10 +1,11 @@
 ---
 navigation:
-  - xmlwriter.constants.md: « Обумовлені константи
+  - xmlwriter.constants.md: « Зумовлені константи
   - example.xmlwriter-simple.md: Створення простого XML-документу
   - index.md: PHP Manual
   - book.xmlwriter.md: XMLWriter
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

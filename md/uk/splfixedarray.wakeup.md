@@ -4,13 +4,14 @@ navigation:
   - class.splobjectstorage.md: SplObjectStorage »
   - index.md: PHP Manual
   - class.splfixedarray.md: SplFixedArray
-title: 'SplFixedArray::wakeup'
+title: 'SplFixedArray::\_\_wakeup'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SplFixedArray::wakeup
+# SplFixedArray::\_\_wakeup
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-SplFixedArray::wakeup - Переініціалізація масиву після десеріалізації
+SplFixedArray::\_\_wakeup - Переініціалізація масиву після десеріалізації
 
 ### Опис
 

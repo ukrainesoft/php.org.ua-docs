@@ -1,23 +1,24 @@
 ---
 navigation:
-  - function.mysql-fetch-lengths.md: « mysqlfetchlengths
-  - function.mysql-fetch-row.md: mysqlfetchrow »
+  - function.mysql-fetch-lengths.md: « mysql\_fetch\_lengths
+  - function.mysql-fetch-row.md: mysql\_fetch\_row »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlfetchobject
+title: mysql\_fetch\_object
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlfetchobject
+# mysql\_fetch\_object
 
 (PHP 4, PHP 5)
 
-mysqlfetchobject — Обробляє ряд результатів запиту та повертає об'єкт.
+mysql\_fetch\_object — Обробляє ряд результатів запиту та повертає об'єкт.
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlifetchobject()](mysqli-result.fetch-object.md)
--   [PDOStatement::fetch(PDO::FETCHOBJ)](pdostatement.fetch.md)
+-   [mysqli\_fetch\_object()](mysqli-result.fetch-object.md)
+-   [PDOStatement::fetch()](pdostatement.fetch.md)с параметром`mode`заданим як\*\*`PDO::FETCH_OBJ`\*\*
 
 ### Опис
 
@@ -31,11 +32,11 @@ mysql_fetch_object(resource $result, string $class_name = ?, array $params = ?):
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
+оброблюваний [результат запиту](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.md)
 
 `class_name`
 
-Назва класу. Буде створено екземпляр зазначеного класу, заповнений властивостями та повернутий. Якщо не вказано, повертається екземпляр **stdClass**
+Назва класу. Буде створено екземпляр зазначеного класу, заповнений властивостями та повернутий. Якщо не вказано, повертається екземпляр [stdClass](class.stdclass.md)
 
 `params`
 
@@ -47,7 +48,7 @@ mysql_fetch_object(resource $result, string $class_name = ?, array $params = ?):
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlfetchobject()****
+**Пример #1 Пример использования**mysql\_fetch\_object()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ mysql_free_result($result);
 ?>
 ```
 
-**Приклад #2 Приклад використання **mysqlfetchobject()****
+**Пример #2 Пример использования**mysql\_fetch\_object()\*\*\*\*
 
 ```php
 <?php
@@ -83,20 +84,20 @@ var_dump($obj);
 
 > **Зауваження** **Продуктивність**
 > 
-> У плані швидкості ця функція аналогічна [mysqlfetcharray()](function.mysql-fetch-array.md) і майже також швидка, як [mysqlfetchrow()](function.mysql-fetch-row.md) (Різниця незначна).
+> У плані швидкості ця функція аналогічна [mysql\_fetch\_array()](function.mysql-fetch-array.md) і майже також швидка, як [mysql\_fetch\_row()](function.mysql-fetch-row.md) (Різниця незначна).
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **mysqlfetchobject()** працює аналогічно [mysqlfetcharray()](function.mysql-fetch-array.md), з єдиною відмінністю - функція повертає об'єкт замість масиву. Це, крім усього іншого, означає, що ви зможете працювати з полями тільки на ім'я колонок, а не індексів (числа не можуть бути властивостями об'єкта).
+> **mysql\_fetch\_object()** працює аналогічно [mysql\_fetch\_array()](function.mysql-fetch-array.md), з єдиною відмінністю - функція повертає об'єкт замість масиву. Це, крім усього іншого, означає, що ви зможете працювати з полями тільки на ім'я колонок, а не індексів (числа не можуть бути властивостями об'єкта).
 
 > **Зауваження**: Імена полів, що повертаються цією функцією *залежними від регістру*
 
-> **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
+> **Зауваження**: Ця функція встановлює NULL-поля значення \*\*`null`\*\*PHP.
 
 ### Дивіться також
 
--   [mysqlfetcharray()](function.mysql-fetch-array.md) - обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
--   [mysqlfetchassoc()](function.mysql-fetch-assoc.md) - Повертає ряд результату запиту як асоціативний масив.
--   [mysqlfetchrow()](function.mysql-fetch-row.md) - Обробляє ряд результату запиту та повертає масив із числовими індексами
--   [mysqldataseek()](function.mysql-data-seek.md) - Переміщує внутрішній покажчик у результаті запиту
--   [mysqlquery()](function.mysql-query.md) - Надсилає запит MySQL
+-   [mysql\_fetch\_array()](function.mysql-fetch-array.md) \- Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
+-   [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.md) \- Повертає ряд результату запиту як асоціативний масив.
+-   [mysql\_fetch\_row()](function.mysql-fetch-row.md) \- Обробляє ряд результату запиту та повертає масив із числовими індексами
+-   [mysql\_data\_seek()](function.mysql-data-seek.md) \- Переміщує внутрішній покажчик у результаті запиту
+-   [mysql\_query()](function.mysql-query.md) \- Надсилає запит MySQL

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pspell-check.md: « pspellcheck
-  - function.pspell-config-create.md: pspellconfigcreate »
+  - function.pspell-check.md: « pspell\_check
+  - function.pspell-config-create.md: pspell\_config\_create »
   - index.md: PHP Manual
-  - ref.pspell.md: Функции Pspell
-title: pspellclearsession
+  - ref.pspell.md: Функції Pspell
+title: pspell\_clear\_session
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pspellclearsession
+# pspell\_clear\_session
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspellclearsession - Очищає поточну сесію
+pspell\_clear\_session - Очищає поточну сесію
 
 ### Опис
 
@@ -18,27 +19,27 @@ pspellclearsession - Очищає поточну сесію
 pspell_clear_session(PSpell\Dictionary $dictionary): bool
 ```
 
-**pspellclearsession()** очищує поточну сесію. Поточний список слів очищається, і, наприклад, якщо спробувати зберегти його за допомогою [pspellsavewordlist()](function.pspell-save-wordlist.md), Нічого не трапиться.
+**pspell\_clear\_session()** очищує поточну сесію. Поточний список слів очищається, і, наприклад, якщо спробувати зберегти його за допомогою [pspell\_save\_wordlist()](function.pspell-save-wordlist.md), Нічого не трапиться.
 
 ### Список параметрів
 
 `dictionary`
 
-Екземпляр [PSpellDictionary](class.pspell-dictionary.md)
+Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [pspelladdтоpersonal()](function.pspell-add-to-personal.md)**
+**Пример #1 Пример использования[pspell\_add\_to\_personal()](function.pspell-add-to-personal.md)**
 
 ```php
 <?php

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.libxml-get-errors.md: « libxmlgeterrors
-  - function.libxml-set-external-entity-loader.md: libxmlsetexternalentityloader »
+  - function.libxml-get-external-entity-loader.md: « libxml\_get\_external\_entity\_loader
+  - function.libxml-set-external-entity-loader.md: libxml\_set\_external\_entity\_loader »
   - index.md: PHP Manual
   - ref.libxml.md: Функції libxml
-title: libxmlgetlasterror
+title: libxml\_get\_last\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# libxmlgetlasterror
+# libxml\_get\_last\_error
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-libxmlgetlasterror — Вилучення останньої помилки з libxml
+libxml\_get\_last\_error — Вилучення останньої помилки з libxml
 
 ### Опис
 
@@ -30,5 +31,5 @@ libxml_get_last_error(): LibXMLError|false
 
 ### Дивіться також
 
--   [libxmlgeterrors()](function.libxml-get-errors.md) - Отримання масиву помилок, що відбулися.
--   [libxmlclearerrors()](function.libxml-clear-errors.md) - Очищення буфера помилок libxml
+-   [libxml\_get\_errors()](function.libxml-get-errors.md) \- Отримання масиву помилок, що відбулися.
+-   [libxml\_clear\_errors()](function.libxml-clear-errors.md) \- Очищення буфера помилок libxml

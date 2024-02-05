@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-stochrsi.md: « traderstochrsi
-  - function.trader-sum.md: tradersum »
+  - function.trader-stochrsi.md: « trader\_stochrsi
+  - function.trader-sum.md: trader\_sum »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradersub
+  - ref.trader.md: Функції Trader
+title: trader\_sub
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradersub
+# trader\_sub
 
 (PECL trader >= 0.2.0)
 
-tradersub — векторне арифметичне віднімання
+trader\_sub — векторне арифметичне віднімання
 
 ### Опис
 
@@ -18,7 +19,7 @@ tradersub — векторне арифметичне віднімання
 trader_sub(array $real0, array $real1): array
 ```
 
-Обчислює векторне віднімання `real1` з `real0` та повертає результуючий вектор.
+Обчислює векторне віднімання `real1`из`real0` та повертає результуючий вектор.
 
 ### Список параметрів
 

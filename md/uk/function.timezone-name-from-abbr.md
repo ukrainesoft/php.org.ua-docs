@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.timezone-location-get.md: « timezonelocationget
-  - function.timezone-name-get.md: timezonenameget »
+  - function.timezone-location-get.md: « timezone\_location\_get
+  - function.timezone-name-get.md: timezone\_name\_get »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
-title: timezonenamefromabbr
+title: timezone\_name\_from\_abbr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# timezonenamefromabbr
+# timezone\_name\_from\_abbr
 
-(PHP 5> = 5.1.3, PHP 7, PHP 8)
+(PHP 5 >= 5.1.3, PHP 7, PHP 8)
 
-timezonenamefromabbr — Повертає часовий пояс відповідно до абревіатури.
+timezone\_name\_from\_abbr — Повертає назву часового поясу, вгадуючи абревіатуру та зміщення UTC
 
 ### Опис
 
@@ -30,15 +31,15 @@ timezone_name_from_abbr(string $abbr, int $utcOffset = -1, int $isDST = -1): str
 
 `isDST`
 
-Виправлення на літній час. За замовчуванням -1, у цьому випадку виправлення на літній час не враховується. Якщо передано 1, усунення `utcOffset` враховує літній час, що діє. Якщо заданий 0, `utcOffset` розраховується з урахуванням зимового часу. Якщо `abbr` не існує, визначення часового поясу спирається тільки на `utcOffset` і `isDST`
+Виправлення на літній час. За замовчуванням -1, у цьому випадку виправлення на літній час не враховується. Якщо передано 1, зсув `utcOffset` враховує діючий літній час. Якщо заданий 0, `utcOffset` розраховується з урахуванням зимового часу. Якщо `abbr` не існує, визначення часового поясу спирається тільки на `utcOffset`и`isDST`
 
 ### Значення, що повертаються
 
-Повертає ім'я часового поясу або **`false`** у разі виникнення помилки.
+Возвращает имя часового пояса или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **timezonenamefromabbr()****
+**Пример #1 Пример использования**timezone\_name\_from\_abbr()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo timezone_name_from_abbr("", 3600, 0) . "\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Europe/Berlin
@@ -56,4 +57,4 @@ Europe/Paris
 
 ### Дивіться також
 
--   [timezoneabbreviationslist()](function.timezone-abbreviations-list.md) - Псевдонім DateTimeZone::listAbbreviations
+-   [timezone\_abbreviations\_list()](function.timezone-abbreviations-list.md) \- Псевдонім DateTimeZone::listAbbreviations

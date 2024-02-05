@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.phpdbg-break-next.md: « phpdbgbreaknext
-  - function.phpdbg-color.md: phpdbgcolor »
+  - function.phpdbg-break-next.md: « phpdbg\_break\_next
+  - function.phpdbg-color.md: phpdbg\_color »
   - index.md: PHP Manual
-  - ref.phpdbg.md: Функции phpdbg
-title: phpdbgclear
+  - ref.phpdbg.md: Функції phpdbg
+title: phpdbg\_clear
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# phpdbgclear
+# phpdbg\_clear
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-phpdbgclear — Видалити всі точки переривання
+phpdbg\_clear — Видалити всі точки переривання
 
 ### Опис
 
@@ -18,11 +19,11 @@ phpdbgclear — Видалити всі точки переривання
 phpdbg_clear(): void
 ```
 
-Видаляє всі задані раніше точки переривання. Працює як для заданих за допомогою функцій **phpdbgbreak**, і для доданих вручну через консоль.
+Видаляє всі задані раніше точки переривання. Працює як для заданих за допомогою функцій **phpdbg\_break\_\*()**, і для доданих вручну через консоль.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ phpdbg_clear(): void
 
 ### Дивіться також
 
--   [phpdbgbreakfile()](function.phpdbg-break-file.md) - Додати точку переривання на конкретний рядок файлу
--   [phpdbgbreakfunction()](function.phpdbg-break-function.md) - Додати точку переривання на виклик функції
--   [phpdbgbreakmethod()](function.phpdbg-break-method.md) - Додати точку переривання на виклик методу класу
--   [phpdbgbreaknext()](function.phpdbg-break-next.md) - Додати точку переривання на наступний опкод
+-   [phpdbg\_break\_file()](function.phpdbg-break-file.md) \- Додати точку переривання на конкретний рядок файлу
+-   [phpdbg\_break\_function()](function.phpdbg-break-function.md) \- Додати точку переривання на виклик функції
+-   [phpdbg\_break\_method()](function.phpdbg-break-method.md) \- Додати точку переривання на виклик методу класу
+-   [phpdbg\_break\_next()](function.phpdbg-break-next.md) \- Додати точку переривання на наступний опкод

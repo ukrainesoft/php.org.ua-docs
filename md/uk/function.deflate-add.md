@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.zlib.md: « Функции Zlib
-  - function.deflate-init.md: deflateinit »
+  - ref.zlib.md: « Функції Zlib
+  - function.deflate-init.md: deflate\_init »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
-title: deflateadd
+  - ref.zlib.md: Функції Zlib
+title: deflate\_add
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# deflateadd
+# deflate\_add
 
 (PHP 7, PHP 8)
 
-deflateadd - Інкрементальний стиск даних
+deflate\_add - Інкрементальний стиск даних
 
 ### Опис
 
@@ -24,7 +25,7 @@ deflate_add(DeflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 `context`
 
-Контекст, створений за допомогою функції [deflateinit()](function.deflate-init.md)
+Контекст, створений за допомогою функції [deflate\_init()](function.deflate-init.md)
 
 `data`
 
@@ -32,11 +33,11 @@ deflate_add(DeflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 `flush_mode`
 
-Одна з констант: **`ZLIB_BLOCK`** **`ZLIB_NO_FLUSH`** **`ZLIB_PARTIAL_FLUSH`** **`ZLIB_SYNC_FLUSH`** (за замовчуванням), **`ZLIB_FULL_FLUSH`** **`ZLIB_FINISH`**. Зазвичай потрібно встановити **`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** для завершення на останньому блоці даних. Детальний опис констант дивіться в [» руководстве zlib](http://www.zlib.net/manual.md)
+Одна из констант:**`ZLIB_BLOCK`** **`ZLIB_NO_FLUSH`** **`ZLIB_PARTIAL_FLUSH`** **`ZLIB_SYNC_FLUSH`**(по умолчанию),**`ZLIB_FULL_FLUSH`** **`ZLIB_FINISH`**. Зазвичай потрібно встановити **`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** для завершення на останньому блоці даних. Детальний опис констант дивіться в [» керівництві zlib](http://www.zlib.net/manual.md)
 
 ### Значення, що повертаються
 
-Повертає блок стиснутих даних або **`false`** у разі виникнення помилки.
+Повертає блок стиснутих даних або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -44,10 +45,10 @@ deflate_add(DeflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `context` чекає на екземпляр [DeflateContext](class.deflatecontext.md); раніше, очікувався ресурс (resource). |
+| 8.0.0 | `context` чекає на екземпляр [DeflateContext](class.deflatecontext.md); раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [deflateinit()](function.deflate-init.md) - Ініціалізувати контекст інкрементального стиску
+-   [deflate\_init()](function.deflate-init.md) \- Ініціалізувати контекст інкрементального стиску

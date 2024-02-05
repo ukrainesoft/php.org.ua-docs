@@ -1,10 +1,11 @@
 ---
 navigation:
-  - bc.installation.md: « Установка
+  - bc.installation.md: « Встановлення
   - bc.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - bc.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,12 +15,12 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [bcmath.scale](bc.configuration.md#ini.bcmath.scale) | "0" | PHPINIALL |  |
+| [bcmath.scale](bc.configuration.md#ini.bcmath.scale) | "0" | **`INI_ALL`** |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
+Додаткова інформація та опис режимів INI\_\* дано у розділі «[Місця встановлення параметрів конфігурації](configuration.changes.modes.md)».
 
 Коротке пояснення конфігураційних директив.
 
-`bcmath.scale` int
+`bcmath.scale`int
 
 Число десяткових цифр для всіх bcmath-функцій. Дивіться також [bcscale()](function.bcscale.md)

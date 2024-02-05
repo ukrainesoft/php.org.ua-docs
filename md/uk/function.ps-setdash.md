@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-setcolor.md: «pssetcolor
-  - function.ps-setflat.md: псsetflat »
+  - function.ps-setcolor.md: « ps\_setcolor
+  - function.ps-setflat.md: ps\_setflat »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псsetdash
+title: ps\_setdash
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псsetdash
+# ps\_setdash
 
 (PECL ps >= 1.1.0)
 
-псsetdash - Встановлює зовнішній вигляд пунктирної лінії
+ps\_setdash - Встановлює зовнішній вигляд пунктирної лінії
 
 ### Опис
 
@@ -24,7 +25,7 @@ ps_setdash(resource $psdoc, float $on, float $off): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 `on`
 
@@ -36,8 +37,8 @@ ps_setdash(resource $psdoc, float $on, float $off): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псsetpolydash()](function.ps-setpolydash.md) - Встановлює зовнішній вигляд пунктирної лінії
+-   [ps\_setpolydash()](function.ps-setpolydash.md) \- Встановлює зовнішній вигляд пунктирної лінії

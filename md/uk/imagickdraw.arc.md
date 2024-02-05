@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::arc'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::arc
 
@@ -15,12 +16,12 @@ ImagickDraw::arc — Малює дугу
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): bool
+public ImagickDraw::arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Малює дугу, що потрапляє у вказаний прямокутник на зображенні.
 
@@ -56,7 +57,7 @@ public ImagickDraw::arc(    float $sx,    float $sy,    float $ex,    float $ey,
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::arc()****
+**Пример #1 Пример использования**ImagickDraw::arc()\*\*\*\*
 
 ```php
 <?php

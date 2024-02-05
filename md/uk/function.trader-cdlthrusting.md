@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdltasukigap.md: « tradercdltasukigap
-  - function.trader-cdltristar.md: tradercdltristar »
+  - function.trader-cdltasukigap.md: « trader\_cdltasukigap
+  - function.trader-cdltristar.md: trader\_cdltristar »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlthrusting
+  - ref.trader.md: Функції Trader
+title: trader\_cdlthrusting
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlthrusting
+# trader\_cdlthrusting
 
 (PECL trader >= 0.2.0)
 
-tradercdlthrusting - Свічкова модель "Поштовх"
+trader\_cdlthrusting - Свічкова модель "Поштовх"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlthrusting(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlthrusting(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

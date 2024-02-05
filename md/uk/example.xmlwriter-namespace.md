@@ -1,10 +1,11 @@
 ---
 navigation:
-  - example.xmlwriter-simple.md: « Створення простого XML-документу
+  - example.xmlwriter-simple.md: « Створення простого XML-документа
   - example.xmlwriter-oop.md: Робота з об'єктно-орієнтованим API »
   - index.md: PHP Manual
   - xmlwriter.examples.md: Приклади
 title: Робота з просторами імен XML
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Робота з просторами імен XML
 
@@ -37,7 +38,7 @@ xmlwriter_end_document($xw);
 echo xmlwriter_output_memory($xw);
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

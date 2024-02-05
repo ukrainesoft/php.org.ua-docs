@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mb-http-output.md: « mbhttpoutput
-  - function.mb-language.md: мбlanguage »
+  - function.mb-http-output.md: « mb\_http\_output
+  - function.mb-language.md: mb\_language »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбinternalencoding
+title: mb\_internal\_encoding
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбinternalencoding
+# mb\_internal\_encoding
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-мбinternalencoding — Встановлення/отримання внутрішнього кодування скрипту
+mb\_internal\_encoding — Встановлює/отримує внутрішнє кодування скрипту
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: мбinternalencoding
 mb_internal_encoding(?string $encoding = null): string|bool
 ```
 
-Встановлення/отримання внутрішнього кодування скрипту.
+Встановлює/отримує внутрішнє кодування скрипта.
 
 ### Список параметрів
 
 `encoding`
 
-`encoding` - це ім'я кодування, в яке будуть перетворюватися вхідні дані HTTP-запиту, з якого конвертуватиметься HTTP-висновок, а також це кодування за промовчанням для всіх функцій, що працюють з рядками, визначеними в mbstring. Зверніть увагу, що внутрішнє кодування повністю відрізняється від кодування для регулярних багатобайтових виразів.
+Параметр`encoding` — це ім'я кодування, в яке будуть перетворюватися вхідні дані HTTP-запиту, з якого конвертуватиметься HTTP-висновок, а також це кодування за замовчуванням для функцій, що працюють з рядками, визначеними в mbstring. Зверніть увагу, що внутрішнє кодування повністю відрізняється від кодування для регулярних багатобайтових виразів.
 
 ### Значення, що повертаються
 
@@ -32,18 +33,18 @@ mb_internal_encoding(?string $encoding = null): string|bool
 
 ### Помилки
 
-Починаючи з PHP 8.0.0, викидається виняток [ValueError](class.valueerror.md), якщо значення параметра `encoding` є неприпустимим кодуванням. До PHP 8.0.0 натомість видавалася помилка рівня **`E_WARNING`**
+Починаючи з PHP 8.0.0 викидається виняток [ValueError](class.valueerror.md), если значение параметра`encoding` неприпустимо. До PHP 8.0.0 натомість видавалася помилка рівня **`E_WARNING`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер параметр `encoding` може набувати значення **`null`** |
-|  | Тепер викидається виняток [ValueError](class.valueerror.md), якщо значення параметра `encoding` є неприпустимим кодуванням. Раніше натомість видавалася помилка рівня **`E_WARNING`** |
+| 8.0.0 | Тепер параметр `encoding` може набувати значення **`null`** |
+| 8.0.0 | Тепер викидається виняток[ValueError](class.valueerror.md), если значение параметра`encoding` неприпустимо. Раніше натомість видавалася помилка рівня **`E_WARNING`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **мбinternalencoding()****
+**Пример #1 Пример использования функции**mb\_internal\_encoding()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ echo mb_internal_encoding();
 
 ### Дивіться також
 
--   [мбhttpinput()](function.mb-http-input.md) - Визначення кодування символів вхідних даних HTTP-запиту
--   [мбhttpoutput()](function.mb-http-output.md) - Встановлення/отримання кодування символів виводу HTTP
--   [мбdetectorder()](function.mb-detect-order.md) - Встановлення/отримання списку кодувань для механізмів визначення кодування
--   [мбregexencoding()](function.mb-regex-encoding.md) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [mb\_http\_input()](function.mb-http-input.md) \- Визначає кодування символів вхідних даних HTTP-запиту
+-   [mb\_http\_output()](function.mb-http-output.md) \- Встановлює/отримує кодування символів виводу HTTP
+-   [mb\_detect\_order()](function.mb-detect-order.md) \- Встановлює/отримує порядок визначення кодування символів
+-   [mb\_regex\_encoding()](function.mb-regex-encoding.md) \- Встановлює/отримує кодування символів для однобайтового регулярного виразу

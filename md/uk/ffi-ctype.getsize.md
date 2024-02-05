@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ffi-ctype.getpointertype.md: '« FFICType::getPointerType'
-  - ffi-ctype.getstructfieldnames.md: 'FFICType::getStructFieldNames »'
+  - ffi-ctype.getpointertype.md: '« FFI\\CType::getPointerType'
+  - ffi-ctype.getstructfieldnames.md: 'FFI\\CType::getStructFieldNames »'
   - index.md: PHP Manual
-  - class.ffi-ctype.md: FFICType
-title: 'FFICType::getSize'
+  - class.ffi-ctype.md: FFI\\CType
+title: 'FFI\\CType::getSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# FFICType::getSize
+# FFI\\CType::getSize
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-FFICType::getSize — Опис
+FFI\\CType::getSize — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public FFI\CType::getSize(): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

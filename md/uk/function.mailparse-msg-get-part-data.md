@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mailparse-msg-free.md: « mailparsemsgfree
-  - function.mailparse-msg-get-part.md: mailparsemsggetpart »
+  - function.mailparse-msg-free.md: « mailparse\_msg\_free
+  - function.mailparse-msg-get-part.md: mailparse\_msg\_get\_part »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
-title: mailparsemsggetpartdata
+title: mailparse\_msg\_get\_part\_data
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mailparsemsggetpartdata
+# mailparse\_msg\_get\_part\_data
 
 (PECL mailparse >= 0.9.0)
 
-mailparsemsggetpartdata — Повернути асоціативний масив з інформацією про повідомлення
+mailparse\_msg\_get\_part\_data — Повернути асоціативний масив з інформацією про повідомлення
 
 ### Опис
 
@@ -20,10 +21,10 @@ mailparse_msg_get_part_data(resource $mimemail): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `mimemail`
 
-Коректний `MIME`ресурс.
+Коректний `MIME`\-ресурс.

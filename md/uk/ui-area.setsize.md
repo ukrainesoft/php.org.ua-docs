@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-area.scrollto.md: '« UIArea::scrollTo'
-  - class.ui-executor.md: ОЙExecutor »
+  - ui-area.scrollto.md: '« UI\\Area::scrollTo'
+  - class.ui-executor.md: UI\\Executor »
   - index.md: PHP Manual
-  - class.ui-area.md: ОЙArea
-title: 'ОЙArea::setSize'
+  - class.ui-area.md: UI\\Area
+title: 'UI\\Area::setSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙArea::setSize
+# UI\\Area::setSize
 
 (UI 0.9.9)
 
-ОЙArea::setSize — Встановити розмір
+UI\\Area::setSize — Встановити розмір
 
 ### Опис
 

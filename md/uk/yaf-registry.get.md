@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-registry.del.md: '« YafRegistry::del'
-  - yaf-registry.has.md: 'YafRegistry::has »'
+  - yaf-registry.del.md: '« Yaf\_Registry::del'
+  - yaf-registry.has.md: 'Yaf\_Registry::has »'
   - index.md: PHP Manual
-  - class.yaf-registry.md: YafRegistry
-title: 'YafRegistry::get'
+  - class.yaf-registry.md: Yaf\_Registry
+title: 'Yaf\_Registry::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRegistry::get
+# Yaf\_Registry::get
 
 (Yaf >=1.0.0)
 
-YafRegistry::get — Отримує елемент із реєстру
+Yaf\_Registry::get — Отримує елемент із реєстру
 
 ### Опис
 

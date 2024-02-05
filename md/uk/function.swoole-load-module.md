@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.swoole-last-error.md: « swoolelasterror
-  - function.swoole-select.md: swooleselect »
+  - function.swoole-last-error.md: « swoole\_last\_error
+  - function.swoole-select.md: swoole\_select »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swooleloadmodule
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_load\_module
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swooleloadmodule
+# swoole\_load\_module
 
 (PECL swoole >= 1.9.0)
 
-swooleloadmodule — Завантажити модуль swoole
+swoole\_load\_module — Завантажити модуль swoole
 
 ### Опис
 

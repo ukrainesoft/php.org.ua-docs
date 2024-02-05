@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-draw-matrix.translate.md: '« UIDrawMatrix::translate'
-  - ui-draw-color.construct.md: 'ОЙDrawColor::construct »'
+  - ui-draw-matrix.translate.md: '« UI\\Draw\\Matrix::translate'
+  - ui-draw-color.construct.md: 'UI\\Draw\\Color::\_\_construct »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Подання кольору
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Подання кольору
 
@@ -74,19 +75,19 @@ public setChannel(int $channel, float $value): void
 
 ## Властивості
 
-р
+r
 
 Забезпечує доступ до червоного каналу
 
-г
+g
 
 Забезпечує доступ до зеленого каналу
 
-в
+b
 
 Забезпечує доступ до синього каналу
 
-а
+a
 
 Забезпечує доступ до альфа-каналу
 
@@ -110,6 +111,6 @@ public setChannel(int $channel, float $value): void
 
 ## Зміст
 
--   [ОЙDrawColor::construct](ui-draw-color.construct.md) — Створити новий об'єкт Color
--   [ОЙDrawColor::getChannel](ui-draw-color.getchannel.md) - Управління кольором
--   [ОЙDrawColor::setChannel](ui-draw-color.setchannel.md) - Управління кольором
+-   [UI\\Draw\\Color::\_\_construct](ui-draw-color.construct.md)— Створити новий об'єкт Color
+-   [UI\\Draw\\Color::getChannel](ui-draw-color.getchannel.md) \- Управління кольором
+-   [UI\\Draw\\Color::setChannel](ui-draw-color.setchannel.md) \- Управління кольором

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-parser.right.md: '« ParleParser::right'
-  - parle-parser.token.md: 'ParleParser::token »'
+  - parle-parser.right.md: '« Parle\\Parser::right'
+  - parle-parser.sigilcount.md: 'Parle\\Parser::sigilCount »'
   - index.md: PHP Manual
-  - class.parle-parser.md: ParleParser
-title: 'ParleParser::sigil'
+  - class.parle-parser.md: Parle\\Parser
+title: 'Parle\\Parser::sigil'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleParser::sigil
+# Parle\\Parser::sigil
 
 (PECL parle >= 0.5.1)
 
-ParleParser::sigil — Витягує частину збігу за правилом
+Parle\\Parser::sigil — Витягує частину збігу за правилом
 
 ### Опис
 

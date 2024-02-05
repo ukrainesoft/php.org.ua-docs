@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-runtimeexception.md: « MongoDBDriverExceptionRuntimeException
-  - class.mongodb-driver-exception-serverexception.md: MongoDBDriverExceptionServerException »
+  - class.mongodb-driver-exception-runtimeexception.md: « MongoDB\\Driver\\Exception\\RuntimeException
+  - class.mongodb-driver-exception-serverexception.md: MongoDB\\Driver\\Exception\\ServerException »
   - index.md: PHP Manual
-  - class.mongodb-driver-exception-runtimeexception.md: MongoDBDriverExceptionRuntimeException
-title: 'MongoDBDriverExceptionRuntimeException::hasErrorLabel'
+  - class.mongodb-driver-exception-runtimeexception.md: MongoDB\\Driver\\Exception\\RuntimeException
+title: 'MongoDB\\Driver\\Exception\\RuntimeException::hasErrorLabel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverExceptionRuntimeException::hasErrorLabel
+# MongoDB\\Driver\\Exception\\RuntimeException::hasErrorLabel
 
 (mongodb >= 1.6.0)
 
-MongoDBDriverExceptionRuntimeException::hasErrorLabel — Повертає, чи мітка помилки пов'язана з винятком
+MongoDB\\Driver\\Exception\\RuntimeException::hasErrorLabel — Повертає, чи мітка помилки пов'язана з винятком
 
 ### Опис
 
@@ -18,19 +19,19 @@ MongoDBDriverExceptionRuntimeException::hasErrorLabel — Повертає, чи
 final public MongoDB\Driver\Exception\RuntimeException::hasErrorLabel(string $errorLabel): bool
 ```
 
-Повертає, чи було встановлено `errorLabel` для цього виняток. Мітки помилок встановлюються або сервером, або драйвером, щоб вказати конкретні ситуації, в яких може знадобитися прийняти рішення щодо способу обробки конкретного виключення. Такою ситуацією може бути перевірка, чи можна безпечно повторити транзакцію, яка не вдалася через тимчасову помилку (наприклад, проблеми з мережею або конфлікт транзакцій). Прикладами міток помилок є `TransientTransactionError` і `UnknownTransactionCommitResult`
+Повертає, чи було встановлено `errorLabel` для цього виняток. Мітки помилок встановлюються або сервером, або драйвером, щоб вказати конкретні ситуації, в яких може знадобитися прийняти рішення щодо способу обробки конкретного виключення. Такою ситуацією може бути перевірка, чи можна безпечно повторити транзакцію, яка не вдалася через тимчасову помилку (наприклад, проблеми з мережею або конфлікт транзакцій). Прикладами міток помилок є `TransientTransactionError`и`UnknownTransactionCommitResult`
 
 ### Список параметрів
 
 `errorLabel`
 
-Назва `errorLabel` для перевірки.
+Название`errorLabel` для перевірки.
 
 ### Значення, що повертаються
 
-Чи пов'язане передане значення параметра `errorLabel` з відповідним винятком.
+Связана ли переданное значение параметра`errorLabel` з відповідним винятком.
 
 ### Дивіться також
 
--   [MongoDBDriverSession::commitTransaction()](mongodb-driver-session.committransaction.md) - Фіксує транзакцію
--   [» Документация MongoDB по транзакциям](https://www.mongodb.com/docs/manual/core/transactions/)
+-   [MongoDB\\Driver\\Session::commitTransaction()](mongodb-driver-session.committransaction.md) \- Фіксує транзакцію
+-   [» Документація MongoDB щодо транзакцій](https://www.mongodb.com/docs/manual/core/transactions/)

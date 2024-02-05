@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-combo.getselected.md: '« UIControlsCombo::getSelected'
-  - ui-controls-combo.setselected.md: 'ОЙControlsCombo::setSelected »'
+  - ui-controls-combo.getselected.md: '« UI\\Controls\\Combo::getSelected'
+  - ui-controls-combo.setselected.md: 'UI\\Controls\\Combo::setSelected »'
   - index.md: PHP Manual
-  - class.ui-controls-combo.md: ОЙControlsCombo
-title: 'ОЙControlsCombo::onSelected'
+  - class.ui-controls-combo.md: UI\\Controls\\Combo
+title: 'UI\\Controls\\Combo::onSelected'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsCombo::onSelected
+# UI\\Controls\\Combo::onSelected
 
 (UI 0.9.9)
 
-ОЙControlsCombo::onSelected — Обробник обраної опції
+UI\\Controls\\Combo::onSelected — Обробник обраної опції
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-reset-mse.md: « fannresetMSE
-  - function.fann-save-train.md: fannsavetrain »
+  - function.fann-reset-mse.md: « fann\_reset\_MSE
+  - function.fann-save-train.md: fann\_save\_train »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannrun
+  - ref.fann.md: Функції Fann
+title: fann\_run
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannrun
+# fann\_run
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannrun — Запускає нейронну мережу із заданими даними
+fann\_run — Запускає нейронну мережу із заданими даними
 
 ### Опис
 
@@ -32,4 +33,4 @@ fann_run(resource $ann, array $input): array
 
 ### Значення, що повертаються
 
-Масив вихідних даних, або **`false`** у разі виникнення помилки.
+Масив вихідних даних, або \*\*`false`\*\*в случае возникновения ошибки.

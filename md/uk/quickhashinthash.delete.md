@@ -1,10 +1,11 @@
 ---
 navigation:
-  - quickhashinthash.construct.md: '« QuickHashIntHash::construct'
+  - quickhashinthash.construct.md: '« QuickHashIntHash::\_\_construct'
   - quickhashinthash.exists.md: 'QuickHashIntHash::exists »'
   - index.md: PHP Manual
   - class.quickhashinthash.md: QuickHashIntHash
 title: 'QuickHashIntHash::delete'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntHash::delete
 
@@ -18,7 +19,7 @@ QuickHashIntHash::delete — Метод видаляє запис із хешу
 public QuickHashIntHash::delete(int $key): bool
 ```
 
-Метод видаляє запис з хеша і повертає, чи цей запис видалено чи ні. Відповідні структури пам'яті буде звільнено не відразу, а при звільненні самого хеша.
+Метод видаляє запис з хешу і повертає, чи цей запис видалено чи ні. Відповідні структури пам'яті буде звільнено не відразу, а при звільненні самого хеша.
 
 Елементи не можна видалити, якщо хеш використовується в ітераторі. Метод не викине виняток, а просто поверне **`false`** як це сталося б за будь-якої іншої помилки видалення.
 
@@ -30,11 +31,11 @@ public QuickHashIntHash::delete(int $key): bool
 
 ### Значення, що повертаються
 
-Метод повертає **`true`**, якщо запис було видалено та **`false`**, якщо запис не видалено.
+Метод возвращает\*\*`true`\*\*, якщо запис було видалено та **`false`**, якщо запис не видалено.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntHash::delete()****
+**Пример #1 Пример использования**QuickHashIntHash::delete()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump( $hash->delete( 4 ) );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)

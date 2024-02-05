@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.quickhashinthash.md: « QuickHashIntHash
-  - quickhashinthash.construct.md: 'QuickHashIntHash::construct »'
+  - quickhashinthash.construct.md: 'QuickHashIntHash::\_\_construct »'
   - index.md: PHP Manual
   - class.quickhashinthash.md: QuickHashIntHash
 title: 'QuickHashIntHash::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntHash::add
 
@@ -18,7 +19,7 @@ QuickHashIntHash::add — Додати елемент у хеш
 public QuickHashIntHash::add(int $key, int $value = ?): bool
 ```
 
-Додає елемент у хеш та повертає **`true`** або **`false`** залежно від успішності операції. За умовчанням, додавання відбувається завжди, якщо під час створення хеша не використовувався прапор **`QuickHashIntHash::CHECK_FOR_DUPES`**
+Додає елемент у хеш та повертає **`true`**или**`false`**в зависимости от успешности операции. По умолчанию, добавление происходит всегда, если при создании хеша не использовался флаг**`QuickHashIntHash::CHECK_FOR_DUPES`**
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public QuickHashIntHash::add(int $key, int $value = ?): bool
 
 `value`
 
-Опціональне значення. Якщо не задано, то використовуватиметься `1`
+Опціональне значення. Якщо не задано, то використовуватиметься
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public QuickHashIntHash::add(int $key, int $value = ?): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntHash::add()****
+**Пример #1 Пример использования**QuickHashIntHash::add()\*\*\*\*
 
 ```php
 <?php
@@ -64,7 +65,7 @@ var_dump( $hash->get( 5 ) );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 without dupe checking

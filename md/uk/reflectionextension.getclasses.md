@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::getClasses'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionExtension::getClasses
 
@@ -30,7 +31,7 @@ public ReflectionExtension::getClasses(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionExtension::getClasses()****
+**Пример #1 Пример использования**ReflectionExtension::getClasses()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump($ext->getClasses());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {
@@ -53,4 +54,4 @@ array(1) {
 
 ### Дивіться також
 
--   [ReflectionExtension::getClassNames()](reflectionextension.getclassnames.md) - Отримання імен класів
+-   [ReflectionExtension::getClassNames()](reflectionextension.getclassnames.md) \- Отримання імен класів

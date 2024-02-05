@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.zlib.md: « Введение
+  - intro.zlib.md: '" Вступ'
   - zlib.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.zlib.md: Zlib
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

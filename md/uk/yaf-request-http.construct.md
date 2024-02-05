@@ -1,24 +1,25 @@
 ---
 navigation:
-  - class.yaf-request-http.md: « YafRequestHttp
-  - yaf-request-http.get.md: 'YafRequestHttp::get »'
+  - class.yaf-request-http.md: « Yaf\_Request\_Http
+  - yaf-request-http.get.md: 'Yaf\_Request\_Http::get »'
   - index.md: PHP Manual
-  - class.yaf-request-http.md: YafRequestHttp
-title: 'YafRequestHttp::construct'
+  - class.yaf-request-http.md: Yaf\_Request\_Http
+title: 'Yaf\_Request\_Http::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestHttp::construct
+# Yaf\_Request\_Http::\_\_construct
 
 (Yaf >=1.0.0)
 
-YafRequestHttp::construct - Конструктор класу YafRequestHttp
+Yaf\_Request\_Http::\_\_construct - Конструктор класу Yaf\_Request\_Http
 
 ### Опис
 
-public **YafRequestHttp::construct**(string `$request_uri` =?, string `$base_uri`
+public**Yaf\_Request\_Http::\_\_construct**(string`$request_uri`\= ?, string`$base_uri`
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

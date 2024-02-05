@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apcu-entry.md: « apcuentry
-  - function.apcu-fetch.md: apcufetch »
+  - function.apcu-entry.md: « apcu\_entry
+  - function.apcu-fetch.md: apcu\_fetch »
   - index.md: PHP Manual
-  - ref.apcu.md: Функции APCu
-title: apcuexists
+  - ref.apcu.md: Функції APCu
+title: apcu\_exists
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apcuexists
+# apcu\_exists
 
 (PECL apcu >= 4.0.0)
 
-apcuexists — Перевіряє, чи є записи
+apcu\_exists — Перевіряє, чи є записи
 
 ### Опис
 
@@ -32,7 +33,7 @@ apcu_exists(mixed $keys): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apcuexists()****
+**Пример #1 Пример использования**apcu\_exists()\*\*\*\*
 
 ```php
 <?php
@@ -64,7 +65,7 @@ var_dump($ret);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Foo существует: apple
@@ -79,5 +80,5 @@ array(2) {
 
 ### Дивіться також
 
--   [apcucacheinfo()](function.apcu-cache-info.md) - Витягує закешовану інформацію зі сховища APCu
--   [apcufetch()](function.apcu-fetch.md) - Витягує з кеша збережену змінну
+-   [apcu\_cache\_info()](function.apcu-cache-info.md) \- Витягує закешовану інформацію зі сховища APCu
+-   [apcu\_fetch()](function.apcu-fetch.md) \- Витягує з кеша збережену змінну

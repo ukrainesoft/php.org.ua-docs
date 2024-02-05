@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-session.getschema.md: '« Session::getSchema'
   - mysql-xdevapi-session.getserverversion.md: 'Session::getServerVersion »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::getSchemas'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::getSchemas
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Session::getSchemas(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::getSchemas()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::getSchemas()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ $schemas  = $session->getSchemas();
 print_r($schemas);
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

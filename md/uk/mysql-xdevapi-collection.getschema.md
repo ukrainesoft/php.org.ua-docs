@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collection.getone.md: '« Collection::getOne'
   - mysql-xdevapi-collection.getsession.md: 'Collection::getSession »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
 title: 'Collection::getSchema'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collection::getSchema
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Collection::getSchema(): Schema Object
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::getSchema()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::getSchema()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($collection->getSchema());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(mysql_xdevapi\Schema)#9 (1) {

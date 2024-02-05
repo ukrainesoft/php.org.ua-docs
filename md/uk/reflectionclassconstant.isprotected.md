@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::isProtected'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClassConstant::isProtected
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
 ReflectionClassConstant::isProtected — Перевіряє, чи константа захищена
 
@@ -30,6 +31,6 @@ public ReflectionClassConstant::isProtected(): bool
 
 ### Дивіться також
 
--   [ReflectionClassConstant::isFinal()](reflectionclassconstant.isfinal.md) - Перевіряє, чи є константа класу остаточною
--   [ReflectionClassConstant::isPublic()](reflectionclassconstant.ispublic.md) - Перевіряє, чи константа є загальнодоступною
--   [ReflectionClassConstant::isPrivate()](reflectionclassconstant.isprivate.md) - Перевіряє, чи є константа закритою
+-   [ReflectionClassConstant::isFinal()](reflectionclassconstant.isfinal.md) \- Перевіряє, чи є константа класу остаточною
+-   [ReflectionClassConstant::isPublic()](reflectionclassconstant.ispublic.md) \- Перевіряє, чи константа є загальнодоступною
+-   [ReflectionClassConstant::isPrivate()](reflectionclassconstant.isprivate.md) \- Перевіряє, чи є константа закритою

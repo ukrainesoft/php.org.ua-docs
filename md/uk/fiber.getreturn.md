@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.fiber.md: Fiber
 title: 'Fiber::getReturn'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Fiber::getReturn
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 Fiber::getReturn — Отримує значення, яке повертається файбером
 
@@ -24,4 +25,4 @@ public Fiber::getReturn(): mixed
 
 ### Значення, що повертаються
 
-Повертає значення, що повертається [callable](language.types.callable.md)функцією, наданою в [Fiber::construct()](fiber.construct.md). Якщо файбер не повернув значення, або тому, що він не був запущений, або не був завершений, або викинув виняток, буде викинуто виняток [FiberError](class.fibererror.md)
+Повертає значення, що повертається [callable](language.types.callable.md)\-функцією, наданою в [Fiber::\_\_construct()](fiber.construct.md). Якщо файбер не повернув значення, або тому, що він не був запущений, або не був завершений, або викинув виняток, буде викинуто виняток [FiberError](class.fibererror.md)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-manager.getreadconcern.md: '« MongoDBDriverManager::getReadConcern'
-  - mongodb-driver-manager.getservers.md: 'MongoDBDriverManager::getServers »'
+  - mongodb-driver-manager.getreadconcern.md: '« MongoDB\\Driver\\Manager::getReadConcern'
+  - mongodb-driver-manager.getservers.md: 'MongoDB\\Driver\\Manager::getServers »'
   - index.md: PHP Manual
-  - class.mongodb-driver-manager.md: MongoDBDriverManager
-title: 'MongoDBDriverManager::getReadPreference'
+  - class.mongodb-driver-manager.md: MongoDB\\Driver\\Manager
+title: 'MongoDB\\Driver\\Manager::getReadPreference'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverManager::getReadPreference
+# MongoDB\\Driver\\Manager::getReadPreference
 
 (mongodb >=1.0.0)
 
-MongoDBDriverManager::getReadPreference — Повертає ReadPreference для Manager
+MongoDB\\Driver\\Manager::getReadPreference — Повертає ReadPreference для Manager
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverManager::getReadPreference — Повертає ReadPreference дл
 final public MongoDB\Driver\Manager::getReadPreference(): MongoDB\Driver\ReadPreference
 ```
 
-Повертає [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md) для Manager, отриманий із його URI-опцій. Це перевага для читання за промовчанням для запитів і команд, що виконуються в Manager.
+Повертає [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.md) для Manager, отриманий із його URI-опцій. Це перевага для читання за промовчанням для запитів і команд, що виконуються в Manager.
 
 ### Список параметрів
 
@@ -26,15 +27,15 @@ final public MongoDB\Driver\Manager::getReadPreference(): MongoDB\Driver\ReadPre
 
 ### Значення, що повертаються
 
-Повертає [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md) для Manager.
+Повертає [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.md)для Manager.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverManager::getReadPreference()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Manager::getReadPreference()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($manager->getReadPreference());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(MongoDB\Driver\ReadPreference)#2 (1) {
@@ -81,5 +82,5 @@ object(MongoDB\Driver\ReadPreference)#1 (2) {
 
 ### Дивіться також
 
--   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md)
--   [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.md) - Створює новий Manager MongoDB
+-   [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.md)
+-   [MongoDB\\Driver\\Manager::\_\_construct()](mongodb-driver-manager.construct.md) \- Створює новий Manager MongoDB

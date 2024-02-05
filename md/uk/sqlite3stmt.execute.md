@@ -1,14 +1,15 @@
 ---
 navigation:
-  - sqlite3stmt.construct.md: '« SQLite3Stmt::construct'
+  - sqlite3stmt.construct.md: '« SQLite3Stmt::\_\_construct'
   - sqlite3stmt.getsql.md: 'SQLite3Stmt::getSQL »'
   - index.md: PHP Manual
   - class.sqlite3stmt.md: SQLite3Stmt
 title: 'SQLite3Stmt::execute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3Stmt::execute
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3Stmt::execute — Виконує підготовлений запит і повертає об'єкт із результуючим набором
 
@@ -30,10 +31,10 @@ public SQLite3Stmt::execute(): SQLite3Result|false
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SQLite3Result](class.sqlite3result.md) у разі успішного виконання підготовленого запиту та **`false`** у разі виникнення помилки.
+Повертає об'єкт [SQLite3Result](class.sqlite3result.md) у разі успішного виконання підготовленого запиту та \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [SQLite3::prepare()](sqlite3.prepare.md) - готує SQL-запит для виконання
--   [SQLite3Stmt::bindValue()](sqlite3stmt.bindvalue.md) - Зв'язує значення параметра зі змінною підготовленого запиту
--   [SQLite3Stmt::bindParam()](sqlite3stmt.bindparam.md) - Зв'язує параметр із змінною підготовленого запиту
+-   [SQLite3::prepare()](sqlite3.prepare.md) \- готує SQL-запит для виконання
+-   [SQLite3Stmt::bindValue()](sqlite3stmt.bindvalue.md) \- Зв'язує значення параметра зі змінною підготовленого запиту
+-   [SQLite3Stmt::bindParam()](sqlite3stmt.bindparam.md) \- Зв'язує параметр із змінною підготовленого запиту

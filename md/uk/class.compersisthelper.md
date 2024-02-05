@@ -1,10 +1,11 @@
 ---
 navigation:
-  - variant.construct.md: '« variant::construct'
-  - compersisthelper.construct.md: 'COMPersistHelper::construct »'
+  - variant.construct.md: '« variant::\_\_construct'
+  - compersisthelper.construct.md: 'COMPersistHelper::\_\_construct »'
   - index.md: PHP Manual
   - book.com.md: COM
 title: Клас COMPersistHelper
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас COMPersistHelper
 
@@ -12,23 +13,16 @@ title: Клас COMPersistHelper
 
 ## Вступ
 
-**COMPersistHelper** покращує сумісність COM і PHP щодо php.ini директиви [openbasedir](ini.core.md#ini.open-basedir) та потокових ресурсів.
+**COMPersistHelper** покращує сумісність COM та PHP щодо php.ini директиви [open\_basedir](ini.core.md#ini.open-basedir) та потокових ресурсів.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
     
-
-    
-    
-     
-      final
-      class COMPersistHelper
-     
+     final
+     class COMPersistHelper
      {
-    
 
     /* Методы */
     
@@ -47,11 +41,11 @@ public SaveToStream(resource $stream): bool
 
 ## Зміст
 
--   [COMPersistHelper::construct](compersisthelper.construct.md) - Конструктор класу COMPersistHelper
--   [COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.md) — Отримати ім'я файлу
--   [COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.md) — Отримати максимальний розмір потоку
--   [COMPersistHelper::InitNew](compersisthelper.initnew.md) — Ініціалізує об'єкт у стан за умовчанням
--   [COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.md) — Завантажити об'єкт із файлу
--   [COMPersistHelper::LoadFromStream](compersisthelper.loadfromstream.md) — Завантажує об'єкт із потоку
--   [COMPersistHelper::SaveToFile](compersisthelper.savetofile.md) — Зберегти об'єкт у файл
--   [COMPersistHelper::SaveToStream](compersisthelper.savetostream.md) — Зберігає об'єкт у потоці
+-   [COMPersistHelper::\_\_construct](compersisthelper.construct.md) \- Конструктор класу COMPersistHelper
+-   [COMPersistHelper::GetCurFileName](compersisthelper.getcurfilename.md)— Отримати ім'я файлу
+-   [COMPersistHelper::GetMaxStreamSize](compersisthelper.getmaxstreamsize.md)— Отримати максимальний розмір потоку
+-   [COMPersistHelper::InitNew](compersisthelper.initnew.md)— Ініціалізує об'єкт у стан за умовчанням
+-   [COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.md)— Завантажити об'єкт із файлу
+-   [COMPersistHelper::LoadFromStream](compersisthelper.loadfromstream.md)— Завантажує об'єкт із потоку
+-   [COMPersistHelper::SaveToFile](compersisthelper.savetofile.md)— Зберегти об'єкт у файл
+-   [COMPersistHelper::SaveToStream](compersisthelper.savetostream.md)— Зберігає об'єкт у потоці

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getReturnType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getReturnType
 
@@ -30,7 +31,7 @@ public ReflectionFunctionAbstract::getReturnType(): ?ReflectionType
 
 ### Приклади
 
-**Приклад #1 Приклад **ReflectionFunctionAbstract::getReturnType()****
+**Пример #1 Пример**ReflectionFunctionAbstract::getReturnType()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ $reflection1 = new ReflectionFunction('to_int');
 echo $reflection1->getReturnType();
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int
@@ -59,7 +60,7 @@ $reflection2 = new ReflectionFunction('array_merge');
 var_dump($reflection2->getReturnType());
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 null
@@ -69,5 +70,5 @@ null
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.md) - Перевіряє, чи має функція оголошений тип значення, що повертається
--   [ReflectionType::toString()](reflectiontype.tostring.md) - Перетворення на рядок
+-   [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.md) \- Перевіряє, чи має функція оголошений тип значення, що повертається
+-   [ReflectionType::\_\_toString()](reflectiontype.tostring.md) \- Перетворення на рядок

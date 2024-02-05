@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sem-get.md: « semget
-  - function.sem-remove.md: semremove »
+  - function.sem-get.md: « sem\_get
+  - function.sem-remove.md: sem\_remove »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
-title: semrelease
+title: sem\_release
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# semrelease
+# sem\_release
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-semrelease - Звільнення семафору
+sem\_release - Звільнення семафору
 
 ### Опис
 
@@ -18,27 +19,27 @@ semrelease - Звільнення семафору
 sem_release(SysvSemaphore $semaphore): bool
 ```
 
-**semrelease()** звільняє семафор, якщо він був захоплений зухвалим процесом, інакше генерується попередження.
+**sem\_release()** звільняє семафор, якщо він був захоплений зухвалим процесом, інакше генерується попередження.
 
-Після звільнення семафор може бути захоплений повторно через виклик [semacquire()](function.sem-acquire.md)
+Після звільнення семафор може бути захоплений повторно через виклик [sem\_acquire()](function.sem-acquire.md)
 
 ### Список параметрів
 
 `semaphore`
 
-Семафор, повернутий [semget()](function.sem-get.md)
+Семафор, повернутий [sem\_get()](function.sem-get.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | Параметр`semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [semget()](function.sem-get.md) - Отримання ідентифікатора семафору
--   [semacquire()](function.sem-acquire.md) - Захоплення семафору
+-   [sem\_get()](function.sem-get.md) \- Отримання ідентифікатора семафору
+-   [sem\_acquire()](function.sem-acquire.md) \- Захоплення семафору

@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-sync.notify.md: '« parallelSync::notify'
+  - parallel-sync.notify.md: '« parallel\\Sync::notify'
   - book.pthreads.md: pthreads »
   - index.md: PHP Manual
-  - class.parallel-sync.md: parallelSync
-title: 'parallelSync::invoke'
+  - class.parallel-sync.md: parallel\\Sync
+title: 'parallel\\Sync::\_\_invoke'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelSync::invoke
+# parallel\\Sync::\_\_invoke
 
-parallelSync::invoke — Синхронізація
+(1.1.0)
+
+parallel\\Sync::\_\_invoke — Синхронізація
 
 ### Опис
 

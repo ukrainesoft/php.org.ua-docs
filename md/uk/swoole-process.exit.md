@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-process.exec.md: '« SwooleProcess::exec'
-  - swoole-process.freequeue.md: 'SwooleProcess::freeQueue »'
+  - swoole-process.exec.md: '« Swoole\\Process::exec'
+  - swoole-process.freequeue.md: 'Swoole\\Process::freeQueue »'
   - index.md: PHP Manual
-  - class.swoole-process.md: SwooleProcess
-title: 'SwooleProcess::exit'
+  - class.swoole-process.md: Swoole\\Process
+title: 'Swoole\\Process::exit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleProcess::exit
+# Swoole\\Process::exit
 
 (PECL swoole >= 1.9.0)
 
-SwooleProcess::exit - Зупиняє дочірні процеси
+Swoole\\Process::exit - Зупиняє дочірні процеси
 
 ### Опис
 

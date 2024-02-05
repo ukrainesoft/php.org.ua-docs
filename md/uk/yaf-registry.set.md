@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-registry.has.md: '« YafRegistry::has'
-  - class.yaf-request-abstract.md: YafRequestAbstract »
+  - yaf-registry.has.md: '« Yaf\_Registry::has'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract »
   - index.md: PHP Manual
-  - class.yaf-registry.md: YafRegistry
-title: 'YafRegistry::set'
+  - class.yaf-registry.md: Yaf\_Registry
+title: 'Yaf\_Registry::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRegistry::set
+# Yaf\_Registry::set
 
 (Yaf >=1.0.0)
 
-YafRegistry::set — Додає елемент до реєстру
+Yaf\_Registry::set — Додає елемент до реєстру
 
 ### Опис
 

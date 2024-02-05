@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::toArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrInputDocument::toArray
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrInputDocument::toArray — Повертає подання масиву вхідного документа
 
@@ -26,4 +27,4 @@ public SolrInputDocument::toArray(): array
 
 ### Значення, що повертаються
 
-Повертає масив, що містить поля. Повертає **`false`** у разі виникнення помилки.
+Повертає масив, що містить поля. Повертає \*\*`false`\*\*в случае возникновения ошибки.

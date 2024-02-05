@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.ps-symbol-name.md: «pssymbolname
-  - function.ps-symbol.md: псsymbol »
+  - function.ps-symbol-name.md: « ps\_symbol\_name
+  - function.ps-symbol.md: ps\_symbol »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псsymbolwidth
+title: ps\_symbol\_width
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псsymbolwidth
+# ps\_symbol\_width
 
 (PECL ps >= 1.2.0)
 
-псsymbolwidth — Отримує ширину гліфа
+ps\_symbol\_width — Отримує ширину гліфа
 
 ### Опис
 
 ```methodsynopsis
-ps_symbol_width(    resource $psdoc,    int $ord,    int $fontid = 0,    float $size = 0.0): float
+ps_symbol_width(    resource $psdoc,    int $ord,    int $fontid = 0,    float $size = 0.0): float
 ```
 
-Обчислює ширину гліфа в точках, якщо він був виведений із заданим шрифтом та розміром шрифту. Функції потрібен файл метрик шрифтів Adobe для розрахунку точної ширини.
+Обчислює ширину гліфа в точках, якщо він був виведений із заданим шрифтом та розміром шрифту. Функції потрібен файл метрик шрифтів Adobe для точної ширини.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 `ord`
 
@@ -44,5 +45,5 @@ ps_symbol_width(    resource $psdoc,    int $ord,    int $fontid = 0,    float $
 
 ### Дивіться також
 
--   [псsymbol()](function.ps-symbol.md) - Виводить гліф
--   [псsymbolname()](function.ps-symbol-name.md) - Отримує ім'я гліфа
+-   [ps\_symbol()](function.ps-symbol.md) \- Виводить гліф
+-   [ps\_symbol\_name()](function.ps-symbol-name.md) \- Отримує ім'я гліфа

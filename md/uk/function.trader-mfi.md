@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-medprice.md: « tradermedprice
-  - function.trader-midpoint.md: tradermidpoint »
+  - function.trader-medprice.md: « trader\_medprice
+  - function.trader-midpoint.md: trader\_midpoint »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermfi
+  - ref.trader.md: Функції Trader
+title: trader\_mfi
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermfi
+# trader\_mfi
 
 (PECL trader >= 0.2.0)
 
-tradermfi - Індекс грошових потоків
+trader\_mfi - Індекс грошових потоків
 
 ### Опис
 
 ```methodsynopsis
-trader_mfi(    array $high,    array $low,    array $close,    array $volume,    int $timePeriod = ?): array
+trader_mfi(    array $high,    array $low,    array $close,    array $volume,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

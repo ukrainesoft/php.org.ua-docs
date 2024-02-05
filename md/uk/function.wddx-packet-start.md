@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.wddx-packet-end.md: « wddxpacketend
-  - function.wddx-serialize-value.md: wddxserializevalue »
+  - function.wddx-packet-end.md: « wddx\_packet\_end
+  - function.wddx-serialize-value.md: wddx\_serialize\_value »
   - index.md: PHP Manual
   - ref.wddx.md: Функції WDDX
-title: wddxpacketstart
+title: wddx\_packet\_start
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# wddxpacketstart
+# wddx\_packet\_start
 
 (PHP 4, PHP 5, PHP 7)
 
-wddxpacketstart — Запуск нового пакета WDDX зі структурою всередині нього
+wddx\_packet\_start — Запуск нового пакета WDDX зі структурою всередині нього
 
 **Увага**
 
@@ -32,4 +33,4 @@ wddx_packet_start(string $comment = ?): resource
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор пакета для використання у наступних функціях або **`false`** у разі виникнення помилки.
+Возвращает идентификатор пакета для использования в последующих функциях или\*\*`false`\*\*в случае возникновения ошибки.

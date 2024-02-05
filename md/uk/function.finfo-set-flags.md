@@ -1,18 +1,19 @@
 ---
 navigation:
-  - function.finfo-open.md: « finfoopen
-  - function.mime-content-type.md: mimecontenttype »
+  - function.finfo-open.md: « finfo\_open
+  - function.mime-content-type.md: mime\_content\_type »
   - index.md: PHP Manual
-  - ref.fileinfo.md: Функции модуля Fileinfo
-title: finfosetflags
+  - ref.fileinfo.md: Функції модуля Fileinfo
+title: finfo\_set\_flags
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# finfosetflags
+# finfo\_set\_flags
 
-# finfo::setflags
+# finfo::set\_flags
 
 (PHP >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-finfosetflags -- finfo::setflags — Встановлює параметри конфігурації libmagic
+finfo\_set\_flags -- finfo::set\_flags — Встановлює параметри конфігурації libmagic
 
 ### Опис
 
@@ -28,13 +29,13 @@ finfo_set_flags(finfo $finfo, int $flags): bool
 public finfo::set_flags(int $flags): bool
 ```
 
-Функція встановлює різні параметри FileInfo. Опції також можуть бути встановлені безпосередньо в [finfoopen()](function.finfo-open.md) або інших функцій Fileinfo.
+Функція встановлює різні параметри FileInfo. Опції також можуть бути встановлені безпосередньо в [finfo\_open()](function.finfo-open.md) або інших функцій Fileinfo.
 
 ### Список параметрів
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.md)
+Екземпляр [finfo](class.finfo.md), що повертається функцією [finfo\_open()](function.finfo-open.md)
 
 `flags`
 
@@ -42,10 +43,10 @@ public finfo::set_flags(int $flags): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collection.getname.md: '« Collection::getName'
   - mysql-xdevapi-collection.getschema.md: 'Collection::getSchema »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
 title: 'Collection::getOne'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collection::getOne
 
@@ -26,15 +27,15 @@ public mysql_xdevapi\Collection::getOne(string $id): Document
 
 `id`
 
-id документа в колекції.
+\_id документа в колекції.
 
 ### Значення, що повертаються
 
-Об'єкт колекції або **`null`**, якщо id відповідає документу.
+Об'єкт колекції або **`null`**, якщо \_id відповідає документу.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::getOne()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::getOne()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ print_r($collection->getOne($alfreds_id));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 00005b6b536100000000000000b1

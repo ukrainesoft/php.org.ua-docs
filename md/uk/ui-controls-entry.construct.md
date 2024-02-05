@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.ui-controls-entry.md: « UIControlsEntry
-  - ui-controls-entry.gettext.md: 'ОЙControlsEntry::getText »'
+  - class.ui-controls-entry.md: « UI\\Controls\\Entry
+  - ui-controls-entry.gettext.md: 'UI\\Controls\\Entry::getText »'
   - index.md: PHP Manual
-  - class.ui-controls-entry.md: ОЙControlsEntry
-title: 'ОЙControlsEntry::construct'
+  - class.ui-controls-entry.md: UI\\Controls\\Entry
+title: 'UI\\Controls\\Entry::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsEntry::construct
+# UI\\Controls\\Entry::\_\_construct
 
 (UI 0.9.9)
 
-ОЙControlsEntry::construct — Створити новий об'єкт Entry
+UI\\Controls\\Entry::\_\_construct — Створити новий об'єкт Entry
 
 ### Опис
 
-public **ОЙControlsEntry::construct**(int `$type` = UIControlsEntry::Normal)
+public**UI\\Controls\\Entry::\_\_construct**(int`$type`\= UI\\Controls\\Entry::Normal)
 
 Створити новий елемент керування "Введення" заданого типу
 

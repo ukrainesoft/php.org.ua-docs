@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.messageformatter.md: MessageFormatter
 title: 'MessageFormatter::parseMessage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # MessageFormatter::parseMessage
 
-# msgfmtparsemessage
+# msgfmt\_parse\_message
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-MessageFormatter::parseMessage -- msgfmtparsemessage — Швидко розбирає вхідний рядок
+MessageFormatter::parseMessage -- msgfmt\_parse\_message — Швидко розбирає вхідний рядок
 
 ### Опис
 
@@ -38,7 +39,7 @@ msgfmt_parse_message(string $locale, string $pattern, string $message): array|fa
 
 `pattern`
 
-Шаблон, що використовується для аналізу `message`
+Шаблон, использующийся для разбора`message`
 
 `message`
 
@@ -46,11 +47,11 @@ msgfmt_parse_message(string $locale, string $pattern, string $message): array|fa
 
 ### Значення, що повертаються
 
-Масив (array), що містить вилучені елементи або **`false`** у разі виникнення помилки.
+Масив (array), що містить вилучені елементи або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **msgfmtparsemessage()****
+**Пример #1 Пример использования**msgfmt\_parse\_message()\*\*\*\*
 
 ```php
 <?php
@@ -78,7 +79,7 @@ var_export($fmt);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array (
@@ -95,6 +96,6 @@ array (
 
 ### Дивіться також
 
--   [msgfmtcreate()](messageformatter.create.md) - Створює засіб форматування повідомлень
--   [msgfmtformatmessage()](messageformatter.formatmessage.md) - Швидко форматує повідомлення
--   [msgfmtparse()](messageformatter.parse.md) - Розбирає рядок згідно шаблону
+-   [msgfmt\_create()](messageformatter.create.md) \- Створює засіб форматування повідомлень
+-   [msgfmt\_format\_message()](messageformatter.formatmessage.md) \- Швидко форматує повідомлення
+-   [msgfmt\_parse()](messageformatter.parse.md) \- Розбирає рядок згідно шаблону

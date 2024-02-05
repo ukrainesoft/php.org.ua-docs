@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - xml.examples.md: Приклади
 title: Приклад відображення тегів XML
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Приклад відображення тегів XML
 

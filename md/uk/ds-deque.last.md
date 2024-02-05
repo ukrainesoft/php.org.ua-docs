@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.jsonserialize.md: '« DsDeque::jsonSerialize'
-  - ds-deque.map.md: 'ДсDeque::map »'
+  - ds-deque.jsonserialize.md: '« Ds\\Deque::jsonSerialize'
+  - ds-deque.map.md: 'Ds\\Deque::map »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::last'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::last'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::last
+# Ds\\Deque::last
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::last — Повертає останнє значення двосторонньої черги
+Ds\\Deque::last — Повертає останнє значення двосторонньої черги
 
 ### Опис
 
@@ -30,11 +31,11 @@ public Ds\Deque::last(): mixed
 
 ### Помилки
 
-Викидає виняток [UnderflowException](class.underflowexception.md)якщо двостороння черга порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md), якщо двостороння черга порожня.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::last()****
+**Пример #1 Пример использования**Ds\\Deque::last()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($deque->last());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(3)

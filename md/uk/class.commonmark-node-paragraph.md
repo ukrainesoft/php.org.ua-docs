@@ -1,12 +1,13 @@
 ---
 navigation:
-  - commonmark-node-heading.construct.md: '« CommonMarkNodeHeading::construct'
-  - class.commonmark-node-blockquote.md: CommonMarkNodeBlockQuote »
+  - commonmark-node-heading.construct.md: '« CommonMark\\Node\\Heading::\_\_construct'
+  - class.commonmark-node-blockquote.md: CommonMark\\Node\\BlockQuote »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: Paragraph успадковує CommonMarkNode
+title: Paragraph успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Paragraph успадковує CommonMarkNode
+# Paragraph успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 

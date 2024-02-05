@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getHighlightRequireFieldMatch'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getHighlightRequireFieldMatch
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::getHighlightRequireFieldMatch — Повертає, якщо поле буде виділено лише в тому випадку, якщо запит відповідає цьому конкретному полю
 

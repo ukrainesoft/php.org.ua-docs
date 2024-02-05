@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gnupg-geterror.md: « gnupggeterror
-  - function.gnupg-getprotocol.md: gnupggetprotocol »
+  - function.gnupg-geterror.md: « gnupg\_geterror
+  - function.gnupg-getprotocol.md: gnupg\_getprotocol »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupggeterrorinfo
+title: gnupg\_geterrorinfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupggeterrorinfo
+# gnupg\_geterrorinfo
 
 (PECL gnupg >= 1.5)
 
-gnupggeterrorinfo — Повертає інформацію про помилку
+gnupg\_geterrorinfo — Повертає інформацію про помилку
 
 ### Опис
 
@@ -22,7 +23,7 @@ gnupg_geterrorinfo(resource $identifier): array
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 ### Значення, що повертаються
 
@@ -30,7 +31,7 @@ gnupg_geterrorinfo(resource $identifier): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupggeterrorinfo()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_geterrorinfo()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ print_r(gnupg_geterrorinfo($res));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(4) {
@@ -55,7 +56,7 @@ array(4) {
 }
 ```
 
-**Приклад #2 Приклад використання **gnupggeterrorinfo()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_geterrorinfo()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ print_r($gpg->geterrorinfo());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(4) {

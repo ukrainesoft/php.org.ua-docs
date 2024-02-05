@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.uopz-flags.md: « uopzflags
-  - function.uopz-get-exit-status.md: uopzgetexitstatus »
+  - function.uopz-flags.md: « uopz\_flags
+  - function.uopz-get-exit-status.md: uopz\_get\_exit\_status »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzfunction
+title: uopz\_function
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzfunction
+# uopz\_function
 
 (PECL uopz 1, PECL uopz 2)
 
-uopzfunction — Створює функцію під час виконання
+uopz\_function — Створює функцію під час виконання
 
 **Увага**
 
-Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО*в PECL uopz 5.0.0.
 
 ### Опис
 
@@ -23,7 +24,7 @@ uopz_function(string $function, Closure $handler, int $modifiers = ?): void
 ```
 
 ```methodsynopsis
-uopz_function(    string $class,    string $function,    Closure $handler,    int $modifiers = ?): void
+uopz_function(    string $class,    string $function,    Closure $handler,    int $modifiers = ?): void
 ```
 
 Створює функцію під час виконання
@@ -40,17 +41,17 @@ uopz_function(    string $class,    string $function,    Closure $handler,    in
 
 `handler`
 
-Замикання функції
+Замикання для функції
 
 `modifiers`
 
-Модифікатори для функції, скопійовані за замовчуванням або ZENDACCPUBLIC
+Модифікатори для функції, скопійовані за замовчуванням або ZEND\_ACC\_PUBLIC
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzfunction()****
+**Пример #1 Пример использования**uopz\_function()\*\*\*\*
 
 ```php
 <?php
@@ -61,13 +62,13 @@ echo my_strlen("Привет, Мир");
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 11
 ```
 
-**Приклад #2 Приклад використання **uopzfunction()** з класом**
+**Пример #2 Пример использования**uopz\_function()\*\* з класом\*\*
 
 ```php
 <?php
@@ -81,7 +82,7 @@ echo My::strlen("Привет, Мир");
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 11

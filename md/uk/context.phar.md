@@ -1,14 +1,15 @@
 ---
 navigation:
-  - context.curl.md: « Опции контекста CURL
+  - context.ssl.md: « Опції контексту SSL
   - context.params.md: Параметри контексту »
   - index.md: PHP Manual
   - context.md: Контекстні опції та параметри
 title: Контекстні опції Phar
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Контекстні опції Phar
 
-Контекстні опції Phar - Список контекстних опцій Phar
+Контекстні опції Phar — Список контекстних опцій Phar
 
 ### Опис
 
@@ -16,9 +17,9 @@ title: Контекстні опції Phar
 
 ### Опції
 
-`compress` int
+`compress`int
 
-Одна з [констант сжатия Phar](phar.constants.md#phar.constants.compression)
+Одна из[констант стиску Phar](phar.constants.md#phar.constants.compression)
 
 `metadata` [mixed](language.types.declarations.md#language.types.declarations.mixed)
 

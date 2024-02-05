@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getHighlightMaxAnalyzedChars'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getHighlightMaxAnalyzedChars
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::getHighlightMaxAnalyzedChars — Повертає максимальну кількість символів у документі для пошуку відповідних фрагментів
 

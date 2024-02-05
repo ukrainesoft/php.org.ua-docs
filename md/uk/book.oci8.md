@@ -1,14 +1,15 @@
 ---
 navigation:
-  - mysqlnd.plugin.developing.md: « Начинаем разработку плагина mysqlnd
-  - intro.oci8.md: Введение »
+  - mysqlnd.plugin.developing.md: « Починаємо розробку плагіна mysqlnd
+  - intro.oci8.md: Вступ "
   - index.md: PHP Manual
   - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
 title: Oracle OCI8
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Oracle OCI8
 
--   [Введение](intro.oci8.md)
+-   [Вступ](intro.oci8.md)
 -   [Встановлення та налаштування](oci8.setup.md)
     -   [Вимоги](oci8.requirements.md)
     -   [Установка](oci8.installation.md)
@@ -16,144 +17,144 @@ title: Oracle OCI8
     -   [Налаштування під час виконання](oci8.configuration.md)
 -   [Обумовлені константи](oci8.constants.md)
 -   [Приклади](oci8.examples.md)
--   [Работа с соединениями OCI8 и Connection Pooling](oci8.connection.md)
--   [Поддержка OCI8 Fast Application Notification (FAN)](oci8.fan.md)
--   [Поддержка прозрачного для приложений восстановления после отказа (Transparent Application Failover или TAF) для OCI8](oci8.taf.md)
+-   [Робота зі з'єднаннями OCI8 та Connection Pooling](oci8.connection.md)
+-   [Підтримка OCI8 Fast Application Notification (FAN)](oci8.fan.md)
+-   [Підтримка прозорого для програм відновлення після відмови (Transparent Application Failover або TAF) для OCI8](oci8.taf.md)
 -   [OCI8 та динамічне трасування DTrace](oci8.dtrace.md)
 -   [Типи даних, що підтримуються](oci8.datatypes.md)
--   [OCI8 Функции](ref.oci8.md)
-    -   [ocibindarrayбname](function.oci-bind-array-by-name.md) - Пов'язує PHP масив з масивом Oracle PL/SQL
-    -   [ocibindбname](function.oci-bind-by-name.md) — Прикріплює змінну PHP до відповідної мітки у SQL-вираженні
-    -   [ocicancel](function.oci-cancel.md) - Закінчує процес читання з курсору
-    -   [ociclientversion](function.oci-client-version.md) — Повертає версію клієнтської бібліотеки
-    -   [ociclose](function.oci-close.md) — Закриває з'єднання із сервером Oracle
-    -   [ocicommit](function.oci-commit.md) - Підтверджує транзакцію бази даних
-    -   [ociconnect](function.oci-connect.md) — Встановлює з'єднання з базою даних Oracle
-    -   [ocidefineбname](function.oci-define-by-name.md) — Порівнює змінну PHP стовпцю результату запиту
-    -   [ocierror](function.oci-error.md) — Повертає останню помилку
-    -   [ociexecute](function.oci-execute.md) — Виконує підготовлений вираз
-    -   [ocifetchall](function.oci-fetch-all.md) — Вибирає всі рядки із результату запиту до двомірного масиву.
-    -   [ocifetcharray](function.oci-fetch-array.md) — Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
-    -   [ocifetchassoc](function.oci-fetch-assoc.md) — Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
-    -   [ocifetchobject](function.oci-fetch-object.md) — Повертає наступний рядок із результату запиту у вигляді об'єкта
-    -   [ocifetchrow](function.oci-fetch-row.md) — Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
-    -   [ocifetch](function.oci-fetch.md) — Вибирає наступний рядок із результату до буфера
-    -   [ocifieldісnull](function.oci-field-is-null.md) — Перевіряє, чи поле в поточному отриманому ряду дорівнює null
-    -   [ocifieldname](function.oci-field-name.md) — Повертає ім'я поля із результату запиту
-    -   [ocifieldprecision](function.oci-field-precision.md) — Повертає точність поля
-    -   [ocifieldscale](function.oci-field-scale.md) — Повертає масштаб поля
-    -   [ocifieldsize](function.oci-field-size.md) — Повертає розмір поля
-    -   [ocifieldtyperaw](function.oci-field-type-raw.md) — Повертає вихідний тип поля Oracle
-    -   [ocifieldtype](function.oci-field-type.md) - Повертає ім'я типу поля
-    -   [ocifreedescriptor](function.oci-free-descriptor.md) - Звільняє дескриптор
-    -   [ocifreestatement](function.oci-free-statement.md) — Звільняє ресурси, які займає курсор або SQL-вираз.
-    -   [ocigetimplicitresultset](function.oci-get-implicit-resultset.md) — Повертає наступний ресурс дочірнього запиту з батьківського запиту, що має неявні результуючі набори Oracle Database
-    -   [ocilobcopy](function.oci-lob-copy.md) - Копіює об'єкт LOB
-    -   [ocilobісequal](function.oci-lob-is-equal.md) — Порівнює два об'єкти LOB/FILE
-    -   [ocinewcollection](function.oci-new-collection.md) — Створює новий об'єкт колекції
-    -   [ocinewconnect](function.oci-new-connect.md) — Встановлює нове з'єднання із сервером Oracle
-    -   [ocinewcursor](function.oci-new-cursor.md) - Повертає ідентифікатор створеного курсору
-    -   [ocinewdescriptor](function.oci-new-descriptor.md) - Ініціалізує новий дескриптор об'єкта LOB або FILE
-    -   [ocinumfields](function.oci-num-fields.md) — Повертає кількість полів через запит
-    -   [ocinumrows](function.oci-num-rows.md) — Повертає кількість рядків, змінених у процесі виконання запиту
-    -   [ociparse](function.oci-parse.md) — готує запит до виконання
-    -   [ocipasswordchange](function.oci-password-change.md) — Змінює пароль користувача Oracle
-    -   [ocipconnect](function.oci-pconnect.md) — Встановлює постійне з'єднання із сервером Oracle
-    -   [ociregistertafcallback](function.oci-register-taf-callback.md) — Реєструє функцію зворотного виклику для Oracle Database TAF
-    -   [ociresult](function.oci-result.md) — Повертає значення поля із результату запиту
-    -   [ocirollback](function.oci-rollback.md) — Відкочує транзакції, які очікують на обробку
-    -   [ociserverversion](function.oci-server-version.md) — Повертає версію сервера Oracle
-    -   [ocisetaction](function.oci-set-action.md) — Вказує ім'я для дії
-    -   [ocisetcalltimeout](function.oci-set-call-timout.md) — Встановлює час очікування у мілісекундах для викликів бази даних
-    -   [ocisetclientidentifier](function.oci-set-client-identifier.md) - Задає ідентифікатор клієнта
-    -   [ocisetclientinfo](function.oci-set-client-info.md) - Задає інформацію про клієнта
-    -   [ocisetдбoperation](function.oci-set-db-operation.md) — Задає операцію бази даних
-    -   [ocisetedition](function.oci-set-edition.md) - Задає випуск (edition) бази даних
-    -   [ocisetmodulename](function.oci-set-module-name.md) - Задає ім'я модулю
-    -   [ocisetprefetchlob](function.oci-set-prefetch-lob.md) — Встановлює обсяг даних, що попередньо вибираються для кожного CLOB або BLOB
-    -   [ocisetprefetch](function.oci-set-prefetch.md) — Встановлює кількість рядків, які будуть автоматично вибрані в буфер
-    -   [ocistatementtype](function.oci-statement-type.md) — Повертає тип виразу
-    -   [ociunregistertafcallback](function.oci-unregister-taf-callback.md) — Видалити реєстрацію користувача callback-функції для Oracle Database TAF
--   [OCICollection](class.ocicollection.md) - Клас OCICollection
-    -   [OCICollection::append](ocicollection.append.md) — Додає елемент у колекцію
-    -   [OCICollection::assign](ocicollection.assign.md) — Надає колекції значення іншої, вже існуючої колекції
-    -   [OCICollection::assignElem](ocicollection.assignelem.md) — Надає значення елементу колекції
-    -   [OCICollection::free](ocicollection.free.md) — Звільняє ресурси, які займає об'єкт колекції.
-    -   [OCICollection::getElem](ocicollection.getelem.md) — Повертає значення елемента
-    -   [OCICollection::max](ocicollection.max.md) — Повертає максимальну кількість елементів у колекції
-    -   [OCICollection::size](ocicollection.size.md) — Повертає кількість елементів у колекції
-    -   [OCICollection::trim](ocicollection.trim.md) — Відсікає елементи з кінця колекції
--   [OCILob](class.ocilob.md) - Клас OCILob
-    -   [OCILob::append](ocilob.append.md) — Додає дані з об'єкта LOB до кінця іншого об'єкта
-    -   [OCILob::close](ocilob.close.md) - Закриває дескриптор об'єкта LOB
-    -   [OCILob::eof](ocilob.eof.md) — Перевіряє, чи вказівник LOB знаходиться на кінці об'єкта.
-    -   [OCILob::erase](ocilob.erase.md) — Очищає вказану частину об'єкта LOB
-    -   [OCILob::export](ocilob.export.md) — Зберігає вміст об'єкта LOB у файл
-    -   [OCILob::flush](ocilob.flush.md) — Очищає та записує буфер об'єкта LOB на сервер
-    -   [OCILob::free](ocilob.free.md) - Звільняє ресурси, пов'язані з дескриптором LOB
-    -   [OCILob::getBuffering](ocilob.getbuffering.md) — Повертає поточний стан буферизації великого об'єкта (LOB)
-    -   [OCILob::import](ocilob.import.md) — Записує вміст файлу на об'єкт LOB
-    -   [OCILob::load](ocilob.load.md) — Повертає вміст LOB
-    -   [OCILob::read](ocilob.read.md) — Повертає частину об'єкта LOB
-    -   [OCILob::rewind](ocilob.rewind.md) — Переводить вказівник об'єкта на початок великого об'єкта
-    -   [OCILob::save](ocilob.save.md) - Зберігає дані в LOB
-    -   [OCILob::saveFile](ocilob.savefile.md) - Псевдонім OCILob::import
-    -   [OCILob::seek](ocilob.seek.md) — Встановлює позицію внутрішнього покажчика LOB
-    -   [OCILob::setBuffering](ocilob.setbuffering.md) — Змінює поточний стан буферизації великого об'єкта (LOB)
-    -   [OCILob::size](ocilob.size.md) — Повертає розмір об'єкта LOB
-    -   [OCILob::tell](ocilob.tell.md) — Повертає поточну позицію внутрішнього покажчика об'єкта LOB
-    -   [OCILob::truncate](ocilob.truncate.md) - Обрізає великий об'єкт
-    -   [OCILob::write](ocilob.write.md) - Записує дані в об'єкт LOB
-    -   [OCILob::writeTemporary](ocilob.writetemporary.md) — Записує великий тимчасовий об'єкт (LOB)
-    -   [OCILob::writeToFile](ocilob.writetofile.md) - Псевдонім OCILob::export
--   [Устаревшие наименования и функции OCI8](oldaliases.oci8.md)
-    -   [ociinternaldebug](function.oci-internal-debug.md) — Вмикає або вимикає внутрішній висновок налагодження
-    -   [ocibindbyname](function.ocibindbyname.md) — Псевдонім ocibindбname
-    -   [ocicancel](function.ocicancel.md) — Псевдонім ocicancel
-    -   [ocicloselob](function.ocicloselob.md) - Псевдонім OCILob::close
-    -   [ocicollappend](function.ocicollappend.md) - Псевдонім OCICollection::append
-    -   [ocicollassign](function.ocicollassign.md) - Псевдонім OCICollection::assign
-    -   [ocicollassignelem](function.ocicollassignelem.md) - Псевдонім OCICollection::assignElem
-    -   [ocicollgetelem](function.ocicollgetelem.md) - Псевдонім OCICollection::getElem
-    -   [ocicollmax](function.ocicollmax.md) - Псевдонім OCICollection::max
-    -   [ocicollsize](function.ocicollsize.md) - Псевдонім OCICollection::size
-    -   [ocicolltrim](function.ocicolltrim.md) - Псевдонім OCICollection::trim
-    -   [ocicolumnisnull](function.ocicolumnisnull.md) — Псевдонім ocifieldісnull
-    -   [ocicolumnname](function.ocicolumnname.md) — Псевдонім ocifieldname
-    -   [ocicolumnprecision](function.ocicolumnprecision.md) — Псевдонім ocifieldprecision
-    -   [ocicolumnscale](function.ocicolumnscale.md) — Псевдонім ocifieldscale
-    -   [ocicolumnsize](function.ocicolumnsize.md) — Псевдонім ocifieldsize
-    -   [ocicolumntype](function.ocicolumntype.md) — Псевдонім ocifieldtype
-    -   [ocicolumntyperaw](function.ocicolumntyperaw.md) — Псевдонім ocifieldtyperaw
-    -   [ocicommit](function.ocicommit.md) — Псевдонім ocicommit
-    -   [ocidefinebyname](function.ocidefinebyname.md) — Псевдонім ocidefineбname
-    -   [ocierror](function.ocierror.md) — Псевдонім ocierror
-    -   [ociexecute](function.ociexecute.md) — Псевдонім ociexecute
-    -   [ocifetch](function.ocifetch.md) — Псевдонім ocifetch
-    -   [ocifetchinto](function.ocifetchinto.md) — Застарілий варіант функцій ocifetcharray, ocifetchobject, ocifetchassoc та ocifetchrow
-    -   [ocifetchstatement](function.ocifetchstatement.md) — Псевдонім ocifetchall
-    -   [ocifreecollection](function.ocifreecollection.md) - Псевдонім OCICollection::free
-    -   [ocifreecursor](function.ocifreecursor.md) — Псевдонім ocifreestatement
-    -   [ocifreedesc](function.ocifreedesc.md) - Псевдонім OCILob::free
-    -   [ocifreestatement](function.ocifreestatement.md) — Псевдонім ocifreestatement
-    -   [ociinternaldebug](function.ociinternaldebug.md) — Псевдонім ociinternaldebug
-    -   [ociloadlob](function.ociloadlob.md) - Псевдонім OCILob::load
-    -   [ocilogoff](function.ocilogoff.md) — Псевдонім ociclose
-    -   [ocilogon](function.ocilogon.md) — Псевдонім ociconnect
-    -   [ocinewcollection](function.ocinewcollection.md) — Псевдонім ocinewcollection
-    -   [ocinewcursor](function.ocinewcursor.md) — Псевдонім ocinewcursor
-    -   [ocinewdescriptor](function.ocinewdescriptor.md) — Псевдонім ocinewdescriptor
-    -   [ocinlogon](function.ocinlogon.md) — Псевдонім ocinewconnect
-    -   [ocinumcols](function.ocinumcols.md) — Псевдонім ocinumfields
-    -   [ociparse](function.ociparse.md) — Псевдонім ociparse
-    -   [ociplogon](function.ociplogon.md) — Псевдонім ocipconnect
-    -   [ociresult](function.ociresult.md) — Псевдонім ociresult
-    -   [ocirollback](function.ocirollback.md) — Псевдонім ocirollback
-    -   [ocirowcount](function.ocirowcount.md) — Псевдонім ocinumrows
-    -   [ocisavelob](function.ocisavelob.md) - Псевдонім OCILob::save
-    -   [ocisavelobfile](function.ocisavelobfile.md) - Псевдонім OCILob::import
-    -   [ociserverversion](function.ociserverversion.md) — Псевдонім ociserverversion
-    -   [ocisetprefetch](function.ocisetprefetch.md) — Псевдонім ocisetprefetch
-    -   [ocistatementtype](function.ocistatementtype.md) — Псевдонім ocistatementtype
-    -   [ociwritelobtofile](function.ociwritelobtofile.md) - Псевдонім OCILob::export
-    -   [ociwritetemporarylob](function.ociwritetemporarylob.md) - Псевдонім OCILob::writeTemporary
+-   [OCI8 Функції](ref.oci8.md)
+    -   [oci\_bind\_array\_by\_name](function.oci-bind-array-by-name.md)— Пов'язує PHP масив з масивом Oracle PL/SQL
+    -   [oci\_bind\_by\_name](function.oci-bind-by-name.md)— Прикріплює змінну PHP до відповідної мітки у SQL-вираженні
+    -   [oci\_cancel](function.oci-cancel.md) \- Закінчує процес читання з курсору
+    -   [oci\_client\_version](function.oci-client-version.md)— Повертає версію клієнтської бібліотеки
+    -   [oci\_close](function.oci-close.md)— Закриває з'єднання із сервером Oracle
+    -   [oci\_commit](function.oci-commit.md) \- Підтверджує транзакцію бази даних
+    -   [oci\_connect](function.oci-connect.md)— Встановлює з'єднання з базою даних Oracle
+    -   [oci\_define\_by\_name](function.oci-define-by-name.md)— Порівнює змінну PHP стовпцю результату запиту
+    -   [oci\_error](function.oci-error.md)— Повертає останню помилку
+    -   [oci\_execute](function.oci-execute.md)— Виконує підготовлений вираз
+    -   [oci\_fetch\_all](function.oci-fetch-all.md)— Вибирає всі рядки з результату запиту до двовимірного масиву
+    -   [oci\_fetch\_array](function.oci-fetch-array.md)— Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
+    -   [oci\_fetch\_assoc](function.oci-fetch-assoc.md)— Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
+    -   [oci\_fetch\_object](function.oci-fetch-object.md)— Повертає наступний рядок із результату запиту у вигляді об'єкта
+    -   [oci\_fetch\_row](function.oci-fetch-row.md)— Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
+    -   [oci\_fetch](function.oci-fetch.md)— Вибирає наступний рядок із результату до буфера
+    -   [oci\_field\_is\_null](function.oci-field-is-null.md)— Перевіряє, чи поле в поточному отриманому ряду дорівнює null
+    -   [oci\_field\_name](function.oci-field-name.md)— Повертає ім'я поля із результату запиту
+    -   [oci\_field\_precision](function.oci-field-precision.md)— Повертає точність поля
+    -   [oci\_field\_scale](function.oci-field-scale.md)— Повертає масштаб поля
+    -   [oci\_field\_size](function.oci-field-size.md)— Повертає розмір поля
+    -   [oci\_field\_type\_raw](function.oci-field-type-raw.md)— Повертає вихідний тип поля Oracle
+    -   [oci\_field\_type](function.oci-field-type.md) \- Повертає ім'я типу поля
+    -   [oci\_free\_descriptor](function.oci-free-descriptor.md) \- Звільняє дескриптор
+    -   [oci\_free\_statement](function.oci-free-statement.md)— Звільняє ресурси, які займає курсор або SQL-вираз.
+    -   [oci\_get\_implicit\_resultset](function.oci-get-implicit-resultset.md)— Повертає наступний ресурс дочірнього запиту з батьківського запиту, що має неявні результуючі набори Oracle Database
+    -   [oci\_lob\_copy](function.oci-lob-copy.md) \- Копіює об'єкт LOB
+    -   [oci\_lob\_is\_equal](function.oci-lob-is-equal.md)— Порівнює два об'єкти LOB/FILE
+    -   [oci\_new\_collection](function.oci-new-collection.md)— Створює новий об'єкт колекції
+    -   [oci\_new\_connect](function.oci-new-connect.md)— Встановлює нове з'єднання із сервером Oracle
+    -   [oci\_new\_cursor](function.oci-new-cursor.md)— Повертає ідентифікатор створеного курсору
+    -   [oci\_new\_descriptor](function.oci-new-descriptor.md) \- Ініціалізує новий дескриптор об'єкта LOB або FILE
+    -   [oci\_num\_fields](function.oci-num-fields.md)— Повертає кількість полів через запит
+    -   [oci\_num\_rows](function.oci-num-rows.md)— Повертає кількість рядків, змінених у процесі виконання запиту
+    -   [oci\_parse](function.oci-parse.md)— готує запит до виконання
+    -   [oci\_password\_change](function.oci-password-change.md)— Змінює пароль користувача Oracle
+    -   [oci\_pconnect](function.oci-pconnect.md)— Встановлює постійне з'єднання із сервером Oracle
+    -   [oci\_register\_taf\_callback](function.oci-register-taf-callback.md)— Реєструє функцію зворотного виклику для Oracle Database TAF
+    -   [oci\_result](function.oci-result.md)— Повертає значення поля із результату запиту
+    -   [oci\_rollback](function.oci-rollback.md)— Відкочує транзакції, які очікують на обробку
+    -   [oci\_server\_version](function.oci-server-version.md)— Повертає версію сервера Oracle
+    -   [oci\_set\_action](function.oci-set-action.md)— Вказує ім'я для дії
+    -   [oci\_set\_call\_timeout](function.oci-set-call-timout.md)— Встановлює час очікування у мілісекундах для викликів бази даних
+    -   [oci\_set\_client\_identifier](function.oci-set-client-identifier.md) \- Задає ідентифікатор клієнта
+    -   [oci\_set\_client\_info](function.oci-set-client-info.md) \- Задає інформацію про клієнта
+    -   [oci\_set\_db\_operation](function.oci-set-db-operation.md)— Задає операцію бази даних
+    -   [oci\_set\_edition](function.oci-set-edition.md) \- Задає випуск (edition) бази даних
+    -   [oci\_set\_module\_name](function.oci-set-module-name.md) \- Задає ім'я модулю
+    -   [oci\_set\_prefetch\_lob](function.oci-set-prefetch-lob.md)— Встановлює обсяг даних, що попередньо вибираються для кожного CLOB або BLOB
+    -   [oci\_set\_prefetch](function.oci-set-prefetch.md)— Встановлює кількість рядків, які будуть автоматично вибрані в буфер
+    -   [oci\_statement\_type](function.oci-statement-type.md)— Повертає тип виразу
+    -   [oci\_unregister\_taf\_callback](function.oci-unregister-taf-callback.md)— Видалити реєстрацію користувача callback-функції для Oracle Database TAF
+-   [OCICollection](class.ocicollection.md) \- Клас OCICollection
+    -   [OCICollection::append](ocicollection.append.md)— Додає елемент у колекцію
+    -   [OCICollection::assign](ocicollection.assign.md)— Надає колекції значення іншої, вже існуючої колекції
+    -   [OCICollection::assignElem](ocicollection.assignelem.md)— Надає значення елементу колекції
+    -   [OCICollection::free](ocicollection.free.md)— Звільняє ресурси, які займає об'єкт колекції.
+    -   [OCICollection::getElem](ocicollection.getelem.md)— Повертає значення елемента
+    -   [OCICollection::max](ocicollection.max.md)— Повертає максимальну кількість елементів у колекції
+    -   [OCICollection::size](ocicollection.size.md)— Повертає кількість елементів у колекції
+    -   [OCICollection::trim](ocicollection.trim.md)— Відсікає елементи з кінця колекції
+-   [OCILob](class.ocilob.md) \- Клас OCILob
+    -   [OCILob::append](ocilob.append.md)— Додає дані з об'єкта LOB до кінця іншого об'єкта
+    -   [OCILob::close](ocilob.close.md) \- Закриває дескриптор об'єкта LOB
+    -   [OCILob::eof](ocilob.eof.md)— Перевіряє, чи вказівник LOB знаходиться на кінці об'єкта.
+    -   [OCILob::erase](ocilob.erase.md)— Очищає вказану частину об'єкта LOB
+    -   [OCILob::export](ocilob.export.md)— Зберігає вміст об'єкта LOB у файл
+    -   [OCILob::flush](ocilob.flush.md)— Очищає та записує буфер об'єкта LOB на сервер
+    -   [OCILob::free](ocilob.free.md) \- Звільняє ресурси, пов'язані з дескриптором LOB
+    -   [OCILob::getBuffering](ocilob.getbuffering.md)— Повертає поточний стан буферизації великого об'єкта (LOB)
+    -   [OCILob::import](ocilob.import.md)— Записує вміст файлу на об'єкт LOB
+    -   [OCILob::load](ocilob.load.md)— Повертає вміст LOB
+    -   [OCILob::read](ocilob.read.md)— Повертає частину об'єкта LOB
+    -   [OCILob::rewind](ocilob.rewind.md)— Переводить вказівник об'єкта на початок великого об'єкта
+    -   [OCILob::save](ocilob.save.md) \- Зберігає дані в LOB
+    -   [OCILob::saveFile](ocilob.savefile.md) \- Псевдонім OCILob::import
+    -   [OCILob::seek](ocilob.seek.md)— Встановлює позицію внутрішнього покажчика LOB
+    -   [OCILob::setBuffering](ocilob.setbuffering.md)— Змінює поточний стан буферизації великого об'єкта (LOB)
+    -   [OCILob::size](ocilob.size.md)— Повертає розмір об'єкта LOB
+    -   [OCILob::tell](ocilob.tell.md)— Повертає поточну позицію внутрішнього покажчика об'єкта LOB
+    -   [OCILob::truncate](ocilob.truncate.md) \- Обрізає великий об'єкт
+    -   [OCILob::write](ocilob.write.md) \- Записує дані в об'єкт LOB
+    -   [OCILob::writeTemporary](ocilob.writetemporary.md)— Записує великий тимчасовий об'єкт (LOB)
+    -   [OCILob::writeToFile](ocilob.writetofile.md) \- Псевдонім OCILob::export
+-   [Застарілі найменування та функції OCI8](oldaliases.oci8.md)
+    -   [oci\_internal\_debug](function.oci-internal-debug.md)— Вмикає або вимикає внутрішній висновок налагодження
+    -   [ocibindbyname](function.ocibindbyname.md)— Псевдонім oci\_bind\_by\_name
+    -   [ocicancel](function.ocicancel.md)— Псевдонім oci\_cancel
+    -   [ocicloselob](function.ocicloselob.md) \- Псевдонім OCILob::close
+    -   [ocicollappend](function.ocicollappend.md) \- Псевдонім OCICollection::append
+    -   [ocicollassign](function.ocicollassign.md) \- Псевдонім OCICollection::assign
+    -   [ocicollassignelem](function.ocicollassignelem.md) \- Псевдонім OCICollection::assignElem
+    -   [ocicollgetelem](function.ocicollgetelem.md) \- Псевдонім OCICollection::getElem
+    -   [ocicollmax](function.ocicollmax.md) \- Псевдонім OCICollection::max
+    -   [ocicollsize](function.ocicollsize.md) \- Псевдонім OCICollection::size
+    -   [ocicolltrim](function.ocicolltrim.md) \- Псевдонім OCICollection::trim
+    -   [ocicolumnisnull](function.ocicolumnisnull.md)— Псевдонім oci\_field\_is\_null
+    -   [ocicolumnname](function.ocicolumnname.md)— Псевдонім oci\_field\_name
+    -   [ocicolumnprecision](function.ocicolumnprecision.md)— Псевдонім oci\_field\_precision
+    -   [ocicolumnscale](function.ocicolumnscale.md)— Псевдонім oci\_field\_scale
+    -   [ocicolumnsize](function.ocicolumnsize.md)— Псевдонім oci\_field\_size
+    -   [ocicolumntype](function.ocicolumntype.md)— Псевдонім oci\_field\_type
+    -   [ocicolumntyperaw](function.ocicolumntyperaw.md)— Псевдонім oci\_field\_type\_raw
+    -   [ocicommit](function.ocicommit.md)— Псевдонім oci\_commit
+    -   [ocidefinebyname](function.ocidefinebyname.md)— Псевдонім oci\_define\_by\_name
+    -   [ocierror](function.ocierror.md)— Псевдонім oci\_error
+    -   [ociexecute](function.ociexecute.md)— Псевдонім oci\_execute
+    -   [ocifetch](function.ocifetch.md)— Псевдонім oci\_fetch
+    -   [ocifetchinto](function.ocifetchinto.md)— Застарілий варіант функцій oci\_fetch\_array, oci\_fetch\_object, oci\_fetch\_assoc та oci\_fetch\_row
+    -   [ocifetchstatement](function.ocifetchstatement.md)— Псевдонім oci\_fetch\_all
+    -   [ocifreecollection](function.ocifreecollection.md) \- Псевдонім OCICollection::free
+    -   [ocifreecursor](function.ocifreecursor.md)— Псевдонім oci\_free\_statement
+    -   [ocifreedesc](function.ocifreedesc.md) \- Псевдонім OCILob::free
+    -   [ocifreestatement](function.ocifreestatement.md)— Псевдонім oci\_free\_statement
+    -   [ociinternaldebug](function.ociinternaldebug.md)— Псевдонім oci\_internal\_debug
+    -   [ociloadlob](function.ociloadlob.md) \- Псевдонім OCILob::load
+    -   [ocilogoff](function.ocilogoff.md)— Псевдонім oci\_close
+    -   [ocilogon](function.ocilogon.md)— Псевдонім oci\_connect
+    -   [ocinewcollection](function.ocinewcollection.md)— Псевдонім oci\_new\_collection
+    -   [ocinewcursor](function.ocinewcursor.md)— Псевдонім oci\_new\_cursor
+    -   [ocinewdescriptor](function.ocinewdescriptor.md)— Псевдонім oci\_new\_descriptor
+    -   [ocinlogon](function.ocinlogon.md)— Псевдонім oci\_new\_connect
+    -   [ocinumcols](function.ocinumcols.md)— Псевдонім oci\_num\_fields
+    -   [ociparse](function.ociparse.md)— Псевдонім oci\_parse
+    -   [ociplogon](function.ociplogon.md)— Псевдонім oci\_pconnect
+    -   [ociresult](function.ociresult.md)— Псевдонім oci\_result
+    -   [ocirollback](function.ocirollback.md)— Псевдонім oci\_rollback
+    -   [ocirowcount](function.ocirowcount.md)— Псевдонім oci\_num\_rows
+    -   [ocisavelob](function.ocisavelob.md) \- Псевдонім OCILob::save
+    -   [ocisavelobfile](function.ocisavelobfile.md) \- Псевдонім OCILob::import
+    -   [ociserverversion](function.ociserverversion.md)— Псевдонім oci\_server\_version
+    -   [ocisetprefetch](function.ocisetprefetch.md)— Псевдонім oci\_set\_prefetch
+    -   [ocistatementtype](function.ocistatementtype.md)— Псевдонім oci\_statement\_type
+    -   [ociwritelobtofile](function.ociwritelobtofile.md) \- Псевдонім OCILob::export
+    -   [ociwritetemporarylob](function.ociwritetemporarylob.md) \- Псевдонім OCILob::writeTemporary

@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::setColorValueQuantum'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::setColorValueQuantum
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >=2.3.0, PECL imagick 3)
 
-ImagickPixel::setColorValueQuantum — Опис
+ImagickPixel::setColorValueQuantum — Встановлює квантове значення колірного елемента ImagickPixel
 
 ### Опис
 
@@ -22,13 +23,13 @@ public ImagickPixel::setColorValueQuantum(int $color, int|float $value): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `color`
 
-Який колірний елемент встановити, наприклад, Imagick::COLORGREEN.
+Який колірний елемент встановити, наприклад, \\Imagick::COLOR\_GREEN.
 
 `value`
 
@@ -40,7 +41,7 @@ public ImagickPixel::setColorValueQuantum(int $color, int|float $value): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickPixel::setColorValueQuantum()****
+**Пример #1 Пример использования**ImagickPixel::setColorValueQuantum()\*\*\*\*
 
 ```php
 <?php

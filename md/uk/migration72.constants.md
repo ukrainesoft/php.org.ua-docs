@@ -3,8 +3,9 @@ navigation:
   - migration72.new-functions.md: « Нові функції
   - migration72.incompatible.md: 'Зміни, що ламають зворотну сумісність »'
   - index.md: PHP Manual
-  - migration72.md: Миграция с PHP 7.1.x на PHP 7.2.x
+  - migration72.md: Міграція з PHP 7.1.x на PHP 7.2.x
 title: Нові глобальні константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Нові глобальні константи
 
@@ -25,7 +26,7 @@ title: Нові глобальні константи
 -   **`JSON_INVALID_UTF8_IGNORE`**
 -   **`JSON_INVALID_UTF8_SUBSTITUTE`**
 
-### [ДД](book.image.md)
+### [GD](book.image.md)
 
 -   [**`IMG_EFFECT_MULTIPLY`**](image.constants.md#constant.img-effect-multiply)
 -   [**`IMG_BMP`**](image.constants.md#constant.img-bmp)
@@ -38,7 +39,7 @@ title: Нові глобальні константи
 -   [**`LDAP_EXOP_WHO_AM_I`**](ldap.constants.md#constant.ldap-exop-who-am-i)
 -   [**`LDAP_EXOP_TURN`**](ldap.constants.md#constant.ldap-exop-turn)
 
-### [Хеширование пароля](book.password.md)
+### [Хешування пароля](book.password.md)
 
 -   [**`PASSWORD_ARGON2I`**](password.constants.md#constant.password-argon2i)
 -   [**`PASSWORD_ARGON2_DEFAULT_MEMORY_COST`**](password.constants.md#constant.password-argon2-default-memory-cost)
@@ -47,7 +48,7 @@ title: Нові глобальні константи
 
 ### [PCRE](book.pcre.md)
 
--   **`PREG_UNMATCHED_AS_NULL`**
+-   **`[PREG_UNMATCHED_AS_NULL](pcre.constants.md#constant.preg-unmatched-as-null)`**
 
 ### [PDO](book.pdo.md)
 
@@ -130,6 +131,6 @@ title: Нові глобальні константи
 ### [Zip](book.zip.md)
 
 -   [**`ZipArchive::EM_NONE`**](zip.constants.md#ziparchive.constants.em-none)
--   [**`ZipArchive::EM_AES_128`**](zip.constants.md#ziparchive.constants.em-aez-128)
--   [**`ZipArchive::EM_AES_192`**](zip.constants.md#ziparchive.constants.em-aez-192)
--   [**`ZipArchive::EM_AES_256`**](zip.constants.md#ziparchive.constants.em-aes256)
+-   [**`ZipArchive::EM_AES_128`**](zip.constants.md#ziparchive.constants.em-aes-128)
+-   [**`ZipArchive::EM_AES_192`**](zip.constants.md#ziparchive.constants.em-aes-192)
+-   [**`ZipArchive::EM_AES_256`**](zip.constants.md#ziparchive.constants.em-aes-256)

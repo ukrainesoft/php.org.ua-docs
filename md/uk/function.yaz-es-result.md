@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.yaz-error.md: « yazerror
-  - function.yaz-es.md: yazes »
+  - function.yaz-error.md: « yaz\_error
+  - function.yaz-es.md: yaz\_es »
   - index.md: PHP Manual
-  - ref.yaz.md: Функции YAZ
-title: yazесresult
+  - ref.yaz.md: Функції YAZ
+title: yaz\_es\_result
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yazесresult
+# yaz\_es\_result
 
-(PHP 4> = 4.2.0, PECL yaz> = 0.9.0)
+(PHP 4 >= 4.2.0, PECL yaz >= 0.9.0)
 
-yazесresult — Перевіряє результат Extended Service
+yaz\_es\_result — Перевіряє результат Extended Service
 
 ### Опис
 
@@ -18,13 +19,13 @@ yazесresult — Перевіряє результат Extended Service
 yaz_es_result(resource $id): array
 ```
 
-Функція перевіряє останній повернутий сервером результат Extended Service. Extended Service ініціюється або за допомогою **yazitemorder()**, або за допомогою [yazes()](function.yaz-es.md)
+Функція перевіряє останній повернутий сервером результат Extended Service. Extended Service ініціюється або за допомогою **yaz\_item\_order()**, або за допомогою [yaz\_es()](function.yaz-es.md)
 
 ### Список параметрів
 
 `id`
 
-Ідентифікатор підключення, що повертається [yazconnect()](function.yaz-connect.md)
+Ідентифікатор підключення, що повертається [yaz\_connect()](function.yaz-connect.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ yaz_es_result(resource $id): array
 
 ### Дивіться також
 
--   [yazes()](function.yaz-es.md) - готує Extended Service Request
+-   [yaz\_es()](function.yaz-es.md) \- готує Extended Service Request

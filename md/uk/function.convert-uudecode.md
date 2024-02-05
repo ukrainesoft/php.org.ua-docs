@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.convert-cyr-string.md: « convertcyrstring
-  - function.convert-uuencode.md: convertuuencode »
+  - function.convert-cyr-string.md: « convert\_cyr\_string
+  - function.convert-uuencode.md: convert\_uuencode »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: convertuudecode
+title: convert\_uudecode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# convertuudecode
+# convert\_uudecode
 
 (PHP 5, PHP 7, PHP 8)
 
-convertuudecode — Декодує рядок із формату uuencode у звичайний вигляд
+convert\_uudecode — Декодує рядок із формату uuencode у звичайний вигляд
 
 ### Опис
 
@@ -18,9 +19,9 @@ convertuudecode — Декодує рядок із формату uuencode у з
 convert_uudecode(string $string): string|false
 ```
 
-**convertuudecode()** декодує рядок із формату uuencode у звичайний вигляд.
+**convert\_uudecode()** декодує рядок із формату uuencode у звичайний вигляд.
 
-> **Зауваження** **convertuudecode()** не приймає ні початкової (`begin`), ні кінцевої (`end`) рядки, яка є частиною файлів (*files*) uuencoded.
+> **Зауваження** **convert\_uudecode()** не приймає ні початкової (`begin`), ні кінцевої (`end`) рядки, яка є частиною файлів (*files*) uuencoded.
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ convert_uudecode(string $string): string|false
 
 ### Значення, що повертаються
 
-Повертає декодовані дані у вигляді рядка або **`false`** у разі виникнення помилки.
+Повертає декодовані дані у вигляді рядка або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **convertuudecode()****
+**Пример #1 Пример использования**convert\_uudecode()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ echo convert_uudecode("+22!L;W9E(%!(4\"$`\n`");
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 I love PHP!
@@ -50,4 +51,4 @@ I love PHP!
 
 ### Дивіться також
 
--   [convertuuencode()](function.convert-uuencode.md) - Кодує рядок у форматі uuencode
+-   [convert\_uuencode()](function.convert-uuencode.md) \- Кодує рядок у форматі uuencode

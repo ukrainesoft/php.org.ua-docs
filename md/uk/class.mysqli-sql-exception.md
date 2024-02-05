@@ -1,12 +1,13 @@
 ---
 navigation:
-  - mysqli-warning.next.md: '« mysqliwarning::next'
-  - mysqli-sql-exception.getsqlstate.md: 'mysqlisqlexception::getSqlState »'
+  - mysqli-warning.next.md: '« mysqli\_warning::next'
+  - mysqli-sql-exception.getsqlstate.md: 'mysqli\_sql\_exception::getSqlState »'
   - index.md: PHP Manual
   - book.mysqli.md: MySQLi
-title: Клас mysqlisqlexception
+title: Клас mysqli\_sql\_exception
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас mysqlisqlexception
+# Клас mysqli\_sql\_exception
 
 (PHP 5, PHP 7, PHP 8)
 
@@ -18,19 +19,14 @@ title: Клас mysqlisqlexception
 
 ```classsynopsis
 
-     
+    
+     final
+     class mysqli_sql_exception
     
 
     
-     
-      final
-      class mysqli_sql_exception
-     
-
-     
-      extends
-       RuntimeException
-     
+     extends
+      RuntimeException
      {
 
     /* Свойства */
@@ -47,32 +43,34 @@ title: Клас mysqlisqlexception
 
     /* Наследуемые свойства */
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */
     
-   final public Exception::getMessage(): string
+   public Exception::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+    final public Exception::getMessage(): string
 final public Exception::getPrevious(): ?Throwable
 final public Exception::getCode(): int
 final public Exception::getFile(): string
@@ -93,4 +91,4 @@ sqlstate
 
 ## Зміст
 
--   [mysqlisqlexception::getSqlState](mysqli-sql-exception.getsqlstate.md) — Повертає код помилки SQLSTATE
+-   [mysqli\_sql\_exception::getSqlState](mysqli-sql-exception.getsqlstate.md)— Повертає код помилки SQLSTATE

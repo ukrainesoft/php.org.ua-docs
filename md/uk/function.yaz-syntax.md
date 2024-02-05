@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.yaz-sort.md: « yazsort
-  - function.yaz-wait.md: yazwait »
+  - function.yaz-sort.md: « yaz\_sort
+  - function.yaz-wait.md: yaz\_wait »
   - index.md: PHP Manual
-  - ref.yaz.md: Функции YAZ
-title: yazsyntax
+  - ref.yaz.md: Функції YAZ
+title: yaz\_syntax
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yazsyntax
+# yaz\_syntax
 
-(PHP 4> = 4.0.1, PECL yaz> = 0.9.0)
+(PHP 4 >= 4.0.1, PECL yaz >= 0.9.0)
 
-yazsyntax — Вказує синтаксис, який ви бажаєте отримати для запису
+yaz\_syntax — Вказує синтаксис, який ви бажаєте отримати для запису
 
 ### Опис
 
@@ -18,15 +19,15 @@ yazsyntax — Вказує синтаксис, який ви бажаєте от
 yaz_syntax(resource $id, string $syntax): void
 ```
 
-**yazsyntax()** задає синтаксис, що віддається перевагу, для видобутого запису
+**yaz\_syntax()** задає синтаксис, що віддається перевагу, для видобутого запису
 
-Функція повинна бути викликана до [yazsearch()](function.yaz-search.md) або [yazpresent()](function.yaz-present.md)
+Функція має бути викликана до [yaz\_search()](function.yaz-search.md) або [yaz\_present()](function.yaz-present.md)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.md)
+Дескриптор з'єднання, що повертається [yaz\_connect()](function.yaz-connect.md)
 
 `syntax`
 

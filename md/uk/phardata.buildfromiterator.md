@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phardata.md: PharData
 title: 'PharData::buildFromIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharData::buildFromIterator
 
@@ -40,14 +41,14 @@ public PharData::buildFromIterator(Traversable $iterator, ?string $baseDirectory
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | **PharData::buildFromIterator()** більше не повертає значення **`false`** |
-|  | `baseDirectory` тепер допускає значення null. |
+| 8.1.0 | **PharData::buildFromIterator()** більше не повертає значення **`false`** |
+| 8.0.0 | `baseDirectory` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharData::buildFromIterator()** з SplFileInfo**
+**Пример #1 Пример использования**PharData::buildFromIterator()**с SplFileInfo**
 
 Для більшості tar/zip-архівів, структура відображає дерево директорій на файловій системі. Наприклад, для створення tar/zip-архіву, що містить таку структуру директорій та файлів:
 
@@ -65,9 +66,9 @@ $phar->buildFromIterator(
 ?>
 ```
 
-Файл `project.tar` можна використовувати одразу ж після його створення . **PharData::buildFromIterator()** не здійснює налаштування стиснення або додавання метаданих. Ці дії необхідно зробити самостійно після створення архіву.
+Файл`project.tar` можна використовувати одразу ж після його створення . **PharData::buildFromIterator()** не здійснює налаштування стиснення або додавання метаданих. Ці дії необхідно зробити самостійно після створення архіву.
 
-Цікаве зауваження: **PharData::buildFromIterator()** також можна використовувати для копіювання контенту вже існуючого phar, tar або zip-архіву, так як об'єкт PharData успадковує [DirectoryIterator](class.directoryiterator.md)
+Цікаве зауваження: **PharData::buildFromIterator()** також можна використовувати для копіювання контенту вже існуючого phar, tar або zip-архіву, так як об'єкт PharData успадковує [DirectoryIterator](class.directoryiterator.md) :
 
 ```php
 <?php
@@ -80,9 +81,9 @@ $phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 ?>
 ```
 
-**Приклад #2 Приклад використання **PharData::buildFromIterator()** з іншим ітератором**
+**Пример #2 Пример использования**PharData::buildFromIterator()\*\* з іншим ітератором\*\*
 
-Можна використовувати ітератори, що повертають зв'язку "ключ" => "значення", наприклад [ArrayIterator](class.arrayiterator.md)
+Можна використовувати ітератори, що повертають зв'язку "ключ" => "значення", наприклад [ArrayIterator](class.arrayiterator.md) :
 
 ```php
 <?php
@@ -98,4 +99,4 @@ $phar->buildFromIterator(
 
 ### Дивіться також
 
--   [Phar::buildFromIterator()](phar.buildfromiterator.md) - Створює phar-архів із ітератора
+-   [Phar::buildFromIterator()](phar.buildfromiterator.md) \- Створює phar-архів із ітератора

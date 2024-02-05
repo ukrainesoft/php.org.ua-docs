@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.yaconf.md: « Yaconf
-  - yaconf.setup.md: Встановлення та налаштування »
+  - yaconf.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.yaconf.md: Yaconf
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 
@@ -18,10 +19,10 @@ Yaconf вимагає PHP 7.0 або вище.
 
 **Приклад #1 Приклад INI**
 
-;проста пара ключ-значення key=val ;хеш hash.a=val ;масив arr.0=val ;або так arr=val ;використання констант PHP version=PHPVERION ;використання змінних середовища env=${PATH}
+;проста пара ключ-значення key=val ;хеш hash.a=val ;масив arr.0=val ;або так arr\[\]=val ;використання констант PHP version=PHP\_VERSION ;використання змінних середовища env=${PATH}
 
 **Приклад #2 Приклад INI з розділами**
 
-SectionAkey=val hash.a=val
+\[SectionA\]key=val hash.a=val
 
-;SectionS успадковується від SectionSSection:Section;перевизначення key з розділу SectionA key=newval
+;SectionB наследуется от SectionA\[SectionB:SectionA\];переопределение key из раздела SectionA key=new\_val

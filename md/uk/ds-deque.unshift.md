@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.toarray.md: '« DsDeque::toArray'
-  - class.ds-map.md: Коллекция пар ключ-значение »
+  - ds-deque.toarray.md: '« Ds\\Deque::toArray'
+  - class.ds-map.md: Ds\\Map »
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::unshift'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::unshift'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::unshift
+# Ds\\Deque::unshift
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::unshift — Додає значення на початок двосторонньої черги
+Ds\\Deque::unshift — Додає значення на початок двосторонньої черги
 
 ### Опис
 
@@ -26,7 +27,7 @@ public Ds\Deque::unshift(mixed $values = ?): void
 
 Значення, що додаються.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Багато значень додаються в тому порядку, як вони були передані.
 
@@ -36,7 +37,7 @@ public Ds\Deque::unshift(mixed $values = ?): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::unshift()****
+**Пример #1 Пример использования**Ds\\Deque::unshift()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ print_r($deque);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Deque Object

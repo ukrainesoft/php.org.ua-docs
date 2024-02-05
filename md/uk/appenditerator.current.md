@@ -1,14 +1,15 @@
 ---
 navigation:
-  - appenditerator.construct.md: '« AppendIterator::construct'
+  - appenditerator.construct.md: '« AppendIterator::\_\_construct'
   - appenditerator.getarrayiterator.md: 'AppendIterator::getArrayIterator »'
   - index.md: PHP Manual
   - class.appenditerator.md: AppendIterator
 title: 'AppendIterator::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # AppendIterator::current
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 AppendIterator::current — Повертає поточне значення
 
@@ -30,8 +31,8 @@ public AppendIterator::current(): mixed
 
 ### Дивіться також
 
--   [Iterator::current()](iterator.current.md) - Повернення поточного елемента
--   [AppendIterator::key()](appenditerator.key.md) - Повертає поточний ключ
--   [AppendIterator::valid()](appenditerator.valid.md) - Перевіряє термін дії поточного елемента
--   [AppendIterator::next()](appenditerator.next.md) - Переходить до наступного елементу
--   [AppendIterator::rewind()](appenditerator.rewind.md) - перемотує ітератор
+-   [Iterator::current()](iterator.current.md) \- Повернення поточного елемента
+-   [AppendIterator::key()](appenditerator.key.md) \- Повертає поточний ключ
+-   [AppendIterator::valid()](appenditerator.valid.md) \- Перевіряє термін дії поточного елемента
+-   [AppendIterator::next()](appenditerator.next.md) \- Переходить до наступного елементу
+-   [AppendIterator::rewind()](appenditerator.rewind.md) \- перемотує ітератор

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - ref.oci8.md: « OCI8 Функции
-  - function.oci-bind-by-name.md: ocibindбname »
+  - ref.oci8.md: « OCI8 Функції
+  - function.oci-bind-by-name.md: oci\_bind\_by\_name »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocibindarrayбname
+  - ref.oci8.md: OCI8 Функції
+title: oci\_bind\_array\_by\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocibindarrayбname
+# oci\_bind\_array\_by\_name
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8, PECL OCI8> = 1.2.0)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL OCI8 >= 1.2.0)
 
-ocibindarrayбname - Зв'язує PHP масив з масивом Oracle PL/SQL
+oci\_bind\_array\_by\_name - Зв'язує PHP масив з масивом Oracle PL/SQL
 
 ### Опис
 
 ```methodsynopsis
-oci_bind_array_by_name(    resource $statement,    string $param,    array &$var,    int $max_array_length,    int $max_item_length = -1,    int $type = SQLT_AFC): bool
+oci_bind_array_by_name(    resource $statement,    string $param,    array &$var,    int $max_array_length,    int $max_item_length = -1,    int $type = SQLT_AFC): bool
 ```
 
 Пов'язує PHP масив `var` з вказівником Oracle `param` на масив Oracle PL/SQL. Напрямок, введення або висновок, для якого використовуватиметься масив, буде визначатися під час виконання.
@@ -40,40 +41,40 @@ oci_bind_array_by_name(    resource $statement,    string $param,    array &$var
 
 `max_item_length`
 
-Визначає максимальний розмір значень масиву. Якщо не встановлено або дорівнює -1, **ocibindarrayбname()** знайде найбільший елемент у вихідному масиві і використовує його розмір як цю настройку.
+Визначає максимальний розмір значень масиву. Якщо не встановлено або дорівнює -1, **oci\_bind\_array\_by\_name()** знайде найбільший елемент у вихідному масиві і використовує його розмір як цю настройку.
 
 `type`
 
-Використовується для завдання типу значень PL/SQL масиву. Дивіться список нижче:
+Використовується для визначення типу значень PL/SQL масиву. Дивіться список нижче:
 
--   **`SQLT_NUM`** - для масивів із елементами типу NUMBER.
+-   \*\*`SQLT_NUM`\*\*- для масивів із елементами типу NUMBER.
     
--   **`SQLT_INT`** - для масивів з елементами типу INTEGER (Примітка: INTEGER - синонім типу NUMBER(38), проте тип **`SQLT_NUM`** у цьому випадку не працюватиме, навіть незважаючи на те, що вони синонімічні).
+-   \*\*`SQLT_INT`**\- для масивів з елементами типу INTEGER (Примітка: INTEGER - синонім типу NUMBER(38), проте тип**`SQLT_NUM`\*\*у цьому випадку не працюватиме, навіть незважаючи на те, що вони синонімічні).
     
--   **`SQLT_FLT`** - для масивів із елементами типу FLOAT.
+-   \*\*`SQLT_FLT`\*\*- для масивів із елементами типу FLOAT.
     
--   **`SQLT_AFC`** - для масивів із елементами типу CHAR.
+-   \*\*`SQLT_AFC`\*\*- для масивів із елементами типу CHAR.
     
--   **`SQLT_CHR`** - для масивів із елементами типу VARCHAR2.
+-   \*\*`SQLT_CHR`\*\*- для масивів із елементами типу VARCHAR2.
     
--   **`SQLT_VCS`** - для масивів із елементами типу VARCHAR.
+-   \*\*`SQLT_VCS`\*\*- для масивів із елементами типу VARCHAR.
     
--   **`SQLT_AVC`** - для масивів із елементами типу CHARZ.
+-   \*\*`SQLT_AVC`\*\*- для масивів із елементами типу CHARZ.
     
--   **`SQLT_STR`** - для масивів із елементами типу STRING.
+-   \*\*`SQLT_STR`\*\*- для масивів із елементами типу STRING.
     
--   **`SQLT_LVC`** - для масивів із елементами типу LONG VARCHAR.
+-   \*\*`SQLT_LVC`\*\*- для масивів із елементами типу LONG VARCHAR.
     
--   **`SQLT_ODT`** - для масивів із елементами типу DATE.
+-   \*\*`SQLT_ODT`\*\*- для масивів із елементами типу DATE.
     
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ocibindarrayбname()****
+**Пример #1 Пример использования**oci\_bind\_array\_by\_name()\*\*\*\*
 
 ```php
 <?php

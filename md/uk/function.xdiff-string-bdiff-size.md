@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xdiff-file-rabdiff.md: xdifffilerabdiff
-  - function.xdiff-string-bdiff.md: xdiffstringbdiff »
+  - function.xdiff-file-rabdiff.md: « xdiff\_file\_rabdiff
+  - function.xdiff-string-bdiff.md: xdiff\_string\_bdiff »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
-title: xdiffstringbdiffsize
+title: xdiff\_string\_bdiff\_size
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xdiffstringbdiffsize
+# xdiff\_string\_bdiff\_size
 
 (PECL xdiff >= 1.5.0)
 
-xdiffstringbdiffsize — Отримати розмір файлу, створеного після застосування бінарного патчу.
+xdiff\_string\_bdiff\_size — Отримати розмір файлу, створеного після застосування бінарного патчу.
 
 ### Опис
 
@@ -24,7 +25,7 @@ xdiff_string_bdiff_size(string $patch): int
 
 `patch`
 
-Бінарний патч, створений функціями [xdiffstringbdiff()](function.xdiff-string-bdiff.md) або [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
+Бінарний патч, створений функціями [xdiff\_string\_bdiff()](function.xdiff-string-bdiff.md) або [xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ xdiff_string_bdiff_size(string $patch): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdiffstringbdiffsize()****
+**Пример #1 Пример использования**xdiff\_string\_bdiff\_size()\*\*\*\*
 
 У наступному коді провадиться підрахунок результуючого розміру файлу після застосування бінарного патчу.
 
@@ -46,6 +47,6 @@ echo "Результирующий файл будет занимать $length 
 
 ### Дивіться також
 
--   [xdiffstringbdiff()](function.xdiff-string-bdiff.md) - Створити бінарний патч для двох рядків
--   [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md) - Порівняти два рядки та створити бінарний патч використовуючи поліномінальний алгоритм Rabin fingerprint
--   [xdiffstringbpatch()](function.xdiff-string-bpatch.md) - Застосування бінарного патча до рядка
+-   [xdiff\_string\_bdiff()](function.xdiff-string-bdiff.md) \- Створити бінарний патч для двох рядків
+-   [xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.md) \- Порівняти два рядки та створити бінарний патч використовуючи поліномінальний алгоритм Rabin fingerprint
+-   [xdiff\_string\_bpatch()](function.xdiff-string-bpatch.md) \- Застосування бінарного патча до рядка

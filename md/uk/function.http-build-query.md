@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.get-meta-tags.md: « getmetatags
-  - function.parse-url.md: parseurl »
+  - function.get-meta-tags.md: « get\_meta\_tags
+  - function.parse-url.md: parse\_url »
   - index.md: PHP Manual
   - ref.url.md: Функції URL
-title: httpbuildquery
+title: http\_build\_query
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# httpbuildquery
+# http\_build\_query
 
 (PHP 5, PHP 7, PHP 8)
 
-httpbuildquery — Генерує URL-кодований рядок запиту
+http\_build\_query — Генерує URL-кодований рядок запиту
 
 ### Опис
 
 ```methodsynopsis
-http_build_query(    array|object $data,    string $numeric_prefix = "",    ?string $arg_separator = null,    int $encoding_type = PHP_QUERY_RFC1738): string
+http_build_query(    array|object $data,    string $numeric_prefix = "",    ?string $arg_separator = null,    int $encoding_type = PHP_QUERY_RFC1738): string
 ```
 
 Генерує URL-кодований рядок запиту наданого асоціативного (або індексованого) масиву.
@@ -38,23 +39,29 @@ http_build_query(    array|object $data,    string $numeric_prefix = "",    ?str
 
 `arg_separator`
 
-[argseparator.output](ini.core.md#ini.arg-separator.output) використовується як роздільник аргументів, але може бути перевизначений шляхом вказівки цього параметра.
+Розділювач аргументів. Якщо не заданий або **`null`**, то для поділу аргументів використовується [arg\_separator.output](ini.core.md#ini.arg-separator.output)
 
 `encoding_type`
 
-За замовчуванням **`PHP_QUERY_RFC1738`**
+По умолчанию\*\*`PHP_QUERY_RFC1738`\*\*
 
-Якщо `encoding_type` дорівнює **`PHP_QUERY_RFC1738`**, тоді кодування здійснюється за [» RFC 1738](http://www.faqs.org/rfcs/rfc1738) та типу контенту `application/x-www-form-urlencoded`, що передбачає, що пробіли кодуються як символи "плюс" (`+`
+Якщо `encoding_type`равен\*\*`PHP_QUERY_RFC1738`\*\*, тогда кодирование осуществляется по[» RFC 1738](http://www.faqs.org/rfcs/rfc1738)и типу контента`application/x-www-form-urlencoded`що передбачає, що пробіли кодуються як символи "плюс" (`+`
 
-Якщо `enc_type` дорівнює **`PHP_QUERY_RFC3986`**, тоді кодування здійснюється відповідно до [» RFC 3986](http://www.faqs.org/rfcs/rfc3986), а пробіли будуть закодовані у відсотках (`%20`
+Якщо `enc_type`равен\*\*`PHP_QUERY_RFC3986`\*\*, тоді кодування здійснюється відповідно до [» RFC 3986](http://www.faqs.org/rfcs/rfc3986), а пробіли будуть закодовані у відсотках (`%20`
 
 ### Значення, що повертаються
 
 Повертає URL-кодований рядок.
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.0.0 | Параметр`arg_separator` тепер припускає значення **`null`** |
+
 ### Приклади
 
-**Приклад #1 Простий приклад використання **httpbuildquery()****
+**Приклад #1 Простий приклад використання **http\_build\_query()****
 
 ```php
 <?php
@@ -72,14 +79,14 @@ echo http_build_query($data, '', '&amp;');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 foo=bar&baz=boom&cow=milk&php=hypertext+processor
 foo=bar&amp;baz=boom&amp;cow=milk&amp;php=hypertext+processor
 ```
 
-**Приклад #2 Приклад використання **httpbuildquery()** із числовими індексами елементів.**
+**Пример #2 Пример использования**http\_build\_query()\*\* із числовими індексами елементів.\*\*
 
 ```php
 <?php
@@ -90,14 +97,14 @@ echo http_build_query($data, 'myvar_');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 0=foo&1=bar&2=baz&4=boom&cow=milk&php=hypertext+processor
 myvar_0=foo&myvar_1=bar&myvar_2=baz&myvar_4=boom&cow=milk&php=hypertext+processor
 ```
 
-**Приклад #3 Приклад використання **httpbuildquery()** з багатовимірними масивами**
+**Пример #3 Пример использования**http\_build\_query()\*\* з багатовимірними масивами\*\*
 
 ```php
 <?php
@@ -130,11 +137,11 @@ children%5Bbobby%5D%5Bsex%5D=M&children%5Bsally%5D%5Bage%5D=8&
 children%5Bsally%5D%5Bsex%5D=F&flags_0=CEO
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Тільки числовий індексований елемент CEO в базовому масиві отримав префікс. Інші числові індекси, знайдені в pastimes, не вимагають рядкового префікса, щоб бути допустимими іменами змінних.
 
-**Приклад #4 Приклад використання **httpbuildquery()** з об'єктом**
+**Пример #4 Пример использования**http\_build\_query()\*\* з об'єктом\*\*
 
 ```php
 <?php
@@ -165,7 +172,7 @@ echo http_build_query($parent);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 pub=publicParent&pub_bar%5Bpub%5D=publicChild
@@ -173,7 +180,7 @@ pub=publicParent&pub_bar%5Bpub%5D=publicChild
 
 ### Дивіться також
 
--   [parsestr()](function.parse-str.md) - Розбирає рядок у змінні
--   [parseurl()](function.parse-url.md) - Розбирає URL та повертає його компоненти
--   [urlencode()](function.urlencode.md) - URL-кодування рядка
--   [arraywalk()](function.array-walk.md) - Застосовує задану користувачем функцію кожного елемента масиву
+-   [parse\_str()](function.parse-str.md) \- Розбирає рядок у змінні
+-   [parse\_url()](function.parse-url.md) \- Розбирає URL та повертає його компоненти
+-   [urlencode()](function.urlencode.md) \- URL-кодування рядка
+-   [array\_walk()](function.array-walk.md) \- Застосовує задану користувачем функцію кожного елемента масиву

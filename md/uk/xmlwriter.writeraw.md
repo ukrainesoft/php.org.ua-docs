@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::writeRaw'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLWriter::writeRaw
 
-# xmlwriterwriteraw
+# xmlwriter\_write\_raw
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL xmlwriter >= 2.0.4)
 
-XMLWriter::writeRaw -- xmlwriterwriteraw — Записати необроблений текст XML
+XMLWriter::writeRaw -- xmlwriter\_write\_raw — Записати необроблений текст XML
 
 ### Опис
 
@@ -34,7 +35,7 @@ xmlwriter_write_raw(XMLWriter $writer, string $content): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.md) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.md)
 
 `content`
 
@@ -42,14 +43,14 @@ xmlwriter_write_raw(XMLWriter $writer, string $content): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | В параметре`writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::text()](xmlwriter.text.md) - Записати текст
+-   [XMLWriter::text()](xmlwriter.text.md) \- Записати текст

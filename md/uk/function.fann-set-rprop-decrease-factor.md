@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-quickprop-mu.md: « fannsetquickpropму
-  - function.fann-set-rprop-delta-max.md: fannsetrpropdeltamax »
+  - function.fann-set-quickprop-mu.md: « fann\_set\_quickprop\_mu
+  - function.fann-set-rprop-delta-max.md: fann\_set\_rprop\_delta\_max »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetrpropdecreasefactor
+  - ref.fann.md: Функції Fann
+title: fann\_set\_rprop\_decrease\_factor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetrpropdecreasefactor
+# fann\_set\_rprop\_decrease\_factor
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetrpropdecreasefactor — Встановлює коефіцієнт зменшення під час навчання RPROP
+fann\_set\_rprop\_decrease\_factor — Встановлює коефіцієнт зменшення під час навчання RPROP
 
 ### Опис
 
@@ -36,4 +37,4 @@ fann_set_rprop_decrease_factor(resource $ann, float $rprop_decrease_factor): boo
 
 ### Дивіться також
 
--   [fanngetrpropdecreasefactor()](function.fann-get-rprop-decrease-factor.md) - Повертає коефіцієнт зменшення під час навчання RPROP
+-   [fann\_get\_rprop\_decrease\_factor()](function.fann-get-rprop-decrease-factor.md) \- Повертає коефіцієнт зменшення під час навчання RPROP

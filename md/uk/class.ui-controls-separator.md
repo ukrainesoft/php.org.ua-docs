@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-progress.setvalue.md: '« UIControlsProgress::setValue'
-  - ui-controls-separator.construct.md: 'ОЙControlsSeparator::construct »'
+  - ui-controls-progress.setvalue.md: '« UI\\Controls\\Progress::setValue'
+  - ui-controls-separator.construct.md: 'UI\\Controls\\Separator::\_\_construct »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Розділювач"
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Розділювач"
 
@@ -75,4 +76,4 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsSeparator::construct](ui-controls-separator.construct.md) — Створити новий об'єкт Separator
+-   [UI\\Controls\\Separator::\_\_construct](ui-controls-separator.construct.md)— Створити новий об'єкт Separator

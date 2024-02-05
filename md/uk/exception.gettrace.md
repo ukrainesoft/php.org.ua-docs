@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.exception.md: Exception
 title: 'Exception::getTrace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Exception::getTrace
 
@@ -30,7 +31,7 @@ final public Exception::getTrace(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Exception::getTrace()****
+**Пример #1 Пример использования**Exception::getTrace()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {
@@ -67,4 +68,4 @@ array(1) {
 
 ### Дивіться також
 
--   [Throwable::getTrace()](throwable.gettrace.md) - Повертає трасування стека
+-   [Throwable::getTrace()](throwable.gettrace.md) \- Повертає трасування стека

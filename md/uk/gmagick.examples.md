@@ -1,10 +1,11 @@
 ---
 navigation:
-  - gmagick.constants.md: « Обумовлені константи
+  - gmagick.constants.md: « Зумовлені константи
   - class.gmagick.md: Gmagick »
   - index.md: PHP Manual
   - book.gmagick.md: Gmagick
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

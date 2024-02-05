@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-field-type.md: « cubridfieldtype
-  - function.cubrid-num-fields.md: cubridnumfields »
+  - function.cubrid-field-type.md: « cubrid\_field\_type
+  - function.cubrid-num-fields.md: cubrid\_num\_fields »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridlistdbs
+title: cubrid\_list\_dbs
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridlistdbs
+# cubrid\_list\_dbs
 
 (PECL CUBRID >= 8.3.0)
 
-cubridlistdbs — Отримати масив зі списком усіх баз даних CUBRID
+cubrid\_list\_dbs — Отримати масив зі списком усіх баз даних CUBRID
 
 ### Опис
 
@@ -24,17 +25,17 @@ cubrid_list_dbs(resource $conn_identifier = ?): array
 
 `conn_identifier`
 
-CUBRID connection.
+The CUBRID connection.
 
 ### Значення, що повертаються
 
 Індексований масив зі списком баз даних.
 
-**`false`** у разі виникнення помилки.
+\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridlistdbs()****
+**Пример #1 Пример использования**cubrid\_list\_dbs()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {

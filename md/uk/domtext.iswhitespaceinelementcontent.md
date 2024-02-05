@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domtext.md: DOMText
 title: 'DOMText::isWhitespaceInElementContent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMText::isWhitespaceInElementContent
 

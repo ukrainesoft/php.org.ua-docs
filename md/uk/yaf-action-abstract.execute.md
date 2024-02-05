@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yaf-action-abstract.md: « YafActionAbstract
-  - yaf-action-abstract.getcontroller.md: 'YafActionAbstract::getController »'
+  - class.yaf-action-abstract.md: « Yaf\_Action\_Abstract
+  - yaf-action-abstract.getcontroller.md: 'Yaf\_Action\_Abstract::getController »'
   - index.md: PHP Manual
-  - class.yaf-action-abstract.md: YafActionAbstract
-title: 'YafActionAbstract::execute'
+  - class.yaf-action-abstract.md: Yaf\_Action\_Abstract
+title: 'Yaf\_Action\_Abstract::execute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafActionAbstract::execute
+# Yaf\_Action\_Abstract::execute
 
 (Yaf >=1.0.0)
 
-YafActionAbstract::execute — Точка входу для Action-класів
+Yaf\_Action\_Abstract::execute — Точка входу для Action-класів
 
 ### Опис
 
@@ -18,9 +19,9 @@ YafActionAbstract::execute — Точка входу для Action-класів
 abstract publicYaf_Action_Abstract::execute(mixed ...$args): mixed
 ```
 
-Користувач повинен визначати цей метод для Action-класів, він є точкою входу до Action . **YafActionAbstract::execute()** може приймати аргументи.
+Користувач повинен визначати цей метод для Action-класів, він є точкою входу до Action . **Yaf\_Action\_Abstract::execute()** може приймати аргументи.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення, яке отримується із запиту, не є безпечним. Ви повинні самостійно перевіряти його перед використанням.
 
@@ -32,7 +33,7 @@ abstract publicYaf_Action_Abstract::execute(mixed ...$args): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafActionAbstract::execute()****
+**Пример #1 Пример использования**Yaf\_Action\_Abstract::execute()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ class ProductController extends Yaf_Controller_Abstract {
 ?>
 ```
 
-**Приклад #2 Приклад використання **YafActionAbstract::execute()****
+**Пример #2 Пример использования**Yaf\_Action\_Abstract::execute()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ class ListAction extends Yaf_Action_Abstract {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 /**

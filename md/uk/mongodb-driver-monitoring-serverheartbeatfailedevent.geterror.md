@@ -1,16 +1,19 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.md: '« MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros'
-  - mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.md: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getHost »'
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.md: >-
+      «
+      MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getDurationMicros
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.md: 'MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getHost »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.md: MongoDBDriverMonitoringServerHeartbeatFailedEvent
-title: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getError'
+  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.md: MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent
+title: 'MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getError'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringServerHeartbeatFailedEvent::getError
+# MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getError
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringServerHeartbeatFailedEvent::getError — Повертає виняток, пов'язаний із невдалим виконанням heartbeat
+MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getError — Повертає виняток, пов'язаний із невдалим виконанням heartbeat
 
 ### Опис
 
@@ -28,4 +31,4 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getError(): E
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

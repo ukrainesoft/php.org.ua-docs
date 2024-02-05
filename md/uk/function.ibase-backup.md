@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ibase-affected-rows.md: « ibaseaffectedrows
-  - function.ibase-blob-add.md: ibaseblobadd »
+  - function.ibase-affected-rows.md: « ibase\_affected\_rows
+  - function.ibase-blob-add.md: ibase\_blob\_add »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibasebackup
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_backup
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibasebackup
+# ibase\_backup
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibasebackup - Ініціює завдання резервного копіювання в диспетчері служб і негайно повертає
+ibase\_backup — Ініціює завдання резервного копіювання у диспетчері служб та негайно повертає
 
 ### Опис
 
 ```methodsynopsis
-ibase_backup(    resource $service_handle,    string $source_db,    string $dest_file,    int $options = 0,    bool $verbose = false): mixed
+ibase_backup(    resource $service_handle,    string $source_db,    string $dest_file,    int $options = 0,    bool $verbose = false): mixed
 ```
 
 Ця функція передає аргументи на (віддалений) сервер бази даних. Там розпочинається новий процес резервного копіювання. Тому ви не отримаєте жодних відповідей.
@@ -32,11 +33,11 @@ ibase_backup(    resource $service_handle,    string $source_db,    string $dest
 
 `dest_file`
 
-Шлях до файлу резервної копії на сервер бази даних.
+Шлях до файлу резервної копії на сервері бази даних.
 
 `options`
 
-Додаткові опції передачі на сервер бази даних для резервного копіювання. Параметр `options` може бути комбінацією з наступних констант: **`IBASE_BKP_IGNORE_CHECKSUMS`** **`IBASE_BKP_IGNORE_LIMBO`** **`IBASE_BKP_METADATA_ONLY`** **`IBASE_BKP_NO_GARBAGE_COLLECT`** **`IBASE_BKP_OLD_DESCRIPTIONS`** **`IBASE_BKP_NON_TRANSPORTABLE`** або **`IBASE_BKP_CONVERT`**. Прочитайте розділ про [Обумовлені константи](ibase.constants.md) для отримання додаткової інформації.
+Додаткові опції передачі на сервер бази даних для резервного копіювання. Параметр `options` може бути комбінацією з наступних констант: **`IBASE_BKP_IGNORE_CHECKSUMS`** **`IBASE_BKP_IGNORE_LIMBO`** **`IBASE_BKP_METADATA_ONLY`** **`IBASE_BKP_NO_GARBAGE_COLLECT`** **`IBASE_BKP_OLD_DESCRIPTIONS`** \*\*`IBASE_BKP_NON_TRANSPORTABLE`**или**`IBASE_BKP_CONVERT`\*\*Прочтите раздел о [Обумовлені константи](ibase.constants.md) для отримання додаткової інформації.
 
 `verbose`
 
@@ -44,13 +45,13 @@ ibase_backup(    resource $service_handle,    string $source_db,    string $dest
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 Оскільки процес резервного копіювання виконується на (віддаленому) сервері, ця функція просто передає йому аргументи. Поки аргументи коректні, ви не отримаєте **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibasebackup()****
+**Пример #1 Пример использования**ibase\_backup()\*\*\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ ibase_service_detach ($service);
 ?>
 ```
 
-**Приклад #2 Приклад використання **ibasebackup()** з аргументами**
+**Пример #2 Пример использования**ibase\_backup()\*\* з аргументами\*\*
 
 ```php
 <?php
@@ -88,4 +89,4 @@ ibase_service_detach ($service);
 
 ### Дивіться також
 
--   [ibaserestore()](function.ibase-restore.md) - Запускає завдання відновлення у диспетчері служб та негайно повертається
+-   [ibase\_restore()](function.ibase-restore.md) \- Запускає завдання відновлення у диспетчері служб та негайно повертається

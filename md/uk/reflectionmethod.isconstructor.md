@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::isConstructor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionMethod::isConstructor
 
@@ -18,7 +19,7 @@ ReflectionMethod::isConstructor — Перевіряє, чи є метод ко�
 public ReflectionMethod::isConstructor(): bool
 ```
 
-Перевіряє, чи є метод конструктором.
+Перевіряє, чи метод конструктором.
 
 ### Список параметрів
 
@@ -30,6 +31,6 @@ public ReflectionMethod::isConstructor(): bool
 
 ### Дивіться також
 
--   [ReflectionMethod::construct()](reflectionmethod.construct.md) - Конструктор класу ReflectionMethod
--   [ReflectionMethod::isAbstract()](reflectionmethod.isabstract.md) - Перевіряє, чи є метод абстрактним
--   [ReflectionMethod::isDestructor()](reflectionmethod.isdestructor.md) - Перевіряє, чи є метод деструктором
+-   [ReflectionMethod::\_\_construct()](reflectionmethod.construct.md) \- Конструктор класу ReflectionMethod
+-   [ReflectionMethod::isAbstract()](reflectionmethod.isabstract.md) \- Перевіряє, чи є метод абстрактним
+-   [ReflectionMethod::isDestructor()](reflectionmethod.isdestructor.md) \- Перевіряє, чи є метод деструктором

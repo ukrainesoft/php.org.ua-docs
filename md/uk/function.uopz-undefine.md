@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-set-static.md: « uopzsetstatic
-  - function.uopz-unset-hook.md: uopzunsethook »
+  - function.uopz-set-static.md: « uopz\_set\_static
+  - function.uopz-unset-hook.md: uopz\_unset\_hook »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzundefine
+title: uopz\_undefine
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzundefine
+# uopz\_undefine
 
 (PECL uopz 1, PECL uopz 2, PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzundefine — Скасує визначення константи
+uopz\_undefine — Скасує визначення константи
 
 ### Опис
 
@@ -28,7 +29,7 @@ uopz_undefine(string $class, string $constant): bool
 
 `class`
 
-Назва класу, що містить `constant`
+Название класса, содержащего`constant`
 
 `constant`
 
@@ -36,11 +37,11 @@ uopz_undefine(string $class, string $constant): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzundefine()****
+**Пример #1 Пример использования**uopz\_undefine()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump(defined("MY"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)

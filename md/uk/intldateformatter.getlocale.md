@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::getLocale'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::getLocale
 
-# datefmtgetlocale
+# datefmt\_get\_locale
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::getLocale -- datefmtgetlocale — Отримує мовний стандарт, який використовується засобом форматування
+IntlDateFormatter::getLocale -- datefmt\_get\_locale — Отримує мовний стандарт, який використовується засобом форматування
 
 ### Опис
 
@@ -38,15 +39,15 @@ datefmt_get_locale(IntlDateFormatter $formatter, int $type = ULOC_ACTUAL_LOCALE)
 
 `type`
 
-Ви можете вибирати між коректним та поточним мовним стандартом (**`Locale::VALID_LOCALE`** і \*\*`Locale::ACTUAL_LOCALE`\*\*відповідно). За промовчанням використовується поточний мовний стандарт.
+Ви можете вибирати між коректним та поточним мовним стандартом (\*\*`Locale::VALID_LOCALE`**и**`Locale::ACTUAL_LOCALE`\*\*відповідно). За промовчанням використовується поточний мовний стандарт.
 
 ### Значення, що повертаються
 
-Мовний стандарт засобу форматування або **`false`** у разі виникнення помилки.
+Мовний стандарт засобу форматування або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmtgetlocale()****
+**Пример #1 Пример использования**datefmt\_get\_locale()\*\*\*\*
 
 ```php
 <?php
@@ -100,7 +101,7 @@ echo 'Второй отформатированный вывод ' . $fmt->forma
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Языковой стандарт средства форматирования : en
@@ -111,4 +112,4 @@ echo 'Второй отформатированный вывод ' . $fmt->forma
 
 ### Дивіться також
 
--   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати
+-   [datefmt\_create()](intldateformatter.create.md) \- Створює засіб форматування дати

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::getOutputBuffer'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::getOutputBuffer
 
@@ -31,4 +32,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::getInputBuffer()](eventhttprequest.getinputbuffer.md) - Повертає вхідний буфер
+-   [EventHttpRequest::getInputBuffer()](eventhttprequest.getinputbuffer.md) \- Повертає вхідний буфер

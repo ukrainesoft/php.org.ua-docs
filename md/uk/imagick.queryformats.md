@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::queryFormats'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::queryFormats
 
@@ -34,7 +35,7 @@ public static Imagick::queryFormats(string $pattern = "*"): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::queryFormats()****
+**Пример #1 Пример использования**Imagick::queryFormats()\*\*\*\*
 
 ```php
 <?php

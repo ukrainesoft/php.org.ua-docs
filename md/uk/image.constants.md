@@ -3,421 +3,426 @@ navigation:
   - image.resources.md: « Типи ресурсів
   - image.examples.md: Приклади »
   - index.md: PHP Manual
-  - book.image.md: ДД
+  - book.image.md: GD
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.
 
-**`GD_VERSION`** (string)
+**`GD_VERSION`**(string)
 
 Версія GD, з якою було скомпільовано PHP.
 
-**`GD_MAJOR_VERSION`** (int)
+**`GD_MAJOR_VERSION`**(int)
 
 Повнофункціональна версія GD, з якою був скомпільований PHP.
 
-**`GD_MINOR_VERSION`** (int)
+**`GD_MINOR_VERSION`**(int)
 
 Скорочена версія GD, з якою був скомпільований PHP.
 
-**`GD_RELEASE_VERSION`** (int)
+**`GD_RELEASE_VERSION`**(int)
 
-Робоча версія GD, з якою був скомпільований PHP.
+Робоча версія GD, з якою було скомпільовано PHP.
 
-**`GD_EXTRA_VERSION`** (string)
+**`GD_EXTRA_VERSION`**(string)
 
 Додаткова (beta/rc..) версія GD, з якою був скомпільований PHP.
 
-**`GD_BUNDLED`** (int)
+**`GD_BUNDLED`**(int)
 
 Якщо використовується версія GD, що розповсюджується з PHP, константа приймає значення 1, в іншому випадку 0.
 
-**`IMG_AVIF`** (int)
+**`IMG_AVIF`**(int)
 
-Використовується як значення функції, що повертається [imagetypes()](function.imagetypes.md). Доступно з PHP 8.1.0.
+Повертається як значення функції [imagetypes()](function.imagetypes.md). (Доступно, починаючи з PHP 8.1.0)
 
-**`IMG_BMP`** (int)
+**`IMG_BMP`**(int)
 
-Використовується як значення функції, що повертається [imagetypes()](function.imagetypes.md)
+Повертається як значення функції [imagetypes()](function.imagetypes.md)
 
-**`IMG_GIF`** (int)
+**`IMG_GIF`**(int)
 
-Використовується як значення функції, що повертається [imagetypes()](function.imagetypes.md)
+Повертається як значення функції [imagetypes()](function.imagetypes.md)
 
-**`IMG_JPG`** (int)
+**`IMG_JPG`**(int)
 
-Використовується як значення функції, що повертається [imagetypes()](function.imagetypes.md)
+Повертається як значення функції [imagetypes()](function.imagetypes.md)
 
-**`IMG_JPEG`** (int)
+**`IMG_JPEG`**(int)
 
-Використовується як значення функції, що повертається [imagetypes()](function.imagetypes.md)
+Повертається як значення функції [imagetypes()](function.imagetypes.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця константа має те саме значення, що і **`IMG_JPG`**
 
-**`IMG_PNG`** (int)
+**`IMG_PNG`**(int)
 
-Використовується як значення функції, що повертається [imagetypes()](function.imagetypes.md)
+Повертається як значення функції [imagetypes()](function.imagetypes.md)
 
-**`IMG_WBMP`** (int)
+**`IMG_WBMP`**(int)
 
-Використовується як значення функції, що повертається [imagetypes()](function.imagetypes.md)
+Повертається як значення функції [imagetypes()](function.imagetypes.md)
 
-**`IMG_XPM`** (int)
+**`IMG_XPM`**(int)
 
-Використовується як значення функції, що повертається [imagetypes()](function.imagetypes.md)
+Повертається як значення функції [imagetypes()](function.imagetypes.md)
 
-**`IMG_WEBP`** (int)
+**`IMG_WEBP`**(int)
 
-Використовується як значення функції, що повертається [imagetypes()](function.imagetypes.md). Доступно з PHP 7.0.10.
+Повертається як значення функції [imagetypes()](function.imagetypes.md)(Доступно с PHP 7.0.10)
 
-**`IMG_WEBP_LOSSLESS`** (int)
+**`IMG_WEBP_LOSSLESS`**(int)
 
-Доступно з PHP 8.1.0.
+. (Доступно, починаючи з PHP 8.1.0)
 
-**`IMG_COLOR_TILED`** (int)
-
-Спеціальний варіант кольору, який може бути використаний замість певного за допомогою [imagecolorallocate()](function.imagecolorallocate.md) і [imagecolorallocatealpha()](function.imagecolorallocatealpha.md)
-
-**`IMG_COLOR_STYLED`** (int)
+**`IMG_COLOR_TILED`**(int)
 
 Спеціальний варіант кольору, який може бути використаний замість певного за допомогою [imagecolorallocate()](function.imagecolorallocate.md) і [imagecolorallocatealpha()](function.imagecolorallocatealpha.md)
 
-**`IMG_COLOR_BRUSHED`** (int)
+**`IMG_COLOR_STYLED`**(int)
 
 Спеціальний варіант кольору, який може бути використаний замість певного за допомогою [imagecolorallocate()](function.imagecolorallocate.md) і [imagecolorallocatealpha()](function.imagecolorallocatealpha.md)
 
-**`IMG_COLOR_STYLEDBRUSHED`** (int)
+**`IMG_COLOR_BRUSHED`**(int)
 
 Спеціальний варіант кольору, який може бути використаний замість певного за допомогою [imagecolorallocate()](function.imagecolorallocate.md) і [imagecolorallocatealpha()](function.imagecolorallocatealpha.md)
 
-**`IMG_COLOR_TRANSPARENT`** (int)
+**`IMG_COLOR_STYLEDBRUSHED`**(int)
 
 Спеціальний варіант кольору, який може бути використаний замість певного за допомогою [imagecolorallocate()](function.imagecolorallocate.md) і [imagecolorallocatealpha()](function.imagecolorallocatealpha.md)
 
-**`IMG_AFFINE_TRANSLATE`** (int)
+**`IMG_COLOR_TRANSPARENT`**(int)
 
-Константа типу афінного перетворення, що використовується з функцією [imageaffinematrixget()](function.imageaffinematrixget.md)
+Спеціальний варіант кольору, який може бути використаний замість певного за допомогою [imagecolorallocate()](function.imagecolorallocate.md) і [imagecolorallocatealpha()](function.imagecolorallocatealpha.md)
 
-**`IMG_AFFINE_SCALE`** (int)
+**`IMG_AFFINE_TRANSLATE`**(int)
 
-Константа типу афінного перетворення, що використовується з функцією [imageaffinematrixget()](function.imageaffinematrixget.md)
+Константа типу афінного перетворення; константу вказують як значення аргументу функції [imageaffinematrixget()](function.imageaffinematrixget.md)
 
-**`IMG_AFFINE_ROTATE`** (int)
+**`IMG_AFFINE_SCALE`**(int)
 
-Константа типу афінного перетворення, що використовується з функцією [imageaffinematrixget()](function.imageaffinematrixget.md)
+Константа типу афінного перетворення; константу вказують як значення аргументу функції [imageaffinematrixget()](function.imageaffinematrixget.md)
 
-**`IMG_AFFINE_SHEAR_HORIZONTAL`** (int)
+**`IMG_AFFINE_ROTATE`**(int)
 
-Константа типу афінного перетворення, що використовується з функцією [imageaffinematrixget()](function.imageaffinematrixget.md)
+Константа типу афінного перетворення; константу вказують як значення аргументу функції [imageaffinematrixget()](function.imageaffinematrixget.md)
 
-**`IMG_AFFINE_SHEAR_VERTICAL`** (int)
+**`IMG_AFFINE_SHEAR_HORIZONTAL`**(int)
 
-Константа типу афінного перетворення, що використовується з функцією [imageaffinematrixget()](function.imageaffinematrixget.md)
+Константа типу афінного перетворення; константу вказують як значення аргументу функції [imageaffinematrixget()](function.imageaffinematrixget.md)
 
-**`IMG_ARC_ROUNDED`** (int)
+**`IMG_AFFINE_SHEAR_VERTICAL`**(int)
 
-Константа стилю, що використовується з функцією [imagefilledarc()](function.imagefilledarc.md)
+Константа типу афінного перетворення; константу вказують як значення аргументу функції [imageaffinematrixget()](function.imageaffinematrixget.md)
 
-> **Зауваження**
+**`IMG_ARC_ROUNDED`**(int)
+
+Константа стилю, константу вказують як значення аргументу функції [imagefilledarc()](function.imagefilledarc.md)
+
+> **Зауваження** :
 > 
 > Ця константа має те саме значення, що і **`IMG_ARC_PIE`**
 
-**`IMG_ARC_PIE`** (int)
+**`IMG_ARC_PIE`**(int)
 
-Константа стилю, що використовується з функцією [imagefilledarc()](function.imagefilledarc.md)
+Константа стилю, константу вказують як значення аргументу функції [imagefilledarc()](function.imagefilledarc.md)
 
-**`IMG_ARC_CHORD`** (int)
+**`IMG_ARC_CHORD`**(int)
 
-Константа стилю, що використовується з функцією [imagefilledarc()](function.imagefilledarc.md)
+Константа стилю, константу вказують як значення аргументу функції [imagefilledarc()](function.imagefilledarc.md)
 
-**`IMG_ARC_NOFILL`** (int)
+**`IMG_ARC_NOFILL`**(int)
 
-Константа стилю, що використовується з функцією [imagefilledarc()](function.imagefilledarc.md)
+Константа стилю, константу вказують як значення аргументу функції [imagefilledarc()](function.imagefilledarc.md)
 
-**`IMG_ARC_EDGED`** (int)
+**`IMG_ARC_EDGED`**(int)
 
-Константа стилю, що використовується з функцією [imagefilledarc()](function.imagefilledarc.md)
+Константа стилю, константу вказують як значення аргументу функції [imagefilledarc()](function.imagefilledarc.md)
 
-**`IMG_GD2_RAW`** (int)
+**`IMG_GD2_RAW`**(int)
 
-Константа типу, що використовується з функцією [imagegd2()](function.imagegd2.md)
+Константа типу, константу вказують як значення аргументу функції [imagegd2()](function.imagegd2.md)
 
-**`IMG_GD2_COMPRESSED`** (int)
+**`IMG_GD2_COMPRESSED`**(int)
 
-Константа типу, що використовується з функцією [imagegd2()](function.imagegd2.md)
+Константа типу, константу вказують як значення аргументу функції [imagegd2()](function.imagegd2.md)
 
-**`IMG_EFFECT_REPLACE`** (int)
+**`IMG_EFFECT_REPLACE`**(int)
 
-Ефект альфа-змішування, використовується з функцією [imagelayereffect()](function.imagelayereffect.md)
+Ефект альфа-змішування, константу вказують як значення аргументу функції [imagelayereffect()](function.imagelayereffect.md)
 
-**`IMG_EFFECT_ALPHABLEND`** (int)
+**`IMG_EFFECT_ALPHABLEND`**(int)
 
-Ефект альфа-змішування, використовується з функцією [imagelayereffect()](function.imagelayereffect.md)
+Ефект альфа-змішування, константу вказують як значення аргументу функції [imagelayereffect()](function.imagelayereffect.md)
 
-**`IMG_EFFECT_NORMAL`** (int)
+**`IMG_EFFECT_NORMAL`**(int)
 
-Ефект альфа-змішування, використовується з функцією [imagelayereffect()](function.imagelayereffect.md)
+Ефект альфа-змішування, константу вказують як значення аргументу функції [imagelayereffect()](function.imagelayereffect.md)
 
-**`IMG_EFFECT_OVERLAY`** (int)
+**`IMG_EFFECT_OVERLAY`**(int)
 
-Ефект альфа-змішування, використовується з функцією [imagelayereffect()](function.imagelayereffect.md)
+Ефект альфа-змішування, константу вказують як значення аргументу функції [imagelayereffect()](function.imagelayereffect.md)
 
-**`IMG_EFFECT_MULTIPLY`** (int)
+**`IMG_EFFECT_MULTIPLY`**(int)
 
-Ефект альфа-змішування, використовується з функцією [imagelayereffect()](function.imagelayereffect.md)
+Ефект альфа-змішування, константу вказують як значення аргументу функції [imagelayereffect()](function.imagelayereffect.md)
 
-**`IMG_FILTER_NEGATE`** (int)
+**`IMG_FILTER_NEGATE`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)
 
-**`IMG_FILTER_GRAYSCALE`** (int)
+**`IMG_FILTER_GRAYSCALE`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)
 
-**`IMG_FILTER_BRIGHTNESS`** (int)
+**`IMG_FILTER_BRIGHTNESS`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)
 
-**`IMG_FILTER_CONTRAST`** (int)
+**`IMG_FILTER_CONTRAST`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)
 
-**`IMG_FILTER_COLORIZE`** (int)
+**`IMG_FILTER_COLORIZE`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)
 
-**`IMG_FILTER_EDGEDETECT`** (int)
+**`IMG_FILTER_EDGEDETECT`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)
 
-**`IMG_FILTER_GAUSSIAN_BLUR`** (int)
+**`IMG_FILTER_GAUSSIAN_BLUR`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)
 
-**`IMG_FILTER_SELECTIVE_BLUR`** (int)
+**`IMG_FILTER_SELECTIVE_BLUR`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)
 
-**`IMG_FILTER_EMBOSS`** (int)
+**`IMG_FILTER_EMBOSS`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)
 
-**`IMG_FILTER_MEAN_REMOVAL`** (int)
+**`IMG_FILTER_MEAN_REMOVAL`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)
 
-**`IMG_FILTER_SMOOTH`** (int)
+**`IMG_FILTER_SMOOTH`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)
 
-**`IMG_FILTER_PIXELATE`** (int)
+**`IMG_FILTER_PIXELATE`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)
 
-**`IMG_FILTER_SCATTER`** (int)
+**`IMG_FILTER_SCATTER`**(int)
 
-Спеціальний фільтр GD, що використовується з функцією [imagefilter()](function.imagefilter.md). (Доступна з PHP 7.4.0)
+Спеціальний фільтр GD, константу вказують як значення аргументу функції [imagefilter()](function.imagefilter.md)(Доступна с PHP 7.4.0)
 
-**`IMAGETYPE_GIF`** (int)
+**`IMAGETYPE_GIF`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_JPEG`** (int)
+**`IMAGETYPE_JPEG`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_JPEG2000`** (int)
+**`IMAGETYPE_JPEG2000`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_PNG`** (int)
+**`IMAGETYPE_PNG`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_SWF`** (int)
+**`IMAGETYPE_SWF`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_PSD`** (int)
+**`IMAGETYPE_PSD`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_BMP`** (int)
+**`IMAGETYPE_BMP`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_WBMP`** (int)
+**`IMAGETYPE_WBMP`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_XBM`** (int)
+**`IMAGETYPE_XBM`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_TIFF_II`** (int)
+**`IMAGETYPE_TIFF_II`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_TIFF_MM`** (int)
+**`IMAGETYPE_TIFF_MM`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_IFF`** (int)
+**`IMAGETYPE_IFF`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_JB2`** (int)
+**`IMAGETYPE_JB2`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_JPC`** (int)
+**`IMAGETYPE_JPC`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_JP2`** (int)
+**`IMAGETYPE_JP2`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_JPX`** (int)
+**`IMAGETYPE_JPX`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_SWC`** (int)
+**`IMAGETYPE_SWC`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_ICO`** (int)
+**`IMAGETYPE_ICO`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md)
 
-**`IMAGETYPE_WEBP`** (int)
+**`IMAGETYPE_WEBP`**(int)
 
-Константа типу зображення, що використовується з функціями [imagetypeтоmimetype()](function.image-type-to-mime-type.md) і [imagetypeтоextension()](function.image-type-to-extension.md). (Available as of PHP 7.1.0)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md). (Доступно, починаючи з PHP 7.1.0)
 
-**`PNG_NO_FILTER`** (int)
+**`IMAGETYPE_AVIF`**(int)
 
-Спеціальний фільтр PNG filter, що використовується з функцією [imagepng()](function.imagepng.md)
+Константа типу зображення, константу вказують як значення аргументу функцій [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) і [image\_type\_to\_extension()](function.image-type-to-extension.md). (Доступно, починаючи з PHP 8.1.0)
 
-**`PNG_FILTER_NONE`** (int)
+**`PNG_NO_FILTER`**(int)
 
-Спеціальний фільтр PNG filter, що використовується з функцією [imagepng()](function.imagepng.md)
+Спеціальний фільтр PNG filter, константу вказують як значення аргументу функції [imagepng()](function.imagepng.md)
 
-**`PNG_FILTER_SUB`** (int)
+**`PNG_FILTER_NONE`**(int)
 
-Спеціальний фільтр PNG filter, що використовується з функцією [imagepng()](function.imagepng.md)
+Спеціальний фільтр PNG filter, константу вказують як значення аргументу функції [imagepng()](function.imagepng.md)
 
-**`PNG_FILTER_UP`** (int)
+**`PNG_FILTER_SUB`**(int)
 
-Спеціальний фільтр PNG filter, що використовується з функцією [imagepng()](function.imagepng.md)
+Спеціальний фільтр PNG filter, константу вказують як значення аргументу функції [imagepng()](function.imagepng.md)
 
-**`PNG_FILTER_AVG`** (int)
+**`PNG_FILTER_UP`**(int)
 
-Спеціальний фільтр PNG filter, що використовується з функцією [imagepng()](function.imagepng.md)
+Спеціальний фільтр PNG filter, константу вказують як значення аргументу функції [imagepng()](function.imagepng.md)
 
-**`PNG_FILTER_PAETH`** (int)
+**`PNG_FILTER_AVG`**(int)
 
-Спеціальний фільтр PNG filter, що використовується з функцією [imagepng()](function.imagepng.md)
+Спеціальний фільтр PNG filter, константу вказують як значення аргументу функції [imagepng()](function.imagepng.md)
 
-**`PNG_ALL_FILTERS`** (int)
+**`PNG_FILTER_PAETH`**(int)
 
-Спеціальний фільтр PNG filter, що використовується з функцією [imagepng()](function.imagepng.md)
+Спеціальний фільтр PNG filter, константу вказують як значення аргументу функції [imagepng()](function.imagepng.md)
 
-**`IMG_FLIP_VERTICAL`** (int)
+**`PNG_ALL_FILTERS`**(int)
 
-Використовується з функцією [imageflip()](function.imageflip.md)доступна з PHP 5.5.0.
+Спеціальний фільтр PNG filter, константу вказують як значення аргументу функції [imagepng()](function.imagepng.md)
 
-**`IMG_FLIP_HORIZONTAL`** (int)
+**`IMG_FLIP_VERTICAL`**(int)
 
-Використовується з функцією [imageflip()](function.imageflip.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imageflip()](function.imageflip.md)доступна з PHP 5.5.0.
 
-**`IMG_FLIP_BOTH`** (int)
+**`IMG_FLIP_HORIZONTAL`**(int)
 
-Використовується з функцією [imageflip()](function.imageflip.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imageflip()](function.imageflip.md)доступна з PHP 5.5.0.
 
-**`IMG_BELL`** (int)
+**`IMG_FLIP_BOTH`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imageflip()](function.imageflip.md)доступна з PHP 5.5.0.
 
-**`IMG_BESSEL`** (int)
+**`IMG_BELL`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_BILINEAR_FIXED`** (int)
+**`IMG_BESSEL`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_BICUBIC_FIXED`** (int)
+**`IMG_BILINEAR_FIXED`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_BICUBIC`** (int)
+**`IMG_BICUBIC_FIXED`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_BLACKMAN`** (int)
+**`IMG_BICUBIC`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_BOX`** (int)
+**`IMG_BLACKMAN`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_BSPLINE`** (int)
+**`IMG_BOX`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_CATMULLROM`** (int)
+**`IMG_BSPLINE`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_GAUSSIAN`** (int)
+**`IMG_CATMULLROM`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_GENERALIZED_CUBIC`** (int)
+**`IMG_GAUSSIAN`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_HERMITE`** (int)
+**`IMG_GENERALIZED_CUBIC`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_HAMMING`** (int)
+**`IMG_HERMITE`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_HANNING`** (int)
+**`IMG_HAMMING`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_MITCHELL`** (int)
+**`IMG_HANNING`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_POWER`** (int)
+**`IMG_MITCHELL`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_QUADRATIC`** (int)
+**`IMG_POWER`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_SINC`** (int)
+**`IMG_QUADRATIC`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_NEAREST_NEIGHBOUR`** (int)
+**`IMG_SINC`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_WEIGHTED4`** (int)
+**`IMG_NEAREST_NEIGHBOUR`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
 
-**`IMG_TRIANGLE`** (int)
+**`IMG_WEIGHTED4`**(int)
 
-Використовується з функцією [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.
+
+**`IMG_TRIANGLE`**(int)
+
+Константу вказують як значення аргументу функції [imagesetinterpolation()](function.imagesetinterpolation.md)доступна з PHP 5.5.0.

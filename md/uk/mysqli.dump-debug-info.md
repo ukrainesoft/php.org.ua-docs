@@ -4,15 +4,16 @@ navigation:
   - mysqli.errno.md: 'mysqli::$errno »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::dumpdebuginfo'
+title: 'mysqli::dump\_debug\_info'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::dumpdebuginfo
+# mysqli::dump\_debug\_info
 
-# mysqlidumpdebuginfo
+# mysqli\_dump\_debug\_info
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::dumpdebuginfo -- mysqlidumpdebuginfo — Журналування налагоджувальної інформації
+mysqli::dump\_debug\_info -- mysqli\_dump\_debug\_info — Журналування налагоджувальної інформації
 
 ### Опис
 
@@ -34,12 +35,12 @@ mysqli_dump_debug_info(mysqli $mysql): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [mysqlidebug()](mysqli.debug.md) - Виконує процедури налагодження
+-   [mysqli\_debug()](mysqli.debug.md) \- Виконує процедури налагодження

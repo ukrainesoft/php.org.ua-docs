@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::setimagechanneldepth'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::setimagechanneldepth
 
@@ -24,7 +25,7 @@ public Gmagick::setimagechanneldepth(int $channel, int $depth): Gmagick
 
 `channel`
 
-Одна з констант [канала](gmagick.constants.md#gmagick.constants.channel) `Gmagick::CHANNEL_*`
+Одна из констант[каналу](gmagick.constants.md#gmagick.constants.channel) `Gmagick::CHANNEL_*`
 
 `depth`
 
@@ -36,4 +37,4 @@ public Gmagick::setimagechanneldepth(int $channel, int $depth): Gmagick
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

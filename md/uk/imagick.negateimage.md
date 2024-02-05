@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::negateImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::negateImage
 
@@ -40,7 +41,7 @@ public Imagick::negateImage(bool $gray, int $channel = Imagick::CHANNEL_DEFAULT)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::negateImage()****
+**Пример #1 Пример использования**Imagick::negateImage()\*\*\*\*
 
 ```php
 <?php

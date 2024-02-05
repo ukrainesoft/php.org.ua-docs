@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-text-layout.setcolor.md: '« UIDrawTextLayout::setColor'
-  - class.ui-draw-text-font.md: ОЙDrawTextFont »
+  - ui-draw-text-layout.setcolor.md: '« UI\\Draw\\Text\\Layout::setColor'
+  - class.ui-draw-text-font.md: UI\\Draw\\Text\\Font »
   - index.md: PHP Manual
-  - class.ui-draw-text-layout.md: ОЙDrawTextLayout
-title: 'ОЙDrawTextLayout::setWidth'
+  - class.ui-draw-text-layout.md: UI\\Draw\\Text\\Layout
+title: 'UI\\Draw\\Text\\Layout::setWidth'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawTextLayout::setWidth
+# UI\\Draw\\Text\\Layout::setWidth
 
 (UI 0.9.9)
 
-ОЙDrawTextLayout::setWidth — Встановити ширину
+UI\\Draw\\Text\\Layout::setWidth — Встановити ширину
 
 ### Опис
 

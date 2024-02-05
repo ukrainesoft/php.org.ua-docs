@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-error.md: « odbcerror
-  - function.odbc-exec.md: odbcexec »
+  - function.odbc-error.md: « odbc\_error
+  - function.odbc-exec.md: odbc\_exec »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcerrormsg
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_errormsg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcerrormsg
+# odbc\_errormsg
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
-odbcerrormsg — Повертає останнє повідомлення про помилку
+odbc\_errormsg — Повертає останнє повідомлення про помилку
 
 ### Опис
 
@@ -24,21 +25,21 @@ odbc_errormsg(?resource $odbc = null): string
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 ### Значення, що повертаються
 
-Якщо вказано параметр `odbc`, повертається останній стан цієї сполуки, інакше повертається останній стан будь-якої сполуки.
+Если указан параметр`odbc`, повертається останній стан цієї сполуки, інакше повертається останній стан будь-якої сполуки.
 
-Ця функція повертає осмислене значення лише тоді, коли останній запит ODBC завершився невдало (тобто функція [odbcexec()](function.odbc-exec.md) повернула **`false`**
+Ця функція повертає осмислене значення лише тоді, коли останній запит ODBC завершився невдало (тобто функція [odbc\_exec()](function.odbc-exec.md) повернула **`false`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `odbc` тепер допускає значення null. |
+| 8.0.0 | `odbc` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [odbcerror()](function.odbc-error.md) - Повертає останній код помилки
--   [odbcexec()](function.odbc-exec.md) - Виконує інструкцію SQL безпосередньо
+-   [odbc\_error()](function.odbc-error.md) \- Повертає останній код помилки
+-   [odbc\_exec()](function.odbc-exec.md) \- Виконує інструкцію SQL безпосередньо

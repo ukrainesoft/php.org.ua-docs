@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-float.md: « isfloat
-  - function.is-integer.md: ісinteger »
+  - function.is-float.md: « is\_float
+  - function.is-integer.md: is\_integer »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
-title: ісint
+title: is\_int
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісint
+# is\_int
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісint — Перевіряє, чи є змінна цілим числом
+is\_int — Перевіряє, чи є змінна ціла кількість
 
 ### Опис
 
@@ -18,11 +19,11 @@ title: ісint
 is_int(mixed $value): bool
 ```
 
-Перевіряє, чи тип змінної є цілим.
+Перевіряє, чи належить тип змінної цілого числа (int).
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Щоб перевірити, чи змінна є числом або рядком, що містить число (як поле введення у формі, яке завжди є рядком), використовуйте [ісnumeric()](function.is-numeric.md)
+> Щоб перевірити належність змінної до чи числовому рядку (наприклад, при обробці полів введення форми, які завжди передаються у вигляді рядка), викликають функцію [is\_numeric()](function.is-numeric.md)
 
 ### Список параметрів
 
@@ -32,14 +33,15 @@ is_int(mixed $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` є цілим числом (int), або **`false`** в іншому випадку.
+Повертає **`true`**, если значение`value` - ціле число (int), інакше **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ісint()****
+**Пример #1 Пример использования функции**is\_int()\*\*\*\*
 
 ```php
 <?php
+
 $values = array(23, "23", 23.5, "23.5", null, true, false);
 foreach ($values as $value) {
     echo "is_int(";
@@ -47,10 +49,11 @@ foreach ($values as $value) {
     echo ") = ";
     var_dump(is_int($value));
 }
+
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 is_int(23) = bool(true)
@@ -64,9 +67,9 @@ is_int(false) = bool(false)
 
 ### Дивіться також
 
--   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
--   [ісfloat()](function.is-float.md) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [ісnumeric()](function.is-numeric.md) - Перевіряє, чи є змінна числом або рядком, що містить число
--   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком
--   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
--   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом
+-   [is\_bool()](function.is-bool.md) \- Перевіряє, чи є змінна логічне значення
+-   [is\_float()](function.is-float.md) \- Перевіряє, чи є змінна число з плаваючою точкою
+-   [is\_numeric()](function.is-numeric.md) \- Перевіряє, чи містить змінне число чи числове рядок
+-   [is\_string()](function.is-string.md) \- Перевіряє, чи є тип змінної рядок
+-   [is\_array()](function.is-array.md) \- Визначає, чи є змінна масив
+-   [is\_object()](function.is-object.md) \- Перевіряє, чи є змінна об'єкт

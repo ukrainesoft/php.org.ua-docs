@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ffi-ctype.getalignment.md: '« FFICType::getAlignment'
-  - ffi-ctype.getarraylength.md: 'FFICType::getArrayLength »'
+  - ffi-ctype.getalignment.md: '« FFI\\CType::getAlignment'
+  - ffi-ctype.getarraylength.md: 'FFI\\CType::getArrayLength »'
   - index.md: PHP Manual
-  - class.ffi-ctype.md: FFICType
-title: 'FFICType::getArrayElementType'
+  - class.ffi-ctype.md: FFI\\CType
+title: 'FFI\\CType::getArrayElementType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# FFICType::getArrayElementType
+# FFI\\CType::getArrayElementType
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-FFICType::getArrayElementType — Опис
+FFI\\CType::getArrayElementType — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public FFI\CType::getArrayElementType(): FFI\CType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

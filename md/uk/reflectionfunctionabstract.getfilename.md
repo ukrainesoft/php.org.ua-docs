@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getFileName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getFileName
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getFileName — Отримує ім'я файлу
 
@@ -30,4 +31,4 @@ public ReflectionFunctionAbstract::getFileName(): string|false
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.md) - Отримання імені простору імен
+-   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.md) \- Отримання імені простору імен

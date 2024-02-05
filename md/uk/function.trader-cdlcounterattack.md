@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlconcealbabyswall.md: « tradercdlconcealbabyswall
-  - function.trader-cdldarkcloudcover.md: tradercdldarkcloudcover »
+  - function.trader-cdlconcealbabyswall.md: « trader\_cdlconcealbabyswall
+  - function.trader-cdldarkcloudcover.md: trader\_cdldarkcloudcover »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlcounterattack
+  - ref.trader.md: Функції Trader
+title: trader\_cdlcounterattack
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlcounterattack
+# trader\_cdlcounterattack
 
 (PECL trader >= 0.2.0)
 
-tradercdlcounterattack — Контратака
+trader\_cdlcounterattack — Контратака
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlcounterattack(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlcounterattack(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

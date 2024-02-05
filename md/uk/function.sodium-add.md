@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.sodium.md: « Функции Sodium
-  - function.sodium-base642bin.md: sodiumbase642bin »
+  - ref.sodium.md: « Функції Sodium
+  - function.sodium-base642bin.md: sodium\_base642bin »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumadd
+  - ref.sodium.md: Опції Sodium
+title: sodium\_add
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumadd
+# sodium\_add
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumadd - Додає великі числа
+sodium\_add - Додає великі числа
 
 ### Опис
 
@@ -18,7 +19,7 @@ sodiumadd - Додає великі числа
 sodium_add(string &$string1, string $string2): void
 ```
 
-Додає параметр `string2` до `string1`, перезаписуючи значення, що зберігається в `string1`. Функція передбачає, що обидва параметри є двійковими рядками, які представляють цілі числа без знака у порядку байтів.
+Добавляет параметр`string2`к`string1`, перезаписуючи значення, що зберігається в `string1`. Функція передбачає, що обидва параметри є двійковими рядками, які представляють цілі числа без знака у порядку байтів.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apcu-cache-info.md: « apcucacheinfo
-  - function.apcu-clear-cache.md: apcuclearcache »
+  - function.apcu-cache-info.md: « apcu\_cache\_info
+  - function.apcu-clear-cache.md: apcu\_clear\_cache »
   - index.md: PHP Manual
-  - ref.apcu.md: Функции APCu
-title: apcucas
+  - ref.apcu.md: Функції APCu
+title: apcu\_cas
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apcucas
+# apcu\_cas
 
 (PECL apcu >= 4.0.0)
 
-apcucas — Замінює старе значення на нове
+apcu\_cas — Замінює старе значення на нове
 
 ### Опис
 
@@ -18,7 +19,7 @@ apcucas — Замінює старе значення на нове
 apcu_cas(string $key, int $old, int $new): bool
 ```
 
-**apcucas()** замінює значення вже існуючого цілого чисельного значення, якщо воно дорівнює `old` на `new`
+**apcu\_cas()** замінює значення вже існуючого цілого чисельного значення, якщо воно дорівнює `old`на`new`
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ apcu_cas(string $key, int $old, int $new): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apcucas()****
+**Пример #1 Пример использования**apcu\_cas()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ echo '$foobar = ', apcu_fetch('foobar'), PHP_EOL;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 $foobar = 2
@@ -74,5 +75,5 @@ $foobar = 1
 
 ### Дивіться також
 
--   [apcudec()](function.apcu-dec.md) - Зменшити збережене число
--   [apcustore()](function.apcu-store.md) - Кешує змінну
+-   [apcu\_dec()](function.apcu-dec.md) \- Зменшити збережене число
+-   [apcu\_store()](function.apcu-store.md) \- Кешує змінну

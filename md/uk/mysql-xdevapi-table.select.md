@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-table.isview.md: '« Table::isView'
   - mysql-xdevapi-table.update.md: 'Table::update »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: mysql\_xdevapi\\Table
 title: 'Table::select'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Table::select
 
@@ -36,7 +37,7 @@ public mysql_xdevapi\Table::select(mixed $columns, mixed ...$more_columns): mysq
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTable::count()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Table::count()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ $row = $table->select('name', 'age')->execute()->fetchAll();
 print_r($row);
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

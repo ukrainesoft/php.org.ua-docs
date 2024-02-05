@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine-http-client.addfile.md: '« SwooleCoroutineHttpClient::addFile'
-  - swoole-coroutine-http-client.construct.md: 'SwooleCoroutineHttpClient::construct »'
+  - swoole-coroutine-http-client.addfile.md: '« Swoole\\Coroutine\\Http\\Client::addFile'
+  - swoole-coroutine-http-client.construct.md: 'Swoole\\Coroutine\\Http\\Client::\_\_construct »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutineHttpClient::close'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine\\Http\\Client::close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutineHttpClient::close
+# Swoole\\Coroutine\\Http\\Client::close
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutineHttpClient::close — Опис
+Swoole\\Coroutine\\Http\\Client::close — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Coroutine\Http\Client::close(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-window.hasmargin.md: '« UIWindow::hasMargin'
-  - ui-window.msg.md: 'ОЙWindow::msg »'
+  - ui-window.hasmargin.md: '« UI\\Window::hasMargin'
+  - ui-window.msg.md: 'UI\\Window::msg »'
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::isFullScreen'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::isFullScreen'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::isFullScreen
+# UI\\Window::isFullScreen
 
 (UI 0.9.9)
 
-ОЙWindow::isFullScreen — Визначення повного екрану
+UI\\Window::isFullScreen — Визначення повного екрану
 
 ### Опис
 

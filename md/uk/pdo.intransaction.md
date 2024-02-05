@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.pdo.md: PDO
 title: 'PDO::inTransaction'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::inTransaction
 
-(PHP 5> = 5.3.3, Bundled pdopgsql, PHP 7, PHP 8)
+(PHP 5 >= 5.3.3, Bundled pdo\_pgsql, PHP 7, PHP 8)
 
 PDO::inTransaction — Перевіряє, чи розпочато транзакцію
 
@@ -26,4 +27,4 @@ public PDO::inTransaction(): bool
 
 ### Значення, що повертаються
 
-Повертає \*\*`true`\*\*якщо транзакція в даний момент активна і **`false`**, якщо ні.
+Повертає **`true`**, якщо транзакція на даний момент активна та **`false`**, якщо ні.

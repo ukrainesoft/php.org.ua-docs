@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.tidy.md: tidy
 title: 'tidy::root'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidy::root
 
-# tidygetroot
+# tidy\_get\_root
 
 (PHP 5, PHP 7, PHP 8, PECL tidy 0.5.2-1.0.0)
 
-tidy::root -- tidygetroot — Повертає об'єкт [tidyNode](class.tidynode.md), що представляє вершину розібраного tidy-дерева
+tidy::root -- tidy\_get\_root — Повертає об'єкт [tidyNode](class.tidynode.md), що представляє вершину розібраного tidy-дерева
 
 ### Опис
 
@@ -42,7 +43,7 @@ tidy_get_root(tidy $tidy): ?tidyNode
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidy::root()****
+**Пример #1 Пример использования**tidy::root()\*\*\*\*
 
 ```php
 <?php
@@ -73,10 +74,10 @@ function dump_nodes($node, $indent) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-..html
+..md
 ....head
 ......title
 ....body

@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.solrparams.md: SolrParams
 title: 'SolrParams::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrParams::set
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrParams::set — Псевдонім SolrParams::setParam
+SolrParams::set — Псевдоним[SolrParams::setParam()](solrparams.setparam.md)
 
 ### Опис
 
@@ -28,7 +29,7 @@ final public SolrParams::set(string $name, string $value): void
 
 `value`
 
-Значення параметру
+Значення параметра
 
 ### Значення, що повертаються
 

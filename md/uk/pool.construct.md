@@ -4,17 +4,18 @@ navigation:
   - pool.resize.md: 'Pool::resize »'
   - index.md: PHP Manual
   - class.pool.md: Pool
-title: 'Pool::construct'
+title: 'Pool::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Pool::construct
+# Pool::\_\_construct
 
 (PECL pthreads >= 2.0.0)
 
-Pool::construct - Створює новий пул воркерів
+Pool::\_\_construct - Створює новий пул воркерів
 
 ### Опис
 
-public **Pool::construct**(int `$size`, string `$class` = ?, array `$ctor`
+public**Pool::\_\_construct**(int`$size`, string`$class`\= ?, array`$ctor`
 
 Створює новий пул робітників. Пули ліниво створюють свої потоки, що означає, що нові потоки будуть створюватися тільки тоді, коли вони необхідні виконання завдань.
 
@@ -55,7 +56,7 @@ var_dump($pool);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(Pool)#1 (6) {

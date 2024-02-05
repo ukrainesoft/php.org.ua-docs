@@ -4,38 +4,39 @@ navigation:
   - eventhttpconnection.getbase.md: 'EventHttpConnection::getBase »'
   - index.md: PHP Manual
   - class.eventhttpconnection.md: EventHttpConnection
-title: 'EventHttpConnection::construct'
+title: 'EventHttpConnection::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# EventHttpConnection::construct
+# EventHttpConnection::\_\_construct
 
 (PECL event >= 1.2.6-beta)
 
-EventHttpConnection::construct — Конструктор об'єкта EventHttpConnection
+EventHttpConnection::\_\_construct — Створює об'єкт EventHttpConnection
 
 ### Опис
 
 ```methodsynopsis
 public
-   EventHttpConnection::__construct(    
+   EventHttpConnection::__construct(    
     EventBase
      $base
-   ,    
+   ,    
     EventDnsBase
      $dns_base
-   ,    
+   ,    
     string
      $address
-   ,    
+   ,    
     int
      $port
-   ,    
+   ,    
     EventSslContext
      $ctx
      = null
    )
 ```
 
-Конструктор об'єкта EventHttpConnection.
+Створює об'єкт EventHttpConnection.
 
 ### Список параметрів
 
@@ -45,7 +46,7 @@ public
 
 `dns_base`
 
-Якщо параметр `dns_base` дорівнює **`null`**, дозвіл імені хоста буде заблоковано.
+Якщо параметр `dns_base`равен\*\*`null`\*\*, дозвіл імені хоста буде заблоковано.
 
 `address`
 
@@ -57,18 +58,14 @@ public
 
 `ctx`
 
-Об'єкт класу [EventSslContext](class.eventsslcontext.md). Включає OpenSSL.
+Об'єкт класу [EventSslContext](class.eventsslcontext.md)Включает OpenSSL.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Цей параметр доступний, лише якщо `Event` скомпільований за допомогою OpenSSL і тільки з `Libevent 2.1.0-alpha` і вище.
-
-### Значення, що повертаються
-
-Повертає об'єкт [EventHttpConnection](class.eventhttpconnection.md)
+> Параметр доступний, лише якщо модуль `Event` скомпільований за допомогою бібліотеки OpenSSL і тільки з модулем `Libevent 2.1.0-alpha` і вище.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL event 1.9.0 | Додана підтримка OpenSSL (`ctx` |
+| PECL event 1.9.0 | Додано підтримку бібліотеки OpenSSL (`ctx` |

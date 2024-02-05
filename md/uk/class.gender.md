@@ -1,12 +1,13 @@
 ---
 navigation:
-  - gender.example.admin.md: « Пример использования
-  - gender-gender.connect.md: 'GenderGender::connect »'
+  - gender.example.admin.md: « Приклад використання
+  - gender-gender.connect.md: 'Gender\\Gender::connect »'
   - index.md: PHP Manual
   - book.gender.md: Gender
-title: Клас GenderGender
+title: Клас Gender\\Gender
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас GenderGender
+# Клас Gender\\Gender
 
 (PECL gender >= 0.6.0)
 
@@ -416,9 +417,9 @@ public similarNames(string $name, int $country = ?): array
 
 ## Зміст
 
--   [GenderGender::connect](gender-gender.connect.md) — З'єднання із зовнішньою базою імен
--   [GenderGender::construct](gender-gender.construct.md) - Конструктор об'єкта класу Gender
--   [GenderGender::country](gender-gender.country.md) — Отримати текстову виставу країни
--   [GenderGender::get](gender-gender.get.md) — Отримати підлогу на ім'я
--   [GenderGender::isNick](gender-gender.isnick.md) — Перевіряє, чи name0 є псевдонімом для name1
--   [GenderGender::similarNames](gender-gender.similarnames.md) — Отримати схожі імена
+-   [Gender\\Gender::connect](gender-gender.connect.md)— З'єднання із зовнішньою базою імен
+-   [Gender\\Gender::\_\_construct](gender-gender.construct.md) \- Конструктор об'єкта класу Gender
+-   [Gender\\Gender::country](gender-gender.country.md)— Отримати текстову виставу країни
+-   [Gender\\Gender::get](gender-gender.get.md)— Отримати підлогу на ім'я
+-   [Gender\\Gender::isNick](gender-gender.isnick.md)— Перевіряє, чи name0 є псевдонімом для name1
+-   [Gender\\Gender::similarNames](gender-gender.similarnames.md)— Отримати схожі імена

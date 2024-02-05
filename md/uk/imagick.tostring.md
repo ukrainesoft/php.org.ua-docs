@@ -4,13 +4,14 @@ navigation:
   - imagick.transformimage.md: 'Imagick::transformImage »'
   - index.md: PHP Manual
   - class.imagick.md: Imagick
-title: 'Imagick::toString'
+title: 'Imagick::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Imagick::toString
+# Imagick::\_\_function toString() { \[native code\] }
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::toString — Повертає зображення у вигляді рядка
+Imagick::\_\_toString — Повертає зображення у вигляді рядка
 
 ### Опис
 
@@ -30,5 +31,5 @@ public Imagick::__toString(): string
 
 ### Дивіться також
 
--   [Imagick::getImageBlob()](imagick.getimageblob.md) - Повертає послідовність зображень у вигляді BLOB
--   [Imagick::getImagesBlob()](imagick.getimagesblob.md) - Повертає всі послідовності зображень у вигляді великого двійкового об'єкта
+-   [Imagick::getImageBlob()](imagick.getimageblob.md) \- Повертає послідовність зображень у вигляді BLOB
+-   [Imagick::getImagesBlob()](imagick.getimagesblob.md) \- Повертає всі послідовності зображень у вигляді великого двійкового об'єкта

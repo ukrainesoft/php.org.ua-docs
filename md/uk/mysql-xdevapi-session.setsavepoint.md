@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-session.rollbackto.md: '« Session::rollbackTo'
   - mysql-xdevapi-session.sql.md: 'Session::sql »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::setSavepoint'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::setSavepoint
 
@@ -22,7 +23,7 @@ public mysql_xdevapi\Session::setSavepoint(string $name = ?): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public mysql_xdevapi\Session::setSavepoint(string $name = ?): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::setSavepoint()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::setSavepoint()\*\*\*\*
 
 ```php
 <?php

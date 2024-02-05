@@ -4,9 +4,10 @@ navigation:
   - solrdismaxquery.setqueryalt.md: 'SolrDisMaxQuery::setQueryAlt »'
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
-title: 'Solr DisMax Query::set Phrase Slop'
+title: 'SolrDisMaxQuery::setPhraseSlop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Solr DisMax Query::set Phrase Slop
+# SolrDisMaxQuery::setPhraseSlop
 
 (No version information available, might only be in Git)
 
@@ -18,7 +19,7 @@ SolrDisMaxQuery::setPhraseSlop — Встановлює коефіцієнт в�
 public SolrDisMaxQuery::setPhraseSlop(string $slop): SolrDisMaxQuery
 ```
 
-Встановлює коефіцієнт відхилення за замовчуванням фразових запитів, побудованих з полями "pf", "pf2" and/or "pf3" (впливає на посилення). Параметр "ps".
+Встановлює коефіцієнт відхилення за промовчанням для фразових запитів, побудованих з полями "pf", "pf2" та/or "pf3" (впливає на посилення). Параметр "ps".
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public SolrDisMaxQuery::setPhraseSlop(string $slop): SolrDisMaxQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Solr DisMax Query::set Phrase Slop()****
+**Пример #1 Пример использования**SolrDisMaxQuery::setPhraseSlop()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ echo $dismaxQuery.PHP_EOL;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 q=lucene&defType=edismax&ps=4

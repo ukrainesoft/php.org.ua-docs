@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrcollapsefunction.md: SolrCollapseFunction
 title: 'SolrCollapseFunction::getSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrCollapseFunction::getSize
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrCollapseFunction::getSize — Повертає параметр розміру
 
@@ -28,4 +29,4 @@ public SolrCollapseFunction::getSize(): int
 
 ### Дивіться також
 
--   [SolrCollapseFunction::setSize()](solrcollapsefunction.setsize.md) - Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні по числовому полю
+-   [SolrCollapseFunction::setSize()](solrcollapsefunction.setsize.md) \- Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні по числовому полю

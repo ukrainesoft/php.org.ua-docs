@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.date-sub.md: « datesub
-  - function.date-sunrise.md: datesunrise »
+  - function.date-sub.md: « date\_sub
+  - function.date-sunrise.md: date\_sunrise »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
-title: datesuninfo
+title: date\_sun\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# datesuninfo
+# date\_sun\_info
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
-datesuninfo — Повертає масив з інформацією про захід сонця/світанок і початок/закінчення сутінків
+date\_sun\_info — Повертає масив з інформацією про захід сонця/світанок і початок/закінчення сутінків
 
 ### Опис
 
@@ -34,7 +35,7 @@ date_sun_info(int $timestamp, float $latitude, float $longitude): array
 
 ### Значення, що повертаються
 
-Повертає масив у разі успішного виконання або **`false`** у разі виникнення помилки. Структура масиву докладно описана у наступному списку:
+Повертає масив у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки. Структура массива подробно описана в следующем списке:
 
 `sunrise`
 
@@ -62,7 +63,7 @@ date_sun_info(int $timestamp, float $latitude, float $longitude): array
 
 `nautical_twilight_end`
 
-Кінець навігаційного заходу (зенітний кут = 102°). Воно починається на `civil_twilight_end`
+Кінець навігаційного заходу (зенітний кут = 102 °). Воно починається на `civil_twilight_end`
 
 `astronomical_twilight_begin`
 
@@ -70,19 +71,19 @@ date_sun_info(int $timestamp, float $latitude, float $longitude): array
 
 `astronomical_twilight_end`
 
-Кінець астрономічного заходу (зенітний кут = 108 °). Воно починається на `nautical_twilight_end`
+Кінець астрономічного заходу сонця (зенітний кут = 108°). Воно починається на `nautical_twilight_end`
 
 Значення елементів масиву - або тимчасова мітка UNIX, \*\*`false`\*\*якщо сонце знаходиться нижче відповідного зеніту протягом усього дня, або \*\*`true`\*\*якщо сонце знаходиться вище відповідного зеніту протягом усього дня.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Розрахунок був виправлений з урахуванням місцевої опівночі замість місцевого полудня, що дещо змінює результати. |
+| 7.2.0 | Розрахунок був виправлений з урахуванням місцевої опівночі замість місцевого полудня, що дещо змінює результати. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datesuninfo()****
+**Пример #1 Пример использования**date\_sun\_info()\*\*\*\*
 
 ```php
 <?php
@@ -93,7 +94,7 @@ foreach ($sun_info as $key => $val) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 sunrise: 05:52:11
@@ -107,73 +108,83 @@ astronomical_twilight_begin: 04:21:32
 astronomical_twilight_end: 17:12:00
 ```
 
-**Приклад #2 Полярна ніч**
+**Приклад #2 Полярна ніч із деякою обробкою**
 
 ```php
 <?php
-var_dump(date_sun_info(strtotime("2017-12-21"), 90, 0));
-?>
+$tz = new \DateTimeZone('America/Anchorage');
+$si = date_sun_info(strtotime("2022-12-21"), 70.21, -148.51);
+foreach ($si as $key => $value) {
+    echo
+        match ($value) {
+            true => 'always',
+            false => 'never',
+            default => date_create("@{$value}")->setTimeZone($tz)->format( 'H:i:s T' ),
+        },
+        ": {$key}",
+        "\n";
+}?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-array(9) {
-  ["sunrise"]=>
-  bool(false)
-  ["sunset"]=>
-  bool(false)
-  ["transit"]=>
-  int(1513857490)
-  ["civil_twilight_begin"]=>
-  bool(false)
-  ["civil_twilight_end"]=>
-  bool(false)
-  ["nautical_twilight_begin"]=>
-  bool(false)
-  ["nautical_twilight_end"]=>
-  bool(false)
-  ["astronomical_twilight_begin"]=>
-  bool(false)
-  ["astronomical_twilight_end"]=>
-  bool(false)
-}
+never: sunrise
+never: sunset
+12:52:18 AKST: transit
+10:53:19 AKST: civil_twilight_begin
+14:51:17 AKST: civil_twilight_end
+09:01:47 AKST: nautical_twilight_begin
+16:42:48 AKST: nautical_twilight_end
+07:40:47 AKST: astronomical_twilight_begin
+18:03:49 AKST: astronomical_twilight_end
 ```
 
-**Приклад #3 Опівнічне сонце**
+**Приклад #3 Опівнічне сонце (Тромсе, Норвегія)**
 
 ```php
 <?php
-var_dump(date_sun_info(strtotime("2017-06-21"), 90, 0));
+$si = date_sun_info(strtotime("2022-06-26"), 69.68, 18.94);
+print_r($si);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-array(9) {
-  ["sunrise"]=>
-  bool(true)
-  ["sunset"]=>
-  bool(true)
-  ["transit"]=>
-  int(1498046510)
-  ["civil_twilight_begin"]=>
-  bool(true)
-  ["civil_twilight_end"]=>
-  bool(true)
-  ["nautical_twilight_begin"]=>
-  bool(true)
-  ["nautical_twilight_end"]=>
-  bool(true)
-  ["astronomical_twilight_begin"]=>
-  bool(true)
-  ["astronomical_twilight_end"]=>
-  bool(true)
-}
+Array
+(
+    [sunrise] => 1
+    [sunset] => 1
+    [transit] => 1656240426
+    [civil_twilight_begin] => 1
+    [civil_twilight_end] => 1
+    [nautical_twilight_begin] => 1
+    [nautical_twilight_end] => 1
+    [astronomical_twilight_begin] => 1
+    [astronomical_twilight_end] => 1
+)
+```
+
+**Приклад #4 Обчислення тривалості дня (Київ)**
+
+```php
+<?php
+$si = date_sun_info(strtotime('2022-08-26'), 50.45, 30.52);
+$diff = $si['sunset'] - $si['sunrise'];
+echo "Продолжительность дня: ",
+    floor($diff / 3600), " ч. ",
+    floor(($diff % 3600) / 60), " сек.\n";
+?>
+```
+
+Результат виконання наведеного прикладу:
+
+```
+Продолжительность дня: 13 ч. 56 сек.
 ```
 
 ### Дивіться також
 
--   [datesunrise()](function.date-sunrise.md) - Повертає час світанку для заданого дня та місця розташування
--   [datesunset()](function.date-sunset.md) - Повертає час заходу сонця для заданого дня та місця розташування
+-   [date\_sunrise()](function.date-sunrise.md) \- Повертає час світанку для заданого дня та місця розташування
+-   [date\_sunset()](function.date-sunset.md) \- Повертає час заходу сонця для заданого дня та місця розташування

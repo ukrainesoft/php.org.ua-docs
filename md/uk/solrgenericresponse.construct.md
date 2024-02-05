@@ -1,20 +1,21 @@
 ---
 navigation:
   - class.solrgenericresponse.md: « SolrGenericResponse
-  - solrgenericresponse.destruct.md: 'SolrGenericResponse::destruct »'
+  - solrgenericresponse.destruct.md: 'SolrGenericResponse::\_\_destruct »'
   - index.md: PHP Manual
   - class.solrgenericresponse.md: SolrGenericResponse
-title: 'SolrGenericResponse::construct'
+title: 'SolrGenericResponse::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrGenericResponse::construct
+# SolrGenericResponse::\_\_construct
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrGenericResponse::construct — Конструктор
+SolrGenericResponse::\_\_construct — Конструктор
 
 ### Опис
 
-public **SolrGenericResponse::construct**
+public**SolrGenericResponse::\_\_construct**()
 
 Конструктор
 

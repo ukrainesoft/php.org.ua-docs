@@ -1,10 +1,11 @@
 ---
 navigation:
   - weakreference.get.md: '« WeakReference::get'
-  - ext-weakmap.construct.md: 'WeakMap::construct »'
+  - weakmap.count.md: 'WeakMap::count »'
   - index.md: PHP Manual
   - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Клас WeakMap
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас WeakMap
 
@@ -20,23 +21,22 @@ title: Клас WeakMap
 
 ```classsynopsis
 
-     
+    
+     final
+     class WeakMap
     
 
     
-     
-      final
-      class WeakMap
-     
+     implements
+      ArrayAccess,
 
-     implements 
-       ArrayAccess,  Countable,  IteratorAggregate {
+     Countable,
+
+     IteratorAggregate {
 
     /* Методы */
     
-   public __construct()
-
-    public count(): int
+   public count(): int
 public getIterator(): Iterator
 public offsetExists(object $object): bool
 public offsetGet(object $object): mixed
@@ -48,13 +48,13 @@ public offsetUnset(object $object): void
 
 ## Приклади
 
-**Приклад #1 Приклад використання **Weakmap****
+**Пример #1 Пример использования**Weakmap\*\*\*\*
 
 ```php
 <?php
 $wm = new WeakMap();
 
-$o = new StdClass;
+$o = new stdClass;
 
 class A {
     public function __destruct() {
@@ -71,7 +71,7 @@ echo "Готово\n";
 var_dump(count($wm));
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(1)
@@ -83,10 +83,9 @@ int(0)
 
 ## Зміст
 
--   [WeakMap::construct](ext-weakmap.construct.md) - Створює нову колекцію (map)
--   [WeakMap::count](weakmap.count.md) — Підраховує кількість живих записів у колекції (map)
--   [WeakMap::getIterator](weakmap.getiterator.md) — Отримує зовнішній ітератор
--   [WeakMap::offsetExists](weakmap.offsetexists.md) — Перевіряє, чи є у колекції (map) певний об'єкт
--   [WeakMap::offsetGet](weakmap.offsetget.md) — Повертає значення, на яке вказує певний об'єкт
--   [WeakMap::offsetSet](weakmap.offsetset.md) - Оновлює колекцію (map) новою парою ключ-значення
--   [WeakMap::offsetUnset](weakmap.offsetunset.md) — Видаляє запис із колекції (map)
+-   [WeakMap::count](weakmap.count.md)— Підраховує кількість живих записів у колекції (map)
+-   [WeakMap::getIterator](weakmap.getiterator.md)— Отримує зовнішній ітератор
+-   [WeakMap::offsetExists](weakmap.offsetexists.md)— Перевіряє, чи є у колекції (map) певний об'єкт
+-   [WeakMap::offsetGet](weakmap.offsetget.md)— Повертає значення, на яке вказує певний об'єкт
+-   [WeakMap::offsetSet](weakmap.offsetset.md)— Оновлює колекцію (map) новою парою ключ-значення
+-   [WeakMap::offsetUnset](weakmap.offsetunset.md)— Видаляє запис із колекції (map)

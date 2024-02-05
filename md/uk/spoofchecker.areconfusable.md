@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.spoofchecker.md: « Spoofchecker
-  - spoofchecker.construct.md: 'Spoofchecker::construct »'
+  - spoofchecker.construct.md: 'Spoofchecker::\_\_construct »'
   - index.md: PHP Manual
   - class.spoofchecker.md: Spoofchecker
 title: 'Spoofchecker::areConfusable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Spoofchecker::areConfusable
 
@@ -40,7 +41,7 @@ public Spoofchecker::areConfusable(string $string1, string $string2, int &$error
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Spoofchecker::areConfusable()****
+**Пример #1 Пример использования**Spoofchecker::areConfusable()\*\*\*\*
 
 ```php
 <?php

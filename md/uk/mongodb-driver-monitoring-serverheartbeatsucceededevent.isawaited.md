@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.md: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply'
-  - class.mongodb-driver-monitoring-topologychangedevent.md: MongoDBDriverMonitoringTopologyChangedEvent »
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.md: '« MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getReply'
+  - class.mongodb-driver-monitoring-topologychangedevent.md: MongoDB\\Driver\\Monitoring\\TopologyChangedEvent »
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
-title: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited'
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent
+title: 'MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::isAwaited'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited
+# MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::isAwaited
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited — Повертає, чи використовувався в heartbeat потоковий протокол
+MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::isAwaited — Повертає, чи використовувався в heartbeat потоковий протокол
 
 ### Опис
 
@@ -30,4 +31,4 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::isAwaited(
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

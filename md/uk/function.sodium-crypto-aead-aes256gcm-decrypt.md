@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.sodium-compare.md: « sodiumcompare
-  - function.sodium-crypto-aead-aes256gcm-encrypt.md: sodiumcryptoaeadaes256gcmencrypt »
+  - function.sodium-compare.md: « sodium\_compare
+  - function.sodium-crypto-aead-aes256gcm-encrypt.md: sodium\_crypto\_aead\_aes256gcm\_encrypt »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoaeadaes256gcmdecrypt
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_aead\_aes256gcm\_decrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoaeadaes256gcmdecrypt
+# sodium\_crypto\_aead\_aes256gcm\_decrypt
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoaeadaes256gcmdecrypt — Перевірка та розшифрування повідомлення за допомогою AES-256-GCM
+sodium\_crypto\_aead\_aes256gcm\_decrypt — Перевірка та розшифрування повідомлення за допомогою AES-256-GCM
 
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_aead_aes256gcm_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
+sodium_crypto_aead_aes256gcm_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
 ```
 
-Перевіряє та розшифровує повідомлення за допомогою AES-256-GCM Доступно, лише якщо [sodiumcryptoaeadaes256gcmісavailable()](function.sodium-crypto-aead-aes256gcm-is-available.md) повертає **`true`**
+Перевіряє та розшифровує повідомлення за допомогою AES-256-GCM Доступно, лише якщо [sodium\_crypto\_aead\_aes256gcm\_is\_available()](function.sodium-crypto-aead-aes256gcm-is-available.md) повертає **`true`**
 
 ### Список параметрів
 
 `ciphertext`
 
-Має бути у форматі, наданому [sodiumcryptoaeadaes256gcmencrypt()](function.sodium-crypto-aead-aes256gcm-encrypt.md) (Зашифрований текст та тег, об'єднані).
+Має бути у форматі, наданому [sodium\_crypto\_aead\_aes256gcm\_encrypt()](function.sodium-crypto-aead-aes256gcm-encrypt.md) (Зашифрований текст та тег, об'єднані).
 
 `additional_data`
 
@@ -40,4 +41,4 @@ sodium_crypto_aead_aes256gcm_decrypt(    string $ciphertext,    string $addition
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає текст або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає текст або \*\*`false`\*\*в случае возникновения ошибки.

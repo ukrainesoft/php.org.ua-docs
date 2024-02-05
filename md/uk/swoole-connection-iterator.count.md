@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-connection-iterator.md: « SwooleConnectionIterator
-  - swoole-connection-iterator.current.md: 'SwooleConnectionIterator::current »'
+  - class.swoole-connection-iterator.md: « Swoole\\Connection\\Iterator
+  - swoole-connection-iterator.current.md: 'Swoole\\Connection\\Iterator::current »'
   - index.md: PHP Manual
-  - class.swoole-connection-iterator.md: SwooleConnectionIterator
-title: 'SwooleConnectionIterator::count'
+  - class.swoole-connection-iterator.md: Swoole\\Connection\\Iterator
+title: 'Swoole\\Connection\\Iterator::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleConnectionIterator::count
+# Swoole\\Connection\\Iterator::count
 
 (PECL swoole >= 1.9.0)
 
-SwooleConnectionIterator::count — Вважає з'єднання
+Swoole\\Connection\\Iterator::count — Вважає з'єднання
 
 ### Опис
 

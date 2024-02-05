@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-timer.exists.md: '« SwooleTimer::exists'
-  - class.swoole-websocket-frame.md: SwooleWebSocketFrame »
+  - swoole-timer.exists.md: '« Swoole\\Timer::exists'
+  - class.swoole-websocket-frame.md: Swoole\\WebSocket\\Frame »
   - index.md: PHP Manual
-  - class.swoole-timer.md: SwooleTimer
-title: 'SwooleTimer::tick'
+  - class.swoole-timer.md: Swoole\\Timer
+title: 'Swoole\\Timer::tick'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTimer::tick
+# Swoole\\Timer::tick
 
 (PECL swoole >= 1.9.0)
 
-SwooleTimer::tick - Повторює цю функцію в кожен заданий інтервал часу
+Swoole\\Timer::tick - Повторює цю функцію в кожен заданий інтервал часу
 
 ### Опис
 

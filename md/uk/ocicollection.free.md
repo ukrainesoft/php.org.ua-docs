@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.ocicollection.md: OCICollection
 title: 'OCICollection::free'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OCICollection::free
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
 OCICollection::free — Звільняє ресурси, які займає об'єкт колекції.
 
@@ -26,14 +27,14 @@ public OCICollection::free(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
+| 8.0.0, PECL OCI8 3.0.0 | Класс**OCI-Collection**перейменований на[OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [ocinewcollection](function.oci-new-collection.md)
+-   [oci\_new\_collection](function.oci-new-collection.md)

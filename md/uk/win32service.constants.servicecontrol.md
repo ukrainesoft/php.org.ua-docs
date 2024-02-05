@@ -4,10 +4,11 @@ navigation:
   - win32service.constants.controlsaccepted.md: Приймаються бітові маски обробки повідомлень службою Win32Service »
   - index.md: PHP Manual
   - win32service.constants.md: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 **Константи обробки повідомлень службою Win32Service**
 
-| Константа | Значение | Описание |
+| Константа | Значение | Опис |
 | --- | --- | --- |
 | **`WIN32_SERVICE_CONTROL_CONTINUE`** | 0x00000003 | Повідомляє службу, що треба вийти зі стану паузи. |
 | **`WIN32_SERVICE_CONTROL_DEVICEEVENT`** | 0x0000000B |  |

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - soapclient.getlastresponseheaders.md: '« SoapClient::getLastResponseHeaders'
-  - soapclient.setcookie.md: 'SoapClient::setCookie »'
+  - soapclient.getlastresponseheaders.md: '« SoapClient::\_\_getLastResponseHeaders'
+  - soapclient.setcookie.md: 'SoapClient::\_\_setCookie »'
   - index.md: PHP Manual
   - class.soapclient.md: SoapClient
-title: 'SoapClient::getTypes'
+title: 'SoapClient::\_\_getTypes'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapClient::getTypes
+# SoapClient::\_\_getTypes
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapClient::getTypes — Повертає список типів SOAP
+SoapClient::\_\_getTypes — Повертає список типів SOAP
 
 ### Опис
 
@@ -20,7 +21,7 @@ public SoapClient::__getTypes(): ?array
 
 Повертає масив типів, описаних у WSDL для веб-служби.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція працює лише у режимі WSDL.
 
@@ -34,7 +35,7 @@ public SoapClient::__getTypes(): ?array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapClient::getTypes()****
+**Пример #1 Пример использования**SoapClient::\_\_getTypes()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($client->__getTypes());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(88) {
@@ -82,4 +83,4 @@ array(88) {
 
 ### Дивіться також
 
--   [SoapClient::construct()](soapclient.construct.md) - Конструктор класу SoapClient
+-   [SoapClient::\_\_construct()](soapclient.construct.md) \- Конструктор класу SoapClient

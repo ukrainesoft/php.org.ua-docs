@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isprint'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isprint
 
@@ -26,7 +27,7 @@ public static IntlChar::isprint(int|string $codepoint): ?bool
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
@@ -45,7 +46,7 @@ var_dump(IntlChar::isprint("\u{200e}"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -56,5 +57,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::iscntrl()](intlchar.iscntrl.md) - Перевірити, чи є символ керуючим
+-   [IntlChar::iscntrl()](intlchar.iscntrl.md) \- Перевірити, чи є символ керуючим
 -   **`IntlChar::PROPERTY_DEFAULT_IGNORABLE_CODE_POINT`**
+-   [ctype\_print()](function.ctype-print.md) \- Перевіряє друковані символи

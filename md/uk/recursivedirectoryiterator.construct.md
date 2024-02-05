@@ -4,17 +4,18 @@ navigation:
   - recursivedirectoryiterator.getchildren.md: 'RecursiveDirectoryIterator::getChildren »'
   - index.md: PHP Manual
   - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator
-title: 'RecursiveDirectoryIterator::construct'
+title: 'RecursiveDirectoryIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# RecursiveDirectoryIterator::construct
+# RecursiveDirectoryIterator::\_\_construct
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
-RecursiveDirectoryIterator::construct — Конструктор класу RecursiveDirectoryIterator
+RecursiveDirectoryIterator::\_\_construct — Конструктор класу RecursiveDirectoryIterator
 
 ### Опис
 
-public **RecursiveDirectoryIterator::construct**(string `$directory`, int `$flags` = FilesystemIterator::KEYАСPATHNAME | FilesystemIterator::CURRENTАСFILEINFO)
+public**RecursiveDirectoryIterator::\_\_construct**(string`$directory`, int`$flags`\= FilesystemIterator::KEY\_AS\_PATHNAME | FilesystemIterator::CURRENT\_AS\_FILEINFO)
 
 Створює новий об'єкт класу **RecursiveDirectoryIterator()**, використовуючи заданий шлях `directory`
 
@@ -36,13 +37,13 @@ public **RecursiveDirectoryIterator::construct**(string `$directory`, int `$flag
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок. раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+| 8.0.0 | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок. раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)**
+**Пример #1 Пример использования[RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)**
 
 ```php
 <?php
@@ -66,7 +67,7 @@ while($it->valid()) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Имя файла: fruit/apple.xml
@@ -84,6 +85,6 @@ while($it->valid()) {
 
 ### Дивіться також
 
--   [FilesystemIterator::construct()](filesystemiterator.construct.md) - Створює новий ітератор файлової системи
--   [RecursiveIteratorIterator::construct()](recursiveiteratoriterator.construct.md) - Конструктор класу RecursiveIteratorIterator
--   [Обумовлені константи класса FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)
+-   [FilesystemIterator::\_\_construct()](filesystemiterator.construct.md) \- Створює новий ітератор файлової системи
+-   [RecursiveIteratorIterator::\_\_construct()](recursiveiteratoriterator.construct.md) \- Конструктор класу RecursiveIteratorIterator
+-   [Обумовлені константи класу FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)

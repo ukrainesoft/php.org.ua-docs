@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::isKnown'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanTask::isKnown
 
@@ -26,4 +27,4 @@ public GearmanTask::isKnown(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо завдання відоме, **`false`** в іншому випадку.
+**`true`**, если задача известна,**`false`** в іншому випадку.

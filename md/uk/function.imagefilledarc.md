@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagefilledarc
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagefilledarc
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagefilledarc — Малювання та заливання дуги
 
 ### Опис
 
 ```methodsynopsis
-imagefilledarc(    GdImage $image,    int $center_x,    int $center_y,    int $width,    int $height,    int $start_angle,    int $end_angle,    int $color,    int $style): bool
+imagefilledarc(    GdImage $image,    int $center_x,    int $center_y,    int $width,    int $height,    int $start_angle,    int $end_angle,    int $color,    int $style): bool
 ```
 
 Малює дугу з центром у заданих координатах зображення `image`
@@ -63,17 +64,17 @@ y-координат центру.
 3.  **`IMG_ARC_NOFILL`**
 4.  **`IMG_ARC_EDGED`**
 
-**`IMG_ARC_PIE`** і **`IMG_ARC_CHORD`** взаємно виключають; **`IMG_ARC_CHORD`** просто з'єднує початок та кінець дуги прямою лінією; **`IMG_ARC_PIE`** малює між ними частину кола . **`IMG_ARC_NOFILL`** означає, що повинні бути тільки межі, заливка не потрібна . **`IMG_ARC_EDGED`**, якщо використовується разом з **`IMG_ARC_NOFILL`**, означає, що початок і кінець дуги з'єднуються з центром - це хороший спосіб (краще заливки) отримати сектор (шматок пирога).
+**`IMG_ARC_PIE`**и**`IMG_ARC_CHORD`** взаємно виключають; **`IMG_ARC_CHORD`** просто з'єднує початок та кінець дуги прямою лінією; **`IMG_ARC_PIE`** малює між ними частину кола . **`IMG_ARC_NOFILL`** означає, що повинні бути тільки межі, заливка не потрібна . **`IMG_ARC_EDGED`**, якщо використовується разом з **`IMG_ARC_NOFILL`**, означає, що початок і кінець дуги з'єднуються з центром - це хороший спосіб (краще заливка) отримати сектор (шматок пирога).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
@@ -113,6 +114,6 @@ imagedestroy($image);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: Створення тривимірного пирога](images/21009b70229598c6a80eef8b45bf282b-imagefilledarc.png)

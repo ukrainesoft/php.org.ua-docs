@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getWindowsID'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlTimeZone::getWindowsID
 
-# intltzgetwindowsід
+# intltz\_get\_windows\_id
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
-IntlTimeZone::getWindowsID -- intltzgetwindowsid — Перетворити часовий пояс на часовий пояс для Windows
+IntlTimeZone::getWindowsID -- intltz\_get\_windows\_id — Перетворити часовий пояс на часовий пояс для Windows
 
 ### Опис
 
@@ -28,13 +29,13 @@ public static IntlTimeZone::getWindowsID(string $timezoneId): string|false
 intltz_get_windows_id(string $timezoneId): string|false
 ```
 
-Перекладає системний часовий пояс (наприклад, «America/LosAngeles») у часовий пояс для Windows (наприклад, «Pacific Standard Time»).
+Переводить системний часовий пояс (наприклад, «America/Los\_Angeles») у часовий пояс для Windows (наприклад, «Pacific Standard Time»).
 
 > **Зауваження**: Ця функція потребує ICU версії ≥ 52.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -42,8 +43,8 @@ intltz_get_windows_id(string $timezoneId): string|false
 
 ### Значення, що повертаються
 
-Повертає часовий пояс для Windows або **`false`** у разі виникнення помилки.
+Повертає часовий пояс для Windows або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [IntlTimeZone::getIDForWindowsID()](intltimezone.getidforwindowsid.md) - Перетворити часовий пояс для Windows на системний часовий пояс
+-   [IntlTimeZone::getIDForWindowsID()](intltimezone.getidforwindowsid.md) \- Перетворити часовий пояс для Windows на системний часовий пояс

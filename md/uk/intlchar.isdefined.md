@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isdefined'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isdefined
 
@@ -18,19 +19,19 @@ IntlChar::isdefined — Перевірити, чи є символ.
 public static IntlChar::isdefined(int|string $codepoint): ?bool
 ```
 
-Перевіряє, чи є символ. Зазвичай це означає, що коду Unicode призначено конкретний символ.
+Перевіряє, чи є символ. Зазвичай це означає, що код Unicode призначений конкретний символ.
 
 **`true`** для категорій, відмінних від "Cn" (інші, не призначені).
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Зауважте, що no-character code points (e.g., U+FDD0) не є "визначеним" (they є Cn), але сумісним кодом пунктів є "defined" (Cs).
+> Note that non-character code points (e.g., U+FDD0) are not "defined" (they are Cn), but surrogate code points are "defined" (Cs).
 
 ### Список параметрів
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
@@ -48,7 +49,7 @@ var_dump(IntlChar::isdefined("\u{FDD0}"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -58,9 +59,9 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є символ цифрою
--   [IntlChar::isalpha()](intlchar.isalpha.md) - Перевірити, чи є символ літерою
--   [IntlChar::isalnum()](intlchar.isalnum.md) - Перевірити, чи є символ буквою чи цифрою
+-   [IntlChar::isdigit()](intlchar.isdigit.md) \- Перевірити, чи є символ цифрою
+-   [IntlChar::isalpha()](intlchar.isalpha.md) \- Перевірити, чи є символ літерою
+-   [IntlChar::isalnum()](intlchar.isalnum.md) \- Перевірити, чи є символ буквою чи цифрою
 -   [IntlChar::isupper()](intlchar.isupper.md) - Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
--   [IntlChar::islower()](intlchar.islower.md) - Перевірити, чи в нижньому регістрі символ
--   [IntlChar::istitle()](intlchar.istitle.md) - Перевірити, чи символ є титульним (Titlecase)
+-   [IntlChar::islower()](intlchar.islower.md) \- Перевірити, чи в нижньому регістрі символ
+-   [IntlChar::istitle()](intlchar.istitle.md) \- Перевірити, чи символ є титульним (Titlecase)

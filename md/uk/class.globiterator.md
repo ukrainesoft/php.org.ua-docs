@@ -1,14 +1,15 @@
 ---
 navigation:
   - filteriterator.valid.md: '« FilterIterator::valid'
-  - globiterator.construct.md: 'GlobIterator::construct »'
+  - globiterator.construct.md: 'GlobIterator::\_\_construct »'
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас GlobIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас GlobIterator
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,57 +19,69 @@ title: Клас GlobIterator
 
 ```classsynopsis
 
-     
+    
+     class GlobIterator
     
 
     
-     
-      class GlobIterator
-     
+     extends
+      FilesystemIterator
+    
 
-     
-      extends
-       FilesystemIterator
-     
-
-     implements 
-       Countable {
+    
+     implements
+      Countable {
 
     /* Наследуемые константы */
     
+     public
      const
      int
-      FilesystemIterator::CURRENT_AS_PATHNAME = 32;
-const
+      FilesystemIterator::CURRENT_MODE_MASK;
+public
+     const
      int
-      FilesystemIterator::CURRENT_AS_FILEINFO = 0;
-const
+      FilesystemIterator::CURRENT_AS_PATHNAME;
+public
+     const
      int
-      FilesystemIterator::CURRENT_AS_SELF = 16;
-const
+      FilesystemIterator::CURRENT_AS_FILEINFO;
+public
+     const
      int
-      FilesystemIterator::CURRENT_MODE_MASK = 240;
-const
+      FilesystemIterator::CURRENT_AS_SELF;
+public
+     const
      int
-      FilesystemIterator::KEY_AS_PATHNAME = 0;
-const
+      FilesystemIterator::KEY_MODE_MASK;
+public
+     const
      int
-      FilesystemIterator::KEY_AS_FILENAME = 256;
-const
+      FilesystemIterator::KEY_AS_PATHNAME;
+public
+     const
      int
-      FilesystemIterator::FOLLOW_SYMLINKS = 512;
-const
+      FilesystemIterator::FOLLOW_SYMLINKS;
+public
+     const
      int
-      FilesystemIterator::KEY_MODE_MASK = 3840;
-const
+      FilesystemIterator::KEY_AS_FILENAME;
+public
+     const
      int
-      FilesystemIterator::NEW_CURRENT_AND_KEY = 256;
-const
+      FilesystemIterator::NEW_CURRENT_AND_KEY;
+public
+     const
      int
-      FilesystemIterator::SKIP_DOTS = 4096;
-const
+      FilesystemIterator::OTHER_MODE_MASK;
+public
+     const
      int
-      FilesystemIterator::UNIX_PATHS = 8192;
+      FilesystemIterator::SKIP_DOTS;
+public
+     const
+     int
+      FilesystemIterator::UNIX_PATHS;
 
 
     /* Методы */
@@ -87,33 +100,15 @@ public FilesystemIterator::rewind(): void
 public FilesystemIterator::setFlags(int $flags): void
 
     public DirectoryIterator::current(): mixed
-public DirectoryIterator::getATime(): int
 public DirectoryIterator::getBasename(string $suffix = ""): string
-public DirectoryIterator::getCTime(): int
 public DirectoryIterator::getExtension(): string
 public DirectoryIterator::getFilename(): string
-public DirectoryIterator::getGroup(): int
-public DirectoryIterator::getInode(): int
-public DirectoryIterator::getMTime(): int
-public DirectoryIterator::getOwner(): int
-public DirectoryIterator::getPath(): string
-public DirectoryIterator::getPathname(): string
-public DirectoryIterator::getPerms(): int
-public DirectoryIterator::getSize(): int
-public DirectoryIterator::getType(): string
-public DirectoryIterator::isDir(): bool
 public DirectoryIterator::isDot(): bool
-public DirectoryIterator::isExecutable(): bool
-public DirectoryIterator::isFile(): bool
-public DirectoryIterator::isLink(): bool
-public DirectoryIterator::isReadable(): bool
-public DirectoryIterator::isWritable(): bool
 public DirectoryIterator::key(): mixed
 public DirectoryIterator::next(): void
 public DirectoryIterator::rewind(): void
 public DirectoryIterator::seek(int $offset): void
-public
-   DirectoryIterator::__toString(): string
+public DirectoryIterator::__toString(): string
 public DirectoryIterator::valid(): bool
 
     public SplFileInfo::getATime(): int|false
@@ -150,5 +145,5 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [GlobIterator::construct](globiterator.construct.md) - Створює ітератор директорії, використовуючи glob-вираз
--   [GlobIterator::count](globiterator.count.md) — Визначає кількість директорій та файлів
+-   [GlobIterator::\_\_construct](globiterator.construct.md) \- Створює ітератор директорії, використовуючи glob-вираз
+-   [GlobIterator::count](globiterator.count.md)— Визначає кількість директорій та файлів

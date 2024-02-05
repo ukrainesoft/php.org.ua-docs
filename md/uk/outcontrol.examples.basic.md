@@ -1,12 +1,13 @@
 ---
 navigation:
   - outcontrol.examples.md: « Приклади
-  - outcontrol.examples.rewrite.md: Використання перезапису виводу »
+  - outcontrol.examples.rewrite.md: Перезапис виводу »
   - index.md: PHP Manual
   - outcontrol.examples.md: Приклади
-title: Базове використання
+title: Основи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Базове використання
+## Основи
 
 **Приклад #1 Приклад контролю виведення**
 
@@ -23,4 +24,4 @@ ob_end_flush();
 ?>
 ```
 
-У наведеному вище прикладі висновок з [echo](function.echo.md) буде зберігатись у буфері виводу до виклику [проendflush()](function.ob-end-flush.md). Водночас виклик [setcookie()](function.setcookie.md) успішно збережеться в cookie браузера, не викликаючи помилки (заголовки не можуть бути відправлені до браузера після того, як дані вже були надіслані).
+У наведеному прикладі висновок мовної конструкції [echo](function.echo.md) буде зберігатись у буфері виводу до виклику функції [ob\_end\_flush()](function.ob-end-flush.md). Тим часом виклик функції [setcookie()](function.setcookie.md) успішно збережеться в cookie браузера, не викликаючи помилки (заголовки не вийде відправити в браузер, коли дані вже відправлені).

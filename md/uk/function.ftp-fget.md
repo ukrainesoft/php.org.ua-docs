@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.ftp-exec.md: « ftpexec
-  - function.ftp-fput.md: ftpfput »
+  - function.ftp-exec.md: « ftp\_exec
+  - function.ftp-fput.md: ftp\_fput »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpfget
+title: ftp\_fget
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpfget
+# ftp\_fget
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftpfget — Завантажує файл із FTP-сервера і зберігає його у попередньо відкритому файлі
+ftp\_fget — Завантажує файл із FTP-сервера і зберігає його у попередньо відкритому файлі
 
 ### Опис
 
 ```methodsynopsis
-ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
+ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
 ```
 
-**ftpfget()** завантажує файл `remote_filename` з FTP-сервера та записує його в переданий файловий дескриптор.
+**ftp\_fget()** завантажує файл `remote_filename` з FTP-сервера та записує його в переданий файловий дескриптор.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `stream`
 
@@ -36,7 +37,7 @@ ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $remote_filenam
 
 `mode`
 
-Режим передачі. Має бути або **`FTP_ASCII`**, або **`FTP_BINARY`**
+Режим передачі. Має бути або **`FTP_ASCII`**, либо\*\*`FTP_BINARY`\*\*
 
 `offset`
 
@@ -44,18 +45,18 @@ ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $remote_filenam
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 7.3.0 | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpfget()****
+**Пример #1 Пример использования**ftp\_fget()\*\*\*\*
 
 ```php
 <?php
@@ -88,6 +89,6 @@ fclose($handle);
 
 ### Дивіться також
 
--   [ftpget()](function.ftp-get.md) - Завантажує файл із FTP-сервера
--   [ftpнбget()](function.ftp-nb-get.md) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
--   [ftpнбfget()](function.ftp-nb-fget.md) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі
+-   [ftp\_get()](function.ftp-get.md) \- Завантажує файл із FTP-сервера
+-   [ftp\_nb\_get()](function.ftp-nb-get.md) \- Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
+-   [ftp\_nb\_fget()](function.ftp-nb-fget.md) \- Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі

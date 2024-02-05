@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - cubrid.setup.md: Встановлення та налаштування
 title: Типи ресурсів
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Типи ресурсів
 
@@ -12,16 +13,16 @@ title: Типи ресурсів
 
 ## ідентифікатор з'єднання
 
-Ідентифікатор з'єднання, що повертається функціями [cubridconnect()](function.cubrid-connect.md) [cubridconnectwithurl()](function.cubrid-connect-with-url.md) [cubridpconnect()](function.cubrid-pconnect.md) і [cubridpconnectwithurl()](function.cubrid-pconnect-with-url.md)
+Ідентифікатор з'єднання, що повертається функціями [cubrid\_connect()](function.cubrid-connect.md) [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.md) [cubrid\_pconnect()](function.cubrid-pconnect.md) і [cubrid\_pconnect\_with\_url()](function.cubrid-pconnect-with-url.md)
 
 ## request identifier
 
-Ідентифікатор запиту, що повертається функціями [cubridprepare()](function.cubrid-prepare.md) і [cubridexecute()](function.cubrid-execute.md)
+Ідентифікатор запиту, що повертається функціями [cubrid\_prepare()](function.cubrid-prepare.md) і [cubrid\_execute()](function.cubrid-execute.md)
 
 ## Ідентифікатор LOB
 
-Ідентифікатор LOB, який повертається функцією [cubridlobget()](function.cubrid-lob-get.md)
+Ідентифікатор LOB, який повертається функцією [cubrid\_lob\_get()](function.cubrid-lob-get.md)
 
 ## LOB2 identifier
 
-Ідентифікатор LOB, який повертається функцією [cubridlob2new()](function.cubrid-lob2-new.md) або взятий із результуючого набору.
+Ідентифікатор LOB, який повертається функцією [cubrid\_lob2\_new()](function.cubrid-lob2-new.md) або взятий із результуючого набору.

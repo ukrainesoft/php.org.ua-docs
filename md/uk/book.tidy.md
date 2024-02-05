@@ -1,14 +1,15 @@
 ---
 navigation:
-  - swoole-websocket-server.unpack.md: '« SwooleWebSocketServer::unpack'
-  - intro.tidy.md: Введение »
+  - swoole-websocket-server.unpack.md: '« Swoole\\WebSocket\\Server::unpack'
+  - intro.tidy.md: Вступ "
   - index.md: PHP Manual
   - refs.basic.other.md: Інші базові модулі
 title: Tidy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Tidy
 
--   [Введение](intro.tidy.md)
+-   [Вступ](intro.tidy.md)
 -   [Встановлення та налаштування](tidy.setup.md)
     -   [Вимоги](tidy.requirements.md)
     -   [Установка](tidy.installation.md)
@@ -16,43 +17,43 @@ title: Tidy
     -   [Типи ресурсів](tidy.resources.md)
 -   [Обумовлені константи](tidy.constants.md)
 -   [Приклади](tidy.examples.md)
-    -   [Пример использования Tidy](tidy.examples.basic.md)
--   [tidy](class.tidy.md) - Клас tidy
-    -   [tidy::body](tidy.body.md) — Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
-    -   [tidy::cleanRepair](tidy.cleanrepair.md) — Виконати налаштоване очищення та відновлення розібраної розмітки
-    -   [tidy::construct](tidy.construct.md) - Створює новий tidy-об'єкт
-    -   [tidy::diagnose](tidy.diagnose.md) — Запуск налаштованої діагностики для розібраної та відновленої розмітки
-    -   [tidy::$errorBuffer](tidy.props.errorbuffer.md) — Повертає попередження та помилки, які виникли при розборі зазначеного документа
-    -   [tidy::getConfig](tidy.getconfig.md) — Отримує поточну конфігурацію Tidy
-    -   [tidy::getHtmlVer](tidy.gethtmlver.md) — Отримує виявлену HTML версію для зазначеного документа
-    -   [tidy::getOpt](tidy.getopt.md) — Повертає значення вказаного конфігураційного параметра для документа tidy
-    -   [tidy::getOptDoc](tidy.getoptdoc.md) — Повертає опис для опції із зазначеною назвою
-    -   [tidy::getRelease](tidy.getrelease.md) — Отримати дату релізу (версію) для бібліотеки Tidy
-    -   [tidy::getStatus](tidy.getstatus.md) — Отримує статус зазначеного документа
-    -   [tidy::head](tidy.head.md) — Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
-    -   [tidy::html](tidy.html.md) — Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
-    -   [tidy::isXhtml](tidy.isxhtml.md) — Визначає, чи є документ XHTML-документом
-    -   [tidy::isXml](tidy.isxml.md) — Визначає, чи документ є спільним XML-документом (не HTML/XHTML)
-    -   [tidy::parseFile](tidy.parsefile.md) — Розбір розмітки у файлі або URI
-    -   [tidy::parseString](tidy.parsestring.md) — Розбір документа, що зберігається у рядку
-    -   [tidy::repairFile](tidy.repairfile.md) — Відновлює розмітку файлу та повертає його у вигляді рядка
-    -   [tidy::repairString](tidy.repairstring.md) — Відновлює рядок, використовуючи наскільки можна конфігураційний файл
-    -   [tidy::root](tidy.root.md) - Повертає об'єкт tidyNode, що представляє вершину розібраного tidy-дерева
--   [tidyNode](class.tidynode.md) - Клас tidyNode
-    -   [tidyNode::construct](tidynode.construct.md) — Приватний конструктор, який унеможливлює пряме створення об'єкта
-    -   [tidyNode::getParent](tidynode.getparent.md) - Повертає батьківський вузол поточного вузла
-    -   [tidyNode::hasChildren](tidynode.haschildren.md) - Перевіряє існування нащадків біля вузла
-    -   [tidyNode::hasSiblings](tidynode.hassiblings.md) - Перевіряє існування сусідніх вузлів
-    -   [tidyNode::isAsp](tidynode.isasp.md) — Перевіряє поточний вузол на відповідність ASP
-    -   [tidyNode::isComment](tidynode.iscomment.md) — Перевіряє, чи є вузол коментарем
-    -   [tidyNode::isHtml](tidynode.ishtml.md) — Перевіряє, чи є вузол вузлом елемента
-    -   [tidyNode::isJste](tidynode.isjste.md) — Перевіряє поточний вузол на відповідність JSTE
-    -   [tidyNode::isPhp](tidynode.isphp.md) — Перевіряє, чи є поточний вузол PHP-кодом
-    -   [tidyNode::isText](tidynode.istext.md) — Перевіряє, чи поточний вузол є звичайним текстом (не розміткою)
+    -   [Приклад використання Tidy](tidy.examples.basic.md)
+-   [tidy](class.tidy.md) \- Клас tidy
+    -   [tidy::body](tidy.body.md)— Повертає об'єкт tidyNode, починаючи з тегаразобранного tidy-дерева
+    -   [tidy::cleanRepair](tidy.cleanrepair.md)— Виконати налаштоване очищення та відновлення розібраної розмітки
+    -   [tidy::\_\_construct](tidy.construct.md) \- Створює новий tidy-об'єкт
+    -   [tidy::diagnose](tidy.diagnose.md)— Запуск налаштованої діагностики для розібраної та відновленої розмітки
+    -   [tidy::$errorBuffer](tidy.props.errorbuffer.md)— Повертає попередження та помилки, які виникли при розборі зазначеного документа
+    -   [tidy::getConfig](tidy.getconfig.md)— Отримує поточну конфігурацію Tidy
+    -   [tidy::getHtmlVer](tidy.gethtmlver.md)— Отримує виявлену HTML версію для зазначеного документа
+    -   [tidy::getOpt](tidy.getopt.md)— Повертає значення вказаного конфігураційного параметра для документа tidy
+    -   [tidy::getOptDoc](tidy.getoptdoc.md)— Повертає опис для опції із зазначеною назвою
+    -   [tidy::getRelease](tidy.getrelease.md)— Отримати дату релізу (версію) для бібліотеки Tidy
+    -   [tidy::getStatus](tidy.getstatus.md)— Отримує статус зазначеного документа
+    -   [tidy::head](tidy.head.md)— Повертає об'єкт tidyNode, починаючи з тегаразобранного tidy-дерева
+    -   [tidy::html](tidy.md.md)— Повертає об'єкт tidyNode, починаючи з тегаразобранного tidy-дерева
+    -   [tidy::isXhtml](tidy.isxhtml.md)— Визначає, чи є документ XHTML-документом
+    -   [tidy::isXml](tidy.isxml.md)— Визначає, чи документ є спільним XML-документом (не HTML/XHTML)
+    -   [tidy::parseFile](tidy.parsefile.md)— Розбір розмітки у файлі або URI
+    -   [tidy::parseString](tidy.parsestring.md)— Розбір документа, що зберігається у рядку
+    -   [tidy::repairFile](tidy.repairfile.md)— Відновлює розмітку файлу та повертає його у вигляді рядка
+    -   [tidy::repairString](tidy.repairstring.md)— Відновлює рядок, використовуючи наскільки можна конфігураційний файл
+    -   [tidy::root](tidy.root.md) \- Повертає об'єкт tidyNode, що представляє вершину розібраного tidy-дерева
+-   [tidyNode](class.tidynode.md) \- Клас tidyNode
+    -   [tidyNode::\_\_construct](tidynode.construct.md)— Приватний конструктор, який унеможливлює пряме створення об'єкта
+    -   [tidyNode::getParent](tidynode.getparent.md) \- Повертає батьківський вузол поточного вузла
+    -   [tidyNode::hasChildren](tidynode.haschildren.md) \- Перевіряє існування нащадків біля вузла
+    -   [tidyNode::hasSiblings](tidynode.hassiblings.md) \- Перевіряє існування сусідніх вузлів
+    -   [tidyNode::isAsp](tidynode.isasp.md)— Перевіряє поточний вузол на відповідність ASP
+    -   [tidyNode::isComment](tidynode.iscomment.md)— Перевіряє, чи є вузол коментарем
+    -   [tidyNode::isHtml](tidynode.ishtml.md)— Перевіряє, чи є вузол вузлом елемента
+    -   [tidyNode::isJste](tidynode.isjste.md)— Перевіряє поточний вузол на відповідність JSTE
+    -   [tidyNode::isPhp](tidynode.isphp.md)— Перевіряє, чи є поточний вузол PHP-кодом
+    -   [tidyNode::isText](tidynode.istext.md)— Перевіряє, чи поточний вузол є звичайним текстом (не розміткою)
 -   [Tidy](ref.tidy.md)
-    -   [проtidyhandler](function.ob-tidyhandler.md) — Функція зворотного дзвінка obstart для відновлення буфера
-    -   [tidyaccesscount](function.tidy-access-count.md) — Повертає кількість доступних попереджень Tidy, які зустрілися у розглянутому документі
-    -   [tidyconfigcount](function.tidy-config-count.md) — Повертає кількість помилок конфігурації Tidy, які зустрілися під час розгляду документа
-    -   [tidyerrorcount](function.tidy-error-count.md) — Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
-    -   [tidygetoutput](function.tidy-get-output.md) - Повертає рядок, що представляє розібрану tidy-розмітку
-    -   [tidywarningcount](function.tidy-warning-count.md) — Повертає число Tidy-попереджень, які зустріли у зазначеному документі
+    -   [ob\_tidyhandler](function.ob-tidyhandler.md)— Функція зворотного дзвінка ob\_start для відновлення буфера
+    -   [tidy\_access\_count](function.tidy-access-count.md)— Повертає кількість доступних попереджень Tidy, які зустрілися у розглянутому документі
+    -   [tidy\_config\_count](function.tidy-config-count.md)— Повертає кількість помилок конфігурації Tidy, які зустрілися під час розгляду документа
+    -   [tidy\_error\_count](function.tidy-error-count.md)— Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
+    -   [tidy\_get\_output](function.tidy-get-output.md) \- Повертає рядок, що представляє розібрану tidy-розмітку
+    -   [tidy\_warning\_count](function.tidy-warning-count.md)— Повертає число Tidy-попереджень, які зустрінуті у зазначеному документі

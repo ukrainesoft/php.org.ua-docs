@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.runkit7-constant-add.md: « runkit7constantadd
-  - function.runkit7-constant-remove.md: runkit7constantremove »
+  - function.runkit7-constant-add.md: « runkit7\_constant\_add
+  - function.runkit7-constant-remove.md: runkit7\_constant\_remove »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
-title: runkit7constantredefine
+title: runkit7\_constant\_redefine
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# runkit7constantredefine
+# runkit7\_constant\_redefine
 
-(PECL runkit7> = Unknown)
+(PECL runkit7 >= Unknown)
 
-runkit7constantredefine - Перевизначає вже певну константу
+runkit7\_constant\_redefine - Перевизначає вже певну константу
 
 ### Опис
 
@@ -34,9 +35,9 @@ runkit7_constant_redefine(string $constant_name, mixed $value, int $new_visibili
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [runkit7constantadd()](function.runkit7-constant-add.md) - Аналогічний define(), але також дозволяє визначити константу класу
--   [runkit7constantremove()](function.runkit7-constant-remove.md) - Видаляє вже певну константу
+-   [runkit7\_constant\_add()](function.runkit7-constant-add.md) \- Аналогічний define(), але також дозволяє визначити константу класу
+-   [runkit7\_constant\_remove()](function.runkit7-constant-remove.md) \- Видаляє вже певну константу

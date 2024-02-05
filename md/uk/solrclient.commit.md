@@ -1,14 +1,15 @@
 ---
 navigation:
   - solrclient.adddocuments.md: '« SolrClient::addDocuments'
-  - solrclient.construct.md: 'SolrClient::construct »'
+  - solrclient.construct.md: 'SolrClient::\_\_construct »'
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::commit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::commit
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrClient::commit — Завершує всі додавання/видалення, зроблені в індексі
 
@@ -48,11 +49,11 @@ public SolrClient::commit(bool $softCommit = false, bool $waitSearcher = true, b
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL solr 1.1.0, 2.0.0 | Видалено $maxSegments |
-| PECL solr 2.0.0b | Зміни API: SolrClient::commit ( int $maxSegments = 0 , bool $softCommit = false , bool $waitSearcher = true, bool $expungeDeletes = false |
-| PECL solr 0.9.2 | Сигнатура: SolrClient::commit ( int $maxSegments = 1 , bool $waitFlush = true , bool $waitSearcher = true ). $waitFlush: Блокувати, доки зміни індексу не будуть скинуті на диск. |
+| PECL solr 2.0.0b | Зміни API: SolrClient::commit (\[ int $maxSegments = 0 \[, bool $softCommit = false \[, bool $waitSearcher = true\[, bool $expungeDeletes = false \]\]\] |
+| PECL solr 0.9.2 | Сигнатура: SolrClient::commit (\[ int $maxSegments = 1 \[, bool $waitFlush = true \[, bool $waitSearcher = true \]\]\] ). $waitFlush: Блокувати, доки зміни індексу не будуть скинуті на диск. |
 
 ### Примітки
 
@@ -62,5 +63,5 @@ PECL Solr >= 2.0 підтримує лише Solr Server >= 4.0
 
 ### Дивіться також
 
--   [SolrClient::optimize()](solrclient.optimize.md) - дефрагментує індекс
--   [SolrClient::rollback()](solrclient.rollback.md) - Відкочує всі додавання/видалення, зроблені в індекс з моменту останньої фіксації
+-   [SolrClient::optimize()](solrclient.optimize.md) \- дефрагментує індекс
+-   [SolrClient::rollback()](solrclient.rollback.md) \- Відкочує всі додавання/видалення, зроблені в індекс з моменту останньої фіксації

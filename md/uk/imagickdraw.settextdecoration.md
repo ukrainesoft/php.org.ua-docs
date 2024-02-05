@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setTextDecoration'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setTextDecoration
 
@@ -20,7 +21,7 @@ public ImagickDraw::setTextDecoration(int $decoration): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Задає оформлення, яке застосовуватиметься при анотуванні текстом.
 
@@ -28,7 +29,7 @@ public ImagickDraw::setTextDecoration(int $decoration): bool
 
 `decoration`
 
-Одна з констант [DECORATION](imagick.constants.md#imagick.constants.decoration) `imagick::DECORATION_*`
+Одна из констант[DECORATION](imagick.constants.md#imagick.constants.decoration) `imagick::DECORATION_*`
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public ImagickDraw::setTextDecoration(int $decoration): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setTextDecoration()****
+**Пример #1 Пример использования**ImagickDraw::setTextDecoration()\*\*\*\*
 
 ```php
 <?php

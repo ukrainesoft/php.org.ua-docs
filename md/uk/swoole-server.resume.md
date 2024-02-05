@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.reload.md: '« SwooleServer::reload'
-  - swoole-server.send.md: 'SwooleServer::send »'
+  - swoole-server.reload.md: '« Swoole\\Server::reload'
+  - swoole-server.send.md: 'Swoole\\Server::send »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::resume'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::resume'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::resume
+# Swoole\\Server::resume
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::resume — Починає отримувати дані зі з'єднання
+Swoole\\Server::resume — Починає отримувати дані зі з'єднання
 
 ### Опис
 

@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.imap-uid.md: « imapuid
-  - function.imap-unsubscribe.md: imapunsubscribe »
+  - function.imap-uid.md: « imap\_uid
+  - function.imap-unsubscribe.md: imap\_unsubscribe »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapundelete
+  - ref.imap.md: Функції IMAP
+title: imap\_undelete
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapundelete
+# imap\_undelete
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapundelete — Знімає з повідомлення позначку видалення
+imap\_undelete — Знімає з повідомлення позначку видалення
 
 ### Опис
 
 ```methodsynopsis
-imap_undelete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
+imap_undelete(IMAP\Connection $imap, string $message_nums, int $flags = 0): true
 ```
 
-Видаляє із заданого повідомлення мітку видалення, яка була встановлена ​​за допомогою [imapdelete()](function.imap-delete.md) або [imapmailmove()](function.imap-mail-move.md)
+Видаляє із заданого повідомлення мітку видалення, яка була встановлена ​​за допомогою [imap\_delete()](function.imap-delete.md) або [imap\_mail\_move()](function.imap-mail-move.md)
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `message_nums`
 
@@ -34,15 +35,15 @@ imap_undelete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Дивіться також
 
--   [imapdelete()](function.imap-delete.md) - Позначити повідомлення для видалення
--   [imapmailmove()](function.imap-mail-move.md) - Перемістити вказані повідомлення до вказаної поштової скриньки
+-   [imap\_delete()](function.imap-delete.md) \- Позначає повідомлення для видалення
+-   [imap\_mail\_move()](function.imap-mail-move.md) \- Переміщує вказані повідомлення у вказану поштову скриньку

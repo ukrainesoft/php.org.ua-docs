@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::isArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionParameter::isArray
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 ReflectionParameter::isArray — Перевіряє, чи очікує аргумент масив як значення
 
@@ -32,7 +33,7 @@ public ReflectionParameter::isArray(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо як значення очікується масив (array), **`false`** в іншому випадку.
+\*\*`true`\*\*якщо в якості значення очікується масив (array), **`false`** в іншому випадку.
 
 ### Приклади
 
@@ -59,4 +60,4 @@ function declaresArray(ReflectionParameter $reflectionParameter): bool
 
 ### Дивіться також
 
--   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.md) - Перевіряє, чи є аргумент необов'язковим
+-   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.md) \- Перевіряє, чи є аргумент необов'язковим

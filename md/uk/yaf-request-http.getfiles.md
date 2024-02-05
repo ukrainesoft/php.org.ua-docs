@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-http.getcookie.md: '« YafRequestHttp::getCookie'
-  - yaf-request-http.getpost.md: 'YafRequestHttp::getPost »'
+  - yaf-request-http.getcookie.md: '« Yaf\_Request\_Http::getCookie'
+  - yaf-request-http.getpost.md: 'Yaf\_Request\_Http::getPost »'
   - index.md: PHP Manual
-  - class.yaf-request-http.md: YafRequestHttp
-title: 'YafRequestHttp::getFiles'
+  - class.yaf-request-http.md: Yaf\_Request\_Http
+title: 'Yaf\_Request\_Http::getFiles'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestHttp::getFiles
+# Yaf\_Request\_Http::getFiles
 
 (Yaf >=1.0.0)
 
-YafRequestHttp::getFiles — Призначення getFiles
+Yaf\_Request\_Http::getFiles — Призначення getFiles
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Request_Http::getFiles(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

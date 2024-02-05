@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.soap.md: « Функции SOAP
-  - function.use-soap-error-handler.md: usesoaperrorhandler »
+  - ref.soap.md: « Функції SOAP
+  - function.use-soap-error-handler.md: use\_soap\_error\_handler »
   - index.md: PHP Manual
-  - ref.soap.md: Функции SOAP
-title: ісsoapfault
+  - ref.soap.md: Функції SOAP
+title: is\_soap\_fault
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісsoapfault
+# is\_soap\_fault
 
 (PHP 5, PHP 7, PHP 8)
 
-ісsoapfault — Перевіряє, чи виникла помилка під час виклику SOAP
+is\_soap\_fault — Перевіряє, чи виникла помилка під час виклику SOAP
 
 ### Опис
 
@@ -20,7 +21,7 @@ is_soap_fault(mixed $object): bool
 
 Ця функція корисна для перевірки невдачі виклику SOAP, але тоді, коли не використовуються винятки. Для того щоб її використовувати, створіть об'єкт [SoapClient](class.soapclient.md) з опцією `exceptions`, що дорівнює нулю або **`false`**. У цьому випадку метод SOAP поверне спеціальний об'єкт [SoapFault](class.soapfault.md), який інкапсулює деталі помилки (код помилки, рядок помилки, одержувач та деталі).
 
-Якщо опція `exceptions` не встановлено, то виклик SOAP буде викидати виняток у разі виникнення помилки. Функція **ісsoapfault()** перевіряє, чи є переданий параметр об'єктом [SoapFault](class.soapfault.md)
+Якщо опція `exceptions` не встановлено, то виклик SOAP буде викидати виняток у разі виникнення помилки. Функція **is\_soap\_fault()** перевіряє, чи є переданий параметр об'єктом [SoapFault](class.soapfault.md)
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ is_soap_fault(mixed $object): bool
 
 ### Значення, що повертаються
 
-Повертається **`true`** у разі виникнення помилки та **`false`** в іншому випадку.
+Повертається **`true`**в случае возникновения ошибки и**`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **ісsoapfault()****
+**Пример #1 Пример использования функции**is\_soap\_fault()\*\*\*\*
 
 ```php
 <?php
@@ -61,5 +62,5 @@ try {
 
 ### Дивіться також
 
--   [SoapClient::construct()](soapclient.construct.md) - Конструктор класу SoapClient
--   [SoapFault::construct()](soapfault.construct.md) - Конструктор SoapFault
+-   [SoapClient::\_\_construct()](soapclient.construct.md) \- Конструктор класу SoapClient
+-   [SoapFault::\_\_construct()](soapfault.construct.md) \- Конструктор SoapFault

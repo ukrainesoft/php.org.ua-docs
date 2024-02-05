@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - langref.md: Довідник мови
 title: Обумовлені винятки
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені винятки
 
@@ -12,6 +13,7 @@ title: Обумовлені винятки
 
 -   [Exception](class.exception.md)
 -   [ErrorException](class.errorexception.md)
+-   [ClosedGeneratorException](class.closedgeneratorexception.md)
 -   [Error](class.error.md)
 -   [ArgumentCountError](class.argumentcounterror.md)
 -   [ArithmeticError](class.arithmeticerror.md)
@@ -24,4 +26,4 @@ title: Обумовлені винятки
 -   [UnhandledMatchError](class.unhandledmatcherror.md)
 -   [FiberError](class.fibererror.md)
 
-Дивіться також "[Исключения SPL](spl.exceptions.md)"
+Дивіться також "[Винятки SPL](spl.exceptions.md)"

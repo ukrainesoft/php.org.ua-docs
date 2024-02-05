@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.sum.md: '« DsVector::sum'
-  - ds-vector.unshift.md: 'ДсVector::unshift »'
+  - ds-vector.sum.md: '« Ds\\Vector::sum'
+  - ds-vector.unshift.md: 'Ds\\Vector::unshift »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::toArray'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::toArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::toArray
+# Ds\\Vector::toArray
 
 (PECL ds >= 1.0.0)
 
-ДсVector::toArray — Перетворює колекцію на масив (array)
+Ds\\Vector::toArray — Перетворює колекцію на масив (array)
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Ds\Vector::toArray(): array
 
 Перетворює колекцію на масив (array).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Приведення до типу array поки що не підтримується.
 
@@ -30,11 +31,11 @@ public Ds\Vector::toArray(): array
 
 ### Значення, що повертаються
 
-Масив (array), що містить всі елементи колекції зі збереженням їхнього порядку.
+Повертає масив (array), що містить всі елементи колекції, зберігаючи порядок, у якому вони містилися.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::toArray()****
+**Пример #1 Пример использования метода**Ds\\Vector::toArray()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ var_dump($vector->toArray());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(3) {

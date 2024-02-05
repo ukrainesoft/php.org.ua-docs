@@ -1,20 +1,21 @@
 ---
 navigation:
-  - mysql-xdevapi-client.close.md: '« mysqlxdevapiClient::close'
+  - mysql-xdevapi-client.close.md: '« mysql\_xdevapi\\Client::close'
   - mysql-xdevapi-client.getsession.md: 'Client::getClient »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-client.md: mysqlxdevapiClient
-title: 'Client::construct'
+  - class.mysql-xdevapi-client.md: mysql\_xdevapi\\Client
+title: 'Client::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Client::construct
+# Client::\_\_construct
 
 (No version information available, might only be in Git)
 
-Client::construct - Конструктор класу Client
+Client::\_\_construct — Конструктор класу Client
 
 ### Опис
 
-private **mysqlxdevapiClient::construct**
+private**mysql\_xdevapi\\Client::\_\_construct**()
 
 Конструктор класу Client.
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiClient::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiClient::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Client::\_\_construct()\*\*\*\*
 
 ```php
 <?php

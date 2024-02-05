@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcache.md: Memcache
 title: 'Memcache::close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcache::close
 
@@ -18,7 +19,7 @@ Memcache::close — Закрити з'єднання з сервером memcach
 Memcache::close(): bool
 ```
 
-**Memcache::close()** закриває з'єднання з сервером memcached. Ця функція не закриває постійне з'єднання, яке закривається лише під час завершення роботи/перезапуску веб-сервера. Ви також можете використати функцію **memcacheclose()**
+**Memcache::close()** закриває з'єднання з сервером memcached. Ця функція не закриває постійне з'єднання, яке закривається лише під час завершення роботи/перезапуску веб-сервера. Ви також можете використати функцію **memcache\_close()**
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ Memcache::close(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcache::close()****
+**Пример #1 Пример использования**Memcache::close()\*\*\*\*
 
 ```php
 <?php
@@ -55,5 +56,5 @@ $memcache_obj->close();
 
 ### Дивіться також
 
--   [Memcache::connect()](memcache.connect.md) - Відкриває з'єднання з сервером memcached
--   [Memcache::pconnect()](memcache.pconnect.md) - Відкриває постійне з'єднання з сервером memcached
+-   [Memcache::connect()](memcache.connect.md) \- Відкриває з'єднання з сервером memcached
+-   [Memcache::pconnect()](memcache.pconnect.md) \- Відкриває постійне з'єднання з сервером memcached

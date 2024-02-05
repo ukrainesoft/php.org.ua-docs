@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.stomp.md: Stomp
 title: 'Stomp::getSessionId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Stomp::getSessionId
 
-# stompgetsessionід
+# stomp\_get\_session\_id
 
 (PECL stomp >= 0.1.0)
 
-Stomp::getSessionId -- stompgetsessionid — Повертає ідентифікатор поточної сесії Stomp
+Stomp::getSessionId -- stomp\_get\_session\_id — Повертає ідентифікатор поточної сесії Stomp
 
 ### Опис
 
@@ -34,11 +35,11 @@ stomp_get_session_id(resource $link): string|false
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.md)
 
 ### Значення, що повертаються
 
-Ідентифікатор сесії (string) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Ідентифікатор сесії (string) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -62,7 +63,7 @@ unset($stomp);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(35) "ID:php.net-52873-1257291895530-4:14"
@@ -89,7 +90,7 @@ stomp_close($link);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(35) "ID:php.net-52873-1257291895530-4:14"

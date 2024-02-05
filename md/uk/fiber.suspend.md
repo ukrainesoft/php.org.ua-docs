@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.fiber.md: Fiber
 title: 'Fiber::suspend'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Fiber::suspend
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 Fiber::suspend — Зупиняє виконання поточного файбера
 
@@ -32,4 +33,4 @@ public static Fiber::suspend(mixed $value = null): mixed
 
 ### Значення, що повертаються
 
-Значення, надане [Fiber::resume()](fiber.resume.md)
+Значение, предоставленное[Fiber::resume()](fiber.resume.md)

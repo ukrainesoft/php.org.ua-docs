@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::getHost'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::getHost
 
@@ -31,5 +32,5 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::getUri()](eventhttprequest.geturi.md) - Повертає URI запиту
--   [EventHttpRequest::getCommand()](eventhttprequest.getcommand.md) - Повертає команду запиту (метод)
+-   [EventHttpRequest::getUri()](eventhttprequest.geturi.md) \- Повертає URI запиту
+-   [EventHttpRequest::getCommand()](eventhttprequest.getcommand.md) \- Повертає команду запиту (метод)

@@ -4,9 +4,10 @@ navigation:
   - class.evtimer.md: EvTimer »
   - index.md: PHP Manual
   - class.evstat.md: EvStat
-title: 'Евстат::стати'
+title: 'EvStat::stat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Евстат::стати
+# EvStat::stat
 
 (PECL ev >= 0.2.0)
 
@@ -31,5 +32,5 @@ public
 
 ### Дивіться також
 
--   [EvStat::attr()](evstat.attr.md) - Повертає значення, нещодавно виявлені Ev
--   [EvStat::prev()](evstat.prev.md) - Повертає попередній набір значень, які повертаються EvStat::attr
+-   [EvStat::attr()](evstat.attr.md) \- Повертає значення, нещодавно виявлені Ev
+-   [EvStat::prev()](evstat.prev.md) \- Повертає попередній набір значень, які повертаються EvStat::attr

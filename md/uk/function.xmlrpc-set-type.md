@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xmlrpc-server-register-method.md: « xmlrpcserverregistermethod
+  - function.xmlrpc-server-register-method.md: « xmlrpc\_server\_register\_method
   - refs.utilspec.windows.md: Модулі лише для Windows »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcsettype
+title: xmlrpc\_set\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcsettype
+# xmlrpc\_set\_type
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcsettype — Встановлює тип XML-RPC, base64 або datetime для значення рядка PHP
+xmlrpc\_set\_type — Встановлює тип XML-RPC, base64 або datetime для значення рядка PHP
 
 ### Опис
 
@@ -40,11 +41,11 @@ xmlrpc_set_type(string &$value, string $type): bool
 
 ### Помилки
 
-Видає повідомлення EWARNING для типів XMLRPC, що не підтримуються.
+Видає повідомлення E\_WARNING для типів XMLRPC, що не підтримуються.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xmlrpcsettype()****
+**Пример #1 Пример использования**xmlrpc\_set\_type()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ echo xmlrpc_encode($params);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>

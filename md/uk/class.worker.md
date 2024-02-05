@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.pthreads.md: pthreads
 title: Клас Worker
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Worker
 
@@ -71,9 +72,9 @@ public Thread::start(int $options = ?): bool
 
 ## Зміст
 
--   [Worker::collect](worker.collect.md) — Зібрати посилання на завершені завдання
--   [Worker::getStacked](worker.getstacked.md) — Повертає поточний розмір стека
--   [Worker::isShutdown](worker.isshutdown.md) — Визначення стану
--   [Worker::shutdown](worker.shutdown.md) - Зупинити Worker
--   [Worker::stack](worker.stack.md) - Покласти завдання на стек
--   [Worker::unstack](worker.unstack.md) — Забрати завдання зі стека
+-   [Worker::collect](worker.collect.md)— Зібрати посилання на завершені завдання
+-   [Worker::getStacked](worker.getstacked.md)— Повертає поточний розмір стека
+-   [Worker::isShutdown](worker.isshutdown.md)— Визначення стану
+-   [Worker::shutdown](worker.shutdown.md) \- Зупинити Worker
+-   [Worker::stack](worker.stack.md) \- Покласти завдання на стек
+-   [Worker::unstack](worker.unstack.md)— Забрати завдання зі стека

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.xmldiff-memory.md: « XMLDiffMemory
-  - xmldiff-memory.merge.md: 'XMLDiffMemory::merge »'
+  - class.xmldiff-memory.md: « XMLDiff\\Memory
+  - xmldiff-memory.merge.md: 'XMLDiff\\Memory::merge »'
   - index.md: PHP Manual
-  - class.xmldiff-memory.md: XMLDiffMemory
-title: 'XMLDiffMemory::diff'
+  - class.xmldiff-memory.md: XMLDiff\\Memory
+title: 'XMLDiff\\Memory::diff'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# XMLDiffMemory::diff
+# XMLDiff\\Memory::diff
 
 (PECL xmldiff >= 0.8.0)
 
-XMLDiffMemory::diff — Порівняння двох документів XML
+XMLDiff\\Memory::diff — Порівняння двох документів XML
 
 ### Опис
 

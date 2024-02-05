@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::reset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDocument::reset
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrDocument::reset — Псевдонім SolrDocument::clear()
+SolrDocument::reset — Псевдоним[SolrDocument::clear()](solrdocument.clear.md)
 
 ### Опис
 
@@ -26,4 +27,4 @@ public SolrDocument::reset(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

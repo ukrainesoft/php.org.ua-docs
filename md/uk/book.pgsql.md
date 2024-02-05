@@ -1,14 +1,15 @@
 ---
 navigation:
   - function.ociwritetemporarylob.md: « ociwritetemporarylob
-  - intro.pgsql.md: Введение »
+  - intro.pgsql.md: Вступ "
   - index.md: PHP Manual
   - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
 title: PostgreSQL
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PostgreSQL
 
--   [Введение](intro.pgsql.md)
+-   [Вступ](intro.pgsql.md)
 -   [Встановлення та налаштування](pgsql.setup.md)
     -   [Вимоги](pgsql.requirements.md)
     -   [Установка](pgsql.installation.md)
@@ -16,98 +17,99 @@ title: PostgreSQL
     -   [Типи ресурсів](pgsql.resources.md)
 -   [Обумовлені константи](pgsql.constants.md)
 -   [Приклади](pgsql.examples.md)
-    -   [Базовое использование](pgsql.examples-basic.md)
-    -   [Базовое использование](pgsql.examples-queries.md)
--   [Функции PostgreSQL](ref.pgsql.md)
-    -   [пгaffectedrows](function.pg-affected-rows.md) — Повертає кількість порушених запитом записів (кортежів)
-    -   [пгcancelquery](function.pg-cancel-query.md) - Зупинення асинхронного запиту.
-    -   [пгclientencoding](function.pg-client-encoding.md) - Отримання кодування клієнта.
-    -   [пгclose](function.pg-close.md) — Закриває з'єднання з базою даних PostgreSQL
-    -   [пгconnectpoll](function.pg-connect-poll.md) — Опитати статус спроби асинхронного з'єднання PostgreSQL.
-    -   [пгconnect](function.pg-connect.md) — Відкриває з'єднання з базою даних PostgreSQL
-    -   [пгconnectionbusy](function.pg-connection-busy.md) — Перевіряє, чи зайняте з'єднання зараз.
-    -   [пгconnectionreset](function.pg-connection-reset.md) - Скидання підключення (перепідключення)
-    -   [пгconnectionstatus](function.pg-connection-status.md) - Визначає стан підключення
-    -   [пгconsumeinput](function.pg-consume-input.md) — Читає вступні дані на з'єднанні
-    -   [пгconvert](function.pg-convert.md) — Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах
-    -   [пгcopyfrom](function.pg-copy-from.md) — Вставляє записи з масиву до таблиці
-    -   [пгcopyто](function.pg-copy-to.md) — Копіює дані з таблиці до масиву
-    -   [пгdbname](function.pg-dbname.md) - Визначає ім'я бази даних
-    -   [пгdelete](function.pg-delete.md) - Видаляє записи
-    -   [пгendcopy](function.pg-end-copy.md) — Синхронізує з бекендом PostgreSQL
-    -   [пгescapebytea](function.pg-escape-bytea.md) — Екранує спецсимволи у рядку для вставки у поле типу bytea
-    -   [пгescapeidentifier](function.pg-escape-identifier.md) — Екранує ідентифікатор для вставлення текстового поля
-    -   [пгescapeliteral](function.pg-escape-literal.md) — Екранувати літерал під час вставки у текстове поле
-    -   [пгescapestring](function.pg-escape-string.md) — Екранування спецсимволів у рядку запиту
-    -   [пгexecute](function.pg-execute.md) — Запускає виконання раніше підготовленого параметризованого запиту та чекає на результат
-    -   [пгfetchallcolumns](function.pg-fetch-all-columns.md) — Вибирає всі записи з однієї колонки результату запиту та поміщає їх у масив
-    -   [пгfetchall](function.pg-fetch-all.md) — Вибирає всі дані з результату запиту та поміщає їх у масив
-    -   [пгfetcharray](function.pg-fetch-array.md) — Повертає рядок результату у вигляді масиву
-    -   [пгfetchassoc](function.pg-fetch-assoc.md) — Вибирає рядок результату запиту та поміщає дані до асоціативного масиву
-    -   [пгfetchobject](function.pg-fetch-object.md) — Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
-    -   [пгfetchresult](function.pg-fetch-result.md) — Повертає запис із результату запиту
-    -   [пгfetchrow](function.pg-fetch-row.md) — Вибирає рядок результату запиту та поміщає дані до масиву
-    -   [пгfieldісnull](function.pg-field-is-null.md) - Перевірка поля на значення SQL NULL
-    -   [пгfieldname](function.pg-field-name.md) - Повертає найменування поля
-    -   [пгfieldnum](function.pg-field-num.md) - Повертає порядковий номер іменованого поля
-    -   [пгfieldprtlen](function.pg-field-prtlen.md) — Повертає кількість символів, що друкуються.
-    -   [пгfieldsize](function.pg-field-size.md) — Повертає розмір поля
-    -   [пгfieldtable](function.pg-field-table.md) — Повертає назву або ідентифікатор таблиці, що містить задане поле
-    -   [пгfieldtypeoid](function.pg-field-type-oid.md) - Повертає ідентифікатор типу заданого поля
-    -   [пгfieldtype](function.pg-field-type.md) - Повертає ім'я типу заданого поля
-    -   [пгflush](function.pg-flush.md) — Скинути дані вихідного запиту на з'єднанні
-    -   [пгfreeresult](function.pg-free-result.md) — Очищення результату запиту та звільнення пам'яті
-    -   [пгgetnotify](function.pg-get-notify.md) — Отримання SQL NOTIFY повідомлення
-    -   [пгgetpid](function.pg-get-pid.md) — Отримує ID процесу сервера БД
-    -   [пгgetresult](function.pg-get-result.md) — Отримання результату асинхронного запиту
-    -   [пгhost](function.pg-host.md) — Повертає ім'я хоста, що відповідає підключенню
-    -   [пгinsert](function.pg-insert.md) — Заносить дані з масиву до таблиці бази даних
-    -   [пгlasterror](function.pg-last-error.md) — Отримує повідомлення про останню помилку на з'єднанні з базою даних.
-    -   [пгlastnotice](function.pg-last-notice.md) — Повертає останнє повідомлення від сервера PostgreSQL
-    -   [пгlastoid](function.pg-last-oid.md) — Повертає OID останньому доданому до бази рядка
-    -   [пглоclose](function.pg-lo-close.md) - Закриває великий об'єкт
-    -   [пглоcreate](function.pg-lo-create.md) - Створює великий об'єкт
-    -   [пглоexport](function.pg-lo-export.md) — Виведення великого об'єкта у файл
-    -   [пглоimport](function.pg-lo-import.md) - Імпорт великого об'єкта з файлу
-    -   [пглоopen](function.pg-lo-open.md) — Відкриває великий об'єкт бази даних
-    -   [пглоreadall](function.pg-lo-read-all.md) — Читає вміст великого об'єкта та посилає безпосередньо до браузера
-    -   [пглоread](function.pg-lo-read.md) — Читає дані великого об'єкту
-    -   [пглоseek](function.pg-lo-seek.md) — Переміщує внутрішній покажчик великого об'єкту
-    -   [пглоtell](function.pg-lo-tell.md) — Повертає поточне положення внутрішнього покажчика великого об'єкта
-    -   [пглоtruncate](function.pg-lo-truncate.md) - Обрізає великий об'єкт
-    -   [пглоunlink](function.pg-lo-unlink.md) — Видалення великого об'єкту
-    -   [пглоwrite](function.pg-lo-write.md) — Записує дані у великий об'єкт
-    -   [пгmetadata](function.pg-meta-data.md) — Отримання метаданих таблиці
-    -   [пгnumfields](function.pg-num-fields.md) — Повертає кількість полів у вибірці
-    -   [пгnumrows](function.pg-num-rows.md) — Повертає кількість рядків у вибірці
-    -   [пгoptions](function.pg-options.md) — Отримання параметрів з'єднання із сервером баз даних
-    -   [пгparameterstatus](function.pg-parameter-status.md) — Перегляд поточних параметрів сервера
-    -   [пгpconnect](function.pg-pconnect.md) — Відкриває постійне з'єднання із сервером PostgreSQL
-    -   [пгping](function.pg-ping.md) — Перевірка з'єднання з базою даних
-    -   [пгport](function.pg-port.md) — Повертає номер порту, який відповідає заданому з'єднанню
-    -   [пгprepare](function.pg-prepare.md) — Надсилає запит на створення параметризованого SQL виразу і чекає на його завершення
-    -   [пгputline](function.pg-put-line.md) — Передає на PostgreSQL сервер рядок із завершальним нулем
-    -   [пгqueryparams](function.pg-query-params.md) — Надсилає параметризований запит на сервер, параметри передаються окремо від тексту запиту SQL
-    -   [пгquery](function.pg-query.md) — Виконує запит
-    -   [пгresulterrorfield](function.pg-result-error-field.md) — Повертає конкретне поле зі звіту про помилки
-    -   [пгresulterror](function.pg-result-error.md) — Повертає повідомлення про помилку, пов'язане із запитом результату
-    -   [пгresultseek](function.pg-result-seek.md) — Зміщує вказівник на рядок вибірки в екземплярі результату запиту
-    -   [пгresultstatus](function.pg-result-status.md) - Повертає стан результату запиту
-    -   [пгselect](function.pg-select.md) - Вибирає записи з бази даних
-    -   [пгsendexecute](function.pg-send-execute.md) - Запускає попередньо підготовлений SQL-запит та передає йому параметри; не чекає результату, що повертається
-    -   [пгsendprepare](function.pg-send-prepare.md) — Надсилає запит на створення параметризованого SQL-виразу, не чекаючи його завершення
-    -   [пгsendqueryparams](function.pg-send-query-params.md) — Посилає параметризований запит на сервер, не чекає результату, що повертається.
-    -   [пгsendquery](function.pg-send-query.md) — Надсилає асинхронний запит
-    -   [пгsetclientencoding](function.pg-set-client-encoding.md) - Встановлює клієнтське кодування
-    -   [пгseterrorverbosity](function.pg-set-error-verbosity.md) — Визначає обсяг тексту повідомлень, що повертаються функціями pglasterror та pgresulterror
-    -   [пгsocket](function.pg-socket.md) — Отримати дескриптор тільки для читання на сокет, що лежить в основі з'єднання PostgreSQL
-    -   [пгtrace](function.pg-trace.md) — Включає трасування підключення PostgreSQL
-    -   [пгtransactionstatus](function.pg-transaction-status.md) — Повертає поточний стан транзакції на сервері
-    -   [пгtty](function.pg-tty.md) — Повертає ім'я терміналу TTY, пов'язане зі з'єднанням
-    -   [пгunescapebytea](function.pg-unescape-bytea.md) — Забирає екранування двійкових даних типу bytea
-    -   [пгuntrace](function.pg-untrace.md) — Вимикає трасування з'єднання з PostgreSQL
-    -   [пгupdate](function.pg-update.md) — Оновлення даних у таблиці
-    -   [пгversion](function.pg-version.md) — Повертає масив, що містить версії клієнта, протоколу клієнт-серверної взаємодії та сервера (якщо є)
--   [PgSqlConnection](class.pgsql-connection.md) - Клас PgSqlConnection
--   [PgSqlResult](class.pgsql-result.md) - Клас PgSqlResult
--   [PgSqlLob](class.pgsql-lob.md) - Клас PgSqlЛоб
+    -   [Базове використання](pgsql.examples-basic.md)
+    -   [Базове використання](pgsql.examples-queries.md)
+-   [Функції PostgreSQL](ref.pgsql.md)
+    -   [pg\_affected\_rows](function.pg-affected-rows.md)— Повертає кількість порушених запитом записів (кортежів)
+    -   [pg\_cancel\_query](function.pg-cancel-query.md) \- Зупинення асинхронного запиту.
+    -   [pg\_client\_encoding](function.pg-client-encoding.md) \- Отримання кодування клієнта.
+    -   [pg\_close](function.pg-close.md)— Закриває з'єднання з базою даних PostgreSQL
+    -   [pg\_connect\_poll](function.pg-connect-poll.md)— Опитати статус спроби асинхронного з'єднання PostgreSQL.
+    -   [pg\_connect](function.pg-connect.md)— Відкриває з'єднання з базою даних PostgreSQL
+    -   [pg\_connection\_busy](function.pg-connection-busy.md)— Перевіряє, чи зайняте з'єднання зараз.
+    -   [pg\_connection\_reset](function.pg-connection-reset.md) \- Скидання підключення (перепідключення)
+    -   [pg\_connection\_status](function.pg-connection-status.md) \- Визначає стан підключення
+    -   [pg\_consume\_input](function.pg-consume-input.md)— Читає вступні дані на з'єднанні
+    -   [pg\_convert](function.pg-convert.md)— Перетворює значення асоціативного масиву на відповідний для SQL-запитів вид
+    -   [pg\_copy\_from](function.pg-copy-from.md)— Вставляє записи з масиву до таблиці
+    -   [pg\_copy\_to](function.pg-copy-to.md)— Копіює дані з таблиці до масиву
+    -   [pg\_dbname](function.pg-dbname.md) \- Визначає ім'я бази даних
+    -   [pg\_delete](function.pg-delete.md) \- Видаляє записи
+    -   [pg\_end\_copy](function.pg-end-copy.md)— Синхронізує з бекендом PostgreSQL
+    -   [pg\_escape\_bytea](function.pg-escape-bytea.md)— Екранує спецсимволи у рядку для вставки у поле типу bytea
+    -   [pg\_escape\_identifier](function.pg-escape-identifier.md)— Екранує ідентифікатор для вставлення текстового поля
+    -   [pg\_escape\_literal](function.pg-escape-literal.md)— Екранувати літерал під час вставки у текстове поле
+    -   [pg\_escape\_string](function.pg-escape-string.md)— Екранування спецсимволів у рядку запиту
+    -   [pg\_execute](function.pg-execute.md)— Запускає виконання раніше підготовленого параметризованого запиту та чекає на результат
+    -   [pg\_fetch\_all\_columns](function.pg-fetch-all-columns.md)— Вибирає всі записи з однієї колонки результату запиту та поміщає їх у масив
+    -   [pg\_fetch\_all](function.pg-fetch-all.md)— Вибирає всі дані з результату запиту та поміщає їх у масив
+    -   [pg\_fetch\_array](function.pg-fetch-array.md)— Повертає рядок результату у вигляді масиву
+    -   [pg\_fetch\_assoc](function.pg-fetch-assoc.md)— Вибирає рядок результату запиту та поміщає дані до асоціативного масиву
+    -   [pg\_fetch\_object](function.pg-fetch-object.md)— Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
+    -   [pg\_fetch\_result](function.pg-fetch-result.md)— Повертає запис із результату запиту
+    -   [pg\_fetch\_row](function.pg-fetch-row.md)— Вибирає рядок результату запиту та поміщає дані до масиву
+    -   [pg\_field\_is\_null](function.pg-field-is-null.md) \- Перевірка поля на значення SQL NULL
+    -   [pg\_field\_name](function.pg-field-name.md) \- Повертає найменування поля
+    -   [pg\_field\_num](function.pg-field-num.md) \- Повертає порядковий номер іменованого поля
+    -   [pg\_field\_prtlen](function.pg-field-prtlen.md)— Повертає кількість символів, що друкуються.
+    -   [pg\_field\_size](function.pg-field-size.md)— Повертає розмір поля
+    -   [pg\_field\_table](function.pg-field-table.md)— Повертає назву або ідентифікатор таблиці, що містить задане поле
+    -   [pg\_field\_type\_oid](function.pg-field-type-oid.md) \- Повертає ідентифікатор типу заданого поля
+    -   [pg\_field\_type](function.pg-field-type.md) \- Повертає ім'я типу заданого поля
+    -   [pg\_flush](function.pg-flush.md)— Скинути дані вихідного запиту на з'єднанні
+    -   [pg\_free\_result](function.pg-free-result.md)— Очищення результату запиту та звільнення пам'яті
+    -   [pg\_get\_notify](function.pg-get-notify.md)— Отримання SQL NOTIFY повідомлення
+    -   [pg\_get\_pid](function.pg-get-pid.md)— Отримує ID процесу сервера БД
+    -   [pg\_get\_result](function.pg-get-result.md)— Отримання результату асинхронного запиту
+    -   [pg\_host](function.pg-host.md)— Повертає ім'я хоста, що відповідає підключенню
+    -   [pg\_insert](function.pg-insert.md)— Заносить дані з масиву до таблиці баз даних
+    -   [pg\_last\_error](function.pg-last-error.md)— Отримує повідомлення про останню помилку на з'єднанні з базою даних.
+    -   [pg\_last\_notice](function.pg-last-notice.md)— Повертає останнє повідомлення від сервера PostgreSQL
+    -   [pg\_last\_oid](function.pg-last-oid.md)— Повертає OID останньому доданому до бази рядка
+    -   [pg\_lo\_close](function.pg-lo-close.md) \- Закриває великий об'єкт
+    -   [pg\_lo\_create](function.pg-lo-create.md) \- Створює великий об'єкт
+    -   [pg\_lo\_export](function.pg-lo-export.md)— Виведення великого об'єкта у файл
+    -   [pg\_lo\_import](function.pg-lo-import.md) \- Імпорт великого об'єкта з файлу
+    -   [pg\_lo\_open](function.pg-lo-open.md)— Відкриває великий об'єкт бази даних
+    -   [pg\_lo\_read\_all](function.pg-lo-read-all.md)— Читає вміст великого об'єкта та посилає безпосередньо до браузера
+    -   [pg\_lo\_read](function.pg-lo-read.md)— Читає дані великого об'єкту
+    -   [pg\_lo\_seek](function.pg-lo-seek.md)— Переміщує внутрішній покажчик великого об'єкту
+    -   [pg\_lo\_tell](function.pg-lo-tell.md)— Повертає поточне положення внутрішнього покажчика великого об'єкту
+    -   [pg\_lo\_truncate](function.pg-lo-truncate.md) \- Обрізає великий об'єкт
+    -   [pg\_lo\_unlink](function.pg-lo-unlink.md)— Видалення великого об'єкту
+    -   [pg\_lo\_write](function.pg-lo-write.md)— Записує дані у великий об'єкт
+    -   [pg\_meta\_data](function.pg-meta-data.md)— Отримання метаданих таблиці
+    -   [pg\_num\_fields](function.pg-num-fields.md)— Повертає кількість полів у вибірці
+    -   [pg\_num\_rows](function.pg-num-rows.md)— Повертає кількість рядків у вибірці
+    -   [pg\_options](function.pg-options.md)— Отримання параметрів з'єднання із сервером баз даних
+    -   [pg\_parameter\_status](function.pg-parameter-status.md)— Перегляд поточних параметрів сервера
+    -   [pg\_pconnect](function.pg-pconnect.md)— Відкриває постійне з'єднання із сервером PostgreSQL
+    -   [pg\_ping](function.pg-ping.md)— Перевірка з'єднання з базою даних
+    -   [pg\_port](function.pg-port.md)— Повертає номер порту, який відповідає заданому з'єднанню
+    -   [pg\_prepare](function.pg-prepare.md)— Надсилає запит на створення параметризованого SQL виразу і чекає на його завершення
+    -   [pg\_put\_line](function.pg-put-line.md)— Передає на PostgreSQL сервер рядок із завершальним нулем
+    -   [pg\_query\_params](function.pg-query-params.md)— Посилає параметризований запит на сервер, параметри передаються окремо від тексту запиту SQL
+    -   [pg\_query](function.pg-query.md)— Виконує запит
+    -   [pg\_result\_error\_field](function.pg-result-error-field.md)— Повертає конкретне поле зі звіту про помилки
+    -   [pg\_result\_error](function.pg-result-error.md)— Повертає повідомлення про помилку, пов'язане із запитом результату
+    -   [pg\_result\_seek](function.pg-result-seek.md)— Зміщує вказівник на рядок вибірки в екземплярі результату запиту
+    -   [pg\_result\_status](function.pg-result-status.md)— Повертає стан результату запиту
+    -   [pg\_select](function.pg-select.md) \- Вибирає записи з бази даних
+    -   [pg\_send\_execute](function.pg-send-execute.md) \- Запускає попередньо підготовлений SQL-запит та передає йому параметри; не чекає результату, що повертається
+    -   [pg\_send\_prepare](function.pg-send-prepare.md)— Надсилає запит на створення параметризованого SQL-виразу, не чекаючи його завершення
+    -   [pg\_send\_query\_params](function.pg-send-query-params.md)— Посилає параметризований запит на сервер, не чекає результату, що повертається.
+    -   [pg\_send\_query](function.pg-send-query.md)— Надсилає асинхронний запит
+    -   [pg\_set\_client\_encoding](function.pg-set-client-encoding.md) \- Встановлює клієнтське кодування
+    -   [pg\_set\_error\_context\_visibility](function.pg-set-error-context-visibility.md)— Визначає видимість повідомлень про помилки контексту, що повертаються функціями pg\_last\_error та pg\_result\_error
+    -   [pg\_set\_error\_verbosity](function.pg-set-error-verbosity.md)— Визначає обсяг тексту повідомлень, що повертаються функціями pg\_last\_error та pg\_result\_error
+    -   [pg\_socket](function.pg-socket.md)— Отримати дескриптор тільки для читання на сокет, що лежить в основі з'єднання PostgreSQL
+    -   [pg\_trace](function.pg-trace.md)— Включає трасування підключення PostgreSQL
+    -   [pg\_transaction\_status](function.pg-transaction-status.md)— Повертає поточний стан транзакції на сервері
+    -   [pg\_tty](function.pg-tty.md)— Повертає ім'я терміналу TTY, пов'язане зі з'єднанням
+    -   [pg\_unescape\_bytea](function.pg-unescape-bytea.md)— Забирає екранування двійкових даних типу bytea
+    -   [pg\_untrace](function.pg-untrace.md)— Вимикає трасування з'єднання з PostgreSQL
+    -   [pg\_update](function.pg-update.md)— Оновлення даних у таблиці
+    -   [pg\_version](function.pg-version.md)— Повертає масив, що містить версії клієнта, протоколу клієнт-серверної взаємодії та сервера (якщо є)
+-   [PgSql\\Connection](class.pgsql-connection.md) \- Клас PgSql\\Connection
+-   [PgSql\\Result](class.pgsql-result.md) \- Клас PgSql\\Result
+-   [PgSql\\Lob](class.pgsql-lob.md) \- Клас PgSql\\Lob

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionnamedtype.md: ReflectionNamedType
 title: 'ReflectionNamedType::getName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionNamedType::getName
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
 ReflectionNamedType::getName — Отримує ім'я типу у вигляді рядка
 
@@ -28,4 +29,4 @@ public ReflectionNamedType::getName(): string
 
 ### Дивіться також
 
--   [ReflectionType::toString()](reflectiontype.tostring.md) - Перетворення на рядок
+-   [ReflectionType::\_\_toString()](reflectiontype.tostring.md) \- Перетворення на рядок

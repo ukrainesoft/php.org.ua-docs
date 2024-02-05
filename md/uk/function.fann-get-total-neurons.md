@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-total-connections.md: « fanngettotalconnections
-  - function.fann-get-train-error-function.md: fanngettrainerrorfunction »
+  - function.fann-get-total-connections.md: « fann\_get\_total\_connections
+  - function.fann-get-train-error-function.md: fann\_get\_train\_error\_function »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngettotalneurons
+  - ref.fann.md: Функції Fann
+title: fann\_get\_total\_neurons
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngettotalneurons
+# fann\_get\_total\_neurons
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngettotalneurons — Отримує загальну кількість нейронів у всій мережі
+fann\_get\_total\_neurons — Отримує загальну кількість нейронів у всій мережі
 
 ### Опис
 
@@ -28,4 +29,4 @@ fann_get_total_neurons(resource $ann): int
 
 ### Значення, що повертаються
 
-Загальна кількість нейронів у всій мережі або **`false`** у разі виникнення помилки.
+Загальна кількість нейронів у всій мережі або \*\*`false`\*\*в случае возникновения ошибки.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.wincache-scache-info.md: « wincachescacheinfo
-  - function.wincache-ucache-add.md: wincacheucacheadd »
+  - function.wincache-scache-info.md: « wincache\_scache\_info
+  - function.wincache-ucache-add.md: wincache\_ucache\_add »
   - index.md: PHP Manual
-  - ref.wincache.md: Функции WinCache
-title: wincachescachememinfo
+  - ref.wincache.md: Функції WinCache
+title: wincache\_scache\_meminfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# wincachescachememinfo
+# wincache\_scache\_meminfo
 
 (PECL wincache >= 1.1.0)
 
-wincachescachememinfo — Отримує інформацію про використання кеш-пам'яті сесії
+wincache\_scache\_meminfo — Отримує інформацію про використання кеш-пам'яті сесії
 
 ### Опис
 
@@ -26,19 +27,19 @@ wincache_scache_meminfo(): array|false
 
 ### Значення, що повертаються
 
-Масив метаданих про використання кеш-пам'яті сесії або **`false`** у разі виникнення помилки.
+Масив метаданих про використання кеш-пам'яті сесії або \*\*`false`\*\*в случае возникновения ошибки.
 
 Масив, що повертається цією функцією, містить такі елементи:
 
--   `memory_total` - Об'єм пам'яті в байтах, виділений для кеш-пам'яті сесії.
--   `memory_free` - Об'єм вільної пам'яті в байтах, доступної для кеш-пам'яті сесії.
--   `num_used_blks` - кількість блоків пам'яті, які використовуються кешем сесії.
--   `num_free_blks` - Кількість вільних блоків пам'яті, доступних для кешу сесії.
--   `memory_overhead` - Об'єм пам'яті в байтах, що використовується для внутрішніх структур кешу сесії.
+-   `memory_total`\- Об'єм пам'яті в байтах, виділений для кеш-пам'яті сесії.
+-   `memory_free`\- Об'єм вільної пам'яті в байтах, доступної для кеш-пам'яті сесії.
+-   `num_used_blks`\- кількість блоків пам'яті, які використовуються кешем сесії.
+-   `num_free_blks`\- Кількість вільних блоків пам'яті, доступних для кешу сесії.
+-   `memory_overhead`\- Об'єм пам'яті в байтах, що використовується для внутрішніх структур кешу сесії.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **wincachescachememinfo()****
+**Пример #1 Пример использования**wincache\_scache\_meminfo()\*\*\*\*
 
 ```php
 <pre>
@@ -48,7 +49,7 @@ print_r(wincache_scache_meminfo());
 </pre>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -63,11 +64,11 @@ Array
 
 ### Дивіться також
 
--   [wincachefcachefileinfo()](function.wincache-fcache-fileinfo.md) - Отримує інформацію про файли, закешовані у файловому кеші
--   [wincachefcachememinfo()](function.wincache-fcache-meminfo.md) - Отримує інформацію про використання пам'яті файлового кешу
--   [wincacheocachefileinfo()](function.wincache-ocache-fileinfo.md) - Отримує інформацію про файли, закешовані в кеші опкодів
--   [wincacherplistfileinfo()](function.wincache-rplist-fileinfo.md) - Отримує інформацію про дозвіл кешу шляху до файлу дозволу
--   [wincacherplistmeminfo()](function.wincache-rplist-meminfo.md) - Отримує інформацію про використання пам'яті за допомогою кеша шляху до файлу роздільної здатності
--   [wincacherefreshіфchanged()](function.wincache-refresh-if-changed.md) - Оновлює записи кеша для закешованих файлів
--   [wincacheucacheinfo()](function.wincache-ucache-info.md) - Отримує інформацію про дані, що зберігаються в кеші користувача
--   [wincachescacheinfo()](function.wincache-scache-info.md) - Отримує інформацію про файли, закешовані в кеші сесії
+-   [wincache\_fcache\_fileinfo()](function.wincache-fcache-fileinfo.md) \- Отримує інформацію про файли, закешовані у файловому кеші
+-   [wincache\_fcache\_meminfo()](function.wincache-fcache-meminfo.md) \- Отримує інформацію про використання пам'яті файлового кешу
+-   [wincache\_ocache\_fileinfo()](function.wincache-ocache-fileinfo.md) \- Отримує інформацію про файли, закешовані в кеші опкодів
+-   [wincache\_rplist\_fileinfo()](function.wincache-rplist-fileinfo.md) \- Отримує інформацію про дозвіл кешу шляху до файлу дозволу
+-   [wincache\_rplist\_meminfo()](function.wincache-rplist-meminfo.md) \- Отримує інформацію про використання пам'яті за допомогою кеша шляху до файлу роздільної здатності
+-   [wincache\_refresh\_if\_changed()](function.wincache-refresh-if-changed.md) \- Оновлює записи кеша для закешованих файлів
+-   [wincache\_ucache\_info()](function.wincache-ucache-info.md) \- Отримує інформацію про дані, що зберігаються в кеші користувача
+-   [wincache\_scache\_info()](function.wincache-scache-info.md) \- Отримує інформацію про файли, закешовані в кеші сесії

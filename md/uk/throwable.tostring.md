@@ -4,18 +4,19 @@ navigation:
   - class.arrayaccess.md: ArrayAccess »
   - index.md: PHP Manual
   - class.throwable.md: Throwable
-title: 'Throwable::toString'
+title: 'Throwable::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Throwable::toString
+# Throwable::\_\_function toString() { \[native code\] }
 
 (PHP 7, PHP 8)
 
-Throwable::toString — Отримує рядкову виставу викинутого об'єкта
+Throwable::\_\_toString — Отримує рядкову виставу викинутого об'єкта
 
 ### Опис
 
 ```methodsynopsis
-abstract public Throwable::__toString(): string
+public Throwable::__toString(): string
 ```
 
 ### Список параметрів
@@ -28,4 +29,4 @@ abstract public Throwable::__toString(): string
 
 ### Дивіться також
 
--   [Exception::toString()](exception.tostring.md) - Строкове подання виключення
+-   [Exception::\_\_toString()](exception.tostring.md) \- Строкове подання виключення

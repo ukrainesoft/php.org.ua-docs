@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-get-value.md: « fdfgetvalue
-  - function.fdf-header.md: fdfheader »
+  - function.fdf-get-value.md: « fdf\_get\_value
+  - function.fdf-header.md: fdf\_header »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfgetversion
+title: fdf\_get\_version
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfgetversion
+# fdf\_get\_version
 
-(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
+(PHP 4 >= 4.3.0, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfgetversion — Отримує номер версії для FDF API або файлу
+fdf\_get\_version — Отримує номер версії для FDF API або файлу
 
 ### Опис
 
@@ -24,12 +25,12 @@ fdf_get_version(resource $fdf_document = ?): string
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md) або [fdf\_open\_string()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 
-Повертає версію у вигляді рядка. Для поточного набору інструментів FDF 5.0 номер версії API - `5.0`, а номер версії документа - `1.2` `1.3` або `1.4`
+Повертає версію у вигляді рядка. Для поточного набору інструментів FDF 5.0 номер версії API - `5.0`, а номер версії документа - `1.2` `1.3`или`1.4`
 
 ### Дивіться також
 
--   [fdfsetversion()](function.fdf-set-version.md) - Встановлює номер версії для FDF
+-   [fdf\_set\_version()](function.fdf-set-version.md) \- Встановлює номер версії для FDF

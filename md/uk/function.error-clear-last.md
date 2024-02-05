@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.debug-print-backtrace.md: « debugprintbacktrace
-  - function.error-get-last.md: errorgetlast »
+  - function.debug-print-backtrace.md: « debug\_print\_backtrace
+  - function.error-get-last.md: error\_get\_last »
   - index.md: PHP Manual
-  - ref.errorfunc.md: Функции обработки ошибок
-title: errorclearlast
+  - ref.errorfunc.md: Функції обробки помилок
+title: error\_clear\_last
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# errorclearlast
+# error\_clear\_last
 
 (PHP 7, PHP 8)
 
-errorclearlast — Очистити останню помилку
+error\_clear\_last — Очистити останню помилку
 
 ### Опис
 
@@ -24,11 +25,11 @@ error_clear_last(): void
 
 ### Значення, що повертаються
 
-Очищає останню помилку, унеможливлюючи отримання її за допомогою [errorgetlast()](function.error-get-last.md)
+Очищає останню помилку, унеможливлюючи отримання її за допомогою [error\_get\_last()](function.error-get-last.md)
 
 ### Приклади
 
-**Приклад #1 Приклад **errorclearlast()****
+**Пример #1 Пример**error\_clear\_last()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ var_dump(error_get_last());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 NULL

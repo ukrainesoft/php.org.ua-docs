@@ -5,24 +5,25 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageftbbox
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imageftbbox
 
-(PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.7, PHP 5, PHP 7, PHP 8)
 
 imageftbbox — Визначення меж тексту, що виводиться шрифтом freetype2
 
 ### Опис
 
 ```methodsynopsis
-imageftbbox(    float $size,    float $angle,    string $font_filename,    string $string,    array $options = []): array|false
+imageftbbox(    float $size,    float $angle,    string $font_filename,    string $string,    array $options = []): array|false
 ```
 
 Ця функція розраховує та повертає рамку (кордон) FreeType тексту.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> До PHP 8.0.0 **imageftbbox()** - це розширений варіант [imagettfbbox()](function.imagettfbbox.md), який додатково підтримує `extrainfo`. Починаючи з 8.0.0, [imagettfbbox()](function.imagettfbbox.md) є псевдонімом **imageftbbox()**
+> До PHP 8.0.0**imageftbbox()** - це розширений варіант [imagettfbbox()](function.imagettfbbox.md), який додатково підтримує `extrainfo`. Починаючи з 8.0.0, [imagettfbbox()](function.imagettfbbox.md)является псевдонимом**imageftbbox()**
 
 ### Список параметрів
 
@@ -54,15 +55,15 @@ imageftbbox(    float $size,    float $angle,    string $font_filename,    strin
 
 **imageftbbox()** повертає масив з 8 елементів, що представляють чотири точки в кутах рамки тексту, що обрамляє:
 
-<table class="doctable informaltable"><tbody class="tbody"><tr><td>0</td><td>нижній лівий кут, X координата</td></tr><tr><td>1</td><td>нижній лівий кут, координата Y</td></tr><tr><td>2</td><td>нижній правий кут, X координата</td></tr><tr><td>3</td><td>нижній правий кут, координата Y</td></tr><tr><td>4</td><td>верхній правий кут, X координата&lt; /td&gt;</td></tr><tr><td>5</td><td>верхній правий кут, координата Y</td></tr><tr><td>6</td><td>верхній лівий кут, координата X</td></tr><tr><td>7</td><td>верхній лівий кут, Y координата</td></tr></tbody></table>
+<table class="doctable informaltable"><tbody class="tbody"><tr><td>0</td><td>нижній лівий кут, координата X</td></tr><tr><td>1</td><td>нижній лівий кут, координата Y</td></tr><tr><td>2</td><td>нижній правий кут, X координата</td></tr><tr><td>3</td><td>нижній правий кут, координата Y</td></tr><tr><td>4</td><td>верхній правий кут, X координата&lt; /td&gt;</td></tr><tr><td>5</td><td>верхній правий кут, координата Y</td></tr><tr><td>6</td><td>верхній лівий кут, координата X</td></tr><tr><td>7</td><td>верхній лівий кут, Y координата</td></tr></tbody></table>
 
-Крапки розташовані щодо тексту *text* і не залежать від кута `angle`, таким чином "верхній лівий" означає верхню ліву точку тексту, якщо розташувати текст горизонтально.
+Крапки розташовані щодо тексту *text*и не зависят от угла`angle`, таким чином "верхній лівий" означає верхню ліву точку тексту, якщо розташувати текст горизонтально.
 
 У разі виникнення помилки повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imageftbbox()****
+**Пример #1 Пример использования**imageftbbox()\*\*\*\*
 
 ```php
 <?php
@@ -96,9 +97,9 @@ imagedestroy($im);
 
 ### Примітки
 
-> **Зауваження**: Ця функція доступна лише у випадку, якщо PHP був скомпільований за допомогою freetype (**\-with-freetype-dir=DIR**
+> **Зауваження**: Ця функція доступна лише у випадку, якщо PHP був скомпільований з підтримкою freetype (**\--with-freetype-dir=DIR**) .
 
 ### Дивіться також
 
--   [imagefttext()](function.imagefttext.md) - Нанесення тексту на зображення за допомогою шрифтів FreeType 2
--   [imagettfbbox()](function.imagettfbbox.md) - Отримання параметрів рамки, що обрамляє текст написаний TrueType шрифтом
+-   [imagefttext()](function.imagefttext.md) \- Нанесення тексту на зображення за допомогою шрифтів FreeType 2
+-   [imagettfbbox()](function.imagettfbbox.md) \- Отримання параметрів рамки, що обрамляє текст написаний TrueType шрифтом

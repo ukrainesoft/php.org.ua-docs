@@ -1,22 +1,23 @@
 ---
 navigation:
-  - class.mysql-xdevapi-columnresult.md: « mysqlxdevapiColumnResult
+  - class.mysql-xdevapi-columnresult.md: « mysql\_xdevapi\\ColumnResult
   - mysql-xdevapi-columnresult.getcharactersetname.md: 'ColumnResult::getCharacterSetName »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
-title: 'ColumnResult::construct'
+  - class.mysql-xdevapi-columnresult.md: mysql\_xdevapi\\ColumnResult
+title: 'ColumnResult::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ColumnResult::construct
+# ColumnResult::\_\_construct
 
 (No version information available, might only be in Git)
 
-ColumnResult::construct - Конструктор класу ColumnResult
+ColumnResult::\_\_construct - Конструктор класу ColumnResult
 
 ### Опис
 
-private **mysqlxdevapiColumnResult::construct**
+private**mysql\_xdevapi\\ColumnResult::\_\_construct**()
 
-Отримує метадані стовпця, такі як набір символів; створюється методом RowResult::getColumns().
+Отримує метадані стовпця, такі як набір символів; створюється методом **mysql\_xdevapi\\RowResult::getColumns()**
 
 ### Список параметрів
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiColumnResult::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::construct()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\ColumnResult::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -40,27 +41,27 @@ $table  = $schema->getTable("numbers");
 
 $result1 = $table->select('hello','world')->execute();
 
-// Возвращает Масив объектов ColumnResult
+// Возвращает массив объектов ColumnResult
 $columns = $result1->getColumns();
 
 foreach ($columns as $column) {
     echo "\nМетка столбца " , $column->getColumnLabel();
-    echo " является типом "       , $column->getType();
-    echo " и ", ($column->isNumberSigned() === 0) ? "Неподписан." : "Подписан.";
+    echo " принадлежит типу "       , $column->getType();
+    echo " и это ", ($column->isNumberSigned() === 0) ? "беззнаковое число." : "знаковое число.";
 }
 
 // Альтернативный вариант
 $result2 = $session->sql("SELECT * FROM nonsense.numbers")->execute();
 
-// Возвращает Масив объектов FieldMetadata
+// Возвращает массив объектов FieldMetadata
 print_r($result2->getColumns());
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
-Метка столбца hello является типом 19 и Подписан.
-Метка столбца world является типом 4 и Неподписан.
+Метка столбца hello принадлежит типу 19 и это знаковое число.
+Метка столбца world принадлежит типу 4 и это беззнаковое число.
 
 Array
 (

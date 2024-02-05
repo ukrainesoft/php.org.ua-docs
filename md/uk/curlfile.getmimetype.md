@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.curlfile.md: CURLFile
 title: 'CURLFile::getMimeType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CURLFile::getMimeType
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 CURLFile::getMimeType — Повертає MIME-тип файлу
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - gender-gender.country.md: '« GenderGender::country'
-  - gender-gender.isnick.md: 'GenderGender::isNick »'
+  - gender-gender.country.md: '« Gender\\Gender::country'
+  - gender-gender.isnick.md: 'Gender\\Gender::isNick »'
   - index.md: PHP Manual
-  - class.gender.md: GenderGender
-title: 'GenderGender::get'
+  - class.gender.md: Gender\\Gender
+title: 'Gender\\Gender::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GenderGender::get
+# Gender\\Gender::get
 
 (PECL gender >= 0.6.0)
 
-GenderGender::get — Отримати підлогу на ім'я
+Gender\\Gender::get — Отримати підлогу на ім'я
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-manager.getencryptedfieldsmap.md: '« MongoDBDriverManager::getEncryptedFieldsMap'
-  - mongodb-driver-manager.getreadpreference.md: 'MongoDBDriverManager::getReadPreference »'
+  - mongodb-driver-manager.getencryptedfieldsmap.md: '« MongoDB\\Driver\\Manager::getEncryptedFieldsMap'
+  - mongodb-driver-manager.getreadpreference.md: 'MongoDB\\Driver\\Manager::getReadPreference »'
   - index.md: PHP Manual
-  - class.mongodb-driver-manager.md: MongoDBDriverManager
-title: 'MongoDBDriverManager::getReadConcern'
+  - class.mongodb-driver-manager.md: MongoDB\\Driver\\Manager
+title: 'MongoDB\\Driver\\Manager::getReadConcern'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverManager::getReadConcern
+# MongoDB\\Driver\\Manager::getReadConcern
 
 (mongodb >=1.1.0)
 
-MongoDBDriverManager::getReadConcern — Повертає ReadConcern для Manager
+MongoDB\\Driver\\Manager::getReadConcern — Повертає ReadConcern для Manager
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverManager::getReadConcern — Повертає ReadConcern для Man
 final public MongoDB\Driver\Manager::getReadConcern(): MongoDB\Driver\ReadConcern
 ```
 
-Повертає [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md) для Manager, отриманий із його URI-опцій. Це гарантія прочитання за промовчанням для запитів і команд, що виконуються в Manager.
+Повертає [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.md) для Manager, отриманий із його URI-опцій. Це гарантія прочитання за промовчанням для запитів і команд, що виконуються в Manager.
 
 ### Список параметрів
 
@@ -26,15 +27,15 @@ final public MongoDB\Driver\Manager::getReadConcern(): MongoDB\Driver\ReadConcer
 
 ### Значення, що повертаються
 
-[MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md) для Manager.
+[MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.md)для Manager.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverManager::getReadConcern()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Manager::getReadConcern()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($manager->getReadConcern());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(MongoDB\Driver\ReadConcern)#2 (0) {
@@ -61,5 +62,5 @@ object(MongoDB\Driver\ReadConcern)#1 (1) {
 
 ### Дивіться також
 
--   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md)
--   [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.md) - Створює новий Manager MongoDB
+-   [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.md)
+-   [MongoDB\\Driver\\Manager::\_\_construct()](mongodb-driver-manager.construct.md) \- Створює новий Manager MongoDB

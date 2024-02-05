@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-extension-funcs.md: « getextensionfuncs
-  - function.get-included-files.md: getincludedfiles »
+  - function.get-extension-funcs.md: « get\_extension\_funcs
+  - function.get-included-files.md: get\_included\_files »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: getincludepath
+title: get\_include\_path
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getincludepath
+# get\_include\_path
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-getincludepath — Отримання поточного значення конфігураційної установки includepath
+get\_include\_path — Отримання поточного значення конфігураційної установки include\_path
 
 ### Опис
 
@@ -18,7 +19,7 @@ getincludepath — Отримання поточного значення кон
 get_include_path(): string|false
 ```
 
-Отримує значення налаштування конфігурації [includepath](ini.core.md#ini.include-path)
+Отримує значення налаштування конфігурації [include\_path](ini.core.md#ini.include-path)
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ get_include_path(): string|false
 
 ### Значення, що повертаються
 
-Повертає шлях до файлу у вигляді рядка або **`false`** у разі виникнення помилки.
+Повертає шлях до файлу у вигляді рядка або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getincludepath()****
+**Пример #1 Пример использования**get\_include\_path()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ echo ini_get('include_path');
 
 ### Дивіться також
 
--   [iniget()](function.ini-get.md) - Отримує значення налаштування конфігурації
--   [restoreincludepath()](function.restore-include-path.md) - Відновлює початкове значення конфігураційної установки includepath
--   [setincludepath()](function.set-include-path.md) - Встановлює налаштування конфігурації includepath
--   [include](function.include.md) - include
+-   [ini\_get()](function.ini-get.md) \- Отримує значення налаштування конфігурації
+-   [restore\_include\_path()](function.restore-include-path.md) \- Відновлює початкове значення конфігураційної установки include\_path
+-   [set\_include\_path()](function.set-include-path.md) \- Встановлює налаштування конфігурації include\_path
+-   [include](function.include.md) \- include

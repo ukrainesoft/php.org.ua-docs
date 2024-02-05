@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-ht-phasor.md: « traderхтphasor
-  - function.trader-ht-trendline.md: traderхтtrendline »
+  - function.trader-ht-phasor.md: « trader\_ht\_phasor
+  - function.trader-ht-trendline.md: trader\_ht\_trendline »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderхтsine
+  - ref.trader.md: Функції Trader
+title: trader\_ht\_sine
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderхтsine
+# trader\_ht\_sine
 
 (PECL trader >= 0.2.0)
 
-traderхтsine - Перетворення Гільберта - SineWave
+trader\_ht\_sine - Перетворення Гільберта - SineWave
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-get-attachment.md: « fdfgetattachment
-  - function.fdf-get-file.md: fdfgetfile »
+  - function.fdf-get-attachment.md: « fdf\_get\_attachment
+  - function.fdf-get-file.md: fdf\_get\_file »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfgetencoding
+title: fdf\_get\_encoding
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfgetencoding
+# fdf\_get\_encoding
 
-(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
+(PHP 4 >= 4.3.0, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfgetencoding — Отримує значення ключа /Encoding
+fdf\_get\_encoding — Отримує значення ключа /Encoding
 
 ### Опис
 
@@ -18,13 +19,13 @@ fdfgetencoding — Отримує значення ключа /Encoding
 fdf_get_encoding(resource $fdf_document): string
 ```
 
-Отримує значення ключа `/Encoding`
+Получает значение ключа`/Encoding`
 
 ### Список параметрів
 
 `fdf_document`
 
-Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор FDF-документа, повернутий функціями [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md) або [fdf\_open\_string()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ fdf_get_encoding(resource $fdf_document): string
 
 ### Дивіться також
 
--   [fdfsetencoding()](function.fdf-set-encoding.md) - Встановлює кодування символів FDF
+-   [fdf\_set\_encoding()](function.fdf-set-encoding.md) \- Встановлює кодування символів FDF

@@ -5,47 +5,48 @@ navigation:
   - index.md: PHP Manual
   - book.ftp.md: FTP
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.
 
-**`FTP_ASCII`** (int)
+**`FTP_ASCII`**(int)
 
-**`FTP_AUTOSEEK`** (int)
+**`FTP_AUTOSEEK`**(int)
 
-Дивіться опис функції [ftpsetoption()](function.ftp-set-option.md)
+Смотрите описание функции[ftp\_set\_option()](function.ftp-set-option.md)
 
-**`FTP_AUTORESUME`** (int)
+**`FTP_AUTORESUME`**(int)
 
-Автоматичне визначення позиції старту та відновлення запитів PUT та GET (працює лише якщо дозволено FTPAUTOSEEK)
+Автоматичне визначення позиції старту та відновлення запитів PUT та GET (працює лише якщо дозволено FTP\_AUTOSEEK)
 
-**`FTP_FAILED`** (int)
+**`FTP_FAILED`**(int)
 
 Асинхронна передача не вдалася.
 
-**`FTP_FINISHED`** (int)
+**`FTP_FINISHED`**(int)
 
 Асинхронна передача завершена.
 
-**`FTP_MOREDATA`** (int)
+**`FTP_MOREDATA`**(int)
 
 Асинхронна передача ще активна.
 
-**`FTP_TEXT`** (int)
+**`FTP_TEXT`**(int)
 
-Синонім для **`FTP_ASCII`**
+Синоним для\*\*`FTP_ASCII`\*\*
 
-**`FTP_BINARY`** (int)
+**`FTP_BINARY`**(int)
 
-**`FTP_IMAGE`** (int)
+**`FTP_IMAGE`**(int)
 
-Синонім для **`FTP_BINARY`**
+Синоним для\*\*`FTP_BINARY`\*\*
 
-**`FTP_TIMEOUT_SEC`** (int)
+**`FTP_TIMEOUT_SEC`**(int)
 
-Дивіться опис функції [ftpsetoption()](function.ftp-set-option.md)
+Смотрите описание функции[ftp\_set\_option()](function.ftp-set-option.md)
 
-**`FTP_USEPASVADDRESS`** (bool)
+**`FTP_USEPASVADDRESS`**(int)
 
-Дивіться опис функції [ftpsetoption()](function.ftp-set-option.md) для отримання інформації.
+Смотрите описание к функции[ftp\_set\_option()](function.ftp-set-option.md)для получения информации.

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::ping'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::ping
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrClient::ping — Перевіряє, чи працює сервер Solr
 
@@ -36,7 +37,7 @@ public SolrClient::ping(): SolrPingResponse
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrClient::ping()****
+**Пример #1 Пример использования**SolrClient::ping()\*\*\*\*
 
 ```php
 <?php
@@ -55,4 +56,4 @@ $pingresponse = $client->ping();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:

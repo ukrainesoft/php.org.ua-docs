@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ibase-maintain-db.md: « ibasemaintainдб
-  - function.ibase-name-result.md: ibasenameresult »
+  - function.ibase-maintain-db.md: « ibase\_maintain\_db
+  - function.ibase-name-result.md: ibase\_name\_result »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibasemodifyuser
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_modify\_user
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibasemodifyuser
+# ibase\_modify\_user
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibasemodifyuser — Змінює користувача у безпечній базі даних
+ibase\_modify\_user — Змінює користувача у безпечній базі даних
 
 ### Опис
 
 ```methodsynopsis
-ibase_modify_user(    resource $service_handle,    string $user_name,    string $password,    string $first_name = ?,    string $middle_name = ?,    string $last_name = ?): bool
+ibase_modify_user(    resource $service_handle,    string $user_name,    string $password,    string $first_name = ?,    string $middle_name = ?,    string $last_name = ?): bool
 ```
 
 ### Список параметрів
@@ -26,7 +27,7 @@ ibase_modify_user(    resource $service_handle,    string $user_name,    string 
 
 `user_name`
 
-Ім'я користувача бази даних зміни.
+Ім'я користувача бази даних для зміни.
 
 `password`
 
@@ -46,9 +47,9 @@ ibase_modify_user(    resource $service_handle,    string $user_name,    string 
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ibaseadduser()](function.ibase-add-user.md) - Додає користувача до безпечної бази даних
--   [ibasedeleteuser()](function.ibase-delete-user.md) - Видаляє користувача з безпечної бази даних
+-   [ibase\_add\_user()](function.ibase-add-user.md) \- Додає користувача до безпечної бази даних
+-   [ibase\_delete\_user()](function.ibase-delete-user.md) \- Видаляє користувача з безпечної бази даних

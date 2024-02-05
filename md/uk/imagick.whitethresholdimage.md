@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::whiteThresholdImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::whiteThresholdImage
 
@@ -30,13 +31,13 @@ public Imagick::whiteThresholdImage(mixed $threshold): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL imagick 2.1.0 | Тепер дозволяється передавати рядок, який представляє колір як параметр. Попередні версії допускають лише об'єкт ImagickPixel. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::whiteThresholdImage()****
+**Пример #1 Пример использования**Imagick::whiteThresholdImage()\*\*\*\*
 
 ```php
 <?php

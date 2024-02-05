@@ -1,10 +1,11 @@
 ---
 navigation:
-  - book.mysql-xdevapi.md: « Mysqlxdevapi
-  - mysql-xdevapi.setup.md: Встановлення та налаштування »
+  - book.mysql-xdevapi.md: « Mysql\_xdevapi
+  - mysql-xdevapi.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 
@@ -12,4 +13,4 @@ title: Вступ
 
 X DevAPI використовує X Protocol, клієнт-серверний протокол нового покоління MySQL 8.0.
 
-Для отримання загальної інформації про сховище документів MySQL, будь ласка, зверніться до розділу [» Хранилище документов MySQL](https://dev.mysql.com/doc/refman/8.0/en/document-store.md) у посібнику MySQL.
+Для получения общей информации о хранилище документов MySQL, пожалуйста, обратитесь к главе[» Сховище документів MySQL](https://dev.mysql.com/doc/refman/8.0/en/document-store.md)в руководстве MySQL.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.inflate-get-status.md: « inflategetstatus
-  - function.readgzfile.md: readgzfile »
+  - function.inflate-get-status.md: « inflate\_get\_status
+  - function.ob-gzhandler.md: ob\_gzhandler »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
-title: inflateinit
+  - ref.zlib.md: Функції Zlib
+title: inflate\_init
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# inflateinit
+# inflate\_init
 
 (PHP 7, PHP 8)
 
-inflateinit - Ініціалізація контексту інкрементального розпакування
+inflate\_init - Ініціалізація контексту інкрементального розпакування
 
 ### Опис
 
@@ -24,7 +25,7 @@ inflate_init(int $encoding, array $options = []): InflateContext|false
 
 `encoding`
 
-Одна з констант **`ZLIB_ENCODING_*`**
+Одна из констант\*\*`ZLIB_ENCODING_*`\*\*
 
 `options`
 
@@ -44,7 +45,7 @@ window
 
 strategy
 
-Одна з констант: **`ZLIB_FILTERED`** **`ZLIB_HUFFMAN_ONLY`** **`ZLIB_RLE`** **`ZLIB_FIXED`** або **`ZLIB_DEFAULT_STRATEGY`** (за замовчуванням).
+Одна из констант:**`ZLIB_FILTERED`** **`ZLIB_HUFFMAN_ONLY`** **`ZLIB_RLE`** **`ZLIB_FIXED`**или**`ZLIB_DEFAULT_STRATEGY`**(по умолчанию).
 
 dictionary
 
@@ -52,7 +53,7 @@ dictionary
 
 ### Значення, що повертаються
 
-Повертає ресурс контексту розпакування (`zlib.inflate`) або **`false`** у разі виникнення помилки.
+Повертає ресурс контексту розпакування (`zlib.inflate`) или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -60,17 +61,17 @@ dictionary
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі успішного виконання функція повертає екземпляр [InflateContext](class.inflatecontext.md); раніше повертався ресурс (resource). |
+| 8.0.0 | У разі успішного виконання функція повертає екземпляр [InflateContext](class.inflatecontext.md); раніше повертався ресурс (resource). |
 
 ### Примітки
 
 **Застереження**
 
-На відміну від [gzinflate()](function.gzinflate.md)контексти інкрементального розширення не обмежують довжину декодованих даних, тому не забезпечують автоматичного захисту від ZIP-бомб.
+В отличие от[gzinflate()](function.gzinflate.md)контексти інкрементального розширення не обмежують довжину декодованих даних, тому не забезпечують автоматичного захисту від ZIP-бомб.
 
 ### Дивіться також
 
--   [inflateadd()](function.inflate-add.md) - Інкрементальне розпакувати закодовані дані
--   [deflateinit()](function.deflate-init.md) - Ініціалізувати контекст інкрементального стиску
+-   [inflate\_add()](function.inflate-add.md) \- Інкрементальне розпакувати закодовані дані
+-   [deflate\_init()](function.deflate-init.md) \- Ініціалізувати контекст інкрементального стиску

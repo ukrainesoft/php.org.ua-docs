@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.generator.md: Generator
 title: 'Generator::send'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Generator::send
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 Generator::send — Передати значення в генератор
 
@@ -26,7 +27,7 @@ public Generator::send(mixed $value): mixed
 
 `value`
 
-Значення, що відправляється в генератор. Це значення буде поточним значенням виразу, що повертається [yield](language.generators.syntax.md#control-structures.yield) генератора.
+Значення, що відправляється в генератор. Це значення буде поточним значенням виразу, що повертається [yield](language.generators.syntax.md#control-structures.yield)генератора.
 
 ### Значення, що повертаються
 
@@ -34,7 +35,7 @@ public Generator::send(mixed $value): mixed
 
 ### Приклади
 
-**Приклад #1 Використання **Generator::send()** для впровадження значень**
+**Пример #1 Использование**Generator::send()**для внедрения значений**
 
 ```php
 <?php
@@ -52,7 +53,7 @@ $printer->send('Bye world!');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 I'm printer!

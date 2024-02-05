@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::isEncryptionMethodSupported'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::isEncryptionMethodSupported
 
@@ -24,23 +25,23 @@ public static ZipArchive::isEncryptionMethodSupported(int $method, bool $enc = t
 
 `method`
 
-Метод шифрування, одна з констант **`ZipArchive::EM_*`**
+Метод шифрования, одна из констант\*\*`ZipArchive::EM_*`\*\*
 
 `enc`
 
-Якщо **`true`** перевірка шифрування, інакше перевірка розшифрування.
+Якщо \*\*`true`\*\*проверка шифрования, иначе проверка расшифровки.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна лише в тому випадку, якщо PHP зібрано з libzip ≥ 1.7.0.
 
 ### Дивіться також
 
--   [ZipArchive::setEncryptionIndex()](ziparchive.setencryptionindex.md) - Встановити метод шифрування запису за його індексом
--   [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.md) - Встановити метод шифрування запису на його ім'я
+-   [ZipArchive::setEncryptionIndex()](ziparchive.setencryptionindex.md) \- Встановити метод шифрування запису за його індексом
+-   [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.md) \- Встановити метод шифрування запису на його ім'я

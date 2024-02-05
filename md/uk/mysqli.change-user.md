@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli.begin-transaction.md: '« mysqli::begintransaction'
-  - mysqli.character-set-name.md: 'mysqli::charactersetname »'
+  - mysqli.begin-transaction.md: '« mysqli::begin\_transaction'
+  - mysqli.character-set-name.md: 'mysqli::character\_set\_name »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::changeuser'
+title: 'mysqli::change\_user'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::changeuser
+# mysqli::change\_user
 
-# mysqlichangeuser
+# mysqli\_change\_user
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::changeuser -- mysqlichangeuser — Дозволяє змінити користувача підключеного до бази даних
+mysqli::change\_user -- mysqli\_change\_user — Дозволяє змінити користувача підключеного до бази даних
 
 ### Опис
 
@@ -25,18 +26,18 @@ public mysqli::change_user(string $username, string $password, ?string $database
 Процедурний стиль
 
 ```methodsynopsis
-mysqli_change_user(    mysqli $mysql,    string $username,    string $password,    ?string $database): bool
+mysqli_change_user(    mysqli $mysql,    string $username,    string $password,    ?string $database): bool
 ```
 
 Змінює користувача, від імені якого здійснено підключення до бази даних, та встановлює поточну базу даних
 
-Для успішної зміни користувача необхідні коректні `username` і `password`а також наявність достатніх прав для роботи з базою. Якщо зміна користувача закінчиться помилкою, збережеться поточна авторизація користувача до виклику функції.
+Для успішної зміни користувача необхідні коректні `username`и`password`а також наявність достатніх прав для роботи з базою. Якщо зміна користувача закінчиться помилкою, збережеться поточна авторизація користувача до виклику функції.
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 `username`
 
@@ -50,15 +51,19 @@ mysqli_change_user(    mysqli $mysql,    string $username,    string $password, 
 
 Ім'я бази даних
 
-Якщо потрібно змінити користувача без вибору бази даних, слід вказувати **`null`**. Для вибору бази даних необхідно використовувати функцію [mysqliselectdb()](mysqli.select-db.md)
+Якщо потрібно змінити користувача без вибору бази даних, слід вказувати **`null`**. Для вибору бази даних необхідно використовувати функцію [mysqli\_select\_db()](mysqli.select-db.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+
+### Помилки
+
+Якщо сповіщення про помилки mysqli включено (**`MYSQLI_REPORT_ERROR`**) та запитана операція не вдалася, видається попередження. Якщо, крім того, встановлено режим **`MYSQLI_REPORT_STRICT`**, натомість буде викинуто виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::changeuser()****
+**Пример #1 Пример использования**mysqli::change\_user()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -137,7 +142,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 База данных по умолчанию: world
@@ -146,11 +151,11 @@ mysqli_close($link);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> В результаті виклику функції поточне з'єднання з базою даних починає поводитися так, ніби було створено нове з'єднання. Незалежно від результату операції, виклик функції призводить до відкату всіх активних транзакцій, закриття тимчасових таблиць та розблокування всіх заблокованих таблиць.
+> В результаті виклику функції поточне з'єднання з базою даних починає поводитися так, ніби було створено нове з'єднання. Незалежно від результату операції, виклик функції призводить до відкату всіх активних транзакцій, закриття часових таблиць та розблокування всіх заблокованих таблиць.
 
 ### Дивіться також
 
--   [mysqliconnect()](function.mysqli-connect.md) - Псевдонім mysqli::construct
--   [mysqliselectdb()](mysqli.select-db.md) - Встановлює базу даних для запитів, що виконуються.
+-   [mysqli\_connect()](function.mysqli-connect.md) \- Псевдонім mysqli::\_\_construct
+-   [mysqli\_select\_db()](mysqli.select-db.md) \- Встановлює базу даних для запитів, що виконуються.

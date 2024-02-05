@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::addByKey'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::addByKey
 
@@ -15,7 +16,7 @@ Memcached::addByKey — Додає новий елемент на заданий
 ### Опис
 
 ```methodsynopsis
-public Memcached::addByKey(    string $server_key,    string $key,    mixed $value,    int $expiration = ?): bool
+public Memcached::addByKey(    string $server_key,    string $key,    mixed $value,    int $expiration = 0): bool
 ```
 
 **Memcached::addByKey()** працює аналогічно [Memcached::add()](memcached.add.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер. Це корисно, коли необхідно тримати кілька пов'язаних значень на конкретному сервері.
@@ -24,7 +25,7 @@ public Memcached::addByKey(    string $server_key,    string $key,    mixed $val
 
 `server_key`
 
-Ключ, що ідентифікує сервер, де зберігається значення. Замість хешування за ключем самого елемента, ми хешуємо по ключу сервера при виборі сервера, що підключається, memcached. Цей підхід дозволяє групувати зв'язані елементи разом на одному сервері, що покращує ефективність групових операцій.
+Ключ, що ідентифікує сервер, де зберігається значення. Замість хешування по ключу самого елемента, при виборі сервера, що підключається, memcached хешують по ключу сервера. Такий метод дозволяє групувати пов'язані елементи разом на одному сервері, що підвищує ефективність групових операцій.
 
 `key`
 
@@ -40,10 +41,10 @@ public Memcached::addByKey(    string $server_key,    string $key,    mixed $val
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає \*\*`Memcached::RES_NOTSTORED`\*\*якщо переданий ключ вже існує.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки. Метод[Memcached::getResultCode()](memcached.getresultcode.md) повертає \*\*`Memcached::RES_NOTSTORED`\*\*якщо переданий ключ вже існує.
 
 ### Дивіться також
 
--   [Memcached::add()](memcached.add.md) - Додає елемент із новим ключем
--   [Memcached::set()](memcached.set.md) - Зберігає запис
--   [Memcached::replace()](memcached.replace.md) - Замінює існуючий запис із зазначеним ключем
+-   [Memcached::add()](memcached.add.md) \- Додає елемент із новим ключем
+-   [Memcached::set()](memcached.set.md) \- Зберігає запис
+-   [Memcached::replace()](memcached.replace.md) \- Замінює існуючий запис із зазначеним ключем

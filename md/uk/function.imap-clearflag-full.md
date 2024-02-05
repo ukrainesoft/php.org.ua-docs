@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.imap-check.md: « imapcheck
-  - function.imap-close.md: imapclose »
+  - function.imap-check.md: « imap\_check
+  - function.imap-close.md: imap\_close »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapclearflagfull
+  - ref.imap.md: Функції IMAP
+title: imap\_clearflag\_full
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapclearflagfull
+# imap\_clearflag\_full
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapclearflagfull — Зняти з повідомлення встановлені прапори
+imap\_clearflag\_full — Знімає з повідомлення встановлені прапори
 
 ### Опис
 
 ```methodsynopsis
-imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,    string $flag,    int $options = 0): bool
+imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,    string $flag,    int $options = 0): true
 ```
 
 Ця функція повідомляє сховище, що необхідно зняти заданий прапор `flag` для зазначеної послідовності повідомлень `sequence`
@@ -24,7 +25,7 @@ imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,    string $f
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `sequence`
 
@@ -32,24 +33,29 @@ imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,    string $f
 
 `flag`
 
-Прапори, які можна видалити:Seen", "Answered", "Flagged", "Deleted" та "Draft" (як визначено в [» RFC2060](http://www.faqs.org/rfcs/rfc2060)
+Прапори, які можна видалити:\\\\Seen", "\\\\Answered", "\\\\Flagged", "\\\\Deleted" та "\\\\Draft" (як визначено в [» RFC2060](http://www.faqs.org/rfcs/rfc2060)) .
 
 `options`
 
 `options` - бітова маска, яка може набувати єдиного значення:
 
--   **`ST_UID`** - аргумент sequence містить список UID, а не послідовність номерів
+-   \*\*`ST_UID`\*\*- аргумент sequence містить список UID, а не послідовність номерів
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
+
+### Помилки
+
+Викидає виняток [ValueError](class.valueerror.md), если значение параметра`options`недопустимо.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
+| 8.0.0 | Тепер викидається виняток[ValueError](class.valueerror.md) при неприпустимих значеннях параметра `options`. . Раніше виникало попередження та функція повертала логічне значення **`false`** |
 
 ### Дивіться також
 
--   [imapsetflagfull()](function.imap-setflag-full.md) - Встановити прапори на повідомлення
+-   [imap\_setflag\_full()](function.imap-setflag-full.md) \- Встановлює прапори на повідомлення

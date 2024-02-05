@@ -1,13 +1,14 @@
 ---
 navigation:
-  - zookeeper.constants.md: « Обумовлені константи
-  - function.zookeeper-dispatch.md: zookeeperdispatch »
+  - zookeeper.constants.md: « Зумовлені константи
+  - function.zookeeper-dispatch.md: zookeeper\_dispatch »
   - index.md: PHP Manual
   - book.zookeeper.md: ZooKeeper
 title: Опції ZooKeeper
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Опції ZooKeeper
 
 ## Зміст
 
--   [zookeeperdispatch](function.zookeeper-dispatch.md) — Викликати callback-функції для операцій, що очікують
+-   [zookeeper\_dispatch](function.zookeeper-dispatch.md)— Викликати callback-функції для операцій, що очікують

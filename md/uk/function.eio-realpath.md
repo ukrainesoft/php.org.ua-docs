@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.eio-readlink.md: « eioreadlink
-  - function.eio-rename.md: eiorename »
+  - function.eio-readlink.md: « eio\_readlink
+  - function.eio-rename.md: eio\_rename »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiorealpath
+  - ref.eio.md: Eio Функції
+title: eio\_realpath
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiorealpath
+# eio\_realpath
 
 (PECL eio >= 0.0.1dev)
 
-eiorealpath - Отримує абсолютний приведений до канонічного виду шлях
+eio\_realpath - Отримує абсолютний приведений до канонічного виду шлях
 
 ### Опис
 
 ```methodsynopsis
-eio_realpath(    string $path,    int $pri,    callable $callback,    string $data = NULL): resource
+eio_realpath(    string $path,    int $pri,    callable $callback,    string $data = NULL): resource
 ```
 
-**eiorealpath()** повертає абсолютний шлях через аргумент `result` функції `callback`
+**eio\_realpath()** повертає абсолютний шлях через аргумент `result` функції `callback`
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ eio_realpath(    string $path,    int $pri,    callable $callback,    string $da
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eiorealpath()****
+**Пример #1 Пример использования**eio\_realpath()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(12) "/home/ruslan"

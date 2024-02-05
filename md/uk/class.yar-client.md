@@ -1,12 +1,13 @@
 ---
 navigation:
-  - yar-server.handle.md: '« YarServer::handle'
-  - yar-client.call.md: 'YarClient::call »'
+  - yar-server.handle.md: '« Yar\_Server::handle'
+  - yar-client.call.md: 'Yar\_Client::\_\_call »'
   - index.md: PHP Manual
   - book.yar.md: Yar
-title: Клас YarClient
+title: Клас Yar\_Client
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YarClient
+# Клас Yar\_Client
 
 (No version information available, might only be in Git)
 
@@ -51,16 +52,16 @@ public setOpt(int $name, mixed $value): Yar_Client|false
 
 ## Властивості
 
-protocol
+\_protocol
 
-uri
+\_uri
 
-options
+\_options
 
-running
+\_running
 
 ## Зміст
 
--   [YarClient::call](yar-client.call.md) - Виклик сервісу
--   [YarClient::construct](yar-client.construct.md) - Конструктор YarClient
--   [YarClient::setOpt](yar-client.setopt.md) — Задати контекст дзвінка
+-   [Yar\_Client::\_\_call](yar-client.call.md) \- Виклик сервісу
+-   [Yar\_Client::\_\_construct](yar-client.construct.md) \- Конструктор Yar\_Client
+-   [Yar\_Client::setOpt](yar-client.setopt.md)— Задає контекст дзвінка

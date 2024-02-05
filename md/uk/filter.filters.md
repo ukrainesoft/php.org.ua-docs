@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.filter.md: Filter
 title: Типи фільтрів
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Типи фільтрів
 
@@ -13,4 +14,4 @@ title: Типи фільтрів
 -   [Фільтри валідації даних](filter.filters.validate.md)
 -   [Очищаючі фільтри](filter.filters.sanitize.md)
 -   [Інші фільтри](filter.filters.misc.md)
--   [Прапори, що використовуються у фільтрах](filter.filters.flags.md)
+-   [Прапори для фільтрів](filter.filters.flags.md)

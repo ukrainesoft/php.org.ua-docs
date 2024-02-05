@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-fetch-stream.md: « ssh2fetchstream
-  - function.ssh2-forward-accept.md: ssh2forwardaccept »
+  - function.ssh2-fetch-stream.md: « ssh2\_fetch\_stream
+  - function.ssh2-forward-accept.md: ssh2\_forward\_accept »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2fingerprint
+title: ssh2\_fingerprint
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2fingerprint
+# ssh2\_fingerprint
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2fingerprint — отримання відбитка віддаленого сервера
+ssh2\_fingerprint — отримання відбитка віддаленого сервера
 
 ### Опис
 
@@ -24,11 +25,11 @@ ssh2_fingerprint(resource $session, int $flags = SSH2_FINGERPRINT_MD5 | SSH2_FIN
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.md)
 
 `flags`
 
-`flags` може бути **`SSH2_FINGERPRINT_MD5`** або **`SSH2_FINGERPRINT_SHA1`**, об'єднані логічним АБО (OR) з **`SSH2_FINGERPRINT_HEX`** або **`SSH2_FINGERPRINT_RAW`**
+`flags` може бути **`SSH2_FINGERPRINT_MD5`**или**`SSH2_FINGERPRINT_SHA1`**, об'єднані логічним АБО (OR) з **`SSH2_FINGERPRINT_HEX`**или**`SSH2_FINGERPRINT_RAW`**
 
 ### Значення, що повертаються
 

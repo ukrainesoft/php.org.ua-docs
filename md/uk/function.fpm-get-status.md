@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.fastcgi-finish-request.md: « fastcgifinishrequest
+  - function.fastcgi-finish-request.md: « fastcgi\_finish\_request
   - refs.basic.session.md: Модулі для роботи із сесіями »
   - index.md: PHP Manual
   - ref.fpm.md: Функції FPM
-title: fpmgetstatus
+title: fpm\_get\_status
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fpmgetstatus
+# fpm\_get\_status
 
-(PHP 7> = 7.3, PHP 8)
+(PHP 7 >= 7.3, PHP 8)
 
-fpmgetstatus — Повертає поточний стан пулу FPM
+fpm\_get\_status — Повертає поточний стан пулу FPM
 
 ### Опис
 
 ```methodsynopsis
-fpm_get_status(): array
+fpm_get_status(): array|false
 ```
 
 Функція повертає повний поточний статус пулу FPM як асоціативного масиву. Вона завжди повертає повний статус, включаючи інформацію про стан кожного процесу. Дивіться [посібник зі сторінки стану FPM](fpm.status.md) для більш детальної інформації.
@@ -28,4 +29,4 @@ fpm_get_status(): array
 
 ### Значення, що повертаються
 
-Функція повертає асоціативний масив, що містить повний статус пулу FPM.
+Функція повертає асоціативний масив, що містить повний статус пулу FPM або \*\*`false`\*\*в случае возникновения ошибки.

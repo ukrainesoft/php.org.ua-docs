@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli.ssl-set.md: '« mysqli::sslset'
-  - mysqli.stmt-init.md: 'mysqli::stmtinit »'
+  - mysqli.ssl-set.md: '« mysqli::ssl\_set'
+  - mysqli.stmt-init.md: 'mysqli::stmt\_init »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::stat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # mysqli::stat
 
-# mysqliстати
+# mysqli\_stat
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::stat -- mysqlistat — Отримання інформації про поточний стан системи
+mysqli::stat -- mysqli\_stat — Отримання інформації про поточний стан системи
 
 ### Опис
 
@@ -28,37 +29,30 @@ public mysqli::stat(): string|false
 mysqli_stat(mysqli $mysql): string|false
 ```
 
-**mysqliстати()** повертає рядок з інформацією, схожою на ту, що надає команда 'mysqladmin status'. Сюди включається час роботи з моменту завантаження в секундах, кількість запущених процесів, запитів, перезавантажень та відкритих таблиць.
+**mysqli\_stat()** повертає рядок з інформацією, схожою на ту, що надає команда 'mysqladmin status'. Сюди включається час роботи з моменту завантаження в секундах, кількість запущених процесів, запитів, перезавантажень та відкритих таблиць.
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
-Рядок з інформацією про стан системи . **`false`** у разі виникнення помилки.
+Рядок з інформацією про стан системи . \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::stat()****
+**Пример #1 Пример использования**mysqli::stat()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
 ```php
 <?php
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 $mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
-}
-
-printf ("Состояние системы: %s\n", $mysqli->stat());
-
-$mysqli->close();
+printf("System status: %s\n", $mysqli->stat());
 ?>
 ```
 
@@ -66,21 +60,14 @@ $mysqli->close();
 
 ```php
 <?php
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 $link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
-}
-
-printf("Состояние системы: %s\n", mysqli_stat($link));
-
-mysqli_close($link);
+printf("System status: %s\n", mysqli_stat($link));
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Состояние системы: Uptime: 272  Threads: 1  Questions: 5340  Slow queries: 0
@@ -90,4 +77,4 @@ Memory in use: 8496K  Max memory used: 8560K
 
 ### Дивіться також
 
--   [mysqligetserverinfo()](mysqli.get-server-info.md) - Повертає версію MySQL сервера
+-   [mysqli\_get\_server\_info()](mysqli.get-server-info.md) \- Повертає версію MySQL сервера

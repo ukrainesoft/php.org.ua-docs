@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-docresult.fetchall.md: '« DocResult::fetchAll'
   - mysql-xdevapi-docresult.getwarnings.md: 'DocResult::getWarnings »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-docresult.md: mysqlxdevapiDocResult
+  - class.mysql-xdevapi-docresult.md: mysql\_xdevapi\\DocResult
 title: 'DocResult::fetchOne'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DocResult::fetchOne
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\DocResult::fetchOne(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiDocResult::fetchOne()****
+**Пример #1 Пример использования**mysql\_xdevapi\\DocResult::fetchOne()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ var_dump($result->fetchOne());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(4) {

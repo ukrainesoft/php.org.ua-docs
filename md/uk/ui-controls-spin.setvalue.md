@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-spin.onchange.md: '« UIControlsSpin::onChange'
-  - class.ui-controls-slider.md: ОЙControlsSlider »
+  - ui-controls-spin.onchange.md: '« UI\\Controls\\Spin::onChange'
+  - class.ui-controls-slider.md: UI\\Controls\\Slider »
   - index.md: PHP Manual
-  - class.ui-controls-spin.md: ОЙControlsSpin
-title: 'ОЙControlsSpin::setValue'
+  - class.ui-controls-spin.md: UI\\Controls\\Spin
+title: 'UI\\Controls\\Spin::setValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsSpin::setValue
+# UI\\Controls\\Spin::setValue
 
 (UI 0.9.9)
 
-ОЙControlsSpin::setValue — Встановити значення
+UI\\Controls\\Spin::setValue — Встановити значення
 
 ### Опис
 

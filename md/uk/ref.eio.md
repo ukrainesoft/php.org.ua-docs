@@ -1,71 +1,72 @@
 ---
 navigation:
   - eio.examples.md: « Приклади
-  - function.eio-busy.md: eiobusy »
+  - function.eio-busy.md: eio\_busy »
   - index.md: PHP Manual
   - book.eio.md: Eio
 title: Eio Функції
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Eio Функції
 
 ## Зміст
 
--   [eiobusy](function.eio-busy.md) — Штучно збільшує навантаження. Може бути корисним при тестуванні, вивченні продуктивності
--   [eiocancel](function.eio-cancel.md) — Скасує запит
--   [eiochmod](function.eio-chmod.md) — Змінює права доступу до файлу/директорії
--   [eiochown](function.eio-chown.md) — Змінює права доступу до файлу/директорії
--   [eioclose](function.eio-close.md) - Закрити файл
--   [eiocustom](function.eio-custom.md) — Виконує запит користувача як будь-який інший eio виклик
--   [eiodup2](function.eio-dup2.md) - Створює дублікат дескриптора файлу
--   [eioeventloop](function.eio-event-loop.md) — Взаємодіє з libeio доти, доки всі запити не будуть виконані
--   [eiofallocate](function.eio-fallocate.md) — Дозволяє безпосередньо керувати розміром дискового простору, що використовується для файлу.
--   [eiofchmod](function.eio-fchmod.md) — Змінює права доступу до файлу
--   [eiofchown](function.eio-fchown.md) - Змінює власника файлу
--   [eiofdatasync](function.eio-fdatasync.md) — Синхронізує поточний стан файлу із фізичним пристроєм
--   [eiofstat](function.eio-fstat.md) — Повертає статус файлу
--   [eiofstatvfs](function.eio-fstatvfs.md) — Повертає статистику файлової системи
--   [eiofsync](function.eio-fsync.md) — Синхронізує поточний стан файлу із фізичним пристроєм
--   [eioftruncate](function.eio-ftruncate.md) - Урізує розмір файлу
--   [eiofutime](function.eio-futime.md) — Змінює дату та час останньої модифікації та доступу до файлу
--   [eiogeteventstream](function.eio-get-event-stream.md) — Повертає потік, що відображає змінну, що використовується при взаємодії з libeio
--   [eiogetlasterror](function.eio-get-last-error.md) — Повертає останню помилку, пов'язану із вказівником на ресурс
--   [eiogrpadd](function.eio-grp-add.md) — Додає запит до групи запитів
--   [eiogrpcancel](function.eio-grp-cancel.md) — Скасує групу запитів
--   [eiogrplimit](function.eio-grp-limit.md) — Встановлює граничну кількість запитів у групі
--   [eiogrp](function.eio-grp.md) — Створює групу запитів
--   [eioinit](function.eio-init.md) - (Не-) ініціалізує Eio
--   [eiolink](function.eio-link.md) - Створює жорстке посилання на файл
--   [eiolstat](function.eio-lstat.md) — Повертає статус файлу
--   [eiomkdir](function.eio-mkdir.md) - Створення директорії
--   [eiomknod](function.eio-mknod.md) — Створює спеціальний чи звичайний файл
--   [eionop](function.eio-nop.md) - Прохід по циклу запиту, не здійснюючи жодних операцій
--   [eionpending](function.eio-npending.md) — Повертає кількість завершених, але необроблених процесів
--   [eionready](function.eio-nready.md) — Повертає кількість ще не опрацьованих запитів
--   [eionreqs](function.eio-nreqs.md) — Повертає кількість запитів, які потрібно виконати
--   [eionthreads](function.eio-nthreads.md) — Повертає кількість потоків, що використовуються в даний момент.
--   [eioopen](function.eio-open.md) - Відкриває файл
--   [eiopoll](function.eio-poll.md) — Може бути викликана коли є запити, які очікують на виконання
--   [eioread](function.eio-read.md) — Читає дані з файлу, починаючи із заданого усунення
--   [eioreadahead](function.eio-readahead.md) — Поміщає дані з файлу до кешу сторінки
--   [eioreaddir](function.eio-readdir.md) — Читає вміст директорії
--   [eioreadlink](function.eio-readlink.md) — Читає значення символічного посилання
--   [eiorealpath](function.eio-realpath.md) — Отримує абсолютний приведений до канонічного виду шлях
--   [eiorename](function.eio-rename.md) — Змінює ім'я або переміщує файл
--   [eiormdir](function.eio-rmdir.md) - Видаляє директорію
--   [eioseek](function.eio-seek.md) — Переміщує файловий покажчик файлу fd на число байт offset відповідно до директиви whence
--   [eiosendfile](function.eio-sendfile.md) — Переміщує дані між файлами
--   [eiosetmaxidle](function.eio-set-max-idle.md) — Встановлює максимальну кількість потоків, що очікують.
--   [eiosetmaxparallel](function.eio-set-max-parallel.md) — Встановлює максимальну кількість паралельних потоків
--   [eiosetmaxpollreqs](function.eio-set-max-poll-reqs.md) — Встановлює максимальну кількість запитів, що обробляються.
--   [eiosetmaxpolltime](function.eio-set-max-poll-time.md) - Встановлює максимальний час виконання
--   [eiosetminparallel](function.eio-set-min-parallel.md) — Встановлює мінімальну кількість паралельних потоків
--   [eiostat](function.eio-stat.md) — Повертає статус файлу
--   [eiostatvfs](function.eio-statvfs.md) — Повертає статистику файлової системи
--   [eiosymlink](function.eio-symlink.md) - Створює символічне посилання
--   [eiosyncfilerange](function.eio-sync-file-range.md) — Синхронізує сегмент файлу із даними файлу на зовнішньому сховищі
--   [eiosync](function.eio-sync.md) — Записує кеш із буфера на диск
--   [eiosyncfs](function.eio-syncfs.md) — Викликає системний syncfs у Linux, якщо це доступно
--   [eiotruncate](function.eio-truncate.md) - Урізує розмір файлу
--   [eiounlink](function.eio-unlink.md) — Видаляє файл або одне із жорстких посилань на нього
--   [eioutime](function.eio-utime.md) — Змінює дату та час останньої модифікації та доступу до файлу
--   [eiowrite](function.eio-write.md) - Запис у файл
+-   [eio\_busy](function.eio-busy.md)— Штучно збільшує навантаження. Може бути корисним при тестуванні, вивченні продуктивності
+-   [eio\_cancel](function.eio-cancel.md)— Скасує запит
+-   [eio\_chmod](function.eio-chmod.md)— Змінює права доступу до файлу/директорії
+-   [eio\_chown](function.eio-chown.md)— Змінює права доступу до файлу/директорії
+-   [eio\_close](function.eio-close.md) \- Закрити файл
+-   [eio\_custom](function.eio-custom.md)— Виконує запит користувача як будь-який інший eio\_\* виклик
+-   [eio\_dup2](function.eio-dup2.md) \- Створює дублікат дескриптора файлу
+-   [eio\_event\_loop](function.eio-event-loop.md)— Взаємодіє з libeio доти, доки всі запити не будуть виконані
+-   [eio\_fallocate](function.eio-fallocate.md)— Дозволяє безпосередньо керувати розміром дискового простору, що використовується для файлу.
+-   [eio\_fchmod](function.eio-fchmod.md)— Змінює права доступу до файлу
+-   [eio\_fchown](function.eio-fchown.md) \- Змінює власника файлу
+-   [eio\_fdatasync](function.eio-fdatasync.md)— Синхронізує поточний стан файлу із фізичним пристроєм
+-   [eio\_fstat](function.eio-fstat.md)— Повертає статус файлу
+-   [eio\_fstatvfs](function.eio-fstatvfs.md)— Повертає статистику файлової системи
+-   [eio\_fsync](function.eio-fsync.md)— Синхронізує поточний стан файлу із фізичним пристроєм
+-   [eio\_ftruncate](function.eio-ftruncate.md) \- Урізує розмір файлу
+-   [eio\_futime](function.eio-futime.md)— Змінює дату та час останньої модифікації та доступу до файлу
+-   [eio\_get\_event\_stream](function.eio-get-event-stream.md)— Повертає потік, що відображає змінну, що використовується при взаємодії з libeio
+-   [eio\_get\_last\_error](function.eio-get-last-error.md)— Повертає останню помилку, пов'язану із вказівником на ресурс
+-   [eio\_grp\_add](function.eio-grp-add.md)— Додає запит до групи запитів
+-   [eio\_grp\_cancel](function.eio-grp-cancel.md)— Скасує групу запитів
+-   [eio\_grp\_limit](function.eio-grp-limit.md)— Встановлює граничну кількість запитів у групі
+-   [eio\_grp](function.eio-grp.md)— Створює групу запитів
+-   [eio\_init](function.eio-init.md) \- (Не-) ініціалізує Eio
+-   [eio\_link](function.eio-link.md) \- Створює жорстке посилання на файл
+-   [eio\_lstat](function.eio-lstat.md)— Повертає статус файлу
+-   [eio\_mkdir](function.eio-mkdir.md) \- Створення директорії
+-   [eio\_mknod](function.eio-mknod.md)— Створює спеціальний чи звичайний файл
+-   [eio\_nop](function.eio-nop.md) \- Прохід по циклу запиту, не здійснюючи жодних операцій
+-   [eio\_npending](function.eio-npending.md)— Повертає кількість завершених, але необроблених процесів
+-   [eio\_nready](function.eio-nready.md)— Повертає кількість ще не опрацьованих запитів
+-   [eio\_nreqs](function.eio-nreqs.md)— Повертає кількість запитів, які потрібно виконати
+-   [eio\_nthreads](function.eio-nthreads.md)— Повертає кількість потоків, що використовуються в даний момент.
+-   [eio\_open](function.eio-open.md) \- Відкриває файл
+-   [eio\_poll](function.eio-poll.md)— Може бути викликана, коли є запити, що очікують на виконання
+-   [eio\_read](function.eio-read.md)— Читає дані з файлу, починаючи із заданого усунення
+-   [eio\_readahead](function.eio-readahead.md)— Поміщає дані з файлу до кешу сторінки
+-   [eio\_readdir](function.eio-readdir.md)— Читає вміст директорії
+-   [eio\_readlink](function.eio-readlink.md)— Читає значення символічного посилання
+-   [eio\_realpath](function.eio-realpath.md)— Отримує абсолютний приведений до канонічного виду шлях
+-   [eio\_rename](function.eio-rename.md)— Змінює ім'я або переміщує файл
+-   [eio\_rmdir](function.eio-rmdir.md) \- Видаляє директорію
+-   [eio\_seek](function.eio-seek.md)— Переміщує файловий покажчик файлу fd на число байт offset відповідно до директиви whence
+-   [eio\_sendfile](function.eio-sendfile.md)— Переміщує дані між файлами
+-   [eio\_set\_max\_idle](function.eio-set-max-idle.md)— Встановлює максимальну кількість потоків, що очікують.
+-   [eio\_set\_max\_parallel](function.eio-set-max-parallel.md)— Встановлює максимальну кількість паралельних потоків
+-   [eio\_set\_max\_poll\_reqs](function.eio-set-max-poll-reqs.md)— Встановлює максимальну кількість запитів, що обробляються.
+-   [eio\_set\_max\_poll\_time](function.eio-set-max-poll-time.md) \- Встановлює максимальний час виконання
+-   [eio\_set\_min\_parallel](function.eio-set-min-parallel.md)— Встановлює мінімальну кількість паралельних потоків
+-   [eio\_stat](function.eio-stat.md)— Повертає статус файлу
+-   [eio\_statvfs](function.eio-statvfs.md)— Повертає статистику файлової системи
+-   [eio\_symlink](function.eio-symlink.md) \- Створює символічне посилання
+-   [eio\_sync\_file\_range](function.eio-sync-file-range.md)— Синхронізує сегмент файлу із даними файлу на зовнішньому сховищі
+-   [eio\_sync](function.eio-sync.md)— Записує кеш із буфера на диск
+-   [eio\_syncfs](function.eio-syncfs.md)— Викликає системний syncfs у Linux, якщо це доступно
+-   [eio\_truncate](function.eio-truncate.md) \- Урізує розмір файлу
+-   [eio\_unlink](function.eio-unlink.md)— Видаляє файл або одне із жорстких посилань на нього
+-   [eio\_utime](function.eio-utime.md)— Змінює дату та час останньої модифікації та доступу до файлу
+-   [eio\_write](function.eio-write.md) \- Запис у файл

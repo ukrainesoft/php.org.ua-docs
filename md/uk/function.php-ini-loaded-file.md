@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.memory-get-usage.md: « memorygetusage
-  - function.php-ini-scanned-files.md: phpiniscannedfiles »
+  - function.memory-reset-peak-usage.md: « memory\_reset\_peak\_usage
+  - function.php-ini-scanned-files.md: php\_ini\_scanned\_files »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: phpiniloadedfile
+title: php\_ini\_loaded\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# phpiniloadedfile
+# php\_ini\_loaded\_file
 
-(PHP 5> = 5.2.4, PHP 7, PHP 8)
+(PHP 5 >= 5.2.4, PHP 7, PHP 8)
 
-phpiniloadedfile — Отримати шлях до завантаженого файлу php.ini
+php\_ini\_loaded\_file — Отримати шлях до завантаженого файлу php.ini
 
 ### Опис
 
@@ -26,11 +27,11 @@ php_ini_loaded_file(): string|false
 
 ### Значення, що повертаються
 
-Шлях до завантаженого файлу php.ini або **`false`**, якщо файл не завантажено.
+Путь к загруженному файлу php.ini или\*\*`false`\*\*, якщо файл не завантажено.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **phpiniloadedfile()****
+**Пример #1 Пример использования**php\_ini\_loaded\_file()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ if ($inipath) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Loaded php.ini: /usr/local/php/php.ini
@@ -52,6 +53,6 @@ Loaded php.ini: /usr/local/php/php.ini
 
 ### Дивіться також
 
--   [phpiniscannedfiles()](function.php-ini-scanned-files.md) - Повертає список .ini-файлів, знайдених у додатковій ini-директорії
--   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
+-   [php\_ini\_scanned\_files()](function.php-ini-scanned-files.md) \- Повертає список .ini-файлів, знайдених у додатковій ini-директорії
+-   [phpinfo()](function.phpinfo.md) \- Виводить інформацію про поточну конфігурацію PHP
 -   [Конфігураційний файл](configuration.file.md)

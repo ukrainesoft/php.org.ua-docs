@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-parser.tokenid.md: '« ParleParser::tokenId'
-  - parle-parser.validate.md: 'ParleParser::validate »'
+  - parle-parser.tokenid.md: '« Parle\\Parser::tokenId'
+  - parle-parser.validate.md: 'Parle\\Parser::validate »'
   - index.md: PHP Manual
-  - class.parle-parser.md: ParleParser
-title: 'ParleParser::trace'
+  - class.parle-parser.md: Parle\\Parser
+title: 'Parle\\Parser::trace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleParser::trace
+# Parle\\Parser::trace
 
 (PECL parle >= 0.5.1)
 
-ParleParser::trace — Слідкує за роботою парсера
+Parle\\Parser::trace — Слідкує за роботою парсера
 
 ### Опис
 

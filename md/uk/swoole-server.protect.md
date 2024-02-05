@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.pause.md: '« SwooleServer::pause'
-  - swoole-server.reload.md: 'SwooleServer::reload »'
+  - swoole-server.pause.md: '« Swoole\\Server::pause'
+  - swoole-server.reload.md: 'Swoole\\Server::reload »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::protect'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::protect'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::protect
+# Swoole\\Server::protect
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::protect — Встановлює з'єднання у захищений режим
+Swoole\\Server::protect — Встановлює з'єднання у захищений режим
 
 ### Опис
 

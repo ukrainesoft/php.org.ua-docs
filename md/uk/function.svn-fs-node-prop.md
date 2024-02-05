@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-node-created-rev.md: « svnфсnodecreatedrev
-  - function.svn-fs-props-changed.md: svnфсpropschanged »
+  - function.svn-fs-node-created-rev.md: « svn\_fs\_node\_created\_rev
+  - function.svn-fs-props-changed.md: svn\_fs\_props\_changed »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсnodeprop
+title: svn\_fs\_node\_prop
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсnodeprop
+# svn\_fs\_node\_prop
 
-(PECL svn> = 0.1.0)
+(PECL svn >= 0.1.0)
 
-svnфсnodeprop — Повертає значення властивості для вузла
+svn\_fs\_node\_prop — Повертає значення властивості для вузла
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_node_prop(resource $fsroot, string $path, string $propname): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає значення якості вузла.
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
 title: 'DOMElement::getAttributeNS'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMElement::getAttributeNS
 
@@ -32,10 +33,10 @@ URI простір імен.
 
 ### Значення, що повертаються
 
-Значення атрибуту або порожній рядок, якщо атрибут із заданим локальним ім'ям `localName` у просторі імен `namespace` НЕ знайдений.
+Значення атрибуту або порожній рядок, якщо атрибут із заданим локальним ім'ям `localName` у просторі імен `namespace`не найден.
 
 ### Дивіться також
 
--   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) - Перевіряє, чи існує заданий атрибут
--   [DOMElement::setAttributeNS()](domelement.setattributens.md) - Додає новий атрибут
--   [DOMElement::removeAttributeNS()](domelement.removeattributens.md) - Видаляє атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) \- Перевіряє, чи існує заданий атрибут
+-   [DOMElement::setAttributeNS()](domelement.setattributens.md) \- Додає новий атрибут
+-   [DOMElement::removeAttributeNS()](domelement.removeattributens.md) \- Видаляє атрибут

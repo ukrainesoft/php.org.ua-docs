@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.variant-and.md: « variantand
-  - function.variant-cat.md: variantcat »
+  - function.variant-and.md: « variant\_and
+  - function.variant-cat.md: variant\_cat »
   - index.md: PHP Manual
-  - ref.com.md: Функции COM
-title: variantcast
+  - ref.com.md: Функції COM
+title: variant\_cast
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# variantcast
+# variant\_cast
 
 (PHP 5, PHP 7, PHP 8)
 
-variantcast — Перетворення варіанта на новий варіант іншого типу
+variant\_cast — Перетворює варіант на новий варіант іншого типу
 
 ### Опис
 
@@ -20,13 +21,13 @@ variant_cast(variant $variant, int $type): variant
 
 Функція робить копію варіанта `variant` і перетворює її до типу `type`
 
-Функція є обгорткою над функцією VariantChangeType() із бібліотеки COM. Докладніше читайте у MSDN.
+Ця функція – обгортка над функцією VariantChangeType() з бібліотеки COM; докладніше про це розповідається у документації MSDN.
 
 ### Список параметрів
 
 `variant`
 
-Різновид.
+Варіант.
 
 `type`
 
@@ -34,8 +35,8 @@ variant_cast(variant $variant, int $type): variant
 
 ### Значення, що повертаються
 
-Повертає варіант заданого типу `type`
+Повертає варіант заданого у параметрі `type`типа.
 
 ### Дивіться також
 
--   [variantsettype()](function.variant-set-type.md) - Приведення варіанта до іншого типу "за місцем"
+-   [variant\_set\_type()](function.variant-set-type.md) \- Наводить варіант до іншого типу «за місцем»

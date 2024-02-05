@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-secretbox.md: « sodiumcryptosecretbox
-  - function.sodium-crypto-secretstream-xchacha20poly1305-init-push.md: sodiumcryptosecretstreamxchacha20poly1305initpush »
+  - function.sodium-crypto-secretbox.md: « sodium\_crypto\_secretbox
+  - function.sodium-crypto-secretstream-xchacha20poly1305-init-push.md: sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptosecretstreamxchacha20poly1305initpull
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptosecretstreamxchacha20poly1305initpull
+# sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptosecretstreamxchacha20poly1305initpull - Ініціалізує контекст secretstream для дешифрування
+sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull - Ініціалізує контекст secretstream для дешифрування
 
 ### Опис
 
@@ -24,7 +25,7 @@ sodium_crypto_secretstream_xchacha20poly1305_init_pull(string $header, string $k
 
 `header`
 
-Заголовок secretstream. Має бути одне із значень, створених [sodiumcryptosecretstreamxchacha20poly1305initpush()](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.md)
+Заголовок secretstream. Має бути одне із значень, створених [sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push()](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.md)
 
 `key`
 
@@ -36,7 +37,7 @@ sodium_crypto_secretstream_xchacha20poly1305_init_pull(string $header, string $k
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptosecretstreamxchacha20poly1305initpull()****
+**Пример #1 Пример использования**sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull()\*\*\*\*
 
 ```php
 <?php
@@ -75,7 +76,7 @@ var_dump(file_get_contents('hello.txt.decrypted'));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(12) "Hello world!"

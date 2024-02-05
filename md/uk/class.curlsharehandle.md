@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.curl.md: cURL
 title: Клас CurlShareHandle
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас CurlShareHandle
 
@@ -16,16 +17,11 @@ title: Клас CurlShareHandle
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class CurlShareHandle
-     
+     final
+     class CurlShareHandle
      {
    }
 ```

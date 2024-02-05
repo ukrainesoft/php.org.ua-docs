@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::add
 
@@ -38,7 +39,7 @@ intlcal_add(IntlCalendar $calendar, int $field, int $value): bool
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants)полей типа дата/время. Целое число от до\*\*`IntlCalendar::FIELD_COUNT`\*\*
 
 `value`
 
@@ -46,11 +47,11 @@ intlcal_add(IntlCalendar $calendar, int $field, int $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::add()****
+**Пример #1 Пример использования**IntlCalendar::add()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ $cal->add(IntlCalendar::FIELD_DAY_OF_MONTH, 1);
 echo IntlDateFormatter::formatObject($cal), "\n";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 31 janv. 2012 00:00:00

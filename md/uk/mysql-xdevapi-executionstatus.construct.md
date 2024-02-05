@@ -1,24 +1,25 @@
 ---
 navigation:
-  - class.mysql-xdevapi-executionstatus.md: « mysqlxdevapiExecutionStatus
-  - class.mysql-xdevapi-expression.md: mysqlxdevapiExpression »
+  - class.mysql-xdevapi-executionstatus.md: « mysql\_xdevapi\\ExecutionStatus
+  - class.mysql-xdevapi-expression.md: mysql\_xdevapi\\Expression »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-executionstatus.md: mysqlxdevapiExecutionStatus
-title: 'ExecutionStatus::construct'
+  - class.mysql-xdevapi-executionstatus.md: mysql\_xdevapi\\ExecutionStatus
+title: 'ExecutionStatus::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ExecutionStatus::construct
+# ExecutionStatus::\_\_construct
 
 (No version information available, might only be in Git)
 
-ExecutionStatus::construct - Конструктор класу ExecutionStatus
+ExecutionStatus::\_\_construct - Конструктор класу ExecutionStatus
 
 ### Опис
 
-private **mysqlxdevapiExecutionStatus::construct**
+private**mysql\_xdevapi\\ExecutionStatus::\_\_construct**()
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ private **mysqlxdevapiExecutionStatus::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiExecutionStatus::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\ExecutionStatus::\_\_construct()\*\*\*\*
 
 ```php
 <?php

@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::getPattern'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::getPattern
 
-# datefmtgetpattern
+# datefmt\_get\_pattern
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::getPattern -- datefmtgetpattern — Отримує шаблон, який використовується IntlDateFormatter
+IntlDateFormatter::getPattern -- datefmt\_get\_pattern — Отримує шаблон, який використовується IntlDateFormatter
 
 ### Опис
 
@@ -38,11 +39,11 @@ datefmt_get_pattern(IntlDateFormatter $formatter): string|false
 
 ### Значення, що повертаються
 
-Рядок шаблону, що використовується для форматування/розбору або **`false`** у разі виникнення помилки.
+Строка шаблона, используемая для форматирования/разбора или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmtgetpattern()****
+**Пример #1 Пример использования**datefmt\_get\_pattern()\*\*\*\*
 
 ```php
 <?php
@@ -83,7 +84,7 @@ echo 'Второй отформатированный вывод с шаблон
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Шаблон средства форматирования : MM/dd/yyyy
@@ -94,5 +95,5 @@ echo 'Второй отформатированный вывод с шаблон
 
 ### Дивіться також
 
--   [datefmtsetpattern()](intldateformatter.setpattern.md) - Встановлює шаблон, який використовується IntlDateFormatter
--   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати
+-   [datefmt\_set\_pattern()](intldateformatter.setpattern.md) \- Встановлює шаблон, який використовується IntlDateFormatter
+-   [datefmt\_create()](intldateformatter.create.md) \- Створює засіб форматування дати

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::getBasePath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::getBasePath
 
@@ -18,7 +19,7 @@ SeasLog::getBasePath — Отримує базовий шлях SeasLog
 public static Seaslog::getBasePath(): string
 ```
 
-Використовуйте функцію **SeasLog::getBasePath()**, щоб отримати значення [seaslog.defaultbasepath](seaslog.configuration.md#ini.seaslog.default-basepath), яка налаштована в php.ini (seaslog.ini).
+Используйте функцию**SeasLog::getBasePath()**, щоб отримати значення [seaslog.default\_basepath](seaslog.configuration.md#ini.seaslog.default-basepath), яка налаштована в php.ini (seaslog.ini).
 
 Якщо ви використовуєте [Seaslog::setBasePath()](seaslog.setbasepath.md)результат зміниться.
 
@@ -28,11 +29,11 @@ public static Seaslog::getBasePath(): string
 
 ### Значення, що повертаються
 
-Повертає значення [seaslog.defaultbasepath](seaslog.configuration.md#ini.seaslog.default-basepath) у вигляді рядка.
+Повертає значення [seaslog.default\_basepath](seaslog.configuration.md#ini.seaslog.default-basepath) у вигляді рядка.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::getBasePath()****
+**Пример #1 Пример использования**SeasLog::getBasePath()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump(SeasLog::getBasePath());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(12) "/var/log/www"

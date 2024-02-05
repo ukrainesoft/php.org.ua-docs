@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.fann-create-standard.md: « fanncreatestandard
-  - function.fann-create-train.md: fanncreatetrain »
+  - function.fann-create-standard.md: « fann\_create\_standard
+  - function.fann-create-train.md: fann\_create\_train »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanncreatetrainfromcallback
+  - ref.fann.md: Функції Fann
+title: fann\_create\_train\_from\_callback
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanncreatetrainfromcallback
+# fann\_create\_train\_from\_callback
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanncreatetrainfromcallback — Створює структуру даних навчання із наданої користувачем функції
+fann\_create\_train\_from\_callback — Створює структуру даних навчання із наданої користувачем функції
 
 ### Опис
 
 ```methodsynopsis
-fann_create_train_from_callback(    int $num_data,    int $num_input,    int $num_output,    callable $user_function): resource
+fann_create_train_from_callback(    int $num_data,    int $num_input,    int $num_output,    callable $user_function): resource
 ```
 
 Створює структуру даних навчання із наданої користувачем функції. Оскільки навчальні дані є пронумерованими (дані 1, дані 2...), користувач повинен написати функцію, яка отримує номер набору навчальних даних (вхід, вихід) та повертає набір.
@@ -38,19 +39,19 @@ fann_create_train_from_callback(    int $num_data,    int $num_input,    int $nu
 
 Функція, надана користувачем із наступними параметрами:
 
--   `num` - Кількість навчальних даних
--   `num_input` - кількість входів на тренувальних даних
--   `num_output` - кількість виходів на тренувальних даних
+-   `num`\- Кількість навчальних даних
+-   `num_input`\- кількість входів на тренувальних даних
+-   `num_output`\- кількість виходів на тренувальних даних
 
-Функція має повертати асоціативний масив із ключами `input` і `output` і двома значеннями масиву input та output.
+Функція має повертати асоціативний масив із ключами `input`и`output` і двома значеннями масиву input та output.
 
 ### Значення, що повертаються
 
-Повертає ресурс (resource) навчальних даних, або **`false`** у разі виникнення помилки.
+Повертає ресурс (resource) навчальних даних, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **fanncreatetrainfromcallback()****
+**Пример #1 Пример использования**fann\_create\_train\_from\_callback()\*\*\*\*
 
 ```php
 <?php
@@ -73,13 +74,13 @@ if ($train_data) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
--   [fannreadtrainfromfile()](function.fann-read-train-from-file.md) - Читає файл, у якому зберігаються дані навчання
--   [fanntrainвінdata()](function.fann-train-on-data.md) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fanndestroytrain()](function.fann-destroy-train.md) - Знищує тренувальні дані
--   [fannsavetrain()](function.fann-save-train.md) - Зберігає структуру навчання у файл
+-   [fann\_read\_train\_from\_file()](function.fann-read-train-from-file.md) \- Читає файл, у якому зберігаються дані навчання
+-   [fann\_train\_on\_data()](function.fann-train-on-data.md) \- Навчання на всьому обсязі даних на часовому інтервалі
+-   [fann\_destroy\_train()](function.fann-destroy-train.md) \- Знищує тренувальні дані
+-   [fann\_save\_train()](function.fann-save-train.md) \- Зберігає структуру навчання у файл

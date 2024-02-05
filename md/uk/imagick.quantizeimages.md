@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::quantizeImages'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::quantizeImages
 
@@ -15,7 +16,7 @@ Imagick::quantizeImages — Аналізує кольори у послідов�
 ### Опис
 
 ```methodsynopsis
-public Imagick::quantizeImages(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
+public Imagick::quantizeImages(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
 ```
 
 ### Список параметрів

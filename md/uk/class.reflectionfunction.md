@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflectionextension.tostring.md: '« ReflectionExtension::toString'
-  - reflectionfunction.construct.md: 'ReflectionFunction::construct »'
+  - reflectionextension.tostring.md: '« ReflectionExtension::\_\_function toString() { [native code] }'
+  - reflectionfunction.construct.md: 'ReflectionFunction::\_\_construct »'
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Клас ReflectionFunction
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ReflectionFunction
 
@@ -12,31 +13,27 @@ title: Клас ReflectionFunction
 
 ## Вступ
 
-Клас **ReflectionFunction** повідомляє інформацію про функції.
+Класс**ReflectionFunction** повідомляє інформацію про функції.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class ReflectionFunction
     
 
     
-     
-      class ReflectionFunction
-     
-
-     
-      extends
-       ReflectionFunctionAbstract
-     
+     extends
+      ReflectionFunctionAbstract
      {
 
     /* Константы */
     
+     public
      const
      int
-      IS_DEPRECATED = 262144;
+      IS_DEPRECATED;
 
 
     /* Наследуемые свойства */
@@ -53,6 +50,7 @@ title: Клас ReflectionFunction
 public getClosure(): Closure
 public invoke(mixed ...$args): mixed
 public invokeArgs(array $args): mixed
+public isAnonymous(): bool
 public isDisabled(): bool
 public __toString(): string
 
@@ -85,6 +83,7 @@ public ReflectionFunctionAbstract::isClosure(): bool
 public ReflectionFunctionAbstract::isDeprecated(): bool
 public ReflectionFunctionAbstract::isGenerator(): bool
 public ReflectionFunctionAbstract::isInternal(): bool
+public ReflectionFunctionAbstract::isStatic(): bool
 public ReflectionFunctionAbstract::isUserDefined(): bool
 public ReflectionFunctionAbstract::isVariadic(): bool
 public ReflectionFunctionAbstract::returnsReference(): bool
@@ -101,12 +100,19 @@ abstract public ReflectionFunctionAbstract::__toString(): void
 
 Вказує, що функція застаріла (deprecated).
 
+## список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.0.0 | Метод[ReflectionFunction::export()](reflectionfunction.export.md)був видалений. |
+
 ## Зміст
 
--   [ReflectionFunction::construct](reflectionfunction.construct.md) - Конструктор класу ReflectionFunction
--   [ReflectionFunction::export](reflectionfunction.export.md) - Експортує функції
--   [ReflectionFunction::getClosure](reflectionfunction.getclosure.md) — Повертає динамічно створене замикання функції
--   [ReflectionFunction::invoke](reflectionfunction.invoke.md) - Викликає функцію
--   [ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.md) - Виклик функції з передачею аргументів
--   [ReflectionFunction::isDisabled](reflectionfunction.isdisabled.md) — Перевіряє, що функцію вимкнено
--   [ReflectionFunction::toString](reflectionfunction.tostring.md) — Подання у вигляді рядка
+-   [ReflectionFunction::\_\_construct](reflectionfunction.construct.md) \- Конструктор класу ReflectionFunction
+-   [ReflectionFunction::export](reflectionfunction.export.md) \- Експортує функції
+-   [ReflectionFunction::getClosure](reflectionfunction.getclosure.md)— Повертає динамічно створене замикання функції
+-   [ReflectionFunction::invoke](reflectionfunction.invoke.md) \- Викликає функцію
+-   [ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.md) \- Виклик функції з передачею аргументів
+-   [ReflectionFunction::isAnonymous](reflectionfunction.isanonymous.md)— Перевіряє, чи є функція анонімною
+-   [ReflectionFunction::isDisabled](reflectionfunction.isdisabled.md)— Перевіряє, що функцію вимкнено
+-   [ReflectionFunction::\_\_function toString() { \[native code\] }](reflectionfunction.tostring.md)— Повертає рядкову виставу об'єкта ReflectionFunction

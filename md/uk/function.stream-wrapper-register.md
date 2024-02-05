@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-supports-lock.md: « streamsupportslock
-  - function.stream-wrapper-restore.md: streamwrapperrestore »
+  - function.stream-supports-lock.md: « stream\_supports\_lock
+  - function.stream-wrapper-restore.md: stream\_wrapper\_restore »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamwrapperregister
+title: stream\_wrapper\_register
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamwrapperregister
+# stream\_wrapper\_register
 
-(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamwrapperregister - Реєструє обгортку URL, реалізовану у вигляді PHP-класу
+stream\_wrapper\_register - Реєструє обгортку URL, реалізовану у вигляді PHP-класу
 
 ### Опис
 
@@ -18,7 +19,7 @@ streamwrapperregister - Реєструє обгортку URL, реалізов�
 stream_wrapper_register(string $protocol, string $class, int $flags = 0): bool
 ```
 
-Дозволяє вам реалізувати власні обробники протоколів і потоків для використання з усіма іншими функціями файлової системи (такими як [fopen()](function.fopen.md) [fread()](function.fread.md) і т.д.).
+Дозволяє вам реалізувати власні обробники протоколів і потоків для використання з усіма іншими функціями файлової системи (такими як [fopen()](function.fopen.md) [fread()](function.fread.md)и т.д.).
 
 ### Список параметрів
 
@@ -36,9 +37,9 @@ stream_wrapper_register(string $protocol, string $class, int $flags = 0): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
-**streamwrapperregister()** повертатиме **`false`**, якщо протокол `protocol` вже має оброблювач.
+**stream\_wrapper\_register()** повертатиме **`false`**, якщо протокол `protocol`уже имеет обработчик.
 
 ### Приклади
 
@@ -73,7 +74,7 @@ if ($existed) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 line1
@@ -87,8 +88,8 @@ line3
 
 ### Дивіться також
 
--   Клас-прототип [streamWrapper](class.streamwrapper.md)
+-   Клас-прототип[streamWrapper](class.streamwrapper.md)
 -   [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.md)
--   [streamwrapperunregister()](function.stream-wrapper-unregister.md) - Скасує реєстрацію обгортки URL
--   [streamwrapperrestore()](function.stream-wrapper-restore.md) - Відновлює скасовану раніше вбудовану обгортку
--   [streamgetwrappers()](function.stream-get-wrappers.md) - Отримати список зареєстрованих потоків
+-   [stream\_wrapper\_unregister()](function.stream-wrapper-unregister.md) \- Скасує реєстрацію обгортки URL
+-   [stream\_wrapper\_restore()](function.stream-wrapper-restore.md) \- Відновлює скасовану раніше вбудовану обгортку
+-   [stream\_get\_wrappers()](function.stream-get-wrappers.md) \- Отримати список зареєстрованих потоків

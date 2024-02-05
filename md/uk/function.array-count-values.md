@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.array-combine.md: « arraycombine
-  - function.array-diff-assoc.md: arraydiffassoc »
+  - function.array-combine.md: « array\_combine
+  - function.array-diff-assoc.md: array\_diff\_assoc »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
-title: arraycountvalues
+title: array\_count\_values
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# arraycountvalues
+# array\_count\_values
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-arraycountvalues ​​— Підраховує кількість усіх значень масиву
+array\_count\_values ​​- Підраховує кількість входжень кожного окремого значення в масиві
 
 ### Опис
 
@@ -18,7 +19,7 @@ arraycountvalues ​​— Підраховує кількість усіх зн
 array_count_values(array $array): array
 ```
 
-Функція **arraycountvalues()** повертає масив, ключами якого є значення масиву `array`, а значеннями - кількість повторень значень `array`
+Функция**array\_count\_values()** повертає масив, ключами якого є значення масиву `array` (які мають бути цілими числами (int) чи рядками (string)), а значеннями - кількість повторень значень `array`
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ array_count_values(array $array): array
 
 ### Помилки
 
-Генерує помилку рівня **`E_WARNING`** для кожного елемента, який не є рядком (string) або цілим числом (int).
+Генерирует ошибку уровня\*\*`E_WARNING`\*\* для кожного елемента, який не є рядком (string) або цілим числом (int).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **arraycountvalues()****
+**Пример #1 Пример использования**array\_count\_values()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ print_r(array_count_values($array));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -58,7 +59,7 @@ Array
 
 ### Дивіться також
 
--   [count()](function.count.md) - Підраховує кількість елементів масиву або Countable об'єкті
--   [arrayunique()](function.array-unique.md) - Прибирає значення, що повторюються, з масиву
--   [arrayvalues()](function.array-values.md) - Вибирає всі значення масиву
--   [countchars()](function.count-chars.md) - Повертає інформацію про символи, що входять до рядка
+-   [count()](function.count.md) \- Підраховує кількість елементів масиву або Countable об'єкті
+-   [array\_unique()](function.array-unique.md) \- Прибирає значення, що повторюються, з масиву
+-   [array\_values()](function.array-values.md) \- Повертає всі значення масиву
+-   [count\_chars()](function.count-chars.md) \- Повертає інформацію про символи, що входять до рядка

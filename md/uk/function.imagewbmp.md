@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagewbmp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagewbmp
 
-(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 imagewbmp — Виводить зображення до браузера або пише у файл
 
@@ -36,7 +37,7 @@ imagewbmp(GdImage $image, resource|string|null $file = null, ?int $foreground_co
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 **Застереження**
 
@@ -44,10 +45,10 @@ imagewbmp(GdImage $image, resource|string|null $file = null, ?int $foreground_co
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
-|  | `foreground_color` тепер допускає значення null. |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
+| 8.0.0 | `foreground_color` тепер допускає значення null. |
 
 ### Приклади
 
@@ -114,8 +115,8 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [image2wbmp()](function.image2wbmp.md) - Виводить зображення у браузер або пише у файл
--   [imagepng()](function.imagepng.md) - Виведення PNG зображення у браузер або файл
--   [imagegif()](function.imagegif.md) - Виводить зображення у браузер або пише у файл
--   [imagejpeg()](function.imagejpeg.md) - Виводить зображення у браузер або пише у файл
--   [imagetypes()](function.imagetypes.md) - Повертає список типів зображень, які підтримує PHP збірка
+-   [image2wbmp()](function.image2wbmp.md) \- Виводить зображення у браузер або пише у файл
+-   [imagepng()](function.imagepng.md) \- Виведення PNG зображення у браузер або файл
+-   [imagegif()](function.imagegif.md) \- Виводить зображення у браузер або пише у файл
+-   [imagejpeg()](function.imagejpeg.md) \- Виводить зображення у браузер або пише у файл
+-   [imagetypes()](function.imagetypes.md) \- Повертає список типів зображень, які підтримує PHP збірка

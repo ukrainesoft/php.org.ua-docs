@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauthprovider.md: OAuthProvider
 title: 'OAuthProvider::is2LeggedEndpoint'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuthProvider::is2LeggedEndpoint
 
@@ -22,7 +23,7 @@ public OAuthProvider::is2LeggedEndpoint(mixed $params_array): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public OAuthProvider::is2LeggedEndpoint(mixed $params_array): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **OAuthProvider::is2LeggedEndpoint()****
+**Пример #1 Пример использования**OAuthProvider::is2LeggedEndpoint()\*\*\*\*
 
 ```php
 <?php
@@ -48,4 +49,4 @@ $provider->is2LeggedEndpoint(true);
 
 ### Дивіться також
 
--   [OAuthProvider::construct()](oauthprovider.construct.md) - Конструктор класу OAuthProvider
+-   [OAuthProvider::\_\_construct()](oauthprovider.construct.md) \- Конструктор класу OAuthProvider

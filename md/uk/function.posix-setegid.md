@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-mknod.md: « posixmknod
-  - function.posix-seteuid.md: posixseteuid »
+  - function.posix-pathconf.md: « posix\_pathconf
+  - function.posix-seteuid.md: posix\_seteuid »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixsetegid
+  - ref.posix.md: POSIX Функції
+title: posix\_setegid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixsetegid
+# posix\_setegid
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-posixsetegid — Встановлює ефективний ідентифікатор групи для поточного процесу EGID
+posix\_setegid — Встановлює ефективний ідентифікатор групи для поточного процесу EGID
 
 ### Опис
 
@@ -28,11 +29,11 @@ posix_setegid(int $group_id): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posixsetegid()****
+**Пример #1 Пример использования**posix\_setegid()\*\*\*\*
 
 Цей приклад виводить ефективний ідентифікатор групи процесу до та після зміни.
 
@@ -47,6 +48,6 @@ echo 'My effective group id is '.posix_getegid(); //40
 
 ### Дивіться також
 
--   [posixgetgrgid()](function.posix-getgrgid.md) - Повертає інформацію про групу за її ID
--   [posixgetgid()](function.posix-getgid.md) - Повертає дійсний ID групи поточного процесу GID
--   [posixsetgid()](function.posix-setgid.md) - Встановлює ідентифікатор групи для поточного процесу GID
+-   [posix\_getgrgid()](function.posix-getgrgid.md) \- Повертає інформацію про групу за її ID
+-   [posix\_getgid()](function.posix-getgid.md) \- Повертає дійсний ID групи поточного процесу GID
+-   [posix\_setgid()](function.posix-setgid.md) \- Встановлює ідентифікатор групи для поточного процесу GID

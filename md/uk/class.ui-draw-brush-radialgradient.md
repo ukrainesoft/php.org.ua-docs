@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-draw-brush-lineargradient.construct.md: '« UIDrawBrushLinearGradient::construct'
-  - ui-draw-brush-radialgradient.construct.md: 'ОЙDrawBrushRadialGradient::construct »'
+  - ui-draw-brush-lineargradient.construct.md: '« UI\\Draw\\Brush\\LinearGradient::\_\_construct'
+  - ui-draw-brush-radialgradient.construct.md: 'UI\\Draw\\Brush\\RadialGradient::\_\_construct »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Радіальний градієнт
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Радіальний градієнт
 
@@ -50,4 +51,4 @@ public UI\Draw\Brush\Gradient::setStop(int $index, float $position, int $color):
 
 ## Зміст
 
--   [ОЙDrawBrushRadialGradient::construct](ui-draw-brush-radialgradient.construct.md) - Конструктор класу RadialGradient
+-   [UI\\Draw\\Brush\\RadialGradient::\_\_construct](ui-draw-brush-radialgradient.construct.md) \- Конструктор класу RadialGradient

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.isempty.md: '« DsSet::isEmpty'
-  - ds-set.jsonserialize.md: 'ДсSet::jsonSerialize »'
+  - ds-set.isempty.md: '« Ds\\Set::isEmpty'
+  - ds-set.jsonserialize.md: 'Ds\\Set::jsonSerialize »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::join'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::join'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::join
+# Ds\\Set::join
 
 (PECL ds >= 1.0.0)
 
-ДсSet::join — Склеює всі значення в рядок
+Ds\\Set::join — Склеює всі значення в рядок
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсSet::join'
 public Ds\Set::join(string $glue = ?): string
 ```
 
-Склеює всі значення в рядок, опціонально використовуючи заданий роздільник.
+Склеює всі значення у рядок, опціонально використовуючи заданий роздільник.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public Ds\Set::join(string $glue = ?): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::join()** з роздільником**
+**Пример #1 Пример использования**Ds\\Set::join()\*\* з роздільником\*\*
 
 ```php
 <?php
@@ -42,13 +43,13 @@ var_dump($set->join("|"));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(11) "a|b|c|1|2|3"
 ```
 
-**Приклад #2 Приклад використання **ДсSet::join()** без роздільника**
+**Пример #2 Пример использования**Ds\\Set::join()\*\* без роздільника\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_dump($set->join());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(11) "abc123"

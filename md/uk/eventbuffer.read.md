@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::read'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBuffer::read
 
@@ -32,18 +33,18 @@ public
 
 ### Значення, що повертаються
 
-Повертає прочитаний рядок або **`false`** у разі виникнення помилки.
+Повертає прочитаний рядок або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL event 1.6.0 | Перейменований з **EventBuffer::read()** (старе ім'я методу) **EventBuffer::read()**. . **EventBuffer::read()** тепер приймає лише аргумент `max_bytes`; повертає рядок замість цілого числа. |
 
 ### Дивіться також
 
--   [EventBuffer::copyout()](eventbuffer.copyout.md) - Копіює вказану кількість байтів з початку буфера
--   [EventBuffer::drain()](eventbuffer.drain.md) - Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
--   [EventBuffer::pullup()](eventbuffer.pullup.md) - Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
--   [EventBuffer::readLine()](eventbuffer.readline.md) - Витягує рядок із початку буфера
--   [EventBuffer::appendFrom()](eventbuffer.appendfrom.md) - Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
+-   [EventBuffer::copyout()](eventbuffer.copyout.md) \- Копіює вказану кількість байтів з початку буфера
+-   [EventBuffer::drain()](eventbuffer.drain.md) \- Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
+-   [EventBuffer::pullup()](eventbuffer.pullup.md) \- Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
+-   [EventBuffer::readLine()](eventbuffer.readline.md) \- Витягує рядок із початку буфера
+-   [EventBuffer::appendFrom()](eventbuffer.appendfrom.md) \- Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::remapImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::remapImage
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::remapImage — Визначає кольори зображення.
 
@@ -28,7 +29,7 @@ public Imagick::remapImage(Imagick $replacement, int $DITHER): bool
 
 `DITHER`
 
-Зверніться до списку [констант DITHERMETHOD](imagick.constants.md#imagick.constants.dithermethod)
+Обратитесь к списку[констант DITHERMETHOD](imagick.constants.md#imagick.constants.dithermethod)
 
 ### Значення, що повертаються
 

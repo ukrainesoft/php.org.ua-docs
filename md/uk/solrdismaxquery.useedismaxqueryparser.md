@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'SolrDisMaxQuery::useEDisMaxQueryParser'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDisMaxQuery::useEDisMaxQueryParser
 
@@ -30,7 +31,7 @@ public SolrDisMaxQuery::useEDisMaxQueryParser(): SolrDisMaxQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::useEDisMaxQueryParser()****
+**Пример #1 Пример использования**SolrDisMaxQuery::useEDisMaxQueryParser()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ echo $dismaxQuery;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 defType=edismax

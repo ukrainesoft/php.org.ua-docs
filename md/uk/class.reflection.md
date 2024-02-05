@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflection.extending.md: « Расширение
+  - reflection.extending.md: « Розширення
   - reflection.export.md: 'Reflection::export »'
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Клас Reflection
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Reflection
 
@@ -18,13 +19,8 @@ title: Клас Reflection
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      class Reflection
-     
+     class Reflection
      {
 
     /* Методы */
@@ -37,5 +33,5 @@ public static getModifierNames(int $modifiers): array
 
 ## Зміст
 
--   [Reflection::export](reflection.export.md) - Експортує Reflection
--   [Reflection::getModifierNames](reflection.getmodifiernames.md) — Отримання імен модифікаторів
+-   [Reflection::export](reflection.export.md) \- Експортує Reflection
+-   [Reflection::getModifierNames](reflection.getmodifiernames.md)— Отримання імен модифікаторів

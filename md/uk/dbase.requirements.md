@@ -1,10 +1,11 @@
 ---
 navigation:
-  - dbase.setup.md: « Встановлення та налаштування
-  - dbase.installation.md: Установка »
+  - dbase.setup.md: '" Встановлення та налаштування'
+  - dbase.installation.md: Встановлення »
   - index.md: PHP Manual
   - dbase.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 

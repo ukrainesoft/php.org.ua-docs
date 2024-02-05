@@ -1,16 +1,17 @@
 ---
 navigation:
-  - migration70.new-features.md: « Новая функциональность
+  - migration70.new-features.md: « Нова функціональність
   - migration70.changed-functions.md: Змінені функції »
   - index.md: PHP Manual
-  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
+  - migration70.md: Міграція з PHP 5.6.x на PHP 7.0.x
 title: 'Функціональність, оголошена застарілою PHP 7.0.x'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Функціональність, оголошена застарілою PHP 7.0.x
 
 ### Конструктори у стилі PHP 4
 
-Конструктори в стилі PHP 4 (методи з тим самим ім'ям, що і сам клас) оголошені застарілими та будуть видалені у майбутньому. У PHP 7 видаватиметься попередження **`E_DEPRECATED`** у разі використання таких конструкторів. Класи, що реалізують метод **construct()**, торкнуті не будуть.
+Конструктори в стилі PHP 4 (методи з тим самим ім'ям, що і сам клас) оголошені застарілими та будуть видалені у майбутньому. У PHP 7 видаватиметься попередження **`E_DEPRECATED`** у разі використання таких конструкторів. Класи, що реалізують метод **\_\_construct()**, торкнуті не будуть.
 
 ```php
 <?php
@@ -22,7 +23,7 @@ class foo {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP; foo has a deprecated constructor in example.php on line 3
@@ -44,23 +45,23 @@ foo::bar();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Deprecated: Non-static method foo::bar() should not be called statically in - on line 8
 Я не статический!
 ```
 
-### Опція salt функції [passwordhash()](function.password-hash.md)
+### Опция salt функции[password\_hash()](function.password-hash.md)
 
-Опція salt функції [passwordhash()](function.password-hash.md) була оголошена застарілою для запобігання використанню розробниками своїх власних salt (часто небезпечних). Функція самостійно генерує криптографічно безпечний salt, якщо він не заданий розробником, отже більше немає потреби в генераторах користувача salt.
+Опция salt функции[password\_hash()](function.password-hash.md) була оголошена застарілою для запобігання використанню розробниками своїх власних salt (часто небезпечних). Функція самостійно генерує криптографічно безпечний salt, якщо він не заданий розробником, отже більше немає потреби в генераторах користувача salt.
 
-### Опція контексту SSL `capture_session_meta`
+### Опция контекста SSL`capture_session_meta`
 
-Опція контексту SSL `capture_session_meta` оголошено застарілою. Метадані SSL тепер доступні за допомогою функції [streamgetmetadata()](function.stream-get-meta-data.md)
+Опция контекста SSL`capture_session_meta` оголошено застарілою. Метадані SSL тепер доступні за допомогою функції [stream\_get\_meta\_data()](function.stream-get-meta-data.md)
 
 ### Застарілі функції [LDAP](book.ldap.md)
 
 Наступні функції були оголошені застарілими:
 
--   [ldapsort()](function.ldap-sort.md)
+-   [ldap\_sort()](function.ldap-sort.md)

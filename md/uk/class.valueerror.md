@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - reserved.exceptions.md: Обумовлені винятки
 title: ValueError
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ValueError
 
@@ -12,24 +13,19 @@ title: ValueError
 
 ## Вступ
 
-Помилка **ValueError** викидається, якщо тип аргументу правильний, але його значення неправильне. Наприклад, передача негативного цілого числа, коли функція очікує на позитивне, або передача порожнього рядка/масиву, коли функція очікує, що він не буде порожнім.
+Ошибка**ValueError** викидається, якщо тип аргументу правильний, але його значення неправильне. Наприклад, передача негативного цілого числа, коли функція очікує на позитивне, або передача порожнього рядка/масиву, коли функція очікує, що він не буде порожнім.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class ValueError
     
 
     
-     
-      class ValueError
-     
-
-     
-      extends
-       Error
-     
+     extends
+      Error
      {
 
     /* Наследуемые свойства */
@@ -59,7 +55,9 @@ private
 
     /* Наследуемые методы */
     
-   final public Error::getMessage(): string
+   public Error::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+    final public Error::getMessage(): string
 final public Error::getPrevious(): ?Throwable
 final public Error::getCode(): int
 final public Error::getFile(): string

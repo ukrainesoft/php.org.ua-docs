@@ -1,29 +1,30 @@
 ---
 navigation:
-  - install.macosx.compile.md: « Компилирование PHP на macOS
-  - install.windows.requirements.md: Вимоги к установке »
+  - install.macosx.compile.md: « Компілювання PHP на macOS
+  - install.windows.requirements.md: Вимоги до встановлення »
   - index.md: PHP Manual
   - install.md: Встановлення та налаштування
 title: Встановлення у системах Windows
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення у системах Windows
 
 ## Зміст
 
--   [Вимоги к установке](install.windows.requirements)
--   [PECL](install.windows.pecl)
--   [Инструмент установки PHP на Windows](install.windows.tools)
--   [Рекомендована конфігурація для Windows](install.windows.recommended)
--   [Самостійне встановлення PHP у Windows](install.windows.manual)
--   [Складання з вихідних кодів](install.windows.building)
--   [Командний рядок PHP у Microsoft Windows](install.windows.commandline)
--   [Apache 2.x в Microsoft Windows](install.windows.apache2)
--   [Стандартні проблеми PHP під Windows](install.windows.troubleshooting)
+-   [Вимоги до встановлення](install.windows.requirements.md)
+-   [PECL](install.windows.pecl.md)
+-   [Інструмент встановлення PHP на Windows](install.windows.tools.md)
+-   [Рекомендована конфігурація для Windows](install.windows.recommended.md)
+-   [Самостійне встановлення PHP у Windows](install.windows.manual.md)
+-   [Складання з вихідних кодів](install.windows.building.md)
+-   [Командний рядок PHP у Microsoft Windows](install.windows.commandline.md)
+-   [Apache 2.x у Microsoft Windows](install.windows.apache2.md)
+-   [Стандартні проблеми PHP під Windows](install.windows.troubleshooting.md)
 
 Встановлення PHP у сучасних операційних системах Microsoft Windows та рекомендована конфігурація під поширені веб-сервери.
 
-Офіційні релізи PHP для Windows рекомендовані для використання у промисловій експлуатації. Однак, ви також можете зібрати PHP із вихідних кодів. Вам знадобиться оточення Visual Studio. Зверніться до розділу [» Пошаговое руководство по сборке](https://wiki.php.net/internals/windows/stepbystepbuild_sdk_2) для отримання повнішої інформації.
+Офіційні релізи PHP для Windows рекомендовані для використання у промисловій експлуатації. Однак, ви також можете зібрати PHP із вихідних кодів. Вам знадобиться оточення Visual Studio. Зверніться до розділу [» Покроковий посібник зі складання](https://wiki.php.net/internals/windows/stepbystepbuild_sdk_2) для отримання повнішої інформації.
 
--   [Використання PHP у командному рядку Windows](install.windows.commandline)
+-   [Робота з PHP з командного рядка Windows](install.windows.commandline.md)
     
--   [Установка PHP на Azure App Services](install.cloud.azure) (він же Microsoft Azure, Windows Azure або (Windows) Azure Web Apps).
+-   [Встановлення PHP на Azure App Services](install.cloud.azure.md)(він же Microsoft Azure, Windows Azure або (Windows) Azure Web Apps).

@@ -1,14 +1,15 @@
 ---
 navigation:
-  - yar-client-exception.gettype.md: '« YarClientException::getType'
-  - intro.xmlrpc.md: Введение »
+  - yar-client-exception.gettype.md: '« Yar\_Client\_Exception::getType'
+  - intro.xmlrpc.md: Вступ "
   - index.md: PHP Manual
   - refs.webservice.md: Веб-сервіси
 title: XML-RPC
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XML-RPC
 
--   [Введение](intro.xmlrpc.md)
+-   [Вступ](intro.xmlrpc.md)
 -   [Встановлення та налаштування](xmlrpc.setup.md)
     -   [Вимоги](xmlrpc.requirements.md)
     -   [Установка](xmlrpc.installation.md)
@@ -16,17 +17,17 @@ title: XML-RPC
     -   [Типи ресурсів](xmlrpc.resources.md)
 -   [Обумовлені константи](xmlrpc.constants.md)
 -   [Функції XML-RPC](ref.xmlrpc.md)
-    -   [xmlrpcdecoderequest](function.xmlrpc-decode-request.md) - Декодує XML у нативні типи PHP
-    -   [xmlrpcdecode](function.xmlrpc-decode.md) - Декодує XML у нативні типи PHP
-    -   [xmlrpcencoderequest](function.xmlrpc-encode-request.md) - Генерує XML для методу запиту
-    -   [xmlrpcencode](function.xmlrpc-encode.md) - Генерує XML для PHP значення
-    -   [xmlrpcgettype](function.xmlrpc-get-type.md) — Отримує тип XML-RPC для значення PHP
-    -   [xmlrpcісfault](function.xmlrpc-is-fault.md) — Визначає, чи є масив значень уявленням помилки XMLRPC
-    -   [xmlrpcparsemethoddescriptions](function.xmlrpc-parse-method-descriptions.md) — Декодує XML до списку описів методів
-    -   [xmlrpcserveraddintrospectiondata](function.xmlrpc-server-add-introspection-data.md) - Додає документацію самоаналізу
-    -   [xmlrpcservercallmethod](function.xmlrpc-server-call-method.md) — Розбирає XML-запити та методи, що викликають.
-    -   [xmlrpcservercreate](function.xmlrpc-server-create.md) — Створює сервер XML-RPC
-    -   [xmlrpcserverdestroy](function.xmlrpc-server-destroy.md) — Знищує серверні ресурси
-    -   [xmlrpcserverregisterintrospectioncallback](function.xmlrpc-server-register-introspection-callback.md) — Реєструє функцію PHP для створення документації
-    -   [xmlrpcserverregistermethod](function.xmlrpc-server-register-method.md) - Реєструє функцію PHP до методу ресурсу, що відповідає методуname
-    -   [xmlrpcsettype](function.xmlrpc-set-type.md) — Встановлює тип XML-RPC, base64 або datetime для значення рядка PHP
+    -   [xmlrpc\_decode\_request](function.xmlrpc-decode-request.md) \- Декодує XML у нативні типи PHP
+    -   [xmlrpc\_decode](function.xmlrpc-decode.md) \- Декодує XML у нативні типи PHP
+    -   [xmlrpc\_encode\_request](function.xmlrpc-encode-request.md) \- Генерує XML для методу запиту
+    -   [xmlrpc\_encode](function.xmlrpc-encode.md) \- Генерує XML для PHP значення
+    -   [xmlrpc\_get\_type](function.xmlrpc-get-type.md)— Отримує тип XML-RPC для значення PHP
+    -   [xmlrpc\_is\_fault](function.xmlrpc-is-fault.md)— Визначає, чи є масив значень уявленням помилки XMLRPC
+    -   [xmlrpc\_parse\_method\_descriptions](function.xmlrpc-parse-method-descriptions.md)— Декодує XML до списку описів методів
+    -   [xmlrpc\_server\_add\_introspection\_data](function.xmlrpc-server-add-introspection-data.md) \- Додає документацію самоаналізу
+    -   [xmlrpc\_server\_call\_method](function.xmlrpc-server-call-method.md)— Розбирає XML-запити та методи, що викликають.
+    -   [xmlrpc\_server\_create](function.xmlrpc-server-create.md)— Створює сервер XML-RPC
+    -   [xmlrpc\_server\_destroy](function.xmlrpc-server-destroy.md)— Знищує серверні ресурси
+    -   [xmlrpc\_server\_register\_introspection\_callback](function.xmlrpc-server-register-introspection-callback.md)— Реєструє функцію PHP для створення документації
+    -   [xmlrpc\_server\_register\_method](function.xmlrpc-server-register-method.md)— Реєструє функцію PHP до методу ресурсу, що відповідає методу\_name
+    -   [xmlrpc\_set\_type](function.xmlrpc-set-type.md)— Встановлює тип XML-RPC, base64 або datetime для значення рядка PHP

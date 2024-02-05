@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.gethedge.md: '« MongoDBDriverReadPreference::getHedge'
-  - mongodb-driver-readpreference.getmode.md: 'MongoDBDriverReadPreference::getMode »'
+  - mongodb-driver-readpreference.gethedge.md: '« MongoDB\\Driver\\ReadPreference::getHedge'
+  - mongodb-driver-readpreference.getmode.md: 'MongoDB\\Driver\\ReadPreference::getMode »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
-title: 'MongoDBDriverReadPreference::getMaxStalenessSeconds'
+  - class.mongodb-driver-readpreference.md: MongoDB\\Driver\\ReadPreference
+title: 'MongoDB\\Driver\\ReadPreference::getMaxStalenessSeconds'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverReadPreference::getMaxStalenessSeconds
+# MongoDB\\Driver\\ReadPreference::getMaxStalenessSeconds
 
 (mongodb >=1.2.0)
 
-MongoDBDriverReadPreference::getMaxStalenessSeconds — Повертає параметр "maxStalenessSeconds" ReadPreference
+MongoDB\\Driver\\ReadPreference::getMaxStalenessSeconds — Повертає параметр "maxStalenessSeconds" ReadPreference
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\Driver\ReadPreference::getMaxStalenessSeconds(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverReadPreference::getMaxStalenessSeconds()****
+**Пример #1 Пример использования**MongoDB\\Driver\\ReadPreference::getMaxStalenessSeconds()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_dump($rp->getMaxStalenessSeconds());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(-1)
@@ -69,4 +70,4 @@ int(1000)
 
 ### Дивіться також
 
--   [» Руководство по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [» Посібник з переваги читання](https://www.mongodb.com/docs/manual/core/read-preference/)

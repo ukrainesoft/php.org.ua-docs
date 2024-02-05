@@ -3,10 +3,11 @@ navigation:
   - mysql-xdevapi-result.getaffecteditemscount.md: '« Result::getAffectedItemsCount'
   - mysql-xdevapi-result.getgeneratedids.md: 'Result::getGeneratedIds »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-result.md: mysqlxdevapiResult
-title: 'Result::set Auto\_Increment Value'
+  - class.mysql-xdevapi-result.md: mysql\_xdevapi\\Result
+title: 'Result::getAutoIncrementValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Result::set Auto\_Increment Value
+# Result::getAutoIncrementValue
 
 (No version information available, might only be in Git)
 
@@ -18,7 +19,7 @@ Result::getAutoIncrementValue — Отримує значення автоінк
 public mysql_xdevapi\Result::getAutoIncrementValue(): int
 ```
 
-Отримує останнє значення AUTOINCREMENT (ідентифікатор останньої вставки).
+Отримує останнє значення AUTO\_INCREMENT (ідентифікатор останньої вставки).
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public mysql_xdevapi\Result::getAutoIncrementValue(): int
 
 ### Значення, що повертаються
 
-Значення AUTOINCREMENT.
+Значення AUTO\_INCREMENT.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiResult::set Auto\_Increment Value()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Result::getAutoIncrementValue()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ var_dump($ai);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(3)

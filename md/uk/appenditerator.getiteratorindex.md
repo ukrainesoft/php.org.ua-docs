@@ -1,14 +1,15 @@
 ---
 navigation:
-  - appenditerator.getinneriterator.md: '« AppendIterator::getInnerIterator'
+  - appenditerator.getarrayiterator.md: '« AppendIterator::getArrayIterator'
   - appenditerator.key.md: 'AppendIterator::key »'
   - index.md: PHP Manual
   - class.appenditerator.md: AppendIterator
 title: 'AppendIterator::getIteratorIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # AppendIterator::getIteratorIndex
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 AppendIterator::getIteratorIndex — Повертає індекс ітератора
 
@@ -30,7 +31,7 @@ public AppendIterator::getIteratorIndex(): ?int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **AppendIterator.getIteratorIndex()****
+**Пример #1 Пример использования**AppendIterator.getIteratorIndex()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ foreach ($iterator as $key => $current) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 0  a aardwolf
@@ -60,5 +61,5 @@ foreach ($iterator as $key => $current) {
 
 ### Дивіться також
 
--   [AppendIterator::getInnerIterator()](appenditerator.getinneriterator.md) - Повертає внутрішній ітератор
--   [AppendIterator::getArrayIterator()](appenditerator.getarrayiterator.md) - Повертає клас ітератора масиву ArrayIterator
+-   **AppendIterator::getInnerIterator()**
+-   [AppendIterator::getArrayIterator()](appenditerator.getarrayiterator.md) \- Повертає клас ітератора масиву ArrayIterator

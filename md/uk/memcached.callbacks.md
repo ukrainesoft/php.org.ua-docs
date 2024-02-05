@@ -4,9 +4,10 @@ navigation:
   - memcached.callbacks.result.md: Функції зворотного дзвінка для результуючого набору »
   - index.md: PHP Manual
   - book.memcached.md: Memcached
-title: Опції зворотного дзвінка
+title: Функції зворотного дзвінка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Опції зворотного дзвінка
+# Функції зворотного дзвінка
 
 ## Зміст
 

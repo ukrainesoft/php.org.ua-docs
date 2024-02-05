@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.rotate.md: '« DsDeque::rotate'
-  - ds-deque.shift.md: 'ДсDeque::shift »'
+  - ds-deque.rotate.md: '« Ds\\Deque::rotate'
+  - ds-deque.shift.md: 'Ds\\Deque::shift »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::set'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::set
+# Ds\\Deque::set
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::set — Замінює значення за вказаним індексом
+Ds\\Deque::set — Замінює значення за вказаним індексом
 
 ### Опис
 
@@ -40,7 +41,7 @@ public Ds\Deque::set(int $index, mixed $value): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::set()****
+**Пример #1 Пример использования**Ds\\Deque::set()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ print_r($deque);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Deque Object
@@ -62,7 +63,7 @@ Ds\Deque Object
 )
 ```
 
-**Приклад #2 Приклад використання **ДсDeque::set()** із синтаксисом масиву**
+**Пример #2 Пример использования**Ds\\Deque::set()\*\* із синтаксисом масиву\*\*
 
 ```php
 <?php
@@ -73,7 +74,7 @@ print_r($deque);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Deque Object

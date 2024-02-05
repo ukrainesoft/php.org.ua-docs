@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttp.md: EventHttp
 title: 'EventHttp::setAllowedMethods'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttp::setAllowedMethods
 
@@ -32,7 +33,7 @@ public
 
 `methods`
 
-Бітова маска констант [`EventHttpRequest::CMD_*`](class.eventhttprequest.md#eventhttprequest.constants)
+Битовая маска констант[`EventHttpRequest::CMD_*`](class.eventhttprequest.md#eventhttprequest.constants)
 
 ### Значення, що повертаються
 

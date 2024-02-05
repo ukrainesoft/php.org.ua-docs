@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'SolrDisMaxQuery::addQueryField'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDisMaxQuery::addQueryField
 
@@ -36,7 +37,7 @@ public SolrDisMaxQuery::addQueryField(string $field, string $boost = ?): SolrDis
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::addQueryField()****
+**Пример #1 Пример использования**SolrDisMaxQuery::addQueryField()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ echo $dismaxQuery;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 q=lucene&defType=edismax&qf=location^4 price sku title^3.4
@@ -61,4 +62,4 @@ q=lucene&defType=edismax&qf=location^4 price sku title^3.4
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::removeQueryField()](solrdismaxquery.removequeryfield.md) - Видаляє поле запиту (параметр qf)
+-   [SolrDisMaxQuery::removeQueryField()](solrdismaxquery.removequeryfield.md) \- Видаляє поле запиту (параметр qf)

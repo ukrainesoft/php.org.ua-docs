@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.iteratoraggregate.md: « IteratorAggregate
-  - class.throwable.md: Throwable »
+  - class.internaliterator.md: InternalIterator »
   - index.md: PHP Manual
   - class.iteratoraggregate.md: IteratorAggregate
 title: 'IteratorAggregate::getIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IteratorAggregate::getIterator
 
@@ -30,4 +31,4 @@ public IteratorAggregate::getIterator(): Traversable
 
 ### Помилки
 
-Викидає виняток [Exception](class.exception.md) у разі виникнення помилки.
+Викидає виняток [Exception](class.exception.md)в случае возникновения ошибки.

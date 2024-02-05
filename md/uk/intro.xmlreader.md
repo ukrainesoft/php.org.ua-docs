@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.xmlreader.md: « XMLReader
-  - xmlreader.setup.md: Встановлення та налаштування »
+  - xmlreader.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.xmlreader.md: XMLReader
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 

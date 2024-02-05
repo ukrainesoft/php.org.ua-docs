@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-error.md: « ldaperror
-  - function.ldap-exop-passwd.md: ldapexoppasswd »
+  - function.ldap-error.md: « ldap\_error
+  - function.ldap-exop-passwd.md: ldap\_exop\_passwd »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapescape
+title: ldap\_escape
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapescape
+# ldap\_escape
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-ldapescape — Екранування рядка для використання у фільтрі LDAP або DN
+ldap\_escape — Екранування рядка для використання у фільтрі LDAP або DN
 
 ### Опис
 
@@ -18,7 +19,7 @@ ldapescape — Екранування рядка для використання
 ldap_escape(string $value, string $ignore = "", int $flags = 0): string
 ```
 
-Екранує `value` для використання в контексті заданому в `flags`
+Екранує `value`для использования в контексте заданном в`flags`
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ ldap_escape(string $value, string $ignore = "", int $flags = 0): string
 
 `flags`
 
-Контекст, для якого екранується рядок: **`LDAP_ESCAPE_FILTER`** для фільтрів, що використовуються в [ldapsearch()](function.ldap-search.md) або **`LDAP_ESCAPE_DN`** для DN. Якщо не передані жодні прапори, всі символи будуть екрановані.
+Контекст, для якого екранується рядок: **`LDAP_ESCAPE_FILTER`** для фільтрів, що використовуються в [ldap\_search()](function.ldap-search.md)или\*\*`LDAP_ESCAPE_DN`\*\* для DN. Якщо не передані жодні прапори, всі символи будуть екрановані.
 
 ### Значення, що повертаються
 
@@ -40,7 +41,7 @@ ldap_escape(string $value, string $ignore = "", int $flags = 0): string
 
 ### Приклади
 
-При побудові фільтра LDAP ви повинні використовувати ldapescape з прапором LDAPESCAPEFILTER.
+При побудові фільтра LDAP ви повинні використовувати ldap\_escape з прапором LDAP\_ESCAPE\_FILTER.
 
 **Приклад #1 Пошук по email-адресі**
 

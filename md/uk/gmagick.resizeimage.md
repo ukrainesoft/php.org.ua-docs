@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::resizeimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::resizeimage
 
@@ -15,7 +16,7 @@ Gmagick::resizeimage — Масштабування зображення
 ### Опис
 
 ```methodsynopsis
-public Gmagick::resizeimage(    int $width,    int $height,    int $filter,    float $blur,    bool $fit = false): Gmagick
+public Gmagick::resizeimage(    int $width,    int $height,    int $filter,    float $blur,    bool $fit = false): Gmagick
 ```
 
 Масштабує зображення до бажаних розмірів за допомогою фільтра.
@@ -44,4 +45,4 @@ public Gmagick::resizeimage(    int $width,    int $height,    int $filter,    f
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

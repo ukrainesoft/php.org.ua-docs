@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.similar-text.md: « similartext
+  - function.similar-text.md: « similar\_text
   - function.sprintf.md: sprintf »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: soundex
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # soundex
 
@@ -36,9 +37,9 @@ soundex(string $string): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | До цієї версії при виклику функції з порожнім рядком поверталося **`false`** без особливих причин. |
+| 8.0.0 | До цієї версії при виклику функції з порожнім рядком поверталося **`false`** без особливих причин. |
 
 ### Приклади
 
@@ -57,6 +58,6 @@ soundex("Lukasiewicz") == soundex("Lissajous"); // L222
 
 ### Дивіться також
 
--   [levenshtein()](function.levenshtein.md) - обчислює відстань Левенштейна між двома рядками
--   [metaphone()](function.metaphone.md) - Повертає ключ metaphone для рядка
--   [similartext()](function.similar-text.md) - обчислює ступінь схожості двох рядків
+-   [levenshtein()](function.levenshtein.md) \- обчислює відстань Левенштейна між двома рядками
+-   [metaphone()](function.metaphone.md) \- Повертає ключ metaphone для рядка
+-   [similar\_text()](function.similar-text.md) \- обчислює ступінь схожості двох рядків

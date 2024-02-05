@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-lexer.insertmacro.md: '« ParleLexer::insertMacro'
-  - parle-lexer.reset.md: 'ParleLexer::reset »'
+  - parle-lexer.insertmacro.md: '« Parle\\Lexer::insertMacro'
+  - parle-lexer.reset.md: 'Parle\\Lexer::reset »'
   - index.md: PHP Manual
-  - class.parle-lexer.md: ParleLexer
-title: 'ParleLexer::push'
+  - class.parle-lexer.md: Parle\\Lexer
+title: 'Parle\\Lexer::push'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleLexer::push
+# Parle\\Lexer::push
 
 (PECL parle >= 0.5.1)
 
-ParleLexer::push - Додає правило лексера
+Parle\\Lexer::push - Додає правило лексера
 
 ### Опис
 
@@ -28,7 +29,7 @@ public Parle\Lexer::push(string $regex, int $id): void
 
 `id`
 
-Ідентифікатор токена. Якщо екземпляр лексера призначений для автономного використання, то може бути довільним числом. Якщо екземпляр лексера буде переданий синтаксичному аналізатору, має бути ідентифікатор, який повертається [ParleParser::tokenid()](parle-parser.tokenid.md)
+Ідентифікатор токена. Якщо екземпляр лексера призначений для автономного використання, то може бути довільним числом. Якщо екземпляр лексера буде переданий синтаксичному аналізатору, має бути ідентифікатор, який повертається [Parle\\Parser::tokenid()](parle-parser.tokenid.md)
 
 ### Значення, що повертаються
 

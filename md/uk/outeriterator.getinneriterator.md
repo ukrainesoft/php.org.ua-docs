@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.outeriterator.md: OuterIterator
 title: 'OuterIterator::getInnerIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OuterIterator::getInnerIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 OuterIterator::getInnerIterator — Повертає внутрішній ітератор для поточного елемента
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.phar.md: Phar
 title: Клас PharFileInfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас PharFileInfo
 
@@ -18,18 +19,13 @@ title: Клас PharFileInfo
 
 ```classsynopsis
 
-     
+    
+     class PharFileInfo
     
 
     
-     
-      class PharFileInfo
-     
-
-     
-      extends
-       SplFileInfo
-     
+     extends
+      SplFileInfo
      {
 
     /* Методы */
@@ -88,18 +84,18 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [PharFileInfo::chmod](pharfileinfo.chmod.md) — Встановлення прав доступу
--   [PharFileInfo::compress](pharfileinfo.compress.md) — Стиснути поточний файл за допомогою zlib або bzip2
--   [PharFileInfo::construct](pharfileinfo.construct.md) - Конструктор об'єкта PharFileInfo
--   [PharFileInfo::decompress](pharfileinfo.decompress.md) — Розтискає поточний файл
--   [PharFileInfo::delMetadata](pharfileinfo.delmetadata.md) — Видалити метадані файлу
--   [PharFileInfo::destruct](pharfileinfo.destruct.md) - Знищує вхідний об'єкт Phar
--   [PharFileInfo::getCRC32](pharfileinfo.getcrc32.md) — Отримати контрольну суму CRC32
--   [PharFileInfo::getCompressedSize](pharfileinfo.getcompressedsize.md) — Отримати реальний розмір, що займає файл, на диску з урахуванням стиснення
--   [PharFileInfo::getContent](pharfileinfo.getcontent.md) — Отримати повний вміст файлу запису
--   [PharFileInfo::getMetadata](pharfileinfo.getmetadata.md) — Отримати метадані, пов'язані з файлом
--   [PharFileInfo::getPharFlags](pharfileinfo.getpharflags.md) — Отримати прапори файлу в phar-архіві
--   [PharFileInfo::hasMetadata](pharfileinfo.hasmetadata.md) — Перевірити, чи є у файлу метадані
--   [PharFileInfo::isCRCChecked](pharfileinfo.iscrcchecked.md) — Визначити, чи файл пройшов перевірку CRC
--   [PharFileInfo::isCompressed](pharfileinfo.iscompressed.md) — Перевірити, чи файл стиснутий.
--   [PharFileInfo::setMetadata](pharfileinfo.setmetadata.md) — Встановлення метаданих для файлу
+-   [PharFileInfo::chmod](pharfileinfo.chmod.md)— Встановлення прав доступу
+-   [PharFileInfo::compress](pharfileinfo.compress.md)— Стиснути поточний файл за допомогою zlib або bzip2
+-   [PharFileInfo::\_\_construct](pharfileinfo.construct.md) \- Конструктор об'єкта PharFileInfo
+-   [PharFileInfo::decompress](pharfileinfo.decompress.md)— Розтискає поточний файл
+-   [PharFileInfo::delMetadata](pharfileinfo.delmetadata.md)— Видалити метадані файлу
+-   [PharFileInfo::\_\_destruct](pharfileinfo.destruct.md) \- Знищує вхідний об'єкт Phar
+-   [PharFileInfo::getCRC32](pharfileinfo.getcrc32.md)— Отримати контрольну суму CRC32
+-   [PharFileInfo::getCompressedSize](pharfileinfo.getcompressedsize.md)— Отримати реальний розмір, що займає файл, на диску з урахуванням стиснення
+-   [PharFileInfo::getContent](pharfileinfo.getcontent.md)— Отримати повний вміст файлу запису
+-   [PharFileInfo::getMetadata](pharfileinfo.getmetadata.md)— Отримати метадані, пов'язані з файлом
+-   [PharFileInfo::getPharFlags](pharfileinfo.getpharflags.md)— Отримати прапори файлу в phar-архіві
+-   [PharFileInfo::hasMetadata](pharfileinfo.hasmetadata.md)— Перевірити, чи є у файлу метадані
+-   [PharFileInfo::isCRCChecked](pharfileinfo.iscrcchecked.md)— Визначити, чи файл пройшов перевірку CRC
+-   [PharFileInfo::isCompressed](pharfileinfo.iscompressed.md)— Перевірити, чи файл стиснутий.
+-   [PharFileInfo::setMetadata](pharfileinfo.setmetadata.md)— Встановлення метаданих для файлу

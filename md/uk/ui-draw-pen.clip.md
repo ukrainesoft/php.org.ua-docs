@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ui-draw-pen.md: « UIDrawPen
-  - ui-draw-pen.fill.md: 'ОЙDrawPen::fill »'
+  - class.ui-draw-pen.md: « UI\\Draw\\Pen
+  - ui-draw-pen.fill.md: 'UI\\Draw\\Pen::fill »'
   - index.md: PHP Manual
-  - class.ui-draw-pen.md: ОЙDrawPen
-title: 'ОЙDrawPen::clip'
+  - class.ui-draw-pen.md: UI\\Draw\\Pen
+title: 'UI\\Draw\\Pen::clip'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawPen::clip
+# UI\\Draw\\Pen::clip
 
 (UI 0.9.9)
 
-ОЙDrawPen::clip — Обрізати шлях
+UI\\Draw\\Pen::clip — Обрізати шлях
 
 ### Опис
 

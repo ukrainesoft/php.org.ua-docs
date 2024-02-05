@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.proc-terminate.md: « procterminate
+  - function.proc-terminate.md: « proc\_terminate
   - function.system.md: system »
   - index.md: PHP Manual
-  - ref.exec.md: Функции запуска программ
-title: shellexec
+  - ref.exec.md: Функції запуску програм
+title: shell\_exec
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# shellexec
+# shell\_exec
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-shellexec — Виконати команду через оболонку та повернути висновок у вигляді рядка
+shell\_exec — Виконати команду через оболонку та повернути висновок у вигляді рядка
 
 ### Опис
 
@@ -20,7 +21,7 @@ shell_exec(string $command): string|false|null
 
 Функція ідентична оператору з [зворотним апострофом](language.operators.execution.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > У Windows нижчий канал відкривається в текстовому режимі, що може призвести до збою функції двійкового виведення. У такому разі спробуйте замість цього використати [popen()](function.popen.md)
 
@@ -34,7 +35,7 @@ shell_exec(string $command): string|false|null
 
 Рядок (string), що містить висновок виконаної команди, **`false`**, якщо канал не може бути встановлений або **`null`** у разі виникнення помилки чи відсутності виведення команди.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція може повернути **`null`** у двох випадках: якщо сталася помилка або якщо команда, що виконується, нічого не виводить. Не використовуйте цю функцію, щоб визначити, чи успішно виконалася команда. Натомість використовуйте [exec()](function.exec.md), оскільки вона надає можливість перевірити код повернення.
 
@@ -44,7 +45,7 @@ shell_exec(string $command): string|false|null
 
 ### Приклади
 
-**Приклад #1 Приклад використання **shellexec()****
+**Пример #1 Пример использования**shell\_exec()\*\*\*\*
 
 ```php
 <?php
@@ -55,5 +56,5 @@ echo "<pre>$output</pre>";
 
 ### Дивіться також
 
--   [exec()](function.exec.md) - Виконати зовнішню програму
--   [escapeshellcmd()](function.escapeshellcmd.md) - Екранувати метасимволи командного рядка
+-   [exec()](function.exec.md) \- Виконати зовнішню програму
+-   [escapeshellcmd()](function.escapeshellcmd.md) \- Екранувати метасимволи командного рядка

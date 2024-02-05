@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-process.freequeue.md: '« SwooleProcess::freeQueue'
-  - swoole-process.name.md: 'SwooleProcess::name »'
+  - swoole-process.freequeue.md: '« Swoole\\Process::freeQueue'
+  - swoole-process.name.md: 'Swoole\\Process::name »'
   - index.md: PHP Manual
-  - class.swoole-process.md: SwooleProcess
-title: 'SwooleProcess::kill'
+  - class.swoole-process.md: Swoole\\Process
+title: 'Swoole\\Process::kill'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleProcess::kill
+# Swoole\\Process::kill
 
 (PECL swoole >= 1.9.0)
 
-SwooleProcess::kill — Надсилає сигнал дочірньому процесу
+Swoole\\Process::kill — Надсилає сигнал дочірньому процесу
 
 ### Опис
 
@@ -32,4 +33,4 @@ public static Swoole\Process::kill(int $pid, int $signal_no = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

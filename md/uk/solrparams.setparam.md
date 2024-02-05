@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrparams.md: SolrParams
 title: 'SolrParams::setParam'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrParams::setParam
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrParams::setParam — Встановлює параметр на вказане значення
 
@@ -28,7 +29,7 @@ public SolrParams::setParam(string $name, string $value): SolrParams
 
 `value`
 
-Значення параметру
+Значення параметра
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public SolrParams::setParam(string $name, string $value): SolrParams
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrParams::setParam()****
+**Пример #1 Пример использования**SolrParams::setParam()\*\*\*\*
 
 ```php
 <?php
@@ -48,4 +49,4 @@ $param->setParam('q', 'solr')->setParam('rows', 2);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:

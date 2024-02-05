@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::getSupportedSignatures'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::getSupportedSignatures
 
@@ -30,5 +31,5 @@ final public static Phar::getSupportedSignatures(): array
 
 ### Дивіться також
 
--   [Phar::getSignature()](phar.getsignature.md) - Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву
--   [Phar::setSignatureAlgorithm()](phar.setsignaturealgorithm.md) - Встановити алгоритм підписання phar-архіву та застосування його
+-   [Phar::getSignature()](phar.getsignature.md) \- Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву
+-   [Phar::setSignatureAlgorithm()](phar.setsignaturealgorithm.md) \- Встановити алгоритм підписання phar-архіву та застосування його

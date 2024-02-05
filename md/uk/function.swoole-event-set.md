@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.swoole-event-exit.md: « swooleeventexit
-  - function.swoole-event-wait.md: swooleeventwait »
+  - function.swoole-event-exit.md: « swoole\_event\_exit
+  - function.swoole-event-wait.md: swoole\_event\_wait »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swooleeventset
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_event\_set
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swooleeventset
+# swoole\_event\_set
 
 (PECL swoole >= 1.9.0)
 
-swooleeventset - Оновити callback-функції події сокету
+swoole\_event\_set - Оновити callback-функції події сокету
 
 ### Опис
 
 ```methodsynopsis
-swoole_event_set(    int $fd,    callable $read_callback = ?,    callable $write_callback = ?,    int $events = 0): bool
+swoole_event_set(    int $fd,    callable $read_callback = ?,    callable $write_callback = ?,    int $events = 0): bool
 ```
 
 ### Список параметрів

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.image-type-to-extension.md: « imagetypeтоextension
+  - function.image-type-to-extension.md: « image\_type\_to\_extension
   - function.image2wbmp.md: image2wbmp »
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
-title: imagetypeтоmimetype
+title: image\_type\_to\_mime\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imagetypeтоmimetype
+# image\_type\_to\_mime\_type
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-imagetypeтоmimetype — Отримання типу Mime для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
+image\_type\_to\_mime\_type — Отримання типу Mime для типу зображення, що повертається функціями getimagesize, exif\_read\_data, exif\_thumbnail, exif\_imagetype
 
 ### Опис
 
@@ -18,13 +19,13 @@ imagetypeтоmimetype — Отримання типу Mime для типу зо�
 image_type_to_mime_type(int $image_type): string
 ```
 
-Функція **imagetypeтоmimetype()** визначає Mime-тип для константи IMAGETYPE.
+Функция**image\_type\_to\_mime\_type()** визначає Mime-тип для константи IMAGETYPE.
 
 ### Список параметрів
 
 `image_type`
 
-Одна з констант `IMAGETYPE_XXX`
+Одна из констант`IMAGETYPE_XXX`
 
 ### Значення, що повертаються
 
@@ -52,10 +53,11 @@ image_type_to_mime_type(int $image_type): string
 | **`IMAGETYPE_XBM`** | `image/xbm` |
 | **`IMAGETYPE_ICO`** | `image/vnd.microsoft.icon` |
 | **`IMAGETYPE_WEBP`** | `image/webp` |
+| **`IMAGETYPE_AVIF`** | `image/avif` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagetypeтоmimetype()****
+**Пример #1 Пример использования**image\_type\_to\_mime\_type()\*\*\*\*
 
 ```php
 <?php
@@ -65,13 +67,13 @@ header("Content-type: " . image_type_to_mime_type(IMAGETYPE_PNG));
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція не потребує бібліотеки GD.
 
 ### Дивіться також
 
--   [getimagesize()](function.getimagesize.md) - Отримання розміру зображення
--   [exifimagetype()](function.exif-imagetype.md) - Визначте тип зображення.
--   [exifreaddata()](function.exif-read-data.md) - Читає заголовки EXIF ​​із файлів зображень
--   [exifthumbnail()](function.exif-thumbnail.md) - Отримує вбудоване прев'ю зображення
+-   [getimagesize()](function.getimagesize.md) \- Отримання розміру зображення
+-   [exif\_imagetype()](function.exif-imagetype.md) \- Determine the type of an image
+-   [exif\_read\_data()](function.exif-read-data.md) \- Читає заголовки EXIF ​​із файлів зображень
+-   [exif\_thumbnail()](function.exif-thumbnail.md) \- Отримує вбудоване прев'ю зображення

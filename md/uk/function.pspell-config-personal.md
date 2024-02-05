@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pspell-config-mode.md: « pspellconfigmode
-  - function.pspell-config-repl.md: pspellconfigrepl »
+  - function.pspell-config-mode.md: « pspell\_config\_mode
+  - function.pspell-config-repl.md: pspell\_config\_repl »
   - index.md: PHP Manual
-  - ref.pspell.md: Функции Pspell
-title: pspellconfigpersonal
+  - ref.pspell.md: Функції Pspell
+title: pspell\_config\_personal
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pspellconfigpersonal
+# pspell\_config\_personal
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspellconfigpersonal — Встановлює файл, який містить персональний список слів
+pspell\_config\_personal — Встановлює файл, який містить персональний список слів
 
 ### Опис
 
@@ -18,15 +19,15 @@ pspellconfigpersonal — Встановлює файл, який містить 
 pspell_config_personal(PSpell\Config $config, string $filename): bool
 ```
 
-Встановлює файл, який містить список персональних слів. Персональний список слів буде завантажено та використано на додаток до стандартного після того, як ви викликаєте [pspellnewconfig()](function.pspell-new-config.md). Це той самий файл, в який функція [pspellsavewordlist()](function.pspell-save-wordlist.md) збереже персональний перелік слів.
+Встановлює файл, який містить список персональних слів. Персональний список слів буде завантажено та використано на додаток до стандартного після того, як ви викликаєте [pspell\_new\_config()](function.pspell-new-config.md). Це той самий файл, в який функція [pspell\_save\_wordlist()](function.pspell-save-wordlist.md) збереже персональний перелік слів.
 
-**pspellconfigpersonal()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.md)
+**pspell\_config\_personal()** має бути використана для конфігурації перед викликом [pspell\_new\_config()](function.pspell-new-config.md)
 
 ### Список параметрів
 
 `config`
 
-Екземпляр [PSpellConfig](class.pspell-config.md)
+Екземпляр [PSpell\\Config](class.pspell-config.md)
 
 `filename`
 
@@ -34,17 +35,17 @@ pspell_config_personal(PSpell\Config $config, string $filename): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`config` тепер чекає екземпляр [PSpell\\Config](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspellconfigpersonal()****
+**Пример #1 Пример использования**pspell\_config\_personal()\*\*\*\*
 
 ```php
 <?php
@@ -57,6 +58,6 @@ pspell_check($pspell, "thecat");
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція не працюватиме, якщо у вас немає pspell .11.2 і aspell .32.5 або вище.

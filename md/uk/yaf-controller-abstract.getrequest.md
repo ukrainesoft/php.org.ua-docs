@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-controller-abstract.getname.md: '« YafControllerAbstract::getName'
-  - yaf-controller-abstract.getresponse.md: 'YafControllerAbstract::getResponse »'
+  - yaf-controller-abstract.getname.md: '« Yaf\_Controller\_Abstract::getName'
+  - yaf-controller-abstract.getresponse.md: 'Yaf\_Controller\_Abstract::getResponse »'
   - index.md: PHP Manual
-  - class.yaf-controller-abstract.md: YafControllerAbstract
-title: 'YafControllerAbstract::getRequest'
+  - class.yaf-controller-abstract.md: Yaf\_Controller\_Abstract
+title: 'Yaf\_Controller\_Abstract::getRequest'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafControllerAbstract::getRequest
+# Yaf\_Controller\_Abstract::getRequest
 
 (Yaf >=1.0.0)
 
-YafControllerAbstract::getRequest — Отримує поточний об'єкт запиту
+Yaf\_Controller\_Abstract::getRequest — Отримує поточний об'єкт запиту
 
 ### Опис
 
@@ -26,4 +27,4 @@ public Yaf_Controller_Abstract::getRequest(): Yaf_Request_Abstract
 
 ### Значення, що повертаються
 
-Екземпляр [YafRequestAbstract](class.yaf-request-abstract.md)
+Екземпляр [Yaf\_Request\_Abstract](class.yaf-request-abstract.md)

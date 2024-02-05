@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.locale.md: Locale
 title: 'Locale::getDefault'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Locale::getDefault
 
-# localegetdefault
+# locale\_get\_default
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::getDefault -- localegetdefault — Отримання значення локалі INTL за замовчуванням з опції 'defaultlocale'
+Locale::getDefault -- locale\_get\_default — Отримання значення локалі INTL за замовчуванням з опції 'default\_locale'
 
 ### Опис
 
@@ -28,7 +29,7 @@ public static Locale::getDefault(): string
 locale_get_default(): string
 ```
 
-Отримання значення локалі за замовчуванням. при ініціалізації PHP, це значення встановлюється в 'intl.defaultlocale' з php.ini, якщо воно там є, або значення функції ICU ulocgetDefault().
+Отримання значення локалі за замовчуванням. при ініціалізації PHP, це значення встановлюється в 'intl.default\_locale' з php.ini, якщо воно там є, або значення функції ICU uloc\_getDefault().
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ locale_get_default(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **localegetdefault()****
+**Пример #1 Пример использования**locale\_get\_default()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ echo Locale::getDefault();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 de-DE; fr
@@ -70,4 +71,4 @@ de-DE; fr
 
 ### Дивіться також
 
--   [localesetdefault()](locale.setdefault.md) - Встановити локаль за умовчанням під час виконання
+-   [locale\_set\_default()](locale.setdefault.md) \- Встановити локаль за умовчанням під час виконання

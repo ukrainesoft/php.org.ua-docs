@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-result.fetch-assoc.md: '« mysqliresult::fetchassoc'
-  - mysqli-result.fetch-field-direct.md: 'mysqliresult::fetchfielddirect »'
+  - mysqli-result.fetch-assoc.md: '« mysqli\_result::fetch\_assoc'
+  - mysqli-result.fetch-field-direct.md: 'mysqli\_result::fetch\_field\_direct »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::fetchcolumn'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::fetch\_column'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::fetchcolumn
+# mysqli\_result::fetch\_column
 
-# mysqlifetchcolumn
+# mysqli\_fetch\_column
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-mysqliresult::fetchcolumn -- mysqlifetchcolumn — Отримує один стовпець з наступного рядка набору результатів
+mysqli\_result::fetch\_column -- mysqli\_fetch\_column — Отримує один стовпець з наступного рядка набору результатів
 
 ### Опис
 
@@ -30,13 +31,13 @@ mysqli_fetch_column(mysqli_result $result, int $column = 0): null|int|float|stri
 
 Вибирає один рядок даних із набору результатів і повертає стовпець із зазначеним індексом, починаючи з 0. Кожен наступний виклик цієї функції повертатиме значення з наступного рядка у наборі результатів або \*\*`false`\*\*якщо рядків більше немає.
 
-> **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
+> **Зауваження**: Ця функція встановлює NULL-поля значення \*\*`null`\*\*PHP.
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 `column`
 
@@ -52,7 +53,7 @@ mysqli_fetch_column(mysqli_result $result, int $column = 0): null|int|float|stri
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqliresult::fetchcolumn()****
+**Пример #1 Пример использования**mysqli\_result::fetch\_column()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -82,7 +83,7 @@ while ($Name = mysqli_fetch_column($result, 1)) {
 }
 ```
 
-Результатом виконання даних прикладів буде щось подібне:
+Висновок наведених прикладів буде схожим на:
 
 ```
 Rafah
@@ -94,9 +95,9 @@ Khan Yunis
 
 ### Дивіться також
 
--   [mysqlifetchall()](mysqli-result.fetch-all.md) - Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
--   [mysqlifetcharray()](mysqli-result.fetch-array.md) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
--   [mysqlifetchassoc()](mysqli-result.fetch-assoc.md) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
--   [mysqlifetchobject()](mysqli-result.fetch-object.md) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
--   [mysqlifetchrow()](mysqli-result.fetch-row.md) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
--   [mysqlidataseek()](mysqli-result.data-seek.md) - Переміщує покажчик результату на вибраний рядок
+-   [mysqli\_fetch\_all()](mysqli-result.fetch-all.md) \- Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
+-   [mysqli\_fetch\_array()](mysqli-result.fetch-array.md) \- Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.md) \- Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
+-   [mysqli\_fetch\_object()](mysqli-result.fetch-object.md) \- Вибирає наступний рядок із набору результатів у вигляді об'єкта
+-   [mysqli\_fetch\_row()](mysqli-result.fetch-row.md) \- Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
+-   [mysqli\_data\_seek()](mysqli-result.data-seek.md) \- Переміщує покажчик результату на вибраний рядок

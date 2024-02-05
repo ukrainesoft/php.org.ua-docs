@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ds-pair.md: « Пара
-  - ds-pair.construct.md: 'ДсPair::construct »'
+  - class.ds-pair.md: « Ds\\Pair
+  - ds-pair.construct.md: 'Ds\\Pair::\_\_construct »'
   - index.md: PHP Manual
-  - class.ds-pair.md: Пара
-title: 'ДсPair::clear'
+  - class.ds-pair.md: Ds\\Pair
+title: 'Ds\\Pair::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсPair::clear
+# Ds\\Pair::clear
 
 (No version information available, might only be in Git)
 
-ДсPair::clear — Видаляє всі значення
+Ds\\Pair::clear — Видаляє всі значення
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Pair::clear(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсPair::clear()****
+**Пример #1 Пример использования**Ds\\Pair::clear()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ print_r($pair);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Pair Object

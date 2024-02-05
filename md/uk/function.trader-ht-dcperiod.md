@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-get-unstable-period.md: « tradergetunstableperiod
-  - function.trader-ht-dcphase.md: traderхтdcphase »
+  - function.trader-get-unstable-period.md: « trader\_get\_unstable\_period
+  - function.trader-ht-dcphase.md: trader\_ht\_dcphase »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderхтdcperiod
+  - ref.trader.md: Функції Trader
+title: trader\_ht\_dcperiod
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderхтdcperiod
+# trader\_ht\_dcperiod
 
 (PECL trader >= 0.2.0)
 
-traderхтdcperiod - Перетворення Гільберта - період домінуючого циклу
+trader\_ht\_dcperiod - Перетворення Гільберта - період домінуючого циклу
 
 ### Опис
 

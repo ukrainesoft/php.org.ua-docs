@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::timeout'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::timeout
 
 (PECL gearman >= 0.6.0)
 
-GearmanClient::timeout — Отримання часу очікування операцій введення/виводу
+GearmanClient::timeout — Отримання значення часу очікування операцій введення/виводу
 
 ### Опис
 
@@ -30,4 +31,4 @@ public GearmanClient::timeout(): int
 
 ### Дивіться також
 
--   [GearmanClient::setTimeout()](gearmanclient.settimeout.md) - Встановлення часу очікування для операцій введення/виводу
+-   [GearmanClient::setTimeout()](gearmanclient.settimeout.md) \- Встановлення часу очікування для операцій введення/виводу

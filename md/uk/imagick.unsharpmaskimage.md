@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::unsharpMaskImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::unsharpMaskImage
 
@@ -15,7 +16,7 @@ Imagick::unsharpMaskImage — Різкість зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::unsharpMaskImage(    float $radius,    float $sigma,    float $amount,    float $threshold,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::unsharpMaskImage(    float $radius,    float $sigma,    float $amount,    float $threshold,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Різкість зображення. Ми згортаємо зображення за допомогою гаусівського оператора заданого радіусу та стандартного відхилення (сигма). Для отримання розумних результатів радіус має бути більшим за сигму. Вкажіть радіус 0, щоб Imagick::UnsharpMaskImage() поставив відповідний радіус автоматично.
@@ -42,7 +43,7 @@ public Imagick::unsharpMaskImage(    float $radius,    float $sigma,    float $a
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::unsharpMaskImage()****
+**Пример #1 Пример использования**Imagick::unsharpMaskImage()\*\*\*\*
 
 ```php
 <?php

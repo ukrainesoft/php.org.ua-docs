@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-lock-write.md: « cubridlockwrite
-  - function.cubrid-next-result.md: cubridnextresult »
+  - function.cubrid-lock-write.md: « cubrid\_lock\_write
+  - function.cubrid-next-result.md: cubrid\_next\_result »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridmovecursor
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_move\_cursor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridmovecursor
+# cubrid\_move\_cursor
 
 (PECL CUBRID >= 8.3.0)
 
-cubridmovecursor — Переміщує курсор у результаті
+cubrid\_move\_cursor — Переміщує курсор у результаті
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridmovecursor — Переміщує курсор у результаті
 cubrid_move_cursor(resource $req_identifier, int $offset, int $origin = CUBRID_CURSOR_CURRENT): bool
 ```
 
-Функція **cubridmovecursor()** використовується для переміщення поточного положення курсору `req_identifier` значення, задане в аргументі `offset`, у напрямку, заданому в аргументі `origin`. Щоб встановити аргумент `origin`, Ви можете використовувати **`CUBRID_CURSOR_FIRST`** для першої частини результату, **`CUBRID_CURSOR_CURRENT`** для поточного розташування результату або **`CUBRID_CURSOR_LAST`** для останньої частини результату. Якщо аргумент `origin` не вказано явно, тоді функція використовує **`CUBRID_CURSOR_CURRENT`** як значення за замовчуванням.
+Функция**cubrid\_move\_cursor()** використовується для переміщення поточного положення курсору `req_identifier`на значение, заданное в аргументе`offset`, в направлении, заданном в аргументе`origin`. Щоб встановити аргумент `origin`, Ви можете використовувати \*\*`CUBRID_CURSOR_FIRST`**для первой части результата,**`CUBRID_CURSOR_CURRENT`**для текущего местоположения результата или**`CUBRID_CURSOR_LAST`**для последней части результата. Если аргумент`origin`не указан явно, тогда функция использует**`CUBRID_CURSOR_CURRENT`\*\*в качестве значения по умолчанию.
 
 Якщо значення діапазону переміщення курсору перевищує допустиму межу, то курсор переміщається в наступне місце після допустимого діапазону курсору. Наприклад, якщо ви перемістите 20 одиниць в результаті розміром 10, то курсор переміститься на 11-е місце і поверне **`CUBRID_NO_MORE_DATA`**
 
@@ -34,15 +35,15 @@ cubrid_move_cursor(resource $req_identifier, int $offset, int $origin = CUBRID_C
 
 `origin`
 
-Місце, з якого ви бажаєте перемістити курсор: **`CUBRID_CURSOR_FIRST`** **`CUBRID_CURSOR_CURRENT`** або **`CUBRID_CURSOR_LAST`**
+Місце, з якого ви бажаєте перемістити курсор: **`CUBRID_CURSOR_FIRST`** **`CUBRID_CURSOR_CURRENT`**или**`CUBRID_CURSOR_LAST`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridmovecursor()****
+**Пример #1 Пример использования**cubrid\_move\_cursor()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {
@@ -92,4 +93,4 @@ array(2) {
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
+-   [cubrid\_execute()](function.cubrid-execute.md) \- Виконує підготовлений SQL-оператор

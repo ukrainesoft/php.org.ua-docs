@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.gender.md: « GenderGender
-  - gender-gender.construct.md: 'GenderGender::construct »'
+  - class.gender.md: « Gender\\Gender
+  - gender-gender.construct.md: 'Gender\\Gender::\_\_construct »'
   - index.md: PHP Manual
-  - class.gender.md: GenderGender
-title: 'GenderGender::connect'
+  - class.gender.md: Gender\\Gender
+title: 'Gender\\Gender::connect'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GenderGender::connect
+# Gender\\Gender::connect
 
 (PECL gender >= 0.6.0)
 
-GenderGender::connect — З'єднання із зовнішньою базою імен
+Gender\\Gender::connect — З'єднання із зовнішньою базою імен
 
 ### Опис
 
@@ -28,4 +29,4 @@ DSN для відкриття.
 
 ### Значення, що повертаються
 
-**`true`** або **`false`** залежно від успішності.
+\*\*`true`**либо**`false`\*\*в зависимости от успешности.

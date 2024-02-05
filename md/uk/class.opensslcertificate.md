@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.openssl-x509-verify.md: « opensslx509verify
+  - function.openssl-x509-verify.md: « openssl\_x509\_verify
   - class.opensslcertificatesigningrequest.md: OpenSSLCertificateSigningRequest »
   - index.md: PHP Manual
   - book.openssl.md: OpenSSL
 title: Клас OpenSSLCertificate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас OpenSSLCertificate
 
@@ -16,16 +17,11 @@ title: Клас OpenSSLCertificate
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class OpenSSLCertificate
-     
+     final
+     class OpenSSLCertificate
      {
    }
 ```

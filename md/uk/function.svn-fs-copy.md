@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.svn-fs-contents-changed.md: « svnфсcontentschanged
-  - function.svn-fs-delete.md: svnфсdelete »
+  - function.svn-fs-contents-changed.md: « svn\_fs\_contents\_changed
+  - function.svn-fs-delete.md: svn\_fs\_delete »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсcopy
+title: svn\_fs\_copy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсcopy
+# svn\_fs\_copy
 
 (PECL svn >= 0.2.0)
 
-svnфсcopy — Копіює файл або директорію
+svn\_fs\_copy — Копіює файл або директорію
 
 ### Опис
 
 ```methodsynopsis
-svn_fs_copy(    resource $from_root,    string $from_path,    resource $to_root,    string $to_path): bool
+svn_fs_copy(    resource $from_root,    string $from_path,    resource $to_root,    string $to_path): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Копіює файл або директорію.
 
@@ -36,7 +37,7 @@ svn_fs_copy(    resource $from_root,    string $from_path,    resource $to_root,
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 

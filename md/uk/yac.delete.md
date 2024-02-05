@@ -1,10 +1,11 @@
 ---
 navigation:
-  - yac.construct.md: '« Yac::construct'
+  - yac.construct.md: '« Yac::\_\_construct'
   - yac.dump.md: 'Yac::dump »'
   - index.md: PHP Manual
   - class.yac.md: Yac
 title: 'Yac::delete'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Yac::delete
 

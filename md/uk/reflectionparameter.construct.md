@@ -1,20 +1,21 @@
 ---
 navigation:
-  - reflectionparameter.clone.md: '« ReflectionParameter::clone'
+  - reflectionparameter.clone.md: '« ReflectionParameter::\_\_clone'
   - reflectionparameter.export.md: 'ReflectionParameter::export »'
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
-title: 'ReflectionParameter::construct'
+title: 'ReflectionParameter::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionParameter::construct
+# ReflectionParameter::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionParameter::construct — Конструктор
+ReflectionParameter::\_\_construct — Конструктор
 
 ### Опис
 
-public **ReflectionParameter::construct**(string|array|object `$function`, int|string `$param`
+public**ReflectionParameter::\_\_construct**(string|array|object`$function`, int|string`$param`) .
 
 Створює екземпляр [ReflectionParameter](class.reflectionparameter.md)
 
@@ -30,7 +31,7 @@ public **ReflectionParameter::construct**(string|array|object `$function`, int|s
 
 ### Приклади
 
-**Приклад #1 Використання класу [ReflectionParameter](class.reflectionparameter.md)**
+**Пример #1 Использования класса[ReflectionParameter](class.reflectionparameter.md)**
 
 ```php
 <?php
@@ -62,7 +63,7 @@ foreach ($reflect->getParameters() as $i => $param) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Function [ <user> function foo ] {
@@ -96,7 +97,7 @@ Function [ <user> function foo ] {
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md) - Отримує параметри
--   [ReflectionFunction::construct()](reflectionfunction.construct.md) - Конструктор класу ReflectionFunction
--   [ReflectionMethod::construct()](reflectionmethod.construct.md) - Конструктор класу ReflectionMethod
+-   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md) \- Отримує параметри
+-   [ReflectionFunction::\_\_construct()](reflectionfunction.construct.md) \- Конструктор класу ReflectionFunction
+-   [ReflectionMethod::\_\_construct()](reflectionmethod.construct.md) \- Конструктор класу ReflectionMethod
 -   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

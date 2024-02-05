@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-http-response.rawcookie.md: '« SwooleHttpResponse::rawcookie'
-  - swoole-http-response.status.md: 'SwooleHttpResponse::status »'
+  - swoole-http-response.rawcookie.md: '« Swoole\\Http\\Response::rawcookie'
+  - swoole-http-response.status.md: 'Swoole\\Http\\Response::status »'
   - index.md: PHP Manual
-  - class.swoole-http-response.md: SwooleHttpResponse
-title: 'SwooleHttpResponse::sendfile'
+  - class.swoole-http-response.md: Swoole\\Http\\Response
+title: 'Swoole\\Http\\Response::sendfile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpResponse::sendfile
+# Swoole\\Http\\Response::sendfile
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpResponse::sendfile — Надсилає файл через HTTP-відповідь
+Swoole\\Http\\Response::sendfile — Надсилає файл через HTTP-відповідь
 
 ### Опис
 

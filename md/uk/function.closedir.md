@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.dir.md: Функції для роботи з каталогами
 title: closedir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # closedir
 
@@ -32,7 +33,7 @@ closedir(?resource $dir_handle = null): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **closedir()****
+**Пример #1 Пример использования**closedir()\*\*\*\*
 
 ```php
 <?php

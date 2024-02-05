@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.recode-string.md: « recodestring
-  - refs.utilspec.image.md: Обработка и генерация изображений »
+  - function.recode-string.md: « recode\_string
+  - refs.utilspec.image.md: Обробка та генерація зображень »
   - index.md: PHP Manual
-  - ref.recode.md: Функции Recode
+  - ref.recode.md: Функції Recode
 title: recode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # recode
 
 (PHP 4, PHP 5, PHP 7 < 7.4.0)
 
-recode - Псевдонім [recodestring()](function.recode-string.md)
+recode — Псевдоним[recode\_string()](function.recode-string.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [recodestring()](function.recode-string.md)
+Функция — псевдоним функции:[recode\_string()](function.recode-string.md)

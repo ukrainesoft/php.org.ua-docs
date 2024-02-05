@@ -4,23 +4,24 @@ navigation:
   - filteriterator.current.md: 'FilterIterator::current »'
   - index.md: PHP Manual
   - class.filteriterator.md: FilterIterator
-title: 'FilterIterator::construct'
+title: 'FilterIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# FilterIterator::construct
+# FilterIterator::\_\_construct
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-FilterIterator::construct - Конструктор класу FilterIterator
+FilterIterator::\_\_construct - Конструктор класу FilterIterator
 
 ### Опис
 
-public **FilterIterator::construct**[Iterator](class.iterator.md) `$iterator`
+public**FilterIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`) .
 
-Створює об'єкт класу [FilterIterator](class.filteriterator.md), Що складається з ітератора, переданого в параметрі `iterator`, та фільтрів, що застосовуються до нього.
+Створює об'єкт класу [FilterIterator](class.filteriterator.md), що складається з ітератора, переданого у параметрі `iterator`, та фільтрів, що застосовуються до нього.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ public **FilterIterator::construct**[Iterator](class.iterator.md) `$iterator`
 
 ### Дивіться також
 
--   [LimitIterator::construct()](limititerator.construct.md) - Конструктор класу LimitIterator
+-   [LimitIterator::\_\_construct()](limititerator.construct.md) \- Конструктор класу LimitIterator

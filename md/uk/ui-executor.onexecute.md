@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-executor.kill.md: '« UIExecutor::kill'
-  - ui-executor.setinterval.md: 'ОЙExecutor::setInterval »'
+  - ui-executor.kill.md: '« UI\\Executor::kill'
+  - ui-executor.setinterval.md: 'UI\\Executor::setInterval »'
   - index.md: PHP Manual
-  - class.ui-executor.md: ОЙExecutor
-title: 'ОЙExecutor::onExecute'
+  - class.ui-executor.md: UI\\Executor
+title: 'UI\\Executor::onExecute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙExecutor::onExecute
+# UI\\Executor::onExecute
 
 (UI 2.0.0)
 
-ОЙExecutor::onExecute - Callback-функція виконання
+UI\\Executor::onExecute - Callback-функція виконання
 
 ### Опис
 

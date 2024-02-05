@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-session.createschema.md: '« Session::createSchema'
   - mysql-xdevapi-session.generateuuid.md: 'Session::generateUUID »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::dropSchema'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::dropSchema
 
@@ -28,13 +29,13 @@ public mysql_xdevapi\Session::dropSchema(string $schema_name): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо схема видалена, або **`false`** якщо вона не існує або не може бути вилучена.
+**`true`**, якщо схема видалена, або **`false`** якщо вона не існує або не може бути видалена.
 
-Генерується помилка рівня \*\*`E_WARNING`\*\*якщо схема не існує.
+Генерируется ошибка уровня\*\*`E_WARNING`\*\*якщо схема не існує.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::dropSchema()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::dropSchema()\*\*\*\*
 
 ```php
 <?php

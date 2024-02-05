@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mqseries-close.md: « mqseriesclose
-  - function.mqseries-conn.md: mqseriesconn »
+  - function.mqseries-close.md: « mqseries\_close
+  - function.mqseries-conn.md: mqseries\_conn »
   - index.md: PHP Manual
-  - ref.mqseries.md: Функции mqseries
-title: mqseriescmit
+  - ref.mqseries.md: Функції mqseries
+title: mqseries\_cmit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mqseriescmit
+# mqseries\_cmit
 
 (PECL mqseries >= 0.10.0)
 
-mqseriescmit — MQSeries MQCMIT
+mqseries\_cmit — MQSeries MQCMIT
 
 ### Опис
 
@@ -18,7 +19,7 @@ mqseriescmit — MQSeries MQCMIT
 mqseries_cmit(resource $hconn, resource &$compCode, resource &$reason): void
 ```
 
-Функція **mqseriescmit()** (MQCMIT) фіксує транзакцію. Тобто. всі повідомлення, розміщені в чергу з останньої точки синхронізації, стають постійними. Усі повідомлення, прочитані з черги з останньої точки синхронізації, видаляються з неї.
+Функция**mqseries\_cmit()** (MQCMIT) фіксує транзакцію. Тобто. всі повідомлення, розміщені в чергу з останньої точки синхронізації, стають постійними. Усі повідомлення, прочитані з черги з останньої точки синхронізації, видаляються з неї.
 
 ### Список параметрів
 
@@ -42,7 +43,7 @@ mqseries_cmit(resource $hconn, resource &$compCode, resource &$reason): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseriescmit()****
+**Пример #1 Пример использования**mqseries\_cmit()\*\*\*\*
 
 ```php
 <?php
@@ -55,13 +56,13 @@ mqseries_cmit(resource $hconn, resource &$compCode, resource &$reason): void
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> [mqseriesback()](function.mqseries-back.md) не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
+> [mqseries\_back()](function.mqseries-back.md) не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
 
 ### Дивіться також
 
--   [mqseriesbegin()](function.mqseries-begin.md) - MQseries MQBEGIN
--   [mqseriesback()](function.mqseries-back.md) - MQSeries MQBACK
--   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
+-   [mqseries\_begin()](function.mqseries-begin.md) \- MQseries MQBEGIN
+-   [mqseries\_back()](function.mqseries-back.md) \- MQSeries MQBACK
+-   [mqseries\_conn()](function.mqseries-conn.md) \- MQSeries MQCONN
+-   [mqseries\_connx()](function.mqseries-connx.md) \- MQSeries MQCONNX

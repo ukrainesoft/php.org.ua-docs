@@ -3,8 +3,9 @@ navigation:
   - function.jdtogregorian.md: « jdtogregorian
   - function.jdtojulian.md: jdtojulian »
   - index.md: PHP Manual
-  - ref.calendar.md: Календарь
+  - ref.calendar.md: Календар
 title: jdtojewish
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # jdtojewish
 
@@ -22,17 +23,17 @@ jdtojewish(int $julian_day, bool $hebrew = false, int $flags = 0): string
 
 ### Список параметрів
 
-`julianday`
+`julian_day`
 
 Номер дня у юліанському літочисленні у вигляді цілого числа
 
 `hebrew`
 
-Якщо аргумент `hebrew` встановлений в **`true`**, дату буде повернено у вигляді закодованого рядка ISO-8859-8 у єврейському форматі, заданому аргументом `flags`
+Якщо аргумент `hebrew`установлен в\*\*`true`\*\*, дату буде повернено у вигляді закодованого рядка ISO-8859-8 у єврейському форматі, заданому аргументом `flags`
 
 `flags`
 
-Бітова маска може складатися з: **`CAL_JEWISH_ADD_ALAFIM_GERESH`** **`CAL_JEWISH_ADD_ALAFIM`** і **`CAL_JEWISH_ADD_GERESHAYIM`**
+Бітова маска може складатися з: **`CAL_JEWISH_ADD_ALAFIM_GERESH`** **`CAL_JEWISH_ADD_ALAFIM`**и**`CAL_JEWISH_ADD_GERESHAYIM`**
 
 ### Значення, що повертаються
 
@@ -40,7 +41,7 @@ jdtojewish(int $julian_day, bool $hebrew = false, int $flags = 0): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **jdtojewish()****
+**Пример #1 Пример использования**jdtojewish()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ echo jdtojewish($jd, true), PHP_EOL,
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 ב חשון התשסג
@@ -63,5 +64,5 @@ echo jdtojewish($jd, true), PHP_EOL,
 
 ### Дивіться також
 
--   [jewishtojd()](function.jewishtojd.md) - Переказує дату за єврейським календарем у число днів у юліанському літочисленні
--   [calfromjd()](function.cal-from-jd.md) - Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
+-   [jewishtojd()](function.jewishtojd.md) \- Переказує дату за єврейським календарем у число днів у юліанському літочисленні
+-   [cal\_from\_jd()](function.cal-from-jd.md) \- Перетворює дату, задану в юліанському календарі, на дату вказаного календаря

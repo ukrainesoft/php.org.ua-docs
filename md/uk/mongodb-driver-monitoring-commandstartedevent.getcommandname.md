@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandstartedevent.getcommand.md: '« MongoDBDriverMonitoringCommandStartedEvent::getCommand'
-  - mongodb-driver-monitoring-commandstartedevent.getdatabasename.md: 'MongoDBDriverMonitoringCommandStartedEvent::getDatabaseName »'
+  - mongodb-driver-monitoring-commandstartedevent.getcommand.md: '« MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getCommand'
+  - mongodb-driver-monitoring-commandstartedevent.getdatabasename.md: 'MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getDatabaseName »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandstartedevent.md: MongoDBDriverMonitoringCommandStartedEvent
-title: 'MongoDBDriverMonitoringCommandStartedEvent::getCommandName'
+  - class.mongodb-driver-monitoring-commandstartedevent.md: MongoDB\\Driver\\Monitoring\\CommandStartedEvent
+title: 'MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getCommandName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringCommandStartedEvent::getCommandName
+# MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getCommandName
 
 (mongodb >=1.3.0)
 
-MongoDBDriverMonitoringCommandStartedEvent::getCommandName — Повертає ім'я команди
+MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getCommandName — Повертає ім'я команди
 
 ### Опис
 
@@ -30,7 +31,7 @@ final public MongoDB\Driver\Monitoring\CommandStartedEvent::getCommandName(): st
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 

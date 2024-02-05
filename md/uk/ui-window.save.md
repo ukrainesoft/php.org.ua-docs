@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-window.open.md: '« UIWindow::open'
-  - ui-window.setborders.md: 'ОЙWindow::setBorders »'
+  - ui-window.open.md: '« UI\\Window::open'
+  - ui-window.setborders.md: 'UI\\Window::setBorders »'
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::save'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::save'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::save
+# UI\\Window::save
 
 (UI 0.9.9)
 
-ОЙWindow::save — Зберегти діалогове вікно
+UI\\Window::save — Зберегти діалогове вікно
 
 ### Опис
 

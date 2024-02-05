@@ -1,10 +1,11 @@
 ---
 navigation:
-  - domcharacterdata.replacedata.md: '« DOMCharacterData::replaceData'
+  - domcharacterdata.replacewith.md: '« DOMCharacterData::replaceWith'
   - class.domchildnode.md: DOMChildNode »
   - index.md: PHP Manual
   - class.domcharacterdata.md: DOMCharacterData
 title: 'DOMCharacterData::substringData'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMCharacterData::substringData
 
@@ -32,17 +33,17 @@ public DOMCharacterData::substringData(int $offset, int $count): string|false
 
 ### Значення, що повертаються
 
-Вказаний підрядок. Якщо `offset` і `count` у сумі перевищують довжину рядка даних вузла, будуть витягнуті всі символи остаточно рядка.
+Зазначений підрядок. Якщо `offset`и`count` у сумі перевищують довжину рядка даних вузла, будуть витягнуті всі символи остаточно рядка.
 
 ### Помилки
 
 **`DOM_INDEX_SIZE_ERR`**
 
-Виникає, якщо `offset` менше нуля або більше кількості 16-бітних блоків в області даних або якщо `count` має від'ємне значення.
+Виникає, якщо `offset` менше нуля або більше кількості 16-бітних блоків в області даних, або якщо `count` має від'ємне значення.
 
 ### Дивіться також
 
--   [DOMCharacterData::appendData()](domcharacterdata.appenddata.md) - Додати рядок до кінця символьних даних вузла
--   [DOMCharacterData::deleteData()](domcharacterdata.deletedata.md) - Видалити діапазон символів із вузла
--   [DOMCharacterData::insertData()](domcharacterdata.insertdata.md) - Вставити рядок у вказану 16-бітну позицію
--   [DOMCharacterData::replaceData()](domcharacterdata.replacedata.md) - Замінити підрядок у вузлі типу DOMCharacterData
+-   [DOMCharacterData::appendData()](domcharacterdata.appenddata.md) \- Додати рядок до кінця символьних даних вузла
+-   [DOMCharacterData::deleteData()](domcharacterdata.deletedata.md) \- Видалити діапазон символів із вузла
+-   [DOMCharacterData::insertData()](domcharacterdata.insertdata.md) \- Вставити рядок у вказану 16-бітну позицію
+-   [DOMCharacterData::replaceData()](domcharacterdata.replacedata.md) \- Замінити підрядок у вузлі типу DOMCharacterData

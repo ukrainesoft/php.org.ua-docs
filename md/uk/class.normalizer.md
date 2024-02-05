@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Клас Normalizer
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Normalizer
 
@@ -27,14 +28,62 @@ title: Клас Normalizer
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      class Normalizer
-     
+     class Normalizer
      {
+
+    /* Константы */
+    
+     public
+     const
+     int
+      FORM_D;
+
+    public
+     const
+     int
+      NFD;
+
+    public
+     const
+     int
+      FORM_KD;
+
+    public
+     const
+     int
+      NFKD;
+
+    public
+     const
+     int
+      FORM_C;
+
+    public
+     const
+     int
+      NFC;
+
+    public
+     const
+     int
+      FORM_KC;
+
+    public
+     const
+     int
+      NFKC;
+
+    public
+     const
+     int
+      FORM_KC_CF;
+
+    public
+     const
+     int
+      NFKC_CF;
+
 
     /* Методы */
     
@@ -49,39 +98,49 @@ public static normalize(string $string, int $form = Normalizer::FORM_C): string|
 
 Дані константи задають форму нормалізації, що використовується нормалізатором:
 
-**`Normalizer::FORM_C`** (int)
+**`Normalizer::FORM_C`**
 
 Форма нормалізації C (NFC) - канонічне розкладання, після якого канонічна збірка
 
-**`Normalizer::FORM_D`** (int)
+**`Normalizer::FORM_D`**
 
 Форма нормалізації D (NFD) - Канонічне розкладання
 
-**`Normalizer::FORM_KC`** (int)
+**`Normalizer::NFD`**
+
+**`Normalizer::FORM_KC`**
 
 Форма нормалізації KC (NFKC) – Сумісне розкладання, після якого канонічна збірка
 
-**`Normalizer::FORM_KD`** (int)
+**`Normalizer::NFKC`**
+
+**`Normalizer::FORM_KC_CF`**
+
+**`Normalizer::FORM_KD`**
 
 Форма нормалізації KD (NFKD) - Сумісне розкладання
 
-**`Normalizer::NONE`** (int)
+**`Normalizer::NFKD`**
 
-Без розкладання/складання
+**`Normalizer::NFC`**
 
-**`Normalizer::OPTION_DEFAULT`** (int)
-
-Звичайні налаштування нормалізації
+**`Normalizer::NFKC_CF`**
 
 ## Дивіться також
 
--   [»  Нормализация Unicode](http://unicode.org/reports/tr15/)
--   [»  Нормализация Unicode. FAQ](http://unicode.org/faq/normalization.md)
--   [»  ICU Руководство пользователя - нормализация](https://unicode-org.github.io/icu/userguide/transforms/normalization/)
--   [»  ICU Описание API - нормализация](http://www.icu-project.org/apiref/icu4c/unorm_8h.md)
+-   [»  Нормалізація Unicode](http://unicode.org/reports/tr15/)
+-   [» Нормалізація Unicode. FAQ](http://unicode.org/faq/normalization.md)
+-   [»  ICU Посібник користувача - нормалізація](https://unicode-org.github.io/icu/userguide/transforms/normalization/)
+-   [»  ICU Опис API - нормалізація](https://unicode-org.github.io/icu-docs/apidoc/dev/icu4c/unorm_8h.md)
+
+## список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.0.0 | Константа\*\*`Normalizer::NONE`\*\* було видалено. |
 
 ## Зміст
 
--   [Normalizer::getRawDecomposition](normalizer.getrawdecomposition.md) — Витягує властивість DecompositionMapping для заданого символу UTF-8
--   [Normalizer::isNormalized](normalizer.isnormalized.md) — Перевірити, чи переданий рядок відповідає заданій формі нормалізації
--   [Normalizer::normalize](normalizer.normalize.md) - Нормалізація рядка
+-   [Normalizer::getRawDecomposition](normalizer.getrawdecomposition.md)— Витягує властивість Decomposition\_Mapping для заданого символу UTF-8
+-   [Normalizer::isNormalized](normalizer.isnormalized.md)— Перевірити, чи переданий рядок відповідає заданій формі нормалізації
+-   [Normalizer::normalize](normalizer.normalize.md) \- Нормалізація рядка

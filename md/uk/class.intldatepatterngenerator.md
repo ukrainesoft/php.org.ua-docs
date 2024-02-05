@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Клас IntlDatePatternGenerator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас IntlDatePatternGenerator
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -18,20 +19,15 @@ title: Клас IntlDatePatternGenerator
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      class IntlDatePatternGenerator
-     
+     class IntlDatePatternGenerator
      {
 
     /* Методы */
     
-   public __construct(string $locale = null)
+   public __construct(?string $locale = null)
 
-    public static create(string $locale = null): ?IntlDatePatternGenerator
+    public static create(?string $locale = null): ?IntlDatePatternGenerator
 public getBestPattern(string $skeleton): string|false
 
    }
@@ -39,5 +35,5 @@ public getBestPattern(string $skeleton): string|false
 
 ## Зміст
 
--   [IntlDatePatternGenerator::create](intldatepatterngenerator.create.md) — Створює новий екземпляр IntlDatePatternGenerator
--   [IntlDatePatternGenerator::getBestPattern](intldatepatterngenerator.getbestpattern.md) — Визначає найбільш підходящий формат дати/часу
+-   [IntlDatePatternGenerator::create](intldatepatterngenerator.create.md)— Створює новий екземпляр IntlDatePatternGenerator
+-   [IntlDatePatternGenerator::getBestPattern](intldatepatterngenerator.getbestpattern.md)— Визначає найбільш підходящий формат дати/часу

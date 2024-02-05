@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-close.md: « pgclose
-  - function.pg-connect.md: пгconnect »
+  - function.pg-close.md: « pg\_close
+  - function.pg-connect.md: pg\_connect »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгconnectpoll
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_connect\_poll
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгconnectpoll
+# pg\_connect\_poll
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-пгconnectpoll — Опитати статус спроби асинхронного з'єднання PostgreSQL.
+pg\_connect\_poll — Опитати статус спроби асинхронного з'єднання PostgreSQL.
 
 ### Опис
 
@@ -18,20 +19,20 @@ title: пгconnectpoll
 pg_connect_poll(PgSql\Connection $connection): int
 ```
 
-**пгconnectpoll()** опитує статус з'єднання PostgreSQL, створеного викликом функції [пгconnect()](function.pg-connect.md) з параметром **`PGSQL_CONNECT_ASYNC`**
+**pg\_connect\_poll()** опитує статус з'єднання PostgreSQL, створеного викликом функції [pg\_connect()](function.pg-connect.md)с параметром\*\*`PGSQL_CONNECT_ASYNC`\*\*
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
-Повертає **`PGSQL_POLLING_FAILED`** **`PGSQL_POLLING_READING`** **`PGSQL_POLLING_WRITING`** **`PGSQL_POLLING_OK`** або **`PGSQL_POLLING_ACTIVE`**
+Повертає **`PGSQL_POLLING_FAILED`** **`PGSQL_POLLING_READING`** **`PGSQL_POLLING_WRITING`** **`PGSQL_POLLING_OK`**или**`PGSQL_POLLING_ACTIVE`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

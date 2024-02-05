@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.mqseries-inq.md: « mqseriesinq
-  - function.mqseries-put1.md: mqseriesput1 »
+  - function.mqseries-inq.md: « mqseries\_inq
+  - function.mqseries-put1.md: mqseries\_put1 »
   - index.md: PHP Manual
-  - ref.mqseries.md: Функции mqseries
-title: mqseriesopen
+  - ref.mqseries.md: Функції mqseries
+title: mqseries\_open
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mqseriesopen
+# mqseries\_open
 
 (PECL mqseries >= 0.10.0)
 
-mqseriesopen — MQSeries MQOPEN
+mqseries\_open — MQSeries MQOPEN
 
 ### Опис
 
 ```methodsynopsis
-mqseries_open(    resource $hconn,    array &$objDesc,    int $option,    resource &$hobj,    resource &$compCode,    resource &$reason): void
+mqseries_open(    resource $hconn,    array &$objDesc,    int $option,    resource &$hobj,    resource &$compCode,    resource &$reason): void
 ```
 
-Функція **mqseriesopen()** (MQOPEN) встановлює з'єднання з об'єктом.
+Функция**mqseries\_open()** (MQOPEN) встановлює з'єднання з об'єктом.
 
 ### Список параметрів
 
@@ -56,7 +57,7 @@ mqseries_open(    resource $hconn,    array &$objDesc,    int $option,    resour
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseriesopen()****
+**Пример #1 Пример использования**mqseries\_open()\*\*\*\*
 
 ```php
 <?php
@@ -77,4 +78,4 @@ mqseries_open(    resource $hconn,    array &$objDesc,    int $option,    resour
 
 ### Дивіться також
 
--   [mqseriesclose()](function.mqseries-close.md) - MQSeries MQCLOSE
+-   [mqseries\_close()](function.mqseries-close.md) \- MQSeries MQCLOSE

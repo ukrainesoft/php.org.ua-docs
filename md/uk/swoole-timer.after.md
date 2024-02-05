@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-timer.md: « SwooleTimer
-  - swoole-timer.clear.md: 'SwooleTimer::clear »'
+  - class.swoole-timer.md: « Swoole\\Timer
+  - swoole-timer.clear.md: 'Swoole\\Timer::clear »'
   - index.md: PHP Manual
-  - class.swoole-timer.md: SwooleTimer
-title: 'SwooleTimer::after'
+  - class.swoole-timer.md: Swoole\\Timer
+title: 'Swoole\\Timer::after'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTimer::after
+# Swoole\\Timer::after
 
 (PECL swoole >= 1.9.0)
 
-SwooleTimer::after - Запускає callback-функцію через певний проміжок часу
+Swoole\\Timer::after - Запускає callback-функцію через певний проміжок часу
 
 ### Опис
 

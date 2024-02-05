@@ -1,10 +1,11 @@
 ---
 navigation:
   - function.fgets.md: « fgets
-  - function.file-exists.md: fileexists »
+  - function.file-exists.md: file\_exists »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: fgetss
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # fgetss
 
@@ -14,7 +15,7 @@ fgetss — Читає рядок із файлу та видаляє HTML-тег
 
 **Увага**
 
-Ця функція оголошена *застарілої*, починаючи з PHP 7.3.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.3.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -22,7 +23,7 @@ fgetss — Читає рядок із файлу та видаляє HTML-тег
 fgetss(resource $handle, int $length = ?, string $allowable_tags = ?): string
 ```
 
-Функція ідентична функції [fgets()](function.fgets.md), за винятком того, що **fgetss()** видаляє будь-які NULL-байти, HTML- та PHP-теги з прочитаного рядка. Функція зберігає стан синтаксичного аналізу від виклику до виклику і тому не еквівалентна виклику [striptags()](function.strip-tags.md) для значення, що повертається [fgets()](function.fgets.md)
+Функція ідентична функції [fgets()](function.fgets.md), за винятком того, що **fgetss()** видаляє будь-які NULL-байти, HTML- та PHP-теги з прочитаного рядка. Функція зберігає стан синтаксичного аналізу від виклику до виклику і тому не еквівалентна виклику [strip\_tags()](function.strip-tags.md) для значення, що повертається [fgets()](function.fgets.md)
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ fgetss(resource $handle, int $length = ?, string $allowable_tags = ?): string
 
 `allowable_tags`
 
-Можна використовувати третій необов'язковий параметр, щоб вказати теги, які не потрібно вирізати. Дивіться опис [striptags()](function.strip-tags.md) для більш детальної інформації про `allowable_tags`
+Можна використовувати третій необов'язковий параметр, щоб вказати теги, які не потрібно вирізати. Дивіться опис [strip\_tags()](function.strip-tags.md) для більш детальної інформації про `allowable_tags`
 
 ### Значення, що повертаються
 
@@ -69,7 +70,7 @@ if ($handle) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Добро пожаловать! Сегодня .
@@ -79,14 +80,14 @@ if ($handle) {
 
 ### Примітки
 
-> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків під час читання або створення файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.md#ini.auto-detect-line-endings) може допомогти вирішити проблему.
+> **Зауваження**: Якщо виникають проблеми з розпізнаванням PHP кінців рядків під час читання або створення файлів на Macintosh-сумісному комп'ютері, увімкнення опції [auto\_detect\_line\_endings](filesystem.configuration.md#ini.auto-detect-line-endings)может помочь решить проблему.
 
 ### Дивіться також
 
--   [fgets()](function.fgets.md) - Читає рядок із файлу
--   [fopen()](function.fopen.md) - Відкриває файл або URL
--   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
--   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [striptags()](function.strip-tags.md) - Видаляє теги HTML та PHP з рядка
--   [SplFileObject::fgetss()](splfileobject.fgetss.md) - Отримати рядок із файлу та видалити теги HTML
--   Фільтр [string.striptags](filters.string.md#filters.string.strip_tags)
+-   [fgets()](function.fgets.md) \- Читає рядок із файлу
+-   [fopen()](function.fopen.md) \- Відкриває файл або URL
+-   [popen()](function.popen.md) \- Відкриває файловий покажчик процесу
+-   [fsockopen()](function.fsockopen.md) \- Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [strip\_tags()](function.strip-tags.md) \- Видаляє теги HTML та PHP з рядка
+-   [SplFileObject::fgetss()](splfileobject.fgetss.md) \- Отримати рядок із файлу та видалити теги HTML
+-   Фильтр[string.strip\_tags](filters.string.md#filters.string.strip_tags)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-cfg-var.md: « getcfgvar
-  - function.get-defined-constants.md: getdefinedconstants »
+  - function.get-cfg-var.md: « get\_cfg\_var
+  - function.get-defined-constants.md: get\_defined\_constants »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: getcurrentuser
+title: get\_current\_user
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getcurrentuser
+# get\_current\_user
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-getcurrentuser — Отримує ім'я власника поточного скрипту PHP
+get\_current\_user — Отримує ім'я власника поточного скрипту PHP
 
 ### Опис
 
@@ -26,11 +27,11 @@ get_current_user(): string
 
 ### Значення, що повертаються
 
-Повертає ім'я користувача у вигляді рядка.
+Повертає ім'я користувача як рядок.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getcurrentuser()****
+**Пример #1 Пример использования**get\_current\_user()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ echo 'Текущий владелец скрипта: ' . get_current_user();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Текущий владелец скрипта: SYSTEM
@@ -46,8 +47,8 @@ echo 'Текущий владелец скрипта: ' . get_current_user();
 
 ### Дивіться також
 
--   [getmyuid()](function.getmyuid.md) - Отримання UID власника скрипта PHP
--   [getmygid()](function.getmygid.md) - Отримати GID власника скрипта PHP
--   [getmypid()](function.getmypid.md) - Отримання ID процесу PHP
--   [getmyinode()](function.getmyinode.md) - Отримує значення inode поточного скрипту
--   [getlastmod()](function.getlastmod.md) - Отримує час останньої модифікації сторінки
+-   [getmyuid()](function.getmyuid.md) \- Отримання UID власника скрипта PHP
+-   [getmygid()](function.getmygid.md) \- Отримати GID власника скрипта PHP
+-   [getmypid()](function.getmypid.md) \- Отримання ID процесу PHP
+-   [getmyinode()](function.getmyinode.md) \- Отримує значення inode поточного скрипту
+-   [getlastmod()](function.getlastmod.md) \- Отримує час останньої модифікації сторінки

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: chown
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # chown
 
@@ -32,7 +33,7 @@ chown(string $filename, string|int $user): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -56,7 +57,7 @@ print_r(posix_getpwuid($stat['uid']));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -79,5 +80,5 @@ Array
 
 ### Дивіться також
 
--   [chmod()](function.chmod.md) - Змінює режим доступу до файлу
--   [chgrp()](function.chgrp.md) - Змінює групу файлу
+-   [chmod()](function.chmod.md) \- Змінює режим доступу до файлу
+-   [chgrp()](function.chgrp.md) \- Змінює групу файлу

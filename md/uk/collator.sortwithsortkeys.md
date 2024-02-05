@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.collator.md: Collator
 title: 'Collator::sortWithSortKeys'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collator::sortWithSortKeys
 
-# collatorsortwithsortkeys
+# collator\_sort\_with\_sort\_keys
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Collator::sortWithSortKeys -- collatorsortwithsortkeys — Сортує масив з використанням вказаного Collator та ключів сортування
+Collator::sortWithSortKeys -- collator\_sort\_with\_sort\_keys — Сортує масив з використанням вказаного Collator та ключів сортування
 
 ### Опис
 
@@ -28,7 +29,7 @@ public Collator::sortWithSortKeys(array &$array): bool
 collator_sort_with_sort_keys(Collator $object, array &$array): bool
 ```
 
-Те саме, що і [collatorsort()](collator.sort.md), але використовує ключі сортування ICU, створені ucolgetSortKey() збільшення швидкості роботи з великими масивами.
+Те саме, що і [collator\_sort()](collator.sort.md), але використовує ключі сортування ICU, створені ucol\_getSortKey() збільшення швидкості роботи з великими масивами.
 
 ### Список параметрів
 
@@ -42,11 +43,11 @@ collator_sort_with_sort_keys(Collator $object, array &$array): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **collatorsortwithsortkeys()****
+**Пример #1 Пример использования**collator\_sort\_with\_sort\_keys()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_export( $arr );
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array (
@@ -71,5 +72,5 @@ array (
 ### Дивіться також
 
 -   [Константи](class.collator.md#intl.collator-constants) [Collator](class.collator.md)
--   [collatorsort()](collator.sort.md) - Сортує масив із використанням зазначеного засобу сортування
--   [collatorasort()](collator.asort.md) - Сортує масив із збереженням асоціації індексу
+-   [collator\_sort()](collator.sort.md) \- Сортує масив із використанням зазначеного засобу сортування
+-   [collator\_asort()](collator.asort.md) \- Сортує масив із збереженням асоціації індексу

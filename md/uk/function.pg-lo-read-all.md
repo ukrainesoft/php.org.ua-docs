@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-lo-open.md: « pgлоopen
-  - function.pg-lo-read.md: пглоread »
+  - function.pg-lo-open.md: « pg\_lo\_open
+  - function.pg-lo-read.md: pg\_lo\_read »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пглоreadall
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_lo\_read\_all
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пглоreadall
+# pg\_lo\_read\_all
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пглоreadall — Читає вміст великого об'єкта і надсилає його безпосередньо до браузера.
+pg\_lo\_read\_all — Читає вміст великого об'єкта і надсилає його безпосередньо до браузера.
 
 ### Опис
 
@@ -18,19 +19,19 @@ title: пглоreadall
 pg_lo_read_all(PgSql\Lob $lob): int
 ```
 
-**пглоreadall()** читає великий об'єкт і надсилає дані безпосередньо в браузер після відправлення всіх необхідних заголовків. Використовується в основному для пересилання бінарних даних, таких як зображення або звук.
+**pg\_lo\_read\_all()** читає великий об'єкт і надсилає дані безпосередньо в браузер після відправлення всіх необхідних заголовків. Використовується в основному для пересилання бінарних даних, таких як зображення або звук.
 
 Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Колишня назва функції: **пгloreadall()**
+> Прежнее название функции:**pg\_loreadall()**
 
 ### Список параметрів
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
+An[PgSql\\Lob](class.pgsql-lob.md)instance, returned by[pg\_lo\_open()](function.pg-lo-open.md)
 
 ### Значення, що повертаються
 
@@ -38,13 +39,13 @@ pg_lo_read_all(PgSql\Lob $lob): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`lob` тепер чекає екземпляр [PgSql\\Lob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пглоreadall()****
+**Пример #1 Пример использования**pg\_lo\_read\_all()\*\*\*\*
 
 ```php
 <?php
@@ -60,4 +61,4 @@ pg_lo_read_all(PgSql\Lob $lob): int
 
 ### Дивіться також
 
--   [пглоread()](function.pg-lo-read.md) - Читає дані великого об'єкту
+-   [pg\_lo\_read()](function.pg-lo-read.md) \- Читає дані великого об'єкту

@@ -3,28 +3,29 @@ navigation:
   - migration81.new-classes.md: « Нові класи та інтерфейси
   - migration81.constants.md: Нові глобальні константи »
   - index.md: PHP Manual
-  - migration81.md: Миграция с PHP 8.0.x на PHP 8.1.x
+  - migration81.md: Міграція з PHP 8.0.x на PHP 8.1.x
 title: Нові функції
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Нові функції
 
 ### Ядро PHP
 
--   [arrayісlist()](function.array-is-list.md)
+-   [array\_is\_list()](function.array-is-list.md)
 
-### ДД
+### GD
 
 -   [imagecreatefromavif()](function.imagecreatefromavif.md)
 -   [imageavif()](function.imageavif.md)
 
 ### MySQLi
 
--   [mysqliresult::fetchcolumn()](mysqli-result.fetch-column.md)
--   [mysqlifetchcolumn()](mysqli-result.fetch-column.md)
+-   [mysqli\_result::fetch\_column()](mysqli-result.fetch-column.md)
+-   [mysqli\_fetch\_column()](mysqli-result.fetch-column.md)
 
 ### Управління процесами
 
--   [pcntlrfork()](function.pcntl-rfork.md)
+-   [pcntl\_rfork()](function.pcntl-rfork.md)
 
 ### Reflection
 
@@ -39,26 +40,26 @@ title: Нові функції
 
 #### XChaCha20
 
--   [sodiumcryptostreamxchacha20()](function.sodium-crypto-stream-xchacha20.md)
--   [sodiumcryptostreamxchacha20keygen()](function.sodium-crypto-stream-xchacha20-keygen.md)
--   [sodiumcryptostreamxchacha20xor()](function.sodium-crypto-stream-xchacha20-xor.md)
+-   [sodium\_crypto\_stream\_xchacha20()](function.sodium-crypto-stream-xchacha20.md)
+-   [sodium\_crypto\_stream\_xchacha20\_keygen()](function.sodium-crypto-stream-xchacha20-keygen.md)
+-   [sodium\_crypto\_stream\_xchacha20\_xor()](function.sodium-crypto-stream-xchacha20-xor.md)
 
 #### Ristretto255
 
 Функції Ristretto255 доступні з libsodium 1.0.18.
 
--   [sodiumcryptocoreristretto255add()](function.sodium-crypto-core-ristretto255-add.md)
--   [sodiumcryptocoreristretto255fromhash()](function.sodium-crypto-core-ristretto255-from-hash.md)
--   [sodiumcryptocoreristretto255ісvalidpoint()](function.sodium-crypto-core-ristretto255-is-valid-point.md)
--   [sodiumcryptocoreristretto255random()](function.sodium-crypto-core-ristretto255-random.md)
--   [sodiumcryptocoreristretto255scalaradd()](function.sodium-crypto-core-ristretto255-scalar-add.md)
--   [sodiumcryptocoreristretto255scalarcomplement()](function.sodium-crypto-core-ristretto255-scalar-complement.md)
--   [sodiumcryptocoreristretto255scalarinvert()](function.sodium-crypto-core-ristretto255-scalar-invert.md)
--   [sodiumcryptocoreristretto255scalarmul()](function.sodium-crypto-core-ristretto255-scalar-mul.md)
--   [sodiumcryptocoreristretto255scalarnegate()](function.sodium-crypto-core-ristretto255-scalar-negate.md)
--   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.md)
--   [sodiumcryptocoreristretto255scalarreduce()](function.sodium-crypto-core-ristretto255-scalar-reduce.md)
--   [sodiumcryptocoreristretto255scalarsub()](function.sodium-crypto-core-ristretto255-scalar-sub.md)
--   [sodiumcryptocoreristretto255sub()](function.sodium-crypto-core-ristretto255-sub.md)
--   [sodiumcryptoscalarmultristretto255()](function.sodium-crypto-scalarmult-ristretto255.md)
--   [sodiumcryptoscalarmultristretto255base()](function.sodium-crypto-scalarmult-ristretto255-base.md)
+-   [sodium\_crypto\_core\_ristretto255\_add()](function.sodium-crypto-core-ristretto255-add.md)
+-   [sodium\_crypto\_core\_ristretto255\_from\_hash()](function.sodium-crypto-core-ristretto255-from-hash.md)
+-   [sodium\_crypto\_core\_ristretto255\_is\_valid\_point()](function.sodium-crypto-core-ristretto255-is-valid-point.md)
+-   [sodium\_crypto\_core\_ristretto255\_random()](function.sodium-crypto-core-ristretto255-random.md)
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_add()](function.sodium-crypto-core-ristretto255-scalar-add.md)
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_complement()](function.sodium-crypto-core-ristretto255-scalar-complement.md)
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_invert()](function.sodium-crypto-core-ristretto255-scalar-invert.md)
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_mul()](function.sodium-crypto-core-ristretto255-scalar-mul.md)
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_negate()](function.sodium-crypto-core-ristretto255-scalar-negate.md)
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_random()](function.sodium-crypto-core-ristretto255-scalar-random.md)
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_reduce()](function.sodium-crypto-core-ristretto255-scalar-reduce.md)
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_sub()](function.sodium-crypto-core-ristretto255-scalar-sub.md)
+-   [sodium\_crypto\_core\_ristretto255\_sub()](function.sodium-crypto-core-ristretto255-sub.md)
+-   [sodium\_crypto\_scalarmult\_ristretto255()](function.sodium-crypto-scalarmult-ristretto255.md)
+-   [sodium\_crypto\_scalarmult\_ristretto255\_base()](function.sodium-crypto-scalarmult-ristretto255-base.md)

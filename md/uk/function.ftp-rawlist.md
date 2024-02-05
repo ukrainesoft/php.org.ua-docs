@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-raw.md: « ftpraw
-  - function.ftp-rename.md: ftprename »
+  - function.ftp-raw.md: « ftp\_raw
+  - function.ftp-rename.md: ftp\_rename »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftprawlist
+title: ftp\_rawlist
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftprawlist
+# ftp\_rawlist
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftprawlist — Повертає докладний список файлів у заданій директорії
+ftp\_rawlist — Повертає докладний список файлів у заданій директорії
 
 ### Опис
 
@@ -18,13 +19,13 @@ ftprawlist — Повертає докладний список файлів у 
 ftp_rawlist(FTP\Connection $ftp, string $directory, bool $recursive = false): array|false
 ```
 
-**ftprawlist()** відправляє FTP-серверу команду **LIST** та повертає результат у вигляді масиву.
+**ftp\_rawlist()**отправляет FTP-серверу команду**LIST** та повертає результат у вигляді масиву.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `directory`
 
@@ -32,23 +33,23 @@ ftp_rawlist(FTP\Connection $ftp, string $directory, bool $recursive = false): ar
 
 `recursive`
 
-Якщо передано значення **`true`**, серверу буде відправлено команду **LIST-R**
+Якщо передано значення **`true`**, серверу будет отправлена команда**LIST -R**
 
 ### Значення, що повертаються
 
 Повертає масив, кожен елемент якого містить один рядок відповіді сервера. Повертає **`false`**, якщо передана директорія `directory` не валідна.
 
-Відповідь сервера не обробляється. Для визначення того, як слід інтерпретувати результат, можна використовувати результат роботи функції [ftpsystype()](function.ftp-systype.md)
+Відповідь сервера не обробляється. Для визначення того, як слід інтерпретувати результат, можна використовувати результат роботи функції [ftp\_systype()](function.ftp-systype.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftprawlist()****
+**Пример #1 Пример использования**ftp\_rawlist()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ var_dump($buff);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(3) {
@@ -85,5 +86,5 @@ array(3) {
 
 ### Дивіться також
 
--   [ftpnlist()](function.ftp-nlist.md) - Повертає список файлів у заданій директорії
--   [ftpmlsd()](function.ftp-mlsd.md) - Повертає список файлів у заданій директорії
+-   [ftp\_nlist()](function.ftp-nlist.md) \- Повертає список файлів у заданій директорії
+-   [ftp\_mlsd()](function.ftp-mlsd.md) \- Повертає список файлів у заданій директорії

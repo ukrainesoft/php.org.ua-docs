@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-send-stream-data.md: « sqlsrvsendstreamdata
+  - function.sqlsrv-send-stream-data.md: « sqlsrv\_send\_stream\_data
   - refs.calendar.md: Модулі для роботи з датою та часом »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvserverinfo
+title: sqlsrv\_server\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvserverinfo
+# sqlsrv\_server\_info
 
 (No version information available, might only be in Git)
 
-sqlsrvserverinfo — Повертає інформацію про сервер
+sqlsrv\_server\_info — Повертає інформацію про сервер
 
 ### Опис
 
@@ -39,7 +40,7 @@ sqlsrv_server_info(resource $conn): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvserverinfo()****
+**Пример #1 Пример использования**sqlsrv\_server\_info()\*\*\*\*
 
 ```php
 <?php
@@ -63,4 +64,4 @@ if( $server_info )
 
 ### Дивіться також
 
--   [sqlsrvclientinfo()](function.sqlsrv-client-info.md) - Повертає інформацію про клієнта та зазначене підключення
+-   [sqlsrv\_client\_info()](function.sqlsrv-client-info.md) \- Повертає інформацію про клієнта та зазначене підключення

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-field-type.md: « pgfieldtype
-  - function.pg-free-result.md: пгfreeresult »
+  - function.pg-field-type.md: « pg\_field\_type
+  - function.pg-free-result.md: pg\_free\_result »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгflush
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_flush
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгflush
+# pg\_flush
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-пгflush — Скинути дані вихідного запиту на з'єднанні
+pg\_flush — Скинути дані вихідного запиту на з'єднанні
 
 ### Опис
 
@@ -18,20 +19,20 @@ title: пгflush
 pg_flush(PgSql\Connection $connection): int|bool
 ```
 
-**пгflush()** скидає будь-які дані вихідного запиту, що очікують надсилання на з'єднанні.
+**pg\_flush()** скидає будь-які дані вихідного запиту, що очікують надсилання на з'єднанні.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо скидання було успішним або дані не очікували скидання, або `0`, якщо частина очікуваних даних була скинута, однак залишилися ще **`false`** у разі виникнення помилки.
+Повертає **`true`**, якщо скидання було успішним або дані не очікували скидання, або , якщо частина очікуваних даних була скинута, однак залишилися ще \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

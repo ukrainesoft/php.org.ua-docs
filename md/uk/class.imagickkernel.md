@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.imagick.md: ImageMagick
 title: Клас ImagickKernel
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ImagickKernel
 
@@ -40,10 +41,10 @@ public separate(): array
 
 ## Зміст
 
--   [ImagickKernel::addKernel](imagickkernel.addkernel.md) - Опис
--   [ImagickKernel::addUnityKernel](imagickkernel.addunitykernel.md) - Опис
--   [ImagickKernel::fromBuiltIn](imagickkernel.frombuiltin.md) - Опис
--   [ImagickKernel::fromMatrix](imagickkernel.frommatrix.md) - Опис
--   [ImagickKernel::getMatrix](imagickkernel.getmatrix.md) - Опис
--   [ImagickKernel::scale](imagickkernel.scale.md) - Опис
--   [ImagickKernel::separate](imagickkernel.separate.md) - Опис
+-   [ImagickKernel::addKernel](imagickkernel.addkernel.md)— Приєднує інше ядро ​​до цього ядра
+-   [ImagickKernel::addUnityKernel](imagickkernel.addunitykernel.md)— Додає ядро ​​Unity до списку ядер
+-   [ImagickKernel::fromBuiltIn](imagickkernel.frombuiltin.md)— Створює ядро ​​із вбудованого ядра
+-   [ImagickKernel::fromMatrix](imagickkernel.frommatrix.md) \- Створює ядро ​​з двовимірної матриці значень
+-   [ImagickKernel::getMatrix](imagickkernel.getmatrix.md)— Отримує 2d матрицю значень, що використовуються у цьому ядрі
+-   [ImagickKernel::scale](imagickkernel.scale.md) \- Масштабує список ядер на задану величину
+-   [ImagickKernel::separate](imagickkernel.separate.md)— Поділяє пов'язаний набір ядер і повертає масив ImagickKernels

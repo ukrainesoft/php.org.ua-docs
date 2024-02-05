@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::getRequestID'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::getRequestID
 
 (PECL seaslog >=1.0.0)
 
-SeasLog::getRequestID — Отримує диференційовані запити SeasLog requestід
+SeasLog::getRequestID — Отримує диференційовані запити SeasLog request\_id
 
 ### Опис
 
@@ -18,7 +19,7 @@ SeasLog::getRequestID — Отримує диференційовані запи
 public static SeasLog::getRequestID(): string
 ```
 
-Щоб відрізнити один запит, наприклад, не викликати функції [SeasLog::setRequestId()](seaslog.setrequestid.md), при ініціалізації запиту використовується унікальне значення, що генерується вбудованою функцією static char getuniqid()
+Щоб відрізнити один запит, наприклад, не викликати функції [SeasLog::setRequestId()](seaslog.setrequestid.md), при ініціалізації запиту використовується унікальне значення, що генерується вбудованою функцією \`static char\*get\_uniqid()\`
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public static SeasLog::getRequestID(): string
 
 ### Значення, що повертаються
 
-Повертає рядок, створений вбудованою функцією static char getuniqid() або задану функцією [SeasLog::setRequestId()](seaslog.setrequestid.md)
+Повертає рядок, створений вбудованою функцією \`static char\*get\_uniqid()\` або задану функцією [SeasLog::setRequestId()](seaslog.setrequestid.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::getRequestID()****
+**Пример #1 Пример использования**SeasLog::getRequestID()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump(SeasLog::getRequestID());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(13) "5b3f21a209519"
@@ -52,5 +53,5 @@ string(26) "reqeust_id_test_1530864034"
 
 ### Дивіться також
 
--   [SeasLog::setRequestID()](seaslog.setrequestid.md) - Встановлює диференційовані запити SeasLog requestід
--   Змінна %До в [Таблиці змінних за промовчанням Seaslog](seaslog.configuration.md#ini.seaslog.default-template)
+-   [SeasLog::setRequestID()](seaslog.setrequestid.md) \- Встановлює диференційовані запити SeasLog request\_id
+-   Переменная\`%Q\`в[Таблиці змінних за промовчанням Seaslog](seaslog.configuration.md#ini.seaslog.default-template)

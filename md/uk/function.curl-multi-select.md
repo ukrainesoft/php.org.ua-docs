@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-multi-remove-handle.md: « curlmultiremovehandle
-  - function.curl-multi-setopt.md: curlmultisetopt »
+  - function.curl-multi-remove-handle.md: « curl\_multi\_remove\_handle
+  - function.curl-multi-setopt.md: curl\_multi\_setopt »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlmultiselect
+  - ref.curl.md: Опції cURL
+title: curl\_multi\_select
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlmultiselect
+# curl\_multi\_select
 
 (PHP 5, PHP 7, PHP 8)
 
-curlmultiselect — Чекає на активність на будь-якому curlmulti з'єднанні
+curl\_multi\_select — Чекає на активність на будь-якому curl\_multi з'єднанні
 
 ### Опис
 
@@ -18,13 +19,13 @@ curlmultiselect — Чекає на активність на будь-яком�
 curl_multi_select(CurlMultiHandle $multi_handle, float $timeout = 1.0): int
 ```
 
-Блокує виконання скрипту, поки якесь із сполук curlmulti не стане активним.
+Блокує виконання скрипту, поки якесь із сполук curl\_multi не стане активним.
 
 ### Список параметрів
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.md)
+Мультидескриптор cURL, отриманий з [curl\_multi\_init()](function.curl-multi-init.md)
 
 `timeout`
 
@@ -36,10 +37,10 @@ curl_multi_select(CurlMultiHandle $multi_handle, float $timeout = 1.0): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| 8.0.0 | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [curlmultiinit()](function.curl-multi-init.md) - Створює набір cURL-дескрипторів
+-   [curl\_multi\_init()](function.curl-multi-init.md) \- Створює набір cURL-дескрипторів

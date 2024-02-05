@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-ema.md: « traderema
-  - function.trader-exp.md: traderexp »
+  - function.trader-ema.md: « trader\_ema
+  - function.trader-exp.md: trader\_exp »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradererrno
+  - ref.trader.md: Функції Trader
+title: trader\_errno
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradererrno
+# trader\_errno
 
 (PECL trader >= 0.3.0)
 
-tradererrno — Отримати код помилки
+trader\_errno — Отримати код помилки
 
 ### Опис
 
@@ -26,4 +27,4 @@ trader_errno(): int
 
 ### Значення, що повертаються
 
-Повертає код помилки, ідентифікований однією з [TRADERERR](trader.constants.md) констант.
+Повертає код помилки, ідентифікований однією з [TRADER\_ERR\_\*](trader.constants.md)констант.

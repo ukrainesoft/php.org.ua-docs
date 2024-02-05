@@ -1,10 +1,11 @@
 ---
 navigation:
   - seaslog.analyzerdetail.md: '« SeasLog::analyzerDetail'
-  - seaslog.construct.md: 'SeasLog::construct »'
+  - seaslog.construct.md: 'SeasLog::\_\_construct »'
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::closeLoggerStream'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::closeLoggerStream
 
@@ -26,8 +27,8 @@ public static SeasLog::closeLoggerStream(int $model, string $logger): bool
 
 Ціла кількість, одна з констант:
 
--   [SEASLOGCLOSELOGGERSTREAMMODALL](seaslog.constants.md#constant.seaslog-close-logger-stream-mod-all)
--   [SEASLOGCLOSELOGGERSTREAMMODASSIGN](seaslog.constants.md#constant.seaslog-close-logger-stream-mod-assign)
+-   [SEASLOG\_CLOSE\_LOGGER\_STREAM\_MOD\_ALL](seaslog.constants.md#constant.seaslog-close-logger-stream-mod-all)
+-   [SEASLOG\_CLOSE\_LOGGER\_STREAM\_MOD\_ASSIGN](seaslog.constants.md#constant.seaslog-close-logger-stream-mod-assign)
 
 `logger`
 
@@ -39,7 +40,7 @@ public static SeasLog::closeLoggerStream(int $model, string $logger): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::closeLoggerStream()****
+**Пример #1 Пример использования**SeasLog::closeLoggerStream()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ var_dump(SeasLog::closeLoggerStream(SEASLOG_CLOSE_LOGGER_STREAM_MOD_ASSIGN, 'log
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -61,5 +62,5 @@ bool(true)
 
 ### Дивіться також
 
--   [SeasLog::setLogger()](seaslog.setlogger.md) - Встановлює ім'я реєстратора SeasLog
--   [SeasLog::getLastLogger()](seaslog.getlastlogger.md) - Отримує останній шлях реєстратора SeasLog
+-   [SeasLog::setLogger()](seaslog.setlogger.md) \- Встановлює ім'я реєстратора SeasLog
+-   [SeasLog::getLastLogger()](seaslog.getlastlogger.md) \- Отримує останній шлях реєстратора SeasLog

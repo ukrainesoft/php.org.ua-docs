@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::isLink'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::isLink
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::isLink — Вказує, чи є файл посиланням
 
@@ -30,7 +31,7 @@ public SplFileInfo::isLink(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::isLink()****
+**Пример #1 Пример использования**SplFileInfo::isLink()\*\*\*\*
 
 ```php
 <?php
@@ -43,4 +44,4 @@ if ($info->isLink()) {
 
 ### Дивіться також
 
--   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md) - Отримує абсолютний шлях до файлу
+-   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md) \- Отримує абсолютний шлях до файлу

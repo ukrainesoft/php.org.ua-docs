@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.error-reporting.md: « errorreporting
-  - function.restore-exception-handler.md: restoreexceptionhandler »
+  - function.error-reporting.md: « error\_reporting
+  - function.restore-exception-handler.md: restore\_exception\_handler »
   - index.md: PHP Manual
-  - ref.errorfunc.md: Функции обработки ошибок
-title: restoreerrorhandler
+  - ref.errorfunc.md: Функції обробки помилок
+title: restore\_error\_handler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# restoreerrorhandler
+# restore\_error\_handler
 
-(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.1, PHP 5, PHP 7, PHP 8)
 
-restoreerrorhandler — Відновлює попередній обробник помилок
+restore\_error\_handler — Відновлює попередній обробник помилок
 
 ### Опис
 
 ```methodsynopsis
-restore_error_handler(): bool
+restore_error_handler(): true
 ```
 
-Використовується після зміни обробника помилок функцією [seterrorhandler()](function.set-error-handler.md), щоб повернути попередній обробник (який може бути як вбудованою функцією, так і певною користувачем).
+Використовується після зміни обробника помилок функцією [set\_error\_handler()](function.set-error-handler.md), щоб повернути попередній обробник (який може бути як вбудованою функцією, так і певною користувачем).
 
 ### Список параметрів
 
@@ -26,13 +27,13 @@ restore_error_handler(): bool
 
 ### Значення, що повертаються
 
-Ця функція завжди повертає **`true`**
+Функція завжди повертає **`true`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **restoreerrorhandler()****
+**Пример #1 Пример использования**restore\_error\_handler()\*\*\*\*
 
-Визначення, чи сталася помилка у функції [unserialize()](function.unserialize.md), а потім відновлення вихідного обробника помилок.
+Определение, произошла ли ошибка в функции[unserialize()](function.unserialize.md), а потім відновлення вихідного обробника помилок.
 
 ```php
 <?php
@@ -48,7 +49,7 @@ restore_error_handler();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Сериализуемое значение недопустимо.
@@ -56,7 +57,7 @@ restore_error_handler();
 
 ### Дивіться також
 
--   [errorreporting()](function.error-reporting.md) - Задає, які помилки PHP потраплять у звіт
--   [seterrorhandler()](function.set-error-handler.md) - Задає користувальницький обробник помилок
--   [restoreexceptionhandler()](function.restore-exception-handler.md) - Відновлює попередній обробник винятків
--   [triggererror()](function.trigger-error.md) - Викликає помилку користувача/попередження/повідомлення
+-   [error\_reporting()](function.error-reporting.md) \- Встановлює, які помилки PHP потраплять у звіт
+-   [set\_error\_handler()](function.set-error-handler.md) \- Задає користувальницький обробник помилок
+-   [restore\_exception\_handler()](function.restore-exception-handler.md) \- Відновлює попередній обробник винятків
+-   [trigger\_error()](function.trigger-error.md) \- Викликає помилку користувача/попередження/повідомлення

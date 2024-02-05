@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.dio.md: « Функції прямого введення/виводу
-  - function.dio-fcntl.md: diofcntl »
+  - function.dio-fcntl.md: dio\_fcntl »
   - index.md: PHP Manual
   - ref.dio.md: Функції прямого введення/виводу
-title: dioclose
+title: dio\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dioclose
+# dio\_close
 
-(PHP 4> = 4.2.0, PHP 5 <5.1.0)
+(PHP 4 >= 4.2.0, PHP 5 < 5.1.0)
 
-dioclose — Закрити файловий дескриптор
+dio\_close — Закрити файловий дескриптор
 
 ### Опис
 
@@ -18,13 +19,13 @@ dioclose — Закрити файловий дескриптор
 dio_close(resource $fd): void
 ```
 
-Функція **dioclose()** закриває файловий дескриптор `fd`
+Функция**dio\_close()** закриває файловий дескриптор `fd`
 
 ### Список параметрів
 
 `fd`
 
-Файловий дескриптор, отриманий з [dioopen()](function.dio-open.md)
+Файловий дескриптор, отриманий з [dio\_open()](function.dio-open.md)
 
 ### Значення, що повертаються
 
@@ -44,4 +45,4 @@ dio_close($fd);
 
 ### Дивіться також
 
--   [dioopen()](function.dio-open.md) - Відкриває файл (за потребою створює) на нижчому рівні, ніж потокові функції введення/виведення мови C
+-   [dio\_open()](function.dio-open.md) \- Відкриває файл (за потребою створює) на нижчому рівні, ніж потокові функції введення/виведення мови C

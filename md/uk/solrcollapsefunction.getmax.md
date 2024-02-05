@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrcollapsefunction.md: SolrCollapseFunction
 title: 'SolrCollapseFunction::getMax'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrCollapseFunction::getMax
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrCollapseFunction::getMax — Повертає максимальне значення
 
@@ -28,4 +29,4 @@ public SolrCollapseFunction::getMax(): string
 
 ### Дивіться також
 
--   [SolrCollapseFunction::setMax()](solrcollapsefunction.setmax.md) - Вибирає заголовки групи за максимальним значенням числового поля або запиту функції
+-   [SolrCollapseFunction::setMax()](solrcollapsefunction.setmax.md) \- Вибирає заголовки групи за максимальним значенням числового поля або запиту функції

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.datetimeinterface.md: DateTimeInterface
 title: 'DateTimeInterface::getOffset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeInterface::getOffset
 
@@ -12,11 +13,11 @@ title: 'DateTimeInterface::getOffset'
 
 # DateTime::getOffset
 
-# dateoffsetget
+# date\_offset\_get
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-DateTimeInterface::getOffset -- DateTimeImmutable::getOffset -- DateTime::getOffset -- dateoffsetget — Повертає зсув часового поясу
+DateTimeInterface::getOffset -- DateTimeImmutable::getOffset -- DateTime::getOffset -- date\_offset\_get — Повертає зсув часового поясу
 
 ### Опис
 
@@ -46,21 +47,15 @@ date_offset_get(DateTimeInterface $object): int
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md)
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [date\_create()](function.date-create.md)
 
 ### Значення, що повертаються
 
 У разі успішного виконання повертає зміщення часового поясу щодо UTC за секунди.
 
-### список змін
-
-| Версия | Описание |
-| --- | --- |
-|  | До цієї версії, у разі виникнення помилки поверталося **`false`** |
-
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTime::getOffset()****
+**Пример #1 Пример использования**DateTime::getOffset()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -86,7 +81,7 @@ echo date_offset_get($summer) . "\n";
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 -18000

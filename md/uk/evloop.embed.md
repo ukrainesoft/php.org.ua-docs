@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::embed'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::embed
 
@@ -17,16 +18,16 @@ EvLoop::embed — Створює екземпляр спостерігача EvE
 ```methodsynopsis
 final
    public
-   EvLoop::embed(    
+   EvLoop::embed(    
     string
      $other
-   ,    
+   ,    
     string
      $callback
-    = ?,    
+    = ?,    
     string
      $data
-    = ?,    
+    = ?,    
     string
      $priority
     = ?): EvEmbed
@@ -36,7 +37,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvEmbed::construct()](evembed.construct.md)
+Усі параметри, що й для [EvEmbed::\_\_construct()](evembed.construct.md)
 
 ### Значення, що повертаються
 
@@ -44,4 +45,4 @@ final
 
 ### Дивіться також
 
--   [EvEmbed::construct()](evembed.construct.md) - Конструктор об'єкту EvEmbed
+-   [EvEmbed::\_\_construct()](evembed.construct.md) \- Конструктор об'єкту EvEmbed

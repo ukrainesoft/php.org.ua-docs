@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mb-internal-encoding.md: « mbinternalencoding
-  - function.mb-list-encodings.md: мбlistencodings »
+  - function.mb-internal-encoding.md: « mb\_internal\_encoding
+  - function.mb-list-encodings.md: mb\_list\_encodings »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбlanguage
+title: mb\_language
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбlanguage
+# mb\_language
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-мбlanguage — Встановлює/отримує поточну мову
+mb\_language — Встановлює/отримує поточну мову
 
 ### Опис
 
@@ -24,7 +25,7 @@ mb_language(?string $language = null): string|bool
 
 `language`
 
-Використовується для кодування електронних листів. Допустимі мови перелічені в наступній таблиці.[мбsendmail()](function.mb-send-mail.md) використовує параметр для кодування електронної пошти.
+Функцією кодують повідомлення електронної пошти. Допустимі мови перелічені в наступній таблиці. Функція [mb\_send\_mail()](function.mb-send-mail.md) використовує параметр для кодування електронної пошти.
 
 | Язык | Кодировка | Кодирование | Псевдоним |
 | --- | --- | --- | --- |
@@ -38,19 +39,19 @@ mb_language(?string $language = null): string|bool
 | Турецька мова/tr | ISO-8859-9 | Quoted-Printable |  |
 | Українська мова/ua | KOI8-U | Quoted-Printable |  |
 | uni | UTF-8 | BASE64 | Універсальний |
-| Спрощена китайська мова/zh-cn | ХЗ | BASE64 |  |
+| Спрощена китайська мова/zh-cn | HZ | BASE64 |  |
 | Традиційна китайська мова/zh-tw | BIG-5 | BASE64 |  |
 
 ### Значення, що повертаються
 
-Якщо аргумент `language` заданий та `language` має допустиме значення, функція повертає **`true`**. Інакше вона поверне **`false`**. Якщо `language` опущений або дорівнює **`null`**, функція поверне поточне значення мови як рядка (string).
+Якщо параметр `language` заданий та припустимо, функція повертає **`true`**. Інакше вона поверне **`false`**. Якщо параметр `language` опущений або дорівнює **`null`**, функція поверне поточне значення мови як рядка (string).
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер параметр `language` може набувати значення **`null`** |
+| 8.0.0 | Тепер параметр `language` може набувати значення **`null`** |
 
 ### Дивіться також
 
--   [мбsendmail()](function.mb-send-mail.md) - Надсилання закодованого повідомлення
+-   [mb\_send\_mail()](function.mb-send-mail.md) \- Надсилає закодований електронний лист

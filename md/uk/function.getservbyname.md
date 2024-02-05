@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: getservbyname
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # getservbyname
 
@@ -18,7 +19,7 @@ getservbyname — Отримує номер порту, пов'язаного з
 getservbyname(string $service, string $protocol): int|false
 ```
 
-Функція **getservbyname()** повертає порт, який відповідає параметру `service` для заданого протоколу у параметрі `protocol` згідно з /etc/services.
+Функция**getservbyname()** повертає порт, який відповідає параметру `service`для заданного протокола в параметре`protocol`согласно /etc/services.
 
 ### Список параметрів
 
@@ -28,15 +29,15 @@ getservbyname(string $service, string $protocol): int|false
 
 `protocol`
 
-Параметр `protocol` може дорівнювати `"tcp"` або `"udp"` (У нижньому регістрі).
+Параметр`protocol` може дорівнювати `"tcp"`или`"udp"` (У нижньому регістрі).
 
 ### Значення, що повертаються
 
-Повертає номер порту, або **`false`**, якщо `service` або `protocol` не знайдено.
+Повертає номер порту, або **`false`**, якщо `service`или`protocol` не знайдено.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getservbyname()****
+**Пример #1 Пример использования**getservbyname()\*\*\*\*
 
 ```php
 <?php
@@ -52,5 +53,5 @@ foreach ($services as $service) {
 
 ### Дивіться також
 
--   [getservbyport()](function.getservbyport.md) - Отримує інтернет-службу, що відповідає заданому порту та протоколу
--   Дивіться [» http://www.iana.org/assignments/port-numbers](http://www.iana.org/assignments/port-numbers) щоб отримати повний список номерів портів.
+-   [getservbyport()](function.getservbyport.md) \- Отримує інтернет-службу, що відповідає заданому порту та протоколу
+-   Смотрите[» http://www.iana.org/assignments/port-numbers](http://www.iana.org/assignments/port-numbers)щоб отримати повний список номерів портів.

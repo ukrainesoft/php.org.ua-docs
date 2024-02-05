@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionfind.construct.md: '« CollectionFind::construct'
+  - mysql-xdevapi-collectionfind.construct.md: '« CollectionFind::\_\_construct'
   - mysql-xdevapi-collectionfind.fields.md: 'CollectionFind::fields »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysql\_xdevapi\\CollectionFind
 title: 'CollectionFind::execute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionFind::execute
 
@@ -26,11 +27,11 @@ public mysql_xdevapi\CollectionFind::execute(): mysql_xdevapi\DocResult
 
 ### Значення, що повертаються
 
-Об'єкт DocResult, з якого можна отримати результати або запросити стан операції.
+Повертає об'єкт класу [mysql\_xdevapi\\DocResult](class.mysql-xdevapi-docresult.md), з якого можна отримати результати, або запросити стан операції.
 
 ### Приклади
 
-**Приклад #1 Приклад використання CollectionFind**
+**Приклад #1 Приклад використання класу CollectionFind**
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_dump($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {

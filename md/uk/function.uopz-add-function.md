@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.uopz.md: « Функції Uopz
-  - function.uopz-allow-exit.md: uopzallowexit »
+  - function.uopz-allow-exit.md: uopz\_allow\_exit »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzaddfunction
+title: uopz\_add\_function
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzaddfunction
+# uopz\_add\_function
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzaddfunction — Додає неіснуючу функцію або метод
+uopz\_add\_function — Додає неіснуючу функцію або метод
 
 ### Опис
 
@@ -19,7 +20,7 @@ uopz_add_function(string $function, Closure $handler, int &$flags = ZEND_ACC_PUB
 ```
 
 ```methodsynopsis
-uopz_add_function(    string $class,    string $function,    Closure $handler,    int &$flags = ZEND_ACC_PUBLIC,    int &$all = true): bool
+uopz_add_function(    string $class,    string $function,    Closure $handler,    int &$flags = ZEND_ACC_PUBLIC,    int &$all = true): bool
 ```
 
 Додає неіснуючу функцію чи метод.
@@ -48,15 +49,15 @@ uopz_add_function(    string $class,    string $function,    Closure $handler,  
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-**uopzaddfunction()** викидає [RuntimeException](class.runtimeexception.md), якщо функція, що додається, або метод вже існує.
+**uopz\_add\_function()** викидає [RuntimeException](class.runtimeexception.md), якщо функція, що додається, або метод вже існує.
 
 ### Приклади
 
-**Приклад #1 Просте використання **uopzaddfunction()****
+**Пример #1 Простое использование**uopz\_add\_function()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ foo();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bar
@@ -73,5 +74,5 @@ bar
 
 ### Дивіться також
 
--   [uopzdelfunction()](function.uopz-del-function.md) - Видаляє раніше додану функцію або метод
--   [uopzsetreturn()](function.uopz-set-return.md) - Надати значення, що повертається для існуючої функції
+-   [uopz\_del\_function()](function.uopz-del-function.md) \- Видаляє раніше додану функцію або метод
+-   [uopz\_set\_return()](function.uopz-set-return.md) \- Надати значення, що повертається для існуючої функції

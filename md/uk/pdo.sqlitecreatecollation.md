@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - ref.pdo-sqlite.md: SQLite (PDO)
 title: 'PDO::sqliteCreateCollation'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::sqliteCreateCollation
 
-(PHP 5> = 5.3.11, PHP 7, PHP 8)
+(PHP 5 >= 5.3.11, PHP 7, PHP 8)
 
-PDO::sqliteCreateCollation — Реєстрація користувальницької функції сортування для використання у SQL-запитах
+PDO::sqliteCreateCollation — Реєстрація користувача функції сортування для використання в SQL-запитах
 
 ### Опис
 
@@ -40,11 +41,11 @@ collation(string $string1, string $string2): int
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PDO::sqliteCreateCollation()****
+**Пример #1 Пример использования**PDO::sqliteCreateCollation()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ foreach ($db->query("SELECT col1 FROM test ORDER BY col1 COLLATE NATURAL_CMP") a
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 a1

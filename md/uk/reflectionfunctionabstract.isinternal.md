@@ -1,14 +1,15 @@
 ---
 navigation:
   - reflectionfunctionabstract.isgenerator.md: '« ReflectionFunctionAbstract::isGenerator'
-  - reflectionfunctionabstract.isuserdefined.md: 'ReflectionFunctionAbstract::isUserDefined »'
+  - reflectiofunctionabstract.isstatic.md: 'ReflectionFunctionAbstract::isStatic »'
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::isInternal'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::isInternal
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::isInternal — Перевіряє, чи є функція внутрішньої
 
@@ -30,4 +31,4 @@ public ReflectionFunctionAbstract::isInternal(): bool
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.md) - Перевіряє, чи функція є певною користувачем
+-   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.md) \- Перевіряє, чи функція є певною користувачем

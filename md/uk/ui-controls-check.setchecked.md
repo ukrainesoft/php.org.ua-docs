@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-check.ontoggle.md: '« UIControlsCheck::onToggle'
-  - ui-controls-check.settext.md: 'ОЙControlsCheck::setText »'
+  - ui-controls-check.ontoggle.md: '« UI\\Controls\\Check::onToggle'
+  - ui-controls-check.settext.md: 'UI\\Controls\\Check::setText »'
   - index.md: PHP Manual
-  - class.ui-controls-check.md: ОЙControlsCheck
-title: 'ОЙControlsCheck::setChecked'
+  - class.ui-controls-check.md: UI\\Controls\\Check
+title: 'UI\\Controls\\Check::setChecked'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsCheck::setChecked
+# UI\\Controls\\Check::setChecked
 
 (UI 0.9.9)
 
-ОЙControlsCheck::setChecked — Встановити статус вибраності
+UI\\Controls\\Check::setChecked — Встановити статус вибраності
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-get-return.md: « uopzgetreturn
-  - function.uopz-implement.md: uopzimplement »
+  - function.uopz-get-return.md: « uopz\_get\_return
+  - function.uopz-implement.md: uopz\_implement »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzgetstatic
+title: uopz\_get\_static
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzgetstatic
+# uopz\_get\_static
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzgetstatic — Повертає статичні змінні в області видимості функції або методу
+uopz\_get\_static — Повертає статичні змінні в області видимості функції або методу
 
 ### Опис
 
@@ -40,7 +41,7 @@ uopz_get_static(string $function): array
 
 ### Приклади
 
-**Приклад #1 Просте використання **uopzgetstatic()****
+**Пример #1 Простое использование**uopz\_get\_static()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ var_dump(uopz_get_static('foo'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {
@@ -62,4 +63,4 @@ array(1) {
 
 ### Дивіться також
 
--   [uopzsetstatic()](function.uopz-set-static.md) - Встановлює статичні змінні у сфері видимості функції чи методу
+-   [uopz\_set\_static()](function.uopz-set-static.md) \- Встановлює статичні змінні у сфері видимості функції чи методу

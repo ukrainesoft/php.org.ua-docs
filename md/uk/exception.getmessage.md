@@ -1,10 +1,11 @@
 ---
 navigation:
-  - exception.construct.md: '« Exception::construct'
+  - exception.construct.md: '« Exception::\_\_construct'
   - exception.getprevious.md: 'Exception::getPrevious »'
   - index.md: PHP Manual
   - class.exception.md: Exception
 title: 'Exception::getMessage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Exception::getMessage
 
@@ -30,7 +31,7 @@ final public Exception::getMessage(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Exception::getMessage()****
+**Пример #1 Пример использования**Exception::getMessage()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Какое-нибудь сообщение об ошибке
@@ -50,4 +51,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getMessage()](throwable.getmessage.md) - Отримує повідомлення помилки
+-   [Throwable::getMessage()](throwable.getmessage.md) \- Отримує повідомлення помилки

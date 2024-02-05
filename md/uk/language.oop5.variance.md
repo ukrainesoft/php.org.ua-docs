@@ -1,10 +1,11 @@
 ---
 navigation:
   - language.oop5.serialization.md: « Серіалізація об'єктів
-  - language.oop5.changelog.md: Журнал изменений ООП »
+  - language.oop5.changelog.md: Журнал змін ОВП »
   - index.md: PHP Manual
   - language.oop5.md: Класи та об'єкти
 title: Коваріантність та контраваріантність
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Коваріантність та контраваріантність
 
@@ -14,10 +15,10 @@ title: Коваріантність та контраваріантність
 
 Оголошення типу вважається більш конкретним у наступному випадку:
 
--   Вилучено [об'єднання типів](language.types.declarations.md#language.types.declarations.composite.union)
--   Додано [пересечение типов](language.types.declarations.md#language.types.declarations.composite.intersection)
+-   Вилучено[об'єднання типів](language.types.type-system.md#language.types.type-system.composite.union)
+-   Добавлено[перетин типів](language.types.type-system.md#language.types.type-system.composite.intersection)
 -   Тип класу змінюється на тип дочірнього класу
--   [iterable](language.types.iterable.md) змінений на масив (array) або [Traversable](class.traversable.md)
+-   [iterable](language.types.iterable.md)змінений на масив (array) або[Traversable](class.traversable.md)
 
 В іншому випадку клас типу вважається менш конкретним.
 
@@ -91,7 +92,7 @@ $doggy = (new DogShelter)->adopt("Бобик");
 $doggy->speak();
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Рыжик мяукает
@@ -153,20 +154,20 @@ $banana = new Food();
 $doggy->eat($banana);
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Рыжик ест AnimalFood
 Бобик ест Food
 ```
 
-Але що станеться, якщо $kitty спробує з'їсти банан ($banana)?
+Але що станеться, якщо $kitty спробує з'їсти (**eat()**) банан ($ banana)?
 
 ```php
 $kitty->eat($banana);
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Fatal error: Uncaught TypeError: Argument 1 passed to Animal::eat() must be an instance of AnimalFood, instance of Food given

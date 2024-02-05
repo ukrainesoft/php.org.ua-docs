@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-lo-unlink.md: « pgлоunlink
-  - function.pg-meta-data.md: пгmetadata »
+  - function.pg-lo-unlink.md: « pg\_lo\_unlink
+  - function.pg-meta-data.md: pg\_meta\_data »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пглоwrite
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_lo\_write
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пглоwrite
+# pg\_lo\_write
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пглоwrite — Записує дані у великий об'єкт
+pg\_lo\_write — Записує дані у великий об'єкт
 
 ### Опис
 
@@ -18,23 +19,23 @@ title: пглоwrite
 pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 ```
 
-**пглоwrite()** записує дані у великий об'єкт, починаючи з поточної позиції внутрішнього покажчика.
+**pg\_lo\_write()** записує дані у великий об'єкт, починаючи з поточної позиції внутрішнього покажчика.
 
 Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Колишня назва функції: **пгlowrite()**
+> Прежнее название функции:**pg\_lowrite()**
 
 ### Список параметрів
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
+An[PgSql\\Lob](class.pgsql-lob.md)instance, returned by[pg\_lo\_open()](function.pg-lo-open.md)
 
 `data`
 
-Дані для запису на великий об'єкт. Якщо аргумент `length` заданий та менше розміру `data`, то записані будуть тільки `length` байт.
+Дані для запису на великий об'єкт. Якщо аргумент `length` заданий та менше розміру `data`, то записані будуть тільки `length`байт.
 
 `length`
 
@@ -42,18 +43,18 @@ pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 
 ### Значення, що повертаються
 
-Кількість записаних у великий об'єкт байт, або **`false`** у разі виникнення помилки.
+Кількість записаних у великий об'єкт байт, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `length` тепер допускає значення null. |
+| 8.1.0 | Параметр`lob` тепер чекає екземпляр [PgSql\\Lob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `length` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пглоwrite()****
+**Пример #1 Пример использования**pg\_lo\_write()\*\*\*\*
 
 ```php
 <?php
@@ -69,5 +70,5 @@ pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 
 ### Дивіться також
 
--   [пглоcreate()](function.pg-lo-create.md) - Створює великий об'єкт
--   [пглоopen()](function.pg-lo-open.md) - Відкриває великий об'єкт бази даних
+-   [pg\_lo\_create()](function.pg-lo-create.md) \- Створює великий об'єкт
+-   [pg\_lo\_open()](function.pg-lo-open.md) \- Відкриває великий об'єкт бази даних

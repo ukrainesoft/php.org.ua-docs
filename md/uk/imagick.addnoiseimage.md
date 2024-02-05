@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::addNoiseImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::addNoiseImage
 
@@ -24,11 +25,11 @@ public Imagick::addNoiseImage(int $noise_type, int $channel = Imagick::CHANNEL_D
 
 `noise_type`
 
-Тип шуму. Зверніться до списку [констант шума](imagick.constants.md#imagick.constants.noise)
+Тип шума. Обратитесь к списку[констант шуму](imagick.constants.md#imagick.constants.noise)
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно \*\*`Imagick::CHANNEL_DEFAULT`\*\*Обратитесь к списку[констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public Imagick::addNoiseImage(int $noise_type, int $channel = Imagick::CHANNEL_D
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::addNoiseImage()****
+**Пример #1 Пример использования**Imagick::addNoiseImage()\*\*\*\*
 
 ```php
 <?php

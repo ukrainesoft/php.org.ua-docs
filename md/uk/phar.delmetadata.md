@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::delMetadata'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::delMetadata
 
@@ -18,9 +19,9 @@ Phar::delMetadata — Видалити глобальні метадані в а
 public Phar::delMetadata(): bool
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly`в . В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 Видаляє глобальні метадані в архіві phar
 
@@ -32,11 +33,11 @@ public Phar::delMetadata(): bool
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.md) у разі виникнення помилки під час збереження змін на диск.
+Викидає виняток [PharException](class.pharexception.md)в случае возникновения ошибки при сохранении изменений на диск.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::delMetaData()****
+**Пример #1 Пример использования**Phar::delMetaData()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 NULL
@@ -63,6 +64,6 @@ NULL
 
 ### Дивіться також
 
--   [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані phar-архіву
--   [Phar::setMetadata()](phar.setmetadata.md) - Встановити метадані phar-архіву
--   [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить phar-архів глобальні метадані
+-   [Phar::getMetadata()](phar.getmetadata.md) \- Витягти метадані phar-архіву
+-   [Phar::setMetadata()](phar.setmetadata.md) \- Встановити метадані phar-архіву
+-   [Phar::hasMetadata()](phar.hasmetadata.md) \- Перевірити, чи містить phar-архів глобальні метадані

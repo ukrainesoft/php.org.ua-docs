@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-stroke.setmiterlimit.md: '« UIDrawStroke::setMiterLimit'
-  - class.ui-draw-brush.md: ОЙDrawBrush »
+  - ui-draw-stroke.setmiterlimit.md: '« UI\\Draw\\Stroke::setMiterLimit'
+  - class.ui-draw-brush.md: UI\\Draw\\Brush »
   - index.md: PHP Manual
-  - class.ui-draw-stroke.md: ОЙDrawStroke
-title: 'ОЙDrawStroke::setThickness'
+  - class.ui-draw-stroke.md: UI\\Draw\\Stroke
+title: 'UI\\Draw\\Stroke::setThickness'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawStroke::setThickness
+# UI\\Draw\\Stroke::setThickness
 
 (UI 0.9.9)
 
-ОЙDrawStroke::setThickness — Встановити товщину
+UI\\Draw\\Stroke::setThickness — Встановити товщину
 
 ### Опис
 

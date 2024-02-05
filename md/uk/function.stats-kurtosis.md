@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-harmonic-mean.md: « statsharmonicmean
-  - function.stats-rand-gen-beta.md: statsrandgenbeta »
+  - function.stats-harmonic-mean.md: « stats\_harmonic\_mean
+  - function.stats-rand-gen-beta.md: stats\_rand\_gen\_beta »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statskurtosis
+title: stats\_kurtosis
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statskurtosis
+# stats\_kurtosis
 
 (PECL stats >= 1.0.0)
 
-statskurtosis - обчислює ексцес даних в масиві
+stats\_kurtosis - обчислює ексцес даних в масиві
 
 ### Опис
 
@@ -28,4 +29,4 @@ stats_kurtosis(array $a): float
 
 ### Значення, що повертаються
 
-Повертає ексцес масиву значень `a` або **`false`**, якщо `a` порожній чи не є масивом.
+Повертає ексцес масиву значень `a`или\*\*`false`\*\*, якщо `a` порожній чи не є масивом.

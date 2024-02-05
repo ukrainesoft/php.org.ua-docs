@@ -1,16 +1,17 @@
 ---
 navigation:
-  - error.tostring.md: '« Error::toString'
+  - error.tostring.md: '« Error::\_\_function toString() { [native code] }'
   - class.argumentcounterror.md: ArgumentCountError »
   - index.md: PHP Manual
   - class.error.md: Error
-title: 'Error::clone'
+title: 'Error::\_\_clone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Error::clone
+# Error::\_\_clone
 
 (PHP 7, PHP 8)
 
-Error::clone - Клонує помилку
+Error::\_\_clone - Клонує помилку
 
 ### Опис
 
@@ -34,6 +35,6 @@ private Error::__clone(): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Метод **Error::clone()** більше не є остаточним (final). |
+| 8.1.0 | Метод**Error::\_\_clone()** більше не є остаточним (final). |

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-nextprime.md: « gmpnextprime
-  - function.gmp-perfect-power.md: gmpperfectpower »
+  - function.gmp-nextprime.md: « gmp\_nextprime
+  - function.gmp-perfect-power.md: gmp\_perfect\_power »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpор
+title: gmp\_or
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpор
+# gmp\_or
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpor — Побітове АБО
+gmp\_or — Побітове АБО
 
 ### Опис
 
@@ -32,11 +33,11 @@ gmp_or(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.md)ю
+Об'єкт класу [GMP](class.gmp.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpor()****
+**Пример #1 Пример использования**gmp\_or()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo gmp_strval($or2, 16) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 fffffff6

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setEchoHandler'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setEchoHandler
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setEchoHandler — Перемикає параметр echoHandler
 
@@ -24,7 +25,7 @@ public SolrQuery::setEchoHandler(bool $flag): SolrQuery
 
 `flag`
 
-**`true`** або **`false`**
+**`true`**или**`false`**
 
 ### Значення, що повертаються
 

@@ -1,14 +1,15 @@
 ---
 navigation:
-  - function.svn-update.md: « svnupdate
-  - intro.tcpwrap.md: Введение »
+  - function.svn-update.md: « svn\_update
+  - intro.tcpwrap.md: Вступ "
   - index.md: PHP Manual
   - refs.remote.other.md: Інші служби
 title: Обгортки TCP
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обгортки TCP
 
--   [Введение](intro.tcpwrap.md)
+-   [Вступ](intro.tcpwrap.md)
 -   [Встановлення та налаштування](tcpwrap.setup.md)
     -   [Вимоги](tcpwrap.requirements.md)
     -   [Установка](tcpwrap.installation.md)
@@ -16,4 +17,4 @@ title: Обгортки TCP
     -   [Типи ресурсів](tcpwrap.resources.md)
 -   [Обумовлені константи](tcpwrap.constants.md)
 -   [Функції TCP](ref.tcpwrap.md)
-    -   [tcpwrapcheck](function.tcpwrap-check.md) - Здійснює перевірку tcpwrap
+    -   [tcpwrap\_check](function.tcpwrap-check.md) \- Здійснює перевірку tcpwrap

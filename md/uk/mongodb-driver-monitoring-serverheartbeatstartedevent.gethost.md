@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.md: « MongoDBDriverMonitoringServerHeartbeatStartedEvent
-  - mongodb-driver-monitoring-serverheartbeatstartedevent.getport.md: 'MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort »'
+  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.md: « MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent
+  - mongodb-driver-monitoring-serverheartbeatstartedevent.getport.md: 'MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent::getPort »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.md: MongoDBDriverMonitoringServerHeartbeatStartedEvent
-title: 'MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost'
+  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.md: MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent
+title: 'MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent::getHost'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost
+# MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent::getHost
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost — Повертає ім'я сервера.
+MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent::getHost — Повертає ім'я сервера.
 
 ### Опис
 
@@ -28,4 +29,4 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getHost(): s
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

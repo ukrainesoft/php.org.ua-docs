@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-begin-transaction.md: « sqlsrvbegintransaction
-  - function.sqlsrv-client-info.md: sqlsrvclientinfo »
+  - function.sqlsrv-begin-transaction.md: « sqlsrv\_begin\_transaction
+  - function.sqlsrv-client-info.md: sqlsrv\_client\_info »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvcancel
+title: sqlsrv\_cancel
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvcancel
+# sqlsrv\_cancel
 
 (No version information available, might only be in Git)
 
-sqlsrvcancel — Скасує оператор
+sqlsrv\_cancel — Скасує оператор
 
 ### Опис
 
@@ -18,7 +19,7 @@ sqlsrvcancel — Скасує оператор
 sqlsrv_cancel(resource $stmt): bool
 ```
 
-Скасує оператор. Усі невикористані результати, пов'язані з оператором, видаляються. Після виклику **sqlsrvcancel()** вказаний оператор може бути виконаний повторно, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md). Виклик **sqlsrvcancel()** не потрібно, якщо всі результати, пов'язані з оператором, були використані.
+Скасує оператор. Усі невикористані результати, пов'язані з оператором, видаляються. Після виклику **sqlsrv\_cancel()** вказаний оператор може бути виконаний повторно, якщо він був створений за допомогою [sqlsrv\_prepare()](function.sqlsrv-prepare.md). Виклик **sqlsrv\_cancel()** не потрібно, якщо всі результати, пов'язані з оператором, були використані.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ sqlsrv_cancel(resource $stmt): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvcancel()****
+**Пример #1 Пример использования**sqlsrv\_cancel()\*\*\*\*
 
 ```php
 <?php
@@ -75,9 +76,9 @@ sqlsrv_cancel( $stmt);
 
 ### Примітки
 
-Основна відмінність між [sqlsrvfreestmt()](function.sqlsrv-free-stmt.md) і **sqlsrvcancel()** полягає в тому, що ресурс оператора, скасований за допомогою **sqlsrvcancel()**, може бути повторно виконаний, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md). Ресурс оператора, скасований за допомогою **sqlsrvfreestatement()**, не може бути повторно виконано.
+Основна відмінність між [sqlsrv\_free\_stmt()](function.sqlsrv-free-stmt.md)и**sqlsrv\_cancel()** полягає в тому, що ресурс оператора, скасований за допомогою **sqlsrv\_cancel()**, може бути повторно виконаний, якщо він був створений за допомогою [sqlsrv\_prepare()](function.sqlsrv-prepare.md). Ресурс оператора, скасований за допомогою **sqlsrv\_free\_statement()**, не може бути повторно виконано.
 
 ### Дивіться також
 
--   [sqlsrvfreestmt()](function.sqlsrv-free-stmt.md) - звільняє всі ресурси для вказаного оператора
--   [sqlsrvprepare()](function.sqlsrv-prepare.md) - готує запит до виконання
+-   [sqlsrv\_free\_stmt()](function.sqlsrv-free-stmt.md) \- звільняє всі ресурси для вказаного оператора
+-   [sqlsrv\_prepare()](function.sqlsrv-prepare.md) \- готує запит до виконання

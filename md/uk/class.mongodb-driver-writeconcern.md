@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mongodb-driver-serverapi.unserialize.md: '« MongoDBDriverServerApi::unserialize'
-  - mongodb-driver-writeconcern.bsonserialize.md: 'MongoDBDriverWriteConcern::bsonSerialize »'
+  - mongodb-driver-serverapi.unserialize.md: '« MongoDB\\Driver\\ServerApi::unserialize'
+  - mongodb-driver-writeconcern.bsonserialize.md: 'MongoDB\\Driver\\WriteConcern::bsonSerialize »'
   - index.md: PHP Manual
-  - book.mongodb.md: MongoDBDriver
-title: Клас MongoDBDriverWriteConcern
+  - book.mongodb.md: MongoDB\\Driver
+title: Клас MongoDB\\Driver\\WriteConcern
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverWriteConcern
+# Клас MongoDB\\Driver\\WriteConcern
 
 (mongodb >=1.0.0)
 
 ## Вступ
 
-**MongoDBDriverWriteConcern** описує рівень надійності, запрошений MongoDB для операцій запису на автономний `mongod` або на набір реплік або сегментовані кластери. У сегментованих кластерах екземпляри `mongos` будуть передавати гарантії запису на сегменти.
+**MongoDB\\Driver\\WriteConcern** описує рівень надійності, запрошений MongoDB для операцій запису на автономний `mongod` або на набір реплік або сегментовані кластери. У сегментованих кластерах екземпляри `mongos` будуть передавати гарантії запису на сегменти.
 
 ## Огляд класів
 
@@ -38,14 +39,14 @@ title: Клас MongoDBDriverWriteConcern
 
     /* Методы */
     
-   final public bsonSerialize(): object
+   final public bsonSerialize(): stdClass
 final public __construct(string|int $w, ?int $wtimeout = null, ?bool $journal = null)
 final public getJournal(): ?bool
 final public getW(): string|int|null
 final public getWtimeout(): int
 final public isDefault(): bool
 final public serialize(): string
-final public unserialize(string $serialized): void
+final public unserialize(string $data): void
 
    }
 ```
@@ -58,18 +59,18 @@ final public unserialize(string $serialized): void
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL mongodb 1.7.0 | Реалізує [Serializable](class.serializable.md) |
-| PECL mongodb 1.2.0 | Реалізує [MongoDBBSONSerializable](class.mongodb-bson-serializable.md) |
+| PECL mongodb 1.2.0 | Реалізує [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.md) |
 
 ## Зміст
 
--   [MongoDBDriverWriteConcern::bsonSerialize](mongodb-driver-writeconcern.bsonserialize.md) — Повертає об'єкт серіалізації BSON
--   [MongoDBDriverWriteConcern::construct](mongodb-driver-writeconcern.construct.md) - Створити новий WriteConcern
--   [MongoDBDriverWriteConcern::getJournal](mongodb-driver-writeconcern.getjournal.md) — Повертає опцію journal WriteConcern
--   [MongoDBDriverWriteConcern::getW](mongodb-driver-writeconcern.getw.md) - Повертає опцію "w" WriteConcern
--   [MongoDBDriverWriteConcern::getWtimeout](mongodb-driver-writeconcern.getwtimeout.md) - Повертає опцію "wtimeout" WriteConcern
--   [MongoDBDriverWriteConcern::isDefault](mongodb-driver-writeconcern.isdefault.md) — Перевіряє, чи є гарантія запису за замовчуванням
--   [MongoDBDriverWriteConcern::serialize](mongodb-driver-writeconcern.serialize.md) - Серіалізація WriteConcern
--   [MongoDBDriverWriteConcern::unserialize](mongodb-driver-writeconcern.unserialize.md) - Десеріалізація WriteConcern
+-   [MongoDB\\Driver\\WriteConcern::bsonSerialize](mongodb-driver-writeconcern.bsonserialize.md)— Повертає об'єкт серіалізації BSON
+-   [MongoDB\\Driver\\WriteConcern::\_\_construct](mongodb-driver-writeconcern.construct.md) \- Створити новий WriteConcern
+-   [MongoDB\\Driver\\WriteConcern::getJournal](mongodb-driver-writeconcern.getjournal.md) — Повертає опцію journal WriteConcern
+-   [MongoDB\\Driver\\WriteConcern::getW](mongodb-driver-writeconcern.getw.md) - Повертає опцію "w" WriteConcern
+-   [MongoDB\\Driver\\WriteConcern::getWtimeout](mongodb-driver-writeconcern.getwtimeout.md) - Повертає опцію "wtimeout" WriteConcern
+-   [MongoDB\\Driver\\WriteConcern::isDefault](mongodb-driver-writeconcern.isdefault.md)— Перевіряє, чи є гарантія запису за замовчуванням
+-   [MongoDB\\Driver\\WriteConcern::serialize](mongodb-driver-writeconcern.serialize.md) \- Серіалізація WriteConcern
+-   [MongoDB\\Driver\\WriteConcern::unserialize](mongodb-driver-writeconcern.unserialize.md) \- Десеріалізація WriteConcern

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-rand-gen-funiform.md: « statsrandgenfuniform
-  - function.stats-rand-gen-ibinomial-negative.md: statsrandgenibinomialnegative »
+  - function.stats-rand-gen-funiform.md: « stats\_rand\_gen\_funiform
+  - function.stats-rand-gen-ibinomial-negative.md: stats\_rand\_gen\_ibinomial\_negative »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsrandгенgamma
+title: stats\_rand\_gen\_gamma
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsrandгенgamma
+# stats\_rand\_gen\_gamma
 
 (PECL stats >= 1.0.0)
 
-statsrandгенgamma - Обчислює випадкове відхилення від гамма-розподілу
+stats\_rand\_gen\_gamma - Обчислює випадкове відхилення від гамма-розподілу
 
 ### Опис
 
@@ -18,7 +19,7 @@ statsrandгенgamma - Обчислює випадкове відхилення 
 stats_rand_gen_gamma(float $a, float $r): float
 ```
 
-Згенерувати випадкове відхилення від Гамма-розподілу. Щільність розраховується за формулою (AR)/Gamma(R) З(R-1) Exp(-AX).
+Згенерувати випадкове відхилення від Гамма-розподілу. Щільність розраховується за формулою (A\*\*R)/Gamma(R)\*X\*\*(R-1)\*Exp(-A\*X).
 
 ### Список параметрів
 

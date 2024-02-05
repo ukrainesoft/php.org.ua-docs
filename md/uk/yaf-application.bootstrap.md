@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-application.app.md: '« YafApplication::app'
-  - yaf-application.clearlasterror.md: 'YafApplication::clearLastError »'
+  - yaf-application.app.md: '« Yaf\_Application::app'
+  - yaf-application.clearlasterror.md: 'Yaf\_Application::clearLastError »'
   - index.md: PHP Manual
-  - class.yaf-application.md: YafApplication
-title: 'YafApplication::bootstrap'
+  - class.yaf-application.md: Yaf\_Application
+title: 'Yaf\_Application::bootstrap'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafApplication::bootstrap
+# Yaf\_Application::bootstrap
 
 (Yaf >=1.0.0)
 
-YafApplication::bootstrap — Викликати bootstrap
+Yaf\_Application::bootstrap — Викликати bootstrap
 
 ### Опис
 
@@ -18,21 +19,21 @@ YafApplication::bootstrap — Викликати bootstrap
 public Yaf_Application::bootstrap(Yaf_Bootstrap_Abstract $bootstrap = ?): void
 ```
 
-Запускає Bootstrap, всі методи, визначені в Bootstrap і іменовані з префіксом.init" будуть викликані в порядку їх визначення. Якщо параметр bootstrap не заданий, Yaf його шукатиме по шляху, вказаному в application.directory.
+Запускає Bootstrap, всі методи, визначені в Bootstrap і іменовані з префіксом.\_init" будуть викликані в порядку їх визначення. Якщо параметр bootstrap не заданий, Yaf його шукатиме по шляху, вказаному в application.directory.
 
 ### Список параметрів
 
 `bootstrap`
 
-Екземпляр класу [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)
+Екземпляр класу [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.md)
 
 ### Значення, що повертаються
 
-Екземпляр класу [YafApplication](class.yaf-application.md)
+Екземпляр класу [Yaf\_Application](class.yaf-application.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Bootstrap()****
+**Пример #1 Пример использования**Bootstrap()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ class Bootstrap extends Yaf_Bootstrap_Abstract {
 ?>
 ```
 
-**Приклад #2 Приклад використання **YafApplication::bootstrap()****
+**Пример #2 Пример использования**Yaf\_Application::bootstrap()\*\*\*\*
 
 ```php
 <?php
@@ -66,7 +67,7 @@ $application->bootstrap();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 первый метод вызван
@@ -75,4 +76,4 @@ $application->bootstrap();
 
 ### Дивіться також
 
--   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)
+-   [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.md)

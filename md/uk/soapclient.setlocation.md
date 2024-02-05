@@ -1,16 +1,17 @@
 ---
 navigation:
-  - soapclient.setcookie.md: '« SoapClient::setCookie'
-  - soapclient.setsoapheaders.md: 'SoapClient::setSoapHeaders »'
+  - soapclient.setcookie.md: '« SoapClient::\_\_setCookie'
+  - soapclient.setsoapheaders.md: 'SoapClient::\_\_setSoapHeaders »'
   - index.md: PHP Manual
   - class.soapclient.md: SoapClient
-title: 'SoapClient::setLocation'
+title: 'SoapClient::\_\_setLocation'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapClient::setLocation
+# SoapClient::\_\_setLocation
 
-(PHP 5> = 5.0.4, PHP 7, PHP 8)
+(PHP 5 >= 5.0.4, PHP 7, PHP 8)
 
-SoapClient::setLocation — Встановлює адресу веб-служби, що використовується.
+SoapClient::\_\_setLocation — Встановлює адресу веб-служби, що використовується.
 
 ### Опис
 
@@ -20,7 +21,7 @@ public SoapClient::__setLocation(?string $location = null): ?string
 
 Встановлює URL кінцевої точки, що стосується наступних SOAP-запитів. Еквівалентна налаштуванню `location`, що вказується в конструкторі SoapClient.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Виклик методу необов'язковий. За замовчуванням SoapClient використовує адресу з файлу WSDL.
 
@@ -36,13 +37,13 @@ public SoapClient::__setLocation(?string $location = null): ?string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `location` тепер допускає значення null. |
+| 8.0.3 | `location` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapClient::setLocation()****
+**Пример #1 Пример использования**SoapClient::\_\_setLocation()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ echo $old_location;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 http://www.somethirdparty.com
@@ -65,4 +66,4 @@ http://www.somethirdparty.com
 
 ### Дивіться також
 
--   [SoapClient::construct()](soapclient.construct.md) - Конструктор класу SoapClient
+-   [SoapClient::\_\_construct()](soapclient.construct.md) \- Конструктор класу SoapClient

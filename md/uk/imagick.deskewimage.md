@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::deskewImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::deskewImage
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3> = 3.3.0)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3 >= 3.3.0)
 
 Imagick::deskewImage — Видаляє перекіс із зображення.
 
@@ -30,7 +31,7 @@ public Imagick::deskewImage(float $threshold): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::deskewImage()****
+**Пример #1 Пример использования**Imagick::deskewImage()\*\*\*\*
 
 ```php
 <?php

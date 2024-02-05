@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-rprop-delta-zero.md: « fanngetrpropdeltazero
-  - function.fann-get-sarprop-step-error-shift.md: fanngetsarpropsteperrorshift »
+  - function.fann-get-rprop-delta-zero.md: « fann\_get\_rprop\_delta\_zero
+  - function.fann-get-sarprop-step-error-shift.md: fann\_get\_sarprop\_step\_error\_shift »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetrpropincreasefactor
+  - ref.fann.md: Функції Fann
+title: fann\_get\_rprop\_increase\_factor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetrpropincreasefactor
+# fann\_get\_rprop\_increase\_factor
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetrpropincreasefactor — Повертає коефіцієнт збільшення під час навчання RPROP
+fann\_get\_rprop\_increase\_factor — Повертає коефіцієнт збільшення під час навчання RPROP
 
 ### Опис
 
@@ -30,8 +31,8 @@ fann_get_rprop_increase_factor(resource $ann): float
 
 ### Значення, що повертаються
 
-Коефіцієнт збільшення або **`false`** у разі виникнення помилки.
+Коефіцієнт збільшення або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fannsetrpropincreasefactor()](function.fann-set-rprop-increase-factor.md) - Встановлює коефіцієнт збільшення, який використовується під час навчання Rprop
+-   [fann\_set\_rprop\_increase\_factor()](function.fann-set-rprop-increase-factor.md) \- Встановлює коефіцієнт збільшення, який використовується під час навчання Rprop

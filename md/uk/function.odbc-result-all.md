@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.odbc-procedures.md: « odbcprocedures
-  - function.odbc-result.md: odbcresult »
+  - function.odbc-procedures.md: « odbc\_procedures
+  - function.odbc-result.md: odbc\_result »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcresultall
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_result\_all
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcresultall
+# odbc\_result\_all
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcresultall — Виводить результат як HTML-таблиці
+odbc\_result\_all — Виводить результат як HTML-таблиці
 
 **Увага**
 
-Функція оголошена *Застарілої*починаючи з PHP 8.1.0. Використовувати цю функцію не рекомендується.
+Функція оголошена *застарілої* починаючи з PHP 8.1.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -22,7 +23,7 @@ odbcresultall — Виводить результат як HTML-таблиці
 odbc_result_all(resource $statement, string $format = ""): int|false
 ```
 
-Друкує всі рядки з ідентифікатора результату, створеного [odbcexec()](function.odbc-exec.md). Результат друкується у форматі HTML-таблиці. Дані *не* екрануються.
+Друкує всі рядки з ідентифікатора результату, створеного [odbc\_exec()](function.odbc-exec.md). Результат друкується у форматі HTML-таблиці. Дані *не* екрануються.
 
 Функція не призначена для використання у виробничому середовищі; вона повинна використовуватися для розробки для швидкого отримання результуючого набору.
 
@@ -38,10 +39,10 @@ odbc_result_all(resource $statement, string $format = ""): int|false
 
 ### Значення, що повертаються
 
-Повертає кількість рядків у результаті або **`false`** у разі виникнення помилки.
+Повертає кількість рядків у результаті або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функцію оголошено застарілою. |
+| 8.1.0 | Функцію оголошено застарілою. |

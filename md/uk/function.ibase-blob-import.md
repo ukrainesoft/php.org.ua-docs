@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-blob-get.md: « ibaseblobget
-  - function.ibase-blob-info.md: ibaseblobinfo »
+  - function.ibase-blob-get.md: « ibase\_blob\_get
+  - function.ibase-blob-info.md: ibase\_blob\_info »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseblobimport
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_blob\_import
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseblobimport
+# ibase\_blob\_import
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseblobimport — Створює BLOB-об'єкт, копіює файл і закриває його.
+ibase\_blob\_import — Створює BLOB-об'єкт, копіює файл і закриває його.
 
 ### Опис
 
@@ -36,11 +37,11 @@ ibase_blob_import(resource $file_handle): string
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор BLOB-об'єкта у разі успішного виконання, або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор BLOB-об'єкта у разі успішного виконання, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibaseblobimport()****
+**Пример #1 Пример использования**ibase\_blob\_import()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ if ($fd) {
 
 ### Дивіться також
 
--   [ibaseblobadd()](function.ibase-blob-add.md) - Додає дані до новоствореного BLOB-об'єкту
--   [ibaseblobcancel()](function.ibase-blob-cancel.md) - Скасує створення BLOB-об'єкта
--   [ibaseblobclose()](function.ibase-blob-close.md) - Закриває BLOB-об'єкт
--   [ibaseblobcreate()](function.ibase-blob-create.md) - Створює новий BLOB-об'єкт для заповнення даними
+-   [ibase\_blob\_add()](function.ibase-blob-add.md) \- Додає дані до новоствореного BLOB-об'єкту
+-   [ibase\_blob\_cancel()](function.ibase-blob-cancel.md) \- Скасує створення BLOB-об'єкта
+-   [ibase\_blob\_close()](function.ibase-blob-close.md) \- Закриває BLOB-об'єкт
+-   [ibase\_blob\_create()](function.ibase-blob-create.md) \- Створює новий BLOB-об'єкт для заповнення даними

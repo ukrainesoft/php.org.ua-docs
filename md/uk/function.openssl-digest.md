@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-dh-compute-key.md: « opensslдхcomputekey
-  - function.openssl-encrypt.md: opensslencrypt »
+  - function.openssl-dh-compute-key.md: « openssl\_dh\_compute\_key
+  - function.openssl-encrypt.md: openssl\_encrypt »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: openssldigest
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_digest
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# openssldigest
+# openssl\_digest
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-openssldigest - Обчислення дайджесту
+openssl\_digest - Обчислення дайджесту
 
 ### Опис
 
@@ -28,7 +29,7 @@ openssl_digest(string $data, string $digest_algo, bool $binary = false): string|
 
 `digest_algo`
 
-Метод обчислення дайджесту, наприклад "sha256". Список доступних методів можна отримати за допомогою [opensslgetмдmethods()](function.openssl-get-md-methods.md)
+Метод обчислення дайджесту, наприклад "sha256". Список доступних методів можна отримати за допомогою [openssl\_get\_md\_methods()](function.openssl-get-md-methods.md)
 
 `binary`
 
@@ -36,7 +37,7 @@ openssl_digest(string $data, string $digest_algo, bool $binary = false): string|
 
 ### Значення, що повертаються
 
-Повертає обчислений дайджест або **`false`** у разі виникнення помилки.
+Повертає обчислений дайджест або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -44,4 +45,4 @@ openssl_digest(string $data, string $digest_algo, bool $binary = false): string|
 
 ### Дивіться також
 
--   [opensslgetмдmethods()](function.openssl-get-md-methods.md) - Отримати список доступних методів хешування
+-   [openssl\_get\_md\_methods()](function.openssl-get-md-methods.md) \- Отримати список доступних методів хешування

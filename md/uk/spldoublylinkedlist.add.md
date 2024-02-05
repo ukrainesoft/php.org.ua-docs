@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplDoublyLinkedList::add
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 SplDoublyLinkedList::add — Додає/вставляє нове значення за вказаним індексом
 
@@ -18,7 +19,7 @@ SplDoublyLinkedList::add — Додає/вставляє нове значенн
 public SplDoublyLinkedList::add(int $index, mixed $value): void
 ```
 
-Вставляє значення `value` за вказаним індексом `index`. Попереднє значення (і всі наступні) зміщуються вгору за списком.
+Вставляет значение`value`по указанному индексу`index`. Попереднє значення (і всі наступні) зміщуються вгору за списком.
 
 ### Список параметрів
 

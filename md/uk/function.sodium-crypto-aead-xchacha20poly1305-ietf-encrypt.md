@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.sodium-crypto-aead-xchacha20poly1305-ietf-decrypt.md: « sodiumcryptoaeadxchacha20poly1305ietfdecrypt
-  - function.sodium-crypto-aead-xchacha20poly1305-ietf-keygen.md: sodiumcryptoaeadxchacha20poly1305ietfkeygen »
+  - function.sodium-crypto-aead-xchacha20poly1305-ietf-decrypt.md: « sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_decrypt
+  - function.sodium-crypto-aead-xchacha20poly1305-ietf-keygen.md: sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_keygen »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoaeadxchacha20poly1305ietfencrypt
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_encrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoaeadxchacha20poly1305ietfencrypt
+# sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_encrypt
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoaeadxchacha20poly1305ietfencrypt — (Переважно) Шифрує, а потім перевіряє справжність за допомогою XChaCha20-Poly1305
+sodium\_crypto\_aead\_xchacha20poly1305\_ietf\_encrypt — (Переважно) Шифрує, а потім перевіряє справжність за допомогою XChaCha20-Poly1305
 
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_aead_xchacha20poly1305_ietf_encrypt(    string $message,    string $additional_data,    string $nonce,    string $key): string
+sodium_crypto_aead_xchacha20poly1305_ietf_encrypt(    string $message,    string $additional_data,    string $nonce,    string $key): string
 ```
 
 Шифрує, а потім перевіряє справжність за допомогою XChaCha20-Poly1305 (варіант eXtended-nonce).
 
-Як правило, XChaCha20-Poly1305 - найкращий з наявних режимів AEAD для використання.
+Як правило, XChaCha20-Poly1305 – найкращий з наявних режимів AEAD для використання.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ sodium_crypto_aead_xchacha20poly1305_ietf_encrypt(    string $message,    string
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.md)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [random\_bytes()](function.random-bytes.md)
 
 `key`
 
@@ -42,4 +43,4 @@ sodium_crypto_aead_xchacha20poly1305_ietf_encrypt(    string $message,    string
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає зашифрований текст та тег або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає зашифрований текст та тег або \*\*`false`\*\*в случае возникновения ошибки.

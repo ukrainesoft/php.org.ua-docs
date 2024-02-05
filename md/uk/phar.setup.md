@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.phar.md: « Введение
+  - intro.phar.md: '" Вступ'
   - phar.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.phar.md: Phar
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

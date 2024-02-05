@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-secretstream-xchacha20poly1305-push.md: « sodiumcryptosecretstreamxchacha20poly1305push
-  - function.sodium-crypto-shorthash-keygen.md: sodiumcryptoshorthashkeygen »
+  - function.sodium-crypto-secretstream-xchacha20poly1305-push.md: « sodium\_crypto\_secretstream\_xchacha20poly1305\_push
+  - function.sodium-crypto-shorthash-keygen.md: sodium\_crypto\_shorthash\_keygen »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptosecretstreamxchacha20poly1305rekey
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_secretstream\_xchacha20poly1305\_rekey
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptosecretstreamxchacha20poly1305rekey
+# sodium\_crypto\_secretstream\_xchacha20poly1305\_rekey
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptosecretstreamxchacha20poly1305rekey - Явно повертає ключ у стан secretstream
+sodium\_crypto\_secretstream\_xchacha20poly1305\_rekey - Явно повертає ключ у стан secretstream
 
 ### Опис
 

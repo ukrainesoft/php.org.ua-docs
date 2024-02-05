@@ -1,12 +1,13 @@
 ---
 navigation:
-  - xmldiff.installation.md: « Установка
-  - xmldiff-base.construct.md: 'XMLDiffBase::construct »'
+  - xmldiff.installation.md: « Встановлення
+  - xmldiff-base.construct.md: 'XMLDiff\\Base::\_\_construct »'
   - index.md: PHP Manual
   - book.xmldiff.md: XMLDiff
-title: Клас XMLDiffBase
+title: Клас XMLDiff\\Base
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас XMLDiffBase
+# Клас XMLDiff\\Base
 
 (PECL xmldiff >= 0.8.0)
 
@@ -39,6 +40,6 @@ abstract public merge(mixed $src, mixed $diff): mixed
 
 ## Зміст
 
--   [XMLDiffBase::construct](xmldiff-base.construct.md) - Конструктор
--   [XMLDiffBase::diff](xmldiff-base.diff.md) — Здійснює порівняння двох документів XML
--   [XMLDiffBase::merge](xmldiff-base.merge.md) — Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого
+-   [XMLDiff\\Base::\_\_construct](xmldiff-base.construct.md) \- Конструктор
+-   [XMLDiff\\Base::diff](xmldiff-base.diff.md)— Здійснює порівняння двох документів XML
+-   [XMLDiff\\Base::merge](xmldiff-base.merge.md)— Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domxpath.md: DOMXPath
 title: 'DOMXPath::registerNamespace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMXPath::registerNamespace
 
@@ -18,7 +19,7 @@ DOMXPath::registerNamespace — Реєструє простір імен з об
 public DOMXPath::registerNamespace(string $prefix, string $namespace): bool
 ```
 
-Реєструє URI простору імен `namespace` та префікс `prefix` з об'єктом DOMXPath.
+Реєструє URI простору імен `namespace`и префикс`prefix` з об'єктом DOMXPath.
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ URI простір імен.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

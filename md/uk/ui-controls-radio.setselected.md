@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-radio.onselected.md: '« UIControlsRadio::onSelected'
-  - class.ui-controls-picker.md: ОЙControlsPicker »
+  - ui-controls-radio.onselected.md: '« UI\\Controls\\Radio::onSelected'
+  - class.ui-controls-picker.md: UI\\Controls\\Picker »
   - index.md: PHP Manual
-  - class.ui-controls-radio.md: ОЙControlsRadio
-title: 'ОЙControlsRadio::setSelected'
+  - class.ui-controls-radio.md: UI\\Controls\\Radio
+title: 'UI\\Controls\\Radio::setSelected'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsRadio::setSelected
+# UI\\Controls\\Radio::setSelected
 
 (UI 0.9.9)
 
-ОЙControlsRadio::setSelected — Встановити вибраний варіант
+UI\\Controls\\Radio::setSelected — Встановити вибраний варіант
 
 ### Опис
 

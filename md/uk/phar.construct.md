@@ -4,17 +4,18 @@ navigation:
   - phar.converttodata.md: 'Phar::convertToData »'
   - index.md: PHP Manual
   - class.phar.md: Phar
-title: 'Phar::construct'
+title: 'Phar::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Phar::construct
+# Phar::\_\_construct
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
 
-Phar::construct — Створює об'єкт Phar-архіву
+Phar::\_\_construct — Створює об'єкт Phar-архіву
 
 ### Опис
 
-public **Phar::construct**(string `$filename`, int `$flags` = FilesystemIterator::SKIPDOTS | FilesystemIterator::UNIXPATHS, ?string `$alias` **`null`**
+public**Phar::\_\_construct**(string`$filename`, int`$flags`\= FilesystemIterator::SKIP\_DOTS | FilesystemIterator::UNIX\_PATHS, ?string`$alias` **`null`**) .
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public **Phar::construct**(string `$filename`, int `$flags` = FilesystemIterator
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::construct()****
+**Пример #1 Пример использования**Phar::\_\_construct()\*\*\*\*
 
 ```php
 <?php

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbase.md: EventBase
 title: 'EventBase::free'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBase::free
 
@@ -23,7 +24,7 @@ public
 
 **Увага**
 
-Метод **EventBase::free()** не руйнує сам об'єкт. Щоб повністю знищити об'єкт, викличте [unset()](function.unset.md) або привласніть **`null`**
+Метод**EventBase::free()** не руйнує сам об'єкт. Щоб повністю знищити об'єкт, викличте [unset()](function.unset.md)или присвойте\*\*`null`\*\*
 
 Цей метод не звільняє і не від'єднує будь-які події, які на даний момент пов'язані з об'єктом [EventBase](class.eventbase.md), і не закриває їх сокети - будьте обережні.
 
@@ -37,4 +38,4 @@ public
 
 ### Дивіться також
 
--   [EventBase::construct()](eventbase.construct.md) - Конструктор об'єкту EventBase
+-   [EventBase::\_\_construct()](eventbase.construct.md) \- Конструктор об'єкту EventBase

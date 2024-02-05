@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-view-simple.getscriptpath.md: '« YafViewSimple::getScriptPath'
-  - yaf-view-simple.render.md: 'YafViewSimple::render »'
+  - yaf-view-simple.getscriptpath.md: '« Yaf\_View\_Simple::getScriptPath'
+  - yaf-view-simple.render.md: 'Yaf\_View\_Simple::render »'
   - index.md: PHP Manual
-  - class.yaf-view-simple.md: YafViewSimple
-title: 'YafViewSimple::isset'
+  - class.yaf-view-simple.md: Yaf\_View\_Simple
+title: 'Yaf\_View\_Simple::\_\_isset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafViewSimple::isset
+# Yaf\_View\_Simple::\_\_isset
 
 (Yaf >=1.0.0)
 
-YafViewSimple::isset - Призначення isset
+Yaf\_View\_Simple::\_\_isset — Назначение\_\_isset
 
 ### Опис
 

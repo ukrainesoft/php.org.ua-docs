@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.dir.md: Функції для роботи з каталогами
 title: rewinddir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # rewinddir
 
@@ -32,6 +33,6 @@ rewinddir(?resource $dir_handle = null): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `dir_handle` тепер допускає значення null. |
+| 8.0.0 | `dir_handle` тепер допускає значення null. |

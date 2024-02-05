@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-check.ischecked.md: '« UIControlsCheck::isChecked'
-  - ui-controls-check.setchecked.md: 'ОЙControlsCheck::setChecked »'
+  - ui-controls-check.ischecked.md: '« UI\\Controls\\Check::isChecked'
+  - ui-controls-check.setchecked.md: 'UI\\Controls\\Check::setChecked »'
   - index.md: PHP Manual
-  - class.ui-controls-check.md: ОЙControlsCheck
-title: 'ОЙControlsCheck::onToggle'
+  - class.ui-controls-check.md: UI\\Controls\\Check
+title: 'UI\\Controls\\Check::onToggle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsCheck::onToggle
+# UI\\Controls\\Check::onToggle
 
 (UI 0.9.9)
 
-ОЙControlsCheck::onToggle — Функція зворотного виклику перемикання
+UI\\Controls\\Check::onToggle — Функція зворотного виклику перемикання
 
 ### Опис
 

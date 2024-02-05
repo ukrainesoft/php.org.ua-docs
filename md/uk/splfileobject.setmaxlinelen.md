@@ -1,14 +1,15 @@
 ---
 navigation:
   - splfileobject.setflags.md: '« SplFileObject::setFlags'
-  - splfileobject.tostring.md: 'SplFileObject::toString »'
+  - splfileobject.tostring.md: 'SplFileObject::\_\_toString »'
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::setMaxLineLen'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::setMaxLineLen
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::setMaxLineLen — Встановити максимальну довжину рядка
 
@@ -32,11 +33,11 @@ public SplFileObject::setMaxLineLen(int $maxLength): void
 
 ### Помилки
 
-Викидає [DomainException](class.domainexception.md), якщо значення `maxLength` меньше нуля.
+Викидає [DomainException](class.domainexception.md), если значение`maxLength`меньше нуля.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::setMaxLineLen()****
+**Пример #1 Пример использования**SplFileObject::setMaxLineLen()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ foreach ($file as $line) {
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec sapien felis, ac sodales nisl. Nulla vitae magna vitae purus aliquet consequat.
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Lorem ipsum dolor s
@@ -70,4 +71,4 @@ consequat.
 
 ### Дивіться також
 
--   [SplFileObject::getMaxLineLen()](splfileobject.getmaxlinelen.md) - Отримати максимальну довжину рядка
+-   [SplFileObject::getMaxLineLen()](splfileobject.getmaxlinelen.md) \- Отримати максимальну довжину рядка

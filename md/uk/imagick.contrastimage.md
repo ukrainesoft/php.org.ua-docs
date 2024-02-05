@@ -1,10 +1,11 @@
 ---
 navigation:
-  - imagick.construct.md: '« Imagick::construct'
+  - imagick.construct.md: '« Imagick::\_\_construct'
   - imagick.contraststretchimage.md: 'Imagick::contrastStretchImage »'
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::contrastImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::contrastImage
 
@@ -36,7 +37,7 @@ public Imagick::contrastImage(bool $sharpen): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::contrastImage()****
+**Пример #1 Пример использования**Imagick::contrastImage()\*\*\*\*
 
 ```php
 <?php

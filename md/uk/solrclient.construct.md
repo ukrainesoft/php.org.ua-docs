@@ -4,17 +4,18 @@ navigation:
   - solrclient.deletebyid.md: 'SolrClient::deleteById »'
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
-title: 'SolrClient::construct'
+title: 'SolrClient::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrClient::construct
+# SolrClient::\_\_construct
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrClient::construct - Конструктор об'єкта SolrClient
+SolrClient::\_\_construct - Конструктор об'єкта SolrClient
 
 ### Опис
 
-public **SolrClient::construct**(array `$clientOptions`
+public**SolrClient::\_\_construct**(array`$clientOptions`) .
 
 Конструктор об'єкта SolrClient
 
@@ -24,7 +25,7 @@ public **SolrClient::construct**(array `$clientOptions`
 
 Масив, що містить один із таких ключів:
 
-secure (Логічне значення, яке вказує, чи слід підключатися в безпечному режимі)
+\- secure (Логічне значення, яке вказує, чи слід підключатися в безпечному режимі)
 
 -   hostname (Ім'я хоста для сервера Solr)
 -   port (Номер порту)
@@ -32,28 +33,28 @@ secure (Логічне значення, яке вказує, чи слід пі
 -   wt (ім'я автора відповіді, наприклад xml, json)
 -   login (Ім'я користувача, яке використовується для HTTP-автентифікації, якщо є)
 -   password (Пароль HTTP-автентифікації)
--   proxyhost (ім'я хоста для проксі-сервера, якщо є)
--   proxyport (Порт проксі)
--   proxylogin (Ім'я користувача проксі)
--   proxypassword (Пароль проксі)
+-   proxy\_host (ім'я хоста для проксі-сервера, якщо є)
+-   proxy\_port (Порт проксі)
+-   proxy\_login (Ім'я користувача проксі)
+-   proxy\_password (Пароль проксі)
 -   timeout (Максимальний час у секундах, дозволений для операції передачі http. За замовчуванням 30 секунд)
--   sslcert (ім'я файлу у форматі PEM, що містить закритий ключ + закритий сертифікат (об'єднані в цьому порядку))
--   sslkey (Ім'я файлу лише для файлу закритого ключа у форматі PEM)
--   sslkeypassword (Пароль для закритого ключа)
--   sslcainfo (ім'я файлу, що містить один або кілька сертифікатів CA для перевірки однорангового вузла)
--   sslcapath (Ім'я каталогу, що містить кілька сертифікатів CA для перевірки однорангового вузла)
+-   ssl\_cert (ім'я файлу у форматі PEM, що містить закритий ключ + закритий сертифікат (об'єднані в цьому порядку))
+-   ssl\_key (Ім'я файлу лише для файлу закритого ключа у форматі PEM)
+-   ssl\_keypassword (Пароль для закритого ключа)
+-   ssl\_cainfo (Ім'я файлу, що містить один або кілька сертифікатів CA для перевірки однорангового вузла)
+-   ssl\_capath (Ім'я каталогу, що містить кілька сертифікатів CA для перевірки однорангового вузла)
 
-Зверніть увагу: якщо файл sslcert містить лише приватний сертифікат, вам необхідно вказати окремий файл sslkey.
+Обратите внимание: если файл ssl\_cert містить лише приватний сертифікат, вам необхідно вказати окремий файл ssl\_key.
 
-Параметр sslkeypassword необхідний, якщо встановлені параметри sslcert або sslkey.
+Параметр ssl\_keypassword необхідний, якщо встановлені параметри ssl\_cert або ssl\_key.
 
 ### Помилки
 
-Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.md) у разі виникнення помилки.
+Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.md)в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrClient::construct()****
+**Пример #1 Пример использования**SolrClient::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -81,8 +82,8 @@ $updateResponse = $client->addDocument($doc);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ### Дивіться також
 
--   [SolrClient::getOptions()](solrclient.getoptions.md) - Повертає внутрішні параметри клієнта
+-   [SolrClient::getOptions()](solrclient.getoptions.md) \- Повертає внутрішні параметри клієнта

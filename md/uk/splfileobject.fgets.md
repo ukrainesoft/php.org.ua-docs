@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fgets'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::fgets
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fgets — Отримує рядок із файлу
 
@@ -26,7 +27,7 @@ public SplFileObject::fgets(): string
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить наступний рядок із файлу, або **`false`** у разі виникнення помилки.
+Повертає рядок, який містить наступний рядок із файлу.
 
 ### Помилки
 
@@ -34,7 +35,7 @@ public SplFileObject::fgets(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::fgets()****
+**Пример #1 Пример использования**SplFileObject::fgets()\*\*\*\*
 
 Цей приклад построчно виводить вміст `file.txt`
 
@@ -49,7 +50,7 @@ while (!$file->eof()) {
 
 ### Дивіться також
 
--   [fgets()](function.fgets.md) - Читає рядок із файлу
--   [SplFileObject::fgetss()](splfileobject.fgetss.md) - Отримати рядок із файлу та видалити теги HTML
--   [SplFileObject::fgetc()](splfileobject.fgetc.md) - Отримує символ із файлу
--   [SplFileObject::current()](splfileobject.current.md) - Отримати поточний рядок файлу
+-   [fgets()](function.fgets.md) \- Читає рядок із файлу
+-   [SplFileObject::fgetss()](splfileobject.fgetss.md) \- Отримати рядок із файлу та видалити теги HTML
+-   [SplFileObject::fgetc()](splfileobject.fgetc.md) \- Отримує символ із файлу
+-   [SplFileObject::current()](splfileobject.current.md) \- Отримати поточний рядок файлу

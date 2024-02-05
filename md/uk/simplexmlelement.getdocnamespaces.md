@@ -1,14 +1,15 @@
 ---
 navigation:
-  - simplexmlelement.count.md: '« SimpleXMLElement::count'
+  - simplexmlelement.current.md: '« SimpleXMLElement::current'
   - simplexmlelement.getname.md: 'SimpleXMLElement::getName »'
   - index.md: PHP Manual
   - class.simplexmlelement.md: SimpleXMLElement
 title: 'SimpleXMLElement::getDocNamespaces'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SimpleXMLElement::getDocNamespaces
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SimpleXMLElement::getDocNamespaces — Повертає простір імен, оголошених у документі
 
@@ -28,11 +29,11 @@ public SimpleXMLElement::getDocNamespaces(bool $recursive = false, bool $fromRoo
 
 `fromRoot`
 
-Дозволяє рекурсивно перевірити простір імен біля дочірнього вузла замість кореневого вузла XML документа.
+Дозволяє рекурсивно перевірити простір імен у дочірнього вузла замість кореневого вузла XML документа.
 
 ### Значення, що повертаються
 
-Метод `getDocNamespaces` повертає масив (array) з назвами просторів імен та пов'язаними з ними URI.
+Метод`getDocNamespaces` повертає масив (array) з назвами просторів імен та пов'язаними з ними URI.
 
 ### Приклади
 
@@ -57,7 +58,7 @@ var_dump($namespaces);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {
@@ -89,7 +90,7 @@ var_dump($namespaces);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(3) {
@@ -104,5 +105,5 @@ array(3) {
 
 ### Дивіться також
 
--   [SimpleXMLElement::getNamespaces()](simplexmlelement.getnamespaces.md) - Повертає простір імен, що використовуються в документі
--   [SimpleXMLElement::registerXPathNamespace()](simplexmlelement.registerxpathnamespace.md) - Створює префікс/простір імен контексту для наступного запиту XPath
+-   [SimpleXMLElement::getNamespaces()](simplexmlelement.getnamespaces.md) \- Повертає простір імен, які використовуються в документі
+-   [SimpleXMLElement::registerXPathNamespace()](simplexmlelement.registerxpathnamespace.md) \- Створює префікс/простір імен контексту для наступного запиту XPath

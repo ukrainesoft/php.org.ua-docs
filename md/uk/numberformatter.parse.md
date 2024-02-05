@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::parse'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NumberFormatter::parse
 
-# numfmtparse
+# numfmt\_parse
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::parse -- numfmtparse — Розбирає число
+NumberFormatter::parse -- numfmt\_parse — Розбирає число
 
 ### Опис
 
@@ -25,10 +26,10 @@ public NumberFormatter::parse(string $string, int $type = NumberFormatter::TYPE_
 Процедурний стиль
 
 ```methodsynopsis
-numfmt_parse(    NumberFormatter $formatter,    string $string,    int $type = NumberFormatter::TYPE_DOUBLE,    int &$offset = null): int|float|false
+numfmt_parse(    NumberFormatter $formatter,    string $string,    int $type = NumberFormatter::TYPE_DOUBLE,    int &$offset = null): int|float|false
 ```
 
-Перетворює рядок на число, використовуючи правила засобу форматування.
+Перетворює рядок на число за правилами засобу форматування.
 
 ### Список параметрів
 
@@ -42,7 +43,7 @@ numfmt_parse(    NumberFormatter $formatter,    string $string,    int $type = N
 
 `type`
 
-Використовуваний [тип форматирования](class.numberformatter.md#intl.numberformatter-constants.types). За замовчуванням використовується **`NumberFormatter::TYPE_DOUBLE`**
+Використовуваний [тип форматування](class.numberformatter.md#intl.numberformatter-constants.types)По умолчанию используется\*\*`NumberFormatter::TYPE_DOUBLE`**Обратите внимание, что константа**`NumberFormatter::TYPE_CURRENCY`\*\* не підтримується; скористайтеся замість неї методом [NumberFormatter::parseCurrency()](numberformatter.parsecurrency.md)
 
 `offset`
 
@@ -50,11 +51,11 @@ numfmt_parse(    NumberFormatter $formatter,    string $string,    int $type = N
 
 ### Значення, що повертаються
 
-Значення аналізованого числа або **`false`** у разі виникнення помилки.
+Повертає значення аналізованого числа чи логічне значення \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmtparse()****
+**Пример #1 Пример использования**numfmt\_parse()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +77,7 @@ echo $fmt->parse($num, NumberFormatter::TYPE_INT32)."\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1234567.891
@@ -85,6 +86,6 @@ echo $fmt->parse($num, NumberFormatter::TYPE_INT32)."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
--   [numfmtformat()](numberformatter.format.md) - Форматує число
--   [numfmtparsecurrency()](numberformatter.parsecurrency.md) - Розбирає номер валюти
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.md) \- Отримує останній код помилки засобу форматування
+-   [numfmt\_format()](numberformatter.format.md) \- Форматує число
+-   [numfmt\_parse\_currency()](numberformatter.parsecurrency.md) \- Розбирає номер валюти

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-checkout.md: « svncheckout
-  - function.svn-client-version.md: svnclientversion »
+  - function.svn-checkout.md: « svn\_checkout
+  - function.svn-client-version.md: svn\_client\_version »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svncleanup
+title: svn\_cleanup
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svncleanup
+# svn\_cleanup
 
 (PECL svn >= 0.1.0)
 
-svncleanup - Рекурсивно очищає робочу копію директорії, завершує незакінчені операції та знімає блокування
+svn\_cleanup - Рекурсивно очищає робочу копію директорії, завершує незакінчені операції та знімає блокування
 
 ### Опис
 
@@ -26,11 +27,11 @@ svn_cleanup(string $workingdir): bool
 
 Шлях до локальної робочої копії для чищення.
 
-> **Зауваження**: Відносні шляхи будуть обчислені, якби поточна робоча директорія була домашньою папкою самого PHP Щоб використовувати робочу директорію скрипта, що викликає, використовуйте [realpath()](function.realpath.md) або dirname(FILE
+> **Зауваження**: Відносні шляхи будуть обчислені, якби поточна робоча директорія була домашньою папкою самого PHP Щоб використовувати робочу директорію скрипта, що викликає, використовуйте [realpath()](function.realpath.md)или dirname(\_\_FILE\_\_
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -55,4 +56,4 @@ svn_cleanup(realpath('help-me'));
 ### Дивіться також
 
 -   **update()**
--   [»  SVN-документация по svn cleanup](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cleanup.md)
+-   [» SVN-документація з svn cleanup](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cleanup.md)

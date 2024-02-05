@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::getOutput'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::getOutput
 
@@ -21,7 +22,7 @@ public
 
 Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією. Вихідний буфер є сховищем даних для запису.
 
-Зверніть увагу, що є також `[output](class.eventbufferevent.md#eventbufferevent.props.output)` властивість класу [EventBufferEvent](class.eventbufferevent.md)
+Зверніть увагу, що є також `[output](class.eventbufferevent.md#eventbufferevent.props.output)`свойство класса[EventBufferEvent](class.eventbufferevent.md)
 
 ### Список параметрів
 
@@ -33,7 +34,7 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventBufferEvent::getOutput()****
+**Пример #1 Пример использования**EventBufferEvent::getOutput()\*\*\*\*
 
 ```php
 <?php
@@ -69,4 +70,4 @@ if (!$output->add(
 
 ### Дивіться також
 
--   [EventBufferEvent::getInput()](eventbufferevent.getinput.md) - Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією
+-   [EventBufferEvent::getInput()](eventbufferevent.getinput.md) \- Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією

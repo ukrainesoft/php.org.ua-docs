@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.filter.md: « Функції фільтрації даних
-  - function.filter-id.md: filterid »
+  - function.filter-id.md: filter\_id »
   - index.md: PHP Manual
   - ref.filter.md: Функції фільтрації даних
-title: filterhasvar
+title: filter\_has\_var
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# filterhasvar
+# filter\_has\_var
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-filterhasvar — Перевіряє існування змінної вказаного типу
+filter\_has\_var — Перевіряє існування змінної вказаного типу
 
 ### Опис
 
@@ -22,7 +23,7 @@ filter_has_var(int $input_type, string $var_name): bool
 
 `input_type`
 
-Один з **`INPUT_GET`** **`INPUT_POST`** **`INPUT_COOKIE`** **`INPUT_SERVER`** **`INPUT_ENV`**
+Один из\*\*`INPUT_GET`\*\* **`INPUT_POST`** **`INPUT_COOKIE`** **`INPUT_SERVER`** **`INPUT_ENV`**
 
 `var_name`
 
@@ -30,4 +31,4 @@ filter_has_var(int $input_type, string $var_name): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

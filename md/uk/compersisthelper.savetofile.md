@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.compersisthelper.md: COMPersistHelper
 title: 'COMPersistHelper::SaveToFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # COMPersistHelper::SaveToFile
 
@@ -28,19 +29,19 @@ public COMPersistHelper::SaveToFile(?string $filename, bool $remember = true): b
 
 `remember`
 
-Визначає, чи буде `filename` використовуватись для поточного робочого файлу. Якщо **`true`**, то `filename` стає поточним файлом, і об'єкт повинен очистити свій прапор dirty після збереження. Якщо **`false`**, то ця операція запису буде вважатися як "Save A Copy As...". У цьому випадку поточний файл залишиться без змін та об'єкт не зніматиме прапор dirty.
+Визначає, чи буде `filename` використовуватись для поточного робочого файлу. Якщо **`true`**, то`filename` стає поточним файлом, і об'єкт повинен очистити свій прапор dirty після збереження. Якщо **`false`**, то ця операція запису буде вважатися як "Save A Copy As...". У цьому випадку поточний файл залишиться без змін та об'єкт не зніматиме прапор dirty.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Викидає виняток [comexception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistFile**або якщо виклик **IPersistFile::Save()** завершився помилкою.
+Викидає виняток [com\_exception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistFile**або якщо виклик **IPersistFile::Save()** завершився помилкою.
 
 ### Приклади
 
-**Приклад #1 Використання **COMPersistHelper::saveToFile()****
+**Пример #1 Использование**COMPersistHelper::saveToFile()\*\*\*\*
 
 ```php
 <?php

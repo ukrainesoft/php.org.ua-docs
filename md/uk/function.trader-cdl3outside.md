@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdl3linestrike.md: « tradercdl3linestrike
-  - function.trader-cdl3starsinsouth.md: tradercdl3starsinsouth »
+  - function.trader-cdl3linestrike.md: « trader\_cdl3linestrike
+  - function.trader-cdl3starsinsouth.md: trader\_cdl3starsinsouth »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdl3outside
+  - ref.trader.md: Функції Trader
+title: trader\_cdl3outside
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdl3outside
+# trader\_cdl3outside
 
 (PECL trader >= 0.2.0)
 
-tradercdl3outside — Три зовнішні дні вгору і три зовнішні дні вниз
+trader\_cdl3outside — Три зовнішні дні вгору і три зовнішні дні вниз
 
 ### Опис
 
 ```methodsynopsis
-trader_cdl3outside(    array $open,    array $high,    array $low,    array $close): array
+trader_cdl3outside(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

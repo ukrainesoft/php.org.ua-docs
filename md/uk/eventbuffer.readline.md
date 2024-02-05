@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::readLine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBuffer::readLine
 
@@ -22,13 +23,13 @@ public
    ): string
 ```
 
-Витягує рядок з початку буфера і повертає його в новому рядку. Якщо немає цілого рядка для читання, функція повертає **`null`**. Термінатор рядка не включається до скопійованого рядка.
+Витягує рядок з початку буфера і повертає його в новому рядку. Якщо немає цілого рядка для читання, функція повертає **`null`**. Кінцевий знак рядка не входить до скопійованого рядка.
 
 ### Список параметрів
 
 `eol_style`
 
-Одна з [EventBuffer:EOLконстант](class.eventbuffer.md#eventbuffer.constants)
+Одна из[EventBuffer:EOL\_\*констант](class.eventbuffer.md#eventbuffer.constants)
 
 ### Значення, що повертаються
 
@@ -36,8 +37,8 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::copyout()](eventbuffer.copyout.md) - Копіює вказану кількість байтів з початку буфера
--   [EventBuffer::drain()](eventbuffer.drain.md) - Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
--   [EventBuffer::pullup()](eventbuffer.pullup.md) - Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
--   [EventBuffer::read()](eventbuffer.read.md) - Читає дані з evbuffer та виснажує прочитані байти
--   [EventBuffer::appendFrom()](eventbuffer.appendfrom.md) - Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
+-   [EventBuffer::copyout()](eventbuffer.copyout.md) \- Копіює вказану кількість байтів з початку буфера
+-   [EventBuffer::drain()](eventbuffer.drain.md) \- Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
+-   [EventBuffer::pullup()](eventbuffer.pullup.md) \- Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
+-   [EventBuffer::read()](eventbuffer.read.md) \- Читає дані з evbuffer та виснажує прочитані байти
+-   [EventBuffer::appendFrom()](eventbuffer.appendfrom.md) \- Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера

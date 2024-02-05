@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.fmod.md: « fmod
-  - function.hexdec.md: hexdec »
+  - ref.random.md: « Функції Random
+  - function.lcg-value.md: lcg\_value »
   - index.md: PHP Manual
-  - ref.math.md: Математичні функції
+  - ref.random.md: Функції Random
 title: getrandmax
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # getrandmax
 
@@ -30,6 +31,6 @@ getrandmax(): int
 
 ### Дивіться також
 
--   [rand()](function.rand.md) - Генерує випадкове число
--   [srand()](function.srand.md) - Змінює початкове число генератора псевдовипадкових чисел
--   [мтgetrandmax()](function.mt-getrandmax.md) - Показує максимально можливе значення випадкового числа
+-   [rand()](function.rand.md) \- Генерує випадкове число
+-   [srand()](function.srand.md) \- Задає початкове число генератора псевдовипадкових чисел
+-   [mt\_getrandmax()](function.mt-getrandmax.md) \- Показує максимально можливе значення випадкового числа

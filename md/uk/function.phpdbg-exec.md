@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.phpdbg-end-oplog.md: « phpdbgendoplog
-  - function.phpdbg-get-executable.md: phpdbggetexecutable »
+  - function.phpdbg-end-oplog.md: « phpdbg\_end\_oplog
+  - function.phpdbg-get-executable.md: phpdbg\_get\_executable »
   - index.md: PHP Manual
-  - ref.phpdbg.md: Функции phpdbg
-title: phpdbgexec
+  - ref.phpdbg.md: Функції phpdbg
+title: phpdbg\_exec
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# phpdbgexec
+# phpdbg\_exec
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-phpdbgexec — Спробувати встановити контекст виконання
+phpdbg\_exec — Спробувати встановити контекст виконання
 
 ### Опис
 
@@ -20,7 +21,7 @@ phpdbg_exec(string $context): string|bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

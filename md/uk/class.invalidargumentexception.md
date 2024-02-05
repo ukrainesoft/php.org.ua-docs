@@ -3,12 +3,13 @@ navigation:
   - class.domainexception.md: « DomainException
   - class.lengthexception.md: LengthException »
   - index.md: PHP Manual
-  - spl.exceptions.md: Исключения
+  - spl.exceptions.md: Винятки
 title: Клас InvalidArgumentException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас InvalidArgumentException
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,48 +19,45 @@ title: Клас InvalidArgumentException
 
 ```classsynopsis
 
-     
+    
+     class InvalidArgumentException
     
 
     
-     
-      class InvalidArgumentException
-     
-
-     
-      extends
-       LogicException
-     
+     extends
+      LogicException
      {
 
     /* Наследуемые свойства */
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */
     
-   final public Exception::getMessage(): string
+   public Exception::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+    final public Exception::getMessage(): string
 final public Exception::getPrevious(): ?Throwable
 final public Exception::getCode(): int
 final public Exception::getFile(): string

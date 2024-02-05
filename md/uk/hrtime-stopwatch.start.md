@@ -1,16 +1,17 @@
 ---
 navigation:
-  - hrtime-stopwatch.isrunning.md: '« HRTimeStopWatch::isRunning'
-  - hrtime-stopwatch.stop.md: 'HRTimeStopWatch::stop »'
+  - hrtime-stopwatch.isrunning.md: '« HRTime\\StopWatch::isRunning'
+  - hrtime-stopwatch.stop.md: 'HRTime\\StopWatch::stop »'
   - index.md: PHP Manual
-  - class.hrtime-stopwatch.md: HRTimeStopWatch
-title: 'HRTimeStopWatch::start'
+  - class.hrtime-stopwatch.md: HRTime\\StopWatch
+title: 'HRTime\\StopWatch::start'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# HRTimeStopWatch::start
+# HRTime\\StopWatch::start
 
 (PECL hrtime >= 0.4.3)
 
-HRTimeStopWatch::start — Запустити час.
+HRTime\\StopWatch::start — Запустити час.
 
 ### Опис
 

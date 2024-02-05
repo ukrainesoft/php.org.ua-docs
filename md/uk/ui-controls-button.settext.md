@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-button.onclick.md: '« UIControlsButton::onClick'
-  - class.ui-controls-colorbutton.md: ОЙControlsColorButton »
+  - ui-controls-button.onclick.md: '« UI\\Controls\\Button::onClick'
+  - class.ui-controls-colorbutton.md: UI\\Controls\\ColorButton »
   - index.md: PHP Manual
-  - class.ui-controls-button.md: ОЙControlsButton
-title: 'ОЙControlsButton::setText'
+  - class.ui-controls-button.md: UI\\Controls\\Button
+title: 'UI\\Controls\\Button::setText'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsButton::setText
+# UI\\Controls\\Button::setText
 
 (UI 0.9.9)
 
-ОЙControlsButton::setText — Встановити текст
+UI\\Controls\\Button::setText — Встановити текст
 
 ### Опис
 

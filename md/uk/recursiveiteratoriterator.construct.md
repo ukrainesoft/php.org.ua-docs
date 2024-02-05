@@ -4,17 +4,18 @@ navigation:
   - recursiveiteratoriterator.current.md: 'RecursiveIteratorIterator::current »'
   - index.md: PHP Manual
   - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
-title: 'RecursiveIteratorIterator::construct'
+title: 'RecursiveIteratorIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# RecursiveIteratorIterator::construct
+# RecursiveIteratorIterator::\_\_construct
 
-(PHP 5> = 5.1.3, PHP 7, PHP 8)
+(PHP 5 >= 5.1.3, PHP 7, PHP 8)
 
-RecursiveIteratorIterator::construct — Конструктор класу RecursiveIteratorIterator
+RecursiveIteratorIterator::\_\_construct — Конструктор класу RecursiveIteratorIterator
 
 ### Опис
 
-public **RecursiveIteratorIterator::construct**[Traversable](class.traversable.md) `$iterator`, int `$mode` = RecursiveIteratorIterator::LEAVESONLY, int `$flags`
+public**RecursiveIteratorIterator::\_\_construct** [Traversable](class.traversable.md) `$iterator`, int`$mode`\= RecursiveIteratorIterator::LEAVES\_ONLY, int`$flags`
 
 Створює новий об'єкт класу [RecursiveIteratorIterator](class.recursiveiteratoriterator.md) на основі об'єкта [RecursiveIterator](class.recursiveiterator.md)
 
@@ -22,15 +23,15 @@ public **RecursiveIteratorIterator::construct**[Traversable](class.traversable.m
 
 `iterator`
 
-Об'єкт-ітератор, на основі якого потрібно побудувати цей екземпляр. Це може бути об'єкт класу [RecursiveIterator](class.recursiveiterator.md) або класу [IteratorAggregate](class.iteratoraggregate.md)
+Об'єкт-ітератор, на основі якого потрібно побудувати цей екземпляр. Це може бути об'єкт класу [RecursiveIterator](class.recursiveiterator.md)или класса[IteratorAggregate](class.iteratoraggregate.md)
 
 `mode`
 
 Необов'язковий параметр. Завдання режиму роботи архітектора. Можливі значення:
 
--   **`RecursiveIteratorIterator::LEAVES_ONLY`** - За замовчуванням. Ітерація здійснюватиметься лише з листів дерева елементів.
--   **`RecursiveIteratorIterator::SELF_FIRST`** - Ітерація здійснюватиметься по всьому дереву елементів, причому першими йдуть батьківські елементи.
--   **`RecursiveIteratorIterator::CHILD_FIRST`** - Ітерація буде здійснюватись по всьому дереву елементів, причому першими будуть йти дочірні елементи.
+-   \*\*`RecursiveIteratorIterator::LEAVES_ONLY`\*\*- За замовчуванням. Ітерація здійснюватиметься лише з листів дерева елементів.
+-   \*\*`RecursiveIteratorIterator::SELF_FIRST`\*\*- Ітерація здійснюватиметься по всьому дереву елементів, причому першими будуть батьківські елементи.
+-   \*\*`RecursiveIteratorIterator::CHILD_FIRST`\*\*- Ітерація буде здійснюватись по всьому дереву елементів, причому першими будуть йти дочірні елементи.
 
 `flags`
 

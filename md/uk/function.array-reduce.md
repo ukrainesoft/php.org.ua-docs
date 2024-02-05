@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.array-rand.md: « arrayrand
-  - function.array-replace-recursive.md: arrayreplacerecursive »
+  - function.array-rand.md: « array\_rand
+  - function.array-replace-recursive.md: array\_replace\_recursive »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
-title: arrayreduce
+title: array\_reduce
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# arrayreduce
+# array\_reduce
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
-arrayreduce - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
+array\_reduce - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
 
 ### Опис
 
@@ -18,7 +19,7 @@ arrayreduce - Ітеративно зменшує масив до єдиного
 array_reduce(array $array, callable $callback, mixed $initial = null): mixed
 ```
 
-**arrayreduce()** ітеративно застосовує callback-функцію `callback` до елементів масиву `array` і таким чином зводить масив до єдиного значення.
+**array\_reduce()** ітеративно застосовує callback-функцію `callback` до елементів масиву `array`и, таким образом, сводит массив к единственному значению.
 
 ### Список параметрів
 
@@ -42,23 +43,23 @@ callback(mixed $carry, mixed $item): mixed
 
 `initial`
 
-Якщо передано необов'язковий параметр `initial`, то він буде використаний на початку процесу, або як остаточний результат у разі порожнього масиву.
+Якщо передано необов'язковий параметр `initial`, то він буде використаний на початку процесу, або як остаточний результат у випадку порожнього масиву.
 
 ### Значення, що повертаються
 
 Повертає значення, що вийшло.
 
-Якщо масив порожній і не передано параметр `initial` **arrayreduce()** поверне **`null`**
+Якщо масив порожній і не передано параметр `initial` **array\_reduce()** поверне **`null`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Якщо параметр `callback` очікує, що буде передано значення за посиланням, функція тепер видасть помилку рівня **`E_WARNING`** |
+| 8.0.0 | Тепер функція видасть помилку рівня **`E_WARNING`**, якщо параметр callback-функції, переданої у параметр `callback`, очікує на передачу значення за посиланням. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **arrayreduce()****
+**Пример #1 Пример использования**array\_reduce()\*\*\*\*
 
 ```php
 <?php
@@ -85,7 +86,7 @@ var_dump(array_reduce($x, "sum", "Нет данных")); // string(19) "Нет 
 
 ### Дивіться також
 
--   [arrayfilter()](function.array-filter.md) - Фільтрує елементи масиву за допомогою callback-функції
--   [arraymap()](function.array-map.md) - Застосовує callback-функцію до всіх елементів зазначених масивів
--   [arrayunique()](function.array-unique.md) - Прибирає значення, що повторюються, з масиву
--   [arraycountvalues()](function.array-count-values.md) - підраховує кількість усіх значень масиву
+-   [array\_filter()](function.array-filter.md) \- Фільтрує елементи масиву за допомогою callback-функції
+-   [array\_map()](function.array-map.md) \- Застосовує callback-функцію до всіх елементів зазначених масивів
+-   [array\_unique()](function.array-unique.md) \- Прибирає значення, що повторюються, з масиву
+-   [array\_count\_values()](function.array-count-values.md) \- Підраховує кількість входжень кожного окремого значення у масиві

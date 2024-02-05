@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.v8jsexception.md: V8JsException
 title: 'V8JsException::getJsSourceLine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # V8JsException::getJsSourceLine
 
@@ -20,7 +21,7 @@ final public V8JsException::getJsSourceLine(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

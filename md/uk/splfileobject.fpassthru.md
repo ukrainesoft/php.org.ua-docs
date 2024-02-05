@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fpassthru'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::fpassthru
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fpassthru — Виводить весь вміст файлу, що залишився, у вихідний потік
 
@@ -32,7 +33,7 @@ public SplFileObject::fpassthru(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::fpassthru()****
+**Пример #1 Пример использования**SplFileObject::fpassthru()\*\*\*\*
 
 ```php
 <?php
@@ -53,4 +54,4 @@ exit;
 
 ### Дивіться також
 
--   [fpassthru()](function.fpassthru.md) - Виводить всі дані з файлового покажчика, що залишилися.
+-   [fpassthru()](function.fpassthru.md) \- Виводить всі дані з файлового покажчика, що залишилися.

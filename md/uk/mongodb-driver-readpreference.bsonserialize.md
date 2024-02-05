@@ -1,21 +1,22 @@
 ---
 navigation:
-  - class.mongodb-driver-readpreference.md: « MongoDBDriverReadPreference
-  - mongodb-driver-readpreference.construct.md: 'MongoDBDriverReadPreference::construct »'
+  - class.mongodb-driver-readpreference.md: « MongoDB\\Driver\\ReadPreference
+  - mongodb-driver-readpreference.construct.md: 'MongoDB\\Driver\\ReadPreference::\_\_construct »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
-title: 'MongoDBDriverReadPreference::bsonSerialize'
+  - class.mongodb-driver-readpreference.md: MongoDB\\Driver\\ReadPreference
+title: 'MongoDB\\Driver\\ReadPreference::bsonSerialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverReadPreference::bsonSerialize
+# MongoDB\\Driver\\ReadPreference::bsonSerialize
 
 (mongodb >=1.2.0)
 
-MongoDBDriverReadPreference::bsonSerialize — Повертає об'єкт серіалізації BSON
+MongoDB\\Driver\\ReadPreference::bsonSerialize — Повертає об'єкт серіалізації BSON
 
 ### Опис
 
 ```methodsynopsis
-final public MongoDB\Driver\ReadPreference::bsonSerialize(): object
+final public MongoDB\Driver\ReadPreference::bsonSerialize(): stdClass
 ```
 
 ### Список параметрів
@@ -28,11 +29,11 @@ final public MongoDB\Driver\ReadPreference::bsonSerialize(): object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverReadPreference::bsonSerialize()** з первинною перевагою читання**
+**Пример #1 Пример использования**MongoDB\\Driver\\ReadPreference::bsonSerialize()\*\* з первинною перевагою читання\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rp));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(stdClass)#2 (1) {
@@ -56,7 +57,7 @@ object(stdClass)#2 (1) {
 { "mode" : "primary" }
 ```
 
-**Приклад #2 Приклад використання **MongoDBDriverReadPreference::bsonSerialize()** з вторинною перевагою читання та наборами тегів**
+**Пример #2 Пример использования**MongoDB\\Driver\\ReadPreference::bsonSerialize()\*\* з вторинною перевагою читання та наборами тегів\*\*
 
 ```php
 <?php
@@ -76,7 +77,7 @@ echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rp));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(stdClass)#2 (2) {
@@ -105,7 +106,7 @@ object(stdClass)#2 (2) {
 { "mode" : "secondary", "tags" : [ { "dc" : "ny" }, { "dc" : "sf", "use" : "reporting" }, {  } ] }
 ```
 
-**Приклад #3 Приклад використання **MongoDBDriverReadPreference::bsonSerialize()** з вторинною перевагою читання та максимальним staleness**
+**Пример #3 Пример использования**MongoDB\\Driver\\ReadPreference::bsonSerialize()\*\* з вторинною перевагою читання та максимальним staleness\*\*
 
 ```php
 <?php
@@ -122,7 +123,7 @@ echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rp));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(stdClass)#2 (2) {
@@ -137,5 +138,5 @@ object(stdClass)#2 (2) {
 
 ### Дивіться також
 
--   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) - Надає масив або документ для серіалізації у BSON
--   [» Справочная информация по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) \- Надає масив або документ для серіалізації у BSON
+-   [» Довідкова інформація щодо переваги читання](https://www.mongodb.com/docs/manual/core/read-preference/)

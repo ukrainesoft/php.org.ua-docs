@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.wddx-serialize-value.md: « wddxserializevalue
+  - function.wddx-serialize-value.md: « wddx\_serialize\_value
   - book.xmldiff.md: XMLDiff »
   - index.md: PHP Manual
   - ref.wddx.md: Функції WDDX
-title: wddxserializevars
+title: wddx\_serialize\_vars
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# wddxserializevars
+# wddx\_serialize\_vars
 
 (PHP 4, PHP 5, PHP 7)
 
-wddxserializevars — Серіалізація змінних у пакет WDDX
+wddx\_serialize\_vars — Серіалізація змінних у пакет WDDX
 
 **Увага**
 
@@ -36,11 +37,11 @@ wddx_serialize_vars(mixed $var_name, mixed ...$var_names): string
 
 ### Значення, що повертаються
 
-Повертає пакет WDDX або **`false`** у разі виникнення помилки.
+Повертає пакет WDDX або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **wddxserializevars()****
+**Пример #1 Пример использования**wddx\_serialize\_vars()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ echo wddx_serialize_vars("a", "b", $clvars);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <wddxPacket version='1.0'><header/><data><struct><var name='a'><number>1</number></var>

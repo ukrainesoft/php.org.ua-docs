@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-tab.append.md: '« UIControlsTab::append'
-  - ui-controls-tab.hasmargin.md: 'ОЙControlsTab::hasMargin »'
+  - ui-controls-tab.append.md: '« UI\\Controls\\Tab::append'
+  - ui-controls-tab.hasmargin.md: 'UI\\Controls\\Tab::hasMargin »'
   - index.md: PHP Manual
-  - class.ui-controls-tab.md: ОЙControlsTab
-title: 'ОЙControlsTab::delete'
+  - class.ui-controls-tab.md: UI\\Controls\\Tab
+title: 'UI\\Controls\\Tab::delete'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsTab::delete
+# UI\\Controls\\Tab::delete
 
 (UI 0.9.9)
 
-ОЙControlsTab::delete — Видалити сторінку
+UI\\Controls\\Tab::delete — Видалити сторінку
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ОЙControlsTab::delete'
 public UI\Controls\Tab::delete(int $index): bool
 ```
 
-Видалити вибрану сторінку з керуючого елементу "Таб"
+Видалити вибрану сторінку з елемента керування "Таблиці"
 
 ### Список параметрів
 

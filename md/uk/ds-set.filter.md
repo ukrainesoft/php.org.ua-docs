@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.diff.md: '« DsSet::diff'
-  - ds-set.first.md: 'ДсSet::first »'
+  - ds-set.diff.md: '« Ds\\Set::diff'
+  - ds-set.first.md: 'Ds\\Set::first »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::filter'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::filter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::filter
+# Ds\\Set::filter
 
 (PECL ds >= 1.0.0)
 
-ДсSet::filter — Створює новий список з елементів, вибраних за допомогою заданої callback-функції
+Ds\\Set::filter — Створює новий список з елементів, вибраних за допомогою заданої callback-функції
 
 ### Опис
 
@@ -30,15 +31,15 @@ callback(mixed $value): bool
 
 Опціональний аргумент типу [callable](language.types.callable.md), який повертає **`true`**, якщо значення має бути включено та **`false`**, якщо ні.
 
-Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивитися [приведение к boolean](language.types.boolean.md#language.types.boolean.casting)
+Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивитися [приведення до boolean](language.types.boolean.md#language.types.boolean.casting)
 
 ### Значення, що повертаються
 
-Новий набір, що містить значення, для яких функція `callback` повернула **`true`**, або всі елементи, які при приведенні до логічного типу стають **`true`**, якщо параметр `callback` не заданий.
+Новий набір, що містить значення, для яких функція `callback` повернула **`true`**, або всі елементи, які при приведенні до логічного типу стають **`true`**, якщо параметр `callback`не задан.
 
 ### Приклади
 
-**Приклад #1 Приклад **ДсSet::filter()** з використанням callback-функції**
+**Пример #1 Пример**Ds\\Set::filter()**с использованием callback-функции**
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump($set->filter(function($value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Set)#3 (2) {
@@ -61,7 +62,7 @@ object(Ds\Set)#3 (2) {
 }
 ```
 
-**Приклад #2 Приклад **ДсSet::filter()** без callback-функції**
+**Пример #2 Пример**Ds\\Set::filter()\*\* без callback-функції\*\*
 
 ```php
 <?php
@@ -71,7 +72,7 @@ var_dump($set->filter());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Set)#2 (3) {

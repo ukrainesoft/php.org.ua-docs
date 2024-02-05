@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::shadowImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::shadowImage
 
@@ -15,7 +16,7 @@ Imagick::shadowImage — Імітує тінь зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::shadowImage(    float $opacity,    float $sigma,    int $x,    int $y): bool
+public Imagick::shadowImage(    float $opacity,    float $sigma,    int $x,    int $y): bool
 ```
 
 Імітує тінь зображення.
@@ -36,7 +37,7 @@ public Imagick::shadowImage(    float $opacity,    float $sigma,    int $x,    i
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::shadowImage()****
+**Пример #1 Пример использования**Imagick::shadowImage()\*\*\*\*
 
 ```php
 <?php

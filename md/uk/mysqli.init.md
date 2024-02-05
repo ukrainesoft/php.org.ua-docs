@@ -1,18 +1,19 @@
 ---
 navigation:
   - mysqli.info.md: '« mysqli::$info'
-  - mysqli.insert-id.md: 'mysqli::$insertid »'
+  - mysqli.insert-id.md: 'mysqli::$insert\_id »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::init'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # mysqli::init
 
-# mysqliinit
+# mysqli\_init
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::init -- mysqliinit — Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
+mysqli::init -- mysqli\_init — Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqli\_real\_connect()
 
 ### Опис
 
@@ -28,11 +29,11 @@ public mysqli::init(): ?bool
 mysqli_init(): mysqli|false
 ```
 
-Виділяє пам'ять або ініціалізує об'єкт MySQL, придатний для використання у функціях [mysqlioptions()](mysqli.options.md)
+Виділяє пам'ять або ініціалізує об'єкт MySQL, придатний для використання у функціях [mysqli\_options()](mysqli.options.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Будь-які подальші виклики mysqli-функцій із цим ресурсом (крім [mysqlioptions()](mysqli.options.md)) зазнають невдачі, доки не буде викликана функція [mysqlirealconnect()](mysqli.real-connect.md)
+> Будь-які подальші виклики mysqli-функцій із цим ресурсом (крім [mysqli\_options()](mysqli.options.md)) зазнають невдачі, доки не буде викликана функція [mysqli\_real\_connect()](mysqli.real-connect.md)
 
 ### Список параметрів
 
@@ -40,21 +41,21 @@ mysqli_init(): mysqli|false
 
 ### Значення, що повертаються
 
-Метод **mysqli::init()** повертає **`null`** у разі успішного виконання або **`false`** у разі виникнення помилки. Функція **mysqliinit()** повертає об'єкт у разі успішного виконання або **`false`** у разі виникнення помилки.
+Метод**mysqli::init()** повертає **`null`** у разі успішного виконання або **`false`**в случае возникновения ошибки. Функция**mysqli\_init()** повертає об'єкт у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Об'єктно-орієнтований стиль виклику методу **mysqli::init()** застарів. Замініть виклик методу **parent::init()** за допомогою **parent::construct()** |
+| 8.1.0 | Об'єктно-орієнтований стиль виклику методу **mysqli::init()** застарів. Замініть виклик методу **parent::init()** за допомогою **parent::\_\_construct()** |
 
 ### Приклади
 
-Дивіться [mysqlirealconnect()](mysqli.real-connect.md)
+Смотрите[mysqli\_real\_connect()](mysqli.real-connect.md)
 
 ### Дивіться також
 
--   [mysqlioptions()](mysqli.options.md) - Встановлення налаштувань
--   [mysqliclose()](mysqli.close.md) - Закриває раніше відкрите з'єднання з базою даних
--   [mysqlirealconnect()](mysqli.real-connect.md) - Встановлює з'єднання із сервером mysql
--   [mysqliconnect()](function.mysqli-connect.md) - Псевдонім mysqli::construct
+-   [mysqli\_options()](mysqli.options.md) \- Встановлення налаштувань
+-   [mysqli\_close()](mysqli.close.md) \- Закриває раніше відкрите з'єднання з базою даних
+-   [mysqli\_real\_connect()](mysqli.real-connect.md) \- Встановлює з'єднання із сервером mysql
+-   [mysqli\_connect()](function.mysqli-connect.md) \- Псевдонім mysqli::\_\_construct

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageRedPrimary'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageRedPrimary
 
@@ -26,7 +27,7 @@ public Imagick::getImageRedPrimary(): array
 
 ### Значення, що повертаються
 
-Повертає червону первинну точку кольоровості як масиву з ключами " x " and " y " . Викликає **ImagickException** у разі виникнення помилки.
+Повертає червону первинну точку кольоровості як масиву з ключами " x " and " y " . Викликає **ImagickException**в случае возникновения ошибки.
 
 ### Помилки
 

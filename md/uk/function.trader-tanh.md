@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-tan.md: « tradertan
-  - function.trader-tema.md: tradertema »
+  - function.trader-tan.md: « trader\_tan
+  - function.trader-tema.md: trader\_tema »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradertanh
+  - ref.trader.md: Функції Trader
+title: trader\_tanh
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradertanh
+# trader\_tanh
 
 (PECL trader >= 0.2.0)
 
-tradertanh — вектор Тригонометричний Тан
+trader\_tanh — вектор Тригонометричний Тан
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.hasvalue.md: '« DsMap::hasValue'
-  - ds-map.isempty.md: 'ДсMap::isEmpty »'
+  - ds-map.hasvalue.md: '« Ds\\Map::hasValue'
+  - ds-map.isempty.md: 'Ds\\Map::isEmpty »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::intersect'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::intersect'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::intersect
+# Ds\\Map::intersect
 
 (PECL ds >= 1.0.0)
 
-ДсMap::intersect — Створює нову колекцію пар, створену перетином з іншою колекцією пар
+Ds\\Map::intersect — Створює нову колекцію пар, створену перетином з іншою колекцією пар
 
 ### Опис
 
@@ -22,7 +23,7 @@ public Ds\Map::intersect(Ds\Map $map): Ds\Map
 
 `A ∩ B = {x : x ∈ A ∧ x ∈ B}`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення беруться із поточної колекції пар.
 
@@ -36,13 +37,13 @@ public Ds\Map::intersect(Ds\Map $map): Ds\Map
 
 Перетин поточної колекції та переданої в `map`
 
-### Також дивіться
+### Дивіться також
 
--   [» Перетин](https://en.wikipedia.org/wiki/Intersection_(set_theory)) на Вікіпедія
+-   [» Перетин](https://en.wikipedia.org/wiki/Intersection_(set_theory))на Вікіпедія
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::intersect()****
+**Пример #1 Пример использования**Ds\\Map::intersect()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump($a->intersect($b));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Map)#3 (2) {

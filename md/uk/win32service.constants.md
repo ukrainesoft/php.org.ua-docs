@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.win32service.md: win32service
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
@@ -19,7 +20,7 @@ title: Обумовлені константи
 -   [Константи прапорів сервісу Win32Service](win32service.constants.serviceflag.md)
 -   [Коди помилок Win32](win32service.constants.errors.md)
 -   [Базові класи пріоритетів Win32](win32service.constants.basepriorities.md)
--   [Действия при восстановлении Win32](win32service.constants.recovery-action.md)
+-   [Дії відновлення Win32](win32service.constants.recovery-action.md)
 -   [Win32 Service informations](win32service.constants.serviceinfos.md)
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.

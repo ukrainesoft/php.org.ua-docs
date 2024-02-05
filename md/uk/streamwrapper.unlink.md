@@ -1,10 +1,11 @@
 ---
 navigation:
-  - streamwrapper.stream-write.md: '« streamWrapper::streamwrite'
-  - streamwrapper.url-stat.md: 'streamWrapper::urlstat »'
+  - streamwrapper.stream-write.md: '« streamWrapper::stream\_write'
+  - streamwrapper.url-stat.md: 'streamWrapper::url\_stat »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::unlink'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # streamWrapper::unlink
 
@@ -20,7 +21,7 @@ public streamWrapper::unlink(string $path): bool
 
 Цей метод викликається у процесі виконання [unlink()](function.unlink.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Щоб повідомлення про помилки відповідали реальним помилкам, цей метод *не потрібно* визначати у випадках, коли обгортка не підтримує видалення файлів.
 
@@ -32,7 +33,7 @@ URL файлу, що видаляється.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -40,11 +41,11 @@ URL файлу, що видаляється.
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Властивість streamWrapper::$context буде оновлено, якщо коректний контекст був переданий у функцію, що викликається.
 
 ### Дивіться також
 
--   [unlink()](function.unlink.md) - Видаляє файл
--   [streamWrapper::rmdir()](streamwrapper.rmdir.md) - видаляє директорію
+-   [unlink()](function.unlink.md) \- Видаляє файл
+-   [streamWrapper::rmdir()](streamwrapper.rmdir.md) \- видаляє директорію

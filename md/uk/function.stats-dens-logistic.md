@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-dens-laplace.md: « statsdenslaplace
-  - function.stats-dens-normal.md: statsdensnormal »
+  - function.stats-dens-laplace.md: « stats\_dens\_laplace
+  - function.stats-dens-normal.md: stats\_dens\_normal »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsdenslogistic
+title: stats\_dens\_logistic
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsdenslogistic
+# stats\_dens\_logistic
 
 (PECL stats >= 1.0.0)
 
-statsdenslogistic - Щільність ймовірності логістичного розподілу
+stats\_dens\_logistic - Щільність ймовірності логістичного розподілу
 
 ### Опис
 
@@ -18,7 +19,7 @@ statsdenslogistic - Щільність ймовірності логістичн
 stats_dens_logistic(float $x, float $ave, float $stdev): float
 ```
 
-Повертає щільність ймовірності для `x`, де `ave` і `stdev` є коефіцієнтом зсуву та логістичним розподілом відповідно.
+Повертає щільність ймовірності для `x`, где`ave`и`stdev` є коефіцієнтом зсуву та логістичним розподілом відповідно.
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ stats_dens_logistic(float $x, float $ave, float $stdev): float
 
 ### Значення, що повертаються
 
-Щільність ймовірності для `x` або **`false`** у разі виникнення помилки.
+Щільність ймовірності для `x`или\*\*`false`\*\*в случае возникновения ошибки.

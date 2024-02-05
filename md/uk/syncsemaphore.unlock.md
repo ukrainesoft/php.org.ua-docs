@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.syncsemaphore.md: SyncSemaphore
 title: 'SyncSemaphore::unlock'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SyncSemaphore::unlock
 
@@ -28,11 +29,11 @@ public SyncSemaphore::unlock(int &$prevcount = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncSemaphore::unlock()****
+**Пример #1 Пример использования**SyncSemaphore::unlock()\*\*\*\*
 
 ```php
 <?php
@@ -53,4 +54,4 @@ $semaphore->unlock();
 
 ### Дивіться також
 
--   [SyncSemaphore::lock()](syncsemaphore.lock.md) - Зменшує рахунок семафора або чекає
+-   [SyncSemaphore::lock()](syncsemaphore.lock.md) \- Зменшує рахунок семафора або чекає

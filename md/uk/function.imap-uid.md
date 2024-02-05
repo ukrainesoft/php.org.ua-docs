@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-timeout.md: « imaptimeout
-  - function.imap-undelete.md: imapundelete »
+  - function.imap-timeout.md: « imap\_timeout
+  - function.imap-undelete.md: imap\_undelete »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapuid
+  - ref.imap.md: Функції IMAP
+title: imap\_uid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapuid
+# imap\_uid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapuid — Отримати UID за номером повідомлення
+imap\_uid — Отримує UID за номером повідомлення
 
 ### Опис
 
@@ -18,15 +19,15 @@ imapuid — Отримати UID за номером повідомлення
 imap_uid(IMAP\Connection $imap, int $message_num): int|false
 ```
 
-Ця функція повертає UID для повідомлення із заданим номером. UID - це унікальний ідентифікатор, який не змінюється з часом, у той час як номер повідомлення в скриньці може змінюватися при зміні вмісту поштової скриньки.
+Ця функція повертає UID для повідомлення із заданим номером. UID — це унікальний ідентифікатор, який не змінюється після часу, тоді як номер повідомлення в скриньці може змінюватися при зміні вмісту поштової скриньки.
 
-Ця функція зворотна функції [imapmsgno()](function.imap-msgno.md)
+Ця функція зворотна функції [imap\_msgno()](function.imap-msgno.md)
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `message_num`
 
@@ -38,16 +39,16 @@ UID заданого листа.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція не підтримується для поштових скриньок POP3.
 
 ### Дивіться також
 
--   [imapmsgno()](function.imap-msgno.md) - Отримати номер повідомлення із заданим UID
+-   [imap\_msgno()](function.imap-msgno.md) \- Отримує номер повідомлення із заданим UID

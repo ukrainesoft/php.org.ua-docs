@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::sslError'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::sslError
 
@@ -21,7 +22,7 @@ public
 
 Повертає останню помилку OpenSSL, повідомлену буферною подією.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна, лише якщо `Event` скомпільований за допомогою OpenSSL.
 
@@ -35,7 +36,7 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventBufferEvent::sslError()****
+**Пример #1 Пример использования**EventBufferEvent::sslError()\*\*\*\*
 
 ```php
 <?php
@@ -58,4 +59,4 @@ function ssl_event_cb($bev, $events, $ctx) {
 
 ### Дивіться також
 
--   [EventBufferEvent::sslRenegotiate()](eventbufferevent.sslrenegotiate.md) - Повідомляє буферну подію розпочати перегляд SSL
+-   [EventBufferEvent::sslRenegotiate()](eventbufferevent.sslrenegotiate.md) \- Повідомляє буферну подію розпочати перегляд SSL

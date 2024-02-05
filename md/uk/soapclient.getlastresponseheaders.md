@@ -1,16 +1,17 @@
 ---
 navigation:
-  - soapclient.getlastresponse.md: '« SoapClient::getLastResponse'
-  - soapclient.gettypes.md: 'SoapClient::getTypes »'
+  - soapclient.getlastresponse.md: '« SoapClient::\_\_getLastResponse'
+  - soapclient.gettypes.md: 'SoapClient::\_\_getTypes »'
   - index.md: PHP Manual
   - class.soapclient.md: SoapClient
-title: 'SoapClient::getLastResponseHeaders'
+title: 'SoapClient::\_\_getLastResponseHeaders'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapClient::getLastResponseHeaders
+# SoapClient::\_\_getLastResponseHeaders
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapClient::getLastResponseHeaders — Повертає SOAP-заголовки останньої відповіді
+SoapClient::\_\_getLastResponseHeaders — Повертає SOAP-заголовки останньої відповіді
 
 ### Опис
 
@@ -20,7 +21,7 @@ public SoapClient::__getLastResponseHeaders(): ?string
 
 Повертає SOAP-заголовки останньої відповіді.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція працює лише, якщо об'єкт [SoapClient](class.soapclient.md) був створений з налаштуванням `trace`, рівною **`true`**
 
@@ -34,7 +35,7 @@ public SoapClient::__getLastResponseHeaders(): ?string
 
 ### Приклади
 
-**Приклад #1 Приклад використання SoapClient::getLastResponse()**
+**Приклад #1 Приклад використання SoapClient::\_\_getLastResponse()**
 
 ```php
 <?php
@@ -46,6 +47,6 @@ echo "ЗАГОЛОВКИ ОТВЕТА:\n" . $client->__getLastResponseHeaders() 
 
 ### Дивіться також
 
--   [SoapClient::getLastRequestHeaders()](soapclient.getlastrequestheaders.md) - Повертає SOAP-заголовки останнього запиту
--   [SoapClient::getLastRequest()](soapclient.getlastrequest.md) - Повертає останній SOAP-запит
--   [SoapClient::getLastResponse()](soapclient.getlastresponse.md) - Повертає останню SOAP-відповідь
+-   [SoapClient::\_\_getLastRequestHeaders()](soapclient.getlastrequestheaders.md) \- Повертає SOAP-заголовки останнього запиту
+-   [SoapClient::\_\_getLastRequest()](soapclient.getlastrequest.md) \- Повертає останній SOAP-запит
+-   [SoapClient::\_\_getLastResponse()](soapclient.getlastresponse.md) \- Повертає останню SOAP-відповідь

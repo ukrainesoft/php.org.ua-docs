@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.parle-rlexer.md: « ParleRLexer
-  - parle-rlexer.build.md: 'ParleRLexer::build »'
+  - class.parle-rlexer.md: « Parle\\RLexer
+  - parle-rlexer.build.md: 'Parle\\RLexer::build »'
   - index.md: PHP Manual
-  - class.parle-rlexer.md: ParleRLexer
-title: 'ParleRLexer::advance'
+  - class.parle-rlexer.md: Parle\\RLexer
+title: 'Parle\\RLexer::advance'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRLexer::advance
+# Parle\\RLexer::advance
 
 (PECL parle >= 0.5.1)
 
-ParleRLexer::advance - Обробка наступного правила лексера
+Parle\\RLexer::advance - Обробка наступного правила лексера
 
 ### Опис
 

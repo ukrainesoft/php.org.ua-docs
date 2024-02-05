@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::connect'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::connect
 
@@ -34,17 +35,17 @@ public
 
 Повинна містити IP-адресу з необов'язковим номером порту або шлях до сокету домену UNIX. Допустимі формати:
 
-IPv6Address:portIPv6AddressIPv6Address IPv4Address:port IPv4Address unix:path
+\[IPv6Address\]:port\[IPv6Address\]IPv6Address IPv4Address:port IPv4Address unix:path
 
-Майте на увазі, що префікс `'unix:'` нині не чутливий до регістру.
+Имейте в виду, что префикс`'unix:'`в настоящее время не чувствителен к регистру.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventBufferEvent::connect()****
+**Пример #1 Пример использования**EventBufferEvent::connect()\*\*\*\*
 
 ```php
 <?php
@@ -115,7 +116,7 @@ if (!$bev->connect("127.0.0.1:80")) {
 $base->dispatch();
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 step 1
@@ -201,7 +202,7 @@ $cl->dispatch();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Получено 5 байтов
@@ -211,4 +212,4 @@ $cl->dispatch();
 
 ### Дивіться також
 
--   [EventBufferEvent::connectHost()](eventbufferevent.connecthost.md) - Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
+-   [EventBufferEvent::connectHost()](eventbufferevent.connecthost.md) \- Підключається на ім'я хоста з можливістю асинхронного дозволу DNS

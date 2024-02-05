@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zmqsocket.md: ZMQSocket
 title: 'ZMQSocket::send'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZMQSocket::send
 

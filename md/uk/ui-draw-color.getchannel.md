@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-color.construct.md: '« UIDrawColor::construct'
-  - ui-draw-color.setchannel.md: 'ОЙDrawColor::setChannel »'
+  - ui-draw-color.construct.md: '« UI\\Draw\\Color::\_\_construct'
+  - ui-draw-color.setchannel.md: 'UI\\Draw\\Color::setChannel »'
   - index.md: PHP Manual
-  - class.ui-draw-color.md: ОЙDrawColor
-title: 'ОЙDrawColor::getChannel'
+  - class.ui-draw-color.md: UI\\Draw\\Color
+title: 'UI\\Draw\\Color::getChannel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawColor::getChannel
+# UI\\Draw\\Color::getChannel
 
 (UI 0.9.9)
 
-ОЙDrawColor::getChannel — Керування кольором
+UI\\Draw\\Color::getChannel — Керування кольором
 
 ### Опис
 

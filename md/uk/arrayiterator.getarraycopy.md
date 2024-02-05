@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::getArrayCopy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayIterator::getArrayCopy
 
@@ -22,7 +23,7 @@ public ArrayIterator::getArrayCopy(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,4 +35,4 @@ public ArrayIterator::getArrayCopy(): array
 
 ### Дивіться також
 
--   [ArrayIterator::valid()](arrayiterator.valid.md) - Перевіряє, чи містить масив ще запису
+-   [ArrayIterator::valid()](arrayiterator.valid.md) \- Перевіряє, чи містить масив ще записи

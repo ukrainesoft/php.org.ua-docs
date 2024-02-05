@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolordeallocate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecolordeallocate
 
@@ -32,17 +33,17 @@ imagecolordeallocate(GdImage $image, int $color): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagecolordeallocate()****
+**Пример #1 Пример использования**imagecolordeallocate()\*\*\*\*
 
 ```php
 <?php
@@ -53,5 +54,5 @@ imagecolordeallocate($im, $white);
 
 ### Дивіться також
 
--   [imagecolorallocate()](function.imagecolorallocate.md) - Створення кольору для зображення
--   [imagecolorallocatealpha()](function.imagecolorallocatealpha.md) - Створення кольору для зображення
+-   [imagecolorallocate()](function.imagecolorallocate.md) \- Створення кольору для зображення
+-   [imagecolorallocatealpha()](function.imagecolorallocatealpha.md) \- Створення кольору для зображення

@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli.dump-debug-info.md: '« mysqli::dumpdebuginfo'
-  - mysqli.error-list.md: 'mysqli::$errorlist »'
+  - mysqli.dump-debug-info.md: '« mysqli::dump\_debug\_info'
+  - mysqli.error-list.md: 'mysqli::$error\_list »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::$errno'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # mysqli::$errno
 
-# mysqlierrno
+# mysqli\_errno
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$errno -- mysqlierrno — Повернення коду помилки останнього виклику функції
+mysqli::$errno -- mysqli\_errno — Повернення коду помилки останнього виклику функції
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli->errno](mysqli.errno.md)
+int[$mysqli->errno](mysqli.errno.md)
 
 Процедурний стиль
 
@@ -32,7 +33,7 @@ mysqli_errno(mysqli $mysql): int
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -84,7 +85,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Код ошибки: 1193
@@ -92,7 +93,7 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqliconnecterrno()](mysqli.connect-errno.md) - Повертає код помилки останньої спроби з'єднання
--   [mysqliconnecterror()](mysqli.connect-error.md) - Повертає опис останньої помилки підключення
--   [mysqlierror()](mysqli.error.md) - Повертає рядок із описом останньої помилки
--   [mysqlisqlstate()](mysqli.sqlstate.md) - Повертає код стану SQLSTATE останній MySQL операції
+-   [mysqli\_connect\_errno()](mysqli.connect-errno.md) \- Повертає код помилки останньої спроби з'єднання
+-   [mysqli\_connect\_error()](mysqli.connect-error.md) \- Повертає опис останньої помилки підключення
+-   [mysqli\_error()](mysqli.error.md) \- Повертає рядок із описом останньої помилки
+-   [mysqli\_sqlstate()](mysqli.sqlstate.md) \- Повертає код стану SQLSTATE останній MySQL операції

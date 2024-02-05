@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.ocilob.md: OCILob
 title: 'OCILob::write'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OCILob::write
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
 OCILob::write — Записує дані в об'єкт LOB
 
@@ -32,14 +33,14 @@ public OCILob::write(string $data, ?int $length = null): int|false
 
 ### Значення, що повертаються
 
-Повертає кількість записаних байт або **`false`** у разі виникнення помилки.
+Повертає кількість записаних байт або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | `length` тепер допускає значення null. |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
+| 8.0.0, PECL OCI8 3.0.0 | Класс**OCI-Lob**перейменований на[OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-num-fields.md: « cubridnumfields
-  - function.cubrid-query.md: cubridquery »
+  - function.cubrid-num-fields.md: « cubrid\_num\_fields
+  - function.cubrid-query.md: cubrid\_query »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridping
+title: cubrid\_ping
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridping
+# cubrid\_ping
 
 (PECL CUBRID >= 8.3.1)
 
-cubridping — Перевіряє, чи живе з'єднання до сервера і перепідключає його, якщо ні
+cubrid\_ping — Перевіряє, чи живе з'єднання до сервера і перепідключає його, якщо ні
 
 ### Опис
 
@@ -24,7 +25,7 @@ cubrid_ping(resource $conn_identifier = ?): bool
 
 `conn_identifier`
 
-Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.md) з'єднання.
+Ідентифікатор з'єднання. Якщо не встановлено, то буде використано останнє відкрите за допомогою [cubrid\_connect()](function.cubrid-connect.md)соединение.
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ cubrid_ping(resource $conn_identifier = ?): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridping()****
+**Пример #1 Пример использования**cubrid\_ping()\*\*\*\*
 
 ```php
 <?php

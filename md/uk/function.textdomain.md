@@ -3,8 +3,9 @@ navigation:
   - function.ngettext.md: « ngettext
   - book.iconv.md: iconv »
   - index.md: PHP Manual
-  - ref.gettext.md: Функции gettext
+  - ref.gettext.md: Функції gettext
 title: textdomain
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # textdomain
 
@@ -32,6 +33,6 @@ textdomain(?string $domain): string
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Інформація **textdomain()** зберігається кожному за процесу, а чи не для потоку.

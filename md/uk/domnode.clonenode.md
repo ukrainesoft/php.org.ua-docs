@@ -1,10 +1,11 @@
 ---
 navigation:
   - domnode.c14nfile.md: '« DOMNode::C14NFile'
-  - domnode.getlineno.md: 'DOMNode::getLineNo »'
+  - domnode.contains.md: 'DOMNode::contains »'
   - index.md: PHP Manual
   - class.domnode.md: DOMNode
 title: 'DOMNode::cloneNode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNode::cloneNode
 
@@ -24,7 +25,7 @@ public DOMNode::cloneNode(bool $deep = false): DOMNode|false
 
 `deep`
 
-Вказує, чи потрібно копіювати нащадків. Цей параметр за замовчуванням має значення **`false`**
+Вказує, чи потрібно копіювати всіх нащадків. Цей параметр за замовчуванням має значення **`false`**
 
 ### Значення, що повертаються
 

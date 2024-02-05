@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-scalar-add.md: « sodiumcryptocoreristretto255scalaradd
-  - function.sodium-crypto-core-ristretto255-scalar-invert.md: sodiumcryptocoreristretto255scalarinvert »
+  - function.sodium-crypto-core-ristretto255-scalar-add.md: « sodium\_crypto\_core\_ristretto255\_scalar\_add
+  - function.sodium-crypto-core-ristretto255-scalar-invert.md: sodium\_crypto\_core\_ristretto255\_scalar\_invert »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptocoreristretto255scalarcomplement
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_core\_ristretto255\_scalar\_complement
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptocoreristretto255scalarcomplement
+# sodium\_crypto\_core\_ristretto255\_scalar\_complement
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-sodiumcryptocoreristretto255scalarcomplement — Призначення sodiumcryptocoreristretto255scalarcomplement
+sodium\_crypto\_core\_ristretto255\_scalar\_complement — Призначення sodium\_crypto\_core\_ristretto255\_scalar\_complement
 
 ### Опис
 
@@ -18,11 +19,11 @@ sodiumcryptocoreristretto255scalarcomplement — Призначення sodiumcr
 sodium_crypto_core_ristretto255_scalar_complement(string $s): string
 ```
 
-Доступно, починаючи з libsodium 1.0.18.
+. Доступно, починаючи з libsodium 1.0.18.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ sodium_crypto_core_ristretto255_scalar_complement(string $s): string
 
 ### Дивіться також
 
--   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.md) - Генерує випадковий ключ
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_random()](function.sodium-crypto-core-ristretto255-scalar-random.md) \- Генерує випадковий ключ

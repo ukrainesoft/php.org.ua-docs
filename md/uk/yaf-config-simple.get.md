@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-simple.current.md: '« YafConfigSimple::current'
-  - yaf-config-simple.isset.md: 'YafConfigSimple::isset »'
+  - yaf-config-simple.current.md: '« Yaf\_Config\_Simple::current'
+  - yaf-config-simple.isset.md: 'Yaf\_Config\_Simple::\_\_isset »'
   - index.md: PHP Manual
-  - class.yaf-config-simple.md: YafConfigSimple
-title: 'YafConfigSimple::get'
+  - class.yaf-config-simple.md: Yaf\_Config\_Simple
+title: 'Yaf\_Config\_Simple::\_\_get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigSimple::get
+# Yaf\_Config\_Simple::\_\_get
 
 (Yaf >=1.0.0)
 
-YafConfigSimple::get — Призначення get
+Yaf\_Config\_Simple::\_\_get — Назначение\_\_get
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Simple::__get(string $name = ?): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

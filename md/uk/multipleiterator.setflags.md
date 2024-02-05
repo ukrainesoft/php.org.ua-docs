@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.multipleiterator.md: MultipleIterator
 title: 'MultipleIterator::setFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # MultipleIterator::setFlags
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 MultipleIterator::setFlags — Встановлює прапори
 
@@ -22,13 +23,13 @@ public MultipleIterator::setFlags(int $flags): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `flags`
 
-Прапори для встановлення, згідно [Обумовленим константам](class.multipleiterator.md#multipleiterator.constants)
+Флаги для установки, согласно[Обумовленим константам](class.multipleiterator.md#multipleiterator.constants)
 
 ### Значення, що повертаються
 
@@ -37,5 +38,5 @@ public MultipleIterator::setFlags(int $flags): void
 ### Дивіться також
 
 -   [Обумовлені константи](class.multipleiterator.md#multipleiterator.constants)
--   [MultipleIterator::construct()](multipleiterator.construct.md) - Створює новий MultipleIterator
--   [MultipleIterator::getFlags()](multipleiterator.getflags.md) - Отримує інформацію про прапори
+-   [MultipleIterator::\_\_construct()](multipleiterator.construct.md) \- Створює новий MultipleIterator
+-   [MultipleIterator::getFlags()](multipleiterator.getflags.md) \- Отримує інформацію про прапори

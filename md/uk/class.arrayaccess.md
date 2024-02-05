@@ -1,10 +1,11 @@
 ---
 navigation:
-  - throwable.tostring.md: '« Throwable::toString'
+  - throwable.tostring.md: '« Throwable::\_\_function toString() { [native code] }'
   - arrayaccess.offsetexists.md: 'ArrayAccess::offsetExists »'
   - index.md: PHP Manual
   - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Інтерфейс ArrayAccess
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс ArrayAccess
 
@@ -12,18 +13,14 @@ title: Інтерфейс ArrayAccess
 
 ## Вступ
 
-Інтерфейс забезпечує доступ до об'єктів як масивів.
+Інтерфейс дозволяє звертатися до об'єктів як до масивів.
 
 ## Огляд інтерфейсів
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      interface ArrayAccess {
+     interface ArrayAccess {
 
     /* Методы */
     
@@ -40,17 +37,13 @@ public offsetUnset(mixed $offset): void
 ```php
 <?php
 class Obj implements ArrayAccess {
-    private $container = array();
+    public $container = [
+        "one"   => 1,
+        "two"   => 2,
+        "three" => 3,
+    ];
 
-    public function __construct() {
-        $this->container = array(
-            "one"   => 1,
-            "two"   => 2,
-            "three" => 3,
-        );
-    }
-
-    public function offsetSet($offset, $value) {
+    public function offsetSet($offset, $value): void {
         if (is_null($offset)) {
             $this->container[] = $value;
         } else {
@@ -58,15 +51,15 @@ class Obj implements ArrayAccess {
         }
     }
 
-    public function offsetExists($offset) {
+    public function offsetExists($offset): bool {
         return isset($this->container[$offset]);
     }
 
-    public function offsetUnset($offset) {
+    public function offsetUnset($offset): void {
         unset($this->container[$offset]);
     }
 
-    public function offsetGet($offset) {
+    public function offsetGet($offset): mixed {
         return isset($this->container[$offset]) ? $this->container[$offset] : null;
     }
 }
@@ -86,7 +79,7 @@ print_r($obj);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -110,7 +103,7 @@ obj Object
 
 ## Зміст
 
--   [ArrayAccess::offsetExists](arrayaccess.offsetexists.md) - Визначає, чи існує задане зміщення (ключ)
--   [ArrayAccess::offsetGet](arrayaccess.offsetget.md) — Повертає задане усунення (ключ)
--   [ArrayAccess::offsetSet](arrayaccess.offsetset.md) — Надає значення заданому зміщенню
--   [ArrayAccess::offsetUnset](arrayaccess.offsetunset.md) - Видаляє зміщення
+-   [ArrayAccess::offsetExists](arrayaccess.offsetexists.md) \- Визначає, чи існує задане зміщення (ключ)
+-   [ArrayAccess::offsetGet](arrayaccess.offsetget.md)— Повертає задане усунення (ключ)
+-   [ArrayAccess::offsetSet](arrayaccess.offsetset.md)— Надає значення заданому зміщенню
+-   [ArrayAccess::offsetUnset](arrayaccess.offsetunset.md) \- Видаляє зміщення

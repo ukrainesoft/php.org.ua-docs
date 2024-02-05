@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isJavaIDPart'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isJavaIDPart
 
@@ -20,13 +21,13 @@ public static IntlChar::isJavaIDPart(int|string $codepoint): ?bool
 
 Перевіряє, чи символ допустимий в ідентифікаторі Java.
 
-На додаток до [IntlChar::isIDPart()](intlchar.isidpart.md) **`true`** повертається для категорії "Sc" (символ грошової одиниці).
+В дополнение к[IntlChar::isIDPart()](intlchar.isidpart.md) **`true`** повертається для категорії "Sc" (символ грошової одиниці).
 
 ### Список параметрів
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
@@ -45,7 +46,7 @@ var_dump(IntlChar::isJavaIDPart("\u{2603}"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -56,8 +57,8 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isIDIgnorable()](intlchar.isidignorable.md) - Перевірити, чи символ ігнорується
--   [IntlChar::isIDPart()](intlchar.isidpart.md) - Перевірити, чи можна використовувати символ в ідентифікаторі
--   [IntlChar::isJavaIDStart()](intlchar.isjavaidstart.md) - Перевірити, чи може символ бути першим в ідентифікаторі Java
--   [IntlChar::isalpha()](intlchar.isalpha.md) - Перевірити, чи є символ літерою
--   [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є символ цифрою
+-   [IntlChar::isIDIgnorable()](intlchar.isidignorable.md) \- Перевірити, чи символ ігнорується
+-   [IntlChar::isIDPart()](intlchar.isidpart.md) \- Перевірити, чи можна використовувати символ в ідентифікаторі
+-   [IntlChar::isJavaIDStart()](intlchar.isjavaidstart.md) \- Перевірити, чи може символ бути першим в ідентифікаторі Java
+-   [IntlChar::isalpha()](intlchar.isalpha.md) \- Перевірити, чи є символ літерою
+-   [IntlChar::isdigit()](intlchar.isdigit.md) \- Перевірити, чи є символ цифрою

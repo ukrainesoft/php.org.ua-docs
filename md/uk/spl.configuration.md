@@ -1,10 +1,11 @@
 ---
 navigation:
-  - spl.installation.md: « Установка
+  - spl.installation.md: « Встановлення
   - spl.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - spl.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-activation-function.md: « fanngetactivationfunction
-  - function.fann-get-bias-array.md: fanngetbiasarray »
+  - function.fann-get-activation-function.md: « fann\_get\_activation\_function
+  - function.fann-get-bias-array.md: fann\_get\_bias\_array »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetactivationsteepness
+  - ref.fann.md: Функції Fann
+title: fann\_get\_activation\_steepness
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetactivationsteepness
+# fann\_get\_activation\_steepness
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetactivationsteepness — Повертає крутість активації для нейрона, що поставляється, і номери шару.
+fann\_get\_activation\_steepness — Повертає крутість активації для нейрона, що поставляється, і номери шару.
 
 ### Опис
 
@@ -22,7 +23,7 @@ fann_get_activation_steepness(resource $ann, int $layer, int $neuron): float
 
 Неможливо отримати крутість активації для нейронів у вхідному шарі.
 
-Крутизна функція активації говорить про те, як швидко функція активації переходить від мінімуму до максимуму. Високе значення функції активації також надасть більш агресивне навчання.
+Крутизна функції активації говорить про те, як швидко функція активації переходить від мінімуму до максимуму. Високе значення функції активації також надасть більш агресивне навчання.
 
 Під час навчання нейронних мереж, де вихідні значення мають бути на граничних значеннях (зазвичай 0 і 1, залежно від функції активації), можна використовувати крута функція активації (наприклад, 1,0).
 
@@ -44,12 +45,12 @@ fann_get_activation_steepness(resource $ann, int $layer, int $neuron): float
 
 ### Значення, що повертаються
 
-Крутизна активації для нейрона або -1, якщо нейрон не визначений у нейронній мережі, або **`false`** у разі виникнення помилки.
+Крутизна активації для нейрона або -1, якщо нейрон не визначений у нейронній мережі, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fannsetactivationfunction()](function.fann-set-activation-function.md) - Встановлює функцію активації для зазначеного нейрона та шару
--   [fannsetactivationsteepnesslayer()](function.fann-set-activation-steepness-layer.md) - Встановлює крутість активації для всіх нейронів у вказаному номері шару
--   [fannsetactivationsteepnesshidden()](function.fann-set-activation-steepness-hidden.md) - Встановлює крутість крутості активації для всіх нейронів у всіх прихованих шарах
--   [fannsetactivationsteepnessoutput()](function.fann-set-activation-steepness-output.md) - Встановлює крутість активації у вихідному шарі
--   [fannsetactivationsteepness()](function.fann-set-activation-steepness.md) - Встановлює крутість активації для вказаного нейрона та номера шару
+-   [fann\_set\_activation\_function()](function.fann-set-activation-function.md) \- Встановлює функцію активації для зазначеного нейрона та шару
+-   [fann\_set\_activation\_steepness\_layer()](function.fann-set-activation-steepness-layer.md) \- Встановлює крутість активації для всіх нейронів у вказаному номері шару
+-   [fann\_set\_activation\_steepness\_hidden()](function.fann-set-activation-steepness-hidden.md) \- Встановлює крутість крутості активації для всіх нейронів у всіх прихованих шарах
+-   [fann\_set\_activation\_steepness\_output()](function.fann-set-activation-steepness-output.md) \- Встановлює крутість активації у вихідному шарі
+-   [fann\_set\_activation\_steepness()](function.fann-set-activation-steepness.md) \- Встановлює крутість активації для вказаного нейрона та номера шару

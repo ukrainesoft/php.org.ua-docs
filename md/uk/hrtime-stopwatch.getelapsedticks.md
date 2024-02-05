@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.hrtime-stopwatch.md: « HRTimeStopWatch
-  - hrtime-stopwatch.getelapsedtime.md: 'HRTimeStopWatch::getElapsedTime »'
+  - class.hrtime-stopwatch.md: « HRTime\\StopWatch
+  - hrtime-stopwatch.getelapsedtime.md: 'HRTime\\StopWatch::getElapsedTime »'
   - index.md: PHP Manual
-  - class.hrtime-stopwatch.md: HRTimeStopWatch
-title: 'HRTimeStopWatch::getElapsedTicks'
+  - class.hrtime-stopwatch.md: HRTime\\StopWatch
+title: 'HRTime\\StopWatch::getElapsedTicks'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# HRTimeStopWatch::getElapsedTicks
+# HRTime\\StopWatch::getElapsedTicks
 
 (PECL hrtime >= 0.4.3)
 
-HRTimeStopWatch::getElapsedTicks — Отримати кількість тиків, що пройшли, для всіх інтервалів
+HRTime\\StopWatch::getElapsedTicks — Отримати кількість тиків, що пройшли, для всіх інтервалів
 
 ### Опис
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::quantizeimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::quantizeimage
 
@@ -15,7 +16,7 @@ Gmagick::quantizeimage — Аналізує кольори еталонного 
 ### Опис
 
 ```methodsynopsis
-public Gmagick::quantizeimage(    int $numColors,    int $colorspace,    int $treeDepth,    bool $dither,    bool $measureError): Gmagick
+public Gmagick::quantizeimage(    int $numColors,    int $colorspace,    int $treeDepth,    bool $dither,    bool $measureError): Gmagick
 ```
 
 Аналізує кольори в еталонному зображенні та вибирає фіксовану кількість кольорів для представлення зображення. Метою алгоритму є мінімізація різниці у кольорі між вхідним та вихідним зображенням при мінімізації часу обробки.
@@ -32,7 +33,7 @@ public Gmagick::quantizeimage(    int $numColors,    int $colorspace,    int $tr
 
 `treeDepth`
 
-Зазвичай це значення дорівнює нулю чи одиниці. Нуль або одиниця вказує Quantize вибрати оптимальну глибину дерева Log4(numbercolors). Дерево цієї глибини зазвичай забезпечує найкраще уявлення еталонного зображення з найменшим обсягом пам'яті та максимальною швидкістю обчислень. У деяких випадках, наприклад для зображення з низькою колірною дисперсією (кілька кольорів), потрібне значення, відмінне від Log4(numbercolors). Щоб повністю розгорнути дерево кольорів, використовуйте 8.
+Зазвичай це значення дорівнює нулю чи одиниці. Нуль або одиниця вказує Quantize вибрати оптимальну глибину дерева Log4(number\_colors). Дерево цієї глибини зазвичай забезпечує найкраще уявлення еталонного зображення з найменшим обсягом пам'яті та максимальною швидкістю обчислень. У деяких випадках, наприклад для зображення з низькою колірною дисперсією (кілька кольорів), потрібне значення, відмінне від Log4(number\_colors). Щоб повністю розгорнути дерево кольорів, використовуйте 8.
 
 `dither`
 
@@ -48,4 +49,4 @@ public Gmagick::quantizeimage(    int $numColors,    int $colorspace,    int $tr
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

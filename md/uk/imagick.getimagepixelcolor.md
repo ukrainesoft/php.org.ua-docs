@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImagePixelColor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImagePixelColor
 
@@ -32,7 +33,7 @@ public Imagick::getImagePixelColor(int $x, int $y): ImagickPixel
 
 ### Значення, що повертаються
 
-Повертає екземпляр ImagickPixel для кольору в заданих координатах.
+Повертає екземпляр ImagickPixel для кольору у заданих координатах.
 
 ### Помилки
 

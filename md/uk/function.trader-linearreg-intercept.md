@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-linearreg-angle.md: « traderlinearregangle
-  - function.trader-linearreg-slope.md: traderlinearregslope »
+  - function.trader-linearreg-angle.md: « trader\_linearreg\_angle
+  - function.trader-linearreg-slope.md: trader\_linearreg\_slope »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderlinearregintercept
+  - ref.trader.md: Функції Trader
+title: trader\_linearreg\_intercept
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderlinearregintercept
+# trader\_linearreg\_intercept
 
 (PECL trader >= 0.2.0)
 
-traderlinearregintercept - Перехоплення лінійної регресії
+trader\_linearreg\_intercept - Перехоплення лінійної регресії
 
 ### Опис
 

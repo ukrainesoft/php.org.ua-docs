@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-client.recv.md: '« SwooleClient::recv'
-  - swoole-client.send.md: 'SwooleClient::send »'
+  - swoole-client.recv.md: '« Swoole\\Client::recv'
+  - swoole-client.send.md: 'Swoole\\Client::send »'
   - index.md: PHP Manual
-  - class.swoole-client.md: SwooleClient
-title: 'SwooleClient::resume'
+  - class.swoole-client.md: Swoole\\Client
+title: 'Swoole\\Client::resume'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleClient::resume
+# Swoole\\Client::resume
 
 (PECL swoole >= 1.9.0)
 
-SwooleClient::resume — Відновлює отримання даних
+Swoole\\Client::resume — Відновлює отримання даних
 
 ### Опис
 

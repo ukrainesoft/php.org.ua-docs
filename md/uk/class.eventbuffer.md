@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.event.md: Event
 title: Клас EventBuffer
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EventBuffer
 
@@ -206,7 +207,7 @@ length
 
 Кількість байт у буфері подій.
 
-contiguousspace
+contiguous\_space
 
 Кількість байтів, що зберігаються суміжно у передній частині буфера. Байти в буфері можуть розташовуватися в різних шматках пам'яті; Якість повертає кількість байт що знаходяться, в даний момент, в першому шматку.
 
@@ -218,7 +219,7 @@ contiguousspace
 
 **`EventBuffer::EOL_CRLF`**
 
-Кінець рядка є послідовністю з необов'язкового повернення каретки та перекладу рядка. (тобто або `"\r\n"` або `"\n"` .) Цей формат корисний при розборі текстових Інтернет-протоколів, оскільки стандарти зазвичай наказують позначати кінець рядка як `"\r\n"`, але багато клієнтів використовують просто `"\n"`
+Кінець рядка є послідовністю з необов'язкового повернення каретки та перекладу рядка. (тобто або `"\r\n"`либо`"\n"` .) Цей формат корисний при розборі текстових Інтернет-протоколів, оскільки стандарти зазвичай наказують позначати кінець рядка як `"\r\n"`, але багато клієнтів використовують просто `"\n"`
 
 **`EventBuffer::EOL_CRLF_STRICT`**
 
@@ -226,11 +227,11 @@ contiguousspace
 
 **`EventBuffer::EOL_LF`**
 
-Кінець рядка є символом перекладу рядка. (тобто . `"\n"` . ASCII-код **`0x0A`**
+Кінець рядка є символом перекладу рядка. (тобто . `"\n"`. ASCII-код\*\*`0x0A`\*\*
 
 **`EventBuffer::PTR_SET`**
 
-Прапор використовується як аргумент методу **EventBuffer::setPosition()**. Якщо прапор встановлений, то вказівник позиції переміщається на абсолютну позицію буфері.
+Флаг используется как аргумент метода**EventBuffer::setPosition()**. Якщо прапор встановлений, то вказівник позиції переміщається на абсолютну позицію буфері.
 
 **`EventBuffer::PTR_ADD`**
 
@@ -238,25 +239,25 @@ contiguousspace
 
 ## Зміст
 
--   [EventBuffer::add](eventbuffer.add.md) — Додає дані до кінця буфера подій
--   [EventBuffer::addBuffer](eventbuffer.addbuffer.md) — Переміщує всі дані з буфера екземпляру EventBuffer
--   [EventBuffer::appendFrom](eventbuffer.appendfrom.md) — Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
--   [EventBuffer::construct](eventbuffer.construct.md) - Створює об'єкт EventBuffer
--   [EventBuffer::copyout](eventbuffer.copyout.md) — Копіює вказану кількість байтів з початку буфера
--   [EventBuffer::drain](eventbuffer.drain.md) — Видаляє вказану кількість байтів із початку буфера, нікуди не копіюючи
--   [EventBuffer::enableLocking](eventbuffer.enablelocking.md) - Опис
--   [EventBuffer::expand](eventbuffer.expand.md) - Резервує простір у буфері
--   [EventBuffer::freeze](eventbuffer.freeze.md) — Запобігає викликам, які змінюють буфер подій у разі успішного виконання
--   [EventBuffer::lock](eventbuffer.lock.md) — Отримує блокування буфера
--   [EventBuffer::prepend](eventbuffer.prepend.md) — Записує дані на початок буфера
--   [EventBuffer::prependBuffer](eventbuffer.prependbuffer.md) — Переміщує всі дані з вихідного буфера на початок поточного буфера
--   [EventBuffer::pullup](eventbuffer.pullup.md) — Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
--   [EventBuffer::read](eventbuffer.read.md) — Читає дані з evbuffer та виснажує прочитані байти
--   [EventBuffer::readFrom](eventbuffer.readfrom.md) — Читає дані з файлу до кінця буфера
--   [EventBuffer::readLine](eventbuffer.readline.md) — Витягує рядок із початку буфера
--   [EventBuffer::search](eventbuffer.search.md) - Сканує буфер на наявність рядка
--   [EventBuffer::searchEol](eventbuffer.searcheol.md) - Сканує буфер на наявність кінця рядка
--   [EventBuffer::substr](eventbuffer.substr.md) - Обрізає частину даних буфера
--   [EventBuffer::unfreeze](eventbuffer.unfreeze.md) — Повторно включає дзвінки, які змінюють буфер подій
--   [EventBuffer::unlock](eventbuffer.unlock.md) — Знімає блокування, встановлене EventBuffer::lock
--   [EventBuffer::write](eventbuffer.write.md) — Записує вміст буфера у файл чи сокет
+-   [EventBuffer::add](eventbuffer.add.md)— Додає дані до кінця буфера подій
+-   [EventBuffer::addBuffer](eventbuffer.addbuffer.md)— Переміщує всі дані з буфера екземпляру EventBuffer
+-   [EventBuffer::appendFrom](eventbuffer.appendfrom.md)— Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
+-   [EventBuffer::\_\_construct](eventbuffer.construct.md) \- Створює об'єкт EventBuffer
+-   [EventBuffer::copyout](eventbuffer.copyout.md)— Копіює вказану кількість байтів з початку буфера
+-   [EventBuffer::drain](eventbuffer.drain.md)— Видаляє вказану кількість байтів із початку буфера, нікуди не копіюючи
+-   [EventBuffer::enableLocking](eventbuffer.enablelocking.md) \- Опис
+-   [EventBuffer::expand](eventbuffer.expand.md) \- Резервує простір у буфері
+-   [EventBuffer::freeze](eventbuffer.freeze.md)— Запобігає викликам, які змінюють буфер подій у разі успішного виконання
+-   [EventBuffer::lock](eventbuffer.lock.md)— Отримує блокування буфера
+-   [EventBuffer::prepend](eventbuffer.prepend.md)— Записує дані на початок буфера
+-   [EventBuffer::prependBuffer](eventbuffer.prependbuffer.md)— Переміщує всі дані з вихідного буфера на початок поточного буфера
+-   [EventBuffer::pullup](eventbuffer.pullup.md)— Лінеаризує дані в буфері та повертає їх вміст у вигляді рядка
+-   [EventBuffer::read](eventbuffer.read.md)— Читає дані з evbuffer та виснажує прочитані байти
+-   [EventBuffer::readFrom](eventbuffer.readfrom.md)— Читає дані з файлу до кінця буфера
+-   [EventBuffer::readLine](eventbuffer.readline.md)— Витягує рядок із початку буфера
+-   [EventBuffer::search](eventbuffer.search.md) \- Сканує буфер на наявність рядка
+-   [EventBuffer::searchEol](eventbuffer.searcheol.md) \- Сканує буфер на наявність кінця рядка
+-   [EventBuffer::substr](eventbuffer.substr.md) \- Обрізає частину даних буфера
+-   [EventBuffer::unfreeze](eventbuffer.unfreeze.md)— Повторно включає дзвінки, які змінюють буфер подій
+-   [EventBuffer::unlock](eventbuffer.unlock.md)— Знімає блокування, встановлене EventBuffer::lock
+-   [EventBuffer::write](eventbuffer.write.md)— Записує вміст буфера у файл чи сокет

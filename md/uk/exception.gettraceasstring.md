@@ -1,10 +1,11 @@
 ---
 navigation:
   - exception.gettrace.md: '« Exception::getTrace'
-  - exception.tostring.md: 'Exception::toString »'
+  - exception.tostring.md: 'Exception::\_\_toString »'
   - index.md: PHP Manual
   - class.exception.md: Exception
 title: 'Exception::getTraceAsString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Exception::getTraceAsString
 
@@ -30,7 +31,7 @@ final public Exception::getTraceAsString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Exception::getTraceAsString()****
+**Пример #1 Пример использования**Exception::getTraceAsString()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 #0 /home/bjori/tmp/ex.php(7): test()
@@ -55,4 +56,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getTraceAsString()](throwable.gettraceasstring.md) - Отримує результати трасування стека у вигляді рядка
+-   [Throwable::getTraceAsString()](throwable.gettraceasstring.md) \- Отримує результати трасування стека у вигляді рядка

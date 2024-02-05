@@ -1,41 +1,43 @@
 ---
 navigation:
-  - mysqli.connect-error.md: '« mysqli::$connecterror'
+  - mysqli.connect-error.md: '« mysqli::$connect\_error'
   - mysqli.debug.md: 'mysqli::debug »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::construct'
+title: 'mysqli::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::construct
+# mysqli::\_\_construct
 
 # mysqli::connect
 
-# mysqliconnect
+# mysqli\_connect
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::construct -- mysqli::connect -- mysqliconnect — Встановлює нове з'єднання з сервером MySQL
+mysqli::\_\_construct -- mysqli::connect -- mysqli\_connect — Встановлює нове з'єднання з сервером MySQL
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::construct**  
-string `$hostname` = iniget("mysqli.defaulthost"),  
-string `$username` = iniget("mysqli.defaultuser"),  
-string `$password` = iniget("mysqli.defaultpw"),  
-string `$database` = "",  
-int `$port` = iniget("mysqli.defaultport"),  
-string `$socket` = iniget("mysqli.defaultsocket")
+public**mysqli::\_\_construct**  
+?string`$hostname` **`null`**,  
+?string`$username` **`null`**,  
+?string`$password` **`null`**,  
+?string`$database` **`null`**,  
+?int`$port` **`null`**,  
+?string`$socket` **`null`**  
+) .
 
 ```methodsynopsis
-public mysqli::connect(    string $hostname = ini_get("mysqli.default_host"),    string $username = ini_get("mysqli.default_user"),    string $password = ini_get("mysqli.default_pw"),    string $database = "",    int $port = ini_get("mysqli.default_port"),    string $socket = ini_get("mysqli.default_socket")): void
+public mysqli::connect(    ?string $hostname = null,    ?string $username = null,    ?string $password = null,    ?string $database = null,    ?int $port = null,    ?string $socket = null): bool
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-mysqli_connect(    string $hostname = ini_get("mysqli.default_host"),    string $username = ini_get("mysqli.default_user"),    string $password = ini_get("mysqli.default_pw"),    string $database = "",    int $port = ini_get("mysqli.default_port"),    string $socket = ini_get("mysqli.default_socket")): mysqli|false
+mysqli_connect(    ?string $hostname = null,    ?string $username = null,    ?string $password = null,    ?string $database = null,    ?int $port = null,    ?string $socket = null): mysqli|false
 ```
 
 Встановлює з'єднання з працюючим сервером MySQL.
@@ -44,49 +46,54 @@ mysqli_connect(    string $hostname = ini_get("mysqli.default_host"),    string 
 
 `hostname`
 
-Може бути або ім'ям хоста, або IP-адресою. Передбачається використання локального хоста при вказанні у цьому параметрі **`null`** або рядка "localhost". По можливості замість протоколу TCP/IP використовуватимуться канали. Протокол TCP/IP використовується, якщо вказано ім'я хоста і номер порту, наприклад, `localhost:3308`
+Може бути або ім'ям хоста, або IP-адресою. При передачі **`null`**, значение извлекается из[mysqli.default\_host](mysqli.configuration.md#ini.mysqli.default-host). По можливості замість протоколу TCP/IP використовуватимуться канали. Протокол TCP/IP використовується, якщо вказано ім'я хоста і номер порту, наприклад, `localhost:3308`
 
-Якщо перед ім'ям хоста встановити рядок `p:`, то буде відкрито постійне з'єднання. Якщо з'єднання відкрито з пулу підключень, буде автоматично викликано функцію [mysqlichangeuser()](mysqli.change-user.md)
+Якщо перед ім'ям хоста встановити рядок `p:`, то буде відкрито постійне з'єднання. Якщо з'єднання відкрито з пулу підключень, буде автоматично викликано функцію [mysqli\_change\_user()](mysqli.change-user.md)
 
 `username`
 
-Ім'я користувача MySQL.
+Ім'я користувача MySQL або \*\*`null`\*\*для принятия имени пользователя на основе ini-опции[mysqli.default\_user](mysqli.configuration.md#ini.mysqli.default-user)
 
 `password`
 
-Якщо не заданий або дорівнює **`null`**, MySQL-сервер в першу чергу спробує аутентифікувати користувача в принципі, який має пароль, а потім буде шукати серед користувачів, у яких немає пароля. Такий підхід дозволяє одному користувачеві призначати різні права (залежно від того, задано пароль чи ні).
+Пароль MySQL или\*\*`null`\*\*для принятия пароля на основе ini-опции[mysqli.default\_pw](mysqli.configuration.md#ini.mysqli.default-pw)
 
 `database`
 
-Якщо параметр встановлено, його значення буде використовуватися як ім'я бази даних за замовчуванням під час виконання запитів.
+База даних за замовчуванням, яка буде використовуватися під час виконання запитів або **`null`**
 
 `port`
 
-Вказує номер порту для підключення до сервера MySQL.
+Номер порту для спроби підключення до сервера MySQL або \*\*`null`\*\*для принятия порта на основе ini-опции[mysqli.default\_port](mysqli.configuration.md#ini.mysqli.default-port)
 
 `socket`
 
-Задає сокет або іменований пайп, який потрібно використовувати.
+Сокет або іменований пайп, який необхідно використовувати або \*\*`null`\*\*для принятия сокета на основе ini-опции[mysqli.default\_socket](mysqli.configuration.md#ini.mysqli.default-socket)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Передача параметра `socket` явно не визначатиме тип з'єднання при підключенні до сервера MySQL. Те, як встановлюватиметься з'єднання з MySQL-сервером, визначається параметром `hostname`
+> Передача параметра`socket` явно не буде задавати тип з'єднання при підключенні до сервера MySQL. Те, як встановлюватиметься з'єднання з MySQL-сервером, визначається параметром `hostname`
 
 ### Значення, що повертаються
 
-**mysqli::construct()** завжди повертає об'єкт, який представляє з'єднання з сервером MySQL, незалежно від того, було воно успішним чи ні.
+[mysqli\_connect()](function.mysqli-connect.md) повертає об'єкт, який представляє з'єднання з сервером MySQL або \*\*`false`\*\*в случае возникновения ошибки.
 
-[mysqliconnect()](function.mysqli-connect.md) повертає об'єкт, який представляє з'єднання з сервером MySQL або **`false`** у разі виникнення помилки.
-
-[mysqli::connect()](function.mysqli-connect.md) повертає **`null`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+[mysqli::connect()](function.mysqli-connect.md) повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. До PHP 8.1.0 у разі успішного виконання поверталося значення **`null`**
 
 ### Помилки
 
-Якщо **`MYSQLI_REPORT_STRICT`** увімкнена та під час підключення до бази даних сталася помилка, викидається [mysqlisqlexception](class.mysqli-sql-exception.md)
+Якщо сповіщення про помилки mysqli включено (**`MYSQLI_REPORT_ERROR`**) та запитана операція не вдалася, видається попередження. Якщо, крім того, встановлено режим **`MYSQLI_REPORT_STRICT`**, натомість буде викинуто виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.md)
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.1.0 | Метод[mysqli::connect()](function.mysqli-connect.md) тепер повертає значення **`true`** замість **`null`** у разі успішного виконання. |
+| 7.4.0 | Усі параметри тепер припускають значення **`null`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::construct()****
+**Пример #1 Пример использования**mysqli::\_\_construct()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -121,7 +128,7 @@ mysqli_set_charset($mysqli, 'utf8mb4');
 printf("Успешно... %s\n", mysqli_get_host_info($mysqli));
 ```
 
-Результатом виконання даних прикладів буде щось подібне:
+Висновок наведених прикладів буде схожим на:
 
 ```
 Успешно... localhost via TCP/IP
@@ -187,32 +194,32 @@ if (mysqli_errno($mysqli)) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > MySQLnd завжди має на увазі кодування, яке використовує за умовчанням сервер. Це кодування передається під час встановлення з'єднання/авторизації, які використовує mysqlnd.
 > 
-> За замовчуванням Libmysqlclient використовує кодування, встановлене в my.cnf або спеціальним викликом [mysqlioptions()](mysqli.options.md) до використання [mysqlirealconnect()](mysqli.real-connect.md), але після [mysqliinit()](mysqli.init.md)
+> За замовчуванням Libmysqlclient використовує кодування, встановлене у файлі my.cnf або явним викликом функції [mysqli\_options()](mysqli.options.md) до виклику функції [mysqli\_real\_connect()](mysqli.real-connect.md), але після виклику функції [mysqli\_connect()](function.mysqli-connect.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо використовується Об'єктно-орієнтований стиль: Якщо з'єднання встановити не вдалося, метод все одно поверне об'єкт. Перевірити успішність створення підключення можна або функцією [mysqliconnecterror()](mysqli.connect-error.md) або за допомогою властивості [mysqli->connecterror](mysqli.connect-error.md), Як показано в прикладах.
+> Якщо використовується Об'єктно-орієнтований стиль: Якщо з'єднання встановити не вдалося, метод все одно поверне об'єкт. Перевірити успішність створення підключення можна або функцією [mysqli\_connect\_error()](mysqli.connect-error.md)или с помощью свойства[mysqli->connect\_error](mysqli.connect-error.md), Як показано в прикладах.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо необхідно задати додаткові параметри підключення, на кшталт часу очікування і т.п., замість цього методу необхідно використовувати функцію [mysqlirealconnect()](mysqli.real-connect.md)
+> Якщо необхідно задати додаткові параметри підключення, на кшталт часу очікування і т.п., замість цього методу необхідно використовувати функцію [mysqli\_real\_connect()](mysqli.real-connect.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Виклик конструктора без параметрів ідентичний виклику функції [mysqliinit()](mysqli.init.md)
+> Виклик конструктора без параметрів ідентичний виклику функції [mysqli\_init()](mysqli.init.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Помилка "Can't create TCP/IP socket (10106)" зазвичай означає, що директива конфігурації [variablesorder](ini.core.md#ini.variables-order) не містить символ `E`. У Windows системах, якщо оточення не скопійовано, змінне середовище `SYSTEMROOT` буде недоступна, і у PHP виникнуть проблеми із завантаженням Winsock.
+> Помилка "Can't create TCP/IP socket (10106)" зазвичай означає, що директива конфігурації [variables\_order](ini.core.md#ini.variables-order) не містить символ `E`. У Windows системах, якщо оточення не скопійовано, змінне середовище `SYSTEMROOT` буде недоступна, і у PHP виникнуть проблеми із завантаженням Winsock.
 
 ### Дивіться також
 
--   [mysqlirealconnect()](mysqli.real-connect.md) - Встановлює з'єднання із сервером mysql
--   [mysqlioptions()](mysqli.options.md) - Встановлення налаштувань
--   [mysqliconnecterrno()](mysqli.connect-errno.md) - Повертає код помилки останньої спроби з'єднання
--   [mysqliconnecterror()](mysqli.connect-error.md) - Повертає опис останньої помилки підключення
--   [mysqliclose()](mysqli.close.md) - Закриває раніше відкрите з'єднання з базою даних
+-   [mysqli\_real\_connect()](mysqli.real-connect.md) \- Встановлює з'єднання із сервером mysql
+-   [mysqli\_options()](mysqli.options.md) \- Встановлення налаштувань
+-   [mysqli\_connect\_errno()](mysqli.connect-errno.md) \- Повертає код помилки останньої спроби з'єднання
+-   [mysqli\_connect\_error()](mysqli.connect-error.md) \- Повертає опис останньої помилки підключення
+-   [mysqli\_close()](mysqli.close.md) \- Закриває раніше відкрите з'єднання з базою даних

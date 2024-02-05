@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.toarray.md: '« DsSet::toArray'
-  - ds-set.xor.md: 'ДсSet::xor »'
+  - ds-set.toarray.md: '« Ds\\Set::toArray'
+  - ds-set.xor.md: 'Ds\\Set::xor »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::union'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::union'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::union
+# Ds\\Set::union
 
 (PECL ds >= 1.0.0)
 
-ДсSet::union — Створення нового набору з елементів поточного та переданого наборів
+Ds\\Set::union — Створення нового набору з елементів поточного та переданого наборів
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсSet::union'
 public Ds\Set::union(Ds\Set $set): Ds\Set
 ```
 
-Створює новий набір з елементів поточного та переданого в `set` наборів.
+Створює новий набір з елементів поточного та переданого в `set`наборов.
 
 `A ∪ B = {x: x ∈ A ∨ x ∈ B}`
 
@@ -32,13 +33,13 @@ public Ds\Set::union(Ds\Set $set): Ds\Set
 
 Новий набір, що є об'єднанням поточного та переданого в `set`
 
-### Також дивіться
+### Дивіться також
 
--   [» Об'єднання](https://en.wikipedia.org/wiki/Union_(set_theory)) в Вікіпедія
+-   [» Об'єднання](https://en.wikipedia.org/wiki/Union_(set_theory))в Вікіпедія
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::union()****
+**Пример #1 Пример использования**Ds\\Set::union()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($a->union($b));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Set)#3 (5) {

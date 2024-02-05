@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::liquidRescaleImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::liquidRescaleImage
 
-(PECL imagick 2> = 2.2.0, PECL imagick 3)
+(PECL imagick 2 >= 2.2.0, PECL imagick 3)
 
 Imagick::liquidRescaleImage — Анімує зображення або зображення
 
 ### Опис
 
 ```methodsynopsis
-public Imagick::liquidRescaleImage(    int $width,    int $height,    float $delta_x,    float $rigidity): bool
+public Imagick::liquidRescaleImage(    int $width,    int $height,    float $delta_x,    float $rigidity): bool
 ```
 
 Масштабує зображення за допомогою методу liquid rescaling. Він є реалізацією техніки seam carving. Щоб метод працював належним чином, ImageMagick має бути скомпільований за допомогою liblqr. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.9 або старшим.
@@ -44,4 +45,4 @@ public Imagick::liquidRescaleImage(    int $width,    int $height,    float $del
 
 ### Дивіться також
 
--   [Imagick::resizeImage()](imagick.resizeimage.md) - Масштабує зображення
+-   [Imagick::resizeImage()](imagick.resizeimage.md) \- Масштабує зображення

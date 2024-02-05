@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isalpha'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isalpha
 
@@ -24,7 +25,7 @@ public static IntlChar::isalpha(int|string $codepoint): ?bool
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
@@ -42,7 +43,7 @@ var_dump(IntlChar::isalpha("\u{2603}"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -52,5 +53,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isalnum()](intlchar.isalnum.md) - Перевірити, чи є символ буквою чи цифрою
--   [IntlChar::isdigit()](intlchar.isdigit.md) - Перевірити, чи є символ цифрою
+-   [IntlChar::isalnum()](intlchar.isalnum.md) \- Перевірити, чи є символ буквою чи цифрою
+-   [IntlChar::isdigit()](intlchar.isdigit.md) \- Перевірити, чи є символ цифрою
+-   [ctype\_alpha()](function.ctype-alpha.md) \- Перевіряє буквені символи

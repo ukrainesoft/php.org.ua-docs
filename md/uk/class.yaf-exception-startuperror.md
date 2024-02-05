@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.yaf-exception-typeerror.md: « YafExceptionTypeError
-  - class.yaf-exception-dispatchfailed.md: YafExceptionDispatchFailed »
+  - class.yaf-exception-typeerror.md: « Yaf\_Exception\_TypeError
+  - class.yaf-exception-dispatchfailed.md: Yaf\_Exception\_DispatchFailed »
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafExceptionStartupError
+title: Клас Yaf\_Exception\_StartupError
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafExceptionStartupError
+# Клас Yaf\_Exception\_StartupError
 
 (Yaf >=1.0.0)
 

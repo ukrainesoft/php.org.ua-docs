@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-getgrnam.md: « posixgetgrnam
-  - function.posix-getlogin.md: posixgetlogin »
+  - function.posix-getgrnam.md: « posix\_getgrnam
+  - function.posix-getlogin.md: posix\_getlogin »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixgetgroups
+  - ref.posix.md: POSIX Функції
+title: posix\_getgroups
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixgetgroups
+# posix\_getgroups
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posixgetgroups — Повертає список груп для поточного процесу
+posix\_getgroups — Повертає список груп для поточного процесу
 
 ### Опис
 
@@ -26,11 +27,11 @@ posix_getgroups(): array|false
 
 ### Значення, що повертаються
 
-Повертає числовий масив, що містить список ідентифікаторів груп для поточного процесу або **`false`** у разі виникнення помилки.
+Повертає числовий масив, що містить список ідентифікаторів груп для поточного процесу або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posixgetgroups()****
+**Пример #1 Пример использования**posix\_getgroups()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ print_r($groups);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -64,4 +65,4 @@ Array
 
 ### Дивіться також
 
--   [posixgetgrgid()](function.posix-getgrgid.md) - Повертає інформацію про групу за її ID
+-   [posix\_getgrgid()](function.posix-getgrgid.md) \- Повертає інформацію про групу за її ID

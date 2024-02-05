@@ -1,14 +1,15 @@
 ---
 navigation:
-  - splfileobject.tostring.md: '« SplFileObject::toString'
+  - splfileobject.tostring.md: '« SplFileObject::\_\_function toString() { [native code] }'
   - class.spltempfileobject.md: SplTempFileObject »
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::valid
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::valid — Перевіряє, чи досягнуто кінець файлу (EOF)
 
@@ -30,7 +31,7 @@ public SplFileObject::valid(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::valid()****
+**Пример #1 Пример использования**SplFileObject::valid()\*\*\*\*
 
 ```php
 <?php
@@ -44,8 +45,8 @@ while ($file->valid()) {
 
 ### Дивіться також
 
--   [SplFileObject::current()](splfileobject.current.md) - Отримати поточний рядок файлу
--   [SplFileObject::key()](splfileobject.key.md) - Отримати номер рядка
--   [SplFileObject::seek()](splfileobject.seek.md) - Переклад файлового покажчика на заданий рядок
--   [SplFileObject::next()](splfileobject.next.md) - Читати наступний рядок
--   [SplFileObject::rewind()](splfileobject.rewind.md) - Перемотування файлового покажчика на початок файлу
+-   [SplFileObject::current()](splfileobject.current.md) \- Отримати поточний рядок файлу
+-   [SplFileObject::key()](splfileobject.key.md) \- Отримати номер рядка
+-   [SplFileObject::seek()](splfileobject.seek.md) \- Переклад файлового покажчика на заданий рядок
+-   [SplFileObject::next()](splfileobject.next.md) \- Читати наступний рядок
+-   [SplFileObject::rewind()](splfileobject.rewind.md) \- Перемотування файлового покажчика на початок файлу

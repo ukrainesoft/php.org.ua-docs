@@ -1,10 +1,11 @@
 ---
 navigation:
-  - gearmantask.construct.md: '« GearmanTask::construct'
+  - gearmantask.construct.md: '« GearmanTask::\_\_construct'
   - gearmantask.data.md: 'GearmanTask::data »'
   - index.md: PHP Manual
   - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::create'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanTask::create
 
@@ -20,7 +21,7 @@ public GearmanTask::create(): GearmanTask|false
 
 Повертає новий об'єкт класу [GearmanTask](class.gearmantask.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей метод було видалено у версії 0.6.0 модуля Gearman.
 
@@ -30,4 +31,4 @@ public GearmanTask::create(): GearmanTask|false
 
 ### Значення, що повертаються
 
-Об'єкт класу [GearmanTask](class.gearmantask.md) або **`false`** у разі виникнення помилки.
+Об'єкт класу [GearmanTask](class.gearmantask.md)или\*\*`false`\*\*в случае возникновения ошибки.

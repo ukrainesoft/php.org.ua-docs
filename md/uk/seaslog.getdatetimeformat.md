@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::getDatetimeFormat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::getDatetimeFormat
 
@@ -18,7 +19,7 @@ SeasLog::getDatetimeFormat — Отримує стиль формату дати
 public static SeasLog::getDatetimeFormat(): string
 ```
 
-Отримує стиль формату дати та часу SeasLog. Використовуйте функцію **SeasLog::getDatetimeFormat()**, щоб отримати значення [seaslog.defaultdatetimeformat](seaslog.configuration.md#ini.seaslog.default-datetime-format), яка налаштована в php.ini(seaslog.ini).
+Отримує стиль формату дати та часу SeasLog. Використовуйте функцію **SeasLog::getDatetimeFormat()**, щоб отримати значення [seaslog.default\_datetime\_format](seaslog.configuration.md#ini.seaslog.default-datetime-format), яка налаштована в php.ini(seaslog.ini).
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public static SeasLog::getDatetimeFormat(): string
 
 ### Значення, що повертаються
 
-Отримує стиль формату дати та часу SeasLog [seaslog.defaultdatetimeformat](seaslog.configuration.md#ini.seaslog.default-datetime-format). Використання функції [SeasLog::setDatetimeFormat()](seaslog.setdatetimeformat.md) змінить це значення.
+Отримує стиль формату дати та часу SeasLog [seaslog.default\_datetime\_format](seaslog.configuration.md#ini.seaslog.default-datetime-format)Использование функции[SeasLog::setDatetimeFormat()](seaslog.setdatetimeformat.md) змінить це значення.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::getDatetimeFormat()****
+**Пример #1 Пример использования**SeasLog::getDatetimeFormat()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump(SeasLog::getDateTimeFormat());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(11) "Y-m-d H:i:s"
@@ -52,4 +53,4 @@ string(7) "Ymd His"
 
 ### Дивіться також
 
--   [SeasLog::setDatetimeFormat()](seaslog.setdatetimeformat.md) - Встановлює стиль формату дати та часу SeasLog
+-   [SeasLog::setDatetimeFormat()](seaslog.setdatetimeformat.md) \- Встановлює стиль формату дати та часу SeasLog

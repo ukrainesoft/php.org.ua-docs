@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.eio-stat.md: « eiostat
-  - function.eio-symlink.md: eiosymlink »
+  - function.eio-stat.md: « eio\_stat
+  - function.eio-symlink.md: eio\_symlink »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiostatvfs
+  - ref.eio.md: Eio Функції
+title: eio\_statvfs
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiostatvfs
+# eio\_statvfs
 
 (PECL eio >= 0.0.1dev)
 
-eiostatvfs — Повертає статистику файлової системи
+eio\_statvfs — Повертає статистику файлової системи
 
 ### Опис
 
 ```methodsynopsis
-eio_statvfs(    string $path,    int $pri,    callable $callback,    mixed $data = ?): resource
+eio_statvfs(    string $path,    int $pri,    callable $callback,    mixed $data = ?): resource
 ```
 
-**eiostatvfs()** повертає статистику файлової системи до параметра `result` функції `callback`
+**eio\_statvfs()** повертає статистику файлової системи до параметра `result` функції `callback`
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ eio_statvfs(    string $path,    int $pri,    callable $callback,    mixed $data
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -48,19 +49,19 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
-Довільна змінна, що передається в `callback`функцію.
+Произвольная переменная, передаваемая в`callback`\-функцію.
 
 ### Значення, що повертаються
 
-[eiostat()](function.eio-stat.md) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки. У разі успішного виконання параметр `result` функції `callback` є масивом.
+[eio\_stat()](function.eio-stat.md) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки. У разі успішного виконання параметр `result` функції `callback` є масивом.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eiostatvfs()****
+**Пример #1 Пример использования**eio\_statvfs()\*\*\*\*
 
 ```php
 <?php
@@ -79,7 +80,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(17) "/tmp/eio-file.tmp"

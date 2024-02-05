@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-memzero.md: « sodiummemzero
-  - function.sodium-unpad.md: sodiumunpad »
+  - function.sodium-memzero.md: « sodium\_memzero
+  - function.sodium-unpad.md: sodium\_unpad »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumpad
+  - ref.sodium.md: Опції Sodium
+title: sodium\_pad
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumpad
+# sodium\_pad
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumpad — Доповнює рядок відступами
+sodium\_pad — Доповнює рядок відступами
 
 ### Опис
 
@@ -28,7 +29,7 @@ sodium_pad(string $string, int $block_size): string
 
 `block_size`
 
-Рядок буде доповнено доти, доки вона не стане парною кратною розміру блоку.
+Рядок буде доповнено доти, доки він не стане парною кратною розміру блоку.
 
 ### Значення, що повертаються
 

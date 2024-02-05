@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-collection.replaceone.md: '« Collection::replaceOne'
-  - mysql-xdevapi-collectionadd.construct.md: 'CollectionAdd::construct »'
+  - mysql-xdevapi-collectionadd.construct.md: 'CollectionAdd::\_\_construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Клас CollectionAdd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас CollectionAdd
 
@@ -36,5 +37,5 @@ title: Клас CollectionAdd
 
 ## Зміст
 
--   [CollectionAdd::construct](mysql-xdevapi-collectionadd.construct.md) - Конструктор класу CollectionAdd
--   [CollectionAdd::execute](mysql-xdevapi-collectionadd.execute.md) - Виконує твердження
+-   [CollectionAdd::\_\_construct](mysql-xdevapi-collectionadd.construct.md) \- Конструктор класу CollectionAdd
+-   [CollectionAdd::execute](mysql-xdevapi-collectionadd.execute.md) \- Виконує твердження

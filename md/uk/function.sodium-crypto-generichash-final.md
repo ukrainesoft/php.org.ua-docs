@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-sub.md: « sodiumcryptocoreristretto255sub
-  - function.sodium-crypto-generichash-init.md: sodiumcryptogenerichashinit »
+  - function.sodium-crypto-core-ristretto255-sub.md: « sodium\_crypto\_core\_ristretto255\_sub
+  - function.sodium-crypto-generichash-init.md: sodium\_crypto\_generichash\_init »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptogenerichashfinal
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_generichash\_final
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptogenerichashfinal
+# sodium\_crypto\_generichash\_final
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptogenerichashfinal - Закінчити хешування
+sodium\_crypto\_generichash\_final - Закінчити хешування
 
 ### Опис
 
@@ -24,7 +25,7 @@ sodium_crypto_generichash_final(string &$state, int $length = SODIUM_CRYPTO_GENE
 
 `state`
 
-Стан хешу, повернутий [sodiumcryptogenerichashinit()](function.sodium-crypto-generichash-init.md)
+Стан хешу, повернутий [sodium\_crypto\_generichash\_init()](function.sodium-crypto-generichash-init.md)
 
 `length`
 
@@ -36,7 +37,7 @@ sodium_crypto_generichash_final(string &$state, int $length = SODIUM_CRYPTO_GENE
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptogenerichashfinal()****
+**Пример #1 Пример использования**sodium\_crypto\_generichash\_final()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ var_dump(sodium_bin2hex($allAtOnce));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(64) "a2939a9163cb7c796ec28e01028489e72475c136b2697ea59e3e760ab4a8ab20"

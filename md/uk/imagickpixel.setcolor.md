@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::setColor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::setColor
 
@@ -20,7 +21,7 @@ public ImagickPixel::setColor(string $color): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Встановлює колір об'єкта ImagickPixel зазначеним рядком (наприклад, "blue", "#0000ff", "rgb(0,0,255)", "cmyk(100,100,100,10)" і т.д.).
 
@@ -28,7 +29,7 @@ public ImagickPixel::setColor(string $color): bool
 
 `color`
 
-Визначення кольору для використання у порядку ініціалізації об'єкта ImagickPixel.
+Визначення кольору для використання в порядку ініціалізації об'єкту ImagickPixel.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public ImagickPixel::setColor(string $color): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickPixel::setColor()****
+**Пример #1 Пример использования**ImagickPixel::setColor()\*\*\*\*
 
 ```php
 <?php

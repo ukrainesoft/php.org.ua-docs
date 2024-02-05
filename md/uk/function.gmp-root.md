@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-random.md: « gmprandom
-  - function.gmp-rootrem.md: gmprootrem »
+  - function.gmp-random.md: « gmp\_random
+  - function.gmp-rootrem.md: gmp\_rootrem »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmproot
+title: gmp\_root
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmproot
+# gmp\_root
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-gmproot - Витягти корінь ступеня N і повернути його цілу частину
+gmp\_root - Витягти корінь ступеня N і повернути його цілу частину
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmproot - Витягти корінь ступеня N і повернути й�
 gmp_root(GMP|int|string $num, int $nth): GMP
 ```
 
-Витягує корінь ступеня `nth` з `num` і повертає цілу частину результату.
+Извлекает корень степени`nth`из`num` і повертає цілу частину результату.
 
 ### Список параметрів
 

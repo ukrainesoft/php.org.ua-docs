@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::getLastResponseInfo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::getLastResponseInfo
 
@@ -26,9 +27,9 @@ public OAuth::getLastResponseInfo(): array
 
 ### Значення, що повертаються
 
-Повертає масив з інформацією на останній запит. Можна використовувати константи [curlgetinfo()](function.curl-getinfo.md)
+Повертає масив з інформацією на останній запит. Можна використовувати константи [curl\_getinfo()](function.curl-getinfo.md)
 
 ### Дивіться також
 
--   [OAuth::fetch()](oauth.fetch.md) - Витягти захищений ресурс OAuth
--   [OAuth::getLastResponse()](oauth.getlastresponse.md) - Отримати останню відповідь
+-   [OAuth::fetch()](oauth.fetch.md) \- Витягти захищений ресурс OAuth
+-   [OAuth::getLastResponse()](oauth.getlastresponse.md) \- Отримати останню відповідь

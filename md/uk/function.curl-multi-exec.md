@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-multi-errno.md: « curlmultierrno
-  - function.curl-multi-getcontent.md: curlmultigetcontent »
+  - function.curl-multi-errno.md: « curl\_multi\_errno
+  - function.curl-multi-getcontent.md: curl\_multi\_getcontent »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlmultiexec
+  - ref.curl.md: Опції cURL
+title: curl\_multi\_exec
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlmultiexec
+# curl\_multi\_exec
 
 (PHP 5, PHP 7, PHP 8)
 
-curlmultiexec — Запускає підключення поточного дескриптора cURL
+curl\_multi\_exec — Запускає підключення поточного дескриптора cURL
 
 ### Опис
 
@@ -24,7 +25,7 @@ curl_multi_exec(CurlMultiHandle $multi_handle, int &$still_running): int
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.md)
+Мультидескриптор cURL, отриманий з [curl\_multi\_init()](function.curl-multi-init.md)
 
 `still_running`
 
@@ -32,21 +33,21 @@ curl_multi_exec(CurlMultiHandle $multi_handle, int &$still_running): int
 
 ### Значення, що повертаються
 
-Код cURL, вказаний у [визначених константах](curl.constants.md) CURL.
+Код cURL, вказаний у [визначених константах](curl.constants.md)cURL.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Тут повертаються помилки, що стосуються лише всього стеку. Проблеми все ще можуть виникнути на індивідуальних запитах, навіть коли ця функція повертає **`CURLM_OK`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| 8.0.0 | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curlmultiexec()****
+**Пример #1 Пример использования**curl\_multi\_exec()\*\*\*\*
 
 Цей приклад створить два дескриптори cURL, додасть в набір дескрипторів, а потім запустить їх асинхронно.
 
@@ -88,6 +89,6 @@ curl_multi_close($mh);
 
 ### Дивіться також
 
--   [curlmultiinit()](function.curl-multi-init.md) - Створює набір cURL-дескрипторів
--   [curlmultiselect()](function.curl-multi-select.md) - Чекає активності на будь-якому curlmulti з'єднанні
--   [curlexec()](function.curl-exec.md) - Виконує запит cURL
+-   [curl\_multi\_init()](function.curl-multi-init.md) \- Створює набір cURL-дескрипторів
+-   [curl\_multi\_select()](function.curl-multi-select.md) \- Чекає активності на будь-якому curl\_multi з'єднанні
+-   [curl\_exec()](function.curl-exec.md) \- Виконує запит cURL

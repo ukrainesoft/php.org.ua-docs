@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apcu-inc.md: « apcuinc
-  - function.apcu-sma-info.md: apcusmainfo »
+  - function.apcu-inc.md: « apcu\_inc
+  - function.apcu-sma-info.md: apcu\_sma\_info »
   - index.md: PHP Manual
-  - ref.apcu.md: Функции APCu
-title: apcukeyinfo
+  - ref.apcu.md: Функції APCu
+title: apcu\_key\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apcukeyinfo
+# apcu\_key\_info
 
 (No version information available, might only be in Git)
 
-apcukeyinfo — Отримати детальну інформацію про ключ у кеші
+apcu\_key\_info — Отримати детальну інформацію про ключ у кеші
 
 ### Опис
 
@@ -28,11 +29,11 @@ apcu_key_info(string $key): ?array
 
 ### Значення, що повертаються
 
-Масив, що містить докладну інформацію про ключ кеша або \*\*`null`\*\*якщо ключ не існує.
+Массив, содержащий подробную информацию о ключе кеша или\*\*`null`\*\*якщо ключ не існує.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apcukeyinfo()****
+**Пример #1 Пример использования**apcu\_key\_info()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ var_dump(apcu_key_info('a'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(7) {
@@ -64,6 +65,6 @@ array(7) {
 
 ### Дивіться також
 
--   [apcustore()](function.apcu-store.md) - Кешує змінну
--   [apcufetch()](function.apcu-fetch.md) - Витягує з кеша збережену змінну
--   [apcudelete()](function.apcu-delete.md) - Видаляє збережене значення з кешу
+-   [apcu\_store()](function.apcu-store.md) \- Кешує змінну
+-   [apcu\_fetch()](function.apcu-fetch.md) \- Витягує з кеша збережену змінну
+-   [apcu\_delete()](function.apcu-delete.md) \- Видаляє збережене значення з кешу

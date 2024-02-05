@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashinthash.md: QuickHashIntHash
 title: 'QuickHashIntHash::loadFromString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntHash::loadFromString
 
@@ -36,7 +37,7 @@ public static QuickHashIntHash::loadFromString(string $contents, int $options = 
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntHash::loadFromString()****
+**Пример #1 Пример использования**QuickHashIntHash::loadFromString()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ foreach( range( 0, 0x0f ) as $key )
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ключ   0 ( 0) не установлен

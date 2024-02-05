@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli-stmt.data-seek.md: '« mysqlistmt::dataseek'
-  - mysqli-stmt.error-list.md: 'mysqlistmt::$errorlist »'
+  - mysqli-stmt.data-seek.md: '« mysqli\_stmt::data\_seek'
+  - mysqli-stmt.error-list.md: 'mysqli\_stmt::$error\_list »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::$errno'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::$errno'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::$errno
+# mysqli\_stmt::$errno
 
-# mysqlistmterrno
+# mysqli\_stmt\_errno
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::$errno -- mysqlistmterrno — Повертає код помилки виконання останнього запиту
+mysqli\_stmt::$errno -- mysqli\_stmt\_errno — Повертає код помилки виконання останнього запиту
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int [$mysqlistmt->errno](mysqli-stmt.errno.md)
+int[$mysqli\_stmt->errno](mysqli-stmt.errno.md)
 
 Процедурний стиль
 
@@ -32,7 +33,7 @@ mysqli_stmt_errno(mysqli_stmt $statement): int
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -114,7 +115,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Ошибка: 1146.
@@ -122,5 +123,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlistmterror()](mysqli-stmt.error.md) - Повертає рядок із поясненням останньої помилки під час виконання запиту
--   [mysqlistmtsqlstate()](mysqli-stmt.sqlstate.md) - Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
+-   [mysqli\_stmt\_error()](mysqli-stmt.error.md) \- Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqli\_stmt\_sqlstate()](mysqli-stmt.sqlstate.md) \- Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом

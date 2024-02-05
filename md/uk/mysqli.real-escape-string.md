@@ -1,20 +1,21 @@
 ---
 navigation:
-  - mysqli.real-connect.md: '« mysqli::realconnect'
-  - mysqli.real-query.md: 'mysqli::realquery »'
+  - mysqli.real-connect.md: '« mysqli::real\_connect'
+  - mysqli.real-query.md: 'mysqli::real\_query »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::realescapestring'
+title: 'mysqli::real\_escape\_string'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::realescapestring
+# mysqli::real\_escape\_string
 
-# mysqli::escapestring
+# mysqli::escape\_string
 
-# mysqlirealescapestring
+# mysqli\_real\_escape\_string
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::realescapestring -- mysqli::escapestring -- mysqlirealescapestring — Екран спеціальних символів у рядку для використання в SQL-вираженні, використовуючи поточний набір символів з'єднання
+mysqli::real\_escape\_string -- mysqli::escape\_string -- mysqli\_real\_escape\_string — Екран спеціальних символів у рядку для використання в SQL-вираженні, використовуючи поточний набір символів з'єднання
 
 ### Опис
 
@@ -36,19 +37,19 @@ mysqli_real_escape_string(mysqli $mysql, string $string): string
 
 # Безпека: набір символів за промовчанням
 
-Набір символів повинен бути заданий на стороні сервера, або за допомогою API-функції [mysqlisetcharset()](mysqli.set-charset.md). В іншому випадку **mysqlirealescapestring()** працювати не буде. За додатковою інформацією звертайтесь до документації [набори символів](mysqlinfo.concepts.charset.md)
+Набір символів повинен бути заданий на стороні сервера, або за допомогою API-функції [mysqli\_set\_charset()](mysqli.set-charset.md). В іншому випадку **mysqli\_real\_escape\_string()** працювати не буде. За додатковою інформацією звертайтесь до документації [набори символів](mysqlinfo.concepts.charset.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 `string`
 
 Рядок, який потрібно екранувати.
 
-Екрановані символи `NUL (ASCII 0), \n, \r, \, ', ", и Control-Z`
+Екрановані символи `NUL (ASCII 0)` `\n` `\r` `\` `'` `"`и CTRL+Z.
 
 ### Значення, що повертаються
 
@@ -56,7 +57,7 @@ mysqli_real_escape_string(mysqli $mysql, string $string): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::realescapestring()****
+**Пример #1 Пример использования**mysqli::real\_escape\_string()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -100,7 +101,7 @@ $query = sprintf("SELECT CountryCode FROM City WHERE name='%s'", $city);
 $result = mysqli_query($mysqli, $query);
 ```
 
-Результатом виконання даних прикладів буде щось подібне:
+Висновок наведених прикладів буде схожим на:
 
 ```
 Возвращённые строки: 1.
@@ -110,4 +111,4 @@ Fatal error: Uncaught mysqli_sql_exception: You have an error in your SQL syntax
 
 ### Дивіться також
 
--   [mysqlisetcharset()](mysqli.set-charset.md) - Встановлює набір символів
+-   [mysqli\_set\_charset()](mysqli.set-charset.md) \- Встановлює набір символів

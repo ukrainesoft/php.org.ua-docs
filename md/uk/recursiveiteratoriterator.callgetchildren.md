@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
 title: 'RecursiveIteratorIterator::callGetChildren'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RecursiveIteratorIterator::callGetChildren
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 RecursiveIteratorIterator::callGetChildren — Отримання дочірніх елементів
 
@@ -26,4 +27,4 @@ public RecursiveIteratorIterator::callGetChildren(): ?RecursiveIterator
 
 ### Значення, що повертаються
 
-Об'єкт класу **RecursiveIterator()** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Об'єкт класу **RecursiveIterator()** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

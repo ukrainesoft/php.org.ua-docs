@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - filter.examples.md: Приклади
 title: Очищення (нормалізація)
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Очищення (нормалізація)
 
@@ -37,7 +38,7 @@ if (filter_var($sanitized_c, FILTER_VALIDATE_EMAIL)) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Нормализованный e-mail (a) является верным.

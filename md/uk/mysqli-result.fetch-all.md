@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-result.data-seek.md: '« mysqliresult::dataseek'
-  - mysqli-result.fetch-array.md: 'mysqliresult::fetcharray »'
+  - mysqli-result.data-seek.md: '« mysqli\_result::data\_seek'
+  - mysqli-result.fetch-array.md: 'mysqli\_result::fetch\_array »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::fetchall'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::fetch\_all'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::fetchall
+# mysqli\_result::fetch\_all
 
-# mysqlifetchall
+# mysqli\_fetch\_all
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-mysqliresult::fetchall - mysqlifetchall - Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
+mysqli\_result::fetch\_all -- mysqli\_fetch\_all - Вибирає всі рядки з результуючого набору і поміщає їх в асоціативний масив, звичайний масив або в обидва
 
 ### Опис
 
@@ -30,7 +31,7 @@ mysqli_fetch_all(mysqli_result $result, int $mode = MYSQLI_NUM): array
 
 Повертає двовимірний масив всіх рядків результатів у вигляді асоціативного масиву, числового масиву або обох.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > До PHP 8.1.0, функція доступна лише з [mysqlnd](book.mysqlnd.md)
 
@@ -38,11 +39,11 @@ mysqli_fetch_all(mysqli_result $result, int $mode = MYSQLI_NUM): array
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 `mode`
 
-Цей необов'язковий параметр приймає значення константи, яка вказує на тип масиву, який потрібно помістити дані. Можливі значення параметра: **`MYSQLI_ASSOC`** **`MYSQLI_NUM`** або **`MYSQLI_BOTH`**
+Цей необов'язковий параметр приймає значення константи, яка вказує на тип масиву, який потрібно помістити дані. Можливі значення параметра: **`MYSQLI_ASSOC`** **`MYSQLI_NUM`**или**`MYSQLI_BOTH`**
 
 ### Значення, що повертаються
 
@@ -50,13 +51,13 @@ mysqli_fetch_all(mysqli_result $result, int $mode = MYSQLI_NUM): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер також доступно при збиранні з libmysqlclient. |
+| 8.1.0 | Тепер також доступно при збиранні з libmysqlclient. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqliresult::fetchall()****
+**Пример #1 Пример использования**mysqli\_result::fetch\_all()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -90,7 +91,7 @@ foreach ($rows as $row) {
 }
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Kabul (AFG)
@@ -100,6 +101,6 @@ Herat (AFG)
 
 ### Дивіться також
 
--   [mysqlifetcharray()](mysqli-result.fetch-array.md) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
--   [mysqlifetchcolumn()](mysqli-result.fetch-column.md) - отримує один стовпець з наступного рядка набору результатів
--   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
+-   [mysqli\_fetch\_array()](mysqli-result.fetch-array.md) \- Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqli\_fetch\_column()](mysqli-result.fetch-column.md) \- отримує один стовпець з наступного рядка набору результатів
+-   [mysqli\_query()](mysqli.query.md) \- Виконує запит до бази даних

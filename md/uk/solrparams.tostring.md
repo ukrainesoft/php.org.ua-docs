@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrparams.md: SolrParams
 title: 'SolrParams::toString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrParams::toString
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrParams::toString — Повертає всі параметри об'єкта у вигляді пар ім'я-значення
 
@@ -28,4 +29,4 @@ final public SolrParams::toString(bool $url_encode = false): string
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає рядок та **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає рядок та \*\*`false`\*\*в случае возникновения ошибки.

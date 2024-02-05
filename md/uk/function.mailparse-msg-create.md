@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mailparse-determine-best-xfer-encoding.md: « mailparsedeterminebestxferencoding
-  - function.mailparse-msg-extract-part-file.md: mailparsemsgextractpartfile »
+  - function.mailparse-determine-best-xfer-encoding.md: « mailparse\_determine\_best\_xfer\_encoding
+  - function.mailparse-msg-extract-part-file.md: mailparse\_msg\_extract\_part\_file »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
-title: mailparsemsgcreate
+title: mailparse\_msg\_create
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mailparsemsgcreate
+# mailparse\_msg\_create
 
 (PECL mailparse >= 0.9.0)
 
-mailparsemsgcreate — Створює поштовий MIME-ресурс
+mailparse\_msg\_create — Створює поштовий MIME-ресурс
 
 ### Опис
 
@@ -18,7 +19,7 @@ mailparsemsgcreate — Створює поштовий MIME-ресурс
 mailparse_msg_create(): resource
 ```
 
-Створює поштовий `MIME`ресурс.
+Створює поштовий `MIME`\-ресурс.
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ mailparse_msg_create(): resource
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Рекомендується викликати [mailparsemsgfree()](function.mailparse-msg-free.md) для результату цієї функції, коли він більше не потрібен, щоб уникнути витоку пам'яті.
+> Рекомендується викликати [mailparse\_msg\_free()](function.mailparse-msg-free.md) для результату цієї функції, коли він більше не потрібен, щоб уникнути витоку пам'яті.
 
 ### Дивіться також
 
--   [mailparsemsgfree()](function.mailparse-msg-free.md) - Вивільнити MIME-ресурс
--   [mailparsemsgparsefile()](function.mailparse-msg-parse-file.md) - Розібрати файл
+-   [mailparse\_msg\_free()](function.mailparse-msg-free.md) \- Вивільнити MIME-ресурс
+-   [mailparse\_msg\_parse\_file()](function.mailparse-msg-parse-file.md) \- Розібрати файл

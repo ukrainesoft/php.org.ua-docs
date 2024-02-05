@@ -1,14 +1,15 @@
 ---
 navigation:
-  - philosophy.parallel.md: « Философия
-  - parallel.bootstrap.md: parallelbootstrap »
+  - philosophy.parallel.md: « Філософія
+  - parallel.bootstrap.md: parallel\\bootstrap »
   - index.md: PHP Manual
   - book.parallel.md: parallel
 title: Функціональний API
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Функціональний API
 
-API [parallelRuntime](class.parallel-runtime.md) забезпечує високий рівень контролю для досвідчених програмістів PHP і тих, хто добре знайомий з написанням додатків, які використовують паралельні процеси.
+API[parallel\\Runtime](class.parallel-runtime.md) забезпечує високий рівень контролю для досвідчених програмістів PHP і тих, хто добре знайомий з написанням додатків, які використовують паралельні процеси.
 
 Функціональний API забезпечує менший контроль в обмін на можливість приймати рішення для програміста:
 
@@ -17,9 +18,9 @@ API [parallelRuntime](class.parallel-runtime.md) забезпечує висок
 -   планування визначається API, а не програмістом
     
 
-[parallelrun()](parallel.run.md) забезпечує гарантію того, що завдання почне виконуватися паралельно, як тільки це дозволено обмеженнями устаткування та операційної системи, без непотрібного створення середовищ виконання. Більшість програм слід віддавати перевагу функціональному API.
+[parallel\\run()](parallel.run.md) забезпечує гарантію того, що завдання почне виконуватися паралельно, коли це дозволено обмеженнями обладнання та операційної системи, без непотрібного створення середовищ виконання. Більшість програм слід віддавати перевагу функціональному API.
 
 ## Зміст
 
--   [parallelbootstrap](parallel.bootstrap.md) — Початкове завантаження
--   [parallelrun](parallel.run.md) - Виконання
+-   [parallel\\bootstrap](parallel.bootstrap.md)— Початкове завантаження
+-   [parallel\\run](parallel.run.md) \- Виконання

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::addBuffer'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBuffer::addBuffer
 
@@ -32,8 +33,8 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventBuffer::add()](eventbuffer.add.md) - Додає дані до кінця буфера подій
+-   [EventBuffer::add()](eventbuffer.add.md) \- Додає дані до кінця буфера подій

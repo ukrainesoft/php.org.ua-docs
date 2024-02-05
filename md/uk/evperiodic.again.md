@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evperiodic.md: EvPeriodic
 title: 'EvPeriodic::again'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvPeriodic::again
 
@@ -31,4 +32,4 @@ public
 
 ### Дивіться також
 
--   [EvTimer::again()](evtimer.again.md) - Перезапускає таймер спостерігача
+-   [EvTimer::again()](evtimer.again.md) \- Перезапускає таймер спостерігача

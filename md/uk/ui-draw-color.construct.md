@@ -1,22 +1,23 @@
 ---
 navigation:
-  - class.ui-draw-color.md: « UIDrawColor
-  - ui-draw-color.getchannel.md: 'ОЙDrawColor::getChannel »'
+  - class.ui-draw-color.md: « UI\\Draw\\Color
+  - ui-draw-color.getchannel.md: 'UI\\Draw\\Color::getChannel »'
   - index.md: PHP Manual
-  - class.ui-draw-color.md: ОЙDrawColor
-title: 'ОЙDrawColor::construct'
+  - class.ui-draw-color.md: UI\\Draw\\Color
+title: 'UI\\Draw\\Color::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawColor::construct
+# UI\\Draw\\Color::\_\_construct
 
 (UI 0.9.9)
 
-ОЙDrawColor::construct — Створити новий об'єкт Color
+UI\\Draw\\Color::\_\_construct — Створити новий об'єкт Color
 
 ### Опис
 
-public **ОЙDrawColor::construct**[ОЙDrawColor](class.ui-draw-color.md) `$color`
+public**UI\\Draw\\Color::\_\_construct** [UI\\Draw\\Color](class.ui-draw-color.md) `$color`
 
-public **ОЙDrawColor::construct**(int `$color`
+public**UI\\Draw\\Color::\_\_construct**(int`$color`
 
 Створить новий колір
 
@@ -24,4 +25,4 @@ public **ОЙDrawColor::construct**(int `$color`
 
 `color`
 
-Можливо UIDrawColor або RRGGBBAA
+Можливо UI\\Draw\\Color або RRGGBBAA

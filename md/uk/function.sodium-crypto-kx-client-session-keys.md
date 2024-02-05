@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-kdf-keygen.md: « sodiumcryptokdfkeygen
-  - function.sodium-crypto-kx-keypair.md: sodiumcryptoкксkeypair »
+  - function.sodium-crypto-kdf-keygen.md: « sodium\_crypto\_kdf\_keygen
+  - function.sodium-crypto-kx-keypair.md: sodium\_crypto\_kx\_keypair »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoкксclientsessionkeys
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_kx\_client\_session\_keys
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoкксclientsessionkeys
+# sodium\_crypto\_kx\_client\_session\_keys
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoкксclientsessionkeys - обчислює ключі сесії на стороні клієнта
+sodium\_crypto\_kx\_client\_session\_keys - обчислює ключі сесії на стороні клієнта
 
 ### Опис
 
@@ -24,11 +25,11 @@ sodium_crypto_kx_client_session_keys(string $client_key_pair, string $server_key
 
 `client_key_pair`
 
-Пара ключів cryptokx, наприклад, згенерована [sodiumcryptoкксkeypair()](function.sodium-crypto-kx-keypair.md)
+Пара ключів crypto\_kx, наприклад, згенерована [sodium\_crypto\_kx\_keypair()](function.sodium-crypto-kx-keypair.md)
 
 `server_key`
 
-Відкритий ключ cryptokx.
+Відкритий ключ crypto\_kx.
 
 ### Значення, що повертаються
 

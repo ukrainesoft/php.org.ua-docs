@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::getPeakMemoryUsage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # LuaSandbox::getPeakMemoryUsage
 
@@ -30,6 +31,6 @@ public LuaSandbox::getPeakMemoryUsage(): int
 
 ### Дивіться також
 
--   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.md) - Повертає поточне використання пам'яті у середовищі Lua
--   [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.md) - Повертає поточний час використання процесора у середовищі Lua
--   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.md) - Встановлює межу пам'яті для середовища Lua
+-   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.md) \- Повертає поточне використання пам'яті у середовищі Lua
+-   [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.md) \- Повертає поточний час використання процесора у середовищі Lua
+-   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.md) \- Встановлює межу пам'яті для середовища Lua

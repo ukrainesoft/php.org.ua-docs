@@ -1,14 +1,15 @@
 ---
 navigation:
   - splfileobject.valid.md: '« SplFileObject::valid'
-  - spltempfileobject.construct.md: 'SplTempFileObject::construct »'
+  - spltempfileobject.construct.md: 'SplTempFileObject::\_\_construct »'
   - index.md: PHP Manual
-  - spl.files.md: Обработка файлов
+  - spl.files.md: Обробка файлів
 title: Клас SplTempFileObject
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SplTempFileObject
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,34 +19,33 @@ title: Клас SplTempFileObject
 
 ```classsynopsis
 
-     
+    
+     class SplTempFileObject
     
 
     
-     
-      class SplTempFileObject
-     
-
-     
-      extends
-       SplFileObject
-     
+     extends
+      SplFileObject
      {
 
     /* Наследуемые константы */
     
+     public
      const
      int
-      SplFileObject::DROP_NEW_LINE = 1;
-const
+      SplFileObject::DROP_NEW_LINE;
+public
+     const
      int
-      SplFileObject::READ_AHEAD = 2;
-const
+      SplFileObject::READ_AHEAD;
+public
+     const
      int
-      SplFileObject::SKIP_EMPTY = 4;
-const
+      SplFileObject::SKIP_EMPTY;
+public
+     const
      int
-      SplFileObject::READ_CSV = 8;
+      SplFileObject::READ_CSV;
 
 
     /* Методы */
@@ -63,7 +63,7 @@ public SplFileObject::fgets(): string
 public SplFileObject::fgetss(string $allowable_tags = ?): string
 public SplFileObject::flock(int $operation, int &$wouldBlock = null): bool
 public SplFileObject::fpassthru(): int
-public SplFileObject::fputcsv(    array $fields,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\",    string $eol = "\n"): int|false
+public SplFileObject::fputcsv(    array $fields,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\",    string $eol = "\n"): int|false
 public SplFileObject::fread(int $length): string|false
 public SplFileObject::fscanf(string $format, mixed &...$vars): array|int|null
 public SplFileObject::fseek(int $offset, int $whence = SEEK_SET): int
@@ -71,11 +71,11 @@ public SplFileObject::fstat(): array
 public SplFileObject::ftell(): int|false
 public SplFileObject::ftruncate(int $size): bool
 public SplFileObject::fwrite(string $data, int $length = 0): int|false
-public SplFileObject::getChildren(): ?RecursiveIterator
+public SplFileObject::getChildren(): null
 public SplFileObject::getCsvControl(): array
 public SplFileObject::getFlags(): int
 public SplFileObject::getMaxLineLen(): int
-public SplFileObject::hasChildren(): bool
+public SplFileObject::hasChildren(): false
 public SplFileObject::key(): int
 public SplFileObject::next(): void
 public SplFileObject::rewind(): void
@@ -83,6 +83,7 @@ public SplFileObject::seek(int $line): void
 public SplFileObject::setCsvControl(string $separator = ",", string $enclosure = "\"", string $escape = "\\"): void
 public SplFileObject::setFlags(int $flags): void
 public SplFileObject::setMaxLineLen(int $maxLength): void
+public SplFileObject::__toString(): string
 public SplFileObject::valid(): bool
 
     public SplFileInfo::getATime(): int|false
@@ -119,4 +120,4 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [SplTempFileObject::construct](spltempfileobject.construct.md) — Створює новий об'єкт тимчасового файлу
+-   [SplTempFileObject::\_\_construct](spltempfileobject.construct.md)— Створює новий об'єкт тимчасового файлу

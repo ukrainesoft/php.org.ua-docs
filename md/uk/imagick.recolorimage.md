@@ -5,16 +5,17 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::recolorImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::recolorImage
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::recolorImage — Перефарбовує зображення
 
 **Увага**
 
-Функція оголошена *Застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
@@ -36,7 +37,7 @@ public Imagick::recolorImage(array $matrix): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::recolorImage()****
+**Пример #1 Пример использования**Imagick::recolorImage()\*\*\*\*
 
 ```php
 <?php
@@ -63,4 +64,4 @@ function recolorImage($imagePath) {
 
 ### Дивіться також
 
--   [Imagick::displayImage()](imagick.displayimage.md) - Виводить зображення
+-   [Imagick::displayImage()](imagick.displayimage.md) \- Виводить зображення

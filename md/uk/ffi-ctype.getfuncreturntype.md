@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ffi-ctype.getfuncparametertype.md: '« FFICType::getFuncParameterType'
-  - ffi-ctype.getkind.md: 'FFICType::getKind »'
+  - ffi-ctype.getfuncparametertype.md: '« FFI\\CType::getFuncParameterType'
+  - ffi-ctype.getkind.md: 'FFI\\CType::getKind »'
   - index.md: PHP Manual
-  - class.ffi-ctype.md: FFICType
-title: 'FFICType::getFuncReturnType'
+  - class.ffi-ctype.md: FFI\\CType
+title: 'FFI\\CType::getFuncReturnType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# FFICType::getFuncReturnType
+# FFI\\CType::getFuncReturnType
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-FFICType::getFuncReturnType — Опис
+FFI\\CType::getFuncReturnType — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public FFI\CType::getFuncReturnType(): FFI\CType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

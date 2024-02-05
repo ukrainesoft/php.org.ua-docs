@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.cachingiterator.md: CachingIterator
 title: 'CachingIterator::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CachingIterator::current
 
@@ -20,7 +21,7 @@ public CachingIterator::current(): mixed
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає поточний елемент до ітерації.
 
@@ -30,8 +31,8 @@ public CachingIterator::current(): mixed
 
 ### Значення, що повертаються
 
-mixed
+Mixed
 
 ### Дивіться також
 
--   [Iterator::current()](iterator.current.md) - Повернення поточного елемента
+-   [Iterator::current()](iterator.current.md) \- Повернення поточного елемента

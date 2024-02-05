@@ -1,16 +1,17 @@
 ---
 navigation:
   - reflectionclassconstant.isprotected.md: '« ReflectionClassConstant::isProtected'
-  - reflectionclassconstant.tostring.md: 'ReflectionClassConstant::toString »'
+  - reflectionclassconstant.tostring.md: 'ReflectionClassConstant::\_\_toString »'
   - index.md: PHP Manual
   - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::isPublic'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClassConstant::isPublic
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
-ReflectionClassConstant::isPublic — Перевіряє, чи константа є загальнодоступною
+ReflectionClassConstant::isPublic — Перевіряє, чи є константа загальнодоступною
 
 ### Опис
 
@@ -30,6 +31,6 @@ public ReflectionClassConstant::isPublic(): bool
 
 ### Дивіться також
 
--   [ReflectionClassConstant::isFinal()](reflectionclassconstant.isfinal.md) - Перевіряє, чи є константа класу остаточною
--   [ReflectionClassConstant::isPrivate()](reflectionclassconstant.isprivate.md) - Перевіряє, чи є константа закритою
--   [ReflectionClassConstant::isProtected()](reflectionclassconstant.isprotected.md) - Перевіряє, чи константа захищена
+-   [ReflectionClassConstant::isFinal()](reflectionclassconstant.isfinal.md) \- Перевіряє, чи є константа класу остаточною
+-   [ReflectionClassConstant::isPrivate()](reflectionclassconstant.isprivate.md) \- Перевіряє, чи є константа закритою
+-   [ReflectionClassConstant::isProtected()](reflectionclassconstant.isprotected.md) \- Перевіряє, чи константа захищена

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getExtension'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::getExtension
 
-(PHP 5> = 5.3.6, PHP 7, PHP 8)
+(PHP 5 >= 5.3.6, PHP 7, PHP 8)
 
 SplFileInfo::getExtension — Отримує розширення файлу
 
@@ -30,7 +31,7 @@ public SplFileInfo::getExtension(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::getExtension()****
+**Пример #1 Пример использования**SplFileInfo::getExtension()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ var_dump($info->getExtension());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(3) "txt"
@@ -57,9 +58,9 @@ string(2) "gz"
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Інший спосіб отримання розширення - використання функції [pathinfo()](function.pathinfo.md)
+> Другой способ для получения расширения - использование функции[pathinfo()](function.pathinfo.md)
 > 
 > ```php
 > <?php
@@ -69,6 +70,6 @@ string(2) "gz"
 
 ### Дивіться також
 
--   [SplFileInfo::getFilename()](splfileinfo.getfilename.md) - Отримує ім'я файлу
--   [SplFileInfo::getBasename()](splfileinfo.getbasename.md) - Отримує базове ім'я файлу
--   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу
+-   [SplFileInfo::getFilename()](splfileinfo.getfilename.md) \- Отримує ім'я файлу
+-   [SplFileInfo::getBasename()](splfileinfo.getbasename.md) \- Отримує базове ім'я файлу
+-   [pathinfo()](function.pathinfo.md) \- Повертає інформацію про шлях до файлу

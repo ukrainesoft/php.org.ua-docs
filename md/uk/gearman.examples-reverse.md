@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - gearman.examples.md: Приклади
 title: Базове використання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Базове використання
 
@@ -112,7 +113,7 @@ function reverse_fn_fast($job)
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 % php reverse_worker.php

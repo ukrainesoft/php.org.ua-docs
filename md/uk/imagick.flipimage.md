@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::flipImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::flipImage
 
@@ -34,7 +35,7 @@ public Imagick::flipImage(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::flipImage()****
+**Пример #1 Пример использования**Imagick::flipImage()\*\*\*\*
 
 ```php
 <?php
@@ -50,4 +51,4 @@ function flipImage($imagePath) {
 
 ### Дивіться також
 
--   [Imagick::flopimage()](imagick.flopimage.md) - Створює горизонтальне дзеркальне відображення
+-   [Imagick::flopimage()](imagick.flopimage.md) \- Створює горизонтальне дзеркальне відображення

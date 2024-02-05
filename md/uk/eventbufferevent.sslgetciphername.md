@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::sslGetCipherName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::sslGetCipherName
 
@@ -21,7 +22,7 @@ public
 
 Отримує ім'я шифру, який використовується поточним з'єднанням SSL.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна, лише якщо `Event` скомпільований за допомогою OpenSSL.
 
@@ -31,4 +32,4 @@ public
 
 ### Значення, що повертаються
 
-Повертає поточне ім'я шифру SSL-з'єднання або **`false`** у разі виникнення помилки.
+Повертає поточне ім'я шифру SSL-з'єднання або \*\*`false`\*\*в случае возникновения ошибки.

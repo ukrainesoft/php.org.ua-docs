@@ -4,17 +4,18 @@ navigation:
   - ref.pdo-mysql.md: MySQL (PDO) »
   - index.md: PHP Manual
   - ref.pdo-informix.md: Informix (PDO)
-title: PDOINFORMIX DSN
+title: PDO\_INFORMIX DSN
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# PDOINFORMIX DSN
+# PDO\_INFORMIX DSN
 
-(PECL PDOINFORMIX >= 0.1.0)
+(PECL PDO\_INFORMIX >= 0.1.0)
 
-PDOINFORMIX DSN — З'єднання з базою даних Informix
+PDO\_INFORMIX DSN — З'єднання з базою даних Informix
 
 ### Опис
 
-Рядок з'єднання (Data Source Name, DSN) PDOINFORMIX базується на рядку Informix ODBC DSN. Подробиці конфігурації Informix ODBC DSN читайте на сайті [» Informix Dynamic Server Information Center](http://publib.boulder.ibm.com/infocenter/idshelp/v10/index.jsp). Основні елементи PDOINFORMIX DSN:
+Рядок з'єднання (Data Source Name, DSN) PDO\_INFORMIX базується на рядку Informix ODBC DSN. Подробиці конфігурації Informix ODBC DSN читайте на сайті [» Informix Dynamic Server Information Center](http://publib.boulder.ibm.com/infocenter/idshelp/v10/index.jsp). Основні елементи PDO\_INFORMIX DSN:
 
 Префікс DSN
 
@@ -26,7 +27,7 @@ DSN повинен бути або вказаний в odbc.ini або зада�
 
 ### Приклади
 
-**Приклад #1 Використання PDOINFORMIX DSN в odbc.ini**
+**Приклад #1 Використання PDO\_INFORMIX DSN в odbc.ini**
 
 Наступний приклад демонструє з'єднання з базою даних Informix визначеної як Infdrv33 odbc.ini:
 
@@ -52,7 +53,7 @@ ENABLESCROLLABLECURSORS=1
 
 **Приклад #2 З'єднання з використанням повноцінного рядка з'єднання**
 
-У наступному прикладі здійснюється з'єднання з базою даних **`common_db`** з використанням рядка з'єднання.
+У наступному прикладі здійснюється з'єднання з базою даних \*\*`common_db`\*\*с использованием строки соединения.
 
 ```
 $db = new PDO("informix:host=host.domain.com; service=9800;

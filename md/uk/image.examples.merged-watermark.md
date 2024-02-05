@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - image.examples.md: Приклади
 title: >-
-  Використання [imagecopymerge()](function.imagecopymerge.md) створити
+  Использование[imagecopymerge()](function.imagecopymerge.md) створити
   напівпрозорий водяний знак
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Використання [imagecopymerge()](function.imagecopymerge.md) створити напівпрозорий водяний знак
+## Использование[imagecopymerge()](function.imagecopymerge.md) створити напівпрозорий водяний знак
 
-**Приклад #1 Використання [imagecopymerge()](function.imagecopymerge.md) створити напівпрозорий водяний знак**
+**Пример #1 Использование[imagecopymerge()](function.imagecopymerge.md) створити напівпрозорий водяний знак**
 
 ```php
 <?php

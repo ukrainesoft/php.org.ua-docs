@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageChannelDistortions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageChannelDistortions
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::getImageChannelDistortions — Повертає спотворення каналу
 
@@ -28,15 +29,15 @@ public Imagick::getImageChannelDistortions(Imagick $reference, int $metric, int 
 
 `metric`
 
-Зверніться до цього списку [констант типа METRIC](imagick.constants.md#imagick.constants.metric)
+Зверніться до цього списку [констант типу METRIC](imagick.constants.md#imagick.constants.metric)
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно \*\*`Imagick::CHANNEL_DEFAULT`\*\*Обратитесь к списку[констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
-Повертає число з плаваючою точкою, що описує спотворення каналу.
+Повертає число з плаваючою точкою (float), що описує спотворення каналу.
 
 ### Помилки
 

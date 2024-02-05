@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.swoole-load-module.md: « swooleloadmodule
-  - function.swoole-set-process-name.md: swoolesetprocessname »
+  - function.swoole-load-module.md: « swoole\_load\_module
+  - function.swoole-set-process-name.md: swoole\_set\_process\_name »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swooleselect
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_select
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swooleselect
+# swoole\_select
 
 (PECL swoole >= 1.9.0)
 
-swooleselect — Вибрати опис файлів, які готові до читання/запису або помилки в цикл подій
+swoole\_select — Вибрати опис файлів, які готові до читання/запису або помилки в цикл подій
 
 ### Опис
 
 ```methodsynopsis
-swoole_select(    array &$read_array,    array &$write_array,    array &$error_array,    float $timeout = ?): int
+swoole_select(    array &$read_array,    array &$write_array,    array &$error_array,    float $timeout = ?): int
 ```
 
 ### Список параметрів

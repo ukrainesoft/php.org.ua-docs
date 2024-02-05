@@ -1,12 +1,13 @@
 ---
 navigation:
-  - commonmark-node-bulletlist.construct.md: '« CommonMarkNodeBulletList::construct'
-  - commonmark-node-orderedlist.construct.md: 'CommonMarkNodeOrderedList::construct »'
+  - commonmark-node-bulletlist.construct.md: '« CommonMark\\Node\\BulletList::\_\_construct'
+  - commonmark-node-orderedlist.construct.md: 'CommonMark\\Node\\OrderedList::\_\_construct »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: OrderedList успадковує CommonMarkNode
+title: OrderedList успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# OrderedList успадковує CommonMarkNode
+# OrderedList успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 
@@ -107,4 +108,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNodeOrderedList::construct](commonmark-node-orderedlist.construct.md) - Конструктор класу OrderedList
+-   [CommonMark\\Node\\OrderedList::\_\_construct](commonmark-node-orderedlist.construct.md) \- Конструктор класу OrderedList

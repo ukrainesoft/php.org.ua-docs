@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::disableSSLChecks'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::disableSSLChecks
 
@@ -18,7 +19,7 @@ OAuth::disableSSLChecks — Вимкнути SSL перевірки
 public OAuth::disableSSLChecks(): bool
 ```
 
-Вимикає звичайні перевірки клієнтських та хост сертифікатів. Не призначено для продуктивного середовища. Альтернативно можна встановити полю `sslChecks` значення **`false`**, щоб вимкнути SSL перевірки.
+Вимикає звичайні перевірки клієнтських та хост сертифікатів. Не призначено для продуктивного середовища. Альтернативно можна встановити полю `sslChecks`значение\*\*`false`\*\*, щоб вимкнути SSL перевірки.
 
 ### Список параметрів
 
@@ -30,10 +31,10 @@ public OAuth::disableSSLChecks(): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL oauth 0.99.8 | Було додано поле `sslChecks` |
 
 ### Дивіться також
 
--   [OAuth::enableSSLChecks()](oauth.enablesslchecks.md) - Увімкнути перевірки SSL
+-   [OAuth::enableSSLChecks()](oauth.enablesslchecks.md) \- Увімкнути перевірки SSL

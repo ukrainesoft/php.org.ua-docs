@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-plugin-abstract.predispatch.md: '« YafPluginAbstract::preDispatch'
-  - yaf-plugin-abstract.routershutdown.md: 'YafPluginAbstract::routerShutdown »'
+  - yaf-plugin-abstract.predispatch.md: '« Yaf\_Plugin\_Abstract::preDispatch'
+  - yaf-plugin-abstract.routershutdown.md: 'Yaf\_Plugin\_Abstract::routerShutdown »'
   - index.md: PHP Manual
-  - class.yaf-plugin-abstract.md: YafPluginAbstract
-title: 'YafPluginAbstract::preResponse'
+  - class.yaf-plugin-abstract.md: Yaf\_Plugin\_Abstract
+title: 'Yaf\_Plugin\_Abstract::preResponse'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafPluginAbstract::preResponse
+# Yaf\_Plugin\_Abstract::preResponse
 
 (Yaf >=1.0.0)
 
-YafPluginAbstract::preResponse — Призначення preResponse
+Yaf\_Plugin\_Abstract::preResponse — Призначення preResponse
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Plugin_Abstract::preResponse(Yaf_Request_Abstract $request, Yaf_Respo
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

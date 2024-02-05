@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.event.md: Event
 title: 'Event::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Event::set
 
@@ -16,25 +17,25 @@ Event::set — Переконфігурувати подію
 
 ```methodsynopsis
 public
-   Event::set(    
+   Event::set(    
     EventBase
      $base
-   ,    
+   ,    
     mixed
      $fd
-   ,    
+   ,    
     int
      $what
-    = ?,    
+    = ?,    
     callable
      $cb
-    = ?,    
+    = ?,    
     mixed
      $arg
     = ?): bool
 ```
 
-Переконфігурує подію. Зверніть увагу, що ця функція не викликає застарілої функції eventset бібліотеки libevent. Натомість вона викликає eventassign.
+Переконфігурує подію. Зверніть увагу, що ця функція не викликає застарілої функції event\_set бібліотеки libevent. Натомість вона викликає event\_assign.
 
 ### Список параметрів
 
@@ -48,7 +49,7 @@ public
 
 `what`
 
-Дивіться [Прапори подій](event.flags.md)
+Смотрите[Прапори подій](event.flags.md)
 
 `cb`
 
@@ -60,4 +61,4 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

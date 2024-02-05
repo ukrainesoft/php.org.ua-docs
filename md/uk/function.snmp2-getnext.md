@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.snmp2-get.md: « snmp2get
-  - function.snmp2-real-walk.md: snmp2realwalk »
+  - function.snmp2-get.md: « snmp2\_get
+  - function.snmp2-real-walk.md: snmp2\_real\_walk »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
-title: snmp2getnext
+title: snmp2\_getnext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# snmp2getnext
+# snmp2\_getnext
 
 (PHP >= 5.2.0, PHP 7, PHP 8)
 
-snmp2getnext — Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
+snmp2\_getnext — Отримує об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
 
 ### Опис
 
 ```methodsynopsis
-snmp2_getnext(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
+snmp2_getnext(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
 ```
 
-Функція **snmp2getnext()** використовується для читання значення об'єкта SNMP, який слідує за вказаним `object_id`
+Функция**snmp2\_get\_next()** використовується для читання значення об'єкта SNMP, який слідує за вказаним `object_id`
 
 ### Список параметрів
 
@@ -44,11 +45,11 @@ Read-спільнота.
 
 ### Значення, що повертаються
 
-Повертає значення об'єкта SNMP у разі успішного виконання або **`false`** у разі виникнення помилки. У разі виникнення помилки виводиться помилка рівня EWARNING.
+Повертає значення об'єкта SNMP у разі успішного виконання або **`false`** у разі виникнення помилки. У разі виникнення помилки виводиться помилка рівня E\_WARNING.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmp2getnext()****
+**Пример #1 Пример использования**snmp2\_get\_next()\*\*\*\*
 
 ```php
 <?php
@@ -58,5 +59,5 @@ $nameOfSecondInterface = snmp2_get_next('localhost', 'public', 'IF-MIB::ifName.1
 
 ### Дивіться також
 
--   [snmp2get()](function.snmp2-get.md) - Отримує об'єкт SNMP
--   [snmp2walk()](function.snmp2-walk.md) - Отримує всі об'єкти SNMP з агента
+-   [snmp2\_get()](function.snmp2-get.md) \- Отримує об'єкт SNMP
+-   [snmp2\_walk()](function.snmp2-walk.md) \- Отримує всі об'єкти SNMP із агента

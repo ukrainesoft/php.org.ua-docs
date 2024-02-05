@@ -1,24 +1,25 @@
 ---
 navigation:
-  - class.mysql-xdevapi-sqlstatementresult.md: « mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: « mysql\_xdevapi\\SqlStatementResult
   - mysql-xdevapi-sqlstatementresult.fetchall.md: 'SqlStatementResult::fetchAll »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
-title: 'SqlStatementResult::construct'
+  - class.mysql-xdevapi-sqlstatementresult.md: mysql\_xdevapi\\SqlStatementResult
+title: 'SqlStatementResult::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SqlStatementResult::construct
+# SqlStatementResult::\_\_construct
 
 (No version information available, might only be in Git)
 
-SqlStatementResult::construct — Опис конструктора
+SqlStatementResult::\_\_construct — Опис конструктора
 
 ### Опис
 
-private **mysqlxdevapiSqlStatementResult::construct**
+private**mysql\_xdevapi\\SqlStatementResult::\_\_construct**()
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ private **mysqlxdevapiSqlStatementResult::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSqlStatementResult::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatementResult::\_\_construct()\*\*\*\*
 
 ```php
 <?php

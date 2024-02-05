@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionintersectiontype.md: ReflectionIntersectionType
 title: 'ReflectionIntersectionType::getTypes'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionIntersectionType::getTypes
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-ReflectionIntersectionType::getTypes — Повертає типи, включені до типу intersection
+ReflectionIntersectionType::getTypes — Повертає типи, що перетинаються.
 
 ### Опис
 
@@ -18,7 +19,7 @@ ReflectionIntersectionType::getTypes — Повертає типи, включе
 public ReflectionIntersectionType::getTypes(): array
 ```
 
-Повертає типи, включені у тип intersection.
+Повертає типи, що перетинаються.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public ReflectionIntersectionType::getTypes(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionIntersectionType::getTypes()****
+**Пример #1 Пример использования метода**ReflectionIntersectionType::getTypes()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ var_dump($reflectionParam->getType()->getTypes());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {
@@ -59,5 +60,5 @@ array(2) {
 
 ### Дивіться також
 
--   [ReflectionType::allowsNull()](reflectiontype.allowsnull.md) - Перевіряє, чи допустимо NULL
--   [ReflectionParameter::getType()](reflectionparameter.gettype.md) - Отримати тип параметра
+-   [ReflectionType::allowsNull()](reflectiontype.allowsnull.md) \- Перевіряє, чи допустимо NULL
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.md) \- Отримати тип параметра

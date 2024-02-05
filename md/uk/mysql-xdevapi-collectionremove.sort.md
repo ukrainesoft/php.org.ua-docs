@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-collectionremove.limit.md: '« CollectionRemove::limit'
-  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult »
+  - class.mysql-xdevapi-columnresult.md: mysql\_xdevapi\\ColumnResult »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionremove.md: mysqlxdevapiCollectionRemove
+  - class.mysql-xdevapi-collectionremove.md: mysql\_xdevapi\\CollectionRemove
 title: 'CollectionRemove::sort'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionRemove::sort
 
@@ -18,11 +19,11 @@ CollectionRemove::sort — Встановлює критерії сортува�
 public mysql_xdevapi\CollectionRemove::sort(string $sort_expr): mysql_xdevapi\CollectionRemove
 ```
 
-Сортує набір результатів по полю, вибраному в аргументі sortexpr. Дозволені напрямки: ASC (за зростанням) або DESC (за спаданням). Ця операція еквівалентна операції SQL 'ORDER BY' і відповідає тому ж набору правил.
+Сортує набір результатів по полю, вибраному в аргументі sort\_expr. Дозволені напрямки: ASC (за зростанням) або DESC (за спаданням). Ця операція еквівалентна операції SQL 'ORDER BY' і відповідає тому ж набору правил.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public mysql_xdevapi\CollectionRemove::sort(string $sort_expr): mysql_xdevapi\Co
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionRemove::sort()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionRemove::sort()\*\*\*\*
 
 ```php
 <?php

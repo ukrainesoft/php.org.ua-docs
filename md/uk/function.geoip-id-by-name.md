@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.geoip-domain-by-name.md: « geoipdomainбname
-  - function.geoip-isp-by-name.md: geoipispбname »
+  - function.geoip-domain-by-name.md: « geoip\_domain\_by\_name
+  - function.geoip-isp-by-name.md: geoip\_isp\_by\_name »
   - index.md: PHP Manual
-  - ref.geoip.md: Функции GeoIP
-title: geoipідбname
+  - ref.geoip.md: Функції GeoIP
+title: geoip\_id\_by\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# geoipідбname
+# geoip\_id\_by\_name
 
 (PECL geoip >= 0.2.0)
 
-geoipідбname — Повертає тип підключення до Інтернету.
+geoip\_id\_by\_name — Повертає тип підключення до Інтернету.
 
 ### Опис
 
@@ -18,14 +19,14 @@ geoipідбname — Повертає тип підключення до Інте
 geoip_id_by_name(string $hostname): int
 ```
 
-Функція **geoipідбname()** повертає тип Інтернет-з'єднання відповідного імені хоста або IP-адреси.
+Функция**geoip\_id\_by\_name()** повертає тип Інтернет-з'єднання відповідного імені хоста або IP-адреси.
 
 Повертає числове значення, яке можна порівняти з константами:
 
--   GEOIPUNKNOWNSPEED
--   GEOIPDIALUPSPEED
--   GEOIPCABLEDSLSPEED
--   GEOIPCORPORATESPEED
+-   GEOIP\_UNKNOWN\_SPEED
+-   GEOIP\_DIALUP\_SPEED
+-   GEOIP\_CABLEDSL\_SPEED
+-   GEOIP\_CORPORATE\_SPEED
 
 ### Список параметрів
 
@@ -39,7 +40,7 @@ geoip_id_by_name(string $hostname): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoipідбname()****
+**Пример #1 Пример использования**geoip\_id\_by\_name()\*\*\*\*
 
 Виводить тип з'єднання для хоста example.com.
 
@@ -66,7 +67,7 @@ switch ($netspeed) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Тип Интернет-соединения: corporate

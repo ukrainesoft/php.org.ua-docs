@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-ht-sine.md: « traderхтsine
-  - function.trader-ht-trendmode.md: traderхтtrendmode »
+  - function.trader-ht-sine.md: « trader\_ht\_sine
+  - function.trader-ht-trendmode.md: trader\_ht\_trendmode »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderхтtrendline
+  - ref.trader.md: Функції Trader
+title: trader\_ht\_trendline
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderхтtrendline
+# trader\_ht\_trendline
 
 (PECL trader >= 0.2.0)
 
-traderхтtrendline - Перетворення Гільберта - миттєва лінія тренду
+trader\_ht\_trendline - Перетворення Гільберта - миттєва лінія тренду
 
 ### Опис
 

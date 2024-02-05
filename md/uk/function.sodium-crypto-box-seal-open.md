@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-box-publickey.md: « sodiumcryptoboxpublickey
-  - function.sodium-crypto-box-seal.md: sodiumcryptoboxseal »
+  - function.sodium-crypto-box-publickey.md: « sodium\_crypto\_box\_publickey
+  - function.sodium-crypto-box-seal.md: sodium\_crypto\_box\_seal »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoboxsealopen
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_box\_seal\_open
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoboxsealopen
+# sodium\_crypto\_box\_seal\_open
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoboxsealopen — Розшифровка відкритим ключем без автентифікації
+sodium\_crypto\_box\_seal\_open — Розшифровка відкритим ключем без автентифікації
 
 ### Опис
 
@@ -18,7 +19,7 @@ sodiumcryptoboxsealopen — Розшифровка відкритим ключе
 sodium_crypto_box_seal_open(string $ciphertext, string $key_pair): string|false
 ```
 
-Розшифровує повідомлення, зашифроване за допомогою [sodiumcryptoboxseal()](function.sodium-crypto-box-seal.md)
+Розшифровує повідомлення, зашифроване за допомогою [sodium\_crypto\_box\_seal()](function.sodium-crypto-box-seal.md)
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ sodium_crypto_box_seal_open(string $ciphertext, string $key_pair): string|false
 
 ### Значення, що повертаються
 
-Текст у разі успішного виконання або **`false`** у разі виникнення помилки.
+Текст у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptoboxsealopen()****
+**Пример #1 Пример использования**sodium\_crypto\_box\_seal\_open()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump($opened);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(41) "Writing software in PHP can be a delight!"

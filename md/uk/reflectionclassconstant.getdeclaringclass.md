@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::getDeclaringClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClassConstant::getDeclaringClass
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
 ReflectionClassConstant::getDeclaringClass — Отримує клас, що оголошує
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fgetcsv'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::fgetcsv
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fgetcsv — Отримати рядок із файлу та його розбір як поля CSV
 
@@ -20,9 +21,9 @@ public SplFileObject::fgetcsv(string $separator = ",", string $enclosure = "\"",
 
 Отримує рядок із файлу та розбирає його відповідно до формату CSV. Результати аналізу повертає у вигляді масиву.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Ця функція враховує налаштування локалі. Наприклад, якщо `LC_CTYPE` встановлена ​​в `en_US.UTF-8`, то файли в однобайтовому кодуванні будуть неправильно прочитані цією функцією.
+> Ця функція враховує налаштування локалі. Наприклад, якщо `LC_CTYPE`установлена в`en_US.UTF-8`, то файли в однобайтовому кодуванні будуть неправильно прочитані цією функцією.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public SplFileObject::fgetcsv(string $separator = ",", string $enclosure = "\"",
 
 Символ обмежувача поля (лише один однобайтовий символ). За замовчуванням це подвійна лапка або символ, заданий методом [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md). Порожня стрічка (`""`) відключає пропрієтарний механізм екранування.
 
-> **Зауваження**: Зазвичай символ `enclosure` екранується всередині поля шляхом його подвоювання; однак, символ `escape` як альтернатива. Тому значення за промовчанням цих параметрів `""` і `\"` мають однакове значення. Крім дозволу екранувати символ `enclosure` символ `escape` немає особливого сенсу; він навіть не призначений для самого екранування.
+> **Зауваження**: Зазвичай символ `enclosure` екранується всередині поля шляхом його подвоювання; однак, символ `escape` як альтернатива. Тому значення за промовчанням цих параметрів `""`и`\"` мають однакове значення. Крім дозволу екранувати символ `enclosure`символ`escape` немає особливого сенсу; він навіть не призначений для самого екранування.
 
 `escape`
 
@@ -42,21 +43,21 @@ public SplFileObject::fgetcsv(string $separator = ",", string $enclosure = "\"",
 
 ### Значення, що повертаються
 
-Повертає масив містить дані прочитаного рядка або **`false`** у разі помилки.
+Повертає масив містить дані прочитаного рядка або \*\*`false`\*\*в случае ошибки.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Порожній рядок CSV-файлу повертатиметься у вигляді масиву, що містить єдиний елемент **`null`**, якщо не використовується **`SplFileObject::SKIP_EMPTY | SplFileObject::DROP_NEW_LINE`**, і в цьому випадку порожні рядки пропускаються.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер параметр `escape` може приймати порожній рядок для вимкнення пропрієтарного механізму екранування. |
+| 7.4.0 | Тепер параметр `escape` може приймати порожній рядок для вимкнення пропрієтарного механізму екранування. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::fgetcsv()****
+**Пример #1 Пример использования**SplFileObject::fgetcsv()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ while (!$file->eof()) {
 ?>
 ```
 
-**Приклад #2 Приклад використання **`SplFileObject::READ_CSV`****
+**Пример #2 Пример использования**`SplFileObject::READ_CSV`\*\*\*\*
 
 ```php
 <?php
@@ -84,7 +85,7 @@ Contents of animals.csv
 
 crocodile,reptile,4 dolphin,mammal,0 duck,bird,2 koala,mammal,4 salmon,fish,0
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 A crocodile is a reptile with 4 legs
@@ -96,7 +97,7 @@ A salmon is a fish with 0 legs
 
 ### Дивіться також
 
--   [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md) - Встановлює символи роздільника, обгортання та екранування для CSV
--   [SplFileObject::setFlags()](splfileobject.setflags.md) - Встановлює прапори для SplFileObject
--   [SplFileObject::READCSV](class.splfileobject.md#splfileobject.constants.read-csv)
--   [SplFileObject::current()](splfileobject.current.md) - Отримати поточний рядок файлу
+-   [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md) \- Встановлює символи роздільника, обгортання та екранування для CSV
+-   [SplFileObject::setFlags()](splfileobject.setflags.md) \- Встановлює прапори для SplFileObject
+-   [SplFileObject::READ\_CSV](class.splfileobject.md#splfileobject.constants.read-csv)
+-   [SplFileObject::current()](splfileobject.current.md) \- Отримати поточний рядок файлу

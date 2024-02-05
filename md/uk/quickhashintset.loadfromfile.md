@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashintset.md: QuickHashIntSet
 title: 'QuickHashIntSet::loadFromFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntSet::loadFromFile
 
@@ -28,7 +29,7 @@ public static QuickHashIntSet::loadFromFile(string $filename, int $size = ?, int
 
 `size`
 
-Кількість списків, які потрібно налаштувати. Вказане число буде автоматично округлено до наступного ступеня 2. Воно також автоматично обмежується від `4` до `4194304`
+Кількість списків, які потрібно налаштувати. Вказане число буде автоматично округлено до наступного ступеня 2. Воно також автоматично обмежується від `4`до`4194304`
 
 `options`
 
@@ -40,7 +41,7 @@ public static QuickHashIntSet::loadFromFile(string $filename, int $size = ?, int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntSet::loadFromFile()****
+**Пример #1 Пример использования**QuickHashIntSet::loadFromFile()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ foreach( range( 0, 0x0f ) as $key )
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ключ   0 ( 0) не установлен

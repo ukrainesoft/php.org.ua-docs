@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ffi-ctype.getkind.md: '« FFICType::getKind'
-  - ffi-ctype.getpointertype.md: 'FFICType::getPointerType »'
+  - ffi-ctype.getkind.md: '« FFI\\CType::getKind'
+  - ffi-ctype.getpointertype.md: 'FFI\\CType::getPointerType »'
   - index.md: PHP Manual
-  - class.ffi-ctype.md: FFICType
-title: 'FFICType::getName'
+  - class.ffi-ctype.md: FFI\\CType
+title: 'FFI\\CType::getName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# FFICType::getName
+# FFI\\CType::getName
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
-FFICType::getName — Опис
+FFI\\CType::getName — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public FFI\CType::getName(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.getbaseuri.md: '« YafRequestAbstract::getBaseUri'
-  - yaf-request-abstract.getenv.md: 'YafRequestAbstract::getEnv »'
+  - yaf-request-abstract.getbaseuri.md: '« Yaf\_Request\_Abstract::getBaseUri'
+  - yaf-request-abstract.getenv.md: 'Yaf\_Request\_Abstract::getEnv »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::getControllerName'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::getControllerName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::getControllerName
+# Yaf\_Request\_Abstract::getControllerName
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::getControllerName — Призначення getControllerName
+Yaf\_Request\_Abstract::getControllerName — Призначення getControllerName
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Request_Abstract::getControllerName(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

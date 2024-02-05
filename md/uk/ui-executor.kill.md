@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-executor.construct.md: '« UIExecutor::construct'
-  - ui-executor.onexecute.md: 'ОЙExecutor::onExecute »'
+  - ui-executor.construct.md: '« UI\\Executor::\_\_construct'
+  - ui-executor.onexecute.md: 'UI\\Executor::onExecute »'
   - index.md: PHP Manual
-  - class.ui-executor.md: ОЙExecutor
-title: 'ОЙExecutor::kill'
+  - class.ui-executor.md: UI\\Executor
+title: 'UI\\Executor::kill'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙExecutor::kill
+# UI\\Executor::kill
 
 (UI 2.0.0)
 
-ОЙExecutor::kill — Зупинити виконавця
+UI\\Executor::kill — Зупинити виконавця
 
 ### Опис
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.quickhash.md: Quickhash
 title: Клас QuickHashIntSet
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас QuickHashIntSet
 
@@ -74,7 +75,7 @@ public saveToString(): string
 
 **`QuickHashIntSet::DO_NOT_USE_ZEND_ALLOC`**
 
-Забороняє використання вбудованого в PHP менеджера пам'яті внутрішніх структур. Якщо увімкнено цю опцію, то пам'ять, що використовується, не враховуватиметься налаштуванням [memorylimit](ini.core.md#ini.memory-limit)
+Забороняє використання вбудованого в PHP менеджера пам'яті внутрішніх структур. Якщо увімкнено цю опцію, то пам'ять, що використовується, не враховуватиметься налаштуванням [memory\_limit](ini.core.md#ini.memory-limit)
 
 **`QuickHashIntSet::HASHER_NO_HASH`**
 
@@ -90,12 +91,12 @@ public saveToString(): string
 
 ## Зміст
 
--   [QuickHashIntSet::add](quickhashintset.add.md) — Метод додає новий запис до набору
--   [QuickHashIntSet::construct](quickhashintset.construct.md) — Створює новий об'єкт QuickHashIntSet
--   [QuickHashIntSet::delete](quickhashintset.delete.md) — Метод видаляє запис із набору
--   [QuickHashIntSet::exists](quickhashintset.exists.md) — Метод перевіряє, чи є ключем частиною набору
--   [QuickHashIntSet::getSize](quickhashintset.getsize.md) — Повертає кількість елементів у наборі
--   [QuickHashIntSet::loadFromFile](quickhashintset.loadfromfile.md) — Фабричний метод створює набір із файлу
--   [QuickHashIntSet::loadFromString](quickhashintset.loadfromstring.md) — Фабричний метод створює набір із рядка
--   [QuickHashIntSet::saveToFile](quickhashintset.savetofile.md) — Метод зберігає набір у пам'яті на диску
--   [QuickHashIntSet::saveToString](quickhashintset.savetostring.md) — Метод повертає серіалізовану версію набору
+-   [QuickHashIntSet::add](quickhashintset.add.md)— Метод додає новий запис до набору
+-   [QuickHashIntSet::\_\_construct](quickhashintset.construct.md)— Створює новий об'єкт QuickHashIntSet
+-   [QuickHashIntSet::delete](quickhashintset.delete.md)— Метод видаляє запис із набору
+-   [QuickHashIntSet::exists](quickhashintset.exists.md)— Метод перевіряє, чи є ключем частиною набору
+-   [QuickHashIntSet::getSize](quickhashintset.getsize.md)— Повертає кількість елементів у наборі
+-   [QuickHashIntSet::loadFromFile](quickhashintset.loadfromfile.md)— Фабричний метод створює набір із файлу
+-   [QuickHashIntSet::loadFromString](quickhashintset.loadfromstring.md)— Фабричний метод створює набір із рядка
+-   [QuickHashIntSet::saveToFile](quickhashintset.savetofile.md)— Метод зберігає набір у пам'яті на диску
+-   [QuickHashIntSet::saveToString](quickhashintset.savetostring.md)— Метод повертає серіалізовану версію набору

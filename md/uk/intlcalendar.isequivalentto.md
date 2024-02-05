@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::isEquivalentTo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::isEquivalentTo
 
@@ -26,7 +27,7 @@ public IntlCalendar::isEquivalentTo(IntlCalendar $other): bool
 intlcal_is_equivalent_to(IntlCalendar $calendar, IntlCalendar $other): bool
 ```
 
-Повертає, чи дорівнює цей та даний об'єкт для всіх цілей, крім встановленого часу. Мовні стандарти можуть не збігатися, якщо через таку невідповідність немає жодних змін у поведінці. Сюди входить [часовой пояс](intlcalendar.gettimezone.md), чи встановлено [мягкий режим](intlcalendar.islenient.md) [повторяющиеся](intlcalendar.getrepeatedwalltimeoption.md) і [пропущені](intlcalendar.getskippedwalltimeoption.md) налаштування часу процесора, [дні тижня, коли вихідні починаються та закінчуються](intlcalendar.getdayofweektype.md) і [час, коли відбуваються такі переходи](intlcalendar.getweekendtransition.md). Також може містити інші параметри, специфічні для календаря, наприклад, момент переходу між григоріанським та юліанським календарем.
+Повертає, чи дорівнюють цей і даний об'єкт для всіх цілей, крім встановленого часу. Мовні стандарти можуть не збігатися, якщо через таку невідповідність немає жодних змін у поведінці. Сюди входить [часовий пояс](intlcalendar.gettimezone.md), установлен ли[м'який режим](intlcalendar.islenient.md) [повторювані](intlcalendar.getrepeatedwalltimeoption.md) і [пропущені](intlcalendar.getskippedwalltimeoption.md)настройки времени процессора,[дні тижня, коли вихідні починаються та закінчуються](intlcalendar.getdayofweektype.md) і [час, коли відбуваються такі переходи](intlcalendar.getweekendtransition.md). Також може містити інші параметри, специфічні для календаря, наприклад, момент переходу між григоріанським та юліанським календарем.
 
 ### Список параметрів
 
@@ -40,11 +41,11 @@ intlcal_is_equivalent_to(IntlCalendar $calendar, IntlCalendar $other): bool
 
 ### Значення, що повертаються
 
-За відсутності помилок аргумент повертає **`true`**, якщо календарі рівні, за винятком можливо встановленого часу.
+При отсутствии ошибок аргумента возвращает\*\*`true`\*\*, якщо календарі рівні, за винятком можливо встановленого часу.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::isEquivalentTo()****
+**Пример #1 Пример использования**IntlCalendar::isEquivalentTo()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ var_dump($cal1->getFirstDayOfWeek(),    // 2 (Понедельник)
 $cal3->getFirstDayOfWeek());            // 1 (Воскресенье)
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -71,4 +72,4 @@ int(1)
 
 ### Дивіться також
 
--   [IntlCalendar::equals()](intlcalendar.equals.md) - Порівнює час двох об'єктів IntlCalendar щодо рівності
+-   [IntlCalendar::equals()](intlcalendar.equals.md) \- Порівнює час двох об'єктів IntlCalendar щодо рівності

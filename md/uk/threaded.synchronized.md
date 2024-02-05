@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.threaded.md: Threaded
 title: 'Threaded::synchronized'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Threaded::synchronized
 
@@ -58,7 +59,7 @@ var_dump($my->join());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)

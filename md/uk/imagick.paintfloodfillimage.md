@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::paintFloodfillImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::paintFloodfillImage
 
-(PECL imagick 2> = 2.1.0, PECL imagick 3)
+(PECL imagick 2 >= 2.1.0, PECL imagick 3)
 
 Imagick::paintFloodfillImage — Змінює значення кольору будь-якого пікселя, що відповідає меті
 
@@ -19,10 +20,10 @@ Imagick::paintFloodfillImage — Змінює значення кольору б
 ### Опис
 
 ```methodsynopsis
-public Imagick::paintFloodfillImage(    mixed $fill,    float $fuzz,    mixed $bordercolor,    int $x,    int $y,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::paintFloodfillImage(    mixed $fill,    float $fuzz,    mixed $bordercolor,    int $x,    int $y,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
-Змінює значення кольору будь-якого пікселя, який відповідає цілі та є найближчим сусідом. Починаючи з ImageMagick 6.3.8, цей метод застарів і замість нього слід використовувати [Imagick::floodfillPaintImage()](imagick.floodfillpaintimage.md)
+Змінює значення кольору будь-якого пікселя, який відповідає меті та є найближчим сусідом. Починаючи з ImageMagick 6.3.8, цей метод застарів і замість нього слід використовувати [Imagick::floodfillPaintImage()](imagick.floodfillpaintimage.md)
 
 ### Список параметрів
 
@@ -48,7 +49,7 @@ public Imagick::paintFloodfillImage(    mixed $fill,    float $fuzz,    mixed $b
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно \*\*`Imagick::CHANNEL_DEFAULT`\*\*Обратитесь к списку[констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

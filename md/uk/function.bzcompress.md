@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.bzip2.md: Функції Bzip2
 title: bzcompress
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # bzcompress
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 bzcompress — Стискає рядок за допомогою bzip2
 
@@ -54,4 +55,4 @@ echo $bzstr;
 
 ### Дивіться також
 
--   [bzdecompress()](function.bzdecompress.md) - Розпаковує дані, стиснуті з використанням bzip2
+-   [bzdecompress()](function.bzdecompress.md) \- Розпаковує дані, стиснуті з використанням bzip2

@@ -3,22 +3,23 @@ navigation:
   - mysql-xdevapi-sqlstatement.bind.md: '« SqlStatement::bind'
   - mysql-xdevapi-sqlstatement.execute.md: 'SqlStatement::execute »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatement.md: mysqlxdevapiSqlStatement
-title: 'SqlStatement::construct'
+  - class.mysql-xdevapi-sqlstatement.md: mysql\_xdevapi\\SqlStatement
+title: 'SqlStatement::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SqlStatement::construct
+# SqlStatement::\_\_construct
 
 (No version information available, might only be in Git)
 
-SqlStatement::construct — Опис конструктора
+SqlStatement::\_\_construct — Опис конструктора
 
 ### Опис
 
-private **mysqlxdevapiSqlStatement::construct**
+private**mysql\_xdevapi\\SqlStatement::\_\_construct**()
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ private **mysqlxdevapiSqlStatement::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSqlStatement::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatement::\_\_construct()\*\*\*\*
 
 ```php
 <?php

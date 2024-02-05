@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.array-values.md: « arrayvalues
-  - function.array-walk.md: arraywalk »
+  - function.array-values.md: « array\_values
+  - function.array-walk.md: array\_walk »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
-title: arraywalkrecursive
+title: array\_walk\_recursive
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# arraywalkrecursive
+# array\_walk\_recursive
 
 (PHP 5, PHP 7, PHP 8)
 
-arraywalkrecursive — Рекурсивно застосовує функцію користувача до кожного елементу масиву
+array\_walk\_recursive — Рекурсивно застосовує функцію користувача до кожного елементу масиву
 
 ### Опис
 
@@ -18,7 +19,7 @@ arraywalkrecursive — Рекурсивно застосовує функцію 
 array_walk_recursive(array|object &$array, callable $callback, mixed $arg = null): bool
 ```
 
-Застосовує функцію користувача `callback` до кожного елементу масиву `input`. Ця функція обробляє кожен елемент багатовимірного масиву.
+Застосовує функцію користувача `callback` до кожного елементу масиву `array`. Функція обробляє кожен елемент багатовимірного масиву.
 
 ### Список параметрів
 
@@ -28,9 +29,9 @@ array_walk_recursive(array|object &$array, callable $callback, mixed $arg = null
 
 `callback`
 
-Зазвичай, `callback` приймає два параметри. Першим параметром є значення елемента масиву `input`, а другим - його ключ.
+Зазвичай, `callback` приймає два параметри. Першим параметром є значення елемента масиву `array`, а другим - його ключ.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо потрібно, щоб функція `callback` змінила значення у масиві, визначте перший параметр `callback` як [посилання](language.references.md). Тоді всі зміни будуть застосовані до елементів масиву.
 
@@ -40,11 +41,11 @@ array_walk_recursive(array|object &$array, callable $callback, mixed $arg = null
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **arraywalkrecursive()****
+**Пример #1 Пример использования**array\_walk\_recursive()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ array_walk_recursive($fruits, 'test_print');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 a содержит apple
@@ -72,4 +73,4 @@ sour содержит lemon
 
 ### Дивіться також
 
--   [arraywalk()](function.array-walk.md) - Застосовує задану користувачем функцію кожного елемента масиву
+-   [array\_walk()](function.array-walk.md) \- Застосовує задану користувачем функцію кожного елемента масиву

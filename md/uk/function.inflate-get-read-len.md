@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.inflate-add.md: « inflateadd
-  - function.inflate-get-status.md: inflategetstatus »
+  - function.inflate-add.md: « inflate\_add
+  - function.inflate-get-status.md: inflate\_get\_status »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
-title: inflategetreadlen
+  - ref.zlib.md: Функції Zlib
+title: inflate\_get\_read\_len
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# inflategetreadlen
+# inflate\_get\_read\_len
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-inflategetreadlen — Отримує кількість прочитаних байт
+inflate\_get\_read\_len — Отримує кількість прочитаних байт
 
 ### Опис
 
@@ -20,7 +21,7 @@ inflate_get_read_len(InflateContext $context): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,10 +29,10 @@ inflate_get_read_len(InflateContext $context): int
 
 ### Значення, що повертаються
 
-Повертає кількість прочитаних байт або **`false`** у разі виникнення помилки.
+Повертає кількість прочитаних байт або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.md); раніше, очікувався ресурс (resource). |
+| 8.0.0 | `context` чекає на екземпляр [InflateContext](class.inflatecontext.md); раніше, очікувався ресурс (resource). |

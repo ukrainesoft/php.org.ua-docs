@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - wrappers.md: Підтримувані протоколи та обгортки
 title: 'phar://'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # phar://
 
@@ -12,7 +13,7 @@ phar:// - PHP-архів
 
 ### Опис
 
-Обгортка потоку phar://. Дивіться розділ [Обёртка потока Phar](phar.using.stream.md) для детальнішого опису.
+Обгортка потоку phar://. Дивіться розділ [Обгортка потоку Phar](phar.using.stream.md) для детальнішого опису.
 
 ### Використання
 
@@ -24,17 +25,17 @@ phar:// - PHP-архів
 
 | Атрибут | Поддержка |
 | --- | --- |
-| Обмеження по [allowurlfopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
-| Обмеження по [allowurlinclude](filesystem.configuration.md#ini.allow-url-include) | Ні |
+| Обмеження по [allow\_url\_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
+| Обмеження по [allow\_url\_include](filesystem.configuration.md#ini.allow-url-include) | Ні |
 | Читання | Так |
 | Запис | Так |
 | Додавання | Ні |
 | Одночасне читання та запис | Так |
-| Підтримка [stat()](function.stat.md) | Так |
-| Підтримка [unlink()](function.unlink.md) | Так |
-| Підтримка [rename()](function.rename.md) | Так |
-| Підтримка [mkdir()](function.mkdir.md) | Так |
-| Підтримка [rmdir()](function.rmdir.md) | Так |
+| Поддержка[stat()](function.stat.md) | Так |
+| Поддержка[unlink()](function.unlink.md) | Так |
+| Поддержка[rename()](function.rename.md) | Так |
+| Поддержка[mkdir()](function.mkdir.md) | Так |
+| Поддержка[rmdir()](function.rmdir.md) | Так |
 
 ### Дивіться також
 

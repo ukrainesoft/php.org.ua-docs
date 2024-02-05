@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.fbird-num-fields.md: « fbirdnumfields
-  - function.fbird-param-info.md: fbirdparaminfo »
+  - function.fbird-num-fields.md: « fbird\_num\_fields
+  - function.fbird-param-info.md: fbird\_param\_info »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: fbirdnumparams
+  - ref.ibase.md: Функції Firebird/InterBase
+title: fbird\_num\_params
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fbirdnumparams
+# fbird\_num\_params
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdnumparams — Псевдонім [ibasenumparams()](function.ibase-num-params.md)
+fbird\_num\_params — Псевдоним[ibase\_num\_params()](function.ibase-num-params.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasenumparams()](function.ibase-num-params.md)
+Функция — псевдоним функции:[ibase\_num\_params()](function.ibase-num-params.md)
 
 ### Дивіться також
 
--   [fbirdprepare()](function.fbird-prepare.md) - Псевдонім ibaseprepare
--   [fbirdparaminfo()](function.fbird-param-info.md) - Псевдонім ibaseparaminfo
+-   [fbird\_prepare()](function.fbird-prepare.md) \- Псевдонім ibase\_prepare
+-   [fbird\_param\_info()](function.fbird-param-info.md) \- Псевдонім ibase\_param\_info

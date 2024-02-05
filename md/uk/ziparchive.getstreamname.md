@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getStreamName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::getStreamName
 
@@ -28,11 +29,11 @@ public ZipArchive::getStreamName(string $name, int $flags = 0): resource|false
 
 `flags`
 
-Якщо у flags встановлена ​​константа \*\*`ZipArchive::FL_UNCHANGED`\*\*повертається вихідний незмінений потік.
+Если в flags установлена константа\*\*`ZipArchive::FL_UNCHANGED`\*\*повертається вихідний незмінений потік.
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає покажчик на файл (ресурс) або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає покажчик на файл (ресурс) або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -55,4 +56,4 @@ if ($z->open('test.zip')) {
 
 ### Дивіться також
 
--   [ZipArchive::getStreamIndex()](ziparchive.getstreamindex.md) - Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
+-   [ZipArchive::getStreamIndex()](ziparchive.getstreamindex.md) \- Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)

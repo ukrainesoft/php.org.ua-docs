@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.enchant-broker-describe.md: « enchantbrokerdescribe
-  - function.enchant-broker-free-dict.md: enchantbrokerfreedict »
+  - function.enchant-broker-describe.md: « enchant\_broker\_describe
+  - function.enchant-broker-free-dict.md: enchant\_broker\_free\_dict »
   - index.md: PHP Manual
-  - ref.enchant.md: Функции Enchant
-title: enchantbrokerdictexists
+  - ref.enchant.md: Функції Enchant
+title: enchant\_broker\_dict\_exists
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# enchantbrokerdictexists
+# enchant\_broker\_dict\_exists
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL enchant >= 0.1.0 )
 
-enchantbrokerdictexists — Перевіряє, чи присутній словник. Використовується не пустий тег
+enchant\_broker\_dict\_exists — Перевіряє, чи присутній словник. Використовується не пустий тег
 
 ### Опис
 
@@ -18,31 +19,31 @@ enchantbrokerdictexists — Перевіряє, чи присутній слов
 enchant_broker_dict_exists(EnchantBroker $broker, string $tag): bool
 ```
 
-Перевіряє, чи присутній словник чи ні використовуючи не порожній тег
+Перевіряє, чи є словник чи ні використовуючи не порожній тег
 
 ### Список параметрів
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
+Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.md)
 
 `tag`
 
-Не порожній тег у форматі LOCALE, тобто: usUS, chDE і т.д.
+Не порожній тег у форматі LOCALE, тобто: us\_US, ch\_DE і т.д.
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`**
+Повертає **`true`**или**`false`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **enchantbrokerdictexists()****
+**Пример #1 Пример использования**enchant\_broker\_dict\_exists()\*\*\*\*
 
 ```php
 <?php
@@ -56,4 +57,4 @@ if (enchant_broker_dict_exists($r,$tag)) {
 
 ### Дивіться також
 
--   [enchantbrokerdescribe()](function.enchant-broker-describe.md) - Перераховує провайдерів Enchant
+-   [enchant\_broker\_describe()](function.enchant-broker-describe.md) \- Перераховує провайдерів Enchant

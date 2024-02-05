@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.values.md: '« DsMap::values'
-  - class.ds-pair.md: Пара »
+  - ds-map.values.md: '« Ds\\Map::values'
+  - class.ds-pair.md: Ds\\Pair »
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::xor'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::xor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::xor
+# Ds\\Map::xor
 
 (PECL ds >= 1.0.0)
 
-ДсMap::xor — Створює нову колекцію пар із елементів, які є в одній із колекцій, але не в обох одночасно
+Ds\\Map::xor — Створює нову колекцію пар із елементів, які є в одній із колекцій, але не в обох одночасно
 
 ### Опис
 
@@ -26,19 +27,19 @@ public Ds\Map::xor(Ds\Map $map): Ds\Map
 
 `map`
 
-Друга пара колекції.
+Друга колекція пар.
 
 ### Значення, що повертаються
 
 Нова колекція пар з елементів, ключі яких є в поточній колекції, або в переданій в `map`але не в обох одночасно.
 
-### Також дивіться
+### Дивіться також
 
--   [» Симетрична різниця](https://en.wikipedia.org/wiki/Symmetric_difference) в Вікіпедія
+-   [» Симетрична різниця](https://en.wikipedia.org/wiki/Symmetric_difference)в Вікіпедія
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::xor()****
+**Пример #1 Пример использования**Ds\\Map::xor()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ print_r($a->xor($b));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Map Object

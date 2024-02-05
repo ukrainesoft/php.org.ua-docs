@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine-client.send.md: '« SwooleCoroutineClient::send'
-  - swoole-coroutine-client.sendto.md: 'SwooleCoroutineClient::sendto »'
+  - swoole-coroutine-client.send.md: '« Swoole\\Coroutine\\Client::send'
+  - swoole-coroutine-client.sendto.md: 'Swoole\\Coroutine\\Client::sendto »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutineClient::sendfile'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine\\Client::sendfile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutineClient::sendfile
+# Swoole\\Coroutine\\Client::sendfile
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutineClient::sendfile — Опис
+Swoole\\Coroutine\\Client::sendfile — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Coroutine\Client::sendfile(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

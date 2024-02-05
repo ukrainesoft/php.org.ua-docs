@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: shuffle
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # shuffle
 
@@ -15,10 +16,16 @@ shuffle - Перемішує масив
 ### Опис
 
 ```methodsynopsis
-shuffle(array &$array): bool
+shuffle(array &$array): true
 ```
 
-Ця функція перемішує елементи масиву у випадковому порядку. Використовується псевдовипадковий генератор випадкових чисел, тому дана функція не підходить для задач криптографії.
+Функція перемішує елементи масиву випадковому порядку.
+
+**Застереження**
+
+Функція не створює криптографічно захищені значення та *не повинна* використовуватися для криптографічних цілей або цілей, що вимагають, щоб значення, що повертаються, були недоступні для розгадування.
+
+Якщо потрібна криптографічно безпечна випадкова послідовність, можна використати клас [Random\\Randomizer](class.random-randomizer.md) з двигуном [Random\\Engine\\Secure](class.random-engine-secure.md). Для простих сценаріїв є функції [random\_int()](function.random-int.md) і [random\_bytes()](function.random-bytes.md) із зручним API криптографічно безпечного генератора псевдовипадкових чисел (CSPRNG), що підтримується операційною системою.
 
 ### Список параметрів
 
@@ -28,17 +35,17 @@ shuffle(array &$array): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена.](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
+| 7.1.0 | Внутрішній алгоритм отримання випадкових чисел [змінено](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихор Мерсена.](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **shuffle()****
+**Пример #1 Пример использования**shuffle()\*\*\*\*
 
 ```php
 <?php
@@ -54,11 +61,13 @@ foreach ($numbers as $number) {
 
 > **Зауваження**: Ця функція надає нові ключі елементам `array`. Вона видалить усі існуючі ключі, а не просто переупорядкує їх.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Скидає внутрішній покажчик масиву перший елемент.
 
 ### Дивіться також
 
--   [arrayrand()](function.array-rand.md) - Вибирає один або кілька випадкових ключів із масиву
+-   [Random\\Randomizer::shuffleArray()](random-randomizer.shufflearray.md) \- Отримує перестановку масиву
+-   [Random\\Randomizer::shuffleBytes()](random-randomizer.shufflebytes.md) \- отримує байтову перестановку рядка
+-   [Random\\Randomizer::pickArrayKeys()](random-randomizer.pickarraykeys.md) \- Вибирає випадкові ключі масиву
 -   [Порівняння функцій сортування масивів](array.sorting.md)

@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.stomp.md: Stomp
 title: 'Stomp::setReadTimeout'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Stomp::setReadTimeout
 
-# stompsetreadtimeout
+# stomp\_set\_read\_timeout
 
 (PECL stomp >= 0.3.0)
 
-Stomp::setReadTimeout -- stompsetreadtimeout — Встановлює граничний час очікування операції читання
+Stomp::setReadTimeout -- stomp\_set\_read\_timeout — Встановлює граничний час очікування операції читання
 
 ### Опис
 
@@ -34,7 +35,7 @@ stomp_set_read_timeout(resource $link, int $seconds, int $microseconds = ?): voi
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.md)
 
 `seconds`
 

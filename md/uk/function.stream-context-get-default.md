@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-context-create.md: « streamcontextcreate
-  - function.stream-context-get-options.md: streamcontextgetoptions »
+  - function.stream-context-create.md: « stream\_context\_create
+  - function.stream-context-get-options.md: stream\_context\_get\_options »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamcontextgetdefault
+title: stream\_context\_get\_default
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamcontextgetdefault
+# stream\_context\_get\_default
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-streamcontextgetdefault — Отримує контекст потоку за промовчанням
+stream\_context\_get\_default — Отримує контекст потоку за промовчанням
 
 ### Опис
 
@@ -18,13 +19,13 @@ streamcontextgetdefault — Отримує контекст потоку за п
 stream_context_get_default(?array $options = null): resource
 ```
 
-Повертає контекст потоку за умовчанням, який використовується у будь-яких файлових операціях ([fopen()](function.fopen.md) [filegetcontents()](function.file-get-contents.md) і т.д.), викликаних без параметра контексту. Опції для контексту за умовчанням можуть бути опціонально вказані за допомогою цієї функції використовуючи той же синтаксис, що і для [streamcontextcreate()](function.stream-context-create.md)
+Повертає контекст потоку за замовчуванням, який використовується у будь-яких файлових операціях ([fopen()](function.fopen.md) [file\_get\_contents()](function.file-get-contents.md) і т.д.), викликаних без параметра контексту. Опції для контексту за умовчанням можуть бути опціонально вказані за допомогою цієї функції використовуючи той же синтаксис, що і для [stream\_context\_create()](function.stream-context-create.md)
 
 ### Список параметрів
 
 `options`
 
-`options` має бути асоціативним масивом асоціативних масивів у форматі `$arr['wrapper']['option'] = $value` або **`null`**
+`options` має бути асоціативним масивом асоціативних масивів у форматі `$arr['wrapper']['option'] = $value`или\*\*`null`\*\*
 
 ### Значення, що повертаються
 
@@ -32,13 +33,13 @@ stream_context_get_default(?array $options = null): resource
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `options` тепер допускає значення null. |
+| 8.0.0 | Параметр`options` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **streamcontextgetdefault()****
+**Пример #1 Пример использования**stream\_context\_get\_default()\*\*\*\*
 
 ```php
 <?php
@@ -79,6 +80,6 @@ readfile('http://www.example.com', false, $alternate);
 
 ### Дивіться також
 
--   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку
--   [streamcontextsetdefault()](function.stream-context-set-default.md) - Встановити контекст потоку за промовчанням
+-   [stream\_context\_create()](function.stream-context-create.md) \- Створює контекст потоку
+-   [stream\_context\_set\_default()](function.stream-context-set-default.md) \- Встановити контекст потоку за промовчанням
 -   Список підтримуваних обгорток з опціями контексту ([Підтримувані протоколи та обгортки](wrappers.md)

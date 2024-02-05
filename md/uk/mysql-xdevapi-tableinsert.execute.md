@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-tableinsert.construct.md: '« TableInsert::construct'
+  - mysql-xdevapi-tableinsert.construct.md: '« TableInsert::\_\_construct'
   - mysql-xdevapi-tableinsert.values.md: 'TableInsert::values »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableinsert.md: mysqlxdevapiTableInsert
+  - class.mysql-xdevapi-tableinsert.md: mysql\_xdevapi\\TableInsert
 title: 'TableInsert::execute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableInsert::execute
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\TableInsert::execute(): mysql_xdevapi\Result
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableInsert::execute()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableInsert::execute()\*\*\*\*
 
 ```php
 <?php

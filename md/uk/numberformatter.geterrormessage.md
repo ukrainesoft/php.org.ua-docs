@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::getErrorMessage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NumberFormatter::getErrorMessage
 
-# numfmtgeterrormessage
+# numfmt\_get\_error\_message
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::getErrorMessage -- numfmtgeterrormessage — Отримує останнє повідомлення про помилку засобу форматування
+NumberFormatter::getErrorMessage -- numfmt\_get\_error\_message — Отримує останнє повідомлення про помилку засобу форматування
 
 ### Опис
 
@@ -42,7 +43,7 @@ numfmt_get_error_message(NumberFormatter $formatter): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmtgeterrormessage()****
+**Пример #1 Пример использования**numfmt\_get\_error\_message()\*\*\*\*
 
 ```php
 <?php
@@ -64,6 +65,6 @@ var_dump(numfmt_get_error_message($fmt));
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
--   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
--   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.md) \- Отримує останній код помилки засобу форматування
+-   [intl\_get\_error\_code()](function.intl-get-error-code.md) \- Отримати код останньої помилки
+-   [intl\_is\_failure()](function.intl-is-failure.md) \- Перевірити, чи є код помилки ознакою збою

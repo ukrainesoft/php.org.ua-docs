@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::isPassedByReference'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionParameter::isPassedByReference
 
@@ -30,4 +31,4 @@ public ReflectionParameter::isPassedByReference(): bool
 
 ### Дивіться також
 
--   [ReflectionParameter::getName()](reflectionparameter.getname.md) - Отримання імені параметра
+-   [ReflectionParameter::getName()](reflectionparameter.getname.md) \- Отримання імені параметра

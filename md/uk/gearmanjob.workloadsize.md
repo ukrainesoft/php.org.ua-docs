@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::workloadSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanJob::workloadSize
 
@@ -18,7 +19,7 @@ GearmanJob::workloadSize — Отримання розміру даних, що 
 public GearmanJob::workloadSize(): int
 ```
 
-Повертає розмір даних, які повинен переробити обробник завдань у байтах.
+Повертає розмір даних, які має переробити обробник завдань у байтах.
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ public GearmanJob::workloadSize(): int
 
 ### Дивіться також
 
--   [GearmanJob::workload()](gearmanjob.workload.md) - отримання даних для обробки
+-   [GearmanJob::workload()](gearmanjob.workload.md) \- отримання даних для обробки

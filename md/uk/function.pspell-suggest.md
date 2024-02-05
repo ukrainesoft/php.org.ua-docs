@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pspell-store-replacement.md: « pspellstorereplacement
-  - class.pspell-dictionary.md: PSpellDictionary »
+  - function.pspell-store-replacement.md: « pspell\_store\_replacement
+  - class.pspell-dictionary.md: PSpell\\Dictionary »
   - index.md: PHP Manual
-  - ref.pspell.md: Функции Pspell
-title: pspellsuggest
+  - ref.pspell.md: Функції Pspell
+title: pspell\_suggest
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pspellsuggest
+# pspell\_suggest
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspellsuggest — Пропонує варіанти виправлення слова
+pspell\_suggest — Пропонує варіанти виправлення слова
 
 ### Опис
 
@@ -18,17 +19,17 @@ pspellsuggest — Пропонує варіанти виправлення сл�
 pspell_suggest(PSpell\Dictionary $dictionary, string $word): array|false
 ```
 
-**pspellsuggest()** повертає масив можливих варіантів виправлення заданого слова.
+**pspell\_suggest()** повертає масив можливих варіантів виправлення заданого слова.
 
 ### Список параметрів
 
 `dictionary`
 
-Екземпляр [PSpellDictionary](class.pspell-dictionary.md)
+Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.md)
 
 `word`
 
-Перевірене слово.
+Перевірочне слово.
 
 ### Значення, що повертаються
 
@@ -36,13 +37,13 @@ pspell_suggest(PSpell\Dictionary $dictionary, string $word): array|false
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspellsuggest()****
+**Пример #1 Пример использования**pspell\_suggest()\*\*\*\*
 
 ```php
 <?php

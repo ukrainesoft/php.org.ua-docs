@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::setSaslAuthData'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::setSaslAuthData
 
@@ -15,7 +16,7 @@ Memcached::setSaslAuthData — Встановлює облікові дані д
 ### Опис
 
 ```methodsynopsis
-public Memcached::setSaslAuthData(string $username, string $password): void
+public Memcached::setSaslAuthData(string $username, string $password): bool
 ```
 
 **Memcached::setSaslAuthData()** встановлює ім'я користувача та пароль, які мають бути використані для SASL аутентифікації із серверами memcache.
@@ -34,4 +35,4 @@ public Memcached::setSaslAuthData(string $username, string $password): void
 
 ### Значення, що повертаються
 
-Функція не повертає значення після виконання.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::setWatcher'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zookeeper::setWatcher
 
@@ -27,7 +28,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -39,6 +40,6 @@ public
 
 ### Дивіться також
 
--   [Zookeeper::exists()](zookeeper.exists.md) - Синхронно перевіряє наявність вузла в zookeeper
--   [Zookeeper::get()](zookeeper.get.md) - Синхронно отримує дані, пов'язані з вузлом
+-   [Zookeeper::exists()](zookeeper.exists.md) \- Синхронно перевіряє наявність вузла в zookeeper
+-   [Zookeeper::get()](zookeeper.get.md) \- Синхронно отримує дані, пов'язані з вузлом
 -   [ZookeeperException](class.zookeeperexception.md)

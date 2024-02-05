@@ -1,21 +1,22 @@
 ---
 navigation:
-  - dio.constants.md: « Обумовлені константи
-  - function.dio-close.md: dioclose »
+  - dio.constants.md: « Зумовлені константи
+  - function.dio-close.md: dio\_close »
   - index.md: PHP Manual
   - book.dio.md: Пряме введення/виведення (Direct IO)
 title: Функції прямого введення/виводу
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Функції прямого введення/виводу
 
 ## Зміст
 
--   [dioclose](function.dio-close.md) - Закрити файловий дескриптор
--   [diofcntl](function.dio-fcntl.md) — Викликає функцію бібліотеки C fcntl для файлового дескриптора
--   [dioopen](function.dio-open.md) — Відкриває файл (за потребою створює) на нижчому рівні, ніж потокові функції введення/виведення мови C
--   [dioread](function.dio-read.md) — Прочитай байти із файлового дескриптора
--   [dioseek](function.dio-seek.md) — Перемістити вказівник у файловому дескрипторі
--   [diostat](function.dio-stat.md) — Отримати інформацію про файловий дескриптор
--   [diotcsetattr](function.dio-tcsetattr.md) — Встановлює атрибути терміналу та швидкість передачі даних для послідовного порту
--   [diotruncate](function.dio-truncate.md) - Обрізає файл до заданої кількості байт
--   [diowrite](function.dio-write.md) — Записує байти у файл, опціонально обрізаючи до вказаної довжини
+-   [dio\_close](function.dio-close.md) \- Закрити файловий дескриптор
+-   [dio\_fcntl](function.dio-fcntl.md)— Викликає функцію бібліотеки C fcntl для файлового дескриптора
+-   [dio\_open](function.dio-open.md)— Відкриває файл (за потребою створює) на нижчому рівні, ніж потокові функції введення/виведення мови C
+-   [dio\_read](function.dio-read.md)— Прочитай байти із файлового дескриптора
+-   [dio\_seek](function.dio-seek.md)— Перемістити вказівник у файловому дескрипторі
+-   [dio\_stat](function.dio-stat.md)— Отримати інформацію про файловий дескриптор
+-   [dio\_tcsetattr](function.dio-tcsetattr.md)— Встановлює атрибути терміналу та швидкість передачі даних для послідовного порту
+-   [dio\_truncate](function.dio-truncate.md) \- Обрізає файл до заданої кількості байт
+-   [dio\_write](function.dio-write.md)— Записує байти у файл, опціонально обрізуючи до вказаної довжини

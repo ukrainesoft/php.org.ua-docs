@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getSize
 
@@ -20,7 +21,7 @@ public Imagick::getSize(): array
 
 Отримує розмір пікселів об'єкта Imagick, попередньо заданий за допомогою функції [Imagick::setSize()](imagick.setsize.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей метод лише повертає розмір, встановлений [Imagick::setSize()](imagick.setsize.md). Якщо потрібно отримати реальні розміри зображення, використовуйте функції [Imagick::getImageWidth()](imagick.getimagewidth.md) і [Imagick::getImageHeight()](imagick.getimageheight.md)
 
@@ -34,7 +35,7 @@ public Imagick::getSize(): array
 
 ### Приклади
 
-**Приклад #1 Отримання розміру вихідного зображення RGB, встановлених у 200x400, після масштабування до 400x800**
+**Приклад #1 Отримання розміру вихідного зображення RGB, встановлене в 200x400, після масштабування до 400x800**
 
 ```php
 <?php
@@ -52,7 +53,7 @@ echo $img->getImageWidth()."x".$img->getImageHeight();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array

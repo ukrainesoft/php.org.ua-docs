@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-binomial.md: « gmpbinomial
-  - function.gmp-cmp.md: gmpcmp »
+  - function.gmp-binomial.md: « gmp\_binomial
+  - function.gmp-cmp.md: gmp\_cmp »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpclrbit
+title: gmp\_clrbit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpclrbit
+# gmp\_clrbit
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpclrbit - Скидання біта
+gmp\_clrbit - Скидання біта
 
 ### Опис
 
@@ -18,13 +19,13 @@ gmpclrbit - Скидання біта
 gmp_clrbit(GMP $num, int $index): void
 ```
 
-Скидає (встановлює 0) біт на позиції `index` аргументу `num`. Індексація починається із 0.
+Скидає (встановлює 0) біт на позиції `index`аргумента`num`. Індексація починається із 0.
 
 ### Список параметрів
 
 `num`
 
-Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md)
 
 `index`
 
@@ -32,11 +33,11 @@ gmp_clrbit(GMP $num, int $index): void
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.md)ю
+Об'єкт класу [GMP](class.gmp.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpclrbit()****
+**Пример #1 Пример использования**gmp\_clrbit()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ gmp_clrbit(GMP $num, int $index): void
     ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 254
@@ -54,11 +55,11 @@ gmp_clrbit(GMP $num, int $index): void
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> На відміну від більшості GMP функцій, **gmpclrbit()** повинна викликатись для вже існуючого об'єкта GMP (наприклад, створеного за допомогою [gmpinit()](function.gmp-init.md)). Функція не створює їх автоматично.
+> На відміну від більшості GMP функцій, **gmp\_clrbit()** має викликатися для вже існуючого об'єкта GMP (наприклад, створеного за допомогою [gmp\_init()](function.gmp-init.md)). Функція не створює їх автоматично.
 
 ### Дивіться також
 
--   [gmpsetbit()](function.gmp-setbit.md) - Встановлення біта
--   [gmptestbit()](function.gmp-testbit.md) - Перевірка, чи встановлений біт в 1
+-   [gmp\_setbit()](function.gmp-setbit.md) \- Встановлення біта
+-   [gmp\_testbit()](function.gmp-testbit.md) \- Перевірка, чи встановлений біт в 1

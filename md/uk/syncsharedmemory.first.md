@@ -1,10 +1,11 @@
 ---
 navigation:
-  - syncsharedmemory.construct.md: '« SyncSharedMemory::construct'
+  - syncsharedmemory.construct.md: '« SyncSharedMemory::\_\_construct'
   - syncsharedmemory.read.md: 'SyncSharedMemory::read »'
   - index.md: PHP Manual
   - class.syncsharedmemory.md: SyncSharedMemory
 title: 'SyncSharedMemory::first'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SyncSharedMemory::first
 
@@ -26,11 +27,11 @@ public SyncSharedMemory::first(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncSharedMemory::first()****
+**Пример #1 Пример использования**SyncSharedMemory::first()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($mem2->first());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -57,5 +58,5 @@ bool(false)
 
 ### Дивіться також
 
--   [SyncSharedMemory::write()](syncsharedmemory.write.md) - Копіює дані в іменовану пам'ять, що розділяється.
--   [SyncSharedMemory::read()](syncsharedmemory.read.md) - Копіює дані з іменованої пам'яті, що розділяється
+-   [SyncSharedMemory::write()](syncsharedmemory.write.md) \- Копіює дані в іменовану пам'ять, що розділяється.
+-   [SyncSharedMemory::read()](syncsharedmemory.read.md) \- Копіює дані з іменованої пам'яті, що розділяється

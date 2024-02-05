@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.imagickpixeliterator.md: « ImagickPixelIterator
-  - imagickpixeliterator.construct.md: 'ImagickPixelIterator::construct »'
+  - imagickpixeliterator.construct.md: 'ImagickPixelIterator::\_\_construct »'
   - index.md: PHP Manual
   - class.imagickpixeliterator.md: ImagickPixelIterator
 title: 'ImagickPixelIterator::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixelIterator::clear
 
@@ -20,7 +21,7 @@ public ImagickPixelIterator::clear(): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Очищає ресурси, пов'язані з PixelIterator.
 
@@ -30,7 +31,7 @@ public ImagickPixelIterator::clear(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickPixelIterator::clear()****
+**Пример #1 Пример использования**ImagickPixelIterator::clear()\*\*\*\*
 
 ```php
 <?php

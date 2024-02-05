@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine.getuid.md: '« SwooleCoroutine::getuid'
-  - swoole-coroutine.suspend.md: 'SwooleCoroutine::suspend »'
+  - swoole-coroutine.getuid.md: '« Swoole\\Coroutine::getuid'
+  - swoole-coroutine.suspend.md: 'Swoole\\Coroutine::suspend »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutine::resume'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine::resume'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutine::resume
+# Swoole\\Coroutine::resume
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutine::resume — Опис
+Swoole\\Coroutine::resume — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public static Swoole\Coroutine::resume(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

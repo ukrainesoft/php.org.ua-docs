@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.recursivecachingiterator.md: RecursiveCachingIterator
 title: 'RecursiveCachingIterator::hasChildren'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RecursiveCachingIterator::hasChildren
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 RecursiveCachingIterator::hasChildren — Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
 
@@ -20,7 +21,7 @@ public RecursiveCachingIterator::hasChildren(): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

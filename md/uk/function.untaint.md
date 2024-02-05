@@ -3,8 +3,9 @@ navigation:
   - function.taint.md: « taint
   - book.ds.md: Структури даних
   - index.md: PHP Manual
-  - ref.taint.md: Функции Taint
+  - ref.taint.md: Функції Taint
 title: untaint
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # untaint
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::getStub'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::getStub
 
@@ -46,7 +47,7 @@ php myphar.phar
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::getStub()****
+**Пример #1 Пример использования**Phar::getStub()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ echo $p->getStub();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?php __HALT_COMPILER(); ?>
@@ -82,5 +83,5 @@ __HALT_COMPILER(); ?>
 
 ### Дивіться також
 
--   [Phar::setStub()](phar.setstub.md) - Встановити завантажувач або завантажувальну заглушку в Phar-архів
--   [Phar::createDefaultStub()](phar.createdefaultstub.md) - Створити заглушку у форматі phar-архіву
+-   [Phar::setStub()](phar.setstub.md) \- Встановити завантажувач або завантажувальну заглушку в Phar-архів
+-   [Phar::createDefaultStub()](phar.createdefaultstub.md) \- Створити заглушку у форматі phar-архіву

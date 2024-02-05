@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.uopz-del-function.md: « uopzdelfunction
-  - function.uopz-extend.md: uopzextend »
+  - function.uopz-del-function.md: « uopz\_del\_function
+  - function.uopz-extend.md: uopz\_extend »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzdelete
+title: uopz\_delete
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzdelete
+# uopz\_delete
 
 (PECL uopz 1, PECL uopz 2)
 
-uopzdelete — Видалити функцію
+uopz\_delete — Видалити функцію
 
 **Увага**
 
-Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО*в PECL uopz 5.0.0.
 
 ### Опис
 
@@ -38,7 +39,7 @@ uopz_delete(string $class, string $function): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzdelete()****
+**Пример #1 Пример использования**uopz\_delete()\*\*\*\*
 
 ```php
 <?php
@@ -48,13 +49,13 @@ echo strlen("Hello World");
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 PHP Fatal error: Call to undefined function strlen() in /path/to/script.php on line 4
 ```
 
-**Приклад #2 Приклад використання **uopzdelete()** з класом**
+**Пример #2 Пример использования**uopz\_delete()\*\* з класом\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ echo My::strlen("Hello World");
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 PHP Fatal error: Call to undefined method My::strlen() in /path/to/script.php on line 10

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::cropImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::cropImage
 
@@ -15,7 +16,7 @@ Imagick::cropImage — Витягує область зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::cropImage(    int $width,    int $height,    int $x,    int $y): bool
+public Imagick::cropImage(    int $width,    int $height,    int $x,    int $y): bool
 ```
 
 Витягує область зображення.
@@ -48,7 +49,7 @@ public Imagick::cropImage(    int $width,    int $height,    int $x,    int $y):
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::cropImage()****
+**Пример #1 Пример использования**Imagick::cropImage()\*\*\*\*
 
 ```php
 <?php

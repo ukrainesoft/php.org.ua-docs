@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.contains.md: '« DsVector::contains'
-  - ds-vector.count.md: 'ДсVector::count »'
+  - ds-vector.contains.md: '« Ds\\Vector::contains'
+  - ds-vector.count.md: 'Ds\\Vector::count »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::copy'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::copy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::copy
+# Ds\\Vector::copy
 
 (PECL ds >= 1.0.0)
 
-ДсVector::copy — Повертає поверхневу копію вектора
+Ds\\Vector::copy — Повертає поверхневу копію вектора
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Vector::copy(): Ds\Vector
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::copy()****
+**Пример #1 Пример использования**Ds\\Vector::copy()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ print_r($b);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - syncsemaphore.construct.md: '« SyncSemaphore::construct'
+  - syncsemaphore.construct.md: '« SyncSemaphore::\_\_construct'
   - syncsemaphore.unlock.md: 'SyncSemaphore::unlock »'
   - index.md: PHP Manual
   - class.syncsemaphore.md: SyncSemaphore
 title: 'SyncSemaphore::lock'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SyncSemaphore::lock
 
 (PECL sync >= 1.0.0)
 
-Sync Semaphore::lock — Зменшує рахунок семафору або чекає
+SyncSemaphore::lock — Зменшує рахунок семафору або чекає
 
 ### Опис
 
@@ -28,11 +29,11 @@ public SyncSemaphore::lock(int $wait = -1): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncSemaphore::lock()****
+**Пример #1 Пример использования**SyncSemaphore::lock()\*\*\*\*
 
 ```php
 <?php
@@ -53,4 +54,4 @@ $semaphore->unlock();
 
 ### Дивіться також
 
--   [SyncSemaphore::unlock()](syncsemaphore.unlock.md) - Збільшує рахунок семафору
+-   [SyncSemaphore::unlock()](syncsemaphore.unlock.md) \- Збільшує рахунок семафору

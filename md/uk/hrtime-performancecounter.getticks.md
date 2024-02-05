@@ -1,16 +1,17 @@
 ---
 navigation:
-  - hrtime-performancecounter.getfrequency.md: '« HRTimePerformanceCounter::getFrequency'
-  - hrtime-performancecounter.gettickssince.md: 'HRTimePerformanceCounter::getTicksSince »'
+  - hrtime-performancecounter.getfrequency.md: '« HRTime\\PerformanceCounter::getFrequency'
+  - hrtime-performancecounter.gettickssince.md: 'HRTime\\PerformanceCounter::getTicksSince »'
   - index.md: PHP Manual
-  - class.hrtime-performancecounter.md: HRTimePerformanceCounter
-title: 'HRTimePerformanceCounter::getTicks'
+  - class.hrtime-performancecounter.md: HRTime\\PerformanceCounter
+title: 'HRTime\\PerformanceCounter::getTicks'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# HRTimePerformanceCounter::getTicks
+# HRTime\\PerformanceCounter::getTicks
 
 (PECL hrtime >= 0.6.0)
 
-HRTimePerformanceCounter::getTicks — Поточне значення тиків системи
+HRTime\\PerformanceCounter::getTicks — Поточне значення тиків системи
 
 ### Опис
 

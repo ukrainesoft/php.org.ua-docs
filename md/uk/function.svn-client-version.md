@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-cleanup.md: « svncleanup
-  - function.svn-commit.md: svncommit »
+  - function.svn-cleanup.md: « svn\_cleanup
+  - function.svn-commit.md: svn\_commit »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnclientversion
+title: svn\_client\_version
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnclientversion
+# svn\_client\_version
 
-(PECL svn> = 0.1.0)
+(PECL svn >= 0.1.0)
 
-svnclientversion — Повертає версію клієнтських бібліотек SVN
+svn\_client\_version — Повертає версію клієнтських бібліотек SVN
 
 ### Опис
 
@@ -38,7 +39,7 @@ echo svn_client_version();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 1.3.1

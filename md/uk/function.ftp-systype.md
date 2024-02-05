@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-ssl-connect.md: « ftpsslconnect
-  - class.ftp-connection.md: FTPConnection »
+  - function.ftp-ssl-connect.md: « ftp\_ssl\_connect
+  - class.ftp-connection.md: FTP\\Connection »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpsystype
+title: ftp\_systype
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpsystype
+# ftp\_systype
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftpsystype — Повертає тип операційної системи сервера FTP
+ftp\_systype — Повертає тип операційної системи сервера FTP
 
 ### Опис
 
@@ -24,21 +25,21 @@ ftp_systype(FTP\Connection $ftp): string|false
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Значення, що повертаються
 
-Повертає тип операційної системи FTP-сервера або **`false`** у разі виникнення помилки.
+Повертає тип операційної системи FTP-сервера або \*\*`false`\*\*при возникновении ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpsystype()****
+**Пример #1 Пример использования**ftp\_systype()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ if ($type = ftp_systype($ftp)) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 example.com использует UNIX

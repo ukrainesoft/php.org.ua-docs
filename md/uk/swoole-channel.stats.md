@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-channel.push.md: '« SwooleChannel::push'
-  - class.swoole-client.md: SwooleClient »
+  - swoole-channel.push.md: '« Swoole\\Channel::push'
+  - class.swoole-client.md: Swoole\\Client »
   - index.md: PHP Manual
-  - class.swoole-channel.md: SwooleChannel
-title: 'SwooleChannel::stats'
+  - class.swoole-channel.md: Swoole\\Channel
+title: 'Swoole\\Channel::stats'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleChannel::stats
+# Swoole\\Channel::stats
 
 (PECL swoole >= 1.9.0)
 
-SwooleChannel::stats — Отримує статистику каналу Swoole
+Swoole\\Channel::stats — Отримує статистику каналу Swoole
 
 ### Опис
 

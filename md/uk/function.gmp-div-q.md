@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-com.md: « gmpcom
-  - function.gmp-div-qr.md: gmpdivqr »
+  - function.gmp-com.md: « gmp\_com
+  - function.gmp-div-qr.md: gmp\_div\_qr »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpdivдо
+title: gmp\_div\_q
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpdivдо
+# gmp\_div\_q
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpdivq — Розподіл чисел
+gmp\_div\_q — Розподіл чисел
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpdivq — Розподіл чисел
 gmp_div_q(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_ROUND_ZERO): GMP
 ```
 
-ділить `num1` на `num2` і повертає цілий результат.
+ділить `num1`на`num2` і повертає цілий результат.
 
 ### Список параметрів
 
@@ -36,21 +37,21 @@ gmp_div_q(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
 
 `rounding_mode`
 
-Округлення результату визначається параметром `rounding_mode`, який може приймати такі значення:
+Округление результата определяется параметром`rounding_mode`, який може приймати такі значення:
 
 -   **`GMP_ROUND_ZERO`**: Дробова частина просто відрізається
--   **`GMP_ROUND_PLUSINF`**: Результат округляється до найближчого цілого убік `+бесконечности`
--   **`GMP_ROUND_MINUSINF`**: Результат округляється до найближчого цілого убік `-бесконечности`
+-   **`GMP_ROUND_PLUSINF`**: Результат округляється до найближчого цілого убік`+нескінченності`
+-   **`GMP_ROUND_MINUSINF`**: Результат округляється до найближчого цілого убік`-нескінченності`
 
 Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.md)ю
+Об'єкт класу [GMP](class.gmp.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpdivq()****
+**Пример #1 Пример использования**gmp\_div\_q()\*\*\*\*
 
 ```php
 <?php
@@ -71,7 +72,7 @@ gmp_div_q(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
      ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 20
@@ -83,11 +84,11 @@ gmp_div_q(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Ця функція має псевдонім [gmpdiv()](function.gmp-div.md)
+> Ця функція має псевдонім [gmp\_div()](function.gmp-div.md)
 
 ### Дивіться також
 
--   [gmpdivr()](function.gmp-div-r.md) - Залишок від розподілу чисел
--   [gmpdivqr()](function.gmp-div-qr.md) - Поділ чисел та отримання приватного та залишку
+-   [gmp\_div\_r()](function.gmp-div-r.md) \- Залишок від розподілу чисел
+-   [gmp\_div\_qr()](function.gmp-div-qr.md) \- Поділ чисел та отримання приватного та залишку

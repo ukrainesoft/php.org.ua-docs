@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.multipleiterator.md: MultipleIterator
 title: 'MultipleIterator::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # MultipleIterator::rewind
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 MultipleIterator::rewind — Повертає на початок усі приєднані ітератори
 
@@ -22,7 +23,7 @@ public MultipleIterator::rewind(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,4 +35,4 @@ public MultipleIterator::rewind(): void
 
 ### Дивіться також
 
--   [MultipleIterator::next()](multipleiterator.next.md) - Переміщує всі приєднані ітератори до своїх наступних елементів
+-   [MultipleIterator::next()](multipleiterator.next.md) \- Переміщує всі приєднані ітератори до своїх наступних елементів

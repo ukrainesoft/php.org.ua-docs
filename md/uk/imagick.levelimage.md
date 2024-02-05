@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::levelImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::levelImage
 
@@ -15,7 +16,7 @@ Imagick::levelImage — Регулює рівні зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::levelImage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::levelImage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Регулює рівні зображення, масштабуючи кольори, що потрапляють між зазначеними білими та чорними точками, до доступного квантового діапазону. Надані параметри є чорними, середніми і білими точками. Чорна точка визначає темний колір зображення. Кольори темніші за крапку чорного встановлюються на нуль. Середня точка визначає гамма-корекцію, що застосовується до зображення. Біла точка визначає найсвітліший колір зображення. Для кольорів яскравіше крапки білого встановлюється максимальне квантове значення.
@@ -36,7 +37,7 @@ public Imagick::levelImage(    float $blackPoint,    float $gamma,    float $whi
 
 `channel`
 
-Вкажіть будь-яку константу каналу, яка відповідає режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до цього списку [констант канала](imagick.constants.md#imagick.constants.channel)
+Вкажіть будь-яку константу каналу, яка відповідає режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до цього списку [констант каналу](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
@@ -48,7 +49,7 @@ public Imagick::levelImage(    float $blackPoint,    float $gamma,    float $whi
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::levelImage()****
+**Пример #1 Пример использования**Imagick::levelImage()\*\*\*\*
 
 ```php
 <?php

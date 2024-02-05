@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.commonmark-node-thematicbreak.md: « CommonMarkNodeThematicBreak
-  - class.commonmark-node-linebreak.md: CommonMarkNodeLineBreak »
+  - class.commonmark-node-thematicbreak.md: « CommonMark\\Node\\ThematicBreak
+  - class.commonmark-node-linebreak.md: CommonMark\\Node\\LineBreak »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: SoftBreak успадковує CommonMarkNode
+title: SoftBreak успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoftBreak успадковує CommonMarkNode
+# SoftBreak успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 

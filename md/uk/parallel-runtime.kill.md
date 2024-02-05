@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-runtime.close.md: '« parallelRuntime::close'
-  - class.parallel-future.md: parallelFuture »
+  - parallel-runtime.close.md: '« parallel\\Runtime::close'
+  - class.parallel-future.md: parallel\\Future »
   - index.md: PHP Manual
-  - class.parallel-runtime.md: parallelRuntime
-title: 'parallelRuntime::kill'
+  - class.parallel-runtime.md: parallel\\Runtime
+title: 'parallel\\Runtime::kill'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelRuntime::kill
+# parallel\\Runtime::kill
 
-parallelRuntime::kill — З'єднання під час виконання
+(0.8.0)
+
+parallel\\Runtime::kill — З'єднання під час виконання
 
 ### Опис
 
@@ -18,7 +21,7 @@ public parallel\Runtime::kill(): void
 
 Намагається примусово завершити роботу середовища виконання.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Заплановані для виконання завдання не будуть виконані, поточне завдання буде перервано.
 
@@ -30,4 +33,4 @@ public parallel\Runtime::kill(): void
 
 **Увага**
 
-Викидає parallelRuntimeErrorClosed, якщо Runtime вже було закрито.
+Викидає parallel\\Runtime\\Error\\Closed, якщо Runtime вже було закрито.

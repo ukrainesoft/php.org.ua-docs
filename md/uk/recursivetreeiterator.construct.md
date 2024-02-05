@@ -4,33 +4,35 @@ navigation:
   - recursivetreeiterator.current.md: 'RecursiveTreeIterator::current »'
   - index.md: PHP Manual
   - class.recursivetreeiterator.md: RecursiveTreeIterator
-title: 'RecursiveTreeIterator::construct'
+title: 'RecursiveTreeIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# RecursiveTreeIterator::construct
+# RecursiveTreeIterator::\_\_construct
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-RecursiveTreeIterator::construct — Конструктор класу RecursiveTreeIterator
+RecursiveTreeIterator::\_\_construct — Конструктор класу RecursiveTreeIterator
 
 ### Опис
 
-public **RecursiveTreeIterator::construct**  
-[RecursiveIterator](class.recursiveiterator.md)[IteratorAggregate](class.iteratoraggregate.md) `$iterator`  
-int `$flags` = RecursiveTreeIterator::BYPASSKEY,  
-int `$cachingIteratorFlags` = CachingIterator::CATCHGETCHILD,  
-int `$mode` = RecursiveTreeIterator::SELFFIRST
+public**RecursiveTreeIterator::\_\_construct**  
+[RecursiveIterator](class.recursiveiterator.md) [IteratorAggregate](class.iteratoraggregate.md) `$iterator`,  
+int`$flags`\= RecursiveTreeIterator::BYPASS\_KEY,  
+int`$cachingIteratorFlags`\= CachingIterator::CATCH\_GET\_CHILD,  
+int`$mode`\= RecursiveTreeIterator::SELF\_FIRST  
+) .
 
 Створює новий об'єкт класу [RecursiveTreeIterator](class.recursivetreeiterator.md) на основі рекурсивного об'єкта-ітератора.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `iterator`
 
-Об'єкт класу [RecursiveIterator](class.recursiveiterator.md) або класу [IteratorAggregate](class.iteratoraggregate.md)
+Об'єкт класу [RecursiveIterator](class.recursiveiterator.md)или класса[IteratorAggregate](class.iteratoraggregate.md)
 
 `flags`
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::isGenerator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::isGenerator
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::isGenerator — Перевіряє, чи є функція генератором
 

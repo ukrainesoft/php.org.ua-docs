@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.error-get-last.md: « errorgetlast
-  - function.error-reporting.md: errorreporting »
+  - function.error-get-last.md: « error\_get\_last
+  - function.error-reporting.md: error\_reporting »
   - index.md: PHP Manual
-  - ref.errorfunc.md: Функции обработки ошибок
-title: errorlog
+  - ref.errorfunc.md: Функції обробки помилок
+title: error\_log
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# errorlog
+# error\_log
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-errorlog — Надсилає повідомлення про помилку заданому обробнику помилок
+error\_log — Надсилає повідомлення про помилку заданому обробнику помилок
 
 ### Опис
 
 ```methodsynopsis
-error_log(    string $message,    int $message_type = 0,    ?string $destination = null,    ?string $additional_headers = null): bool
+error_log(    string $message,    int $message_type = 0,    ?string $destination = null,    ?string $additional_headers = null): bool
 ```
 
 Надсилає повідомлення про помилку в лог веб-сервера або в файл користувача.
@@ -34,25 +35,25 @@ error_log(    string $message,    int $message_type = 0,    ?string $destination
 
 `destination`
 
-Призначення. Встановлюється залежно від параметра `message_type`
+Назначение. Устанавливается в зависимости от параметра`message_type`
 
 `additional_headers`
 
-Додаткові заголовки. Використовується, коли значення параметра `message_type` `1`. Цей тип повідомлення використовує ту саму внутрішню функцію, що й [mail()](function.mail.md)
+Додаткові заголовки. Використовується, коли значення параметра `message_type` . Цей тип повідомлення використовує ту саму внутрішню функцію, що й [mail()](function.mail.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо `message_type` дорівнює нулю, функція завжди повертає \*\*`true`\*\*незалежно від того, чи може помилка логуватися чи ні.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки. Если`message_type` дорівнює нулю, функція завжди повертає \*\*`true`\*\*незалежно від того, чи може помилка логуватися чи ні.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `destination` і `additional_headers` тепер допускають значення null. |
+| 8.0.0 | Параметр`destination`и`additional_headers` тепер допускають значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклади використання **errorlog()****
+**Приклад #1 Приклади використання **error\_log()****
 
 ```php
 <?php
@@ -77,8 +78,8 @@ error_log("Вы ошиблись!", 3, "/var/tmp/my-errors.log");
 
 **Увага**
 
-**errorlog()** не є бінарно-безпечною функцією . `message` обрізається за null-символом.
+**error\_log()** не є бінарно-безпечною функцією . `message` обрізається за null-символом.
 
 **Підказка**
 
-`message` ні містити null-символ. Врахуйте, що `message` може передаватися у файл, поштою, syslog і т.д. Використовуйте відповідну перетворювальну або екрануючу функцію, [base64encode()](function.base64-encode.md) [rawurlencode()](function.rawurlencode.md) або [addslashes()](function.addslashes.md) перед викликом **errorlog()**
+`message` ні містити null-символ. Врахуйте, що `message` може передаватися у файл, поштою, syslog і т.д. Використовуйте відповідну перетворювальну або екрануючу функцію, [base64\_encode()](function.base64-encode.md) [rawurlencode()](function.rawurlencode.md) або [addslashes()](function.addslashes.md) перед викликом **error\_log()**

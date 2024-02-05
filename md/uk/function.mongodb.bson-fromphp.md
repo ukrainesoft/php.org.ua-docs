@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mongodb.bson-fromjson.md: « MongoDBBSONfromJSON
-  - function.mongodb.bson-tocanonicalextendedjson.md: MongoDBBSONtoCanonicalExtendedJSON »
+  - function.mongodb.bson-fromjson.md: « MongoDB\\BSON\\fromJSON
+  - function.mongodb.bson-tocanonicalextendedjson.md: MongoDB\\BSON\\toCanonicalExtendedJSON »
   - index.md: PHP Manual
   - ref.bson.functions.md: Функції
-title: MongoDBBSONвідPHP
+title: MongoDB\\BSON\\fromPHP
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONвідPHP
+# MongoDB\\BSON\\fromPHP
 
 (mongodb >=1.0.0)
 
-MongoDBBSONfromPHP — Повертає представлення BSON значення PHP
+MongoDB\\BSON\\fromPHP — Повертає представлення BSON значення PHP
 
 ### Опис
 
@@ -18,11 +19,11 @@ MongoDBBSONfromPHP — Повертає представлення BSON знач
 MongoDB\BSON\fromPHP(array|object $value): string
 ```
 
-Серіалізує масив або об'єкт PHP (наприклад, документ) для його подання [» BSON](https://www.mongodb.com/docs/manual/reference/bson-types/). Повернутий двійковий рядок буде описувати документ BSON.
+Серіалізує масив або об'єкт PHP (наприклад, документ) для його подання [» BSON](https://www.mongodb.com/docs/manual/reference/bson-types/). Повернутий двійковий рядок буде описувати документ BSON.
 
 ### Список параметрів
 
-`value` (array | об'єкт)
+`value`(array|object)
 
 Значення PHP для серіалізації.
 
@@ -32,11 +33,11 @@ MongoDB\BSON\fromPHP(array|object $value): string
 
 ### Помилки
 
--   Видає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md), якщо значення PHP не може бути перетворено на BSON. Можливі причини включають, але не обмежуються, зіткненням з несподіваним екземпляром [MongoDBBSONType](class.mongodb-bson-type.md) або [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md), не може повернути array або **stdClass**
+-   Видає[MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md), якщо значення PHP не може бути перетворено на BSON. Можливі причини включають, але не обмежуються, зіткненням з несподіваним екземпляром[MongoDB\\BSON\\Type](class.mongodb-bson-type.md) або [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md), не може повернути array або[stdClass](class.stdclass.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONfromPHP()****
+**Пример #1 Пример использования**MongoDB\\BSON\\fromPHP()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo bin2hex($bson), "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 0e00000010666f6f000100000000cat
@@ -55,6 +56,7 @@ echo bin2hex($bson), "\n";
 
 ### Дивіться також
 
--   [MongoDBBSONtoPHP()](function.mongodb.bson-tophp.md) - Повертає PHP подання значення BSON
--   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [MongoDB\\BSON\\Document::fromPHP()](mongodb-bson-document.fromphp.md) \- Створює новий екземпляр документа з даних PHP
+-   [MongoDB\\BSON\\toPHP()](function.mongodb.bson-tophp.md) \- Повертає PHP подання значення BSON
+-   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
 -   [Постійні дані](mongodb.persistence.md)

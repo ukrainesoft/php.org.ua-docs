@@ -3,12 +3,13 @@ navigation:
   - function.gzdeflate.md: « gzdeflate
   - function.gzeof.md: gzeof »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzencode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzencode
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gzencode — Створити стислий рядок gzip
 
@@ -20,7 +21,7 @@ gzencode(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_GZIP): str
 
 Ця функція повертає стислу версію вхідних даних `data`, аналогічно висновку програми **gzip**
 
-Подробиці про формат GZIP дивіться [» Формат файлу GZIP. Специфікація версії 4.3](http://www.faqs.org/rfcs/rfc1952) (RFC 1952).
+Подробности о формате GZIP смотрите[» Формат файлу GZIP. Специфікація версії 4.3](http://www.faqs.org/rfcs/rfc1952)(RFC 1952).
 
 ### Список параметрів
 
@@ -34,13 +35,13 @@ gzencode(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_GZIP): str
 
 `encoding`
 
-Режим стиснення, можливо **`FORCE_GZIP`** (за замовчуванням) або **`FORCE_DEFLATE`**
+Режим стиснення, можливо **`FORCE_GZIP`**(по умолчанию) или\*\*`FORCE_DEFLATE`\*\*
 
 Використання константи **`FORCE_DEFLATE`** генерує висновок, сумісний з RFC 1950, що складається із заголовка zlib, стислих даних та контрольної суми Adler.
 
 ### Значення, що повертаються
 
-Стиснутий рядок або **`false`** у разі виникнення помилки.
+Сжатая строка или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -58,9 +59,9 @@ file_put_contents("bigfile.txt.gz", $gzdata);
 
 ### Дивіться також
 
--   [gzdecode()](function.gzdecode.md) - Декодує рядок, стислий за допомогою gzip
--   [gzdeflate()](function.gzdeflate.md) - Стискає рядок
--   [gzinflate()](function.gzinflate.md) - Розпакувати стислий рядок
--   [gzuncompress()](function.gzuncompress.md) - Розпакувати стислий рядок
--   [gzcompress()](function.gzcompress.md) - Стиснути рядок
--   [»  Спецификация ZLIB Compressed Data (RFC 1950)](http://www.faqs.org/rfcs/rfc1950)
+-   [gzdecode()](function.gzdecode.md) \- Декодує рядок, стислий за допомогою gzip
+-   [gzdeflate()](function.gzdeflate.md) \- Стискає рядок
+-   [gzinflate()](function.gzinflate.md) \- Розпакувати стислий рядок
+-   [gzuncompress()](function.gzuncompress.md) \- Розпакувати стислий рядок
+-   [gzcompress()](function.gzcompress.md) \- Стиснути рядок
+-   [»  Специфікація ZLIB Compressed Data (RFC 1950)](http://www.faqs.org/rfcs/rfc1950)

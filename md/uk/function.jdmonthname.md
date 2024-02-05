@@ -3,8 +3,9 @@ navigation:
   - function.jddayofweek.md: « jddayofweek
   - function.jdtofrench.md: jdtofrench »
   - index.md: PHP Manual
-  - ref.calendar.md: Календарь
+  - ref.calendar.md: Календар
 title: jdmonthname
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # jdmonthname
 
@@ -28,7 +29,7 @@ jdmonthname(int $julian_day, int $mode): string
 | **`CAL_MONTH_GREGORIAN_LONG`** | Григоріанське | January, February, March, April, May, June, July, August, September, October, November, December |
 | **`CAL_MONTH_JULIAN_SHORT`** | Юліанське - скорочене | Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec |
 | **`CAL_MONTH_JULIAN_LONG`** | Юліанське | January, February, March, April, May, June, July, August, September, October, November, December |
-| **`CAL_MONTH_JEWISH`** | Єврейське | Тишрі, Хешван, Кіслев, Тевет, Шеват, АдарІ, АдарІІ, Нісан, Іяр, Сиван, Таммуз, Av, Elul |
+| **`CAL_MONTH_JEWISH`** | Єврейське | Tishri, Heshvan, Kislev, Tevet, Shevat, Adar, Adar I, Adar II, Nisan, Iyyar, Sivan, Tammuz, Av, Elul |
 | **`CAL_MONTH_FRENCH`** | Французьке республіканське | Vendemiaire, Brumaire, Frimaire, Nivose, Pluviose, Ventose, Germinal, Floreal, Prairial, Messidor, Thermidor, Fructidor, Extra |
 
 ### Список параметрів

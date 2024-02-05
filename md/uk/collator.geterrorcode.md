@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.collator.md: Collator
 title: 'Collator::getErrorCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collator::getErrorCode
 
-# collatorgeterrorcode
+# collator\_get\_error\_code
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Collator::getErrorCode -- collatorgeterrorcode — Отримує останній код помилки Collator
+Collator::getErrorCode -- collator\_get\_error\_code — Отримує останній код помилки Collator
 
 ### Опис
 
@@ -36,11 +37,11 @@ collator_get_error_code(Collator $object): int|false
 
 ### Значення, що повертаються
 
-Код помилки, повернутий останнім викликом функції API Collator або **`false`** у разі виникнення помилки.
+Код помилки, повернутий останнім викликом функції API Collator або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **collatorgeterrorcode()****
+**Пример #1 Пример использования**collator\_get\_error\_code()\*\*\*\*
 
 ```php
 <?php
@@ -52,4 +53,4 @@ if( collator_get_attribute( $coll, Collator::FRENCH_COLLATION ) === false )
 
 ### Дивіться також
 
--   [collatorgeterrormessage()](collator.geterrormessage.md) - Отримує текст для останньої помилки коду Collator
+-   [collator\_get\_error\_message()](collator.geterrormessage.md) \- Отримує текст для останньої помилки коду Collator

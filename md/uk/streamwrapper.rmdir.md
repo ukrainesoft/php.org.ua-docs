@@ -1,10 +1,11 @@
 ---
 navigation:
   - streamwrapper.rename.md: '« streamWrapper::rename'
-  - streamwrapper.stream-cast.md: 'streamWrapper::streamcast »'
+  - streamwrapper.stream-cast.md: 'streamWrapper::stream\_cast »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::rmdir'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # streamWrapper::rmdir
 
@@ -20,7 +21,7 @@ public streamWrapper::rmdir(string $path, int $options): bool
 
 Цей метод викликається у процесі виконання [rmdir()](function.rmdir.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Щоб повідомлення про помилки відповідали реальним помилкам, цей метод *не потрібно* визначати у випадках, коли обгортка не підтримує видалення директорій.
 
@@ -36,7 +37,7 @@ URL директорії, що видаляється.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -44,12 +45,12 @@ URL директорії, що видаляється.
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Властивість streamWrapper::$context буде оновлено, якщо коректний контекст був переданий у функцію, що викликається.
 
 ### Дивіться також
 
--   [rmdir()](function.rmdir.md) - видаляє директорію
--   [streamwrapper::mkdir()](streamwrapper.mkdir.md) - створення директорії
--   [streamwrapper::unlink()](streamwrapper.unlink.md) - Видалення файлу
+-   [rmdir()](function.rmdir.md) \- видаляє директорію
+-   [streamwrapper::mkdir()](streamwrapper.mkdir.md) \- створення директорії
+-   [streamwrapper::unlink()](streamwrapper.unlink.md) \- Видалення файлу

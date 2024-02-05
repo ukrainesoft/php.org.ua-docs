@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-publickey-remove.md: « ssh2publickeyremove
-  - function.ssh2-scp-send.md: ssh2scpsend »
+  - function.ssh2-publickey-remove.md: « ssh2\_publickey\_remove
+  - function.ssh2-scp-send.md: ssh2\_scp\_send »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2scprecv
+title: ssh2\_scp\_recv
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2scprecv
+# ssh2\_scp\_recv
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2scprecv — Запит файлу через SCP
+ssh2\_scp\_recv — Запит файлу через SCP
 
 ### Опис
 
@@ -24,7 +25,7 @@ ssh2_scp_recv(resource $session, string $remote_file, string $local_file): bool
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.md)
 
 `remote_file`
 
@@ -36,7 +37,7 @@ ssh2_scp_recv(resource $session, string $remote_file, string $local_file): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -53,5 +54,5 @@ ssh2_scp_recv($connection, '/remote/filename', '/local/filename');
 
 ### Дивіться також
 
--   [ssh2scpsend()](function.ssh2-scp-send.md) - Надсилання файлу через SCP
--   [copy()](function.copy.md) - Копіює файл
+-   [ssh2\_scp\_send()](function.ssh2-scp-send.md) \- Надсилання файлу через SCP
+-   [copy()](function.copy.md) \- Копіює файл

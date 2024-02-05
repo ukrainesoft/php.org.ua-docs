@@ -5,20 +5,21 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagerotate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagerotate
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 imagerotate — Повертання зображення із заданим кутом.
 
 ### Опис
 
 ```methodsynopsis
-imagerotate(    GdImage $image,    float $angle,    int $background_color,    bool $ignore_transparent = false): GdImage|false
+imagerotate(GdImage $image, float $angle, int $background_color): GdImage|false
 ```
 
-Поворот зображення `image` на заданий кут `angle` у градусах.
+Поворот изображения`image` на заданий кут `angle` у градусах.
 
 Центром повороту є центр зображення. Повертається зображення може відрізнятися розміром від оригіналу.
 
@@ -36,21 +37,18 @@ imagerotate(    GdImage $image,    float $angle,    int $background_color,    bo
 
 Колір фон вільної зони після повороту.
 
-`ignore_transparent`
-
-Параметр не використовується.
-
 ### Значення, що повертаються
 
-Повертає об'єкт поверненого зображення у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає об'єкт поверненого зображення у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
-|  | Невикористовуваний `v` тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int). |
+| 8.3.0 | Параметр, що не використовується`ignore_transparent` був повністю вилучений. |
+| 8.0.0 | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
+| 8.0.0 | Невикористовуваний `v` тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int). |
 
 ### Приклади
 
@@ -82,16 +80,16 @@ imagedestroy($rotate);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Приклад виведе зображення, повернене на 180 градусів.](images/21009b70229598c6a80eef8b45bf282b-imagerotate.jpg)
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція піддається впливу методу інтерполяції, встановленим функцією [imagesetinterpolation()](function.imagesetinterpolation.md)
 
 ### Дивіться також
 
--   [imagesetinterpolation()](function.imagesetinterpolation.md) - встановлює метод інтерполяції
+-   [imagesetinterpolation()](function.imagesetinterpolation.md) \- встановлює метод інтерполяції

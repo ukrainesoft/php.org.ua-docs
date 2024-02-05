@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-plugin-abstract.dispatchloopshutdown.md: '« YafPluginAbstract::dispatchLoopShutdown'
-  - yaf-plugin-abstract.postdispatch.md: 'YafPluginAbstract::postDispatch »'
+  - yaf-plugin-abstract.dispatchloopshutdown.md: '« Yaf\_Plugin\_Abstract::dispatchLoopShutdown'
+  - yaf-plugin-abstract.postdispatch.md: 'Yaf\_Plugin\_Abstract::postDispatch »'
   - index.md: PHP Manual
-  - class.yaf-plugin-abstract.md: YafPluginAbstract
-title: 'YafPluginAbstract::dispatchLoopStartup'
+  - class.yaf-plugin-abstract.md: Yaf\_Plugin\_Abstract
+title: 'Yaf\_Plugin\_Abstract::dispatchLoopStartup'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafPluginAbstract::dispatchLoopStartup
+# Yaf\_Plugin\_Abstract::dispatchLoopStartup
 
 (Yaf >=1.0.0)
 
-YafPluginAbstract::dispatchLoopStartup — Гук перед відправкою циклу
+Yaf\_Plugin\_Abstract::dispatchLoopStartup — Гук перед відправкою циклу
 
 ### Опис
 

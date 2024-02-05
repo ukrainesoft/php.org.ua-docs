@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::implementsInterface'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::implementsInterface
 
@@ -28,7 +29,7 @@ public ReflectionClass::implementsInterface(ReflectionClass|string $interface): 
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -36,7 +37,7 @@ public ReflectionClass::implementsInterface(ReflectionClass|string $interface): 
 
 ### Дивіться також
 
--   [ReflectionClass::isInterface()](reflectionclass.isinterface.md) - Перевіряє, чи є клас інтерфейсом
--   [ReflectionClass::isSubclassOf()](reflectionclass.issubclassof.md) - Перевіряє, чи є клас підкласом
--   [interfaceexists()](function.interface-exists.md) - Перевіряє, чи визначено інтерфейс
+-   [ReflectionClass::isInterface()](reflectionclass.isinterface.md) \- Перевіряє, чи є клас інтерфейсом
+-   [ReflectionClass::isSubclassOf()](reflectionclass.issubclassof.md) \- Перевіряє, чи є клас підкласом
+-   [interface\_exists()](function.interface-exists.md) \- Перевіряє, чи визначено інтерфейс
 -   [Інтерфейси об'єктів](language.oop5.interfaces.md)

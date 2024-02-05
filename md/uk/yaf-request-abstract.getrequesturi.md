@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.getparams.md: '« YafRequestAbstract::getParams'
-  - yaf-request-abstract.getserver.md: 'YafRequestAbstract::getServer »'
+  - yaf-request-abstract.getparams.md: '« Yaf\_Request\_Abstract::getParams'
+  - yaf-request-abstract.getserver.md: 'Yaf\_Request\_Abstract::getServer »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::getRequestUri'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::getRequestUri'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::getRequestUri
+# Yaf\_Request\_Abstract::getRequestUri
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::getRequestUri — Призначення getRequestUri
+Yaf\_Request\_Abstract::getRequestUri — Призначення getRequestUri
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Request_Abstract::getRequestUri(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

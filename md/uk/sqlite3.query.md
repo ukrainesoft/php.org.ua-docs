@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3.md: SQLite3
 title: 'SQLite3::query'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3::query
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::query — Виконує SQL-запит
 
@@ -28,11 +29,11 @@ SQL-запит для виконання.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SQLite3Result](class.sqlite3result.md) або **`false`** у разі виникнення помилки.
+Повертає об'єкт [SQLite3Result](class.sqlite3result.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SQLite3::query()****
+**Пример #1 Пример использования**SQLite3::query()\*\*\*\*
 
 ```php
 <?php

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-session.construct.md: '« Session::construct'
+  - mysql-xdevapi-session.construct.md: '« Session::\_\_construct'
   - mysql-xdevapi-session.dropschema.md: 'Session::dropSchema »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::createSchema'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::createSchema
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\Session::createSchema(string $schema_name): mysql_xdevapi\S
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::createSchema()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::createSchema()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Инфо: Я создал схему с именем 'fruit'

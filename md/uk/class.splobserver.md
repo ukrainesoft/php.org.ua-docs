@@ -5,25 +5,22 @@ navigation:
   - index.md: PHP Manual
   - spl.misc.md: Різні класи та інтерфейси
 title: Інтерфейс SplObserver
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс SplObserver
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Інтерфейс **SplObserver** використовується спільно з [SplSubject](class.splsubject.md) для реалізації шаблону проектування Спостерігач (Observer).
+Інтерфейс **SplObserver** використовується спільно з [SplSubject](class.splsubject.md)для реализации шаблона проектирования Наблюдатель (Observer).
 
 ## Огляд інтерфейсів
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      interface SplObserver {
+     interface SplObserver {
 
     /* Методы */
     
@@ -34,4 +31,4 @@ title: Інтерфейс SplObserver
 
 ## Зміст
 
--   [SplObserver::update](splobserver.update.md) - Отримати оновлення від суб'єкта
+-   [SplObserver::update](splobserver.update.md) \- Отримати оновлення від суб'єкта

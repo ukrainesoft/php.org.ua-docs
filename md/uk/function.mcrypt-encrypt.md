@@ -1,25 +1,26 @@
 ---
 navigation:
-  - function.mcrypt-enc-self-test.md: « mcryptencselftest
-  - function.mcrypt-generic-deinit.md: mcryptgenericdeinit »
+  - function.mcrypt-enc-self-test.md: « mcrypt\_enc\_self\_test
+  - function.mcrypt-generic-deinit.md: mcrypt\_generic\_deinit »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
-title: mcryptencrypt
+title: mcrypt\_encrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mcryptencrypt
+# mcrypt\_encrypt
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcryptencrypt — Шифрує текст із заданими параметрами
+mcrypt\_encrypt — Шифрує текст із заданими параметрами
 
 **Увага**
 
-Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
 ```methodsynopsis
-mcrypt_encrypt(    string $cipher,    string $key,    string $data,    string $mode,    string $iv = ?): string|false
+mcrypt_encrypt(    string $cipher,    string $key,    string $data,    string $mode,    string $iv = ?): string|false
 ```
 
 Шифрує дані.
@@ -28,7 +29,7 @@ mcrypt_encrypt(    string $cipher,    string $key,    string $data,    string $m
 
 `cipher`
 
-Одна з констант **`MCRYPT_ciphername`** або назва алгоритму у вигляді рядка.
+Одна из констант\*\*`MCRYPT_ciphername`\*\*или название алгоритма в виде строки.
 
 `key`
 
@@ -36,25 +37,25 @@ mcrypt_encrypt(    string $cipher,    string $key,    string $data,    string $m
 
 `data`
 
-Дані, які будуть зашифровані за допомогою шифру `cipher` та режиму `mode`. Якщо розмір даних не кратний розміру блоку, вони будуть доповнені символами '`\0`
+Дані, які будуть зашифровані за допомогою шифру `cipher`и режима`mode`. . Якщо розмір даних не кратний розміру блоку, вони будуть доповнені символами '`\0`'.
 
 Розмір тексту, що повертається, може бути більше розміру вихідних даних `data`
 
 `mode`
 
-Одна з констант **`MCRYPT_MODE_modename`**, або один з наступних рядків: "ecb", "cbc", "cfb", "ofb", "nofb" та "stream".
+Одна из констант\*\*`MCRYPT_MODE_modename`\*\*, або один з наступних рядків: "ecb", "cbc", "cfb", "ofb", "nofb" та "stream".
 
 `iv`
 
-Використовується для ініціалізації в режимах CBC, CFB, OFB, а також деяких алгоритмах в режимі STREAM. Якщо переданий IV розмір не підтримується режимом зчеплення або IV не був переданий, а режим зчеплення його вимагає, функція згенерує попередження про помилку та поверне **`false`**
+Вказують для ініціалізації в режимах CBC, CFB, OFB, а також деяких алгоритмах в режимі STREAM. Якщо переданий IV розмір не підтримується режимом зчеплення або IV не був переданий, а режим зчеплення його вимагає, функція згенерує попередження про помилку та поверне **`false`**
 
 ### Значення, що повертаються
 
-Повертає рядок із зашифрованими даними або **`false`** у разі виникнення помилки.
+Повертає рядок із зашифрованими даними або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mcryptencrypt()****
+**Пример #1 Пример использования**mcrypt\_encrypt()\*\*\*\*
 
 ```php
 <?php
@@ -114,7 +115,7 @@ mcrypt_encrypt(    string $cipher,    string $key,    string $data,    string $m
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Длина ключа: 32
@@ -124,5 +125,5 @@ This string was AES-256 / CBC / ZeroBytePadding encrypted.
 
 ### Дивіться також
 
--   [mcryptdecrypt()](function.mcrypt-decrypt.md) - Розшифровує дані із заданими параметрами
--   [mcryptmoduleopen()](function.mcrypt-module-open.md) - Відкриває модуль шифрування з використанням вказаних алгоритму та режиму
+-   [mcrypt\_decrypt()](function.mcrypt-decrypt.md) \- Розшифровує дані із заданими параметрами
+-   [mcrypt\_module\_open()](function.mcrypt-module-open.md) \- Відкриває модуль шифрування з використанням вказаних алгоритму та режиму

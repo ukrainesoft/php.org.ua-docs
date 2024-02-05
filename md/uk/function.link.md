@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: link
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # link
 
@@ -18,7 +19,7 @@ link — Створює жорстке посилання
 link(string $target, string $link): bool
 ```
 
-**link()** створює жорстке заслання.
+**link()** створити жорстке посилання.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ link(string $target, string $link): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -59,7 +60,7 @@ link($target, $link);
 
 ### Дивіться також
 
--   [symlink()](function.symlink.md) - Створює символічне посилання
--   [readlink()](function.readlink.md) - Повертає файл, на який вказує символічне посилання
--   [linkinfo()](function.linkinfo.md) - Повертає інформацію про посилання
--   [unlink()](function.unlink.md) - Видаляє файл
+-   [symlink()](function.symlink.md) \- Створює символічне посилання
+-   [readlink()](function.readlink.md) \- Повертає файл, на який вказує символічне посилання
+-   [linkinfo()](function.linkinfo.md) \- Повертає інформацію про посилання
+-   [unlink()](function.unlink.md) \- Видаляє файл

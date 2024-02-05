@@ -1,21 +1,22 @@
 ---
 navigation:
   - book.mhash.md: « Mhash
-  - mhash.setup.md: Встановлення та налаштування »
+  - mhash.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.mhash.md: Mhash
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 
-Ці функції призначені для роботи з [» mhash](http://mhash.sourceforge.net/). Mhash може використовуватися для підрахунку контрольних сум, хеш-сум, кодів ідентифікації повідомлень тощо.
+Ці функції призначені для роботи з [» mhash](http://mhash.sourceforge.net/). Mhash може використовуватися для підрахунку контрольних сум, хеш-сум, кодів ідентифікації повідомлень тощо.
 
 Це інтерфейс для бібліотеки mhash. Mhash підтримує велику кількість алгоритмів шифрування, таких як MD5, SHA1, GOST та багато інших. Для повного списку підтримуваних алгоритмів шифрування перейдіть на сторінку з [константами](mhash.constants.md). Для отримання доступу до певного алгоритму PHP потрібно використовувати **`MHASH_hashname`**. Наприклад, щоб отримати доступ до TIGER необхідно використовувати константу **`MHASH_TIGER`**
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Даний модуль застарів, як заміну використовуйте [Hash](book.hash.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Починаючи з PHP 7.0.0, модуль Mhash повністю інтегрований у модуль [Hash](book.hash.md). Таким чином, тепер не можна визначити доступність підтримки Mhash за допомогою функції [extensionloaded()](function.extension-loaded.md); замість неї використовуйте [functionexists()](function.function-exists.md). Крім того, Mhash більше не виводитиметься за допомогою [getloadedextensions()](function.get-loaded-extensions.md) та подібних функцій.
+> Починаючи з PHP 7.0.0, модуль Mhash повністю інтегрований у модуль [Hash](book.hash.md)Таким образом, теперь нельзя определить доступность поддержки Mhash с помощью функции[extension\_loaded()](function.extension-loaded.md); замість неї використовуйте [function\_exists()](function.function-exists.md). Крім того, Mhash більше не виводитиметься за допомогою [get\_loaded\_extensions()](function.get-loaded-extensions.md) та подібних функцій.

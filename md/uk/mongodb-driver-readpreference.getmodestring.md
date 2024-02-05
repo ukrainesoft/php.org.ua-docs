@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.getmode.md: '« MongoDBDriverReadPreference::getMode'
-  - mongodb-driver-readpreference.gettagsets.md: 'MongoDBDriverReadPreference::getTagSets »'
+  - mongodb-driver-readpreference.getmode.md: '« MongoDB\\Driver\\ReadPreference::getMode'
+  - mongodb-driver-readpreference.gettagsets.md: 'MongoDB\\Driver\\ReadPreference::getTagSets »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
-title: 'MongoDBDriverReadPreference::getModeString'
+  - class.mongodb-driver-readpreference.md: MongoDB\\Driver\\ReadPreference
+title: 'MongoDB\\Driver\\ReadPreference::getModeString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverReadPreference::getModeString
+# MongoDB\\Driver\\ReadPreference::getModeString
 
 (mongodb >=1.7.0)
 
-MongoDBDriverReadPreference::getModeString — Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
+MongoDB\\Driver\\ReadPreference::getModeString — Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\Driver\ReadPreference::getModeString(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 **Приклад використання MongoDBDriverReadPreference::getModeString()****
+**Пример #1**Приклад використання MongoDB\\Driver\\ReadPreference::getModeString()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ var_dump($rp->getModeString());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(7) "primary"
@@ -67,5 +68,5 @@ string(7) "nearest"
 
 ### Дивіться також
 
--   [MongoDBDriverReadPreference::getMode()](mongodb-driver-readpreference.getmode.md) - Повертає параметр "mode" ReadPreference
--   [» Документация по Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [MongoDB\\Driver\\ReadPreference::getMode()](mongodb-driver-readpreference.getmode.md) - Повертає параметр "mode" ReadPreference
+-   [» Документація з Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)

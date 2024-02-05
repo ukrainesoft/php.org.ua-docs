@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.exception.md: Exception
 title: 'Exception::getFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Exception::getFile
 
@@ -30,7 +31,7 @@ final public Exception::getFile(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Exception::getFile()****
+**Пример #1 Пример использования**Exception::getFile()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 /home/bjori/tmp/ex.php
@@ -50,4 +51,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getFile()](throwable.getfile.md) - Повертає файл, у якому викинуто виняток
+-   [Throwable::getFile()](throwable.getfile.md) \- Повертає файл, у якому викинуто виняток

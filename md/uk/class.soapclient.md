@@ -1,30 +1,26 @@
 ---
 navigation:
-  - function.use-soap-error-handler.md: « usesoaperrorhandler
-  - soapclient.call.md: 'SoapClient::call »'
+  - function.use-soap-error-handler.md: « use\_soap\_error\_handler
+  - soapclient.call.md: 'SoapClient::\_\_call »'
   - index.md: PHP Manual
   - book.soap.md: SOAP
-title: 'Клас SoapClient'
+title: 'Класс[SoapClient](class.soapclient.md)'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас [SoapClient](class.soapclient.md)
+# Класс[SoapClient](class.soapclient.md)
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас SoapClient є клієнтом для серверів [» SOAP 1.1](http://www.w3.org/TR/soap11/) [» SOAP 1.2](http://www.w3.org/TR/soap12/). Він може використовуватися в режимі WSDL або без нього.
+Класс SoapClient представляет собой клиента для серверов[» SOAP 1.1](http://www.w3.org/TR/soap11/) [» SOAP 1.2](http://www.w3.org/TR/soap12/). Він може використовуватися в режимі WSDL або без нього.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      class SoapClient
-     
+     class SoapClient
      {
 
     /* Свойства */
@@ -179,7 +175,7 @@ title: 'Клас SoapClient'
    public __construct(?string $wsdl, array $options = [])
 
     public __call(string $name, array $args): mixed
-public __doRequest(    string $request,    string $location,    string $action,    int $version,    bool $oneWay = false): ?string
+public __doRequest(    string $request,    string $location,    string $action,    int $version,    bool $oneWay = false): ?string
 public __getCookies(): array
 public __getFunctions(): ?array
 public __getLastRequest(): ?string
@@ -190,64 +186,64 @@ public __getTypes(): ?array
 public __setCookie(string $name, ?string $value = null): void
 public __setLocation(?string $location = null): ?string
 public __setSoapHeaders(SoapHeader|array|null $headers = null): bool
-public __soapCall(    string $name,    array $args,    ?array $options = null,    SoapHeader|array|null $inputHeaders = null,    array &$outputHeaders = null): mixed
+public __soapCall(    string $name,    array $args,    ?array $options = null,    SoapHeader|array|null $inputHeaders = null,    array &$outputHeaders = null): mixed
 
    }
 ```
 
 ## Властивості
 
-defaultheaders
+\_\_default\_headers
 
-lastrequest
+\_\_last\_request
 
-lastrequestheaders
+\_\_last\_request\_headers
 
-lastresponse
+\_\_last\_response
 
-lastresponseheaders
+\_\_last\_response\_headers
 
-soapfault
+\_\_soap\_fault
 
-classmap
+\_classmap
 
-connectiontimeout
+\_connection\_timeout
 
-cookies
+\_cookies
 
-digest
+\_digest
 
-encoding
+\_encoding
 
-exceptions
+\_exceptions
 
-features
+\_features
 
-keepalive
+\_keep\_alive
 
-login
+\_login
 
-password
+\_password
 
-proxyhost
+\_proxy\_host
 
-proxylogin
+\_proxy\_login
 
-proxypassword
+\_proxy\_password
 
-proxyport
+\_proxy\_port
 
-soapversion
+\_soap\_version
 
-sslметод
+\_ssl\_method
 
-streamcontext
+\_stream\_context
 
-usedigest
+\_use\_digest
 
-useproxy
+\_use\_proxy
 
-useragent
+\_user\_agent
 
 compression
 
@@ -271,17 +267,17 @@ use
 
 ## Зміст
 
--   [SoapClient::call](soapclient.call.md) - Викликає SOAP-функцію (застарілий метод)
--   [SoapClient::construct](soapclient.construct.md) - Конструктор класу SoapClient
--   [SoapClient::doRequest](soapclient.dorequest.md) - Виконує SOAP-запит
--   [SoapClient::getCookies](soapclient.getcookies.md) — Отримати список cookies
--   [SoapClient::getFunctions](soapclient.getfunctions.md) — Повертає список доступних SOAP-функцій
--   [SoapClient::getLastRequest](soapclient.getlastrequest.md) - Повертає останній SOAP-запит
--   [SoapClient::getLastRequestHeaders](soapclient.getlastrequestheaders.md) — Повертає SOAP-заголовки останнього запиту
--   [SoapClient::getLastResponse](soapclient.getlastresponse.md) — Повертає останню SOAP-відповідь
--   [SoapClient::getLastResponseHeaders](soapclient.getlastresponseheaders.md) — Повертає SOAP-заголовки останньої відповіді
--   [SoapClient::getTypes](soapclient.gettypes.md) — Повертає список типів SOAP
--   [SoapClient::setCookie](soapclient.setcookie.md) — Встановлює cookie для запитів SOAP
--   [SoapClient::setLocation](soapclient.setlocation.md) — Встановлює адресу веб-служби, що використовується.
--   [SoapClient::setSoapHeaders](soapclient.setsoapheaders.md) — Встановлює заголовки SOAP для наступних дзвінків
--   [SoapClient::soapCall](soapclient.soapcall.md) - Викликає SOAP-функцію
+-   [SoapClient::\_\_call](soapclient.call.md) \- Викликає SOAP-функцію (застарілий метод)
+-   [SoapClient::\_\_construct](soapclient.construct.md) \- Конструктор класу SoapClient
+-   [SoapClient::\_\_doRequest](soapclient.dorequest.md) \- Виконує SOAP-запит
+-   [SoapClient::\_\_getCookies](soapclient.getcookies.md)— Отримати список cookies
+-   [SoapClient::\_\_getFunctions](soapclient.getfunctions.md)— Повертає список доступних SOAP-функцій
+-   [SoapClient::\_\_getLastRequest](soapclient.getlastrequest.md) \- Повертає останній SOAP-запит
+-   [SoapClient::\_\_getLastRequestHeaders](soapclient.getlastrequestheaders.md)— Повертає SOAP-заголовки останнього запиту
+-   [SoapClient::\_\_getLastResponse](soapclient.getlastresponse.md)— Повертає останню SOAP-відповідь
+-   [SoapClient::\_\_getLastResponseHeaders](soapclient.getlastresponseheaders.md)— Повертає SOAP-заголовки останньої відповіді
+-   [SoapClient::\_\_getTypes](soapclient.gettypes.md)— Повертає список типів SOAP
+-   [SoapClient::\_\_setCookie](soapclient.setcookie.md)— Встановлює cookie для запитів SOAP
+-   [SoapClient::\_\_setLocation](soapclient.setlocation.md)— Встановлює адресу веб-служби, що використовується.
+-   [SoapClient::\_\_setSoapHeaders](soapclient.setsoapheaders.md)— Встановлює заголовки SOAP для наступних дзвінків
+-   [SoapClient::\_\_soapCall](soapclient.soapcall.md) \- Викликає SOAP-функцію

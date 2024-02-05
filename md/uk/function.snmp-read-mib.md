@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.snmp-get-valueretrieval.md: « snmpgetvalueretrieval
-  - function.snmp-set-enum-print.md: snmpsetenumprint »
+  - function.snmp-get-valueretrieval.md: « snmp\_get\_valueretrieval
+  - function.snmp-set-enum-print.md: snmp\_set\_enum\_print »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
-title: snmpreadmib
+title: snmp\_read\_mib
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# snmpreadmib
+# snmp\_read\_mib
 
 (PHP 5, PHP 7, PHP 8)
 
-snmpreadmib - Читає та аналізує файл MIB в активному дереві MIB
+snmp\_read\_mib - Читає та аналізує файл MIB в активному дереві MIB
 
 ### Опис
 
@@ -30,11 +31,11 @@ snmp_read_mib(string $filename): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmpreadmib()****
+**Пример #1 Пример использования**snmp\_read\_mib()\*\*\*\*
 
 ```php
 <?php

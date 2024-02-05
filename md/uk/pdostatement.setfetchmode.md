@@ -1,14 +1,15 @@
 ---
 navigation:
   - pdostatement.setattribute.md: '« PDOStatement::setAttribute'
-  - class.pdoexception.md: PDOException »
+  - class.pdorow.md: PDORow »
   - index.md: PHP Manual
   - class.pdostatement.md: PDOStatement
 title: 'PDOStatement::setFetchMode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDOStatement::setFetchMode
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8, PECL pdo >= 0.2.0)
 
 PDOStatement::setFetchMode — Встановлює режим вибірки за промовчанням для об'єкта запиту
 
@@ -34,7 +35,7 @@ public PDOStatement::setFetchMode(int $mode = PDO::FETCH_INTO, object $object): 
 
 `mode`
 
-Режим вибірки можна задавати лише однією з констант `PDO::FETCH_*`
+Режим вибірки можна задавати лише однією з констант [**`PDO::FETCH_*`**](pdo.constants.md)
 
 `colno`
 
@@ -54,13 +55,13 @@ public PDOStatement::setFetchMode(int $mode = PDO::FETCH_INTO, object $object): 
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
 **Приклад #1 Зміна режиму вибірки**
 
-У наступному прикладі показано, як метод **PDOStatement::setFetchMode()** змінює режим вибірки за промовчанням для об'єкта PDOStatement.
+В следующем примере показано, как метод**PDOStatement::setFetchMode()** змінює режим вибірки за промовчанням для об'єкта PDOStatement.
 
 ```php
 <?php
@@ -71,7 +72,7 @@ foreach ($stmt as $row) {
 }
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 apple   red     150

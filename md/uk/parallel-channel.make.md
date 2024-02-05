@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-channel.construct.md: '« parallelChannel::construct'
-  - parallel-channel.open.md: 'parallelChannel::open »'
+  - parallel-channel.construct.md: '« parallel\\Channel::\_\_construct'
+  - parallel-channel.open.md: 'parallel\\Channel::open »'
   - index.md: PHP Manual
-  - class.parallel-channel.md: parallelChannel
-title: 'parallelChannel::make'
+  - class.parallel-channel.md: parallel\\Channel
+title: 'parallel\\Channel::make'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelChannel::make
+# parallel\\Channel::make
 
-parallelChannel::make — Доступ
+(0.9.0)
+
+parallel\\Channel::make — Доступ
 
 ### Опис
 
@@ -38,4 +41,4 @@ public parallel\Channel::make(string $name, int $capacity): Channel
 
 **Увага**
 
-Викидає parallelChannelErrorExistence якщо канал вже існує.
+Викидає parallel\\Channel\\Error\\Existence якщо канал вже існує.

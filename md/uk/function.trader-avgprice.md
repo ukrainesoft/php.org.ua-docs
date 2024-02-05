@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-atr.md: « traderatr
-  - function.trader-bbands.md: traderbbands »
+  - function.trader-atr.md: « trader\_atr
+  - function.trader-bbands.md: trader\_bbands »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderavgprice
+  - ref.trader.md: Функції Trader
+title: trader\_avgprice
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderavgprice
+# trader\_avgprice
 
 (PECL trader >= 0.2.0)
 
-traderavgprice — Середня ціна
+trader\_avgprice — Середня ціна
 
 ### Опис
 
 ```methodsynopsis
-trader_avgprice(    array $open,    array $high,    array $low,    array $close): array
+trader_avgprice(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

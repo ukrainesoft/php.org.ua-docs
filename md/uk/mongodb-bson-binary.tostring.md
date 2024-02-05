@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-binary.serialize.md: '« MongoDBBSONBinary::serialize'
-  - mongodb-bson-binary.unserialize.md: 'MongoDBBSONBinary::unserialize »'
+  - mongodb-bson-binary.serialize.md: '« MongoDB\\BSON\\Binary::serialize'
+  - mongodb-bson-binary.unserialize.md: 'MongoDB\\BSON\\Binary::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-binary.md: MongoDBBSONBinary
-title: 'MongoDBBSONBinary::toString'
+  - class.mongodb-bson-binary.md: MongoDB\\BSON\\Binary
+title: 'MongoDB\\BSON\\Binary::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONBinary::toString
+# MongoDB\\BSON\\Binary::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.2.0)
 
-MongoDBBSONBinary::toString — Повертає дані Binary
+MongoDB\\BSON\\Binary::\_\_toString — Повертає дані Binary
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBBSONBinary::toString — Повертає дані Binary
 final public MongoDB\BSON\Binary::__toString(): string
 ```
 
-Цей метод є псевдонімом: [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.md)
+Метод — псевдоним метода:[MongoDB\\BSON\\Binary::getData()](mongodb-bson-binary.getdata.md)
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ final public MongoDB\BSON\Binary::__toString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONBinary::toString()****
+**Пример #1 Пример использования**MongoDB\\BSON\\Binary::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ var_dump((string) new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENER
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(3) "foo"
@@ -48,5 +49,5 @@ string(3) "foo"
 
 ### Дивіться також
 
--   [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.md) - Повертає дані Binary
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [MongoDB\\BSON\\Binary::getData()](mongodb-bson-binary.getdata.md) \- Повертає дані Binary
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

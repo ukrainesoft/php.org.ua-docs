@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intlchar.getfc-nfkc-closure.md: '« IntlChar::getFCNFKCClosure'
+  - intlchar.getfc-nfkc-closure.md: '« IntlChar::getFC\_NFKC\_Closure'
   - intlchar.getintpropertyminvalue.md: 'IntlChar::getIntPropertyMinValue »'
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::getIntPropertyMaxValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::getIntPropertyMaxValue
 
@@ -28,7 +29,7 @@ public static IntlChar::getIntPropertyMaxValue(int $property): int
 
 ### Значення, що повертаються
 
-Максимальне значення, що повертається [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) для властивості Unicode . `<=0`якщо властивість не входить у допустимий діапазон.
+Максимальне значення, що повертається [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md)для свойства Unicode`<=0`якщо властивість не входить у допустимий діапазон.
 
 ### Приклади
 
@@ -43,7 +44,7 @@ var_dump(IntlChar::getIntPropertyMaxValue(999999999)); // Some made-up value
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(22)
@@ -54,7 +55,7 @@ int(-1)
 
 ### Дивіться також
 
--   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) - Перевірити бінарну властивість Unicode для символу
--   [IntlChar::getIntPropertyMinValue()](intlchar.getintpropertyminvalue.md) - Отримати мінімальне значення для властивості Unicode
--   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) - Отримати значення властивості Unicode для символу
--   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) - Отримати версію Unicode
+-   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) \- Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::getIntPropertyMinValue()](intlchar.getintpropertyminvalue.md) \- Отримати мінімальне значення для властивості Unicode
+-   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) \- Отримати значення властивості Unicode для символу
+-   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) \- Отримати версію Unicode

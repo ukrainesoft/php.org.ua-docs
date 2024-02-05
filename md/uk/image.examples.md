@@ -1,10 +1,11 @@
 ---
 navigation:
-  - image.constants.md: « Обумовлені константи
+  - image.constants.md: « Зумовлені константи
   - image.examples-png.md: Створення PNG засобами PHP »
   - index.md: PHP Manual
-  - book.image.md: ДД
+  - book.image.md: GD
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

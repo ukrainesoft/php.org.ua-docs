@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-lexer.callout.md: '« ParleLexer::callout'
-  - parle-lexer.dump.md: 'ParleLexer::dump »'
+  - parle-lexer.callout.md: '« Parle\\Lexer::callout'
+  - parle-lexer.dump.md: 'Parle\\Lexer::dump »'
   - index.md: PHP Manual
-  - class.parle-lexer.md: ParleLexer
-title: 'ParleLexer::consume'
+  - class.parle-lexer.md: Parle\\Lexer
+title: 'Parle\\Lexer::consume'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleLexer::consume
+# Parle\\Lexer::consume
 
 (PECL parle >= 0.5.1)
 
-ParleLexer::consume — Передає дані на обробку
+Parle\\Lexer::consume — Передає дані на обробку
 
 ### Опис
 

@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-docresult.getwarnings.md: '« DocResult::getWarnings'
-  - class.mysql-xdevapi-exception.md: mysqlxdevapiException »
+  - class.mysql-xdevapi-exception.md: mysql\_xdevapi\\Exception »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-docresult.md: mysqlxdevapiDocResult
+  - class.mysql-xdevapi-docresult.md: mysql\_xdevapi\\DocResult
 title: 'DocResult::getWarningsCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DocResult::getWarningsCount
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\DocResult::getWarningsCount(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiDocResult::getWarningsCount()****
+**Пример #1 Пример использования**mysql\_xdevapi\\DocResult::getWarningsCount()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ var_dump($result->fetchOne());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(4) {

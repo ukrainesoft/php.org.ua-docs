@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-pkcs7-verify.md: « opensslpkcs7verify
-  - function.openssl-pkey-export-to-file.md: opensslpkeyexportтоfile »
+  - function.openssl-pkcs7-verify.md: « openssl\_pkcs7\_verify
+  - function.openssl-pkey-export-to-file.md: openssl\_pkey\_export\_to\_file »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslpkeyderive
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_pkey\_derive
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslpkeyderive
+# openssl\_pkey\_derive
 
-(PHP 7> = 7.3.0, PHP 8)
+(PHP 7 >= 7.3.0, PHP 8)
 
-opensslpkeyderive — Обчислює загальний секрет відкритого значення віддаленого та локального ключа DH або ECDH
+openssl\_pkey\_derive — Обчислює загальний секрет відкритого значення віддаленого та локального ключа DH або ECDH
 
 ### Опис
 
@@ -18,7 +19,7 @@ opensslpkeyderive — Обчислює загальний секрет відк�
 openssl_pkey_derive(OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key, OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key, int $key_length = 0): string|false
 ```
 
-**opensslpkeyderive()** приймає набір з `public_key` і `private_key` і породжує загальний секрет ключів DH або EC.
+\*\*openssl\_pkey\_derive()\*\*принимает набор из`public_key`и`private_key` і породжує загальний секрет ключів DH або EC.
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ openssl_pkey_derive(OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public
 
 ### Значення, що повертаються
 
-Зроблений секрет у разі успішного виконання або **`false`** у разі виникнення помилки.
+Зроблений секрет у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslpkeyderive()****
+**Пример #1 Пример использования**openssl\_pkey\_derive()\*\*\*\*
 
 ```php
 <?php

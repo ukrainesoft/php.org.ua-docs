@@ -1,12 +1,13 @@
 ---
 navigation:
-  - swoole-event.write.md: '« SwooleEvent::write'
-  - class.swoole-http-client.md: SwooleHttpClient »
+  - swoole-event.write.md: '« Swoole\\Event::write'
+  - class.swoole-http-client.md: Swoole\\Http\\Client »
   - index.md: PHP Manual
   - book.swoole.md: Swoole
-title: Клас SwooleException
+title: Клас Swoole\\Exception
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас SwooleException
+# Клас Swoole\\Exception
 
 (PECL swoole >= 1.9.0)
 
@@ -14,7 +15,7 @@ title: Клас SwooleException
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 
@@ -33,27 +34,27 @@ title: Клас SwooleException
 
     /* Наследуемые свойства */
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
    }

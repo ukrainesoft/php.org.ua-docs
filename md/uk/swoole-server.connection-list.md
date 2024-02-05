@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.connection-info.md: '« SwooleServer::connectioninfo'
-  - swoole-server.construct.md: 'SwooleServer::construct »'
+  - swoole-server.connection-info.md: '« Swoole\\Server::connection\_info'
+  - swoole-server.construct.md: 'Swoole\\Server::\_\_construct »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::connectionlist'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::connection\_list'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::connectionlist
+# Swoole\\Server::connection\_list
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::connectionlist — Отримує всі встановлені з'єднання
+Swoole\\Server::connection\_list — Отримує всі встановлені з'єднання
 
 ### Опис
 

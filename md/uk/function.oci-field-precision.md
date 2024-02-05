@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-field-name.md: « ocifieldname
-  - function.oci-field-scale.md: ocifieldscale »
+  - function.oci-field-name.md: « oci\_field\_name
+  - function.oci-field-scale.md: oci\_field\_scale »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocifieldprecision
+  - ref.oci8.md: OCI8 Функції
+title: oci\_field\_precision
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocifieldprecision
+# oci\_field\_precision
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocifieldprecision — Повертає точність поля
+oci\_field\_precision — Повертає точність поля
 
 ### Опис
 
@@ -34,11 +35,11 @@ oci_field_precision(resource $statement, string|int $column): int|false
 
 ### Значення, що повертаються
 
-Повертає точність у вигляді числа або **`false`** у разі виникнення помилки.
+Повертає точність у вигляді числа або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ocifieldprecision()****
+**Пример #1 Пример использования**oci\_field\_precision()\*\*\*\*
 
 ```php
 <?php
@@ -74,13 +75,7 @@ oci_close($conn);
 ?>
 ```
 
-### Примітки
-
-> **Зауваження**
-> 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnprecision()](function.ocicolumnprecision.md). У PHP 5.0.0 і вище [ocicolumnprecision()](function.ocicolumnprecision.md) є аліасом [ocifieldscale()](function.oci-field-scale.md)Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
-
 ### Дивіться також
 
--   [ocifieldscale()](function.oci-field-scale.md) - Повертає масштаб поля
--   [ocifieldtype()](function.oci-field-type.md) - Повертає ім'я типу поля
+-   [oci\_field\_scale()](function.oci-field-scale.md) \- Повертає масштаб поля
+-   [oci\_field\_type()](function.oci-field-type.md) \- Повертає ім'я типу поля

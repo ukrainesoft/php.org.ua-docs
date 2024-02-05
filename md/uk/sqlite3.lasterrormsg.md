@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3.md: SQLite3
 title: 'SQLite3::lastErrorMsg'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3::lastErrorMsg
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::lastErrorMsg — Повертає текст англійською, що описує останній невдалий запит SQLite
 

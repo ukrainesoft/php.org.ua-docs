@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::key'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::key
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::key — Отримати номер рядка
 
@@ -20,7 +21,7 @@ public SplFileObject::key(): int
 
 Отримує номер поточного рядка.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей номер може відрізнятись від реального положення файлового покажчика, коли читаються рядки фіксованої довжини із завданням цієї довжини методом [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md)
 
@@ -34,7 +35,7 @@ public SplFileObject::key(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::key()****
+**Пример #1 Пример использования**SplFileObject::key()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ foreach ($file as $line) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 0. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -53,7 +54,7 @@ foreach ($file as $line) {
 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ```
 
-**Приклад #2 Приклад використання **SplFileObject::key()** при заданні довжини рядка методом [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md)**
+**Пример #2 Пример использования**SplFileObject::key()\*\* при заданні довжини рядка методом [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md)\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ foreach ($file as $line) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 0. Lorem ipsum dolor s
@@ -84,8 +85,8 @@ foreach ($file as $line) {
 
 ### Дивіться також
 
--   [SplFileObject::current()](splfileobject.current.md) - Отримати поточний рядок файлу
--   [SplFileObject::seek()](splfileobject.seek.md) - Переклад файлового покажчика на заданий рядок
--   [SplFileObject::next()](splfileobject.next.md) - Читати наступний рядок
--   [SplFileObject::rewind()](splfileobject.rewind.md) - Перемотування файлового покажчика на початок файлу
--   [SplFileObject::valid()](splfileobject.valid.md) - Перевіряє, чи кінець файлу (EOF) досягнуто.
+-   [SplFileObject::current()](splfileobject.current.md) \- Отримати поточний рядок файлу
+-   [SplFileObject::seek()](splfileobject.seek.md) \- Переклад файлового покажчика на заданий рядок
+-   [SplFileObject::next()](splfileobject.next.md) \- Читати наступний рядок
+-   [SplFileObject::rewind()](splfileobject.rewind.md) \- Перемотування файлового покажчика на початок файлу
+-   [SplFileObject::valid()](splfileobject.valid.md) \- Перевіряє, чи кінець файлу (EOF) досягнуто.

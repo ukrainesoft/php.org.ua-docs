@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: ftell
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ftell
 
@@ -36,7 +37,7 @@ ftell(resource $stream): int|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **ftell()****
+**Пример #1 Пример использования функции**ftell()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ fclose($fp);
 
 ### Дивіться також
 
--   [fopen()](function.fopen.md) - Відкриває файл або URL
--   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
--   [fseek()](function.fseek.md) - Встановлює зміщення у файловому покажчику
--   [rewind()](function.rewind.md) - Скидає курсор файлового покажчика
+-   [fopen()](function.fopen.md) \- Відкриває файл або URL
+-   [popen()](function.popen.md) \- Відкриває файловий покажчик процесу
+-   [fseek()](function.fseek.md) \- Встановлює зміщення у файловому покажчику
+-   [rewind()](function.rewind.md) \- Скидає курсор файлового покажчика

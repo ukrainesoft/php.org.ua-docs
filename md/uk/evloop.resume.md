@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::resume'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::resume
 
@@ -19,7 +20,7 @@ public
    EvLoop::resume(): void
 ```
 
-Методи [EvLoop::suspend()](evloop.suspend.md) і **EvLoop::resume()** зупиняють та відновлюють цикл відповідно.
+Методи [EvLoop::suspend()](evloop.suspend.md)и**EvLoop::resume()** зупиняють та відновлюють цикл відповідно.
 
 ### Список параметрів
 
@@ -31,5 +32,5 @@ public
 
 ### Дивіться також
 
--   [EvLoop::suspend()](evloop.suspend.md) - Припиняє цикл
--   [Ev::resume()](ev.resume.md) - Відновити виконання призупиненого раніше циклу подій за умовчанням
+-   [EvLoop::suspend()](evloop.suspend.md) \- Припиняє цикл
+-   [Ev::resume()](ev.resume.md) \- Відновити виконання призупиненого раніше циклу подій за умовчанням

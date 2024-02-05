@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getExtension'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getExtension
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::getExtension — Повертає об'єкт класу [ReflectionExtension](class.reflectionextension.md) для модуля, що визначає клас
+ReflectionClass::getExtension — Повертає об'єкт класу [ReflectionExtension](class.reflectionextension.md)для модуля, определяющего класс
 
 ### Опис
 
@@ -26,11 +27,11 @@ public ReflectionClass::getExtension(): ?ReflectionExtension
 
 ### Значення, що повертаються
 
-Екземпляр класу [ReflectionExtension](class.reflectionextension.md), Що представляє модуль, що визначає клас, або **`null`** для класів користувача.
+Екземпляр класу [ReflectionExtension](class.reflectionextension.md), представляющий модуль, определяющий класс, или\*\*`null`\*\* для класів користувача.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getExtension()****
+**Пример #1 Пример использования**ReflectionClass::getExtension()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ var_dump($extension);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(ReflectionExtension)#2 (1) {
@@ -51,4 +52,4 @@ object(ReflectionExtension)#2 (1) {
 
 ### Дивіться також
 
--   [ReflectionClass::getExtensionName()](reflectionclass.getextensionname.md) - Повертає ім'я модуля, що визначає клас
+-   [ReflectionClass::getExtensionName()](reflectionclass.getextensionname.md) \- Повертає ім'я модуля, що визначає клас

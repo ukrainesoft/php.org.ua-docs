@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-stmt.insert-id.md: '« mysqlistmt::$insertід'
-  - mysqli-stmt.next-result.md: 'mysqlistmt::nextresult »'
+  - mysqli-stmt.insert-id.md: '« mysqli\_stmt::$insert\_id'
+  - mysqli-stmt.next-result.md: 'mysqli\_stmt::next\_result »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::moreresults'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::more\_results'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::moreresults
+# mysqli\_stmt::more\_results
 
-# mysqlistmtmoreresults
+# mysqli\_stmt\_more\_results
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-mysqlistmt::moreresults -- mysqlistmtmoreresults — Перевіряє, чи є ще набори рядків через мультизапит.
+mysqli\_stmt::more\_results -- mysqli\_stmt\_more\_results — Перевіряє, чи є ще набори рядків через мультизапит.
 
 ### Опис
 
@@ -30,7 +31,7 @@ mysqli_stmt_more_results(mysqli_stmt $statement): bool
 
 Перевіряє, чи є ще набори рядків через мультизапит.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступно лише з модулем [mysqlnd](book.mysqlnd.md)
 
@@ -38,7 +39,7 @@ mysqli_stmt_more_results(mysqli_stmt $statement): bool
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -46,5 +47,5 @@ mysqli_stmt_more_results(mysqli_stmt $statement): bool
 
 ### Дивіться також
 
--   [mysqlistmt::nextresult()](mysqli-stmt.next-result.md) - Читає наступний набір рядків із мультизапиту
--   [mysqli::multiquery()](mysqli.multi-query.md) - Виконує один або кілька запитів до бази даних
+-   [mysqli\_stmt::next\_result()](mysqli-stmt.next-result.md) \- Читає наступний набір рядків із мультизапиту
+-   [mysqli::multi\_query()](mysqli.multi-query.md) \- Виконує один або кілька запитів до бази даних

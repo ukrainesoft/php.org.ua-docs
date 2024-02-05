@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.ui-draw-text-font-italic.md: « UIDrawTextFontItalic
-  - class.ui-draw-line-cap.md: ОЙDrawLineCap »
+  - class.ui-draw-text-font-italic.md: « UI\\Draw\\Text\\Font\\Italic
+  - class.ui-draw-line-cap.md: UI\\Draw\\Line\\Cap »
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Налаштування товщини шрифту
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Налаштування товщини шрифту
 
@@ -14,7 +15,7 @@ title: Налаштування товщини шрифту
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.pharfileinfo.md: PharFileInfo
 title: 'PharFileInfo::getPharFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharFileInfo::getPharFlags
 
@@ -18,7 +19,7 @@ PharFileInfo::getPharFlags — Отримати прапори файлу в pha
 public PharFileInfo::getPharFlags(): int
 ```
 
-Повертає набір прапорів, заданих у маніфесті Phar-архіву. У поточній реалізації завжди повертає `0`
+Повертає набір прапорів, заданих у маніфесті Phar-архіву. У поточній реалізації завжди повертає
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public PharFileInfo::getPharFlags(): int
 
 ### Значення, що повертаються
 
-Прапори Phar-архіву (поки що завжди `0`
+Флаги Phar-архива (пока всегда ) .
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharFileInfo::getPharFlags()****
+**Пример #1 Пример использования**PharFileInfo::getPharFlags()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(0)

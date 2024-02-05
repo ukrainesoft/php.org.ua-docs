@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-bulkwrite.md: « MongoDBDriverBulkWrite
-  - mongodb-driver-bulkwrite.count.md: 'MongoDBDriverBulkWrite::count »'
+  - class.mongodb-driver-bulkwrite.md: « MongoDB\\Driver\\BulkWrite
+  - mongodb-driver-bulkwrite.count.md: 'MongoDB\\Driver\\BulkWrite::count »'
   - index.md: PHP Manual
-  - class.mongodb-driver-bulkwrite.md: MongoDBDriverBulkWrite
-title: 'MongoDBDriverBulkWrite::construct'
+  - class.mongodb-driver-bulkwrite.md: MongoDB\\Driver\\BulkWrite
+title: 'MongoDB\\Driver\\BulkWrite::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverBulkWrite::construct
+# MongoDB\\Driver\\BulkWrite::\_\_construct
 
 (mongodb >=1.0.0)
 
-MongoDBDriverBulkWrite::construct — Створює новий об'єкт BulkWrite
+MongoDB\\Driver\\BulkWrite::\_\_construct — Створює новий об'єкт BulkWrite
 
 ### Опис
 
@@ -18,28 +19,28 @@ MongoDBDriverBulkWrite::construct — Створює новий об'єкт Bulk
 public MongoDB\Driver\BulkWrite::__construct(?array $options = null)
 ```
 
-Створює новий [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md), який є об'єктом, що змінюється, до якого можуть бути додані одна і кілька операцій запису. Операції запису можуть бути виконані за допомогою [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)
+Створює новий [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.md), який є об'єктом, що змінюється, до якого можуть бути додані одна і кілька операцій запису. Операції запису можуть бути виконані за допомогою [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)
 
 ### Список параметрів
 
-`options` (array)
+`options`(array)
 
 **options**
 
-| Опция | Тип | Описание | Значение по умолчанию |
+| Опция | Тип | Опис | Значение по умолчанию |
 | --- | --- | --- | --- |
 | bypassDocumentValidation | bool |  |  |
 | Якщо **`true`**, дозволяє виконувати операції вставки або оновлення, щоб обійти перевірку рівня документа. |  |  |  |
 
 Цей параметр доступний у MongoDB 3.2+ та ігнорується у старіших версіях сервера, які не підтримують перевірку рівня сервера.
 
-**`false`** | | comment | [mixed](language.types.declarations.md#language.types.declarations.mixed)
+**`false`**| | comment |[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Довільний коментар, що допомагає відстежити операцію за допомогою профільника бази даних, виводу CurrentOp та журналів.
 
 Опція доступна в MongoDB 4.4+ і призведе до виключення під час виконання, якщо вказана для старої версії сервера.
 
-| | let | array | об'єкт |
+| | let | array|object |
 
 Карта імен та значень параметрів. Значення мають бути константами або закритими виразами, які посилаються на поля документа. До параметрів можна звертатися як до змінних у контексті агрегованого виразу (наприклад, `$$var`
 
@@ -49,18 +50,18 @@ public MongoDB\Driver\BulkWrite::__construct(?array $options = null)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL mongodb 1.14.0 | Додані опції `"comment"` і `"let"` |
-| PECL mongodb 1.1.0 | Додана опція `"bypassDocumentValidation"` |
+| PECL mongodb 1.14.0 | Додані опції `"comment"`и`"let"` |
+| PECL mongodb 1.1.0 | Добавлена опция`"bypassDocumentValidation"` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverBulkWrite::construct()****
+**Пример #1 Пример использования**MongoDB\\Driver\\BulkWrite::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -119,7 +120,7 @@ printf("Удалено  %d документ(ов)\n", $result->getDeletedCount()
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Добавлено 2 документ(ов)
@@ -130,5 +131,5 @@ printf("Удалено  %d документ(ов)\n", $result->getDeletedCount()
 
 ### Дивіться також
 
--   [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md) - Виконує одну або кілька операцій запису
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md)
+-   [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md) \- Виконує одну або кілька операцій запису
+-   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.md)

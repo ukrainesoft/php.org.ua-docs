@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.construct.md: '« SwooleServer::construct'
-  - swoole-server-port.construct.md: 'SwooleServerPort::construct »'
+  - swoole-server.construct.md: '« Swoole\\Server::\_\_construct'
+  - swoole-server-port.construct.md: 'Swoole\\Server\\Port::\_\_construct »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::defer'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::defer'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::defer
+# Swoole\\Server::defer
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::defer — Відкладає виконання callback-функції в кінці поточного EventLoop
+Swoole\\Server::defer — Відкладає виконання callback-функції в кінці поточного EventLoop
 
 ### Опис
 

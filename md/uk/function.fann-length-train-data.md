@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-init-weights.md: « fanninitweights
-  - function.fann-merge-train-data.md: fannmergetraindata »
+  - function.fann-init-weights.md: « fann\_init\_weights
+  - function.fann-merge-train-data.md: fann\_merge\_train\_data »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannlengthtraindata
+  - ref.fann.md: Функції Fann
+title: fann\_length\_train\_data
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannlengthtraindata
+# fann\_length\_train\_data
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannlengthtraindata — Повертає кількість шаблонів до навчальних даних
+fann\_length\_train\_data — Повертає кількість шаблонів до навчальних даних
 
 ### Опис
 
@@ -28,4 +29,4 @@ fann_length_train_data(resource $data): int
 
 ### Значення, що повертаються
 
-Кількість елементів у ресурсі (resource) навчальних даних або **`false`** у разі виникнення помилки.
+Кількість елементів у ресурсі (resource) навчальних даних або \*\*`false`\*\*в случае возникновения ошибки.

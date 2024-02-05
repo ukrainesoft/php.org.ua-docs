@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-field-scale.md: « odbcfieldscale
-  - function.odbc-foreignkeys.md: odbcforeignkeys »
+  - function.odbc-field-scale.md: « odbc\_field\_scale
+  - function.odbc-foreignkeys.md: odbc\_foreignkeys »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcfieldtype
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_field\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcfieldtype
+# odbc\_field\_type
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcfieldtype — Повертає тип даних поля
+odbc\_field\_type — Повертає тип даних поля
 
 ### Опис
 
@@ -32,4 +33,4 @@ odbc_field_type(resource $statement, int $field): string|false
 
 ### Значення, що повертаються
 
-Повертає тип поля у вигляді рядка або **`false`** у разі виникнення помилки.
+Повертає тип поля у вигляді рядка або \*\*`false`\*\*в случае возникновения ошибки.

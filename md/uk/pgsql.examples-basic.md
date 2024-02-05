@@ -1,10 +1,11 @@
 ---
 navigation:
   - pgsql.examples.md: « Приклади
-  - pgsql.examples-queries.md: Базовое использование »
+  - pgsql.examples-queries.md: Базове використання »
   - index.md: PHP Manual
   - pgsql.examples.md: Приклади
 title: Базове використання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Базове використання
 

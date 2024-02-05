@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Клас ReflectionIntersectionType
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ReflectionIntersectionType
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -16,18 +17,13 @@ title: Клас ReflectionIntersectionType
 
 ```classsynopsis
 
-     
+    
+     class ReflectionIntersectionType
     
 
     
-     
-      class ReflectionIntersectionType
-     
-
-     
-      extends
-       ReflectionType
-     
+     extends
+      ReflectionType
      {
 
     /* Методы */
@@ -44,4 +40,4 @@ public ReflectionType::__toString(): string
 
 ## Зміст
 
--   [ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md) — Повертає типи, включені до типу intersection
+-   [ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md)— Повертає типи, що перетинаються.

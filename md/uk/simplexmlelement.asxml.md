@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.simplexmlelement.md: SimpleXMLElement
 title: 'SimpleXMLElement::asXML'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SimpleXMLElement::asXML
 
@@ -18,7 +19,7 @@ SimpleXMLElement::asXML — Повертає сформований XML-доку
 public SimpleXMLElement::asXML(?string $filename = null): string|bool
 ```
 
-Метод `asXML` визначає формат даних батьківських об'єктів у версії XML 1.0.
+Метод`asXML` визначає формат даних батьківських об'єктів у версії XML 1.0.
 
 ### Список параметрів
 
@@ -32,9 +33,9 @@ public SimpleXMLElement::asXML(?string $filename = null): string|bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `filename` тепер допускає значення null. |
+| 8.0.0 | `filename` тепер допускає значення null. |
 
 ### Приклади
 
@@ -61,7 +62,7 @@ echo $xml->asXML();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0"?>
@@ -78,7 +79,7 @@ echo $xml->asXML();
 
 `asXML` також працює з результатами Xpath:
 
-**Приклад #2 Використання asXML() з результатами [SimpleXMLElement::xpath()](simplexmlelement.xpath.md)**
+**Пример #2 Использование asXML() с результатами[SimpleXMLElement::xpath()](simplexmlelement.xpath.md)**
 
 ```php
 <?php
@@ -93,7 +94,7 @@ foreach ($result as $node) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <c>текст</c><c>штучка</c>
@@ -101,5 +102,5 @@ foreach ($result as $node) {
 
 ### Дивіться також
 
--   [SimpleXMLElement::toString()](simplexmlelement.tostring.md) - Повертає вміст рядка
--   [Базовое использование SimpleXML](simplexml.examples-basic.md)
+-   [SimpleXMLElement::\_\_toString()](simplexmlelement.tostring.md) \- Повертає вміст рядка
+-   [Базове використання SimpleXML](simplexml.examples-basic.md)

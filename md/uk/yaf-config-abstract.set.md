@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-abstract.readonly.md: '« YafConfigAbstract::readonly'
-  - yaf-config-abstract.toarray.md: 'YafConfigAbstract::toArray »'
+  - yaf-config-abstract.readonly.md: '« Yaf\_Config\_Abstract::readonly'
+  - yaf-config-abstract.toarray.md: 'Yaf\_Config\_Abstract::toArray »'
   - index.md: PHP Manual
-  - class.yaf-config-abstract.md: YafConfigAbstract
-title: 'YafConfigAbstract::set'
+  - class.yaf-config-abstract.md: Yaf\_Config\_Abstract
+title: 'Yaf\_Config\_Abstract::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigAbstract::set
+# Yaf\_Config\_Abstract::set
 
 (Yaf >=1.0.0)
 
-YafConfigAbstract::set — Сеттер
+Yaf\_Config\_Abstract::set — Сеттер
 
 ### Опис
 
@@ -20,7 +21,7 @@ abstract public Yaf_Config_Abstract::set(): Yaf_Config_Abstract
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

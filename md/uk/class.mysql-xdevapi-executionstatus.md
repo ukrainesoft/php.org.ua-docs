@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-executable.execute.md: '« Executable::execute'
-  - mysql-xdevapi-executionstatus.construct.md: 'ExecutionStatus::construct »'
+  - mysql-xdevapi-executionstatus.construct.md: 'ExecutionStatus::\_\_construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Клас ExecutionStatus
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ExecutionStatus
 
@@ -14,7 +15,7 @@ title: Клас ExecutionStatus
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 
@@ -64,4 +65,4 @@ lastDocumentId
 
 ## Зміст
 
--   [ExecutionStatus::construct](mysql-xdevapi-executionstatus.construct.md) - Конструктор класу ExecutionStatus
+-   [ExecutionStatus::\_\_construct](mysql-xdevapi-executionstatus.construct.md) \- Конструктор класу ExecutionStatus

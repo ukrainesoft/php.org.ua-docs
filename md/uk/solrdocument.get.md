@@ -4,13 +4,14 @@ navigation:
   - solrdocument.getchilddocuments.md: 'SolrDocument::getChildDocuments »'
   - index.md: PHP Manual
   - class.solrdocument.md: SolrDocument
-title: 'SolrDocument::get'
+title: 'SolrDocument::\_\_get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrDocument::get
+# SolrDocument::\_\_get
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrDocument::get — Доступ до поля як властивості
+SolrDocument::\_\_get — Доступ до поля як властивості
 
 ### Опис
 

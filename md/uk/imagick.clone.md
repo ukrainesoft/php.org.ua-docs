@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::clone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::clone
 
@@ -34,7 +35,7 @@ public Imagick::clone(): Imagick
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL imagick 3.1.0 | Метод застарів на користь ключового слова [clone](language.oop5.cloning.md) |
 

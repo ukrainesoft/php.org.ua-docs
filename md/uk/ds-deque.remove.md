@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.reduce.md: '« DsDeque::reduce'
-  - ds-deque.reverse.md: 'ДсDeque::reverse »'
+  - ds-deque.reduce.md: '« Ds\\Deque::reduce'
+  - ds-deque.reverse.md: 'Ds\\Deque::reverse »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::remove'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::remove'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::remove
+# Ds\\Deque::remove
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::remove — Видаляє та повертає значення за індексом
+Ds\\Deque::remove — Видаляє та повертає значення за індексом
 
 ### Опис
 
@@ -36,7 +37,7 @@ public Ds\Deque::remove(int $index): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::remove()****
+**Пример #1 Пример использования**Ds\\Deque::remove()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($deque->remove(0));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "b"

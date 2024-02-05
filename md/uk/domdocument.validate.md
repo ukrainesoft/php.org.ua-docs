@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::validate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::validate
 
@@ -20,7 +21,7 @@ public DOMDocument::validate(): bool
 
 Перевіряє документ на дійсність, виходячи з його DTD.
 
-Також можна використовувати властивість `validateOnParse` класу [DOMDocument](class.domdocument.md) для перевірки DTD.
+Також можна використовувати властивість `validateOnParse`класса[DOMDocument](class.domdocument.md) для перевірки DTD.
 
 ### Список параметрів
 
@@ -56,7 +57,7 @@ $dom->load('book.xml');
 
 ### Дивіться також
 
--   [DOMDocument::schemaValidate()](domdocument.schemavalidate.md) - Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
--   [DOMDocument::schemaValidateSource()](domdocument.schemavalidatesource.md) - Перевіряє дійсність документа, ґрунтуючись на схемі
--   [DOMDocument::relaxNGValidate()](domdocument.relaxngvalidate.md) - Здійснює перевірку документа на правильність побудови за допомогою relaxNG
--   [DOMDocument::relaxNGValidateSource()](domdocument.relaxngvalidatesource.md) - Перевіряє документ за допомогою relaxNG
+-   [DOMDocument::schemaValidate()](domdocument.schemavalidate.md) \- Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
+-   [DOMDocument::schemaValidateSource()](domdocument.schemavalidatesource.md) \- Перевіряє дійсність документа, ґрунтуючись на схемі
+-   [DOMDocument::relaxNGValidate()](domdocument.relaxngvalidate.md) \- Здійснює перевірку документа на правильність побудови за допомогою relaxNG
+-   [DOMDocument::relaxNGValidateSource()](domdocument.relaxngvalidatesource.md) \- Перевіряє документ за допомогою relaxNG

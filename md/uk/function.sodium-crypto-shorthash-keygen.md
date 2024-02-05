@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-secretstream-xchacha20poly1305-rekey.md: « sodiumcryptosecretstreamxchacha20poly1305rekey
-  - function.sodium-crypto-shorthash.md: sodiumcryptoshorthash »
+  - function.sodium-crypto-secretstream-xchacha20poly1305-rekey.md: « sodium\_crypto\_secretstream\_xchacha20poly1305\_rekey
+  - function.sodium-crypto-shorthash.md: sodium\_crypto\_shorthash »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoshorthashkeygen
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_shorthash\_keygen
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoshorthashkeygen
+# sodium\_crypto\_shorthash\_keygen
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoshorthashkeygen — Отримати випадкові байти для ключа
+sodium\_crypto\_shorthash\_keygen — Отримати випадкові байти для ключа
 
 ### Опис
 
@@ -18,11 +19,11 @@ sodiumcryptoshorthashkeygen — Отримати випадкові байти �
 sodium_crypto_shorthash_keygen(): string
 ```
 
-Створює ключ для використання з [sodiumcryptoshorthash()](function.sodium-crypto-shorthash.md)
+Створює ключ для використання з [sodium\_crypto\_shorthash()](function.sodium-crypto-shorthash.md)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagegammacorrect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagegammacorrect
 
@@ -18,7 +19,7 @@ imagegammacorrect — Застосування гамма корекції до 
 imagegammacorrect(GdImage $image, float $input_gamma, float $output_gamma): bool
 ```
 
-Застосовує гамма корекцію до зображення `image` згідно з заданими вхідними та вихідними налаштуваннями.
+Применяет гамма коррекцию к изображению`image` згідно з заданими вхідними та вихідними налаштуваннями.
 
 ### Список параметрів
 
@@ -36,17 +37,17 @@ imagegammacorrect(GdImage $image, float $input_gamma, float $output_gamma): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagegammacorrect()****
+**Пример #1 Пример использования**imagegammacorrect()\*\*\*\*
 
 ```php
 <?php

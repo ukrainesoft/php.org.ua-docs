@@ -1,14 +1,15 @@
 ---
 navigation:
-  - solrdocument.set.md: '« SolrDocument::set'
+  - solrdocument.set.md: '« SolrDocument::\_\_set'
   - solrdocument.toarray.md: 'SolrDocument::toArray »'
   - index.md: PHP Manual
   - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::sort'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDocument::sort
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrDocument::sort — Сортує поля в документі
 
@@ -24,11 +25,11 @@ public SolrDocument::sort(int $sortOrderBy, int $sortDirection = SolrDocument::S
 
 Параметр sortOrderBy повинен бути одним з:
 
-SolrDocument::SORTFIELDNAME SolrDocument::SORTFIELDBOOSTVALUE SolrDocument::SORTFIELDVALUECOUNT
+\*SolrDocument::SORT\_FIELD\_NAME\*SolrDocument::SORT\_FIELD\_BOOST\_VALUE\*SolrDocument::SORT\_FIELD\_VALUE\_COUNT
 
 Напрямок sortDirection може бути одним з :
 
-SolrDocument::SORTDEFAULT SolrDocument::SORTASC SolrDocument::SORTDESC
+\*SolrDocument::SORT\_DEFAULT\*SolrDocument::SORT\_ASC\*SolrDocument::SORT\_DESC
 
 Спосіб за замовчуванням - сортування у порядку зростання.
 
@@ -44,4 +45,4 @@ SolrDocument::SORTDEFAULT SolrDocument::SORTASC SolrDocument::SORTDESC
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

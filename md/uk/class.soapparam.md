@@ -1,10 +1,11 @@
 ---
 navigation:
-  - soapheader.construct.md: '« SoapHeader::construct'
-  - soapparam.construct.md: 'SoapParam::construct »'
+  - soapheader.construct.md: '« SoapHeader::\_\_construct'
+  - soapparam.construct.md: 'SoapParam::\_\_construct »'
   - index.md: PHP Manual
   - book.soap.md: SOAP
 title: Клас SoapParam
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SoapParam
 
@@ -16,15 +17,10 @@ title: Клас SoapParam
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      class SoapParam
-     
+     class SoapParam
      {
 
     /* Свойства */
@@ -47,10 +43,10 @@ title: Клас SoapParam
 
 ## Властивості
 
-paramdata
+param\_data
 
-paramname
+param\_name
 
 ## Зміст
 
--   [SoapParam::construct](soapparam.construct.md) - Конструктор SoapParam
+-   [SoapParam::\_\_construct](soapparam.construct.md) \- Конструктор SoapParam

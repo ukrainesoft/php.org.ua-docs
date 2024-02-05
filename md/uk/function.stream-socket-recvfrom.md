@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.stream-socket-pair.md: « streamsocketpair
-  - function.stream-socket-sendto.md: streamsocketsendto »
+  - function.stream-socket-pair.md: « stream\_socket\_pair
+  - function.stream-socket-sendto.md: stream\_socket\_sendto »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamsocketrecvfrom
+title: stream\_socket\_recvfrom
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamsocketrecvfrom
+# stream\_socket\_recvfrom
 
 (PHP 5, PHP 7, PHP 8)
 
-streamsocketrecvfrom — Отримує дані із сокету, підключеного чи ні
+stream\_socket\_recvfrom — Отримує дані із сокету, підключеного чи ні
 
 ### Опис
 
 ```methodsynopsis
-stream_socket_recvfrom(    resource $socket,    int $length,    int $flags = 0,    ?string &$address = null): string|false
+stream_socket_recvfrom(    resource $socket,    int $length,    int $flags = 0,    ?string &$address = null): string|false
 ```
 
-**streamsocketrecvfrom()** приймає дані з віддаленого сокету розміром до `length` байт.
+**stream\_socket\_recvfrom()** приймає дані з віддаленого сокету розміром до `length`байт.
 
 ### Список параметрів
 
@@ -28,25 +29,25 @@ stream_socket_recvfrom(    resource $socket,    int $length,    int $flags = 0, 
 
 `length`
 
-Кількість байт для отримання з параметра `socket`
+Количество байт для получения из параметра`socket`
 
 `flags`
 
-Значення параметру `flags` може бути будь-якою комбінацією з наступного:
+Значение параметра`flags` може бути будь-якою комбінацією з наступного:
 
-<table class="doctable table"><caption><strong>Можливі значення для параметра <code class="parameter">flags</code></strong></caption><tbody class="tbody"><tr><td><strong><code>STREAM_OOB</code></strong></td><td>Обробляти дані OOB (<code class="literal">out-of-band</code>).&lt; /td&gt;</td></tr><tr><td><strong><code>STREAM_PEEK</code></strong></td><td>Отримувати дані з сокету, але не витрачати буфер. Наступні виклики функцій <span class="function"><a href="function.fread.html" class="function">fread()</a></span> або <span class="function"><strong>stream_socket_recvfrom()</strong></span> отримають ті самі дані.</td></tr></tbody></table>
+<table class="doctable table"><caption><strong>Можливі значення для параметра <code class="parameter">flags</code></strong></caption><tbody class="tbody"><tr><td><strong><code>STREAM_OOB</code></strong></td><td>Обробляти дані OOB (<code class="literal">out-of-band</code>).&lt; /td&gt;</td></tr><tr><td><strong><code>STREAM_PEEK</code></strong></td><td>Отримувати дані з сокету, але не витрачати буфер. Наступні виклики функцій <span class="function"><a href="function.fread.md" class="function">fread()</a></span> або <span class="function"><strong>stream_socket_recvfrom()</strong></span> отримають ті самі дані.</td></tr></tbody></table>
 
 `address`
 
-Якщо вказано параметр `address`, він буде заповнений адресою віддаленого сокету.
+Если указан параметр`address`, він буде заповнений адресою віддаленого сокету.
 
 ### Значення, що повертаються
 
-Повертає прочитані дані у вигляді рядка або **`false`** у разі виникнення помилки.
+Повертає прочитані дані у вигляді рядка або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **streamsocketrecvfrom()****
+**Пример #1 Пример использования функции**stream\_socket\_recvfrom()\*\*\*\*
 
 ```php
 <?php
@@ -73,16 +74,16 @@ fclose($server);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо отримане повідомлення довжиною більше, ніж параметр `length`, зайві байти можуть бути пропущені в залежності від типу сокету, з якого отримано повідомлення (наприклад, UDP).
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Виклики функції **streamsocketrecvfrom()** на потоках, заснованих на сокетах, після викликів потокових функцій, що базуються на буферах (таких як [fread()](function.fread.md) або [streamgetline()](function.stream-get-line.md)) читають дані безпосередньо із сокету та пропускають потоковий буфер.
+> Виклики функції **stream\_socket\_recvfrom()** на потоках, заснованих на сокетах, після викликів потокових функцій, що базуються на буферах (таких як [fread()](function.fread.md) або [stream\_get\_line()](function.stream-get-line.md)) читають дані безпосередньо із сокету та пропускають потоковий буфер.
 
 ### Дивіться також
 
--   [streamsocketsendto()](function.stream-socket-sendto.md) - Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
--   [streamsocketclient()](function.stream-socket-client.md) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [streamsocketserver()](function.stream-socket-server.md) - Створює інтернет-сокет або доменний сокет Unix
+-   [stream\_socket\_sendto()](function.stream-socket-sendto.md) \- Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
+-   [stream\_socket\_client()](function.stream-socket-client.md) \- Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [stream\_socket\_server()](function.stream-socket-server.md) \- Створює інтернет-сокет або доменний сокет Unix

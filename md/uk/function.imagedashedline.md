@@ -5,20 +5,21 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagedashedline
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagedashedline
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imagedashedline — Малювання пунктирної лінії
+imagedashedline - Малювання пунктирної лінії
 
 ### Опис
 
 ```methodsynopsis
-imagedashedline(    GdImage $image,    int $x1,    int $y1,    int $x2,    int $y2,    int $color): bool
+imagedashedline(    GdImage $image,    int $x1,    int $y1,    int $x2,    int $y2,    int $color): bool
 ```
 
-Функція застаріла. Використовуйте поєднання функцій [imagesetstyle()](function.imagesetstyle.md) і [imageline()](function.imageline.md)
+Функция устарела. Используйте сочетание функций[imagesetstyle()](function.imagesetstyle.md) і [imageline()](function.imageline.md)
 
 ### Список параметрів
 
@@ -48,17 +49,17 @@ imagedashedline(    GdImage $image,    int $x1,    int $y1,    int $x2,    int $
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagedashedline()****
+**Пример #1 Пример использования**imagedashedline()\*\*\*\*
 
 ```php
 <?php
@@ -75,7 +76,7 @@ imagedestroy($im);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: imagedashedline()](images/21009b70229598c6a80eef8b45bf282b-imagedashedline.png)
 
@@ -113,5 +114,5 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagesetstyle()](function.imagesetstyle.md) - Встановлення стилю малювання ліній
--   [imageline()](function.imageline.md) - Малювання лінії
+-   [imagesetstyle()](function.imagesetstyle.md) \- Встановлення стилю малювання ліній
+-   [imageline()](function.imageline.md) \- Малювання лінії

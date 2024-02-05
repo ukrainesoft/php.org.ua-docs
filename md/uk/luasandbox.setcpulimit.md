@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::setCPULimit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # LuaSandbox::setCPULimit
 
@@ -26,7 +27,7 @@ public LuaSandbox::setCPULimit(float|bool $limit): void
 
 Встановлення обмеження часу для callback-функції під час роботи Lua призводить до скидання таймера або його запуску, якщо він ще не був запущений.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > У Windows обмеження процесора ігнорується. В операційних системах, які не підтримують **`CLOCK_THREAD_CPUTIME_ID`**, таких як FreeBSD та Mac OS X, буде обмежено фактичний час, а не час процесора.
 
@@ -34,7 +35,7 @@ public LuaSandbox::setCPULimit(float|bool $limit): void
 
 `limit`
 
-Обмеження як число з плаваючою точкою (float) у секундах або `false`щоб не обмежувати.
+Обмеження як число з плаваючою точкою (float) у секундах або \*\*`false`\*\*щоб не обмежувати.
 
 ### Значення, що повертаються
 
@@ -59,7 +60,7 @@ $sandbox->loadString( 'while true do end' )->call();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 PHP Fatal error:  Uncaught LuaSandboxTimeoutError: The maximum execution time for this script was exceeded
@@ -67,5 +68,5 @@ PHP Fatal error:  Uncaught LuaSandboxTimeoutError: The maximum execution time fo
 
 ### Дивіться також
 
--   [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.md) - Повертає поточний час використання процесора у середовищі Lua
--   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.md) - Встановлює межу пам'яті для середовища Lua
+-   [LuaSandbox::getCPUUsage()](luasandbox.getcpuusage.md) \- Повертає поточний час використання процесора у середовищі Lua
+-   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.md) \- Встановлює межу пам'яті для середовища Lua

@@ -1,20 +1,21 @@
 ---
 navigation:
   - class.solrqueryresponse.md: « SolrQueryResponse
-  - solrqueryresponse.destruct.md: 'SolrQueryResponse::destruct »'
+  - solrqueryresponse.destruct.md: 'SolrQueryResponse::\_\_destruct »'
   - index.md: PHP Manual
   - class.solrqueryresponse.md: SolrQueryResponse
-title: 'SolrQueryResponse::construct'
+title: 'SolrQueryResponse::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrQueryResponse::construct
+# SolrQueryResponse::\_\_construct
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrQueryResponse::construct — Конструктор
+SolrQueryResponse::\_\_construct — Конструктор
 
 ### Опис
 
-public **SolrQueryResponse::construct**
+public**SolrQueryResponse::\_\_construct**()
 
 Конструктор
 

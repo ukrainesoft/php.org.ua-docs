@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::roundCorners'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::roundCorners
 
@@ -19,10 +20,10 @@ Imagick::roundCorners — Скруглює кути зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::roundCorners(    float $x_rounding,    float $y_rounding,    float $stroke_width = 10,    float $displace = 5,    float $size_correction = -6): bool
+public Imagick::roundCorners(    float $x_rounding,    float $y_rounding,    float $stroke_width = 10,    float $displace = 5,    float $size_correction = -6): bool
 ```
 
-Заокруглює кути зображення. Перші два параметри керують ступенем заокруглення, а три останні параметри можуть використовуватися для точного налаштування процесу заокруглення. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим. Цей метод недоступний, якщо Imagick був скомпільований з версією ImageMagick 7.0.70 або старшим.
+Заокруглює кути зображення. Перші два параметри керують ступенем округлення, а останні три параметри можуть використовуватися для точного налаштування процесу округлення. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим. Цей метод недоступний, якщо Imagick був скомпільований з версією ImageMagick 7.0.70 або старшим.
 
 ### Список параметрів
 
@@ -52,7 +53,7 @@ public Imagick::roundCorners(    float $x_rounding,    float $y_rounding,    flo
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::roundCorners()****
+**Пример #1 Пример использования**Imagick::roundCorners()\*\*\*\*
 
 Закруглення кутів зображення
 

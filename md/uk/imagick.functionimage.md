@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::functionImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::functionImage
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::functionImage — Застосовує функцію зображення
 
@@ -18,9 +19,9 @@ Imagick::functionImage — Застосовує функцію зображен�
 public Imagick::functionImage(int $function, array $arguments, int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
-Застосовує арифметичний, реляційний або логічний вираз до псевдозображення.
+Застосовує арифметичний, реляційний чи логічний вираз до псевдозображення.
 
-Дивіться також [» ImageMagick v6 Examples - Image Transformations — Function, Multi-Argument Evaluate](http://www.imagemagick.org/Usage/transform/#function)
+Смотрите также[» ImageMagick v6 Examples - Image Transformations — Function, Multi-Argument Evaluate](http://www.imagemagick.org/Usage/transform/#function)
 
 Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.9 або старшим.
 
@@ -28,7 +29,7 @@ public Imagick::functionImage(int $function, array $arguments, int $channel = Im
 
 `function`
 
-Зверніться до списку [констант FUNCTION](imagick.constants.md#imagick.constants.function)
+Обратитесь к списку[констант FUNCTION](imagick.constants.md#imagick.constants.function)
 
 `arguments`
 
@@ -59,7 +60,7 @@ echo $imagick->getImageBlob();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Результат створення синусоїдального градієнта](images/c0d23d2d6769e53e24a1b3136c064577-functionImage_sinusoidal.png)
 
@@ -78,7 +79,7 @@ echo $imagick->getImageBlob();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Результат створення поліноміального градієнта](images/c0d23d2d6769e53e24a1b3136c064577-functionImage_polynomial.png)
 
@@ -103,6 +104,6 @@ echo $imagick1->getImageBlob();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Результат створення складного градієнта](images/c0d23d2d6769e53e24a1b3136c064577-functionImage_multiplied.png)

@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.db2-stmt-error.md: « db2stmterror
-  - function.db2-table-privileges.md: db2tableprivileges »
+  - function.db2-stmt-error.md: « db2\_stmt\_error
+  - function.db2-table-privileges.md: db2\_table\_privileges »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2stmterrormsg
+title: db2\_stmt\_errormsg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2stmterrormsg
+# db2\_stmt\_errormsg
 
-(PECL ibmdb2> = 1.0.0)
+(PECL ibm\_db2 >= 1.0.0)
 
-db2stmterrormsg — Повертає рядок, що містить останнє повідомлення про помилку SQL-виразу
+db2\_stmt\_errormsg — Повертає рядок, що містить останнє повідомлення про помилку SQL-виразу
 
 ### Опис
 
 ```methodsynopsis
-db2_stmt_errormsg(resource $stmt = ?): string
+db2_stmt_errormsg(?resource $stmt = null): string
 ```
 
 Повертає рядок, який містить останнє повідомлення про помилку SQL-виразу.
 
-Якщо ви не передаєте ресурс виразу як аргумент у **db2stmterrormsg()**, драйвер повертає повідомлення про помилку, пов'язане з останньою спробою повернути ресурс оператора, наприклад, [db2prepare()](function.db2-prepare.md) або [db2exec()](function.db2-exec.md)
+Якщо ви не передаєте ресурс виразу як аргумент у **db2\_stmt\_errormsg()**, драйвер повертає повідомлення про помилку, пов'язане з останньою спробою повернути ресурс оператора, наприклад, [db2\_prepare()](function.db2-prepare.md) або [db2\_exec()](function.db2-exec.md)
 
 ### Список параметрів
 
@@ -34,6 +35,6 @@ db2_stmt_errormsg(resource $stmt = ?): string
 
 ### Дивіться також
 
--   [db2connerror()](function.db2-conn-error.md) - Повертає рядок, що містить значення SQLSTATE, повернене останньою спробою підключення
--   [db2connerrormsg()](function.db2-conn-errormsg.md) - Повертає останнє повідомлення про помилку підключення та значення SQLCODE
--   [db2stmterror()](function.db2-stmt-error.md) - Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором
+-   [db2\_conn\_error()](function.db2-conn-error.md) \- Повертає рядок, що містить значення SQLSTATE, повернене останньою спробою підключення
+-   [db2\_conn\_errormsg()](function.db2-conn-errormsg.md) \- Повертає останнє повідомлення про помилку підключення та значення SQLCODE
+-   [db2\_stmt\_error()](function.db2-stmt-error.md) \- Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором

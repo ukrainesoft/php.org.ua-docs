@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.shutdown.md: '« SwooleServer::shutdown'
-  - swoole-server.stats.md: 'SwooleServer::stats »'
+  - swoole-server.shutdown.md: '« Swoole\\Server::shutdown'
+  - swoole-server.stats.md: 'Swoole\\Server::stats »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::start'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::start'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::start
+# Swoole\\Server::start
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::start — Запускає сервер Swoole
+Swoole\\Server::start — Запускає сервер Swoole
 
 ### Опис
 

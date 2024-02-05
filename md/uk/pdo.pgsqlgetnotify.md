@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: 'PDO::pgsqlGetNotify'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::pgsqlGetNotify
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
 PDO::pgsqlGetNotify — Отримати асинхронне повідомлення
 
@@ -32,4 +33,4 @@ public PDO::pgsqlGetNotify(int $result_type = PDO::FETCH_USE_DEFAULT, int $ms_ti
 
 ### Значення, що повертаються
 
-Якщо одне або більше повідомлень знаходяться в режимі очікування, повертає один рядок з полями `message` і `pid`, інакше повертає **`false`**
+Якщо одне або більше повідомлень знаходяться в режимі очікування, повертає один рядок з полями `message`и`pid`, інакше повертає **`false`**

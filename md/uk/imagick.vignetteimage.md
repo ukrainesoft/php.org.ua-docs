@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::vignetteImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::vignetteImage
 
@@ -15,10 +16,10 @@ Imagick::vignetteImage — Додає він'єтний фільтр до зоб
 ### Опис
 
 ```methodsynopsis
-public Imagick::vignetteImage(    float $blackPoint,    float $whitePoint,    int $x,    int $y): bool
+public Imagick::vignetteImage(    float $blackPoint,    float $whitePoint,    int $x,    int $y): bool
 ```
 
-Пом'якшує краї зображення у стилі віньєтки. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Пом'якшує краї зображення у стилі віньєтки. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public Imagick::vignetteImage(    float $blackPoint,    float $whitePoint,    in
 
 `y`
 
-Усунення еліпса по осі Y
+Зміщення еліпса по осі Y
 
 ### Значення, що повертаються
 
@@ -44,7 +45,7 @@ public Imagick::vignetteImage(    float $blackPoint,    float $whitePoint,    in
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::vignetteImage()****
+**Пример #1 Пример использования**Imagick::vignetteImage()\*\*\*\*
 
 ```php
 <?php
@@ -60,5 +61,5 @@ function vignetteImage($imagePath, $blackPoint, $whitePoint, $x, $y) {
 
 ### Дивіться також
 
--   [Imagick::waveImage()](imagick.waveimage.md) - Застосовує хвильовий фільтр до зображення
--   [Imagick::swirlImage()](imagick.swirlimage.md) - Закручує пікселі навколо центру зображення
+-   [Imagick::waveImage()](imagick.waveimage.md) \- Застосовує хвильовий фільтр до зображення
+-   [Imagick::swirlImage()](imagick.swirlimage.md) \- Закручує пікселі навколо центру зображення

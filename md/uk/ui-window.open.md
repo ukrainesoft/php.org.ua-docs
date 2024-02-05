@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-window.onclosing.md: '« UIWindow::onClosing'
-  - ui-window.save.md: 'ОЙWindow::save »'
+  - ui-window.onclosing.md: '« UI\\Window::onClosing'
+  - ui-window.save.md: 'UI\\Window::save »'
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::open'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::open'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::open
+# UI\\Window::open
 
 (UI 0.9.9)
 
-ОЙWindow::open — Відкрити діалогове вікно
+UI\\Window::open — Відкрити діалогове вікно
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - hashcontext.serialize.md: '« HashContext::serialize'
-  - ref.hash.md: Функции Hash »
+  - hashcontext.serialize.md: '« HashContext::\_\_serialize'
+  - ref.hash.md: Функції Hash »
   - index.md: PHP Manual
   - class.hashcontext.md: HashContext
-title: 'HashContext::unserialize'
+title: 'HashContext::\_\_unserialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# HashContext::unserialize
+# HashContext::\_\_unserialize
 
 (PHP 8)
 
-HashContext::unserialize - Десеріалізує параметр `data` в об'єкт HashContext
+HashContext::\_\_unserialize — Десериализует параметр`data` в об'єкт HashContext
 
 ### Опис
 
@@ -20,7 +21,7 @@ public HashContext::__unserialize(array $data): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

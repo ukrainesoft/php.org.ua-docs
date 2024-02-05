@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-dispatcher.enableview.md: '« YafDispatcher::enableView'
-  - yaf-dispatcher.getapplication.md: 'YafDispatcher::getApplication »'
+  - yaf-dispatcher.enableview.md: '« Yaf\_Dispatcher::enableView'
+  - yaf-dispatcher.getapplication.md: 'Yaf\_Dispatcher::getApplication »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::flushInstantly'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::flushInstantly'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::flushInstantly
+# Yaf\_Dispatcher::flushInstantly
 
 (Yaf >=1.0.0)
 
-YafDispatcher::flushInstantly — Вмикає/вимикає миттєве очищення
+Yaf\_Dispatcher::flushInstantly — Вмикає/вимикає миттєве очищення
 
 ### Опис
 
@@ -24,7 +25,7 @@ public Yaf_Dispatcher::flushInstantly(bool $flag = ?): Yaf_Dispatcher
 
 bool
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > починаючи з 2.2.0, якщо цей параметр не заданий, буде повернено поточний стан
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getCTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::getCTime
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getCTime — Повертає час останньої зміни індексного дескриптора файлу
 
@@ -26,7 +27,7 @@ public SplFileInfo::getCTime(): int|false
 
 ### Значення, що повертаються
 
-Час останньої зміни у вигляді тимчасової мітки Unix у разі успішного виконання або **`false`** у разі виникнення помилки.
+Час останньої зміни у вигляді тимчасової мітки Unix у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -34,16 +35,16 @@ public SplFileInfo::getCTime(): int|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::getCTime()****
+**Пример #1 Пример использования**SplFileInfo::getCTime()\*\*\*\*
 
 ```php
 <?php
-$info = new SplFileInfo(__FILE__);
+$info = new SplFileInfo('example.jpg');
 echo 'Время последнего изменения ' . date('g:i a', $info->getCTime());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Время последнего изменения 1:49 pm
@@ -51,4 +52,6 @@ echo 'Время последнего изменения ' . date('g:i a', $info
 
 ### Дивіться також
 
--   [filectime()](function.filectime.md) - Повертає час зміни індексного дескриптора файлу
+-   [filectime()](function.filectime.md) \- Повертає час зміни індексного дескриптора файлу
+-   [SplFileInfo::getATime()](splfileinfo.getatime.md) \- Отримує час останнього доступу до файлу
+-   [SplFileInfo::getMTime()](splfileinfo.getmtime.md) \- Отримує час останньої зміни

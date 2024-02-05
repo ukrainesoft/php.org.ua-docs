@@ -1,16 +1,17 @@
 ---
 navigation:
-  - xhprof.constants.md: « Обумовлені константи
-  - ref.xhprof.md: Функции Xhprof »
+  - xhprof.constants.md: « Зумовлені константи
+  - ref.xhprof.md: Функції Xhprof »
   - index.md: PHP Manual
   - book.xhprof.md: Xhprof
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
 **Приклад #1 Приклади використання Xhprof, опціонально з GUI**
 
-У цьому прикладі профайлер запускається, зупиняється та використовує вбудований GUI інтерфейс для збереження та аналізу результатів. Іншими словами, виконання коду модуля завершується на функції [xhprofdisable()](function.xhprof-disable.md)
+У цьому прикладі профайлер запускається, зупиняється та використовує вбудований GUI інтерфейс для збереження та аналізу результатів. Іншими словами, виконання коду модуля завершується на функції [xhprof\_disable()](function.xhprof-disable.md)
 
 ```php
 <?php
@@ -34,7 +35,7 @@ echo "http://localhost/xhprof/xhprof_html/index.php?run={$run_id}&source=xhprof_
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 http://localhost/xhprof/xhprof_html/index.php?run=t11_4bdf44d21121f&source=xhprof_testing

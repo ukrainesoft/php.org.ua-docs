@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-root.md: « gmproot
-  - function.gmp-scan0.md: gmpscan0 »
+  - function.gmp-root.md: « gmp\_root
+  - function.gmp-scan0.md: gmp\_scan0 »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmprootrem
+title: gmp\_rootrem
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmprootrem
+# gmp\_rootrem
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-gmprootrem - Витягти корінь ступеня N і повернути його цілу частину і залишок
+gmp\_rootrem - Витягти корінь ступеня N і повернути його цілу частину і залишок
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmprootrem - Витягти корінь ступеня N і повернути 
 gmp_rootrem(GMP|int|string $num, int $nth): array
 ```
 
-Витягує корінь ступеня `nth` з `num`, Повертає його цілу частину і залишок (залишок обчислюється шляхом віднімання з початкового числа цілочисельного результату в nth).
+Извлекает корень степени`nth`из`num`, Повертає його цілу частину і залишок (залишок обчислюється шляхом віднімання з початкового числа цілого результату в ступені nth).
 
 ### Список параметрів
 

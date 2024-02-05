@@ -4,13 +4,14 @@ navigation:
   - eventbase.dispatch.md: 'EventBase::dispatch »'
   - index.md: PHP Manual
   - class.eventbase.md: EventBase
-title: 'EventBase::construct'
+title: 'EventBase::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# EventBase::construct
+# EventBase::\_\_construct
 
 (PECL event >= 1.2.6-beta)
 
-EventBase::construct - Конструктор об'єкта EventBase
+EventBase::\_\_construct — Конструктор об'єкту EventBase
 
 ### Опис
 
@@ -22,7 +23,7 @@ public
     = ?)
 ```
 
-Конструктор об'єкту EventBase
+Конструктор об'єкту EventBase.
 
 ### Список параметрів
 
@@ -30,9 +31,9 @@ public
 
 Необов'язковий об'єкт [EventConfig](class.eventconfig.md)
 
-### Значення, що повертаються
+### Помилки
 
-Повертає об'єкт EventBase.
+Якщо об'єкт [EventBase](class.eventbase.md) не можна створити з наданою конфігурацією, буде викинуто виняток [EventException](class.eventexception.md)
 
 ### Дивіться також
 

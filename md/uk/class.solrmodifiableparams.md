@@ -1,14 +1,15 @@
 ---
 navigation:
   - solrparams.unserialize.md: '« SolrParams::unserialize'
-  - solrmodifiableparams.construct.md: 'SolrModifiableParams::construct »'
+  - solrmodifiableparams.construct.md: 'SolrModifiableParams::\_\_construct »'
   - index.md: PHP Manual
   - book.solr.md: Solr
 title: Клас SolrModifiableParams
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SolrModifiableParams
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 ## Вступ
 
@@ -60,5 +61,5 @@ final public SolrParams::unserialize(string $serialized): void
 
 ## Зміст
 
--   [SolrModifiableParams::construct](solrmodifiableparams.construct.md) - Конструктор
--   [SolrModifiableParams::destruct](solrmodifiableparams.destruct.md) - Деструктор
+-   [SolrModifiableParams::\_\_construct](solrmodifiableparams.construct.md) \- Конструктор
+-   [SolrModifiableParams::\_\_destruct](solrmodifiableparams.destruct.md) \- Деструктор

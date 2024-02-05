@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Клас IntlPartsIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас IntlPartsIterator
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -20,33 +21,31 @@ title: Клас IntlPartsIterator
 
 ```classsynopsis
 
-     
+    
+     class IntlPartsIterator
     
 
     
-     
-      class IntlPartsIterator
-     
-
-     
-      extends
-       IntlIterator
-     
+     extends
+      IntlIterator
      {
 
-    /* Constants */
+    /* Константы */
     
+     public
      const
      int
-      KEY_SEQUENTIAL = 0;
+      KEY_SEQUENTIAL;
 
-    const
+    public
+     const
      int
-      KEY_LEFT = 1;
+      KEY_LEFT;
 
-    const
+    public
+     const
      int
-      KEY_RIGHT = 2;
+      KEY_RIGHT;
 
 
     /* Методы */
@@ -74,4 +73,4 @@ public IntlIterator::valid(): bool
 
 ## Зміст
 
--   [IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.md) — Отримати IntlBreakIterator, зберігаючи ітератор цієї частини
+-   [IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.md)— Отримати IntlBreakIterator, зберігаючи ітератор цієї частини

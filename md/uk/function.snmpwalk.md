@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
 title: snmpwalk
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # snmpwalk
 
@@ -15,10 +16,10 @@ snmpwalk — Отримує всі об'єкти SNMP із агента
 ### Опис
 
 ```methodsynopsis
-snmpwalk(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
+snmpwalk(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
 ```
 
-Функція **snmpwalk()** використовується для читання всіх значень агента SNMP, зазначеного в `hostname`
+Функция**snmpwalk()** використовується для читання всіх значень агента SNMP, зазначеного в `hostname`
 
 ### Список параметрів
 
@@ -46,11 +47,11 @@ Read-спільнота.
 
 ### Значення, що повертаються
 
-Повертає масив значень об'єкта SNMP, починаючи з `object_id` як корінь або **`false`** у разі виникнення помилки.
+Повертає масив значень об'єкта SNMP, починаючи з `object_id` як корінь або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmpwalk()****
+**Пример #1 Пример использования**snmpwalk()\*\*\*\*
 
 ```php
 <?php
@@ -67,4 +68,4 @@ foreach ($a as $val) {
 
 ### Дивіться також
 
--   [snmprealwalk()](function.snmprealwalk.md) - Повертає всі об'єкти, включаючи їхній ідентифікатор
+-   [snmprealwalk()](function.snmprealwalk.md) \- Повертає всі об'єкти, включаючи їхній ідентифікатор

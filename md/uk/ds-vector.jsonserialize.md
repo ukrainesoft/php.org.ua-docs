@@ -1,19 +1,20 @@
 ---
 navigation:
-  - ds-vector.join.md: '« DsVector::join'
-  - ds-vector.last.md: 'ДсVector::last »'
+  - ds-vector.join.md: '« Ds\\Vector::join'
+  - ds-vector.last.md: 'Ds\\Vector::last »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::jsonSerialize'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::jsonSerialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::jsonSerialize
+# Ds\\Vector::jsonSerialize
 
 (PECL ds >= 1.0.0)
 
-ДсVector::jsonSerialize — Повертає вектор у JSON-представництві
+Ds\\Vector::jsonSerialize — Повертає вектор у JSON-представництві
 
-Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
+Смотрите[JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ніколи не використовуйте цю функцію безпосередньо.

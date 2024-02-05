@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: getprotobyname
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # getprotobyname
 
@@ -18,7 +19,7 @@ getprotobyname — Отримує номер протоколу на ім'я
 getprotobyname(string $protocol): int|false
 ```
 
-Функція **getprotobyname()** повертає номер протоколу на ім'я, зазначеному у параметрі `protocol` згідно з /etc/protocols.
+Функция**getprotobyname()** повертає номер протоколу на ім'я, зазначеному у параметрі `protocol`согласно /etc/protocols.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ getprotobyname(string $protocol): int|false
 
 ### Значення, що повертаються
 
-Повертає номер протоколу або **`false`** у разі виникнення помилки.
+Повертає номер протоколу або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getprotobyname()****
+**Пример #1 Пример использования**getprotobyname()\*\*\*\*
 
 ```php
 <?php
@@ -48,4 +49,4 @@ if ($get_prot === FALSE) {
 
 ### Дивіться також
 
--   [getprotobynumber()](function.getprotobynumber.md) - Отримує ім'я протоколу за номером
+-   [getprotobynumber()](function.getprotobynumber.md) \- Отримує ім'я протоколу за номером

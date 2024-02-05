@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.odbc-field-num.md: « odbcfieldnum
-  - function.odbc-field-scale.md: odbcfieldscale »
+  - function.odbc-field-num.md: « odbc\_field\_num
+  - function.odbc-field-scale.md: odbc\_field\_scale »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcfieldprecision
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_field\_precision
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcfieldprecision
+# odbc\_field\_precision
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcfieldprecision - Псевдонім [odbcfieldlen()](function.odbc-field-len.md)
+odbc\_field\_precision — Псевдоним[odbc\_field\_len()](function.odbc-field-len.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [odbcfieldlen()](function.odbc-field-len.md)
+Функция — псевдоним функции:[odbc\_field\_len()](function.odbc-field-len.md)
 
 ### Дивіться також
 
--   [odbcfieldscale()](function.odbc-field-scale.md) - Повертає масштаб поля для набуття масштабу числа з плаваючою точкою
+-   [odbc\_field\_scale()](function.odbc-field-scale.md) \- Повертає масштаб поля для набуття масштабу числа з плаваючою точкою

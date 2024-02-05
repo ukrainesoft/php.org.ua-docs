@@ -4,13 +4,14 @@ navigation:
   - class.reflectionmethod.md: ReflectionMethod »
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
-title: 'ReflectionFunctionAbstract::toString'
+title: 'ReflectionFunctionAbstract::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionFunctionAbstract::toString
+# ReflectionFunctionAbstract::\_\_function toString() { \[native code\] }
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::toString — Перетворення на рядок
+ReflectionFunctionAbstract::\_\_toString — Повертає строкове представлення об'єкта ReflectionFunctionAbstract
 
 ### Опис
 
@@ -18,11 +19,7 @@ ReflectionFunctionAbstract::toString — Перетворення на рядо�
 abstract public ReflectionFunctionAbstract::__toString(): void
 ```
 
-Подання у вигляді рядка.
-
-**Увага**
-
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Отримує рядкове представлення функції, її параметрів та значень, що повертаються.
 
 ### Список параметрів
 
@@ -34,5 +31,6 @@ abstract public ReflectionFunctionAbstract::__toString(): void
 
 ### Дивіться також
 
--   **ReflectionClass::clone()**
--   [toString()](language.oop5.magic.md#object.tostring)
+-   [ReflectionFunction::\_\_toString()](reflectionfunction.tostring.md) \- Повертає рядкову виставу об'єкта ReflectionFunction
+-   [ReflectionMethod::\_\_toString()](reflectionmethod.tostring.md) \- Повертає рядкову виставу об'єкта ReflectionMethod
+-   [\_\_toString()](language.oop5.magic.md#object.tostring)

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcache.md: Memcache
 title: 'Memcache::pconnect'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcache::pconnect
 
@@ -18,17 +19,17 @@ Memcache::pconnect — Відкриває постійне з'єднання з 
 Memcache::pconnect(string $host, int $port = ?, int $timeout = ?): mixed
 ```
 
-**Memcache::pconnect()** аналогічна [Memcache::connect()](memcache.connect.md) з тією різницею, що з'єднання встановлюється незмінним. Це з'єднання не закривається після завершення виконання скрипту та функцією [Memcache::close()](memcache.close.md). Ви також можете використати функцію **memcachepconnect()**
+\*\*Memcache::pconnect()\*\*аналогична[Memcache::connect()](memcache.connect.md) з тією різницею, що з'єднання встановлюється незмінним. Це з'єднання не закривається після завершення виконання скрипту та функцією [Memcache::close()](memcache.close.md). Ви також можете використати функцію **memcache\_pconnect()**
 
 ### Список параметрів
 
 `host`
 
-Вказує на хост, на якому memcached прослуховує з'єднання. Цей параметр також може вказувати на інший транспорт, такий як `unix:///path/to/memcached.sock`, для використання сокетів домену UNIX, у цьому випадку `port` повинен встановлений у `0`
+Вказує на хост, на якому memcached прослуховує з'єднання. Цей параметр також може вказувати на інший транспорт, такий як `unix:///path/to/memcached.sock`, для використання сокетів домену UNIX, у цьому випадку `port`должен установлен в
 
 `port`
 
-Вказує на порт, на якому memcached прослуховує з'єднання. Встановіть цей параметр на `0`коли використовуються сокети домену UNIX.
+Вказує на порт, на якому memcached прослуховує з'єднання. Встановіть цей параметр на коли використовуються сокети домену UNIX.
 
 `timeout`
 
@@ -36,11 +37,11 @@ Memcache::pconnect(string $host, int $port = ?, int $timeout = ?): mixed
 
 ### Значення, що повертаються
 
-Повертає об'єкт Memcache або **`false`** у разі виникнення помилки.
+Повертає об'єкт Memcache або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcache::pconnect()****
+**Пример #1 Пример использования**Memcache::pconnect()\*\*\*\*
 
 ```php
 <?php
@@ -57,4 +58,4 @@ $memcache_obj->pconnect('memcache_host', 11211);
 
 ### Дивіться також
 
--   [Memcache::connect()](memcache.connect.md) - Відкриває з'єднання з сервером memcached
+-   [Memcache::connect()](memcache.connect.md) \- Відкриває з'єднання з сервером memcached

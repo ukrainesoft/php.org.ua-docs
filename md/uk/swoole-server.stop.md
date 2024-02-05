@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.stats.md: '« SwooleServer::stats'
-  - swoole-server.task.md: 'SwooleServer::task »'
+  - swoole-server.stats.md: '« Swoole\\Server::stats'
+  - swoole-server.task.md: 'Swoole\\Server::task »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::stop'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::stop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::stop
+# Swoole\\Server::stop
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::stop — Зупиняє сервер Swoole
+Swoole\\Server::stop — Зупиняє сервер Swoole
 
 ### Опис
 

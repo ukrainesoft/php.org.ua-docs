@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-getgrgid.md: « posixgetgrgid
-  - function.posix-getgroups.md: posixgetgroups »
+  - function.posix-getgrgid.md: « posix\_getgrgid
+  - function.posix-getgroups.md: posix\_getgroups »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixgetgrnam
+  - ref.posix.md: POSIX Функції
+title: posix\_getgrnam
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixgetgrnam
+# posix\_getgrnam
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posixgetgrnam — Повертає інформацію про групу, використовуючи її ім'я
+posix\_getgrnam — Повертає інформацію про групу, використовуючи її ім'я
 
 ### Опис
 
@@ -32,7 +33,7 @@ posix_getgrnam(string $name): array|false
 
 **Масив з інформацією про групу**
 
-| Элемент | Описание |
+| Элемент | Опис |
 | --- | --- |
 | name | Елемент name містить назву групи. Це короткий, зазвичай менше 16 символів "дескриптор" групи, що не є дійсним повним ім'ям групи. Він має відповідати `name` параметра, що використовується в цій функції. Елемент є надлишковим. |
 | passwd | Елемент passwd містить пароль групи у зашифрованому вигляді. Часто, наприклад, у системах, що використовують "shadow" файли для зберігання інформації про паролі, це поле містить зірочку. |
@@ -41,7 +42,7 @@ posix_getgrnam(string $name): array|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posixgetgrnam()****
+**Пример #1 Пример использования**posix\_getgrnam()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ print_r($groupinfo);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -70,8 +71,8 @@ Array
 
 ### Дивіться також
 
--   [posixgetegid()](function.posix-getegid.md) - Повертає ефективний ідентифікатор групи поточного процесу EGID
--   [posixgetgrgid()](function.posix-getgrgid.md) - Повертає інформацію про групу за її ID
--   [filegroup()](function.filegroup.md) - Отримує ідентифікатор групи файлу
--   [stat()](function.stat.md) - Повертає інформацію про файл
+-   [posix\_getegid()](function.posix-getegid.md) \- Повертає ефективний ідентифікатор групи поточного процесу EGID
+-   [posix\_getgrgid()](function.posix-getgrgid.md) \- Повертає інформацію про групу за її ID
+-   [filegroup()](function.filegroup.md) \- Отримує ідентифікатор групи файлу
+-   [stat()](function.stat.md) \- Повертає інформацію про файл
 -   POSIX керівництво GETGRNAM(3)

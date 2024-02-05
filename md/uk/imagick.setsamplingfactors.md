@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setSamplingFactors'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setSamplingFactors
 
@@ -30,7 +31,7 @@ public Imagick::setSamplingFactors(array $factors): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setSamplingFactors()****
+**Пример #1 Пример использования**Imagick::setSamplingFactors()\*\*\*\*
 
 ```php
 <?php

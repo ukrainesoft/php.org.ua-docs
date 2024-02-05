@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setTextUnderColor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setTextUnderColor
 
@@ -20,7 +21,7 @@ public ImagickDraw::setTextUnderColor(ImagickPixel $under_color): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Задає колір прямокутника для розміщення під текстовими анотаціями.
 
@@ -36,7 +37,7 @@ public ImagickDraw::setTextUnderColor(ImagickPixel $under_color): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setTextUnderColor()****
+**Пример #1 Пример использования**ImagickDraw::setTextUnderColor()\*\*\*\*
 
 ```php
 <?php

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.put.md: '« DsMap::put'
-  - ds-map.reduce.md: 'ДсMap::reduce »'
+  - ds-map.put.md: '« Ds\\Map::put'
+  - ds-map.reduce.md: 'Ds\\Map::reduce »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::putAll'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::putAll'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::putAll
+# Ds\\Map::putAll
 
 (PECL ds >= 1.0.2)
 
-ДсMap::putAll — Зв'язує з колекцією всі пари ключ-значення з об'єкта класу traversable або масиву
+Ds\\Map::putAll — Зв'язує з колекцією всі пари ключ-значення з об'єкта класу traversable або масиву
 
 ### Опис
 
@@ -18,17 +19,17 @@ title: 'ДсMap::putAll'
 public Ds\Map::putAll(mixed $pairs): void
 ```
 
-Зв'язує з колекцією всі пари ключ-значення `pairs` з об'єкту класу [traversable](class.traversable.md) або array.
+Зв'язує з колекцією всі пари ключ-значення `pairs` з об'єкту класу [traversable](class.traversable.md)или array.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Підтримуються значення типу об'єкта. Якщо об'єкт реалізує інтерфейс **ДсHashable**, перевірка здійснюється шляхом виклику методу об'єкта `equals`. Якщо об'єкт не реалізує інтерфейс **ДсHashable**, об'єкти повинні посилатися на той самий екземпляр класу.
+> Підтримуються значення типу об'єкта. Якщо об'єкт реалізує інтерфейс [Ds\\Hashable](class.ds-hashable.md), перевірка здійснюється шляхом виклику методу об'єкта `equals`. Якщо об'єкт не реалізує інтерфейс [Ds\\Hashable](class.ds-hashable.md), об'єкти повинні посилатися на той самий екземпляр класу.
 
 ### Список параметрів
 
 `pairs`
 
-Об'єкт класу [traversable](class.traversable.md) або array.
+Об'єкт класу [traversable](class.traversable.md)или array.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public Ds\Map::putAll(mixed $pairs): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::putAll()****
+**Пример #1 Пример использования**Ds\\Map::putAll()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ print_r($map);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Map Object

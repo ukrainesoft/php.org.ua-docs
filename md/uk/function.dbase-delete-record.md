@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.dbase-create.md: « dbasecreate
-  - function.dbase-get-header-info.md: dbasegetheaderinfo »
+  - function.dbase-create.md: « dbase\_create
+  - function.dbase-get-header-info.md: dbase\_get\_header\_info »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
-title: dbasedeleterecord
+title: dbase\_delete\_record
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dbasedeleterecord
+# dbase\_delete\_record
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-dbasedeleterecord — Видалення записів з бази даних
+dbase\_delete\_record — Видалення записів з бази даних
 
 ### Опис
 
@@ -20,31 +21,31 @@ dbase_delete_record(resource $database, int $number): bool
 
 Позначає записи для видалення з бази даних.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для остаточного видалення записів з бази даних необхідно викликати [dbasepack()](function.dbase-pack.md)
+> Для остаточного видалення записів з бази даних необхідно викликати [dbase\_pack()](function.dbase-pack.md)
 
 ### Список параметрів
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
+Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.md) або [dbase\_create()](function.dbase-create.md)
 
 `number`
 
-Ціле число, в проміжку від 1 до кількості записів у базі динних (кількість записів повертає функція [dbasenumrecords()](function.dbase-numrecords.md)
+Ціле число, в проміжку від 1 до кількості записів у базі динних (кількість записів повертає функція [dbase\_numrecords()](function.dbase-numrecords.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
+| dbase 7.0.0 | Параметр`database` тепер має тип resource, а не int. |
 
 ### Дивіться також
 
--   [dbaseaddrecord()](function.dbase-add-record.md) - Додає запис до бази даних
--   [dbasereplacerecord()](function.dbase-replace-record.md) - Замінює запис у базі даних
+-   [dbase\_add\_record()](function.dbase-add-record.md) \- Додає запис до бази даних
+-   [dbase\_replace\_record()](function.dbase-replace-record.md) \- Замінює запис у базі даних

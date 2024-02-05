@@ -1,10 +1,11 @@
 ---
 navigation:
-  - domelement.hasattributens.md: '« DOMElement::hasAttributeNS'
+  - domelement.remove.md: '« DOMElement::remove'
   - domelement.removeattributenode.md: 'DOMElement::removeAttributeNode »'
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
 title: 'DOMElement::removeAttribute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMElement::removeAttribute
 
@@ -18,7 +19,7 @@ DOMElement::removeAttribute — Видаляє атрибут
 public DOMElement::removeAttribute(string $qualifiedName): bool
 ```
 
-Видаляє атрибут з ім'ям `qualifiedName` елемент.
+Удаляет атрибут с именем`qualifiedName` елемент.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public DOMElement::removeAttribute(string $qualifiedName): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -38,6 +39,6 @@ public DOMElement::removeAttribute(string $qualifiedName): bool
 
 ### Дивіться також
 
--   [DOMElement::hasAttribute()](domelement.hasattribute.md) - Перевіряє, чи існує атрибут
--   [DOMElement::getAttribute()](domelement.getattribute.md) - Повертає значення атрибуту
--   [DOMElement::setAttribute()](domelement.setattribute.md) - Додає новий або змінює існуючий атрибут
+-   [DOMElement::hasAttribute()](domelement.hasattribute.md) \- Перевіряє, чи існує атрибут
+-   [DOMElement::getAttribute()](domelement.getattribute.md) \- Повертає значення атрибуту
+-   [DOMElement::setAttribute()](domelement.setattribute.md) \- Додає новий або змінює існуючий атрибут

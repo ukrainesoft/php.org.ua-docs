@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-router.getcurrentroute.md: '« YafRouter::getCurrentRoute'
-  - yaf-router.getroutes.md: 'YafRouter::getRoutes »'
+  - yaf-router.getcurrentroute.md: '« Yaf\_Router::getCurrentRoute'
+  - yaf-router.getroutes.md: 'Yaf\_Router::getRoutes »'
   - index.md: PHP Manual
-  - class.yaf-router.md: YafRouter
-title: 'YafRouter::getRoute'
+  - class.yaf-router.md: Yaf\_Router
+title: 'Yaf\_Router::getRoute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouter::getRoute
+# Yaf\_Router::getRoute
 
 (Yaf >=1.0.0)
 
-YafRouter::getRoute — Отримує маршрут на ім'я
+Yaf\_Router::getRoute — Отримує маршрут на ім'я
 
 ### Опис
 
@@ -18,7 +19,7 @@ YafRouter::getRoute — Отримує маршрут на ім'я
 public Yaf_Router::getRoute(string $name): Yaf_Route_Interface
 ```
 
-Отримує маршрут на ім'я, дивіться також [YafRouter::getCurrentRoute()](yaf-router.getcurrentroute.md)
+Получает маршрут по имени, смотрите также[Yaf\_Router::getCurrentRoute()](yaf-router.getcurrentroute.md)
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public Yaf_Router::getRoute(string $name): Yaf_Route_Interface
 
 ### Дивіться також
 
--   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)
--   [YafPluginAbstract](class.yaf-plugin-abstract.md)
--   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора
--   [YafRouter::getCurrentRoute()](yaf-router.getcurrentroute.md) - Отримує ім'я діючого маршруту
+-   [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.md)
+-   [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.md)
+-   [Yaf\_Router::addRoute()](yaf-router.addroute.md) \- Додає новий маршрут до маршрутизатора
+-   [Yaf\_Router::getCurrentRoute()](yaf-router.getcurrentroute.md) \- Отримує ім'я діючого маршруту

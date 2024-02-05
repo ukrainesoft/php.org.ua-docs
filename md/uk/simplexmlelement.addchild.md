@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.simplexmlelement.md: SimpleXMLElement
 title: 'SimpleXMLElement::addChild'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SimpleXMLElement::addChild
 
-(PHP 5> = 5.1.3, PHP 7, PHP 8)
+(PHP 5 >= 5.1.3, PHP 7, PHP 8)
 
 SimpleXMLElement::addChild — Додає дочірній елемент до сайту XML
 
@@ -36,13 +37,13 @@ public SimpleXMLElement::addChild(string $qualifiedName, ?string $value = null, 
 
 ### Значення, що повертаються
 
-Метод `addChild` повертає об'єкт [SimpleXMLElement](class.simplexmlelement.md), Що представляє доданого нащадка до вузла XML у разі успішного виконання; **`null`** у разі виникнення помилки.
+Метод`addChild` повертає об'єкт [SimpleXMLElement](class.simplexmlelement.md), Що представляє доданого нащадка до вузла XML у разі успішного виконання; \*\*`null`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базовому использованию](simplexml.examples-basic.md)
+> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базового використання](simplexml.examples-basic.md)
 
 **Приклад #1 Додавання атрибутів та нащадків до елемента SimpleXML**
 
@@ -71,7 +72,7 @@ echo $sxe->asXML();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 <?xml version="1.0" standalone="yes"?>
@@ -115,5 +116,5 @@ echo $sxe->asXML();
 
 ### Дивіться також
 
--   [SimpleXMLElement::addAttribute()](simplexmlelement.addattribute.md) - Додає атрибут до SimpleXML-елементу
--   [Базовое использование SimpleXML](simplexml.examples-basic.md)
+-   [SimpleXMLElement::addAttribute()](simplexmlelement.addattribute.md) \- Додає атрибут до SimpleXML-елементу
+-   [Базове використання SimpleXML](simplexml.examples-basic.md)

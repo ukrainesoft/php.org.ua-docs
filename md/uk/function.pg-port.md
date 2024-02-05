@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-ping.md: « pgping
-  - function.pg-prepare.md: пгprepare »
+  - function.pg-ping.md: « pg\_ping
+  - function.pg-prepare.md: pg\_prepare »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгport
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_port
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгport
+# pg\_port
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-пгport — Повертає номер порту, який відповідає заданому з'єднанню
+pg\_port — Повертає номер порту, який відповідає заданому з'єднанню
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: пгport
 pg_port(?PgSql\Connection $connection = null): string
 ```
 
-**пгport()** повертає номер порту, який відповідає заданому з'єднанню PostgreSQL `connection`
+**pg\_port()** повертає номер порту, який відповідає заданому з'єднанню PostgreSQL `connection`
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection`указан как\*\*`null`\*\*, вибирається стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -36,14 +37,14 @@ pg_port(?PgSql\Connection $connection = null): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `connection` тепер допускає значення null. |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгport()****
+**Пример #1 Пример использования**pg\_port()\*\*\*\*
 
 ```php
 <?php

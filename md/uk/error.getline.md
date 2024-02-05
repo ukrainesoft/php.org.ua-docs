@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.error.md: Error
 title: 'Error::getLine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Error::getLine
 
@@ -42,7 +43,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ошибка создана в строке: 3
@@ -50,4 +51,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getLine()](throwable.getline.md) - Отримує рядок скрипта, в якому цей об'єкт було викинуто
+-   [Throwable::getLine()](throwable.getline.md) \- Отримує рядок скрипта, в якому цей об'єкт був викинутий

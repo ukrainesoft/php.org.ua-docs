@@ -1,44 +1,45 @@
 ---
 navigation:
   - mcrypt.ciphers.md: « Шифри Mcrypt
-  - function.mcrypt-create-iv.md: mcryptcreateiv »
+  - function.mcrypt-create-iv.md: mcrypt\_create\_iv »
   - index.md: PHP Manual
   - book.mcrypt.md: Mcrypt
 title: Mcrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Mcrypt
 
 ## Зміст
 
--   [mcryptcreateверб](function.mcrypt-create-iv.md) — Створити вектор, що ініціалізує (Initialization Vector або IV) з випадкового джерела.
--   [mcryptdecrypt](function.mcrypt-decrypt.md) — Розшифровує дані із заданими параметрами
--   [mcryptencgetalgorithmsname](function.mcrypt-enc-get-algorithms-name.md) — Повертає ім'я алгоритму
--   [mcryptencgetblocksize](function.mcrypt-enc-get-block-size.md) — Повертає розмір блоку алгоритму
--   [mcryptencgetвербsize](function.mcrypt-enc-get-iv-size.md) — Повертає розмір вектора, що ініціалізує, для алгоритму
--   [mcryptencgetkeysize](function.mcrypt-enc-get-key-size.md) — Повертає максимальну допустиму довжину ключа алгоритму
--   [mcryptencgetmodesname](function.mcrypt-enc-get-modes-name.md) — Повертає ім'я режиму, що використовується.
--   [mcryptencgetsupportedkeysizes](function.mcrypt-enc-get-supported-key-sizes.md) — Повертає масив із допустимими розмірами ключа для алгоритму, що використовується.
--   [mcryptencісblockalgorithmmode](function.mcrypt-enc-is-block-algorithm-mode.md) — Перевіряє, чи використовується блоковий режим
--   [mcryptencісblockalgorithm](function.mcrypt-enc-is-block-algorithm.md) — Перевіряє, чи використовує алгоритм блокові режими
--   [mcryptencісblockmode](function.mcrypt-enc-is-block-mode.md) — Перевіряє, чи поточний режим повертає блоки
--   [mcryptencselftest](function.mcrypt-enc-self-test.md) - Запуск самоперевірки відкритого модуля
--   [mcryptencrypt](function.mcrypt-encrypt.md) — Шифрує текст із заданими параметрами
--   [mcryptgenericdeinit](function.mcrypt-generic-deinit.md) — Ця функція деініціалізує модуль шифрування
--   [mcryptgenericinit](function.mcrypt-generic-init.md) — Функція ініціалізує всі буфери, необхідні для шифрування
--   [mcryptgeneric](function.mcrypt-generic.md) - Функція шифрує дані
--   [mcryptgetblocksize](function.mcrypt-get-block-size.md) — Повертає розмір блоку для зазначеного шифру
--   [mcryptgetciphername](function.mcrypt-get-cipher-name.md) — Отримує ім'я вказаного шифру
--   [mcryptgetвербsize](function.mcrypt-get-iv-size.md) — Повертає розмір вектора, що ініціалізує, для відповідної комбінації шифру та режиму.
--   [mcryptgetkeysize](function.mcrypt-get-key-size.md) — Отримати розмір ключа заданого шифру
--   [mcryptlistalgorithms](function.mcrypt-list-algorithms.md) — Отримати список усіх підтримуваних алгоритмів шифрування
--   [mcryptlistmodes](function.mcrypt-list-modes.md) — Отримати список усіх підтримуваних режимів шифрування
--   [mcryptmoduleclose](function.mcrypt-module-close.md) — Закриває модуль mcrypt
--   [mcryptmodulegetalgoblocksize](function.mcrypt-module-get-algo-block-size.md) — Повертає розмір блоку вказаного алгоритму
--   [mcryptmodulegetalgokeysize](function.mcrypt-module-get-algo-key-size.md) — Повертає максимальний розмір ключа відкритого режиму
--   [mcryptmodulegetsupportedkeysizes](function.mcrypt-module-get-supported-key-sizes.md) — Повертає список підтримуваних розмірів ключів для відкритого алгоритму
--   [mcryptmoduleісblockalgorithmmode](function.mcrypt-module-is-block-algorithm-mode.md) — Перевіряє, чи заданий модуль є блоковим чи ні
--   [mcryptmoduleісblockalgorithm](function.mcrypt-module-is-block-algorithm.md) — Перевіряє, чи заданий алгоритм є блоковим чи ні
--   [mcryptmoduleісblockmode](function.mcrypt-module-is-block-mode.md) — Перевірити, чи повертає зазначений режим дані блоками чи ні
--   [mcryptmoduleopen](function.mcrypt-module-open.md) — Відкриває модуль шифрування з використанням вказаних алгоритмів та режимів.
--   [mcryptmoduleselftest](function.mcrypt-module-self-test.md) — Функція запускає самоперевірку вказаного модуля
--   [mdecryptgeneric](function.mdecrypt-generic.md) - Дешифрування даних
+-   [mcrypt\_create\_iv](function.mcrypt-create-iv.md)— Створити ініціалізуючий вектор (Initialization Vector або IV) із випадкового джерела
+-   [mcrypt\_decrypt](function.mcrypt-decrypt.md)— Розшифровує дані із заданими параметрами
+-   [mcrypt\_enc\_get\_algorithms\_name](function.mcrypt-enc-get-algorithms-name.md)— Повертає ім'я алгоритму
+-   [mcrypt\_enc\_get\_block\_size](function.mcrypt-enc-get-block-size.md)— Повертає розмір блоку алгоритму
+-   [mcrypt\_enc\_get\_iv\_size](function.mcrypt-enc-get-iv-size.md)— Повертає розмір вектора, що ініціалізує, для алгоритму
+-   [mcrypt\_enc\_get\_key\_size](function.mcrypt-enc-get-key-size.md)— Повертає максимальну допустиму довжину ключа алгоритму
+-   [mcrypt\_enc\_get\_modes\_name](function.mcrypt-enc-get-modes-name.md)— Повертає ім'я режиму, що використовується.
+-   [mcrypt\_enc\_get\_supported\_key\_sizes](function.mcrypt-enc-get-supported-key-sizes.md)— Повертає масив із допустимими розмірами ключа для алгоритму, що використовується.
+-   [mcrypt\_enc\_is\_block\_algorithm\_mode](function.mcrypt-enc-is-block-algorithm-mode.md)— Перевіряє, чи використовується блоковий режим
+-   [mcrypt\_enc\_is\_block\_algorithm](function.mcrypt-enc-is-block-algorithm.md)— Перевіряє, чи використовує алгоритм блокові режими
+-   [mcrypt\_enc\_is\_block\_mode](function.mcrypt-enc-is-block-mode.md)— Перевіряє, чи поточний режим повертає блоки
+-   [mcrypt\_enc\_self\_test](function.mcrypt-enc-self-test.md) \- Запуск самоперевірки відкритого модуля
+-   [mcrypt\_encrypt](function.mcrypt-encrypt.md)— Шифрує текст із заданими параметрами
+-   [mcrypt\_generic\_deinit](function.mcrypt-generic-deinit.md)— Ця функція деініціалізує модуль шифрування
+-   [mcrypt\_generic\_init](function.mcrypt-generic-init.md)— Функція ініціалізує всі буфери, необхідні для шифрування
+-   [mcrypt\_generic](function.mcrypt-generic.md) \- Функція шифрує дані
+-   [mcrypt\_get\_block\_size](function.mcrypt-get-block-size.md)— Повертає розмір блоку для зазначеного шифру
+-   [mcrypt\_get\_cipher\_name](function.mcrypt-get-cipher-name.md)— Отримує ім'я вказаного шифру
+-   [mcrypt\_get\_iv\_size](function.mcrypt-get-iv-size.md)— Повертає розмір вектора, що ініціалізує, для відповідної комбінації шифру та режиму.
+-   [mcrypt\_get\_key\_size](function.mcrypt-get-key-size.md)— Отримати розмір ключа заданого шифру
+-   [mcrypt\_list\_algorithms](function.mcrypt-list-algorithms.md)— Отримати список усіх підтримуваних алгоритмів шифрування
+-   [mcrypt\_list\_modes](function.mcrypt-list-modes.md)— Отримати список усіх підтримуваних режимів шифрування
+-   [mcrypt\_module\_close](function.mcrypt-module-close.md)— Закриває модуль mcrypt
+-   [mcrypt\_module\_get\_algo\_block\_size](function.mcrypt-module-get-algo-block-size.md)— Повертає розмір блоку вказаного алгоритму
+-   [mcrypt\_module\_get\_algo\_key\_size](function.mcrypt-module-get-algo-key-size.md)— Повертає максимальний розмір ключа відкритого режиму
+-   [mcrypt\_module\_get\_supported\_key\_sizes](function.mcrypt-module-get-supported-key-sizes.md)— Повертає список підтримуваних розмірів ключів для відкритого алгоритму
+-   [mcrypt\_module\_is\_block\_algorithm\_mode](function.mcrypt-module-is-block-algorithm-mode.md)— Перевіряє, чи заданий модуль є блоковим чи ні
+-   [mcrypt\_module\_is\_block\_algorithm](function.mcrypt-module-is-block-algorithm.md)— Перевіряє, чи заданий алгоритм є блоковим чи ні
+-   [mcrypt\_module\_is\_block\_mode](function.mcrypt-module-is-block-mode.md)— Перевірити, чи повертає зазначений режим дані блоками чи ні
+-   [mcrypt\_module\_open](function.mcrypt-module-open.md)— Відкриває модуль шифрування з використанням вказаних алгоритмів та режимів.
+-   [mcrypt\_module\_self\_test](function.mcrypt-module-self-test.md)— Функція запускає самоперевірку вказаного модуля
+-   [mdecrypt\_generic](function.mdecrypt-generic.md) \- Дешифрування даних

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-mult.md: « tradermult
-  - function.trader-obv.md: traderobv »
+  - function.trader-mult.md: « trader\_mult
+  - function.trader-obv.md: trader\_obv »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradernatr
+  - ref.trader.md: Функції Trader
+title: trader\_natr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradernatr
+# trader\_natr
 
 (PECL trader >= 0.2.0)
 
-tradernatr - Нормалізований середній істинний діапазон
+trader\_natr - Нормалізований середній істинний діапазон
 
 ### Опис
 
 ```methodsynopsis
-trader_natr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_natr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

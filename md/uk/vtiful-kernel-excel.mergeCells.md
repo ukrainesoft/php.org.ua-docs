@@ -1,16 +1,17 @@
 ---
 navigation:
-  - vtiful-kernel-excel.insertText.md: '« VtifulKernelExcel::insertText'
-  - vtiful-kernel-excel.output.md: 'VtifulKernelExcel::output »'
+  - vtiful-kernel-excel.insertText.md: '« Vtiful\\Kernel\\Excel::insertText'
+  - vtiful-kernel-excel.output.md: 'Vtiful\\Kernel\\Excel::output »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.md: VtifulKernelExcel
-title: 'VtifulKernelExcel::mergeCells'
+  - class.vtiful-kernel-excel.md: Vtiful\\Kernel\\Excel
+title: 'Vtiful\\Kernel\\Excel::mergeCells'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelExcel::mergeCells
+# Vtiful\\Kernel\\Excel::mergeCells
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelExcel::mergeCells — Об'єднати осередки
+Vtiful\\Kernel\\Excel::mergeCells — Об'єднати осередки
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Vtiful\Kernel\Excel::mergeCells(string $scope, string $data)
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

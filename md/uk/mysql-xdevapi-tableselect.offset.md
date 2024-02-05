@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-tableselect.lockshared.md: '« TableSelect::lockShared'
   - mysql-xdevapi-tableselect.orderby.md: 'TableSelect::orderby »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysql\_xdevapi\\TableSelect
 title: 'TableSelect::offset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableSelect::offset
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableSelect::offset(int $position): mysql_xdevapi\TableSele
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::offset()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::offset()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ print_r($row);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

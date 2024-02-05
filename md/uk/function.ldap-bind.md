@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-bind-ext.md: « ldapbindext
-  - function.ldap-close.md: ldapclose »
+  - function.ldap-bind-ext.md: « ldap\_bind\_ext
+  - function.ldap-close.md: ldap\_close »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapbind
+title: ldap\_bind
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapbind
+# ldap\_bind
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapbind — Прив'язати до LDAP директорії
+ldap\_bind — Прив'язати до LDAP директорії
 
 ### Опис
 
@@ -24,23 +25,23 @@ ldap_bind(LDAP\Connection $ldap, ?string $dn = null, ?string $password = null): 
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `dn`
 
 `password`
 
-Якщо `password` не визначено, то буде спроба анонімної прив'язки. Також для анонімної прив'язки можна залишити порожнім `dn`, як визначено в [https://tools.ietf.org/html/rfc2251#section-4.2.2](https://tools.ietf.org/html/rfc2251#section-4.2.2)
+Якщо `password` не визначено, то буде спроба анонімної прив'язки. Також для анонімної прив'язки можна залишити порожнім `dn`, как определено в[https://tools.ietf.org/html/rfc2251#section-4.2.2](https://tools.ietf.org/html/rfc2251#section-4.2.2)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
 
 ### Приклади
 
@@ -103,5 +104,5 @@ if ($ldapconn) {
 
 ### Дивіться також
 
--   [ldapbindext()](function.ldap-bind-ext.md) - Прив'язати до директорії LDAP
--   [ldapunbind()](function.ldap-unbind.md) - Розірвати прив'язку до директорії LDAP
+-   [ldap\_bind\_ext()](function.ldap-bind-ext.md) \- Прив'язати до директорії LDAP
+-   [ldap\_unbind()](function.ldap-unbind.md) \- Розірвати прив'язку до директорії LDAP

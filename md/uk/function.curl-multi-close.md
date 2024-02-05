@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-multi-add-handle.md: « curlmultiaddhandle
-  - function.curl-multi-errno.md: curlmultierrno »
+  - function.curl-multi-add-handle.md: « curl\_multi\_add\_handle
+  - function.curl-multi-errno.md: curl\_multi\_errno »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlmulticlose
+  - ref.curl.md: Опції cURL
+title: curl\_multi\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlmulticlose
+# curl\_multi\_close
 
 (PHP 5, PHP 7, PHP 8)
 
-curlmulticlose — Закриває набір cURL-дескрипторів
+curl\_multi\_close — Закриває набір cURL-дескрипторів
 
 ### Опис
 
@@ -18,7 +19,7 @@ curlmulticlose — Закриває набір cURL-дескрипторів
 curl_multi_close(CurlMultiHandle $multi_handle): void
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Використання функції не має сенсу. До PHP 8.0.0 вона використовувалася для закриття ресурсу.
 
@@ -28,7 +29,7 @@ curl_multi_close(CurlMultiHandle $multi_handle): void
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.md)
+Мультидескриптор cURL, отриманий з [curl\_multi\_init()](function.curl-multi-init.md)
 
 ### Значення, що повертаються
 
@@ -36,13 +37,13 @@ curl_multi_close(CurlMultiHandle $multi_handle): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| 8.0.0 | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curlmulticlose()****
+**Пример #1 Пример использования**curl\_multi\_close()\*\*\*\*
 
 Цей приклад створить два дескриптори cURL, додасть в набір дескрипторів, а потім запустить їх асинхронно.
 
@@ -85,5 +86,5 @@ curl_multi_close($mh);
 
 ### Дивіться також
 
--   [curlmultiinit()](function.curl-multi-init.md) - Створює набір cURL-дескрипторів
--   [curlclose()](function.curl-close.md) - Завершує сеанс cURL
+-   [curl\_multi\_init()](function.curl-multi-init.md) \- Створює набір cURL-дескрипторів
+-   [curl\_close()](function.curl-close.md) \- Завершує сеанс cURL

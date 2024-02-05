@@ -1,10 +1,11 @@
 ---
 navigation:
-  - evstat.construct.md: '« EvStat::construct'
+  - evstat.construct.md: '« EvStat::\_\_construct'
   - evstat.prev.md: 'EvStat::prev »'
   - index.md: PHP Manual
   - class.evstat.md: EvStat
 title: 'EvStat::createStopped'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvStat::createStopped
 
@@ -18,27 +19,27 @@ EvStat::createStopped — Створює зупинений об'єкт спос
 final
    public
    static
-   EvStat::createStopped(    
+   EvStat::createStopped(    
     string
      $path
-   ,    
+   ,    
     float
      $interval
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
    ): void
 ```
 
-Створює об'єкт спостерігача EvStat, але не запускає його автоматично (на відміну від [EvStat::construct()](evstat.construct.md)
+Створює об'єкт спостерігача EvStat, але не запускає його автоматично (на відміну від [EvStat::\_\_construct()](evstat.construct.md)
 
 ### Список параметрів
 
@@ -52,7 +53,7 @@ final
 
 `callback`
 
-Дивіться [Спостерігачі зворотного виклику](ev.watcher-callbacks.md)
+Смотрите[Спостерігачі зворотного виклику](ev.watcher-callbacks.md)
 
 `data`
 
@@ -60,7 +61,7 @@ final
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
+[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
@@ -68,5 +69,5 @@ final
 
 ### Дивіться також
 
--   [EvStat::construct()](evstat.construct.md) - Створює об'єкт спостерігача EvStat
--   [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача
+-   [EvStat::\_\_construct()](evstat.construct.md) \- Створює об'єкт спостерігача EvStat
+-   [EvWatcher::start()](evwatcher.start.md) \- Запускає спостерігача

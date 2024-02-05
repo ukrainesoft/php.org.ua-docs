@@ -1,20 +1,21 @@
 ---
 navigation:
-  - solrdocumentfield.construct.md: '« SolrDocumentField::construct'
+  - solrdocumentfield.construct.md: '« SolrDocumentField::\_\_construct'
   - class.solrobject.md: SolrObject »
   - index.md: PHP Manual
   - class.solrdocumentfield.md: SolrDocumentField
-title: 'SolrDocumentField::destruct'
+title: 'SolrDocumentField::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrDocumentField::destruct
+# SolrDocumentField::\_\_destruct
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrDocumentField::destruct - Деструктор
+SolrDocumentField::\_\_destruct - Деструктор
 
 ### Опис
 
-public **SolrDocumentField::destruct**
+public**SolrDocumentField::\_\_destruct**()
 
 Деструктор.
 

@@ -1,16 +1,17 @@
 ---
 navigation:
   - function.mkdir.md: « mkdir
-  - function.parse-ini-file.md: parseinifile »
+  - function.parse-ini-file.md: parse\_ini\_file »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
-title: moveuploadedfile
+title: move\_uploaded\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# moveuploadedfile
+# move\_uploaded\_file
 
-(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.3, PHP 5, PHP 7, PHP 8)
 
-moveuploadedfile — Переміщує завантажений файл у нове місце
+move\_uploaded\_file — Переміщує завантажений файл у нове місце
 
 ### Опис
 
@@ -36,9 +37,9 @@ move_uploaded_file(string $from, string $to): bool
 
 У разі успішного виконання повертає **`true`**
 
-Якщо `from` не є завантаженим файлом, ніяких дій не вживається і **moveuploadedfile()** повертає **`false`**
+Якщо `from` не є завантаженим файлом, ніяких дій не вживається і **move\_uploaded\_file()** повертає **`false`**
 
-Якщо `from` є завантаженим файлом, але не може бути переміщений з будь-яких причин, ніяких дій не вживається і **moveuploadedfile()** повертає **`false`**. Крім того, відображається попередження.
+Якщо `from` є завантаженим файлом, але не може бути переміщений з будь-яких причин, ніяких дій не вживається і **move\_uploaded\_file()** повертає **`false`**. Крім того, відображається попередження.
 
 ### Приклади
 
@@ -61,9 +62,9 @@ foreach ($_FILES["pictures"]["error"] as $key => $error) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Функція **moveuploadedfile()** бере до уваги [openbasedir](ini.core.md#ini.open-basedir). Тим не менш, обмеження накладаються лише на параметр `to`, щоб дозволити переміщення завантажених файлів, оскільки параметр `from` може конфліктувати з цими обмеженнями . **moveuploadedfile()** гарантує безпеку цієї операції, працюючи лише з тими файлами, завантаженими через PHP.
+> Функция**move\_uploaded\_file()** бере до уваги [open\_basedir](ini.core.md#ini.open-basedir). Тим не менш, обмеження накладаються лише на параметр `to`, щоб дозволити переміщення завантажених файлів, оскільки параметр `from` може конфліктувати з цими обмеженнями . **move\_uploaded\_file()** гарантує безпеку цієї операції, працюючи лише з тими файлами, завантаженими через PHP.
 
 **Увага**
 
@@ -71,6 +72,6 @@ foreach ($_FILES["pictures"]["error"] as $key => $error) {
 
 ### Дивіться також
 
--   [ісuploadedfile()](function.is-uploaded-file.md) - Визначає, чи файл завантажений за допомогою HTTP POST
--   [rename()](function.rename.md) - Перейменовує файл або директорію
--   Простий приклад використання цієї функції можна знайти у розділі "[Загрузка файлов на сервер](features.file-upload.md)"
+-   [is\_uploaded\_file()](function.is-uploaded-file.md) \- Визначає, чи файл завантажений за допомогою HTTP POST
+-   [rename()](function.rename.md) \- Перейменовує файл або директорію
+-   Простий приклад використання цієї функції можна знайти у розділі "[Завантаження файлів на сервер](features.file-upload.md)"

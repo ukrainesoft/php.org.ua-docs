@@ -1,25 +1,26 @@
 ---
 navigation:
-  - ini.list.md: « Список директив php.ini
+  - ini.list.md: Список директив php.ini
   - ini.core.md: Опис вбудованих директив php.ini »
   - index.md: PHP Manual
   - ini.md: Директиви php.ini
 title: Список розділів php.ini
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Список розділів php.ini
 
-У цьому списку вказані розділи, в яких можна налаштувати PHP залежно від хоста або шляху. Ці розділи необов'язкові.
+У цьому списку вказані розділи, в яких можна налаштувати PHP залежно від хоста або шляху. Ці розділи є необов'язковими.
 
 Ці розділи не мають прямого впливу на PHP. Вони потрібні для угрупування інших директив php.ini разом та для можливості діяти залежно від певного хоста чи шляху.
 
-Дані розділи використовуються лише в режимі CGI/FastCGI і в них не можуть бути використані директиви [extension](ini.core.md#ini.extension) і [zendextension](ini.core.md#ini.zend-extension)
+Дані розділи використовуються лише в режимі CGI/FastCGI і в них не можуть бути використані директиви [extension](ini.core.md#ini.extension) і [zend\_extension](ini.core.md#ini.zend-extension)
 
 **Розділи**
 
 | Название | Место изменения | История изменений |
 | --- | --- | --- |
-| [\[HOST=\]](ini.sections.md#ini.per-host) | PHPINISYSTEM |  |
-| [\[PATH=\]](ini.sections.md#ini.per-path) | PHPINISYSTEM |  |
+| [\[HOST=\]](ini.sections.md#ini.per-host) | **`INI_SYSTEM`** |  |
+| [\[PATH=\]](ini.sections.md#ini.per-path) | **`INI_SYSTEM`** |  |
 
 Коротке пояснення конфігураційних директив.
 
@@ -29,7 +30,7 @@ title: Список розділів php.ini
 
 **Приклад #1 Активація повного логування та повідомлення про помилки для dev. домену**
 
-HOST=dev.site.comerrorreporting = EALL displayerrors = On
+\[HOST=dev.site.com\]error\_reporting = E\_ALL display\_errors = On
 
 `[PATH=<path>]`
 
@@ -37,4 +38,4 @@ HOST=dev.site.comerrorreporting = EALL displayerrors = On
 
 **Приклад #2 Додавання скрипту безпеки для захищених зон**
 
-PATH=/home/site/public/secureautoprependfile=security.php
+\[PATH=/home/site/public/secure\]auto\_prepend\_file=security.php

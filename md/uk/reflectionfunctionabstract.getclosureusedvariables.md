@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getClosureUsedVariables'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getClosureUsedVariables
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionFunctionAbstract::getClosureUsedVariables — Повертає масив змінних, що використовуються в замиканні
 
@@ -30,7 +31,7 @@ public ReflectionFunctionAbstract::getClosureUsedVariables(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionFunctionAbstract::getClosureUsedVariables()****
+**Пример #1 Пример использования**ReflectionFunctionAbstract::getClosureUsedVariables()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($reflector->getClosureUsedVariables());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {
@@ -61,5 +62,5 @@ array(2) {
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getClosureScopeClass()](reflectionfunctionabstract.getclosurescopeclass.md) - Повертає клас, в рамках якого було оголошено замикання
--   [ReflectionFunctionAbstract::getClosureThis()](reflectionfunctionabstract.getclosurethis.md) - Повертає покажчик, прив'язаний до замикання
+-   [ReflectionFunctionAbstract::getClosureScopeClass()](reflectionfunctionabstract.getclosurescopeclass.md) \- Повертає клас, в рамках якого було оголошено замикання
+-   [ReflectionFunctionAbstract::getClosureThis()](reflectionfunctionabstract.getclosurethis.md) \- Повертає покажчик, прив'язаний до замикання

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.apcuiterator.md: APCUIterator
 title: 'APCUIterator::getTotalSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # APCUIterator::getTotalSize
 
@@ -22,7 +23,7 @@ public APCUIterator::getTotalSize(): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,6 +35,6 @@ public APCUIterator::getTotalSize(): int
 
 ### Дивіться також
 
--   [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.md) - Отримати загальну кількість записів
--   [APCUIterator::getTotalHits()](apcuiterator.gettotalhits.md) - Отримати загальну кількість попадань у кеш
--   **apccacheinfo()**
+-   [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.md) \- Отримати загальну кількість записів
+-   [APCUIterator::getTotalHits()](apcuiterator.gettotalhits.md) \- Отримати загальну кількість влучень у кеш
+-   **apc\_cache\_info()**

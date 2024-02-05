@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-num-msg.md: « imapnummsg
-  - function.imap-open.md: imapopen »
+  - function.imap-num-msg.md: « imap\_num\_msg
+  - function.imap-open.md: imap\_open »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapnumrecent
+  - ref.imap.md: Функції IMAP
+title: imap\_num\_recent
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapnumrecent
+# imap\_num\_recent
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapnumrecent — Отримати кількість нових повідомлень у поточній поштовій скриньці
+imap\_num\_recent — Отримує кількість нових повідомлень у поточній поштовій скриньці
 
 ### Опис
 
@@ -24,7 +25,7 @@ imap_num_recent(IMAP\Connection $imap): int
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 ### Значення, що повертаються
 
@@ -32,11 +33,11 @@ imap_num_recent(IMAP\Connection $imap): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Дивіться також
 
--   [imapnummsg()](function.imap-num-msg.md) - Отримати кількість повідомлень у поточній поштовій скриньці
--   [imapstatus()](function.imap-status.md) - Отримати інформацію про статус поштової скриньки
+-   [imap\_num\_msg()](function.imap-num-msg.md) \- Отримує кількість повідомлень у поточній поштовій скриньці
+-   [imap\_status()](function.imap-status.md) \- Отримує інформацію щодо статусу поштової скриньки

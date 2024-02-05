@@ -1,10 +1,11 @@
 ---
 navigation:
-  - oci8.constants.md: « Обумовлені константи
-  - oci8.connection.md: Работа с соединениями OCI8 и Connection Pooling »
+  - oci8.constants.md: « Зумовлені константи
+  - oci8.connection.md: Робота зі з'єднаннями OCI8 та Connection Pooling »
   - index.md: PHP Manual
   - book.oci8.md: OCI8
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -153,7 +154,7 @@ $stid = oci_parse($conn, $sql);
 $clob = oci_new_descriptor($conn, OCI_D_LOB);
 oci_bind_by_name($stid, ":mykey", $mykey, 5);
 oci_bind_by_name($stid, ":myclob", $clob, -1, OCI_B_CLOB);
-oci_execute($stid, OCI_NO_AUTO_COMMIT); // используйте OCI_DEFAULT для PHP <= 5.3.1
+oci_execute($stid, OCI_NO_AUTO_COMMIT);
 $clob->save("A very long string");
 
 oci_commit($conn);
@@ -259,7 +260,7 @@ oci_close($conn);
 
 **Приклад #7 Виклик PL/SQL процедур, що повертають `REF CURSOR`**
 
-Кожне значення, що повертається із запиту є `REF CURSOR`
+Каждое возвращаемое значение из запроса является`REF CURSOR`
 
 ```php
 <?php

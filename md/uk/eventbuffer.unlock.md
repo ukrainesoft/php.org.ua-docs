@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::unlock'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBuffer::unlock
 
@@ -19,7 +20,7 @@ public
    EventBuffer::unlock(): bool
 ```
 
-Знімає блокування, встановлене [EventBuffer::lock()](eventbuffer.lock.md)
+Снимает блокировку, установленную[EventBuffer::lock()](eventbuffer.lock.md)
 
 ### Список параметрів
 
@@ -27,8 +28,8 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventBuffer::lock()](eventbuffer.lock.md) - Отримує блокування буфера
+-   [EventBuffer::lock()](eventbuffer.lock.md) \- Отримує блокування буфера

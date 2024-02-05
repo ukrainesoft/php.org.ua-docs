@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-perfect-power.md: « gmpperfectpower
-  - function.gmp-popcount.md: gmppopcount »
+  - function.gmp-perfect-power.md: « gmp\_perfect\_power
+  - function.gmp-popcount.md: gmp\_popcount »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpperfectsquare
+title: gmp\_perfect\_square
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpperfectsquare
+# gmp\_perfect\_square
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpperfectsquare - Перевірка числа на точний квадрат
+gmp\_perfect\_square - Перевірка числа на точний квадрат
 
 ### Опис
 
@@ -34,7 +35,7 @@ gmp_perfect_square(GMP|int|string $num): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpperfectsquare()****
+**Пример #1 Пример использования**gmp\_perfect\_square()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump(gmp_perfect_square("1524157875019052100"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -59,6 +60,6 @@ bool(true)
 
 ### Дивіться також
 
--   [gmpperfectpower()](function.gmp-perfect-power.md) - Перевірити, чи є число "досконалим ступенем"
--   [gmpsqrt()](function.gmp-sqrt.md) - Обчислення квадратного кореня
--   [gmpsqrtrem()](function.gmp-sqrtrem.md) - Квадратний корінь із залишком
+-   [gmp\_perfect\_power()](function.gmp-perfect-power.md) - Перевірити, чи є число "досконалим ступенем"
+-   [gmp\_sqrt()](function.gmp-sqrt.md) \- Обчислення квадратного кореня
+-   [gmp\_sqrtrem()](function.gmp-sqrtrem.md) \- Квадратний корінь із залишком

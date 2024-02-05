@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.strip-tags.md: « striptags
+  - function.strip-tags.md: « strip\_tags
   - function.stripos.md: stripos »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: stripcslashes
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # stripcslashes
 
@@ -32,7 +33,7 @@ stripcslashes(string $string): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **stripcslashes()****
+**Пример #1 Пример использования**stripcslashes()\*\*\*\*
 
 ```php
 <?php
@@ -44,4 +45,4 @@ Not a problem."); // true
 
 ### Дивіться також
 
--   [addcslashes()](function.addcslashes.md) - Екранує рядок слішами у стилі мови C
+-   [addcslashes()](function.addcslashes.md) \- Екранує рядок слішами у стилі мови C

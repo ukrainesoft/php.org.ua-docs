@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlhammer.md: « tradercdlhammer
-  - function.trader-cdlharami.md: tradercdlharami »
+  - function.trader-cdlhammer.md: « trader\_cdlhammer
+  - function.trader-cdlharami.md: trader\_cdlharami »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlhangingman
+  - ref.trader.md: Функції Trader
+title: trader\_cdlhangingman
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlhangingman
+# trader\_cdlhangingman
 
 (PECL trader >= 0.2.0)
 
-tradercdlhangingman — Вісельник
+trader\_cdlhangingman — Вісельник
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlhangingman(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlhangingman(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

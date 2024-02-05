@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::magnifyImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::magnifyImage
 
@@ -34,7 +35,7 @@ public Imagick::magnifyImage(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::magnifyImage()****
+**Пример #1 Пример использования**Imagick::magnifyImage()\*\*\*\*
 
 ```php
 <?php

@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getProperty'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getProperty
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::getProperty — Повертає екземпляр [ReflectionProperty](class.reflectionproperty.md) для якості класу
+ReflectionClass::getProperty — Повертає екземпляр [ReflectionProperty](class.reflectionproperty.md)для свойства класса
 
 ### Опис
 
@@ -18,7 +19,7 @@ ReflectionClass::getProperty — Повертає екземпляр [Reflection
 public ReflectionClass::getProperty(string $name): ReflectionProperty
 ```
 
-Повертає екземпляр [ReflectionProperty](class.reflectionproperty.md) для якості класу.
+Повертає екземпляр [ReflectionProperty](class.reflectionproperty.md)для свойства класса.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public ReflectionClass::getProperty(string $name): ReflectionProperty
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getProperty()****
+**Пример #1 Пример использования**ReflectionClass::getProperty()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($property);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(ReflectionProperty)#2 (2) {
@@ -55,4 +56,4 @@ object(ReflectionProperty)#2 (2) {
 
 ### Дивіться також
 
--   [ReflectionClass::getProperties()](reflectionclass.getproperties.md) - Повертає властивості
+-   [ReflectionClass::getProperties()](reflectionclass.getproperties.md) \- Повертає властивості

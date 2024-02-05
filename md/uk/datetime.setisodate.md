@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.datetime.md: DateTime
 title: 'DateTime::setISODate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTime::setISODate
 
-# dateisodateset
+# date\_isodate\_set
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-DateTime::setISODate -- dateisodateset — Встановлює дату ISO
+DateTime::setISODate -- date\_isodate\_set — Встановлює дату ISO
 
 ### Опис
 
@@ -25,12 +26,12 @@ public DateTime::setISODate(int $year, int $week, int $dayOfWeek = 1): DateTime
 Процедурний стиль
 
 ```methodsynopsis
-date_isodate_set(    DateTime $object,    int $year,    int $week,    int $dayOfWeek = 1): DateTime
+date_isodate_set(    DateTime $object,    int $year,    int $week,    int $dayOfWeek = 1): DateTime
 ```
 
 Встановлення дати відповідно до стандарту ISO 8601, в якому використання тижнів та зміщення днями переважніше вказівки дати.
 
-Подібний до методу [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.md), крім роботи з об'єктом [DateTime](class.datetime.md)
+Подобен методу[DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.md), крім роботи з об'єктом [DateTime](class.datetime.md)
 
 Процедурна версія приймає об'єкт [DateTime](class.datetime.md) як перший аргумент.
 
@@ -38,7 +39,7 @@ date_isodate_set(    DateTime $object,    int $year,    int $week,    int $dayOf
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [date\_create()](function.date-create.md). Функція змінює цей об'єкт.
 
 `year`
 
@@ -54,8 +55,8 @@ date_isodate_set(    DateTime $object,    int $year,    int $week,    int $dayOf
 
 ### Значення, що повертаються
 
-Повертає модифікований об'єкт [DateTime](class.datetime.md) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
+Повертає модифікований об'єкт [DateTime](class.datetime.md)для применения в цепи методов.
 
 ### Дивіться також
 
--   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.md) - Встановлює дату у форматі ISO
+-   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.md) \- Встановлює дату у форматі ISO

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::getCAPath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::getCAPath
 
@@ -18,11 +19,11 @@ OAuth::getCAPath — Отримати інформацію CA
 public OAuth::getCAPath(): array
 ```
 
-Повертає інформацію про центр сертифікації, що включає capath та cainfo, встановлені [OAuth::setCaPath()](oauth.setcapath.md)
+Повертає інформацію про центр сертифікації, що включає ca\_path та ca\_info, встановлені [OAuth::setCaPath()](oauth.setcapath.md)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,9 +31,9 @@ public OAuth::getCAPath(): array
 
 ### Значення, що повертаються
 
-Асоціативний масив з інформацією про центр сертифікації з ключами `ca_path` і `ca_info`
+Асоціативний масив з інформацією про центр сертифікації з ключами `ca_path`и`ca_info`
 
 ### Дивіться також
 
--   [OAuth::setCAPath()](oauth.setcapath.md) - Встановити CA для шляху та інформації
--   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) - Отримати HTTP-інформацію про останню відповідь
+-   [OAuth::setCAPath()](oauth.setcapath.md) \- Встановити CA для шляху та інформації
+-   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) \- Отримати HTTP-інформацію про останню відповідь

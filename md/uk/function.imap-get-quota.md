@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-gc.md: « imapгк
-  - function.imap-get-quotaroot.md: imapgetquotaroot »
+  - function.imap-gc.md: « imap\_gc
+  - function.imap-get-quotaroot.md: imap\_get\_quotaroot »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapgetquota
+  - ref.imap.md: Функції IMAP
+title: imap\_get\_quota
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapgetquota
+# imap\_get\_quota
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
-imapgetquota — Отримати налаштування рівня квоти та статистику використання поштових скриньок
+imap\_get\_quota — Отримує налаштування рівня квоти та статистику використання поштових скриньок
 
 ### Опис
 
@@ -20,13 +21,13 @@ imap_get_quota(IMAP\Connection $imap, string $quota_root): array|false
 
 Повертає налаштування рівня квоти та статистику використання поштових скриньок.
 
-Версія цієї функції для використання звичайними користувачами, не адміністраторами - [imapgetquotaroot()](function.imap-get-quotaroot.md)
+Версія даної функції для звичайних користувачів, не адміністраторів, для яких PHP існує функція [imap\_get\_quotaroot()](function.imap-get-quotaroot.md)
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `quota_root`
 
@@ -36,19 +37,19 @@ imap_get_quota(IMAP\Connection $imap, string $quota_root): array|false
 
 Повертає асоціативний масив цілих чисел із ключами "limit" та "usage". Число із ключем "limit" визначає максимальний допустимий розмір скриньки. Число із ключем "usage" визначає поточний рівень використання. У разі виникнення помилки поверне **`false`**
 
-Починаючи з PHP 4.3 і вище, функція більш точно відповідає стандарту, описаному в [» RFC2087](http://www.faqs.org/rfcs/rfc2087). Значення маси, що повертається, змінилося для підтримки необмеженої кількості ресурсів, що повертаються (тобто повідомлень або підпапок), де кожен іменований ресурс буде представлений індивідуальним масивом. Кожен елемент масиву міститиме інший масив до ключів "limit" та "usage".
+Починаючи з PHP 4.3 і вище, функція більш точно відповідає стандарту, описаному в [» RFC2087](http://www.faqs.org/rfcs/rfc2087). . Значення маси, що повертається, змінилося для підтримки необмеженої кількості ресурсів, що повертаються (тобто повідомлень або підпапок), де кожен іменований ресурс буде представлений індивідуальним масивом. Кожен елемент масиву міститиме інший масив до ключів "limit" та "usage".
 
 Для забезпечення зворотної сумісності оригінальний метод доступу все ще доступний, хоча передбачається це виправити.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imapgetquota()****
+**Пример #1 Пример использования**imap\_get\_quota()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ imap_close($mbox);
 ?>
 ```
 
-**Приклад #2 Приклад використання **imapgetquota()** у PHP 4.3 і вище**
+**Пример #2 Пример использования**imap\_get\_quota()\*\* у PHP 4.3 і вище\*\*
 
 ```php
 <?php
@@ -97,6 +98,6 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imapopen()](function.imap-open.md) - Відкриває потік IMAP до поштової скриньки
--   [imapsetquota()](function.imap-set-quota.md) - Встановити квоту для заданої поштової скриньки
--   [imapgetquotaroot()](function.imap-get-quotaroot.md) - Отримати налаштування квоти для кожного користувача
+-   [imap\_open()](function.imap-open.md) \- Відкриває потік IMAP до поштової скриньки
+-   [imap\_set\_quota()](function.imap-set-quota.md) \- Встановлює квоту для заданої поштової скриньки
+-   [imap\_get\_quotaroot()](function.imap-get-quotaroot.md) \- Отримує налаштування квоти для кожного користувача

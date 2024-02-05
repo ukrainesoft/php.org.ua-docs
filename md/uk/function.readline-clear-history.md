@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.readline-callback-read-char.md: « readlinecallbackreadchar
-  - function.readline-completion-function.md: readlinecompletionfunction »
+  - function.readline-callback-read-char.md: « readline\_callback\_read\_char
+  - function.readline-completion-function.md: readline\_completion\_function »
   - index.md: PHP Manual
-  - ref.readline.md: Функции Readline
-title: readlineclearhistory
+  - ref.readline.md: Опції Readline
+title: readline\_clear\_history
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# readlineclearhistory
+# readline\_clear\_history
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-readlineclearhistory - Очищає історію команд
+readline\_clear\_history - Очищає історію команд
 
 ### Опис
 
@@ -26,4 +27,4 @@ readline_clear_history(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

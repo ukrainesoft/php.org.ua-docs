@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-command.md: « MongoDBDriverCommand
-  - class.mongodb-driver-query.md: MongoDBDriverQuery »
+  - class.mongodb-driver-command.md: « MongoDB\\Driver\\Command
+  - class.mongodb-driver-query.md: MongoDB\\Driver\\Query »
   - index.md: PHP Manual
-  - class.mongodb-driver-command.md: MongoDBDriverCommand
-title: 'MongoDBDriverCommand::construct'
+  - class.mongodb-driver-command.md: MongoDB\\Driver\\Command
+title: 'MongoDB\\Driver\\Command::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverCommand::construct
+# MongoDB\\Driver\\Command::\_\_construct
 
 (mongodb >=1.0.0)
 
-MongoDBDriverCommand::construct — Створює новий об'єкт Command
+MongoDB\\Driver\\Command::\_\_construct — Створює новий об'єкт Command
 
 ### Опис
 
@@ -18,9 +19,9 @@ MongoDBDriverCommand::construct — Створює новий об'єкт Comman
 final public MongoDB\Driver\Command::__construct(array|object $document, ?array $commandOptions = null)
 ```
 
-Створює новий об'єкт класу [MongoDBDriverCommand](class.mongodb-driver-command.md)що є незмінним значенням, що представляє команду бази даних. Цю команду згодом можна запустити за допомогою [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.md)
+Створює новий об'єкт класу [MongoDB\\Driver\\Command](class.mongodb-driver-command.md)що є незмінним значенням, що представляє команду бази даних. Цю команду згодом можна запустити за допомогою [MongoDB\\Driver\\Manager::executeCommand()](mongodb-driver-manager.executecommand.md)
 
-Повний документ команди, що включає її ім'я та інші опції, має бути заданий у параметрі `document`. Параметр `commandOptions` використовується тільки для визначення опцій запуску команди та результуючий [MongoDBDriverCursor](class.mongodb-driver-cursor.md)
+Повний документ команди, що включає її ім'я та інші опції, має бути заданий у параметрі `document`Параметр`commandOptions` використовується тільки для визначення опцій запуску команди та результуючий [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.md)
 
 ### Список параметрів
 
@@ -34,25 +35,25 @@ final public MongoDB\Driver\Command::__construct(array|object $document, ?array 
 
 **commandOptions**
 
-| Опция | Тип | Описание |
+| Опция | Тип | Опис |
 | --- | --- | --- |
 | maxAwaitTimeMS | int |  |
-| Позитивне ціле число, яке визначає обмеження часу в мілісекундах, на яке сервер може блокувати операцію getMore, якщо дані відсутні. Ця опція може використовуватися лише спільно з командами, що повертають хвостові курсори. (наприклад [» Change Streams](https://www.mongodb.com/docs/manual/changeStreams/) |  |  |
+| Позитивне ціле число, яке визначає обмеження часу в мілісекундах, на яке сервер може блокувати операцію getMore, якщо дані відсутні. Ця опція може використовуватися лише спільно з командами, що повертають хвостові курсори. (наприклад [» Change Streams](https://www.mongodb.com/docs/manual/changeStreams/) |  |  |
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL mongodb 1.4.0 |  |
 | Доданий другий аргумент `commandOptions`, що дозволяє визначити опцію `"maxAwaitTimeMS"` |  |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverCommand::construct()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Command::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ var_dump($response);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(13) {
@@ -114,7 +115,7 @@ array(13) {
 }
 ```
 
-**Приклад #2 Приклад використання **MongoDBDriverCommand::construct()****
+**Пример #2 Пример использования**MongoDB\\Driver\\Command::\_\_construct()\*\*\*\*
 
 Команди також можуть приймати опції, як частина нормальної структури, яку ви створюєте та відправляєте на сервер. Наприклад, з більшістю команд можна передавати опцію `maxTimeMS` для обмеження часу виконання.
 
@@ -142,11 +143,11 @@ var_dump($response);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 operation exceeded time limit
 
 ### Дивіться також
 
--   [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.md) - Виконує команду бази даних
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.md)
+-   [MongoDB\\Driver\\Manager::executeCommand()](mongodb-driver-manager.executecommand.md) \- Виконує команду бази даних
+-   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.md)

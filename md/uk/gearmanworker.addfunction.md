@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::addFunction'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::addFunction
 
@@ -15,7 +16,7 @@ GearmanWorker::addFunction — Реєстрація та додавання call
 ### Опис
 
 ```methodsynopsis
-public GearmanWorker::addFunction(    string $function_name,    callable $function,    mixed &$context = ?,    int $timeout = ?): bool
+public GearmanWorker::addFunction(    string $function_name,    callable $function,    mixed $context = null,    int $timeout = 0): bool
 ```
 
 Реєструє ім'я функції на сервері завдань і додає посилання на цю функцію зворотного дзвінка. Необов'язково можна задати додаткові дані контексту, які використовуватимуться під час виклику callback-функції та час очікування.
@@ -32,7 +33,7 @@ Callback-функція, яка буде викликатись, коли сер
 
 `context`
 
-Посилання на довільні дані контексту програми, до яких потрібно забезпечити доступ із функції.
+Посилання на довільні дані контексту програми, до яких необхідно забезпечити доступ із функції.
 
 `timeout`
 
@@ -40,7 +41,7 @@ Callback-функція, яка буде викликатись, коли сер
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -82,4 +83,4 @@ function reverse_cb($job, &$count)
 
 ### Дивіться також
 
--   [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання та повертає результат Застарілий метод
+-   [GearmanClient::do()](gearmanclient.do.md) \- Виконує одне завдання та повертає результат\[Застарілий метод\]

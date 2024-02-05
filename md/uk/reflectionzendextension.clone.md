@@ -1,16 +1,17 @@
 ---
 navigation:
   - class.reflectionzendextension.md: « ReflectionZendExtension
-  - reflectionzendextension.construct.md: 'ReflectionZendExtension::construct »'
+  - reflectionzendextension.construct.md: 'ReflectionZendExtension::\_\_construct »'
   - index.md: PHP Manual
   - class.reflectionzendextension.md: ReflectionZendExtension
-title: 'ReflectionZendExtension::clone'
+title: 'ReflectionZendExtension::\_\_clone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionZendExtension::clone
+# ReflectionZendExtension::\_\_clone
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
-ReflectionZendExtension::clone - Обробник клонування
+ReflectionZendExtension::\_\_clone - Обробник клонування
 
 ### Опис
 
@@ -20,7 +21,7 @@ private ReflectionZendExtension::__clone(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,6 +31,6 @@ private ReflectionZendExtension::__clone(): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Метод не є остаточним (final). |
+| 8.1.0 | Метод не є остаточним (final). |

@@ -1,18 +1,19 @@
 ---
 navigation:
   - mysqli.prepare.md: '« mysqli::prepare'
-  - mysqli.real-connect.md: 'mysqli::realconnect »'
+  - mysqli.real-connect.md: 'mysqli::real\_connect »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::query'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # mysqli::query
 
-# mysqliquery
+# mysqli\_query
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::query -- mysqliquery — Виконує запит до бази даних
+mysqli::query -- mysqli\_query — Виконує запит до бази даних
 
 ### Опис
 
@@ -30,52 +31,56 @@ mysqli_query(mysqli $mysql, string $query, int $result_mode = MYSQLI_STORE_RESUL
 
 Виконує запит `query` до бази даних.
 
-Для не DML-запитів (не INSERT, UPDATE чи DELETE), ця функція рівносильна виклику функції [mysqlirealquery()](mysqli.real-query.md), а потім [mysqliuseresult()](mysqli.use-result.md) або [mysqlistoreresult()](mysqli.store-result.md)
+**Увага**
 
-> **Зауваження**
+# Попередження безпеки: SQL-ін'єкція
+
+Замість складання рядку запиту з включенням змінних значень необхідно [готувати запити](mysqli.quickstart.prepared-statements.md). Або рядки запиту мають бути екрановані функцією [mysqli\_real\_escape\_string()](mysqli.real-escape-string.md) та правильно відформатовані.
+
+Для не DML-запитів (не INSERT, UPDATE чи DELETE), ця функція рівносильна виклику функції [mysqli\_real\_query()](mysqli.real-query.md), а затем[mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_store\_result()](mysqli.store-result.md)
+
+> **Зауваження** :
 > 
-> У випадку, якщо довжина виразу, який ви передаєте в **mysqliquery()**, більше ніж `max_allowed_packet` сервера, коди помилки, що повертаються можуть відрізнятися в залежності від використовуваного драйвера. А це може бути або рідний MySQL драйвер (`mysqlnd`), або клієнтська бібліотека MySQL (`libmysqlclient`). Поведінка функції буде такою:
+> Якщо довжина передається в функцію **mysqli\_query()** вирази більше значення системної змінної `max_allowed_packet`сервера, будет сгенерирована ошибка. MySQL-драйвер (`mysqlnd`) та клієнтська бібліотека MySQL (`libmysqlclient`) викидають різні коди помилок. Поведінка функції буде такою:
 > 
-> -   `mysqlnd` на платформі Linux повертає код помилки 1153. Повідомлення про помилку означає розмір пакета перевищує `max_allowed_packet` байт.
+> -   `mysqlnd`на платформі Linux повертає код помилки 1153. Повідомлення про помилку означає розмір пакета перевищує`max_allowed_packet`байт.
 >     
-> -   `mysqlnd` на платформі Windows повертає код помилки 2006 року. Це повідомлення про помилку означає відмову сервера.
+> -   `mysqlnd`на платформі Windows повертає код помилки 2006 року. Це повідомлення про помилку означає відмову сервера.
 >     
-> -   `libmysqlclient` на всіх платформах повертає код помилки 2006 року. Це повідомлення про помилку означає відмову сервера.
+> -   `libmysqlclient`на всіх платформах повертає код помилки 2006 року. Це повідомлення про помилку означає відмову сервера.
 >     
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 `query`
 
 Текст запиту.
 
-**Увага**
-
-# Попередження безпеки: SQL-ін'єкція
-
-Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [запити, що готуються](mysqli.quickstart.prepared-statements.md). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqlirealescapestring()](mysqli.real-escape-string.md)
-
 `result_mode`
 
-Режим результату може бути однією з трьох констант, що вказують, як результат буде повернено сервером MySQL.
+Режим результату може бути однією з трьох констант, які вказують, як результат буде повернено сервером MySQL.
 
-**`MYSQLI_STORE_RESULT`** (за замовчуванням) - повертає об'єкт [mysqliresult](class.mysqli-result.md) із буферизованим набором результатів.
+**`MYSQLI_STORE_RESULT`** (за замовчуванням) – повертає об'єкт [mysqli\_result](class.mysqli-result.md) із буферизованим набором результатів.
 
-**`MYSQLI_USE_RESULT`** - Повертає об'єкт [mysqliresult](class.mysqli-result.md) із небуферизованим набором результатів. Поки є відкладені записи, що очікують вибірки, лінія з'єднання буде зайнята і всі наступні дзвінки повертатимуть помилку `Commands out of sync`. Щоб уникнути помилки, всі записи повинні бути отримані з сервера або набір результатів має бути відкинуто шляхом виклику [mysqlifreeresult()](mysqli-result.free.md)
+**`MYSQLI_USE_RESULT`** - Повертає об'єкт [mysqli\_result](class.mysqli-result.md) із небуферизованим набором результатів. Поки є відкладені записи, що очікують вибірки, лінія з'єднання буде зайнята і всі наступні дзвінки повертатимуть помилку `Commands out of sync`. Щоб уникнути помилки, всі записи повинні бути отримані з сервера або набір результатів має бути відкинуто шляхом виклику [mysqli\_free\_result()](mysqli-result.free.md)
 
-**`MYSQLI_ASYNC`** (Доступно з mysqlnd) - запит виконується асинхронно, набір результатів відразу не повертається. Потім використовується [mysqlipoll()](mysqli.poll.md) для отримання результатів за цими запитами. Використовується у поєднанні з константою **`MYSQLI_STORE_RESULT`** або **`MYSQLI_USE_RESULT`**
+**`MYSQLI_ASYNC`** (Доступно з mysqlnd) - запит виконується асинхронно, набір результатів відразу не повертається. Потім викликають функцію [mysqli\_poll()](mysqli.poll.md) для отримання результатів за цими запитами. Можна використовувати у поєднанні з константою **`MYSQLI_STORE_RESULT`**или**`MYSQLI_USE_RESULT`**
 
 ### Значення, що повертаються
 
-Повертає **`false`** у разі виникнення помилки. У разі успішного виконання запитів, які створюють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqliquery()** поверне об'єкт [mysqliresult](class.mysqli-result.md). Для решти успішних запитів **mysqliquery()** поверне **`true`**
+Повертає **`false`** у разі виникнення помилки. У разі успішного виконання запитів, які створюють набір результатів, таких як `SELECT, SHOW, DESCRIBE`или`EXPLAIN`, функция**mysqli\_query()** поверне об'єкт [mysqli\_result](class.mysqli-result.md). Для решти успішних запитів **mysqli\_query()** поверне **`true`**
+
+### Помилки
+
+Якщо сповіщення про помилки mysqli включено (**`MYSQLI_REPORT_ERROR`**) та запитана операція не вдалася, видається попередження. Якщо, крім того, встановлено режим **`MYSQLI_REPORT_STRICT`**, натомість буде викинуто виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::query()****
+**Пример #1 Пример использования**mysqli::query()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -127,7 +132,7 @@ $result = mysqli_query($link, "SELECT * FROM City", MYSQLI_USE_RESULT);
 mysqli_query($link, "SET @a:='this will not work'");
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Таблица myCity создана.
@@ -138,7 +143,8 @@ Fatal error: Uncaught mysqli_sql_exception: Commands out of sync; you can't run 
 
 ### Дивіться також
 
--   [mysqlirealquery()](mysqli.real-query.md) - Виконання SQL запиту
--   [mysqlimultiquery()](mysqli.multi-query.md) - Виконує один або кілька запитів до бази даних
--   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
--   [mysqlifreeresult()](mysqli-result.free.md) - звільняє пам'ять, зайняту результатами запиту
+-   [mysqli\_execute\_query()](mysqli.execute-query.md) \- готує, зв'язує параметри та виконує SQL-запит
+-   [mysqli\_real\_query()](mysqli.real-query.md) \- Виконання SQL запиту
+-   [mysqli\_multi\_query()](mysqli.multi-query.md) \- Виконує один або кілька запитів до бази даних
+-   [mysqli\_prepare()](mysqli.prepare.md) \- готує SQL вираз до виконання
+-   [mysqli\_free\_result()](mysqli-result.free.md) \- звільняє пам'ять, зайняту результатами запиту

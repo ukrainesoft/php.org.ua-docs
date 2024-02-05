@@ -1,23 +1,24 @@
 ---
 navigation:
-  - function.mysql-get-client-info.md: « mysqlgetclientinfo
-  - function.mysql-get-proto-info.md: mysqlgetprotoinfo »
+  - function.mysql-get-client-info.md: « mysql\_get\_client\_info
+  - function.mysql-get-proto-info.md: mysql\_get\_proto\_info »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlgethostinfo
+title: mysql\_get\_host\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlgethostinfo
+# mysql\_get\_host\_info
 
-(PHP 4> = 4.0.5, PHP 5)
+(PHP 4 >= 4.0.5, PHP 5)
 
-mysqlgethostinfo — Повертає інформацію про з'єднання з MySQL
+mysql\_get\_host\_info — Повертає інформацію про з'єднання з MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqligethostinfo()](mysqli.get-host-info.md)
--   [PDO::getAttribute(PDO::ATTRCONNECTIONSTATUS)](pdo.getattribute.md)
+-   [mysqli\_get\_host\_info()](mysqli.get-host-info.md)
+-   [PDO::getAttribute()](pdo.getattribute.md)с параметром`attribute`заданим як\*\*`PDO::ATTR_CONNECTION_STATUS`\*\*
 
 ### Опис
 
@@ -31,15 +32,15 @@ mysql_get_host_info(resource $link_identifier = NULL): string|false
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, буде використано останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Повертає рядок, що описує тип використовуваної сполуки, вказаної переданим дескриптором з'єднання або **`false`** у разі виникнення помилки.
+Повертає рядок, що описує тип використовуваної сполуки, вказаної переданим дескриптором з'єднання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlgethostinfo()****
+**Пример #1 Пример использования**mysql\_get\_host\_info()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ printf("Тип соединения с MySQL: %s\n", mysql_get_host_info());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Тип соединения с MySQL: Localhost via UNIX socket
@@ -59,6 +60,6 @@ printf("Тип соединения с MySQL: %s\n", mysql_get_host_info());
 
 ### Дивіться також
 
--   [mysqlgetclientinfo()](function.mysql-get-client-info.md) - Повертає дані про MySQL-клієнт
--   [mysqlgetprotoinfo()](function.mysql-get-proto-info.md) - Повертає інформацію про протокол MySQL
--   [mysqlgetserverinfo()](function.mysql-get-server-info.md) - Повертає інформацію про сервер MySQL
+-   [mysql\_get\_client\_info()](function.mysql-get-client-info.md) \- Повертає дані про MySQL-клієнт
+-   [mysql\_get\_proto\_info()](function.mysql-get-proto-info.md) \- Повертає інформацію про протокол MySQL
+-   [mysql\_get\_server\_info()](function.mysql-get-server-info.md) \- Повертає інформацію про сервер MySQL

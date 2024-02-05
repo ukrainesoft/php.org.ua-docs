@@ -1,20 +1,21 @@
 ---
 navigation:
-  - yaf-route-interface.route.md: '« YafRouteInterface::route'
-  - yaf-route-map.assemble.md: 'YafRouteMap::assemble »'
+  - yaf-route-interface.route.md: '« Yaf\_Route\_Interface::route'
+  - yaf-route-map.assemble.md: 'Yaf\_Route\_Map::assemble »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafRouteMap
+title: Клас Yaf\_Route\_Map
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafRouteMap
+# Клас Yaf\_Route\_Map
 
 (Yaf >=1.0.0)
 
 ## Вступ
 
-**YafRouteMap** - це вбудований маршрут, він просто перетворює кінцеву точку URI (ту частину URI, яка йде після базового URI: дивіться [YafRequestAbstract::setBaseUri()](yaf-request-abstract.setbaseuri.md)) в ім'я контролера або ім'я дії (залежить від параметра, переданого в [YafRouteMap::construct()](yaf-route-map.construct.md)) у наступному правилі: A => controller A. A/B/C => controller AУC. A/B/C/D/E => controller AУЗДе.
+**Yaf\_Route\_Map** — це вбудований маршрут, він просто перетворює кінцеву точку URI (ту частину URI, яка йде після базового URI: дивіться опис методу [Yaf\_Request\_Abstract::setBaseUri()](yaf-request-abstract.setbaseuri.md)) в ім'я контролера або ім'я дії (залежить від параметра, переданого в метод [Yaf\_Route\_Map::\_\_construct()](yaf-route-map.construct.md)) у наступному правилі: A => controller A. A/B/C => controller A\_B\_C. A/B/C/D/E => controller A\_B\_C\_D\_E.
 
-If the second parameter of [YafRouteMap::construct()](yaf-route-map.construct.md) is specified, then only the part before delimiter of URI will used to routing, the part after it is used to routing request parameters (see the example section of [YafRouteMap::construct()](yaf-route-map.construct.md)
+If the second parameter of[Yaf\_Route\_Map::\_\_construct()](yaf-route-map.construct.md)is specified, then only the part before delimiter of URI will used to routing, the part after it is used to routing request parameters (see the example section of[Yaf\_Route\_Map::\_\_construct()](yaf-route-map.construct.md)
 
 ## Огляд класів
 
@@ -52,12 +53,12 @@ public route(Yaf_Request_Abstract $request): bool
 
 ## Властивості
 
-ctlrouter
+\_ctl\_router
 
-delimiter
+\_delimiter
 
 ## Зміст
 
--   [YafRouteMap::assemble](yaf-route-map.assemble.md) - Збирає URL
--   [YafRouteMap::construct](yaf-route-map.construct.md) - Призначення construct
--   [YafRouteMap::route](yaf-route-map.route.md) - Призначення route
+-   [Yaf\_Route\_Map::assemble](yaf-route-map.assemble.md) \- Збирає URL
+-   [Yaf\_Route\_Map::\_\_construct](yaf-route-map.construct.md) \- Призначення\_\_construct
+-   [Yaf\_Route\_Map::route](yaf-route-map.route.md) \- Призначення route

@@ -1,36 +1,37 @@
 ---
 navigation:
-  - function.stats-cdf-noncentral-chisquare.md: « statscdfnoncentralchisquare
-  - function.stats-cdf-noncentral-t.md: statscdfnoncentralt »
+  - function.stats-cdf-noncentral-chisquare.md: « stats\_cdf\_noncentral\_chisquare
+  - function.stats-cdf-noncentral-t.md: stats\_cdf\_noncentral\_t »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statscdfnoncentralф
+title: stats\_cdf\_noncentral\_f
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statscdfnoncentralф
+# stats\_cdf\_noncentral\_f
 
 (PECL stats >= 1.0.0)
 
-statscdfnoncentralf — Обчислює один із параметрів нецентрального розподілу Фішера за іншими
+stats\_cdf\_noncentral\_f — Обчислює один із параметрів нецентрального розподілу Фішера за іншими
 
 ### Опис
 
 ```methodsynopsis
-stats_cdf_noncentral_f(    float $par1,    float $par2,    float $par3,    float $par4,    int $which): float
+stats_cdf_noncentral_f(    float $par1,    float $par2,    float $par3,    float $par4,    int $which): float
 ```
 
-Повертає кумулятивну функцію нецентрального розподілу Фішера, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` `par3`, і `par4`) визначаються параметром `which`
+Повертає кумулятивну функцію нецентрального розподілу Фішера, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` `par3`, и`par4`) определяются параметром`which`
 
-У наступній таблиці перераховані значення, що повертаються, і параметри в залежності від `which`. CDF, x, nu1, nu2 та lambda позначає функцію кумулятивного розподілу, значення випадкової змінної, ступеня свободи та параметр нецентральності відповідно.
+У наступній таблиці перераховані значення і параметри, що повертаються, в залежності від `which`. CDF, x, nu1, nu2 та lambda позначає функцію кумулятивного розподілу, значення випадкової змінної, ступеня свободи та параметр нецентральності відповідно.
 
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` | `par4` |
 | --- | --- | --- | --- | --- | --- |
-|  | CDF | з | nu1 | nu2 | lambda |
-|  | з | CDF | nu1 | nu2 | lambda |
-|  | nu1 | з | CDF | nu2 | lambda |
-|  | nu2 | з | CDF | nu1 | lambda |
-|  | lambda | з | CDF | nu1 | nu2 |
+|  | CDF | x | nu1 | nu2 | lambda |
+|  | x | CDF | nu1 | nu2 | lambda |
+| 3 | nu1 | x | CDF | nu2 | lambda |
+| 4 | nu2 | x | CDF | nu1 | lambda |
+| 5 | lambda | x | CDF | nu1 | nu2 |
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fbird-blob-add.md: « fbirdblobadd
-  - function.fbird-blob-close.md: fbirdblobclose »
+  - function.fbird-blob-add.md: « fbird\_blob\_add
+  - function.fbird-blob-close.md: fbird\_blob\_close »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: fbirdblobcancel
+  - ref.ibase.md: Функції Firebird/InterBase
+title: fbird\_blob\_cancel
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fbirdblobcancel
+# fbird\_blob\_cancel
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdblobcancel — Скасовує створення BLOB
+fbird\_blob\_cancel — Скасовує створення BLOB
 
 ### Опис
 
@@ -18,20 +19,20 @@ fbirdblobcancel — Скасовує створення BLOB
 fbird_blob_cancel(resource $blob_handle): bool
 ```
 
-Ця функція припиняє використання BLOB, якщо вона ще не була закрита [fbirdblobclose()](function.fbird-blob-close.md)
+Ця функція припиняє використання BLOB, якщо вона ще не була закрита [fbird\_blob\_close()](function.fbird-blob-close.md)
 
 ### Список параметрів
 
 `blob_handle`
 
-Дескриптор BLOB, відкритий за допомогою [fbirdblobcreate()](function.fbird-blob-create.md)
+Дескриптор BLOB, відкритий за допомогою [fbird\_blob\_create()](function.fbird-blob-create.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fbirdblobclose()](function.fbird-blob-close.md) - Псевдонім ibaseblobclose
--   [fbirdblobcreate()](function.fbird-blob-create.md) - Псевдонім ibaseblobcreate
--   [fbirdblobimport()](function.fbird-blob-import.md) - Псевдонім ibaseblobimport
+-   [fbird\_blob\_close()](function.fbird-blob-close.md) \- Псевдонім ibase\_blob\_close
+-   [fbird\_blob\_create()](function.fbird-blob-create.md) \- Псевдонім ibase\_blob\_create
+-   [fbird\_blob\_import()](function.fbird-blob-import.md) \- Псевдонім ibase\_blob\_import

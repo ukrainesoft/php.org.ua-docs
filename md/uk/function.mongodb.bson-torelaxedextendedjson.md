@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mongodb.bson-tophp.md: « MongoDBBSONtoPHP
-  - class.mongodb-bson-binary.md: MongoDBBSONBinary »
+  - function.mongodb.bson-tophp.md: « MongoDB\\BSON\\toPHP
+  - class.mongodb-bson-document.md: MongoDB\\BSON\\Document »
   - index.md: PHP Manual
   - ref.bson.functions.md: Функції
-title: MongoDBBSONtoRelaxedExtendedJSON
+title: MongoDB\\BSON\\toRelaxedExtendedJSON
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONtoRelaxedExtendedJSON
+# MongoDB\\BSON\\toRelaxedExtendedJSON
 
 (mongodb >=1.3.0)
 
-MongoDBBSONtoRelaxedExtendedJSON — Повертає Relaxed Extended JSON подання значення BSON
+MongoDB\\BSON\\toRelaxedExtendedJSON — Повертає Relaxed Extended JSON подання значення BSON
 
 ### Опис
 
@@ -18,25 +19,25 @@ MongoDBBSONtoRelaxedExtendedJSON — Повертає Relaxed Extended JSON по
 MongoDB\BSON\toRelaxedExtendedJSON(string $bson): string
 ```
 
-Перетворює рядок BSON на її подання [» Relaxed Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example). Розслаблений формат надає перевагу використанню примітивів типу JSON за рахунок точності типів і найбільше підходить для отримання вихідних даних, які можуть бути легко використані веб-API та людьми.
+Перетворює рядок BSON на її подання [» Relaxed Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example). Розслаблений формат надає перевагу використанню примітивів типу JSON за рахунок точності типів і найбільше підходить для отримання вихідних даних, які можуть бути легко використані веб-API та людьми.
 
 ### Список параметрів
 
-`bson` (string)
+`bson`(string)
 
 Значення BSON для перетворення.
 
 ### Значення, що повертаються
 
-Перетворене значення JSON.
+Повертає перетворене значення JSON.
 
 ### Помилки
 
--   Виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
+-   Исключение[MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою[» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONtoRelaxedExtendedJSON()****
+**Пример #1 Пример использования**MongoDB\\BSON\\toRelaxedExtendedJSON()\*\*\*\*
 
 ```php
 <?php
@@ -73,7 +74,7 @@ foreach ($documents as $document) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 { "null" : null }
@@ -101,7 +102,9 @@ foreach ($documents as $document) {
 
 ### Дивіться також
 
--   [MongoDBBSONfromJSON()](function.mongodb.bson-fromjson.md) - Повертає подання BSON значення JSON
--   [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md) - Повертає Canonical Extended JSON подання для значення BSON
--   [» Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
--   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [MongoDB\\BSON\\Document::fromJSON()](mongodb-bson-document.fromjson.md) \- Створює новий екземпляр документа з рядка JSON
+-   [MongoDB\\BSON\\Document::toRelaxedExtendedJSON()](mongodb-bson-document.torelaxedextendedjson.md) \- Повертає Relaxed Extended JSON подання BSON-документа
+-   [MongoDB\\BSON\\fromJSON()](function.mongodb.bson-fromjson.md) \- Повертає подання BSON значення JSON
+-   [MongoDB\\BSON\\toCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md) \- Повертає Canonical Extended JSON подання для значення BSON
+-   [» Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
+-   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

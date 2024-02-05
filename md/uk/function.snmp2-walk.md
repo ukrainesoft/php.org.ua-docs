@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.snmp2-set.md: « snmp2set
-  - function.snmp3-get.md: snmpv3get »
+  - function.snmp2-set.md: « snmp2\_set
+  - function.snmp3-get.md: snmp3\_get »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
-title: snmp2walk
+title: snmp2\_walk
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# snmp2walk
+# snmp2\_walk
 
 (PHP >= 5.2.0, PHP 7, PHP 8)
 
-snmp2walk — Отримує всі об'єкти SNMP із агента
+snmp2\_walk — Отримує всі об'єкти SNMP із агента
 
 ### Опис
 
 ```methodsynopsis
-snmp2_walk(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
+snmp2_walk(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
 ```
 
-Функція **snmp2walk()** використовується для читання всіх значень агента SNMP, зазначеного в `hostname`
+Функция**snmp2\_walk()** використовується для читання всіх значень агента SNMP, зазначеного в `hostname`
 
 ### Список параметрів
 
@@ -46,11 +47,11 @@ Read-спільнота.
 
 ### Значення, що повертаються
 
-Повертає масив значень об'єкта SNMP, починаючи з `object_id` як корінь або **`false`** у разі виникнення помилки.
+Повертає масив значень об'єкта SNMP, починаючи з `object_id` як корінь або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmp2walk()****
+**Пример #1 Пример использования**snmp2\_walk()\*\*\*\*
 
 ```php
 <?php
@@ -67,4 +68,4 @@ foreach ($a as $val) {
 
 ### Дивіться також
 
--   [snmp2realwalk()](function.snmp2-real-walk.md) - Повертає всі об'єкти, включаючи їхній ідентифікатор
+-   [snmp2\_real\_walk()](function.snmp2-real-walk.md) \- Повертає всі об'єкти, включаючи їхній ідентифікатор

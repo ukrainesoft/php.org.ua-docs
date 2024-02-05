@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3.md: SQLite3
 title: 'SQLite3::createFunction'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3::createFunction
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::createFunction — Реєструє функцію PHP для використання як скалярну функцію SQL
 
 ### Опис
 
 ```methodsynopsis
-public SQLite3::createFunction(    string $name,    callable $callback,    int $argCount = -1,    int $flags = 0): bool
+public SQLite3::createFunction(    string $name,    callable $callback,    int $argCount = -1,    int $flags = 0): bool
 ```
 
 Реєструє функцію PHP або функцію користувача для використання в якості скалярної функції SQL для використання в SQL-виразах.
@@ -54,17 +55,17 @@ callback(mixed $value, mixed ...$values): mixed
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного створення функції або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного створення функції або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Доданий параметр `flags` |
+| 7.1.4 | Добавлен параметр`flags` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SQLite3::createFunction()****
+**Пример #1 Пример использования**SQLite3::createFunction()\*\*\*\*
 
 ```php
 <?php
@@ -79,7 +80,7 @@ var_dump($db->querySingle('SELECT my_udf_md5("test")'));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(32) "098f6bcd4621d373cade4e832627b4f6"

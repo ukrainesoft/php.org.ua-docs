@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-set-text-pos.md: «pssettextpos
-  - function.ps-setcolor.md: псsetcolor »
+  - function.ps-set-text-pos.md: « ps\_set\_text\_pos
+  - function.ps-setcolor.md: ps\_setcolor »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псsetvalue
+title: ps\_set\_value
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псsetvalue
+# ps\_set\_value
 
 (PECL ps >= 1.1.0)
 
-псsetvalue — Встановлює певні значення
+ps\_set\_value — Встановлює певні значення
 
 ### Опис
 
@@ -24,11 +25,11 @@ ps_set_value(resource $psdoc, string $name, float $value): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 `name`
 
-Значення `name` може бути одне з наступного:
+Значение`name` може бути одне з наступного:
 
 textrendering
 
@@ -52,13 +53,13 @@ leading
 
 `value`
 
-Значення параметру.
+Значення параметра.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псgetvalue()](function.ps-get-value.md) - Отримує певні значення
--   [псsetparameter()](function.ps-set-parameter.md) - Встановлює певні параметри
+-   [ps\_get\_value()](function.ps-get-value.md) \- Отримує певні значення
+-   [ps\_set\_parameter()](function.ps-set-parameter.md) \- Встановлює певні параметри

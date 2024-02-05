@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-control.disable.md: '« UIControl::disable'
-  - ui-control.getparent.md: 'ОЙControl::getParent »'
+  - ui-control.disable.md: '« UI\\Control::disable'
+  - ui-control.getparent.md: 'UI\\Control::getParent »'
   - index.md: PHP Manual
-  - class.ui-control.md: ОЙControl
-title: 'ОЙControl::enable'
+  - class.ui-control.md: UI\\Control
+title: 'UI\\Control::enable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControl::enable
+# UI\\Control::enable
 
 (UI 0.9.9)
 
-ОЙControl::enable — Включити керуючий елемент
+UI\\Control::enable — Включити керуючий елемент
 
 ### Опис
 

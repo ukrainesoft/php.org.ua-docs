@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli-result.construct.md: '« mysqliresult::construct'
-  - mysqli-result.data-seek.md: 'mysqliresult::dataseek »'
+  - mysqli-result.construct.md: '« mysqli\_result::\_\_construct'
+  - mysqli-result.data-seek.md: 'mysqli\_result::data\_seek »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::$currentfield'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::$current\_field'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::$currentfield
+# mysqli\_result::$current\_field
 
-# mysqlifieldtell
+# mysqli\_field\_tell
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliresult::$currentfield - mysqlifieldtell — Отримує зміщення вказівника по відношенню до поточного поля
+mysqli\_result::$current\_field -- mysqli\_field\_tell — Отримує зміщення вказівника по відношенню до поточного поля
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int [$mysqliresult->currentfield](mysqli-result.current-field.md)
+int[$mysqli\_result->current\_field](mysqli-result.current-field.md)
 
 Процедурний стиль
 
@@ -26,13 +27,13 @@ int [$mysqliresult->currentfield](mysqli-result.current-field.md)
 mysqli_field_tell(mysqli_result $result): int
 ```
 
-Повертає позицію покажчика поля, що використовується під час останнього виклику [mysqlifetchfield()](mysqli-result.fetch-field.md). Це значення може бути використане як аргумент для [mysqlifieldseek()](mysqli-result.field-seek.md)
+Повертає позицію покажчика поля, що використовується під час останнього виклику [mysqli\_fetch\_field()](mysqli-result.fetch-field.md). Це значення може бути використане як аргумент для [mysqli\_field\_seek()](mysqli-result.field-seek.md)
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
@@ -114,7 +115,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Столбец 1:
@@ -134,5 +135,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlifetchfield()](mysqli-result.fetch-field.md) - Повертає наступне поле результуючого набору
--   [mysqlifieldseek()](mysqli-result.field-seek.md) - встановити покажчик поля на певне зміщення
+-   [mysqli\_fetch\_field()](mysqli-result.fetch-field.md) \- Повертає наступне поле результуючого набору
+-   [mysqli\_field\_seek()](mysqli-result.field-seek.md) \- встановити покажчик поля на певне зміщення

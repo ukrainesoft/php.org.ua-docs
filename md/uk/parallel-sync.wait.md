@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-sync.set.md: '« parallelSync::set'
-  - parallel-sync.notify.md: 'parallelSync::notify »'
+  - parallel-sync.set.md: '« parallel\\Sync::set'
+  - parallel-sync.notify.md: 'parallel\\Sync::notify »'
   - index.md: PHP Manual
-  - class.parallel-sync.md: parallelSync
-title: 'parallelSync::wait'
+  - class.parallel-sync.md: parallel\\Sync
+title: 'parallel\\Sync::wait'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelSync::wait
+# parallel\\Sync::wait
 
-parallelSync::wait — Синхронізація
+(1.1.0)
+
+parallel\\Sync::wait — Синхронізація
 
 ### Опис
 

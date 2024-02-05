@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getmygid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # getmygid
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 getmygid — Отримати GID власника скрипта PHP
 
@@ -26,12 +27,12 @@ getmygid(): int|false
 
 ### Значення, що повертаються
 
-Повертає груповий ідентифікатор поточного скрипту або **`false`** у разі виникнення помилки.
+Повертає груповий ідентифікатор поточного скрипту або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [getmyuid()](function.getmyuid.md) - Отримання UID власника скрипта PHP
--   [getmypid()](function.getmypid.md) - Отримання ID процесу PHP
--   [getcurrentuser()](function.get-current-user.md) - Отримує ім'я власника поточного скрипту PHP
--   [getmyinode()](function.getmyinode.md) - Отримує значення inode поточного скрипту
--   [getlastmod()](function.getlastmod.md) - Отримує час останньої модифікації сторінки
+-   [getmyuid()](function.getmyuid.md) \- Отримання UID власника скрипта PHP
+-   [getmypid()](function.getmypid.md) \- Отримання ID процесу PHP
+-   [get\_current\_user()](function.get-current-user.md) \- Отримує ім'я власника поточного скрипту PHP
+-   [getmyinode()](function.getmyinode.md) \- Отримує значення inode поточного скрипту
+-   [getlastmod()](function.getlastmod.md) \- Отримує час останньої модифікації сторінки

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getParentClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getParentClass
 
@@ -18,9 +19,7 @@ ReflectionClass::getParentClass — Повертає батьківський к
 public ReflectionClass::getParentClass(): ReflectionClass|false
 ```
 
-**Увага**
-
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Отримує батьківський клас.
 
 ### Список параметрів
 
@@ -28,8 +27,8 @@ public ReflectionClass::getParentClass(): ReflectionClass|false
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.md), або \*\*`false`\*\*якщо батька немає.
+Об'єкт класу [ReflectionClass](class.reflectionclass.md), либо\*\*`false`\*\*якщо батька немає.
 
 ### Дивіться також
 
--   [ReflectionClass::construct()](reflectionclass.construct.md) - Створює об'єкт класу ReflectionClass
+-   [ReflectionClass::\_\_construct()](reflectionclass.construct.md) \- Створює об'єкт класу ReflectionClass

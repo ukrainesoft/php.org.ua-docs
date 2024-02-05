@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::hasConstant'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::hasConstant
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 ReflectionClass::hasConstant — Перевіряє, чи визначена константа
 
@@ -32,7 +33,7 @@ public ReflectionClass::hasConstant(string $name): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::hasConstant()****
+**Пример #1 Пример использования**ReflectionClass::hasConstant()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ var_dump($class->hasConstant("c2"));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -56,5 +57,5 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionClass::hasMethod()](reflectionclass.hasmethod.md) - Перевіряє, чи заданий метод
--   [ReflectionClass::hasProperty()](reflectionclass.hasproperty.md) - Перевіряє, чи визначено властивість
+-   [ReflectionClass::hasMethod()](reflectionclass.hasmethod.md) \- Перевіряє, чи заданий метод
+-   [ReflectionClass::hasProperty()](reflectionclass.hasproperty.md) \- Перевіряє, чи визначено властивість

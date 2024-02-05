@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас FilterIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас FilterIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,19 +19,14 @@ title: Клас FilterIterator
 
 ```classsynopsis
 
-     
+    
+     abstract
+     class FilterIterator
     
 
     
-     
-      abstract
-      class FilterIterator
-     
-
-     
-      extends
-       IteratorIterator
-     
+     extends
+      IteratorIterator
      {
 
     /* Методы */
@@ -39,7 +35,6 @@ title: Клас FilterIterator
 
     public accept(): bool
 public current(): mixed
-public getInnerIterator(): Iterator
 public key(): mixed
 public next(): void
 public rewind(): void
@@ -59,11 +54,10 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [FilterIterator::accept](filteriterator.accept.md) — Перевіряє, чи поточний елемент ітератора є допустимим.
--   [FilterIterator::construct](filteriterator.construct.md) - Конструктор класу FilterIterator
--   [FilterIterator::current](filteriterator.current.md) — Отримує значення поточного елемента
--   [FilterIterator::getInnerIterator](filteriterator.getinneriterator.md) — Отримує внутрішній ітератор
--   [FilterIterator::key](filteriterator.key.md) — Отримує поточний ключ
--   [FilterIterator::next](filteriterator.next.md) — Переміщує ітератор до наступного елементу
--   [FilterIterator::rewind](filteriterator.rewind.md) — Повертає ітератор на початок
--   [FilterIterator::valid](filteriterator.valid.md) — Перевіряє, чи поточний елемент є допустимим
+-   [FilterIterator::accept](filteriterator.accept.md)— Перевіряє, чи поточний елемент ітератора є допустимим.
+-   [FilterIterator::\_\_construct](filteriterator.construct.md) \- Конструктор класу FilterIterator
+-   [FilterIterator::current](filteriterator.current.md)— Отримує значення поточного елемента
+-   [FilterIterator::key](filteriterator.key.md)— Отримує поточний ключ
+-   [FilterIterator::next](filteriterator.next.md)— Переміщує ітератор до наступного елемента
+-   [FilterIterator::rewind](filteriterator.rewind.md)— Повертає ітератор на початок
+-   [FilterIterator::valid](filteriterator.valid.md)— Перевіряє, чи поточний елемент є допустимим

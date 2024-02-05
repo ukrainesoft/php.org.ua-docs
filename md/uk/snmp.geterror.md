@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.snmp.md: SNMP
 title: 'SNMP::getError'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SNMP::getError
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SNMP::getError — Отримує останнє повідомлення про помилку
 
@@ -30,7 +31,7 @@ public SNMP::getError(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SNMP::getError()****
+**Пример #1 Пример использования**SNMP::getError()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ var_dump($session->getError());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -49,4 +50,4 @@ string(26) "No response from 127.0.0.1"
 
 ### Дивіться також
 
--   [SNMP::getErrno()](snmp.geterrno.md) - Отримує код останньої помилки
+-   [SNMP::getErrno()](snmp.geterrno.md) \- Отримує код останньої помилки

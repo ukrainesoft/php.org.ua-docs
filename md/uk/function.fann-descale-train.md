@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-descale-output.md: « fanndescaleoutput
-  - function.fann-destroy-train.md: fanndestroytrain »
+  - function.fann-descale-output.md: « fann\_descale\_output
+  - function.fann-destroy-train.md: fann\_destroy\_train »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanndescaletrain
+  - ref.fann.md: Функції Fann
+title: fann\_descale\_train
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanndescaletrain
+# fann\_descale\_train
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanndescaletrain — Масштабування вхідних та вихідних даних на основі попередньо розрахованих параметрів
+fann\_descale\_train — Масштабування вхідних та вихідних даних на основі попередньо розрахованих параметрів
 
 ### Опис
 
@@ -36,5 +37,5 @@ fann_descale_train(resource $ann, resource $train_data): bool
 
 ### Дивіться також
 
--   [fannscaletrain()](function.fann-scale-train.md) - Масштабує вхідні та вихідні дані на основі раніше розрахованих параметрів
--   [fannsetscalingparams()](function.fann-set-scaling-params.md) - Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання
+-   [fann\_scale\_train()](function.fann-scale-train.md) \- Масштабує вхідні та вихідні дані на основі раніше розрахованих параметрів
+-   [fann\_set\_scaling\_params()](function.fann-set-scaling-params.md) \- Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання

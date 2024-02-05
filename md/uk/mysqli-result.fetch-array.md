@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-result.fetch-all.md: '« mysqliresult::fetchall'
-  - mysqli-result.fetch-assoc.md: 'mysqliresult::fetchassoc »'
+  - mysqli-result.fetch-all.md: '« mysqli\_result::fetch\_all'
+  - mysqli-result.fetch-assoc.md: 'mysqli\_result::fetch\_assoc »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::fetcharray'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::fetch\_array'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::fetcharray
+# mysqli\_result::fetch\_array
 
-# mysqlifetcharray
+# mysqli\_fetch\_array
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliresult::fetcharray - mysqlifetcharray - Вибирає наступний рядок з набору результатів і поміщає її в асоціативний масив, звичайний масив або в обидва
+mysqli\_result::fetch\_array -- mysqli\_fetch\_array - Вибирає наступний рядок з набору результатів і поміщає її в асоціативний масив, звичайний масив або в обидва
 
 ### Опис
 
@@ -36,27 +37,27 @@ mysqli_fetch_array(mysqli_result $result, int $mode = MYSQLI_BOTH): array|null|f
 
 > **Зауваження**: Імена полів, що повертаються цією функцією *залежними від регістру*
 
-> **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
+> **Зауваження**: Ця функція встановлює NULL-поля значення \*\*`null`\*\*PHP.
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 `mode`
 
-Цей необов'язковий параметр приймає значення константи, яка вказує на тип масиву, який потрібно помістити дані. Можливі значення параметра: **`MYSQLI_ASSOC`** **`MYSQLI_NUM`** або **`MYSQLI_BOTH`**
+Цей необов'язковий параметр приймає значення константи, яка вказує на тип масиву, який потрібно помістити дані. Можливі значення параметра: **`MYSQLI_ASSOC`** **`MYSQLI_NUM`**или**`MYSQLI_BOTH`**
 
-При використанні константи **`MYSQLI_ASSOC`** функція поводитиметься ідентично [mysqlifetchassoc()](mysqli-result.fetch-assoc.md), а при **`MYSQLI_NUM`** ідентично функції [mysqlifetchrow()](mysqli-result.fetch-row.md). При завданні **`MYSQLI_BOTH`** функція створить один масив, що включає атрибути обох варіантів.
+При використанні константи **`MYSQLI_ASSOC`** функція поводитиметься ідентично [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.md), а при\*\*`MYSQLI_NUM`\*\* ідентично функції [mysqli\_fetch\_row()](mysqli-result.fetch-row.md)При задании\*\*`MYSQLI_BOTH`\*\* функція створить один масив, що включає атрибути обох варіантів.
 
 ### Значення, що повертаються
 
-Повертає масив, що представляє обраний рядок, \*\*`null`\*\*якщо в наборі результатів більше немає рядків або **`false`** у разі виникнення помилки.
+Повертає масив, що представляє обраний рядок, \*\*`null`\*\*якщо в наборі результатів більше немає рядків або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqliresult::fetcharray()****
+**Пример #1 Пример использования**mysqli\_result::fetch\_array()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -69,15 +70,15 @@ $mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 $query = "SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3";
 $result = $mysqli->query($query);
 
-/* числовой Масив */
+/* числовой массив */
 $row = $result->fetch_array(MYSQLI_NUM);
 printf("%s (%s)\n", $row[0], $row[1]);
 
-/* ассоциативный Масив */
+/* ассоциативный массив */
 $row = $result->fetch_array(MYSQLI_ASSOC);
 printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 
-/* ассоциативный и числовой Масиви */
+/* ассоциативный и числовой массивы */
 $row = $result->fetch_array(MYSQLI_BOTH);
 printf("%s (%s)\n", $row[0], $row["CountryCode"]);
 ```
@@ -93,20 +94,20 @@ $mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
 $query = "SELECT Name, CountryCode FROM City ORDER by ID LIMIT 3";
 $result = mysqli_query($mysqli, $query);
 
-/* числовой Масив */
+/* числовой массив */
 $row = mysqli_fetch_array($result, MYSQLI_NUM);
 printf("%s (%s)\n", $row[0], $row[1]);
 
-/* ассоциативный Масив */
+/* ассоциативный массив */
 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
 printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 
-/* ассоциативный и числовой Масиви */
+/* ассоциативный и числовой массивы */
 $row = mysqli_fetch_array($result, MYSQLI_BOTH);
 printf("%s (%s)\n", $row[0], $row["CountryCode"]);
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Kabul (AFG)
@@ -116,9 +117,9 @@ Herat (AFG)
 
 ### Дивіться також
 
--   [mysqlifetchassoc()](mysqli-result.fetch-assoc.md) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
--   [mysqlifetchcolumn()](mysqli-result.fetch-column.md) - отримує один стовпець з наступного рядка набору результатів
--   [mysqlifetchrow()](mysqli-result.fetch-row.md) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
--   [mysqlifetchobject()](mysqli-result.fetch-object.md) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
--   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
--   [mysqlidataseek()](mysqli-result.data-seek.md) - Переміщує покажчик результату на вибраний рядок
+-   [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.md) \- Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
+-   [mysqli\_fetch\_column()](mysqli-result.fetch-column.md) \- отримує один стовпець з наступного рядка набору результатів
+-   [mysqli\_fetch\_row()](mysqli-result.fetch-row.md) \- Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
+-   [mysqli\_fetch\_object()](mysqli-result.fetch-object.md) \- Вибирає наступний рядок із набору результатів у вигляді об'єкта
+-   [mysqli\_query()](mysqli.query.md) \- Виконує запит до бази даних
+-   [mysqli\_data\_seek()](mysqli-result.data-seek.md) \- Переміщує покажчик результату на вибраний рядок

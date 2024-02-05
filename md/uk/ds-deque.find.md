@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.filter.md: '« DsDeque::filter'
-  - ds-deque.first.md: 'ДсDeque::first »'
+  - ds-deque.filter.md: '« Ds\\Deque::filter'
+  - ds-deque.first.md: 'Ds\\Deque::first »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::find'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::find'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::find
+# Ds\\Deque::find
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::find — Пошук індексу за значенням
+Ds\\Deque::find — Пошук індексу за значенням
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсDeque::find'
 public Ds\Deque::find(mixed $value): mixed
 ```
 
-Повертає індекс значення `value` або \*\*`false`\*\*якщо нічого не знайдено.
+Повертає індекс значення `value`или\*\*`false`\*\*якщо нічого не знайдено.
 
 ### Список параметрів
 
@@ -30,13 +31,13 @@ public Ds\Deque::find(mixed $value): mixed
 
 Індекс елемента або \*\*`false`\*\*якщо значення не знайдено.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Елементи порівнюються суворо (за типом та значенням).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::find()****
+**Пример #1 Пример использования**Ds\\Deque::find()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($deque->find(1));   // 1
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(0)

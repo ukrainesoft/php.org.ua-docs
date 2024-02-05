@@ -1,53 +1,58 @@
 ---
 navigation:
-  - class.mongodb-bson-binary.md: « MongoDBBSONBinary
-  - mongodb-bson-binary.getdata.md: 'MongoDBBSONBinary::getData »'
+  - class.mongodb-bson-binary.md: « MongoDB\\BSON\\Binary
+  - mongodb-bson-binary.getdata.md: 'MongoDB\\BSON\\Binary::getData »'
   - index.md: PHP Manual
-  - class.mongodb-bson-binary.md: MongoDBBSONBinary
-title: 'MongoDBBSONBinary::construct'
+  - class.mongodb-bson-binary.md: MongoDB\\BSON\\Binary
+title: 'MongoDB\\BSON\\Binary::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONBinary::construct
+# MongoDB\\BSON\\Binary::\_\_construct
 
 (mongodb >=1.0.0)
 
-MongoDBBSONBinary::construct — Створює новий Binary
+MongoDB\\BSON\\Binary::\_\_construct — Створює новий Binary
 
 ### Опис
 
 ```methodsynopsis
-final public MongoDB\BSON\Binary::__construct(string $data, int $type)
+final public MongoDB\BSON\Binary::__construct(string $data, int $type = MongoDB\BSON\Binary::TYPE_GENERIC)
 ```
 
 ### Список параметрів
 
-`data` (string)
+`data`(string)
 
 Двійкові дані.
 
-`type` (int)
+`type`(int)
 
-8-розрядне ціле число, що означає тип даних.
+8-розрядне ціле число, що означає тип даних. За замовчуванням набуває значення \*\*`MongoDB\BSON\Binary::TYPE_GENERIC`\*\*якщо не вказано.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `type` не є 8-розрядним цілим числом.
--   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам.
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Видає[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `type` не є 8-розрядним цілим числом.
+-   Видає[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `type`является\*\*`MongoDB\BSON\Binary::TYPE_UUID`**или**`MongoDB\BSON\Binary::TYPE_OLD_UUID`\*\*, а длина`data`не равна 16 байтам.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL mongodb 1.3.0 |  |
-| [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) видається, якщо `type` є **`MongoDB\BSON\Binary::TYPE_UUID`** або **`MongoDB\BSON\Binary::TYPE_OLD_UUID`**, а довжина `data` не дорівнює 16 байтам. |  |
+| PECL mongodb 1.15.0 |  |
+| Параметр`type` за замовчуванням набуває значення **`MongoDB\BSON\Binary::TYPE_GENERIC`**, якщо не вказано. |  |
+
+| | PECL mongodb 1.3.0 |
+
+[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) видається, якщо `type`является\*\*`MongoDB\BSON\Binary::TYPE_UUID`**или**`MongoDB\BSON\Binary::TYPE_OLD_UUID`\*\*, а длина`data`не равна 16 байтам.
 
 | | PECL mongodb 1.1.3 |
 
-[MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) видається, якщо `type` не є 8-розрядним цілим числом.
+[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) видається, якщо `type` не є 8-розрядним цілим числом.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONBinary::construct()****
+**Пример #1 Пример использования**MongoDB\\BSON\\Binary::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +63,7 @@ var_dump($binary);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(MongoDB\BSON\Binary)#1 (2) {
@@ -71,4 +76,4 @@ object(MongoDB\BSON\Binary)#1 (2) {
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

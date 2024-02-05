@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rlexer.consume.md: '« ParleRLexer::consume'
-  - parle-rlexer.gettoken.md: 'ParleRLexer::getToken »'
+  - parle-rlexer.consume.md: '« Parle\\RLexer::consume'
+  - parle-rlexer.gettoken.md: 'Parle\\RLexer::getToken »'
   - index.md: PHP Manual
-  - class.parle-rlexer.md: ParleRLexer
-title: 'ParleRLexer::dump'
+  - class.parle-rlexer.md: Parle\\RLexer
+title: 'Parle\\RLexer::dump'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRLexer::dump
+# Parle\\RLexer::dump
 
 (PECL parle >= 0.5.1)
 
-ParleRLexer::dump — Вивантажує стан пристрою
+Parle\\RLexer::dump — Вивантажує стан пристрою
 
 ### Опис
 

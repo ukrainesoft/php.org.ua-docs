@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-train-error-function.md: « fannsettrainerrorfunction
-  - function.fann-set-training-algorithm.md: fannsettrainingalgorithm »
+  - function.fann-set-train-error-function.md: « fann\_set\_train\_error\_function
+  - function.fann-set-training-algorithm.md: fann\_set\_training\_algorithm »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsettrainstopfunction
+  - ref.fann.md: Функції Fann
+title: fann\_set\_train\_stop\_function
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsettrainstopfunction
+# fann\_set\_train\_stop\_function
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsettrainstopfunction — Встановлює функцію зупинки під час тренування.
+fann\_set\_train\_stop\_function — Встановлює функцію зупинки під час тренування.
 
 ### Опис
 
@@ -20,7 +21,7 @@ fann_set_train_stop_function(resource $ann, int $stop_function): bool
 
 Встановлює функцію зупинки під час тренування.
 
-Функції зупинки описані далі в константах [функции остановки](fann.constants.md#constants.fann-stopfunc)
+Функції зупинки описані далі в константах [функції зупинки](fann.constants.md#constants.fann-stopfunc)
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ fann_set_train_stop_function(resource $ann, int $stop_function): bool
 
 `stop_function`
 
-Константа [функции остановки](fann.constants.md#constants.fann-stopfunc)
+Константа[функції зупинки](fann.constants.md#constants.fann-stopfunc)
 
 ### Значення, що повертаються
 
@@ -38,4 +39,4 @@ fann_set_train_stop_function(resource $ann, int $stop_function): bool
 
 ### Дивіться також
 
--   [fanngettrainstopfunction()](function.fann-get-train-stop-function.md) - Повертає функцію зупинки, що використовується під час навчання
+-   [fann\_get\_train\_stop\_function()](function.fann-get-train-stop-function.md) \- Повертає функцію зупинки, що використовується під час навчання

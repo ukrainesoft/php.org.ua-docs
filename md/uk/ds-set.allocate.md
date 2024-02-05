@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.add.md: '« DsSet::add'
-  - ds-set.capacity.md: 'ДсSet::capacity »'
+  - ds-set.add.md: '« Ds\\Set::add'
+  - ds-set.capacity.md: 'Ds\\Set::capacity »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::allocate'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::allocate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::allocate
+# Ds\\Set::allocate
 
 (PECL ds >= 1.0.0)
 
-ДсSet::allocate — Виділяє пам'ять під зазначену місткість
+Ds\\Set::allocate — Виділяє пам'ять під зазначену місткість
 
 ### Опис
 
@@ -26,11 +27,11 @@ public Ds\Set::allocate(int $capacity): void
 
 Місткість. Очікувана кількість значень.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо нове значення місткості менше поточного, воно не зміниться.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення місткості округляється до найближчого ступеня двійки (тобто 8, 16, 32, 64, 128 і т.д.)
 
@@ -40,7 +41,7 @@ public Ds\Set::allocate(int $capacity): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::allocate()****
+**Пример #1 Пример использования**Ds\\Set::allocate()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($set->capacity());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(16)

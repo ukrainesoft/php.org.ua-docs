@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-rand-gen-ibinomial.md: « statsrandgenibinomial
-  - function.stats-rand-gen-ipoisson.md: statsrandgenipoisson »
+  - function.stats-rand-gen-ibinomial.md: « stats\_rand\_gen\_ibinomial
+  - function.stats-rand-gen-ipoisson.md: stats\_rand\_gen\_ipoisson »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsrandгенint
+title: stats\_rand\_gen\_int
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsrandгенint
+# stats\_rand\_gen\_int
 
 (PECL stats >= 1.0.0)
 
-statsrandгенint - Генерує випадкове число в діапазоні від 1 до 2147483562
+stats\_rand\_gen\_int - Генерує випадкове число в діапазоні від 1 до 2147483562
 
 ### Опис
 

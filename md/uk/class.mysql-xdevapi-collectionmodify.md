@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionfind.sort.md: '« CollectionFind::sort'
   - mysql-xdevapi-collectionmodify.arrayappend.md: 'CollectionModify::arrayAppend »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Клас CollectionModify
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас CollectionModify
 
@@ -46,15 +47,15 @@ public unset(array $fields): mysql_xdevapi\CollectionModify
 
 ## Зміст
 
--   [CollectionModify::arrayAppend](mysql-xdevapi-collectionmodify.arrayappend.md) — Додає елемент у поле масиву
--   [CollectionModify::arrayInsert](mysql-xdevapi-collectionmodify.arrayinsert.md) — Додає елемент у поле масиву
--   [CollectionModify::bind](mysql-xdevapi-collectionmodify.bind.md) — Прив'язує значення до заповнювача запиту
--   [CollectionModify::construct](mysql-xdevapi-collectionmodify.construct.md) - Конструктор класу CollectionModify
--   [CollectionModify::execute](mysql-xdevapi-collectionmodify.execute.md) - Виконує операцію зміни
--   [CollectionModify::limit](mysql-xdevapi-collectionmodify.limit.md) — Обмежує кількість документів, що змінюються.
--   [CollectionModify::patch](mysql-xdevapi-collectionmodify.patch.md) - Виправляє документ
--   [CollectionModify::replace](mysql-xdevapi-collectionmodify.replace.md) - Замінює поле документа
--   [CollectionModify::set](mysql-xdevapi-collectionmodify.set.md) - Встановлює атрибут документа
--   [CollectionModify::skip](mysql-xdevapi-collectionmodify.skip.md) - Пропускає елементи
--   [CollectionModify::sort](mysql-xdevapi-collectionmodify.sort.md) - Встановлює критерії сортування
--   [CollectionModify::unset](mysql-xdevapi-collectionmodify.unset.md) — скидає значення полів документа
+-   [CollectionModify::arrayAppend](mysql-xdevapi-collectionmodify.arrayappend.md)— Додає елемент у поле масиву
+-   [CollectionModify::arrayInsert](mysql-xdevapi-collectionmodify.arrayinsert.md)— Додає елемент у поле масиву
+-   [CollectionModify::bind](mysql-xdevapi-collectionmodify.bind.md)— Прив'язує значення до заповнювача запиту
+-   [CollectionModify::\_\_construct](mysql-xdevapi-collectionmodify.construct.md) \- Конструктор класу CollectionModify
+-   [CollectionModify::execute](mysql-xdevapi-collectionmodify.execute.md) \- Виконує операцію зміни
+-   [CollectionModify::limit](mysql-xdevapi-collectionmodify.limit.md)— Обмежує кількість документів, що змінюються.
+-   [CollectionModify::patch](mysql-xdevapi-collectionmodify.patch.md) \- Виправляє документ
+-   [CollectionModify::replace](mysql-xdevapi-collectionmodify.replace.md) \- Замінює поле документа
+-   [CollectionModify::set](mysql-xdevapi-collectionmodify.set.md) \- Встановлює атрибут документа
+-   [CollectionModify::skip](mysql-xdevapi-collectionmodify.skip.md) \- Пропускає елементи
+-   [CollectionModify::sort](mysql-xdevapi-collectionmodify.sort.md) \- Встановлює критерії сортування
+-   [CollectionModify::unset](mysql-xdevapi-collectionmodify.unset.md)— скидає значення полів документа

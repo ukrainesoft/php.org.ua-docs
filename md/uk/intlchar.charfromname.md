@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::charFromName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::charFromName
 
@@ -34,7 +35,7 @@ public static IntlChar::charFromName(string $name, int $type = IntlChar::UNICODE
 
 Які типи символів шукати. Одна з констант:
 
--   **`IntlChar::UNICODE_CHAR_NAME`** (за замовчуванням)
+-   **`IntlChar::UNICODE_CHAR_NAME`**(за замовчуванням)
 -   **`IntlChar::UNICODE_10_CHAR_NAME`**
 -   **`IntlChar::EXTENDED_CHAR_NAME`**
 -   **`IntlChar::CHAR_NAME_ALIAS`**
@@ -42,7 +43,7 @@ public static IntlChar::charFromName(string $name, int $type = IntlChar::UNICODE
 
 ### Значення, що повертаються
 
-Значення коду символу Unicode по заданому імені (у вигляді цілого числа (int)), або \*\*`null`\*\*якщо такого символу немає.
+Значение кода символа Unicode по заданному имени (в виде целого числа (int)), или\*\*`null`\*\*якщо такого символу немає.
 
 ### Приклади
 
@@ -57,7 +58,7 @@ var_dump(IntlChar::charFromName("A RANDOM STRING WHICH DOESN'T CORRESPOND TO ANY
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(65)
@@ -68,5 +69,5 @@ NULL
 
 ### Дивіться також
 
--   [IntlChar::charName()](intlchar.charname.md) - Отримати ім'я Unicode
--   [IntlChar::enumCharNames()](intlchar.enumcharnames.md) - Перераховує всі присвоєні символи Unicode у заданому діапазоні
+-   [IntlChar::charName()](intlchar.charname.md) \- Отримати ім'я Unicode
+-   [IntlChar::enumCharNames()](intlchar.enumcharnames.md) \- Перераховує всі присвоєні символи Unicode у заданому діапазоні

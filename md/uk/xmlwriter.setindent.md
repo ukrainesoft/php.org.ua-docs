@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::setIndent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLWriter::setIndent
 
-# xmlwritersetindent
+# xmlwriter\_set\_indent
 
 (PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::setIndent -- xmlwritersetindent — Увімкнути або вимкнути відступи
+XMLWriter::setIndent -- xmlwriter\_set\_indent — Увімкнути або вимкнути відступи
 
 ### Опис
 
@@ -34,7 +35,7 @@ xmlwriter_set_indent(XMLWriter $writer, bool $enable): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.md) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.md)
 
 `enable`
 
@@ -42,17 +43,17 @@ xmlwriter_set_indent(XMLWriter $writer, bool $enable): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| 8.0.0 | В параметре`writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 **XMLWriter::setIndent()** і змішаний вміст**
+**Пример #1**XMLWriter::setIndent()\*\* і змішаний вміст\*\*
 
 Увімкнення відступу не підходить для змішаного вмісту, оскільки рядок відступу також вставляється перед вбудованими елементами.
 
@@ -72,7 +73,7 @@ echo $writer->outputMemory();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0"?>
@@ -82,10 +83,10 @@ echo $writer->outputMemory();
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Відступ скидається при відкритті xmlwriter.
 
 ### Дивіться також
 
--   [XMLWriter::setIndentString()](xmlwriter.setindentstring.md) - Встановити рядок, який використовується для відступів
+-   [XMLWriter::setIndentString()](xmlwriter.setindentstring.md) \- Встановити рядок, який використовується для відступів

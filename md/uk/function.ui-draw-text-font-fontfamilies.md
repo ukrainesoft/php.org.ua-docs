@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.ui.md: « Функции UI
-  - function.ui-quit.md: ОЙquit »
+  - ref.ui.md: « Функції UI
+  - function.ui-quit.md: UI\\quit »
   - index.md: PHP Manual
-  - ref.ui.md: Функции UI
-title: ОЙDrawTextFontfontFamilies
+  - ref.ui.md: Функції UI
+title: UI\\Draw\\Text\\Font\\fontFamilies
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawTextFontfontFamilies
+# UI\\Draw\\Text\\Font\\fontFamilies
 
 (UI 0.9.9)
 
-ОЙDrawTextFontfontFamilies — Вийняти сімейство шрифтів
+UI\\Draw\\Text\\Font\\fontFamilies — Вийняти сімейство шрифтів
 
 ### Опис
 

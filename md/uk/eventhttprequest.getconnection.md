@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::getConnection'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::getConnection
 
@@ -23,9 +24,9 @@ public
 
 **Увага**
 
-Libevent API дозволяє об'єктам HTTP-запиту не прив'язуватися до жодного HTTP-з'єднання. Тому ми не можемо однозначно пов'язати [EventHttpRequest](class.eventhttprequest.md) з [EventHttpConnection](class.eventhttpconnection.md). Таким чином, ми створюємо об'єкт [EventHttpConnection](class.eventhttpconnection.md) на льоту. Не маючи інформації про базу подій, базу DNS та callback-функції при закритті з'єднання, ми просто залишаємо ці поля незаповненими.
+Libevent API дозволяє об'єктам HTTP-запиту не прив'язуватися до жодного HTTP-з'єднання. Тому ми не можемо однозначно пов'язати [EventHttpRequest](class.eventhttprequest.md)с[EventHttpConnection](class.eventhttpconnection.md). Таким чином, ми створюємо об'єкт [EventHttpConnection](class.eventhttpconnection.md) на льоту. Не маючи інформації про базу подій, базу DNS та callback-функції при закритті з'єднання, ми просто залишаємо ці поля незаповненими.
 
-Метод **EventHttpRequest::getConnection()** зазвичай корисний, коли нам потрібно реалізувати callback-функцію при закритті з'єднання. Дивіться [EventHttpConnection::setCloseCallback()](eventhttpconnection.setclosecallback.md)
+Метод**EventHttpRequest::getConnection()** зазвичай корисний, коли нам потрібно реалізувати callback-функцію при закритті з'єднання. Дивіться [EventHttpConnection::setCloseCallback()](eventhttpconnection.setclosecallback.md)
 
 ### Список параметрів
 
@@ -37,5 +38,5 @@ Libevent API дозволяє об'єктам HTTP-запиту не прив'я
 
 ### Дивіться також
 
--   [EventHttpConnection::setCloseCallback()](eventhttpconnection.setclosecallback.md) - Встановлює callback-функцію при закритті з'єднання
--   [EventHttpRequest::getBufferEvent()](eventhttprequest.getbufferevent.md) - Повертає об'єкт EventBufferEvent
+-   [EventHttpConnection::setCloseCallback()](eventhttpconnection.setclosecallback.md) \- Встановлює callback-функцію при закритті з'єднання
+-   [EventHttpRequest::getBufferEvent()](eventhttprequest.getbufferevent.md) \- Повертає об'єкт EventBufferEvent

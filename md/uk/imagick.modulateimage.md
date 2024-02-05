@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::modulateImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::modulateImage
 
@@ -34,7 +35,7 @@ public Imagick::modulateImage(float $brightness, float $saturation, float $hue):
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::modulateImage()****
+**Пример #1 Пример использования**Imagick::modulateImage()\*\*\*\*
 
 ```php
 <?php

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::setCompressionQuality'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::setCompressionQuality
 
@@ -33,11 +34,11 @@ Gmagick::setCompressionQuality(
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Gmagick::setCompressionQuality()****
+**Пример #1 Пример использования**Gmagick::setCompressionQuality()\*\*\*\*
 
 ```php
 <?php

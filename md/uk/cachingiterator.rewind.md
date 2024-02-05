@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.cachingiterator.md: CachingIterator
 title: 'CachingIterator::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CachingIterator::rewind
 
@@ -20,7 +21,7 @@ public CachingIterator::rewind(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає ітератор на початок.
 

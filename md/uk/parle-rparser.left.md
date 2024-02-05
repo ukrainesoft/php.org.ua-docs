@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rparser.errorinfo.md: '« ParleRParser::errorInfo'
-  - parle-rparser.nonassoc.md: 'ParleRParser::nonassoc »'
+  - parle-rparser.errorinfo.md: '« Parle\\RParser::errorInfo'
+  - parle-rparser.nonassoc.md: 'Parle\\RParser::nonassoc »'
   - index.md: PHP Manual
-  - class.parle-rparser.md: ParleRParser
-title: 'ParleRParser::left'
+  - class.parle-rparser.md: Parle\\RParser
+title: 'Parle\\RParser::left'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRParser::left
+# Parle\\RParser::left
 
 (PECL parle >= 0.7.0)
 
-ParleRParser::left — Оголошує токен з лівою асоціативністю
+Parle\\RParser::left — Оголошує токен з лівою асоціативністю
 
 ### Опис
 

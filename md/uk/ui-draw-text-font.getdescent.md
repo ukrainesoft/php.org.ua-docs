@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-text-font.getascent.md: '« UIDrawTextFont::getAscent'
-  - ui-draw-text-font.getleading.md: 'ОЙDrawTextFont::getLeading »'
+  - ui-draw-text-font.getascent.md: '« UI\\Draw\\Text\\Font::getAscent'
+  - ui-draw-text-font.getleading.md: 'UI\\Draw\\Text\\Font::getLeading »'
   - index.md: PHP Manual
-  - class.ui-draw-text-font.md: ОЙDrawTextFont
-title: 'ОЙDrawTextFont::getDescent'
+  - class.ui-draw-text-font.md: UI\\Draw\\Text\\Font
+title: 'UI\\Draw\\Text\\Font::getDescent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawTextFont::getDescent
+# UI\\Draw\\Text\\Font::getDescent
 
 (UI 1.0.3)
 
-ОЙDrawTextFont::getDescent — Показники шрифту
+UI\\Draw\\Text\\Font::getDescent — Показники шрифту
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.date-date-set.md: « datedateset
-  - function.date-default-timezone-set.md: datedefaulttimezoneset »
+  - function.date-date-set.md: « date\_date\_set
+  - function.date-default-timezone-set.md: date\_default\_timezone\_set »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
-title: datedefaulttimezoneget
+title: date\_default\_timezone\_get
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# datedefaulttimezoneget
+# date\_default\_timezone\_get
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-datedefaulttimezoneget — Повертає часовий пояс, який використовується за умовчанням усіма функціями дати/часу в скрипті
+date\_default\_timezone\_get — Повертає часовий пояс, який використовується за умовчанням усіма функціями дати/часу в скрипті
 
 ### Опис
 
@@ -20,12 +21,12 @@ date_default_timezone_get(): string
 
 Функція намагається отримати часовий пояс за замовчуванням таким чином:
 
--   Читання налаштування часового поясу за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.md) (якщо можна застосувати)
+-   Читання налаштування часового поясу за допомогою функції[date\_default\_timezone\_set()](function.date-default-timezone-set.md)(якщо можна застосувати)
     
--   Читання значення ini-налаштування [date.timezone](datetime.configuration.md#ini.date.timezone) (якщо задана)
+-   Читання значення ini-налаштування[date.timezone](datetime.configuration.md#ini.date.timezone)(якщо задана)
     
 
-Якщо жоден із способів не приніс результату, **datedefaulttimezoneget()** поверне часовий пояс `UTC`
+Якщо жоден із способів не приніс результату, **date\_default\_timezone\_get()** поверне часовий пояс `UTC`
 
 ### Список параметрів
 
@@ -54,7 +55,7 @@ if (ini_get('date.timezone')) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 date_default_timezone_set: Europe/London
@@ -70,7 +71,7 @@ echo date_default_timezone_get() . ' => ' . date('e') . ' => ' . date('T');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 America/Los_Angeles => America/Los_Angeles => PST
@@ -78,5 +79,5 @@ America/Los_Angeles => America/Los_Angeles => PST
 
 ### Дивіться також
 
--   [datedefaulttimezoneset()](function.date-default-timezone-set.md) - Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
+-   [date\_default\_timezone\_set()](function.date-default-timezone-set.md) \- Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
 -   [Список підтримуваних часових поясів](timezones.md)

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::isWeekend'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::isWeekend
 
@@ -44,11 +45,11 @@ intlcal_is_weekend(IntlCalendar $calendar, ?float $timestamp = null): bool
 
 Логічне значення (bool), що вказує на те, чи є час об'єкта вихідними.
 
-У разі виникнення помилки також повертається **`false`**. Для виявлення умов помилки використовуйте [intlgeterrorcode()](function.intl-get-error-code.md) або настройте викидання [исключений](intl.configuration.md#ini.intl.use-exceptions) в Intl.
+У разі виникнення помилки також повертається \*\*`false`\*\*Для обнаружения условий ошибки используйте[intl\_get\_error\_code()](function.intl-get-error-code.md) або настройте викидання [винятків](intl.configuration.md#ini.intl.use-exceptions)в Intl.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::isWeekend()****
+**Пример #1 Пример использования**IntlCalendar::isWeekend()\*\*\*\*
 
 ```php
 <?php
@@ -67,5 +68,5 @@ var_dump($cal->isWeekend()); // false, воскресенье не являет�
 
 ### Дивіться також
 
--   [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.md) - Повідомляє, чи є день буднім, вихідним чи днем ​​із переходом між ними
--   [IntlCalendar::getWeekendTransition()](intlcalendar.getweekendtransition.md) - Отримує час дня, коли вихідні починаються чи закінчуються
+-   [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.md) \- Повідомляє, чи є день буднім, вихідним чи днем ​​із переходом між ними
+-   [IntlCalendar::getWeekendTransition()](intlcalendar.getweekendtransition.md) \- Отримує час дня, коли вихідні починаються чи закінчуються

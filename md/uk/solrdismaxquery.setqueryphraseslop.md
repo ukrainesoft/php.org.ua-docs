@@ -4,9 +4,10 @@ navigation:
   - solrdismaxquery.settiebreaker.md: 'SolrDisMaxQuery::setTieBreaker »'
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
-title: 'Solr DisMax Query::getQuery Phrase Slop'
+title: 'SolrDisMaxQuery::setQueryPhraseSlop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Solr DisMax Query::getQuery Phrase Slop
+# SolrDisMaxQuery::setQueryPhraseSlop
 
 (No version information available, might only be in Git)
 
@@ -18,9 +19,9 @@ SolrDisMaxQuery::setQueryPhraseSlop — Визначає коефіцієнт в
 public SolrDisMaxQuery::setQueryPhraseSlop(string $slop): SolrDisMaxQuery
 ```
 
-Визначає коефіцієнт відхилення, дозволений для фразових запитів, які явно включені в рядок запиту користувача (параметр *кф*
+Визначає коефіцієнт відхилення, дозволений для фразових запитів, які явно включені в рядок запиту користувача (параметр *qf*
 
-Коефіцієнт відхилення відноситься до кількості позицій, на які необхідно перемістити один токен по відношенню до іншого токену, щоб відповідати фразі, зазначеній у запиті.
+p align="justify"> Коефіцієнт відхилення відноситься до кількості позицій, на які необхідно перемістити один токен по відношенню до іншого токену, щоб відповідати фразі, зазначеній у запиті.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public SolrDisMaxQuery::setQueryPhraseSlop(string $slop): SolrDisMaxQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Solr DisMax Query::getQuery Phrase Slop()****
+**Пример #1 Пример использования**SolrDisMaxQuery::setQueryPhraseSlop()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ echo $dismaxQuery;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 defType=edismax&qs=3

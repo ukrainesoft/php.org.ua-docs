@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauthprovider.md: OAuthProvider
 title: 'OAuthProvider::addRequiredParameter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuthProvider::addRequiredParameter
 
@@ -22,7 +23,7 @@ final public OAuthProvider::addRequiredParameter(string $req_params): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,8 +33,8 @@ final public OAuthProvider::addRequiredParameter(string $req_params): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [OAuthProvider::removeRequiredParameter()](oauthprovider.removerequiredparameter.md) - Видалити потрібний параметр
+-   [OAuthProvider::removeRequiredParameter()](oauthprovider.removerequiredparameter.md) \- Видалити потрібний параметр

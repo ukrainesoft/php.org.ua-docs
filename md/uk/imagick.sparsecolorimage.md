@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::sparseColorImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::sparseColorImage
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::sparseColorImage — Інтерполює кольори
 
@@ -32,7 +33,7 @@ public Imagick::sparseColorImage(int $SPARSE_METHOD, array $arguments, int $chan
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно \*\*`Imagick::CHANNEL_DEFAULT`\*\*Обратитесь к списку[констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
@@ -44,7 +45,7 @@ public Imagick::sparseColorImage(int $SPARSE_METHOD, array $arguments, int $chan
 
 ### Приклади
 
-**Приклад #1 SPARSECOLORMETHODBARYCENTRIC **Imagick::sparseColorImage()****
+**Приклад #1 SPARSECOLORMETHOD\_BARYCENTRIC**Imagick::sparseColorImage()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ public Imagick::sparseColorImage(int $SPARSE_METHOD, array $arguments, int $chan
 ?>
 ```
 
-**Приклад #2 SPARSECOLORMETHODBILINEAR **Imagick::sparseColorImage()****
+**Приклад #2 SPARSECOLORMETHOD\_BILINEAR**Imagick::sparseColorImage()\*\*\*\*
 
 ```php
 <?php
@@ -81,7 +82,7 @@ public Imagick::sparseColorImage(int $SPARSE_METHOD, array $arguments, int $chan
 ?>
 ```
 
-**Приклад #3 SPARSECOLORMETHODSPEPARDS **Imagick::sparseColorImage()****
+**Приклад #3 SPARSECOLORMETHOD\_SPEPARDS**Imagick::sparseColorImage()\*\*\*\*
 
 ```php
 <?php
@@ -100,7 +101,7 @@ public Imagick::sparseColorImage(int $SPARSE_METHOD, array $arguments, int $chan
 ?>
 ```
 
-**Приклад #4 SPARSECOLORMETHODVORONOI **Imagick::sparseColorImage()****
+**Приклад #4 SPARSECOLORMETHOD\_VORONOI**Imagick::sparseColorImage()\*\*\*\*
 
 ```php
 <?php
@@ -119,7 +120,7 @@ public Imagick::sparseColorImage(int $SPARSE_METHOD, array $arguments, int $chan
 ?>
 ```
 
-**Приклад #5 SPARSECOLORMETHODBARYCENTRIC **Imagick::sparseColorImage()****
+**Приклад #5 SPARSECOLORMETHOD\_BARYCENTRIC**Imagick::sparseColorImage()\*\*\*\*
 
 ```php
 <?php
@@ -137,7 +138,7 @@ public Imagick::sparseColorImage(int $SPARSE_METHOD, array $arguments, int $chan
 ?>
 ```
 
-**Приклад #6 createGradientImage is used by other examples . **Imagick::sparseColorImage()****
+**Пример #6 createGradientImage is used by other examples**Imagick::sparseColorImage()\*\*\*\*
 
 ```php
 <?php

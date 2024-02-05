@@ -1,34 +1,35 @@
 ---
 navigation:
-  - function.cubrid-fetch-lengths.md: « cubridfetchlengths
-  - function.cubrid-fetch-row.md: cubridfetchrow »
+  - function.cubrid-fetch-lengths.md: « cubrid\_fetch\_lengths
+  - function.cubrid-fetch-row.md: cubrid\_fetch\_row »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridfetchobject
+title: cubrid\_fetch\_object
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridfetchobject
+# cubrid\_fetch\_object
 
 (PECL CUBRID >= 8.3.0)
 
-cubridfetchobject — Витягти наступний рядок як об'єкт
+cubrid\_fetch\_object — Витягти наступний рядок як об'єкт
 
 ### Опис
 
 ```methodsynopsis
-cubrid_fetch_object(    resource $result,    string $class_name = ?,    array $params = ?,    int $type = ?): object
+cubrid_fetch_object(    resource $result,    string $class_name = ?,    array $params = ?,    int $type = ?): object
 ```
 
-Функція повертає об'єкт з властивостями, імена яких дорівнюють іменам стовпців результуючого набору, а значення відповідно значенням.
+Функція повертає об'єкт із властивостями, імена яких дорівнюють іменам стовпців результуючого набору, а значення відповідно значенням.
 
 ### Список параметрів
 
 `result`
 
-`Result` отриманий з [cubridexecute()](function.cubrid-execute.md)
+`Result` отриманий з [cubrid\_execute()](function.cubrid-execute.md)
 
 `class_name`
 
-Назва класу, який буде використаний для створення об'єкта. Якщо не задано, то буде використано **stdClass** (stdClass - базовий, порожній клас PHP, який використовується при перетворенні інших типів в об'єкти).
+Назва класу, який буде використаний для створення об'єкта. Якщо не задано, то буде використано [stdClass](class.stdclass.md) (stdClass - базовий, порожній клас PHP, який використовується при перетворенні інших типів в об'єкти).
 
 `params`
 
@@ -36,7 +37,7 @@ cubrid_fetch_object(    resource $result,    string $class_name = ?,    array $p
 
 `type`
 
-Може містити лише CUBRIDLOB. Використовується під час роботи з об'єктами типу LOB.
+Може містити лише CUBRID\_LOB. Використовується під час роботи з об'єктами типу LOB.
 
 ### Значення, що повертаються
 
@@ -46,7 +47,7 @@ cubrid_fetch_object(    resource $result,    string $class_name = ?,    array $p
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridfetchobject()****
+**Пример #1 Пример использования**cubrid\_fetch\_object()\*\*\*\*
 
 ```php
 <?php
@@ -89,7 +90,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(stdClass)#1 (2) {
@@ -120,8 +121,8 @@ object(stdClass)#1 (2) {
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
--   [cubridfetch()](function.cubrid-fetch.md) - Вибирає наступний рядок із набору результатів
--   [cubridfetcharray()](function.cubrid-fetch-array.md) - Вилучення рядка з результуючого набору у вигляді асоціативного масиву, індексованого масиву або обох відразу
--   [cubridfetchassoc()](function.cubrid-fetch-assoc.md) - Витягти рядок із результуючого набору у вигляді асоціативного масиву
--   [cubridfetchrow()](function.cubrid-fetch-row.md) - Витягти рядок із результуючого набору у вигляді індексованого масиву
+-   [cubrid\_execute()](function.cubrid-execute.md) \- Виконує підготовлений SQL-оператор
+-   [cubrid\_fetch()](function.cubrid-fetch.md) \- Вибирає наступний рядок із набору результатів
+-   [cubrid\_fetch\_array()](function.cubrid-fetch-array.md) \- Вилучення рядка з результуючого набору у вигляді асоціативного масиву, індексованого масиву або обох відразу
+-   [cubrid\_fetch\_assoc()](function.cubrid-fetch-assoc.md) \- Витягти рядок із результуючого набору у вигляді асоціативного масиву
+-   [cubrid\_fetch\_row()](function.cubrid-fetch-row.md) \- Витягти рядок із результуючого набору у вигляді індексованого масиву

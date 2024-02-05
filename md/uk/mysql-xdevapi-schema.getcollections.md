@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-schema.getcollectionastable.md: '« Schema::getCollectionAsTable'
   - mysql-xdevapi-schema.getname.md: 'Schema::getName »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysql\_xdevapi\\Schema
 title: 'Schema::getCollections'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Schema::getCollections
 
 (No version information available, might only be in Git)
 
-Schema::getCollections — Отримати всі колекції схеми
+Schema::getCollections — Отримує всі колекції схеми
 
 ### Опис
 
@@ -18,7 +19,7 @@ Schema::getCollections — Отримати всі колекції схеми
 public mysql_xdevapi\Schema::getCollections(): array
 ```
 
-Отримати список колекцій для цієї схеми.
+Отримує список колекцій цієї схеми.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public mysql_xdevapi\Schema::getCollections(): array
 
 ### Значення, що повертаються
 
-Масив усіх колекцій у цій схемі, де кожне значення елемента масиву є об'єктом Collection з ім'ям колекції як ключ.
+Повертає масив усіх колекцій у цій схемі, де кожне значення елемента масиву є об'єктом класу Collection з ім'ям колекції як ключ.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSchema::getCollections()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::getCollections()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($collections);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {

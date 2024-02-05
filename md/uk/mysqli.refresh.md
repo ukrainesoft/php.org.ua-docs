@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli.reap-async-query.md: '« mysqli::reapasyncquery'
-  - mysqli.release-savepoint.md: 'mysqli::releasesavepoint »'
+  - mysqli.reap-async-query.md: '« mysqli::reap\_async\_query'
+  - mysqli.release-savepoint.md: 'mysqli::release\_savepoint »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::refresh'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # mysqli::refresh
 
-# mysqlirefresh
+# mysqli\_refresh
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-mysqli::refresh -- mysqlirefresh — Оновлення
+mysqli::refresh -- mysqli\_refresh — Оновлення
 
 ### Опис
 
@@ -34,13 +35,13 @@ mysqli_refresh(mysqli $mysql, int $flags): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 `flags`
 
-Налаштування оновлення задаються константами MYSQLIREFRESH, які описані у розділі документації [Константи MySQLi](mysqli.constants.md)
+Налаштування оновлення задаються константами MYSQLI\_REFRESH\_\*, які описані у розділі документації [Константи MySQLi](mysqli.constants.md)
 
-Дивіться також офіційну документацію [» MySQL Refresh](http://dev.mysql.com/doc/mysql/en/mysql-refresh.md)
+Смотрите также официальную документацию[» MySQL Refresh](http://dev.mysql.com/doc/mysql/en/mysql-refresh.md)
 
 ### Значення, що повертаються
 
@@ -48,4 +49,4 @@ mysqli_refresh(mysqli $mysql, int $flags): bool
 
 ### Дивіться також
 
--   [mysqlipoll()](mysqli.poll.md) - Опитування підключень
+-   [mysqli\_poll()](mysqli.poll.md) \- Опитування підключень

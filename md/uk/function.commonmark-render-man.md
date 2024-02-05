@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.commonmark-render-latex.md: « CommonMarkRenderLatex
-  - function.commonmark-render-xml.md: CommonMarkRenderXML »
+  - function.commonmark-render-latex.md: « CommonMark\\Render\\Latex
+  - function.commonmark-render-xml.md: CommonMark\\Render\\XML »
   - index.md: PHP Manual
-  - ref.cmark.md: Функции CommonMark
-title: CommonMarkRenderMan
+  - ref.cmark.md: Функції CommonMark
+title: CommonMark\\Render\\Man
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkRenderMan
+# CommonMark\\Render\\Man
 
 (cmark >= 1.0.0)
 
-CommonMarkRenderMan — відображення
+CommonMark\\Render\\Man — відображення
 
 ### Опис
 
@@ -20,7 +21,7 @@ CommonMark\Render\Man(CommonMark\Node $node, int $options = ?, int $width = ?): 
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,15 +31,15 @@ CommonMark\Render\Man(CommonMark\Node $node, int $options = ?, int $width = ?): 
 
 Маска з:
 
-**`CommonMark\Render\Normal`** (int)
+**`CommonMark\Render\Normal`**(int)
 
-**`CommonMark\Render\SourcePos`** (int)
+**`CommonMark\Render\SourcePos`**(int)
 
-**`CommonMark\Render\HardBreaks`** (int)
+**`CommonMark\Render\HardBreaks`**(int)
 
-**`CommonMark\Render\Safe`** (int)
+**`CommonMark\Render\Safe`**(int)
 
-**`CommonMark\Render\NoBreaks`** (int)
+**`CommonMark\Render\NoBreaks`**(int)
 
 `width`
 

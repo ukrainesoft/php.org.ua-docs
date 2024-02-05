@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-set-client-info.md: « ocisetclientinfo
-  - function.oci-set-edition.md: ocisetedition »
+  - function.oci-set-client-info.md: « oci\_set\_client\_info
+  - function.oci-set-edition.md: oci\_set\_edition »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocisetдбoperation
+  - ref.oci8.md: OCI8 Функції
+title: oci\_set\_db\_operation
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocisetдбoperation
+# oci\_set\_db\_operation
 
-(PHP 7> = 7.2.14, PHP 8, PHP 7> = 7.3.1, PHP 8, PECL OCI8> = 2.2.0)
+(PHP 7 >= 7.2.14, PHP 8, PHP 7 >= 7.3.1, PHP 8, PECL OCI8 >= 2.2.0)
 
-ocisetдбoperation — Задає операцію бази даних
+oci\_set\_db\_operation — Задає операцію бази даних
 
 ### Опис
 
@@ -24,13 +25,13 @@ oci_set_db_operation(resource $connection, string $action): bool
 
 Операція бази даних може згодом вимагатися з уявлень адміністрування бази даних, таких як `V$SQL_MONITOR`
 
-Функція **ocisetдбoperation()** доступна, якщо oci8 використовує клієнтські бібліотеки Oracle версії 12 (або новіші) та базу даних Oracle 12 (або новіші).
+Функция**oci\_set\_db\_operation()** доступна, якщо oci8 використовує клієнтські бібліотеки Oracle версії 12 (або новіші) та базу даних Oracle 12 (або новіші).
 
 ### Список параметрів
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md), або [ocinewconnect()](function.oci-new-connect.md)
+Ідентифікатор з'єднання Oracle, що повертається [oci\_connect()](function.oci-connect.md) [oci\_pconnect()](function.oci-pconnect.md), или[oci\_new\_connect()](function.oci-new-connect.md)
 
 `action`
 
@@ -38,7 +39,7 @@ oci_set_db_operation(resource $connection, string $action): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -80,7 +81,7 @@ SQL> select dbop_name from v$sql_monitor;
 
 ### Дивіться також
 
--   [ocisetaction()](function.oci-set-action.md) - Вказує ім'я для дії
--   [ocisetmodulename()](function.oci-set-module-name.md) - Задає ім'я модулю
--   [ocisetclientinfo()](function.oci-set-client-info.md) - Задає інформацію про клієнта
--   [ocisetclientidentifier()](function.oci-set-client-identifier.md) - задає ідентифікатор клієнта
+-   [oci\_set\_action()](function.oci-set-action.md) \- Вказує ім'я для дії
+-   [oci\_set\_module\_name()](function.oci-set-module-name.md) \- Задає ім'я модулю
+-   [oci\_set\_client\_info()](function.oci-set-client-info.md) \- Задає інформацію про клієнта
+-   [oci\_set\_client\_identifier()](function.oci-set-client-identifier.md) \- задає ідентифікатор клієнта

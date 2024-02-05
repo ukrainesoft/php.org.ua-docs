@@ -4,17 +4,18 @@ navigation:
   - ref.pdo-sqlsrv.md: MS SQL Server (PDO) »
   - index.md: PHP Manual
   - ref.pdo-mysql.md: MySQL (PDO)
-title: PDOMYSQL DSN
+title: PDO\_MYSQL DSN
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# PDOMYSQL DSN
+# PDO\_MYSQL DSN
 
-(PECL PDOMYSQL >= 0.1.0)
+(PECL PDO\_MYSQL >= 0.1.0)
 
-PDOMYSQL DSN — З'єднання з базою даних MySQL
+PDO\_MYSQL DSN — З'єднання з базою даних MySQL
 
 ### Опис
 
-Ім'я джерела даних (Data Source Name або DSN) PDOMYSQL складається з наступних елементів:
+Ім'я джерела даних (Data Source Name або DSN) PDO\_MYSQL складається з наступних елементів:
 
 DSN префікс
 
@@ -22,7 +23,7 @@ DSN-префікс - це **`mysql:`**
 
 `host`
 
-Ім'я хоста, де знаходиться сервер баз даних.
+Ім'я сервера хоста баз даних.
 
 `port`
 
@@ -34,23 +35,23 @@ DSN-префікс - це **`mysql:`**
 
 `unix_socket`
 
-Сокет MySQL Unix (не повинен використовуватися спільно з `host` або `port`
+Сокет MySQL Unix (не можна вказувати спільно з `host`или`port`
 
 `charset`
 
-Кодування. Дивіться розділ [Кодування](mysqlinfo.concepts.charset.md) для додаткової інформації.
+Кодування. Додаткову інформацію можна знайти в розділі «[Кодування](mysqlinfo.concepts.charset.md)».
 
 ### Приклади
 
-**Приклад #1 Приклади DNS для PDOMYSQL**
+**Приклад #1 Приклади DSN для драйвера PDO\_MYSQL**
 
-Наступні приклади показують використання PDOMYSQL DSN для з'єднання з базою даних MySQL:
+Наступний приклад показує DSN-ім'я драйвера PDO\_MYSQL для з'єднання з базою даних MySQL:
 
 ```
 mysql:host=localhost;dbname=testdb
 ```
 
-Більш складний приклад:
+Більш повні приклади:
 
 ```
 mysql:host=localhost;port=3307;dbname=testdb
@@ -61,4 +62,4 @@ mysql:unix_socket=/tmp/mysql.sock;dbname=testdb
 
 > **Зауваження** **Тільки Unix:**
 > 
-> Якщо ім'я хоста встановлено як `"localhost"`, З'єднання відбувається через сокет домену. Якщо PDOMYSQL скомпільований з використанням libmysqlclient, то шлях до файлу-сокету буде збігатися з шляхом, яким скомпільований libmysqlclient. Якщо PDOMYSQL скомпільований з використанням mysqlnd, значення сокета за умовчанням, може бути виставлено з використанням налаштування [pdomysql.defaultsocket](ref.pdo-mysql.md#ini.pdo-mysql.default-socket)
+> Если имя хоста установлено как`«localhost»`, то з'єднання виконується через доменний сокет. Якщо драйвер PDO\_MYSQL скомпілюваний з модулем libmysqlclient, то файл сокету буде знаходитися в папці, скомпільованій libmysqlclient. Якщо PDO\_MYSQL скомпільований з модулем mysqlnd, стандартний сокет можна встановити через директиву [pdo\_mysql.default\_socket](ref.pdo-mysql.md#ini.pdo-mysql.default-socket)

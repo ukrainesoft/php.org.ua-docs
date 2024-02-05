@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-set-border-dash.md: «pssetborderdash
-  - function.ps-set-info.md: псsetinfo »
+  - function.ps-set-border-dash.md: « ps\_set\_border\_dash
+  - function.ps-set-info.md: ps\_set\_info »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псsetborderstyle
+title: ps\_set\_border\_style
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псsetborderstyle
+# ps\_set\_border\_style
 
 (PECL ps >= 1.1.0)
 
-псsetborderstyle — Встановлює стиль межі анотацій
+ps\_set\_border\_style — Встановлює стиль межі анотацій
 
 ### Опис
 
@@ -18,17 +19,17 @@ title: псsetborderstyle
 ps_set_border_style(resource $psdoc, string $style, float $width): bool
 ```
 
-Посилання, додані за допомогою однієї з функцій [псaddweblink()](function.ps-add-weblink.md) [псaddpdflink()](function.ps-add-pdflink.md) і т.д., будуть відображатися із закругленим прямокутником, коли документ PostScript перетворюється на PDF і переглядається у програмі перегляду PDF. Цей прямокутник не відображається у документі PostScript. Функція встановлює зовнішній вигляд та ширину лінії кордону.
+Посилання, додані однією з функцій [ps\_add\_weblink()](function.ps-add-weblink.md) [ps\_add\_pdflink()](function.ps-add-pdflink.md) і т. д., будуть відображатися із закругленим прямокутником, коли документ PostScript перетворюється на PDF і переглядається у програмі перегляду PDF. Цей прямокутник не відображається у документі PostScript. Функція встановлює зовнішній вигляд та ширину лінії кордону.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 `style`
 
-`style` може бути `solid` або `dashed`
+`style` може бути `solid`или`dashed`
 
 `width`
 
@@ -36,9 +37,9 @@ ps_set_border_style(resource $psdoc, string $style, float $width): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псsetbordercolor()](function.ps-set-border-color.md) - Встановлює колір межі анотацій
--   [псsetborderdash()](function.ps-set-border-dash.md) - Встановлює довжину тире для межі анотації
+-   [ps\_set\_border\_color()](function.ps-set-border-color.md) \- Встановлює колір межі анотацій
+-   [ps\_set\_border\_dash()](function.ps-set-border-dash.md) \- Встановлює довжину тире для межі анотації

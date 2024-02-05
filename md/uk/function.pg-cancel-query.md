@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-affected-rows.md: « pgaffectedrows
-  - function.pg-client-encoding.md: пгclientencoding »
+  - function.pg-affected-rows.md: « pg\_affected\_rows
+  - function.pg-client-encoding.md: pg\_client\_encoding »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгcancelquery
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_cancel\_query
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгcancelquery
+# pg\_cancel\_query
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгcancelquery — Зупинити асинхронний запит.
+pg\_cancel\_query — Зупинити асинхронний запит.
 
 ### Опис
 
@@ -18,27 +19,27 @@ title: пгcancelquery
 pg_cancel_query(PgSql\Connection $connection): bool
 ```
 
-**пгcancelquery()** скасовує виконання асинхронного запиту, надісланого функціями [пгsendquery()](function.pg-send-query.md) [пгsendqueryparams()](function.pg-send-query-params.md) або [пгsendexecute()](function.pg-send-execute.md). Неможливо завершити виконання запиту, запущеного функцією [пгquery()](function.pg-query.md)
+**pg\_cancel\_query()** скасовує виконання асинхронного запиту, надісланого функціями [pg\_send\_query()](function.pg-send-query.md) [pg\_send\_query\_params()](function.pg-send-query-params.md) або [pg\_send\_execute()](function.pg-send-execute.md). Неможливо завершити виконання запиту, запущеного функцією [pg\_query()](function.pg-query.md)
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгcancelquery()****
+**Пример #1 Пример использования**pg\_cancel\_query()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ pg_cancel_query(PgSql\Connection $connection): bool
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Первый запрос к pg_get_result(): Resource id #3
@@ -68,5 +69,5 @@ Resource id #3 получил 3 записей
 
 ### Дивіться також
 
--   [пгsendquery()](function.pg-send-query.md) - Надсилає асинхронний запит
--   [пгconnectionbusy()](function.pg-connection-busy.md) - Перевіряє, чи зайнято з'єднання на даний момент.
+-   [pg\_send\_query()](function.pg-send-query.md) \- Надсилає асинхронний запит
+-   [pg\_connection\_busy()](function.pg-connection-busy.md) \- Перевіряє, чи зайнято з'єднання на даний момент.

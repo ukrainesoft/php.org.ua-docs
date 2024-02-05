@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-statement.construct.md: '« Statement::construct'
+  - mysql-xdevapi-statement.construct.md: '« Statement::\_\_construct'
   - mysql-xdevapi-statement.getresult.md: 'Statement::getResult »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-statement.md: mysqlxdevapiStatement
+  - class.mysql-xdevapi-statement.md: mysql\_xdevapi\\Statement
 title: 'Statement::getNextResult'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Statement::getNextResult
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\Statement::getNextResult(): mysql_xdevapi\Result
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Statement::getNextResult(): mysql_xdevapi\Result
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiStatement::getNextResult()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Statement::getNextResult()\*\*\*\*
 
 ```php
 <?php

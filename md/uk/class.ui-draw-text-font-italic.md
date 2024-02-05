@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.ui-draw-text-font-weight.md: « UIDrawTextFontWeight
-  - class.ui-draw-text-font-stretch.md: ОЙDrawTextFontStretch »
+  - class.ui-draw-text-font-weight.md: « UI\\Draw\\Text\\Font\\Weight
+  - class.ui-draw-text-font-stretch.md: UI\\Draw\\Text\\Font\\Stretch »
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Налаштування курсивного шрифту
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Налаштування курсивного шрифту
 
@@ -14,7 +15,7 @@ title: Налаштування курсивного шрифту
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 

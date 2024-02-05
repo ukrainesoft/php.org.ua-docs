@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.hash-final.md: « hashfinal
-  - function.hash-hmac-algos.md: hashhmacalgos »
+  - function.hash-final.md: « hash\_final
+  - function.hash-hmac-algos.md: hash\_hmac\_algos »
   - index.md: PHP Manual
-  - ref.hash.md: Функции Hash
-title: hashhkdf
+  - ref.hash.md: Функції Hash
+title: hash\_hkdf
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# hashhkdf
+# hash\_hkdf
 
-(PHP 7> = 7.1.2, PHP 8)
+(PHP 7 >= 7.1.2, PHP 8)
 
-hashhkdf — Формування ключа HKDF для заданих вхідних даних
+hash\_hkdf — Формування ключа HKDF для заданих вхідних даних
 
 ### Опис
 
 ```methodsynopsis
-hash_hkdf(    string $algo,    string $key,    int $length = 0,    string $info = "",    string $salt = ""): string
+hash_hkdf(    string $algo,    string $key,    int $length = 0,    string $info = "",    string $salt = ""): string
 ```
 
 ### Список параметрів
 
 `algo`
 
-Ім'я вибраного хешируючого алгоритму (наприклад, "sha256", "sha512", "haval160,4" і т.д.) Список підтримуваних алгоритмів можна переглянути в описі функції [hashalgos()](function.hash-algos.md)
+Ім'я вибраного хешируючого алгоритму (наприклад, "sha256", "sha512", "haval160,4" і т.д.) Список підтримуваних алгоритмів можна переглянути в описі функції [hash\_algos()](function.hash-algos.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Не криптографічні функції, що хешують, не допускаються.
 
@@ -36,7 +37,7 @@ hash_hkdf(    string $algo,    string $key,    int $length = 0,    string $info 
 
 Вибрана довжина виведення у байтах. Не може бути більш ніж у 255 разів більше розміру обраної функції, що хешує.
 
-Якщо `length` встановлено як `0`, то висновок по довжині дорівнюватиме розміру обраної функції, що хешує.
+Якщо `length`установлено как , то висновок по довжині дорівнюватиме розміру обраної функції, що хешує.
 
 `info`
 
@@ -50,15 +51,21 @@ hash_hkdf(    string $algo,    string $key,    int $length = 0,    string $info 
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить необроблені бінарні дані, що представляють сформований ключ або **`false`** у разі невдачі.
+Повертає рядок, що містить необроблені бінарні дані, що становлять сформований ключ.
 
 ### Помилки
 
-Помилка рівня **`E_WARNING`** буде згенерована у разі, якщо параметр `key` порожній, у параметрі `algo` вказано невідомий або криптографічний алгоритм, параметр `length` менше `0` або дуже великий (більш ніж у 255 разів більше за розмір хеш-функції).
+Викидається [ValueError](class.valueerror.md), якщо параметр `key`пуст, в параметре`algo` вказано невідомий або криптографічний алгоритм, параметр `length`меньше або дуже великий (більш ніж у 255 разів більше за розмір хеш-функції).
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.0.0 | Тепер викидається виняток[ValueError](class.valueerror.md) у разі виникнення помилки; раніше видавалася помилка рівня **`E_WARNING`** і поверталося значення **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **hashhkdf()****
+**Пример #1 Пример использования**hash\_hkdf()\*\*\*\*
 
 ```php
 <?php
@@ -78,6 +85,6 @@ var_dump($encryptionKey !== $authenticationKey); // bool(true)
 
 ### Дивіться також
 
--   [hashpbkdf2()](function.hash-pbkdf2.md) - Формування ключа PBKDF2 для заданих вхідних даних
--   [» RFC 5869](http://www.faqs.org/rfcs/rfc5869)
--   [» користувацька реалізація](https://github.com/narfbg/hash_hkdf_compat)
+-   [hash\_pbkdf2()](function.hash-pbkdf2.md) \- Формування ключа PBKDF2 для заданих вхідних даних
+-   [» RFC 5869](http://www.faqs.org/rfcs/rfc5869)
+-   [» користувацька реалізація](https://github.com/narfbg/hash_hkdf_compat)

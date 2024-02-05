@@ -1,14 +1,15 @@
 ---
 navigation:
-  - datetimeimmutable.set-state.md: '« DateTimeImmutable::setstate'
+  - datetimeimmutable.set-state.md: '« DateTimeImmutable::\_\_set\_state'
   - datetimeimmutable.setisodate.md: 'DateTimeImmutable::setISODate »'
   - index.md: PHP Manual
   - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::setDate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeImmutable::setDate
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::setDate — Встановлює дату
 
@@ -24,7 +25,7 @@ public DateTimeImmutable::setDate(int $year, int $month, int $day): DateTimeImmu
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [date\_create()](function.date-create.md). Функція змінює цей об'єкт.
 
 `year`
 
@@ -40,11 +41,11 @@ public DateTimeImmutable::setDate(int $year, int $month, int $day): DateTimeImmu
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з модифікованими даними або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) із модифікованими даними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTimeImmutable::setDate()****
+**Пример #1 Пример использования**DateTimeImmutable::setDate()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -56,7 +57,7 @@ echo $newDate->format('Y-m-d');
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 2001-02-03
@@ -79,7 +80,7 @@ echo $newDate->format('Y-m-d') . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 2001-02-28
@@ -89,5 +90,5 @@ echo $newDate->format('Y-m-d') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.md) - Встановлює дату у форматі ISO
--   [DateTimeImmutable::setTime()](datetimeimmutable.settime.md) - Встановлює час
+-   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.md) \- Встановлює дату у форматі ISO
+-   [DateTimeImmutable::setTime()](datetimeimmutable.settime.md) \- Встановлює час

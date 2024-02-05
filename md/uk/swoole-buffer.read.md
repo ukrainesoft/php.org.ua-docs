@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-buffer.expand.md: '« SwooleBuffer::expand'
-  - swoole-buffer.recycle.md: 'SwooleBuffer::recycle »'
+  - swoole-buffer.expand.md: '« Swoole\\Buffer::expand'
+  - swoole-buffer.recycle.md: 'Swoole\\Buffer::recycle »'
   - index.md: PHP Manual
-  - class.swoole-buffer.md: SwooleBuffer
-title: 'SwooleBuffer::read'
+  - class.swoole-buffer.md: Swoole\\Buffer
+title: 'Swoole\\Buffer::read'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleBuffer::read
+# Swoole\\Buffer::read
 
 (PECL swoole >= 1.9.0)
 
-SwooleBuffer::read — Читає дані з буфера пам'яті на основі зміщення та довжини
+Swoole\\Buffer::read — Читає дані з буфера пам'яті на основі зміщення та довжини
 
 ### Опис
 

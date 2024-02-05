@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - memcache.examples.md: Приклади
 title: Базове використання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Базове використання
 

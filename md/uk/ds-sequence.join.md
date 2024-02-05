@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.insert.md: '« DsSequence::insert'
-  - ds-sequence.last.md: 'ДсSequence::last »'
+  - ds-sequence.insert.md: '« Ds\\Sequence::insert'
+  - ds-sequence.last.md: 'Ds\\Sequence::last »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::join'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::join'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::join
+# Ds\\Sequence::join
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::join — Склеює всі значення в рядок
+Ds\\Sequence::join — Склеює всі значення в рядок
 
 ### Опис
 
@@ -32,7 +33,7 @@ abstract public Ds\Sequence::join(string $glue = ?): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::join()** з роздільником**
+**Пример #1 Пример использования**Ds\\Sequence::join()\*\* з роздільником\*\*
 
 ```php
 <?php
@@ -42,13 +43,13 @@ var_dump($sequence->join("|"));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(11) "a|b|c|1|2|3"
 ```
 
-**Приклад #2 Приклад використання **ДсSequence::join()** без роздільника**
+**Пример #2 Пример использования**Ds\\Sequence::join()\*\* без роздільника\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_dump($sequence->join());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(11) "abc123"

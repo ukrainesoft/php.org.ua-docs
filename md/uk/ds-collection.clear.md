@@ -1,21 +1,22 @@
 ---
 navigation:
-  - class.ds-collection.md: « Коллекция
-  - ds-collection.copy.md: 'ДсCollection::copy »'
+  - class.ds-collection.md: « Ds\\Collection
+  - ds-collection.copy.md: 'Ds\\Collection::copy »'
   - index.md: PHP Manual
-  - class.ds-collection.md: Коллекция
-title: 'ДсCollection::clear'
+  - class.ds-collection.md: Ds\\Collection
+title: 'Ds\\Collection::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсCollection::clear
+# Ds\\Collection::clear
 
 (PECL ds >= 1.0.0)
 
-ДсCollection::clear — Видаляє всі значення
+Ds\\Collection::clear — Видаляє всі значення
 
 ### Опис
 
 ```methodsynopsis
-abstract public Ds\Collection::clear(): void
+public Ds\Collection::clear(): void
 ```
 
 Видаляє всі значення колекції.
@@ -30,7 +31,7 @@ abstract public Ds\Collection::clear(): void
 
 ### Приклади
 
-**Приклад #1 Приклад **ДсCollection::clear()****
+**Пример #1 Пример**Ds\\Collection::clear()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ print_r($collection);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

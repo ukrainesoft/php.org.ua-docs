@@ -3,16 +3,17 @@ navigation:
   - control-structures.foreach.md: « foreach
   - control-structures.continue.md: continue »
   - index.md: PHP Manual
-  - language.control-structures.md: Управляющие конструкции
+  - language.control-structures.md: Керуючі конструкції
 title: break
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## break
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-`break` перериває виконання поточної структури `for` `foreach` `while` `do-while` або `switch`
+`break` перериває виконання поточної структури `for` `foreach` `while` `do-while`или`switch`
 
-`break` приймає необов'язковий числовий аргумент, який повідомляє йому виконання якої кількості вкладених структур необхідно перервати. Значення за замовчуванням `1`тільки найближча структура буде перервана.
+`break` приймає необов'язковий числовий аргумент, який повідомляє йому виконання якої кількості вкладених структур необхідно перервати. Значення за замовчуванням тільки найближча структура буде перервана.
 
 ```php
 <?php

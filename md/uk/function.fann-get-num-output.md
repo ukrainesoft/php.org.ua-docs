@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-num-layers.md: « fanngetnumlayers
-  - function.fann-get-quickprop-decay.md: fanngetquickpropdecay »
+  - function.fann-get-num-layers.md: « fann\_get\_num\_layers
+  - function.fann-get-quickprop-decay.md: fann\_get\_quickprop\_decay »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetnumoutput
+  - ref.fann.md: Функції Fann
+title: fann\_get\_num\_output
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetnumoutput
+# fann\_get\_num\_output
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetnumoutput — Отримує кількість вихідних нейронів
+fann\_get\_num\_output — Отримує кількість вихідних нейронів
 
 ### Опис
 
@@ -28,4 +29,4 @@ fann_get_num_output(resource $ann): int
 
 ### Значення, що повертаються
 
-Кількість вихідних нейронів або **`false`** у разі виникнення помилки.
+Кількість вихідних нейронів або \*\*`false`\*\*в случае возникновения ошибки.

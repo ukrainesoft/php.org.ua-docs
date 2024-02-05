@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-next-result.md: « cubridnextresult
-  - function.cubrid-num-rows.md: cubridnumrows »
+  - function.cubrid-next-result.md: « cubrid\_next\_result
+  - function.cubrid-num-rows.md: cubrid\_num\_rows »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridnumcols
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_num\_cols
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridnumcols
+# cubrid\_num\_cols
 
 (PECL CUBRID >= 8.3.0)
 
-cubridnumcols — Повертає кількість стовпців у наборі результатів
+cubrid\_num\_cols — Повертає кількість стовпців у наборі результатів
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridnumcols — Повертає кількість стовпців у наб
 cubrid_num_cols(resource $result): int
 ```
 
-Функція **cubridnumcols()** використовується для отримання кількості стовпців із результату запиту. Її можна використовувати тільки в тому випадку, якщо запит, що виконується, є оператором `SELECT`
+Функция**cubrid\_num\_cols()** використовується для отримання кількості стовпців із результату запиту. Її можна використовувати тільки в тому випадку, якщо запит, що виконується, є оператором `SELECT`
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ cubrid_num_cols(resource $result): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridnumcols()****
+**Пример #1 Пример использования**cubrid\_num\_cols()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Количество строк: 6
@@ -60,5 +61,5 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
--   [cubridnumrows()](function.cubrid-num-rows.md) - Отримати кількість рядків у наборі результатів
+-   [cubrid\_execute()](function.cubrid-execute.md) \- Виконує підготовлений SQL-оператор
+-   [cubrid\_num\_rows()](function.cubrid-num-rows.md) \- Отримати кількість рядків у наборі результатів

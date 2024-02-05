@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlkicking.md: « tradercdlkicking
-  - function.trader-cdlladderbottom.md: tradercdlladderbottom »
+  - function.trader-cdlkicking.md: « trader\_cdlkicking
+  - function.trader-cdlladderbottom.md: trader\_cdlladderbottom »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlkickingbylength
+  - ref.trader.md: Функції Trader
+title: trader\_cdlkickingbylength
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlkickingbylength
+# trader\_cdlkickingbylength
 
 (PECL trader >= 0.2.0)
 
-tradercdlkickingbylength — Високий стрибок - бик/ведмідь визначається за довгим марубозом
+trader\_cdlkickingbylength — Високий стрибок - бик/ведмідь визначається за довгим марубозом
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlkickingbylength(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlkickingbylength(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

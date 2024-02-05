@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-lo-import.md: « pgлоimport
-  - function.pg-lo-read-all.md: пглоreadall »
+  - function.pg-lo-import.md: « pg\_lo\_import
+  - function.pg-lo-read-all.md: pg\_lo\_read\_all »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пглоopen
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_lo\_open
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пглоopen
+# pg\_lo\_open
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пглоopen — Відкриває великий об'єкт бази даних
+pg\_lo\_open — Відкриває великий об'єкт бази даних
 
 ### Опис
 
@@ -18,23 +19,23 @@ title: пглоopen
 pg_lo_open(PgSql\Connection $connection, int $oid, string $mode): PgSql\Lob|false
 ```
 
-**пглоopen()** відкриває великий об'єкт бази даних та повертає екземпляр [PgSqlLob](class.pgsql-lob.md)
+**pg\_lo\_open()** відкриває великий об'єкт бази даних та повертає екземпляр [PgSql\\Lob](class.pgsql-lob.md)
 
 **Увага**
 
-Не слід закривати з'єднання з базою даних до завершення роботи з екземпляром [PgSqlLob](class.pgsql-lob.md)
+Не слід закривати з'єднання з базою даних до завершення роботи з екземпляром [PgSql\\Lob](class.pgsql-lob.md)
 
 Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Колишня назва функції: **пгloopen()**
+> Прежнее название функции:**pg\_loopen()**
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection` не вказано, буде вибрано стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -50,18 +51,18 @@ OID великий об'єкт у базі даних.
 
 ### Значення, що повертаються
 
-Екземпляр [PgSqlLob](class.pgsql-lob.md) або **`false`** у разі виникнення помилки.
+Екземпляр [PgSql\\Lob](class.pgsql-lob.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Повертає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Повертає екземпляр [PgSql\\Lob](class.pgsql-lob.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пглоopen()****
+**Пример #1 Пример использования**pg\_lo\_open()\*\*\*\*
 
 ```php
 <?php
@@ -79,5 +80,5 @@ OID великий об'єкт у базі даних.
 
 ### Дивіться також
 
--   [пглоclose()](function.pg-lo-close.md) - Закриває великий об'єкт
--   [пглоcreate()](function.pg-lo-create.md) - Створює великий об'єкт
+-   [pg\_lo\_close()](function.pg-lo-close.md) \- Закриває великий об'єкт
+-   [pg\_lo\_create()](function.pg-lo-create.md) \- Створює великий об'єкт

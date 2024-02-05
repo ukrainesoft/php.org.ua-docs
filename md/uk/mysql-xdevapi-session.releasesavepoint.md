@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-session.quotename.md: '« Session::quoteName'
   - mysql-xdevapi-session.rollback.md: 'Session::rollback »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::releaseSavepoint'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::releaseSavepoint
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\Session::releaseSavepoint(string $name): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::releaseSavepoint()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::releaseSavepoint()\*\*\*\*
 
 ```php
 <?php

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-abort-txn.md: « svnфсaborttxn
-  - function.svn-fs-begin-txn2.md: svnфсbegintxn2 »
+  - function.svn-fs-abort-txn.md: « svn\_fs\_abort\_txn
+  - function.svn-fs-begin-txn2.md: svn\_fs\_begin\_txn2 »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсapplytext
+title: svn\_fs\_apply\_text
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсapplytext
+# svn\_fs\_apply\_text
 
 (PECL svn >= 0.2.0)
 
-svnфсapplytext — Створює та повертає потік, який буде використаний для заміни
+svn\_fs\_apply\_text — Створює та повертає потік, який буде використаний для заміни
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_apply_text(resource $root, string $path): resource
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Створює та повертає потік, який буде використаний для заміни.
 

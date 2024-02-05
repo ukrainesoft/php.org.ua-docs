@@ -4,18 +4,19 @@ navigation:
   - book.varnish.md: Varnish »
   - index.md: PHP Manual
   - ref.tcpwrap.md: Функції TCP
-title: tcpwrapcheck
+title: tcpwrap\_check
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tcpwrapcheck
+# tcpwrap\_check
 
 (PECL tcpwrap >= 0.1.0)
 
-tcpwrapcheck — Проводить перевірку tcpwrap
+tcpwrap\_check — Проводить перевірку tcpwrap
 
 ### Опис
 
 ```methodsynopsis
-tcpwrap_check(    string $daemon,    string $address,    string $user = ?,    bool $nodns = false): bool
+tcpwrap_check(    string $daemon,    string $address,    string $user = ?,    bool $nodns = false): bool
 ```
 
 Функція звіряється з файлами /etc/hosts.allow та /etc/hosts.deny для перевірки, чи можна чи не можна дати доступ клієнту до демона `daemon`
@@ -36,7 +37,7 @@ tcpwrap_check(    string $daemon,    string $address,    string $user = ?,    bo
 
 `nodns`
 
-Якщо адреса `address` виглядає як доменне ім'я, то робиться запит до DNS для визначення його IP-адреси. Для блокування такої поведінки встановіть `nodns` на значення **`true`**
+Якщо адреса `address` виглядає як доменне ім'я, то робиться запит до DNS для визначення його IP-адреси. Для блокування такої поведінки встановіть `nodns`в значение\*\*`true`\*\*
 
 ### Значення, що повертаються
 
@@ -62,4 +63,4 @@ if (!tcpwrap_check('php', $_SERVER['REMOTE_ADDR'])) {
 
 ### Дивіться також
 
-Для отримання більш детальної інформації зверніться до документації по hostsaccess(3).
+Для отримання більш детальної інформації зверніться до документації по hosts\_access(3).

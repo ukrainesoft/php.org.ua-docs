@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-make-file.md: « svnфсmakefile
-  - function.svn-fs-node-prop.md: svnфсnodeprop »
+  - function.svn-fs-make-file.md: « svn\_fs\_make\_file
+  - function.svn-fs-node-prop.md: svn\_fs\_node\_prop »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсnodecreatedrev
+title: svn\_fs\_node\_created\_rev
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсnodecreatedrev
+# svn\_fs\_node\_created\_rev
 
 (PECL svn >= 0.1.0)
 
-svnфсnodecreatedrev — Повертає номер ревізії, коли було створено шлях у файловій системі
+svn\_fs\_node\_created\_rev — Повертає номер ревізії, коли було створено шлях у файловій системі
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_node_created_rev(resource $fsroot, string $path): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає номер ревізії, коли було створено шлях у файловій системі.
 

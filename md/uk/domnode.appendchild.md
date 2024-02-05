@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.domnode.md: DOMNode
 title: 'DOMNode::appendChild'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNode::appendChild
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMNode::appendChild — Додає новий дочірній вузол до кінця списку нащадків.
+DOMNode::appendChild — Додає новий дочірній вузол у кінець списку нащадків
 
 ### Опис
 
@@ -30,7 +31,7 @@ public DOMNode::appendChild(DOMNode $node): DOMNode|false
 
 ### Значення, що повертаються
 
-Доданий вузол.
+Повертає доданий вузол або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -83,7 +84,7 @@ echo $doc->saveXML();
 
 ### Дивіться також
 
--   [DOMChildNode::after()](domchildnode.after.md) - Додає вузли після вузла
--   [DOMNode::insertBefore()](domnode.insertbefore.md) - Додає новий дочірній вузол перед вказаним вузлом
--   [DOMNode::removeChild()](domnode.removechild.md) - видаляє дочірній вузол зі списку нащадків
--   [DOMNode::replaceChild()](domnode.replacechild.md) - Замінює дочірній вузол
+-   [DOMChildNode::after()](domchildnode.after.md) \- Додає вузли після вузла
+-   [DOMNode::insertBefore()](domnode.insertbefore.md) \- Додає новий дочірній вузол перед вказаним вузлом
+-   [DOMNode::removeChild()](domnode.removechild.md) \- видаляє дочірній вузол зі списку нащадків
+-   [DOMNode::replaceChild()](domnode.replacechild.md) \- Замінює дочірній вузол

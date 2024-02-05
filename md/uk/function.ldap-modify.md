@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ldap-modify-batch.md: « ldapmodifybatch
-  - function.ldap-next-attribute.md: ldapnextattribute »
+  - function.ldap-modify-batch.md: « ldap\_modify\_batch
+  - function.ldap-next-attribute.md: ldap\_next\_attribute »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapmodify
+title: ldap\_modify
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapmodify
+# ldap\_modify
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapmodify - Псевдонім [ldapmodreplace()](function.ldap-mod-replace.md)
+ldap\_modify — Псевдоним[ldap\_mod\_replace()](function.ldap-mod-replace.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ldapmodreplace()](function.ldap-mod-replace.md)
+Функция — псевдоним функции:[ldap\_mod\_replace()](function.ldap-mod-replace.md)
 
 ### Дивіться також
 
--   [ldaprename()](function.ldap-rename.md) - Змінити ім'я запису
+-   [ldap\_rename()](function.ldap-rename.md) \- Змінити ім'я запису

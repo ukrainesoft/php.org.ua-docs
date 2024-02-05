@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-dens-t.md: « statsdensт
-  - function.stats-dens-weibull.md: statsdensweibull »
+  - function.stats-dens-t.md: « stats\_dens\_t
+  - function.stats-dens-weibull.md: stats\_dens\_weibull »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsdensuniform
+title: stats\_dens\_uniform
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsdensuniform
+# stats\_dens\_uniform
 
 (PECL stats >= 1.0.0)
 
-statsdensuniform - Функція щільності ймовірності рівномірного розподілу
+stats\_dens\_uniform - Функція щільності ймовірності рівномірного розподілу
 
 ### Опис
 
@@ -18,7 +19,7 @@ statsdensuniform - Функція щільності ймовірності рі
 stats_dens_uniform(float $x, float $a, float $b): float
 ```
 
-Повертає щільність ймовірності у `x`, де нижня межа задана в `a`, а верхня в `b`
+Повертає щільність ймовірності у `x`, где нижняя граница задана в`a`, а верхня в `b`
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ stats_dens_uniform(float $x, float $a, float $b): float
 
 ### Значення, що повертаються
 
-Щільність ймовірності в `x` або **`false`** у разі виникнення помилки.
+Щільність ймовірності в `x`или\*\*`false`\*\*в случае возникновения ошибки.

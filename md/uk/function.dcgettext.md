@@ -3,8 +3,9 @@ navigation:
   - function.bindtextdomain.md: « bindtextdomain
   - function.dcngettext.md: dcngettext »
   - index.md: PHP Manual
-  - ref.gettext.md: Функции gettext
+  - ref.gettext.md: Функції gettext
 title: dcgettext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # dcgettext
 
@@ -40,4 +41,4 @@ dcgettext(string $domain, string $message, int $category): string
 
 ### Дивіться також
 
--   [gettext()](function.gettext.md) - Шукає повідомлення у поточному домені
+-   [gettext()](function.gettext.md) \- Шукає повідомлення у поточному домені

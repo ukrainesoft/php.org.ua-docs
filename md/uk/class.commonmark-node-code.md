@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.commonmark-node-linebreak.md: « CommonMarkNodeLineBreak
-  - class.commonmark-node-codeblock.md: CommonMarkNodeCodeBlock »
+  - class.commonmark-node-linebreak.md: « CommonMark\\Node\\LineBreak
+  - class.commonmark-node-codeblock.md: CommonMark\\Node\\CodeBlock »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: Code успадковує CommonMarkNode
+title: Code успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Code успадковує CommonMarkNode
+# Code успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 

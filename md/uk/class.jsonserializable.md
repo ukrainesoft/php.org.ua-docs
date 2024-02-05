@@ -5,25 +5,22 @@ navigation:
   - index.md: PHP Manual
   - book.json.md: JSON
 title: Інтерфейс JsonSerializable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс JsonSerializable
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Об'єкти, що реалізують інтерфейс **JsonSerializable**, можуть модифікувати своє JSON-подання при кодуванні за допомогою [jsonencode()](function.json-encode.md)
+Об'єкти, що реалізують інтерфейс **JsonSerializable**, можуть модифікувати своє JSON-подання при кодуванні за допомогою [json\_encode()](function.json-encode.md)
 
 ## Огляд інтерфейсів
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      interface JsonSerializable {
+     interface JsonSerializable {
 
     /* Методы */
     
@@ -34,4 +31,4 @@ title: Інтерфейс JsonSerializable
 
 ## Зміст
 
--   [JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.md) — Задає дані, які мають бути серіалізовані у JSON
+-   [JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.md)— Задає дані, які мають бути серіалізовані у JSON

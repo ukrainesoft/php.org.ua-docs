@@ -4,17 +4,18 @@ navigation:
   - reflectionattribute.getarguments.md: 'ReflectionAttribute::getArguments »'
   - index.md: PHP Manual
   - class.reflectionattribute.md: ReflectionAttribute
-title: 'ReflectionAttribute::construct'
+title: 'ReflectionAttribute::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionAttribute::construct
+# ReflectionAttribute::\_\_construct
 
 (PHP 8)
 
-ReflectionAttribute::construct - Закритий конструктор, що забороняє створення об'єкта безпосередньо
+ReflectionAttribute::\_\_construct - Закритий конструктор, що забороняє створення об'єкта безпосередньо
 
 ### Опис
 
-private **ReflectionAttribute::construct**
+private**ReflectionAttribute::\_\_construct**()
 
 ### Список параметрів
 

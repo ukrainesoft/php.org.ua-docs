@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-collectionmodify.execute.md: '« CollectionModify::execute'
   - mysql-xdevapi-collectionmodify.patch.md: 'CollectionModify::patch »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: mysql\_xdevapi\\CollectionModify
 title: 'CollectionModify::limit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionModify::limit
 
 (No version information available, might only be in Git)
 
-CollectionModify::limit — Обмежує кількість документів, що змінюються.
+Collection Modify::limit — Обмежує кількість змінених документів
 
 ### Опис
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\CollectionModify::limit(int $rows): mysql_xdevapi\Collectio
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::limit()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::limit()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ print_r($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

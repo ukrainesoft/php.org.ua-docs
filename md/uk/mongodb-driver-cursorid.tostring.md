@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-cursorid.serialize.md: '« MongoDBDriverCursorId::serialize'
-  - mongodb-driver-cursorid.unserialize.md: 'MongoDBDriverCursorId::unserialize »'
+  - mongodb-driver-cursorid.serialize.md: '« MongoDB\\Driver\\CursorId::serialize'
+  - mongodb-driver-cursorid.unserialize.md: 'MongoDB\\Driver\\CursorId::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursorid.md: MongoDBDriverCursorId
-title: 'MongoDBDriverCursorId::function toString() { \[native code\] }'
+  - class.mongodb-driver-cursorid.md: MongoDB\\Driver\\CursorId
+title: 'MongoDB\\Driver\\CursorId::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverCursorId::function toString() { \[native code\] }
+# MongoDB\\Driver\\CursorId::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.0.0)
 
-MongoDBDriverCursorId::toString — Строкове представлення ідентифікатора курсору
+MongoDB\\Driver\\CursorId::\_\_toString — Строкове представлення ідентифікатора курсору
 
 ### Опис
 
@@ -30,7 +31,7 @@ final public MongoDB\Driver\CursorId::__toString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverCursorId::toString()****
+**Пример #1 Пример использования**MongoDB\\Driver\\CursorId::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump((string) $cursor->getId());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(11) "98061641158"
@@ -61,4 +62,4 @@ string(11) "98061641158"
 
 ### Дивіться також
 
--   [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.md) - Повертає ідентифікатор для курсору
+-   [MongoDB\\Driver\\Cursor::getId()](mongodb-driver-cursor.getid.md) \- Повертає ідентифікатор для курсору

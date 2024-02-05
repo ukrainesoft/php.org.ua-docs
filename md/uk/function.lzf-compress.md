@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.lzf.md: « Функції LZF
-  - function.lzf-decompress.md: lzfdecompress »
+  - function.lzf-decompress.md: lzf\_decompress »
   - index.md: PHP Manual
   - ref.lzf.md: Функції LZF
-title: lzfcompress
+title: lzf\_compress
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# lzfcompress
+# lzf\_compress
 
 (PECL lzf >= 0.1.0)
 
-lzfcompress — Стиснення LZF
+lzf\_compress — Стиснення LZF
 
 ### Опис
 
@@ -18,7 +19,7 @@ lzfcompress — Стиснення LZF
 lzf_compress(string $data): string
 ```
 
-**lzfcompress()** стискає рядок даних `data` Використовуючи алгоритм LZF.
+**lzf\_compress()** стискає рядок даних `data`используя алгоритм LZF.
 
 ### Список параметрів
 
@@ -28,8 +29,8 @@ lzf_compress(string $data): string
 
 ### Значення, що повертаються
 
-Повертає стислі дані або **`false`** у разі виникнення помилки.
+Повертає стислі дані або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [lzfdecompress()](function.lzf-decompress.md) - Розархівація LZF
+-   [lzf\_decompress()](function.lzf-decompress.md) \- Розархівація LZF

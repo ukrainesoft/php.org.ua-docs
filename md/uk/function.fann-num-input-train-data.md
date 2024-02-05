@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-merge-train-data.md: « fannmergetraindata
-  - function.fann-num-output-train-data.md: fannnumoutputtraindata »
+  - function.fann-merge-train-data.md: « fann\_merge\_train\_data
+  - function.fann-num-output-train-data.md: fann\_num\_output\_train\_data »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannnuminputtraindata
+  - ref.fann.md: Функції Fann
+title: fann\_num\_input\_train\_data
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannnuminputtraindata
+# fann\_num\_input\_train\_data
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannnuminputtraindata — Повертає кількість вхідних даних у кожному шаблоні до навчальних даних.
+fann\_num\_input\_train\_data — Повертає кількість вхідних даних у кожному шаблоні до навчальних даних.
 
 ### Опис
 
@@ -28,9 +29,9 @@ fann_num_input_train_data(resource $data): int
 
 ### Значення, що повертаються
 
-Кількість вхідних даних або **`false`** у разі виникнення помилки.
+Кількість вхідних даних або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fannlengthtraindata()](function.fann-length-train-data.md) - Повертає кількість шаблонів у навчальних даних
--   [fannnumoutputtraindata()](function.fann-num-output-train-data.md) - Повертає кількість вихідних даних у кожному із шаблонів у навчальних даних
+-   [fann\_length\_train\_data()](function.fann-length-train-data.md) \- Повертає кількість шаблонів у навчальних даних
+-   [fann\_num\_output\_train\_data()](function.fann-num-output-train-data.md) \- Повертає кількість вихідних даних у кожному із шаблонів у навчальних даних

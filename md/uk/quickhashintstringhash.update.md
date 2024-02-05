@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashintstringhash.md: QuickHashIntStringHash
 title: 'QuickHashIntStringHash::update'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntStringHash::update
 
@@ -32,11 +33,11 @@ public QuickHashIntStringHash::update(int $key, string $value): bool
 
 ### Значення, що повертаються
 
-Метод повертає **`true`**, якщо запис було знайдено та оновлено та **`false`**, якщо запис був частиною хеша.
+Метод возвращает\*\*`true`\*\*, якщо запис було знайдено та оновлено та **`false`**, якщо запис був частиною хеша.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntStringHash::update()****
+**Пример #1 Пример использования**QuickHashIntStringHash::update()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ echo $hash->get( 314159265 ), "\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 --

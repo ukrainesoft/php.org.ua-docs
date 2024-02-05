@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::matteFloodfillImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::matteFloodfillImage
 
@@ -19,7 +20,7 @@ Imagick::matteFloodfillImage — Змінює значення прозорос�
 ### Опис
 
 ```methodsynopsis
-public Imagick::matteFloodfillImage(    float $alpha,    float $fuzz,    mixed $bordercolor,    int $x,    int $y): bool
+public Imagick::matteFloodfillImage(    float $alpha,    float $fuzz,    mixed $bordercolor,    int $x,    int $y): bool
 ```
 
 Змінює значення прозорості будь-якого пікселя, що відповідає меті та є найближчим сусідом. Якщо вказано метод **`FillToBorderMethod`**, значення прозорості змінюється для будь-якого сусіднього пікселя, який не відповідає елементу bordercolor зображення.
@@ -56,6 +57,6 @@ public Imagick::matteFloodfillImage(    float $alpha,    float $fuzz,    mixed $
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL imagick 2.1.0 | Тепер дозволяє рядок, що представляє колір, як третій параметр. Попередні версії допускали лише об'єкт [ImagickPixel](class.imagickpixel.md) |

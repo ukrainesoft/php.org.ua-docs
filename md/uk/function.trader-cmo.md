@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-ceil.md: « traderceil
-  - function.trader-correl.md: tradercorrel »
+  - function.trader-ceil.md: « trader\_ceil
+  - function.trader-correl.md: trader\_correl »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercmo
+  - ref.trader.md: Функції Trader
+title: trader\_cmo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercmo
+# trader\_cmo
 
 (PECL trader >= 0.2.0)
 
-tradercmo — Осцилятор цінових моментів Чанде
+trader\_cmo — Осцилятор цінових моментів Чанде
 
 ### Опис
 

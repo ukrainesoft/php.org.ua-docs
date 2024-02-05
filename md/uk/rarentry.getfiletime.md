@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.rarentry.md: RarEntry
 title: 'RarEntry::getFileTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarEntry::getFileTime
 
@@ -26,4 +27,4 @@ public RarEntry::getFileTime(): string
 
 ### Значення, що повертаються
 
-Останнім часом повертає зміни елемента у вигляді рядка у форматі `YYYY-MM-DD HH:II:SS`, або **`false`** у разі виникнення помилки.
+Останнім часом повертає зміни елемента у вигляді рядка у форматі `YYYY-MM-DD HH:II:SS`, или\*\*`false`\*\*в случае возникновения ошибки.

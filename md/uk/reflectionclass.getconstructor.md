@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getConstructor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getConstructor
 
@@ -30,7 +31,7 @@ public ReflectionClass::getConstructor(): ?ReflectionMethod
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getConstructor()****
+**Пример #1 Пример использования**ReflectionClass::getConstructor()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ var_dump($constructor);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(ReflectionMethod)#2 (2) {
@@ -53,4 +54,4 @@ object(ReflectionMethod)#2 (2) {
 
 ### Дивіться також
 
--   [ReflectionClass::getName()](reflectionclass.getname.md) - Повертає ім'я класу
+-   [ReflectionClass::getName()](reflectionclass.getname.md) \- Повертає ім'я класу

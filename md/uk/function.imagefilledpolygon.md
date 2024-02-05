@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagefilledpolygon
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagefilledpolygon
 
@@ -23,7 +24,7 @@ imagefilledpolygon(GdImage $image, array $points, int $color): bool
 Альтернативний синтаксис (оголошений застарілим із PHP 8.1.0)
 
 ```methodsynopsis
-imagefilledpolygon(    GdImage $image,    array $points,    int $num_points,    int $color): bool
+imagefilledpolygon(    GdImage $image,    array $points,    int $num_points,    int $color): bool
 ```
 
 **imagefilledpolygon()** створює зафарбований багатокутник у заданому зображенні `image`
@@ -36,7 +37,7 @@ imagefilledpolygon(    GdImage $image,    array $points,    int $num_points,    
 
 `points`
 
-Масив, що містить `x` і `y` координати послідовних вершин багатокутника
+Массив, содержащий`x`и`y` координати послідовних вершин багатокутника
 
 `num_points`
 
@@ -50,22 +51,22 @@ imagefilledpolygon(    GdImage $image,    array $points,    int $num_points,    
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `num_points` оголошено застарілим. |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.1.0 | Параметр`num_points` оголошено застарілим. |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagefilledpolygon()****
+**Пример #1 Пример использования**imagefilledpolygon()\*\*\*\*
 
 ```php
 <?php
-// задание Масива точек для многоугольника
+// задание массива точек для многоугольника
 $values = array(
             40,  50,  // Point 1 (x, y)
             20,  240, // Point 2 (x, y)
@@ -95,10 +96,10 @@ imagedestroy($image);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: imagefilledpolygon()](images/21009b70229598c6a80eef8b45bf282b-imagefilledpolygon.png)
 
 ### Дивіться також
 
--   [imagepolygon()](function.imagepolygon.md) - Малювання багатокутника
+-   [imagepolygon()](function.imagepolygon.md) \- Малювання багатокутника

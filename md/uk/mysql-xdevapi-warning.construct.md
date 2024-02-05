@@ -1,24 +1,25 @@
 ---
 navigation:
-  - class.mysql-xdevapi-warning.md: « mysqlxdevapiWarning
+  - class.mysql-xdevapi-warning.md: « mysql\_xdevapi\\Warning
   - book.mysql.md: MySQL (Original) »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-warning.md: mysqlxdevapiWarning
-title: 'Warning::construct'
+  - class.mysql-xdevapi-warning.md: mysql\_xdevapi\\Warning
+title: 'Warning::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Warning::construct
+# Warning::\_\_construct
 
 (No version information available, might only be in Git)
 
-Warning::construct - Конструктор класу Warning
+Warning::\_\_construct - Конструктор класу Warning
 
 ### Опис
 
-private **mysqlxdevapiWarning::construct**
+private**mysql\_xdevapi\\Warning::\_\_construct**()
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ private **mysqlxdevapiWarning::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiWarning::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Warning::\_\_construct()\*\*\*\*
 
 ```php
 <?php

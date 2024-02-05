@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflectionmethod.getprototype.md: '« ReflectionMethod::getPrototype'
+  - reflectionmethod.hasprototype.md: '« ReflectionMethod::hasPrototype'
   - reflectionmethod.invokeargs.md: 'ReflectionMethod::invokeArgs »'
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::invoke'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionMethod::invoke
 
@@ -36,13 +37,13 @@ public ReflectionMethod::invoke(?object $object, mixed ...$args): mixed
 
 ### Помилки
 
-Викидає виняток [ReflectionException](class.reflectionexception.md), якщо в об'єкті `object` немає визначення методу.
+Викидає виняток [ReflectionException](class.reflectionexception.md), якщо в об'єкті `object`нет определения метода.
 
 Викидає виняток [ReflectionException](class.reflectionexception.md), якщо викликати метод виконання не вдалося.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionMethod::invoke()****
+**Пример #1 Пример использования**ReflectionMethod::invoke()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ echo $reflectionMethod->invoke(new HelloWorld(), 'Майк');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Привет, Майк
@@ -67,12 +68,12 @@ echo $reflectionMethod->invoke(new HelloWorld(), 'Майк');
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > **ReflectionMethod::invoke()** не можна використовувати, якщо очікуються параметри посилання. Замість нього слід використовувати [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.md) (Передача посилань у списку аргументів).
 
 ### Дивіться також
 
--   [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.md) - виклик методу з передачею аргументів масивом
--   [invoke()](language.oop5.magic.md#object.invoke)
--   [calluserfunc()](function.call-user-func.md) - Викликає callback-функцію, задану у першому параметрі
+-   [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.md) \- виклик методу з передачею аргументів масивом
+-   [\_\_invoke()](language.oop5.magic.md#object.invoke)
+-   [call\_user\_func()](function.call-user-func.md) \- Викликає callback-функцію, задану у першому параметрі

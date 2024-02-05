@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::set
 
@@ -15,10 +16,10 @@ Memcached::set — Зберігає запис
 ### Опис
 
 ```methodsynopsis
-public Memcached::set(string $key, mixed $value, int $expiration = ?): bool
+public Memcached::set(string $key, mixed $value, int $expiration = 0): bool
 ```
 
-**Memcached::set()** зберігає значення `value` на memcache сервері під вказаним ключем `key`. Параметр `expiration` може бути використаний контролю, коли термін дії значення вважається минулим.
+**Memcached::set()** зберігає значення `value` на memcache сервері під вказаним ключем `key`Параметр`expiration` може бути використаний контролю, коли термін дії значення вважається минулим.
 
 Значення може бути будь-яким доступним типом PHP, крім ресурсу, тому що цей тип не може бути представлений в серіалізованому вигляді. Якщо встановлено параметр **`Memcached::OPT_COMPRESSION`**, то серіалізоване значення також буде стиснуто перед збереженням.
 
@@ -38,11 +39,11 @@ public Memcached::set(string $key, mixed $value, int $expiration = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки. Используйте при необходимости[Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::set()****
+**Пример #1 Пример использования**Memcached::set()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ $m->set('int', 99);
 $m->set('string', 'a simple string');
 $m->set('array', array(11, 12));
 /* время хранения записи с ключом 'object' установлено в 5 минут */
-$m->set('object', new stdclass, time() + 300);
+$m->set('object', new stdClass, time() + 300);
 
 
 var_dump($m->get('int'));
@@ -63,7 +64,7 @@ var_dump($m->get('object'));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(99)
@@ -80,6 +81,6 @@ object(stdClass)#1 (0) {
 
 ### Дивіться також
 
--   [Memcached::setByKey()](memcached.setbykey.md) - Зберігає запис на вказаному сервері
--   [Memcached::add()](memcached.add.md) - Додає елемент із новим ключем
--   [Memcached::replace()](memcached.replace.md) - Замінює існуючий запис із зазначеним ключем
+-   [Memcached::setByKey()](memcached.setbykey.md) \- Зберігає запис на вказаному сервері
+-   [Memcached::add()](memcached.add.md) \- Додає елемент із новим ключем
+-   [Memcached::replace()](memcached.replace.md) \- Замінює існуючий запис із зазначеним ключем

@@ -1,10 +1,11 @@
 ---
 navigation:
   - eventhttprequest.clearheaders.md: '« EventHttpRequest::clearHeaders'
-  - eventhttprequest.construct.md: 'EventHttpRequest::construct »'
+  - eventhttprequest.construct.md: 'EventHttpRequest::\_\_construct »'
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::closeConnection'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::closeConnection
 

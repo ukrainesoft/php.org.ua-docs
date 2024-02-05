@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::loadBinary'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # LuaSandbox::loadBinary
 
@@ -36,4 +37,4 @@ public LuaSandbox::loadBinary(string $code, string $chunkName = ''): LuaSandboxF
 
 ### Дивіться також
 
--   [LuaSandbox::loadString()](luasandbox.loadstring.md) - Завантажує код Lua у середу Lua
+-   [LuaSandbox::loadString()](luasandbox.loadstring.md) \- Завантажує код Lua у середу Lua

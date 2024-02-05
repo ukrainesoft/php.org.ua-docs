@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.intl-error-name.md: « intlerrorname
-  - function.intl-get-error-message.md: intlgeterrormessage »
+  - function.intl-error-name.md: « intl\_error\_name
+  - function.intl-get-error-message.md: intl\_get\_error\_message »
   - index.md: PHP Manual
-  - ref.intl.md: Функции intl
-title: intlgeterrorcode
+  - ref.intl.md: Функції intl
+title: intl\_get\_error\_code
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# intlgeterrorcode
+# intl\_get\_error\_code
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-intlgeterrorcode — Отримати код останньої помилки
+intl\_get\_error\_code — Отримати код останньої помилки
 
 ### Опис
 
@@ -30,7 +31,7 @@ intl_get_error_code(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **intlgeterrorcode()****
+**Пример #1 Пример использования**intl\_get\_error\_code()\*\*\*\*
 
 ```php
 <?php
@@ -43,8 +44,8 @@ if( !$coll ) {
 
 ### Дивіться також
 
--   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою
--   [intlerrorname()](function.intl-error-name.md) - Отримати ім'я помилки за її кодом
--   [intlgeterrormessage()](function.intl-get-error-message.md) - Отримати опис помилки
--   [collatorgeterrorcode()](collator.geterrorcode.md) - Отримує останній код помилки Collator
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [intl\_is\_failure()](function.intl-is-failure.md) \- Перевірити, чи є код помилки ознакою збою
+-   [intl\_error\_name()](function.intl-error-name.md) \- Отримати ім'я помилки за її кодом
+-   [intl\_get\_error\_message()](function.intl-get-error-message.md) \- Отримати опис помилки
+-   [collator\_get\_error\_code()](collator.geterrorcode.md) \- Отримує останній код помилки Collator
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.md) \- Отримує останній код помилки засобу форматування

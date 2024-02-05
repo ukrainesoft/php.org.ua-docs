@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectiongenerator.md: ReflectionGenerator
 title: 'ReflectionGenerator::getExecutingGenerator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionGenerator::getExecutingGenerator
 
@@ -30,7 +31,7 @@ public ReflectionGenerator::getExecutingGenerator(): Generator
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionGenerator::getExecutingGenerator()****
+**Пример #1 Пример использования**ReflectionGenerator::getExecutingGenerator()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump($gen2 === $gen);
 var_dump($gen2->current());
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -62,5 +63,5 @@ int(1);
 
 ### Дивіться також
 
--   [ReflectionGenerator::getExecutingLine()](reflectiongenerator.getexecutingline.md) - Отримати поточний рядок генератора, що виконується
--   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.md) - Отримати ім'я файлу, з якого запущено генератор
+-   [ReflectionGenerator::getExecutingLine()](reflectiongenerator.getexecutingline.md) \- Отримати поточний рядок генератора, що виконується
+-   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.md) \- Отримати ім'я файлу, з якого запущено генератор

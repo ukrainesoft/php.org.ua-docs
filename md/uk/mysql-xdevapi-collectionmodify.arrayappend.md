@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-collectionmodify.md: « mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: « mysql\_xdevapi\\CollectionModify
   - mysql-xdevapi-collectionmodify.arrayinsert.md: 'CollectionModify::arrayInsert »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: mysql\_xdevapi\\CollectionModify
 title: 'CollectionModify::arrayAppend'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionModify::arrayAppend
 
@@ -36,7 +37,7 @@ public mysql_xdevapi\CollectionModify::arrayAppend(string $collection_field, str
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::arrayAppend()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::arrayAppend()\*\*\*\*
 
 ```php
 <?php
@@ -66,7 +67,7 @@ print_r($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

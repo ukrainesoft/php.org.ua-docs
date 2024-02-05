@@ -4,18 +4,19 @@ navigation:
   - zmqsocket.disconnect.md: 'ZMQSocket::disconnect »'
   - index.md: PHP Manual
   - class.zmqsocket.md: ZMQSocket
-title: 'ZMQSocket::construct'
+title: 'ZMQSocket::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ZMQSocket::construct
+# ZMQSocket::\_\_construct
 
 (PECL zmq >= 0.5.0)
 
-ZMQSocket::construct - Конструктор класу ZMQSocket
+ZMQSocket::\_\_construct - Конструктор класу ZMQSocket
 
 ### Опис
 
 ```methodsynopsis
-public ZMQSocket::__construct(    ZMQContext $context,    int $type,    string $persistent_id = null,    callable $on_new_socket = null)
+public ZMQSocket::__construct(    ZMQContext $context,    int $type,    string $persistent_id = null,    callable $on_new_socket = null)
 ```
 
 Створює екземпляр класу ZMQSocket. Параметр `persistent_id` може бути використаний для встановлення постійного з'єднання. Постійний сокет буде виділено з постійного контексту і залишатиметься активним протягом кількох запитів. Отримати той самий сокет для багатьох запитів можна за допомогою параметра `persistent_id`. Функція, задана в `on_new_socket` викликається лише за створенні нової структури сокету.
@@ -44,11 +45,11 @@ callback(ZMQSocket $socket, string $persistent_id = null)
 
 ### Помилки
 
-Викидає **ZMQSocketException** у разі виникнення помилки.
+Викидає **ZMQSocketException**в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ZMQSocket()****
+**Пример #1 Пример использования**ZMQSocket()\*\*\*\*
 
 Використання функції зворотного дзвінка для зв'язку або підключення до сокету
 

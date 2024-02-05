@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - xsl.examples.md: Приклади
 title: Обробка помилок за допомогою функцій обробки помилок libxml
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Обробка помилок за допомогою функцій обробки помилок libxml
 
@@ -20,9 +21,11 @@ Apple Banana Cherry
 
 Містить неправильне "select" вираз.
 
-[http://www.w3.org/1999/XSL/Transform">](http://www.w3.org/1999/XSL/Transform%22%3E)
+<xsl:stylesheet version="1.0" xmlns:xsl="[http://www.w3.org/1999/XSL/Transform">](http://www.w3.org/1999/XSL/Transform%22%3E) <xsl:output method="html" encoding="utf-8" indent="no"/> <xsl:template match="fruits">
 
 [xsl:apply-templates/](xsl:apply-templates/)
+
+<xsl:template match="fruit">- <xsl:value-of select="THIS IS A DELIBERATE ERROR!"/>
 
 **Приклад #3 Збір та виведення помилок**
 
@@ -54,7 +57,7 @@ if ($result) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Libxml error: Invalid expression

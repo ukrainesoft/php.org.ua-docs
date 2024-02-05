@@ -1,10 +1,11 @@
 ---
 navigation:
-  - domnamednodemap.count.md: '« DOMNamedNodeMap::count'
+  - domnamednodemap.getiterator.md: '« DOMNamedNodeMap::getIterator'
   - domnamednodemap.getnameditemns.md: 'DOMNamedNodeMap::getNamedItemNS »'
   - index.md: PHP Manual
   - class.domnamednodemap.md: DOMNamedNodeMap
 title: 'DOMNamedNodeMap::getNamedItem'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNamedNodeMap::getNamedItem
 
@@ -18,18 +19,18 @@ DOMNamedNodeMap::getNamedItem — Отримує вузол, вказаний н
 public DOMNamedNodeMap::getNamedItem(string $qualifiedName): ?DOMNode
 ```
 
-Витягує вузол по заданому `nodeName`
+Извлекает узел по заданному`nodeName`
 
 ### Список параметрів
 
 `qualifiedName`
 
-Ім'я `nodeName` шуканого вузла.
+Имя`nodeName` шуканого вузла.
 
 ### Значення, що повертаються
 
-Вузол (будь-якого типу) із заданим значенням тега `nodeName` або \*\*`null`\*\*якщо таких не знайдено.
+Вузол (будь-якого типу) із заданим значенням тега `nodeName`или\*\*`null`\*\*якщо таких не знайдено.
 
 ### Дивіться також
 
--   [DOMNamedNodeMap::getNamedItemNS()](domnamednodemap.getnameditemns.md) - Отримує вузол із заданим локальним ім'ям та URI простору імен
+-   [DOMNamedNodeMap::getNamedItemNS()](domnamednodemap.getnameditemns.md) \- Отримує вузол із заданим локальним ім'ям та URI простору імен

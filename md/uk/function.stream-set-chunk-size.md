@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-set-blocking.md: « streamsetblocking
-  - function.stream-set-read-buffer.md: streamsetreadbuffer »
+  - function.stream-set-blocking.md: « stream\_set\_blocking
+  - function.stream-set-read-buffer.md: stream\_set\_read\_buffer »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamsetchunksize
+title: stream\_set\_chunk\_size
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamsetchunksize
+# stream\_set\_chunk\_size
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
-streamsetchunksize — Встановити розмір фрагмента даних потоку
+stream\_set\_chunk\_size — Встановлює розмір фрагмента потоку даних.
 
 ### Опис
 
@@ -18,7 +19,7 @@ streamsetchunksize — Встановити розмір фрагмента да
 stream_set_chunk_size(resource $stream, int $size): int
 ```
 
-Встановити розмір фрагмента даних потоку.
+Встановлює розмір фрагмента даних потоку.
 
 ### Список параметрів
 
@@ -34,8 +35,12 @@ stream_set_chunk_size(resource $stream, int $size): int
 
 Повертає попередній розмір фрагмента у разі успішного виконання.
 
-Поверне **`false`**, якщо `size` менше 1 або більше **`PHP_INT_MAX`**
-
 ### Помилки
 
-Викликає помилку рівня **`E_WARNING`**, якщо `size` менше 1 або більше **`PHP_INT_MAX`**
+Викидає виняток [ValueError](class.valueerror.md), если значение параметра`size` менше 1 або більше значення константи **`PHP_INT_MAX`**
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.0.0 | Тепер викидається виняток[ValueError](class.valueerror.md), если значение параметра`size` менше 1 або більше значення константи **`PHP_INT_MAX`**. . Раніше викликалася помилка рівня **`E_WARNING`** і поверталося логічне значення **`false`** |

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setStrokeLineCap'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setStrokeLineCap
 
@@ -20,7 +21,7 @@ public ImagickDraw::setStrokeLineCap(int $linecap): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Задає форму, яка використовуватиметься наприкінці відкритих внутрішніх контурів під час їх обведення.
 
@@ -28,7 +29,7 @@ public ImagickDraw::setStrokeLineCap(int $linecap): bool
 
 `linecap`
 
-Одна з констант [LINECAP](imagick.constants.md#imagick.constants.linecap) `imagick::LINECAP_*`
+Одна из констант[LINECAP](imagick.constants.md#imagick.constants.linecap) `imagick::LINECAP_*`
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public ImagickDraw::setStrokeLineCap(int $linecap): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setStrokeLineCap()****
+**Пример #1 Пример использования**ImagickDraw::setStrokeLineCap()\*\*\*\*
 
 ```php
 <?php

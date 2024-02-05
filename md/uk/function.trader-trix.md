@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-trima.md: « tradertrima
-  - function.trader-tsf.md: tradertsf »
+  - function.trader-trima.md: « trader\_trima
+  - function.trader-tsf.md: trader\_tsf »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradertrix
+  - ref.trader.md: Функції Trader
+title: trader\_trix
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradertrix
+# trader\_trix
 
 (PECL trader >= 0.2.0)
 
-tradertrix - 1-денна швидкість зміни (ROC) потрійний гладкий EMA
+trader\_trix - 1-денна швидкість зміни (ROC) потрійний гладкий EMA
 
 ### Опис
 

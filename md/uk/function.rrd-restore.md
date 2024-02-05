@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.rrd-lastupdate.md: « rrdlastupdate
-  - function.rrd-tune.md: rrdtune »
+  - function.rrd-lastupdate.md: « rrd\_lastupdate
+  - function.rrd-tune.md: rrd\_tune »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
-title: rrdrestore
+title: rrd\_restore
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# rrdrestore
+# rrd\_restore
 
 (PECL rrd >= 0.9.0)
 
-rrdrestore — Відновлює RRD із дампи XML.
+rrd\_restore — Відновлює файл RRD із дампи XML
 
 ### Опис
 
@@ -36,4 +37,4 @@ rrd_restore(string $xml_file, string $rrd_file, array $options = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

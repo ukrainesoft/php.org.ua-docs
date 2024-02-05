@@ -4,13 +4,14 @@ navigation:
   - lua.eval.md: 'Lua::eval »'
   - index.md: PHP Manual
   - class.lua.md: Lua
-title: 'Lua::construct'
+title: 'Lua::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Lua::construct
+# Lua::\_\_construct
 
-(PECL lua> = 0.9.0)
+(PECL lua >=0.9.0)
 
-Lua::construct - Конструктор Lua
+Lua::\_\_construct - Конструктор Lua
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Lua::__construct(string $lua_script_file = NULL)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

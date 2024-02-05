@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getCanonicalID'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlTimeZone::getCanonicalID
 
-# intltzgetcanonicalід
+# intltz\_get\_canonical\_id
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getCanonicalID -- intltzgetcanonicalid — Отримати канонічний системний ідентифікатор часового поясу або нормалізований ідентифікатор часового поясу по заданому ідентифікатору часового поясу
+IntlTimeZone::getCanonicalID -- intltz\_get\_canonical\_id — Отримати канонічний системний ідентифікатор часового поясу або нормалізований ідентифікатор часового поясу по заданому ідентифікатору часового поясу
 
 ### Опис
 
@@ -30,7 +31,7 @@ intltz_get_canonical_id(string $timezoneId, bool &$isSystemId = null): string|fa
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

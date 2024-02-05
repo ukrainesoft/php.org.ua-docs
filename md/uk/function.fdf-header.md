@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-get-version.md: « fdfgetversion
-  - function.fdf-next-field-name.md: fdfnextfieldname »
+  - function.fdf-get-version.md: « fdf\_get\_version
+  - function.fdf-next-field-name.md: fdf\_next\_field\_name »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfheader
+title: fdf\_header
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfheader
+# fdf\_header
 
-(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVNf)
+(PHP 4 >= 4.3.0, PHP 5 < 5.3.0, PECL fdf SVNf)
 
-fdfheader — Встановлює специфічні для FDF вихідні заголовки
+fdf\_header — Встановлює специфічні для FDF вихідні заголовки
 
 ### Опис
 
@@ -18,7 +19,7 @@ fdfheader — Встановлює специфічні для FDF вихідн�
 fdf_header(): void
 ```
 
-Це зручна функція для встановлення відповідних заголовків HTTP для виведення FDF. Вона встановлює для `Content-type:` значення `application/vnd.fdf`
+Це зручна функція для встановлення відповідних заголовків HTTP для виведення FDF. Вона встановлює для `Content-type:`значение`application/vnd.fdf`
 
 ### Список параметрів
 

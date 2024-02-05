@@ -1,18 +1,19 @@
 ---
 navigation:
   - tidy.body.md: '« tidy::body'
-  - tidy.construct.md: 'tidy::construct »'
+  - tidy.construct.md: 'tidy::\_\_construct »'
   - index.md: PHP Manual
   - class.tidy.md: tidy
 title: 'tidy::cleanRepair'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidy::cleanRepair
 
-# tidycleanrepair
+# tidy\_clean\_repair
 
-(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
 
-tidy::cleanRepair -- tidycleanrepair — Виконати налаштоване очищення та відновлення розібраної розмітки
+tidy::cleanRepair -- tidy\_clean\_repair — Виконати налаштоване очищення та відновлення розібраної розмітки
 
 ### Опис
 
@@ -38,11 +39,11 @@ tidy_clean_repair(tidy $tidy): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidy::cleanrepair()****
+**Пример #1 Пример использования**tidy::cleanrepair()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ echo $tidy;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
@@ -71,5 +72,5 @@ echo $tidy;
 
 ### Дивіться також
 
--   [tidy::repairFile()](tidy.repairfile.md) - Відновлює розмітку файлу та повертає його у вигляді рядка
--   [tidy::repairString()](tidy.repairstring.md) - Відновлює рядок, використовуючи наскільки можна конфігураційний файл
+-   [tidy::repairFile()](tidy.repairfile.md) \- Відновлює розмітку файлу та повертає його у вигляді рядка
+-   [tidy::repairString()](tidy.repairstring.md) \- Відновлює рядок, використовуючи наскільки можна конфігураційний файл

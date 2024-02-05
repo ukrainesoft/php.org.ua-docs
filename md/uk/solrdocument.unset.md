@@ -4,13 +4,14 @@ navigation:
   - solrdocument.valid.md: 'SolrDocument::valid »'
   - index.md: PHP Manual
   - class.solrdocument.md: SolrDocument
-title: 'SolrDocument::unset'
+title: 'SolrDocument::\_\_unset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrDocument::unset
+# SolrDocument::\_\_unset
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrDocument::unset — Видалення поля з документа
+SolrDocument::\_\_unset — Видалення поля з документа
 
 ### Опис
 
@@ -28,4 +29,4 @@ public SolrDocument::__unset(string $fieldName): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

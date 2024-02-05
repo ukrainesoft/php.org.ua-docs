@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.datetimezone.md: DateTimeZone
 title: 'DateTimeZone::listAbbreviations'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeZone::listAbbreviations
 
-# timezoneabbreviationslist
+# timezone\_abbreviations\_list
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-DateTimeZone::listAbbreviations -- timezoneabbreviationslist — Повертає асоціативний масив, що містить прапор переходу на літній час, зміщення та ім'я часового поясу
+DateTimeZone::listAbbreviations -- timezone\_abbreviations\_list — Повертає асоціативний масив, що містить прапор переходу на літній час, зміщення та ім'я часового поясу
 
 ### Опис
 
@@ -32,9 +33,9 @@ timezone_abbreviations_list(): array
 
 Тому список, який повертає цю функцію, не підходить для створення масиву з опціями для надання вибору часового поясу користувачам.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Дані для функції попередньо компілюються з міркувань продуктивності та не оновлюються при використанні новішої версії [» timezonedb](https://pecl.php.net/package/timezonedb)
+> Дані для функції попередньо компілюються з міркувань продуктивності та не оновлюються при використанні новішої версії [» timezonedb](https://pecl.php.net/package/timezonedb)
 
 ### Список параметрів
 
@@ -46,7 +47,7 @@ timezone_abbreviations_list(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання [timezoneabbreviationslist()](function.timezone-abbreviations-list.md)**
+**Пример #1 Пример использования[timezone\_abbreviations\_list()](function.timezone-abbreviations-list.md)**
 
 ```php
 <?php
@@ -55,7 +56,7 @@ print_r($timezone_abbreviations["acst"]);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -93,4 +94,4 @@ Array
 
 ### Дивіться також
 
--   [timezoneidentifierslist()](function.timezone-identifiers-list.md) - Псевдонім DateTimeZone::listIdentifiers
+-   [timezone\_identifiers\_list()](function.timezone-identifiers-list.md) \- Псевдонім DateTimeZone::listIdentifiers

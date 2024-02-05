@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.apply.md: '« DsMap::apply'
-  - ds-map.clear.md: 'ДсMap::clear »'
+  - ds-map.apply.md: '« Ds\\Map::apply'
+  - ds-map.clear.md: 'Ds\\Map::clear »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::capacity'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::capacity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::capacity
+# Ds\\Map::capacity
 
 (PECL ds >= 1.0.0)
 
-ДсMap::capacity — Повертає поточну місткість
+Ds\\Map::capacity — Повертає поточну місткість
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Map::capacity(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::capacity()****
+**Пример #1 Пример использования**Ds\\Map::capacity()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump($map->capacity());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(16)

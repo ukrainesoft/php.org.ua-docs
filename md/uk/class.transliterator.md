@@ -1,10 +1,11 @@
 ---
 navigation:
-  - spoofchecker.setchecks.md: '« Spoofchecker::setChecks'
-  - transliterator.construct.md: 'Transliterator::construct »'
+  - spoofchecker.setrestrictionlevel.md: '« Spoofchecker::setRestrictionLevel'
+  - transliterator.construct.md: 'Transliterator::\_\_construct »'
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Клас Transliterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Transliterator
 
@@ -18,28 +19,26 @@ title: Клас Transliterator
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      class Transliterator
-     
+     class Transliterator
      {
 
     /* Константы */
     
+     public
      const
      int
-      FORWARD = 0;
+      FORWARD;
 
-    const
+    public
+     const
      int
-      REVERSE = 1;
+      REVERSE;
 
 
     /* Свойства */
     public
+     readonly
      string
       $id;
 
@@ -61,7 +60,7 @@ public transliterate(string $string, int $start = 0, int $end = -1): string|fals
 
 ## Властивості
 
-ід
+id
 
 ## Обумовлені константи
 
@@ -69,13 +68,19 @@ public transliterate(string $string, int $start = 0, int $end = -1): string|fals
 
 **`Transliterator::REVERSE`**
 
+## список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Властивість id тепер доступна лише читання. |
+
 ## Зміст
 
--   [Transliterator::construct](transliterator.construct.md) - Приватний конструктор
--   [Transliterator::create](transliterator.create.md) - Створити транслітератор
--   [Transliterator::createFromRules](transliterator.createfromrules.md) - Створити транслітератор на основі правил
--   [Transliterator::createInverse](transliterator.createinverse.md) - Створити інвертований транслітератор
--   [Transliterator::getErrorCode](transliterator.geterrorcode.md) — Отримати код останньої помилки
--   [Transliterator::getErrorMessage](transliterator.geterrormessage.md) — Отримати останнє повідомлення про помилку
--   [Transliterator::listIDs](transliterator.listids.md) — Отримати ідентифікатори транслітератора
--   [Transliterator::transliterate](transliterator.transliterate.md) — Транслітерувати рядок
+-   [Transliterator::\_\_construct](transliterator.construct.md) \- Приватний конструктор
+-   [Transliterator::create](transliterator.create.md) \- Створити транслітератор
+-   [Transliterator::createFromRules](transliterator.createfromrules.md) \- Створити транслітератор на основі правил
+-   [Transliterator::createInverse](transliterator.createinverse.md) \- Створити інвертований транслітератор
+-   [Transliterator::getErrorCode](transliterator.geterrorcode.md)— Отримати код останньої помилки
+-   [Transliterator::getErrorMessage](transliterator.geterrormessage.md)— Отримати останнє повідомлення про помилку
+-   [Transliterator::listIDs](transliterator.listids.md)— Отримати ідентифікатори транслітератора
+-   [Transliterator::transliterate](transliterator.transliterate.md)— Транслітерувати рядок

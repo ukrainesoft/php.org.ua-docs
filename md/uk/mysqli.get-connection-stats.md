@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli.get-client-version.md: '« mysqli::$clientversion'
-  - mysqli.get-host-info.md: 'mysqli::$hostinfo »'
+  - mysqli.get-client-version.md: '« mysqli::$client\_version'
+  - mysqli.get-host-info.md: 'mysqli::$host\_info »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::getconnectionstats'
+title: 'mysqli::get\_connection\_stats'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::getconnectionstats
+# mysqli::get\_connection\_stats
 
-# mysqligetconnectionstats
+# mysqli\_get\_connection\_stats
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-mysqli::getconnectionstats - mysqligetconnectionstats — Повертає статистику з'єднання з клієнтом
+mysqli::get\_connection\_stats -- mysqli\_get\_connection\_stats — Повертає статистику з'єднання з клієнтом
 
 ### Опис
 
@@ -30,7 +31,7 @@ mysqli_get_connection_stats(mysqli $mysql): array
 
 Повертає статистику з'єднання із клієнтом.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступно лише з модулем [mysqlnd](book.mysqlnd.md)
 
@@ -38,7 +39,7 @@ mysqli_get_connection_stats(mysqli $mysql): array
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -46,7 +47,7 @@ mysqli_get_connection_stats(mysqli $mysql): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqligetconnectionstats()****
+**Пример #1 Пример использования**mysqli\_get\_connection\_stats()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ print_r(mysqli_get_connection_stats($link));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -184,4 +185,4 @@ Array
 
 ### Дивіться також
 
--   [Описание статистики](mysqlnd.stats.md)
+-   [Опис статистики](mysqlnd.stats.md)

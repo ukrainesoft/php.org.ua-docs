@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-mangled-object-vars.md: « getmangledobjectvars
-  - function.get-parent-class.md: getparentclass »
+  - function.get-mangled-object-vars.md: « get\_mangled\_object\_vars
+  - function.get-parent-class.md: get\_parent\_class »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
-title: getobjectvars
+title: get\_object\_vars
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getobjectvars
+# get\_object\_vars
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-getobjectvars — Повертає властивості вказаного об'єкта
+get\_object\_vars — Повертає властивості вказаного об'єкта
 
 ### Опис
 
@@ -32,7 +33,7 @@ get_object_vars(object $object): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getobjectvars()****
+**Пример #1 Пример использования**get\_object\_vars()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ $test->test();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {
@@ -78,11 +79,11 @@ array(4) {
 }
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Неініціалізовані властивості вважаються недоступними і тому не включаються до масиву.
 
 ### Дивіться також
 
--   [getclassmethods()](function.get-class-methods.md) - Повертає масив імен методів класу
--   [getclassvars()](function.get-class-vars.md) - Повертає оголошені за умовчанням властивості класу
+-   [get\_class\_methods()](function.get-class-methods.md) \- Повертає масив імен методів класу
+-   [get\_class\_vars()](function.get-class-vars.md) \- Повертає оголошені за умовчанням властивості класу

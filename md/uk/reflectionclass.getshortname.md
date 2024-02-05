@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getShortName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getShortName
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ReflectionClass::getShortName — Повертає коротке ім'я
 
@@ -18,7 +19,7 @@ ReflectionClass::getShortName — Повертає коротке ім'я
 public ReflectionClass::getShortName(): string
 ```
 
-Повертає коротке ім'я класу, частина, що не належить до назви простору імен.
+Повертає коротке ім'я класу, частина, яка не належить до назви простору імен.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public ReflectionClass::getShortName(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getShortName()****
+**Пример #1 Пример использования**ReflectionClass::getShortName()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ var_dump($function->getShortName());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -70,4 +71,4 @@ string(3) "Foo"
 
 ### Дивіться також
 
--   [ReflectionClass::getName()](reflectionclass.getname.md) - Повертає ім'я класу
+-   [ReflectionClass::getName()](reflectionclass.getname.md) \- Повертає ім'я класу

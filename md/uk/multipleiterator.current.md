@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.multipleiterator.md: MultipleIterator
 title: 'MultipleIterator::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # MultipleIterator::current
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 MultipleIterator::current — Отримує зареєстровані ітератори
 
@@ -22,7 +23,7 @@ public MultipleIterator::current(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,14 +35,14 @@ public MultipleIterator::current(): array
 
 ### Помилки
 
-[RuntimeException](class.runtimeexception.md), якщо ітератор недійсний (починаючи з PHP 8.1.0) або встановлено режим **`MIT_NEED_ALL`** і, принаймні, один приєднаний ітератор недійсний. Або **IlegallegalValueException**якщо ключ має значення **`null`**, а прапор **`MIT_KEYS_ASSOC`** встановлений.
+[RuntimeException](class.runtimeexception.md), якщо ітератор недійсний (починаючи з PHP 8.1.0) або встановлено режим **`MIT_NEED_ALL`** і, принаймні, один приєднаний ітератор недійсний. Або **IllegalValueException**якщо ключ має значення **`null`**, а флаг\*\*`MIT_KEYS_ASSOC`\*\*установлен.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер викидається виняток [RuntimeException](class.runtimeexception.md), якщо [MultipleIterator::key()](multipleiterator.key.md) викликається на неприпустимому ітераторі. Раніше натомість поверталося значення **`false`** |
+| 8.1.0 | Тепер викидається виняток[RuntimeException](class.runtimeexception.md), якщо [MultipleIterator::key()](multipleiterator.key.md) викликається на неприпустимому ітераторі. Раніше натомість поверталося значення **`false`** |
 
 ### Дивіться також
 
--   [MultipleIterator::valid()](multipleiterator.valid.md) - Перевіряє коректність підитераторів
+-   [MultipleIterator::valid()](multipleiterator.valid.md) \- Перевіряє коректність підитераторів

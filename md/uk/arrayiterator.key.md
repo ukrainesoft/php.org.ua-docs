@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::key'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayIterator::key
 
@@ -30,7 +31,7 @@ public ArrayIterator::key(): string|int|null
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayIterator::key()****
+**Пример #1 Пример использования**ArrayIterator::key()\*\*\*\*
 
 ```php
 <?php

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecreatefromavif
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecreatefromavif
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 imagecreatefromavif — Створює нове зображення з файлу чи URL
 
@@ -28,4 +29,4 @@ imagecreatefromavif(string $filename): GdImage|false
 
 ### Значення, що повертаються
 
-Повертає об'єкт зображення у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає об'єкт зображення у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

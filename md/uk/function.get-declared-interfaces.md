@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-declared-classes.md: « getdeclaredclasses
-  - function.get-declared-traits.md: getdeclaredtraits »
+  - function.get-declared-classes.md: « get\_declared\_classes
+  - function.get-declared-traits.md: get\_declared\_traits »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
-title: getdeclaredinterfaces
+title: get\_declared\_interfaces
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getdeclaredinterfaces
+# get\_declared\_interfaces
 
 (PHP 5, PHP 7, PHP 8)
 
-getdeclaredinterfaces — Повертає масив усіх оголошених інтерфейсів
+get\_declared\_interfaces — Повертає масив усіх оголошених інтерфейсів
 
 ### Опис
 
@@ -30,7 +31,7 @@ get_declared_interfaces(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getdeclaredinterfaces()****
+**Пример #1 Пример использования**get\_declared\_interfaces()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ print_r(get_declared_interfaces());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -55,6 +56,6 @@ Array
 
 ### Дивіться також
 
--   [interfaceexists()](function.interface-exists.md) - Перевіряє, чи визначено інтерфейс
--   [getdeclaredclasses()](function.get-declared-classes.md) - Повертає масив із іменами оголошених класів
--   [classimplements()](function.class-implements.md) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+-   [interface\_exists()](function.interface-exists.md) \- Перевіряє, чи визначено інтерфейс
+-   [get\_declared\_classes()](function.get-declared-classes.md) \- Повертає масив із іменами оголошених класів
+-   [class\_implements()](function.class-implements.md) \- Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі

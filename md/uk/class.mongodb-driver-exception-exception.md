@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-encryptionexception.md: « MongoDBDriverExceptionEncryptionException
-  - class.mongodb-driver-exception-executiontimeoutexception.md: MongoDBDriverExceptionExecutionTimeoutException »
+  - class.mongodb-driver-exception-encryptionexception.md: « MongoDB\\Driver\\Exception\\EncryptionException
+  - class.mongodb-driver-exception-executiontimeoutexception.md: MongoDB\\Driver\\Exception\\ExecutionTimeoutException »
   - index.md: PHP Manual
-  - mongodb.exceptions.md: MongoDBDriverException
-title: Інтерфейс MongoDBDriverExceptionException
+  - mongodb.exceptions.md: MongoDB\\Driver\\Exception
+title: Інтерфейс MongoDB\\Driver\\Exception\\Exception
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Інтерфейс MongoDBDriverExceptionException
+# Інтерфейс MongoDB\\Driver\\Exception\\Exception
 
 (mongodb >= 1.0.0)
 
@@ -16,7 +17,7 @@ title: Інтерфейс MongoDBDriverExceptionException
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 

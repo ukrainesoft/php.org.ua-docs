@@ -1,10 +1,11 @@
 ---
 navigation:
   - function.readfile.md: « readfile
-  - function.realpath-cache-get.md: realpathcacheget »
+  - function.realpath-cache-get.md: realpath\_cache\_get »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: readlink
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # readlink
 
@@ -28,13 +29,13 @@ readlink(string $path): string|false
 
 ### Значення, що повертаються
 
-Повертає шлях, на який вказує символічне посилання, або **`false`** у разі виникнення помилки.
+Повертає шлях, на який вказує символічне посилання, або \*\*`false`\*\*в случае возникновения ошибки.
 
 > **Зауваження**: Функція завершується помилкою, якщо `path` не є символічним посиланням, крім Windows, де буде повернутий нормалізований шлях.
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **readlink()****
+**Пример #1 Пример использования функции**readlink()\*\*\*\*
 
 ```php
 <?php
@@ -47,6 +48,6 @@ echo readlink('/vmlinuz');
 
 ### Дивіться також
 
--   [ісlink()](function.is-link.md) - Визначає, чи є файл символічним посиланням
--   [symlink()](function.symlink.md) - Створює символічне посилання
--   [linkinfo()](function.linkinfo.md) - Повертає інформацію про посилання
+-   [is\_link()](function.is-link.md) \- Визначає, чи є файл символічним посиланням
+-   [symlink()](function.symlink.md) \- Створює символічне посилання
+-   [linkinfo()](function.linkinfo.md) \- Повертає інформацію про посилання

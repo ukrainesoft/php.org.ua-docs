@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.rararchive.md: RarArchive
 title: 'RarArchive::getEntry'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarArchive::getEntry
 
-# rarentryget
+# rar\_entry\_get
 
 (PECL rar >= 2.0.0)
 
-RarArchive::getEntry -- rarentryget — Повертає об'єкт елемента з RAR архіву
+RarArchive::getEntry -- rar\_entry\_get — Повертає об'єкт елемента з RAR архіву
 
 ### Опис
 
@@ -30,7 +31,7 @@ rar_entry_get(RarArchive $rarfile, string $entryname): RarEntry|false
 
 Повертає об'єкт елемента (файл або директорію) з архіву RAR
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ви також можете отримати об'єкти елементів за допомогою [RarArchive::getEntries()](rararchive.getentries.md)
 > 
@@ -40,19 +41,19 @@ rar_entry_get(RarArchive $rarfile, string $entryname): RarEntry|false
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.md) відкритий за допомогою [raropen()](rararchive.open.md)
+Об'єкт [RarArchive](class.rararchive.md) відкритий за допомогою [rar\_open()](rararchive.open.md)
 
 `entryname`
 
 Дорога до елемента RAR архіву.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Шлях повинен бути таким же, як і методом, що повертається. [RarEntry::getName()](rarentry.getname.md)
 
 ### Значення, що повертаються
 
-Повертає знайдений об'єкт [RarEntry](class.rarentry.md) або **`false`** у разі виникнення помилки.
+Повертає знайдений об'єкт [RarEntry](class.rarentry.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -72,7 +73,7 @@ $rar_arch->close();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 RarEntry
@@ -97,5 +98,5 @@ rar_close($rar_arch);
 
 ### Дивіться також
 
--   [RarArchive::getEntries()](rararchive.getentries.md) - Повертає повний список елементів із RAR архіву
+-   [RarArchive::getEntries()](rararchive.getentries.md) \- Повертає повний список елементів із RAR архіву
 -   [`rar://`обработчик (wrapper)](wrappers.rar.md)

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.snmp-set-quick-print.md: « snmpsetquickprint
-  - function.snmp2-get.md: snmp2get »
+  - function.snmp-set-quick-print.md: « snmp\_set\_quick\_print
+  - function.snmp2-get.md: snmp2\_get »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
-title: snmpsetvalueretrieval
+title: snmp\_set\_valueretrieval
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# snmpsetvalueretrieval
+# snmp\_set\_valueretrieval
 
-(PHP 4> = 4.3.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.3, PHP 5, PHP 7, PHP 8)
 
-snmpsetvalueretrieval — Визначає спосіб повернення значень SNMP
+snmp\_set\_valueretrieval — Визначає спосіб повернення значень SNMP
 
 ### Опис
 
 ```methodsynopsis
-snmp_set_valueretrieval(int $method): bool
+snmp_set_valueretrieval(int $method): true
 ```
 
 ### Список параметрів
@@ -28,9 +29,15 @@ snmp_set_valueretrieval(int $method): bool
 
 Функція завжди повертає **`true`**
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
+
 ### Приклади
 
-**Приклад #1 Приклад використання **snmpsetvalueretrieval()****
+**Пример #1 Пример использования**snmp\_set\_valueretrieval()\*\*\*\*
 
 ```php
 <?php
@@ -71,5 +78,5 @@ snmp_set_valueretrieval(int $method): bool
 
 ### Дивіться також
 
--   [snmpgetvalueretrieval()](function.snmp-get-valueretrieval.md) - Повертає метод, як буде повернено значення SNMP
+-   [snmp\_get\_valueretrieval()](function.snmp-get-valueretrieval.md) \- Повертає метод, як буде повернено значення SNMP
 -   [Обумовлені константи](snmp.constants.md)

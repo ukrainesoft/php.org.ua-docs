@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.xhprof.md: « Функции Xhprof
-  - function.xhprof-enable.md: xhprofenable »
+  - ref.xhprof.md: « Функції Xhprof
+  - function.xhprof-enable.md: xhprof\_enable »
   - index.md: PHP Manual
-  - ref.xhprof.md: Функции Xhprof
-title: xhprofdisable
+  - ref.xhprof.md: Функції Xhprof
+title: xhprof\_disable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xhprofdisable
+# xhprof\_disable
 
 (PECL xhprof >= 0.9.0)
 
-xhprofdisable — Зупиняє профіль xhprof
+xhprof\_disable — Зупиняє профіль xhprof
 
 ### Опис
 
@@ -30,7 +31,7 @@ xhprof_disable(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xhprofdisable()****
+**Пример #1 Пример использования**xhprof\_disable()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($xhprof_data);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - phpdbg.setup.md: « Встановлення та налаштування
+  - phpdbg.setup.md: '" Встановлення та налаштування'
   - phpdbg.constants.md: Обумовлені константи »
   - index.md: PHP Manual
   - phpdbg.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,8 +15,8 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [phpdbg.eol](phpdbg.configuration.md#ini.phpdbg.eol) |  | PHPINIALL | Видалено, починаючи з PHP 8.1.0 |
-| [phpdbg.path](phpdbg.configuration.md#ini.phpdbg.path) |  |  | Видалено, починаючи з PHP 8.1.0 |
+| [phpdbg.eol](phpdbg.configuration.md#ini.phpdbg.eol) |  | **`INI_ALL`** | Видалено, починаючи з PHP 8.1.0 |
+| [phpdbg.path](phpdbg.configuration.md#ini.phpdbg.path) |  | 6 | Видалено, починаючи з PHP 8.1.0 |
 
 Коротке пояснення конфігураційних директив.
 
@@ -25,8 +26,8 @@ title: Налаштування під час виконання
 
 | int Значение | string Псевдоним |
 | --- | --- |
-| `0` | `CRLF` `crlf` `DOS` `dos` |
-| `1` | `LF` `lf` `UNIX` `unix` |
-| `2` | `CR` `cr` `MAC` `mac` |
+|  | `CRLF` `crlf` `DOS` `dos` |
+|  | `LF` `lf` `UNIX` `unix` |
+|  | `CR` `cr` `MAC` `mac` |
 
-`phpdbg.path` string
+`phpdbg.path`string

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.md: « sodiumcryptosecretstreamxchacha20poly1305initpull
-  - function.sodium-crypto-secretstream-xchacha20poly1305-keygen.md: sodiumcryptosecretstreamxchacha20poly1305keygen »
+  - function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.md: « sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_pull
+  - function.sodium-crypto-secretstream-xchacha20poly1305-keygen.md: sodium\_crypto\_secretstream\_xchacha20poly1305\_keygen »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptosecretstreamxchacha20poly1305initpush
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptosecretstreamxchacha20poly1305initpush
+# sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptosecretstreamxchacha20poly1305initpush - Ініціалізує контекст secretstream для шифрування
+sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push - Ініціалізує контекст secretstream для шифрування
 
 ### Опис
 
@@ -24,7 +25,7 @@ sodium_crypto_secretstream_xchacha20poly1305_init_push(string $key): array
 
 `key`
 
-Ключ криптографії. Дивіться [sodiumcryptosecretstreamxchacha20poly1305keygen()](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.md)
+Ключ криптографии. Смотрите[sodium\_crypto\_secretstream\_xchacha20poly1305\_keygen()](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.md)
 
 ### Значення, що повертаються
 
@@ -35,7 +36,7 @@ sodium_crypto_secretstream_xchacha20poly1305_init_push(string $key): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptosecretstreamxchacha20poly1305initpush()****
+**Пример #1 Пример использования**sodium\_crypto\_secretstream\_xchacha20poly1305\_init\_push()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ var_dump(sodium_bin2hex(file_get_contents('hello.txt.encrypted')));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(106) "971e33b255f0990ef3931caf761c59136efa77b434832f28ec719e3ff73f5aec38b3bba1574ab5b70a8844d8da36a668e802cfea2c"

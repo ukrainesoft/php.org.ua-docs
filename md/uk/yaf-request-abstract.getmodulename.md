@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.getmethod.md: '« YafRequestAbstract::getMethod'
-  - yaf-request-abstract.getparam.md: 'YafRequestAbstract::getParam »'
+  - yaf-request-abstract.getmethod.md: '« Yaf\_Request\_Abstract::getMethod'
+  - yaf-request-abstract.getparam.md: 'Yaf\_Request\_Abstract::getParam »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::getModuleName'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::getModuleName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::getModuleName
+# Yaf\_Request\_Abstract::getModuleName
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::getModuleName — Призначення getModuleName
+Yaf\_Request\_Abstract::getModuleName — Призначення getModuleName
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Request_Abstract::getModuleName(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

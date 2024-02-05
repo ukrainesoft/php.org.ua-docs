@@ -1,10 +1,11 @@
 ---
 navigation:
   - migration74.incompatible.md: '« Зміни, що ламають зворотну сумісність'
-  - migration74.removed-extensions.md: Віддалені модулі »
+  - migration74.removed-extensions.md: Видалені модулі »
   - index.md: PHP Manual
-  - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x
+  - migration74.md: Міграція з PHP 7.3.x на PHP 7.4.x
 title: Застаріла функціональність
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Застаріла функціональність
 
@@ -22,7 +23,7 @@ title: Застаріла функціональність
 ?>
 ```
 
-Дужки *not* потрібні при вкладенні в середній операнд, оскільки це завжди однозначно і не залежить від асоціативності:
+Дужки *не* потрібні при вкладенні в середній операнд, оскільки це завжди однозначно і не залежить від асоціативності:
 
 ```php
 1 ? 2 ? 3 : 4 : 5 // хорошо
@@ -32,59 +33,59 @@ title: Застаріла функціональність
 
 Синтаксис доступу до масиву та рядка з використанням фігурних дужок оголошено застарілим. Використовуйте `$var[$idx]` замість `$var{$idx}`
 
-#### Приведення типу (real) та функція [ісreal()](function.is-real.md)
+#### Приведення типу (real) та функція [is\_real()](function.is-real.md)
 
-Приведення типу `(real)` оголошено застарілим, натомість використовуйте `(float)`
+Приведение типа`(real)` оголошено застарілим, натомість використовуйте `(float)`
 
-Функція [ісreal()](function.is-real.md) також оголошено застарілою, замість неї використовуйте [ісfloat()](function.is-float.md)
+Функция[is\_real()](function.is-real.md) також оголошено застарілою, замість неї використовуйте [is\_float()](function.is-float.md)
 
-#### Скасування прив'язки `$this` при використанні `$this`
+#### Отмена привязки`$this`при использовании`$this`
 
-Скасування прив'язки `$this` у нестатичному замиканні, яке використовує `$this`, оголошено застарілою.
+Отмена привязки`$this` у нестатичному замиканні, яке використовує `$this`, оголошено застарілою.
 
-#### Ключове слово `parent` поза батьківським класом
+#### Ключевое слово`parent` поза батьківським класом
 
-Використання `parent` усередині класу, який не має батька, оголошено застарілим, а в майбутньому відбудеться помилка компіляції. А поки що помилка буде тільки при зверненні до батька під час виконання.
+Использование`parent` усередині класу, який не має батька, оголошено застарілим, а в майбутньому відбудеться помилка компіляції. А поки що помилка буде тільки при зверненні до батька під час виконання.
 
-#### INI-опція allowurlinclude
+#### INI-опція allow\_url\_include
 
-Конфігураційна директива [allowurlinclude](filesystem.configuration.md#ini.allow-url-include) оголошено застарілою. При включеній опції буде викликано повідомлення про застарілі можливості під час завантаження.
+Конфігураційна директива [allow\_url\_include](filesystem.configuration.md#ini.allow-url-include) оголошено застарілою. При ввімкненій опції буде викликано повідомлення про застарілі можливості під час завантаження.
 
 #### Неприпустимі символи в основних функціях перетворення
 
-Передача неприпустимих символів [baseconvert()](function.base-convert.md) [bindec()](function.bindec.md) [octdec()](function.octdec.md) тепер викликає повідомлення про застарілі можливості. Результат все одно буде обчислений так, якби неприпустимих символів не було. Провідні та завершальні прогалини, а також префікси типу 0x (залежно від системи числення), як і раніше, дозволені.
+Передача неприпустимих символів [base\_convert()](function.base-convert.md) [bindec()](function.bindec.md) [octdec()](function.octdec.md) тепер викликає повідомлення про застарілі можливості. Результат все одно буде обчислений так, якби неприпустимих символів не було. Провідні та завершальні прогалини, а також префікси типу 0x (залежно від системи числення), як і раніше, дозволені.
 
-#### Використання [arraykeyexists()](function.array-key-exists.md) з об'єктом
+#### Использование[array\_key\_exists()](function.array-key-exists.md) з об'єктом
 
-Використання [arraykeyexists()](function.array-key-exists.md) з об'єктом оголошено застарілим. Натомість слід використовувати або [isset()](function.isset.md), або [propertyexists()](function.property-exists.md)
+Использование[array\_key\_exists()](function.array-key-exists.md) з об'єктом оголошено застарілим. Натомість слід використовувати або [isset()](function.isset.md), либо[property\_exists()](function.property-exists.md)
 
 #### Функції, пов'язані з чарівними лапками
 
-Функції [getmagicquotesgpc()](function.get-magic-quotes-gpc.md) і [getmagicquotesruntime()](function.get-magic-quotes-runtime.md) оголошено застарілими. Вони завжди повертають **`false`**
+Функції [get\_magic\_quotes\_gpc()](function.get-magic-quotes-gpc.md) і [get\_magic\_quotes\_runtime()](function.get-magic-quotes-runtime.md) оголошено застарілими. Вони завжди повертають **`false`**
 
-#### Функція [hebrevc()](function.hebrevc.md)
+#### Функция[hebrevc()](function.hebrevc.md)
 
-Функція [hebrevc()](function.hebrevc.md) оголошено застарілою. Її можна замінити на вираз `nl2br(hebrev($str))`, або краще використовувати підтримку Unicode RTL.
+Функция[hebrevc()](function.hebrevc.md) оголошено застарілою. Її можна замінити на вираз `nl2br(hebrev($str))`, або краще використовувати підтримку Unicode RTL.
 
-#### Функція [convertcyrstring()](function.convert-cyr-string.md)
+#### Функция[convert\_cyr\_string()](function.convert-cyr-string.md)
 
-Функція [convertcyrstring()](function.convert-cyr-string.md) оголошено застарілою. Її можна замінити або на **мбconvertstring()**, або [iconv()](function.iconv.md) або на клас [UConverter](class.uconverter.md)
+Функция[convert\_cyr\_string()](function.convert-cyr-string.md) оголошено застарілою. Її можна замінити або на **mb\_convert\_string()**, либо[iconv()](function.iconv.md)или на класс[UConverter](class.uconverter.md)
 
-#### Функція [moneyformat()](function.money-format.md)
+#### Функция[money\_format()](function.money-format.md)
 
-Функція [moneyformat()](function.money-format.md) оголошено застарілою. Вона може бути замінена функціональністю інтернаціоналізації – класом [NumberFormatter](class.numberformatter.md)
+Функция[money\_format()](function.money-format.md) оголошено застарілою. Вона може бути замінена функціональністю інтернаціоналізації – класом [NumberFormatter](class.numberformatter.md)
 
-#### Функція [ezmlmhash()](function.ezmlm-hash.md)
+#### Функция[ezmlm\_hash()](function.ezmlm-hash.md)
 
-Функція [ezmlmhash()](function.ezmlm-hash.md) оголошено застарілою.
+Функция[ezmlm\_hash()](function.ezmlm-hash.md) оголошено застарілою.
 
-#### Функція [restoreincludepath()](function.restore-include-path.md)
+#### Функция[restore\_include\_path()](function.restore-include-path.md)
 
-Функція [restoreincludepath()](function.restore-include-path.md) оголошено застарілою. Її можна замінити на `ini_restore('include_path')`
+Функция[restore\_include\_path()](function.restore-include-path.md) оголошено застарілою. Її можна замінити на `ini_restore('include_path')`
 
 #### Використання implode з нерекомендованим порядком параметрів
 
-Передача параметрів у [implode()](function.implode.md) у зворотному порядку оголошено застарілою - використовуйте `implode($glue, $parts)` замість `implode($parts, $glue)`
+Передача параметров в[implode()](function.implode.md) у зворотному порядку оголошено застарілою - використовуйте `implode($glue, $parts)` замість `implode($parts, $glue)`
 
 ### COM
 
@@ -92,23 +93,23 @@ title: Застаріла функціональність
 
 ### Фільтрування
 
-Фільтр **`FILTER_SANITIZE_MAGIC_QUOTES`** оголошено застарілим, замість нього використовуйте **`FILTER_SANITIZE_ADD_SLASHES`**
+Фильтр\*\*`FILTER_SANITIZE_MAGIC_QUOTES`\*\* оголошено застарілим, замість нього використовуйте **`FILTER_SANITIZE_ADD_SLASHES`**
 
 ### Багатобайтові рядки
 
-Передача нерядкового шаблону в [мбeregreplace()](function.mb-ereg-replace.md) оголошено застарілою. На даний момент нерядкові значення інтерпретуються як кодові точки ASCII. У PHP 8 шаблон буде оброблятися як рядок.
+Передача нестрокового шаблона в[mb\_ereg\_replace()](function.mb-ereg-replace.md) оголошено застарілою. На даний момент нерядкові значення інтерпретуються як кодові точки ASCII. У PHP 8 шаблон буде оброблятися як рядок.
 
-Передача кодування як 3-й параметр в [мбstrrpos()](function.mb-strrpos.md) оголошено застарілою. Натомість передавайте позицію як 0, а кодування у 4-му параметрі.
+Передача кодування як 3-й параметр в [mb\_strrpos()](function.mb-strrpos.md) оголошено застарілою. Натомість передавайте позицію як 0, а кодування у 4-му параметрі.
 
 ### Полегшений протокол доступу до каталогів (LDAP)
 
-Функції [ldapcontrolpagedresultresponse()](function.ldap-control-paged-result-response.md) і [ldapcontrolpagedresult()](function.ldap-control-paged-result.md) оголошено застарілими. Для керування посторінковим режимом використовуйте функцію [ldapsearch()](function.ldap-search.md)
+Функції [ldap\_control\_paged\_result\_response()](function.ldap-control-paged-result-response.md) і [ldap\_control\_paged\_result()](function.ldap-control-paged-result.md) оголошено застарілими. Для керування посторінковим режимом використовуйте функцію [ldap\_search()](function.ldap-search.md)
 
 ### Reflection
 
-Виклики [ReflectionType::toString()](reflectiontype.tostring.md) тепер створюють повідомлення про застарілі можливості. Цей метод оголошено застарілим на користь використання [ReflectionNamedType::getName()](reflectionnamedtype.getname.md) у документації з PHP 7.1, але не видавав відповідного повідомлення з технічних причин.
+Виклики [ReflectionType::\_\_toString()](reflectiontype.tostring.md) тепер створюють повідомлення про застарілі можливості. Цей метод оголошено застарілим на користь використання [ReflectionNamedType::getName()](reflectionnamedtype.getname.md) у документації з PHP 7.1, але не видавав відповідного повідомлення з технічних причин.
 
-Методи `export()` у всіх класів [Reflection](class.reflection.md) оголошено застарілими. Тепер створюйте об'єкт [Reflection](class.reflection.md) і перетворіть його на рядок:
+Методи `export()`у всех классов[Reflection](class.reflection.md) оголошено застарілими. Тепер створюйте об'єкт [Reflection](class.reflection.md)и преобразуйте его в строку:
 
 ```php
 <?php
@@ -122,4 +123,4 @@ $str = (string) new ReflectionClass(Foo::class);
 
 ### Сокети
 
-Прапори **`AI_IDN_ALLOW_UNASSIGNED`** і **`AI_IDN_USE_STD3_ASCII_RULES`** для функції [socketaddrinfolookup()](function.socket-addrinfo-lookup.md) оголошено застарілими через оновлення glibc.
+Флаги\*\*`AI_IDN_ALLOW_UNASSIGNED`**и**`AI_IDN_USE_STD3_ASCII_RULES`\*\* для функції [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.md) оголошено застарілими через оновлення glibc.

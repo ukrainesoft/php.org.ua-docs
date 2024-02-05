@@ -4,17 +4,18 @@ navigation:
   - class.domcharacterdata.md: DOMCharacterData »
   - index.md: PHP Manual
   - class.domcdatasection.md: DOMCdataSection
-title: 'DOMCdataSection::construct'
+title: 'DOMCdataSection::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DOMCdataSection::construct
+# DOMCdataSection::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMCdataSection::construct — Створює новий екземпляр класу DOMCdataSection
+DOMCdataSection::\_\_construct — Створює новий екземпляр класу DOMCdataSection
 
 ### Опис
 
-public **DOMCdataSection::construct**(string `$data`
+public**DOMCdataSection::\_\_construct**(string`$data`) .
 
 Створює новий вузол CDATA. Працює як клас [DOMText](class.domtext.md)
 
@@ -22,7 +23,7 @@ public **DOMCdataSection::construct**(string `$data`
 
 `data`
 
-Значення вузла CDATA. Якщо не вказано, створюється пустий вузол CDATA.
+Значення вузла CDATA. Якщо не вказано, створюється порожній вузол CDATA.
 
 ### Приклади
 
@@ -39,7 +40,7 @@ echo $dom->saveXML();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -48,5 +49,5 @@ echo $dom->saveXML();
 
 ### Дивіться також
 
--   [DOMText::construct()](domtext.construct.md) - Створює об'єкт класу DOMText
--   [DOMDocument::createTextNode()](domdocument.createtextnode.md) - Створити новий текстовий вузол
+-   [DOMText::\_\_construct()](domtext.construct.md) \- Створює об'єкт класу DOMText
+-   [DOMDocument::createTextNode()](domdocument.createtextnode.md) \- Створити новий текстовий вузол

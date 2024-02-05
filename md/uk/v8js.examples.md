@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.v8js.md: V8js
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -32,7 +33,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Hello World!

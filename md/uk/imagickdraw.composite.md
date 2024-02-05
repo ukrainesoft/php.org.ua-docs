@@ -1,10 +1,11 @@
 ---
 navigation:
   - imagickdraw.comment.md: '« ImagickDraw::comment'
-  - imagickdraw.construct.md: 'ImagickDraw::construct »'
+  - imagickdraw.construct.md: 'ImagickDraw::\_\_construct »'
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::composite'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::composite
 
@@ -15,12 +16,12 @@ ImagickDraw::composite — Накладає зображення на поточ
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::composite(    int $compose,    float $x,    float $y,    float $width,    float $height,    Imagick $compositeWand): bool
+public ImagickDraw::composite(    int $compose,    float $x,    float $y,    float $width,    float $height,    Imagick $compositeWand): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Накладає зображення на поточне зображення, використовуючи вказаний оператор накладання, вказану позицію та вказаний розмір.
 
@@ -56,7 +57,7 @@ public ImagickDraw::composite(    int $compose,    float $x,    float $y,    flo
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::composite()****
+**Пример #1 Пример использования**ImagickDraw::composite()\*\*\*\*
 
 ```php
 <?php

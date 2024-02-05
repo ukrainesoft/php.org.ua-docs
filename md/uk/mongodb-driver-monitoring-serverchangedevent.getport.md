@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverchangedevent.getnewdescription.md: '« MongoDBDriverMonitoringServerChangedEvent::getNewDescription'
-  - mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.md: 'MongoDBDriverMonitoringServerChangedEvent::getPreviousDescription »'
+  - mongodb-driver-monitoring-serverchangedevent.getnewdescription.md: '« MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getNewDescription'
+  - mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.md: 'MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getPreviousDescription »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverchangedevent.md: MongoDBDriverMonitoringServerChangedEvent
-title: 'MongoDBDriverMonitoringServerChangedEvent::getPort'
+  - class.mongodb-driver-monitoring-serverchangedevent.md: MongoDB\\Driver\\Monitoring\\ServerChangedEvent
+title: 'MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getPort'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringServerChangedEvent::getPort
+# MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getPort
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringServerChangedEvent::getPort — Повертає порт, на якому прослуховується сервер
+MongoDB\\Driver\\Monitoring\\ServerChangedEvent::getPort — Повертає порт, на якому прослуховується сервер
 
 ### Опис
 
@@ -28,4 +29,4 @@ final public MongoDB\Driver\Monitoring\ServerChangedEvent::getPort(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

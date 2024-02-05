@@ -1,14 +1,15 @@
 ---
 navigation:
   - solrresponse.success.md: '« SolrResponse::success'
-  - solrqueryresponse.construct.md: 'SolrQueryResponse::construct »'
+  - solrqueryresponse.construct.md: 'SolrQueryResponse::\_\_construct »'
   - index.md: PHP Manual
   - book.solr.md: Solr
 title: Клас SolrQueryResponse
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SolrQueryResponse
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 ## Вступ
 
@@ -120,5 +121,5 @@ public SolrResponse::success(): bool
 
 ## Зміст
 
--   [SolrQueryResponse::construct](solrqueryresponse.construct.md) - Конструктор
--   [SolrQueryResponse::destruct](solrqueryresponse.destruct.md) - Деструктор
+-   [SolrQueryResponse::\_\_construct](solrqueryresponse.construct.md) \- Конструктор
+-   [SolrQueryResponse::\_\_destruct](solrqueryresponse.destruct.md) \- Деструктор

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-apply-text.md: « svnфсapplytext
-  - function.svn-fs-change-node-prop.md: svnфсchangenodeprop »
+  - function.svn-fs-apply-text.md: « svn\_fs\_apply\_text
+  - function.svn-fs-change-node-prop.md: svn\_fs\_change\_node\_prop »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсbegintxn2
+title: svn\_fs\_begin\_txn2
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсbegintxn2
+# svn\_fs\_begin\_txn2
 
 (PECL svn >= 0.2.0)
 
-svnфсbegintxn2 - Створює нову транзакцію
+svn\_fs\_begin\_txn2 - Створює нову транзакцію
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_begin_txn2(resource $repos, int $rev): resource
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Створює нову транзакцію.
 

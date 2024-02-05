@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::format'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NumberFormatter::format
 
-# numfmtformat
+# numfmt\_format
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::format -- numfmtformat — Форматує число
+NumberFormatter::format -- numfmt\_format — Форматує число
 
 ### Опис
 
@@ -42,15 +43,15 @@ numfmt_format(NumberFormatter $formatter, int|float $num, int $type = NumberForm
 
 `type`
 
-Використовуваний [тип форматирования](class.numberformatter.md#intl.numberformatter-constants.types)
+Використовуваний [тип форматування](class.numberformatter.md#intl.numberformatter-constants.types)Обратите внимание, что константа\*\*`NumberFormatter::TYPE_CURRENCY`\*\* не підтримується; використовуйте замість неї метод [NumberFormatter::formatCurrency()](numberformatter.formatcurrency.md)
 
 ### Значення, що повертаються
 
-Повертає рядок, який містить форматоване значення або **`false`** у разі виникнення помилки.
+Повертає рядок, який містить форматоване значення або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmtformat()****
+**Пример #1 Пример использования**numfmt\_format()\*\*\*\*
 
 ```php
 <?php
@@ -74,14 +75,23 @@ if(intl_is_failure($fmt->getErrorCode())) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1.234.567,891
 ```
 
+### Примітки
+
+> **Зауваження** :
+> 
+> Формати, досягнуті цим способом форматування, не можуть повністю використовувати можливості базової бібліотеки ICU, наприклад форматувати валюту з вузьким символом валюти.
+> 
+> Для полной поддержки, используйте функцию[msgfmt\_format\_message()](messageformatter.formatmessage.md)
+
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
--   [numfmtformatcurrency()](numberformatter.formatcurrency.md) - Форматує значення валюти
--   [numfmtparse()](numberformatter.parse.md) - Розбирає число
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.md) \- Отримує останній код помилки засобу форматування
+-   [numfmt\_format\_currency()](numberformatter.formatcurrency.md) \- Форматує значення валюти
+-   [numfmt\_parse()](numberformatter.parse.md) \- Розбирає число
+-   [msgfmt\_format\_message()](messageformatter.formatmessage.md) \- Швидко форматує повідомлення

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-objectid.construct.md: '« MongoDBBSONObjectId::construct'
-  - mongodb-bson-objectid.jsonserialize.md: 'MongoDBBSONObjectId::jsonSerialize »'
+  - mongodb-bson-objectid.construct.md: '« MongoDB\\BSON\\ObjectId::\_\_construct'
+  - mongodb-bson-objectid.jsonserialize.md: 'MongoDB\\BSON\\ObjectId::jsonSerialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-objectid.md: MongoDBBSONObjectId
-title: 'MongoDBBSONObjectId::getTimestamp'
+  - class.mongodb-bson-objectid.md: MongoDB\\BSON\\ObjectId
+title: 'MongoDB\\BSON\\ObjectId::getTimestamp'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONObjectId::getTimestamp
+# MongoDB\\BSON\\ObjectId::getTimestamp
 
 (mongodb >=1.2.0)
 
-MongoDBBSONObjectId::getTimestamp — Повертає позначку часу ObjectId
+MongoDB\\BSON\\ObjectId::getTimestamp — Повертає позначку часу ObjectId
 
 ### Опис
 
@@ -20,7 +21,7 @@ final public MongoDB\BSON\ObjectId::getTimestamp(): int
 
 Компонент мітки часу в ObjectId – це його найбільш значущі 32 біти, які позначають кількість секунд від початку епохи Unix. Це значення читається як 32-розрядне ціле число без знака з порядком байтів у старшому порядку.
 
-> **Зауваження**: Оскільки цілий тип PHP є знаковим, деякі значення, отримані за допомогою цього методу, можуть перетворитися на негативні цілі числа на 32-бітових платформах. Для отримання рядкового представлення беззнакового цілого можна скористатися шаблоном форматування %u функції [sprintf()](function.sprintf.md)
+> **Зауваження**: Оскільки цілий тип PHP є знаковим, деякі значення, отримані за допомогою цього методу, можуть перетворитися на негативні цілі числа на 32-бітових платформах. Для отримання строкового представлення беззнакового цілого можна скористатися шаблоном форматування %u функції [sprintf()](function.sprintf.md)
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ final public MongoDB\BSON\ObjectId::getTimestamp(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONObjectId::getTimestamp()****
+**Пример #1 Пример использования**MongoDB\\BSON\\ObjectId::getTimestamp()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump((new MongoDB\BSON\ObjectId('0000002a0000000000000000'))->getTimestamp()
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 integer(1484854719)
@@ -57,5 +58,5 @@ integer(42)
 
 ### Дивіться також
 
--   [» Справка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
--   [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Довідка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)

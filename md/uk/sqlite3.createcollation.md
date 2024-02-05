@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3.md: SQLite3
 title: 'SQLite3::createCollation'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3::createCollation
 
-(PHP 5> = 5.3.11, PHP 7, PHP 8)
+(PHP 5 >= 5.3.11, PHP 7, PHP 8)
 
 SQLite3::createCollation — Реєструє функцію PHP для використання як функцію сортування SQL
 
@@ -38,11 +39,11 @@ collation(mixed $value1, mixed $value2): int
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SQLite3::createCollation()****
+**Пример #1 Пример использования**SQLite3::createCollation()\*\*\*\*
 
 Реєструє PHP-функцію [strnatcmp()](function.strnatcmp.md) як послідовність сортування у базі даних SQLite3.
 
@@ -75,7 +76,7 @@ $db->close();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 default:
@@ -91,4 +92,4 @@ a10
 
 ### Дивіться також
 
--   Документація зі зіставлення SQLite: [» http://sqlite.org/datatype3.md#collation](http://sqlite.org/datatype3.md#collation)
+-   Документація зі зіставлення SQLite:[» http://sqlite.org/datatype3.md#collation](http://sqlite.org/datatype3.md#collation)

@@ -1,10 +1,11 @@
 ---
 navigation:
   - sessionupdatetimestamphandlerinterface.updatetimestamp.md: '« SessionUpdateTimestampHandlerInterface::updateTimestamp'
-  - refs.basic.text.md: Обработка текста »
+  - refs.basic.text.md: Обробка тексту »
   - index.md: PHP Manual
   - class.sessionupdatetimestamphandlerinterface.md: SessionUpdateTimestampHandlerInterface
 title: 'SessionUpdateTimestampHandlerInterface::validateId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SessionUpdateTimestampHandlerInterface::validateId
 
@@ -18,7 +19,7 @@ SessionUpdateTimestampHandlerInterface::validateId — Перевірити ід
 public SessionUpdateTimestampHandlerInterface::validateId(string $id): bool
 ```
 
-Перевіряє цей ідентифікатор сесії. Ідентифікатор сесії є дійсним, якщо сесія з таким ідентифікатором вже існує. Функція автоматично виконується під час запуску сесії, вказується ідентифікатор сесії та вмикається [session.usestrictmode](session.configuration.md#ini.session.use-strict-mode)
+Перевіряє цей ідентифікатор сесії. Ідентифікатор сесії є дійсним, якщо сесія з таким ідентифікатором вже існує. Функція автоматично виконується під час запуску сесії, вказується ідентифікатор сесії та вмикається [session.use\_strict\_mode](session.configuration.md#ini.session.use-strict-mode)
 
 ### Список параметрів
 

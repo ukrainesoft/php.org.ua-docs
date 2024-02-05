@@ -1,16 +1,17 @@
 ---
 navigation:
   - mysql-xdevapi-schema.gettable.md: '« Schema::getTable'
-  - class.mysql-xdevapi-schemaobject.md: mysqlxdevapiSchemaObject »
+  - class.mysql-xdevapi-schemaobject.md: mysql\_xdevapi\\SchemaObject »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysql\_xdevapi\\Schema
 title: 'Schema::getTables'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Schema::getTables
 
 (No version information available, might only be in Git)
 
-Schema::getTables — Отримати таблиці схеми
+Schema::getTables — Отримує таблиці схеми
 
 ### Опис
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\Schema::getTables(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ public mysql_xdevapi\Schema::getTables(): array
 
 ### Значення, що повертаються
 
-Масив усіх таблиць у цій схемі, де кожне значення елемента масиву є об'єктом Table з іменем таблиці як ключ.
+Повертає масив усіх таблиць у цій схемі, де кожне значення елемента масиву є об'єктом класу Table з іменем таблиці як ключ.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSchema::getTables()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::getTables()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ var_dump($tables);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {

@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'SolrDisMaxQuery::removeBoostQuery'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDisMaxQuery::removeBoostQuery
 
 (No version information available, might only be in Git)
 
-SolrDisMaxQuery::removeBoostQuery — Видаляє часткове підвищення запиту на ім'я поля (bq)
+Solr DisMax Query::removeBoost Query — Видаляє часткове підвищення запиту на ім'я поля (bq)
 
 ### Опис
 
@@ -32,7 +33,7 @@ public SolrDisMaxQuery::removeBoostQuery(string $field): SolrDisMaxQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::removeBoostQuery()****
+**Пример #1 Пример использования**SolrDisMaxQuery::removeBoostQuery()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ echo $dismaxQuery . PHP_EOL;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 q=lucene&defType=edismax&bq=cat:electronics^5.1 cat:hard drive
@@ -60,5 +61,5 @@ q=lucene&defType=edismax&bq=cat:hard drive
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::addBoostQuery()](solrdismaxquery.addboostquery.md) - Додає поле підвищення запиту зі значенням та необов'язковим посиленням (параметр bq)
--   [SolrDisMaxQuery::setBoostQuery()](solrdismaxquery.setboostquery.md) - безпосередньо встановлює параметр запиту посилення (bq)
+-   [SolrDisMaxQuery::addBoostQuery()](solrdismaxquery.addboostquery.md) \- Додає поле підвищення запиту зі значенням та необов'язковим посиленням (параметр bq)
+-   [SolrDisMaxQuery::setBoostQuery()](solrdismaxquery.setboostquery.md) \- безпосередньо встановлює параметр запиту посилення (bq)

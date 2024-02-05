@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-errno.md: « curlerrno
-  - function.curl-escape.md: curlescape »
+  - function.curl-errno.md: « curl\_errno
+  - function.curl-escape.md: curl\_escape »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlerror
+  - ref.curl.md: Опції cURL
+title: curl\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlerror
+# curl\_error
 
-(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.3, PHP 5, PHP 7, PHP 8)
 
-curlerror — Повертає рядок із описом останньої помилки поточного сеансу
+curl\_error — Повертає рядок із описом останньої помилки поточного сеансу
 
 ### Опис
 
@@ -24,7 +25,7 @@ curl_error(CurlHandle $handle): string
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
+Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.md)
 
 ### Значення, що повертаються
 
@@ -32,13 +33,13 @@ curl_error(CurlHandle $handle): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| 8.0.0 | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curlerror()****
+**Пример #1 Пример использования**curl\_error()\*\*\*\*
 
 ```php
 <?php
@@ -62,5 +63,5 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curlerrno()](function.curl-errno.md) - Повертає код останньої помилки
--   [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
+-   [curl\_errno()](function.curl-errno.md) \- Повертає код останньої помилки
+-   [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)

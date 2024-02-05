@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli-stmt.get-warnings.md: '« mysqlistmt::getwarnings'
-  - mysqli-stmt.more-results.md: 'mysqlistmt::moreresults »'
+  - mysqli-stmt.get-warnings.md: '« mysqli\_stmt::get\_warnings'
+  - mysqli-stmt.more-results.md: 'mysqli\_stmt::more\_results »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::$insertід'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::$insert\_id'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::$insertід
+# mysqli\_stmt::$insert\_id
 
-# mysqlistmtinsertід
+# mysqli\_stmt\_insert\_id
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::$insertid - mysqlistmtinsertid — Отримує ID, згенерований попередньою операцією INSERT
+mysqli\_stmt::$insert\_id -- mysqli\_stmt\_insert\_id — Отримує ID, згенерований попередньою операцією INSERT
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqlistmt->insertід](mysqli-stmt.insert-id.md)
+int|string[$mysqli\_stmt->insert\_id](mysqli-stmt.insert-id.md)
 
 Процедурний стиль
 
@@ -28,4 +29,4 @@ mysqli_stmt_insert_id(mysqli_stmt $statement): int|string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

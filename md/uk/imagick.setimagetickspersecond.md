@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageTicksPerSecond'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageTicksPerSecond
 
@@ -20,7 +21,7 @@ public Imagick::setImageTicksPerSecond(int $ticks_per_second): bool
 
 Регулює тривалість відображення кадру анімованого зображення.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Для анімованих GIF-зображень ця функція не змінює кількість "тактів зображення" за секунду, яка завжди визначається як 100. Натомість вона регулює кількість часу, протягом якого відображається кадр, щоб імітувати зміну "тактів за секунду".
 > 
@@ -30,7 +31,7 @@ public Imagick::setImageTicksPerSecond(int $ticks_per_second): bool
 
 `ticks_per_second`
 
-Тривалість, протягом якої має відображатись зображення, виражається в тактах за секунду.
+Тривалість, протягом якої має відображатися зображення, виявляється у тактах за секунду.
 
 ### Значення, що повертаються
 

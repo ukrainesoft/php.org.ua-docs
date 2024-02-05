@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.expect-expectl.md: « expectexpectl
+  - function.expect-expectl.md: « expect\_expectl
   - book.pcntl.md: PCNTL »
   - index.md: PHP Manual
-  - ref.expect.md: Функции Expect
-title: expectpopen
+  - ref.expect.md: Опції Expect
+title: expect\_popen
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# expectpopen
+# expect\_popen
 
 (PECL expect >= 0.1.0)
 
-expectpopen — Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY
+expect\_popen — Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY
 
 ### Опис
 
@@ -28,13 +29,13 @@ expect_popen(string $command): resource
 
 ### Значення, що повертаються
 
-Повертає потік PTY для `stdio` `stdout`, і `stderr` процесу.
+Повертає потік PTY для `stdio` `stdout`, и`stderr`процесса.
 
 У разі виникнення помилки повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **expectpopen()****
+**Пример #1 Пример использования**expect\_popen()\*\*\*\*
 
 ```php
 <?php
@@ -48,4 +49,4 @@ fclose ($stream);
 
 ### Дивіться також
 
--   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
+-   [popen()](function.popen.md) \- Відкриває файловий покажчик процесу

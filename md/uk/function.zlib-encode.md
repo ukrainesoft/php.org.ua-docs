@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.zlib-decode.md: « zlibdecode
-  - function.zlib-get-coding-type.md: zlibgetcodingtype »
+  - function.zlib-decode.md: « zlib\_decode
+  - function.zlib-get-coding-type.md: zlib\_get\_coding\_type »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
-title: zlibencode
+  - ref.zlib.md: Функції Zlib
+title: zlib\_encode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# zlibencode
+# zlib\_encode
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
-zlibencode — Стиснення даних із зазначеним кодуванням
+zlib\_encode — Стиснення даних із зазначеним кодуванням
 
 ### Опис
 
@@ -22,7 +23,7 @@ zlib_encode(string $data, int $encoding, int $level = -1): string|false
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ zlib_encode(string $data, int $encoding, int $level = -1): string|false
 
 `encoding`
 
-Алгоритм стискування. Одна з констант **`ZLIB_ENCODING_RAW`** **`ZLIB_ENCODING_DEFLATE`** або **`ZLIB_ENCODING_GZIP`**
+Алгоритм сжатия. Одна из констант\*\*`ZLIB_ENCODING_RAW`\*\* **`ZLIB_ENCODING_DEFLATE`**или**`ZLIB_ENCODING_GZIP`**
 
 `level`
 
@@ -40,7 +41,7 @@ zlib_encode(string $data, int $encoding, int $level = -1): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **zlibencode()****
+**Пример #1 Пример использования**zlib\_encode()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ echo bin2hex($enc);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 789ccb48cdc9c95728cf2fca4901001a0b045d
@@ -58,4 +59,4 @@ echo bin2hex($enc);
 
 ### Дивіться також
 
--   [zlibdecode()](function.zlib-decode.md) - Розпаковує будь-які закодовані дані raw/gzip/zlib
+-   [zlib\_decode()](function.zlib-decode.md) \- Розпаковує будь-які закодовані дані raw/gzip/zlib

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - example.xmlwriter-namespace.md: Робота з просторами імен XML
+  - example.xmlwriter-namespace.md: « Робота з просторами імен XML
   - class.xmlwriter.md: XMLWriter »
   - index.md: PHP Manual
   - xmlwriter.examples.md: Приклади
 title: Робота з об'єктно-орієнтованим API
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Робота з об'єктно-орієнтованим API
 
@@ -25,7 +26,7 @@ $xw->endDocument();
 echo $xw->outputMemory();
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0"?>

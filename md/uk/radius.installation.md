@@ -4,12 +4,13 @@ navigation:
   - radius.configuration.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - radius.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
+Цей модуль [» PECL](https://pecl.php.net/)не поставляется вместе с PHP.
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/radius](https://pecl.php.net/package/radius)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Встановлення PECL модулів](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/radius](https://pecl.php.net/package/radius)
 
-DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.md)
+DLL для цього модуля PECL поки що недоступна. Дивіться також розділ [збирання на Windows](install.windows.building.md)

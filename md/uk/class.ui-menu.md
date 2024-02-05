@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-control.show.md: '« UIControl::show'
-  - ui-menu.append.md: 'ОЙMenu::append »'
+  - ui-control.show.md: '« UI\\Control::show'
+  - ui-menu.append.md: 'UI\\Menu::append »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Меню
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Меню
 
@@ -45,10 +46,10 @@ public appendSeparator()
 
 ## Зміст
 
--   [ОЙMenu::append](ui-menu.append.md) - Додати пункт меню
--   [ОЙMenu::appendAbout](ui-menu.appendabout.md) — Додати пункт меню About
--   [ОЙMenu::appendCheck](ui-menu.appendcheck.md) - Додати пункт меню з чекбоксом
--   [ОЙMenu::appendPreferences](ui-menu.appendpreferences.md) - Додати пункт меню "Налаштування" (Preferences)
--   [ОЙMenu::appendQuit](ui-menu.appendquit.md) - Додати пункт меню "Вихід" (Quit)
--   [ОЙMenu::appendSeparator](ui-menu.appendseparator.md) - Додати пункт меню "Розділювач" (Separator)
--   [ОЙMenu::construct](ui-menu.construct.md) — Створити новий об'єкт
+-   [UI\\Menu::append](ui-menu.append.md) \- Додати пункт меню
+-   [UI\\Menu::appendAbout](ui-menu.appendabout.md)— Додати пункт меню About
+-   [UI\\Menu::appendCheck](ui-menu.appendcheck.md) \- Додати пункт меню з чекбоксом
+-   [UI\\Menu::appendPreferences](ui-menu.appendpreferences.md) - Додати пункт меню "Налаштування" (Preferences)
+-   [UI\\Menu::appendQuit](ui-menu.appendquit.md) - Додати пункт меню "Вихід" (Quit)
+-   [UI\\Menu::appendSeparator](ui-menu.appendseparator.md) - Додати пункт меню "Розділювач" (Separator)
+-   [UI\\Menu::\_\_construct](ui-menu.construct.md)— Створити новий об'єкт

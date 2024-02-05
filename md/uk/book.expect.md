@@ -1,14 +1,15 @@
 ---
 navigation:
   - evwatcher.stop.md: '« EvWatcher::stop'
-  - intro.expect.md: Введение »
+  - intro.expect.md: Вступ "
   - index.md: PHP Manual
-  - refs.fileprocess.process.md: Модули для управления процессами программ
+  - refs.fileprocess.process.md: Модулі для керування процесами програм
 title: Expect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Expect
 
--   [Введение](intro.expect.md)
+-   [Вступ](intro.expect.md)
 -   [Встановлення та налаштування](expect.setup.md)
     -   [Вимоги](expect.requirements.md)
     -   [Установка](expect.installation.md)
@@ -17,6 +18,6 @@ title: Expect
 -   [Обумовлені константи](expect.constants.md)
 -   [Приклади](expect.examples.md)
     -   [Приклади використання Expect](expect.examples-usage.md)
--   [Функции Expect](ref.expect.md)
-    -   [expectexpectl](function.expect-expectl.md) — Очікує, поки виведення потоку не співпаде з одним із шаблонів, або доки не закінчиться максимальний час очікування, або повернеться EOF
-    -   [expectpopen](function.expect-popen.md) — Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY
+-   [Опції Expect](ref.expect.md)
+    -   [expect\_expectl](function.expect-expectl.md)— Очікує, поки виведення потоку не співпаде з одним із шаблонів, або доки не закінчиться максимальний час очікування, або повернеться EOF
+    -   [expect\_popen](function.expect-popen.md)— Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY

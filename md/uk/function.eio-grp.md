@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.eio-grp-limit.md: « eiogrplimit
-  - function.eio-init.md: eioinit »
+  - function.eio-grp-limit.md: « eio\_grp\_limit
+  - function.eio-init.md: eio\_init »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiogrp
+  - ref.eio.md: Eio Функції
+title: eio\_grp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiogrp
+# eio\_grp
 
 (PECL eio >= 0.0.1dev)
 
-eiogrp — Створює групу запитів
+eio\_grp — Створює групу запитів
 
 ### Опис
 
@@ -18,13 +19,13 @@ eiogrp — Створює групу запитів
 eio_grp(callable $callback, string $data = NULL): resource
 ```
 
-**eiogrp()** створює групу запитів.
+**eio\_grp()** створює групу запитів.
 
 ### Список параметрів
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -40,19 +41,19 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
-Довільна змінна, що передається в `callback`функцію.
+Произвольная переменная, передаваемая в`callback`\-функцію.
 
 ### Значення, що повертаються
 
-**eiogrp()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_grp()** повертає покажчик на запит у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eiogrp()****
+**Пример #1 Пример использования**eio\_grp()\*\*\*\*
 
 ```php
 <?php
@@ -107,7 +108,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(4) "some"
@@ -115,5 +116,5 @@ string(4) "some"
 
 ### Дивіться також
 
--   [eiogrpcancel()](function.eio-grp-cancel.md) - Скасує групу запитів
--   [eiogrpadd()](function.eio-grp-add.md) - Додає запит до групи запитів
+-   [eio\_grp\_cancel()](function.eio-grp-cancel.md) \- Скасує групу запитів
+-   [eio\_grp\_add()](function.eio-grp-add.md) \- Додає запит до групи запитів

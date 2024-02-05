@@ -1,22 +1,23 @@
 ---
 navigation:
-  - class.mysql-xdevapi-result.md: « mysqlxdevapiResult
+  - class.mysql-xdevapi-result.md: « mysql\_xdevapi\\Result
   - mysql-xdevapi-result.getaffecteditemscount.md: 'Result::getAffectedItemsCount »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-result.md: mysqlxdevapiResult
-title: 'Result::construct'
+  - class.mysql-xdevapi-result.md: mysql\_xdevapi\\Result
+title: 'Result::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Result::construct
+# Result::\_\_construct
 
 (No version information available, might only be in Git)
 
-Result::construct - Конструктор класу Result
+Result::\_\_construct - Конструктор класу Result
 
 ### Опис
 
-private **mysqlxdevapiResult::construct**
+private**mysql\_xdevapi\\Result::\_\_construct**()
 
-Об'єкт, який витягує згенеровані ідентифікатори, значення AUTOINCREMENT та попередження для набору Result.
+Об'єкт, який витягує згенеровані ідентифікатори, значення AUTO\_INCREMENT та попередження для набору Result.
 
 ### Список параметрів
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiResult::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiResult::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Result::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($ai);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(3)

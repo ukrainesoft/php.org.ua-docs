@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.db2-conn-error.md: « db2connerror
-  - function.db2-connect.md: db2connect »
+  - function.db2-conn-error.md: « db2\_conn\_error
+  - function.db2-connect.md: db2\_connect »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2connerrormsg
+title: db2\_conn\_errormsg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2connerrormsg
+# db2\_conn\_errormsg
 
-(PECL ibmdb2> = 1.0.0)
+(PECL ibm\_db2 >= 1.0.0)
 
-db2connerrormsg — Повертає останнє повідомлення про помилку підключення та значення SQLCODE
+db2\_conn\_errormsg — Повертає останнє повідомлення про помилку підключення та значення SQLCODE
 
 ### Опис
 
 ```methodsynopsis
-db2_conn_errormsg(resource $connection = ?): string
+db2_conn_errormsg(?resource $connection = null): string
 ```
 
-Повертає повідомлення про помилку та значення SQLCODE, що становить причину, через яку остання спроба підключення до бази даних завершилася невдачею. Оскільки [db2connect()](function.db2-connect.md) повертає **`false`** у разі невдалої спроби підключення, не потрібно передавати жодних параметрів у **db2connerrormsg()** для отримання відповідного повідомлення про помилку та значення SQLCODE.
+Повертає повідомлення про помилку та значення SQLCODE, що є причиною, через яку остання спроба підключення до бази даних завершилася невдачею. Оскільки [db2\_connect()](function.db2-connect.md) повертає **`false`** у разі невдалої спроби підключення, не потрібно передавати жодних параметрів у **db2\_conn\_errormsg()** для отримання відповідного повідомлення про помилку та значення SQLCODE.
 
 Однак, якщо з'єднання було успішним, але згодом стало недійсним, можна передати параметр `connection`, щоб отримати відповідне повідомлення про помилку та значення SQLCODE для конкретного з'єднання.
 
@@ -30,13 +31,13 @@ db2_conn_errormsg(resource $connection = ?): string
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить повідомлення про помилку та значення SQLCODE, отримане внаслідок невдалої спроби підключення. Якщо під час останньої спроби підключення помилок не виникло, **db2connerrormsg()** повертає порожній рядок.
+Повертає рядок, що містить повідомлення про помилку та значення SQLCODE, отримане внаслідок невдалої спроби підключення. Якщо при останній спробі помилок не виникло, **db2\_conn\_errormsg()** повертає порожній рядок.
 
 ### Приклади
 
 **Приклад #1 Отримання повідомлення про помилку, повернутий у разі невдалої спроби підключення**
 
-У цьому прикладі показано, як повернути повідомлення про помилку та значення SQLCODE після навмисної передачі неприпустимих параметрів [db2connect()](function.db2-connect.md)
+У цьому прикладі показано, як повернути повідомлення про помилку та значення SQLCODE після навмисної передачі неприпустимих параметрів [db2\_connect()](function.db2-connect.md)
 
 ```php
 <?php
@@ -47,7 +48,7 @@ if (!$conn) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 [IBM][CLI Driver] SQL1013N  The database alias name
@@ -57,7 +58,7 @@ or database name "BADNAME" could not be found.  SQLSTATE=42705
 
 ### Дивіться також
 
--   [db2connerror()](function.db2-conn-error.md) - Повертає рядок, що містить значення SQLSTATE, повернене останньою спробою підключення
--   [db2connect()](function.db2-connect.md) - Повертає з'єднання з базою даних
--   [db2stmterror()](function.db2-stmt-error.md) - Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором
--   [db2stmterrormsg()](function.db2-stmt-errormsg.md) - Повертає рядок, що містить останнє повідомлення про помилку SQL-виразу
+-   [db2\_conn\_error()](function.db2-conn-error.md) \- Повертає рядок, що містить значення SQLSTATE, повернене останньою спробою підключення
+-   [db2\_connect()](function.db2-connect.md) \- Повертає з'єднання з базою даних
+-   [db2\_stmt\_error()](function.db2-stmt-error.md) \- Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором
+-   [db2\_stmt\_errormsg()](function.db2-stmt-errormsg.md) \- Повертає рядок, що містить останнє повідомлення про помилку SQL-виразу

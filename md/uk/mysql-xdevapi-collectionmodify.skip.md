@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionmodify.set.md: '« CollectionModify::set'
   - mysql-xdevapi-collectionmodify.sort.md: 'CollectionModify::sort »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: mysql\_xdevapi\\CollectionModify
 title: 'CollectionModify::skip'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionModify::skip
 
@@ -18,11 +19,11 @@ CollectionModify::skip — Пропускає елементи
 public mysql_xdevapi\CollectionModify::skip(int $position): mysql_xdevapi\CollectionModify
 ```
 
-Пропускає перші N елементів, які інакше було б повернуто операцією пошуку. Якщо кількість пропущених елементів перевищує розмір набору результатів, пошук повертає порожній набір.
+Пропускає перші N елементів, які інакше повернули б операцією пошуку. Якщо кількість пропущених елементів перевищує розмір набору результатів, пошук повертає порожній набір.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ public mysql_xdevapi\CollectionModify::skip(int $position): mysql_xdevapi\Collec
 
 ### Значення, що повертаються
 
-Об'єкт CollectionModify, який можна використовувати для подальшої обробки.
+Повертає об'єкт класу CollectionModify, з яким можна працювати далі.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::skip()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::skip()\*\*\*\*
 
 ```php
 <?php

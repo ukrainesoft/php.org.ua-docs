@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-asin.md: « traderasin
-  - function.trader-atr.md: traderatr »
+  - function.trader-asin.md: « trader\_asin
+  - function.trader-atr.md: trader\_atr »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderatan
+  - ref.trader.md: Функції Trader
+title: trader\_atan
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderatan
+# trader\_atan
 
 (PECL trader >= 0.2.0)
 
-traderatan — векторний тригонометричний арктангенс.
+trader\_atan — векторний тригонометричний арктангенс.
 
 ### Опис
 

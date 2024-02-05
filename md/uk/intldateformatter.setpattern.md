@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::setPattern'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::setPattern
 
-# datefmtsetpattern
+# datefmt\_set\_pattern
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::setPattern -- datefmtsetpattern — Встановлює шаблон, який використовується IntlDateFormatter
+IntlDateFormatter::setPattern -- datefmt\_set\_pattern — Встановлює шаблон, який використовується IntlDateFormatter
 
 ### Опис
 
@@ -38,7 +39,7 @@ datefmt_set_pattern(IntlDateFormatter $formatter, string $pattern): bool
 
 `pattern`
 
-Новий рядок шаблон для використання. Можливі шаблони можна переглянути на [» https://unicode-org.github.io/icu/userguide/formatparse/datetime/](https://unicode-org.github.io/icu/userguide/format_parse/datetime/)
+Новий рядок шаблон для використання. Можливі шаблони можна переглянути на [» https://unicode-org.github.io/icu/userguide/format\_parse/datetime/](https://unicode-org.github.io/icu/userguide/format_parse/datetime/)
 
 ### Значення, що повертаються
 
@@ -46,7 +47,7 @@ datefmt_set_pattern(IntlDateFormatter $formatter, string $pattern): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmtsetpattern()****
+**Пример #1 Пример использования**datefmt\_set\_pattern()\*\*\*\*
 
 ```php
 <?php
@@ -84,7 +85,7 @@ echo 'Второй отформатированный вывод : ', $fmt->form
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Шаблон средства форматирования : MM/dd/yyyy
@@ -95,5 +96,5 @@ echo 'Второй отформатированный вывод : ', $fmt->form
 
 ### Дивіться також
 
--   [datefmtgetpattern()](intldateformatter.getpattern.md) - Отримує шаблон, який використовується IntlDateFormatter
--   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати
+-   [datefmt\_get\_pattern()](intldateformatter.getpattern.md) \- Отримує шаблон, який використовується IntlDateFormatter
+-   [datefmt\_create()](intldateformatter.create.md) \- Створює засіб форматування дати

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.rrd-restore.md: « rrdrestore
-  - function.rrd-update.md: rrdupdate »
+  - function.rrd-restore.md: « rrd\_restore
+  - function.rrd-update.md: rrd\_update »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
-title: rrdtune
+title: rrd\_tune
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# rrdtune
+# rrd\_tune
 
 (PECL rrd >= 0.9.0)
 
-rrdtune — Налаштування деяких параметрів заголовка файлу бази даних RRD
+rrd\_tune — Налаштовує деякі опції заголовка файлу бази даних RRD
 
 ### Опис
 
@@ -32,4 +33,4 @@ rrd_tune(string $filename, array $options): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

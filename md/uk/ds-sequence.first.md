@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.find.md: '« DsSequence::find'
-  - ds-sequence.get.md: 'ДсSequence::get »'
+  - ds-sequence.find.md: '« Ds\\Sequence::find'
+  - ds-sequence.get.md: 'Ds\\Sequence::get »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::first'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::first'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::first
+# Ds\\Sequence::first
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::first — Повертає перший елемент колекції
+Ds\\Sequence::first — Повертає перший елемент колекції
 
 ### Опис
 
@@ -34,7 +35,7 @@ abstract public Ds\Sequence::first(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::first()****
+**Пример #1 Пример использования**Ds\\Sequence::first()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($sequence->first());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(1)

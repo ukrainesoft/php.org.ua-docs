@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::loopFork'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::loopFork
 
@@ -19,7 +20,7 @@ public
    EvLoop::loopFork(): void
 ```
 
-Повинен викликатися після *розгалуження* у дочірньому елементі перед входом або продовженням циклу подій. Альтернативою є використання **`Ev::FLAG_FORKCHECK`**, яка викликає цю функцію автоматично при певній втраті продуктивності (див. [» документацию libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS)
+Повинен викликатися після *розгалуження* у дочірньому елементі перед входом або продовженням циклу подій. Альтернативою є використання **`Ev::FLAG_FORKCHECK`**, яка викликає цю функцію автоматично при певній втраті продуктивності (див. [» документацію libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS)
 
 ### Список параметрів
 

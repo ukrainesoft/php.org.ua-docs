@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-send-prepare.md: « pgsendprepare
-  - function.pg-send-query.md: пгsendquery »
+  - function.pg-send-prepare.md: « pg\_send\_prepare
+  - function.pg-send-query.md: pg\_send\_query »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгsendqueryparams
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_send\_query\_params
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгsendqueryparams
+# pg\_send\_query\_params
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-пгsendqueryparams — Посилає параметризований запит на сервер, не чекає результату, що повертається.
+pg\_send\_query\_params — Посилає параметризований запит на сервер, не чекає результату, що повертається.
 
 ### Опис
 
@@ -20,13 +21,13 @@ pg_send_query_params(PgSql\Connection $connection, string $query, array $params)
 
 Надсилає параметризований запит на виконання і не чекає на його завершення. Параметри передаються окремо від тексту запиту SQL.
 
-Функція є аналогом [пгsendquery()](function.pg-send-query.md) за одним винятком: параметри запиту можна надсилати окремо від рядка запиту. Аргументи функції обробляються так само, як і в [пгqueryparams()](function.pg-query-params.md). . [пгsendquery()](function.pg-send-query.md) підтримується на з'єднаннях із серверами PostgreSQL версій 7.4 та вище. Функція не працюватиме із серверами ранніх версій. Також вона підтримує лише одну SQL-команду у виразі.
+Функція є аналогом [pg\_send\_query()](function.pg-send-query.md) за одним винятком: параметри запиту можна надсилати окремо від рядка запиту. Аргументи функції обробляються так само, як і в [pg\_query\_params()](function.pg-query-params.md). . [pg\_send\_query()](function.pg-send-query.md) підтримується на з'єднаннях із серверами PostgreSQL версій 7.4 та вище. Функція не працюватиме із серверами ранніх версій. Також вона підтримує лише одну SQL-команду у виразі.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md)
 
 `query`
 
@@ -38,17 +39,17 @@ pg_send_query_params(PgSql\Connection $connection, string $query, array $params)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, **`false`** або `0` у разі виникнення помилки. Для отримання результату запиту скористайтеся функцією [пгgetresult()](function.pg-get-result.md)
+Повертає **`true`** у разі успішного виконання, \*\*`false`\*\*или в случае возникновения ошибки. Для получения результата запроса используйте функцию[pg\_get\_result()](function.pg-get-result.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгsendqueryparams()****
+**Пример #1 Пример использования**pg\_send\_query\_params()\*\*\*\*
 
 ```php
 <?php
@@ -66,4 +67,4 @@ pg_send_query_params(PgSql\Connection $connection, string $query, array $params)
 
 ### Дивіться також
 
--   [пгsendquery()](function.pg-send-query.md) - Надсилає асинхронний запит
+-   [pg\_send\_query()](function.pg-send-query.md) \- Надсилає асинхронний запит

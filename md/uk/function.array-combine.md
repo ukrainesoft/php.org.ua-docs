@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.array-column.md: « arraycolumn
-  - function.array-count-values.md: arraycountvalues »
+  - function.array-column.md: « array\_column
+  - function.array-count-values.md: array\_count\_values »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
-title: arraycombine
+title: array\_combine
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# arraycombine
+# array\_combine
 
 (PHP 5, PHP 7, PHP 8)
 
-arraycombine — Створює новий масив, використовуючи один масив як ключі, а інший для його значень
+array\_combine — Створює новий масив, використовуючи один масив як ключі, а інший для його значень
 
 ### Опис
 
@@ -36,17 +37,17 @@ array_combine(array $keys, array $values): array
 
 ### Помилки
 
-Починаючи з PHP 8.0.0, видається помилка [ValueError](class.valueerror.md), якщо кількість елементів у `keys` і `values` не збігається. До PHP 8.0.0 натомість видавалася помилка рівня **`E_WARNING`**
+Починаючи з PHP 8.0.0, видається помилка [ValueError](class.valueerror.md), якщо кількість елементів у `keys`и`values` не збігається. До PHP 8.0.0 натомість видавалася помилка рівня **`E_WARNING`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функція **arraycombine()** тепер викидає помилку [ValueError](class.valueerror.md)якщо кількість елементів у масивах не збігається; раніше функція повертала значення **`false`** |
+| 8.0.0 | Функция**array\_combine()** тепер викидає помилку [ValueError](class.valueerror.md)якщо кількість елементів у масивах не збігається; раніше функція повертала значення **`false`** |
 
 ### Приклади
 
-**Приклад #1 Простий приклад використання **arraycombine()****
+**Приклад #1 Простий приклад використання **array\_combine()****
 
 ```php
 <?php
@@ -58,7 +59,7 @@ print_r($c);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -71,6 +72,7 @@ Array
 
 ### Дивіться також
 
--   [arraymerge()](function.array-merge.md) - Зливає один або більше масивів
--   [arraywalk()](function.array-walk.md) - Застосовує задану користувачем функцію до кожного елемента масиву
--   [arrayvalues()](function.array-values.md) - Вибирає всі значення масиву
+-   [array\_merge()](function.array-merge.md) \- Зливає один або більше масивів
+-   [array\_walk()](function.array-walk.md) \- Застосовує задану користувачем функцію кожного елемента масиву
+-   [array\_values()](function.array-values.md) \- Повертає всі значення масиву
+-   [array\_map()](function.array-map.md) \- Застосовує callback-функцію до всіх елементів зазначених масивів

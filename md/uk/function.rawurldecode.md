@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.parse-url.md: « parseurl
+  - function.parse-url.md: « parse\_url
   - function.rawurlencode.md: rawurlencode »
   - index.md: PHP Manual
   - ref.url.md: Функції URL
 title: rawurldecode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # rawurldecode
 
@@ -32,7 +33,7 @@ URL, який має бути декодований.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **rawurldecode()****
+**Пример #1 Пример использования**rawurldecode()\*\*\*\*
 
 ```php
 <?php
@@ -44,13 +45,13 @@ echo rawurldecode('foo%20bar%40baz'); // foo bar@baz
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > **rawurldecode()** не декодує символ додавання ('+') у пробіли. Це робить [urldecode()](function.urldecode.md)
 
 ### Дивіться також
 
--   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
--   [urldecode()](function.urldecode.md) - Декодування URL-кодованого рядка
--   [urlencode()](function.urlencode.md) - URL-кодування рядка
--   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+-   [rawurlencode()](function.rawurlencode.md) \- URL-кодування рядка згідно з RFC 3986
+-   [urldecode()](function.urldecode.md) \- Декодування URL-кодованого рядка
+-   [urlencode()](function.urlencode.md) \- URL-кодування рядка
+-   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-button.gettext.md: '« UIControlsButton::getText'
-  - ui-controls-button.settext.md: 'ОЙControlsButton::setText »'
+  - ui-controls-button.gettext.md: '« UI\\Controls\\Button::getText'
+  - ui-controls-button.settext.md: 'UI\\Controls\\Button::setText »'
   - index.md: PHP Manual
-  - class.ui-controls-button.md: ОЙControlsButton
-title: 'ОЙControlsButton::onClick'
+  - class.ui-controls-button.md: UI\\Controls\\Button
+title: 'UI\\Controls\\Button::onClick'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsButton::onClick
+# UI\\Controls\\Button::onClick
 
 (UI 0.9.9)
 
-ОЙControlsButton::onClick — Обробник кліку
+UI\\Controls\\Button::onClick — Обробник кліку
 
 ### Опис
 

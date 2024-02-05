@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.lua.md: Lua
 title: 'Lua::registerCallback'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Lua::registerCallback
 
@@ -30,11 +31,11 @@ public Lua::registerCallback(string $name, callable $function): mixed
 
 ### Значення, що повертаються
 
-Повертає $this, **`null`** у разі некоректних аргументів, або **`false`** у разі виникнення помилки.
+Возвращает $this,**`null`** у разі некоректних аргументів, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Lua::registerCallback()****
+**Пример #1 Пример использования**Lua::registerCallback()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ CODE
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(3) {

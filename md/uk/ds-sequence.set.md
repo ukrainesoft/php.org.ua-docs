@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.rotate.md: '« DsSequence::rotate'
-  - ds-sequence.shift.md: 'ДсSequence::shift »'
+  - ds-sequence.rotate.md: '« Ds\\Sequence::rotate'
+  - ds-sequence.shift.md: 'Ds\\Sequence::shift »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::set'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::set
+# Ds\\Sequence::set
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::set — Замінює значення за вказаним індексом
+Ds\\Sequence::set — Замінює значення за вказаним індексом
 
 ### Опис
 
@@ -40,7 +41,7 @@ abstract public Ds\Sequence::set(int $index, mixed $value): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::set()****
+**Пример #1 Пример использования**Ds\\Sequence::set()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ print_r($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object
@@ -62,7 +63,7 @@ Ds\Vector Object
 )
 ```
 
-**Приклад #2 Приклад використання **ДсSequence::set()** із синтаксисом масиву**
+**Пример #2 Пример использования**Ds\\Sequence::set()\*\* із синтаксисом масиву\*\*
 
 ```php
 <?php
@@ -73,7 +74,7 @@ print_r($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

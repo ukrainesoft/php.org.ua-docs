@@ -4,23 +4,25 @@ navigation:
   - evperiodic.createstopped.md: 'EvPeriodic::createStopped »'
   - index.md: PHP Manual
   - class.evperiodic.md: EvPeriodic
-title: 'EvPeriodic::construct'
+title: 'EvPeriodic::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# EvPeriodic::construct
+# EvPeriodic::\_\_construct
 
 (PECL ev >= 0.2.0)
 
-EvPeriodic::construct - Конструктор об'єкта спостерігача EvPeriodic
+EvPeriodic::\_\_construct - Конструктор об'єкта спостерігача EvPeriodic
 
 ### Опис
 
-public **EvPeriodic::construct**  
-float `$offset`  
-string `$interval`  
+public**EvPeriodic::\_\_construct**  
+float`$offset`  
+string`$interval`  
 [callable](language.types.callable.md) `$reschedule_cb`  
 [callable](language.types.callable.md) `$callback`  
-[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` **`null`**  
-int `$priority`
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` = **`null`**  
+int`$priority` =  
+) .
 
 Створює об'єкт спостерігача EvPeriodic та запускає його автоматично. Метод [EvPeriodic::createStopped()](evperiodic.createstopped.md) створює зупинений періодичний спостерігач.
 
@@ -28,27 +30,27 @@ int `$priority`
 
 `offset`
 
-Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.md)
+Смотрите[Періодичні режими роботи спостерігача](ev.periodic-modes.md)
 
 `interval`
 
-Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.md)
+Смотрите[Періодичні режими роботи спостерігача](ev.periodic-modes.md)
 
 `reschedule_cb`
 
-Перепризначити callback-функцію. Ви можете передати **`null`**. Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.md)
+Перепризначити callback-функцію. Ви можете передати \*\*`null`\*\*Смотрите[Періодичні режими роботи спостерігача](ev.periodic-modes.md)
 
 `callback`
 
-Дивіться [Спостерігачі callback-функції](ev.watcher-callbacks.md)
+Смотрите[Спостерігачі callback-функції](ev.watcher-callbacks.md)
 
 `data`
 
-Дані користувача, пов'язані зі спостерігачем.
+Ці дані, пов'язані зі спостерігачем.
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
+[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
 
 ### Приклади
 
@@ -95,4 +97,4 @@ $hourly = EvPeriodic(0, 3600, NULL, function () {
 
 -   [Періодичні режими роботи спостерігача](ev.periodic-modes.md)
 -   [EvTimer](class.evtimer.md)
--   [EvPeriodic::createStopped()](evperiodic.createstopped.md) - Створює зупинений спостерігач EvPeriodic
+-   [EvPeriodic::createStopped()](evperiodic.createstopped.md) \- Створює зупинений спостерігач EvPeriodic

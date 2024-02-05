@@ -1,10 +1,11 @@
 ---
 navigation:
-  - array.constants.md: « Обумовлені константи
+  - array.constants.md: « Зумовлені константи
   - ref.array.md: Функції для роботи з масивами »
   - index.md: PHP Manual
   - book.array.md: Масиви
 title: Сортування масивів
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Сортування масивів
 
@@ -12,7 +13,7 @@ title: Сортування масивів
 
 Основні відмінності між функціями:
 
--   В одних функціях масиви сортуються за ключами елементів, в інших за значеннями: `$array['ключ'] = 'значение';`
+-   В одних функціях масиви сортуються за ключами елементів, в інших за значеннями:`$array['ключ'] = 'значення';`
 -   У якихось функціях зв'язок між ключами та значеннями після сортування зберігається, у якихось немає. Це може призвести до того, що ключі будуть скидатися в числові значення (0, 1, 2, ...).
 -   Відмінності в порядку сортування: алфавітний, зростаючий, спадний, числовий, природний, випадковий або визначений користувачем
 -   Примітка: Усі функції сортування модифікують переданий масив, а не повертають відсортовану копію
@@ -22,15 +23,15 @@ title: Сортування масивів
 
 | Имя функции | Сортирует по | Сохраняет связь ключ - значение | Порядок сортировки | Похожие функции |
 | --- | --- | --- | --- | --- |
-| [arraymultisort()](function.array-multisort.md) | значенням | рядкові (string) ключі так, числові (int) - ні | перший масив або налаштування сортування | [arraywalk()](function.array-walk.md) |
+| [array\_multisort()](function.array-multisort.md) | значенням | рядкові (string) ключі так, числові (int) - ні | перший масив або налаштування сортування | [array\_walk()](function.array-walk.md) |
 | [asort()](function.asort.md) | значенням | так | за зростанням | [arsort()](function.arsort.md) |
-| [arsort()](function.arsort.md) | значенням | так | по спаданню | [asort()](function.asort.md) |
-| [krsort()](function.krsort.md) | ключу | так | по спаданню | [ksort()](function.ksort.md) |
+| [arsort()](function.arsort.md) | значенням | так | за зменшенням | [asort()](function.asort.md) |
+| [krsort()](function.krsort.md) | ключу | так | за зменшенням | [ksort()](function.ksort.md) |
 | [ksort()](function.ksort.md) | ключу | так | за зростанням | [krsort()](function.krsort.md) |
 | [natcasesort()](function.natcasesort.md) | значенням | так | природний, нечутливий до регістру | [natsort()](function.natsort.md) |
 | [natsort()](function.natsort.md) | значенням | так | природний | [natcasesort()](function.natcasesort.md) |
-| [rsort()](function.rsort.md) | значенням | ні | по спаданню | [sort()](function.sort.md) |
-| [shuffle()](function.shuffle.md) | значенням | ні | випадковий | [arrayrand()](function.array-rand.md) |
+| [rsort()](function.rsort.md) | значенням | ні | за зменшенням | [sort()](function.sort.md) |
+| [shuffle()](function.shuffle.md) | значенням | ні | випадковий | [array\_rand()](function.array-rand.md) |
 | [sort()](function.sort.md) | значенням | ні | за зростанням | [rsort()](function.rsort.md) |
 | [uasort()](function.uasort.md) | значенням | так | визначається користувачем | [uksort()](function.uksort.md) |
 | [uksort()](function.uksort.md) | ключу | так | визначається користувачем | [uasort()](function.uasort.md) |

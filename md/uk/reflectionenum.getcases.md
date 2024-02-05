@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionenum.md: ReflectionEnum
 title: 'ReflectionEnum::getCases'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionEnum::getCases
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionEnum::getCases — Повертає список усіх варіантів перерахування
 
@@ -30,7 +31,7 @@ public ReflectionEnum::getCases(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionEnum::getCases()****
+**Пример #1 Пример использования**ReflectionEnum::getCases()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ foreach ($cases as $rCase) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 enum(Suit::Hearts)
@@ -63,6 +64,6 @@ enum(Suit::Spades)
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.md)
--   [ReflectionEnum::getCase()](reflectionenum.getcase.md) - Повертає певний варіант перерахування
--   [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) - Визначає, чи є перерахування типовим
+-   [Перерахування](language.enumerations.md)
+-   [ReflectionEnum::getCase()](reflectionenum.getcase.md) \- Повертає певний варіант перерахування
+-   [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) \- Визначає, чи є перерахування типовим

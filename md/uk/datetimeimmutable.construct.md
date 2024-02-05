@@ -4,21 +4,22 @@ navigation:
   - datetimeimmutable.createfromformat.md: 'DateTimeImmutable::createFromFormat »'
   - index.md: PHP Manual
   - class.datetimeimmutable.md: DateTimeImmutable
-title: 'DateTimeImmutable::construct'
+title: 'DateTimeImmutable::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DateTimeImmutable::construct
+# DateTimeImmutable::\_\_construct
 
-# datecreateimmutable
+# date\_create\_immutable
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-DateTimeImmutable::construct - datecreateimmutable — Повертає новий об'єкт DateTimeImmutable
+DateTimeImmutable::\_\_construct -- date\_create\_immutable — Повертає новий об'єкт DateTimeImmutable
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **DateTimeImmutable::construct**(string `$datetime` = "now", ?[DateTimeZone](class.datetimezone.md) `$timezone` **`null`**
+public**DateTimeImmutable::\_\_construct**(string`$datetime` = "now", ?[DateTimeZone](class.datetimezone.md) `$timezone` **`null`**) .
 
 Процедурний стиль
 
@@ -34,35 +35,36 @@ date_create_immutable(string $datetime = "now", ?DateTimeZone $timezone = null):
 
 Рядок дати/часу. Пояснення коректних форматів наведено в розділі [Формати дати та часу](datetime.formats.md)
 
-Вкажіть `"now"` для отримання поточного часу під час використання параметра `timezone`
+Для получения текущего времени в параметр`timezone` можна передати рядок `"now"`
 
 `timezone`
 
-Об'єкт [DateTimeZone](class.datetimezone.md), що представляє часовий пояс параметра `datetime`
+Об'єкт [DateTimeZone](class.datetimezone.md), представляющий часовой пояс параметра`datetime`
 
-Якщо параметр `timezone` опущений або дорівнює **`null`**, використовуватиметься поточний часовий пояс.
+Якщо параметр `timezone` опущений або дорівнює **`null`**, буде використано поточний часовий пояс.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Параметр `timezone` та поточний часовий пояс ігноруються, якщо параметр `datetime` або є тимчасовою міткою UNIX (наприклад, `@946684800`), або вказаний часовий пояс (наприклад, `2010-01-28T15:00:00+02:00` або `2010-07-05T06:00:00Z`
+> Параметр`timezone` і поточний часовий пояс буде проігноровано, якщо параметр `datetime` або є тимчасовою міткою UNIX (наприклад, `@946684800`), або вказаний часовий пояс (наприклад, `2010-01-28T15:00:00+02:00`или`2010-07-05T06:00:00Z`
 
 ### Значення, що повертаються
 
-Повертає новий екземпляр DateTimeImmutable. Процедурний стиль повертає **`false`** у разі виникнення помилки.
+Повертає новий екземпляр DateTimeImmutable.
 
 ### Помилки
 
-Викидає [Exception](class.exception.md) у разі виникнення помилки.
+Якщо буде передано рядок з неправильною датою/часом, буде викинуто виняток [DateMalformedStringException](class.datemalformedstringexception.md). До PHP 8.3 викидався виняток [Exception](class.exception.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Відтепер мікросекунди заповнюються фактичним значенням. Чи не '00000'. |
+| 8.3.0 | Тепер замість винятку [Exception](class.exception.md) викидається виняток [DateMalformedStringException](class.datemalformedstringexception.md), якщо передано неправильний рядок. |
+| 7.1.0 | Відтепер мікросекунди заповнюються фактичним значенням. Чи не '00000'. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTimeImmutable::construct()****
+**Пример #1 Пример использования**DateTimeImmutable::\_\_construct()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -96,13 +98,13 @@ echo date_format($date, 'Y-m-d');
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 2000-01-01
 ```
 
-**Приклад #2 Тонкощі **DateTimeImmutable::construct()****
+**Приклад #2 Тонкощі **DateTimeImmutable::\_\_construct()****
 
 ```php
 <?php
@@ -119,7 +121,7 @@ $date = new DateTimeImmutable();
 echo $date->format('Y-m-d H:i:sP') . "\n";
 
 // Текущая дата/время в указанном часовом поясе.
-$date = new DateTimeImmutable(null, new DateTimeZone('Pacific/Nauru'));
+$date = new DateTimeImmutable('now', new DateTimeZone('Pacific/Nauru'));
 echo $date->format('Y-m-d H:i:sP') . "\n";
 
 // Использование временной метки UNIX. Обратите внимание, что результат в часовом поясе UTC.
@@ -132,7 +134,7 @@ echo $date->format('Y-m-d H:i:sP') . "\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 2000-01-01 00:00:00-05:00
@@ -156,7 +158,7 @@ echo $time->format('Y/m/d H:i:s'), "\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 2022/08/12 23:49:23
@@ -172,7 +174,7 @@ echo $time->format('Y/m/d H:i:s'), "\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 2021/08/12 15:43:51

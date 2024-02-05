@@ -1,10 +1,11 @@
 ---
 navigation:
-  - eventsslcontext.construct.md: '« EventSslContext::construct'
-  - eventutil.construct.md: 'EventUtil::construct »'
+  - eventsslcontext.construct.md: '« EventSslContext::\_\_construct'
+  - eventutil.construct.md: 'EventUtil::\_\_construct »'
   - index.md: PHP Manual
   - book.event.md: Event
 title: Клас EventUtil
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EventUtil
 
@@ -164,16 +165,16 @@ public
     = ?): bool
 public
    static
-   setSocketOption(    
+   setSocketOption(    
     mixed
      $socket
-   ,    
+   ,    
     int
      $level
-   ,    
+   ,    
     int
      $optname
-   ,    
+   ,    
     mixed
      $optval
    ): bool
@@ -200,83 +201,83 @@ public
 
 **`EventUtil::SO_DEBUG`**
 
-Опція сокету. Дозволяє налагодження сокету. Допустимо лише для процесів з можливістю `CAP_NET_ADMIN` або для користувача з ефективним ідентифікатором **`0`** . (Додано в event-1.6.0.)
+Опція сокету. Дозволяє налагодження сокету. Допустимо лише для процесів з можливістю `CAP_NET_ADMIN` або для користувача з ефективним ідентифікатором . (Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_REUSEADDR`**
 
-Опція сокету. Вказує, що правила, які використовуються при перевірці адрес, що задаються у виклику `bind(2)` дозволяють перевикористовувати локальні адреси. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опція сокету. Вказує, що правила, які використовуються при перевірці адрес, що задаються у виклику `bind(2)` дозволяють перевикористовувати локальні адреси. Дивіться посібник з `socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_KEEPALIVE`**
 
-Опція сокету. Дозволяє надсилати повідомлення keep-alive на сокетах, орієнтованих на з'єднання. Очікується цілий логічний прапор. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опція сокету. Дозволяє надсилати повідомлення keep-alive на сокетах, орієнтованих на з'єднання. Очікується цілий логічний прапор. Дивіться посібник з `socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_DONTROUTE`**
 
-Опція сокету. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_LINGER`**
 
-Опція сокету. Якщо дозволено, то дзвінки `close(2)` або `shutdown(2)` не буде завершено, доки всі повідомлення в черзі для сокету не будуть успішно надіслані, або поки не буде перевищено час очікування. Інакше дзвінок негайно завершується, а закриття виконується у фоновому режимі. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опція сокету. Якщо дозволено, то дзвінки `close(2)`или`shutdown(2)` не буде завершено, доки всі повідомлення в черзі для сокету не будуть успішно надіслані, або поки не буде перевищено час очікування. Інакше дзвінок негайно завершується, а закриття виконується у фоновому режимі. Дивіться посібник з `socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_BROADCAST`**
 
-Опція сокету. Вказує, чи дозволено передачу широкомовних повідомлень. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опція сокету. Вказує, чи дозволено передачу широкомовних повідомлень. Дивіться посібник з `socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_OOBINLINE`**
 
-Опція сокету. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_SNDBUF`**
 
-Опція сокету. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_RCVBUF`**
 
-Опція сокету. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_SNDLOWAT`**
 
-Опція сокету. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_RCVLOWAT`**
 
-Опція сокету. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_SNDTIMEO`**
 
-Опція сокету. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_RCVTIMEO`**
 
-Опція сокету. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_TYPE`**
 
-Опція сокету. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SO_ERROR`**
 
-Опція сокету. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SOL_SOCKET`**
 
-Опція сокету рівень. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета level. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SOL_TCP`**
 
-Опція сокету рівень. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета level. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::SOL_UDP`**
 
-Опція сокету рівень. Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Опция сокета level. Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::IPPROTO_IP`**
 
-Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::IPPROTO_IPV6`**
 
-Дивіться посібник з `socket(7)`. (Додано в event-1.6.0.)
+Смотрите руководство по`socket(7)`(Добавлено в event-1.6.0.)
 
 **`EventUtil::LIBEVENT_VERSION_NUMBER`**
 
@@ -284,10 +285,10 @@ public
 
 ## Зміст
 
--   [EventUtil::construct](eventutil.construct.md) - Абстрактний конструктор
--   [EventUtil::getLastSocketErrno](eventutil.getlastsocketerrno.md) — Отримати номер останньої помилки сокету, що виникла.
--   [EventUtil::getLastSocketError](eventutil.getlastsocketerror.md) — Отримати останню помилку сокету, що виникла.
--   [EventUtil::getSocketFd](eventutil.getsocketfd.md) — Отримати цифровий файловий дескриптор сокету чи потоку
--   [EventUtil::getSocketName](eventutil.getsocketname.md) — Отримати поточну адресу, до якої прив'язаний сокет
--   [EventUtil::setSocketOption](eventutil.setsocketoption.md) - Встановити опції сокету
--   [EventUtil::sslRandPoll](eventutil.sslrandpoll.md) - Згенерувати ентропію за допомогою RANDpoll() із OpenSSL
+-   [EventUtil::\_\_construct](eventutil.construct.md) \- Абстрактний конструктор
+-   [EventUtil::getLastSocketErrno](eventutil.getlastsocketerrno.md)— Отримати номер останньої помилки сокету, що виникла.
+-   [EventUtil::getLastSocketError](eventutil.getlastsocketerror.md)— Отримати останню помилку сокету, що виникла.
+-   [EventUtil::getSocketFd](eventutil.getsocketfd.md)— Отримати цифровий файловий дескриптор сокету чи потоку
+-   [EventUtil::getSocketName](eventutil.getsocketname.md)— Отримати поточну адресу, до якої прив'язаний сокет
+-   [EventUtil::setSocketOption](eventutil.setsocketoption.md) \- Встановити опції сокету
+-   [EventUtil::sslRandPoll](eventutil.sslrandpoll.md) \- Згенерувати ентропію за допомогою RAND\_poll() із OpenSSL

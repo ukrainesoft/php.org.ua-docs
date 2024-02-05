@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: strcoll
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # strcoll
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
 strcoll — Порівняння рядків з урахуванням поточної локалі
 
@@ -34,16 +35,16 @@ strcoll(string $string1, string $string2): int
 
 ### Значення, що повертаються
 
-Повертає негативне число, якщо `string1` менше `string2`, позитивне число, якщо `string1` більше `string2`, та 0, якщо вони рівні.
+Повертає негативне число, якщо `string1`меньше`string2`, позитивне число, якщо `string1`больше`string2`, та 0, якщо вони рівні.
 
 ### Дивіться також
 
--   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
--   [strcmp()](function.strcmp.md) - Бінарно-безпечне порівняння рядків
--   [strcasecmp()](function.strcasecmp.md) - Бінарно-безпечне порівняння рядків без урахування регістру
--   [substr()](function.substr.md) - Повертає підрядок
--   [stristr()](function.stristr.md) - Реєстронезалежний варіант функції strstr
--   [strncasecmp()](function.strncasecmp.md) - Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
--   [strncmp()](function.strncmp.md) - Бінарно-безпечне порівняння перших n символів рядків
--   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
--   [setlocale()](function.setlocale.md) - Встановлює налаштування локалі
+-   [preg\_match()](function.preg-match.md) \- Виконує перевірку на відповідність регулярному виразу
+-   [strcmp()](function.strcmp.md) \- Бінарно-безпечне порівняння рядків
+-   [strcasecmp()](function.strcasecmp.md) \- Бінарно-безпечне порівняння рядків без урахування регістру
+-   [substr()](function.substr.md) \- Повертає підрядок
+-   [stristr()](function.stristr.md) \- Реєстронезалежний варіант функції strstr
+-   [strncasecmp()](function.strncasecmp.md) \- Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
+-   [strncmp()](function.strncmp.md) \- Бінарно-безпечне порівняння перших n символів рядків
+-   [strstr()](function.strstr.md) \- Знаходить перше входження підрядка
+-   [setlocale()](function.setlocale.md) \- Встановлює налаштування локалі

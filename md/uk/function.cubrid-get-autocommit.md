@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-free-result.md: « cubridfreeresult
-  - function.cubrid-get-charset.md: cubridgetcharset »
+  - function.cubrid-free-result.md: « cubrid\_free\_result
+  - function.cubrid-get-charset.md: cubrid\_get\_charset »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridgetautocommit
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_get\_autocommit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridgetautocommit
+# cubrid\_get\_autocommit
 
 (PECL CUBRID >= 8.4.0)
 
-cubridgetautocommit — Повертає налаштування автокомміту для з'єднання
+cubrid\_get\_autocommit — Повертає налаштування автокомміту для з'єднання
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridgetautocommit — Повертає налаштування автоком
 cubrid_get_autocommit(resource $conn_identifier): bool
 ```
 
-Функція **cubridgetautocommit()** використовується для визначення, чи дозволено в цьому з'єднанні авто-комміт чи ні.
+Функция**cubrid\_get\_autocommit()** використовується для визначення, чи дозволено в цьому з'єднанні авто-комміт чи ні.
 
 Для CUBRID 8.4.0, авто-коміт транзакцій заборонено за замовчуванням.
 
@@ -36,9 +37,9 @@ cubrid_get_autocommit(resource $conn_identifier): bool
 
 **`false`**, якщо автокоміт заборонено.
 
-**`null`** у разі виникнення помилки.
+\*\*`null`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [cubridsetautocommit()](function.cubrid-set-autocommit.md) - Встановлює режим авто-комміту для з'єднання
--   [cubridcommit()](function.cubrid-commit.md) - підтвердження транзакції
+-   [cubrid\_set\_autocommit()](function.cubrid-set-autocommit.md) \- Встановлює режим авто-комміту для з'єднання
+-   [cubrid\_commit()](function.cubrid-commit.md) \- підтвердження транзакції

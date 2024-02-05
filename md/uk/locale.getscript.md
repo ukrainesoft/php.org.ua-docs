@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.locale.md: Locale
 title: 'Locale::getScript'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Locale::getScript
 
-# localegetscript
+# locale\_get\_script
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::getScript -- localegetscript — Отримати алфавіт для локалі
+Locale::getScript -- locale\_get\_script — Отримати алфавіт для локалі
 
 ### Опис
 
@@ -42,7 +43,7 @@ locale_get_script(string $locale): ?string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **localegetscript()****
+**Пример #1 Пример использования**locale\_get\_script()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ echo Locale::getScript('sr-Cyrl');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Cyrl
@@ -66,6 +67,6 @@ Cyrl
 
 ### Дивіться також
 
--   [localegetprimarylanguage()](locale.getprimarylanguage.md) - Отримати первинну мову для локалі
--   [localegetregion()](locale.getregion.md) - Отримати регіон для локалі
--   [localegetallvariants()](locale.getallvariants.md) - Отримання варіантів із переданої локалі
+-   [locale\_get\_primary\_language()](locale.getprimarylanguage.md) \- Отримати первинну мову для локалі
+-   [locale\_get\_region()](locale.getregion.md) \- Отримати регіон для локалі
+-   [locale\_get\_all\_variants()](locale.getallvariants.md) \- Отримання варіантів із переданої локалі

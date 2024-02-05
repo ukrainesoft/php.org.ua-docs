@@ -1,22 +1,23 @@
 ---
 navigation:
-  - yaf-router.route.md: '« YafRouter::route'
-  - yaf-route-simple.assemble.md: 'YafRouteSimple::assemble »'
+  - yaf-router.route.md: '« Yaf\_Router::route'
+  - yaf-route-simple.assemble.md: 'Yaf\_Route\_Simple::assemble »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafRouteSimple
+title: Клас Yaf\_Route\_Simple
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafRouteSimple
+# Клас Yaf\_Route\_Simple
 
 (Yaf >=1.0.0)
 
 ## Вступ
 
-**YafRouteSimple** порівнюватиме рядок запиту та видаватиме інформацію за відповідним маршрутом.
+**Yaf\_Route\_Simple** порівнюватиме рядок запиту та видаватиме інформацію за відповідним маршрутом.
 
-Все, що вам потрібно зробити, це сказати **YafRouteSimple**який ключ в $GET є модулем, який контролером, а якою дією.
+Все, що вам потрібно зробити, це сказати **Yaf\_Route\_Simple**який ключ в $\_GET є модулем, який контролером, а якою дією.
 
-[YafRouteSimple::route()](yaf-route-simple.route.md) завжди повертає **`true`**, так що важливо помістити **YafRouteSimple** на початок стека маршрутизації, інакше ніяких інших маршрутизаторів не буде викликано.
+[Yaf\_Route\_Simple::route()](yaf-route-simple.route.md) завжди повертає **`true`**, так що важливо помістити **Yaf\_Route\_Simple** на початок стека маршрутизації, інакше ніяких інших маршрутизаторів не буде викликано.
 
 ## Огляд класів
 
@@ -65,6 +66,6 @@ action
 
 ## Зміст
 
--   [YafRouteSimple::assemble](yaf-route-simple.assemble.md) - Збирає URL
--   [YafRouteSimple::construct](yaf-route-simple.construct.md) - Конструктор класу YafRouteSimple
--   [YafRouteSimple::route](yaf-route-simple.route.md) — Надсилає запит
+-   [Yaf\_Route\_Simple::assemble](yaf-route-simple.assemble.md) \- Збирає URL
+-   [Yaf\_Route\_Simple::\_\_construct](yaf-route-simple.construct.md) \- Конструктор класу Yaf\_Route\_Simple
+-   [Yaf\_Route\_Simple::route](yaf-route-simple.route.md)— Надсилає запит

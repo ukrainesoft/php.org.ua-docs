@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::format'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::format
 
-# datefmtformat
+# datefmt\_format
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::format -- datefmtformat — Форматує значення дати/часу у вигляді рядка
+IntlDateFormatter::format -- datefmt\_format — Форматує значення дати/часу у вигляді рядка
 
 ### Опис
 
@@ -44,18 +45,18 @@ datefmt_format(IntlDateFormatter $formatter, IntlCalendar|DateTimeInterface|arra
 
 ### Значення, що повертаються
 
-Відформатований рядок або **`false`** у разі виникнення помилки.
+Відформатований рядок або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Додано підтримку надання спільних об'єктів [DateTimeInterface](class.datetimeinterface.md) для параметра `datetime`. Раніше підтримувалися лише об'єкти [DateTime](class.datetime.md) |
-| PECL 3.0.0 | Додано підтримку надання об'єктів [IntlCalendar](class.intlcalendar.md) для параметра `datetime` |
+| 7.1.5 | Додано підтримку надання спільних об'єктів [DateTimeInterface](class.datetimeinterface.md)для параметра`datetime`. . Раніше підтримувалися лише об'єкти [DateTime](class.datetime.md) |
+| PECL 3.0.0 | Додано підтримку надання об'єктів [IntlCalendar](class.intlcalendar.md)для параметра`datetime` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmtformat()****
+**Пример #1 Пример использования**datefmt\_format()\*\*\*\*
 
 ```php
 <?php
@@ -143,7 +144,7 @@ echo 'Второй форматированный вывод с шаблоном
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Первый форматированный вывод: Wednesday, December 31, 1969 4:00:00 PM PT
@@ -182,7 +183,7 @@ echo "После изменения часового пояса:\n\t",
         $formatter->format($cal), "\n";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 В этом исламском году Рамадан начался/начнётся:
@@ -193,8 +194,8 @@ echo "После изменения часового пояса:\n\t",
 
 ### Дивіться також
 
--   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати
--   [datefmtparse()](intldateformatter.parse.md) - Перетворює рядок на значення позначки часу
--   [datefmtgeterrorcode()](intldateformatter.geterrorcode.md) - Отримує код помилки останньої операції
--   [datefmtgeterrormessage()](intldateformatter.geterrormessage.md) - Отримує текст помилки останньої операції
--   [datefmtformatobject()](intldateformatter.formatobject.md) - Форматує об'єкт
+-   [datefmt\_create()](intldateformatter.create.md) \- Створює засіб форматування дати
+-   [datefmt\_parse()](intldateformatter.parse.md) \- Перетворює рядок на значення позначки часу
+-   [datefmt\_get\_error\_code()](intldateformatter.geterrorcode.md) \- Отримує код помилки останньої операції
+-   [datefmt\_get\_error\_message()](intldateformatter.geterrormessage.md) \- Отримує текст помилки останньої операції
+-   [datefmt\_format\_object()](intldateformatter.formatobject.md) \- Форматує об'єкт

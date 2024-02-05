@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-menuitem.ischecked.md: '« UIMenuItem::isChecked'
-  - ui-menuitem.setchecked.md: 'ОЙMenuItem::setChecked »'
+  - ui-menuitem.ischecked.md: '« UI\\MenuItem::isChecked'
+  - ui-menuitem.setchecked.md: 'UI\\MenuItem::setChecked »'
   - index.md: PHP Manual
-  - class.ui-menuitem.md: ОЙMenuItem
-title: 'ОЙMenuItem::onClick'
+  - class.ui-menuitem.md: UI\\MenuItem
+title: 'UI\\MenuItem::onClick'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙMenuItem::onClick
+# UI\\MenuItem::onClick
 
 (UI 0.9.9)
 
-ОЙMenuItem::onClick — Обробник натискання
+UI\\MenuItem::onClick — Обробник натискання
 
 ### Опис
 

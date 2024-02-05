@@ -1,16 +1,17 @@
 ---
 navigation:
   - simplexmlelement.savexml.md: '« SimpleXMLElement::saveXML'
-  - simplexmlelement.xpath.md: 'SimpleXMLElement::xpath »'
+  - simplexmlelement.valid.md: 'SimpleXMLElement::valid »'
   - index.md: PHP Manual
   - class.simplexmlelement.md: SimpleXMLElement
-title: 'SimpleXMLElement::toString'
+title: 'SimpleXMLElement::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SimpleXMLElement::toString
+# SimpleXMLElement::\_\_function toString() { \[native code\] }
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-SimpleXMLElement::toString — Повертає вміст рядка
+SimpleXMLElement::\_\_toString — Повертає вміст рядка
 
 ### Опис
 
@@ -39,7 +40,7 @@ echo $xml;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1 3
@@ -47,4 +48,4 @@ echo $xml;
 
 ### Дивіться також
 
--   [SimpleXMLElement::asXML()](simplexmlelement.asxml.md) - Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML
+-   [SimpleXMLElement::asXML()](simplexmlelement.asxml.md) \- Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML

@@ -1,24 +1,25 @@
 ---
 navigation:
   - mysqli.commit.md: '« mysqli::commit'
-  - mysqli.connect-error.md: 'mysqli::$connecterror »'
+  - mysqli.connect-error.md: 'mysqli::$connect\_error »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::$connecterrno'
+title: 'mysqli::$connect\_errno'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::$connecterrno
+# mysqli::$connect\_errno
 
-# mysqliconnecterrno
+# mysqli\_connect\_errno
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$connecterrno - mysqliconnecterrno — Повертає код помилки останньої спроби з'єднання.
+mysqli::$connect\_errno -- mysqli\_connect\_errno — Повертає код помилки останньої спроби з'єднання.
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli->connecterrno](mysqli.connect-errno.md)
+int[$mysqli->connect\_errno](mysqli.connect-errno.md)
 
 Процедурний стиль
 
@@ -38,7 +39,7 @@ mysqli_connect_errno(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання $mysqli->connecterrno**
+**Приклад #1 Приклад використання $mysqli->connect\_errno**
 
 Об'єктно-орієнтований стиль
 
@@ -76,8 +77,8 @@ if (!$link) {
 
 ### Дивіться також
 
--   [mysqliconnect()](function.mysqli-connect.md) - Псевдонім mysqli::construct
--   [mysqliconnecterror()](mysqli.connect-error.md) - Повертає опис останньої помилки підключення
--   [mysqlierrno()](mysqli.errno.md) - Повертає код помилки останнього виклику функції
--   [mysqlierror()](mysqli.error.md) - Повертає рядок із описом останньої помилки
--   [mysqlisqlstate()](mysqli.sqlstate.md) - Повертає код стану SQLSTATE останній MySQL операції
+-   [mysqli\_connect()](function.mysqli-connect.md) \- Псевдонім mysqli::\_\_construct
+-   [mysqli\_connect\_error()](mysqli.connect-error.md) \- Повертає опис останньої помилки підключення
+-   [mysqli\_errno()](mysqli.errno.md) \- Повертає код помилки останнього виклику функції
+-   [mysqli\_error()](mysqli.error.md) \- Повертає рядок із описом останньої помилки
+-   [mysqli\_sqlstate()](mysqli.sqlstate.md) \- Повертає код стану SQLSTATE останній MySQL операції

@@ -1,50 +1,55 @@
 ---
 navigation:
-  - function.xml-set-start-namespace-decl-handler.md: « xmlsetstartnamespacedeclhandler
+  - function.xml-set-start-namespace-decl-handler.md: « xml\_set\_start\_namespace\_decl\_handler
   - class.xmlparser.md: XmlParser »
   - index.md: PHP Manual
-  - ref.xml.md: Функции парсера XML
-title: xmlsetunparsedentitydeclhandler
+  - ref.xml.md: Функції парсера XML
+title: xml\_set\_unparsed\_entity\_decl\_handler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlsetunparsedentitydeclhandler
+# xml\_set\_unparsed\_entity\_decl\_handler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xmlsetunparsedentitydeclhandler — Встановлення оброблювача нерозібраних оголошень сутностей
+xml\_set\_unparsed\_entity\_decl\_handler — Встановлення оброблювача нерозібраних оголошень сутностей
 
 ### Опис
 
 ```methodsynopsis
-xml_set_unparsed_entity_decl_handler(XMLParser $parser, callable $handler): bool
+xml_set_unparsed_entity_decl_handler(XMLParser $parser, callable $handler): true
 ```
 
 Задає функцію обробник нерозібраних оголошень для XML-аналізатора `parser`
 
-Обробник `handler` буде викликано, якщо XML-аналізатор виявить NDATA-оголошення зовнішньої сутності вигляду:
+Обработчик`handler` буде викликано, якщо XML-аналізатор виявить NDATA-оголошення зовнішньої сутності вигляду:
 
-name publicId systemId} NDATA notationName
+name publicId systemId} NDATAnotationName
 
-Дивіться [» розділ 4.2.2 XML 1.0 специфікації](http://www.w3.org/TR/1998/REC-xml-19980210#sec-external-ent)щоб отримати точне визначення позначень зовнішніх сутностей.
+Смотрите[» розділ 4.2.2 XML 1.0 специфікації](http://www.w3.org/TR/1998/REC-xml-19980210#sec-external-ent)щоб отримати точне визначення позначень зовнішніх сутностей.
 
 ### Список параметрів
 
 `parser`
 
-Посилання на XML-аналізатор, для якого задається обробник.
+Парсер XML.
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.md) з аналізатора `parser`
+Якщо передається значення **`null`** або порожній рядок, обробник повертається в стан за замовчуванням.
 
-Функція з ім'ям `handler` має приймати шість аргументів:
+Якщо параметр `handler` є типом [callable](language.types.callable.md), то як оброблювач встановлюється callable.
+
+Якщо параметр `handler` є рядком (string), це може бути ім'я методу об'єкта, заданого за допомогою функції [xml\_set\_object()](function.xml-set-object.md)
+
+Сигнатура оброблювача має бути:
 
 ```methodsynopsis
-handler(    XMLParser $parser,    string $entity_name,    string $base,    string $system_id,    string $public_id,    string $notation_name)
+handler(    XMLParser $parser,    string $entity_name,    string|false $base,    string $system_id,    string|false $public_id,    string|false $notation_name): void
 ```
 
 `parser`
 
-Перший аргумент parser є посиланням на XML-аналізатор, що викликає обробник.
+XML-парсер, що викликає оброблювач.
 
 `entity_name`
 
@@ -52,7 +57,7 @@ handler(    XMLParser $parser,    string $entity_name,    string $base,    strin
 
 `base`
 
-Це основа для дозволу системного ідентифікатора (`system_id`) Зовнішньої сутності. На даний момент як цей аргумент завжди передається порожній рядок.
+Це основа для дозволу системного ідентифікатора (`system_id`) Зовнішньої сутності.
 
 `system_id`
 
@@ -64,18 +69,14 @@ handler(    XMLParser $parser,    string $entity_name,    string $base,    strin
 
 `notation_name`
 
-Ім'я позначення цієї сутності (дивіться [xmlsetnotationdeclhandler()](function.xml-set-notation-decl-handler.md)
-
-Якщо як обробник передано порожній рядок або **`false`**, цей обробник вимикається.
-
-> **Зауваження**: Як аргумент замість імені функції може бути переданий масив, що містить посилання на об'єкт та ім'я методу.
+Ім'я позначення цієї сутності (дивіться [xml\_set\_notation\_decl\_handler()](function.xml-set-notation-decl-handler.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| 8.0.0 | Параметр`parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався коректний `xml` ресурс (Resource). |

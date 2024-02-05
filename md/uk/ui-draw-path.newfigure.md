@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-path.lineto.md: '« UIDrawPath::lineTo'
-  - ui-draw-path.newfigurewitharc.md: 'ОЙDrawPath::newFigureWithArc »'
+  - ui-draw-path.lineto.md: '« UI\\Draw\\Path::lineTo'
+  - ui-draw-path.newfigurewitharc.md: 'UI\\Draw\\Path::newFigureWithArc »'
   - index.md: PHP Manual
-  - class.ui-draw-path.md: ОЙDrawPath
-title: 'ОЙDrawPath::newFigure'
+  - class.ui-draw-path.md: UI\\Draw\\Path
+title: 'UI\\Draw\\Path::newFigure'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawPath::newFigure
+# UI\\Draw\\Path::newFigure
 
 (UI 0.9.9)
 
-ОЙDrawPath::newFigure — Намалювати фігуру
+UI\\Draw\\Path::newFigure — Намалювати фігуру
 
 ### Опис
 

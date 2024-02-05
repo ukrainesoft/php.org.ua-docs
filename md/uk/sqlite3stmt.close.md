@@ -1,14 +1,15 @@
 ---
 navigation:
   - sqlite3stmt.clear.md: '« SQLite3Stmt::clear'
-  - sqlite3stmt.construct.md: 'SQLite3Stmt::construct »'
+  - sqlite3stmt.construct.md: 'SQLite3Stmt::\_\_construct »'
   - index.md: PHP Manual
   - class.sqlite3stmt.md: SQLite3Stmt
 title: 'SQLite3Stmt::close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3Stmt::close
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3Stmt::close — Закриває підготовлений запит
 

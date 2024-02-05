@@ -1,10 +1,11 @@
 ---
 navigation:
-  - v8js.installation.md: « Установка
+  - v8js.installation.md: « Встановлення
   - v8js.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - v8js.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,23 +15,23 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [v8js.maxdisposedcontexts](v8js.configuration.md#ini.v8js.max-disposed-contexts) |  | PHPINIALL |  |
-| [v8js.flags](v8js.configuration.md#ini.v8js.flags) |  | PHPINIALL |  |
+| [v8js.max\_disposed\_contexts](v8js.configuration.md#ini.v8js.max-disposed-contexts) | 25 | **`INI_ALL`** |  |
+| [v8js.flags](v8js.configuration.md#ini.v8js.flags) |  | **`INI_ALL`** |  |
 
 Коротке пояснення конфігураційних директив.
 
-`v8js.max_disposed_contexts` int
+`v8js.max_disposed_contexts`int
 
-Встановлює межу розміщеного контексту, після якого V8 примусово запустити збирач сміття.
+Встановлює межу розміщеного контексту, після якого V8 примусово запустить збирач сміття.
 
-`v8js.flags` string
+`v8js.flags`string
 
-Встановлює прапори командного рядка V8. Список доступних прапорів можна переглянути в режимі CLI, задавши параметр `--help`. Приклад:
+Встановлює прапори командного рядка V8. Список доступних прапорів можна переглянути в режимі CLI, задавши параметр `--help`Пример:
 
 ```
 $ php -r 'ini_set("v8js.flags", "--help"); new V8Js;' | less
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для ефективного керування прапорами під час виконання використовуйте iniset() перед тим, як створювати об'єкти V8Js!
+> Для ефективного керування прапорами під час виконання використовуйте ini\_set() перед тим, як створювати об'єкти V8Js!

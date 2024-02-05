@@ -1,12 +1,13 @@
 ---
 navigation:
-  - mongodb-driver-commandexception.getresultdocument.md: '« MongoDBDriverExceptionCommandException::getResultDocument'
-  - class.mongodb-driver-exception-connectiontimeoutexception.md: MongoDBDriverExceptionConnectionTimeoutException »
+  - mongodb-driver-commandexception.getresultdocument.md: '« MongoDB\\Driver\\Exception\\CommandException::getResultDocument'
+  - class.mongodb-driver-exception-connectiontimeoutexception.md: MongoDB\\Driver\\Exception\\ConnectionTimeoutException »
   - index.md: PHP Manual
-  - mongodb.exceptions.md: MongoDBDriverException
-title: Клас MongoDBDriverExceptionConnectionException
+  - mongodb.exceptions.md: MongoDB\\Driver\\Exception
+title: Клас MongoDB\\Driver\\Exception\\ConnectionException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverExceptionConnectionException
+# Клас MongoDB\\Driver\\Exception\\ConnectionException
 
 (mongodb >= 1.0.0)
 
@@ -41,26 +42,26 @@ title: Клас MongoDBDriverExceptionConnectionException
 
     
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */

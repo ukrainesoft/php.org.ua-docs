@@ -1,14 +1,15 @@
 ---
 navigation:
-  - class.pspell-dictionary.md: « PSpellDictionary
+  - class.pspell-dictionary.md: « PSpell\\Dictionary
   - book.recode.md: Recode »
   - index.md: PHP Manual
   - book.pspell.md: Pspell
-title: Клас PSpellConfig
+title: Клас PSpell\\Config
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас PSpellConfig
+# Клас PSpell\\Config
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -16,19 +17,11 @@ title: Клас PSpellConfig
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-    
-     
-      final
-      class PSpell\Config
-     
+     final
+     class PSpell\Config
      {
-    
-
    }
 ```

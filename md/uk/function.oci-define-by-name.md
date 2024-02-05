@@ -1,32 +1,33 @@
 ---
 navigation:
-  - function.oci-connect.md: « ociconnect
-  - function.oci-error.md: ocierror »
+  - function.oci-connect.md: « oci\_connect
+  - function.oci-error.md: oci\_error »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocidefineбname
+  - ref.oci8.md: OCI8 Функції
+title: oci\_define\_by\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocidefineбname
+# oci\_define\_by\_name
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocidefineбname — Порівняє змінну PHP стовпцю результату запиту
+oci\_define\_by\_name — Порівняє змінну PHP стовпцю результату запиту
 
 ### Опис
 
 ```methodsynopsis
-oci_define_by_name(    resource $statement,    string $column,    mixed &$var,    int $type = 0): bool
+oci_define_by_name(    resource $statement,    string $column,    mixed &$var,    int $type = 0): bool
 ```
 
-Зіставляє змінну PHP стовпцю результату запиту, отриманого за допомогою [ocifetch()](function.oci-fetch.md)
+Сопоставляет переменную PHP столбцу результата запроса, полученного с помощью[oci\_fetch()](function.oci-fetch.md)
 
-Виклик **ocidefineбname()** повинен проводитися до запуску [ociexecute()](function.oci-execute.md)
+Виклик \*\*oci\_define\_by\_name()\*\*должен производиться до запуска[oci\_execute()](function.oci-execute.md)
 
 ### Список параметрів
 
 `statement`
 
-Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.md) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
+Коректний ідентифікатор виразу OCI8, отриманий з [oci\_parse()](function.oci-parse.md) та виконаний функцією [oci\_execute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
 
 `column`
 
@@ -40,17 +41,17 @@ oci_define_by_name(    resource $statement,    string $column,    mixed &$var,  
 
 `type`
 
-Тип даних, що повертаються. Зазвичай не потрібно. Майте на увазі, що перетворення Oracle-даних не виконуються. Наприклад, `SQLT_INT` буде проігноровано і повернені дані будуть як і раніше у вигляді `SQLT_CHR`
+Тип даних, що повертаються. Зазвичай не потрібно. Майте на увазі, що перетворення Oracle-даних не виконуються. Наприклад, `SQLT_INT` буде проігноровано і повернені дані будуть, як і раніше, у вигляді `SQLT_CHR`
 
-Якщо вам потрібно призначити змінну абстрактного типу даних (LOB/ROWID/BFILE), її необхідно спочатку створити за допомогою [ocinewdescriptor()](function.oci-new-descriptor.md)
+Якщо вам потрібно призначити змінну абстрактного типу даних (LOB/ROWID/BFILE), її необхідно спочатку створити за допомогою [oci\_new\_descriptor()](function.oci-new-descriptor.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ocidefineбname()****
+**Пример #1 Пример использования**oci\_define\_by\_name()\*\*\*\*
 
 ```php
 <?php
@@ -85,7 +86,7 @@ oci_close($conn);
 ?>
 ```
 
-**Приклад #2 Приклад використання **ocidefineбname()** з реєстрозалежними іменами стовпців**
+**Пример #2 Пример использования**oci\_define\_by\_name()\*\* з реєстрозалежними іменами стовпців\*\*
 
 ```php
 <?php
@@ -126,7 +127,7 @@ oci_close($conn);
 ?>
 ```
 
-**Приклад #3 Приклад використання **ocidefineбname()** зі стовпцями типу LOB**
+**Пример #3 Пример использования**oci\_define\_by\_name()\*\* зі стовпцями типу LOB\*\*
 
 ```php
 <?php
@@ -168,7 +169,7 @@ oci_close($conn);
 ?>
 ```
 
-**Приклад #4 Приклад використання **ocidefineбname()** з наведеними типами**
+**Пример #4 Пример использования**oci\_define\_by\_name()\*\* з наведеними типами\*\*
 
 ```php
 <?php
@@ -214,5 +215,5 @@ oci_close($conn);
 
 ### Дивіться також
 
--   [ocifetch()](function.oci-fetch.md) - Вибирає наступний рядок із результату в буфер
--   [ocinewdescriptor()](function.oci-new-descriptor.md) - Ініціалізує новий дескриптор об'єкта LOB чи FILE
+-   [oci\_fetch()](function.oci-fetch.md) \- Вибирає наступний рядок із результату в буфер
+-   [oci\_new\_descriptor()](function.oci-new-descriptor.md) \- Ініціалізує новий дескриптор об'єкта LOB чи FILE

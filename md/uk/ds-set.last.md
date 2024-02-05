@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.jsonserialize.md: '« DsSet::jsonSerialize'
-  - ds-set.merge.md: 'ДсSet::merge »'
+  - ds-set.jsonserialize.md: '« Ds\\Set::jsonSerialize'
+  - ds-set.merge.md: 'Ds\\Set::merge »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::last'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::last'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::last
+# Ds\\Set::last
 
 (PECL ds >= 1.0.0)
 
-ДсSet::last — Повертає останнє значення колекції
+Ds\\Set::last — Повертає останнє значення колекції
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Set::last(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::last()****
+**Пример #1 Пример использования**Ds\\Set::last()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($set->last());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(3)

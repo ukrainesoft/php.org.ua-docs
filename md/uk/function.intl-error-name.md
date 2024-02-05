@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.intl.md: « Функции intl
-  - function.intl-get-error-code.md: intlgeterrorcode »
+  - ref.intl.md: « Функції intl
+  - function.intl-get-error-code.md: intl\_get\_error\_code »
   - index.md: PHP Manual
-  - ref.intl.md: Функции intl
-title: intlerrorname
+  - ref.intl.md: Функції intl
+title: intl\_error\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# intlerrorname
+# intl\_error\_name
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-intlerrorname — Отримати ім'я помилки за її кодом
+intl\_error\_name — Отримати ім'я помилки за її кодом
 
 ### Опис
 
@@ -32,7 +33,7 @@ intl_error_name(int $errorCode): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **intlerrorname()****
+**Пример #1 Пример использования**intl\_error\_name()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ printf( "Символическое имя для %d - %s\n.", $err_code, intl_e
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Символическое имя для -128 - U_USING_FALLBACK_WARNING.
@@ -51,6 +52,6 @@ printf( "Символическое имя для %d - %s\n.", $err_code, intl_e
 
 ### Дивіться також
 
--   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою
--   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
--   [intlgeterrormessage()](function.intl-get-error-message.md) - Отримати опис помилки
+-   [intl\_is\_failure()](function.intl-is-failure.md) \- Перевірити, чи є код помилки ознакою збою
+-   [intl\_get\_error\_code()](function.intl-get-error-code.md) \- Отримати код останньої помилки
+-   [intl\_get\_error\_message()](function.intl-get-error-message.md) \- Отримати опис помилки

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.imap-num-recent.md: « imapnumrecent
-  - function.imap-ping.md: imapping »
+  - function.imap-num-recent.md: « imap\_num\_recent
+  - function.imap-ping.md: imap\_ping »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapopen
+  - ref.imap.md: Функції IMAP
+title: imap\_open
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapopen
+# imap\_open
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapopen — Відкриває потік IMAP до поштової скриньки
+imap\_open — Відкриває потік IMAP до поштової скриньки
 
 ### Опис
 
 ```methodsynopsis
-imap_open(    string $mailbox,    string $user,    string $password,    int $flags = 0,    int $retries = 0,    array $options = []): IMAP\Connection|false
+imap_open(    string $mailbox,    string $user,    string $password,    int $flags = 0,    int $retries = 0,    array $options = []): IMAP\Connection|false
 ```
 
 Відкриває потік IMAP до `mailbox`
@@ -26,26 +27,26 @@ imap_open(    string $mailbox,    string $user,    string $password,    int $fla
 
 `mailbox`
 
-Ім'я поштової скриньки складається з сервера та шляху до поштової скриньки на ньому. Спеціальне ім'я `INBOX` використовується для поштової скриньки поточного користувача. Імена поштових скриньок, що містять міжнародні символи, крім вхідних у друкований простір ASCII, повинні бути закодовані за допомогою [imaputf7encode()](function.imap-utf7-encode.md)
+Ім'я поштової скриньки складається з сервера та шляху до поштової скриньки на ньому. Спеціальне ім'я `INBOX` використовується для поштової скриньки поточного користувача. Імена поштових скриньок, що містять міжнародні символи, крім вхідних у друкований простір ASCII, повинні бути закодовані за допомогою [imap\_utf7\_encode()](function.imap-utf7-encode.md)
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enable\_insecure\_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
-Серверна частина, укладена у фігурні дужки '{' і '}', складається з імені або IP-адреси сервера, опціонального порту (попереднього двокрапкою) та опціональних специфікацій протоколу (попереджених слешем '/').
+Серверна частина, укладена у фігурні дужки '{' і '}', складається з імені або IP-адреси сервера, опціонального порту (попереднього двокрапкою) та опціональних специфікацій протоколу (попередніх слешем '/').
 
 Серверна частина є обов'язковою у всіх параметрах поштової скриньки.
 
-Всі імена, що починаються з `{` є віддаленими іменами і мають такий синтаксис `"{" remote_system_name [":" port] [flags] "}" [mailbox_name]` де:
+Всі імена, що починаються з `{` є віддаленими іменами і мають такий синтаксис `"{" remote_system_name [":" port] [flags] "}" [mailbox_name]`где:
 
--   `remote_system_name` - Повне доменне ім'я сервера, або IP-адресу у квадратних дужках.
--   `port` - Необов'язковий параметр. Визначає порт сервера
--   `flags` - опціональні прапори, дивись таблицю нижче
--   `mailbox_name` - Ім'я поштової скриньки. За замовчуванням INBOX
+-   `remote_system_name`\- Повне доменне ім'я сервера, або IP-адресу у квадратних дужках.
+-   `port`\- Необов'язковий параметр. Визначає порт сервера
+-   `flags`\- опціональні прапори, дивись таблицю нижче
+-   `mailbox_name`\- Ім'я поштової скриньки. За замовчуванням INBOX
 
 **Опціональні прапори**
 
-| Флаг | Описание |
+| Флаг | Опис |
 | --- | --- |
 | `/service=`*service* | сервіс доступу до поштової скриньки. За замовчуванням "imap" |
 | `/user=`*user* | ім'я користувача для входу на сервер |
@@ -76,15 +77,15 @@ imap_open(    string $mailbox,    string $user,    string $password,    int $fla
 
 `flags` - бітова маска з однієї або кількох констант:
 
--   **`OP_READONLY`** - відкрити поштову скриньку лише для читання
--   **`OP_ANONYMOUS`** - не використовувати та не оновлювати .newsrc для новин (тільки NNTP)
--   **`OP_HALFOPEN`** - відкрити з'єднання, але не підключатися до поштової скриньки для IMAP і NNTP.
--   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imapdelete()](function.imap-delete.md) і [imapexpunge()](function.imap-expunge.md)
--   **`OP_DEBUG`** - домовленості щодо протоколу налагодження
--   **`OP_SHORTCACHE`** - коротке кешування (тільки `elt`
--   **`OP_SILENT`** - не передавати події (внутрішнє використання)
--   **`OP_PROTOTYPE`** - Повернути прототип драйвера
--   **`OP_SECURE`** - не здійснювати безпечну автентифікацію
+-   \*\*`OP_READONLY`\*\*- відкрити поштову скриньку лише для читання
+-   \*\*`OP_ANONYMOUS`\*\*- не використовувати та не оновлювати .newsrc для новин (тільки NNTP)
+-   \*\*`OP_HALFOPEN`\*\*- відкрити з'єднання, але не підключатися до поштової скриньки ім'я IMAP і NNTP.
+-   \*\*`CL_EXPUNGE`\*\*- автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див.[imap\_delete()](function.imap-delete.md) і [imap\_expunge()](function.imap-expunge.md)) .
+-   \*\*`OP_DEBUG`\*\*- домовленості щодо протоколу налагодження
+-   \*\*`OP_SHORTCACHE`\*\*- коротке кешування (тільки`elt`) .
+-   \*\*`OP_SILENT`\*\*- не передавати події (внутрішнє використання)
+-   \*\*`OP_PROTOTYPE`\*\*- Повернути прототип драйвера
+-   \*\*`OP_SECURE`\*\*- не здійснювати безпечну автентифікацію
 
 `retries`
 
@@ -94,21 +95,21 @@ imap_open(    string $mailbox,    string $user,    string $password,    int $fla
 
 Параметри для з'єднання. Для встановлення одного або декількох параметрів з'єднання можна використовувати такі (рядки) ключі:
 
--   `DISABLE_AUTHENTICATOR` - забороняє властивості автентифікації
+-   `DISABLE_AUTHENTICATOR`\- забороняє властивості автентифікації
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає екземпляр [IMAPConnection](class.imap-connection.md) або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає екземпляр [IMAP\\Connection](class.imap-connection.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Повертає екземпляр [IMAPConnection](class.imap-connection.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Повертає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Різні способи використання **imapopen()****
+**Приклад #1 Різні способи використання **imap\_open()****
 
 ```php
 <?php
@@ -133,7 +134,7 @@ $nntp = imap_open ("{localhost:119/nntp}comp.test", "", "");
 ?>
 ```
 
-**Приклад #2 Приклад використання **imapopen()****
+**Пример #2 Пример использования**imap\_open()\*\*\*\*
 
 ```php
 <?php
@@ -167,4 +168,4 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imapclose()](function.imap-close.md) - Закрити потік IMAP
+-   [imap\_close()](function.imap-close.md) \- Закриває потік IMAP

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-secretbox-keygen.md: « sodiumcryptosecretboxkeygen
-  - function.sodium-crypto-secretbox.md: sodiumcryptosecretbox »
+  - function.sodium-crypto-secretbox-keygen.md: « sodium\_crypto\_secretbox\_keygen
+  - function.sodium-crypto-secretbox.md: sodium\_crypto\_secretbox »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptosecretboxopen
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_secretbox\_open
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptosecretboxopen
+# sodium\_crypto\_secretbox\_open
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptosecretboxopen — Розшифровка за допомогою спільного ключа з автентифікацією
+sodium\_crypto\_secretbox\_open — Розшифровка за допомогою спільного ключа з автентифікацією
 
 ### Опис
 
@@ -18,17 +19,17 @@ sodiumcryptosecretboxopen — Розшифровка за допомогою с�
 sodium_crypto_secretbox_open(string $ciphertext, string $nonce, string $key): string|false
 ```
 
-Розшифровує зашифроване повідомлення симетричним ключом.
+Розшифровує зашифроване повідомлення симетричним (загальним) ключем.
 
 ### Список параметрів
 
 `ciphertext`
 
-Має бути у форматі, наданому [sodiumcryptosecretbox()](function.sodium-crypto-secretbox.md) (Зашифрований текст та тег, об'єднані).
+Має бути у форматі, наданому [sodium\_crypto\_secretbox()](function.sodium-crypto-secretbox.md) (Зашифрований текст та тег, об'єднані).
 
 `nonce`
 
-Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [randombytes()](function.random-bytes.md)
+Номер, який потрібно використовувати лише один раз для кожного повідомлення. Довжина 24 байти. Це досить велика межа для випадкової генерації (наприклад, [random\_bytes()](function.random-bytes.md)
 
 `key`
 
@@ -36,16 +37,16 @@ sodium_crypto_secretbox_open(string $ciphertext, string $nonce, string $key): st
 
 ### Значення, що повертаються
 
-Розшифрований рядок у разі успішного виконання або **`false`** у разі виникнення помилки.
+Розшифрований рядок у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
--   Викидається [SodiumException](class.sodiumexception.md)якщо довжина байтів параметра `nonce` відрізняється від [**`SODIUM_CRYPTO_SECRETBOX_NONCEBYTES`**](sodium.constants.md#constant.sodium-crypto-secretbox-noncebytes) (24 байти).
--   Викидається [SodiumException](class.sodiumexception.md)якщо довжина байтів параметра `key` відрізняється від [**`SODIUM_CRYPTO_SECRETBOX_KEYBYTES`**](sodium.constants.md#constant.sodium-crypto-secretbox-keybytes) (32 байти).
+-   Викидається [SodiumException](class.sodiumexception.md)якщо довжина байтів параметра`nonce` відрізняється від [**`SODIUM_CRYPTO_SECRETBOX_NONCEBYTES`**](sodium.constants.md#constant.sodium-crypto-secretbox-noncebytes)(24 байти).
+-   Викидається [SodiumException](class.sodiumexception.md)якщо довжина байтів параметра`key` відрізняється від [**`SODIUM_CRYPTO_SECRETBOX_KEYBYTES`**](sodium.constants.md#constant.sodium-crypto-secretbox-keybytes)(32 байти).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptosecretboxopen()****
+**Пример #1 Пример использования**sodium\_crypto\_secretbox\_open()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ if ($plaintext !== false) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 message to be encrypted
@@ -71,6 +72,6 @@ message to be encrypted
 
 ### Дивіться також
 
--   [sodiumcryptosecretbox()](function.sodium-crypto-secretbox.md) - Шифрування із загальним ключем з автентифікацією
--   [sodiumcryptosecretboxkeygen()](function.sodium-crypto-secretbox-keygen.md) - Створює випадковий ключ для sodiumcryptosecretbox
--   [randombytes()](function.random-bytes.md) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [sodium\_crypto\_secretbox()](function.sodium-crypto-secretbox.md) \- Шифрування із загальним ключем з автентифікацією
+-   [sodium\_crypto\_secretbox\_keygen()](function.sodium-crypto-secretbox-keygen.md) \- Створює випадковий ключ для sodium\_crypto\_secretbox
+-   [random\_bytes()](function.random-bytes.md) \- Отримує криптографічно безпечні випадкові байти

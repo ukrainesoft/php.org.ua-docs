@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.win32-create-service.md: « win32createservice
-  - function.win32-get-last-control-message.md: win32getlastcontrolmessage »
+  - function.win32-create-service.md: « win32\_create\_service
+  - function.win32-get-last-control-message.md: win32\_get\_last\_control\_message »
   - index.md: PHP Manual
   - ref.win32service.md: win32service
-title: win32deleteservice
+title: win32\_delete\_service
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# win32deleteservice
+# win32\_delete\_service
 
 (PECL win32service >=0.1.0)
 
-win32deleteservice — Видалення запису служби з бази даних SCM
+win32\_delete\_service — Видалення запису служби з бази даних SCM
 
 ### Опис
 
@@ -36,25 +37,25 @@ win32_delete_service(string $servicename, string $machine = ?): void
 
 Функція не повертає значення після виконання.
 
-До версії 1.0.0, Повертає **`WIN32_NO_ERROR`** у разі успішного завершення **`false`** якщо була виявлена ​​проблема з параметрами або [код ошибки Win32](win32service.constants.errors.md) при невдалому завершенні роботи.
+До версії 1.0.0, Повертає **`WIN32_NO_ERROR`** у разі успішного завершення **`false`** якщо була виявлена ​​проблема з параметрами або [код помилки Win32](win32service.constants.errors.md) при невдалому завершенні роботи.
 
 ### Помилки
 
-Викидає [ValueError](class.valueerror.md), якщо значення `servicename` не вказано.
+Викидає [ValueError](class.valueerror.md), если значение`servicename` не вказано.
 
-Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки.
+Викидає [Win32ServiceException](class.win32serviceexception.md)в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`** |
-| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
+| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md) |
 | PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **win32deleteservice()****
+**Пример #1 Пример использования**win32\_delete\_service()\*\*\*\*
 
 Видаляє службу dummyphp.
 
@@ -66,5 +67,5 @@ win32_delete_service('dummyphp');
 
 ### Дивіться також
 
--   [win32createservice()](function.win32-create-service.md) - Створює новий запис служби у базі даних SCM
+-   [win32\_create\_service()](function.win32-create-service.md) \- Створює новий запис служби у базі даних SCM
 -   [Коди помилок Win32](win32service.constants.errors.md)

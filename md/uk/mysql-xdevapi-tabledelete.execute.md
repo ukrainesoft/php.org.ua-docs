@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-tabledelete.construct.md: '« TableDelete::construct'
+  - mysql-xdevapi-tabledelete.construct.md: '« TableDelete::\_\_construct'
   - mysql-xdevapi-tabledelete.limit.md: 'TableDelete::limit »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete
+  - class.mysql-xdevapi-tabledelete.md: mysql\_xdevapi\\TableDelete
 title: 'TableDelete::execute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableDelete::execute
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\TableDelete::execute(): mysql_xdevapi\Result
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableDelete::execute()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableDelete::execute()\*\*\*\*
 
 ```php
 <?php

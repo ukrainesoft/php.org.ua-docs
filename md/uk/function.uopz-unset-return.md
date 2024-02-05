@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-unset-mock.md: « uopzunsetmock
+  - function.uopz-unset-mock.md: « uopz\_unset\_mock
   - book.wincache.md: WinCache »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzunsetreturn
+title: uopz\_unset\_return
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzunsetreturn
+# uopz\_unset\_return
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzunsetreturn — Скасує раніше встановлене значення, що повертається для функції
+uopz\_unset\_return — Скасує раніше встановлене значення для функції
 
 ### Опис
 
@@ -22,7 +23,7 @@ uopz_unset_return(string $function): bool
 uopz_unset_return(string $class, string $function): bool
 ```
 
-Скасує значення, що повертається `function`, раніше задане функцією [uopzsetreturn()](function.uopz-set-return.md)
+Отменяет возвращаемое значение`function`, ранее заданное функцией[uopz\_set\_return()](function.uopz-set-return.md)
 
 ### Список параметрів
 
@@ -40,7 +41,7 @@ True у разі успішного виконання
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzunsetreturn()****
+**Пример #1 Пример использования**uopz\_unset\_return()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ echo $len + strlen("Banana");
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 48

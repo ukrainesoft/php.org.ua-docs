@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rparser.dump.md: '« ParleRParser::dump'
-  - parle-rparser.left.md: 'ParleRParser::left »'
+  - parle-rparser.dump.md: '« Parle\\RParser::dump'
+  - parle-rparser.left.md: 'Parle\\RParser::left »'
   - index.md: PHP Manual
-  - class.parle-rparser.md: ParleRParser
-title: 'ParleRParser::errorInfo'
+  - class.parle-rparser.md: Parle\\RParser
+title: 'Parle\\RParser::errorInfo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRParser::errorInfo
+# Parle\\RParser::errorInfo
 
 (PECL parle >= 0.7.0)
 
-ParleRParser::errorInfo — Отримує інформацію про помилку
+Parle\\RParser::errorInfo — Отримує інформацію про помилку
 
 ### Опис
 
@@ -18,7 +19,7 @@ ParleRParser::errorInfo — Отримує інформацію про поми�
 public Parle\RParser::errorInfo(): Parle\ErrorInfo
 ```
 
-Отримує інформацію про помилку у разі, якщо **ParleRParser::action()** повернув дію у разі виникнення помилки.
+Отримує інформацію про помилку у разі, якщо **Parle\\RParser::action()** повернув дію у разі виникнення помилки.
 
 ### Список параметрів
 
@@ -26,4 +27,4 @@ public Parle\RParser::errorInfo(): Parle\ErrorInfo
 
 ### Значення, що повертаються
 
-Повертає екземпляр [ParleErrorInfo](class.parle-errorinfo.md)
+Повертає екземпляр [Parle\\ErrorInfo](class.parle-errorinfo.md)

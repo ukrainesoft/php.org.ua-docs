@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.phardata.md: PharData
 title: 'PharData::setDefaultStub'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharData::setDefaultStub
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-PharData::setDefaultStub — Функція заглушка (Phar::setDefaultStub не можна використовувати для PharData)
+PharData::setDefaultStub — Функція заглушку (Phar::setDefaultStub не можна використовувати для PharData)
 
 ### Опис
 
@@ -32,7 +33,7 @@ tar/zip-архіви, що не запускаються, не можуть ма
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -40,10 +41,10 @@ tar/zip-архіви, що не запускаються, не можуть ма
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `webIndex` тепер допускає значення null. |
+| 8.0.0 | `webIndex` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [Phar::setDefaultStub()](phar.setdefaultstub.md) - Встановити завантажувач PHP або початкову заглушку Phar-архіву в завантажувач за замовчуванням
+-   [Phar::setDefaultStub()](phar.setdefaultstub.md) \- Встановити завантажувач PHP або початкову заглушку Phar-архіву в завантажувач за замовчуванням

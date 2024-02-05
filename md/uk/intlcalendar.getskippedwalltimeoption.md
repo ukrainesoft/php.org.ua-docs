@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getSkippedWallTimeOption'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getSkippedWallTimeOption
 
@@ -40,11 +41,11 @@ intlcal_get_skipped_wall_time_option(IntlCalendar $calendar): int
 
 ### Значення, що повертаються
 
-Одна з констант: **`IntlCalendar::WALLTIME_FIRST`** **`IntlCalendar::WALLTIME_LAST`** або **`IntlCalendar::WALLTIME_NEXT_VALID`**
+Одна из констант:**`IntlCalendar::WALLTIME_FIRST`** **`IntlCalendar::WALLTIME_LAST`**или**`IntlCalendar::WALLTIME_NEXT_VALID`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::getSkippedWallTimeOption()****
+**Пример #1 Пример использования**IntlCalendar::getSkippedWallTimeOption()\*\*\*\*
 
 ```php
 <?php
@@ -81,7 +82,7 @@ $cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);
 var_dump($formatter->format($cal->getTime() / 1000));
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -95,6 +96,6 @@ string(40) "Sunday, March 31, 2013 at 1:00:00 AM GMT"
 
 ### Дивіться також
 
--   [IntlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.md) - Отримує поведінку для обробки повторюваного часу процесора
--   [IntlCalendar::setSkippedWallTimeOption()](intlcalendar.setskippedwalltimeoption.md) - Встановлює поведінку для обробки пропущеного часу процесора при позитивних переходах усунення часового поясу
--   [IntlCalendar::setRepeatedWallTimeOption()](intlcalendar.setrepeatedwalltimeoption.md) - Встановлює поведінку для обробки часу процесора, що повторюється, при негативних переходах зміщення часового поясу
+-   [IntlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.md) \- Отримує поведінку для обробки повторюваного часу процесора
+-   [IntlCalendar::setSkippedWallTimeOption()](intlcalendar.setskippedwalltimeoption.md) \- Встановлює поведінку для обробки пропущеного часу процесора при позитивних переходах усунення часового поясу
+-   [IntlCalendar::setRepeatedWallTimeOption()](intlcalendar.setrepeatedwalltimeoption.md) \- Встановлює поведінку для обробки часу процесора, що повторюється, при негативних переходах зміщення часового поясу

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.radius-add-server.md: « radiusaddserver
-  - function.radius-close.md: radiusclose »
+  - function.radius-add-server.md: « radius\_add\_server
+  - function.radius-close.md: radius\_close »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiusauthopen
+  - ref.radius.md: Функції Radius
+title: radius\_auth\_open
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiusauthopen
+# radius\_auth\_open
 
 (PECL radius >= 1.1.0)
 
-radiusauthopen — Створює дескриптор Radius для автентифікації
+radius\_auth\_open — Створює дескриптор Radius для автентифікації
 
 ### Опис
 
@@ -28,7 +29,7 @@ radius_auth_open(): resource
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radiusauthopen()****
+**Пример #1 Пример использования**radius\_auth\_open()\*\*\*\*
 
 ```php
 <?php

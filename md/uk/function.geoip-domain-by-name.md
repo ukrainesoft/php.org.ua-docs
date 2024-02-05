@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.geoip-db-get-all-info.md: « geoipдбgetallinfo
-  - function.geoip-id-by-name.md: geoipідбname »
+  - function.geoip-db-get-all-info.md: « geoip\_db\_get\_all\_info
+  - function.geoip-id-by-name.md: geoip\_id\_by\_name »
   - index.md: PHP Manual
-  - ref.geoip.md: Функции GeoIP
-title: geoipdomainбname
+  - ref.geoip.md: Функції GeoIP
+title: geoip\_domain\_by\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# geoipdomainбname
+# geoip\_domain\_by\_name
 
 (PECL geoip >= 1.1.0)
 
-geoipdomainбname — Отримати назву домену другого рівня
+geoip\_domain\_by\_name — Отримати назву домену другого рівня
 
 ### Опис
 
@@ -18,7 +19,7 @@ geoipdomainбname — Отримати назву домену другого р
 geoip_domain_by_name(string $hostname): string
 ```
 
-Функція **geoipdomainбname()** повертає домени другого рівня, пов'язані з ім'ям хоста або IP-адресою.
+Функция**geoip\_domain\_by\_name()** повертає домени другого рівня, пов'язані з ім'ям хоста або IP-адресою.
 
 Зараз ця функція доступна лише користувачам, які купили комерційну версію GeoIP Domain Edition. Якщо коректна база даних не буде знайдена, буде виведено попередження.
 
@@ -34,7 +35,7 @@ geoip_domain_by_name(string $hostname): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoipdomainбname()****
+**Пример #1 Пример использования**geoip\_domain\_by\_name()\*\*\*\*
 
 Знайдемо домен, пов'язаний із IP 61.106.139.1.
 
@@ -49,7 +50,7 @@ if ($domain) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Домен: von.co.kr

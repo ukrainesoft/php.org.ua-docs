@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.commonmark-node-custominline.md: « CommonMarkNodeCustomInline
-  - commonmark-node.appendchild.md: 'CommonMarkNode::appendChild »'
+  - class.commonmark-node-custominline.md: « CommonMark\\Node\\CustomInline
+  - commonmark-node.appendchild.md: 'CommonMark\\Node::appendChild »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: Анотація класу CommonMarkNode
+title: Анотація класу CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Анотація класу CommonMarkNode
+# Анотація класу CommonMark\\Node
 
 (cmark >= 1.0.0)
 
@@ -93,10 +94,10 @@ public accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNode::appendChild](commonmark-node.appendchild.md) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMarkNode::prependChild](commonmark-node.prependchild.md) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMarkNode::insertAfter](commonmark-node.insertafter.md) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMarkNode::insertBefore](commonmark-node.insertbefore.md) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMarkNode::replace](commonmark-node.replace.md) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMarkNode::unlink](commonmark-node.unlink.md) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMarkNode::accept](commonmark-node.accept.md) - Visitation
+-   [CommonMark\\Node::appendChild](commonmark-node.appendchild.md) \- Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMark\\Node::prependChild](commonmark-node.prependchild.md) \- Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMark\\Node::insertAfter](commonmark-node.insertafter.md) \- Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMark\\Node::insertBefore](commonmark-node.insertbefore.md) \- Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMark\\Node::replace](commonmark-node.replace.md) \- Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMark\\Node::unlink](commonmark-node.unlink.md) \- Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMark\\Node::accept](commonmark-node.accept.md)— Visitation

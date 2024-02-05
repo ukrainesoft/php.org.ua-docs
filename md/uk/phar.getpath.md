@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::getPath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::getPath
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 Phar::getPath — Отримати реальний шлях до Phar-архіву на диску
 
@@ -20,7 +21,7 @@ public Phar::getPath(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

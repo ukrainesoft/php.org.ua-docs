@@ -1,10 +1,11 @@
 ---
 navigation:
   - eventlistener.seterrorcallback.md: '« EventListener::setErrorCallback'
-  - eventsslcontext.construct.md: 'EventSslContext::construct »'
+  - eventsslcontext.construct.md: 'EventSslContext::\_\_construct »'
   - index.md: PHP Manual
   - book.event.md: Event
 title: Клас EventSslContext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EventSslContext
 
@@ -12,7 +13,7 @@ title: Клас EventSslContext
 
 ## Вступ
 
-Представляє структуру `SSL_CTX`. Надає методи та властивості для налаштування контексту SSL.
+Представляет структуру`SSL_CTX`. Надає методи та властивості для налаштування контексту SSL.
 
 ## Огляд класів
 
@@ -123,11 +124,11 @@ title: Клас EventSslContext
 
 ## Властивості
 
-localcert
+local\_cert
 
 Шлях до локального файлу сертифіката. Це має бути файл у форматі PEM, який містить сертифікат. Опціонально може містити ланцюжок сертифікатів емітентів.
 
-localпк
+local\_pk
 
 Шлях до локального файлу з приватним ключем
 
@@ -135,72 +136,72 @@ localпк
 
 **`EventSslContext::SSLv2_CLIENT_METHOD`**
 
-Метод клієнта SSLv2. Дивіться посібник з `SSL_CTX_new(3)`
+Метод клиента SSLv2. Смотрите руководство по`SSL_CTX_new(3)`
 
 **`EventSslContext::SSLv3_CLIENT_METHOD`**
 
-Метод клієнта SSLv3. Дивіться посібник з `SSL_CTX_new(3)`
+Метод клиента SSLv3. Смотрите руководство по`SSL_CTX_new(3)`
 
 **`EventSslContext::SSLv23_CLIENT_METHOD`**
 
-Метод клієнта SSLv23. Дивіться посібник з `SSL_CTX_new(3)`
+Метод клиента SSLv23. Смотрите руководство по`SSL_CTX_new(3)`
 
 **`EventSslContext::TLS_CLIENT_METHOD`**
 
-Спосіб клієнта TLS. Дивіться посібник з `SSL_CTX_new(3)`
+Метод клиента TLS. Смотрите руководство по`SSL_CTX_new(3)`
 
 **`EventSslContext::SSLv2_SERVER_METHOD`**
 
-Метод сервера SSLv2. Дивіться посібник з `SSL_CTX_new(3)`
+Метод сервера SSLv2. Смотрите руководство по`SSL_CTX_new(3)`
 
 **`EventSslContext::SSLv3_SERVER_METHOD`**
 
-Метод сервера SSLv3. Дивіться посібник з `SSL_CTX_new(3)`
+Метод сервера SSLv3. Смотрите руководство по`SSL_CTX_new(3)`
 
 **`EventSslContext::SSLv23_SERVER_METHOD`**
 
-Метод сервера SSLv23. Дивіться посібник з `SSL_CTX_new(3)`
+Метод сервера SSLv23. Смотрите руководство по`SSL_CTX_new(3)`
 
 **`EventSslContext::TLS_SERVER_METHOD`**
 
-Метод сервера TLS. Дивіться посібник з `SSL_CTX_new(3)`
+Метод сервера TLS. Смотрите руководство по`SSL_CTX_new(3)`
 
 **`EventSslContext::OPT_LOCAL_CERT`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Опція вказує шлях локального сертифіката.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::\_\_construct()](eventsslcontext.construct.md) . Опція вказує шлях локального сертифіката.
 
 **`EventSslContext::OPT_LOCAL_PK`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Опція вказує на шлях локального приватного ключа.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::\_\_construct()](eventsslcontext.construct.md) . Опція вказує на шлях локального приватного ключа.
 
 **`EventSslContext::OPT_PASSPHRASE`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Надає пароль сертифіката.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::\_\_construct()](eventsslcontext.construct.md). Представляет пароль сертификата.
 
 **`EventSslContext::OPT_CA_FILE`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Це шлях до файлу центру сертифікації.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::\_\_construct()](eventsslcontext.construct.md). Представляет путь к файлу центра сертификации.
 
 **`EventSslContext::OPT_CA_PATH`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Представляє шлях, яким потрібно шукати файл центру сертифікації.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::\_\_construct()](eventsslcontext.construct.md) . Представляє шлях, яким потрібно шукати файл центру сертифікації.
 
 **`EventSslContext::OPT_ALLOW_SELF_SIGNED`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Надає опцію, що дозволяє використовувати самопідписані сертифікати.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::\_\_construct()](eventsslcontext.construct.md) . Надає опцію, що дозволяє використовувати самопідписані сертифікати.
 
 **`EventSslContext::OPT_VERIFY_PEER`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Надає опцію, що вказує модулю Event перевіряти вузли.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::\_\_construct()](eventsslcontext.construct.md) . Надає опцію, що вказує модулю Event перевіряти вузли.
 
 **`EventSslContext::OPT_VERIFY_DEPTH`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Представляє максимальну глибину перевірки ланцюжка сертифікатів, допустиму для контексту SSL.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::\_\_construct()](eventsslcontext.construct.md). Представляет максимальную глубину проверки цепочки сертификатов, допустимую для контекста SSL.
 
 **`EventSslContext::OPT_CIPHERS`**
 
-Ключ елемента в масиві опцій, переданому в [EventSslContext::construct()](eventsslcontext.construct.md) . Надає список шифрів для контексту SSL.
+Ключ елемента в масиві опцій, переданому в [EventSslContext::\_\_construct()](eventsslcontext.construct.md). Представляет список шифров для контекста SSL.
 
 ## Зміст
 
--   [EventSslContext::construct](eventsslcontext.construct.md) — Конструктор контексту OpenSSL для використання у класах Event
+-   [EventSslContext::\_\_construct](eventsslcontext.construct.md)— Створює контекст OpenSSL для класів модуля Event

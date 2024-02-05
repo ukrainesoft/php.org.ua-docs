@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.snmp3-get.md: « snmpv3get
-  - function.snmp3-real-walk.md: snmpv3realwalk »
+  - function.snmp3-get.md: « snmp3\_get
+  - function.snmp3-real-walk.md: snmp3\_real\_walk »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
-title: snmpv3getnext
+title: snmp3\_getnext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# snmpv3getnext
+# snmp3\_getnext
 
 (PHP 5, PHP 7, PHP 8)
 
-snmpv3getnext — Отримує об'єкт SNMP, який слідує за вказаним ідентифікатором об'єкта
+snmp3\_getnext — Отримує об'єкт SNMP, який слідує за вказаним ідентифікатором об'єкта
 
 ### Опис
 
 ```methodsynopsis
-snmp3_getnext(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
+snmp3_getnext(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
 ```
 
-Функція **snmpv3getnext()** використовується для читання значення об'єкта SNMP, який слідує за вказаним `object_id`
+Функция**snmp3\_getnext()** використовується для читання значення об'єкта SNMP, який слідує за вказаним `object_id`
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ snmp3_getnext(    string $hostname,    string $security_name,    string $securit
 
 `auth_protocol`
 
-Протокол аутентифікації (`"MD5"` `"SHA"` `"SHA256"` або `"SHA512"`
+Протокол аутентифікації (`"MD5"` `"SHA"` `"SHA256"`или`"SHA512"`
 
 `auth_passphrase`
 
@@ -64,17 +65,17 @@ snmp3_getnext(    string $hostname,    string $security_name,    string $securit
 
 ### Значення, що повертаються
 
-Повертає значення об'єкта SNMP у разі успішного виконання або **`false`** у разі виникнення помилки. У разі помилки виводить помилку рівня EWARNING.
+Повертає значення об'єкта SNMP у разі успішного виконання або **`false`** у разі виникнення помилки. У разі помилки виводить помилку рівня E\_WARNING.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
+| 8.1.0 | Параметр`auth_protocol`тепер приймає`"SHA256"`и`"SHA512"`якщо підтримується libnetsnmp. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmpv3getnext()****
+**Пример #1 Пример использования**snmp3\_getnext()\*\*\*\*
 
 ```php
 <?php
@@ -84,5 +85,5 @@ $nameOfSecondInterface = snmp3_getnext('localhost', 'james', 'authPriv', 'SHA', 
 
 ### Дивіться також
 
--   [snmpv3get()](function.snmp3-get.md) - Отримує об'єкт SNMP
--   [snmpv3walk()](function.snmp3-walk.md) - Отримує всі об'єкти SNMP з агента
+-   [snmp3\_get()](function.snmp3-get.md) \- Отримує об'єкт SNMP
+-   [snmp3\_walk()](function.snmp3-walk.md) \- Отримує всі об'єкти SNMP із агента

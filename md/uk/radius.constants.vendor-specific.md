@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - radius.constants.md: Обумовлені константи
 title: Атрибути RADIUS специфічні для різних виробників
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Атрибути RADIUS специфічні для різних виробників
 
-**`RADIUS_VENDOR_MICROSOFT`** (int)
+**`RADIUS_VENDOR_MICROSOFT`**(int)
 
-Атрибути Microsoft ([» RFC 2548](http://www.faqs.org/rfcs/rfc2548)
+Атрибути Microsoft ([» RFC 2548](http://www.faqs.org/rfcs/rfc2548)):
 
 -   **`RADIUS_MICROSOFT_MS_CHAP_RESPONSE`**
 -   **`RADIUS_MICROSOFT_MS_CHAP_ERROR`**

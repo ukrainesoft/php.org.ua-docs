@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xhprof-disable.md: « xhprofdisable
-  - function.xhprof-sample-disable.md: xhprofsampledisable »
+  - function.xhprof-disable.md: « xhprof\_disable
+  - function.xhprof-sample-disable.md: xhprof\_sample\_disable »
   - index.md: PHP Manual
-  - ref.xhprof.md: Функции Xhprof
-title: xhprofenable
+  - ref.xhprof.md: Функції Xhprof
+title: xhprof\_enable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xhprofenable
+# xhprof\_enable
 
 (PECL xhprof >= 0.9.0)
 
-xhprofenable — Запуск профілювання xhprof
+xhprof\_enable — Запуск профілювання xhprof
 
 ### Опис
 
@@ -24,11 +25,11 @@ xhprof_enable(int $flags = 0, array $options = ?): void
 
 `flags`
 
-Необов'язкові прапори для отримання додаткової інформації для профілювання. Подробиці можна знайти у розділі [Константи XHprof](xhprof.constants.md). Наприклад, **`XHPROF_FLAGS_MEMORY`** включає профіль пам'яті.
+Необов'язкові прапори для отримання додаткової інформації для профілювання. Подробиці можна знайти у розділі [Константи XHprof](xhprof.constants.md)Например,\*\*`XHPROF_FLAGS_MEMORY`\*\*включает профилирование памяти.
 
 `options`
 
-Масив (array) необов'язкових опцій, саме опція 'ignoredfunctions' зі списком функцій, які не потрібно профілювати.
+Масив (array) необов'язкових опцій, саме опція 'ignored\_functions' зі списком функцій, які не потрібно профілювати.
 
 ### Значення, що повертаються
 
@@ -36,13 +37,13 @@ xhprof_enable(int $flags = 0, array $options = ?): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL xhprof 0.9.2 | Додано необов'язковий параметр `options` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xhprofenable()****
+**Пример #1 Пример использования**xhprof\_enable()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ xhprof_enable(
 
 ### Дивіться також
 
--   [xhprofdisable()](function.xhprof-disable.md) - Зупиняє профіль xhprof
--   [xhprofsampleenable()](function.xhprof-sample-enable.md) - Запуск семплюючого режиму профілювання XHProf
--   [memorygetusage()](function.memory-get-usage.md) - Повертає кількість пам'яті, виділену для PHP
--   [getrusage()](function.getrusage.md) - Отримує інформацію про використання поточного ресурсу
+-   [xhprof\_disable()](function.xhprof-disable.md) \- Зупиняє профіль xhprof
+-   [xhprof\_sample\_enable()](function.xhprof-sample-enable.md) \- Запуск семплюючого режиму профілювання XHProf
+-   [memory\_get\_usage()](function.memory-get-usage.md) \- Повертає кількість пам'яті, виділеної для PHP
+-   [getrusage()](function.getrusage.md) \- Отримує інформацію про використання поточного ресурсу

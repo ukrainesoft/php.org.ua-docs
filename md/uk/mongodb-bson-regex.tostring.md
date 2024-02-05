@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-regex.serialize.md: '« MongoDBBSONRegex::serialize'
-  - mongodb-bson-regex.unserialize.md: 'MongoDBBSONRegex::unserialize »'
+  - mongodb-bson-regex.serialize.md: '« MongoDB\\BSON\\Regex::serialize'
+  - mongodb-bson-regex.unserialize.md: 'MongoDB\\BSON\\Regex::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-regex.md: MongoDBBSONRegex
-title: 'MongoDBBSONRegex::toString'
+  - class.mongodb-bson-regex.md: MongoDB\\BSON\\Regex
+title: 'MongoDB\\BSON\\Regex::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONRegex::toString
+# MongoDB\\BSON\\Regex::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.0.0)
 
-MongoDBBSONRegex::toString — Повертає рядкову виставу Regex
+MongoDB\\BSON\\Regex::\_\_toString — Повертає рядкову виставу Regex
 
 ### Опис
 
@@ -28,7 +29,7 @@ final public MongoDB\BSON\Regex::__toString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONRegex::toString()****
+**Пример #1 Пример использования**MongoDB\\BSON\\Regex::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump((string) $regex);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(8) "/regex/i"
@@ -47,4 +48,4 @@ string(8) "/regex/i"
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

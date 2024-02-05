@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-field-table.md: « cubridfieldtable
-  - function.cubrid-list-dbs.md: cubridlistdbs »
+  - function.cubrid-field-table.md: « cubrid\_field\_table
+  - function.cubrid-list-dbs.md: cubrid\_list\_dbs »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridfieldtype
+title: cubrid\_field\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridfieldtype
+# cubrid\_field\_type
 
 (PECL CUBRID >= 8.3.0)
 
-cubridfieldtype — Отримати тип зазначеного стовпця
+cubrid\_field\_type — Отримати тип зазначеного стовпця
 
 ### Опис
 
@@ -24,23 +25,23 @@ cubrid_field_type(resource $result, int $field_offset): string
 
 `result`
 
-`Result`, отриманий з [cubridexecute()](function.cubrid-execute.md)
+`Result`, отриманий з [cubrid\_execute()](function.cubrid-execute.md)
 
 `field_offset`
 
-Індекс поля у рядку результуючого набору . `field_offset` починається з 0. Якщо `field_offset` не заданий, то буде викликана помилка рівня **`E_WARNING`**
+Индекс поля в строке результирующего набора`field_offset` починається з 0. Якщо `field_offset` не заданий, то буде викликана помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
 Тип стовпця у разі успішного виконання.
 
-\*\*`false`\*\*якщо заданий некоректний fieldoffset.
+\*\*`false`\*\*якщо заданий некоректний field\_offset.
 
-1, якщо SQL-запит був відмінним від SELECT типу.
+\-1, якщо SQL-запит був відмінним від SELECT типу.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridfieldtype()****
+**Пример #1 Пример использования**cubrid\_field\_type()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Таблица поля      Наименование поля  Тип поля

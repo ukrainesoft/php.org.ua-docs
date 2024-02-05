@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-execute.md: « pgexecute
-  - function.pg-fetch-all.md: пгfetchall »
+  - function.pg-execute.md: « pg\_execute
+  - function.pg-fetch-all.md: pg\_fetch\_all »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгfetchallcolumns
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_fetch\_all\_columns
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгfetchallcolumns
+# pg\_fetch\_all\_columns
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-пгfetchallcolumns — Вибирає всі записи з однієї колонки результату запиту та поміщає їх у масив
+pg\_fetch\_all\_columns — Вибирає всі записи з однієї колонки результату запиту та поміщає їх у масив
 
 ### Опис
 
@@ -18,15 +19,15 @@ title: пгfetchallcolumns
 pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 ```
 
-**пгfetchallcolumns()** повертає масив, що містить усі записи однієї колонки екземпляра [PgSqlResult](class.pgsql-result.md)
+**pg\_fetch\_all\_columns()** повертає масив, що містить усі записи однієї колонки екземпляра [PgSql\\Result](class.pgsql-result.md)
 
-> **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
+> **Зауваження**: Ця функція встановлює NULL-поля значення \*\*`null`\*\*PHP.
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSql\\Result](class.pgsql-result.md), що повертається функціями [pg\_query()](function.pg-query.md) [pg\_query\_params()](function.pg-query-params.md) або [pg\_execute()](function.pg-execute.md)(среди прочего).
 
 `field`
 
@@ -38,13 +39,13 @@ pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгfetchallcolumns()****
+**Пример #1 Пример использования**pg\_fetch\_all\_columns()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ if (!$result) {
   exit;
 }
 
-// Получить Масив имён всех авторов
+// Получить массив имён всех авторов
 $arr = pg_fetch_all_columns($result, 1);
 
 var_dump($arr);
@@ -70,4 +71,4 @@ var_dump($arr);
 
 ### Дивіться також
 
--   [пгfetchall()](function.pg-fetch-all.md) - Вибирає всі дані з результату запиту та поміщає їх у масив
+-   [pg\_fetch\_all()](function.pg-fetch-all.md) \- Вибирає всі дані з результату запиту та поміщає їх у масив

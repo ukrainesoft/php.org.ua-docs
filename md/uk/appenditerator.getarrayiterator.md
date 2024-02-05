@@ -1,14 +1,15 @@
 ---
 navigation:
   - appenditerator.current.md: '« AppendIterator::current'
-  - appenditerator.getinneriterator.md: 'AppendIterator::getInnerIterator »'
+  - appenditerator.getiteratorindex.md: 'AppendIterator::getIteratorIndex »'
   - index.md: PHP Manual
   - class.appenditerator.md: AppendIterator
 title: 'AppendIterator::getArrayIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # AppendIterator::getArrayIterator
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 AppendIterator::getArrayIterator — Повертає клас ітератора масиву ArrayIterator
 
@@ -30,4 +31,4 @@ public AppendIterator::getArrayIterator(): ArrayIterator
 
 ### Дивіться також
 
--   [AppendIterator::getInnerIterator()](appenditerator.getinneriterator.md) - Повертає внутрішній ітератор
+-   **AppendIterator::getInnerIterator()**

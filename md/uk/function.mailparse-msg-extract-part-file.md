@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mailparse-msg-create.md: « mailparsemsgcreate
-  - function.mailparse-msg-extract-part.md: mailparsemsgextractpart »
+  - function.mailparse-msg-create.md: « mailparse\_msg\_create
+  - function.mailparse-msg-extract-part.md: mailparse\_msg\_extract\_part »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
-title: mailparsemsgextractpartfile
+title: mailparse\_msg\_extract\_part\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mailparsemsgextractpartfile
+# mailparse\_msg\_extract\_part\_file
 
 (PECL mailparse >= 0.9.0)
 
-mailparsemsgextractpartfile — Вийняти/декодувати розділ із повідомленням з файлу
+mailparse\_msg\_extract\_part\_file — Вийняти/декодувати розділ із повідомленням з файлу
 
 ### Опис
 
@@ -26,7 +27,7 @@ mailparse_msg_extract_part_file(resource $mimemail, mixed $filename, callable $c
 
 `mimemail`
 
-Коректний `MIME`ресурс, створений [mailparsemsgcreate()](function.mailparse-msg-create.md)
+Коректний `MIME`\-ресурс, створений [mailparse\_msg\_create()](function.mailparse-msg-create.md)
 
 `filename`
 
@@ -40,13 +41,13 @@ mailparse_msg_extract_part_file(resource $mimemail, mixed $filename, callable $c
 
 ### Значення, що повертаються
 
-Якщо `callbackfunc` не **`null`**, то поверне **`true`** у разі успішного виконання.
+Якщо `callbackfunc`не\*\*`null`\*\*, то поверне **`true`** у разі успішного виконання.
 
-Якщо `callbackfunc` задана як **`null`**, поверне вилучену секцію повідомлення у вигляді рядка.
+Якщо `callbackfunc`задана как\*\*`null`\*\*, поверне вилучену секцію повідомлення у вигляді рядка.
 
-Поверне **`false`** у разі виникнення помилки.
+Поверне \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [mailparsemsgextractpart()](function.mailparse-msg-extract-part.md) - Вийняти/декодувати секцію із повідомленням
--   [mailparsemsgextractwholepartfile()](function.mailparse-msg-extract-whole-part-file.md) - Витягти секцію повідомлення разом із заголовками без декодування
+-   [mailparse\_msg\_extract\_part()](function.mailparse-msg-extract-part.md) \- Витягти/декодувати секцію з повідомленням
+-   [mailparse\_msg\_extract\_whole\_part\_file()](function.mailparse-msg-extract-whole-part-file.md) \- Витягти секцію повідомлення разом із заголовками без декодування

@@ -1,25 +1,26 @@
 ---
 navigation:
-  - install.pecl.intro.md: « Введение в установку PECL
-  - install.pecl.windows.md: Установка PHP-модуля в Windows »
+  - install.pecl.intro.md: « Введення в установку PECL
+  - install.pecl.windows.md: Встановлення PHP-модуля у Windows »
   - index.md: PHP Manual
-  - install.pecl.md: Установка модулей PECL
+  - install.pecl.md: Встановлення модулів PECL
 title: Завантаження модулів PECL
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Завантаження модулів PECL
 
 Є кілька варіантів для завантаження модулів PECL, зокрема:
 
--   Команда `pecl install extname` автоматично завантажує код модуля, тому в цьому випадку немає потреби в окремому стрибку цих файлів.
+-   Команда**pecl install extname**автоматично завантажує код модуля, тому в цьому випадку немає потреби окремого завантаження цих файлів.
     
--   [» https://pecl.php.net/](https://pecl.php.net/) Веб-сайт PECL містить інформацію про різні модулі, що надаються командою розробників PHP. Інформація, доступна на цьому веб-сайті, включає: лог змін, новини релізів, вимоги та інші подібні деталі.
+-   [» https://pecl.php.net/](https://pecl.php.net/)Веб-сайт PECL містить інформацію про різні модулі, що надаються командою розробників PHP. Доступна на цьому веб-сайті інформація включає лог змін, новини релізів, вимоги та інші подібні деталі.
     
--   `pecl download extname` Модулі PECL, що мають опубліковані релізи на сайті PECL, доступні для скачування та встановлення за допомогою [» команди pecl](https://pear.php.net/manual/en/guide.users.commandline.cli.php). Також можна вказати окремі ревізії для встановлення.
+-   **pecl download extname**Модулі PECL, випуски яких перераховані на сайті PECL, доступні для скачування та встановлення за допомогою[» команди pecl](https://pear.php.net/manual/en/guide.users.commandline.cli.php). Також можна вказати окремі ревізії для встановлення.
     
 -   git Багато модулів PECL знаходяться на GitHub.
     
--   SVN Багато модулів PECL також знаходяться в SVN. Веб-інтерфейс для перегляду доступний за адресою [» https://svn.php.net/pecl/](https://svn.php.net/pecl/). Для завантаження безпосередньо з SVN використовується наступна послідовність команд:
+-   SVN Деякі модулі PECL також знаходяться у SVN. Веб-інтерфейс для перегляду доступний за адресою[» https://svn.php.net/pecl/](https://svn.php.net/pecl/). Для завантаження безпосередньо з SVN можна виконати таку послідовність команд:
     
-    $ svn checkout [http://svn.php.net/repository/pecl/extname/trunk](http://svn.php.net/repository/pecl/extname/trunk) extname
+    $ svn checkout[https://svn.php.net/repository/pecl/extname/trunk](https://svn.php.net/repository/pecl/extname/trunk)extname
     
--   Завантаження для Windows Наразі проект PHP не компілює бінарні файли Windows для модулів PECL.
+-   Завантаження для Windows Проект PHP компілює та пропонує файли DLL для Windows для більшості модулів PECL на сторінці з пакетами.

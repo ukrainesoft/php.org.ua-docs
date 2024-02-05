@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::writeImagesFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::writeImagesFile
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::writeImagesFile — Записує кадри у файловий дескриптор
 
@@ -36,4 +37,4 @@ public Imagick::writeImagesFile(resource $filehandle, string $format = ?): bool
 
 ### Дивіться також
 
--   [Imagick::queryFormats()](imagick.queryformats.md) - Повертає формати, що підтримуються Imagick
+-   [Imagick::queryFormats()](imagick.queryformats.md) \- Повертає формати, що підтримуються Imagick

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gc-disable.md: « gcdisable
-  - function.gc-enabled.md: гкenabled »
+  - function.gc-disable.md: « gc\_disable
+  - function.gc-enabled.md: gc\_enabled »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: гкenable
+title: gc\_enable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# гкenable
+# gc\_enable
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-гкenable — Включає збирач циклічних посилань
+gc\_enable — Включає збирач циклічних посилань
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: гкenable
 gc_enable(): void
 ```
 
-Включає збирач циклічних посилань, встановлюючи [zend.enableгк](info.configuration.md#ini.zend.enable-gc) в `1`
+Включає збирач циклічних посилань, встановлюючи [zend.enable\_gc](info.configuration.md#ini.zend.enable-gc)в
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ gc_enable(): void
 
 ### Дивіться також
 
--   [Сборка мусора](features.gc.md)
+-   [Складання сміття](features.gc.md)

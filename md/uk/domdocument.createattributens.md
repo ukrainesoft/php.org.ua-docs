@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::createAttributeNS'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::createAttributeNS
 
@@ -32,7 +33,7 @@ URI простір імен.
 
 ### Значення, що повертаються
 
-Новий екземпляр класу [DOMAttr](class.domattr.md) або **`false`** у разі помилки.
+Новий екземпляр класу [DOMAttr](class.domattr.md)или\*\*`false`\*\*в случае ошибки.
 
 ### Помилки
 
@@ -42,17 +43,24 @@ URI простір імен.
 
 **`DOM_NAMESPACE_ERR`**
 
-Виникає, якщо `qualifiedName` неправильно сформовано, або якщо `qualifiedName` має префікс, а `namespace` має значення **`null`**
+Виникає, якщо `qualifiedName` неправильно сформовано, або якщо `qualifiedName`имеет префикс, а`namespace`имеет значение\*\*`null`\*\*
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.3.0 | Виклик цього методу без вказівки префікса тепер вибере префікс замість того, щоб використовувати простір імен за замовчуванням. Раніше це створювало атрибут без префікса і неправильно застосовувало простір імен до елемента-власника, оскільки простори стандартних імен не застосовуються до атрибутів. |
+| 8.3.0 | Виклик цього методу з префіксом, який вже був оголошений на елементі-власника з іншим URI простору імен, тепер змінить новий префікс, щоб уникнути створення конфліктів простору імен. Це призводить поведінку у відповідність до специфікації DOM. Previously this threw a [DOMException](class.domexception.md) with code **`DOM_NAMESPACE_ERR`** |
 
 ### Дивіться також
 
--   [DOMNode::appendChild()](domnode.appendchild.md) - Додає новий дочірній вузол до кінця списку нащадків
--   [DOMDocument::createAttribute()](domdocument.createattribute.md) - Створити новий атрибут
--   [DOMDocument::createCDATASection()](domdocument.createcdatasection.md) - Створює новий вузол cdata
--   [DOMDocument::createComment()](domdocument.createcomment.md) - Створити новий вузол коментаря
--   [DOMDocument::createDocumentFragment()](domdocument.createdocumentfragment.md) - створити новий фрагмент документа
--   [DOMDocument::createElement()](domdocument.createelement.md) - Створити новий вузол елемента
--   [DOMDocument::createElementNS()](domdocument.createelementns.md) - Створити новий вузол елемента з відповідним простором імен
--   [DOMDocument::createEntityReference()](domdocument.createentityreference.md) - Створити новий вузол посилання на суть
--   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.md) - Створити новий PI-вузол
--   [DOMDocument::createTextNode()](domdocument.createtextnode.md) - Створити новий текстовий вузол
+-   [DOMNode::appendChild()](domnode.appendchild.md) \- Додає новий дочірній вузол до кінця списку нащадків
+-   [DOMDocument::createAttribute()](domdocument.createattribute.md) \- Створює новий атрибут
+-   [DOMDocument::createCDATASection()](domdocument.createcdatasection.md) \- Створює новий вузол cdata
+-   [DOMDocument::createComment()](domdocument.createcomment.md) \- Створити новий вузол коментаря
+-   [DOMDocument::createDocumentFragment()](domdocument.createdocumentfragment.md) \- Створює новий фрагмент документа
+-   [DOMDocument::createElement()](domdocument.createelement.md) \- Створює новий вузол елемента
+-   [DOMDocument::createElementNS()](domdocument.createelementns.md) \- Створити новий вузол елемента з відповідним простором імен
+-   [DOMDocument::createEntityReference()](domdocument.createentityreference.md) \- Створити новий вузол посилання на суть
+-   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.md) \- Створити новий PI-вузол
+-   [DOMDocument::createTextNode()](domdocument.createtextnode.md) \- Створити новий текстовий вузол

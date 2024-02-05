@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.fann-set-learning-rate.md: « fannsetlearningrate
-  - function.fann-set-quickprop-decay.md: fannsetquickpropdecay »
+  - function.fann-set-learning-rate.md: « fann\_set\_learning\_rate
+  - function.fann-set-quickprop-decay.md: fann\_set\_quickprop\_decay »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetoutputscalingparams
+  - ref.fann.md: Функції Fann
+title: fann\_set\_output\_scaling\_params
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetoutputscalingparams
+# fann\_set\_output\_scaling\_params
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetoutputscalingparams — Розраховує вихідні параметри масштабування для майбутнього використання на основі даних навчання
+fann\_set\_output\_scaling\_params — Розраховує вихідні параметри масштабування для майбутнього використання на основі даних навчання
 
 ### Опис
 
 ```methodsynopsis
-fann_set_output_scaling_params(    resource $ann,    resource $train_data,    float $new_output_min,    float $new_output_max): bool
+fann_set_output_scaling_params(    resource $ann,    resource $train_data,    float $new_output_min,    float $new_output_max): bool
 ```
 
 Розраховує вихідні параметри масштабування майбутнього використання з урахуванням даних навчання.
@@ -44,4 +45,4 @@ fann_set_output_scaling_params(    resource $ann,    resource $train_data,    fl
 
 ### Дивіться також
 
--   [fannsetinputscalingparams()](function.fann-set-input-scaling-params.md) - розраховує вхідні параметри масштабування для майбутнього використання на основі даних навчання
+-   [fann\_set\_input\_scaling\_params()](function.fann-set-input-scaling-params.md) \- розраховує вхідні параметри масштабування для майбутнього використання на основі даних навчання

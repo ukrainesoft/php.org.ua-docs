@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrcollapsefunction.md: SolrCollapseFunction
 title: 'SolrCollapseFunction::getHint'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrCollapseFunction::getHint
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrCollapseFunction::getHint — Повертає підказку згортання
 
@@ -28,4 +29,4 @@ public SolrCollapseFunction::getHint(): string
 
 ### Дивіться також
 
--   [SolrCollapseFunction::setHint()](solrcollapsefunction.sethint.md) - Встановлює підказку згортання
+-   [SolrCollapseFunction::setHint()](solrcollapsefunction.sethint.md) \- Встановлює підказку згортання

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.grapheme-strrpos.md: « graphemestrrpos
-  - function.grapheme-substr.md: graphemesubstr »
+  - function.grapheme-strrpos.md: « grapheme\_strrpos
+  - function.grapheme-substr.md: grapheme\_substr »
   - index.md: PHP Manual
-  - ref.intl.grapheme.md: Функции Grapheme
-title: graphemestrstr
+  - ref.intl.grapheme.md: Функції Grapheme
+title: grapheme\_strstr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# graphemestrstr
+# grapheme\_strstr
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-graphemestrstr - Повертає частину рядка haystack від першої появи needle до кінця haystack
+grapheme\_strstr - Повертає частину рядка haystack від першої появи needle до кінця haystack
 
 ### Опис
 
@@ -34,15 +35,15 @@ grapheme_strstr(string $haystack, string $needle, bool $beforeNeedle = false): s
 
 `beforeNeedle`
 
-Якщо **`true`**, функція **graphemestrstr()** повертає частину `haystack` перед першою появою `needle` (виключаючи `needle`
+Якщо **`true`**, функция**grapheme\_strstr()** повертає частину `haystack` перед першою появою `needle` (виключаючи `needle`
 
 ### Значення, що повертаються
 
-Повертає частину рядка `haystack` або **`false`**, якщо входження `needle` не знайдено.
+Повертає частину рядка `haystack`или\*\*`false`\*\*, якщо входження `needle`не найдено.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **graphemestrstr()****
+**Пример #1 Пример использования**grapheme\_strstr()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ print urlencode(grapheme_stristr( $char_a_ring_nfd . $char_o_diaeresis_nfd . $ch
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 o%CC%88a%CC%8A
@@ -63,9 +64,9 @@ o%CC%88a%CC%8A
 
 ### Дивіться також
 
--   [graphemestristr()](function.grapheme-stristr.md) - Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
--   [graphemestripos()](function.grapheme-stripos.md) - Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
--   [graphemestrpos()](function.grapheme-strpos.md) - знаходить позицію (в одиницях графеми) першого входження рядка
--   [graphemestrripos()](function.grapheme-strripos.md) - Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
--   [graphemestrrpos()](function.grapheme-strrpos.md) - знаходить позицію (в одиницях графеми) останнього входження рядка
--   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+-   [grapheme\_stristr()](function.grapheme-stristr.md) \- Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
+-   [grapheme\_stripos()](function.grapheme-stripos.md) \- Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
+-   [grapheme\_strpos()](function.grapheme-strpos.md) \- знаходить позицію (в одиницях графеми) першого входження рядка
+-   [grapheme\_strripos()](function.grapheme-strripos.md) \- Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
+-   [grapheme\_strrpos()](function.grapheme-strrpos.md) \- знаходить позицію (в одиницях графеми) останнього входження рядка
+-   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

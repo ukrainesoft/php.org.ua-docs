@@ -1,10 +1,11 @@
 ---
 navigation:
-  - classobj.constants.md: « Обумовлені константи
+  - classobj.constants.md: « Зумовлені константи
   - ref.classobj.md: Функції роботи з класами та об'єктами »
   - index.md: PHP Manual
   - book.classobj.md: Класи та об'єкти
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -71,7 +72,7 @@ class Spinach extends Vegetable {
 
 Тепер ми створимо об'єкт кожного класу і роздрукуємо інформацію про них, включаючи порядок їх успадкування. Також ми оголосимо кілька функцій-утиліт, головним чином для зручного виведення результатів.
 
-**Приклад #2 testscript.php**
+**Приклад #2 test\_script.php**
 
 ```php
 <?php
@@ -128,7 +129,7 @@ objectBelongsTo($leafy, Vegetable::class);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 вегетарианский: CLASS Vegetable

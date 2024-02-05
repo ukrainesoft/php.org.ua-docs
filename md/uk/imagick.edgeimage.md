@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::edgeImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::edgeImage
 
@@ -36,7 +37,7 @@ public Imagick::edgeImage(float $radius): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::edgeImage()****
+**Пример #1 Пример использования**Imagick::edgeImage()\*\*\*\*
 
 ```php
 <?php

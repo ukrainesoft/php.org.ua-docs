@@ -4,21 +4,20 @@ navigation:
   - gearmanclient.context.md: 'GearmanClient::context »'
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
-title: 'GearmanClient::construct'
+title: 'GearmanClient::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GearmanClient::construct
+# GearmanClient::\_\_construct
 
 (PECL gearman >= 0.5.0)
 
-GearmanClient::construct — Створити екземпляр GearmanClient
+GearmanClient::\_\_construct — Створити екземпляр GearmanClient
 
 ### Опис
 
-```methodsynopsis
-public GearmanClient::__construct()
-```
+public**GearmanClient::\_\_construct**()
 
-Створює екземпляр [GearmanClient](class.gearmanclient.md), що представляє клієнта, який з'єднується з сервером завдань і надсилає завдання для виконання.
+Створює екземпляр [GearmanClient](class.gearmanclient.md)представляє клієнта, який з'єднується з сервером завдань і надсилає завдання для виконання.
 
 ### Список параметрів
 
@@ -30,4 +29,4 @@ public GearmanClient::__construct()
 
 ### Дивіться також
 
--   [GearmanClient::clone()](gearmanclient.clone.md) - Створити копію об'єкта GearmanClient
+-   [GearmanClient::clone()](gearmanclient.clone.md) \- Створити копію об'єкта GearmanClient

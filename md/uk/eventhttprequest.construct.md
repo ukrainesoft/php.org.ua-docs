@@ -4,13 +4,14 @@ navigation:
   - eventhttprequest.findheader.md: 'EventHttpRequest::findHeader »'
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
-title: 'EventHttpRequest::construct'
+title: 'EventHttpRequest::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# EventHttpRequest::construct
+# EventHttpRequest::\_\_construct
 
 (PECL event >= 1.4.0-beta)
 
-EventHttpRequest::construct — Конструктор об'єкта EventHttpRequest
+EventHttpRequest::\_\_construct — Створює об'єкт EventHttpRequest
 
 ### Опис
 
@@ -26,7 +27,7 @@ public
    )
 ```
 
-Конструктор об'єкта EventHttpRequest.
+Створює об'єкт EventHttpRequest.
 
 ### Список параметрів
 
@@ -50,13 +51,9 @@ callback(
 
 Користувальницькі дані, що передаються в callback-функцію.
 
-### Значення, що повертаються
-
-Повертає об'єкт EventHttpRequest.
-
 ### Приклади
 
-**Приклад #1 Приклад **EventHttpRequest::construct()****
+**Пример #1 Пример использования метода**EventHttpRequest::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -100,10 +97,11 @@ $req->addHeader("Content-Length", "0", EventHttpRequest::OUTPUT_HEADER);
 $conn->makeRequest($req, EventHttpRequest::CMD_GET, "/index.cphp");
 
 $base->loop();
+
 ?>
 ```
 
 ### Дивіться також
 
--   [EventHttpRequest::cancel()](eventhttprequest.cancel.md) - Скасує очікування HTTP-запиту
--   [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) - Додає заголовок HTTP до заголовків запиту
+-   [EventHttpRequest::cancel()](eventhttprequest.cancel.md) \- Скасує очікування HTTP-запиту
+-   [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) \- Додає заголовок HTTP до заголовків запиту

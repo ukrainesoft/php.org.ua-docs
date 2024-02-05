@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setSizeOffset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setSizeOffset
 
@@ -18,7 +19,7 @@ Imagick::setSizeOffset — Встановлює розмір та усуненн
 public Imagick::setSizeOffset(int $columns, int $rows, int $offset): bool
 ```
 
-Встановлює розмір та усунення об'єкта Imagick. Встановіть його перед читанням необробленого формату зображення, як RGB, GRAY або CMYK. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Встановлює розмір та усунення об'єкта Imagick. Встановіть його перед читанням необробленого формату зображення, як RGB, GRAY або CMYK. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 

@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getRawOffset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlTimeZone::getRawOffset
 
-# intltzgetrawoffset
+# intltz\_get\_raw\_offset
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getRawOffset -- intltzgetrawoffset — Отримати необроблене значення зсуву за Грінвічем (GMT) без урахування літнього часу
+IntlTimeZone::getRawOffset -- intltz\_get\_raw\_offset — Отримати необроблене значення зсуву за Грінвічем (GMT) без урахування літнього часу
 
 ### Опис
 
@@ -30,7 +31,7 @@ intltz_get_raw_offset(IntlTimeZone $timezone): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

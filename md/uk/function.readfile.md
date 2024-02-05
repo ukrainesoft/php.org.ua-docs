@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: readfile
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # readfile
 
@@ -28,15 +29,15 @@ readfile(string $filename, bool $use_include_path = false, ?resource $context = 
 
 `use_include_path`
 
-Якщо ви хочете, щоб використовувався пошук файлу в [includepath](ini.core.md#ini.include-path), встановіть цей параметр у **`true`**
+Якщо ви хочете, щоб використовувався пошук файлу в [include\_path](ini.core.md#ini.include-path), встановіть цей параметр у **`true`**
 
 `context`
 
-Ресурс (resource) з [контекстом потоку](stream.contexts.md)
+Ресурс (resource) с[контекстом потоку](stream.contexts.md)
 
 ### Значення, що повертаються
 
-Повертає кількість прочитаних із файлу байт у разі успішного виконання або **`false`** у разі виникнення помилки
+Повертає кількість прочитаних із файлу байт у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки
 
 ### Помилки
 
@@ -64,27 +65,27 @@ if (file_exists($file)) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Діалог відкриття / збереження файлу](images/e88cefb5c3fca5060e2490b9763c4433-readfile.png)
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **readfile()** сама по собі не призводить до будь-яких проблем з пам'яттю, навіть при надсиланні великих файлів. У разі помилки перевищення пам'яті переконайтеся, що буферизація виводу вимкнена за допомогою [проgetlevel()](function.ob-get-level.md)
+> **readfile()** сама по собі не призводить до будь-яких проблем з пам'яттю, навіть при надсиланні великих файлів. У разі помилки перевищення пам'яті переконайтеся, що буферизація виводу вимкнена за допомогою [ob\_get\_level()](function.ob-get-level.md)
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+У цю функцію як ім'я файлу можна передавати URL-адреси, якщо була включена директива [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про те, як вказати ім'я файлу, описано в описі функції [fopen()](function.fopen.md). В розділі "[Підтримувані протоколи та обгортки](wrappers.md)» також дано посилання на інформацію про можливості підтримуваних обгорток, зауваження щодо роботи з ними та список визначених змінних, які вони дають.
 
 ### Дивіться також
 
--   [fpassthru()](function.fpassthru.md) - Виводить всі дані з файлового покажчика, що залишилися.
--   [file()](function.file.md) - Читає вміст файлу та поміщає його в масив
--   [fopen()](function.fopen.md) - Відкриває файл або URL
--   [include](function.include.md) - include
--   [require](function.require.md) - require
--   [virtual()](function.virtual.md) - Виконує підзапит Apache
--   [filegetcontents()](function.file-get-contents.md) - Читає вміст файлу в рядок
+-   [fpassthru()](function.fpassthru.md) \- Виводить всі дані з файлового покажчика, що залишилися.
+-   [file()](function.file.md) \- Читає вміст файлу та поміщає його в масив
+-   [fopen()](function.fopen.md) \- Відкриває файл або URL
+-   [include](function.include.md) \- include
+-   [require](function.require.md) \- require
+-   [virtual()](function.virtual.md) \- Виконує підзапит Apache
+-   [file\_get\_contents()](function.file-get-contents.md) \- Читає вміст файлу в рядок
 -   [Підтримувані протоколи та обгортки](wrappers.md)

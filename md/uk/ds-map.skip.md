@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.reversed.md: '« DsMap::reversed'
-  - ds-map.slice.md: 'ДсMap::slice »'
+  - ds-map.reversed.md: '« Ds\\Map::reversed'
+  - ds-map.slice.md: 'Ds\\Map::slice »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::skip'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::skip'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::skip
+# Ds\\Map::skip
 
 (PECL ds >= 1.0.0)
 
-ДсMap::skip — Повертає пару за індексом позиції
+Ds\\Map::skip — Повертає пару за індексом позиції
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсMap::skip'
 public Ds\Map::skip(int $position): Ds\Pair
 ```
 
-Повертає пару за індексом позиції `position`, перша пара має індекс 0
+Возвращает пару по индексу позиции`position`, перша пара має індекс 0
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public Ds\Map::skip(int $position): Ds\Pair
 
 ### Значення, що повертаються
 
-Повертає **ДсPair** із заданої позиції `position`
+Повертає [Ds\\Pair](class.ds-pair.md) із заданої позиції `position`
 
 ### Помилки
 
@@ -36,7 +37,7 @@ public Ds\Map::skip(int $position): Ds\Pair
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::skip()****
+**Пример #1 Пример использования**Ds\\Map::skip()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($map->skip(1));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Pair)#2 (2) {

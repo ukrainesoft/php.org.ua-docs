@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.tidy-config-count.md: « tidyconfigcount
-  - function.tidy-get-output.md: tidygetoutput »
+  - function.tidy-config-count.md: « tidy\_config\_count
+  - function.tidy-get-output.md: tidy\_get\_output »
   - index.md: PHP Manual
   - ref.tidy.md: Tidy
-title: tidyerrorcount
+title: tidy\_error\_count
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tidyerrorcount
+# tidy\_error\_count
 
-(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
 
-tidyerrorcount — Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
+tidy\_error\_count — Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
 
 ### Опис
 
@@ -32,7 +33,7 @@ tidy_error_count(tidy $tidy): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidyerrorcount()****
+**Пример #1 Пример использования**tidy\_error\_count()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo $tidy->errorBuffer;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1
@@ -61,5 +62,5 @@ line 1 column 1 - Warning: inserting missing 'title' element
 
 ### Дивіться також
 
--   [tidyaccesscount()](function.tidy-access-count.md) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
--   [tidywarningcount()](function.tidy-warning-count.md) - Повертає число Tidy-попереджень, зустрінутих у зазначеному документі
+-   [tidy\_access\_count()](function.tidy-access-count.md) \- Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
+-   [tidy\_warning\_count()](function.tidy-warning-count.md) \- Повертає число Tidy-попереджень, зустрінуті у зазначеному документі

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-grid.append.md: '« UIControlsGrid::append'
-  - ui-controls-grid.setpadded.md: 'ОЙControlsGrid::setPadded »'
+  - ui-controls-grid.append.md: '« UI\\Controls\\Grid::append'
+  - ui-controls-grid.setpadded.md: 'UI\\Controls\\Grid::setPadded »'
   - index.md: PHP Manual
-  - class.ui-controls-grid.md: ОЙControlsGrid
-title: 'ОЙControlsGrid::isPadded'
+  - class.ui-controls-grid.md: UI\\Controls\\Grid
+title: 'UI\\Controls\\Grid::isPadded'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsGrid::isPadded
+# UI\\Controls\\Grid::isPadded
 
 (UI 0.9.9)
 
-ОЙControlsGrid::isPadded — Визначення заповнення
+UI\\Controls\\Grid::isPadded — Визначення заповнення
 
 ### Опис
 

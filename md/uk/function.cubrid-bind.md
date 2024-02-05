@@ -1,32 +1,33 @@
 ---
 navigation:
-  - ref.cubrid.md: « Функции CUBRID
-  - function.cubrid-close-prepare.md: cubridcloseprepare »
+  - ref.cubrid.md: « Функції CUBRID
+  - function.cubrid-close-prepare.md: cubrid\_close\_prepare »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridbind
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_bind
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridbind
+# cubrid\_bind
 
 (PECL CUBRID >= 8.3.0)
 
-cubridbind — Зв'язує змінні із підготовленим запитом
+cubrid\_bind — Зв'язує змінні із підготовленим запитом
 
 ### Опис
 
 ```methodsynopsis
-cubrid_bind(    resource $req_identifier,    int $bind_index,    mixed $bind_value,    string $bind_value_type = ?): bool
+cubrid_bind(    resource $req_identifier,    int $bind_index,    mixed $bind_value,    string $bind_value_type = ?): bool
 ```
 
-Функція **cubridbind()** використовується для прив'язки значень до зазначених міток, або знаків питання, в SQL-запиті, заданому [cubridprepare()](function.cubrid-prepare.md). Якщо не встановлено параметр `bind_value_type`, то буде використовуватися рядковий тип.
+Функция**cubrid\_bind()** використовується для прив'язки значень до вказаних міток або знаків питання в SQL-запиті, заданому [cubrid\_prepare()](function.cubrid-prepare.md)Если не задан параметр`bind_value_type`, то буде використовуватися рядковий тип.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо дані, що прив'язуються, мають тип BLOB/CLOB, CUBRID спробує використовувати їх як потоки PHP. Якщо фактичне значення, що прив'язується не є потоком, то CUBRID конвертує його в рядок і буде вважати повним шляхом до файлу, де ці дані лежать.
 > 
 > Якщо тип даних, які будуть пов'язані явно, є ENUM, то параметр `bind_value` має бути елементом ENUM заданим у вигляді рядка.
 > 
-> В оточенні сегмента CUBRID, `bind_value_type` має бути включений у функцію **cubridbind()**
+> В окружении сегмента CUBRID,`bind_value_type` має бути включений у функцію **cubrid\_bind()**
 
 У наступній таблиці наведено типи замінних значень.
 
@@ -56,7 +57,7 @@ cubrid_bind(    resource $req_identifier,    int $bind_index,    mixed $bind_val
 
 `req_identifier`
 
-Ідентифікатор запиту, отриманий з [cubridprepare()](function.cubrid-prepare.md)
+Ідентифікатор запиту, отриманий з [cubrid\_prepare()](function.cubrid-prepare.md)
 
 `bind_index`
 
@@ -72,17 +73,17 @@ cubrid_bind(    resource $req_identifier,    int $bind_index,    mixed $bind_val
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Додано підтримку типів даних BLOB/CLOB. |
+| 8.3.1 | Додано підтримку типів даних BLOB/CLOB. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridbind()****
+**Пример #1 Пример использования**cubrid\_bind()\*\*\*\*
 
 ```php
 <?php
@@ -114,7 +115,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 --- Dream Team (1992 United States men's Olympic basketball team) ---
@@ -132,7 +133,7 @@ Bird Larry
 Barkley Charles
 ```
 
-**Приклад #2 Приклад використання **cubridbind()** з BLOB/CLOB**
+**Пример #2 Пример использования**cubrid\_bind()\*\* з BLOB/CLOB\*\*
 
 ```php
 <?php
@@ -151,7 +152,7 @@ if ($con) {
 ?>
 ```
 
-**Приклад #3 Приклад використання **cubridbind()** з BLOB/CLOB**
+**Пример #3 Пример использования**cubrid\_bind()\*\* з BLOB/CLOB\*\*
 
 ```php
 <?php
@@ -170,5 +171,5 @@ if ($con) {
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
--   [cubridprepare()](function.cubrid-prepare.md) - Підготовляє SQL-вираз до виконання
+-   [cubrid\_execute()](function.cubrid-execute.md) \- Виконує підготовлений SQL-оператор
+-   [cubrid\_prepare()](function.cubrid-prepare.md) \- Підготовляє SQL-вираз до виконання

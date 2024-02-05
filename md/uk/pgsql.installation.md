@@ -4,8 +4,9 @@ navigation:
   - pgsql.configuration.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - pgsql.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Для того, щоб увімкнути підтримку PostgreSQL, необхідно скомпілювати PHP з директивою **\-with-pgsql=DIR**. Параметр `DIR` визначає шлях до настановної директорії PostgreSQL, за умовчанням це /usr/local/pgsql. Якщо доступний динамічний модуль, він може бути включений директивою [extension](ini.core.md#ini.extension) у php.ini, або функцією [dl()](function.dl.md)
+Для того, щоб увімкнути підтримку PostgreSQL, необхідно скомпілювати PHP з директивою \*\*--with-pgsql\[=DIR\]\*\*Параметр`DIR` визначає шлях до настановної директорії PostgreSQL, за умовчанням це /usr/local/pgsql. Якщо доступний динамічний модуль, він може бути включений директивою [extension](ini.core.md#ini.extension)в php.ini, либо функцией[dl()](function.dl.md)

@@ -1,14 +1,15 @@
 ---
 navigation:
   - class.seekableiterator.md: « SeekableIterator
-  - spl.exceptions.md: Исключения »
+  - spl.exceptions.md: Винятки »
   - index.md: PHP Manual
   - class.seekableiterator.md: SeekableIterator
 title: 'SeekableIterator::seek'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeekableIterator::seek
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SeekableIterator::seek — Переміщується до позиції
 
@@ -36,7 +37,7 @@ public SeekableIterator::seek(int $offset): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeekableIterator::seek()****
+**Пример #1 Пример использования**SeekableIterator::seek()\*\*\*\*
 
 Переміщення до елемента на 3-й позиції в ітераторі ([ArrayIterator](class.arrayiterator.md) реалізує [SeekableIterator](class.seekableiterator.md)
 
@@ -49,7 +50,7 @@ echo $iterator->current();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 чернослив

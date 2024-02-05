@@ -1,16 +1,17 @@
 ---
 navigation:
-  - reflectionfunctionabstract.isinternal.md: '« ReflectionFunctionAbstract::isInternal'
+  - reflectiofunctionabstract.isstatic.md: '« ReflectionFunctionAbstract::isStatic'
   - reflectionfunctionabstract.isvariadic.md: 'ReflectionFunctionAbstract::isVariadic »'
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::isUserDefined'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::isUserDefined
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::isUserDefined — Перевіряє, чи є функція певною користувачем
+ReflectionFunctionAbstract::isUserDefined — Перевіряє, чи функція є певною користувачем.
 
 ### Опис
 
@@ -30,4 +31,4 @@ public ReflectionFunctionAbstract::isUserDefined(): bool
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::isInternal()](reflectionfunctionabstract.isinternal.md) - Перевіряє, чи є функція внутрішньої
+-   [ReflectionFunctionAbstract::isInternal()](reflectionfunctionabstract.isinternal.md) \- Перевіряє, чи є функція внутрішньої

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-session.isset.md: '« YafSession::isset'
-  - yaf-session.next.md: 'YafSession::next »'
+  - yaf-session.isset.md: '« Yaf\_Session::\_\_isset'
+  - yaf-session.next.md: 'Yaf\_Session::next »'
   - index.md: PHP Manual
-  - class.yaf-session.md: YafSession
-title: 'YafSession::key'
+  - class.yaf-session.md: Yaf\_Session
+title: 'Yaf\_Session::key'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafSession::key
+# Yaf\_Session::key
 
 (Yaf >=1.0.0)
 
-YafSession::key — Призначення key
+Yaf\_Session::key — Призначення key
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Session::key(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

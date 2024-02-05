@@ -1,16 +1,17 @@
 ---
 navigation:
-  - gender-gender.isnick.md: '« GenderGender::isNick'
+  - gender-gender.isnick.md: '« Gender\\Gender::isNick'
   - book.gettext.md: Gettext »
   - index.md: PHP Manual
-  - class.gender.md: GenderGender
-title: 'GenderGender::similarNames'
+  - class.gender.md: Gender\\Gender
+title: 'Gender\\Gender::similarNames'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GenderGender::similarNames
+# Gender\\Gender::similarNames
 
 (PECL gender >= 0.9.0)
 
-GenderGender::similarNames — Отримати схожі імена
+Gender\\Gender::similarNames — Отримати схожі імена
 
 ### Опис
 
@@ -28,7 +29,7 @@ public Gender\Gender::similarNames(string $name, int $country = ?): array
 
 `country`
 
-Ідентифікатор країни заданий константою класу. Якщо опущений, то використовується ANYCOUNTRY.
+Ідентифікатор країни заданий константою класу. Якщо опущений, то використовується ANY\_COUNTRY.
 
 ### Значення, що повертаються
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xmlrpc-server-destroy.md: « xmlrpcserverdestroy
-  - function.xmlrpc-server-register-method.md: xmlrpcserverregistermethod »
+  - function.xmlrpc-server-destroy.md: « xmlrpc\_server\_destroy
+  - function.xmlrpc-server-register-method.md: xmlrpc\_server\_register\_method »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcserverregisterintrospectioncallback
+title: xmlrpc\_server\_register\_introspection\_callback
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcserverregisterintrospectioncallback
+# xmlrpc\_server\_register\_introspection\_callback
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcserverregisterintrospectioncallback — Реєструє функцію PHP для створення документації
+xmlrpc\_server\_register\_introspection\_callback — Реєструє функцію PHP для створення документації
 
 ### Опис
 
@@ -24,4 +25,4 @@ xmlrpc_server_register_introspection_callback(resource $server, string $function
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

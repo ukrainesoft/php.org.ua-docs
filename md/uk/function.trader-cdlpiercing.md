@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlonneck.md: « tradercdlonneck
-  - function.trader-cdlrickshawman.md: tradercdlrickshawman »
+  - function.trader-cdlonneck.md: « trader\_cdlonneck
+  - function.trader-cdlrickshawman.md: trader\_cdlrickshawman »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlpiercing
+  - ref.trader.md: Функції Trader
+title: trader\_cdlpiercing
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlpiercing
+# trader\_cdlpiercing
 
 (PECL trader >= 0.2.0)
 
-tradercdlpiercing - Паттерн "Просвіт у хмарах"
+trader\_cdlpiercing - Паттерн "Просвіт у хмарах"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlpiercing(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlpiercing(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

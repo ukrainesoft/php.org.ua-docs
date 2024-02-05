@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::now'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::now
 
@@ -31,4 +32,4 @@ public
 
 ### Дивіться також
 
--   [Ev::now()](ev.now.md) - Отримати час запуску останньої ітерації циклу за замовчуванням
+-   [Ev::now()](ev.now.md) \- Отримати час запуску останньої ітерації циклу за замовчуванням

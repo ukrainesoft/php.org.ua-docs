@@ -1,10 +1,11 @@
 ---
 navigation:
   - pharfileinfo.decompress.md: '« PharFileInfo::decompress'
-  - pharfileinfo.destruct.md: 'PharFileInfo::destruct »'
+  - pharfileinfo.destruct.md: 'PharFileInfo::\_\_destruct »'
   - index.md: PHP Manual
   - class.pharfileinfo.md: PharFileInfo
 title: 'PharFileInfo::delMetadata'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharFileInfo::delMetadata
 
@@ -26,15 +27,15 @@ public PharFileInfo::delMetadata(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`** залежно від успішності виконання. Так як ця функціональність змінює phar-архів, необхідно, щоб опція [phar.readonly](phar.configuration.md#ini.phar.readonly) було відключено, інакше внести зміни до архіву [Phar](class.phar.md) не вийде. На архіви [PharData](class.phardata.md) обмеження на запис не поширюється.
+Повертає **`true`**или**`false`** залежно від успішності виконання. Так як ця функціональність змінює phar-архів, необхідно, щоб опція [phar.readonly](phar.configuration.md#ini.phar.readonly) було відключено, інакше внести зміни до архіву [Phar](class.phar.md) не вийде. На архіви [PharData](class.phardata.md) обмеження на запис не поширюється.
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.md) у разі виникнення помилки запису на диск, та [BadMethodCallException](class.badmethodcallexception.md), якщо запис заборонено.
+Викидає виняток [PharException](class.pharexception.md)в случае возникновения ошибки записи на диск, и[BadMethodCallException](class.badmethodcallexception.md), якщо запис заборонено.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharFileInfo::delMetaData()****
+**Пример #1 Пример использования**PharFileInfo::delMetaData()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -61,9 +62,9 @@ bool(false)
 
 ### Дивіться також
 
--   [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.md) - Встановлення метаданих для конкретного файлу
--   [PharFileInfo::hasMetadata()](pharfileinfo.hasmetadata.md) - Перевірити, чи є у файлу метадані
--   [PharFileInfo::getMetadata()](pharfileinfo.getmetadata.md) - Отримати метадані, пов'язані з файлом
--   [Phar::setMetadata()](phar.setmetadata.md) - Встановити метадані phar-архіву
--   [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить phar-архів глобальні метадані
--   [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані phar-архіву
+-   [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.md) \- Встановлення метаданих для конкретного файлу
+-   [PharFileInfo::hasMetadata()](pharfileinfo.hasmetadata.md) \- Перевірити, чи є у файлу метадані
+-   [PharFileInfo::getMetadata()](pharfileinfo.getmetadata.md) \- Отримати метадані, пов'язані з файлом
+-   [Phar::setMetadata()](phar.setmetadata.md) \- Встановити метадані phar-архіву
+-   [Phar::hasMetadata()](phar.hasmetadata.md) \- Перевірити, чи містить phar-архів глобальні метадані
+-   [Phar::getMetadata()](phar.getmetadata.md) \- Витягти метадані phar-архіву

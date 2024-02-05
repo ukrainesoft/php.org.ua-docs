@@ -1,10 +1,11 @@
 ---
 navigation:
   - iconv.resources.md: « Типи ресурсів
-  - ref.iconv.md: Функции iconv »
+  - ref.iconv.md: Функції iconv »
   - index.md: PHP Manual
   - book.iconv.md: iconv
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
@@ -12,12 +13,12 @@ title: Обумовлені константи
 
 **Константи реалізації `iconv`**
 
-| Имя | Тип | Описание |
+| Имя | Тип | Опис |
 | --- | --- | --- |
 | **`ICONV_IMPL`** | string | Реалізація |
 | **`ICONV_VERSION`** | string | Версія реалізації |
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Використовуйте ці константи для написання сценаріїв, незалежних від реалізації.
 
@@ -25,7 +26,7 @@ title: Обумовлені константи
 
 **Інші константи `iconv`**
 
-| Имя | Тип | Описание |
+| Имя | Тип | Опис |
 | --- | --- | --- |
-| **`ICONV_MIME_DECODE_STRICT`** | int | Бітова маска, що використовується в [iconvmimedecode()](function.iconv-mime-decode.md) |
-| **`ICONV_MIME_DECODE_CONTINUE_ON_ERROR`** | int | Бітова маска, що використовується в [iconvmimedecode()](function.iconv-mime-decode.md) |
+| **`ICONV_MIME_DECODE_STRICT`** | int | Бітова маска, що використовується в [iconv\_mime\_decode()](function.iconv-mime-decode.md) |
+| **`ICONV_MIME_DECODE_CONTINUE_ON_ERROR`** | int | Бітова маска, що використовується в [iconv\_mime\_decode()](function.iconv-mime-decode.md) |

@@ -1,28 +1,29 @@
 ---
 navigation:
-  - function.radius-put-vendor-addr.md: « radiusputvendoraddr
-  - function.radius-put-vendor-int.md: radiusputvendorint »
+  - function.radius-put-vendor-addr.md: « radius\_put\_vendor\_addr
+  - function.radius-put-vendor-int.md: radius\_put\_vendor\_int »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiusputvendorattr
+  - ref.radius.md: Функції Radius
+title: radius\_put\_vendor\_attr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiusputvendorattr
+# radius\_put\_vendor\_attr
 
 (PECL radius >= 1.1.0)
 
-radiusputvendorattr — Приєднує бінарний атрибут, що залежить від постачальника
+radius\_put\_vendor\_attr — Приєднує бінарний атрибут, що залежить від постачальника
 
 ### Опис
 
 ```methodsynopsis
-radius_put_vendor_attr(    resource $radius_handle,    int $vendor,    int $type,    string $value,    int $options = 0,    int $tag = ?): bool
+radius_put_vendor_attr(    resource $radius_handle,    int $vendor,    int $type,    string $value,    int $options = 0,    int $tag = ?): bool
 ```
 
 Приєднує до поточного запиту RADIUS бінарний атрибут, що залежить від постачальника.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.md)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radius\_create\_request()](function.radius-create-request.md)
 
 ### Список параметрів
 
@@ -48,21 +49,21 @@ ID виробника (Vendor).
 
 `tag`
 
-Тег атрибут. Цей параметр ігнорується, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged)
+Тег атрибут. Цей параметр буде проігноровано, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL radius 1.3.0 | Додані параметри `options` і `tag` |
+| PECL radius 1.3.0 | Додані параметри `options`и`tag` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radiusputvendorattr()****
+**Пример #1 Пример использования**radius\_put\_vendor\_attr()\*\*\*\*
 
 ```php
 <?php
@@ -75,4 +76,4 @@ if (!radius_put_vendor_attr($res, RADIUS_VENDOR_MICROSOFT, RAD_MICROSOFT_MS_CHAP
 
 ### Дивіться також
 
--   [radiusgetvendorattr()](function.radius-get-vendor-attr.md) - Витягує атрибут, що залежить від постачальника
+-   [radius\_get\_vendor\_attr()](function.radius-get-vendor-attr.md) \- Витягує атрибут, що залежить від постачальника

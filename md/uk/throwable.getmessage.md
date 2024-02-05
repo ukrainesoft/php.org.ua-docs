@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.throwable.md: Throwable
 title: 'Throwable::getMessage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Throwable::getMessage
 
@@ -30,4 +31,4 @@ public Throwable::getMessage(): string
 
 ### Дивіться також
 
--   [Exception::getMessage()](exception.getmessage.md) - Отримує повідомлення виключення
+-   [Exception::getMessage()](exception.getmessage.md) \- Отримує повідомлення виключення

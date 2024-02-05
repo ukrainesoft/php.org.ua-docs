@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::chopImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::chopImage
 
@@ -15,7 +16,7 @@ Imagick::chopImage — Видаляє область зображення та �
 ### Опис
 
 ```methodsynopsis
-public Imagick::chopImage(    int $width,    int $height,    int $x,    int $y): bool
+public Imagick::chopImage(    int $width,    int $height,    int $x,    int $y): bool
 ```
 
 Видалення вибраної області з реструктуризацією зображення.
@@ -48,7 +49,7 @@ public Imagick::chopImage(    int $width,    int $height,    int $x,    int $y):
 
 ### Приклади
 
-**Приклад #1 Використання **Imagick::chopImage()****
+**Пример #1 Использование**Imagick::chopImage()\*\* :\*\*
 
 Приклад використання Imagick:: chopImage
 
@@ -76,4 +77,4 @@ echo $image;
 
 ### Дивіться також
 
--   [Imagick::cropImage()](imagick.cropimage.md) - Витягує область зображення
+-   [Imagick::cropImage()](imagick.cropimage.md) \- Витягує область зображення

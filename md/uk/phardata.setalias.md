@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phardata.md: PharData
 title: 'PharData::setAlias'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharData::setAlias
 
@@ -18,7 +19,7 @@ PharData::setAlias ​​— Функція заглушка (Phar::setAlias ​
 public PharData::setAlias(string $alias): bool
 ```
 
-Незапускаються tar/zip-архіви не можуть мати псевдоніма, тому цей метод просто викидає виняток.
+Незапускні tar/zip-архіви не можуть мати псевдоніма, тому цей метод просто викидає виняток.
 
 ### Список параметрів
 
@@ -34,4 +35,4 @@ public PharData::setAlias(string $alias): bool
 
 ### Дивіться також
 
--   [Phar::setAlias()](phar.setalias.md) - Встановити псевдонім для Phar-архіву
+-   [Phar::setAlias()](phar.setalias.md) \- Встановити псевдонім для Phar-архіву

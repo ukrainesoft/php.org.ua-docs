@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
 title: snmpgetnext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # snmpgetnext
 
@@ -15,10 +16,10 @@ snmpgetnext — Отримує об'єкт SNMP, який слідує за ци
 ### Опис
 
 ```methodsynopsis
-snmpgetnext(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
+snmpgetnext(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
 ```
 
-Функція **snmpgetnext()** використовується для читання значення об'єкта SNMP, який слідує за вказаним `object_id`
+Функция**snmpgetnext()** використовується для читання значення об'єкта SNMP, який слідує за вказаним `object_id`
 
 ### Список параметрів
 
@@ -44,11 +45,11 @@ Read-спільнота.
 
 ### Значення, що повертаються
 
-Повертає значення об'єкта SNMP у разі успішного виконання або **`false`** у разі виникнення помилки. У разі виникнення помилки виводиться помилка рівня EWARNING.
+Повертає значення об'єкта SNMP у разі успішного виконання або **`false`** у разі виникнення помилки. У разі виникнення помилки виводиться помилка рівня E\_WARNING.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmpgetnext()****
+**Пример #1 Пример использования**snmpgetnext()\*\*\*\*
 
 ```php
 <?php
@@ -58,5 +59,5 @@ $nameOfSecondInterface = snmpgetnetxt('localhost', 'public', 'IF-MIB::ifName.1')
 
 ### Дивіться також
 
--   [snmpget()](function.snmpget.md) - Отримує об'єкт SNMP
--   [snmpwalk()](function.snmpwalk.md) - Отримує всі об'єкти SNMP з агента
+-   [snmpget()](function.snmpget.md) \- Отримує об'єкт SNMP
+-   [snmpwalk()](function.snmpwalk.md) \- Отримує всі об'єкти SNMP із агента

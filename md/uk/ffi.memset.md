@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.ffi.md: FFI
 title: 'FFI::memset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FFI::memset
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 FFI::memset — Заповнити область пам'яті
 
@@ -18,7 +19,7 @@ FFI::memset — Заповнити область пам'яті
 public static FFI::memset(FFI\CData &$ptr, int $value, int $size): void
 ```
 
-Заповнює `size` байт пам'яті за вказівником `ptr` значенням `value`
+Заповнює `size`байт памяти по указателю`ptr`значением`value`
 
 ### Список параметрів
 

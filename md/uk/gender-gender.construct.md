@@ -1,20 +1,21 @@
 ---
 navigation:
-  - gender-gender.connect.md: '« GenderGender::connect'
-  - gender-gender.country.md: 'GenderGender::country »'
+  - gender-gender.connect.md: '« Gender\\Gender::connect'
+  - gender-gender.country.md: 'Gender\\Gender::country »'
   - index.md: PHP Manual
-  - class.gender.md: GenderGender
-title: 'GenderGender::construct'
+  - class.gender.md: Gender\\Gender
+title: 'Gender\\Gender::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GenderGender::construct
+# Gender\\Gender::\_\_construct
 
 (PECL gender >= 0.6.0)
 
-GenderGender::construct - Конструктор об'єкта класу Gender
+Gender\\Gender::\_\_construct - Конструктор об'єкта класу Gender
 
 ### Опис
 
-public **GenderGender::construct**(string `$dsn`
+public**Gender\\Gender::\_\_construct**(string`$dsn`
 
 Створює об'єкт класу Gender, який може бути підключений до зовнішнього словника імен. Якщо зовнішня база даних не задана, використовуватимуться внутрішні скомпіловані дані.
 

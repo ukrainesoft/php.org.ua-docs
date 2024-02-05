@@ -1,35 +1,36 @@
 ---
 navigation:
-  - function.stats-cdf-uniform.md: « statscdfuniform
-  - function.stats-covariance.md: statscovariance »
+  - function.stats-cdf-uniform.md: « stats\_cdf\_uniform
+  - function.stats-covariance.md: stats\_covariance »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statscdfweibull
+title: stats\_cdf\_weibull
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statscdfweibull
+# stats\_cdf\_weibull
 
 (PECL stats >= 1.0.0)
 
-statscdfweibull — Обчислює один із параметрів розподілу Вейбулла за рештою
+stats\_cdf\_weibull — Обчислює один із параметрів розподілу Вейбулла за рештою
 
 ### Опис
 
 ```methodsynopsis
-stats_cdf_weibull(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_weibull(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
-Повертає кумулятивну функцію розподілу Вейбулла, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`
+Повертає кумулятивну функцію розподілу Вейбулла, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2`и`par3`) определяются параметром`which`
 
-У наступній таблиці перераховані значення, що повертаються, і параметри в залежності від `which`. CDF, x, k та lambda позначає функцію кумулятивного розподілу, величину випадкової змінної, коефіцієнт форми та масштабу відповідно.
+У наступній таблиці перераховані значення і параметри, що повертаються, в залежності від `which`. CDF, x, k і lambda позначає функцію кумулятивного розподілу, величину випадкової змінної, коефіцієнт форми та масштабу відповідно.
 
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
 | --- | --- | --- | --- | --- |
-|  | CDF | з | до | lambda |
-|  | з | CDF | до | lambda |
-|  | до | з | CDF | lambda |
-|  | lambda | з | CDF | до |
+|  | CDF | x | k | lambda |
+|  | x | CDF | k | lambda |
+| 3 | k | x | CDF | lambda |
+| 4 | lambda | x | CDF | k |
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.dbase-pack.md: « dbasepack
+  - function.dbase-pack.md: « dbase\_pack
   - book.ibase.md: Firebird/InterBase »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
-title: dbasereplacerecord
+title: dbase\_replace\_record
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dbasereplacerecord
+# dbase\_replace\_record
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-dbasereplacerecord — Замінює запис у базі даних
+dbase\_replace\_record — Замінює запис у базі даних
 
 ### Опис
 
@@ -24,29 +25,29 @@ dbase_replace_record(resource $database, array $data, int $number): bool
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
+Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.md) або [dbase\_create()](function.dbase-create.md)
 
 `data`
 
-Індексований масив даних. Кількість елементів має дорівнювати кількості полів у базі даних, в іншому випадку виклик **dbasereplacerecord()** не вдастся.
+Індексований масив даних. Кількість елементів має дорівнювати кількості полів у базі даних, в іншому випадку виклик **dbase\_replace\_record()** не вдастся.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо ви використовуєте як параметр запис, який повернув [dbasegetrecord()](function.dbase-get-record.md), не забудьте скинути ключ з ім'ям `deleted`
+> Якщо ви використовуєте як параметр запис, який повернув [dbase\_get\_record()](function.dbase-get-record.md), не забудьте сбросить ключ с именем`deleted`
 
 `number`
 
-Ціле число, яке може бути в діапазоні від 1 до числа записів у базі даних (яка повернула функція [dbasenumrecords()](function.dbase-numrecords.md)
+Ціле число, яке може бути в діапазоні від 1 до числа записів у базі даних (яка повернула функція [dbase\_numrecords()](function.dbase-numrecords.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
+| dbase 7.0.0 | Параметр`database` тепер має тип resource, а не int. |
 
 ### Приклади
 
@@ -68,7 +69,7 @@ if ($db) {
   // Установим в поле даты текущую дату
   $row['date'] = date('Ymd');
 
-  // Преобразуем $row в Масив
+  // Преобразуем $row в массив
   $row = array_values($row);
 
   // Заменим запись
@@ -81,11 +82,11 @@ if ($db) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> При використанні [dbasegetrecord()](function.dbase-get-record.md) і [dbasegetrecordwithnames()](function.dbase-get-record-with-names.md), поля логічного типу повертаються як ціле (int) значення (`0` або `1`). Якщо ви збираєтеся записувати ці значення назад, потрібно пам'ятати, що результат стане рівним `0`
+> При использовании[dbase\_get\_record()](function.dbase-get-record.md) і [dbase\_get\_record\_with\_names()](function.dbase-get-record-with-names.md), поля логічного типу повертаються як ціле (int) значення ( либо ). Якщо ви збираєтеся записувати ці значення назад, потрібно пам'ятати, що результат стане рівним
 
 ### Дивіться також
 
--   [dbaseaddrecord()](function.dbase-add-record.md) - Додає запис до бази даних
--   [dbasedeleterecord()](function.dbase-delete-record.md) - Видалення записів із бази даних
+-   [dbase\_add\_record()](function.dbase-add-record.md) \- Додає запис до бази даних
+-   [dbase\_delete\_record()](function.dbase-delete-record.md) \- Видалення записів із бази даних

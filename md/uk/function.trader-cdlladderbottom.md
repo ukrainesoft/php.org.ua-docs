@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlkickingbylength.md: « tradercdlkickingbylength
-  - function.trader-cdllongleggeddoji.md: tradercdllongleggeddoji »
+  - function.trader-cdlkickingbylength.md: « trader\_cdlkickingbylength
+  - function.trader-cdllongleggeddoji.md: trader\_cdllongleggeddoji »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlladderbottom
+  - ref.trader.md: Функції Trader
+title: trader\_cdlladderbottom
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlladderbottom
+# trader\_cdlladderbottom
 
 (PECL trader >= 0.2.0)
 
-tradercdlladderbottom - Свічкова модель "Ступінчасте дно"
+trader\_cdlladderbottom - Свічкова модель "Ступінчасте дно"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlladderbottom(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlladderbottom(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-controller-abstract.construct.md: '« YafControllerAbstract::construct'
-  - yaf-controller-abstract.forward.md: 'YafControllerAbstract::forward »'
+  - yaf-controller-abstract.construct.md: '« Yaf\_Controller\_Abstract::\_\_construct'
+  - yaf-controller-abstract.forward.md: 'Yaf\_Controller\_Abstract::forward »'
   - index.md: PHP Manual
-  - class.yaf-controller-abstract.md: YafControllerAbstract
-title: 'YafControllerAbstract::display'
+  - class.yaf-controller-abstract.md: Yaf\_Controller\_Abstract
+title: 'Yaf\_Controller\_Abstract::display'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafControllerAbstract::display
+# Yaf\_Controller\_Abstract::display
 
 (Yaf >=1.0.0)
 
-YafControllerAbstract::display — Призначення display
+Yaf\_Controller\_Abstract::display — Призначення display
 
 ### Опис
 

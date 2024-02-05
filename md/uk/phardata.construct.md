@@ -4,21 +4,23 @@ navigation:
   - phardata.converttodata.md: 'PharData::convertToData »'
   - index.md: PHP Manual
   - class.phardata.md: PharData
-title: 'PharData::construct'
+title: 'PharData::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# PharData::construct
+# PharData::\_\_construct
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-PharData::construct — Конструктор об'єкта PharData
+PharData::\_\_construct — Конструктор об'єкта PharData
 
 ### Опис
 
-public **PharData::construct**  
-string `$filename`  
-int `$flags` = FilesystemIterator::SKIPDOTS | FilesystemIterator::UNIXPATHS,  
-?string `$alias` **`null`**  
-int `$format`
+public**PharData::\_\_construct**  
+string`$filename`,  
+int`$flags`\= FilesystemIterator::SKIP\_DOTS | FilesystemIterator::UNIX\_PATHS,  
+?string`$alias` **`null`**,  
+int`$format`  
+) .
 
 ### Список параметрів
 
@@ -28,7 +30,7 @@ int `$format`
 
 `flags`
 
-Прапори для передачі батьківському класу [Phar](class.phar.md) [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
+Флаги для передачи родительскому классу[Phar](class.phar.md) [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
 
 `alias`
 
@@ -36,7 +38,7 @@ int `$format`
 
 `format`
 
-Одна з [констант формата файлов](phar.constants.md#phar.constants.fileformat) доступна для класу [Phar](class.phar.md)
+Одна из[констант формату файлів](phar.constants.md#phar.constants.fileformat)доступная для класса[Phar](class.phar.md)
 
 ### Помилки
 
@@ -44,7 +46,7 @@ int `$format`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharData::construct()****
+**Пример #1 Пример использования**PharData::\_\_construct()\*\*\*\*
 
 ```php
 <?php

@@ -3,8 +3,9 @@ navigation:
   - function.jdtojewish.md: « jdtojewish
   - function.jdtounix.md: jdtounix »
   - index.md: PHP Manual
-  - ref.calendar.md: Календарь
+  - ref.calendar.md: Календар
 title: jdtojulian
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # jdtojulian
 
@@ -32,5 +33,5 @@ jdtojulian(int $julian_day): string
 
 ### Дивіться також
 
--   [juliantojd()](function.juliantojd.md) - Переказує дату за юліанським календарем у число днів у юліанському літочисленні
--   [calfromjd()](function.cal-from-jd.md) - Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
+-   [juliantojd()](function.juliantojd.md) \- Переказує дату за юліанським календарем у число днів у юліанському літочисленні
+-   [cal\_from\_jd()](function.cal-from-jd.md) \- Перетворює дату, задану в юліанському календарі, на дату вказаного календаря

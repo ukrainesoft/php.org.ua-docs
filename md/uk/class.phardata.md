@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.phar.md: Phar
 title: Клас PharData
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас PharData
 
@@ -12,68 +13,82 @@ title: Клас PharData
 
 ## Вступ
 
-Клас PharData надає високорівневий інтерфейс доступу і створення tar-і zip-архівів, що не виконуються. Оскільки архіви цих типів не містять заглушку і не можуть бути виконані модулем Phar, є можливість створювати та обробляти звичайні zip- та tar-файли, використовуючи клас PharData, навіть якщо параметр `phar.readonly` у php.ini дорівнює `1`
+Клас PharData надає високорівневий інтерфейс доступу і створення tar-і zip-архівів, що не виконуються. Оскільки архіви цих типів не містять заглушку і не можуть бути виконані модулем Phar, є можливість створювати та обробляти звичайні zip- та tar-файли, використовуючи клас PharData, навіть якщо параметр `phar.readonly`в php.ini равен
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class PharData
     
 
     
-     
-      class PharData
-     
+     extends
+      RecursiveDirectoryIterator
+    
 
-     
-      extends
-       RecursiveDirectoryIterator
-     
+    
+     implements
+      Countable,
 
-     implements 
-       Countable,  ArrayAccess {
+     ArrayAccess {
 
     /* Наследуемые константы */
     
+     public
      const
      int
-      FilesystemIterator::CURRENT_AS_PATHNAME = 32;
-const
+      FilesystemIterator::CURRENT_MODE_MASK;
+public
+     const
      int
-      FilesystemIterator::CURRENT_AS_FILEINFO = 0;
-const
+      FilesystemIterator::CURRENT_AS_PATHNAME;
+public
+     const
      int
-      FilesystemIterator::CURRENT_AS_SELF = 16;
-const
+      FilesystemIterator::CURRENT_AS_FILEINFO;
+public
+     const
      int
-      FilesystemIterator::CURRENT_MODE_MASK = 240;
-const
+      FilesystemIterator::CURRENT_AS_SELF;
+public
+     const
      int
-      FilesystemIterator::KEY_AS_PATHNAME = 0;
-const
+      FilesystemIterator::KEY_MODE_MASK;
+public
+     const
      int
-      FilesystemIterator::KEY_AS_FILENAME = 256;
-const
+      FilesystemIterator::KEY_AS_PATHNAME;
+public
+     const
      int
-      FilesystemIterator::FOLLOW_SYMLINKS = 512;
-const
+      FilesystemIterator::FOLLOW_SYMLINKS;
+public
+     const
      int
-      FilesystemIterator::KEY_MODE_MASK = 3840;
-const
+      FilesystemIterator::KEY_AS_FILENAME;
+public
+     const
      int
-      FilesystemIterator::NEW_CURRENT_AND_KEY = 256;
-const
+      FilesystemIterator::NEW_CURRENT_AND_KEY;
+public
+     const
      int
-      FilesystemIterator::SKIP_DOTS = 4096;
-const
+      FilesystemIterator::OTHER_MODE_MASK;
+public
+     const
      int
-      FilesystemIterator::UNIX_PATHS = 8192;
+      FilesystemIterator::SKIP_DOTS;
+public
+     const
+     int
+      FilesystemIterator::UNIX_PATHS;
 
 
     /* Методы */
     
-   public __construct(    string $filename,    int $flags = FilesystemIterator::SKIP_DOTS | FilesystemIterator::UNIX_PATHS,    ?string $alias = null,    int $format = 0)
+   public __construct(    string $filename,    int $flags = FilesystemIterator::SKIP_DOTS | FilesystemIterator::UNIX_PATHS,    ?string $alias = null,    int $format = 0)
 
     public addEmptyDir(string $directory): void
 public addFile(string $filename, ?string $localName = null): void
@@ -119,33 +134,15 @@ public FilesystemIterator::rewind(): void
 public FilesystemIterator::setFlags(int $flags): void
 
     public DirectoryIterator::current(): mixed
-public DirectoryIterator::getATime(): int
 public DirectoryIterator::getBasename(string $suffix = ""): string
-public DirectoryIterator::getCTime(): int
 public DirectoryIterator::getExtension(): string
 public DirectoryIterator::getFilename(): string
-public DirectoryIterator::getGroup(): int
-public DirectoryIterator::getInode(): int
-public DirectoryIterator::getMTime(): int
-public DirectoryIterator::getOwner(): int
-public DirectoryIterator::getPath(): string
-public DirectoryIterator::getPathname(): string
-public DirectoryIterator::getPerms(): int
-public DirectoryIterator::getSize(): int
-public DirectoryIterator::getType(): string
-public DirectoryIterator::isDir(): bool
 public DirectoryIterator::isDot(): bool
-public DirectoryIterator::isExecutable(): bool
-public DirectoryIterator::isFile(): bool
-public DirectoryIterator::isLink(): bool
-public DirectoryIterator::isReadable(): bool
-public DirectoryIterator::isWritable(): bool
 public DirectoryIterator::key(): mixed
 public DirectoryIterator::next(): void
 public DirectoryIterator::rewind(): void
 public DirectoryIterator::seek(int $offset): void
-public
-   DirectoryIterator::__toString(): string
+public DirectoryIterator::__toString(): string
 public DirectoryIterator::valid(): bool
 
     public SplFileInfo::getATime(): int|false
@@ -182,28 +179,28 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [PharData::addEmptyDir](phardata.addemptydir.md) — Додати порожню директорію до tar/zip-архіву
--   [PharData::addFile](phardata.addfile.md) — Додати існуючі файли до tar/zip-архіву
--   [PharData::addFromString](phardata.addfromstring.md) — Створити файл із заданим вмістом у tar/zip-архіві
--   [PharData::buildFromDirectory](phardata.buildfromdirectory.md) — Створює tar/zip-архів із файлів у директорії
--   [PharData::buildFromIterator](phardata.buildfromiterator.md) — Створення tar/zip-архіву за допомогою ітератора
--   [PharData::compress](phardata.compress.md) — Стискає весь архів tar/zip, використовуючи стиск Gzip або Bzip2
--   [PharData::compressFiles](phardata.compressfiles.md) — Стиснути всі файли у поточному tar/zip-архіві
--   [PharData::construct](phardata.construct.md) - Конструктор об'єкта PharData
--   [PharData::convertToData](phardata.converttodata.md) — Конвертація phar-архіву в tar/zip-архів, що не запускається.
--   [PharData::convertToExecutable](phardata.converttoexecutable.md) — Конвертація tar/zip-архіву з даними в phar-архів, що запускається
--   [PharData::copy](phardata.copy.md) — Скопіювати файл із tar/zip-архіву в новий файл усередині нього ж
--   [PharData::decompress](phardata.decompress.md) - Розпакувати весь Phar-архів
--   [PharData::decompressFiles](phardata.decompressfiles.md) — Розпакувати всі файли у поточному zip-архіві
--   [PharData::delMetadata](phardata.delmetadata.md) — Видалити глобальні метадані для zip-архіву
--   [PharData::delete](phardata.delete.md) — Видалити файл із tar/zip-архіву
--   [PharData::destruct](phardata.destruct.md) — Знищує об'єкт архіву tar або zip, що не виконується.
--   [PharData::extractTo](phardata.extractto.md) — Витягти вміст tar/zip-архіву в директорію
--   [PharData::isWritable](phardata.iswritable.md) — Перевірити, чи можна модифікувати tar/zip-архів
--   [PharData::offsetSet](phardata.offsetset.md) — Зміна вмісту файлу
--   [PharData::offsetUnset](phardata.offsetunset.md) — Видалити файл із tar/zip-архіву
--   [PharData::setAlias](phardata.setalias.md) — Функція заглушка (Phar::setAlias ​​не можна використовувати для PharData)
--   [PharData::setDefaultStub](phardata.setdefaultstub.md) — Функція заглушка (Phar::setDefaultStub не можна використовувати для PharData)
--   [PharData::setMetadata](phardata.setmetadata.md) — Встановити метадані phar-архіву
--   [PharData::setSignatureAlgorithm](phardata.setsignaturealgorithm.md) — Встановити алгоритм підписання phar-архіву та застосування його
--   [PharData::setStub](phardata.setstub.md) — Функція заглушка (Phar::setStub не можна використовувати для PharData)
+-   [PharData::addEmptyDir](phardata.addemptydir.md)— Додати порожню директорію до tar/zip-архіву
+-   [PharData::addFile](phardata.addfile.md)— Додати існуючі файли до tar/zip-архіву
+-   [PharData::addFromString](phardata.addfromstring.md)— Додає файл із рядка до архіву tar/zip
+-   [PharData::buildFromDirectory](phardata.buildfromdirectory.md)— Створює tar/zip-архів із файлів у директорії
+-   [PharData::buildFromIterator](phardata.buildfromiterator.md)— Створення tar/zip-архіву за допомогою ітератора
+-   [PharData::compress](phardata.compress.md)— Стискає весь архів tar/zip, використовуючи стиск Gzip або Bzip2
+-   [PharData::compressFiles](phardata.compressfiles.md)— Стиснути всі файли у поточному tar/zip-архіві
+-   [PharData::\_\_construct](phardata.construct.md) \- Конструктор об'єкта PharData
+-   [PharData::convertToData](phardata.converttodata.md)— Конвертація phar-архіву в tar/zip-архів, що не запускається.
+-   [PharData::convertToExecutable](phardata.converttoexecutable.md)— Конвертація tar/zip-архіву з даними в phar-архів, що запускається
+-   [PharData::copy](phardata.copy.md)— Скопіювати файл із tar/zip-архіву в новий файл усередині нього ж
+-   [PharData::decompress](phardata.decompress.md) \- Розпакувати весь Phar-архів
+-   [PharData::decompressFiles](phardata.decompressfiles.md)— Розпакувати всі файли у поточному zip-архіві
+-   [PharData::delMetadata](phardata.delmetadata.md)— Видалити глобальні метадані для zip-архіву
+-   [PharData::delete](phardata.delete.md)— Видалити файл із tar/zip-архіву
+-   [PharData::\_\_destruct](phardata.destruct.md)— Знищує об'єкт архіву tar або zip, що не виконується.
+-   [PharData::extractTo](phardata.extractto.md)— Витягти вміст tar/zip-архіву в директорію
+-   [PharData::isWritable](phardata.iswritable.md)— Перевірити, чи можна модифікувати tar/zip-архів
+-   [PharData::offsetSet](phardata.offsetset.md)— Зміна вмісту файлу
+-   [PharData::offsetUnset](phardata.offsetunset.md)— Видалити файл із tar/zip-архіву
+-   [PharData::setAlias](phardata.setalias.md)— Функція заглушка (Phar::setAlias ​​не можна використовувати для PharData)
+-   [PharData::setDefaultStub](phardata.setdefaultstub.md)— Функція заглушка (Phar::setDefaultStub не можна використовувати для PharData)
+-   [PharData::setMetadata](phardata.setmetadata.md)— Встановити метадані phar-архіву
+-   [PharData::setSignatureAlgorithm](phardata.setsignaturealgorithm.md)— Встановити алгоритм підписання phar-архіву та застосування його
+-   [PharData::setStub](phardata.setstub.md)— Функція заглушка (Phar::setStub не можна використовувати для PharData)

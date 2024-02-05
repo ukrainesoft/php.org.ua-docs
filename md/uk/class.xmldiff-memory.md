@@ -1,12 +1,13 @@
 ---
 navigation:
-  - xmldiff-dom.merge.md: '« XMLDiffDOM::merge'
-  - xmldiff-memory.diff.md: 'XMLDiffMemory::diff »'
+  - xmldiff-dom.merge.md: '« XMLDiff\\DOM::merge'
+  - xmldiff-memory.diff.md: 'XMLDiff\\Memory::diff »'
   - index.md: PHP Manual
   - book.xmldiff.md: XMLDiff
-title: Клас XMLDiffMemory
+title: Клас XMLDiff\\Memory
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас XMLDiffMemory
+# Клас XMLDiff\\Memory
 
 (PECL xmldiff >= 0.8.0)
 
@@ -46,5 +47,5 @@ abstract public XMLDiff\Base::merge(mixed $src, mixed $diff): mixed
 
 ## Зміст
 
--   [XMLDiffMemory::diff](xmldiff-memory.diff.md) — Порівняння двох документів XML
--   [XMLDiffMemory::merge](xmldiff-memory.merge.md) — Застосувати зміни до документа XML
+-   [XMLDiff\\Memory::diff](xmldiff-memory.diff.md)— Порівняння двох документів XML
+-   [XMLDiff\\Memory::merge](xmldiff-memory.merge.md)— Застосувати зміни до документа XML

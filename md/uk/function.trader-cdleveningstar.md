@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdleveningdojistar.md: « tradercdleveningdojistar
-  - function.trader-cdlgapsidesidewhite.md: tradercdlgapsidesidewhite »
+  - function.trader-cdleveningdojistar.md: « trader\_cdleveningdojistar
+  - function.trader-cdlgapsidesidewhite.md: trader\_cdlgapsidesidewhite »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdleveningstar
+  - ref.trader.md: Функції Trader
+title: trader\_cdleveningstar
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdleveningstar
+# trader\_cdleveningstar
 
 (PECL trader >= 0.2.0)
 
-tradercdleveningstar — Вечірня зірка
+trader\_cdleveningstar — Вечірня зірка
 
 ### Опис
 
 ```methodsynopsis
-trader_cdleveningstar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+trader_cdleveningstar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
 ```
 
 ### Список параметрів

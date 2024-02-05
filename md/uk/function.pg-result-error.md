@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-result-error-field.md: « pgresulterrorfield
-  - function.pg-result-seek.md: пгresultseek »
+  - function.pg-result-error-field.md: « pg\_result\_error\_field
+  - function.pg-result-seek.md: pg\_result\_seek »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгresulterror
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_result\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгresulterror
+# pg\_result\_error
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгresulterror — Повертає повідомлення про помилку, пов'язане із запитом результату
+pg\_result\_error — Повертає повідомлення про помилку, пов'язане із запитом результату
 
 ### Опис
 
@@ -18,17 +19,17 @@ title: пгresulterror
 pg_result_error(PgSql\Result $result): string|false
 ```
 
-**пгresulterror()** повертає повідомлення про будь-яку помилку, пов'язану з екземпляром `result`. Таким чином, можна отримати більш правильне повідомлення про помилку, ніж при використанні [пгlasterror()](function.pg-last-error.md)
+**pg\_result\_error()** повертає повідомлення про будь-яку помилку, пов'язану з екземпляром `result`. Таким чином, можна отримати більш правильне повідомлення про помилку, ніж при використанні [pg\_last\_error()](function.pg-last-error.md)
 
-Функція [пгresulterrorfield()](function.pg-result-error-field.md) може дати більш детальну інформацію про помилку, ніж **пгresulterror()**
+Функция[pg\_result\_error\_field()](function.pg-result-error-field.md) може дати більш детальну інформацію про помилку, ніж **pg\_result\_error()**
 
-Так як [пгquery()](function.pg-query.md) повертає **`false`** у разі виникнення помилки запиту необхідно використовувати [пгsendquery()](function.pg-send-query.md) і [пгgetresult()](function.pg-get-result.md) для отримання результату дескриптора.
+Так как[pg\_query()](function.pg-query.md) повертає **`false`** у разі виникнення помилки запиту необхідно використовувати [pg\_send\_query()](function.pg-send-query.md) і [pg\_get\_result()](function.pg-get-result.md)для получения дескриптора результата.
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSql\\Result](class.pgsql-result.md), що повертається функціями [pg\_query()](function.pg-query.md) [pg\_query\_params()](function.pg-query-params.md) або [pg\_execute()](function.pg-execute.md)(среди прочего).
 
 ### Значення, що повертаються
 
@@ -36,13 +37,13 @@ pg_result_error(PgSql\Result $result): string|false
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгresulterror()****
+**Пример #1 Пример использования**pg\_result\_error()\*\*\*\*
 
 ```php
 <?php
@@ -59,9 +60,9 @@ pg_result_error(PgSql\Result $result): string|false
 
 ### Дивіться також
 
--   [пгresulterrorfield()](function.pg-result-error-field.md) - Повертає конкретне поле зі звіту про помилки
--   [пгquery()](function.pg-query.md) - Виконує запит
--   [пгsendquery()](function.pg-send-query.md) - Надсилає асинхронний запит
--   [пгgetresult()](function.pg-get-result.md) - Отримання результату асинхронного запиту
--   [пгlasterror()](function.pg-last-error.md) - Отримує повідомлення про останню помилку на з'єднанні з базою даних.
--   [пгlastnotice()](function.pg-last-notice.md) - Повертає останнє повідомлення від сервера PostgreSQL
+-   [pg\_result\_error\_field()](function.pg-result-error-field.md) \- Повертає конкретне поле зі звіту про помилки
+-   [pg\_query()](function.pg-query.md) \- Виконує запит
+-   [pg\_send\_query()](function.pg-send-query.md) \- Надсилає асинхронний запит
+-   [pg\_get\_result()](function.pg-get-result.md) \- Отримання результату асинхронного запиту
+-   [pg\_last\_error()](function.pg-last-error.md) \- Отримує повідомлення про останню помилку на з'єднанні з базою даних.
+-   [pg\_last\_notice()](function.pg-last-notice.md) \- Повертає останнє повідомлення від сервера PostgreSQL

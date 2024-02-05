@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isInternal'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::isInternal
 
@@ -18,7 +19,7 @@ ReflectionClass::isInternal — Перевіряє, чи клас вбудова
 public ReflectionClass::isInternal(): bool
 ```
 
-Перевіряє, чи клас вбудований в модуль або в ядро, а не користувальницьким.
+Перевіряє, чи є клас вбудованим у модуль або в ядро, а не власним.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public ReflectionClass::isInternal(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::isInternal()****
+**Пример #1 Пример использования**ReflectionClass::isInternal()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ var_dump($userclass->isInternal());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -53,4 +54,4 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionClass::isUserDefined()](reflectionclass.isuserdefined.md) - Перевіряє, чи є клас для користувача
+-   [ReflectionClass::isUserDefined()](reflectionclass.isuserdefined.md) \- Перевіряє, чи є клас для користувача

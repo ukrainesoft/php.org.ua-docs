@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getExpandFilterQueries'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getExpandFilterQueries
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrQuery::getExpandFilterQueries — Повертає запити на розширений фільтр
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-lob2-close.md: « cubridlob2close
-  - function.cubrid-lob2-import.md: cubridlob2import »
+  - function.cubrid-lob2-close.md: « cubrid\_lob2\_close
+  - function.cubrid-lob2-import.md: cubrid\_lob2\_import »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridlob2export
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_lob2\_export
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridlob2export
+# cubrid\_lob2\_export
 
 (PECL CUBRID >= 8.4.1)
 
-cubridlob2export — Експортує LOB-об'єкт у файл
+cubrid\_lob2\_export — Експортує LOB-об'єкт у файл
 
 ### Опис
 
@@ -18,13 +19,13 @@ cubridlob2export — Експортує LOB-об'єкт у файл
 cubrid_lob2_export(resource $lob_identifier, string $file_name): bool
 ```
 
-Функція **cubridlob2export()** використовується для збереження вмісту даних BLOB/CLOB у файл. Щоб використовувати цю функцію, потрібно використовувати [cubridlob2new()](function.cubrid-lob2-new.md) або спочатку отримати LOB-об'єкт із бази даних CUBRID. Якщо файл існує, операція завершиться помилкою. Функція не впливатиме на положення курсору LOB-об'єкта. Вона керує всім LOB-об'єктом.
+Функция**cubrid\_lob2\_export()** використовується для збереження вмісту даних BLOB/CLOB у файл. Щоб використовувати цю функцію, потрібно використовувати [cubrid\_lob2\_new()](function.cubrid-lob2-new.md) або спочатку отримати LOB-об'єкт із бази даних CUBRID. Якщо файл існує, операція завершиться помилкою. Функція не впливатиме на положення курсору LOB-об'єкта. Вона керує всім LOB-об'єктом.
 
 ### Список параметрів
 
 `lob_identifier`
 
-Ідентифікатор LOB, отриманий у результаті [cubridlob2new()](function.cubrid-lob2-new.md) або отриманий із набору результатів.
+Ідентифікатор LOB, отриманий у результаті [cubrid\_lob2\_new()](function.cubrid-lob2-new.md) або отриманий із набору результатів.
 
 `filename`
 
@@ -32,11 +33,11 @@ cubrid_lob2_export(resource $lob_identifier, string $file_name): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridlob2export()****
+**Пример #1 Пример использования**cubrid\_lob2\_export()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubridlob2new()](function.cubrid-lob2-new.md) - Створює об'єкт LOB
--   [cubridlob2close()](function.cubrid-lob2-close.md) - Закриває об'єкт LOB
--   [cubridlob2import()](function.cubrid-lob2-import.md) - Імпортує дані BLOB/CLOB із файлу
--   [cubridlob2bind()](function.cubrid-lob2-bind.md) - Зв'язує об'єкт LOB або рядок у вигляді об'єкта LOB з підготовленим оператором як параметри
+-   [cubrid\_lob2\_new()](function.cubrid-lob2-new.md) \- Створює об'єкт LOB
+-   [cubrid\_lob2\_close()](function.cubrid-lob2-close.md) \- Закриває об'єкт LOB
+-   [cubrid\_lob2\_import()](function.cubrid-lob2-import.md) \- Імпортує дані BLOB/CLOB із файлу
+-   [cubrid\_lob2\_bind()](function.cubrid-lob2-bind.md) \- Зв'язує об'єкт LOB або рядок у вигляді об'єкта LOB з підготовленим оператором як параметри

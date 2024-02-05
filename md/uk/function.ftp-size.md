@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-site.md: « ftpsite
-  - function.ftp-ssl-connect.md: ftpsslconnect »
+  - function.ftp-site.md: « ftp\_site
+  - function.ftp-ssl-connect.md: ftp\_ssl\_connect »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpsize
+title: ftp\_size
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpsize
+# ftp\_size
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftpsize — Повертає розмір вказаного файлу
+ftp\_size — Повертає розмір вказаного файлу
 
 ### Опис
 
@@ -18,9 +19,9 @@ ftpsize — Повертає розмір вказаного файлу
 ftp_size(FTP\Connection $ftp, string $filename): int
 ```
 
-**ftpsize()** повертає розмір заданого файлу у байтах.
+**ftp\_size()** повертає розмір заданого файлу у байтах.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Не всі сервери FTP підтримують цю можливість.
 
@@ -28,7 +29,7 @@ ftp_size(FTP\Connection $ftp, string $filename): int
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `filename`
 
@@ -40,13 +41,13 @@ ftp_size(FTP\Connection $ftp, string $filename): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpsize()****
+**Пример #1 Пример использования**ftp\_size()\*\*\*\*
 
 ```php
 <?php
@@ -76,4 +77,4 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftprawlist()](function.ftp-rawlist.md) - Повертає докладний список файлів у заданій директорії
+-   [ftp\_rawlist()](function.ftp-rawlist.md) \- Повертає докладний список файлів у заданій директорії

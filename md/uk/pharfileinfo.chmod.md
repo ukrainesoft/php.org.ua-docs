@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.pharfileinfo.md: PharFileInfo
 title: 'PharFileInfo::chmod'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharFileInfo::chmod
 
@@ -18,13 +19,13 @@ PharFileInfo::chmod — Встановлення прав доступу
 public PharFileInfo::chmod(int $perms): void
 ```
 
-**PharFileInfo::chmod()** дозволяє встановлювати біти дозволів на запуск та читання для файлів. Біти запису ігноруються, оскільки налаштовуються під час виконання на основі значення INI-змінної [phar.readonly](phar.configuration.md#ini.phar.readonly). Як і для будь-якого іншого функціоналу, що модифікує phar-архів, необхідно, щоб змінна [phar.readonly](phar.configuration.md#ini.phar.readonly) була відключена для успішної зміни прав на файл в архіві [Phar](class.phar.md). Архіви [PharData](class.phardata.md) немає таких обмежень.
+**PharFileInfo::chmod()** дозволяє встановлювати біти дозволів на запуск та читання для файлів. Біти запису ігноруються, оскільки налаштовуються під час виконання на основі значення INI-змінної [phar.readonly](phar.configuration.md#ini.phar.readonly). Як і для будь-якого іншого функціоналу, що модифікує phar-архів, необхідно, щоб змінна [phar.readonly](phar.configuration.md#ini.phar.readonly) була відключена для успішної зміни прав на файл в архіві [Phar](class.phar.md). Архіви [PharData](class.phardata.md)не имеют таких ограничений.
 
 ### Список параметрів
 
 `perms`
 
-Дозволи (дивіться опис функції [chmod()](function.chmod.md)
+Разрешения (смотрите описание функции[chmod()](function.chmod.md)) .
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public PharFileInfo::chmod(int $perms): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharFileInfo::chmod()****
+**Пример #1 Пример использования**PharFileInfo::chmod()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)

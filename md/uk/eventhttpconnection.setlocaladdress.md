@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttpconnection.md: EventHttpConnection
 title: 'EventHttpConnection::setLocalAddress'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpConnection::setLocalAddress
 
 (PECL event >= 1.2.6-beta)
 
-EventHttpConnection::setLocalAddress — Встановлює IP-адресу, з якої відбуваються з'єднання HTTP.
+EventHttpConnection::setLocalAddress — Встановлює IP-адресу, з якої відбуваються HTTP-з'єднання.
 
 ### Опис
 
@@ -36,4 +37,4 @@ IP-адреса, з якої відбуваються HTTP-з'єднання.
 
 ### Дивіться також
 
--   [EventHttpConnection::setLocalPort()](eventhttpconnection.setlocalport.md) - Встановлює локальний порт, з якого виробляються з'єднання
+-   [EventHttpConnection::setLocalPort()](eventhttpconnection.setlocalport.md) \- Встановлює локальний порт, з якого виробляються з'єднання

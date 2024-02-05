@@ -3,8 +3,9 @@ navigation:
   - ev.examples.md: « Приклади
   - ev.watcher-callbacks.md: Watcher callbacks »
   - index.md: PHP Manual
-  - book.ev.md: Єв
+  - book.ev.md: Ev
 title: Спостерігачі
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Спостерігачі
 
@@ -26,4 +27,4 @@ Ev::run(Ev::RUN_ONCE);
 
 Зверніть увагу, що всі методи, що змінюють властивості спостерігача (*set*, priority і т.д.), автоматично зупиняють та перезапускають спостерігач, якщо він активний, це означає, що всі очікувані повідомлення будуть втрачені.
 
-Також читайте: [Callback-функції спостерігачів](ev.watcher-callbacks.md)
+Также читайте:[Callback-функції спостерігачів](ev.watcher-callbacks.md)

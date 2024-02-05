@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrresponse.md: SolrResponse
 title: 'SolrResponse::getRawResponseHeaders'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrResponse::getRawResponseHeaders
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrResponse::getRawResponseHeaders — Повертає необроблені заголовки відповіді з сервера
 

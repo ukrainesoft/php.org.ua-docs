@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ui-window.md: « UIWindow
-  - ui-window.construct.md: 'ОЙWindow::construct »'
+  - class.ui-window.md: « UI\\Window
+  - ui-window.construct.md: 'UI\\Window::\_\_construct »'
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::add'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::add
+# UI\\Window::add
 
 (UI 0.9.9)
 
-ОЙWindow::add — Додати елемент керування
+UI\\Window::add — Додати елемент керування
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ОЙWindow::add'
 public UI\Window::add(UI\Control $control)
 ```
 
-Додати елемент керування до вікна
+Додасть елемент керування до вікна
 
 ### Список параметрів
 

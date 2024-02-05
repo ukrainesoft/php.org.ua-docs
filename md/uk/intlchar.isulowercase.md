@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isULowercase'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isULowercase
 
@@ -22,7 +23,7 @@ public static IntlChar::isULowercase(int|string $codepoint): ?bool
 
 Те саме, що й `IntlChar::hasBinaryProperty($codepoint, IntlChar::PROPERTY_LOWERCASE)`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Відрізняється від [IntlChar::islower()](intlchar.islower.md) і повертає **`true`** для більшої кількості символів.
 
@@ -30,7 +31,7 @@ public static IntlChar::isULowercase(int|string $codepoint): ?bool
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
@@ -50,7 +51,7 @@ var_dump(IntlChar::isULowercase("1"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -62,6 +63,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::islower()](intlchar.islower.md) - Перевірити, чи в нижньому регістрі символ
--   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) - Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::islower()](intlchar.islower.md) \- Перевірити, чи в нижньому регістрі символ
+-   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) \- Перевірити бінарну властивість Unicode для символу
 -   **`IntlChar::PROPERTY_LOWERCASE`**

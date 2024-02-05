@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-databaseobject.getname.md: '« DatabaseObject::getName'
-  - class.mysql-xdevapi-docresult.md: mysqlxdevapiDocResult »
+  - class.mysql-xdevapi-docresult.md: mysql\_xdevapi\\DocResult »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-databaseobject.md: mysqlxdevapiDatabaseObject
+  - class.mysql-xdevapi-databaseobject.md: mysql\_xdevapi\\DatabaseObject
 title: 'DatabaseObject::getSession'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DatabaseObject::getSession
 
@@ -22,7 +23,7 @@ abstract public mysql_xdevapi\DatabaseObject::getSession(): mysql_xdevapi\Sessio
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ abstract public mysql_xdevapi\DatabaseObject::getSession(): mysql_xdevapi\Sessio
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiDatabaseObject::getSession()****
+**Пример #1 Пример использования**mysql\_xdevapi\\DatabaseObject::getSession()\*\*\*\*
 
 ```php
 <?php

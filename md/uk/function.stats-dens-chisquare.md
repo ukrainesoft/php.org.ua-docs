@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-dens-cauchy.md: « statsdenscauchy
-  - function.stats-dens-exponential.md: statsdensexponential »
+  - function.stats-dens-cauchy.md: « stats\_dens\_cauchy
+  - function.stats-dens-exponential.md: stats\_dens\_exponential »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsdenschisquare
+title: stats\_dens\_chisquare
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsdenschisquare
+# stats\_dens\_chisquare
 
 (PECL stats >= 1.0.0)
 
-statsdenschisquare - Щільність ймовірності розподілу хі-квадрат
+stats\_dens\_chisquare - Щільність ймовірності розподілу хі-квадрат
 
 ### Опис
 
@@ -18,7 +19,7 @@ statsdenschisquare - Щільність ймовірності розподіл�
 stats_dens_chisquare(float $x, float $dfr): float
 ```
 
-Повертає щільність ймовірності для `x`, де `dfr` відбиває ступеня свободи.
+Повертає щільність ймовірності для `x`, где`dfr` відбиває ступеня свободи.
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ stats_dens_chisquare(float $x, float $dfr): float
 
 ### Значення, що повертаються
 
-Щільність ймовірності для `x` або **`false`** у разі виникнення помилки.
+Щільність ймовірності для `x`или\*\*`false`\*\*в случае возникновения ошибки.

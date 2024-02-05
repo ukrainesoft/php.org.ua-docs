@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-file.md: « isfile
-  - function.is-readable.md: ісreadable »
+  - function.is-file.md: « is\_file
+  - function.is-readable.md: is\_readable »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
-title: ісlink
+title: is\_link
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісlink
+# is\_link
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісlink — Визначає, чи є файл символічним посиланням
+is\_link — Визначає, чи є файл символічним посиланням
 
 ### Опис
 
@@ -43,7 +44,7 @@ is_link(string $filename): bool
 $link = 'uploads';
 
 if (is_link($link)) {
-    echo(readlink($link));
+    echo readlink($link);
 } else {
     symlink('uploads.php', $link);
 }
@@ -56,10 +57,10 @@ if (is_link($link)) {
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), смотрите в разделе[Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 
--   [ісdir()](function.is-dir.md) - Визначає, чи є ім'я файлу директорією
--   [ісfile()](function.is-file.md) - Визначає, чи файл є звичайним файлом
--   [readlink()](function.readlink.md) - Повертає файл, на який вказує символічне посилання
+-   [is\_dir()](function.is-dir.md) \- Визначає, чи є ім'я файлу директорією
+-   [is\_file()](function.is-file.md) \- Визначає, чи файл є звичайним файлом
+-   [readlink()](function.readlink.md) \- Повертає файл, на який вказує символічне посилання

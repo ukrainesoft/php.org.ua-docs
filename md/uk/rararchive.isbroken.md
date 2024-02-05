@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.rararchive.md: RarArchive
 title: 'RarArchive::isBroken'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarArchive::isBroken
 
-# rarbrokenіс
+# rar\_broken\_is
 
 (PECL rar >= 3.0.0)
 
-RarArchive::isBroken -- rarbrokenis — Перевіряє, чи не зламано архів (не завершено)
+RarArchive::isBroken -- rar\_broken\_is — Перевіряє, чи не зламано архів (не завершено)
 
 ### Опис
 
@@ -34,7 +35,7 @@ rar_broken_is(RarArchive $rarfile): bool
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [raropen()](rararchive.open.md)
+Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [rar\_open()](rararchive.open.md)
 
 ### Значення, що повертаються
 
@@ -54,7 +55,7 @@ var_dump($arch->isBroken());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -74,4 +75,4 @@ var_dump(rar_broken_is($arch));
 
 ### Дивіться також
 
--   [RarArchive::setAllowBroken()](rararchive.setallowbroken.md) - Чи відкривати пошкоджені архіви
+-   [RarArchive::setAllowBroken()](rararchive.setallowbroken.md) \- Чи відкривати пошкоджені архіви

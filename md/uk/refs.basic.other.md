@@ -3,221 +3,245 @@ navigation:
   - syncsharedmemory.write.md: '« SyncSharedMemory::write'
   - book.geoip.md: GeoIP »
   - index.md: PHP Manual
-  - funcref.md: Справочник функций
+  - funcref.md: Довідник функцій
 title: Інші базові модулі
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інші базові модулі
 
--   [GeoIP](book.geoip.md) - Geo IP Location
-    -   [Введение](intro.geoip.md)
+-   [GeoIP](book.geoip.md)— Geo IP Location
+    -   [Вступ](intro.geoip.md)
     -   [Встановлення та налаштування](geoip.setup.md)
     -   [Обумовлені константи](geoip.constants.md)
-    -   [Функции GeoIP](ref.geoip.md)
--   [FANN](book.fann.md) - Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
-    -   [Введение](intro.fann.md)
+    -   [Функції GeoIP](ref.geoip.md)
+-   [FANN](book.fann.md) \- Швидка штучна нейронна мережа (Fast Artificial Neural Network або FANN)
+    -   [Вступ](intro.fann.md)
     -   [Встановлення та налаштування](fann.setup.md)
     -   [Обумовлені константи](fann.constants.md)
     -   [Приклади](fann.examples.md)
-    -   [Функции Fann](ref.fann.md)
-    -   [FANNConnection](class.fannconnection.md) - Клас FANNConnection
+    -   [Функції Fann](ref.fann.md)
+    -   [FANNConnection](class.fannconnection.md) \- Клас FANNConnection
 -   [Igbinary](book.igbinary.md)
-    -   [Введение](intro.igbinary.md)
+    -   [Вступ](intro.igbinary.md)
     -   [Встановлення та налаштування](igbinary.setup.md)
-    -   [Функции Igbinary](ref.igbinary.md)
--   [JSON](book.json.md) - JavaScript Object Notation
-    -   [Введение](intro.json.md)
+    -   [Функції Igbinary](ref.igbinary.md)
+-   [JSON](book.json.md)— JavaScript Object Notation
+    -   [Вступ](intro.json.md)
     -   [Встановлення та налаштування](json.setup.md)
     -   [Обумовлені константи](json.constants.md)
-    -   [JsonException](class.jsonexception.md) - Клас JsonException
-    -   [JsonSerializable](class.jsonserializable.md) - Інтерфейс JsonSerializable
-    -   [Функции JSON](ref.json.md)
+    -   [JsonException](class.jsonexception.md) \- Клас JsonException
+    -   [JsonSerializable](class.jsonserializable.md) \- Інтерфейс JsonSerializable
+    -   [Функції JSON](ref.json.md)
+-   [Simdjson](book.simdjson.md)
+    -   [Вступ](intro.simdjson.md)
+    -   [Встановлення та налаштування](simdjson.setup.md)
+    -   [Обумовлені константи](simdjson.constants.md)
+    -   [Функції Simdjson](ref.simdjson.md)
+    -   [SimdJsonException](class.simdjsonexception.md) \- Клас SimdJsonException
+    -   [SimdJsonValueError](class.simdjsonvalueerror.md) \- Клас SimdJsonValueError
 -   [Lua](book.lua.md)
-    -   [Введение](intro.lua.md)
+    -   [Вступ](intro.lua.md)
     -   [Встановлення та налаштування](lua.setup.md)
-    -   [Lua](class.lua.md) - Клас Lua
-    -   [LuaClosure](class.luaclosure.md) - Клас LuaClosure
+    -   [Lua](class.lua.md) \- Клас Lua
+    -   [LuaClosure](class.luaclosure.md) \- Клас LuaClosure
 -   [LuaSandbox](book.luasandbox.md)
-    -   [Введение](intro.luasandbox.md)
+    -   [Вступ](intro.luasandbox.md)
     -   [Встановлення та налаштування](luasandbox.setup.md)
-    -   [Отличия от стандартного Lua](reference.luasandbox.differences.md)
+    -   [Відмінності від стандартного Lua](reference.luasandbox.differences.md)
     -   [Приклади](luasandbox.examples.md)
-    -   [LuaSandbox](class.luasandbox.md) - Клас LuaSandbox
-    -   [LuaSandboxFunction](class.luasandboxfunction.md) - Клас LuaSandboxFunction
-    -   [LuaSandboxError](class.luasandboxerror.md) - Клас LuaSandboxError
-    -   [LuaSandboxErrorError](class.luasandboxerrorerror.md) - Клас LuaSandboxErrorError
-    -   [LuaSandboxFatalError](class.luasandboxfatalerror.md) - Клас LuaSandboxFatalError
-    -   [LuaSandboxMemoryError](class.luasandboxmemoryerror.md) - Клас LuaSandboxMemoryError
-    -   [LuaSandboxRuntimeError](class.luasandboxruntimeerror.md) - Клас LuaSandboxRuntimeError
-    -   [LuaSandboxSyntaxError](class.luasandboxsyntaxerror.md) - Клас LuaSandboxSyntaxError
-    -   [LuaSandboxTimeoutError](class.luasandboxtimeouterror.md) - Клас LuaSandboxTimeoutError
--   [Misc.](book.misc.md) - Різні функції
-    -   [Введение](intro.misc.md)
+    -   [LuaSandbox](class.luasandbox.md) \- Клас LuaSandbox
+    -   [LuaSandboxFunction](class.luasandboxfunction.md) \- Клас LuaSandboxFunction
+    -   [LuaSandboxError](class.luasandboxerror.md) \- Клас LuaSandboxError
+    -   [LuaSandboxErrorError](class.luasandboxerrorerror.md) \- Клас LuaSandboxErrorError
+    -   [LuaSandboxFatalError](class.luasandboxfatalerror.md) \- Клас LuaSandboxFatalError
+    -   [LuaSandboxMemoryError](class.luasandboxmemoryerror.md) \- Клас LuaSandboxMemoryError
+    -   [LuaSandboxRuntimeError](class.luasandboxruntimeerror.md) \- Клас LuaSandboxRuntimeError
+    -   [LuaSandboxSyntaxError](class.luasandboxsyntaxerror.md) \- Клас LuaSandboxSyntaxError
+    -   [LuaSandboxTimeoutError](class.luasandboxtimeouterror.md) \- Клас LuaSandboxTimeoutError
+-   [Misc.](book.misc.md) \- Різні функції
+    -   [Вступ](intro.misc.md)
     -   [Встановлення та налаштування](misc.setup.md)
     -   [Обумовлені константи](misc.constants.md)
     -   [Різні функції](ref.misc.md)
-    -   [Список изменений](changelog.misc.md)
+    -   [список змін](changelog.misc.md)
+-   [Random](book.random.md)— Генератори випадкових чисел та функції, пов'язані з випадковістю
+    -   [Вступ](intro.random.md)
+    -   [Встановлення та налаштування](random.setup.md)
+    -   [Обумовлені константи](random.constants.md)
+    -   [Приклади](random.examples.md)
+    -   [Функції Random](ref.random.md)
+    -   [Random\\Randomizer](class.random-randomizer.md) \- Клас Random\\Randomizer
+    -   [Random\\Engine](class.random-engine.md) \- Інтерфейс Random\\Engine
+    -   [Random\\CryptoSafeEngine](class.random-cryptosafeengine.md) \- Інтерфейс Random\\CryptoSafeEngine
+    -   [Random\\Engine\\Secure](class.random-engine-secure.md) \- Клас Random\\Engine\\Secure
+    -   [Random\\Engine\\Mt19937](class.random-engine-mt19937.md) \- Клас Random\\Engine\\Mt19937
+    -   [Random\\Engine\\PcgOneseq128XslRr64](class.random-engine-pcgoneseq128xslrr64.md) \- Клас Random\\Engine\\PcgOneseq128XslRr64
+    -   [Random\\Engine\\Xoshiro256StarStar](class.random-engine-xoshiro256starstar.md) \- Клас Random\\Engine\\Xoshiro256StarStar
+    -   [Random\\RandomError](class.random-randomerror.md) \- Клас Random\\RandomError
+    -   [Random\\BrokenRandomEngineError](class.random-brokenrandomengineerror.md) \- Клас Random\\BrokenRandomEngineError
+    -   [Random\\RandomException](class.random-randomexception.md) \- Клас Random\\RandomException
 -   [Seaslog](book.seaslog.md)
-    -   [Введение](intro.seaslog.md)
+    -   [Вступ](intro.seaslog.md)
     -   [Встановлення та налаштування](seaslog.setup.md)
     -   [Обумовлені константи](seaslog.constants.md)
     -   [Приклади](seaslog.examples.md)
-    -   [Функции Seaslog](ref.seaslog.md)
-    -   [SeasLog](class.seaslog.md) - Клас SeasLog
--   [SPL](book.spl.md) - Стандартна бібліотека PHP (SPL)
-    -   [Введение](intro.spl.md)
+    -   [Функції Seaslog](ref.seaslog.md)
+    -   [SeasLog](class.seaslog.md) \- Клас SeasLog
+-   [SPL](book.spl.md) \- Стандартна бібліотека PHP (SPL)
+    -   [Вступ](intro.spl.md)
     -   [Встановлення та налаштування](spl.setup.md)
     -   [Обумовлені константи](spl.constants.md)
     -   [Структури даних](spl.datastructures.md)
     -   [Ітератори](spl.iterators.md)
     -   [Інтерфейси](spl.interfaces.md)
-    -   [Исключения](spl.exceptions.md)
+    -   [Винятки](spl.exceptions.md)
     -   [Функції SPL](ref.spl.md)
-    -   [Обработка файлов](spl.files.md)
+    -   [Обробка файлів](spl.files.md)
     -   [Різні класи та інтерфейси](spl.misc.md)
 -   [Потоки](book.stream.md)
-    -   [Введение](intro.stream.md)
+    -   [Вступ](intro.stream.md)
     -   [Встановлення та налаштування](stream.setup.md)
     -   [Обумовлені константи](stream.constants.md)
     -   [Поточні фільтри](stream.filters.md)
     -   [Контексти потоків](stream.contexts.md)
-    -   [Ошибки потока](stream.errors.md)
+    -   [Помилки потоку](stream.errors.md)
     -   [Приклади](stream.examples.md)
-    -   [phpuserfilter](class.php-user-filter.md) - Клас phpuserfilter
-    -   [streamWrapper](class.streamwrapper.md) - Клас streamWrapper
+    -   [php\_user\_filter](class.php-user-filter.md) \- Клас php\_user\_filter
+    -   [streamWrapper](class.streamwrapper.md) \- Клас streamWrapper
     -   [Функції для роботи з потоками](ref.stream.md)
 -   [Swoole](book.swoole.md)
-    -   [Введение](intro.swoole.md)
+    -   [Вступ](intro.swoole.md)
     -   [Встановлення та налаштування](swoole.setup.md)
     -   [Обумовлені константи](swoole.constants.md)
-    -   [Функции Swoole](ref.swoole-funcs.md)
-    -   [SwooleAsync](class.swoole-async.md) - Клас SwooleAsync
-    -   [SwooleAtomic](class.swoole-atomic.md) - Клас SwooleAtomic
-    -   [SwooleBuffer](class.swoole-buffer.md) - Клас SwooleBuffer
-    -   [SwooleChannel](class.swoole-channel.md) - Клас SwooleChannel
-    -   [SwooleClient](class.swoole-client.md) - Клас SwooleClient
-    -   [SwooleConnectionIterator](class.swoole-connection-iterator.md) - Клас SwooleConnectionIterator
-    -   [SwooleCoroutine](class.swoole-coroutine.md) - Клас SwooleCoroutine
-    -   [SwooleEvent](class.swoole-event.md) - Клас SwooleEvent
-    -   [SwooleException](class.swoole-exception.md) - Клас SwooleException
-    -   [SwooleHttpClient](class.swoole-http-client.md) - Клас SwooleHttpClient
-    -   [SwooleHttpRequest](class.swoole-http-request.md) - Клас SwooleHttpRequest
-    -   [SwooleHttpResponse](class.swoole-http-response.md) - Клас SwooleHttpResponse
-    -   [SwooleHttpServer](class.swoole-http-server.md) - Клас SwooleHttpServer
-    -   [SwooleLock](class.swoole-lock.md) - Клас SwooleLock
-    -   [SwooleMmap](class.swoole-mmap.md) - Клас SwooleMmap
-    -   [SwooleMySQL](class.swoole-mysql.md) - Клас SwooleMySQL
-    -   [SwooleMySQLException](class.swoole-mysql-exception.md) - Клас SwooleMySQLException
-    -   [SwooleProcess](class.swoole-process.md) - Клас SwooleProcess
-    -   [SwooleRedisServer](class.swoole-redis-server.md) - Клас SwooleRedisServer
-    -   [SwooleSerialize](class.swoole-serialize.md) - Клас SwooleSerialize
-    -   [SwooleServer](class.swoole-server.md) - Клас SwooleServer
-    -   [SwooleTable](class.swoole-table.md) - Клас SwooleTable
-    -   [SwooleTimer](class.swoole-timer.md) - Клас SwooleTimer
-    -   [SwooleWebSocketFrame](class.swoole-websocket-frame.md) - Клас SwooleWebSocketFrame
-    -   [SwooleWebSocketServer](class.swoole-websocket-server.md) - Клас SwooleWebSocketServer
+    -   [Функції Swoole](ref.swoole-funcs.md)
+    -   [Swoole\\Async](class.swoole-async.md) \- Клас Swoole\\Async
+    -   [Swoole\\Atomic](class.swoole-atomic.md) \- Клас Swoole\\Atomic
+    -   [Swoole\\Buffer](class.swoole-buffer.md) \- Клас Swoole\\Buffer
+    -   [Swoole\\Channel](class.swoole-channel.md) \- Клас Swoole\\Channel
+    -   [Swoole\\Client](class.swoole-client.md) \- Клас Swoole\\Client
+    -   [Swoole\\Connection\\Iterator](class.swoole-connection-iterator.md) \- Клас Swoole\\Connection\\Iterator
+    -   [Swoole\\Coroutine](class.swoole-coroutine.md) \- Клас Swoole\\Coroutine
+    -   [Swoole\\Event](class.swoole-event.md) \- Клас Swoole\\Event
+    -   [Swoole\\Exception](class.swoole-exception.md) \- Клас Swoole\\Exception
+    -   [Swoole\\Http\\Client](class.swoole-http-client.md) \- Клас Swoole\\Http\\Client
+    -   [Swoole\\Http\\Request](class.swoole-http-request.md) \- Клас Swoole\\Http\\Request
+    -   [Swoole\\Http\\Response](class.swoole-http-response.md) \- Клас Swoole\\Http\\Response
+    -   [Swoole\\Http\\Server](class.swoole-http-server.md) \- Клас Swoole\\Http\\Server
+    -   [Swoole\\Lock](class.swoole-lock.md) \- Клас Swoole\\Lock
+    -   [Swoole\\Mmap](class.swoole-mmap.md) \- Клас Swoole\\Mmap
+    -   [Swoole\\MySQL](class.swoole-mysql.md) \- Клас Swoole\\MySQL
+    -   [Swoole\\MySQL\\Exception](class.swoole-mysql-exception.md) \- Клас Swoole\\MySQL\\Exception
+    -   [Swoole\\Process](class.swoole-process.md) \- Клас Swoole\\Process
+    -   [Swoole\\Redis\\Server](class.swoole-redis-server.md) \- Клас Swoole\\Redis\\Server
+    -   [Swoole\\Serialize](class.swoole-serialize.md) \- Клас Swoole\\Serialize
+    -   [Swoole\\Server](class.swoole-server.md) \- Клас Swoole\\Server
+    -   [Swoole\\Table](class.swoole-table.md) \- Клас Swoole\\Table
+    -   [Swoole\\Timer](class.swoole-timer.md) \- Клас Swoole\\Timer
+    -   [Swoole\\WebSocket\\Frame](class.swoole-websocket-frame.md) \- Клас Swoole\\WebSocket\\Frame
+    -   [Swoole\\WebSocket\\Server](class.swoole-websocket-server.md) \- Клас Swoole\\WebSocket\\Server
 -   [Tidy](book.tidy.md)
-    -   [Введение](intro.tidy.md)
+    -   [Вступ](intro.tidy.md)
     -   [Встановлення та налаштування](tidy.setup.md)
     -   [Обумовлені константи](tidy.constants.md)
     -   [Приклади](tidy.examples.md)
-    -   [tidy](class.tidy.md) - Клас tidy
-    -   [tidyNode](class.tidynode.md) - Клас tidyNode
+    -   [tidy](class.tidy.md) \- Клас tidy
+    -   [tidyNode](class.tidynode.md) \- Клас tidyNode
     -   [Tidy](ref.tidy.md)
 -   [Лексер (Tokenizer)](book.tokenizer.md)
-    -   [Введение](intro.tokenizer.md)
+    -   [Вступ](intro.tokenizer.md)
     -   [Встановлення та налаштування](tokenizer.setup.md)
     -   [Обумовлені константи](tokenizer.constants.md)
     -   [Приклади](tokenizer.examples.md)
-    -   [PhpToken](class.phptoken.md) - Клас PhpToken
-    -   [Функции PHP-лексера (tokenizer)](ref.tokenizer.md)
+    -   [PhpToken](class.phptoken.md) \- Клас PhpToken
+    -   [Функції PHP-лексера (tokenizer)](ref.tokenizer.md)
 -   [URL](book.url.md)
-    -   [Введение](intro.url.md)
+    -   [Вступ](intro.url.md)
     -   [Встановлення та налаштування](url.setup.md)
     -   [Обумовлені константи](url.constants.md)
     -   [Функції URL](ref.url.md)
--   [V8js](book.v8js.md) - Інтеграція V8 Javascript Engine
-    -   [Введение](intro.v8js.md)
+-   [V8js](book.v8js.md) \- Інтеграція V8 Javascript Engine
+    -   [Вступ](intro.v8js.md)
     -   [Встановлення та налаштування](v8js.setup.md)
     -   [Приклади](v8js.examples.md)
-    -   [V8Js](class.v8js.md) - Клас V8Js
-    -   [V8JsException](class.v8jsexception.md) - Клас V8JsException
--   [Yaml](book.yaml.md) - Серіалізація даних YAML
-    -   [Введение](intro.yaml.md)
+    -   [V8Js](class.v8js.md) \- Клас V8Js
+    -   [V8JsException](class.v8jsexception.md) \- Клас V8JsException
+-   [Yaml](book.yaml.md) \- Серіалізація даних YAML
+    -   [Вступ](intro.yaml.md)
     -   [Встановлення та налаштування](yaml.setup.md)
     -   [Обумовлені константи](yaml.constants.md)
     -   [Приклади](yaml.examples.md)
-    -   [Callback-функции](yaml.callbacks.md)
-    -   [Функции Yaml](ref.yaml.md)
--   [Yaf](book.yaf.md) - Yet Another Framework
-    -   [Введение](intro.yaf.md)
+    -   [Callback-функції](yaml.callbacks.md)
+    -   [Функції Yaml](ref.yaml.md)
+-   [Yaf](book.yaf.md)— Yet Another Framework
+    -   [Вступ](intro.yaf.md)
     -   [Встановлення та налаштування](yaf.setup.md)
     -   [Обумовлені константи](yaf.constants.md)
     -   [Приклади](yaf.tutorials.md)
-    -   [Конфигурация приложения](yaf.appconfig.md)
-    -   [YafApplication](class.yaf-application.md) - Клас YafApplication
-    -   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md) - Клас YafBootstrapAbstract
-    -   [YafDispatcher](class.yaf-dispatcher.md) - Клас YafDispatcher
-    -   [YafConfigAbstract](class.yaf-config-abstract.md) - Клас YafConfigAbstract
-    -   [YafConfigIni](class.yaf-config-ini.md) - Клас YafConfigIni
-    -   [YafConfigSimple](class.yaf-config-simple.md) - Клас YafConfigSimple
-    -   [YafControllerAbstract](class.yaf-controller-abstract.md) - Клас YafControllerAbstract
-    -   [YafActionAbstract](class.yaf-action-abstract.md) - Клас YafActionAbstract
-    -   [YafViewInterface](class.yaf-view-interface.md) - Клас YafViewInterface
-    -   [YafViewSimple](class.yaf-view-simple.md) - Клас YafViewSimple
-    -   [YafLoader](class.yaf-loader.md) - Клас YafLoader
-    -   [YafPluginAbstract](class.yaf-plugin-abstract.md) - Клас YafPluginAbstract
-    -   [YafRegistry](class.yaf-registry.md) - Клас YafRegistry
-    -   [YafRequestAbstract](class.yaf-request-abstract.md) - Клас YafRequestAbstract
-    -   [YafRequestHttp](class.yaf-request-http.md) - Клас YafRequestHttp
-    -   [YafRequestSimple](class.yaf-request-simple.md) - Клас YafRequestSimple
-    -   [YafResponseAbstract](class.yaf-response-abstract.md) - Клас YafResponseAbstract
-    -   [YafRouteInterface](class.yaf-route-interface.md) - Клас YafRouteInterface
-    -   [YafRouteMap](class.yaf-route-map.md) - Клас YafRouteMap
-    -   [YafRouteRegex](class.yaf-route-regex.md) - Клас YafRouteRegex
-    -   [YafRouteRewrite](class.yaf-route-rewrite.md) - Клас YafRouteRewrite
-    -   [YafRouter](class.yaf-router.md) - Клас YafRouter
-    -   [YafRouteSimple](class.yaf-route-simple.md) - Клас YafRouteSimple
-    -   [YafRouteStatic](class.yaf-route-static.md) - Клас YafRouteStatic
-    -   [YafRouteSupervar](class.yaf-route-supervar.md) - Клас YafRouteSupervar
-    -   [YafSession](class.yaf-session.md) - Клас YafSession
-    -   [YafException](class.yaf-exception.md) - Клас YafException
-    -   [YafExceptionTypeError](class.yaf-exception-typeerror.md) - Клас YafExceptionTypeError
-    -   [YafExceptionStartupError](class.yaf-exception-startuperror.md) - Клас YafExceptionStartupError
-    -   [YafExceptionDispatchFailed](class.yaf-exception-dispatchfailed.md) - Клас YafExceptionDispatchFailed
-    -   [YafExceptionRouterFailed](class.yaf-exception-routerfailed.md) - Клас YafExceptionRouterFailed
-    -   [YafExceptionLoadFailed](class.yaf-exception-loadfailed.md) - Клас YafExceptionLoadFailed
-    -   [YafExceptionLoadFailedModule](class.yaf-exception-loadfailed-module.md) - Клас YafExceptionLoadFailedModule
-    -   [YafExceptionLoadFailedController](class.yaf-exception-loadfailed-controller.md) - Клас YafExceptionLoadFailedController
-    -   [YafExceptionLoadFailedAction](class.yaf-exception-loadfailed-action.md) - Клас YafExceptionLoadFailedAction
-    -   [YafExceptionLoadFailedView](class.yaf-exception-loadfailed-view.md) - Клас YafExceptionLoadFailedView
+    -   [Конфігурація програми](yaf.appconfig.md)
+    -   [Yaf\_Application](class.yaf-application.md) \- Клас Yaf\_Application
+    -   [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.md) \- Клас Yaf\_Bootstrap\_Abstract
+    -   [Yaf\_Dispatcher](class.yaf-dispatcher.md) \- Клас Yaf\_Dispatcher
+    -   [Yaf\_Config\_Abstract](class.yaf-config-abstract.md) \- Клас Yaf\_Config\_Abstract
+    -   [Yaf\_Config\_Ini](class.yaf-config-ini.md) \- Клас Yaf\_Config\_Ini
+    -   [Yaf\_Config\_Simple](class.yaf-config-simple.md) \- Клас Yaf\_Config\_Simple
+    -   [Yaf\_Controller\_Abstract](class.yaf-controller-abstract.md) \- Клас Yaf\_Controller\_Abstract
+    -   [Yaf\_Action\_Abstract](class.yaf-action-abstract.md) \- Клас Yaf\_Action\_Abstract
+    -   [Yaf\_View\_Interface](class.yaf-view-interface.md) \- Клас Yaf\_View\_Interface
+    -   [Yaf\_View\_Simple](class.yaf-view-simple.md) \- Клас Yaf\_View\_Simple
+    -   [Yaf\_Loader](class.yaf-loader.md) \- Клас Yaf\_Loader
+    -   [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.md) \- Клас Yaf\_Plugin\_Abstract
+    -   [Yaf\_Registry](class.yaf-registry.md) \- Клас Yaf\_Registry
+    -   [Yaf\_Request\_Abstract](class.yaf-request-abstract.md) \- Клас Yaf\_Request\_Abstract
+    -   [Yaf\_Request\_Http](class.yaf-request-http.md) \- Клас Yaf\_Request\_Http
+    -   [Yaf\_Request\_Simple](class.yaf-request-simple.md) \- Клас Yaf\_Request\_Simple
+    -   [Yaf\_Response\_Abstract](class.yaf-response-abstract.md) \- Клас Yaf\_Response\_Abstract
+    -   [Yaf\_Route\_Interface](class.yaf-route-interface.md) \- Клас Yaf\_Route\_Interface
+    -   [Yaf\_Route\_Map](class.yaf-route-map.md) \- Клас Yaf\_Route\_Map
+    -   [Yaf\_Route\_Regex](class.yaf-route-regex.md) \- Клас Yaf\_Route\_Regex
+    -   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.md) \- Клас Yaf\_Route\_Rewrite
+    -   [Yaf\_Router](class.yaf-router.md) \- Клас Yaf\_Router
+    -   [Yaf\_Route\_Simple](class.yaf-route-simple.md) \- Клас Yaf\_Route\_Simple
+    -   [Yaf\_Route\_Static](class.yaf-route-static.md) \- Клас Yaf\_Route\_Static
+    -   [Yaf\_Route\_Supervar](class.yaf-route-supervar.md) \- Клас Yaf\_Route\_Supervar
+    -   [Yaf\_Session](class.yaf-session.md) \- Клас Yaf\_Session
+    -   [Yaf\_Exception](class.yaf-exception.md) \- Клас Yaf\_Exception
+    -   [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.md) \- Клас Yaf\_Exception\_TypeError
+    -   [Yaf\_Exception\_StartupError](class.yaf-exception-startuperror.md) \- Клас Yaf\_Exception\_StartupError
+    -   [Yaf\_Exception\_DispatchFailed](class.yaf-exception-dispatchfailed.md) \- Клас Yaf\_Exception\_DispatchFailed
+    -   [Yaf\_Exception\_RouterFailed](class.yaf-exception-routerfailed.md) \- Клас Yaf\_Exception\_RouterFailed
+    -   [Yaf\_Exception\_LoadFailed](class.yaf-exception-loadfailed.md) \- Клас Yaf\_Exception\_LoadFailed
+    -   [Yaf\_Exception\_LoadFailed\_Module](class.yaf-exception-loadfailed-module.md) \- Клас Yaf\_Exception\_LoadFailed\_Module
+    -   [Yaf\_Exception\_LoadFailed\_Controller](class.yaf-exception-loadfailed-controller.md) \- Клас Yaf\_Exception\_LoadFailed\_Controller
+    -   [Yaf\_Exception\_LoadFailed\_Action](class.yaf-exception-loadfailed-action.md) \- Клас Yaf\_Exception\_LoadFailed\_Action
+    -   [Yaf\_Exception\_LoadFailed\_View](class.yaf-exception-loadfailed-view.md) \- Клас Yaf\_Exception\_LoadFailed\_View
 -   [Yaconf](book.yaconf.md)
-    -   [Введение](intro.yaconf.md)
+    -   [Вступ](intro.yaconf.md)
     -   [Встановлення та налаштування](yaconf.setup.md)
     -   [Обумовлені константи](yaconf.constants.md)
-    -   [Yaconf](class.yaconf.md) - Клас Yaconf
+    -   [Yaconf](class.yaconf.md) \- Клас Yaconf
 -   [Taint](book.taint.md)
-    -   [Введение](intro.taint.md)
+    -   [Вступ](intro.taint.md)
     -   [Встановлення та налаштування](taint.setup.md)
     -   [Додаткові подробиці](taint.detail.md)
-    -   [Функции Taint](ref.taint.md)
+    -   [Функції Taint](ref.taint.md)
 -   [Структури даних](book.ds.md)
-    -   [Введение](intro.ds.md)
+    -   [Вступ](intro.ds.md)
     -   [Встановлення та налаштування](ds.setup.md)
     -   [Обумовлені константи](ds.constants.md)
     -   [Приклади](ds.examples.md)
-    -   [Коллекция](class.ds-collection.md) - Інтерфейс Collection
-    -   [Хешируемое](class.ds-hashable.md) - Інтерфейс Hashable
-    -   [Послідовність](class.ds-sequence.md) - Інтерфейс Sequence
-    -   [Вектор](class.ds-vector.md) - Клас Vector
-    -   [Двостороння черга](class.ds-deque.md) - Клас Deque
-    -   [Коллекция пар ключ-значение](class.ds-map.md) - Клас Map
-    -   [Пара](class.ds-pair.md) - Клас Pair
-    -   [Набор](class.ds-set.md) - Клас Set
-    -   [Стек](class.ds-stack.md) - Клас Stack
-    -   [Черга](class.ds-queue.md) - Клас Queue
-    -   [Черга з пріоритетом](class.ds-priorityqueue.md) - Клас PriorityQueue
--   [varrepresentation](book.var_representation.md)
-    -   [Введение](intro.var_representation.md)
+    -   [Ds\\Collection](class.ds-collection.md) \- Інтерфейс Collection
+    -   [Ds\\Hashable](class.ds-hashable.md) \- Інтерфейс Hashable
+    -   [Ds\\Sequence](class.ds-sequence.md) \- Інтерфейс Sequence
+    -   [Ds\\Vector](class.ds-vector.md) \- Клас Vector
+    -   [Ds\\Deque](class.ds-deque.md) \- Клас Deque
+    -   [Ds\\Map](class.ds-map.md) \- Клас Map
+    -   [Ds\\Pair](class.ds-pair.md) \- Клас Pair
+    -   [Ds\\Set](class.ds-set.md) \- Клас Set
+    -   [Ds\\Stack](class.ds-stack.md) \- Клас Stack
+    -   [Ds\\Queue](class.ds-queue.md) \- Клас Queue
+    -   [Ds\\PriorityQueue](class.ds-priorityqueue.md) \- Клас PriorityQueue
+-   [var\_representation](book.var_representation.md)
+    -   [Вступ](intro.var_representation.md)
     -   [Встановлення та налаштування](var-representation.setup.md)
     -   [Обумовлені константи](var-representation.constants.md)
-    -   [Функции varrepresentation](ref.var-representation.md)
+    -   [Функції var\_representation](ref.var-representation.md)

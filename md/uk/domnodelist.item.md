@@ -1,10 +1,11 @@
 ---
 navigation:
-  - domnodelist.count.md: '« DOMNodeList::count'
+  - domnodelist.getiterator.md: '« DOMNodeList::getIterator'
   - class.domnotation.md: DOMNotation »
   - index.md: PHP Manual
   - class.domnodelist.md: DOMNodeList
 title: 'DOMNodeList::item'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNodeList::item
 
@@ -15,7 +16,7 @@ DOMNodeList::item — Отримує вузол із заданим індекс
 ### Опис
 
 ```methodsynopsis
-public DOMNodeList::item(int $index): DOMNode|DOMNameSpaceNode|null
+public DOMNodeList::item(int $index): DOMElement|DOMNode|DOMNameSpaceNode|null
 ```
 
 Витягує вузол із заданим індексом `index` з об'єкту класу [DOMNodeList](class.domnodelist.md)
@@ -32,7 +33,7 @@ public DOMNodeList::item(int $index): DOMNode|DOMNameSpaceNode|null
 
 ### Значення, що повертаються
 
-Вузол, що знаходиться в позиції `index` об'єкта [DOMNodeList](class.domnodelist.md), або \*\*`null`\*\*якщо цей індекс неприпустимий.
+Вузол, що знаходиться в позиції `index` об'єкта [DOMNodeList](class.domnodelist.md), или\*\*`null`\*\*якщо цей індекс неприпустимий.
 
 ### Приклади
 
@@ -65,7 +66,7 @@ foreach ($items as $item) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Title

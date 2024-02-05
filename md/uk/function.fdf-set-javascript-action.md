@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.fdf-set-flags.md: « fdfsetflags
-  - function.fdf-set-on-import-javascript.md: fdfsetвінimportjavascript »
+  - function.fdf-set-flags.md: « fdf\_set\_flags
+  - function.fdf-set-on-import-javascript.md: fdf\_set\_on\_import\_javascript »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfsetjavascriptaction
+title: fdf\_set\_javascript\_action
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfsetjavascriptaction
+# fdf\_set\_javascript\_action
 
-(PHP 4> = 4.0.2, PHP 5 <5.3.0, PECL fdf SVN)
+(PHP 4 >= 4.0.2, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfsetjavascriptaction — Встановлює дію javascript для поля
+fdf\_set\_javascript\_action — Встановлює дію javascript для поля
 
 ### Опис
 
 ```methodsynopsis
-fdf_set_javascript_action(    resource $fdf_document,    string $fieldname,    int $trigger,    string $script): bool
+fdf_set_javascript_action(    resource $fdf_document,    string $fieldname,    int $trigger,    string $script): bool
 ```
 
 Встановлює дію JavaScript для заданого поля
@@ -24,7 +25,7 @@ fdf_set_javascript_action(    resource $fdf_document,    string $fieldname,    i
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md)or[fdf\_open\_string()](function.fdf-open-string.md)
 
 `fieldname`
 
@@ -36,8 +37,8 @@ fdf_set_javascript_action(    resource $fdf_document,    string $fieldname,    i
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fdfsetsubmitformaction()](function.fdf-set-submit-form-action.md) - Встановлює дію форми надсилання поля
+-   [fdf\_set\_submit\_form\_action()](function.fdf-set-submit-form-action.md) \- Встановлює дію форми надсилання поля

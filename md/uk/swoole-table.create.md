@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-table.count.md: '« SwooleTable::count'
-  - swoole-table.current.md: 'SwooleTable::current »'
+  - swoole-table.count.md: '« Swoole\\Table::count'
+  - swoole-table.current.md: 'Swoole\\Table::current »'
   - index.md: PHP Manual
-  - class.swoole-table.md: SwooleTable
-title: 'SwooleTable::create'
+  - class.swoole-table.md: Swoole\\Table
+title: 'Swoole\\Table::create'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTable::create
+# Swoole\\Table::create
 
 (PECL swoole >= 1.9.0)
 
-SwooleTable::create — Створює таблицю пам'яті swoole
+Swoole\\Table::create — Створює таблицю пам'яті swoole
 
 ### Опис
 

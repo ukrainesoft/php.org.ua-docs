@@ -1,10 +1,11 @@
 ---
 navigation:
-  - faq.installation.md: « Установка
-  - faq.using.md: Использование PHP »
+  - faq.installation.md: « Встановлення
+  - faq.using.md: Використання PHP »
   - index.md: PHP Manual
   - faq.md: ЧАВО
 title: Проблеми збирання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Проблеми збирання
 
@@ -13,17 +14,17 @@ title: Проблеми збирання
 1.  [Я отримав останню версію PHP, використовуючи анонімний доступ до Git, але немає конфігураційного скрипта!](#faq.build.configure)
 2.  [У мене виникають проблеми з конфігурацією PHP для роботи з Apache. Він каже, що не може знайти httpd.h, хоча файл знаходиться саме там, де я сказав!](#faq.build.configuring)
 3.  [Під час конфігурації PHP (./configure) ви натрапляєте на помилку, схожу з наступною: checking lex output file root... . giving up](#faq.build.lex)
-4.  [Коли я намагаюся запустити Apache, я отримую наступне повідомлення: fatal: relocation error: file /path/to/libphp4.so: symbol apblockalarms: referenced symbol not found](#faq.build.apache-sharedcore)
+4.  [Коли я намагаюся запустити Apache, я отримую наступне повідомлення: fatal: relocation error: file /path/to/libphp4.so: symbol ap\_block\_alarms: referenced symbol not found](#faq.build.apache-sharedcore)
 5.  [Коли я запускаю configure, він каже, що не може знайти файли include або бібліотеки для GD, gdbm або будь-якого іншого пакета!](#faq.build.not-found)
 6.  [При компіляції файлу language-parser.tab.c мені видаються помилки, які говорять yytname undeclared.](#faq.build.yytname)
 7.  [Коли я запускаю make, схоже, він виконується нормально, але на кінцевому лінку скаржиться, що не може знайти деякі файли.](#faq.build.link)
 8.  [При компонуванні PHP він скаржиться на деякі невизначені посилання.](#faq.build.undefined)
 9.  [Я дотримувався всіх кроків для встановлення модульної версії для Apache на Unix, але мої PHP-скрипти виводяться в браузері або я отримую запит зберегти файл.](#faq.build.not-running)
-10.  [У документації рекомендується використовувати: --activate-module=src/modules/php4/libphp4.a, але такий файл не існує, тому я замінив це на --activate-module=src/modules/php4/libmodphp4.a і він не працює!? Що відбувається?](#faq.build.activate-module)
+10.  [У документації рекомендується використовувати: --activate-module=src/modules/php4/libphp4.a, але такий файл не існує, тому я замінив це на --activate-module=src/modules/php4/libmodphp4.a і воно не працює!? Що відбувається?](#faq.build.activate-module)
 11.  [Коли я намагаюся зібрати Apache з PHP у вигляді статичного модуля, використовуючи --activate-module=src/modules/php4/libphp4.a він каже, що мій компілятор не ANSI-сумісний.](#faq.build.ansi)
 12.  [Коли я намагаюся зібрати PHP за допомогою --with-apxs, я отримую дивне повідомлення про помилку.](#faq.build.apxs)
-13.  [Під час виконання make я дуже швидко отримую помилки та безліч всяких RUSAGE](#faq.build.microtime)
-14.  [При PHP компіляції з MySQL, configure виконується нормально, але під час make я отримую помилку типу наступної: ext/mysql/libmysqlclient/mytempnam.o(.text+0x46): In function mytempnam': /php4/ext/mysql/libmysqlclient/mytempnam.c:103: the use of tempnam' is dangerous, better use mkstemp', в чём дело?](#faq.build.mysql.tempnam)
+13.  [Під час виконання make я дуже швидко отримую помилки та безліч всяких RUSAGE\_](#faq.build.microtime)
+14.  [При PHP компіляції з MySQL, configure виконується нормально, але під час make я отримую помилку типу наступної: ext/mysql/libmysqlclient/my\_tempnam.o(.text+0x46): In function my\_tempnam': /php4/ext/mysql/libmysqlclient/my\_tempnam.c:103: the use of tempnam' is dangerous, better use mkstemp', у чому справа?](#faq.build.mysql.tempnam)
 15.  [Я хочу оновити мій PHP. Де я можу знайти рядок ./configure, який був використаний для моєї поточної PHP установки?](#faq.build.upgrade)
 16.  [При складанні PHP з бібліотекою GD або видаються дивні помилки компіляції або помилки сегментації (segfaults) при виконанні.](#faq.build.gdlibs)
 17.  [При компіляції PHP я, здається, отримую випадкові помилки, наприклад, вона зависає. Я використовую Solaris якщо це має значення.](#faq.installation.needgnu)
@@ -34,27 +35,31 @@ title: Проблеми збирання
 
 **У мене виникають проблеми з конфігурацією PHP для роботи з Apache. Він каже, що не може знайти httpd.h, хоча файл знаходиться саме там, де я сказав!**
 
-Для configure/setup скрипта необхідно вказати директорію верхнього рівня, в якій знаходяться вихідні коди Apache. Це означає, що вам потрібно поставити **\-with-apache=/path/to/apache**, а *не* **\-with-apache=/path/to/apache/src**
+Для configure/setup скрипта необхідно вказати директорію верхнього рівня, в якій знаходяться вихідні коди Apache. Це означає, що вам потрібно поставити **\--with-apache=/path/to/apache**, а*не* **\--with-apache=/path/to/apache/src**
 
-\*\*Під час конфігурації PHP (`./configure`) Ви відштовхуєтеся на помилку, схожу з наступною:
+\*\*Під час конфігурації PHP (`./configure`) Ви натрапляєте на помилку, схожу з наступною:
 
 checking lex output file root... ./configure: lex: command not found  
 configure: error: cannot find output from lex; giving up
 
-Не забудьте уважно прочитати інструкції з [установке](install.unix.md) та зауважте, що для компіляції PHP вам потрібно встановити як flex, так і bison. Залежно від ваших налаштувань, встановіть bison і flex або з вихідних кодів, або з пакетів, наприклад, RPM.
+\*\*
+
+Не забудьте уважно прочитати інструкції з [установці](install.unix.md) та зауважте, що для компіляції PHP вам потрібно встановити як flex, так і bison. Залежно від ваших налаштувань, встановіть bison і flex або з вихідних кодів, або з пакетів, наприклад, RPM.
 
 \*\*Коли я намагаюся запустити Apache, я отримую наступне повідомлення:
 
-fatal: relocation error: файл /path/to/libphp4.so:  
-symbol apblockalarms: referenced symbol not found
+fatal: relocation error: file /path/to/libphp4.so:  
+symbol ap\_block\_alarms: referenced symbol not found
 
-Ця помилка зазвичай з'являється, якщо ядро ​​Apache було скомпілюване як бібліотека DSO (Dynamic Shared Object), що розділяється. Спробуйте переконфігурувати Apache, використовуючи принаймні такі прапори:
+\*\*
 
-\-enable-shared=max --enable-rule=SHAREDCORE
+Ця помилка зазвичай з'являється, якщо ядро ​​Apache було скомпільовано як бібліотека DSO (Dynamic Shared Object), що розділяється. Спробуйте переконфігурувати Apache, використовуючи принаймні такі прапори:
 
-Для більш детальної інформації читайте файл INSTALL у директорії верхнього рівня або [»  страницу руководства Apache по DSO](http://httpd.apache.org/docs/current/dso.md)
+\--enable-shared=max --enable-rule=SHARED\_CORE
 
-**Коли я запускаю configure, він каже, що не може знайти файли include або бібліотеку для GD, gdbm або іншого пакета!**
+Для більш детальної інформації читайте файл INSTALL у директорії верхнього рівня або [»  сторінку керівництва Apache за DSO](http://httpd.apache.org/docs/current/dso.md)
+
+**Коли я запускаю configure, він каже, що не може знайти файли include або бібліотеки для GD, gdbm або будь-якого іншого пакета!**
 
 Ви можете зробити так, що скрипт configure буде шукати файли заголовків або бібліотеки в нестандартних місцях, задавши додаткові прапори для препроцесора і компонувальника, такі як:
 
@@ -70,11 +75,11 @@ env CPPFLAGS=-I/path/to/include LDFLAGS=-L/path/to/library ./configure
 
 **При компіляції файлу language-parser.tab.c мені видаються помилки, які говорять `yytname undeclared`**
 
-Вам потрібно оновити вашу версію Bison. Останню версію можна знайти на [» http://www.gnu.org/software/bison/bison.html](http://www.gnu.org/software/bison/bison.md)
+Вам необходимо обновить вашу версию Bison. Последнюю версию можно найти на[» http://www.gnu.org/software/bison/bison.md](http://www.gnu.org/software/bison/bison.md)
 
-**Коли я запускаю **make**, схоже, він виконується нормально, але на кінцевому лінківці скаржиться, що не може знайти деякі файли.**
+**Когда я запускаю**make\*\*, схоже, він виконується нормально, але на кінцевому лінківці скаржиться, що не може знайти деякі файли.\*\*
 
-Деякі старі версії make помилково не поміщають скомпіловані файли в піддиректорію функцій у тій же директорії. Спробуйте виконати **сп .o functions** а потім перезапустити **make**. Якщо це допомогло, вам дійсно потрібно встановити свіжу версію GNU make.
+Деякі старі версії make помилково не поміщають скомпіловані файли в піддиректорію функцій у тій же директорії. Спробуйте виконати **cp\*.o functions** а потім перезапустити **make**. Якщо це допомогло, вам дійсно потрібно встановити свіжу версію GNU make.
 
 **При компонуванні PHP він скаржиться на деякі невизначені посилання.**
 
@@ -86,8 +91,8 @@ env CPPFLAGS=-I/path/to/include LDFLAGS=-L/path/to/library ./configure
 
 Це означає, що модуль PHP з якоїсь причини не викликається. Перед тим, як звертатися за допомогою, перевірте три речі:
 
--   Переконайтеся, що бінарник httpd, що запускається вами, дійсно новий, щойно побудований httpd. Для цього спробуйте запустити: `/path/to/binary/httpd -l` Якщо ви не бачите modphp4.c у списку, то ви запускаєте не той бінарник. Знайдіть та встановіть правильний бінарник.
--   Переконайтеся, що ви додали правильний Mime Type до одного з ваших `Apache .conf` файлів. Це повинно бути: `AddType application/x-httpd-php .php` Також переконайтеся, що цей рядок AddType не потрапив усередину або блоку, так як це не дасть їй працювати з місцезнаходженням тестового скрипта.
+-   Переконайтеся, що бінарник httpd, що запускається вами, дійсно новий, щойно побудований httpd. Для цього спробуйте запустити:`/path/to/binary/httpd -l`Якщо ви не бачите mod\_php4.c у списку, то ви запускаєте не той бінарник. Знайдіть та встановіть правильний бінарник.
+-   Переконайтеся, що ви додали правильний Mime Type до одного з ваших`Apache .conf`файлів. Це повинно бути:`AddType application/x-httpd-php .php`Також переконайтеся, що цей рядок AddType не потрапив усерединуилиблоку, так як це не дасть їй працювати з місцезнаходженням тестового скрипта.
 -   Нарешті, між Apache 1.2 та Apache 1.3 розташування конфігураційних файлів Apache за умовчанням змінилося. Вам потрібно перевірити, чи дійсно читається той конфігураційний файл, до якого ви додали рядок AddType. Ви можете внести очевидну синтаксичну помилку до вашого httpd.conf файлу або будь-якої іншої помітної зміни, яка покаже вам, що читається правильний файл.
 
 **У документації рекомендується використовувати: `--activate-module=src/modules/php4/libphp4.a`, але такий файл не існує, тому я замінив це на `--activate-module=src/modules/php4/libmodphp4.a` і воно не працює!? Що відбувається?**
@@ -98,7 +103,7 @@ env CPPFLAGS=-I/path/to/include LDFLAGS=-L/path/to/library ./configure
 
 Повідомлення про помилку вводить в оману; це виправлено у свіжих версіях Apache.
 
-**Коли я намагаюся зібрати PHP за допомогою **\-with-apxs**я отримую дивне повідомлення про помилку.**
+**Коли я намагаюся зібрати PHP за допомогою **\--with-apxs**я отримую дивне повідомлення про помилку.**
 
 Перевірте три речі. По-перше, з якоїсь причини, коли Apache створює Perl скрипт apxs, він виходить без правильного компілятора та змінних, які задають прапори. Знайдіть ваш apxs скрипт (спробуйте команду **which apxs**), іноді він встановлений як /usr/local/apache/bin/apxs або /usr/sbin/apxs. Відкрийте його і знайдіть рядки, схожі на такі:
 
@@ -128,7 +133,7 @@ my $CFG_LIBEXECDIR    = 'modules';         # substituted via APACI install
 my $CFG_LIBEXECDIR    = '/usr/lib/apache'; # substituted via APACI install
 ```
 
-І останнє, якщо ви переконфігуруєте/встановлюєте Apache, запустіть **make clean** після **./configure** і перед **make**
+І останнє, якщо ви переконфігуруєте/встановлюєте Apache, запустіть **make clean**после\*\*./configure**и перед**make\*\*
 
 **Під час виконання **make** я дуже швидко отримую помилки і безліч всяких `RUSAGE_`**
 
@@ -161,16 +166,16 @@ $ gcc -E test.c >/dev/null
 
 Якщо видаються помилки, ваші include файли зіпсовані.
 
-*При компіляції PHP з MySQL, configure виконується нормально, але під час `make` я отримую помилку типу наступного: *ext/mysql/libmysqlclient/mytempnam.o(.text+0x46): In function mytempnam': /php4/ext/mysql/libmysqlclient/mytempnam.c:103: use of tempnam' is dangerous, better use mkstemp'*, в чому справа?*
+\**При компіляції PHP з MySQL, configure виконується нормально, але під час `make`я получаю ошибку типа следующей:*ext/mysql/libmysqlclient/my\_tempnam.o(.text+0x46): In function my\_tempnam': /php4/ext/mysql/libmysqlclient/my\_tempnam.c:103: the use of tempnam' is dangerous, better use mkstemp'*, в чому справа?*\*
 
-По-перше, важливо розуміти, що це `Warning` (попередження), а чи не фатальна помилка. Так як це останнє, що виводиться під час `make`, вона може виглядати як фатальна помилка, але це не так. Звісно, ​​якщо ваш компілятор помирає на попередженнях, (Warnings), тоді так. Також майте на увазі, що підтримка MySQL включена за умовчанням.
+По-перше, важливо розуміти, що це `Warning` (попередження), а чи не фатальна помилка. Так як це останнє, що виводиться під час `make`, вона може виглядати як фатальна помилка, але це не так. Звичайно, якщо ваш компілятор вмирає на попередженнях (Warnings), тоді так. Також майте на увазі, що підтримка MySQL включена за умовчанням.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Починаючи з PHP 4.3.2, ви також будете бачити наступний текст після того, як збірка (make) завершиться:
 > 
 > Build complete.  
-> (It is safe to ignore warnings про tempnam and tmpnam).  
+> (It is safe to ignore warnings about tempnam and tmpnam).  
 > (Складання завершено, можна безпечно ігнорувати  
 > попередження про tempnam та tmpnam.)
 
@@ -190,4 +195,4 @@ $ gcc -E test.c >/dev/null
 
 **При компіляції PHP я, здається, отримую випадкові помилки, наприклад, вона зависає. Я використовую Solaris якщо це має значення.**
 
-Використання не утиліт GNU під час компіляції PHP може викликати проблеми. Щоб бути впевненим, що компіляція PHP буде працювати, використовуйте утиліти GNU. Наприклад, у Solaris, використання SunOS BSD-сумісної або Solaris версії `sed` не працюватиме, а GNU або Sun POSIX (xpg4) версії `sed` буде. Посилання: [» GNU sed](http://www.gnu.org/software/sed/sed.md) [» GNU flex](http://www.gnu.org/software/flex/flex.md), and [» GNU bison](http://www.gnu.org/software/bison/bison.md)
+Використання не утиліт GNU під час компіляції PHP може викликати проблеми. Щоб бути впевненим, що компіляція PHP буде працювати, використовуйте утиліти GNU. Наприклад, у Solaris, використання SunOS BSD-сумісної або Solaris версії `sed` не працюватиме, а GNU або Sun POSIX (xpg4) версії `sed` буде. Посилання: [» GNU sed](http://www.gnu.org/software/sed/sed.md) [» GNU flex](http://www.gnu.org/software/flex/flex.md), and[» GNU bison](http://www.gnu.org/software/bison/bison.md)

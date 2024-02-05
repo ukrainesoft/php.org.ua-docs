@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::foldCase'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::foldCase
 
@@ -24,12 +25,12 @@ public static IntlChar::foldCase(int|string $codepoint, int $options = IntlChar:
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 `options`
 
-**`IntlChar::FOLD_CASE_DEFAULT`** (за замовчуванням) або **`IntlChar::FOLD_CASE_EXCLUDE_SPECIAL_I`**
+**`IntlChar::FOLD_CASE_DEFAULT`**(по умолчанию) или\*\*`IntlChar::FOLD_CASE_EXCLUDE_SPECIAL_I`\*\*
 
 ### Значення, що повертаються
 
-Повертає *SimpleCaseFolding* для символу, якщо він є. В іншому випадку - сам символ у разі успішного виконання або **`null`** у разі виникнення помилки.
+Повертає *Simple\_Case\_Folding* для символу, якщо вона є. В іншому випадку - сам символ у разі успішного виконання або \*\*`null`\*\*в случае возникновения ошибки.

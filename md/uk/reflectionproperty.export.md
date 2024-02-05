@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflectionproperty.construct.md: '« ReflectionProperty::construct'
+  - reflectionproperty.construct.md: '« ReflectionProperty::\_\_construct'
   - reflectionproperty.getattributes.md: 'ReflectionProperty::getAttributes »'
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::export'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionProperty::export
 
@@ -14,7 +15,7 @@ ReflectionProperty::export — Експорт
 
 **Увага**
 
-Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНО*починаючи з PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція *ЗАСТАРІЛА* починаючи з PHP 7.4.0 і була *ВИДАЛЕНО* у PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -26,7 +27,7 @@ public static ReflectionProperty::export(mixed $class, string $name, bool $retur
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -40,10 +41,10 @@ public static ReflectionProperty::export(mixed $class, string $name, bool $retur
 
 `return`
 
-Встановлення в **`true`** поверне експортоване значення, на відміну поведінки, де цей параметр опущений. Встановлення в **`false`** (за умовчанням) зробить протилежне.
+Установка в\*\*`true`\*\* поверне експортоване значення, на відміну поведінки, де цей параметр опущений. Встановлення в **`false`** (за умовчанням) зробить протилежне.
 
 ### Значення, що повертаються
 
 ### Дивіться також
 
--   [ReflectionProperty::toString()](reflectionproperty.tostring.md) - Перетворення на рядок
+-   [ReflectionProperty::\_\_toString()](reflectionproperty.tostring.md) \- Перетворення на рядок

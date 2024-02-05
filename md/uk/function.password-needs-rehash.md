@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.password-hash.md: « passwordhash
-  - function.password-verify.md: passwordverify »
+  - function.password-hash.md: « password\_hash
+  - function.password-verify.md: password\_verify »
   - index.md: PHP Manual
   - ref.password.md: Функції хешування паролів
-title: passwordneedsrehash
+title: password\_needs\_rehash
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# passwordneedsrehash
+# password\_needs\_rehash
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-passwordneedsrehash — Перевіряє, чи зазначений хеш відповідає заданим опціям
+password\_needs\_rehash — Перевіряє, чи зазначений хеш відповідає заданим опціям
 
 ### Опис
 
@@ -24,7 +25,7 @@ password_needs_rehash(string $hash, string|int|null $algo, array $options = []):
 
 `hash`
 
-Хеш, створений функцією [passwordhash()](function.password-hash.md)
+Хеш, створений функцією [password\_hash()](function.password-hash.md)
 
 `algo`
 
@@ -36,17 +37,17 @@ password_needs_rehash(string $hash, string|int|null $algo, array $options = []):
 
 ### Значення, що повертаються
 
-Повертає \*\*`true`\*\*якщо пароль повинен бути перехешований з використанням алгоритму `algo` та опцій `options`, або **`false`**, якщо ні.
+Повертає **`true`**якщо пароль повинен бути перехешований з використанням алгоритму `algo`и опций`options`, или**`false`**, якщо ні.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `algo` Тепер чекає рядок (string), але все ще приймає число (int) для зворотної сумісності. |
+| 7.4.0 | Параметр`algo` тепер чекає рядок (string), але все ще приймає число (int) зворотної сумісності. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **passwordneedsrehash()****
+**Пример #1 Пример использования**password\_needs\_rehash()\*\*\*\*
 
 ```php
 <?php
@@ -54,16 +55,18 @@ password_needs_rehash(string $hash, string|int|null $algo, array $options = []):
 $password = 'rasmuslerdorf';
 $hash = '$2y$10$YCFsG6elYca568hBi2pZ0.3LDL5wjgxct1N8w/oLR/jfHsiQwCqTS';
 
-// Параметр стоимости может изменяться в связи со сменой оборудования
-$options = array('cost' => 11);
+$algorithm = PASSWORD_BCRYPT;
+// Значение bcrypt-стоимости может измениться по мере роста производительности оборудования
+$options = ['cost' => 12];
 
-// Проверка сохранённого хеша с помощью пароля
+// Сравниваем сохранённый хеш с открытым паролем
 if (password_verify($password, $hash)) {
-    // Проверяем, не нужно ли использовать более новый алгоритм
-    // или другую алгоритмическую стоимость
-    if (password_needs_rehash($hash, PASSWORD_DEFAULT, $options)) {
-        // Если таки да, перехешируем и сохраняем новый хеш
-        $newHash = password_hash($password, PASSWORD_DEFAULT, $options);
+    // Проверяем, не изменился ли алгоритм или параметры
+    if (password_needs_rehash($hash, $algorithm, $options)) {
+        // Если были изменения, перехешируем и заменяем старый хеш новым
+        $newHash = password_hash($password, $algorithm, $options);
+
+        // Обновляем запись пользователя новым $newHash
     }
 
     // Авторизуем пользователя

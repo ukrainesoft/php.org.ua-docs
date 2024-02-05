@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.forward-static-call-array.md: « forwardstaticcallarray
-  - function.func-get-arg.md: funcgetarg »
+  - function.forward-static-call-array.md: « forward\_static\_call\_array
+  - function.func-get-arg.md: func\_get\_arg »
   - index.md: PHP Manual
-  - ref.funchand.md: Функции управления функциями
-title: forwardstaticcall
+  - ref.funchand.md: Функції керування функціями
+title: forward\_static\_call
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# forwardstaticcall
+# forward\_static\_call
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-forwardstaticcall — Виклик статичного методу
+forward\_static\_call — Виклик статичного методу
 
 ### Опис
 
@@ -36,7 +37,7 @@ forward_static_call(callable $callback, mixed ...$args): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **forwardstaticcall()****
+**Пример #1 Пример использования**forward\_static\_call()\*\*\*\*
 
 ```php
 <?php
@@ -71,7 +72,7 @@ function test() {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 B
@@ -81,7 +82,7 @@ C other,args
 
 ### Дивіться також
 
--   [forwardstaticcallarray()](function.forward-static-call-array.md) - Виклик статичного методу та передача параметрів у вигляді масиву
--   [calluserfuncarray()](function.call-user-func-array.md) - Викликає callback-функцію з масивом параметрів
--   [calluserfunc()](function.call-user-func.md) - Викликає callback-функцію, задану у першому параметрі
--   [ісcallable()](function.is-callable.md) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [forward\_static\_call\_array()](function.forward-static-call-array.md) \- Виклик статичного методу та передача параметрів у вигляді масиву
+-   [call\_user\_func\_array()](function.call-user-func-array.md) \- Викликає callback-функцію з масивом параметрів
+-   [call\_user\_func()](function.call-user-func.md) \- Викликає callback-функцію, задану у першому параметрі
+-   [is\_callable()](function.is-callable.md) \- Перевіряє, що значення може бути викликане як функція у поточній області видимості

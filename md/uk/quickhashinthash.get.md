@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashinthash.md: QuickHashIntHash
 title: 'QuickHashIntHash::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntHash::get
 
@@ -32,7 +33,7 @@ public QuickHashIntHash::get(int $key): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntHash::get()****
+**Пример #1 Пример использования**QuickHashIntHash::get()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ var_dump( $hash->get( 3 ) );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)

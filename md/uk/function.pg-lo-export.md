@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-lo-create.md: « pgлоcreate
-  - function.pg-lo-import.md: пглоimport »
+  - function.pg-lo-create.md: « pg\_lo\_create
+  - function.pg-lo-import.md: pg\_lo\_import »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пглоexport
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_lo\_export
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пглоexport
+# pg\_lo\_export
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пглоexport — Виведення великого об'єкта у файл
+pg\_lo\_export — Виведення великого об'єкта у файл
 
 ### Опис
 
@@ -18,19 +19,19 @@ title: пглоexport
 pg_lo_export(PgSql\Connection $connection = ?, int $oid, string $pathname): bool
 ```
 
-**пглоexport()** вибирає великий об'єкт із бази даних та зберігає його дані локально у файловій системі.
+**pg\_lo\_export()** вибирає великий об'єкт із бази даних та зберігає його дані локально у файловій системі.
 
 Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Колишня назва функції: **пгloexport()**
+> Прежнее название функции:**pg\_loexport()**
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection` не вказано, буде вибрано стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -46,17 +47,17 @@ OID великий об'єкт у базі даних.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пглоexport()****
+**Пример #1 Пример использования**pg\_lo\_export()\*\*\*\*
 
 ```php
 <?php
@@ -73,4 +74,4 @@ OID великий об'єкт у базі даних.
 
 ### Дивіться також
 
--   [пглоimport()](function.pg-lo-import.md) - Імпорт великого об'єкта з файлу
+-   [pg\_lo\_import()](function.pg-lo-import.md) \- Імпорт великого об'єкта з файлу

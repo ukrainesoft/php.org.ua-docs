@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mb-ereg-replace.md: « mberegreplace
-  - function.mb-ereg-search-getregs.md: мбeregsearchgetregs »
+  - function.mb-ereg-replace.md: « mb\_ereg\_replace
+  - function.mb-ereg-search-getregs.md: mb\_ereg\_search\_getregs »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбeregsearchgetpos
+title: mb\_ereg\_search\_getpos
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбeregsearchgetpos
+# mb\_ereg\_search\_getpos
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-мбeregsearchgetpos - Повертає початкову позицію наступного збігу з регулярним виразом
+mb\_ereg\_search\_getpos - Повертає початкову позицію наступного збігу з регулярним виразом
 
 ### Опис
 
@@ -26,15 +27,15 @@ mb_ereg_search_getpos(): int
 
 ### Значення, що повертаються
 
-**мбeregsearchgetpos()** повертає початкову позицію наступного збігу з регулярним виразом для функцій [мбeregsearch()](function.mb-ereg-search.md) [мбeregsearchpos()](function.mb-ereg-search-pos.md) [мбeregsearchregs()](function.mb-ereg-search-regs.md). Позиція представляється як числа байт з початку рядка.
+Повертає початкову позицію наступного збігу з регулярним виразом для функцій [mb\_ereg\_search()](function.mb-ereg-search.md) [mb\_ereg\_search\_pos()](function.mb-ereg-search-pos.md) [mb\_ereg\_search\_regs()](function.mb-ereg-search-regs.md)Позиция представлена байтами с начала строки.
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.md)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [mb\_regex\_encoding()](function.mb-regex-encoding.md)
 
 ### Дивіться також
 
--   [мбregexencoding()](function.mb-regex-encoding.md) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [мбeregsearchsetpos()](function.mb-ereg-search-setpos.md) - Задає початкову позицію у рядку, з якого розпочнеться пошук відповідностей регулярному виразу
+-   [mb\_regex\_encoding()](function.mb-regex-encoding.md) \- Встановлює/отримує кодування символів для однобайтового регулярного виразу
+-   [mb\_ereg\_search\_setpos()](function.mb-ereg-search-setpos.md) \- Задає початкову позицію у рядку, з якого розпочнеться пошук відповідностей регулярному виразу

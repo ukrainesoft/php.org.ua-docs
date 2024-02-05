@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.nl-langinfo.md: « nllanginfo
-  - function.number-format.md: numberformat »
+  - function.nl-langinfo.md: « nl\_langinfo
+  - function.number-format.md: number\_format »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: nl2br
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # nl2br
 
@@ -18,7 +19,7 @@ nl2br — Вставляє HTML код розриву рядка перед ко
 nl2br(string $string, bool $use_xhtml = true): string
 ```
 
-Повертає рядок `string`, в якій перед кожним перекладом рядка (`\r\n` `\n\r` `\n` і `\r`) вставлений `<br />` або `<br>`
+Повертає рядок `string`, в якій перед кожним перекладом рядка (`\r\n` `\n\r` `\n`и`\r`) вставлен`<br />`или`<br>`
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ nl2br(string $string, bool $use_xhtml = true): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **nl2br()****
+**Пример #1 Пример использования**nl2br()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ echo nl2br("foo - это вам не\n bar");
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 foo - это вам не<br />
@@ -59,7 +60,7 @@ echo nl2br("Привет!\r\nЭтой мой HTML-документ", false);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Привет!<br>
@@ -75,7 +76,7 @@ echo nl2br($string);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 This<br />
@@ -86,7 +87,7 @@ string<br />
 
 ### Дивіться також
 
--   [htmlspecialchars()](function.htmlspecialchars.md) - Перетворює спеціальні символи на HTML-сутності
--   [htmlentities()](function.htmlentities.md) - Перетворює всі можливі символи у відповідні HTML-сутності
--   [wordwrap()](function.wordwrap.md) - Переносить рядок за вказаною кількістю символів
--   [strreplace()](function.str-replace.md) - Замінює всі входження рядка пошуку на рядок заміни
+-   [htmlspecialchars()](function.mdspecialchars.md) \- Перетворює спеціальні символи в HTML-сутності
+-   [htmlentities()](function.mdentities.md) \- Перетворює всі можливі символи у відповідні HTML-сутності
+-   [wordwrap()](function.wordwrap.md) \- Переносить рядок за вказаною кількістю символів
+-   [str\_replace()](function.str-replace.md) \- Замінює всі входження рядка пошуку на рядок заміни

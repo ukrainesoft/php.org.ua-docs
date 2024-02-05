@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::getRequestHeader'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::getRequestHeader
 
@@ -36,4 +37,4 @@ URL-адреса запиту.
 
 ### Значення, що повертаються
 
-Рядок із заголовком запиту або **`false`** у разі виникнення помилки
+Рядок із заголовком запиту або \*\*`false`\*\*в случае возникновения ошибки

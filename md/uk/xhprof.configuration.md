@@ -1,10 +1,11 @@
 ---
 navigation:
-  - xhprof.installation.md: « Установка
+  - xhprof.installation.md: « Встановлення
   - xhprof.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - xhprof.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,10 +15,10 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [xhprof.outputdir](xhprof.configuration.md#ini.xhprof.output-dir) | "" | **`PHP_INI_ALL`** |  |
+| [xhprof.output\_dir](xhprof.configuration.md#ini.xhprof.output-dir) | "" | **`INI_ALL`** |  |
 
 Коротке пояснення конфігураційних директив.
 
-`xhprof.output_dir` string
+`xhprof.output_dir`string
 
-Директорія, що використовується реалізацією інтерфейсу XHProf Runs за умовчанням (клас XHProf RunsDefault) для збереження результатів профілювання.
+Директорія, що використовується реалізацією інтерфейсу XHProf Runs за умовчанням (клас XHProf Runs\_Default) для збереження результатів профілювання.

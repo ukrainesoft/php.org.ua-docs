@@ -1,10 +1,11 @@
 ---
 navigation:
   - datetime.gettimestamp.md: '« DateTimeInterface::getTimestamp'
-  - datetime.wakeup.md: 'DateTime::wakeup »'
+  - datetime.wakeup.md: 'DateTime::\_\_wakeup »'
   - index.md: PHP Manual
   - class.datetimeinterface.md: DateTimeInterface
 title: 'DateTimeInterface::getTimezone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeInterface::getTimezone
 
@@ -12,11 +13,11 @@ title: 'DateTimeInterface::getTimezone'
 
 # DateTime::getTimezone
 
-# datetimezoneget
+# date\_timezone\_get
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-DateTimeInterface::getTimezone -- DateTimeImmutable::getTimezone -- DateTime::getTimezone -- datetimezoneget — Повертає часовий пояс щодо поточного значення DateTime
+DateTimeInterface::getTimezone -- DateTimeImmutable::getTimezone -- DateTime::getTimezone -- date\_timezone\_get — Повертає часовий пояс щодо поточного значення DateTime
 
 ### Опис
 
@@ -46,15 +47,15 @@ date_timezone_get(DateTimeInterface $object): DateTimeZone|false
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md)
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [date\_create()](function.date-create.md)
 
 ### Значення, що повертаються
 
-Повертає об'єкт [DateTimeZone](class.datetimezone.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає об'єкт [DateTimeZone](class.datetimezone.md) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTime::getTimezone()****
+**Пример #1 Пример использования**DateTime::getTimezone()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -76,7 +77,7 @@ echo timezone_name_get($tz);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Europe/London
@@ -84,4 +85,4 @@ Europe/London
 
 ### Дивіться також
 
--   [DateTime::setTimezone()](datetime.settimezone.md) - Встановлює часовий пояс для об'єкта класу DateTime
+-   [DateTime::setTimezone()](datetime.settimezone.md) \- Встановлює часовий пояс для об'єкта класу DateTime

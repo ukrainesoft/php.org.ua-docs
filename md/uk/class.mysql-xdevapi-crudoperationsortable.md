@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-crudoperationskippable.skip.md: '« CrudOperationSkippable::skip'
   - mysql-xdevapi-crudoperationsortable.sort.md: 'CrudOperationSortable::sort »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Інтерфейс CrudOperationSortable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс CrudOperationSortable
 
@@ -34,4 +35,4 @@ title: Інтерфейс CrudOperationSortable
 
 ## Зміст
 
--   [CrudOperationSortable::sort](mysql-xdevapi-crudoperationsortable.sort.md) - Сортує результати
+-   [CrudOperationSortable::sort](mysql-xdevapi-crudoperationsortable.sort.md) \- Сортує результати

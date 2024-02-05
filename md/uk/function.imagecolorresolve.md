@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolorresolve
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecolorresolve
 
@@ -15,10 +16,10 @@ imagecolorresolve — Отримує ідентифікатор конкретн
 ### Опис
 
 ```methodsynopsis
-imagecolorresolve(    GdImage $image,    int $red,    int $green,    int $blue): int
+imagecolorresolve(    GdImage $image,    int $red,    int $green,    int $blue): int
 ```
 
-Ця функція обов'язково поверне ідентифікатор кольору для вибраного кольору, або найближчу можливу альтернативу.
+Ця функція обов'язково поверне ідентифікатор кольору для вибраного кольору або найближчу можливу його альтернативу.
 
 Якщо зображення було створено з файлу, розпізнаються лише кольори, що використовуються у зображенні. Кольори, які використовуються лише на палітрі, не розпізнано.
 
@@ -46,13 +47,13 @@ imagecolorresolve(    GdImage $image,    int $red,    int $green,    int $blue):
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Використання **imagecoloresolve()** для отримання кольорів із зображення.**
+**Пример #1 Использование**imagecoloresolve()**для получения цветов из изображения.**
 
 ```php
 <?php
@@ -71,7 +72,7 @@ imagedestroy($im);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -83,4 +84,4 @@ Array
 
 ### Дивіться також
 
--   [imagecolorclosest()](function.imagecolorclosest.md) - Отримання індексу кольору найближчого до заданого
+-   [imagecolorclosest()](function.imagecolorclosest.md) \- Отримання індексу кольору найближчого до заданого

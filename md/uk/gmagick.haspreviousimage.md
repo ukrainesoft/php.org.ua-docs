@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::haspreviousimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::haspreviousimage
 
@@ -26,8 +27,8 @@ public Gmagick::haspreviousimage(): mixed
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо при ітерації назад за списком є ​​зображення та **`false`**, якщо ні.
+Повертає **`true`**, если при итерации назад по списку есть изображения и\*\*`false`\*\*, якщо ні.
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

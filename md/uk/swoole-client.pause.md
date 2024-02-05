@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-client.on.md: '« SwooleClient::on'
-  - swoole-client.pipe.md: 'SwooleClient::pipe »'
+  - swoole-client.on.md: '« Swoole\\Client::on'
+  - swoole-client.pipe.md: 'Swoole\\Client::pipe »'
   - index.md: PHP Manual
-  - class.swoole-client.md: SwooleClient
-title: 'SwooleClient::pause'
+  - class.swoole-client.md: Swoole\\Client
+title: 'Swoole\\Client::pause'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleClient::pause
+# Swoole\\Client::pause
 
 (PECL swoole >= 1.9.0)
 
-SwooleClient::pause — Припиняє отримання даних
+Swoole\\Client::pause — Припиняє отримання даних
 
 ### Опис
 

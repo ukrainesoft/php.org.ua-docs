@@ -1,40 +1,51 @@
 ---
 navigation:
-  - dateinterval.construct.md: '« DateInterval::construct'
+  - dateinterval.construct.md: '« DateInterval::\_\_construct'
   - dateinterval.format.md: 'DateInterval::format »'
   - index.md: PHP Manual
   - class.dateinterval.md: DateInterval
 title: 'DateInterval::createFromDateString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateInterval::createFromDateString
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 DateInterval::createFromDateString — Створює об'єкт класу DateInterval із дати у відносному форматі
 
 ### Опис
 
+Об'єктно-орієнтований стиль
+
 ```methodsynopsis
 public static DateInterval::createFromDateString(string $datetime): DateInterval|false
 ```
 
-Розбирає рядок, що містить часовий інтервал у звичайному (здобутаному) вигляді і створює на його основі об'єкт класу DateInterval.
+Процедурний стиль
+
+```methodsynopsis
+date_interval_create_from_date_string(string $datetime): DateInterval|false
+```
+
+Використовує парсер дати/часу, який використовується в конструкторі [DateTimeImmutable](class.datetimeimmutable.md) для створення об'єкта [DateInterval](class.dateinterval.md) із відносних частин розібраного рядка.
 
 ### Список параметрів
 
 `datetime`
 
-Дата, що складається з відносних часових фрагментів. Зокрема, для створення об'єкта DateInterval із частин, записаних у [відносному форматі](datetime.formats.relative.md), який підтримується парсером у функціях [DateTimeImmutable](class.datetimeimmutable.md) [DateTime](class.datetime.md) і [strtotime()](function.strtotime.md)
+Дата, що складається з відносних часових фрагментів. Зокрема, для створення об'єкта DateInterval із частин, записаних у відносному форматі, який підтримується парсером у функціях [DateTimeImmutable](class.datetimeimmutable.md) [DateTime](class.datetime.md) і [strtotime()](function.strtotime.md)
+
+Щоб використовувати рядок у форматі ISO-8601, наприклад `P7D`необхідно використовувати конструктор.
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт класу [DateInterval](class.dateinterval.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт класу [DateInterval](class.dateinterval.md) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тільки властивості `from_string` і `date_string` буде видно при створенні об'єкта [DateInterval](class.dateinterval.md) за допомогою цього. |
+| 8.2.0 | Тільки властивості `from_string`и`date_string` буде видно при створенні об'єкта [DateInterval](class.dateinterval.md) за допомогою цього. |
 
 ### Приклади
 
@@ -66,7 +77,23 @@ $i = DateInterval::createFromDateString('3600 seconds');
 ?>
 ```
 
-**Приклад #2 Розбір спеціальних відносних часових інтервалів**
+**Приклад #2 Розбір комбінацій та негативних інтервалів**
+
+```php
+<?php
+$i = DateInterval::createFromDateString('62 weeks + 1 day + 2 weeks + 2 hours + 70 minutes');
+echo $i->format('%d %h %i'), "\n";
+
+$i = DateInterval::createFromDateString('1 year - 10 days');
+echo $i->format('%y %d'), "\n";
+?>
+```
+
+Результат виконання наведеного прикладу:
+
+449 2 70
+
+**Приклад #3 Розбір спеціальних відносних часових інтервалів**
 
 ```php
 <?php
@@ -77,7 +104,7 @@ $i = DateInterval::createFromDateString('last weekday');
 var_dump($i);
 ```
 
-Результат виконання цього прикладу в PHP 8.2:
+Результат виконання наведеного прикладу в PHP 8.2:
 
 ```
 object(DateInterval)#1 (2) {
@@ -94,7 +121,7 @@ object(DateInterval)#2 (2) {
 }
 ```
 
-Результат виконання цього прикладу в PHP 8 аналогічний:
+Результат виконання наведеного прикладу PHP 8 аналогічний:
 
 ```
 object(DateInterval)#1 (16) {

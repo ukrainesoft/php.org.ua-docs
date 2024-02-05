@@ -1,16 +1,17 @@
 ---
 navigation:
   - solrclient.deletebyqueries.md: '« SolrClient::deleteByQueries'
-  - solrclient.destruct.md: 'SolrClient::destruct »'
+  - solrclient.destruct.md: 'SolrClient::\_\_destruct »'
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::deleteByQuery'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::deleteByQuery
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrClient::deleteByQuery — Видаляє всі документи, які відповідають заданому запиту
+SolrClient::deleteByQuery — Видаляє всі документи, що відповідають заданому запиту
 
 ### Опис
 
@@ -38,7 +39,7 @@ public SolrClient::deleteByQuery(string $query): SolrUpdateResponse
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrQuery::deleteByQuery()****
+**Пример #1 Пример использования**SolrQuery::deleteByQuery()\*\*\*\*
 
 ```php
 <?php
@@ -62,6 +63,6 @@ $client->commit();
 
 ### Дивіться також
 
--   [SolrClient::deleteById()](solrclient.deletebyid.md) - Видаляє за ідентифікатором
--   [SolrClient::deleteByIds()](solrclient.deletebyids.md) - Видаляє за ідентифікаторами
--   [SolrClient::deleteByQueries()](solrclient.deletebyqueries.md) - Видаляє всі документи, що відповідають будь-якому із запитів
+-   [SolrClient::deleteById()](solrclient.deletebyid.md) \- Видаляє за ідентифікатором
+-   [SolrClient::deleteByIds()](solrclient.deletebyids.md) \- Видаляє за ідентифікаторами
+-   [SolrClient::deleteByQueries()](solrclient.deletebyqueries.md) \- Видаляє всі документи, що відповідають будь-якому із запитів

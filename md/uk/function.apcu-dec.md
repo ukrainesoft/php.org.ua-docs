@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.apcu-clear-cache.md: « apcuclearcache
-  - function.apcu-delete.md: apcudelete »
+  - function.apcu-clear-cache.md: « apcu\_clear\_cache
+  - function.apcu-delete.md: apcu\_delete »
   - index.md: PHP Manual
-  - ref.apcu.md: Функции APCu
-title: apcudec
+  - ref.apcu.md: Функції APCu
+title: apcu\_dec
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apcudec
+# apcu\_dec
 
 (PECL apcu >= 4.0.0)
 
-apcudec — Зменшити збережене число
+apcu\_dec — Зменшити збережене число
 
 ### Опис
 
 ```methodsynopsis
-apcu_dec(    string $key,    int $step = 1,    bool &$success = ?,    int $ttl = 0): int|false
+apcu_dec(    string $key,    int $step = 1,    bool &$success = ?,    int $ttl = 0): int|false
 ```
 
 Зменшує збережене число.
@@ -32,7 +33,7 @@ apcu_dec(    string $key,    int $step = 1,    bool &$success = ?,    int $ttl =
 
 `success`
 
-Необов'язковий параметр. Якщо заданий, то в нього буде записано логічне значення **`true`** або **`false`** залежно від успішності операції зменшення.
+Необов'язковий параметр. Якщо заданий, то в нього буде записано логічне значення \*\*`true`**или**`false`\*\*в зависимости от успешности операции уменьшения.
 
 `ttl`
 
@@ -40,11 +41,11 @@ TTL(час життя), що використовується, якщо опер
 
 ### Значення, що повертаються
 
-Повертає поточне значення `key` у разі успішного виконання або **`false`** у разі виникнення помилки
+Повертає поточне значення `key` у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apcudec()****
+**Пример #1 Пример использования**apcu\_dec()\*\*\*\*
 
 ```php
 <?php
@@ -71,7 +72,7 @@ var_dump($fail);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Сделаем что-то без ошибки
@@ -88,4 +89,4 @@ bool(false)
 
 ### Дивіться також
 
--   [apcuinc()](function.apcu-inc.md) - Збільшити збережене число
+-   [apcu\_inc()](function.apcu-inc.md) \- Збільшити збережене число

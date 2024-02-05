@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apache-child-terminate.md: « apachechildterminate
-  - function.apache-get-version.md: apachegetversion »
+  - function.apache-child-terminate.md: « apache\_child\_terminate
+  - function.apache-get-version.md: apache\_get\_version »
   - index.md: PHP Manual
-  - ref.apache.md: Функции Apache
-title: apachegetmodules
+  - ref.apache.md: Функції Apache
+title: apache\_get\_modules
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apachegetmodules
+# apache\_get\_modules
 
-(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.2, PHP 5, PHP 7, PHP 8)
 
-apachegetmodules — Повертає список завантажених модулів сервера Apache
+apache\_get\_modules — Повертає список завантажених модулів сервера Apache
 
 ### Опис
 
@@ -30,7 +31,7 @@ apache_get_modules(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apachegetmodules()****
+**Пример #1 Пример использования**apache\_get\_modules()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ print_r(apache_get_modules());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

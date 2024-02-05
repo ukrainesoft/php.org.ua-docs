@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.imap-fetchtext.md: « imapfetchtext
-  - function.imap-get-quota.md: imapgetquota »
+  - function.imap-fetchtext.md: « imap\_fetchtext
+  - function.imap-get-quota.md: imap\_get\_quota »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapгк
+  - ref.imap.md: Функції IMAP
+title: imap\_gc
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapгк
+# imap\_gc
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-imapgc — Очистити кеш IMAP
+imap\_gc — Очищає кеш IMAP
 
 ### Опис
 
 ```methodsynopsis
-imap_gc(IMAP\Connection $imap, int $flags): bool
+imap_gc(IMAP\Connection $imap, int $flags): true
 ```
 
 Видаляє з кешу записи заданого типу.
@@ -24,7 +25,7 @@ imap_gc(IMAP\Connection $imap, int $flags): bool
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `flags`
 
@@ -32,17 +33,22 @@ imap_gc(IMAP\Connection $imap, int $flags): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
+
+### Помилки
+
+Викидає виняток [ValueError](class.valueerror.md), если значение параметра`flags`недопустимо.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
+| 8.0.0 | Тепер викидається виняток[ValueError](class.valueerror.md) при неприпустимих значеннях параметра `flags`. . Раніше виникало попередження та функція повертала логічне значення **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imapgc()****
+**Пример #1 Пример использования**imap\_gc()\*\*\*\*
 
 ```php
 <?php

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - wrappers.http.md: 'http://'
+  - wrappers.http.md: '« http://'
   - wrappers.php.md: 'php:// »'
   - index.md: PHP Manual
   - wrappers.md: Підтримувані протоколи та обгортки
 title: 'ftp://'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ftp://
 
@@ -25,7 +26,7 @@ ftp:// -- ftps:// — Доступ до URL-адрес за протоколом
 -   [ftp://example.com/pub/file.txt](ftp://example.com/pub/file.txt)
 -   [ftp://user:password@example.com/pub/file.txt](ftp://user:password@example.com/pub/file.txt)
 -   ftps://example.com/pub/file.txt
--   ftps://user:[password@example.com](mailto:password@example.com)/пуб/філе.тхт
+-   ftps://user:[password@example.com](mailto:password@example.com)/pub/file.txt
 
 ### Опції
 
@@ -33,22 +34,22 @@ ftp:// -- ftps:// — Доступ до URL-адрес за протоколом
 
 | Атрибут | Поддерживается |
 | --- | --- |
-| Обмеження по [allowurlfopen](filesystem.configuration.md#ini.allow-url-fopen) | Так |
+| Обмеження по [allow\_url\_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Так |
 | Читання | Так |
-| Запис | Так (нові файли / існуючі файли з опцією `overwrite` |
+| Запис | Так (нові файли / існуючі файли з опцією `overwrite`) . |
 | Додавання | Так |
 | Одночасне читання та запис | Ні |
-| Підтримка [stat()](function.stat.md) | [filesize()](function.filesize.md) [filemtime()](function.filemtime.md) [filetype()](function.filetype.md) [fileexists()](function.file-exists.md) [ісfile()](function.is-file.md) і [ісdir()](function.is-dir.md) |
-| Підтримка [unlink()](function.unlink.md) | Так |
-| Підтримка [rename()](function.rename.md) | Так |
-| Підтримка [mkdir()](function.mkdir.md) | Так |
-| Підтримка [rmdir()](function.rmdir.md) | Так |
+| Поддержка[stat()](function.stat.md) | [filesize()](function.filesize.md) [filemtime()](function.filemtime.md) [filetype()](function.filetype.md) [file\_exists()](function.file-exists.md) [is\_file()](function.is-file.md) і [is\_dir()](function.is-dir.md) |
+| Поддержка[unlink()](function.unlink.md) | Так |
+| Поддержка[rename()](function.rename.md) | Так |
+| Поддержка[mkdir()](function.mkdir.md) | Так |
+| Поддержка[rmdir()](function.rmdir.md) | Так |
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> FTPS підтримується лише тоді, коли увімкнена підтримка модуля [OpenSSL](book.openssl.md)
+> FTPS поддерживается только тогда, когда включена поддержка модуля[OpenSSL](book.openssl.md)
 > 
 > Якщо сервер не підтримує SSL, з'єднання перемикається назад на звичайний нешифрований протокол FTP.
 

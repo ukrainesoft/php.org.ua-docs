@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-update.md: « pgupdate
-  - class.pgsql-connection.md: PgSqlConnection »
+  - function.pg-update.md: « pg\_update
+  - class.pgsql-connection.md: PgSql\\Connection »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгversion
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_version
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгversion
+# pg\_version
 
 (PHP 5, PHP 7, PHP 8)
 
-пгversion — Повертає масив, що містить версії клієнта, протоколу клієнт-серверної взаємодії та сервера (якщо є)
+pg\_version — Повертає масив, що містить версії клієнта, протоколу клієнт-серверної взаємодії та сервера (якщо є)
 
 ### Опис
 
@@ -18,15 +19,15 @@ title: пгversion
 pg_version(?PgSql\Connection $connection = null): array
 ```
 
-**пгversion()** повертає масив, що містить версії клієнта, протоколу клієнт-серверної взаємодії та сервера. Версії протоколу та сервера доступні, тільки якщо модуль PHP скомпільовано для PostgreSQL версії 7.4 або вище.
+**pg\_version()** повертає масив, що містить версії клієнта, протоколу клієнт-серверної взаємодії та сервера. Версії протоколу та сервера доступні, тільки якщо модуль PHP скомпільовано для PostgreSQL версії 7.4 або вище.
 
-Для отримання детальної інформації про сервер використовуйте функцію [пгparameterstatus()](function.pg-parameter-status.md)
+Для отримання детальної інформації про сервер використовуйте функцію [pg\_parameter\_status()](function.pg-parameter-status.md)
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection`указан как\*\*`null`\*\*, вибирається стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -34,18 +35,18 @@ pg_version(?PgSql\Connection $connection = null): array
 
 ### Значення, що повертаються
 
-Повертає масив із ключами `client` `protocol` і `server` та відповідними значеннями версій.
+Повертає масив із ключами `client` `protocol`и`server` та відповідними значеннями версій.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `connection` тепер допускає значення null. |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгversion()****
+**Пример #1 Пример использования**pg\_version()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ pg_version(?PgSql\Connection $connection = null): array
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 7.4
@@ -66,4 +67,4 @@ pg_version(?PgSql\Connection $connection = null): array
 
 ### Дивіться також
 
--   [пгparameterstatus()](function.pg-parameter-status.md) - Перегляд поточних значень параметрів сервера
+-   [pg\_parameter\_status()](function.pg-parameter-status.md) \- Перегляд поточних значень параметрів сервера

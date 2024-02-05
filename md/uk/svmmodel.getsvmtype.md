@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.svmmodel.md: SVMModel
 title: 'SVMModel::getSvmType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SVMModel::getSvmType
 
@@ -18,7 +19,7 @@ SVMModel::getSvmType — Отримати тип SVM, з яким навчала
 public SVMModel::getSvmType(): int
 ```
 
-Повертає ціле число, що представляє одну із констант класу SVM. Наприклад, SVM::CSVC.
+Повертає ціле число, що представляє одну із констант класу SVM. Наприклад, SVM::C\_SVC.
 
 ### Список параметрів
 

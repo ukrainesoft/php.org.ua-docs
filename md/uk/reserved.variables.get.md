@@ -1,16 +1,17 @@
 ---
 navigation:
-  - reserved.variables.server.md: SERVER
-  - reserved.variables.post.md: POST »
+  - reserved.variables.server.md: « $\_SERVER
+  - reserved.variables.post.md: $\_POST »
   - index.md: PHP Manual
   - reserved.variables.md: Зумовлені змінні
-title: GET
+title: $\_GET
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GET
+# $\_GET
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-GET — Змінні HTTP GET
+$\_GET — Змінні HTTP GET
 
 ### Опис
 
@@ -18,7 +19,7 @@ GET — Змінні HTTP GET
 
 ### Приклади
 
-**Приклад #1 Приклад використання $GET**
+**Приклад #1 Приклад використання $\_GET**
 
 ```php
 <?php
@@ -26,9 +27,9 @@ echo 'Привет, ' . htmlspecialchars($_GET["name"]) . '!';
 ?>
 ```
 
-Очевидно, що користувач ввів у браузері адресу [http://example.com/?name=Иван](http://example.com/?name=%D0%98%D0%B2%D0%B0%D0%BD)
+Очевидно, що користувач ввів у браузері адресу [http://example.com/?name=Іван](http://example.com/?name=%D0%98%D0%B2%D0%B0%D0%BD)
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Привет, Иван!
@@ -36,11 +37,11 @@ echo 'Привет, ' . htmlspecialchars($_GET["name"]) . '!';
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Це 'суперглобальна' або автоматична глобальна змінна. Це просто означає, що вона доступна у всіх контекстах скрипту. Немає необхідності виконувати **global $variable;** для доступу до неї всередині методу чи функції.
+> Це «суперглобальна» чи автоматична глобальна змінна. Це просто означає, що вона доступна у всіх контекстах скрипту. Немає необхідності виконувати **global $variable;** для доступу до неї всередині методу чи функції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Параметри GET обробляються [urldecode()](function.urldecode.md)
 

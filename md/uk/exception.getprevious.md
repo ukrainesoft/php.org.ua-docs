@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.exception.md: Exception
 title: 'Exception::getPrevious'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Exception::getPrevious
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 Exception::getPrevious — Повертає попередній об'єкт, що реалізує Throwable
 
@@ -18,7 +19,7 @@ Exception::getPrevious — Повертає попередній об'єкт, щ
 final public Exception::getPrevious(): ?Throwable
 ```
 
-Повертає попередній об'єкт, що реалізує [Throwable](class.throwable.md) (переданий третім параметром [Exception::construct()](exception.construct.md)
+Повертає попередній об'єкт, що реалізує [Throwable](class.throwable.md) (переданий третім параметром [Exception::\_\_construct()](exception.construct.md)
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ final public Exception::getPrevious(): ?Throwable
 
 ### Значення, що повертаються
 
-Повертає попередній об'єкт, що реалізує [Throwable](class.throwable.md) або \*\*`null`\*\*якщо такого немає.
+Повертає попередній об'єкт, що реалізує [Throwable](class.throwable.md)или\*\*`null`\*\*якщо такого немає.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Exception::getPrevious()****
+**Пример #1 Пример использования**Exception::getPrevious()\*\*\*\*
 
 Прохід та друк ланцюга винятків.
 
@@ -57,7 +58,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 /home/bjori/ex.php:8 Что-то случилось (911) [MyCustomException]
@@ -66,4 +67,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getPrevious()](throwable.getprevious.md) - Повертає попередній Throwable
+-   [Throwable::getPrevious()](throwable.getprevious.md) \- Повертає попередній Throwable

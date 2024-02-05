@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-serverdescription.gethost.md: '« MongoDBDriverServerDescription::getHost'
-  - mongodb-driver-serverdescription.getport.md: 'MongoDBDriverServerDescription::getPort »'
+  - mongodb-driver-serverdescription.gethost.md: '« MongoDB\\Driver\\ServerDescription::getHost'
+  - mongodb-driver-serverdescription.getport.md: 'MongoDB\\Driver\\ServerDescription::getPort »'
   - index.md: PHP Manual
-  - class.mongodb-driver-serverdescription.md: MongoDBDriverServerDescription
-title: 'MongoDBDriverServerDescription::getLastUpdateTime'
+  - class.mongodb-driver-serverdescription.md: MongoDB\\Driver\\ServerDescription
+title: 'MongoDB\\Driver\\ServerDescription::getLastUpdateTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverServerDescription::getLastUpdateTime
+# MongoDB\\Driver\\ServerDescription::getLastUpdateTime
 
 (mongodb >=1.13.0)
 
-MongoDBDriverServerDescription::getLastUpdateTime — Повертає час останнього оновлення сервера в мікросекундах
+MongoDB\\Driver\\ServerDescription::getLastUpdateTime — Повертає час останнього оновлення сервера в мікросекундах
 
 ### Опис
 
@@ -20,7 +21,7 @@ final public MongoDB\Driver\ServerDescription::getLastUpdateTime(): int
 
 Повертає час останнього оновлення сервера у мікросекундах.
 
-> **Зауваження**: Значення, що повертається являє собою монотонну мітку часу, яка починається в довільній точці. Як таке, воно підходить тільки для порівняння з іншими значеннями, що повертаються з функції **MongoDBDriverServerDescription::getLastUpdateTime()**
+> **Зауваження**: Значення, що повертається являє собою монотонну мітку часу, яка починається в довільній точці. Як таке, воно підходить тільки для порівняння з іншими значеннями, що повертаються з функції **MongoDB\\Driver\\ServerDescription::getLastUpdateTime()**
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ final public MongoDB\Driver\ServerDescription::getLastUpdateTime(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

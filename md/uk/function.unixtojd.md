@@ -1,10 +1,11 @@
 ---
 navigation:
   - function.juliantojd.md: « juliantojd
-  - book.datetime.md: Дата/время »
+  - book.datetime.md: Дата час "
   - index.md: PHP Manual
-  - ref.calendar.md: Календарь
+  - ref.calendar.md: Календар
 title: unixtojd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # unixtojd
 
@@ -28,14 +29,14 @@ unixtojd(?int $timestamp = null): int|false
 
 ### Значення, що повертаються
 
-Число днів у юліанському літочисленні або **`false`** у разі виникнення помилки.
+Число днів у юліанському літочисленні або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `timestamp` тепер допускає значення null. |
+| 8.0.0 | `timestamp` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [jdtounix()](function.jdtounix.md) - Перекладає число днів у юліанському літочисленні у мітку часу Unix
+-   [jdtounix()](function.jdtounix.md) \- Переказує кількість днів у юліанському літочисленні у мітку часу Unix

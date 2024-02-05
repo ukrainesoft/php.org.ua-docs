@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.recursivetreeiterator.md: RecursiveTreeIterator
 title: 'RecursiveTreeIterator::getPrefix'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RecursiveTreeIterator::getPrefix
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 RecursiveTreeIterator::getPrefix — Отримання префікса
 
@@ -22,7 +23,7 @@ public RecursiveTreeIterator::getPrefix(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ public RecursiveTreeIterator::getPrefix(): string
 
 ### Значення, що повертаються
 
-Повертає рядок для розміщення перед поточним елементом.
+Повертає рядок до приміщення перед поточним елементом.

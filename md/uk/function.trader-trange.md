@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-tema.md: « tradertema
-  - function.trader-trima.md: tradertrima »
+  - function.trader-tema.md: « trader\_tema
+  - function.trader-trima.md: trader\_trima »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradertrange
+  - ref.trader.md: Функції Trader
+title: trader\_trange
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradertrange
+# trader\_trange
 
 (PECL trader >= 0.2.0)
 
-tradertrange — Справжній діапазон
+trader\_trange — Справжній діапазон
 
 ### Опис
 

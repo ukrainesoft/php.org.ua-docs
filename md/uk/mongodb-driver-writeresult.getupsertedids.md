@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getupsertedcount.md: '« MongoDBDriverWriteResult::getUpsertedCount'
-  - mongodb-driver-writeresult.getwriteconcernerror.md: 'MongoDBDriverWriteResult::getWriteConcernError »'
+  - mongodb-driver-writeresult.getupsertedcount.md: '« MongoDB\\Driver\\WriteResult::getUpsertedCount'
+  - mongodb-driver-writeresult.getwriteconcernerror.md: 'MongoDB\\Driver\\WriteResult::getWriteConcernError »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
-title: 'MongoDBDriverWriteResult::getUpsertedIds'
+  - class.mongodb-driver-writeresult.md: MongoDB\\Driver\\WriteResult
+title: 'MongoDB\\Driver\\WriteResult::getUpsertedIds'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteResult::getUpsertedIds
+# MongoDB\\Driver\\WriteResult::getUpsertedIds
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteResult::getUpsertedIds — Повертає масив ідентифікаторів для об'єднаних документів
+MongoDB\\Driver\\WriteResult::getUpsertedIds — Повертає масив ідентифікаторів для об'єднаних документів
 
 ### Опис
 
@@ -24,15 +25,15 @@ final public MongoDB\Driver\WriteResult::getUpsertedIds(): array
 
 ### Значення, що повертаються
 
-Повертає масив ідентифікаторів (тобто значення полів `"_id"`) для об'єднаних документів. Ключі масиву будуть відповідати індексу операції запису (з [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)), відповідальної за злиття.
+Повертає масив ідентифікаторів (тобто значення полів `"_id"`) для об'єднаних документів. Ключі масиву будуть відповідати індексу операції запису (з [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.md)), відповідальної за злиття.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteResult::getUpsertedIds()****
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getUpsertedIds()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump($result->getUpsertedIds());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {
@@ -72,5 +73,5 @@ array(2) {
 
 ### Дивіться також
 
--   [MongoDBDriverWriteResult::getUpsertedCount()](mongodb-driver-writeresult.getupsertedcount.md) - Повертає кількість документів, вставлених злиттям
--   [MongoDBDriverWriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.md) - Повертає, чи був запис підтверджений
+-   [MongoDB\\Driver\\WriteResult::getUpsertedCount()](mongodb-driver-writeresult.getupsertedcount.md) \- Повертає кількість документів, вставлених злиттям
+-   [MongoDB\\Driver\\WriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.md) \- Повертає, чи був запис підтверджений

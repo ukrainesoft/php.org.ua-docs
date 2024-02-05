@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-pkey-free.md: « opensslpkeyfree
-  - function.openssl-pkey-get-private.md: opensslpkeygetprivate »
+  - function.openssl-pkey-free.md: « openssl\_pkey\_free
+  - function.openssl-pkey-get-private.md: openssl\_pkey\_get\_private »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslpkeygetdetails
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_pkey\_get\_details
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslpkeygetdetails
+# openssl\_pkey\_get\_details
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-opensslpkeygetdetails — Отримує масив із детальною інформацією про ключ
+openssl\_pkey\_get\_details — Отримує масив із детальною інформацією про ключ
 
 ### Опис
 
@@ -28,13 +29,13 @@ openssl_pkey_get_details(OpenSSLAsymmetricKey $key): array|false
 
 ### Значення, що повертаються
 
-Повертає масив з детальною інформацією про ключ, або **`false`**. Масив містить такі індекси: `bits` (кількість біт), `key` (рядкове подання відкритого ключа) та `type` (Тип ключа, одна з констант: **`OPENSSL_KEYTYPE_RSA`** **`OPENSSL_KEYTYPE_DSA`** **`OPENSSL_KEYTYPE_DH`** **`OPENSSL_KEYTYPE_EC`** або -1 якщо невідомо).
+Повертає масив з детальною інформацією про ключ, або **`false`**. Масив містить такі індекси: `bits` (кількість біт), `key` (рядкове подання відкритого ключа) та `type`(тип ключа, одна из констант:**`OPENSSL_KEYTYPE_RSA`** **`OPENSSL_KEYTYPE_DSA`** **`OPENSSL_KEYTYPE_DH`** **`OPENSSL_KEYTYPE_EC`** або -1 якщо невідомо).
 
 Залежно від типу використовуваного ключа можуть бути повернені додаткові дані. Зауважте, що деяких елементів може і не бути.
 
--   Для **`OPENSSL_KEYTYPE_RSA`** повертається елемент із індексом `"rsa"`містить дані ключа.
+-   Для\*\*`OPENSSL_KEYTYPE_RSA`\*\*повертається елемент із індексом`"rsa"`містить дані ключа.
     
-    | Ключ | Описание |
+    | Ключ | Опис |
     | --- | --- |
     | `"n"` | модуль |
     | `"e"` | відкрита експонента |
@@ -45,9 +46,9 @@ openssl_pkey_get_details(OpenSSLAsymmetricKey $key): array|false
     | `"dmq1"` | друга експонента, d mod (q-1) |
     | `"iqmp"` | коефіцієнт, (1/q) mod p |
     
--   Для **`OPENSSL_KEYTYPE_DSA`** повертається елемент із індексом `"dsa"`містить дані ключа.
+-   Для\*\*`OPENSSL_KEYTYPE_DSA`\*\*повертається елемент із індексом`"dsa"`містить дані ключа.
     
-    | Ключ | Описание |
+    | Ключ | Опис |
     | --- | --- |
     | `"p"` | Просте число (публічне) |
     | `"q"` | 160-бітове просте число, таке, що p-1 ділиться на q (публічне) |
@@ -55,20 +56,20 @@ openssl_pkey_get_details(OpenSSLAsymmetricKey $key): array|false
     | `"priv_key"` | Секретний ключ x |
     | `"pub_key"` | Відкритий ключ y = g^x |
     
--   Для **`OPENSSL_KEYTYPE_DH`** повертається елемент із індексом `"dh"`містить дані ключа.
+-   Для\*\*`OPENSSL_KEYTYPE_DH`\*\*повертається елемент із індексом`"dh"`містить дані ключа.
     
-    | Ключ | Описание |
+    | Ключ | Опис |
     | --- | --- |
     | `"p"` | Просте число (відкрите) |
-    | `"g"` | Генератор Zp (відкритий), просте число, первісний корінь за модулем p |
+    | `"g"` | Генератор Z\_p (відкритий), просте число, первісний корінь за модулем p |
     | `"priv_key"` | секретне DH значення x |
     | `"pub_key"` | відкрите DH значення g^x |
     
--   **`OPENSSL_KEYTYPE_EC`** повертається елемент із індексом `"ec"`містить дані ключа.
+-   \*\*`OPENSSL_KEYTYPE_EC`\*\*повертається елемент із індексом`"ec"`містить дані ключа.
     
-    | Ключ | Описание |
+    | Ключ | Опис |
     | --- | --- |
-    | `"curve_name"` | Назва кривої, дивись [opensslgetcurvenames()](function.openssl-get-curve-names.md) |
+    | `"curve_name"` | Назва кривої, дивись [openssl\_get\_curve\_names()](function.openssl-get-curve-names.md) |
     | `"curve_oid"` | Ідентифікатор об'єкта ASN1 (OID) для кривої EC. |
     | `"x"` | x координата (відкрита) |
     | `"y"` | y координата (відкрита) |
@@ -77,6 +78,6 @@ openssl_pkey_get_details(OpenSSLAsymmetricKey $key): array|false
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+| 8.0.0 | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL key` |

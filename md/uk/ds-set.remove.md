@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.reduce.md: '« DsSet::reduce'
-  - ds-set.reverse.md: 'ДсSet::reverse »'
+  - ds-set.reduce.md: '« Ds\\Set::reduce'
+  - ds-set.reverse.md: 'Ds\\Set::reverse »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::remove'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::remove'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::remove
+# Ds\\Set::remove
 
 (PECL ds >= 1.0.0)
 
-ДсSet::remove — Видалення всіх заданих значень з набору
+Ds\\Set::remove — Видалення всіх заданих значень з набору
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Ds\Set::remove(mixed ...$values): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::remove()****
+**Пример #1 Пример использования**Ds\\Set::remove()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($set);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Set)#1 (1) {

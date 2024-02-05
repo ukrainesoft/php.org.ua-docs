@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.simplexml.md: « Функции SimpleXML
-  - function.simplexml-load-file.md: simplexmlloadfile »
+  - ref.simplexml.md: « Функції SimpleXML
+  - function.simplexml-load-file.md: simplexml\_load\_file »
   - index.md: PHP Manual
-  - ref.simplexml.md: Функции SimpleXML
-title: simplexmlimportdom
+  - ref.simplexml.md: Функції SimpleXML
+title: simplexml\_import\_dom
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# simplexmlimportdom
+# simplexml\_import\_dom
 
 (PHP 5, PHP 7, PHP 8)
 
-simplexmlimportdom — Отримує об'єкт класу `SimpleXMLElement` з вузла DOM
+simplexml\_import\_dom — Отримує об'єкт класу `SimpleXMLElement`из узла DOM
 
 ### Опис
 
@@ -28,11 +29,11 @@ simplexml_import_dom(SimpleXMLElement|DOMNode $node, ?string $class_name = Simpl
 
 `class_name`
 
-Ви можете використовувати цей додатковий параметр, щоб функція **simplexmlimportdom()** повертала об'єкт вказаного класу. Цей клас має розширювати клас [SimpleXMLElement](class.simplexmlelement.md)
+Ви можете використовувати цей додатковий параметр, щоб функція **simplexml\_import\_dom()** повертала об'єкт вказаного класу. Цей клас має розширювати клас [SimpleXMLElement](class.simplexmlelement.md)
 
 ### Значення, що повертаються
 
-Повертає [SimpleXMLElement](class.simplexmlelement.md) або **`null`** у разі виникнення помилки.
+Повертає [SimpleXMLElement](class.simplexmlelement.md)или\*\*`null`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -53,7 +54,7 @@ echo $s->book[0]->title;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 чепуха
@@ -61,5 +62,5 @@ echo $s->book[0]->title;
 
 ### Дивіться також
 
--   [domimportsimplexml()](function.dom-import-simplexml.md) - Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
--   [Базовое использование SimpleXML](simplexml.examples-basic.md)
+-   [dom\_import\_simplexml()](function.dom-import-simplexml.md) \- Отримує об'єкт класу DOMElement із об'єкта класу SimpleXMLElement
+-   [Базове використання SimpleXML](simplexml.examples-basic.md)

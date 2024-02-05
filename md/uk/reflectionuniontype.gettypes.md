@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionuniontype.md: ReflectionUnionType
 title: 'ReflectionUnionType::getTypes'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionUnionType::getTypes
 
@@ -30,7 +31,7 @@ public ReflectionUnionType::getTypes(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionUnionType::getTypes()****
+**Пример #1 Пример использования**ReflectionUnionType::getTypes()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ $reflectionParam = $reflectionFunc->getParameters()[0];
 var_dump($reflectionParam->getType()->getTypes());
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {
@@ -57,5 +58,5 @@ array(2) {
 
 ### Дивіться також
 
--   [ReflectionType::allowsNull()](reflectiontype.allowsnull.md) - Перевіряє, чи допустимо NULL
--   [ReflectionParameter::getType()](reflectionparameter.gettype.md) - Отримати тип параметра
+-   [ReflectionType::allowsNull()](reflectiontype.allowsnull.md) \- Перевіряє, чи допустимо NULL
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.md) \- Отримати тип параметра

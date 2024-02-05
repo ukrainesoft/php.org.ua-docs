@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::colorMatrixImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::colorMatrixImage
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
 Imagick::colorMatrixImage — Застосовує перетворення кольору до зображення
 
@@ -30,7 +31,7 @@ public Imagick::colorMatrixImage(array $color_matrix = Imagick::CHANNEL_DEFAULT)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::colorMatrixImage()****
+**Пример #1 Пример использования**Imagick::colorMatrixImage()\*\*\*\*
 
 ```php
 <?php

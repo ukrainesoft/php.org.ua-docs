@@ -1,18 +1,19 @@
 ---
 navigation:
-  - datetimezone.construct.md: '« DateTimeZone::construct'
+  - datetimezone.construct.md: '« DateTimeZone::\_\_construct'
   - datetimezone.getname.md: 'DateTimeZone::getName »'
   - index.md: PHP Manual
   - class.datetimezone.md: DateTimeZone
 title: 'DateTimeZone::getLocation'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeZone::getLocation
 
-# timezonelocationget
+# timezone\_location\_get
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-DateTimeZone::getLocation -- timezonelocationget — Повертає інформацію про місцезнаходження для часового поясу
+DateTimeZone::getLocation -- timezone\_location\_get — Повертає інформацію про місцезнаходження для часового поясу
 
 ### Опис
 
@@ -34,15 +35,15 @@ timezone_location_get(DateTimeZone $object): array|false
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.md), що повертається [timezoneopen()](function.timezone-open.md)
+Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.md), що повертається [timezone\_open()](function.timezone-open.md)
 
 ### Значення, що повертаються
 
-Масив, що містить інформацію про місцезнаходження часового поясу або **`false`** у разі виникнення помилки.
+Массив, содержащий информацию о местоположении часового пояса или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTimeZone::getLocation()****
+**Пример #1 Пример использования**DateTimeZone::getLocation()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ print_r(timezone_location_get($tz));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -73,4 +74,4 @@ Array
 
 ### Дивіться також
 
--   Функція [DateTimeZone::listIdentifiers()](datetimezone.listidentifiers.md) - Повертає чисельно індексований масив з усіма ідентифікаторами часових поясів для отримання повного або часткового списку всіх ідентифікаторів часових поясів, що підтримуються.
+-   Функция[DateTimeZone::listIdentifiers()](datetimezone.listidentifiers.md) \- Повертає чисельно індексований масив з усіма ідентифікаторами часових поясів для отримання повного або часткового списку всіх ідентифікаторів часових поясів, що підтримуються.

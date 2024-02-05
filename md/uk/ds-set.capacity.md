@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.allocate.md: '« DsSet::allocate'
-  - ds-set.clear.md: 'ДсSet::clear »'
+  - ds-set.allocate.md: '« Ds\\Set::allocate'
+  - ds-set.clear.md: 'Ds\\Set::clear »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::capacity'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::capacity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::capacity
+# Ds\\Set::capacity
 
 (PECL ds >= 1.0.0)
 
-ДсSet::capacity — Повертає поточну місткість
+Ds\\Set::capacity — Повертає поточну місткість
 
 ### Опис
 
@@ -30,19 +31,19 @@ public Ds\Set::capacity(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::capacity()****
+**Пример #1 Пример использования**Ds\\Set::capacity()\*\*\*\*
 
 ```php
 <?php
 $set = new \Ds\Set();
 var_dump($set->capacity());
 
-$set->push(...range(1, 50));
+$set->add(...range(1, 50));
 var_dump($set->capacity());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(16)

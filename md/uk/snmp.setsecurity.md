@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.snmp.md: SNMP
 title: 'SNMP::setSecurity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SNMP::setSecurity
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SNMP::setSecurity — Налаштовує пов'язані з безпекою параметри сесії SNMPv3
 
 ### Опис
 
 ```methodsynopsis
-public SNMP::setSecurity(    string $securityLevel,    string $authProtocol = "",    string $authPassphrase = "",    string $privacyProtocol = "",    string $privacyPassphrase = "",    string $contextName = "",    string $contextEngineId = ""): bool
+public SNMP::setSecurity(    string $securityLevel,    string $authProtocol = "",    string $authPassphrase = "",    string $privacyProtocol = "",    string $privacyPassphrase = "",    string $contextName = "",    string $contextEngineId = ""): bool
 ```
 
 setSecurity налаштовує пов'язані з безпекою параметри сесії, що використовуються у протоколі SNMP версії 3
@@ -52,11 +53,11 @@ setSecurity налаштовує пов'язані з безпекою пара�
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SNMP::setSecurity()****
+**Пример #1 Пример использования**SNMP::setSecurity()\*\*\*\*
 
 ```php
 <?php
@@ -67,4 +68,4 @@ setSecurity налаштовує пов'язані з безпекою пара�
 
 ### Дивіться також
 
--   [SNMP::construct()](snmp.construct.md) - Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP
+-   [SNMP::\_\_construct()](snmp.construct.md) \- Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP

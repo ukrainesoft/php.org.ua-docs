@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setFacetEnumCacheMinDefaultFrequency'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setFacetEnumCacheMinDefaultFrequency
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setFacetEnumCacheMinDefaultFrequency — Встановлює мінімальну частоту документа, що використовується для визначення кількості виразів
 

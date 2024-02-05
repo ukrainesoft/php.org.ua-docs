@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlcounterattack.md: « tradercdlcounterattack
-  - function.trader-cdldoji.md: tradercdldoji »
+  - function.trader-cdlcounterattack.md: « trader\_cdlcounterattack
+  - function.trader-cdldoji.md: trader\_cdldoji »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdldarkcloudcover
+  - ref.trader.md: Функції Trader
+title: trader\_cdldarkcloudcover
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdldarkcloudcover
+# trader\_cdldarkcloudcover
 
 (PECL trader >= 0.2.0)
 
-tradercdldarkcloudcover — Завіса з темних хмар
+trader\_cdldarkcloudcover — Завіса з темних хмар
 
 ### Опис
 
 ```methodsynopsis
-trader_cdldarkcloudcover(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+trader_cdldarkcloudcover(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
 ```
 
 ### Список параметрів

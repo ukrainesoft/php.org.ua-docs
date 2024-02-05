@@ -1,12 +1,13 @@
 ---
 navigation:
-  - componere-patch.getclosures.md: '« ComponerePatch::getClosures'
-  - componere-method.construct.md: 'ComponereMethod::construct »'
+  - componere-patch.getclosures.md: '« Componere\\Patch::getClosures'
+  - componere-method.construct.md: 'Componere\\Method::\_\_construct »'
   - index.md: PHP Manual
   - book.componere.md: Componere
-title: Клас ComponereMethod
+title: Клас Componere\\Method
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас ComponereMethod
+# Клас Componere\\Method
 
 (Componere 2 >= 2.1.0)
 
@@ -44,8 +45,8 @@ public getReflector(): ReflectionMethod
 
 ## Зміст
 
--   [ComponereMethod::construct](componere-method.construct.md) - Конструктор класу Method
--   [ComponereMethod::setPrivate](componere-method.setprivate.md) — Зміна доступності
--   [ComponereMethod::setProtected](componere-method.setprotected.md) — Зміна доступності
--   [ComponereMethod::setStatic](componere-method.setstatic.md) — Зміна доступності
--   [ComponereMethod::getReflector](componere-method.getreflector.md) - Reflection
+-   [Componere\\Method::\_\_construct](componere-method.construct.md) \- Конструктор класу Method
+-   [Componere\\Method::setPrivate](componere-method.setprivate.md)— Зміна доступності
+-   [Componere\\Method::setProtected](componere-method.setprotected.md)— Зміна доступності
+-   [Componere\\Method::setStatic](componere-method.setstatic.md)— Зміна доступності
+-   [Componere\\Method::getReflector](componere-method.getreflector.md)— Reflection

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.shmop-write.md: « shmopwrite
+  - function.shmop-write.md: « shmop\_write
   - book.sync.md: Sync »
   - index.md: PHP Manual
-  - book.shmop.md: Управление разделяемой памятью
+  - book.shmop.md: 'Управління пам''яттю, що розділяється'
 title: Клас Shmop
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Shmop
 
@@ -16,16 +17,11 @@ title: Клас Shmop
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class Shmop
-     
+     final
+     class Shmop
      {
    }
 ```

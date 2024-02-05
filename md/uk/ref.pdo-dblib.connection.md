@@ -1,24 +1,25 @@
 ---
 navigation:
-  - ref.pdo-dblib.md: « MS SQL Server (PDODBLIB)
+  - ref.pdo-dblib.md: « MS SQL Server (PDO\_DBLIB)
   - ref.pdo-firebird.md: Firebird (PDO) »
   - index.md: PHP Manual
-  - ref.pdo-dblib.md: MS SQL Server (PDODBLIB)
-title: PDODBLIB DSN
+  - ref.pdo-dblib.md: MS SQL Server (PDO\_DBLIB)
+title: PDO\_DBLIB DSN
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# PDODBLIB DSN
+# PDO\_DBLIB DSN
 
-(PECL PDODBLIB> = 0.9.0)
+(PECL PDO\_DBLIB >= 0.9.0)
 
-PDODBLIB DSN — З'єднання з базами даних Microsoft SQL Server та Sybase
+PDO\_DBLIB DSN — З'єднання з базами даних Microsoft SQL Server та Sybase
 
 ### Опис
 
-Ім'я джерела даних (Data Source Name, DSN) PDODBLIB складається з наступних елементів:
+Ім'я джерела даних (Data Source Name, DSN) PDO\_DBLIB складається з наступних елементів:
 
 Префікс DSN
 
-Використовуйте префікс DSN **`sybase:`** у випадку, якщо PDODBLIB зібраний із бібліотеками Sybase ct-lib, \*\*`mssql:`\*\*якщо PDODBLIB зібрано з бібліотеками Microsoft SQL Server, або \*\*`dblib:`\*\*якщо PDODBLIB зібраний із бібліотеками FreeTDS.
+Используйте префикс DSN\*\*`sybase:`\*\* у випадку, якщо PDO\_DBLIB зібраний із бібліотеками Sybase ct-lib, \*\*`mssql:`\*\*якщо PDO\_DBLIB зібрано з бібліотеками Microsoft SQL Server, або \*\*`dblib:`\*\*якщо PDO\_DBLIB зібраний із бібліотеками FreeTDS.
 
 `host`
 
@@ -42,9 +43,9 @@ PDODBLIB DSN — З'єднання з базами даних Microsoft SQL Serv
 
 ### Приклади
 
-**Приклад #1 Приклади використання PDODBLIB DSN**
+**Приклад #1 Приклади використання PDO\_DBLIB DSN**
 
-Наступні приклади показують PDODBLIB DSN для з'єднання з базами даних Microsoft SQL Server та Sybase:
+Наступні приклади показують PDO\_DBLIB DSN для з'єднання з базами даних Microsoft SQL Server та Sybase:
 
 ```
 mssql:host=localhost;dbname=testdb

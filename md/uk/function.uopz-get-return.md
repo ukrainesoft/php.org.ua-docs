@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-get-property.md: « uopzgetproperty
-  - function.uopz-get-static.md: uopzgetstatic »
+  - function.uopz-get-property.md: « uopz\_get\_property
+  - function.uopz-get-static.md: uopz\_get\_static »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzgetreturn
+title: uopz\_get\_return
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzgetreturn
+# uopz\_get\_return
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzgetreturn — Отримує попереднє встановлене значення, що повертається для функції
+uopz\_get\_return — Отримує попереднє встановлене значення, що повертається для функції
 
 ### Опис
 
@@ -22,7 +23,7 @@ uopz_get_return(string $function): mixed
 uopz_get_return(string $class, string $function): mixed
 ```
 
-Отримує значення, що повертається `function`, раніше встановлене за допомогою [uopzsetreturn()](function.uopz-set-return.md)
+Получает возвращаемое значение`function`, ранее установленное с помощью[uopz\_set\_return()](function.uopz-set-return.md)
 
 ### Список параметрів
 
@@ -40,7 +41,7 @@ uopz_get_return(string $class, string $function): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzgetreturn()****
+**Пример #1 Пример использования**uopz\_get\_return()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ echo uopz_get_return("strlen");
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 42

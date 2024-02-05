@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.class-uses.md: « classuses
-  - function.iterator-count.md: iteratorcount »
+  - function.class-uses.md: « class\_uses
+  - function.iterator-count.md: iterator\_count »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
-title: iteratorapply
+title: iterator\_apply
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# iteratorapply
+# iterator\_apply
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-iteratorapply — Викликає функцію кожного елемента в ітераторі
+iterator\_apply — Викликає функцію кожного елемента в ітераторі
 
 ### Опис
 
@@ -42,7 +43,7 @@ iterator_apply(Traversable $iterator, callable $callback, ?array $args = null): 
 
 ### Приклади
 
-**Приклад #1 Приклад використання **iteratorapply()****
+**Пример #1 Пример использования**iterator\_apply()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ iterator_apply($it, "print_caps", array($it));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 APPLES
@@ -66,4 +67,4 @@ CHERRIES
 
 ### Дивіться також
 
--   [arraywalk()](function.array-walk.md) - Застосовує задану користувачем функцію кожного елемента масиву
+-   [array\_walk()](function.array-walk.md) \- Застосовує задану користувачем функцію кожного елемента масиву

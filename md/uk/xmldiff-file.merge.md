@@ -1,16 +1,17 @@
 ---
 navigation:
-  - xmldiff-file.diff.md: '« XMLDiffFile::diff'
-  - book.xml.md: Разбор XML »
+  - xmldiff-file.diff.md: '« XMLDiff\\File::diff'
+  - book.xml.md: Розбір XML »
   - index.md: PHP Manual
-  - class.xmldiff-file.md: XMLDiffFile
-title: 'XMLDiffFile::merge'
+  - class.xmldiff-file.md: XMLDiff\\File
+title: 'XMLDiff\\File::merge'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# XMLDiffFile::merge
+# XMLDiff\\File::merge
 
 (PECL xmldiff >= 0.8.0)
 
-XMLDiffFile::merge — Застосувати зміни до документа XML
+XMLDiff\\File::merge — Застосувати зміни до документа XML
 
 ### Опис
 
@@ -18,7 +19,7 @@ XMLDiffFile::merge — Застосувати зміни до документа
 public XMLDiff\File::merge(string $src, string $diff): string
 ```
 
-Створює новий документ XML на базі джерела та списку змін.
+Створює новий документ XML на базі документа джерела та списку змін.
 
 ### Список параметрів
 

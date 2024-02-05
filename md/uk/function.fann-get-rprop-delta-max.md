@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-rprop-decrease-factor.md: « fanngetrpropdecreasefactor
-  - function.fann-get-rprop-delta-min.md: fanngetrpropdeltamin »
+  - function.fann-get-rprop-decrease-factor.md: « fann\_get\_rprop\_decrease\_factor
+  - function.fann-get-rprop-delta-min.md: fann\_get\_rprop\_delta\_min »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetrpropdeltamax
+  - ref.fann.md: Функції Fann
+title: fann\_get\_rprop\_delta\_max
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetrpropdeltamax
+# fann\_get\_rprop\_delta\_max
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetrpropdeltamax — Повертає максимальний розмір кроку
+fann\_get\_rprop\_delta\_max — Повертає максимальний розмір кроку
 
 ### Опис
 
@@ -30,9 +31,9 @@ fann_get_rprop_delta_max(resource $ann): float
 
 ### Значення, що повертаються
 
-Максимальний розмір кроку або **`false`** у разі виникнення помилки.
+Максимальний розмір кроку або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fannsetrpropdeltamax()](function.fann-set-rprop-delta-max.md) - Встановлює максимальний розмір кроку
--   [fanngetrpropdeltamin()](function.fann-get-rprop-delta-min.md) - Повертає мінімальний розмір кроку
+-   [fann\_set\_rprop\_delta\_max()](function.fann-set-rprop-delta-max.md) \- Встановлює максимальний розмір кроку
+-   [fann\_get\_rprop\_delta\_min()](function.fann-get-rprop-delta-min.md) \- Повертає мінімальний розмір кроку

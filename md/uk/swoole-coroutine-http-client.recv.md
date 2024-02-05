@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine-http-client.post.md: '« SwooleCoroutineHttpClient::post'
-  - swoole-coroutine-http-client.set.md: 'SwooleCoroutineHttpClient::set »'
+  - swoole-coroutine-http-client.post.md: '« Swoole\\Coroutine\\Http\\Client::post'
+  - swoole-coroutine-http-client.set.md: 'Swoole\\Coroutine\\Http\\Client::set »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutineHttpClient::recv'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine\\Http\\Client::recv'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutineHttpClient::recv
+# Swoole\\Coroutine\\Http\\Client::recv
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutineHttpClient::recv — Опис
+Swoole\\Coroutine\\Http\\Client::recv — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Coroutine\Http\Client::recv(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

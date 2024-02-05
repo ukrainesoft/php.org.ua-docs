@@ -1,24 +1,25 @@
 ---
 navigation:
-  - class.yaf-config-simple.md: « YafConfigSimple
-  - yaf-config-simple.count.md: 'YafConfigSimple::count »'
+  - class.yaf-config-simple.md: « Yaf\_Config\_Simple
+  - yaf-config-simple.count.md: 'Yaf\_Config\_Simple::count »'
   - index.md: PHP Manual
-  - class.yaf-config-simple.md: YafConfigSimple
-title: 'YafConfigSimple::construct'
+  - class.yaf-config-simple.md: Yaf\_Config\_Simple
+title: 'Yaf\_Config\_Simple::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigSimple::construct
+# Yaf\_Config\_Simple::\_\_construct
 
 (Yaf >=1.0.0)
 
-YafConfigSimple::construct - Призначення construct
+Yaf\_Config\_Simple::\_\_construct — Назначение\_\_construct
 
 ### Опис
 
-public **YafConfigSimple::construct**(array `$configs`, bool `$readonly` = false)
+public**Yaf\_Config\_Simple::\_\_construct**(array`$configs`, bool`$readonly`\= false)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

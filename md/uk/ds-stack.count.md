@@ -1,15 +1,16 @@
 ---
 navigation:
-  - ds-stack.copy.md: '« DsStack::copy'
-  - ds-stack.isempty.md: 'ДсStack::isEmpty »'
+  - ds-stack.copy.md: '« Ds\\Stack::copy'
+  - ds-stack.isempty.md: 'Ds\\Stack::isEmpty »'
   - index.md: PHP Manual
-  - class.ds-stack.md: Стек
-title: 'ДсStack::count'
+  - class.ds-stack.md: Ds\\Stack
+title: 'Ds\\Stack::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсStack::count
+# Ds\\Stack::count
 
 (PECL ds >= 1.0.0)
 
-ДсStack::count — Повертає кількість елементів колекції
+Ds\\Stack::count — Повертає кількість елементів колекції
 
-Дивіться опис функції [Countable::count()](countable.count.md)
+Смотрите описание функции[Countable::count()](countable.count.md)

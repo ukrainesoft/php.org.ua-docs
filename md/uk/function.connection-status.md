@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.connection-aborted.md: « connectionaborted
+  - function.connection-aborted.md: « connection\_aborted
   - function.constant.md: constant »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
-title: connectionstatus
+title: connection\_status
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# connectionstatus
+# connection\_status
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-connectionstatus — Повертає статус з'єднання в бітах
+connection\_status — Повертає бітове поле стану з'єднання.
 
 ### Опис
 
@@ -18,7 +19,7 @@ connectionstatus — Повертає статус з'єднання в біта
 connection_status(): int
 ```
 
-Набуває статусу з'єднання в бітах.
+Отримує бітове поле стану з'єднання.
 
 ### Список параметрів
 
@@ -26,10 +27,10 @@ connection_status(): int
 
 ### Значення, що повертаються
 
-Повертає статус з'єднання в бітах, який можна використовувати у константах `CONNECTION_XXX` визначення статусу з'єднання.
+Повертає бітове поле стану з'єднання, який можна використовувати з константами [**`CONNECTION_*`**](misc.constants.md)для определения состояния соединения.
 
 ### Дивіться також
 
--   [connectionaborted()](function.connection-aborted.md) - Перевірити, чи клієнт вимкнено
--   [ignoreuserabort()](function.ignore-user-abort.md) - Встановити, чи має відключення клієнта переривати виконання скрипту
--   Дивіться [Управление соединением](features.connection-handling.md) для повної інформації про управління з'єднанням PHP.
+-   [connection\_aborted()](function.connection-aborted.md) \- Перевірити, чи клієнт вимкнено
+-   [ignore\_user\_abort()](function.ignore-user-abort.md) \- Встановити, чи має відключення клієнта переривати виконання скрипту
+-   Детально про керування з'єднаннями в PHP розказано у розділі «[Управління з'єднанням](features.connection-handling.md)».

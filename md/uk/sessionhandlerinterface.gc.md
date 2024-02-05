@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sessionhandlerinterface.md: SessionHandlerInterface
 title: 'SessionHandlerInterface::gc'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SessionHandlerInterface::gc
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SessionHandlerInterface::gc — Очищає старі сесії
 
@@ -18,7 +19,7 @@ SessionHandlerInterface::gc — Очищає старі сесії
 public SessionHandlerInterface::gc(int $max_lifetime): int|false
 ```
 
-Очищає сесії з терміном життя, що минув. Викликається функцією [sessionstart()](function.session-start.md), і ґрунтується на опціях [session.gcdivisor](session.configuration.md#ini.session.gc-divisor) [session.gcprobability](session.configuration.md#ini.session.gc-probability) і [session.gcmaxlifetime](session.configuration.md#ini.session.gc-maxlifetime)
+Очищає сесії з терміном життя, що минув. Викликається функцією [session\_start()](function.session-start.md), і ґрунтується на опціях [session.gc\_divisor](session.configuration.md#ini.session.gc-divisor) [session.gc\_probability](session.configuration.md#ini.session.gc-probability) і [session.gc\_maxlifetime](session.configuration.md#ini.session.gc-maxlifetime)
 
 ### Список параметрів
 
@@ -32,6 +33,6 @@ public SessionHandlerInterface::gc(int $max_lifetime): int|false
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | До цієї версії функція повертала **`true`** у разі успішного виконання. |
+| 7.1.0 | До цієї версії функція повертала **`true`** у разі успішного виконання. |

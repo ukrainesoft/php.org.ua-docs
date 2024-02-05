@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ob-list-handlers.md: « oblisthandlers
-  - function.output-add-rewrite-var.md: outputaddrewritevar »
+  - function.ob-list-handlers.md: « ob\_list\_handlers
+  - function.output-add-rewrite-var.md: output\_add\_rewrite\_var »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
-title: проstart
+title: ob\_start
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# проstart
+# ob\_start
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-проstart — Увімкнення буферизації виводу
+ob\_start — Вмикає буферизацію виводу
 
 ### Опис
 
@@ -18,23 +19,21 @@ title: проstart
 ob_start(callable $callback = null, int $chunk_size = 0, int $flags = PHP_OUTPUT_HANDLER_STDFLAGS): bool
 ```
 
-Ця функція включає буферизацію виводу. Якщо буферизація виводу активна, жодного виводу скрипта не надсилається (крім заголовків), а зберігається у внутрішньому буфері.
+Функція включає буферизацію виведення. Поки буферизація виводу активна, виведення зі скрипту не відправляється, натомість висновок зберігається у внутрішньому буфері. В розділі " [Який висновок буферизується?](outcontrol.what-output-is-buffered.md) » розказано, який саме висновок це впливає.
 
-Вміст цього внутрішнього буфера може бути скопійований у рядкову змінну, використовуючи [проgetcontents()](function.ob-get-contents.md). Для виведення вмісту внутрішнього буфера слід використовувати [проendflush()](function.ob-end-flush.md). Як альтернативу можна використовувати [проendclean()](function.ob-end-clean.md) для чищення вмісту буфера.
+Буфери виведення поміщаються у стек, тому функцію **ob\_start()** можна викликати, поки активний інший буфер. Якщо активовано кілька буферів виведення, висновок фільтрується послідовно через кожен із них у порядку вкладеності. Докладніше про це розказано у розділі «[Вкладені буфери виводу](outcontrol.nesting-output-buffers.md)».
 
-**Увага**
-
-Деякі веб-сервери (наприклад, Apache) змінюють робочу директорію скрипта під час виклику callback-функції. Ви можете повернути її назад, використовуючи `chdir(dirname($_SERVER['SCRIPT_FILENAME']))` в callback-функції.
-
-Буфери виведення поміщаються у стек, тобто допускається виклик **проstart()** після виклику іншою активною **проstart()**. При цьому необхідно викликати [проendflush()](function.ob-end-flush.md) відповідну кількість разів. Якщо активні кілька callback-функцій, висновок послідовно фільтрується кожної їх у порядку вкладення.
-
-Якщо буферизація виводу ще активна, коли скрипт завершує роботу, PHP автоматично виводить вміст.
+Детальний опис буферів виводу наведено в розділі [Буфери виводу користувача](outcontrol.user-level-output-buffers.md)
 
 ### Список параметрів
 
 `callback`
 
-Можна вказати необов'язковий параметр `callback`. Ця функція приймає рядок як аргумент і має також повернути рядок. Вона викликається при скиданні (надсиланні) або очищенні (за допомогою [проflush()](function.ob-flush.md) [проclean()](function.ob-clean.md) або подібних функцій) або якщо буфер виводу скидається до браузера після закінчення запиту. При виклику функції `callback`, вона отримує вміст буфера і, як очікується, повинна повернути оновлений вміст для виводу буфера, який буде відправлено браузеру. Якщо `callback` не є допустимою функцією, то ця функція поверне **`false`**. Опис функції для цього параметра:
+Можна вказати необов'язковий параметр `callback` [callable](language.types.callable.md)). Щоб обійти його, передають значення **`null`**
+
+Параметр`callback` викликається, коли буфер виведення скидається (відправляється), очищається або коли буфер виведення скидається наприкінці скрипта.
+
+Сигнатура`callback`\-функції:
 
 ```methodsynopsis
 handler(string $buffer, int $phase = ?): string
@@ -46,37 +45,35 @@ handler(string $buffer, int $phase = ?): string
 
 `phase`
 
-Бітова маска констант [**`PHP_OUTPUT_HANDLER_*`**](outcontrol.constants.md)
+Битовая маска из семейства констант[**`PHP_OUTPUT_HANDLER_*`**](outcontrol.constants.md#constant.php-output-handler-start) . Докладніше про прапори розказано у розділі «[Прапори, що передаються обробникам виводу](outcontrol.flags-passed-to-output-handlers.md)».
 
-Якщо `callback` поверне **`false`**, то оригінальна інформація відправиться до браузера без змін.
+Якщо параметр `callback` поверне \*\*`false`\*\*повертається вміст буфера. Докладніше про це розказано у розділі «[Значення оброблювача виводу, що повертаються](outcontrol.output-handler-return-values.md)».
 
-Параметр `callback` може бути ігнорований передачею значення **`null`**
+**Увага**
 
-[проendclean()](function.ob-end-clean.md) [проendflush()](function.ob-end-flush.md) [проclean()](function.ob-clean.md) [проflush()](function.ob-flush.md) і **проstart()** не можуть викликатися з callback-функцій, тому що їхня поведінка непередбачувана. Якщо ви хочете видалити вміст буфера, поверніть "" (порожній рядок) з callback-функції. Ви також не можете використовувати функції буферизації виводу, такі як `print_r($expression, true)` або `highlight_file($filename, true)` з callback-функції.
+Виклик будь-якої з наведених нижче функцій з обробника висновку видасть фатальну помилку: [ob\_clean()](function.ob-clean.md) [ob\_end\_clean()](function.ob-end-clean.md) [ob\_end\_flush()](function.ob-end-flush.md) [ob\_flush()](function.ob-flush.md) [ob\_get\_clean()](function.ob-get-clean.md) [ob\_get\_flush()](function.ob-get-flush.md) **ob\_start()**
 
-> **Зауваження**
-> 
-> Функція [проgzhandler()](function.ob-gzhandler.md) була введена для полегшення надсилання gz-кодованих даних браузерам, які підтримують стислі веб-сторінки . [проgzhandler()](function.ob-gzhandler.md) визначає тип кодування вмісту, який приймає браузер, і повертає виведення відповідним чином.
+Подробнее о`callback`\-функціях (обробників висновку) розказано в розділах « [Обробники виводу](outcontrol.output-handlers.md) » та «[Робота з оброблювачами виводу](outcontrol.working-with-output-handlers.md)».
 
 `chunk_size`
 
-Якщо передано необов'язковий параметр `chunk_size`, то буфер буде скинутий після будь-якого висновку, що перевищує або дорівнює за розміром `chunk_size`. Значення за замовчуванням `0` означає, що функція виведення буде викликана, коли буфер буде закрито.
+Якщо передано необов'язковий параметр `chunk_size`, буфер буде скинутий після кожного блоку коду, розмір буфера якого досяг або перевищив значення параметра `chunk_size`Значение по умолчанию означає, що висновок буферизується до тих пір, поки буфер не буде вимкнений. Докладніше про це розказано у розділі «[Розмір буфера](outcontrol.buffer-size.md)».
 
 `flags`
 
-Параметр `flags` є бітовою маскою, яка керує операціями, які можна здійснювати над буфером виведення. За замовчуванням вона дозволяє буферу виводу бути очищеним, скинутим та віддаленим, що рівнозначне значенню **`PHP_OUTPUT_HANDLER_CLEANABLE`** **`PHP_OUTPUT_HANDLER_FLUSHABLE`** **`PHP_OUTPUT_HANDLER_REMOVABLE`** або **`PHP_OUTPUT_HANDLER_STDFLAGS`** як скорочення цієї комбінації.
+Параметр`flags` - Це бітова маска, яка управляє операціями, що виконуються з буфером виведення. За замовчуванням дозволено очищення, скидання та видалення буферів виводу, що дозволено встановлювати явно через [прапори керування буфером](outcontrol.constants.md#outcontrol.constants.buffer-control-flags) . Докладніше про це розказано у розділі « [Операції, дозволені для буферів](outcontrol.operations-on-buffers.md) ».
 
-Кожен прапор керує доступом до набору функцій, як описано нижче:
+Кожен прапор управляє доступом до набору функцій, як описано нижче:
 
 | Константа | Функции |
 | --- | --- |
-| **`PHP_OUTPUT_HANDLER_CLEANABLE`** | [проclean()](function.ob-clean.md) [проendclean()](function.ob-end-clean.md) і [проgetclean()](function.ob-get-clean.md) |
-| **`PHP_OUTPUT_HANDLER_FLUSHABLE`** | [проendflush()](function.ob-end-flush.md) [проflush()](function.ob-flush.md) і [проgetflush()](function.ob-get-flush.md) |
-| **`PHP_OUTPUT_HANDLER_REMOVABLE`** | [проendclean()](function.ob-end-clean.md) [проendflush()](function.ob-end-flush.md) і [проgetflush()](function.ob-get-flush.md) |
+| **`PHP_OUTPUT_HANDLER_CLEANABLE`** | [ob\_clean()](function.ob-clean.md) |
+| **`PHP_OUTPUT_HANDLER_FLUSHABLE`** | [ob\_end\_flush()](function.ob-end-flush.md) |
+| **`PHP_OUTPUT_HANDLER_REMOVABLE`** | [ob\_end\_clean()](function.ob-end-clean.md) [ob\_end\_flush()](function.ob-end-flush.md) [ob\_get\_clean()](function.ob-get-clean.md) [ob\_get\_flush()](function.ob-get-flush.md) |
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -106,7 +103,7 @@ ob_end_flush();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <html>
@@ -128,11 +125,11 @@ ob_start(null, 0, PHP_OUTPUT_HANDLER_STDFLAGS ^ PHP_OUTPUT_HANDLER_REMOVABLE);
 
 ### Дивіться також
 
--   [проgetcontents()](function.ob-get-contents.md) - Повертає вміст буфера виводу
--   [проendclean()](function.ob-end-clean.md) - Очистити (стерти) буфер виведення та вимкнути буферизацію виводу
--   [проendflush()](function.ob-end-flush.md) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
--   [про implicit flush()](function.ob-implicit-flush.md) - Увімкнення/вимкнення неявного скидання
--   [проgzhandler()](function.ob-gzhandler.md) - callback-функція, що використовується для gzip-стиснення буфера виводу при виклику obstart
--   [проiconvhandler()](function.ob-iconv-handler.md) - Перетворює символи з поточного кодування на кодування вихідного буфера
--   [мбoutputhandler()](function.mb-output-handler.md) - Callback-функція, що перетворює кодування символів у вихідному буфері
--   [проtidyhandler()](function.ob-tidyhandler.md) - Функція зворотного виклику obstart для відновлення буфера
+-   [ob\_get\_contents()](function.ob-get-contents.md) \- Повертає вміст буфера виводу
+-   [ob\_end\_clean()](function.ob-end-clean.md) \- Очищає (стирає) вміст активного буфера виведення та відключає його
+-   [ob\_end\_flush()](function.ob-end-flush.md) \- Скидає (відправляє) значення активного оброблювача виводу, що повертається, і відключає активний буфер виводу
+-   [ob\_implicit\_flush()](function.ob-implicit-flush.md) \- Вмикає/вимикає неявне скидання
+-   [ob\_gzhandler()](function.ob-gzhandler.md) \- Стискає буфер виведення в gzip, діючи як callback-функція - параметр функції ob\_start
+-   [ob\_iconv\_handler()](function.ob-iconv-handler.md) \- Перетворює символи з поточного кодування на кодування вихідного буфера
+-   [mb\_output\_handler()](function.mb-output-handler.md) \- Перетворює кодування символів у буфері виведення, виступаючи в ролі callback-функції
+-   [ob\_tidyhandler()](function.ob-tidyhandler.md) \- Функція зворотного виклику ob\_start для відновлення буфера

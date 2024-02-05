@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-process.read.md: '« SwooleProcess::read'
-  - swoole-process.start.md: 'SwooleProcess::start »'
+  - swoole-process.read.md: '« Swoole\\Process::read'
+  - swoole-process.start.md: 'Swoole\\Process::start »'
   - index.md: PHP Manual
-  - class.swoole-process.md: SwooleProcess
-title: 'SwooleProcess::signal'
+  - class.swoole-process.md: Swoole\\Process
+title: 'Swoole\\Process::signal'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleProcess::signal
+# Swoole\\Process::signal
 
 (PECL swoole >= 1.9.0)
 
-SwooleProcess::signal — Надсилає сигнал дочірнім процесам
+Swoole\\Process::signal — Надсилає сигнал дочірнім процесам
 
 ### Опис
 

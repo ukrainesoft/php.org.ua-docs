@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::getElementsByTagName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::getElementsByTagName
 
@@ -54,7 +55,7 @@ foreach ($books as $book) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Шаблоны корпоративных приложений
@@ -64,4 +65,4 @@ foreach ($books as $book) {
 
 ### Дивіться також
 
--   [DOMDocument::getElementsByTagNameNS()](domdocument.getelementsbytagnamens.md) - Шукає всі елементи із заданим ім'ям у вказаному просторі імен
+-   [DOMDocument::getElementsByTagNameNS()](domdocument.getelementsbytagnamens.md) \- Шукає всі елементи із заданим ім'ям у вказаному просторі імен

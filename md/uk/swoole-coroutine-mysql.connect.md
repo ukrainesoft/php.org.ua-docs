@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine-mysql.close.md: '« SwooleCoroutineMySQL::close'
-  - swoole-coroutine-mysql.construct.md: 'SwooleCoroutineMySQL::construct »'
+  - swoole-coroutine-mysql.close.md: '« Swoole\\Coroutine\\MySQL::close'
+  - swoole-coroutine-mysql.construct.md: 'Swoole\\Coroutine\\MySQL::\_\_construct »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutineMySQL::connect'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine\\MySQL::connect'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutineMySQL::connect
+# Swoole\\Coroutine\\MySQL::connect
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutineMySQL::connect — Опис
+Swoole\\Coroutine\\MySQL::connect — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Coroutine\MySQL::connect(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

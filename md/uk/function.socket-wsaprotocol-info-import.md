@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.socket-wsaprotocol-info-export.md: « socketwsaprotocolinfoexport
-  - function.socket-wsaprotocol-info-release.md: socketwsaprotocolinforelease »
+  - function.socket-wsaprotocol-info-export.md: « socket\_wsaprotocol\_info\_export
+  - function.socket-wsaprotocol-info-release.md: socket\_wsaprotocol\_info\_release »
   - index.md: PHP Manual
-  - ref.sockets.md: Функции сокета
-title: socketwsaprotocolinfoimport
+  - ref.sockets.md: Опції сокету
+title: socket\_wsaprotocol\_info\_import
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# socketwsaprotocolinfoimport
+# socket\_wsaprotocol\_info\_import
 
-(PHP 7> = 7.3.0, PHP 8)
+(PHP 7 >= 7.3.0, PHP 8)
 
-socketwsaprotocolinfoimport — імпортує сокет з іншого процесу
+socket\_wsaprotocol\_info\_import — імпортує сокет з іншого процесу
 
 ### Опис
 
@@ -26,18 +27,18 @@ socket_wsaprotocol_info_import(string $info_id): Socket|false
 
 `info_id`
 
-Ідентифікатор, отриманий під час виклику [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.md)
+Ідентифікатор, отриманий під час виклику [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.md)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [Socket](class.socket.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає екземпляр [Socket](class.socket.md) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
+| 8.0.0 | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
 
 ### Дивіться також
 
--   [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.md) - Експорт структури WSAPROTOCOLINFO
+-   [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.md) \- Експорт структури WSAPROTOCOL\_INFO

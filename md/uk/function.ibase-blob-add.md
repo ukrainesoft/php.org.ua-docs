@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-backup.md: « ibasebackup
-  - function.ibase-blob-cancel.md: ibaseblobcancel »
+  - function.ibase-backup.md: « ibase\_backup
+  - function.ibase-blob-cancel.md: ibase\_blob\_cancel »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseblobadd
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_blob\_add
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseblobadd
+# ibase\_blob\_add
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseblobadd — Додає дані до новоствореного BLOB-об'єкта
+ibase\_blob\_add — Додає дані до новоствореного BLOB-об'єкта
 
 ### Опис
 
@@ -18,13 +19,13 @@ ibaseblobadd — Додає дані до новоствореного BLOB-об
 ibase_blob_add(resource $blob_handle, string $data): void
 ```
 
-**ibaseblobadd()** додає дані в BLOB-об'єкт, створений за допомогою [ibaseblobcreate()](function.ibase-blob-create.md)
+**ibase\_blob\_add()** додає дані в BLOB-об'єкт, створений за допомогою [ibase\_blob\_create()](function.ibase-blob-create.md)
 
 ### Список параметрів
 
 `blob_handle`
 
-Дескриптор BLOB-об'єкта, відкритого за допомогою [ibaseblobcreate()](function.ibase-blob-create.md)
+Дескриптор BLOB-об'єкта, відкритого за допомогою [ibase\_blob\_create()](function.ibase-blob-create.md)
 
 `data`
 
@@ -36,7 +37,7 @@ ibase_blob_add(resource $blob_handle, string $data): void
 
 ### Дивіться також
 
--   [ibaseblobcancel()](function.ibase-blob-cancel.md) - Скасує створення BLOB-об'єкта
--   [ibaseblobclose()](function.ibase-blob-close.md) - Закриває BLOB-об'єкт
--   [ibaseblobcreate()](function.ibase-blob-create.md) - Створює новий BLOB-об'єкт для заповнення даними
--   [ibaseblobimport()](function.ibase-blob-import.md) - Створює BLOB-об'єкт, копіює файл і закриває його.
+-   [ibase\_blob\_cancel()](function.ibase-blob-cancel.md) \- Скасує створення BLOB-об'єкта
+-   [ibase\_blob\_close()](function.ibase-blob-close.md) \- Закриває BLOB-об'єкт
+-   [ibase\_blob\_create()](function.ibase-blob-create.md) \- Створює новий BLOB-об'єкт для заповнення даними
+-   [ibase\_blob\_import()](function.ibase-blob-import.md) \- Створює BLOB-об'єкт, копіює файл і закриває його.

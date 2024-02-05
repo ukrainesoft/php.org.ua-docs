@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::getDelayed'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::getDelayed
 
@@ -15,12 +16,12 @@ Memcached::getDelayed — Запитує декілька записів
 ### Опис
 
 ```methodsynopsis
-public Memcached::getDelayed(array $keys, bool $with_cas = ?, callable $value_cb = ?): bool
+public Memcached::getDelayed(array $keys, bool $with_cas = false, ?callable $value_cb = null): bool
 ```
 
 **Memcached::getDelayed()** запитує у memcache кілька записів, ключі яких передані в масиві `keys`. Даний метод не чекає відповіді та повертає значення відразу. Коли ви готові отримати записи, зробіть виклик методу [Memcached::fetch()](memcached.fetch.md) або [Memcached::fetchAll()](memcached.fetchall.md). Якщо параметр `with_cas` встановлений у true, то CAS токени також будуть запитані.
 
-Замість отримання результатів у явному вигляді, ви можете вказати [callback-функцию для получения результата](memcached.callbacks.md) за допомогою параметра `value_cb`
+Замість отримання результатів у явному вигляді, ви можете вказати [callback-функцію для отримання результату](memcached.callbacks.md)с помощью параметра`value_cb`
 
 ### Список параметрів
 
@@ -34,15 +35,15 @@ public Memcached::getDelayed(array $keys, bool $with_cas = ?, callable $value_cb
 
 `value_cb`
 
-Callback-Функція, що повертає результат, або **`null`**
+Callback-Функция, возвращающая результат, или\*\*`null`\*\*
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки. Используйте при необходимости[Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::getDelayed()****
+**Пример #1 Пример использования**Memcached::getDelayed()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_dump($m->fetchAll());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {
@@ -90,6 +91,6 @@ array(2) {
 
 ### Дивіться також
 
--   [Memcached::getDelayedByKey()](memcached.getdelayedbykey.md) - Запитує кілька записів із вказаного сервера
--   [Memcached::fetch()](memcached.fetch.md) - Витягує наступний результат
--   [Memcached::fetchAll()](memcached.fetchall.md) - Витягує всі отримані записи
+-   [Memcached::getDelayedByKey()](memcached.getdelayedbykey.md) \- Запитує кілька записів із вказаного сервера
+-   [Memcached::fetch()](memcached.fetch.md) \- Витягує наступний результат
+-   [Memcached::fetchAll()](memcached.fetchall.md) \- Витягує всі отримані записи

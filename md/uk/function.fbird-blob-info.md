@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.fbird-blob-import.md: « fbirdblobimport
-  - function.fbird-blob-open.md: fbirdblobopen »
+  - function.fbird-blob-import.md: « fbird\_blob\_import
+  - function.fbird-blob-open.md: fbird\_blob\_open »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: fbirdblobinfo
+  - ref.ibase.md: Функції Firebird/InterBase
+title: fbird\_blob\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fbirdblobinfo
+# fbird\_blob\_info
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdblobinfo - Псевдонім [ibaseblobinfo()](function.ibase-blob-info.md)
+fbird\_blob\_info — Псевдоним[ibase\_blob\_info()](function.ibase-blob-info.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseblobinfo()](function.ibase-blob-info.md)
+Функция — псевдоним функции:[ibase\_blob\_info()](function.ibase-blob-info.md)

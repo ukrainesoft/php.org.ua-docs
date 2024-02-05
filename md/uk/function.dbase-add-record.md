@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.dbase.md: « dBase
-  - function.dbase-close.md: dbaseclose »
+  - function.dbase-close.md: dbase\_close »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
-title: dbaseaddrecord
+title: dbase\_add\_record
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dbaseaddrecord
+# dbase\_add\_record
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-dbaseaddrecord — Додає запис до бази даних
+dbase\_add\_record — Додає запис до бази даних
 
 ### Опис
 
@@ -24,25 +25,25 @@ dbase_add_record(resource $database, array $data): bool
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
+Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.md) або [dbase\_create()](function.dbase-create.md)
 
 `data`
 
-Індексований масив із даними. Кількість елементів має дорівнювати числу полів у базі даних, в іншому випадку **dbaseaddrecord()** не вдасться виконати.
+Індексований масив із даними. Кількість елементів має дорівнювати числу полів у базі даних, в іншому випадку **dbase\_add\_record()** не вдасться виконати.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо ви використовуєте як параметр запис, який повернула функція [dbasegetrecord()](function.dbase-get-record.md), не забудьте скинути ключ `deleted`. (прим пров. - unset (record'deleted'
+> Якщо ви використовуєте як параметр запис, який повернула функція [dbase\_get\_record()](function.dbase-get-record.md), не забудьте сбросить ключ`deleted`(прим пер. - unset(record\['deleted'\]);
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
+| dbase 7.0.0 | Параметр`database` тепер має тип resource, а не int. |
 
 ### Приклади
 
@@ -69,5 +70,5 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbasedeleterecord()](function.dbase-delete-record.md) - Видалення записів із бази даних
--   [dbasereplacerecord()](function.dbase-replace-record.md) - Замінює запис у базі даних
+-   [dbase\_delete\_record()](function.dbase-delete-record.md) \- Видалення записів із бази даних
+-   [dbase\_replace\_record()](function.dbase-replace-record.md) \- Замінює запис у базі даних

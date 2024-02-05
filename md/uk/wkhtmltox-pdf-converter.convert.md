@@ -1,16 +1,17 @@
 ---
 navigation:
-  - wkhtmltox-pdf-converter.construct.md: '« wkhtmltoxPDFConverter::construct'
-  - wkhtmltox-pdf-converter.getversion.md: 'wkhtmltoxPDFConverter::getVersion »'
+  - wkhtmltox-pdf-converter.construct.md: '« wkhtmltox\\PDF\\Converter::\_\_construct'
+  - wkhtmltox-pdf-converter.getversion.md: 'wkhtmltox\\PDF\\Converter::getVersion »'
   - index.md: PHP Manual
-  - class.wkhtmltox-pdf-converter.md: wkhtmltoxPDFConverter
-title: 'wkhtmltoxPDFConverter::convert'
+  - class.wkhtmltox-pdf-converter.md: wkhtmltox\\PDF\\Converter
+title: 'wkhtmltox\\PDF\\Converter::convert'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# wkhtmltoxPDFConverter::convert
+# wkhtmltox\\PDF\\Converter::convert
 
 (wkhtmltox >= 0.1.0)
 
-wkhtmltoxPDFConverter::convert — Виконати перетворення PDF
+wkhtmltox\\PDF\\Converter::convert — Виконати перетворення PDF
 
 ### Опис
 

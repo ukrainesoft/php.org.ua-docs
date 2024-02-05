@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isAnonymous'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::isAnonymous
 
@@ -26,11 +27,11 @@ public ReflectionClass::isAnonymous(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад **ReflectionClass::isAnonymous()****
+**Пример #1 Пример**ReflectionClass::isAnonymous()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($anonClass->isAnonymous());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -55,4 +56,4 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionClass::isFinal()](reflectionclass.isfinal.md) - Перевіряє, чи є клас остаточним (final)
+-   [ReflectionClass::isFinal()](reflectionclass.isfinal.md) \- Перевіряє, чи є клас остаточним (final)

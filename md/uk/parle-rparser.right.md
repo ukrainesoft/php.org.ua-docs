@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rparser.reset.md: '« ParleRParser::reset'
-  - parle-rparser.sigil.md: 'ParleRParser::sigil »'
+  - parle-rparser.reset.md: '« Parle\\RParser::reset'
+  - parle-rparser.sigil.md: 'Parle\\RParser::sigil »'
   - index.md: PHP Manual
-  - class.parle-rparser.md: ParleRParser
-title: 'ParleRParser::right'
+  - class.parle-rparser.md: Parle\\RParser
+title: 'Parle\\RParser::right'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRParser::right
+# Parle\\RParser::right
 
 (PECL parle >= 0.7.0)
 
-ParleRParser::right — Оголошує токен із правою асоціативністю
+Parle\\RParser::right — Оголошує токен із правою асоціативністю
 
 ### Опис
 

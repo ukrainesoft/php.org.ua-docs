@@ -1,23 +1,24 @@
 ---
 navigation:
-  - ref.intl.grapheme.md: « Функции Grapheme
-  - function.grapheme-stripos.md: graphemestripos »
+  - ref.intl.grapheme.md: « Функції Grapheme
+  - function.grapheme-stripos.md: grapheme\_stripos »
   - index.md: PHP Manual
-  - ref.intl.grapheme.md: Функции Grapheme
-title: graphemeextract
+  - ref.intl.grapheme.md: Функції Grapheme
+title: grapheme\_extract
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# graphemeextract
+# grapheme\_extract
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-graphemeextract — Функція для вилучення послідовності кластерів за замовчуванням графем з текстового буфера, яка повинна бути закодована в UTF-8
+grapheme\_extract — Функція для вилучення послідовності кластерів за замовчуванням графем з текстового буфера, яка повинна бути закодована в UTF-8
 
 ### Опис
 
 Процедурний стиль
 
 ```methodsynopsis
-grapheme_extract(    string $haystack,    int $size,    int $type = GRAPHEME_EXTR_COUNT,    int $offset = 0,    int &$next = null): string|false
+grapheme_extract(    string $haystack,    int $size,    int $type = GRAPHEME_EXTR_COUNT,    int $offset = 0,    int &$next = null): string|false
 ```
 
 Функція для вилучення послідовності кластерів за замовчуванням графем з текстового буфера, яка повинна бути закодована в UTF-8.
@@ -34,11 +35,11 @@ grapheme_extract(    string $haystack,    int $size,    int $type = GRAPHEME_EXT
 
 `type`
 
-Визначає тип одиниць, на які вказує параметр `size`
+Визначає тип одиниць, на які вказує параметр `size` :
 
--   GRAPHEMEEXTRCOUNT (за замовчуванням) - `size` - кількість кластерів графеми для вилучення за замовчуванням.
--   GRAPHEMEEXTRMAXBYTES - `size` - максимальна кількість байтів, що повертаються.
--   GRAPHEMEEXTRMAXCHARS - `size` - це максимальна кількість символів UTF-8, що повертаються.
+-   GRAPHEME\_EXTR\_COUNT (за замовчуванням) -`size`\- кількість кластерів графеми для вилучення за замовчуванням.
+-   GRAPHEME\_EXTR\_MAXBYTES -`size`\- максимальна кількість байтів, що повертаються.
+-   GRAPHEME\_EXTR\_MAXCHARS -`size`\- це максимальна кількість символів UTF-8, що повертаються.
 
 `offset`
 
@@ -50,17 +51,17 @@ grapheme_extract(    string $haystack,    int $size,    int $type = GRAPHEME_EXT
 
 ### Значення, що повертаються
 
-Рядок, що починається зі зміщення `offset` і межа кластера графеми, що закінчується, за замовчуванням, яка відповідає зазначеним `size` і `type` або **`false`** у разі виникнення помилки.
+Рядок, що починається зі зміщення `offset` і межа кластера графеми, що закінчується, за умовчанням, яка відповідає зазначеним `size`и`type`или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Додано підтримку негативних значень `offset` |
+| 7.1.0 | Додано підтримку негативних значень `offset` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **graphemeextract()****
+**Пример #1 Пример использования**grapheme\_extract()\*\*\*\*
 
 ```php
 <?php
@@ -73,7 +74,7 @@ print urlencode(grapheme_extract( $char_a_ring_nfd . $char_o_diaeresis_nfd, 1, G
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 o%CC%88
@@ -81,5 +82,5 @@ o%CC%88
 
 ### Дивіться також
 
--   [graphemesubstr()](function.grapheme-substr.md) - Повертає частину рядка
--   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+-   [grapheme\_substr()](function.grapheme-substr.md) \- Повертає частину рядка
+-   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

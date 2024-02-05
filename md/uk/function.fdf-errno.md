@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-enum-values.md: « fdfenumvalues
-  - function.fdf-error.md: fdferror »
+  - function.fdf-enum-values.md: « fdf\_enum\_values
+  - function.fdf-error.md: fdf\_error »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdferrno
+title: fdf\_errno
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdferrno
+# fdf\_errno
 
-(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
+(PHP 4 >= 4.3.0, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdferrno — Повертає код помилки для останньої операції FDF
+fdf\_errno — Повертає код помилки для останньої операції FDF
 
 ### Опис
 
@@ -20,7 +21,7 @@ fdf_errno(): int
 
 Отримує код помилки, встановлений останнім викликом функції FDF.
 
-Текстовий опис помилки можна отримати за допомогою [fdferror()](function.fdf-error.md)
+Текстовий опис помилки можна отримати за допомогою [fdf\_error()](function.fdf-error.md)
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ fdf_errno(): int
 
 ### Дивіться також
 
--   [fdferror()](function.fdf-error.md) - Повертає опис помилки для коду помилки FDF
+-   [fdf\_error()](function.fdf-error.md) \- Повертає опис помилки для коду помилки FDF

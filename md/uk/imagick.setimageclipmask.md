@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageClipMask'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageClipMask
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::setImageClipMask — Встановлює маску кліпу
 
@@ -40,7 +41,7 @@ public Imagick::setImageClipMask(Imagick $clip_mask): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setImageClipMask()****
+**Пример #1 Пример использования**Imagick::setImageClipMask()\*\*\*\*
 
 ```php
 <?php

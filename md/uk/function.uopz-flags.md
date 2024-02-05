@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-extend.md: « uopzextend
-  - function.uopz-function.md: uopzfunction »
+  - function.uopz-extend.md: « uopz\_extend
+  - function.uopz-function.md: uopz\_function »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzflags
+title: uopz\_flags
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzflags
+# uopz\_flags
 
 (PECL uopz 2 >= 2.0.2, PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzflags — Отримати або встановити прапори для функції або класу
+uopz\_flags — Отримати або встановити прапори для функції або класу
 
 ### Опис
 
@@ -32,11 +33,11 @@ uopz_flags(string $class, string $function, int $flags = PHP_INT_MAX): int
 
 `function`
 
-Ім'я функції. Якщо заданий `class` і порожній рядок передано як `function` **uopzflags()** отримує чи встановлює прапори запису класу.
+Ім'я функції. Якщо заданий `class`и пустая строка передана как`function` **uopz\_flags()** отримує чи встановлює прапори запису класу.
 
 `flags`
 
-Коректний набір прапорів ZENDACC. Якщо не задано, **uopzflags()** використовується як гетер.
+Коректний набір прапорів ZEND\_ACC\_. Якщо не задано, **uopz\_flags()** використовується як гетер.
 
 ### Значення, що повертаються
 
@@ -44,17 +45,17 @@ uopz_flags(string $class, string $function, int $flags = PHP_INT_MAX): int
 
 ### Помилки
 
-Починаючи з PHP 7.4.0, якщо передано параметр `flags` **uopzextends()** викидає [RuntimeException](class.runtimeexception.md), якщо [OPcache](book.opcache.md) включений і запис класу або `class`, або `parent` (якщо це ознака) незмінні.
+Починаючи з PHP 7.4.0, якщо передано параметр `flags` **uopz\_extends()** викидає [RuntimeException](class.runtimeexception.md), якщо [OPcache](book.opcache.md) включений і запис класу або `class`, либо`parent` (якщо це ознака) незмінні.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL uopz 5.0.0 | Параметр `flags` тепер необов'язковий. Раніше **`ZEND_ACC_FETCH`** мав передаватися, щоб **uopzflags()** використовувався як геттер. |
+| PECL uopz 5.0.0 | Параметр`flags` тепер необов'язковий. Раніше **`ZEND_ACC_FETCH`** мав передаватися, щоб **uopz\_flags()** використовувався як геттер. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzflags()****
+**Пример #1 Пример использования**uopz\_flags()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +77,7 @@ var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_STATIC));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -100,7 +101,7 @@ var_dump((new ReflectionClass(MyClass::class))->isFinal());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)

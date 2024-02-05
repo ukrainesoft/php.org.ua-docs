@@ -1,18 +1,19 @@
 ---
 navigation:
-  - parle-rparser.validate.md: '« ParleRParser::validate'
-  - parle-stack.pop.md: 'ParleStack::pop »'
+  - parle-rparser.validate.md: '« Parle\\RParser::validate'
+  - parle-stack.pop.md: 'Parle\\Stack::pop »'
   - index.md: PHP Manual
   - book.parle.md: Parle
-title: Клас ParleStack
+title: Клас Parle\\Stack
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас ParleStack
+# Клас Parle\\Stack
 
 (PECL parle >= 0.7.0)
 
 ## Вступ
 
-**ParleStack** - Це стек LIFO. Елементи додаються та видаляються лише з одного кінця.
+**Parle\\Stack** - Це стек LIFO. Елементи додаються та видаляються лише з одного кінця.
 
 ## Огляд класів
 
@@ -54,7 +55,7 @@ public push(mixed $item): void
 
 empty
 
-Чи є стек порожнім, лише читання.
+Чи є стек порожнім, тільки для читання.
 
 size
 
@@ -66,5 +67,5 @@ top
 
 ## Зміст
 
--   [ParleStack::pop](parle-stack.pop.md) — Витягує предмет із стеку
--   [ParleStack::push](parle-stack.push.md) — Поміщає елемент у стек
+-   [Parle\\Stack::pop](parle-stack.pop.md)— Витягує предмет із стеку
+-   [Parle\\Stack::push](parle-stack.push.md)— Поміщає елемент у стек

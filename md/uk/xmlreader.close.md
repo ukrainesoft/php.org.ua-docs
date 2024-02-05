@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.xmlreader.md: XMLReader
 title: 'XMLReader::close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLReader::close
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 XMLReader::close — Закрити введення XMLReader
 
 ### Опис
 
 ```methodsynopsis
-public XMLReader::close(): bool
+public XMLReader::close(): true
 ```
 
 Закриває введення, яке зараз аналізує об'єкт XMLReader.
@@ -26,9 +27,9 @@ public XMLReader::close(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### Дивіться також
 
--   [XMLReader::open()](xmlreader.open.md) - Встановити URI, що містить XML-документ для аналізу
--   [XMLReader::xml()](xmlreader.xml.md) - Встановити дані, що містять XML для аналізу
+-   [XMLReader::open()](xmlreader.open.md) \- Встановити URI, що містить XML-документ для аналізу
+-   [XMLReader::xml()](xmlreader.xml.md) \- Встановити дані, що містять XML для аналізу

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.filteriterator.md: FilterIterator
 title: 'FilterIterator::next'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FilterIterator::next
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 FilterIterator::next — Переміщує ітератор до наступного елементу
 
@@ -20,7 +21,7 @@ public FilterIterator::next(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Переміщення ітератора до наступного елемента.
 
@@ -34,5 +35,5 @@ public FilterIterator::next(): void
 
 ### Дивіться також
 
--   [FilterIterator::current()](filteriterator.current.md) - Отримує значення поточного елемента
--   [FilterIterator::key()](filteriterator.key.md) - Отримує поточний ключ
+-   [FilterIterator::current()](filteriterator.current.md) \- Отримує значення поточного елемента
+-   [FilterIterator::key()](filteriterator.key.md) \- Отримує поточний ключ

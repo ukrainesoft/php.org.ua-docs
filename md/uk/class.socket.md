@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.socket-wsaprotocol-info-release.md: « socketwsaprotocolinforelease
+  - function.socket-wsaprotocol-info-release.md: « socket\_wsaprotocol\_info\_release
   - class.addressinfo.md: AddressInfo »
   - index.md: PHP Manual
   - book.sockets.md: Сокети
 title: Клас Socket
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Socket
 
@@ -16,16 +17,11 @@ title: Клас Socket
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class Socket
-     
+     final
+     class Socket
      {
    }
 ```

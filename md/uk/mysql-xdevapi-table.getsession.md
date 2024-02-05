@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-table.getschema.md: '« Table::getSchema'
   - mysql-xdevapi-table.insert.md: 'Table::insert »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: mysql\_xdevapi\\Table
 title: 'Table::getSession'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Table::getSession
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Table::getSession(): mysql_xdevapi\Session
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTable::getSession()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Table::getSession()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($table->getSession());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(mysql_xdevapi\Session)#9 (0) {

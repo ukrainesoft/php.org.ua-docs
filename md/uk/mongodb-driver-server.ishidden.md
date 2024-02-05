@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-server.isarbiter.md: '« MongoDBDriverServer::isArbiter'
-  - mongodb-driver-server.ispassive.md: 'MongoDBDriverServer::isPassive »'
+  - mongodb-driver-server.isarbiter.md: '« MongoDB\\Driver\\Server::isArbiter'
+  - mongodb-driver-server.ispassive.md: 'MongoDB\\Driver\\Server::isPassive »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.md: MongoDBDriverServer
-title: 'MongoDBDriverServer::isHidden'
+  - class.mongodb-driver-server.md: MongoDB\\Driver\\Server
+title: 'MongoDB\\Driver\\Server::isHidden'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverServer::isHidden
+# MongoDB\\Driver\\Server::isHidden
 
 (mongodb >=1.0.0)
 
-MongoDBDriverServer::isHidden — Перевіряє, чи є сервер прихованим членом набору реплік
+MongoDB\\Driver\\Server::isHidden — Перевіряє, чи є сервер прихованим членом набору реплік
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverServer::isHidden — Перевіряє, чи є сервер пр�
 final public MongoDB\Driver\Server::isHidden(): bool
 ```
 
-Повертає, чи є цей сервер [» прихованим членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-hidden-member) набір реплік.
+Повертає, чи є цей сервер [» прихованим членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-hidden-member)набора реплик.
 
 ### Список параметрів
 
@@ -30,8 +31,8 @@ final public MongoDB\Driver\Server::isHidden(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
+-   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.md) \- Повертає масив інформації, що описує сервер

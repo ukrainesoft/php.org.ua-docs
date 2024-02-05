@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-new-glo.md: « cubridnewglo
-  - function.cubrid-send-glo.md: cubridsendglo »
+  - function.cubrid-new-glo.md: « cubrid\_new\_glo
+  - function.cubrid-send-glo.md: cubrid\_send\_glo »
   - index.md: PHP Manual
   - oldaliases.cubrid.md: Застарілі псевдоніми та функції CUBRID
-title: cubridsaveтоglo
+title: cubrid\_save\_to\_glo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridsaveтоglo
+# cubrid\_save\_to\_glo
 
 (PECL CUBRID >= 8.3.0)
 
-cubridsaveтоglo — Зберігає запитаний файл у примірнику GLO
+cubrid\_save\_to\_glo — Зберігає запитаний файл у примірнику GLO
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridsaveтоglo — Зберігає запитаний файл у примі
 cubrid_save_to_glo(resource $conn_identifier, string $oid, string $file_name): int
 ```
 
-Функція **cubridsaveтоglo()** використовується для збереження запитаного файлу в екземплярі glo.
+Функция**cubrid\_save\_to\_glo()** використовується для збереження запитаного файлу в екземплярі glo.
 
 ### Список параметрів
 
@@ -38,11 +39,11 @@ Oid екземпляра glo в якому ви хочете зберегти ф
 
 **`true`** у разі успішного виконання.
 
-**`false`** у разі виникнення помилки.
+\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridsaveтоglo()****
+**Пример #1 Пример использования**cubrid\_save\_to\_glo()\*\*\*\*
 
 ```php
 <?php
@@ -60,16 +61,16 @@ if ($req) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **cubridsaveтоglo()**
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **cubrid\_save\_to\_glo()**
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функцію видалено в CUBRID 3.1.
 
 ### Дивіться також
 
--   [cubridnewglo()](function.cubrid-new-glo.md) - Створює екземпляр glo
--   [cubridloadfromglo()](function.cubrid-load-from-glo.md) - Читає дані з екземпляра GLO та записує їх у файл
--   [cubridsendglo()](function.cubrid-send-glo.md) - Читання даних з glo та виведення їх у стандартний пристрій виведення
+-   [cubrid\_new\_glo()](function.cubrid-new-glo.md) \- Створює екземпляр glo
+-   [cubrid\_load\_from\_glo()](function.cubrid-load-from-glo.md) \- Читає дані з екземпляра GLO та записує їх у файл
+-   [cubrid\_send\_glo()](function.cubrid-send-glo.md) \- Читання даних з glo та виведення їх у стандартний пристрій виведення

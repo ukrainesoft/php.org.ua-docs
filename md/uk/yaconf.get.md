@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.yaconf.md: Yaconf
 title: 'Yaconf::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Yaconf::get
 
-(PECL yaconf> = 1.0.0)
+(PECL yaconf >= 1.0.0)
 
 Yaconf::get — Вийняти елемент
 
@@ -30,17 +31,17 @@ public static Yaconf::get(string $name, mixed $default_value = NULL): mixed
 
 ### Значення, що повертаються
 
-Повертає результат конфігурації (рядок або масив), якщо ключ існує, повертає defaultvalue, якщо його немає.
+Повертає результат конфігурації (рядок або масив), якщо ключ існує, повертає default\_value, якщо його немає.
 
 ### Приклади
 
-**Приклад #1 Приклад **INI()****
+**Пример #1 Пример**INI()\*\*\*\*
 
-;файл foo.ini, що знаходиться в директорії, заданої yaconf.directorySectionA;пара ключ-значення key=val ;хеш hash.a=val ;масив arr.0=val ;або так arr=val
+;файл foo.ini, що знаходиться в директорії, заданої yaconf.directory\[SectionA\];пара ключ-значение key=val ;хеш hash.a=val ;массив arr.0=val ;или так arr\[\]=val
 
-;SectionS успадковується від SectionSSection:Section;перевизначити конфігурацію key з розділу SectionA key=newval
+;SectionB наследуется от SectionA\[SectionB:SectionA\];перевизначити конфігурацію key з розділу SectionA key=new\_val
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 php7 -r 'var_dump(Yaconf::get("foo.SectionA.key"));'

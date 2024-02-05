@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlpiercing.md: « tradercdlpiercing
-  - function.trader-cdlrisefall3methods.md: tradercdlrisefall3methods »
+  - function.trader-cdlpiercing.md: « trader\_cdlpiercing
+  - function.trader-cdlrisefall3methods.md: trader\_cdlrisefall3methods »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlrickshawman
+  - ref.trader.md: Функції Trader
+title: trader\_cdlrickshawman
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlrickshawman
+# trader\_cdlrickshawman
 
 (PECL trader >= 0.2.0)
 
-tradercdlrickshawman — Довгоногій дожі
+trader\_cdlrickshawman — Довгоногій дожі
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlrickshawman(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlrickshawman(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

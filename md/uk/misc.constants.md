@@ -5,15 +5,16 @@ navigation:
   - index.md: PHP Manual
   - book.misc.md: Misc.
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.
 
-**`CONNECTION_ABORTED`** (int)
+**`CONNECTION_ABORTED`**(int)
 
-**`CONNECTION_NORMAL`** (int)
+**`CONNECTION_NORMAL`**(int)
 
-**`CONNECTION_TIMEOUT`** (int)
+**`CONNECTION_TIMEOUT`**(int)
 
-**`__COMPILER_HALT_OFFSET__`** (int)
+**`__COMPILER_HALT_OFFSET__`**(int)

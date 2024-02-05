@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttpconnection.md: EventHttpConnection
 title: 'EventHttpConnection::makeRequest'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpConnection::makeRequest
 
@@ -28,7 +29,7 @@ public
    ): bool
 ```
 
-Робить HTTP-запит із зазначеного з'єднання . `type` одна з констант `EventHttpRequest::CMD_*`
+Робить HTTP-запит із зазначеного з'єднання . `type`одна из констант`EventHttpRequest::CMD_*`
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ public
 
 `type`
 
-одна з констант [`EventHttpRequest::CMD_*`](class.eventhttprequest.md#eventhttprequest.constants)
+одна из констант[`EventHttpRequest::CMD_*`](class.eventhttprequest.md#eventhttprequest.constants)
 
 `uri`
 
@@ -46,11 +47,11 @@ URI, пов'язаний із запитом.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventHttpConnection::makeRequest()****
+**Пример #1 Пример использования**EventHttpConnection::makeRequest()\*\*\*\*
 
 ```php
 <?php
@@ -95,7 +96,7 @@ $base->loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 _request_handler
@@ -107,4 +108,4 @@ PHP, date:
 
 ### Дивіться також
 
--   [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) - Додає заголовок HTTP до заголовків запиту
+-   [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) \- Додає заголовок HTTP до заголовків запиту

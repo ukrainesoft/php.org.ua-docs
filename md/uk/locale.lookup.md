@@ -5,27 +5,28 @@ navigation:
   - index.md: PHP Manual
   - class.locale.md: Locale
 title: 'Locale::lookup'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Locale::lookup
 
-# localelookup
+# locale\_lookup
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::lookup -- localelookup — Пошук мовних позначок найбільш відповідних заданої локалі
+Locale::lookup -- locale\_lookup — Пошук мовних позначок найбільш відповідних заданої локалі
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public static Locale::lookup(    array $languageTag,    string $locale,    bool $canonicalize = false,    ?string $defaultLocale = null): ?string
+public static Locale::lookup(    array $languageTag,    string $locale,    bool $canonicalize = false,    ?string $defaultLocale = null): ?string
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-locale_lookup(    array $languageTag,    string $locale,    bool $canonicalize = false,    ?string $defaultLocale = null): ?string
+locale_lookup(    array $languageTag,    string $locale,    bool $canonicalize = false,    ?string $defaultLocale = null): ?string
 ```
 
 Шукає елементи `languageTag`, що найкраще підходять для діапазону мов, зазначеного в `locale`, відповідно до алгоритму пошуку RFC 4647
@@ -56,13 +57,13 @@ locale_lookup(    array $languageTag,    string $locale,    bool $canonicalize =
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `defaultLocale` тепер допускає значення null. |
+| 7.4.0 | `defaultLocale` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **localelookup()****
+**Пример #1 Пример использования**locale\_lookup()\*\*\*\*
 
 ```php
 <?php
@@ -90,7 +91,7 @@ echo Locale::lookup($arr, 'de-DE-1996-x-prv1-prv2', true, 'en_US');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 de_de_1996
@@ -98,4 +99,4 @@ de_de_1996
 
 ### Дивіться також
 
--   [localefiltermatches()](locale.filtermatches.md) - Перевірити, чи тег фільтра мови локалі відповідає
+-   [locale\_filter\_matches()](locale.filtermatches.md) \- Перевірити, чи тег фільтра мови локалі відповідає

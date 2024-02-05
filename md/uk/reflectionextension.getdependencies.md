@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::getDependencies'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionExtension::getDependencies
 
-(PHP 5> = 5.1.3, PHP 7, PHP 8)
+(PHP 5 >= 5.1.3, PHP 7, PHP 8)
 
 ReflectionExtension::getDependencies — Отримання залежностей
 
@@ -26,11 +27,11 @@ public ReflectionExtension::getDependencies(): array
 
 ### Значення, що повертаються
 
-Асоціативний масив array, ключами якого є залежності, а значеннями є наступні рядки: `Required` `Optional` або `Conflicts`
+Асоціативний масив array, ключами якого є залежності, а значеннями є наступні рядки: `Required` `Optional`или`Conflicts`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionExtension::getDependencies()****
+**Пример #1 Пример использования**ReflectionExtension::getDependencies()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ print_r($dom->getDependencies());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

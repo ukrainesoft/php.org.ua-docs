@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evembed.md: EvEmbed
 title: 'EvEmbed::sweep'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvEmbed::sweep
 
@@ -37,4 +38,4 @@ $other->start(Ev::RUN_NOWAIT);
 
 ### Дивіться також
 
--   [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача
+-   [EvWatcher::start()](evwatcher.start.md) \- Запускає спостерігача

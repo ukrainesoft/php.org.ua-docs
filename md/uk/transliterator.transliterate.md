@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.transliterator.md: Transliterator
 title: 'Transliterator::transliterate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Transliterator::transliterate
 
-# transliteratortransliterate
+# transliterator\_transliterate
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-Transliterator::transliterate -- transliteratortransliterate — Транслітерувати рядок
+Transliterator::transliterate -- transliterator\_transliterate — Транслітерувати рядок
 
 ### Опис
 
@@ -25,7 +26,7 @@ public Transliterator::transliterate(string $string, int $start = 0, int $end = 
 Процедурний стиль
 
 ```methodsynopsis
-transliterator_transliterate(    Transliterator|string $transliterator,    string $string,    int $start = 0,    int $end = -1): string|false
+transliterator_transliterate(    Transliterator|string $transliterator,    string $string,    int $start = 0,    int $end = -1): string|false
 ```
 
 Перетворює рядок або його частину за допомогою транслітератора ICU.
@@ -50,7 +51,7 @@ transliterator_transliterate(    Transliterator|string $transliterator,    strin
 
 ### Значення, що повертаються
 
-Перетворений рядок у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає перетворений рядок у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -72,7 +73,7 @@ echo transliterator_transliterate("Hex-Any/Java", $encSupplChar), "\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 お早うございます
@@ -83,5 +84,5 @@ echo transliterator_transliterate("Hex-Any/Java", $encSupplChar), "\n";
 
 ### Дивіться також
 
--   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) - Отримати останнє повідомлення про помилку
--   [Transliterator::construct()](transliterator.construct.md) - Приватний конструктор
+-   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) \- Отримати останнє повідомлення про помилку
+-   [Transliterator::\_\_construct()](transliterator.construct.md) \- Приватний конструктор

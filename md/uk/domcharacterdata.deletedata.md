@@ -1,10 +1,11 @@
 ---
 navigation:
-  - domcharacterdata.appenddata.md: '« DOMCharacterData::appendData'
+  - domcharacterdata.before.md: '« DOMCharacterData::before'
   - domcharacterdata.insertdata.md: 'DOMCharacterData::insertData »'
   - index.md: PHP Manual
   - class.domcharacterdata.md: DOMCharacterData
 title: 'DOMCharacterData::deleteData'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMCharacterData::deleteData
 
@@ -28,11 +29,11 @@ public DOMCharacterData::deleteData(int $offset, int $count): bool
 
 `count`
 
-Кількість символів, що видаляються. Якщо `offset` і `count` у сумі виявиться більше значення довжини, буде видалено всі символи до кінця даних.
+Кількість символів, що видаляються. Якщо `offset`и`count` у сумі виявиться більше значення довжини, буде видалено всі символи до кінця даних.
 
 ### Значення, що повертаються
 
-Функція не повертає значення після виконання.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -42,7 +43,7 @@ public DOMCharacterData::deleteData(int $offset, int $count): bool
 
 ### Дивіться також
 
--   [DOMCharacterData::appendData()](domcharacterdata.appenddata.md) - Додати рядок до кінця символьних даних вузла
--   [DOMCharacterData::insertData()](domcharacterdata.insertdata.md) - Вставити рядок у вказану 16-бітну позицію
--   [DOMCharacterData::replaceData()](domcharacterdata.replacedata.md) - Замінити підрядок у вузлі типу DOMCharacterData
--   [DOMCharacterData::substringData()](domcharacterdata.substringdata.md) - Витягує певний діапазон даних із вузла
+-   [DOMCharacterData::appendData()](domcharacterdata.appenddata.md) \- Додати рядок до кінця символьних даних вузла
+-   [DOMCharacterData::insertData()](domcharacterdata.insertdata.md) \- Вставити рядок у вказану 16-бітну позицію
+-   [DOMCharacterData::replaceData()](domcharacterdata.replacedata.md) \- Замінити підрядок у вузлі типу DOMCharacterData
+-   [DOMCharacterData::substringData()](domcharacterdata.substringdata.md) \- Витягує певний діапазон даних із вузла

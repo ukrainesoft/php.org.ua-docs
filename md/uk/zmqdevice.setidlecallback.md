@@ -4,9 +4,10 @@ navigation:
   - zmqdevice.setidletimeout.md: 'ZMQDevice::setIdleTimeout »'
   - index.md: PHP Manual
   - class.zmqdevice.md: ZMQDevice
-title: 'ZMQ Device::set Idle Callback'
+title: 'ZMQDevice::setIdleCallback'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ZMQ Device::set Idle Callback
+# ZMQDevice::setIdleCallback
 
 (No version information available, might only be in Git)
 
@@ -18,7 +19,7 @@ ZMQDevice::setIdleCallback — Встановити callback-функцію бе
 public ZMQDevice::setIdleCallback(callable $cb_func, int $timeout, mixed $user_data = ?): ZMQDevice
 ```
 
-Встановлює callback-функцію бездіяльності. Якщо задано час очікування простою, ця функція буде запущена, якщо цикл опитування не отримає жодної події протягом цього часу. Якщо функція поверне ефективне **`false`**, пристрій буде зупинено. Сигнатура функції - (mixed $userdata).
+Встановлює callback-функцію бездіяльності. Якщо задано час очікування простою, то ця функція буде запущена, якщо цикл опитування не отримає жодної події протягом цього часу. Якщо функція поверне ефективне **`false`**, пристрій буде зупинено. Сигнатура функції - (mixed $user\_data).
 
 ### Список параметрів
 

@@ -1,14 +1,15 @@
 ---
 navigation:
-  - recode.setup.md: « Встановлення та налаштування
-  - recode.installation.md: Установка »
+  - recode.setup.md: '" Встановлення та налаштування'
+  - recode.installation.md: Встановлення »
   - index.md: PHP Manual
   - recode.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 
-Ви повинні встановити GNU Recode 3.5 або вище. Цей пакет ви можете завантажити з сайту [» http://directory.fsf.org/AllGNUPackages/recode.html](http://directory.fsf.org/All_GNU_Packages/recode.md)
+Ви повинні встановити GNU Recode 3.5 або вище. Цей пакет ви можете завантажити з сайту [» http://directory.fsf.org/All\_GNU\_Packages/recode.md](http://directory.fsf.org/All_GNU_Packages/recode.md)
 
 **Увага**
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::getBlockCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::getBlockCode
 
@@ -24,11 +25,11 @@ public static IntlChar::getBlockCode(int|string $codepoint): ?int
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
-Повертає блок розміщення `codepoint`. Одна з констант `IntlChar::BLOCK_CODE_*`. У разі виникнення помилки повертає **`null`**
+Повертає блок розміщення `codepoint`Одна из констант`IntlChar::BLOCK_CODE_*`. У разі виникнення помилки повертає **`null`**
 
 ### Приклади
 
@@ -42,7 +43,7 @@ var_dump(IntlChar::getBlockCode("\u{2603}") === IntlChar::BLOCK_CODE_MISCELLANEO
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)

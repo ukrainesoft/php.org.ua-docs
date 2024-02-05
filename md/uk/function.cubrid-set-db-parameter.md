@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-set-autocommit.md: « cubridsetautocommit
-  - function.cubrid-set-drop.md: cubridsetdrop »
+  - function.cubrid-set-autocommit.md: « cubrid\_set\_autocommit
+  - function.cubrid-set-drop.md: cubrid\_set\_drop »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridsetдбparameter
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_set\_db\_parameter
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridsetдбparameter
+# cubrid\_set\_db\_parameter
 
 (PECL CUBRID >= 8.4.0)
 
-cubridsetдбparameter — Встановлює параметри бази даних CUBRID
+cubrid\_set\_db\_parameter — Встановлює параметри бази даних CUBRID
 
 ### Опис
 
@@ -18,20 +19,20 @@ cubridsetдбparameter — Встановлює параметри бази да
 cubrid_set_db_parameter(resource $conn_identifier, int $param_type, int $param_value): bool
 ```
 
-Функція **cubridsetдбparameter()** використовується для встановлення параметрів бази даних CUBRID. Він може встановити такі параметри бази даних CUBRID:
+Функция**cubrid\_set\_db\_parameter()** використовується для встановлення параметрів бази даних CUBRID. Він може встановити такі параметри бази даних CUBRID:
 
 -   **`PARAM_ISOLATION_LEVEL`**
 -   **`PARAM_LOCK_TIMEOUT`**
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Режим автоматичної фіксації може бути встановлений за допомогою [cubridsetautocommit()](function.cubrid-set-autocommit.md)
+> Режим автоматичної фіксації може бути встановлений за допомогою [cubrid\_set\_autocommit()](function.cubrid-set-autocommit.md)
 
 ### Список параметрів
 
 `conn_identifier`
 
-CUBRID з'єднання. Якщо ідентифікатор з'єднання не вказано, передбачається останнє посилання, яке відкривається [cubridconnect()](function.cubrid-connect.md)
+CUBRID з'єднання. Якщо ідентифікатор з'єднання не вказано, передбачається останнє посилання, що відкривається [cubrid\_connect()](function.cubrid-connect.md)
 
 `param_type`
 
@@ -43,11 +44,11 @@ CUBRID з'єднання. Якщо ідентифікатор з'єднання 
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання [cubridgetдбparameter()](function.cubrid-get-db-parameter.md)**
+**Пример #1 Пример использования[cubrid\_get\_db\_parameter()](function.cubrid-get-db-parameter.md)**
 
 ```php
 <?php
@@ -66,7 +67,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(4) {
@@ -93,5 +94,5 @@ array(4) {
 
 ### Дивіться також
 
--   [cubridgetдбparameter()](function.cubrid-get-db-parameter.md) - Повертає параметри бази даних CUBRID
--   [cubridsetautocommit()](function.cubrid-set-autocommit.md) - Встановлює режим авто-комміту для з'єднання
+-   [cubrid\_get\_db\_parameter()](function.cubrid-get-db-parameter.md) \- Повертає параметри бази даних CUBRID
+-   [cubrid\_set\_autocommit()](function.cubrid-set-autocommit.md) \- Встановлює режим авто-комміту для з'єднання

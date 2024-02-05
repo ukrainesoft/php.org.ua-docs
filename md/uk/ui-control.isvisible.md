@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-control.isenabled.md: '« UIControl::isEnabled'
-  - ui-control.setparent.md: 'ОЙControl::setParent »'
+  - ui-control.isenabled.md: '« UI\\Control::isEnabled'
+  - ui-control.setparent.md: 'UI\\Control::setParent »'
   - index.md: PHP Manual
-  - class.ui-control.md: ОЙControl
-title: 'ОЙControl::isVisible'
+  - class.ui-control.md: UI\\Control
+title: 'UI\\Control::isVisible'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControl::isVisible
+# UI\\Control::isVisible
 
 (UI 0.9.9)
 
-ОЙControl::isVisible — Визначити, чи видимий елемент керування
+UI\\Control::isVisible — Визначити, чи видимий елемент керування
 
 ### Опис
 

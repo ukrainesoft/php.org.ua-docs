@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pathCurveToQuadraticBezierSmoothAbsolute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::pathCurveToQuadraticBezierSmoothAbsolute
 
@@ -18,7 +19,7 @@ ImagickDraw::pathCurveToQuadraticBezierSmoothAbsolute — Малює квадр�
 public ImagickDraw::pathCurveToQuadraticBezierSmoothAbsolute(float $x, float $y): bool
 ```
 
-Малює квадратичну криву Безьє (з використанням абсолютних координат) від поточної точки до (x, y). Передбачається, що контрольна точка є відображенням контрольної точки попередньої команди щодо поточної точки. (Якщо попередня команда відсутня або не є DrawPathCurveToQuadraticBezierAbsolute, DrawPathCurveToQuadraticBezierRelative, DrawPathCurveToQuadraticBezierSmoothAbsolute або DrawPathCurveToQuadra Наприкінці команди нова поточна точка стає останньою парою координат (x,y), що використовується в кривій Безьє.
+Малює квадратичну криву Безьє (з використанням абсолютних координат) від поточної точки до (x, y). Передбачається, що контрольна точка є відображенням контрольної точки попередньої команди щодо поточної точки. (Якщо попередня команда відсутня або не є DrawPathCurveToQuadraticBezierAbsolute, DrawPathCurveToQuadraticBezierRelative, DrawPathCurveToQuadraticBezierSmoothAbsolute або DrawPathCurveToQuadra поточною). Наприкінці команди нова поточна точка стає останньою парою координат (x,y), що використовується в кривій Безьє.
 
 Функцію не можна використовувати для плавного продовження кубічної кривої Безьє. Вона може плавно продовжувати лише квадратичну криву.
 
@@ -38,7 +39,7 @@ public ImagickDraw::pathCurveToQuadraticBezierSmoothAbsolute(float $x, float $y)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::pathCurveToQuadraticBezierSmoothAbsolute()****
+**Пример #1 Пример использования**ImagickDraw::pathCurveToQuadraticBezierSmoothAbsolute()\*\*\*\*
 
 ```php
 <?php

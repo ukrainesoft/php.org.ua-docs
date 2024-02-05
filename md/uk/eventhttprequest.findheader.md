@@ -1,10 +1,11 @@
 ---
 navigation:
-  - eventhttprequest.construct.md: '« EventHttpRequest::construct'
+  - eventhttprequest.construct.md: '« EventHttpRequest::\_\_construct'
   - eventhttprequest.free.md: 'EventHttpRequest::free »'
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::findHeader'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::findHeader
 
@@ -35,7 +36,7 @@ public
 
 `type`
 
-Одна з констант [`EventHttpRequest::*_HEADER`](class.eventhttprequest.md#eventhttprequest.constants)
+Одна из констант[`EventHttpRequest::*_HEADER`](class.eventhttprequest.md#eventhttprequest.constants)
 
 ### Значення, що повертаються
 
@@ -43,4 +44,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) - Додає заголовок HTTP до заголовків запиту
+-   [EventHttpRequest::addHeader()](eventhttprequest.addheader.md) \- Додає заголовок HTTP до заголовків запиту

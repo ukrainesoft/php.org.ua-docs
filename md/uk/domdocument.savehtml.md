@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::saveHTML'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::saveHTML
 
@@ -28,7 +29,7 @@ public DOMDocument::saveHTML(?DOMNode $node = null): string|false
 
 ### Значення, що повертаються
 
-Повертає HTML або **`false`** у разі виникнення помилки.
+Повертає HTML або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -58,6 +59,6 @@ echo $doc->saveHTML();
 
 ### Дивіться також
 
--   [DOMDocument::saveHTMLFile()](domdocument.savehtmlfile.md) - Зберігає документ із внутрішнього подання до файлу, використовуючи форматування HTML
--   [DOMDocument::loadHTML()](domdocument.loadhtml.md) - Завантаження HTML з рядка
--   [DOMDocument::loadHTMLFile()](domdocument.loadhtmlfile.md) - Завантаження HTML із файлу
+-   [DOMDocument::saveHTMLFile()](domdocument.savehtmlfile.md) \- Зберігає документ із внутрішнього подання до файлу, використовуючи форматування HTML
+-   [DOMDocument::loadHTML()](domdocument.loadhtml.md) \- Завантаження HTML з рядка
+-   [DOMDocument::loadHTMLFile()](domdocument.loadhtmlfile.md) \- Завантаження HTML із файлу

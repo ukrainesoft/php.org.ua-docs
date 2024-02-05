@@ -1,10 +1,11 @@
 ---
 navigation:
   - eventhttp.addserveralias.md: '« EventHttp::addServerAlias'
-  - eventhttp.construct.md: 'EventHttp::construct »'
+  - eventhttp.construct.md: 'EventHttp::\_\_construct »'
   - index.md: PHP Manual
   - class.eventhttp.md: EventHttp
 title: 'EventHttp::bind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttp::bind
 
@@ -33,7 +34,7 @@ public
 
 `address`
 
-Рядок, що містить IP-адресу для `прослушивания(2)`
+Рядок, що містить IP-адресу для `прослуховування(2)`
 
 `port`
 
@@ -41,11 +42,11 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventHttp::bind()****
+**Пример #1 Пример использования**EventHttp::bind()\*\*\*\*
 
 ```php
 <?php
@@ -71,7 +72,7 @@ $base->dispatch();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Client:
@@ -103,4 +104,4 @@ OK
 
 ### Дивіться також
 
--   [EventHttp::accept()](eventhttp.accept.md) - Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом
+-   [EventHttp::accept()](eventhttp.accept.md) \- Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом

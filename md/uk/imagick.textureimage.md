@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::textureImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::textureImage
 
@@ -18,7 +19,7 @@ Imagick::textureImage — Багаторазово розміщує зображ
 Imagick::textureImage(Imagick $texture_wand): Imagick
 ```
 
-Багаторазово розміщує зображення текстури поперек та вниз по полотну зображення.
+Багаторазово розміщує зображення текстури упоперек і вниз по полотну зображення.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ Imagick::textureImage(Imagick $texture_wand): Imagick
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::textureImage()****
+**Пример #1 Пример использования**Imagick::textureImage()\*\*\*\*
 
 ```php
 <?php

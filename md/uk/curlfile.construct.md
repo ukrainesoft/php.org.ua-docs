@@ -4,21 +4,22 @@ navigation:
   - curlfile.getfilename.md: 'CURLFile::getFilename »'
   - index.md: PHP Manual
   - class.curlfile.md: CURLFile
-title: 'CURLFile::construct'
+title: 'CURLFile::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CURLFile::construct
+# CURLFile::\_\_construct
 
-# curlfilecreate
+# curl\_file\_create
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-CURLFile::construct - curlfilecreate — Створює об'єкт CURLFile
+CURLFile::\_\_construct -- curl\_file\_create — Створює об'єкт CURLFile
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-public **CURLFile::construct**(string `$filename`, ?string `$mime_type` **`null`**, ?string `$posted_filename` **`null`**
+public**CURLFile::\_\_construct**(string`$filename`, ?string`$mime_type` **`null`**, ?string`$posted_filename` **`null`**) .
 
 Процедурний стиль
 
@@ -48,13 +49,13 @@ Mime-тип файлу.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `mime_type` і `posted_filename` тепер припускають значення null; раніше значенням за умовчанням був `0` |
+| 8.0.0 | `mime_type`и`posted_filename` тепер припускають значення null; раніше значенням за умовчанням був |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **CURLFile::construct()****
+**Пример #1 Пример использования**CURLFile::\_\_construct()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -104,7 +105,7 @@ curl_exec($ch);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {
@@ -124,7 +125,7 @@ array(1) {
 }
 ```
 
-**Приклад #2 Приклад використання **CURLFile::construct()** для завантаження кількох файлів**
+**Пример #2 Пример использования**CURLFile::\_\_construct()\*\* для завантаження кількох файлів\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -169,7 +170,7 @@ var_dump(curl_getinfo($request));
 curl_close($request);
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(26) {
@@ -231,4 +232,4 @@ array(26) {
 
 ### Дивіться також
 
--   [curlsetopt()](function.curl-setopt.md) - Встановлює параметр для сеансу CURL
+-   [curl\_setopt()](function.curl-setopt.md) \- Встановлює параметр для передачі cURL

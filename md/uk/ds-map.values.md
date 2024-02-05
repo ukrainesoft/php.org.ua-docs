@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.union.md: '« DsMap::union'
-  - ds-map.xor.md: 'ДсMap::xor »'
+  - ds-map.union.md: '« Ds\\Map::union'
+  - ds-map.xor.md: 'Ds\\Map::xor »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::values'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::values'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::values
+# Ds\\Map::values
 
 (PECL ds >= 1.0.0)
 
-ДсMap::values ​​— Повертає послідовність значень колекції
+Ds\\Map::values ​​— Повертає послідовність значень колекції
 
 ### Опис
 
@@ -26,11 +27,11 @@ public Ds\Map::values(): Ds\Sequence
 
 ### Значення, що повертаються
 
-Послідовність (**ДсSequence**), що містить усі значення колекції.
+Послідовність ([Ds\\Sequence](class.ds-sequence.md)), що містить усі значення колекції.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::values()****
+**Пример #1 Пример использования**Ds\\Map::values()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump($map->values());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Vector)#2 (3) {

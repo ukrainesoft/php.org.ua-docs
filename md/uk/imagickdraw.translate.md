@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::translate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::translate
 
@@ -20,7 +21,7 @@ public ImagickDraw::translate(float $x, float $y): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Застосовує перенесення до поточної системи координат, яка переміщає початок системи координат у зазначену координату.
 
@@ -40,7 +41,7 @@ public ImagickDraw::translate(float $x, float $y): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::translate()****
+**Пример #1 Пример использования**ImagickDraw::translate()\*\*\*\*
 
 ```php
 <?php

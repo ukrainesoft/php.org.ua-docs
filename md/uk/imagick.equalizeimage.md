@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::equalizeImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::equalizeImage
 
@@ -34,7 +35,7 @@ public Imagick::equalizeImage(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::equalizeImage()****
+**Пример #1 Пример использования**Imagick::equalizeImage()\*\*\*\*
 
 ```php
 <?php

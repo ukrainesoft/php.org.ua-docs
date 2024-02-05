@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-commit-ret.md: « ibasecommitret
-  - function.ibase-connect.md: ibaseconnect »
+  - function.ibase-commit-ret.md: « ibase\_commit\_ret
+  - function.ibase-connect.md: ibase\_connect »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibasecommit
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_commit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibasecommit
+# ibase\_commit
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibasecommit - Фіксує транзакцію
+ibase\_commit - Фіксує транзакцію
 
 ### Опис
 
@@ -28,4 +29,4 @@ ibase_commit(resource $link_or_trans_identifier = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

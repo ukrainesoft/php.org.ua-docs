@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.construct.md: '« DsMap::construct'
-  - ds-map.count.md: 'ДсMap::count »'
+  - ds-map.construct.md: '« Ds\\Map::\_\_construct'
+  - ds-map.count.md: 'Ds\\Map::count »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::copy'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::copy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::copy
+# Ds\\Map::copy
 
 (PECL ds >= 1.0.0)
 
-ДсMap::copy — Повертає поверхневу копію колекції
+Ds\\Map::copy — Повертає поверхневу копію колекції
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Map::copy(): Ds\Map
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::copy()****
+**Пример #1 Пример использования**Ds\\Map::copy()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($map->copy());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Map Object

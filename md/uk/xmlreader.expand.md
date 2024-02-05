@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.xmlreader.md: XMLReader
 title: 'XMLReader::expand'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLReader::expand
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 XMLReader::expand — Повернути копію поточного сайту як об'єкт DOM
 
@@ -28,4 +29,4 @@ public XMLReader::expand(?DOMNode $baseNode = null): DOMNode|false
 
 ### Значення, що повертаються
 
-Результатуючий [DOMNode](class.domnode.md) або **`false`** у разі виникнення помилки.
+Результирующий[DOMNode](class.domnode.md)или\*\*`false`\*\*в случае возникновения ошибки.

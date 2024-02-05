@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-dispatcher.autorender.md: '« YafDispatcher::autoRender'
-  - yaf-dispatcher.construct.md: 'YafDispatcher::construct »'
+  - yaf-dispatcher.autorender.md: '« Yaf\_Dispatcher::autoRender'
+  - yaf-dispatcher.construct.md: 'Yaf\_Dispatcher::\_\_construct »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::catchException'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::catchException'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::catchException
+# Yaf\_Dispatcher::catchException
 
 (Yaf >=1.0.0)
 
-YafDispatcher::catchException — Вмикає/вимикає перехоплення винятків
+Yaf\_Dispatcher::catchException — Вмикає/вимикає перехоплення винятків
 
 ### Опис
 
@@ -18,9 +19,9 @@ YafDispatcher::catchException — Вмикає/вимикає перехопле
 public Yaf_Dispatcher::catchException(bool $flag = ?): Yaf_Dispatcher
 ```
 
-Поки включено application.dispatcher.throwException (ви також можете викликати **YafDispatcher::throwException(TRUE)()**, щоб увімкнути), Yaf буде викидати виняток у разі виникнення помилки замість помилки спрацьовування.
+Поки включено application.dispatcher.throwException (ви також можете викликати **Yaf\_Dispatcher::throwException(TRUE)()**, щоб увімкнути), Yaf буде викидати виняток у разі виникнення помилки замість помилки спрацьовування.
 
-тоді, якщо ви увімкнете **YafDispatcher::catchException()** (також можна увімкнути, встановивши [application.dispatcher.catchException](yaf.appconfig.md#configuration.yaf.dispatcher.catchexception)), всі неперехоплені винятки будуть спіймані ErrorController::error, якщо ви його визначили.
+тоді, якщо ви увімкнете **Yaf\_Dispatcher::catchException()**(также можно включить, установив[application.dispatcher.catchException](yaf.appconfig.md#configuration.yaf.dispatcher.catchexception)), всі неперехоплені винятки будуть спіймані ErrorController::error, якщо ви його визначили.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public Yaf_Dispatcher::catchException(bool $flag = ?): Yaf_Dispatcher
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafDispatcher::catchException()****
+**Пример #1 Пример использования**Yaf\_Dispatcher::catchException()\*\*\*\*
 
 ```php
 /* если вы определили ErrorController следующим образом */
@@ -61,7 +62,7 @@ class ErrorController extends Yaf_Controller_Abstract {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 /* now if some error occur, assuming access a non-exists controller(or you can throw a exception yourself): */
@@ -70,5 +71,5 @@ class ErrorController extends Yaf_Controller_Abstract {
 
 ### Дивіться також
 
--   [YafDispatcher::throwException()](yaf-dispatcher.throwexception.md) - Вмикає/вимикає викидання винятків
--   [YafDispatcher::setErrorHandler()](yaf-dispatcher.seterrorhandler.md) - Встановлює обробник помилок
+-   [Yaf\_Dispatcher::throwException()](yaf-dispatcher.throwexception.md) \- Вмикає/вимикає викидання винятків
+-   [Yaf\_Dispatcher::setErrorHandler()](yaf-dispatcher.seterrorhandler.md) \- Встановлює обробник помилок

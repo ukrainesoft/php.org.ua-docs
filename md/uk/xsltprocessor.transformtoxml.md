@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::transformToXml'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XSLTProcessor::transformToXml
 
@@ -24,11 +25,11 @@ public XSLTProcessor::transformToXml(object $document): string|null|false
 
 `document`
 
-Об'єкт класу [DOMDocument](class.domdocument.md) або [SimpleXMLElement](class.simplexmlelement.md) для перетворення.
+Об'єкт класу [DOMDocument](class.domdocument.md) або [SimpleXMLElement](class.simplexmlelement.md)для преобразования.
 
 ### Значення, що повертаються
 
-Результат перетворення, або **`false`** у разі виникнення помилки.
+Возвращает результат преобразования, или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -53,7 +54,7 @@ echo $proc->transformToXML($xml);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Hey! Welcome to Nicolas Eliaszewicz's sweet CD collection!
@@ -64,5 +65,5 @@ Hey! Welcome to Nicolas Eliaszewicz's sweet CD collection!
 
 ### Дивіться також
 
--   [XSLTProcessor::transformToDoc()](xsltprocessor.transformtodoc.md) - Перетворює на DOMDocument
--   [XSLTProcessor::transformToUri()](xsltprocessor.transformtouri.md) - Перетворює на URI
+-   [XSLTProcessor::transformToDoc()](xsltprocessor.transformtodoc.md) \- Перетворює на документ
+-   [XSLTProcessor::transformToUri()](xsltprocessor.transformtouri.md) \- Перетворює на URI

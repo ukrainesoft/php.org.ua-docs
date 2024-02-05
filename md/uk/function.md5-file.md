@@ -4,13 +4,14 @@ navigation:
   - function.md5.md: md5 »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: md5file
+title: md5\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# md5file
+# md5\_file
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-md5file — Повертає MD5-хеш файлу
+md5\_file — Повертає MD5-хеш файлу
 
 ### Опис
 
@@ -18,7 +19,7 @@ md5file — Повертає MD5-хеш файлу
 md5_file(string $filename, bool $binary = false): string|false
 ```
 
-Обчислює MD5-хеш файлу, ім'я якого задано аргументом `filename`, використовуючи [» алгоритм MD5 RSA Data Security, Inc.](http://www.faqs.org/rfcs/rfc1321) і повертає цей хеш. Хеш є 32-значним шістнадцятковим числом.
+Обчислює MD5-хеш файлу, ім'я якого задано аргументом `filename`, используя[» алгоритм MD5 RSA Data Security, Inc.](http://www.faqs.org/rfcs/rfc1321) і повертає цей хеш. Хеш є 32-значним шістнадцятковим числом.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ md5_file(string $filename, bool $binary = false): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **md5file()****
+**Пример #1 Пример использования**md5\_file()\*\*\*\*
 
 ```php
 <?php
@@ -48,6 +49,6 @@ echo 'MD5-хеш файла ' . $file . ': ' . md5_file($file);
 
 ### Дивіться також
 
--   [md5()](function.md5.md) - Повертає MD5-хеш рядки
--   [sha1file()](function.sha1-file.md) - Повертає SHA1-хеш файлу
--   [crc32()](function.crc32.md) - Обчислює поліном CRC32 для рядка
+-   [md5()](function.md5.md) \- Повертає MD5-хеш рядки
+-   [sha1\_file()](function.sha1-file.md) \- Повертає SHA1-хеш файлу
+-   [crc32()](function.crc32.md) \- Обчислює поліном CRC32 для рядка

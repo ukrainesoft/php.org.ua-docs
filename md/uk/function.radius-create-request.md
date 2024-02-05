@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.radius-config.md: « radiusconfig
-  - function.radius-cvt-addr.md: radiuscvtaddr »
+  - function.radius-config.md: « radius\_config
+  - function.radius-cvt-addr.md: radius\_cvt\_addr »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiuscreaterequest
+  - ref.radius.md: Функції Radius
+title: radius\_create\_request
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiuscreaterequest
+# radius\_create\_request
 
 (PECL radius >= 1.1.0)
 
-radiuscreaterequest — Створює обліковий запис або запит автентифікації
+radius\_create\_request — Створює обліковий запис або запит автентифікації
 
 ### Опис
 
@@ -18,7 +19,7 @@ radiuscreaterequest — Створює обліковий запис або за
 radius_create_request(resource $radius_handle, int $type): bool
 ```
 
-Запит Radius складається з коду, що вказує тип запиту, та нуля або більше атрибутів, які надають додаткову інформацію. Щоб розпочати створення нового запиту, викличте **radiuscreaterequest()**
+Запит Radius складається з коду, що вказує тип запиту, та нуля або більше атрибутів, які надають додаткову інформацію. Щоб розпочати створення нового запиту, викличте **radius\_create\_request()**
 
 > **Зауваження**: Увага: ви повинні викликати цю функцію, перш ніж ви зможете помістити будь-який атрибут!
 
@@ -28,15 +29,15 @@ radius_create_request(resource $radius_handle, int $type): bool
 
 `type`
 
-Тип **`RADIUS_ACCESS_REQUEST`** або **`RADIUS_ACCOUNTING_REQUEST`**
+Тип\*\*`RADIUS_ACCESS_REQUEST`**или**`RADIUS_ACCOUNTING_REQUEST`\*\*
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radiuscreaterequest()****
+**Пример #1 Пример использования**radius\_create\_request()\*\*\*\*
 
 ```php
 <?php
@@ -49,4 +50,4 @@ if (!radius_create_request($res, RADIUS_ACCESS_REQUEST)) {
 
 ### Дивіться також
 
--   [radiussendrequest()](function.radius-send-request.md) - Відправляє запит і чекає на відповідь
+-   [radius\_send\_request()](function.radius-send-request.md) \- Відправляє запит і чекає на відповідь

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrobject.md: SolrObject
 title: 'SolrObject::offsetUnset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrObject::offsetUnset
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrObject::offsetUnset — Скидає значення властивості
 
@@ -28,11 +29,11 @@ public SolrObject::offsetUnset(string $property_name): void
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrObject::offsetUnset()****
+**Пример #1 Пример использования**SolrObject::offsetUnset()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ public SolrObject::offsetUnset(string $property_name): void
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 ...

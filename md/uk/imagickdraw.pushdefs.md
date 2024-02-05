@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pushDefs'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::pushDefs
 
@@ -20,7 +21,7 @@ public ImagickDraw::pushDefs(): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Вказує, що команди аж до завершальної команди [ImagickDraw::popDefs()](imagickdraw.popdefs.md) створюють іменовані елементи (наприклад, шляхи відсічного контуру, текстури тощо), які можуть безпечно оброблятися раніше для підвищення ефективності.
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.readline-clear-history.md: « readlineclearhistory
-  - function.readline-info.md: readlineinfo »
+  - function.readline-clear-history.md: « readline\_clear\_history
+  - function.readline-info.md: readline\_info »
   - index.md: PHP Manual
-  - ref.readline.md: Функции Readline
-title: readlinecompletionfunction
+  - ref.readline.md: Опції Readline
+title: readline\_completion\_function
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# readlinecompletionfunction
+# readline\_completion\_function
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-readlinecompletionfunction — Зареєструвати функцію автодоповнення
+readline\_completion\_function — Зареєструвати функцію автодоповнення
 
 ### Опис
 
@@ -28,4 +29,4 @@ readline_completion_function(callable $callback): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

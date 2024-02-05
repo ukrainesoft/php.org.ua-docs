@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.rrd.md: « Функції RRD
-  - function.rrd-error.md: rrderror »
+  - function.rrd-error.md: rrd\_error »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
-title: rrdcreate
+title: rrd\_create
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# rrdcreate
+# rrd\_create
 
 (PECL rrd >= 0.9.0)
 
-rrdcreate — Створити файл rrd
+rrd\_create — Створити файл rrd
 
 ### Опис
 
@@ -32,4 +33,4 @@ rrd_create(string $filename, array $options): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

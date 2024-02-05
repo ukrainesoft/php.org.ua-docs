@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::addTaskLow'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::addTaskLow
 
@@ -15,7 +16,7 @@ GearmanClient::addTaskLow — Додати низькопріоритетне з
 ### Опис
 
 ```methodsynopsis
-public GearmanClient::addTaskLow(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
+public GearmanClient::addTaskLow(    string $function_name,    string|int|float $workload,    mixed $context = null,    ?string $unique_key = null): GearmanTask|false
 ```
 
 Додає низькопріоритетне завдання для паралельної роботи з іншими завданнями. Викличте цей метод для всіх завдань, які працюватимуть паралельно, а потім викличте [GearmanClient::runTasks()](gearmanclient.runtasks.md) для виконання робіт. Завдання з низьким пріоритетом будуть вибрані з черги після завдань із нормальним або високим пріоритетом.
@@ -34,13 +35,13 @@ public GearmanClient::addTaskLow(    string $function_name,    string $workload,
 
 Контекст програми, що пов'язується із завданням
 
-`unique`
+`unique_key`
 
 Унікальний ID, який призначається певному завданню
 
 ### Значення, що повертаються
 
-Об'єкт [GearmanTask](class.gearmantask.md) або **`false`**, якщо завдання не може бути додано.
+Об'єкт [GearmanTask](class.gearmantask.md)или\*\*`false`\*\*, якщо завдання не може бути додано.
 
 ### Приклади
 
@@ -80,7 +81,7 @@ function reverse_complete($task)
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Выполнено: 3, !dlroW olleH
@@ -91,9 +92,9 @@ function reverse_complete($task)
 
 ### Дивіться також
 
--   [GearmanClient::addTask()](gearmanclient.addtask.md) - Додати завдання, яке буде виконано у паралельному режимі
--   [GearmanClient::addTaskHigh()](gearmanclient.addtaskhigh.md) - Додати високопріоритетне завдання для роботи в паралельному режимі
--   [GearmanClient::addTaskBackground()](gearmanclient.addtaskbackground.md) - Додати фонове завдання для роботи в паралельному режимі
--   [GearmanClient::addTaskHighBackground()](gearmanclient.addtaskhighbackground.md) - Додати високопріоритетне фонове завдання для роботи в паралельному режимі
--   [GearmanClient::addTaskLowBackground()](gearmanclient.addtasklowbackground.md) - Додати низькопріоритетне фонове завдання для роботи в паралельному режимі
--   [GearmanClient::runTasks()](gearmanclient.runtasks.md) - Запустити список завдань у паралельному режимі
+-   [GearmanClient::addTask()](gearmanclient.addtask.md) \- Додати завдання, яке буде виконано у паралельному режимі
+-   [GearmanClient::addTaskHigh()](gearmanclient.addtaskhigh.md) \- Додати високопріоритетне завдання для роботи в паралельному режимі
+-   [GearmanClient::addTaskBackground()](gearmanclient.addtaskbackground.md) \- Додати фонове завдання для роботи в паралельному режимі
+-   [GearmanClient::addTaskHighBackground()](gearmanclient.addtaskhighbackground.md) \- Додати високопріоритетне фонове завдання для роботи в паралельному режимі
+-   [GearmanClient::addTaskLowBackground()](gearmanclient.addtasklowbackground.md) \- Додати низькопріоритетне фонове завдання для роботи в паралельному режимі
+-   [GearmanClient::runTasks()](gearmanclient.runtasks.md) \- Запустити список завдань у паралельному режимі

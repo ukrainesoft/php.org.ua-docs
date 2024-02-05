@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashstringinthash.md: QuickHashStringIntHash
 title: 'QuickHashStringIntHash::loadFromString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashStringIntHash::loadFromString
 
@@ -28,7 +29,7 @@ public static QuickHashStringIntHash::loadFromString(string $contents, int $size
 
 `size`
 
-Кількість списків, які потрібно налаштувати. Число, що передається, буде автоматично округлено до наступного ступеня числа два. Воно також автоматично обмежується від `4` до `4194304`
+Кількість списків, які потрібно налаштувати. Число, що передається, буде автоматично округлено до наступного ступеня числа два. Воно також автоматично обмежується від `4`до`4194304`
 
 `options`
 
@@ -40,7 +41,7 @@ public static QuickHashStringIntHash::loadFromString(string $contents, int $size
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashStringIntHash::loadFromString()****
+**Пример #1 Пример использования**QuickHashStringIntHash::loadFromString()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ foreach( range( 0, 0x0f ) as $key )
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 11l4 => 48712

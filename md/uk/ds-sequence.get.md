@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.first.md: '« DsSequence::first'
-  - ds-sequence.insert.md: 'ДсSequence::insert »'
+  - ds-sequence.first.md: '« Ds\\Sequence::first'
+  - ds-sequence.insert.md: 'Ds\\Sequence::insert »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::get'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::get
+# Ds\\Sequence::get
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::get — Повертає значення за індексом
+Ds\\Sequence::get — Повертає значення за індексом
 
 ### Опис
 
@@ -36,7 +37,7 @@ abstract public Ds\Sequence::get(int $index): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::get()****
+**Пример #1 Пример использования**Ds\\Sequence::get()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($sequence->get(2));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"
@@ -56,7 +57,7 @@ string(1) "b"
 string(1) "c"
 ```
 
-**Приклад #2 Приклад використання **ДсSequence::get()** із синтаксисом масиву**
+**Пример #2 Пример использования**Ds\\Sequence::get()\*\* із синтаксисом масиву\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ var_dump($sequence[2]);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"

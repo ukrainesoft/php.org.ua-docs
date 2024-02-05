@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setFillColor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setFillColor
 
@@ -20,7 +21,7 @@ public ImagickDraw::setFillColor(ImagickPixel $fill_pixel): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Встановлює колір заливки для малювання об'єктів із заливкою.
 
@@ -36,7 +37,7 @@ public ImagickDraw::setFillColor(ImagickPixel $fill_pixel): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setFillColor()****
+**Пример #1 Пример использования**ImagickDraw::setFillColor()\*\*\*\*
 
 ```php
 <?php

@@ -1,12 +1,13 @@
 ---
 navigation:
-  - commonmark-node-image.construct.md: '« CommonMarkNodeImage::construct'
-  - commonmark-node-link.construct.md: 'CommonMarkNodeLink::construct »'
+  - commonmark-node-image.construct.md: '« CommonMark\\Node\\Image::\_\_construct'
+  - commonmark-node-link.construct.md: 'CommonMark\\Node\\Link::\_\_construct »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: Link успадковує CommonMarkNode
+title: Link успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Link успадковує CommonMarkNode
+# Link успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 
@@ -103,4 +104,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNodeLink::construct](commonmark-node-link.construct.md) - Конструктор класу Link
+-   [CommonMark\\Node\\Link::\_\_construct](commonmark-node-link.construct.md) \- Конструктор класу Link

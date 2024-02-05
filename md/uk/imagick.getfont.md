@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getFont'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getFont
 
-(PECL imagick 2> = 2.1.0, PECL imagick 3)
+(PECL imagick 2 >= 2.1.0, PECL imagick 3)
 
 Imagick::getFont — Повертає назву шрифту
 
@@ -26,10 +27,10 @@ public Imagick::getFont(): string
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить назву шрифту або \*\*`false`\*\*якщо шрифт не встановлено.
+Возвращает строку, содержащую название шрифта или\*\*`false`\*\*якщо шрифт не встановлено.
 
 ### Дивіться також
 
--   [Imagick::setFont()](imagick.setfont.md) - Встановлює шрифт
--   [ImagickDraw::setFont()](imagickdraw.setfont.md) - Встановлює вказаний шрифт для використання під час анотування текстом
--   [ImagickDraw::getFont()](imagickdraw.getfont.md) - Повертає шрифт
+-   [Imagick::setFont()](imagick.setfont.md) \- Встановлює шрифт
+-   [ImagickDraw::setFont()](imagickdraw.setfont.md) \- Встановлює вказаний шрифт для використання під час анотування текстом
+-   [ImagickDraw::getFont()](imagickdraw.getfont.md) \- Повертає шрифт

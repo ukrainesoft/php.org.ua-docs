@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.xdiff-file-patch-binary.md: xdifffilepatchbinary
-  - function.xdiff-file-rabdiff.md: xdifffilerabdiff »
+  - function.xdiff-file-patch-binary.md: « xdiff\_file\_patch\_binary
+  - function.xdiff-file-rabdiff.md: xdiff\_file\_rabdiff »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
-title: xdifffilepatch
+title: xdiff\_file\_patch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xdifffilepatch
+# xdiff\_file\_patch
 
 (PECL xdiff >= 0.2.0)
 
-xdifffilepatch — Використання уніфікованого патча до файлу
+xdiff\_file\_patch — Використання уніфікованого патча до файлу
 
 ### Опис
 
 ```methodsynopsis
-xdiff_file_patch(    string $file,    string $patch,    string $dest,    int $flags = DIFF_PATCH_NORMAL): mixed
+xdiff_file_patch(    string $file,    string $patch,    string $dest,    int $flags = DIFF_PATCH_NORMAL): mixed
 ```
 
-Застосовує до файлу `file` патча `patch` та зберігає результат у файл . `patch` має бути уніфікованим патчем, створеним функціями [xdifffilediff()](function.xdiff-file-diff.md)[xdiffstringdiff()](function.xdiff-string-diff.md). Необов'язковий параметр `flags` задає режим операції.
+Застосовує до файлу `file`патча`patch`и сохраняет результат в файл`patch` має бути уніфікованим патчем, створеним функціями [xdiff\_file\_diff()](function.xdiff-file-diff.md) [xdiff\_string\_diff()](function.xdiff-string-diff.md). Необов'язковий параметр `flags` задає режим операції.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ xdiff_file_patch(    string $file,    string $patch,    string $dest,    int $fl
 
 `patch`
 
-Уніфікований патч. Його можна створити функціями [xdiffstringdiff()](function.xdiff-string-diff.md) і [xdifffilediff()](function.xdiff-file-diff.md)або іншими сумісними інструментами.
+Уніфікований патч. Його можна створити функціями [xdiff\_string\_diff()](function.xdiff-string-diff.md) і [xdiff\_file\_diff()](function.xdiff-file-diff.md)або іншими сумісними інструментами.
 
 `dest`
 
@@ -36,7 +37,7 @@ xdiff_file_patch(    string $file,    string $patch,    string $dest,    int $fl
 
 `flags`
 
-Може бути **`XDIFF_PATCH_NORMAL`** (режим за умовчанням, нормальне створення патчу) або **`XDIFF_PATCH_REVERSE`** (Відкат патчу).
+Може бути **`XDIFF_PATCH_NORMAL`**(режим по умолчанию, нормальное создание патча) или\*\*`XDIFF_PATCH_REVERSE`\*\*(откат патча).
 
 Починаючи з версії 1.5.0, ви можете використовувати побітове АБО для підключення прапора **`XDIFF_PATCH_IGNORESPACE`**
 
@@ -46,7 +47,7 @@ xdiff_file_patch(    string $file,    string $patch,    string $dest,    int $fl
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdifffilepatch()****
+**Пример #1 Пример использования**xdiff\_file\_patch()\*\*\*\*
 
 Наступний код використовує уніфікований патч до файлу.
 
@@ -84,4 +85,4 @@ if (is_string($errors)) {
 
 ### Дивіться також
 
--   [xdifffilediff()](function.xdiff-file-diff.md) - Створити уніфікований патч із порівняння двох файлів
+-   [xdiff\_file\_diff()](function.xdiff-file-diff.md) \- Створити уніфікований патч із порівняння двох файлів

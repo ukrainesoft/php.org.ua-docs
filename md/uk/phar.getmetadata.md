@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::getMetadata'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::getMetadata
 
@@ -30,13 +31,13 @@ public Phar::getMetadata(array $unserializeOptions = []): mixed
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Доданий параметр `unserializeOptions` |
+| 8.0.0 | Добавлен параметр`unserializeOptions` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::getMetadata()****
+**Пример #1 Пример использования**Phar::getMetadata()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {
@@ -64,6 +65,6 @@ array(1) {
 
 ### Дивіться також
 
--   [Phar::setMetadata()](phar.setmetadata.md) - Встановити метадані phar-архіву
--   [Phar::delMetadata()](phar.delmetadata.md) - Видалити глобальні метадані в архіві phar
--   [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить phar-архів глобальні метадані
+-   [Phar::setMetadata()](phar.setmetadata.md) \- Встановити метадані phar-архіву
+-   [Phar::delMetadata()](phar.delmetadata.md) \- Видалити глобальні метадані в архіві phar
+-   [Phar::hasMetadata()](phar.hasmetadata.md) \- Перевірити, чи містить phar-архів глобальні метадані

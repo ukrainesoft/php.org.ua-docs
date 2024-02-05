@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.mysql.md: MySQL (Original)
 title: список змін
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # список змін
 
@@ -18,9 +19,9 @@ title: список змін
 
 Наступний список є добіркою змін модуля ext/mysql.
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  |  |
+| 7.0.0 |  |
 | Цей модуль видалено з PHP. Подробиці тут [Вибір API](mysqlinfo.api.choosing.md) |  |
 
 ### Зміни у існуючих функціях

@@ -1,18 +1,19 @@
 ---
 navigation:
-  - parle-parser.validate.md: '« ParleParser::validate'
-  - parle-rparser.advance.md: 'ParleRParser::advance »'
+  - parle-parser.validate.md: '« Parle\\Parser::validate'
+  - parle-rparser.advance.md: 'Parle\\RParser::advance »'
   - index.md: PHP Manual
   - book.parle.md: Parle
-title: Клас ParleRParser
+title: Клас Parle\\RParser
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас ParleRParser
+# Клас Parle\\RParser
 
 (PECL parle >= 0.7.0)
 
 ## Вступ
 
-Клас парсеру. Правила можуть бути визначені на льоту. Після завершення необхідно створити екземпляр [ParleRLexer](class.parle-rlexer.md) для доставки потоку токенів.
+Клас парсеру. Правила можуть бути визначені на льоту. Після завершення необхідно створити екземпляр [Parle\\RLexer](class.parle-rlexer.md)для доставки потока токенов.
 
 ## Огляд класів
 
@@ -85,6 +86,8 @@ public push(string $name, string $rule): int
 public reset(int $tokenId = ?): void
 public right(string $tok): void
 public sigil(int $idx = ?): string
+public sigilCount(): int
+public sigilName(int $idx): string
 public token(string $tok): void
 public tokenId(string $tok): int
 public trace(): string
@@ -123,19 +126,21 @@ reduceId
 
 ## Зміст
 
--   [ParleRParser::advance](parle-rparser.advance.md) - Обробка наступного правила парсера
--   [ParleRParser::build](parle-rparser.build.md) - Завершує граматичні правила
--   [ParleRParser::consume](parle-rparser.consume.md) — Використовувати дані для обробки
--   [ParleRParser::dump](parle-rparser.dump.md) - Виводить граматику
--   [ParleRParser::errorInfo](parle-rparser.errorinfo.md) — Отримує інформацію про помилку
--   [ParleRParser::left](parle-rparser.left.md) - Оголошує токен з лівою асоціативністю
--   [ParleRParser::nonassoc](parle-rparser.nonassoc.md) - Оголошує токен без асоціативності
--   [ParleRParser::precedence](parle-rparser.precedence.md) — Оголошує правило пріоритету
--   [ParleRParser::push](parle-rparser.push.md) — Додає граматичне правило
--   [ParleRParser::reset](parle-rparser.reset.md) — скидає стан парсера
--   [ParleRParser::right](parle-rparser.right.md) — Оголошує токен із правою асоціативністю
--   [ParleRParser::sigil](parle-rparser.sigil.md) — Витягує збігаючу частину за правилом
--   [ParleRParser::token](parle-rparser.token.md) - Оголошує токен
--   [ParleRParser::tokenId](parle-rparser.tokenid.md) — Отримує ідентифікатор токена
--   [ParleRParser::trace](parle-rparser.trace.md) — Слідкує за роботою парсера
--   [ParleRParser::validate](parle-rparser.validate.md) - Перевіряє вхідні дані
+-   [Parle\\RParser::advance](parle-rparser.advance.md) \- Обробка наступного правила парсера
+-   [Parle\\RParser::build](parle-rparser.build.md) \- Завершує граматичні правила
+-   [Parle\\RParser::consume](parle-rparser.consume.md)— Використовувати дані для обробки
+-   [Parle\\RParser::dump](parle-rparser.dump.md) \- Виводить граматику
+-   [Parle\\RParser::errorInfo](parle-rparser.errorinfo.md)— Отримує інформацію про помилку
+-   [Parle\\RParser::left](parle-rparser.left.md) \- Оголошує токен з лівою асоціативністю
+-   [Parle\\RParser::nonassoc](parle-rparser.nonassoc.md) \- Оголошує токен без асоціативності
+-   [Parle\\RParser::precedence](parle-rparser.precedence.md)— Оголошує правило пріоритету
+-   [Parle\\RParser::push](parle-rparser.push.md)— Додає граматичне правило
+-   [Parle\\RParser::reset](parle-rparser.reset.md)— скидає стан парсера
+-   [Parle\\RParser::right](parle-rparser.right.md)— Оголошує токен із правою асоціативністю
+-   [Parle\\RParser::sigil](parle-rparser.sigil.md)— Витягує збігаючу частину за правилом
+-   [Parle\\RParser::sigilCount](parle-rparser.sigilcount.md)— Отримує кількість елементів у відповідному правилі
+-   [Parle\\RParser::sigilName](parle-rparser.sigilname.md)— Отримує ім'я правила чи токена
+-   [Parle\\RParser::token](parle-rparser.token.md) \- Оголошує токен
+-   [Parle\\RParser::tokenId](parle-rparser.tokenid.md)— Отримує ідентифікатор токена
+-   [Parle\\RParser::trace](parle-rparser.trace.md)— Слідкує за роботою парсера
+-   [Parle\\RParser::validate](parle-rparser.validate.md) \- Перевіряє вхідні дані

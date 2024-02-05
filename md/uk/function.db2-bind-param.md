@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.db2-autocommit.md: « db2autocommit
-  - function.db2-client-info.md: db2clientinfo »
+  - function.db2-autocommit.md: « db2\_autocommit
+  - function.db2-client-info.md: db2\_client\_info »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2bindparam
+title: db2\_bind\_param
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2bindparam
+# db2\_bind\_param
 
-(PECL ibmdb2> = 1.0.0)
+(PECL ibm\_db2 >= 1.0.0)
 
-db2bindparam — Зв'язує змінну PHP із параметром SQL-виразу
+db2\_bind\_param — Зв'язує змінну PHP із параметром SQL-виразу
 
 ### Опис
 
 ```methodsynopsis
-db2_bind_param(    resource $stmt,    int $parameter_number,    string $variable_name,    int $parameter_type = ?,    int $data_type = 0,    int $precision = -1,    int $scale = 0): bool
+db2_bind_param(    resource $stmt,    int $parameter_number,    string $variable_name,    int $parameter_type = DB2_PARAM_IN,    int $data_type = 0,    int $precision = -1,    int $scale = 0): bool
 ```
 
-Зв'язує змінну PHP з параметром SQL-вираження у виразному ресурсі, що повертається [db2prepare()](function.db2-prepare.md). Ця функція дає більший контроль над типом параметра, типом даних, точністю та масштабом для параметра, ніж проста передача змінної як частини необов'язкового вхідного масиву [db2execute()](function.db2-execute.md)
+Зв'язує змінну PHP з параметром SQL-вираження у виразному ресурсі, що повертається [db2\_prepare()](function.db2-prepare.md). Ця функція дає більший контроль над типом параметра, типом даних, точністю та масштабом для параметра, ніж проста передача змінної як частини необов'язкового вхідного масиву [db2\_execute()](function.db2-execute.md)
 
 ### Список параметрів
 
 `stmt`
 
-Підготовлений вираз, що повертається [db2prepare()](function.db2-prepare.md)
+Підготовлений вираз, що повертається [db2\_prepare()](function.db2-prepare.md)
 
 `parameter_number`
 
@@ -32,15 +33,15 @@ db2_bind_param(    resource $stmt,    int $parameter_number,    string $variable
 
 `variable_name`
 
-Рядок, що визначає ім'я змінної PHP для прив'язки до параметра, заданого `parameter_number`
+Строка, определяющая имя переменной PHP для привязки к параметру, заданному`parameter_number`
 
 `parameter_type`
 
-Константа, що визначає, чи має змінна PHP бути прив'язана до параметра SQL як вхідний параметр (`DB2_PARAM_IN`), вихідний параметр (`DB2_PARAM_OUT`) або або як параметр, що приймає введення та повертає висновок (`DB2_PARAM_INOUT`). Щоб уникнути перевантаження пам'яті, можна також вказати `DB2_PARAM_FILE`, щоб прив'язати змінну PHP до імені файлу, який містить дані великого об'єкта (BLOB, CLOB або DBCLOB).
+Константа, що визначає, чи має змінна PHP бути прив'язана до параметра SQL як вхідний параметр (`DB2_PARAM_IN`), вихідний параметр (`DB2_PARAM_OUT`) або як параметр, що приймає введення та повертає висновок (`DB2_PARAM_INOUT`). Щоб уникнути перевантаження пам'яті, можна також вказати `DB2_PARAM_FILE`, щоб прив'язати змінну PHP до імені файлу, який містить дані великого об'єкта (BLOB, CLOB або DBCLOB).
 
 `data_type`
 
-Константа, що вказує тип даних SQL, з яким має бути пов'язана змінна PHP: `DB2_BINARY` `DB2_CHAR` `DB2_DOUBLE` або `DB2_LONG`
+Константа, що вказує тип даних SQL, з яким має бути пов'язана змінна PHP: `DB2_BINARY` `DB2_CHAR` `DB2_DOUBLE`или`DB2_LONG`
 
 `precision`
 
@@ -52,13 +53,13 @@ db2_bind_param(    resource $stmt,    int $parameter_number,    string $variable
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
 **Приклад #1 Прив'язка змінних PHP до підготовленого виразу**
 
-SQL-вираз у цьому прикладі використовує два вхідні параметри в пропозиції WHERE. Викликається **db2bindparam()**, щоб зв'язати дві змінні PHP із відповідними параметрами SQL. Зверніть увагу, що змінні PHP не потрібно оголошувати або надавати перед викликом **db2bindparam()**; у цьому прикладі `$lower_limit` надається значення перед викликом **db2bindparam()**, а `$upper_limit` надається значення після виклику **db2bindparam()**. Перед викликом [db2execute()](function.db2-execute.md) змінні мають бути пов'язані, а параметрам, що приймають введення, має бути присвоєно будь-яке значення . [db2execute()](function.db2-execute.md)
+SQL-вираз у цьому прикладі використовує два вхідні параметри в пропозиції WHERE. Викликається **db2\_bind\_param()**, щоб зв'язати дві змінні PHP із відповідними параметрами SQL. Зверніть увагу, що змінні PHP не потрібно оголошувати або надавати перед викликом **db2\_bind\_param()**; у цьому прикладі `$lower_limit` надається значення перед викликом **db2\_bind\_param()**, а`$upper_limit` надається значення після виклику **db2\_bind\_param()**. Перед викликом [db2\_execute()](function.db2-execute.md) змінні мають бути пов'язані, а параметрам, що приймають введення, має бути присвоєно будь-яке значення . [db2\_execute()](function.db2-execute.md)
 
 ```php
 <?php
@@ -85,7 +86,7 @@ if (db2_execute($stmt)) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Pook, cat, 3.2
@@ -95,11 +96,11 @@ Peaches, dog, 12.3
 
 **Приклад #2 Виклик збережених процедур з параметрами IN та OUT**
 
-Зберігається процедура matchanimal в даному прикладі приймає три різні параметри:
+Зберігається процедура match\_animal в даному прикладі приймає три різні параметри:
 
 1.  вхідний параметр (IN), який приймає ім'я першої тварини як вхідні дані
     
-2.  параметр вводу-виводу (INOUT), який приймає ім'я другої тварини як вхідні дані та повертає рядок `TRUE`якщо тварина в базі даних збігається з цим ім'ям
+2.  параметр вводу-виводу (INOUT), який приймає ім'я другої тварини як вхідні дані та повертає рядок`TRUE`якщо тварина в базі даних збігається з цим ім'ям
     
 3.  вихідний параметр (OUT), який повертає суму ваги двох ідентифікованих тварин
     
@@ -136,7 +137,7 @@ if (db2_execute($stmt)) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Values of bound parameters _before_ CALL:
@@ -167,5 +168,5 @@ $rc = db2_execute($stmt);
 
 ### Дивіться також
 
--   [db2execute()](function.db2-execute.md) - Виконує підготовлений SQL-запит
--   [db2prepare()](function.db2-prepare.md) - готує SQL-запит до виконання
+-   [db2\_execute()](function.db2-execute.md) \- Виконує підготовлений SQL-запит
+-   [db2\_prepare()](function.db2-prepare.md) \- готує SQL-запит до виконання

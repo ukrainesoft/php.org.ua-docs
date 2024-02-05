@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashintset.md: QuickHashIntSet
 title: 'QuickHashIntSet::saveToFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntSet::saveToFile
 
@@ -32,7 +33,7 @@ public QuickHashIntSet::saveToFile(string $filename): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntSet::saveToFile()****
+**Пример #1 Пример использования**QuickHashIntSet::saveToFile()\*\*\*\*
 
 ```php
 <?php

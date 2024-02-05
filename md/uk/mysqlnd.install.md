@@ -1,27 +1,28 @@
 ---
 navigation:
-  - mysqlnd.overview.md: « Обзор
+  - mysqlnd.overview.md: « Огляд
   - mysqlnd.config.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - book.mysqlnd.md: Mysqlnd
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Встановлення
+# Установка
 
-*Встановлення в Unix*
+**Встановлення в Unix**
 
-Модулі для роботи з MySQL мають бути налаштовані для використання клієнтської бібліотеки MySQL. Для роботи вбудованого драйвера MySQL потрібно зібрати PHP, вказавши, що модулі для роботи з MySQL мають бути скомпільовані за допомогою вбудованого драйвера MySQL. Це робиться за допомогою параметрів конфігурації перед складання PHP з вихідного коду.
+Для роботи вбудованого драйвера MySQL потрібно зібрати PHP, вказавши, що модулі для роботи з MySQL мають бути скомпільовані за допомогою вбудованого драйвера MySQL. Це робиться за допомогою параметрів конфігурації перед складання PHP з вихідного коду.
 
 Наприклад, щоб зібрати модулі MySQL `mysqli` та PDO MYSQL, які використовують вбудований драйвер MySQL, має бути виконана наступна команда:
 
-./configure --with-mysql=mysqlnd --with-mysqli=mysqlnd --with-pdo-mysql=mysqlnd other options
+./configure --with-mysql=mysqlnd\\--with-mysqli=mysqlnd\\--with-pdo-mysql=mysqlnd\\\[other options\]
 
-*Встановлення у Windows*
+**Встановлення у Windows**
 
 В офіційних Windows-дистрибутивах вбудований драйвер MySQL включений за замовчуванням, тому жодних додаткових налаштувань для його використання не потрібно. У цьому випадку всі модулі для роботи з MySQL використовуватимуть вбудований драйвер MySQL.
 
-*Підтримка плагіна автентифікації SHA-256*
+**Підтримка плагіна автентифікації SHA-256**
 
 Для вбудованого драйвера MySQL потрібно підключити та включити OpenSSL в PHP, щоб підключатися до MySQL через облікові записи, що використовують плагін автентифікації MySQL SHA-256. Наприклад, можна налаштувати PHP таким чином:
 
-./configure --with-mysql=mysqlnd --with-mysqli=mysqlnd --with-pdo-mysql=mysqlnd --with-opensslother options
+./configure --with-mysql=mysqlnd\\--with-mysqli=mysqlnd\\--with-pdo-mysql=mysqlnd\\--with-openssl\[other options\]

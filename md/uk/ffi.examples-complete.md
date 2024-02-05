@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ffi.examples-callback.md: « Callback-функции PHP
+  - ffi.examples-callback.md: Callback-функції PHP
   - class.ffi.md: FFI »
   - index.md: PHP Manual
   - ffi.examples.md: Приклади
 title: Комплексний приклад PHP/FFI/preloading
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Комплексний приклад PHP/FFI/preloading
 
@@ -23,9 +24,9 @@ opcache_compile_file(__DIR__ . "/dummy.php");
 
 dummy.h
 
-#define FFISCOPE "DUMMY" #define FFILIB "libc.so.6"
+#define FFI\_SCOPE "DUMMY" #define FFI\_LIB "libc.so.6"
 
-int printf(const char format, ...);
+int printf(const char\*format, ...);
 
 dummy.php
 

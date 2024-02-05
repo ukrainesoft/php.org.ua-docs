@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::ftruncate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::ftruncate
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::ftruncate — Обрізає файл до заданої довжини
 
@@ -26,7 +27,7 @@ public SplFileObject::ftruncate(int $size): bool
 
 Розмір, під який потрібно підігнати файл.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо `size` більше поточного розміру файлу, в кінці будуть додані нульові байти.
 > 
@@ -34,11 +35,11 @@ public SplFileObject::ftruncate(int $size): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::ftruncate()****
+**Пример #1 Пример использования**SplFileObject::ftruncate()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ echo $file->fgets();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Hello
@@ -63,4 +64,4 @@ Hello
 
 ### Дивіться також
 
--   [ftruncate()](function.ftruncate.md) - Урізує файл до вказаної довжини
+-   [ftruncate()](function.ftruncate.md) \- Урізує файл до вказаної довжини

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-executable.md: « isexecutable
-  - function.is-link.md: ісlink »
+  - function.is-executable.md: « is\_executable
+  - function.is-link.md: is\_link »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
-title: ісfile
+title: is\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісfile
+# is\_file
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісfile — Визначає, чи є файл звичайним файлом
+is\_file — Визначає, чи є файл звичайним файлом
 
 ### Опис
 
@@ -38,7 +39,7 @@ is_file(string $filename): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ісfile()****
+**Пример #1 Пример использования**is\_file()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ var_dump(is_file('/usr/bin/')) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -60,10 +61,10 @@ bool(false)
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), смотрите в разделе[Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 
--   [ісdir()](function.is-dir.md) - Визначає, чи є ім'я файлу директорією
--   [ісlink()](function.is-link.md) - Визначає, чи є файл символічним посиланням
+-   [is\_dir()](function.is-dir.md) \- Визначає, чи є ім'я файлу директорією
+-   [is\_link()](function.is-link.md) \- Визначає, чи є файл символічним посиланням
 -   [SplFileInfo](class.splfileinfo.md)

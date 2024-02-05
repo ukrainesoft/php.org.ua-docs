@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ref.mysql-xdevapi.md: « Функції Mysqlxdevapi
+  - ref.mysql-xdevapi.md: « Функції Mysql\_xdevapi
   - function.mysql-xdevapi-getsession.md: getSession »
   - index.md: PHP Manual
-  - ref.mysql-xdevapi.md: Функції Mysqlxdevapi
+  - ref.mysql-xdevapi.md: Функції Mysql\_xdevapi
 title: expression
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # expression
 
@@ -20,7 +21,7 @@ mysql_xdevapi\expression(string $expression): object
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ mysql_xdevapi\expression(string $expression): object
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiExpression()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Expression()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ print_r($data);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 <?php

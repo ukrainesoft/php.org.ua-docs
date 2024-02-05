@@ -1,46 +1,56 @@
 ---
 navigation:
   - spldoublylinkedlist.valid.md: '« SplDoublyLinkedList::valid'
-  - splstack.construct.md: 'SplStack::construct »'
+  - class.splqueue.md: SplQueue »
   - index.md: PHP Manual
   - spl.datastructures.md: Структури даних
 title: Клас SplStack
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SplStack
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас SplStack надає основні функціональні можливості стека, реалізовані за допомогою двозв'язкового списку.
+Клас SplStack надає основні функціональні можливості стека, реалізовані з використанням двозв'язкового списку, встановивши режим ітератора **`SplDoublyLinkedList::IT_MODE_LIFO`**
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class SplStack
     
 
     
-     
-      class SplStack
-     
-
-     
-      extends
-       SplDoublyLinkedList
-     
+     extends
+      SplDoublyLinkedList
      {
 
-    /* Методы */
+    /* Наследуемые константы */
     
-   public __construct()
-
-    public setIteratorMode(int $mode): void
+     public
+     const
+     int
+      SplDoublyLinkedList::IT_MODE_LIFO;
+public
+     const
+     int
+      SplDoublyLinkedList::IT_MODE_FIFO;
+public
+     const
+     int
+      SplDoublyLinkedList::IT_MODE_DELETE;
+public
+     const
+     int
+      SplDoublyLinkedList::IT_MODE_KEEP;
 
 
     /* Наследуемые методы */
-    public SplDoublyLinkedList::add(int $index, mixed $value): void
+    
+   public SplDoublyLinkedList::add(int $index, mixed $value): void
 public SplDoublyLinkedList::bottom(): mixed
 public SplDoublyLinkedList::count(): int
 public SplDoublyLinkedList::current(): mixed
@@ -67,7 +77,26 @@ public SplDoublyLinkedList::valid(): bool
    }
 ```
 
-## Зміст
+## Приклади
 
--   [SplStack::construct](splstack.construct.md) — Створює новий стек, реалізований за допомогою двозв'язкового списку
--   [SplStack::setIteratorMode](splstack.setiteratormode.md) - Встановлює режим ітератора
+**Пример #1 Пример использования**SplStack\*\*\*\*
+
+```php
+<?php
+$q = new SplStack();
+$q[] = 1;
+$q[] = 2;
+$q[] = 3;
+foreach ($q as $elem)  {
+ echo $elem."\n";
+}
+?>
+```
+
+Результат виконання наведеного прикладу:
+
+```
+3
+2
+1
+```

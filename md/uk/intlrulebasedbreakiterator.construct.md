@@ -4,21 +4,22 @@ navigation:
   - intlrulebasedbreakiterator.getbinaryrules.md: 'IntlRuleBasedBreakIterator::getBinaryRules »'
   - index.md: PHP Manual
   - class.intlrulebasedbreakiterator.md: IntlRuleBasedBreakIterator
-title: 'IntlRuleBasedBreakIterator::construct'
+title: 'IntlRuleBasedBreakIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# IntlRuleBasedBreakIterator::construct
+# IntlRuleBasedBreakIterator::\_\_construct
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-IntlRuleBasedBreakIterator::construct - Створює ітератор на основі набору правил
+IntlRuleBasedBreakIterator::\_\_construct - Створює ітератор на основі набору правил
 
 ### Опис
 
-public **IntlRuleBasedBreakIterator::construct**(string `$rules`, bool `$compiled` **`false`**
+public**IntlRuleBasedBreakIterator::\_\_construct**(string`$rules`, bool`$compiled` **`false`**) .
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

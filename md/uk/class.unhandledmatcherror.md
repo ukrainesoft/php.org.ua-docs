@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - reserved.exceptions.md: Обумовлені винятки
 title: UnhandledMatchError
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # UnhandledMatchError
 
@@ -12,24 +13,19 @@ title: UnhandledMatchError
 
 ## Вступ
 
-**UnhandledMatchError** викидається, якщо суб'єкт, переданий у вираз match, не обробляється жодною зі сторін виразу match.
+**UnhandledMatchError** викидається, якщо суб'єкт, переданий у вираз [match](control-structures.match.md), не обробляється жодною зі сторін виразу match.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class UnhandledMatchError
     
 
     
-     
-      class UnhandledMatchError
-     
-
-     
-      extends
-       Error
-     
+     extends
+      Error
      {
 
     /* Наследуемые свойства */
@@ -59,7 +55,9 @@ private
 
     /* Наследуемые методы */
     
-   final public Error::getMessage(): string
+   public Error::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+    final public Error::getMessage(): string
 final public Error::getPrevious(): ?Throwable
 final public Error::getCode(): int
 final public Error::getFile(): string

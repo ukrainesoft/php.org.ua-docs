@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::setstrokewidth'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GmagickDraw::setstrokewidth
 
@@ -18,7 +19,7 @@ GmagickDraw::setstrokewidth — Встановлює ширину обведен
 public GmagickDraw::setstrokewidth(float $width): GmagickDraw
 ```
 
-Встановлює ширину обведення, яка використовується для відображення контурів об'єкта.
+Встановлює ширину обведення, що використовується для відображення контурів об'єкта.
 
 ### Список параметрів
 

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - pcre.installation.md: « Установка
+  - pcre.installation.md: « Встановлення
   - pcre.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - pcre.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,22 +15,22 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [pcre.backtracklimit](pcre.configuration.md#ini.pcre.backtrack-limit) | "1000000" | PHPINIALL |  |
-| [pcre.recursionlimit](pcre.configuration.md#ini.pcre.recursion-limit) | "100000" | PHPINIALL |  |
-| [pcre.jit](pcre.configuration.md#ini.pcre.jit) | "1" | PHPINIALL |  |
+| [pcre.backtrack\_limit](pcre.configuration.md#ini.pcre.backtrack-limit) | "1000000" | **`INI_ALL`** |  |
+| [pcre.recursion\_limit](pcre.configuration.md#ini.pcre.recursion-limit) | "100000" | **`INI_ALL`** |  |
+| [pcre.jit](pcre.configuration.md#ini.pcre.jit) | "1" | **`INI_ALL`** |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
+Додаткова інформація та опис режимів INI\_\* дано у розділі «[Місця встановлення параметрів конфігурації](configuration.changes.modes.md)».
 
 Коротке пояснення конфігураційних директив.
 
-`pcre.backtrack_limit` int
+`pcre.backtrack_limit`int
 
 Ліміт зворотних посилань PCRE. Для PHP < 5.3.7 значення за промовчанням 100000.
 
-`pcre.recursion_limit` int
+`pcre.recursion_limit`int
 
-Ліміт на рекурсію. Не забувайте про те, що якщо ви встановите досить високе значення, PCRE може перевищити розмір стека (встановлений операційною системою) і врешті-решт викликає падіння PHP.
+Ліміт на рекурсію. Не забувайте про те, що якщо ви встановите досить високе значення, то PCRE може перевищити розмір стека (встановлений операційною системою) і зрештою викличе падіння PHP.
 
-`pcre.jit` bool
+`pcre.jit`bool
 
 Чи використовуватиметься JIT-компіляція PCRE.

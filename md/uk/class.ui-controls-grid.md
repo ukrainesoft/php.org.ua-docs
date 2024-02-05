@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-form.setpadded.md: '« UIControlsForm::setPadded'
-  - ui-controls-grid.append.md: 'ОЙControlsGrid::append »'
+  - ui-controls-form.setpadded.md: '« UI\\Controls\\Form::setPadded'
+  - ui-controls-grid.append.md: 'UI\\Controls\\Grid::append »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Сітка" (розміщення)
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Сітка" (розміщення)
 
@@ -73,7 +74,7 @@ title: Елемент управління "Сітка" (розміщення)
 
     /* Методы */
     
-   public append(    UI\Control $control,    int $left,    int $top,    int $xspan,    int $yspan,    bool $hexpand,    int $halign,    bool $vexpand,    int $valign)
+   public append(    UI\Control $control,    int $left,    int $top,    int $xspan,    int $yspan,    bool $hexpand,    int $halign,    bool $vexpand,    int $valign)
 public isPadded(): bool
 public setPadded(bool $padding)
 
@@ -120,6 +121,6 @@ controls
 
 ## Зміст
 
--   [ОЙControlsGrid::append](ui-controls-grid.append.md) — Додати елемент керування
--   [ОЙControlsGrid::isPadded](ui-controls-grid.ispadded.md) - Визначення заповнення
--   [ОЙControlsGrid::setPadded](ui-controls-grid.setpadded.md) - Встановити заповнення
+-   [UI\\Controls\\Grid::append](ui-controls-grid.append.md)— Додати елемент керування
+-   [UI\\Controls\\Grid::isPadded](ui-controls-grid.ispadded.md) \- Визначення заповнення
+-   [UI\\Controls\\Grid::setPadded](ui-controls-grid.setpadded.md) \- Встановити заповнення

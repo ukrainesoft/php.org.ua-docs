@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::getMaxLineLen'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::getMaxLineLen
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::getMaxLineLen — Отримати максимальну довжину рядка
 
@@ -18,7 +19,7 @@ SplFileObject::getMaxLineLen — Отримати максимальну дов�
 public SplFileObject::getMaxLineLen(): int
 ```
 
-Отримує максимальну довжину рядка, встановлену за допомогою [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md)
+Получает максимальную длину строки, установленную с помощью[SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md)
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public SplFileObject::getMaxLineLen(): int
 
 ### Значення, що повертаються
 
-Повертає максимальну довжину рядка, якщо вона була встановлена ​​за допомогою [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md), за замовчуванням `0`
+Повертає максимальну довжину рядка, якщо вона була встановлена ​​за допомогою [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md), по умолчанию
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::getMaxLineLen()****
+**Пример #1 Пример использования**SplFileObject::getMaxLineLen()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($file->getMaxLineLen());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(0)
@@ -51,4 +52,4 @@ int(20)
 
 ### Дивіться також
 
--   [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md) - Встановити максимальну довжину рядка
+-   [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md) \- Встановити максимальну довжину рядка

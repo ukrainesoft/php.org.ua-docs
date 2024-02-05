@@ -1,25 +1,26 @@
 ---
 navigation:
-  - function.uopz-backup.md: « uopzbackup
-  - function.uopz-copy.md: uopzcopy »
+  - function.uopz-backup.md: « uopz\_backup
+  - function.uopz-copy.md: uopz\_copy »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzcompose
+title: uopz\_compose
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzcompose
+# uopz\_compose
 
 (PECL uopz 1, PECL uopz 2)
 
-uopzcompose — Скласти клас
+uopz\_compose — Скласти клас
 
 **Увага**
 
-Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО*в PECL uopz 5.0.0.
 
 ### Опис
 
 ```methodsynopsis
-uopz_compose(    string $name,    array $classes,    array $methods = ?,    array $properties = ?,    int $flags = ?): void
+uopz_compose(    string $name,    array $classes,    array $methods = ?,    array $properties = ?,    int $flags = ?): void
 ```
 
 Створює клас заданого імені, який реалізує, успадковує чи використовує всі надані класи
@@ -36,7 +37,7 @@ uopz_compose(    string $name,    array $classes,    array $methods = ?,    arra
 
 `methods`
 
-Асоціативний масив методів, де значення або замикання, або представлені структурою модифікатори => замикання
+Асоціативний масив методів, де значення або замикання, або представлені структурою \[модифікатори => замикання\]
 
 `properties`
 
@@ -44,13 +45,13 @@ uopz_compose(    string $name,    array $classes,    array $methods = ?,    arra
 
 `flags`
 
-Тип запису за замовчуванням ZENDACCCLASS
+Тип запису за замовчуванням ZEND\_ACC\_CLASS
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzcompose()****
+**Пример #1 Пример использования**uopz\_compose()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +77,7 @@ var_dump(
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.fiber.md: Fiber
 title: 'Fiber::resume'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Fiber::resume
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 Fiber::resume — Відновлює виконання файбера зі значенням
 
@@ -30,4 +31,4 @@ public Fiber::resume(mixed $value = null): mixed
 
 ### Значення, що повертаються
 
-Значення для наступного виклику [Fiber::suspend()](fiber.suspend.md) або **`null`** у разі повернення файбера. Якщо файбер викинув виняток перед призупиненням, його буде викинуто з цього методу.
+Значення для наступного виклику [Fiber::suspend()](fiber.suspend.md)или\*\*`null`\*\* у разі повернення файбера. Якщо файбер викинув виняток перед призупиненням, його буде викинуто з цього методу.

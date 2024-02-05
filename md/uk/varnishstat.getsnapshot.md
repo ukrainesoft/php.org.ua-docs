@@ -1,10 +1,11 @@
 ---
 navigation:
-  - varnishstat.construct.md: '« VarnishStat::construct'
+  - varnishstat.construct.md: '« VarnishStat::\_\_construct'
   - class.varnishlog.md: VarnishLog »
   - index.md: PHP Manual
   - class.varnishstat.md: VarnishStat
 title: 'VarnishStat::getSnapshot'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # VarnishStat::getSnapshot
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.rotate.md: '« DsVector::rotate'
-  - ds-vector.shift.md: 'ДсVector::shift »'
+  - ds-vector.rotate.md: '« Ds\\Vector::rotate'
+  - ds-vector.shift.md: 'Ds\\Vector::shift »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::set'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::set
+# Ds\\Vector::set
 
 (PECL ds >= 1.0.0)
 
-ДсVector::set — Замінює значення за вказаним індексом
+Ds\\Vector::set — Замінює значення за вказаним індексом
 
 ### Опис
 
@@ -40,7 +41,7 @@ public Ds\Vector::set(int $index, mixed $value): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::set()****
+**Пример #1 Пример использования**Ds\\Vector::set()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ print_r($vector);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object
@@ -62,7 +63,7 @@ Ds\Vector Object
 )
 ```
 
-**Приклад #2 Приклад використання **ДсVector::set()** із синтаксисом масиву**
+**Пример #2 Пример использования**Ds\\Vector::set()\*\* із синтаксисом масиву\*\*
 
 ```php
 <?php
@@ -73,7 +74,7 @@ print_r($vector);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

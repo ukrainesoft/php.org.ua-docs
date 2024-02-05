@@ -4,10 +4,11 @@ navigation:
   - win32service.constants.servicecontrol.md: Константи обробки повідомлень службою Win32Service
   - index.md: PHP Manual
   - win32service.constants.md: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 **Константи статусу служби Win32Service**
 
-| Константа | Значение | Описание |
+| Константа | Значение | Опис |
 | --- | --- | --- |
 | **`WIN32_SERVICE_CONTINUE_PENDING`** | 0x00000005 | Служба в очікуванні виходу зі стану паузи. |
 | **`WIN32_SERVICE_PAUSE_PENDING`** | 0x00000006 | Служба очікує переходу у стан паузи. |

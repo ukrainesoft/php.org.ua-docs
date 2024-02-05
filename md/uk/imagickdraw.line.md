@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::line'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::line
 
@@ -15,12 +16,12 @@ ImagickDraw::line — Малює лінію
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::line(    float $sx,    float $sy,    float $ex,    float $ey): bool
+public ImagickDraw::line(    float $sx,    float $sy,    float $ex,    float $ey): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Малює лінію на зображенні, використовуючи поточний колір обведення, прозорість і ширину.
 
@@ -48,7 +49,7 @@ public ImagickDraw::line(    float $sx,    float $sy,    float $ex,    float $ey
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::line()****
+**Пример #1 Пример использования**ImagickDraw::line()\*\*\*\*
 
 ```php
 <?php

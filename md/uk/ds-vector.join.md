@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.isempty.md: '« DsVector::isEmpty'
-  - ds-vector.jsonserialize.md: 'ДсVector::jsonSerialize »'
+  - ds-vector.isempty.md: '« Ds\\Vector::isEmpty'
+  - ds-vector.jsonserialize.md: 'Ds\\Vector::jsonSerialize »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::join'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::join'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::join
+# Ds\\Vector::join
 
 (PECL ds >= 1.0.0)
 
-ДсVector::join — Склеює всі значення в рядок
+Ds\\Vector::join — Склеює всі значення в рядок
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсVector::join'
 public Ds\Vector::join(string $glue = ?): string
 ```
 
-Склеює всі значення в рядок, опціонально використовуючи заданий роздільник.
+Склеює всі значення у рядок, опціонально використовуючи заданий роздільник.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public Ds\Vector::join(string $glue = ?): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::join()** з роздільником**
+**Пример #1 Пример использования**Ds\\Vector::join()\*\* з роздільником\*\*
 
 ```php
 <?php
@@ -42,13 +43,13 @@ var_dump($vector->join("|"));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(11) "a|b|c|1|2|3"
 ```
 
-**Приклад #2 Приклад використання **ДсVector::join()** без роздільника**
+**Пример #2 Пример использования**Ds\\Vector::join()\*\* без роздільника\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_dump($vector->join());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(11) "abc123"

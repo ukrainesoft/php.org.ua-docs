@@ -3,15 +3,16 @@ navigation:
   - install.pecl.php-config.md: « php-config
   - install.problems.md: Проблеми? »
   - index.md: PHP Manual
-  - install.pecl.md: Установка модулей PECL
+  - install.pecl.md: Встановлення модулів PECL
 title: Компіляція модулів PECL статично в PHP
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Компіляція модулів PECL статично в PHP
 
-Можливо, ви захочете зібрати модуль PECL статично у ваш бінарний файл PHP. Для цього необхідно помістити код модуля в директорію php-src/ext/ та викликати перегенерацію конфігураційних скриптів через систему збирання PHP.
+Можливо, потрібно зібрати модуль PECL статично в бінарний файл PHP. Для цього необхідно помістити код модуля в директорію /path/to/php/src/dir/ext/ та викликати перегенерацію конфігураційних скриптів через систему збирання PHP.
 
 ```
-$ cd /your/phpsrcdir/ext
+$ cd /path/to/php/src/dir/ext
 $ pecl download extname
 $ gzip -d < extname.tgz | tar -xvf -
 $ mv extname-x.x.x extname
@@ -19,20 +20,20 @@ $ mv extname-x.x.x extname
 
 У результаті буде створено таку директорію:
 
-/your/phpsrcdir/ext/extname
+/path/to/php/src/dir/ext/extname
 
-Після цього, виконайте заново складання конфігураційного скрипта PHP і потім зберіть PHP як завжди:
+Після цього PHP необхідно заново перезбирати конфігураційний скрипт, після чого він може бути зібраний як завжди:
 
-$ cd /your/phpsrcdir  
-$rm configure  
+$ cd /path/to/php/src/dir  
+$ rm configure  
 $ ./buildconf --force  
 $ ./configure --help  
 $ ./configure --with-extname --enable-someotherext --with-foobar  
 $ make  
 $ make install
 
-> **Зауваження**: Для запуску 'buildconf' скрипту вам знадобиться autoconf версії 2.13 та automake версії 1.4+ (новіші версії autoconf можуть працювати, але це не підтримується).
+> **Зауваження**: Для запуска скрипта**buildconf**понадобится команда**autoconf** версії `2.68`и команда**automake** версії `1.4+` (новіші версії скрипту **autoconf** можуть працювати, але не підтримуються).
 
-Залежно від модуля використовуватиметься одна з двох опцій `--enable-extname` або `--with-extname` . Зазвичай, якщо модуль не вимагає підключення зовнішніх бібліотек, використовується `--enable`. Щоб дізнатися про це, виконайте наступну команду після buildconf:
+В зависимости от модуля будет использован один из двух параметров —**\--enable-extname**или**\--with-extname**. Зазвичай модуль, який не потребує зовнішніх бібліотек, використовує параметр **\--enable**. Щоб переконатися в цьому, можна виконати команду **buildconf** :
 
-$./configure --help | grep extname
+$ ./configure --help | grep extname

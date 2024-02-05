@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isgraph'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isgraph
 
@@ -26,7 +27,7 @@ public static IntlChar::isgraph(int|string $codepoint): ?bool
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
@@ -45,7 +46,7 @@ var_dump(IntlChar::isgraph("\n"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -53,3 +54,7 @@ bool(true)
 bool(true)
 bool(false)
 ```
+
+### Дивіться також
+
+-   [ctype\_graph()](function.ctype-graph.md) \- Перевіряє будь-які друковані символи крім пробілу

@@ -1,12 +1,13 @@
 ---
 navigation:
-  - commonmark-node-orderedlist.construct.md: '« CommonMarkNodeOrderedList::construct'
-  - class.commonmark-node-text.md: CommonMarkNodeText »
+  - commonmark-node-orderedlist.construct.md: '« CommonMark\\Node\\OrderedList::\_\_construct'
+  - class.commonmark-node-text.md: CommonMark\\Node\\Text »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: Item успадковує CommonMarkNode
+title: Item успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Item успадковує CommonMarkNode
+# Item успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 

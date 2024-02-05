@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.putall.md: '« DsMap::putAll'
-  - ds-map.remove.md: 'ДсMap::remove »'
+  - ds-map.putall.md: '« Ds\\Map::putAll'
+  - ds-map.remove.md: 'Ds\\Map::remove »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::reduce'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::reduce'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::reduce
+# Ds\\Map::reduce
 
 (PECL ds >= 1.0.0)
 
-ДсMap::reduce — Зменшує колекцію до одного значення, використовуючи callback-функцію
+Ds\\Map::reduce — Зменшує колекцію до одного значення, використовуючи callback-функцію
 
 ### Опис
 
@@ -50,7 +51,7 @@ callback(mixed $carry, mixed $key, mixed $value): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::reduce()** з початковим значенням**
+**Пример #1 Пример использования**Ds\\Map::reduce()\*\* з початковим значенням\*\*
 
 ```php
 <?php
@@ -72,13 +73,13 @@ var_dump($map->reduce($callback, 5));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(30)
 ```
 
-**Приклад #2 Приклад використання **ДсMap::reduce()** без початкового значення**
+**Пример #2 Пример использования**Ds\\Map::reduce()\*\* без початкового значення\*\*
 
 ```php
 <?php
@@ -98,7 +99,7 @@ var_dump($map->reduce(function($carry, $key, $value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(21)

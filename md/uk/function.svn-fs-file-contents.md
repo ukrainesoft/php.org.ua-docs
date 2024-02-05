@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-dir-entries.md: « svnфсdirentries
-  - function.svn-fs-file-length.md: svnфсfilelength »
+  - function.svn-fs-dir-entries.md: « svn\_fs\_dir\_entries
+  - function.svn-fs-file-length.md: svn\_fs\_file\_length »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсfilecontents
+title: svn\_fs\_file\_contents
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсfilecontents
+# svn\_fs\_file\_contents
 
-(PECL svn> = 0.1.0)
+(PECL svn >= 0.1.0)
 
-svnфсfilecontents — Повернення потоку для доступу до вмісту файлу з даної файлової системи
+svn\_fs\_file\_contents — Повернення потоку для доступу до вмісту файлу з даної файлової системи
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_file_contents(resource $fsroot, string $path): resource
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає поток для доступу до вмісту файлу з файлової системи.
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-cursor.settypemap.md: '« MongoDBDriverCursor::setTypeMap'
-  - mongodb-driver-cursor.valid.md: 'MongoDBDriverCursor::valid »'
+  - mongodb-driver-cursor.settypemap.md: '« MongoDB\\Driver\\Cursor::setTypeMap'
+  - mongodb-driver-cursor.valid.md: 'MongoDB\\Driver\\Cursor::valid »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
-title: 'MongoDBDriverCursor::toArray'
+  - class.mongodb-driver-cursor.md: MongoDB\\Driver\\Cursor
+title: 'MongoDB\\Driver\\Cursor::toArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverCursor::toArray
+# MongoDB\\Driver\\Cursor::toArray
 
 (mongodb >=1.0.0)
 
-MongoDBDriverCursor::toArray — Повертає масив, що містить усі результати курсору
+MongoDB\\Driver\\Cursor::toArray — Повертає масив, що містить усі результати курсору
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverCursor::toArray — Повертає масив, що містит�
 final public MongoDB\Driver\Cursor::toArray(): array
 ```
 
-Ітерує курсор та повертає його результати у вигляді масиву . [MongoDBDriverCursor::setTypeMap()](mongodb-driver-cursor.settypemap.md) може використовуватися для керування тим, як документи десеріалізовані до значення PHP.
+Ітерує курсор та повертає його результати у вигляді масиву . [MongoDB\\Driver\\Cursor::setTypeMap()](mongodb-driver-cursor.settypemap.md) може використовуватися для керування тим, як документи десеріалізовані до значення PHP.
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ final public MongoDB\Driver\Cursor::toArray(): array
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverCursor::toArray()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Cursor::toArray()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ var_dump($cursor->toArray());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(3) {
@@ -94,4 +95,4 @@ array(3) {
 
 ### Дивіться також
 
--   [MongoDBDriverCursor::setTypeMap()](mongodb-driver-cursor.settypemap.md) - Встановлює карту типу для десеріалізації BSON
+-   [MongoDB\\Driver\\Cursor::setTypeMap()](mongodb-driver-cursor.settypemap.md) \- Встановлює карту типу для десеріалізації BSON

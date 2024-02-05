@@ -1,12 +1,13 @@
 ---
 navigation:
-  - commonmark-interfaces-ivisitor.leave.md: '« CommonMarkInterfacesIVisitor::leave'
-  - commonmark-interfaces-ivisitable.accept.md: 'CommonMarkInterfacesIVisitable::accept »'
+  - commonmark-interfaces-ivisitor.leave.md: '« CommonMark\\Interfaces\\IVisitor::leave'
+  - commonmark-interfaces-ivisitable.accept.md: 'CommonMark\\Interfaces\\IVisitable::accept »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: Інтерфейс CommonMarkInterfacesIVisitable
+title: Інтерфейс CommonMark\\Interfaces\\IVisitable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Інтерфейс CommonMarkInterfacesIVisitable
+# Інтерфейс CommonMark\\Interfaces\\IVisitable
 
 (cmark >= 1.0.0)
 
@@ -34,4 +35,4 @@ title: Інтерфейс CommonMarkInterfacesIVisitable
 
 ## Зміст
 
--   [CommonMarkInterfacesIVisitable::accept](commonmark-interfaces-ivisitable.accept.md) - Visitation
+-   [CommonMark\\Interfaces\\IVisitable::accept](commonmark-interfaces-ivisitable.accept.md)— Visitation

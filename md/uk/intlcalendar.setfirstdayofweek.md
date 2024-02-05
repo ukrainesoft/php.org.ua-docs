@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intlcalendar.set.md: '« IntlCalendar::set'
+  - intlcalendar.setdatetime.md: '« IntlCalendar::setDateTime'
   - intlcalendar.setlenient.md: 'IntlCalendar::setLenient »'
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::setFirstDayOfWeek'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::setFirstDayOfWeek
 
@@ -17,16 +18,16 @@ IntlCalendar::setFirstDayOfWeek — Встановлює день, який є �
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public IntlCalendar::setFirstDayOfWeek(int $dayOfWeek): bool
+public IntlCalendar::setFirstDayOfWeek(int $dayOfWeek): true
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-intlcal_set_first_day_of_week(IntlCalendar $calendar, int $dayOfWeek): bool
+intlcal_set_first_day_of_week(IntlCalendar $calendar, int $dayOfWeek): true
 ```
 
-Визначає день тижня, що вважається початком тижня. Це впливає на поведінку полів, які залежать від концепції початку та кінця тижня, наприклад: **`IntlCalendar::FIELD_WEEK_OF_YEAR`** і **`IntlCalendar::FIELD_YEAR_WOY`**
+Визначає день тижня, що вважається початком тижня. Це впливає на поведінку полів, які залежать від концепції початку та кінця тижня, наприклад: **`IntlCalendar::FIELD_WEEK_OF_YEAR`**и**`IntlCalendar::FIELD_YEAR_WOY`**
 
 ### Список параметрів
 
@@ -36,15 +37,21 @@ intlcal_set_first_day_of_week(IntlCalendar $calendar, int $dayOfWeek): bool
 
 `dayOfWeek`
 
-Одна з констант **`IntlCalendar::DOW_SUNDAY`** **`IntlCalendar::DOW_MONDAY`** **`IntlCalendar::DOW_SATURDAY`**
+Одна из констант\*\*`IntlCalendar::DOW_SUNDAY`\*\* **`IntlCalendar::DOW_MONDAY`** **`IntlCalendar::DOW_SATURDAY`**
 
 ### Значення, що повертаються
 
 Функція завжди повертає **`true`**
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
+
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::setFirstDayOfWeek()****
+**Пример #1 Пример использования**IntlCalendar::setFirstDayOfWeek()\*\*\*\*
 
 ```php
 <?php
@@ -73,7 +80,7 @@ EOD
 ), "\n";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(2)

@@ -1,12 +1,13 @@
 ---
 navigation:
-  - componere-abstract-definition.getreflector.md: '« ComponereAbstractDefinition::getReflector'
-  - componere-definition.construct.md: 'ComponereDefinition::construct »'
+  - componere-abstract-definition.getreflector.md: '« Componere\\Abstract\\Definition::getReflector'
+  - componere-definition.construct.md: 'Componere\\Definition::\_\_construct »'
   - index.md: PHP Manual
   - book.componere.md: Componere
-title: Клас ComponereDefinition
+title: Клас Componere\\Definition
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас ComponereDefinition
+# Клас Componere\\Definition
 
 (Componere 2 >= 2.1.0)
 
@@ -66,10 +67,10 @@ public Componere\Abstract\Definition::getReflector(): ReflectionClass
 
 ## Зміст
 
--   [ComponereDefinition::construct](componere-definition.construct.md) - Визначення конструктора
--   [ComponereDefinition::addConstant](componere-definition.addconstant.md) — додає константу
--   [ComponereDefinition::addProperty](componere-definition.addproperty.md) - Додає властивість
--   [ComponereDefinition::register](componere-definition.register.md) - Реєстрація
--   [ComponereDefinition::isRegistered](componere-definition.isregistered.md) — Визначення стану
--   [ComponereDefinition::getClosure](componere-definition.getclosure.md) — Отримує замикання
--   [ComponereDefinition::getClosures](componere-definition.getclosures.md) — Отримує замикання
+-   [Componere\\Definition::\_\_construct](componere-definition.construct.md) \- Визначення конструктора
+-   [Componere\\Definition::addConstant](componere-definition.addconstant.md)— додає константу
+-   [Componere\\Definition::addProperty](componere-definition.addproperty.md) \- Додає властивість
+-   [Componere\\Definition::register](componere-definition.register.md) \- Реєстрація
+-   [Componere\\Definition::isRegistered](componere-definition.isregistered.md)— Визначення стану
+-   [Componere\\Definition::getClosure](componere-definition.getclosure.md)— Отримує замикання
+-   [Componere\\Definition::getClosures](componere-definition.getclosures.md)— Отримує замикання

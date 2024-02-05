@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::setCompressionName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::setCompressionName
 
@@ -28,7 +29,7 @@ public ZipArchive::setCompressionName(string $name, int $method, int $compflags 
 
 `method`
 
-Метод стиснення, одна з констант **`ZipArchive::CM_*`**
+Метод сжатия, одна из констант\*\*`ZipArchive::CM_*`\*\*
 
 `compflags`
 
@@ -36,7 +37,7 @@ public ZipArchive::setCompressionName(string $name, int $method, int $compflags 
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

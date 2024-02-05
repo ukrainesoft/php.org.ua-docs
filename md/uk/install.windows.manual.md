@@ -3,8 +3,9 @@ navigation:
   - install.windows.recommended.md: « Рекомендована конфігурація для Windows
   - install.windows.building.md: Складання з вихідних кодів »
   - index.md: PHP Manual
-  - install.windows.md: Установка в системах Windows
+  - install.windows.md: Встановлення у системах Windows
 title: Самостійне встановлення PHP у Windows
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Самостійне встановлення PHP у Windows
 
@@ -12,7 +13,7 @@ title: Самостійне встановлення PHP у Windows
 
 #### IIS
 
-IIS є вбудованим у Windows. Використовуйте Server Manager для додавання ролі IIS на сервері Windows. Переконайтеся, що функцію CGI увімкнено. На робочому столі Windows використовуйте панель "Встановлення та видалення програм" для додавання IIS. У документації Microsoft є [» детальні інструкції](https://docs.microsoft.com/en-us/previous-versions/ms181052(v=vs.80)). Для настільних веб-застосунків та веб-розробки можна також використовувати IIS/Express або робочий стіл PHP.
+IIS є вбудованим у Windows. На сервері Windows використовуйте Server Manager, щоб додати роль IIS. Переконайтеся, що функцію CGI увімкнено. На робочому столі Windows використовуйте панель "Встановлення та видалення програм" для додавання IIS. У документації Microsoft є [» детальні інструкції](https://docs.microsoft.com/en-us/previous-versions/ms181052(v=vs.80)). Для настільних веб-застосунків та веб-розробки можна також використовувати IIS/Express або робочий стіл PHP.
 
 **Приклад #1 Командний рядок для налаштування IIS та PHP**
 
@@ -43,17 +44,17 @@ REM Configure FastCGI Variables
 
 #### Apache
 
-Існує кілька версій Apache2 для Windows. Ми підтримуємо ApacheLounge, але інші варіанти включають XAMPP, WampServer та BitNami, які надають засоби автоматичної установки. Ви можете використовувати modphp або modfastcgi для завантаження PHP на Apache Якщо ви використовуєте modphp необхідно використовувати TS-build Apache, Visual C тієї ж версії і той же процесор (x86 або x64).
+Існує кілька версій Apache2 для Windows. Ми підтримуємо ApacheLounge, але інші варіанти включають XAMPP, WampServer та BitNami, які надають засоби автоматичної установки. Ви можете використовувати mod\_php або mod\_fastcgi для завантаження PHP на Apache Якщо ви використовуєте mod\_php необхідно використовувати TS-build Apache, Visual C тієї ж версії і той же процесор (x86 або x64).
 
 ### Виберіть збірку
 
-Завантажте PHP-релізи з [» http://windows.php.net/download/](http://windows.php.net/download/). Усі зборки оптимізовані (PGO), а випуски QA та GA ретельно протестовані.
+Завантажте PHP-релізи з [» http://windows.php.net/download/](http://windows.php.net/download/). Усі зборки оптимізовані (PGO), а випуски QA та GA ретельно протестовані.
 
 Є 4 типи збірок PHP:
 
--   Thread-Safe(TS) - для одного процесу веб-служб, як Apache з modphp
+-   Thread-Safe(TS) - для одного процесу веб-служб, як Apache з mod\_php
     
--   Non-Thread-Safe(NTS) - для служб IIS та інших FastCGI веб-серверів (Apache з modfastcgi) рекомендується і для сценаріїв командного рядка
+-   Non-Thread-Safe(NTS) - для служб IIS та інших FastCGI веб-серверів (Apache з mod\_fastcgi) рекомендується і для сценаріїв командного рядка
     
 -   для x86 – для 32-розрядної версії
     

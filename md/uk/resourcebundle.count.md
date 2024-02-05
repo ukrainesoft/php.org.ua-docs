@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.resourcebundle.md: ResourceBundle
 title: 'ResourceBundle::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ResourceBundle::count
 
-# resourcebundlecount
+# resourcebundle\_count
 
 (PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-ResourceBundle::count -- resourcebundlecount — Отримати кількість елементів у пакеті
+ResourceBundle::count -- resourcebundle\_count — Отримати кількість елементів у пакеті
 
 ### Опис
 
@@ -42,7 +43,7 @@ resourcebundle_count(ResourceBundle $bundle): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **resourcebundlecount()****
+**Пример #1 Пример использования**resourcebundle\_count()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ echo $r->count();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 42
@@ -68,4 +69,4 @@ echo $r->count();
 
 ### Дивіться також
 
--   [resourcebundleget()](resourcebundle.get.md) - Отримати дані з пакета
+-   [resourcebundle\_get()](resourcebundle.get.md) \- Отримати дані з пакета

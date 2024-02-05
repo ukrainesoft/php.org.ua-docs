@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-verify.md: « opensslverify
-  - function.openssl-x509-checkpurpose.md: opensslx509checkpurpose »
+  - function.openssl-verify.md: « openssl\_verify
+  - function.openssl-x509-checkpurpose.md: openssl\_x509\_checkpurpose »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslx509checkprivatekey
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_x509\_check\_private\_key
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslx509checkprivatekey
+# openssl\_x509\_check\_private\_key
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-opensslx509checkprivatekey — Перевірити, чи секретний ключ відноситься до сертифіката
+openssl\_x509\_check\_private\_key — Перевірити, чи секретний ключ відноситься до сертифіката
 
 ### Опис
 
@@ -38,11 +39,11 @@ openssl_x509_check_private_key(OpenSSLCertificate|string $certificate, OpenSSLAs
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `private_key` є ключем відповідним сертифікату `certificate`, або **`false`** в іншому випадку.
+Повертає **`true`**, якщо `private_key`является ключом соответствующим сертификату`certificate`, или\*\*`false`\*\* в іншому випадку.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
+| 8.0.0 | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL X.509` |
+| 8.0.0 | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL key`или`OpenSSL X.509` |

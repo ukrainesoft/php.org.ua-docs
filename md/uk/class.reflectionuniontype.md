@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflectiontype.tostring.md: '« ReflectionType::toString'
+  - reflectiontype.tostring.md: '« ReflectionType::\_\_function toString() { [native code] }'
   - reflectionuniontype.gettypes.md: 'ReflectionUnionType::getTypes »'
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Клас ReflectionUnionType
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ReflectionUnionType
 
@@ -16,18 +17,13 @@ title: Клас ReflectionUnionType
 
 ```classsynopsis
 
-     
+    
+     class ReflectionUnionType
     
 
     
-     
-      class ReflectionUnionType
-     
-
-     
-      extends
-       ReflectionType
-     
+     extends
+      ReflectionType
      {
 
     /* Методы */
@@ -44,4 +40,4 @@ public ReflectionType::__toString(): string
 
 ## Зміст
 
--   [ReflectionUnionType::getTypes](reflectionuniontype.gettypes.md) — Повертає типи, включені до типу union
+-   [ReflectionUnionType::getTypes](reflectionuniontype.gettypes.md)— Повертає типи, включені до типу union

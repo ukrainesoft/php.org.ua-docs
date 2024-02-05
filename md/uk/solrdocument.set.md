@@ -4,13 +4,14 @@ navigation:
   - solrdocument.sort.md: 'SolrDocument::sort »'
   - index.md: PHP Manual
   - class.solrdocument.md: SolrDocument
-title: 'SolrDocument::set'
+title: 'SolrDocument::\_\_set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrDocument::set
+# SolrDocument::\_\_set
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrDocument::set — Додає ще одне поле до документа
+SolrDocument::\_\_set — Додає ще одне поле до документа
 
 ### Опис
 
@@ -32,4 +33,4 @@ public SolrDocument::__set(string $fieldName, string $fieldValue): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

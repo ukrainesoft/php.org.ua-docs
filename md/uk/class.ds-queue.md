@@ -1,14 +1,15 @@
 ---
 navigation:
-  - ds-stack.toarray.md: '« DsStack::toArray'
-  - ds-queue.allocate.md: 'ДсQueue::allocate »'
+  - ds-stack.toarray.md: '« Ds\\Stack::toArray'
+  - ds-queue.allocate.md: 'Ds\\Queue::allocate »'
   - index.md: PHP Manual
   - book.ds.md: Структури даних
 title: Клас Queue
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Queue
 
-(No version information available, might only be in Git)
+(PECL ds >= 1.0.0)
 
 ## Вступ
 
@@ -56,21 +57,21 @@ public toArray(): array
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.md) |
 
 ## Зміст
 
--   [ДсQueue::allocate](ds-queue.allocate.md) — Виділяє пам'ять під зазначену місткість
--   [ДсQueue::capacity](ds-queue.capacity.md) — Повертає поточну місткість
--   [ДсQueue::clear](ds-queue.clear.md) - Видаляє всі значення
--   [ДсQueue::construct](ds-queue.construct.md) - Створює новий екземпляр
--   [ДсQueue::copy](ds-queue.copy.md) — Повертає поверхневу копію черги
--   [ДсQueue::count](ds-queue.count.md) — Повертає кількість елементів черги
--   [ДсQueue::isEmpty](ds-queue.isempty.md) — Перевіряє, чи колекція порожня.
--   [ДсQueue::jsonSerialize](ds-queue.jsonserialize.md) — Повертає колекцію в JSON-представництві
--   [ДсQueue::peek](ds-queue.peek.md) — Повертає значення із початку черги
--   [ДсQueue::pop](ds-queue.pop.md) — Видаляє та повертає значення з початку черги
--   [ДсQueue::push](ds-queue.push.md) - Додає значення в чергу
--   [ДсQueue::toArray](ds-queue.toarray.md) — Перетворює колекцію на масив (array)
+-   [Ds\\Queue::allocate](ds-queue.allocate.md)— Виділяє пам'ять під зазначену місткість
+-   [Ds\\Queue::capacity](ds-queue.capacity.md)— Повертає поточну місткість
+-   [Ds\\Queue::clear](ds-queue.clear.md) \- Видаляє всі значення
+-   [Ds\\Queue::\_\_construct](ds-queue.construct.md) \- Створює новий екземпляр
+-   [Ds\\Queue::copy](ds-queue.copy.md)— Повертає поверхневу копію черги
+-   [Ds\\Queue::count](ds-queue.count.md)— Повертає кількість елементів черги
+-   [Ds\\Queue::isEmpty](ds-queue.isempty.md)— Перевіряє, чи колекція порожня.
+-   [Ds\\Queue::jsonSerialize](ds-queue.jsonserialize.md)— Повертає колекцію в JSON-представництві
+-   [Ds\\Queue::peek](ds-queue.peek.md)— Повертає значення з початку черги
+-   [Ds\\Queue::pop](ds-queue.pop.md)— Видаляє та повертає значення з початку черги
+-   [Ds\\Queue::push](ds-queue.push.md)— Додає значення у чергу
+-   [Ds\\Queue::toArray](ds-queue.toarray.md)— Перетворює колекцію на масив (array)

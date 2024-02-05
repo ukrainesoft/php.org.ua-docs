@@ -1,16 +1,17 @@
 ---
 navigation:
-  - commonmark-interfaces-ivisitor.enter.md: '« CommonMarkInterfacesIVisitor::enter'
-  - class.commonmark-interfaces-ivisitable.md: CommonMarkInterfacesIVisitable »
+  - commonmark-interfaces-ivisitor.enter.md: '« CommonMark\\Interfaces\\IVisitor::enter'
+  - class.commonmark-interfaces-ivisitable.md: CommonMark\\Interfaces\\IVisitable »
   - index.md: PHP Manual
-  - class.commonmark-interfaces-ivisitor.md: CommonMarkInterfacesIVisitor
-title: 'CommonMarkInterfacesIVisitor::leave'
+  - class.commonmark-interfaces-ivisitor.md: CommonMark\\Interfaces\\IVisitor
+title: 'CommonMark\\Interfaces\\IVisitor::leave'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkInterfacesIVisitor::leave
+# CommonMark\\Interfaces\\IVisitor::leave
 
 (cmark >= 1.0.0)
 
-CommonMarkInterfacesIVisitor::leave — Відвідування
+CommonMark\\Interfaces\\IVisitor::leave — Відвідування
 
 ### Опис
 
@@ -22,20 +23,20 @@ abstract public CommonMark\Interfaces\IVisitor::leave(IVisitable $visitable): in
 
 `visitable`
 
-Поточний покиданий [CommonMarkInterfacesIVisitable](class.commonmark-interfaces-ivisitable.md)
+Поточний покиданий [CommonMark\\Interfaces\\IVisitable](class.commonmark-interfaces-ivisitable.md)
 
 ### Значення, що повертаються
 
-Повернення CommonMarkInterfacesIVisitor::Done призведе до виходу допоміжного ітератора.
+Повернення CommonMark\\Interfaces\\IVisitor::Done призведе до виходу допоміжного ітератора.
 
-Повернення CommonMarkInterfacesIVisitor::Enter скине допоміжний ітератор при вході в поточний **IVisitable**
+Повернення CommonMark\\Interfaces\\IVisitor::Enter скине допоміжний ітератор при вході в поточний **IVisitable**
 
-Повернення CommonMarkInterfacesIVisitor::Leave скине допоміжний ітератор при виході з поточного **IVisitable**
+Повернення CommonMark\\Interfaces\\IVisitor::Leave скине допоміжний ітератор при виході з поточного **IVisitable**
 
-Повернення **IVisitable** скине допоміжний ітератор при виході з цього **IVisitable**
+Возврат**IVisitable** скине допоміжний ітератор при виході з цього **IVisitable**
 
 Якщо нічого не повертається, допоміжний ітератор продовжить роботу.
 
 ### Дивіться також
 
--   [CommonMarkInterfacesIVisitable::accept](commonmark-interfaces-ivisitable.accept.md)
+-   [CommonMark\\Interfaces\\IVisitable::accept](commonmark-interfaces-ivisitable.accept.md)

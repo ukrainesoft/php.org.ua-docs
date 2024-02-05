@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-define-by-name.md: « ocidefineбname
-  - function.oci-execute.md: ociexecute »
+  - function.oci-define-by-name.md: « oci\_define\_by\_name
+  - function.oci-execute.md: oci\_execute »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocierror
+  - ref.oci8.md: OCI8 Функції
+title: oci\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocierror
+# oci\_error
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocierror — Повертає останню помилку
+oci\_error — Повертає останню помилку
 
 ### Опис
 
@@ -26,24 +27,24 @@ oci_error(?resource $connection_or_statement = null): array|false
 
 `connection_or_statement`
 
-Для більшості помилок параметром `connection_or_statement` є відповідний ідентифікатор з'єднання або виразу. Для помилок під час виконання функцій [ociconnect()](function.oci-connect.md) [ocinewconnect()](function.oci-new-connect.md) або [ocipconnect()](function.oci-pconnect.md) слід передавати **`null`**
+Для большинства ошибок параметром`connection_or_statement` є відповідний ідентифікатор з'єднання або виразу. Для помилок під час виконання функцій [oci\_connect()](function.oci-connect.md) [oci\_new\_connect()](function.oci-new-connect.md) або [oci\_pconnect()](function.oci-pconnect.md) слід передавати **`null`**
 
 ### Значення, що повертаються
 
-Якщо помилок не знайдено, то **ocierror()** повертає **`false`**. В іншому випадку, **ocierror()** повертає інформацію про помилку як асоціативного масиву.
+Якщо помилок не знайдено, то **oci\_error()** повертає **`false`**. В іншому випадку, **oci\_error()** повертає інформацію про помилку як асоціативного масиву.
 
-**Опис масиву виводу **ocierror()****
+**Опис масиву виводу **oci\_error()****
 
-| Ключ Масива | Тип | Описание |
+| Ключ массива | Тип | Опис |
 | --- | --- | --- |
 | `code` | int | Номер помилки Oracle. |
 | `message` | string | Текст помилки Oracle. |
-| `offset` | int | Позиція помилки у запиті SQL. Якщо немає запиту, то дорівнює `0` |
+| `offset` | int | Позиція помилки у запиті SQL. Якщо немає запиту, то дорівнює |
 | `sqltext` | string | Текст запиту SQL. Якщо немає запиту, рядок порожній. |
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | `connection_or_statement` тепер допускає значення null. |
 

@@ -1,14 +1,17 @@
 ---
 navigation:
-  - class.parallel-channel.md: « parallelChannel
-  - parallel-channel.make.md: 'parallelChannel::make »'
+  - class.parallel-channel.md: « parallel\\Channel
+  - parallel-channel.make.md: 'parallel\\Channel::make »'
   - index.md: PHP Manual
-  - class.parallel-channel.md: parallelChannel
-title: 'parallelChannel::construct'
+  - class.parallel-channel.md: parallel\\Channel
+title: 'parallel\\Channel::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelChannel::construct
+# parallel\\Channel::\_\_construct
 
-parallelChannel::construct - Конструктор класу Channel
+(1.1.0)
+
+parallel\\Channel::\_\_construct - Конструктор класу Channel
 
 ### Опис
 

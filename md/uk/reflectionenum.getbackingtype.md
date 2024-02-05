@@ -1,21 +1,22 @@
 ---
 navigation:
-  - reflectionenum.construct.md: '« ReflectionEnum::construct'
+  - reflectionenum.construct.md: '« ReflectionEnum::\_\_construct'
   - reflectionenum.getcase.md: 'ReflectionEnum::getCase »'
   - index.md: PHP Manual
   - class.reflectionenum.md: ReflectionEnum
 title: 'ReflectionEnum::getBackingType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionEnum::getBackingType
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionEnum::getBackingType — Отримує тип переліку, якщо є
 
 ### Опис
 
 ```methodsynopsis
-public ReflectionEnum::getBackingType(): ?ReflectionType
+public ReflectionEnum::getBackingType(): ?ReflectionNamedType
 ```
 
 Якщо перелік типизований, цей метод поверне екземпляр [ReflectionType](class.reflectiontype.md) типу перерахування. Якщо це не типізований перелік, метод поверне `null`
@@ -26,11 +27,17 @@ public ReflectionEnum::getBackingType(): ?ReflectionType
 
 ### Значення, що повертаються
 
-Екземпляр [ReflectionType](class.reflectiontype.md) або `null`, якщо перелік не типизований.
+Екземпляр [ReflectionNamedType](class.reflectionnamedtype.md)или`null`, якщо перелік не типизований.
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип значення, що повертається тепер `?ReflectionNamedType`; раніше тип значення, що повертався `?ReflectionType` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionEnum::getBackingType()****
+**Пример #1 Пример использования**ReflectionEnum::getBackingType()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +57,7 @@ var_dump((string)$rBackingType);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(6) "string"
@@ -58,5 +65,5 @@ string(6) "string"
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.md)
--   [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) - Визначає, чи є перерахування типовим
+-   [Перерахування](language.enumerations.md)
+-   [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) \- Визначає, чи є перерахування типовим

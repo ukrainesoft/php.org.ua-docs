@@ -3,8 +3,9 @@ navigation:
   - function.gzseek.md: « gzseek
   - function.gzuncompress.md: gzuncompress »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gztell
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gztell
 
@@ -28,10 +29,10 @@ gztell(resource $stream): int|false
 
 ### Значення, що повертаються
 
-Поточна позиція або **`false`** у разі виникнення помилки.
+Поточна позиція або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [gzopen()](function.gzopen.md) - Відкрити gz-файл
--   [gzseek()](function.gzseek.md) - Перемістити вказівник на позицію в покажчику gz-файлу
--   [gzrewind()](function.gzrewind.md) - Перемістити позицію покажчик gz-файлу на початок
+-   [gzopen()](function.gzopen.md) \- Відкрити gz-файл
+-   [gzseek()](function.gzseek.md) \- Перемістити вказівник на позицію в покажчику gz-файлу
+-   [gzrewind()](function.gzrewind.md) \- Перемістити позицію покажчик gz-файлу на початок

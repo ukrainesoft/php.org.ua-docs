@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::createFromInterface'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeImmutable::createFromInterface
 
@@ -22,7 +23,7 @@ public static DateTimeImmutable::createFromInterface(DateTimeInterface $object):
 
 `object`
 
-Об'єкт, що реалізує інтерфейс [DateTimeInterface](class.datetimeinterface.md), який необхідно конвертувати на іммутабельну версію. Сам об'єкт не змінюється. Натомість повертається новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з тими самими значеннями дати, часу та часового поясу.
+Об'єкт, що реалізує інтерфейс [DateTimeInterface](class.datetimeinterface.md), який необхідно сконвертувати на іммутабельну версію. Сам об'єкт не змінюється. Натомість повертається новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з тими самими значеннями дати, часу та часового поясу.
 
 ### Значення, що повертаються
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauthprovider.md: OAuthProvider
 title: 'OAuthProvider::isRequestTokenEndpoint'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuthProvider::isRequestTokenEndpoint
 
@@ -20,7 +21,7 @@ public OAuthProvider::isRequestTokenEndpoint(bool $will_issue_request_token): vo
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,5 +35,5 @@ public OAuthProvider::isRequestTokenEndpoint(bool $will_issue_request_token): vo
 
 ### Дивіться також
 
--   [OAuthProvider::setRequestTokenPath()](oauthprovider.setrequesttokenpath.md) - Встановити шлях запиту токена
--   [OAuthProvider::reportProblem()](oauthprovider.reportproblem.md) - Повідомити про проблему
+-   [OAuthProvider::setRequestTokenPath()](oauthprovider.setrequesttokenpath.md) \- Встановити шлях запиту токена
+-   [OAuthProvider::reportProblem()](oauthprovider.reportproblem.md) \- Повідомити про проблему

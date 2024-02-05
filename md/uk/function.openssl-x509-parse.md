@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-x509-free.md: « opensslx509free
-  - function.openssl-x509-read.md: opensslx509read »
+  - function.openssl-x509-free.md: « openssl\_x509\_free
+  - function.openssl-x509-read.md: openssl\_x509\_read »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslx509parse
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_x509\_parse
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslx509parse
+# openssl\_x509\_parse
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-opensslx509parse — Розібрати сертифікат X509 та отримати масив з даними про нього
+openssl\_x509\_parse — Розібрати сертифікат X509 та отримати масив з даними про нього
 
 ### Опис
 
@@ -18,7 +19,7 @@ opensslx509parse — Розібрати сертифікат X509 та отри�
 openssl_x509_parse(OpenSSLCertificate|string $certificate, bool $short_names = true): array|false
 ```
 
-**opensslx509parse()** повертає інформацію сертифікату з ідентифікатором `certificate`, включаючи такі поля, як ім'я суб'єкта, ім'я видавця, призначення, дати початку та закінчення дії тощо.
+**openssl\_x509\_parse()** повертає інформацію сертифікату з ідентифікатором `certificate`включаючи такі поля, як ім'я суб'єкта, ім'я видавця, призначення, дати початку та закінчення дії і т.д.
 
 ### Список параметрів
 
@@ -36,6 +37,6 @@ openssl_x509_parse(OpenSSLCertificate|string $certificate, bool $short_names = t
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
+| 8.0.0 | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL X.509` |

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectiongenerator.md: ReflectionGenerator
 title: 'ReflectionGenerator::getExecutingLine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionGenerator::getExecutingLine
 
@@ -30,7 +31,7 @@ public ReflectionGenerator::getExecutingLine(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionGenerator::getExecutingLine()****
+**Пример #1 Пример использования**ReflectionGenerator::getExecutingLine()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ $reflectionGen = new ReflectionGenerator($gen);
 echo "Строка: {$reflectionGen->getExecutingLine()}";
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Строка: 7
@@ -58,5 +59,5 @@ echo "Строка: {$reflectionGen->getExecutingLine()}";
 
 ### Дивіться також
 
--   [ReflectionGenerator::getExecutingGenerator()](reflectiongenerator.getexecutinggenerator.md) - Отримати запущений об'єкт Generator
--   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.md) - Отримати ім'я файлу, з якого запущено генератор
+-   [ReflectionGenerator::getExecutingGenerator()](reflectiongenerator.getexecutinggenerator.md) \- Отримати запущений об'єкт Generator
+-   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.md) \- Отримати ім'я файлу, з якого запущено генератор

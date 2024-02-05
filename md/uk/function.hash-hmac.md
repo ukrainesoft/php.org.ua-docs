@@ -1,28 +1,29 @@
 ---
 navigation:
-  - function.hash-hmac-file.md: « hashhmacfile
-  - function.hash-init.md: hashinit »
+  - function.hash-hmac-file.md: « hash\_hmac\_file
+  - function.hash-init.md: hash\_init »
   - index.md: PHP Manual
-  - ref.hash.md: Функции Hash
-title: hashhmac
+  - ref.hash.md: Функції Hash
+title: hash\_hmac
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# hashhmac
+# hash\_hmac
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8, PECL hash> = 1.1)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL hash >= 1.1)
 
-hashhmac — Генерація хеш-коду на основі ключа, використовуючи метод HMAC
+hash\_hmac — Генерація хеш-коду на основі ключа, використовуючи метод HMAC
 
 ### Опис
 
 ```methodsynopsis
-hash_hmac(    string $algo,    string $data,    string $key,    bool $binary = false): string
+hash_hmac(    string $algo,    string $data,    string $key,    bool $binary = false): string
 ```
 
 ### Список параметрів
 
 `algo`
 
-Ім'я вибраного алгоритму хешування (наприклад, "md5", "sha256", "haval160,4" тощо) Дивіться [hashhmacalgos()](function.hash-hmac-algos.md) для отримання списку алгоритмів, що підтримуються.
+Ім'я вибраного алгоритму хешування (наприклад, "md5", "sha256", "haval160,4" тощо) Дивіться [hash\_hmac\_algos()](function.hash-hmac-algos.md) для отримання списку алгоритмів, що підтримуються.
 
 `data`
 
@@ -34,38 +35,43 @@ hash_hmac(    string $algo,    string $data,    string $key,    bool $binary = f
 
 `binary`
 
-Коли встановлено в **`true`**, виводить необроблені двійкові дані При **`false`** виводить дані у шістнадцятковому кодуванні в нижньому регістрі.
+Когда установлено в\*\*`true`\*\*, виводить необроблені двійкові дані При **`false`** виводить дані у шістнадцятковому кодуванні в нижньому регістрі.
 
 ### Значення, що повертаються
 
-Повертає рядок, що містить обчислений хеш-код у шістнадцятковому кодуванні в нижньому регістрі. Якщо `binary` заданий як **`true`**, то повертається хеш-код у вигляді бінарних даних.
+Повертає рядок, що містить обчислений хеш-код у шістнадцятковому кодуванні в нижньому регістрі. Якщо `binary`задан как\*\*`true`\*\*, то повертається хеш-код у вигляді бінарних даних.
+
+### Помилки
+
+Викидає виняток [ValueError](class.valueerror.md), якщо параметр `algo` невідомий чи не є криптографічною хеш-функцією.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функція [hash()](function.hash.md) тепер викидає виняток [ValueError](class.valueerror.md), якщо алгоритм `algo` невідомий; раніше натомість поверталося значення **`false`** |
-|  | Заборонено використання некриптографічних хеш-функцій (adler32, crc32, crc32b, fnv132, fnv1a32, fnv164, fnv1a64, joaat). |
+| 8.0.0 | Тепер викидає виняток [ValueError](class.valueerror.md), якщо алгоритм `algo` невідомий чи не є криптографічною хеш-функцією; раніше натомість поверталося значення **`false`** |
+| 7.2.0 | Заборонено використання некриптографічних хеш-функцій (adler32, crc32, crc32b, fnv132, fnv1a32, fnv164, fnv1a64, joaat). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **hashhmac()****
+**Пример #1 Пример использования**hash\_hmac()\*\*\*\*
 
 ```php
 <?php
-echo hash_hmac('ripemd160', 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.', 'secret');
+echo hash_hmac('sha256', 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.', 'secret');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-b95d4abec7c27ec87fb54da1621f9942948879e4
+bc83c8fabc807cabbbb087bf90c760888349b223b5ba0a35251f7b37b05bf9c9
 ```
 
 ### Дивіться також
 
--   [hash()](function.hash.md) - Генерує хеш-код (підпис повідомлення)
--   [hashhmacalgos()](function.hash-hmac-algos.md) - Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac
--   [hashinit()](function.hash-init.md) - Ініціалізація інкрементального контексту хешування
--   [hashhmacfile()](function.hash-hmac-file.md) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC та вміст отриманого файлу
+-   [hash()](function.hash.md) \- Генерує хеш-код (підпис повідомлення)
+-   [hash\_hmac\_algos()](function.hash-hmac-algos.md) \- Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hash\_hmac
+-   [hash\_init()](function.hash-init.md) \- Ініціалізація інкрементального контексту хешування
+-   [hash\_hmac\_file()](function.hash-hmac-file.md) \- Генерація хеш-коду на основі ключа, використовуючи метод HMAC та вміст отриманого файлу
+-   [hash\_equals()](function.hash-equals.md) \- Порівнює рядки без ризику атаки за часом

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-drop.md: « cubriddrop
-  - function.cubrid-error-code.md: cubriderrorcode »
+  - function.cubrid-drop.md: « cubrid\_drop
+  - function.cubrid-error-code.md: cubrid\_error\_code »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubriderrorcodefacility
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_error\_code\_facility
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubriderrorcodefacility
+# cubrid\_error\_code\_facility
 
 (PECL CUBRID >= 8.3.0)
 
-cubriderrorcodefacility — Отримати код рівня, на якому сталася помилка
+cubrid\_error\_code\_facility — Отримати код рівня, на якому сталася помилка
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubriderrorcodefacility — Отримати код рівня, на якому 
 cubrid_error_code_facility(): int
 ```
 
-Функція **cubriderrorcodefacility()** використовується виявлення, якому рівні сталася помилка. Зазвичай ви можете отримати код помилки, якщо якась функція повернула **`false`**
+Функция**cubrid\_error\_code\_facility()** використовується виявлення, якому рівні сталася помилка. Зазвичай ви можете отримати код помилки, якщо якась функція повернула **`false`**
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ cubrid_error_code_facility(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubriderrorcodefacility()****
+**Пример #1 Пример использования**cubrid\_error\_code\_facility()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ if (!$req) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Error facility: 1
@@ -57,5 +58,5 @@ Syntax error: unexpected 'unknown'
 
 ### Дивіться також
 
--   [cubriderrorcode()](function.cubrid-error-code.md) - Отримати код помилки
--   [cubriderrormsg()](function.cubrid-error-msg.md) - Повертає текст останньої помилки, що відбулася.
+-   [cubrid\_error\_code()](function.cubrid-error-code.md) \- Отримати код помилки
+-   [cubrid\_error\_msg()](function.cubrid-error-msg.md) \- Повертає текст останньої помилки, що відбулася.

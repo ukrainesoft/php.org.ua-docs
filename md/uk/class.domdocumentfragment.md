@@ -1,10 +1,11 @@
 ---
 navigation:
   - domdocument.xinclude.md: '« DOMDocument::xinclude'
-  - domdocumentfragment.appendxml.md: 'DOMDocumentFragment::appendXML »'
+  - domdocumentfragment.append.md: 'DOMDocumentFragment::append »'
   - index.md: PHP Manual
   - book.dom.md: DOM
 title: Клас DOMDocumentFragment
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас DOMDocumentFragment
 
@@ -14,21 +15,18 @@ title: Клас DOMDocumentFragment
 
 ```classsynopsis
 
-     
+    
+     class DOMDocumentFragment
     
 
     
-     
-      class DOMDocumentFragment
-     
+     extends
+      DOMNode
+    
 
-     
-      extends
-       DOMNode
-     
-
-     implements 
-       DOMParentNode {
+    
+     implements
+      DOMParentNode {
 
     /* Свойства */
     
@@ -66,6 +64,10 @@ public
       $parentNode;
 public
      readonly
+     ?DOMElement
+      $parentElement;
+public
+     readonly
      DOMNodeList
       $childNodes;
 public
@@ -88,6 +90,10 @@ public
      readonly
      ?DOMNamedNodeMap
       $attributes;
+public
+     readonly
+     bool
+      $isConnected;
 public
      readonly
      ?DOMDocument
@@ -116,23 +122,29 @@ public
     
    public __construct()
 
-    public appendXML(string $data): bool
+    public append(DOMNode|string ...$nodes): void
+public appendXML(string $data): bool
+public prepend(DOMNode|string ...$nodes): void
+public replaceChildren(DOMNode|string ...$nodes): void
 
 
     /* Наследуемые методы */
     public DOMNode::appendChild(DOMNode $node): DOMNode|false
-public DOMNode::C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
-public DOMNode::C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
+public DOMNode::C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
+public DOMNode::C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
 public DOMNode::cloneNode(bool $deep = false): DOMNode|false
+public DOMNode::contains(DOMNode|DOMNameSpaceNode|null $other): bool
 public DOMNode::getLineNo(): int
 public DOMNode::getNodePath(): ?string
+public DOMNode::getRootNode(array $options = null): DOMNode
 public DOMNode::hasAttributes(): bool
 public DOMNode::hasChildNodes(): bool
 public DOMNode::insertBefore(DOMNode $node, ?DOMNode $child = null): DOMNode|false
 public DOMNode::isDefaultNamespace(string $namespace): bool
+public DOMNode::isEqualNode(?DOMNode $otherNode): bool
 public DOMNode::isSameNode(DOMNode $otherNode): bool
 public DOMNode::isSupported(string $feature, string $version): bool
-public DOMNode::lookupNamespaceUri(string $prefix): string
+public DOMNode::lookupNamespaceURI(?string $prefix): ?string
 public DOMNode::lookupPrefix(string $namespace): ?string
 public DOMNode::normalize(): void
 public DOMNode::removeChild(DOMNode $child): DOMNode|false
@@ -147,22 +159,25 @@ childElementCount
 
 Кількість дочірніх елементів.
 
-першийЕlementChild
+firstElementChild
 
 Перший дочірній елемент або **`null`**
 
-останнійеlementChild
+lastElementChild
 
 Останній дочірній елемент або **`null`**
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Додані властивості першихелементівChild, LastElementChild і ChildElementCount. |
-|  | Клас **DOMDocumentFragment** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) |
+| 8.0.0 | Додані властивості першихелементівChild, LastElementChild і ChildElementCount. |
+| 8.0.0 | Класс**DOMDocumentFragment** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) |
 
 ## Зміст
 
--   [DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.md) — Додавання необроблених даних XML
--   [DOMDocumentFragment::construct](domdocumentfragment.construct.md) - Конструктор об'єкта DOMDocumentFragment
+-   [DOMDocumentFragment::append](domdocumentfragment.append.md)— Додає вузли після останнього дочірнього вузла
+-   [DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.md)— Додавання необроблених даних XML
+-   [DOMDocumentFragment::\_\_construct](domdocumentfragment.construct.md) \- Конструктор об'єкта DOMDocumentFragment
+-   [DOMDocumentFragment::prepend](domdocumentfragment.prepend.md) \- Додає вузли перед першим дочірнім вузлом
+-   [DOMDocumentFragment::replaceChildren](domdocumentfragment.replacechildren.md)— Замінює дочірні елементи фрагмента

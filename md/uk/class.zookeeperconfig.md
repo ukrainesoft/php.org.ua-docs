@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.zookeeper.md: ZooKeeper
 title: Клас ZookeeperConfig
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ZookeeperConfig
 
@@ -46,7 +47,7 @@ public
 
 ## Зміст
 
--   [ZookeeperConfig::add](zookeeperconfig.add.md) — Додає сервери до ансамблю
--   [ZookeeperConfig::get](zookeeperconfig.get.md) — Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
--   [ZookeeperConfig::remove](zookeeperconfig.remove.md) — Видаляє сервери з ансамблю
--   [ZookeeperConfig::set](zookeeperconfig.set.md) — Змінює склад ансамблю ZK та ролі його учасників
+-   [ZookeeperConfig::add](zookeeperconfig.add.md)— Додає сервери до ансамблю
+-   [ZookeeperConfig::get](zookeeperconfig.get.md)— Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
+-   [ZookeeperConfig::remove](zookeeperconfig.remove.md)— Видаляє сервери з ансамблю
+-   [ZookeeperConfig::set](zookeeperconfig.set.md)— Змінює склад ансамблю ZK та ролі його учасників

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-session.gettransactionstate.md: '« MongoDBDriverSession::getTransactionState'
-  - mongodb-driver-session.isintransaction.md: 'MongoDBDriverSession::isInTransaction »'
+  - mongodb-driver-session.gettransactionstate.md: '« MongoDB\\Driver\\Session::getTransactionState'
+  - mongodb-driver-session.isintransaction.md: 'MongoDB\\Driver\\Session::isInTransaction »'
   - index.md: PHP Manual
-  - class.mongodb-driver-session.md: MongoDBDriverSession
-title: 'MongoDBDriverSession::isDirty'
+  - class.mongodb-driver-session.md: MongoDB\\Driver\\Session
+title: 'MongoDB\\Driver\\Session::isDirty'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverSession::isDirty
+# MongoDB\\Driver\\Session::isDirty
 
 (mongodb >=1.13.0)
 
-MongoDBDriverSession::isDirty - Повертає, чи була сесія позначена як брудна
+MongoDB\\Driver\\Session::isDirty - Повертає, чи була сесія позначена як брудна
 
 ### Опис
 
@@ -30,4 +31,4 @@ final public MongoDB\Driver\Session::isDirty(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ui-quit.md: « UIquit
-  - class.ui-draw-text-font-weight.md: ОЙDrawTextFontWeight »
+  - function.ui-quit.md: « UI\\quit
+  - class.ui-draw-text-font-weight.md: UI\\Draw\\Text\\Font\\Weight »
   - index.md: PHP Manual
-  - ref.ui.md: Функции UI
-title: ОЙrun
+  - ref.ui.md: Функції UI
+title: UI\\run
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙrun
+# UI\\run
 
 (UI 2.0.0)
 
-ОЙrun — Увійти до циклу UI
+UI\\run — Увійти до циклу UI
 
 ### Опис
 
@@ -24,6 +25,6 @@ UI\run(int $flags = ?): void
 
 `flags`
 
-Вимушує UILoop повернути управління, а UIWait повернути керування після очікування
+Вимушує UI\\Loop повернути управління, а UI\\Wait повернути керування після очікування
 
 ### Значення, що повертаються

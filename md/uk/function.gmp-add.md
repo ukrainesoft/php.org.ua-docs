@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-abs.md: « gmpabs
-  - function.gmp-and.md: gmpand »
+  - function.gmp-abs.md: « gmp\_abs
+  - function.gmp-and.md: gmp\_and »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpadd
+title: gmp\_add
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpadd
+# gmp\_add
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpadd — Складання чисел
+gmp\_add — Складання чисел
 
 ### Опис
 
@@ -40,7 +41,7 @@ gmp_add(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpadd()****
+**Пример #1 Пример использования**gmp\_add()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ echo gmp_strval($sum) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 200000000000000

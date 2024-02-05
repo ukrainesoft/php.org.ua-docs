@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.snmp3-getnext.md: « snmpv3getnext
-  - function.snmp3-set.md: snmpv3set »
+  - function.snmp3-getnext.md: « snmp3\_getnext
+  - function.snmp3-set.md: snmp3\_set »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
-title: snmpv3realwalk
+title: snmp3\_real\_walk
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# snmpv3realwalk
+# snmp3\_real\_walk
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-snmpv3realwalk — Повертає всі об'єкти, включаючи їхній ідентифікатор у вказаному об'єкті
+snmp3\_real\_walk — Повертає всі об'єкти, включаючи їхній ідентифікатор у вказаному об'єкті
 
 ### Опис
 
 ```methodsynopsis
-snmp3_real_walk(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
+snmp3_real_walk(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
 ```
 
-Функція **snmpv3realwalk()** використовується для обходу об'єктів SNMP, починаючи з `object_id` і повертає як їх значення, а й ідентифікатори об'єктів.
+Функция**snmp3\_real\_walk()** використовується для обходу об'єктів SNMP, починаючи з `object_id` і повертає як їх значення, а й ідентифікатори об'єктів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ snmp3_real_walk(    string $hostname,    string $security_name,    string $secur
 
 `auth_protocol`
 
-Протокол аутентифікації (`"MD5"` `"SHA"` `"SHA256"` або `"SHA512"`
+Протокол аутентифікації (`"MD5"` `"SHA"` `"SHA256"`или`"SHA512"`
 
 `auth_passphrase`
 
@@ -64,17 +65,17 @@ snmp3_real_walk(    string $hostname,    string $security_name,    string $secur
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив ідентифікаторів об'єктів SNMP та їх значень у разі успішного виконання або **`false`** у разі виникнення помилки. У разі помилки виводить помилку рівня EWARNING.
+Повертає асоціативний масив ідентифікаторів об'єктів SNMP та їх значень у разі успішного виконання або **`false`** у разі виникнення помилки. У разі помилки виводить помилку рівня E\_WARNING.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
+| 8.1.0 | Параметр`auth_protocol`тепер приймає`"SHA256"`и`"SHA512"`якщо підтримується libnetsnmp. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmpv3realwalk()****
+**Пример #1 Пример использования**snmp3\_real\_walk()\*\*\*\*
 
 ```php
 <?php
@@ -96,4 +97,4 @@ array (
 
 ### Дивіться також
 
--   [snmpwalk()](function.snmpwalk.md) - Отримує всі об'єкти SNMP з агента
+-   [snmpwalk()](function.snmpwalk.md) \- Отримує всі об'єкти SNMP із агента

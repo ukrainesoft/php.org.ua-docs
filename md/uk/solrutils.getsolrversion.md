@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrutils.md: SolrUtils
 title: 'SolrUtils::getSolrVersion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrUtils::getSolrVersion
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrUtils::getSolrVersion — Повертає поточну версію модуля Solr
 

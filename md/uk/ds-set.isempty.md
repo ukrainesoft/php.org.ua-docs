@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.intersect.md: '« DsSet::intersect'
-  - ds-set.join.md: 'ДсSet::join »'
+  - ds-set.intersect.md: '« Ds\\Set::intersect'
+  - ds-set.join.md: 'Ds\\Set::join »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::isEmpty'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::isEmpty'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::isEmpty
+# Ds\\Set::isEmpty
 
 (PECL ds >= 1.0.0)
 
-ДсSet::isEmpty — Перевіряє, чи колекція порожня.
+Ds\\Set::isEmpty — Перевіряє, чи колекція порожня.
 
 ### Опис
 
@@ -26,11 +27,11 @@ public Ds\Set::isEmpty(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо колекція порожня, **`false`** в іншому випадку.
+Повертає **`true`**, если коллекция пуста,**`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::isEmpty()****
+**Пример #1 Пример использования**Ds\\Set::isEmpty()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($b->isEmpty());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)

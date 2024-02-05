@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.gnupg-verify.md: « gnupgverify
-  - intro.wkhtmltox.md: Введение »
+  - function.gnupg-verify.md: « gnupg\_verify
+  - intro.wkhtmltox.md: Вступ "
   - index.md: PHP Manual
   - refs.utilspec.nontext.md: Генерація нетекстових MIME-форматів
 title: wkhtmltox
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # wkhtmltox
 
--   [Введение](intro.wkhtmltox.md)
+-   [Вступ](intro.wkhtmltox.md)
 -   [Встановлення та налаштування](wkhtmltox.setup.md)
     -   [Вимоги](wkhtmltox.requirements.md)
     -   [Установка](wkhtmltox.installation.md)
     -   [Налаштування під час виконання](wkhtmltox.configuration.md)
--   [wkhtmltoxPDFConverter](class.wkhtmltox-pdf-converter.md) - Клас wkhtmltoxPDFConverter
-    -   [wkhtmltoxPDFConverter::add](wkhtmltox-pdf-converter.add.md) — Додавання об'єкта для перетворення
-    -   [wkhtmltoxPDFConverter::construct](wkhtmltox-pdf-converter.construct.md) — Створити новий PDF-конвертер
-    -   [wkhtmltoxPDFConverter::convert](wkhtmltox-pdf-converter.convert.md) — Виконати перетворення PDF
-    -   [wkhtmltoxPDFConverter::getVersion](wkhtmltox-pdf-converter.getversion.md) — Визначити версію конвертера
--   [wkhtmltoxPDFObject](class.wkhtmltox-pdf-object.md) - Клас wkhtmltoxPDFObject
-    -   [wkhtmltoxPDFObject::construct](wkhtmltox-pdf-object.construct.md) — Створити новий об'єкт PDF
--   [wkhtmltoxImageConverter](class.wkhtmltox-image-converter.md) - Клас wkhtmltoxImageConverter
-    -   [wkhtmltoxImageConverter::construct](wkhtmltox-image-converter.construct.md) — Створити новий конвертер зображень
-    -   [wkhtmltoxImageConverter::convert](wkhtmltox-image-converter.convert.md) — Виконати перетворення зображень
-    -   [wkhtmltoxImageConverter::getVersion](wkhtmltox-image-converter.getversion.md) — Визначити версію конвертера
+-   [wkhtmltox\\PDF\\Converter](class.wkhtmltox-pdf-converter.md) \- Клас wkhtmltox\\PDF\\Converter
+    -   [wkhtmltox\\PDF\\Converter::add](wkhtmltox-pdf-converter.add.md)— Додавання об'єкта для перетворення
+    -   [wkhtmltox\\PDF\\Converter::\_\_construct](wkhtmltox-pdf-converter.construct.md)— Створити новий PDF-конвертер
+    -   [wkhtmltox\\PDF\\Converter::convert](wkhtmltox-pdf-converter.convert.md)— Виконати перетворення PDF
+    -   [wkhtmltox\\PDF\\Converter::getVersion](wkhtmltox-pdf-converter.getversion.md)— Визначити версію конвертера
+-   [wkhtmltox\\PDF\\Object](class.wkhtmltox-pdf-object.md) \- Клас wkhtmltox\\PDF\\Object
+    -   [wkhtmltox\\PDF\\Object::\_\_construct](wkhtmltox-pdf-object.construct.md)— Створити новий об'єкт PDF
+-   [wkhtmltox\\Image\\Converter](class.wkhtmltox-image-converter.md) \- Клас wkhtmltox\\Image\\Converter
+    -   [wkhtmltox\\Image\\Converter::\_\_construct](wkhtmltox-image-converter.construct.md)— Створити новий конвертер зображень
+    -   [wkhtmltox\\Image\\Converter::convert](wkhtmltox-image-converter.convert.md)— Виконати перетворення зображень
+    -   [wkhtmltox\\Image\\Converter::getVersion](wkhtmltox-image-converter.getversion.md)— Визначити версію конвертера

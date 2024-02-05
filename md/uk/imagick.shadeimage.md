@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::shadeImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::shadeImage
 
@@ -44,7 +45,7 @@ public Imagick::shadeImage(bool $gray, float $azimuth, float $elevation): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::shadeImage()****
+**Пример #1 Пример использования**Imagick::shadeImage()\*\*\*\*
 
 ```php
 <?php

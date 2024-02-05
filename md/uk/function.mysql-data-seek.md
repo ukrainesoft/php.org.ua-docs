@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.mysql-create-db.md: « mysqlcreateдб
-  - function.mysql-db-name.md: mysqlдбname »
+  - function.mysql-create-db.md: « mysql\_create\_db
+  - function.mysql-db-name.md: mysql\_db\_name »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqldataseek
+title: mysql\_data\_seek
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqldataseek
+# mysql\_data\_seek
 
 (PHP 4, PHP 5)
 
-mysqldataseek — Переміщує внутрішній покажчик в результаті запиту
+mysql\_data\_seek — Переміщує внутрішній покажчик в результаті запиту
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlidataseek()](mysqli-result.data-seek.md)
+-   [mysqli\_data\_seek()](mysqli-result.data-seek.md)
 -   **`PDO::FETCH_ORI_ABS`**
 
 ### Опис
@@ -25,15 +26,15 @@ mysqldataseek — Переміщує внутрішній покажчик в р
 mysql_data_seek(resource $result, int $row_number): bool
 ```
 
-**mysqldataseek()** переміщує внутрішній покажчик результату запиту, з яким пов'язаний переданий дескриптор, до ряду із зазначеним номером. Наступний дзвінок до функції отримання даних MySQL, такий як [mysqlfetchassoc()](function.mysql-fetch-assoc.md), Поверне саме його.
+**mysql\_data\_seek()** переміщує внутрішній покажчик результату запиту, з яким пов'язаний переданий дескриптор, до ряду із зазначеним номером. Наступний дзвінок до функції отримання даних MySQL, такий як [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.md), Поверне саме його.
 
-Нумерація `row_number` починається з 0 . `row_number` має бути значенням у діапазоні від 0 до [mysqlnumrows()](function.mysql-num-rows.md) - 1. Однак, якщо результат порожній ([mysqlnumrows()](function.mysql-num-rows.md) == 0), то спроба зсуву покажчика до нульового ряду завершиться невдачею - буде викликана помилка рівня **`E_WARNING`** і **mysqldataseek()** поверне **`false`**
+Нумерация`row_number` починається з 0 . `row_number` має бути значенням у діапазоні від 0 до [mysql\_num\_rows()](function.mysql-num-rows.md) \- 1. Однако, если результат пуст ([mysql\_num\_rows()](function.mysql-num-rows.md) == 0), то спроба зсуву покажчика до нульового ряду завершиться невдачею - буде викликана помилка рівня **`E_WARNING`**и**mysql\_data\_seek()** поверне **`false`**
 
 ### Список параметрів
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
+оброблюваний [результат запиту](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.md)
 
 `row_number`
 
@@ -41,11 +42,11 @@ mysql_data_seek(resource $result, int $row_number): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqldataseek()****
+**Пример #1 Пример использования**mysql\_data\_seek()\*\*\*\*
 
 ```php
 <?php
@@ -82,15 +83,15 @@ mysql_free_result($result);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Функція **mysqldataseek()** може бути використана тільки з [mysqlquery()](function.mysql-query.md), але не з [mysqlunbufferedquery()](function.mysql-unbuffered-query.md)
+> Функция**mysql\_data\_seek()** може бути використана тільки з [mysql\_query()](function.mysql-query.md), але не з [mysql\_unbuffered\_query()](function.mysql-unbuffered-query.md)
 
 ### Дивіться також
 
--   [mysqlquery()](function.mysql-query.md) - Надсилає запит MySQL
--   [mysqlnumrows()](function.mysql-num-rows.md) - Повертає кількість рядів результату запиту
--   [mysqlfetchrow()](function.mysql-fetch-row.md) - Обробляє ряд результату запиту та повертає масив із числовими індексами
--   [mysqlfetchassoc()](function.mysql-fetch-assoc.md) - Повертає ряд результату запиту як асоціативний масив.
--   [mysqlfetcharray()](function.mysql-fetch-array.md) - Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
--   [mysqlfetchobject()](function.mysql-fetch-object.md) - обробляє ряд результату запиту та повертає об'єкт
+-   [mysql\_query()](function.mysql-query.md) \- Надсилає запит MySQL
+-   [mysql\_num\_rows()](function.mysql-num-rows.md) \- Повертає кількість рядів результату запиту
+-   [mysql\_fetch\_row()](function.mysql-fetch-row.md) \- Обробляє ряд результату запиту та повертає масив із числовими індексами
+-   [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.md) \- Повертає ряд результату запиту як асоціативний масив.
+-   [mysql\_fetch\_array()](function.mysql-fetch-array.md) \- Обробляє ряд результатів запиту, повертаючи асоціативний масив, чисельний масив або обидва
+-   [mysql\_fetch\_object()](function.mysql-fetch-object.md) \- обробляє ряд результату запиту та повертає об'єкт

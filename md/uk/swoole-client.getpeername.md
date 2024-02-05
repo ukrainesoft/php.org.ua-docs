@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-client.destruct.md: '« SwooleClient::destruct'
-  - swoole-client.getsockname.md: 'SwooleClient::getsockname »'
+  - swoole-client.destruct.md: '« Swoole\\Client::\_\_destruct'
+  - swoole-client.getsockname.md: 'Swoole\\Client::getsockname »'
   - index.md: PHP Manual
-  - class.swoole-client.md: SwooleClient
-title: 'SwooleClient::getpeername'
+  - class.swoole-client.md: Swoole\\Client
+title: 'Swoole\\Client::getpeername'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleClient::getpeername
+# Swoole\\Client::getpeername
 
 (PECL swoole >= 1.9.0)
 
-SwooleClient::getpeername — Отримує ім'я віддаленого сокету з'єднання
+Swoole\\Client::getpeername — Отримує ім'я віддаленого сокету з'єднання
 
 ### Опис
 

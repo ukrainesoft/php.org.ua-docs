@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-t3.md: « traderтз
-  - function.trader-tanh.md: tradertanh »
+  - function.trader-t3.md: « trader\_t3
+  - function.trader-tanh.md: trader\_tanh »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradertan
+  - ref.trader.md: Функції Trader
+title: trader\_tan
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradertan
+# trader\_tan
 
 (PECL trader >= 0.2.0)
 
-tradertan — тригонометричний тангенс.
+trader\_tan — тригонометричний тангенс.
 
 ### Опис
 

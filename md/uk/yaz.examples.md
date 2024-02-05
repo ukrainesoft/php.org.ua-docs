@@ -1,10 +1,11 @@
 ---
 navigation:
-  - yaz.constants.md: « Обумовлені константи
-  - ref.yaz.md: Функции YAZ »
+  - yaz.constants.md: « Зумовлені константи
+  - ref.yaz.md: Функції YAZ »
   - index.md: PHP Manual
   - book.yaz.md: YAZ
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

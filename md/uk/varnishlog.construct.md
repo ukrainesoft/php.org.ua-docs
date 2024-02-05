@@ -4,13 +4,14 @@ navigation:
   - varnishlog.getline.md: 'VarnishLog::getLine »'
   - index.md: PHP Manual
   - class.varnishlog.md: VarnishLog
-title: 'ВарнішЛог::construct'
+title: 'VarnishLog::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ВарнішЛог::construct
+# VarnishLog::\_\_construct
 
 (PECL varnish >= 0.6)
 
-ВарнішЛог::construct - Конструктор Varnishlog
+VarnishLog::\_\_construct - Конструктор Varnishlog
 
 ### Опис
 
@@ -24,6 +25,6 @@ public VarnishLog::__construct(array $args = ?)
 
 Аргументи конфігурації. Можливі ключі:
 
-VARNISHCONFIGIDENT - шлях ідентифікації екземпляра varnish
+VARNISH\_CONFIG\_IDENT - шлях ідентифікації екземпляра varnish
 
 ### Значення, що повертаються

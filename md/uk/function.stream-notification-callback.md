@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.stream-isatty.md: « streamisatty
-  - function.stream-register-wrapper.md: streamregisterwrapper »
+  - function.stream-isatty.md: « stream\_isatty
+  - function.stream-register-wrapper.md: stream\_register\_wrapper »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamnotificationcallback
+title: stream\_notification\_callback
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamnotificationcallback
+# stream\_notification\_callback
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-streamnotificationcallback - Callback-функція для параметра контексту `notification`
+stream\_notification\_callback — Callback-функция для параметра контекста`notification`
 
 ### Опис
 
 ```methodsynopsis
-stream_notification_callback(    int $notification_code,    int $severity,    string $message,    int $message_code,    int $bytes_transferred,    int $bytes_max): void
+stream_notification_callback(    int $notification_code,    int $severity,    ?string $message,    int $message_code,    int $bytes_transferred,    int $bytes_max): void
 ```
 
-Callback-функція типу [callable](language.types.callable.md), що використовується [параметром контекста notification](context.params.md#context.params.notification), що викликається під час події.
+Callback-функция типа[callable](language.types.callable.md), що використовується [параметром контексту notification](context.params.md#context.params.notification), що викликається під час події.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Це *не* справжня функція, лише прототип того, як має бути реалізована функція.
 
@@ -28,11 +29,11 @@ Callback-функція типу [callable](language.types.callable.md), що в
 
 `notification_code`
 
-Одна з констант оповіщення **`STREAM_NOTIFY_*`**
+Одна из констант оповещения\*\*`STREAM_NOTIFY_*`\*\*
 
 `severity`
 
-Одна з констант оповіщення **`STREAM_NOTIFY_SEVERITY_*`**
+Одна из констант оповещения\*\*`STREAM_NOTIFY_SEVERITY_*`\*\*
 
 `message`
 
@@ -46,11 +47,11 @@ Callback-функція типу [callable](language.types.callable.md), що в
 
 `bytes_transferred`
 
-Якщо доступно, то параметр `bytes_transferred` буде заповнено.
+Если доступно, то параметр`bytes_transferred`будет заполнен.
 
 `bytes_max`
 
-Якщо доступно, то параметр `bytes_max` буде заповнено.
+Если доступно, то параметр`bytes_max`будет заполнен.
 
 ### Значення, що повертаються
 
@@ -58,7 +59,7 @@ Callback-функція типу [callable](language.types.callable.md), що в
 
 ### Приклади
 
-**Приклад #1 Приклад використання **streamnotificationcallback()****
+**Пример #1 Пример использования**stream\_notification\_callback()\*\*\*\*
 
 ```php
 <?php
@@ -104,7 +105,7 @@ file_get_contents("http://php.net/contact", false, $ctx);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Подсоединились...

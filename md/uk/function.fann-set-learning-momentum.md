@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-input-scaling-params.md: « fannsetinputscalingparams
-  - function.fann-set-learning-rate.md: fannsetlearningrate »
+  - function.fann-set-input-scaling-params.md: « fann\_set\_input\_scaling\_params
+  - function.fann-set-learning-rate.md: fann\_set\_learning\_rate »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetlearningmomentum
+  - ref.fann.md: Функції Fann
+title: fann\_set\_learning\_momentum
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetlearningmomentum
+# fann\_set\_learning\_momentum
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetlearningmomentum - Встановлює імпульс навчання
+fann\_set\_learning\_momentum - Встановлює імпульс навчання
 
 ### Опис
 
@@ -20,7 +21,7 @@ fann_set_learning_momentum(resource $ann, float $learning_momentum): bool
 
 Встановлює імпульс навчання.
 
-Докладніша інформація доступна в [fanngetlearningmomentum()](function.fann-get-learning-momentum.md)
+Докладніша інформація доступна в [fann\_get\_learning\_momentum()](function.fann-get-learning-momentum.md)
 
 ### Список параметрів
 
@@ -38,5 +39,5 @@ fann_set_learning_momentum(resource $ann, float $learning_momentum): bool
 
 ### Дивіться також
 
--   [fanngetlearningmomentum()](function.fann-get-learning-momentum.md) - Повертає імпульс навчання
--   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.md) - встановлює алгоритм навчання
+-   [fann\_get\_learning\_momentum()](function.fann-get-learning-momentum.md) \- Повертає імпульс навчання
+-   [fann\_set\_training\_algorithm()](function.fann-set-training-algorithm.md) \- встановлює алгоритм навчання

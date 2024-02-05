@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::getName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionExtension::getName
 
@@ -30,7 +31,7 @@ public ReflectionExtension::getName(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionExtension::getName()****
+**Пример #1 Пример использования**ReflectionExtension::getName()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump($ext->getName());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(6) "mysqli"
@@ -47,4 +48,4 @@ string(6) "mysqli"
 
 ### Дивіться також
 
--   [ReflectionExtension::getClassNames()](reflectionextension.getclassnames.md) - Отримання імен класів
+-   [ReflectionExtension::getClassNames()](reflectionextension.getclassnames.md) \- Отримання імен класів

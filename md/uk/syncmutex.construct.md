@@ -4,13 +4,14 @@ navigation:
   - syncmutex.lock.md: 'SyncMutex::lock »'
   - index.md: PHP Manual
   - class.syncmutex.md: SyncMutex
-title: 'SyncMutex::construct'
+title: 'SyncMutex::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SyncMutex::construct
+# SyncMutex::\_\_construct
 
 (PECL sync >= 1.0.0)
 
-SyncMutex::construct — Створення нового об'єкту SyncMutex
+SyncMutex::\_\_construct — Створення нового об'єкту SyncMutex
 
 ### Опис
 
@@ -26,7 +27,7 @@ public SyncMutex::__construct(string $name = ?)
 
 Ім'я мьютексу, якщо це названий об'єкт мьютексу.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо ім'я вже існує, воно має бути доступним для відкриття поточним користувачем, від імені якого запущено процес, інакше буде викинуто виняток із безглуздим повідомленням про помилку.
 
@@ -40,7 +41,7 @@ public SyncMutex::__construct(string $name = ?)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncMutex::construct()** для створення іменованого м'ютексу з часом очікування**
+**Пример #1 Пример использования**SyncMutex::\_\_construct()**для создания именованного мьютекса со временем ожидания**
 
 ```php
 <?php
@@ -59,7 +60,7 @@ $mutex->unlock();
 ?>
 ```
 
-**Приклад #2 Приклад використання **SyncMutex::construct()** для створення безіменного м'ютексу**
+**Пример #2 Пример использования**SyncMutex::\_\_construct()\*\* для створення безіменного м'ютексу\*\*
 
 ```php
 <?php
@@ -75,5 +76,5 @@ $mutex->unlock();
 
 ### Дивіться також
 
--   [SyncMutex::lock()](syncmutex.lock.md) - Чекає на ексклюзивне блокування
--   [SyncMutex::unlock()](syncmutex.unlock.md) - Розблокує м'ютекс
+-   [SyncMutex::lock()](syncmutex.lock.md) \- Чекає на ексклюзивне блокування
+-   [SyncMutex::unlock()](syncmutex.unlock.md) \- Розблокує м'ютекс

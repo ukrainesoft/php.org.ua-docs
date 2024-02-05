@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-atomic.add.md: '« SwooleAtomic::add'
-  - swoole-atomic.construct.md: 'SwooleAtomic::construct »'
+  - swoole-atomic.add.md: '« Swoole\\Atomic::add'
+  - swoole-atomic.construct.md: 'Swoole\\Atomic::\_\_construct »'
   - index.md: PHP Manual
-  - class.swoole-atomic.md: SwooleAtomic
-title: 'SwooleAtomic::cmpset'
+  - class.swoole-atomic.md: Swoole\\Atomic
+title: 'Swoole\\Atomic::cmpset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleAtomic::cmpset
+# Swoole\\Atomic::cmpset
 
 (PECL swoole >= 1.9.0)
 
-SwooleAtomic::cmpset — Порівнює та встановлює значення атомарного об'єкта
+Swoole\\Atomic::cmpset — Порівнює та встановлює значення атомарного об'єкта
 
 ### Опис
 
@@ -26,7 +27,7 @@ public Swoole\Atomic::cmpset(int $cmp_value, int $new_value): int
 
 `new_value`
 
-Значення для атомарного об'єкта, якщо значення cmpvalue збігається із поточним значенням атомарного об'єкта.
+Значення для атомарного об'єкта, якщо значення cmp\_value збігається із поточним значенням атомарного об'єкта.
 
 ### Значення, що повертаються
 

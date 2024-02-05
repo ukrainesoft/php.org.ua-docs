@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-atomic.get.md: '« SwooleAtomic::get'
-  - swoole-atomic.sub.md: 'SwooleAtomic::sub »'
+  - swoole-atomic.get.md: '« Swoole\\Atomic::get'
+  - swoole-atomic.sub.md: 'Swoole\\Atomic::sub »'
   - index.md: PHP Manual
-  - class.swoole-atomic.md: SwooleAtomic
-title: 'SwooleAtomic::set'
+  - class.swoole-atomic.md: Swoole\\Atomic
+title: 'Swoole\\Atomic::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleAtomic::set
+# Swoole\\Atomic::set
 
 (PECL swoole >= 1.9.0)
 
-SwooleAtomic::set — Встановлює нове значення для атомарного об'єкта
+Swoole\\Atomic::set — Встановлює нове значення для атомарного об'єкта
 
 ### Опис
 
@@ -22,7 +23,7 @@ public Swoole\Atomic::set(int $value): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

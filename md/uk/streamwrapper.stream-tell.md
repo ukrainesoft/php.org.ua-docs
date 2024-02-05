@@ -1,16 +1,17 @@
 ---
 navigation:
-  - streamwrapper.stream-stat.md: '« streamWrapper::streamstat'
-  - streamwrapper.stream-truncate.md: 'streamWrapper::streamtruncate »'
+  - streamwrapper.stream-stat.md: '« streamWrapper::stream\_stat'
+  - streamwrapper.stream-truncate.md: 'streamWrapper::stream\_truncate »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
-title: 'streamWrapper::streamtell'
+title: 'streamWrapper::stream\_tell'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamWrapper::streamtell
+# streamWrapper::stream\_tell
 
-(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::streamtell — Визначення поточної позиції потоку
+streamWrapper::stream\_tell — Визначення поточної позиції потоку
 
 ### Опис
 
@@ -30,4 +31,4 @@ public streamWrapper::stream_tell(): int
 
 ### Дивіться також
 
--   **streamWrapper::streamtell()**
+-   **streamWrapper::stream\_tell()**

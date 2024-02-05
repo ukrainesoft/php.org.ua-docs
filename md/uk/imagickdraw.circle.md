@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::circle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::circle
 
@@ -15,12 +16,12 @@ ImagickDraw::circle — Малює коло
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::circle(    float $ox,    float $oy,    float $px,    float $py): bool
+public ImagickDraw::circle(    float $ox,    float $oy,    float $px,    float $py): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Малює коло на зображенні.
 
@@ -48,7 +49,7 @@ public ImagickDraw::circle(    float $ox,    float $oy,    float $px,    float $
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::circle()****
+**Пример #1 Пример использования**ImagickDraw::circle()\*\*\*\*
 
 ```php
 <?php

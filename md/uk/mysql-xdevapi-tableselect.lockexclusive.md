@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-tableselect.limit.md: '« TableSelect::limit'
   - mysql-xdevapi-tableselect.lockshared.md: 'TableSelect::lockShared »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysql\_xdevapi\\TableSelect
 title: 'TableSelect::lockExclusive'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableSelect::lockExclusive
 
@@ -39,7 +40,7 @@ public mysql_xdevapi\TableSelect::lockExclusive(int $lock_waiting_option = ?): m
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::lockExclusive()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::lockExclusive()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ print_r($row);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

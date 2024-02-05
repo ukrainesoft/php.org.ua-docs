@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-redis-server.md: « SwooleRedisServer
-  - swoole-redis-server.sethandler.md: 'SwooleRedisServer::setHandler »'
+  - class.swoole-redis-server.md: « Swoole\\Redis\\Server
+  - swoole-redis-server.sethandler.md: 'Swoole\\Redis\\Server::setHandler »'
   - index.md: PHP Manual
-  - class.swoole-redis-server.md: SwooleRedisServer
-title: 'SwooleRedisServer::format'
+  - class.swoole-redis-server.md: Swoole\\Redis\\Server
+title: 'Swoole\\Redis\\Server::format'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleRedisServer::format
+# Swoole\\Redis\\Server::format
 
 (PECL swoole >= 1.9.0)
 
-SwooleRedisServer::format — Опис
+Swoole\\Redis\\Server::format — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public static Swoole\Redis\Server::format(string $type, string $value = ?): Retu
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

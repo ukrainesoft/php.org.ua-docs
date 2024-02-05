@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::setSecurityPrefs'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XSLTProcessor::setSecurityPrefs
 
@@ -24,7 +25,7 @@ public XSLTProcessor::setSecurityPrefs(int $preferences): int
 
 `preferences`
 
-Нові параметри безпеки. Бітова маска з: **`XSL_SECPREF_READ_FILE`** **`XSL_SECPREF_WRITE_FILE`** **`XSL_SECPREF_CREATE_DIRECTORY`** **`XSL_SECPREF_READ_NETWORK`** **`XSL_SECPREF_WRITE_NETWORK`**. Або, альтернативно, можна передати **`XSL_SECPREF_NONE`** або **`XSL_SECPREF_DEFAULT`**
+Нові параметри безпеки. Бітова маска з: **`XSL_SECPREF_READ_FILE`** **`XSL_SECPREF_WRITE_FILE`** **`XSL_SECPREF_CREATE_DIRECTORY`** **`XSL_SECPREF_READ_NETWORK`** **`XSL_SECPREF_WRITE_NETWORK`**. Або, альтернативно, можна передати **`XSL_SECPREF_NONE`**или**`XSL_SECPREF_DEFAULT`**
 
 ### Значення, що повертаються
 

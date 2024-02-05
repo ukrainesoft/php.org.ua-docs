@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine-client.sendfile.md: '« SwooleCoroutineClient::sendfile'
-  - swoole-coroutine-client.set.md: 'SwooleCoroutineClient::set »'
+  - swoole-coroutine-client.sendfile.md: '« Swoole\\Coroutine\\Client::sendfile'
+  - swoole-coroutine-client.set.md: 'Swoole\\Coroutine\\Client::set »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutineClient::sendto'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine\\Client::sendto'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutineClient::sendto
+# Swoole\\Coroutine\\Client::sendto
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutineClient::sendto — Опис
+Swoole\\Coroutine\\Client::sendto — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Coroutine\Client::sendto(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

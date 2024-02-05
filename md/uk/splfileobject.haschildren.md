@@ -5,20 +5,21 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::hasChildren'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::hasChildren
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileObject::hasChildren — Клас SplFileObject не має спадкоємців
 
 ### Опис
 
 ```methodsynopsis
-public SplFileObject::hasChildren(): bool
+public SplFileObject::hasChildren(): false
 ```
 
-Клас [SplFileObject](class.splfileobject.md) немає дочірніх елементів, тому метод завжди повертає **`false`**
+Класс[SplFileObject](class.splfileobject.md) немає дочірніх елементів, тому метод завжди повертає **`false`**
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ public SplFileObject::hasChildren(): bool
 
 ### Дивіться також
 
--   [RecursiveIterator::hasChildren()](recursiveiterator.haschildren.md) - Визначає, чи можна створити ітератор для поточного елемента.
+-   [RecursiveIterator::hasChildren()](recursiveiterator.haschildren.md) \- Визначає, чи можна створити ітератор для поточного елемента.

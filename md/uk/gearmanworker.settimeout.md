@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::setTimeout'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::setTimeout
 
@@ -15,7 +16,7 @@ GearmanWorker::setTimeout — Завдання часу очікування н�
 ### Опис
 
 ```methodsynopsis
-public GearmanWorker::setTimeout(int $timeout): bool
+public GearmanWorker::setTimeout(int $timeout): true
 ```
 
 Встановлює час очікування на активність на сокеті.
@@ -28,7 +29,7 @@ public GearmanWorker::setTimeout(int $timeout): bool
 
 ### Значення, що повертаються
 
-Завжди повертає **`true`**
+Функція завжди повертає **`true`**
 
 ### Приклади
 
@@ -90,4 +91,4 @@ function reverse_fn($job)
 
 ### Дивіться також
 
--   [GearmanWorker::timeout()](gearmanworker.timeout.md) - Отримання значення час очікування запитів на сокеті
+-   [GearmanWorker::timeout()](gearmanworker.timeout.md) \- Отримання значення час очікування запитів на сокеті

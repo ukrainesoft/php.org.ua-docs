@@ -1,23 +1,24 @@
 ---
 navigation:
-  - function.mysql-result.md: « mysqlresult
-  - function.mysql-set-charset.md: mysqlsetcharset »
+  - function.mysql-result.md: « mysql\_result
+  - function.mysql-set-charset.md: mysql\_set\_charset »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlselectдб
+title: mysql\_select\_db
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlselectдб
+# mysql\_select\_db
 
 (PHP 4, PHP 5)
 
-mysqlselectdb - Вибирає базу даних MySQL
+mysql\_select\_db - Вибирає базу даних MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqliselectdb()](mysqli.select-db.md)
--   [PDO::construct()](pdo.construct.md) (розділ про dsn)
+-   [mysqli\_select\_db()](mysqli.select-db.md)
+-   [PDO::\_\_construct()](pdo.construct.md)(розділ про dsn)
 
 ### Опис
 
@@ -25,7 +26,7 @@ mysqlselectdb - Вибирає базу даних MySQL
 mysql_select_db(string $database_name, resource $link_identifier = NULL): bool
 ```
 
-Вибирає для роботи вказану базу даних на сервері, на який посилається переданий дескриптор з'єднання. Кожен наступний виклик функції [mysqlquery()](function.mysql-query.md) буде працювати з обраною базою даних.
+Вибирає для роботи вказану базу даних на сервері, на який посилається переданий дескриптор з'єднання. Кожен наступний виклик функції [mysql\_query()](function.mysql-query.md) буде працювати з обраною базою даних.
 
 ### Список параметрів
 
@@ -35,15 +36,15 @@ mysql_select_db(string $database_name, resource $link_identifier = NULL): bool
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, буде використано останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlselectdb()****
+**Пример #1 Пример использования**mysql\_select\_db()\*\*\*\*
 
 ```php
 <?php
@@ -63,12 +64,12 @@ if (!$db_selected) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysqlselectdb()**
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysql\_selectdb()**
 
 ### Дивіться також
 
--   [mysqlconnect()](function.mysql-connect.md) - Відкриває з'єднання із сервером MySQL
--   [mysqlpconnect()](function.mysql-pconnect.md) - Встановлює постійне з'єднання із сервером MySQL
--   [mysqlquery()](function.mysql-query.md) - Надсилає запит MySQL
+-   [mysql\_connect()](function.mysql-connect.md) \- Відкриває з'єднання із сервером MySQL
+-   [mysql\_pconnect()](function.mysql-pconnect.md) \- Встановлює постійне з'єднання із сервером MySQL
+-   [mysql\_query()](function.mysql-query.md) \- Надсилає запит MySQL

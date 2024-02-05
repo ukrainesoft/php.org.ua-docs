@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.xmlreader.md: XMLReader
 title: 'XMLReader::readOuterXml'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLReader::readOuterXml
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 XMLReader::readOuterXml — Отримати XML із поточного вузла, включаючи сам вузол
 
@@ -36,6 +37,6 @@ public XMLReader::readOuterXml(): string
 
 ### Дивіться також
 
--   [XMLReader::readString()](xmlreader.readstring.md) - Прочитати вміст поточного вузла як рядок
--   [XMLReader::readInnerXml()](xmlreader.readinnerxml.md) - Вийняти XML із поточного вузла
--   [XMLReader::expand()](xmlreader.expand.md) - Повернути копію поточного вузла у вигляді об'єкта DOM
+-   [XMLReader::readString()](xmlreader.readstring.md) \- Прочитати вміст поточного вузла як рядок
+-   [XMLReader::readInnerXml()](xmlreader.readinnerxml.md) \- Вийняти XML із поточного вузла
+-   [XMLReader::expand()](xmlreader.expand.md) \- Повернути копію поточного вузла у вигляді об'єкта DOM

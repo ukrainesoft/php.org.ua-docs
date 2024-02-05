@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.fann-create-shortcut-array.md: « fanncreateshortcutarray
-  - function.fann-create-sparse-array.md: fanncreatesparsearray »
+  - function.fann-create-shortcut-array.md: « fann\_create\_shortcut\_array
+  - function.fann-create-sparse-array.md: fann\_create\_sparse\_array »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanncreateshortcut
+  - ref.fann.md: Функції Fann
+title: fann\_create\_shortcut
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanncreateshortcut
+# fann\_create\_shortcut
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanncreateshortcut — Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання.
+fann\_create\_shortcut — Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання.
 
 ### Опис
 
 ```methodsynopsis
-fann_create_shortcut(    int $num_layers,    int $num_neurons1,    int $num_neurons2,    int ...$num_neuronsN): resource
+fann_create_shortcut(    int $num_layers,    int $num_neurons1,    int $num_neurons2,    int ...$num_neuronsN): resource
 ```
 
 Створює стандартну нейронну мережу зворотного розповсюдження, яка повністю підключена і має з'єднання швидкого доступу.
@@ -42,10 +43,10 @@ fann_create_shortcut(    int $num_layers,    int $num_neurons1,    int $num_neur
 
 ### Значення, що повертаються
 
-Повертає ресурс нейронної мережі у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс нейронної мережі у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fanncreateshortcutarray()](function.fann-create-shortcut-array.md) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання
--   [fanncreatesparse()](function.fann-create-sparse.md) - створює стандартну нейронну мережу зворотного поширення, яка не повністю підключена
--   [fanncreatestandard()](function.fann-create-standard.md) - Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
+-   [fann\_create\_shortcut\_array()](function.fann-create-shortcut-array.md) \- Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання
+-   [fann\_create\_sparse()](function.fann-create-sparse.md) \- створює стандартну нейронну мережу зворотного поширення, яка не повністю підключена
+-   [fann\_create\_standard()](function.fann-create-standard.md) \- Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження

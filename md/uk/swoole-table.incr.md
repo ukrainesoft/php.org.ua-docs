@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-table.get.md: '« SwooleTable::get'
-  - swoole-table.key.md: 'SwooleTable::key »'
+  - swoole-table.get.md: '« Swoole\\Table::get'
+  - swoole-table.key.md: 'Swoole\\Table::key »'
   - index.md: PHP Manual
-  - class.swoole-table.md: SwooleTable
-title: 'SwooleTable::incr'
+  - class.swoole-table.md: Swoole\\Table
+title: 'Swoole\\Table::incr'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTable::incr
+# Swoole\\Table::incr
 
 (PECL swoole >= 1.9.0)
 
-SwooleTable::incr — Збільшує значення $rowkey та $columnkey
+Swoole\\Table::incr — Збільшує значення $row\_key та $column\_key
 
 ### Опис
 

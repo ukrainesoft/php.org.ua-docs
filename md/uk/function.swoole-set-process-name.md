@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.swoole-select.md: « swooleselect
-  - function.swoole-strerror.md: swoolestrerror »
+  - function.swoole-select.md: « swoole\_select
+  - function.swoole-strerror.md: swoole\_strerror »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swoolesetprocessname
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_set\_process\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swoolesetprocessname
+# swoole\_set\_process\_name
 
 (PECL swoole >= 1.9.0)
 
-swoolesetprocessname — Встановити ім'я процесу
+swoole\_set\_process\_name — Встановити ім'я процесу
 
 ### Опис
 

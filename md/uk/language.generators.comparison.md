@@ -4,7 +4,8 @@ navigation:
   - language.attributes.md: Атрибути »
   - index.md: PHP Manual
   - language.generators.md: Генератори
-title: 'Порівняння генераторів з об''єктами класу Iterator'
+title: 'Порівняння генераторів з об''єктами класу [Iterator](class.iterator.md)'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Порівняння генераторів з об'єктами класу [Iterator](class.iterator.md)
 

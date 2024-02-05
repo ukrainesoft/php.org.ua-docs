@@ -1,28 +1,29 @@
 ---
 navigation:
   - ref.pdo-oci.md: « Oracle (PDO)
-  - ref.pdo-odbc.md: ODBC и DB2 (PDO) »
+  - ref.pdo-odbc.md: ODBC та DB2 (PDO) »
   - index.md: PHP Manual
   - ref.pdo-oci.md: Oracle (PDO)
-title: PDOOCI DSN
+title: PDO\_OCI DSN
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# PDOOCI DSN
+# PDO\_OCI DSN
 
-(PECL PDOOCI> = 0.1.0)
+(PECL PDO\_OCI >= 0.1.0)
 
-PDOOCI DSN — З'єднання з базою даних Oracle
+PDO\_OCI DSN — З'єднання з базою даних Oracle
 
 ### Опис
 
-Рядок підключення (Data Source Name, DSN) PDOOCI складається з наступних елементів:
+Рядок підключення (Data Source Name, DSN) PDO\_OCI складається з наступних елементів:
 
 Префікс DSN
 
 **`oci:`**
 
-`dbname` (Oracle Instant Client)
+`dbname`(Oracle Instant Client)
 
-URI для Oracle Instant Client має вигляд `dbname=//hostname:port-number/database`. Якщо ви з'єднуєтеся з базою даних, вказаною в tnsnames.ora, ви можете використовувати тільки її ім'я: `dbname=database`
+URI для Oracle Instant Client имеет вид`dbname=//hostname:port-number/database`. Якщо ви з'єднуєтеся з базою даних, вказаною в tnsnames.ora, ви можете використовувати тільки її ім'я: `dbname=database`
 
 `charset`
 
@@ -30,7 +31,7 @@ URI для Oracle Instant Client має вигляд `dbname=//hostname:port-num
 
 ### Приклади
 
-**Приклад #1 Приклади використання PDOOCI DSN**
+**Приклад #1 Приклади використання PDO\_OCI DSN**
 
 Наступні приклади показують з'єднання з базою даних Oracle:
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.filter-input.md: « filterinput
-  - function.filter-var-array.md: filtervararray »
+  - function.filter-input.md: « filter\_input
+  - function.filter-var-array.md: filter\_var\_array »
   - index.md: PHP Manual
   - ref.filter.md: Функції фільтрації даних
-title: filterlist
+title: filter\_list
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# filterlist
+# filter\_list
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-filterlist — Повертає список усіх підтримуваних фільтрів
+filter\_list — Повертає список усіх підтримуваних фільтрів
 
 ### Опис
 
@@ -24,11 +25,11 @@ filter_list(): array
 
 ### Значення, що повертаються
 
-Повертає масив імен усіх фільтрів, що підтримуються, порожній масив, якщо таких фільтрів не існує. Ідентифікатори (ID) фільтрів не є ключами цього масиву, вони можуть бути отримані за допомогою функції [filterid()](function.filter-id.md) на ім'я фільтра.
+Повертає масив імен усіх фільтрів, що підтримуються, порожній масив, якщо таких фільтрів не існує. Ідентифікатори (ID) фільтрів не є ключами цього масиву, вони можуть бути отримані за допомогою функції [filter\_id()](function.filter-id.md)по имени фильтра.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **filterlist()****
+**Пример #1 Пример использования**filter\_list()\*\*\*\*
 
 ```php
 <?php
@@ -36,7 +37,7 @@ print_r(filter_list());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

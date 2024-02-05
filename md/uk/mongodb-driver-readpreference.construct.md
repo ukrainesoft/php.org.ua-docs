@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.bsonserialize.md: '« MongoDBDriverReadPreference::bsonSerialize'
-  - mongodb-driver-readpreference.gethedge.md: 'MongoDBDriverReadPreference::getHedge »'
+  - mongodb-driver-readpreference.bsonserialize.md: '« MongoDB\\Driver\\ReadPreference::bsonSerialize'
+  - mongodb-driver-readpreference.gethedge.md: 'MongoDB\\Driver\\ReadPreference::getHedge »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
-title: 'MongoDBDriverReadPreference::construct'
+  - class.mongodb-driver-readpreference.md: MongoDB\\Driver\\ReadPreference
+title: 'MongoDB\\Driver\\ReadPreference::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverReadPreference::construct
+# MongoDB\\Driver\\ReadPreference::\_\_construct
 
 (mongodb >=1.0.0)
 
-MongoDBDriverReadPreference::construct — Створити новий ReadPreference
+MongoDB\\Driver\\ReadPreference::\_\_construct — Створити новий ReadPreference
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverReadPreference::construct — Створити новий ReadPrefe
 final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array $tagSets = null, ?array $options = null)
 ```
 
-Створює новий [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md)що є незмінним об'єктом значення.
+Створює новий [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.md)що є незмінним об'єктом значення.
 
 ### Список параметрів
 
@@ -26,30 +27,30 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 
 **Режим переваги читання**
 
-| Значение | Описание |
+| Значение | Опис |
 | --- | --- |
-| **`MongoDB\Driver\ReadPreference::RP_PRIMARY`** ор `"primary"` |  |
+| \*\*`MongoDB\Driver\ReadPreference::RP_PRIMARY`\*\*or`"primary"` |  |
 | Усі операції зчитується з поточного первинного вузла реплік набору. Це перевага для читання за промовчанням для MongoDB. |  |
 
-**`MongoDB\Driver\ReadPreference::RP_PRIMARY_PREFERRED`** ор `"primaryPreferred"`
+\*\*`MongoDB\Driver\ReadPreference::RP_PRIMARY_PREFERRED`\*\*or`"primaryPreferred"`
 
 У більшості ситуацій операції зчитуються з первинного вузла, але якщо він недоступний, операції зчитуються з вторинних вузлів.
 
-**`MongoDB\Driver\ReadPreference::RP_SECONDARY`** або `"secondary"`
+\*\*`MongoDB\Driver\ReadPreference::RP_SECONDARY`\*\*или`"secondary"`
 
 Усі операції зчитуються із вторинних вузлів набору реплік.
 
-**`MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED`** або `"secondaryPreferred"`
+\*\*`MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED`\*\*или`"secondaryPreferred"`
 
-Більшість ситуацій операції зчитуються з вторинних членів, але якщо вторинні члени недоступні, операції зчитуються з первинного вузла.
+У більшості ситуацій операції зчитуються з вторинних членів, але якщо вторинні члени недоступні, операції зчитуються з первинного вузла.
 
-**`MongoDB\Driver\ReadPreference::RP_NEAREST`** ор `"nearest"`
+\*\*`MongoDB\Driver\ReadPreference::RP_NEAREST`\*\*or`"nearest"`
 
 Операції зчитуються з члена набору реплік із найменшою затримкою мережі, незалежно від типу члена.
 
 `tagSets`
 
-Набори тегів дозволяють настроювати операції читання для певних членів набору реплік. Цей параметр повинен бути масивом асоціативних масивів, кожен з яких містить нуль або кілька пар ключ-значення. При виборі сервера для операції читання драйвер намагається вибрати вузол, що має всі теги в наборі (тобто асоціативний масив пар ключ-значення). Якщо вибір не вдався, driver will attempt subsequent sets. Порожній набір тегів (`array()`) буде відповідати будь-якому вузлу і може використовуватись як резервний.
+Набори тегів дозволяють настроювати операції читання для певних членів набору реплік. Цей параметр має бути масивом асоціативних масивів, кожен з яких містить нуль або кілька пар ключ-значення. При виборі сервера для операції читання драйвер намагається вибрати вузол, що має всі теги в наборі (тобто асоціативний масив пар ключ-значення). Якщо вибір не вдався, driver will attempt subsequent sets. Порожній набір тегів (`array()`) буде відповідати будь-якому вузлу і може використовуватись як резервний.
 
 Теги не сумісні з режимом **`MongoDB\Driver\ReadPreference::RP_PRIMARY`**, і, зазвичай, застосовується лише за виборі вторинного члена набору для операції читання. Однак режим **`MongoDB\Driver\ReadPreference::RP_NEAREST`** у поєднанні з набором тегів вибирає відповідний член з найменшою затримкою мережі. Цей член може бути первинним чи вторинним.
 
@@ -57,12 +58,12 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 
 **options**
 
-| Опция | Тип | Описание |
+| Опция | Тип | Опис |
 | --- | --- | --- |
 | hedge | object | array |
-| Вказує, чи використовувати [» хеджовані читання](https://www.mongodb.com/docs/manual/core/sharded-cluster-query-router/#mongos-hedged-reads), що підтримуються MongoDB 4.4+ для закритих запитів. |  |  |
+| Вказує, чи використовувати [» хеджовані читання](https://www.mongodb.com/docs/manual/core/sharded-cluster-query-router/#mongos-hedged-reads), що підтримуються MongoDB 4.4+ для закритих запитів. |  |  |
 
-Хеджовані читання з сервера доступні для всіх неосновних переваг читання та включаються за умовчанням під час використання режиму `"nearest"`. Цей параметр дозволяє явно дозволити читання з хеджування на сервері для неосновних переваг читання, вказавши `['enabled' => true]`, або явно відключивши серверне читання з хеджуванням для переваг читання `"nearest"`, вказавши `['enabled' => false]`
+Хеджовані читання з сервера доступні для всіх неосновних переваг читання та включаються за умовчанням під час використання режиму `"nearest"`. Цей параметр дозволяє явно дозволити читання з хеджування на сервері для неосновних переваг читання, вказавши `['enabled' => true]`, або явно відключивши серверне читання з хеджуванням для переваг читання `"nearest"`, указав`['enabled' => false]`
 
 | | maxStalenessSeconds | int |
 
@@ -70,32 +71,32 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 
 Якщо вказано, максимальний staleness має бути 32-бітовим числом без знака, більшим чи рівним **`MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS`**
 
-За замовчуванням використовується **`MongoDB\Driver\ReadPreference::NO_MAX_STALENESS`**, що означає, що драйвер не враховуватиме відставання вторинних вузлів при виборі напрямку для операції читання.
+По умолчанию используется\*\*`MongoDB\Driver\ReadPreference::NO_MAX_STALENESS`\*\*, що означає, що драйвер не враховуватиме відставання вторинних вузлів при виборі напрямку для операції читання.
 
 Цей параметр несумісний із режимом **`MongoDB\Driver\ReadPreference::RP_PRIMARY`**. Вказівка ​​максимальної staleness також вимагає, щоб усі екземпляри MongoDB у розгортанні використовували MongoDB 3.4+. Виняток буде викинуто під час виконання, якщо екземпляри MongoDB у розгортанні мають старішу версію.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   При некоректному `mode` викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   Якщо `tagSets` надається як первинна перевага читання або має неправильний формат (тобто не масив з нуля або більше документів) викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   Якщо опція `"maxStalenessSeconds"` надається для первинної переваги читання або знаходиться поза діапазоном, викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При некоректному`mode` викидає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Якщо `tagSets`надається як первинна перевага читання або має неправильний формат (тобто не масив з нуля або більше документів) викидає[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Якщо опція `"maxStalenessSeconds"`надається для первинної переваги читання або знаходиться поза діапазоном, викидає[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL mongodb 1.8.0 | Доданий параметр `"hedge"` |
+| PECL mongodb 1.8.0 | Добавлен параметр`"hedge"` |
 | PECL mongodb 1.3.0 |  |
-| Аргумент `mode` тепер набуває рядкового значення, яке відповідає URI-опції `"readPreference"` для [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.md) |  |
+| Аргумент`mode` тепер набуває рядкового значення, яке відповідає URI-опції `"readPreference"`для[MongoDB\\Driver\\Manager::\_\_construct()](mongodb-driver-manager.construct.md) |  |
 
-| | PECL mongodb 1.2.0
+| | PECL mongodb 1.2.0 |
 
-Доданий третій аргумент `options`, який підтримує параметр `"maxStalenessSeconds"`
+Добавлен третий аргумент`options`, який підтримує параметр `"maxStalenessSeconds"`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverReadPreference::construct()****
+**Пример #1 Пример использования**MongoDB\\Driver\\ReadPreference::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -115,7 +116,7 @@ var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SEC
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(MongoDB\Driver\ReadPreference)#1 (1) {
@@ -153,4 +154,4 @@ object(MongoDB\Driver\ReadPreference)#1 (2) {
 
 ### Дивіться також
 
--   [» Руководство по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [» Посібник з переваги читання](https://www.mongodb.com/docs/manual/core/read-preference/)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-errno.md: « tradererrno
-  - function.trader-floor.md: traderfloor »
+  - function.trader-errno.md: « trader\_errno
+  - function.trader-floor.md: trader\_floor »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderexp
+  - ref.trader.md: Функції Trader
+title: trader\_exp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderexp
+# trader\_exp
 
 (PECL trader >= 0.2.0)
 
-traderexp — Арифметичний вектор зведення у ступінь
+trader\_exp — Арифметичний вектор зведення в ступінь
 
 ### Опис
 
@@ -18,7 +19,7 @@ traderexp — Арифметичний вектор зведення у ступ
 trader_exp(array $real): array
 ```
 
-Обчислює **`e`**, зведену в ступінь кожного значення `real`. Повертає масив із розрахованими даними.
+Обчислює **`e`**, зведення в ступінь кожного значення в `real`. Повертає масив із розрахованими даними.
 
 ### Список параметрів
 

@@ -1,32 +1,33 @@
 ---
 navigation:
-  - function.ldap-sasl-bind.md: « ldapsaslbind
-  - function.ldap-set-option.md: ldapsetoption »
+  - function.ldap-sasl-bind.md: « ldap\_sasl\_bind
+  - function.ldap-set-option.md: ldap\_set\_option »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapsearch
+title: ldap\_search
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapsearch
+# ldap\_search
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapsearch — Пошук по LDAP дереву
+ldap\_search — Пошук по LDAP дереву
 
 ### Опис
 
 ```methodsynopsis
-ldap_search(    LDAP\Connection|array $ldap,    array|string $base,    array|string $filter,    array $attributes = [],    int $attributes_only = 0,    int $sizelimit = -1,    int $timelimit = -1,    int $deref = LDAP_DEREF_NEVER,    ?array $controls = null): LDAP\Result|array|false
+ldap_search(    LDAP\Connection|array $ldap,    array|string $base,    array|string $filter,    array $attributes = [],    int $attributes_only = 0,    int $sizelimit = -1,    int $timelimit = -1,    int $deref = LDAP_DEREF_NEVER,    ?array $controls = null): LDAP\Result|array|false
 ```
 
-Виконує пошук для зазначеного фільтра у директорії з межами **`LDAP_SCOPE_SUBTREE`**. Еквівалентний пошук по всьому каталогу.
+Виконує пошук для зазначеного фільтра в директорії з межами **`LDAP_SCOPE_SUBTREE`**. Еквівалентний пошук по всьому каталогу.
 
-Можна також виконувати паралельний пошук. У цьому випадку першим аргументом має бути масив екземплярів [LDAPConnection](class.ldap-connection.md), а чи не один екземпляр. Якщо пошук не повинен використовувати один і той же базовий DN і фільтр, як аргументи можна передати масив базових DN і/або масив фільтрів. Кількість елементів у масивах має збігатися з кількістю екземплярів [LDAPConnection](class.ldap-connection.md)оскільки перші записи масивів використовуються для одного пошуку, другі - для іншого і так далі. При паралельному пошуку повертається масив екземплярів [LDAPResult](class.ldap-result.md), за винятком виникнення помилки, коли повертається значення **`false`**
+Можна також виконувати паралельний пошук. У цьому випадку першим аргументом має бути масив екземплярів [LDAP\\Connection](class.ldap-connection.md), а чи не один екземпляр. Якщо пошук не повинен використовувати один і той же базовий DN і фільтр, як аргументи можна передати масив базових DN і/або масив фільтрів. Кількість елементів у масивах має збігатися з кількістю екземплярів [LDAP\\Connection](class.ldap-connection.md)оскільки перші записи масивів використовуються для одного пошуку, другі — для іншого і так далі. При паралельному пошуку повертається масив екземплярів [LDAP\\Result](class.ldap-result.md), за исключением возникновения ошибки, когда возвращается значение\*\*`false`\*\*
 
 ### Список параметрів
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `base`
 
@@ -34,11 +35,11 @@ ldap_search(    LDAP\Connection|array $ldap,    array|string $base,    array|str
 
 `filter`
 
-Пошуковий фільтр може бути простим або розширеним, використовуючи булеві оператори у форматі, описаному в документації LDAP (див. [» Netscape Directory SDK](https://wiki.mozilla.org/Mozilla_LDAP_SDK_Programmer%27s_Guide/Searching_the_Directory_With_LDAP_C_SDK) або [» RFC4515](http://www.faqs.org/rfcs/rfc4515) для повної інформації про фільтри).
+Пошуковий фільтр може бути простим або розширеним, використовуючи логічні оператори у форматі, описаному в документації LDAP (див. [» Netscape Directory SDK](https://wiki.mozilla.org/Mozilla_LDAP_SDK_Programmer%27s_Guide/Searching_the_Directory_With_LDAP_C_SDK) або [» RFC4515](http://www.faqs.org/rfcs/rfc4515) для повної інформації про фільтри).
 
 `attributes`
 
-Масив необхідних атрибутів, наприклад, `array("mail", "sn", "cn")`. Зауважте, що "dn" завжди повертається, незалежно від того, які типи атрибутів потрібні.
+Масив необхідних атрибутів, наприклад, `array("mail", "sn", "cn")`. . Зауважте, що "dn" завжди повертається, незалежно від того, які типи атрибутів потрібні.
 
 Використання цього параметра набагато ефективніше, ніж стандартна дія (яка повинна повернути всі атрибути та присвоєні їм значення). Тому використання цього параметра вважається гарною практикою.
 
@@ -50,7 +51,7 @@ ldap_search(    LDAP\Connection|array $ldap,    array|string $base,    array|str
 
 Дозволяє обмежити кількість вибраних записів. Встановлення цього параметра дорівнює 0 означає, що обмеження відсутнє.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей параметр НЕ може перевизначати попереднє встановлення sizelimit на стороні сервера. Хоча його можна встановити нижче.
 > 
@@ -60,7 +61,7 @@ ldap_search(    LDAP\Connection|array $ldap,    array|string $base,    array|str
 
 Встановлює кількість секунд, що обмежує процес пошуку. Встановлення цього параметра дорівнює 0 означає, що обмеження відсутнє.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей параметр НЕ може перевизначати передустановку timelimit на стороні сервера. Хоча його можна встановити нижче.
 
@@ -68,27 +69,27 @@ ldap_search(    LDAP\Connection|array $ldap,    array|string $base,    array|str
 
 Визначає, як псевдоніми повинні бути оброблені під час пошуку. Може бути одним із наступних:
 
--   **`LDAP_DEREF_NEVER`** - (за умовчанням) псевдоніми ніколи не розіменовуються.
--   **`LDAP_DEREF_SEARCHING`** - псевдоніми мають бути розіменовані під час пошуку, але не при визначенні розташування базового об'єкта пошуку.
--   **`LDAP_DEREF_FINDING`** - псевдоніми мають бути розіменовані щодо місця розташування базового об'єкта, але з під час пошуку.
--   **`LDAP_DEREF_ALWAYS`** - псевдоніми мають розіменовуватися завжди.
+-   \*\*`LDAP_DEREF_NEVER`\*\*- (за умовчанням) псевдоніми ніколи не розіменовуються.
+-   \*\*`LDAP_DEREF_SEARCHING`\*\*- псевдоніми мають бути розіменовані під час пошуку, але не при визначенні розташування базового об'єкта пошуку.
+-   \*\*`LDAP_DEREF_FINDING`\*\*- псевдоніми мають бути розіменовані щодо місця розташування базового об'єкта, але з під час пошуку.
+-   \*\*`LDAP_DEREF_ALWAYS`\*\*- псевдоніми мають розіменовуватися завжди.
 
 `controls`
 
-Масив [управляющих констант LDAP](ldap.controls.md) для відправки у запиті.
+Массив[керуючих констант LDAP](ldap.controls.md)для отправки в запросе.
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAPResult](class.ldap-result.md), масив екземплярів [LDAPResult](class.ldap-result.md) або **`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAP\\Result](class.ldap-result.md), масив екземплярів [LDAP\\Result](class.ldap-result.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Повертає екземпляр [LDAPResult](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
-|  | Додано підтримку параметра `controls` |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.1.0 | Повертає екземпляр [LDAP\\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+| 7.3.0 | Додано підтримку параметра `controls` |
 
 ### Приклади
 

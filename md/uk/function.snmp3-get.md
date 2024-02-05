@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.snmp2-walk.md: « snmp2walk
-  - function.snmp3-getnext.md: snmpv3getnext »
+  - function.snmp2-walk.md: « snmp2\_walk
+  - function.snmp3-getnext.md: snmp3\_getnext »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
-title: snmpv3get
+title: snmp3\_get
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# snmpv3get
+# snmp3\_get
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-snmpv3get — Отримує об'єкт SNMP
+snmp3\_get — Отримує об'єкт SNMP
 
 ### Опис
 
 ```methodsynopsis
-snmp3_get(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
+snmp3_get(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
 ```
 
-Функція **snmpv3get()** використовується для читання значення об'єкта SNMP, вказаного в `object_id`
+Функция**snmp3\_get()** використовується для читання значення об'єкта SNMP, вказаного в `object_id`
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ snmp3_get(    string $hostname,    string $security_name,    string $security_le
 
 `auth_protocol`
 
-Протокол аутентифікації (`"MD5"` `"SHA"` `"SHA256"` або `"SHA512"`
+Протокол аутентифікації (`"MD5"` `"SHA"` `"SHA256"`или`"SHA512"`
 
 `auth_passphrase`
 
@@ -64,17 +65,17 @@ snmp3_get(    string $hostname,    string $security_name,    string $security_le
 
 ### Значення, що повертаються
 
-Повертає значення об'єкта SNMP у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає значення об'єкта SNMP у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
+| 8.1.0 | Параметр`auth_protocol`тепер приймає`"SHA256"`и`"SHA512"`якщо підтримується libnetsnmp. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmpv3get()****
+**Пример #1 Пример использования**snmp3\_get()\*\*\*\*
 
 ```php
 <?php
@@ -84,4 +85,4 @@ $nameOfSecondInterface = snmp3_get('localhost', 'james', 'authPriv', 'SHA', 'sec
 
 ### Дивіться також
 
--   [snmpv3set()](function.snmp3-set.md) - Встановлює значення об'єкта SNMP
+-   [snmp3\_set()](function.snmp3-set.md) \- Встановлює значення об'єкта SNMP

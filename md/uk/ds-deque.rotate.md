@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.reversed.md: '« DsDeque::reversed'
-  - ds-deque.set.md: 'ДсDeque::set »'
+  - ds-deque.reversed.md: '« Ds\\Deque::reversed'
+  - ds-deque.set.md: 'Ds\\Deque::set »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::rotate'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::rotate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::rotate
+# Ds\\Deque::rotate
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::rotate — Перемотує двосторонню чергу на задану кількість значень.
+Ds\\Deque::rotate — Перемотує двосторонню чергу на задану кількість значень.
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Ds\Deque::rotate(int $rotations): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::rotate()****
+**Пример #1 Пример использования**Ds\\Deque::rotate()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ print_r($deque);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 (

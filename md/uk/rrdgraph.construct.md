@@ -4,17 +4,18 @@ navigation:
   - rrdgraph.save.md: 'RRDGraph::save »'
   - index.md: PHP Manual
   - class.rrdgraph.md: RRDGraph
-title: 'RRDGraph::construct'
+title: 'RRDGraph::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# RRDGraph::construct
+# RRDGraph::\_\_construct
 
 (PECL rrd >= 0.9.0)
 
-RRDGraph::construct — Створює новий екземпляр [RRDGraph](class.rrdgraph.md)
+RRDGraph::\_\_construct — Створює новий екземпляр [RRDGraph](class.rrdgraph.md)
 
 ### Опис
 
-public **RRDGraph::construct**(string `$path`
+public**RRDGraph::\_\_construct**(string`$path`) .
 
 Створює новий екземпляр [RRDGraph](class.rrdgraph.md). Екземпляр відповідає за відображення результату запиту до бази даних RRD у вигляді зображення.
 

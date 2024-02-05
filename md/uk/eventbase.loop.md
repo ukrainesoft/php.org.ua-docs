@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbase.md: EventBase
 title: 'EventBase::loop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBase::loop
 
@@ -32,12 +33,12 @@ public
 
 `flags`
 
-Необов'язкові прапори. Одна з констант `EventBase::LOOP_*`. Дивіться [EventBase константи](class.eventbase.md#eventbase.constants)
+Необов'язкові прапори. Одна з констант `EventBase::LOOP_*`Смотрите[EventBase константи](class.eventbase.md#eventbase.constants)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventBase::dispatch()](eventbase.dispatch.md) - Відправляє очікувані події
+-   [EventBase::dispatch()](eventbase.dispatch.md) \- Відправляє очікувані події

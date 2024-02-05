@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.parle-rparser.md: « ParleRParser
-  - parle-rparser.build.md: 'ParleRParser::build »'
+  - class.parle-rparser.md: « Parle\\RParser
+  - parle-rparser.build.md: 'Parle\\RParser::build »'
   - index.md: PHP Manual
-  - class.parle-rparser.md: ParleRParser
-title: 'ParleRParser::advance'
+  - class.parle-rparser.md: Parle\\RParser
+title: 'Parle\\RParser::advance'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRParser::advance
+# Parle\\RParser::advance
 
 (PECL parle >= 0.7.0)
 
-ParleRParser::advance — Обробка наступного правила парсера
+Parle\\RParser::advance — Обробка наступного правила парсера
 
 ### Опис
 

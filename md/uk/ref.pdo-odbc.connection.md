@@ -1,20 +1,21 @@
 ---
 navigation:
-  - ref.pdo-odbc.md: « ODBC и DB2 (PDO)
+  - ref.pdo-odbc.md: « ODBC і DB2 (PDO)
   - ref.pdo-pgsql.md: PostgreSQL (PDO) »
   - index.md: PHP Manual
-  - ref.pdo-odbc.md: ODBC и DB2 (PDO)
-title: PDOODBC DSN
+  - ref.pdo-odbc.md: ODBC та DB2 (PDO)
+title: PDO\_ODBC DSN
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# PDOODBC DSN
+# PDO\_ODBC DSN
 
-(PECL PDOODBC >= 0.1.0)
+(PECL PDO\_ODBC >= 0.1.0)
 
-PDOODBC DSN — З'єднання з базами даних ODBC або DB2
+PDO\_ODBC DSN — З'єднання з базами даних ODBC або DB2
 
 ### Опис
 
-Ім'я джерела даних (Data Source Name, DSN) PDOODBC складається з наступних елементів:
+Ім'я джерела даних (Data Source Name, DSN) PDO\_ODBC складається з наступних елементів:
 
 Префікс DSN
 
@@ -22,7 +23,7 @@ PDOODBC DSN — З'єднання з базами даних ODBC або DB2
 
 DSN
 
-Ім'я бази даних зазначено в каталозі менеджера драйверів ODBC або в каталозі DB2. Також ви можете вказати повний рядок з'єднання ODBC, як описано тут [» http://www.connectionstrings.com/](http://www.connectionstrings.com/)
+Ім'я бази даних зазначено в каталозі менеджера драйверів ODBC або в каталозі DB2. Також ви можете вказати повний рядок з'єднання ODBC, як описано тут [» http://www.connectionstrings.com/](http://www.connectionstrings.com/)
 
 `UID`
 
@@ -34,25 +35,25 @@ DSN
 
 ### Приклади
 
-**Приклад #1 Приклад PDOODBC DSN (менеджер драйверів ODBC)**
+**Приклад #1 Приклад PDO\_ODBC DSN (менеджер драйверів ODBC)**
 
-У наступному прикладі показано використання PDOODBC DSN для з'єднання з базою даних, визначеною в каталозі ODBC як testdb:
+У наступному прикладі показано використання PDO\_ODBC DSN для з'єднання з базою даних, визначеною в каталозі ODBC як testdb:
 
 ```
 odbc:testdb
 ```
 
-**Приклад #2 Приклад використання PDOODBC DSN (некаталогізоване з'єднання IBM DB2)**
+**Приклад #2 Приклад використання PDO\_ODBC DSN (некаталогізоване з'єднання IBM DB2)**
 
-У наступному прикладі показано використання PDOODBC DSN для з'єднання з базою даних IBM DB2 на ім'я **`SAMPLE`**, використовуючи повний рядок ODBC DSN:
+У наступному прикладі показано використання PDO\_ODBC DSN для з'єднання з базою даних IBM DB2 на ім'я **`SAMPLE`**, використовуючи повний рядок ODBC DSN:
 
 ```
 odbc:DRIVER={IBM DB2 ODBC DRIVER};HOSTNAME=localhost;PORT=50000;DATABASE=SAMPLE;PROTOCOL=TCPIP;UID=db2inst1;PWD=ibmdb2;
 ```
 
-**Приклад #3 Приклад використання PDOODBC DSN (некаталогізоване з'єднання Microsoft Access)**
+**Приклад #3 Приклад використання PDO\_ODBC DSN (некаталогізоване з'єднання Microsoft Access)**
 
-У наступному прикладі показано використання PDOODBC DSN для з'єднання з базою Microsoft Access, що зберігається в **`C:\db.mdb`**, використовуючи повний рядок ODBC DSN:
+У наступному прикладі показано використання PDO\_ODBC DSN для з'єднання з базою Microsoft Access, що зберігається в **`C:\db.mdb`**, використовуючи повний рядок ODBC DSN:
 
 ```
 odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=C:\\db.mdb;Uid=Admin

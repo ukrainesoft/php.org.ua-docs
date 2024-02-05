@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::compareImageChannels'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::compareImageChannels
 
@@ -32,11 +33,11 @@ public Imagick::compareImageChannels(Imagick $image, int $channelType, int $metr
 
 `metricType`
 
-Одна з [констант типа METRIC](imagick.constants.md#imagick.constants.metric)
+Одна из[констант типу METRIC](imagick.constants.md#imagick.constants.metric)
 
 ### Значення, що повертаються
 
-Масив, що складається з `new_wand` і `distortion`
+Масив, що складається з `new_wand`и`distortion`
 
 ### Помилки
 

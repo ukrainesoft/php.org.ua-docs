@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-http-request.destruct.md: '« SwooleHttpRequest::destruct'
-  - class.swoole-http-response.md: SwooleHttpResponse »
+  - swoole-http-request.destruct.md: '« Swoole\\Http\\Request::\_\_destruct'
+  - class.swoole-http-response.md: Swoole\\Http\\Response »
   - index.md: PHP Manual
-  - class.swoole-http-request.md: SwooleHttpRequest
-title: 'SwooleHttpRequest::rawcontent'
+  - class.swoole-http-request.md: Swoole\\Http\\Request
+title: 'Swoole\\Http\\Request::rawcontent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpRequest::rawcontent
+# Swoole\\Http\\Request::rawcontent
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpRequest::rawcontent — Отримує необроблене тіло HTTP POST
+Swoole\\Http\\Request::rawcontent — Отримує необроблене тіло HTTP POST
 
 ### Опис
 
@@ -18,11 +19,11 @@ SwooleHttpRequest::rawcontent — Отримує необроблене тіло
 public Swoole\Http\Request::rawcontent(): string
 ```
 
-Метод використовується для даних POST, які не мають форми application/x-www-form-urlencoded
+Метод використовується для даних POST, які не мають форми \`application/x-www-form-urlencoded\`
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

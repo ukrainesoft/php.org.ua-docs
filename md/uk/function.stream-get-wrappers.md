@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-get-transports.md: « streamgettransports
-  - function.stream-is-local.md: streamісlocal »
+  - function.stream-get-transports.md: « stream\_get\_transports
+  - function.stream-is-local.md: stream\_is\_local »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamgetwrappers
+title: stream\_get\_wrappers
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamgetwrappers
+# stream\_get\_wrappers
 
 (PHP 5, PHP 7, PHP 8)
 
-streamgetwrappers — Отримати список зареєстрованих потоків
+stream\_get\_wrappers — Отримати список зареєстрованих потоків
 
 ### Опис
 
@@ -18,7 +19,7 @@ streamgetwrappers — Отримати список зареєстрованих
 stream_get_wrappers(): array
 ```
 
-Витягує список зареєстрованих потоків на запущеній системі.
+Витягує список зареєстрованих потоків, доступних на запущеній системі.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ stream_get_wrappers(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **streamgetwrappers()****
+**Пример #1 Пример использования**stream\_get\_wrappers()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ print_r(stream_get_wrappers());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -67,4 +68,4 @@ if (in_array('compress.bzip2', stream_get_wrappers())) {
 
 ### Дивіться також
 
--   [streamwrapperregister()](function.stream-wrapper-register.md) - реєструє обгортку URL, реалізовану у вигляді PHP-класу
+-   [stream\_wrapper\_register()](function.stream-wrapper-register.md) \- реєструє обгортку URL, реалізовану у вигляді PHP-класу

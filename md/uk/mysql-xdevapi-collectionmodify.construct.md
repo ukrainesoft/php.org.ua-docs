@@ -3,20 +3,21 @@ navigation:
   - mysql-xdevapi-collectionmodify.bind.md: '« CollectionModify::bind'
   - mysql-xdevapi-collectionmodify.execute.md: 'CollectionModify::execute »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
-title: 'CollectionModify::construct'
+  - class.mysql-xdevapi-collectionmodify.md: mysql\_xdevapi\\CollectionModify
+title: 'CollectionModify::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CollectionModify::construct
+# CollectionModify::\_\_construct
 
 (No version information available, might only be in Git)
 
-CollectionModify::construct - Конструктор класу CollectionModify
+CollectionModify::\_\_construct - Конструктор класу CollectionModify
 
 ### Опис
 
-private **mysqlxdevapiCollectionModify::construct**
+private**mysql\_xdevapi\\CollectionModify::\_\_construct**()
 
-Змінює (оновлює) колекцію та створюється методом Collection::modify().
+Змінює (оновлює) колекцію та створюється методом **mysql\_xdevapi\\Collection::modify()**
 
 ### Список параметрів
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiCollectionModify::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::construct()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\CollectionModify::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ print_r($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

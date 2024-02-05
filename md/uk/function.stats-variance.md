@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-stat-powersum.md: « statsstatpowersum
+  - function.stats-stat-powersum.md: « stats\_stat\_powersum
   - book.trader.md: Trader »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsvariance
+title: stats\_variance
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsvariance
+# stats\_variance
 
 (PECL stats >= 1.0.0)
 
-statsvariance - Повертає дисперсію
+stats\_variance - Повертає дисперсію
 
 ### Опис
 
@@ -32,4 +33,4 @@ stats_variance(array $a, bool $sample = false): float
 
 ### Значення, що повертаються
 
-Повертає дисперсію у разі успішного виконання; **`false`** у разі виникнення помилки.
+Повертає дисперсію у разі успішного виконання; \*\*`false`\*\*в случае возникновения ошибки.

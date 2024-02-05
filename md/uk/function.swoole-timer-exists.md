@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.swoole-timer-after.md: « swooletimerafter
-  - function.swoole-timer-tick.md: swooletimertick »
+  - function.swoole-timer-after.md: « swoole\_timer\_after
+  - function.swoole-timer-tick.md: swoole\_timer\_tick »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swooletimerexists
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_timer\_exists
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swooletimerexists
+# swoole\_timer\_exists
 
 (PECL swoole >= 1.9.0)
 
-swooletimerexists — Перевірити, чи callback-функція таймера
+swoole\_timer\_exists — Перевірити, чи callback-функція таймера
 
 ### Опис
 

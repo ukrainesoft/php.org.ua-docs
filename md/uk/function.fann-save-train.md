@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-run.md: « fannrun
-  - function.fann-save.md: fannsave »
+  - function.fann-run.md: « fann\_run
+  - function.fann-save.md: fann\_save »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsavetrain
+  - ref.fann.md: Функції Fann
+title: fann\_save\_train
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsavetrain
+# fann\_save\_train
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsavetrain — Зберігає структуру навчання у файл
+fann\_save\_train — Зберігає структуру навчання у файл
 
 ### Опис
 
@@ -18,7 +19,7 @@ fannsavetrain — Зберігає структуру навчання у фай
 fann_save_train(resource $data, string $file_name): bool
 ```
 
-Зберігає дані навчання у файл у форматі, вказаному в [fannreadtrainfromfile()](function.fann-read-train-from-file.md)
+Зберігає дані навчання у файл у форматі, вказаному в [fann\_read\_train\_from\_file()](function.fann-read-train-from-file.md)
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ fann_save_train(resource $data, string $file_name): bool
 
 ### Дивіться також
 
--   [fannreadtrainfromfile()](function.fann-read-train-from-file.md) - Читає файл, у якому зберігаються дані навчання
+-   [fann\_read\_train\_from\_file()](function.fann-read-train-from-file.md) \- Читає файл, у якому зберігаються дані навчання

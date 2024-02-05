@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.msg-queue-exists.md: « msgqueueexists
-  - function.msg-remove-queue.md: msgremovequeue »
+  - function.msg-queue-exists.md: « msg\_queue\_exists
+  - function.msg-remove-queue.md: msg\_remove\_queue »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
-title: msgreceive
+title: msg\_receive
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# msgreceive
+# msg\_receive
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-msgreceive — отримання повідомлення з черги повідомлень
+msg\_receive — отримання повідомлення з черги повідомлень
 
 ### Опис
 
 ```methodsynopsis
-msg_receive(    SysvMessageQueue $queue,    int $desired_message_type,    int &$received_message_type,    int $max_message_size,    mixed &$message,    bool $unserialize = true,    int $flags = 0,    int &$error_code = null): bool
+msg_receive(    SysvMessageQueue $queue,    int $desired_message_type,    int &$received_message_type,    int $max_message_size,    mixed &$message,    bool $unserialize = true,    int $flags = 0,    int &$error_code = null): bool
 ```
 
-**msgreceive()** отримує перше повідомлення з параметром, що задається `queue` черги повідомлень з типом, зазначеним у `desired_message_type`
+\*\*msg\_receive()\*\*получает первое сообщение из задаваемой параметром`queue` черги повідомлень з типом, зазначеним у `desired_message_type`
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ msg_receive(    SysvMessageQueue $queue,    int $desired_message_type,    int &$
 
 `desired_message_type`
 
-Якщо в `desired_message_type` вказано 0, повертається перше повідомлення із черги. Якщо `desired_message_type` більше 0, то повертається перше повідомлення із зазначеним типом. Якщо `desired_message_type` менше 0, то повертається перше повідомлення з типом, меншим або рівним по модулю вказаному в `desired_message_type`. Якщо немає повідомлень, які відповідають критеріям, ваш скрипт очікує їх появи у черзі. Ви можете змінити цю поведінку, вказавши **`MSG_IPC_NOWAIT`** у параметрі `flags`
+Якщо в `desired_message_type` вказано 0, повертається перше повідомлення із черги. Якщо `desired_message_type` більше 0, то повертається перше повідомлення із зазначеним типом. Якщо `desired_message_type` менше 0, то повертається перше повідомлення з типом, меншим або рівним по модулю вказаному в `desired_message_type`. Якщо немає повідомлень, які відповідають критеріям, ваш скрипт очікує їх появи у черзі. Ви можете змінити цю поведінку, вказавши \*\*`MSG_IPC_NOWAIT`\*\*в параметре`flags`
 
 `received_message_type`
 
@@ -40,13 +41,13 @@ msg_receive(    SysvMessageQueue $queue,    int $desired_message_type,    int &$
 
 `message`
 
-Отримане повідомлення зберігається в `message`якщо не було помилок при отриманні.
+Полученное сообщение сохраняется в`message`якщо не було помилок при отриманні.
 
 `unserialize`
 
-Якщо встановлено \*\*`true`\*\*повідомлення розглядається як серіалізоване з використанням того ж механізму, що і в модулі сесій. Повідомлення десеріалізується, а потім повертається до вашого скрипту. Це дозволяє легко отримувати масиви та складні об'єкти з інших PHP-скриптів, або, якщо ви використовуєте WDDX-серіалізатор, з будь-яких сумісних з WDDX джерел.
+Если установлено в\*\*`true`\*\*повідомлення розглядається як серіалізоване з використанням того ж механізму, що і в модулі сесій. Повідомлення десеріалізується, а потім повертається до вашого скрипту. Це дозволяє легко отримувати масиви та складні об'єкти з інших PHP-скриптів, або, якщо ви використовуєте WDDX-серіалізатор, з будь-яких сумісних з WDDX джерел.
 
-Якщо в `unserialize` вказано **`false`**, повідомлення повертається у вигляді бінарно-безпечного рядка
+Якщо в `unserialize`указано\*\*`false`\*\*, повідомлення повертається у вигляді бінарно-безпечного рядка
 
 `flags`
 
@@ -60,19 +61,19 @@ msg_receive(    SysvMessageQueue $queue,    int $desired_message_type,    int &$
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
-При успішному завершенні структура даних черги повідомлень оновлюється таким чином: `msg_lrpid` містить ідентифікатор процесу, що викликав, `msg_qnum` зменшується на 1 та `msg_rtime` встановлюється відповідно до поточного часу.
+При успішному завершенні структура даних черги повідомлень оновлюється таким чином: `msg_lrpid` містить ідентифікатор процесу, що викликав, `msg_qnum` зменшується на 1 та `msg_rtime`устанавливается соответственно текущему времени.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | Параметр`queue` тепер чекає екземпляр [SysvMessageQueue](class.sysvmessagequeue.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [msgremovequeue()](function.msg-remove-queue.md) - Видалення черги повідомлень
--   [msgsend()](function.msg-send.md) - Надсилання повідомлення в чергу повідомлень
--   [msgstatqueue()](function.msg-stat-queue.md) - Отримання інформації із структури даних черги повідомлень
--   [msgsetqueue()](function.msg-set-queue.md) - Встановлення інформації у структурі даних черги повідомлень
+-   [msg\_remove\_queue()](function.msg-remove-queue.md) \- Видалення черги повідомлень
+-   [msg\_send()](function.msg-send.md) \- Надсилання повідомлення в чергу повідомлень
+-   [msg\_stat\_queue()](function.msg-stat-queue.md) \- Отримання інформації із структури даних черги повідомлень
+-   [msg\_set\_queue()](function.msg-set-queue.md) \- Встановлення інформації у структурі даних черги повідомлень

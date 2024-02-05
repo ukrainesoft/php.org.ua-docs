@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isIterable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::isIterable
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
 ReflectionClass::isIterable — Перевірити, чи клас ітерується.
 
@@ -26,11 +27,11 @@ public ReflectionClass::isIterable(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Використання **ReflectionClass::isIterable()****
+**Пример #1 Использование**ReflectionClass::isIterable()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ foreach ($classes as $class) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Класс ArrayObject итерируемый? bool(true)
@@ -71,4 +72,4 @@ foreach ($classes as $class) {
 
 ### Дивіться також
 
--   [ReflectionClass::construct()](reflectionclass.construct.md) - Створює об'єкт класу ReflectionClass
+-   [ReflectionClass::\_\_construct()](reflectionclass.construct.md) \- Створює об'єкт класу ReflectionClass

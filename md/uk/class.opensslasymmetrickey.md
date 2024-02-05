@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.opensslcertificatesigningrequest.md: « OpenSSLCertificateSigningRequest
-  - book.password.md: Хеширование паролей »
+  - book.password.md: Хешування паролів »
   - index.md: PHP Manual
   - book.openssl.md: OpenSSL
 title: Клас OpenSSLAsymmetricKey
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас OpenSSLAsymmetricKey
 
@@ -16,16 +17,11 @@ title: Клас OpenSSLAsymmetricKey
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class OpenSSLAsymmetricKey
-     
+     final
+     class OpenSSLAsymmetricKey
      {
    }
 ```

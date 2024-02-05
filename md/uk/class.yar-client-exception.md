@@ -1,12 +1,13 @@
 ---
 navigation:
-  - yar-server-exception.gettype.md: '« YarServerException::getType'
-  - yar-client-exception.gettype.md: 'YarClientException::getType »'
+  - yar-server-exception.gettype.md: '« Yar\_Server\_Exception::getType'
+  - yar-client-exception.gettype.md: 'Yar\_Client\_Exception::getType »'
   - index.md: PHP Manual
   - book.yar.md: Yar
-title: Клас YarClientException
+title: Клас Yar\_Client\_Exception
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YarClientException
+# Клас Yar\_Client\_Exception
 
 (No version information available, might only be in Git)
 
@@ -64,4 +65,4 @@ line
 
 ## Зміст
 
--   [YarClientException::getType](yar-client-exception.gettype.md) — Отримати тип виключення
+-   [Yar\_Client\_Exception::getType](yar-client-exception.gettype.md)— Отримати тип виключення

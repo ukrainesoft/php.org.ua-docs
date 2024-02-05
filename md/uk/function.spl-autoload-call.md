@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.iterator-to-array.md: « iteratorтоarray
-  - function.spl-autoload-extensions.md: splautoloadextensions »
+  - function.iterator-to-array.md: « iterator\_to\_array
+  - function.spl-autoload-extensions.md: spl\_autoload\_extensions »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
-title: splautoloadcall
+title: spl\_autoload\_call
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# splautoloadcall
+# spl\_autoload\_call
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-splautoloadcall — Спроба завантажити клас усіма зареєстрованими функціями autoload()
+spl\_autoload\_call — Спроба завантажити клас усіма зареєстрованими функціями \_\_autoload()
 
 ### Опис
 
@@ -18,7 +19,7 @@ splautoloadcall — Спроба завантажити клас усіма за
 spl_autoload_call(string $class): void
 ```
 
-Цю функцію можна використовувати для ручного пошуку класу або інтерфейсу, використовуючи всі зареєстровані методи autoload.
+Цю функцію можна використовувати для ручного пошуку класу або інтерфейсу, використовуючи всі зареєстровані методи \_\_autoload.
 
 ### Список параметрів
 

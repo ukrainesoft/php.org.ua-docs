@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.fbird-free-query.md: « fbirdfreequery
-  - function.fbird-gen-id.md: fbirdgenid »
+  - function.fbird-free-query.md: « fbird\_free\_query
+  - function.fbird-gen-id.md: fbird\_gen\_id »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: fbirdfreeresult
+  - ref.ibase.md: Функції Firebird/InterBase
+title: fbird\_free\_result
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fbirdfreeresult
+# fbird\_free\_result
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdfreeresult - Псевдонім [ibasefreeresult()](function.ibase-free-result.md)
+fbird\_free\_result — Псевдоним[ibase\_free\_result()](function.ibase-free-result.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasefreeresult()](function.ibase-free-result.md)
+Функция — псевдоним функции:[ibase\_free\_result()](function.ibase-free-result.md)

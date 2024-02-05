@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::getOption'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::getOption
 
@@ -24,11 +25,11 @@ public Memcached::getOption(int $option): mixed
 
 `option`
 
-Одна з `Memcached::OPT_*` констант.
+Одна из`Memcached::OPT_*`констант.
 
 ### Значення, що повертаються
 
-Повертає значення запитуваного параметра, або **`false`** у разі виникнення помилки.
+Повертає значення запитуваного параметра, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -42,7 +43,7 @@ var_dump($m->getOption(Memcached::OPT_POLL_TIMEOUT));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -52,5 +53,5 @@ int(1000)
 ### Дивіться також
 
 -   **Memcached::getOption()**
--   [Memcached::setOption()](memcached.setoption.md) - Встановлює значення параметра для Memcached
+-   [Memcached::setOption()](memcached.setoption.md) \- Встановлює значення параметра для Memcached
 -   [Memcached Constants](memcached.constants.md)

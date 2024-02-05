@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ui-menu.md: « UIMenu
-  - ui-menu.appendabout.md: 'ОЙMenu::appendAbout »'
+  - class.ui-menu.md: « UI\\Menu
+  - ui-menu.appendabout.md: 'UI\\Menu::appendAbout »'
   - index.md: PHP Manual
-  - class.ui-menu.md: ОЙMenu
-title: 'ОЙMenu::append'
+  - class.ui-menu.md: UI\\Menu
+title: 'UI\\Menu::append'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙMenu::append
+# UI\\Menu::append
 
 (UI 0.9.9)
 
-ОЙMenu::append — Додати пункт меню
+UI\\Menu::append — Додати пункт меню
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-definition.getclosure.md: '« ComponereDefinition::getClosure'
-  - class.componere-patch.md: ComponerePatch »
+  - componere-definition.getclosure.md: '« Componere\\Definition::getClosure'
+  - class.componere-patch.md: Componere\\Patch »
   - index.md: PHP Manual
-  - class.componere-definition.md: ComponereDefinition
-title: 'ComponereDefinition::getClosures'
+  - class.componere-definition.md: Componere\\Definition
+title: 'Componere\\Definition::getClosures'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereDefinition::getClosures
+# Componere\\Definition::getClosures
 
 (Componere 2 >= 2.1.0)
 
-ComponereDefinition::getClosures — Отримує замикання
+Componere\\Definition::getClosures — Отримує замикання
 
 ### Опис
 

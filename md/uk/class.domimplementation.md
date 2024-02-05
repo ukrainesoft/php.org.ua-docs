@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.domexception.md: « DOMException
-  - domimplementation.construct.md: 'DOMImplementation::construct »'
+  - domimplementation.construct.md: 'DOMImplementation::\_\_construct »'
   - index.md: PHP Manual
   - book.dom.md: DOM
 title: Клас DOMImplementation
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас DOMImplementation
 
@@ -12,19 +13,14 @@ title: Клас DOMImplementation
 
 ## Вступ
 
-Клас **DOMImplementation** надає ряд методів для виконання операцій, які не залежать від будь-якого примірника об'єктної моделі документа.
+Класс**DOMImplementation** надає низку методів для виконання операцій, які не залежать від будь-якого екземпляра об'єктної моделі документа.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      class DOMImplementation
-     
+     class DOMImplementation
      {
 
     /* Методы */
@@ -38,7 +34,7 @@ public hasFeature(string $feature, string $version): bool
 
 ## Зміст
 
--   [DOMImplementation::construct](domimplementation.construct.md) — Створює новий об'єкт класу DOMImplementation
--   [DOMImplementation::createDocument](domimplementation.createdocument.md) — Створює об'єкт класу DOMDocument заданого типу з його елементом.
--   [DOMImplementation::createDocumentType](domimplementation.createdocumenttype.md) — Створює порожній об'єкт класу DOMDocumentType
--   [DOMImplementation::hasFeature](domimplementation.hasfeature.md) — Перевірка, чи реалізована певна можливість у реалізації DOM
+-   [DOMImplementation::\_\_construct](domimplementation.construct.md)— Створює новий об'єкт класу DOMImplementation
+-   [DOMImplementation::createDocument](domimplementation.createdocument.md)— Створює об'єкт класу DOMDocument заданого типу з його елементом.
+-   [DOMImplementation::createDocumentType](domimplementation.createdocumenttype.md)— Створює порожній об'єкт класу DOMDocumentType
+-   [DOMImplementation::hasFeature](domimplementation.hasfeature.md)— Перевірка, чи реалізована певна можливість у реалізації DOM

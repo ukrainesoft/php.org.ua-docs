@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getPixelRegionIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getPixelRegionIterator
 
@@ -15,7 +16,7 @@ Imagick::getPixelRegionIterator — Повертає об'єкт ImagickPixelIte
 ### Опис
 
 ```methodsynopsis
-public Imagick::getPixelRegionIterator(    int $x,    int $y,    int $columns,    int $rows): ImagickPixelIterator
+public Imagick::getPixelRegionIterator(    int $x,    int $y,    int $columns,    int $rows): ImagickPixelIterator
 ```
 
 Повертає об'єкт ImagickPixelIterator для секції зображення.
@@ -48,7 +49,7 @@ public Imagick::getPixelRegionIterator(    int $x,    int $y,    int $columns,  
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **Imagick::getPixelRegionIterator()****
+**Пример #1 Пример использования функции**Imagick::getPixelRegionIterator()\*\*\*\*
 
 Пробігає пікселями вгорі зліва зображення і замінює їх на чорні.
 

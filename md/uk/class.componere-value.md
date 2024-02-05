@@ -1,12 +1,13 @@
 ---
 navigation:
-  - componere-method.getreflector.md: '« ComponereMethod::getReflector'
-  - componere-value.construct.md: 'ComponereValue::construct »'
+  - componere-method.getreflector.md: '« Componere\\Method::getReflector'
+  - componere-value.construct.md: 'Componere\\Value::\_\_construct »'
   - index.md: PHP Manual
   - book.componere.md: Componere
-title: Клас ComponereValue
+title: Клас Componere\\Value
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас ComponereValue
+# Клас Componere\\Value
 
 (Componere 2 >= 2.1.0)
 
@@ -47,11 +48,11 @@ public hasDefault(): bool
 
 ## Зміст
 
--   [ComponereValue::construct](componere-value.construct.md) - Конструктор класу Value
--   [ComponereValue::setPrivate](componere-value.setprivate.md) — Зміна доступності
--   [ComponereValue::setProtected](componere-value.setprotected.md) — Зміна доступності
--   [ComponereValue::setStatic](componere-value.setstatic.md) — Зміна доступності
--   [ComponereValue::isPrivate](componere-value.isprivate.md) — Визначення доступності
--   [ComponereValue::isProtected](componere-value.isprotected.md) — Визначення доступності
--   [ComponereValue::isStatic](componere-value.isstatic.md) — Визначення доступності
--   [ComponereValue::hasDefault](componere-value.hasdefault.md) - Взаємодія з класом Value
+-   [Componere\\Value::\_\_construct](componere-value.construct.md) \- Конструктор класу Value
+-   [Componere\\Value::setPrivate](componere-value.setprivate.md)— Зміна доступності
+-   [Componere\\Value::setProtected](componere-value.setprotected.md)— Зміна доступності
+-   [Componere\\Value::setStatic](componere-value.setstatic.md)— Зміна доступності
+-   [Componere\\Value::isPrivate](componere-value.isprivate.md)— Визначення доступності
+-   [Componere\\Value::isProtected](componere-value.isprotected.md)— Визначення доступності
+-   [Componere\\Value::isStatic](componere-value.isstatic.md)— Визначення доступності
+-   [Componere\\Value::hasDefault](componere-value.hasdefault.md) \- Взаємодія з класом Value

@@ -5,20 +5,21 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::getChildren'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::getChildren
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::getChildren - Метод-заглушка
 
 ### Опис
 
 ```methodsynopsis
-public SplFileObject::getChildren(): ?RecursiveIterator
+public SplFileObject::getChildren(): null
 ```
 
-Клас [SplFileObject](class.splfileobject.md) немає дочірніх елементів, тому цей метод повертає **`null`**
+Класс[SplFileObject](class.splfileobject.md) немає дочірніх елементів, тому цей метод повертає **`null`**
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ public SplFileObject::getChildren(): ?RecursiveIterator
 
 ### Дивіться також
 
--   [RecursiveIterator::getChildren()](recursiveiterator.getchildren.md) - Повертає ітератор для поточного елемента
+-   [RecursiveIterator::getChildren()](recursiveiterator.getchildren.md) \- Повертає ітератор для поточного елемента

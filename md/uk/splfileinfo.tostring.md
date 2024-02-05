@@ -4,13 +4,14 @@ navigation:
   - class.splfileobject.md: SplFileObject »
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
-title: 'SplFileInfo::toString'
+title: 'SplFileInfo::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SplFileInfo::toString
+# SplFileInfo::\_\_function toString() { \[native code\] }
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
-SplFileInfo::toString — Повертає шлях до файлу у вигляді рядка
+SplFileInfo::\_\_toString — Повертає шлях до файлу у вигляді рядка
 
 ### Опис
 
@@ -30,7 +31,7 @@ public SplFileInfo::__toString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::toString()****
+**Пример #1 Пример использования**SplFileInfo::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ echo $info.PHP_EOL;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(3) "foo"

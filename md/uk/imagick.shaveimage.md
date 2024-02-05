@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::shaveImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::shaveImage
 
@@ -32,7 +33,7 @@ public Imagick::shaveImage(int $columns, int $rows): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::shaveImage()****
+**Пример #1 Пример использования**Imagick::shaveImage()\*\*\*\*
 
 ```php
 <?php

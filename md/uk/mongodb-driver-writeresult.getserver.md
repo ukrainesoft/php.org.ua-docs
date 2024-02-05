@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getmodifiedcount.md: '« MongoDBDriverWriteResult::getModifiedCount'
-  - mongodb-driver-writeresult.getupsertedcount.md: 'MongoDBDriverWriteResult::getUpsertedCount »'
+  - mongodb-driver-writeresult.getmodifiedcount.md: '« MongoDB\\Driver\\WriteResult::getModifiedCount'
+  - mongodb-driver-writeresult.getupsertedcount.md: 'MongoDB\\Driver\\WriteResult::getUpsertedCount »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
-title: 'MongoDBDriverWriteResult::getServer'
+  - class.mongodb-driver-writeresult.md: MongoDB\\Driver\\WriteResult
+title: 'MongoDB\\Driver\\WriteResult::getServer'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteResult::getServer
+# MongoDB\\Driver\\WriteResult::getServer
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteResult::getServer — Повертає сервер, пов'язаний із цим результатом запису
+MongoDB\\Driver\\WriteResult::getServer — Повертає сервер, пов'язаний із цим результатом запису
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverWriteResult::getServer — Повертає сервер, пов'я
 final public MongoDB\Driver\WriteResult::getServer(): MongoDB\Driver\Server
 ```
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.md), пов'язаний із цим результатом запису. Це сервер, який виконав [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)
+Повертає [MongoDB\\Driver\\Server](class.mongodb-driver-server.md), пов'язаний із цим результатом запису. Це сервер, який виконав [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.md)
 
 ### Список параметрів
 
@@ -26,15 +27,15 @@ final public MongoDB\Driver\WriteResult::getServer(): MongoDB\Driver\Server
 
 ### Значення, що повертаються
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.md) пов'язаний із цим результатом запису.
+Повертає [MongoDB\\Driver\\Server](class.mongodb-driver-server.md) пов'язаний із цим результатом запису.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteResult::getServer()****
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getServer()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($result->getServer() == $server);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -60,4 +61,4 @@ bool(true)
 
 ### Дивіться також
 
--   [MongoDBDriverServer](class.mongodb-driver-server.md)
+-   [MongoDB\\Driver\\Server](class.mongodb-driver-server.md)

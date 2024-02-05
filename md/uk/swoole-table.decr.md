@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-table.current.md: '« SwooleTable::current'
-  - swoole-table.del.md: 'SwooleTable::del »'
+  - swoole-table.current.md: '« Swoole\\Table::current'
+  - swoole-table.del.md: 'Swoole\\Table::del »'
   - index.md: PHP Manual
-  - class.swoole-table.md: SwooleTable
-title: 'SwooleTable::decor'
+  - class.swoole-table.md: Swoole\\Table
+title: 'Swoole\\Table::decr'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTable::decor
+# Swoole\\Table::decr
 
 (PECL swoole >= 1.9.0)
 
-SwooleTable::decr — Зменшує значення у таблиці Swoole за $rowkey та $columnkey
+Swoole\\Table::decr — Зменшує значення у таблиці Swoole за $row\_key та $column\_key
 
 ### Опис
 

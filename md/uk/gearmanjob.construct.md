@@ -4,13 +4,14 @@ navigation:
   - gearmanjob.data.md: 'GearmanJob::data »'
   - index.md: PHP Manual
   - class.gearmanjob.md: GearmanJob
-title: 'GearmanJob::construct'
+title: 'GearmanJob::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GearmanJob::construct
+# GearmanJob::\_\_construct
 
 (PECL gearman >= 0.5.0)
 
-GearmanJob::construct — Створення об'єкту GearmanJob
+GearmanJob::\_\_construct — Створення об'єкту GearmanJob
 
 ### Опис
 

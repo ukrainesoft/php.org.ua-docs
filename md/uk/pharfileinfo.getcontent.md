@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.pharfileinfo.md: PharFileInfo
 title: 'PharFileInfo::getContent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharFileInfo::getContent
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 PharFileInfo::getContent — Отримати повний вміст файлу запису
 
@@ -18,7 +19,7 @@ PharFileInfo::getContent — Отримати повний вміст файлу
 public PharFileInfo::getContent(): string
 ```
 
-Ця функція поводиться як [filegetcontents()](function.file-get-contents.md)але для Phar.
+Ця функція поводиться як [file\_get\_contents()](function.file-get-contents.md)але для Phar.
 
 ### Список параметрів
 

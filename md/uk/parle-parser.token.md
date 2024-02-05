@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-parser.sigil.md: '« ParleParser::sigil'
-  - parle-parser.tokenid.md: 'ParleParser::tokenId »'
+  - parle-parser.sigilname.md: '« Parle\\Parser::sigilName'
+  - parle-parser.tokenid.md: 'Parle\\Parser::tokenId »'
   - index.md: PHP Manual
-  - class.parle-parser.md: ParleParser
-title: 'ParleParser::token'
+  - class.parle-parser.md: Parle\\Parser
+title: 'Parle\\Parser::token'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleParser::token
+# Parle\\Parser::token
 
 (PECL parle >= 0.5.1)
 
-ParleParser::token — Оголошує токен
+Parle\\Parser::token — Оголошує токен
 
 ### Опис
 

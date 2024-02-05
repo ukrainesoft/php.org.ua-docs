@@ -4,13 +4,14 @@ navigation:
   - ref.stream.md: Функції для роботи з потоками »
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
-title: 'streamWrapper::urlстати'
+title: 'streamWrapper::url\_stat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamWrapper::urlстати
+# streamWrapper::url\_stat
 
-(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::urlstat — Отримання інформації про файл
+streamWrapper::url\_stat — Отримання інформації про файл
 
 ### Опис
 
@@ -18,7 +19,7 @@ streamWrapper::urlstat — Отримання інформації про фай
 public streamWrapper::url_stat(string $path, int $flags): array|false
 ```
 
-Цей метод викликається в процесі виконання будь-якої [stat()](function.stat.md) функцій, таких як:
+Цей метод викликається в процесі виконання будь-якої [stat()](function.stat.md)функций, таких как:
 
 -   [copy()](function.copy.md)
 -   [fileperms()](function.fileperms.md)
@@ -30,13 +31,13 @@ public streamWrapper::url_stat(string $path, int $flags): array|false
 -   [filemtime()](function.filemtime.md)
 -   [filectime()](function.filectime.md)
 -   [filetype()](function.filetype.md)
--   [ісwritable()](function.is-writable.md)
--   [ісreadable()](function.is-readable.md)
--   [ісexecutable()](function.is-executable.md)
--   [ісfile()](function.is-file.md)
--   [ісdir()](function.is-dir.md)
--   [ісlink()](function.is-link.md)
--   [fileexists()](function.file-exists.md)
+-   [is\_writable()](function.is-writable.md)
+-   [is\_readable()](function.is-readable.md)
+-   [is\_executable()](function.is-executable.md)
+-   [is\_file()](function.is-file.md)
+-   [is\_dir()](function.is-dir.md)
+-   [is\_link()](function.is-link.md)
+-   [file\_exists()](function.file-exists.md)
 -   [lstat()](function.lstat.md)
 -   [stat()](function.stat.md)
 -   [SplFileInfo::getPerms()](splfileinfo.getperms.md)
@@ -60,20 +61,20 @@ public streamWrapper::url_stat(string $path, int $flags): array|false
 
 `path`
 
-Шлях до файлу чи його URL. Пам'ятайте, що URL-адреса повинна бути відокремлена символами :// , інші форми URL-адреси не підтримуються.
+Шлях до файлу або його URL-адреси. Пам'ятайте, що URL-адреса повинна бути відокремлена символами :// , інші форми URL-адреси не підтримуються.
 
 `flags`
 
 Зберігає додаткові прапори, встановлені потоками API. Може зберігати одне або кілька нижченаведених значень, об'єднаних операцією АБО.
 
-| Флаг | Описание |
+| Флаг | Опис |
 | --- | --- |
-| STREAMURLСТАТИLINK | Для ресурсів, які можуть посилатися на інші ресурси (наприклад, HTTP Location: forward, або символічні посилання файлової системи). Цей прапор вказує, що інформація, що повертається, відноситься до самого посилання, а не до ресурсу, на який вона вказує. Цей використовується під час виклику функцій [lstat()](function.lstat.md) [ісlink()](function.is-link.md) або [filetype()](function.filetype.md) |
-| STREAMURLСТАТИQUIET | Якщо прапорець встановлений, обгортка не повинна викликати жодних помилок. Якщо ні, можна викликати повідомлення про помилки за допомогою функції [triggererror()](function.trigger-error.md) |
+| STREAM\_URL\_STAT\_LINK | Для ресурсів, які можуть посилатися на інші ресурси (наприклад, HTTP Location: forward, або символічні посилання файлової системи). Цей прапор вказує, що інформація, що повертається, відноситься до самого посилання, а не до ресурсу, на який вона вказує. Цей використовується під час виклику функцій [lstat()](function.lstat.md) [is\_link()](function.is-link.md) або [filetype()](function.filetype.md) |
+| STREAM\_URL\_STAT\_QUIET | Якщо прапорець встановлений, обгортка не повинна викликати жодних помилок. Якщо ні, можна викликати повідомлення про помилки за допомогою функції [trigger\_error()](function.trigger-error.md) |
 
 ### Значення, що повертаються
 
-Має повертатися масив (array) з тими самими елементами, що у [stat()](function.stat.md). Невідомі або недоступні значення необхідно призводити до розумних значень (зазвичай до **`0`**). Зверніть особливу увагу на `mode`, як описано в розділі [stat()](function.stat.md). У разі виникнення помилки повертає **`false`**
+Має повертатися масив (array) з тими самими елементами, що у [stat()](function.stat.md). Невідомі або недоступні значення необхідно призводити до розумних значень (зазвичай до ). Обратите особое внимание на`mode`, як описано в розділі [stat()](function.stat.md). У разі виникнення помилки повертає **`false`**
 
 ### Помилки
 
@@ -81,11 +82,11 @@ public streamWrapper::url_stat(string $path, int $flags): array|false
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Властивість streamWrapper::$context буде оновлено, якщо коректний контекст був переданий у функцію, що викликається.
 
 ### Дивіться також
 
--   [stat()](function.stat.md) - Повертає інформацію про файл
--   [streamwrapper::streamstat()](streamwrapper.stream-stat.md) - Отримання інформації про файловий ресурс
+-   [stat()](function.stat.md) \- Повертає інформацію про файл
+-   [streamwrapper::stream\_stat()](streamwrapper.stream-stat.md) \- Отримання інформації про файловий ресурс

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::setMulti'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::setMulti
 
@@ -15,10 +16,10 @@ Memcached::setMulti — Зберігає кілька записів
 ### Опис
 
 ```methodsynopsis
-public Memcached::setMulti(array $items, int $expiration = ?): bool
+public Memcached::setMulti(array $items, int $expiration = 0): bool
 ```
 
-**Memcached::setMulti()** схожий на метод [Memcached::set()](memcached.set.md), але замість однієї пари ключ/значення, працює з кількома записами, переданими в `items` у вигляді масиву. Параметр `expiration`, що встановлює термін зберігання запису, застосовується до всіх записів.
+\*\*Memcached::setMulti()\*\*похож на метод[Memcached::set()](memcached.set.md), але замість однієї пари ключ/значення, працює з кількома записами, переданими в `items` у вигляді масиву. Параметр `expiration`, що встановлює термін зберігання запису, застосовується до всіх записів.
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ public Memcached::setMulti(array $items, int $expiration = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки. Используйте при необходимости[Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::setMulti()****
+**Пример #1 Пример использования**Memcached::setMulti()\*\*\*\*
 
 ```php
 <?php
@@ -54,5 +55,5 @@ $m->setMulti($items, time() + 300);
 
 ### Дивіться також
 
--   [Memcached::setMultiByKey()](memcached.setmultibykey.md) - Зберігає кілька записів на вказаному сервері
--   [Memcached::set()](memcached.set.md) - Зберігає запис
+-   [Memcached::setMultiByKey()](memcached.setmultibykey.md) \- Зберігає кілька записів на вказаному сервері
+-   [Memcached::set()](memcached.set.md) \- Зберігає запис

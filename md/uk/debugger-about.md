@@ -1,11 +1,14 @@
 ---
 navigation:
-  - debugger.md: « Отладка в PHP
-  - configure.md: Опции конфигурации »
+  - debugger.md: « Налагодження в PHP
+  - configure.md: Опції конфігурації »
   - index.md: PHP Manual
-  - debugger.md: Отладка в PHP
+  - debugger.md: Налагодження в PHP
 title: Про налагодження в PHP
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Про налагодження в PHP
 
-Разом з PHP постачається інтерактивний налагоджувач [phpdbg](migration56.new-features.md#migration56.new-features.phpdbg). Ви можете використовувати зовнішні налагоджувачі . [» Zend IDE](http://www.zend.com/en/products/studio/) має вбудований наладчик, а також є кілька безкоштовних модулів налагодження, такі як DBG, що знаходиться за адресою [» http://www.php-debugger.com/dbg/](http://www.php-debugger.com/dbg/) [» Advanced PHP Debugger](https://pecl.php.net/apd) (APD) або [» Xdebug](http://xdebug.org/)
+PHP поставляється з базовим інтерактивним налагоджувачем командного рядка [phpdbg](migration56.new-features.md#migration56.new-features.phpdbg)
+
+У більшості IDE є підтримка [» Xdebug](http://xdebug.org/), безкоштовний інструмент налагодження, який дозволяє виконувати налагодження PHP-програм в один крок.

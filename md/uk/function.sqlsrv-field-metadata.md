@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-fetch.md: « sqlsrvfetch
-  - function.sqlsrv-free-stmt.md: sqlsrvfreestmt »
+  - function.sqlsrv-fetch.md: « sqlsrv\_fetch
+  - function.sqlsrv-free-stmt.md: sqlsrv\_free\_stmt »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvfieldmetadata
+title: sqlsrv\_field\_metadata
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvfieldmetadata
+# sqlsrv\_field\_metadata
 
 (No version information available, might only be in Git)
 
-sqlsrvfieldmetadata — Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md) або [sqlsrvquery()](function.sqlsrv-query.md)
+sqlsrv\_field\_metadata — Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrv\_prepare()](function.sqlsrv-prepare.md) або [sqlsrv\_query()](function.sqlsrv-query.md)
 
 ### Опис
 
@@ -18,7 +19,7 @@ sqlsrvfieldmetadata — Отримує метадані для полів опе
 sqlsrv_field_metadata(resource $stmt): mixed
 ```
 
-Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md) або [sqlsrvquery()](function.sqlsrv-query.md). . **sqlsrvfieldmetadata()** може викликатися оператора до або після виконання оператора.
+Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrv\_prepare()](function.sqlsrv-prepare.md) або [sqlsrv\_query()](function.sqlsrv-query.md). . **sqlsrv\_field\_metadata()** може викликатися оператора до або після виконання оператора.
 
 ### Список параметрів
 
@@ -30,22 +31,22 @@ sqlsrv_field_metadata(resource $stmt): mixed
 
 У разі успішного виконання повертає масив масивів. В іншому випадку повертає **`false`**. Кожен масив, що повертається, описується наступною таблицею:
 
-**Масив, що повертається sqlsrvfieldmetadata**
+**Масив, що повертається sqlsrv\_field\_metadata**
 
-| Ключ | Описание |
+| Ключ | Опис |
 | --- | --- |
 | Name | Ім'я поля. |
-| Type | Числове значення для типу SQL. |
+| Type | Числове значення типу SQL. |
 | Size | Кількість символів для полів символьного типу, кількість байтів для полів двійкового типу або **`null`** для інших типів. |
 | Precision | Точність для типів змінної точності, **`null`** для інших типів. |
 | Scale | Масштаб для типів масштабованих типів даних, **`null`** для інших типів. |
 | Nullable | Перелік, що вказує, чи стовпець допускає значення NULL, неприпустиме значення NULL або невідоме. |
 
-Для отримання додаткової інформації дивіться [» sqlsrvfieldmetadata](http://msdn.microsoft.com/en-us/library/cc296197.aspx) у документації Microsoft SQLSRV.
+Для получения дополнительной информации смотрите[» sqlsrv\_field\_metadata](http://msdn.microsoft.com/en-us/library/cc296197.aspx)в документации Microsoft SQLSRV.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvfieldmetadata()****
+**Пример #1 Пример использования**sqlsrv\_field\_metadata()\*\*\*\*
 
 ```php
 <?php
@@ -70,4 +71,4 @@ foreach( sqlsrv_field_metadata( $stmt ) as $fieldMetadata ) {
 
 ### Дивіться також
 
--   [sqlsrvclientinfo()](function.sqlsrv-client-info.md) - Повертає інформацію про клієнта та зазначене підключення
+-   [sqlsrv\_client\_info()](function.sqlsrv-client-info.md) \- Повертає інформацію про клієнта та зазначене підключення

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-dispatcher.getrouter.md: '« YafDispatcher::getRouter'
-  - yaf-dispatcher.registerplugin.md: 'YafDispatcher::registerPlugin »'
+  - yaf-dispatcher.getrouter.md: '« Yaf\_Dispatcher::getRouter'
+  - yaf-dispatcher.registerplugin.md: 'Yaf\_Dispatcher::registerPlugin »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::initView'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::initView'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::initView
+# Yaf\_Dispatcher::initView
 
 (Yaf >=1.0.0)
 
-YafDispatcher::initView — Ініціалізує виставу та повертає її
+Yaf\_Dispatcher::initView — Ініціалізує виставу та повертає її
 
 ### Опис
 

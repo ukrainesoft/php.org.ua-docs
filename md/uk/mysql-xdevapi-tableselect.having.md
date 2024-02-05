@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-tableselect.groupby.md: '« TableSelect::groupBy'
   - mysql-xdevapi-tableselect.limit.md: 'TableSelect::limit »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysql\_xdevapi\\TableSelect
 title: 'TableSelect::having'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableSelect::having
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableSelect::having(string $sort_expr): mysql_xdevapi\Table
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::having()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::having()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ print_r($row);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

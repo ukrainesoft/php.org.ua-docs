@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-query.md: « pgquery
-  - function.pg-result-error.md: пгresulterror »
+  - function.pg-query.md: « pg\_query
+  - function.pg-result-error.md: pg\_result\_error »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгresulterrorfield
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_result\_error\_field
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгresulterrorfield
+# pg\_result\_error\_field
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-пгresulterrorfield — Повертає конкретне поле зі звіту про помилки
+pg\_result\_error\_field — Повертає конкретне поле зі звіту про помилки
 
 ### Опис
 
@@ -18,17 +19,17 @@ title: пгresulterrorfield
 pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 ```
 
-**пгresulterrorfield()** повертає одне з полів звіту про помилки, пов'язаного з екземпляром `result`. Функція підтримується серверами PostgreSQL версій 7.4 та вище. Потрібне поле задається аргументом `field_code`
+**pg\_result\_error\_field()** повертає одне з полів звіту про помилки, пов'язаного з екземпляром `result`. Функція підтримується серверами PostgreSQL версій 7.4 та вище. Потрібне поле задається аргументом `field_code`
 
-Функції [пгquery()](function.pg-query.md) і [пгqueryparams()](function.pg-query-params.md) у разі помилок повертають **`false`** замість ресурсу. Щоб мати можливість обробляти помилки, користуйтеся функціями [пгsendquery()](function.pg-send-query.md) і [пгgetresult()](function.pg-get-result.md)
+Функції [pg\_query()](function.pg-query.md) і [pg\_query\_params()](function.pg-query-params.md) у разі помилок повертають **`false`** замість ресурсу. Щоб мати можливість обробляти помилки, користуйтеся функціями [pg\_send\_query()](function.pg-send-query.md) і [pg\_get\_result()](function.pg-get-result.md)
 
-Для отримання додаткової інформації про хід виконання функції, що відмовила [пгquery()](function.pg-query.md) використовуйте функції [пгseterrorverbosity()](function.pg-set-error-verbosity.md) і [пгlasterror()](function.pg-last-error.md) та обробляйте результат їх виконання.
+Для отримання додаткової інформації про хід виконання функції, що відмовила [pg\_query()](function.pg-query.md)используйте функции[pg\_set\_error\_verbosity()](function.pg-set-error-verbosity.md) і [pg\_last\_error()](function.pg-last-error.md) та обробляйте результат їх виконання.
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSql\\Result](class.pgsql-result.md), що повертається функціями [pg\_query()](function.pg-query.md) [pg\_query\_params()](function.pg-query-params.md) або [pg\_execute()](function.pg-execute.md)(среди прочего).
 
 `field_code`
 
@@ -36,17 +37,17 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 ### Значення, що повертаються
 
-Повідомлення про помилку із заданого поля у вигляді рядка (string); \*\*`null`\*\*якщо задане поле не існує; **`false`** у разі виникнення помилки.
+Повідомлення про помилку із заданого поля у вигляді рядка (string); \*\*`null`\*\*якщо задане поле не існує; \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгresulterrorfield()****
+**Пример #1 Пример использования**pg\_result\_error\_field()\*\*\*\*
 
 ```php
 <?php
@@ -63,4 +64,4 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 ### Дивіться також
 
--   [пгresulterror()](function.pg-result-error.md) - Повертає повідомлення про помилку, пов'язане із запитом результату
+-   [pg\_result\_error()](function.pg-result-error.md) \- Повертає повідомлення про помилку, пов'язане із запитом результату

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - error.construct.md: '« Error::construct'
+  - error.construct.md: '« Error::\_\_construct'
   - error.getprevious.md: 'Error::getPrevious »'
   - index.md: PHP Manual
   - class.error.md: Error
 title: 'Error::getMessage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Error::getMessage
 
@@ -30,7 +31,7 @@ final public Error::getMessage(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Error::getMessage()****
+**Пример #1 Пример использования**Error::getMessage()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Страшная ошибка
@@ -50,4 +51,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getMessage()](throwable.getmessage.md) - Отримує повідомлення помилки
+-   [Throwable::getMessage()](throwable.getmessage.md) \- Отримує повідомлення помилки

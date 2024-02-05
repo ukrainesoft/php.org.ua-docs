@@ -1,10 +1,11 @@
 ---
 navigation:
-  - evwatcher.construct.md: '« EvWatcher::construct'
+  - evwatcher.construct.md: '« EvWatcher::\_\_construct'
   - evwatcher.getloop.md: 'EvWatcher::getLoop »'
   - index.md: PHP Manual
   - class.evwatcher.md: EvWatcher
 title: 'EvWatcher::feed'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvWatcher::feed
 

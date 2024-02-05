@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-copy.md: « svnфсcopy
-  - function.svn-fs-dir-entries.md: svnфсdirentries »
+  - function.svn-fs-copy.md: « svn\_fs\_copy
+  - function.svn-fs-dir-entries.md: svn\_fs\_dir\_entries »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсdelete
+title: svn\_fs\_delete
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсdelete
+# svn\_fs\_delete
 
 (PECL svn >= 0.2.0)
 
-svnфсdelete — Видалення файлу або каталогу
+svn\_fs\_delete — Видалення файлу або каталогу
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_delete(resource $root, string $path): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Видаляє файл або директорію.
 
@@ -32,7 +33,7 @@ svn_fs_delete(resource $root, string $path): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 

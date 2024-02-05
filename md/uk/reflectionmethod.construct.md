@@ -1,24 +1,25 @@
 ---
 navigation:
   - class.reflectionmethod.md: « ReflectionMethod
-  - reflectionmethod.export.md: 'ReflectionMethod::export »'
+  - reflectionmethod.createfrommethodname.md: 'ReflectionMethod::createFromMethodName »'
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
-title: 'ReflectionMethod::construct'
+title: 'ReflectionMethod::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionMethod::construct
+# ReflectionMethod::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionMethod::construct - Конструктор класу ReflectionMethod
+ReflectionMethod::\_\_construct - Конструктор класу ReflectionMethod
 
 ### Опис
 
-public **ReflectionMethod::construct**(object | string `$objectOrMethod`, string `$method`
+public**ReflectionMethod::\_\_construct**(object|string`$objectOrMethod`, string`$method`) .
 
-Абсолютна заява (не підтримується з названими словами):
+Alternative signature (not supported with named arguments):
 
-public **ReflectionMethod::construct**(string `$classMethod`
+public**ReflectionMethod::\_\_construct**(string`$classMethod`) .
 
 Створює новий об'єкт класу [ReflectionMethod](class.reflectionmethod.md)
 
@@ -38,11 +39,11 @@ public **ReflectionMethod::construct**(string `$classMethod`
 
 ### Помилки
 
-Виняток [ReflectionException](class.reflectionexception.md) викидається, якщо заданий метод немає.
+Исключение[ReflectionException](class.reflectionexception.md) викидається, якщо заданий метод немає.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionMethod::construct()****
+**Пример #1 Пример использования**ReflectionMethod::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -103,7 +104,7 @@ var_dump($method->invoke(NULL));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 ===> определённый пользователем окончательный общедоступный статический метод 'increment' (обычный метод)
@@ -124,5 +125,5 @@ var_dump($method->invoke(NULL));
 
 ### Дивіться також
 
--   [ReflectionMethod::export()](reflectionmethod.export.md) - Експорт відбитого методу
+-   [ReflectionMethod::export()](reflectionmethod.export.md) \- Експорт відбитого методу
 -   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

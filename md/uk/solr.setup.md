@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.solr.md: « Введение
+  - intro.solr.md: '" Вступ'
   - solr.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.solr.md: Solr
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

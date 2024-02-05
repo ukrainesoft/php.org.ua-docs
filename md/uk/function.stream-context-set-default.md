@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-context-get-params.md: « streamcontextgetparams
-  - function.stream-context-set-option.md: streamcontextsetoption »
+  - function.stream-context-get-params.md: « stream\_context\_get\_params
+  - function.stream-context-set-option.md: stream\_context\_set\_option »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamcontextsetdefault
+title: stream\_context\_set\_default
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamcontextsetdefault
+# stream\_context\_set\_default
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-streamcontextsetdefault — Встановити контекст потоку за промовчанням
+stream\_context\_set\_default — Встановити контекст потоку за промовчанням
 
 ### Опис
 
@@ -18,7 +19,7 @@ streamcontextsetdefault — Встановити контекст потоку �
 stream_context_set_default(array $options): resource
 ```
 
-Встановити контекст потоку за промовчанням, який буде використовуватися щоразу, коли файлові операції ([fopen()](function.fopen.md) [filegetcontents()](function.file-get-contents.md) і т.д.) викликаються без параметра контексту. Використовується той же синтаксис, що і [streamcontextcreate()](function.stream-context-create.md)
+Встановити контекст потоку за замовчуванням, який буде використовуватися щоразу, коли файлові операції ([fopen()](function.fopen.md) [file\_get\_contents()](function.file-get-contents.md) і т.д.) викликаються без параметра контексту. Використовується той же синтаксис, що і [stream\_context\_create()](function.stream-context-create.md)
 
 ### Список параметрів
 
@@ -26,9 +27,9 @@ stream_context_set_default(array $options): resource
 
 Опції для встановлення для контексту за промовчанням.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Параметр `options` має бути асоціативним масивом асоціативних масивів у форматі `$arr['wrapper']['option'] = $value`
+> Параметр`options` має бути асоціативним масивом асоціативних масивів у форматі `$arr['wrapper']['option'] = $value`
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ stream_context_set_default(array $options): resource
 
 ### Приклади
 
-**Приклад #1 **streamcontextsetdefault()** example**
+**Пример #1**stream\_context\_set\_default()**example**
 
 ```php
 <?php
@@ -60,6 +61,6 @@ readfile('http://www.example.com');
 
 ### Дивіться також
 
--   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку
--   [streamcontextgetdefault()](function.stream-context-get-default.md) - Отримує контекст потоку за умовчанням
+-   [stream\_context\_create()](function.stream-context-create.md) \- Створює контекст потоку
+-   [stream\_context\_get\_default()](function.stream-context-get-default.md) \- Отримує контекст потоку за умовчанням
 -   Listing of supported wrappers with context options ([Підтримувані протоколи та обгортки](wrappers.md)

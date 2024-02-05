@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-simple.count.md: '« YafConfigSimple::count'
-  - yaf-config-simple.get.md: 'YafConfigSimple::get »'
+  - yaf-config-simple.count.md: '« Yaf\_Config\_Simple::count'
+  - yaf-config-simple.get.md: 'Yaf\_Config\_Simple::\_\_get »'
   - index.md: PHP Manual
-  - class.yaf-config-simple.md: YafConfigSimple
-title: 'YafConfigSimple::current'
+  - class.yaf-config-simple.md: Yaf\_Config\_Simple
+title: 'Yaf\_Config\_Simple::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigSimple::current
+# Yaf\_Config\_Simple::current
 
 (Yaf >=1.0.0)
 
-YafConfigSimple::current - Призначення current
+Yaf\_Config\_Simple::current - Призначення current
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Simple::current(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

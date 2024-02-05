@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::newInstance'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::newInstance
 
@@ -24,7 +25,7 @@ public ReflectionClass::newInstance(mixed ...$args): object
 
 `args`
 
-Приймає довільну кількість аргументів, подібно до функції [calluserfunc()](function.call-user-func.md), які потім передаються конструктор класу.
+Приймає довільну кількість аргументів, подібно до функції [call\_user\_func()](function.call-user-func.md), які потім передаються конструктор класу.
 
 ### Значення, що повертаються
 
@@ -36,5 +37,5 @@ public ReflectionClass::newInstance(mixed ...$args): object
 
 ### Дивіться також
 
--   [ReflectionClass::newInstanceArgs()](reflectionclass.newinstanceargs.md) - Створює екземпляр класу з переданими параметрами
--   [ReflectionClass::newInstanceWithoutConstructor()](reflectionclass.newinstancewithoutconstructor.md) - Створює новий екземпляр класу без виклику конструктора
+-   [ReflectionClass::newInstanceArgs()](reflectionclass.newinstanceargs.md) \- Створює екземпляр класу з переданими параметрами
+-   [ReflectionClass::newInstanceWithoutConstructor()](reflectionclass.newinstancewithoutconstructor.md) \- Створює новий екземпляр класу без виклику конструктора

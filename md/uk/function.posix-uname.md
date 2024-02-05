@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-ttyname.md: « posixttyname
+  - function.posix-ttyname.md: « posix\_ttyname
   - book.exec.md: Запуск програми "
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixuname
+  - ref.posix.md: POSIX Функції
+title: posix\_uname
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixuname
+# posix\_uname
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posixuname — Повертає інформацію про систему
+posix\_uname — Повертає інформацію про систему
 
 ### Опис
 
@@ -39,11 +40,11 @@ Posix вимагає, щоб розробники не покладалися н
 
 domainname це розширення GNU, а не частина POSIX.1, тому це поле доступне тільки для GNU систем або при використанні бібліотеки GNU libc.
 
-Функція повертає **`false`** у разі виникнення помилки.
+Функція повертає \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posixuname()****
+**Пример #1 Пример использования**posix\_uname()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ print_r($uname);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

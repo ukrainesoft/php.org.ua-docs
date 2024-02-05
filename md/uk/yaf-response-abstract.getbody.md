@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-response-abstract.destruct.md: '« YafResponseAbstract::destruct'
-  - yaf-response-abstract.getheader.md: 'YafResponseAbstract::getHeader »'
+  - yaf-response-abstract.destruct.md: '« Yaf\_Response\_Abstract::\_\_destruct'
+  - yaf-response-abstract.getheader.md: 'Yaf\_Response\_Abstract::getHeader »'
   - index.md: PHP Manual
-  - class.yaf-response-abstract.md: YafResponseAbstract
-title: 'YafResponseAbstract::getBody'
+  - class.yaf-response-abstract.md: Yaf\_Response\_Abstract
+title: 'Yaf\_Response\_Abstract::getBody'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafResponseAbstract::getBody
+# Yaf\_Response\_Abstract::getBody
 
 (Yaf >=1.0.0)
 
-YafResponseAbstract::getBody — Отримує існуючий вміст
+Yaf\_Response\_Abstract::getBody — Отримує існуючий вміст
 
 ### Опис
 
@@ -24,9 +25,9 @@ public Yaf_Response_Abstract::getBody(string $key = ?): mixed
 
 `key`
 
-Ключ вмісту, якщо ви не вкажете, використовуватиметься YafResponseAbstract::DEFAULTBODY. Якщо ви передасте \*\*`null`\*\*тоді весь вміст буде повернуто як масив
+Ключ вмісту, якщо ви не вкажете, використовуватиметься Yaf\_Response\_Abstract::DEFAULT\_BODY. Якщо ви передасте \*\*`null`\*\*тоді весь вміст буде повернуто як масив
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Параметр було додано з 2.2.0
 
@@ -34,7 +35,7 @@ public Yaf_Response_Abstract::getBody(string $key = ?): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafResponseAbstract::getBody()****
+**Пример #1 Пример использования**Yaf\_Response\_Abstract::getBody()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($response->getBody(NULL)); //получить все
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(5) "Привет"
@@ -65,7 +66,7 @@ array(2) {
 
 ### Дивіться також
 
--   [YafResponseAbstract::setBody()](yaf-response-abstract.setbody.md) - Встановлює вміст відповіді
--   [YafResponseAbstract::appendBody()](yaf-response-abstract.appendbody.md) - Додає вміст до тіла відповіді
--   [YafResponseAbstract::prependBody()](yaf-response-abstract.prependbody.md) - Призначення prependBody
--   [YafResponseAbstract::clearBody()](yaf-response-abstract.clearbody.md) - скидає все існуюче тіло відповіді
+-   [Yaf\_Response\_Abstract::setBody()](yaf-response-abstract.setbody.md) \- Встановлює вміст відповіді
+-   [Yaf\_Response\_Abstract::appendBody()](yaf-response-abstract.appendbody.md) \- Додає вміст до тіла відповіді
+-   [Yaf\_Response\_Abstract::prependBody()](yaf-response-abstract.prependbody.md) \- Призначення prependBody
+-   [Yaf\_Response\_Abstract::clearBody()](yaf-response-abstract.clearbody.md) \- скидає все існуюче тіло відповіді

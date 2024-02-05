@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getErrorCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getErrorCode
 
-# intlcalgeterrorcode
+# intlcal\_get\_error\_code
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlCalendar::getErrorCode -- intlcalgeterrorcode — Отримує останній код помилки об'єкта
+IntlCalendar::getErrorCode -- intlcal\_get\_error\_code — Отримує останній код помилки об'єкта
 
 ### Опис
 
@@ -28,11 +29,11 @@ public IntlCalendar::getErrorCode(): int|false
 intlcal_get_error_code(IntlCalendar $calendar): int|false
 ```
 
-Повертає числовий код помилки ICU для останнього виклику цього об'єкта (включаючи клонування) або [IntlCalendar](class.intlcalendar.md), вказаний для параметра `calendar` (У версії з процедурним стилем). Це може означати лише попередження (негативний код помилки) або повну відсутність помилки (**`U_ZERO_ERROR`**). Фактичну наявність помилки можна перевірити за допомогою [intlісfailure()](function.intl-is-failure.md)
+Повертає числовий код помилки ICU для останнього виклику цього об'єкта (включаючи клонування) або [IntlCalendar](class.intlcalendar.md), вказаний для параметра `calendar` (У версії з процедурним стилем). Це може означати лише попередження (негативний код помилки) або повну відсутність помилки (**`U_ZERO_ERROR`**). Фактичну наявність помилки можна перевірити за допомогою [intl\_is\_failure()](function.intl-is-failure.md)
 
 Недійсні аргументи, виявлені на стороні PHP (до виклику функцій бібліотеки ICU), не записуються для цієї функції.
 
-Останню помилку, яка відбулася за будь-якого виклику функції модуля intl, включаючи помилки ранніх аргументів, можна отримати за допомогою функції [intlgeterrorcode()](function.intl-get-error-code.md). Ця функція скидає глобальний код помилки, а чи не код помилки об'єкта.
+Останню помилку, яка відбулася за будь-якого виклику функції модуля intl, включаючи помилки ранніх аргументів, можна отримати за допомогою функції [intl\_get\_error\_code()](function.intl-get-error-code.md). Ця функція скидає глобальний код помилки, а чи не код помилки об'єкта.
 
 ### Список параметрів
 
@@ -42,11 +43,11 @@ intlcal_get_error_code(IntlCalendar $calendar): int|false
 
 ### Значення, що повертаються
 
-Код помилки ICU, що вказує на успішне виконання, збій чи попередження. Повертає **`false`** у разі виникнення помилки.
+Код помилки ICU, що вказує на успішне виконання, збій чи попередження. Повертає \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::getErrorCode()** і [IntlCalendar::getErrorMessage()](intlcalendar.geterrormessage.md)**
+**Пример #1 Пример использования**IntlCalendar::getErrorCode()**и[IntlCalendar::getErrorMessage()](intlcalendar.geterrormessage.md)**
 
 ```php
 <?php
@@ -66,7 +67,7 @@ var_dump(
 );
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(0)
@@ -79,8 +80,8 @@ string(81) "intlcal_field_difference: Call to ICU method has failed: U_ILLEGAL_A
 
 ### Дивіться також
 
--   [IntlCalendar::getErrorMessage()](intlcalendar.geterrormessage.md) - Отримує останнє повідомлення про помилку для об'єкта
--   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою
--   [intlerrorname()](function.intl-error-name.md) - Отримати ім'я помилки за її кодом
--   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
--   [intlgeterrormessage()](function.intl-get-error-message.md) - Отримати опис помилки
+-   [IntlCalendar::getErrorMessage()](intlcalendar.geterrormessage.md) \- Отримує останнє повідомлення про помилку для об'єкта
+-   [intl\_is\_failure()](function.intl-is-failure.md) \- Перевірити, чи є код помилки ознакою збою
+-   [intl\_error\_name()](function.intl-error-name.md) \- Отримати ім'я помилки за її кодом
+-   [intl\_get\_error\_code()](function.intl-get-error-code.md) \- Отримати код останньої помилки
+-   [intl\_get\_error\_message()](function.intl-get-error-message.md) \- Отримати опис помилки

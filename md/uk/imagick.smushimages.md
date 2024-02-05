@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::smushImages'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::smushImages
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
-Imagick::smushImages — Опис
+Imagick::smushImages — Виберіть усі зображення з поточного покажчика зображення до кінця списку зображень та переміщує їх.
 
 ### Опис
 
@@ -18,7 +19,7 @@ Imagick::smushImages — Опис
 public Imagick::smushImages(bool $stack, int $offset): Imagick
 ```
 
-Бере всі зображення з поточного покажчика зображення в кінець списку зображень і переміщує їх одне до одного зверху вниз, якщо параметр stack має значення true, інакше - зліва направо.
+Бере всі зображення з поточного покажчика зображення в кінець списку зображень і переміщує їх один до одного зверху вниз, якщо параметру stack встановлено значення true, інакше - зліва направо.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public Imagick::smushImages(bool $stack, int $offset): Imagick
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::smushImages()****
+**Пример #1 Пример использования**Imagick::smushImages()\*\*\*\*
 
 ```php
 <?php

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-remove-item.md: « fdfremoveitem
-  - function.fdf-save.md: fdfsave »
+  - function.fdf-remove-item.md: « fdf\_remove\_item
+  - function.fdf-save.md: fdf\_save »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfsavestring
+title: fdf\_save\_string
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfsavestring
+# fdf\_save\_string
 
-(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
+(PHP 4 >= 4.3.0, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfsavestring — Повертає документ FDF у вигляді рядка
+fdf\_save\_string — Повертає документ FDF у вигляді рядка
 
 ### Опис
 
@@ -24,11 +25,11 @@ fdf_save_string(resource $fdf_document): string
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md)or[fdf\_open\_string()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 
-Повертає документ у вигляді рядка або **`false`** у разі виникнення помилки.
+Повертає документ у вигляді рядка або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -44,7 +45,7 @@ echo $str;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 %FDF-1.2
@@ -69,7 +70,7 @@ trailer
 
 ### Дивіться також
 
--   [fdfopenstring()](function.fdf-open-string.md) - Читає FDF документ з рядка
--   [fdfclose()](function.fdf-close.md) - Закриває FDF-документ
--   [fdfcreate()](function.fdf-create.md) - Створює новий документ FDF
--   [fdfsave()](function.fdf-save.md) - Зберігає документ FDF
+-   [fdf\_open\_string()](function.fdf-open-string.md) \- Читає FDF документ з рядка
+-   [fdf\_close()](function.fdf-close.md) \- Закриває FDF-документ
+-   [fdf\_create()](function.fdf-create.md) \- Створює новий документ FDF
+-   [fdf\_save()](function.fdf-save.md) \- Зберігає документ FDF

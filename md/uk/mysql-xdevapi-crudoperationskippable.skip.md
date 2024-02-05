@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-crudoperationskippable.md: « mysqlxdevapiCrudOperationSkippable
-  - class.mysql-xdevapi-crudoperationsortable.md: mysqlxdevapiCrudOperationSortable »
+  - class.mysql-xdevapi-crudoperationskippable.md: « mysql\_xdevapi\\CrudOperationSkippable
+  - class.mysql-xdevapi-crudoperationsortable.md: mysql\_xdevapi\\CrudOperationSortable »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-crudoperationskippable.md: mysqlxdevapiCrudOperationSkippable
+  - class.mysql-xdevapi-crudoperationskippable.md: mysql\_xdevapi\\CrudOperationSkippable
 title: 'CrudOperationSkippable::skip'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CrudOperationSkippable::skip
 
@@ -22,7 +23,7 @@ abstract public mysql_xdevapi\CrudOperationSkippable::skip(int $skip): mysql_xde
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ abstract public mysql_xdevapi\CrudOperationSkippable::skip(int $skip): mysql_xde
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCrudOperationSkippable::skip()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CrudOperationSkippable::skip()\*\*\*\*
 
 ```php
 <?php

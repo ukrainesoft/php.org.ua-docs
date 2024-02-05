@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xmlrpc-decode.md: « xmlrpcdecode
-  - function.xmlrpc-encode.md: xmlrpcencode »
+  - function.xmlrpc-decode.md: « xmlrpc\_decode
+  - function.xmlrpc-encode.md: xmlrpc\_encode »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcencoderequest
+title: xmlrpc\_encode\_request
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcencoderequest
+# xmlrpc\_encode\_request
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcencoderequest — генерує XML для методу запиту
+xmlrpc\_encode\_request — генерує XML для методу запиту
 
 ### Опис
 
@@ -36,15 +37,15 @@ xmlrpc_encode_request(string $method, mixed $params, array $output_options = ?):
 
 Масив, що уточнює параметри виведення, може містити (значення за замовчуванням виділено):
 
--   outputtype: php, *xml*
+-   output\_type: php,*xml*
     
--   verbosity: nowhitespace, newlinesonly, *pretty*
+-   verbosity: no\_white\_space, newlines\_only,*pretty*
     
--   escaping: cdata, *non-ascii, non-print, markup* (може бути рядок з одним значенням або масив з кількома значеннями)
+-   escaping: cdata,*non-ascii, non-print, markup*(може бути рядок з одним значенням або масив з кількома значеннями)
     
--   version: simple, *xmlrpc*, soap 1.1, auto
+-   version: simple,*xmlrpc*, soap 1.1, auto
     
--   encoding: *iso-8859-1*, інший набір символів, що підтримується iconv
+-   encoding:*iso-8859-1*, інший набір символів, що підтримується iconv
     
 
 ### Значення, що повертаються
@@ -75,6 +76,6 @@ if ($response && xmlrpc_is_fault($response)) {
 
 ### Дивіться також
 
--   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку
--   [filegetcontents()](function.file-get-contents.md) - Читає вміст файлу в рядок
--   [xmlrpcdecode()](function.xmlrpc-decode.md) - Декодує XML у нативні типи PHP
+-   [stream\_context\_create()](function.stream-context-create.md) \- Створює контекст потоку
+-   [file\_get\_contents()](function.file-get-contents.md) \- Читає вміст файлу в рядок
+-   [xmlrpc\_decode()](function.xmlrpc-decode.md) \- Декодує XML у нативні типи PHP

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getHighlightRegexSlop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getHighlightRegexSlop
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::getHighlightRegexSlop — Повертає коефіцієнт відхилення від ідеального розміру фрагмента
 
@@ -26,4 +27,4 @@ public SolrQuery::getHighlightRegexSlop(): float
 
 ### Значення, що повертаються
 
-Повертає число з плаваючою точкою у разі успішного виконання та **`null`**, якщо значення не встановлено
+Повертає число з плаваючою точкою (float) у разі успішного виконання та **`null`**, якщо значення не встановлено.

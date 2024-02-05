@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::generateSignature'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::generateSignature
 
@@ -36,4 +37,4 @@ URL запиту
 
 ### Значення, що повертаються
 
-Рядок з підписом або **`false`** у разі виникнення помилки
+Строка с подписью или\*\*`false`\*\*в случае возникновения ошибки

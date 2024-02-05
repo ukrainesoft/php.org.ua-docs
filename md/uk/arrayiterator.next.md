@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::next'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayIterator::next
 
@@ -30,7 +31,7 @@ public ArrayIterator::next(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayIterator::next()****
+**Пример #1 Пример использования**ArrayIterator::next()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ while($iterator->valid()) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 0 => zero

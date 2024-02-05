@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::timeout'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::timeout
 
@@ -30,4 +31,4 @@ public GearmanWorker::timeout(): int
 
 ### Дивіться також
 
--   [GearmanWorker::setTimeout()](gearmanworker.settimeout.md) - Завдання часу очікування на введення/виведення на сокеті
+-   [GearmanWorker::setTimeout()](gearmanworker.settimeout.md) \- Завдання часу очікування на введення/виведення на сокеті

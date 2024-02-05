@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.fdf-set-target-frame.md: « fdfsettargetframe
-  - function.fdf-set-version.md: fdfsetversion »
+  - function.fdf-set-target-frame.md: « fdf\_set\_target\_frame
+  - function.fdf-set-version.md: fdf\_set\_version »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfsetvalue
+title: fdf\_set\_value
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfsetvalue
+# fdf\_set\_value
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfsetvalue — Встановлює значення поля
+fdf\_set\_value — Встановлює значення поля
 
 ### Опис
 
 ```methodsynopsis
-fdf_set_value(    resource $fdf_document,    string $fieldname,    mixed $value,    int $isName = ?): bool
+fdf_set_value(    resource $fdf_document,    string $fieldname,    mixed $value,    int $isName = ?): bool
 ```
 
-Встановлює `value` для заданого поля.
+Устанавливает`value`для заданного поля.
 
 ### Список параметрів
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md)or[fdf\_open\_string()](function.fdf-open-string.md)
 
 `fieldname`
 
@@ -36,7 +37,7 @@ fdf_set_value(    resource $fdf_document,    string $fieldname,    mixed $value,
 
 `isName`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > У старіших версіях набору інструментів FDF останній параметр визначав, чи має значення поля бути перетворено на PDF Name (= 1) чи встановлено PDF String (= 0).
 > 
@@ -44,9 +45,9 @@ fdf_set_value(    resource $fdf_document,    string $fieldname,    mixed $value,
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fdfgetvalue()](function.fdf-get-value.md) - Отримує значення поля
--   [fdfremoveitem()](function.fdf-remove-item.md) - Встановлює цільовий кадр для форми
+-   [fdf\_get\_value()](function.fdf-get-value.md) \- Отримує значення поля
+-   [fdf\_remove\_item()](function.fdf-remove-item.md) \- Встановлює цільовий кадр для форми

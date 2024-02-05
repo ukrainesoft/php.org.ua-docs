@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-fput.md: « ftpfput
-  - function.ftp-get.md: ftpget »
+  - function.ftp-fput.md: « ftp\_fput
+  - function.ftp-get.md: ftp\_get »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpgetoption
+title: ftp\_get\_option
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpgetoption
+# ftp\_get\_option
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-ftpgetoption — Отримує поточні параметри FTP-з'єднання.
+ftp\_get\_option — Отримує поточні параметри FTP-з'єднання.
 
 ### Опис
 
@@ -24,7 +25,7 @@ ftp_get_option(FTP\Connection $ftp, int $option): int|bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `option`
 
@@ -38,13 +39,13 @@ ftp_get_option(FTP\Connection $ftp, int $option): int|bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpgetoption()****
+**Пример #1 Пример использования**ftp\_get\_option()\*\*\*\*
 
 ```php
 <?php
@@ -55,4 +56,4 @@ $timeout = ftp_get_option($ftp, FTP_TIMEOUT_SEC);
 
 ### Дивіться також
 
--   [ftpsetoption()](function.ftp-set-option.md) - Встановлює параметри з'єднання з FTP-сервером
+-   [ftp\_set\_option()](function.ftp-set-option.md) \- Встановлює параметри з'єднання з FTP-сервером

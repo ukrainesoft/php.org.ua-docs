@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-execute.md: « odbcexecute
-  - function.odbc-fetch-into.md: odbcfetchinto »
+  - function.odbc-execute.md: « odbc\_execute
+  - function.odbc-fetch-into.md: odbc\_fetch\_into »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcfetcharray
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_fetch\_array
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcfetcharray
+# odbc\_fetch\_array
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-odbcfetcharray - Повертає рядок результату у вигляді асоціативного масиву
+odbc\_fetch\_array - Повертає рядок результату у вигляді асоціативного масиву
 
 ### Опис
 
@@ -24,7 +25,7 @@ odbc_fetch_array(resource $statement, int $row = -1): array|false
 
 `statement`
 
-Ресурс результату з [odbcexec()](function.odbc-exec.md)
+Ресурс результата из[odbc\_exec()](function.odbc-exec.md)
 
 `row`
 
@@ -40,6 +41,6 @@ odbc_fetch_array(resource $statement, int $row = -1): array|false
 
 ### Дивіться також
 
--   [odbcfetchrow()](function.odbc-fetch-row.md) - Повертає рядок
--   [odbcfetchobject()](function.odbc-fetch-object.md) - Повертає рядок результату у вигляді об'єкту
--   [odbcnumrows()](function.odbc-num-rows.md) - Повертає кількість рядків у результаті
+-   [odbc\_fetch\_row()](function.odbc-fetch-row.md) \- Повертає рядок
+-   [odbc\_fetch\_object()](function.odbc-fetch-object.md) \- Повертає рядок результату у вигляді об'єкту
+-   [odbc\_num\_rows()](function.odbc-num-rows.md) \- Повертає кількість рядків у результаті

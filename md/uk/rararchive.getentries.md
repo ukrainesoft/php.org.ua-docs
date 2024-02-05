@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.rararchive.md: RarArchive
 title: 'RarArchive::getEntries'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarArchive::getEntries
 
-# rarlist
+# rar\_list
 
 (PECL rar >= 2.0.0)
 
-RarArchive::getEntries -- rarlist — Повертає повний список елементів із RAR архіву
+RarArchive::getEntries -- rar\_list — Повертає повний список елементів із RAR архіву
 
 ### Опис
 
@@ -30,23 +31,23 @@ rar_list(RarArchive $rarfile): array|false
 
 Повертає елементи (файли та директорії) з RAR архіву.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо архів має елементи з однаковим ім'ям, цей метод спільно з циклом `foreach` по [RarArchive](class.rararchive.md) і доступом до нього як масиву з числовими індексами є єдиними способами отримати доступ до цих елементів (тобто . [RarArchive::getEntry()](rararchive.getentry.md) і [`rar://`обработчик (wrapper)](wrappers.rar.md) не допоможуть).
+> Якщо архів має елементи з однаковим ім'ям, цей метод спільно з циклом `foreach`по[RarArchive](class.rararchive.md) і доступом до нього як масиву з числовими індексами є єдиними способами отримати доступ до цих елементів (тобто . [RarArchive::getEntry()](rararchive.getentry.md) і [`rar://`обработчик (wrapper)](wrappers.rar.md)не помогут).
 
 ### Список параметрів
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.md) відкритий за допомогою [raropen()](rararchive.open.md)
+Об'єкт [RarArchive](class.rararchive.md) відкритий за допомогою [rar\_open()](rararchive.open.md)
 
 ### Значення, що повертаються
 
-**rarlist()** повертає масив об'єктів [RarEntry](class.rarentry.md) або **`false`** у разі виникнення помилки.
+**rar\_list()** повертає масив об'єктів [RarEntry](class.rarentry.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL rar 3.0.0 | Виправлена ​​підтримка RAR архівів з іменами елементів, що повторюються. |
 
@@ -74,7 +75,7 @@ $rar_arch->close();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Нашёл 2 объектов.
@@ -106,5 +107,5 @@ rar_close($rar_arch);
 
 ### Дивіться також
 
--   [RarArchive::getEntry()](rararchive.getentry.md) - Повертає об'єкт елемента з архіву RAR
--   [`rar://`обработчик(wrapper)](wrappers.rar.md)
+-   [RarArchive::getEntry()](rararchive.getentry.md) \- Повертає об'єкт елемента з архіву RAR
+-   [`rar://`обробник(wrapper)](wrappers.rar.md)

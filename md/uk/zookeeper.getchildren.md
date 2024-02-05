@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::getChildren'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zookeeper::getChildren
 
@@ -43,7 +44,7 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Zookeeper::getChildren()****
+**Пример #1 Пример использования**Zookeeper::getChildren()\*\*\*\*
 
 Перелічує дочірні елементи сайту.
 
@@ -59,7 +60,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {
@@ -70,6 +71,6 @@ array(1) {
 
 ### Дивіться також
 
--   [Zookeeper::create()](zookeeper.create.md) - Створює синхронно вузол
--   [Zookeeper::delete()](zookeeper.delete.md) - Видаляє синхронно вузол у zookeeper
+-   [Zookeeper::create()](zookeeper.create.md) \- Створює синхронно вузол
+-   [Zookeeper::delete()](zookeeper.delete.md) \- Видаляє синхронно вузол у zookeeper
 -   [ZookeeperException](class.zookeeperexception.md)

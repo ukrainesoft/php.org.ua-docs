@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-subclass-of.md: « issubclassоф
-  - function.property-exists.md: propertyexists »
+  - function.is-subclass-of.md: « is\_subclass\_of
+  - function.property-exists.md: property\_exists »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
-title: методexists
+title: method\_exists
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# методexists
+# method\_exists
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-методexists — Перевіряє, чи існує метод у цьому класі
+method\_exists — Перевіряє, чи існує метод у цьому класі
 
 ### Опис
 
@@ -36,7 +37,7 @@ method_exists(object|string $object_or_class, string $method): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **методexists()****
+**Пример #1 Пример использования**method\_exists()\*\*\*\*
 
 ```php
 <?php
@@ -45,13 +46,13 @@ var_dump(method_exists($directory,'read'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
 ```
 
-**Приклад #2 Приклад статичного використання **методexists()****
+**Приклад #2 Приклад статичного використання **method\_exists()****
 
 ```php
 <?php
@@ -59,7 +60,7 @@ var_dump(method_exists('Directory','read'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -67,12 +68,12 @@ bool(true)
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Виклик цієї функції буде використовувати всі зареєстровані [функции автозагрузки](language.oop5.autoload.md)якщо клас ще не відомий.
+> Виклик цієї функції буде використовувати всі зареєстровані [функції автозавантаження](language.oop5.autoload.md)якщо клас ще не відомий.
 
 ### Дивіться також
 
--   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена
--   [ісcallable()](function.is-callable.md) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
--   [classexists()](function.class-exists.md) - Перевіряє, чи був оголошений клас
+-   [function\_exists()](function.function-exists.md) \- Повертає true, якщо вказана функція визначена
+-   [is\_callable()](function.is-callable.md) \- Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [class\_exists()](function.class-exists.md) \- Перевіряє, чи був оголошений клас

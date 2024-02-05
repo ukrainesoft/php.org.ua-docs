@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::queryFonts'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::queryFonts
 
@@ -36,7 +37,7 @@ public static Imagick::queryFonts(string $pattern = "*"): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::queryFonts()****
+**Пример #1 Пример использования**Imagick::queryFonts()\*\*\*\*
 
 ```php
 <?php

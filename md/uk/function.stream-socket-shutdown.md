@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-socket-server.md: « streamsocketserver
-  - function.stream-supports-lock.md: streamsupportslock »
+  - function.stream-socket-server.md: « stream\_socket\_server
+  - function.stream-supports-lock.md: stream\_supports\_lock »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamsocketshutdown
+title: stream\_socket\_shutdown
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamsocketshutdown
+# stream\_socket\_shutdown
 
-(PHP 5> = 5.2.1, PHP 7, PHP 8)
+(PHP 5 >= 5.2.1, PHP 7, PHP 8)
 
-streamsocketshutdown — Закрити повнодуплексне з'єднання
+stream\_socket\_shutdown — Закрити повнодуплексне з'єднання
 
 ### Опис
 
@@ -20,7 +21,7 @@ stream_socket_shutdown(resource $stream, int $mode): bool
 
 Закриває (частково чи ні) повнодуплексне з'єднання.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Асоційовані буфери або буфери можуть бути закриті, а можуть і ні.
 
@@ -28,19 +29,19 @@ stream_socket_shutdown(resource $stream, int $mode): bool
 
 `stream`
 
-Відкритий потік (наприклад, відкритий за допомогою функції [streamsocketclient()](function.stream-socket-client.md)
+Відкритий потік (наприклад, відкритий за допомогою функції [stream\_socket\_client()](function.stream-socket-client.md)) .
 
 `mode`
 
-Одна з наступних констант: **`STREAM_SHUT_RD`** (відключає подальше отримання даних), **`STREAM_SHUT_WR`** (відключає подальшу передачу даних) або **`STREAM_SHUT_RDWR`** (Вимикає подальше отримання та передачу даних).
+Одна из следующих констант:**`STREAM_SHUT_RD`** (відключає подальше отримання даних), **`STREAM_SHUT_WR`** (відключає подальшу передачу даних) або **`STREAM_SHUT_RDWR`** (Вимикає подальше отримання та передачу даних).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **streamsocketshutdown()****
+**Пример #1 Пример использования**stream\_socket\_shutdown()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ var_dump(fputs($client, "привет")); // не работает сейчас
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(5)
@@ -67,4 +68,4 @@ int(0)
 
 ### Дивіться також
 
--   [fclose()](function.fclose.md) - Закриває відкритий дескриптор файлу
+-   [fclose()](function.fclose.md) \- Закриває відкритий дескриптор файлу

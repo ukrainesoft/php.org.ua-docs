@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.pool.md: Pool
 title: 'Pool::shutdown'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Pool::shutdown
 

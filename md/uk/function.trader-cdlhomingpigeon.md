@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlhikkakemod.md: « tradercdlhikkakemod
-  - function.trader-cdlidentical3crows.md: tradercdlidentical3crows »
+  - function.trader-cdlhikkakemod.md: « trader\_cdlhikkakemod
+  - function.trader-cdlidentical3crows.md: trader\_cdlidentical3crows »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlhomingpigeon
+  - ref.trader.md: Функції Trader
+title: trader\_cdlhomingpigeon
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlhomingpigeon
+# trader\_cdlhomingpigeon
 
 (PECL trader >= 0.2.0)
 
-tradercdlhomingpigeon - Свічкова модель "Поштовий голуб"
+trader\_cdlhomingpigeon - Свічкова модель "Поштовий голуб"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlhomingpigeon(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlhomingpigeon(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

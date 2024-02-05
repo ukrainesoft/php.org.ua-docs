@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xmlrpc-server-register-introspection-callback.md: « xmlrpcserverregisterintrospectioncallback
-  - function.xmlrpc-set-type.md: xmlrpcsettype »
+  - function.xmlrpc-server-register-introspection-callback.md: « xmlrpc\_server\_register\_introspection\_callback
+  - function.xmlrpc-set-type.md: xmlrpc\_set\_type »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcserverregisterметод
+title: xmlrpc\_server\_register\_method
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcserverregisterметод
+# xmlrpc\_server\_register\_method
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcserverregistermethod — Реєструє функцію PHP до методу ресурсу, що відповідає methodname
+xmlrpc\_server\_register\_method — Реєструє функцію PHP до методу ресурсу, що відповідає method\_name
 
 ### Опис
 
@@ -24,4 +25,4 @@ xmlrpc_server_register_method(resource $server, string $method_name, string $fun
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-patch.derive.md: '« ComponerePatch::derive'
-  - componere-patch.getclosures.md: 'ComponerePatch::getClosures »'
+  - componere-patch.derive.md: '« Componere\\Patch::derive'
+  - componere-patch.getclosures.md: 'Componere\\Patch::getClosures »'
   - index.md: PHP Manual
-  - class.componere-patch.md: ComponerePatch
-title: 'ComponerePatch::getClosure'
+  - class.componere-patch.md: Componere\\Patch
+title: 'Componere\\Patch::getClosure'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponerePatch::getClosure
+# Componere\\Patch::getClosure
 
 (Componere 2 >= 2.1.0)
 
-ComponerePatch::getClosure — Отримує замикання
+Componere\\Patch::getClosure — Отримує замикання
 
 ### Опис
 
@@ -34,4 +35,4 @@ public Componere\Patch::getClosure(string $name): Closure
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md) якщо `name` НЕ знайдений
+Викидає виняток [RuntimeException](class.runtimeexception.md) якщо `name`не найден

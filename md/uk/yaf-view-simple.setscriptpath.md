@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-view-simple.set.md: '« YafViewSimple::set'
-  - class.yaf-loader.md: YafLoader »
+  - yaf-view-simple.set.md: '« Yaf\_View\_Simple::\_\_set'
+  - class.yaf-loader.md: Yaf\_Loader »
   - index.md: PHP Manual
-  - class.yaf-view-simple.md: YafViewSimple
-title: 'YafViewSimple::setScriptPath'
+  - class.yaf-view-simple.md: Yaf\_View\_Simple
+title: 'Yaf\_View\_Simple::setScriptPath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafViewSimple::setScriptPath
+# Yaf\_View\_Simple::setScriptPath
 
 (Yaf >=1.0.0)
 
-YafViewSimple::setScriptPath — Встановлює каталог шаблонів
+Yaf\_View\_Simple::setScriptPath — Встановлює каталог шаблонів
 
 ### Опис
 

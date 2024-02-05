@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-schema.getname.md: '« Schema::getName'
   - mysql-xdevapi-schema.gettable.md: 'Schema::getTable »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysql\_xdevapi\\Schema
 title: 'Schema::getSession'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Schema::getSession
 
 (No version information available, might only be in Git)
 
-Schema::getSession — Отримати сесію схеми
+Schema::getSession — Отримує сесію схеми
 
 ### Опис
 
@@ -18,7 +19,7 @@ Schema::getSession — Отримати сесію схеми
 public mysql_xdevapi\Schema::getSession(): mysql_xdevapi\Session
 ```
 
-Отримання нового об'єкта Session із Schema.
+Отримує новий об'єкт класу Session із об'єкта класу Schema.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public mysql_xdevapi\Schema::getSession(): mysql_xdevapi\Session
 
 ### Значення, що повертаються
 
-Об'єкт Session.
+Повертає об'єкт класу Session.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSchema::getSession()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::getSession()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($newsession);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(mysql_xdevapi\Session)#1 (0) {

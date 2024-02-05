@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rparser.precedence.md: '« ParleRParser::precedence'
-  - parle-rparser.reset.md: 'ParleRParser::reset »'
+  - parle-rparser.precedence.md: '« Parle\\RParser::precedence'
+  - parle-rparser.reset.md: 'Parle\\RParser::reset »'
   - index.md: PHP Manual
-  - class.parle-rparser.md: ParleRParser
-title: 'ParleRParser::push'
+  - class.parle-rparser.md: Parle\\RParser
+title: 'Parle\\RParser::push'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRParser::push
+# Parle\\RParser::push
 
 (PECL parle >= 0.7.0)
 
-ParleRParser::push — Додає граматичне правило
+Parle\\RParser::push — Додає граматичне правило
 
 ### Опис
 

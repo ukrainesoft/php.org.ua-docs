@@ -1,12 +1,13 @@
 ---
 navigation:
-  - componere.installation.md: « Установка
-  - componere-abstract-definition.addinterface.md: 'ComponereAbstractDefinition::addInterface »'
+  - componere.installation.md: « Встановлення
+  - componere-abstract-definition.addinterface.md: 'Componere\\Abstract\\Definition::addInterface »'
   - index.md: PHP Manual
   - book.componere.md: Componere
-title: Клас ComponereAbstractDefinition
+title: Клас Componere\\Abstract\\Definition
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас ComponereAbstractDefinition
+# Клас Componere\\Abstract\\Definition
 
 (Componere 2 >= 2.1.0)
 
@@ -41,7 +42,7 @@ public getReflector(): ReflectionClass
 
 ## Зміст
 
--   [ComponereAbstractDefinition::addInterface](componere-abstract-definition.addinterface.md) — Додає інтерфейс
--   [ComponereAbstractDefinition::addMethod](componere-abstract-definition.addmethod.md) — Додає метод
--   [ComponereAbstractDefinition::addTrait](componere-abstract-definition.addtrait.md) - Додає трейт
--   [ComponereAbstractDefinition::getReflector](componere-abstract-definition.getreflector.md) - Reflection
+-   [Componere\\Abstract\\Definition::addInterface](componere-abstract-definition.addinterface.md)— Додає інтерфейс
+-   [Componere\\Abstract\\Definition::addMethod](componere-abstract-definition.addmethod.md)— Додає метод
+-   [Componere\\Abstract\\Definition::addTrait](componere-abstract-definition.addtrait.md) \- Додає трейт
+-   [Componere\\Abstract\\Definition::getReflector](componere-abstract-definition.getreflector.md)— Reflection

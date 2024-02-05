@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.ui-draw-line-join.md: « UIDrawLineJoin
-  - class.ui-exception-invalidargumentexception.md: ОЙExceptionInvalidArgumentException »
+  - class.ui-draw-line-join.md: « UI\\Draw\\Line\\Join
+  - class.ui-exception-invalidargumentexception.md: UI\\Exception\\InvalidArgumentException »
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Ключові ідентифікатори
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Ключові ідентифікатори
 
@@ -14,7 +15,7 @@ title: Ключові ідентифікатори
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 

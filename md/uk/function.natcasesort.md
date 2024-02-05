@@ -5,28 +5,29 @@ navigation:
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: natcasesort
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # natcasesort
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-natcasesort — Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів
+natcasesort — Сортує масив алгоритмом природного сортування (natural order) без урахування регістру символів
 
 ### Опис
 
 ```methodsynopsis
-natcasesort(array &$array): bool
+natcasesort(array &$array): true
 ```
 
-**natcasesort()** - це реєстронезалежний аналог [natsort()](function.natsort.md)
+Функция**natcasesort()** - це реєстронезалежний аналог функції [natsort()](function.natsort.md)
 
-Ця функція реалізує алгоритм сортування, у якому порядок літерно-цифрових рядків буде звичним для людини. Такий алгоритм називається "natural ordering".
+Функція реалізує алгоритм сортування, у якому порядок літерно-цифрових рядків буде звичним для людини. Такий алгоритм називається natural ordering.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо обидва порівнювані значення еквівалентні, вони зберігають свій початковий порядок. До PHP 8.0.0 їх відносний порядок у відсортованому масиві не було визначено.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Скидає внутрішній покажчик масиву перший елемент.
 
@@ -40,12 +41,19 @@ natcasesort(array &$array): bool
 
 Функція завжди повертає **`true`**
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
+
 ### Приклади
 
-**Приклад #1 Приклад використання **natcasesort()****
+**Пример #1 Пример использования функции**natcasesort()\*\*\*\*
 
 ```php
 <?php
+
 $array1 = $array2 = array('IMG0.png', 'img12.png', 'img10.png', 'img2.png', 'img1.png', 'IMG3.png');
 
 sort($array1);
@@ -53,12 +61,12 @@ echo "Обычная сортировка\n";
 print_r($array1);
 
 natcasesort($array2);
-echo "\nNatural order сортировка (без учёта регистра)\n";
+echo "\nЕстественная сортировка (natural order) (без учёта регистра)\n";
 print_r($array2);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Обычная сортировка
@@ -72,7 +80,7 @@ Array
     [5] => img2.png
 )
 
-Natural order сортировка (без учёта регистра)
+Естественная сортировка (natural order) (без учёта регистра)
 Array
 (
     [0] => IMG0.png
@@ -84,7 +92,7 @@ Array
 )
 ```
 
-Детальніше дивіться статтю Martin Pool [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
+Больше информации дано на странице Мартина Пула (Martin Pool)[» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
 
 ### Дивіться також
 

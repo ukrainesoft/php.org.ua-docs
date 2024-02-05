@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.v8jsexception.md: V8JsException
 title: 'V8JsException::getJsFileName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # V8JsException::getJsFileName
 
 (PECL v8js >= 0.1.0)
 
-V8JsException::getJsFileName — Отримати ім'я файлу JavaScript
+V8JsException::getJsFileName — Отримати ім'я JavaScript
 
 ### Опис
 
@@ -20,7 +21,7 @@ final public V8JsException::getJsFileName(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-queue.allocate.md: '« DsQueue::allocate'
-  - ds-queue.clear.md: 'ДсQueue::clear »'
+  - ds-queue.allocate.md: '« Ds\\Queue::allocate'
+  - ds-queue.clear.md: 'Ds\\Queue::clear »'
   - index.md: PHP Manual
-  - class.ds-queue.md: Черга
-title: 'ДсQueue::capacity'
+  - class.ds-queue.md: Ds\\Queue
+title: 'Ds\\Queue::capacity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсQueue::capacity
+# Ds\\Queue::capacity
 
 (PECL ds >= 1.0.0)
 
-ДсQueue::capacity — Повертає поточну місткість
+Ds\\Queue::capacity — Повертає поточну місткість
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Queue::capacity(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсQueue::capacity()****
+**Пример #1 Пример использования**Ds\\Queue::capacity()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($queue->capacity());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(8)

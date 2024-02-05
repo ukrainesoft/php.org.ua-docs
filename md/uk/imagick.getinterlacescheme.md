@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getInterlaceScheme'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getInterlaceScheme
 
@@ -26,7 +27,7 @@ public Imagick::getInterlaceScheme(): int
 
 ### Значення, що повертаються
 
-Отримує схему [сжатия изображения](imagick.constants.md#imagick.constants.interlace)
+Отримує схему [стиснення зображення](imagick.constants.md#imagick.constants.interlace)
 
 ### Помилки
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - streamwrapper.destruct.md: '« streamWrapper::destruct'
-  - streamwrapper.dir-opendir.md: 'streamWrapper::diropendir »'
+  - streamwrapper.destruct.md: '« streamWrapper::\_\_destruct'
+  - streamwrapper.dir-opendir.md: 'streamWrapper::dir\_opendir »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
-title: 'streamWrapper::dirclosedir'
+title: 'streamWrapper::dir\_closedir'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamWrapper::dirclosedir
+# streamWrapper::dir\_closedir
 
-(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::dirclosedir — Закрити дескриптор директорії
+streamWrapper::dir\_closedir — Закрити дескриптор директорії
 
 ### Опис
 
@@ -28,9 +29,9 @@ public streamWrapper::dir_closedir(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [closedir()](function.closedir.md) - Закриває дескриптор каталогу
--   [streamWrapper::diropendir()](streamwrapper.dir-opendir.md) - відкрити дескриптор директорії
+-   [closedir()](function.closedir.md) \- Закриває дескриптор каталогу
+-   [streamWrapper::dir\_opendir()](streamwrapper.dir-opendir.md) \- відкрити дескриптор директорії

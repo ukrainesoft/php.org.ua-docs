@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.expect.md: « Функции Expect
-  - function.expect-popen.md: expectpopen »
+  - ref.expect.md: « Функції Expect
+  - function.expect-popen.md: expect\_popen »
   - index.md: PHP Manual
-  - ref.expect.md: Функции Expect
-title: expectexpectl
+  - ref.expect.md: Опції Expect
+title: expect\_expectl
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# expectexpectl
+# expect\_expectl
 
 (PECL expect >= 0.1.0)
 
-expectexpectl — Очікує, доки виведення потоку не співпаде з одним із шаблонів, або доки не закінчиться максимальний час очікування, або повернеться EOF
+expect\_expectl — Очікує, доки виведення потоку не співпаде з одним із шаблонів, або доки не закінчиться максимальний час очікування, або повернеться EOF
 
 ### Опис
 
@@ -20,13 +21,13 @@ expect_expectl(resource $expect, array $cases, array &$match = ?): int
 
 Очікує, поки виведення потоку не співпаде з одним із шаблонів, або поки не закінчиться максимальний час очікування, або повернеться EOF.
 
-Якщо встановлено параметр `match`, він заповнюється з результатами пошуку. Збіглий рядок буде збережено в `match[0]`. Підрядки, що збіглися (залежно від дужок) в оригінальному шаблоні будуть збережені в `match[1]` `match[2]`, аж до `match[9]` (Обмеження libexpect).
+Если задан параметр`match`, він заповнюється з результатами пошуку. Збіглий рядок буде збережено в `match[0]`. Підрядки, що збіглися (залежно від дужок) в оригінальному шаблоні будуть збережені в `match[1]` `match[2]`, вплоть до`match[9]`(ограничения libexpect).
 
 ### Список параметрів
 
 `expect`
 
-Потік Expect, відкритий за допомогою [expectpopen()](function.expect-popen.md)
+Потік Expect, відкритий за допомогою [expect\_popen()](function.expect-popen.md)
 
 `cases`
 
@@ -34,7 +35,7 @@ expect_expectl(resource $expect, array $cases, array &$match = ?): int
 
 **Expect Case Array**
 
-| Индекс | Тип значения | Описание | Обязательный | Значение по умолчанию |
+| Индекс | Тип значения | Опис | Обязательный | Значение по умолчанию |
 | --- | --- | --- | --- | --- |
 |  | string | шаблон, який порівнюватиметься з потоком виводу | так |  |
 |  | mixed | значення, яке поверне функція, якщо збіг знайдено | так |  |
@@ -48,13 +49,13 @@ expect_expectl(resource $expect, array $cases, array &$match = ?): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL expect 0.2.1 | До версії 0.2.1, параметр `match` повертався рядок, а не масив рядків, що збіглися. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **expectexpectl()****
+**Пример #1 Пример использования**expect\_expectl()\*\*\*\*
 
 ```php
 <?php
@@ -91,4 +92,4 @@ fclose($stream);
 
 ### Дивіться також
 
--   [expectpopen()](function.expect-popen.md) - Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY
+-   [expect\_popen()](function.expect-popen.md) \- Запускає команду через командну оболонку Bourne та відкриває для процесу потік PTY

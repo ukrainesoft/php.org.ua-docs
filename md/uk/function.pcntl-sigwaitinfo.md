@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pcntl-sigtimedwait.md: pcntlsigtimedwait
-  - function.pcntl-strerror.md: pcntlstrerror »
+  - function.pcntl-sigtimedwait.md: « pcntl\_sigtimedwait
+  - function.pcntl-strerror.md: pcntl\_strerror »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
-title: pcntlsigwaitinfo
+title: pcntl\_sigwaitinfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pcntlsigwaitinfo
+# pcntl\_sigwaitinfo
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-pcntlsigwaitinfo — Очікування сигналів
+pcntl\_sigwaitinfo — Очікування сигналів
 
 ### Опис
 
@@ -18,7 +19,7 @@ pcntlsigwaitinfo — Очікування сигналів
 pcntl_sigwaitinfo(array $signals, array &$info = []): int|false
 ```
 
-Функція **pcntlsigwaitinfo()** призупиняє виконання скрипту, що викликає, до тих пір, поки не буде доставлений один із сигналів, зазначених у `signals`. Якщо один із сигналів вже очікує обробки (наприклад, заблоковано [pcntlsigprocmask()](function.pcntl-sigprocmask.md)**pcntlsigwaitinfo()** негайно поверне управління.
+Функция**pcntl\_sigwaitinfo()** призупиняє виконання скрипту, що викликає, до тих пір, поки не буде доставлений один із сигналів, зазначених у `signals`. Якщо один із сигналів вже очікує обробки (наприклад, заблоковано [pcntl\_sigprocmask()](function.pcntl-sigprocmask.md)),**pcntl\_sigwaitinfo()** негайно поверне управління.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ pcntl_sigwaitinfo(array $signals, array &$info = []): int|false
 
 `info`
 
-Аргумент `info` масив, що містить інформацію про сигнал.
+Аргумент`info`массив, содержащий информацию о сигнале.
 
 Наступні ключі масиву (аргументу) застосовні всім сигналів
 
@@ -36,7 +37,7 @@ pcntl_sigwaitinfo(array $signals, array &$info = []): int|false
 -   errno: Номер помилки
 -   код: Код сигналу
 
-Наступні елементи масиву застосовуються для сигналу **`SIGCHLD`**
+Наступні елементи масиву застосовуються для сигналу **`SIGCHLD`** :
 
 -   status: Статус виходу дочірнього процесу або сигнал, що змусив дочірній процес змінити стан
 -   utime: Потрібний час користувача
@@ -44,7 +45,7 @@ pcntl_sigwaitinfo(array $signals, array &$info = []): int|false
 -   pid: ID процесу-відправника
 -   uid: ID користувача, що володіє процесом-відправником
 
-Наступні елементи масиву застосовуються для сигналів **`SIGILL`** **`SIGFPE`** **`SIGSEGV`** і **`SIGBUS`**
+Наступні елементи масиву застосовуються для сигналів **`SIGILL`** **`SIGFPE`** **`SIGSEGV`**и**`SIGBUS`** :
 
 -   addr: Адреса пам'яті, в якій стався збій
 
@@ -55,11 +56,11 @@ pcntl_sigwaitinfo(array $signals, array &$info = []): int|false
 
 ### Значення, що повертаються
 
-У разі успішного виконання функція **pcntlsigwaitinfo()** повертає номер сигналу або **`false`** у разі виникнення помилки.
+У разі успішного виконання функція **pcntl\_sigwaitinfo()** повертає номер сигналу або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pcntlsigwaitinfo()****
+**Пример #1 Пример использования**pcntl\_sigwaitinfo()\*\*\*\*
 
 ```php
 <?php
@@ -77,5 +78,5 @@ pcntl_sigwaitinfo(array(SIGHUP), $info);
 
 ### Дивіться також
 
--   [pcntlsigprocmask()](function.pcntl-sigprocmask.md) - Задає та витягує список сигналів, що блокуються.
--   [pcntlsigtimedwait()](function.pcntl-sigtimedwait.md) - Очікує сигнали протягом заданого часу
+-   [pcntl\_sigprocmask()](function.pcntl-sigprocmask.md) \- Задає та витягує список сигналів, що блокуються.
+-   [pcntl\_sigtimedwait()](function.pcntl-sigtimedwait.md) \- Очікує сигнали протягом заданого часу

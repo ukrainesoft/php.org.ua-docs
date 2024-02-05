@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isAbstract'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::isAbstract
 
@@ -26,11 +27,11 @@ public ReflectionClass::isAbstract(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::isAbstract()****
+**Пример #1 Пример использования**ReflectionClass::isAbstract()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ var_dump($abstractClass->isAbstract());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -54,5 +55,5 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionClass::isInterface()](reflectionclass.isinterface.md) - Перевіряє, чи є клас інтерфейсом
+-   [ReflectionClass::isInterface()](reflectionclass.isinterface.md) \- Перевіряє, чи є клас інтерфейсом
 -   [Абстрактні класи](language.oop5.abstract.md)

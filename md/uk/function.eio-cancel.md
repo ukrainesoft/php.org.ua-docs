@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.eio-busy.md: « eiobusy
-  - function.eio-chmod.md: eiochmod »
+  - function.eio-busy.md: « eio\_busy
+  - function.eio-chmod.md: eio\_chmod »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiocancel
+  - ref.eio.md: Eio Функції
+title: eio\_cancel
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiocancel
+# eio\_cancel
 
 (PECL eio >= 0.0.1dev)
 
-eiocancel — Скасовує запит
+eio\_cancel — Скасовує запит
 
 ### Опис
 
@@ -18,7 +19,7 @@ eiocancel — Скасовує запит
 eio_cancel(resource $req): void
 ```
 
-**eiocancel()** скасовує запит, визначений у `req`
+**eio\_cancel()** скасовує запит, визначений у `req`
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ eio_cancel(resource $req): void
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -48,11 +49,11 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
-Довільна змінна, що передається в `callback`функцію.
+Произвольная переменная, передаваемая в`callback`\-функцію.
 
 ### Значення, що повертаються
 
@@ -60,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Приклади
 
-**Приклад #1 **eiocancel()** example**
+**Пример #1**eio\_cancel()**example**
 
 ```php
 <?php
@@ -82,7 +83,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 resource(4) of type (EIO Request Descriptor)
@@ -91,4 +92,4 @@ my_nop 2
 
 ### Дивіться також
 
--   [eiogrpcancel()](function.eio-grp-cancel.md) - Скасує групу запитів
+-   [eio\_grp\_cancel()](function.eio-grp-cancel.md) \- Скасує групу запитів

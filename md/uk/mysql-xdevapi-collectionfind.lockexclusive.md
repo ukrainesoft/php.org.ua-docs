@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionfind.limit.md: '« CollectionFind::limit'
   - mysql-xdevapi-collectionfind.lockshared.md: 'CollectionFind::lockShared »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysql\_xdevapi\\CollectionFind
 title: 'CollectionFind::lockExclusive'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionFind::lockExclusive
 
@@ -18,15 +19,15 @@ CollectionFind::lockExclusive — Виконує операцію з EXCLUSIVE L
 public mysql_xdevapi\CollectionFind::lockExclusive(int $lock_waiting_option = ?): mysql_xdevapi\CollectionFind
 ```
 
-Блокує виключно документ, інші транзакції блокуються з моменту оновлення документа і доти, доки документ заблоковано. Поки документ заблоковано, інші транзакції не можуть оновлювати ці документи, виконувати SELECT ... LOCK IN SHARE MODE або читати дані на певних рівнях ізоляції транзакцій. Послідовні читання ігнорують будь-які блокування, встановлені для записів, які існують у поданні читання.
+Накладає на документ виняткове блокування. Доки документ заблоковано, інші транзакції не можуть оновлювати документ, виконувати вирази `SELECT ... LOCK IN SHARE MODE` чи читати дані на окремих рівнях ізоляції транзакцій. Узгоджені читання ігнорують будь-які блокування, встановлені для записів, які існують у поданні читання.
 
-Функція корисна безпосередньо з командою modify() щоб уникнути проблем паралелізму. По суті вона серіалізує доступ до рядка через блокування рядка.
+Щоб не було проблем з конкурентним доступом, має сенс викликати цей метод спільно з методом **mysql\_xdevapi\\Collection::modify()**. Фактично, ця функція використовує блокування рядків для серіалізації доступу до рядків.
 
 ### Список параметрів
 
 `lock_waiting_option`
 
-Додаткова опція очікування. За замовчуванням має значення **`MYSQLX_LOCK_DEFAULT`**. Допустимі значення представлені константами:
+Дополнительная опция ожидания. Значение по умолчанию —\*\*`MYSQLX_LOCK_DEFAULT`\*\*. Допустимі значення визначені константами:
 
 -   **`MYSQLX_LOCK_DEFAULT`**
     
@@ -37,11 +38,11 @@ public mysql_xdevapi\CollectionFind::lockExclusive(int $lock_waiting_option = ?)
 
 ### Значення, що повертаються
 
-Повертає об'єкт CollectionFind, який можна використовувати для подальшої обробки.
+Повертає об'єкт класу CollectionFind, з яким можна буде працювати далі.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionFind::lockExclusive()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\CollectionFind::lockExclusive()\*\*\*\*
 
 ```php
 <?php

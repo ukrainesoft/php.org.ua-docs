@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::getDnsErrorString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::getDnsErrorString
 
@@ -31,4 +32,4 @@ public
 
 ### Дивіться також
 
--   [EventBufferEvent::connectHost()](eventbufferevent.connecthost.md) - Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
+-   [EventBufferEvent::connectHost()](eventbufferevent.connecthost.md) \- Підключається на ім'я хоста з можливістю асинхронного дозволу DNS

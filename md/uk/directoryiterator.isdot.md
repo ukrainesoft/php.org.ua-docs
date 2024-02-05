@@ -1,16 +1,17 @@
 ---
 navigation:
-  - directoryiterator.isdir.md: '« DirectoryIterator::isDir'
-  - directoryiterator.isexecutable.md: 'DirectoryIterator::isExecutable »'
+  - directoryiterator.getfilename.md: '« DirectoryIterator::getFilename'
+  - directoryiterator.key.md: 'DirectoryIterator::key »'
   - index.md: PHP Manual
   - class.directoryiterator.md: DirectoryIterator
 title: 'DirectoryIterator::isDot'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DirectoryIterator::isDot
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::isDot — Визначає, чи є поточний елемент DirectoryIterator '.' або '..'
+DirectoryIterator::isDot — Визначає, чи є поточний елемент DirectoryIterator '.' або '.'.
 
 ### Опис
 
@@ -18,7 +19,7 @@ DirectoryIterator::isDot — Визначає, чи є поточний елем
 public DirectoryIterator::isDot(): bool
 ```
 
-Визначає, чи є поточний елемент [DirectoryIterator](class.directoryiterator.md) `.` або `..`
+Визначає, чи є поточний елемент [DirectoryIterator](class.directoryiterator.md) или `.. .`
 
 ### Список параметрів
 
@@ -26,13 +27,13 @@ public DirectoryIterator::isDot(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо елемент є `.` або `..`, інакше повертає **`false`**
+Повертає **`true`**, якщо елемент є или `.. .` , в іншому випадку повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DirectoryIterator::isDot()****
+**Пример #1 Пример использования**DirectoryIterator::isDot()\*\*\*\*
 
-Приклад виведе список усіх файлів у директорії, крім `.` і `..`
+У цьому прикладі будуть перераховані всі файли, за винятком елементів и `.. .`
 
 ```php
 <?php
@@ -45,7 +46,7 @@ foreach ($iterator as $fileinfo) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 apple.jpg
@@ -56,7 +57,7 @@ pears.jpg
 
 ### Дивіться також
 
--   [DirectoryIterator::getType()](directoryiterator.gettype.md) - Визначає тип поточного елемента DirectoryIterator
--   [DirectoryIterator::isDir()](directoryiterator.isdir.md) - Визначає, чи є поточний елемент DirectoryIterator директорією
--   [DirectoryIterator::isFile()](directoryiterator.isfile.md) - Визначає, чи є поточний елемент DirectoryIterator звичайним файлом
--   [DirectoryIterator::isLink()](directoryiterator.islink.md) - Визначає, чи є поточний елемент DirectoryIterator символічним посиланням
+-   **DirectoryIterator::getType()**
+-   **DirectoryIterator::isDir()**
+-   **DirectoryIterator::isFile()**
+-   **DirectoryIterator::isLink()**

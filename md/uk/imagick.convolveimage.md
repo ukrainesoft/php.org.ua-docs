@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::convolveImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::convolveImage
 
@@ -18,7 +19,7 @@ Imagick::convolveImage — Застосовує ядро ​​згортки д
 public Imagick::convolveImage(array $kernel, int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
-Застосовує ядро ​​користувача згортки до зображення.
+Застосовується ядро ​​згортки до зображення.
 
 ### Список параметрів
 
@@ -40,7 +41,7 @@ public Imagick::convolveImage(array $kernel, int $channel = Imagick::CHANNEL_DEF
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::convolveImage()****
+**Пример #1 Пример использования**Imagick::convolveImage()\*\*\*\*
 
 ```php
 <?php

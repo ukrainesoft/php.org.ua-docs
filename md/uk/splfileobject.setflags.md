@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::setFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::setFlags
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::setFlags — Встановлює прапори для SplFileObject
 
@@ -24,7 +25,7 @@ public SplFileObject::setFlags(int $flags): void
 
 `flags`
 
-Бітова маска прапори для встановлення. Дивіться [константи SplFileObject](class.splfileobject.md#splfileobject.constants) щоб отримати список доступних прапорів.
+Битовая маска флагов для установки. Смотрите[константи SplFileObject](class.splfileobject.md#splfileobject.constants) щоб отримати список доступних прапорів.
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public SplFileObject::setFlags(int $flags): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::setFlags()****
+**Пример #1 Пример использования**SplFileObject::setFlags()\*\*\*\*
 
 ```php
 <?php
@@ -46,4 +47,4 @@ foreach ($file as $fields) {
 
 ### Дивіться також
 
--   [SplFileObject::getFlags()](splfileobject.getflags.md) - Отримує прапори налаштування об'єкта SplFileObject
+-   [SplFileObject::getFlags()](splfileobject.getflags.md) \- Отримує прапори налаштування об'єкта SplFileObject

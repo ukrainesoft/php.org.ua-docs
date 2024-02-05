@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.simplexmlelement.md: SimpleXMLElement
 title: 'SimpleXMLElement::getName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SimpleXMLElement::getName
 
-(PHP 5> = 5.1.3, PHP 7, PHP 8)
+(PHP 5 >= 5.1.3, PHP 7, PHP 8)
 
 SimpleXMLElement::getName — Отримує ім'я елемента XML
 
@@ -26,13 +27,13 @@ public SimpleXMLElement::getName(): string
 
 ### Значення, що повертаються
 
-Метод `getName` повертає ім'я XML тега у вигляді рядка (string), на який посилається об'єкт SimpleXMLElement.
+Метод`getName` повертає ім'я XML тега у вигляді рядка (string), на який посилається об'єкт SimpleXMLElement.
 
 ### Приклади
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базовому использованию](simplexml.examples-basic.md)
+> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базового використання](simplexml.examples-basic.md)
 
 **Приклад #1 Отримання імен XML-елемента**
 
@@ -51,7 +52,7 @@ foreach ($sxe->children() as $child)
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 movies

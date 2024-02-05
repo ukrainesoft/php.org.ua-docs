@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apcu-add.md: « apcuadd
-  - function.apcu-cas.md: apcucas »
+  - function.apcu-add.md: « apcu\_add
+  - function.apcu-cas.md: apcu\_cas »
   - index.md: PHP Manual
-  - ref.apcu.md: Функции APCu
-title: apcucacheinfo
+  - ref.apcu.md: Функції APCu
+title: apcu\_cache\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apcucacheinfo
+# apcu\_cache\_info
 
 (PECL apcu >= 4.0.0)
 
-apcucacheinfo — Витягує закешовану інформацію зі сховища APCu
+apcu\_cache\_info — Витягує закешовану інформацію зі сховища APCu
 
 ### Опис
 
@@ -24,24 +25,24 @@ apcu_cache_info(bool $limited = false): array|false
 
 `limited`
 
-Якщо `limited` заданий як **`true`**, що повертається значення не міститиме індивідуальний список записів кеша. Це корисно під час спроб оптимізувати дзвінки для отримання статистики.
+Якщо `limited`задан как\*\*`true`\*\*, що повертається значення не міститиме індивідуальний список записів кеша. Це корисно під час спроб оптимізувати дзвінки для отримання статистики.
 
 ### Значення, що повертаються
 
-Масив кешованих даних (і метадані) або **`false`** у разі виникнення помилки
+Масив кешованих даних (і метадані) або \*\*`false`\*\*в случае возникновения ошибки
 
-> **Зауваження** **apcucacheinfo()** Викликає попередження, якщо неможливо отримати дані кеша APC. Зазвичай це відбувається, якщо APC не дозволено.
+> **Зауваження** **apcu\_cache\_info()** Викликає попередження, якщо неможливо отримати дані кеша APC. Зазвичай це відбувається, якщо APC не дозволено.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL apcu 3.0.11 | Доданий параметр `limited` |
+| PECL apcu 3.0.11 | Добавлен параметр`limited` |
 | PECL apcu 3.0.16 | Додана опція "`filehits`для параметра `cache_type` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apcucacheinfo()****
+**Пример #1 Пример использования**apcu\_cache\_info()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ print_r(apcu_cache_info());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -82,6 +83,6 @@ Array
 ### Дивіться також
 
 -   [Директиви конфігурації APCu](apcu.configuration.md)
--   [APCUIterator::getTotalSize()](apcuiterator.gettotalsize.md) - Загальний розмір кешу
--   [APCUIterator::getTotalHits()](apcuiterator.gettotalhits.md) - Отримати загальну кількість влучень у кеш
--   [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.md) - Отримати загальну кількість записів
+-   [APCUIterator::getTotalSize()](apcuiterator.gettotalsize.md) \- Загальний розмір кешу
+-   [APCUIterator::getTotalHits()](apcuiterator.gettotalhits.md) \- Отримати загальну кількість влучень у кеш
+-   [APCUIterator::getTotalCount()](apcuiterator.gettotalcount.md) \- Отримати загальну кількість записів

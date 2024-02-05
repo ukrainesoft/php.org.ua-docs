@@ -1,14 +1,15 @@
 ---
 navigation:
-  - reflectionmethod.isstatic.md: '« ReflectionMethod::isStatic'
-  - reflectionmethod.tostring.md: 'ReflectionMethod::toString »'
+  - reflectionmethod.ispublic.md: '« ReflectionMethod::isPublic'
+  - reflectionmethod.tostring.md: 'ReflectionMethod::\_\_toString »'
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::setAccessible'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionMethod::setAccessible
 
-(PHP 5> = 5.3.2, PHP 7, PHP 8)
+(PHP 5 >= 5.3.2, PHP 7, PHP 8)
 
 ReflectionMethod::setAccessible — Робить метод доступним
 
@@ -55,7 +56,7 @@ echo $obj->foo();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bar
@@ -64,5 +65,5 @@ Fatal error: Uncaught Error: Call to private method MyClass::foo() from global s
 
 ### Дивіться також
 
--   [ReflectionMethod::isPrivate()](reflectionmethod.isprivate.md) - Перевіряє, чи є метод закритим
--   [ReflectionMethod::isProtected()](reflectionmethod.isprotected.md) - Перевіряє, чи є метод захищеним
+-   [ReflectionMethod::isPrivate()](reflectionmethod.isprivate.md) \- Перевіряє, чи є метод закритим
+-   [ReflectionMethod::isProtected()](reflectionmethod.isprotected.md) \- Перевіряє, чи є метод захищеним

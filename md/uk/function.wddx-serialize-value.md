@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.wddx-packet-start.md: « wddxpacketstart
-  - function.wddx-serialize-vars.md: wddxserializevars »
+  - function.wddx-packet-start.md: « wddx\_packet\_start
+  - function.wddx-serialize-vars.md: wddx\_serialize\_vars »
   - index.md: PHP Manual
   - ref.wddx.md: Функції WDDX
-title: wddxserializevalue
+title: wddx\_serialize\_value
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# wddxserializevalue
+# wddx\_serialize\_value
 
 (PHP 4, PHP 5, PHP 7)
 
-wddxserializevalue - Серіалізує одне значення всередині пакету WDDX
+wddx\_serialize\_value - Серіалізує одне значення всередині пакету WDDX
 
 **Увага**
 
@@ -36,4 +37,4 @@ wddx_serialize_value(mixed $var, string $comment = ?): string
 
 ### Значення, що повертаються
 
-Повертає пакет WDDX або **`false`** у разі виникнення помилки.
+Повертає пакет WDDX або \*\*`false`\*\*в случае возникновения ошибки.

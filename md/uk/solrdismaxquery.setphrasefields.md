@@ -4,9 +4,10 @@ navigation:
   - solrdismaxquery.setphraseslop.md: 'SolrDisMaxQuery::setPhraseSlop »'
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
-title: 'Solr DisMax Query::set Phrase Fields'
+title: 'SolrDisMaxQuery::setPhraseFields'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Solr DisMax Query::set Phrase Fields
+# SolrDisMaxQuery::setPhraseFields
 
 (No version information available, might only be in Git)
 
@@ -32,7 +33,7 @@ public SolrDisMaxQuery::setPhraseFields(string $fields): SolrDisMaxQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Solr DisMax Query::set Phrase Fields()****
+**Пример #1 Пример использования**SolrDisMaxQuery::setPhraseFields()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ echo $dismaxQuery.PHP_EOL;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 q=lucene&defType=edismax&pf=cat~5.1^2 feature^4.5
@@ -50,5 +51,5 @@ q=lucene&defType=edismax&pf=cat~5.1^2 feature^4.5
 
 ### Дивіться також
 
--   **Solr DisMax Query::add Phrase Fields()**
--   [SolrDisMaxQuery::removePhraseField()](solrdismaxquery.removephrasefield.md) - Видаляє поле фрази (параметра)
+-   **SolrDisMaxQuery::addPhraseFields()**
+-   [SolrDisMaxQuery::removePhraseField()](solrdismaxquery.removephrasefield.md) \- Видаляє поле фрази (параметра)

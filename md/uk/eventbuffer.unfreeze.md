@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::unfreeze'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBuffer::unfreeze
 
@@ -32,8 +33,8 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventBuffer::freeze()](eventbuffer.freeze.md) - Запобігає викликам, які змінюють буфер подій у разі успішного виконання
+-   [EventBuffer::freeze()](eventbuffer.freeze.md) \- Запобігає викликам, які змінюють буфер подій у разі успішного виконання

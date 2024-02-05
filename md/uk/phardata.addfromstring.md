@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.phardata.md: PharData
 title: 'PharData::addFromString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharData::addFromString
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 2.0.0)
 
-PharData::addFromString — Створити файл із заданим вмістом у tar/zip-архіві
+PharData::addFromString — Додає файл з рядка в архів tar/zip
 
 ### Опис
 
@@ -36,7 +37,7 @@ public PharData::addFromString(string $localName, string $contents): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharData::addFromString()****
+**Пример #1 Пример использования**PharData::addFromString()\*\*\*\*
 
 ```php
 <?php
@@ -58,11 +59,11 @@ try {
 
 ### Примітки
 
-> **Зауваження** [PharData::addFile()](phardata.addfile.md) **PharData::addFromString()** and [PharData::offsetSet()](phardata.offsetset.md) Залишити новий ріг архіву кожен час вони називаються. If performance is a concern, [PharData::buildFromDirectory()](phardata.buildfromdirectory.md) ор [PharData::buildFromIterator()](phardata.buildfromiterator.md) should be used instead.
+> **Зауваження** [PharData::addFile()](phardata.addfile.md) \*\*PharData::addFromString()\*\*and[PharData::offsetSet()](phardata.offsetset.md)save a new phar archive each time they are called. If performance is a concern,[PharData::buildFromDirectory()](phardata.buildfromdirectory.md)or[PharData::buildFromIterator()](phardata.buildfromiterator.md)should be used instead.
 
 ### Дивіться також
 
--   [PharData::offsetSet()](phardata.offsetset.md) - Зміна вмісту файлу
--   [Phar::addFromString()](phar.addfromstring.md) - Додає в phar-архів файл із рядка
--   [PharData::addFile()](phardata.addfile.md) - Додати існуючі файли до tar/zip-архіву
--   [PharData::addEmptyDir()](phardata.addemptydir.md) - Додати порожню директорію до tar/zip-архіву
+-   [PharData::offsetSet()](phardata.offsetset.md) \- Зміна вмісту файлу
+-   [Phar::addFromString()](phar.addfromstring.md) \- Додає в phar-архів файл із рядка
+-   [PharData::addFile()](phardata.addfile.md) \- Додати існуючі файли до tar/zip-архіву
+-   [PharData::addEmptyDir()](phardata.addemptydir.md) \- Додати порожню директорію до tar/zip-архіву

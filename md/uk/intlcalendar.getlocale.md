@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getLocale'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getLocale
 
@@ -40,11 +41,11 @@ intlcal_get_locale(IntlCalendar $calendar, int $type): string|false
 
 ### Значення, що повертаються
 
-Мовний стандарт у вигляді рядка або **`false`** у разі виникнення помилки.
+Мовний стандарт у вигляді рядка або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::getLocale()****
+**Пример #1 Пример использования**IntlCalendar::getLocale()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ var_dump(
 );
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(2) "en"

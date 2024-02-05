@@ -4,25 +4,26 @@ navigation:
   - limititerator.current.md: 'LimitIterator::current »'
   - index.md: PHP Manual
   - class.limititerator.md: LimitIterator
-title: 'LimitIterator::construct'
+title: 'LimitIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# LimitIterator::construct
+# LimitIterator::\_\_construct
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-LimitIterator::construct - Конструктор класу LimitIterator
+LimitIterator::\_\_construct - Конструктор класу LimitIterator
 
 ### Опис
 
-public **LimitIterator::construct**[Iterator](class.iterator.md) `$iterator`, int `$offset` = 0, int `$limit`
+public**LimitIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`, int`$offset`\= 0, int`$limit`
 
-Створює новий об'єкт класу [LimitIterator](class.limititerator.md) на основі заданого об'єкта `iterator`, початкового зміщення `offset` та максимальної кількості ітерацій `limit`
+Створює новий об'єкт класу [LimitIterator](class.limititerator.md) на основі заданого об'єкта `iterator`, начального смещения`offset`и максимального числа итераций`limit`
 
 ### Список параметрів
 
 `iterator`
 
-Об'єкт-ітератор [Iterator](class.iterator.md), Число ітерацій якого потрібно обмежити.
+Об'єкт-ітератор [Iterator](class.iterator.md)число ітерацій якого потрібно обмежити.
 
 `offset`
 
@@ -34,18 +35,18 @@ public **LimitIterator::construct**[Iterator](class.iterator.md) `$iterator`, in
 
 ### Помилки
 
-Викидає виняток [ValueError](class.valueerror.md), якщо зміщення `offset` виявиться менше `0`, або якщо `limit` виявиться менше `-1`
+Викидає виняток [ValueError](class.valueerror.md), якщо зміщення `offset`окажется меньше , або якщо `limit`окажется меньше`-1`
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `offset` виявиться менше `0`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
-|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `limit` виявиться менше `-1`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+| 8.0.0 | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `offset`окажется меньше ; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+| 8.0.0 | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `limit`окажется меньше`-1`; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **LimitIterator::construct()****
+**Пример #1 Пример использования**LimitIterator::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ foreach ($lit as $value) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 b

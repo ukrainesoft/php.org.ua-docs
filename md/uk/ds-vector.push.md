@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.pop.md: '« DsVector::pop'
-  - ds-vector.reduce.md: 'ДсVector::reduce »'
+  - ds-vector.pop.md: '« Ds\\Vector::pop'
+  - ds-vector.reduce.md: 'Ds\\Vector::reduce »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::push'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::push'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::push
+# Ds\\Vector::push
 
 (PECL ds >= 1.0.0)
 
-ДсVector::push — Додає значення до кінця вектора.
+Ds\\Vector::push — Додає значення до кінця вектора
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Ds\Vector::push(mixed ...$values): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::push()****
+**Пример #1 Пример использования**Ds\\Vector::push()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ print_r($vector);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

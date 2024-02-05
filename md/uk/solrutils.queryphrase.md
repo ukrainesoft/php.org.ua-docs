@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrutils.md: SolrUtils
 title: 'SolrUtils::queryPhrase'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrUtils::queryPhrase
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrUtils::queryPhrase — Підготовка фрази з неекранованого рядка запиту Lucene
 

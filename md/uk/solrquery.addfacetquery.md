@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::addFacetQuery'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::addFacetQuery
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::addFacetQuery — Додає фасетний запит
 
@@ -32,7 +33,7 @@ public SolrQuery::addFacetQuery(string $facetQuery): SolrQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання [SolrQuery::addFacetField()](solrquery.addfacetfield.md)**
+**Пример #1 Пример использования[SolrQuery::addFacetField()](solrquery.addfacetfield.md)**
 
 ```php
 <?php
@@ -62,7 +63,7 @@ print_r($response->facet_counts->facet_queries);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object

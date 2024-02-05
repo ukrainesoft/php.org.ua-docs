@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.fann-set-weight-array.md: « fannsetweightarray
-  - function.fann-shuffle-train-data.md: fannshuffletraindata »
+  - function.fann-set-weight-array.md: « fann\_set\_weight\_array
+  - function.fann-shuffle-train-data.md: fann\_shuffle\_train\_data »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetweight
+  - ref.fann.md: Функції Fann
+title: fann\_set\_weight
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetweight
+# fann\_set\_weight
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetweight — Створення зв'язку в мережі
+fann\_set\_weight — Створення зв'язку в мережі
 
 ### Опис
 
 ```methodsynopsis
-fann_set_weight(    resource $ann,    int $from_neuron,    int $to_neuron,    float $weight): bool
+fann_set_weight(    resource $ann,    int $from_neuron,    int $to_neuron,    float $weight): bool
 ```
 
 Створює зв'язок у мережі.

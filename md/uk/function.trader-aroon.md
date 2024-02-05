@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-apo.md: « traderapo
-  - function.trader-aroonosc.md: traderaroonosc »
+  - function.trader-apo.md: « trader\_apo
+  - function.trader-aroonosc.md: trader\_aroonosc »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderaroon
+  - ref.trader.md: Функції Trader
+title: trader\_aroon
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderaroon
+# trader\_aroon
 
 (PECL trader >= 0.2.0)
 
-traderaroon — Індикатор Aroon
+trader\_aroon - Індикатор Aroon
 
 ### Опис
 

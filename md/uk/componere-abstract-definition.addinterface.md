@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.componere-abstract-definition.md: « ComponereAbstractDefinition
-  - componere-abstract-definition.addmethod.md: 'ComponereAbstractDefinition::addMethod »'
+  - class.componere-abstract-definition.md: « Componere\\Abstract\\Definition
+  - componere-abstract-definition.addmethod.md: 'Componere\\Abstract\\Definition::addMethod »'
   - index.md: PHP Manual
-  - class.componere-abstract-definition.md: ComponereAbstractDefinition
-title: 'ComponereAbstractDefinition::addInterface'
+  - class.componere-abstract-definition.md: Componere\\Abstract\\Definition
+title: 'Componere\\Abstract\\Definition::addInterface'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereAbstractDefinition::addInterface
+# Componere\\Abstract\\Definition::addInterface
 
 (Componere 2 >= 2.1.0)
 
-ComponereAbstractDefinition::addInterface — Додає інтерфейс
+Componere\\Abstract\\Definition::addInterface — Додає інтерфейс
 
 ### Опис
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::mergeImageLayers'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::mergeImageLayers
 
-(PECL imagick 2> = 2.1.0, PECL imagick 3)
+(PECL imagick 2 >= 2.1.0, PECL imagick 3)
 
 Imagick::mergeImageLayers — Об'єднує шари зображення
 
@@ -24,7 +25,7 @@ public Imagick::mergeImageLayers(int $layer_method): Imagick
 
 `layer_method`
 
-Одна з констант **`Imagick::LAYERMETHOD_*`**
+Одна из констант\*\*`Imagick::LAYERMETHOD_*`\*\*
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public Imagick::mergeImageLayers(int $layer_method): Imagick
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::mergeImageLayers()****
+**Пример #1 Пример использования**Imagick::mergeImageLayers()\*\*\*\*
 
 ```php
 <?php
@@ -58,4 +59,4 @@ function mergeImageLayers($layerMethodType, $imagePath1, $imagePath2) {
 
 ### Дивіться також
 
--   [Imagick::flattenImages()](imagick.flattenimages.md) - Поєднує послідовність зображень
+-   [Imagick::flattenImages()](imagick.flattenimages.md) \- Поєднує послідовність зображень

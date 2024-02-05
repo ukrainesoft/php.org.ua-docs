@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::fetchAll'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::fetchAll
 
@@ -26,11 +27,11 @@ public Memcached::fetchAll(): array|false
 
 ### Значення, що повертаються
 
-Повертає результат запиту або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
+Возвращает результат запроса или\*\*`false`\*\*в случае возникновения ошибки. Используйте при необходимости[Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання [Memcached::getDelayed()](memcached.getdelayed.md)**
+**Пример #1 Пример использования[Memcached::getDelayed()](memcached.getdelayed.md)**
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($m->fetchAll());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {
@@ -78,5 +79,5 @@ array(2) {
 
 ### Дивіться також
 
--   [Memcached::fetch()](memcached.fetch.md) - Витягує наступний результат
--   [Memcached::getDelayed()](memcached.getdelayed.md) - Запитує кілька записів
+-   [Memcached::fetch()](memcached.fetch.md) \- Витягує наступний результат
+-   [Memcached::getDelayed()](memcached.getdelayed.md) \- Запитує кілька записів

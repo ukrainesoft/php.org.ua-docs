@@ -4,13 +4,14 @@ navigation:
   - solrdocument.key.md: 'SolrDocument::key »'
   - index.md: PHP Manual
   - class.solrdocument.md: SolrDocument
-title: 'SolrDocument::isset'
+title: 'SolrDocument::\_\_isset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrDocument::isset
+# SolrDocument::\_\_isset
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrDocument::isset — Перевіряє, чи є поле
+SolrDocument::\_\_isset — Перевіряє, чи є поле
 
 ### Опис
 
@@ -28,4 +29,4 @@ public SolrDocument::__isset(string $fieldName): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

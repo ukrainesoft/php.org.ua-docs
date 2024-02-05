@@ -1,14 +1,15 @@
 ---
 navigation:
   - com.examples.arrays.md: « Масиви та властивості COM у стилі масивів
-  - com.construct.md: 'com::construct »'
+  - com.construct.md: 'com::\_\_construct »'
   - index.md: PHP Manual
   - book.com.md: COM
 title: Клас com
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас com
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -16,26 +17,20 @@ title: Клас com
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      class com
-     
+     class com
+    
 
     
      extends
       variant
-    
-
      {
 
     /* Методы */
     
-   public __construct(    string $module_name,    array|string|null $server_name = null,    int $codepage = CP_ACP,    string $typelib = "")
+   public __construct(    string $module_name,    array|string|null $server_name = null,    int $codepage = CP_ACP,    string $typelib = "")
 
    }
 ```
@@ -113,4 +108,4 @@ $conn = null;
 
 ## Зміст
 
--   [com::construct](com.construct.md) - Конструктор класу com
+-   [com::\_\_construct](com.construct.md) \- Конструктор класу com

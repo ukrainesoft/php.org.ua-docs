@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-client-info.md: « sqlsrvclientinfo
-  - function.sqlsrv-commit.md: sqlsrvcommit »
+  - function.sqlsrv-client-info.md: « sqlsrv\_client\_info
+  - function.sqlsrv-commit.md: sqlsrv\_commit »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvclose
+title: sqlsrv\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvclose
+# sqlsrv\_close
 
 (No version information available, might only be in Git)
 
-sqlsrvclose — Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням.
+sqlsrv\_close — Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням.
 
 ### Опис
 
@@ -28,11 +29,11 @@ sqlsrv_close(resource $conn): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvclose()****
+**Пример #1 Пример использования**sqlsrv\_close()\*\*\*\*
 
 ```php
 <?php
@@ -54,4 +55,4 @@ sqlsrv_close( $conn );
 
 ### Дивіться також
 
--   [sqlsrvconnect()](function.sqlsrv-connect.md) - Відкриває з'єднання з базою даних Microsoft SQL Server
+-   [sqlsrv\_connect()](function.sqlsrv-connect.md) \- Відкриває з'єднання з базою даних Microsoft SQL Server

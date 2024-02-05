@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.contains.md: '« DsSet::contains'
-  - ds-set.count.md: 'ДсSet::count »'
+  - ds-set.contains.md: '« Ds\\Set::contains'
+  - ds-set.count.md: 'Ds\\Set::count »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::copy'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::copy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::copy
+# Ds\\Set::copy
 
 (PECL ds >= 1.0.0)
 
-ДсSet::copy — Повертає поверхневу копію колекції
+Ds\\Set::copy — Повертає поверхневу копію колекції
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Set::copy(): Ds\Set
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::copy()****
+**Пример #1 Пример использования**Ds\\Set::copy()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ print_r($b);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Set Object

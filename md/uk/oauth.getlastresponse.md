@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::getLastResponse'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::getLastResponse
 
@@ -30,5 +31,5 @@ public OAuth::getLastResponse(): string
 
 ### Дивіться також
 
--   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) - Отримати HTTP-інформацію про останню відповідь
--   [OAuth::fetch()](oauth.fetch.md) - Витягти захищений ресурс OAuth
+-   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) \- Отримати HTTP-інформацію про останню відповідь
+-   [OAuth::fetch()](oauth.fetch.md) \- Витягти захищений ресурс OAuth

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-fetch-array.md: « odbcfetcharray
-  - function.odbc-fetch-object.md: odbcfetchobject »
+  - function.odbc-fetch-array.md: « odbc\_fetch\_array
+  - function.odbc-fetch-object.md: odbc\_fetch\_object »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcfetchinto
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_fetch\_into
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcfetchinto
+# odbc\_fetch\_into
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcfetchinto — Повертає один рядок результату до масиву
+odbc\_fetch\_into — Повертає один рядок результату до масиву
 
 ### Опис
 
@@ -36,11 +37,11 @@ odbc_fetch_into(resource $statement, array &$array, int $row = 0): int|false
 
 ### Значення, що повертаються
 
-Повертає кількість стовпців у результаті; **`false`** у разі виникнення помилки.
+Повертає кількість стовпців у результаті; \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклади використання **odbcfetchinto()****
+**Приклад #1 Приклади використання **odbc\_fetch\_into()****
 
 ```php
 <?php

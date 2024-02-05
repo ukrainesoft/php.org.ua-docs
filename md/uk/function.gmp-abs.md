@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.gmp.md: « GMP Функції
-  - function.gmp-add.md: gmpadd »
+  - function.gmp-add.md: gmp\_add »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpabs
+title: gmp\_abs
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpabs
+# gmp\_abs
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpabs - Абсолютна величина
+gmp\_abs - Абсолютна величина
 
 ### Опис
 
@@ -32,7 +33,7 @@ gmp_abs(GMP|int|string $num): GMP
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpabs()****
+**Пример #1 Пример использования**gmp\_abs()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ gmp_abs(GMP|int|string $num): GMP
      ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 274982683358

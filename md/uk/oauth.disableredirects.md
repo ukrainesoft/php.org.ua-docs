@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::disableRedirects'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::disableRedirects
 
@@ -22,7 +23,7 @@ public OAuth::disableRedirects(): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,4 +35,4 @@ public OAuth::disableRedirects(): bool
 
 ### Дивіться також
 
--   [OAuth::enableRedirects()](oauth.enableredirects.md) - Включити переадресацію
+-   [OAuth::enableRedirects()](oauth.enableredirects.md) \- Включити переадресацію

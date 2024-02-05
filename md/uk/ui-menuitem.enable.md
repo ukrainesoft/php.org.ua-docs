@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-menuitem.disable.md: '« UIMenuItem::disable'
-  - ui-menuitem.ischecked.md: 'ОЙMenuItem::isChecked »'
+  - ui-menuitem.disable.md: '« UI\\MenuItem::disable'
+  - ui-menuitem.ischecked.md: 'UI\\MenuItem::isChecked »'
   - index.md: PHP Manual
-  - class.ui-menuitem.md: ОЙMenuItem
-title: 'ОЙMenuItem::enable'
+  - class.ui-menuitem.md: UI\\MenuItem
+title: 'UI\\MenuItem::enable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙMenuItem::enable
+# UI\\MenuItem::enable
 
 (UI 0.9.9)
 
-ОЙMenuItem::enable — Увімкнути пункт меню
+UI\\MenuItem::enable — Увімкнути пункт меню
 
 ### Опис
 

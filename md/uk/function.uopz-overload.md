@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.uopz-implement.md: « uopzimplement
-  - function.uopz-redefine.md: uopzredefine »
+  - function.uopz-implement.md: « uopz\_implement
+  - function.uopz-redefine.md: uopz\_redefine »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzoverload
+title: uopz\_overload
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzoverload
+# uopz\_overload
 
 (PECL uopz 1, PECL uopz 2)
 
-uopzoverload — Перевантажити опкод VM
+uopz\_overload — Перевантажити опкод VM
 
 **Увага**
 
-Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО*в PECL uopz 5.0.0.
 
 ### Опис
 
@@ -36,7 +37,7 @@ uopz_overload(int $opcode, Callable $callable): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzoverload()****
+**Пример #1 Пример использования**uopz\_overload()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo "Привет, Мир";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Привет, Мир

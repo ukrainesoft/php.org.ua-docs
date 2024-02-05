@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageInterlaceScheme'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageInterlaceScheme
 
@@ -26,4 +27,4 @@ public Imagick::getImageInterlaceScheme(): int
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає схему чергування ціле число. Викликає **ImagickException** у разі виникнення помилки.
+У разі успішного виконання повертає схему чергування ціле число. Викликає **ImagickException**в случае возникновения ошибки.

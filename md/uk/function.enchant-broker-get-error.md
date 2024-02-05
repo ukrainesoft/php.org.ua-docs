@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.enchant-broker-get-dict-path.md: « enchantbrokergetdictpath
-  - function.enchant-broker-init.md: enchantbrokerinit »
+  - function.enchant-broker-get-dict-path.md: « enchant\_broker\_get\_dict\_path
+  - function.enchant-broker-init.md: enchant\_broker\_init »
   - index.md: PHP Manual
-  - ref.enchant.md: Функции Enchant
-title: enchantbrokergeterror
+  - ref.enchant.md: Функції Enchant
+title: enchant\_broker\_get\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# enchantbrokergeterror
+# enchant\_broker\_get\_error
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL enchant >= 0.1.0 )
 
-enchantbrokergeterror — Повертає останню помилку брокера
+enchant\_broker\_get\_error — Повертає останню помилку брокера
 
 ### Опис
 
@@ -24,7 +25,7 @@ enchant_broker_get_error(EnchantBroker $broker): string|false
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
+Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.md)
 
 ### Значення, що повертаються
 
@@ -32,6 +33,6 @@ enchant_broker_get_error(EnchantBroker $broker): string|false
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |

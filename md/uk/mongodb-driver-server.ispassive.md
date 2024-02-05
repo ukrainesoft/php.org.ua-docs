@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-server.ishidden.md: '« MongoDBDriverServer::isHidden'
-  - mongodb-driver-server.isprimary.md: 'MongoDBDriverServer::isPrimary »'
+  - mongodb-driver-server.ishidden.md: '« MongoDB\\Driver\\Server::isHidden'
+  - mongodb-driver-server.isprimary.md: 'MongoDB\\Driver\\Server::isPrimary »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.md: MongoDBDriverServer
-title: 'MongoDBDriverServer::isPassive'
+  - class.mongodb-driver-server.md: MongoDB\\Driver\\Server
+title: 'MongoDB\\Driver\\Server::isPassive'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverServer::isPassive
+# MongoDB\\Driver\\Server::isPassive
 
 (mongodb >=1.0.0)
 
-MongoDBDriverServer::isPassive — Перевіряє, чи є сервер пасивним членом набору реплік
+MongoDB\\Driver\\Server::isPassive — Перевіряє, чи є сервер пасивним членом набору реплік
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverServer::isPassive — Перевіряє, чи є сервер па
 final public MongoDB\Driver\Server::isPassive(): bool
 ```
 
-Повертає, чи є цей сервер [»пасивним членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-passive-member) набору реплік (тобто його пріоритет дорівнює `0`
+Повертає, чи є цей сервер [»пасивним членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-passive-member)набора реплик (то есть его приоритет равен
 
 ### Список параметрів
 
@@ -30,8 +31,8 @@ final public MongoDB\Driver\Server::isPassive(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
+-   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.md) \- Повертає масив інформації, що описує сервер

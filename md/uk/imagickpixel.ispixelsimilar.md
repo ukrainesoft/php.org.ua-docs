@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::isPixelSimilar'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::isPixelSimilar
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
 ImagickPixel::isPixelSimilar — Перевіряє відстань між цим кольором та іншим
 
@@ -18,7 +19,7 @@ ImagickPixel::isPixelSimilar — Перевіряє відстань між ци
 public ImagickPixel::isPixelSimilar(ImagickPixel $color, float $fuzz): bool
 ```
 
-Перевіряє відстань між кольором, описаним цим об'єктом ImagickPixel, та кольором наданого об'єкта, наносячи їх значення RGB на кольоровий куб. Якщо відстань між двома точками менша за задане значення розмиття, кольори схожі. Метод замінює [ImagickPixel::isSimilar()](imagickpixel.issimilar.md) і коректно нормалізує значення fuzz у ImageMagick QuantumRange.
+Перевіряє відстань між кольором, описаним цим об'єктом ImagickPixel, та кольором наданого об'єкта, наносячи їх значення RGB на кольоровий куб. Якщо відстань між двома точками менша від заданого значення розмиття, кольори схожі. Метод замінює [ImagickPixel::isSimilar()](imagickpixel.issimilar.md) і коректно нормалізує значення fuzz у ImageMagick QuantumRange.
 
 ### Список параметрів
 

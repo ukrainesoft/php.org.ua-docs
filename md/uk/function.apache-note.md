@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apache-lookup-uri.md: « apachelookupuri
-  - function.apache-request-headers.md: apacherequestheaders »
+  - function.apache-lookup-uri.md: « apache\_lookup\_uri
+  - function.apache-request-headers.md: apache\_request\_headers »
   - index.md: PHP Manual
-  - ref.apache.md: Функции Apache
-title: apachenote
+  - ref.apache.md: Функції Apache
+title: apache\_note
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apachenote
+# apache\_note
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-apachenote — Повертає та встановлює повідомлення до запиту Apache
+apache\_note — Повертає та встановлює повідомлення до запиту Apache
 
 ### Опис
 
@@ -18,9 +19,9 @@ apachenote — Повертає та встановлює повідомленн
 apache_note(string $note_name, ?string $note_value = null): string|false
 ```
 
-Ця функція є обгорткою для `table_get` і `table_set`. З її допомогою можна редагувати таблицю повідомлень (apache notes table), що створюється під час надсилання запиту. Таблиця сповіщень дозволяє модулям Apache обмінюватись даними.
+Ця функція є обгорткою для `table_get`и`table_set`. З її допомогою можна редагувати таблицю повідомлень (apache notes table), що створюється під час надсилання запиту. Таблиця сповіщень дозволяє модулям Apache обмінюватись даними.
 
-Основне призначення **apachenote()** - передавати інформацію з одного модуля до іншого всередині одного запиту.
+Основное назначение**apache\_note()** - передавати інформацію з одного модуля до іншого всередині одного запиту.
 
 ### Список параметрів
 
@@ -34,13 +35,13 @@ apache_note(string $note_name, ?string $note_value = null): string|false
 
 ### Значення, що повертаються
 
-Якщо `note_value` опущений або **`null`**, функція повертає поточне значення сповіщення `note_name`. Інакше вона встановлює значення повідомлення `note_name` в `note_value` та повертає попереднє значення `note_name`. Якщо значення повідомлення не може бути отримано, буде повернено **`false`**
+Якщо `note_value`опущен или\*\*`null`\*\*, функция возвращает текущее значение уведомления`note_name`. Інакше вона встановлює значення повідомлення `note_name`в`note_value` та повертає попереднє значення `note_name`. Якщо значення повідомлення не може бути отримано, буде повернено **`false`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `note_value` тепер допускає значення null. |
+| 8.0.0 | `note_value` тепер допускає значення null. |
 
 ### Приклади
 
@@ -58,7 +59,7 @@ $result = apache_note("resultdata");
 ?>
 ```
 
-Отримуємо об'єкт запиту Apache my $r = Apache->request()->main();
+\# Отримуємо об'єкт запиту Apache my $r = Apache->request()->main();
 
 # Отримуємо передані дані
 
@@ -80,8 +81,8 @@ apache_note('sessionID', session_id());
 ?>
 ```
 
-"%{sessionID}n" може бути використаний у директиві LogFormat
+\# "%{sessionID}n" може бути використаний у директиві LogFormat
 
 ### Дивіться також
 
--   [virtual()](function.virtual.md) - Виконує підзапит Apache
+-   [virtual()](function.virtual.md) \- Виконує підзапит Apache

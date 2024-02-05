@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlshortline.md: « tradercdlshortline
-  - function.trader-cdlstalledpattern.md: tradercdlstalledpattern »
+  - function.trader-cdlshortline.md: « trader\_cdlshortline
+  - function.trader-cdlstalledpattern.md: trader\_cdlstalledpattern »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlspinningtop
+  - ref.trader.md: Функції Trader
+title: trader\_cdlspinningtop
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlspinningtop
+# trader\_cdlspinningtop
 
 (PECL trader >= 0.2.0)
 
-tradercdlspinningtop — Вовчок
+trader\_cdlspinningtop — Вовчок
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlspinningtop(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlspinningtop(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

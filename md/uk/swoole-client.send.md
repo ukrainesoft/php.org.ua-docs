@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-client.resume.md: '« SwooleClient::resume'
-  - swoole-client.sendfile.md: 'SwooleClient::sendfile »'
+  - swoole-client.resume.md: '« Swoole\\Client::resume'
+  - swoole-client.sendfile.md: 'Swoole\\Client::sendfile »'
   - index.md: PHP Manual
-  - class.swoole-client.md: SwooleClient
-title: 'SwooleClient::send'
+  - class.swoole-client.md: Swoole\\Client
+title: 'Swoole\\Client::send'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleClient::send
+# Swoole\\Client::send
 
 (PECL swoole >= 1.9.0)
 
-SwooleClient::send — Надсилає дані у віддалений TCP-сокет
+Swoole\\Client::send — Надсилає дані у віддалений TCP-сокет
 
 ### Опис
 
@@ -28,4 +29,4 @@ public Swoole\Client::send(string $data, string $flag = ?): int
 
 ### Значення, що повертаються
 
-Якщо клієнт успішно надіслав дані, він повертає довжину надісланих даних. Або він повертає false та встановлює $swooleclient->errCode. Для синхронного клієнта немає обмежень на надсилання даних. Для асинхронного клієнта обмеження на надсилання даних - socketbuffersize.
+Якщо клієнт успішно надіслав дані, він повертає довжину надісланих даних. Або він повертає false та встановлює $swoole\_client->errCode. Для синхронного клієнта немає обмежень на надсилання даних. Для асинхронного клієнта обмеження на надсилання даних - socket\_buffer\_size.

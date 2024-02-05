@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.ocicollection.md: OCICollection
 title: 'OCICollection::size'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OCICollection::size
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
 OCICollection::size — Повертає кількість елементів у колекції
 
@@ -26,13 +27,13 @@ public OCICollection::size(): int|false
 
 ### Значення, що повертаються
 
-Повертає кількість елементів у колекції або **`false`** у разі виникнення помилки.
+Повертає кількість елементів у колекції або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
+| 8.0.0, PECL OCI8 3.0.0 | Класс**OCI-Collection**перейменований на[OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 

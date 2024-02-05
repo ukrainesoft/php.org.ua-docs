@@ -4,22 +4,24 @@ navigation:
   - class.soapparam.md: SoapParam »
   - index.md: PHP Manual
   - class.soapheader.md: SoapHeader
-title: 'SoapHeader::construct'
+title: 'SoapHeader::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapHeader::construct
+# SoapHeader::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapHeader::construct - Конструктор SoapHeader
+SoapHeader::\_\_construct - Конструктор SoapHeader
 
 ### Опис
 
-**SoapHeader::construct**  
-string `$namespace`  
-string `$name`  
+public**SoapHeader::\_\_construct**  
+string`$namespace`,  
+string`$name`,  
 [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`  
-bool `$mustunderstand`  
-string `$actor`
+bool`$mustunderstand`  
+string`$actor`  
+) .
 
 Створює новий об'єкт SoapHeader.
 
@@ -39,15 +41,15 @@ string `$actor`
 
 `mustUnderstand`
 
-Значення атрибуту `mustUnderstand` елемент SOAP заголовка.
+Значение атрибута`mustUnderstand` елемент SOAP заголовка.
 
 `actor`
 
-Значення атрибуту `actor` елемент SOAP заголовка.
+Значение атрибута`actor` елемент SOAP заголовка.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapHeader::SoapHeader()****
+**Пример #1 Пример использования**SoapHeader::SoapHeader()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +64,7 @@ $client->__soapCall("echoVoid", null, null,
 
 ### Дивіться також
 
--   [SoapClient::soapCall()](soapclient.soapcall.md) - Викликає SOAP-функцію
+-   [SoapClient::\_\_soapCall()](soapclient.soapcall.md) \- Викликає SOAP-функцію
 -   **SoapVar::SoapVar()**
 -   **SoapParam::SoapParam()**
--   [SoapServer::addSoapHeader()](soapserver.addsoapheader.md) - Додати заголовок SOAP у відповідь
+-   [SoapServer::addSoapHeader()](soapserver.addsoapheader.md) \- Додати заголовок SOAP у відповідь

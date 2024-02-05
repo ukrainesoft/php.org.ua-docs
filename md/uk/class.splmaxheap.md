@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - spl.datastructures.md: Структури даних
 title: Клас SplMaxHeap
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SplMaxHeap
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,18 +19,13 @@ title: Клас SplMaxHeap
 
 ```classsynopsis
 
-     
+    
+     class SplMaxHeap
     
 
     
-     
-      class SplMaxHeap
-     
-
-     
-      extends
-       SplHeap
-     
+     extends
+      SplHeap
      {
 
     /* Методы */
@@ -42,7 +38,7 @@ title: Клас SplMaxHeap
 public SplHeap::count(): int
 public SplHeap::current(): mixed
 public SplHeap::extract(): mixed
-public SplHeap::insert(mixed $value): bool
+public SplHeap::insert(mixed $value): true
 public SplHeap::isCorrupted(): bool
 public SplHeap::isEmpty(): bool
 public SplHeap::key(): int
@@ -57,4 +53,4 @@ public SplHeap::valid(): bool
 
 ## Зміст
 
--   [SplMaxHeap::compare](splmaxheap.compare.md) — Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
+-   [SplMaxHeap::compare](splmaxheap.compare.md)— Порівнює елементи, щоб під час сортування коректно розмістити їх у купі

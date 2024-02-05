@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-mlsd.md: « ftpmlsd
-  - function.ftp-nb-fget.md: ftpнбfget »
+  - function.ftp-mlsd.md: « ftp\_mlsd
+  - function.ftp-nb-fget.md: ftp\_nb\_fget »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpнбcontinue
+title: ftp\_nb\_continue
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpнбcontinue
+# ftp\_nb\_continue
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-ftpнбcontinue — Продовжує асинхронну операцію
+ftp\_nb\_continue — Продовжує асинхронну операцію
 
 ### Опис
 
@@ -24,21 +25,21 @@ ftp_nb_continue(FTP\Connection $ftp): int
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Значення, що повертаються
 
-Повертає **`FTP_FAILED`** **`FTP_FINISHED`** або **`FTP_MOREDATA`**
+Повертає **`FTP_FAILED`** **`FTP_FINISHED`**или**`FTP_MOREDATA`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpнбcontinue()****
+**Пример #1 Пример использования**ftp\_nb\_continue()\*\*\*\*
 
 ```php
 <?php

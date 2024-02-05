@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fread'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::fread
 
-(PHP 5> = 5.5.11, PHP 7, PHP 8)
+(PHP 5 >= 5.5.11, PHP 7, PHP 8)
 
 SplFileObject::fread — Читання з файлу
 
@@ -28,11 +29,11 @@ public SplFileObject::fread(int $length): string|false
 
 ### Значення, що повертаються
 
-Повертає рядок, прочитаний із файлу або **`false`** у разі виникнення помилки.
+Повертає рядок, прочитаний із файлу або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад **SplFileObject::fread()****
+**Пример #1 Пример**SplFileObject::fread()\*\*\*\*
 
 ```php
 <?php
@@ -45,10 +46,10 @@ $contents = $file->fread($file->getSize());
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Зверніть увагу, що **SplFileObject::fread()** читає з поточної позиції покажчика файлу. Використовуйте [SplFileObject::ftell()](splfileobject.ftell.md) для пошуку поточної позиції покажчика та [SplFileObject::rewind()](splfileobject.rewind.md) (або [SplFileObject::fseek()](splfileobject.fseek.md)) Зміни його позиції.
+> Обратите внимание, что**SplFileObject::fread()** читає з поточної позиції покажчика файлу. Використовуйте [SplFileObject::ftell()](splfileobject.ftell.md) для пошуку поточної позиції покажчика та [SplFileObject::rewind()](splfileobject.rewind.md)(или[SplFileObject::fseek()](splfileobject.fseek.md)) зміни його позиції.
 
 ### Дивіться також
 
--   [fread()](function.fread.md) - Бінарно-безпечне читання файлу
+-   [fread()](function.fread.md) \- Бінарно-безпечне читання файлу

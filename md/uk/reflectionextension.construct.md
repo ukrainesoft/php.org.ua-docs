@@ -1,20 +1,21 @@
 ---
 navigation:
-  - reflectionextension.clone.md: '« ReflectionExtension::clone'
+  - reflectionextension.clone.md: '« ReflectionExtension::\_\_clone'
   - reflectionextension.export.md: 'ReflectionExtension::export »'
   - index.md: PHP Manual
   - class.reflectionextension.md: ReflectionExtension
-title: 'ReflectionExtension::construct'
+title: 'ReflectionExtension::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionExtension::construct
+# ReflectionExtension::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionExtension::construct — Створює об'єкт класу ReflectionExtension
+ReflectionExtension::\_\_construct — Створює об'єкт класу ReflectionExtension
 
 ### Опис
 
-public **ReflectionExtension::construct**(string `$name`
+public**ReflectionExtension::\_\_construct**(string`$name`) .
 
 Створює об'єкт (object) класу [ReflectionExtension](class.reflectionextension.md)
 
@@ -24,9 +25,13 @@ public **ReflectionExtension::construct**(string `$name`
 
 Ім'я модуль.
 
+### Помилки
+
+Викидає виняток [ReflectionException](class.reflectionexception.md)якщо модуль не існує.
+
 ### Приклади
 
-**Приклад #1 Приклад використання [ReflectionExtension](class.reflectionextension.md)**
+**Пример #1 Пример использования[ReflectionExtension](class.reflectionextension.md)**
 
 ```php
 <?php
@@ -36,7 +41,7 @@ printf('Модуль: %s (версия: %s)', $ext->getName(), $ext->getVersion(
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Модуль: Reflection (версия: $Revision$)
@@ -44,5 +49,5 @@ printf('Модуль: %s (версия: %s)', $ext->getName(), $ext->getVersion(
 
 ### Дивіться також
 
--   [ReflectionExtension::info()](reflectionextension.info.md) - Виведення інформації про модуль
+-   [ReflectionExtension::info()](reflectionextension.info.md) \- Виведення інформації про модуль
 -   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

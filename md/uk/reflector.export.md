@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.reflector.md: « Reflector
-  - reflector.tostring.md: 'Reflector::toString »'
+  - class.reflectionexception.md: ReflectionException »
   - index.md: PHP Manual
   - class.reflector.md: Reflector
 title: 'Reflector::export'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Reflector::export
 
@@ -14,7 +15,7 @@ Reflector::export — Експорт
 
 **Увага**
 
-Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНО*починаючи з PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція *ЗАСТАРІЛА* починаючи з PHP 7.4.0 і була *ВИДАЛЕНО* у PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -26,7 +27,7 @@ public static Reflector::export(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ public static Reflector::export(): string
 
 ### Дивіться також
 
--   **Reflection::toString()**
+-   **Reflection::\_\_toString()**

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-bbands.md: « traderbbands
-  - function.trader-bop.md: traderbop »
+  - function.trader-bbands.md: « trader\_bbands
+  - function.trader-bop.md: trader\_bop »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderbeta
+  - ref.trader.md: Функції Trader
+title: trader\_beta
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderbeta
+# trader\_beta
 
 (PECL trader >= 0.2.0)
 
-traderbeta — Бета
+trader\_beta — Бета
 
 ### Опис
 

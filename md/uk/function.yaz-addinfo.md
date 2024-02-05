@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.yaz.md: « Функции YAZ
-  - function.yaz-ccl-conf.md: yazcclconf »
+  - ref.yaz.md: « Функції YAZ
+  - function.yaz-ccl-conf.md: yaz\_ccl\_conf »
   - index.md: PHP Manual
-  - ref.yaz.md: Функции YAZ
-title: yazaddinfo
+  - ref.yaz.md: Функції YAZ
+title: yaz\_addinfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yazaddinfo
+# yaz\_addinfo
 
-(PHP 4> = 4.0.1, PECL yaz> = 0.9.0)
+(PHP 4 >= 4.0.1, PECL yaz >= 0.9.0)
 
-yazaddinfo — Повертає додаткову інформацію у разі виникнення помилки
+yaz\_addinfo — Повертає додаткову інформацію у разі виникнення помилки
 
 ### Опис
 
@@ -20,13 +21,13 @@ yaz_addinfo(resource $id): string
 
 Повертає додаткову інформацію у разі виникнення помилки останнього запиту до сервера.
 
-З деякими серверами ця функція може повернути той самий рядок, що і функція [yazerror()](function.yaz-error.md)
+З деякими серверами ця функція може повернути той самий рядок, що і функція [yaz\_error()](function.yaz-error.md)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається функцією [yazconnect()](function.yaz-connect.md)
+Дескриптор з'єднання, що повертається функцією [yaz\_connect()](function.yaz-connect.md)
 
 ### Значення, що повертаються
 
@@ -34,5 +35,5 @@ yaz_addinfo(resource $id): string
 
 ### Дивіться також
 
--   [yazerror()](function.yaz-error.md) - Повертає опис помилки
--   [yazerrno()](function.yaz-errno.md) - Повертає номер помилки
+-   [yaz\_error()](function.yaz-error.md) \- Повертає опис помилки
+-   [yaz\_errno()](function.yaz-errno.md) \- Повертає номер помилки

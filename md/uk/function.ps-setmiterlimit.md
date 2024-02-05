@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-setlinewidth.md: «pssetlinewidth
-  - function.ps-setoverprintmode.md: псsetoverprintmode »
+  - function.ps-setlinewidth.md: « ps\_setlinewidth
+  - function.ps-setoverprintmode.md: ps\_setoverprintmode »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псsetmiterlimit
+title: ps\_setmiterlimit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псsetmiterlimit
+# ps\_setmiterlimit
 
 (PECL ps >= 1.1.0)
 
-псsetmiterlimit - Встановлює межу скосу
+ps\_setmiterlimit - Встановлює межу скосу
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: псsetmiterlimit
 ps_setmiterlimit(resource $psdoc, float $value): bool
 ```
 
-Якщо дві лінії з'єднуються під невеликим кутом, а для з'єднання ліній встановлено значення `PS_LINEJOIN_MITER`, То результуючий виступ буде дуже довгим. Межа скосу - це максимальне співвідношення довжини скосу (довжини виступу) та ширини лінії.
+Если две линии соединяются под небольшим углом, а для соединения линий установлено значение`PS_LINEJOIN_MITER`, То результуючий виступ буде дуже довгим. Межа скосу - це максимальне співвідношення довжини скосу (довжини виступу) та ширини лінії.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `value`
 
@@ -32,10 +33,10 @@ ps_setmiterlimit(resource $psdoc, float $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псsetlinecap()](function.ps-setlinecap.md) - Встановлює зовнішній вигляд закінчення лінії
--   [псsetlinejoin()](function.ps-setlinejoin.md) - Встановлює спосіб з'єднання ліній
--   [псsetlinewidth()](function.ps-setlinewidth.md) - Встановлює ширину лінії
+-   [ps\_setlinecap()](function.ps-setlinecap.md) \- Встановлює зовнішній вигляд закінчення лінії
+-   [ps\_setlinejoin()](function.ps-setlinejoin.md) \- Встановлює спосіб з'єднання ліній
+-   [ps\_setlinewidth()](function.ps-setlinewidth.md) \- Встановлює ширину лінії

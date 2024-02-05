@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setHighlightRequireFieldMatch'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setHighlightRequireFieldMatch
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setHighlightRequireFieldMatch — Вимагати зіставлення полів при виділенні
 
@@ -26,7 +27,7 @@ public SolrQuery::setHighlightRequireFieldMatch(bool $flag): SolrQuery
 
 `flag`
 
-**`true`** або **`false`**
+**`true`**или**`false`**
 
 ### Значення, що повертаються
 

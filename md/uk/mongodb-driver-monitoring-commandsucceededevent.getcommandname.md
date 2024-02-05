@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-commandsucceededevent.md: « MongoDBDriverMonitoringCommandSucceededEvent
-  - mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros »'
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: « MongoDB\\Driver\\Monitoring\\CommandSucceededEvent
+  - mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.md: 'MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getDurationMicros »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
-title: 'MongoDBDriverMonitoringCommandSucceededEvent::getCommandName'
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDB\\Driver\\Monitoring\\CommandSucceededEvent
+title: 'MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getCommandName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringCommandSucceededEvent::getCommandName
+# MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getCommandName
 
 (mongodb >=1.3.0)
 
-MongoDBDriverMonitoringCommandSucceededEvent::getCommandName — Повертає ім'я команди
+MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getCommandName — Повертає ім'я команди
 
 ### Опис
 
@@ -30,7 +31,7 @@ final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getCommandName(): 
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 

@@ -1,16 +1,19 @@
 ---
 navigation:
-  - mongodb-bson-utcdatetimeinterface.todatetime.md: '« MongoDBBSONUTCDateTimeInterface::toDateTime'
-  - class.mongodb-bson-dbpointer.md: MongoDBBSONDBPointer »
+  - mongodb-bson-utcdatetimeinterface.todatetime.md: '« MongoDB\\BSON\\UTCDateTimeInterface::toDateTime'
+  - class.mongodb-bson-dbpointer.md: MongoDB\\BSON\\DBPointer »
   - index.md: PHP Manual
-  - class.mongodb-bson-utcdatetimeinterface.md: MongoDBBSONUTCDateTimeInterface
-title: 'MongoDBBSONUTCDateTimeInterface::function toString() { \[native code\] }'
+  - class.mongodb-bson-utcdatetimeinterface.md: MongoDB\\BSON\\UTCDateTimeInterface
+title: >-
+  MongoDB\\BSON\\UTCDateTimeInterface::\_\_function toString() { \[native code\]
+  }
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONUTCDateTimeInterface::function toString() { \[native code\] }
+# MongoDB\\BSON\\UTCDateTimeInterface::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.3.0)
 
-MongoDBBSONUTCDateTimeInterface::toString — Повертає рядкову виставу UTCDateTimeInterface
+MongoDB\\BSON\\UTCDateTimeInterface::\_\_toString — Повертає рядкову виставу UTCDateTimeInterface
 
 ### Опис
 
@@ -28,4 +31,4 @@ abstract public MongoDB\BSON\UTCDateTimeInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDBBSONUTCDateTime::toString()](mongodb-bson-utcdatetime.tostring.md) - Повертає рядкову виставу UTCDateTime
+-   [MongoDB\\BSON\\UTCDateTime::\_\_toString()](mongodb-bson-utcdatetime.tostring.md) \- Повертає рядкову виставу UTCDateTime

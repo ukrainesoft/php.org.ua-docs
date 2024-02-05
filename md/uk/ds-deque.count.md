@@ -1,15 +1,16 @@
 ---
 navigation:
-  - ds-deque.copy.md: '« DsDeque::copy'
-  - ds-deque.filter.md: 'ДсDeque::filter »'
+  - ds-deque.copy.md: '« Ds\\Deque::copy'
+  - ds-deque.filter.md: 'Ds\\Deque::filter »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::count'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::count
+# Ds\\Deque::count
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::count — Повертає кількість елементів двосторонньої черги
+Ds\\Deque::count — Повертає кількість елементів двосторонньої черги
 
-Дивіться [Countable::count()](countable.count.md)
+Смотрите[Countable::count()](countable.count.md)

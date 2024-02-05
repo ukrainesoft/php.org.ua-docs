@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-control.destroy.md: '« UIControl::destroy'
-  - ui-control.enable.md: 'ОЙControl::enable »'
+  - ui-control.destroy.md: '« UI\\Control::destroy'
+  - ui-control.enable.md: 'UI\\Control::enable »'
   - index.md: PHP Manual
-  - class.ui-control.md: ОЙControl
-title: 'ОЙControl::disable'
+  - class.ui-control.md: UI\\Control
+title: 'UI\\Control::disable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControl::disable
+# UI\\Control::disable
 
 (UI 0.9.9)
 
-ОЙControl::disable — Вимкнути керуючий елемент
+UI\\Control::disable — Вимкнути керуючий елемент
 
 ### Опис
 

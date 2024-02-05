@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-dispatcher.setrequest.md: '« YafDispatcher::setRequest'
-  - yaf-dispatcher.throwexception.md: 'YafDispatcher::throwException »'
+  - yaf-dispatcher.setrequest.md: '« Yaf\_Dispatcher::setRequest'
+  - yaf-dispatcher.throwexception.md: 'Yaf\_Dispatcher::throwException »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::setView'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::setView'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::setView
+# Yaf\_Dispatcher::setView
 
 (Yaf >=1.0.0)
 
-YafDispatcher::setView — Встановлює механізм відображення.
+Yaf\_Dispatcher::setView — Встановлює механізм відображення.
 
 ### Опис
 
@@ -18,19 +19,19 @@ YafDispatcher::setView — Встановлює механізм відобра�
 public Yaf_Dispatcher::setView(Yaf_View_Interface $view): Yaf_Dispatcher
 ```
 
-Метод надає рішення, якщо ви хочете використовувати власний механізм відображення замість [YafViewSimple](class.yaf-view-simple.md)
+Метод надає рішення, якщо ви хочете використовувати власний механізм відображення замість [Yaf\_View\_Simple](class.yaf-view-simple.md)
 
 ### Список параметрів
 
 `view`
 
-Екземпляр [YafViewInterface](class.yaf-view-interface.md)
+Екземпляр [Yaf\_View\_Interface](class.yaf-view-interface.md)
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **движка користувача відображення()****
+**Пример #1 Пример использования**движка користувача відображення()\*\*\*\*
 
 ```php
 <?php
@@ -117,10 +118,10 @@ class Smarty_Adapter implements Yaf_View_Interface
      * Назначьте переменные шаблону
      *
      * Позволяет установить конкретный ключ для указанного значения
-     * ИЛИ передать Масив пар ключ => значение для массовой установки.
+     * ИЛИ передать массив пар ключ => значение для массовой установки.
      *
      * @see __set()
-     * @param string|array $spec Стратегия присваивания (ключ или Масив пар ключ => значение)
+     * @param string|array $spec Стратегия присваивания (ключ или массив пар ключ => значение)
      * @param mixed $value (Optional) При присвоении именованной переменной используйте её как значение.
      * @return void
      */
@@ -164,7 +165,7 @@ class Smarty_Adapter implements Yaf_View_Interface
 ?>
 ```
 
-**Приклад #2 Приклад використання **YafDispatcher::setView()****
+**Пример #2 Пример использования**Yaf\_Dispatcher::setView()\*\*\*\*
 
 ```php
 <?php
@@ -201,5 +202,5 @@ class Bootstrap extends Yaf_Bootstrap_Abstract {
 
 ### Дивіться також
 
--   [YafViewInterface](class.yaf-view-interface.md)
--   [YafViewSimple](class.yaf-view-simple.md)
+-   [Yaf\_View\_Interface](class.yaf-view-interface.md)
+-   [Yaf\_View\_Simple](class.yaf-view-simple.md)

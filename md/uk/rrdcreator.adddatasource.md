@@ -1,10 +1,11 @@
 ---
 navigation:
   - rrdcreator.addarchive.md: '« RRDCreator::addArchive'
-  - rrdcreator.construct.md: 'RRDCreator::construct »'
+  - rrdcreator.construct.md: 'RRDCreator::\_\_construct »'
   - index.md: PHP Manual
   - class.rrdcreator.md: RRDCreator
 title: 'RRDCreator::addDataSource'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RRDCreator::addDataSource
 

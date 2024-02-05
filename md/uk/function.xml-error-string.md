@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.xml.md: « Функции парсера XML
-  - function.xml-get-current-byte-index.md: xmlgetcurrentbyteindex »
+  - ref.xml.md: « Функції парсера XML
+  - function.xml-get-current-byte-index.md: xml\_get\_current\_byte\_index »
   - index.md: PHP Manual
-  - ref.xml.md: Функции парсера XML
-title: xmlerrorstring
+  - ref.xml.md: Функції парсера XML
+title: xml\_error\_string
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlerrorstring
+# xml\_error\_string
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xmlerrorstring — Отримання рядка помилки XML-аналізатора
+xml\_error\_string — Отримання рядка помилки XML-аналізатора
 
 ### Опис
 
@@ -24,12 +25,12 @@ xml_error_string(int $error_code): ?string
 
 `error_code`
 
-Код помилки, що повертається функцією [xmlgeterrorcode()](function.xml-get-error-code.md)
+Код помилки, що повертається функцією [xml\_get\_error\_code()](function.xml-get-error-code.md)
 
 ### Значення, що повертаються
 
-Повертає рядок з текстовим описом коду помилки `error_code` або **`null`**, якщо опис не знайдено.
+Повертає рядок з текстовим описом коду помилки `error_code`или\*\*`null`\*\*, якщо опис не знайдено.
 
 ### Дивіться також
 
--   [xmlgeterrorcode()](function.xml-get-error-code.md) - Отримує код помилки XML-аналізатора
+-   [xml\_get\_error\_code()](function.xml-get-error-code.md) \- Отримує код помилки XML-аналізатора

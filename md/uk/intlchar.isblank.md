@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isblank'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isblank
 
@@ -22,14 +23,14 @@ public static IntlChar::isblank(int|string $codepoint): ?bool
 
 Іншими словами:
 
--   **`true`** для пробільних символів Unicode за винятком "вертикальних символів пробілів", таких як: U+000A (LF) U+000B (VT) U+000C (FF) U+000D (CR) U+0085 (NEL) U+2028 (LS ) U+2029 (PS)
+-   **`true`** для пробільних символів Unicode за винятком "вертикальних символів пробільних", таких як: U+000A (LF) U+000B (VT) U+000C (FF) U+000D (CR) U+0085 (NEL) U+2028 (LS ) U+2029 (PS)
 -   **`true`** для U+0009 (TAB) та символів із категорії "Zs" (пробільні роздільники) за винятком пробілу з нульовою довжиною (ZWSP, U+200B).
 
 ### Список параметрів
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
@@ -47,7 +48,7 @@ var_dump(IntlChar::isblank("\t"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -57,7 +58,7 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlChar::isspace()](intlchar.isspace.md) - Перевіряє, чи є символ пробельним
--   [IntlChar::isJavaSpaceChar()](intlchar.isjavaspacechar.md) - Перевірити, чи є символ пробельним з точки зору Java
--   [IntlChar::isUWhiteSpace()](intlchar.isuwhitespace.md) - Перевірити, чи має символ властивість WhiteSpace (пробіловий символ)
--   [IntlChar::isWhitespace()](intlchar.iswhitespace.md) - Перевірити, чи є символ пробельним з точки зору ICU
+-   [IntlChar::isspace()](intlchar.isspace.md) \- Перевіряє, чи є символ пробельним
+-   [IntlChar::isJavaSpaceChar()](intlchar.isjavaspacechar.md) \- Перевірити, чи є символ пробельним з точки зору Java
+-   [IntlChar::isUWhiteSpace()](intlchar.isuwhitespace.md) \- Перевірити, чи має символ властивість White\_Space (пробіловий символ)
+-   [IntlChar::isWhitespace()](intlchar.iswhitespace.md) \- Перевірити, чи є символ пробельним з точки зору ICU

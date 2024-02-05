@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.func-get-args.md: « funcgetargs
-  - function.function-exists.md: functionexists »
+  - function.func-get-args.md: « func\_get\_args
+  - function.function-exists.md: function\_exists »
   - index.md: PHP Manual
-  - ref.funchand.md: Функции управления функциями
-title: funcnumargs
+  - ref.funchand.md: Функції керування функціями
+title: func\_num\_args
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# funcnumargs
+# func\_num\_args
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-funcnumargs - Повертає кількість аргументів, переданих функції
+func\_num\_args - Повертає кількість аргументів, переданих функції
 
 ### Опис
 
@@ -20,7 +21,7 @@ func_num_args(): int
 
 Отримує кількість аргументів переданих функції.
 
-Ця функція також може бути використана спільно з [funcgetarg()](function.func-get-arg.md) і [funcgetargs()](function.func-get-args.md) для створення функцій із змінною кількістю аргументів.
+Ця функція також може бути використана спільно з [func\_get\_arg()](function.func-get-arg.md) і [func\_get\_args()](function.func-get-args.md) для створення функцій із змінною кількістю аргументів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ func_num_args(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **funcnumargs()****
+**Пример #1 Пример использования**func\_num\_args()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ foo(1, 2, 3);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Количество аргументов: 3
@@ -58,13 +59,13 @@ foo(1, 2, 3);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Починаючи з PHP 8.0.0, сімейство функцій func() призначено для більшої прозорості щодо іменованих аргументів, обробляючи аргументи так, ніби всі вони були передані позиційно, а відсутні аргументи замінюються їх значеннями за умовчанням. Функція ігнорує набір невідомих варіативних аргументів. До зібраних невідомих іменованих аргументів можна отримати доступ лише через варіативний параметр.
+> Починаючи з PHP 8.0.0 сімейство функцій func\_\*() призначено для більшої прозорості щодо іменованих аргументів, обробляючи аргументи так, ніби всі вони були передані позиційно, а відсутні аргументи замінюються їх значеннями за умовчанням. Функція ігнорує набір невідомих варіативних аргументів. До зібраних невідомих іменованих аргументів можна отримати доступ лише через варіативний параметр.
 
 ### Дивіться також
 
--   [Синтаксис](functions.arguments.md#functions.variable-arg-list)
--   [funcgetarg()](function.func-get-arg.md)
--   [funcgetargs()](function.func-get-args.md)
+-   [Синтаксис`...`](functions.arguments.md#functions.variable-arg-list)
+-   [func\_get\_arg()](function.func-get-arg.md)
+-   [func\_get\_args()](function.func-get-args.md)
 -   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md)

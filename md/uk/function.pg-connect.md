@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-connect-poll.md: « pgconnectpoll
-  - function.pg-connection-busy.md: пгconnectionbusy »
+  - function.pg-connect-poll.md: « pg\_connect\_poll
+  - function.pg-connection-busy.md: pg\_connection\_busy »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгconnect
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_connect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгconnect
+# pg\_connect
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-пгconnect — Відкриває з'єднання з базою даних PostgreSQL
+pg\_connect — Відкриває з'єднання з базою даних PostgreSQL
 
 ### Опис
 
@@ -18,41 +19,41 @@ title: пгconnect
 pg_connect(string $connection_string, int $flags = 0): PgSql\Connection|false
 ```
 
-**пгconnect()** відкриває з'єднання з базою даних PostgreSQL, визначене рядком `connection_string`
+**pg\_connect()** відкриває з'єднання з базою даних PostgreSQL, визначене рядком `connection_string`
 
-При повторному виклику функції **пгconnect()** з тими ж значеннями параметрів `connection_string` функція поверне існуюче підключення. Щоб примусово створити нове з'єднання, необхідно надіслати рядок підключення функції **`PGSQL_CONNECT_FORCE_NEW`** як параметр `flags`
+При повторному виклику функції **pg\_connect()** з тими ж значеннями параметрів `connection_string` функція поверне існуюче підключення. Щоб примусово створити нове з'єднання, необхідно надіслати рядок підключення функції **`PGSQL_CONNECT_FORCE_NEW`** як параметр `flags`
 
-Колишній синтаксис із безліччю параметрів **$conn = pgconnect("host", "port", "options", "tty", "dbname")** вважається застарілим.
+Прежний синтаксис с множеством параметров\*\*$conn = pg\_connect("host", "port", "options", "tty", "dbname")\*\*считается устаревшим.
 
 ### Список параметрів
 
 `connection_string`
 
-Рядок `connection_string` може бути порожнім рядком або містити кілька параметрів, розділених пробілами. Кожен параметр вказується як `keyword = value`. Прогалини навколо знака "однаково" необов'язкові. Порожні рядки як значення або значення, що містять пробіли, відокремлюються одинарними лапками, як наприклад, `keyword = 'a value'`. Для запису одинарних лапок і зворотних слішів як значення, їх необхідно екранувати зворотним слешем, тобто ' і
+Рядок `connection_string` може бути порожнім рядком або містити кілька параметрів, розділених пробілами. Кожен параметр вказується як `keyword = value`. . Прогалини навколо знака "однаково" необов'язкові. Порожні рядки як значення або значення, що містять пробіли, відокремлюються одинарними лапками, як наприклад, `keyword = 'a value'`. Для запису одинарних лапок і зворотних слішів як значення, їх необхідно екранувати зворотним слешем, тобто \\' і \\\\
 
-Список основних ключових слів: `host` `hostaddr` `port` `dbname` (значення за замовчуванням для параметра `user` `user` `password` `connect_timeout` `options` `tty` (ігнорується), `sslmode` `requiressl` (застаріло у зв'язку з використанням параметра `sslmode`), та `service`. Які з цих аргументів будуть опрацьовані, залежить від версії PostgreSQL.
+Список основних ключових слів: `host` `hostaddr` `port` `dbname`(значение по умолчанию для параметра`user` `user` `password` `connect_timeout` `options` `tty` (ігнорується), `sslmode` `requiressl`(устарело в связи с использованием параметра`sslmode`), и`service`. Які з цих аргументів будуть опрацьовані, залежить від версії PostgreSQL.
 
-Параметр `options` служить для встановлення параметрів командного рядка, оброблених сервером.
+Параметр`options` служить для встановлення параметрів командного рядка, оброблених сервером.
 
 `flags`
 
-Якщо у функцію передано константу **`PGSQL_CONNECT_FORCE_NEW`**, буде створюватися нове підключення, навіть якщо `connection_string` ідентична рядку існуючого підключення.
+Если в функцию передана константа\*\*`PGSQL_CONNECT_FORCE_NEW`\*\*, буде створюватися нове підключення, навіть якщо `connection_string` ідентична рядку існуючого підключення.
 
-Якщо передана константа **`PGSQL_CONNECT_ASYNC`**, то з'єднання встановлюється асинхронним. Стан з'єднання можна перевірити за допомогою функцій [пгconnectpoll()](function.pg-connect-poll.md) або [пгconnectionstatus()](function.pg-connection-status.md)
+Если передана константа\*\*`PGSQL_CONNECT_ASYNC`\*\*, то з'єднання встановлюється асинхронним. Стан з'єднання можна перевірити за допомогою функцій [pg\_connect\_poll()](function.pg-connect-poll.md) або [pg\_connection\_status()](function.pg-connection-status.md)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [PgSqlConnection](class.pgsql-connection.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає екземпляр [PgSql\\Connection](class.pgsql-connection.md) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Повертає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Використання функції **пгconnect()****
+**Пример #1 Использование функции**pg\_connect()\*\*\*\*
 
 ```php
 <?php
@@ -76,10 +77,10 @@ $dbconn5 = pg_connect("host=localhost options='--client_encoding=UTF8'");
 
 ### Дивіться також
 
--   [пгpconnect()](function.pg-pconnect.md) - Відкриває постійне з'єднання із сервером PostgreSQL
--   [пгclose()](function.pg-close.md) - Закриває з'єднання з базою даних PostgreSQL
--   [пгhost()](function.pg-host.md) - Повертає ім'я хоста, що відповідає підключенню
--   [пгport()](function.pg-port.md) - Повертає номер порту, який відповідає заданому з'єднанню
--   [пгtty()](function.pg-tty.md) - Повертає ім'я терміналу TTY, пов'язане зі з'єднанням
--   [пгoptions()](function.pg-options.md) - Отримання параметрів з'єднання із сервером баз даних
--   [пгdbname()](function.pg-dbname.md) - Визначає ім'я бази даних
+-   [pg\_pconnect()](function.pg-pconnect.md) \- Відкриває постійне з'єднання із сервером PostgreSQL
+-   [pg\_close()](function.pg-close.md) \- Закриває з'єднання з базою даних PostgreSQL
+-   [pg\_host()](function.pg-host.md) \- Повертає ім'я хоста, що відповідає підключенню
+-   [pg\_port()](function.pg-port.md) \- Повертає номер порту, який відповідає заданому з'єднанню
+-   [pg\_tty()](function.pg-tty.md) \- Повертає ім'я терміналу TTY, пов'язане зі з'єднанням
+-   [pg\_options()](function.pg-options.md) \- Отримання параметрів з'єднання із сервером баз даних
+-   [pg\_dbname()](function.pg-dbname.md) \- Визначає ім'я бази даних

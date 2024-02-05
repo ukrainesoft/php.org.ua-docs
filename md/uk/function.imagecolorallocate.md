@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolorallocate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecolorallocate
 
@@ -15,16 +16,16 @@ imagecolorallocate — Створення кольору зображення
 ### Опис
 
 ```methodsynopsis
-imagecolorallocate(    GdImage $image,    int $red,    int $green,    int $blue): int|false
+imagecolorallocate(    GdImage $image,    int $red,    int $green,    int $blue): int|false
 ```
 
 Повертає ідентифікатор кольору відповідно до заданих компонентів RGB.
 
 **imagecolorallocate()** має викликатись для створення кожного кольору, який буде використовуватися у зображенні `image`
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Перший виклик **imagecolorallocate()** задає колір фону у палітрових зображеннях - зображеннях, створених функцією [imagecreate()](function.imagecreate.md)
+> Перший виклик **imagecolorallocate()** задає колір фону у півлітрових зображеннях - зображеннях, створених функцією [imagecreate()](function.imagecreate.md)
 
 ### Список параметрів
 
@@ -48,21 +49,21 @@ imagecolorallocate(    GdImage $image,    int $red,    int $green,    int $blue)
 
 ### Значення, що повертаються
 
-Ідентифікатор кольору, або **`false`** у разі виникнення помилки.
+Ідентифікатор кольору, або \*\*`false`\*\*в случае возникновения ошибки.
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Логічний тип](language.types.boolean.md)Используйте[оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagecolorallocate()****
+**Пример #1 Пример использования**imagecolorallocate()\*\*\*\*
 
 ```php
 <?php
@@ -85,5 +86,5 @@ $black = imagecolorallocate($im, 0x00, 0x00, 0x00);
 
 ### Дивіться також
 
--   [imagecolorallocatealpha()](function.imagecolorallocatealpha.md) - Створення кольору для зображення
--   [imagecolordeallocate()](function.imagecolordeallocate.md) - Розрив асоціації змінної із кольором для заданого зображення
+-   [imagecolorallocatealpha()](function.imagecolorallocatealpha.md) \- Створення кольору для зображення
+-   [imagecolordeallocate()](function.imagecolordeallocate.md) \- Розрив асоціації змінної із кольором для заданого зображення

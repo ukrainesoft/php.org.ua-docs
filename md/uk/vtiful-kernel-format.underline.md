@@ -1,16 +1,17 @@
 ---
 navigation:
-  - vtiful-kernel-format.italic.md: '« VtifulKernelFormat::italic'
-  - refs.fileprocess.process.md: Модули для управления процессами программ »
+  - vtiful-kernel-format.italic.md: '« Vtiful\\Kernel\\Format::italic'
+  - refs.fileprocess.process.md: Модулі для керування процесами програм »
   - index.md: PHP Manual
-  - class.vtiful-kernel-format.md: VtifulKernelFormat
-title: 'VtifulKernelFormat::underline'
+  - class.vtiful-kernel-format.md: Vtiful\\Kernel\\Format
+title: 'Vtiful\\Kernel\\Format::underline'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelFormat::underline
+# Vtiful\\Kernel\\Format::underline
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelFormat::underline — Підкреслений
+Vtiful\\Kernel\\Format::underline — Підкреслений
 
 ### Опис
 
@@ -18,7 +19,7 @@ VtifulKernelFormat::underline — Підкреслений
 public Vtiful\Kernel\Format::underline(resource $handle, int $style)
 ```
 
-Підкреслений формат [VtifulKernelFormat](class.vtiful-kernel-format.md)
+Підкреслений формат [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.md)
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public Vtiful\Kernel\Format::underline(resource $handle, int $style)
 
 `style`
 
-Константа [VtifulKernelFormat](class.vtiful-kernel-format.md)
+Константа[Vtiful\\Kernel\\Format](class.vtiful-kernel-format.md)
 
 ### Значення, що повертаються
 

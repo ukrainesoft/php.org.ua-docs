@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-table.delete.md: '« Table::delete'
   - mysql-xdevapi-table.getname.md: 'Table::getName »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: mysql\_xdevapi\\Table
 title: 'Table::existsInDatabase'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Table::existsInDatabase
 
 (No version information available, might only be in Git)
 
-Table::existsInDatabase — Перевірити, чи існує таблиця в базі даних
+Table::exists In Database — Перевірити, чи існує таблиця в базі даних
 
 ### Опис
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Table::existsInDatabase(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTable::existsInDatabase()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Table::existsInDatabase()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ if ($table->existsInDatabase()) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Да, эта таблица всё ещё существует в схеме сессии.

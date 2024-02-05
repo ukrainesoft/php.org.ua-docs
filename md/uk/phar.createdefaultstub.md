@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::createDefaultStub'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::createDefaultStub
 
@@ -56,13 +57,13 @@ php myphar.phar
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `index` і `webIndex` тепер допускають значення null. |
+| 8.0.0 | `index`и`webIndex` тепер допускають значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::createDefaultStub()****
+**Пример #1 Пример использования**Phar::createDefaultStub()\*\*\*\*
 
 ```php
 <?php
@@ -77,5 +78,5 @@ try {
 
 ### Дивіться також
 
--   [Phar::setStub()](phar.setstub.md) - Встановити завантажувач або завантажувальну заглушку в Phar-архів
--   [Phar::getStub()](phar.getstub.md) - Отримати завантажувач PHP або завантажувач заглушки Phar-архіву
+-   [Phar::setStub()](phar.setstub.md) \- Встановити завантажувач або завантажувальну заглушку в Phar-архів
+-   [Phar::getStub()](phar.getstub.md) \- Отримати завантажувач PHP або завантажувач заглушки Phar-архіву

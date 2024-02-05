@@ -1,10 +1,11 @@
 ---
 navigation:
   - stomp.unsubscribe.md: '« Stomp::unsubscribe'
-  - stompframe.construct.md: 'StompFrame::construct »'
+  - stompframe.construct.md: 'StompFrame::\_\_construct »'
   - index.md: PHP Manual
   - book.stomp.md: Stomp
 title: Клас StompFrame
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас StompFrame
 
@@ -16,7 +17,7 @@ title: Клас StompFrame
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 
@@ -62,4 +63,4 @@ body
 
 ## Зміст
 
--   [StompFrame::construct](stompframe.construct.md) - Конструктор
+-   [StompFrame::\_\_construct](stompframe.construct.md) \- Конструктор

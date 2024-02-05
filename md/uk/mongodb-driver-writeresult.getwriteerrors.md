@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getwriteconcernerror.md: '« MongoDBDriverWriteResult::getWriteConcernError'
-  - mongodb-driver-writeresult.isacknowledged.md: 'MongoDBDriverWriteResult::isAcknowledged »'
+  - mongodb-driver-writeresult.getwriteconcernerror.md: '« MongoDB\\Driver\\WriteResult::getWriteConcernError'
+  - mongodb-driver-writeresult.isacknowledged.md: 'MongoDB\\Driver\\WriteResult::isAcknowledged »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
-title: 'MongoDBDriverWriteResult::getWriteErrors'
+  - class.mongodb-driver-writeresult.md: MongoDB\\Driver\\WriteResult
+title: 'MongoDB\\Driver\\WriteResult::getWriteErrors'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteResult::getWriteErrors
+# MongoDB\\Driver\\WriteResult::getWriteErrors
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteResult::getWriteErrors — Повертає будь-які помилки запису, що відбулися
+MongoDB\\Driver\\WriteResult::getWriteErrors — Повертає будь-які помилки запису, що відбулися
 
 ### Опис
 
@@ -24,15 +25,15 @@ final public MongoDB\Driver\WriteResult::getWriteErrors(): array
 
 ### Значення, що повертаються
 
-Повертає масив об'єктів [MongoDBDriverWriteError](class.mongodb-driver-writeerror.md) для будь-яких помилок запису, виявлених під час операції запису. Масив буде порожнім, якщо помилок не сталося.
+Повертає масив об'єктів [MongoDB\\Driver\\WriteError](class.mongodb-driver-writeerror.md) для будь-яких помилок запису, виявлених під час операції запису. Масив буде порожнім, якщо помилок не сталося.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteResult::getWriteErrors()** з однією помилкою**
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getWriteErrors()\*\* з однією помилкою\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {
@@ -77,7 +78,7 @@ array(1) {
 }
 ```
 
-**Приклад #2 Приклад використання **MongoDBDriverWriteResult::getWriteErrors()** з кількома помилками**
+**Пример #2 Пример использования**MongoDB\\Driver\\WriteResult::getWriteErrors()\*\* з кількома помилками\*\*
 
 ```php
 <?php
@@ -104,7 +105,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {
@@ -135,4 +136,4 @@ array(2) {
 
 ### Дивіться також
 
--   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.md)
+-   [MongoDB\\Driver\\WriteError](class.mongodb-driver-writeerror.md)

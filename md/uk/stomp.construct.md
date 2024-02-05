@@ -1,33 +1,35 @@
 ---
 navigation:
   - stomp.commit.md: '« Stomp::commit'
-  - stomp.destruct.md: 'Stomp::destruct »'
+  - stomp.destruct.md: 'Stomp::\_\_destruct »'
   - index.md: PHP Manual
   - class.stomp.md: Stomp
-title: 'Stomp::construct'
+title: 'Stomp::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Stomp::construct
+# Stomp::\_\_construct
 
-# stompconnect
+# stomp\_connect
 
 (PECL stomp >= 0.1.0)
 
-Stomp::construct - stompconnect — Відкриває з'єднання
+Stomp::\_\_construct -- stomp\_connect — Відкриває з'єднання
 
 ### Опис
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public **Stomp::construct**  
-string `$broker` = iniget("stomp.defaultbrokeruri"),  
-string `$username`  
-string `$password`  
-array `$headers`
+public**Stomp::\_\_construct**  
+string`$broker`\= ini\_get("stomp.default\_broker\_uri"),  
+string`$username`  
+string`$password`  
+array`$headers`  
+) .
 
 Процедурний стиль:
 
 ```methodsynopsis
-stomp_connect(    string $broker = ini_get("stomp.default_broker_uri"),    string $username = ?,    string $password = ?,    array $headers = ?): resource
+stomp_connect(    string $broker = ini_get("stomp.default_broker_uri"),    string $username = ?,    string $password = ?,    array $headers = ?): resource
 ```
 
 Відкриває з'єднання до Stomp-сумісного брокера повідомлень (Message Broker).
@@ -52,15 +54,15 @@ URI брокера
 
 ### Значення, що повертаються
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Також може бути зазначений заголовок транзакції, що означає, що прийом повідомлення повинен бути частиною іменованої транзакції.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL Stomp 1.0.1 | Доданий параметр `headers` |
+| PECL stomp 1.0.1 | Добавлен параметр`headers` |
 
 ### Приклади
 

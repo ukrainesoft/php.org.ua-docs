@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.dba-close.md: « dbaclose
-  - function.dba-exists.md: dbaexists »
+  - function.dba-close.md: « dba\_close
+  - function.dba-exists.md: dba\_exists »
   - index.md: PHP Manual
   - ref.dba.md: Функції DBA
-title: dbadelete
+title: dba\_delete
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dbadelete
+# dba\_delete
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-dbadelete — Видалення запису бази даних, визначеної ключем.
+dba\_delete — Видалення запису бази даних, визначеної ключем.
 
 ### Опис
 
@@ -18,7 +19,7 @@ dbadelete — Видалення запису бази даних, визнач�
 dba_delete(string|array $key, resource $dba): bool
 ```
 
-**dbadelete()** видаляє вказаний запис у базі даних.
+**dba\_delete()** видаляє вказаний запис у базі даних.
 
 ### Список параметрів
 
@@ -28,15 +29,15 @@ dba_delete(string|array $key, resource $dba): bool
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)
+Обробник бази даних, повернутий [dba\_open()](function.dba-open.md) або [dba\_popen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [dbaexists()](function.dba-exists.md) - Перевіряє, чи існує ключ
--   [dbafetch()](function.dba-fetch.md) - Витягує дані за вказаним ключем
--   [dbainsert()](function.dba-insert.md) - Вставляє запис
--   [dbareplace()](function.dba-replace.md) - Перезаписати або вставити запис
+-   [dba\_exists()](function.dba-exists.md) \- Перевіряє, чи існує ключ
+-   [dba\_fetch()](function.dba-fetch.md) \- Витягує дані за вказаним ключем
+-   [dba\_insert()](function.dba-insert.md) \- Вставляє запис
+-   [dba\_replace()](function.dba-replace.md) \- Перезаписати або вставити запис

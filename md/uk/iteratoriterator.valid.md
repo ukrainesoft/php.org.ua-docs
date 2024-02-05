@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.iteratoriterator.md: IteratorIterator
 title: 'IteratorIterator::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IteratorIterator::valid
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 IteratorIterator::valid — Перевіряє, чи є припустимим ітератор.
 
@@ -30,5 +31,5 @@ public IteratorIterator::valid(): bool
 
 ### Дивіться також
 
--   [iteratorcount()](function.iterator-count.md) - Підраховує кількість елементів в ітераторі
--   [IteratorIterator::current()](iteratoriterator.current.md) - Отримує поточне значення
+-   [iterator\_count()](function.iterator-count.md) \- Підраховує кількість елементів в ітераторі
+-   [IteratorIterator::current()](iteratoriterator.current.md) \- Отримує поточне значення

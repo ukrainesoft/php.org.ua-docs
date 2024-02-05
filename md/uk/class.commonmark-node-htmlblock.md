@@ -1,12 +1,13 @@
 ---
 navigation:
-  - commonmark-node-codeblock.construct.md: '« CommonMarkNodeCodeBlock::construct'
-  - class.commonmark-node-htmlinline.md: CommonMarkNodeHTMLInline »
+  - commonmark-node-codeblock.construct.md: '« CommonMark\\Node\\CodeBlock::\_\_construct'
+  - class.commonmark-node-htmlinline.md: CommonMark\\Node\\HTMLInline »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: HTMLBlock успадковує CommonMarkNode
+title: HTMLBlock успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# HTMLBlock успадковує CommonMarkNode
+# HTMLBlock успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 

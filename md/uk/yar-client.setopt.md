@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yar-client.construct.md: '« YarClient::construct'
-  - class.yar-concurrent-client.md: YarConcurrentClient »
+  - yar-client.construct.md: '« Yar\_Client::\_\_construct'
+  - class.yar-concurrent-client.md: Yar\_Concurrent\_Client »
   - index.md: PHP Manual
-  - class.yar-client.md: YarClient
-title: 'YarClient::setOpt'
+  - class.yar-client.md: Yar\_Client
+title: 'Yar\_Client::setOpt'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YarClient::setOpt
+# Yar\_Client::setOpt
 
 (PECL yar >= 1.0.0)
 
-YarClient::setOpt — Задати контекст дзвінка
+Yar\_Client::setOpt — Задає контекст дзвінка
 
 ### Опис
 
@@ -22,39 +23,42 @@ public Yar_Client::setOpt(int $name, mixed $value): Yar_Client|false
 
 `name`
 
-Може приймати значення: YAROPTPACKAGER, YAROPTPERSISTENT (необхідна підтримка на сервері), YAROPTTIMEOUT, YAROPTCONNECTTIMEOUT, YAROPTHEADER (Доступно з версії 2.0.4)
+Параметр може набувати значення: **`YAR_OPT_PACKAGER`** **`YAR_OPT_PERSISTENT`**(необходима поддержка на сервере),**`YAR_OPT_TIMEOUT`** **`YAR_OPT_CONNECT_TIMEOUT`** **`YAR_OPT_HEADER`**(константа доступна с версии 2.0.4),**`YAR_OPT_PROXY`**(константа доступна с версии 2.0.4)
 
 `value`
 
 ### Значення, що повертаються
 
-Повертає $this у разі успішного завершення або **`false`** у разі виникнення помилки.
+Повертає $this у разі успішного завершення або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YarClient::setOpt()****
+**Пример #1 Пример использования**Yar\_Client::setOpt()\*\*\*\*
 
 ```php
 <?php
 
 $cient = new Yar_Client("http://host/api/");
 
-//Установим время ожидания на 1 секунду
+// Установим время ожидания на 1 секунду
 $client->SetOpt(YAR_OPT_CONNECT_TIMEOUT, 1000);
 
-//Установим упаковщик JSON
+// Установим упаковщик JSON
 $client->SetOpt(YAR_OPT_PACKAGER, "json");
 
-//Установим собственный заголовок
+// Установим собственный заголовок
 $client->SetOpt(YAR_OPT_HEADER, array("hr1: val1", "hd2: val2"));
 
-/* вызовем удалённый сервис */
+// Установим HTTP-прокси
+$client->SetOpt(YAR_OPT_PROXY, "127.0.0.1:8888");
+
+/* Вызовем удалённый сервис */
 $result = $client->some_method("parameter");
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ### Дивіться також
 
--   [YarClient::call()](yar-client.call.md) - Виклик сервісу
+-   [Yar\_Client::\_\_call()](yar-client.call.md) \- Виклик сервісу

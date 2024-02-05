@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-modify.md: « ldapmodify
-  - function.ldap-next-entry.md: ldapnextentry »
+  - function.ldap-modify.md: « ldap\_modify
+  - function.ldap-next-entry.md: ldap\_next\_entry »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapnextattribute
+title: ldap\_next\_attribute
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapnextattribute
+# ldap\_next\_attribute
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapnextattribute — Отримати наступний атрибут із результату
+ldap\_next\_attribute — Отримати наступний атрибут із результату
 
 ### Опис
 
@@ -18,37 +19,30 @@ ldapnextattribute — Отримати наступний атрибут із р
 ldap_next_attribute(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|false
 ```
 
-Повертає атрибути запису. Перший виклик **ldapnextattribute()** проводиться з параметром `entry`, який повертається [ldapfirstattribute()](function.ldap-first-attribute.md)
+Повертає атрибути запису. Перший виклик **ldap\_next\_attribute()** проводиться з параметром `entry`, який повертається [ldap\_first\_attribute()](function.ldap-first-attribute.md)
 
 ### Список параметрів
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `entry`
 
-Екземпляр [LDAPResultEntry](class.ldap-result-entry.md)
-
-`ber_identifier`
-
-Внутрішній стан вказівника зберігається цим параметром.
-
-> **Зауваження**
-> 
-> Параметр більше не використовується, оскільки це автоматично обробляється PHP. Для зворотної сумісності PHP не буде викидати помилку, якщо цей параметр буде передано.
+Екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.md)
 
 ### Значення, що повертаються
 
-Повертає наступний атрибут запису у разі успішного виконання та **`false`** у разі виникнення помилки.
+Повертає наступний атрибут запису у разі успішного виконання та \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.1.0 | Параметр`entry` тепер чекає екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap result entry` |
+| 8.0.0 | Третій параметр, що не використовується `ber_identifier` більше не приймається. |
 
 ### Дивіться також
 
--   [ldapgetattributes()](function.ldap-get-attributes.md) - Отримує атрибути із запису у результатах пошуку
+-   [ldap\_get\_attributes()](function.ldap-get-attributes.md) \- Отримує атрибути із запису у результатах пошуку

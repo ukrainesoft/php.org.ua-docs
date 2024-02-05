@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-sqlstatement.md: « mysqlxdevapiSqlStatement
-  - mysql-xdevapi-sqlstatement.construct.md: 'SqlStatement::construct »'
+  - class.mysql-xdevapi-sqlstatement.md: « mysql\_xdevapi\\SqlStatement
+  - mysql-xdevapi-sqlstatement.construct.md: 'SqlStatement::\_\_construct »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatement.md: mysqlxdevapiSqlStatement
+  - class.mysql-xdevapi-sqlstatement.md: mysql\_xdevapi\\SqlStatement
 title: 'SqlStatement::bind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SqlStatement::bind
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\SqlStatement::bind(string $param): mysql_xdevapi\SqlStateme
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\SqlStatement::bind(string $param): mysql_xdevapi\SqlStateme
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSqlStatement::bind()****
+**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatement::bind()\*\*\*\*
 
 ```php
 <?php

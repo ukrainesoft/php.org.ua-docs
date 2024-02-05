@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::isFileFormat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::isFileFormat
 
@@ -22,7 +23,7 @@ public Phar::isFileFormat(int $format): bool
 
 `format`
 
-`Phar::PHAR` `Phar::TAR` або `Phar::ZIP`, залежно від формату, що перевіряється.
+`Phar::PHAR` `Phar::TAR`или`Phar::ZIP`, залежно від формату, що перевіряється.
 
 ### Значення, що повертаються
 
@@ -34,5 +35,5 @@ public Phar::isFileFormat(int $format): bool
 
 ### Дивіться також
 
--   [Phar::convertToExecutable()](phar.converttoexecutable.md) - Конвертує phar-архів в інший формат файлу, що виконується.
--   [Phar::convertToData()](phar.converttodata.md) - Конвертує phar-архів в tar-або zip-файл, що не виконується.
+-   [Phar::convertToExecutable()](phar.converttoexecutable.md) \- Конвертує phar-архів в інший формат файлу, що виконується.
+-   [Phar::convertToData()](phar.converttodata.md) \- Конвертує phar-архів в tar-або zip-файл, що не виконується.

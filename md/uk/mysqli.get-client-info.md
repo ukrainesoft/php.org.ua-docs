@@ -1,26 +1,27 @@
 ---
 navigation:
-  - mysqli.get-charset.md: '« mysqli::getcharset'
-  - mysqli.get-client-version.md: 'mysqli::$clientversion »'
+  - mysqli.get-charset.md: '« mysqli::get\_charset'
+  - mysqli.get-client-version.md: 'mysqli::$client\_version »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::$clientinfo'
+title: 'mysqli::$client\_info'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::$clientinfo
+# mysqli::$client\_info
 
-# mysqli::getclientinfo
+# mysqli::get\_client\_info
 
-# mysqligetclientinfo
+# mysqli\_get\_client\_info
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$clientinfo -- mysqli::getclientinfo -- mysqligetclientinfo — Отримує інформацію про клієнта MySQL
+mysqli::$client\_info -- mysqli::get\_client\_info -- mysqli\_get\_client\_info — Отримує інформацію про клієнта MySQL
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-string [$mysqli->clientinfo](mysqli.get-client-info.md)
+string[$mysqli->client\_info](mysqli.get-client-info.md)
 
 ```methodsynopsis
 public mysqli::get_client_info(): string
@@ -44,14 +45,14 @@ mysqli_get_client_info(?mysqli $mysql = null): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Виклик функції **mysqligetclientinfo()** з аргументом `mysql` застарів. Функція ніколи не вимагала параметра, але неправильно дозволяла його як необов'язковий параметр. |
-|  | Об'єктно-орієнтований стиль виклику методу **mysqli::getclientinfo()** застарів. |
+| 8.1.0 | Виклик функції **mysqli\_get\_client\_info()** з аргументом `mysql` застарів. Функція ніколи не вимагала параметра, але неправильно дозволяла його як необов'язковий параметр. |
+| 8.1.0 | Об'єктно-орієнтований стиль виклику методу \*\*mysqli::get\_client\_info()\*\*устарел. |
 
 ### Приклади
 
-**Приклад #1 mysqligetclientinfo**
+**Приклад #1 mysqli\_get\_client\_info**
 
 ```php
 <?php
@@ -65,6 +66,6 @@ printf("Версия клиентской библиотеки: %s\n", mysqli_ge
 
 ### Дивіться також
 
--   [mysqligetclientversion()](mysqli.get-client-version.md) - Повертає інформацію про клієнта MySQL у вигляді рядка
--   [mysqligetserverinfo()](mysqli.get-server-info.md) - Повертає версію MySQL сервера
--   [mysqligetserverversion()](mysqli.get-server-version.md) - Повертає версію сервера MySQL, представлену у вигляді integer
+-   [mysqli\_get\_client\_version()](mysqli.get-client-version.md) \- Повертає інформацію про клієнта MySQL у вигляді рядка
+-   [mysqli\_get\_server\_info()](mysqli.get-server-info.md) \- Повертає версію MySQL сервера
+-   [mysqli\_get\_server\_version()](mysqli.get-server-version.md) \- Повертає версію сервера MySQL, представлену у вигляді integer

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ob-implicit-flush.md: « obimplicitflush
-  - function.ob-start.md: проstart »
+  - function.ob-implicit-flush.md: « ob\_implicit\_flush
+  - function.ob-start.md: ob\_start »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
-title: проlisthandlers
+title: ob\_list\_handlers
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# проlisthandlers
+# ob\_list\_handlers
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-проlisthandlers — Список всіх обробників виводу, що використовуються.
+ob\_list\_handlers — Повертає список активних обробників виводу
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: проlisthandlers
 ob_list_handlers(): array
 ```
 
-Список всіх обробників виведення.
+Виводить список активних обробників виводу.
 
 ### Список параметрів
 
@@ -26,51 +27,135 @@ ob_list_handlers(): array
 
 ### Значення, що повертаються
 
-Функція поверне масив із використовуваними обробниками виводу (якщо є). Якщо увімкнено [outputbuffering](outcontrol.configuration.md#ini.output-buffering) або використовувалася анонімна функція разом з [проstart()](function.ob-start.md), то **проlisthandlers()** поверне "default output handler".
+Повертає масив зі списком активних обробників виводу, якщо є.
+
+Повертає рядок `"default output handler"`, якщо налаштування [output\_buffering](outcontrol.configuration.md#ini.output-buffering) увімкнено та налаштування [output\_handler](outcontrol.configuration.md#ini.output-handler) не встановлено, або у функцію [ob\_start()](function.ob-start.md) не передана callback-функція або замість неї передано значення \*\*`null`\*\*Включение настройки[output\_buffering](outcontrol.configuration.md#ini.output-buffering)и установка значения для настройки[output\_handler](outcontrol.configuration.md#ini.output-handler) еквівалентно передачі у функцію [ob\_start()](function.ob-start.md) [внутрішньої (вбудованої) функції](functions.internal.md)
+
+Повертає [абсолютне ім'я](language.namespaces.basics.md)переданной в параметр[callable](language.types.callable.md) функції, якщо параметр [callable](language.types.callable.md) функції [ob\_start()](function.ob-start.md) була передана callback-функція. Повертає [абсолютне ім'я](language.namespaces.basics.md) об'єкта з методом [\_\_invoke()](language.oop5.magic.md#language.oop5.magic.invoke), якщо параметр [callable](language.types.callable.md) - це об'єкт, який реалізує метод [\_\_invoke()](language.oop5.magic.md#language.oop5.magic.invoke). Повертає рядок `"Closure::__invoke"`, якщо параметр [callable](language.types.callable.md) - це об'єкт класу [Closure](class.closure.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **проlisthandlers()****
+**Пример #1 Пример использования функции**ob\_list\_handlers()\*\*\*\*
 
 ```php
 <?php
-//используется output_buffering=On
-print_r(ob_list_handlers());
+// настройка включена output_buffering=On, значение для настройки output_handler не установлено
+var_dump(ob_list_handlers());
 ob_end_flush();
 
-ob_start("ob_gzhandler");
-print_r(ob_list_handlers());
+// callback-функция не передана или null
+ob_start();
+var_dump(ob_list_handlers());
 ob_end_flush();
 
 // анонимная функция
 ob_start(function($string) { return $string; });
-print_r(ob_list_handlers());
+var_dump(ob_list_handlers());
+ob_end_flush();
+
+// стрелочная функция
+ob_start(fn($string) => $string);
+var_dump(ob_list_handlers());
+ob_end_flush();
+
+// callback-функция как объект первого класса
+$firstClassCallable = userDefinedFunction(...);
+
+ob_start([$firstClassCallable, '__invoke']);
+var_dump(ob_list_handlers());
+ob_end_flush();
+
+// внутренняя (встроенная функция)
+ob_start('print_r');
+var_dump(ob_list_handlers());
+ob_end_flush();
+
+// пользовательская функция
+function userDefinedFunction($string, $flags) { return $string; };
+
+ob_start('userDefinedFunction');
+var_dump(ob_list_handlers());
+ob_end_flush();
+
+class MyClass {
+    public static function staticHandle($string) {
+        return $string;
+    }
+
+    public static function handle($string) {
+        return $string;
+    }
+
+    public function __invoke($string) {
+        return $string;
+    }
+}
+
+// класс и статический метод
+ob_start(['MyClass','staticHandle']);
+var_dump(ob_list_handlers());
+ob_end_flush();
+
+// объект и нестатический метод
+ob_start([new MyClass,'handle']);
+var_dump(ob_list_handlers());
+ob_end_flush();
+
+// объект вызываемого класса
+ob_start(new MyClass);
+var_dump(ob_list_handlers());
 ob_end_flush();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-Array
-(
-    [0] => default output handler
-)
-
-Array
-(
-    [0] => ob_gzhandler
-)
-
-Array
-(
-    [0] => Closure::__invoke
-)
+array(1) {
+  [0]=>
+  string(22) "default output handler"
+}
+array(1) {
+  [0]=>
+  string(22) "default output handler"
+}
+array(1) {
+  [0]=>
+  string(7) "print_r"
+}
+array(1) {
+  [0]=>
+  string(19) "userDefinedFunction"
+}
+array(1) {
+  [0]=>
+  string(17) "Closure::__invoke"
+}
+array(1) {
+  [0]=>
+  string(17) "Closure::__invoke"
+}
+array(1) {
+  [0]=>
+  string(17) "Closure::__invoke"
+}
+array(1) {
+  [0]=>
+  string(21) "MyClass::staticHandle"
+}
+array(1) {
+  [0]=>
+  string(15) "MyClass::handle"
+}
+array(1) {
+  [0]=>
+  string(17) "MyClass::__invoke"
+}
 ```
 
 ### Дивіться також
 
--   [проendclean()](function.ob-end-clean.md) - Очистити (стерти) буфер виведення та вимкнути буферизацію виводу
--   [проendflush()](function.ob-end-flush.md) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
--   [проgetflush()](function.ob-get-flush.md) - Скинути буфер виведення, повернути його у вигляді рядка та вимкнути буферизацію виводу
--   [проstart()](function.ob-start.md) - Включення буферизації виводу
+-   [ob\_end\_clean()](function.ob-end-clean.md) \- Очищає (стирає) вміст активного буфера виведення та відключає його
+-   [ob\_end\_flush()](function.ob-end-flush.md) \- Скидає (відправляє) значення активного оброблювача виводу, що повертається, і відключає активний буфер виводу
+-   [ob\_get\_flush()](function.ob-get-flush.md) \- Скидає (відправляє) повернене активним обробником виводу значення, повертає вміст активного буфера виводу та відключає його
+-   [ob\_start()](function.ob-start.md) \- Включає буферизацію виводу

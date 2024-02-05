@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.tidy.md: tidy
 title: 'tidy::getOpt'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidy::getOpt
 
-# tidygetopt
+# tidy\_getopt
 
-(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
 
-tidy::getOpt -- tidygetopt — Повертає значення вказаного параметра конфігурації для документа tidy
+tidy::getOpt -- tidy\_getopt — Повертає значення вказаного параметра конфігурації для документа tidy
 
 ### Опис
 
@@ -38,7 +39,7 @@ tidy_getopt(tidy $tidy, string $option): string|int|bool
 
 `option`
 
-Ви можете знайти список кожної опції конфігурації з типом тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
+Ви можете знайти список кожної опції конфігурації з типом тут: [» http://api.md-tidy.org/#quick-reference](http://api.md-tidy.org/#quick-reference)
 
 ### Значення, що повертаються
 
@@ -46,7 +47,7 @@ tidy_getopt(tidy $tidy, string $option): string|int|bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidygetopt()****
+**Пример #1 Пример использования**tidy\_getopt()\*\*\*\*
 
 ```php
 <?php
@@ -73,7 +74,7 @@ var_dump($tidy->getOpt('alt-text')); //string
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(3)

@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-sqlstatementresult.fetchall.md: '« SqlStatementResult::fetchAll'
   - mysql-xdevapi-sqlstatementresult.getaffecteditemscount.md: 'SqlStatementResult::getAffectedItemsCount »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: mysql\_xdevapi\\SqlStatementResult
 title: 'SqlStatementResult::fetchOne'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SqlStatementResult::fetchOne
 
@@ -22,7 +23,7 @@ public mysql_xdevapi\SqlStatementResult::fetchOne(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public mysql_xdevapi\SqlStatementResult::fetchOne(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSqlStatementResult::fetchOne()****
+**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatementResult::fetchOne()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ print_r($rows);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

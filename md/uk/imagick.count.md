@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::count
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
 Imagick::count — Отримує кількість зображень
 

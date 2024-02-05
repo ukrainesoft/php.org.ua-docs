@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-schemaobject.md: « mysqlxdevapiSchemaObject
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession »
+  - class.mysql-xdevapi-schemaobject.md: « mysql\_xdevapi\\SchemaObject
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schemaobject.md: mysqlxdevapiSchemaObject
+  - class.mysql-xdevapi-schemaobject.md: mysql\_xdevapi\\SchemaObject
 title: 'SchemaObject::getSchema'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SchemaObject::getSchema
 
@@ -30,7 +31,7 @@ abstract mysql_xdevapi\SchemaObject::getSchema(): mysql_xdevapi\Schema
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::getSchema()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::getSchema()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ $schema  = $session->getSchema("addressbook");
 print_r($schema);
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 mysql_xdevapi\Schema Object

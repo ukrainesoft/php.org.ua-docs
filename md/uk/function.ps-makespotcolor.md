@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-lineto.md: «pslineto
-  - function.ps-moveto.md: псmoveto »
+  - function.ps-lineto.md: « ps\_lineto
+  - function.ps-moveto.md: ps\_moveto »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псmakespotcolor
+title: ps\_makespotcolor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псmakespotcolor
+# ps\_makespotcolor
 
 (PECL ps >= 1.1.0)
 
-псmakespotcolor — Створює плашковий колір
+ps\_makespotcolor — Створює плашковий колір
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: псmakespotcolor
 ps_makespotcolor(resource $psdoc, string $name, int $reserved = 0): int
 ```
 
-Створює плашковий колір із поточного кольору заливки. Колір заливки має бути визначений у колірному просторі rgb, cmyk або gray. Назва плашкового кольору може бути довільною. Плашковий колір може бути встановлений як будь-який колір за допомогою [псsetcolor()](function.ps-setcolor.md). Якщо документ не друкується, а відображається програмою перегляду PostScript, використовується заданий колір у зазначеному просторі.
+Створює плашковий колір із поточного кольору заливки. Колір заливки має бути визначений у колірному просторі rgb, cmyk або gray. Назва плашкового кольору може бути довільною. Плашковий колір може бути встановлений як будь-який колір за допомогою [ps\_setcolor()](function.ps-setcolor.md). Якщо документ не друкується, а відображається програмою перегляду PostScript, використовується заданий колір у зазначеному колірному просторі.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу PostScript-файлу, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу PostScript-файлу, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `name`
 
@@ -70,4 +71,4 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [псsetcolor()](function.ps-setcolor.md) - Встановлює поточний колір
+-   [ps\_setcolor()](function.ps-setcolor.md) \- Встановлює поточний колір

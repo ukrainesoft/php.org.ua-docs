@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.last.md: '« DsSequence::last'
-  - ds-sequence.merge.md: 'ДсSequence::merge »'
+  - ds-sequence.last.md: '« Ds\\Sequence::last'
+  - ds-sequence.merge.md: 'Ds\\Sequence::merge »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::map'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::map'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::map
+# Ds\\Sequence::map
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::map — Повертає результат застосування callback-функції до всіх значень колекції
+Ds\\Sequence::map — Повертає результат застосування callback-функції до всіх значень колекції
 
 ### Опис
 
@@ -28,21 +29,21 @@ abstract public Ds\Sequence::map(callable $callback): Ds\Sequence
 callback(mixed $value): mixed
 ```
 
-Аргумент типу [callable](language.types.callable.md)
+Аргумент типа[callable](language.types.callable.md)
 
 Ця функція повинна повертати нове значення для кожного елемента колекції.
 
 ### Значення, що повертаються
 
-Результат застосування `callback` до кожного значення колекції.
+Результат применения`callback` до кожного значення колекції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення поточної колекції залишаться незмінними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::map()****
+**Пример #1 Пример использования**Ds\\Sequence::map()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ print_r($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

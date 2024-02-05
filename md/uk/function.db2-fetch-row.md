@@ -1,28 +1,29 @@
 ---
 navigation:
-  - function.db2-fetch-object.md: « db2fetchobject
-  - function.db2-field-display-size.md: db2fielddisplaysize »
+  - function.db2-fetch-object.md: « db2\_fetch\_object
+  - function.db2-field-display-size.md: db2\_field\_display\_size »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2fetchrow
+title: db2\_fetch\_row
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2fetchrow
+# db2\_fetch\_row
 
-(PECL ibmdb2> = 1.0.0)
+(PECL ibm\_db2 >= 1.0.0)
 
-db2fetchrow — Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
+db2\_fetch\_row — Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
 
 ### Опис
 
 ```methodsynopsis
-db2_fetch_row(resource $stmt, int $row_number = ?): bool
+db2_fetch_row(resource $stmt, int $row_number = -1): bool
 ```
 
-Використовуйте **db2fetchrow()** для ітерації за набором результатів або для вказівки на певний рядок у наборі результатів, якщо ви запросили курсор, що прокручується.
+Используйте**db2\_fetch\_row()** для ітерації за набором результатів або для вказівки на певний рядок у наборі результатів, якщо ви запросили курсор, що прокручується.
 
-Щоб отримати окремі поля із набору результатів, викличте функцію [db2result()](function.db2-result.md)
+Щоб отримати окремі поля із набору результатів, викличте функцію [db2\_result()](function.db2-result.md)
 
-Замість викликати **db2fetchrow()** і [db2result()](function.db2-result.md), більшість програм буде викликати одну з функцій [db2fetchassoc()](function.db2-fetch-assoc.md) [db2fetchboth()](function.db2-fetch-both.md) або [db2fetcharray()](function.db2-fetch-array.md), щоб просунути покажчик набору результатів та повернути повний рядок у вигляді масиву.
+Замість викликати \*\*db2\_fetch\_row()\*\*и[db2\_result()](function.db2-result.md), більшість програм буде викликати одну з функцій [db2\_fetch\_assoc()](function.db2-fetch-assoc.md) [db2\_fetch\_both()](function.db2-fetch-both.md) або [db2\_fetch\_array()](function.db2-fetch-array.md), щоб просунути покажчик набору результатів та повернути повний рядок у вигляді масиву.
 
 ### Список параметрів
 
@@ -42,7 +43,7 @@ db2_fetch_row(resource $stmt, int $row_number = ?): bool
 
 **Приклад #1 Ітерації з набору результатів**
 
-У наступному прикладі показано, як виконати ітерацію по набору результатів за допомогою **db2fetchrow()** та отримати стовпці з набору результатів за допомогою [db2result()](function.db2-result.md)
+У наступному прикладі показано, як виконати ітерацію по набору результатів за допомогою **db2\_fetch\_row()** та отримати стовпці з набору результатів за допомогою [db2\_result()](function.db2-result.md)
 
 ```php
 <?php
@@ -57,7 +58,7 @@ while (db2_fetch_row($stmt)) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 cat Pook
@@ -66,9 +67,9 @@ budgerigar Gizmo
 goat Rickety Ride
 ```
 
-**Приклад #2 Рекомендовані альтернативи db2fetchrow/db2result для i5/OS**
+**Приклад #2 Рекомендовані альтернативи db2\_fetch\_row/db2\_result для i5/OS**
 
-В i5/OS рекомендується використовувати [db2fetchboth()](function.db2-fetch-both.md) [db2fetcharray()](function.db2-fetch-array.md) або [db2fetchobject()](function.db2-fetch-object.md) замість **db2fetchrow()**[db2result()](function.db2-result.md). Зазвичай у **db2fetchrow()**[db2result()](function.db2-result.md) більше проблем з різними типами стовпців під час перетворення `EBCIDIC` в `ASCII`, включаючи можливе усічення в `DBCS` додатках. Ви також можете виявити, що продуктивність [db2fetchboth()](function.db2-fetch-both.md) [db2fetcharray()](function.db2-fetch-array.md) і [db2fetchobject()](function.db2-fetch-object.md) перевершує **db2fetchrow()**[db2result()](function.db2-result.md)
+В i5/OS рекомендується використовувати [db2\_fetch\_both()](function.db2-fetch-both.md) [db2\_fetch\_array()](function.db2-fetch-array.md) або [db2\_fetch\_object()](function.db2-fetch-object.md) замість **db2\_fetch\_row()** [db2\_result()](function.db2-result.md). Зазвичай у **db2\_fetch\_row()** [db2\_result()](function.db2-result.md) більше проблем з різними типами стовпців під час перетворення `EBCIDIC`в`ASCII`, включаючи можливе усічення в `DBCS` додатках. Ви також можете виявити, що продуктивність [db2\_fetch\_both()](function.db2-fetch-both.md) [db2\_fetch\_array()](function.db2-fetch-array.md) і [db2\_fetch\_object()](function.db2-fetch-object.md)превосходит**db2\_fetch\_row()** [db2\_result()](function.db2-result.md)
 
 ```php
 <?php
@@ -90,7 +91,7 @@ goat Rickety Ride
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 db2_fetch_both MATCH_ANIMAL 2006-08-25-17.10.23.775000 2006-08-25-17.10.23.775000
@@ -103,8 +104,8 @@ db2_fetch_object MULTIRESULTS 2006-10-17-10.11.05.308000
 
 ### Дивіться також
 
--   [db2fetcharray()](function.db2-fetch-array.md) - Повертає масив, індексований за положенням стовпця, що представляє рядок у наборі результатів
--   [db2fetchassoc()](function.db2-fetch-assoc.md) - Повертає масив, індексований на ім'я стовпця, що представляє рядок у наборі результатів
--   [db2fetchboth()](function.db2-fetch-both.md) - Повертає масив, індексований як на ім'я стовпця, так і за позицією, що представляє рядок у наборі результатів
--   [db2fetchobject()](function.db2-fetch-object.md) - Повертає об'єкт із властивостями, що становлять стовпці у вибраному рядку
--   [db2result()](function.db2-result.md) - Повертає один стовпець з рядка у наборі результатів
+-   [db2\_fetch\_array()](function.db2-fetch-array.md) \- Повертає масив, індексований за положенням стовпця, що представляє рядок у наборі результатів
+-   [db2\_fetch\_assoc()](function.db2-fetch-assoc.md) \- Повертає масив, індексований на ім'я стовпця, що представляє рядок у наборі результатів
+-   [db2\_fetch\_both()](function.db2-fetch-both.md) \- Повертає масив, індексований як на ім'я стовпця, так і за позицією, що представляє рядок у наборі результатів
+-   [db2\_fetch\_object()](function.db2-fetch-object.md) \- Повертає об'єкт із властивостями, що становлять стовпці у вибраному рядку
+-   [db2\_result()](function.db2-result.md) \- Повертає один стовпець з рядка у наборі результатів

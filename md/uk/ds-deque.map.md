@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.last.md: '« DsDeque::last'
-  - ds-deque.merge.md: 'ДсDeque::merge »'
+  - ds-deque.last.md: '« Ds\\Deque::last'
+  - ds-deque.merge.md: 'Ds\\Deque::merge »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::map'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::map'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::map
+# Ds\\Deque::map
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::map — Повертає результат застосування callback-функції до всіх значень двосторонньої черги
+Ds\\Deque::map — Повертає результат застосування callback-функції до всіх значень двосторонньої черги
 
 ### Опис
 
@@ -28,21 +29,21 @@ public Ds\Deque::map(callable $callback): Ds\Deque
 callback(mixed $value): mixed
 ```
 
-Аргумент типу [callable](language.types.callable.md)
+Аргумент типа[callable](language.types.callable.md)
 
 Ця функція повинна повертати нове значення для кожного елемента двосторонньої черги.
 
 ### Значення, що повертаються
 
-Результат застосування `callback`функції до кожного значення двосторонньої черги.
+Результат применения`callback`\-функції до кожного значення двосторонньої черги.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення поточної двосторонньої черги залишаться незмінними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::map()****
+**Пример #1 Пример использования**Ds\\Deque::map()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ print_r($deque);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Deque Object

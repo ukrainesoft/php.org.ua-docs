@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-future.done.md: '« parallelFuture::done'
-  - class.parallel-channel.md: parallelChannel »
+  - parallel-future.done.md: '« parallel\\Future::done'
+  - class.parallel-channel.md: parallel\\Channel »
   - index.md: PHP Manual
-  - class.parallel-future.md: parallelFuture
-title: 'parallelFuture::value'
+  - class.parallel-future.md: parallel\\Future
+title: 'parallel\\Future::value'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelFuture::value
+# parallel\\Future::value
 
-parallelFuture::value — Дозвіл
+(0.8.0)
+
+parallel\\Future::value — Дозвіл
 
 ### Опис
 
@@ -22,19 +25,19 @@ public parallel\Future::value(): mixed
 
 **Увага**
 
-Викидає parallelFutureError, якщо очікування не вдалося (внутрішня помилка).
+Викидає parallel\\Future\\Error, якщо очікування не вдалося (внутрішня помилка).
 
 **Увага**
 
-Викидає parallelFutureErrorKilled, якщо [parallelRuntime](class.parallel-runtime.md) виконання завдання було перервано.
+Викидає parallel\\Future\\Error\\Killed, если[parallel\\Runtime](class.parallel-runtime.md) виконання завдання було перервано.
 
 **Увага**
 
-Викидає parallelFutureErrorCancelled, якщо завдання було скасовано.
+Викидає parallel\\Future\\Error\\Cancelled, якщо завдання було скасовано.
 
 **Увага**
 
-Викидає parallelFutureErrorForeign, якщо завдання викликало нерозпізнане неперехоплене виняток.
+Викидає parallel\\Future\\Error\\Foreign, якщо завдання викликало нерозпізнане неперехоплене виняток.
 
 **Увага**
 

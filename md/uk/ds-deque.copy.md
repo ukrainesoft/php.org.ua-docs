@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.contains.md: '« DsDeque::contains'
-  - ds-deque.count.md: 'ДсDeque::count »'
+  - ds-deque.contains.md: '« Ds\\Deque::contains'
+  - ds-deque.count.md: 'Ds\\Deque::count »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::copy'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::copy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::copy
+# Ds\\Deque::copy
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::copy — Повертає поверхневу копію колекції
+Ds\\Deque::copy — Повертає поверхневу копію колекції
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Deque::copy(): Ds\Deque
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::copy()****
+**Пример #1 Пример использования**Ds\\Deque::copy()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($b);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Deque Object

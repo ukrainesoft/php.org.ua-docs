@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.enchant-broker-list-dicts.md: « enchantbrokerlistdicts
-  - function.enchant-broker-request-pwl-dict.md: enchantbrokerrequestpwldict »
+  - function.enchant-broker-list-dicts.md: « enchant\_broker\_list\_dicts
+  - function.enchant-broker-request-pwl-dict.md: enchant\_broker\_request\_pwl\_dict »
   - index.md: PHP Manual
-  - ref.enchant.md: Функции Enchant
-title: enchantbrokerrequestdict
+  - ref.enchant.md: Функції Enchant
+title: enchant\_broker\_request\_dict
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# enchantbrokerrequestdict
+# enchant\_broker\_request\_dict
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL enchant >= 0.1.0 )
 
-enchantbrokerrequestdict — Створити новий словник, використовуючи тег
+enchant\_broker\_request\_dict — Створити новий словник, використовуючи тег
 
 ### Опис
 
@@ -18,34 +19,34 @@ enchantbrokerrequestdict — Створити новий словник, вик�
 enchant_broker_request_dict(EnchantBroker $broker, string $tag): EnchantDictionary|false
 ```
 
-Створює новий словник, використовуючи не порожній мовний тег ("enUS", "ruRU", ...)
+Створює новий словник, використовуючи не порожній мовний тег ("en\_US", "ru\_RU", ...)
 
 ### Список параметрів
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
+Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.md)
 
 `tag`
 
-Тег опису локалі, наприклад enUS, ruРУ
+Тег опису локалі, наприклад en\_US, ru\_RU
 
 ### Значення, що повертаються
 
-Повертає ресурс словника у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс словника у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **enchantbrokerrequestdict()****
+**Пример #1 Пример использования**enchant\_broker\_request\_dict()\*\*\*\*
 
-Перевіряємо, чи існує словник за допомогою [enchantbrokerdictexists()](function.enchant-broker-dict-exists.md) і потім запитуємо його.
+Перевіряємо, чи існує словник за допомогою [enchant\_broker\_dict\_exists()](function.enchant-broker-dict-exists.md) і потім запитуємо його.
 
 ```php
 <?php
@@ -59,6 +60,6 @@ if (enchant_broker_dict_exists($broker,$tag)) {
 
 ### Дивіться також
 
--   [enchantdictdescribe()](function.enchant-dict-describe.md) - Повертає інформацію про словник
--   [enchantbrokerdictexists()](function.enchant-broker-dict-exists.md) - Перевіряє, чи є словник чи ні. Використовується не пустий тег
--   [enchantbrokerfreedict()](function.enchant-broker-free-dict.md) - звільняє ресурс словника
+-   [enchant\_dict\_describe()](function.enchant-dict-describe.md) \- Повертає інформацію про словник
+-   [enchant\_broker\_dict\_exists()](function.enchant-broker-dict-exists.md) \- Перевіряє, чи є словник чи ні. Використовується не пустий тег
+-   [enchant\_broker\_free\_dict()](function.enchant-broker-free-dict.md) \- звільняє ресурс словника

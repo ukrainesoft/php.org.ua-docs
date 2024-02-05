@@ -1,22 +1,23 @@
 ---
 navigation:
-  - class.mysql-xdevapi-schema.md: « mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: « mysql\_xdevapi\\Schema
   - mysql-xdevapi-schema.createcollection.md: 'Schema::createCollection »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
-title: 'Schema::construct'
+  - class.mysql-xdevapi-schema.md: mysql\_xdevapi\\Schema
+title: 'Schema::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Schema::construct
+# Schema::\_\_construct
 
 (No version information available, might only be in Git)
 
-Schema::construct — Конструктор
+Schema::\_\_construct - Конструктор класу Schema
 
 ### Опис
 
-private **mysqlxdevapiSchema::construct**
+private**mysql\_xdevapi\\Schema::\_\_construct**()
 
-Об'єкт Schema надає повний доступ до схеми (бази даних).
+Об'єкт класу Schema надає повний доступ до схеми (бази даних).
 
 ### Список параметрів
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiSchema::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSchema::construct()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ print_r($schema->gettables());
 print_r($schema->getcollections());
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

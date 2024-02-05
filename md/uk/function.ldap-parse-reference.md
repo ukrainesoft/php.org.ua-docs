@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-parse-exop.md: « ldapparseexop
-  - function.ldap-parse-result.md: ldapparseresult »
+  - function.ldap-parse-exop.md: « ldap\_parse\_exop
+  - function.ldap-parse-result.md: ldap\_parse\_result »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapparsereference
+title: ldap\_parse\_reference
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapparsereference
+# ldap\_parse\_reference
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
-ldapparsereference — Витягує інформацію з довідника
+ldap\_parse\_reference — Витягує інформацію з довідника
 
 ### Опис
 
@@ -20,4 +21,4 @@ ldap_parse_reference(LDAP\Connection $ldap, LDAP\ResultEntry $entry, array &$ref
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

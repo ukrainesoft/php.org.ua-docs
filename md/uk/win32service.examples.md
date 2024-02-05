@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.win32service.md: win32service
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

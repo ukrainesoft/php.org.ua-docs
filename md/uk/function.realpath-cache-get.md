@@ -1,16 +1,17 @@
 ---
 navigation:
   - function.readlink.md: « readlink
-  - function.realpath-cache-size.md: realpathcachesize »
+  - function.realpath-cache-size.md: realpath\_cache\_size »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
-title: realpathcacheget
+title: realpath\_cache\_get
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# realpathcacheget
+# realpath\_cache\_get
 
-(PHP 5> = 5.3.2, PHP 7, PHP 8)
+(PHP 5 >= 5.3.2, PHP 7, PHP 8)
 
-realpathcacheget — Отримує записи з кеша realpath
+realpath\_cache\_get — Отримує записи з кеша realpath
 
 ### Опис
 
@@ -30,7 +31,7 @@ realpath_cache_get(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **realpathcacheget()****
+**Пример #1 Пример использования**realpath\_cache\_get()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ var_dump(realpath_cache_get());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {
@@ -59,4 +60,4 @@ array(2) {
 
 ### Дивіться також
 
--   [realpathcachesize()](function.realpath-cache-size.md) - Отримує розмір кеша realpath
+-   [realpath\_cache\_size()](function.realpath-cache-size.md) \- Отримує розмір кеша realpath

@@ -4,17 +4,18 @@ navigation:
   - yac.delete.md: 'Yac::delete »'
   - index.md: PHP Manual
   - class.yac.md: Yac
-title: 'Yac::construct'
+title: 'Yac::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Yac::construct
+# Yac::\_\_construct
 
 (PECL yac >= 1.0.0)
 
-Yac::construct - Конструктор класу
+Yac::\_\_construct - Конструктор класу
 
 ### Опис
 
-public **Yac::construct**(string `$prefix` = "")
+public**Yac::\_\_construct**(string`$prefix` = "")
 
 Префікс використовується для додавання ключів, його можна використовувати для запобігання конфліктам між додатками.
 

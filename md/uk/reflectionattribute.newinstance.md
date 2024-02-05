@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionattribute.md: ReflectionAttribute
 title: 'ReflectionAttribute::newInstance'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionAttribute::newInstance
 
 (PHP 8)
 
-ReflectionAttribute::newInstance — Створює екземпляр класу атрибута, представленого цим класом ReflectionAttribute та аргументами
+ReflectionAttribute::newInstance — Створює екземпляр класу атрибута, використовуючи ім'я класу та аргументи, що містяться в об'єкті ReflectionAttribute.
 
 ### Опис
 
@@ -18,7 +19,7 @@ ReflectionAttribute::newInstance — Створює екземпляр клас�
 public ReflectionAttribute::newInstance(): object
 ```
 
-Створює екземпляр класу атрибута, представленого цим класом ReflectionAttribute та аргументами.
+Створює екземпляр класу атрибута, використовуючи ім'я класу та аргументи, що містяться в об'єкті ReflectionAttribute.
 
 ### Список параметрів
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::waveImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::waveImage
 
@@ -18,7 +19,7 @@ Imagick::waveImage — Застосовує хвильовий фільтр до
 public Imagick::waveImage(float $amplitude, float $length): bool
 ```
 
-Застосовує хвильовий фільтр зображення. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Застосовує фільтр хвиль до зображення. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -56,8 +57,8 @@ function waveImage($imagePath, $amplitude, $length) {
 
 ### Дивіться також
 
--   [Imagick::solarizeImage()](imagick.solarizeimage.md) - Застосовує до зображення ефект соляризації
--   [Imagick::oilpaintImage()](imagick.oilpaintimage.md) - Імітує картину олією
--   [Imagick::embossImage()](imagick.embossimage.md) - Повертає зображення у градаціях сірого з тривимірним ефектом
--   [Imagick::addNoiseImage()](imagick.addnoiseimage.md) - Накладає випадковий шум на зображення
--   [Imagick::swirlImage()](imagick.swirlimage.md) - Закручує пікселі навколо центру зображення
+-   [Imagick::solarizeImage()](imagick.solarizeimage.md) \- Застосовує до зображення ефект соляризації
+-   [Imagick::oilpaintImage()](imagick.oilpaintimage.md) \- Імітує картину олією
+-   [Imagick::embossImage()](imagick.embossimage.md) \- Повертає зображення у градаціях сірого з тривимірним ефектом
+-   [Imagick::addNoiseImage()](imagick.addnoiseimage.md) \- Накладає випадковий шум на зображення
+-   [Imagick::swirlImage()](imagick.swirlimage.md) \- Закручує пікселі навколо центру зображення

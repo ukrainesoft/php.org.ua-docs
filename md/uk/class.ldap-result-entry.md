@@ -1,14 +1,15 @@
 ---
 navigation:
-  - class.ldap-result.md: « LDAPResult
+  - class.ldap-result.md: « LDAP\\Result
   - book.memcache.md: Memcache »
   - index.md: PHP Manual
   - book.ldap.md: LDAP
-title: Клас LDAPResultEntry
+title: Клас LDAP\\ResultEntry
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас LDAPResultEntry
+# Клас LDAP\\ResultEntry
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -16,19 +17,12 @@ title: Клас LDAPResultEntry
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-    
-     
-      final
-      class LDAP\ResultEntry
-     
+     final
+     class LDAP\ResultEntry
      {
-    
 
    }
 ```

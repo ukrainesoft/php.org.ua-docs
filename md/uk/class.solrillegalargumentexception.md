@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - book.solr.md: Solr
 title: Клас SolrIllegalArgumentException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SolrIllegalArgumentException
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 ## Вступ
 
@@ -33,27 +34,27 @@ title: Клас SolrIllegalArgumentException
 
     /* Наследуемые свойства */
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
     protected
      int
@@ -90,4 +91,4 @@ private Exception::__clone(): void
 
 ## Зміст
 
--   [SolrIllegalArgumentException::getInternalInfo](solrillegalargumentexception.getinternalinfo.md) — Повертає внутрішню інформацію про те, де було викинуто виняток
+-   [SolrIllegalArgumentException::getInternalInfo](solrillegalargumentexception.getinternalinfo.md)— Повертає внутрішню інформацію про те, де було викинуто виняток

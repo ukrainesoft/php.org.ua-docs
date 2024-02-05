@@ -1,12 +1,13 @@
 ---
 navigation:
-  - parle-stack.push.md: '« ParleStack::push'
-  - class.parle-errorinfo.md: ParleErrorInfo »
+  - parle-stack.push.md: '« Parle\\Stack::push'
+  - class.parle-errorinfo.md: Parle\\ErrorInfo »
   - index.md: PHP Manual
   - book.parle.md: Parle
-title: Клас ParleToken
+title: Клас Parle\\Token
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас ParleToken
+# Клас Parle\\Token
 
 (PECL parle >= 0.5.2)
 
@@ -16,7 +17,7 @@ title: Клас ParleToken
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 
@@ -60,7 +61,7 @@ title: Клас ParleToken
 
 ## Властивості
 
-ід
+id
 
 Ідентифікатор токена.
 
@@ -80,4 +81,4 @@ value
 
 **`Parle\Token::SKIP`**
 
-Пропустіть ідентифікатор токена.
+Пропустити ідентифікатор токена.

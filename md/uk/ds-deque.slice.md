@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.shift.md: '« DsDeque::shift'
-  - ds-deque.sort.md: 'ДсDeque::sort »'
+  - ds-deque.shift.md: '« Ds\\Deque::shift'
+  - ds-deque.sort.md: 'Ds\\Deque::sort »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::slice'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::slice'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::slice
+# Ds\\Deque::slice
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::slice — Повертає почергово із заданого діапазону
+Ds\\Deque::slice — Повертає почергово із заданого діапазону
 
 ### Опис
 
@@ -38,7 +39,7 @@ public Ds\Deque::slice(int $index, int $length = ?): Ds\Deque
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::slice()****
+**Пример #1 Пример использования**Ds\\Deque::slice()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ print_r($deque->slice(1, -1));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Deque Object

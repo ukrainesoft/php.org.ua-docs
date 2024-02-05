@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.yaz-ccl-conf.md: « yazcclconf
-  - function.yaz-close.md: yazclose »
+  - function.yaz-ccl-conf.md: « yaz\_ccl\_conf
+  - function.yaz-close.md: yaz\_close »
   - index.md: PHP Manual
-  - ref.yaz.md: Функции YAZ
-title: yazcclparse
+  - ref.yaz.md: Функції YAZ
+title: yaz\_ccl\_parse
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yazcclparse
+# yaz\_ccl\_parse
 
-(PHP 4> = 4.0.5, PECL yaz> = 0.9.0)
+(PHP 4 >= 4.0.5, PECL yaz >= 0.9.0)
 
-yazcclparse — Викликає парсер CCL
+yaz\_ccl\_parse — Викликає парсер CCL
 
 ### Опис
 
@@ -18,15 +19,15 @@ yazcclparse — Викликає парсер CCL
 yaz_ccl_parse(resource $id, string $query, array &$result): bool
 ```
 
-Функція викликає синтаксичний аналізатор CCL. Він перетворює цей запит CCL FIND на запит RPN, який можна передати функції [yazsearch()](function.yaz-search.md) для пошуку.
+Функція викликає синтаксичний аналізатор CCL. Він перетворює цей запит CCL FIND на запит RPN, який можна передати функції [yaz\_search()](function.yaz-search.md) для пошуку.
 
-Щоб визначити набір допустимих полів CCL, викличте [yazcclconf()](function.yaz-ccl-conf.md) перед цією функцією.
+Щоб визначити набір допустимих полів CCL, викличте [yaz\_ccl\_conf()](function.yaz-ccl-conf.md) перед цією функцією.
 
 ### Список параметрів
 
 `id`
 
-Ресурс з'єднання, повернутий [yazconnect()](function.yaz-connect.md)
+Ресурс з'єднання, повернутий [yaz\_connect()](function.yaz-connect.md)
 
 `query`
 
@@ -38,16 +39,16 @@ yaz_ccl_parse(resource $id, string $query, array &$result): bool
 
 Після збою в цьому масиві встановлюються три індекси, що вказують на причину виникнення помилки:
 
--   `errorcode` - код помилки CCL (ціле число)
+-   `errorcode`\- код помилки CCL (ціле число)
     
--   `errorstring` - Рядок помилки CCL
+-   `errorstring`\- Рядок помилки CCL
     
--   `errorpos` - приблизна позиція у запиті помилки (ціле число – позиція символу)
+-   `errorpos`\- приблизна позиція у запиті помилки (ціле число – позиція символу)
     
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

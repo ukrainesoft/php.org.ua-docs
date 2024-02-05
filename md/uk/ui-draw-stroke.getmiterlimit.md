@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-stroke.getjoin.md: '« UIDrawStroke::getJoin'
-  - ui-draw-stroke.getthickness.md: 'ОЙDrawStroke::getThickness »'
+  - ui-draw-stroke.getjoin.md: '« UI\\Draw\\Stroke::getJoin'
+  - ui-draw-stroke.getthickness.md: 'UI\\Draw\\Stroke::getThickness »'
   - index.md: PHP Manual
-  - class.ui-draw-stroke.md: ОЙDrawStroke
-title: 'ОЙDrawStroke::getMiterLimit'
+  - class.ui-draw-stroke.md: UI\\Draw\\Stroke
+title: 'UI\\Draw\\Stroke::getMiterLimit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawStroke::getMiterLimit
+# UI\\Draw\\Stroke::getMiterLimit
 
 (UI 0.9.9)
 
-ОЙDrawStroke::getMiterLimit — Отримати межу зрізу
+UI\\Draw\\Stroke::getMiterLimit — Отримати межу зрізу
 
 ### Опис
 

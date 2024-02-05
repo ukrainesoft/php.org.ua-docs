@@ -4,8 +4,9 @@ navigation:
   - gettext.configuration.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - gettext.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Щоб включити підтримку GNU gettext у вашу збірку PHP, додайте в конфігурацію ключ **\-with-gettext=DIR**де DIR - папка установки gettext, зазвичай це /usr/local.
+Щоб включити підтримку GNU gettext у вашу збірку PHP, додайте в конфігурацію ключ \*\*--with-gettext\[=DIR\]\*\*де DIR - папка установки gettext, зазвичай це /usr/local.

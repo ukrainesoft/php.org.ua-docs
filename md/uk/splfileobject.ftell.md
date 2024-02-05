@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::ftell'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::ftell
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::ftell — Повернути поточну позицію файлового покажчика
 
@@ -26,11 +27,11 @@ public SplFileObject::ftell(): int|false
 
 ### Значення, що повертаються
 
-Повертає позицію файлового покажчика у вигляді цілого чи числа **`false`** у разі помилки.
+Повертає позицію файлового покажчика у вигляді цілого чи числа \*\*`false`\*\*в случае ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::ftell()****
+**Пример #1 Пример использования**SplFileObject::ftell()\*\*\*\*
 
 ```php
 <?php
@@ -46,4 +47,4 @@ echo $file->ftell();
 
 ### Дивіться також
 
--   [ftell()](function.ftell.md) - Повертає поточну позицію покажчика читання/запису файлу
+-   [ftell()](function.ftell.md) \- Повертає поточну позицію покажчика читання/запису файлу

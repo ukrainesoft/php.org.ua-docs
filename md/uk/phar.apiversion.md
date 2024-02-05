@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::apiVersion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::apiVersion
 
@@ -28,7 +29,7 @@ final public static Phar::apiVersion(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::apiVersion()****
+**Пример #1 Пример использования**Phar::apiVersion()\*\*\*\*
 
 ```php
 <?php
@@ -36,7 +37,7 @@ echo Phar::apiVersion();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1.1.1

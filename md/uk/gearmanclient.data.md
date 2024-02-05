@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::data'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::data
 
@@ -20,7 +21,7 @@ public GearmanClient::data(): string
 
 Повертає дані програми, встановлені раніше за допомогою [GearmanClient::setData()](gearmanclient.setdata.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей метод було замінено на [GearmanClient::setContext()](gearmanclient.setcontext.md) у версії 0.6.0 модуля Gearman.
 
@@ -34,4 +35,4 @@ public GearmanClient::data(): string
 
 ### Дивіться також
 
--   [GearmanClient::setData()](gearmanclient.setdata.md) - встановити дані програми (застарілий метод)
+-   [GearmanClient::setData()](gearmanclient.setdata.md) \- встановити дані програми (застарілий метод)

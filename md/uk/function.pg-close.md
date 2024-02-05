@@ -1,36 +1,37 @@
 ---
 navigation:
-  - function.pg-client-encoding.md: « pgclientencoding
-  - function.pg-connect-poll.md: пгconnectpoll »
+  - function.pg-client-encoding.md: « pg\_client\_encoding
+  - function.pg-connect-poll.md: pg\_connect\_poll »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгclose
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгclose
+# pg\_close
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-пгclose — Закриває з'єднання з базою даних PostgreSQL
+pg\_close — Закриває з'єднання з базою даних PostgreSQL
 
 ### Опис
 
 ```methodsynopsis
-pg_close(?PgSql\Connection $connection = null): bool
+pg_close(?PgSql\Connection $connection = null): true
 ```
 
-**пгclose()** закриває звичайне (непостійне) з'єднання з базою даних PostgreSQL, що відповідає екземпляру `connection`
+**pg\_close()** закриває звичайне (непостійне) з'єднання з базою даних PostgreSQL, що відповідає екземпляру `connection`
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Використання **пгclose()**, зазвичай, необов'язково, оскільки непостійні з'єднання закриваються автоматично після завершення роботи скрипта.
+> Использование**pg\_close()**, зазвичай, необов'язково, оскільки непостійні з'єднання закриваються автоматично після завершення роботи скрипта.
 
-Якщо зі з'єднанням працюють екземпляри [PgSqlLob](class.pgsql-lob.md), то перед закриттям з'єднання необхідно закрити всі екземпляри [PgSqlLob](class.pgsql-lob.md)
+Якщо зі з'єднанням працюють екземпляри [PgSql\\Lob](class.pgsql-lob.md), то перед закриттям з'єднання необхідно закрити всі екземпляри [PgSql\\Lob](class.pgsql-lob.md)
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection`указан как\*\*`null`\*\*, вибирається стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -42,14 +43,15 @@ pg_close(?PgSql\Connection $connection = null): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `connection` тепер допускає значення null. |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгclose()****
+**Пример #1 Пример использования**pg\_close()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +62,7 @@ pg_close($dbconn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Успешно подключено к БД
@@ -68,4 +70,4 @@ pg_close($dbconn);
 
 ### Дивіться також
 
--   [пгconnect()](function.pg-connect.md) - Відкриває з'єднання з базою даних PostgreSQL
+-   [pg\_connect()](function.pg-connect.md) \- Відкриває з'єднання з базою даних PostgreSQL

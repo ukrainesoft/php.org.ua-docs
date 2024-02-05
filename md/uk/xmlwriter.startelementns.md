@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::startElementNs'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLWriter::startElementNs
 
-# xmlwriterstartelementнс
+# xmlwriter\_start\_element\_ns
 
 (PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::startElementNs -- xmlwriterstartelementns — Створити стартовий тег елемента простору імен
+XMLWriter::startElementNs -- xmlwriter\_start\_element\_ns — Створити стартовий тег елемента простору імен
 
 ### Опис
 
@@ -25,7 +26,7 @@ public XMLWriter::startElementNs(?string $prefix, string $name, ?string $namespa
 Процедурний стиль
 
 ```methodsynopsis
-xmlwriter_start_element_ns(    XMLWriter $writer,    ?string $prefix,    string $name,    ?string $namespace): bool
+xmlwriter_start_element_ns(    XMLWriter $writer,    ?string $prefix,    string $name,    ?string $namespace): bool
 ```
 
 Починає елемент простору імен.
@@ -34,11 +35,11 @@ xmlwriter_start_element_ns(    XMLWriter $writer,    ?string $prefix,    string 
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.md) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.md)
 
 `prefix`
 
-Префікс простору імен. Якщо `prefix` дорівнює **`null`**, простір імен буде опущено.
+Префікс простору імен. Якщо `prefix`равен\*\*`null`\*\*, простір імен буде опущено.
 
 `name`
 
@@ -46,19 +47,19 @@ xmlwriter_start_element_ns(    XMLWriter $writer,    ?string $prefix,    string 
 
 `namespace`
 
-URI простір імен. Якщо `namespace` дорівнює **`null`**, оголошення простору імен буде опущено.
+URI простір імен. Якщо `namespace`равен\*\*`null`\*\*, оголошення простору імен буде опущено.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| 8.0.0 | В параметре`writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::endElement()](xmlwriter.endelement.md) - Завершити поточний елемент
--   [XMLWriter::writeElementNs()](xmlwriter.writeelementns.md) - Записати повний простір імен тега елемента
+-   [XMLWriter::endElement()](xmlwriter.endelement.md) \- Завершити поточний елемент
+-   [XMLWriter::writeElementNs()](xmlwriter.writeelementns.md) \- Записати повний простір імен тега елемента

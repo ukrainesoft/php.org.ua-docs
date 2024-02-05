@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.multipleiterator.md: MultipleIterator
 title: 'MultipleIterator::detachIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # MultipleIterator::detachIterator
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 MultipleIterator::detachIterator — Від'єднує ітератор
 
@@ -22,7 +23,7 @@ public MultipleIterator::detachIterator(Iterator $iterator): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ public MultipleIterator::detachIterator(Iterator $iterator): void
 
 ### Дивіться також
 
--   [MultipleIterator::attachIterator()](multipleiterator.attachiterator.md) - приєднує ітератор
+-   [MultipleIterator::attachIterator()](multipleiterator.attachiterator.md) \- приєднує ітератор

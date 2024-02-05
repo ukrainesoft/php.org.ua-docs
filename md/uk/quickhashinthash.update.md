@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashinthash.md: QuickHashIntHash
 title: 'QuickHashIntHash::update'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntHash::update
 
@@ -32,11 +33,11 @@ public QuickHashIntHash::update(int $key, int $value): bool
 
 ### Значення, що повертаються
 
-Метод повертає **`true`**, якщо запис було знайдено та оновлено та **`false`**, якщо запис був частиною хеша.
+Метод возвращает\*\*`true`\*\*, якщо запис було знайдено та оновлено та **`false`**, якщо запис був частиною хеша.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntHash::update()****
+**Пример #1 Пример использования**QuickHashIntHash::update()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump( $hash->get( 141421 ) );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)

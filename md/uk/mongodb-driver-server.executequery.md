@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-server.executecommand.md: '« MongoDBDriverServer::executeCommand'
-  - mongodb-driver-server.executereadcommand.md: 'MongoDBDriverServer::executeReadCommand »'
+  - mongodb-driver-server.executecommand.md: '« MongoDB\\Driver\\Server::executeCommand'
+  - mongodb-driver-server.executereadcommand.md: 'MongoDB\\Driver\\Server::executeReadCommand »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.md: MongoDBDriverServer
-title: 'MongoDBDriverServer::executeQuery'
+  - class.mongodb-driver-server.md: MongoDB\\Driver\\Server
+title: 'MongoDB\\Driver\\Server::executeQuery'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverServer::executeQuery
+# MongoDB\\Driver\\Server::executeQuery
 
 (mongodb >=1.0.0)
 
-MongoDBDriverServer::executeQuery — Виконує запит до бази даних на сервері
+MongoDB\\Driver\\Server::executeQuery — Виконує запит до бази даних на сервері
 
 ### Опис
 
@@ -20,15 +21,15 @@ final public MongoDB\Driver\Server::executeQuery(string $namespace, MongoDB\Driv
 
 Виконує запит на сервері.
 
-> **Зауваження**: Опція `"readPreference"` не керує сервером, якому драйвер виконує операцію; він завжди виконуватиметься на цьому об'єкті сервера. Натомість його можна використовувати при видачі операції на вторинному сервері (зі з'єднання з реплікою, а не автономному) або вузол mongos, щоб гарантувати, що драйвер відповідно встановлює дротовий протокол або додає переваги читання до операції відповідно.
+> **Зауваження**: Опция`"readPreference"` не керує сервером, якому драйвер виконує операцію; він завжди виконуватиметься на цьому об'єкті сервера. Натомість його можна використовувати при видачі операції на вторинному сервері (зі з'єднання з реплікою, а не автономному) або вузол mongos, щоб гарантувати, що драйвер відповідно встановлює дротовий протокол або додає переваги читання до операції відповідно.
 
 ### Список параметрів
 
-`namespace` (string)
+`namespace`(string)
 
 Повністю певне ім'я (тобто . `"databaseName.collectionName"`
 
-`query` [MongoDBDriverQuery](class.mongodb-driver-query.md)
+`query` [MongoDB\\Driver\\Query](class.mongodb-driver-query.md)) .
 
 Запит на виконання.
 
@@ -36,35 +37,35 @@ final public MongoDB\Driver\Server::executeQuery(string $namespace, MongoDB\Driv
 
 **options**
 
-| Опция | Тип | Описание |
+| Опция | Тип | Опис |
 | --- | --- | --- |
-| readPreference | [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md) |  |
+| readPreference | [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.md) |  |
 | Перевага читання, що використовується для вибору сервера для виконання операції. |  |  |
 
-| | session | [MongoDBDriverSession](class.mongodb-driver-session.md)
+| | session |[MongoDB\\Driver\\Session](class.mongodb-driver-session.md)
 
 Сесія зв'язування з операцією.
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає [MongoDBDriverCursor](class.mongodb-driver-cursor.md)
+У разі успішного виконання повертає [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.md)
--   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
--   Видає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md) інші помилки (наприклад, неприпустимі оператори запитів).
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток[MongoDB\\Driver\\Exception\\ConnectionException](class.mongodb-driver-exception-connectionexception.md)
+-   У разі невдалої аутентифікації кидає виняток[MongoDB\\Driver\\Exception\\AuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
+-   Видає виняток[MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.md)інші помилки (наприклад, неприпустимі оператори запитів).
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр, як і раніше, прийматиме об'єкт [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md) |
+| PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. . Для зворотної сумісності цей параметр, як і раніше, прийматиме об'єкт [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.md) |
 
 ### Дивіться також
 
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.md)
--   [MongoDBDriverQuery](class.mongodb-driver-query.md)
--   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md)
--   [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.md) - Виконує запит до бази даних
+-   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.md)
+-   [MongoDB\\Driver\\Query](class.mongodb-driver-query.md)
+-   [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.md)
+-   [MongoDB\\Driver\\Manager::executeQuery()](mongodb-driver-manager.executequery.md) \- Виконує запит до бази даних

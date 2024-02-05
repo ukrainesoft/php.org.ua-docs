@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-bson-binaryinterface.md: « MongoDBBSONBinaryInterface
-  - mongodb-bson-binaryinterface.gettype.md: 'MongoDBBSONBinaryInterface::getType »'
+  - class.mongodb-bson-binaryinterface.md: « MongoDB\\BSON\\BinaryInterface
+  - mongodb-bson-binaryinterface.gettype.md: 'MongoDB\\BSON\\BinaryInterface::getType »'
   - index.md: PHP Manual
-  - class.mongodb-bson-binaryinterface.md: MongoDBBSONBinaryInterface
-title: 'MongoDBBSONBinaryInterface::getData'
+  - class.mongodb-bson-binaryinterface.md: MongoDB\\BSON\\BinaryInterface
+title: 'MongoDB\\BSON\\BinaryInterface::getData'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONBinaryInterface::getData
+# MongoDB\\BSON\\BinaryInterface::getData
 
 (mongodb >=1.3.0)
 
-MongoDBBSONBinaryInterface::getData — Повертає дані BinaryInterface
+MongoDB\\BSON\\BinaryInterface::getData — Повертає дані BinaryInterface
 
 ### Опис
 
@@ -28,4 +29,4 @@ abstract public MongoDB\BSON\BinaryInterface::getData(): string
 
 ### Дивіться також
 
--   [MongoDBBSONBinary::getData()](mongodb-bson-binary.getdata.md) - Повертає дані Binary
+-   [MongoDB\\BSON\\Binary::getData()](mongodb-bson-binary.getdata.md) \- Повертає дані Binary

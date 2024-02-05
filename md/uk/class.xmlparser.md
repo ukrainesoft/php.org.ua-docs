@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.xml-set-unparsed-entity-decl-handler.md: « xmlsetunparsedentitydeclhandler
+  - function.xml-set-unparsed-entity-decl-handler.md: « xml\_set\_unparsed\_entity\_decl\_handler
   - book.xmlreader.md: XMLReader »
   - index.md: PHP Manual
-  - book.xml.md: Разбор XML
+  - book.xml.md: Розбір XML
 title: Клас XmlParser
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас XmlParser
 
@@ -16,19 +17,12 @@ title: Клас XmlParser
 
 ## Огляд класів
 
-```synopsis
-
-
+```classsynopsis
 
     
-     
-      final
-      class XmlParser
-     
+     final
+     class XMLParser
      {
 
-
-    
-    
    }
 ```

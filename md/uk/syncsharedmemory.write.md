@@ -4,9 +4,10 @@ navigation:
   - refs.basic.other.md: Інші базові модулі »
   - index.md: PHP Manual
   - class.syncsharedmemory.md: SyncSharedMemory
-title: 'Sync Shared Memory::write'
+title: 'SyncSharedMemory::write'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Sync Shared Memory::write
+# SyncSharedMemory::write
 
 (PECL sync >= 1.1.0)
 
@@ -26,7 +27,7 @@ public SyncSharedMemory::write(string $string = ?, int $start = 0)
 
 Дані для запису в пам'ять, що розділяється.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо розмір даних перевищує розмір пам'яті, що розділяється, кількість записаних повертаються байтів буде менше довжини вхідних даних.
 
@@ -34,7 +35,7 @@ public SyncSharedMemory::write(string $string = ?, int $start = 0)
 
 Початок/зміщення у байтах для початку запису.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо значення негативне, початкова позиція буде починатися із зазначеної кількості байтів з кінця сегмента пам'яті, що розділяється.
 
@@ -44,7 +45,7 @@ public SyncSharedMemory::write(string $string = ?, int $start = 0)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Sync Shared Memory::write()****
+**Пример #1 Пример использования**SyncSharedMemory::write()\*\*\*\*
 
 ```php
 <?php
@@ -64,7 +65,7 @@ var_dump($result);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(10)
@@ -73,7 +74,7 @@ int(3)
 
 ### Дивіться також
 
--   [SyncSharedMemory::construct()](syncsharedmemory.construct.md) - Створює новий об'єкт SyncSharedMemory
--   [SyncSharedMemory::first()](syncsharedmemory.first.md) - Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
--   **Sync Shared Memory::write()**
--   [SyncSharedMemory::read()](syncsharedmemory.read.md) - Копіює дані з іменованої пам'яті, що розділяється
+-   [SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.md) \- Створює новий об'єкт SyncSharedMemory
+-   [SyncSharedMemory::first()](syncsharedmemory.first.md) \- Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
+-   **SyncSharedMemory::write()**
+-   [SyncSharedMemory::read()](syncsharedmemory.read.md) \- Копіює дані з іменованої пам'яті, що розділяється

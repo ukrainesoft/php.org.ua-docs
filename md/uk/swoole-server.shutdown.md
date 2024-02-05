@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.set.md: '« SwooleServer::set'
-  - swoole-server.start.md: 'SwooleServer::start »'
+  - swoole-server.set.md: '« Swoole\\Server::set'
+  - swoole-server.start.md: 'Swoole\\Server::start »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::shutdown'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::shutdown'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::shutdown
+# Swoole\\Server::shutdown
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::shutdown — Завершує процес головного сервера, функцію можна викликати у робочих процесах
+Swoole\\Server::shutdown — Завершує процес головного сервера, функцію можна викликати у робочих процесах
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-props-changed.md: « svnфсpropschanged
-  - function.svn-fs-revision-root.md: svnфсrevisionroot »
+  - function.svn-fs-props-changed.md: « svn\_fs\_props\_changed
+  - function.svn-fs-revision-root.md: svn\_fs\_revision\_root »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсrevisionprop
+title: svn\_fs\_revision\_prop
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсrevisionprop
+# svn\_fs\_revision\_prop
 
 (PECL svn >= 0.1.0)
 
-svnфсrevisionprop — Повертає значення цієї властивості
+svn\_fs\_revision\_prop — Повертає значення цієї властивості
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_revision_prop(resource $fs, int $revnum, string $propname): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає значення цієї властивості
 

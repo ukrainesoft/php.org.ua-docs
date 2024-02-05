@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gnupg-setarmor.md: « gnupgsetarmor
-  - function.gnupg-setsignmode.md: gnupgsetsignmode »
+  - function.gnupg-setarmor.md: « gnupg\_setarmor
+  - function.gnupg-setsignmode.md: gnupg\_setsignmode »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgseterrormode
+title: gnupg\_seterrormode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgseterrormode
+# gnupg\_seterrormode
 
 (PECL gnupg >= 0.6)
 
-gnupgseterrormode — Встановлює режим звітування про помилки (errorreporting)
+gnupg\_seterrormode — Встановлює режим звітування про помилки (error\_reporting)
 
 ### Опис
 
@@ -18,19 +19,19 @@ gnupgseterrormode — Встановлює режим звітування пр�
 gnupg_seterrormode(resource $identifier, int $errormode): void
 ```
 
-Встановлює режим [errorreporting](errorfunc.configuration.md#ini.error-reporting)
+Устанавливает режим[error\_reporting](errorfunc.configuration.md#ini.error-reporting)
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `errormode`
 
 Режим помилок.
 
-`errormode` містить константу, що вказує, який тип errorreporting має бути використаний. Можливі значення: **`GNUPG_ERROR_WARNING`** **`GNUPG_ERROR_EXCEPTION`** і **`GNUPG_ERROR_SILENT`**. За замовчуванням використовується **`GNUPG_ERROR_SILENT`**
+`errormode` містить константу, що вказує, який тип error\_reporting має бути використаний. Можливі значення: **`GNUPG_ERROR_WARNING`** **`GNUPG_ERROR_EXCEPTION`**и**`GNUPG_ERROR_SILENT`**По умолчанию используется**`GNUPG_ERROR_SILENT`**
 
 ### Значення, що повертаються
 
@@ -38,7 +39,7 @@ gnupg_seterrormode(resource $identifier, int $errormode): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupgseterrormode()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_seterrormode()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ gnupg_seterrormode($res, GNUPG_ERROR_WARNING); // выводить PHP-пред�
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupgseterrormode()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_seterrormode()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

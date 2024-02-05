@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xml-get-current-column-number.md: « xmlgetcurrentcolumnnumber
-  - function.xml-get-error-code.md: xmlgeterrorcode »
+  - function.xml-get-current-column-number.md: « xml\_get\_current\_column\_number
+  - function.xml-get-error-code.md: xml\_get\_error\_code »
   - index.md: PHP Manual
-  - ref.xml.md: Функции парсера XML
-title: xmlgetcurrentlinenumber
+  - ref.xml.md: Функції парсера XML
+title: xml\_get\_current\_line\_number
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlgetcurrentlinenumber
+# xml\_get\_current\_line\_number
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xmlgetcurrentlinenumber — Отримує від XML-аналізатора номер поточного рядка
+xml\_get\_current\_line\_number — Отримує від XML-аналізатора номер поточного рядка
 
 ### Опис
 
@@ -28,15 +29,15 @@ xml_get_current_line_number(XMLParser $parser): int
 
 ### Значення, що повертаються
 
-Ця функція повертає **`false`**, якщо посилання параметра `parser` не веде до діючого аналізатора, або повертає номер рядка згідно з поточним положенням покажчика аналізатора.
+Функція повертає номер рядка згідно з поточним положенням покажчика аналізатора.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | Параметр`parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався коректний `xml` ресурс (Resource). |
 
 ### Дивіться також
 
--   [xmlgetcurrentcolumnnumber()](function.xml-get-current-column-number.md) - Отримує від XML-аналізатора номер поточного стовпця
--   [xmlgetcurrentbyteindex()](function.xml-get-current-byte-index.md) - Отримує поточний для XML-аналізатора байтовий індекс
+-   [xml\_get\_current\_column\_number()](function.xml-get-current-column-number.md) \- Отримує від XML-аналізатора номер поточного стовпця
+-   [xml\_get\_current\_byte\_index()](function.xml-get-current-byte-index.md) \- Отримує поточний для XML-аналізатора байтовий індекс

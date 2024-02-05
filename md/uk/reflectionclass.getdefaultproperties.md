@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getDefaultProperties'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getDefaultProperties
 
@@ -20,7 +21,7 @@ public ReflectionClass::getDefaultProperties(): array
 
 Повертає властивості класу за умовчанням (включаючи успадковані властивості).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей метод працює лише статичних властивостей під час використання із внутрішніми класами. Значення за умовчанням статичної властивості не можна відстежувати у класах, визначених користувачем.
 
@@ -30,11 +31,11 @@ public ReflectionClass::getDefaultProperties(): array
 
 ### Значення, що повертаються
 
-Асоціативний масив (array) властивостей за умовчанням, ключами якого є імена властивостей, а значеннями - відповідні значення за замовчуванням або ж **`null`**, якщо цій властивості не було встановлено значення за замовчуванням. Функція не розрізняє статичні та нестатичні властивості, а також не надає інформацію про модифікаторів видимості при виведенні.
+Асоціативний масив (array) властивостей за умовчанням, ключами якого є імена властивостей, а значеннями - відповідні значення за умовчанням або ж **`null`**, якщо цій властивості не було встановлено значення за замовчуванням. Функція не розрізняє статичні та нестатичні властивості, а також не надає інформацію про модифікаторів видимості при виведенні.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getDefaultProperties()****
+**Пример #1 Пример использования**ReflectionClass::getDefaultProperties()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ var_dump($reflectionClass->getDefaultProperties());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(5) {
@@ -73,6 +74,6 @@ array(5) {
 
 ### Дивіться також
 
--   [ReflectionClass::getProperties()](reflectionclass.getproperties.md) - Повертає властивості
--   [ReflectionClass::getStaticProperties()](reflectionclass.getstaticproperties.md) - Повертає статичні властивості
--   [ReflectionClass::getProperty()](reflectionclass.getproperty.md) - Повертає екземпляр ReflectionProperty для якості класу
+-   [ReflectionClass::getProperties()](reflectionclass.getproperties.md) \- Повертає властивості
+-   [ReflectionClass::getStaticProperties()](reflectionclass.getstaticproperties.md) \- Повертає статичні властивості
+-   [ReflectionClass::getProperty()](reflectionclass.getproperty.md) \- Повертає екземпляр ReflectionProperty для якості класу

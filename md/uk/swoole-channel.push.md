@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-channel.pop.md: '« SwooleChannel::pop'
-  - swoole-channel.stats.md: 'SwooleChannel::stats »'
+  - swoole-channel.pop.md: '« Swoole\\Channel::pop'
+  - swoole-channel.stats.md: 'Swoole\\Channel::stats »'
   - index.md: PHP Manual
-  - class.swoole-channel.md: SwooleChannel
-title: 'SwooleChannel::push'
+  - class.swoole-channel.md: Swoole\\Channel
+title: 'Swoole\\Channel::push'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleChannel::push
+# Swoole\\Channel::push
 
 (PECL swoole >= 1.9.0)
 
-SwooleChannel::push — Записує та передає дані в канал Swoole
+Swoole\\Channel::push — Записує та передає дані в канал Swoole
 
 ### Опис
 

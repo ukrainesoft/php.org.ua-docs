@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ui-draw-brush-gradient.md: « UIDrawBrushGradient
-  - ui-draw-brush-gradient.delstop.md: 'ОЙDrawBrushGradient::delStop »'
+  - class.ui-draw-brush-gradient.md: « UI\\Draw\\Brush\\Gradient
+  - ui-draw-brush-gradient.delstop.md: 'UI\\Draw\\Brush\\Gradient::delStop »'
   - index.md: PHP Manual
-  - class.ui-draw-brush-gradient.md: ОЙDrawBrushGradient
-title: 'ОЙDrawBrushGradient::addStop'
+  - class.ui-draw-brush-gradient.md: UI\\Draw\\Brush\\Gradient
+title: 'UI\\Draw\\Brush\\Gradient::addStop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawBrushGradient::addStop
+# UI\\Draw\\Brush\\Gradient::addStop
 
 (UI 2.0.0)
 
-ОЙDrawBrushGradient::addStop — Додає вузол градієнта
+UI\\Draw\\Brush\\Gradient::addStop — Додає вузол градієнта
 
 ### Опис
 
@@ -32,7 +33,7 @@ public UI\Draw\Brush\Gradient::addStop(float $position, int $color): int
 
 `color`
 
-Колір для нового вузла, можливо UIDrawColor або RRGGBBAA.
+Колір для нового вузла, можливо UI\\Draw\\Color або RRGGBBAA.
 
 ### Значення, що повертаються
 

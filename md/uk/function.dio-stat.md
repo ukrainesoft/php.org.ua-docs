@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.dio-seek.md: « dioseek
-  - function.dio-tcsetattr.md: diotcsetattr »
+  - function.dio-seek.md: « dio\_seek
+  - function.dio-tcsetattr.md: dio\_tcsetattr »
   - index.md: PHP Manual
   - ref.dio.md: Функції прямого введення/виводу
-title: dioстати
+title: dio\_stat
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dioстати
+# dio\_stat
 
-(PHP 4> = 4.2.0, PHP 5 <5.1.0)
+(PHP 4 >= 4.2.0, PHP 5 < 5.1.0)
 
-diostat — Отримати інформацію про файловий дескриптор
+dio\_stat — Отримати інформацію про файловий дескриптор
 
 ### Опис
 
@@ -18,13 +19,13 @@ diostat — Отримати інформацію про файловий дес
 dio_stat(resource $fd): array
 ```
 
-**dioстати()** повертає інформацію про заданий дескриптор.
+**dio\_stat()** повертає інформацію про заданий дескриптор.
 
 ### Список параметрів
 
 `fd`
 
-Файловий дескриптор, отриманий з [dioopen()](function.dio-open.md)
+Файловий дескриптор, отриманий з [dio\_open()](function.dio-open.md)
 
 ### Значення, що повертаються
 
@@ -42,7 +43,7 @@ dio_stat(resource $fd): array
     
 -   "Gid" - ідентифікатор групи
     
--   "devicetype" - тип пристрою (якщо воно inode)
+-   "device\_type" - тип пристрою (якщо воно inode)
     
 -   "size" - розмір у байтах
     
@@ -57,4 +58,4 @@ dio_stat(resource $fd): array
 -   "ctime" - час останньої зміни
     
 
-У разі виникнення помилки **dioстати()** поверне **`null`**
+В случае возникновения ошибки**dio\_stat()** поверне **`null`**

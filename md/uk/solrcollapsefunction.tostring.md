@@ -4,13 +4,14 @@ navigation:
   - class.solrexception.md: SolrException »
   - index.md: PHP Manual
   - class.solrcollapsefunction.md: SolrCollapseFunction
-title: 'SolrCollapseFunction::toString'
+title: 'SolrCollapseFunction::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrCollapseFunction::toString
+# SolrCollapseFunction::\_\_function toString() { \[native code\] }
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
-SolrCollapseFunction::toString - Повертає рядок, що представляє побудовану функцію згортання
+SolrCollapseFunction::\_\_toString - Повертає рядок, що представляє побудовану функцію згортання
 
 ### Опис
 

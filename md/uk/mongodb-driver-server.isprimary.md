@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-server.ispassive.md: '« MongoDBDriverServer::isPassive'
-  - mongodb-driver-server.issecondary.md: 'MongoDBDriverServer::isSecondary »'
+  - mongodb-driver-server.ispassive.md: '« MongoDB\\Driver\\Server::isPassive'
+  - mongodb-driver-server.issecondary.md: 'MongoDB\\Driver\\Server::isSecondary »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.md: MongoDBDriverServer
-title: 'MongoDBDriverServer::isPrimary'
+  - class.mongodb-driver-server.md: MongoDB\\Driver\\Server
+title: 'MongoDB\\Driver\\Server::isPrimary'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverServer::isPrimary
+# MongoDB\\Driver\\Server::isPrimary
 
 (mongodb >=1.0.0)
 
-MongoDBDriverServer::isPrimary — Перевіряє, чи є сервер основним членом набору реплік
+MongoDB\\Driver\\Server::isPrimary — Перевіряє, чи є сервер основним членом набору реплік
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverServer::isPrimary — Перевіряє, чи є сервер ос
 final public MongoDB\Driver\Server::isPrimary(): bool
 ```
 
-Повертає, чи є цей сервер [»основним членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-primary) набір реплік.
+Повертає, чи є цей сервер [»основним членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-primary)набора реплик.
 
 ### Список параметрів
 
@@ -30,8 +31,8 @@ final public MongoDB\Driver\Server::isPrimary(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
+-   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.md) \- Повертає масив інформації, що описує сервер

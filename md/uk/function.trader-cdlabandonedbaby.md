@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdl3whitesoldiers.md: « tradercdl3whitesoldiers
-  - function.trader-cdladvanceblock.md: tradercdladvanceblock »
+  - function.trader-cdl3whitesoldiers.md: « trader\_cdl3whitesoldiers
+  - function.trader-cdladvanceblock.md: trader\_cdladvanceblock »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlabandonedbaby
+  - ref.trader.md: Функції Trader
+title: trader\_cdlabandonedbaby
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlabandonedbaby
+# trader\_cdlabandonedbaby
 
 (PECL trader >= 0.2.0)
 
-tradercdlabandonedbaby — Покинута дитина
+trader\_cdlabandonedbaby — Покинута дитина
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlabandonedbaby(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+trader_cdlabandonedbaby(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
 ```
 
 ### Список параметрів

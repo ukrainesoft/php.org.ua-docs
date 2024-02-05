@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::getType
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getType — Отримує тип файлу
 
@@ -26,15 +27,15 @@ public SplFileInfo::getType(): string|false
 
 ### Значення, що повертаються
 
-Рядок (string), що представляє тип елемента. Можливі такі значення: `file` `link` `dir` `block` `fifo` `char` `socket` або `unknown`. У разі виникнення помилки повертає **`false`**
+Рядок (string), що представляє тип елемента. Можливі такі значення: `file` `link` `dir` `block` `fifo` `char` `socket`или`unknown`. У разі виникнення помилки повертає **`false`**
 
 ### Помилки
 
-Викидає [RuntimeException](class.runtimeexception.md) у разі виникнення помилки.
+Викидає [RuntimeException](class.runtimeexception.md)в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::getType()****
+**Пример #1 Пример использования**SplFileInfo::getType()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ echo $info->getType();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 file

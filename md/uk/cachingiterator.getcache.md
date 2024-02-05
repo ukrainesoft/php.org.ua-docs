@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.cachingiterator.md: CachingIterator
 title: 'CachingIterator::getCache'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CachingIterator::getCache
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 CachingIterator::getCache — Отримання вмісту кешу
 
@@ -20,7 +21,7 @@ public CachingIterator::getCache(): array
 
 Отримання вмісту кешу.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Має використовувати прапор **`CachingIterator::FULL_CACHE`**
 
@@ -34,11 +35,11 @@ public CachingIterator::getCache(): array
 
 ### Помилки
 
-Викидає [BadMethodCallException](class.badmethodcallexception.md) у випадку, якщо не встановлено прапор **`CachingIterator::FULL_CACHE`**
+Викидає [BadMethodCallException](class.badmethodcallexception.md)в случае, если не установлен флаг\*\*`CachingIterator::FULL_CACHE`\*\*
 
 ### Приклади
 
-**Приклад #1 Приклад використання **CachingIterator::getCache()****
+**Пример #1 Пример использования**CachingIterator::getCache()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ var_dump($cache->getCache());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {

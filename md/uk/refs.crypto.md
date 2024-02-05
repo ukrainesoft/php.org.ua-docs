@@ -1,54 +1,57 @@
 ---
 navigation:
   - class.inflatecontext.md: « InflateContext
-  - book.csprng.md: CSPRNG »
+  - book.hash.md: Hash »
   - index.md: PHP Manual
-  - funcref.md: Справочник функций
+  - funcref.md: Довідник функцій
 title: Криптографічні модулі
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Криптографічні модулі
 
--   [CSPRNG](book.csprng.md)
-    -   [Введение](intro.csprng.md)
-    -   [Встановлення та налаштування](csprng.setup.md)
-    -   [Обумовлені константи](csprng.constants.md)
-    -   [Функции CSPRNG](ref.csprng.md)
--   [Hash](book.hash.md) - Фреймворк хеш-кодів HASH
-    -   [Введение](intro.hash.md)
+-   [Hash](book.hash.md) \- Фреймворк хеш-кодів HASH
+    -   [Вступ](intro.hash.md)
     -   [Встановлення та налаштування](hash.setup.md)
     -   [Обумовлені константи](hash.constants.md)
-    -   [HashContext](class.hashcontext.md) - Клас HashContext
-    -   [Функции Hash](ref.hash.md)
+    -   [HashContext](class.hashcontext.md) \- Клас HashContext
+    -   [Функції Hash](ref.hash.md)
 -   [Mcrypt](book.mcrypt.md)
-    -   [Введение](intro.mcrypt.md)
+    -   [Вступ](intro.mcrypt.md)
     -   [Встановлення та налаштування](mcrypt.setup.md)
     -   [Обумовлені константи](mcrypt.constants.md)
     -   [Шифри Mcrypt](mcrypt.ciphers.md)
     -   [Mcrypt](ref.mcrypt.md)
 -   [Mhash](book.mhash.md)
-    -   [Введение](intro.mhash.md)
+    -   [Вступ](intro.mhash.md)
     -   [Встановлення та налаштування](mhash.setup.md)
     -   [Обумовлені константи](mhash.constants.md)
     -   [Приклади](mhash.examples.md)
-    -   [Функции Mhash](ref.mhash.md)
+    -   [Функції Mhash](ref.mhash.md)
 -   [OpenSSL](book.openssl.md)
-    -   [Введение](intro.openssl.md)
+    -   [Вступ](intro.openssl.md)
     -   [Встановлення та налаштування](openssl.setup.md)
     -   [Обумовлені константи](openssl.constants.md)
     -   [Параметри ключа/сертифіката](openssl.certparams.md)
-    -   [Проверка сертификатов](openssl.cert.verification.md)
-    -   [Функции OpenSSL](ref.openssl.md)
-    -   [OpenSSLCertificate](class.opensslcertificate.md) - Клас OpenSSLCertificate
-    -   [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md) — Клас OpenSSLCertificateSigningRequest
-    -   [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) - Клас OpenSSLAsymmetricKey
--   [Хеширование паролей](book.password.md)
-    -   [Введение](intro.password.md)
+    -   [Перевірка сертифікатів](openssl.cert.verification.md)
+    -   [Функції OpenSSL](ref.openssl.md)
+    -   [OpenSSLCertificate](class.opensslcertificate.md) \- Клас OpenSSLCertificate
+    -   [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md)— Клас OpenSSLCertificateSigningRequest
+    -   [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) \- Клас OpenSSLAsymmetricKey
+-   [Хешування паролів](book.password.md)
+    -   [Вступ](intro.password.md)
     -   [Встановлення та налаштування](password.setup.md)
     -   [Обумовлені константи](password.constants.md)
     -   [Функції хешування паролів](ref.password.md)
+-   [Rnp](book.rnp.md)
+    -   [Вступ](intro.rnp.md)
+    -   [Встановлення та налаштування](rnp.setup.md)
+    -   [Обумовлені константи](rnp.constants.md)
+    -   [Приклади](rnp.examples.md)
+    -   [Функції Rnp](ref.rnp.md)
+    -   [RnpFFI](class.rnpffi.md) \- Клас RnpFFI
 -   [Sodium](book.sodium.md)
-    -   [Введение](intro.sodium.md)
+    -   [Вступ](intro.sodium.md)
     -   [Встановлення та налаштування](sodium.setup.md)
     -   [Обумовлені константи](sodium.constants.md)
-    -   [Функции Sodium](ref.sodium.md)
-    -   [SodiumException](class.sodiumexception.md) - Клас SodiumException
+    -   [Опції Sodium](ref.sodium.md)
+    -   [SodiumException](class.sodiumexception.md) \- Клас SodiumException

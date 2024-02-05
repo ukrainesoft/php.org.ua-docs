@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phardata.md: PharData
 title: 'PharData::offsetSet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharData::offsetSet
 
@@ -24,7 +25,7 @@ public PharData::offsetSet(string $localName, resource|string $value): void
 
 `localName`
 
-Назва файлу (відносний шлях).
+Ім'я файлу (відносний шлях).
 
 `value`
 
@@ -36,11 +37,11 @@ public PharData::offsetSet(string $localName, resource|string $value): void
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.md) у разі проблем із записом на диск.
+Викидає виняток [PharException](class.pharexception.md)в случае проблем с записью на диск.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharData::offsetSet()****
+**Пример #1 Пример использования**PharData::offsetSet()\*\*\*\*
 
 offsetSet не потрібно викликати безпосередньо. Використовуйте синтаксис `[]`
 
@@ -58,8 +59,8 @@ try {
 
 ### Примітки
 
-> **Зауваження** [PharData::addFile()](phardata.addfile.md) [PharData::addFromString()](phardata.addfromstring.md) and **PharData::offsetSet()** Залишити новий ріг архіву кожен час вони називаються. If performance is a concern, [PharData::buildFromDirectory()](phardata.buildfromdirectory.md) ор [PharData::buildFromIterator()](phardata.buildfromiterator.md) should be used instead.
+> **Зауваження** [PharData::addFile()](phardata.addfile.md) [PharData::addFromString()](phardata.addfromstring.md)and\*\*PharData::offsetSet()\*\*save a new phar archive each time they are called. If performance is a concern,[PharData::buildFromDirectory()](phardata.buildfromdirectory.md)or[PharData::buildFromIterator()](phardata.buildfromiterator.md)should be used instead.
 
 ### Дивіться також
 
--   [Phar::offsetSet()](phar.offsetset.md) - Зміна вмісту файлу
+-   [Phar::offsetSet()](phar.offsetset.md) \- Зміна вмісту файлу

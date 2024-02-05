@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashstringinthash.md: QuickHashStringIntHash
 title: 'QuickHashStringIntHash::saveToFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashStringIntHash::saveToFile
 
@@ -18,7 +19,7 @@ QuickHashStringIntHash::saveToFile — Метод зберігає хеш у п�
 public QuickHashStringIntHash::saveToFile(string $filename): void
 ```
 
-Метод зберігає існуючий хеш у файл на диску, у тому ж форматі, який може бути прочитаний методом [QuickHashStringIntHash::loadFromFile()](quickhashstringinthash.loadfromfile.md)
+Метод зберігає існуючий хеш у файл на диску, у тому форматі, який може бути прочитаний методом [QuickHashStringIntHash::loadFromFile()](quickhashstringinthash.loadfromfile.md)
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public QuickHashStringIntHash::saveToFile(string $filename): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashStringIntHash::saveToFile()****
+**Пример #1 Пример использования**QuickHashStringIntHash::saveToFile()\*\*\*\*
 
 ```php
 <?php

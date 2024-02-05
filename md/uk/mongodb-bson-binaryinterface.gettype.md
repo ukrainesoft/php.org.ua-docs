@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-binaryinterface.getdata.md: '« MongoDBBSONBinaryInterface::getData'
-  - mongodb-bson-binaryinterface.tostring.md: 'MongoDBBSONBinaryInterface::toString »'
+  - mongodb-bson-binaryinterface.getdata.md: '« MongoDB\\BSON\\BinaryInterface::getData'
+  - mongodb-bson-binaryinterface.tostring.md: 'MongoDB\\BSON\\BinaryInterface::\_\_toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-binaryinterface.md: MongoDBBSONBinaryInterface
-title: 'MongoDBBSONBinaryInterface::getType'
+  - class.mongodb-bson-binaryinterface.md: MongoDB\\BSON\\BinaryInterface
+title: 'MongoDB\\BSON\\BinaryInterface::getType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONBinaryInterface::getType
+# MongoDB\\BSON\\BinaryInterface::getType
 
 (mongodb >=1.3.0)
 
-MongoDBBSONBinaryInterface::getType — Повертає тип BinaryInterface
+MongoDB\\BSON\\BinaryInterface::getType — Повертає тип BinaryInterface
 
 ### Опис
 
@@ -28,4 +29,4 @@ abstract public MongoDB\BSON\BinaryInterface::getType(): int
 
 ### Дивіться також
 
--   [MongoDBBSONBinary::getType()](mongodb-bson-binary.gettype.md) - Повертає тип Binary
+-   [MongoDB\\BSON\\Binary::getType()](mongodb-bson-binary.gettype.md) \- Повертає тип Binary

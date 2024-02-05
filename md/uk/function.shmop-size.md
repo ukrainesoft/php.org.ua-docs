@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.shmop-read.md: « shmopread
-  - function.shmop-write.md: shmopwrite »
+  - function.shmop-read.md: « shmop\_read
+  - function.shmop-write.md: shmop\_write »
   - index.md: PHP Manual
   - ref.shmop.md: 'Пам''ять, що розділяється (shared)'
-title: shmopsize
+title: shmop\_size
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# shmopsize
+# shmop\_size
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-shmopsize — Повертає розмір блоку в пам'яті, що розділяється.
+shmop\_size — Повертає розмір блоку в пам'яті, що розділяється.
 
 ### Опис
 
@@ -18,13 +19,13 @@ shmopsize — Повертає розмір блоку в пам'яті, що р
 shmop_size(Shmop $shmop): int
 ```
 
-**shmopsize()** використовується для отримання розміру блоку пам'яті, що розділяється в байтах.
+**shmop\_size()** використовується для отримання розміру блоку пам'яті, що розділяється в байтах.
 
 ### Список параметрів
 
 `shmop`
 
-Ресурс блоку пам'яті, що повертається функцією [shmopopen()](function.shmop-open.md)
+Ресурс блоку пам'яті, що повертається функцією [shmop\_open()](function.shmop-open.md)
 
 ### Значення, що повертаються
 
@@ -32,9 +33,9 @@ shmop_size(Shmop $shmop): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `shmop` чекає на екземпляр [Shmop](class.shmop.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | Параметр`shmop` чекає на екземпляр [Shmop](class.shmop.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -46,4 +47,4 @@ $shm_size = shmop_size($shm_id);
 ?>
 ```
 
-У наведеному прикладі показано отримання розміру блоку з ідентифікатором `$shm_id` та його збереження в `$shm_size`
+У наведеному прикладі показано отримання розміру блоку з ідентифікатором `$shm_id`и его сохранение в`$shm_size`

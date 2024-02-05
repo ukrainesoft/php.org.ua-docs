@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-popcount.md: « gmppopcount
-  - function.gmp-powm.md: gmppowm »
+  - function.gmp-popcount.md: « gmp\_popcount
+  - function.gmp-powm.md: gmp\_powm »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmppow
+title: gmp\_pow
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmppow
+# gmp\_pow
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmppow — Зводить число до ступеня
+gmp\_pow — Зводить число до ступеня
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmppow — Зводить число до ступеня
 gmp_pow(GMP|int|string $num, int $exponent): GMP
 ```
 
-Зводить число `num` у ступінь `exponent`
+Зводить число `num`в степень`exponent`
 
 ### Список параметрів
 
@@ -34,11 +35,11 @@ gmp_pow(GMP|int|string $num, int $exponent): GMP
 
 ### Значення, що повертаються
 
-Нове (результуюче) GMP число. Результатом прикладу `0^0` буде 1.
+Новое (результирующее) GMP число. Результатом примера`0^0`будет 1.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmppow()****
+**Пример #1 Пример использования**gmp\_pow()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ echo gmp_strval($pow3) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 2147483648

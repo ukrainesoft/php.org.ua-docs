@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.spl.md: SPL
 title: Ітератори
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Ітератори
 
@@ -59,7 +60,7 @@ SPL забезпечує набір ітераторів для обходу о�
 -   [MultipleIterator](class.multipleiterator.md)
 -   [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
     -   [RecursiveTreeIterator](class.recursivetreeiterator.md)
--   [DirectoryIterator](class.directoryiterator.md) (успадковує клас [SplFileInfo](class.splfileinfo.md)
+-   [DirectoryIterator](class.directoryiterator.md)(успадковує клас[SplFileInfo](class.splfileinfo.md)) .
     -   [FilesystemIterator](class.filesystemiterator.md)
         -   [GlobIterator](class.globiterator.md)
         -   [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)

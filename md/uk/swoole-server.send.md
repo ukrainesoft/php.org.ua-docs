@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.resume.md: '« SwooleServer::resume'
-  - swoole-server.sendfile.md: 'SwooleServer::sendfile »'
+  - swoole-server.resume.md: '« Swoole\\Server::resume'
+  - swoole-server.sendfile.md: 'Swoole\\Server::sendfile »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::send'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::send'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::send
+# Swoole\\Server::send
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::send — Надсилає дані клієнту
+Swoole\\Server::send — Надсилає дані клієнту
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Server::send(int $fd, string $data, int $reactor_id = ?): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

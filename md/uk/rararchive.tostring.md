@@ -4,13 +4,14 @@ navigation:
   - class.rarentry.md: RarEntry »
   - index.md: PHP Manual
   - class.rararchive.md: RarArchive
-title: 'RarArchive::function toString() { \[native code\] }'
+title: 'RarArchive::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# RarArchive::function toString() { \[native code\] }
+# RarArchive::\_\_function toString() { \[native code\] }
 
 (PECL rar >= 2.0.0)
 
-RarArchive::toString — Отримати текстове уявлення
+RarArchive::\_\_toString — Отримати текстове уявлення
 
 ### Опис
 
@@ -32,7 +33,7 @@ public RarArchive::__toString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RarArchive::toString()****
+**Пример #1 Пример использования**RarArchive::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ echo $rar_arch."\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 RAR Archive "D:\php_rar\trunk\tests\latest_winrar.rar"

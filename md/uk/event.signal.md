@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.event.md: Event
 title: 'Event::signal'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Event::signal
 
@@ -17,22 +18,22 @@ Event::signal — Створити об'єкт події сигналу
 ```methodsynopsis
 public
    static
-   Event::signal(    
+   Event::signal(    
     EventBase
      $base
-   ,    
+   ,    
     int
      $signum
-   ,    
+   ,    
     callable
      $cb
-   ,    
+   ,    
     mixed
      $arg
     = ?): Event
 ```
 
-Створює об'єкт події сигналу. Це полегшений метод створення події сигналу. Зверніть увагу, що штатний конструктор [Event::construct()](event.construct.md) може також створювати події сигналу.
+Створює об'єкт події сигналу. Це полегшений метод створення події сигналу. Зверніть увагу, що штатний конструктор [Event::\_\_construct()](event.construct.md) може також створювати події сигналу.
 
 ### Список параметрів
 

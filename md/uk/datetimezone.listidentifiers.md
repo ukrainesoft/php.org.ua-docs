@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.datetimezone.md: DateTimeZone
 title: 'DateTimeZone::listIdentifiers'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeZone::listIdentifiers
 
-# timezoneidentifierslist
+# timezone\_identifiers\_list
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-DateTimeZone::listIdentifiers -- timezoneidentifierslist — Повертає чисельно індексований масив із усіма ідентифікаторами часових поясів
+DateTimeZone::listIdentifiers -- timezone\_identifiers\_list — Повертає чисельно індексований масив із усіма ідентифікаторами часових поясів
 
 ### Опис
 
@@ -32,28 +33,28 @@ timezone_identifiers_list(int $timezoneGroup = DateTimeZone::ALL, ?string $count
 
 `timezoneGroup`
 
-Одна з констант класу [DateTimeZone](class.datetimezone.md) (або комбінація їх).
+Одна из констант класса[DateTimeZone](class.datetimezone.md) (або комбінація їх).
 
 `countryCode`
 
 Дволітерний код країни у верхньому регістрі, сумісний із ISO 3166-1.
 
-> **Зауваження**: Ця опція використовується тільки тоді, коли параметр `timezoneGroup` встановлений в **`DateTimeZone::PER_COUNTRY`**
+> **Зауваження**: Ця опція використовується лише тоді, коли параметр `timezoneGroup`установлен в\*\*`DateTimeZone::PER_COUNTRY`\*\*
 
 ### Значення, що повертаються
 
-Повертає масив ідентифікаторів часових поясів. Повертаються лише не застарілі елементи. Щоб отримати всі, включаючи застарілі ідентифікатори часових поясів, використовуйте `DateTimeZone::ALL_WITH_BC` як значення для параметра `countryCode`
+Повертає масив ідентифікаторів часових поясів. Повертаються лише не застарілі елементи. Щоб отримати всі, включаючи застарілі ідентифікатори часових поясів, використовуйте `DateTimeZone::ALL_WITH_BC`в качестве значения для параметра`timezoneGroup`
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | До цієї версії, у разі виникнення помилки поверталося **`false`** |
-|  | `countryCode` тепер допускає значення null. |
+| 8.0.0 | До цієї версії, у разі виникнення помилки поверталося **`false`** |
+| 7.1.0 | `countryCode` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTimeZone::listIdentifiers()****
+**Пример #1 Пример использования**DateTimeZone::listIdentifiers()\*\*\*\*
 
 ```php
 <?php
@@ -64,7 +65,7 @@ for ($i=0; $i < 5; $i++) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Africa/Abidjan
@@ -85,7 +86,7 @@ for ($i=0; $i < 5; $i++) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Asia/Aden
@@ -104,7 +105,7 @@ echo join( ', ', $timezone_identifiers );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Asia/Aden, Asia/Almaty, Asia/Amman, Asia/Anadyr, Asia/Aqtau, Asia/Aqtobe,
@@ -146,7 +147,7 @@ foreach( $timezone_identifiers as $identifier ) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Europe/Kyiv
@@ -157,4 +158,4 @@ Europe/Zaporozhye
 
 ### Дивіться також
 
--   [timezoneabbreviationslist()](function.timezone-abbreviations-list.md) - Псевдонім DateTimeZone::listAbbreviations
+-   [timezone\_abbreviations\_list()](function.timezone-abbreviations-list.md) \- Псевдонім DateTimeZone::listAbbreviations

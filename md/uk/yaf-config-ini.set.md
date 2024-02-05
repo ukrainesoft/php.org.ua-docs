@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-ini.rewind.md: '« YafConfigIni::rewind'
-  - yaf-config-ini.toarray.md: 'YafConfigIni::toArray »'
+  - yaf-config-ini.rewind.md: '« Yaf\_Config\_Ini::rewind'
+  - yaf-config-ini.toarray.md: 'Yaf\_Config\_Ini::toArray »'
   - index.md: PHP Manual
-  - class.yaf-config-ini.md: YafConfigIni
-title: 'YafConfigIni::set'
+  - class.yaf-config-ini.md: Yaf\_Config\_Ini
+title: 'Yaf\_Config\_Ini::\_\_set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigIni::set
+# Yaf\_Config\_Ini::\_\_set
 
 (Yaf >=1.0.0)
 
-YafConfigIni::set - Призначення set
+Yaf\_Config\_Ini::\_\_set — Назначение\_\_set
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Ini::__set(string $name, mixed $value): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

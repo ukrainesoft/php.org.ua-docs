@@ -1,30 +1,31 @@
 ---
 navigation:
   - features.file-upload.common-pitfalls.md: « Найбільш поширені помилки
-  - features.file-upload.put-method.md: Поддержка метода PUT »
+  - features.file-upload.put-method.md: Підтримка методу PUT »
   - index.md: PHP Manual
-  - features.file-upload.md: Загрузка файлов на сервер
+  - features.file-upload.md: Завантаження файлів на сервер
 title: Завантаження кількох файлів
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Завантаження кількох файлів
 
-Завантаження кількох файлів можна реалізувати, використовуючи, наприклад, різні значення `name` для тега `input`
+Завантаження кількох файлів можна реалізувати, використовуючи, наприклад, різні значення `name`для тега`input`
 
-Також можна одночасно завантажувати кілька файлів та автоматично отримати їх у вигляді масиву. Для реалізації такої можливості використовуйте той самий синтаксис масиву в HTML-формі, що і для множинних полів select і checkbox:
+Також можна одночасно завантажувати кілька файлів та автоматично отримати їх у вигляді масиву. Для реалізації такої можливості використовуйте той же синтаксис масиву HTML-формі, що і для множинних полів select і checkbox:
 
 **Приклад #1 Завантаження кількох файлів**
 
 Файли:
 
-У разі, якщо така форма була відправлена, масиви [FILES\['userfile'\]](reserved.variables.files.md) [FILES\['userfile'\]\['name'\]](reserved.variables.files.md), і [FILES\['userfile'\]\['size'\]](reserved.variables.files.md) будуть ініціалізовані.
+У разі, якщо така форма була відправлена, масиви [$\_FILES\['userfile'\]](reserved.variables.files.md) [$\_FILES\['userfile'\]\['name'\]](reserved.variables.files.md), и[$\_FILES\['userfile'\]\['size'\]](reserved.variables.files.md) будуть ініціалізовані.
 
-Наприклад, припустимо, що були завантажені файли /home/test/review.html та /home/test/xwp.out. У такому разі змінна [FILES\['userfile'\]\['name'\]\[0\]](reserved.variables.files.md) буде встановлена ​​значенням review.html, а змінна [FILES\['userfile'\]\['name'\]\[1\]](reserved.variables.files.md) - Значення xwp.out. Аналогічно, змінна [FILES\['userfile'\]\['size'\]\[0\]](reserved.variables.files.md) міститиме розмір файлу review.html і так далі.
+Наприклад, припустимо, що були завантажені файли /home/test/review.md та /home/test/xwp.out. У такому разі змінна [$\_FILES\['userfile'\]\['name'\]\[0\]](reserved.variables.files.md)будет установлена значением review.md, а переменная[$\_FILES\['userfile'\]\['name'\]\[1\]](reserved.variables.files.md) - Значення xwp.out. Аналогічно, змінна [$\_FILES\['userfile'\]\['size'\]\[0\]](reserved.variables.files.md) міститиме розмір файлу review.md і так далі.
 
-Змінні [FILES\['userfile'\]\['name'\]\[0\]](reserved.variables.files.md) [FILES\['userfile'\]\['tmpname'\]\[0\]](reserved.variables.files.md) [FILES\['userfile'\]\['size'\]\[0\]](reserved.variables.files.md) і [FILES\['userfile'\]\['type'\]\[0\]](reserved.variables.files.md) також будуть ініціалізовані.
+Змінні [$\_FILES\['userfile'\]\['name'\]\[0\]](reserved.variables.files.md) [$\_FILES\['userfile'\]\['tmp\_name'\]\[0\]](reserved.variables.files.md) [$\_FILES\['userfile'\]\['size'\]\[0\]](reserved.variables.files.md) і [$\_FILES\['userfile'\]\['type'\]\[0\]](reserved.variables.files.md) також будуть ініціалізовані.
 
 **Увага**
 
-Конфігураційна директива [maxfileuploads](ini.core.md#ini.max-file-uploads) регулює ліміт одночасно завантажуваних файлів протягом одного запиту. Вам необхідно буде переконатися, що ваша форма не намагається завантажити файли більше цього ліміту за один запит.
+Конфігураційна директива [max\_file\_uploads](ini.core.md#ini.max-file-uploads) регулює ліміт одночасно завантажуваних файлів протягом одного запиту. Вам необхідно буде переконатися, що ваша форма не намагається завантажити файли більше цього ліміту за один запит.
 
 **Приклад #2 Завантаження всього каталогу**
 
@@ -36,6 +37,6 @@ title: Завантаження кількох файлів
 
 **Увага**
 
-Атрибут `webkitdirectory` нестандартний і не входить до стандартного постачання. Не використовуйте його на робочих сайтах: він не працює у всіх користувачів. Між реалізаціями може бути велика несумісність, також поведінка може змінитися у майбутньому.
+Атрибут`webkitdirectory` нестандартний і не входить до стандартного постачання. Не використовуйте його на робочих сайтах: він не працює у всіх користувачів. Між реалізаціями може бути велика несумісність, також поведінка може змінитися у майбутньому.
 
-PHP аналізує тільки інформацію про відносний шлях, відправлену браузером/користувачем і передає цю інформацію в масив [FILES](reserved.variables.files.md). Немає жодної гарантії, що значення в масиві `full_path` містять реальну структуру каталогів і програма PHP не повинна довіряти цій інформації.
+PHP аналізує тільки інформацію про відносний шлях, відправлену браузером/користувачем і передає цю інформацію в масив [$\_FILES](reserved.variables.files.md). Немає жодної гарантії, що значення в масиві `full_path` містять реальну структуру каталогів і програма PHP не повинна довіряти цій інформації.

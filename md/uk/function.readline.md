@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.readline-write-history.md: « readlinewritehistory
+  - function.readline-write-history.md: « readline\_write\_history
   - refs.compression.md: Модулі для стиснення та архівації »
   - index.md: PHP Manual
-  - ref.readline.md: Функции Readline
+  - ref.readline.md: Опції Readline
 title: readline
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # readline
 
@@ -18,7 +19,7 @@ readline — Читає рядок
 readline(?string $prompt = null): string|false
 ```
 
-Читає один рядок, введений користувачем. Якщо вам потрібно додати цей рядок до історії, то зробити це ви повинні самостійно, за допомогою [readlineaddhistory()](function.readline-add-history.md)
+Читає один рядок, введений користувачем. Якщо вам потрібно додати цей рядок до історії, то зробити це ви повинні самостійно, за допомогою [readline\_add\_history()](function.readline-add-history.md)
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ readline(?string $prompt = null): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **readline()****
+**Пример #1 Пример использования**readline()\*\*\*\*
 
 ```php
 <?php

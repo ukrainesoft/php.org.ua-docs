@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::blackThresholdImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::blackThresholdImage
 
@@ -32,13 +33,13 @@ public Imagick::blackThresholdImage(mixed $threshold): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL imagick 2.1.0 | Як параметр можна передавати колір рядком. У попередніх версіях дозволялося передавати лише ImagickPixel. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::blackThresholdImage()****
+**Пример #1 Пример использования**Imagick::blackThresholdImage()\*\*\*\*
 
 ```php
 <?php

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::getSize
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getSize — Отримує розмір файлу
 
@@ -26,12 +27,29 @@ public SplFileInfo::getSize(): int|false
 
 ### Значення, що повертаються
 
-Розмір файлу в байтах у разі успішного виконання або **`false`** у разі виникнення помилки.
+Розмір файлу в байтах у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
 Буде викинуто виняток [RuntimeException](class.runtimeexception.md)якщо файл не існує або виникла помилка.
 
+### Приклади
+
+**Пример #1 Пример использования**SplFileInfo::getSize()\*\*\*\*
+
+```php
+<?php
+$info = new SplFileInfo('example.jpg');
+echo $fileinfo->getFilename() . " " . $fileinfo->getSize();
+?>
+```
+
+Висновок наведеного прикладу буде схожим на:
+
+```
+example.jpg 15385
+```
+
 ### Дивіться також
 
--   [filesize()](function.filesize.md) - Повертає розмір файлу
+-   [filesize()](function.filesize.md) \- Повертає розмір файлу

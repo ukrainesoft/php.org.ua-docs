@@ -3,8 +3,9 @@ navigation:
   - function.gzencode.md: « gzencode
   - function.gzfile.md: gzfile »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzeof
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzeof
 
@@ -32,7 +33,7 @@ gzeof(resource $stream): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gzeof()****
+**Пример #1 Пример использования**gzeof()\*\*\*\*
 
 ```php
 <?php

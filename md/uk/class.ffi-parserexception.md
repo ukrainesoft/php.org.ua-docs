@@ -1,14 +1,15 @@
 ---
 navigation:
-  - class.ffi-exception.md: « FFIException
+  - class.ffi-exception.md: « FFI\\Exception
   - book.opcache.md: OPcache »
   - index.md: PHP Manual
   - book.ffi.md: FFI
 title: Виключення парсера FFI
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Виключення парсера FFI
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 ## Вступ
 
@@ -16,19 +17,14 @@ title: Виключення парсера FFI
 
 ```classsynopsis
 
-     
+    
+     final
+     class FFI\ParserException
     
 
     
-     
-      final
-      class FFI\ParserException
-     
-
-     
-      extends
-       FFI\Exception
-     
+     extends
+      FFI\Exception
      {
 
     /* Наследуемые свойства */
@@ -58,7 +54,9 @@ private
 
     /* Наследуемые методы */
     
-   final public Error::getMessage(): string
+   public Error::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+    final public Error::getMessage(): string
 final public Error::getPrevious(): ?Throwable
 final public Error::getCode(): int
 final public Error::getFile(): string

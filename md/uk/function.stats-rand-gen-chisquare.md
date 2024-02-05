@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-rand-gen-beta.md: « statsrandgenbeta
-  - function.stats-rand-gen-exponential.md: statsrandgenexponential »
+  - function.stats-rand-gen-beta.md: « stats\_rand\_gen\_beta
+  - function.stats-rand-gen-exponential.md: stats\_rand\_gen\_exponential »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsrandгенchisquare
+title: stats\_rand\_gen\_chisquare
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsrandгенchisquare
+# stats\_rand\_gen\_chisquare
 
 (PECL stats >= 1.0.0)
 
-statsrandгенchisquare - Обчислює випадкове відхилення від розподілу хі-квадрат
+stats\_rand\_gen\_chisquare - Обчислює випадкове відхилення від розподілу хі-квадрат
 
 ### Опис
 

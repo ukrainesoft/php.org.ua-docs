@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-value.isstatic.md: '« ComponereValue::isStatic'
-  - reference.componere.md: Функции Componere »
+  - componere-value.isstatic.md: '« Componere\\Value::isStatic'
+  - reference.componere.md: Функції Componere »
   - index.md: PHP Manual
-  - class.componere-value.md: ComponereValue
-title: 'ComponereValue::hasDefault'
+  - class.componere-value.md: Componere\\Value
+title: 'Componere\\Value::hasDefault'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereValue::hasDefault
+# Componere\\Value::hasDefault
 
 (Componere 2 >= 2.1.0)
 
-ComponereValue::hasDefault — Взаємодія з класом Value
+Componere\\Value::hasDefault — Взаємодія з класом Value
 
 ### Опис
 

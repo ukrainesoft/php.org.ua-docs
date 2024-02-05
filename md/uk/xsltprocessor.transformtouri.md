@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::transformToUri'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XSLTProcessor::transformToUri
 
@@ -15,16 +16,16 @@ XSLTProcessor::transformToUri — Перетворює на URI
 ### Опис
 
 ```methodsynopsis
-public XSLTProcessor::transformToURI(DOMDocument $doc, string $uri): int
+public XSLTProcessor::transformToUri(object $document, string $uri): int
 ```
 
-Перетворює вихідний вузол URI, застосовуючи таблицю стилів, яка встановлена ​​за допомогою методу [XSLTProcessor::importStylesheet()](xsltprocessor.importstylesheet.md)
+Перетворює вихідний вузол URI, застосовуючи таблицю стилів, яка встановлена ​​методом [XSLTProcessor::importStylesheet()](xsltprocessor.importstylesheet.md)
 
 ### Список параметрів
 
-`doc`
+`document`
 
-Документ перетворення.
+Перетворюваний об'єкт [DOMDocument](class.domdocument.md) або [SimpleXMLElement](class.simplexmlelement.md)
 
 `uri`
 
@@ -32,7 +33,7 @@ public XSLTProcessor::transformToURI(DOMDocument $doc, string $uri): int
 
 ### Значення, що повертаються
 
-Повертає кількість записаних байтів, або **`false`** у разі виникнення помилки.
+Повертає кількість записаних байтів, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -52,12 +53,12 @@ $xsl->load('collection.xsl');
 $proc = new XSLTProcessor;
 $proc->importStyleSheet($xsl); // добавление стилей xsl
 
-$proc->transformToURI($xml, 'file:///tmp/out.html');
+$proc->transformToURI($xml, 'file:///tmp/out.md');
 
 ?>
 ```
 
 ### Дивіться також
 
--   [XSLTProcessor::transformToDoc()](xsltprocessor.transformtodoc.md) - Перетворює на DOMDocument
--   [XSLTProcessor::transformToXml()](xsltprocessor.transformtoxml.md) - Перетворює на XML
+-   [XSLTProcessor::transformToDoc()](xsltprocessor.transformtodoc.md) \- Перетворює на документ
+-   [XSLTProcessor::transformToXml()](xsltprocessor.transformtoxml.md) \- Перетворює на XML

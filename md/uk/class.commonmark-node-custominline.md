@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.commonmark-node-customblock.md: « CommonMarkNodeCustomBlock
-  - class.commonmark-node.md: CommonMarkNode »
+  - class.commonmark-node-customblock.md: « CommonMark\\Node\\CustomBlock
+  - class.commonmark-node.md: CommonMark\\Node »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: CustomInline успадковує CommonMarkNode
+title: CustomInline успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CustomInline успадковує CommonMarkNode
+# CustomInline успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 

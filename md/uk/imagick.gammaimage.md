@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::gammaImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::gammaImage
 
@@ -28,7 +29,7 @@ public Imagick::gammaImage(float $gamma, int $channel = Imagick::CHANNEL_DEFAULT
 
 `channel`
 
-Вкажіть будь-яку константу каналу, яка відповідає режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до цього списку [констант канала](imagick.constants.md#imagick.constants.channel)
+Вкажіть будь-яку константу каналу, яка відповідає режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до цього списку [констант каналу](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
@@ -40,7 +41,7 @@ public Imagick::gammaImage(float $gamma, int $channel = Imagick::CHANNEL_DEFAULT
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::gammaImage()****
+**Пример #1 Пример использования**Imagick::gammaImage()\*\*\*\*
 
 ```php
 <?php

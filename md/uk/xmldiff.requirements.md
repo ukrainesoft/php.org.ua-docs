@@ -1,10 +1,11 @@
 ---
 navigation:
-  - xmldiff.setup.md: « Встановлення та налаштування
-  - xmldiff.installation.md: Установка »
+  - xmldiff.setup.md: '" Встановлення та налаштування'
+  - xmldiff.installation.md: Встановлення »
   - index.md: PHP Manual
   - xmldiff.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 

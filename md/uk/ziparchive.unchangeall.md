@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::unchangeAll'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::unchangeAll
 
@@ -18,7 +19,7 @@ ZipArchive::unchangeAll — Скасує всі зміни, зроблені в 
 public ZipArchive::unchangeAll(): bool
 ```
 
-Скасовує всі зміни, зроблені в архіві.
+Скасує зміни, зроблені в архіві.
 
 ### Список параметрів
 
@@ -26,4 +27,4 @@ public ZipArchive::unchangeAll(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

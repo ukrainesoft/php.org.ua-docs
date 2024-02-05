@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.fdf.md: « Введение
+  - intro.fdf.md: '" Вступ'
   - fdf.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.fdf.md: FDF
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

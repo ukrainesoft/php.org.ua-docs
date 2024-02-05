@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::system'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::system
 

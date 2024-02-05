@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-field-name.md: « odbcfieldname
-  - function.odbc-field-precision.md: odbcfieldprecision »
+  - function.odbc-field-name.md: « odbc\_field\_name
+  - function.odbc-field-precision.md: odbc\_field\_precision »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcfieldnum
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_field\_num
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcfieldnum
+# odbc\_field\_num
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcfieldnum — Повертає номер стовпця
+odbc\_field\_num — Повертає номер стовпця
 
 ### Опис
 
@@ -32,4 +33,4 @@ odbc_field_num(resource $statement, string $field): int|false
 
 ### Значення, що повертаються
 
-Повертає номер поля у вигляді цілого чи числа **`false`** у разі виникнення помилки. Нумерація полів починається з першого.
+Повертає номер поля у вигляді цілого чи числа \*\*`false`\*\*в случае возникновения ошибки. Нумерация полей начинается с 1.

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ps-add-pdflink.md: «psaddpdflink
-  - function.ps-arc.md: псarc »
+  - function.ps-add-pdflink.md: « ps\_add\_pdflink
+  - function.ps-arc.md: ps\_arc »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псaddweblink
+title: ps\_add\_weblink
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псaddweblink
+# ps\_add\_weblink
 
 (PECL ps >= 1.1.0)
 
-псaddweblink — Додає посилання на веб-сторінку
+ps\_add\_weblink — Додає посилання на веб-сторінку
 
 ### Опис
 
 ```methodsynopsis
-ps_add_weblink(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    string $url): bool
+ps_add_weblink(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    string $url): bool
 ```
 
 Додає гіперпосилання у вказаному місці, яке вказує на веб-сторінку. Вихідна позиція гіперпосилання є прямокутником з нижнім лівим кутом в (`llx` `lly`) та його правим верхнім кутом в (`urx` `ury`). У прямокутника за промовчанням є тонка синя рамка.
@@ -26,7 +27,7 @@ ps_add_weblink(    resource $psdoc,    float $llx,    float $lly,    float $urx,
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `llx`
 
@@ -46,14 +47,14 @@ ps_add_weblink(    resource $psdoc,    float $llx,    float $lly,    float $urx,
 
 `url`
 
-URL-адреса гіперпосилання, яка відкривається при натисканні на посилання, наприклад, `http://www.php.net`
+URL-адреса гіперпосилання, що відкривається при натисканні на посилання, наприклад, `http://www.php.net`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псaddlaunchlink()](function.ps-add-launchlink.md) - Додає посилання, яке запускає файл
--   [псaddlocallink()](function.ps-add-locallink.md) - Додає посилання на сторінку того самого документа
--   [псaddpdflink()](function.ps-add-pdflink.md) - Додає посилання на сторінку в іншому PDF-документі
+-   [ps\_add\_launchlink()](function.ps-add-launchlink.md) \- Додає посилання, яке запускає файл
+-   [ps\_add\_locallink()](function.ps-add-locallink.md) \- Додає посилання на сторінку того самого документа
+-   [ps\_add\_pdflink()](function.ps-add-pdflink.md) \- Додає посилання на сторінку в іншому PDF-документі

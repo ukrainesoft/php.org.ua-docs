@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-application.getlasterrorno.md: '« YafApplication::getLastErrorNo'
-  - yaf-application.run.md: 'YafApplication::run »'
+  - yaf-application.getlasterrorno.md: '« Yaf\_Application::getLastErrorNo'
+  - yaf-application.run.md: 'Yaf\_Application::run »'
   - index.md: PHP Manual
-  - class.yaf-application.md: YafApplication
-title: 'YafApplication::getModules'
+  - class.yaf-application.md: Yaf\_Application
+title: 'Yaf\_Application::getModules'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafApplication::getModules
+# Yaf\_Application::getModules
 
 (Yaf >=1.0.0)
 
-YafApplication::getModules — Отримати імена заявлених модулів
+Yaf\_Application::getModules — Отримати імена заявлених модулів
 
 ### Опис
 
@@ -28,7 +29,7 @@ public Yaf_Application::getModules(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafApplication::getModules()****
+**Пример #1 Пример использования**Yaf\_Application::getModules()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($application->getModules());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

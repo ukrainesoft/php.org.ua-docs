@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ffi-ctype.getsize.md: '« FFICType::getSize'
-  - ffi-ctype.getstructfieldoffset.md: 'FFICType::getStructFieldOffset »'
+  - ffi-ctype.getsize.md: '« FFI\\CType::getSize'
+  - ffi-ctype.getstructfieldoffset.md: 'FFI\\CType::getStructFieldOffset »'
   - index.md: PHP Manual
-  - class.ffi-ctype.md: FFICType
-title: 'FFICType::getStructFieldNames'
+  - class.ffi-ctype.md: FFI\\CType
+title: 'FFI\\CType::getStructFieldNames'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# FFICType::getStructFieldNames
+# FFI\\CType::getStructFieldNames
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-FFICType::getStructFieldNames — Опис
+FFI\\CType::getStructFieldNames — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public FFI\CType::getStructFieldNames(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

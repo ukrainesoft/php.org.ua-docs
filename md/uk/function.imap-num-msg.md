@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-mutf7-to-utf8.md: « imapmutf7тоutf8
-  - function.imap-num-recent.md: imapnumrecent »
+  - function.imap-mutf7-to-utf8.md: « imap\_mutf7\_to\_utf8
+  - function.imap-num-recent.md: imap\_num\_recent »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapnummsg
+  - ref.imap.md: Функції IMAP
+title: imap\_num\_msg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapnummsg
+# imap\_num\_msg
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapnummsg — Отримати кількість повідомлень у поточній поштовій скриньці
+imap\_num\_msg — Отримує кількість повідомлень у поточній поштовій скриньці
 
 ### Опис
 
@@ -24,7 +25,7 @@ imap_num_msg(IMAP\Connection $imap): int|false
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 ### Значення, що повертаються
 
@@ -32,11 +33,11 @@ imap_num_msg(IMAP\Connection $imap): int|false
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Дивіться також
 
--   [imapnumrecent()](function.imap-num-recent.md) - Отримати кількість нових повідомлень у поточній поштовій скриньці
--   [imapstatus()](function.imap-status.md) - Отримати інформацію про статус поштової скриньки
+-   [imap\_num\_recent()](function.imap-num-recent.md) \- Отримує кількість нових повідомлень у поточній поштовій скриньці
+-   [imap\_status()](function.imap-status.md) \- Отримує інформацію щодо статусу поштової скриньки

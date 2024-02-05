@@ -1,28 +1,29 @@
 ---
 navigation:
-  - function.gnupg-keyinfo.md: « gnupgkeyinfo
-  - function.gnupg-setarmor.md: gnupgsetarmor »
+  - function.gnupg-keyinfo.md: « gnupg\_keyinfo
+  - function.gnupg-setarmor.md: gnupg\_setarmor »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupglistsignatures
+title: gnupg\_listsignatures
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupglistsignatures
+# gnupg\_listsignatures
 
 (PECL gnupg >= 0.5)
 
-gnupglistsignatures — Перелік підпису ключа
+gnupg\_listsignatures — Перелік підпису ключа
 
 ### Опис
 
 ```methodsynopsis
-gnupg_listsignatures(resource $identifier, string $keyid): array
+gnupg_listsignatures(resource $identifier, string $keyid): ?array
 ```
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `keyid`
 
@@ -34,7 +35,7 @@ gnupg_listsignatures(resource $identifier, string $keyid): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupglistsignatures()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_listsignatures()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($signatures);
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupglistsignatures()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_listsignatures()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

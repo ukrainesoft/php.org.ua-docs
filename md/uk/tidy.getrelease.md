@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.tidy.md: tidy
 title: 'tidy::getRelease'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidy::getRelease
 
-# tidygetrelease
+# tidy\_get\_release
 
-(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
 
-tidy::getRelease -- tidygetrelease — Отримати дату випуску (версію) для бібліотеки Tidy
+tidy::getRelease -- tidy\_get\_release — Отримати дату випуску (версію) для бібліотеки Tidy
 
 ### Опис
 

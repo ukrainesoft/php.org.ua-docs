@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.messageformatter.md: MessageFormatter
 title: 'MessageFormatter::getLocale'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # MessageFormatter::getLocale
 
-# msgfmtgetlocale
+# msgfmt\_get\_locale
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-MessageFormatter::getLocale -- msgfmtgetlocale — Повертає локаль, для якої було створено засіб форматування
+MessageFormatter::getLocale -- msgfmt\_get\_locale — Повертає локаль, для якої було створено засіб форматування
 
 ### Опис
 
@@ -42,7 +43,7 @@ msgfmt_get_locale(MessageFormatter $formatter): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **msgfmtgetlocale()****
+**Пример #1 Пример использования**msgfmt\_get\_locale()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ echo $fmt->getLocale();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 en_US
@@ -68,4 +69,4 @@ en_US
 
 ### Дивіться також
 
--   [msgfmtcreate()](messageformatter.create.md) - Створює засіб форматування повідомлень
+-   [msgfmt\_create()](messageformatter.create.md) \- Створює засіб форматування повідомлень

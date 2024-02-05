@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-get-query-timeout.md: « cubridgetquerytimeout
-  - function.cubrid-get.md: cubridget »
+  - function.cubrid-get-query-timeout.md: « cubrid\_get\_query\_timeout
+  - function.cubrid-get.md: cubrid\_get »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridgetserverinfo
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_get\_server\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridgetserverinfo
+# cubrid\_get\_server\_info
 
 (PECL CUBRID >= 8.3.0)
 
-cubridgetserverinfo — Повертає версію сервера CUBRID
+cubrid\_get\_server\_info — Повертає версію сервера CUBRID
 
 ### Опис
 
@@ -28,11 +29,11 @@ cubrid_get_server_info(resource $conn_identifier): string
 
 ### Значення, що повертаються
 
-Рядок, що представляє версію сервера CUBRID у разі успішного виконання, або **`false`** у разі виникнення помилки.
+Рядок, що представляє версію сервера CUBRID у разі успішного виконання, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridgetserverinfo()****
+**Пример #1 Пример использования**cubrid\_get\_server\_info()\*\*\*\*
 
 ```php
 <?php
@@ -71,7 +72,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Версия CUBRID PHP:             9.1.0.0001

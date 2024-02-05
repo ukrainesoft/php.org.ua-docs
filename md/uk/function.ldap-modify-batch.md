@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ldap-mod-replace.md: « ldapmodreplace
-  - function.ldap-modify.md: ldapmodify »
+  - function.ldap-mod-replace.md: « ldap\_mod\_replace
+  - function.ldap-modify.md: ldap\_modify »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapmodifybatch
+title: ldap\_modify\_batch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapmodifybatch
+# ldap\_modify\_batch
 
 (PHP 5.4 >= 5.4.26, PHP 5.5 >= 5.5.10, PHP 5.6 >= 5.6.0, PHP 7, PHP 8)
 
-ldapmodifybatch — Формування та запуск пакетної зміни запису LDAP
+ldap\_modify\_batch — Формування та запуск пакетної зміни запису LDAP
 
 ### Опис
 
 ```methodsynopsis
-ldap_modify_batch(    LDAP\Connection $ldap,    string $dn,    array $modifications_info,    ?array $controls = null): bool
+ldap_modify_batch(    LDAP\Connection $ldap,    string $dn,    array $modifications_info,    ?array $controls = null): bool
 ```
 
 Модифікує існуючий запис у каталозі LDAP. Допустимо детальний опис модифікації.
@@ -24,7 +25,7 @@ ldap_modify_batch(    LDAP\Connection $ldap,    string $dn,    array $modificati
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `dn`
 
@@ -34,41 +35,41 @@ ldap_modify_batch(    LDAP\Connection $ldap,    string $dn,    array $modificati
 
 Масив, який описує необхідну модифікацію. Кожен запис цього масиву є асоціативним масивом з двома або трьома ключами: `attrib` задає ім'я атрибута для зміни, `modtype` задає тип модифікації та (залежно від типу модифікації) `values` задає масив значень атрибутів, що відповідає даній модифікації.
 
-Допустимі значення для `modtype`
+Допустимі значення для `modtype` :
 
 **`LDAP_MODIFY_BATCH_ADD`**
 
-Кожне значення задане в `values` буде додано (як додаткове значення) до атрибуту `attrib`
+Каждое значение заданное в`values`будет добавлено (как дополнительное значение) к атрибуту`attrib`
 
 **`LDAP_MODIFY_BATCH_REMOVE`**
 
-Кожне значення задане в `values` буде видалено з атрибута заданого в`attrib`. Жодне значення не вказане в `values` не буде порушено.
+Каждое значение заданное в`values`будет удалено из атрибута заданного в`attrib`Ни одно значение не указанное в`values`не будет затронуто.
 
 **`LDAP_MODIFY_BATCH_REMOVE_ALL`**
 
-Усі значення будуть видалені у атрибуту `attrib`. Параметр `values` не потрібен.
+Усі значення будуть видалені у атрибуту `attrib`Параметр`values`не нужен.
 
 **`LDAP_MODIFY_BATCH_REPLACE`**
 
-Усі існуючі значення атрибуту `attrib` будуть замінені значеннями зазначеними в `values`
+Все существующие значения атрибута`attrib` будуть замінені значеннями зазначеними в `values`
 
-Зверніть увагу, що всі значення `attrib` повинні бути рядками, всі значення `values` повинні бути масивами рядків та будь-які значення `modtype` повинні бути однією з констант LDAPMODIFYBATCH, Перерахованих вище.
+Обратите внимание, что все значения`attrib` повинні бути рядками, всі значення `values` повинні бути масивами рядків та будь-які значення `modtype` повинні бути однією з констант LDAP\_MODIFY\_BATCH\_\*, Перерахованих вище.
 
 `controls`
 
-Масив [управляющих констант LDAP](ldap.controls.md) для відправки у запиті.
+Массив[керуючих констант LDAP](ldap.controls.md)для отправки в запросе.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
-|  | Додано підтримку параметра `controls` |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.0.0 | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+| 7.3.0 | Додано підтримку параметра `controls` |
 
 ### Приклади
 

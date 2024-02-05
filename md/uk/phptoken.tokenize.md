@@ -1,10 +1,11 @@
 ---
 navigation:
-  - phptoken.tostring.md: '« PhpToken::toString'
-  - ref.tokenizer.md: Функции PHP-лексера (tokenizer) »
+  - phptoken.tostring.md: '« PhpToken::\_\_function toString() { [native code] }'
+  - ref.tokenizer.md: Функції PHP-лексера (tokenizer) »
   - index.md: PHP Manual
   - class.phptoken.md: PhpToken
 title: 'PhpToken::tokenize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PhpToken::tokenize
 
@@ -30,15 +31,15 @@ public static PhpToken::tokenize(string $code, int $flags = 0): array
 
 Допустимі прапори:
 
--   **`TOKEN_PARSE`** - Допускає можливість використовувати зарезервовані слова у певних контекстах.
+-   \*\*`TOKEN_PARSE`\*\*- Допускає можливість використовувати зарезервовані слова у певних контекстах.
 
 ### Значення, що повертаються
 
-Масив токенів PHP як об'єктів класу PhpToken чи його нащадків. Цей метод повертає staticтак що PhpToken можна вільно розширювати.
+Масив токенів PHP як об'єктів класу PhpToken чи його нащадків. Цей метод повертає static\[\]так що PhpToken можна вільно розширювати.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PhpToken::tokenize()****
+**Пример #1 Пример использования**PhpToken::tokenize()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ foreach ($tokens as $token) {
 }
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Line 1: T_OPEN_TAG ('<?php ')
@@ -74,7 +75,7 @@ $tokens = MyPhpToken::tokenize('<?php echo; ?>');
 echo "'{$tokens[0]->getUpperText()}'";
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 '<?PHP '
@@ -82,4 +83,4 @@ echo "'{$tokens[0]->getUpperText()}'";
 
 ### Дивіться також
 
--   [tokengetall()](function.token-get-all.md) - Розбиває переданий вихідний код на PHP-лексеми
+-   [token\_get\_all()](function.token-get-all.md) \- Розбиває переданий вихідний код на PHP-лексеми

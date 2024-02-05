@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashinthash.md: QuickHashIntHash
 title: 'QuickHashIntHash::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntHash::set
 
@@ -36,7 +37,7 @@ public QuickHashIntHash::set(int $key, int $value): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntHash::set()****
+**Пример #1 Пример использования**QuickHashIntHash::set()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump( $hash->get( 46692 ) );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)

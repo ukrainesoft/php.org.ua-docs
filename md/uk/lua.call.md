@@ -1,18 +1,19 @@
 ---
 navigation:
   - lua.assign.md: '« Lua::assign'
-  - lua.construct.md: 'Lua::construct »'
+  - lua.construct.md: 'Lua::\_\_construct »'
   - index.md: PHP Manual
   - class.lua.md: Lua
 title: 'Lua::call'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Lua::call
 
-# Lua::call
+# Lua::\_\_call
 
-(PECL lua> = 0.9.0)
+(PECL lua >=0.9.0)
 
-Lua::call -- Lua::call — Викликати функції Lua
+Lua::call -- Lua::\_\_call — Викликати функції Lua
 
 ### Опис
 
@@ -26,7 +27,7 @@ public Lua::__call(callable $lua_func, array $args = ?, int $use_self = 0): mixe
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -44,11 +45,11 @@ public Lua::__call(callable $lua_func, array $args = ?, int $use_self = 0): mixe
 
 ### Значення, що повертаються
 
-Повертає результат функції, що виконалася, **`null`** у разі некоректних аргументів, або **`false`** у разі виникнення помилки.
+Повертає результат функції, що виконалася, **`null`** у разі некоректних аргументів, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Lua::call()****
+**Пример #1 Пример использования**Lua::call()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ var_dump($lua->call(array("table", "concat"), array(array(1=>1, 2=>2, 3=>3), "-"
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Lua,geiliable
@@ -75,4 +76,4 @@ string(5) "1-2-3"
 
 ### Дивіться також
 
--   [call()](language.oop5.overloading.md#object.call)
+-   [\_\_call()](language.oop5.overloading.md#object.call)

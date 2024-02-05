@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::getType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionParameter::getType
 
@@ -26,13 +27,13 @@ public ReflectionParameter::getType(): ?ReflectionType
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ReflectionType](class.reflectiontype.md), якщо тип параметра заданий, **`null`**, в іншому випадку.
+Повертає об'єкт [ReflectionType](class.reflectiontype.md), если тип параметра задан,**`null`**, в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionParameter::getType()** починаючи з PHP 7.1.0**
+**Пример #1 Пример использования**ReflectionParameter::getType()\*\* починаючи з PHP 7.1.0\*\*
 
-Починаючи з PHP 7.1.0, метод [ReflectionType::toString()](reflectiontype.tostring.md) оголошено застарілим. Метод **ReflectionParameter::getType()** *може* повернути екземпляр [ReflectionNamedType](class.reflectionnamedtype.md). Для отримання імені типу параметра доступний метод **ReflectionNamedType()**
+Начиная с PHP 7.1.0, метод[ReflectionType::\_\_toString()](reflectiontype.tostring.md) оголошено застарілим. Метод **ReflectionParameter::getType()** *може* повернути екземпляр [ReflectionNamedType](class.reflectionnamedtype.md)Для получения имени типа параметра доступен метод**ReflectionNamedType()**
 
 ```php
 <?php
@@ -49,14 +50,14 @@ var_dump($reflectionType2);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int
 NULL
 ```
 
-**Приклад #2 Використання **ReflectionParameter::getType()** у PHP до версії 7.1.0**
+**Пример #2 Использование**ReflectionParameter::getType()\*\* у PHP до версії 7.1.0\*\*
 
 ```php
 <?php
@@ -72,16 +73,16 @@ var_dump($reflectionType2);
 ?>
 ```
 
-Результат виконання цього прикладу в PHP 7.0:
+Результат виконання наведеного прикладу в PHP 7.0:
 
 ```
 int
 NULL
 ```
 
-**Приклад #3 Приклад використання **ReflectionParameter::getType()** в PHP 8.0.0 і пізніших**
+**Пример #3 Пример использования**ReflectionParameter::getType()\*\* в PHP 8.0.0 і пізніших\*\*
 
-Починаючи з PHP 8.0.0, цей метод може повертати екземпляр [ReflectionNamedType](class.reflectionnamedtype.md) або екземпляр [ReflectionUnionType](class.reflectionuniontype.md). Останній є колекцією перших. Для аналізу типу часто буває зручно перетворити його на масив об'єктів [ReflectionNamedType](class.reflectionnamedtype.md). Наступна функція поверне масив з `0` або більше екземплярів [ReflectionNamedType](class.reflectionnamedtype.md)
+Починаючи з PHP 8.0.0, цей метод може повертати екземпляр [ReflectionNamedType](class.reflectionnamedtype.md) або екземпляр [ReflectionUnionType](class.reflectionuniontype.md). Останній є колекцією перших. Для аналізу типу часто буває зручно перетворити його на масив об'єктів [ReflectionNamedType](class.reflectionnamedtype.md). Наступна функція поверне масив з або більше екземплярів [ReflectionNamedType](class.reflectionnamedtype.md)
 
 ```php
 <?php
@@ -100,5 +101,5 @@ function getAllTypes(ReflectionParameter $reflectionParameter): array
 
 ### Дивіться також
 
--   [ReflectionParameter::hasType()](reflectionparameter.hastype.md) - Перевірити, чи вказано тип параметра
--   [ReflectionType::toString()](reflectiontype.tostring.md) - Перетворення на рядок
+-   [ReflectionParameter::hasType()](reflectionparameter.hastype.md) \- Перевірити, чи вказано тип параметра
+-   [ReflectionType::\_\_toString()](reflectiontype.tostring.md) \- Перетворення на рядок

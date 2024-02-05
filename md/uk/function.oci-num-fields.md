@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-new-descriptor.md: « ocinewdescriptor
-  - function.oci-num-rows.md: ocinumrows »
+  - function.oci-new-descriptor.md: « oci\_new\_descriptor
+  - function.oci-num-rows.md: oci\_num\_rows »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocinumfields
+  - ref.oci8.md: OCI8 Функції
+title: oci\_num\_fields
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocinumfields
+# oci\_num\_fields
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocinumfields — Повертає кількість полів через запит
+oci\_num\_fields — Повертає кількість полів через запит
 
 ### Опис
 
@@ -32,7 +33,7 @@ oci_num_fields(resource $statement): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ocinumfields()****
+**Пример #1 Пример использования**oci\_num\_fields()\*\*\*\*
 
 ```php
 <?php
@@ -63,9 +64,3 @@ oci_close($conn);
 
 ?>
 ```
-
-### Примітки
-
-> **Зауваження**
-> 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocinumcols()](function.ocinumcols.md). У PHP 5.0.0 і вище [ocinumcols()](function.ocinumcols.md) є аліасом \*\*ocinumfields()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

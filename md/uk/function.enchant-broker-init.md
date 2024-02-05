@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.enchant-broker-get-error.md: « enchantbrokergeterror
-  - function.enchant-broker-list-dicts.md: enchantbrokerlistdicts »
+  - function.enchant-broker-get-error.md: « enchant\_broker\_get\_error
+  - function.enchant-broker-list-dicts.md: enchant\_broker\_list\_dicts »
   - index.md: PHP Manual
-  - ref.enchant.md: Функции Enchant
-title: enchantbrokerinit
+  - ref.enchant.md: Функції Enchant
+title: enchant\_broker\_init
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# enchantbrokerinit
+# enchant\_broker\_init
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL enchant >= 0.1.0 )
 
-enchantbrokerinit — Створити новий об'єкт брокера
+enchant\_broker\_init — Створити новий об'єкт брокера
 
 ### Опис
 
@@ -26,10 +27,10 @@ enchant_broker_init(): EnchantBroker|false
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі успішного виконання функція повертає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | У разі успішного виконання функція повертає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [enchantbrokerfree()](function.enchant-broker-free.md) - Звільняє ресурс брокера та його словники
+-   [enchant\_broker\_free()](function.enchant-broker-free.md) \- Звільняє ресурс брокера та його словники

@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.mysql-xdevapi-collectionadd.md: « mysqlxdevapiCollectionAdd
+  - class.mysql-xdevapi-collectionadd.md: « mysql\_xdevapi\\CollectionAdd
   - mysql-xdevapi-collectionadd.execute.md: 'CollectionAdd::execute »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionadd.md: mysqlxdevapiCollectionAdd
-title: 'CollectionAdd::construct'
+  - class.mysql-xdevapi-collectionadd.md: mysql\_xdevapi\\CollectionAdd
+title: 'CollectionAdd::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CollectionAdd::construct
+# CollectionAdd::\_\_construct
 
 (No version information available, might only be in Git)
 
-CollectionAdd::construct - Конструктор класу CollectionAdd
+CollectionAdd::\_\_construct - Конструктор класу CollectionAdd
 
 ### Опис
 
-private **mysqlxdevapiCollectionAdd::construct**
+private**mysql\_xdevapi\\CollectionAdd::\_\_construct**()
 
 Використовується для додавання документа до колекції; Викликається з об'єкта Collection.
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiCollectionAdd::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionAdd::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionAdd::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -64,7 +65,7 @@ print_r($ids);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -76,6 +77,6 @@ Array
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> MySQL Server 8.0 або вище генерує унікальний id, як показано у прикладі. Поле id слід визначити вручну, якщо використовується MySQL Server 5.7.
+> MySQL Server 8.0 або вище генерує унікальний \_id, як показано у прикладі. Поле \_id слід визначити вручну, якщо використовується MySQL Server 5.7.

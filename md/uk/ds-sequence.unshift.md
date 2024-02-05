@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.sum.md: '« DsSequence::sum'
-  - class.ds-vector.md: Вектор »
+  - ds-sequence.sum.md: '« Ds\\Sequence::sum'
+  - class.ds-vector.md: Ds\\Vector »
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::unshift'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::unshift'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::unshift
+# Ds\\Sequence::unshift
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::unshift — Додає значення на початок послідовності
+Ds\\Sequence::unshift — Додає значення на початок послідовності
 
 ### Опис
 
@@ -26,7 +27,7 @@ abstract public Ds\Sequence::unshift(mixed $values = ?): void
 
 Значення, що додаються.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Багато значень додаються в тому порядку, як вони були передані.
 
@@ -36,7 +37,7 @@ abstract public Ds\Sequence::unshift(mixed $values = ?): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::unshift()****
+**Пример #1 Пример использования**Ds\\Sequence::unshift()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ print_r($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

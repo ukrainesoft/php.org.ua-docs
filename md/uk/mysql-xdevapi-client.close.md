@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mysql-xdevapi-client.md: « mysqlxdevapiClient
-  - mysql-xdevapi-client.construct.md: 'Client::construct »'
+  - class.mysql-xdevapi-client.md: « mysql\_xdevapi\\Client
+  - mysql-xdevapi-client.construct.md: 'Client::\_\_construct »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-client.md: mysqlxdevapiClient
-title: 'mysqlxdevapiClient::close'
+  - class.mysql-xdevapi-client.md: mysql\_xdevapi\\Client
+title: 'mysql\_xdevapi\\Client::close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlxdevapiClient::close
+# mysql\_xdevapi\\Client::close
 
 (No version information available, might only be in Git)
 
-mysqlxdevapiClient::close — Закриття клієнта
+mysql\_xdevapi\\Client::close — Закриття клієнта
 
 ### Опис
 

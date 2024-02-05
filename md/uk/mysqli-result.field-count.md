@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli-result.fetch-row.md: '« mysqliresult::fetchrow'
-  - mysqli-result.field-seek.md: 'mysqliresult::fieldseek »'
+  - mysqli-result.fetch-row.md: '« mysqli\_result::fetch\_row'
+  - mysqli-result.field-seek.md: 'mysqli\_result::field\_seek »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::$fieldcount'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::$field\_count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::$fieldcount
+# mysqli\_result::$field\_count
 
-# mysqlinumfields
+# mysqli\_num\_fields
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliresult::$fieldcount - mysqlinumfields — Отримує кількість полів у наборі результатів
+mysqli\_result::$field\_count -- mysqli\_num\_fields — Отримує кількість полів у наборі результатів
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int [$mysqliresult->fieldcount](mysqli-result.field-count.md)
+int[$mysqli\_result->field\_count](mysqli-result.field-count.md)
 
 Процедурний стиль
 
@@ -32,7 +33,7 @@ mysqli_num_fields(mysqli_result $result): int
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
@@ -72,7 +73,7 @@ $field_cnt = mysqli_num_fields($result);
 printf("Получено %d полей.\n", $field_cnt);
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Получено 4 полей.
@@ -80,4 +81,4 @@ printf("Получено %d полей.\n", $field_cnt);
 
 ### Дивіться також
 
--   [mysqlifetchfield()](mysqli-result.fetch-field.md) - Повертає наступне поле результуючого набору
+-   [mysqli\_fetch\_field()](mysqli-result.fetch-field.md) \- Повертає наступне поле результуючого набору

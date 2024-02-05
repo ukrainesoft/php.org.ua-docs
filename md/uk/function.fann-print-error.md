@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-num-output-train-data.md: « fannnumoutputtraindata
-  - function.fann-randomize-weights.md: fannrandomizeweights »
+  - function.fann-num-output-train-data.md: « fann\_num\_output\_train\_data
+  - function.fann-randomize-weights.md: fann\_randomize\_weights »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannprinterror
+  - ref.fann.md: Функції Fann
+title: fann\_print\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannprinterror
+# fann\_print\_error
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannprinterror — Виводить рядок помилки
+fann\_print\_error — Виводить рядок помилки
 
 ### Опис
 
@@ -32,4 +33,4 @@ fann_print_error(resource $errdat): void
 
 ### Дивіться також
 
--   [fanngeterrstr()](function.fann-get-errstr.md) - Повертає останній рядок помилки
+-   [fann\_get\_errstr()](function.fann-get-errstr.md) \- Повертає останній рядок помилки

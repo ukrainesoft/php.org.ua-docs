@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pcntl-wstopsig.md: pcntlwstopsig
+  - function.pcntl-wstopsig.md: « pcntl\_wstopsig
   - book.posix.md: POSIX »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
-title: pcntlwtermsig
+title: pcntl\_wtermsig
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pcntlwtermsig
+# pcntl\_wtermsig
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-pcntlwtermsig — Отримати сигнал, через який було примусово завершено дочірній процес
+pcntl\_wtermsig — Отримати сигнал, через який було примусово завершено дочірній процес
 
 ### Опис
 
@@ -18,13 +19,13 @@ pcntlwtermsig — Отримати сигнал, через який було п
 pcntl_wtermsig(int $status): int|false
 ```
 
-Повертає номер сигналу, через який примусово завершили дочірній процес. Має сенс тільки якщо [pcntlwifsignaled()](function.pcntl-wifsignaled.md) повернула **`true`**
+Повертає номер сигналу, через який примусово завершили дочірній процес. Має сенс тільки якщо [pcntl\_wifsignaled()](function.pcntl-wifsignaled.md) повернула **`true`**
 
 ### Список параметрів
 
 `status`
 
-Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntlwaitpid()](function.pcntl-waitpid.md)
+Параметр`status` — це параметр статусу, який передається для успішного виклику функції [pcntl\_waitpid()](function.pcntl-waitpid.md)
 
 ### Значення, що повертаються
 
@@ -32,6 +33,6 @@ pcntl_wtermsig(int $status): int|false
 
 ### Дивіться також
 
--   [pcntlwaitpid()](function.pcntl-waitpid.md) - Очікує чи повертає статус породженого дочірнього процесу
--   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу
--   [pcntlwifsignaled()](function.pcntl-wifsignaled.md) - Перевірити, чи код завершення процесу завершення по сигналу
+-   [pcntl\_waitpid()](function.pcntl-waitpid.md) \- Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntl\_signal()](function.pcntl-signal.md) \- Встановлення оброблювача сигналу
+-   [pcntl\_wifsignaled()](function.pcntl-wifsignaled.md) \- Перевірити, чи код завершення процесу завершення по сигналу

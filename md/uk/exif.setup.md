@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.exif.md: « Введение
+  - intro.exif.md: '" Вступ'
   - exif.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.exif.md: Exif
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::offsetSet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::offsetSet
 
@@ -28,7 +29,7 @@ public ArrayObject::offsetSet(mixed $key, mixed $value): void
 
 `value`
 
-Нове значення для `key`
+Новое значение для`key`
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public ArrayObject::offsetSet(mixed $key, mixed $value): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::offsetSet()****
+**Пример #1 Пример использования**ArrayObject::offsetSet()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ var_dump($arrayobj);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(ArrayObject)#1 (3) {
@@ -82,4 +83,4 @@ object(ArrayObject)#3 (3) {
 
 ### Дивіться також
 
--   [ArrayObject::append()](arrayobject.append.md) - Додає значення в кінець масиву
+-   [ArrayObject::append()](arrayobject.append.md) \- Додає значення в кінець масиву

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-callback.md: « fannsetcallback
-  - function.fann-set-cascade-activation-steepnesses.md: fannsetcascadeactivationsteepnesses »
+  - function.fann-set-callback.md: « fann\_set\_callback
+  - function.fann-set-cascade-activation-steepnesses.md: fann\_set\_cascade\_activation\_steepnesses »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetcascadeactivationфункцій
+  - ref.fann.md: Функції Fann
+title: fann\_set\_cascade\_activation\_functions
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetcascadeactivationфункцій
+# fann\_set\_cascade\_activation\_functions
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetcascadeactivationfunctions - Встановлює масив каскадних функцій активації кандидатів
+fann\_set\_cascade\_activation\_functions - Встановлює масив каскадних функцій активації кандидатів
 
 ### Опис
 
@@ -20,7 +21,7 @@ fann_set_cascade_activation_functions(resource $ann, array $cascade_activation_f
 
 Встановлює масив каскадних функцій активації кандидатів.
 
-Дивіться [fanngetcascadenumcandidates()](function.fann-get-cascade-num-candidates.md) для опису того, які нейрони-кандидати будуть згенеровані цим масивом.
+Смотрите[fann\_get\_cascade\_num\_candidates()](function.fann-get-cascade-num-candidates.md) для опису того, які нейрони-кандидати будуть згенеровані цим масивом.
 
 ### Список параметрів
 
@@ -38,5 +39,5 @@ fann_set_cascade_activation_functions(resource $ann, array $cascade_activation_f
 
 ### Дивіться також
 
--   [fanngetcascadeactivationfunctionscount()](function.fann-get-cascade-activation-functions-count.md) - Повертає кількість функцій каскадної активації
--   **fannsetcascadeactivationfunctions()**
+-   [fann\_get\_cascade\_activation\_functions\_count()](function.fann-get-cascade-activation-functions-count.md) \- Повертає кількість функцій каскадної активації
+-   **fann\_set\_cascade\_activation\_functions()**

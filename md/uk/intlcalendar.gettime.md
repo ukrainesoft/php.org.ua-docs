@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getTime
 
@@ -36,11 +37,11 @@ intlcal_get_time(IntlCalendar $calendar): float|false
 
 ### Значення, що повертаються
 
-Число з плаваючою точкою (float), що представляє кількість мілісекунд, що пройшли з початку епохи Unix (1 січня 1970 00:00:00 UTC) або **`false`** у разі виникнення помилки.
+Число з плаваючою точкою (float), що представляє кількість мілісекунд, що пройшли з початку епохи Unix (1 січня 1970 00:00:00 UTC) або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::getTime()****
+**Пример #1 Пример использования**IntlCalendar::getTime()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ $time = $cal->getTime();
 var_dump($time, $time / 1000 == strtotime('2013-05-01 00:00:00')); //true
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 float(1367362800000)
@@ -61,4 +62,4 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlCalendar::getNow()](intlcalendar.getnow.md) - Отримує число, що становить поточний час
+-   [IntlCalendar::getNow()](intlcalendar.getnow.md) \- Отримує число, що становить поточний час

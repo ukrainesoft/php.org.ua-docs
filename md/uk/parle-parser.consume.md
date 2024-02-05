@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-parser.build.md: '« ParleParser::build'
-  - parle-parser.dump.md: 'ParleParser::dump »'
+  - parle-parser.build.md: '« Parle\\Parser::build'
+  - parle-parser.dump.md: 'Parle\\Parser::dump »'
   - index.md: PHP Manual
-  - class.parle-parser.md: ParleParser
-title: 'ParleParser::consume'
+  - class.parle-parser.md: Parle\\Parser
+title: 'Parle\\Parser::consume'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleParser::consume
+# Parle\\Parser::consume
 
 (PECL parle >= 0.5.1)
 
-ParleParser::consume — Використовує дані для обробки
+Parle\\Parser::consume — Використовує дані для обробки
 
 ### Опис
 

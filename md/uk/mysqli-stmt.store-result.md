@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-stmt.sqlstate.md: '« mysqlistmt::$sqlstate'
-  - class.mysqli-result.md: mysqliresult »
+  - mysqli-stmt.sqlstate.md: '« mysqli\_stmt::$sqlstate'
+  - class.mysqli-result.md: mysqli\_result »
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::storeresult'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::store\_result'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::storeresult
+# mysqli\_stmt::store\_result
 
-# mysqlistmtstoreresult
+# mysqli\_stmt\_store\_result
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::storeresult -- mysqlistmtstoreresult — Зберігає набір результатів у внутрішньому буфері
+mysqli\_stmt::store\_result -- mysqli\_stmt\_store\_result — Зберігає набір результатів у внутрішньому буфері
 
 ### Опис
 
@@ -28,21 +29,25 @@ public mysqli_stmt::store_result(): bool
 mysqli_stmt_store_result(mysqli_stmt $statement): bool
 ```
 
-Функцію слід викликати для запитів, які успішно створюють набір результатів (наприклад, `SELECT, SHOW, DESCRIBE, EXPLAIN`) тільки якщо необхідно буферизувати в PHP повний набір результатів. Кожен наступний виклик [mysqlistmtfetch()](mysqli-stmt.fetch.md) повертатиме буферизовані дані.
+Функцію слід викликати для запитів, які успішно створюють набір результатів (наприклад, `SELECT, SHOW, DESCRIBE, EXPLAIN`) тільки якщо необхідно буферизувати в PHP повний набір результатів. Кожен наступний виклик [mysqli\_stmt\_fetch()](mysqli-stmt.fetch.md) повертатиме буферизовані дані.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> В інших випадках викликати **mysqlistmtstoreresult()** немає необхідності. Але якщо такий виклик здійснено, нічого страшного не станеться, це не вплине на продуктивність та цілісність даних. Щоб переконатися, що запит повернув результуючий набір, можна скористатися функцією [mysqlistmtresultmetadata()](mysqli-stmt.result-metadata.md), яка в цьому випадку поверне **`false`**
+> В інших випадках викликати **mysqli\_stmt\_store\_result()** немає необхідності. Але якщо такий виклик здійснено, нічого страшного не станеться, це не вплине на продуктивність та цілісність даних. Щоб переконатися, що запит повернув результуючий набір, можна скористатися функцією [mysqli\_stmt\_result\_metadata()](mysqli-stmt.result-metadata.md), яка в цьому випадку поверне **`false`**
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+
+### Помилки
+
+Якщо сповіщення про помилки mysqli включено (**`MYSQLI_REPORT_ERROR`**) та запитана операція не вдалася, видається попередження. Якщо, крім того, встановлено режим **`MYSQLI_REPORT_STRICT`**, натомість буде викинуто виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.md)
 
 ### Приклади
 
@@ -83,7 +88,7 @@ printf("Число строк: %d.\n", mysqli_stmt_num_rows($stmt));
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Количество строк: 20.
@@ -91,6 +96,6 @@ printf("Число строк: %d.\n", mysqli_stmt_num_rows($stmt));
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
--   [mysqlistmtresultmetadata()](mysqli-stmt.result-metadata.md) - Повертає метадані результуючої таблиці запиту, що готується.
--   [mysqlistmtfetch()](mysqli-stmt.fetch.md) - пов'язує результати підготовленого виразу зі змінними
+-   [mysqli\_prepare()](mysqli.prepare.md) \- готує SQL вираз до виконання
+-   [mysqli\_stmt\_result\_metadata()](mysqli-stmt.result-metadata.md) \- Повертає метадані результуючої таблиці запиту, що готується.
+-   [mysqli\_stmt\_fetch()](mysqli-stmt.fetch.md) \- пов'язує результати підготовленого виразу зі змінними

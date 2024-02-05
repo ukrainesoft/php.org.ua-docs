@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::workload'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanJob::workload
 
@@ -30,5 +31,5 @@ public GearmanJob::workload(): string
 
 ### Дивіться також
 
--   [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання та повертає результат Застарілий метод
--   [GearmanJob::workloadSize()](gearmanjob.workloadsize.md) - Отримання розміру даних, що оброблюються
+-   [GearmanClient::do()](gearmanclient.do.md) \- Виконує одне завдання та повертає результат\[Застарілий метод\]
+-   [GearmanJob::workloadSize()](gearmanjob.workloadsize.md) \- Отримання розміру даних, що оброблюються

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::setIteratorClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::setIteratorClass
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ArrayObject::setIteratorClass — Встановлює ім'я класу ітератора для ArrayObject
 
@@ -18,7 +19,7 @@ ArrayObject::setIteratorClass — Встановлює ім'я класу іте
 public ArrayObject::setIteratorClass(string $iteratorClass): void
 ```
 
-Встановлює ім'я класу ітератора масиву, що використовується [ArrayObject::getIterator()](arrayobject.getiterator.md)
+Устанавливает имя класса итератора массива, которое используется[ArrayObject::getIterator()](arrayobject.getiterator.md)
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public ArrayObject::setIteratorClass(string $iteratorClass): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::setIteratorClass()****
+**Пример #1 Пример использования**ArrayObject::setIteratorClass()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ class MyArrayIterator extends ArrayIterator {
     // пользовательская реализация
 }
 
-// Масив с количеством фруктов
+// Массив с количеством фруктов
 $fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
 $fruitsArrayObject = new ArrayObject($fruits);
@@ -53,7 +54,7 @@ print_r($fruitsArrayObject->getIterator());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 MyArrayIterator Object

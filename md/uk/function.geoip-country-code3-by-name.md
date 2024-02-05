@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.geoip-country-code-by-name.md: « geoipcountrycodeбname
-  - function.geoip-country-name-by-name.md: geoipcountrynameбname »
+  - function.geoip-country-code-by-name.md: « geoip\_country\_code\_by\_name
+  - function.geoip-country-name-by-name.md: geoip\_country\_name\_by\_name »
   - index.md: PHP Manual
-  - ref.geoip.md: Функции GeoIP
-title: geoipcountrycode3бname
+  - ref.geoip.md: Функції GeoIP
+title: geoip\_country\_code3\_by\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# geoipcountrycode3бname
+# geoip\_country\_code3\_by\_name
 
 (PECL geoip >= 0.2.0)
 
-geoipcountrycode3бname — Отримати трисимвольний код країни
+geoip\_country\_code3\_by\_name — Отримати трисимвольний код країни
 
 ### Опис
 
@@ -18,7 +19,7 @@ geoipcountrycode3бname — Отримати трисимвольний код �
 geoip_country_code3_by_name(string $hostname): string
 ```
 
-Функція **geoipcountrycode3бname()** повертає трисимвольний код країни, який відповідає імені хоста або IP-адреси.
+Функция**geoip\_country\_code3\_by\_name()** повертає трисимвольний код країни, який відповідає імені хоста або IP-адреси.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ geoip_country_code3_by_name(string $hostname): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoipcountrycode3бname()****
+**Пример #1 Пример использования**geoip\_country\_code3\_by\_name()\*\*\*\*
 
 Цей приклад виведе розташування хоста example.com.
 
@@ -45,7 +46,7 @@ if ($country) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Хост расположен в USA
@@ -53,5 +54,5 @@ if ($country) {
 
 ### Дивіться також
 
--   [geoipcountrycodeбname()](function.geoip-country-code-by-name.md) - Отримати двосимвольний код країни
--   [geoipcountrynameбname()](function.geoip-country-name-by-name.md) - Отримати повну назву країни
+-   [geoip\_country\_code\_by\_name()](function.geoip-country-code-by-name.md) \- Отримати двосимвольний код країни
+-   [geoip\_country\_name\_by\_name()](function.geoip-country-name-by-name.md) \- Отримати повну назву країни

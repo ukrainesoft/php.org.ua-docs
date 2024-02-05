@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-objectid.serialize.md: '« MongoDBBSONObjectId::serialize'
-  - mongodb-bson-objectid.unserialize.md: 'MongoDBBSONObjectId::unserialize »'
+  - mongodb-bson-objectid.serialize.md: '« MongoDB\\BSON\\ObjectId::serialize'
+  - mongodb-bson-objectid.unserialize.md: 'MongoDB\\BSON\\ObjectId::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-objectid.md: MongoDBBSONObjectId
-title: 'MongoDBBSONObjectId::function toString() { \[native code\] }'
+  - class.mongodb-bson-objectid.md: MongoDB\\BSON\\ObjectId
+title: 'MongoDB\\BSON\\ObjectId::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONObjectId::function toString() { \[native code\] }
+# MongoDB\\BSON\\ObjectId::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.0.0)
 
-MongoDBBSONObjectId::toString — Повертає шістнадцяткову виставу ObjectId
+MongoDB\\BSON\\ObjectId::\_\_toString — Повертає шістнадцяткову виставу ObjectId
 
 ### Опис
 
@@ -28,7 +29,7 @@ final public MongoDB\BSON\ObjectId::__toString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONObjectId::toString()****
+**Пример #1 Пример использования**MongoDB\\BSON\\ObjectId::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump((string) new MongoDB\BSON\ObjectId('000000000000000000000001'));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(24) "56731b49da14d8747d701211"
@@ -48,5 +49,5 @@ string(24) "000000000000000000000001"
 
 ### Дивіться також
 
--   [» Справка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
--   [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Довідка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)

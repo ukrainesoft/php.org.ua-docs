@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-revision-root.md: « svnфсrevisionroot
-  - function.svn-fs-youngest-rev.md: svnфсyoungestrev »
+  - function.svn-fs-revision-root.md: « svn\_fs\_revision\_root
+  - function.svn-fs-youngest-rev.md: svn\_fs\_youngest\_rev »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсtxnroot
+title: svn\_fs\_txn\_root
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсtxnroot
+# svn\_fs\_txn\_root
 
 (PECL svn >= 0.2.0)
 
-svnфсtxnroot — Створює та повертає корінь транзакції.
+svn\_fs\_txn\_root — Створює та повертає корінь транзакції.
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_txn_root(resource $txn): resource
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Створює та повертає корінь транзакції
 

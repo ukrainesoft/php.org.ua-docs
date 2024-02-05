@@ -1,16 +1,17 @@
 ---
 navigation:
   - directoryiterator.rewind.md: '« DirectoryIterator::rewind'
-  - directoryiterator.tostring.md: 'DirectoryIterator::toString »'
+  - directoryiterator.tostring.md: 'DirectoryIterator::\_\_toString »'
   - index.md: PHP Manual
   - class.directoryiterator.md: DirectoryIterator
 title: 'DirectoryIterator::seek'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DirectoryIterator::seek
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-DirectoryIterator::seek — Переміщує покажчик DirectoryIterator на певну позицію
+DirectoryIterator::seek — Перехід до елемента DirectoryIterator
 
 ### Опис
 
@@ -18,13 +19,13 @@ DirectoryIterator::seek — Переміщує покажчик DirectoryIterato
 public DirectoryIterator::seek(int $offset): void
 ```
 
-Переміщує покажчик [DirectoryIterator](class.directoryiterator.md) на певну позицію.
+Перехід до заданої позиції [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
 `offset`
 
-Номер позиції для переміщення. Нумерація починається із нуля.
+Числова позиція, що починається з нуля, до якої потрібно перейти.
 
 ### Значення, що повертаються
 
@@ -32,9 +33,9 @@ public DirectoryIterator::seek(int $offset): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DirectoryIterator::seek()****
+**Пример #1 Пример использования**DirectoryIterator::seek()\*\*\*\*
 
-Перейти до четвертого елемента в директорії, що містить скрипт. Перші два, як правило `.` і `..`
+Перехід до четвертого елементу каталогу, що містить скрипт. Першими двома зазвичай є и `.. .`
 
 ```php
 <?php
@@ -43,13 +44,13 @@ $iterator->seek(3);
 if ($iterator->valid()) {
     echo $iterator->getFilename();
 } else {
-    echo 'Нет третьего элемента в директории';
+    echo 'Отсутствие файла в позиции 3';
 }
 ?>
 ```
 
 ### Дивіться також
 
--   [DirectoryIterator::rewind()](directoryiterator.rewind.md) - Встановлює покажчик на перший елемент DirectoryIterator
--   [DirectoryIterator::next()](directoryiterator.next.md) - Переміщує покажчик на наступний елемент DirectoryIterator
--   [SeekableIterator::seek()](seekableiterator.seek.md) - Переміщається до позиції
+-   [DirectoryIterator::rewind()](directoryiterator.rewind.md) \- Перемотування ітератора DirectoryIterator назад до початку
+-   [DirectoryIterator::next()](directoryiterator.next.md) \- Перехід до наступного елементу DirectoryIterator
+-   [SeekableIterator::seek()](seekableiterator.seek.md) \- переміщається до позиції

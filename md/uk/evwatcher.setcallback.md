@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evwatcher.md: EvWatcher
 title: 'EvWatcher::setCallback'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvWatcher::setCallback
 
@@ -28,7 +29,7 @@ public
 
 `callback`
 
-Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.md)
+Смотрите[callback-функції спостерігачів](ev.watcher-callbacks.md)
 
 ### Значення, що повертаються
 

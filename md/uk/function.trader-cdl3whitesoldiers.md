@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdl3starsinsouth.md: « tradercdl3starsinsouth
-  - function.trader-cdlabandonedbaby.md: tradercdlabandonedbaby »
+  - function.trader-cdl3starsinsouth.md: « trader\_cdl3starsinsouth
+  - function.trader-cdlabandonedbaby.md: trader\_cdlabandonedbaby »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdl3whitesoldiers
+  - ref.trader.md: Функції Trader
+title: trader\_cdl3whitesoldiers
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdl3whitesoldiers
+# trader\_cdl3whitesoldiers
 
 (PECL trader >= 0.2.0)
 
-tradercdl3whitesoldiers - Три наступних білих солдатів
+trader\_cdl3whitesoldiers - Три наступних білих солдатів
 
 ### Опис
 
 ```methodsynopsis
-trader_cdl3whitesoldiers(    array $open,    array $high,    array $low,    array $close): array
+trader_cdl3whitesoldiers(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

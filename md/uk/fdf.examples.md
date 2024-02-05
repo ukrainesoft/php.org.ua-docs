@@ -1,10 +1,11 @@
 ---
 navigation:
-  - fdf.constants.md: « Обумовлені константи
+  - fdf.constants.md: « Зумовлені константи
   - ref.fdf.md: FDF »
   - index.md: PHP Manual
   - book.fdf.md: FDF
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

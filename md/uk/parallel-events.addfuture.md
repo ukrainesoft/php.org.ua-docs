@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-events.addchannel.md: '« parallelEvents::addChannel'
-  - parallel-events.remove.md: 'parallelEvents::remove »'
+  - parallel-events.addchannel.md: '« parallel\\Events::addChannel'
+  - parallel-events.remove.md: 'parallel\\Events::remove »'
   - index.md: PHP Manual
-  - class.parallel-events.md: parallelEvents
-title: 'parallelEvents::addFuture'
+  - class.parallel-events.md: parallel\\Events
+title: 'parallel\\Events::addFuture'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelEvents::addFuture
+# parallel\\Events::addFuture
 
-parallelEvents::addFuture — Цілі
+(0.9.0)
+
+parallel\\Events::addFuture — Цілі
 
 ### Опис
 
@@ -22,4 +25,4 @@ public parallel\Events::addFuture(string $name, parallel\Future $future): void
 
 **Увага**
 
-Викидає parallelEventsErrorExistence, якщо ціль з даним ім'ям вже був доданий.
+Викидає parallel\\Events\\Error\\Existence, якщо ціль з даним ім'ям вже був доданий.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.tidy-error-count.md: « tidyerrorcount
-  - function.tidy-warning-count.md: tidywarningcount »
+  - function.tidy-error-count.md: « tidy\_error\_count
+  - function.tidy-warning-count.md: tidy\_warning\_count »
   - index.md: PHP Manual
   - ref.tidy.md: Tidy
-title: tidygetoutput
+title: tidy\_get\_output
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tidygetoutput
+# tidy\_get\_output
 
-(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
 
-tidygetoutput - Повертає рядок, що представляє розібрану tidy-розмітку
+tidy\_get\_output - Повертає рядок, що представляє розібрану tidy-розмітку
 
 ### Опис
 
@@ -32,7 +33,7 @@ tidy_get_output(tidy $tidy): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidygetoutput()****
+**Пример #1 Пример использования**tidy\_get\_output()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ echo tidy_get_output($tidy);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">

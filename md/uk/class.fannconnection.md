@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.fann-train.md: « fanntrain
-  - fannconnection.construct.md: 'FANNConnection::construct »'
+  - function.fann-train.md: « fann\_train
+  - fannconnection.construct.md: 'FANNConnection::\_\_construct »'
   - index.md: PHP Manual
   - book.fann.md: FANN
 title: Клас FANNConnection
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас FANNConnection
 
@@ -12,7 +13,7 @@ title: Клас FANNConnection
 
 ## Вступ
 
-**FANNConnection** використовується для зв'язку нейронної мережі. Об'єкти цього класу використовуються у функціях [fanngetconnectionarray()](function.fann-get-connection-array.md) і [fannsetweightarray()](function.fann-set-weight-array.md)
+**FANNConnection** використовується для зв'язку нейронної мережі. Об'єкти цього класу використовуються у функціях [fann\_get\_connection\_array()](function.fann-get-connection-array.md) і [fann\_set\_weight\_array()](function.fann-set-weight-array.md)
 
 ## Огляд класів
 
@@ -53,11 +54,11 @@ public setWeight(float $weight): void
 
 ## Властивості
 
-fromneuron
+from\_neuron
 
 Перший нейрон (початковий)
 
-тоneuron
+to\_neuron
 
 Другий нейрон (кінцевий)
 
@@ -67,8 +68,8 @@ weight
 
 ## Зміст
 
--   [FANNConnection::construct](fannconnection.construct.md) - Конструктор зв'язку
--   [FANNConnection::getFromNeuron](fannconnection.getfromneuron.md) — Повертає позицію стартового нейрона
--   [FANNConnection::getToNeuron](fannconnection.gettoneuron.md) — Повертає позицію кінцевого нейрона
--   [FANNConnection::getWeight](fannconnection.getweight.md) — Повертає вагу зв'язку
--   [FANNConnection::setWeight](fannconnection.setweight.md) - Встановлює вагу зв'язку
+-   [FANNConnection::\_\_construct](fannconnection.construct.md) \- Конструктор зв'язку
+-   [FANNConnection::getFromNeuron](fannconnection.getfromneuron.md)— Повертає позицію стартового нейрона
+-   [FANNConnection::getToNeuron](fannconnection.gettoneuron.md)— Повертає позицію кінцевого нейрона
+-   [FANNConnection::getWeight](fannconnection.getweight.md)— Повертає вагу зв'язку
+-   [FANNConnection::setWeight](fannconnection.setweight.md) \- Встановлює вагу зв'язку

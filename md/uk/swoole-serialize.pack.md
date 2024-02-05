@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-serialize.md: « SwooleSerialize
-  - swoole-serialize.unpack.md: 'SwooleSerialize::unpack »'
+  - class.swoole-serialize.md: « Swoole\\Serialize
+  - swoole-serialize.unpack.md: 'Swoole\\Serialize::unpack »'
   - index.md: PHP Manual
-  - class.swoole-serialize.md: SwooleSerialize
-title: 'SwooleSerialize::pack'
+  - class.swoole-serialize.md: Swoole\\Serialize
+title: 'Swoole\\Serialize::pack'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleSerialize::pack
+# Swoole\\Serialize::pack
 
 (PECL swoole >= 1.9.0)
 
-SwooleSerialize::pack — Серіалізувати дані
+Swoole\\Serialize::pack — Серіалізувати дані
 
 ### Опис
 

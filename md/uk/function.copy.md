@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: copy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # copy
 
@@ -18,7 +19,7 @@ copy — Копіює файл
 copy(string $from, string $to, ?resource $context = null): bool
 ```
 
-Копіює файл `from` у файл з ім'ям `to`
+Копирует файл`from` у файл з ім'ям `to`
 
 Якщо потрібно перейменувати файл, використовуйте функцію [rename()](function.rename.md)
 
@@ -30,7 +31,7 @@ copy(string $from, string $to, ?resource $context = null): bool
 
 `to`
 
-Шлях до цільового файлу. Якщо `to` є URL, то копіювання може завершитися помилкою, якщо обгортка URL не підтримує перезаписування існуючих файлів.
+Путь к целевому файлу. Если`to` є URL, то копіювання може завершитися помилкою, якщо обгортка URL не підтримує перезаписування існуючих файлів.
 
 **Увага**
 
@@ -38,15 +39,15 @@ copy(string $from, string $to, ?resource $context = null): bool
 
 `context`
 
-Коректний ресурс контексту, створений функцією [streamcontextcreate()](function.stream-context-create.md)
+Коректний ресурс контексту, створений функцією [stream\_context\_create()](function.stream-context-create.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **copy()****
+**Пример #1 Пример использования функции**copy()\*\*\*\*
 
 ```php
 <?php
@@ -61,6 +62,6 @@ if (!copy($file, $newfile)) {
 
 ### Дивіться також
 
--   [moveuploadedfile()](function.move-uploaded-file.md) - Переміщує завантажений файл у нове місце
--   [rename()](function.rename.md) - Перейменовує файл або директорію
+-   [move\_uploaded\_file()](function.move-uploaded-file.md) \- Переміщує завантажений файл у нове місце
+-   [rename()](function.rename.md) \- Перейменовує файл або директорію
 -   Розділ керівництва[Завантаження файлів](features.file-upload.md)"

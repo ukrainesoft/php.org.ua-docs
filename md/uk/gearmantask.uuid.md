@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::uuid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanTask::uuid
 
@@ -20,7 +21,7 @@ public GearmanTask::uuid(): string
 
 Повертає унікальний ідентифікатор цього завдання. Цей ідентифікатор надає [GearmanClient](class.gearmanclient.md), на відміну ідентифікатора об'єкта завдання, який встановлює сервер завдань.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей метод було замінено на [GearmanTask::unique()](gearmantask.unique.md) у версії 0.6.0 модуля Gearman.
 
@@ -34,5 +35,5 @@ public GearmanTask::uuid(): string
 
 ### Дивіться також
 
--   [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання та повертає результат Застарілий метод
--   [GearmanClient::addTask()](gearmanclient.addtask.md) - Додати завдання, яке буде виконано у паралельному режимі
+-   [GearmanClient::do()](gearmanclient.do.md) \- Виконує одне завдання та повертає результат\[Застарілий метод\]
+-   [GearmanClient::addTask()](gearmanclient.addtask.md) \- Додати завдання, яке буде виконано у паралельному режимі

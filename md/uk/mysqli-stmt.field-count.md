@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli-stmt.fetch.md: '« mysqlistmt::fetch'
-  - mysqli-stmt.free-result.md: 'mysqlistmt::freeresult »'
+  - mysqli-stmt.fetch.md: '« mysqli\_stmt::fetch'
+  - mysqli-stmt.free-result.md: 'mysqli\_stmt::free\_result »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::$fieldcount'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::$field\_count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::$fieldcount
+# mysqli\_stmt::$field\_count
 
-# mysqlistmtfieldcount
+# mysqli\_stmt\_field\_count
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::$fieldcount - mysqlistmtfieldcount — Повертає кількість стовпців у заданому виразі
+mysqli\_stmt::$field\_count -- mysqli\_stmt\_field\_count — Повертає кількість стовпців у заданому виразі
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int [$mysqlistmt->fieldcount](mysqli-stmt.field-count.md)
+int[$mysqli\_stmt->field\_count](mysqli-stmt.field-count.md)
 
 Процедурний стиль
 
@@ -32,7 +33,7 @@ mysqli_stmt_field_count(mysqli_stmt $statement): int
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -79,7 +80,7 @@ for ($i = 0; $i < mysqli_stmt_field_count($stmt); $i++) {
 }
 ```
 
-Результатом виконання даних прикладів буде щось подібне:
+Висновок наведених прикладів буде схожим на:
 
 ```
 Значение номера столбца 0 - France
@@ -87,4 +88,4 @@ for ($i = 0; $i < mysqli_stmt_field_count($stmt); $i++) {
 
 ### Дивіться також
 
--   [mysqlistmtnumrows()](mysqli-stmt.num-rows.md) - Повертає кількість рядків, отриманих із сервера
+-   [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.md) \- Повертає кількість рядків, отриманих із сервера

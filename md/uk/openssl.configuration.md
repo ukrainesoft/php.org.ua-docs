@@ -1,10 +1,11 @@
 ---
 navigation:
-  - openssl.installation.md: « Установка
+  - openssl.installation.md: « Встановлення
   - openssl.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - openssl.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,19 +15,19 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| openssl.cafile | "" | PHPINIPERDIR |  |
-| openssl.capath | "" | PHPINIPERDIR |  |
+| openssl.cafile | "" | **`INI_PERDIR`** |  |
+| openssl.capath | "" | **`INI_PERDIR`** |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
+Додаткова інформація та опис режимів INI\_\* дано у розділі «[Місця встановлення параметрів конфігурації](configuration.changes.modes.md)».
 
 Коротке пояснення конфігураційних директив.
 
-`openssl.cafile` string
+`openssl.cafile`string
 
-Розташування файлу Certificate Authority на локальній файловій системі, який має використовуватись з опцією контексту verifypeer для автентифікації дистанційної точки.
+Розташування файлу Certificate Authority на локальній файловій системі, який має використовуватись з опцією контексту verify\_peer для автентифікації дистанційної точки.
 
-`openssl.capath` string
+`openssl.capath`string
 
 Якщо cafile не встановлено або сертифікат не знайдений, то директорія, вказана в capath, буде використана для пошуку сертифіката. capath має бути коректно хешованою директорією сертифіката.
 
-Також дивіться опції [контекста потока SSL](context.ssl.md)
+Также смотрите опции[контексту потоку SSL](context.ssl.md)

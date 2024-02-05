@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-csr-export.md: « opensslcsrexport
-  - function.openssl-csr-get-subject.md: opensslcsrgetsubject »
+  - function.openssl-csr-export.md: « openssl\_csr\_export
+  - function.openssl-csr-get-subject.md: openssl\_csr\_get\_subject »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslcsrgetpublickey
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_csr\_get\_public\_key
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslcsrgetpublickey
+# openssl\_csr\_get\_public\_key
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-opensslcsrgetpublickey — Повертає відкритий ключ CSR
+openssl\_csr\_get\_public\_key — Повертає відкритий ключ CSR
 
 ### Опис
 
@@ -18,7 +19,7 @@ opensslcsrgetpublickey — Повертає відкритий ключ CSR
 openssl_csr_get_public_key(OpenSSLCertificateSigningRequest|string $csr, bool $short_names = true): OpenSSLAsymmetricKey|false
 ```
 
-**opensslcsrgetpublickey()** витягує відкритий ключ з `csr` та готує його для використання в інших функціях.
+**openssl\_csr\_get\_public\_key()** витягує відкритий ключ з `csr` та готує його для використання в інших функціях.
 
 ### Список параметрів
 
@@ -34,18 +35,18 @@ openssl_csr_get_public_key(OpenSSLCertificateSigningRequest|string $csr, bool $s
 
 ### Значення, що повертаються
 
-Повертає [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі успішного виконання повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
-|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+| 8.0.0 | У разі успішного виконання повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу`OpenSSL key` |
+| 8.0.0 | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL X.509 CSR` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання opensslcsrgetpublickey()**
+**Приклад #1 Приклад використання openssl\_csr\_get\_public\_key()**
 
 ```php
 <?php
@@ -65,8 +66,8 @@ echo $info['key'];
 
 ### Дивіться також
 
--   [opensslcsrgetsubject()](function.openssl-csr-get-subject.md) - Повертає суб'єкт CSR
--   [opensslcsrnew()](function.openssl-csr-new.md) - Генерує CSR
--   [opensslpkeygetdetails()](function.openssl-pkey-get-details.md) - Отримує масив з детальною інформацією про ключ
--   [opensslpkeyexportтоfile()](function.openssl-pkey-export-to-file.md) - Записує у файл ключ у форматі PEM
--   [opensslpkeyexport()](function.openssl-pkey-export.md) - Отримує рядок із ключем у форматі PEM
+-   [openssl\_csr\_get\_subject()](function.openssl-csr-get-subject.md) \- Повертає суб'єкт CSR
+-   [openssl\_csr\_new()](function.openssl-csr-new.md) \- Генерує CSR
+-   [openssl\_pkey\_get\_details()](function.openssl-pkey-get-details.md) \- Отримує масив з детальною інформацією про ключ
+-   [openssl\_pkey\_export\_to\_file()](function.openssl-pkey-export-to-file.md) \- Записує у файл ключ у форматі PEM
+-   [openssl\_pkey\_export()](function.openssl-pkey-export.md) \- Отримує рядок із ключем у форматі PEM

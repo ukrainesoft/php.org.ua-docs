@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.cubrid-connect-with-url.md: « cubridconnectwithurl
-  - function.cubrid-current-oid.md: cubridcurrentoid »
+  - function.cubrid-connect-with-url.md: « cubrid\_connect\_with\_url
+  - function.cubrid-current-oid.md: cubrid\_current\_oid »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridconnect
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_connect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridconnect
+# cubrid\_connect
 
 (PECL CUBRID >= 8.3.1)
 
-cubridconnect — Відкриває з'єднання з сервером CUBRID
+cubrid\_connect — Відкриває з'єднання з сервером CUBRID
 
 ### Опис
 
 ```methodsynopsis
-cubrid_connect(    string $host,    int $port,    string $dbname,    string $userid = ?,    string $passwd = ?,    bool $new_link = false): resource
+cubrid_connect(    string $host,    int $port,    string $dbname,    string $userid = ?,    string $passwd = ?,    bool $new_link = false): resource
 ```
 
-Функція **cubridconnect()** використовується для створення з'єднання з сервером, використовуючи його адресу, порт, ім'я бази даних, ім'я користувача та пароля. Якщо логін та пароль не задані, то за умовчанням використовуватиметься з'єднання "PUBLIC".
+Функция**cubrid\_connect()** використовується для створення з'єднання з сервером, використовуючи його адресу, порт, ім'я бази даних, ім'я користувача та пароля. Якщо логін та пароль не задані, то за умовчанням використовуватиметься з'єднання "PUBLIC".
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ cubrid_connect(    string $host,    int $port,    string $dbname,    string $use
 
 `port`
 
-Порт сервера CUBRID CAS (BROKERPORT у $CUBRID/conf/cubridbroker.conf).
+Порт сервера CUBRID CAS (BROKER\_PORT у $CUBRID/conf/cubrid\_broker.conf).
 
 `dbname`
 
@@ -44,15 +45,15 @@ cubrid_connect(    string $host,    int $port,    string $dbname,    string $use
 
 `new_link`
 
-Якщо функція [cubridconnectwithurl()](function.cubrid-connect-with-url.md) була викликана повторно з такими ж аргументами, нове з'єднання не буде створено, замість нього буде повернено ідентифікатор вже підключення. Параметр `new_link` змінює таку поведінку і змушує [cubridconnectwithurl()](function.cubrid-connect-with-url.md) у будь-якому випадку створити нове з'єднання, навіть якщо функція [cubridconnectwithurl()](function.cubrid-connect-with-url.md) раніше була викликана з такими самими аргументами.
+Якщо функція [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.md) була викликана повторно з такими ж аргументами, нове з'єднання не буде створено, замість нього буде повернено ідентифікатор вже підключення. Параметр `new_link` змінює таку поведінку і змушує [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.md) у будь-якому випадку створити нове з'єднання, навіть якщо функція [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.md) раніше була викликана з такими самими аргументами.
 
 ### Значення, що повертаються
 
-Ідентифікатор підключення у разі успішного виконання або **`false`** у разі виникнення помилки.
+Ідентифікатор підключення у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridconnect()****
+**Пример #1 Пример использования**cubrid\_connect()\*\*\*\*
 
 ```php
 <?php
@@ -90,7 +91,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 CUBRID PHP Version:            9.1.0.0001
@@ -108,8 +109,8 @@ CUBRID Charset:                iso8859-1
 
 ### Дивіться також
 
--   [cubridpconnect()](function.cubrid-pconnect.md) - Відкриває постійне з'єднання із сервером CUBRID
--   [cubridconnectwithurl()](function.cubrid-connect-with-url.md) - Створює оточення для з'єднання із сервером CUBRID
--   [cubridpconnectwithurl()](function.cubrid-pconnect-with-url.md) - Відкриває постійне з'єднання із сервером CUBRID
--   [cubriddisconnect()](function.cubrid-disconnect.md) - Закриває з'єднання з базою даних
--   [cubridclose()](function.cubrid-close.md) - Закриває з'єднання з базою даних
+-   [cubrid\_pconnect()](function.cubrid-pconnect.md) \- Відкриває постійне з'єднання із сервером CUBRID
+-   [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.md) \- Створює оточення для з'єднання із сервером CUBRID
+-   [cubrid\_pconnect\_with\_url()](function.cubrid-pconnect-with-url.md) \- Відкриває постійне з'єднання із сервером CUBRID
+-   [cubrid\_disconnect()](function.cubrid-disconnect.md) \- Закриває з'єднання з базою даних
+-   [cubrid\_close()](function.cubrid-close.md) \- Закриває з'єднання з базою даних

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-buffer.tostring.md: '« SwooleBuffer::toString'
-  - class.swoole-channel.md: SwooleChannel »
+  - swoole-buffer.tostring.md: '« Swoole\\Buffer::\_\_function toString() { [native code] }'
+  - class.swoole-channel.md: Swoole\\Channel »
   - index.md: PHP Manual
-  - class.swoole-buffer.md: SwooleBuffer
-title: 'SwooleBuffer::write'
+  - class.swoole-buffer.md: Swoole\\Buffer
+title: 'Swoole\\Buffer::write'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleBuffer::write
+# Swoole\\Buffer::write
 
 (PECL swoole >= 1.9.0)
 
-SwooleBuffer::write — записує дані до буфера пам'яті. Пам'ять, виділена для буфера, не буде змінено
+Swoole\\Buffer::write — записує дані до буфера пам'яті. Пам'ять виділена для буфера не буде змінена
 
 ### Опис
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setHighlightFragsize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setHighlightFragsize
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setHighlightFragsize — Розмір фрагментів, які слід враховувати при виділенні
 
@@ -24,7 +25,7 @@ public SolrQuery::setHighlightFragsize(int $size, string $field_override = ?): S
 
 `size`
 
-Розмір у символах фрагментів, які слід враховувати при виділенні
+Розмір символів фрагментів, які слід враховувати при виділенні
 
 `field_override`
 

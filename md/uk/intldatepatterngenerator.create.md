@@ -5,22 +5,23 @@ navigation:
   - index.md: PHP Manual
   - class.intldatepatterngenerator.md: IntlDatePatternGenerator
 title: 'IntlDatePatternGenerator::create'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDatePatternGenerator::create
 
-# IntlDatePatternGenerator::construct
+# IntlDatePatternGenerator::\_\_construct
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-Intl Date Pattern Generator::create -- Intl Date Pattern Generator::construct — Створює новий екземпляр IntlDatePatternGenerator
+IntlDatePatternGenerator::create -- IntlDatePatternGenerator::\_\_construct — Створює новий екземпляр IntlDatePatternGenerator
 
 ### Опис
 
 ```methodsynopsis
-public static IntlDatePatternGenerator::create(string $locale = null): ?IntlDatePatternGenerator
+public static IntlDatePatternGenerator::create(?string $locale = null): ?IntlDatePatternGenerator
 ```
 
-public **IntlDatePatternGenerator::construct**(string `$locale` **`null`**
+public**IntlDatePatternGenerator::\_\_construct**(?string`$locale` **`null`**) .
 
 Створює новий екземпляр [IntlDatePatternGenerator](class.intldatepatterngenerator.md)
 
@@ -28,8 +29,8 @@ public **IntlDatePatternGenerator::construct**(string `$locale` **`null`**
 
 `locale`
 
-Локаль. Якщо передано значення **`null`**, використовується ini-параметр [intl.defaultlocale](intl.configuration.md#ini.intl.default-locale)
+Локаль. Якщо передано значення **`null`**, используется ini-параметр[intl.default\_locale](intl.configuration.md#ini.intl.default-locale)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [IntlDatePatternGenerator](class.intldatepatterngenerator.md) у разі успішного виконання або **`null`** у разі виникнення помилки.
+Повертає екземпляр [IntlDatePatternGenerator](class.intldatepatterngenerator.md) у разі успішного виконання або \*\*`null`\*\*в случае возникновения ошибки.

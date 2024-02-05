@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-log10.md: « traderlog10
-  - function.trader-macd.md: tradermacd »
+  - function.trader-log10.md: « trader\_log10
+  - function.trader-macd.md: trader\_macd »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderма
+  - ref.trader.md: Функції Trader
+title: trader\_ma
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderма
+# trader\_ma
 
 (PECL trader >= 0.2.0)
 
-traderma — Ковзна середня
+trader\_ma — Ковзна середня
 
 ### Опис
 
@@ -30,7 +31,7 @@ trader_ma(array $real, int $timePeriod = ?, int $mAType = ?): array
 
 `mAType`
 
-Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
+Тип ковзної середньої. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.md)
 
 ### Значення, що повертаються
 

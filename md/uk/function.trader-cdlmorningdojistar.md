@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlmathold.md: « tradercdlmathold
-  - function.trader-cdlmorningstar.md: tradercdlmorningstar »
+  - function.trader-cdlmathold.md: « trader\_cdlmathold
+  - function.trader-cdlmorningstar.md: trader\_cdlmorningstar »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlmorningdojistar
+  - ref.trader.md: Функції Trader
+title: trader\_cdlmorningdojistar
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlmorningdojistar
+# trader\_cdlmorningdojistar
 
 (PECL trader >= 0.2.0)
 
-tradercdlmorningdojistar — Ранкова зірка дожі
+trader\_cdlmorningdojistar — Ранкова зірка дожі
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlmorningdojistar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+trader_cdlmorningdojistar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
 ```
 
 ### Список параметрів

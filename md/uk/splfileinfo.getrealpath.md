@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getRealPath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::getRealPath
 
-(PHP 5> = 5.2.2, PHP 7, PHP 8)
+(PHP 5 >= 5.2.2, PHP 7, PHP 8)
 
 SplFileInfo::getRealPath — Отримує абсолютний шлях до файлу
 
@@ -30,7 +31,7 @@ public SplFileInfo::getRealPath(): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::getRealPath()****
+**Пример #1 Пример использования**SplFileInfo::getRealPath()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ var_dump($info->getRealPath());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(28) "/private/tmp/phptempfile.php"
@@ -63,5 +64,5 @@ string(12) "/private/tmp"
 
 ### Дивіться також
 
--   [SplFileInfo::isLink()](splfileinfo.islink.md) - Вказує, чи є файл посиланням
--   [realpath()](function.realpath.md) - Повертає абсолютний канонізований шлях до файлу
+-   [SplFileInfo::isLink()](splfileinfo.islink.md) \- Вказує, чи є файл посиланням
+-   [realpath()](function.realpath.md) \- Повертає абсолютний канонізований шлях до файлу

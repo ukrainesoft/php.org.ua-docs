@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-async.read.md: '« SwooleAsync::read'
-  - swoole-async.set.md: 'SwooleAsync::set »'
+  - swoole-async.read.md: '« Swoole\\Async::read'
+  - swoole-async.set.md: 'Swoole\\Async::set »'
   - index.md: PHP Manual
-  - class.swoole-async.md: SwooleAsync
-title: 'SwooleAsync::readFile'
+  - class.swoole-async.md: Swoole\\Async
+title: 'Swoole\\Async::readFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleAsync::readFile
+# Swoole\\Async::readFile
 
 (PECL swoole >= 1.9.0)
 
-SwooleAsync::readFile - Асинхронне читання файлу
+Swoole\\Async::readFile - Асинхронне читання файлу
 
 ### Опис
 

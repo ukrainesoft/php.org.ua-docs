@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.collator.md: Collator
 title: 'Collator::getLocale'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collator::getLocale
 
-# collatorgetlocale
+# collator\_get\_locale
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Collator::getLocale -- collatorgetlocale — Отримує назву локалі для Collator
+Collator::getLocale -- collator\_get\_locale — Отримує назву локалі для Collator
 
 ### Опис
 
@@ -38,7 +39,7 @@ collator_get_locale(Collator $object, int $type): string|false
 
 `type`
 
-Ви можете вибирати між коректним та фактичним мовним стандартом ( **`Locale::VALID_LOCALE`** і \*\*`Locale::ACTUAL_LOCALE`\*\*відповідно).
+Ви можете вибирати між коректним та фактичним мовним стандартом ( \*\*`Locale::VALID_LOCALE`**и**`Locale::ACTUAL_LOCALE`\*\*відповідно).
 
 ### Значення, що повертаються
 
@@ -46,7 +47,7 @@ collator_get_locale(Collator $object, int $type): string|false
 
 ### Приклади
 
-**Приклад #1 **collatorgetlocale()** example**
+**Пример #1**collator\_get\_locale()**example**
 
 ```php
 <?php
@@ -58,7 +59,7 @@ printf( "Название корректной локали: %s\nНазвани�
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Запрошенное название локали: en_US_California
@@ -68,4 +69,4 @@ printf( "Название корректной локали: %s\nНазвани�
 
 ### Дивіться також
 
--   [collatorcreate()](collator.create.md) - Створює новий екземпляр Collator
+-   [collator\_create()](collator.create.md) \- Створює новий екземпляр Collator

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.iterator.md: Iterator
 title: 'Iterator::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Iterator::rewind
 
@@ -20,9 +21,9 @@ public Iterator::rewind(): void
 
 Повертає ітератор назад перший елемент.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> На початку циклу [foreach](control-structures.foreach.md) цей метод викликається *першим*. Метод *не буде* викликаний *після* циклу [foreach](control-structures.foreach.md)
+> В начале цикла[foreach](control-structures.foreach.md) цей метод викликається *першим*Метод*не буде* викликаний *після*цикла[foreach](control-structures.foreach.md)
 
 ### Список параметрів
 

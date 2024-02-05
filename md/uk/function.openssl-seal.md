@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.openssl-random-pseudo-bytes.md: « opensslrandompseudobytes
-  - function.openssl-sign.md: opensslsign »
+  - function.openssl-random-pseudo-bytes.md: « openssl\_random\_pseudo\_bytes
+  - function.openssl-sign.md: openssl\_sign »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslseal
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_seal
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslseal
+# openssl\_seal
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-opensslseal — Задрукувати (зашифрувати) дані
+openssl\_seal — Задрукувати (зашифрувати) дані
 
 ### Опис
 
 ```methodsynopsis
-openssl_seal(    string $data,    string &$sealed_data,    array &$encrypted_keys,    array $public_key,    string $cipher_algo,    string &$iv = null): int|false
+openssl_seal(    string $data,    string &$sealed_data,    array &$encrypted_keys,    array $public_key,    string $cipher_algo,    string &$iv = null): int|false
 ```
 
-**opensslseal()** запечатує (шифрує) `data`, використовуючи метод `cipher_algo` із згенерованим випадково секретним ключем. Ключ буде зашифрований кожним відкритим ключем, вказаним у масиві `public_key`, і кожен зашифрований ключ буде поміщений у `encrypted_keys`. Тобто ви можете надіслати запечатані дані відразу кільком одержувачам. Кожен отримувач повинен отримати як запечатані дані, так і зашифрований відповідним відкритим ключем ключ для їхнього відкриття.
+**openssl\_seal()** запечатує (шифрує) `data`, используя метод`cipher_algo` із згенерованим випадково секретним ключем. Ключ буде зашифрований кожним відкритим ключем, вказаним у масиві `public_key`, і кожен зашифрований ключ буде поміщений у `encrypted_keys`. Тобто ви можете надіслати запечатані дані відразу кільком одержувачам. Кожен отримувач повинен отримати як запечатані дані, так і зашифрований відповідним відкритим ключем ключ для їхнього відкриття.
 
 ### Список параметрів
 
@@ -56,15 +57,15 @@ openssl_seal(    string $data,    string &$sealed_data,    array &$encrypted_key
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `public_key` тепер приймає масив (array) екземплярів [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався масив (array) ресурсів ([resource](language.types.resource.md)) типу `OpenSSL key` |
-|  | `cipher_algo` більше не є необов'язковим параметром. |
-|  | `iv` тепер допускає значення null. |
+| 8.0.0 | `public_key` тепер приймає масив (array) екземплярів [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався масив (array) ресурсів ([resource](language.types.resource.md)) типу`OpenSSL key` |
+| 8.0.0 | `cipher_algo` більше не є необов'язковим параметром. |
+| 8.0.0 | `iv` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslseal()****
+**Пример #1 Пример использования**openssl\_seal()\*\*\*\*
 
 ```php
 <?php
@@ -103,4 +104,4 @@ openssl_free_key($pk2);
 
 ### Дивіться також
 
--   [opensslopen()](function.openssl-open.md) - Відкрити запечатані дані
+-   [openssl\_open()](function.openssl-open.md) \- Відкрити запечатані дані

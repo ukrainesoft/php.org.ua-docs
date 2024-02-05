@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-publickey-list.md: « ssh2publickeylist
-  - function.ssh2-scp-recv.md: ssh2scprecv »
+  - function.ssh2-publickey-list.md: « ssh2\_publickey\_list
+  - function.ssh2-scp-recv.md: ssh2\_scp\_recv »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2publickeyremove
+title: ssh2\_publickey\_remove
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2publickeyremove
+# ssh2\_publickey\_remove
 
-(PECL ssh2> = 0.10)
+(PECL ssh2 >= 0.10)
 
-ssh2publickeyremove — Видаляє авторизований відкритий ключ
+ssh2\_publickey\_remove — Видаляє авторизований відкритий ключ
 
 ### Опис
 
@@ -36,14 +37,14 @@ ssh2_publickey_remove(resource $pkey, string $algoname, string $blob): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 
-> **Зауваження**: Підсистема відкритих ключів використовується для керування відкритими ключами на сервері, на якому клієнт *вже* пройшов авторизацію. Для авторизації за допомогою відкритого ключа на віддаленій системі, використовуйте натомість функцію [ssh2authpubkeyfile()](function.ssh2-auth-pubkey-file.md)
+> **Зауваження**: Через підсистему відкритих ключів керують відкритими ключами на сервері, на якому клієнт *вже* пройшов аутентифікацію. Натомість для аутентифікації з відкритим ключем на віддаленій системі викликають функцію [ssh2\_auth\_pubkey\_file()](function.ssh2-auth-pubkey-file.md)
 
 ### Дивіться також
 
--   [ssh2publickeyinit()](function.ssh2-publickey-init.md) - Ініціалізує підсистему відкритого ключа
--   [ssh2publickeyadd()](function.ssh2-publickey-add.md) - Додає авторизований відкритий ключ
--   [ssh2publickeylist()](function.ssh2-publickey-list.md) - Список вже авторизованих відкритих ключів
+-   [ssh2\_publickey\_init()](function.ssh2-publickey-init.md) \- Ініціалізує підсистему відкритого ключа
+-   [ssh2\_publickey\_add()](function.ssh2-publickey-add.md) \- Додає авторизований відкритий ключ
+-   [ssh2\_publickey\_list()](function.ssh2-publickey-list.md) \- Список вже авторизованих відкритих ключів

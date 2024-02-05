@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ob-flush.md: « obflush
-  - function.ob-get-contents.md: проgetcontents »
+  - function.ob-flush.md: « ob\_flush
+  - function.ob-get-contents.md: ob\_get\_contents »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
-title: проgetclean
+title: ob\_get\_clean
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# проgetclean
+# ob\_get\_clean
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-проgetclean — Отримати вміст поточного буфера та видалити його.
+ob\_get\_clean — Отримує вміст активного буфера виводу та вимикає його
 
 ### Опис
 
@@ -18,11 +19,11 @@ title: проgetclean
 ob_get_clean(): string|false
 ```
 
-Отримує вміст поточного буфера, а потім видаляє поточний буфер.
+Функція викликає обробник виведення (з прапорами **`PHP_OUTPUT_HANDLER_CLEAN`**и**`PHP_OUTPUT_HANDLER_FINAL`**), видаляє повернутий їм значення, повертає вміст активного буфера виведення і відключає активний буфер виведення.
 
-**проgetclean()** по суті виконує [проgetcontents()](function.ob-get-contents.md) і [проendclean()](function.ob-end-clean.md)
+Функция**ob\_get\_clean()** завершиться невдало, якщо активний буфер виведення було запущено без прапора **`PHP_OUTPUT_HANDLER_REMOVABLE`**
 
-Буфер виводу має запускатися функцією [проstart()](function.ob-start.md) з прапорами [PHPOUTPUTHANDLERCLEANABLE](outcontrol.constants.md#constant.php-output-handler-cleanable) і [PHPOUTPUTHANDLERREMOVABLE](outcontrol.constants.md#constant.php-output-handler-removable). Інакше **проgetclean()** не спрацює.
+Функция**ob\_get\_clean()** видалити вміст активного буфера виводу, навіть якщо він запущений без прапора **`PHP_OUTPUT_HANDLER_CLEANABLE`**
 
 ### Список параметрів
 
@@ -30,11 +31,19 @@ ob_get_clean(): string|false
 
 ### Значення, що повертаються
 
-Повертає вміст буфера виводу та закінчує буферизацію виводу. Якщо буферизація виводу не активована, то функція поверне **`false`**
+Повертає вміст активного буфера виводу у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+
+**Застереження**
+
+Функция**ob\_get\_clean()** поверне значення **`false`**, але не видасть помилку рівня \*\*`E_NOTICE`\*\*якщо немає активного буфера виведення.
+
+### Помилки
+
+Якщо функція завершується невдало, вона видає помилку рівня **`E_NOTICE`**
 
 ### Приклади
 
-**Приклад #1 Простий приклад використання функції **проgetclean()****
+**Приклад #1 Простий приклад використання функції **ob\_get\_clean()****
 
 ```php
 <?php
@@ -50,7 +59,7 @@ var_dump($out);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(11) "привет мир"
@@ -58,5 +67,8 @@ string(11) "привет мир"
 
 ### Дивіться також
 
--   [проgetcontents()](function.ob-get-contents.md) - Повертає вміст буфера виводу
--   [проstart()](function.ob-start.md) - Включення буферизації виводу
+-   [ob\_start()](function.ob-start.md) \- Включає буферизацію виводу
+-   [ob\_get\_contents()](function.ob-get-contents.md) \- Повертає вміст буфера виводу
+-   [ob\_clean()](function.ob-clean.md) \- Очищає (стирає) вміст активного буфера виводу
+-   [ob\_end\_clean()](function.ob-end-clean.md) \- Очищає (стирає) вміст активного буфера виведення та відключає його
+-   [ob\_get\_flush()](function.ob-get-flush.md) \- Скидає (відправляє) повернене активним обробником виводу значення, повертає вміст активного буфера виводу та відключає його

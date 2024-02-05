@@ -1,10 +1,11 @@
 ---
 navigation:
-  - quickhashintset.construct.md: '« QuickHashIntSet::construct'
+  - quickhashintset.construct.md: '« QuickHashIntSet::\_\_construct'
   - quickhashintset.exists.md: 'QuickHashIntSet::exists »'
   - index.md: PHP Manual
   - class.quickhashintset.md: QuickHashIntSet
 title: 'QuickHashIntSet::delete'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntSet::delete
 
@@ -28,11 +29,11 @@ public QuickHashIntSet::delete(int $key): bool
 
 ### Значення, що повертаються
 
-Метод повертає **`true`**, якщо запис було видалено та **`false`**, якщо запис не видалено.
+Метод возвращает\*\*`true`\*\*, якщо запис було видалено та **`false`**, якщо запис не видалено.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntSet::delete()****
+**Пример #1 Пример использования**QuickHashIntSet::delete()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ var_dump( $set->delete( 4 ) );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)

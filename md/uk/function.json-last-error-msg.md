@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.json-encode.md: « jsonencode
-  - function.json-last-error.md: jsonlasterror »
+  - function.json-encode.md: « json\_encode
+  - function.json-last-error.md: json\_last\_error »
   - index.md: PHP Manual
-  - ref.json.md: Функции JSON
-title: jsonlasterrormsg
+  - ref.json.md: Функції JSON
+title: json\_last\_error\_msg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# jsonlasterrormsg
+# json\_last\_error\_msg
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-jsonlasterrormsg — Повертає рядок з повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
+json\_last\_error\_msg — Повертає рядок із повідомленням про помилку останнього дзвінка json\_encode() або json\_decode()
 
 ### Опис
 
@@ -18,7 +19,7 @@ jsonlasterrormsg — Повертає рядок з повідомленням �
 json_last_error_msg(): string
 ```
 
-Повертає текстовий опис останньої помилки, що сталася під час виконання [jsonencode()](function.json-encode.md) або [jsondecode()](function.json-decode.md) без прапора **`JSON_THROW_ON_ERROR`**
+Повертає текстовий опис останньої помилки, що сталася під час виконання [json\_encode()](function.json-encode.md) або [json\_decode()](function.json-decode.md)без флага\*\*`JSON_THROW_ON_ERROR`\*\*
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ json_last_error_msg(): string
 
 ### Дивіться також
 
--   [jsonlasterror()](function.json-last-error.md) - Повертає останню помилку
+-   [json\_last\_error()](function.json-last-error.md) \- Повертає останню помилку

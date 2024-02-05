@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.rpmdbsearch.md: « rpmdbsearch
+  - function.rpmgetsymlink.md: « rpmgetsymlink
   - function.rpmvercmp.md: rpmvercmp »
   - index.md: PHP Manual
   - ref.rpminfo.md: Функції RpmInfo
 title: rpminfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # rpminfo
 
@@ -15,7 +16,7 @@ rpminfo — Витягти інформацію з RPM-файлу
 ### Опис
 
 ```methodsynopsis
-rpminfo(string $path, bool $full = false, string &$error = ?): array
+rpminfo(string $path, bool $full = false, string &$error = ?): ?array
 ```
 
 Вийняти інформацію про локальний файл RPM.
@@ -28,7 +29,7 @@ rpminfo(string $path, bool $full = false, string &$error = ?): array
 
 `full`
 
-Якщо **`true`**, то для файлу буде вилучено всі заголовки. Інакше буде вилучено мінімальний набір.
+Якщо **`true`**, для файлу будуть вилучені всі заголовки. Інакше буде вилучено мінімальний набір.
 
 `error`
 
@@ -36,11 +37,11 @@ rpminfo(string $path, bool $full = false, string &$error = ?): array
 
 ### Значення, що повертаються
 
-Масив з даними або **`null`** у разі виникнення помилки.
+Масив з даними або \*\*`null`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **rpminfo()****
+**Пример #1 Пример использования**rpminfo()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ print_r($info);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -66,4 +67,4 @@ Array
 
 ### Дивіться також
 
--   [rpmaddtag()](function.rpmaddtag.md) - Додає тег, отриманий у запиті
+-   [rpmaddtag()](function.rpmaddtag.md) \- Додає тег, отриманий у запиті

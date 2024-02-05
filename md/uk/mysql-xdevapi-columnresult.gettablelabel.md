@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-columnresult.getschemaname.md: '« ColumnResult::getSchemaName'
   - mysql-xdevapi-columnresult.gettablename.md: 'ColumnResult::getTableName »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
+  - class.mysql-xdevapi-columnresult.md: mysql\_xdevapi\\ColumnResult
 title: 'ColumnResult::getTableLabel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ColumnResult::getTableLabel
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\ColumnResult::getTableLabel(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\ColumnResult::getTableLabel(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::getTableLabel()****
+**Пример #1 Пример использования**mysql\_xdevapi\\ColumnResult::getTableLabel()\*\*\*\*
 
 ```php
 <?php

@@ -1,26 +1,27 @@
 ---
 navigation:
-  - mysqli-stmt.next-result.md: '« mysqlistmt::nextresult'
-  - mysqli-stmt.param-count.md: 'mysqlistmt::$paramcount »'
+  - mysqli-stmt.next-result.md: '« mysqli\_stmt::next\_result'
+  - mysqli-stmt.param-count.md: 'mysqli\_stmt::$param\_count »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::$numrows'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::$num\_rows'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::$numrows
+# mysqli\_stmt::$num\_rows
 
-# mysqlistmt::numrows
+# mysqli\_stmt::num\_rows
 
-# mysqlistmtnumrows
+# mysqli\_stmt\_num\_rows
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::$numrows - mysqlistmt::numrows - mysqlistmtnumrows — Повертає кількість рядків, отриманих із сервера
+mysqli\_stmt::$num\_rows -- mysqli\_stmt::num\_rows -- mysqli\_stmt\_num\_rows — Повертає кількість рядків, отриманих із сервера
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqlistmt->numrows](mysqli-stmt.num-rows.md)
+int|string[$mysqli\_stmt->num\_rows](mysqli-stmt.num-rows.md)
 
 ```methodsynopsis
 public mysqli_stmt::num_rows(): int|string
@@ -32,21 +33,21 @@ public mysqli_stmt::num_rows(): int|string
 mysqli_stmt_num_rows(mysqli_stmt $statement): int|string
 ```
 
-Повертає кількість рядків, поміщених у буфер у виразі. Функція працюватиме лише після виклику [mysqlistmtstoreresult()](mysqli-stmt.store-result.md) для буферизації всього набору результатів у дескрипторі оператора.
+Повертає кількість рядків, поміщених у буфер у виразі. Функція буде працювати лише після дзвінка [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.md) для буферизації всього набору результатів у дескрипторі оператора.
 
-Функція повертає `0`, якщо з сервера не було отримано всі рядки.
+Функція повертає , якщо з сервера не було отримано всі рядки.
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
-Ціле число (int), що становить кількість буферизованих рядків. Повертає `0` у небуферизованому режимі, якщо з сервера не було отримано всі рядки.
+Ціле число (int), що становить кількість буферизованих рядків. Повертає у небуферизованому режимі, якщо з сервера не було отримано всі рядки.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо кількість рядків більша, ніж **`PHP_INT_MAX`**, число буде повернутий як рядок (string).
 
@@ -88,7 +89,7 @@ mysqli_stmt_store_result($stmt);
 printf("Число строк: %d.\n", mysqli_stmt_num_rows($stmt));
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Число строк: 20.
@@ -96,6 +97,6 @@ printf("Число строк: %d.\n", mysqli_stmt_num_rows($stmt));
 
 ### Дивіться також
 
--   [mysqlistmtstoreresult()](mysqli-stmt.store-result.md) - Зберігає набір результатів у внутрішньому буфері
--   [mysqlistmtaffectedrows()](mysqli-stmt.affected-rows.md) - Повертає загальну кількість рядків, змінених, віддалених, вставлених чи зіставлених останнім виконаним виразом
--   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
+-   [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.md) \- Зберігає набір результатів у внутрішньому буфері
+-   [mysqli\_stmt\_affected\_rows()](mysqli-stmt.affected-rows.md) \- Повертає загальну кількість рядків, змінених, віддалених, вставлених чи зіставлених останнім виконаним виразом
+-   [mysqli\_prepare()](mysqli.prepare.md) \- готує SQL вираз до виконання

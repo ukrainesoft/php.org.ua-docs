@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-dbpointer.serialize.md: '« MongoDBBSONDBPointer::serialize'
-  - mongodb-bson-dbpointer.unserialize.md: 'MongoDBBSONDBPointer::unserialize »'
+  - mongodb-bson-dbpointer.serialize.md: '« MongoDB\\BSON\\DBPointer::serialize'
+  - mongodb-bson-dbpointer.unserialize.md: 'MongoDB\\BSON\\DBPointer::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-dbpointer.md: MongoDBBSONDBPointer
-title: 'MongoDBBSONDBPointer::toString'
+  - class.mongodb-bson-dbpointer.md: MongoDB\\BSON\\DBPointer
+title: 'MongoDB\\BSON\\DBPointer::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONDBPointer::toString
+# MongoDB\\BSON\\DBPointer::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.4.0)
 
-MongoDBBSONDBPointer::toString — Повертає порожній рядок
+MongoDB\\BSON\\DBPointer::\_\_toString — Повертає порожній рядок
 
 ### Опис
 
@@ -28,4 +29,4 @@ final public MongoDB\BSON\DBPointer::__toString(): string
 
 ### Дивіться також
 
--   [» BSON Types](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» BSON Types](https://www.mongodb.com/docs/manual/reference/bson-types/)

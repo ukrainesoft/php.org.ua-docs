@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-binaryinterface.gettype.md: '« MongoDBBSONBinaryInterface::getType'
-  - class.mongodb-bson-decimal128interface.md: MongoDBBSONDecimal128Interface »
+  - mongodb-bson-binaryinterface.gettype.md: '« MongoDB\\BSON\\BinaryInterface::getType'
+  - class.mongodb-bson-decimal128interface.md: MongoDB\\BSON\\Decimal128Interface »
   - index.md: PHP Manual
-  - class.mongodb-bson-binaryinterface.md: MongoDBBSONBinaryInterface
-title: 'MongoDBBSONBinaryInterface::function toString() { \[native code\] }'
+  - class.mongodb-bson-binaryinterface.md: MongoDB\\BSON\\BinaryInterface
+title: 'MongoDB\\BSON\\BinaryInterface::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONBinaryInterface::function toString() { \[native code\] }
+# MongoDB\\BSON\\BinaryInterface::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.3.0)
 
-MongoDBBSONBinaryInterface::toString — Повертає дані BinaryInterface
+MongoDB\\BSON\\BinaryInterface::\_\_toString — Повертає дані BinaryInterface
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBBSONBinaryInterface::toString — Повертає дані BinaryInterfa
 abstract public MongoDB\BSON\BinaryInterface::__toString(): string
 ```
 
-Цей метод є псевдонімом: [MongoDBBSONBinaryInterface::getData()](mongodb-bson-binaryinterface.getdata.md)
+Метод — псевдоним метода:[MongoDB\\BSON\\BinaryInterface::getData()](mongodb-bson-binaryinterface.getdata.md)
 
 ### Список параметрів
 
@@ -30,5 +31,5 @@ abstract public MongoDB\BSON\BinaryInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDBBSONBinaryInterface::getData()](mongodb-bson-binaryinterface.getdata.md) - Повертає дані BinaryInterface
--   [MongoDBBSONBinary::toString()](mongodb-bson-binary.tostring.md) - Повертає дані Binary
+-   [MongoDB\\BSON\\BinaryInterface::getData()](mongodb-bson-binaryinterface.getdata.md) \- Повертає дані BinaryInterface
+-   [MongoDB\\BSON\\Binary::\_\_toString()](mongodb-bson-binary.tostring.md) \- Повертає дані Binary

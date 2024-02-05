@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli-result.lengths.md: '« mysqliresult::$lengths'
-  - class.mysqli-driver.md: mysqlidriver »
+  - mysqli-result.lengths.md: '« mysqli\_result::$lengths'
+  - class.mysqli-driver.md: mysqli\_driver »
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::$numrows'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::$num\_rows'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::$numrows
+# mysqli\_result::$num\_rows
 
-# mysqlinumrows
+# mysqli\_num\_rows
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliresult::$numrows - mysqlinumrows — Отримує кількість рядків у наборі результатів
+mysqli\_result::$num\_rows -- mysqli\_num\_rows — Отримує кількість рядків у наборі результатів
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqliresult->numrows](mysqli-result.num-rows.md)
+int|string[$mysqli\_result->num\_rows](mysqli-result.num-rows.md)
 
 Процедурний стиль
 
@@ -28,19 +29,19 @@ mysqli_num_rows(mysqli_result $result): int|string
 
 Повертає число рядів у результуючій вибірці.
 
-Поведінка функції **mysqlinumrows()** залежить від того, використовується буферизована або не буферизована результуюча вибірка. Функція повертає `0` для небуферизованих наборів результатів, якщо з сервера не було отримано всі рядки.
+Поведение функции**mysqli\_num\_rows()** залежить від того, використовується буферизована або не буферизована результуюча вибірка. Функція повертає для небуферизованих наборів результатів, якщо з сервера не було отримано всі рядки.
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
-Повертає ціле число (int), що становить кількість вибраних рядків. Повертає `0` у небуферизованому режимі, якщо з сервера не було отримано всі рядки.
+Повертає ціле число (int), що становить кількість вибраних рядків. Повертає у небуферизованому режимі, якщо з сервера не було отримано всі рядки.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо кількість рядків більша, ніж **`PHP_INT_MAX`**, число буде повернутий як рядок (string).
 
@@ -79,7 +80,7 @@ $row_cnt = mysqli_num_rows($result);
 printf("Получено %d строк.\n", $row_cnt);
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Получено 239 строк.
@@ -87,14 +88,14 @@ printf("Получено %d строк.\n", $row_cnt);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> На відміну від функції [mysqlistmtnumrows()](mysqli-stmt.num-rows.md)У цієї функції немає варіанта в об'єктно-орієнтованому стилі. В об'єктно-орієнтованому стилі використовуйте спосіб читання.
+> В отличие от функции[mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.md)У цієї функції немає варіанта в об'єктно-орієнтованому стилі. В об'єктно-орієнтованому стилі використовуйте спосіб читання.
 
 ### Дивіться також
 
--   [mysqliaffectedrows()](mysqli.affected-rows.md) - Отримує кількість рядків, порушених попередньою операцією MySQL
--   [mysqlistoreresult()](mysqli.store-result.md) - передає на клієнта результуючий набір останнього запиту
--   [mysqliuseresult()](mysqli.use-result.md) - Готує результуючий набір на сервері для використання
--   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
--   [mysqlistmtnumrows()](mysqli-stmt.num-rows.md) - Повертає кількість рядків, отриманих із сервера
+-   [mysqli\_affected\_rows()](mysqli.affected-rows.md) \- Отримує кількість рядків, порушених попередньою операцією MySQL
+-   [mysqli\_store\_result()](mysqli.store-result.md) \- передає на клієнта результуючий набір останнього запиту
+-   [mysqli\_use\_result()](mysqli.use-result.md) \- Готує результуючий набір на сервері для використання
+-   [mysqli\_query()](mysqli.query.md) \- Виконує запит до бази даних
+-   [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.md) \- Повертає кількість рядків, отриманих із сервера

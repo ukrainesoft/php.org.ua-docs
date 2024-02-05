@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.yaz-set-option.md: « yazsetoption
-  - function.yaz-syntax.md: yazsyntax »
+  - function.yaz-set-option.md: « yaz\_set\_option
+  - function.yaz-syntax.md: yaz\_syntax »
   - index.md: PHP Manual
-  - ref.yaz.md: Функции YAZ
-title: yazsort
+  - ref.yaz.md: Функції YAZ
+title: yaz\_sort
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yazsort
+# yaz\_sort
 
-(PHP 4> = 4.0.7, PECL yaz> = 0.9.0)
+(PHP 4 >= 4.0.7, PECL yaz >= 0.9.0)
 
-yazsort — Задає критерій сортування
+yaz\_sort — Задає критерій сортування
 
 ### Опис
 
@@ -18,15 +19,15 @@ yazsort — Задає критерій сортування
 yaz_sort(resource $id, string $criteria): void
 ```
 
-Функція визначає критерій сортування і включає сортування за Z39.50.
+Функція задає критерій сортування та включає сортування за Z39.50.
 
-Ця функція має бути викликана *до* [yazsearch()](function.yaz-search.md). Виклик цієї функції окремо немає сенсу. Коли вона використовується спільно з [yazsearch()](function.yaz-search.md), параметри сортування будуть надіслані після пошукового запиту і до того, як будь-який запис буде отримано за Z39.50 ([yazpresent()](function.yaz-present.md)
+Ця функція має бути викликана *до* [yaz\_search()](function.yaz-search.md). Виклик цієї функції окремо немає сенсу. Коли вона використовується спільно з [yaz\_search()](function.yaz-search.md), параметри сортування будуть надіслані після пошукового запиту і до того, як будь-який запис буде отримано за Z39.50 ([yaz\_present()](function.yaz-present.md)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається [yazconnect()](function.yaz-connect.md)
+Дескриптор з'єднання, що повертається [yaz\_connect()](function.yaz-connect.md)
 
 `criteria`
 

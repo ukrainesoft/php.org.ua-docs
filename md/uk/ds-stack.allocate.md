@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ds-stack.md: « Стек
-  - ds-stack.capacity.md: 'ДсStack::capacity »'
+  - class.ds-stack.md: « Ds\\Stack
+  - ds-stack.capacity.md: 'Ds\\Stack::capacity »'
   - index.md: PHP Manual
-  - class.ds-stack.md: Стек
-title: 'ДсStack::allocate'
+  - class.ds-stack.md: Ds\\Stack
+title: 'Ds\\Stack::allocate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсStack::allocate
+# Ds\\Stack::allocate
 
 (PECL ds >= 1.0.0)
 
-ДсStack::allocate — Виділяє пам'ять під зазначену місткість
+Ds\\Stack::allocate — Виділяє пам'ять під зазначену місткість
 
 ### Опис
 
@@ -26,7 +27,7 @@ public Ds\Stack::allocate(int $capacity): void
 
 Місткість. Очікувана кількість значень.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо нове значення місткості менше поточного, воно не зміниться.
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-bias-array.md: « fanngetbiasarray
-  - function.fann-get-bit-fail.md: fanngetbitfail »
+  - function.fann-get-bias-array.md: « fann\_get\_bias\_array
+  - function.fann-get-bit-fail.md: fann\_get\_bit\_fail »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetbitfaillimit
+  - ref.fann.md: Функції Fann
+title: fann\_get\_bit\_fail\_limit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetbitfaillimit
+# fann\_get\_bit\_fail\_limit
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetbitfaillimit — Повертає межу збою бітів, використану під час навчання
+fann\_get\_bit\_fail\_limit — Повертає межу збою бітів, використану під час навчання
 
 ### Опис
 
@@ -20,7 +21,7 @@ fann_get_bit_fail_limit(resource $ann): float
 
 Повертає межу збою бітів, використану під час навчання.
 
-Межа збою бітів використовується під час навчання, коли [функция остановки](fann.constants.md#constants.fann-stopfunc) має значення **`FANN_STOPFUNC_BIT`**
+Межа збою бітів використовується під час навчання, коли [функція зупинки](fann.constants.md#constants.fann-stopfunc)имеет значение\*\*`FANN_STOPFUNC_BIT`\*\*
 
 Межа – це максимально допустима різниця між бажаним результатом та фактичним результатом під час тренування. Кожен вихід, який розходиться більше за цю межу, вважається як біт зі збоєм. Ця різниця ділиться на два під час роботи з симетричними функціями активації, так що симетричні і не симетричні функції активації можуть використовувати одну і ту ж межу.
 
@@ -34,8 +35,8 @@ fann_get_bit_fail_limit(resource $ann): float
 
 ### Значення, що повертаються
 
-Межа збою бітів або **`false`** у разі виникнення помилки.
+Предел сбоя битов или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fannsetbitfaillimit()](function.fann-set-bit-fail-limit.md) - Встановлює межу помилок, що використовується під час навчання
+-   [fann\_set\_bit\_fail\_limit()](function.fann-set-bit-fail-limit.md) \- Встановлює межу помилок, що використовується під час навчання

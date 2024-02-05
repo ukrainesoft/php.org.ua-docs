@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-session.getserverversion.md: '« Session::getServerVersion'
   - mysql-xdevapi-session.quotename.md: 'Session::quoteName »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::listClients'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::listClients
 
@@ -26,11 +27,11 @@ public mysql_xdevapi\Session::listClients(): array
 
 ### Значення, що повертаються
 
-Масив, що містить поточні зареєстровані клієнти. Елементи масиву: "clientid", "user", "host", та "sqlsession".
+Масив, що містить поточні зареєстровані клієнти. Елементи масиву: "client\_id", "user", "host", та "sql\_session".
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::listClients()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::listClients()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($ids);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {

@@ -4,17 +4,18 @@ navigation:
   - domattr.isid.md: 'DOMAttr::isId »'
   - index.md: PHP Manual
   - class.domattr.md: DOMAttr
-title: 'DOMAttr::construct'
+title: 'DOMAttr::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DOMAttr::construct
+# DOMAttr::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMAttr::construct - Створює екземпляр класу [DOMAttr](class.domattr.md)
+DOMAttr::\_\_construct - Створює екземпляр класу [DOMAttr](class.domattr.md)
 
 ### Опис
 
-public **DOMAttr::construct**(string `$name`, string `$value` = "")
+public**DOMAttr::\_\_construct**(string`$name`, string`$value` = "")
 
 Створює новий об'єкт класу DOMAttr. Цей об'єкт буде доступний лише для читання. Він може бути доданий до документа, але додаткові вузли не можна додати до цього вузла, доки він приєднаний до документа. Для створення вузла з можливістю модифікації використовуйте [DOMDocument::createAttribute](domdocument.createattribute.md)
 
@@ -30,7 +31,7 @@ public **DOMAttr::construct**(string `$name`, string `$value` = "")
 
 ### Приклади
 
-**Приклад #1 Створення нового об'єкта класу [DOMAttr](class.domattr.md)**
+**Приклад #1 Створення нового класу [DOMAttr](class.domattr.md)**
 
 ```php
 <?php
@@ -43,7 +44,7 @@ echo $dom->saveXML();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -52,4 +53,4 @@ echo $dom->saveXML();
 
 ### Дивіться також
 
--   [DOMDocument::createAttribute()](domdocument.createattribute.md) - Створити новий атрибут
+-   [DOMDocument::createAttribute()](domdocument.createattribute.md) \- Створює новий атрибут

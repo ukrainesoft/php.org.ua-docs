@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.disk-free-space.md: « diskfreespace
+  - function.disk-free-space.md: « disk\_free\_space
   - function.diskfreespace.md: diskfreespace »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
-title: disktotalspace
+title: disk\_total\_space
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# disktotalspace
+# disk\_total\_space
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-disktotalspace — Повертає загальний розмір файлової системи або розділу диска
+disk\_total\_space — Повертає загальний розмір файлової системи або розділу диска
 
 ### Опис
 
@@ -28,11 +29,11 @@ disk_total_space(string $directory): float|false
 
 ### Значення, що повертаються
 
-Повертає загальний розмір у байтах у вигляді числа з плаваючою точкою або **`false`** у разі виникнення помилки.
+Повертає загальний розмір у байтах у вигляді числа з плаваючою точкою або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **disktotalspace()****
+**Пример #1 Пример использования**disk\_total\_space()\*\*\*\*
 
 ```php
 <?php
@@ -51,4 +52,4 @@ $ds = disk_total_space("D:");
 
 ### Дивіться також
 
--   [diskfreespace()](function.disk-free-space.md) - Повертає розмір доступного простору в каталозі чи файловій системі
+-   [disk\_free\_space()](function.disk-free-space.md) \- Повертає розмір доступного простору в каталозі чи файловій системі

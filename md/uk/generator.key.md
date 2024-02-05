@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.generator.md: Generator
 title: 'Generator::key'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Generator::key
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 Generator::key — Отримати ключ згенерованого елемента
 
@@ -30,7 +31,7 @@ public Generator::key(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Generator::key()****
+**Пример #1 Пример использования**Generator::key()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ $gen = Gen();
 echo "{$gen->key()} => {$gen->current()}";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 key => value

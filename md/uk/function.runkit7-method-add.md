@@ -1,25 +1,26 @@
 ---
 navigation:
-  - function.runkit7-import.md: « runkit7import
-  - function.runkit7-method-copy.md: runkit7methodcopy »
+  - function.runkit7-import.md: « runkit7\_import
+  - function.runkit7-method-copy.md: runkit7\_method\_copy »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
-title: runkit7методadd
+title: runkit7\_method\_add
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# runkit7методadd
+# runkit7\_method\_add
 
-(PECL runkit7> = Unknown)
+(PECL runkit7 >= Unknown)
 
-runkit7методadd — Динамічно додає новий метод у заданий клас
+runkit7\_method\_add — Динамічно додає новий метод у заданий клас
 
 ### Опис
 
 ```methodsynopsis
-runkit7_method_add(    string $class_name,    string $method_name,    string $argument_list,    string $code,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+runkit7_method_add(    string $class_name,    string $method_name,    string $argument_list,    string $code,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
 ```
 
 ```methodsynopsis
-runkit7_method_add(    string $class_name,    string $method_name,    Closure $closure,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+runkit7_method_add(    string $class_name,    string $method_name,    Closure $closure,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
 ```
 
 ### Список параметрів
@@ -46,7 +47,7 @@ runkit7_method_add(    string $class_name,    string $method_name,    Closure $c
 
 `flags`
 
-Метод може бути **`RUNKIT7_ACC_PUBLIC`** **`RUNKIT7_ACC_PROTECTED`** або **`RUNKIT7_ACC_PRIVATE`**, і, при необхідності, об'єднаний за допомогою побітового АБО з **`RUNKIT7_ACC_STATIC`**
+Метод може бути **`RUNKIT7_ACC_PUBLIC`** **`RUNKIT7_ACC_PROTECTED`**или**`RUNKIT7_ACC_PRIVATE`**, і, при необхідності, об'єднаний за допомогою побітового АБО з **`RUNKIT7_ACC_STATIC`**
 
 `doc_comment`
 
@@ -62,11 +63,11 @@ runkit7_method_add(    string $class_name,    string $method_name,    Closure $c
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **runkit7методadd()****
+**Пример #1 Пример использования**runkit7\_method\_add()\*\*\*\*
 
 ```php
 <?php
@@ -93,7 +94,7 @@ echo $e->add(12, 4);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 16
@@ -101,8 +102,8 @@ echo $e->add(12, 4);
 
 ### Дивіться також
 
--   [runkit7methodcopy()](function.runkit7-method-copy.md) - Копіює метод з одного класу до іншого
--   [runkit7methodredefine()](function.runkit7-method-redefine.md) - динамічно змінює код заданого методу
--   [runkit7methodremove()](function.runkit7-method-remove.md) - динамічно видаляє заданий метод
--   [runkit7methodrename()](function.runkit7-method-rename.md) - динамічно змінює ім'я заданого методу
--   [runkit7functionadd()](function.runkit7-function-add.md) - Додає нову функцію, функція аналогічна createfunction
+-   [runkit7\_method\_copy()](function.runkit7-method-copy.md) \- Копіює метод з одного класу до іншого
+-   [runkit7\_method\_redefine()](function.runkit7-method-redefine.md) \- динамічно змінює код заданого методу
+-   [runkit7\_method\_remove()](function.runkit7-method-remove.md) \- динамічно видаляє заданий метод
+-   [runkit7\_method\_rename()](function.runkit7-method-rename.md) \- динамічно змінює ім'я заданого методу
+-   [runkit7\_function\_add()](function.runkit7-function-add.md) \- Додає нову функцію, функція аналогічна create\_function

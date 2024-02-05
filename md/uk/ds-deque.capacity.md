@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.apply.md: '« DsDeque::apply'
-  - ds-deque.clear.md: 'ДсDeque::clear »'
+  - ds-deque.apply.md: '« Ds\\Deque::apply'
+  - ds-deque.clear.md: 'Ds\\Deque::clear »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::capacity'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::capacity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::capacity
+# Ds\\Deque::capacity
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::capacity — Повертає поточну місткість
+Ds\\Deque::capacity — Повертає поточну місткість
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Deque::capacity(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::capacity()****
+**Пример #1 Пример использования**Ds\\Deque::capacity()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($deque->capacity());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(8)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-next-result.md: « sqlsrvnextresult
-  - function.sqlsrv-num-rows.md: sqlsrvnumrows »
+  - function.sqlsrv-next-result.md: « sqlsrv\_next\_result
+  - function.sqlsrv-num-rows.md: sqlsrv\_num\_rows »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvnumfields
+title: sqlsrv\_num\_fields
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvnumfields
+# sqlsrv\_num\_fields
 
 (No version information available, might only be in Git)
 
-sqlsrvnumfields — Витягує кількість полів (стовпців) оператора
+sqlsrv\_num\_fields — Витягує кількість полів (стовпців) оператора
 
 ### Опис
 
@@ -24,7 +25,7 @@ sqlsrv_num_fields(resource $stmt): mixed
 
 `stmt`
 
-Оператор, для якого повертається кількість полів . **sqlsrvnumfields()** може викликатися оператора до або після виконання оператора.
+Оператор, для якого повертається кількість полів . **sqlsrv\_num\_fields()** може викликатися оператора до або після виконання оператора.
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ sqlsrv_num_fields(resource $stmt): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvnumfields()****
+**Пример #1 Пример использования**sqlsrv\_num\_fields()\*\*\*\*
 
 ```php
 <?php
@@ -63,6 +64,6 @@ while( sqlsrv_fetch( $stmt )) {
 
 ### Дивіться також
 
--   [sqlsrvfieldmetadata()](function.sqlsrv-field-metadata.md) - Отримує метадані для полів оператора, підготовленого за допомогою sqlsrvprepare або sqlsrvquery
--   [sqlsrvfetch()](function.sqlsrv-fetch.md) - Робить наступний рядок у наборі результатів доступного для читання
--   [sqlsrvgetfield()](function.sqlsrv-get-field.md) - Отримує дані поля з поточного вибраного рядка
+-   [sqlsrv\_field\_metadata()](function.sqlsrv-field-metadata.md) \- Отримує метадані для полів оператора, підготовленого за допомогою sqlsrv\_prepare або sqlsrv\_query
+-   [sqlsrv\_fetch()](function.sqlsrv-fetch.md) \- Робить наступний рядок у наборі результатів доступного для читання
+-   [sqlsrv\_get\_field()](function.sqlsrv-get-field.md) \- Отримує дані поля з поточного вибраного рядка

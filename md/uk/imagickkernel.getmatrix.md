@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagickkernel.md: ImagickKernel
 title: 'ImagickKernel::getMatrix'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickKernel::getMatrix
 
 (PECL imagick >= 3.3.0)
 
-ImagickKernel::getMatrix — Опис
+ImagickKernel::getMatrix — Отримує 2d матрицю значень, що використовуються в цьому ядрі
 
 ### Опис
 
@@ -30,7 +31,7 @@ public ImagickKernel::getMatrix(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickKernel::getMatrix()****
+**Пример #1 Пример использования**ImagickKernel::getMatrix()\*\*\*\*
 
 ```php
 <?php

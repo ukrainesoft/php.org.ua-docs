@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-application.getlasterrormsg.md: '« YafApplication::getLastErrorMsg'
-  - yaf-application.getmodules.md: 'YafApplication::getModules »'
+  - yaf-application.getlasterrormsg.md: '« Yaf\_Application::getLastErrorMsg'
+  - yaf-application.getmodules.md: 'Yaf\_Application::getModules »'
   - index.md: PHP Manual
-  - class.yaf-application.md: YafApplication
-title: 'YafApplication::getLastErrorNo'
+  - class.yaf-application.md: Yaf\_Application
+title: 'Yaf\_Application::getLastErrorNo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafApplication::getLastErrorNo
+# Yaf\_Application::getLastErrorNo
 
-(Yaf> = 2.1.2)
+(Yaf >=2.1.2)
 
-YafApplication::getLastErrorNo — Отримати код останньої помилки
+Yaf\_Application::getLastErrorNo — Отримати код останньої помилки
 
 ### Опис
 
@@ -26,7 +27,7 @@ public Yaf_Application::getLastErrorNo(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafApplication::getLastErrorNo()****
+**Пример #1 Пример использования**Yaf\_Application::getLastErrorNo()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ $app->run();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(516)

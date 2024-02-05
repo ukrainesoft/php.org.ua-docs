@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
 title: 'DOMElement::getElementsByTagName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMElement::getElementsByTagName
 
@@ -24,7 +25,7 @@ public DOMElement::getElementsByTagName(string $qualifiedName): DOMNodeList
 
 `qualifiedName`
 
-Ім'я тег. Використовуйте символ `*` для всіх елементів дерева.
+Имя тега. Используйте символ`*` для всіх елементів дерева.
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ public DOMElement::getElementsByTagName(string $qualifiedName): DOMNodeList
 
 ### Дивіться також
 
--   [DOMElement::getElementsByTagNameNS()](domelement.getelementsbytagnamens.md) - Отримання елементів по локальному імені у заданому просторі імен
+-   [DOMElement::getElementsByTagNameNS()](domelement.getelementsbytagnamens.md) \- Отримує елементи локального імені в заданому просторі імен

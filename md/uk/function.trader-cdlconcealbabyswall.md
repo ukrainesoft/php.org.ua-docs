@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlclosingmarubozu.md: « tradercdlclosingmarubozu
-  - function.trader-cdlcounterattack.md: tradercdlcounterattack »
+  - function.trader-cdlclosingmarubozu.md: « trader\_cdlclosingmarubozu
+  - function.trader-cdlcounterattack.md: trader\_cdlcounterattack »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlconcealbabyswall
+  - ref.trader.md: Функції Trader
+title: trader\_cdlconcealbabyswall
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlconcealbabyswall
+# trader\_cdlconcealbabyswall
 
 (PECL trader >= 0.2.0)
 
-tradercdlconcealbabyswall — Ластівка, що ховається.
+trader\_cdlconcealbabyswall — Ластівка, що ховається.
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlconcealbabyswall(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlconcealbabyswall(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-rand-gen-noncentral-f.md: « statsrandgennoncentralф
-  - function.stats-rand-gen-normal.md: statsrandgennormal »
+  - function.stats-rand-gen-noncentral-f.md: « stats\_rand\_gen\_noncentral\_f
+  - function.stats-rand-gen-normal.md: stats\_rand\_gen\_normal »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsrandгенnoncentralт
+title: stats\_rand\_gen\_noncentral\_t
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsrandгенnoncentralт
+# stats\_rand\_gen\_noncentral\_t
 
 (PECL stats >= 1.0.0)
 
-statsrandгенnoncentralt - обчислює одиничне випадкове відхилення від нецентрального розподілу Стьюдента
+stats\_rand\_gen\_noncentral\_t - обчислює одиничне випадкове відхилення від нецентрального розподілу Стьюдента
 
 ### Опис
 
@@ -18,7 +19,7 @@ statsrandгенnoncentralt - обчислює одиничне випадков�
 stats_rand_gen_noncentral_t(float $df, float $xnonc): float
 ```
 
-Обчислює одиничне випадкове відхилення від нецентрального розподілу Стьюдента із заданим числом ступенів свободи `df` та параметром зсуву `xnonc`
+Обчислює одиничне випадкове відхилення від нецентрального розподілу Стьюдента із заданим числом ступенів свободи `df`и параметром сдвига`xnonc`
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mysqli-get-client-stats.md: « mysqligetclientstats
-  - function.mysqli-report.md: mysqlireport »
+  - function.mysqli-get-client-stats.md: « mysqli\_get\_client\_stats
+  - function.mysqli-report.md: mysqli\_report »
   - index.md: PHP Manual
   - ref.mysqli.md: Синоніми та застарілі функції Mysqli
-title: mysqligetlinksstats
+title: mysqli\_get\_links\_stats
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqligetlinksstats
+# mysqli\_get\_links\_stats
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-mysqligetlinksstats — Повертає інформацію про відкриті та закешовані з'єднання MySQL
+mysqli\_get\_links\_stats — Повертає інформацію про відкриті та закешовані з'єднання MySQL
 
 ### Опис
 
@@ -18,7 +19,7 @@ mysqligetlinksstats — Повертає інформацію про відкр�
 mysqli_get_links_stats(): array
 ```
 
-**mysqligetlinksstats()** повертає інформацію про відкриті та закешовані з'єднання MySQL.
+**mysqli\_get\_links\_stats()** повертає інформацію про відкриті та закешовані з'єднання MySQL.
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ mysqli_get_links_stats(): array
 
 ### Значення, що повертаються
 
-**mysqligetlinksstats()** повертає асоціативний масив із трьох цілочисельних значень з такими ключами:
+**mysqli\_get\_links\_stats()** повертає асоціативний масив із трьох цілочисельних значень з такими ключами:
 
 `total`
 

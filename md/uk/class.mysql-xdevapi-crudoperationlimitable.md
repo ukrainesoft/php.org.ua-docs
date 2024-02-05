@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-crudoperationbindable.bind.md: '« CrudOperationBindable::bind'
   - mysql-xdevapi-crudoperationlimitable.limit.md: 'CrudOperationLimitable::limit »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Інтерфейс CrudOperationLimitable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс CrudOperationLimitable
 
@@ -34,4 +35,4 @@ title: Інтерфейс CrudOperationLimitable
 
 ## Зміст
 
--   [CrudOperationLimitable::limit](mysql-xdevapi-crudoperationlimitable.limit.md) - Встановлює ліміт результату
+-   [CrudOperationLimitable::limit](mysql-xdevapi-crudoperationlimitable.limit.md) \- Встановлює ліміт результату

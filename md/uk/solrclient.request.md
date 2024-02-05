@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::request'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::request
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrClient::request — Надсилає необроблений запит на оновлення
 
@@ -40,7 +41,7 @@ public SolrClient::request(string $raw_request): SolrUpdateResponse
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrClient::request()****
+**Пример #1 Пример использования**SolrClient::request()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ print_r($response);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 ...

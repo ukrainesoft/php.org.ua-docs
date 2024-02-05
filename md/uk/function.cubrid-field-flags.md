@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-fetch-row.md: « cubridfetchrow
-  - function.cubrid-field-len.md: cubridfieldlen »
+  - function.cubrid-fetch-row.md: « cubrid\_fetch\_row
+  - function.cubrid-field-len.md: cubrid\_field\_len »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridfieldflags
+title: cubrid\_field\_flags
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridfieldflags
+# cubrid\_field\_flags
 
 (PECL CUBRID >= 8.3.0)
 
-cubridfieldflags — Отримати рядок, який містить прапори стовпця за вказаним індексом
+cubrid\_field\_flags — Отримати рядок, який містить прапори стовпця за вказаним індексом
 
 ### Опис
 
@@ -18,29 +19,29 @@ cubridfieldflags — Отримати рядок, який містить пра
 cubrid_field_flags(resource $result, int $field_offset): string
 ```
 
-Функція повертає рядок, що містить прапори стовпця за вказаним індексом, розділені пробілом. Ви можете розбити рядок на окремі частини, використовуючи explode. Можливі значення прапорів: **`not_null`** **`primary_key`** **`unique_key`** **`foreign_key`** **`auto_increment`** **`shared`** **`reverse_index`** **`reverse_unique`** і **`timestamp`**
+Функція повертає рядок, що містить прапори стовпця за вказаним індексом, розділені пробілом. Ви можете розбити рядок на окремі частини, використовуючи explode. Можливі значення прапорів: **`not_null`** **`primary_key`** **`unique_key`** **`foreign_key`** **`auto_increment`** **`shared`** **`reverse_index`** **`reverse_unique`**и**`timestamp`**
 
 ### Список параметрів
 
 `result`
 
-`Result` отриманий з [cubridexecute()](function.cubrid-execute.md)
+`Result` отриманий з [cubrid\_execute()](function.cubrid-execute.md)
 
 `field_offset`
 
-Індекс поля у рядку результуючого набору . `field_offset` починається з 0. Якщо `field_offset` не заданий, то буде викликана помилка рівня **`E_WARNING`**
+Индекс поля в строке результирующего набора`field_offset` починається з 0. Якщо `field_offset` не заданий, то буде викликана помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
 Рядок з прапорами у разі успішного виконання.
 
-**`false`** у разі некоректного значення fieldoffset.
+**`false`** у разі некоректного значення field\_offset.
 
-1, якщо SQL-запит був відмінним від SELECT типу.
+\-1, якщо SQL-запит був відмінним від SELECT типу.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridfieldflags()****
+**Пример #1 Пример использования**cubrid\_field\_flags()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Наименование поля                Флаги поля

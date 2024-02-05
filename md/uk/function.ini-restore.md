@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ini-get.md: « iniget
-  - function.ini-set.md: iniset »
+  - function.ini-parse-quantity.md: « ini\_parse\_quantity
+  - function.ini-set.md: ini\_set »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: inirestore
+title: ini\_restore
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# inirestore
+# ini\_restore
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-inirestore — Відновлює налаштування конфігурації.
+ini\_restore — Відновлює налаштування конфігурації.
 
 ### Опис
 
@@ -32,7 +33,7 @@ ini_restore(string $option): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **inirestore()****
+**Пример #1 Пример использования**ini\_restore()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ echo 'Исходное значение настройки \'' . $setting . '\':
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Текущее значение настройки 'html_errors': 1
@@ -58,6 +59,6 @@ echo 'Исходное значение настройки \'' . $setting . '\':
 
 ### Дивіться також
 
--   [iniget()](function.ini-get.md) - Отримує значення налаштування конфігурації
--   [inigetall()](function.ini-get-all.md) - Отримує всі налаштування конфігурації
--   [iniset()](function.ini-set.md) - Встановлює налаштування конфігурації
+-   [ini\_get()](function.ini-get.md) \- Отримує значення налаштування конфігурації
+-   [ini\_get\_all()](function.ini-get-all.md) \- Отримує всі налаштування конфігурації
+-   [ini\_set()](function.ini-set.md) \- Встановлює налаштування конфігурації

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isFinal'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::isFinal
 
@@ -26,11 +27,11 @@ public ReflectionClass::isFinal(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::isFinal()****
+**Пример #1 Пример использования**ReflectionClass::isFinal()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($finalClass->isFinal());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -55,5 +56,5 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionClass::isAbstract()](reflectionclass.isabstract.md) - Перевіряє, чи є клас абстрактним
--   [Ключевое слово "final"](language.oop5.final.md)
+-   [ReflectionClass::isAbstract()](reflectionclass.isabstract.md) \- Перевіряє, чи є клас абстрактним
+-   [Ключове слово "final"](language.oop5.final.md)

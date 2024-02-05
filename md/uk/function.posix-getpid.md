@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-getpgrp.md: « posixgetpgrp
-  - function.posix-getppid.md: posixgetppid »
+  - function.posix-getpgrp.md: « posix\_getpgrp
+  - function.posix-getppid.md: posix\_getppid »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixgetpid
+  - ref.posix.md: POSIX Функції
+title: posix\_getpid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixgetpid
+# posix\_getpid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posixgetpid — Повертає ідентифікатор поточного процесу
+posix\_getpid — Повертає ідентифікатор поточного процесу
 
 ### Опис
 
@@ -30,7 +31,7 @@ posix_getpid(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posixgetpid()****
+**Пример #1 Пример использования**posix\_getpid()\*\*\*\*
 
 ```php
 <?php
@@ -40,5 +41,5 @@ echo posix_getpid(); //8805
 
 ### Дивіться також
 
--   [posixkill()](function.posix-kill.md) - Надсилає сигнал відповідному процесу
+-   [posix\_kill()](function.posix-kill.md) \- Надсилає сигнал відповідному процесу
 -   POSIX керівництво GETPID(2)

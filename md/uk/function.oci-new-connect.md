@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.oci-new-collection.md: « ocinewcollection
-  - function.oci-new-cursor.md: ocinewcursor »
+  - function.oci-new-collection.md: « oci\_new\_collection
+  - function.oci-new-cursor.md: oci\_new\_cursor »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocinewconnect
+  - ref.oci8.md: OCI8 Функції
+title: oci\_new\_connect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocinewconnect
+# oci\_new\_connect
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocinewconnect — Встановлює нове з'єднання із сервером Oracle
+oci\_new\_connect — Встановлює нове з'єднання із сервером Oracle
 
 ### Опис
 
 ```methodsynopsis
-oci_new_connect(    string $username,    string $password,    ?string $connection_string = null,    string $encoding = "",    int $session_mode = OCI_DEFAULT): resource|false
+oci_new_connect(    string $username,    string $password,    ?string $connection_string = null,    string $encoding = "",    int $session_mode = OCI_DEFAULT): resource|false
 ```
 
 Створює нове з'єднання з сервером Oracle та здійснює вхід.
 
-На відміну від [ociconnect()](function.oci-connect.md) і [ocipconnect()](function.oci-pconnect.md), функція **ocinewconnect()** не кешує з'єднання і під час кожного виклику встановлює нове з'єднання. Це корисно, якщо додатку потрібна транзакційна ізоляція двох наборів запитів.
+В отличие от[oci\_connect()](function.oci-connect.md) і [oci\_pconnect()](function.oci-pconnect.md), функция**oci\_new\_connect()** не кешує з'єднання і під час кожного виклику встановлює нове з'єднання. Це корисно, якщо додатку необхідна ізоляція транзакції двох наборів запитів.
 
 ### Список параметрів
 
@@ -34,39 +35,39 @@ oci_new_connect(    string $username,    string $password,    ?string $connectio
 
 `connection_string`
 
-Містить `экземпляр Oracle` для підключення. Це може бути [» Easy Connect string](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1), або Connect Name з файлу tnsnames.ora, або ім'я локального екземпляра Oracle.
+Містить `екземпляр Oracle` для підключення. Це може бути [» Easy Connect string](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1), або Connect Name з файлу tnsnames.ora, або ім'я локального екземпляра Oracle.
 
-Якщо не вказано окремо або **`null`**, PHP використовує змінні оточення, такі як **`TWO_TASK`** (на Linux) або **`LOCAL`** (на Windows) та **`ORACLE_SID`** для визначення `экземпляра Oracle` для з'єднання.
+Якщо не вказано окремо або **`null`**, PHP використовує змінні оточення, такі як **`TWO_TASK`**(на Linux) или\*\*`LOCAL`**(на Windows) и**`ORACLE_SID`\*\*для определения`екземпляра Oracle`для соединения.
 
-Для використання методу Easy Connect, PHP має бути з'єднаний з клієнтськими бібліотеками версії Oracle 10*г* чи старше. Easy Connect string для Oracle 10*г* приймає таку форму: *hostname:port/servicename*. Починаючи з Oracle 11*г* синтаксис такий: *hostname:port/servicename:servertype/instancename*. У Oracle 19c було введено додаткові параметри, включаючи налаштування часу очікування та перевірки активності. Зверніться до документації Oracle. Назви служб можуть бути визначені за допомогою запуску Oracle утиліти `lsnrctl status` на сервері бази даних.
+Для використання методу Easy Connect, PHP має бути з'єднаний з клієнтськими бібліотеками версії Oracle 10*g*или старше. Easy Connect string для Oracle 10*g*принимает следующую форму:*\[//\]host\_name\[:port\]\[/service\_name\]*. Починаючи з Oracle 11*g* синтаксис такий: *\[//\]host\_name\[:port\]\[/service\_name\]\[:server\_type\]\[/instance\_name\]*. У Oracle 19c було введено додаткові параметри, включаючи налаштування часу очікування та перевірки активності. Зверніться до документації Oracle. Назви служб можуть бути визначені за допомогою запуску Oracle утиліти `lsnrctl status` на сервері бази даних.
 
-Файл tnsnames.ora може знаходитись у пошуковому шляху Oracle Net, який включає /your/path/to/instantclient/network/admin, $ORACLEHOME/network/admin та /etc. Як альтернативний варіант можна встановити `TNS_ADMIN` таким чином, щоб шлях $TNSADMIN/tnsnames.ora читав. Переконайтеся, що веб-сервер має доступ до файлу.
+Файл tnsnames.ora може знаходитись у пошуковому шляху Oracle Net, який включає /your/path/to/instantclient/network/admin, $ORACLE\_HOME/network/admin та /etc. Як альтернативний варіант можна встановити `TNS_ADMIN` таким чином, щоб шлях $TNS\_ADMIN/tnsnames.ora читав. Переконайтеся, що веб-сервер має доступ до файлу.
 
 `encoding`
 
-Визначає кодування, яке використовується клієнтськими бібліотеками Oracle. Дане кодування не обов'язково має збігатися з кодуванням, яке використовується в самій базі даних. Якщо вона не збігається, Oracle зробить все можливе для конвертування даних із-і в дане кодування. Залежно від використовуваних кодувань, це може не завжди давати прийнятні результати. Перетворення також створює деякі додаткові витрати часу.
+Визначає кодування, яке використовуватимуть клієнтські бібліотеки Oracle. Це кодування не обов'язково має збігатися з кодуванням, яке використовується в самій базі даних. Якщо вона не збігається, Oracle зробить все можливе для конвертування даних з-і в це кодування. Залежно від використовуваних кодувань, це може не завжди давати прийнятні результати. Перетворення також створює деякі додаткові витрати часу.
 
-Якщо кодування не вказано, клієнтські бібліотеки Oracle визначатимуть його зі змінного оточення. **`NLS_LANG`**
+Якщо кодування не вказано, клієнтські бібліотеки Oracle будуть визначати його зі змінного оточення. **`NLS_LANG`**
 
 Передача цього параметра може зменшити час, що витрачається на з'єднання.
 
 `session_mode`
 
-Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`** і **`OCI_SYSDBA`**. Якщо було вказано **`OCI_SYSOPER`** або **`OCI_SYSDBA`**, дана функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privilegedconnect](oci8.configuration.md#ini.oci8.privileged-connect) в `On`
+Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`**и**`OCI_SYSDBA`**. Якщо були вказані \*\*`OCI_SYSOPER`**или**`OCI_SYSDBA`\*\*ця функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privileged\_connect](oci8.configuration.md#ini.oci8.privileged-connect)в`On`
 
-У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення **`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню автентифікацію або автентифікацію за допомогою операційної системи, що має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути використаний тільки з ім'ям користувача "/" та порожнім паролем . [oci8.privilegedconnect](oci8.configuration.md#ini.oci8.privileged-connect) може набувати значення `On` або `Off`
+У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення **`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню автентифікацію або автентифікацію за допомогою операційної системи, що має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути використаний лише з ім'ям користувача "/" та порожнім паролем. . [oci8.privileged\_connect](oci8.configuration.md#ini.oci8.privileged-connect) може набувати значення `On`или`Off`
 
-**`OCI_CRED_EXT`** може використовуватися спільно з режимами **`OCI_SYSOPER`** і **`OCI_SYSDBA`**
+**`OCI_CRED_EXT`** може використовуватися спільно з режимами **`OCI_SYSOPER`**и**`OCI_SYSDBA`**
 
 **`OCI_CRED_EXT`** не підтримується у Windows через безпеку.
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор з'єднання або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор з'єднання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | `connection_string` тепер допускає значення null. |
 
@@ -74,7 +75,7 @@ oci_new_connect(    string $username,    string $password,    ?string $connectio
 
 Наведений нижче приклад ілюструє використання відокремлених сполук.
 
-**Приклад #1 Приклад використання **ocinewconnect()****
+**Пример #1 Пример использования**oci\_new\_connect()\*\*\*\*
 
 ```php
 <?php
@@ -120,9 +121,9 @@ query("нового соединения после commit", $c2);
 ?>
 ```
 
-Додаткові приклади можна знайти в описі функції [ociconnect()](function.oci-connect.md)
+Додаткові приклади можна знайти в описі функції [oci\_connect()](function.oci-connect.md)
 
 ### Дивіться також
 
--   [ociconnect()](function.oci-connect.md) - Встановлює з'єднання з базою даних Oracle
--   [ocipconnect()](function.oci-pconnect.md) - Встановлює постійне з'єднання із сервером Oracle
+-   [oci\_connect()](function.oci-connect.md) \- Встановлює з'єднання з базою даних Oracle
+-   [oci\_pconnect()](function.oci-pconnect.md) \- Встановлює постійне з'єднання із сервером Oracle

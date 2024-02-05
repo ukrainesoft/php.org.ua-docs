@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.is-tainted.md: « istainted
+  - function.is-tainted.md: « is\_tainted
   - function.untaint.md: untaint »
   - index.md: PHP Manual
-  - ref.taint.md: Функции Taint
+  - ref.taint.md: Функції Taint
 title: taint
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # taint
 

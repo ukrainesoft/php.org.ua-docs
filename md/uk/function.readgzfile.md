@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.inflate-init.md: « inflateinit
-  - function.zlib-decode.md: zlibdecode »
+  - function.ob-gzhandler.md: « ob\_gzhandler
+  - function.zlib-decode.md: zlib\_decode »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: readgzfile
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # readgzfile
 
@@ -30,11 +31,11 @@ readgzfile(string $filename, int $use_include_path = 0): int|false
 
 `use_include_path`
 
-Ви можете використовувати цей необов'язковий параметр і встановити його в `1`, якщо необхідно, щоб пошук файлу також здійснювався в директоріях [includepath](ini.core.md#ini.include-path)
+Ви можете використовувати цей необов'язковий параметр і встановити його в , якщо необхідно, щоб пошук файлу також здійснювався в директоріях [include\_path](ini.core.md#ini.include-path)
 
 ### Значення, що повертаються
 
-Повертає кількість байтів у файлі (після розпакування) у разі успішного виконання або **`false`** у разі виникнення помилки
+Повертає кількість байтів у файлі (після розпакування) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки
 
 ### Помилки
 
@@ -42,6 +43,6 @@ readgzfile(string $filename, int $use_include_path = 0): int|false
 
 ### Дивіться також
 
--   [gzpassthru()](function.gzpassthru.md) - Виведення всіх даних з покажчика gz-файлу.
--   [gzfile()](function.gzfile.md) - Зчитує весь gz-файл у масив
--   [gzopen()](function.gzopen.md) - Відкрити gz-файл
+-   [gzpassthru()](function.gzpassthru.md) \- Виведення всіх даних з покажчика gz-файлу.
+-   [gzfile()](function.gzfile.md) \- Зчитує весь gz-файл у масив
+-   [gzopen()](function.gzopen.md) \- Відкрити gz-файл

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::isPromoted'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionProperty::isPromoted
 
@@ -26,11 +27,11 @@ public ReflectionProperty::isPromoted(): bool
 
 ### Значення, що повертаються
 
-Повертає \*\*`true`\*\*якщо властивість визначено в конструкторі, **`false`** в іншому випадку.
+Повертає \*\*`true`\*\*якщо властивість визначена в конструкторі, **`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionProperty::isPromoted()****
+**Пример #1 Пример использования**ReflectionProperty::isPromoted()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($ro->getProperty('baz')->isPromoted());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -58,6 +59,6 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionProperty::isDefault()](reflectionproperty.isdefault.md) - Перевіряє, чи є значення властивістю за умовчанням
--   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.md) - Перевірити, чи ініціалізована властивість
--   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) - набуває значення
+-   [ReflectionProperty::isDefault()](reflectionproperty.isdefault.md) \- Перевіряє, чи є значення властивістю за умовчанням
+-   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.md) \- Перевірити, чи ініціалізована властивість
+-   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) \- набуває значення

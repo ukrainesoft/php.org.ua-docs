@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::merge'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrInputDocument::merge
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrInputDocument::merge — Об'єднує один вхідний документ до іншого
 

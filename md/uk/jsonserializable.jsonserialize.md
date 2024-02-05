@@ -1,14 +1,15 @@
 ---
 navigation:
   - class.jsonserializable.md: « JsonSerializable
-  - ref.json.md: Функции JSON »
+  - ref.json.md: Функції JSON »
   - index.md: PHP Manual
   - class.jsonserializable.md: JsonSerializable
 title: 'JsonSerializable::jsonSerialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # JsonSerializable::jsonSerialize
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 JsonSerializable::jsonSerialize — Задає дані, які мають бути серіалізовані в JSON
 
@@ -18,7 +19,7 @@ JsonSerializable::jsonSerialize — Задає дані, які мають бу�
 public JsonSerializable::jsonSerialize(): mixed
 ```
 
-Серіалізує об'єкт значення, яке спочатку може бути серіалізоване функцією [jsonencode()](function.json-encode.md)
+Серіалізує об'єкт значення, яке спочатку може бути серіалізоване функцією [json\_encode()](function.json-encode.md)
 
 ### Список параметрів
 
@@ -26,20 +27,22 @@ public JsonSerializable::jsonSerialize(): mixed
 
 ### Значення, що повертаються
 
-Повертає дані, які можуть бути серіалізовані [jsonencode()](function.json-encode.md), які є значенням будь-якого типу, крім [resource](language.types.resource.md)
+Повертає дані, які можуть бути серіалізовані [json\_encode()](function.json-encode.md), які є значенням будь-якого типу, крім [resource](language.types.resource.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **JsonSerializable::jsonSerialize()**, що повертає масив (array)**
+**Пример #1 Пример использования**JsonSerializable::jsonSerialize()**, що повертає масив (array)**
 
 ```php
 <?php
+
 class ArrayValue implements JsonSerializable {
+    private $array;
     public function __construct(array $array) {
         $this->array = $array;
     }
 
-    public function jsonSerialize() {
+    public function jsonSerialize(): mixed {
         return $this->array;
     }
 }
@@ -49,7 +52,7 @@ echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 [
@@ -59,11 +62,13 @@ echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);
 ]
 ```
 
-**Приклад #2 Приклад використання **JsonSerializable::jsonSerialize()**, що повертає асоціативний масив (array)**
+**Пример #2 Пример использования**JsonSerializable::jsonSerialize()**, що повертає асоціативний масив (array)**
 
 ```php
 <?php
+
 class ArrayValue implements JsonSerializable {
+    private $array;
     public function __construct(array $array) {
         $this->array = $array;
     }
@@ -78,7 +83,7 @@ echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 {
@@ -87,13 +92,15 @@ echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);
 }
 ```
 
-**Приклад #3 Приклад використання **JsonSerializable::jsonSerialize()**, що повертає ціле значення (int)**
+**Пример #3 Пример использования**JsonSerializable::jsonSerialize()**, що повертає ціле значення (int)**
 
 ```php
 <?php
+
 class IntegerValue implements JsonSerializable {
+    private $number;
     public function __construct($number) {
-        $this->number = (integer) $number;
+        $this->number = (int) $number;
     }
 
     public function jsonSerialize() {
@@ -105,17 +112,19 @@ echo json_encode(new IntegerValue(1), JSON_PRETTY_PRINT);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1
 ```
 
-**Приклад #4 Приклад використання **JsonSerializable::jsonSerialize()**, що повертає рядок (string)**
+**Пример #4 Пример использования**JsonSerializable::jsonSerialize()**, що повертає рядок (string)**
 
 ```php
 <?php
+
 class StringValue implements JsonSerializable {
+    private $string;
     public function __construct($string) {
         $this->string = (string) $string;
     }
@@ -129,7 +138,7 @@ echo json_encode(new StringValue('Hello!'), JSON_PRETTY_PRINT);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 "Hello!"

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-methods-negotiated.md: « ssh2methodsnegotiated
-  - function.ssh2-publickey-add.md: ssh2publickeyadd »
+  - function.ssh2-methods-negotiated.md: « ssh2\_methods\_negotiated
+  - function.ssh2-publickey-add.md: ssh2\_publickey\_add »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2poll
+title: ssh2\_poll
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2poll
+# ssh2\_poll
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2poll — Опитує канали/слухачів/потоки щодо подій
+ssh2\_poll — Опитує канали/слухачів/потоки щодо подій
 
 ### Опис
 
@@ -22,13 +23,13 @@ ssh2_poll(array &$desc, int $timeout = 30): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `desc`
 
-Індексований масив підмасивів із ключами `'resource'` і `'events'`. Значення ресурсу – це (канал) потік або ресурс SSH2 Listener. Значенням події є прапори SSH2POLL, об'єднані побітовим АБО. Кожен підмасив буде заповнений елементом `'revents'` при поверненні, значення якого є прапорами SSH2POLL, об'єднані побітовим АБО спільно з подіями, що відбулися.
+Індексований масив підмасивів із ключами `'resource'`и`'events'`. Значення ресурсу – це (канал) потік або ресурс SSH2 Listener. Значенням події є прапори SSH2\_POLL\*, об'єднані побітовим АБО. Кожен підмасив буде заповнений елементом `'revents'` при поверненні, значення якого є прапорами SSH2\_POLL\*, об'єднані побітовим АБО спільно з подіями, що відбулися.
 
 `timeout`
 

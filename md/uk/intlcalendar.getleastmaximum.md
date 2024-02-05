@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getLeastMaximum'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getLeastMaximum
 
@@ -36,11 +37,11 @@ intlcal_get_least_maximum(IntlCalendar $calendar, int $field): int|false
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants)полей типа дата/время. Целое число от до\*\*`IntlCalendar::FIELD_COUNT`\*\*
 
 ### Значення, що повертаються
 
-Ціле число (int), що представляє значення поля або **`false`** у разі виникнення помилки.
+Целое число (int), представляющее значение поля или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -59,7 +60,7 @@ var_dump(
 );
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(28)
@@ -69,6 +70,6 @@ int(31)
 
 ### Дивіться також
 
--   [IntlCalendar::getActualMaximum()](intlcalendar.getactualmaximum.md) - Максимальне значення для поля з урахуванням поточного часу об'єкта
--   [IntlCalendar::getMaximum()](intlcalendar.getmaximum.md) - Отримує глобальне максимальне значення поля
--   [IntlCalendar::getGreatestMinimum()](intlcalendar.getgreatestminimum.md) - Отримує найбільше локальне мінімальне значення поля
+-   [IntlCalendar::getActualMaximum()](intlcalendar.getactualmaximum.md) \- Максимальне значення для поля з урахуванням поточного часу об'єкта
+-   [IntlCalendar::getMaximum()](intlcalendar.getmaximum.md) \- Отримує глобальне максимальне значення поля
+-   [IntlCalendar::getGreatestMinimum()](intlcalendar.getgreatestminimum.md) \- Отримує найбільше локальне мінімальне значення поля

@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-collection.add.md: '« Collection::add'
-  - mysql-xdevapi-collection.construct.md: 'Collection::construct »'
+  - mysql-xdevapi-collection.construct.md: 'Collection::\_\_construct »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
 title: 'Collection::addOrReplaceOne'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collection::addOrReplaceOne
 
@@ -39,7 +40,7 @@ public mysql_xdevapi\Collection::addOrReplaceOne(string $id, string $doc): mysql
 
 Ідентифікатор фільтру. Якщо ідентифікатор або інше поле з унікальним індексом вже існує в колекції, він оновить відповідний документ.
 
-За замовчуванням цей ідентифікатор автоматично генерується MySQL Server при додаванні запису і згадується як поле з ім'ям 'id'.
+За замовчуванням цей ідентифікатор автоматично генерується MySQL Server при додаванні запису і згадується як поле з ім'ям '\_id'.
 
 `doc`
 
@@ -51,7 +52,7 @@ public mysql_xdevapi\Collection::addOrReplaceOne(string $id, string $doc): mysql
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::addOrReplaceOne()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::addOrReplaceOne()\*\*\*\*
 
 ```php
 <?php

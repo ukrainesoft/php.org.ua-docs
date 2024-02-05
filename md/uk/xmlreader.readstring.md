@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.xmlreader.md: XMLReader
 title: 'XMLReader::readString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLReader::readString
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 XMLReader::readString — Прочитати вміст поточного вузла як рядок
 
@@ -36,6 +37,6 @@ public XMLReader::readString(): string
 
 ### Дивіться також
 
--   [XMLReader::readOuterXml()](xmlreader.readouterxml.md) - Отримати XML із поточного вузла, включаючи сам вузол
--   [XMLReader::readInnerXml()](xmlreader.readinnerxml.md) - Вийняти XML із поточного вузла
--   [XMLReader::expand()](xmlreader.expand.md) - Повернути копію поточного вузла у вигляді об'єкта DOM
+-   [XMLReader::readOuterXml()](xmlreader.readouterxml.md) \- Отримати XML із поточного вузла, включаючи сам вузол
+-   [XMLReader::readInnerXml()](xmlreader.readinnerxml.md) \- Вийняти XML із поточного вузла
+-   [XMLReader::expand()](xmlreader.expand.md) \- Повернути копію поточного вузла у вигляді об'єкта DOM

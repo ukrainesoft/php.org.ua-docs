@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionremove.execute.md: '« CollectionRemove::execute'
   - mysql-xdevapi-collectionremove.sort.md: 'CollectionRemove::sort »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionremove.md: mysqlxdevapiCollectionRemove
+  - class.mysql-xdevapi-collectionremove.md: mysql\_xdevapi\\CollectionRemove
 title: 'CollectionRemove::limit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionRemove::limit
 
@@ -22,7 +23,7 @@ public mysql_xdevapi\CollectionRemove::limit(int $rows): mysql_xdevapi\Collectio
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public mysql_xdevapi\CollectionRemove::limit(int $rows): mysql_xdevapi\Collectio
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionRemove::limit()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionRemove::limit()\*\*\*\*
 
 ```php
 <?php

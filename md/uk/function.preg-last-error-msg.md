@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.preg-grep.md: « preggrep
-  - function.preg-last-error.md: preglasterror »
+  - function.preg-grep.md: « preg\_grep
+  - function.preg-last-error.md: preg\_last\_error »
   - index.md: PHP Manual
-  - ref.pcre.md: Функции PCRE
-title: preglasterrormsg
+  - ref.pcre.md: Функції PCRE
+title: preg\_last\_error\_msg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# preglasterrormsg
+# preg\_last\_error\_msg
 
 (PHP 8)
 
-preglasterrormsg — Повертає повідомлення про помилку останньої запущеної функції PCRE
+preg\_last\_error\_msg — Повертає повідомлення про помилку останньої запущеної функції PCRE
 
 ### Опис
 
@@ -30,7 +31,7 @@ preg_last_error_msg(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **preglasterrormsg()****
+**Пример #1 Пример использования**preg\_last\_error\_msg()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ if (preg_last_error() !== PREG_NO_ERROR) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Backtrack limit exhausted
@@ -52,4 +53,4 @@ Backtrack limit exhausted
 
 ### Дивіться також
 
--   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [preg\_last\_error()](function.preg-last-error.md) \- Повертає код помилки виконання останнього регулярного вираження PCRE

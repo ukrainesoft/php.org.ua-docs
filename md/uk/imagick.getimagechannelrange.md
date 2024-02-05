@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageChannelRange'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageChannelRange
 
-(PECL imagick 2> = 2.2.1, PECL imagick 3)
+(PECL imagick 2 >= 2.2.1, PECL imagick 3)
 
 Imagick::getImageChannelRange — Повертає діапазон каналів
 
@@ -18,13 +19,13 @@ Imagick::getImageChannelRange — Повертає діапазон каналі
 public Imagick::getImageChannelRange(int $channel): array
 ```
 
-Повертає діапазон для одного або кількох каналів зображення. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.4.0 або старшим.
+Повертає діапазон для одного або кількох каналів зображення. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.0 або старшим.
 
 ### Список параметрів
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно \*\*`Imagick::CHANNEL_DEFAULT`\*\*Обратитесь к списку[констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

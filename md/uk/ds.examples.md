@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ds.constants.md: « Обумовлені константи
-  - class.ds-collection.md: Коллекция »
+  - ds.constants.md: « Зумовлені константи
+  - class.ds-collection.md: Ds\\Collection »
   - index.md: PHP Manual
   - book.ds.md: Структури даних
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -25,7 +26,7 @@ print_r($vector);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object
@@ -54,7 +55,7 @@ print_r($map);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Map Object

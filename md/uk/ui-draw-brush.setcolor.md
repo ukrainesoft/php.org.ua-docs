@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-brush.getcolor.md: '« UIDrawBrush::getColor'
-  - class.ui-draw-brush-gradient.md: ОЙDrawBrushGradient »
+  - ui-draw-brush.getcolor.md: '« UI\\Draw\\Brush::getColor'
+  - class.ui-draw-brush-gradient.md: UI\\Draw\\Brush\\Gradient »
   - index.md: PHP Manual
-  - class.ui-draw-brush.md: ОЙDrawBrush
-title: 'ОЙDrawBrush::setColor'
+  - class.ui-draw-brush.md: UI\\Draw\\Brush
+title: 'UI\\Draw\\Brush::setColor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawBrush::setColor
+# UI\\Draw\\Brush::setColor
 
 (UI 0.9.9)
 
-ОЙDrawBrush::setColor — Встановити колір
+UI\\Draw\\Brush::setColor — Встановити колір
 
 ### Опис
 
@@ -28,6 +29,6 @@ public UI\Draw\Brush::setColor(int $color): void
 
 `color`
 
-Можливо UIDrawColor або RRGGBBAA
+Можливо UI\\Draw\\Color або RRGGBBAA
 
 ### Значення, що повертаються

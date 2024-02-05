@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-repos-fs.md: « svnreposфс
-  - function.svn-repos-open.md: svnreposopen »
+  - function.svn-repos-fs.md: « svn\_repos\_fs
+  - function.svn-repos-open.md: svn\_repos\_open »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnreposhotcopy
+title: svn\_repos\_hotcopy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnreposhotcopy
+# svn\_repos\_hotcopy
 
-(PECL svn> = 0.1.0)
+(PECL svn >= 0.1.0)
 
-svnreposhotcopy — Створює свіжу копію репозиторію на адресу repospath і копіює в destpath
+svn\_repos\_hotcopy — Створює свіжу копію репозиторію на адресу repospath і копіює в destpath
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_repos_hotcopy(string $repospath, string $destpath, bool $cleanlogs): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Створює свіжу копію репозиторію на адресу `repospath` і копіює в `destpath`
 

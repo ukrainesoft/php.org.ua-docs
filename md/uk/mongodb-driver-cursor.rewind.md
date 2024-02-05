@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-cursor.next.md: '« MongoDBDriverCursor::next'
-  - mongodb-driver-cursor.settypemap.md: 'MongoDBDriverCursor::setTypeMap »'
+  - mongodb-driver-cursor.next.md: '« MongoDB\\Driver\\Cursor::next'
+  - mongodb-driver-cursor.settypemap.md: 'MongoDB\\Driver\\Cursor::setTypeMap »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
-title: 'MongoDBDriverCursor::rewind'
+  - class.mongodb-driver-cursor.md: MongoDB\\Driver\\Cursor
+title: 'MongoDB\\Driver\\Cursor::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverCursor::rewind
+# MongoDB\\Driver\\Cursor::rewind
 
 (mongodb >=1.9.0)
 
-MongoDBDriverCursor::rewind — Переміщує курсор до першого результату
+MongoDB\\Driver\\Cursor::rewind — Переміщує курсор до першого результату
 
 ### Опис
 
@@ -30,11 +31,11 @@ public MongoDB\Driver\Cursor::rewind(): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.md)
--   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
--   Кидає виняток [MongoDBDriverExceptionLogicException](class.mongodb-driver-exception-logicexception.md) якщо метод був викликаний після просування курсору далі за свою першу позицію.
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток[MongoDB\\Driver\\Exception\\ConnectionException](class.mongodb-driver-exception-connectionexception.md)
+-   У разі невдалої аутентифікації кидає виняток[MongoDB\\Driver\\Exception\\AuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
+-   Кидає виняток [MongoDB\\Driver\\Exception\\LogicException](class.mongodb-driver-exception-logicexception.md)якщо метод був викликаний після просування курсору далі за свою першу позицію.
 
 ### Дивіться також
 
--   [Iterator::rewind()](iterator.rewind.md) – Повертає ітератор на перший елемент
+-   [Iterator::rewind()](iterator.rewind.md)– Повертає ітератор на перший елемент

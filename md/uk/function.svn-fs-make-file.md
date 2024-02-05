@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-make-dir.md: « svnфсmakedir
-  - function.svn-fs-node-created-rev.md: svnфсnodecreatedrev »
+  - function.svn-fs-make-dir.md: « svn\_fs\_make\_dir
+  - function.svn-fs-node-created-rev.md: svn\_fs\_node\_created\_rev »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсmakefile
+title: svn\_fs\_make\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсmakefile
+# svn\_fs\_make\_file
 
 (PECL svn >= 0.2.0)
 
-svnфсmakefile — Створення нового порожнього файлу
+svn\_fs\_make\_file — Створення нового порожнього файлу
 
 ### Опис
 
@@ -20,9 +21,9 @@ svn_fs_make_file(resource $root, string $path): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
-Створює новий пустий файл
+Створює новий порожній файл
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ svn_fs_make_file(resource $root, string $path): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 

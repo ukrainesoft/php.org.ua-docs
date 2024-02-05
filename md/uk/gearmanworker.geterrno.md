@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::getErrno'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::getErrno
 
@@ -18,7 +19,7 @@ GearmanWorker::getErrno — Отримання номера помилки
 public GearmanWorker::getErrno(): int
 ```
 
-Повертає номер помилки, коли метод повернув значення GEARMANERRNO.
+Повертає номер помилки, коли метод повернув значення GEARMAN\_ERRNO.
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ public GearmanWorker::getErrno(): int
 
 ### Дивіться також
 
--   [GearmanWorker::error()](gearmanworker.error.md) - Отримання останньої виявленої помилки
+-   [GearmanWorker::error()](gearmanworker.error.md) \- Отримання останньої виявленої помилки

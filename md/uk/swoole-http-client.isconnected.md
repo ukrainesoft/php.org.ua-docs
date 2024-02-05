@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-http-client.get.md: '« SwooleHttpClient::get'
-  - swoole-http-client.on.md: 'SwooleHttpClient::on »'
+  - swoole-http-client.get.md: '« Swoole\\Http\\Client::get'
+  - swoole-http-client.on.md: 'Swoole\\Http\\Client::on »'
   - index.md: PHP Manual
-  - class.swoole-http-client.md: SwooleHttpClient
-title: 'SwooleHttpClient::isConnected'
+  - class.swoole-http-client.md: Swoole\\Http\\Client
+title: 'Swoole\\Http\\Client::isConnected'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpClient::isConnected
+# Swoole\\Http\\Client::isConnected
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpClient::isConnected — Перевіряє, чи підключено HTTP-з'єднання.
+Swoole\\Http\\Client::isConnected — Перевіряє, чи підключено HTTP-з'єднання.
 
 ### Опис
 

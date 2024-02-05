@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ui-controls-multilineentry.md: « UIControlsMultilineEntry
-  - ui-controls-multilineentry.construct.md: 'ОЙControlsMultilineEntry::construct »'
+  - class.ui-controls-multilineentry.md: « UI\\Controls\\MultilineEntry
+  - ui-controls-multilineentry.construct.md: 'UI\\Controls\\MultilineEntry::\_\_construct »'
   - index.md: PHP Manual
-  - class.ui-controls-multilineentry.md: ОЙControlsMultilineEntry
-title: 'ОЙControlsMultilineEntry::append'
+  - class.ui-controls-multilineentry.md: UI\\Controls\\MultilineEntry
+title: 'UI\\Controls\\MultilineEntry::append'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsMultilineEntry::append
+# UI\\Controls\\MultilineEntry::append
 
 (UI 0.9.9)
 
-ОЙControlsMultilineEntry::append — Додати текст
+UI\\Controls\\MultilineEntry::append — Додати текст
 
 ### Опис
 

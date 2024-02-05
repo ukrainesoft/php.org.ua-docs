@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.compersisthelper.md: COMPersistHelper
 title: 'COMPersistHelper::GetMaxStreamSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # COMPersistHelper::GetMaxStreamSize
 
@@ -30,4 +31,4 @@ public COMPersistHelper::GetMaxStreamSize(): int
 
 ### Помилки
 
-Викидає виняток [comexception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStreamInit**або якщо виклик **IPersistStream::GetSizeMax()** завершився помилкою.
+Викидає виняток [com\_exception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStreamInit**або якщо виклик **IPersistStream::GetSizeMax()** завершився помилкою.

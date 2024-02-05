@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-route-rewrite.construct.md: '« YafRouteRewrite::construct'
-  - class.yaf-router.md: YafRouter »
+  - yaf-route-rewrite.construct.md: '« Yaf\_Route\_Rewrite::\_\_construct'
+  - class.yaf-router.md: Yaf\_Router »
   - index.md: PHP Manual
-  - class.yaf-route-rewrite.md: YafRouteRewrite
-title: 'YafRouteRewrite::route'
+  - class.yaf-route-rewrite.md: Yaf\_Route\_Rewrite
+title: 'Yaf\_Route\_Rewrite::route'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteRewrite::route
+# Yaf\_Route\_Rewrite::route
 
 (Yaf >=1.0.0)
 
-YafRouteRewrite::route — Призначення route
+Yaf\_Route\_Rewrite::route — Призначення route
 
 ### Опис
 

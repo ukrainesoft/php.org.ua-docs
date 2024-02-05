@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventlistener.md: EventListener
 title: 'EventListener::setErrorCallback'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventListener::setErrorCallback
 
@@ -54,4 +55,4 @@ callback(
 
 ### Дивіться також
 
--   [EventListener::setCallback()](eventlistener.setcallback.md) - Ціль setCallback
+-   [EventListener::setCallback()](eventlistener.setcallback.md) \- Ціль setCallback

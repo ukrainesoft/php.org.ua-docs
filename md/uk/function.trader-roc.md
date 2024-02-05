@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-ppo.md: « traderppo
-  - function.trader-rocp.md: traderrocp »
+  - function.trader-ppo.md: « trader\_ppo
+  - function.trader-rocp.md: trader\_rocp »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderroc
+  - ref.trader.md: Функції Trader
+title: trader\_roc
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderroc
+# trader\_roc
 
 (PECL trader >= 0.2.0)
 
-traderroc — Швидкість зміни: ((ціна/попередня ціна)-1)
+trader\_roc — Швидкість зміни: ((ціна/попередня ціна)-1)\*
 
 ### Опис
 

@@ -1,14 +1,15 @@
 ---
 navigation:
   - serializable.unserialize.md: '« Serializable::unserialize'
-  - closure.construct.md: 'Closure::construct »'
+  - closure.construct.md: 'Closure::\_\_construct »'
   - index.md: PHP Manual
   - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Клас Closure
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Closure
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -22,14 +23,9 @@ title: Клас Closure
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      final
-      class Closure
-     
+     final
+     class Closure
      {
 
     /* Методы */
@@ -46,8 +42,8 @@ public static fromCallable(callable $callback): Closure
 
 ## Зміст
 
--   [Closure::construct](closure.construct.md) - Конструктор, який забороняє створення екземпляра
--   [Closure::bind](closure.bind.md) — Дублює замикання із зазначенням конкретного зв'язаного об'єкта та області видимості класу
--   [Closure::bindTo](closure.bindto.md) — Дублює замикання із зазначенням пов'язаного об'єкта та області видимості класу
--   [Closure::call](closure.call.md) — Зв'язує та запускає замикання
--   [Closure::fromCallable](closure.fromcallable.md) — Конвертує callable у замикання
+-   [Closure::\_\_construct](closure.construct.md) \- Конструктор, який забороняє створення екземпляра
+-   [Closure::bind](closure.bind.md)— Дублює замикання із зазначенням конкретного зв'язаного об'єкта та області видимості класу
+-   [Closure::bindTo](closure.bindto.md)— Дублює замикання із зазначенням пов'язаного об'єкта та області видимості класу
+-   [Closure::call](closure.call.md)— Зв'язує та запускає замикання
+-   [Closure::fromCallable](closure.fromcallable.md)— Конвертує callable у замикання

@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli.get-host-info.md: '« mysqli::$hostinfo'
-  - mysqli.get-server-info.md: 'mysqli::$serverinfo »'
+  - mysqli.get-host-info.md: '« mysqli::$host\_info'
+  - mysqli.get-server-info.md: 'mysqli::$server\_info »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::$protocolversion'
+title: 'mysqli::$protocol\_version'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::$protocolversion
+# mysqli::$protocol\_version
 
-# mysqligetprotoinfo
+# mysqli\_get\_proto\_info
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$protocolversion -- mysqligetprotoinfo — Повертає версію протоколу, що використовується MySQL
+mysqli::$protocol\_version -- mysqli\_get\_proto\_info — Повертає версію протоколу, що використовується MySQL
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli->protocolversion](mysqli.get-proto-info.md)
+int[$mysqli->protocol\_version](mysqli.get-proto-info.md)
 
 Процедурний стиль
 
@@ -32,7 +33,7 @@ mysqli_get_proto_info(mysqli $mysql): int
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -40,25 +41,18 @@ mysqli_get_proto_info(mysqli $mysql): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання $mysqli->protocolversion**
+**Приклад #1 Приклад використання $mysqli->protocol\_version**
 
 Об'єктно-орієнтований стиль
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password");
 
-/* Проверить соединение */
-if (mysqli_connect_errno()) {
-    printf("Подключение не удалось: %s\n", mysqli_connect_error());
-    exit();
-}
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password");
 
 /* Вывести версию протокола */
 printf("Версия протокола: %d\n", $mysqli->protocol_version);
-
-/* Закрыть соединение */
-$mysqli->close();
 ?>
 ```
 
@@ -66,28 +60,21 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password");
 
-/* Проверить соединение */
-if (mysqli_connect_errno()) {
-    printf("Подключение не удалось: %s\n", mysqli_connect_error());
-    exit();
-}
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password");
 
 /* Вывести версию протокола */
 printf("Версия протокола: %d\n", mysqli_get_proto_info($link));
-
-/* Закрыть соединение */
-mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
-Protocol version: 10
+Версия протокола: 10
 ```
 
 ### Дивіться також
 
--   [mysqligethostinfo()](mysqli.get-host-info.md) - Повертає рядок, що містить тип використовуваної сполуки
+-   [mysqli\_get\_host\_info()](mysqli.get-host-info.md) \- Повертає рядок, що містить тип використовуваної сполуки

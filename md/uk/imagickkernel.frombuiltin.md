@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagickkernel.md: ImagickKernel
 title: 'ImagickKernel::fromBuiltIn'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickKernel::fromBuiltIn
 
 (PECL imagick >= 3.3.0)
 
-ImagickKernel::fromBuiltIn — Опис
+ImagickKernel::fromBuiltIn — Створює ядро ​​із вбудованого ядра
 
 ### Опис
 
@@ -18,13 +19,13 @@ ImagickKernel::fromBuiltIn — Опис
 public static ImagickKernel::fromBuiltin(int $kernelType, string $kernelString): ImagickKernel
 ```
 
-Створює ядро ​​із вбудованого ядра. Дивіться приклади [http://www.imagemagick.org/Usage/morphology/#kernel](http://www.imagemagick.org/Usage/morphology/#kernel). В даний час символи обертання не підтримуються. Приклад: $diamondKernel = ImagickKernel::fromBuiltIn(Imagick::KERNELDIAMOND, "2");
+Створює ядро ​​із вбудованого ядра. Дивіться приклади [http://www.imagemagick.org/Usage/morphology/#kernel](http://www.imagemagick.org/Usage/morphology/#kernel). . В даний час символи обертання не підтримуються. Приклад: $diamondKernel = ImagickKernel::fromBuiltIn(\\Imagick::KERNEL\_DIAMOND, "2");
 
 ### Список параметрів
 
 `kerneltype`
 
-Тип ядра для збирання, наприклад, Imagick::KERNELDIAMOND
+Тип ядра для сборки, например,\\Imagick::KERNEL\_DIAMOND
 
 `kernelString`
 
@@ -34,7 +35,7 @@ public static ImagickKernel::fromBuiltin(int $kernelType, string $kernelString):
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickKernel::fromBuiltin()****
+**Пример #1 Пример использования**ImagickKernel::fromBuiltin()\*\*\*\*
 
 ```php
 <?php

@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-statement.getresult.md: '« Statement::getResult'
-  - class.mysql-xdevapi-table.md: mysqlxdevapiTable »
+  - class.mysql-xdevapi-table.md: mysql\_xdevapi\\Table »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-statement.md: mysqlxdevapiStatement
+  - class.mysql-xdevapi-statement.md: mysql\_xdevapi\\Statement
 title: 'Statement::hasMoreResults'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Statement::hasMoreResults
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\Statement::hasMoreResults(): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Statement::hasMoreResults(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiStatement::hasMoreResults()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Statement::hasMoreResults()\*\*\*\*
 
 ```php
 <?php

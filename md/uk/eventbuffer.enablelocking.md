@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::enableLocking'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBuffer::enableLocking
 
 (PECL event >= 1.2.6-beta)
 
-EventBuffer::enableLocking -
+EventBuffer::enableLocking —
 
 ### Опис
 
@@ -31,4 +32,4 @@ public
 
 ### Дивіться також
 
--   [» Evbuffers та Thread-безпека](http://www.wangafu.net/~nickm/libevent-book/Ref7_evbuffer.md#_evbuffers_and_thread_safety)
+-   [» Evbuffers та Thread-безпека](http://www.wangafu.net/~nickm/libevent-book/Ref7_evbuffer.md#_evbuffers_and_thread_safety)

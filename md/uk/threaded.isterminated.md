@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.threaded.md: Threaded
 title: 'Threaded::isTerminated'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Threaded::isTerminated
 
@@ -46,7 +47,7 @@ var_dump($my->isTerminated());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)

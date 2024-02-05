@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ibase-query.md: « ibasequery
-  - function.ibase-rollback-ret.md: ibaserollbackret »
+  - function.ibase-query.md: « ibase\_query
+  - function.ibase-rollback-ret.md: ibase\_rollback\_ret »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaserestore
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_restore
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaserestore
+# ibase\_restore
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaserestore — Запуск завдання відновлення в диспетчері служб і негайно повертається
+ibase\_restore — Запуск завдання відновлення в диспетчері служб і негайно повертається
 
 ### Опис
 
 ```methodsynopsis
-ibase_restore(    resource $service_handle,    string $source_file,    string $dest_db,    int $options = 0,    bool $verbose = false): mixed
+ibase_restore(    resource $service_handle,    string $source_file,    string $dest_db,    int $options = 0,    bool $verbose = false): mixed
 ```
 
 Ця функція передає аргументи (віддаленому) серверу бази даних. Там вона розпочинає новий процес відновлення. Тому ви не отримаєте жодної відповіді.
@@ -44,13 +45,13 @@ ibase_restore(    resource $service_handle,    string $source_file,    string $d
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 Оскільки процес відновлення виконується на (віддаленому) сервері, ця функція просто передає йому аргументи. Якщо аргументи недійсні, то повернеться **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibaserestore()****
+**Пример #1 Пример использования**ibase\_restore()\*\*\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ ibase_service_detach ($service);
 ?>
 ```
 
-**Приклад #2 Приклад використання **ibaserestore()** з аргументами**
+**Пример #2 Пример использования**ibase\_restore()\*\* з аргументами\*\*
 
 ```php
 <?php
@@ -88,4 +89,4 @@ ibase_service_detach ($service);
 
 ### Дивіться також
 
--   [ibasebackup()](function.ibase-backup.md) - Ініціює завдання резервного копіювання у диспетчері служб та негайно повертає
+-   [ibase\_backup()](function.ibase-backup.md) \- Ініціює завдання резервного копіювання у диспетчері служб та негайно повертає

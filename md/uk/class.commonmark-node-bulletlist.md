@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.commonmark-node-blockquote.md: « CommonMarkNodeBlockQuote
-  - commonmark-node-bulletlist.construct.md: 'CommonMarkNodeBulletList::construct »'
+  - class.commonmark-node-blockquote.md: « CommonMark\\Node\\BlockQuote
+  - commonmark-node-bulletlist.construct.md: 'CommonMark\\Node\\BulletList::\_\_construct »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: BulletList успадковує CommonMarkNode
+title: BulletList успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# BulletList успадковує CommonMarkNode
+# BulletList успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 
@@ -103,4 +104,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNodeBulletList::construct](commonmark-node-bulletlist.construct.md) - Конструктор класу BulletList
+-   [CommonMark\\Node\\BulletList::\_\_construct](commonmark-node-bulletlist.construct.md) \- Конструктор класу BulletList

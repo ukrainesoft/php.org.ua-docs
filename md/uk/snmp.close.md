@@ -1,14 +1,15 @@
 ---
 navigation:
   - class.snmp.md: « SNMP
-  - snmp.construct.md: 'SNMP::construct »'
+  - snmp.construct.md: 'SNMP::\_\_construct »'
   - index.md: PHP Manual
   - class.snmp.md: SNMP
 title: 'SNMP::close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SNMP::close
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SNMP::close — Закриває сесію SNMP
 
@@ -26,11 +27,11 @@ public SNMP::close(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SNMP::close()****
+**Пример #1 Пример использования**SNMP::close()\*\*\*\*
 
 ```php
 <?php
@@ -44,4 +45,4 @@ public SNMP::close(): bool
 
 ### Дивіться також
 
--   [SNMP::construct()](snmp.construct.md) - Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP
+-   [SNMP::\_\_construct()](snmp.construct.md) \- Створює екземпляр SNMP, що представляє сесію віддаленого агента SNMP

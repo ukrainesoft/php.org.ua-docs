@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-defined-vars.md: « getdefinedvars
-  - function.get-resource-type.md: getresourcetype »
+  - function.get-defined-vars.md: « get\_defined\_vars
+  - function.get-resource-type.md: get\_resource\_type »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
-title: getresourceід
+title: get\_resource\_id
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getresourceід
+# get\_resource\_id
 
 (PHP 8)
 
-getresourceid — Повертає цілий ідентифікатор для цього ресурсу
+get\_resource\_id — Повертає цілий ідентифікатор для цього ресурсу
 
 ### Опис
 
@@ -34,7 +35,7 @@ get_resource_id(resource $resource): int
 
 ### Приклади
 
-**Приклад #1 Використання **getresourceid()** дає той самий результат, як і приведення до цілого числа (int)**
+**Пример #1 Использование**get\_resource\_id()\*\* дає той самий результат, як і приведення до цілого числа (int)\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ echo get_resource_id($handle);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 698
@@ -57,4 +58,4 @@ echo get_resource_id($handle);
 
 ### Дивіться також
 
--   [getresourcetype()](function.get-resource-type.md) - Повертає тип ресурсу
+-   [get\_resource\_type()](function.get-resource-type.md) \- Повертає тип ресурсу

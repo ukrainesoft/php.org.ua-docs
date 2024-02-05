@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pathCurveToAbsolute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::pathCurveToAbsolute
 
@@ -15,12 +16,12 @@ ImagickDraw::pathCurveToAbsolute — Малює кубічну криву Без
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::pathCurveToAbsolute(    float $x1,    float $y1,    float $x2,    float $y2,    float $x,    float $y): bool
+public ImagickDraw::pathCurveToAbsolute(    float $x1,    float $y1,    float $x2,    float $y2,    float $x,    float $y): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Малює кубичну криву Безьє від поточної точки до (x,y), використовуючи (x1,y1) як контрольну точку на початку кривої і (x2,y2) як контрольну точку в кінці кривої з використанням абсолютних координат. Наприкінці команди нова поточна точка стає останньою парою координат (x, y), що використовується в кубічній кривій Безьє.
 

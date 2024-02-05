@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-cursor.construct.md: '« MongoDBDriverCursor::construct'
-  - mongodb-driver-cursor.getid.md: 'MongoDBDriverCursor::getId »'
+  - mongodb-driver-cursor.construct.md: '« MongoDB\\Driver\\Cursor::\_\_construct'
+  - mongodb-driver-cursor.getid.md: 'MongoDB\\Driver\\Cursor::getId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
-title: 'MongoDBDriverCursor::current'
+  - class.mongodb-driver-cursor.md: MongoDB\\Driver\\Cursor
+title: 'MongoDB\\Driver\\Cursor::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverCursor::current
+# MongoDB\\Driver\\Cursor::current
 
 (mongodb >=1.9.0)
 
-MongoDBDriverCursor::current — Повертає поточний елемент
+MongoDB\\Driver\\Cursor::current — Повертає поточний елемент
 
 ### Опис
 
@@ -28,4 +29,4 @@ public MongoDB\Driver\Cursor::current(): array|object|null
 
 ### Дивіться також
 
--   [Iterator::current()](iterator.current.md) - Повернення поточного елемента
+-   [Iterator::current()](iterator.current.md) \- Повернення поточного елемента

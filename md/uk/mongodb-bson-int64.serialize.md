@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-int64.jsonserialize.md: '« MongoDBBSONInt64::jsonSerialize'
-  - mongodb-bson-int64.tostring.md: 'MongoDBBSONInt64::toString »'
+  - mongodb-bson-int64.jsonserialize.md: '« MongoDB\\BSON\\Int64::jsonSerialize'
+  - mongodb-bson-int64.tostring.md: 'MongoDB\\BSON\\Int64::\_\_toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-int64.md: MongoDBBSONInt64
-title: 'MongoDBBSONInt64::serialize'
+  - class.mongodb-bson-int64.md: MongoDB\\BSON\\Int64
+title: 'MongoDB\\BSON\\Int64::serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONInt64::serialize
+# MongoDB\\BSON\\Int64::serialize
 
 (mongodb >=1.5.0)
 
-MongoDBBSONInt64::serialize — Серіалізує Int64
+MongoDB\\BSON\\Int64::serialize — Серіалізує Int64
 
 ### Опис
 
@@ -24,14 +25,14 @@ final public MongoDB\BSON\Int64::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONInt64](class.mongodb-bson-int64.md)
+Возвращает сериализованное представление[MongoDB\\BSON\\Int64](class.mongodb-bson-int64.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONInt64::unserialize()](mongodb-bson-int64.unserialize.md) - Десеріалізує Int64
--   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [MongoDB\\BSON\\Int64::unserialize()](mongodb-bson-int64.unserialize.md) \- Десеріалізує Int64
+-   [serialize()](function.serialize.md) \- Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

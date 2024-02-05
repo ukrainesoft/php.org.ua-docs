@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-commandstartedevent.md: « MongoDBDriverMonitoringCommandStartedEvent
-  - mongodb-driver-monitoring-commandstartedevent.getcommandname.md: 'MongoDBDriverMonitoringCommandStartedEvent::getCommandName »'
+  - class.mongodb-driver-monitoring-commandstartedevent.md: « MongoDB\\Driver\\Monitoring\\CommandStartedEvent
+  - mongodb-driver-monitoring-commandstartedevent.getcommandname.md: 'MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getCommandName »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandstartedevent.md: MongoDBDriverMonitoringCommandStartedEvent
-title: 'MongoDBDriverMonitoringCommandStartedEvent::getCommand'
+  - class.mongodb-driver-monitoring-commandstartedevent.md: MongoDB\\Driver\\Monitoring\\CommandStartedEvent
+title: 'MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getCommand'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringCommandStartedEvent::getCommand
+# MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getCommand
 
 (mongodb >=1.3.0)
 
-MongoDBDriverMonitoringCommandStartedEvent::getCommand — Повертає документ команди
+MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getCommand — Повертає документ команди
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverMonitoringCommandStartedEvent::getCommand — Повертає до
 final public MongoDB\Driver\Monitoring\CommandStartedEvent::getCommand(): object
 ```
 
-Документ відповіді буде перетворено з BSON в PHP, використовуючи правила [десериализации](mongodb.persistence.deserialization.md) (наприклад, документи BSON будуть перетворені на stdClass).
+Документ ответа будет преобразован из BSON в PHP используя правила[десеріалізації](mongodb.persistence.deserialization.md) (наприклад, документи BSON будуть перетворені на [stdClass](class.stdclass.md)
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ final public MongoDB\Driver\Monitoring\CommandStartedEvent::getCommand(): object
 
 ### Значення, що повертаються
 
-Повертає документ команди у вигляді об'єкту **stdClass**
+Повертає документ команди у вигляді об'єкту [stdClass](class.stdclass.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - reserved.variables.environment.md: ENV
-  - reserved.variables.phperrormsg.md: $phperrormsg »
+  - reserved.variables.environment.md: « $\_ENV
+  - reserved.variables.phperrormsg.md: $php\_errormsg »
   - index.md: PHP Manual
   - reserved.variables.md: Зумовлені змінні
-title: COOKIE
+title: $\_COOKIE
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# COOKIE
+# $\_COOKIE
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-COOKIE - HTTP Cookies
+$\_COOKIE — HTTP Cookies
 
 ### Опис
 
@@ -18,7 +19,7 @@ COOKIE - HTTP Cookies
 
 ### Приклади
 
-**Приклад #1 Приклад використання $COOKIE**
+**Приклад #1 Приклад використання $\_COOKIE**
 
 ```php
 <?php
@@ -28,7 +29,7 @@ echo 'Привет, ' . htmlspecialchars($_COOKIE["name"]) . '!';
 
 Припустимо, що значення cookie з ім'ям "name" було встановлено раніше.
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Привет, Иван!
@@ -36,12 +37,12 @@ echo 'Привет, ' . htmlspecialchars($_COOKIE["name"]) . '!';
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Це 'суперглобальна' або автоматична глобальна змінна. Це просто означає, що вона доступна у всіх контекстах скрипту. Немає необхідності виконувати **global $variable;** для доступу до неї всередині методу чи функції.
+> Це «суперглобальна» чи автоматична глобальна змінна. Це просто означає, що вона доступна у всіх контекстах скрипту. Немає необхідності виконувати **global $variable;** для доступу до неї всередині методу чи функції.
 
 ### Дивіться також
 
--   [setcookie()](function.setcookie.md) - Надсилає cookie
+-   [setcookie()](function.setcookie.md) \- Надсилає cookie
 -   [Обробка зовнішніх змінних](language.variables.external.md)
 -   [Фільтрування даних](book.filter.md)

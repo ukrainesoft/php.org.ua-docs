@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::tolower'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::tolower
 
 (PHP 7, PHP 8)
 
-IntlChar::tolower — Перетворення символу Unicode на нижній регістр
+IntlChar::tolower — Перетворює символ Unicode на нижній регістр
 
 ### Опис
 
@@ -24,11 +25,11 @@ public static IntlChar::tolower(int|string $codepoint): int|string|null
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
-Повертає SimpleLowercaseMapping для символу, якщо існує. Якщо ні, повертає вихідний символ. У разі виникнення помилки повертає **`null`**
+Повертає Simple\_Lowercase\_Mapping для символу, якщо існує. Якщо ні, повертає вихідний символ. У разі виникнення помилки повертає **`null`**
 
 Тип, що повертається повинен бути int, якщо тільки символ не був переданий як рядок UTF-8 (string), у цьому випадку повернеться рядок (string). У разі виникнення помилки повертає **`null`**
 
@@ -48,7 +49,7 @@ var_dump(IntlChar::tolower(ord("a")));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(1) "a"
@@ -62,6 +63,6 @@ int(97)
 
 ### Дивіться також
 
--   [IntlChar::totitle()](intlchar.totitle.md) - Перетворює символ Unicode у titlecase
--   [IntlChar::toupper()](intlchar.toupper.md) - Перетворення символу Unicode у верхній регістр
--   [мбstrtolower()](function.mb-strtolower.md) - Приведення рядка до нижнього регістру
+-   [IntlChar::totitle()](intlchar.totitle.md) \- Перетворює символ Unicode на титульний регістр (titlecase)
+-   [IntlChar::toupper()](intlchar.toupper.md) \- Перетворює символ Unicode у верхній регістр
+-   [mb\_strtolower()](function.mb-strtolower.md) \- Наводить рядок до нижнього регістру

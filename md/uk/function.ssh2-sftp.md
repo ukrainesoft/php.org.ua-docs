@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-sftp-unlink.md: « ssh2sftpunlink
-  - function.ssh2-shell.md: ssh2shell »
+  - function.ssh2-sftp-unlink.md: « ssh2\_sftp\_unlink
+  - function.ssh2-shell.md: ssh2\_shell »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2sftp
+title: ssh2\_sftp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2sftp
+# ssh2\_sftp
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2sftp - Ініціалізувати підсистему SFTP
+ssh2\_sftp - Ініціалізувати підсистему SFTP
 
 ### Опис
 
@@ -24,11 +25,11 @@ ssh2_sftp(resource $session): resource|false
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.md)
 
 ### Значення, що повертаються
 
-Цей метод повертає ресурс `SSH2 SFTP` для використання в інших функціях ssh2sftp() та обгортці [ssh2.sftp://](wrappers.ssh2.md) для fopen або **`false`** у разі виникнення помилки.
+Цей метод повертає ресурс `SSH2 SFTP` для використання в інших функціях ssh2\_sftp\_\*() та обгортці [ssh2.sftp://](wrappers.ssh2.md)для fopen или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -47,5 +48,5 @@ $stream = fopen('ssh2.sftp://' . intval($sftp) . '/path/to/file', 'r');
 
 ### Дивіться також
 
--   [ssh2scprecv()](function.ssh2-scp-recv.md) - Запит файлу через SCP
--   [ssh2scpsend()](function.ssh2-scp-send.md) - Надсилання файлу через SCP
+-   [ssh2\_scp\_recv()](function.ssh2-scp-recv.md) \- Запит файлу через SCP
+-   [ssh2\_scp\_send()](function.ssh2-scp-send.md) \- Надсилання файлу через SCP

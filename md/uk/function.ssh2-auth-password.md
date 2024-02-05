@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-auth-none.md: « ssh2authnone
-  - function.ssh2-auth-pubkey-file.md: ssh2authpubkeyfile »
+  - function.ssh2-auth-none.md: « ssh2\_auth\_none
+  - function.ssh2-auth-pubkey-file.md: ssh2\_auth\_pubkey\_file »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2authpassword
+title: ssh2\_auth\_password
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2authpassword
+# ssh2\_auth\_password
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2authpassword — Аутентифікація через SSH за допомогою звичайного пароля
+ssh2\_auth\_password — Аутентифікація через SSH за допомогою звичайного пароля
 
 ### Опис
 
@@ -24,7 +25,7 @@ ssh2_auth_password(resource $session, string $username, string $password): bool
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.md)
 
 `username`
 
@@ -32,11 +33,11 @@ ssh2_auth_password(resource $session, string $username, string $password): bool
 
 `password`
 
-Пароль для `username`
+Пароль для`username`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

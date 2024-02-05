@@ -3,8 +3,9 @@ navigation:
   - ev.suspend.md: '« Ev::suspend'
   - ev.verify.md: 'Ev::verify »'
   - index.md: PHP Manual
-  - class.ev.md: Єв
+  - class.ev.md: Ev
 title: 'Ev::time'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Ev::time
 
@@ -33,4 +34,4 @@ final
 
 ### Дивіться також
 
--   [Ev::now()](ev.now.md) - Отримати час запуску останньої ітерації циклу за замовчуванням
+-   [Ev::now()](ev.now.md) \- Отримати час запуску останньої ітерації циклу за замовчуванням

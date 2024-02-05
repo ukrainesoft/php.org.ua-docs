@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-sdamsubscriber.topologychanged.md: '« MongoDBDriverMonitoringSDAMSubscriber::topologyChanged'
-  - mongodb-driver-monitoring-sdamsubscriber.topologyopening.md: 'MongoDBDriverMonitoringSDAMSubscriber::topologyOpening »'
+  - mongodb-driver-monitoring-sdamsubscriber.topologychanged.md: '« MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyChanged'
+  - mongodb-driver-monitoring-sdamsubscriber.topologyopening.md: 'MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyOpening »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDBDriverMonitoringSDAMSubscriber
-title: 'MongoDBDriverMonitoringSDAMSubscriber::topologyClosed'
+  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDB\\Driver\\Monitoring\\SDAMSubscriber
+title: 'MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyClosed'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringSDAMSubscriber::topologyClosed
+# MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyClosed
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringSDAMSubscriber::topologyClosed — Метод сповіщення про закриття топології
+MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyClosed — Метод сповіщення про закриття топології
 
 ### Опис
 
@@ -22,7 +23,7 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::topologyClosed(MongoDB
 
 ### Список параметрів
 
-`event` [MongoDBDriverMonitoringTopologyClosedEvent](class.mongodb-driver-monitoring-topologyclosedevent.md)
+`event` [MongoDB\\Driver\\Monitoring\\TopologyClosedEvent](class.mongodb-driver-monitoring-topologyclosedevent.md)) .
 
 Об'єкт події, що містить інформацію про закриту топологію.
 
@@ -32,10 +33,10 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::topologyClosed(MongoDB
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverMonitoringTopologyClosedEvent](class.mongodb-driver-monitoring-topologyclosedevent.md)
--   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) - Глобальна реєстрація передплатника на подію моніторингу
--   [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) - реєструє передплатника на подію моніторингу в даному об'єкті Manager
+-   [MongoDB\\Driver\\Monitoring\\TopologyClosedEvent](class.mongodb-driver-monitoring-topologyclosedevent.md)
+-   [MongoDB\\Driver\\Monitoring\\addSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) \- Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDB\\Driver\\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) \- реєструє передплатника на подію моніторингу в даному об'єкті Manager

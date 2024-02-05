@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-multilineentry.settext.md: '« UIControlsMultilineEntry::setText'
-  - ui-controls-spin.construct.md: 'ОЙControlsSpin::construct »'
+  - ui-controls-multilineentry.settext.md: '« UI\\Controls\\MultilineEntry::setText'
+  - ui-controls-spin.construct.md: 'UI\\Controls\\Spin::\_\_construct »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Спін"
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Спін"
 
@@ -61,7 +62,7 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsSpin::construct](ui-controls-spin.construct.md) - Створює новий об'єкт Spin
--   [ОЙControlsSpin::getValue](ui-controls-spin.getvalue.md) — Отримати значення
--   [ОЙControlsSpin::onChange](ui-controls-spin.onchange.md) - Обробник зміни
--   [ОЙControlsSpin::setValue](ui-controls-spin.setvalue.md) — Встановити значення
+-   [UI\\Controls\\Spin::\_\_construct](ui-controls-spin.construct.md) \- Створює новий об'єкт Spin
+-   [UI\\Controls\\Spin::getValue](ui-controls-spin.getvalue.md)— Отримати значення
+-   [UI\\Controls\\Spin::onChange](ui-controls-spin.onchange.md) \- Обробник зміни
+-   [UI\\Controls\\Spin::setValue](ui-controls-spin.setvalue.md)— Встановити значення

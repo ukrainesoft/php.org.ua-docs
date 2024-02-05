@@ -5,16 +5,17 @@ navigation:
   - index.md: PHP Manual
   - class.resourcebundle.md: ResourceBundle
 title: 'ResourceBundle::create'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ResourceBundle::create
 
-# resourcebundlecreate
+# resourcebundle\_create
 
-# ResourceBundle::construct
+# ResourceBundle::\_\_construct
 
 (PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-ResourceBundle::create -- resourcebundlecreate -- ResourceBundle::construct — Створити пакет ресурсів
+ResourceBundle::create -- resourcebundle\_create -- ResourceBundle::\_\_construct — Створити пакет ресурсів
 
 ### Опис
 
@@ -32,7 +33,7 @@ resourcebundle_create(?string $locale, ?string $bundle, bool $fallback = true): 
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public **ResourceBundle::construct**(?string `$locale`, ?string `$bundle`, bool `$fallback` **`true`**
+public**ResourceBundle::\_\_construct**(?string`$locale`, ?string`$bundle`, bool`$fallback` **`true`**) .
 
 Створює пакет ресурсів.
 
@@ -40,7 +41,7 @@ public **ResourceBundle::construct**(?string `$locale`, ?string `$bundle`, bool 
 
 `locale`
 
-Локаль для якої необхідно завантажувати ресурси (ім'я локалі, наприкладRU).
+Локаль для якої необхідно завантажувати ресурси (ім'я локалі, наприклад\_RU).
 
 `bundle`
 
@@ -52,11 +53,11 @@ public **ResourceBundle::construct**(?string `$locale`, ?string `$bundle`, bool 
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ResourceBundle](class.resourcebundle.md) або **`null`** у разі виникнення помилки.
+Повертає об'єкт [ResourceBundle](class.resourcebundle.md)или\*\*`null`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **resourcebundlecreate()****
+**Пример #1 Пример использования**resourcebundle\_create()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ echo $r['teststring'];
 ?>
 ```
 
-**Приклад #2 Приклад використання **ResourceBundle::create()****
+**Пример #2 Пример использования**ResourceBundle::create()\*\*\*\*
 
 ```php
 <?php
@@ -74,7 +75,7 @@ echo $r['teststring'];
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 ¡Hola, mundo!
@@ -82,4 +83,4 @@ echo $r['teststring'];
 
 ### Дивіться також
 
--   [resourcebundleget()](resourcebundle.get.md) - Отримати дані з пакета
+-   [resourcebundle\_get()](resourcebundle.get.md) \- Отримати дані з пакета

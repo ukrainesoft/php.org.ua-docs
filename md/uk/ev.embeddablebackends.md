@@ -3,10 +3,11 @@ navigation:
   - ev.depth.md: '« Ev::depth'
   - ev.feedsignal.md: 'Ev::feedSignal »'
   - index.md: PHP Manual
-  - class.ev.md: Єв
-title: 'Ev:: embeddableBackends'
+  - class.ev.md: Ev
+title: 'Ev::embeddableBackends'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Ev:: embeddableBackends
+# Ev::embeddableBackends
 
 (PECL ev >= 0.2.0)
 
@@ -67,7 +68,7 @@ if (!$socket_loop) {
 ### Дивіться також
 
 -   [EvEmbed](class.evembed.md)
--   [Ev::recommendedBackends()](ev.recommendedbackends.md) - Отримати бітову маску рекомендованих бекендів для даної платформи
--   [Ev::supportedBackends()](ev.supportedbackends.md) - Повертає набір бекендів, які підтримуються поточною конфігурацією libev
+-   [Ev::recommendedBackends()](ev.recommendedbackends.md) \- Отримати бітову маску рекомендованих бекендів для даної платформи
+-   [Ev::supportedBackends()](ev.supportedbackends.md) \- Повертає набір бекендів, які підтримуються поточною конфігурацією libev
 -   [Прапори бекенда](class.ev.md#ev.constants.watcher-backends)
 -   [Приклади](ev.examples.md)

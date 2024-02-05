@@ -1,10 +1,11 @@
 ---
 navigation:
-  - svmmodel.construct.md: '« SVMModel::construct'
+  - svmmodel.construct.md: '« SVMModel::\_\_construct'
   - svmmodel.getnrclass.md: 'SVMModel::getNrClass »'
   - index.md: PHP Manual
   - class.svmmodel.md: SVMModel
 title: 'SVMModel::getLabels'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SVMModel::getLabels
 
@@ -30,4 +31,4 @@ public SVMModel::getLabels(): array
 
 ### Дивіться також
 
--   [SVMModel::getNrClass()](svmmodel.getnrclass.md) - Повертає кількість класів, для яких навчалась модель
+-   [SVMModel::getNrClass()](svmmodel.getnrclass.md) \- Повертає кількість класів, для яких навчалась модель

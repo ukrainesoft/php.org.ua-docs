@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.dbase-numrecords.md: « dbasenumrecords
-  - function.dbase-pack.md: dbasepack »
+  - function.dbase-numrecords.md: « dbase\_numrecords
+  - function.dbase-pack.md: dbase\_pack »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
-title: dbaseopen
+title: dbase\_open
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dbaseopen
+# dbase\_open
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-dbaseopen — Відкриває базу даних
+dbase\_open — Відкриває базу даних
 
 ### Опис
 
@@ -18,11 +19,11 @@ dbaseopen — Відкриває базу даних
 dbase_open(string $path, int $mode): resource|false
 ```
 
-**dbaseopen()** відкриває базу даних dBase із заданим режимом доступу.
+**dbase\_open()** відкриває базу даних dBase із заданим режимом доступу.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> На поведінку цієї функції впливає значення директиви [openbasedir](ini.core.md#ini.open-basedir)
+> На поведінку цієї функції впливає значення директиви [open\_basedir](ini.core.md#ini.open-basedir)
 
 ### Список параметрів
 
@@ -34,21 +35,21 @@ dbase_open(string $path, int $mode): resource|false
 
 Ціле число, яке відповідає аналогічному у системному виклику **open()** (Зазвичай 0 означає режим для читання, 1 - режим для запису, і 2 - режим для читання та запису).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ви не можете відкрити файл в dBase в режимі тільки для запису, тому що функція буде не в змозі читати інформацію із заголовка БД, і, таким чином, ви не можете використовувати 1 як значення `mode`
 
-З версії dbase 7.0.0 можна використовувати **`DBASE_RDONLY`** і **`DBASE_RDWR`**, для завдання режиму відкриття бази `mode`
+З версії dbase 7.0.0 можна використовувати **`DBASE_RDONLY`**и**`DBASE_RDWR`**, для завдання режиму відкриття бази `mode`
 
 ### Значення, що повертаються
 
-Повертає ресурс бази даних у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс бази даних у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
+| dbase 7.0.0 | Параметр`database` тепер має тип resource, а не int. |
 
 ### Приклади
 
@@ -71,5 +72,5 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbasecreate()](function.dbase-create.md) - Створює базу даних
--   [dbaseclose()](function.dbase-close.md) - Закриває базу даних
+-   [dbase\_create()](function.dbase-create.md) \- Створює базу даних
+-   [dbase\_close()](function.dbase-close.md) \- Закриває базу даних

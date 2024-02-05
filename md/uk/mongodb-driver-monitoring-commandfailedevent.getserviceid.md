@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.md: '« MongoDBDriverMonitoringCommandFailedEvent::getServerConnectionId'
-  - class.mongodb-driver-monitoring-commandstartedevent.md: MongoDBDriverMonitoringCommandStartedEvent »
+  - mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.md: '« MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getServerConnectionId'
+  - class.mongodb-driver-monitoring-commandstartedevent.md: MongoDB\\Driver\\Monitoring\\CommandStartedEvent »
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDBDriverMonitoringCommandFailedEvent
-title: 'MongoDBDriverMonitoringCommandFailedEvent::getServiceId'
+  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDB\\Driver\\Monitoring\\CommandFailedEvent
+title: 'MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getServiceId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringCommandFailedEvent::getServiceId
+# MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getServiceId
 
 (mongodb >=1.11.0)
 
-MongoDBDriverMonitoringCommandFailedEvent::getServiceId — Повертає ідентифікатор служби балансувальника навантаження для команди
+MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getServiceId — Повертає ідентифікатор служби балансувальника навантаження для команди
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverMonitoringCommandFailedEvent::getServiceId — Повертає і�
 final public MongoDB\Driver\Monitoring\CommandFailedEvent::getServiceId(): ?MongoDB\BSON\ObjectId
 ```
 
-Якщо драйвер підключено до кластера MongoDB через балансувальник навантаження, ідентифікатор служби відповідає полю `serviceId` у відповіді на команду `hello`
+Якщо драйвер підключено до кластера MongoDB через балансувальник навантаження, ідентифікатор служби відповідає полю `serviceId`в ответе на команду`hello`
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ final public MongoDB\Driver\Monitoring\CommandFailedEvent::getServiceId(): ?Mong
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

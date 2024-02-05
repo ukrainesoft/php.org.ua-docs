@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.pop.md: '« DsSequence::pop'
-  - ds-sequence.reduce.md: 'ДсSequence::reduce »'
+  - ds-sequence.pop.md: '« Ds\\Sequence::pop'
+  - ds-sequence.reduce.md: 'Ds\\Sequence::reduce »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::push'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::push'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::push
+# Ds\\Sequence::push
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::push — Додає значення до кінця послідовності
+Ds\\Sequence::push — Додає значення до кінця послідовності
 
 ### Опис
 
@@ -32,7 +33,7 @@ abstract public Ds\Sequence::push(mixed ...$values): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::push()****
+**Пример #1 Пример использования**Ds\\Sequence::push()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ print_r($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-ini.offsetunset.md: '« YafConfigIni::offsetUnset'
-  - yaf-config-ini.rewind.md: 'YafConfigIni::rewind »'
+  - yaf-config-ini.offsetunset.md: '« Yaf\_Config\_Ini::offsetUnset'
+  - yaf-config-ini.rewind.md: 'Yaf\_Config\_Ini::rewind »'
   - index.md: PHP Manual
-  - class.yaf-config-ini.md: YafConfigIni
-title: 'YafConfigIni::readonly'
+  - class.yaf-config-ini.md: Yaf\_Config\_Ini
+title: 'Yaf\_Config\_Ini::readonly'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigIni::readonly
+# Yaf\_Config\_Ini::readonly
 
 (Yaf >=1.0.0)
 
-YafConfigIni::readonly — призначення readonly
+Yaf\_Config\_Ini::readonly — призначення readonly
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Ini::readonly(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

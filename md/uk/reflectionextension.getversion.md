@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::getVersion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionExtension::getVersion
 
@@ -30,7 +31,7 @@ public ReflectionExtension::getVersion(): ?string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionExtension::getVersion()****
+**Пример #1 Пример использования**ReflectionExtension::getVersion()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump($ext->getVersion());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(3) "0.1"
@@ -47,4 +48,4 @@ string(3) "0.1"
 
 ### Дивіться також
 
--   [ReflectionExtension::info()](reflectionextension.info.md) - Виведення інформації про модуль
+-   [ReflectionExtension::info()](reflectionextension.info.md) \- Виведення інформації про модуль

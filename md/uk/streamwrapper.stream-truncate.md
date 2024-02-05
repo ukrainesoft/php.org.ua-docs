@@ -1,16 +1,17 @@
 ---
 navigation:
-  - streamwrapper.stream-tell.md: '« streamWrapper::streamtell'
-  - streamwrapper.stream-write.md: 'streamWrapper::streamwrite »'
+  - streamwrapper.stream-tell.md: '« streamWrapper::stream\_tell'
+  - streamwrapper.stream-write.md: 'streamWrapper::stream\_write »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
-title: 'streamWrapper::streamtruncate'
+title: 'streamWrapper::stream\_truncate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamWrapper::streamtruncate
+# streamWrapper::stream\_truncate
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
-streamWrapper::streamtruncate - Усічення потоку
+streamWrapper::stream\_truncate - Усічення потоку
 
 ### Опис
 
@@ -28,8 +29,8 @@ public streamWrapper::stream_truncate(int $new_size): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ftruncate()](function.ftruncate.md) - Урізує файл до вказаної довжини
+-   [ftruncate()](function.ftruncate.md) \- Урізує файл до вказаної довжини

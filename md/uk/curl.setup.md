@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.curl.md: « Введение
+  - intro.curl.md: '" Вступ'
   - curl.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.curl.md: cURL
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

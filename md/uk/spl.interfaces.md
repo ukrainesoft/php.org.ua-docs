@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.spl.md: SPL
 title: Інтерфейси
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейси
 
@@ -17,7 +18,7 @@ title: Інтерфейси
 
 SPL забезпечує набір інтерфейсів.
 
-Дивіться також [Вбудовані інтерфейси та класи](reserved.interfaces.md)
+Смотрите также [Вбудовані інтерфейси та класи](reserved.interfaces.md)
 
 ## Список інтерфейсів
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: strncmp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # strncmp
 
@@ -38,11 +39,17 @@ strncmp(string $string1, string $string2, int $length): int
 
 ### Значення, що повертаються
 
-Повертає негативне число, якщо `string1` менше `string2`, позитивне число, якщо `string1` більше `string2`, та 0, якщо рядки рівні.
+Повертає `-1`, якщо `string1`меньше`string2` , якщо `string1`больше`string2`, и якщо рядки рівні.
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Функція тепер повертає `-1`или ; раніше вона повертала негативне чи позитивне число. |
 
 ### Приклади
 
-**Приклад #1 **strncmp()** example**
+**Пример #1**strncmp()**example**
 
 ```php
 <?php
@@ -57,9 +64,9 @@ if (strncmp($var1, $var2, 5) === 0) {
 
 ### Дивіться також
 
--   [strncasecmp()](function.strncasecmp.md) - Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
--   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
--   [substrcompare()](function.substr-compare.md) - Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
--   [strcmp()](function.strcmp.md) - Бінарно-безпечне порівняння рядків
--   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
--   [substr()](function.substr.md) - Повертає підрядок
+-   [strncasecmp()](function.strncasecmp.md) \- Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
+-   [preg\_match()](function.preg-match.md) \- Виконує перевірку на відповідність регулярному виразу
+-   [substr\_compare()](function.substr-compare.md) \- Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
+-   [strcmp()](function.strcmp.md) \- Бінарно-безпечне порівняння рядків
+-   [strstr()](function.strstr.md) \- Знаходить перше входження підрядка
+-   [substr()](function.substr.md) \- Повертає підрядок

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.svmmodel.md: SVMModel
 title: 'SVMModel::getNrClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SVMModel::getNrClass
 

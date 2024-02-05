@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.pharfileinfo.md: PharFileInfo
 title: 'PharFileInfo::getMetadata'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharFileInfo::getMetadata
 
@@ -28,13 +29,13 @@ public PharFileInfo::getMetadata(array $unserializeOptions = []): mixed
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Доданий параметр `unserializeOptions` |
+| 8.0.0 | Добавлен параметр`unserializeOptions` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharFileInfo::getMetadata()****
+**Пример #1 Пример использования**PharFileInfo::getMetadata()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {
@@ -64,9 +65,9 @@ array(2) {
 
 ### Дивіться також
 
--   [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.md) - Встановлення метаданих для конкретного файлу
--   [PharFileInfo::hasMetadata()](pharfileinfo.hasmetadata.md) - Перевірити, чи є у файлу метадані
--   [PharFileInfo::delMetadata()](pharfileinfo.delmetadata.md) - Видалити метадані файлу
--   [Phar::setMetadata()](phar.setmetadata.md) - Встановити метадані phar-архіву
--   [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить phar-архів глобальні метадані
--   [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані phar-архіву
+-   [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.md) \- Встановлення метаданих для конкретного файлу
+-   [PharFileInfo::hasMetadata()](pharfileinfo.hasmetadata.md) \- Перевірити, чи є у файлу метадані
+-   [PharFileInfo::delMetadata()](pharfileinfo.delmetadata.md) \- Видалити метадані файлу
+-   [Phar::setMetadata()](phar.setmetadata.md) \- Встановити метадані phar-архіву
+-   [Phar::hasMetadata()](phar.hasmetadata.md) \- Перевірити, чи містить phar-архів глобальні метадані
+-   [Phar::getMetadata()](phar.getmetadata.md) \- Витягти метадані phar-архіву

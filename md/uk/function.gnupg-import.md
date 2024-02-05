@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.gnupg-gettrustlist.md: « gnupggettrustlist
-  - function.gnupg-init.md: gnupginit »
+  - function.gnupg-gettrustlist.md: « gnupg\_gettrustlist
+  - function.gnupg-init.md: gnupg\_init »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgimport
+title: gnupg\_import
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgimport
+# gnupg\_import
 
 (PECL gnupg >= 0.3)
 
-gnupgimport — Імпорт ключа
+gnupg\_import — Імпорт ключа
 
 ### Опис
 
 ```methodsynopsis
-gnupg_import(resource $identifier, string $keydata): array
+gnupg_import(resource $identifier, string $keydata): array|false
 ```
 
 Імпортує ключ `keydata` та повертає масив з інформацією про процес імпорту.
@@ -24,7 +25,7 @@ gnupg_import(resource $identifier, string $keydata): array
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `keydata`
 
@@ -36,7 +37,7 @@ gnupg_import(resource $identifier, string $keydata): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupgimport()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_import()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ print_r($info);
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupgimport()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_import()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

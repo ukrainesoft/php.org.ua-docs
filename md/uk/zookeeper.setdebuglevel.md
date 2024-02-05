@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::setDebugLevel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zookeeper::setDebugLevel
 
@@ -28,7 +29,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -36,11 +37,11 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0, цей метод генерує виняток [ZookeeperException](class.zookeeperexception.md) та його похідні.
+Починаючи з версії 0.3.0 цей метод генерує виняток [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Zookeeper::setDebugLevel()****
+**Пример #1 Пример использования**Zookeeper::setDebugLevel()\*\*\*\*
 
 Встановлення рівня логування
 
@@ -55,7 +56,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 SUCCESS
@@ -63,5 +64,5 @@ SUCCESS
 
 ### Дивіться також
 
--   [Уровень логирования ZooKeeper](class.zookeeper.md#zookeeper.class.constants.log-levels)
+-   [Рівень логування ZooKeeper](class.zookeeper.md#zookeeper.class.constants.log-levels)
 -   [ZookeeperException](class.zookeeperexception.md)

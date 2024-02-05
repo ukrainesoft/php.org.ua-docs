@@ -5,20 +5,21 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::importImagePixels'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::importImagePixels
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::importImagePixels — Імпортує пікселі зображення
 
 ### Опис
 
 ```methodsynopsis
-public Imagick::importImagePixels(    int $x,    int $y,    int $width,    int $height,    string $map,    int $storage,    array $pixels): bool
+public Imagick::importImagePixels(    int $x,    int $y,    int $width,    int $height,    string $map,    int $storage,    array $pixels): bool
 ```
 
-Імпортує пікселі з масиву до зображення . `map` зазвичай "RGB". Цей метод накладає такі обмеження на параметри: кількість пікселів у масиві має відповідати `width` з `height` кількість пікселів. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.5 або старшим.
+Импортирует пиксели из массива в изображение`map` зазвичай "RGB". Цей метод накладає такі обмеження на параметри: кількість пікселів у масиві має відповідати `width`x`height` кількість пікселів. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.5 або старшим.
 
 ### Список параметрів
 
@@ -44,7 +45,7 @@ public Imagick::importImagePixels(    int $x,    int $y,    int $width,    int $
 
 `storage`
 
-Спосіб зберігання пікселів. Дивіться список [констант пікселів](imagick.constants.md#imagick.constants.pixel)
+Метод хранения пикселей. Смотрите список[констант пікселів](imagick.constants.md#imagick.constants.pixel)
 
 `pixels`
 
@@ -60,12 +61,12 @@ public Imagick::importImagePixels(    int $x,    int $y,    int $width,    int $
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::importImagePixels()****
+**Пример #1 Пример использования**Imagick::importImagePixels()\*\*\*\*
 
 ```php
 <?php
 
-/* Создание Масива пикселей. 2000 пикселей на цветную полосу */
+/* Создание массива пикселей. 2000 пикселей на цветную полосу */
 $count = 2000 * 3;
 
 $pixels =
@@ -95,6 +96,6 @@ echo $im;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Приклад використання Imagick::importImagePixels()](images/c0d23d2d6769e53e24a1b3136c064577-importimagepixels.jpg)

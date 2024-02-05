@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcache.md: Memcache
 title: 'Memcache::getVersion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcache::getVersion
 
@@ -18,7 +19,7 @@ Memcache::getVersion — Повернути версію сервера
 Memcache::getVersion(): string|false
 ```
 
-**Memcache::getVersion()** повертає рядок із номером версії сервера. Також можна використовувати функцію **memcachegetversion()**
+**Memcache::getVersion()** повертає рядок із номером версії сервера. Також можна використовувати функцію **memcache\_get\_version()**
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ Memcache::getVersion(): string|false
 
 ### Значення, що повертаються
 
-Повертає рядок з номером версії сервера або **`false`** у разі виникнення помилки.
+Повертає рядок з номером версії сервера або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcache::getVersion()****
+**Пример #1 Пример использования**Memcache::getVersion()\*\*\*\*
 
 ```php
 <?php
@@ -49,5 +50,5 @@ echo memcache_get_version($memcache);
 
 ### Дивіться також
 
--   [Memcache::getExtendedStats()](memcache.getextendedstats.md) - Отримати статистику з усіх серверів у пулі
--   [Memcache::getStats()](memcache.getstats.md) - Отримати статистику сервера
+-   [Memcache::getExtendedStats()](memcache.getextendedstats.md) \- Отримати статистику з усіх серверів у пулі
+-   [Memcache::getStats()](memcache.getstats.md) \- Отримати статистику сервера

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::getHSL'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::getHSL
 
@@ -26,11 +27,11 @@ public ImagickPixel::getHSL(): array
 
 ### Значення, що повертаються
 
-Повертає HSL-значення у вигляді масиву з ключами "hue", "saturation" та "luminosity". У разі виникнення помилки буде викинуто виняток ImagickPixelException.
+Повертає HSL-значення у вигляді масиву з ключами "hue", "saturation" та "luminosity". У разі виникнення помилки буде викинуто виключення ImagickPixelException.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::getHSL()****
+**Пример #1 Пример использования**Imagick::getHSL()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($colorInfo);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -57,6 +58,6 @@ Array
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступно з бібліотекою ImageMagick версії 6.2.9 або вищою.

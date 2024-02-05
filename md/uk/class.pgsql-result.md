@@ -1,14 +1,15 @@
 ---
 navigation:
-  - class.pgsql-connection.md: « PgSqlConnection
-  - class.pgsql-lob.md: PgSqlLob »
+  - class.pgsql-connection.md: « PgSql\\Connection
+  - class.pgsql-lob.md: PgSql\\Lob »
   - index.md: PHP Manual
   - book.pgsql.md: PostgreSQL
-title: Клас PgSqlResult
+title: Клас PgSql\\Result
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас PgSqlResult
+# Клас PgSql\\Result
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -16,19 +17,11 @@ title: Клас PgSqlResult
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-    
-     
-      final
-      class PgSql\Result
-     
+     final
+     class PgSql\Result
      {
-    
-
    }
 ```

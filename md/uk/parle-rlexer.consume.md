@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rlexer.callout.md: '« ParleRLexer::callout'
-  - parle-rlexer.dump.md: 'ParleRLexer::dump »'
+  - parle-rlexer.callout.md: '« Parle\\RLexer::callout'
+  - parle-rlexer.dump.md: 'Parle\\RLexer::dump »'
   - index.md: PHP Manual
-  - class.parle-rlexer.md: ParleRLexer
-title: 'ParleRLexer::consume'
+  - class.parle-rlexer.md: Parle\\RLexer
+title: 'Parle\\RLexer::consume'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRLexer::consume
+# Parle\\RLexer::consume
 
 (PECL parle >= 0.5.1)
 
-ParleRLexer::consume — Передає дані для обробки
+Parle\\RLexer::consume — Передає дані для обробки
 
 ### Опис
 
@@ -18,7 +19,7 @@ ParleRLexer::consume — Передає дані для обробки
 public Parle\RLexer::consume(string $data): void
 ```
 
-Споживає дані для лексингу.
+Використовує дані для лексингу.
 
 ### Список параметрів
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::setTimezone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeImmutable::setTimezone
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::setTimezone — Встановлює часовий пояс
 
@@ -28,11 +29,11 @@ public DateTimeImmutable::setTimezone(DateTimeZone $timezone): DateTimeImmutable
 
 ### Значення, що повертаються
 
-Повертає новий модифікований об'єкт [DateTimeImmutable](class.datetimeimmutable.md) для ланцюжка методів. момент часу, що лежить в основі, не змінюється при виклику методу.
+Повертає новий модифікований об'єкт [DateTimeImmutable](class.datetimeimmutable.md) для ланцюжка методів. Момент часу, що лежить в основі, не змінюється при виклику методу.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTimeImmutable::setTimeZone()****
+**Пример #1 Пример использования**DateTimeImmutable::setTimeZone()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -46,7 +47,7 @@ echo $newDate->format('Y-m-d H:i:sP') . "\n";
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 2000-01-01 00:00:00+12:00
@@ -55,5 +56,5 @@ echo $newDate->format('Y-m-d H:i:sP') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::getTimezone()](datetime.gettimezone.md) - Повертає часовий пояс щодо поточного значення DateTime
--   [DateTimeZone::construct()](datetimezone.construct.md) - Створює новий об'єкт DateTimeZone
+-   [DateTimeImmutable::getTimezone()](datetime.gettimezone.md) \- Повертає часовий пояс щодо поточного значення DateTime
+-   [DateTimeZone::\_\_construct()](datetimezone.construct.md) \- Створює новий об'єкт DateTimeZone

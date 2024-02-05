@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::getIntPropertyMinValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::getIntPropertyMinValue
 
@@ -28,7 +29,7 @@ public static IntlChar::getIntPropertyMinValue(int $property): int
 
 ### Значення, що повертаються
 
-Мінімальне значення, що повертається [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) для властивості Unicode . `0`якщо властивість не входить у допустимий діапазон.
+Минимальное значение, возвращаемое[IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md)для свойства Unicode якщо властивість не входить у допустимий діапазон.
 
 ### Приклади
 
@@ -43,7 +44,7 @@ var_dump(IntlChar::getIntPropertyMinValue(999999999)); // Some made-up value
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(0)
@@ -54,7 +55,7 @@ int(0)
 
 ### Дивіться також
 
--   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) - Перевірити бінарну властивість Unicode для символу
--   [IntlChar::getIntPropertyMaxValue()](intlchar.getintpropertymaxvalue.md) - Отримати мінімальне значення для властивості Unicode
--   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) - Отримати значення властивості Unicode для символу
--   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) - Отримати версію Unicode
+-   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) \- Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::getIntPropertyMaxValue()](intlchar.getintpropertymaxvalue.md) \- Отримати мінімальне значення для властивості Unicode
+-   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) \- Отримати значення властивості Unicode для символу
+-   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) \- Отримати версію Unicode

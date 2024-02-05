@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::function'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanTask::function
 
@@ -20,7 +21,7 @@ public GearmanTask::function(): string
 
 Повертає ім'я функції, з якою пов'язане це завдання. Цю функцію викликає обробник у процесі роботи з даними.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей метод було замінено на [GearmanTask::functionName()](gearmantask.functionname.md) у версії 0.6.0 модуля Gearman.
 

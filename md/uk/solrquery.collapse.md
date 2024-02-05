@@ -1,10 +1,11 @@
 ---
 navigation:
   - solrquery.addstatsfield.md: '« SolrQuery::addStatsField'
-  - solrquery.construct.md: 'SolrQuery::construct »'
+  - solrquery.construct.md: 'SolrQuery::\_\_construct »'
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::collapse'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::collapse
 
@@ -32,7 +33,7 @@ public SolrQuery::collapse(SolrCollapseFunction $collapseFunction): SolrQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrQuery::collapse()****
+**Пример #1 Пример использования**SolrQuery::collapse()\*\*\*\*
 
 ```php
 <?php
@@ -71,7 +72,7 @@ print_r($response);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object

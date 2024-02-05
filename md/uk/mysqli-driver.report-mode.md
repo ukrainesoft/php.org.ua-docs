@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli-driver.embedded-server-start.md: '« mysqlidriver::embeddedserverstart'
-  - class.mysqli-warning.md: mysqliwarning »
+  - mysqli-driver.embedded-server-start.md: '« mysqli\_driver::embedded\_server\_start'
+  - class.mysqli-warning.md: mysqli\_warning »
   - index.md: PHP Manual
-  - class.mysqli-driver.md: mysqlidriver
-title: 'mysqlidriver::$reportmode'
+  - class.mysqli-driver.md: mysqli\_driver
+title: 'mysqli\_driver::$report\_mode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlidriver::$reportmode
+# mysqli\_driver::$report\_mode
 
-# mysqlireport
+# mysqli\_report
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlidriver::$reportmode - mysqlireport — Встановлює режим звіту про помилки mysqli
+mysqli\_driver::$report\_mode -- mysqli\_report — Встановлює режим звіту про помилки mysqli
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int [$mysqlidriver->reportmode](mysqli-driver.report-mode.md)
+int[$mysqli\_driver->report\_mode](mysqli-driver.report-mode.md)
 
 Процедурний стиль
 
@@ -26,9 +27,9 @@ int [$mysqlidriver->reportmode](mysqli-driver.report-mode.md)
 mysqli_report(int $flags): bool
 ```
 
-Залежно від прапорів, функція встановлює режим звіту про помилки mysqli на виключення, попередження чи відсутність. Якщо встановлено значення **`MYSQLI_REPORT_ALL`** або **`MYSQLI_REPORT_INDEX`**, функція також інформуватиме про запити, які не використовують індекс (або використовують неправильний індекс).
+Залежно від прапорів, функція встановлює режим звіту про помилки mysqli на виключення, попередження чи відсутність. Якщо встановлено значення **`MYSQLI_REPORT_ALL`**или**`MYSQLI_REPORT_INDEX`**, функція також інформуватиме про запити, які не використовують індекс (або використовують неправильний індекс).
 
-Починаючи з PHP 8.1.0, за замовчуванням встановлено значення `MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT`. Раніше воно було **`MYSQLI_REPORT_OFF`**
+Начиная с PHP 8.1.0, по умолчанию установлено значение`MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT`. Раніше воно було **`MYSQLI_REPORT_OFF`**
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ mysqli_report(int $flags): bool
 
 **Прапори, що підтримуються**
 
-| Имя | Описание |
+| Имя | Опис |
 | --- | --- |
 | **`MYSQLI_REPORT_OFF`** | Вимкнути протоколювання |
 | **`MYSQLI_REPORT_ERROR`** | Заносити до протоколу помилки викликів функцій mysqli |
-| **`MYSQLI_REPORT_STRICT`** | Замість повідомлень про помилки викидати виняток [mysqlisqlexception](class.mysqli-sql-exception.md) |
+| **`MYSQLI_REPORT_STRICT`** | Замість повідомлень про помилки викидати виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.md) |
 | **`MYSQLI_REPORT_INDEX`** | Заносити до протоколу факти використання у запитах невірного індексу (або коли індекс не використовується взагалі) |
 | **`MYSQLI_REPORT_ALL`** | Увімкнути всі налаштування (заносити до протоколу всі події) |
 
@@ -50,9 +51,9 @@ mysqli_report(int $flags): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер за замовчуванням встановлено значення \`MYSQLI\_REPORT\_ERROR |
+| 8.1.0 | Тепер за замовчуванням встановлено значення \`MYSQLI\_REPORT\_ERROR |
 
 ### Приклади
 
@@ -125,6 +126,6 @@ try {
 
 ### Дивіться також
 
--   [mysqlisqlexception](class.mysqli-sql-exception.md)
--   [setexceptionhandler()](function.set-exception-handler.md) - Задає користувальницький обробник винятків
--   [errorreporting()](function.error-reporting.md) - Задає, які помилки PHP потраплять у звіт
+-   [mysqli\_sql\_exception](class.mysqli-sql-exception.md)
+-   [set\_exception\_handler()](function.set-exception-handler.md) \- Задає користувальницький обробник винятків
+-   [error\_reporting()](function.error-reporting.md) \- Встановлює, які помилки PHP потраплять у звіт

@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.locale.md: Locale
 title: 'Locale::getDisplayRegion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Locale::getDisplayRegion
 
-# localegetdisplayregion
+# locale\_get\_display\_region
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::getDisplayRegion -- localegetdisplayregion — Повертає відповідним чином локалізовану назву регіону для заданої локалі
+Locale::getDisplayRegion -- locale\_get\_display\_region — Повертає відповідним чином локалізовану назву регіону для заданої локалі
 
 ### Опис
 
@@ -42,17 +43,17 @@ locale_get_display_region(string $locale, ?string $displayLocale = null): string
 
 ### Значення, що повертаються
 
-Назва регіону для `locale` у форматі локалі `displayLocale` або **`false`** у разі виникнення помилки.
+Название региона для`locale`в формате локали`displayLocale`или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `displayLocale` тепер допускає значення null. |
+| 8.0.0 | `displayLocale` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **localegetdisplayregion()****
+**Пример #1 Пример использования**locale\_get\_display\_region()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +77,7 @@ echo Locale::getDisplayRegion('sl-Latn-IT-nedis', 'de');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Italy;
@@ -86,7 +87,7 @@ Italien
 
 ### Дивіться також
 
--   [localegetdisplayname()](locale.getdisplayname.md) - Повертає відповідним чином локалізоване ім'я локалі
--   [localegetdisplaylanguage()](locale.getdisplaylanguage.md) - Повертає відповідним чином локалізоване ім'я мови для заданої локалі
--   [localegetdisplayscript()](locale.getdisplayscript.md) - Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
--   [localegetdisplayvariant()](locale.getdisplayvariant.md) - Повертає відповідним чином локалізовану назву варіанта для заданої локалі
+-   [locale\_get\_display\_name()](locale.getdisplayname.md) \- Повертає відповідним чином локалізоване ім'я локалі
+-   [locale\_get\_display\_language()](locale.getdisplaylanguage.md) \- Повертає відповідним чином локалізоване ім'я мови для заданої локалі
+-   [locale\_get\_display\_script()](locale.getdisplayscript.md) \- Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
+-   [locale\_get\_display\_variant()](locale.getdisplayvariant.md) \- Повертає відповідним чином локалізовану назву варіанта для заданої локалі

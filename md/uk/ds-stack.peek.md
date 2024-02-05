@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-stack.jsonserialize.md: '« DsStack::jsonSerialize'
-  - ds-stack.pop.md: 'ДсStack::pop »'
+  - ds-stack.jsonserialize.md: '« Ds\\Stack::jsonSerialize'
+  - ds-stack.pop.md: 'Ds\\Stack::pop »'
   - index.md: PHP Manual
-  - class.ds-stack.md: Стек
-title: 'ДсStack::peek'
+  - class.ds-stack.md: Ds\\Stack
+title: 'Ds\\Stack::peek'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсStack::peek
+# Ds\\Stack::peek
 
 (PECL ds >= 1.0.0)
 
-ДсStack::peek — Повертає значення з вершини стека
+Ds\\Stack::peek — Повертає значення з вершини стека
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Stack::peek(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсStack::peek()****
+**Пример #1 Пример использования**Ds\\Stack::peek()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($stack->peek());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "c"

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcache.md: Memcache
 title: 'Memcache::decrement'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcache::decrement
 
@@ -20,15 +21,15 @@ Memcache::decrement(string $key, int $value = 1): int|false
 
 **Memcache::decrement()** зменшує значення елемента на величину `value`. Аналогічно [Memcache::increment()](memcache.increment.md), поточне значення елемента наводиться до числового і після цього віднімається `value`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Нове значення елемента не може бути меншим за нуль.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Не використовуйте **Memcache::decrement()** з елементами, які були збережені за допомогою стиснення, тому що відповідний виклик [Memcache::get()](memcache.get.md) обернеться невдачею.
+> Не используйте**Memcache::decrement()** з елементами, які були збережені за допомогою стиснення, тому що відповідний виклик [Memcache::get()](memcache.get.md) обернеться невдачею.
 
-**Memcache::decrement()** *не* створює елемент, якщо він раніше не існував. Також можна використовувати функцію **memcachedecrement()**
+**Memcache::decrement()** *не* створює елемент, якщо він раніше не існував. Також можна використовувати функцію **memcache\_decrement()**
 
 ### Список параметрів
 
@@ -42,11 +43,11 @@ Memcache::decrement(string $key, int $value = 1): int|false
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає нове значення елемента або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає нове значення елемента або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcache::decrement()****
+**Пример #1 Пример использования**Memcache::decrement()\*\*\*\*
 
 ```php
 <?php
@@ -66,5 +67,5 @@ $new_value = $memcache_obj->decrement('test_item', 3);
 
 ### Дивіться також
 
--   [Memcache::increment()](memcache.increment.md) - Збільшити значення елемента
--   [Memcache::replace()](memcache.replace.md) - Замінити значення наявного елемента
+-   [Memcache::increment()](memcache.increment.md) \- Збільшити значення елемента
+-   [Memcache::replace()](memcache.replace.md) \- Замінити значення наявного елемента

@@ -4,17 +4,18 @@ navigation:
   - rrdcreator.save.md: 'RRDCreator::save »'
   - index.md: PHP Manual
   - class.rrdcreator.md: RRDCreator
-title: 'RRDCreator::construct'
+title: 'RRDCreator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# RRDCreator::construct
+# RRDCreator::\_\_construct
 
 (PECL rrd >= 0.9.0)
 
-RRDCreator::construct — Створює новий екземпляр [RRDCreator](class.rrdcreator.md)
+RRDCreator::\_\_construct — Створює новий екземпляр [RRDCreator](class.rrdcreator.md)
 
 ### Опис
 
-public **RRDCreator::construct**(string `$path`, string `$startTime` =?, int `$step`
+public**RRDCreator::\_\_construct**(string`$path`, string`$startTime`\= ?, int`$step`
 
 Створює новий екземпляр [RRDCreator](class.rrdcreator.md)
 

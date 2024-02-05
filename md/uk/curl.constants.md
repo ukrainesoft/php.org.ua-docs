@@ -5,1207 +5,1578 @@ navigation:
   - index.md: PHP Manual
   - book.curl.md: cURL
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.
 
-Описи та приклади застосування цих констант описані у документації функцій [curlsetopt()](function.curl-setopt.md) [curlmultisetopt()](function.curl-multi-setopt.md) і [curlgetinfo()](function.curl-getinfo.md)
+Описи та приклади роботи з цими константами викладені у документації функцій [curl\_setopt()](function.curl-setopt.md) [curl\_multi\_setopt()](function.curl-multi-setopt.md) і [curl\_getinfo()](function.curl-getinfo.md)
 
-**`CURLOPT_AUTOREFERER`** (int)
+**`CURLOPT_AUTOREFERER`**(int)
 
-**`CURLOPT_COOKIESESSION`** (int)
+**`CURLOPT_COOKIESESSION`**(int)
 
-**`CURLOPT_DOH_URL`** (int)
+**`CURLOPT_DOH_URL`**(int)
 
-Надає URL-адресу DNS-over-HTTPS. Доступно, починаючи з PHP 8.1.0 та cURL 7.62.0.
+Вказує URL-адресу сервера DNS поверх HTTPS. Доступна з PHP 8.1.0 та cURL 7.62.0.
 
-**`CURLOPT_DNS_USE_GLOBAL_CACHE`** (int)
+**`CURLOPT_DOH_SSL_VERIFYHOST`**(int)
 
-**`CURLOPT_DNS_CACHE_TIMEOUT`** (int)
+Порівнює імена полів SSL-сертифіката сервера DNS поверх HTTPS з ім'ям хоста. Доступна з PHP 8.2.0 та cURL 7.76.0.
 
-**`CURLOPT_FTP_SSL`** (int)
+**`CURLOPT_DOH_SSL_VERIFYPEER`**(int)
 
-**`CURLFTP_CREATE_DIR`** (int)
+Перевіряє справжність SSL-сертифіката сервера DNS поверх HTTPS. Доступна з PHP 8.2.0 та cURL 7.76.0.
+
+**`CURLOPT_DOH_SSL_VERIFYSTATUS`**(int)
+
+Повідомляє cURL, щоб він перевірив статус сертифіката сервера DNS поверх HTTPS, використовуючи модуль TLS "Certificate Status Request" (OCSP-зшивання). Доступна з PHP 8.2.0 та cURL 7.76.0.
+
+**`CURLOPT_DNS_USE_GLOBAL_CACHE`**(int)
+
+**`CURLOPT_DNS_CACHE_TIMEOUT`**(int)
+
+**`CURLOPT_FTP_SSL`**(int)
+
+**`CURLFTP_CREATE_DIR`**(int)
+
+Доступно з PHP 7.0.7 та cURL 7.19.3.
+
+**`CURLFTP_CREATE_DIR_NONE`**(int)
+
+Доступно з PHP 7.0.7 та cURL 7.19.3.
+
+**`CURLFTP_CREATE_DIR_RETRY`**(int)
 
 Доступно з PHP 7.0.7 та cURL 7.19.3
 
-**`CURLFTP_CREATE_DIR_NONE`** (int)
+**`CURLFTPSSL_TRY`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.19.3
+**`CURLFTPSSL_ALL`**(int)
 
-**`CURLFTP_CREATE_DIR_RETRY`** (int)
+**`CURLFTPSSL_CONTROL`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.19.3
+**`CURLFTPSSL_NONE`**(int)
 
-**`CURLFTPSSL_TRY`** (int)
+**`CURLFTPMETHOD_DEFAULT`**(int)
 
-**`CURLFTPSSL_ALL`** (int)
+Доступна з PHP 8.2.0 та cURL 7.15.3.
 
-**`CURLFTPSSL_CONTROL`** (int)
+**`CURLOPT_PRIVATE`**(int)
 
-**`CURLFTPSSL_NONE`** (int)
+**`CURLOPT_FTPSSLAUTH`**(int)
 
-**`CURLOPT_PRIVATE`** (int)
+**`CURLOPT_PORT`**(int)
 
-**`CURLOPT_FTPSSLAUTH`** (int)
+**`CURLOPT_FILE`**(int)
 
-**`CURLOPT_PORT`** (int)
+**`CURLOPT_INFILE`**(int)
 
-**`CURLOPT_FILE`** (int)
+**`CURLOPT_INFILESIZE`**(int)
 
-**`CURLOPT_INFILE`** (int)
+**`CURLOPT_ISSUERCERT_BLOB`**(int)
 
-**`CURLOPT_INFILESIZE`** (int)
+Сертифікат емітента SSL з великого двійкового об'єкта пам'яті. Доступна з PHP 8.1.0 та cURL 7.71.0.
 
-**`CURLOPT_ISSUERCERT_BLOB`** (int)
+**`CURLOPT_URL`**(int)
 
-Сертифікат емітента SSL з великого двійкового об'єкта пам'яті. Доступно, починаючи з PHP 8.1.0 та cURL 7.71.0.
+**`CURLOPT_PROXY`**(int)
 
-**`CURLOPT_URL`** (int)
+**`CURLOPT_PROXY_ISSUERCERT`**(int)
 
-**`CURLOPT_PROXY`** (int)
+Ім'я файлу сертифіката SSL емітента проксі. Доступна з PHP 8.1.0 та cURL 7.71.0.
 
-**`CURLOPT_PROXY_ISSUERCERT`** (int)
+**`CURLOPT_PROXY_ISSUERCERT_BLOB`**(int)
 
-Ім'я файлу сертифіката SSL емітента проксі. Доступно, починаючи з PHP 8.1.0 та cURL 7.71.0.
+SSL-сертифікат емітента проксі із великого двійкового об'єкта пам'яті. Доступна з PHP 8.1.0 та cURL 7.71.0.
 
-**`CURLOPT_PROXY_ISSUERCERT_BLOB`** (int)
+**`CURLOPT_PROXY_SSLCERT_BLOB`**(int)
 
-SSL сертифікат емітента проксі з великого двійкового об'єкта пам'яті. Доступно, починаючи з PHP 8.1.0 та cURL 7.71.0.
+Сертифікат клієнта проксі SSL із великого двійкового об'єкта пам'яті. Доступна з PHP 8.1.0 та cURL 7.71.0.
 
-**`CURLOPT_PROXY_SSLCERT_BLOB`** (int)
+**`CURLOPT_PROXY_SSLKEY_BLOB`**(int)
 
-Сертифікат клієнта проксі SSL із великого двійкового об'єкта пам'яті. Доступно, починаючи з PHP 8.1.0 та cURL 7.71.0.
+Закритий ключ для сертифіката проксі з великого об'єкта пам'яті. Доступна з PHP 8.1.0 та cURL 7.71.0.
 
-**`CURLOPT_PROXY_SSLKEY_BLOB`** (int)
+**`CURLOPT_VERBOSE`**(int)
 
-Закритий ключ для сертифіката проксі із великого двійкового об'єкта пам'яті. Доступно, починаючи з PHP 8.1.0 та cURL 7.71.0.
+**`CURLOPT_ALTSVC`**(int)
 
-**`CURLOPT_VERBOSE`** (int)
+Доступна з PHP 8.2.0 та cURL 7.64.1.
 
-**`CURLOPT_HEADER`** (int)
+**`CURLOPT_ALTSVC_CTRL`**(int)
 
-**`CURLOPT_HTTPHEADER`** (int)
+Доступна з PHP 8.2.0 та cURL 7.64.1.
 
-**`CURLOPT_NOPROGRESS`** (int)
+**`CURLALTSVC_H1`**(int)
 
-**`CURLOPT_NOBODY`** (int)
+Доступна з PHP 8.2.0 та cURL 7.64.1.
 
-**`CURLOPT_FAILONERROR`** (int)
+**`CURLALTSVC_H2`**(int)
 
-**`CURLOPT_UPLOAD`** (int)
+Доступна з PHP 8.2.0 та cURL 7.64.1.
 
-**`CURLOPT_POST`** (int)
+**`CURLALTSVC_H3`**(int)
 
-**`CURLOPT_FTPLISTONLY`** (int)
+Доступна з PHP 8.2.0 та cURL 7.64.1.
 
-**`CURLOPT_FTPAPPEND`** (int)
+**`CURLALTSVC_READONLYFILE`**(int)
 
-**`CURLOPT_FTP_CREATE_MISSING_DIRS`** (int)
+Доступна з PHP 8.2.0 та cURL 7.64.1.
 
-**`CURLOPT_NETRC`** (int)
+**`CURLOPT_HEADER`**(int)
 
-**`CURLOPT_FOLLOWLOCATION`** (int)
+**`CURLOPT_HTTPHEADER`**(int)
 
-Ця опція недоступна, якщо дозволено [openbasedir](ini.core.md#ini.open-basedir)
+**`CURLOPT_NOPROGRESS`**(int)
 
-**`CURLOPT_FTPASCII`** (int)
+**`CURLOPT_NOBODY`**(int)
 
-**`CURLOPT_PUT`** (int)
+**`CURLOPT_FAILONERROR`**(int)
 
-**`CURLOPT_MUTE`** (int)
+**`CURLOPT_UPLOAD`**(int)
 
-**`CURLOPT_USERPWD`** (int)
+**`CURLOPT_UPLOAD_BUFFERSIZE`**(int)
 
-**`CURLOPT_PROXYUSERPWD`** (int)
+Доступна з PHP 8.2.0 та cURL 7.62.0.
 
-**`CURLOPT_RANGE`** (int)
+**`CURLOPT_POST`**(int)
 
-**`CURLOPT_TIMEOUT`** (int)
+**`CURLOPT_FTPLISTONLY`**(int)
 
-**`CURLOPT_TIMEOUT_MS`** (int)
+**`CURLOPT_FTPAPPEND`**(int)
 
-**`CURLOPT_TCP_NODELAY`** (int)
+**`CURLOPT_FTP_CREATE_MISSING_DIRS`**(int)
 
-**`CURLOPT_POSTFIELDS`** (int)
+**`CURLOPT_NETRC`**(int)
 
-**`CURLOPT_PROGRESSFUNCTION`** (int)
+**`CURLOPT_FOLLOWLOCATION`**(int)
 
-**`CURLOPT_REFERER`** (int)
+Ця опція недоступна, якщо дозволено [open\_basedir](ini.core.md#ini.open-basedir)
 
-**`CURLOPT_USERAGENT`** (int)
+**`CURLOPT_FTPASCII`**(int)
 
-**`CURLOPT_FTPPORT`** (int)
+**`CURLOPT_PUT`**(int)
 
-**`CURLOPT_FTP_USE_EPSV`** (int)
+**`CURLOPT_MIME_OPTIONS`**(int)
 
-**`CURLOPT_LOW_SPEED_LIMIT`** (int)
+Доступна з PHP 8.3.0 та cURL 7.81.0
 
-**`CURLOPT_LOW_SPEED_TIME`** (int)
+**`CURLOPT_MUTE`**(int)
 
-**`CURLOPT_RESUME_FROM`** (int)
+Видалено cURL 7.15.5; замість неї використовуйте константу **`CURLOPT_RETURNTRANSFER`**
 
-**`CURLOPT_COOKIE`** (int)
+**`CURLOPT_USERPWD`**(int)
 
-**`CURLOPT_COOKIELIST`** (int)
+**`CURLOPT_PROXYUSERPWD`**(int)
 
-Доступно з cURL 7.14.1
+**`CURLOPT_RANGE`**(int)
 
-**`CURLOPT_SSLCERT`** (int)
+**`CURLOPT_TIMEOUT`**(int)
 
-**`CURLOPT_SSLCERT_BLOB`** (int)
+**`CURLOPT_TIMEOUT_MS`**(int)
 
-Сертифікат клієнта SSL із великого двійкового об'єкта пам'яті. Доступно, починаючи з PHP 8.1.0 та cURL 7.71.0.
+**`CURLOPT_TCP_NODELAY`**(int)
 
-**`CURLOPT_SSLCERTPASSWD`** (int)
+**`CURLOPT_POSTFIELDS`**(int)
 
-**`CURLOPT_SSLKEY_BLOB`** (int)
+**`CURLOPT_PROGRESSFUNCTION`**(int)
 
-Закритий ключ для сертифіката клієнта з великого об'єкта пам'яті. Доступно, починаючи з PHP 8.1.0 та cURL 7.71.0.
+**`CURLOPT_REFERER`**(int)
 
-**`CURLOPT_WRITEHEADER`** (int)
+**`CURLOPT_USERAGENT`**(int)
 
-**`CURLOPT_SSL_VERIFYHOST`** (int)
+**`CURLOPT_FTPPORT`**(int)
 
-**`CURLOPT_COOKIEFILE`** (int)
+**`CURLOPT_FTP_USE_EPSV`**(int)
 
-**`CURLOPT_SSLVERSION`** (int)
+**`CURLOPT_LOW_SPEED_LIMIT`**(int)
 
-**`CURL_SSLVERSION_DEFAULT`** (int)
+**`CURLOPT_LOW_SPEED_TIME`**(int)
 
-**`CURL_SSLVERSION_TLSv1`** (int)
+**`CURLOPT_RESUME_FROM`**(int)
 
-**`CURL_SSLVERSION_SSLv2`** (int)
+**`CURLOPT_COOKIE`**(int)
 
-**`CURL_SSLVERSION_SSLv3`** (int)
+**`CURLOPT_COOKIELIST`**(int)
 
-**`CURL_SSLVERSION_TLSv1_0`** (int)
+Доступно з URL 7.14.1.
 
-**`CURL_SSLVERSION_TLSv1_1`** (int)
+**`CURLOPT_SSLCERT`**(int)
 
-**`CURL_SSLVERSION_TLSv1_2`** (int)
+**`CURLOPT_SSLCERT_BLOB`**(int)
 
-**`CURLOPT_TIMECONDITION`** (int)
+Сертифікат клієнта SSL із великого двійкового об'єкта пам'яті. Доступна з PHP 8.1.0 та cURL 7.71.0.
 
-**`CURLOPT_TIMEVALUE`** (int)
+**`CURLOPT_SSLCERTPASSWD`**(int)
 
-**`CURLOPT_CUSTOMREQUEST`** (int)
+**`CURLOPT_SSLKEY_BLOB`**(int)
 
-**`CURLOPT_STDERR`** (int)
+Закритий ключ для сертифіката клієнта з великого об'єкта пам'яті. Доступна з PHP 8.1.0 та cURL 7.71.0.
 
-**`CURLOPT_TRANSFERTEXT`** (int)
+**`CURLOPT_WRITEHEADER`**(int)
 
-**`CURLOPT_RETURNTRANSFER`** (int)
+**`CURLOPT_WS_OPTIONS`**(int)
 
-**`CURLOPT_QUOTE`** (int)
+Доступна з PHP 8.3.0 та cURL 7.86.0
 
-**`CURLOPT_POSTQUOTE`** (int)
+**`CURLOPT_SSL_VERIFYHOST`**(int)
 
-**`CURLOPT_INTERFACE`** (int)
+**`CURLOPT_COOKIEFILE`**(int)
 
-**`CURLOPT_KRB4LEVEL`** (int)
+**`CURLOPT_SSLVERSION`**(int)
 
-**`CURLOPT_HTTPPROXYTUNNEL`** (int)
+**`CURL_SSLVERSION_DEFAULT`**(int)
 
-**`CURLOPT_FILETIME`** (int)
+**`CURL_SSLVERSION_TLSv1`**(int)
 
-**`CURLOPT_WRITEFUNCTION`** (int)
+**`CURL_SSLVERSION_SSLv2`**(int)
 
-**`CURLOPT_READFUNCTION`** (int)
+**`CURL_SSLVERSION_SSLv3`**(int)
 
-**`CURLOPT_PASSWDFUNCTION`** (int)
+**`CURL_SSLVERSION_TLSv1_0`**(int)
 
-**`CURLOPT_HEADERFUNCTION`** (int)
+**`CURL_SSLVERSION_TLSv1_1`**(int)
 
-**`CURLOPT_MAXREDIRS`** (int)
+**`CURL_SSLVERSION_TLSv1_2`**(int)
 
-**`CURLOPT_MAXCONNECTS`** (int)
+**`CURL_SSLVERSION_TLSv1_3`**(int)
 
-**`CURLOPT_FRESH_CONNECT`** (int)
+**`CURLOPT_TIMECONDITION`**(int)
 
-**`CURLOPT_FORBID_REUSE`** (int)
+**`CURLOPT_TIMEVALUE`**(int)
 
-**`CURLOPT_RANDOM_FILE`** (int)
+**`CURLOPT_CUSTOMREQUEST`**(int)
 
-**`CURLOPT_EGDSOCKET`** (int)
+**`CURLOPT_STDERR`**(int)
 
-**`CURLOPT_CONNECTTIMEOUT`** (int)
+**`CURLOPT_TRANSFERTEXT`**(int)
 
-**`CURLOPT_CONNECTTIMEOUT_MS`** (int)
+**`CURLOPT_RETURNTRANSFER`**(int)
 
-**`CURLOPT_SSL_VERIFYPEER`** (int)
+**`CURLOPT_QUICK_EXIT`**(int)
 
-**`CURLOPT_CAINFO`** (int)
+Доступна з PHP 8.3.0 та cURL 7.87.0
 
-**`CURLOPT_CAPATH`** (int)
+**`CURLOPT_QUOTE`**(int)
 
-**`CURLOPT_COOKIEJAR`** (int)
+**`CURLOPT_POSTQUOTE`**(int)
 
-**`CURLOPT_SSL_CIPHER_LIST`** (int)
+**`CURLOPT_INTERFACE`**(int)
 
-**`CURLOPT_BINARYTRANSFER`** (int)
+**`CURLOPT_KRB4LEVEL`**(int)
 
-**`CURLOPT_NOSIGNAL`** (int)
+**`CURLOPT_HTTPPROXYTUNNEL`**(int)
 
-**`CURLOPT_PROXYTYPE`** (int)
+**`CURLOPT_FILETIME`**(int)
 
-Доступно з cURL 7.10.
+**`CURLOPT_WRITEFUNCTION`**(int)
 
-**`CURLOPT_BUFFERSIZE`** (int)
+**`CURLOPT_READFUNCTION`**(int)
 
-**`CURLOPT_HTTPGET`** (int)
+**`CURLOPT_PASSWDFUNCTION`**(int)
 
-**`CURLOPT_HTTP_VERSION`** (int)
+Вилучено у PHP 7.3.0.
 
-**`CURLOPT_SSLKEY`** (int)
+**`CURLOPT_HEADERFUNCTION`**(int)
 
-**`CURLOPT_SSLKEYTYPE`** (int)
+**`CURLOPT_MAXAGE_CONN`**(int)
 
-**`CURLOPT_SSLKEYPASSWD`** (int)
+Доступна з PHP 8.2.0 та cURL 7.65.0.
 
-**`CURLOPT_SSLENGINE`** (int)
+**`CURLOPT_MAXFILESIZE_LARGE`**(int)
 
-**`CURLOPT_SSLENGINE_DEFAULT`** (int)
+Доступна з PHP 8.2.0 та cURL 7.11.0.
 
-**`CURLOPT_SSLCERTTYPE`** (int)
+**`CURLOPT_MAXLIFETIME_CONN`**(int)
 
-**`CURLOPT_CRLF`** (int)
+Доступна з PHP 8.2.0 та cURL 7.80.0.
 
-**`CURLOPT_ENCODING`** (int)
+**`CURLOPT_MAXREDIRS`**(int)
 
-**`CURLOPT_PROXYPORT`** (int)
+**`CURLOPT_MAXCONNECTS`**(int)
 
-**`CURLOPT_UNRESTRICTED_AUTH`** (int)
+**`CURLOPT_FRESH_CONNECT`**(int)
 
-**`CURLOPT_FTP_USE_EPRT`** (int)
+**`CURLOPT_FORBID_REUSE`**(int)
 
-**`CURLOPT_HTTP200ALIASES`** (int)
+**`CURLOPT_RANDOM_FILE`**(int)
 
-**`CURLOPT_HTTPAUTH`** (int)
+**`CURLOPT_EGDSOCKET`**(int)
 
-**`CURLAUTH_BASIC`** (int)
+**`CURLOPT_CONNECTTIMEOUT_MS`**(int)
 
-**`CURLAUTH_DIGEST`** (int)
+**`CURLOPT_SSL_VERIFYPEER`**(int)
 
-**`CURLAUTH_GSSNEGOTIATE`** (int)
+**`CURLOPT_CA_CACHE_TIMEOUT`**(int)
 
-**`CURLAUTH_NEGOTIATE`** (int)
+Доступна з PHP 8.3.0 та cURL 7.87.0
 
-Доступно з PHP 7.0.7 та cURL 7.38.0.
+**`CURLOPT_CAINFO`**(int)
 
-**`CURLAUTH_NTLM`** (int)
+**`CURLOPT_CAINFO_BLOB`**(int)
 
-**`CURLAUTH_NTLM_WB`** (int)
+Доступна з PHP 8.2.0 та cURL 7.77.0.
 
-Доступно з PHP 7.0.7 та cURL 7.22.0
+**`CURLOPT_CAPATH`**(int)
 
-**`CURLAUTH_ANY`** (int)
+**`CURLOPT_COOKIEJAR`**(int)
 
-**`CURLAUTH_ANYSAFE`** (int)
+**`CURLOPT_SSL_CIPHER_LIST`**(int)
 
-**`CURLOPT_PROXYAUTH`** (int)
+**`CURLOPT_SSL_EC_CURVES`**(int)
 
-**`CURLOPT_MAX_RECV_SPEED_LARGE`** (int)
+Доступна з PHP 8.2.0 та cURL 7.73.0.
 
-Доступно з cURL 7.15.5
+**`CURLOPT_BINARYTRANSFER`**(int)
 
-**`CURLOPT_MAX_SEND_SPEED_LARGE`** (int)
+**`CURLOPT_NOSIGNAL`**(int)
 
-Доступно з cURL 7.15.5
+**`CURLOPT_PROXYTYPE`**(int)
 
-**`CURLOPT_HEADEROPT`** (int)
+Доступна з cURL 7.10.
 
-Доступно з PHP 7.0.7 та cURL 7.37.0
+**`CURLOPT_BUFFERSIZE`**(int)
 
-**`CURLOPT_PROXYHEADER`** (int)
+**`CURLOPT_HTTPGET`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.37.0
+**`CURLOPT_HTTP_VERSION`**(int)
 
-**`CURLINFO_PRIVATE`** (int)
+**`CURLOPT_HSTS`**(int)
 
-**`CURLINFO_EFFECTIVE_URL`** (int)
+Доступна з PHP 8.2.0 та cURL 7.74.0.
 
-**`CURLINFO_HTTP_CODE`** (int)
+**`CURLOPT_HSTS_CTRL`**(int)
 
-Починаючи з cURL 7.10.8, це застарілий псевдонім **`CURLINFO_RESPONSE_CODE`**
+Доступна з PHP 8.2.0 та cURL 7.74.0.
 
-**`CURLINFO_RESPONSE_CODE`** (int)
+**`CURLHSTS_ENABLE`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.74.0.
+
+**`CURLHSTS_READONLYFILE`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.74.0.
+
+**`CURLOPT_SSLKEY`**(int)
+
+**`CURLOPT_SSLKEYTYPE`**(int)
+
+**`CURLOPT_SSLKEYPASSWD`**(int)
+
+**`CURLOPT_SSLENGINE`**(int)
+
+**`CURLOPT_SSLENGINE_DEFAULT`**(int)
+
+**`CURLOPT_SSLCERTTYPE`**(int)
+
+**`CURLOPT_CRLF`**(int)
+
+**`CURLOPT_ENCODING`**(int)
+
+**`CURLOPT_PROXYPORT`**(int)
+
+**`CURLOPT_UNRESTRICTED_AUTH`**(int)
+
+**`CURLOPT_FTP_USE_EPRT`**(int)
+
+**`CURLOPT_HTTP200ALIASES`**(int)
+
+**`CURLOPT_HTTPAUTH`**(int)
+
+**`CURLOPT_AWS_SIGV4`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.75.0.
+
+**`CURLAUTH_BASIC`**(int)
+
+**`CURLAUTH_DIGEST`**(int)
+
+**`CURLAUTH_GSSNEGOTIATE`**(int)
+
+**`CURLAUTH_NEGOTIATE`**(int)
+
+Доступна з PHP 7.0.7 та cURL 7.38.0.
+
+**`CURLAUTH_NTLM`**(int)
+
+**`CURLAUTH_NTLM_WB`**(int)
+
+Доступна з PHP 7.0.7 та cURL 7.22.0.
+
+**`CURLAUTH_ANY`**(int)
+
+**`CURLAUTH_ANYSAFE`**(int)
+
+**`CURLAUTH_AWS_SIGV4`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.75.0.
+
+**`CURLOPT_PROXYAUTH`**(int)
+
+**`CURLOPT_MAIL_RCPT_ALLLOWFAILS`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.69.0.
+
+**`CURLOPT_UPKEEP_INTERVAL_MS`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.62.0.
+
+**`CURLOPT_MAX_RECV_SPEED_LARGE`**(int)
+
+Доступна з URL 7.15.5.
+
+**`CURLOPT_MAX_SEND_SPEED_LARGE`**(int)
+
+Доступна з URL 7.15.5.
+
+**`CURLOPT_HEADEROPT`**(int)
+
+Доступна з PHP 7.0.7 та cURL 7.37.0.
+
+**`CURLOPT_PROXYHEADER`**(int)
+
+**`CURLOPT_CONNECTTIMEOUT_MS`**(int)
+
+Доступна з PHP 7.0.7 та cURL 7.37.0.
+
+**`CURLINFO_PRIVATE`**(int)
+
+**`CURLINFO_EFFECTIVE_URL`**(int)
+
+**`CURLINFO_HTTP_CODE`**(int)
+
+З cURL 7.10.8 це застарілий псевдонім опції **`CURLINFO_RESPONSE_CODE`**
+
+**`CURLINFO_PROXY_ERROR`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_BAD_ADDRESS_TYPE`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_BAD_VERSION`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_CLOSED`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_GSSAPI`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_GSSAPI_PERMSG`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_GSSAPI_PROTECTION`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_IDENTD_DIFFER`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_IDENTD`**(int)
+
+Доступна з 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_LONG_HOSTNAME`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_LONG_PASSWD`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_LONG_USER`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_NO_AUTH`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_OK`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_RECV_ADDRESS`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_RECV_AUTH`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_RECV_CONNECT`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_RECV_REQACK`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_REPLY_ADDRESS_TYPE_NOT_SUPPORTED`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_REPLY_COMMAND_NOT_SUPPORTED`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_REPLY_CONNECTION_REFUSED`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_REPLY_GENERAL_SERVER_FAILURE`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_REPLY_HOST_UNREACHABLE`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_REPLY_NETWORK_UNREACHABLE`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_REPLY_NOT_ALLOWED`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_REPLY_TTL_EXPIRED`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_REPLY_UNASSIGNED`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_REQUEST_FAILED`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_RESOLVE_HOST`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_SEND_AUTH`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_SEND_CONNECT`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_SEND_REQUEST`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_UNKNOWN_FAIL`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_UNKNOWN_MODE`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLPX_USER_REJECTED`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.73.0.
+
+**`CURLINFO_REFERER`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.76.0.
+
+**`CURLINFO_RESPONSE_CODE`**(int)
 
 Доступно з cURL 7.10.8
 
-**`CURLINFO_HEADER_OUT`** (int)
+**`CURLINFO_RETRY_AFTER`**(int)
 
-**`CURLINFO_HEADER_SIZE`** (int)
+Доступна з PHP 8.2.0 та cURL 7.66.0.
 
-**`CURLINFO_REQUEST_SIZE`** (int)
+**`CURLINFO_HEADER_OUT`**(int)
 
-**`CURLINFO_TOTAL_TIME`** (int)
+**`CURLINFO_HEADER_SIZE`**(int)
 
-**`CURLINFO_NAMELOOKUP_TIME`** (int)
+**`CURLINFO_REQUEST_SIZE`**(int)
 
-**`CURLINFO_CONNECT_TIME`** (int)
+**`CURLINFO_TOTAL_TIME`**(int)
 
-**`CURLINFO_PRETRANSFER_TIME`** (int)
+**`CURLINFO_NAMELOOKUP_TIME`**(int)
 
-**`CURLINFO_SIZE_UPLOAD`** (int)
+**`CURLINFO_CAINFO`**(int)
 
-**`CURLINFO_SIZE_DOWNLOAD`** (int)
+Доступна з PHP 8.3.0 та cURL 7.84.0
 
-**`CURLINFO_SPEED_DOWNLOAD`** (int)
+**`CURLINFO_CAPATH`**(int)
 
-**`CURLINFO_SPEED_UPLOAD`** (int)
+Доступна з PHP 8.3.0 та cURL 7.84.0
 
-**`CURLINFO_FILETIME`** (int)
+**`CURLINFO_CONNECT_TIME`**(int)
 
-**`CURLINFO_SSL_VERIFYRESULT`** (int)
+**`CURLINFO_PRETRANSFER_TIME`**(int)
 
-**`CURLINFO_CONTENT_LENGTH_DOWNLOAD`** (int)
+**`CURLINFO_SIZE_UPLOAD`**(int)
 
-**`CURLINFO_CONTENT_LENGTH_UPLOAD`** (int)
+**`CURLINFO_SIZE_DOWNLOAD`**(int)
 
-**`CURLINFO_STARTTRANSFER_TIME`** (int)
+**`CURLINFO_SPEED_DOWNLOAD`**(int)
 
-**`CURLINFO_CONTENT_TYPE`** (int)
+**`CURLINFO_SPEED_UPLOAD`**(int)
 
-**`CURLINFO_REDIRECT_TIME`** (int)
+**`CURLINFO_FILETIME`**(int)
 
-**`CURLINFO_REDIRECT_COUNT`** (int)
+**`CURLINFO_SSL_VERIFYRESULT`**(int)
 
-**`CURLINFO_REDIRECT_URL`** (string)
+**`CURLINFO_CONTENT_LENGTH_DOWNLOAD`**(int)
 
-**`CURLINFO_PRIMARY_IP`** (string)
+**`CURLINFO_CONTENT_LENGTH_UPLOAD`**(int)
 
-**`CURLINFO_PRIMARY_PORT`** (int)
+**`CURLINFO_STARTTRANSFER_TIME`**(int)
 
-**`CURLINFO_LOCAL_IP`** (string)
+**`CURLINFO_CONTENT_TYPE`**(int)
 
-**`CURLINFO_LOCAL_PORT`** (int)
+**`CURLINFO_REDIRECT_TIME`**(int)
 
-**`CURL_PUSH_OK`** (int)
+**`CURLINFO_REDIRECT_COUNT`**(int)
 
-Доступно з PHP 7.1.0 та cURL 7.44.0
+**`CURLINFO_REDIRECT_URL`**(int)
 
-**`CURL_PUSH_DENY`** (int)
+**`CURLINFO_PRIMARY_IP`**(int)
 
-Доступно з PHP 7.1.0 та cURL 7.44.0
+**`CURLINFO_PRIMARY_PORT`**(int)
 
-**`CURL_REDIR_POST_301`** (int)
+**`CURLINFO_LOCAL_IP`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.18.2
+**`CURLINFO_LOCAL_PORT`**(int)
 
-**`CURL_REDIR_POST_302`** (int)
+**`CURL_PUSH_OK`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.18.2
+Доступно з PHP 7.1.0 та cURL 7.44.0.
 
-**`CURL_REDIR_POST_303`** (int)
+**`CURL_PUSH_DENY`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.25.1
+Доступно з PHP 7.1.0 та cURL 7.44.0.
 
-**`CURL_REDIR_POST_ALL`** (int)
+**`CURL_REDIR_POST_301`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.18.2
+Доступно з PHP 7.0.7 та cURL 7.18.2.
 
-**`CURL_TIMECOND_NONE`** (int)
+**`CURL_REDIR_POST_302`**(int)
 
-**`CURL_TIMECOND_IFMODSINCE`** (int)
+Доступно з PHP 7.0.7 та cURL 7.18.2.
 
-**`CURL_TIMECOND_IFUNMODSINCE`** (int)
+**`CURL_REDIR_POST_303`**(int)
 
-**`CURL_TIMECOND_LASTMOD`** (int)
+Доступно з PHP 7.0.7 та cURL 7.25.1.
 
-**`CURL_VERSION_ALTSVC`** (int)
+**`CURL_REDIR_POST_ALL`**(int)
 
-Доступно з PHP 7.3.6 та cURL 7.64.1
+Доступно з PHP 7.0.7 та cURL 7.18.2.
 
-**`CURL_VERSION_ASYNCHDNS`** (int)
+**`CURL_TIMECOND_NONE`**(int)
 
-Асинхронна роздільна здатність DNS. Доступно з PHP 7.3.0 та cURL 7.10.7
+**`CURL_TIMECOND_IFMODSINCE`**(int)
 
-**`CURL_VERSION_BROTLI`** (int)
+**`CURL_TIMECOND_IFUNMODSINCE`**(int)
 
-Доступно з PHP 7.3.0 та cURL 7.57.0
+**`CURL_TIMECOND_LASTMOD`**(int)
 
-**`CURL_VERSION_CONV`** (int)
+**`CURL_VERSION_ALTSVC`**(int)
 
-Підтримуються перетворення символів. Доступно з PHP 7.3.0 та cURL 7.15.4
+Доступно з PHP 7.3.6 та cURL 7.64.1.
 
-**`CURL_VERSION_CURLDEBUG`** (int)
+**`CURL_VERSION_ASYNCHDNS`**(int)
 
-Підтримується відстеження налагодження пам'яті. Доступно з PHP 7.3.6 та cURL 7.19.6
+Асинхронна роздільна здатність DNS. Доступно з PHP 7.3.0 та cURL 7.10.7.
 
-**`CURL_VERSION_DEBUG`** (int)
+**`CURL_VERSION_BROTLI`**(int)
 
-Зібраний із можливістю налагодження. Доступно з PHP 7.3.0 та cURL 7.10.6
+Доступно з PHP 7.3.0 та cURL 7.57.0.
 
-**`CURL_VERSION_GSSAPI`** (int)
+**`CURL_VERSION_CONV`**(int)
 
-Зібрано на основі бібліотеки GSS-API. Доступно з PHP 7.3.0 та cURL 7.38.0
+Підтримуються перетворення символів. Доступно з PHP 7.3.0 та cURL 7.15.4.
 
-**`CURL_VERSION_GSSNEGOTIATE`** (int)
+**`CURL_VERSION_CURLDEBUG`**(int)
 
-Підтримується узгодження автентифікації. Доступно з PHP 7.3.0 та cURL 7.10.6 (оголошено застарілим з 7.38.0)
+Підтримується відстеження налагодження пам'яті. Доступно з PHP 7.3.6 та cURL 7.19.6.
 
-**`CURL_VERSION_IDN`** (int)
+**`CURL_VERSION_DEBUG`**(int)
 
-Підтримуються міжнародні доменні імена. Доступно з PHP 7.3.0 та cURL 7.12.0
+Зібраний із можливістю налагодження. Доступно з PHP 7.3.0 та cURL 7.10.6.
 
-**`CURL_VERSION_MULTI_SSL`** (int)
+**`CURL_VERSION_GSASL`**(int)
 
-Доступно з PHP 7.3.0 та cURL 7.56.0
+Доступна з PHP 8.2.0 та cURL 7.76.0.
 
-**`CURL_VERSION_NTLM`** (int)
+**`CURL_VERSION_GSSAPI`**(int)
 
-Підтримується аутентифікація NTLM. Доступно з PHP 7.3.0 та cURL 7.10.6
+Зібрано на основі бібліотеки GSS-API. Доступно з PHP 7.3.0 та cURL 7.38.0.
 
-**`CURL_VERSION_NTLM_WB`** (int)
+**`CURL_VERSION_GSSNEGOTIATE`**(int)
 
-Підтримується делегування NTLM помічнику winbind. Доступно з PHP 7.3.0 та cURL 7.22.0
+Підтримується узгодження автентифікації. Доступно з PHP 7.3.0 та cURL 7.10.6 (оголошено застарілим з 7.38.0).
 
-**`CURL_VERSION_IPV6`** (int)
+**`CURL_VERSION_HSTS`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.74.0.
+
+**`CURL_VERSION_IDN`**(int)
+
+Підтримуються міжнародні доменні імена. Доступно з PHP 7.3.0 та cURL 7.12.0.
+
+**`CURL_VERSION_MULTI_SSL`**(int)
+
+Доступно з PHP 7.3.0 та cURL 7.56.0.
+
+**`CURL_VERSION_NTLM`**(int)
+
+Підтримується аутентифікація NTLM. Доступно з PHP 7.3.0 та cURL 7.10.6.
+
+**`CURL_VERSION_NTLM_WB`**(int)
+
+Підтримується делегування NTLM помічнику winbind. Доступно з PHP 7.3.0 та cURL 7.22.0.
+
+**`CURL_VERSION_IPV6`**(int)
 
 За допомогою IPv6.
 
-**`CURL_VERSION_KERBEROS4`** (int)
+**`CURL_VERSION_KERBEROS4`**(int)
 
 Підтримується автентифікація Kerberos V4.
 
-**`CURL_VERSION_KERBEROS5`** (int)
+**`CURL_VERSION_KERBEROS5`**(int)
 
-Підтримується автентифікація Kerberos V5. Доступно з PHP 7.0.7 та cURL 7.40.0
+Підтримується автентифікація Kerberos V5. Доступно з PHP 7.0.7 та cURL 7.40.0.
 
-**`CURL_VERSION_HTTP2`** (int)
+**`CURL_VERSION_HTTP2`**(int)
 
-Вбудована підтримка HTTP2. Доступно з cURL 7.33.0
+Вбудована підтримка HTTP2. Доступно з cURL 7.33.0.
 
-**`CURL_VERSION_LARGEFILE`** (int)
+**`CURL_VERSION_HTTP3`**(int)
 
-Підтримує файли більше 2 ГБ. Доступно з cURL 7.33.0
+Доступна з PHP 8.2.0 та cURL 7.66.0.
 
-**`CURL_VERSION_PSL`** (int)
+**`CURL_VERSION_LARGEFILE`**(int)
 
-Список загальнодоступних суфіксів Mozilla, який використовується для перевірки домену cookie. Доступно з PHP 7.3.6 та cURL 7.47.0
+Підтримує файли більше 2 ГБ. Доступно з cURL 7.33.0.
 
-**`CURL_VERSION_SPNEGO`** (int)
+**`CURL_VERSION_PSL`**(int)
 
-Підтримується автентифікація SPNEGO. Доступно з PHP 7.3.0 та cURL 7.10.8
+Список загальнодоступних суфіксів Mozilla для перевірки домену cookie. Доступно з PHP 7.3.6 та cURL 7.47.0.
 
-**`CURL_VERSION_SSPI`** (int)
+**`CURL_VERSION_SPNEGO`**(int)
 
-Вбудована підтримка Windows SSPI. Доступно з PHP 7.3.0 та cURL 7.13.2
+Підтримується автентифікація SPNEGO. Доступно з PHP 7.3.0 та cURL 7.10.8.
 
-**`CURL_VERSION_SSL`** (int)
+**`CURL_VERSION_SSPI`**(int)
+
+Вбудована підтримка Windows SSPI. Доступно з PHP 7.3.0 та cURL 7.13.2.
+
+**`CURL_VERSION_SSL`**(int)
 
 Існують опції SSL.
 
-**`CURL_VERSION_TLSAUTH_SRP`** (int)
+**`CURL_VERSION_TLSAUTH_SRP`**(int)
 
-Підтримується автентифікацію TLS-SRP. Доступно з PHP 7.3.0 та cURL 7.21.4
+Підтримується автентифікацію TLS-SRP. Доступно з PHP 7.3.0 та cURL 7.21.4.
 
-**`CURL_VERSION_UNIX_SOCKETS`** (int)
+**`CURL_VERSION_UNICODE`**(int)
 
-Підтримка сокетів домену Unix. Доступно з PHP 7.0.7 та cURL 7.40.0
+Доступна з PHP 8.2.0 та cURL 7.72.0.
 
-**`CURL_VERSION_LIBZ`** (int)
+**`CURL_VERSION_UNIX_SOCKETS`**(int)
+
+Підтримка сокетів домену Unix. Доступно з PHP 7.0.7 та cURL 7.40.0.
+
+**`CURL_VERSION_ZSTD`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.72.0.
+
+**`CURL_VERSION_LIBZ`**(int)
 
 Підтримуються можливості libz.
 
-**`CURLVERSION_NOW`** (int)
+**`CURLVERSION_NOW`**(int)
 
-**`CURLE_OK`** (int)
+**`CURLE_OK`**(int)
 
-**`CURLE_UNSUPPORTED_PROTOCOL`** (int)
+**`CURLE_UNSUPPORTED_PROTOCOL`**(int)
 
-**`CURLE_FAILED_INIT`** (int)
+**`CURLE_FAILED_INIT`**(int)
 
-**`CURLE_URL_MALFORMAT`** (int)
+**`CURLE_URL_MALFORMAT`**(int)
 
-**`CURLE_URL_MALFORMAT_USER`** (int)
+**`CURLE_URL_MALFORMAT_USER`**(int)
 
-**`CURLE_COULDNT_RESOLVE_PROXY`** (int)
+**`CURLE_COULDNT_RESOLVE_PROXY`**(int)
 
-**`CURLE_COULDNT_RESOLVE_HOST`** (int)
+**`CURLE_COULDNT_RESOLVE_HOST`**(int)
 
-**`CURLE_COULDNT_CONNECT`** (int)
+**`CURLE_COULDNT_CONNECT`**(int)
 
-**`CURLE_FTP_WEIRD_SERVER_REPLY`** (int)
+**`CURLE_FTP_WEIRD_SERVER_REPLY`**(int)
 
-**`CURLE_FTP_ACCESS_DENIED`** (int)
+**`CURLE_FTP_ACCESS_DENIED`**(int)
 
-**`CURLE_FTP_USER_PASSWORD_INCORRECT`** (int)
+**`CURLE_FTP_USER_PASSWORD_INCORRECT`**(int)
 
-**`CURLE_FTP_WEIRD_PASS_REPLY`** (int)
+**`CURLE_FTP_WEIRD_PASS_REPLY`**(int)
 
-**`CURLE_FTP_WEIRD_USER_REPLY`** (int)
+**`CURLE_FTP_WEIRD_USER_REPLY`**(int)
 
-**`CURLE_FTP_WEIRD_PASV_REPLY`** (int)
+**`CURLE_FTP_WEIRD_PASV_REPLY`**(int)
 
-**`CURLE_FTP_WEIRD_227_FORMAT`** (int)
+**`CURLE_FTP_WEIRD_227_FORMAT`**(int)
 
-**`CURLE_FTP_CANT_GET_HOST`** (int)
+**`CURLE_FTP_CANT_GET_HOST`**(int)
 
-**`CURLE_FTP_CANT_RECONNECT`** (int)
+**`CURLE_FTP_CANT_RECONNECT`**(int)
 
-**`CURLE_FTP_COULDNT_SET_BINARY`** (int)
+**`CURLE_FTP_COULDNT_SET_BINARY`**(int)
 
-**`CURLE_PARTIAL_FILE`** (int)
+**`CURLE_PARTIAL_FILE`**(int)
 
-**`CURLE_FTP_COULDNT_RETR_FILE`** (int)
+**`CURLE_PROXY`**(int)
 
-**`CURLE_FTP_WRITE_ERROR`** (int)
+Доступна з PHP 8.2.0 та cURL 7.73.0.
 
-**`CURLE_FTP_QUOTE_ERROR`** (int)
+**`CURLE_FTP_COULDNT_RETR_FILE`**(int)
 
-**`CURLE_HTTP_NOT_FOUND`** (int)
+**`CURLE_FTP_WRITE_ERROR`**(int)
 
-**`CURLE_WRITE_ERROR`** (int)
+**`CURLE_FTP_QUOTE_ERROR`**(int)
 
-**`CURLE_MALFORMAT_USER`** (int)
+**`CURLE_HTTP_NOT_FOUND`**(int)
 
-**`CURLE_FTP_COULDNT_STOR_FILE`** (int)
+**`CURLE_WRITE_ERROR`**(int)
 
-**`CURLE_READ_ERROR`** (int)
+**`CURLE_MALFORMAT_USER`**(int)
 
-**`CURLE_OUT_OF_MEMORY`** (int)
+**`CURLE_FTP_COULDNT_STOR_FILE`**(int)
 
-**`CURLE_OPERATION_TIMEOUTED`** (int)
+**`CURLE_READ_ERROR`**(int)
 
-**`CURLE_FTP_COULDNT_SET_ASCII`** (int)
+**`CURLE_OUT_OF_MEMORY`**(int)
 
-**`CURLE_FTP_PORT_FAILED`** (int)
+**`CURLE_OPERATION_TIMEOUTED`**(int)
 
-**`CURLE_FTP_COULDNT_USE_REST`** (int)
+**`CURLE_FTP_COULDNT_SET_ASCII`**(int)
 
-**`CURLE_FTP_COULDNT_GET_SIZE`** (int)
+**`CURLE_FTP_PORT_FAILED`**(int)
 
-**`CURLE_HTTP_RANGE_ERROR`** (int)
+**`CURLE_FTP_COULDNT_USE_REST`**(int)
 
-**`CURLE_HTTP_POST_ERROR`** (int)
+**`CURLE_FTP_COULDNT_GET_SIZE`**(int)
 
-**`CURLE_SSL_CONNECT_ERROR`** (int)
+**`CURLE_HTTP_RANGE_ERROR`**(int)
 
-**`CURLE_FTP_BAD_DOWNLOAD_RESUME`** (int)
+**`CURLE_HTTP_POST_ERROR`**(int)
 
-**`CURLE_FILE_COULDNT_READ_FILE`** (int)
+**`CURLE_SSL_CONNECT_ERROR`**(int)
 
-**`CURLE_LDAP_CANNOT_BIND`** (int)
+**`CURLE_FTP_BAD_DOWNLOAD_RESUME`**(int)
 
-**`CURLE_LDAP_SEARCH_FAILED`** (int)
+**`CURLE_FILE_COULDNT_READ_FILE`**(int)
 
-**`CURLE_LIBRARY_NOT_FOUND`** (int)
+**`CURLE_LDAP_CANNOT_BIND`**(int)
 
-**`CURLE_FUNCTION_NOT_FOUND`** (int)
+**`CURLE_LDAP_SEARCH_FAILED`**(int)
 
-**`CURLE_ABORTED_BY_CALLBACK`** (int)
+**`CURLE_LIBRARY_NOT_FOUND`**(int)
 
-**`CURLE_BAD_FUNCTION_ARGUMENT`** (int)
+**`CURLE_FUNCTION_NOT_FOUND`**(int)
 
-**`CURLE_BAD_CALLING_ORDER`** (int)
+**`CURLE_ABORTED_BY_CALLBACK`**(int)
 
-**`CURLE_HTTP_PORT_FAILED`** (int)
+**`CURLE_BAD_FUNCTION_ARGUMENT`**(int)
 
-**`CURLE_BAD_PASSWORD_ENTERED`** (int)
+**`CURLE_BAD_CALLING_ORDER`**(int)
 
-**`CURLE_TOO_MANY_REDIRECTS`** (int)
+**`CURLE_HTTP_PORT_FAILED`**(int)
 
-**`CURLE_UNKNOWN_TELNET_OPTION`** (int)
+**`CURLE_BAD_PASSWORD_ENTERED`**(int)
 
-**`CURLE_TELNET_OPTION_SYNTAX`** (int)
+**`CURLE_TOO_MANY_REDIRECTS`**(int)
 
-**`CURLE_OBSOLETE`** (int)
+**`CURLE_UNKNOWN_TELNET_OPTION`**(int)
 
-**`CURLE_SSL_PEER_CERTIFICATE`** (int)
+**`CURLE_TELNET_OPTION_SYNTAX`**(int)
 
-**`CURLE_GOT_NOTHING`** (int)
+**`CURLE_OBSOLETE`**(int)
 
-**`CURLE_SSL_ENGINE_NOTFOUND`** (int)
+**`CURLE_SSL_PEER_CERTIFICATE`**(int)
 
-**`CURLE_SSL_ENGINE_SETFAILED`** (int)
+**`CURLE_GOT_NOTHING`**(int)
 
-**`CURLE_SEND_ERROR`** (int)
+**`CURLE_SSL_ENGINE_NOTFOUND`**(int)
 
-**`CURLE_RECV_ERROR`** (int)
+**`CURLE_SSL_ENGINE_SETFAILED`**(int)
 
-**`CURLE_SHARE_IN_USE`** (int)
+**`CURLE_SEND_ERROR`**(int)
 
-**`CURLE_SSL_CERTPROBLEM`** (int)
+**`CURLE_RECV_ERROR`**(int)
 
-**`CURLE_SSL_CIPHER`** (int)
+**`CURLE_SHARE_IN_USE`**(int)
 
-**`CURLE_SSL_CACERT`** (int)
+**`CURLE_SSL_CERTPROBLEM`**(int)
 
-**`CURLE_BAD_CONTENT_ENCODING`** (int)
+**`CURLE_SSL_CIPHER`**(int)
 
-**`CURLE_LDAP_INVALID_URL`** (int)
+**`CURLE_SSL_CACERT`**(int)
 
-**`CURLE_FILESIZE_EXCEEDED`** (int)
+**`CURLE_BAD_CONTENT_ENCODING`**(int)
 
-**`CURLE_FTP_SSL_FAILED`** (int)
+**`CURLE_LDAP_INVALID_URL`**(int)
 
-**`CURLE_SSH`** (int)
+**`CURLE_FILESIZE_EXCEEDED`**(int)
+
+**`CURLE_FTP_SSL_FAILED`**(int)
+
+**`CURLE_SSH`**(int)
 
 Доступно з URL 7.16.1.
 
-**`CURLFTPAUTH_DEFAULT`** (int)
+**`CURLFTPAUTH_DEFAULT`**(int)
 
-**`CURLFTPAUTH_SSL`** (int)
+**`CURLFTPAUTH_SSL`**(int)
 
-**`CURLFTPAUTH_TLS`** (int)
+**`CURLFTPAUTH_TLS`**(int)
 
-**`CURLPROXY_HTTP`** (int)
-
-Доступно з cURL 7.10.
-
-**`CURLPROXY_HTTP_1_0`** (int)
-
-Доступно з PHP 7.0.7 та cURL 7.19.3
-
-**`CURLPROXY_SOCKS4`** (int)
+**`CURLPROXY_HTTP`**(int)
 
 Доступно з cURL 7.10.
 
-**`CURLPROXY_SOCKS5`** (int)
+**`CURLPROXY_HTTP_1_0`**(int)
+
+Доступно з PHP 7.0.7 та cURL 7.19.3.
+
+**`CURLPROXY_SOCKS4`**(int)
 
 Доступно з cURL 7.10.
 
-**`CURL_NETRC_OPTIONAL`** (int)
+**`CURLPROXY_SOCKS5`**(int)
 
-**`CURL_NETRC_IGNORED`** (int)
+Доступно з cURL 7.10.
 
-**`CURL_NETRC_REQUIRED`** (int)
+**`CURL_NETRC_OPTIONAL`**(int)
 
-**`CURL_HTTP_VERSION_NONE`** (int)
+**`CURL_NETRC_IGNORED`**(int)
 
-**`CURL_HTTP_VERSION_1_0`** (int)
+**`CURL_NETRC_REQUIRED`**(int)
 
-**`CURL_HTTP_VERSION_1_1`** (int)
+**`CURL_HTTP_VERSION_NONE`**(int)
 
-**`CURL_HTTP_VERSION_2`** (int)
+**`CURL_HTTP_VERSION_1_0`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.43.0
+**`CURL_HTTP_VERSION_1_1`**(int)
 
-**`CURL_HTTP_VERSION_2_0`** (int)
+**`CURL_HTTP_VERSION_2`**(int)
 
-Доступно з cURL 7.33.0
+Доступно з PHP 7.0.7 та cURL 7.43.0.
 
-**`CURL_HTTP_VERSION_2TLS`** (int)
+**`CURL_HTTP_VERSION_2_0`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.47.0
+Доступно з cURL 7.33.0.
 
-**`CURL_HTTP_VERSION_2_PRIOR_KNOWLEDGE`** (int)
+**`CURL_HTTP_VERSION_2TLS`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.49.0
+Доступно з PHP 7.0.7 та cURL 7.47.0.
 
-**`CURLM_CALL_MULTI_PERFORM`** (int)
+**`CURL_HTTP_VERSION_2_PRIOR_KNOWLEDGE`**(int)
 
-**`CURLM_OK`** (int)
+Доступно з PHP 7.0.7 та cURL 7.49.0.
 
-**`CURLM_BAD_HANDLE`** (int)
+**`CURLM_CALL_MULTI_PERFORM`**(int)
 
-**`CURLM_BAD_EASY_HANDLE`** (int)
+**`CURLM_OK`**(int)
 
-**`CURLM_OUT_OF_MEMORY`** (int)
+**`CURLM_BAD_HANDLE`**(int)
 
-**`CURLM_INTERNAL_ERROR`** (int)
+**`CURLM_BAD_EASY_HANDLE`**(int)
 
-**`CURLMSG_DONE`** (int)
+**`CURLM_OUT_OF_MEMORY`**(int)
 
-**`CURLOPT_KEYPASSWD`** (int)
+**`CURLM_INTERNAL_ERROR`**(int)
 
-**`CURLOPT_SSH_AUTH_TYPES`** (int)
+**`CURLMSG_DONE`**(int)
 
-**`CURLOPT_SSH_HOST_PUBLIC_KEY_MD5`** (int)
+**`CURLOPT_KEYPASSWD`**(int)
 
-**`CURLOPT_SSH_PRIVATE_KEYFILE`** (int)
+**`CURLOPT_SSH_AUTH_TYPES`**(int)
 
-**`CURLOPT_SSH_PUBLIC_KEYFILE`** (int)
+**`CURLOPT_SSH_HOST_PUBLIC_KEY_MD5`**(int)
 
-**`CURLOPT_SSL_OPTIONS`** (int)
+**`CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256`**(int)
+
+Доступна з PHP 8.2.0 та cURL 7.80.0.
+
+**`CURLOPT_SSH_HOSTKEYFUNCTION`**(int)
+
+Доступна з PHP 8.3.0 та cURL 7.84.0
+
+**`CURLOPT_SSH_PRIVATE_KEYFILE`**(int)
+
+**`CURLOPT_SSH_PUBLIC_KEYFILE`**(int)
+
+**`CURLOPT_SSL_OPTIONS`**(int)
 
 Доступно з cURL 7.25.0
 
-**`CURLSSLOPT_ALLOW_BEAST`** (int)
+**`CURLSSLOPT_ALLOW_BEAST`**(int)
 
-Доступно з cURL 7.25.0
+Доступно з cURL 7.25.0.
 
-**`CURLSSLOPT_NO_REVOKE`** (int)
+**`CURLSSLOPT_NO_REVOKE`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.44.0
+Доступно з PHP 7.0.7 та cURL 7.44.0.
 
-**`CURLOPT_USERNAME`** (int)
+**`CURLSSLOPT_AUTO_CLIENT_CERT`**(int)
 
-Доступно з cURL 7.19.1
+Доступна з PHP 8.2.0 та cURL 7.77.0.
 
-**`CURLOPT_SASL_IR`** (int)
+**`CURLSSLOPT_NATIVE_CA`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.31.0
+Доступна з PHP 8.2.0 та cURL 7.71.0.
 
-**`CURLOPT_DNS_INTERFACE`** (int)
+**`CURLSSLOPT_NO_PARTIALCHAIN`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.33.0
+Доступна з PHP 8.2.0 та cURL 7.68.0.
 
-**`CURLOPT_DNS_LOCAL_IP4`** (int)
+**`CURLSSLOPT_REVOKE_BEST_EFFORT`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.33.0
+Доступна з PHP 8.2.0 та cURL 7.70.0.
 
-**`CURLOPT_DNS_LOCAL_IP6`** (int)
+**`CURLOPT_USERNAME`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.33.0
+Доступно з URL 7.19.1.
 
-**`CURLOPT_XOAUTH2_BEARER`** (int)
+**`CURLOPT_SASL_AUTHZID`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.33.0
+Доступна з PHP 8.2.0 та cURL 7.66.0.
 
-**`CURLOPT_LOGIN_OPTIONS`** (int)
+**`CURLOPT_SASL_IR`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.34.0
+Доступно з PHP 7.0.7 та cURL 7.31.0.
 
-**`CURLOPT_EXPECT_100_TIMEOUT_MS`** (int)
+**`CURLOPT_DNS_INTERFACE`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.36.0
+Доступно з PHP 7.0.7 та cURL 7.33.0.
 
-**`CURLOPT_SSL_ENABLE_ALPN`** (int)
+**`CURLOPT_DNS_LOCAL_IP4`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.36.0
+Доступно з PHP 7.0.7 та cURL 7.33.0.
 
-**`CURLOPT_SSL_ENABLE_NPN`** (int)
+**`CURLOPT_DNS_LOCAL_IP6`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.36.0
+Доступно з PHP 7.0.7 та cURL 7.33.0.
 
-**`CURLOPT_PINNEDPUBLICKEY`** (int)
+**`CURLOPT_XOAUTH2_BEARER`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.39.0
+Доступно з PHP 7.0.7 та cURL 7.33.0.
 
-**`CURLOPT_UNIX_SOCKET_PATH`** (int)
+**`CURLOPT_LOGIN_OPTIONS`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.40.0
+Доступно з PHP 7.0.7 та cURL 7.34.0.
 
-**`CURLOPT_SSL_VERIFYSTATUS`** (int)
+**`CURLOPT_EXPECT_100_TIMEOUT_MS`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.41.0
+Доступно з PHP 7.0.7 та cURL 7.36.0.
 
-**`CURLOPT_PATH_AS_IS`** (int)
+**`CURLOPT_SSL_ENABLE_ALPN`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.42.0
+Доступно з PHP 7.0.7 та cURL 7.36.0.
 
-**`CURLOPT_SSL_FALSESTART`** (int)
+**`CURLOPT_SSL_ENABLE_NPN`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.42.0
+Доступно з PHP 7.0.7 та cURL 7.36.0.
 
-**`CURLOPT_PIPEWAIT`** (int)
+**`CURLOPT_PINNEDPUBLICKEY`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.43.0
+Доступно з PHP 7.0.7 та cURL 7.39.0.
 
-**`CURLOPT_PROXY_SERVICE_NAME`** (int)
+**`CURLOPT_UNIX_SOCKET_PATH`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.43.0
+Доступно з PHP 7.0.7 та cURL 7.40.0.
 
-**`CURLOPT_SERVICE_NAME`** (int)
+**`CURLOPT_SSL_VERIFYSTATUS`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.43.0
+Доступно з PHP 7.0.7 та cURL 7.41.0.
 
-**`CURLOPT_DEFAULT_PROTOCOL`** (int)
+**`CURLOPT_PATH_AS_IS`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.45.0
+Доступно з PHP 7.0.7 та cURL 7.42.0.
 
-**`CURLOPT_STREAM_WEIGHT`** (int)
+**`CURLOPT_SSL_FALSESTART`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.46.0
+Доступно з PHP 7.0.7 та cURL 7.42.0.
 
-**`CURLOPT_TFTP_NO_OPTIONS`** (int)
+**`CURLOPT_PIPEWAIT`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.48.0
+Доступно з PHP 7.0.7 та cURL 7.43.0.
 
-**`CURLOPT_CONNECT_TO`** (int)
+**`CURLOPT_PROTOCOLS_STR`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.49.0
+Доступна з PHP 8.3.0 та cURL 7.85.0
 
-**`CURLOPT_TCP_FASTOPEN`** (int)
+**`CURLOPT_PROXY_SERVICE_NAME`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.49.0
+Доступно з PHP 7.0.7 та cURL 7.43.0.
 
-**`CURLOPT_TCP_KEEPALIVE`** (int)
+**`CURLOPT_SERVICE_NAME`**(int)
 
-Доступно з cURL 7.25.0
+Доступно з PHP 7.0.7 та cURL 7.43.0.
 
-**`CURLOPT_TCP_KEEPIDLE`** (int)
+**`CURLOPT_DEFAULT_PROTOCOL`**(int)
 
-Доступно з cURL 7.25.0
+Доступно з PHP 7.0.7 та cURL 7.45.0.
 
-**`CURLOPT_TCP_KEEPINTVL`** (int)
+**`CURLOPT_STREAM_WEIGHT`**(int)
 
-Доступно з cURL 7.25.0
+Доступно з PHP 7.0.7 та cURL 7.46.0.
 
-**`CURLMOPT_PIPELINING`** (int)
+**`CURLOPT_TFTP_NO_OPTIONS`**(int)
+
+Доступно з PHP 7.0.7 та cURL 7.48.0.
+
+**`CURLOPT_CONNECT_TO`**(int)
+
+Доступно з PHP 7.0.7 та cURL 7.49.0.
+
+**`CURLOPT_TCP_FASTOPEN`**(int)
+
+Доступно з PHP 7.0.7 та cURL 7.49.0.
+
+**`CURLOPT_TCP_KEEPALIVE`**(int)
+
+Доступно з cURL 7.25.0.
+
+**`CURLOPT_TCP_KEEPIDLE`**(int)
+
+Доступно з cURL 7.25.0.
+
+**`CURLOPT_TCP_KEEPINTVL`**(int)
+
+Доступно з cURL 7.25.0.
+
+**`CURLMOPT_PIPELINING`**(int)
 
 Доступно з cURL 7.16.0.
 
-**`CURLMOPT_MAXCONNECTS`** (int)
+**`CURLMOPT_MAXCONNECTS`**(int)
 
 Доступно з URL 7.16.3.
 
-**`CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE`** (int)
+**`CURLMOPT_MAX_CONCURRENT_STREAMS`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.30.0
+Доступна з PHP 8.2.0 та cURL 7.67.0.
 
-**`CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE`** (int)
+**`CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.30.0
+Доступно з PHP 7.0.7 та cURL 7.30.0.
 
-**`CURLMOPT_MAX_HOST_CONNECTIONS`** (int)
+**`CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.30.0
+Доступно з PHP 7.0.7 та cURL 7.30.0.
 
-**`CURLMOPT_MAX_PIPELINE_LENGTH`** (int)
+**`CURLMOPT_MAX_HOST_CONNECTIONS`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.30.0
+Доступно з PHP 7.0.7 та cURL 7.30.0.
 
-**`CURLMOPT_MAX_TOTAL_CONNECTIONS`** (int)
+**`CURLMOPT_MAX_PIPELINE_LENGTH`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.30.0
+Доступно з PHP 7.0.7 та cURL 7.30.0.
 
-**`CURLMOPT_PUSHFUNCTION`** (int)
+**`CURLMOPT_MAX_TOTAL_CONNECTIONS`**(int)
 
-Доступно з PHP 7.1.0 та cURL 7.44.0
+Доступно з PHP 7.0.7 та cURL 7.30.0.
 
-**`CURLSSH_AUTH_AGENT`** (int)
+**`CURLMOPT_PUSHFUNCTION`**(int)
 
-Доступно з PHP 7.0.7 та cURL 7.28.0
+Доступно з PHP 7.1.0 та cURL 7.44.0.
 
-**`CURLSSH_AUTH_ANY`** (int)
+**`CURLSSH_AUTH_AGENT`**(int)
 
-**`CURLSSH_AUTH_DEFAULT`** (int)
+Доступно з PHP 7.0.7 та cURL 7.28.0.
 
-**`CURLSSH_AUTH_HOST`** (int)
+**`CURLSSH_AUTH_ANY`**(int)
 
-**`CURLSSH_AUTH_KEYBOARD`** (int)
+**`CURLSSH_AUTH_DEFAULT`**(int)
 
-**`CURLSSH_AUTH_NONE`** (int)
+**`CURLSSH_AUTH_HOST`**(int)
 
-**`CURLSSH_AUTH_PASSWORD`** (int)
+**`CURLSSH_AUTH_KEYBOARD`**(int)
 
-**`CURLSSH_AUTH_PUBLICKEY`** (int)
+**`CURLSSH_AUTH_NONE`**(int)
 
-**`CURLPAUSE_ALL`** (int)
+**`CURLSSH_AUTH_PASSWORD`**(int)
 
-Доступно з cURL 7.18.0.
+**`CURLSSH_AUTH_PUBLICKEY`**(int)
 
-**`CURLPAUSE_CONT`** (int)
-
-Доступно з cURL 7.18.0.
-
-**`CURLPAUSE_RECV`** (int)
+**`CURLPAUSE_ALL`**(int)
 
 Доступно з cURL 7.18.0.
 
-**`CURLPAUSE_RECV_CONT`** (int)
+**`CURLPAUSE_CONT`**(int)
 
 Доступно з cURL 7.18.0.
 
-**`CURLPAUSE_SEND`** (int)
+**`CURLPAUSE_RECV`**(int)
 
 Доступно з cURL 7.18.0.
 
-**`CURLPAUSE_SEND_CONT`** (int)
+**`CURLPAUSE_RECV_CONT`**(int)
 
 Доступно з cURL 7.18.0.
 
-**`CURLPIPE_NOTHING`** (int)
+**`CURLPAUSE_SEND`**(int)
+
+Доступно з cURL 7.18.0.
+
+**`CURLPAUSE_SEND_CONT`**(int)
+
+Доступно з cURL 7.18.0.
+
+**`CURLPIPE_NOTHING`**(int)
 
 Доступно з cURL 7.43.0.
 
-**`CURLPIPE_HTTP1`** (int)
+**`CURLPIPE_HTTP1`**(int)
 
 Доступно з cURL 7.43.0.
 
-**`CURLPIPE_MULTIPLEX`** (int)
+**`CURLPIPE_MULTIPLEX`**(int)
 
 Доступно з cURL 7.43.0.
 
-**`CURLPROXY_SOCKS4A`** (int)
+**`CURLPROXY_SOCKS4A`**(int)
 
 Доступно з cURL 7.18.0.
 
-**`CURLPROXY_SOCKS5_HOSTNAME`** (int)
+**`CURLPROXY_SOCKS5_HOSTNAME`**(int)
 
 Доступно з cURL 7.18.0.
 
-**`CURLHEADER_SEPARATE`** (int)
+**`CURLHEADER_SEPARATE`**(int)
 
 Доступно з PHP 7.0.7 та cURL 7.37.0.
 
-**`CURLHEADER_UNIFIED`** (int)
+**`CURLHEADER_UNIFIED`**(int)
 
 Доступно з PHP 7.0.7 та cURL 7.37.0.
 
-**`CURLPROTO_SMB`** (int)
+**`CURLPROTO_SMB`**(int)
 
 Доступно з PHP 7.0.7 та cURL 7.40.0.
 
-**`CURLPROTO_SMBS`** (int)
+**`CURLPROTO_SMBS`**(int)
 
 Доступно з PHP 7.0.7 та cURL 7.40.0.
 
-**`CURLOPT_REQUEST_TARGET`** (int)
+**`CURLPROTO_MQTT`**(int)
 
-Доступно з PHP 7.3.0 та cURL 7.55.0.
+Доступна з PHP 8.2.0 та cURL 7.71.0.
 
-**`CURLAUTH_GSSAPI`** (int)
+**`CURLOPT_REDIR_PROTOCOLS_STR`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.54.1
+Доступна з PHP 8.3.0 та cURL 7.85.0.
 
-**`CURLE_WEIRD_SERVER_REPLY`** (int)
+**`CURLOPT_REQUEST_TARGET`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.51.0
+Доступна з PHP 7.3.0 та cURL 7.55.0.
 
-**`CURLINFO_CONTENT_LENGTH_DOWNLOAD_T`** (int)
+**`CURLAUTH_GSSAPI`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.55.0
+Доступно з версії PHP 7.3.0 та cURL 7.54.1.
 
-**`CURLINFO_CONTENT_LENGTH_UPLOAD_T`** (int)
+**`CURLE_WEIRD_SERVER_REPLY`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.55.0
+Доступно з версії PHP 7.3.0 та cURL 7.51.0.
 
-**`CURLINFO_HTTP_VERSION`** (int)
+**`CURLINFO_CONTENT_LENGTH_DOWNLOAD_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.50.0
+Доступно з версії PHP 7.3.0 та cURL 7.55.0.
 
-**`CURLINFO_PROTOCOL`** (int)
+**`CURLINFO_CONTENT_LENGTH_UPLOAD_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.55.0.
 
-**`CURLINFO_PROXY_SSL_VERIFYRESULT`** (int)
+**`CURLINFO_HTTP_VERSION`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.50.0.
 
-**`CURLINFO_SCHEME`** (int)
+**`CURLINFO_PROTOCOL`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLINFO_SIZE_DOWNLOAD_T`** (int)
+**`CURLINFO_PROXY_SSL_VERIFYRESULT`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.50.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLINFO_SIZE_UPLOAD_T`** (int)
+**`CURLINFO_SCHEME`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.50.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLINFO_SPEED_DOWNLOAD_T`** (int)
+**`CURLINFO_SIZE_DOWNLOAD_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.50.0
+Доступно з версії PHP 7.3.0 та cURL 7.50.0.
 
-**`CURLINFO_SPEED_UPLOAD_T`** (int)
+**`CURLINFO_SIZE_UPLOAD_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.50.0
+Доступно з версії PHP 7.3.0 та cURL 7.50.0.
 
-**`CURL_MAX_READ_SIZE`** (int)
+**`CURLINFO_SPEED_DOWNLOAD_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.53.0
+Доступно з версії PHP 7.3.0 та cURL 7.50.0.
 
-**`CURLOPT_ABSTRACT_UNIX_SOCKET`** (int)
+**`CURLINFO_SPEED_UPLOAD_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.53.0
+Доступно з версії PHP 7.3.0 та cURL 7.50.0.
 
-**`CURLOPT_KEEP_SENDING_ON_ERROR`** (int)
+**`CURL_MAX_READ_SIZE`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.51.0
+Доступно з версії PHP 7.3.0 та cURL 7.53.0.
 
-**`CURLOPT_PRE_PROXY`** (int)
+**`CURLOPT_ABSTRACT_UNIX_SOCKET`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.53.0.
 
-**`CURLOPT_PROXY_CAINFO`** (int)
+**`CURLOPT_KEEP_SENDING_ON_ERROR`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.51.0.
 
-**`CURLOPT_PROXY_CAPATH`** (int)
+**`CURLOPT_PRE_PROXY`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_CRLFILE`** (int)
+**`CURLOPT_PROXY_CAINFO`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_KEYPASSWD`** (int)
+**`CURLOPT_PROXY_CAINFO_BLOB`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступна з PHP 8.2.0 та cURL 7.77.0.
 
-**`CURLOPT_PROXY_PINNEDPUBLICKEY`** (int)
+**`CURLOPT_PROXY_CAPATH`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_SSLCERT`** (int)
+**`CURLOPT_PROXY_CRLFILE`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_SSLCERTTYPE`** (int)
+**`CURLOPT_PROXY_KEYPASSWD`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_SSL_CIPHER_LIST`** (int)
+**`CURLOPT_PROXY_PINNEDPUBLICKEY`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_SSLKEY`** (int)
+**`CURLOPT_PROXY_SSLCERT`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_SSLKEYTYPE`** (int)
+**`CURLOPT_PROXY_SSLCERTTYPE`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_SSL_OPTIONS`** (int)
+**`CURLOPT_PROXY_SSL_CIPHER_LIST`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_SSL_VERIFYHOST`** (int)
+**`CURLOPT_PROXY_SSLKEY`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_SSL_VERIFYPEER`** (int)
+**`CURLOPT_PROXY_SSLKEYTYPE`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_SSLVERSION`** (int)
+**`CURLOPT_PROXY_SSL_OPTIONS`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_TLSAUTH_PASSWORD`** (int)
+**`CURLOPT_PROXY_SSL_VERIFYHOST`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_TLSAUTH_TYPE`** (int)
+**`CURLOPT_PROXY_SSL_VERIFYPEER`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_PROXY_TLSAUTH_USERNAME`** (int)
+**`CURLOPT_PROXY_SSLVERSION`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_SOCKS5_AUTH`** (int)
+**`CURLOPT_PROXY_TLSAUTH_PASSWORD`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.55.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLOPT_SUPPRESS_CONNECT_HEADERS`** (int)
+**`CURLOPT_PROXY_TLSAUTH_TYPE`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.54.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLPROXY_HTTPS`** (int)
+**`CURLOPT_PROXY_TLSAUTH_USERNAME`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURL_SSLVERSION_MAX_DEFAULT`** (int)
+**`CURLOPT_SOCKS5_AUTH`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.54.0
+Доступно з версії PHP 7.3.0 та cURL 7.55.0.
 
-**`CURL_SSLVERSION_MAX_NONE`** (int)
+**`CURLOPT_SUPPRESS_CONNECT_HEADERS`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.54.0
+Доступно з версії PHP 7.3.0 та cURL 7.54.0.
 
-**`CURL_SSLVERSION_MAX_TLSv1_0`** (int)
+**`CURLPROXY_HTTPS`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.54.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURL_SSLVERSION_MAX_TLSv1_1`** (int)
+**`CURL_SSLVERSION_MAX_DEFAULT`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.54.0
+Доступно з версії PHP 7.3.0 та cURL 7.54.0.
 
-**`CURL_SSLVERSION_MAX_TLSv1_2`** (int)
+**`CURL_SSLVERSION_MAX_NONE`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.54.0
+Доступно з версії PHP 7.3.0 та cURL 7.54.0.
 
-**`CURL_SSLVERSION_MAX_TLSv1_3`** (int)
+**`CURL_SSLVERSION_MAX_TLSv1_0`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.54.0
+Доступно з версії PHP 7.3.0 та cURL 7.54.0.
 
-**`CURL_SSLVERSION_TLSv1_3`** (int)
+**`CURL_SSLVERSION_MAX_TLSv1_1`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.54.0.
 
-**`CURL_VERSION_HTTPS_PROXY`** (int)
+**`CURL_SSLVERSION_MAX_TLSv1_2`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.52.0
+Доступно з версії PHP 7.3.0 та cURL 7.54.0.
 
-**`CURLAUTH_BEARER`** (int)
+**`CURL_SSLVERSION_MAX_TLSv1_3`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.61.0
+Доступно з версії PHP 7.3.0 та cURL 7.54.0.
 
-**`CURLINFO_APPCONNECT_TIME_T`** (int)
+**`CURL_SSLVERSION_TLSv1_3`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.61.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLINFO_CONNECT_TIME_T`** (int)
+**`CURL_VERSION_HTTPS_PROXY`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.61.0
+Доступно з версії PHP 7.3.0 та cURL 7.52.0.
 
-**`CURLINFO_FILETIME_T`** (int)
+**`CURLAUTH_BEARER`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.59.0
+Доступно з версії PHP 7.3.0 та cURL 7.61.0.
 
-**`CURLINFO_NAMELOOKUP_TIME_T`** (int)
+**`CURLINFO_APPCONNECT_TIME_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.61.0
+Доступно з версії PHP 7.3.0 та cURL 7.61.0.
 
-**`CURLINFO_PRETRANSFER_TIME_T`** (int)
+**`CURLINFO_CONNECT_TIME_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.61.0
+Доступно з версії PHP 7.3.0 та cURL 7.61.0.
 
-**`CURLINFO_REDIRECT_TIME_T`** (int)
+**`CURLINFO_FILETIME_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.61.0
+Доступно з версії PHP 7.3.0 та cURL 7.59.0.
 
-**`CURLINFO_STARTTRANSFER_TIME_T`** (int)
+**`CURLINFO_NAMELOOKUP_TIME_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.61.0
+Доступно з версії PHP 7.3.0 та cURL 7.61.0.
 
-**`CURLINFO_TOTAL_TIME_T`** (int)
+**`CURLINFO_PRETRANSFER_TIME_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.61.0
+Доступно з версії PHP 7.3.0 та cURL 7.61.0.
 
-**`CURL_LOCK_DATA_CONNECT`** (int)
+**`CURLINFO_REDIRECT_TIME_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.10.0
+Доступно з версії PHP 7.3.0 та cURL 7.61.0.
 
-**`CURL_LOCK_DATA_PSL`** (int)
+**`CURLINFO_STARTTRANSFER_TIME_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.61.0
+Доступно з версії PHP 7.3.0 та cURL 7.61.0.
 
-**`CURLOPT_DISALLOW_USERNAME_IN_URL`** (int)
+**`CURLINFO_TOTAL_TIME_T`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.61.0
+Доступно з версії PHP 7.3.0 та cURL 7.61.0.
 
-**`CURLOPT_DNS_SHUFFLE_ADDRESSES`** (int)
+**`CURL_LOCK_DATA_CONNECT`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.60.0
+Доступно з версії PHP 7.3.0 та cURL 7.10.0.
 
-**`CURLOPT_HAPPY_EYEBALLS_TIMEOUT_MS`** (int)
+**`CURL_LOCK_DATA_PSL`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.59.0
+Доступно з версії PHP 7.3.0 та cURL 7.61.0.
 
-**`CURLOPT_HAPROXYPROTOCOL`** (int)
+**`CURLOPT_DISALLOW_USERNAME_IN_URL`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.60.0
+Доступно з версії PHP 7.3.0 та cURL 7.61.0.
 
-**`CURLOPT_PROXY_TLS13_CIPHERS`** (int)
+**`CURLOPT_DNS_SHUFFLE_ADDRESSES`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.61.0
+Доступно з версії PHP 7.3.0 та cURL 7.60.0.
 
-**`CURLOPT_SSH_COMPRESSION`** (int)
+**`CURLOPT_HAPPY_EYEBALLS_TIMEOUT_MS`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.56.0
+Доступно з версії PHP 7.3.0 та cURL 7.59.0.
 
-**`CURLOPT_TIMEVALUE_LARGE`** (int)
+**`CURLOPT_HAPROXYPROTOCOL`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.59.0
+Доступно з версії PHP 7.3.0 та cURL 7.60.0.
 
-**`CURLOPT_TLS13_CIPHERS`** (int)
+**`CURLOPT_PROXY_TLS13_CIPHERS`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.61.0
+Доступно з версії PHP 7.3.0 та cURL 7.61.0.
 
-**`CURLSSH_AUTH_GSSAPI`** (int)
+**`CURLOPT_SSH_COMPRESSION`**(int)
 
-Доступно з версії PHP 7.3.0 та cURL 7.58.0
+Доступно з версії PHP 7.3.0 та cURL 7.56.0.
 
-**`CURLOPT_HTTP09_ALLOWED`** (int)
+**`CURLOPT_TIMEVALUE_LARGE`**(int)
 
-Доступно з версії PHP 7.3.15 та 7.4.3, відповідно, і cURL 7.64.0
+Доступно з версії PHP 7.3.0 та cURL 7.59.0.
+
+**`CURLOPT_TLS13_CIPHERS`**(int)
+
+Доступно з версії PHP 7.3.0 та cURL 7.61.0.
+
+**`CURLSSH_AUTH_GSSAPI`**(int)
+
+Доступно з версії PHP 7.3.0 та cURL 7.58.0.
+
+**`CURLOPT_HTTP09_ALLOWED`**(int)
+
+Доступно з версії PHP 7.3.15 та 7.4.3, відповідно, і cURL 7.64.0.
+
+**`CURLMIMEOPT_FORMESCAPE`**(int)
+
+Доступна з PHP 8.3.0 та cURL 7.81.0
+
+**`CURLWS_RAW_MODE`**(int)
+
+Доступна з PHP 8.3.0 та cURL 7.86.0
+
+**`CURLKHMATCH_OK`**(int)
+
+Доступна з PHP 8.3.0 та cURL 7.19.6
+
+**`CURLKHMATCH_MISMATCH`**(int)
+
+Доступна з PHP 8.3.0 та cURL 7.19.6
+
+**`CURLKHMATCH_MISSING`**(int)
+
+Доступна з PHP 8.3.0 та cURL 7.19.6
+
+**`CURLKHMATCH_LAST`**(int)
+
+Доступна з PHP 8.3.0 та cURL 7.19.6

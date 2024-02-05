@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::islower'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::islower
 
@@ -20,7 +21,7 @@ public static IntlChar::islower(int|string $codepoint): ?bool
 
 Визначає, чи символ входить до категорії "Ll" (літери в нижньому регістрі).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Деякі символи можуть бути пропущені, оскільки вони можуть мати іншу головну категорію. Щоб не втратити їх - використовуйте функцію [IntlChar::isULowercase()](intlchar.isulowercase.md)
 
@@ -28,11 +29,11 @@ public static IntlChar::islower(int|string $codepoint): ?bool
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `codepoint` входить до категорії Ll або **`false`**, якщо ні. У разі виникнення помилки повертає **`null`**
+Повертає **`true`**, якщо `codepoint`входит в категорию Ll или\*\*`false`\*\*, якщо ні. У разі виникнення помилки повертає **`null`**
 
 ### Приклади
 
@@ -48,7 +49,7 @@ var_dump(IntlChar::islower("1"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -61,7 +62,8 @@ bool(false)
 ### Дивіться також
 
 -   [IntlChar::isupper()](intlchar.isupper.md) - Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
--   [IntlChar::istitle()](intlchar.istitle.md) - Перевірити, чи символ є титульним (Titlecase)
--   [IntlChar::tolower()](intlchar.tolower.md) - Перетворення символу Unicode на нижній регістр
--   [IntlChar::toupper()](intlchar.toupper.md) - Перетворення символу Unicode у верхній регістр
+-   [IntlChar::istitle()](intlchar.istitle.md) \- Перевірити, чи символ є титульним (Titlecase)
+-   [IntlChar::tolower()](intlchar.tolower.md) \- Перетворює символ Unicode на нижній регістр
+-   [IntlChar::toupper()](intlchar.toupper.md) \- Перетворює символ Unicode у верхній регістр
 -   **`IntlChar::PROPERTY_LOWERCASE`**
+-   [ctype\_lower()](function.ctype-lower.md) \- Перевіряє символи у нижньому регістрі

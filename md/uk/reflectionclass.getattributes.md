@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getAttributes'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getAttributes
 
@@ -28,9 +29,9 @@ public ReflectionClass::getAttributes(?string $name = null, int $flags = 0): arr
 
 `flags`
 
-Прапори для визначення способу фільтрації результатів, якщо вказано параметр `name`
+Флаги для определения способа фильтрации результатов, если указан параметр`name`
 
-За замовчуванням значення `0`, що повертає результати лише для атрибутів, що належать до класу `name`
+По умолчанию значение , що повертає результати лише для атрибутів, що належать до класу `name`
 
 Єдиним доступним варіантом є використання константи \*\*`ReflectionAttribute::IS_INSTANCEOF`\*\*яка замість цього буде використовувати для фільтрації `instanceof`
 
@@ -63,7 +64,7 @@ print_r(array_map(fn($attribute) => $attribute->getName(), $attributes));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -96,7 +97,7 @@ print_r(array_map(fn($attribute) => $attribute->getName(), $attributes));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -117,7 +118,7 @@ class Fruit {
 }
 
 #[Attribute]
-class Red implements Colour {
+class Red implements Color {
 }
 
 #[Fruit]
@@ -126,12 +127,12 @@ class Apple {
 }
 
 $class = new ReflectionClass('Apple');
-$attributes = $class->getAttributes('Colour', ReflectionAttribute::IS_INSTANCEOF);
+$attributes = $class->getAttributes(Color::class, ReflectionAttribute::IS_INSTANCEOF);
 print_r(array_map(fn($attribute) => $attribute->getName(), $attributes));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -142,7 +143,7 @@ Array
 
 ### Дивіться також
 
--   [ReflectionClassConstant::getAttributes()](reflectionclassconstant.getattributes.md) - Отримує атрибути
--   [ReflectionFunctionAbstract::getAttributes()](reflectionfunctionabstract.getattributes.md) - Отримує атрибути
--   [ReflectionParameter::getAttributes()](reflectionparameter.getattributes.md) - Отримує атрибути
--   [ReflectionProperty::getAttributes()](reflectionproperty.getattributes.md) - Отримує атрибути
+-   [ReflectionClassConstant::getAttributes()](reflectionclassconstant.getattributes.md) \- Отримує атрибути
+-   [ReflectionFunctionAbstract::getAttributes()](reflectionfunctionabstract.getattributes.md) \- Отримує атрибути
+-   [ReflectionParameter::getAttributes()](reflectionparameter.getattributes.md) \- Отримує атрибути
+-   [ReflectionProperty::getAttributes()](reflectionproperty.getattributes.md) \- Отримує атрибути

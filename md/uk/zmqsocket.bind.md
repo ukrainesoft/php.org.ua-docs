@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zmqsocket.md: ZMQSocket
 title: 'ZMQSocket::bind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZMQSocket::bind
 
@@ -18,7 +19,7 @@ ZMQSocket::bind — Прив'язка сокету
 public ZMQSocket::bind(string $dsn, bool $force = false): ZMQSocket
 ```
 
-Прив'язка сокета до кінцевої точки. Кінцева точка визначається у форматі `transport://address`. Як транспорт можуть використовуватися такі протоколи: inproc, ipc, tcp, pgm або epgm
+Привязка сокета к конечной точке. Конечная точка определяется в формате`transport://address`. Як транспорт можуть використовуватися такі протоколи: inproc, ipc, tcp, pgm або epgm
 
 ### Список параметрів
 

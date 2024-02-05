@@ -1,10 +1,11 @@
 ---
 navigation:
-  - book.funchand.md: « Управление функциями
-  - funchand.setup.md: Встановлення та налаштування »
+  - book.funchand.md: « Управління функціями
+  - funchand.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
-  - book.funchand.md: Управление функциями
+  - book.funchand.md: Управління функціями
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 

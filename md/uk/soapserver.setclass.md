@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.soapserver.md: SoapServer
 title: 'SoapServer::setClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SoapServer::setClass
 
@@ -38,6 +39,6 @@ public SoapServer::setClass(string $class, mixed ...$args): void
 
 ### Дивіться також
 
--   [SoapServer::construct()](soapserver.construct.md) - Конструктор SoapServer
--   [SoapServer::addFunction()](soapserver.addfunction.md) - Додає одну або кілька функцій для обробки запитів SOAP
--   [SoapServer::setPersistence()](soapserver.setpersistence.md) - Встановлює режим збереження SoapServer
+-   [SoapServer::\_\_construct()](soapserver.construct.md) \- Конструктор SoapServer
+-   [SoapServer::addFunction()](soapserver.addfunction.md) \- Додає одну або кілька функцій для обробки запитів SOAP
+-   [SoapServer::setPersistence()](soapserver.setpersistence.md) \- Встановлює режим збереження SoapServer

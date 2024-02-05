@@ -1,16 +1,17 @@
 ---
 navigation:
-  - vtiful-kernel-excel.insertFormula.md: '« VtifulKernelExcel::insertFormula'
-  - vtiful-kernel-excel.insertText.md: 'VtifulKernelExcel::insertText »'
+  - vtiful-kernel-excel.insertFormula.md: '« Vtiful\\Kernel\\Excel::insertFormula'
+  - vtiful-kernel-excel.insertText.md: 'Vtiful\\Kernel\\Excel::insertText »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.md: VtifulKernelExcel
-title: 'VtifulKernelExcel::insertImage'
+  - class.vtiful-kernel-excel.md: Vtiful\\Kernel\\Excel
+title: 'Vtiful\\Kernel\\Excel::insertImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelExcel::insertImage
+# Vtiful\\Kernel\\Excel::insertImage
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelExcel::insertImage — Вставити зображення
+Vtiful\\Kernel\\Excel::insertImage — Вставити зображення
 
 ### Опис
 
@@ -36,7 +37,7 @@ public Vtiful\Kernel\Excel::insertImage(int $row, int $column, string $localImag
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

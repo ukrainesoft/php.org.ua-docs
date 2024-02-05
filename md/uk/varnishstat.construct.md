@@ -4,13 +4,14 @@ navigation:
   - varnishstat.getsnapshot.md: 'VarnishStat::getSnapshot »'
   - index.md: PHP Manual
   - class.varnishstat.md: VarnishStat
-title: 'ВарнішСтат::construct'
+title: 'VarnishStat::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ВарнішСтат::construct
+# VarnishStat::\_\_construct
 
 (PECL varnish >= 0.3)
 
-ВарнішСтат::construct — Конструктор VarnishStat
+VarnishStat::\_\_construct — Конструктор VarnishStat
 
 ### Опис
 
@@ -24,6 +25,6 @@ public VarnishStat::__construct(array $args = ?)
 
 Аргументи конфігурації. Можливі ключі:
 
-VARNISHCONFIGIDENT - шлях ідентифікації екземпляра varnish
+VARNISH\_CONFIG\_IDENT - шлях ідентифікації екземпляра varnish
 
 ### Значення, що повертаються

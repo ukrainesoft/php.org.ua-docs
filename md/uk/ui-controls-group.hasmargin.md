@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-group.gettitle.md: '« UIControlsGroup::getTitle'
-  - ui-controls-group.setmargin.md: 'ОЙControlsGroup::setMargin »'
+  - ui-controls-group.gettitle.md: '« UI\\Controls\\Group::getTitle'
+  - ui-controls-group.setmargin.md: 'UI\\Controls\\Group::setMargin »'
   - index.md: PHP Manual
-  - class.ui-controls-group.md: ОЙControlsGroup
-title: 'ОЙControlsGroup::hasMargin'
+  - class.ui-controls-group.md: UI\\Controls\\Group
+title: 'UI\\Controls\\Group::hasMargin'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsGroup::hasMargin
+# UI\\Controls\\Group::hasMargin
 
 (UI 0.9.9)
 
-ОЙControlsGroup::hasMargin — Визначення поля
+UI\\Controls\\Group::hasMargin — Визначення поля
 
 ### Опис
 

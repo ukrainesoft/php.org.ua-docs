@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.first.md: '« DsSet::first'
-  - ds-set.intersect.md: 'ДсSet::intersect »'
+  - ds-set.first.md: '« Ds\\Set::first'
+  - ds-set.intersect.md: 'Ds\\Set::intersect »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::get'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::get
+# Ds\\Set::get
 
 (PECL ds >= 1.0.0)
 
-ДсSet::get — Повертає значення за індексом
+Ds\\Set::get — Повертає значення за індексом
 
 ### Опис
 
@@ -36,7 +37,7 @@ public Ds\Set::get(int $index): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::get()****
+**Пример #1 Пример использования**Ds\\Set::get()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($set->get(2));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"
@@ -56,7 +57,7 @@ string(1) "b"
 string(1) "c"
 ```
 
-**Приклад #2 Приклад використання **ДсSet::get()** із синтаксисом масиву**
+**Пример #2 Пример использования**Ds\\Set::get()\*\* із синтаксисом масиву\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ var_dump($set[2]);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"

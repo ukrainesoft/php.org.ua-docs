@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdltristar.md: « tradercdltristar
-  - function.trader-cdlupsidegap2crows.md: tradercdlupsidegap2crows »
+  - function.trader-cdltristar.md: « trader\_cdltristar
+  - function.trader-cdlupsidegap2crows.md: trader\_cdlupsidegap2crows »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlunique3river
+  - ref.trader.md: Функції Trader
+title: trader\_cdlunique3river
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlunique3river
+# trader\_cdlunique3river
 
 (PECL trader >= 0.2.0)
 
-tradercdlunique3river - Свічкова модель "Особлива западина три річки"
+trader\_cdlunique3river - Свічкова модель "Особлива западина три річки"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlunique3river(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlunique3river(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

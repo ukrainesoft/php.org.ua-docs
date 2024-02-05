@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-application.destruct.md: '« YafApplication::destruct'
-  - yaf-application.execute.md: 'YafApplication::execute »'
+  - yaf-application.destruct.md: '« Yaf\_Application::\_\_destruct'
+  - yaf-application.execute.md: 'Yaf\_Application::execute »'
   - index.md: PHP Manual
-  - class.yaf-application.md: YafApplication
-title: 'YafApplication::environ'
+  - class.yaf-application.md: Yaf\_Application
+title: 'Yaf\_Application::environ'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafApplication::environ
+# Yaf\_Application::environ
 
 (Yaf >=1.0.0)
 
-YafApplication::environ — Отримати значення оточення
+Yaf\_Application::environ — Отримати значення оточення
 
 ### Опис
 
@@ -28,7 +29,7 @@ public Yaf_Application::environ(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafApplication::environ()****
+**Пример #1 Пример использования**Yaf\_Application::environ()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($application->environ());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 product

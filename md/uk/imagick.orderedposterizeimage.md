@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::orderedPosterizeImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::orderedPosterizeImage
 
-(PECL imagick 2> = 2.2.2, PECL imagick 3)
+(PECL imagick 2 >= 2.2.2, PECL imagick 3)
 
 Imagick::orderedPosterizeImage — Виконує впорядкований дизеринг
 
@@ -32,7 +33,7 @@ public Imagick::orderedPosterizeImage(string $threshold_map, int $channel = Imag
 
 `channel`
 
-Вкажіть будь-яку константу каналу, яка є дійсною для вашого режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до списку [констант канала](imagick.constants.md#imagick.constants.channel)
+Вкажіть будь-яку константу каналу, яка є дійсною для вашого режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до списку [констант каналу](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
@@ -44,7 +45,7 @@ public Imagick::orderedPosterizeImage(string $threshold_map, int $channel = Imag
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::orderedPosterizeImage()****
+**Пример #1 Пример использования**Imagick::orderedPosterizeImage()\*\*\*\*
 
 ```php
 <?php

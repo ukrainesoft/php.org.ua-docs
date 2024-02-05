@@ -1,14 +1,15 @@
 ---
 navigation:
-  - iteratoriterator.construct.md: '« IteratorIterator::construct'
+  - iteratoriterator.construct.md: '« IteratorIterator::\_\_construct'
   - iteratoriterator.getinneriterator.md: 'IteratorIterator::getInnerIterator »'
   - index.md: PHP Manual
   - class.iteratoriterator.md: IteratorIterator
 title: 'IteratorIterator::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IteratorIterator::current
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 IteratorIterator::current — Отримує поточне значення
 
@@ -30,4 +31,4 @@ public IteratorIterator::current(): mixed
 
 ### Дивіться також
 
--   [IteratorIterator::key()](iteratoriterator.key.md) - Отримує ключ поточного елемента
+-   [IteratorIterator::key()](iteratoriterator.key.md) \- Отримує ключ поточного елемента

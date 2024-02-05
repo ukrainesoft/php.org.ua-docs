@@ -4,14 +4,15 @@ navigation:
   - win32service.constants.basepriorities.md: Базові класи пріоритетів Win32
   - index.md: PHP Manual
   - win32service.constants.md: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ці константи не використовуються з Win32Service 1.0.0.
 
 **Коди помилок Win32**
 
-| Константа | Значение | Описание |
+| Константа | Значение | Опис |
 | --- | --- | --- |
 | **`WIN32_ERROR_ACCESS_DENIED`** | 0x00000005 | Обробник бази даних SCM не має потрібних прав доступу. |
 | **`WIN32_ERROR_CIRCULAR_DEPENDENCY`** | 0x00000423 | Задано взаємну залежність служб. |
@@ -25,11 +26,11 @@ navigation:
 | **`WIN32_ERROR_INVALID_LEVEL`** | 0x0000007C | Параметр InfoLevel містить непідтримуване значення. |
 | **`WIN32_ERROR_INVALID_NAME`** | 0x0000007B | Вказане ім'я служби неправильне. |
 | **`WIN32_ERROR_INVALID_PARAMETER`** | 0x00000057 | Зазначений параметр некоректний. |
-| **`WIN32_ERROR_INVALID_SERVICE_ACCOUNT`** | 0x00000421 | Ім'я облікового запису користувача, вказане в `user` Відсутнє. Дивіться [win32createservice()](function.win32-create-service.md) |
+| **`WIN32_ERROR_INVALID_SERVICE_ACCOUNT`** | 0x00000421 | Ім'я облікового запису користувача, вказане в `user` Відсутнє. Дивіться [win32\_create\_service()](function.win32-create-service.md) |
 | **`WIN32_ERROR_INVALID_SERVICE_CONTROL`** | 0x0000041C | Запитаний контрольний код є недійсним або неприйнятним для служби. |
 | **`WIN32_ERROR_PATH_NOT_FOUND`** | 0x00000003 | Виконуваний файл служби не знайдено. |
 | **`WIN32_ERROR_SERVICE_ALREADY_RUNNING`** | 0x00000420 | Екземпляр служби вже запущено. |
-| **`WIN32_ERROR_SERVICE_CANNOT_ACCEPT_CTRL`** | 0x00000425 | Запитаний код керування не може бути надісланий службі, оскільки її статус **`WIN32_SERVICE_STOPPED`** **`WIN32_SERVICE_START_PENDING`**, або **`WIN32_SERVICE_STOP_PENDING`** |
+| **`WIN32_ERROR_SERVICE_CANNOT_ACCEPT_CTRL`** | 0x00000425 | Запитаний код керування не може бути надісланий службі, оскільки її статус **`WIN32_SERVICE_STOPPED`** **`WIN32_SERVICE_START_PENDING`**, или\*\*`WIN32_SERVICE_STOP_PENDING`\*\* |
 | **`WIN32_ERROR_SERVICE_DATABASE_LOCKED`** | 0x0000041F | Базу даних заблоковано. |
 | **`WIN32_ERROR_SERVICE_DEPENDENCY_DELETED`** | 0x00000433 | Служба залежить від служби якої немає або яка відзначена для видалення. |
 | **`WIN32_ERROR_SERVICE_DEPENDENCY_FAIL`** | 0x0000042C | Служба залежить від іншої служби, яка не може запуститись. |

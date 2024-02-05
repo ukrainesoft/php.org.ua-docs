@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-events.remove.md: '« parallelEvents::remove'
-  - class.parallel-events-input.md: parallelEventsInput »
+  - parallel-events.remove.md: '« parallel\\Events::remove'
+  - class.parallel-events-input.md: parallel\\Events\\Input »
   - index.md: PHP Manual
-  - class.parallel-events.md: parallelEvents
-title: 'parallelEvents::poll'
+  - class.parallel-events.md: parallel\\Events
+title: 'parallel\\Events::poll'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelEvents::poll
+# parallel\\Events::poll
 
-parallelEvents::poll — Опитування
+(0.9.0)
+
+parallel\\Events::poll — Опитування
 
 ### Опис
 
@@ -24,10 +27,10 @@ public parallel\Events::poll(): ?parallel\Events\Event
 
 Якщо це буде неблокуючий цикл і відбудеться блокування, буде повернено значення **`null`**
 
-В іншому випадку [parallelEventsEvent](class.parallel-events-event.md) повертає опис події.
+В іншому випадку [parallel\\Events\\Event](class.parallel-events-event.md) повертає опис події.
 
 ### Помилки
 
 **Увага**
 
-Викидає parallelEventsErrorTimeout, якщо час очікування використано та досягнуто.
+Викидає parallel\\Events\\Error\\Timeout, якщо час очікування використано та досягнуто.

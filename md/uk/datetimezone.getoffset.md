@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.datetimezone.md: DateTimeZone
 title: 'DateTimeZone::getOffset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeZone::getOffset
 
-# timezoneoffsetget
+# timezone\_offset\_get
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-DateTimeZone::getOffset -- timezoneoffsetget — Повертає зсув часового поясу від UTC (GMT)
+DateTimeZone::getOffset -- timezone\_offset\_get — Повертає зсув часового поясу від UTC (GMT)
 
 ### Опис
 
@@ -34,7 +35,7 @@ timezone_offset_get(DateTimeZone $object, DateTimeInterface $datetime): int
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.md), що повертається [timezoneopen()](function.timezone-open.md)
+Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.md), що повертається [timezone\_open()](function.timezone-open.md)
 
 `datetime`
 
@@ -44,15 +45,9 @@ DateTime, що містить дату/час, щодо яких обчислю�
 
 Повертає зміщення часового поясу за секунди.
 
-### список змін
-
-| Версия | Описание |
-| --- | --- |
-|  | До цієї версії, у разі виникнення помилки поверталося **`false`** |
-
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTimeZone::getOffset()****
+**Пример #1 Пример использования**DateTimeZone::getOffset()\*\*\*\*
 
 ```php
 <?php

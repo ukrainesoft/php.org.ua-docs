@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-collection.removeone.md: '« Collection::removeOne'
-  - class.mysql-xdevapi-collectionadd.md: mysqlxdevapiCollectionAdd »
+  - class.mysql-xdevapi-collectionadd.md: mysql\_xdevapi\\CollectionAdd »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
 title: 'Collection::replaceOne'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collection::replaceOne
 
@@ -24,11 +25,11 @@ public mysql_xdevapi\Collection::replaceOne(string $id, string $doc): mysql_xdev
 
 `id`
 
-Ідентифікатор документа для заміни чи оновлення. Зазвичай це id, який було згенеровано MySQL Server при додаванні запису.
+Ідентифікатор документа для заміни чи оновлення. Зазвичай це \_id, який було згенеровано MySQL Server при додаванні запису.
 
 `doc`
 
-Документ колекції для оновлення або заміни документа, що відповідає параметру **ід**
+Документ колекції для оновлення або заміни документа, що відповідає параметру **id**
 
 Документ може бути об'єктом документа або коректним рядком JSON, що описує новий документ.
 
@@ -38,7 +39,7 @@ public mysql_xdevapi\Collection::replaceOne(string $id, string $doc): mysql_xdev
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::replaceOne()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::replaceOne()\*\*\*\*
 
 ```php
 <?php

@@ -1,14 +1,15 @@
 ---
 navigation:
   - simplexmlelement.getname.md: '« SimpleXMLElement::getName'
-  - simplexmlelement.registerxpathnamespace.md: 'SimpleXMLElement::registerXPathNamespace »'
+  - simplexmlelement.getchildren.md: 'SimpleXMLElement::getChildren »'
   - index.md: PHP Manual
   - class.simplexmlelement.md: SimpleXMLElement
 title: 'SimpleXMLElement::getNamespaces'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SimpleXMLElement::getNamespaces
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SimpleXMLElement::getNamespaces — Повертає простір імен, які використовуються в документі
 
@@ -28,7 +29,7 @@ public SimpleXMLElement::getNamespaces(bool $recursive = false): array
 
 ### Значення, що повертаються
 
-Метод `getNamespaces` повертає масив (array) з назвами просторів імен та пов'язаними з ними URI.
+Метод`getNamespaces` повертає масив (array) з назвами просторів імен та пов'язаними з ними URI.
 
 ### Приклади
 
@@ -53,7 +54,7 @@ var_dump($namespaces);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {
@@ -64,5 +65,5 @@ array(1) {
 
 ### Дивіться також
 
--   [SimpleXMLElement::getDocNamespaces()](simplexmlelement.getdocnamespaces.md) - Повертає простори імен, оголошених у документі
--   [SimpleXMLElement::registerXPathNamespace()](simplexmlelement.registerxpathnamespace.md) - Створює префікс/простір імен контексту для наступного запиту XPath
+-   [SimpleXMLElement::getDocNamespaces()](simplexmlelement.getdocnamespaces.md) \- Повертає простори імен, оголошених у документі
+-   [SimpleXMLElement::registerXPathNamespace()](simplexmlelement.registerxpathnamespace.md) \- Створює префікс/простір імен контексту для наступного запиту XPath

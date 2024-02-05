@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-simple.offsetunset.md: '« YafConfigSimple::offsetUnset'
-  - yaf-config-simple.rewind.md: 'YafConfigSimple::rewind »'
+  - yaf-config-simple.offsetunset.md: '« Yaf\_Config\_Simple::offsetUnset'
+  - yaf-config-simple.rewind.md: 'Yaf\_Config\_Simple::rewind »'
   - index.md: PHP Manual
-  - class.yaf-config-simple.md: YafConfigSimple
-title: 'YafConfigSimple::readonly'
+  - class.yaf-config-simple.md: Yaf\_Config\_Simple
+title: 'Yaf\_Config\_Simple::readonly'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigSimple::readonly
+# Yaf\_Config\_Simple::readonly
 
 (Yaf >=1.0.0)
 
-YafConfigSimple::readonly — Призначення readonly
+Yaf\_Config\_Simple::readonly — Призначення readonly
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Simple::readonly(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

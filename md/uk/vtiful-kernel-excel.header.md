@@ -1,16 +1,17 @@
 ---
 navigation:
-  - vtiful-kernel-excel.getHandle.md: '« VtifulKernelExcel::getHandle'
-  - vtiful-kernel-excel.insertFormula.md: 'VtifulKernelExcel::insertFormula »'
+  - vtiful-kernel-excel.getHandle.md: '« Vtiful\\Kernel\\Excel::getHandle'
+  - vtiful-kernel-excel.insertFormula.md: 'Vtiful\\Kernel\\Excel::insertFormula »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.md: VtifulKernelExcel
-title: 'VtifulKernelExcel::header'
+  - class.vtiful-kernel-excel.md: Vtiful\\Kernel\\Excel
+title: 'Vtiful\\Kernel\\Excel::header'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelExcel::header
+# Vtiful\\Kernel\\Excel::header
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelExcel::header — Записати заголовок
+Vtiful\\Kernel\\Excel::header — Записати заголовок
 
 ### Опис
 
@@ -24,11 +25,11 @@ public Vtiful\Kernel\Excel::header(array $headerData)
 
 `headerData`
 
-Дані заголовка листа
+Дані заголовка аркуша
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

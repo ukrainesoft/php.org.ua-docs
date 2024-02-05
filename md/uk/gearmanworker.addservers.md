@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::addServers'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::addServers
 
@@ -15,7 +16,7 @@ GearmanWorker::addServers — Додавання серверів завдань
 ### Опис
 
 ```methodsynopsis
-public GearmanWorker::addServers(string $servers = 127.0.0.1:4730): bool
+public GearmanWorker::addServers(string $servers = null, bool $setupExceptionHandler = true): bool
 ```
 
 Додає один або кілька серверів завдань у цей обробник. Обробник зберігає список серверів, від яких може отримувати завдання на обробку. Метод просто додає інформацію про сервери до цього списку, жодного обміну даними між сервером та обробником у цей момент не відбувається.
@@ -28,7 +29,7 @@ public GearmanWorker::addServers(string $servers = 127.0.0.1:4730): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -45,4 +46,4 @@ $worker->addServers("10.0.0.1,10.0.0.2:7003");
 
 ### Дивіться також
 
--   [GearmanWorker::addServer()](gearmanworker.addserver.md) - Додавання сервера завдань
+-   [GearmanWorker::addServer()](gearmanworker.addserver.md) \- Додавання сервера завдань

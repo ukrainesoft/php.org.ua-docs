@@ -1,14 +1,15 @@
 ---
 navigation:
-  - language.exceptions.md: « Исключения
+  - language.exceptions.md: « Винятки
   - language.fibers.md: Fibers »
   - index.md: PHP Manual
-  - language.exceptions.md: Исключения
+  - language.exceptions.md: Винятки
 title: Спадкування винятків
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Спадкування винятків
 
-Визначений користувачем клас виключення має бути визначений, як клас розширюючий (успадкований) вбудований клас Exception. Нижче наведено методи та властивості класу Exception, доступні дочірнім класам.
+Визначений користувачем клас виключення повинен бути визначений як клас розширювальний (успадкований) вбудований клас Exception. Нижче наведено методи та властивості класу Exception, доступні дочірнім класам.
 
 **Приклад #1 Вбудований клас Exception**
 
@@ -32,7 +33,7 @@ class Exception implements Throwable
     final public  function getCode();           // код исключения
     final public  function getFile();           // файл, где выброшено исключение
     final public  function getLine();           // строка, на которой выброшено исключение
-    final public  function getTrace();          // Масив backtrace()
+    final public  function getTrace();          // массив backtrace()
     final public  function getPrevious();       // предыдущее исключение
     final public  function getTraceAsString();  // отформатированная строка трассировки
 
@@ -42,9 +43,9 @@ class Exception implements Throwable
 ?>
 ```
 
-Якщо клас, успадкований від Exception перевизначає [конструктор](language.oop5.decon.md)необхідно викликати в конструкторі [parent::construct()](language.oop5.paamayim-nekudotayim.md)щоб бути впевненим, що всі доступні дані були правильно присвоєні. Метод [toString()](language.oop5.magic.md) може бути перевизначений, щоб забезпечити потрібний висновок, коли об'єкт перетворюється на рядок.
+Якщо клас, успадкований від Exception перевизначає [конструктор](language.oop5.decon.md)необхідно викликати в конструкторі [parent::\_\_construct()](language.oop5.paamayim-nekudotayim.md)щоб бути впевненим, що всі доступні дані були правильно присвоєні. Метод [\_\_toString()](language.oop5.magic.md) може бути перевизначений, щоб забезпечити потрібний висновок, коли об'єкт перетворюється на рядок.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Винятки не можна клонувати. Спроба [клонувати](language.oop5.cloning.md) виняток призведе до непоправної помилки **`E_ERROR`**
 
@@ -107,7 +108,6 @@ class TestException
         }
     }
 }
-
 
 // Пример 1
 try {

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-num-fields.md: « odbcnumfields
-  - function.odbc-pconnect.md: odbcpconnect »
+  - function.odbc-num-fields.md: « odbc\_num\_fields
+  - function.odbc-pconnect.md: odbc\_pconnect »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcnumrows
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_num\_rows
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcnumrows
+# odbc\_num\_rows
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcnumrows — Повертає кількість рядків у результаті
+odbc\_num\_rows — Повертає кількість рядків у результаті
 
 ### Опис
 
@@ -18,13 +19,13 @@ odbcnumrows — Повертає кількість рядків у резуль
 odbc_num_rows(resource $statement): int
 ```
 
-Повертає кількість рядків у результаті. Для операторів INSERT, UPDATE та DELETE **odbcnumrows()** повертає кількість порушених рядків. Для пропозиції SELECT це `может` бути кількість доступних рядків.
+Повертає кількість рядків у результаті. Для операторів INSERT, UPDATE та DELETE **odbc\_num\_rows()** повертає кількість порушених рядків. Для пропозиції SELECT це `може` бути кількість доступних рядків.
 
 ### Список параметрів
 
 `statement`
 
-Ідентифікатор результату, що повертається [odbcexec()](function.odbc-exec.md)
+Ідентифікатор результату, що повертається [odbc\_exec()](function.odbc-exec.md)
 
 ### Значення, що повертаються
 
@@ -32,6 +33,6 @@ odbc_num_rows(resource $statement): int
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Використання **odbcnumrows()** для визначення кількості рядків, доступних після виконання SELECT поверне -1 для багатьох драйверів.
+> Использование**odbc\_num\_rows()** для визначення кількості рядків, доступних після виконання SELECT поверне -1 для багатьох драйверів.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.isput.md: '« YafRequestAbstract::isPut'
-  - yaf-request-abstract.isxmlhttprequest.md: 'YafRequestAbstract::isXmlHttpRequest »'
+  - yaf-request-abstract.isput.md: '« Yaf\_Request\_Abstract::isPut'
+  - yaf-request-abstract.isxmlhttprequest.md: 'Yaf\_Request\_Abstract::isXmlHttpRequest »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::isRouted'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::isRouted'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::isRouted
+# Yaf\_Request\_Abstract::isRouted
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::isRouted — Визначає, чи надіслано запит.
+Yaf\_Request\_Abstract::isRouted — Визначає, чи надіслано запит.
 
 ### Опис
 

@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.ldap-mod_del-ext.md: « ldapmoddelext
-  - function.ldap-mod_replace-ext.md: ldapmodreplaceext »
+  - function.ldap-mod_del-ext.md: « ldap\_mod\_del\_ext
+  - function.ldap-mod_replace-ext.md: ldap\_mod\_replace\_ext »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapmoddel
+title: ldap\_mod\_del
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapmoddel
+# ldap\_mod\_del
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapmoddel — Видалити атрибути з поточних атрибутів.
+ldap\_mod\_del — Видалити атрибути з поточних атрибутів.
 
 ### Опис
 
 ```methodsynopsis
-ldap_mod_del(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
+ldap_mod_del(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
 ```
 
-Видаляє один або більше атрибутів із зазначеного `dn`. Видалення об'єктів здійснюється функцією [ldapdelete()](function.ldap-delete.md)
+Видаляє один або більше атрибутів із зазначеного `dn`. Видалення об'єктів здійснюється функцією [ldap\_delete()](function.ldap-delete.md)
 
 ### Список параметрів
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `dn`
 
@@ -34,23 +35,23 @@ ldap_mod_del(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?arra
 
 `controls`
 
-Масив [управляющих констант LDAP](ldap.controls.md) для відправки у запиті.
+Массив[керуючих констант LDAP](ldap.controls.md)для отправки в запросе.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
-|  | Додано підтримку параметра `controls` |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.0.0 | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+| 7.3.0 | Додано підтримку параметра `controls` |
 
 ### Дивіться також
 
--   [ldapmoddelext()](function.ldap-mod_del-ext.md) - Видалити значення атрибутів із поточних атрибутів
--   [ldapmodadd()](function.ldap-mod-add.md) - Додати значення атрибуту до поточних атрибутів
--   [ldapmodreplace()](function.ldap-mod-replace.md) - Замінити значення атрибутів на нові
--   [ldapmodifybatch()](function.ldap-modify-batch.md) - Формування та запуск пакетної зміни запису LDAP
+-   [ldap\_mod\_del\_ext()](function.ldap-mod_del-ext.md) \- Видалити значення атрибутів із поточних атрибутів
+-   [ldap\_mod\_add()](function.ldap-mod-add.md) \- Додати значення атрибуту до поточних атрибутів
+-   [ldap\_mod\_replace()](function.ldap-mod-replace.md) \- Замінити значення атрибутів на нові
+-   [ldap\_modify\_batch()](function.ldap-modify-batch.md) \- Формування та запуск пакетної зміни запису LDAP

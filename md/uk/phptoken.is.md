@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phptoken.md: PhpToken
 title: 'PhpToken::is'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PhpToken::is
 
@@ -28,11 +29,11 @@ public PhpToken::is(int|string|array $kind): bool
 
 ### Значення, що повертаються
 
-Логічне значення, **`true`** або **`false`**
+Логічне значення, **`true`**или**`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PhpToken::is()****
+**Пример #1 Пример использования**PhpToken::is()\*\*\*\*
 
 ```php
 <?php
@@ -60,4 +61,4 @@ var_dump(isClassType($function));    // -> bool(false)
 
 ### Дивіться також
 
--   [tokenname()](function.token-name.md) - Отримати символьне ім'я для переданої PHP-лексеми
+-   [token\_name()](function.token-name.md) \- Отримати символьне ім'я для переданої PHP-лексеми

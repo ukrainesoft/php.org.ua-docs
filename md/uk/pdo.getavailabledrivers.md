@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.pdo.md: PDO
 title: 'PDO::getAvailableDrivers'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::getAvailableDrivers
 
-# pdodrivers
+# pdo\_drivers
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 1.0.3)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8, PECL pdo >= 1.0.3)
 
-PDO::getAvailableDrivers -- pdodrivers — Повертає масив доступних драйверів PDO
+PDO::getAvailableDrivers -- pdo\_drivers — Повертає масив доступних драйверів PDO
 
 ### Опис
 
@@ -24,7 +25,7 @@ public static PDO::getAvailableDrivers(): array
 pdo_drivers(): array
 ```
 
-Ця функція повертає всі наявні в даний час драйвери PDO, які можна використовувати в `DSN`параметрі [PDO::construct()](pdo.construct.md)
+Ця функція повертає всі наявні в даний час драйвери PDO, які можна використовувати в `DSN`\-параметре[PDO::\_\_construct()](pdo.construct.md)
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ pdo_drivers(): array
 
 ### Значення, що повертаються
 
-Функція **PDO::getAvailableDrivers()** повертає масив імен PDO драйверів. Якщо немає драйверів, повертається порожній масив.
+Функция**PDO::getAvailableDrivers()** повертає масив імен PDO драйверів. Якщо немає драйверів, повертається порожній масив.
 
 ### Приклади
 
@@ -44,7 +45,7 @@ print_r(PDO::getAvailableDrivers());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

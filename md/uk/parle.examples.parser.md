@@ -1,10 +1,11 @@
 ---
 navigation:
   - parle.examples.lexer.md: « Приклади використання лексера
-  - class.parle-lexer.md: ParleLexer »
+  - class.parle-lexer.md: Parle\\Lexer »
   - index.md: PHP Manual
   - parle.examples.md: Приклади
 title: Приклад використання парсеру
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Приклад використання парсеру
 

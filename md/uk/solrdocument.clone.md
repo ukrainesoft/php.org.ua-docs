@@ -1,16 +1,17 @@
 ---
 navigation:
   - solrdocument.clear.md: '« SolrDocument::clear'
-  - solrdocument.construct.md: 'SolrDocument::construct »'
+  - solrdocument.construct.md: 'SolrDocument::\_\_construct »'
   - index.md: PHP Manual
   - class.solrdocument.md: SolrDocument
-title: 'SolrDocument::clone'
+title: 'SolrDocument::\_\_clone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrDocument::clone
+# SolrDocument::\_\_clone
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrDocument::clone — Створює копію об'єкта SolrDocument
+SolrDocument::\_\_clone — Створює копію об'єкта SolrDocument
 
 ### Опис
 

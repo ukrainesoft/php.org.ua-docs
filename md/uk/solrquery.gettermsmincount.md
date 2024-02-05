@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getTermsMinCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getTermsMinCount
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrQuery::getTermsMinCount - Повертає мінімальну частоту повернення документів для включення
+SolrQuery::getTermsMinCount — Повертає мінімальну частоту повернення документів для включення
 
 ### Опис
 

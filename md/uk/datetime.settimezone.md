@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.datetime.md: DateTime
 title: 'DateTime::setTimezone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTime::setTimezone
 
-# datetimezoneset
+# date\_timezone\_set
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-DateTime::setTimezone -- datetimezoneset — Встановлює часовий пояс для об'єкта класу DateTime
+DateTime::setTimezone -- date\_timezone\_set — Встановлює часовий пояс для об'єкта класу DateTime
 
 ### Опис
 
@@ -30,7 +31,7 @@ date_timezone_set(DateTime $object, DateTimeZone $timezone): DateTime
 
 Встановлює новий часовий пояс для об'єкта (object) [DateTime](class.datetime.md)
 
-Подібний до методу [DateTimeImmutable::setTimezone()](datetimeimmutable.settimezone.md), крім роботи з об'єктом [DateTime](class.datetime.md)
+Подобен методу[DateTimeImmutable::setTimezone()](datetimeimmutable.settimezone.md), крім роботи з об'єктом [DateTime](class.datetime.md)
 
 Процедурна версія приймає об'єкт [DateTime](class.datetime.md) як перший аргумент.
 
@@ -38,7 +39,7 @@ date_timezone_set(DateTime $object, DateTimeZone $timezone): DateTime
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [date\_create()](function.date-create.md). Функція змінює цей об'єкт.
 
 `timezone`
 
@@ -50,7 +51,7 @@ date_timezone_set(DateTime $object, DateTimeZone $timezone): DateTime
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTime::setTimeZone()****
+**Пример #1 Пример использования**DateTime::setTimeZone()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -76,7 +77,7 @@ echo date_format($date, 'Y-m-d H:i:sP') . "\n";
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 2000-01-01 00:00:00+12:00
@@ -85,6 +86,6 @@ echo date_format($date, 'Y-m-d H:i:sP') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::setTimezone()](datetimeimmutable.settimezone.md) - Встановлює часовий пояс
--   [DateTime::getTimezone()](datetime.gettimezone.md) - Повертає часовий пояс щодо поточного значення DateTime
--   [DateTimeZone::construct()](datetimezone.construct.md) - Створює новий об'єкт DateTimeZone
+-   [DateTimeImmutable::setTimezone()](datetimeimmutable.settimezone.md) \- Встановлює часовий пояс
+-   [DateTime::getTimezone()](datetime.gettimezone.md) \- Повертає часовий пояс щодо поточного значення DateTime
+-   [DateTimeZone::\_\_construct()](datetimezone.construct.md) \- Створює новий об'єкт DateTimeZone

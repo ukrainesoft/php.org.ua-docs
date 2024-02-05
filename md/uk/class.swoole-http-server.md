@@ -1,12 +1,13 @@
 ---
 navigation:
-  - swoole-http-response.write.md: '« SwooleHttpResponse::write'
-  - swoole-http-server.on.md: 'SwooleHttpServer::on »'
+  - swoole-http-response.write.md: '« Swoole\\Http\\Response::write'
+  - swoole-http-server.on.md: 'Swoole\\Http\\Server::on »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
-title: Клас SwooleHttpServer
+title: Клас Swoole\\Http\\Server
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас SwooleHttpServer
+# Клас Swoole\\Http\\Server
 
 (PECL swoole >= 1.9.0)
 
@@ -66,7 +67,7 @@ public Swoole\Server::resume(int $fd): void
 public Swoole\Server::send(int $fd, string $data, int $reactor_id = ?): bool
 public Swoole\Server::sendfile(int $fd, string $filename, int $offset = ?): bool
 public Swoole\Server::sendMessage(int $worker_id, string $data): bool
-public Swoole\Server::sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
+public Swoole\Server::sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
 public Swoole\Server::sendwait(int $fd, string $data): bool
 public Swoole\Server::set(array $settings): ReturnType
 public Swoole\Server::shutdown(): void
@@ -75,7 +76,7 @@ public Swoole\Server::stats(): array
 public Swoole\Server::stop(int $worker_id = ?): bool
 public Swoole\Server::task(string $data, int $dst_worker_id = ?, callable $callback = ?): mixed
 public Swoole\Server::taskwait(string $data, float $timeout = ?, int $worker_id = ?): void
-public Swoole\Server::taskWaitMulti(array $tasks, double $timeout_ms = ?): void
+public Swoole\Server::taskWaitMulti(array $tasks, float $timeout_ms = ?): void
 public Swoole\Server::tick(int $interval_ms, callable $callback): void
 
 
@@ -84,5 +85,5 @@ public Swoole\Server::tick(int $interval_ms, callable $callback): void
 
 ## Зміст
 
--   [SwooleHttpServer::on](swoole-http-server.on.md) — Прив'язує callback-функцію до HTTP-сервера на ім'я події
--   [SwooleHttpServer::start](swoole-http-server.start.md) - Запускає http-сервер swoole
+-   [Swoole\\Http\\Server::on](swoole-http-server.on.md)— Прив'язує callback-функцію до HTTP-сервера на ім'я події
+-   [Swoole\\Http\\Server::start](swoole-http-server.start.md) \- Запускає http-сервер swoole

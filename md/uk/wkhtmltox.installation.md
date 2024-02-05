@@ -4,11 +4,12 @@ navigation:
   - wkhtmltox.configuration.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - wkhtmltox.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Вихідний код цього модуля та двійкові файли для Windows доступні [» github](https://github.com/krakjoe/wkhtmltox)
+Вихідний код цього модуля та двійкові файли для Windows доступні [» github](https://github.com/krakjoe/wkhtmltox),
 
 Отримання вихідного коду та складання модуля:
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageGeometry'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageGeometry
 
@@ -34,7 +35,7 @@ public Imagick::getImageGeometry(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::getImageGeometry()****
+**Пример #1 Пример использования**Imagick::getImageGeometry()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($imagick->getImageGeometry());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array

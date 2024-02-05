@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ibase.setup.md: « Встановлення та налаштування
-  - ibase.installation.md: Установка »
+  - ibase.setup.md: '" Встановлення та налаштування'
+  - ibase.installation.md: Встановлення »
   - index.md: PHP Manual
   - ibase.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 

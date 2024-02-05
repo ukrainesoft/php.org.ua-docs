@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.opcache-get-status.md: « opcachegetstatus
-  - function.opcache-is-script-cached.md: opcacheісscriptcached »
+  - function.opcache-get-status.md: « opcache\_get\_status
+  - function.opcache-is-script-cached.md: opcache\_is\_script\_cached »
   - index.md: PHP Manual
-  - ref.opcache.md: Функции OPcache
-title: opcacheinvalidate
+  - ref.opcache.md: Опції OPcache
+title: opcache\_invalidate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opcacheinvalidate
+# opcache\_invalidate
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL ZendOpcache >= 7.0.0)
 
-opcacheinvalidate — Анулює закешований скрипт
+opcache\_invalidate — Анулює закешований скрипт
 
 ### Опис
 
@@ -28,7 +29,7 @@ opcache_invalidate(string $filename, bool $force = false): bool
 
 `force`
 
-Якщо встановлено як **`true`**, кеш скрипта буде примусово анульований незалежно від того, потрібно це чи ні
+Если установлено как\*\*`true`\*\*, кеш скрипта буде примусово анульований незалежно від того, потрібно це чи ні
 
 ### Значення, що повертаються
 
@@ -36,5 +37,5 @@ opcache_invalidate(string $filename, bool $force = false): bool
 
 ### Дивіться також
 
--   [opcachecompilefile()](function.opcache-compile-file.md) - Скомпілювати та закешувати, але не виконувати скрипт PHP
--   [opcachereset()](function.opcache-reset.md) - скидає вміст кешу опкодів
+-   [opcache\_compile\_file()](function.opcache-compile-file.md) \- Скомпілювати та закешувати, але не виконувати скрипт PHP
+-   [opcache\_reset()](function.opcache-reset.md) \- скидає вміст кешу опкодів

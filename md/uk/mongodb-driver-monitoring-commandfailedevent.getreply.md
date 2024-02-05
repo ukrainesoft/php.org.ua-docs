@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandfailedevent.getoperationid.md: '« MongoDBDriverMonitoringCommandFailedEvent::getOperationId'
-  - mongodb-driver-monitoring-commandfailedevent.getrequestid.md: 'MongoDBDriverMonitoringCommandFailedEvent::getRequestId »'
+  - mongodb-driver-monitoring-commandfailedevent.getoperationid.md: '« MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getOperationId'
+  - mongodb-driver-monitoring-commandfailedevent.getrequestid.md: 'MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getRequestId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDBDriverMonitoringCommandFailedEvent
-title: 'MongoDBDriverMonitoringCommandFailedEvent::getReply'
+  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDB\\Driver\\Monitoring\\CommandFailedEvent
+title: 'MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getReply'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringCommandFailedEvent::getReply
+# MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getReply
 
 (mongodb >=1.5.0)
 
-MongoDBDriverMonitoringCommandFailedEvent::getReply — Повертає документ відповіді команди
+MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getReply — Повертає документ відповіді команди
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverMonitoringCommandFailedEvent::getReply — Повертає док�
 final public MongoDB\Driver\Monitoring\CommandFailedEvent::getReply(): object
 ```
 
-У відповідь документ буде перетворено з BSON в PHP з використанням правил [десериализации](mongodb.persistence.deserialization.md) за промовчанням (наприклад, документи BSON будуть перетворені на stdClass).
+У відповідь документ буде перетворено з BSON в PHP з використанням правил [десеріалізації](mongodb.persistence.deserialization.md) за промовчанням (наприклад, документи BSON будуть перетворені на [stdClass](class.stdclass.md)
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ final public MongoDB\Driver\Monitoring\CommandFailedEvent::getReply(): object
 
 ### Значення, що повертаються
 
-Повертає документ відповіді команди у вигляді об'єкту **stdClass**
+Повертає документ відповіді команди у вигляді об'єкту [stdClass](class.stdclass.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 

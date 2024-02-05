@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-control-paged-result.md: « ldapcontrolpagedresult
-  - function.ldap-count-references.md: ldapcountreferences »
+  - function.ldap-control-paged-result.md: « ldap\_control\_paged\_result
+  - function.ldap-count-references.md: ldap\_count\_references »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapcountentries
+title: ldap\_count\_entries
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapcountentries
+# ldap\_count\_entries
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapcountentries — Порахувати кількість записів у результатах пошуку
+ldap\_count\_entries — Порахувати кількість записів у результатах пошуку
 
 ### Опис
 
@@ -24,26 +25,26 @@ ldap_count_entries(LDAP\Connection $ldap, LDAP\Result $result): int
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `result`
 
-Екземпляр [LDAPResult](class.ldap-result.md), що повертається [ldaplist()](function.ldap-list.md) або [ldapsearch()](function.ldap-search.md)
+Екземпляр [LDAP\\Result](class.ldap-result.md), що повертається [ldap\_list()](function.ldap-list.md) або [ldap\_search()](function.ldap-search.md)
 
 ### Значення, що повертаються
 
-Повертає кількість записів у результаті або **`false`** у разі виникнення помилки.
+Повертає кількість записів у результаті або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [LDAP\\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap result` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **ldapcountentries()****
+**Пример #1 Пример использования функции**ldap\_count\_entries()\*\*\*\*
 
 Отримання числа записів у результаті.
 
@@ -59,7 +60,7 @@ ldap_count_entries(LDAP\Connection $ldap, LDAP\Result $result): int
      var_dump(ldap_count_entries($ds, $sr));
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(1)

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashintstringhash.md: QuickHashIntStringHash
 title: 'QuickHashIntStringHash::getSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntStringHash::getSize
 
@@ -30,7 +31,7 @@ public QuickHashIntStringHash::getSize(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntStringHash::getSize()****
+**Пример #1 Пример использования**QuickHashIntStringHash::getSize()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ var_dump( $hash->getSize() );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)

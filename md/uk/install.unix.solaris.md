@@ -1,10 +1,11 @@
 ---
 navigation:
-  - install.unix.openbsd.md: '« OpenBSD, замечания по установке'
-  - install.unix.debian.md: Инструкции по установке на Debian GNU/Linux »
+  - install.unix.openbsd.md: '« OpenBSD, зауваження щодо встановлення'
+  - install.unix.debian.md: Інструкції зі встановлення на Debian GNU/Linux »
   - index.md: PHP Manual
   - install.unix.md: Встановлення на Unix-системи
 title: Інструкції з інсталяції для ОС Solaris
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Інструкції з інсталяції для ОС Solaris
 
@@ -30,7 +31,7 @@ title: Інструкції з інсталяції для ОС Solaris
 
 -   re2c
 -   bison
--   мч
+-   m4
 -   autoconf
 -   automake
 

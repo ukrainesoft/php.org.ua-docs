@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-num-cols.md: « cubridnumcols
-  - function.cubrid-pconnect-with-url.md: cubridpconnectwithurl »
+  - function.cubrid-num-cols.md: « cubrid\_num\_cols
+  - function.cubrid-pconnect-with-url.md: cubrid\_pconnect\_with\_url »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridnumrows
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_num\_rows
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridnumrows
+# cubrid\_num\_rows
 
 (PECL CUBRID >= 8.3.0)
 
-cubridnumrows — Отримати кількість рядків у наборі результатів
+cubrid\_num\_rows — Отримати кількість рядків у наборі результатів
 
 ### Опис
 
@@ -18,15 +19,15 @@ cubridnumrows — Отримати кількість рядків у набор
 cubrid_num_rows(resource $result): int
 ```
 
-Функція **cubridnumrows()** використовується для одержання кількості рядків результату запиту. Може використовуватись для операторів `SELECT`. Для запитів `INSERT` `UPDATE` або `DELETE`, використовуйте функцію [cubridaffectedrows()](function.cubrid-affected-rows.md)
+Функция**cubrid\_num\_rows()** використовується для одержання кількості рядків результату запиту. Може використовуватись для операторів `SELECT`. Для запитів `INSERT` `UPDATE`или`DELETE`, используйте функцию[cubrid\_affected\_rows()](function.cubrid-affected-rows.md)
 
-Примітка: Функцію **cubridnumrows()** можна використовувати лише для синхронного запиту; функція повертає 0, якщо використовується для асинхронного запиту.
+Примечание: Функцию**cubrid\_num\_rows()** можна використовувати лише для синхронного запиту; функція повертає 0, якщо використовується для асинхронного запиту.
 
 ### Список параметрів
 
 `result`
 
-`result` із виклику функцій [cubridexecute()](function.cubrid-execute.md) [cubridquery()](function.cubrid-query.md) і [cubridprepare()](function.cubrid-prepare.md)
+`result` із виклику функцій [cubrid\_execute()](function.cubrid-execute.md) [cubrid\_query()](function.cubrid-query.md) і [cubrid\_prepare()](function.cubrid-prepare.md)
 
 ### Значення, що повертаються
 
@@ -34,13 +35,13 @@ cubrid_num_rows(resource $result): int
 
 0, якщо запит було здійснено в асинхронному режимі.
 
-1, якщо SQL-оператор не є SELECT.
+\-1, якщо SQL-оператор не є SELECT.
 
-**`false`** у разі виникнення помилки.
+\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridnumrows()****
+**Пример #1 Пример использования**cubrid\_num\_rows()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Количество строк: 6
@@ -66,6 +67,6 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
--   [cubridnumcols()](function.cubrid-num-cols.md) - Повертає кількість стовпців у наборі результатів
--   [cubridaffectedrows()](function.cubrid-affected-rows.md) - Кількість рядків, порушених останнім SQL-запитом
+-   [cubrid\_execute()](function.cubrid-execute.md) \- Виконує підготовлений SQL-оператор
+-   [cubrid\_num\_cols()](function.cubrid-num-cols.md) \- Повертає кількість стовпців у наборі результатів
+-   [cubrid\_affected\_rows()](function.cubrid-affected-rows.md) \- Кількість рядків, порушених останнім SQL-запитом

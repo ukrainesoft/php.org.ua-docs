@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-blob-add.md: « ibaseblobadd
-  - function.ibase-blob-close.md: ibaseblobclose »
+  - function.ibase-blob-add.md: « ibase\_blob\_add
+  - function.ibase-blob-close.md: ibase\_blob\_close »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseblobcancel
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_blob\_cancel
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseblobcancel
+# ibase\_blob\_cancel
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseblobcancel — Скасує створення об'єкта BLOB
+ibase\_blob\_cancel — Скасує створення об'єкта BLOB
 
 ### Опис
 
@@ -18,20 +19,20 @@ ibaseblobcancel — Скасує створення об'єкта BLOB
 ibase_blob_cancel(resource $blob_handle): bool
 ```
 
-Ця функція відкидає BLOB-об'єкт, якщо його ще не було закрито за допомогою [ibaseblobclose()](function.ibase-blob-close.md)
+Ця функція відкидає BLOB-об'єкт, якщо його ще не було закрито за допомогою [ibase\_blob\_close()](function.ibase-blob-close.md)
 
 ### Список параметрів
 
 `blob_handle`
 
-Дескриптор BLOB-об'єкта, відкритий за допомогою [ibaseblobcreate()](function.ibase-blob-create.md)
+Дескриптор BLOB-об'єкта, відкритий за допомогою [ibase\_blob\_create()](function.ibase-blob-create.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ibaseblobclose()](function.ibase-blob-close.md) - Закриває BLOB-об'єкт
--   [ibaseblobcreate()](function.ibase-blob-create.md) - Створює новий BLOB-об'єкт для заповнення даними
--   [ibaseblobimport()](function.ibase-blob-import.md) - Створює BLOB-об'єкт, копіює файл і закриває його.
+-   [ibase\_blob\_close()](function.ibase-blob-close.md) \- Закриває BLOB-об'єкт
+-   [ibase\_blob\_create()](function.ibase-blob-create.md) \- Створює новий BLOB-об'єкт для заповнення даними
+-   [ibase\_blob\_import()](function.ibase-blob-import.md) \- Створює BLOB-об'єкт, копіює файл і закриває його.

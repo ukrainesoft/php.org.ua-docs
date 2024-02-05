@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-events.addfuture.md: '« parallelEvents::addFuture'
-  - parallel-events.poll.md: 'parallelEvents::poll »'
+  - parallel-events.addfuture.md: '« parallel\\Events::addFuture'
+  - parallel-events.poll.md: 'parallel\\Events::poll »'
   - index.md: PHP Manual
-  - class.parallel-events.md: parallelEvents
-title: 'parallelEvents::remove'
+  - class.parallel-events.md: parallel\\Events
+title: 'parallel\\Events::remove'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelEvents::remove
+# parallel\\Events::remove
 
-parallelEvents::remove — Цілі
+(0.9.0)
+
+parallel\\Events::remove — Цілі
 
 ### Опис
 
@@ -22,4 +25,4 @@ public parallel\Events::remove(string $target): void
 
 **Увага**
 
-Викидає parallelEventsErrorExistence, якщо ціль із зазначеним ім'ям не знайдена.
+Викидає parallel\\Events\\Error\\Existence, якщо ціль із зазначеним ім'ям не знайдена.

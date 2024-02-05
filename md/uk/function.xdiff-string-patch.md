@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.xdiff-string-patch-binary.md: xdiffstringpatchbinary
-  - function.xdiff-string-rabdiff.md: xdiffstringrabdiff »
+  - function.xdiff-string-patch-binary.md: « xdiff\_string\_patch\_binary
+  - function.xdiff-string-rabdiff.md: xdiff\_string\_rabdiff »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
-title: xdiffstringpatch
+title: xdiff\_string\_patch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xdiffstringpatch
+# xdiff\_string\_patch
 
 (PECL xdiff >= 0.2.0)
 
-xdiffstringpatch — Застосувати звичайний патч до рядка
+xdiff\_string\_patch — Застосувати звичайний патч до рядка
 
 ### Опис
 
 ```methodsynopsis
-xdiff_string_patch(    string $str,    string $patch,    int $flags = ?,    string &$error = ?): string
+xdiff_string_patch(    string $str,    string $patch,    int $flags = ?,    string &$error = ?): string
 ```
 
-Застосовує до рядка `str` звичайний патч `patch` та повертає результат . `patch` має бути звичайним патчем, створеним за допомогою функцій [xdifffilediff()](function.xdiff-file-diff.md) або [xdiffstringdiff()](function.xdiff-string-diff.md). Опціональний параметр `flags` задає режим операції. Усі відкинуті частини патчу будуть записані у змінну `error`
+Застосовує до рядка `str` звичайний патч `patch` та повертає результат . `patch` має бути звичайним патчем, створеним за допомогою функцій [xdiff\_file\_diff()](function.xdiff-file-diff.md) або [xdiff\_string\_diff()](function.xdiff-string-diff.md). Опціональний параметр `flags` задає режим операції. Усі відкинуті частини патчу будуть записані у змінну `error`
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ xdiff_string_patch(    string $str,    string $patch,    int $flags = ?,    stri
 
 `patch`
 
-Стандартний патч. Повинен бути створений функціями [xdiffstringdiff()](function.xdiff-string-diff.md), або [xdifffilediff()](function.xdiff-file-diff.md)або за допомогою інструментів, що створюють сумісні патчі.
+Стандартний патч. Повинен бути створений функціями [xdiff\_string\_diff()](function.xdiff-string-diff.md), или[xdiff\_file\_diff()](function.xdiff-file-diff.md)або за допомогою інструментів, що створюють сумісні патчі.
 
 `flags`
 
@@ -42,11 +43,11 @@ xdiff_string_patch(    string $str,    string $patch,    int $flags = ?,    stri
 
 ### Значення, що повертаються
 
-Повертає рядок, або **`false`** у разі виникнення помилки.
+Повертає рядок, або \*\*`false`\*\*в случае возникновения ошибке.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdiffstringpatch()****
+**Пример #1 Пример использования**xdiff\_string\_patch()\*\*\*\*
 
 Наступний код застосовує патч до статті.
 
@@ -73,4 +74,4 @@ if (strlen($errors)) {
 
 ### Дивіться також
 
--   [xdiffstringdiff()](function.xdiff-string-diff.md) - Створити звичайний патч для двох рядків
+-   [xdiff\_string\_diff()](function.xdiff-string-diff.md) \- Створити звичайний патч для двох рядків

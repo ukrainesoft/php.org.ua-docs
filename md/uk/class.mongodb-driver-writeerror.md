@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mongodb-driver-writeconcernerror.getmessage.md: '« MongoDBDriverWriteConcernError::getMessage'
-  - mongodb-driver-writeerror.getcode.md: 'MongoDBDriverWriteError::getCode »'
+  - mongodb-driver-writeconcernerror.getmessage.md: '« MongoDB\\Driver\\WriteConcernError::getMessage'
+  - mongodb-driver-writeerror.getcode.md: 'MongoDB\\Driver\\WriteError::getCode »'
   - index.md: PHP Manual
-  - book.mongodb.md: MongoDBDriver
-title: Клас MongoDBDriverWriteError
+  - book.mongodb.md: MongoDB\\Driver
+title: Клас MongoDB\\Driver\\WriteError
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverWriteError
+# Клас MongoDB\\Driver\\WriteError
 
 (mongodb >=1.0.0)
 
 ## Вступ
 
-Клас **MongoDBDriverWriteError** інкапсулює інформацію про помилку запису і може бути повернутий як елемент масиву з [MongoDBDriverWriteResult::getWriteErrors()](mongodb-driver-writeresult.getwriteerrors.md)
+Класс**MongoDB\\Driver\\WriteError** інкапсулює інформацію про помилку запису і може бути повернутий як елемент масиву з [MongoDB\\Driver\\WriteResult::getWriteErrors()](mongodb-driver-writeresult.getwriteerrors.md)
 
 ## Огляд класів
 
@@ -40,7 +41,7 @@ final public getMessage(): string
 
 ## Зміст
 
--   [MongoDBDriverWriteError::getCode](mongodb-driver-writeerror.getcode.md) — Повертає код помилки WriteError
--   [MongoDBDriverWriteError::getIndex](mongodb-driver-writeerror.getindex.md) — Повертає індекс запису, який відповідає цьому WriteError
--   [MongoDBDriverWriteError::getInfo](mongodb-driver-writeerror.getinfo.md) — Повертає документ метаданих для WriteError
--   [MongoDBDriverWriteError::getMessage](mongodb-driver-writeerror.getmessage.md) — Повертає повідомлення про помилку WriteError
+-   [MongoDB\\Driver\\WriteError::getCode](mongodb-driver-writeerror.getcode.md)— Повертає код помилки WriteError
+-   [MongoDB\\Driver\\WriteError::getIndex](mongodb-driver-writeerror.getindex.md)— Повертає індекс запису, який відповідає цьому WriteError
+-   [MongoDB\\Driver\\WriteError::getInfo](mongodb-driver-writeerror.getinfo.md)— Повертає документ метаданих для WriteError
+-   [MongoDB\\Driver\\WriteError::getMessage](mongodb-driver-writeerror.getmessage.md)— Повертає повідомлення про помилку WriteError

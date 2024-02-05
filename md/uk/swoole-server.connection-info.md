@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.confirm.md: '« SwooleServer::confirm'
-  - swoole-server.connection-list.md: 'SwooleServer::connectionlist »'
+  - swoole-server.confirm.md: '« Swoole\\Server::confirm'
+  - swoole-server.connection-list.md: 'Swoole\\Server::connection\_list »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::connectioninfo'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::connection\_info'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::connectioninfo
+# Swoole\\Server::connection\_info
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::connectioninfo — Отримує інформацію про з'єднання з описом файлу
+Swoole\\Server::connection\_info — Отримує інформацію про з'єднання з описом файлу
 
 ### Опис
 

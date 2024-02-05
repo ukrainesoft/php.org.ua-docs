@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.eio-grp.md: « eiogrp
-  - function.eio-link.md: eiolink »
+  - function.eio-grp.md: « eio\_grp
+  - function.eio-link.md: eio\_link »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eioinit
+  - ref.eio.md: Eio Функції
+title: eio\_init
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eioinit
+# eio\_init
 
 (PECL eio = 1.0.0)
 
-eioinit - (Ре-)ініціалізує Eio
+eio\_init - (Ре-)ініціалізує Eio
 
 ### Опис
 
@@ -18,9 +19,9 @@ eioinit - (Ре-)ініціалізує Eio
 eio_init(): void
 ```
 
-**eioinit()** (не-) ініціалізує Eio. Резервується пам'ять для внутрішніх структур libaio та Eio. Можна викликати **eioinit()** перед використанням Eio-функцій. У будь-якому випадку ініціалізація буде виконана при першому виклику Eio-функції.
+**eio\_init()** (не-) ініціалізує Eio. Резервується пам'ять для внутрішніх структур libaio та Eio. Можна викликати **eio\_init()** перед використанням Eio-функцій. У будь-якому випадку ініціалізація буде виконана при першому виклику Eio-функції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція була видалена у версії 3.0.0RC1 модуля eio для версії PHP 8 і вище.
 

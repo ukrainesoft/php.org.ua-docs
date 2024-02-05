@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-sub.md: « gmpsub
-  - function.gmp-xor.md: gmpxor »
+  - function.gmp-sub.md: « gmp\_sub
+  - function.gmp-xor.md: gmp\_xor »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmptestbit
+title: gmp\_testbit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmptestbit
+# gmp\_testbit
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-gmptestbit — Перевірка, чи біт 1
+gmp\_testbit — Перевірка, чи біт 1
 
 ### Опис
 
@@ -32,7 +33,7 @@ gmp_testbit(GMP|int|string $num, int $index): bool
 
 ### Значення, що повертаються
 
-Повертає \*\*`true`\*\*якщо біт встановлено в `num`інакше **`false`**
+Повертає **`true`**, если бит установлен в`num`, иначе\*\*`false`\*\*
 
 ### Помилки
 
@@ -40,7 +41,7 @@ gmp_testbit(GMP|int|string $num, int $index): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmptestbit()****
+**Пример #1 Пример использования**gmp\_testbit()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ var_dump(gmp_testbit($n, 1));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -60,5 +61,5 @@ bool(true)
 
 ### Дивіться також
 
--   [gmpsetbit()](function.gmp-setbit.md) - Встановлення біта
--   [gmpclrbit()](function.gmp-clrbit.md) - Скидання біта
+-   [gmp\_setbit()](function.gmp-setbit.md) \- Встановлення біта
+-   [gmp\_clrbit()](function.gmp-clrbit.md) \- Скидання біта

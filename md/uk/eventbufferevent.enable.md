@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::enable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::enable
 
@@ -22,18 +23,18 @@ public
    ): bool
 ```
 
-Включає події **`Event::READ`** **`Event::WRITE`**, або **`Event::READ`** `|` **`Event::WRITE`** у події буфера.
+Включає події **`Event::READ`** **`Event::WRITE`**, или\*\*`Event::READ`\*\* **`Event::WRITE`** у події буфера.
 
 ### Список параметрів
 
 `events`
 
-**`Event::READ`** **`Event::WRITE`**, або **`Event::READ`** `|` **`Event::WRITE`** у події буфера.
+**`Event::READ`** **`Event::WRITE`**, или\*\*`Event::READ`\*\* **`Event::WRITE`** у події буфера.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventBufferEvent::disable()](eventbufferevent.disable.md) - Вимикає читання, запис або те й інше у події буфера
+-   [EventBufferEvent::disable()](eventbufferevent.disable.md) \- Вимикає читання, запис або те й інше у події буфера

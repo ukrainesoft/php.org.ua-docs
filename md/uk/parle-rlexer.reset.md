@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rlexer.pushstate.md: '« ParleRLexer::pushState'
-  - class.parle-parser.md: ParleParser »
+  - parle-rlexer.pushstate.md: '« Parle\\RLexer::pushState'
+  - class.parle-parser.md: Parle\\Parser »
   - index.md: PHP Manual
-  - class.parle-rlexer.md: ParleRLexer
-title: 'ParleRLexer::reset'
+  - class.parle-rlexer.md: Parle\\RLexer
+title: 'Parle\\RLexer::reset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRLexer::reset
+# Parle\\RLexer::reset
 
 (PECL parle >= 0.7.1)
 
-ParleRLexer::reset — Скидає лексер
+Parle\\RLexer::reset — Скидає лексер
 
 ### Опис
 

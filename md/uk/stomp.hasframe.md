@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.stomp.md: Stomp
 title: 'Stomp::hasFrame'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Stomp::hasFrame
 
-# stomphasframe
+# stomp\_has\_frame
 
 (PECL stomp >= 0.1.0)
 
-Stomp::hasFrame -- stomphasframe — Перевіряє, чи можливо читати кадр
+Stomp::hasFrame -- stomp\_has\_frame — Перевіряє, чи можливо читати кадр
 
 ### Опис
 
@@ -28,13 +29,13 @@ public Stomp::hasFrame(): bool
 stomp_has_frame(resource $link): bool
 ```
 
-Перевіряє, чи можливо читати кадр.
+Перевіряє, чи можливе читання кадру.
 
 ### Список параметрів
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.md)
 
 ### Значення, що повертаються
 

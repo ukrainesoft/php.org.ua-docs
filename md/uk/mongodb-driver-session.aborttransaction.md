@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-session.md: « MongoDBDriverSession
-  - mongodb-driver-session.advanceclustertime.md: 'MongoDBDriverSession::advanceClusterTime »'
+  - class.mongodb-driver-session.md: « MongoDB\\Driver\\Session
+  - mongodb-driver-session.advanceclustertime.md: 'MongoDB\\Driver\\Session::advanceClusterTime »'
   - index.md: PHP Manual
-  - class.mongodb-driver-session.md: MongoDBDriverSession
-title: 'MongoDBDriverSession::abortTransaction'
+  - class.mongodb-driver-session.md: MongoDB\\Driver\\Session
+title: 'MongoDB\\Driver\\Session::abortTransaction'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverSession::abortTransaction
+# MongoDB\\Driver\\Session::abortTransaction
 
 (mongodb >=1.5.0)
 
-MongoDBDriverSession::abortTransaction — Перериває транзакцію
+MongoDB\\Driver\\Session::abortTransaction — Перериває транзакцію
 
 ### Опис
 
@@ -30,11 +31,11 @@ final public MongoDB\Driver\Session::abortTransaction(): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   Видає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md), якщо транзакція може бути перервана (наприклад, транзакція розпочато).
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Видає виняток[MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.md), якщо транзакція не може бути перервана (наприклад, транзакцію не було розпочато).
 
 ### Дивіться також
 
--   [MongoDBDriverManager::startSession()](mongodb-driver-manager.startsession.md) - Запуск нового клієнтського сеансу для використання з цим клієнтом
--   [MongoDBDriverSession::commitTransaction()](mongodb-driver-session.committransaction.md) - Фіксує транзакцію
--   [MongoDBDriverSession::startTransaction()](mongodb-driver-session.starttransaction.md) - Запускає транзакцію
+-   [MongoDB\\Driver\\Manager::startSession()](mongodb-driver-manager.startsession.md) \- Запускає новий сеанс клієнта для використання з цим клієнтом
+-   [MongoDB\\Driver\\Session::commitTransaction()](mongodb-driver-session.committransaction.md) \- Фіксує транзакцію
+-   [MongoDB\\Driver\\Session::startTransaction()](mongodb-driver-session.starttransaction.md) \- Запускає транзакцію

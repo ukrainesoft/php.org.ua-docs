@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getGroupMain'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getGroupMain
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrQuery::getGroupMain — Повертає значення group.main
 
@@ -28,4 +29,4 @@ public SolrQuery::getGroupMain(): bool
 
 ### Дивіться також
 
--   [SolrQuery::setGroupMain()](solrquery.setgroupmain.md) - Якщо true, результат першої команди угруповання полів використовується як основний список результатів у відповіді з використанням group.format=simple
+-   [SolrQuery::setGroupMain()](solrquery.setgroupmain.md) \- Якщо true, результат першої команди групування полів використовується як основний список результатів у відповіді з використанням group.format=simple

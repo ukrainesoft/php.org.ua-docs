@@ -4,11 +4,12 @@ navigation:
   - solrparams.serialize.md: 'SolrParams::serialize »'
   - index.md: PHP Manual
   - class.solrparams.md: SolrParams
-title: 'Solr Params::get Prepared Params'
+title: 'SolrParams::getPreparedParams'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Solr Params::get Prepared Params
+# SolrParams::getPreparedParams
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrParams::getPreparedParams — Повертає масив параметрів в URL-адресі
 

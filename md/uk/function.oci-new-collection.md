@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-lob-is-equal.md: « ocilobісequal
-  - function.oci-new-connect.md: ocinewconnect »
+  - function.oci-lob-is-equal.md: « oci\_lob\_is\_equal
+  - function.oci-new-connect.md: oci\_new\_connect »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocinewcollection
+  - ref.oci8.md: OCI8 Функції
+title: oci\_new\_collection
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocinewcollection
+# oci\_new\_collection
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocinewcollection — Створює новий об'єкт колекції
+oci\_new\_collection — Створює новий об'єкт колекції
 
 ### Опис
 
@@ -24,7 +25,7 @@ oci_new_collection(resource $connection, string $type_name, ?string $schema = nu
 
 `connection`
 
-Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.md) або [ocipconnect()](function.oci-pconnect.md)
+Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [oci\_connect()](function.oci-connect.md) або [oci\_pconnect()](function.oci-pconnect.md)
 
 `type_name`
 
@@ -36,20 +37,16 @@ oci_new_collection(resource $connection, string $type_name, ?string $schema = nu
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [OCICollection](class.ocicollection.md) або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [OCICollection](class.ocicollection.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | `schema` тепер допускає значення null. |
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Клас [OCICollection](class.ocicollection.md) називався **OCI-Collection** до PHP 8 та OCI8 3.0.0.
-
-> **Зауваження**
-> 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewcollection()](function.ocinewcollection.md). У PHP 5.0.0 і вище [ocinewcollection()](function.ocinewcollection.md) є аліасом \*\*ocinewcollection()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> Класс[OCICollection](class.ocicollection.md) називався **OCI-Collection** до PHP 8 та OCI8 3.0.0.

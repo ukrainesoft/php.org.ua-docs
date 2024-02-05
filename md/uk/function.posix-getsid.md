@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-getrlimit.md: « posixgetrlimit
-  - function.posix-getuid.md: posixgetuid »
+  - function.posix-getrlimit.md: « posix\_getrlimit
+  - function.posix-getuid.md: posix\_getuid »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixgetsid
+  - ref.posix.md: POSIX Функції
+title: posix\_getsid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixgetsid
+# posix\_getsid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posixgetsid — Повертає поточний процес SID
+posix\_getsid — Повертає поточний процес SID
 
 ### Опис
 
@@ -24,15 +25,15 @@ posix_getsid(int $process_id): int|false
 
 `process_id`
 
-Ідентифікатор процесу. Якщо встановлено 0, мається на увазі поточний процес. Якщо передано некоректний `process_id`, то буде повернуто **`false`**. Також буде встановлено номер помилки, який можна обробити за допомогою функції [posixgetlasterror()](function.posix-get-last-error.md)
+Ідентифікатор процесу. Якщо встановлено 0, мається на увазі поточний процес. Якщо передано некоректний `process_id`, то буде повернуто **`false`**. Також буде встановлено номер помилки, який можна обробити за допомогою функції [posix\_get\_last\_error()](function.posix-get-last-error.md)
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор як int або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор як int або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posixgetsid()****
+**Пример #1 Пример использования**posix\_getsid()\*\*\*\*
 
 ```php
 <?php
@@ -43,6 +44,6 @@ echo posix_getsid($pid); //8805
 
 ### Дивіться також
 
--   [posixgetpgid()](function.posix-getpgid.md) - Повертає ID групи поточного процесу для менеджера завдань
--   [posixsetsid()](function.posix-setsid.md) - Робить поточний процес лідером сесії
+-   [posix\_getpgid()](function.posix-getpgid.md) \- Повертає ID групи поточного процесу для менеджера завдань
+-   [posix\_setsid()](function.posix-setsid.md) \- Робить поточний процес лідером сесії
 -   POSIX керівництво GETSID(2)

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::getType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionProperty::getType
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 ReflectionProperty::getType — Отримати тип властивості
 
@@ -26,11 +27,11 @@ public ReflectionProperty::getType(): ?ReflectionType
 
 ### Значення, що повертаються
 
-Повертає [ReflectionType](class.reflectiontype.md)якщо для властивості заданий тип, або **`null`** якщо ні.
+Повертає [ReflectionType](class.reflectiontype.md), если для свойства задан тип, либо\*\*`null`\*\* якщо ні.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionProperty::getType()****
+**Пример #1 Пример использования**ReflectionProperty::getType()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ echo $rp->getType()->getName();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string
@@ -52,5 +53,5 @@ string
 
 ### Дивіться також
 
--   [ReflectionProperty::hasType()](reflectionproperty.hastype.md) - Перевірити, чи заданий для властивості тип
--   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.md) - Перевірити, чи ініціалізована властивість
+-   [ReflectionProperty::hasType()](reflectionproperty.hastype.md) \- Перевірити, чи заданий для властивості тип
+-   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.md) \- Перевірити, чи ініціалізована властивість

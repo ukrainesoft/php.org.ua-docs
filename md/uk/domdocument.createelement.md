@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::createElement'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::createElement
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMDocument::createElement — Створити новий вузол елемента
+DOMDocument::createElement — Створює новий вузол елемента
 
 ### Опис
 
@@ -28,19 +29,19 @@ public DOMDocument::createElement(string $localName, string $value = ""): DOMEle
 
 `value`
 
-Значення елемента. За промовчанням буде створено порожній елемент. Значення може бути встановлене пізніше за допомогою [DOMElement::$nodeValue](class.domnode.md#domnode.props.nodevalue)
+Значення елемента. За промовчанням буде створено порожній елемент. Значення також може бути встановлене пізніше шляхом присвоювання при прямому зверненні до властивості [DOMElement::$nodeValue](class.domnode.md#domnode.props.nodevalue)
 
-Значення використовується дослівно, крім < і >, які будуть екрановані. Зверніть увагу, що & має бути екранований самостійно, інакше він буде розглядатися як початок посилання на сутність. Також не буде екранований.
+Значення буде встановлено дослівно, крім символів < і >, які будуть екрановані. Зверніть увагу, що символ & потрібно екранувати самому, інакше він розглядатиметься як початок посилання на суть. Символ кавчок також не буде екранований.
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт класу [DOMElement](class.domelement.md) або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт класу [DOMElement](class.domelement.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
 **`DOM_INVALID_CHARACTER_ERR`**
 
-Виникає, якщо `localName` містить неприпустимі символи.
+Виникає, якщо параметр `localName` містить неприпустимі символи.
 
 ### Приклади
 
@@ -60,7 +61,7 @@ echo $dom->saveXML();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -78,7 +79,7 @@ echo $dom->saveXML();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Warning: DOMDocument::createElement(): unterminated entity reference             you in /in/BjTCg on line 4
@@ -88,19 +89,19 @@ Warning: DOMDocument::createElement(): unterminated entity reference            
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Значення `value` *не* буде екрановано. Використовуйте функцію [DOMDocument::createTextNode()](domdocument.createtextnode.md) для створення текстового вузла з *підтримкою екранування*
+> Значение`value` *не* буде екрановано. Використовуйте функцію [DOMDocument::createTextNode()](domdocument.createtextnode.md) для створення текстового вузла з *підтримкою екранування*
 
 ### Дивіться також
 
--   [DOMNode::appendChild()](domnode.appendchild.md) - Додає новий дочірній вузол до кінця списку нащадків
--   [DOMDocument::createAttribute()](domdocument.createattribute.md) - Створити новий атрибут
--   [DOMDocument::createAttributeNS()](domdocument.createattributens.md) - Створює новий атрибут вузла з відповідним простором імен
--   [DOMDocument::createCDATASection()](domdocument.createcdatasection.md) - Створює новий вузол cdata
--   [DOMDocument::createComment()](domdocument.createcomment.md) - Створити новий вузол коментаря
--   [DOMDocument::createDocumentFragment()](domdocument.createdocumentfragment.md) - створити новий фрагмент документа
--   [DOMDocument::createElementNS()](domdocument.createelementns.md) - Створити новий вузол елемента з відповідним простором імен
--   [DOMDocument::createEntityReference()](domdocument.createentityreference.md) - Створити новий вузол посилання на суть
--   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.md) - Створити новий PI-вузол
--   [DOMDocument::createTextNode()](domdocument.createtextnode.md) - Створити новий текстовий вузол
+-   [DOMNode::appendChild()](domnode.appendchild.md) \- Додає новий дочірній вузол до кінця списку нащадків
+-   [DOMDocument::createAttribute()](domdocument.createattribute.md) \- Створює новий атрибут
+-   [DOMDocument::createAttributeNS()](domdocument.createattributens.md) \- Створює новий атрибут вузла з відповідним простором імен
+-   [DOMDocument::createCDATASection()](domdocument.createcdatasection.md) \- Створює новий вузол cdata
+-   [DOMDocument::createComment()](domdocument.createcomment.md) \- Створити новий вузол коментаря
+-   [DOMDocument::createDocumentFragment()](domdocument.createdocumentfragment.md) \- Створює новий фрагмент документа
+-   [DOMDocument::createElementNS()](domdocument.createelementns.md) \- Створити новий вузол елемента з відповідним простором імен
+-   [DOMDocument::createEntityReference()](domdocument.createentityreference.md) \- Створити новий вузол посилання на суть
+-   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.md) \- Створити новий PI-вузол
+-   [DOMDocument::createTextNode()](domdocument.createtextnode.md) \- Створити новий текстовий вузол

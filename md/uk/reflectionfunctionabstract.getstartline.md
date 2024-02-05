@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getStartLine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getStartLine
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getStartLine — Отримує початковий номер рядка
 
@@ -30,4 +31,4 @@ public ReflectionFunctionAbstract::getStartLine(): int|false
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getEndLine()](reflectionfunctionabstract.getendline.md) - Отримує номер рядка завершення опису функції
+-   [ReflectionFunctionAbstract::getEndLine()](reflectionfunctionabstract.getendline.md) \- Отримує номер рядка завершення опису функції

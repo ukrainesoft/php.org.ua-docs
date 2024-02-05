@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.openssl-cms-sign.md: « opensslcmssign
-  - function.openssl-csr-export-to-file.md: opensslcsrexportтоfile »
+  - function.openssl-cms-sign.md: « openssl\_cms\_sign
+  - function.openssl-csr-export-to-file.md: openssl\_csr\_export\_to\_file »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslcmsverify
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_cms\_verify
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslcmsverify
+# openssl\_cms\_verify
 
 (PHP 8)
 
-opensslcmsverify — Перевіряє підпис CMS
+openssl\_cms\_verify — Перевіряє підпис CMS
 
 ### Опис
 
 ```methodsynopsis
-openssl_cms_verify(    string $input_filename,    int $flags = 0,    ?string $certificates = null,    array $ca_info = [],    ?string $untrusted_certificates_filename = null,    ?string $content = null,    ?string $pk7 = null,    ?string $sigfile = null,    int $encoding = OPENSSL_ENCODING_SMIME): bool
+openssl_cms_verify(    string $input_filename,    int $flags = 0,    ?string $certificates = null,    array $ca_info = [],    ?string $untrusted_certificates_filename = null,    ?string $content = null,    ?string $pk7 = null,    ?string $sigfile = null,    int $encoding = OPENSSL_ENCODING_SMIME): bool
 ```
 
 Перевіряє підпис CMS, прикріплений або від'єднаний, із зазначеним кодуванням.
@@ -28,7 +29,7 @@ openssl_cms_verify(    string $input_filename,    int $flags = 0,    ?string $ce
 
 `flags`
 
-Прапори, що передаються **cmsverify()**
+Прапори, що передаються **cms\_verify()**
 
 `certificates`
 
@@ -54,8 +55,8 @@ openssl_cms_verify(    string $input_filename,    int $flags = 0,    ?string $ce
 
 `encoding`
 
-Кодування вхідного файлу . **`OPENSSL_ENCODING_SMIME`** **`OPENSSL_ENCODING_DER`** або **`OPENSSL_ENCODING_PEM`**
+Кодування вхідного файлу . **`OPENSSL_ENCODING_SMIME`** **`OPENSSL_ENCODING_DER`**или**`OPENSSL_ENCODING_PEM`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

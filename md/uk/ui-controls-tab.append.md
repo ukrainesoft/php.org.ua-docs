@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ui-controls-tab.md: « UIControlsTab
-  - ui-controls-tab.delete.md: 'ОЙControlsTab::delete »'
+  - class.ui-controls-tab.md: « UI\\Controls\\Tab
+  - ui-controls-tab.delete.md: 'UI\\Controls\\Tab::delete »'
   - index.md: PHP Manual
-  - class.ui-controls-tab.md: ОЙControlsTab
-title: 'ОЙControlsTab::append'
+  - class.ui-controls-tab.md: UI\\Controls\\Tab
+title: 'UI\\Controls\\Tab::append'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsTab::append
+# UI\\Controls\\Tab::append
 
 (UI 0.9.9)
 
-ОЙControlsTab::append — Додати сторінку
+UI\\Controls\\Tab::append — Додати сторінку
 
 ### Опис
 

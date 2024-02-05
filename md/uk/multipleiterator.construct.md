@@ -4,17 +4,18 @@ navigation:
   - multipleiterator.containsiterator.md: 'MultipleIterator::containsIterator »'
   - index.md: PHP Manual
   - class.multipleiterator.md: MultipleIterator
-title: 'MultipleIterator::construct'
+title: 'MultipleIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MultipleIterator::construct
+# MultipleIterator::\_\_construct
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-MultipleIterator::construct — Створює новий MultipleIterator
+MultipleIterator::\_\_construct — Створює новий MultipleIterator
 
 ### Опис
 
-public **MultipleIterator::construct**(int `$flags` = MultipleIterator::MITNEEDALL | MultipleIterator::MITKEYSNUMERIC)
+public**MultipleIterator::\_\_construct**(int`$flags`\= MultipleIterator::MIT\_NEED\_ALL | MultipleIterator::MIT\_KEYS\_NUMERIC)
 
 Створює новий MultipleIterator.
 
@@ -22,12 +23,12 @@ public **MultipleIterator::construct**(int `$flags` = MultipleIterator::MITNEEDA
 
 `flags`
 
-Прапори для встановлення, згідно [Обумовленим константам](class.multipleiterator.md#multipleiterator.constants)
+Флаги для установки, согласно[Обумовленим константам](class.multipleiterator.md#multipleiterator.constants)
 
--   **`MultipleIterator::MIT_NEED_ALL`** або **`MultipleIterator::MIT_NEED_ANY`**
--   **`MultipleIterator::MIT_KEYS_NUMERIC`** або **`MultipleIterator::MIT_KEYS_ASSOC`**
+-   **`MultipleIterator::MIT_NEED_ALL`**или**`MultipleIterator::MIT_NEED_ANY`**
+-   **`MultipleIterator::MIT_KEYS_NUMERIC`**или**`MultipleIterator::MIT_KEYS_ASSOC`**
 
-За замовчуванням **`MultipleIterator::MIT_NEED_ALL`\*\*\*\*`MultipleIterator::MIT_KEYS_NUMERIC`**
+По умолчанию\*\*`MultipleIterator::MIT_NEED_ALL`\*\* **`MultipleIterator::MIT_KEYS_NUMERIC`**
 
 ### Приклади
 
@@ -141,4 +142,4 @@ Array
 ### Дивіться також
 
 -   [Обумовлені константи](class.multipleiterator.md#multipleiterator.constants)
--   [MultipleIterator::valid()](multipleiterator.valid.md) - Перевіряє коректність підитераторів
+-   [MultipleIterator::valid()](multipleiterator.valid.md) \- Перевіряє коректність підитераторів

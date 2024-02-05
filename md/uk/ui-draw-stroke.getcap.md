@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-stroke.construct.md: '« UIDrawStroke::construct'
-  - ui-draw-stroke.getjoin.md: 'ОЙDrawStroke::getJoin »'
+  - ui-draw-stroke.construct.md: '« UI\\Draw\\Stroke::\_\_construct'
+  - ui-draw-stroke.getjoin.md: 'UI\\Draw\\Stroke::getJoin »'
   - index.md: PHP Manual
-  - class.ui-draw-stroke.md: ОЙDrawStroke
-title: 'ОЙDrawStroke::getCap'
+  - class.ui-draw-stroke.md: UI\\Draw\\Stroke
+title: 'UI\\Draw\\Stroke::getCap'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawStroke::getCap
+# UI\\Draw\\Stroke::getCap
 
 (UI 0.9.9)
 
-ОЙDrawStroke::getCap — Отримати кінець лінії
+UI\\Draw\\Stroke::getCap — Отримати кінець лінії
 
 ### Опис
 
@@ -26,4 +27,4 @@ public UI\Draw\Stroke::getCap(): int
 
 ### Значення, що повертаються
 
-ОЙDrawLineCap::Flat, UIDrawLineCap::Round або UIDrawLineCap::Square
+UI\\Draw\\Line\\Cap::Flat, UI\\Draw\\Line\\Cap::Round або UI\\Draw\\Line\\Cap::Square

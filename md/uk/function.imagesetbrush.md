@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagesetbrush
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagesetbrush
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagesetbrush — Встановлення зображення (пензля), за допомогою якого будуть малюватись лінії
 
@@ -18,11 +19,11 @@ imagesetbrush — Встановлення зображення (пензля), 
 imagesetbrush(GdImage $image, GdImage $brush): bool
 ```
 
-**imagesetbrush()** задає зображення, яке використовуватиметься функціями для малювання ліній (такими як [imageline()](function.imageline.md) і [imagepolygon()](function.imagepolygon.md)) при використанні кольорів **`IMG_COLOR_BRUSHED`** або **`IMG_COLOR_STYLEDBRUSHED`**
+**imagesetbrush()** задає зображення, яке використовуватиметься функціями для малювання ліній (такими як [imageline()](function.imageline.md) і [imagepolygon()](function.imagepolygon.md)) при использовании цветов\*\*`IMG_COLOR_BRUSHED`**или**`IMG_COLOR_STYLEDBRUSHED`\*\*
 
 **Застереження**
 
-Додаткові дії після завершення роботи з пензлем не потрібні, проте якщо зображення пензля знищено, не можна користуватися квітами **`IMG_COLOR_BRUSHED`** або **`IMG_COLOR_STYLEDBRUSHED`**, доки не буде встановлено нове зображення пензля!
+Додаткові дії після завершення роботи з пензлем не потрібні, проте якщо зображення пензля знищено, не можна користуватися квітами **`IMG_COLOR_BRUSHED`**или**`IMG_COLOR_STYLEDBRUSHED`**, доки не буде встановлено нове зображення пензля!
 
 ### Список параметрів
 
@@ -36,17 +37,17 @@ imagesetbrush(GdImage $image, GdImage $brush): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` і `brush` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `image`и`brush` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagesetbrush()****
+**Пример #1 Пример использования**imagesetbrush()\*\*\*\*
 
 ```php
 <?php
@@ -75,6 +76,6 @@ imagedestroy($php);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: imagesetbrush()](images/21009b70229598c6a80eef8b45bf282b-imagesetbrush.png)

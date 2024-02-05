@@ -1,16 +1,17 @@
 ---
 navigation:
-  - vtiful-kernel-excel.data.md: '« VtifulKernelExcel::data'
-  - vtiful-kernel-excel.getHandle.md: 'VtifulKernelExcel::getHandle »'
+  - vtiful-kernel-excel.data.md: '« Vtiful\\Kernel\\Excel::data'
+  - vtiful-kernel-excel.getHandle.md: 'Vtiful\\Kernel\\Excel::getHandle »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.md: VtifulKernelExcel
-title: 'VtifulKernelExcel::fileName'
+  - class.vtiful-kernel-excel.md: Vtiful\\Kernel\\Excel
+title: 'Vtiful\\Kernel\\Excel::fileName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelExcel::fileName
+# Vtiful\\Kernel\\Excel::fileName
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelExcel::fileName — Створити назву файлу
+Vtiful\\Kernel\\Excel::fileName — Створити назву файлу
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Vtiful\Kernel\Excel::fileName(string $fileName, string $sheetName = ?)
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

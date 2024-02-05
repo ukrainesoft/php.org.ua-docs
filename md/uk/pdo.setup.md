@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.pdo.md: « Введение
+  - intro.pdo.md: '" Вступ'
   - pdo.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.pdo.md: PDO
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

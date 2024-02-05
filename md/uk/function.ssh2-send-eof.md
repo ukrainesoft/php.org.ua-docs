@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-scp-send.md: « ssh2scpsend
-  - function.ssh2-sftp-chmod.md: ssh2sftpchmod »
+  - function.ssh2-scp-send.md: « ssh2\_scp\_send
+  - function.ssh2-sftp-chmod.md: ssh2\_sftp\_chmod »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2sendeof
+title: ssh2\_send\_eof
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2sendeof
+# ssh2\_send\_eof
 
-(PECL ssh2> = 1.3)
+(PECL ssh2 >= 1.3)
 
-ssh2sendeof - Відправляє EOF в потік
+ssh2\_send\_eof - Відправляє EOF в потік
 
 ### Опис
 
@@ -24,12 +25,12 @@ ssh2_send_eof(resource $channel): bool
 
 `channel`
 
-Потік SSH; можна отримати за допомогою таких функцій, як [ssh2fetchstream()](function.ssh2-fetch-stream.md) або [ssh2connect()](function.ssh2-connect.md)
+Потік SSH; можна отримати за допомогою таких функцій, як [ssh2\_fetch\_stream()](function.ssh2-fetch-stream.md) або [ssh2\_connect()](function.ssh2-connect.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ssh2fetchstream()](function.ssh2-fetch-stream.md) - отримання розширеного потоку даних
+-   [ssh2\_fetch\_stream()](function.ssh2-fetch-stream.md) \- отримання розширеного потоку даних

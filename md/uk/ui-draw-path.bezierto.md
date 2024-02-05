@@ -1,21 +1,22 @@
 ---
 navigation:
-  - ui-draw-path.arcto.md: '« UIDrawPath::arcTo'
-  - ui-draw-path.closefigure.md: 'ОЙDrawPath::closeFigure »'
+  - ui-draw-path.arcto.md: '« UI\\Draw\\Path::arcTo'
+  - ui-draw-path.closefigure.md: 'UI\\Draw\\Path::closeFigure »'
   - index.md: PHP Manual
-  - class.ui-draw-path.md: ОЙDrawPath
-title: 'ОЙDrawPath::bezierTo'
+  - class.ui-draw-path.md: UI\\Draw\\Path
+title: 'UI\\Draw\\Path::bezierTo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawPath::bezierTo
+# UI\\Draw\\Path::bezierTo
 
 (UI 0.9.9)
 
-ОЙDrawPath::bezierTo — Намалювати криву Безьє
+UI\\Draw\\Path::bezierTo — Намалювати криву Безьє
 
 ### Опис
 
 ```methodsynopsis
-public UI\Draw\Path::bezierTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+public UI\Draw\Path::bezierTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
 ```
 
 Намалює криву Безьє

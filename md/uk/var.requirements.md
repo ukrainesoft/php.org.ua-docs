@@ -1,10 +1,11 @@
 ---
 navigation:
-  - var.setup.md: « Встановлення та налаштування
-  - var.installation.md: Установка »
+  - var.setup.md: '" Встановлення та налаштування'
+  - var.installation.md: Встановлення »
   - index.md: PHP Manual
   - var.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 

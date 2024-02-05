@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.getmodestring.md: '« MongoDBDriverReadPreference::getModeString'
-  - mongodb-driver-readpreference.serialize.md: 'MongoDBDriverReadPreference::serialize »'
+  - mongodb-driver-readpreference.getmodestring.md: '« MongoDB\\Driver\\ReadPreference::getModeString'
+  - mongodb-driver-readpreference.serialize.md: 'MongoDB\\Driver\\ReadPreference::serialize »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
-title: 'MongoDBDriverReadPreference::getTagSets'
+  - class.mongodb-driver-readpreference.md: MongoDB\\Driver\\ReadPreference
+title: 'MongoDB\\Driver\\ReadPreference::getTagSets'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverReadPreference::getTagSets
+# MongoDB\\Driver\\ReadPreference::getTagSets
 
 (mongodb >=1.0.0)
 
-MongoDBDriverReadPreference::getTagSets — Повертає параметр "tagSets" ReadPreference
+MongoDB\\Driver\\ReadPreference::getTagSets — Повертає параметр "tagSets" ReadPreference
 
 ### Опис
 
@@ -28,18 +29,18 @@ final public MongoDB\Driver\ReadPreference::getTagSets(): array
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverReadPreference::getTagSets()****
+**Пример #1 Пример использования**MongoDB\\Driver\\ReadPreference::getTagSets()\*\*\*\*
 
 ```php
 <?php
 
 $mode = MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED;
 
-/* Как и null, так и пустой Масив, обозначают, что не будут установлены теги для предпочтения. */
+/* Как и null, так и пустой массив, обозначают, что не будут установлены теги для предпочтения. */
 $rp = new MongoDB\Driver\ReadPreference($mode, null);
 var_dump($rp->getTagSets());
 
@@ -62,7 +63,7 @@ var_dump($rp->getTagSets());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(0) {
@@ -100,4 +101,4 @@ array(3) {
 
 ### Дивіться також
 
--   [» Справочная информация по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [» Довідкова інформація щодо переваги читання](https://www.mongodb.com/docs/manual/core/read-preference/)

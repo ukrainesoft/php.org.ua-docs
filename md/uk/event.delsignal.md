@@ -5,13 +5,14 @@ navigation:
   - index.md: PHP Manual
   - class.event.md: Event
 title: 'Event::delSignal'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Event::delSignal
 
 (PECL event >= 1.2.6-beta)
 
-Event::delSignal - Псевдонім [Event::del()](event.del.md)
+Event::delSignal — Псевдоним[Event::del()](event.del.md)
 
 ### Опис
 
-Цей метод є псевдонімом: [Event::del()](event.del.md)
+Метод — псевдоним метода:[Event::del()](event.del.md)

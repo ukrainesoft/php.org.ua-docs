@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.odbc-rollback.md: « odbcrollback
-  - function.odbc-specialcolumns.md: odbcspecialcolumns »
+  - function.odbc-rollback.md: « odbc\_rollback
+  - function.odbc-specialcolumns.md: odbc\_specialcolumns »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcsetoption
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_setoption
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcsetoption
+# odbc\_setoption
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcsetoption — Регулює налаштування ODBC
+odbc\_setoption — Регулює налаштування ODBC
 
 ### Опис
 
 ```methodsynopsis
-odbc_setoption(    resource $odbc,    int $which,    int $option,    int $value): bool
+odbc_setoption(    resource $odbc,    int $which,    int $option,    int $value): bool
 ```
 
 Функція дозволяє налаштувати параметри ODBC для конкретного з'єднання або результату запиту. Вона використовується для того, щоб допомогти знайти вирішення проблем у специфічних драйверах ODBC. Слід використовувати цю функцію лише програмістам ODBC, які розуміють, який ефект мають різні параметри. Щоб пояснити різні параметри та значення, які можна використовувати, знадобиться гарний довідковий посібник з ODBC. Різні версії драйверів підтримують різні параметри.
@@ -38,15 +39,15 @@ odbc_setoption(    resource $odbc,    int $which,    int $option,    int $value)
 
 `value`
 
-Значення для `option`
+Значение для`option`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклади використання **odbcsetoption()****
+**Приклад #1 Приклади використання **odbc\_setoption()****
 
 ```php
 <?php

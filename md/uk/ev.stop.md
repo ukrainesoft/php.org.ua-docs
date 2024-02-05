@@ -3,8 +3,9 @@ navigation:
   - ev.sleep.md: '« Ev::sleep'
   - ev.supportedbackends.md: 'Ev::supportedBackends »'
   - index.md: PHP Manual
-  - class.ev.md: Єв
+  - class.ev.md: Ev
 title: 'Ev::stop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Ev::stop
 
@@ -24,13 +25,13 @@ final
     = ?): void
 ```
 
-Зупинити цикл подій за замовчуванням.
+Зупинити цикл за замовчуванням.
 
 ### Список параметрів
 
 `how`
 
-Одна з *Ev::BREAK* [констант](class.ev.md#ev.constants.break-flags)
+Одна из*Ev::BREAK\_\** [констант](class.ev.md#ev.constants.break-flags)
 
 ### Значення, що повертаються
 
@@ -38,4 +39,4 @@ final
 
 ### Дивіться також
 
--   [Ev::run()](ev.run.md) - Почати перевірку наявності подій та виклик callback-функцій циклу за умовчанням
+-   [Ev::run()](ev.run.md) \- Почати перевірку наявності подій та виклик callback-функцій циклу за умовчанням

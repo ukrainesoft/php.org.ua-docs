@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcache.md: Memcache
 title: 'Memcache::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcache::get
 
@@ -42,7 +43,7 @@ Memcache::get(array $keys, array &$flags = ?): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcache::get()****
+**Пример #1 Пример использования**Memcache::get()\*\*\*\*
 
 ```php
 <?php
@@ -57,8 +58,8 @@ $memcache_obj->connect('memcache_host', 11211);
 $var = $memcache_obj->get('some_key');
 
 /*
-Также в качестве параметра вы можете использовать Масив ключей.
-Если элемент не будет найден, то в результирующий Масив просто не будет
+Также в качестве параметра вы можете использовать массив ключей.
+Если элемент не будет найден, то в результирующий массив просто не будет
 включён этот ключ.
 */
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: 'PDO::pgsqlLOBCreate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::pgsqlLOBCreate
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8, PECL pdopgsql >= 1.0.2)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL pdo\_pgsql >= 1.0.2)
 
 PDO::pgsqlLOBCreate — Створити новий великий об'єкт (LOB)
 
@@ -18,7 +19,7 @@ PDO::pgsqlLOBCreate — Створити новий великий об'єкт (
 public PDO::pgsqlLOBCreate(): string
 ```
 
-Функція **PDO::pgsqlLOBCreate()** створює великий об'єкт (LOB) та повертає його OID. Ви можете відкрити потік для читання або зміни об'єкта за допомогою функції [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.md). OID можна зберегти в стовпці типу OID і використовувати як посилання на LOB, не викликаючи неконтрольованого збільшення розміру рядків. LOB буде жити в базі даних доки не буде видалено за допомогою функції [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md)
+Функция**PDO::pgsqlLOBCreate()** створює великий об'єкт (LOB) та повертає його OID. Ви можете відкрити потік для читання або зміни об'єкта за допомогою функції [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.md). OID можна зберегти в стовпці типу OID і використовувати як посилання на LOB, не викликаючи неконтрольованого збільшення розміру рядків. LOB буде жити в базі даних доки не буде видалено за допомогою функції [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md)
 
 Великі об'єкти можуть бути до 2ГБ розміром, але дуже громіздкі. Ви повинні переконатися, що виконали [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md) до того, як видаліть останній рядок у вашій базі даних, яка посилається на його OID. До того ж великі об'єкти не мають контролю доступу. Як альтернативу спробуйте використовувати тип даних bytea. Останні версії PostgreSQL дозволяють стовпці типу bytea до 1ГБ розміром та прозоро керують табличним простором для оптимізації довжини рядків.
 
@@ -26,7 +27,7 @@ public PDO::pgsqlLOBCreate(): string
 
 ### Список параметрів
 
-**PDO::pgsqlLOBCreate()** не приймає параметрів.
+\*\*PDO::pgsqlLOBCreate()\*\*не принимает параметров.
 
 ### Значення, що повертаються
 
@@ -34,7 +35,7 @@ public PDO::pgsqlLOBCreate(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PDO::pgsqlLOBCreate()****
+**Пример #1 Пример использования**PDO::pgsqlLOBCreate()\*\*\*\*
 
 У цьому прикладі створюється LOB і заповнюється даними з файлу. Після цього його OID зберігається у таблиці.
 
@@ -57,6 +58,6 @@ $db->commit();
 
 ### Дивіться також
 
--   [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.md) - Відкриває потік для існуючого великого об'єкту
--   [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md) - Видалити великий об'єкт
--   [пглоcreate()](function.pg-lo-create.md) - Створює великий об'єкт
+-   [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.md) \- Відкриває потік для існуючого великого об'єкту
+-   [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md) \- Видалити великий об'єкт
+-   [pg\_lo\_create()](function.pg-lo-create.md) \- Створює великий об'єкт

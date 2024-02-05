@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-nlist.md: « ftpnlist
-  - function.ftp-put.md: ftpput »
+  - function.ftp-nlist.md: « ftp\_nlist
+  - function.ftp-put.md: ftp\_put »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftppasv
+title: ftp\_pasv
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftppasv
+# ftp\_pasv
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftppasv — Вмикає або вимикає пасивний режим
+ftp\_pasv — Вмикає або вимикає пасивний режим
 
 ### Опис
 
@@ -18,15 +19,15 @@ ftppasv — Вмикає або вимикає пасивний режим
 ftp_pasv(FTP\Connection $ftp, bool $enable): bool
 ```
 
-**ftppasv()** вмикає або вимикає пасивний режим. У пасивному режимі передача даних ініціюється клієнтом, а чи не сервером. Цей режим може знадобитися, якщо клієнт перебуває за брандмауером.
+**ftp\_pasv()** вмикає або вимикає пасивний режим. У пасивному режимі передача даних ініціюється клієнтом, а чи не сервером. Цей режим може знадобитися, якщо клієнт перебуває за брандмауером.
 
-Зверніть увагу, що **ftppasv()** може бути викликана лише після успішної авторизації, інакше вона завершиться з помилкою.
+Обратите внимание, что**ftp\_pasv()** може бути викликана лише після успішної авторизації, інакше вона завершиться з помилкою.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `enable`
 
@@ -34,17 +35,17 @@ ftp_pasv(FTP\Connection $ftp, bool $enable): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftppasv()****
+**Пример #1 Пример использования**ftp\_pasv()\*\*\*\*
 
 ```php
 <?php

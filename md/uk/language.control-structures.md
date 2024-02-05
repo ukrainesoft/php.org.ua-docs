@@ -1,17 +1,18 @@
 ---
 navigation:
-  - language.operators.type.md: « Оператор перевірки типу
-  - control-structures.intro.md: Введение »
+  - language.operators.type.md: « Перевірка типу
+  - control-structures.intro.md: Вступ "
   - index.md: PHP Manual
   - langref.md: Довідник мови
 title: Керуючі конструкції
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Керуючі конструкції
 
 ## Зміст
 
--   [Введение](control-structures.intro.md)
--   [іф](control-structures.if.md)
+-   [Вступ](control-structures.intro.md)
+-   [if](control-structures.if.md)
 -   [else](control-structures.else.md)
 -   [elseif/else if](control-structures.elseif.md)
 -   [Альтернативний синтаксис керуючих структур](control-structures.alternative-syntax.md)
@@ -27,6 +28,6 @@ title: Керуючі конструкції
 -   [return](function.return.md)
 -   [require](function.require.md)
 -   [include](function.include.md)
--   [requireonce](function.require-once.md)
--   [includeonce](function.include-once.md)
+-   [require\_once](function.require-once.md)
+-   [include\_once](function.include-once.md)
 -   [goto](control-structures.goto.md)

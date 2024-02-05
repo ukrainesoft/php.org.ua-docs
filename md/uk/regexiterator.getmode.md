@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::getMode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RegexIterator::getMode
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::getMode — Повертає режим роботи
 
@@ -30,7 +31,7 @@ public RegexIterator::getMode(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RegexIterator::getMode()****
+**Пример #1 Пример использования**RegexIterator::getMode()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ if ($mode & RegexIterator::GET_MATCH) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Проверка соответствий для каждого элемента.
@@ -61,4 +62,4 @@ if ($mode & RegexIterator::GET_MATCH) {
 
 ### Дивіться також
 
--   [RegexIterator::setMode()](regexiterator.setmode.md) - Встановлення режиму роботи
+-   [RegexIterator::setMode()](regexiterator.setmode.md) \- Встановлення режиму роботи

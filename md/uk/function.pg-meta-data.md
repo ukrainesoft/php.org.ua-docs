@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-lo-write.md: « pgлоwrite
-  - function.pg-num-fields.md: пгnumfields »
+  - function.pg-lo-write.md: « pg\_lo\_write
+  - function.pg-num-fields.md: pg\_num\_fields »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгmetadata
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_meta\_data
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгmetadata
+# pg\_meta\_data
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-пгmetadata — Отримання метаданих таблиці
+pg\_meta\_data — Отримання метаданих таблиці
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: пгmetadata
 pg_meta_data(PgSql\Connection $connection, string $table_name, bool $extended = false): array|false
 ```
 
-**пгmetadata()** повертає визначення таблиці `table_name` у вигляді масиву.
+**pg\_meta\_data()** повертає визначення таблиці `table_name` у вигляді масиву.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md)
 
 `table_name`
 
@@ -36,13 +37,13 @@ pg_meta_data(PgSql\Connection $connection, string $table_name, bool $extended = 
 
 ### Значення, що повертаються
 
-Масив, що містить визначення таблиці або **`false`** у разі виникнення помилки.
+Масив, що містить визначення таблиці або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -61,7 +62,7 @@ pg_meta_data(PgSql\Connection $connection, string $table_name, bool $extended = 
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(3) {
@@ -109,4 +110,4 @@ array(5) {
 
 ### Дивіться також
 
--   [пгconvert()](function.pg-convert.md) - Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах
+-   [pg\_convert()](function.pg-convert.md) \- Перетворює значення асоціативного масиву на відповідний для SQL-запитів вид

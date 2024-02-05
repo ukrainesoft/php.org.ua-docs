@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.eio-lstat.md: « eiolstat
-  - function.eio-mknod.md: eiomknod »
+  - function.eio-lstat.md: « eio\_lstat
+  - function.eio-mknod.md: eio\_mknod »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiomkdir
+  - ref.eio.md: Eio Функції
+title: eio\_mkdir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiomkdir
+# eio\_mkdir
 
 (PECL eio >= 0.0.1dev)
 
-eiomkdir - Створення директорії
+eio\_mkdir - Створення директорії
 
 ### Опис
 
 ```methodsynopsis
-eio_mkdir(    string $path,    int $mode,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_mkdir(    string $path,    int $mode,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
-**eiomkdir()** створює директорію із заданим режимом доступу `mode`
+**eio\_mkdir()** створює директорію із заданим режимом доступу `mode`
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ eio_mkdir(    string $path,    int $mode,    int $pri = EIO_PRI_DEFAULT,    call
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -52,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
@@ -60,11 +61,11 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-У разі успішного виконання операції **eiomkdir()** поверне ресурс запиту або **`false`** у разі виникнення помилки.
+У разі успішного виконання операції **eio\_mkdir()** поверне ресурс запиту або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eiomkdir()****
+**Пример #1 Пример использования**eio\_mkdir()\*\*\*\*
 
 ```php
 <?php
@@ -89,7 +90,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 eio_mkdir_ok
@@ -97,4 +98,4 @@ eio_mkdir_ok
 
 ### Дивіться також
 
--   [eiormdir()](function.eio-rmdir.md) - видаляє директорію
+-   [eio\_rmdir()](function.eio-rmdir.md) \- видаляє директорію

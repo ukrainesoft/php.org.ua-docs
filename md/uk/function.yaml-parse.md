@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.yaml-parse-url.md: « yamlparseurl
+  - function.yaml-parse-url.md: « yaml\_parse\_url
   - book.yaf.md: Yaf »
   - index.md: PHP Manual
-  - ref.yaml.md: Функции Yaml
-title: yamlparse
+  - ref.yaml.md: Функції Yaml
+title: yaml\_parse
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yamlparse
+# yaml\_parse
 
 (PECL yaml >= 0.4.0)
 
-yamlparse — Розбирає потік YAML
+yaml\_parse — Розбирає потік YAML
 
 ### Опис
 
 ```methodsynopsis
-yaml_parse(    string $input,    int $pos = 0,    int &$ndocs = ?,    array $callbacks = null): mixed
+yaml_parse(    string $input,    int $pos = 0,    int &$ndocs = ?,    array $callbacks = null): mixed
 ```
 
 Конвертує весь потік YAML або його частину і записує змінну.
@@ -28,7 +29,7 @@ yaml_parse(    string $input,    int $pos = 0,    int &$ndocs = ?,    array $cal
 
 `pos`
 
-Документ для розбору (`-1` для всіх документів, `0` для першого документа, ...).
+Документ для розбору (`-1` для всіх документів, для первого документа, ...).
 
 `ndocs`
 
@@ -40,11 +41,11 @@ yaml_parse(    string $input,    int $pos = 0,    int &$ndocs = ?,    array $cal
 
 ### Значення, що повертаються
 
-Повертає значення, закодоване в `input`, у відповідному типі PHP або **`false`** у разі виникнення помилки. Якщо параметр `pos` дорівнює `-1`, буде повернено масив, що містить один запис для кожного документа, знайденого в потоці.
+Повертає значення, закодоване в `input`, у відповідному типі PHP або \*\*`false`\*\*в случае возникновения ошибки. Если параметр`pos`равен`-1`, буде повернено масив, що містить один запис для кожного документа, знайденого в потоці.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **yamlparse()****
+**Пример #1 Пример использования**yaml\_parse()\*\*\*\*
 
 ```php
 <?php
@@ -84,7 +85,7 @@ var_dump($parsed);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(8) {
@@ -168,10 +169,10 @@ array(8) {
 
 **Увага**
 
-Обробляти неперевірене введення користувача, у разі коли для вузлів YAML, що використовують тег `!php/object`, дозволено використання функції [unserialize()](function.unserialize.md), Вкрай небезпечно. Цю поведінку можна вимкнути за допомогою ini-налаштування `yaml.decode_php`
+Обробляти неперевірене введення користувача, у разі коли для вузлів YAML, що використовують тег `!php/object`, разрешено использование функции[unserialize()](function.unserialize.md), Вкрай небезпечно. Цю поведінку можна вимкнути за допомогою ini-налаштування `yaml.decode_php`
 
 ### Дивіться також
 
--   [yamlparsefile()](function.yaml-parse-file.md) - Розбирає YAML-потік із файлу
--   [yamlparseurl()](function.yaml-parse-url.md) - Розбирає YAML-потік із URL
--   [yamlemit()](function.yaml-emit.md) - Повертає YAML-подання значення
+-   [yaml\_parse\_file()](function.yaml-parse-file.md) \- Розбирає YAML-потік із файлу
+-   [yaml\_parse\_url()](function.yaml-parse-url.md) \- Розбирає YAML-потік із URL
+-   [yaml\_emit()](function.yaml-emit.md) \- Повертає YAML-подання значення

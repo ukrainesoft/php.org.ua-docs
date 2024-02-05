@@ -1,16 +1,17 @@
 ---
 navigation:
-  - soapclient.getlastrequestheaders.md: '« SoapClient::getLastRequestHeaders'
-  - soapclient.getlastresponseheaders.md: 'SoapClient::getLastResponseHeaders »'
+  - soapclient.getlastrequestheaders.md: '« SoapClient::\_\_getLastRequestHeaders'
+  - soapclient.getlastresponseheaders.md: 'SoapClient::\_\_getLastResponseHeaders »'
   - index.md: PHP Manual
   - class.soapclient.md: SoapClient
-title: 'SoapClient::getLastResponse'
+title: 'SoapClient::\_\_getLastResponse'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapClient::getLastResponse
+# SoapClient::\_\_getLastResponse
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapClient::getLastResponse — Повертає останню SOAP-відповідь
+SoapClient::\_\_getLastResponse — Повертає останню SOAP-відповідь
 
 ### Опис
 
@@ -20,7 +21,7 @@ public SoapClient::__getLastResponse(): ?string
 
 Повертає XML, отриманий в останній SOAP-відповіді.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Метод працює лише для об'єкта [SoapClient](class.soapclient.md), створеного з налаштуванням `trace`, рівною **`true`**
 
@@ -34,7 +35,7 @@ public SoapClient::__getLastResponse(): ?string
 
 ### Приклади
 
-**Приклад #1 Приклад використання SoapClient::getLastResponse()**
+**Приклад #1 Приклад використання SoapClient::\_\_getLastResponse()**
 
 ```php
 <?php
@@ -46,6 +47,6 @@ echo "Ответ:\n" . $client->__getLastResponse() . "\n";
 
 ### Дивіться також
 
--   [SoapClient::getLastResponseHeaders()](soapclient.getlastresponseheaders.md) - Повертає SOAP-заголовки останньої відповіді
--   [SoapClient::getLastRequest()](soapclient.getlastrequest.md) - Повертає останній SOAP-запит
--   [SoapClient::getLastRequestHeaders()](soapclient.getlastrequestheaders.md) - Повертає SOAP-заголовки останнього запиту
+-   [SoapClient::\_\_getLastResponseHeaders()](soapclient.getlastresponseheaders.md) \- Повертає SOAP-заголовки останньої відповіді
+-   [SoapClient::\_\_getLastRequest()](soapclient.getlastrequest.md) \- Повертає останній SOAP-запит
+-   [SoapClient::\_\_getLastRequestHeaders()](soapclient.getlastrequestheaders.md) \- Повертає SOAP-заголовки останнього запиту

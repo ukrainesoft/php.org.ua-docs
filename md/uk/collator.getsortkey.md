@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.collator.md: Collator
 title: 'Collator::getSortKey'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collator::getSortKey
 
-# collatorgetsortkey
+# collator\_get\_sort\_key
 
 (PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 1.0.3)
 
-Collator::getSortKey -- collatorgetsortkey — Отримує ключ сортування рядка
+Collator::getSortKey -- collator\_get\_sort\_key — Отримує ключ сортування рядка
 
 ### Опис
 
@@ -42,15 +43,15 @@ collator_get_sort_key(Collator $object, string $string): string|false
 
 ### Значення, що повертаються
 
-Повертає ключ зіставлення для рядка або **`false`** у разі виникнення помилки.
+Повертає ключ зіставлення для рядка або \*\*`false`\*\*в случае возникновения ошибки.
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Логічний тип](language.types.boolean.md)Используйте[оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **collatorgetsortkey()****
+**Пример #1 Пример использования**collator\_get\_sort\_key()\*\*\*\*
 
 ```php
 <?php
@@ -63,11 +64,11 @@ echo bin2hex($res);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 3832404046010901dc08
 
 ### Дивіться також
 
--   [collatorsort()](collator.sort.md) - Сортує масив із використанням зазначеного засобу сортування
--   [collatorsortwithsortkeys()](collator.sortwithsortkeys.md) - Сортує масив з використанням зазначеного Collator та ключів сортування
+-   [collator\_sort()](collator.sort.md) \- Сортує масив із використанням зазначеного засобу сортування
+-   [collator\_sort\_with\_sort\_keys()](collator.sortwithsortkeys.md) \- Сортує масив з використанням зазначеного Collator та ключів сортування

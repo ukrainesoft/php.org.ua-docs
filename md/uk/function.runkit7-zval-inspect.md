@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.runkit7-superglobals.md: « runkit7superglobals
+  - function.runkit7-superglobals.md: « runkit7\_superglobals
   - book.uopz.md: uopz »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
-title: runkit7кликавinspect
+title: runkit7\_zval\_inspect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# runkit7кликавinspect
+# runkit7\_zval\_inspect
 
-(PECL runkit7> = Unknown)
+(PECL runkit7 >= Unknown)
 
-runkit7кликавinspect — Повертає інформацію про передане значення з типами даних, кількістю посилань і так далі
+runkit7\_zval\_inspect — Повертає інформацію про передане значення з типами даних, кількістю посилань і так далі
 
 ### Опис
 
@@ -35,7 +36,7 @@ runkit7_zval_inspect(string $value): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **runkit7кликавinspect()****
+**Пример #1 Пример использования**runkit7\_zval\_inspect()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump(runkit7_zval_inspect($var));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(4) {
@@ -73,4 +74,4 @@ array(2) {
 ### Дивіться також
 
 -   [Пояснення посилань](language.references.md)
--   [» Пояснення посилань (Дерік Ретанс)](http://derickrethans.nl/php_references_article.php)
+-   [» Пояснення посилань (Дерік Ретанс)](http://derickrethans.nl/php_references_article.php)

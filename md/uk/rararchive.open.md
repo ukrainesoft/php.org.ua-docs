@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.rararchive.md: RarArchive
 title: 'RarArchive::open'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarArchive::open
 
-# raropen
+# rar\_open
 
 (PECL rar >= 2.0.0)
 
-RarArchive::open -- raropen — Відкриває архів RAR
+RarArchive::open -- rar\_open — Відкриває архів RAR
 
 ### Опис
 
@@ -30,7 +31,7 @@ rar_open(string $filename, string $password = NULL, callable $volume_callback = 
 
 Відкриває зазначений RAR-архів та повертає об'єкт [RarArchive](class.rararchive.md)представляє його.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > При відкритті багатотомного архіву шлях до першого тому має бути переданий першим параметром. Інакше не буде видно всіх файлів.
 
@@ -54,11 +55,11 @@ rar_open(string $filename, string $password = NULL, callable $volume_callback = 
 
 ### Значення, що повертаються
 
-Повертає запитуваний об'єкт [RarArchive](class.rararchive.md) або **`false`** у разі виникнення помилки.
+Повертає запитуваний об'єкт [RarArchive](class.rararchive.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL rar 3.0.0 | Був доданий `volume_callback` |
 
@@ -94,7 +95,7 @@ fclose($stream);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Найдено 2 файлов.

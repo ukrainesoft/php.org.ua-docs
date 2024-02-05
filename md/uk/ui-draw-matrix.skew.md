@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-matrix.scale.md: '« UIDrawMatrix::scale'
-  - ui-draw-matrix.translate.md: 'ОЙDrawMatrix::translate »'
+  - ui-draw-matrix.scale.md: '« UI\\Draw\\Matrix::scale'
+  - ui-draw-matrix.translate.md: 'UI\\Draw\\Matrix::translate »'
   - index.md: PHP Manual
-  - class.ui-draw-matrix.md: ОЙDrawMatrix
-title: 'ОЙDrawMatrix::skew'
+  - class.ui-draw-matrix.md: UI\\Draw\\Matrix
+title: 'UI\\Draw\\Matrix::skew'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawMatrix::skew
+# UI\\Draw\\Matrix::skew
 
 (UI 0.9.9)
 
-ОЙDrawMatrix::skew — Нахилити матрицю
+UI\\Draw\\Matrix::skew — Нахилити матрицю
 
 ### Опис
 

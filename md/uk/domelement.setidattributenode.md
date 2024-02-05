@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
 title: 'DOMElement::setIdAttributeNode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMElement::setIdAttributeNode
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMElement::setIdAttributeNode — Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
+DOMElement::setIdAttributeNode — Оголошує вказаний атрибут тип ID
 
 ### Опис
 
@@ -18,7 +19,7 @@ DOMElement::setIdAttributeNode — Оголошує атрибут, вказан
 public DOMElement::setIdAttributeNode(DOMAttr $attr, bool $isId): void
 ```
 
-Оголошує атрибут, який визначається вузлом `attr`, ідентифікатор типу.
+Оголошує атрибут, визначений вузлом `attr`, унікальний ідентифікатор елемента.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public DOMElement::setIdAttributeNode(DOMAttr $attr, bool $isId): void
 
 `isId`
 
-Встановіть значення в **`true`** якщо ви хочете, щоб `name` мав ідентифікатор типу, **`false`** в іншому випадку.
+Параметр устанавливают в\*\*`true`\*\*якщо потрібно, щоб тип переданого атрибута з ім'ям `name` став ідентифікатором елемента, інакше вказують **`false`**
 
 ### Значення, що повертаються
 
@@ -42,10 +43,10 @@ public DOMElement::setIdAttributeNode(DOMAttr $attr, bool $isId): void
 
 **`DOM_NOT_FOUND`**
 
-Виникає, якщо `name` не є атрибутом елемента.
+Виникає, якщо атрибут з ім'ям `name` не належить елементу.
 
 ### Дивіться також
 
--   [DOMDocument::getElementById()](domdocument.getelementbyid.md) - Шукає елемент із певним ідентифікатором
--   [DOMElement::setIdAttribute()](domelement.setidattribute.md) - Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
--   [DOMElement::setIdAttributeNS()](domelement.setidattributens.md) - Оголошує атрибут, вказаний локальним ім'ям та URI простору імен, з ідентифікатором типу
+-   [DOMDocument::getElementById()](domdocument.getelementbyid.md) \- Шукає елемент із певним ідентифікатором
+-   [DOMElement::setIdAttribute()](domelement.setidattribute.md) \- Оголошує атрибуту із зазначеним ім'ям тип ID
+-   [DOMElement::setIdAttributeNS()](domelement.setidattributens.md) \- Оголошує атрибуту із зазначеними локальним ім'ям та URI простору імен тип ID

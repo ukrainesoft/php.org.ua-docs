@@ -4,19 +4,20 @@ navigation:
   - datetime.createfromformat.md: 'DateTime::createFromFormat »'
   - index.md: PHP Manual
   - class.datetime.md: DateTime
-title: 'DateTime::construct'
+title: 'DateTime::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DateTime::construct
+# DateTime::\_\_construct
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-DateTime::construct - Конструктор класу DateTime
+DateTime::\_\_construct - Конструктор класу DateTime
 
 ### Опис
 
-public **DateTime::construct**(string `$datetime` = "now", ?[DateTimeZone](class.datetimezone.md) `$timezone` **`null`**
+public**DateTime::\_\_construct**(string`$datetime` = "now", ?[DateTimeZone](class.datetimezone.md) `$timezone` **`null`**) .
 
-Подібний до конструктора [DateTimeImmutable::construct()](datetimeimmutable.construct.md), крім роботи з об'єктом [DateTime](class.datetime.md). Замість цього класу розгляньте можливість використання класу [DateTimeImmutable](class.datetimeimmutable.md)
+Цей конструктор схожий на конструктор [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.md), але працює з об'єктом [DateTime](class.datetime.md). Врахуйте, що замість цього класу краще працювати із класом [DateTimeImmutable](class.datetimeimmutable.md) та його функціями.
 
 Повертає новий об'єкт DateTime.
 
@@ -30,18 +31,28 @@ public **DateTime::construct**(string `$datetime` = "now", ?[DateTimeZone](class
 
 `timezone`
 
-Об'єкт класу [DateTimeZone](class.datetimezone.md), що представляє часовий пояс параметра `$datetime`
+Об'єкт класу [DateTimeZone](class.datetimezone.md), представляющий часовой пояс параметра`$datetime`
 
-Якщо аргумент `$timezone` не заданий або **`null`**, буде використано поточний часовий пояс.
+Якщо аргумент `$timezone`не задан или\*\*`null`\*\*, буде використано поточний часовий пояс.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Значення аргументу `$timezone`, так само як і поточний часовий пояс не враховуватимуться, якщо як аргумент `$datetime` передається мітка часу UNIX (наприклад, `@946684800`) або час, в якому часовий пояс вже міститься (наприклад, `2010-01-28T15:00:00+02:00`
+> Значение аргумента`$timezone`, так само як і поточний часовий пояс не враховуватимуться, якщо як аргумент `$datetime` передається мітка часу UNIX (наприклад, `@946684800`) або час, у якому часовий пояс вже міститься (наприклад, `2010-01-28T15:00:00+02:00`
 
 ### Значення, що повертаються
 
-Повертає створений об'єкт класу DateTime. Процедурний стиль повертає **`false`** у разі виникнення помилки.
+Повертає створений об'єкт класу DateTime.
+
+### Помилки
+
+Якщо буде передано неприпустимий рядок дати/часу, буде викинуто виняток [DateMalformedStringException](class.datemalformedstringexception.md). До PHP 8.3 викидався виняток [Exception](class.exception.md)
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.3.0 | Тепер замість винятку [Exception](class.exception.md) викидається виняток [DateMalformedStringException](class.datemalformedstringexception.md), якщо передано неприпустимий рядок. |
 
 ### Дивіться також
 
--   [DateTimeImmutable::construct()](datetimeimmutable.construct.md) - Повертає новий об'єкт DateTimeImmutable
+-   [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.md) \- Повертає новий об'єкт DateTimeImmutable

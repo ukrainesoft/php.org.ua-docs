@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::getAcl'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zookeeper::getAcl
 
@@ -39,7 +40,7 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Zookeeper::getAcl()****
+**Пример #1 Пример использования**Zookeeper::getAcl()\*\*\*\*
 
 Отримання ACL вузла.
 
@@ -64,7 +65,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {
@@ -82,7 +83,7 @@ array(1) {
 
 ### Дивіться також
 
--   [Zookeeper::create()](zookeeper.create.md) - Створює синхронно вузол
--   [Zookeeper::setAcl()](zookeeper.setacl.md) - Встановлює ACL, пов'язаний із вузлом синхронно
--   [Разрешения ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
+-   [Zookeeper::create()](zookeeper.create.md) \- Створює синхронно вузол
+-   [Zookeeper::setAcl()](zookeeper.setacl.md) \- Встановлює ACL, пов'язаний із вузлом синхронно
+-   [Дозволи ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
 -   [ZookeeperException](class.zookeeperexception.md)

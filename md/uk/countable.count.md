@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.countable.md: Countable
 title: 'Countable::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Countable::count
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 Countable::count — Кількість елементів об'єкта
 
@@ -28,13 +29,13 @@ public Countable::count(): int
 
 Значення користувача типу int.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення, що повертається, наводиться до типу int.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Countable::count()****
+**Пример #1 Пример использования**Countable::count()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ for($i=0; $i<10; ++$i) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Я посчитан 1 раз

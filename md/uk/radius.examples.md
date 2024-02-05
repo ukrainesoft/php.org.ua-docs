@@ -1,10 +1,11 @@
 ---
 navigation:
   - radius.constants.vendor-specific.md: Атрибути RADIUS специфічні для різних виробників.
-  - ref.radius.md: Функции Radius »
+  - ref.radius.md: Функції Radius »
   - index.md: PHP Manual
   - book.radius.md: Radius
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

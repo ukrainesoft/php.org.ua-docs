@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.exif-read-data.md: « exifreaddata
-  - function.exif-thumbnail.md: exifthumbnail »
+  - function.exif-read-data.md: « exif\_read\_data
+  - function.exif-thumbnail.md: exif\_thumbnail »
   - index.md: PHP Manual
   - ref.exif.md: Exif Функції
-title: exiftagname
+title: exif\_tagname
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# exiftagname
+# exif\_tagname
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-exiftagname — Отримання імені заголовка за його індексом
+exif\_tagname — Отримання імені заголовка за його індексом
 
 ### Опис
 
@@ -30,7 +31,7 @@ ID тега, ім'я якого потрібно отримати.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **exiftagname()****
+**Пример #1 Пример использования**exif\_tagname()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ echo "257: ".exif_tagname(257).PHP_EOL;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 256: ImageWidth
@@ -48,6 +49,6 @@ echo "257: ".exif_tagname(257).PHP_EOL;
 
 ### Дивіться також
 
--   [exifimagetype()](function.exif-imagetype.md) - Визначте тип зображення.
--   [» EXIF спецификация](http://exif.org/Exif2-2.PDF)
--   [» EXIF теги](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/EXIF.md)
+-   [exif\_imagetype()](function.exif-imagetype.md) \- Determine the type of an image
+-   [» EXIF специфікація](http://exif.org/Exif2-2.PDF)
+-   [» EXIF теги](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/EXIF.md)

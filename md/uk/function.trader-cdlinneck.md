@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlidentical3crows.md: « tradercdlidentical3crows
-  - function.trader-cdlinvertedhammer.md: tradercdlinvertedhammer »
+  - function.trader-cdlidentical3crows.md: « trader\_cdlidentical3crows
+  - function.trader-cdlinvertedhammer.md: trader\_cdlinvertedhammer »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlinneck
+  - ref.trader.md: Функції Trader
+title: trader\_cdlinneck
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlinneck
+# trader\_cdlinneck
 
 (PECL trader >= 0.2.0)
 
-tradercdlinneck - Свічкова модель "На лінії шиї"
+trader\_cdlinneck - Свічкова модель "На лінії шиї"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlinneck(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlinneck(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

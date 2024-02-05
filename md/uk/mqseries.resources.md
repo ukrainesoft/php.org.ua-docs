@@ -5,11 +5,12 @@ navigation:
   - index.md: PHP Manual
   - mqseries.setup.md: Встановлення та налаштування
 title: Типи ресурсів
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Типи ресурсів
 
-Цей модуль оперує такими ресурсами: connection та objecthandle.
+Цей модуль оперує такими ресурсами: connection та object\_handle.
 
-Функції [mqseriesconn()](function.mqseries-conn.md) і [mqseriesconnx()](function.mqseries-connx.md) повертають обробники з'єднання.
+Функції [mqseries\_conn()](function.mqseries-conn.md) і [mqseries\_connx()](function.mqseries-connx.md)возвращают обработчики соединения.
 
-Функція [mqseriesopen()](function.mqseries-open.md) повертає оброблювач об'єкта.
+Функция[mqseries\_open()](function.mqseries-open.md) повертає оброблювач об'єкта.

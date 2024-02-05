@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-writeconcernerror.getinfo.md: '« MongoDBDriverWriteConcernError::getInfo'
-  - class.mongodb-driver-writeerror.md: MongoDBDriverWriteError »
+  - mongodb-driver-writeconcernerror.getinfo.md: '« MongoDB\\Driver\\WriteConcernError::getInfo'
+  - class.mongodb-driver-writeerror.md: MongoDB\\Driver\\WriteError »
   - index.md: PHP Manual
-  - class.mongodb-driver-writeconcernerror.md: MongoDBDriverWriteConcernError
-title: 'MongoDBDriverWriteConcernError::getMessage'
+  - class.mongodb-driver-writeconcernerror.md: MongoDB\\Driver\\WriteConcernError
+title: 'MongoDB\\Driver\\WriteConcernError::getMessage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteConcernError::getMessage
+# MongoDB\\Driver\\WriteConcernError::getMessage
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteConcernError::getMessage — Повертає повідомлення про помилку WriteConcernError
+MongoDB\\Driver\\WriteConcernError::getMessage — Повертає повідомлення про помилку WriteConcernError
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\Driver\WriteConcernError::getMessage(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteConcernError::getMessage()****
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteConcernError::getMessage()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(33) "waiting for replication timed out"
@@ -61,4 +62,4 @@ string(33) "waiting for replication timed out"
 
 ### Дивіться також
 
--   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Довідка по гарантіях запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

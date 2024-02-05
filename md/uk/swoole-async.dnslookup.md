@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-async.md: « SwooleAsync
-  - swoole-async.read.md: 'SwooleAsync::read »'
+  - class.swoole-async.md: « Swoole\\Async
+  - swoole-async.read.md: 'Swoole\\Async::read »'
   - index.md: PHP Manual
-  - class.swoole-async.md: SwooleAsync
-title: 'SwooleAsync::dnsLookup'
+  - class.swoole-async.md: Swoole\\Async
+title: 'Swoole\\Async::dnsLookup'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleAsync::dnsLookup
+# Swoole\\Async::dnsLookup
 
 (PECL swoole >= 1.9.0)
 
-SwooleAsync::dnsLookup — Асинхронний та неблокуючий пошук IP на ім'я хоста
+Swoole\\Async::dnsLookup — Асинхронний та неблокуючий пошук IP на ім'я хоста
 
 ### Опис
 
@@ -20,7 +21,7 @@ public static Swoole\Async::dnsLookup(string $hostname, callable $callback): voi
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

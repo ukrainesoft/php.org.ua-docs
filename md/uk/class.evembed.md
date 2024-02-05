@@ -1,10 +1,11 @@
 ---
 navigation:
   - evchild.set.md: '« EvChild::set'
-  - evembed.construct.md: 'EvEmbed::construct »'
+  - evembed.construct.md: 'EvEmbed::\_\_construct »'
   - index.md: PHP Manual
-  - book.ev.md: Єв
+  - book.ev.md: Ev
 title: Клас EvEmbed
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EvEmbed
 
@@ -39,16 +40,16 @@ title: Клас EvEmbed
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     object
      $other
-   ,    
+   ,    
     callable
      $callback
-    = ?,    
+    = ?,    
     mixed
      $data
-    = ?,    
+    = ?,    
     int
      $priority
     = ?)
@@ -56,16 +57,16 @@ title: Клас EvEmbed
     final
    public
    static
-   createStopped(    
+   createStopped(    
     object
      $other
-   ,    
+   ,    
     callable
      $callback
-    = ?,    
+    = ?,    
     mixed
      $data
-    = ?,    
+    = ?,    
     int
      $priority
     = ?): void
@@ -112,11 +113,11 @@ public
 
 ## Властивості
 
-ісactive
+is\_active
 
 data
 
-ісpending
+is\_pending
 
 priority
 
@@ -124,7 +125,7 @@ embed
 
 ## Зміст
 
--   [EvEmbed::construct](evembed.construct.md) - Конструктор об'єкта EvEmbed
--   [EvEmbed::createStopped](evembed.createstopped.md) — Створює зупинений об'єкт спостерігач EvEmbed
--   [EvEmbed::set](evembed.set.md) — Налаштування спостерігача
--   [EvEmbed::sweep](evembed.sweep.md) — Робить одиночну, неблокуючу розгортку за вбудованим циклом
+-   [EvEmbed::\_\_construct](evembed.construct.md) \- Конструктор об'єкта EvEmbed
+-   [EvEmbed::createStopped](evembed.createstopped.md)— Створює зупинений об'єкт спостерігач EvEmbed
+-   [EvEmbed::set](evembed.set.md)— Налаштування спостерігача
+-   [EvEmbed::sweep](evembed.sweep.md)— Робить одиночну, неблокуючу розгортку за вбудованим циклом

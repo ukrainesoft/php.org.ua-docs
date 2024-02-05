@@ -1,10 +1,11 @@
 ---
 navigation:
   - context.params.md: « Параметри контексту
-  - wrappers.md: Підтримувані протоколи та обгортки »
+  - context.zlib.md: Zlib context options »
   - index.md: PHP Manual
   - context.md: Контекстні опції та параметри
 title: Опції контексту Zip
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Опції контексту Zip
 
@@ -22,9 +23,9 @@ title: Опції контексту Zip
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PHP 7.2.0, PECL zip 1.14.0 | Доданий параметр `password` |
+| PHP 7.2.0, PECL zip 1.14.0 | Добавлен параметр`password` |
 
 ### Приклади
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.filteriterator.md: FilterIterator
 title: 'FilterIterator::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FilterIterator::valid
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 FilterIterator::valid — Перевіряє, чи поточний елемент є допустимим.
 
@@ -20,7 +21,7 @@ public FilterIterator::valid(): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Перевіряє, чи поточний елемент є допустимим.
 

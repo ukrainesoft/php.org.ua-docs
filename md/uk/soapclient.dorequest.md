@@ -1,26 +1,27 @@
 ---
 navigation:
-  - soapclient.construct.md: '« SoapClient::construct'
-  - soapclient.getcookies.md: 'SoapClient::getCookies »'
+  - soapclient.construct.md: '« SoapClient::\_\_construct'
+  - soapclient.getcookies.md: 'SoapClient::\_\_getCookies »'
   - index.md: PHP Manual
   - class.soapclient.md: SoapClient
-title: 'SoapClient::doRequest'
+title: 'SoapClient::\_\_doRequest'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapClient::doRequest
+# SoapClient::\_\_doRequest
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapClient::doRequest — Виконує запит SOAP
+SoapClient::\_\_doRequest — Виконує запит SOAP
 
 ### Опис
 
 ```methodsynopsis
-public SoapClient::__doRequest(    string $request,    string $location,    string $action,    int $version,    bool $oneWay = false): ?string
+public SoapClient::__doRequest(    string $request,    string $location,    string $action,    int $version,    bool $oneWay = false): ?string
 ```
 
 Виконує SOAP-запит поверх HTTP.
 
-Цей метод може бути перевизначений у підкласах для реалізації інших транспортних рівнів, виконання додаткової обробки XML чи інших цілей.
+Цей метод може бути перевизначений у підкласах реалізації інших транспортних рівнів, виконання додаткової обробки XML чи інших цілей.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public SoapClient::__doRequest(    string $request,    string $location,    stri
 
 `location`
 
-URL для запиту.
+URL-адреса для запиту.
 
 `action`
 
@@ -42,7 +43,7 @@ URL для запиту.
 
 `oneWay`
 
-Якщо `oneWay` дорівнює 1, метод нічого не повертає. Цей параметр використовується, коли відповідь не очікується.
+Якщо `oneWay`равен\*\*`true`\*\*метод нічого не повертає. Цей параметр використовується, коли відповідь не очікується.
 
 ### Значення, що повертаються
 
@@ -50,13 +51,13 @@ URL для запиту.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тип `oneWay` тепер bool; раніше він був цілим числом (int). |
+| 8.0.0 | Тип`oneWay` тепер bool; раніше він був цілим числом (int). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapClient::doRequest()****
+**Пример #1 Пример использования**SoapClient::\_\_doRequest()\*\*\*\*
 
 ```php
 <?php

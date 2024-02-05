@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ldap-add-ext.md: « ldapaddext
-  - function.ldap-bind-ext.md: ldapbindext »
+  - function.ldap-add-ext.md: « ldap\_add\_ext
+  - function.ldap-bind-ext.md: ldap\_bind\_ext »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapadd
+title: ldap\_add
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapadd
+# ldap\_add
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapadd — Додати запис до LDAP директорії
+ldap\_add — Додати запис до LDAP директорії
 
 ### Опис
 
 ```methodsynopsis
-ldap_add(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
+ldap_add(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
 ```
 
 Додає запис до LDAP-директорії.
@@ -24,7 +25,7 @@ ldap_add(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $c
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `dn`
 
@@ -44,19 +45,19 @@ $entry["attribute2"][1] = "value2";
 
 `controls`
 
-Масив [управляющих констант LDAP](ldap.controls.md) для відправки у запиті.
+Массив[керуючих констант LDAP](ldap.controls.md)для отправки в запросе.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
-|  | Додано підтримку параметра `controls` |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.0.0 | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+| 7.3.0 | Додано підтримку параметра `controls` |
 
 ### Приклади
 
@@ -91,5 +92,5 @@ if ($ds) {
 
 ### Дивіться також
 
--   [ldapaddext()](function.ldap-add-ext.md) - Додати записи до каталогу LDAP
--   [ldapdelete()](function.ldap-delete.md) - Видаляє запис із директорії LDAP
+-   [ldap\_add\_ext()](function.ldap-add-ext.md) \- Додати записи до каталогу LDAP
+-   [ldap\_delete()](function.ldap-delete.md) \- Видаляє запис із директорії LDAP

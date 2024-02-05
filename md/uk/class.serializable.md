@@ -5,31 +5,28 @@ navigation:
   - index.md: PHP Manual
   - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Інтерфейс Serializable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс Serializable
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
 Інтерфейс для персональної серіалізації.
 
-Класи, які реалізують цей інтерфейс, більше не підтримують [sleep()](language.oop5.magic.md#object.sleep) і [wakeup()](language.oop5.magic.md#object.wakeup). Метод serialize викликається щоразу, коли необхідна серіалізація екземпляру класу. Цей метод не викликає destruct() і немає ніяких побічних дій крім тих, які запрограмовані всередині нього. Коли дані десеріалізуються, клас відомий і відповідний метод unserialize() викликається як конструктор замість виклику construct(). Якщо вам необхідно викликати стандартний конструктор, ви можете зробити це в цьому методі.
+Класи, які реалізують цей інтерфейс, більше не підтримують [\_\_sleep()](language.oop5.magic.md#object.sleep) і [\_\_wakeup()](language.oop5.magic.md#object.wakeup). Метод serialize викликається щоразу, коли необхідна серіалізація екземпляру класу. Цей метод не викликає \_\_destruct() і немає ніяких побічних дій крім тих, які запрограмовані всередині нього. Коли дані десеріалізуються, клас відомий і відповідний метод unserialize() викликається як конструктор замість виклику \_\_construct(). Якщо вам необхідно викликати стандартний конструктор, ви можете зробити це в цьому методі.
 
 **Увага**
 
-Починаючи з PHP 8.1.0 клас, який реалізує **Serializable** без реалізації [serialize()](language.oop5.magic.md#object.serialize) і [unserialize()](language.oop5.magic.md#object.unserialize) видасть попередження про старіння
+Починаючи з PHP 8.1.0 клас, який реалізує **Serializable**без реализации[\_\_serialize()](language.oop5.magic.md#object.serialize) і [\_\_unserialize()](language.oop5.magic.md#object.unserialize) видасть попередження про старіння
 
 ## Огляд інтерфейсів
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      interface Serializable {
+     interface Serializable {
 
     /* Методы */
     
@@ -70,7 +67,7 @@ var_dump($newobj->getData());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(59) "C:3:"obj":44:{s:36:"Мои закрытые данные";}"
@@ -79,5 +76,5 @@ string(36) "Мои закрытые данные"
 
 ## Зміст
 
--   [Serializable::serialize](serializable.serialize.md) — Представляє об'єкт у вигляді рядка
--   [Serializable::unserialize](serializable.unserialize.md) - Створює об'єкт
+-   [Serializable::serialize](serializable.serialize.md)— Представляє об'єкт у вигляді рядка
+-   [Serializable::unserialize](serializable.unserialize.md) \- Створює об'єкт

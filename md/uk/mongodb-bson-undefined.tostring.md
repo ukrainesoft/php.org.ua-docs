@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-undefined.serialize.md: '« MongoDBBSONUndefined::serialize'
-  - mongodb-bson-undefined.unserialize.md: 'MongoDBBSONUndefined::unserialize »'
+  - mongodb-bson-undefined.serialize.md: '« MongoDB\\BSON\\Undefined::serialize'
+  - mongodb-bson-undefined.unserialize.md: 'MongoDB\\BSON\\Undefined::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-undefined.md: MongoDBBSONUndefined
-title: 'MongoDBBSONUndefined::toString'
+  - class.mongodb-bson-undefined.md: MongoDB\\BSON\\Undefined
+title: 'MongoDB\\BSON\\Undefined::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONUndefined::toString
+# MongoDB\\BSON\\Undefined::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.4.0)
 
-MongoDBBSONUndefined::toString — Повертає порожній рядок
+MongoDB\\BSON\\Undefined::\_\_toString — Повертає порожній рядок
 
 ### Опис
 
@@ -28,4 +29,4 @@ final public MongoDB\BSON\Undefined::__toString(): string
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

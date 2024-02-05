@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayIterator::valid
 
@@ -30,7 +31,7 @@ public ArrayIterator::valid(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayIterator::valid()****
+**Пример #1 Пример использования**ArrayIterator::valid()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($iterator->valid()); //bool(true)
 
 $iterator->next(); // перемещаем указатель на следующий элемент
 
-//bool(false) потому что в Масиве только один элемент
+//bool(false) потому что в массиве только один элемент
 var_dump($iterator->valid());
 ?>
 ```

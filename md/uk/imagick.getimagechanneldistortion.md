@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageChannelDistortion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageChannelDistortion
 
@@ -32,7 +33,7 @@ public Imagick::getImageChannelDistortion(Imagick $reference, int $channel, int 
 
 `metric`
 
-Одна з [констант типа METRIC](imagick.constants.md#imagick.constants.metric)
+Одна из[констант типу METRIC](imagick.constants.md#imagick.constants.metric)
 
 ### Значення, що повертаються
 

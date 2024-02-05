@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-stddev.md: « traderstddev
-  - function.trader-stochf.md: traderstochf »
+  - function.trader-stddev.md: « trader\_stddev
+  - function.trader-stochf.md: trader\_stochf »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderstoch
+  - ref.trader.md: Функції Trader
+title: trader\_stoch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderstoch
+# trader\_stoch
 
 (PECL trader >= 0.2.0)
 
-traderstoch - Стохастичний осцилятор
+trader\_stoch - Стохастичний осцилятор
 
 ### Опис
 
 ```methodsynopsis
-trader_stoch(    array $high,    array $low,    array $close,    int $fastK_Period = ?,    int $slowK_Period = ?,    int $slowK_MAType = ?,    int $slowD_Period = ?,    int $slowD_MAType = ?): array
+trader_stoch(    array $high,    array $low,    array $close,    int $fastK_Period = ?,    int $slowK_Period = ?,    int $slowK_MAType = ?,    int $slowD_Period = ?,    int $slowD_MAType = ?): array
 ```
 
 ### Список параметрів
@@ -42,7 +43,7 @@ trader_stoch(    array $high,    array $low,    array $close,    int $fastK_Peri
 
 `slowK_MAType`
 
-Тип ковзної середньої для Slow-K. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
+Тип ковзної середньої для Slow-K. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.md)
 
 `slowD_Period`
 
@@ -50,7 +51,7 @@ trader_stoch(    array $high,    array $low,    array $close,    int $fastK_Peri
 
 `slowD_MAType`
 
-Тип ковзної середньої для Slow-D. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
+Тип ковзної середньої для Slow-D. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.md)
 
 ### Значення, що повертаються
 

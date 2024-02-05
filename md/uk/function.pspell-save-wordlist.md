@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pspell-new.md: « pspellnew
-  - function.pspell-store-replacement.md: pspellstorereplacement »
+  - function.pspell-new.md: « pspell\_new
+  - function.pspell-store-replacement.md: pspell\_store\_replacement »
   - index.md: PHP Manual
-  - ref.pspell.md: Функции Pspell
-title: pspellsavewordlist
+  - ref.pspell.md: Функції Pspell
+title: pspell\_save\_wordlist
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pspellsavewordlist
+# pspell\_save\_wordlist
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspellsavewordlist — Зберігає персональний список слів у файлі
+pspell\_save\_wordlist — Зберігає персональний список слів у файлі
 
 ### Опис
 
@@ -18,27 +19,27 @@ pspellsavewordlist — Зберігає персональний список с
 pspell_save_wordlist(PSpell\Dictionary $dictionary): bool
 ```
 
-**pspellsavewordlist()** зберігає персональний список слів поточної сесії. Розташування файлів для збереження вказується за допомогою [pspellconfigpersonal()](function.pspell-config-personal.md) та (необов'язково) [pspellconfigrepl()](function.pspell-config-repl.md)
+**pspell\_save\_wordlist()** зберігає персональний список слів поточної сесії. Розташування файлів для збереження вказується за допомогою [pspell\_config\_personal()](function.pspell-config-personal.md) та (необов'язково) [pspell\_config\_repl()](function.pspell-config-repl.md)
 
 ### Список параметрів
 
 `dictionary`
 
-Екземпляр [PSpellDictionary](class.pspell-dictionary.md)
+Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [pspelladdтоpersonal()](function.pspell-add-to-personal.md)**
+**Пример #1 Пример использования[pspell\_add\_to\_personal()](function.pspell-add-to-personal.md)**
 
 ```php
 <?php
@@ -53,6 +54,6 @@ pspell_save_wordlist($pspell);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція не працюватиме, якщо у вас немає pspell .11.2 і aspell .32.5 або вище.

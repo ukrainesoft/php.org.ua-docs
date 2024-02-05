@@ -1,10 +1,11 @@
 ---
 navigation:
-  - eventdnsbase.construct.md: '« EventDnsBase::construct'
+  - eventdnsbase.construct.md: '« EventDnsBase::\_\_construct'
   - eventdnsbase.loadhosts.md: 'EventDnsBase::loadHosts »'
   - index.md: PHP Manual
   - class.eventdnsbase.md: EventDnsBase
 title: 'EventDnsBase::countNameservers'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventDnsBase::countNameservers
 

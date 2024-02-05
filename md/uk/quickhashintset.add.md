@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.quickhashintset.md: « QuickHashIntSet
-  - quickhashintset.construct.md: 'QuickHashIntSet::construct »'
+  - quickhashintset.construct.md: 'QuickHashIntSet::\_\_construct »'
   - index.md: PHP Manual
   - class.quickhashintset.md: QuickHashIntSet
 title: 'QuickHashIntSet::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntSet::add
 
@@ -28,11 +29,11 @@ public QuickHashIntSet::add(int $key): bool
 
 ### Значення, що повертаються
 
-Метод повертає **`true`**, якщо запис було додано та **`false`**, якщо запис не було додано.
+Метод возвращает\*\*`true`\*\*, якщо запис було додано та **`false`**, якщо запис не було додано.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntSet::add()****
+**Пример #1 Пример использования**QuickHashIntSet::add()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump( $set->add( 4 ) );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 без проверки дубликатов

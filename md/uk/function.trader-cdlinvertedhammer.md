@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlinneck.md: « tradercdlinneck
-  - function.trader-cdlkicking.md: tradercdlkicking »
+  - function.trader-cdlinneck.md: « trader\_cdlinneck
+  - function.trader-cdlkicking.md: trader\_cdlkicking »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlinvertedhammer
+  - ref.trader.md: Функції Trader
+title: trader\_cdlinvertedhammer
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlinvertedhammer
+# trader\_cdlinvertedhammer
 
 (PECL trader >= 0.2.0)
 
-tradercdlinvertedhammer - Свічкова модель "Перевернутий молоток"
+trader\_cdlinvertedhammer - Свічкова модель "Перевернутий молоток"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlinvertedhammer(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlinvertedhammer(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

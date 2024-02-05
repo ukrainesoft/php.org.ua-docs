@@ -1,10 +1,11 @@
 ---
 navigation:
   - intlcalendar.roll.md: '« IntlCalendar::roll'
-  - intlcalendar.setfirstdayofweek.md: 'IntlCalendar::setFirstDayOfWeek »'
+  - intlcalendar.setdate.md: 'IntlCalendar::setDate »'
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::set
 
@@ -17,24 +18,24 @@ IntlCalendar::set — Встановлює поле часу або кілька
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public IntlCalendar::set(int $field, int $value): bool
+public IntlCalendar::set(int $field, int $value): true
 ```
 
 ```methodsynopsis
-public IntlCalendar::set(    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): bool
+public IntlCalendar::set(    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): true
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-intlcal_set(IntlCalendar $cal, int $field, int $value): bool
+intlcal_set(IntlCalendar $cal, int $field, int $value): true
 ```
 
 ```methodsynopsis
-intlcal_set(    IntlCalendar $cal,    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): bool
+intlcal_set(    IntlCalendar $cal,    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): bool
 ```
 
-Встановлює або конкретне поле задане значення, або встановлює відразу кілька загальних полів. Діапазон допустимих значень залежить від того, чи використовує календар [мягкий режим](intlcalendar.setlenient.md)
+Встановлює або конкретне поле задане значення, або встановлює відразу кілька загальних полів. Діапазон допустимих значень залежить від того, чи використовує календар [м'який режим](intlcalendar.setlenient.md)
 
 Для полів, які конфліктують, поля, які встановлюються пізніше, мають пріоритет.
 
@@ -48,7 +49,7 @@ intlcal_set(    IntlCalendar $cal,    int $year,    int $month,    int $dayOfMon
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants)полей типа дата/время. Целое число от до\*\*`IntlCalendar::FIELD_COUNT`\*\*
 
 `value`
 
@@ -56,35 +57,41 @@ intlcal_set(    IntlCalendar $cal,    int $year,    int $month,    int $dayOfMon
 
 `year`
 
-Нове значення для **`IntlCalendar::FIELD_YEAR`**
+Новое значение для\*\*`IntlCalendar::FIELD_YEAR`\*\*
 
 `month`
 
-Нове значення для **`IntlCalendar::FIELD_MONTH`**. Послідовність місяців відраховується з нуля, тобто. січень представлений 0, лютий – 1, …, грудень – 11, а Тринадцятий місяць (якщо в календарі) – 12.
+Новое значение для\*\*`IntlCalendar::FIELD_MONTH`\*\*. Послідовність місяців відраховується з нуля, тобто. січень представлений 0, лютий – 1, …, грудень – 11, а Тринадцятий місяць (якщо в календарі) – 12.
 
 `dayOfMonth`
 
-Нове значення для **`IntlCalendar::FIELD_DAY_OF_MONTH`**
+Новое значение для\*\*`IntlCalendar::FIELD_DAY_OF_MONTH`\*\*
 
 `hour`
 
-Нове значення для **`IntlCalendar::FIELD_HOUR_OF_DAY`**
+Новое значение для\*\*`IntlCalendar::FIELD_HOUR_OF_DAY`\*\*
 
 `minute`
 
-Нове значення для **`IntlCalendar::FIELD_MINUTE`**
+Новое значение для\*\*`IntlCalendar::FIELD_MINUTE`\*\*
 
 `second`
 
-Нове значення для **`IntlCalendar::FIELD_SECOND`**
+Новое значение для\*\*`IntlCalendar::FIELD_SECOND`\*\*
 
 ### Значення, що повертаються
 
 Функція завжди повертає **`true`**
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
+
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::set()****
+**Пример #1 Пример использования**IntlCalendar::set()\*\*\*\*
 
 ```php
 <?php
@@ -106,7 +113,7 @@ $cal->clear(IntlCalendar::FIELD_EXTENDED_YEAR);
 var_dump(IntlDateFormatter::formatObject($cal));
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(20) "01/07/2011, 00:00:00"
@@ -115,6 +122,6 @@ string(20) "01/07/2012, 00:00:00"
 
 ### Дивіться також
 
--   [IntlCalendar::get()](intlcalendar.get.md) - Отримує значення поля
--   [IntlCalendar::add()](intlcalendar.add.md) - Додає кількість (зі знаком) часу у полі
--   [IntlCalendar::roll()](intlcalendar.roll.md) - Додає значення в поле без перенесення до важливих полів
+-   [IntlCalendar::get()](intlcalendar.get.md) \- Отримує значення поля
+-   [IntlCalendar::add()](intlcalendar.add.md) \- Додає кількість (зі знаком) часу у полі
+-   [IntlCalendar::roll()](intlcalendar.roll.md) \- Додає значення в поле без перенесення до важливих полів

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventdnsbase.md: EventDnsBase
 title: 'EventDnsBase::setOption'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventDnsBase::setOption
 
@@ -31,12 +32,12 @@ public
 
 `option`
 
-В даний час доступні такі параметри конфігурації: `"ndots"` `"timeout"` `"max-timeouts"` `"max-inflight"` і `"attempts"`
+В даний час доступні такі параметри конфігурації: `"ndots"` `"timeout"` `"max-timeouts"` `"max-inflight"`и`"attempts"`
 
 `value`
 
-Значення параметру.
+Значення параметра.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

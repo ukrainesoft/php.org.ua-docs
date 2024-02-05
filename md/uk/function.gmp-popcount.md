@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-perfect-square.md: « gmpperfectsquare
-  - function.gmp-pow.md: gmppow »
+  - function.gmp-perfect-square.md: « gmp\_perfect\_square
+  - function.gmp-pow.md: gmp\_pow »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmppopcount
+title: gmp\_popcount
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmppopcount
+# gmp\_popcount
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmppopcount — Кількість одиниць у двійковому записі числа
+gmp\_popcount — Кількість одиниць у двійковому записі числа
 
 ### Опис
 
@@ -32,7 +33,7 @@ gmp_popcount(GMP|int|string $num): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmppopcount()****
+**Пример #1 Пример использования**gmp\_popcount()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ echo gmp_popcount($pop2) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 3

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator
 title: 'RecursiveDirectoryIterator::getSubPathname'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RecursiveDirectoryIterator::getSubPathname
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 RecursiveDirectoryIterator::getSubPathname — Повертає шлях до піддиректорії та ім'я файлу
 
@@ -30,7 +31,7 @@ public RecursiveDirectoryIterator::getSubPathname(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getSubPathname()****
+**Пример #1 Пример использования**getSubPathname()\*\*\*\*
 
 ```php
 $directory = '/tmp';
@@ -43,7 +44,7 @@ $directory = '/tmp';
       }
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Имя файла: fruit/apple.xml
@@ -58,5 +59,5 @@ $directory = '/tmp';
 
 ### Дивіться також
 
--   [RecursiveDirectoryIterator::getSubPath()](recursivedirectoryiterator.getsubpath.md) - Повертає шлях до піддиректорії
--   [RecursiveDirectoryIterator::key()](recursivedirectoryiterator.key.md) - Повертає шлях та ім'я файлу поточного елемента
+-   [RecursiveDirectoryIterator::getSubPath()](recursivedirectoryiterator.getsubpath.md) \- Повертає шлях до піддиректорії
+-   [RecursiveDirectoryIterator::key()](recursivedirectoryiterator.key.md) \- Повертає шлях та ім'я файлу поточного елемента

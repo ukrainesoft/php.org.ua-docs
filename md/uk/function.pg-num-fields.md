@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-meta-data.md: « pgmetadata
-  - function.pg-num-rows.md: пгnumrows »
+  - function.pg-meta-data.md: « pg\_meta\_data
+  - function.pg-num-rows.md: pg\_num\_rows »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгnumfields
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_num\_fields
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгnumfields
+# pg\_num\_fields
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгnumfields — Повертає кількість полів у вибірці
+pg\_num\_fields — Повертає кількість полів у вибірці
 
 ### Опис
 
@@ -18,17 +19,17 @@ title: пгnumfields
 pg_num_fields(PgSql\Result $result): int
 ```
 
-**пгnumfields()** повертає кількість полів (стовпців) в екземплярі [PgSqlResult](class.pgsql-result.md)
+**pg\_num\_fields()** повертає кількість полів (стовпців) в екземплярі [PgSql\\Result](class.pgsql-result.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Раніше функція називалася **пгnumfields()**
+> Раніше функція називалася **pg\_numfields()**
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSql\\Result](class.pgsql-result.md), що повертається функціями [pg\_query()](function.pg-query.md) [pg\_query\_params()](function.pg-query-params.md) або [pg\_execute()](function.pg-execute.md)(среди прочего).
 
 ### Значення, що повертаються
 
@@ -36,13 +37,13 @@ pg_num_fields(PgSql\Result $result): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгnumfields()****
+**Пример #1 Пример использования**pg\_num\_fields()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ echo "Возвращено полей: " . $num . ".\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Возвращено полей: 2.
@@ -62,5 +63,5 @@ echo "Возвращено полей: " . $num . ".\n";
 
 ### Дивіться також
 
--   [пгnumrows()](function.pg-num-rows.md) - Повертає кількість рядків у вибірці
--   [пгaffectedrows()](function.pg-affected-rows.md) - Повертає кількість порушених запитом записів (кортежів)
+-   [pg\_num\_rows()](function.pg-num-rows.md) \- Повертає кількість рядків у вибірці
+-   [pg\_affected\_rows()](function.pg-affected-rows.md) \- Повертає кількість порушених запитом записів (кортежів)

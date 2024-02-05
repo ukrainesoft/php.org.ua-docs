@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: chgrp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # chgrp
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-chgrp — Змінює групу файлу
+chgrp — Змінює групу файлів
 
 ### Опис
 
@@ -18,7 +19,7 @@ chgrp — Змінює групу файлу
 chgrp(string $filename, string|int $group): bool
 ```
 
-Здійснює спробу зміни групи файлу `filename` на групу `group`
+Здійснює спробу зміни групи файлу `filename`на группу`group`
 
 Тільки суперкористувач може довільно змінювати групу файлу; Інші користувачі можуть змінювати групу файлу лише на ті групи, членами яких є.
 
@@ -34,7 +35,7 @@ chgrp(string $filename, string|int $group): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -59,5 +60,5 @@ printf($format, $filename, date('r'), filegroup($filename));
 
 ### Дивіться також
 
--   [chown()](function.chown.md) - Змінює власника файлу
--   [chmod()](function.chmod.md) - Змінює режим доступу до файлу
+-   [chown()](function.chown.md) \- Змінює власника файлу
+-   [chmod()](function.chmod.md) \- Змінює режим доступу до файлу

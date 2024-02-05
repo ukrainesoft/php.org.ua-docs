@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gc-collect-cycles.md: « gccollectcycles
-  - function.gc-enable.md: гкenable »
+  - function.gc-collect-cycles.md: « gc\_collect\_cycles
+  - function.gc-enable.md: gc\_enable »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: гкdisable
+title: gc\_disable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# гкdisable
+# gc\_disable
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-гкdisable — Вимикає збирач циклічних посилань
+gc\_disable — Вимикає збирач циклічних посилань
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: гкdisable
 gc_disable(): void
 ```
 
-Відключає збирач циклічних посилань шляхом встановлення значення [zend.enableгк](info.configuration.md#ini.zend.enable-gc) в `0`
+Відключає збирач циклічних посилань шляхом встановлення значення [zend.enable\_gc](info.configuration.md#ini.zend.enable-gc)в
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ gc_disable(): void
 
 ### Дивіться також
 
--   [Сборка мусора](features.gc.md)
+-   [Складання сміття](features.gc.md)

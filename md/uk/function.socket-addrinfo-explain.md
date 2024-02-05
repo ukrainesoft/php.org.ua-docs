@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.socket-addrinfo-connect.md: « socketaddrinfoconnect
-  - function.socket-addrinfo-lookup.md: socketaddrinfolookup »
+  - function.socket-addrinfo-connect.md: « socket\_addrinfo\_connect
+  - function.socket-addrinfo-lookup.md: socket\_addrinfo\_lookup »
   - index.md: PHP Manual
-  - ref.sockets.md: Функции сокета
-title: socketaddrinfoexplain
+  - ref.sockets.md: Опції сокету
+title: socket\_addrinfo\_explain
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# socketaddrinfoexplain
+# socket\_addrinfo\_explain
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-socketaddrinfoexplain — Отримати інформацію про addrinfo
+socket\_addrinfo\_explain — Отримати інформацію про addrinfo
 
 ### Опис
 
@@ -18,13 +19,13 @@ socketaddrinfoexplain — Отримати інформацію про addrinfo
 socket_addrinfo_explain(AddressInfo $address): array
 ```
 
-Функція **socketaddrinfoexplain()** надає доступ до базової структури `addrinfo`
+Функция\*\*socket\_addrinfo\_explain()\*\*предоставляет доступ к базовой структуре`addrinfo`
 
 ### Список параметрів
 
 `address`
 
-Екземпляр [AddressInfo](class.addressinfo.md), створений за допомогою [socketaddrinfolookup()](function.socket-addrinfo-lookup.md)
+Екземпляр [AddressInfo](class.addressinfo.md), створений за допомогою [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.md)
 
 ### Значення, що повертаються
 
@@ -32,12 +33,12 @@ socket_addrinfo_explain(AddressInfo $address): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `address` тепер екземпляр класу [AddressInfo](class.addressinfo.md); раніше був ресурсом (resource). |
+| 8.0.0 | `address` тепер екземпляр класу [AddressInfo](class.addressinfo.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
--   [socketaddrinfobind()](function.socket-addrinfo-bind.md) - Створити та прив'язати до сокету із вказаного addrinfo
--   [socketaddrinfoconnect()](function.socket-addrinfo-connect.md) - Створити та підключитися до сокету із зазначеного addrinfo
--   [socketaddrinfolookup()](function.socket-addrinfo-lookup.md) - Отримати масив з вмістом getaddrinfo про вказане ім'я хоста
+-   [socket\_addrinfo\_bind()](function.socket-addrinfo-bind.md) \- Створити та прив'язати до сокету із зазначеного addrinfo
+-   [socket\_addrinfo\_connect()](function.socket-addrinfo-connect.md) \- Створити та підключитися до сокету із зазначеного addrinfo
+-   [socket\_addrinfo\_lookup()](function.socket-addrinfo-lookup.md) \- Отримати масив з вмістом getaddrinfo про вказане ім'я хоста

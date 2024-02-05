@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::createElementNS'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::createElementNS
 
@@ -36,7 +37,7 @@ URI простір імен.
 
 ### Значення, що повертаються
 
-Новий об'єкт класу [DOMElement](class.domelement.md) або **`false`** у разі виникнення помилки.
+Новий об'єкт класу [DOMElement](class.domelement.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -66,7 +67,7 @@ echo $dom->saveXML();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -93,7 +94,7 @@ echo $item->localName, "\n";    // Выведет: item_type
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -108,13 +109,13 @@ item_type
 
 ### Дивіться також
 
--   [DOMNode::appendChild()](domnode.appendchild.md) - Додає новий дочірній вузол до кінця списку нащадків
--   [DOMDocument::createAttribute()](domdocument.createattribute.md) - Створити новий атрибут
--   [DOMDocument::createAttributeNS()](domdocument.createattributens.md) - Створює новий атрибут вузла з відповідним простором імен
--   [DOMDocument::createCDATASection()](domdocument.createcdatasection.md) - Створює новий вузол cdata
--   [DOMDocument::createComment()](domdocument.createcomment.md) - Створити новий вузол коментаря
--   [DOMDocument::createDocumentFragment()](domdocument.createdocumentfragment.md) - створити новий фрагмент документа
--   [DOMDocument::createElement()](domdocument.createelement.md) - Створити новий вузол елемента
--   [DOMDocument::createEntityReference()](domdocument.createentityreference.md) - Створити новий вузол посилання на суть
--   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.md) - Створити новий PI-вузол
--   [DOMDocument::createTextNode()](domdocument.createtextnode.md) - Створити новий текстовий вузол
+-   [DOMNode::appendChild()](domnode.appendchild.md) \- Додає новий дочірній вузол до кінця списку нащадків
+-   [DOMDocument::createAttribute()](domdocument.createattribute.md) \- Створює новий атрибут
+-   [DOMDocument::createAttributeNS()](domdocument.createattributens.md) \- Створює новий атрибут вузла з відповідним простором імен
+-   [DOMDocument::createCDATASection()](domdocument.createcdatasection.md) \- Створює новий вузол cdata
+-   [DOMDocument::createComment()](domdocument.createcomment.md) \- Створити новий вузол коментаря
+-   [DOMDocument::createDocumentFragment()](domdocument.createdocumentfragment.md) \- Створює новий фрагмент документа
+-   [DOMDocument::createElement()](domdocument.createelement.md) \- Створює новий вузол елемента
+-   [DOMDocument::createEntityReference()](domdocument.createentityreference.md) \- Створити новий вузол посилання на суть
+-   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.md) \- Створити новий PI-вузол
+-   [DOMDocument::createTextNode()](domdocument.createtextnode.md) \- Створити новий текстовий вузол

@@ -4,52 +4,41 @@ navigation:
   - mysqli.configuration.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - mysqli.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Модуль `mysqli` був представлений із версією PHP 5.0.0. MySQL Native Driver був включений до PHP версії 5.3.0.
+Модуль`mysqli` був представлений із версією PHP 5.0.0. MySQL Native Driver був включений до PHP версії 5.3.0.
 
 ## Установка для Linux
 
 Більшість дистрибутивів Unix включає бінарні версії PHP, які надалі можуть бути встановлені. Незважаючи на те, що бінарні версії, як правило, зібрані з увімкненою підтримкою модулів MySQL, може знадобитися встановлення додаткових пакетів з бібліотеками модулів. Переконайтеся, що менеджер пакетів, що йде з вибраним дистрибутивом, дозволяє встановити такі пакети.
 
-Наприклад, на Ubuntu пакет `php5-mysql` встановлює модулі ext/mysql, ext/mysqli, та pdomysql. У CentOS пакет `php-mysql` також встановлює три ці модулі.
+К примеру, на Ubuntu пакет`php5-mysql` встановлює модулі ext/mysql, ext/mysqli та pdo\_mysql. В CentOS пакет`php-mysql` також встановлює три ці модулі.
 
 Звичайно, ви завжди можете зібрати PHP із вихідного коду. Складання PHP з вихідного коду дозволяє виділити тільки ті модулі MySQL (а також клієнтські бібліотеки для кожного з модулів), які потрібно використовувати.
 
-Рекомендується використовувати бібліотеку MySQL Native Driver, оскільки вона підвищує продуктивність та дає доступ до функцій, недоступних під час використання MySQL Client Library. Дивіться [Что такое MySQL Native Driver в PHP?](mysqli.overview.md#mysqli.overview.mysqlnd) для ознайомлення із можливостями MySQL Native Driver.
+Рекомендується використовувати бібліотеку MySQL Native Driver, оскільки вона підвищує продуктивність та дає доступ до функцій, недоступних під час використання MySQL Client Library. Дивіться [Що таке MySQL Native Driver у PHP?](mysqli.overview.md#mysqli.overview.mysqlnd) для ознайомлення із можливостями MySQL Native Driver.
 
-Під `/path/to/mysql_config` мається на увазі розташування програми `mysql_config`, що постачається разом з MySQL Server.
+Под`/path/to/mysql_config` мається на увазі розташування програми `mysql_config`, що постачається разом з MySQL Server.
 
 **Допоміжна таблиця часу компіляції mysqli**
 
 | Версия PHP | По умолчанию | Опции настройки: [mysqlnd](mysqlnd.overview.md) | Опции настройки: `libmysqlclient` | Список изменений |
 | --- | --- | --- | --- | --- |
-| 5.4.x і вище | mysqlnd | **\-with-mysqli** | **\-with-mysqli=/path/to/mysqlconfig** | за замовчуванням mysqlnd |
-| 5.3.x | libmysqlclient | **\-with-mysqli=mysqlnd** | **\-with-mysqli=/path/to/mysqlconfig** | mysqlnd підтримується |
-| 5.0.x, 5.1.x, 5.2.x | libmysqlclient | Недоступно | **\-with-mysqli=/path/to/mysqlconfig** | mysqlnd не підтримується |
+| 5.4.x і вище | mysqlnd | **\--with-mysqli** | **\--with-mysqli=/path/to/mysql\_config** | за замовчуванням mysqlnd |
+| 5.3.x | libmysqlclient | **\--with-mysqli=mysqlnd** | **\--with-mysqli=/path/to/mysql\_config** | mysqlnd підтримується |
+| 5.0.x, 5.1.x, 5.2.x | libmysqlclient | Недоступно | **\--with-mysqli=/path/to/mysql\_config** | mysqlnd не підтримується |
 
 Існує можливість вільно перемішувати модулі MySQL і клієнтські бібліотеки. Наприклад, можна активувати модуль MySQL, що дозволяє використовувати MySQL Client Library (libmysqlclient), і при цьому налаштувати модуль `mysqli` для використання MySQL Native Driver. Таким чином, можливі будь-які перестановки модулів та клієнтських бібліотек.
 
 ## Установка для Windows
 
-Для Windows PHP зазвичай встановлюється за допомогою інсталятора.
+У Windows DLL php\_mysqli.dll повинен бути включений до php.ini.
 
-## PHP 5.3.0 і новіший
+Як і при включенні будь-якого модуля PHP (наприклад, php\_mysqli.dll), директива PHP[extension\_dir](ini.core.md#ini.extension-dir) повинна встановлювати каталог, у якому перебувають модулі PHP. Дивіться також розділ про [самостійної установки PHP у Windows](install.windows.manual.md)Пример значения`extension_dir`\- c:\\php\\ext.
 
-У Windows для PHP версії 5.3 і вище модуль `mysqli` включений та використовує MySQL Native Driver за замовчуванням. Це означає, що вам не потрібно турбуватися про налаштування доступу до libmysql.dll.
-
-## PHP 5.0, 5.1, 5.2
-
-Для старих, непідтримуваних версій PHP (PHP 5.2 не підтримується з 6 січня 2011 року), необхідно зробити налаштування для увімкнення модуля `mysqli` та визначення використовуваної ним клієнтської бібліотеки.
-
-Модуль `mysqli` не ввімкнено за замовчуванням, тому в php.ini необхідно вказати файл DLL phpmysqli.dll. Для цього вам необхідно знайти файл php.ini (зазвичай розташований у c:php) і переконатися, що ви зняли знак коментування (";") на початку рядка `extension=php_mysqli.dll`, в розділі `[PHP_MYSQLI]`
-
-Також, якщо ви хочете використовувати MySQL Client Library з `mysqli`Вам необхідно переконатися, що PHP може отримати доступ до файлу клієнтської бібліотеки. MySQL Client Library включений до дистрибутиву Windows PHP у вигляді файлу libmysql.dll. Цей файл повинен бути доступний у змінному оточенні Windows PATH для того, щоб його можна було успішно завантажити. За посиланням "[Як мені додати мою PHP директорію у Windows PATH](faq.installation.md#faq.installation.addtopath)" знаходиться стаття з інформацією про те, як це зробити. Якщо системна директорія Windows прописана в PATH, то можна скопіювати libmysql.dll в системну директорію Windows (зазвичай c:Windowsсистема). Однак такий шлях не рекомендується.
-
-При включенні будь-якого модуля PHP (наприклад, phpmysqli.dll), директива PHP [extensiondir](ini.core.md#ini.extension-dir) повинна містити шлях до директорії, де є модулі PHP. Дивіться також [Інструкції з самостійної установки для Windows](install.windows.manual.md). Наприклад, у PHP 5 значенням `extension_dir` є c:phpext.
-
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо під час завантаження сервера з'являється таке повідомлення: `"Unable to load dynamic library './php_mysqli.dll'"`система не може знайти файли phpmysqli.dll та/або libmysql.dll.
+> Якщо під час запуску веб-сервера виникає помилка, подібна до наступної: `"Unable to load dynamic library './php_mysqli.dll'"`це відбувається тому, що файл php\_mysqli.dll не може бути знайдено системою.

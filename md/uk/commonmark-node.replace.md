@@ -1,16 +1,17 @@
 ---
 navigation:
-  - commonmark-node.insertbefore.md: '« CommonMarkNode::insertBefore'
-  - commonmark-node.unlink.md: 'CommonMarkNode::unlink »'
+  - commonmark-node.insertbefore.md: '« CommonMark\\Node::insertBefore'
+  - commonmark-node.unlink.md: 'CommonMark\\Node::unlink »'
   - index.md: PHP Manual
-  - class.commonmark-node.md: CommonMarkNode
-title: 'CommonMarkNode::replace'
+  - class.commonmark-node.md: CommonMark\\Node
+title: 'CommonMark\\Node::replace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkNode::replace
+# CommonMark\\Node::replace
 
 (cmark >= 1.0.0)
 
-CommonMarkNode::replace — Маніпуляції з AST (Абстрактне синтаксичне дерево)
+CommonMark\\Node::replace — Маніпуляції з AST (Абстрактне синтаксичне дерево)
 
 ### Опис
 
@@ -20,7 +21,7 @@ public CommonMark\Node::replace(CommonMark\Node $target): CommonMark\Node
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

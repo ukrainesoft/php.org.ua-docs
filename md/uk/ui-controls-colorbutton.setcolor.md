@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-colorbutton.onchange.md: '« UIControlsColorButton::onChange'
-  - class.ui-controls-label.md: ОЙControlsLabel »
+  - ui-controls-colorbutton.onchange.md: '« UI\\Controls\\ColorButton::onChange'
+  - class.ui-controls-label.md: UI\\Controls\\Label »
   - index.md: PHP Manual
-  - class.ui-controls-colorbutton.md: ОЙControlsColorButton
-title: 'ОЙControlsColorButton::setColor'
+  - class.ui-controls-colorbutton.md: UI\\Controls\\ColorButton
+title: 'UI\\Controls\\ColorButton::setColor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsColorButton::setColor
+# UI\\Controls\\ColorButton::setColor
 
 (UI 0.9.9)
 
-ОЙControlsColorButton::setColor — Встановити об'єкт Color
+UI\\Controls\\ColorButton::setColor — Встановити об'єкт Color
 
 ### Опис
 

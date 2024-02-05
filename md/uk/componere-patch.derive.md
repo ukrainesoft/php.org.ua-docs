@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-patch.isapplied.md: '« ComponerePatch::isApplied'
-  - componere-patch.getclosure.md: 'ComponerePatch::getClosure »'
+  - componere-patch.isapplied.md: '« Componere\\Patch::isApplied'
+  - componere-patch.getclosure.md: 'Componere\\Patch::getClosure »'
   - index.md: PHP Manual
-  - class.componere-patch.md: ComponerePatch
-title: 'ComponerePatch::derive'
+  - class.componere-patch.md: Componere\\Patch
+title: 'Componere\\Patch::derive'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponerePatch::derive
+# Componere\\Patch::derive
 
 (Componere 2 >= 2.1.1)
 
-ComponerePatch::derive — Отримання патчу
+Componere\\Patch::derive — Отримання патчу
 
 ### Опис
 
@@ -28,7 +29,7 @@ public Componere\Patch::derive(object $instance): Patch
 
 ### Значення, що повертаються
 
-Patch для `instance` виходить з поточного Patch
+Patch для`instance` виходить з поточного Patch
 
 ### Винятки
 

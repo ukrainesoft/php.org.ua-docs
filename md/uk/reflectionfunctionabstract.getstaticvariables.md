@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getStaticVariables'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getStaticVariables
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getStaticVariables — Отримує статичні змінні
 
@@ -30,4 +31,4 @@ public ReflectionFunctionAbstract::getStaticVariables(): array
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md) - Отримує параметри
+-   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md) \- Отримує параметри

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-set-call-timout.md: « ocisetcalltimeout
-  - function.oci-set-client-info.md: ocisetclientinfo »
+  - function.oci-set-call-timout.md: « oci\_set\_call\_timeout
+  - function.oci-set-client-info.md: oci\_set\_client\_info »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocisetclientidentifier
+  - ref.oci8.md: OCI8 Функції
+title: oci\_set\_client\_identifier
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocisetclientidentifier
+# oci\_set\_client\_identifier
 
-(PHP 5> = 5.3.2, PHP 7, PHP 8, PECL OCI8> = 1.4.0)
+(PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL OCI8 >= 1.4.0)
 
-ocisetclientidentifier — Вказує ідентифікатор клієнта
+oci\_set\_client\_identifier — Вказує ідентифікатор клієнта
 
 ### Опис
 
@@ -30,7 +31,7 @@ oci_set_client_identifier(resource $connection, string $client_id): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md), або [ocinewconnect()](function.oci-new-connect.md)
+Ідентифікатор з'єднання Oracle, що повертається [oci\_connect()](function.oci-connect.md) [oci\_pconnect()](function.oci-pconnect.md), или[oci\_new\_connect()](function.oci-new-connect.md)
 
 `client_id`
 
@@ -38,7 +39,7 @@ oci_set_client_identifier(resource $connection, string $client_id): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -74,7 +75,7 @@ oci_execute($s);
 
 ### Дивіться також
 
--   [ocisetmodulename()](function.oci-set-module-name.md) - Задає ім'я модулю
--   [ocisetaction()](function.oci-set-action.md) - Вказує ім'я для дії
--   [ocisetclientinfo()](function.oci-set-client-info.md) - Задає інформацію про клієнта
--   [ocisetдбoperation()](function.oci-set-db-operation.md) - Задає операцію бази даних
+-   [oci\_set\_module\_name()](function.oci-set-module-name.md) \- Задає ім'я модулю
+-   [oci\_set\_action()](function.oci-set-action.md) \- Вказує ім'я для дії
+-   [oci\_set\_client\_info()](function.oci-set-client-info.md) \- Задає інформацію про клієнта
+-   [oci\_set\_db\_operation()](function.oci-set-db-operation.md) \- Задає операцію бази даних

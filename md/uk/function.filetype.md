@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: filetype
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # filetype
 
@@ -30,7 +31,7 @@ filetype(string $filename): string|false
 
 Повертає тип файлу. Можливими значеннями є fifo, char, dir, block, link, file, socket та unknown.
 
-Повертає **`false`** у разі виникнення помилки . **filetype()** також викликає помилку рівня \*\*`E_NOTICE`\*\*якщо системний виклик stat завершиться помилкою або тип файлу невідомий.
+Повертає **`false`**в случае возникновения ошибки**filetype()** також викликає помилку рівня \*\*`E_NOTICE`\*\*якщо системний виклик stat завершиться помилкою або тип файлу невідомий.
 
 ### Помилки
 
@@ -38,15 +39,22 @@ filetype(string $filename): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **filetype()****
+**Пример #1 Пример использования функции**filetype()\*\*\*\*
 
 ```php
 <?php
 
-echo filetype('/etc/passwd');  // file
-echo filetype('/etc/');        // dir
-
+echo filetype('/etc/passwd');
+echo "\n";
+echo filetype('/etc/');
 ?>
+```
+
+Результат виконання наведеного прикладу:
+
+```
+file
+dir
 ```
 
 ### Примітки
@@ -55,14 +63,14 @@ echo filetype('/etc/');        // dir
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), смотрите в разделе[Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 
--   [ісdir()](function.is-dir.md) - Визначає, чи є ім'я файлу директорією
--   [ісfile()](function.is-file.md) - Визначає, чи файл є звичайним файлом
--   [ісlink()](function.is-link.md) - Визначає, чи є файл символічним посиланням
--   [fileexists()](function.file-exists.md) - Перевіряє існування вказаного файлу чи каталогу
--   [mimecontenttype()](function.mime-content-type.md) - Визначає MIME-тип вмісту файлу
--   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу
--   [stat()](function.stat.md) - Повертає інформацію про файл
+-   [is\_dir()](function.is-dir.md) \- Визначає, чи є ім'я файлу директорією
+-   [is\_file()](function.is-file.md) \- Визначає, чи файл є звичайним файлом
+-   [is\_link()](function.is-link.md) \- Визначає, чи є файл символічним посиланням
+-   [file\_exists()](function.file-exists.md) \- Перевіряє існування вказаного файлу чи каталогу
+-   [mime\_content\_type()](function.mime-content-type.md) \- Визначає MIME-тип вмісту файлу
+-   [pathinfo()](function.pathinfo.md) \- Повертає інформацію про шлях до файлу
+-   [stat()](function.stat.md) \- Повертає інформацію про файл

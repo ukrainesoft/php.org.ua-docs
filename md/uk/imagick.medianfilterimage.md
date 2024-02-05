@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::medianFilterImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::medianFilterImage
 
@@ -40,7 +41,7 @@ public Imagick::medianFilterImage(float $radius): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::medianFilterImage()****
+**Пример #1 Пример использования**Imagick::medianFilterImage()\*\*\*\*
 
 ```php
 <?php

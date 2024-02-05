@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.vtiful-kernel-format.md: « VtifulKernelFormat
-  - vtiful-kernel-format.bold.md: 'VtifulKernelFormat::bold »'
+  - class.vtiful-kernel-format.md: « Vtiful\\Kernel\\Format
+  - vtiful-kernel-format.bold.md: 'Vtiful\\Kernel\\Format::bold »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-format.md: VtifulKernelFormat
-title: 'VtifulKernelFormat::align'
+  - class.vtiful-kernel-format.md: Vtiful\\Kernel\\Format
+title: 'Vtiful\\Kernel\\Format::align'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelFormat::align
+# Vtiful\\Kernel\\Format::align
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelFormat::align — Вирівнювання
+Vtiful\\Kernel\\Format::align — Вирівнювання
 
 ### Опис
 
@@ -28,7 +29,7 @@ public Vtiful\Kernel\Format::align(resource $handle, int $style)
 
 `style`
 
-Константа [VtifulKernelFormat](class.vtiful-kernel-format.md)
+Константа[Vtiful\\Kernel\\Format](class.vtiful-kernel-format.md)
 
 ### Значення, що повертаються
 

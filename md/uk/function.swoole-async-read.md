@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.swoole-async-dns-lookup.md: « swooleasyncdnslookup
-  - function.swoole-async-readfile.md: swooleasyncreadfile »
+  - function.swoole-async-dns-lookup.md: « swoole\_async\_dns\_lookup
+  - function.swoole-async-readfile.md: swoole\_async\_readfile »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swooleasyncread
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_async\_read
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swooleasyncread
+# swoole\_async\_read
 
 (PECL swoole >= 1.9.0)
 
-swooleasyncread — Асинхронне читання потоку файлу
+swoole\_async\_read — Асинхронне читання потоку файлу
 
 ### Опис
 
 ```methodsynopsis
-swoole_async_read(    string $filename,    callable $callback,    int $chunk_size = 65536,    int $offset = 0): bool
+swoole_async_read(    string $filename,    callable $callback,    int $chunk_size = 65536,    int $offset = 0): bool
 ```
 
 ### Список параметрів

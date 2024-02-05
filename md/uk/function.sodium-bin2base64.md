@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-base642bin.md: « sodiumbase642bin
-  - function.sodium-bin2hex.md: sodiumbin2hex »
+  - function.sodium-base642bin.md: « sodium\_base642bin
+  - function.sodium-bin2hex.md: sodium\_bin2hex »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumbin2base64
+  - ref.sodium.md: Опції Sodium
+title: sodium\_bin2base64
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumbin2base64
+# sodium\_bin2base64
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumbin2base64 — Кодує необроблений двійковий рядок за допомогою base64
+sodium\_bin2base64 — Кодує необроблений двійковий рядок за допомогою base64
 
 ### Опис
 
@@ -18,7 +19,7 @@ sodiumbin2base64 — Кодує необроблений двійковий ря
 sodium_bin2base64(string $string, int $id): string
 ```
 
-Перетворює необроблений двійковий рядок у рядок у кодуванні base64. На відміну від [base64encode()](function.base64-encode.md) **sodiumbin2base64()** є постійною за часом (властивість, яка важлива для будь-якого коду, що стосується криптографічних вхідних даних, таких як прості тексти або ключі), і підтримує кілька наборів символів.
+Перетворює необроблений двійковий рядок у рядок у кодуванні base64. На відміну від функції [base64\_encode()](function.base64-encode.md), функция**sodium\_bin2base64()** постійна за часом (властивість, яка важлива для будь-якого коду, що стосується криптографічних вхідних даних, таких як прості тексти або ключі), і підтримує кілька наборів символів.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ sodium_bin2base64(string $string, int $id): string
 
 `id`
 
--   **`SODIUM_BASE64_VARIANT_ORIGINAL`** для стандартного (`A-Za-z0-9/\+`) Кодування Base64.
--   **`SODIUM_BASE64_VARIANT_ORIGINAL_NO_PADDING`** for standard (`A-Za-z0-9/\+`) Кодування Base64 без додаткових символів `=`
--   **`SODIUM_BASE64_VARIANT_URLSAFE`** для URL-безпечного (`A-Za-z0-9\-_`) Кодування Base64.
--   **`SODIUM_BASE64_VARIANT_URLSAFE_NO_PADDING`** для URL-безпечного (`A-Za-z0-9\-_`) Кодування Base64 без додаткових символів `=`
+-   \*\*`SODIUM_BASE64_VARIANT_ORIGINAL`\*\*для стандартного (`A-Za-z0-9/\+`) Кодування Base64.
+-   \*\*`SODIUM_BASE64_VARIANT_ORIGINAL_NO_PADDING`\*\*for standard (`A-Za-z0-9/\+`) Кодування Base64 без додаткових символів`=`
+-   \*\*`SODIUM_BASE64_VARIANT_URLSAFE`\*\*для URL-безпечного (`A-Za-z0-9\-_`) Кодування Base64.
+-   \*\*`SODIUM_BASE64_VARIANT_URLSAFE_NO_PADDING`\*\*для URL-безпечного (`A-Za-z0-9\-_`) Кодування Base64 без додаткових символів`=`
 
 ### Значення, що повертаються
 
-Рядок у кодуванні Base64.
+Повертає рядок у кодуванні Base64.

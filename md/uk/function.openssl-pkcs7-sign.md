@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.openssl-pkcs7-read.md: « opensslpkcs7read
-  - function.openssl-pkcs7-verify.md: opensslpkcs7verify »
+  - function.openssl-pkcs7-read.md: « openssl\_pkcs7\_read
+  - function.openssl-pkcs7-verify.md: openssl\_pkcs7\_verify »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslpkcs7sign
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_pkcs7\_sign
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslpkcs7sign
+# openssl\_pkcs7\_sign
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-opensslpkcs7sign — Підписати повідомлення S/MIME
+openssl\_pkcs7\_sign — Підписати повідомлення S/MIME
 
 ### Опис
 
 ```methodsynopsis
-openssl_pkcs7_sign(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    ?array $headers,    int $flags = PKCS7_DETACHED,    ?string $untrusted_certificates_filename = null): bool
+openssl_pkcs7_sign(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    ?array $headers,    int $flags = PKCS7_DETACHED,    ?string $untrusted_certificates_filename = null): bool
 ```
 
-**opensslpkcs7sign()** бере вміст файлу `input_filename` та підписує його з використанням сертифіката `certificate` та закритого ключа `private_key`
+**openssl\_pkcs7\_sign()** бере вміст файлу `input_filename` та підписує його з використанням сертифіката `certificate` та закритого ключа `private_key`
 
 ### Список параметрів
 
@@ -32,15 +33,15 @@ openssl_pkcs7_sign(    string $input_filename,    string $output_filename,    Op
 
 `certificate`
 
-Сертифікат X.509, який буде використаний для підпису `input_filename`. Дивіться [параметри ключа/сертифіката](openssl.certparams.md)
+Сертифікат X.509, який буде використаний для підпису `input_filename`Смотрите[параметри ключа/сертифіката](openssl.certparams.md)
 
 `private_key`
 
-`private_key` задається секретним ключем, що відповідає сертифікату (`certificate`). Дивіться [параметри відкритого/секретного ключа](openssl.certparams.md)
+`private_key` задається секретним ключем, що відповідає сертифікату (`certificate`). Смотрите[параметри відкритого/секретного ключа](openssl.certparams.md)
 
 `headers`
 
-`headers` задається масивом заголовків, які будуть додані на початок даних після підписання. (дивіться [opensslpkcs7encrypt()](function.openssl-pkcs7-encrypt.md) для отримання додаткової інформації про формат цього параметра).
+`headers` задається масивом заголовків, які будуть додані на початок даних після підписання. (дивіться [openssl\_pkcs7\_encrypt()](function.openssl-pkcs7-encrypt.md) для отримання додаткової інформації про формат цього параметра).
 
 `flags`
 
@@ -52,18 +53,18 @@ openssl_pkcs7_sign(    string $input_filename,    string $output_filename,    Op
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` ор `OpenSSL X.509 CSR` |
+| 8.0.0 | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL X.509 CSR` |
+| 8.0.0 | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL key`or`OpenSSL X.509 CSR` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslpkcs7sign()****
+**Пример #1 Пример использования**openssl\_pkcs7\_sign()\*\*\*\*
 
 ```php
 <?php

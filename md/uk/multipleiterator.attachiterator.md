@@ -1,14 +1,15 @@
 ---
 navigation:
   - class.multipleiterator.md: « MultipleIterator
-  - multipleiterator.construct.md: 'MultipleIterator::construct »'
+  - multipleiterator.construct.md: 'MultipleIterator::\_\_construct »'
   - index.md: PHP Manual
   - class.multipleiterator.md: MultipleIterator
 title: 'MultipleIterator::attachIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # MultipleIterator::attachIterator
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 MultipleIterator::attachIterator — Приєднує ітератор
 
@@ -22,7 +23,7 @@ public MultipleIterator::attachIterator(Iterator $iterator, string|int|null $inf
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -40,8 +41,8 @@ public MultipleIterator::attachIterator(Iterator $iterator, string|int|null $inf
 
 ### Помилки
 
-**IlegallegalValueException**, якщо параметр `iterator` недійсний, або якщо `info` містить асоційовану інформацію.
+**IllegalValueException**, якщо параметр `iterator` недійсний, або якщо `info` містить асоційовану інформацію.
 
 ### Дивіться також
 
--   [MultipleIterator::construct()](multipleiterator.construct.md) - Створює новий MultipleIterator
+-   [MultipleIterator::\_\_construct()](multipleiterator.construct.md) \- Створює новий MultipleIterator

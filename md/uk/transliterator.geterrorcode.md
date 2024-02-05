@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.transliterator.md: Transliterator
 title: 'Transliterator::getErrorCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Transliterator::getErrorCode
 
-# transliteratorgeterrorcode
+# transliterator\_get\_error\_code
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-Transliterator::getErrorCode -- transliteratorgeterrorcode — Отримати код останньої помилки
+Transliterator::getErrorCode -- transliterator\_get\_error\_code — Отримати код останньої помилки
 
 ### Опис
 
@@ -32,7 +33,7 @@ transliterator_get_error_code(Transliterator $transliterator): int|false
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -40,9 +41,9 @@ transliterator_get_error_code(Transliterator $transliterator): int|false
 
 ### Значення, що повертаються
 
-Код помилки або \*\*`false`\*\*якщо помилок не було або якщо отримати його не вдалося.
+Код ошибки или\*\*`false`\*\*якщо помилок не було або якщо отримати його не вдалося.
 
 ### Дивіться також
 
--   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) - Отримати останнє повідомлення про помилку
--   [Transliterator::listIDs()](transliterator.listids.md) - Отримати ідентифікатори транслітератора
+-   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) \- Отримати останнє повідомлення про помилку
+-   [Transliterator::listIDs()](transliterator.listids.md) \- Отримати ідентифікатори транслітератора

@@ -4,9 +4,10 @@ navigation:
   - imagickpixeliterator.setiteratorfirstrow.md: 'ImagickPixelIterator::setIteratorFirstRow »'
   - index.md: PHP Manual
   - class.imagickpixeliterator.md: ImagickPixelIterator
-title: 'ImagickPixel Iterator::reset Iterator'
+title: 'ImagickPixelIterator::resetIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ImagickPixel Iterator::reset Iterator
+# ImagickPixelIterator::resetIterator
 
 (PECL imagick 2, PECL imagick 3)
 
@@ -20,7 +21,7 @@ public ImagickPixelIterator::resetIterator(): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Скидає ітератор пікселів. Використовуйте разом із ImagickPixelIterator::getNextIteratorRow() для перебору всіх пікселів у контейнері пікселів.
 
@@ -30,7 +31,7 @@ public ImagickPixelIterator::resetIterator(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickPixel Iterator::reset Iterator()****
+**Пример #1 Пример использования**ImagickPixelIterator::resetIterator()\*\*\*\*
 
 ```php
 <?php

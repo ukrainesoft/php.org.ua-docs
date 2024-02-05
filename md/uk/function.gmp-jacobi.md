@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-invert.md: « gmpinvert
-  - function.gmp-kronecker.md: gmpkronecker »
+  - function.gmp-invert.md: « gmp\_invert
+  - function.gmp-kronecker.md: gmp\_kronecker »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpjacobi
+title: gmp\_jacobi
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpjacobi
+# gmp\_jacobi
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpjacobi — Символ Якобі
+gmp\_jacobi — Символ Якобі
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpjacobi — Символ Якобі
 gmp_jacobi(GMP|int|string $num1, GMP|int|string $num2): int
 ```
 
-Обчислює [» Символ Якоби](http://primes.utm.edu/glossary/page.php?sort=JacobiSymbol) для чисел `num1` і `num2`. . `num2` має бути позитивним та непарним.
+Обчислює [» Символ Якобі](http://primes.utm.edu/glossary/page.php?sort=JacobiSymbol)для чисел`num1`и`num2`. . `num2` має бути позитивним та непарним.
 
 ### Список параметрів
 
@@ -34,11 +35,11 @@ gmp_jacobi(GMP|int|string $num1, GMP|int|string $num2): int
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.md)ю
+Об'єкт класу [GMP](class.gmp.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpjacobi()****
+**Пример #1 Пример использования**gmp\_jacobi()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo gmp_jacobi("2", "3") . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1
@@ -56,5 +57,5 @@ echo gmp_jacobi("2", "3") . "\n";
 
 ### Дивіться також
 
--   [gmpkronecker()](function.gmp-kronecker.md) - Символ Кронекера - Якобі
--   [gmplegendre()](function.gmp-legendre.md) - Символ Лежандра
+-   [gmp\_kronecker()](function.gmp-kronecker.md) \- Символ Кронекера - Якобі
+-   [gmp\_legendre()](function.gmp-legendre.md) \- Символ Лежандра

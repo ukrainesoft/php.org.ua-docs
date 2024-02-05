@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-tabledelete.md: « mysqlxdevapiTableDelete
-  - mysql-xdevapi-tabledelete.construct.md: 'TableDelete::construct »'
+  - class.mysql-xdevapi-tabledelete.md: « mysql\_xdevapi\\TableDelete
+  - mysql-xdevapi-tabledelete.construct.md: 'TableDelete::\_\_construct »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete
+  - class.mysql-xdevapi-tabledelete.md: mysql\_xdevapi\\TableDelete
 title: 'TableDelete::bind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableDelete::bind
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableDelete::bind(array $placeholder_values): mysql_xdevapi
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableDelete::bind()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableDelete::bind()\*\*\*\*
 
 ```php
 <?php

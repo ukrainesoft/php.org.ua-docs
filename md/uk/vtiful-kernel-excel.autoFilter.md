@@ -1,16 +1,17 @@
 ---
 navigation:
-  - vtiful-kernel-excel.addSheet.md: '« VtifulKernelExcel::addSheet'
-  - vtiful-kernel-excel.constMemory.md: 'VtifulKernelExcel::constMemory »'
+  - vtiful-kernel-excel.addSheet.md: '« Vtiful\\Kernel\\Excel::addSheet'
+  - vtiful-kernel-excel.constMemory.md: 'Vtiful\\Kernel\\Excel::constMemory »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.md: VtifulKernelExcel
-title: 'VtifulKernelExcel::autoFilter'
+  - class.vtiful-kernel-excel.md: Vtiful\\Kernel\\Excel
+title: 'Vtiful\\Kernel\\Excel::autoFilter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelExcel::autoFilter
+# Vtiful\\Kernel\\Excel::autoFilter
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelExcel::autoFilter — Додати автофільтр
+Vtiful\\Kernel\\Excel::autoFilter — Додати автофільтр
 
 ### Опис
 
@@ -28,7 +29,7 @@ public Vtiful\Kernel\Excel::autoFilter(string $scope)
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

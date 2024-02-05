@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecreatefromtga
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecreatefromtga
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 imagecreatefromtga — Створення нового зображення з файлу або URL
 
@@ -28,10 +29,10 @@ imagecreatefromtga(string $filename): GdImage|false
 
 ### Значення, що повертаються
 
-Повертає об'єкт зображення у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає об'єкт зображення у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс ([resource](language.types.resource.md) |

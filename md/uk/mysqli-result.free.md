@@ -1,22 +1,23 @@
 ---
 navigation:
-  - mysqli-result.field-seek.md: '« mysqliresult::fieldseek'
-  - mysqli-result.getiterator.md: 'mysqliresult::getIterator »'
+  - mysqli-result.field-seek.md: '« mysqli\_result::field\_seek'
+  - mysqli-result.getiterator.md: 'mysqli\_result::getIterator »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::free'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::free'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::free
+# mysqli\_result::free
 
-# mysqliresult::close
+# mysqli\_result::close
 
-# mysqliresult::freeresult
+# mysqli\_result::free\_result
 
-# mysqlifreeresult
+# mysqli\_free\_result
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliresult::free -- mysqliresult::close -- mysqliresult::freeresult -- mysqlifreeresult — Звільняє пам'ять, зайняту результатами запиту
+mysqli\_result::free -- mysqli\_result::close -- mysqli\_result::free\_result -- mysqli\_free\_result — Звільняє пам'ять, зайняту результатами запиту
 
 ### Опис
 
@@ -46,7 +47,7 @@ mysqli_free_result(mysqli_result $result): void
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
@@ -54,7 +55,7 @@ mysqli_free_result(mysqli_result $result): void
 
 ### Дивіться також
 
--   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
--   [mysqlistmtgetresult()](mysqli-stmt.get-result.md) - Отримує результат із підготовленого запиту у вигляді об'єкта mysqliresult
--   [mysqlistoreresult()](mysqli.store-result.md) - передає на клієнта результуючий набір останнього запиту
--   [mysqliuseresult()](mysqli.use-result.md) - Готує результуючий набір на сервері для використання
+-   [mysqli\_query()](mysqli.query.md) \- Виконує запит до бази даних
+-   [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md) \- Отримує результат із підготовленого запиту у вигляді об'єкта mysqli\_result
+-   [mysqli\_store\_result()](mysqli.store-result.md) \- передає на клієнта результуючий набір останнього запиту
+-   [mysqli\_use\_result()](mysqli.use-result.md) \- Готує результуючий набір на сервері для використання

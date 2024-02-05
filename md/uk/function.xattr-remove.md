@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xattr-list.md: « xattrlist
-  - function.xattr-set.md: xattrset »
+  - function.xattr-list.md: « xattr\_list
+  - function.xattr-set.md: xattr\_set »
   - index.md: PHP Manual
-  - ref.xattr.md: xattr Функции
-title: xattrremove
+  - ref.xattr.md: xattr Функції
+title: xattr\_remove
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xattrremove
+# xattr\_remove
 
 (PECL xattr >= 0.9.0)
 
-xattrremove — Видалення розширених атрибутів файлу
+xattr\_remove — Видалення розширених атрибутів файлу
 
 ### Опис
 
@@ -20,7 +21,7 @@ xattr_remove(string $filename, string $name, int $flags = 0): bool
 
 Ця функція видаляє розширений атрибут файлу.
 
-Розширені атрибути мають два різних простори імен: користувальницьке та кореневе (root). Користувальницький простір імен доступний для всіх користувачів, в той час як кореневе - тільки для користувачів з root-привілеями. За умовчанням xattr оперує в просторі імен, але ви можете змінити цю поведінку за допомогою аргументу `flags`
+У розширених атрибутів два простори імен: і кореневе (root). Користувальницький простір імен доступний для всіх користувачів, в той час як кореневе - тільки для користувачів з root-привілеями. За умовчанням xattr оперує в просторі імен, але ви можете змінити цю поведінку за допомогою аргументу `flags`
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ xattr_remove(string $filename, string $name, int $flags = 0): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -57,6 +58,6 @@ foreach ($attributes as $attr_name) {
 
 ### Дивіться також
 
--   [xattrlist()](function.xattr-list.md) - Перегляд списку розширених атрибутів файлу
--   [xattrset()](function.xattr-set.md) - Встановлення розширених атрибутів файлу
--   [xattrget()](function.xattr-get.md) - Отримання розширених атрибутів файлу
+-   [xattr\_list()](function.xattr-list.md) \- Перегляд списку розширених атрибутів файлу
+-   [xattr\_set()](function.xattr-set.md) \- Встановлення розширених атрибутів файлу
+-   [xattr\_get()](function.xattr-get.md) \- Отримання розширених атрибутів файлу

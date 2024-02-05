@@ -1,28 +1,29 @@
 ---
 navigation:
-  - ref.pcre.md: « Функции PCRE
-  - function.preg-grep.md: preggrep »
+  - ref.pcre.md: « Функції PCRE
+  - function.preg-grep.md: preg\_grep »
   - index.md: PHP Manual
-  - ref.pcre.md: Функции PCRE
-title: pregfilter
+  - ref.pcre.md: Функції PCRE
+title: preg\_filter
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pregfilter
+# preg\_filter
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-pregfilter — Здійснює пошук та заміну за регулярним виразом
+preg\_filter — Здійснює пошук та заміну за регулярним виразом
 
 ### Опис
 
 ```methodsynopsis
-preg_filter(    string|array $pattern,    string|array $replacement,    string|array $subject,    int $limit = -1,    int &$count = null): string|array|null
+preg_filter(    string|array $pattern,    string|array $replacement,    string|array $subject,    int $limit = -1,    int &$count = null): string|array|null
 ```
 
-Функція **pregfilter()** ідентична функції [pregreplace()](function.preg-replace.md) крім того, що повертає ті значення (можливо, перетворені), у яких знайдено збіг. Докладніше про роботу функції читайте у документації до [pregreplace()](function.preg-replace.md)
+Функция**preg\_filter()** ідентична функції [preg\_replace()](function.preg-replace.md) крім того, що повертає ті значення (можливо, перетворені), у яких знайдено збіг. Докладніше про роботу функції читайте у документації до [preg\_replace()](function.preg-replace.md)
 
 ### Список параметрів
 
-Параметри описані в документації для функції [pregreplace()](function.preg-replace.md)
+Параметри описані в документації для функції [preg\_replace()](function.preg-replace.md)
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ preg_filter(    string|array $pattern,    string|array $replacement,    string|a
 
 ### Приклади
 
-**Приклад #1 Приклад для порівняння функцій **pregfilter()** і [pregreplace()](function.preg-replace.md)**
+**Пример #1 Пример для сравнения функций**preg\_filter()**и[preg\_replace()](function.preg-replace.md)**
 
 ```php
 <?php
@@ -52,7 +53,7 @@ print_r(preg_replace($pattern, $replace, $subject));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 preg_filter возвращает
@@ -82,8 +83,8 @@ Array
 ### Дивіться також
 
 -   [Шаблони PCRE](pcre.pattern.md)
--   [pregquote()](function.preg-quote.md) - Екранує символи у регулярних виразах
--   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
--   [pregreplacecallback()](function.preg-replace-callback.md) - Виконує пошук за регулярним виразом та заміною з використанням callback-функції
--   [preggrep()](function.preg-grep.md) - Повертає масив входжень, які відповідають шаблону
--   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [preg\_quote()](function.preg-quote.md) \- Екранує символи у регулярних виразах
+-   [preg\_replace()](function.preg-replace.md) \- Виконує пошук та заміну за регулярним виразом
+-   [preg\_replace\_callback()](function.preg-replace-callback.md) \- Виконує пошук за регулярним виразом та заміною з використанням callback-функції
+-   [preg\_grep()](function.preg-grep.md) \- Повертає масив входжень, які відповідають шаблону
+-   [preg\_last\_error()](function.preg-last-error.md) \- Повертає код помилки виконання останнього регулярного вираження PCRE

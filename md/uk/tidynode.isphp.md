@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.tidynode.md: tidyNode
 title: 'tidyNode::isPhp'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidyNode::isPhp
 
@@ -86,7 +87,7 @@ function get_nodes($node) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 # php-узел #1

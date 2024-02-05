@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.ui-exception-invalidargumentexception.md: « UIExceptionInvalidArgumentException
+  - class.ui-exception-invalidargumentexception.md: « UI\\Exception\\InvalidArgumentException
   - faq.md: ЧАВО »
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: RuntimeException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RuntimeException
 
@@ -33,27 +34,27 @@ title: RuntimeException
 
     /* Наследуемые свойства */
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */

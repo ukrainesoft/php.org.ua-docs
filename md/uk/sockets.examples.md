@@ -1,10 +1,11 @@
 ---
 navigation:
-  - sockets.constants.md: « Обумовлені константи
-  - sockets.errors.md: Ошибки сокетів »
+  - sockets.constants.md: « Зумовлені константи
+  - sockets.errors.md: Помилки сокетів »
   - index.md: PHP Manual
   - book.sockets.md: Сокети
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

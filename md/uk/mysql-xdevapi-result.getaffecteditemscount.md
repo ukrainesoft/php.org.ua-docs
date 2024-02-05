@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-result.construct.md: '« Result::construct'
+  - mysql-xdevapi-result.construct.md: '« Result::\_\_construct'
   - mysql-xdevapi-result.getautoincrementvalue.md: 'Result::getAutoIncrementValue »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-result.md: mysqlxdevapiResult
+  - class.mysql-xdevapi-result.md: mysql\_xdevapi\\Result
 title: 'Result::getAffectedItemsCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Result::getAffectedItemsCount
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Result::getAffectedItemsCount(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiResult::getAffectedItemsCount()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Result::getAffectedItemsCount()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump( $res->getAffectedItemsCount() );
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(1)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-hex2bin.md: « sodiumhex2bin
-  - function.sodium-memcmp.md: sodiummemcmp »
+  - function.sodium-hex2bin.md: « sodium\_hex2bin
+  - function.sodium-memcmp.md: sodium\_memcmp »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumincrement
+  - ref.sodium.md: Опції Sodium
+title: sodium\_increment
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumincrement
+# sodium\_increment
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumincrement — Збільшити на одиницю велике число
+sodium\_increment — Збільшити на одиницю велике число
 
 ### Опис
 

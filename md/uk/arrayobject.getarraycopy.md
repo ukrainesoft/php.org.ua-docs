@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::getArrayCopy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::getArrayCopy
 
@@ -30,24 +31,24 @@ public ArrayObject::getArrayCopy(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::getArrayCopy()****
+**Пример #1 Пример использования**ArrayObject::getArrayCopy()\*\*\*\*
 
 ```php
 <?php
-// Масив с количеством фруктов
+// Массив с количеством фруктов
 $fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
 $fruitsArrayObject = new ArrayObject($fruits);
 $fruitsArrayObject['pears'] = 4;
 
-// Создать копию Масива
+// Создать копию массива
 $copy = $fruitsArrayObject->getArrayCopy();
 print_r($copy);
 
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array

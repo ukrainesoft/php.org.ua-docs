@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-session.isdirty.md: '« MongoDBDriverSession::isDirty'
-  - mongodb-driver-session.starttransaction.md: 'MongoDBDriverSession::startTransaction »'
+  - mongodb-driver-session.isdirty.md: '« MongoDB\\Driver\\Session::isDirty'
+  - mongodb-driver-session.starttransaction.md: 'MongoDB\\Driver\\Session::startTransaction »'
   - index.md: PHP Manual
-  - class.mongodb-driver-session.md: MongoDBDriverSession
-title: 'MongoDBDriverSession::isInTransaction'
+  - class.mongodb-driver-session.md: MongoDB\\Driver\\Session
+title: 'MongoDB\\Driver\\Session::isInTransaction'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverSession::isInTransaction
+# MongoDB\\Driver\\Session::isInTransaction
 
 (mongodb >=1.6.0)
 
-MongoDBDriverSession::isInTransaction — Визначає, чи відбувається багатодокументна транзакція.
+MongoDB\\Driver\\Session::isInTransaction — Визначає, чи відбувається багатодокументна транзакція.
 
 ### Опис
 
@@ -26,12 +27,12 @@ final public MongoDB\Driver\Session::isInTransaction(): boolean
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`**
+Повертає **`true`**или**`false`**
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverSession::getTransactionState()](mongodb-driver-session.gettransactionstate.md) - Повертає статус транзакції для поточної сесії
+-   [MongoDB\\Driver\\Session::getTransactionState()](mongodb-driver-session.gettransactionstate.md) \- Повертає статус транзакції для поточної сесії

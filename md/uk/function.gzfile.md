@@ -3,8 +3,9 @@ navigation:
   - function.gzeof.md: « gzeof
   - function.gzgetc.md: gzgetc »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzfile
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzfile
 
@@ -18,7 +19,7 @@ gzfile — Зчитує весь gz-файл у масив
 gzfile(string $filename, int $use_include_path = 0): array|false
 ```
 
-Аналогічна [readgzfile()](function.readgzfile.md), За винятком того, що вона повертає файл у масиві.
+Аналогична[readgzfile()](function.readgzfile.md), За винятком того, що вона повертає файл у масиві.
 
 ### Список параметрів
 
@@ -28,15 +29,15 @@ gzfile(string $filename, int $use_include_path = 0): array|false
 
 `use_include_path`
 
-Якщо ви хочете, щоб також перевірялася наявність файлу в директоріях [includepath](ini.core.md#ini.include-path), встановіть значення цього параметра в `1`
+Якщо ви хочете, щоб також перевірялася наявність файлу в директоріях [include\_path](ini.core.md#ini.include-path), встановіть значення цього параметра в
 
 ### Значення, що повертаються
 
-Масив рядків файлу, у кожному елементі масиву знаходиться один рядок, порожні рядки включаються, а перенесення рядків, як і раніше, додаються або **`false`** у разі виникнення помилки.
+Масив рядків файлу, у кожному елементі масиву знаходиться один рядок, порожні рядки включаються, а перенесення рядків, як і раніше, додаються або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gzfile()****
+**Пример #1 Пример использования**gzfile()\*\*\*\*
 
 ```php
 <?php
@@ -49,5 +50,5 @@ foreach ($lines as $line) {
 
 ### Дивіться також
 
--   [readgzfile()](function.readgzfile.md) - Виводить вміст gz-файлу
--   [gzopen()](function.gzopen.md) - Відкрити gz-файл
+-   [readgzfile()](function.readgzfile.md) \- Виводить вміст gz-файлу
+-   [gzopen()](function.gzopen.md) \- Відкрити gz-файл

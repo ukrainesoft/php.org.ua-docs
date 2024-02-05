@@ -1,10 +1,11 @@
 ---
 navigation:
-  - zookeeper.construct.md: '« Zookeeper::construct'
+  - zookeeper.construct.md: '« Zookeeper::\_\_construct'
   - zookeeper.delete.md: 'Zookeeper::delete »'
   - index.md: PHP Manual
   - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::create'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zookeeper::create
 
@@ -16,10 +17,10 @@ Zookeeper::create — Створює синхронно вузол.
 
 ```methodsynopsis
 public
-   Zookeeper::create(    string $path,    string $value,    array $acls,    int $flags = null): string
+   Zookeeper::create(    string $path,    string $value,    array $acls,    int $flags = null): string
 ```
 
-Метод створить вузол у ZooKeeper. Вузол може бути створений тільки в тому випадку, якщо він ще не існує. Прапори створення впливають створення вузлів. Якщо встановлено прапор ZOOEPHEMERAL, вузол автоматично видаляється, якщо сеанс клієнта завершується. Якщо встановлено прапор ZOOSEQUENCE, до імені шляху додається унікальний порядковий номер, що монотонно збільшується.
+Метод створить вузол у ZooKeeper. Вузол може бути створений тільки в тому випадку, якщо він ще не існує. Прапори створення впливають створення вузлів. Якщо встановлено прапор ZOO\_EPHEMERAL, вузол автоматично видаляється, якщо сеанс клієнта завершується. Якщо встановлено прапор ZOO\_SEQUENCE, до імені шляху додається унікальний порядковий номер, що монотонно збільшується.
 
 ### Список параметрів
 
@@ -41,7 +42,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає шлях нового вузла (він може відрізнятись від зазначеного шляху через прапор ZOOSEQUENCE) у разі успішного виконання та false у разі виникнення помилки.
+Повертає шлях нового вузла (він може відрізнятись від зазначеного шляху через прапор ZOO\_SEQUENCE) у разі успішного виконання та false у разі виникнення помилки.
 
 ### Помилки
 
@@ -53,7 +54,7 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Zookeeper::create()****
+**Пример #1 Пример использования**Zookeeper::create()\*\*\*\*
 
 Створення нового вузла.
 
@@ -76,7 +77,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 /path/to/newnode
@@ -84,7 +85,7 @@ else
 
 ### Дивіться також
 
--   [Zookeeper::delete()](zookeeper.delete.md) - Видаляє синхронно вузол у zookeeper
--   [Zookeeper::getChildren()](zookeeper.getchildren.md) - Виводить список нащадків вузла синхронно
--   [Разрешения ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
+-   [Zookeeper::delete()](zookeeper.delete.md) \- Видаляє синхронно вузол у zookeeper
+-   [Zookeeper::getChildren()](zookeeper.getchildren.md) \- Виводить список нащадків вузла синхронно
+-   [Дозволи ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
 -   [ZookeeperException](class.zookeeperexception.md)

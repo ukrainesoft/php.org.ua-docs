@@ -4,13 +4,14 @@ navigation:
   - syncsharedmemory.first.md: 'SyncSharedMemory::first »'
   - index.md: PHP Manual
   - class.syncsharedmemory.md: SyncSharedMemory
-title: 'SyncSharedMemory::construct'
+title: 'SyncSharedMemory::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SyncSharedMemory::construct
+# SyncSharedMemory::\_\_construct
 
 (PECL sync >= 1.1.0)
 
-SyncSharedMemory::construct — Створення нового об'єкту SyncSharedMemory
+SyncSharedMemory::\_\_construct — Створення нового об'єкту SyncSharedMemory
 
 ### Опис
 
@@ -26,7 +27,7 @@ public SyncSharedMemory::__construct(string $name, int $size)
 
 Ім'я об'єкта пам'яті, що розділяється.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо ім'я вже існує, воно має бути доступним для відкриття поточним користувачем, від імені якого запущено процес, інакше буде викинуто виняток із безглуздим повідомленням про помилку.
 
@@ -34,7 +35,7 @@ public SyncSharedMemory::__construct(string $name, int $size)
 
 Розмір в байтах пам'яті, що розділяється, яку необхідно зарезервувати.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Об'єм пам'яті не може бути змінено пізніше. Запитайте достатньо місця для зберігання.
 
@@ -48,7 +49,7 @@ public SyncSharedMemory::__construct(string $name, int $size)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncSharedMemory::construct()****
+**Пример #1 Пример использования**SyncSharedMemory::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -66,7 +67,7 @@ $result = $mem->write(json_encode(array("name" => "my_report.txt")));
 
 ### Дивіться також
 
--   [SyncSharedMemory::first()](syncsharedmemory.first.md) - Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
--   [SyncSharedMemory::size()](syncsharedmemory.size.md) - Повертає розмір іменованої пам'яті, що розділяється
--   [SyncSharedMemory::write()](syncsharedmemory.write.md) - Копіює дані в іменовану пам'ять, що розділяється.
--   [SyncSharedMemory::read()](syncsharedmemory.read.md) - Копіює дані з іменованої пам'яті, що розділяється
+-   [SyncSharedMemory::first()](syncsharedmemory.first.md) \- Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
+-   [SyncSharedMemory::size()](syncsharedmemory.size.md) \- Повертає розмір іменованої пам'яті, що розділяється
+-   [SyncSharedMemory::write()](syncsharedmemory.write.md) \- Копіює дані в іменовану пам'ять, що розділяється.
+-   [SyncSharedMemory::read()](syncsharedmemory.read.md) \- Копіює дані з іменованої пам'яті, що розділяється

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splpriorityqueue.md: SplPriorityQueue
 title: 'SplPriorityQueue::isCorrupted'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplPriorityQueue::isCorrupted
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplPriorityQueue::isCorrupted — Вказує, чи є пріоритетна черга у пошкодженому стані
 

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - tokenizer.constants.md: « Обумовлені константи
+  - tokenizer.constants.md: « Зумовлені константи
   - class.phptoken.md: PhpToken »
   - index.md: PHP Manual
   - book.tokenizer.md: Лексер (Tokenizer)
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -22,7 +23,7 @@ foreach ($tokens as $token) {
        // простая однабуквенная лексема
        echo $token;
    } else {
-       // Масив с лексемой
+       // массив с лексемой
        list($id, $text) = $token;
 
        switch ($id) {

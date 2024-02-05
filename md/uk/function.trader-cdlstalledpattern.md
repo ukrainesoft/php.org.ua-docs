@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlspinningtop.md: « tradercdlspinningtop
-  - function.trader-cdlsticksandwich.md: tradercdlsticksandwich »
+  - function.trader-cdlspinningtop.md: « trader\_cdlspinningtop
+  - function.trader-cdlsticksandwich.md: trader\_cdlsticksandwich »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlstalledpattern
+  - ref.trader.md: Функції Trader
+title: trader\_cdlstalledpattern
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlstalledpattern
+# trader\_cdlstalledpattern
 
 (PECL trader >= 0.2.0)
 
-tradercdlstalledpattern - Гальмування
+trader\_cdlstalledpattern - Гальмування
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlstalledpattern(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlstalledpattern(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

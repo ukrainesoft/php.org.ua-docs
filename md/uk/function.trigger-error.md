@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.set-exception-handler.md: « setexceptionhandler
-  - function.user-error.md: usererror »
+  - function.set-exception-handler.md: « set\_exception\_handler
+  - function.user-error.md: user\_error »
   - index.md: PHP Manual
-  - ref.errorfunc.md: Функции обработки ошибок
-title: triggererror
+  - ref.errorfunc.md: Функції обробки помилок
+title: trigger\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# triggererror
+# trigger\_error
 
-(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.1, PHP 5, PHP 7, PHP 8)
 
-triggererror — Викликає помилку користувача/попередження/сповіщення
+trigger\_error — Викликає помилку користувача/попередження/сповіщення
 
 ### Опис
 
@@ -18,7 +19,7 @@ triggererror — Викликає помилку користувача/попе
 trigger_error(string $message, int $error_level = E_USER_NOTICE): bool
 ```
 
-Використовується для виклику помилок користувача. Можна використовувати у зв'язці з вбудованим обробником помилок, а також з обробником користувача, заданим функцією [seterrorhandler()](function.set-error-handler.md)
+Використовується для виклику помилок користувача. Можна використовувати у зв'язці з вбудованим обробником помилок, а також з обробником користувача, заданим функцією [set\_error\_handler()](function.set-error-handler.md)
 
 Ця функція може бути корисною, якщо потрібно згенерувати певну реакцію на виняток під час виконання.
 
@@ -30,17 +31,17 @@ trigger_error(string $message, int $error_level = E_USER_NOTICE): bool
 
 `error_level`
 
-Визначений тип помилки. Працює тільки з сімейством констант EUSER. За замовчуванням **`E_USER_NOTICE`**
+Визначений тип помилки. Працює тільки з сімейством констант E\_USER. По умолчанию\*\*`E_USER_NOTICE`\*\*
 
 ### Значення, що повертаються
 
-Функція повертає \*\*`false`\*\*якщо заданий неправильний `error_level`, і **`true`** в інших випадках.
+Функція повертає **`false`**якщо заданий неправильний `error_level`, и**`true`** в інших випадках.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **triggererror()****
+**Пример #1 Пример использования**trigger\_error()\*\*\*\*
 
-Докладніший приклад наведено в описі функції [seterrorhandler()](function.set-error-handler.md)
+Більш детальний приклад наведено в описі функції [set\_error\_handler()](function.set-error-handler.md)
 
 ```php
 <?php
@@ -54,11 +55,11 @@ if ($divisor == 0) {
 
 **Увага**
 
-HTML-сутності в `message` не екрановані. Щоб відобразити повідомлення у браузері, перетворіть його функцією [htmlentities()](function.htmlentities.md)
+HTML-сутності в `message` не екрановані. Щоб відобразити повідомлення у браузері, перетворіть його функцією [htmlentities()](function.mdentities.md)
 
 ### Дивіться також
 
--   [errorreporting()](function.error-reporting.md) - Задає, які помилки PHP потраплять у звіт
--   [seterrorhandler()](function.set-error-handler.md) - Задає користувальницький обробник помилок
--   [restoreerrorhandler()](function.restore-error-handler.md) - Відновлює попередній обробник помилок
+-   [error\_reporting()](function.error-reporting.md) \- Встановлює, які помилки PHP потраплять у звіт
+-   [set\_error\_handler()](function.set-error-handler.md) \- Задає користувальницький обробник помилок
+-   [restore\_error\_handler()](function.restore-error-handler.md) \- Відновлює попередній обробник помилок
 -   [Константи рівнів помилок](errorfunc.constants.md)

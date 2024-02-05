@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.ui-controls-button.md: « UIControlsButton
-  - ui-controls-button.gettext.md: 'ОЙControlsButton::getText »'
+  - class.ui-controls-button.md: « UI\\Controls\\Button
+  - ui-controls-button.gettext.md: 'UI\\Controls\\Button::getText »'
   - index.md: PHP Manual
-  - class.ui-controls-button.md: ОЙControlsButton
-title: 'ОЙControlsButton::construct'
+  - class.ui-controls-button.md: UI\\Controls\\Button
+title: 'UI\\Controls\\Button::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsButton::construct
+# UI\\Controls\\Button::\_\_construct
 
 (UI 0.9.9)
 
-ОЙControlsButton::construct — Створити новий об'єкт Button
+UI\\Controls\\Button::\_\_construct — Створити новий об'єкт Button
 
 ### Опис
 
-public **ОЙControlsButton::construct**(string `$text`
+public**UI\\Controls\\Button::\_\_construct**(string`$text`) .
 
 Створить новий об'єкт Button
 

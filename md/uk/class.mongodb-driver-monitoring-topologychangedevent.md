@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.md: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited'
-  - mongodb-driver-monitoring-topologychangedevent.getnewdescription.md: 'MongoDBDriverMonitoringTopologyChangedEvent::getNewDescription »'
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.md: '« MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::isAwaited'
+  - mongodb-driver-monitoring-topologychangedevent.getnewdescription.md: 'MongoDB\\Driver\\Monitoring\\TopologyChangedEvent::getNewDescription »'
   - index.md: PHP Manual
-  - mongodb.monitoring.md: MongoDBDriverMonitoring
-title: Клас MongoDBDriverMonitoringTopologyChangedEvent
+  - mongodb.monitoring.md: MongoDB\\Driver\\Monitoring
+title: Клас MongoDB\\Driver\\Monitoring\\TopologyChangedEvent
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverMonitoringTopologyChangedEvent
+# Клас MongoDB\\Driver\\Monitoring\\TopologyChangedEvent
 
 (mongodb >=1.13.0)
 
 ## Вступ
 
-Клас **MongoDBDriverMonitoringTopologyChangedEvent** інкапсулює інформацію про змінений опис топології.
+Класс**MongoDB\\Driver\\Monitoring\\TopologyChangedEvent** інкапсулює інформацію про змінений опис топології.
 
 ## Огляд класів
 
@@ -39,6 +40,6 @@ final public getTopologyId(): MongoDB\BSON\ObjectId
 
 ## Зміст
 
--   [MongoDBDriverMonitoringTopologyChangedEvent::getNewDescription](mongodb-driver-monitoring-topologychangedevent.getnewdescription.md) — Повертає новий опис топології
--   [MongoDBDriverMonitoringTopologyChangedEvent::getPreviousDescription](mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.md) — Повертає попередній опис топології
--   [MongoDBDriverMonitoringTopologyChangedEvent::getTopologyId](mongodb-driver-monitoring-topologychangedevent.gettopologyid.md) - Повертає ідентифікатор топології
+-   [MongoDB\\Driver\\Monitoring\\TopologyChangedEvent::getNewDescription](mongodb-driver-monitoring-topologychangedevent.getnewdescription.md)— Повертає новий опис топології
+-   [MongoDB\\Driver\\Monitoring\\TopologyChangedEvent::getPreviousDescription](mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.md)— Повертає попередній опис топології
+-   [MongoDB\\Driver\\Monitoring\\TopologyChangedEvent::getTopologyId](mongodb-driver-monitoring-topologychangedevent.gettopologyid.md) \- Повертає ідентифікатор топології

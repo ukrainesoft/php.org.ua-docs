@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::getstrokeopacity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GmagickDraw::getstrokeopacity
 
@@ -26,4 +27,4 @@ public GmagickDraw::getstrokeopacity(): float
 
 ### Значення, що повертаються
 
-Повертає число з плаваючою точкою (double), що описує прозорість.
+Повертає число з плаваючою точкою (float), що описує прозорість.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.dom.md: « Функции DOM
+  - ref.dom.md: « Функції DOM
   - book.libxml.md: libxml »
   - index.md: PHP Manual
-  - ref.dom.md: Функции DOM
-title: domimportsimplexml
+  - ref.dom.md: Функції DOM
+title: dom\_import\_simplexml
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# domimportsimplexml
+# dom\_import\_simplexml
 
 (PHP 5, PHP 7, PHP 8)
 
-domimportsimplexml — Отримує об'єкт класу [DOMElement](class.domelement.md) з об'єкту класу [SimpleXMLElement](class.simplexmlelement.md)
+dom\_import\_simplexml — Отримує об'єкт класу [DOMElement](class.domelement.md) з об'єкту класу [SimpleXMLElement](class.simplexmlelement.md)
 
 ### Опис
 
@@ -18,13 +19,13 @@ domimportsimplexml — Отримує об'єкт класу [DOMElement](class.
 dom_import_simplexml(object $node): DOMElement
 ```
 
-Ця функція бере вузол `node` класу [SimpleXML](ref.simplexml.md) і перетворює його на вузол [DOMElement](class.domelement.md). Потім цей новий об'єкт може бути використаний як власний вузол [DOMElement](class.domelement.md)
+Ця функція бере вузол `node`класса[SimpleXML](ref.simplexml.md) і перетворює його на вузол [DOMElement](class.domelement.md). Потім цей новий об'єкт може бути використаний як власний вузол [DOMElement](class.domelement.md)
 
 ### Список параметрів
 
 `node`
 
-Вузол [SimpleXMLElement](class.simplexmlelement.md)
+Узел[SimpleXMLElement](class.simplexmlelement.md)
 
 ### Значення, що повертаються
 
@@ -32,13 +33,13 @@ dom_import_simplexml(object $node): DOMElement
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функція більше не повертає **`null`** у разі виникнення помилки. |
+| 8.0.0 | Функція більше не повертає \*\*`null`\*\*в случае возникновения ошибки. |
 
 ### Приклади
 
-**Приклад #1 Імпорт SimpleXML у DOM за допомогою функції **domimportsimplexml()****
+**Приклад #1 Імпорт SimpleXML у DOM за допомогою функції **dom\_import\_simplexml()****
 
 ```php
 <?php
@@ -67,4 +68,4 @@ echo $dom->saveXML();
 
 ### Дивіться також
 
--   [simplexmlimportdom()](function.simplexml-import-dom.md) - Отримує об'єкт класу SimpleXMLElement із вузла DOM
+-   [simplexml\_import\_dom()](function.simplexml-import-dom.md) \- Отримує об'єкт класу SimpleXMLElement із вузла DOM

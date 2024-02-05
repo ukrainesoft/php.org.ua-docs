@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-delete.md: « uopzdelete
-  - function.uopz-flags.md: uopzflags »
+  - function.uopz-delete.md: « uopz\_delete
+  - function.uopz-flags.md: uopz\_flags »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzextend
+title: uopz\_extend
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzextend
+# uopz\_extend
 
 (PECL uopz 1, PECL uopz 2, PECL uopz 5, PECL uopz 6, PECL uopz 7 < 7.1.0)
 
-uopzextend — Розширити клас під час виконання
+uopz\_extend — Розширити клас під час виконання
 
 ### Опис
 
@@ -32,15 +33,15 @@ uopz_extend(string $class, string $parent): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Починаючи з PHP 7.4.0, **uopzextends()** викидає [RuntimeException](class.runtimeexception.md), якщо [OPcache](book.opcache.md) включений і запис класу або `class`, або `parent` (якщо це ознака) незмінні.
+Починаючи з PHP 7.4.0, **uopz\_extends()** викидає [RuntimeException](class.runtimeexception.md), якщо [OPcache](book.opcache.md) включений і запис класу або `class`, либо`parent` (якщо це ознака) незмінні.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzextend()****
+**Пример #1 Пример использования**uopz\_extend()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump(class_parents(A::class));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {

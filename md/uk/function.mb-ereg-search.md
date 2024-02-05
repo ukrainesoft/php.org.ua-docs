@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mb-ereg-search-setpos.md: « mberegsearchsetpos
-  - function.mb-ereg.md: мбereg »
+  - function.mb-ereg-search-setpos.md: « mb\_ereg\_search\_setpos
+  - function.mb-ereg.md: mb\_ereg »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбeregsearch
+title: mb\_ereg\_search
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбeregsearch
+# mb\_ereg\_search
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-мбeregsearch — Пошук відповідей регулярному виразу для рядків у багатобайтових кодуваннях
+mb\_ereg\_search — Знаходить відповідність певного рядка в багатобайтовому кодуванні регулярного виразу
 
 ### Опис
 
@@ -18,35 +19,35 @@ title: мбeregsearch
 mb_ereg_search(?string $pattern = null, ?string $options = null): bool
 ```
 
-Виконує пошук відповідності регулярному виразу в багатобайтовому рядку.
+Виконує пошук відповідність визначеного рядка в багатобайтовому кодуванні регулярного виразу.
 
 ### Список параметрів
 
 `pattern`
 
-Шаблон для пошуку, регулярного висловлювання тексту.
+Шаблон пошуку.
 
 `options`
 
-Опція пошуку. Детальніше дивіться [мбregexsetoptions()](function.mb-regex-set-options.md)
+Варіант пошуку. Пояснення наведено в описі функції [mb\_regex\_set\_options()](function.mb-regex-set-options.md)
 
 ### Значення, що повертаються
 
-**мбeregsearch()** повертає **`true`**, якщо багатобайтний рядок відповідає регулярному виразу, або **`false`** в іншому випадку. Рядок (string) для пошуку відповідностей задається функцією [мбeregsearchinit()](function.mb-ereg-search-init.md). Якщо аргумент `pattern` не заданий, буде використано попередній вираз.
+Повертає \*\*`true`\*\*якщо багатобайтний рядок відповідає регулярному виразу, інакше **`false`**. Рядок (string) для пошуку відповідностей задається функцією [mb\_ereg\_search\_init()](function.mb-ereg-search-init.md). Якщо параметр `pattern` не заданий, буде використано попередній вираз.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `pattern` і `options` тепер допускають значення null. |
+| 8.0.0 | Параметри `pattern`и`options` тепер можуть набувати значення null. |
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.md)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [mb\_regex\_encoding()](function.mb-regex-encoding.md)
 
 ### Дивіться також
 
--   [мбregexencoding()](function.mb-regex-encoding.md) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [мбeregsearchinit()](function.mb-ereg-search-init.md) - Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного вираження
+-   [mb\_regex\_encoding()](function.mb-regex-encoding.md) \- Встановлює/отримує кодування символів для однобайтового регулярного виразу
+-   [mb\_ereg\_search\_init()](function.mb-ereg-search-init.md) \- Налаштовує рядок та регулярний вираз для пошуку відповідності рядка у багатобайтовому кодуванні регулярному виразу

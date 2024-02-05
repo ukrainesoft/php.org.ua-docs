@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ds-deque.md: « Двостороння черга
-  - ds-deque.apply.md: 'ДсDeque::apply »'
+  - class.ds-deque.md: « Ds\\Deque
+  - ds-deque.apply.md: 'Ds\\Deque::apply »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::allocate'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::allocate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::allocate
+# Ds\\Deque::allocate
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::allocate — Виділяє пам'ять під зазначену місткість
+Ds\\Deque::allocate — Виділяє пам'ять під зазначену місткість
 
 ### Опис
 
@@ -26,11 +27,11 @@ public Ds\Deque::allocate(int $capacity): void
 
 Місткість. Очікувана кількість значень.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо нове значення місткості менше поточного, вона не зміниться.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення місткості округляється до найближчого ступеня двійки (тобто 8, 16, 32, 64, 128 і т.д.)
 
@@ -40,7 +41,7 @@ public Ds\Deque::allocate(int $capacity): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::allocate()****
+**Пример #1 Пример использования**Ds\\Deque::allocate()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($deque->capacity());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(8)

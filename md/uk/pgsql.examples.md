@@ -1,14 +1,15 @@
 ---
 navigation:
-  - pgsql.constants.md: « Обумовлені константи
-  - pgsql.examples-basic.md: Базовое использование »
+  - pgsql.constants.md: « Зумовлені константи
+  - pgsql.examples-basic.md: Базове використання »
   - index.md: PHP Manual
   - book.pgsql.md: PostgreSQL
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
 ## Зміст
 
--   [Базовое использование](pgsql.examples-basic.md)
--   [Базовое использование](pgsql.examples-queries.md)
+-   [Базове використання](pgsql.examples-basic.md)
+-   [Базове використання](pgsql.examples-queries.md)

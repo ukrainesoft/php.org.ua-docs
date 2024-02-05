@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-clientencryption.decrypt.md: '« MongoDBDriverClientEncryption::decrypt'
-  - class.mongodb-driver-serverapi.md: MongoDBDriverServerApi »
+  - mongodb-driver-clientencryption.deletekey.md: '« MongoDB\\Driver\\ClientEncryption::deleteKey'
+  - mongodb-driver-clientencryption.encryptexpression.md: 'MongoDB\\Driver\\ClientEncryption::encryptExpression »'
   - index.md: PHP Manual
-  - class.mongodb-driver-clientencryption.md: MongoDBDriverClientEncryption
-title: 'MongoDBDriverClientEncryption::encrypt'
+  - class.mongodb-driver-clientencryption.md: MongoDB\\Driver\\ClientEncryption
+title: 'MongoDB\\Driver\\ClientEncryption::encrypt'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverClientEncryption::encrypt
+# MongoDB\\Driver\\ClientEncryption::encrypt
 
 (mongodb >=1.7.0)
 
-MongoDBDriverClientEncryption::encrypt — Шифрує дані
+MongoDB\\Driver\\ClientEncryption::encrypt — Шифрує дані
 
 ### Опис
 
@@ -28,59 +29,70 @@ final public MongoDB\Driver\ClientEncryption::encrypt(mixed $value, ?array $opti
 
 `options`
 
-**Опції шифрування**
+**Encryption options**
 
-| Опция | Тип | Описание |
+| Опция | Тип | Опис |
 | --- | --- | --- |
 | algorithm | string |  |
-| Алгоритм шифрування, який використовуватиметься. Опція є обов'язковою. Вкажіть одну з наступних [констант ClientEncryption](class.mongodb-driver-clientencryption.md#mongodb-driver-clientencryption.constants) |  |  |
+| Алгоритм шифрування, який використовуватиметься. Опція є обов'язковою. Вкажіть одну з наступних [констант ClientEncryption](class.mongodb-driver-clientencryption.md#mongodb-driver-clientencryption.constants) : |  |  |
 
 -   **`MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_DETERMINISTIC`**
 -   **`MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM`**
 -   **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`**
 -   **`MongoDB\Driver\ClientEncryption::ALGORITHM_UNINDEXED`**
+-   **`MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE_PREVIEW`**
 
 | | contentionFactor | int |
 
 Коефіцієнт стримування в оцінці запитів з індексованими, зашифрованими корисними навантаженнями.
 
-Опція застосовується та може бути вказана лише тоді, коли опція `algorithm` дорівнює **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`**
-
-> **Зауваження**: Queryable Encryption знаходиться в стадії публічного перегляду і доступний для ознайомлювальних цілей. Його поки що не рекомендується використовувати для розгортань у продакшені, оскільки можуть бути внесені зміни. Додаткову інформацію дивіться у блозі [» Queryable Encryption Preview](https://www.mongodb.com/blog/post/mongodb-releases-queryable-encryption-preview/)
+Опція застосовується та може бути вказана лише тоді, коли опція `algorithm` дорівнює **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`**или**`MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE_PREVIEW`**
 
 | | keyAltName | string |
 
-Задає документ колекції сховища ключів `keyAltName`. Взаємовиключна з опцією `keyId`, потрібна лише одна з них.
+Ідентифікує документ колекції сховища ключів за `keyAltName`. Опція є взаємовиключною з `keyId` і потрібно рівно один.
 
-| | keyId | [MongoDBBSONBinary](class.mongodb-bson-binary.md)
+| | keyId |[MongoDB\\BSON\\Binary](class.mongodb-bson-binary.md)
 
-Задає ключ даних по `_id`. Значення типу UUID (бінарний підтип 4). Взаємовиключна з опцією `keyAltName`, потрібна лише одна з них.
+Ідентифікує ключ даних щодо `_id`. Значення UUID (двійковий підтип 4). Опція є взаємовиключною з `keyAltName` і потрібно рівно один.
 
-| | QueryType | int |
+| | queryType | string |
 
-Тип запиту для оцінки запитів з індексованим, зашифрованим корисним навантаженням. Вкажіть одну з наступних [констант ClientEncryption](class.mongodb-driver-clientencryption.md#mongodb-driver-clientencryption.constants)
+Тип запиту для оцінки запитів із індексованими, зашифрованими корисними навантаженнями. Вкажіть одну з наступних [констант ClientEncryption](class.mongodb-driver-clientencryption.md#mongodb-driver-clientencryption.constants) :
 
 -   **`MongoDB\Driver\ClientEncryption::QUERY_TYPE_EQUALITY`**
+-   **`MongoDB\Driver\ClientEncryption::QUERY_TYPE_RANGE_PREVIEW`**
 
-Опція застосовується та може бути вказана лише тоді, коли опція `algorithm` дорівнює **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`**
+Опція застосовується та може бути вказана лише тоді, коли опція `algorithm` дорівнює **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`**или**`MongoDB\Driver\ClientEncryption::ALGORITHM_RANGE_PREVIEW`**
 
-> **Зауваження**: Queryable Encryption знаходиться в стадії публічного перегляду і доступний для ознайомлювальних цілей. Його поки що не рекомендується використовувати для розгортань у продакшені, оскільки можуть бути внесені зміни. Додаткову інформацію дивіться у блозі [» Queryable Encryption Preview](https://www.mongodb.com/blog/post/mongodb-releases-queryable-encryption-preview/)
+| | rangeOpts | array |
+
+Опції індексу для поля, що шифрується, з підтримкою запитів "rangePreview". Наведені нижче параметри повинні відповідати значенням, встановленим у `encryptedFields` цільової колекції. Для полів типу double та decimal128 BSON, `min` `max`и`precision` повинні бути або всі встановлені, або всі повинні бути відсутніми.
+
+**Опції індексу діапазону**
+
+| Опция | Тип | Опис |
+| --- | --- | --- |
+| min | [mixed](language.types.declarations.md#language.types.declarations.mixed) | Обов'язкове, якщо встановлено значення `precision` |
+| max | [mixed](language.types.declarations.md#language.types.declarations.mixed) | Обов'язкове, якщо встановлено значення `precision` |
+| sparsity | int | Обов'язкове. |
+| precision | int | Необов'язкове. Може бути встановлений лише для типів полів BSON double або decimal128. |
 
 ### Значення, що повертаються
 
-Повертає зашифровані дані у вигляді об'єкту [MongoDBBSONBinary](class.mongodb-bson-binary.md) з підтипом 6.
+Повертає зашифровані дані у вигляді об'єкту [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.md) з підтипом 6.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   Викидає виняток [MongoDBDriverExceptionEncryptionException](class.mongodb-driver-exception-encryptionexception.md) якщо при шифруванні виникла помилка
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Викидає виняток [MongoDB\\Driver\\Exception\\EncryptionException](class.mongodb-driver-exception-encryptionexception.md)якщо при шифруванні виникла помилка
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL mongodb 1.14.0 | Додані опції `"contentionFactor"` і `"queryType"` |
+| PECL mongodb 1.14.0 | Додані опції `"contentionFactor"`и`"queryType"` |
 
 ### Дивіться також
 
--   [MongoDBDriverClientEncryption::decrypt()](mongodb-driver-clientencryption.decrypt.md) - Розшифрувати дані
+-   [MongoDB\\Driver\\ClientEncryption::decrypt()](mongodb-driver-clientencryption.decrypt.md) \- Розшифрувати дані

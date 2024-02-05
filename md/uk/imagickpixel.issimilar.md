@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::isSimilar'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::isSimilar
 
@@ -20,7 +21,7 @@ public ImagickPixel::isSimilar(ImagickPixel $color, float $fuzz): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Перевіряється різниця кольору, описаного поточним об'єктом ImagickPixel та кольору в переданому об'єкті, шляхом побудови їх RGB значень у колірному кубі. Якщо різниця між ними менша за передане fuzz-значення, то кольори вважаються однаковими. Застарів на користь [ImagickPixel::isPixelSimilar()](imagickpixel.ispixelsimilar.md)
 
@@ -40,7 +41,7 @@ public ImagickPixel::isSimilar(ImagickPixel $color, float $fuzz): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickPixel::isSimilar()****
+**Пример #1 Пример использования**ImagickPixel::isSimilar()\*\*\*\*
 
 ```php
 <?php

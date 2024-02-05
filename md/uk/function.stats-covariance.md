@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-cdf-weibull.md: « statscdfweibull
-  - function.stats-dens-beta.md: statsdensbeta »
+  - function.stats-cdf-weibull.md: « stats\_cdf\_weibull
+  - function.stats-dens-beta.md: stats\_dens\_beta »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statscovariance
+title: stats\_covariance
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statscovariance
+# stats\_covariance
 
 (PECL stats >= 1.0.0)
 
-statscovariance - обчислює коваріацію двох наборів даних
+stats\_covariance - обчислює коваріацію двох наборів даних
 
 ### Опис
 
@@ -18,7 +19,7 @@ statscovariance - обчислює коваріацію двох наборів 
 stats_covariance(array $a, array $b): float
 ```
 
-Обчислює коваріацію `a` і `b`
+Обчислює коваріацію `a`и`b`
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ stats_covariance(array $a, array $b): float
 
 ### Значення, що повертаються
 
-Обчислює коваріацію `a` і `b`, або **`false`** у разі виникнення помилки.
+Обчислює коваріацію `a`и`b`, или\*\*`false`\*\*в случае возникновения ошибки.

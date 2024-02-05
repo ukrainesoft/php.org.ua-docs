@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::enumCharTypes'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::enumCharTypes
 
@@ -28,9 +29,9 @@ public static IntlChar::enumCharTypes(callable $callback): void
 
 Функція, яка буде викликана кожної безперервної послідовності з однаковою категорією. До неї будуть передані такі параметри:
 
--   int `$start` - Початковий символ діапазону
--   int `$end` - Кінцевий символ діапазону
--   int `$name` - Категорія символів (одна з констант `IntlChar::CHAR_CATEGORY_*`
+-   int`$start`\- Початковий символ діапазону
+-   int`$end`\- Кінцевий символ діапазону
+-   int`$name`\- Категорія символів (одна з констант`IntlChar::CHAR_CATEGORY_*`) .
 
 ### Значення, що повертаються
 
@@ -48,7 +49,7 @@ IntlChar::enumCharTypes(function($start, $end, $type) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 U+0000 through U+0020 are in category 15

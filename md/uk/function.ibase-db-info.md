@@ -1,23 +1,24 @@
 ---
 navigation:
-  - function.ibase-connect.md: « ibaseconnect
-  - function.ibase-delete-user.md: ibasedeleteuser »
+  - function.ibase-connect.md: « ibase\_connect
+  - function.ibase-delete-user.md: ibase\_delete\_user »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseдбinfo
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_db\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseдбinfo
+# ibase\_db\_info
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseдбinfo — Запитує статистику бази даних
+ibase\_db\_info — Запитує статистику бази даних
 
 ### Опис
 
 ```methodsynopsis
-ibase_db_info(    resource $service_handle,    string $db,    int $action,    int $argument = 0): string
+ibase_db_info(    resource $service_handle,    string $db,    int $action,    int $argument = 0): string
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

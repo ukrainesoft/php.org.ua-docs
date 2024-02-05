@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.url.md: « Функції URL
-  - function.base64-encode.md: base64encode »
+  - function.base64-encode.md: base64\_encode »
   - index.md: PHP Manual
   - ref.url.md: Функції URL
-title: base64decode
+title: base64\_decode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# base64decode
+# base64\_decode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-base64decode — Декодує дані, закодовані MIME base64
+base64\_decode — Декодує дані, закодовані MIME base64
 
 ### Опис
 
@@ -28,7 +29,7 @@ base64_decode(string $string, bool $strict = false): string|false
 
 `strict`
 
-Якщо параметр `strict` заданий як **`true`**, функція **base64decode()** поверне **`false`** у випадку, якщо вхідні дані містять символи, що не входять до алфавіту base64. Інакше такі символи будуть відкинуті.
+Якщо параметр `strict`задан как\*\*`true`**, функция**base64\_decode()\*\* поверне **`false`** у випадку, якщо вхідні дані містять символи, що не входять до алфавіту base64. Інакше такі символи будуть відкинуті.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ base64_decode(string $string, bool $strict = false): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **base64decode()****
+**Пример #1 Пример использования**base64\_decode()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ echo base64_decode($str);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Это закодированная строка
@@ -53,5 +54,5 @@ echo base64_decode($str);
 
 ### Дивіться також
 
--   [base64encode()](function.base64-encode.md) - Кодує дані у формат MIME base64
--   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) розділ 6.8
+-   [base64\_encode()](function.base64-encode.md) \- Кодує дані у формат MIME base64
+-   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045)розділ 6.8

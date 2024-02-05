@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::clearError'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::clearError
 
@@ -30,4 +31,4 @@ public ZipArchive::clearError(): void
 
 ### Дивіться також
 
--   [ZipArchive::getStatusString()](ziparchive.getstatusstring.md) - Повертають статус повідомлення про помилку, системний та/або zip-статус
+-   [ZipArchive::getStatusString()](ziparchive.getstatusstring.md) \- Повертають статус повідомлення про помилку, системний та/або zip-статус

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.runkit7-method-add.md: « runkit7methodadd
-  - function.runkit7-method-redefine.md: runkit7methodredefine »
+  - function.runkit7-method-add.md: « runkit7\_method\_add
+  - function.runkit7-method-redefine.md: runkit7\_method\_redefine »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
-title: runkit7методcopy
+title: runkit7\_method\_copy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# runkit7методcopy
+# runkit7\_method\_copy
 
-(PECL runkit7> = Unknown)
+(PECL runkit7 >= Unknown)
 
-runkit7методcopy — Копіює метод з одного класу до іншого
+runkit7\_method\_copy — Копіює метод з одного класу до іншого
 
 ### Опис
 
 ```methodsynopsis
-runkit7_method_copy(    string $destination_class,    string $destination_method_name,    string $source_class,    string $source_method_name = ?): bool
+runkit7_method_copy(    string $destination_class,    string $destination_method_name,    string $source_class,    string $source_method_name = ?): bool
 ```
 
 ### Список параметрів
@@ -40,7 +41,7 @@ runkit7_method_copy(    string $destination_class,    string $destination_method
 
 ### Приклади
 
-**Приклад #1 Приклад використання **runkit7методcopy()****
+**Пример #1 Пример использования**runkit7\_method\_copy()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ echo Bar::baz();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 foo!
@@ -70,8 +71,8 @@ foo!
 
 ### Дивіться також
 
--   [runkit7methodadd()](function.runkit7-method-add.md) - Динамічно додає новий метод у заданий клас
--   [runkit7methodredefine()](function.runkit7-method-redefine.md) - динамічно змінює код заданого методу
--   [runkit7methodremove()](function.runkit7-method-remove.md) - динамічно видаляє заданий метод
--   [runkit7methodrename()](function.runkit7-method-rename.md) - динамічно змінює ім'я заданого методу
--   [runkit7functioncopy()](function.runkit7-function-copy.md) - Копіює функцію в нове ім'я функції
+-   [runkit7\_method\_add()](function.runkit7-method-add.md) \- Динамічно додає новий метод у заданий клас
+-   [runkit7\_method\_redefine()](function.runkit7-method-redefine.md) \- динамічно змінює код заданого методу
+-   [runkit7\_method\_remove()](function.runkit7-method-remove.md) \- динамічно видаляє заданий метод
+-   [runkit7\_method\_rename()](function.runkit7-method-rename.md) \- динамічно змінює ім'я заданого методу
+-   [runkit7\_function\_copy()](function.runkit7-function-copy.md) \- Копіює функцію в нове ім'я функції

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xdiff-string-patch.md: xdiffstringpatch
+  - function.xdiff-string-patch.md: « xdiff\_string\_patch
   - refs.international.md: Підтримка мов та кодувань »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
-title: xdiffstringrabdiff
+title: xdiff\_string\_rabdiff
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xdiffstringrabdiff
+# xdiff\_string\_rabdiff
 
 (PECL xdiff >= 1.5.0)
 
-xdiffstringrab diff — Порівняти два рядки і створити бінарний патч, використовуючи поліноміальний алгоритм Rabin fingerprint
+xdiff\_string\_rab diff — Порівняти два рядки і створити бінарний патч, використовуючи поліноміальний алгоритм Rabin fingerprint
 
 ### Опис
 
@@ -18,9 +19,9 @@ xdiffstringrab diff — Порівняти два рядки і створити
 xdiff_string_bdiff(string $old_data, string $new_data): string
 ```
 
-Створює бінарний патч для двох рядків та повертає результат. Різниця між цією функцією та [xdiffstringbdiff()](function.xdiff-string-bdiff.md) у алгоритмі, який працює швидше і створює більш короткий патч. Ця функція працює як із текстовими, так і з бінарними даними. Отриманий патч згодом можна застосувати за допомогою функцій [xdiffstringbpatch()](function.xdiff-string-bpatch.md) і [xdifffilebpatch()](function.xdiff-file-bpatch.md)
+Створює бінарний патч для двох рядків та повертає результат. Різниця між цією функцією та [xdiff\_string\_bdiff()](function.xdiff-string-bdiff.md) у алгоритмі, який працює швидше і створює більш короткий патч. Ця функція працює як із текстовими, так і з бінарними даними. Отриманий патч згодом можна застосувати за допомогою функцій [xdiff\_string\_bpatch()](function.xdiff-string-bpatch.md) і [xdiff\_file\_bpatch()](function.xdiff-file-bpatch.md)
 
-Детальніше про відмінності в алгоритмах читайте на сайті [» libxdiff](http://www.xmailserver.org/xdiff-lib.md)
+Более подробно о различиях в алгоритмах читайте на сайте[» libxdiff](http://www.xmailserver.org/xdiff-lib.md)
 
 ### Список параметрів
 
@@ -34,8 +35,8 @@ xdiff_string_bdiff(string $old_data, string $new_data): string
 
 ### Значення, що повертаються
 
-Повертає рядок з бінарним патчем, що містить різницю між "старими" та "новими" даними, або **`false`** у разі виникнення помилки.
+Повертає рядок з бінарним патчем, що містить різницю між "старими" та "новими" даними, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [xdiffstringbpatch()](function.xdiff-string-bpatch.md) - Застосування бінарного патча до рядка
+-   [xdiff\_string\_bpatch()](function.xdiff-string-bpatch.md) \- Застосування бінарного патча до рядка

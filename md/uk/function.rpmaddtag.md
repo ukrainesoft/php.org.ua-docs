@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.rpminfo.md: Функції RpmInfo
 title: rpmaddtag
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # rpmaddtag
 
@@ -24,14 +25,14 @@ rpmaddtag(int $tag): bool
 
 `tag`
 
-Одна з констант RPMTAG, перегляньте сторінку [константи rpminfo](rpminfo.constants.md)
+Одна з констант RPMTAG\_\*, посмотрите страницу[константи rpminfo](rpminfo.constants.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [rpminfo()](function.rpminfo.md) - Витягти інформацію з RPM-файлу
--   [rpmdbinfo()](function.rpmdbinfo.md) - Отримує інформацію від встановленого RPM
--   [rpmdbsearch()](function.rpmdbsearch.md) - Пошук RPM-пакетів
+-   [rpminfo()](function.rpminfo.md) \- Витягти інформацію з RPM-файлу
+-   [rpmdbinfo()](function.rpmdbinfo.md) \- Отримує інформацію від встановленого RPM
+-   [rpmdbsearch()](function.rpmdbsearch.md) \- Пошук RPM-пакетів

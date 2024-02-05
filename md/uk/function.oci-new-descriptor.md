@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-new-cursor.md: « ocinewcursor
-  - function.oci-num-fields.md: ocinumfields »
+  - function.oci-new-cursor.md: « oci\_new\_cursor
+  - function.oci-num-fields.md: oci\_num\_fields »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocinewdescriptor
+  - ref.oci8.md: OCI8 Функції
+title: oci\_new\_descriptor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocinewdescriptor
+# oci\_new\_descriptor
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocinewdescriptor - Ініціалізує новий дескриптор об'єкта LOB або FILE
+oci\_new\_descriptor — Ініціалізує новий дескриптор об'єкта LOB чи FILE
 
 ### Опис
 
@@ -24,19 +25,19 @@ oci_new_descriptor(resource $connection, int $type = OCI_DTYPE_LOB): ?OCILob
 
 `connection`
 
-Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.md) або [ocipconnect()](function.oci-pconnect.md)
+Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [oci\_connect()](function.oci-connect.md) або [oci\_pconnect()](function.oci-pconnect.md)
 
 `type`
 
-Допустимі значення параметра `type` **`OCI_DTYPE_FILE`** **`OCI_DTYPE_LOB`** і **`OCI_DTYPE_ROWID`**
+Допустимі значення параметра `type` **`OCI_DTYPE_FILE`** **`OCI_DTYPE_LOB`**и**`OCI_DTYPE_ROWID`**
 
 ### Значення, що повертаються
 
-Повертає новий LOB або дескриптор FILE у разі успішного виконання або **`null`** у разі виникнення помилки.
+Повертає новий LOB або дескриптор FILE у разі успішного виконання або \*\*`null`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ocinewdescriptor()****
+**Пример #1 Пример использования**oci\_new\_descriptor()\*\*\*\*
 
 ```php
 <?php
@@ -109,7 +110,7 @@ oci_close($conn);
 ?>
 ```
 
-**Приклад #2 Приклад використання **ocinewdescriptor()****
+**Пример #2 Пример использования**oci\_new\_descriptor()\*\*\*\*
 
 ```php
 <?php
@@ -137,12 +138,6 @@ oci_free_statement($stmt);
 ?>
 ```
 
-### Примітки
-
-> **Зауваження**
-> 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewdescriptor()](function.ocinewdescriptor.md). У PHP 5.0.0 і вище [ocinewdescriptor()](function.ocinewdescriptor.md) є аліасом \*\*ocinewdescriptor()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
-
 ### Дивіться також
 
--   [ocibindбname()](function.oci-bind-by-name.md) - Прикріплює змінну PHP до відповідної мітки у SQL-вираженні
+-   [oci\_bind\_by\_name()](function.oci-bind-by-name.md) \- Прикріплює змінну PHP до відповідної мітки у SQL-вираженні

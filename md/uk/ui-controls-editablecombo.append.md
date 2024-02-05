@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ui-controls-editablecombo.md: « UIControlsEditableCombo
-  - ui-controls-editablecombo.gettext.md: 'ОЙControlsEditableCombo::getText »'
+  - class.ui-controls-editablecombo.md: « UI\\Controls\\EditableCombo
+  - ui-controls-editablecombo.gettext.md: 'UI\\Controls\\EditableCombo::getText »'
   - index.md: PHP Manual
-  - class.ui-controls-editablecombo.md: ОЙControlsEditableCombo
-title: 'ОЙControlsEditableCombo::append'
+  - class.ui-controls-editablecombo.md: UI\\Controls\\EditableCombo
+title: 'UI\\Controls\\EditableCombo::append'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsEditableCombo::append
+# UI\\Controls\\EditableCombo::append
 
 (UI 0.9.9)
 
-ОЙControlsEditableCombo::append — Додати опцію
+UI\\Controls\\EditableCombo::append — Додати опцію
 
 ### Опис
 

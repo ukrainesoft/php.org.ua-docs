@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.enchant-dict-add-to-session.md: « enchantdictaddтоsession
-  - function.enchant-dict-check.md: enchantdictcheck »
+  - function.enchant-dict-add-to-session.md: « enchant\_dict\_add\_to\_session
+  - function.enchant-dict-check.md: enchant\_dict\_check »
   - index.md: PHP Manual
-  - ref.enchant.md: Функции Enchant
-title: enchantdictadd
+  - ref.enchant.md: Функції Enchant
+title: enchant\_dict\_add
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# enchantdictadd
+# enchant\_dict\_add
 
 (PHP 8)
 
-enchantdictadd — Додає слово до особистого словника
+enchant\_dict\_add — Додає слово до особистого словника
 
 ### Опис
 
@@ -24,7 +25,7 @@ enchant_dict_add(EnchantDictionary $dictionary, string $word): void
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.md) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 
@@ -32,13 +33,13 @@ enchant_dict_add(EnchantDictionary $dictionary, string $word): void
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 **Приклад #1 Додавання слова до PWL**
 
@@ -60,5 +61,5 @@ enchant_broker_free($broker);
 
 ### Дивіться також
 
--   [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md) - Створити словник, використовуючи файл PWL
--   [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) - Створити новий словник, використовуючи тег
+-   [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.md) \- Створити словник, використовуючи файл PWL
+-   [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.md) \- Створити новий словник, використовуючи тег

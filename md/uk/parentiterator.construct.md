@@ -4,23 +4,24 @@ navigation:
   - parentiterator.getchildren.md: 'ParentIterator::getChildren »'
   - index.md: PHP Manual
   - class.parentiterator.md: ParentIterator
-title: 'ParentIterator::construct'
+title: 'ParentIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParentIterator::construct
+# ParentIterator::\_\_construct
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-ParentIterator::construct - Конструктор класу ParentIterator
+ParentIterator::\_\_construct - Конструктор класу ParentIterator
 
 ### Опис
 
-public **ParentIterator::construct**[RecursiveIterator](class.recursiveiterator.md) `$iterator`
+public**ParentIterator::\_\_construct** [RecursiveIterator](class.recursiveiterator.md) `$iterator`) .
 
 Створює новий об'єкт класу [ParentIterator](class.parentiterator.md) на основі об'єкта-ітератора.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

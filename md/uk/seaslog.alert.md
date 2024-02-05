@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::alert'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::alert
 
@@ -20,7 +21,7 @@ public static SeasLog::alert(string $message, array $content = ?, string $logger
 
 Записує інформацію рівня "alert" у журнал.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > "ALERT" - Дії мають бути здійснені негайно. Негайну увагу слід приділяти персоналу для аварійного ремонту.
 
@@ -32,11 +33,11 @@ public static SeasLog::alert(string $message, array $content = ?, string $logger
 
 `content`
 
-Повідомлення містить заповнювачі, які заміняють розробники значеннями з масиву вмісту. Якщо message - це інформація журналу від {NAME}, а content array('NAME' => 'Микити'), інформація журналу буде інформація журналу від Микити
+Повідомлення містить заповнювачі, які розробники замінюють значеннями масиву вмісту. Якщо \`message\` - це \`інформація журналу від {NAME}\`, а\`content\` \`array('NAME' => 'Микити')\`, інформація журналу буде \`інформація журналу від Микити\`
 
 `logger`
 
-logger, укладений у третій параметр, буде використовуватися зараз, як тимчасовий реєстратор, якщо функція SeasLog::setLogger() викликається у попередньому вмісті. Якщо logger дорівнює NULL або "" (порожній рядок), SeasLog використовуватиме останній реєстратор, встановлений методом [SeasLog::setLogger()](seaslog.setlogger.md)
+\`logger\`, укладений у третій параметр, буде використовуватися зараз, як тимчасовий реєстратор, якщо функція SeasLog::setLogger() викликається у попередньому вмісті. Якщо \`logger\` дорівнює NULL або "" (порожній рядок), SeasLog використовуватиме останній реєстратор, встановлений методом [SeasLog::setLogger()](seaslog.setlogger.md)
 
 ### Значення, що повертаються
 
@@ -44,7 +45,7 @@ logger, укладений у третій параметр, буде викор
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::alert()****
+**Пример #1 Пример использования**SeasLog::alert()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ var_dump(SeasLog::getBuffer());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -89,7 +90,7 @@ array(2) {
 
 ### Дивіться також
 
--   [seaslog.defaulttemplate](seaslog.configuration.md#ini.seaslog.default-template)
+-   [seaslog.default\_template](seaslog.configuration.md#ini.seaslog.default-template)
 -   [SeasLog::debug()](seaslog.debug.md) - Записує інформацію рівня "debug" до журналу
 -   [SeasLog::info()](seaslog.info.md) - Записує інформацію рівня "info" до журналу
 -   [SeasLog::notice()](seaslog.notice.md) - Записує інформацію рівня "notice" у журнал
@@ -97,4 +98,4 @@ array(2) {
 -   [SeasLog::error()](seaslog.error.md) - Записує інформацію рівня "error" у журнал
 -   [SeasLog::critical()](seaslog.critical.md) - Записує інформацію рівня "critical" у журнал
 -   [SeasLog::emergency()](seaslog.emergency.md) - Записує інформацію рівня "emergency" до журналу
--   [SeasLog::log()](seaslog.log.md) - Загальна функція запису до журналу
+-   [SeasLog::log()](seaslog.log.md) \- Загальна функція запису до журналу

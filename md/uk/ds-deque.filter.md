@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.count.md: '« DsDeque::count'
-  - ds-deque.find.md: 'ДсDeque::find »'
+  - ds-deque.count.md: '« Ds\\Deque::count'
+  - ds-deque.find.md: 'Ds\\Deque::find »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::filter'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::filter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::filter
+# Ds\\Deque::filter
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::filter — Створює нову двосторонню чергу з елементів, вибраних за допомогою заданої callback-функції
+Ds\\Deque::filter — Створює нову двосторонню чергу з елементів, вибраних за допомогою заданої callback-функції
 
 ### Опис
 
@@ -30,15 +31,15 @@ callback(mixed $value): bool
 
 Опціональний аргумент типу [callable](language.types.callable.md), який повертає **`true`**, якщо значення має бути включено та **`false`**, якщо ні.
 
-Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивіться [приведение к boolean](language.types.boolean.md#language.types.boolean.casting)
+Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`**(смотрите[приведення до boolean](language.types.boolean.md#language.types.boolean.casting)
 
 ### Значення, що повертаються
 
-Нова двостороння черга, що містить значення, для яких функція `callback` повернула **`true`**, або всі елементи, які при приведенні до логічного типу стають **`true`**, якщо параметр `callback` не заданий.
+Нова двостороння черга, що містить значення, для яких функція `callback` повернула **`true`**, або всі елементи, які при приведенні до логічного типу стають **`true`**, якщо параметр `callback`не задан.
 
 ### Приклади
 
-**Приклад #1 Приклад **ДсDeque::filter()** з використанням callback-функції**
+**Пример #1 Пример**Ds\\Deque::filter()**с использованием callback-функции**
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump($deque->filter(function($value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Deque)#3 (2) {
@@ -61,7 +62,7 @@ object(Ds\Deque)#3 (2) {
 }
 ```
 
-**Приклад #2 Приклад **ДсDeque::filter()** без callback-функції**
+**Пример #2 Пример**Ds\\Deque::filter()\*\* без callback-функції\*\*
 
 ```php
 <?php
@@ -71,7 +72,7 @@ var_dump($deque->filter());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Deque)#2 (3) {

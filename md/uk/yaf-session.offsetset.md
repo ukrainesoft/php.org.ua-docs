@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-session.offsetget.md: '« YafSession::offsetGet'
-  - yaf-session.offsetunset.md: 'YafSession::offsetUnset »'
+  - yaf-session.offsetget.md: '« Yaf\_Session::offsetGet'
+  - yaf-session.offsetunset.md: 'Yaf\_Session::offsetUnset »'
   - index.md: PHP Manual
-  - class.yaf-session.md: YafSession
-title: 'YafSession::offsetSet'
+  - class.yaf-session.md: Yaf\_Session
+title: 'Yaf\_Session::offsetSet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafSession::offsetSet
+# Yaf\_Session::offsetSet
 
 (Yaf >=1.0.0)
 
-YafSession::offsetSet — Призначення offsetSet
+Yaf\_Session::offsetSet — Призначення offsetSet
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Session::offsetSet(string $name, string $value): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

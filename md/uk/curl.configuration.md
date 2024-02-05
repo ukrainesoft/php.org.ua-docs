@@ -1,10 +1,11 @@
 ---
 navigation:
-  - curl.installation.md: « Установка
+  - curl.installation.md: « Встановлення
   - curl.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - curl.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,12 +15,12 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [curl.cainfo](curl.configuration.md#ini.curl.cainfo) | NULL | PHPINISYSTEM |  |
+| [curl.cainfo](curl.configuration.md#ini.curl.cainfo) | NULL | **`INI_SYSTEM`** |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
+Додаткова інформація та опис режимів INI\_\* дано у розділі «[Місця встановлення параметрів конфігурації](configuration.changes.modes.md)».
 
 Коротке пояснення конфігураційних директив.
 
-`curl.cainfo` string
+`curl.cainfo`string
 
-Значення за умовчанням для директиви **`CURLOPT_CAINFO`**. Це значення має бути зазначено у вигляді абсолютного шляху.
+Значення за промовчанням для директиви **`CURLOPT_CAINFO`**. Це значення має бути зазначене у вигляді абсолютного шляху.

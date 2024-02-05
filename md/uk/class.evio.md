@@ -1,10 +1,11 @@
 ---
 navigation:
   - evidle.createstopped.md: '« EvIdle::createStopped'
-  - evio.construct.md: 'EvIo::construct »'
+  - evio.construct.md: 'EvIo::\_\_construct »'
   - index.md: PHP Manual
-  - book.ev.md: Єв
+  - book.ev.md: Ev
 title: Клас EvIo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EvIo
 
@@ -18,7 +19,7 @@ title: Клас EvIo
 
 Інший момент, який необхідно пам'ятати, це те, що завжди існує можливість помилкового спрацьовування. Наприклад **`Ev::READ`** викличе callback-функцію, але в той же час файл заблокується під запитом *read()*. У таку ситуацію дуже легко потрапити і тому рекомендується завжди використовувати неблокуючий ввод/вывод. Повернення *read()* додаткового **`EAGAIN`** набагато краще, ніж "зависання" програми в очікуванні даних.
 
-Якщо з якихось причин неможливо використати `fd` в неблокуючому режимі, то є сенс додатково перевіряти, чи доступний файл читання в даний конкретний момент. Хтось додатково використовує **`SIGALRM`** та внутрішній таймер для перевірки, що блокування не вічне.
+Якщо з якихось причин неможливо використати `fd` в неблокуючому режимі, то має сенс додатково перевіряти, чи файл на читання в даний конкретний момент доступний. Хтось додатково використовує **`SIGALRM`** та внутрішній таймер для перевірки, що блокування не вічне.
 
 Намагайтеся завжди використовувати режим, що не блокує.
 
@@ -60,19 +61,19 @@ public
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     mixed
      $fd
-   ,    
+   ,    
     int
      $events
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
-    = ?,    
+    = ?,    
     int
      $priority
     = ?)
@@ -80,20 +81,20 @@ public
     final
    public
    static
-   createStopped(    
+   createStopped(    
     mixed
      $fd
-   ,    
+   ,    
     int
      $events
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -142,12 +143,12 @@ public
 
 ## Властивості
 
-фд
+fd
 
 events
 
 ## Зміст
 
--   [EvIo::construct](evio.construct.md) - Створює об'єкт спостерігач EvIo
--   [EvIo::createStopped](evio.createstopped.md) — Створює зупинений об'єкт спостерігача EvIo
--   [EvIo::set](evio.set.md) - Конфігурування спостерігача
+-   [EvIo::\_\_construct](evio.construct.md) \- Створює об'єкт спостерігач EvIo
+-   [EvIo::createStopped](evio.createstopped.md)— Створює зупинений об'єкт спостерігача EvIo
+-   [EvIo::set](evio.set.md) \- Конфігурування спостерігача

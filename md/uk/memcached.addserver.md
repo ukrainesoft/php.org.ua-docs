@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::addServer'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::addServer
 
@@ -18,7 +19,7 @@ Memcached::addServer — Додає сервер до пулу
 public Memcached::addServer(string $host, int $port, int $weight = 0): bool
 ```
 
-**Memcached::addServer()** додає вказаний сервер у пул. При цьому з'єднання встановлено не буде, але якщо ви використовуєте налаштування консистентного розподілу ключів (за допомогою **`Memcached::DISTRIBUTION_CONSISTENT`** або **`Memcached::OPT_LIBKETAMA_COMPATIBLE`**), деякі внутрішні структури даних буде оновлено. Таким чином, якщо вам необхідно додати кілька серверів, краще використовувати [Memcached::addServers()](memcached.addservers.md) т.к. оновлення даних відбувається одноразово.
+**Memcached::addServer()** додає вказаний сервер у пул. При цьому з'єднання встановлено не буде, але якщо ви використовуєте налаштування консистентного розподілу ключів (за допомогою **`Memcached::DISTRIBUTION_CONSISTENT`**или**`Memcached::OPT_LIBKETAMA_COMPATIBLE`**), деякі внутрішні структури даних буде оновлено. Таким чином, якщо вам необхідно додати кілька серверів, краще використовувати [Memcached::addServers()](memcached.addservers.md) т.к. оновлення даних відбувається одноразово.
 
 Один і той самий сервер може зустрічатися в пулі кілька разів, тому що жодних перевірок на дублювання входжень немає. Але це недоцільно; натомість потрібно використовувати параметр `weight` підвищення пріоритету даного сервера.
 
@@ -26,11 +27,11 @@ public Memcached::addServer(string $host, int $port, int $weight = 0): bool
 
 `host`
 
-Ім'я хоста memcache сервера. Якщо ім'я хоста буде недійсним, функції, що працюють з даними, встановлять результуючий код **`Memcached::RES_HOST_LOOKUP_FAILURE`**. У версії 2.0.0b1, цей параметр також може визначати шлях до unix сокет файлу, наприклад, `/path/to/memcached.sock` для використання сокету домену UNIX (UDS), у цьому випадку `port` повинен бути встановлений у `0`
+Ім'я хоста memcache сервера. Якщо ім'я хоста буде недійсним, функції, що працюють з даними, встановлять результуючий код **`Memcached::RES_HOST_LOOKUP_FAILURE`**. У версії 2.0.0b1, цей параметр також може визначати шлях до unix сокет файлу, наприклад, `/path/to/memcached.sock`для использования сокета домена UNIX (UDS), в данном случае`port` повинен бути встановлений у
 
 `port`
 
-Порт, на якому працює сервер memcache. Зазвичай це `11211` порт. У версії 2.0.0b1, встановіть цей параметр у `0`при використанні сокету домену UNIX (UDS).
+Порт, на якому працює сервер memcache. Зазвичай це `11211` порт. У версії 2.0.0b1, встановіть цей параметр у при використанні сокету домену UNIX (UDS).
 
 `weight`
 
@@ -38,11 +39,11 @@ public Memcached::addServer(string $host, int $port, int $weight = 0): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::addServer()****
+**Пример #1 Пример использования**Memcached::addServer()\*\*\*\*
 
 ```php
 <?php
@@ -57,5 +58,5 @@ $m->addServer('mem2.domain.com', 11211, 67);
 
 ### Дивіться також
 
--   [Memcached::addServers()](memcached.addservers.md) - Додає кілька серверів у пул
--   [Memcached::resetServerList()](memcached.resetserverlist.md) - Очищає список серверів
+-   [Memcached::addServers()](memcached.addservers.md) \- Додає кілька серверів у пул
+-   [Memcached::resetServerList()](memcached.resetserverlist.md) \- Очищає список серверів

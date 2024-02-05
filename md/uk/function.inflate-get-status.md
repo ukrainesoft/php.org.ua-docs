@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.inflate-get-read-len.md: « inflategetreadlen
-  - function.inflate-init.md: inflateinit »
+  - function.inflate-get-read-len.md: « inflate\_get\_read\_len
+  - function.inflate-init.md: inflate\_init »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
-title: inflategetstatus
+  - ref.zlib.md: Функції Zlib
+title: inflate\_get\_status
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# inflategetstatus
+# inflate\_get\_status
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-inflategetstatus — Отримує статус декомпресії
+inflate\_get\_status — Отримує статус декомпресії
 
 ### Опис
 
@@ -18,7 +19,7 @@ inflategetstatus — Отримує статус декомпресії
 inflate_get_status(InflateContext $context): int
 ```
 
-Зазвичай повертає **`ZLIB_OK`** або **`ZLIB_STREAM_END`**
+Зазвичай повертає **`ZLIB_OK`**или**`ZLIB_STREAM_END`**
 
 ### Список параметрів
 
@@ -26,10 +27,10 @@ inflate_get_status(InflateContext $context): int
 
 ### Значення, що повертаються
 
-Повертає статус декомпресії або **`false`** у разі виникнення помилки.
+Повертає статус декомпресії.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.md); раніше, очікувався ресурс (resource). |
+| 8.0.0 | `context` чекає на екземпляр [InflateContext](class.inflatecontext.md); раніше, очікувався ресурс (resource). |

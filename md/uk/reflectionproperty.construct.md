@@ -1,20 +1,21 @@
 ---
 navigation:
-  - reflectionproperty.clone.md: '« ReflectionProperty::clone'
+  - reflectionproperty.clone.md: '« ReflectionProperty::\_\_clone'
   - reflectionproperty.export.md: 'ReflectionProperty::export »'
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
-title: 'ReflectionProperty::construct'
+title: 'ReflectionProperty::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionProperty::construct
+# ReflectionProperty::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionProperty::construct - Конструктор класу ReflectionProperty
+ReflectionProperty::\_\_construct - Конструктор класу ReflectionProperty
 
 ### Опис
 
-public **ReflectionProperty::construct**(object | string `$class`, string `$property`
+public**ReflectionProperty::\_\_construct**(object|string`$class`, string`$property`) .
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public **ReflectionProperty::construct**(object | string `$class`, string `$prop
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionProperty::construct()****
+**Пример #1 Пример использования**ReflectionProperty::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -74,7 +75,7 @@ var_dump($obj);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 ===> общедоступное свойство 'length' (которое объявлено во время компиляции)
@@ -113,7 +114,7 @@ var_dump($prop->getValue($obj)); // int(2)
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(2)
@@ -122,5 +123,5 @@ int(3)
 
 ### Дивіться також
 
--   [ReflectionProperty::getName()](reflectionproperty.getname.md) - Отримання імені властивості
+-   [ReflectionProperty::getName()](reflectionproperty.getname.md) \- Отримання імені властивості
 -   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

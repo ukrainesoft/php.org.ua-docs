@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagesetpixel
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagesetpixel
 
@@ -15,7 +16,7 @@ imagesetpixel — Малювання точки
 ### Опис
 
 ```methodsynopsis
-imagesetpixel(    GdImage $image,    int $x,    int $y,    int $color): bool
+imagesetpixel(    GdImage $image,    int $x,    int $y,    int $color): bool
 ```
 
 **imagesetpixel()** малює точку (піксел) на заданих координатах.
@@ -40,17 +41,17 @@ y-координат.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagesetpixel()****
+**Пример #1 Пример использования**imagesetpixel()\*\*\*\*
 
 Малювання "випадкових" точок, що дає в результаті фрактальне зображення.
 
@@ -69,7 +70,7 @@ $corners[2] = array('x' => 200, 'y' => 190);
 $red = imagecolorallocate($gd, 255, 0, 0);
 
 for ($i = 0; $i < 100000; $i++) {
-  imagesetpixel($gd, round($x),round($y), $red);
+  imagesetpixel($gd, round($x), round($y), $red);
   $a = rand(0, 2);
   $x = ($x + $corners[$a]['x']) / 2;
   $y = ($y + $corners[$a]['y']) / 2;
@@ -81,12 +82,12 @@ imagepng($gd);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: imagesetpixel()](images/21009b70229598c6a80eef8b45bf282b-imagesetpixel.png)
 
 ### Дивіться також
 
--   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення
--   [imagecolorallocate()](function.imagecolorallocate.md) - Створення кольору для зображення
--   [imagecolorat()](function.imagecolorat.md) - Отримання індексу кольору пікселя
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) \- Створення нового повнокольорового зображення
+-   [imagecolorallocate()](function.imagecolorallocate.md) \- Створення кольору для зображення
+-   [imagecolorat()](function.imagecolorat.md) \- Отримання індексу кольору пікселя

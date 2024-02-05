@@ -1,10 +1,11 @@
 ---
 navigation:
-  - soapfault.tostring.md: '« SoapFault::toString'
-  - soapheader.construct.md: 'SoapHeader::construct »'
+  - soapfault.tostring.md: '« SoapFault::\_\_function toString() { [native code] }'
+  - soapheader.construct.md: 'SoapHeader::\_\_construct »'
   - index.md: PHP Manual
   - book.soap.md: SOAP
 title: Клас SoapHeader
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SoapHeader
 
@@ -16,15 +17,10 @@ title: Клас SoapHeader
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      class SoapHeader
-     
+     class SoapHeader
      {
 
     /* Свойства */
@@ -52,7 +48,7 @@ title: Клас SoapHeader
 
     /* Методы */
     
-   __construct(    string $namespace,    string $name,    mixed $data = ?,    bool $mustunderstand = ?,    string $actor = ?)
+   public __construct(    string $namespace,    string $name,    mixed $data = ?,    bool $mustunderstand = ?,    string $actor = ?)
 
    }
 ```
@@ -71,4 +67,4 @@ namespace
 
 ## Зміст
 
--   [SoapHeader::construct](soapheader.construct.md) - Конструктор SoapHeader
+-   [SoapHeader::\_\_construct](soapheader.construct.md) \- Конструктор SoapHeader

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zmqpoll.md: ZMQPoll
 title: 'ZMQPoll::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZMQPoll::clear
 

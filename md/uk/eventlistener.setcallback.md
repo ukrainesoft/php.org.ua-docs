@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventlistener.md: EventListener
 title: 'EventListener::setCallback'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventListener::setCallback
 
@@ -37,19 +38,19 @@ public
 Повинна відповідати прототипу:
 
 ```methodsynopsis
-callback(    
+callback(    
        EventListener
         $listener
         = null
-      ,    
+      ,    
        mixed
         $fd
         = null
-      ,    
+      ,    
        array
         $address
         = null
-      ,    
+      ,    
        mixed
         $arg
         = null

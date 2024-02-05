@@ -1,10 +1,11 @@
 ---
 navigation:
-  - soapparam.construct.md: '« SoapParam::construct'
-  - soapvar.construct.md: 'SoapVar::construct »'
+  - soapparam.construct.md: '« SoapParam::\_\_construct'
+  - soapvar.construct.md: 'SoapVar::\_\_construct »'
   - index.md: PHP Manual
   - book.soap.md: SOAP
 title: Клас SoapVar
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SoapVar
 
@@ -12,19 +13,14 @@ title: Клас SoapVar
 
 ## Вступ
 
-Клас, який представляє змінну чи об'єкт використання з сервісами SOAP.
+Клас, що представляє змінну або об'єкт для використання із сервісами SOAP.
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      class SoapVar
-     
+     class SoapVar
      {
 
     /* Свойства */
@@ -56,25 +52,25 @@ title: Клас SoapVar
 
     /* Методы */
     
-   public __construct(    mixed $data,    ?int $encoding,    ?string $typeName = null,    ?string $typeNamespace = null,    ?string $nodeName = null,    ?string $nodeNamespace = null)
+   public __construct(    mixed $data,    ?int $encoding,    ?string $typeName = null,    ?string $typeNamespace = null,    ?string $nodeName = null,    ?string $nodeNamespace = null)
 
    }
 ```
 
 ## Властивості
 
-encname
+enc\_name
 
-encnamens
+enc\_namens
 
-encнс
+enc\_ns
 
-enctype
+enc\_type
 
-encstype
+enc\_stype
 
-encvalue
+enc\_value
 
 ## Зміст
 
--   [SoapVar::construct](soapvar.construct.md) - Конструктор SoapVar
+-   [SoapVar::\_\_construct](soapvar.construct.md) \- Конструктор SoapVar

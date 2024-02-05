@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.radius-demangle-mppe-key.md: « radiusdemanglemppekey
-  - function.radius-get-attr.md: radiusgetattr »
+  - function.radius-demangle-mppe-key.md: « radius\_demangle\_mppe\_key
+  - function.radius-get-attr.md: radius\_get\_attr »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiusdemangle
+  - ref.radius.md: Функції Radius
+title: radius\_demangle
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiusdemangle
+# radius\_demangle
 
 (PECL radius >= 1.2.0)
 
-radiusdemangle - Розшифровує дані
+radius\_demangle - Розшифровує дані
 
 ### Опис
 
@@ -32,4 +33,4 @@ radius_demangle(resource $radius_handle, string $mangled): string
 
 ### Значення, що повертаються
 
-Повертає розшифрований рядок або **`false`** у разі виникнення помилки.
+Повертає розшифрований рядок або \*\*`false`\*\*в случае возникновения ошибки.

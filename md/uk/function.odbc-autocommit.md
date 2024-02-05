@@ -1,21 +1,22 @@
 ---
 navigation:
-  - ref.uodbc.md: « Функции ODBC
-  - function.odbc-binmode.md: odbcbinmode »
+  - ref.uodbc.md: « Функції ODBC
+  - function.odbc-binmode.md: odbc\_binmode »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcautocommit
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_autocommit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcautocommit
+# odbc\_autocommit
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcautocommit — Перемикає поведінку автоматичної фіксації
+odbc\_autocommit — Перемикає поведінку автоматичної фіксації
 
 ### Опис
 
 ```methodsynopsis
-odbc_autocommit(resource $odbc, bool $enable = false): int|bool
+odbc_autocommit(resource $odbc, bool $enable = null): int|bool
 ```
 
 Перемикає поведінку автоматичної фіксації.
@@ -26,19 +27,25 @@ odbc_autocommit(resource $odbc, bool $enable = false): int|bool
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `enable`
 
-Якщо `enable` встановлений **`true`**, автоматична фіксація включена, якщо **`false`** - автоматична фіксація вимкнена.
+Якщо `enable`установлен\*\*`true`\*\*, автоматична фіксація включена, якщо **`false`** - автоматична фіксація вимкнена. Якщо передано **`null`**, функція повертає статус автоматичної фіксації для параметра `odbc`
 
 ### Значення, що повертаються
 
-Без параметра `enable` функція повертає статус автоматичної фіксації для `odbc`. Ненульове значення повертається, якщо автоматична фіксація увімкнена, 0 - якщо вимкнена та **`false`** у разі виникнення помилки.
+Без параметра`enable` функція повертає статус автоматичної фіксації для `odbc`. Ненульове значення повертається, якщо автоматична фіксація увімкнена, 0 - якщо вимкнена та \*\*`false`\*\*в случае возникновения ошибки.
 
-Якщо встановлено значення `enable`, функція повертає **`true`** у разі успішного виконання та **`false`** у разі виникнення помилки.
+Если задано значение`enable`, функція повертає **`true`** у разі успішного виконання та \*\*`false`\*\*в случае возникновения ошибки.
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.3.0 | Параметр`enable` тепер припускає значення **`null`** |
 
 ### Дивіться також
 
--   [odbccommit()](function.odbc-commit.md) - Фіксує транзакцію ODBC
--   [odbcrollback()](function.odbc-rollback.md) - Відкочує транзакцію
+-   [odbc\_commit()](function.odbc-commit.md) \- Фіксує транзакцію ODBC
+-   [odbc\_rollback()](function.odbc-rollback.md) \- Відкочує транзакцію

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-ht-trendline.md: « traderхтtrendline
-  - function.trader-kama.md: traderkama »
+  - function.trader-ht-trendline.md: « trader\_ht\_trendline
+  - function.trader-kama.md: trader\_kama »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderхтtrendmode
+  - ref.trader.md: Функції Trader
+title: trader\_ht\_trendmode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderхтtrendmode
+# trader\_ht\_trendmode
 
 (PECL trader >= 0.2.0)
 
-traderхтtrendmode - Перетворення Гільберта - тренд проти циклу
+trader\_ht\_trendmode - Перетворення Гільберта - тренд проти циклу
 
 ### Опис
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getModifiers'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getModifiers
 
@@ -30,5 +31,5 @@ public ReflectionClass::getModifiers(): int
 
 ### Дивіться також
 
--   [ReflectionClass::getProperties()](reflectionclass.getproperties.md) - Повертає властивості
--   [Reflection::getModifierNames()](reflection.getmodifiernames.md) - Отримання імен модифікаторів
+-   [ReflectionClass::getProperties()](reflectionclass.getproperties.md) \- Повертає властивості
+-   [Reflection::getModifierNames()](reflection.getmodifiernames.md) \- Отримання імен модифікаторів

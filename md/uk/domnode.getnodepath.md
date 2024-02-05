@@ -1,14 +1,15 @@
 ---
 navigation:
   - domnode.getlineno.md: '« DOMNode::getLineNo'
-  - domnode.hasattributes.md: 'DOMNode::hasAttributes »'
+  - domnode.getrootnode.md: 'DOMNode::getRootNode »'
   - index.md: PHP Manual
   - class.domnode.md: DOMNode
 title: 'DOMNode::getNodePath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNode::getNodePath
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 DOMNode::getNodePath — Отримання XPath вузла
 
@@ -26,11 +27,11 @@ public DOMNode::getNodePath(): ?string
 
 ### Значення, що повертаються
 
-Повертає рядок (string), що містить XPath або **`null`** у разі виникнення помилки.
+Повертає рядок (string), що містить XPath або \*\*`null`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DOMNode::getNodePath()****
+**Пример #1 Пример использования**DOMNode::getNodePath()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ foreach ($dom->getElementsByTagName('*') as $node) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 /fruits

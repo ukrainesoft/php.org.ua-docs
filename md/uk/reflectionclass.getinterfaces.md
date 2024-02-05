@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getInterfaces'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getInterfaces
 
@@ -30,7 +31,7 @@ public ReflectionClass::getInterfaces(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getInterfaces()****
+**Пример #1 Пример использования**ReflectionClass::getInterfaces()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ print_r($rc1->getInterfaces());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -66,4 +67,4 @@ Array
 
 ### Дивіться також
 
--   [ReflectionClass::getInterfaceNames()](reflectionclass.getinterfacenames.md) - Повертає імена інтерфейсів
+-   [ReflectionClass::getInterfaceNames()](reflectionclass.getinterfacenames.md) \- Повертає імена інтерфейсів

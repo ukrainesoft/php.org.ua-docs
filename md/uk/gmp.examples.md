@@ -1,10 +1,11 @@
 ---
 navigation:
-  - gmp.constants.md: « Обумовлені константи
+  - gmp.constants.md: « Зумовлені константи
   - ref.gmp.md: GMP Функції »
   - index.md: PHP Manual
   - book.gmp.md: GMP
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

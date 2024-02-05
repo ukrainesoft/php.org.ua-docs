@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-process.construct.md: '« SwooleProcess::construct'
-  - swoole-process.destruct.md: 'SwooleProcess::destruct »'
+  - swoole-process.construct.md: '« Swoole\\Process::\_\_construct'
+  - swoole-process.destruct.md: 'Swoole\\Process::\_\_destruct »'
   - index.md: PHP Manual
-  - class.swoole-process.md: SwooleProcess
-title: 'SwooleProcess::daemon'
+  - class.swoole-process.md: Swoole\\Process
+title: 'Swoole\\Process::daemon'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleProcess::daemon
+# Swoole\\Process::daemon
 
 (PECL swoole >= 1.9.0)
 
-SwooleProcess::daemon — Змінює процес на процес-демон
+Swoole\\Process::daemon — Змінює процес на процес-демон
 
 ### Опис
 
@@ -20,7 +21,7 @@ public static Swoole\Process::daemon(bool $nochdir = ?, bool $noclose = ?): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

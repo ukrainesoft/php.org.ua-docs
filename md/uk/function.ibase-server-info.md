@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-rollback.md: « ibaserollback
-  - function.ibase-service-attach.md: ibaseserviceattach »
+  - function.ibase-rollback.md: « ibase\_rollback
+  - function.ibase-service-attach.md: ibase\_service\_attach »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseserverinfo
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_server\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseserverinfo
+# ibase\_server\_info
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseserverinfo — Запитує інформацію про сервер бази даних
+ibase\_server\_info — Запитує інформацію про сервер бази даних
 
 ### Опис
 
@@ -34,7 +35,7 @@ ibase_server_info(resource $service_handle, int $action): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання [ibaseserviceattach()](function.ibase-service-attach.md)**
+**Пример #1 Пример использования[ibase\_service\_attach()](function.ibase-service-attach.md)**
 
 ```php
 <?php
@@ -65,7 +66,7 @@ ibase_server_info(resource $service_handle, int $action): string
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Версия сервера: LI-V3.0.4.33054 Firebird 3.0

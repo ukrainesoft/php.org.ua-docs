@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.cmark.md: « CommonMark
-  - cmark.setup.md: Встановлення та налаштування »
+  - cmark.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 
@@ -44,7 +45,7 @@ CommonMark\Render\Latex(CommonMark\Node $node, int $options = ?, int $width = ?)
 
 ##### AST:
 
-Модуль CommonMark реалізує переміщення для об'єктів CommonMarkNode:
+Модуль CommonMark реалізує переміщення для об'єктів CommonMark\\Node:
 
 ```methodsynopsis
 public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
@@ -54,4 +55,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 Модуль CommonMark надає інтерфейс для CQL, CommonMark Query Language:
 
-public [CommonMarkCQL::construct](commonmark-cql.construct.md)(string `$query`
+public[CommonMark\\CQL::\_\_construct](commonmark-cql.construct.md)(string`$query`) .

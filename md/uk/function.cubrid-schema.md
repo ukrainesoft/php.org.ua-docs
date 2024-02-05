@@ -1,88 +1,89 @@
 ---
 navigation:
-  - function.cubrid-rollback.md: « cubridrollback
-  - function.cubrid-seq-drop.md: cubridseqdrop »
+  - function.cubrid-rollback.md: « cubrid\_rollback
+  - function.cubrid-seq-drop.md: cubrid\_seq\_drop »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridschema
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_schema
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridschema
+# cubrid\_schema
 
 (PECL CUBRID >= 8.3.0)
 
-cubridschema — Отримує запитану інформацію про схему
+cubrid\_schema — Отримує запитану інформацію про схему
 
 ### Опис
 
 ```methodsynopsis
-cubrid_schema(    resource $conn_identifier,    int $schema_type,    string $class_name = ?,    string $attr_name = ?): array
+cubrid_schema(    resource $conn_identifier,    int $schema_type,    string $class_name = ?,    string $attr_name = ?): array
 ```
 
-Функція **cubridschema()** використовується для отримання запитаної інформації про схему бази даних. Ви повинні вказати `class_name`, якщо ви хочете отримати інформацію про певний клас, `attr_name`, якщо ви хочете отримати інформацію про певний атрибут (може використовуватися тільки з **`CUBRID_SCH_ATTR_PRIVILEGE`**
+Функция**cubrid\_schema()** використовується для отримання запитаної інформації про схему бази даних. Ви повинні вказати `class_name`, якщо ви хочете отримати інформацію про певний клас, `attr_name`, якщо ви хочете отримати інформацію про певний атрибут (може використовуватись тільки з **`CUBRID_SCH_ATTR_PRIVILEGE`**
 
-Результат функції **cubridschema()** повертається у вигляді двовимірного масиву (стовпець (асоціативний масив)) рядок (числовий масив)). У наступних таблицях показані типи схем та структура стовпців результуючого масиву, які мають бути повернуті на основі типу схеми.
+Результат функции**cubrid\_schema()** повертається у вигляді двовимірного масиву (стовпець (асоціативний масив)) \* рядок (числовий масив)). У наступних таблицях показані типи схем та структура стовпців результуючого масиву, які мають бути повернуті на основі типу схеми.
 
 **Склад результату кожного типу**
 
 | Схема | Номер столбца | Имя столбца | Значение |
 | --- | --- | --- | --- |
-| CUBRIDSCHCLASS |  | NAME |  |
+| CUBRID\_SCH\_CLASS |  | NAME |  |
 |  |  | TYPE | 0:system class 1:vclass 2:class |
-| CUBRIDSCHVCLASS |  | NAME |  |
+| CUBRID\_SCH\_VCLASS |  | NAME |  |
 |  |  | TYPE | 1:vclass |
-| CUBRIDSCHQUERYSPEC |  | QUERYSPEC |  |
-| CUBRIDSCHATTRIBUTE/CUBRIDSCHCLASSATTRIBUTE |  | ATTRNAME |  |
+| CUBRID\_SCH\_QUERY\_SPEC |  | QUERY\_SPEC |  |
+| CUBRID\_SCH\_ATTRIBUTE / CUBRID\_SCH\_CLASS\_ATTRIBUTE |  | ATTR\_NAME |  |
 |  |  | DOMAIN |  |
-|  |  | SCALE |  |
-|  |  | PRECISION |  |
-|  |  | INDEXED | 1:indexed |
-|  |  | NOT NULL | 1:not null |
-|  |  | SHARED | 1:shared |
-|  |  | UNIQUE | 1: unique |
-|  |  | DEFAULT |  |
-|  |  | ATTRORDER | base:1 |
-|  |  | CLASSNAME |  |
-|  |  | SOURCECLASS |  |
-|  |  | ІСKEY | 1:key |
-| CUBRIDSCHMETHOD/CUBRIDSCHCLASSMETHOD |  | NAME |  |
-|  |  | RETDOMAIN |  |
-|  |  | ARGDOMAIN |  |
-| CUBRIDSCHMETHODFILE |  | METHODFILE |  |
-| CUBRIDSCHSUPERCLASS/CUBRIDSCHDIRECTSUPERCLASS/CUBRIDSCHSUBCLASS |  | CLASSNAME |  |
+|  | 3 | SCALE |  |
+|  | 4 | PRECISION |  |
+|  | 5 | INDEXED | 1:indexed |
+|  | 6 | NOT NULL | 1:not null |
+|  | 7 | SHARED | 1:shared |
+|  | 8 | UNIQUE | 1:unique |
+|  | 9 | DEFAULT |  |
+|  | 10 | ATTR\_ORDER | base:1 |
+|  | 11 | CLASS\_NAME |  |
+|  | 12 | SOURCE\_CLASS |  |
+|  | 13 | IS\_KEY | 1:key |
+| CUBRID\_SCH\_METHOD / CUBRID\_SCH\_CLASS\_METHOD |  | NAME |  |
+|  |  | RET\_DOMAIN |  |
+|  | 3 | ARG\_DOMAIN |  |
+| CUBRID\_SCH\_METHOD\_FILE |  | METHOD\_FILE |  |
+| CUBRID\_SCH\_SUPERCLASS / CUBRID\_SCH\_DIRECT\_SUPER\_CLASS / CUBRID\_SCH\_SUBCLASS |  | CLASS\_NAME |  |
 |  |  | TYPE | 0:system class 1:vclass 2:class |
-| CUBRIDSCHCONSTRAINT |  | TYPE | 0:unique 1:index 2:reverse unique 3:reverse index |
+| CUBRID\_SCH\_CONSTRAINT |  | TYPE | 0:unique 1:index 2:reverse unique 3:reverse index |
 |  |  | NAME |  |
-|  |  | ATTRNAME |  |
-|  |  | NUMPAGES |  |
-|  |  | NUMKEYS |  |
-|  |  | PRIMARYKEY | 1:primary key |
-|  |  | KEYORDER | base:1 |
-| CUBRIDSCHTRIGGER |  | NAME |  |
+|  | 3 | ATTR\_NAME |  |
+|  | 4 | NUM\_PAGES |  |
+|  | 5 | NUM\_KEYS |  |
+|  | 6 | PRIMARY\_KEY | 1:primary key |
+|  | 7 | KEY\_ORDER | base:1 |
+| CUBRID\_SCH\_TRIGGER |  | NAME |  |
 |  |  | STATUS |  |
-|  |  | EVENT |  |
-|  |  | TARGETCLASS |  |
-|  |  | TARGETATTR |  |
-|  |  | ACTIONTIME |  |
-|  |  | ACTION |  |
-|  |  | PRIORITY |  |
-|  |  | CONDITIONTIME |  |
-|  |  | CONDITION |  |
-| CUBRIDSCHCLASSPRIVILEGE/CUBRIDSCHATTRPRIVILEGE |  | CLASSNAME/ATTRNAME |  |
+|  | 3 | EVENT |  |
+|  | 4 | TARGET\_CLASS |  |
+|  | 5 | TARGET\_ATTR |  |
+|  | 6 | ACTION\_TIME |  |
+|  | 7 | ACTION |  |
+|  | 8 | PRIORITY |  |
+|  | 9 | CONDITION\_TIME |  |
+|  | 10 | CONDITION |  |
+| CUBRID\_SCH\_CLASS\_PRIVILEGE / CUBRID\_SCH\_ATTR\_PRIVILEGE |  | CLASS\_NAME / ATTR\_NAME |  |
 |  |  | PRIVILEGE |  |
-|  |  | GRANTABLE |  |
-| CUBRIDSCHPRIMARYKEY |  | CLASSNAME |  |
-|  |  | ATTRNAME |  |
-|  |  | KEYSEQ | base:1 |
-|  |  | KEYNAME |  |
-| CUBRIDSCHIMPORTEDKEYS/CUBRIDSCHEXPORTEDKEYS/CUBRIDSCHCROSSREFERENCE |  | PKTABLENAME |  |
-|  |  | PKCOLUMNNAME |  |
-|  |  | FKTABLENAME | base:1 |
-|  |  | FKCOLUMNNAME |  |
-|  |  | KEYSEQ | base:1 |
-|  |  | UPDATEACTION | 0:cascade 1:restrict 2:no action 3:set null |
-|  |  | DELETEACTION | 0:cascade 1:restrict 2:no action 3:set null |
-|  |  | ФКNAME |  |
-|  |  | ПКNAME |  |
+|  | 3 | GRANTABLE |  |
+| CUBRID\_SCH\_PRIMARY\_KEY |  | CLASS\_NAME |  |
+|  |  | ATTR\_NAME |  |
+|  | 3 | KEY\_SEQ | base:1 |
+|  | 4 | KEY\_NAME |  |
+| CUBRID\_SCH\_IMPORTED\_KEYS / CUBRID\_SCH\_EXPORTED\_KEYS / CUBRID\_SCH\_CROSS\_REFERENCE |  | PKTABLE\_NAME |  |
+|  |  | PKCOLUMN\_NAME |  |
+|  | 3 | FKTABLE\_NAME | base:1 |
+|  | 4 | FKCOLUMN\_NAME |  |
+|  | 5 | KEY\_SEQ | base:1 |
+|  | 6 | UPDATE\_ACTION | 0:cascade 1:restrict 2:no action 3:set null |
+|  | 7 | DELETE\_ACTION | 0:cascade 1:restrict 2:no action 3:set null |
+|  | 8 | FK\_NAME |  |
+|  | 9 | PK\_NAME |  |
 
 ### Список параметрів
 
@@ -104,17 +105,17 @@ cubrid_schema(    resource $conn_identifier,    int $schema_type,    string $cla
 
 ### Значення, що повертаються
 
-Масив, що містить інформацію про схему, у разі успішного виконання або **`false`** у разі виникнення помилки.
+Масив, що містить інформацію про схему, у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Змінено значення, що повертається: якщо процес завершився з помилкою, повертається false, а не -1. |
+| 8.3.1 | Змінено значення, що повертається: якщо процес завершився з помилкою, повертається false, а не -1. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridschema()****
+**Пример #1 Пример использования**cubrid\_schema()\*\*\*\*
 
 ```php
 <?php
@@ -136,7 +137,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 --- Первичный ключ ---

@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.ldap.md: « Функції LDAP
-  - function.ldap-add-ext.md: ldapaddext »
+  - function.ldap-add-ext.md: ldap\_add\_ext »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapтоt61
+title: ldap\_8859\_to\_t61
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapтоt61
+# ldap\_8859\_to\_t61
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-ldapтоt61 — Переводить символи з кодування ISO-8859 до t61
+ldap\_8859\_to\_t61 — Переводить символи з кодування ISO-8859 до t61
 
 ### Опис
 
@@ -18,7 +19,7 @@ ldapтоt61 — Переводить символи з кодування ISO-88
 ldap_8859_to_t61(string $value): string|false
 ```
 
-Перекладає символи з кодування `ISO-8859` в `t61`
+Перекладає символи з кодування `ISO-8859`в`t61`
 
 Ця функція корисна, якщо потрібно працювати зі застарілим сервером `LDAPv2`
 
@@ -30,8 +31,8 @@ ldap_8859_to_t61(string $value): string|false
 
 ### Значення, що повертаються
 
-Повертає кодований у `t61` параметр `value` або **`false`** у разі виникнення помилки.
+Повертає кодований у `t61`параметр`value`или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ldapt61то](function.ldap-t61-to-8859.md) - Перекладає символи з кодування t61 ISO-8859
+-   [ldap\_t61\_to\_8859()](function.ldap-t61-to-8859.md) \- Перекладає символи з кодування t61 ISO-8859

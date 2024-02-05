@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-delete.md: « ldapdelete
-  - function.ldap-err2str.md: ldaperr2str »
+  - function.ldap-delete.md: « ldap\_delete
+  - function.ldap-err2str.md: ldap\_err2str »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapdn2ufn
+title: ldap\_dn2ufn
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapdn2ufn
+# ldap\_dn2ufn
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapdn2ufn — Перетворити DN на зручний для користувача формат іменування
+ldap\_dn2ufn — Перетворити DN на зручний для користувача формат іменування
 
 ### Опис
 
@@ -28,4 +29,4 @@ ldap_dn2ufn(string $dn): string|false
 
 ### Значення, що повертаються
 
-Повертає зручне для користувача ім'я або **`false`** у разі виникнення помилки.
+Повертає зручне для користувача ім'я або \*\*`false`\*\*в случае возникновения ошибки.

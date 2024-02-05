@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mysql-xdevapi-session.md: « mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: « mysql\_xdevapi\\Session
   - mysql-xdevapi-session.commit.md: 'Session::commit »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::close
 
 (No version information available, might only be in Git)
 
-Session::close — Закриває сесію
+Session::close - Закриває сесію
 
 ### Опис
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Session::close(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::close()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::close()\*\*\*\*
 
 ```php
 <?php

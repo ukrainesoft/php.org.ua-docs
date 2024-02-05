@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-adx.md: « traderadx
-  - function.trader-apo.md: traderapo »
+  - function.trader-adx.md: « trader\_adx
+  - function.trader-apo.md: trader\_apo »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderadxr
+  - ref.trader.md: Функції Trader
+title: trader\_adxr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderadxr
+# trader\_adxr
 
 (PECL trader >= 0.2.0)
 
-traderadxr - Середній рейтинг індексу спрямованого руху
+trader\_adxr - Середній рейтинг індексу спрямованого руху
 
 ### Опис
 
 ```methodsynopsis
-trader_adxr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_adxr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-get-dn.md: « ldapgetдн
-  - function.ldap-get-option.md: ldapgetoption »
+  - function.ldap-get-dn.md: « ldap\_get\_dn
+  - function.ldap-get-option.md: ldap\_get\_option »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapgetentries
+title: ldap\_get\_entries
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapgetentries
+# ldap\_get\_entries
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapgetentries — Отримує всі записи результату
+ldap\_get\_entries — Отримує всі записи результату
 
 ### Опис
 
@@ -24,15 +25,15 @@ ldap_get_entries(LDAP\Connection $ldap, LDAP\Result $result): array|false
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `result`
 
-Екземпляр [LDAPResult](class.ldap-result.md), що повертається [ldaplist()](function.ldap-list.md) або [ldapsearch()](function.ldap-search.md)
+Екземпляр [LDAP\\Result](class.ldap-result.md), що повертається [ldap\_list()](function.ldap-list.md) або [ldap\_search()](function.ldap-search.md)
 
 ### Значення, що повертаються
 
-Повертає повну інформацію про результат у вигляді багатовимірного масиву у разі успішного виконання, та **`false`** у разі виникнення помилки.
+Повертає повну інформацію про результат у вигляді багатовимірного масиву у разі успішного виконання, та \*\*`false`\*\*в случае возникновения ошибки.
 
 Структура масиву наступна: Індекс атрибута перетворено на нижній регістр. (Атрибути для серверів каталогів є нечутливими до регістру, але не тоді, коли вони використовуються як індекс масиву.)
 
@@ -52,12 +53,12 @@ return_value[i]["attribute"][j] = j-ое значение атрибута i-о�
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [LDAP\\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap result` |
 
 ### Дивіться також
 
--   [ldapfirstentry()](function.ldap-first-entry.md) - Повернути перший ідентифікатор результату
--   [ldapnextentry()](function.ldap-next-entry.md) - Отримати наступний запис результату
+-   [ldap\_first\_entry()](function.ldap-first-entry.md) \- Повернути перший ідентифікатор результату
+-   [ldap\_next\_entry()](function.ldap-next-entry.md) \- Отримати наступний запис результату

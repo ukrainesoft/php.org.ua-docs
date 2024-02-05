@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.mqseries-begin.md: « mqseriesbegin
-  - function.mqseries-cmit.md: mqseriescmit »
+  - function.mqseries-begin.md: « mqseries\_begin
+  - function.mqseries-cmit.md: mqseries\_cmit »
   - index.md: PHP Manual
-  - ref.mqseries.md: Функции mqseries
-title: mqseriesclose
+  - ref.mqseries.md: Функції mqseries
+title: mqseries\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mqseriesclose
+# mqseries\_close
 
 (PECL mqseries >= 0.10.0)
 
-mqseriesclose — MQSeries MQCLOSE
+mqseries\_close — MQSeries MQCLOSE
 
 ### Опис
 
 ```methodsynopsis
-mqseries_close(    resource $hconn,    resource $hobj,    int $options,    resource &$compCode,    resource &$reason): void
+mqseries_close(    resource $hconn,    resource $hobj,    int $options,    resource &$compCode,    resource &$reason): void
 ```
 
-Функція **mqseriesclose()** (MQCLOSE) припиняє доступ до об'єкта і є зворотною функцією [mqseriesopen()](function.mqseries-open.md) (MQOPEN).
+Функция**mqseries\_close()** (MQCLOSE) припиняє доступ до об'єкта і є зворотною функцією [mqseries\_open()](function.mqseries-open.md)(MQOPEN).
 
 ### Список параметрів
 
@@ -50,7 +51,7 @@ Completion code.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseriesclose()****
+**Пример #1 Пример использования**mqseries\_close()\*\*\*\*
 
 ```php
 <?php
@@ -63,6 +64,6 @@ Completion code.
 
 ### Дивіться також
 
--   [mqseriesopen()](function.mqseries-open.md) - MQSeries MQOPEN
--   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
+-   [mqseries\_open()](function.mqseries-open.md) \- MQSeries MQOPEN
+-   [mqseries\_conn()](function.mqseries-conn.md) \- MQSeries MQCONN
+-   [mqseries\_connx()](function.mqseries-connx.md) \- MQSeries MQCONNX

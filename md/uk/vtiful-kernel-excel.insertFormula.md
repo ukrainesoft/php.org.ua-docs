@@ -1,16 +1,17 @@
 ---
 navigation:
-  - vtiful-kernel-excel.header.md: '« VtifulKernelExcel::header'
-  - vtiful-kernel-excel.insertImage.md: 'VtifulKernelExcel::insertImage »'
+  - vtiful-kernel-excel.header.md: '« Vtiful\\Kernel\\Excel::header'
+  - vtiful-kernel-excel.insertImage.md: 'Vtiful\\Kernel\\Excel::insertImage »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.md: VtifulKernelExcel
-title: 'VtifulKernelExcel::insertFormula'
+  - class.vtiful-kernel-excel.md: Vtiful\\Kernel\\Excel
+title: 'Vtiful\\Kernel\\Excel::insertFormula'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelExcel::insertFormula
+# Vtiful\\Kernel\\Excel::insertFormula
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelExcel::insertFormula — Вставити формулу розрахунку
+Vtiful\\Kernel\\Excel::insertFormula — Вставити формулу розрахунку
 
 ### Опис
 
@@ -36,7 +37,7 @@ public Vtiful\Kernel\Excel::insertFormula(int $row, int $column, string $formula
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::sendData'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanJob::sendData
 
@@ -28,9 +29,9 @@ public GearmanJob::sendData(string $data): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [GearmanJob::workload()](gearmanjob.workload.md) - отримання даних для обробки
--   [GearmanTask::data()](gearmantask.data.md) - Отримати дані, повернені для завдання
+-   [GearmanJob::workload()](gearmanjob.workload.md) \- отримання даних для обробки
+-   [GearmanTask::data()](gearmantask.data.md) \- Отримати дані, повернені для завдання

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageDistortion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageDistortion
 
@@ -28,7 +29,7 @@ public Imagick::getImageDistortion(MagickWand $reference, int $metric): float
 
 `metric`
 
-Одна з [констант типа METRIC](imagick.constants.md#imagick.constants.metric)
+Одна из[констант типу METRIC](imagick.constants.md#imagick.constants.metric)
 
 ### Значення, що повертаються
 

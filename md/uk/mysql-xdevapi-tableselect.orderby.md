@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-tableselect.offset.md: '« TableSelect::offset'
   - mysql-xdevapi-tableselect.where.md: 'TableSelect::where »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysql\_xdevapi\\TableSelect
 title: 'TableSelect::orderby'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableSelect::orderby
 
@@ -28,7 +29,7 @@ public mysql_xdevapi\TableSelect::orderby(mixed $sort_expr, mixed ...$sort_exprs
 
 `sort_exprs`
 
-Додаткові параметри sortexpr.
+Додаткові параметри sort\_expr.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public mysql_xdevapi\TableSelect::orderby(mixed $sort_expr, mixed ...$sort_exprs
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::orderBy()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::orderBy()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ print_r($row);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

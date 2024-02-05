@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageOrientation'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageOrientation
 
@@ -18,7 +19,7 @@ Imagick::getImageOrientation — Повертає орієнтацію зобр�
 public Imagick::getImageOrientation(): int
 ```
 
-Повертає орієнтацію зображення. Значення, що повертається - одна з [констант ORIENTATION](imagick.constants.md#imagick.constants.orientation)
+Возвращает ориентацию изображения. Возвращаемое значение - одна из[констант ORIENTATION](imagick.constants.md#imagick.constants.orientation)
 
 ### Список параметрів
 

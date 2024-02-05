@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.gnupg-sign.md: « gnupgsign
+  - function.gnupg-sign.md: « gnupg\_sign
   - book.wkhtmltox.md: wkhtmltox »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgverify
+title: gnupg\_verify
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgverify
+# gnupg\_verify
 
 (PECL gnupg >= 0.1)
 
-gnupgverify — Перевірка підпису тексту
+gnupg\_verify — Перевірка підпису тексту
 
 ### Опис
 
 ```methodsynopsis
-gnupg_verify(    resource $identifier,    string $signed_text,    string $signature,    string &$plaintext = ?): array
+gnupg_verify(    resource $identifier,    string $signed_text,    string $signature,    string &$plaintext = ?): array|false
 ```
 
 Перевіряє підпис переданого у параметрі `signed_text` тексту та повертає інформацію про підпис.
@@ -24,7 +25,7 @@ gnupg_verify(    resource $identifier,    string $signed_text,    string $signat
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `signed_text`
 
@@ -44,7 +45,7 @@ gnupg_verify(    resource $identifier,    string $signed_text,    string $signat
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupgverify()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_verify()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ print_r($info);
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupgverify()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_verify()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

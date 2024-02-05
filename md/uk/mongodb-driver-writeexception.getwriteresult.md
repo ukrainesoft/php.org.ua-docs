@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-writeexception.md: « MongoDBDriverExceptionWriteException
+  - class.mongodb-driver-exception-writeexception.md: « MongoDB\\Driver\\Exception\\WriteException
   - mongodb.exceptions.tree.md: Class Tree »
   - index.md: PHP Manual
-  - class.mongodb-driver-exception-writeexception.md: MongoDBDriverExceptionWriteException
-title: 'MongoDBDriverExceptionWriteException::getWriteResult'
+  - class.mongodb-driver-exception-writeexception.md: MongoDB\\Driver\\Exception\\WriteException
+title: 'MongoDB\\Driver\\Exception\\WriteException::getWriteResult'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverExceptionWriteException::getWriteResult
+# MongoDB\\Driver\\Exception\\WriteException::getWriteResult
 
 (mongodb >= 1.0.0)
 
-MongoDBDriverExceptionWriteException::getWriteResult — Повертає WriteResult для операції запису помилкою, що закінчилася.
+MongoDB\\Driver\\Exception\\WriteException::getWriteResult — Повертає WriteResult для операції запису помилкою, що закінчилася.
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverExceptionWriteException::getWriteResult — Повертає WriteR
 final public MongoDB\Driver\Exception\WriteException::getWriteResult(): MongoDB\Driver\WriteResult
 ```
 
-Повертає об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md) для операції запису, що закінчилася помилкою. Більш детальну інформацію про помилку можна отримати за допомогою методів [MongoDBDriverWriteResult::getWriteErrors()](mongodb-driver-writeresult.getwriteerrors.md) і [MongoDBDriverWriteResult::getWriteConcernError()](mongodb-driver-writeresult.getwriteconcernerror.md)
+Повертає об'єкт [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.md) для операції запису, що закінчилася помилкою. Більш детальну інформацію про помилку можна отримати за допомогою методів [MongoDB\\Driver\\WriteResult::getWriteErrors()](mongodb-driver-writeresult.getwriteerrors.md) і [MongoDB\\Driver\\WriteResult::getWriteConcernError()](mongodb-driver-writeresult.getwriteconcernerror.md)
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ final public MongoDB\Driver\Exception\WriteException::getWriteResult(): MongoDB\
 
 ### Значення, що повертаються
 
-Об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md) для операції запису помилкою, що закінчилася.
+Об'єкт [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.md) для операції запису помилкою, що закінчилася.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverExceptionWriteException::getWriteResult()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Exception\\WriteException::getWriteResult()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {
@@ -77,5 +78,5 @@ array(1) {
 
 ### Дивіться також
 
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md)
--   [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md) - Виконує одну або кілька операцій запису
+-   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.md)
+-   [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md) \- Виконує одну або кілька операцій запису

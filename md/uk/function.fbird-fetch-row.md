@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.fbird-fetch-object.md: « fbirdfetchobject
-  - function.fbird-field-info.md: fbirdfieldinfo »
+  - function.fbird-fetch-object.md: « fbird\_fetch\_object
+  - function.fbird-field-info.md: fbird\_field\_info »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: fbirdfetchrow
+  - ref.ibase.md: Функції Firebird/InterBase
+title: fbird\_fetch\_row
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fbirdfetchrow
+# fbird\_fetch\_row
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdfetchrow - Псевдонім [ibasefetchrow()](function.ibase-fetch-row.md)
+fbird\_fetch\_row — Псевдоним[ibase\_fetch\_row()](function.ibase-fetch-row.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasefetchrow()](function.ibase-fetch-row.md)
+Функция — псевдоним функции:[ibase\_fetch\_row()](function.ibase-fetch-row.md)
 
 ### Дивіться також
 
--   [fbirdfetchassoc()](function.fbird-fetch-assoc.md) - Псевдонім ibasefetchassoc
--   [fbirdfetchobject()](function.fbird-fetch-object.md) - Псевдонім ibasefetchobject
+-   [fbird\_fetch\_assoc()](function.fbird-fetch-assoc.md) \- Псевдонім ibase\_fetch\_assoc
+-   [fbird\_fetch\_object()](function.fbird-fetch-object.md) \- Псевдонім ibase\_fetch\_object

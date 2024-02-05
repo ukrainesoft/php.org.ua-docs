@@ -1,10 +1,11 @@
 ---
 navigation:
   - yac.flush.md: '« Yac::flush'
-  - yac.getter.md: 'Yac::get »'
+  - yac.getter.md: 'Yac::\_\_get »'
   - index.md: PHP Manual
   - class.yac.md: Yac
 title: 'Yac::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Yac::get
 

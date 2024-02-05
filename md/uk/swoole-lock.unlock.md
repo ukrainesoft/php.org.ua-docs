@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-lock.trylock.md: '« SwooleLock::trylock'
-  - class.swoole-mmap.md: SwooleMmap »
+  - swoole-lock.trylock.md: '« Swoole\\Lock::trylock'
+  - class.swoole-mmap.md: Swoole\\Mmap »
   - index.md: PHP Manual
-  - class.swoole-lock.md: SwooleLock
-title: 'SwooleLock::unlock'
+  - class.swoole-lock.md: Swoole\\Lock
+title: 'Swoole\\Lock::unlock'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleLock::unlock
+# Swoole\\Lock::unlock
 
 (PECL swoole >= 1.9.0)
 
-SwooleLock::unlock — Знімає блокування
+Swoole\\Lock::unlock — Знімає блокування
 
 ### Опис
 

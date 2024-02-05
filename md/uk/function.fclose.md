@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: fclose
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # fclose
 
@@ -28,7 +29,7 @@ fclose(resource $stream): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -46,5 +47,5 @@ fclose($handle);
 
 ### Дивіться також
 
--   [fopen()](function.fopen.md) - Відкриває файл або URL
--   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [fopen()](function.fopen.md) \- Відкриває файл або URL
+-   [fsockopen()](function.fsockopen.md) \- Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix

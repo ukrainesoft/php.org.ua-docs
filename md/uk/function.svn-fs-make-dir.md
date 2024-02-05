@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-is-file.md: « svnфсісfile
-  - function.svn-fs-make-file.md: svnфсmakefile »
+  - function.svn-fs-is-file.md: « svn\_fs\_is\_file
+  - function.svn-fs-make-file.md: svn\_fs\_make\_file »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсmakedir
+title: svn\_fs\_make\_dir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсmakedir
+# svn\_fs\_make\_dir
 
 (PECL svn >= 0.2.0)
 
-svnфсmakedir - Створює нову порожню директорію
+svn\_fs\_make\_dir - Створює нову порожню директорію
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_make_dir(resource $root, string $path): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Створює нову порожню директорію.
 
@@ -32,7 +33,7 @@ svn_fs_make_dir(resource $root, string $path): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 

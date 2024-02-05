@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mysqli.quickstart.transactions.md: « API поддержка транзакций
-  - mysqli.setup.md: Встановлення та налаштування »
+  - mysqli.quickstart.transactions.md: API підтримка транзакцій
+  - mysqli.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
-  - mysqli.quickstart.md: Краткое руководство
+  - mysqli.quickstart.md: Короткий посібник
 title: Метадані
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Метадані
 
 Результуючий набір MySQL містить метадані. Ці дані описують стовпці результуючої таблиці. Усі відомості, які передає MySQL, доступні через `mysqli` інтерфейс. Модуль не змінює отримані дані або ці зміни незначні. Відмінності між версіями MySQL також можна не брати до уваги.
 
-Метадані доступні через інтерфейс [mysqliresult](class.mysqli-result.md)
+Метадані доступні через інтерфейс [mysqli\_result](class.mysqli-result.md)
 
 **Приклад #1 Доступ до метаданих результуючої таблиці**
 
@@ -26,7 +27,7 @@ var_dump($res->fetch_fields());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {
@@ -91,9 +92,9 @@ array(2) {
 }
 ```
 
-*Підготовлювані запити*
+**Підготовлювані запити**
 
-Метадані результуючих наборів, одержаних в результаті виконання підготовлених запитів, можна отримати аналогічним чином. Відповідний дескриптор [mysqliresult](class.mysqli-result.md) можна отримати функцією [mysqlistmt::resultmetadata()](mysqli-stmt.result-metadata.md)
+Метадані результуючих наборів, одержаних в результаті виконання підготовлених запитів, можна отримати аналогічним чином. Відповідний дескриптор [mysqli\_result](class.mysqli-result.md) можна отримати функцією [mysqli\_stmt::result\_metadata()](mysqli-stmt.result-metadata.md)
 
 **Приклад #2 Метадані підготовлених запитів**
 
@@ -109,7 +110,7 @@ $result = $stmt->result_metadata();
 var_dump($result->fetch_fields());
 ```
 
-*Дивіться також*
+**Дивіться також**
 
 -   [mysqli::query()](mysqli.query.md)
--   [mysqliresult::fetchfields()](mysqli-result.fetch-fields.md)
+-   [mysqli\_result::fetch\_fields()](mysqli-result.fetch-fields.md)

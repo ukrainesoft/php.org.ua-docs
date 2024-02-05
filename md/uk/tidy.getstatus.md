@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.tidy.md: tidy
 title: 'tidy::getStatus'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidy::getStatus
 
-# tidygetstatus
+# tidy\_get\_status
 
-(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
 
-tidy::getStatus -- tidygetstatus — Отримує статус зазначеного документа
+tidy::getStatus -- tidy\_get\_status — Отримує статус зазначеного документа
 
 ### Опис
 
@@ -42,7 +43,7 @@ tidy_get_status(tidy $tidy): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidy::getStatus()****
+**Пример #1 Пример использования**tidy::getStatus()\*\*\*\*
 
 ```php
 <?php

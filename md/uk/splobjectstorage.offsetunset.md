@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::offsetUnset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplObjectStorage::offsetUnset
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplObjectStorage::offsetUnset — Видаляє об'єкт із контейнера
 
@@ -20,9 +21,9 @@ public SplObjectStorage::offsetUnset(object $object): void
 
 Видаляє об'єкт з контейнера.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **SplObjectStorage::offsetUnset()** є псевдонімом методу [SplObjectStorage::detach()](splobjectstorage.detach.md)
+> \*\*SplObjectStorage::offsetUnset()\*\*является псевдонимом метода[SplObjectStorage::detach()](splobjectstorage.detach.md)
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ public SplObjectStorage::offsetUnset(object $object): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplObjectStorage::offsetUnset()****
+**Пример #1 Пример использования**SplObjectStorage::offsetUnset()\*\*\*\*
 
 ```php
 <?php
-$o = new StdClass;
+$o = new stdClass;
 $s = new SplObjectStorage();
 $s->attach($o);
 var_dump(count($s));
@@ -49,7 +50,7 @@ var_dump(count($s));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(1)
@@ -58,6 +59,6 @@ int(0)
 
 ### Дивіться також
 
--   [SplObjectStorage::offsetGet()](splobjectstorage.offsetget.md) - Повертає дані, асоційовані з об'єктом object
--   [SplObjectStorage::offsetSet()](splobjectstorage.offsetset.md) - Асоціює дані з об'єктом у контейнері
--   [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.md) - Перевіряє, чи існує об'єкт у контейнері
+-   [SplObjectStorage::offsetGet()](splobjectstorage.offsetget.md) \- Повертає дані, асоційовані з об'єктом object
+-   [SplObjectStorage::offsetSet()](splobjectstorage.offsetset.md) \- Асоціює дані з об'єктом у контейнері
+-   [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.md) \- Перевіряє, чи існує об'єкт у контейнері

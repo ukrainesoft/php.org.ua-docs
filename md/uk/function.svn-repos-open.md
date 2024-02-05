@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-repos-hotcopy.md: « svnreposhotcopy
-  - function.svn-repos-recover.md: svnreposrecover »
+  - function.svn-repos-hotcopy.md: « svn\_repos\_hotcopy
+  - function.svn-repos-recover.md: svn\_repos\_recover »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnreposopen
+title: svn\_repos\_open
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnreposopen
+# svn\_repos\_open
 
-(PECL svn> = 0.1.0)
+(PECL svn >= 0.1.0)
 
-svnreposopen — Відкриває репозиторій із загальним блокуванням
+svn\_repos\_open — Відкриває репозиторій із загальним блокуванням
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_repos_open(string $path): resource
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Відкриває репозиторій із загальним блокуванням.
 

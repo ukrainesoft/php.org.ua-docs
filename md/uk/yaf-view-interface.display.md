@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-view-interface.assign.md: '« YafViewInterface::assign'
-  - yaf-view-interface.getscriptpath.md: 'YafViewInterface::getScriptPath »'
+  - yaf-view-interface.assign.md: '« Yaf\_View\_Interface::assign'
+  - yaf-view-interface.getscriptpath.md: 'Yaf\_View\_Interface::getScriptPath »'
   - index.md: PHP Manual
-  - class.yaf-view-interface.md: YafViewInterface
-title: 'YafViewInterface::display'
+  - class.yaf-view-interface.md: Yaf\_View\_Interface
+title: 'Yaf\_View\_Interface::display'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafViewInterface::display
+# Yaf\_View\_Interface::display
 
 (Yaf >=1.0.0)
 
-YafViewInterface::display — Відображає та виводить шаблон
+Yaf\_View\_Interface::display — Відображає та виводить шаблон
 
 ### Опис
 
@@ -22,7 +23,7 @@ abstract public Yaf_View_Interface::display(string $tpl, array $tpl_vars = ?): b
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

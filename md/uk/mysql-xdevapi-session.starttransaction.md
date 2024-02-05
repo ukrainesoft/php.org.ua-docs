@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-session.sql.md: '« Session::sql'
-  - class.mysql-xdevapi-sqlstatement.md: mysqlxdevapiSqlStatement »
+  - class.mysql-xdevapi-sqlstatement.md: mysql\_xdevapi\\SqlStatement »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::startTransaction'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::startTransaction
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Session::startTransaction(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::startTransaction()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::startTransaction()\*\*\*\*
 
 ```php
 <?php

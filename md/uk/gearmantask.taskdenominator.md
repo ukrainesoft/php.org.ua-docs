@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::taskDenominator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanTask::taskDenominator
 
@@ -15,7 +16,7 @@ GearmanTask::taskDenominator — Отримати знаменник відсо�
 ### Опис
 
 ```methodsynopsis
-public GearmanTask::taskDenominator(): int
+public GearmanTask::taskDenominator(): false|int
 ```
 
 Отримує знаменник дробу, що використовується визначення відсотка виконаної роботи.
@@ -26,8 +27,8 @@ public GearmanTask::taskDenominator(): int
 
 ### Значення, що повертаються
 
-Число від 0 до 100 або \*\*`false`\*\*якщо визначити значення не вдалося.
+Число от 0 до 100 или\*\*`false`\*\*якщо визначити значення не вдалося.
 
 ### Дивіться також
 
--   [GearmanTask::taskNumerator()](gearmantask.tasknumerator.md) - отримання чисельника відсотка виконаної роботи
+-   [GearmanTask::taskNumerator()](gearmantask.tasknumerator.md) \- отримання чисельника відсотка виконаної роботи

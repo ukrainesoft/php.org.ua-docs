@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-dens-weibull.md: « statsdensweibull
-  - function.stats-kurtosis.md: statskurtosis »
+  - function.stats-dens-weibull.md: « stats\_dens\_weibull
+  - function.stats-kurtosis.md: stats\_kurtosis »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsharmonicmean
+title: stats\_harmonic\_mean
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsharmonicmean
+# stats\_harmonic\_mean
 
 (PECL stats >= 1.0.0)
 
-statsharmonicmean — Повертає середній гармонійний масив значень
+stats\_harmonic\_mean — Повертає середній гармонійний масив значень
 
 ### Опис
 
@@ -28,4 +29,4 @@ stats_harmonic_mean(array $a): number
 
 ### Значення, що повертаються
 
-Повертає середній гармонійний масив значень `a` або **`false`**, якщо `a` порожній чи не є масивом.
+Повертає середній гармонійний масив значень `a`или\*\*`false`\*\*, якщо `a` порожній чи не є масивом.

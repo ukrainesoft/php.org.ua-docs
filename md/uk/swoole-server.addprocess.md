@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.addlistener.md: '« SwooleServer::addlistener'
-  - swoole-server.after.md: 'SwooleServer::after »'
+  - swoole-server.addlistener.md: '« Swoole\\Server::addlistener'
+  - swoole-server.after.md: 'Swoole\\Server::after »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::addProcess'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::addProcess'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::addProcess
+# Swoole\\Server::addProcess
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::addProcess — Додає певний користувачем swooleprocess на сервер
+Swoole\\Server::addProcess — Додає певний користувачем swoole\_process на сервер
 
 ### Опис
 

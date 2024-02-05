@@ -1,10 +1,11 @@
 ---
 navigation:
-  - security.intro.md: « Вступление
-  - security.cgi-bin.md: Если PHP установлен как CGI »
+  - security.intro.md: « Вступ
+  - security.cgi-bin.md: Якщо PHP встановлено як CGI »
   - index.md: PHP Manual
   - security.md: Безпека
 title: Загальні міркування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Загальні міркування
 

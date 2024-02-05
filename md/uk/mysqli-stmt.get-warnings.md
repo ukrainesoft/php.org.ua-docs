@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-stmt.get-result.md: '« mysqlistmt::getresult'
-  - mysqli-stmt.insert-id.md: 'mysqlistmt::$insertid »'
+  - mysqli-stmt.get-result.md: '« mysqli\_stmt::get\_result'
+  - mysqli-stmt.insert-id.md: 'mysqli\_stmt::$insert\_id »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::getwarnings'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::get\_warnings'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::getwarnings
+# mysqli\_stmt::get\_warnings
 
-# mysqlistmtgetwarnings
+# mysqli\_stmt\_get\_warnings
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-mysqlistmt::getwarnings - mysqlistmtgetwarnings — Отримує результат від SHOW WARNINGS
+mysqli\_stmt::get\_warnings -- mysqli\_stmt\_get\_warnings — Отримує результат від SHOW WARNINGS
 
 ### Опис
 
@@ -30,4 +31,4 @@ mysqli_stmt_get_warnings(mysqli_stmt $statement): mysqli_warning|false
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

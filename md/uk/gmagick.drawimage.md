@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::drawimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::drawimage
 
@@ -18,7 +19,7 @@ Gmagick::drawimage — Відображає об'єкт GmagickDraw на пот�
 public Gmagick::drawimage(GmagickDraw $GmagickDraw): Gmagick
 ```
 
-Відображає об'єкт [GmagickDraw](class.gmagickdraw.md) на поточному зображенні
+Відображає об'єкт [GmagickDraw](class.gmagickdraw.md)на текущем изображении
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ public Gmagick::drawimage(GmagickDraw $GmagickDraw): Gmagick
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

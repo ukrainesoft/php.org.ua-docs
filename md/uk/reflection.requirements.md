@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflection.setup.md: « Встановлення та налаштування
-  - reflection.installation.md: Установка »
+  - reflection.setup.md: '" Встановлення та налаштування'
+  - reflection.installation.md: Встановлення »
   - index.md: PHP Manual
   - reflection.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 

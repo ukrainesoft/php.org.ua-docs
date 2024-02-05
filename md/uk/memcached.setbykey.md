@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::setByKey'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::setByKey
 
@@ -15,7 +16,7 @@ Memcached::setByKey — Зберігає запис на вказаному се
 ### Опис
 
 ```methodsynopsis
-public Memcached::setByKey(    string $server_key,    string $key,    mixed $value,    int $expiration = ?): bool
+public Memcached::setByKey(    string $server_key,    string $key,    mixed $value,    int $expiration = 0): bool
 ```
 
 **Memcached::setByKey()** працює аналогічно [Memcached::set()](memcached.set.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер. Це корисно, коли необхідно тримати кілька пов'язаних значень на конкретному сервері.
@@ -24,7 +25,7 @@ public Memcached::setByKey(    string $server_key,    string $key,    mixed $val
 
 `server_key`
 
-Ключ, що ідентифікує сервер, де зберігається значення. Замість хешування за ключем самого елемента, ми хешуємо по ключу сервера при виборі сервера, що підключається, memcached. Цей підхід дозволяє групувати зв'язані елементи разом на одному сервері, що покращує ефективність групових операцій.
+Ключ, що ідентифікує сервер, де зберігається значення. Замість хешування по ключу самого елемента, при виборі сервера, що підключається, memcached хешують по ключу сервера. Такий метод дозволяє групувати пов'язані елементи разом на одному сервері, що підвищує ефективність групових операцій.
 
 `key`
 
@@ -40,11 +41,11 @@ public Memcached::setByKey(    string $server_key,    string $key,    mixed $val
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки. Используйте при необходимости[Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::setByKey()****
+**Пример #1 Пример использования**Memcached::setByKey()\*\*\*\*
 
 ```php
 <?php
@@ -59,4 +60,4 @@ $m->setByKey('api-cache', 'block-ip:169.127.127.202', 1);
 
 ### Дивіться також
 
--   [Memcached::set()](memcached.set.md) - Зберігає запис
+-   [Memcached::set()](memcached.set.md) \- Зберігає запис

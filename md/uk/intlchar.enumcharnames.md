@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::enumCharNames'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::enumCharNames
 
@@ -15,7 +16,7 @@ IntlChar::enumCharNames — Перераховує всі символи Unicode
 ### Опис
 
 ```methodsynopsis
-public static IntlChar::enumCharNames(    int|string $start,    int|string $end,    callable $callback,    int $type = IntlChar::UNICODE_CHAR_NAME): ?bool
+public static IntlChar::enumCharNames(    int|string $start,    int|string $end,    callable $callback,    int $type = IntlChar::UNICODE_CHAR_NAME): bool
 ```
 
 Перелічує всі присвоєні символи Unicode в заданому діапазоні (включаючи початок діапазону та виключаючи кінець) і для кожного з них функцію, передаючи код символу та його ім'я.
@@ -36,15 +37,15 @@ public static IntlChar::enumCharNames(    int|string $start,    int|string $end,
 
 Функція, яка буде викликана для кожного символу. До неї будуть передані такі три аргументи:
 
--   int `$codepoint` - код символу
--   int `$nameChoice` - значення з `type`, дивіться опис нижче
--   string `$name` - Ім'я символу
+-   int`$codepoint`\- код символу
+-   int`$nameChoice`\- значення з`type`, дивіться опис нижче
+-   string`$name`\- Ім'я символу
 
 `type`
 
 Категорія символів для переліку. Одна з констант:
 
--   **`IntlChar::UNICODE_CHAR_NAME`** (за замовчуванням)
+-   **`IntlChar::UNICODE_CHAR_NAME`**(за замовчуванням)
 -   **`IntlChar::UNICODE_10_CHAR_NAME`**
 -   **`IntlChar::EXTENDED_CHAR_NAME`**
 -   **`IntlChar::CHAR_NAME_ALIAS`**
@@ -52,7 +53,13 @@ public static IntlChar::enumCharNames(    int|string $start,    int|string $end,
 
 ### Значення, що повертаються
 
-Повертає **`null`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.3.0 | Тепер метод повертає **`false`** у разі помилки; раніше він повертав **`null`** |
 
 ### Приклади
 
@@ -66,7 +73,7 @@ IntlChar::enumCharNames(0x2600, 0x2610, function($codepoint, $nameChoice, $name)
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 U+2600 BLACK SUN WITH RAYS
@@ -89,5 +96,5 @@ U+260f WHITE TELEPHONE
 
 ### Дивіться також
 
--   [IntlChar::charName()](intlchar.charname.md) - Отримати ім'я Unicode
--   [IntlChar::charFromName()](intlchar.charfromname.md) - Знайти символ Unicode на ім'я і повернути його код
+-   [IntlChar::charName()](intlchar.charname.md) \- Отримати ім'я Unicode
+-   [IntlChar::charFromName()](intlchar.charfromname.md) \- Знайти символ Unicode по його імені та повернути його код

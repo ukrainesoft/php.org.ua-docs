@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setHighlightSimplePre'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setHighlightSimplePre
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setHighlightSimplePre — Встановлює текст, який з'являється перед виділеним виразом
 
@@ -20,7 +21,7 @@ public SolrQuery::setHighlightSimplePre(string $simplePre, string $field_overrid
 
 Встановлює текст, що з'являється перед виділеним виразом
 
-За замовчуванням
+По умолчанию
 
 ### Список параметрів
 

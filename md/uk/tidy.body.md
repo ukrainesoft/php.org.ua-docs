@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.tidy.md: tidy
 title: 'tidy::body'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidy::body
 
-# tidygetbody
+# tidy\_get\_body
 
 (PHP 5, PHP 7, PHP 8, PECL tidy 0.5.2-1.0)
 
-tidy::body -- tidygetbody — Повертає об'єкт [tidyNode](class.tidynode.md), починаючи з тега розібраного tidy-дерева
+tidy::body -- tidy\_get\_body — Повертає об'єкт [tidyNode](class.tidynode.md), починаючи з тега разобранного tidy-дерева
 
 ### Опис
 
@@ -28,7 +29,7 @@ public tidy::body(): ?tidyNode
 tidy_get_body(tidy $tidy): ?tidyNode
 ```
 
-Повертає об'єкт [tidyNode](class.tidynode.md), починаючи з тега розібраного tidy-дерева.
+Повертає об'єкт [tidyNode](class.tidynode.md), починаючи з тега разобранного tidy-дерева.
 
 ### Список параметрів
 
@@ -38,11 +39,11 @@ tidy_get_body(tidy $tidy): ?tidyNode
 
 ### Значення, що повертаються
 
-Повертає об'єкт [tidyNode](class.tidynode.md), починаючи з тега розібраного tidy-дерева.
+Повертає об'єкт [tidyNode](class.tidynode.md), починаючи з тега разобранного tidy-дерева.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidy::getBody()****
+**Пример #1 Пример использования**tidy::getBody()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ echo $body->value;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <body>
@@ -73,5 +74,5 @@ echo $body->value;
 
 ### Дивіться також
 
--   [tidy::head()](tidy.head.md) - Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
--   [tidy::html()](tidy.html.md) - Повертає об'єкт tidyNode, починаючи з тега розібраного tidy-дерева
+-   [tidy::head()](tidy.head.md) \- Повертає об'єкт tidyNode, починаючи з тегаразобранного tidy-дерева
+-   [tidy::html()](tidy.md.md) \- Повертає об'єкт tidyNode, починаючи з тегаразобранного tidy-дерева

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ldap-escape.md: « ldapescape
-  - function.ldap-exop-refresh.md: ldapexoprefresh »
+  - function.ldap-escape.md: « ldap\_escape
+  - function.ldap-exop-refresh.md: ldap\_exop\_refresh »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapexoppasswd
+title: ldap\_exop\_passwd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapexoppasswd
+# ldap\_exop\_passwd
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-ldapexoppasswd — Обгортка для розширеної операції PASSWD
+ldap\_exop\_passwd — Обгортка для розширеної операції PASSWD
 
 ### Опис
 
 ```methodsynopsis
-ldap_exop_passwd(    LDAP\Connection $ldap,    string $user = "",    string $old_password = "",    string $new_password = "",    array &$controls = null): string|bool
+ldap_exop_passwd(    LDAP\Connection $ldap,    string $user = "",    string $old_password = "",    string $new_password = "",    array &$controls = null): string|bool
 ```
 
 Виконує розширену операцію PASSWD.
@@ -24,7 +25,7 @@ ldap_exop_passwd(    LDAP\Connection $ldap,    string $user = "",    string $old
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `user`
 
@@ -40,19 +41,19 @@ ldap_exop_passwd(    LDAP\Connection $ldap,    string $user = "",    string $old
 
 `controls`
 
-Якщо задано, то із запитом буде передано запит парольної політики і це поле буде заповнено масивом [управляющих констант LDAP](ldap.controls.md), повернутим запитом.
+Якщо задано, то із запитом буде передано запит парольної політики і це поле буде заповнено масивом [керуючих констант LDAP](ldap.controls.md), повернутим запитом.
 
 ### Значення, що повертаються
 
-Повертає новий пароль, якщо параметр `new_password` не заданий, або заданий порожнім. Інакше повертає **`true`** або **`false`**, Залежно від успішності виконання.
+Повертає новий пароль, якщо параметр `new_password` не заданий, або заданий порожнім. Інакше повертає **`true`**или**`false`**, Залежно від успішності виконання.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
-|  | Додано підтримку параметра `controls` |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.0.0 | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+| 7.3.0 | Додано підтримку параметра `controls` |
 
 ### Приклади
 
@@ -89,5 +90,5 @@ if ($ds) {
 
 ### Дивіться також
 
--   [ldapexop()](function.ldap-exop.md) - Виконує розширену операцію
--   [ldapparseexop()](function.ldap-parse-exop.md) - Розбір результуючого об'єкта виконання розширеної операції LDAP
+-   [ldap\_exop()](function.ldap-exop.md) \- Виконує розширену операцію
+-   [ldap\_parse\_exop()](function.ldap-parse-exop.md) \- Розбір результуючого об'єкта виконання розширеної операції LDAP

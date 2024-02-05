@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-fetch-object.md: « cubridfetchobject
-  - function.cubrid-field-flags.md: cubridfieldflags »
+  - function.cubrid-fetch-object.md: « cubrid\_fetch\_object
+  - function.cubrid-field-flags.md: cubrid\_field\_flags »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridfetchrow
+title: cubrid\_fetch\_row
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridfetchrow
+# cubrid\_fetch\_row
 
 (PECL CUBRID >= 8.3.0)
 
-cubridfetchrow — Витягти рядок із результуючого набору у вигляді індексованого масиву
+cubrid\_fetch\_row — Витягти рядок із результуючого набору у вигляді індексованого масиву
 
 ### Опис
 
@@ -24,11 +25,11 @@ cubrid_fetch_row(resource $result, int $type = ?): array
 
 `result`
 
-`Result`, отриманий з [cubridexecute()](function.cubrid-execute.md)
+`Result`, отриманий з [cubrid\_execute()](function.cubrid-execute.md)
 
 `type`
 
-Можливо тільки CUBRIDLOB. Цей параметр використовується лише якщо вам потрібно оперувати об'єктами LOB.
+Можливо тільки CUBRID\_LOB. Цей параметр використовується лише якщо вам потрібно оперувати об'єктами LOB.
 
 ### Значення, що повертаються
 
@@ -38,7 +39,7 @@ cubrid_fetch_row(resource $result, int $type = ?): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridfetchrow()****
+**Пример #1 Пример использования**cubrid\_fetch\_row()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 наименование                                площадь     мест  адрес
@@ -75,8 +76,8 @@ Ano Liossia                              34000.00   12000  Ano Liosia, Athens, G
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
--   [cubridfetch()](function.cubrid-fetch.md) - Вибирає наступний рядок із набору результатів
--   [cubridfetcharray()](function.cubrid-fetch-array.md) - Вилучення рядка з результуючого набору у вигляді асоціативного масиву, індексованого масиву або обох відразу
--   [cubridfetchassoc()](function.cubrid-fetch-assoc.md) - Витягти рядок із результуючого набору у вигляді асоціативного масиву
--   [cubridfetchobject()](function.cubrid-fetch-object.md) - Витягти наступний рядок як об'єкт
+-   [cubrid\_execute()](function.cubrid-execute.md) \- Виконує підготовлений SQL-оператор
+-   [cubrid\_fetch()](function.cubrid-fetch.md) \- Вибирає наступний рядок із набору результатів
+-   [cubrid\_fetch\_array()](function.cubrid-fetch-array.md) \- Вилучення рядка з результуючого набору у вигляді асоціативного масиву, індексованого масиву або обох відразу
+-   [cubrid\_fetch\_assoc()](function.cubrid-fetch-assoc.md) \- Витягти рядок із результуючого набору у вигляді асоціативного масиву
+-   [cubrid\_fetch\_object()](function.cubrid-fetch-object.md) \- Витягти наступний рядок як об'єкт

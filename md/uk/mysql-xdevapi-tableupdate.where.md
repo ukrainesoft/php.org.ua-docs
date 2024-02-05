@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-tableupdate.set.md: '« TableUpdate::set'
-  - class.mysql-xdevapi-warning.md: mysqlxdevapiWarning »
+  - class.mysql-xdevapi-warning.md: mysql\_xdevapi\\Warning »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
+  - class.mysql-xdevapi-tableupdate.md: mysql\_xdevapi\\TableUpdate
 title: 'TableUpdate::where'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableUpdate::where
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableUpdate::where(string $where_expr): mysql_xdevapi\Table
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableUpdate::where()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::where()\*\*\*\*
 
 ```php
 <?php

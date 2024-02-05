@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-get-values-len.md: « ldapgetvalueslen
-  - function.ldap-list.md: ldaplist »
+  - function.ldap-get-values-len.md: « ldap\_get\_values\_len
+  - function.ldap-list.md: ldap\_list »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapgetvalues
+title: ldap\_get\_values
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapgetvalues
+# ldap\_get\_values
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapgetvalues ​​— Отримує всі значення із запису результату
+ldap\_get\_values ​​— Отримує всі значення із запису результату
 
 ### Опис
 
@@ -20,19 +21,19 @@ ldap_get_values(LDAP\Connection $ldap, LDAP\ResultEntry $entry, string $attribut
 
 Читає всі значення атрибута запису результату.
 
-Ця функція вимагає `entry`, а отже, перед нею повинні бути запущені одна з функцій пошуку ldap і один з результатів їх виклику для отримання окремого запису.
+Ця функція вимагає `entry`, а отже, перед нею повинна бути запущена одна з функцій пошуку ldap і один з результатів їх виклику для отримання окремого запису.
 
-У додатку необхідно буде використовувати складні конструкції для пошуку певних атрибутів (таких як "прізвище" або "пошта") або необхідно буде використовувати функцію [ldapgetattributes()](function.ldap-get-attributes.md), щоб розібрати, які атрибути існують для запису.
+У додатку необхідно буде використовувати складні конструкції для пошуку певних атрибутів (таких як "прізвище" або "пошта") або необхідно буде використовувати функцію [ldap\_get\_attributes()](function.ldap-get-attributes.md), щоб розібрати, які атрибути існують для запису.
 
 ### Список параметрів
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `entry`
 
-Екземпляр [LDAPResultEntry](class.ldap-result-entry.md)
+Екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.md)
 
 `attribute`
 
@@ -50,10 +51,10 @@ LDAP дозволяє зберігати більше одного запису 
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.1.0 | Параметр`entry` тепер чекає екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap result entry` |
 
 ### Приклади
 
@@ -80,4 +81,4 @@ for ($i=0; $i < $values["count"]; $i++) {
 
 ### Дивіться також
 
--   [ldapgetvalueslen()](function.ldap-get-values-len.md) - Отримати всі бінарні значення із запису результату
+-   [ldap\_get\_values\_len()](function.ldap-get-values-len.md) \- Отримати всі бінарні значення із запису результату

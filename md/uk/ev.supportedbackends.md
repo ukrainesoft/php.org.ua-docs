@@ -3,8 +3,9 @@ navigation:
   - ev.stop.md: '« Ev::stop'
   - ev.suspend.md: 'Ev::suspend »'
   - index.md: PHP Manual
-  - class.ev.md: Єв
+  - class.ev.md: Ev
 title: 'Ev::supportedBackends'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Ev::supportedBackends
 
@@ -67,7 +68,7 @@ if (!$socket_loop) {
 ### Дивіться також
 
 -   [EvEmbed](class.evembed.md)
--   [Ev::recommendedBackends()](ev.recommendedbackends.md) - Отримати бітову маску рекомендованих бекендів для даної платформи
--   [Ev::embeddableBackends()](ev.embeddablebackends.md) - Повертає набір бекендів, які можна вбудувати в інші цикли подій
+-   [Ev::recommendedBackends()](ev.recommendedbackends.md) \- Отримати бітову маску рекомендованих бекендів для даної платформи
+-   [Ev::embeddableBackends()](ev.embeddablebackends.md) \- Повертає набір бекендів, які можна вбудувати в інші цикли подій
 -   [Backend flags](class.ev.md#ev.constants.watcher-backends)
 -   [Examples](ev.examples.md)

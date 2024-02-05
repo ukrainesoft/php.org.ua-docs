@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::substr'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBuffer::substr
 
@@ -35,12 +36,12 @@ public
 
 `length`
 
-Максимальна кількість байтів для обрізання.
+Максимальна кількість байт для обрізання.
 
 ### Значення, що повертаються
 
-Повертає дані, вираховані у вигляді рядка (string) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає дані, вираховані у вигляді рядка (string) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventBuffer::read()](eventbuffer.read.md) - Читає дані з evbuffer та виснажує прочитані байти
+-   [EventBuffer::read()](eventbuffer.read.md) \- Читає дані з evbuffer та виснажує прочитані байти

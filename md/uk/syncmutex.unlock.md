@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.syncmutex.md: SyncMutex
 title: 'SyncMutex::unlock'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SyncMutex::unlock
 
@@ -28,11 +29,11 @@ public SyncMutex::unlock(bool $all = false): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncMutex::unlock()****
+**Пример #1 Пример использования**SyncMutex::unlock()\*\*\*\*
 
 ```php
 <?php
@@ -48,4 +49,4 @@ $mutex->unlock();
 
 ### Дивіться також
 
--   [SyncMutex::lock()](syncmutex.lock.md) - Чекає на ексклюзивне блокування
+-   [SyncMutex::lock()](syncmutex.lock.md) \- Чекає на ексклюзивне блокування

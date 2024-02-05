@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.db2-get-option.md: « db2getoption
-  - function.db2-lob-read.md: db2lobread »
+  - function.db2-get-option.md: « db2\_get\_option
+  - function.db2-lob-read.md: db2\_lob\_read »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2lastinsertід
+title: db2\_last\_insert\_id
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2lastinsertід
+# db2\_last\_insert\_id
 
-(PECL ibmdb2> = 1.7.1)
+(PECL ibm\_db2 >= 1.7.1)
 
-db2lastinsertid — Повертає автоматично згенерований ідентифікатор останнього запиту додавання, успішно виконаного в цьому з'єднанні
+db2\_last\_insert\_id — Повертає автоматично згенерований ідентифікатор останнього запиту додавання, успішно виконаного в цьому з'єднанні
 
 ### Опис
 
 ```methodsynopsis
-db2_last_insert_id(resource $resource): string
+db2_last_insert_id(resource $resource): ?string
 ```
 
 Повертає автоматично згенерований ідентифікатор останнього запиту додавання, успішно виконаного в цьому з'єднанні.
@@ -35,7 +36,7 @@ db2_last_insert_id(resource $resource): string
 
 `resource`
 
-Допустимий ресурс підключення, що повертається [db2connect()](function.db2-connect.md) або [db2pconnect()](function.db2-pconnect.md). Значення цього параметра може бути ресурсом оператора чи ресурсом набору результатів.
+Допустимий ресурс підключення, що повертається [db2\_connect()](function.db2-connect.md) або [db2\_pconnect()](function.db2-pconnect.md). Значення цього параметра може бути ресурсом оператора чи ресурсом набору результатів.
 
 ### Значення, що повертаються
 
@@ -43,7 +44,7 @@ db2_last_insert_id(resource $resource): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **db2lastinsertid()****
+**Пример #1 Пример использования**db2\_last\_insert\_id()\*\*\*\*
 
 У наступному прикладі показано, як повернути автоматично згенерований ідентифікатор останнього запиту додавання, успішно виконаного в цьому з'єднанні.
 
@@ -79,7 +80,7 @@ else {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Последний идентификатор : 1

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::setAuthType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::setAuthType
 
@@ -44,10 +45,10 @@ public OAuth::setAuthType(int $auth_type): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`** (наприклад, якщо параметр `auth_type` заданий некоректно.)
+Повертає **`true`**или**`false`** (наприклад, якщо параметр `auth_type`задан некорректно.)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.call-user-func-array.md: « calluserfuncarray
-  - function.create-function.md: createfunction »
+  - function.call-user-func-array.md: « call\_user\_func\_array
+  - function.create-function.md: create\_function »
   - index.md: PHP Manual
-  - ref.funchand.md: Функции управления функциями
-title: calluserfunc
+  - ref.funchand.md: Функції керування функціями
+title: call\_user\_func
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# calluserfunc
+# call\_user\_func
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-calluserfunc — Викликає callback-функцію, задану у першому параметрі
+call\_user\_func — Викликає callback-функцію, задану у першому параметрі
 
 ### Опис
 
@@ -30,11 +31,11 @@ call_user_func(callable $callback, mixed ...$args): mixed
 
 Нуль або більше параметрів, що передаються в callback-функцію.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Врахуйте, що параметри для **calluserfunc()** не передаються за посиланням.
+> Врахуйте, що параметри для **call\_user\_func()** не передаються за посиланням.
 > 
-> **Приклад #1 Приклад використання **calluserfunc()** та посилання**
+> **Пример #1 Пример использования**call\_user\_func()\*\* та посилання\*\*
 > 
 > ```php
 > <?php
@@ -48,18 +49,18 @@ call_user_func(callable $callback, mixed ...$args): mixed
 > call_user_func('increment', $a);
 > echo $a."\n";
 > 
-> // Вместо этого можно использовать этот способ
+> // Натомість можна використовувати цей спосіб
 > call_user_func_array('increment', array(&$a));
 > echo $a."\n";
 > 
-> // Также можно использовать функцию в качестве переменной
+> // Також можна використовувати функцію як змінну
 > $increment = 'increment';
 > $increment($a);
 > echo $a."\n";
 > ?>
 > ```
 > 
-> Результат виконання цього прикладу:
+> Результат виконання наведеного прикладу:
 > 
 > ```
 > Warning: Parameter 1 to increment() expected to be a reference, value given in …
@@ -74,7 +75,7 @@ call_user_func(callable $callback, mixed ...$args): mixed
 
 ### Приклади
 
-**Приклад #2 Приклад використання **calluserfunc()****
+**Пример #2 Пример использования**call\_user\_func()\*\*\*\*
 
 ```php
 <?php
@@ -87,14 +88,14 @@ call_user_func('barber', "наголо");
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Вы хотели стрижку под горшок, без проблем
 Вы хотели стрижку наголо, без проблем
 ```
 
-**Приклад #3 Використання **calluserfunc()**, використовуючи простір імен**
+**Пример #3 Использование**call\_user\_func()**, використовуючи простір імен**
 
 ```php
 <?php
@@ -113,14 +114,14 @@ call_user_func(array(__NAMESPACE__ .'\Foo', 'test'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Привет, мир!
 Привет, мир!
 ```
 
-**Приклад #4 Виклик методу класу за допомогою **calluserfunc()****
+**Приклад #4 Виклик методу класу за допомогою **call\_user\_func()****
 
 ```php
 <?php
@@ -144,7 +145,7 @@ call_user_func(array($myobject, 'say_hello'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Привет!
@@ -152,7 +153,7 @@ call_user_func(array($myobject, 'say_hello'));
 Привет!
 ```
 
-**Приклад #5 Використання лямбда-функції з **calluserfunc()****
+**Пример #5 Использование лямбда-функции с**call\_user\_func()\*\*\*\*
 
 ```php
 <?php
@@ -160,7 +161,7 @@ call_user_func(function($arg) { print "[$arg]\n"; }, 'test');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 [test]
@@ -168,14 +169,14 @@ call_user_func(function($arg) { print "[$arg]\n"; }, 'test');
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Callback-функції, зареєстровані такими функціями як **calluserfunc()** і [calluserfuncarray()](function.call-user-func-array.md), не будуть викликані за наявності не спійманого виключення, кинутого у попередній callback-функції.
+> Callback-функції, зареєстровані такими функціями як \*\*call\_user\_func()\*\*и[call\_user\_func\_array()](function.call-user-func-array.md), не будуть викликані за наявності не спійманого виключення, кинутого у попередній callback-функції.
 
 ### Дивіться також
 
--   [calluserfuncarray()](function.call-user-func-array.md) - Викликає callback-функцію з масивом параметрів
--   [ісcallable()](function.is-callable.md) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [call\_user\_func\_array()](function.call-user-func-array.md) \- Викликає callback-функцію з масивом параметрів
+-   [is\_callable()](function.is-callable.md) \- Перевіряє, що значення може бути викликане як функція у поточній області видимості
 -   [Звернення до функцій через змінні](functions.variable-functions.md)
--   [ReflectionFunction::invoke()](reflectionfunction.invoke.md) - Викликає функцію
--   [ReflectionMethod::invoke()](reflectionmethod.invoke.md) - Виклик
+-   [ReflectionFunction::invoke()](reflectionfunction.invoke.md) \- Викликає функцію
+-   [ReflectionMethod::invoke()](reflectionmethod.invoke.md) \- Виклик

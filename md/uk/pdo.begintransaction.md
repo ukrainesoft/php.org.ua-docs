@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.pdo.md: PDO
 title: 'PDO::beginTransaction'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::beginTransaction
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8, PECL pdo >= 0.1.0)
 
 PDO::beginTransaction — Ініціалізація транзакції
 
@@ -28,7 +29,7 @@ public PDO::beginTransaction(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -61,6 +62,6 @@ $dbh->rollBack();
 
 ### Дивіться також
 
--   [PDO::commit()](pdo.commit.md) - Фіксує транзакцію
--   [PDO::rollBack()](pdo.rollback.md) - Відкат транзакції
+-   [PDO::commit()](pdo.commit.md) \- Фіксує транзакцію
+-   [PDO::rollBack()](pdo.rollback.md) \- Відкат транзакції
 -   [Транзакції та автоматична фіксація](pdo.transactions.md)

@@ -1,14 +1,17 @@
 ---
 navigation:
-  - class.parallel-future.md: « parallelFuture
-  - parallel-future.cancelled.md: 'parallelFuture::cancelled »'
+  - class.parallel-future.md: « parallel\\Future
+  - parallel-future.cancelled.md: 'parallel\\Future::cancelled »'
   - index.md: PHP Manual
-  - class.parallel-future.md: parallelFuture
-title: 'parallelFuture::cancel'
+  - class.parallel-future.md: parallel\\Future
+title: 'parallel\\Future::cancel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelFuture::cancel
+# parallel\\Future::cancel
 
-parallelFuture::cancel — Припинення
+(0.9.0)
+
+parallel\\Future::cancel — Припинення
 
 ### Опис
 
@@ -18,7 +21,7 @@ public parallel\Future::cancel(): bool
 
 Намагається перервати завдання.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо завдання запущено, його буде перервано.
 
@@ -30,8 +33,8 @@ public parallel\Future::cancel(): bool
 
 **Увага**
 
-Викидає parallelFutureErrorKilled, якщо [parallelRuntime](class.parallel-runtime.md) виконання завдання було перервано.
+Викидає parallel\\Future\\Error\\Killed, если[parallel\\Runtime](class.parallel-runtime.md) виконання завдання було перервано.
 
 **Увага**
 
-Викидає parallelFutureErrorCancelled, якщо завдання вже перервано.
+Викидає parallel\\Future\\Error\\Cancelled, якщо завдання вже перервано.

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagesy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagesy
 
@@ -28,17 +29,17 @@ imagesy(GdImage $image): int
 
 ### Значення, що повертаються
 
-Повертає висоту зображення `image` або **`false`** у разі помилки.
+Повертає висоту зображення `image`
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagesy()****
+**Пример #1 Пример использования**imagesy()\*\*\*\*
 
 ```php
 <?php
@@ -53,6 +54,6 @@ echo imagesy($img); // 200
 
 ### Дивіться також
 
--   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення
--   [getimagesize()](function.getimagesize.md) - Отримання розміру зображення
--   [imagesx()](function.imagesx.md) - Отримання ширини зображення
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) \- Створення нового повнокольорового зображення
+-   [getimagesize()](function.getimagesize.md) \- Отримання розміру зображення
+-   [imagesx()](function.imagesx.md) \- Отримання ширини зображення

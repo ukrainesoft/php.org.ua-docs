@@ -1,14 +1,15 @@
 ---
 navigation:
   - solrdocument.getinputdocument.md: '« SolrDocument::getInputDocument'
-  - solrdocument.isset.md: 'SolrDocument::isset »'
+  - solrdocument.isset.md: 'SolrDocument::\_\_isset »'
   - index.md: PHP Manual
   - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::hasChildDocuments'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDocument::hasChildDocuments
 
-(PECL solr> = 2.3.0)
+(PECL solr >= 2.3.0)
 
 SolrDocument::hasChildDocuments — Перевіряє, чи документ має дочірні документи.
 
@@ -28,5 +29,5 @@ public SolrDocument::hasChildDocuments(): bool
 
 ### Дивіться також
 
--   [SolrDocument::getChildDocuments()](solrdocument.getchilddocuments.md) - Повертає масив дочірніх документів (SolrDocument)
--   [SolrDocument::getChildDocumentsCount()](solrdocument.getchilddocumentscount.md) - Повертає кількість дочірніх документів
+-   [SolrDocument::getChildDocuments()](solrdocument.getchilddocuments.md) \- Повертає масив дочірніх документів (SolrDocument)
+-   [SolrDocument::getChildDocumentsCount()](solrdocument.getchilddocumentscount.md) \- Повертає кількість дочірніх документів

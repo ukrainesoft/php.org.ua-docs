@@ -1,72 +1,75 @@
 ---
 navigation:
   - ldap.examples-controls.md: « LDAP Controls
-  - function.ldap-8859-to-t61.md: ldapтоt61 »
+  - function.ldap-8859-to-t61.md: ldap\_8859\_to\_t61 »
   - index.md: PHP Manual
   - book.ldap.md: LDAP
 title: Функції LDAP
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Функції LDAP
 
 ## Зміст
 
--   [ldapтоt61](function.ldap-8859-to-t61.md) — Перекладає символи з кодування ISO-8859 у t61
--   [ldapaddext](function.ldap-add-ext.md) — Додати записи до каталогу LDAP
--   [ldapadd](function.ldap-add.md) — Додати запис до LDAP директорії
--   [ldapbindext](function.ldap-bind-ext.md) — Прив'язати до директорії LDAP
--   [ldapbind](function.ldap-bind.md) — Прив'язати до LDAP директорії
--   [ldapclose](function.ldap-close.md) - Псевдонім ldapunbind
--   [ldapcompare](function.ldap-compare.md) — Порівняти значення атрибута, знайденого у записі певної DN
--   [ldapconnect](function.ldap-connect.md) — Підключитись до сервера LDAP
--   [ldapcontrolpagedresultresponse](function.ldap-control-paged-result-response.md) — Отримати вказівник на поточну сторінку LDAP
--   [ldapcontrolpagedresult](function.ldap-control-paged-result.md) — Надіслати серверу LDAP дані для використання посторінкового отримання результату
--   [ldapcountentries](function.ldap-count-entries.md) — Порахувати кількість записів у результатах пошуку
--   [ldapcountreferences](function.ldap-count-references.md) — Підраховує кількість посилань у результатах пошуку
--   [ldapdeleteext](function.ldap-delete-ext.md) — Видалити запис із директорії
--   [ldapdelete](function.ldap-delete.md) — Видаляє запис із директорії LDAP
--   [ldapdn2ufn](function.ldap-dn2ufn.md) — Перетворити DN на зручний для користувача формат іменування
--   [ldaperr2str](function.ldap-err2str.md) — Перетворити код помилки LDAP на рядкове повідомлення про помилку
--   [ldaperrno](function.ldap-errno.md) — Повернути номер помилки LDAP останньої команди
--   [ldaperror](function.ldap-error.md) — Повернути повідомлення про помилку LDAP останньої команди
--   [ldapescape](function.ldap-escape.md) — Екранування рядка для використання у фільтрі LDAP або DN
--   [ldapexoppasswd](function.ldap-exop-passwd.md) — Обгортка для розширеної операції PASSWD
--   [ldapexoprefresh](function.ldap-exop-refresh.md) — Обгортка для розширеної операції Refresh
--   [ldapexopwhoami](function.ldap-exop-whoami.md) — Обгортка для розширеної операції WHOAMI
--   [ldapexop](function.ldap-exop.md) — Виконує розширену операцію
--   [ldapexplodeдн](function.ldap-explode-dn.md) — Розділити DN на його складові
--   [ldapfirstattribute](function.ldap-first-attribute.md) - Повернути перший атрибут
--   [ldapfirstentry](function.ldap-first-entry.md) - Повернути перший ідентифікатор результату
--   [ldapfirstreference](function.ldap-first-reference.md) - Повертає першу довідку
--   [ldapfreeresult](function.ldap-free-result.md) - Звільнити пам'ять результату
--   [ldapgetattributes](function.ldap-get-attributes.md) — Отримує атрибути із запису у результатах пошуку
--   [ldapgetдн](function.ldap-get-dn.md) — Отримати DN результуючого запису
--   [ldapgetentries](function.ldap-get-entries.md) — Отримує всі записи результату
--   [ldapgetoption](function.ldap-get-option.md) — Отримати поточне значення цієї опції
--   [ldapgetvalueslen](function.ldap-get-values-len.md) — Отримати всі бінарні значення із запису результату
--   [ldapgetvalues](function.ldap-get-values.md) — Отримує всі значення із запису результату
--   [ldaplist](function.ldap-list.md) - Однорівневий пошук
--   [ldapmodaddext](function.ldap-mod_add-ext.md) — Додати значення атрибуту до поточних атрибутів
--   [ldapmodadd](function.ldap-mod-add.md) — Додати значення атрибуту до поточних атрибутів
--   [ldapmoddelext](function.ldap-mod_del-ext.md) — Видалити значення атрибутів із поточних атрибутів
--   [ldapmoddel](function.ldap-mod-del.md) — Видалити атрибути з поточних атрибутів.
--   [ldapmodreplaceext](function.ldap-mod_replace-ext.md) — Замінити значення атрибута на нові
--   [ldapmodreplace](function.ldap-mod-replace.md) — Замінити значення атрибутів на нові
--   [ldapmodifybatch](function.ldap-modify-batch.md) — Формування та запуск пакетної зміни запису LDAP
--   [ldapmodify](function.ldap-modify.md) - Псевдонім ldapmodreplace
--   [ldapnextattribute](function.ldap-next-attribute.md) — Отримати наступний атрибут із результату
--   [ldapnextentry](function.ldap-next-entry.md) — Отримати наступний запис результату
--   [ldapnextreference](function.ldap-next-reference.md) - Повертає наступну довідку
--   [ldapparseexop](function.ldap-parse-exop.md) — Розбір результуючого об'єкта виконання розширеної операції LDAP
--   [ldapparsereference](function.ldap-parse-reference.md) — Витягує інформацію з довідника
--   [ldapparseresult](function.ldap-parse-result.md) — Витягти інформацію з результату
--   [ldapread](function.ldap-read.md) - Читає запис
--   [ldaprenameext](function.ldap-rename-ext.md) — Модифікувати назву запису
--   [ldaprename](function.ldap-rename.md) - Змінити ім'я запису
--   [ldapsaslbind](function.ldap-sasl-bind.md) — Прив'язати до LDAP директорії за допомогою SASL
--   [ldapsearch](function.ldap-search.md) — Пошук по LDAP дереву
--   [ldapsetoption](function.ldap-set-option.md) — Встановити значення цієї опції
--   [ldapsetrebindproc](function.ldap-set-rebind-proc.md) — Встановити функцію зворотного дзвінка для повторного зв'язування під час посилального пошуку
--   [ldapsort](function.ldap-sort.md) — Сортує записи LDAP
--   [ldapstarttls](function.ldap-start-tls.md) - Запускає TLS
--   [ldapt61то](function.ldap-t61-to-8859.md) — Перекладає символи з кодування t61 ISO-8859
--   [ldapunbind](function.ldap-unbind.md) — Розірвати прив'язку до директорії LDAP
+-   [ldap\_8859\_to\_t61](function.ldap-8859-to-t61.md)— Перекладає символи з кодування ISO-8859 у t61
+-   [ldap\_add\_ext](function.ldap-add-ext.md)— Додати записи до каталогу LDAP
+-   [ldap\_add](function.ldap-add.md)— Додати запис до LDAP директорії
+-   [ldap\_bind\_ext](function.ldap-bind-ext.md)— Прив'язати до директорії LDAP
+-   [ldap\_bind](function.ldap-bind.md)— Прив'язати до LDAP директорії
+-   [ldap\_close](function.ldap-close.md) \- Псевдонім ldap\_unbind
+-   [ldap\_compare](function.ldap-compare.md)— Порівняти значення атрибута, знайденого у записі певної DN
+-   [ldap\_connect\_wallet](function.ldap-connect-wallet.md)— Підключається до сервера LDAP
+-   [ldap\_connect](function.ldap-connect.md)— Підключається до сервера LDAP
+-   [ldap\_control\_paged\_result\_response](function.ldap-control-paged-result-response.md)— Отримати вказівник на поточну сторінку LDAP
+-   [ldap\_control\_paged\_result](function.ldap-control-paged-result.md)— Надіслати серверу LDAP дані для використання посторінкового отримання результату
+-   [ldap\_count\_entries](function.ldap-count-entries.md)— Порахувати кількість записів у результатах пошуку
+-   [ldap\_count\_references](function.ldap-count-references.md)— Підраховує кількість посилань у результатах пошуку
+-   [ldap\_delete\_ext](function.ldap-delete-ext.md)— Видалити запис із директорії
+-   [ldap\_delete](function.ldap-delete.md)— Видаляє запис із директорії LDAP
+-   [ldap\_dn2ufn](function.ldap-dn2ufn.md)— Перетворити DN на зручний для користувача формат іменування
+-   [ldap\_err2str](function.ldap-err2str.md)— Перетворити код помилки LDAP на рядкове повідомлення про помилку
+-   [ldap\_errno](function.ldap-errno.md)— Повернути номер помилки LDAP останньої команди
+-   [ldap\_error](function.ldap-error.md)— Повернути повідомлення про помилку LDAP останньої команди
+-   [ldap\_escape](function.ldap-escape.md)— Екранування рядка для використання у фільтрі LDAP або DN
+-   [ldap\_exop\_passwd](function.ldap-exop-passwd.md)— Обгортка для розширеної операції PASSWD
+-   [ldap\_exop\_refresh](function.ldap-exop-refresh.md)— Обгортка для розширеної операції Refresh
+-   [ldap\_exop\_sync](function.ldap-exop-sync.md)— Виконує розширену операцію
+-   [ldap\_exop\_whoami](function.ldap-exop-whoami.md)— Обертка для розширеної операції WHOAMI
+-   [ldap\_exop](function.ldap-exop.md)— Виконує розширену операцію
+-   [ldap\_explode\_dn](function.ldap-explode-dn.md)— Розділити DN на його складові
+-   [ldap\_first\_attribute](function.ldap-first-attribute.md) \- Повернути перший атрибут
+-   [ldap\_first\_entry](function.ldap-first-entry.md) \- Повернути перший ідентифікатор результату
+-   [ldap\_first\_reference](function.ldap-first-reference.md) \- Повертає першу довідку
+-   [ldap\_free\_result](function.ldap-free-result.md) \- Звільнити пам'ять результату
+-   [ldap\_get\_attributes](function.ldap-get-attributes.md)— Отримує атрибути із запису у результатах пошуку
+-   [ldap\_get\_dn](function.ldap-get-dn.md)— Отримати DN результуючого запису
+-   [ldap\_get\_entries](function.ldap-get-entries.md)— Отримує всі записи результату
+-   [ldap\_get\_option](function.ldap-get-option.md)— Отримати поточне значення цієї опції
+-   [ldap\_get\_values\_len](function.ldap-get-values-len.md)— Отримати всі бінарні значення із запису результату
+-   [ldap\_get\_values](function.ldap-get-values.md)— Отримує всі значення із запису результату
+-   [ldap\_list](function.ldap-list.md) \- Однорівневий пошук
+-   [ldap\_mod\_add\_ext](function.ldap-mod_add-ext.md)— Додати значення атрибуту до поточних атрибутів
+-   [ldap\_mod\_add](function.ldap-mod-add.md)— Додати значення атрибуту до поточних атрибутів
+-   [ldap\_mod\_del\_ext](function.ldap-mod_del-ext.md)— Видалити значення атрибутів із поточних атрибутів
+-   [ldap\_mod\_del](function.ldap-mod-del.md)— Видалити атрибути з поточних атрибутів.
+-   [ldap\_mod\_replace\_ext](function.ldap-mod_replace-ext.md)— Замінити значення атрибута на нові
+-   [ldap\_mod\_replace](function.ldap-mod-replace.md)— Замінити значення атрибутів на нові
+-   [ldap\_modify\_batch](function.ldap-modify-batch.md)— Формування та запуск пакетної зміни запису LDAP
+-   [ldap\_modify](function.ldap-modify.md) \- Псевдонім ldap\_mod\_replace
+-   [ldap\_next\_attribute](function.ldap-next-attribute.md)— Отримати наступний атрибут із результату
+-   [ldap\_next\_entry](function.ldap-next-entry.md)— Отримати наступний запис результату
+-   [ldap\_next\_reference](function.ldap-next-reference.md) \- Повертає наступну довідку
+-   [ldap\_parse\_exop](function.ldap-parse-exop.md)— Розбір результуючого об'єкта виконання розширеної операції LDAP
+-   [ldap\_parse\_reference](function.ldap-parse-reference.md)— Витягує інформацію з довідника
+-   [ldap\_parse\_result](function.ldap-parse-result.md)— Витягти інформацію з результату
+-   [ldap\_read](function.ldap-read.md) \- Читає запис
+-   [ldap\_rename\_ext](function.ldap-rename-ext.md)— Модифікувати назву запису
+-   [ldap\_rename](function.ldap-rename.md) \- Змінити ім'я запису
+-   [ldap\_sasl\_bind](function.ldap-sasl-bind.md)— Прив'язати до LDAP директорії за допомогою SASL
+-   [ldap\_search](function.ldap-search.md)— Пошук по LDAP дереву
+-   [ldap\_set\_option](function.ldap-set-option.md)— Встановити значення цієї опції
+-   [ldap\_set\_rebind\_proc](function.ldap-set-rebind-proc.md)— Встановити функцію зворотного дзвінка для повторного зв'язування під час посилального пошуку
+-   [ldap\_sort](function.ldap-sort.md)— Сортує записи LDAP
+-   [ldap\_start\_tls](function.ldap-start-tls.md) \- Запускає TLS
+-   [ldap\_t61\_to\_8859](function.ldap-t61-to-8859.md)— Переводить символи з кодування t61 ISO-8859
+-   [ldap\_unbind](function.ldap-unbind.md)— Розірвати прив'язку до директорії LDAP

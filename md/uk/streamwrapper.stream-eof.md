@@ -1,16 +1,17 @@
 ---
 navigation:
-  - streamwrapper.stream-close.md: '« streamWrapper::streamclose'
-  - streamwrapper.stream-flush.md: 'streamWrapper::streamflush »'
+  - streamwrapper.stream-close.md: '« streamWrapper::stream\_close'
+  - streamwrapper.stream-flush.md: 'streamWrapper::stream\_flush »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
-title: 'streamWrapper::streameof'
+title: 'streamWrapper::stream\_eof'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamWrapper::streameof
+# streamWrapper::stream\_eof
 
-(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::streameof — Перевіряє досягнення кінця файлу за вказівником файлу
+streamWrapper::stream\_eof — Перевіряє досягнення кінця файлу за вказівником файлу
 
 ### Опис
 
@@ -32,8 +33,8 @@ public streamWrapper::stream_eof(): bool
 
 **Увага**
 
-При читанні файлу повністю (наприклад, функцією [filegetcontents()](function.file-get-contents.md)), PHP буде викликати [streamWrapper::streamread()](streamwrapper.stream-read.md) і разом із ним **streamWrapper::streameof()** у циклі, поки [streamWrapper::streamread()](streamwrapper.stream-read.md) повертає непустий рядок. Повертається з **streamWrapper::streameof()** значення у своїй ігнорується.
+При читанні файлу повністю (наприклад, функцією [file\_get\_contents()](function.file-get-contents.md)), PHP буде викликати [streamWrapper::stream\_read()](streamwrapper.stream-read.md)и вместе с ним\*\*streamWrapper::stream\_eof()\*\*в цикле, пока[streamWrapper::stream\_read()](streamwrapper.stream-read.md) повертає непустий рядок. Повертається з **streamWrapper::stream\_eof()** значення у своїй ігнорується.
 
 ### Дивіться також
 
--   [feof()](function.feof.md) - Перевіряє, чи кінець файлу досягнуто
+-   [feof()](function.feof.md) \- Перевіряє, чи кінець файлу досягнуто

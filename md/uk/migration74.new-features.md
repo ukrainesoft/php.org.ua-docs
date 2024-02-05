@@ -1,10 +1,11 @@
 ---
 navigation:
-  - migration74.md: « Миграция с PHP 7.3.x на PHP 7.4.x
+  - migration74.md: « Міграція з PHP 7.3.x на PHP 7.4.x
   - migration74.new-classes.md: Нові класи та інтерфейси »
   - index.md: PHP Manual
-  - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x
+  - migration74.md: Міграція з PHP 7.3.x на PHP 7.4.x
 title: Нові можливості
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Нові можливості
 
@@ -96,9 +97,9 @@ $fruits = ['banana', 'orange', ...$parts, 'watermelon'];
 
 [Слабкі посилання](class.weakreference.md) дозволяють програмісту зберегти посилання на об'єкт, яка не завадить збирачеві сміття видалити цей об'єкт.
 
-#### Обробка винятків із методу toString()
+#### Обработка исключений из метода\_\_toString()
 
-Викидання винятків із методу [toString()](language.oop5.magic.md#object.tostring) тепер дозволено. Раніше це призводило до фатальної помилки. Існуючі фатальні помилки, що відловлюються, при перетворенні об'єкта в рядок будуть доступні у вигляді винятків класу [Error](class.error.md)
+Викидання винятків із методу [\_\_toString()](language.oop5.magic.md#object.tostring) тепер дозволено. Раніше це призводило до фатальної помилки. Існуючі фатальні помилки, що відловлюються, при перетворенні об'єкта в рядок будуть доступні у вигляді винятків класу [Error](class.error.md)
 
 ### CURL
 
@@ -106,31 +107,31 @@ $fruits = ['banana', 'orange', ...$parts, 'watermelon'];
 
 ### Фільтрування
 
-Фільтр **`FILTER_VALIDATE_FLOAT`** тепер підтримує параметри `min_range` і `max_range`, з тим же змістом, що і для **`FILTER_VALIDATE_INT`**
+Фильтр\*\*`FILTER_VALIDATE_FLOAT`\*\* тепер підтримує параметри `min_range`и`max_range`, з тим же змістом, що і для **`FILTER_VALIDATE_INT`**
 
 ### FFI
 
 FFI - новий модуль, який пропонує простий спосіб виклику вбудованих функцій, доступу до вбудованих змінних, а також створювати або звертатися до структур даних у бібліотеках мовою Сі.
 
-### ДД
+### GD
 
-Додано константу **`IMG_FILTER_SCATTER`** для застосування фільтра, що розсіюється, до зображень.
+Добавлена константа\*\*`IMG_FILTER_SCATTER`\*\*для применения рассеивающегося фильтра к изображениям.
 
 ### Хешування
 
-Доданий хеш `crc32c`використовує поліном Кастанолі. Ця реалізація алгоритму CRC32 використовується системами зберігання, такими як iSCSI, SCTP, Btrfs та ext4.
+Добавлен хеш`crc32c`використовує поліном Кастанолі. Ця реалізація алгоритму CRC32 використовується системами зберігання, такими як iSCSI, SCTP, Btrfs та ext4.
 
 ### Багатобайтові рядки
 
-Додана функція [мбstrsplit()](function.mb-str-split.md)яка виконує те ж саме, що і [strsplit()](function.str-split.md)але працює з кодовими точками, а не з байтами.
+Добавлена функция[mb\_str\_split()](function.mb-str-split.md)яка виконує те ж саме, що і [str\_split()](function.str-split.md)але працює з кодовими точками, а не з байтами.
 
 ### OPcache
 
-Додана підтримка [предварительной загрузки кода](opcache.preloading.md)
+Добавлена поддержка[попереднього завантаження коду](opcache.preloading.md)
 
 ### Регулярні вирази (сумісні з Perl)
 
-Функції [pregreplacecallback()](function.preg-replace-callback.md) і [pregreplacecallbackarray()](function.preg-replace-callback-array.md) тепер приймають додатковий аргумент `flags` з підтримкою прапорів **`PREG_OFFSET_CAPTURE`** і **`PREG_UNMATCHED_AS_NULL`**. Він вплине на формат масиву значень, що збіглися, що передається в callback-функцію.
+Функції [preg\_replace\_callback()](function.preg-replace-callback.md) і [preg\_replace\_callback\_array()](function.preg-replace-callback-array.md) тепер приймають додатковий аргумент `flags` з підтримкою прапорів **`PREG_OFFSET_CAPTURE`**и**`PREG_UNMATCHED_AS_NULL`**. Він вплине на формат масиву значень, що збіглися, що передається в callback-функцію.
 
 ### PDO
 
@@ -138,11 +139,11 @@ FFI - новий модуль, який пропонує простий спос
 
 Також тепер можна екранувати знаки запитань у SQL-запитах, щоб вони не сприймалися як іменовані параметри. Використання `??` відправить один знак питання до бази даних, і, наприклад, у разі використання PostgreSQL, буде використано оператора перевірки існування ключа в JSON (`?`
 
-### PDOOCI
+### PDO\_OCI
 
-Для цього драйвера тепер доступний метод [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md)
+Для данного драйвера теперь доступен метод[PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md)
 
-### PDOSQLite
+### PDO\_SQLite
 
 Вираз `PDOStatement::getAttribute(PDO::SQLITE_ATTR_READONLY_STATEMENT)` дозволяє перевірити, чи доступний підготовлений запит лише читання, тобто. чи не змінює він базу даних.
 
@@ -150,26 +151,26 @@ FFI - новий модуль, який пропонує простий спос
 
 ### SQLite3
 
-Доданий метод **SQLite3::lastExtendedErrorCode()** для отримання останнього розширеного коду результату.
+Добавлен метод\*\*SQLite3::lastExtendedErrorCode()\*\*для получения последнего расширенного кода результата.
 
-Доданий метод `SQLite3::enableExtendedResultCodes($enable = true)`, який змусить метод [SQLite3::lastErrorCode()](sqlite3.lasterrorcode.md) повертати розширені коди результатів.
+Добавлен метод`SQLite3::enableExtendedResultCodes($enable = true)`, який змусить метод [SQLite3::lastErrorCode()](sqlite3.lasterrorcode.md) повертати розширені коди результатів.
 
 ### Стандартне
 
-#### striptags() з масивом імен тегів
+#### strip\_tags() з масивом імен тегів
 
-Функція [striptags()](function.strip-tags.md) тепер також приймає масив дозволених тегів: замість `strip_tags($str, '<a><p>')` тепер можна написати `strip_tags($str, ['a', 'p'])`
+Функция[strip\_tags()](function.strip-tags.md) тепер також приймає масив дозволених тегів: замість `strip_tags($str, '<a><p>')` тепер можна написати `strip_tags($str, ['a', 'p'])`
 
-#### Користувальницька серіалізація об'єктів
+#### Серіалізація об'єктів
 
-Додано новий механізм серіалізації об'єктів, що використовує два нових магічних методи: `__serialize` і `__unserialize`
+Додано новий механізм серіалізації об'єктів, що використовує два нових магічних методи: `__serialize`и`__unserialize`
 
 ```php
 <?php
-// Возвращает Масив, содержащий все необходимое состояние объекта.
+// Возвращает массив, содержащий все необходимое состояние объекта.
 public function __serialize(): array;
 
-// Восстанавливает состояние объекта из указанного Масива данных.
+// Восстанавливает состояние объекта из указанного массива данных.
 public function __unserialize(array $data): void;
 ?>
 ```
@@ -178,11 +179,11 @@ public function __unserialize(array $data): void;
 
 #### Функції злиття масивів без аргументів
 
-Функції [arraymerge()](function.array-merge.md) і [arraymergerecursive()](function.array-merge-recursive.md) тепер можуть викликатися без жодних аргументів, і тоді вони повернуть порожній масив. Це корисно у поєднанні з оператором розширення, наприклад, `array_merge(...$arrays)`
+Функції [array\_merge()](function.array-merge.md) і [array\_merge\_recursive()](function.array-merge-recursive.md) тепер можуть викликатись без будь-яких аргументів, і тоді вони повернуть порожній масив. Це корисно у поєднанні з оператором розширення, наприклад, `array_merge(...$arrays)`
 
-#### Функція [procopen()](function.proc-open.md)
+#### Функция[proc\_open()](function.proc-open.md)
 
-[procopen()](function.proc-open.md) тепер приймає масив замість рядка для виконання команди. У цьому випадку процес буде відкритий безпосередньо (без командної оболонки), а PHP екранує будь-який аргумент.
+[proc\_open()](function.proc-open.md) тепер приймає масив замість рядка для виконання команди. У цьому випадку процес буде відкритий безпосередньо (без командної оболонки), а PHP екранує будь-який аргумент.
 
 ```php
 <?php
@@ -190,7 +191,7 @@ proc_open(['php', '-r', 'echo "Привет, мир\n";'], $descriptors, $pipes)
 ?>
 ```
 
-Функція [procopen()](function.proc-open.md) тепер підтримує дескриптори `redirect` і `null`
+Функция[proc\_open()](function.proc-open.md) тепер підтримує дескриптори `redirect`и`null`
 
 ```php
 <?php
@@ -203,4 +204,4 @@ proc_open($cmd, [1 => ['pipe', 'w'], 2 => ['null']], $pipes);
 
 #### argon2i(d) без libargon
 
-Функція [passwordhash()](function.password-hash.md) тепер підтримує варіанти хешування argon2i та argon2id з модуля sodium, коли PHP зібраний без libargon.
+Функция[password\_hash()](function.password-hash.md) тепер підтримує варіанти хешування argon2i та argon2id з модуля sodium, коли PHP зібраний без libargon.

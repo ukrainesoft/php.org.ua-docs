@@ -1,10 +1,11 @@
 ---
 navigation:
-  - eventutil.construct.md: '« EventUtil::construct'
+  - eventutil.construct.md: '« EventUtil::\_\_construct'
   - eventutil.getlastsocketerror.md: 'EventUtil::getLastSocketError »'
   - index.md: PHP Manual
   - class.eventutil.md: EventUtil
 title: 'EventUtil::getLastSocketErrno'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventUtil::getLastSocketErrno
 
@@ -38,4 +39,4 @@ public
 
 ### Дивіться також
 
--   [EventUtil::getLastSocketError()](eventutil.getlastsocketerror.md) - Отримати останню помилку сокету, що виникла
+-   [EventUtil::getLastSocketError()](eventutil.getlastsocketerror.md) \- Отримати останню помилку сокету, що виникла

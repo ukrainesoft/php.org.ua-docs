@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getEquivalentID'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlTimeZone::getEquivalentID
 
-# intltzgetequivalentід
+# intltz\_get\_equivalent\_id
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getEquivalentID -- intltzgetequivalentid — Отримати ідентифікатор у групі схожих часових поясів, включно із заданим ідентифікатором.
+IntlTimeZone::getEquivalentID -- intltz\_get\_equivalent\_id — Отримати ідентифікатор у групі схожих часових поясів, включно із заданим ідентифікатором.
 
 ### Опис
 
@@ -30,7 +31,7 @@ intltz_get_equivalent_id(string $timezoneId, int $offset): string|false
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

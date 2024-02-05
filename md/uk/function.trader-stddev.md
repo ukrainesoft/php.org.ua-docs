@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-sqrt.md: « tradersqrt
-  - function.trader-stoch.md: traderstoch »
+  - function.trader-sqrt.md: « trader\_sqrt
+  - function.trader-stoch.md: trader\_stoch »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderstddev
+  - ref.trader.md: Функції Trader
+title: trader\_stddev
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderstddev
+# trader\_stddev
 
 (PECL trader >= 0.2.0)
 
-traderstddev - Стандартне відхилення
+trader\_stddev - Стандартне відхилення
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.xattr.md: « xattr Функции
-  - function.xattr-list.md: xattrlist »
+  - ref.xattr.md: « xattr Функції
+  - function.xattr-list.md: xattr\_list »
   - index.md: PHP Manual
-  - ref.xattr.md: xattr Функции
-title: xattrget
+  - ref.xattr.md: xattr Функції
+title: xattr\_get
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xattrget
+# xattr\_get
 
 (PECL xattr >= 0.9.0)
 
-xattrget — отримання розширених атрибутів файлу
+xattr\_get — отримання розширених атрибутів файлу
 
 ### Опис
 
@@ -20,7 +21,7 @@ xattr_get(string $filename, string $name, int $flags = 0): string
 
 Ця функція повертає значення розширеного атрибута файлу.
 
-Розширені атрибути мають два різні простори імен: користувальницьке та кореневе (root). Користувальницький простір імен доступний для всіх користувачів, в той час як кореневе - тільки для користувачів з root-привілеями. За умовчанням xattr оперує в просторі імен, але ви можете змінити цю поведінку за допомогою аргументу `flags`
+У розширених атрибутів два простори імен: і кореневе (root). Користувальницький простір імен доступний для всіх користувачів, в той час як кореневе - тільки для користувачів з root-привілеями. За умовчанням xattr оперує в просторі імен, але ви можете змінити цю поведінку за допомогою аргументу `flags`
 
 ### Список параметрів
 
@@ -56,6 +57,6 @@ $signature = xattr_get($file, 'Root signature', XATTR_ROOT);
 
 ### Дивіться також
 
--   [xattrlist()](function.xattr-list.md) - Перегляд списку розширених атрибутів файлу
--   [xattrset()](function.xattr-set.md) - Встановлення розширених атрибутів файлу
--   [xattrremove()](function.xattr-remove.md) - Видалення розширених атрибутів файлу
+-   [xattr\_list()](function.xattr-list.md) \- Перегляд списку розширених атрибутів файлу
+-   [xattr\_set()](function.xattr-set.md) \- Встановлення розширених атрибутів файлу
+-   [xattr\_remove()](function.xattr-remove.md) \- Видалення розширених атрибутів файлу

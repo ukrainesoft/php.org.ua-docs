@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phardata.md: PharData
 title: 'PharData::offsetUnset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharData::offsetUnset
 
@@ -24,7 +25,7 @@ public PharData::offsetUnset(string $localName): void
 
 `localName`
 
-Назва файлу (відносний шлях).
+Ім'я файлу (відносний шлях).
 
 ### Значення, що повертаються
 
@@ -32,11 +33,11 @@ public PharData::offsetUnset(string $localName): void
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.md) у разі проблем із записом на диск.
+Викидає виняток [PharException](class.pharexception.md)в случае проблем с записью на диск.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharData::offsetUnset()****
+**Пример #1 Пример использования**PharData::offsetUnset()\*\*\*\*
 
 ```php
 <?php
@@ -52,4 +53,4 @@ try {
 
 ### Дивіться також
 
--   [Phar::offsetUnset()](phar.offsetunset.md) - Видалити файл із phar-архіву
+-   [Phar::offsetUnset()](phar.offsetunset.md) \- Видалити файл із phar-архіву

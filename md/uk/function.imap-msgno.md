@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-mime-header-decode.md: « imapmimeheaderdecode
-  - function.imap-mutf7-to-utf8.md: imapmutf7тоutf8 »
+  - function.imap-mime-header-decode.md: « imap\_mime\_header\_decode
+  - function.imap-mutf7-to-utf8.md: imap\_mutf7\_to\_utf8 »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapmsgno
+  - ref.imap.md: Функції IMAP
+title: imap\_msgno
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapmsgno
+# imap\_msgno
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapmsgno — Отримати номер повідомлення із заданим UID
+imap\_msgno — Отримує номер повідомлення із заданим UID
 
 ### Опис
 
@@ -18,15 +19,15 @@ imapmsgno — Отримати номер повідомлення із зада
 imap_msgno(IMAP\Connection $imap, int $message_uid): int
 ```
 
-Повертає номер повідомлення для вказаного `message_uid`
+Повертає номер повідомлення для зазначеного у параметрі `message_uid` ідентифікатор.
 
-Ця функція зворотна до [imapuid()](function.imap-uid.md)
+Ця функція зворотна до [imap\_uid()](function.imap-uid.md)
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `message_uid`
 
@@ -34,14 +35,14 @@ UID повідомлення
 
 ### Значення, що повертаються
 
-Повертає номер повідомлення для вказаного `message_uid`
+Повертає номер повідомлення для зазначеного `message_uid`
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Дивіться також
 
--   [imapuid()](function.imap-uid.md) - Отримати UID за номером повідомлення
+-   [imap\_uid()](function.imap-uid.md) \- Отримує UID за номером повідомлення

@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::statisticImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::statisticImage
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
-Imagick::statisticImage — Опис
+Imagick::statisticImage — Модифікація зображення за допомогою функції статистики
 
 ### Опис
 
 ```methodsynopsis
-public Imagick::statisticImage(    int $type,    int $width,    int $height,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::statisticImage(    int $type,    int $width,    int $height,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Замінює кожен піксель відповідною статистикою з околиці зазначеної ширини та висоти.
@@ -36,7 +37,7 @@ public Imagick::statisticImage(    int $type,    int $width,    int $height,    
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::statisticImage()****
+**Пример #1 Пример использования**Imagick::statisticImage()\*\*\*\*
 
 ```php
 <?php

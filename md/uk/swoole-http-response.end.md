@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-http-response.destruct.md: '« SwooleHttpResponse::destruct'
-  - swoole-http-response.gzip.md: 'SwooleHttpResponse::gzip »'
+  - swoole-http-response.destruct.md: '« Swoole\\Http\\Response::\_\_destruct'
+  - swoole-http-response.gzip.md: 'Swoole\\Http\\Response::gzip »'
   - index.md: PHP Manual
-  - class.swoole-http-response.md: SwooleHttpResponse
-title: 'SwooleHttpResponse::end'
+  - class.swoole-http-response.md: Swoole\\Http\\Response
+title: 'Swoole\\Http\\Response::end'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpResponse::end
+# Swoole\\Http\\Response::end
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpResponse::end — Надсилає дані HTTP-запиту та завершує відповідь
+Swoole\\Http\\Response::end — Надсилає дані HTTP-запиту та завершує відповідь
 
 ### Опис
 

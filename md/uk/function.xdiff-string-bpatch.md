@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xdiff-string-bdiff.md: xdiffstringbdiff
-  - function.xdiff-string-diff-binary.md: xdiffstringdiffbinary »
+  - function.xdiff-string-bdiff.md: « xdiff\_string\_bdiff
+  - function.xdiff-string-diff-binary.md: xdiff\_string\_diff\_binary »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
-title: xdiffstringbpatch
+title: xdiff\_string\_bpatch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xdiffstringbpatch
+# xdiff\_string\_bpatch
 
 (PECL xdiff >= 1.5.0)
 
-xdiffstringbpatch — Застосування бінарного патча до рядка
+xdiff\_string\_bpatch — Застосування бінарного патча до рядка
 
 ### Опис
 
@@ -18,7 +19,7 @@ xdiffstringbpatch — Застосування бінарного патча д�
 xdiff_string_bpatch(string $str, string $patch): string
 ```
 
-Застосовує до рядка `str` бінарний патч `patch`. Ця функція приймає патчі створені як [xdiffstringbdiff()](function.xdiff-string-bdiff.md), так і [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
+Застосовує до рядка `str` бінарний патч `patch`. Ця функція приймає патчі створені як [xdiff\_string\_bdiff()](function.xdiff-string-bdiff.md), так и[xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.md)
 
 ### Список параметрів
 
@@ -32,9 +33,9 @@ xdiff_string_bpatch(string $str, string $patch): string
 
 ### Значення, що повертаються
 
-Повертає змінений рядок, або **`false`** у разі виникнення помилки.
+Повертає змінений рядок, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [xdiffstringbdiff()](function.xdiff-string-bdiff.md) - Створити бінарний патч для двох рядків
--   [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md) - Порівняти два рядки та створити бінарний патч використовуючи поліномінальний алгоритм Rabin fingerprint
+-   [xdiff\_string\_bdiff()](function.xdiff-string-bdiff.md) \- Створити бінарний патч для двох рядків
+-   [xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.md) \- Порівняти два рядки та створити бінарний патч використовуючи поліномінальний алгоритм Rabin fingerprint

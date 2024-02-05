@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gnupg-listsignatures.md: « gnupglistsignatures
-  - function.gnupg-seterrormode.md: gnupgseterrormode »
+  - function.gnupg-listsignatures.md: « gnupg\_listsignatures
+  - function.gnupg-seterrormode.md: gnupg\_seterrormode »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgsetarmor
+title: gnupg\_setarmor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgsetarmor
+# gnupg\_setarmor
 
 (PECL gnupg >= 0.1)
 
-gnupgsetarmor — Переключає виведення текстового або бінарного режиму.
+gnupg\_setarmor — Перемикає вивод у текстовому або бінарному режимі
 
 ### Опис
 
@@ -24,7 +25,7 @@ gnupg_setarmor(resource $identifier, int $armor): bool
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `armor`
 
@@ -32,11 +33,11 @@ gnupg_setarmor(resource $identifier, int $armor): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupgsetarmor()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_setarmor()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ gnupg_setarmor($res,0); // бинарный режим вывода;
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupgsetarmor()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_setarmor()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

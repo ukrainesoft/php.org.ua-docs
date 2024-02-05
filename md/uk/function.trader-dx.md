@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-div.md: « traderdiv
-  - function.trader-ema.md: traderema »
+  - function.trader-div.md: « trader\_div
+  - function.trader-ema.md: trader\_ema »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderдкс
+  - ref.trader.md: Функції Trader
+title: trader\_dx
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderдкс
+# trader\_dx
 
 (PECL trader >= 0.2.0)
 
-traderdx - Індекс спрямованого руху
+trader\_dx - Індекс спрямованого руху
 
 ### Опис
 
 ```methodsynopsis
-trader_dx(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_dx(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

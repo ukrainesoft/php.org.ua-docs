@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.soapserver.md: SoapServer
 title: 'SoapServer::addFunction'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SoapServer::addFunction
 
@@ -30,9 +31,9 @@ public SoapServer::addFunction(array|string|int $functions): void
 
 Для експорту всіх функцій задайте параметр константою **`SOAP_FUNCTIONS_ALL`**
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Параметр `functions` повинен приймати всі вхідні аргументи в тому ж порядку, як вони визначені у файлі WSDL (вони не повинні приймати жодних параметрів, що повертаються в якості аргументів) і повинні повертати одне або більше значень. Для повернення кількох значень, вони повинні повертати масив з іменованими параметрами, що повертаються.
+> Параметр`functions` повинен приймати всі вхідні аргументи в тому ж порядку, як вони визначені у файлі WSDL (вони не повинні приймати жодних параметрів, що повертаються в якості аргументів) і повинні повертати одне або більше значень. Для повернення кількох значень, вони повинні повертати масив з іменованими параметрами, що повертаються.
 
 ### Значення, що повертаються
 
@@ -40,7 +41,7 @@ public SoapServer::addFunction(array|string|int $functions): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapServer::addFunction()****
+**Пример #1 Пример использования**SoapServer::addFunction()\*\*\*\*
 
 ```php
 <?php
@@ -66,5 +67,5 @@ $server->addFunction(SOAP_FUNCTIONS_ALL);
 
 ### Дивіться також
 
--   [SoapServer::construct()](soapserver.construct.md) - Конструктор SoapServer
--   [SoapServer::setClass()](soapserver.setclass.md) - Встановлює клас, який обробляє SOAP-запити
+-   [SoapServer::\_\_construct()](soapserver.construct.md) \- Конструктор SoapServer
+-   [SoapServer::setClass()](soapserver.setclass.md) \- Встановлює клас, який обробляє SOAP-запити

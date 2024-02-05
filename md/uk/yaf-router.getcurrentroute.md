@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-router.construct.md: '« YafRouter::construct'
-  - yaf-router.getroute.md: 'YafRouter::getRoute »'
+  - yaf-router.construct.md: '« Yaf\_Router::\_\_construct'
+  - yaf-router.getroute.md: 'Yaf\_Router::getRoute »'
   - index.md: PHP Manual
-  - class.yaf-router.md: YafRouter
-title: 'YafRouter::getCurrentRoute'
+  - class.yaf-router.md: Yaf\_Router
+title: 'Yaf\_Router::getCurrentRoute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouter::getCurrentRoute
+# Yaf\_Router::getCurrentRoute
 
 (Yaf >=1.0.0)
 
-YafRouter::getCurrentRoute — Отримує ім'я чинного маршруту
+Yaf\_Router::getCurrentRoute — Отримує ім'я чинного маршруту
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Router::getCurrentRoute(): string
 
 Отримує ім'я діючого маршруту.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ви повинні викликати цей метод після завершення процесу маршрутизації, оскільки до цього цей метод завжди повертатиметься **`null`**
 
@@ -75,7 +76,7 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
 ?>
 ```
 
-**Приклад #2 Плагін Dummy.php (у [application.directory](yaf.appconfig.md#configuration.yaf.directory)/plugins)**
+**Пример #2 Плагин Dummy.php (в[application.directory](yaf.appconfig.md#configuration.yaf.directory)/plugins)**
 
 ```php
 <?php
@@ -88,7 +89,7 @@ class DummyPlugin extends Yaf_Plugin_Abstract {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 /* для http://yourdomain.com/product/list/1
@@ -109,6 +110,6 @@ string(8) "_default"
 
 ### Дивіться також
 
--   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)
--   [YafPluginAbstract](class.yaf-plugin-abstract.md)
--   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора
+-   [Yaf\_Bootstrap\_Abstract](class.yaf-bootstrap-abstract.md)
+-   [Yaf\_Plugin\_Abstract](class.yaf-plugin-abstract.md)
+-   [Yaf\_Router::addRoute()](yaf-router.addroute.md) \- Додає новий маршрут до маршрутизатора

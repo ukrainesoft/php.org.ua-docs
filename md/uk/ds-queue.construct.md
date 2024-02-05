@@ -1,20 +1,21 @@
 ---
 navigation:
-  - ds-queue.clear.md: '« DsQueue::clear'
-  - ds-queue.copy.md: 'ДсQueue::copy »'
+  - ds-queue.clear.md: '« Ds\\Queue::clear'
+  - ds-queue.copy.md: 'Ds\\Queue::copy »'
   - index.md: PHP Manual
-  - class.ds-queue.md: Черга
-title: 'ДсQueue::construct'
+  - class.ds-queue.md: Ds\\Queue
+title: 'Ds\\Queue::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсQueue::construct
+# Ds\\Queue::\_\_construct
 
 (PECL ds >= 1.0.0)
 
-ДсQueue::construct — Створює новий екземпляр
+Ds\\Queue::\_\_construct — Створює новий екземпляр
 
 ### Опис
 
-public **ДсQueue::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
+public**Ds\\Queue::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
 
 Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 
@@ -26,7 +27,7 @@ public **ДсQueue::construct**[mixed](language.types.declarations.md#language.t
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсQueue::construct()****
+**Пример #1 Пример использования**Ds\\Queue::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump($queue);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Queue)#2 (0) {

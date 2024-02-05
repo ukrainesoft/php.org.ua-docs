@@ -5,20 +5,21 @@ navigation:
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::analyzerDetail'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::analyzerDetail
 
 (PECL seaslog >=1.1.6)
 
-SeasLog::analyzerDetail — Отримує деталізацію журналу за рівнем, logpath, keyword, start, limit, order
+SeasLog::analyzerDetail — Отримує деталізацію журналу за рівнем, log\_path, key\_word, start, limit, order
 
 ### Опис
 
 ```methodsynopsis
-public static SeasLog::analyzerDetail(    string $level,    string $log_path = ?,    string $key_word = ?,    int $start = ?,    int $limit = ?,    int $order = ?): mixed
+public static SeasLog::analyzerDetail(    string $level,    string $log_path = ?,    string $key_word = ?,    int $start = ?,    int $limit = ?,    int $order = ?): mixed
 ```
 
-SeasLog отримує результат виконання команди grep -ai '{level}' | grep -ai '{keyword}' | sed -n '{start},{limit}'p, використовує системний канал і повертає масив у PHP
+\`SeasLog\` отримує результат виконання команди \`grep -ai '{level}' | grep -ai '{key\_word}' | sed -n '{start},{limit}'p\`, використовує системний канал і повертає масив у PHP
 
 ### Список параметрів
 
@@ -36,30 +37,30 @@ SeasLog отримує результат виконання команди grep
 
 `start`
 
-Ціле число. За замовчуванням
+Целое число. По умолчанию\` \`
 
 `limit`
 
-Ціле число. За замовчуванням
+Целое число. По умолчанию\`20\`
 
 `order`
 
-Ціле число. За замовчуванням [SEASLOGDETAILORDERASC](seaslog.constants.md#constant.seaslog-detail-order-asc). Дивіться також:
+Целое число. По умолчанию[SEASLOG\_DETAIL\_ORDER\_ASC](seaslog.constants.md#constant.seaslog-detail-order-asc)Смотрите также:
 
--   [SEASLOGDETAILORDERASC](seaslog.constants.md#constant.seaslog-detail-order-asc)
--   [SEASLOGDETAILORDERDESC](seaslog.constants.md#constant.seaslog-detail-order-desc)
+-   [SEASLOG\_DETAIL\_ORDER\_ASC](seaslog.constants.md#constant.seaslog-detail-order-asc)
+-   [SEASLOG\_DETAIL\_ORDER\_DESC](seaslog.constants.md#constant.seaslog-detail-order-desc)
 
 ### Значення, що повертаються
 
 Повертає результати як масиву.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо start, limit не дорівнює NULL, у Windows SeasLog викине виняток із повідомленням: "Param start and limit don't support Windows" (Параметри start і limit не підтримуються у Windows).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::analyzerDetail()****
+**Пример #1 Пример использования**SeasLog::analyzerDetail()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +77,7 @@ var_dump($result1,$result2,$result3);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(20) {
@@ -110,4 +111,4 @@ array(2) {
 
 ### Дивіться також
 
--   [SeasLog::analyzerCount()](seaslog.analyzercount.md) - Отримує кількість журналів за рівнем, logpath і keyслово
+-   [SeasLog::analyzerCount()](seaslog.analyzercount.md) \- Отримує кількість журналів за рівнем, log\_path і key\_word

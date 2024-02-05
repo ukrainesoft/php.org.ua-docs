@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.pcntl.md: PCNTL
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
@@ -12,236 +13,238 @@ title: Обумовлені константи
 
 **Константи управління процесом**
 
-**`WNOHANG`** (int)
+**`WNOHANG`**(int)
 
-**`WUNTRACED`** (int)
+**`WUNTRACED`**(int)
 
-**Константи SIG**
+**Константи SIG\_\***
 
-**`SIG_IGN`** (int)
+**`SIG_IGN`**(int)
 
-**`SIG_DFL`** (int)
+**`SIG_DFL`**(int)
 
-**`SIG_ERR`** (int)
+**`SIG_ERR`**(int)
 
-**`SIGHUP`** (int)
+**`SIGHUP`**(int)
 
-**`SIGINT`** (int)
+**`SIGINFO`**(int)
 
-**`SIGQUIT`** (int)
+**`SIGINT`**(int)
 
-**`SIGILL`** (int)
+**`SIGQUIT`**(int)
 
-**`SIGTRAP`** (int)
+**`SIGILL`**(int)
 
-**`SIGABRT`** (int)
+**`SIGTRAP`**(int)
 
-**`SIGIOT`** (int)
+**`SIGABRT`**(int)
 
-**`SIGBUS`** (int)
+**`SIGIOT`**(int)
 
-**`SIGFPE`** (int)
+**`SIGBUS`**(int)
 
-**`SIGKILL`** (int)
+**`SIGFPE`**(int)
 
-**`SIGUSR1`** (int)
+**`SIGKILL`**(int)
 
-**`SIGSEGV`** (int)
+**`SIGUSR1`**(int)
 
-**`SIGUSR2`** (int)
+**`SIGSEGV`**(int)
 
-**`SIGPIPE`** (int)
+**`SIGUSR2`**(int)
 
-**`SIGALRM`** (int)
+**`SIGPIPE`**(int)
 
-**`SIGTERM`** (int)
+**`SIGALRM`**(int)
 
-**`SIGSTKFLT`** (int)
+**`SIGTERM`**(int)
 
-**`SIGCLD`** (int)
+**`SIGSTKFLT`**(int)
 
-**`SIGCHLD`** (int)
+**`SIGCLD`**(int)
 
-**`SIGCONT`** (int)
+**`SIGCHLD`**(int)
 
-**`SIGSTOP`** (int)
+**`SIGCONT`**(int)
 
-**`SIGTSTP`** (int)
+**`SIGSTOP`**(int)
 
-**`SIGTTIN`** (int)
+**`SIGTSTP`**(int)
 
-**`SIGTTOU`** (int)
+**`SIGTTIN`**(int)
 
-**`SIGURG`** (int)
+**`SIGTTOU`**(int)
 
-**`SIGXCPU`** (int)
+**`SIGURG`**(int)
 
-**`SIGXFSZ`** (int)
+**`SIGXCPU`**(int)
 
-**`SIGVTALRM`** (int)
+**`SIGXFSZ`**(int)
 
-**`SIGPROF`** (int)
+**`SIGVTALRM`**(int)
 
-**`SIGWINCH`** (int)
+**`SIGPROF`**(int)
 
-**`SIGPOLL`** (int)
+**`SIGWINCH`**(int)
 
-**`SIGIO`** (int)
+**`SIGPOLL`**(int)
 
-**`SIGPWR`** (int)
+**`SIGIO`**(int)
 
-**`SIGSYS`** (int)
+**`SIGPWR`**(int)
 
-**`SIGBABY`** (int)
+**`SIGSYS`**(int)
 
-**`SIG_BLOCK`** (int)
+**`SIGBABY`**(int)
 
-**`SIG_UNBLOCK`** (int)
+**`SIG_BLOCK`**(int)
 
-**`SIG_SETMASK`** (int)
+**`SIG_UNBLOCK`**(int)
 
-**`SI_USER`** (int)
+**`SIG_SETMASK`**(int)
 
-**`SI_NOINFO`** (int)
+**`SI_USER`**(int)
 
-**`SI_KERNEL`** (int)
+**`SI_NOINFO`**(int)
 
-**`SI_QUEUE`** (int)
+**`SI_KERNEL`**(int)
 
-**`SI_TIMER`** (int)
+**`SI_QUEUE`**(int)
 
-**`SI_MSGGQ`** (int)
+**`SI_TIMER`**(int)
 
-**`SI_ASYNCIO`** (int)
+**`SI_MSGGQ`**(int)
 
-**`SI_SIGIO`** (int)
+**`SI_ASYNCIO`**(int)
 
-**`SI_TKILL`** (int)
+**`SI_SIGIO`**(int)
 
-**Константи CLD**
+**`SI_TKILL`**(int)
 
-**`CLD_EXITED`** (int)
+**Константи CLD\_\***
 
-**`CLD_KILLED`** (int)
+**`CLD_EXITED`**(int)
 
-**`CLD_DUMPED`** (int)
+**`CLD_KILLED`**(int)
 
-**`CLD_TRAPPED`** (int)
+**`CLD_DUMPED`**(int)
 
-**`CLD_STOPPED`** (int)
+**`CLD_TRAPPED`**(int)
 
-**`CLD_CONTINUED`** (int)
+**`CLD_STOPPED`**(int)
 
-**Константи TRAP**
+**`CLD_CONTINUED`**(int)
 
-**`TRAP_BRKPT`** (int)
+**Константи TRAP\_\***
 
-**`TRAP_TRACE`** (int)
+**`TRAP_BRKPT`**(int)
 
-**`POLL_IN`** (int)
+**`TRAP_TRACE`**(int)
 
-**`POLL_OUT`** (int)
+**`POLL_IN`**(int)
 
-**`POLL_MSG`** (int)
+**`POLL_OUT`**(int)
 
-**`POLL_ERR`** (int)
+**`POLL_MSG`**(int)
 
-**`POLL_PRI`** (int)
+**`POLL_ERR`**(int)
 
-**`POLL_HUP`** (int)
+**`POLL_PRI`**(int)
 
-**Константи ILL**
+**`POLL_HUP`**(int)
 
-**`ILL_ILLOPC`** (int)
+**Константи ILL\_\***
 
-**`ILL_ILLOPN`** (int)
+**`ILL_ILLOPC`**(int)
 
-**`ILL_ILLADR`** (int)
+**`ILL_ILLOPN`**(int)
 
-**`ILL_ILLTRP`** (int)
+**`ILL_ILLADR`**(int)
 
-**`ILL_PRVOPC`** (int)
+**`ILL_ILLTRP`**(int)
 
-**`ILL_PRVREG`** (int)
+**`ILL_PRVOPC`**(int)
 
-**`ILL_COPROC`** (int)
+**`ILL_PRVREG`**(int)
 
-**`ILL_BADSTK`** (int)
+**`ILL_COPROC`**(int)
 
-**Константи FPE**
+**`ILL_BADSTK`**(int)
 
-**`FPE_INTDIV`** (int)
+**Константи FPE\_\***
 
-**`FPE_INTOVF`** (int)
+**`FPE_INTDIV`**(int)
 
-**`FPE_FLTDIV`** (int)
+**`FPE_INTOVF`**(int)
 
-**`FPE_FLTOVF`** (int)
+**`FPE_FLTDIV`**(int)
 
-**`FPE_FLTUND`** (int)
+**`FPE_FLTOVF`**(int)
 
-**`FPE_FLTRES`** (int)
+**`FPE_FLTUND`**(int)
 
-**`FPE_FLTINV`** (int)
+**`FPE_FLTRES`**(int)
 
-**`FPE_FLTSUB`** (int)
+**`FPE_FLTINV`**(int)
 
-**Константи SEGV**
+**`FPE_FLTSUB`**(int)
 
-**`SEGV_MAPERR`** (int)
+**Константи SEGV\_\***
 
-**`SEGV_ACCERR`** (int)
+**`SEGV_MAPERR`**(int)
 
-**Константи BUS**
+**`SEGV_ACCERR`**(int)
 
-**`BUS_ADRALN`** (int)
+**Константи BUS\_\***
 
-**`BUS_ADRERR`** (int)
+**`BUS_ADRALN`**(int)
 
-**`BUS_OBJERR`** (int)
+**`BUS_ADRERR`**(int)
 
-**Константи CLONE**
+**`BUS_OBJERR`**(int)
 
-**`CLONE_NEWNS`** (int)
+**Константи CLONE\_\***
+
+**`CLONE_NEWNS`**(int)
 
 Доступно, починаючи з PHP 7.4.0
 
-**`CLONE_NEWIPC`** (int)
+**`CLONE_NEWIPC`**(int)
 
 Доступно, починаючи з PHP 7.4.0
 
-**`CLONE_NEWUTS`** (int)
+**`CLONE_NEWUTS`**(int)
 
 Доступно, починаючи з PHP 7.4.0
 
-**`CLONE_NEWNET`** (int)
+**`CLONE_NEWNET`**(int)
 
 Доступно, починаючи з PHP 7.4.0
 
-**`CLONE_NEWPID`** (int)
+**`CLONE_NEWPID`**(int)
 
 Доступно, починаючи з PHP 7.4.0
 
-**`CLONE_NEWUSER`** (int)
+**`CLONE_NEWUSER`**(int)
 
 Доступно, починаючи з PHP 7.4.0
 
-**`CLONE_NEWCGROUP`** (int)
+**`CLONE_NEWCGROUP`**(int)
 
 Доступно, починаючи з PHP 7.4.0
 
-**Константи PRIO**
+**Константи PRIO\_\***
 
-**`PRIO_PGRP`** (int)
+**`PRIO_PGRP`**(int)
 
-**`PRIO_USER`** (int)
+**`PRIO_USER`**(int)
 
-**`PRIO_PROCESS`** (int)
+**`PRIO_PROCESS`**(int)
 
-**`PRIO_DARWIN_BG`** (int)
+**`PRIO_DARWIN_BG`**(int)
 
 Доступно з PHP 8.1.0.
 
-**`PRIO_DARWIN_THREAD`** (int)
+**`PRIO_DARWIN_THREAD`**(int)
 
 Доступно з PHP 8.1.0.

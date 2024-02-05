@@ -1,35 +1,36 @@
 ---
 navigation:
-  - function.stats-cdf-beta.md: « statscdfbeta
-  - function.stats-cdf-cauchy.md: statscdfcauchy »
+  - function.stats-cdf-beta.md: « stats\_cdf\_beta
+  - function.stats-cdf-cauchy.md: stats\_cdf\_cauchy »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statscdfbinomial
+title: stats\_cdf\_binomial
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statscdfbinomial
+# stats\_cdf\_binomial
 
 (PECL stats >= 1.0.0)
 
-statscdfbinomial — Обчислює один із параметрів біномінального розподілу за рештою
+stats\_cdf\_binomial — Обчислює один із параметрів біномінального розподілу за рештою
 
 ### Опис
 
 ```methodsynopsis
-stats_cdf_binomial(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_binomial(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
-Повертає кумулятивну функцію біномінального розподілу, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`
+Повертає кумулятивну функцію біномінального розподілу, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2`и`par3`) определяются параметром`which`
 
-У наступній таблиці перераховані значення, що повертаються, і параметри в залежності від `which`. CDF, x, n та p позначає функцію кумулятивного розподілу, кількість успішних випробувань, загальну кількість випробувань та коефіцієнт успіху для кожного випробування відповідно.
+У наступній таблиці перераховані значення і параметри, що повертаються, в залежності від `which`. CDF, x, n та p позначає функцію кумулятивного розподілу, кількість успішних випробувань, загальну кількість випробувань та коефіцієнт успіху для кожного випробування відповідно.
 
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
 | --- | --- | --- | --- | --- |
-|  | CDF | з | н | п |
-|  | з | CDF | н | п |
-|  | н | з | CDF | п |
-|  | п | з | CDF | н |
+|  | CDF | x | n | p |
+|  | x | CDF | n | p |
+| 3 | n | x | CDF | p |
+| 4 | p | x | CDF | n |
 
 ### Список параметрів
 

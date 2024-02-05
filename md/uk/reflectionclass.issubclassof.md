@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflectionclass.isiterateable.md: '« ReflectionClass::isIterateable'
+  - reflectionclass.isreadonly.md: '« ReflectionClass::isReadOnly'
   - reflectionclass.istrait.md: 'ReflectionClass::isTrait »'
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isSubclassOf'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::isSubclassOf
 
@@ -28,11 +29,11 @@ public ReflectionClass::isSubclassOf(ReflectionClass|string $class): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ReflectionClass::isInterface()](reflectionclass.isinterface.md) - Перевіряє, чи є клас інтерфейсом
--   [ReflectionClass::implementsInterface()](reflectionclass.implementsinterface.md) - Перевіряє, чи реалізується інтерфейс
--   [ісsubclassof()](function.is-subclass-of.md) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
--   [getparentclass()](function.get-parent-class.md) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [ReflectionClass::isInterface()](reflectionclass.isinterface.md) \- Перевіряє, чи є клас інтерфейсом
+-   [ReflectionClass::implementsInterface()](reflectionclass.implementsinterface.md) \- Перевіряє, чи реалізується інтерфейс
+-   [is\_subclass\_of()](function.is-subclass-of.md) \- Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [get\_parent\_class()](function.get-parent-class.md) \- Повертає ім'я батьківського класу для об'єкта чи класу

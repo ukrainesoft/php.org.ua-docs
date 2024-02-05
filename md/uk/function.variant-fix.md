@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.variant-eqv.md: « varianteqv
-  - function.variant-get-type.md: variantgettype »
+  - function.variant-eqv.md: « variant\_eqv
+  - function.variant-get-type.md: variant\_get\_type »
   - index.md: PHP Manual
-  - ref.com.md: Функции COM
-title: variantfix
+  - ref.com.md: Функції COM
+title: variant\_fix
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# variantfix
+# variant\_fix
 
 (PHP 5, PHP 7, PHP 8)
 
-variantfix — Повернути цілу частину варіанта
+variant\_fix — Повернути цілу частину варіанта
 
 ### Опис
 
@@ -24,13 +25,13 @@ variant_fix(mixed $value): variant
 
 `value`
 
-Різновид.
+Варіант.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.md). У об'єктів COM і DOTNET буде взято та використано їх значення за умовчанням як значення варіанта.
+> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.md). У об'єктів COM і DOTNET буде взято та використано їх значення за замовчуванням як значення варіанта.
 > 
-> Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variantadd()](function.variant-add.md) у PHP відповідає `VarAdd()` у документації MSDN.
+> Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variant\_add()](function.variant-add.md) у PHP відповідає `VarAdd()`в документации MSDN.
 
 ### Значення, що повертаються
 
@@ -38,18 +39,18 @@ variant_fix(mixed $value): variant
 
 ### Помилки
 
-Викидає виняток [comexception](class.com-exception.md) у разі виникнення помилки.
+Викидає виняток [com\_exception](class.com-exception.md)в случае возникновения ошибки.
 
 ### Примітки
 
 **Увага**
 
-Ви, мабуть, помітили, що опис цієї функції буква в букву збігається з описом функції [variantint()](function.variant-int.md). Так як ця документація заснована на MSDN, то це або так має бути, або в MSDN помилка.
+Ви, мабуть, помітили, що опис цієї функції буква в букву збігається з описом функції [variant\_int()](function.variant-int.md). Так як ця документація заснована на MSDN, то це або має бути, або в MSDN помилка.
 
 ### Дивіться також
 
--   [variantint()](function.variant-int.md) - Повернути цілу частину варіанта
--   [variantround()](function.variant-round.md) - Округлює варіант із заданою точністю
--   [floor()](function.floor.md) - Округлює дріб у менший бік
--   [ceil()](function.ceil.md) - Округлює дріб у велику сторону
--   [round()](function.round.md) - Округлює кількість типу float
+-   [variant\_int()](function.variant-int.md) \- Повернути цілу частину варіанта
+-   [variant\_round()](function.variant-round.md) \- Округлює варіант із заданою точністю
+-   [floor()](function.floor.md) \- Округлює дробове число у менший бік
+-   [ceil()](function.ceil.md) \- Округлює дробове число в більшу сторону
+-   [round()](function.round.md) \- Округлює число з плаваючою точкою (float)

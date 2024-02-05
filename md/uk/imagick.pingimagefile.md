@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::pingImageFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::pingImageFile
 
@@ -18,7 +19,7 @@ Imagick::pingImageFile — Отримує базові атрибути зобр
 public Imagick::pingImageFile(resource $filehandle, string $fileName = ?): bool
 ```
 
-Метод можна використовувати для запиту ширини, висоти, розміру та формату зображення без зчитування всього зображення на згадку. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Метод можна використовувати для запиту ширини, висоти, розміру та формату зображення без зчитування всього зображення на згадку. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public Imagick::pingImageFile(resource $filehandle, string $fileName = ?): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::pingImageFile()****
+**Пример #1 Пример использования**Imagick::pingImageFile()\*\*\*\*
 
 Відкриття віддаленої локації
 
@@ -55,8 +56,8 @@ $im->pingImageFile($fp);
 
 ### Дивіться також
 
--   [Imagick::pingImage()](imagick.pingimage.md) - Отримує основні атрибути зображення
--   [Imagick::pingImageBlob()](imagick.pingimageblob.md) - Швидко витягує атрибути
--   [Imagick::readImage()](imagick.readimage.md) - Читає зображення із файлу
--   [Imagick::readImageBlob()](imagick.readimageblob.md) - Зчитує зображення з двійкового рядка
--   [Imagick::readImageFile()](imagick.readimagefile.md) - Читає зображення із відкритого дескриптора файлу
+-   [Imagick::pingImage()](imagick.pingimage.md) \- Отримує основні атрибути зображення
+-   [Imagick::pingImageBlob()](imagick.pingimageblob.md) \- Швидко витягує атрибути
+-   [Imagick::readImage()](imagick.readimage.md) \- Читає зображення із файлу
+-   [Imagick::readImageBlob()](imagick.readimageblob.md) \- Зчитує зображення з двійкового рядка
+-   [Imagick::readImageFile()](imagick.readimagefile.md) \- Читає зображення із відкритого дескриптора файлу

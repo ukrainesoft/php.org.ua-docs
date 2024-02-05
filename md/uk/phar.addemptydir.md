@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::addEmptyDir'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::addEmptyDir
 
@@ -18,9 +19,9 @@ Phar::addEmptyDir — Додає в phar-архів порожню директ�
 public Phar::addEmptyDir(string $directory): void
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly`в . В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 За допомогою цього методу створюється порожня директорія, шлях до якої вказано `dirname`. Цей метод аналогічний [ZipArchive::addEmptyDir()](ziparchive.addemptydir.md)
 
@@ -36,7 +37,7 @@ public Phar::addEmptyDir(string $directory): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::addEmptyDir()****
+**Пример #1 Пример использования**Phar::addEmptyDir()\*\*\*\*
 
 ```php
 <?php
@@ -54,6 +55,6 @@ try {
 
 ### Дивіться також
 
--   [PharData::addEmptyDir()](phardata.addemptydir.md) - Додати порожню директорію до tar/zip-архіву
--   [Phar::addFile()](phar.addfile.md) - Додає в phar-архів файл із файлової системи
--   [Phar::addFromString()](phar.addfromstring.md) - Додає в phar-архів файл із рядка
+-   [PharData::addEmptyDir()](phardata.addemptydir.md) \- Додати порожню директорію до tar/zip-архіву
+-   [Phar::addFile()](phar.addfile.md) \- Додає в phar-архів файл із файлової системи
+-   [Phar::addFromString()](phar.addfromstring.md) \- Додає в phar-архів файл із рядка

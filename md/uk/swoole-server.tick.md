@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.taskwaitmulti.md: '« SwooleServer::taskWaitMulti'
-  - class.swoole-table.md: SwooleTable »
+  - swoole-server.taskwaitmulti.md: '« Swoole\\Server::taskWaitMulti'
+  - class.swoole-table.md: Swoole\\Table »
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::tick'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::tick'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::tick
+# Swoole\\Server::tick
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::tick — Повторює цю функцію у кожний заданий інтервал часу
+Swoole\\Server::tick — Повторює цю функцію у кожний заданий інтервал часу
 
 ### Опис
 

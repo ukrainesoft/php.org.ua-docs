@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::blueShiftImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::blueShiftImage
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
-Imagick::blueShiftImage — Опис
+Imagick::blueShiftImage — Приглушує кольори зображення
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Imagick::blueShiftImage(float $factor = 1.5): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::blueShiftImage()****
+**Пример #1 Пример использования**Imagick::blueShiftImage()\*\*\*\*
 
 ```php
 <?php

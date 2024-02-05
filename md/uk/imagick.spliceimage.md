@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::spliceImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::spliceImage
 
@@ -15,7 +16,7 @@ Imagick::spliceImage — Склеює суцільний колір у зобр�
 ### Опис
 
 ```methodsynopsis
-public Imagick::spliceImage(    int $width,    int $height,    int $x,    int $y): bool
+public Imagick::spliceImage(    int $width,    int $height,    int $x,    int $y): bool
 ```
 
 Склеює суцільний колір зображення.
@@ -36,7 +37,7 @@ public Imagick::spliceImage(    int $width,    int $height,    int $x,    int $y
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::spliceImage()****
+**Пример #1 Пример использования**Imagick::spliceImage()\*\*\*\*
 
 ```php
 <?php

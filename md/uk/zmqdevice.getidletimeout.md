@@ -1,12 +1,13 @@
 ---
 navigation:
-  - zmqdevice.construct.md: '« ZMQDevice::construct'
+  - zmqdevice.construct.md: '« ZMQDevice::\_\_construct'
   - zmqdevice.gettimertimeout.md: 'ZMQDevice::getTimerTimeout »'
   - index.md: PHP Manual
   - class.zmqdevice.md: ZMQDevice
-title: 'ZMQ Device::setIdleTimeout'
+title: 'ZMQDevice::getIdleTimeout'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ZMQ Device::setIdleTimeout
+# ZMQDevice::getIdleTimeout
 
 (No version information available, might only be in Git)
 

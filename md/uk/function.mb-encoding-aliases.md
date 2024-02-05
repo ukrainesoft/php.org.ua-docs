@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mb-encode-numericentity.md: « mbencodenumericentity
-  - function.mb-ereg-match.md: мбeregmatch »
+  - function.mb-encode-numericentity.md: « mb\_encode\_numericentity
+  - function.mb-ereg-match.md: mb\_ereg\_match »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбencodingaliases
+title: mb\_encoding\_aliases
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбencodingaliases
+# mb\_encoding\_aliases
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-мбencodingaliases — Отримує псевдоніми відомого типу кодування
+mb\_encoding\_aliases — Отримує псевдоніми відомого типу кодування
 
 ### Опис
 
@@ -24,19 +25,25 @@ mb_encoding_aliases(string $encoding): array
 
 `encoding`
 
-Кодування, для якого шукаються псевдоніми.
+Кодування, для якого будуть перевірені псевдоніми.
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає індексний масив із псевдонімами кодування або **`false`** у разі виникнення помилки
+Повертає індексований масив, що містить псевдоніми кодування.
 
 ### Помилки
 
-Викликає помилку рівня **`E_WARNING`**, якщо кодування `encoding` невідома.
+Викидає виняток [ValueError](class.valueerror.md), якщо кодування `encoding` невідома.
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.0.0 | Якщо параметр `encoding` невідомий, тепер викидається виняток [ValueError](class.valueerror.md); раніше видавалася помилка рівня **`E_WARNING`** та функція повертала **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **мбencodingaliases()****
+**Пример #1 Пример использования функции**mb\_encoding\_aliases()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +63,7 @@ if (in_array($encoding, $known_encodings)) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -76,4 +83,4 @@ Array
 
 ### Дивіться також
 
--   [мбlistencodings()](function.mb-list-encodings.md) - Повертає масив усіх кодувань, що підтримуються.
+-   [mb\_list\_encodings()](function.mb-list-encodings.md) \- Повертає масив усіх кодувань, що підтримуються.

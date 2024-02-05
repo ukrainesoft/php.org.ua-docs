@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.snmp-get-quick-print.md: « snmpgetquickprint
-  - function.snmp-read-mib.md: snmpreadmib »
+  - function.snmp-get-quick-print.md: « snmp\_get\_quick\_print
+  - function.snmp-read-mib.md: snmp\_read\_mib »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
-title: snmpgetvalueretrieval
+title: snmp\_get\_valueretrieval
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# snmpgetvalueretrieval
+# snmp\_get\_valueretrieval
 
-(PHP 4> = 4.3.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.3, PHP 5, PHP 7, PHP 8)
 
-snmpgetvalueretrieval — Повертає метод, як буде повернено значення SNMP
+snmp\_get\_valueretrieval — Повертає метод, як буде повернено значення SNMP
 
 ### Опис
 
@@ -24,11 +25,11 @@ snmp_get_valueretrieval(): int
 
 ### Значення, що повертаються
 
-Об'єднання констант (**`SNMP_VALUE_LIBRARY`** або **`SNMP_VALUE_PLAIN`**) з можливим набором SNMPVALUEOBJECT.
+Об'єднання констант (**`SNMP_VALUE_LIBRARY`**или**`SNMP_VALUE_PLAIN`**) з можливим набором SNMP\_VALUE\_OBJECT.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmpgetvalueretrieval()****
+**Пример #1 Пример использования**snmp\_get\_valueretrieval()\*\*\*\*
 
 ```php
 <?php
@@ -43,5 +44,5 @@ snmp_get_valueretrieval(): int
 
 ### Дивіться також
 
--   [snmpsetvalueretrieval()](function.snmp-set-valueretrieval.md) - Визначає метод повернення значень SNMP
+-   [snmp\_set\_valueretrieval()](function.snmp-set-valueretrieval.md) \- Визначає метод повернення значень SNMP
 -   [Обумовлені константи](snmp.constants.md)

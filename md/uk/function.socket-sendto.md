@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.socket-sendmsg.md: « socketsendmsg
-  - function.socket-set-block.md: socketsetblock »
+  - function.socket-sendmsg.md: « socket\_sendmsg
+  - function.socket-set-block.md: socket\_set\_block »
   - index.md: PHP Manual
-  - ref.sockets.md: Функции сокета
-title: socketsendto
+  - ref.sockets.md: Опції сокету
+title: socket\_sendto
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# socketsendto
+# socket\_sendto
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-socketsendto — Надсилає повідомлення до сокету, незалежно від того, приєднаний він чи ні
+socket\_sendto — Надсилає повідомлення до сокету, незалежно від того, приєднаний він чи ні
 
 ### Опис
 
 ```methodsynopsis
-socket_sendto(    Socket $socket,    string $data,    int $length,    int $flags,    string $address,    ?int $port = null): int|false
+socket_sendto(    Socket $socket,    string $data,    int $length,    int $flags,    string $address,    ?int $port = null): int|false
 ```
 
-Функція **socketsendto()** відправляє `length` байт із буфера `buf` через сокет `socket` до порту `port` на адресі `address`
+Функция\*\*socket\_sendto()\*\*отправляет`length`байт из буфера`buf`через сокет`socket`к порту`port`на адресе`address`
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.md), створений за допомогою [socketcreate()](function.socket-create.md)
+Екземпляр [Socket](class.socket.md), створений за допомогою [socket\_create()](function.socket-create.md)
 
 `data`
 
@@ -32,15 +33,15 @@ socket_sendto(    Socket $socket,    string $data,    int $length,    int $flags
 
 `length`
 
-`length` байт із буфера `data` буде надіслано.
+`length`байт из буфера`data`будет отправлено.
 
 `flags`
 
-Значення параметру `flags` може бути будь-якою комбінацією наступних прапорів, з'єднаних за допомогою бінарного оператора OR (`|`
+Значение параметра`flags` може бути будь-якою комбінацією наступних прапорів, з'єднаних за допомогою бінарного оператора OR (
 
 < td>**`MSG_EOR`**
 
-<table class="doctable table"><caption><strong>Можливі значення прапорів <code class="parameter">flags</code></strong></caption><tbody class="tbody"><tr><td><strong><code>MSG_OOB</code></strong></td><td>Надіслати дані OOB (out-of-band, позасмугові).</td></tr><tr><td>Вказує на позначку запису. Надіслані дані завершують запис.</td></tr><tr><td><strong><code>MSG_EOF</code></strong></td><td>Закриває відправну сторону сокету і додає відповідне повідомлення про цьому в кінець даних, що відправляються. Надіслані дані завершують транзакцію.</td></tr><tr><td><strong><code>MSG_DONTROUTE</code></strong></td><td>Не використовувати маршрутизацію, використовувати прямий інтерфейс.</td><td>/td&gt;</td></tr></tbody></table>
+<table class="doctable table"><caption><strong>Можливі значення прапорів <code class="parameter">flags</code></strong></caption><tbody class="tbody"><tr><td><strong><code>MSG_OOB</code></strong></td><td>Надіслати дані OOB (out-of-band, позасмугові).</td></tr><tr><td>Вказує на позначку запису. Надіслані дані завершують запис.</td></tr><tr><td><strong><code>MSG_EOF</code></strong></td><td>Закриває відправну сторону сокету і додає відповідне повідомлення про цьому в кінець даних, що відправляються. Надіслані дані завершують транзакцію.</td></tr><tr><td><strong><code>MSG_DONTROUTE</code></strong></td><td>Не використовувати маршрутизацію, використовувати прямий інтерфейс.&lt; /td&gt;</td></tr></tbody></table>
 
 `address`
 
@@ -52,18 +53,18 @@ IP-адреса віддаленого хоста.
 
 ### Значення, що повертаються
 
-Функція **socketsendto()** повертає кількість байт, відправлених на віддалений хост, або **`false`**, якщо сталася помилка.
+Функция**socket\_sendto()** повертає кількість байт, відправлених на віддалений хост, або **`false`**, якщо сталася помилка.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
-|  | `port` тепер допускає значення null. |
+| 8.0.0 | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| 8.0.0 | `port` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **socketsendto()****
+**Пример #1 Пример использования**socket\_sendto()\*\*\*\*
 
 ```php
 <?php
@@ -79,4 +80,4 @@ IP-адреса віддаленого хоста.
 
 ### Дивіться також
 
--   [socketsend()](function.socket-send.md) - Надсилає дані в приєднаний сокет
+-   [socket\_send()](function.socket-send.md) \- Надсилає дані в приєднаний сокет

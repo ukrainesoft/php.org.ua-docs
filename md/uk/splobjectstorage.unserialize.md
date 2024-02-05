@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::unserialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplObjectStorage::unserialize
 
-(PHP 5> = 5.2.2, PHP 7, PHP 8)
+(PHP 5 >= 5.2.2, PHP 7, PHP 8)
 
 SplObjectStorage::unserialize — Відновлює серіалізований контейнер із рядка
 
@@ -24,7 +25,7 @@ public SplObjectStorage::unserialize(string $data): void
 
 `data`
 
-Серіалізоване представлення контейнера.
+Серіалізоване подання контейнера.
 
 ### Значення, що повертаються
 
@@ -32,13 +33,13 @@ public SplObjectStorage::unserialize(string $data): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplObjectStorage::unserialize()****
+**Пример #1 Пример использования**SplObjectStorage::unserialize()\*\*\*\*
 
 ```php
 <?php
 $s1 = new SplObjectStorage;
 $s2 = new SplObjectStorage;
-$o = new StdClass;
+$o = new stdClass;
 $s1[$o] = "data";
 
 $s2->unserialize($s1->serialize());
@@ -47,7 +48,7 @@ var_dump(count($s2));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(1)
@@ -55,4 +56,4 @@ int(1)
 
 ### Дивіться також
 
--   [SplObjectStorage::serialize()](splobjectstorage.serialize.md) - Серіалізує контейнер
+-   [SplObjectStorage::serialize()](splobjectstorage.serialize.md) \- Серіалізує контейнер

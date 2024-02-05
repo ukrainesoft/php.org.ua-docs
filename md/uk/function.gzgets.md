@@ -3,8 +3,9 @@ navigation:
   - function.gzgetc.md: « gzgetc
   - function.gzgetss.md: gzgetss »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzgets
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzgets
 
@@ -32,17 +33,17 @@ gzgets(resource $stream, ?int $length = null): string|false
 
 ### Значення, що повертаються
 
-Розпакований рядок або **`false`** у разі виникнення помилки.
+Розпакований рядок або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `length` тепер припускає значення null; раніше значення за умовчанням було `1024` |
+| 8.0.0 | `length` тепер припускає значення null; раніше значення за умовчанням було `1024` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gzgets()****
+**Пример #1 Пример использования**gzgets()\*\*\*\*
 
 ```php
 <?php
@@ -57,6 +58,6 @@ gzclose($handle);
 
 ### Дивіться також
 
--   [gzopen()](function.gzopen.md) - Відкрити gz-файл
--   [gzgetc()](function.gzgetc.md) - Отримати символ із покажчика на gz-файл
--   [gzwrite()](function.gzwrite.md) - Бінарний запис у gz-файл
+-   [gzopen()](function.gzopen.md) \- Відкрити gz-файл
+-   [gzgetc()](function.gzgetc.md) \- Отримати символ із покажчика на gz-файл
+-   [gzwrite()](function.gzwrite.md) \- Бінарний запис у gz-файл

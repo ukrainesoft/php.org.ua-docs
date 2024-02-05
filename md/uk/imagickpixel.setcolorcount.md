@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::setColorCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::setColorCount
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickPixel::setColorCount — Опис
+ImagickPixel::setColorCount — Встановлює кількість кольорів, пов'язаних із цим кольором.
 
 ### Опис
 

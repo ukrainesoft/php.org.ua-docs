@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zookeeperconfig.md: ZookeeperConfig
 title: 'ZookeeperConfig::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZookeeperConfig::set
 
@@ -39,11 +40,11 @@ public
 
 ### Помилки
 
-Метод генерує [ZookeeperException](class.zookeeperexception.md) та його похідні, коли кількість параметрів або типи неправильні або не вдається зберегти значення у вузлі.
+Метод генерирует[ZookeeperException](class.zookeeperexception.md) та його похідні, коли кількість параметрів або типи неправильні або не вдається зберегти значення у вузлі.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ZookeeperConfig::set()****
+**Пример #1 Пример использования**ZookeeperConfig::set()\*\*\*\*
 
 Реконфігурація
 
@@ -59,7 +60,7 @@ $zkConfig->set("server.1=localhost:2888:3888:participant;0.0.0.0:2181");
 
 ### Дивіться також
 
--   [ZookeeperConfig::get()](zookeeperconfig.get.md) - Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
--   [ZookeeperConfig::add()](zookeeperconfig.add.md) - Додає сервери до ансамблю
--   [ZookeeperConfig::remove()](zookeeperconfig.remove.md) - Видаляє сервери з ансамблю
+-   [ZookeeperConfig::get()](zookeeperconfig.get.md) \- Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
+-   [ZookeeperConfig::add()](zookeeperconfig.add.md) \- Додає сервери до ансамблю
+-   [ZookeeperConfig::remove()](zookeeperconfig.remove.md) \- Видаляє сервери з ансамблю
 -   [ZookeeperException](class.zookeeperexception.md)

@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.messageformatter.md: MessageFormatter
 title: 'MessageFormatter::getPattern'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # MessageFormatter::getPattern
 
-# msgfmtgetpattern
+# msgfmt\_get\_pattern
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-MessageFormatter::getPattern -- msgfmtgetpattern — Повертає шаблон, який використовує засіб форматування
+MessageFormatter::getPattern -- msgfmt\_get\_pattern — Повертає шаблон, який використовує засіб форматування
 
 ### Опис
 
@@ -38,11 +39,11 @@ msgfmt_get_pattern(MessageFormatter $formatter): string|false
 
 ### Значення, що повертаються
 
-Рядок (string) шаблону для даного засобу форматування повідомлення або **`false`** у разі виникнення помилки.
+Строка (string) шаблона для данного средства форматирования сообщения или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **msgfmtgetpattern()****
+**Пример #1 Пример использования**msgfmt\_get\_pattern()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ echo "Formatted number: " . $fmt->format(array(123, 456)) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Default pattern: '{0,number} monkeys on {1,number} trees'
@@ -81,5 +82,5 @@ Formatted number: 123 trees hosting 456 monkeys
 
 ### Дивіться також
 
--   [msgfmtcreate()](messageformatter.create.md) - Створює засіб форматування повідомлень
--   [msgfmtsetpattern()](messageformatter.setpattern.md) - Встановлює шаблон, який використовується засобом форматування
+-   [msgfmt\_create()](messageformatter.create.md) \- Створює засіб форматування повідомлень
+-   [msgfmt\_set\_pattern()](messageformatter.setpattern.md) \- Встановлює шаблон, який використовується засобом форматування

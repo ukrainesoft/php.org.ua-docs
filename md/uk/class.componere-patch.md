@@ -1,12 +1,13 @@
 ---
 navigation:
-  - componere-definition.getclosures.md: '« ComponereDefinition::getClosures'
-  - componere-patch.construct.md: 'ComponerePatch::construct »'
+  - componere-definition.getclosures.md: '« Componere\\Definition::getClosures'
+  - componere-patch.construct.md: 'Componere\\Patch::\_\_construct »'
   - index.md: PHP Manual
   - book.componere.md: Componere
-title: Клас ComponerePatch
+title: Клас Componere\\Patch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас ComponerePatch
+# Клас Componere\\Patch
 
 (Componere 2 >= 2.1.0)
 
@@ -62,10 +63,10 @@ public Componere\Abstract\Definition::getReflector(): ReflectionClass
 
 ## Зміст
 
--   [ComponerePatch::construct](componere-patch.construct.md) - Конструктор класу Patch
--   [ComponerePatch::apply](componere-patch.apply.md) - Додаток
--   [ComponerePatch::revert](componere-patch.revert.md) - Скасування
--   [ComponerePatch::isApplied](componere-patch.isapplied.md) — Визначення стану
--   [ComponerePatch::derive](componere-patch.derive.md) - Отримання патчу
--   [ComponerePatch::getClosure](componere-patch.getclosure.md) — Отримує замикання
--   [ComponerePatch::getClosures](componere-patch.getclosures.md) — Отримує замикання
+-   [Componere\\Patch::\_\_construct](componere-patch.construct.md) \- Конструктор класу Patch
+-   [Componere\\Patch::apply](componere-patch.apply.md) \- Додаток
+-   [Componere\\Patch::revert](componere-patch.revert.md) \- Відміна
+-   [Componere\\Patch::isApplied](componere-patch.isapplied.md)— Визначення стану
+-   [Componere\\Patch::derive](componere-patch.derive.md) \- Отримання патчу
+-   [Componere\\Patch::getClosure](componere-patch.getclosure.md)— Отримує замикання
+-   [Componere\\Patch::getClosures](componere-patch.getclosures.md)— Отримує замикання

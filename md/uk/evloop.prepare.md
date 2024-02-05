@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::prepare'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::prepare
 
@@ -43,4 +44,4 @@ final
 
 ### Дивіться також
 
--   [EvPrepare::construct()](evprepare.construct.md) - Конструктор спостерігача EvPrepare
+-   [EvPrepare::\_\_construct()](evprepare.construct.md) \- Конструктор спостерігача EvPrepare

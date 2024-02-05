@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::setResponseWriter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::setResponseWriter
 
-(PECL solr> = 0.9.11)
+(PECL solr >= 0.9.11)
 
 SolrClient::setResponseWriter — Встановлює письменник відповіді, що використовується для підготовки відповіді від Solr
 
@@ -36,7 +37,7 @@ public SolrClient::setResponseWriter(string $responseWriter): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrClient::setResponseWriter()****
+**Пример #1 Пример использования**SolrClient::setResponseWriter()\*\*\*\*
 
 ```php
 <?php

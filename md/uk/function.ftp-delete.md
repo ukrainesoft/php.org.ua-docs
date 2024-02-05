@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-connect.md: « ftpconnect
-  - function.ftp-exec.md: ftpexec »
+  - function.ftp-connect.md: « ftp\_connect
+  - function.ftp-exec.md: ftp\_exec »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpdelete
+title: ftp\_delete
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpdelete
+# ftp\_delete
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftpdelete — Видалення файлу на FTP-сервері
+ftp\_delete — Видалення файлу на FTP-сервері
 
 ### Опис
 
@@ -18,13 +19,13 @@ ftpdelete — Видалення файлу на FTP-сервері
 ftp_delete(FTP\Connection $ftp, string $filename): bool
 ```
 
-**ftpdelete()** видаляє файл, заданий аргументом `filename`з FTP-сервера.
+**ftp\_delete()** видаляє файл, заданий аргументом `filename`з FTP-сервера.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `filename`
 
@@ -32,17 +33,17 @@ ftp_delete(FTP\Connection $ftp, string $filename): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpdelete()****
+**Пример #1 Пример использования**ftp\_delete()\*\*\*\*
 
 ```php
 <?php

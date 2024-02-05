@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - com.examples.md: Приклади
 title: For Each
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## For Each
 

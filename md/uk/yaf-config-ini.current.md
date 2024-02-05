@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-ini.count.md: '« YafConfigIni::count'
-  - yaf-config-ini.get.md: 'YafConfigIni::get »'
+  - yaf-config-ini.count.md: '« Yaf\_Config\_Ini::count'
+  - yaf-config-ini.get.md: 'Yaf\_Config\_Ini::\_\_get »'
   - index.md: PHP Manual
-  - class.yaf-config-ini.md: YafConfigIni
-title: 'YafConfigIni::current'
+  - class.yaf-config-ini.md: Yaf\_Config\_Ini
+title: 'Yaf\_Config\_Ini::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigIni::current
+# Yaf\_Config\_Ini::current
 
 (Yaf >=1.0.0)
 
-YafConfigIni::current — Отримує поточне значення
+Yaf\_Config\_Ini::current — Отримує поточне значення
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Ini::current(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

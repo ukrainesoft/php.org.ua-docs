@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageLength'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageLength
 
@@ -30,7 +31,7 @@ public Imagick::getImageLength(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::getImageLength()****
+**Пример #1 Пример использования**Imagick::getImageLength()\*\* :\*\*
 
 Отримання довжини зображення в байтах
 

@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.domelement.md: « DOMElement
+  - domelement.before.md: '« DOMElement::before'
   - domelement.getattribute.md: 'DOMElement::getAttribute »'
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
-title: 'DOMElement::construct'
+title: 'DOMElement::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DOMElement::construct
+# DOMElement::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMElement::construct — Створює новий екземпляр класу DOMElement
+DOMElement::\_\_construct — Створює новий екземпляр класу DOMElement
 
 ### Опис
 
-public **DOMElement::construct**(string `$qualifiedName`, ?string `$value` **`null`**, string `$namespace` = "")
+public**DOMElement::\_\_construct**(string`$qualifiedName`, ?string`$value` **`null`**, string`$namespace` = "")
 
 Створює новий об'єкт класу [DOMElement](class.domelement.md). Цей об'єкт доступний лише для читання. Він може бути доданий до документа, але додаткові вузли до нього не можна додати, поки вузол не буде пов'язаний з документом. Щоб створити записуваний вузол, використовуйте [DOMDocument::createElement](domdocument.createelement.md) або [DOMDocument::createElementNS](domdocument.createelementns.md)
 
@@ -51,5 +52,5 @@ echo $dom->saveXML(); /* <?xml version="1.0" encoding="utf-8"?>
 
 ### Дивіться також
 
--   [DOMDocument::createElement()](domdocument.createelement.md) - Створити новий вузол елемента
--   [DOMDocument::createElementNS()](domdocument.createelementns.md) - Створити новий вузол елемента з відповідним простором імен
+-   [DOMDocument::createElement()](domdocument.createelement.md) \- Створює новий вузол елемента
+-   [DOMDocument::createElementNS()](domdocument.createelementns.md) \- Створити новий вузол елемента з відповідним простором імен

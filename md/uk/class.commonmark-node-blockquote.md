@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.commonmark-node-paragraph.md: « CommonMarkNodeParagraph
-  - class.commonmark-node-bulletlist.md: CommonMarkNodeBulletList »
+  - class.commonmark-node-paragraph.md: « CommonMark\\Node\\Paragraph
+  - class.commonmark-node-bulletlist.md: CommonMark\\Node\\BulletList »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: BlockQuote успадковує CommonMarkNode
+title: BlockQuote успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# BlockQuote успадковує CommonMarkNode
+# BlockQuote успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 

@@ -4,17 +4,18 @@ navigation:
   - xsltprocessor.getparameter.md: 'XSLTProcessor::getParameter »'
   - index.md: PHP Manual
   - class.xsltprocessor.md: XSLTProcessor
-title: 'XSLTProcessor::construct'
+title: 'XSLTProcessor::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# XSLTProcessor::construct
+# XSLTProcessor::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-XSLTProcessor::construct — Створює новий екземпляр класу XSLTProcessor
+XSLTProcessor::\_\_construct — Створює новий екземпляр класу XSLTProcessor
 
 ### Опис
 
-**XSLTProcessor::construct**
+**XSLTProcessor::\_\_construct**()
 
 Створює новий екземпляр класу [XSLTProcessor](class.xsltprocessor.md)
 

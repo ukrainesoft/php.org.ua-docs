@@ -4,17 +4,18 @@ navigation:
   - solrdismaxquery.removebigramphrasefield.md: 'SolrDisMaxQuery::removeBigramPhraseField »'
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
-title: 'SolrDisMaxQuery::construct'
+title: 'SolrDisMaxQuery::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrDisMaxQuery::construct
+# SolrDisMaxQuery::\_\_construct
 
 (No version information available, might only be in Git)
 
-SolrDisMaxQuery::construct - Конструктор класу
+SolrDisMaxQuery::\_\_construct - Конструктор класу
 
 ### Опис
 
-public **SolrDisMaxQuery::construct**(string `$q`
+public**SolrDisMaxQuery::\_\_construct**(string`$q`
 
 Конструктор класу ініціалізує об'єкт та встановлює параметр q, якщо він вказаний
 
@@ -28,11 +29,11 @@ public **SolrDisMaxQuery::construct**(string `$q`
 
 ### Помилки
 
-Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.md) у разі передачі неправильного параметра.
+Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.md)в случае передачи неверного параметра.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::construct()****
+**Пример #1 Пример использования**SolrDisMaxQuery::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ echo $dismaxQuery;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 q=lucene&defType=edismax

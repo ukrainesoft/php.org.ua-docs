@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-session.current.md: '« YafSession::current'
-  - yaf-session.get.md: 'YafSession::get »'
+  - yaf-session.current.md: '« Yaf\_Session::current'
+  - yaf-session.get.md: 'Yaf\_Session::\_\_get »'
   - index.md: PHP Manual
-  - class.yaf-session.md: YafSession
-title: 'YafSession::del'
+  - class.yaf-session.md: Yaf\_Session
+title: 'Yaf\_Session::del'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafSession::del
+# Yaf\_Session::del
 
 (Yaf >=1.0.0)
 
-YafSession::del — Призначення del
+Yaf\_Session::del — Призначення del
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Session::del(string $name): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

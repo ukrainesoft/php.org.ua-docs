@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::separateimagechannel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::separateimagechannel
 
@@ -24,7 +25,7 @@ public Gmagick::separateimagechannel(int $channel): Gmagick
 
 `channel`
 
-Одна з констант [канала](gmagick.constants.md#gmagick.constants.channel) `Gmagick::CHANNEL_*`
+Одна из констант[каналу](gmagick.constants.md#gmagick.constants.channel) `Gmagick::CHANNEL_*`
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ public Gmagick::separateimagechannel(int $channel): Gmagick
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

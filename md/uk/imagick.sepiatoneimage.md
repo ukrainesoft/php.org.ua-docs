@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::sepiaToneImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::sepiaToneImage
 
@@ -34,7 +35,7 @@ public Imagick::sepiaToneImage(float $threshold): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::sepiaToneImage()****
+**Пример #1 Пример использования**Imagick::sepiaToneImage()\*\*\*\*
 
 ```php
 <?php

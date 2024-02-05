@@ -1,22 +1,23 @@
 ---
 navigation:
-  - class.componere-patch.md: « ComponerePatch
-  - componere-patch.apply.md: 'ComponerePatch::apply »'
+  - class.componere-patch.md: « Componere\\Patch
+  - componere-patch.apply.md: 'Componere\\Patch::apply »'
   - index.md: PHP Manual
-  - class.componere-patch.md: ComponerePatch
-title: 'ComponerePatch::construct'
+  - class.componere-patch.md: Componere\\Patch
+title: 'Componere\\Patch::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponerePatch::construct
+# Componere\\Patch::\_\_construct
 
 (Componere 2 >= 2.1.0)
 
-ComponerePatch::construct - Конструктор класу Patch
+Componere\\Patch::\_\_construct - Конструктор класу Patch
 
 ### Опис
 
-public **ComponerePatch::construct**(object `$instance`
+public**Componere\\Patch::\_\_construct**(object`$instance`) .
 
-public **ComponerePatch::construct**(object `$instance`, array `$interfaces`
+public**Componere\\Patch::\_\_construct**(object`$instance`, array`$interfaces`) .
 
 ### Список параметрів
 

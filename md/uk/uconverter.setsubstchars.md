@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.uconverter.md: UConverter
 title: 'UConverter::setSubstChars'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # UConverter::setSubstChars
 
@@ -20,7 +21,7 @@ public UConverter::setSubstChars(string $chars): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

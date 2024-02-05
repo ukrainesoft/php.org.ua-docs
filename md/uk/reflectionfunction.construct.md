@@ -4,17 +4,18 @@ navigation:
   - reflectionfunction.export.md: 'ReflectionFunction::export »'
   - index.md: PHP Manual
   - class.reflectionfunction.md: ReflectionFunction
-title: 'ReflectionFunction::construct'
+title: 'ReflectionFunction::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionFunction::construct
+# ReflectionFunction::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionFunction::construct - Конструктор класу ReflectionFunction
+ReflectionFunction::\_\_construct - Конструктор класу ReflectionFunction
 
 ### Опис
 
-public **ReflectionFunction::construct**[Closure](class.closure.md)|string `$function`
+public**ReflectionFunction::\_\_construct** [Closure](class.closure.md)|string`$function`) .
 
 Створює об'єкт класу [ReflectionFunction](class.reflectionfunction.md)
 
@@ -30,7 +31,7 @@ public **ReflectionFunction::construct**[Closure](class.closure.md)|string `$fun
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionFunction::construct()****
+**Пример #1 Пример использования**ReflectionFunction::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -87,7 +88,7 @@ dumpReflectionFunction(new ReflectionFunction($counter2));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 ===> user-defined функция 'counter1'
@@ -120,5 +121,5 @@ dumpReflectionFunction(new ReflectionFunction($counter2));
 
 ### Дивіться також
 
--   [ReflectionMethod::construct()](reflectionmethod.construct.md) - Конструктор класу ReflectionMethod
+-   [ReflectionMethod::\_\_construct()](reflectionmethod.construct.md) \- Конструктор класу ReflectionMethod
 -   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

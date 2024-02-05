@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::getFieldBoost'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrInputDocument::getFieldBoost
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrInputDocument::getFieldBoost — Отримує значення підвищення для певного поля
 
@@ -28,4 +29,4 @@ public SolrInputDocument::getFieldBoost(string $fieldName): float
 
 ### Значення, що повертаються
 
-Повертає значення підвищення для поля або **`false`** у разі виникнення помилки.
+Повертає значення підвищення для поля або \*\*`false`\*\*в случае возникновения ошибки.

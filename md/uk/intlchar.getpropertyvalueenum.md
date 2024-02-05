@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::getPropertyValueEnum'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::getPropertyValueEnum
 
@@ -18,11 +19,11 @@ IntlChar::getPropertyValueEnum — Повернути числовий іден�
 public static IntlChar::getPropertyValueEnum(int $property, string $name): int
 ```
 
-Повертає числовий ідентифікатор властивості Unicode на ім'я, як визначено у файлі PropertyValueAliases.txt. Приймаються довгі, короткі та інші варіанти імені.
+Повертає числовий ідентифікатор властивості Unicode на його ім'я, як визначено у файлі PropertyValueAliases.txt. Приймаються довгі, короткі та інші варіанти імені.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Деякі імена PropertyValueAliases.txt можуть бути вилучені тільки за допомогою **`IntlChar::PROPERTY_GENERAL_CATEGORY_MASK`**, а не **`IntlChar::PROPERTY_GENERAL_CATEGORY`**. Включно з:
+> Деякі імена PropertyValueAliases.txt можуть бути вилучені тільки за допомогою **`IntlChar::PROPERTY_GENERAL_CATEGORY_MASK`**, а не\*\*`IntlChar::PROPERTY_GENERAL_CATEGORY`\*\*. Включно з:
 > 
 > -   "C" / "Інше"
 > -   "L" / "Літери"
@@ -62,7 +63,7 @@ var_dump(IntlChar::getPropertyValueEnum(123456789, 'RIGHT_TO_LEFT') === IntlChar
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)

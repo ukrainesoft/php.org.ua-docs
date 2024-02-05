@@ -1,12 +1,13 @@
 ---
 navigation:
-  - commonmark-node.accept.md: '« CommonMarkNode::accept'
-  - commonmark-interfaces-ivisitor.enter.md: 'CommonMarkInterfacesIVisitor::enter »'
+  - commonmark-node.accept.md: '« CommonMark\\Node::accept'
+  - commonmark-interfaces-ivisitor.enter.md: 'CommonMark\\Interfaces\\IVisitor::enter »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: Інтерфейс CommonMarkInterfacesIVisitor
+title: Інтерфейс CommonMark\\Interfaces\\IVisitor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Інтерфейс CommonMarkInterfacesIVisitor
+# Інтерфейс CommonMark\\Interfaces\\IVisitor
 
 (cmark >= 1.0.0)
 
@@ -50,5 +51,5 @@ abstract public leave(IVisitable $visitable): int|IVisitable|null
 
 ## Зміст
 
--   [CommonMarkInterfacesIVisitor::enter](commonmark-interfaces-ivisitor.enter.md) - Відвідування
--   [CommonMarkInterfacesIVisitor::leave](commonmark-interfaces-ivisitor.leave.md) - Відвідування
+-   [CommonMark\\Interfaces\\IVisitor::enter](commonmark-interfaces-ivisitor.enter.md) \- Відвідування
+-   [CommonMark\\Interfaces\\IVisitor::leave](commonmark-interfaces-ivisitor.leave.md) \- Відвідування

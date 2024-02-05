@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: fgets
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # fgets
 
@@ -57,19 +58,19 @@ if ($fp) {
 
 ### Примітки
 
-> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків під час читання або створення файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.md#ini.auto-detect-line-endings) може допомогти вирішити проблему.
+> **Зауваження**: Якщо виникають проблеми з розпізнаванням PHP кінців рядків під час читання або створення файлів на Macintosh-сумісному комп'ютері, увімкнення опції [auto\_detect\_line\_endings](filesystem.configuration.md#ini.auto-detect-line-endings)может помочь решить проблему.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Програмісти, що звикли до семантики 'C' функції **fgets()**, повинні брати до уваги різницю в тому, як повертається ознака досягнення кінця файлу (`EOF`
 
 ### Дивіться також
 
--   [fgetss()](function.fgetss.md) - Читає рядок з файлу та видаляє HTML-теги
--   [fread()](function.fread.md) - Бінарно-безпечне читання файлу
--   [fgetc()](function.fgetc.md) - Зчитує символ із файлу
--   [streamgetline()](function.stream-get-line.md) - Отримує рядок із потокового ресурсу до вказаного роздільника
--   [fopen()](function.fopen.md) - Відкриває файл або URL
--   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
--   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [streamsettimeout()](function.stream-set-timeout.md) - Встановити значення часу очікування потоку
+-   [fgetss()](function.fgetss.md) \- Читає рядок з файлу та видаляє HTML-теги
+-   [fread()](function.fread.md) \- Бінарно-безпечне читання файлу
+-   [fgetc()](function.fgetc.md) \- Зчитує символ із файлу
+-   [stream\_get\_line()](function.stream-get-line.md) \- Отримує рядок із потокового ресурсу до вказаного роздільника
+-   [fopen()](function.fopen.md) \- Відкриває файл або URL
+-   [popen()](function.popen.md) \- Відкриває файловий покажчик процесу
+-   [fsockopen()](function.fsockopen.md) \- Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [stream\_set\_timeout()](function.stream-set-timeout.md) \- Встановити значення часу очікування потоку

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-window.hasborders.md: '« UIWindow::hasBorders'
-  - ui-window.isfullscreen.md: 'ОЙWindow::isFullScreen »'
+  - ui-window.hasborders.md: '« UI\\Window::hasBorders'
+  - ui-window.isfullscreen.md: 'UI\\Window::isFullScreen »'
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::hasMargin'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::hasMargin'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::hasMargin
+# UI\\Window::hasMargin
 
 (UI 0.9.9)
 
-ОЙWindow::hasMargin — Визначення полів
+UI\\Window::hasMargin — Визначення полів
 
 ### Опис
 

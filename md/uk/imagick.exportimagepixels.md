@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::exportImagePixels'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::exportImagePixels
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >=2.3.0, PECL imagick 3)
 
 Imagick::exportImagePixels — Експортує пікселі зображення
 
 ### Опис
 
 ```methodsynopsis
-public Imagick::exportImagePixels(    int $x,    int $y,    int $width,    int $height,    string $map,    int $STORAGE): array
+public Imagick::exportImagePixels(    int $x,    int $y,    int $width,    int $height,    string $map,    int $STORAGE): array
 ```
 
 Експортує пікселі зображення до масиву. Параметр map визначає порядок експортованих пікселів. Розмір повертається масиву - `width * height * strlen(map)`. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.7 або старшим.
@@ -44,7 +45,7 @@ public Imagick::exportImagePixels(    int $x,    int $y,    int $width,    int $
 
 `STORAGE`
 
-Зверніться до цього списку [констант типа PIXEL](imagick.constants.md#imagick.constants.pixel)
+Зверніться до цього списку [констант типу PIXEL](imagick.constants.md#imagick.constants.pixel)
 
 ### Значення, що повертаються
 
@@ -56,7 +57,7 @@ public Imagick::exportImagePixels(    int $x,    int $y,    int $width,    int $
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::exportImagePixels()****
+**Пример #1 Пример использования**Imagick::exportImagePixels()\*\*\*\*
 
 Експорт пікселів зображення в масив
 
@@ -77,7 +78,7 @@ var_dump($pixels);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(12) {

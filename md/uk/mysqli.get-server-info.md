@@ -1,26 +1,27 @@
 ---
 navigation:
-  - mysqli.get-proto-info.md: '« mysqli::$protocolversion'
-  - mysqli.get-server-version.md: 'mysqli::$serverversion »'
+  - mysqli.get-proto-info.md: '« mysqli::$protocol\_version'
+  - mysqli.get-server-version.md: 'mysqli::$server\_version »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::$serverinfo'
+title: 'mysqli::$server\_info'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::$serverinfo
+# mysqli::$server\_info
 
-# mysqli::getserverinfo
+# mysqli::get\_server\_info
 
-# mysqligetserverinfo
+# mysqli\_get\_server\_info
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$serverinfo -- mysqli::getserverinfo -- mysqligetserverinfo — Повертає версію MySQL сервера
+mysqli::$server\_info -- mysqli::get\_server\_info -- mysqli\_get\_server\_info — Повертає версію MySQL сервера
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-string [$mysqli->serverinfo](mysqli.get-server-info.md)
+string[$mysqli->server\_info](mysqli.get-server-info.md)
 
 ```methodsynopsis
 public mysqli_stmt::get_server_info(): string
@@ -38,7 +39,7 @@ mysqli_get_server_info(mysqli $mysql): string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -46,25 +47,18 @@ mysqli_get_server_info(mysqli $mysql): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання $mysqli->serverinfo**
+**Приклад #1 Приклад використання $mysqli->server\_info**
 
 Об'єктно-орієнтований стиль
 
 ```php
 <?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 $mysqli = new mysqli("localhost", "my_user", "my_password");
 
-/* проверить соединение */
-if (mysqli_connect_errno()) {
-    printf("Подключение не удалось: %s\n", mysqli_connect_error());
-    exit();
-}
-
-/* вывести версию сервера */
+/* выводим версию сервера */
 printf("Версия сервера: %s\n", $mysqli->server_info);
-
-/* закрыть соединение */
-$mysqli->close();
 ?>
 ```
 
@@ -72,30 +66,23 @@ $mysqli->close();
 
 ```php
 <?php
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 $link = mysqli_connect("localhost", "my_user", "my_password");
 
-/* проверить соединение */
-if (mysqli_connect_errno()) {
-    printf("Подключение не удалось: %s\n", mysqli_connect_error());
-    exit();
-}
-
-/* вывести версию сервера */
+/* выводим версию сервера */
 printf("Версия сервера: %s\n", mysqli_get_server_info($link));
-
-/* закрыть соединение */
-mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
-Server version: 4.1.2-alpha-debug
+Версия сервера: 8.0.21
 ```
 
 ### Дивіться також
 
--   [mysqligetclientinfo()](mysqli.get-client-info.md) - Отримує інформацію про клієнта MySQL
--   [mysqligetclientversion()](mysqli.get-client-version.md) - Повертає інформацію про клієнта MySQL у вигляді рядка
--   [mysqligetserverversion()](mysqli.get-server-version.md) - Повертає версію сервера MySQL, представлену у вигляді integer
+-   [mysqli\_get\_client\_info()](mysqli.get-client-info.md) \- Отримує інформацію про клієнта MySQL
+-   [mysqli\_get\_client\_version()](mysqli.get-client-version.md) \- Повертає інформацію про клієнта MySQL у вигляді рядка
+-   [mysqli\_get\_server\_version()](mysqli.get-server-version.md) \- Повертає версію сервера MySQL, представлену у вигляді integer

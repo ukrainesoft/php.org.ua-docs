@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-session.set.md: '« YafSession::set'
-  - yaf-session.unset.md: 'YafSession::unset »'
+  - yaf-session.set.md: '« Yaf\_Session::\_\_set'
+  - yaf-session.unset.md: 'Yaf\_Session::\_\_unset »'
   - index.md: PHP Manual
-  - class.yaf-session.md: YafSession
-title: 'YafSession::start'
+  - class.yaf-session.md: Yaf\_Session
+title: 'Yaf\_Session::start'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafSession::start
+# Yaf\_Session::start
 
 (Yaf >=1.0.0)
 
-YafSession::start — Призначення start
+Yaf\_Session::start — Призначення start
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Session::start(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

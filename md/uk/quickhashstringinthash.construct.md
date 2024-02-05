@@ -4,13 +4,14 @@ navigation:
   - quickhashstringinthash.delete.md: 'QuickHashStringIntHash::delete »'
   - index.md: PHP Manual
   - class.quickhashstringinthash.md: QuickHashStringIntHash
-title: 'QuickHashStringIntHash::construct'
+title: 'QuickHashStringIntHash::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# QuickHashStringIntHash::construct
+# QuickHashStringIntHash::\_\_construct
 
 (No version information available, might only be in Git)
 
-QuickHashStringIntHash::construct — Створює новий об'єкт QuickHashStringIntHash
+QuickHashStringIntHash::\_\_construct — Створює новий об'єкт QuickHashStringIntHash
 
 ### Опис
 
@@ -24,7 +25,7 @@ public QuickHashStringIntHash::__construct(int $size, int $options = 0)
 
 `size`
 
-Кількість списків, які потрібно налаштувати. Число, яке ви передасте, буде автоматично округлено до наступного ступеня 2. Воно також автоматично обмежується від `64` до `4194304`
+Кількість списків, які потрібно налаштувати. Число, яке ви передасте, буде автоматично округлено до наступного ступеня 2. Воно також автоматично обмежується від `64`до`4194304`
 
 `options`
 
@@ -36,7 +37,7 @@ public QuickHashStringIntHash::__construct(int $size, int $options = 0)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashStringIntHash::construct()****
+**Пример #1 Пример использования**QuickHashStringIntHash::\_\_construct()\*\*\*\*
 
 ```php
 <?php

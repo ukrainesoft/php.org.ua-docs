@@ -1,10 +1,11 @@
 ---
 navigation:
-  - syncevent.construct.md: '« SyncEvent::construct'
+  - syncevent.construct.md: '« SyncEvent::\_\_construct'
   - syncevent.reset.md: 'SyncEvent::reset »'
   - index.md: PHP Manual
   - class.syncevent.md: SyncEvent
 title: 'SyncEvent::fire'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SyncEvent::fire
 
@@ -26,11 +27,11 @@ public SyncEvent::fire(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncEvent::fire()****
+**Пример #1 Пример использования**SyncEvent::fire()\*\*\*\*
 
 ```php
 <?php
@@ -46,5 +47,5 @@ $event->wait();
 
 ### Дивіться також
 
--   [SyncEvent::reset()](syncevent.reset.md) - скидає ручну подію
--   [SyncEvent::wait()](syncevent.wait.md) - Очікує запуску/установки події
+-   [SyncEvent::reset()](syncevent.reset.md) \- скидає ручну подію
+-   [SyncEvent::wait()](syncevent.wait.md) \- Очікує запуску/установки події

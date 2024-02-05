@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-executor.setinterval.md: '« UIExecutor::setInterval'
-  - ui-controls-tab.append.md: 'ОЙControlsTab::append »'
+  - ui-executor.setinterval.md: '« UI\\Executor::setInterval'
+  - ui-controls-tab.append.md: 'UI\\Controls\\Tab::append »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Таб"
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Таб"
 
@@ -72,9 +73,9 @@ controls
 
 ## Зміст
 
--   [ОЙControlsTab::append](ui-controls-tab.append.md) - Додати сторінку
--   [ОЙControlsTab::delete](ui-controls-tab.delete.md) — Видалити сторінку
--   [ОЙControlsTab::hasMargin](ui-controls-tab.hasmargin.md) - Визначення поля
--   [ОЙControlsTab::insertAt](ui-controls-tab.insertat.md) - Вставити сторінку
--   [ОЙControlsTab::pages](ui-controls-tab.pages.md) - Кількість сторінок
--   [ОЙControlsTab::setMargin](ui-controls-tab.setmargin.md) - Встановити поле
+-   [UI\\Controls\\Tab::append](ui-controls-tab.append.md) \- Додати сторінку
+-   [UI\\Controls\\Tab::delete](ui-controls-tab.delete.md)— Видалити сторінку
+-   [UI\\Controls\\Tab::hasMargin](ui-controls-tab.hasmargin.md) \- Визначення поля
+-   [UI\\Controls\\Tab::insertAt](ui-controls-tab.insertat.md) \- Вставити сторінку
+-   [UI\\Controls\\Tab::pages](ui-controls-tab.pages.md) \- Кількість сторінок
+-   [UI\\Controls\\Tab::setMargin](ui-controls-tab.setmargin.md) \- Встановити поле

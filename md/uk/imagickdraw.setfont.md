@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setFont'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setFont
 
@@ -20,7 +21,7 @@ public ImagickDraw::setFont(string $font_name): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Встановлює вказаний шрифт для використання під час анотування текстом.
 
@@ -34,7 +35,7 @@ public ImagickDraw::setFont(string $font_name): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setFont()****
+**Пример #1 Пример использования**ImagickDraw::setFont()\*\*\*\*
 
 ```php
 <?php

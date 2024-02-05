@@ -4,19 +4,18 @@ navigation:
   - gearmanworker.echo.md: 'GearmanWorker::echo »'
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
-title: 'GearmanWorker::construct'
+title: 'GearmanWorker::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GearmanWorker::construct
+# GearmanWorker::\_\_construct
 
 (PECL gearman >= 0.5.0)
 
-GearmanWorker::construct — Створення об'єкту GearmanWorker
+GearmanWorker::\_\_construct — Створення об'єкту GearmanWorker
 
 ### Опис
 
-```methodsynopsis
-public GearmanWorker::__construct()
-```
+public**GearmanWorker::\_\_construct**()
 
 Створює об'єкт [GearmanWorker](class.gearmanworker.md)представляє обробник, який підключається до сервера завдань і приймає завдання для виконання.
 
@@ -30,4 +29,4 @@ public GearmanWorker::__construct()
 
 ### Дивіться також
 
--   [GearmanWorker::clone()](gearmanworker.clone.md) - Створення копії оброблювача
+-   [GearmanWorker::clone()](gearmanworker.clone.md) \- Створення копії оброблювача

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getInode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::getInode
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getInode — Отримує індексний дескриптор для файлу
 
@@ -26,7 +27,7 @@ public SplFileInfo::getInode(): int|false
 
 ### Значення, що повертаються
 
-Повертає номер індексного дескриптора для об'єкта файлової системи у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає номер індексного дескриптора для об'єкта файлової системи у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -34,4 +35,4 @@ public SplFileInfo::getInode(): int|false
 
 ### Дивіться також
 
--   [fileinode()](function.fileinode.md) - Повертає індексний дескриптор файлу
+-   [fileinode()](function.fileinode.md) \- Повертає індексний дескриптор файлу

@@ -1,18 +1,19 @@
 ---
 navigation:
-  - transliterator.construct.md: '« Transliterator::construct'
+  - transliterator.construct.md: '« Transliterator::\_\_construct'
   - transliterator.createfromrules.md: 'Transliterator::createFromRules »'
   - index.md: PHP Manual
   - class.transliterator.md: Transliterator
 title: 'Transliterator::create'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Transliterator::create
 
-# transliteratorcreate
+# transliterator\_create
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-Transliterator::create -- transliteratorcreate — Створити транслітератор
+Transliterator::create -- transliterator\_create — Створити транслітератор
 
 ### Опис
 
@@ -32,7 +33,7 @@ transliterator_create(string $id, int $direction = Transliterator::FORWARD): ?Tr
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -42,13 +43,13 @@ transliterator_create(string $id, int $direction = Transliterator::FORWARD): ?Tr
 
 `direction`
 
-Напрямок транслітерації. За замовчуванням [\>Transliterator::FORWARD](class.transliterator.md#transliterator.constants.forward). Можно використовувати [Transliterator::REVERSE](class.transliterator.md#transliterator.constants.reverse)
+Направление транслитерации. По умолчанию[\>Transliterator::FORWARD](class.transliterator.md#transliterator.constants.forward). Можна використовувати [Transliterator::REVERSE](class.transliterator.md#transliterator.constants.reverse)
 
 ### Значення, що повертаються
 
-Повертає об'єкт [Transliterator](class.transliterator.md) або **`null`** у разі виникнення помилки.
+Повертає об'єкт [Transliterator](class.transliterator.md)или\*\*`null`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) - Отримати останнє повідомлення про помилку
--   [Transliterator::construct()](transliterator.construct.md) - Приватний конструктор
+-   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) \- Отримати останнє повідомлення про помилку
+-   [Transliterator::\_\_construct()](transliterator.construct.md) \- Приватний конструктор

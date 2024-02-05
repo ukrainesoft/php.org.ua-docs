@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.rrd-first.md: « rrdfirst
-  - function.rrd-info.md: rrdinfo »
+  - function.rrd-first.md: « rrd\_first
+  - function.rrd-info.md: rrd\_info »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
-title: rrdgraph
+title: rrd\_graph
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# rrdgraph
+# rrd\_graph
 
 (PECL rrd >= 0.9.0)
 
-rrdgraph — Створює зображення з даних
+rrd\_graph — Створює зображення з даних
 
 ### Опис
 
@@ -24,7 +25,7 @@ rrd_graph(string $filename, array $options): array
 
 `filename`
 
-Ім'я файлу для виведення графіка. Це, як правило, закінчується або `.png` `.svg` або `.eps`, Залежно від потрібного формату виведення.
+Ім'я файлу для виведення графіка. Це, як правило, закінчується або `.png` `.svg`или`.eps`, Залежно від потрібного формату виведення.
 
 `options`
 
@@ -32,4 +33,4 @@ rrd_graph(string $filename, array $options): array
 
 ### Значення, що повертаються
 
-Повертається масив з інформацією про згенероване зображення або **`false`** у разі виникнення помилки.
+Повертається масив з інформацією про згенероване зображення або \*\*`false`\*\*в случае возникновения ошибки.

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setStrokeAntialias'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setStrokeAntialias
 
@@ -20,7 +21,7 @@ public ImagickDraw::setStrokeAntialias(bool $stroke_antialias): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Керує згладжуванням обведення контурів. За промовчанням обведені контури згладжуються. Коли згладжування вимкнено, для обведених пікселів встановлюється граничне значення, щоб визначити, чи слід використовувати колір обведення або колір базового полотна.
 
@@ -36,7 +37,7 @@ public ImagickDraw::setStrokeAntialias(bool $stroke_antialias): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setStrokeAntialias()****
+**Пример #1 Пример использования**ImagickDraw::setStrokeAntialias()\*\*\*\*
 
 ```php
 <?php

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-dens-exponential.md: « statsdensexponential
-  - function.stats-dens-gamma.md: statsdensgamma »
+  - function.stats-dens-exponential.md: « stats\_dens\_exponential
+  - function.stats-dens-gamma.md: stats\_dens\_gamma »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsdensф
+title: stats\_dens\_f
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsdensф
+# stats\_dens\_f
 
 (PECL stats >= 1.0.0)
 
-statsdensf - Щільність ймовірності розподілу Фішера
+stats\_dens\_f - Щільність ймовірності розподілу Фішера
 
 ### Опис
 
@@ -18,13 +19,13 @@ statsdensf - Щільність ймовірності розподілу Фіш
 stats_dens_f(float $x, float $dfr1, float $dfr2): float
 ```
 
-Повертає щільність ймовірності для `x`, де `dfr1` і `dfr2` відбивають ступеня свободи.
+Повертає щільність ймовірності для `x`, где`dfr1`и`dfr2` відбивають ступеня свободи.
 
 ### Список параметрів
 
 `x`
 
-Значення, для якого вважається щільність ймовірності
+Значення, для якого вважається щільність імовірності
 
 `dfr1`
 
@@ -36,4 +37,4 @@ stats_dens_f(float $x, float $dfr1, float $dfr2): float
 
 ### Значення, що повертаються
 
-Щільність ймовірності для `x` або **`false`** у разі виникнення помилки.
+Щільність ймовірності для `x`или\*\*`false`\*\*в случае возникновения ошибки.

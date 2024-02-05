@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-test-data.md: « fanntestdata
-  - function.fann-train-epoch.md: fanntrainepoch »
+  - function.fann-test-data.md: « fann\_test\_data
+  - function.fann-train-epoch.md: fann\_train\_epoch »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanntest
+  - ref.fann.md: Функції Fann
+title: fann\_test
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanntest
+# fann\_test
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanntest — Тестування з набором вхідних даних та бажаним результатом
+fann\_test — Тестування з набором вхідних даних та бажаним результатом
 
 ### Опис
 
@@ -28,19 +29,19 @@ fann_test(resource $ann, array $input, array $desired_output): array
 
 `input`
 
-Масив вхідних даних. Розмір масиву має точно відповідати [fanngetnuminput()](function.fann-get-num-input.md)
+Масив вхідних даних. Розмір масиву має точно відповідати [fann\_get\_num\_input()](function.fann-get-num-input.md)
 
 `desired_output`
 
-Масив бажаних результатів. Розмір масиву має точно відповідати [fanngetnumoutput()](function.fann-get-num-output.md)
+Масив бажаних результатів. Розмір масиву має точно відповідати [fann\_get\_num\_output()](function.fann-get-num-output.md)
 
 ### Значення, що повертаються
 
-Повертає тестові висновки у разі успішного виконання або **`false`** у разі виникнення помилки
+Повертає тестові висновки у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки
 
 ### Дивіться також
 
--   [fanntestdata()](function.fann-test-data.md) - Тестування набору навчальних даних та обчислення MSE для нього
--   [fanntrain()](function.fann-train.md) - Провести одну ітерацію навчання з набором вхідних даних та бажаним результатом
--   [fanngetnuminput()](function.fann-get-num-input.md) - Отримує кількість вхідних нейронів
--   [fanngetnumoutput()](function.fann-get-num-output.md) - Отримує кількість вихідних нейронів
+-   [fann\_test\_data()](function.fann-test-data.md) \- Тестування набору навчальних даних та обчислення MSE для нього
+-   [fann\_train()](function.fann-train.md) \- Провести одну ітерацію навчання з набором вхідних даних та бажаним результатом
+-   [fann\_get\_num\_input()](function.fann-get-num-input.md) \- Отримує кількість вхідних нейронів
+-   [fann\_get\_num\_output()](function.fann-get-num-output.md) \- Отримує кількість вихідних нейронів

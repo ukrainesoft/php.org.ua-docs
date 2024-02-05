@@ -3,8 +3,9 @@ navigation:
   - function.dngettext.md: « dngettext
   - function.ngettext.md: ngettext »
   - index.md: PHP Manual
-  - ref.gettext.md: Функции gettext
+  - ref.gettext.md: Функції gettext
 title: gettext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gettext
 
@@ -32,7 +33,7 @@ gettext(string $message): string
 
 ### Приклади
 
-\*\*Приклад #1 \*\*gettext()**check**
+\*\*Приклад #1 \*\*gettext()**\-check**
 
 ```php
 <?php
@@ -58,14 +59,14 @@ echo _("Have a nice day");
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Можна використовувати символ підкреслення '' як псевдонім цієї функції.
+> Можна використовувати символ підкреслення '\_' як псевдонім цієї функції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > На деяких системах може бути недостатньо вказівки мови, у таких випадках використовуйте [putenv()](function.putenv.md) для вказівки поточної локалі.
 
 ### Дивіться також
 
--   [setlocale()](function.setlocale.md) - Встановлює налаштування локалі
+-   [setlocale()](function.setlocale.md) \- Встановлює налаштування локалі

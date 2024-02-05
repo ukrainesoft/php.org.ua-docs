@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-session.offsetset.md: '« YafSession::offsetSet'
-  - yaf-session.rewind.md: 'YafSession::rewind »'
+  - yaf-session.offsetset.md: '« Yaf\_Session::offsetSet'
+  - yaf-session.rewind.md: 'Yaf\_Session::rewind »'
   - index.md: PHP Manual
-  - class.yaf-session.md: YafSession
-title: 'YafSession::offsetUnset'
+  - class.yaf-session.md: Yaf\_Session
+title: 'Yaf\_Session::offsetUnset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafSession::offsetUnset
+# Yaf\_Session::offsetUnset
 
 (Yaf >=1.0.0)
 
-YafSession::offsetUnset — Призначення offsetUnset
+Yaf\_Session::offsetUnset — Призначення offsetUnset
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Session::offsetUnset(string $name): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

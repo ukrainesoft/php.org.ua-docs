@@ -1,14 +1,15 @@
 ---
 navigation:
   - recursiveiteratoriterator.valid.md: '« RecursiveIteratorIterator::valid'
-  - recursiveregexiterator.construct.md: 'RecursiveRegexIterator::construct »'
+  - recursiveregexiterator.construct.md: 'RecursiveRegexIterator::\_\_construct »'
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас RecursiveRegexIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас RecursiveRegexIterator
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,42 +19,49 @@ title: Клас RecursiveRegexIterator
 
 ```classsynopsis
 
-     
+    
+     class RecursiveRegexIterator
     
 
     
-     
-      class RecursiveRegexIterator
-     
+     extends
+      RegexIterator
+    
 
-     
-      extends
-       RegexIterator
-     
-
-     implements 
-       RecursiveIterator {
+    
+     implements
+      RecursiveIterator {
 
     /* Наследуемые константы */
     
+     public
      const
      int
-      MATCH = 0;
-const
+      RegexIterator::USE_KEY;
+public
+     const
      int
-      GET_MATCH = 1;
-const
+      RegexIterator::INVERT_MATCH;
+public
+     const
      int
-      ALL_MATCHES = 2;
-const
+      RegexIterator::MATCH;
+public
+     const
      int
-      SPLIT = 3;
-const
+      RegexIterator::GET_MATCH;
+public
+     const
      int
-      REPLACE = 4;
-const
+      RegexIterator::ALL_MATCHES;
+public
+     const
      int
-      USE_KEY = 1;
+      RegexIterator::SPLIT;
+public
+     const
+     int
+      RegexIterator::REPLACE;
 
 
     /* Наследуемые свойства */
@@ -64,7 +72,7 @@ const
 
     /* Методы */
     
-   public __construct(    RecursiveIterator $iterator,    string $pattern,    int $mode = RecursiveRegexIterator::MATCH,    int $flags = 0,    int $pregFlags = 0)
+   public __construct(    RecursiveIterator $iterator,    string $pattern,    int $mode = RecursiveRegexIterator::MATCH,    int $flags = 0,    int $pregFlags = 0)
 
     public getChildren(): RecursiveRegexIterator
 public hasChildren(): bool
@@ -82,7 +90,6 @@ public RegexIterator::setPregFlags(int $pregFlags): void
 
     public FilterIterator::accept(): bool
 public FilterIterator::current(): mixed
-public FilterIterator::getInnerIterator(): Iterator
 public FilterIterator::key(): mixed
 public FilterIterator::next(): void
 public FilterIterator::rewind(): void
@@ -100,6 +107,6 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [RecursiveRegexIterator::construct](recursiveregexiterator.construct.md) - Конструктор класу RecursiveRegexIterator
--   [RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.md) — Повертає ітератор до поточного елемента
--   [RecursiveRegexIterator::hasChildren](recursiveregexiterator.haschildren.md) — Визначає, чи можлива навігація за вмістом поточного елемента
+-   [RecursiveRegexIterator::\_\_construct](recursiveregexiterator.construct.md) \- Конструктор класу RecursiveRegexIterator
+-   [RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.md)— Повертає ітератор до поточного елемента
+-   [RecursiveRegexIterator::hasChildren](recursiveregexiterator.haschildren.md)— Визначає, чи можлива навігація за вмістом поточного елемента

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.apply.md: '« DsVector::apply'
-  - ds-vector.clear.md: 'ДсVector::clear »'
+  - ds-vector.apply.md: '« Ds\\Vector::apply'
+  - ds-vector.clear.md: 'Ds\\Vector::clear »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::capacity'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::capacity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::capacity
+# Ds\\Vector::capacity
 
 (PECL ds >= 1.0.0)
 
-ДсVector::capacity — Повертає поточну місткість
+Ds\\Vector::capacity — Повертає поточну місткість
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Vector::capacity(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::capacity()****
+**Пример #1 Пример использования**Ds\\Vector::capacity()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ var_dump($vector->capacity());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(10)

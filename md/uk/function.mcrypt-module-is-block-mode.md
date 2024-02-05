@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.mcrypt-module-is-block-algorithm.md: « mcryptmoduleісblockalgorithm
-  - function.mcrypt-module-open.md: mcryptmoduleopen »
+  - function.mcrypt-module-is-block-algorithm.md: « mcrypt\_module\_is\_block\_algorithm
+  - function.mcrypt-module-open.md: mcrypt\_module\_open »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
-title: mcryptmoduleісblockmode
+title: mcrypt\_module\_is\_block\_mode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mcryptmoduleісblockmode
+# mcrypt\_module\_is\_block\_mode
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcryptmoduleісblockmode — Перевірити, чи вказаний режим повертає дані блоками.
+mcrypt\_module\_is\_block\_mode — Перевірити, чи вказаний режим повертає дані блоками.
 
 **Увага**
 
-Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -28,7 +29,7 @@ mcrypt_module_is_block_mode(string $mode, string $lib_dir = ?): bool
 
 `mode`
 
-Одна з констант **`MCRYPT_MODE_modename`**, або один з наступних рядків: "ecb", "cbc", "cfb", "ofb", "nofb" та "stream".
+Одна из констант\*\*`MCRYPT_MODE_modename`\*\*, або один з наступних рядків: "ecb", "cbc", "cfb", "ofb", "nofb" та "stream".
 
 `lib_dir`
 

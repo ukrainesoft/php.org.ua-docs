@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-getpgid.md: « posixgetpgid
-  - function.posix-getpid.md: posixgetpid »
+  - function.posix-getpgid.md: « posix\_getpgid
+  - function.posix-getpid.md: posix\_getpid »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixgetpgrp
+  - ref.posix.md: POSIX Функції
+title: posix\_getpgrp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixgetpgrp
+# posix\_getpgrp
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posixgetpgrp — Повертає ідентифікатор групи поточного процесу
+posix\_getpgrp — Повертає ідентифікатор групи поточного процесу
 
 ### Опис
 
@@ -30,4 +31,4 @@ posix_getpgrp(): int
 
 ### Дивіться також
 
--   POSIX.1 та getpgrp(2) керівництва для POSIX систем для отримання більш детальної інформації про групи процесів.
+-   POSIX.1 і getpgrp(2) посібники для POSIX систем для отримання більш детальної інформації про групи процесів.

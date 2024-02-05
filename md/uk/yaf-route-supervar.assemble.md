@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yaf-route-supervar.md: « YafRouteSupervar
-  - yaf-route-supervar.construct.md: 'YafRouteSupervar::construct »'
+  - class.yaf-route-supervar.md: « Yaf\_Route\_Supervar
+  - yaf-route-supervar.construct.md: 'Yaf\_Route\_Supervar::\_\_construct »'
   - index.md: PHP Manual
-  - class.yaf-route-supervar.md: YafRouteSupervar
-title: 'YafRouteSupervar::assemble'
+  - class.yaf-route-supervar.md: Yaf\_Route\_Supervar
+title: 'Yaf\_Route\_Supervar::assemble'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteSupervar::assemble
+# Yaf\_Route\_Supervar::assemble
 
 (Yaf >=2.3.0)
 
-YafRouteSupervar::assemble — Збирає URL
+Yaf\_Route\_Supervar::assemble — Збирає URL
 
 ### Опис
 
@@ -32,11 +33,11 @@ public Yaf_Route_Supervar::assemble(array $info, array $query = ?): string
 
 ### Помилки
 
-Викидає [YafExceptionTypeError](class.yaf-exception-typeerror.md), якщо ключі параметра `info` `':c'` and `':a'` не задані.
+Викидає [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.md), якщо ключі параметра `info` `':c'`and`':a'` не задані.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafRouteSupervar::assemble()****
+**Пример #1 Пример использования**Yaf\_Route\_Supervar::assemble()\*\*\*\*
 
 ```php
 <?php
@@ -78,7 +79,7 @@ var_dump($router->getRoute('supervar')->assemble(
 }
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(%d) "?r=/yafmodule/yafcontroller/yafaction&tkey1=tval1&tkey2=tval2"

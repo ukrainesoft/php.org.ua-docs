@@ -1,21 +1,22 @@
 ---
 navigation:
-  - class.mongodb-driver-writeconcern.md: « MongoDBDriverWriteConcern
-  - mongodb-driver-writeconcern.construct.md: 'MongoDBDriverWriteConcern::construct »'
+  - class.mongodb-driver-writeconcern.md: « MongoDB\\Driver\\WriteConcern
+  - mongodb-driver-writeconcern.construct.md: 'MongoDB\\Driver\\WriteConcern::\_\_construct »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern
-title: 'MongoDBDriverWriteConcern::bsonSerialize'
+  - class.mongodb-driver-writeconcern.md: MongoDB\\Driver\\WriteConcern
+title: 'MongoDB\\Driver\\WriteConcern::bsonSerialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteConcern::bsonSerialize
+# MongoDB\\Driver\\WriteConcern::bsonSerialize
 
 (mongodb >=1.2.0)
 
-MongoDBDriverWriteConcern::bsonSerialize — Повертає об'єкт серіалізації BSON
+MongoDB\\Driver\\WriteConcern::bsonSerialize — Повертає об'єкт серіалізації BSON
 
 ### Опис
 
 ```methodsynopsis
-final public MongoDB\Driver\WriteConcern::bsonSerialize(): object
+final public MongoDB\Driver\WriteConcern::bsonSerialize(): stdClass
 ```
 
 ### Список параметрів
@@ -28,11 +29,11 @@ final public MongoDB\Driver\WriteConcern::bsonSerialize(): object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 **MongoDBDriverWriteConcern::bsonSerialize()** з більшістю гарантії запису**
+**Пример #1**MongoDB\\Driver\\WriteConcern::bsonSerialize()\*\* з більшістю гарантії запису\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($wc));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(stdClass)#2 (1) {
@@ -56,7 +57,7 @@ object(stdClass)#2 (1) {
 { "w" : "majority" }
 ```
 
-**Приклад #2 **MongoDBDriverWriteConcern::bsonSerialize()** з часом очікування та журналом**
+**Пример #2**MongoDB\\Driver\\WriteConcern::bsonSerialize()\*\* з часом очікування та журналом\*\*
 
 ```php
 <?php
@@ -69,7 +70,7 @@ echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($wc));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(stdClass)#2 (3) {
@@ -86,5 +87,5 @@ object(stdClass)#2 (3) {
 
 ### Дивіться також
 
--   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) - Надає масив або документ для серіалізації у BSON
--   [» Довідкова інформація щодо гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) \- Надає масив або документ для серіалізації у BSON
+-   [» Довідкова інформація щодо гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

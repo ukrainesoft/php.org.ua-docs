@@ -1,10 +1,11 @@
 ---
 navigation:
   - function.pow.md: « pow
-  - function.rand.md: rand »
+  - function.round.md: round »
   - index.md: PHP Manual
   - ref.math.md: Математичні функції
 title: rad2deg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # rad2deg
 
@@ -24,15 +25,15 @@ rad2deg(float $num): float
 
 `num`
 
-Значення у радіанах
+Значення у радіанах.
 
 ### Значення, що повертаються
 
-Еквівалент `num` у градусах
+Повертає еквівалент аргументу `num` у градусах.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **rad2deg()****
+**Пример #1 Пример использования функции**rad2deg()\*\*\*\*
 
 ```php
 <?php
@@ -44,4 +45,4 @@ echo rad2deg(M_PI_4); // 45
 
 ### Дивіться також
 
--   [deg2rad()](function.deg2rad.md) - Перетворює значення із градусів на радіани
+-   [deg2rad()](function.deg2rad.md) \- Перетворює значення із градусів на радіани

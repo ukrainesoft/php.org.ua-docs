@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.mysqli-get-links-stats.md: « mysqligetlinksstats
-  - function.mysqli-set-opt.md: 'mysqli::setopt »'
+  - function.mysqli-get-links-stats.md: « mysqli\_get\_links\_stats
+  - function.mysqli-set-opt.md: 'mysqli::set\_opt »'
   - index.md: PHP Manual
   - ref.mysqli.md: Синоніми та застарілі функції Mysqli
-title: mysqlireport
+title: mysqli\_report
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlireport
+# mysqli\_report
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlireport - Псевдонім [mysqlidriver->reportmode](mysqli-driver.report-mode.md)
+mysqli\_report — Псевдоним[mysqli\_driver->report\_mode](mysqli-driver.report-mode.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [mysqlidriver->reportmode](mysqli-driver.report-mode.md)
+Функция — псевдоним функции:[mysqli\_driver->report\_mode](mysqli-driver.report-mode.md)

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolormatch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecolormatch
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 imagecolormatch — Робить кольори палітрової версії зображення більш відповідними truecolor версії
 
@@ -32,17 +33,17 @@ imagecolormatch(GdImage $image1, GdImage $image2): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image1` і `image2` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `image1`и`image2` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagecolormatch()****
+**Пример #1 Пример использования**imagecolormatch()\*\*\*\*
 
 ```php
 <?php
@@ -68,4 +69,4 @@ imagedestroy($im2);
 
 ### Дивіться також
 
--   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) \- Створення нового повнокольорового зображення

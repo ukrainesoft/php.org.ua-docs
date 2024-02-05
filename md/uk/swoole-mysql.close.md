@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-mysql.md: « SwooleMySQL
-  - swoole-mysql.connect.md: 'SwooleMySQL::connect »'
+  - class.swoole-mysql.md: « Swoole\\MySQL
+  - swoole-mysql.connect.md: 'Swoole\\MySQL::connect »'
   - index.md: PHP Manual
-  - class.swoole-mysql.md: SwooleMySQL
-title: 'SwooleMySQL::close'
+  - class.swoole-mysql.md: Swoole\\MySQL
+title: 'Swoole\\MySQL::close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleMySQL::close
+# Swoole\\MySQL::close
 
 (PECL swoole >= 1.9.0)
 
-SwooleMySQL::close — Закриває асинхронне з'єднання MySQL
+Swoole\\MySQL::close — Закриває асинхронне з'єднання MySQL
 
 ### Опис
 

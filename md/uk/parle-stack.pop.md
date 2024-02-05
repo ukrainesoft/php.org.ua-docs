@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.parle-stack.md: « ParleStack
-  - parle-stack.push.md: 'ParleStack::push »'
+  - class.parle-stack.md: « Parle\\Stack
+  - parle-stack.push.md: 'Parle\\Stack::push »'
   - index.md: PHP Manual
-  - class.parle-stack.md: ParleStack
-title: 'ParleStack::pop'
+  - class.parle-stack.md: Parle\\Stack
+title: 'Parle\\Stack::pop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleStack::pop
+# Parle\\Stack::pop
 
 (PECL parle >= 0.5.1)
 
-ParleStack::pop — Витягує предмет зі стека
+Parle\\Stack::pop — Витягує предмет зі стека
 
 ### Опис
 

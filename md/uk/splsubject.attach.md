@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splsubject.md: SplSubject
 title: 'SplSubject::attach'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplSubject::attach
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplSubject::attach — Приєднати спостерігача (об'єкт класу SplObserver)
 
@@ -22,13 +23,13 @@ public SplSubject::attach(SplObserver $observer): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `observer`
 
-Об'єкт класу [SplObserver](class.splobserver.md) для приєднання.
+Об'єкт класу [SplObserver](class.splobserver.md)для присоединения.
 
 ### Значення, що повертаються
 

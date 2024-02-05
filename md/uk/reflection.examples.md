@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflection.constants.md: « Обумовлені константи
-  - reflection.extending.md: Расширение »
+  - reflection.constants.md: « Зумовлені константи
+  - reflection.extending.md: Розширення »
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -14,7 +15,7 @@ title: Приклади
 
 $ php --rf strlen $ php --rc finfo $ php --re json $ php --ri dom
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Function [ <internal:Core> function strlen ] {

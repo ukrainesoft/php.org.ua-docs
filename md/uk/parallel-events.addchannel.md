@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-events.setinput.md: '« parallelEvents::setInput'
-  - parallel-events.addfuture.md: 'parallelEvents::addFuture »'
+  - parallel-events.setinput.md: '« parallel\\Events::setInput'
+  - parallel-events.addfuture.md: 'parallel\\Events::addFuture »'
   - index.md: PHP Manual
-  - class.parallel-events.md: parallelEvents
-title: 'parallelEvents::addChannel'
+  - class.parallel-events.md: parallel\\Events
+title: 'parallel\\Events::addChannel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelEvents::addChannel
+# parallel\\Events::addChannel
 
-parallelEvents::addChannel — Цілі
+(0.9.0)
+
+parallel\\Events::addChannel — Цілі
 
 ### Опис
 
@@ -22,4 +25,4 @@ public parallel\Events::addChannel(parallel\Channel $channel): void
 
 **Увага**
 
-Викидає parallelEventsErrorExistence, якщо канал вже було додано.
+Викидає parallel\\Events\\Error\\Existence, якщо канал вже було додано.

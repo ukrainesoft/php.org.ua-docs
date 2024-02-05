@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-session.rewind.md: '« YafSession::rewind'
-  - yaf-session.start.md: 'YafSession::start »'
+  - yaf-session.rewind.md: '« Yaf\_Session::rewind'
+  - yaf-session.start.md: 'Yaf\_Session::start »'
   - index.md: PHP Manual
-  - class.yaf-session.md: YafSession
-title: 'YafSession::set'
+  - class.yaf-session.md: Yaf\_Session
+title: 'Yaf\_Session::\_\_set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafSession::set
+# Yaf\_Session::\_\_set
 
 (Yaf >=1.0.0)
 
-YafSession::set - Призначення set
+Yaf\_Session::\_\_set — Назначение\_\_set
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Session::__set(string $name, string $value): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

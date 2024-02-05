@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.json-last-error-msg.md: « jsonlasterrormsg
-  - book.lua.md: Lua »
+  - function.json-last-error-msg.md: « json\_last\_error\_msg
+  - function.json-validate.md: json\_validate »
   - index.md: PHP Manual
-  - ref.json.md: Функции JSON
-title: jsonlasterror
+  - ref.json.md: Функції JSON
+title: json\_last\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# jsonlasterror
+# json\_last\_error
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-jsonlasterror — Повертає останню помилку
+json\_last\_error — Повертає останню помилку
 
 ### Опис
 
@@ -35,7 +36,7 @@ json_last_error(): int
 | **`JSON_ERROR_NONE`** | Помилок немає |  |
 | **`JSON_ERROR_DEPTH`** | Досягнуто максимальної глибини стека |  |
 | **`JSON_ERROR_STATE_MISMATCH`** | Неправильний або неправильний JSON |  |
-| **`JSON_ERROR_CTRL_CHAR`** | Помилка керуючого символу, можливе неправильне кодування |  |
+| **`JSON_ERROR_CTRL_CHAR`** | Помилка символу керування, можливе неправильне кодування |  |
 | **`JSON_ERROR_SYNTAX`** | Синтаксична помилка |  |
 | **`JSON_ERROR_UTF8`** | Некоректні символи UTF-8, можливе неправильне кодування |  |
 | **`JSON_ERROR_RECURSION`** | Одна або кілька зациклених посилань у значенні, що кодується |  |
@@ -46,7 +47,7 @@ json_last_error(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **jsonlasterror()****
+**Пример #1 Пример использования**json\_last\_error()\*\*\*\*
 
 ```php
 <?php
@@ -91,14 +92,14 @@ foreach ($json as $string) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Декодируем: {"Organization": "PHP Documentation Team"} - Ошибок нет
 Декодируем: {'Organization': 'PHP Documentation Team'} - Синтаксическая ошибка, некорректный JSON
 ```
 
-**Приклад #2 Спільне використання **jsonlasterror()** і [jsonencode()](function.json-encode.md)**
+**Пример #2 Совместное использование**json\_last\_error()**и[json\_encode()](function.json-encode.md)**
 
 ```php
 <?php
@@ -112,14 +113,14 @@ var_dump($json, $error === JSON_ERROR_UTF8);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(4) "null"
 bool(true)
 ```
 
-**Приклад #3 **jsonlasterror()** і **`JSON_THROW_ON_ERROR`****
+**Пример #3**json\_last\_error()**и**`JSON_THROW_ON_ERROR`\*\*\*\*
 
 ```php
 <?php
@@ -134,7 +135,7 @@ var_dump(json_last_error() === JSON_ERROR_UTF8);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -142,6 +143,6 @@ bool(true)
 
 ### Дивіться також
 
--   [jsonlasterrormsg()](function.json-last-error-msg.md) - Повертає рядок з повідомленням про помилку останнього дзвінка jsonencode() або jsondecode()
--   [jsondecode()](function.json-decode.md) - Декодує рядок JSON
--   [jsonencode()](function.json-encode.md) - Повертає JSON-подання даних
+-   [json\_last\_error\_msg()](function.json-last-error-msg.md) \- Повертає рядок з повідомленням про помилку останнього дзвінка json\_encode() або json\_decode()
+-   [json\_decode()](function.json-decode.md) \- Декодує рядок JSON
+-   [json\_encode()](function.json-encode.md) \- Повертає JSON-подання даних

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrresponse.md: SolrResponse
 title: 'SolrResponse::getHttpStatusMessage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrResponse::getHttpStatusMessage
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrResponse::getHttpStatusMessage — Повертає докладнішу інформацію про статус HTTP
 

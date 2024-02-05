@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli.error.md: '« mysqli::$error'
-  - mysqli.get-charset.md: 'mysqli::getcharset »'
+  - mysqli.execute-query.md: '« mysqli::execute\_query'
+  - mysqli.get-charset.md: 'mysqli::get\_charset »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::$fieldcount'
+title: 'mysqli::$field\_count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::$fieldcount
+# mysqli::$field\_count
 
-# mysqlifieldcount
+# mysqli\_field\_count
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$fieldcount - mysqlifieldcount — Повертає кількість стовпців, зачеплених останнім запитом
+mysqli::$field\_count -- mysqli\_field\_count — Повертає кількість стовпців, зачеплених останнім запитом
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli->fieldcount](mysqli.field-count.md)
+int[$mysqli->field\_count](mysqli.field-count.md)
 
 Процедурний стиль
 
@@ -26,13 +27,13 @@ int [$mysqli->fieldcount](mysqli.field-count.md)
 mysqli_field_count(mysqli $mysql): int
 ```
 
-Повертає кількість стовпців, які торкнулися останнім запитом для з'єднання, зазначеного в `mysql`. Ця функція може бути корисною під час використання [mysqlistoreresult()](mysqli.store-result.md) для того, щоб визначити, чи виданий непустий результат, або у разі невідомого призначення запиту.
+Повертає кількість стовпців, які торкнулися останнім запитом для з'єднання, зазначеного в `mysql`. Ця функція може бути корисною під час використання [mysqli\_store\_result()](mysqli.store-result.md) для того, щоб визначити, чи виданий непустий результат, або у разі невідомого призначення запиту.
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -40,7 +41,7 @@ mysqli_field_count(mysqli $mysql): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання $mysqli->fieldcount**
+**Приклад #1 Приклад використання $mysqli->field\_count**
 
 Об'єктно-орієнтований стиль
 

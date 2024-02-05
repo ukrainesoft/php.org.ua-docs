@@ -5,16 +5,17 @@ navigation:
   - index.md: PHP Manual
   - class.messageformatter.md: MessageFormatter
 title: 'MessageFormatter::create'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # MessageFormatter::create
 
-# MessageFormatter::construct
+# MessageFormatter::\_\_construct
 
-# msgfmtcreate
+# msgfmt\_create
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-MessageFormatter::create -- MessageFormatter::construct - msgfmtcreate — Створює засіб форматування повідомлень
+MessageFormatter::create -- MessageFormatter::\_\_construct -- msgfmt\_create — Створює засіб форматування повідомлень
 
 ### Опис
 
@@ -26,7 +27,7 @@ public static MessageFormatter::create(string $locale, string $pattern): ?Messag
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public **MessageFormatter::construct**(string `$locale`, string `$pattern`
+public**MessageFormatter::\_\_construct**(string`$locale`, string`$pattern`) .
 
 Процедурний стиль
 
@@ -44,11 +45,11 @@ msgfmt_create(string $locale, string $pattern): ?MessageFormatter
 
 `pattern`
 
-Рядок (string) шаблон для вставлення аргументів. У шаблоні використовується "дружній до апострофів" синтаксис; докладніше дивіться у розділі [» Quoting/Escaping](https://unicode-org.github.io/icu/userguide/format_parse/messages/#quotingescaping)
+Рядок (string) шаблону для вставлення аргументів. У шаблоні використовується "дружній до апострофів" синтаксис; докладніше дивіться у розділі [» Quoting/Escaping](https://unicode-org.github.io/icu/userguide/format_parse/messages/#quotingescaping)
 
 ### Значення, що повертаються
 
-Об'єкт [MessageFormatter](class.messageformatter.md) або **`null`** у разі виникнення помилки.
+Об'єкт [MessageFormatter](class.messageformatter.md)или\*\*`null`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -56,7 +57,7 @@ msgfmt_create(string $locale, string $pattern): ?MessageFormatter
 
 ### Приклади
 
-**Приклад #1 Приклад використання **msgfmtcreate()****
+**Пример #1 Пример использования**msgfmt\_create()\*\*\*\*
 
 ```php
 <?php
@@ -78,7 +79,7 @@ echo $fmt->format(array(4560, 123, 4560/123));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 4,560 monkeys on 123 trees make 37.073 monkeys per tree
@@ -87,7 +88,7 @@ echo $fmt->format(array(4560, 123, 4560/123));
 
 ### Дивіться також
 
--   [msgfmtformat()](messageformatter.format.md) - Форматує повідомлення
--   [msgfmtparse()](messageformatter.parse.md) - Розбирає рядок згідно шаблону
--   [msgfmtgeterrorcode()](messageformatter.geterrorcode.md) - Повертає код помилки останньої операції
--   [msgfmtgeterrormessage()](messageformatter.geterrormessage.md) - Повертає текст помилки останньої операції
+-   [msgfmt\_format()](messageformatter.format.md) \- Форматує повідомлення
+-   [msgfmt\_parse()](messageformatter.parse.md) \- Розбирає рядок згідно шаблону
+-   [msgfmt\_get\_error\_code()](messageformatter.geterrorcode.md) \- Повертає код помилки останньої операції
+-   [msgfmt\_get\_error\_message()](messageformatter.geterrormessage.md) \- Повертає текст помилки останньої операції

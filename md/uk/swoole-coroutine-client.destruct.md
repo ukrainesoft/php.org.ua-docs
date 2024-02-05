@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine-client.construct.md: '« SwooleCoroutineClient::construct'
-  - swoole-coroutine-client.getpeername.md: 'SwooleCoroutineClient::getpeername »'
+  - swoole-coroutine-client.construct.md: '« Swoole\\Coroutine\\Client::\_\_construct'
+  - swoole-coroutine-client.getpeername.md: 'Swoole\\Coroutine\\Client::getpeername »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutineClient::destruct'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine\\Client::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutineClient::destruct
+# Swoole\\Coroutine\\Client::\_\_destruct
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutineClient::destruct — Опис
+Swoole\\Coroutine\\Client::\_\_destruct — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Coroutine\Client::__destruct(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

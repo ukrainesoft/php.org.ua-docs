@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::isProtected'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionProperty::isProtected
 
@@ -30,7 +31,7 @@ public ReflectionProperty::isProtected(): bool
 
 ### Дивіться також
 
--   [ReflectionProperty::isPublic()](reflectionproperty.ispublic.md) - Перевіряє, чи є властивість загальнодоступною
--   [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.md) - Перевіряє, чи властивість закрита
--   [ReflectionProperty::isReadOnly()](reflectionproperty.isreadonly.md) - Перевіряє, чи є властивість readonly-властивістю
--   [ReflectionProperty::isStatic()](reflectionproperty.isstatic.md) - Перевірка, чи є властивість статичним
+-   [ReflectionProperty::isPublic()](reflectionproperty.ispublic.md) \- Перевіряє, чи є властивість загальнодоступною
+-   [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.md) \- Перевіряє, чи властивість закрита
+-   [ReflectionProperty::isReadOnly()](reflectionproperty.isreadonly.md) \- Перевіряє, чи є властивість readonly-властивістю
+-   [ReflectionProperty::isStatic()](reflectionproperty.isstatic.md) \- Перевірка, чи є властивість статичним

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::arc'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GmagickDraw::arc
 
@@ -15,7 +16,7 @@ GmagickDraw::arc — Малює дугу
 ### Опис
 
 ```methodsynopsis
-public GmagickDraw::arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): GmagickDraw
+public GmagickDraw::arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): GmagickDraw
 ```
 
 Малює дугу, що знаходиться в межах прямокутника, що обмежує, на зображенні.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ob-get-clean.md: « obgetclean
-  - function.ob-get-flush.md: проgetflush »
+  - function.ob-get-clean.md: « ob\_get\_clean
+  - function.ob-get-flush.md: ob\_get\_flush »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
-title: проgetcontents
+title: ob\_get\_contents
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# проgetcontents
+# ob\_get\_contents
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-проgetcontents — Повертає вміст буфера виводу
+ob\_get\_contents — Повертає вміст буфера виводу
 
 ### Опис
 
@@ -30,7 +31,7 @@ ob_get_contents(): string|false
 
 ### Приклади
 
-**Приклад #1 Простий приклад використання функції **проgetcontents()****
+**Приклад #1 Простий приклад використання функції **ob\_get\_contents()****
 
 ```php
 <?php
@@ -51,7 +52,7 @@ var_dump($out1, $out2);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(6) "Привет "
@@ -60,5 +61,5 @@ string(11) "Привет Мир"
 
 ### Дивіться також
 
--   [проstart()](function.ob-start.md) - Включення буферизації виводу
--   [проgetlength()](function.ob-get-length.md) - Повертає розмір буфера виводу
+-   [ob\_start()](function.ob-start.md) \- Включає буферизацію виводу
+-   [ob\_get\_length()](function.ob-get-length.md) \- Повертає розмір буфера виводу

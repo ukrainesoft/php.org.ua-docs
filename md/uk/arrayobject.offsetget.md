@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::offsetGet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::offsetGet
 
@@ -26,7 +27,7 @@ public ArrayObject::offsetGet(mixed $key): mixed
 
 ### Значення, що повертаються
 
-Значення за вказаним індексом або **`null`**
+Значение по указанному индексу или\*\*`null`\*\*
 
 ### Помилки
 
@@ -34,7 +35,7 @@ public ArrayObject::offsetGet(mixed $key): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::offsetGet()****
+**Пример #1 Пример использования**ArrayObject::offsetGet()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ var_dump($arrayobj->offsetExists('notfound'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(7)

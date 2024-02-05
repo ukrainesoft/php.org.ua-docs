@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.ui-key.md: « UIKey
-  - class.ui-exception-runtimeexception.md: ОЙExceptionRuntimeException »
+  - class.ui-key.md: « UI\\Key
+  - class.ui-exception-runtimeexception.md: UI\\Exception\\RuntimeException »
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: InvalidArgumentException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # InvalidArgumentException
 
@@ -33,27 +34,27 @@ title: InvalidArgumentException
 
     /* Наследуемые свойства */
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */

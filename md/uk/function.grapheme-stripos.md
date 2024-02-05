@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.grapheme-extract.md: « graphemeextract
-  - function.grapheme-stristr.md: graphemestristr »
+  - function.grapheme-extract.md: « grapheme\_extract
+  - function.grapheme-stristr.md: grapheme\_stristr »
   - index.md: PHP Manual
-  - ref.intl.grapheme.md: Функции Grapheme
-title: graphemestripos
+  - ref.intl.grapheme.md: Функції Grapheme
+title: grapheme\_stripos
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# graphemestripos
+# grapheme\_stripos
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-graphemestripos — Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
+grapheme\_stripos — Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
 
 ### Опис
 
@@ -34,21 +35,21 @@ grapheme_stripos(string $haystack, string $needle, int $offset = 0): int|false
 
 `offset`
 
-Необов'язковий параметр `offset` дозволяє вказати, де в `haystack` починати пошук у вигляді усунення в одиницях графеми (не в байтах чи символах). Якщо усунення негативне, воно обробляється щодо кінця рядка. Повернена позиція, як і раніше, щодо початку `haystack`незалежно від значення `offset`
+Необов'язковий параметр `offset` дозволяє вказати, де в `haystack` починати пошук у вигляді усунення в одиницях графеми (не в байтах чи символах). Якщо усунення негативне, воно обробляється щодо кінця рядка. Повернена позиція, як і раніше, щодо початку `haystack`, независимо от значения`offset`
 
 ### Значення, що повертаються
 
-Повертає позицію як ціле число. Якщо входження `needle` не знайдено, функція **graphemestripos()** поверне **`false`**
+Повертає позицію як ціле число. Якщо входження `needle`не найдено, функция**grapheme\_stripos()** поверне **`false`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Додано підтримку негативних значень `offset` |
+| 7.1.0 | Додано підтримку негативних значень `offset` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **graphemestripos()****
+**Пример #1 Пример использования**grapheme\_stripos()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ print grapheme_stripos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaeresis_
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 2
@@ -70,9 +71,9 @@ print grapheme_stripos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaeresis_
 
 ### Дивіться також
 
--   [graphemestristr()](function.grapheme-stristr.md) - Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
--   [graphemestrpos()](function.grapheme-strpos.md) - знаходить позицію (в одиницях графеми) першого входження рядка
--   [graphemestrripos()](function.grapheme-strripos.md) - Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
--   [graphemestrrpos()](function.grapheme-strrpos.md) - знаходить позицію (в одиницях графеми) останнього входження рядка
--   [graphemestrstr()](function.grapheme-strstr.md) - Повертає частину рядка haystack від першої появи needle до кінця haystack
--   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+-   [grapheme\_stristr()](function.grapheme-stristr.md) \- Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
+-   [grapheme\_strpos()](function.grapheme-strpos.md) \- знаходить позицію (в одиницях графеми) першого входження рядка
+-   [grapheme\_strripos()](function.grapheme-strripos.md) \- Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
+-   [grapheme\_strrpos()](function.grapheme-strrpos.md) \- знаходить позицію (в одиницях графеми) останнього входження рядка
+-   [grapheme\_strstr()](function.grapheme-strstr.md) \- Повертає частину рядка haystack від першої появи needle до кінця haystack
+-   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

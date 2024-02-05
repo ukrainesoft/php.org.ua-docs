@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас MultipleIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас MultipleIterator
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,34 +19,35 @@ title: Клас MultipleIterator
 
 ```classsynopsis
 
-     
+    
+     class MultipleIterator
     
 
     
-     
-      class MultipleIterator
-     
-
-     implements 
-       Iterator {
+     implements
+      Iterator {
 
     /* Константы */
     
+     public
      const
      int
-      MIT_NEED_ANY = 0;
+      MIT_NEED_ANY;
 
-    const
+    public
+     const
      int
-      MIT_NEED_ALL = 1;
+      MIT_NEED_ALL;
 
-    const
+    public
+     const
      int
-      MIT_KEYS_NUMERIC = 0;
+      MIT_KEYS_NUMERIC;
 
-    const
+    public
+     const
      int
-      MIT_KEYS_ASSOC = 2;
+      MIT_KEYS_ASSOC;
 
 
     /* Методы */
@@ -79,7 +81,7 @@ public valid(): bool
 
 **`MultipleIterator::MIT_KEYS_NUMERIC`**
 
-Ключі створюються з позиції підитераторів.
+Ключі створюються з позиції підітераторів.
 
 **`MultipleIterator::MIT_KEYS_ASSOC`**
 
@@ -87,15 +89,15 @@ public valid(): bool
 
 ## Зміст
 
--   [MultipleIterator::attachIterator](multipleiterator.attachiterator.md) - Приєднує ітератор
--   [MultipleIterator::construct](multipleiterator.construct.md) — Створює новий MultipleIterator
--   [MultipleIterator::containsIterator](multipleiterator.containsiterator.md) — Перевіряє, чи приєднано ітератора.
--   [MultipleIterator::countIterators](multipleiterator.countiterators.md) — Отримує кількість приєднаних ітераторів
--   [MultipleIterator::current](multipleiterator.current.md) — Отримує зареєстровані ітератори
--   [MultipleIterator::detachIterator](multipleiterator.detachiterator.md) - Від'єднує ітератор
--   [MultipleIterator::getFlags](multipleiterator.getflags.md) — Отримує інформацію про прапори
--   [MultipleIterator::key](multipleiterator.key.md) — Отримує зареєстровані ітератори
--   [MultipleIterator::next](multipleiterator.next.md) — Переміщує всі приєднані ітератори до наступних елементів.
--   [MultipleIterator::rewind](multipleiterator.rewind.md) — Повертає на початок усі приєднані ітератори
--   [MultipleIterator::setFlags](multipleiterator.setflags.md) - Встановлює прапори
--   [MultipleIterator::valid](multipleiterator.valid.md) - Перевіряє коректність підитераторів
+-   [MultipleIterator::attachIterator](multipleiterator.attachiterator.md) \- Приєднує ітератор
+-   [MultipleIterator::\_\_construct](multipleiterator.construct.md)— Створює новий MultipleIterator
+-   [MultipleIterator::containsIterator](multipleiterator.containsiterator.md)— Перевіряє, чи приєднано ітератора.
+-   [MultipleIterator::countIterators](multipleiterator.countiterators.md)— Отримує кількість приєднаних ітераторів
+-   [MultipleIterator::current](multipleiterator.current.md)— Отримує зареєстровані ітератори
+-   [MultipleIterator::detachIterator](multipleiterator.detachiterator.md) \- Від'єднує ітератор
+-   [MultipleIterator::getFlags](multipleiterator.getflags.md)— Отримує інформацію про прапори
+-   [MultipleIterator::key](multipleiterator.key.md)— Отримує зареєстровані ітератори
+-   [MultipleIterator::next](multipleiterator.next.md)— Переміщує всі приєднані ітератори до наступних елементів.
+-   [MultipleIterator::rewind](multipleiterator.rewind.md)— Повертає на початок усі приєднані ітератори
+-   [MultipleIterator::setFlags](multipleiterator.setflags.md) \- Встановлює прапори
+-   [MultipleIterator::valid](multipleiterator.valid.md)— Перевіряє коректність підитераторів

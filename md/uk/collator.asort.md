@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.collator.md: Collator
 title: 'Collator::asort'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collator::asort
 
-# collatorasort
+# collator\_asort
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Collator::asort -- collatorasort — Сортує масив із збереженням асоціації індексу
+Collator::asort -- collator\_asort — Сортує масив із збереженням асоціації індексу
 
 ### Опис
 
@@ -46,22 +47,22 @@ collator_asort(Collator $object, array &$array, int $flags = Collator::SORT_REGU
 
 Необов'язковий тип сортування, один із таких:
 
--   **`Collator::SORT_REGULAR`** - порівнює елементи як завжди (не змінюючи тип)
+-   \*\*`Collator::SORT_REGULAR`\*\*- порівнює елементи як завжди (не змінюючи тип)
     
--   **`Collator::SORT_NUMERIC`** - порівнює елементи, як числа
+-   \*\*`Collator::SORT_NUMERIC`\*\*- порівнює елементи, як числа
     
--   **`Collator::SORT_STRING`** - Порівнює елементи, як рядки
+-   \*\*`Collator::SORT_STRING`\*\*- Порівнює елементи, як рядки
     
 
-Значення `flags` за замовчуванням - **`Collator::SORT_REGULAR`**. Також використовується, якщо вказано неприпустиме значення `flags`
+Значение`flags`по умолчанию -**`Collator::SORT_REGULAR`**. Також використовується, якщо вказано неприпустиме значення `flags`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **collatorasort()****
+**Пример #1 Пример использования**collator\_asort()\*\*\*\*
 
 ```php
 <?php
@@ -79,7 +80,7 @@ var_export( $arr );
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array (
@@ -96,5 +97,5 @@ array (
 ### Дивіться також
 
 -   [Константи](class.collator.md#intl.collator-constants) [Collator](class.collator.md)
--   [collatorsort()](collator.sort.md) - Сортує масив із використанням зазначеного засобу сортування
--   [collatorsortwithsortkeys()](collator.sortwithsortkeys.md) - Сортує масив з використанням зазначеного Collator та ключів сортування
+-   [collator\_sort()](collator.sort.md) \- Сортує масив із використанням зазначеного засобу сортування
+-   [collator\_sort\_with\_sort\_keys()](collator.sortwithsortkeys.md) \- Сортує масив з використанням зазначеного Collator та ключів сортування

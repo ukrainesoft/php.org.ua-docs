@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.rarentry.md: RarEntry
 title: 'RarEntry::extract'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarEntry::extract
 
@@ -15,7 +16,7 @@ RarEntry::extract — Витягує елемент з архіву
 ### Опис
 
 ```methodsynopsis
-public RarEntry::extract(    string $dir,    string $filepath = "",    string $password = NULL,    bool $extended_data = false): bool
+public RarEntry::extract(    string $dir,    string $filepath = "",    string $password = NULL,    bool $extended_data = false): bool
 ```
 
 **RarEntry::extract()** витягує вміст елемента. При цьому створюється новий файл у зазначеній директорії `dir` з ім'ям, що збігається з ім'ям елемента, якщо тільки не заданий другий аргумент. Дивіться нижче.
@@ -24,7 +25,7 @@ public RarEntry::extract(    string $dir,    string $filepath = "",    string $p
 
 `dir`
 
-Шлях до директорії, куди потрібно витягти файли. Цей параметр враховується лише якщо не вказано `filepath`. Якщо обидва параметри не вказані, файли витягуються в поточну директорію.
+Шлях до директорії, куди потрібно витягти файли. Цей параметр враховується лише якщо не вказано `filepath`. Якщо обидва параметри не вказані, файли витягуються до поточної директорії.
 
 `filepath`
 
@@ -32,7 +33,7 @@ public RarEntry::extract(    string $dir,    string $filepath = "",    string $p
 
 `password`
 
-Пароль використовується для шифрування поточного елемента. Якщо елемент не зашифрований, цей параметр не буде використаний і його можна не вказувати. Якщо цей параметр не вказано, а елемент зашифрований, то буде використаний пароль, переданий функції [raropen()](rararchive.open.md), Якщо її викликали. Якщо передано невірний пароль, явно чи неявно через [raropen()](rararchive.open.md), то перевірка CRC буде невдалою і буде повернуто **`false`**. Ви можете перевірити, чи є елемент зашифрованим за допомогою [RarEntry::isEncrypted()](rarentry.isencrypted.md)
+Пароль використовується для шифрування поточного елемента. Якщо елемент не зашифрований, цей параметр не буде використаний і його можна не вказувати. Якщо цей параметр не вказано, а елемент зашифрований, то буде використаний пароль, переданий функції [rar\_open()](rararchive.open.md), Якщо її викликали. Якщо передано невірний пароль, явно чи неявно через [rar\_open()](rararchive.open.md), то перевірка CRC буде невдалою і буде повернуто **`false`**. Ви можете перевірити, чи є елемент зашифрованим за допомогою [RarEntry::isEncrypted()](rarentry.isencrypted.md)
 
 `extended_data`
 
@@ -44,18 +45,18 @@ public RarEntry::extract(    string $dir,    string $filepath = "",    string $p
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL rar 3.0.0 | Було додано параметр `extended_data` |
 | PECL rar 3.0.0 | Виправлена ​​підтримка RAR архівів з іменами елементів, що повторюються. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RarEntry::extract()****
+**Пример #1 Пример использования**RarEntry::extract()\*\*\*\*
 
 ```php
 <?php
@@ -93,5 +94,5 @@ rar_close($rar_file);
 
 ### Дивіться також
 
--   [RarEntry::getStream()](rarentry.getstream.md) - Отримати обробник для запису
+-   [RarEntry::getStream()](rarentry.getstream.md) \- Отримати обробник для запису
 -   [`rar://`wrapper](wrappers.rar.md)

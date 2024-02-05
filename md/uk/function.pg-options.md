@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-num-rows.md: « pgnumrows
-  - function.pg-parameter-status.md: пгparameterstatus »
+  - function.pg-num-rows.md: « pg\_num\_rows
+  - function.pg-parameter-status.md: pg\_parameter\_status »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгoptions
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_options
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгoptions
+# pg\_options
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-пгoptions — Отримання параметрів з'єднання з сервером баз даних
+pg\_options — Отримання параметрів з'єднання з сервером баз даних
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: пгoptions
 pg_options(?PgSql\Connection $connection = null): string
 ```
 
-**пгoptions()** повертає рядок, що містить параметри з'єднання PostgreSQL `connection`
+**pg\_options()** повертає рядок, що містить параметри з'єднання PostgreSQL `connection`
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection`указан как\*\*`null`\*\*, вибирається стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -36,14 +37,14 @@ pg_options(?PgSql\Connection $connection = null): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `connection` тепер допускає значення null. |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгoptions()****
+**Пример #1 Пример использования**pg\_options()\*\*\*\*
 
 ```php
 <?php
@@ -54,4 +55,4 @@ pg_options(?PgSql\Connection $connection = null): string
 
 ### Дивіться також
 
--   [пгconnect()](function.pg-connect.md) - Відкриває з'єднання з базою даних PostgreSQL
+-   [pg\_connect()](function.pg-connect.md) \- Відкриває з'єднання з базою даних PostgreSQL

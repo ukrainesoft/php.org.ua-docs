@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-scaling-params.md: « fannsetscalingparams
-  - function.fann-set-train-stop-function.md: fannsettrainstopfunction »
+  - function.fann-set-scaling-params.md: « fann\_set\_scaling\_params
+  - function.fann-set-train-stop-function.md: fann\_set\_train\_stop\_function »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsettrainerrorfunction
+  - ref.fann.md: Функції Fann
+title: fann\_set\_train\_error\_function
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsettrainerrorfunction
+# fann\_set\_train\_error\_function
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsettrainerrorfunction — Встановлює функцію помилки під час тренування.
+fann\_set\_train\_error\_function — Встановлює функцію помилки під час тренування.
 
 ### Опис
 
@@ -20,7 +21,7 @@ fann_set_train_error_function(resource $ann, int $error_function): bool
 
 Встановлює функцію помилки під час тренування.
 
-Функції помилок описані далі у константах [функций ошибок](fann.constants.md#constants.fann-errorfunc)
+Функції помилок описані далі у константах [функцій помилок](fann.constants.md#constants.fann-errorfunc)
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ fann_set_train_error_function(resource $ann, int $error_function): bool
 
 `error_function`
 
-Константа [функций ошибок](fann.constants.md#constants.fann-errorfunc)
+Константа[функцій помилок](fann.constants.md#constants.fann-errorfunc)
 
 ### Значення, що повертаються
 
@@ -38,4 +39,4 @@ fann_set_train_error_function(resource $ann, int $error_function): bool
 
 ### Дивіться також
 
--   [fanngettrainerrorfunction()](function.fann-get-train-error-function.md) - Повертає функцію обробки помилок, що використовується під час навчання
+-   [fann\_get\_train\_error\_function()](function.fann-get-train-error-function.md) \- Повертає функцію обробки помилок, що використовується під час навчання

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-writeerror.getcode.md: '« MongoDBDriverWriteError::getCode'
-  - mongodb-driver-writeerror.getinfo.md: 'MongoDBDriverWriteError::getInfo »'
+  - mongodb-driver-writeerror.getcode.md: '« MongoDB\\Driver\\WriteError::getCode'
+  - mongodb-driver-writeerror.getinfo.md: 'MongoDB\\Driver\\WriteError::getInfo »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeerror.md: MongoDBDriverWriteError
-title: 'MongoDBDriverWriteError::getIndex'
+  - class.mongodb-driver-writeerror.md: MongoDB\\Driver\\WriteError
+title: 'MongoDB\\Driver\\WriteError::getIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteError::getIndex
+# MongoDB\\Driver\\WriteError::getIndex
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteError::getIndex — Повертає індекс запису, який відповідає цьому WriteError
+MongoDB\\Driver\\WriteError::getIndex — Повертає індекс запису, який відповідає цьому WriteError
 
 ### Опис
 
@@ -24,15 +25,15 @@ final public MongoDB\Driver\WriteError::getIndex(): int
 
 ### Значення, що повертаються
 
-Повертає індекс запису (з [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)), що відповідає поточному WriteError.
+Повертає індекс запису (з [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.md)), що відповідає поточному WriteError.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteError::getIndex()****
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteError::getIndex()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(1)
@@ -60,4 +61,4 @@ int(1)
 
 ### Дивіться також
 
--   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)
+-   [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.md)

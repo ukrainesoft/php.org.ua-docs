@@ -1,14 +1,15 @@
 ---
 navigation:
-  - snmp.construct.md: '« SNMP::construct'
+  - snmp.construct.md: '« SNMP::\_\_construct'
   - snmp.geterrno.md: 'SNMP::getErrno »'
   - index.md: PHP Manual
   - class.snmp.md: SNMP
 title: 'SNMP::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SNMP::get
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SNMP::get — Отримує об'єкт SNMP
 
@@ -18,7 +19,7 @@ SNMP::get — Отримує об'єкт SNMP
 public SNMP::get(array|string $objectId, bool $preserveKeys = false): mixed
 ```
 
-Отримує об'єкт SNMP, вказаний у `objectId`за допомогою запиту GET.
+Отримує об'єкт SNMP, вказаний у `objectId`, за допомогою запиту GET.
 
 ### Список параметрів
 
@@ -30,15 +31,15 @@ public SNMP::get(array|string $objectId, bool $preserveKeys = false): mixed
 
 `preserveKeys`
 
-Коли `objectId` є масивом і для параметра `preserveKeys` встановлено значення **`true`** ключі в результатах будуть взяті так само, як у `objectId`, інакше властивість SNMP::oidoutputformat використовується визначення форми ключів.
+Когда`objectId` є масивом і для параметра `preserveKeys`установлено значение\*\*`true`\*\* ключі в результатах будуть взяті так само, як у `objectId`, інакше властивість SNMP::oid\_output\_format використовується визначення форми ключів.
 
 ### Значення, що повертаються
 
-Повертає запитані об'єкти SNMP у вигляді рядка або масиву залежно від типу `objectId` або **`false`** у разі виникнення помилки.
+Повертає запитані об'єкти SNMP у вигляді рядка або масиву залежно від типу `objectId`или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Цей метод за промовчанням не генерує винятку. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled` класу SNMP у відповідне значення. Детальніше дивіться [поясненні параметра`SNMP::$exceptions_enabled`](class.snmp.md#snmp.props.exceptions-enabled)
+Цей метод за промовчанням не генерує виняток. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled`класса SNMP в соответствующее значение. Подробнее смотрите в[поясненні параметра `SNMP::$exceptions_enabled`](class.snmp.md#snmp.props.exceptions-enabled)
 
 ### Приклади
 
@@ -56,7 +57,7 @@ public SNMP::get(array|string $objectId, bool $preserveKeys = false): mixed
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 STRING: Test server
@@ -75,7 +76,7 @@ $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
   $session->close();
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -87,5 +88,5 @@ Array
 
 ### Дивіться також
 
--   [SNMP::getErrno()](snmp.geterrno.md) - Отримує код останньої помилки
--   [SNMP::getError()](snmp.geterror.md) - Отримує останнє повідомлення про помилку
+-   [SNMP::getErrno()](snmp.geterrno.md) \- Отримує код останньої помилки
+-   [SNMP::getError()](snmp.geterror.md) \- Отримує останнє повідомлення про помилку

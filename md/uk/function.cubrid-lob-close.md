@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-is-instance.md: « cubridісinstance
-  - function.cubrid-lob-export.md: cubridlobexport »
+  - function.cubrid-is-instance.md: « cubrid\_is\_instance
+  - function.cubrid-lob-export.md: cubrid\_lob\_export »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridлобclose
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_lob\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridлобclose
+# cubrid\_lob\_close
 
 (PECL CUBRID >= 8.3.1)
 
-cubridлобclose — Закриває дані BLOB/CLOB
+cubrid\_lob\_close — Закриває дані BLOB/CLOB
 
 ### Опис
 
@@ -18,21 +19,21 @@ cubridлобclose — Закриває дані BLOB/CLOB
 cubrid_lob_close(array $lob_identifier_array): bool
 ```
 
-**cubridлобclose()** використовується для закриття всіх BLOB/CLOB, що повертаються функцією [cubridlobget()](function.cubrid-lob-get.md)
+**cubrid\_lob\_close()** використовується для закриття всіх BLOB/CLOB, що повертаються функцією [cubrid\_lob\_get()](function.cubrid-lob-get.md)
 
 ### Список параметрів
 
 `lob_identifier_array`
 
-Масив ідентифікаторів LOB, повернутий [cubridlobget()](function.cubrid-lob-get.md)
+Масив ідентифікаторів LOB, повернутий [cubrid\_lob\_get()](function.cubrid-lob-get.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridлобclose()****
+**Пример #1 Пример использования**cubrid\_lob\_close()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubridlobget()](function.cubrid-lob-get.md) - Отримує дані BLOB/CLOB
--   [cubridlobsize()](function.cubrid-lob-size.md) - Отримує розмір даних BLOB/CLOB
--   [cubridlobexport()](function.cubrid-lob-export.md) - Експортує дані BLOB/CLOB у файл
--   [cubridlobsend()](function.cubrid-lob-send.md) - Читає дані BLOB/CLOB та відправляє їх прямо до браузера
+-   [cubrid\_lob\_get()](function.cubrid-lob-get.md) \- Отримує дані BLOB/CLOB
+-   [cubrid\_lob\_size()](function.cubrid-lob-size.md) \- Отримує розмір даних BLOB/CLOB
+-   [cubrid\_lob\_export()](function.cubrid-lob-export.md) \- Експортує дані BLOB/CLOB у файл
+-   [cubrid\_lob\_send()](function.cubrid-lob-send.md) \- Читає дані BLOB/CLOB та відправляє їх прямо до браузера

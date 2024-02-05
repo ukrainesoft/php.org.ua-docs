@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-fetch-all-columns.md: « pgfetchallcolumns
-  - function.pg-fetch-array.md: пгfetcharray »
+  - function.pg-fetch-all-columns.md: « pg\_fetch\_all\_columns
+  - function.pg-fetch-array.md: pg\_fetch\_array »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгfetchall
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_fetch\_all
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгfetchall
+# pg\_fetch\_all
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-пгfetchall — Вибирає всі дані з результату запиту та поміщає їх у масив
+pg\_fetch\_all — Вибирає всі дані з результату запиту та поміщає їх у масив
 
 ### Опис
 
@@ -18,19 +19,19 @@ title: пгfetchall
 pg_fetch_all(PgSql\Result $result, int $mode = PGSQL_ASSOC): array
 ```
 
-**пгfetchall()** повертає масив містить всі записи примірника [PgSqlResult](class.pgsql-result.md)
+**pg\_fetch\_all()** повертає масив містить всі записи примірника [PgSql\\Result](class.pgsql-result.md)
 
-> **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
+> **Зауваження**: Ця функція встановлює NULL-поля значення \*\*`null`\*\*PHP.
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSql\\Result](class.pgsql-result.md), що повертається функціями [pg\_query()](function.pg-query.md) [pg\_query\_params()](function.pg-query-params.md) або [pg\_execute()](function.pg-execute.md)(среди прочего).
 
 `mode`
 
-Необов'язковий параметр, керуючий тим, як індексується масив, що повертається (array). Параметр `mode` є константою і може приймати такі значення: **`PGSQL_ASSOC`** **`PGSQL_NUM`** і **`PGSQL_BOTH`**. При використанні **`PGSQL_NUM`** функція повертає масив із числовими індексами, при використанні **`PGSQL_ASSOC`** вона поверне лише асоціативні індекси, а **`PGSQL_BOTH`** поверне як числові, і асоціативні індекси.
+Необов'язковий параметр, керуючий тим, як індексується масив, що повертається (array). Параметр `mode` є константою і може приймати такі значення: **`PGSQL_ASSOC`** **`PGSQL_NUM`**и**`PGSQL_BOTH`**При использовании**`PGSQL_NUM`** функція повертає масив із числовими індексами, при використанні **`PGSQL_ASSOC`** вона поверне лише асоціативні індекси, а **`PGSQL_BOTH`** поверне як числові, і асоціативні індекси.
 
 ### Значення, що повертаються
 
@@ -38,11 +39,11 @@ pg_fetch_all(PgSql\Result $result, int $mode = PGSQL_ASSOC): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Функція **пгfetchall()** тепер повертає порожній масив (array) замість значення **`false`** для наборів результатів без рядків. |
-|  | Доданий параметр `mode` |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | Функция**pg\_fetch\_all()** тепер повертає порожній масив (array) замість значення **`false`** для наборів результатів без рядків. |
+| 7.1.0 | Добавлен параметр`mode` |
 
 ### Приклади
 
@@ -69,7 +70,7 @@ print_r($arr);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -91,7 +92,7 @@ Array
 
 ### Дивіться також
 
--   [пгfetchrow()](function.pg-fetch-row.md) - Вибирає рядок результату запиту та поміщає дані до масиву
--   [пгfetcharray()](function.pg-fetch-array.md) - Повертає рядок результату у вигляді масиву
--   [пгfetchobject()](function.pg-fetch-object.md) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
--   [пгfetchresult()](function.pg-fetch-result.md) - Повертає запис із результату запиту
+-   [pg\_fetch\_row()](function.pg-fetch-row.md) \- Вибирає рядок результату запиту та поміщає дані до масиву
+-   [pg\_fetch\_array()](function.pg-fetch-array.md) \- Повертає рядок результату у вигляді масиву
+-   [pg\_fetch\_object()](function.pg-fetch-object.md) \- Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
+-   [pg\_fetch\_result()](function.pg-fetch-result.md) \- Повертає запис із результату запиту

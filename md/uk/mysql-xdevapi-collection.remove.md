@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collection.modify.md: '« Collection::modify'
   - mysql-xdevapi-collection.removeone.md: 'Collection::removeOne »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
 title: 'Collection::remove'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collection::remove
 
@@ -18,13 +19,13 @@ Collection::remove — Видаляє документи колекції
 public mysql_xdevapi\Collection::remove(string $search_condition): mysql_xdevapi\CollectionRemove
 ```
 
-Видаляє колекції, які відповідають певним умовам пошуку. Дозволяється кілька операцій та підтримується прив'язка параметрів.
+Видаляє документи колекції, які відповідають умовам пошуку. Дозволено виконання кількох операцій та підтримується прив'язка параметрів.
 
 ### Список параметрів
 
 `search_condition`
 
-Має бути коректним виразом SQL, що використовується для зіставлення документів, які потрібно змінити. Вираз може бути таким самим простим, як **`true`**, яке відповідає всім документам, або воно може використовувати функції та оператори, такі як `'CAST(_id AS SIGNED) >= 10'` `'age MOD 2 = 0 OR age MOD 3 = 0'`, або `'_id IN ["2","5","7","10"]'`
+Має бути коректним виразом SQL, який буде використано для зіставлення документів, які потрібно видалити. Вираз може бути таким самим простим, як логічне значення **`true`**, яке відповідає всім документам, або воно може використовувати функції та оператори на кшталт `'CAST(_id AS SIGNED) >= 10'` `'age MOD 2 = 0 OR age MOD 3 = 0'`или`'_id IN ["2","5","7","10"]'`
 
 ### Значення, що повертаються
 
@@ -34,7 +35,7 @@ public mysql_xdevapi\Collection::remove(string $search_condition): mysql_xdevapi
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::remove()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\Collection::remove()\*\*\*\*
 
 ```php
 <?php

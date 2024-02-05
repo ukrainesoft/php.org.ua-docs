@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.uodbc.md: « Введение
+  - intro.uodbc.md: '" Вступ'
   - uodbc.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.uodbc.md: ODBC
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

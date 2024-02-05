@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.zip.md: « Функции Zip
-  - function.zip-entry-close.md: zipentryclose »
+  - ref.zip.md: « Функції Zip
+  - function.zip-entry-close.md: zip\_entry\_close »
   - index.md: PHP Manual
-  - ref.zip.md: Функции Zip
-title: zipclose
+  - ref.zip.md: Функції Zip
+title: zip\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# zipclose
+# zip\_close
 
 (PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
 
-zipclose — Закриває дескриптор ZIP-архіву
+zip\_close — Закриває дескриптор ZIP-архіву
 
 **Увага**
 
@@ -28,7 +29,7 @@ zip_close(resource $zip): void
 
 `zip`
 
-ZIP-файл має бути відкритий за допомогою функції [zipopen()](function.zip-open.md)
+ZIP-файл має бути відкритий за допомогою функції [zip\_open()](function.zip-open.md)
 
 ### Значення, що повертаються
 
@@ -36,11 +37,11 @@ ZIP-файл має бути відкритий за допомогою функ
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функція застаріла на користь Object API, дивіться [ZipArchive::close()](ziparchive.close.md) |
+| 8.0.0 | Функція застаріла на користь Object API, дивіться [ZipArchive::close()](ziparchive.close.md) |
 
 ### Дивіться також
 
--   [zipopen()](function.zip-open.md) - Відкриває ZIP-архів
--   [zipread()](function.zip-read.md) - Зчитує наступний запис у ZIP-архіві
+-   [zip\_open()](function.zip-open.md) \- Відкриває ZIP-архів
+-   [zip\_read()](function.zip-read.md) \- Зчитує наступний запис у ZIP-архіві

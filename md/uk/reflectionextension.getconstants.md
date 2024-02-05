@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::getConstants'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionExtension::getConstants
 
@@ -18,7 +19,7 @@ ReflectionExtension::getConstants — Отримання констант
 public ReflectionExtension::getConstants(): array
 ```
 
-Отримує певні модулі константи.
+Отримує певні у модулі константи.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public ReflectionExtension::getConstants(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionExtension::getConstants()****
+**Пример #1 Пример использования**ReflectionExtension::getConstants()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ print_r($ext->getConstants());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -95,4 +96,4 @@ Array
 
 ### Дивіться також
 
--   [ReflectionExtension::getINIEntries()](reflectionextension.getinientries.md) - Отримання ini-налаштувань модуля
+-   [ReflectionExtension::getINIEntries()](reflectionextension.getinientries.md) \- Отримання ini-налаштувань модуля

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.toarray.md: '« DsMap::toArray'
-  - ds-map.values.md: 'ДсMap::values »'
+  - ds-map.toarray.md: '« Ds\\Map::toArray'
+  - ds-map.values.md: 'Ds\\Map::values »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::union'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::union'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::union
+# Ds\\Map::union
 
 (PECL ds >= 1.0.0)
 
-ДсMap::union — Створює нову колекцію пар із елементів двох колекцій
+Ds\\Map::union — Створює нову колекцію пар із елементів двох колекцій
 
 ### Опис
 
@@ -22,7 +23,7 @@ public Ds\Map::union(Ds\Map $map): Ds\Map
 
 `A ∪ B = {x: x ∈ A ∨ x ∈ B}`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > У разі збігу ключів значення елементів будуть братися з переданої колекції.
 
@@ -36,13 +37,13 @@ public Ds\Map::union(Ds\Map $map): Ds\Map
 
 Нова колекція пар, що є об'єднанням поточної та переданої в `map`
 
-### Також дивіться
+### Дивіться також
 
--   [» Об'єднання](https://en.wikipedia.org/wiki/Union_(set_theory)) в Вікіпедія
+-   [» Об'єднання](https://en.wikipedia.org/wiki/Union_(set_theory))в Вікіпедія
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::union()****
+**Пример #1 Пример использования**Ds\\Map::union()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ print_r($a->union($b));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Map Object

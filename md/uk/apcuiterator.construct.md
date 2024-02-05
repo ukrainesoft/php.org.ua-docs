@@ -4,21 +4,23 @@ navigation:
   - apcuiterator.current.md: 'APCUIterator::current »'
   - index.md: PHP Manual
   - class.apcuiterator.md: APCUIterator
-title: 'APCUIterator::construct'
+title: 'APCUIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# APCUIterator::construct
+# APCUIterator::\_\_construct
 
 (PECL apcu >= 5.0.0)
 
-APCUIterator::construct — Створює об'єкт ітератора класу APCUIterator
+APCUIterator::\_\_construct — Створює об'єкт ітератора класу APCUIterator
 
 ### Опис
 
-public **APCUIterator::construct**  
-array|string|null `$search` **`null`**  
-int `$format` = APCITERALL,  
-int `$chunk_size`  
-int `$list` = APCLISTACTIVE
+public**APCUIterator::\_\_construct**  
+array|string|null`$search` **`null`**,  
+int`$format`\= APC\_ITER\_ALL,  
+int`$chunk_size`  
+int`$list`\= APC\_LIST\_ACTIVE  
+) .
 
 Створює об'єкт [APCUIterator](class.apcuiterator.md)
 
@@ -30,7 +32,7 @@ int `$list` = APCLISTACTIVE
 
 `format`
 
-Формат, заданий однією з констант [APCITER](apcu.constants.md)
+Формат, заданий однією з констант [APC\_ITER\_\*](apcu.constants.md)
 
 `chunk_size`
 
@@ -38,11 +40,11 @@ int `$list` = APCLISTACTIVE
 
 `list`
 
-Тип списку. Задається константами **`APC_LIST_ACTIVE`** або **`APC_LIST_DELETED`**
+Тип списку. Задається константами **`APC_LIST_ACTIVE`**или**`APC_LIST_DELETED`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **APCUIterator::construct()****
+**Пример #1 Пример использования**APCUIterator::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -55,5 +57,5 @@ foreach (new APCUIterator('/^counter\./') as $counter) {
 
 ### Дивіться також
 
--   [apcuexists()](function.apcu-exists.md) - Перевіряє, чи існують записи
--   [apcucacheinfo()](function.apcu-cache-info.md) - Витягує закешовану інформацію зі сховища APCu
+-   [apcu\_exists()](function.apcu-exists.md) \- Перевіряє, чи існують записи
+-   [apcu\_cache\_info()](function.apcu-cache-info.md) \- Витягує закешовану інформацію зі сховища APCu

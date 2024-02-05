@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::setHSL'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::setHSL
 
@@ -40,7 +41,7 @@ public ImagickPixel::setHSL(float $hue, float $saturation, float $luminosity): b
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickPixel::setHSL()****
+**Пример #1 Пример использования**ImagickPixel::setHSL()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ print_r($colorInfo);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -81,6 +82,6 @@ Array
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступно з версії 6.2.9 та вище бібліотеки ImageMagick.

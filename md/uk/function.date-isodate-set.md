@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.date-interval-format.md: « dateintervalformat
-  - function.date-modify.md: datemodify »
+  - function.date-interval-format.md: « date\_interval\_format
+  - function.date-modify.md: date\_modify »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
-title: dateisodateset
+title: date\_isodate\_set
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dateisodateset
+# date\_isodate\_set
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-dateisodateset - Псевдонім [DateTime::setISODate()](datetime.setisodate.md)
+date\_isodate\_set — Псевдоним[DateTime::setISODate()](datetime.setisodate.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTime::setISODate()](datetime.setisodate.md)
+Функция — псевдоним функции:[DateTime::setISODate()](datetime.setisodate.md)

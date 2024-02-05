@@ -1,36 +1,37 @@
 ---
 navigation:
-  - function.ibase-param-info.md: « ibaseparaminfo
-  - function.ibase-prepare.md: ibaseprepare »
+  - function.ibase-param-info.md: « ibase\_param\_info
+  - function.ibase-prepare.md: ibase\_prepare »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibasepconnect
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_pconnect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibasepconnect
+# ibase\_pconnect
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibasepconnect — Відкриває постійне з'єднання з базою даних InterBase
+ibase\_pconnect — Відкриває постійне з'єднання з базою даних InterBase
 
 ### Опис
 
 ```methodsynopsis
-ibase_pconnect(    string $database = ?,    string $username = ?,    string $password = ?,    string $charset = ?,    int $buffers = ?,    int $dialect = ?,    string $role = ?,    int $sync = ?): resource
+ibase_pconnect(    string $database = ?,    string $username = ?,    string $password = ?,    string $charset = ?,    int $buffers = ?,    int $dialect = ?,    string $role = ?,    int $sync = ?): resource
 ```
 
 Відкриває постійне з'єднання із базою даних InterBase.
 
-Принцип роботи **ibasepconnect()** дуже схожий [ibaseconnect()](function.ibase-connect.md) з двома основними відмінностями.
+Принцип роботи \*\*ibase\_pconnect()\*\*очень похож на[ibase\_connect()](function.ibase-connect.md) з двома основними відмінностями.
 
 По-перше, при підключенні функція спочатку спробує знайти (постійне) посилання, яке вже відкрито з такими самими параметрами. Якщо вона буде знайдена, замість відкриття нового з'єднання буде повернуто її ідентифікатор.
 
-По-друге, з'єднання з сервером InterBase не буде закрито після закінчення скрипту. Натомість посилання залишиться відкритим для використання надалі ([ibaseclose()](function.ibase-close.md) не закриватиме посилання, встановлені **ibasepconnect()**). Тому цей тип посилання називається "постійним".
+По-друге, з'єднання з сервером InterBase не буде закрито після закінчення скрипту. Натомість посилання залишиться відкритим для використання надалі ([ibase\_close()](function.ibase-close.md) не закриватиме посилання, встановлені **ibase\_pconnect()**). Тому цей тип посилання називається "постійним".
 
 ### Список параметрів
 
 `database`
 
-Аргумент `database` повинен бути допустимим шляхом до файлу бази даних на сервері, де він знаходиться. Якщо сервер не є локальним, він повинен мати префікс 'hostname:' (TCP/IP), '//hostname/' (NetBEUI) або 'hostname@' (IPX/SPX), залежно від протоколу підключення.
+Аргумент`database` повинен бути допустимим шляхом до файлу бази даних на сервері, на якому він знаходиться. Якщо сервер не є локальним, він повинен мати префікс 'hostname:' (TCP/IP), '//hostname/' (NetBEUI) або 'hostname@' (IPX/SPX), залежно від протоколу підключення.
 
 `username`
 
@@ -38,7 +39,7 @@ ibase_pconnect(    string $database = ?,    string $username = ?,    string $pas
 
 `password`
 
-Пароль для `username`. Можна встановити за допомогою директиви php.ini `ibase.default_password`
+Пароль для`username`. Можна встановити за допомогою директиви php.ini `ibase.default_password`
 
 `charset`
 
@@ -60,9 +61,9 @@ ibase_pconnect(    string $database = ?,    string $username = ?,    string $pas
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор посилання InterBase у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор посилання InterBase у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ibaseclose()](function.ibase-close.md) - Закриває з'єднання з базою даних InterBase
--   [ibaseconnect()](function.ibase-connect.md) - Відкриває з'єднання з базою даних
+-   [ibase\_close()](function.ibase-close.md) \- Закриває з'єднання з базою даних InterBase
+-   [ibase\_connect()](function.ibase-connect.md) \- Відкриває з'єднання з базою даних

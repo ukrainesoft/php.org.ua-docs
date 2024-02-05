@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-http-response.cookie.md: '« SwooleHttpResponse::cookie'
-  - swoole-http-response.end.md: 'SwooleHttpResponse::end »'
+  - swoole-http-response.cookie.md: '« Swoole\\Http\\Response::cookie'
+  - swoole-http-response.end.md: 'Swoole\\Http\\Response::end »'
   - index.md: PHP Manual
-  - class.swoole-http-response.md: SwooleHttpResponse
-title: 'SwooleHttpResponse::destruct'
+  - class.swoole-http-response.md: Swoole\\Http\\Response
+title: 'Swoole\\Http\\Response::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpResponse::destruct
+# Swoole\\Http\\Response::\_\_destruct
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpResponse::destruct — Знищує HTTP-відповідь
+Swoole\\Http\\Response::\_\_destruct — Знищує HTTP-відповідь
 
 ### Опис
 

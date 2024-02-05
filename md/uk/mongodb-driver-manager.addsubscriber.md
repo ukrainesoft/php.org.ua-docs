@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-manager.md: « MongoDBDriverManager
-  - mongodb-driver-manager.construct.md: 'MongoDBDriverManager::construct »'
+  - class.mongodb-driver-manager.md: « MongoDB\\Driver\\Manager
+  - mongodb-driver-manager.construct.md: 'MongoDB\\Driver\\Manager::\_\_construct »'
   - index.md: PHP Manual
-  - class.mongodb-driver-manager.md: MongoDBDriverManager
-title: 'MongoDBDriverManager::addSubscriber'
+  - class.mongodb-driver-manager.md: MongoDB\\Driver\\Manager
+title: 'MongoDB\\Driver\\Manager::addSubscriber'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverManager::addSubscriber
+# MongoDB\\Driver\\Manager::addSubscriber
 
 (mongodb >=1.10.0)
 
-MongoDBDriverManager::addSubscriber — Зареєструє передплатника на подію моніторингу в даному об'єкті Manager
+MongoDB\\Driver\\Manager::addSubscriber — Зареєструє передплатника на подію моніторингу в даному об'єкті Manager
 
 ### Опис
 
@@ -24,7 +25,7 @@ final public MongoDB\Driver\Manager::addSubscriber(MongoDB\Driver\Monitoring\Sub
 
 ### Список параметрів
 
-`subscriber` [MongoDBDriverMonitoringSubscriber](class.mongodb-driver-monitoring-subscriber.md)
+`subscriber` [MongoDB\\Driver\\Monitoring\\Subscriber](class.mongodb-driver-monitoring-subscriber.md)) .
 
 Передплатник подій моніторингу, який має бути зареєстрований у цьому об'єкті Manager.
 
@@ -34,12 +35,13 @@ final public MongoDB\Driver\Manager::addSubscriber(MongoDB\Driver\Monitoring\Sub
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Викидається виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `subscriber`является[MongoDB\\Driver\\Monitoring\\LogSubscriber](class.mongodb-driver-monitoring-logsubscriber.md), оскільки реєстратори можуть бути зареєстровані лише глобально.
 
 ### Дивіться також
 
--   [MongoDBDriverManager::removeSubscriber()](mongodb-driver-manager.removesubscriber.md) - Скасує реєстрацію передплатника на подію моніторингу в даному об'єкті Manager
--   [MongoDBDriverMonitoringSubscriber](class.mongodb-driver-monitoring-subscriber.md)
--   [MongoDBDriverMonitoringCommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)
--   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) - Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDB\\Driver\\Manager::removeSubscriber()](mongodb-driver-manager.removesubscriber.md) \- Скасує реєстрацію передплатника на подію моніторингу в даному об'єкті Manager
+-   [MongoDB\\Driver\\Monitoring\\Subscriber](class.mongodb-driver-monitoring-subscriber.md)
+-   [MongoDB\\Driver\\Monitoring\\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)
+-   [MongoDB\\Driver\\Monitoring\\addSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) \- Глобальна реєстрація передплатника на подію моніторингу
 -   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

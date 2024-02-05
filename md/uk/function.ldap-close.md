@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.ldap-bind.md: « ldapbind
-  - function.ldap-compare.md: ldapcompare »
+  - function.ldap-bind.md: « ldap\_bind
+  - function.ldap-compare.md: ldap\_compare »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapclose
+title: ldap\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapclose
+# ldap\_close
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapclose - Псевдонім [ldapunbind()](function.ldap-unbind.md)
+ldap\_close — Псевдоним[ldap\_unbind()](function.ldap-unbind.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ldapunbind()](function.ldap-unbind.md)
+Функция — псевдоним функции:[ldap\_unbind()](function.ldap-unbind.md)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.dbase-close.md: « dbaseclose
-  - function.dbase-delete-record.md: dbasedeleterecord »
+  - function.dbase-close.md: « dbase\_close
+  - function.dbase-delete-record.md: dbase\_delete\_record »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
-title: dbasecreate
+title: dbase\_create
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dbasecreate
+# dbase\_create
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-dbasecreate — Створює базу даних
+dbase\_create — Створює базу даних
 
 ### Опис
 
@@ -18,11 +19,11 @@ dbasecreate — Створює базу даних
 dbase_create(string $path, array $fields, int $type = DBASE_TYPE_DBASE): resource
 ```
 
-**dbasecreate()** створює базу даних dBase із заданими властивостями. Якщо файл вже існує, він не буде попередньо очищений. Для примусового очищення використовуйте функцію [dbasepack()](function.dbase-pack.md)
+**dbase\_create()** створює базу даних dBase із заданими властивостями. Якщо файл вже існує, він не буде попередньо очищений. Для примусового очищення використовуйте функцію [dbase\_pack()](function.dbase-pack.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> На поведінку цієї функції впливає значення директиви [openbasedir](ini.core.md#ini.open-basedir)
+> На поведінку цієї функції впливає значення директиви [open\_basedir](ini.core.md#ini.open-basedir)
 
 ### Список параметрів
 
@@ -36,21 +37,21 @@ dbase_create(string $path, array $fields, int $type = DBASE_TYPE_DBASE): resourc
 
 `type`
 
-Тип створюваної бази даних. Або **`DBASE_TYPE_DBASE`** або **`DBASE_TYPE_FOXPRO`**
+Тип створюваної бази даних. Або **`DBASE_TYPE_DBASE`**либо**`DBASE_TYPE_FOXPRO`**
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Імена полів обмежені в довжину та не повинні перевищувати 10 символів.
 
 ### Значення, що повертаються
 
-Повертає ресурс бази даних, якщо база даних успішно створена, або **`false`** у разі виникнення помилки.
+Повертає ресурс бази даних, якщо база даних успішно створена, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| dbase 7.0.0 | Доданий параметр `type` |
+| dbase 7.0.0 | Добавлен параметр`type` |
 | dbase 7.0.0 | Повертається тепер має тип resource а не int. |
 
 ### Приклади
@@ -79,5 +80,5 @@ if (!dbase_create('/tmp/test.dbf', $def)) {
 
 ### Дивіться також
 
--   [dbaseopen()](function.dbase-open.md) - Відкриває базу даних
--   [dbaseclose()](function.dbase-close.md) - Закриває базу даних
+-   [dbase\_open()](function.dbase-open.md) \- Відкриває базу даних
+-   [dbase\_close()](function.dbase-close.md) \- Закриває базу даних

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-blob-create.md: « ibaseblobcreate
-  - function.ibase-blob-get.md: ibaseblobget »
+  - function.ibase-blob-create.md: « ibase\_blob\_create
+  - function.ibase-blob-get.md: ibase\_blob\_get »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseblobecho
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_blob\_echo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseblobecho
+# ibase\_blob\_echo
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseblobecho — Виводить вміст BLOB-об'єкта у браузер
+ibase\_blob\_echo — Виводить вміст BLOB-об'єкта у браузер
 
 ### Опис
 
@@ -34,10 +35,10 @@ ibase_blob_echo(resource $link_identifier, string $blob_id): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ibaseblobopen()](function.ibase-blob-open.md) - Відкриває BLOB-об'єкт для вилучення частин даних
--   [ibaseblobclose()](function.ibase-blob-close.md) - Закриває BLOB-об'єкт
--   [ibaseblobget()](function.ibase-blob-get.md) - Отримує кількість байтів від відкритого BLOB-об'єкта
+-   [ibase\_blob\_open()](function.ibase-blob-open.md) \- Відкриває BLOB-об'єкт для вилучення частин даних
+-   [ibase\_blob\_close()](function.ibase-blob-close.md) \- Закриває BLOB-об'єкт
+-   [ibase\_blob\_get()](function.ibase-blob-get.md) \- Отримує кількість байтів від відкритого BLOB-об'єкта

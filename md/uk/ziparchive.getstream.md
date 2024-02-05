@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getStream'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::getStream
 
@@ -28,7 +29,7 @@ public ZipArchive::getStream(string $name): resource|false
 
 ### Значення, що повертаються
 
-Повертає файловий покажчик (ресурс) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає файловий покажчик (ресурс) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -82,6 +83,6 @@ imagepng($im, 'a.png');
 
 ### Дивіться також
 
--   [ZipArchive::getStreamIndex()](ziparchive.getstreamindex.md) - Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
--   [ZipArchive::getStreamName()](ziparchive.getstreamname.md) - Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)
+-   [ZipArchive::getStreamIndex()](ziparchive.getstreamindex.md) \- Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
+-   [ZipArchive::getStreamName()](ziparchive.getstreamname.md) \- Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)
 -   [Стислі потоки](wrappers.compression.md)

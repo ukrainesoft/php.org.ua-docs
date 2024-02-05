@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-create.md: « imapcreate
-  - function.imap-delete.md: imapdelete »
+  - function.imap-create.md: « imap\_create
+  - function.imap-delete.md: imap\_delete »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapcreatemailbox
+  - ref.imap.md: Функції IMAP
+title: imap\_createmailbox
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapcreatemailbox
+# imap\_createmailbox
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapcreatemailbox — Створити нову поштову скриньку
+imap\_createmailbox — Створює нову поштову скриньку
 
 ### Опис
 
@@ -24,29 +25,29 @@ imap_createmailbox(IMAP\Connection $imap, string $mailbox): bool
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `mailbox`
 
-Ім'я поштової скриньки. Детальніше дивіться [imapopen()](function.imap-open.md). Імена поштових скриньок, що містять міжнародні символи, повинні бути закодовані за допомогою [imaputf7encode()](function.imap-utf7-encode.md)
+Имя почтового ящика. Более подробно смотрите[imap\_open()](function.imap-open.md). Імена поштових скриньок, що містять міжнародні символи, повинні бути закодовані за допомогою [imap\_utf7\_encode()](function.imap-utf7-encode.md)
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enable\_insecure\_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imapcreatemailbox()****
+**Пример #1 Пример использования**imap\_createmailbox()\*\*\*\*
 
 ```php
 <?php
@@ -100,5 +101,5 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imaprenamemailbox()](function.imap-renamemailbox.md) - Перейменувати поштову скриньку
--   [imapdeletemailbox()](function.imap-deletemailbox.md) - Видалити поштову скриньку
+-   [imap\_renamemailbox()](function.imap-renamemailbox.md) \- Перейменовує поштову скриньку
+-   [imap\_deletemailbox()](function.imap-deletemailbox.md) \- Видаляє поштову скриньку

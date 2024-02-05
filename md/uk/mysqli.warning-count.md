@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli.use-result.md: '« mysqli::useresult'
-  - class.mysqli-stmt.md: mysqlistmt »
+  - mysqli.use-result.md: '« mysqli::use\_result'
+  - class.mysqli-stmt.md: mysqli\_stmt »
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::$warningcount'
+title: 'mysqli::$warning\_count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::$warningcount
+# mysqli::$warning\_count
 
-# mysqliwarningcount
+# mysqli\_warning\_count
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$warningcount - mysqliwarningcount — Повертає кількість попереджень із останнього запиту заданого підключення
+mysqli::$warning\_count -- mysqli\_warning\_count — Повертає кількість попереджень із останнього запиту заданого підключення
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli->warningcount](mysqli.warning-count.md)
+int[$mysqli->warning\_count](mysqli.warning-count.md)
 
 Процедурний стиль
 
@@ -28,7 +29,7 @@ mysqli_warning_count(mysqli $mysql): int
 
 Повертає кількість попереджень із останнього запиту.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Для отримання попереджень можна використовувати SQL-команду `SHOW WARNINGS [limit row_count]`
 
@@ -36,7 +37,7 @@ mysqli_warning_count(mysqli $mysql): int
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -44,7 +45,7 @@ mysqli_warning_count(mysqli $mysql): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання $mysqli->warningcount**
+**Приклад #1 Приклад використання $mysqli->warning\_count**
 
 Об'єктно-орієнтований стиль
 
@@ -112,7 +113,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Warning (1264): Data truncated for column 'Name' at row 1
@@ -120,6 +121,6 @@ Warning (1264): Data truncated for column 'Name' at row 1
 
 ### Дивіться також
 
--   [mysqlierrno()](mysqli.errno.md) - Повертає код помилки останнього виклику функції
--   [mysqlierror()](mysqli.error.md) - Повертає рядок із описом останньої помилки
--   [mysqlisqlstate()](mysqli.sqlstate.md) - Повертає код стану SQLSTATE останній MySQL операції
+-   [mysqli\_errno()](mysqli.errno.md) \- Повертає код помилки останнього виклику функції
+-   [mysqli\_error()](mysqli.error.md) \- Повертає рядок із описом останньої помилки
+-   [mysqli\_sqlstate()](mysqli.sqlstate.md) \- Повертає код стану SQLSTATE останній MySQL операції

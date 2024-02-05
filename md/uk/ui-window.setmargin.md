@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-window.setfullscreen.md: '« UIWindow::setFullScreen'
-  - ui-window.setsize.md: 'ОЙWindow::setSize »'
+  - ui-window.setfullscreen.md: '« UI\\Window::setFullScreen'
+  - ui-window.setsize.md: 'UI\\Window::setSize »'
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::setMargin'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::setMargin'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::setMargin
+# UI\\Window::setMargin
 
 (UI 0.9.9)
 
-ОЙWindow::setMargin — Використання поля
+UI\\Window::setMargin — Використання поля
 
 ### Опис
 

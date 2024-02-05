@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.event.md: Event
 title: Клас EventHttp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EventHttp
 
@@ -107,14 +108,14 @@ public
 
 ## Зміст
 
--   [EventHttp::accept](eventhttp.accept.md) — Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом
--   [EventHttp::addServerAlias](eventhttp.addserveralias.md) — Додає псевдонім сервера до об'єкта HTTP-сервера
--   [EventHttp::bind](eventhttp.bind.md) — Прив'язує HTTP-сервер до вказаної адреси та порту
--   [EventHttp::construct](eventhttp.construct.md) — Створює об'єкт EventHttp (сервер HTTP)
--   [EventHttp::removeServerAlias](eventhttp.removeserveralias.md) — Видаляє псевдонім сервера
--   [EventHttp::setAllowedMethods](eventhttp.setallowedmethods.md) — Встановлює, які методи HTTP підтримуються у запитах, прийнятих цим сервером та переданих callback-функції користувача
--   [EventHttp::setCallback](eventhttp.setcallback.md) — Встановлює callback-функцію для вказаного URI
--   [EventHttp::setDefaultCallback](eventhttp.setdefaultcallback.md) — Встановлює callback-функцію за промовчанням для обробки запитів, які не перехоплюються конкретними callback-функціями
--   [EventHttp::setMaxBodySize](eventhttp.setmaxbodysize.md) - Встановлює максимальний розмір тіла запиту
--   [EventHttp::setMaxHeadersSize](eventhttp.setmaxheaderssize.md) — Встановлює максимальний розмір заголовка HTTP
--   [EventHttp::setTimeout](eventhttp.settimeout.md) — Встановлює час очікування для запиту HTTP
+-   [EventHttp::accept](eventhttp.accept.md)— Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом
+-   [EventHttp::addServerAlias](eventhttp.addserveralias.md)— Додає псевдонім сервера до об'єкта HTTP-сервера
+-   [EventHttp::bind](eventhttp.bind.md)— Прив'язує HTTP-сервер до вказаної адреси та порту
+-   [EventHttp::\_\_construct](eventhttp.construct.md)— Створює об'єкт EventHttp (сервер HTTP)
+-   [EventHttp::removeServerAlias](eventhttp.removeserveralias.md)— Видаляє псевдонім сервера
+-   [EventHttp::setAllowedMethods](eventhttp.setallowedmethods.md)— Встановлює, які методи HTTP підтримуються у запитах, прийнятих цим сервером та переданих callback-функції користувача
+-   [EventHttp::setCallback](eventhttp.setcallback.md)— Встановлює callback-функцію для вказаного URI
+-   [EventHttp::setDefaultCallback](eventhttp.setdefaultcallback.md) \- Встановлює callback-функцію за замовчуванням для обробки запитів, які не перехоплюються конкретними callback-функціями
+-   [EventHttp::setMaxBodySize](eventhttp.setmaxbodysize.md) \- Встановлює максимальний розмір тіла запиту
+-   [EventHttp::setMaxHeadersSize](eventhttp.setmaxheaderssize.md)— Встановлює максимальний розмір заголовка HTTP
+-   [EventHttp::setTimeout](eventhttp.settimeout.md)— Встановлює час очікування для запиту HTTP

@@ -1,22 +1,23 @@
 ---
 navigation:
-  - yaf-route-supervar.assemble.md: '« YafRouteSupervar::assemble'
-  - yaf-route-supervar.route.md: 'YafRouteSupervar::route »'
+  - yaf-route-supervar.assemble.md: '« Yaf\_Route\_Supervar::assemble'
+  - yaf-route-supervar.route.md: 'Yaf\_Route\_Supervar::route »'
   - index.md: PHP Manual
-  - class.yaf-route-supervar.md: YafRouteSupervar
-title: 'YafRouteSupervar::construct'
+  - class.yaf-route-supervar.md: Yaf\_Route\_Supervar
+title: 'Yaf\_Route\_Supervar::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteSupervar::construct
+# Yaf\_Route\_Supervar::\_\_construct
 
 (Yaf >=1.0.0)
 
-YafRouteSupervar::construct - Призначення construct
+Yaf\_Route\_Supervar::\_\_construct — Назначение\_\_construct
 
 ### Опис
 
-public **YafRouteSupervar::construct**(string `$supervar_name`
+public**Yaf\_Route\_Supervar::\_\_construct**(string`$supervar_name`) .
 
-[YafRouteSupervar](class.yaf-route-supervar.md) схожий на [YafRouteStatic](class.yaf-route-static.md), Різниця в тому, що [YafRouteSupervar](class.yaf-route-supervar.md) шукатиме інформацію про шлях у рядку запиту, а параметр supervarname є ключем.
+[Yaf\_Route\_Supervar](class.yaf-route-supervar.md)похож на[Yaf\_Route\_Static](class.yaf-route-static.md), Різниця в тому, що [Yaf\_Route\_Supervar](class.yaf-route-supervar.md) шукатиме інформацію про шлях у рядку запиту, а параметр supervar\_name є ключем.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public **YafRouteSupervar::construct**(string `$supervar_name`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafRouteSupervar()****
+**Пример #1 Пример использования**Yaf\_Route\_Supervar()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ public **YafRouteSupervar::construct**(string `$supervar_name`
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 /** для запроса: http://yourdomain.com/xx/oo/?r=/ctr/act/var/value
@@ -60,10 +61,10 @@ public **YafRouteSupervar::construct**(string `$supervar_name`
 
 ### Дивіться також
 
--   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора
--   [YafRouter::addConfig()](yaf-router.addconfig.md) - Додає налаштовані маршрути до маршрутизатора
--   [YafRouteStatic](class.yaf-route-static.md)
--   [YafRouteRegex](class.yaf-route-regex.md)
--   [YafRouteSimple](class.yaf-route-simple.md)
--   [YafRouteRewrite](class.yaf-route-rewrite.md)
--   [YafRouteMap](class.yaf-route-map.md)
+-   [Yaf\_Router::addRoute()](yaf-router.addroute.md) \- Додає новий маршрут до маршрутизатора
+-   [Yaf\_Router::addConfig()](yaf-router.addconfig.md) \- Додає налаштовані маршрути до маршрутизатора
+-   [Yaf\_Route\_Static](class.yaf-route-static.md)
+-   [Yaf\_Route\_Regex](class.yaf-route-regex.md)
+-   [Yaf\_Route\_Simple](class.yaf-route-simple.md)
+-   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.md)
+-   [Yaf\_Route\_Map](class.yaf-route-map.md)

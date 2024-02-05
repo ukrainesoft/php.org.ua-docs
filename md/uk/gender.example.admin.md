@@ -1,10 +1,11 @@
 ---
 navigation:
   - gender.examples.md: « Приклади
-  - class.gender.md: GenderGender »
+  - class.gender.md: Gender\\Gender »
   - index.md: PHP Manual
   - gender.examples.md: Приклади
 title: Приклад використання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Приклад використання
 

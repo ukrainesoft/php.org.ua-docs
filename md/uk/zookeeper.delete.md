@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::delete'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zookeeper::delete
 
@@ -31,7 +32,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -43,7 +44,7 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Zookeeper::delete()****
+**Пример #1 Пример использования**Zookeeper::delete()\*\*\*\*
 
 Видалення існуючого вузла.
 
@@ -59,7 +60,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Успешное выполнение
@@ -67,6 +68,6 @@ else
 
 ### Дивіться також
 
--   [Zookeeper::create()](zookeeper.create.md) - Створює синхронно вузол
--   [Zookeeper::getChildren()](zookeeper.getchildren.md) - Виводить список нащадків вузла синхронно
+-   [Zookeeper::create()](zookeeper.create.md) \- Створює синхронно вузол
+-   [Zookeeper::getChildren()](zookeeper.getchildren.md) \- Виводить список нащадків вузла синхронно
 -   [ZookeeperException](class.zookeeperexception.md)

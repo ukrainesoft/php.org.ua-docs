@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-plugin-abstract.postdispatch.md: '« YafPluginAbstract::postDispatch'
-  - yaf-plugin-abstract.preresponse.md: 'YafPluginAbstract::preResponse »'
+  - yaf-plugin-abstract.postdispatch.md: '« Yaf\_Plugin\_Abstract::postDispatch'
+  - yaf-plugin-abstract.preresponse.md: 'Yaf\_Plugin\_Abstract::preResponse »'
   - index.md: PHP Manual
-  - class.yaf-plugin-abstract.md: YafPluginAbstract
-title: 'YafPluginAbstract::preDispatch'
+  - class.yaf-plugin-abstract.md: Yaf\_Plugin\_Abstract
+title: 'Yaf\_Plugin\_Abstract::preDispatch'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafPluginAbstract::preDispatch
+# Yaf\_Plugin\_Abstract::preDispatch
 
 (Yaf >=1.0.0)
 
-YafPluginAbstract::preDispatch — Призначення preDispatch
+Yaf\_Plugin\_Abstract::preDispatch — Призначення preDispatch
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Plugin_Abstract::preDispatch(Yaf_Request_Abstract $request, Yaf_Respo
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

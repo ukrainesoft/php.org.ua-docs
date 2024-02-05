@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-tableselect.orderby.md: '« TableSelect::orderby'
-  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate »
+  - class.mysql-xdevapi-tableupdate.md: mysql\_xdevapi\\TableUpdate »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysql\_xdevapi\\TableSelect
 title: 'TableSelect::where'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableSelect::where
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableSelect::where(string $where_expr): mysql_xdevapi\Table
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::where()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::where()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ print_r($row);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

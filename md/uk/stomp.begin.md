@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.stomp.md: Stomp
 title: 'Stomp::begin'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Stomp::begin
 
-# stompbegin
+# stomp\_begin
 
 (PECL stomp >= 0.1.0)
 
-Stomp::begin -- stompbegin - Створює транзакцію
+Stomp::begin -- stomp\_begin - Створює транзакцію
 
 ### Опис
 
@@ -34,7 +35,7 @@ stomp_begin(resource $link, string $transaction_id, array $headers = ?): bool
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.md)
 
 `transaction_id`
 
@@ -46,14 +47,14 @@ stomp_begin(resource $link, string $transaction_id, array $headers = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-Дивіться [stompcommit()](stomp.commit.md) або [stompabort()](stomp.abort.md)
+Смотрите[stomp\_commit()](stomp.commit.md) або [stomp\_abort()](stomp.abort.md)
 
 ### Примітки
 
 **Підказка**
 
-Stomp асинхронний за своєю суттю. Синхронний зв'язок може бути реалізований додаванням receipt-заголовка. Це змусить методи нічого не повертати, поки сервер не підтвердить отримання повідомлення або буде перевищено час очікування повідомлення.
+Stomp асинхронний за своєю суттю. Синхронний зв'язок може бути реалізований додаванням receipt-заголовка. Це змусить методи нічого не повертати, доки сервер не підтвердить отримання повідомлення або буде перевищено час очікування повідомлення.

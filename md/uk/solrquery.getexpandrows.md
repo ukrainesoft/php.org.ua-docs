@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getExpandRows'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getExpandRows
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrQuery::getExpandRows — Повертає кількість рядків, які відображаються в кожній групі (expand.rows)
 

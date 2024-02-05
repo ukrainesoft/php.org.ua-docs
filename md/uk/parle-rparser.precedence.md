@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rparser.nonassoc.md: '« ParleRParser::nonassoc'
-  - parle-rparser.push.md: 'ParleRParser::push »'
+  - parle-rparser.nonassoc.md: '« Parle\\RParser::nonassoc'
+  - parle-rparser.push.md: 'Parle\\RParser::push »'
   - index.md: PHP Manual
-  - class.parle-rparser.md: ParleRParser
-title: 'ParleRParser::precedence'
+  - class.parle-rparser.md: Parle\\RParser
+title: 'Parle\\RParser::precedence'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRParser::precedence
+# Parle\\RParser::precedence
 
 (PECL parle >= 0.7.0)
 
-ParleRParser::precedence — Оголошує правило пріоритету
+Parle\\RParser::precedence — Оголошує правило пріоритету
 
 ### Опис
 

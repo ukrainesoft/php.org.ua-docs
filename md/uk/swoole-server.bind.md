@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.after.md: '« SwooleServer::after'
-  - swoole-server.cleartimer.md: 'SwooleServer::clearTimer »'
+  - swoole-server.after.md: '« Swoole\\Server::after'
+  - swoole-server.cleartimer.md: 'Swoole\\Server::clearTimer »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::bind'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::bind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::bind
+# Swoole\\Server::bind
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::bind — Прив'язує з'єднання до вказаного ідентифікатора користувача
+Swoole\\Server::bind — Прив'язує з'єднання до вказаного ідентифікатора користувача
 
 ### Опис
 

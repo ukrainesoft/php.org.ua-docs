@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-minmaxindex.md: « traderminmaxindex
-  - function.trader-minus-dm.md: traderminusdm »
+  - function.trader-minmaxindex.md: « trader\_minmaxindex
+  - function.trader-minus-dm.md: trader\_minus\_dm »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderminusді
+  - ref.trader.md: Функції Trader
+title: trader\_minus\_di
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderminusді
+# trader\_minus\_di
 
 (PECL trader >= 0.2.0)
 
-traderminusdi - Мінус-спрямований індикатор
+trader\_minus\_di - Мінус-спрямований індикатор
 
 ### Опис
 
 ```methodsynopsis
-trader_minus_di(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_minus_di(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

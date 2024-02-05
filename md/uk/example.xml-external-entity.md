@@ -1,10 +1,11 @@
 ---
 navigation:
-  - example.xml-map-tags.md: « Пример отображения XML тегов
-  - ref.xml.md: Функции парсера XML »
+  - example.xml-map-tags.md: « Приклад відображення тегів XML
+  - ref.xml.md: Функції парсера XML »
   - index.md: PHP Manual
   - xml.examples.md: Приклади
 title: Приклад використання зовнішніх сутностей XML
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Приклад використання зовнішніх сутностей XML
 
@@ -145,7 +146,7 @@ xml_parser_free($xml_parser);
 
 **Приклад #2 xmltest.xml**
 
-\> Title &plainEntity; а1б1з 1 а2с2 ябзкз &systemEntity;
+\]> Title &plainEntity; a1b1c1 a2c2 a3b3c3 &systemEntity;
 
 About this Document
 
@@ -153,4 +154,4 @@ About this Document
 
 **Приклад #3 xmltest2.xml**
 
-\> &testEnt;
+\]> &testEnt;

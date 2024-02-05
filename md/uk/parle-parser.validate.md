@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-parser.trace.md: '« ParleParser::trace'
-  - class.parle-rparser.md: ParleRParser »
+  - parle-parser.trace.md: '« Parle\\Parser::trace'
+  - class.parle-rparser.md: Parle\\RParser »
   - index.md: PHP Manual
-  - class.parle-parser.md: ParleParser
-title: 'ParleParser::validate'
+  - class.parle-parser.md: Parle\\Parser
+title: 'Parle\\Parser::validate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleParser::validate
+# Parle\\Parser::validate
 
 (PECL parle >= 0.5.1)
 
-ParleParser::validate — Перевіряє вхідні дані
+Parle\\Parser::validate — Перевіряє вхідні дані
 
 ### Опис
 

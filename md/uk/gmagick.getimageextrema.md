@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::getimageextrema'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::getimageextrema
 
@@ -18,7 +19,7 @@ Gmagick::getimageextrema — Отримує екстремуми для зобр
 public Gmagick::getimageextrema(): array
 ```
 
-Повертає асоціативний масив із ключами "min" та "max". Викликає **GmagickException** у разі виникнення помилки.
+Повертає асоціативний масив із ключами "min" та "max". Викликає **GmagickException**в случае возникновения ошибки.
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ public Gmagick::getimageextrema(): array
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

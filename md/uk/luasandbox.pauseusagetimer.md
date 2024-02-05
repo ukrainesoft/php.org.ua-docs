@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::pauseUsageTimer'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # LuaSandbox::pauseUsageTimer
 
@@ -80,7 +81,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Это не должно истекать...
@@ -90,5 +91,5 @@ try {
 
 ### Дивіться також
 
--   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.md) - Встановлює обмеження часу процесора для середовища Lua
--   [LuaSandbox::unpauseUsageTimer()](luasandbox.unpauseusagetimer.md) - Відновлює таймер, зупинений LuaSandbox::pauseUsageTimer
+-   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.md) \- Встановлює обмеження часу процесора для середовища Lua
+-   [LuaSandbox::unpauseUsageTimer()](luasandbox.unpauseusagetimer.md) \- Відновлює таймер, зупинений LuaSandbox::pauseUsageTimer

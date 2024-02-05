@@ -1,16 +1,17 @@
 ---
 navigation:
-  - domnode.clonenode.md: '« DOMNode::cloneNode'
+  - domnode.contains.md: '« DOMNode::contains'
   - domnode.getnodepath.md: 'DOMNode::getNodePath »'
   - index.md: PHP Manual
   - class.domnode.md: DOMNode
 title: 'DOMNode::getLineNo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNode::getLineNo
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-DOMNode::getLineNo — Отримати номер рядка вузла
+DOMNode::getLineNo — Отримує номер рядка вузла
 
 ### Опис
 
@@ -18,7 +19,7 @@ DOMNode::getLineNo — Отримати номер рядка вузла
 public DOMNode::getLineNo(): int
 ```
 
-Повертає номер рядка, в якому визначено вузол.
+Отримує номер рядка, в якому під час розбирання було визначено вузол.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public DOMNode::getLineNo(): int
 
 ### Значення, що повертаються
 
-Завжди повертає номер рядка, в якому було визначено вузол.
+Повертає номер рядка, в якому під час аналізу був вузол. Якщо вузол був створений вручну, повернеться
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DOMNode::getLineNo()****
+**Пример #1 Пример использования метода**DOMNode::getLineNo()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ printf('Тег <node> определён в строке %d', $dom->getElementsB
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Тег <node> определён в строке 3

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.geoip-region-name-by-code.md: « geoipregionnameбcode
-  - function.geoip-time-zone-by-country-and-region.md: geoiptimezoneбcountryandregion »
+  - function.geoip-region-name-by-code.md: « geoip\_region\_name\_by\_code
+  - function.geoip-time-zone-by-country-and-region.md: geoip\_time\_zone\_by\_country\_and\_region »
   - index.md: PHP Manual
-  - ref.geoip.md: Функции GeoIP
-title: geoipsetupcustomdirectory
+  - ref.geoip.md: Функції GeoIP
+title: geoip\_setup\_custom\_directory
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# geoipsetupcustomdirectory
+# geoip\_setup\_custom\_directory
 
 (PECL geoip >= 1.1.0)
 
-geoipsetupcustomdirectory — Встановити власну директорію для бази даних GeoIP
+geoip\_setup\_custom\_directory — Встановити власну директорію для бази даних GeoIP
 
 ### Опис
 
@@ -18,7 +19,7 @@ geoipsetupcustomdirectory — Встановити власну директор
 geoip_setup_custom_directory(string $path): void
 ```
 
-Функція **geoipsetupcustomdirectory()** змінює каталог за промовчанням для бази даних GeoIP. Використання функції еквівалентно зміни [geoip.customdirectory](geoip.configuration.md#ini.geoip.custom-directory)
+Функция**geoip\_setup\_custom\_directory()** змінює каталог за промовчанням для бази даних GeoIP. Використання функції еквівалентно зміни [geoip.custom\_directory](geoip.configuration.md#ini.geoip.custom-directory)
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ geoip_setup_custom_directory(string $path): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoipsetupcustomdirectory()****
+**Пример #1 Пример использования**geoip\_setup\_custom\_directory()\*\*\*\*
 
 Змінимо шлях до бази даних GeoIP.
 
@@ -46,7 +47,7 @@ print geoip_db_filename(GEOIP_COUNTRY_EDITION);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 /some/other/path/GeoIP.dat

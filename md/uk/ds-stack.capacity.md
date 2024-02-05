@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-stack.allocate.md: '« DsStack::allocate'
-  - ds-stack.clear.md: 'ДсStack::clear »'
+  - ds-stack.allocate.md: '« Ds\\Stack::allocate'
+  - ds-stack.clear.md: 'Ds\\Stack::clear »'
   - index.md: PHP Manual
-  - class.ds-stack.md: Стек
-title: 'ДсStack::capacity'
+  - class.ds-stack.md: Ds\\Stack
+title: 'Ds\\Stack::capacity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсStack::capacity
+# Ds\\Stack::capacity
 
 (PECL ds >= 1.0.0)
 
-ДсStack::capacity — Повертає поточну місткість
+Ds\\Stack::capacity — Повертає поточну місткість
 
 ### Опис
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::error'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::error
 
@@ -15,7 +16,7 @@ GearmanWorker::error — Отримання останньої виявлено�
 ### Опис
 
 ```methodsynopsis
-public GearmanWorker::error(): string
+public GearmanWorker::error(): string|false
 ```
 
 Повертає рядок із повідомленням про останню виявлену помилку.
@@ -26,8 +27,8 @@ public GearmanWorker::error(): string
 
 ### Значення, що повертаються
 
-Рядок з описом помилки.
+Строка с описанием ошибки или\*\*`false`\*\*, якщо повідомлення про помилку відсутнє.
 
 ### Дивіться також
 
--   [GearmanWorker::getErrno()](gearmanworker.geterrno.md) - Отримання номера помилки
+-   [GearmanWorker::getErrno()](gearmanworker.geterrno.md) \- Отримання номера помилки

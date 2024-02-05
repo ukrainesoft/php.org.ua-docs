@@ -4,13 +4,14 @@ navigation:
   - class.reflectionfunction.md: ReflectionFunction »
   - index.md: PHP Manual
   - class.reflectionextension.md: ReflectionExtension
-title: 'ReflectionExtension::function toString() { \[native code\] }'
+title: 'ReflectionExtension::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionExtension::function toString() { \[native code\] }
+# ReflectionExtension::\_\_function toString() { \[native code\] }
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionExtension::toString — Перетворення на рядок
+ReflectionExtension::\_\_toString — Перетворення на рядок
 
 ### Опис
 
@@ -30,6 +31,6 @@ public ReflectionExtension::__toString(): string
 
 ### Дивіться також
 
--   [ReflectionExtension::construct()](reflectionextension.construct.md) - Створює об'єкт класу ReflectionExtension
--   [ReflectionExtension::export()](reflectionextension.export.md) - Експортує модуль
--   [toString()](language.oop5.magic.md#object.tostring)
+-   [ReflectionExtension::\_\_construct()](reflectionextension.construct.md) \- Створює об'єкт класу ReflectionExtension
+-   [ReflectionExtension::export()](reflectionextension.export.md) \- Експортує модуль
+-   [\_\_toString()](language.oop5.magic.md#object.tostring)

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::rectangle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::rectangle
 
@@ -15,12 +16,12 @@ ImagickDraw::rectangle — Малює прямокутник
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::rectangle(    float $x1,    float $y1,    float $x2,    float $y2): bool
+public ImagickDraw::rectangle(    float $x1,    float $y1,    float $x2,    float $y2): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Малює прямокутник по двох координатах за допомогою поточних параметрів обведення, ширини обведення та заливки.
 
@@ -48,7 +49,7 @@ public ImagickDraw::rectangle(    float $x1,    float $y1,    float $x2,    floa
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::rectangle()****
+**Пример #1 Пример использования**ImagickDraw::rectangle()\*\*\*\*
 
 ```php
 <?php

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageRegion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageRegion
 
@@ -15,7 +16,7 @@ Imagick::getImageRegion — Витягує область зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::getImageRegion(    int $width,    int $height,    int $x,    int $y): Imagick
+public Imagick::getImageRegion(    int $width,    int $height,    int $x,    int $y): Imagick
 ```
 
 Витягує область зображення та повертає її у вигляді нового об'єкта Imagick.
@@ -36,7 +37,7 @@ public Imagick::getImageRegion(    int $width,    int $height,    int $x,    int
 
 `y`
 
-Координата Y лівого верхнього кута одержаної області.
+Координата Y лівого верхнього кута видобутої області.
 
 ### Значення, що повертаються
 

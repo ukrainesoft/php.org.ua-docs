@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-encrypt.md: « opensslencrypt
-  - function.openssl-free-key.md: opensslfreekey »
+  - function.openssl-encrypt.md: « openssl\_encrypt
+  - function.openssl-free-key.md: openssl\_free\_key »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslerrorstring
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_error\_string
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslerrorstring
+# openssl\_error\_string
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-opensslerrorstring — Повертає повідомлення про помилку openSSL
+openssl\_error\_string — Повертає повідомлення про помилку openSSL
 
 ### Опис
 
@@ -18,7 +19,7 @@ opensslerrorstring — Повертає повідомлення про поми
 openssl_error_string(): string|false
 ```
 
-**opensslerrorstring()** повертає повідомлення останньої помилки бібліотеки openSSL, що відбулася. Повідомлення про помилки знаходяться в черзі, тому цю функцію можна викликати кілька разів для отримання всієї інформації. При цьому останнє повідомлення найсвіжіше.
+**openssl\_error\_string()** повертає повідомлення останньої помилки бібліотеки openSSL, що відбулася. Повідомлення про помилки знаходяться в черзі, тому цю функцію можна викликати кілька разів для отримання всієї інформації. При цьому останнє повідомлення найсвіжіше.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ openssl_error_string(): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslerrorstring()****
+**Пример #1 Пример использования**openssl\_error\_string()\*\*\*\*
 
 ```php
 <?php

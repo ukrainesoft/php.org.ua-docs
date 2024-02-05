@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rparser.token.md: '« ParleRParser::token'
-  - parle-rparser.trace.md: 'ParleRParser::trace »'
+  - parle-rparser.token.md: '« Parle\\RParser::token'
+  - parle-rparser.trace.md: 'Parle\\RParser::trace »'
   - index.md: PHP Manual
-  - class.parle-rparser.md: ParleRParser
-title: 'ParleRParser::tokenId'
+  - class.parle-rparser.md: Parle\\RParser
+title: 'Parle\\RParser::tokenId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRParser::tokenId
+# Parle\\RParser::tokenId
 
 (PECL parle >= 0.7.0)
 
-ParleRParser::tokenId — Отримує ідентифікатор токена
+Parle\\RParser::tokenId — Отримує ідентифікатор токена
 
 ### Опис
 
@@ -24,7 +25,7 @@ public Parle\RParser::tokenId(string $tok): int
 
 `tok`
 
-Ім'я токена, що використовується в [ParleRParser::token()](parle-rparser.token.md)
+Имя токена, используемое в[Parle\\RParser::token()](parle-rparser.token.md)
 
 ### Значення, що повертаються
 

@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.mqseries-get.md: « mqseriesget
-  - function.mqseries-open.md: mqseriesopen »
+  - function.mqseries-get.md: « mqseries\_get
+  - function.mqseries-open.md: mqseries\_open »
   - index.md: PHP Manual
-  - ref.mqseries.md: Функции mqseries
-title: mqseriesinq
+  - ref.mqseries.md: Функції mqseries
+title: mqseries\_inq
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mqseriesinq
+# mqseries\_inq
 
 (PECL mqseries >= 0.10.0)
 
-mqseriesinq — MQSeries MQINQ
+mqseries\_inq — MQSeries MQINQ
 
 ### Опис
 
 ```methodsynopsis
-mqseries_inq(    resource $hconn,    resource $hobj,    int $selectorCount,    array $selectors,    int $intAttrCount,    resource &$intAttr,    int $charAttrLength,    resource &$charAttr,    resource &$compCode,    resource &$reason): void
+mqseries_inq(    resource $hconn,    resource $hobj,    int $selectorCount,    array $selectors,    int $intAttrCount,    resource &$intAttr,    int $charAttrLength,    resource &$charAttr,    resource &$compCode,    resource &$reason): void
 ```
 
-Функція **mqseriesinq()** (MQINQ) повертає масив цілих чисел та набір рядків, що містять атрибути об'єкта.
+Функция**mqseries\_inq()** (MQINQ) повертає масив цілих чисел та набір рядків, що містять атрибути об'єкта.
 
 ### Список параметрів
 
@@ -72,7 +73,7 @@ mqseries_inq(    resource $hconn,    resource $hobj,    int $selectorCount,    a
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseriesinq()****
+**Пример #1 Пример использования**mqseries\_inq()\*\*\*\*
 
 ```php
 <?php
@@ -91,6 +92,6 @@ mqseries_inq(    resource $hconn,    resource $hobj,    int $selectorCount,    a
 
 ### Дивіться також
 
--   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
--   [mqseriesopen()](function.mqseries-open.md) - MQSeries MQOPEN
+-   [mqseries\_conn()](function.mqseries-conn.md) \- MQSeries MQCONN
+-   [mqseries\_connx()](function.mqseries-connx.md) \- MQSeries MQCONNX
+-   [mqseries\_open()](function.mqseries-open.md) \- MQSeries MQOPEN

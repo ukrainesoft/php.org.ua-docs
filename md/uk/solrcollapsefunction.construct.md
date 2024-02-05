@@ -4,17 +4,18 @@ navigation:
   - solrcollapsefunction.getfield.md: 'SolrCollapseFunction::getField »'
   - index.md: PHP Manual
   - class.solrcollapsefunction.md: SolrCollapseFunction
-title: 'SolrCollapseFunction::construct'
+title: 'SolrCollapseFunction::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrCollapseFunction::construct
+# SolrCollapseFunction::\_\_construct
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
-SolrCollapseFunction::construct - Конструктор класу
+SolrCollapseFunction::\_\_construct - Конструктор класу
 
 ### Опис
 
-public **SolrCollapseFunction::construct**(string `$field`
+public**SolrCollapseFunction::\_\_construct**(string`$field`
 
 Конструктор класу Collapse Function
 
@@ -24,11 +25,11 @@ public **SolrCollapseFunction::construct**(string `$field`
 
 Ім'я поля для згортання.
 
-Щоб згорнути результат. Тип поля має бути однозначним: рядок, ціле число чи число з плаваючою точкою.
+Щоб згорнути результат. Тип поля має бути однозначним: рядок, ціле число або число з точкою, що плаває.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrCollapseFunction::construct()****
+**Пример #1 Пример использования**SolrCollapseFunction::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -67,4 +68,4 @@ print_r($response);
 
 ### Дивіться також
 
--   [SolrQuery::collapse()](solrquery.collapse.md) - Згортає набір результатів до одного документа на групу
+-   [SolrQuery::collapse()](solrquery.collapse.md) \- Згортає набір результатів до одного документа на групу

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-multi-info-read.md: « curlmultiinforead
-  - function.curl-multi-remove-handle.md: curlmultiremovehandle »
+  - function.curl-multi-info-read.md: « curl\_multi\_info\_read
+  - function.curl-multi-remove-handle.md: curl\_multi\_remove\_handle »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlmultiinit
+  - ref.curl.md: Опції cURL
+title: curl\_multi\_init
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlmultiinit
+# curl\_multi\_init
 
 (PHP 5, PHP 7, PHP 8)
 
-curlmultiinit — Створює набір cURL-дескрипторів
+curl\_multi\_init — Створює набір cURL-дескрипторів
 
 ### Опис
 
@@ -26,17 +27,17 @@ curl_multi_init(): CurlMultiHandle
 
 ### Значення, що повертаються
 
-Повертає набір cURL-дескрипторів у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає набір cURL-дескрипторів.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі успішного виконання повертає екземпляр [CurlMultiHandle](class.curlmultihandle.md); раніше, повертався ресурс (resource). |
+| 8.0.0 | У разі успішного виконання повертає екземпляр [CurlMultiHandle](class.curlmultihandle.md); раніше, повертався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curlmultiinit()****
+**Пример #1 Пример использования**curl\_multi\_init()\*\*\*\*
 
 Цей приклад створить два дескриптори cURL, додасть в набір дескрипторів, а потім запустить їх асинхронно.
 
@@ -77,5 +78,5 @@ curl_multi_close($mh);
 
 ### Дивіться також
 
--   [curlinit()](function.curl-init.md) - Ініціалізує сеанс cURL
--   [curlmulticlose()](function.curl-multi-close.md) - Закриває набір cURL-дескрипторів
+-   [curl\_init()](function.curl-init.md) \- Ініціалізує сеанс cURL
+-   [curl\_multi\_close()](function.curl-multi-close.md) \- Закриває набір cURL-дескрипторів

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::getRegex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RegexIterator::getRegex
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 RegexIterator::getRegex — Повертає рядок поточного регулярного виразу
 
@@ -20,7 +21,7 @@ public RegexIterator::getRegex(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

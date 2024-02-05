@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-get-attributes.md: « ldapgetattributes
-  - function.ldap-get-entries.md: ldapgetentries »
+  - function.ldap-get-attributes.md: « ldap\_get\_attributes
+  - function.ldap-get-entries.md: ldap\_get\_entries »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapgetдн
+title: ldap\_get\_dn
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapgetдн
+# ldap\_get\_dn
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapgetdn — Отримати DN результуючого запису
+ldap\_get\_dn — Отримати DN результуючого запису
 
 ### Опис
 
@@ -24,19 +25,19 @@ ldap_get_dn(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|false
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `entry`
 
-Екземпляр [LDAPResultEntry](class.ldap-result-entry.md)
+Екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.md)
 
 ### Значення, що повертаються
 
-Повертає DN запису результату та **`false`** у разі виникнення помилки.
+Возвращает DN записи результата и\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.1.0 | Параметр`entry` тепер чекає екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap result entry` |

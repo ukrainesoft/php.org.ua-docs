@@ -1,14 +1,15 @@
 ---
 navigation:
-  - ffi-ctype.getstructfieldtype.md: '« FFICType::getStructFieldType'
-  - class.ffi-parserexception.md: FFIParserException »
+  - ffi-ctype.getstructfieldtype.md: '« FFI\\CType::getStructFieldType'
+  - class.ffi-parserexception.md: FFI\\ParserException »
   - index.md: PHP Manual
   - book.ffi.md: FFI
 title: Винятки FFI
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Винятки FFI
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 ## Вступ
 
@@ -16,18 +17,13 @@ title: Винятки FFI
 
 ```classsynopsis
 
-     
+    
+     class FFI\Exception
     
 
     
-     
-      class FFI\Exception
-     
-
-     
-      extends
-       Error
-     
+     extends
+      Error
      {
 
     /* Наследуемые свойства */
@@ -57,7 +53,9 @@ private
 
     /* Наследуемые методы */
     
-   final public Error::getMessage(): string
+   public Error::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+    final public Error::getMessage(): string
 final public Error::getPrevious(): ?Throwable
 final public Error::getCode(): int
 final public Error::getFile(): string

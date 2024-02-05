@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.geoip-netspeedcell-by-name.md: « geoipnetspeedcellбname
-  - function.geoip-record-by-name.md: geoiprecordбname »
+  - function.geoip-netspeedcell-by-name.md: « geoip\_netspeedcell\_by\_name
+  - function.geoip-record-by-name.md: geoip\_record\_by\_name »
   - index.md: PHP Manual
-  - ref.geoip.md: Функции GeoIP
-title: geoiporgбname
+  - ref.geoip.md: Функції GeoIP
+title: geoip\_org\_by\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# geoiporgбname
+# geoip\_org\_by\_name
 
 (PECL geoip >= 0.2.0)
 
-geoiporgбname — Повертає назву організації, яка володіє IP-адресою
+geoip\_org\_by\_name — Повертає назву організації, яка володіє IP-адресою
 
 ### Опис
 
@@ -18,7 +19,7 @@ geoiporgбname — Повертає назву організації, яка в
 geoip_org_by_name(string $hostname): string
 ```
 
-Функція **geoiporgбname()** повертає назву організації, яка володіє вказаною IP-адресою.
+Функция**geoip\_org\_by\_name()** повертає назву організації, яка володіє вказаною IP-адресою.
 
 Ця функція доступна лише для тих, хто придбав комерційну версію GeoIP Organization, ISP або AS. Якщо такої бази немає, виводиться попередження.
 
@@ -34,7 +35,7 @@ geoip_org_by_name(string $hostname): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання**geoiporgбname()\*\*\*\*
+**Приклад #1 Приклад використання**geoip\_org\_by\_name()\*\*\*\*
 
 Буде виведено назву організації, якій належить IP-адреса хоста example.com.
 
@@ -47,7 +48,7 @@ if ($org) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Владелец данного адреса: ICANN c/o Internet Assigned Numbers Authority

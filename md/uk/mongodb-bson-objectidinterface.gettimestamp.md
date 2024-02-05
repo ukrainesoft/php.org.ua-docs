@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-bson-objectidinterface.md: « MongoDBBSONObjectIdInterface
-  - mongodb-bson-objectidinterface.tostring.md: 'MongoDBBSONObjectIdInterface::toString »'
+  - class.mongodb-bson-objectidinterface.md: « MongoDB\\BSON\\ObjectIdInterface
+  - mongodb-bson-objectidinterface.tostring.md: 'MongoDB\\BSON\\ObjectIdInterface::\_\_toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-objectidinterface.md: MongoDBBSONObjectIdInterface
-title: 'MongoDBBSONObjectIdInterface::getTimestamp'
+  - class.mongodb-bson-objectidinterface.md: MongoDB\\BSON\\ObjectIdInterface
+title: 'MongoDB\\BSON\\ObjectIdInterface::getTimestamp'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONObjectIdInterface::getTimestamp
+# MongoDB\\BSON\\ObjectIdInterface::getTimestamp
 
 (mongodb >=1.3.0)
 
-MongoDBBSONObjectIdInterface::getTimestamp — Повертає компонент позначки часу ObjectIdInterface
+MongoDB\\BSON\\ObjectIdInterface::getTimestamp — Повертає компонент позначки часу ObjectIdInterface
 
 ### Опис
 
@@ -28,4 +29,4 @@ abstract public MongoDB\BSON\ObjectIdInterface::getTimestamp(): int
 
 ### Дивіться також
 
--   [MongoDBBSONObjectId::getTimestamp()](mongodb-bson-objectid.gettimestamp.md) - Повертає мітку часу ObjectId
+-   [MongoDB\\BSON\\ObjectId::getTimestamp()](mongodb-bson-objectid.gettimestamp.md) \- Повертає мітку часу ObjectId

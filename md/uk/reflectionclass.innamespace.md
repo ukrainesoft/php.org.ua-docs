@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::inNamespace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::inNamespace
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ReflectionClass::inNamespace — Перевіряє, чи визначений клас у просторі імен
 
@@ -26,11 +27,11 @@ public ReflectionClass::inNamespace(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::inNamespace()****
+**Пример #1 Пример использования**ReflectionClass::inNamespace()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ var_dump($function->getShortName());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -70,5 +71,5 @@ string(3) "Foo"
 
 ### Дивіться також
 
--   [ReflectionClass::getNamespaceName()](reflectionclass.getnamespacename.md) - Повертає назву простору імен
--   [Пространства имён PHP](language.namespaces.md)
+-   [ReflectionClass::getNamespaceName()](reflectionclass.getnamespacename.md) \- Повертає назву простору імен
+-   [Простір імен PHP](language.namespaces.md)

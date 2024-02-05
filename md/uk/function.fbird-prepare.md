@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.fbird-pconnect.md: « fbirdpconnect
-  - function.fbird-query.md: fbirdquery »
+  - function.fbird-pconnect.md: « fbird\_pconnect
+  - function.fbird-query.md: fbird\_query »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: fbirdprepare
+  - ref.ibase.md: Функції Firebird/InterBase
+title: fbird\_prepare
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fbirdprepare
+# fbird\_prepare
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdprepare - Псевдонім [ibaseprepare()](function.ibase-prepare.md)
+fbird\_prepare — Псевдоним[ibase\_prepare()](function.ibase-prepare.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseprepare()](function.ibase-prepare.md)
+Функция — псевдоним функции:[ibase\_prepare()](function.ibase-prepare.md)

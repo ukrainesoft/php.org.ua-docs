@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-setoverprintmode.md: «pssetoverprintmode
-  - function.ps-shading-pattern.md: псshadingpattern »
+  - function.ps-setoverprintmode.md: « ps\_setoverprintmode
+  - function.ps-shading-pattern.md: ps\_shading\_pattern »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псsetpolydash
+title: ps\_setpolydash
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псsetpolydash
+# ps\_setpolydash
 
 (PECL ps >= 1.1.0)
 
-псsetpolydash - Встановлює зовнішній вигляд пунктирної лінії
+ps\_setpolydash - Встановлює зовнішній вигляд пунктирної лінії
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: псsetpolydash
 ps_setpolydash(resource $psdoc, float $arr): bool
 ```
 
-Встановлює довжину чорних та білих частин пунктирної лінії. . **псsetpolydash()** використовується для встановлення складніших шаблонів тире.
+Встановлює довжину чорних та білих частин пунктирної лінії. . **ps\_setpolydash()** використовується для встановлення складніших шаблонів тире.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 `arr`
 
@@ -32,7 +33,7 @@ ps_setpolydash(resource $psdoc, float $arr): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -65,4 +66,4 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [псsetdash()](function.ps-setdash.md) - Встановлює зовнішній вигляд пунктирної лінії
+-   [ps\_setdash()](function.ps-setdash.md) \- Встановлює зовнішній вигляд пунктирної лінії

@@ -1,20 +1,21 @@
 ---
 navigation:
-  - ui-controls-group.append.md: '« UIControlsGroup::append'
-  - ui-controls-group.gettitle.md: 'ОЙControlsGroup::getTitle »'
+  - ui-controls-group.append.md: '« UI\\Controls\\Group::append'
+  - ui-controls-group.gettitle.md: 'UI\\Controls\\Group::getTitle »'
   - index.md: PHP Manual
-  - class.ui-controls-group.md: ОЙControlsGroup
-title: 'ОЙControlsGroup::construct'
+  - class.ui-controls-group.md: UI\\Controls\\Group
+title: 'UI\\Controls\\Group::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsGroup::construct
+# UI\\Controls\\Group::\_\_construct
 
 (UI 0.9.9)
 
-ОЙControlsGroup::construct — Створити новий об'єкт Group
+UI\\Controls\\Group::\_\_construct — Створити новий об'єкт Group
 
 ### Опис
 
-public **ОЙControlsGroup::construct**(string `$title`
+public**UI\\Controls\\Group::\_\_construct**(string`$title`) .
 
 Створює новий об'єкт Group із заданим заголовком
 

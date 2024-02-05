@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: 'PDO::pgsqlLOBOpen'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::pgsqlLOBOpen
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8, PECL pdopgsql >= 1.0.2)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL pdo\_pgsql >= 1.0.2)
 
 PDO::pgsqlLOBOpen — Відкриває потік для існуючого великого об'єкта
 
@@ -18,7 +19,7 @@ PDO::pgsqlLOBOpen — Відкриває потік для існуючого в
 public PDO::pgsqlLOBOpen(string $oid, string $mode = "rb"): resource|false
 ```
 
-Функція **PDO::pgsqlLOBOpen()** відкриває потік до великого об'єкта (LOB) заданого за допомогою `oid`. Якщо `mode` заданий як `r`потік відкривається для читання. Якщо `mode` заданий як `w`для запису. Для маніпуляції з потоком можна використовувати звичайні файлові функції, такі як [fread()](function.fread.md) [fwrite()](function.fwrite.md) і [fgets()](function.fgets.md)
+Функция**PDO::pgsqlLOBOpen()** відкриває потік до великого об'єкта (LOB) заданого за допомогою `oid`. Якщо `mode`задан как`r`потік відкривається для читання. Якщо `mode`задан как`w`для запису. Для маніпуляції з потоком можна використовувати звичайні файлові функції, такі як [fread()](function.fread.md) [fwrite()](function.fwrite.md) і [fgets()](function.fgets.md)
 
 > **Зауваження**: Ця функція та всі маніпуляції з LOB повинні відбуватися у транзакції.
 
@@ -34,13 +35,13 @@ public PDO::pgsqlLOBOpen(string $oid, string $mode = "rb"): resource|false
 
 ### Значення, що повертаються
 
-Повертає ресурс потоку у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс потоку у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PDO::pgsqlLOBOpen()****
+**Пример #1 Пример использования**PDO::pgsqlLOBOpen()\*\*\*\*
 
-Продовжуючи приклад з опису [PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.md)Цей код витягує LOB з БД і виводить його в браузер.
+Продолжая пример из описания[PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.md)Цей код витягує LOB з БД і виводить його в браузер.
 
 ```php
 <?php
@@ -59,6 +60,6 @@ fpassthru($stream);
 
 ### Дивіться також
 
--   [PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.md) - Створити новий великий об'єкт (LOB)
--   [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md) - Видалити великий об'єкт
--   [пглоopen()](function.pg-lo-open.md) - Відкриває великий об'єкт бази даних
+-   [PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.md) \- Створити новий великий об'єкт (LOB)
+-   [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md) \- Видалити великий об'єкт
+-   [pg\_lo\_open()](function.pg-lo-open.md) \- Відкриває великий об'єкт бази даних

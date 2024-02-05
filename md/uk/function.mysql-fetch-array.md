@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.mysql-escape-string.md: « mysqlescapestring
-  - function.mysql-fetch-assoc.md: mysqlfetchassoc »
+  - function.mysql-escape-string.md: « mysql\_escape\_string
+  - function.mysql-fetch-assoc.md: mysql\_fetch\_assoc »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlfetcharray
+title: mysql\_fetch\_array
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlfetcharray
+# mysql\_fetch\_array
 
 (PHP 4, PHP 5)
 
-mysqlfetcharray - Обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
+mysql\_fetch\_array - Обробляє ряд результату запиту, повертаючи асоціативний масив, чисельний масив або обидва
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlifetcharray()](mysqli-result.fetch-array.md)
+-   [mysqli\_fetch\_array()](mysqli-result.fetch-array.md)
 -   [PDOStatement::fetch()](pdostatement.fetch.md)
 
 ### Опис
@@ -31,15 +32,15 @@ mysql_fetch_array(resource $result, int $result_type = MYSQL_BOTH): array
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
+оброблюваний [результат запиту](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.md)
 
 `result_type`
 
-Тип масива, що повертається. Є константою і може приймати такі значення: **`MYSQL_ASSOC`** **`MYSQL_NUM`** і **`MYSQL_BOTH`**
+Тип масива, що повертається. Є константою і може приймати такі значення: **`MYSQL_ASSOC`** **`MYSQL_NUM`**и**`MYSQL_BOTH`**
 
 ### Значення, що повертаються
 
-Повертає масив рядків, що відповідають обробленому ряду результату запиту, або \*\*`false`\*\*якщо рядів більше немає. Тип масиву, що повертається, залежить від значення параметра `result_type`. При використанні **`MYSQL_BOTH`** (за умовчанням), ви отримаєте масив, що складається як з асоціативних індексів, так і з чисельних . **`MYSQL_ASSOC`** поверне лише асоціативні індекси (аналогічно функції [mysqlfetchassoc()](function.mysql-fetch-assoc.md)), а **`MYSQL_NUM`** - лише чисельні (аналогічно функції [mysqlfetchrow()](function.mysql-fetch-row.md)
+Возвращает массив строк, соответствующих обработанному ряду результата запроса, или\*\*`false`**якщо рядів більше немає. Тип масиву, що повертається, залежить від значення параметра `result_type`При использовании**`MYSQL_BOTH`\*\* (за умовчанням), ви отримаєте масив, що складається як з асоціативних індексів, так і з чисельних . **`MYSQL_ASSOC`** поверне лише асоціативні індекси (аналогічно функції [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.md)), а\*\*`MYSQL_NUM`\*\* - лише чисельні (аналогічно функції [mysql\_fetch\_row()](function.mysql-fetch-row.md)
 
 Якщо кілька колонок в результаті матимуть однакові назви, то буде повернуто останню колонку. Щоб отримати доступ до інших колонок з тим самим ім'ям, використовуйте чисельні індекси масиву або псевдоніми у запиті. У разі псевдонімів використовуйте саме їх – ви не зможете використати справжні імена колонок.
 
@@ -49,7 +50,7 @@ mysql_fetch_array(resource $result, int $result_type = MYSQL_BOTH): array
 
 SELECT table1.field AS foo, table2.field AS bar FROM table1, table2
 
-**Приклад #2 **mysqlfetcharray()** з **`MYSQL_NUM`****
+**Пример #2**mysql\_fetch\_array()**с**`MYSQL_NUM`\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ mysql_free_result($result);
 ?>
 ```
 
-**Приклад #3 **mysqlfetcharray()** з **`MYSQL_ASSOC`****
+**Пример #3**mysql\_fetch\_array()**с**`MYSQL_ASSOC`\*\*\*\*
 
 ```php
 <?php
@@ -85,7 +86,7 @@ mysql_free_result($result);
 ?>
 ```
 
-**Приклад #4 **mysqlfetcharray()** з **`MYSQL_BOTH`****
+**Пример #4**mysql\_fetch\_array()**с**`MYSQL_BOTH`\*\*\*\*
 
 ```php
 <?php
@@ -107,15 +108,15 @@ mysql_free_result($result);
 
 > **Зауваження** **Продуктивність**
 > 
-> Важливо зауважити, що **mysqlfetcharray()** працює *незначно* повільніше, ніж [mysqlfetchrow()](function.mysql-fetch-row.md), в той же час надаючи набагато більш зручний доступ до даних.
+> Важливо зауважити, що **mysql\_fetch\_array()** працює *незначно*медленнее, чем[mysql\_fetch\_row()](function.mysql-fetch-row.md), в той же час надаючи набагато більш зручний доступ до даних.
 
 > **Зауваження**: Імена полів, що повертаються цією функцією *залежними від регістру*
 
-> **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
+> **Зауваження**: Ця функція встановлює NULL-поля значення \*\*`null`\*\*PHP.
 
 ### Дивіться також
 
--   [mysqlfetchrow()](function.mysql-fetch-row.md) - Обробляє ряд результату запиту та повертає масив із числовими індексами
--   [mysqlfetchassoc()](function.mysql-fetch-assoc.md) - Повертає ряд результату запиту як асоціативний масив.
--   [mysqldataseek()](function.mysql-data-seek.md) - Переміщує внутрішній покажчик у результаті запиту
--   [mysqlquery()](function.mysql-query.md) - Надсилає запит MySQL
+-   [mysql\_fetch\_row()](function.mysql-fetch-row.md) \- Обробляє ряд результату запиту та повертає масив із числовими індексами
+-   [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.md) \- Повертає ряд результату запиту як асоціативний масив.
+-   [mysql\_data\_seek()](function.mysql-data-seek.md) \- Переміщує внутрішній покажчик у результаті запиту
+-   [mysql\_query()](function.mysql-query.md) \- Надсилає запит MySQL

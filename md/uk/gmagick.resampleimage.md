@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::resampleimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::resampleimage
 
@@ -15,7 +16,7 @@ Gmagick::resampleimage — Змінює роздільну здатність з
 ### Опис
 
 ```methodsynopsis
-public Gmagick::resampleimage(    float $xResolution,    float $yResolution,    int $filter,    float $blur): Gmagick
+public Gmagick::resampleimage(    float $xResolution,    float $yResolution,    int $filter,    float $blur): Gmagick
 ```
 
 Змінює роздільну здатність зображення до бажаного.
@@ -44,4 +45,4 @@ public Gmagick::resampleimage(    float $xResolution,    float $yResolution,    
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

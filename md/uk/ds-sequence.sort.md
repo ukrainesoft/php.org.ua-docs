@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.slice.md: '« DsSequence::slice'
-  - ds-sequence.sorted.md: 'ДсSequence::sorted »'
+  - ds-sequence.slice.md: '« Ds\\Sequence::slice'
+  - ds-sequence.sorted.md: 'Ds\\Sequence::sorted »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::sort'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::sort'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::sort
+# Ds\\Sequence::sort
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::sort — Сортує колекцію
+Ds\\Sequence::sort — Сортує колекцію
 
 ### Опис
 
@@ -32,7 +33,7 @@ callback(mixed $a, mixed $b): int
 
 **Застереження**
 
-*Не ціле* значення, повернене з функції порівняння, такого як float, буде приведено до цілого числа (int). Отже значення типу 0.99 і 0.1 будуть наведені до 0, що означатиме рівність порівнюваних значень.
+Возвращение*нецілих* значень з функції порівняння, таких як число з плаваючою точкою (float), призведе до внутрішнього приведення значення callback-функції, що повертається, до цілого числа (int). Таким чином, значення `0.99`и`0.1` будуть приведені до цілого значення що дозволить порівняти ці значення як рівні.
 
 ### Значення, що повертаються
 
@@ -40,7 +41,7 @@ callback(mixed $a, mixed $b): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::sort()****
+**Пример #1 Пример использования**Ds\\Sequence::sort()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ print_r($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object
@@ -64,7 +65,7 @@ Ds\Vector Object
 )
 ```
 
-**Приклад #2 Приклад використання **ДсSequence::sort()** з callback-функцією порівняння**
+**Пример #2 Пример использования**Ds\\Sequence::sort()\*\* з callback-функцією порівняння\*\*
 
 ```php
 <?php
@@ -78,7 +79,7 @@ print_r($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

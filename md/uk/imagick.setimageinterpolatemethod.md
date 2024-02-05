@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageInterpolateMethod'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageInterpolateMethod
 
@@ -24,7 +25,7 @@ public Imagick::setImageInterpolateMethod(int $method): bool
 
 `method`
 
-Метод, що є однією з констант **`Imagick::INTERPOLATE_*`**
+Метод, являющийся одной из констант\*\*`Imagick::INTERPOLATE_*`\*\*
 
 ### Значення, що повертаються
 

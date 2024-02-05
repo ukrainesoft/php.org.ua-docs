@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::queryFontMetrics'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::queryFontMetrics
 
@@ -44,7 +45,7 @@ public Imagick::queryFontMetrics(ImagickDraw $properties, string $text, bool $mu
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::queryFontMetrics()****
+**Пример #1 Пример использования**Imagick::queryFontMetrics()\*\* :\*\*
 
 Запитує метрики для тексту та виводить результати на екран.
 

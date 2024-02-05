@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-close.md: « cubridclose
-  - function.cubrid-db-name.md: cubridдбname »
+  - function.cubrid-close.md: « cubrid\_close
+  - function.cubrid-db-name.md: cubrid\_db\_name »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubriddataseek
+title: cubrid\_data\_seek
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubriddataseek
+# cubrid\_data\_seek
 
 (PECL CUBRID >= 8.3.0)
 
-cubriddataseek — Перемістити внутрішній покажчик у результуючому наборі CUBRID
+cubrid\_data\_seek — Перемістити внутрішній покажчик у результуючому наборі CUBRID
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubriddataseek — Перемістити внутрішній покажчик 
 cubrid_data_seek(resource $result, int $row_number): bool
 ```
 
-Функція переміщує внутрішній покажчик у результуючому наборі CUBRID (заданим ідентифікатором запиту) на рядок із заданим номером. Може використовуватися разом із функціями типу [cubridfetchassoc()](function.cubrid-fetch-assoc.md), які використовують значення `row_number`
+Функція переміщує внутрішній покажчик у результуючому наборі CUBRID (заданим ідентифікатором запиту) на рядок із заданим номером. Може використовуватися разом із функціями типу [cubrid\_fetch\_assoc()](function.cubrid-fetch-assoc.md), які використовують значення `row_number`
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ cubrid_data_seek(resource $result, int $row_number): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubriddataseek()****
+**Пример #1 Пример использования**cubrid\_data\_seek()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {

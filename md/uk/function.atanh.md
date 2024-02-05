@@ -1,16 +1,17 @@
 ---
 navigation:
   - function.atan.md: « atan
-  - function.base-convert.md: baseconvert »
+  - function.base-convert.md: base\_convert »
   - index.md: PHP Manual
   - ref.math.md: Математичні функції
 title: atanh
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # atanh
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-atanh - Гіперболічний арктангенс
+atanh - Обчислює гіперболічний арктангенс
 
 ### Опис
 
@@ -18,21 +19,21 @@ atanh - Гіперболічний арктангенс
 atanh(float $num): float
 ```
 
-Повертає гіперболічний арктангенс `num`тобто значення, чий гіперболічний тангенс дорівнює `num`
+Повертає гіперболічний арктангенс числа `num` - значення, чий гіперболічний тангенс дорівнює значенню числа `num`
 
 ### Список параметрів
 
 `num`
 
-Вхідне значення
+Аргумент для обчислення.
 
 ### Значення, що повертаються
 
-Гіперболічний арктангенс `num`
+Повертає гіперболічний арктангенс числа `num`
 
 ### Дивіться також
 
--   [tanh()](function.tanh.md) - гіперболічний тангенс
--   [atan()](function.atan.md) - Арктангенс
--   [asinh()](function.asinh.md) - гіперболічний арксинус
--   [acosh()](function.acosh.md) - Гіперболічний арккосинус
+-   [tanh()](function.tanh.md) \- обчислює гіперболічний тангенс
+-   [atan()](function.atan.md) \- обчислює арктангенс
+-   [asinh()](function.asinh.md) \- обчислює гіперболічний арксинус
+-   [acosh()](function.acosh.md) \- обчислює гіперболічний арккосинус

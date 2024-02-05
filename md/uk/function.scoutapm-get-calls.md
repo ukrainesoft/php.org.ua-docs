@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.scoutapm.md: « Функции Scoutapm
-  - function.scoutapm-list-instrumented-functions.md: scoutapmlistinstrumentedfunctions »
+  - ref.scoutapm.md: « Функції Scoutapm
+  - function.scoutapm-list-instrumented-functions.md: scoutapm\_list\_instrumented\_functions »
   - index.md: PHP Manual
-  - ref.scoutapm.md: Функции Scoutapm
-title: scoutapmgetcalls
+  - ref.scoutapm.md: Функції Scoutapm
+title: scoutapm\_get\_calls
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# scoutapmgetcalls
+# scoutapm\_get\_calls
 
 (PECL scoutapm >= 1.0.0)
 
-scoutapmgetcalls — Повертає список дзвінків, що відбулися
+scoutapm\_get\_calls — Повертає список дзвінків, що відбулися
 
 ### Опис
 
@@ -18,7 +19,7 @@ scoutapmgetcalls — Повертає список дзвінків, що від
 scoutapm_get_calls(): array
 ```
 
-Повертає список усіх дзвінків використаних функцій з моменту останнього дзвінка **scoutapmgetcalls()**. Список очищується щоразу під час виклику функції.
+Повертає список усіх дзвінків використаних функцій з моменту останнього дзвінка **scoutapm\_get\_calls()**. Список очищується щоразу під час виклику функції.
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ scoutapm_get_calls(): array
 
 ### Значення, що повертаються
 
-**scoutapmgetcalls()** повертає масив, що містить список усіх записаних дзвінків використаних функцій.
+**scoutapm\_get\_calls()** повертає масив, що містить список усіх записаних дзвінків використаних функцій.
 
 ### Приклади
 
@@ -42,7 +43,7 @@ print_r(scoutapm_get_calls());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

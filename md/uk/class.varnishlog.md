@@ -1,10 +1,11 @@
 ---
 navigation:
   - varnishstat.getsnapshot.md: '« VarnishStat::getSnapshot'
-  - varnishlog.construct.md: 'VarnishLog::construct »'
+  - varnishlog.construct.md: 'VarnishLog::\_\_construct »'
   - index.md: PHP Manual
   - book.varnish.md: Varnish
 title: Клас VarnishLog
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас VarnishLog
 
@@ -352,6 +353,6 @@ public static getTagName(int $index): string
 
 ## Зміст
 
--   [VarnishLog::construct](varnishlog.construct.md) - Конструктор Varnishlog
--   [VarnishLog::getLine](varnishlog.getline.md) — Отримати наступний рядок журналу
--   [VarnishLog::getTagName](varnishlog.gettagname.md) — Отримати строкове подання тега журналу за його індексом
+-   [VarnishLog::\_\_construct](varnishlog.construct.md) \- Конструктор Varnishlog
+-   [VarnishLog::getLine](varnishlog.getline.md)— Отримати наступний рядок журналу
+-   [VarnishLog::getTagName](varnishlog.gettagname.md)— Отримати строкове подання тега журналу за його індексом

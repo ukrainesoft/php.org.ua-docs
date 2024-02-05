@@ -1,14 +1,15 @@
 ---
 navigation:
-  - splqueue.construct.md: '« SplQueue::construct'
+  - class.splqueue.md: « SplQueue
   - splqueue.enqueue.md: 'SplQueue::enqueue »'
   - index.md: PHP Manual
   - class.splqueue.md: SplQueue
 title: 'SplQueue::dequeue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplQueue::dequeue
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplQueue::dequeue — Видаляє елемент із черги
 
@@ -18,11 +19,11 @@ SplQueue::dequeue — Видаляє елемент із черги
 public SplQueue::dequeue(): mixed
 ```
 
-Видаляє `value` із початку черги.
+Видаляє `value`из начала очереди.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **SplQueue::dequeue()** - псевдонім [SplDoublyLinkedList::shift()](spldoublylinkedlist.shift.md)
+> \*\*SplQueue::dequeue()\*\*- псевдоним[SplDoublyLinkedList::shift()](spldoublylinkedlist.shift.md)
 
 ### Список параметрів
 

@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-stmt.execute.md: '« mysqlistmt::execute'
-  - mysqli-stmt.field-count.md: 'mysqlistmt::$fieldcount »'
+  - mysqli-stmt.execute.md: '« mysqli\_stmt::execute'
+  - mysqli-stmt.field-count.md: 'mysqli\_stmt::$field\_count »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::fetch'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::fetch'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::fetch
+# mysqli\_stmt::fetch
 
-# mysqlistmtfetch
+# mysqli\_stmt\_fetch
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::fetch -- mysqlistmtfetch - пов'язує результати підготовленого виразу зі змінними
+mysqli\_stmt::fetch -- mysqli\_stmt\_fetch - пов'язує результати підготовленого виразу зі змінними
 
 ### Опис
 
@@ -28,31 +29,35 @@ public mysqli_stmt::fetch(): ?bool
 mysqli_stmt_fetch(mysqli_stmt $statement): ?bool
 ```
 
-Зв'язує результати підготовленого виразу зі змінними, визначеними за допомогою [mysqlistmtbindresult()](mysqli-stmt.bind-result.md)
+Зв'язує результати підготовленого виразу зі змінними, визначеними за допомогою [mysqli\_stmt\_bind\_result()](mysqli-stmt.bind-result.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Необхідно відзначити, що всі стовпці повинні бути пов'язані перед викликом **mysqlistmtfetch()**
+> Необхідно відзначити, що всі стовпці повинні бути пов'язані перед викликом **mysqli\_stmt\_fetch()**
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Дані не буферизуються під час передачі, коли викликається [mysqlistmtstoreresult()](mysqli-stmt.store-result.md)що знижує продуктивність (але також знижує витрати пам'яті).
+> Дані не буферизуються під час передачі, коли викликається [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.md)що знижує продуктивність (але також знижує витрати пам'яті).
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
 **Значення, що повертаються**
 
-| Значение | Описание |
+| Значение | Опис |
 | --- | --- |
 | **`true`** | Успіх. Дані були обрані |
 | **`false`** | Виникла помилка |
 | **`null`** | Більше немає рядків/даних або відбулося усічення даних |
+
+### Помилки
+
+Якщо сповіщення про помилки mysqli включено (**`MYSQLI_REPORT_ERROR`**) та запитана операція не вдалася, видається попередження. Якщо, крім того, встановлено режим **`MYSQLI_REPORT_STRICT`**, натомість буде викинуто виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.md)
 
 ### Приклади
 
@@ -128,7 +133,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Rockford (USA)
@@ -140,7 +145,7 @@ Springfield (USA)
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
--   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
--   [mysqlistmterror()](mysqli-stmt.error.md) - Повертає рядок із поясненням останньої помилки під час виконання запиту
--   [mysqlistmtbindresult()](mysqli-stmt.bind-result.md) - Прив'язка змінних до підготовленого запиту для розміщення результату
+-   [mysqli\_prepare()](mysqli.prepare.md) \- готує SQL вираз до виконання
+-   [mysqli\_stmt\_errno()](mysqli-stmt.errno.md) \- Повертає код помилки виконання останнього запиту
+-   [mysqli\_stmt\_error()](mysqli-stmt.error.md) \- Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqli\_stmt\_bind\_result()](mysqli-stmt.bind-result.md) \- Прив'язка змінних до підготовленого запиту для розміщення результату

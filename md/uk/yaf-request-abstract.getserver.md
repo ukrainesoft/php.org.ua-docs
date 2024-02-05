@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.getrequesturi.md: '« YafRequestAbstract::getRequestUri'
-  - yaf-request-abstract.iscli.md: 'YafRequestAbstract::isCli »'
+  - yaf-request-abstract.getrequesturi.md: '« Yaf\_Request\_Abstract::getRequestUri'
+  - yaf-request-abstract.iscli.md: 'Yaf\_Request\_Abstract::isCli »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::getServer'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::getServer'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::getServer
+# Yaf\_Request\_Abstract::getServer
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::getServer — Отримує змінну SERVER
+Yaf\_Request\_Abstract::getServer — Отримує змінну SERVER
 
 ### Опис
 
@@ -34,5 +35,5 @@ public Yaf_Request_Abstract::getServer(string $name, string $default = ?): void
 
 ### Дивіться також
 
--   [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.md) - Отримує параметр дзвінка
--   [YafRequestAbstract::getEnv()](yaf-request-abstract.getenv.md) - Отримує змінну ENV
+-   [Yaf\_Request\_Abstract::getParam()](yaf-request-abstract.getparam.md) \- Отримує параметр дзвінка
+-   [Yaf\_Request\_Abstract::getEnv()](yaf-request-abstract.getenv.md) \- Отримує змінну ENV

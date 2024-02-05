@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixeliterator.md: ImagickPixelIterator
 title: 'ImagickPixelIterator::newPixelIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixelIterator::newPixelIterator
 
@@ -20,10 +21,10 @@ public ImagickPixelIterator::newPixelIterator(Imagick $wand): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає новий ітератор пікселів.
 
 ### Значення, що повертаються
 
-У разі успішної роботи повертає **`true`**. Виняток ImagickPixelIteratorException.
+У разі успішної роботи повертає \*\*`true`\*\*Исключение ImagickPixelIteratorException.

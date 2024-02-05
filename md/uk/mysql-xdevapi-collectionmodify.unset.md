@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-collectionmodify.sort.md: '« CollectionModify::sort'
-  - class.mysql-xdevapi-collectionremove.md: mysqlxdevapiCollectionRemove »
+  - class.mysql-xdevapi-collectionremove.md: mysql\_xdevapi\\CollectionRemove »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: mysql\_xdevapi\\CollectionModify
 title: 'CollectionModify::unset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionModify::unset
 
@@ -20,10 +21,6 @@ public mysql_xdevapi\CollectionModify::unset(array $fields): mysql_xdevapi\Colle
 
 Видаляє атрибути з документів у колекції.
 
-**Увага**
-
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
-
 ### Список параметрів
 
 `fields`
@@ -32,11 +29,11 @@ public mysql_xdevapi\CollectionModify::unset(array $fields): mysql_xdevapi\Colle
 
 ### Значення, що повертаються
 
-Об'єкт CollectionModify, який можна використовувати для подальшої обробки.
+Повертає об'єкт класу CollectionModify, з яким можна працювати далі.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::unset()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::unset()\*\*\*\*
 
 ```php
 <?php

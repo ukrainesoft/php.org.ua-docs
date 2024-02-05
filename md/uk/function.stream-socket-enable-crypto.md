@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.stream-socket-client.md: « streamsocketclient
-  - function.stream-socket-get-name.md: streamsocketgetname »
+  - function.stream-socket-client.md: « stream\_socket\_client
+  - function.stream-socket-get-name.md: stream\_socket\_get\_name »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamsocketenablecrypto
+title: stream\_socket\_enable\_crypto
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamsocketenablecrypto
+# stream\_socket\_enable\_crypto
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-streamsocketenablecrypto — Вмикає або вимикає шифрування на вже підключеному сокеті
+stream\_socket\_enable\_crypto — Вмикає або вимикає шифрування на вже підключеному сокеті
 
 ### Опис
 
 ```methodsynopsis
-stream_socket_enable_crypto(    resource $stream,    bool $enable,    ?int $crypto_method = null,    ?resource $session_stream = null): int|bool
+stream_socket_enable_crypto(    resource $stream,    bool $enable,    ?int $crypto_method = null,    ?resource $session_stream = null): int|bool
 ```
 
 Вмикає або вимикає шифрування на потоці.
 
-Після налаштування шифрування, криптографія може бути увімкнена або вимкнена динамічно за допомогою передачі значення **`true`** або **`false`** параметром `enable`
+Після налаштування шифрування, криптографія може бути увімкнена або вимкнена динамічно за допомогою передачі значення \*\*`true`**или**`false`\*\*параметру`enable`
 
 ### Список параметрів
 
@@ -44,6 +45,7 @@ stream_socket_enable_crypto(    resource $stream,    bool $enable,    ?int $cryp
 -   **`STREAM_CRYPTO_METHOD_TLSv1_0_CLIENT`**
 -   **`STREAM_CRYPTO_METHOD_TLSv1_1_CLIENT`**
 -   **`STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT`**
+-   **`STREAM_CRYPTO_METHOD_TLSv1_3_CLIENT`**(починаючи з PHP 7.4.0)
 -   **`STREAM_CRYPTO_METHOD_SSLv2_SERVER`**
 -   **`STREAM_CRYPTO_METHOD_SSLv3_SERVER`**
 -   **`STREAM_CRYPTO_METHOD_SSLv23_SERVER`**
@@ -52,8 +54,9 @@ stream_socket_enable_crypto(    resource $stream,    bool $enable,    ?int $cryp
 -   **`STREAM_CRYPTO_METHOD_TLSv1_0_SERVER`**
 -   **`STREAM_CRYPTO_METHOD_TLSv1_1_SERVER`**
 -   **`STREAM_CRYPTO_METHOD_TLSv1_2_SERVER`**
+-   **`STREAM_CRYPTO_METHOD_TLSv1_3_SERVER`**(починаючи з PHP 7.4.0)
 
-Якщо не вказано, буде використано параметр `crypto_method` із SSL контексту потоку.
+Якщо не вказано, буде використано параметр `crypto_method`из SSL контекста потока.
 
 `session_stream`
 
@@ -61,17 +64,17 @@ stream_socket_enable_crypto(    resource $stream,    bool $enable,    ?int $cryp
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, **`false`**, якщо не вдалося встановити шифрування або `0`, якщо недостатньо даних і ви повинні спробувати ще раз (тільки для неблокуючих сокетів).
+Повертає **`true`** у разі успішного виконання, **`false`**, если не удалось установить шифрование или , якщо недостатньо даних і ви повинні спробувати ще раз (тільки для неблокуючих сокетів).
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `session_stream` тепер допускає значення null. |
+| 8.0.0 | `session_stream` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **streamsocketenablecrypto()****
+**Пример #1 Пример использования**stream\_socket\_enable\_crypto()\*\*\*\*
 
 ```php
 <?php
@@ -96,9 +99,9 @@ fclose($fp);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ### Дивіться також
 
--   [Функции OpenSSL](ref.openssl.md)
+-   [Функції OpenSSL](ref.openssl.md)
 -   [Список підтримуваних транспортних протоколів](transports.md)

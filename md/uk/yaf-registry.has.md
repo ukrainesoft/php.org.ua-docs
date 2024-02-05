@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-registry.get.md: '« YafRegistry::get'
-  - yaf-registry.set.md: 'YafRegistry::set »'
+  - yaf-registry.get.md: '« Yaf\_Registry::get'
+  - yaf-registry.set.md: 'Yaf\_Registry::set »'
   - index.md: PHP Manual
-  - class.yaf-registry.md: YafRegistry
-title: 'YafRegistry::has'
+  - class.yaf-registry.md: Yaf\_Registry
+title: 'Yaf\_Registry::has'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRegistry::has
+# Yaf\_Registry::has
 
 (Yaf >=1.0.0)
 
-YafRegistry::has — Перевіряє, чи існує елемент
+Yaf\_Registry::has — Перевіряє, чи існує елемент
 
 ### Опис
 

@@ -1,10 +1,11 @@
 ---
 navigation:
   - imagick.compareimages.md: '« Imagick::compareImages'
-  - imagick.construct.md: 'Imagick::construct »'
+  - imagick.construct.md: 'Imagick::\_\_construct »'
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::compositeImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::compositeImage
 
@@ -15,7 +16,7 @@ Imagick::compositeImage — Накладає одне зображення на 
 ### Опис
 
 ```methodsynopsis
-public Imagick::compositeImage(    Imagick $composite_object,    int $composite,    int $x,    int $y,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::compositeImage(    Imagick $composite_object,    int $composite,    int $x,    int $y,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Накладає одне зображення на інше із зазначеним усуненням. Будь-які додаткові аргументи, необхідні для алгоритму накладання, слід передавати в setImageArtifact з 'compose:args' як перший параметр і дані як другий параметр.
@@ -28,7 +29,7 @@ public Imagick::compositeImage(    Imagick $composite_object,    int $composite,
 
 `compose`
 
-Оператор накладання. Дивіться [Константи оператора накладання](imagick.constants.md#imagick.constants.compositeop)
+Оператор наложения. Смотрите[Константи оператора накладання](imagick.constants.md#imagick.constants.compositeop)
 
 `x`
 
@@ -48,7 +49,7 @@ public Imagick::compositeImage(    Imagick $composite_object,    int $composite,
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::compositeImage()****
+**Пример #1 Пример использования**Imagick::compositeImage()\*\* :\*\*
 
 Накладання двох зображень за допомогою 'математичного' методу накладання
 
@@ -71,4 +72,4 @@ $src1->writeImage("./output.png");
 
 ### Дивіться також
 
--   [Imagick::setImageArtifact()](imagick.setimageartifact.md) - Встановлює артефакт зображення
+-   [Imagick::setImageArtifact()](imagick.setimageartifact.md) \- Встановлює артефакт зображення

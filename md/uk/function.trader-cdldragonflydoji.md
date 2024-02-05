@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdldojistar.md: « tradercdldojistar
-  - function.trader-cdlengulfing.md: tradercdlengulfing »
+  - function.trader-cdldojistar.md: « trader\_cdldojistar
+  - function.trader-cdlengulfing.md: trader\_cdlengulfing »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdldragonflydoji
+  - ref.trader.md: Функції Trader
+title: trader\_cdldragonflydoji
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdldragonflydoji
+# trader\_cdldragonflydoji
 
 (PECL trader >= 0.2.0)
 
-tradercdldragonflydoji — Бабка дожі.
+trader\_cdldragonflydoji — Бабка дожі.
 
 ### Опис
 
 ```methodsynopsis
-trader_cdldragonflydoji(    array $open,    array $high,    array $low,    array $close): array
+trader_cdldragonflydoji(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

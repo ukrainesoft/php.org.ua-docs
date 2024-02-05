@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbase.md: EventBase
 title: 'EventBase::gotExit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBase::gotExit
 
@@ -31,6 +32,6 @@ public
 
 ### Дивіться також
 
--   [EventBase::exit()](eventbase.exit.md) - Припиняє відправлення подій
--   [EventBase::stop()](eventbase.stop.md) - Повідомляє eventbase припинити відправку подій
--   [EventBase::gotStop()](eventbase.gotstop.md) - Перевіряє, чи був цикл обробки подій завершений
+-   [EventBase::exit()](eventbase.exit.md) \- Припиняє відправлення подій
+-   [EventBase::stop()](eventbase.stop.md) \- повідомляє event\_base припинити відправку подій
+-   [EventBase::gotStop()](eventbase.gotstop.md) \- Перевіряє, чи був цикл обробки подій завершений

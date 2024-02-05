@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.mhash-get-hash-name.md: « mhashgethashname
+  - function.mhash-get-hash-name.md: « mhash\_get\_hash\_name
   - function.mhash.md: mhash »
   - index.md: PHP Manual
-  - ref.mhash.md: Функции Mhash
-title: mhashkeygens2k
+  - ref.mhash.md: Функції Mhash
+title: mhash\_keygen\_s2k
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mhashkeygens2k
+# mhash\_keygen\_s2k
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-mhashkeygens2k - Генерація ключа
+mhash\_keygen\_s2k - Генерація ключа
 
 **Увага**
 
-Функція оголошена *Застарілої*починаючи з PHP 8.1.0. Використовувати цю функцію не рекомендується.
+Функція оголошена *застарілої* починаючи з PHP 8.1.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
 ```methodsynopsis
-mhash_keygen_s2k(    int $algo,    string $password,    string $salt,    int $length): string|false
+mhash_keygen_s2k(    int $algo,    string $password,    string $salt,    int $length): string|false
 ```
 
 Генерує ключ відповідно до заданого `algo` та вказаним паролем `password`
 
-Використовується алгоритм S2K із сіллю, як описано у документі OpenPGP ([» RFC 2440](http://www.faqs.org/rfcs/rfc2440)
+Використовується алгоритм S2K із сіллю, як описано у документі OpenPGP ([» RFC 2440](http://www.faqs.org/rfcs/rfc2440)
 
 Пам'ятайте, що паролі користувача не є підходящими ключами для криптографічних алгоритмів, оскільки зазвичай вони як мінімум набираються на клавіатурі. Такі паролі використовують лише 6-7 біт (або менше) на символ. Так що такі паролі рекомендується попередньо перетворювати (наприклад цією функцією).
 
@@ -32,7 +33,7 @@ mhash_keygen_s2k(    int $algo,    string $password,    string $salt,    int $le
 
 `algo`
 
-Ідентифікатор хешу. Одна з констант **`MHASH_hashname`**
+Идентификатор хеша. Одна из констант\*\*`MHASH_hashname`\*\*
 
 `password`
 
@@ -48,10 +49,10 @@ mhash_keygen_s2k(    int $algo,    string $password,    string $salt,    int $le
 
 ### Значення, що повертаються
 
-Повертає рядок із ключем або **`false`** у разі виникнення помилки.
+Повертає рядок із ключем або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.md) |
+| 8.1.0 | Функцію оголошено застарілою. Використовуйте замість неї [функції `hash_*()`](ref.hash.md) |

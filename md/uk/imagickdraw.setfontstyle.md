@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setFontStyle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setFontStyle
 
@@ -20,7 +21,7 @@ public ImagickDraw::setFontStyle(int $style): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Встановлює стиль шрифту, який буде використовуватися під час анотування тексту. Використання AnyStyle діє як "будь-який".
 
@@ -28,7 +29,7 @@ public ImagickDraw::setFontStyle(int $style): bool
 
 `style`
 
-Одна з констант [STYLE](imagick.constants.md#imagick.constants.styles) `imagick::STYLE_*`
+Одна из констант[STYLE](imagick.constants.md#imagick.constants.styles) `imagick::STYLE_*`
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public ImagickDraw::setFontStyle(int $style): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setFontStyle()****
+**Пример #1 Пример использования**ImagickDraw::setFontStyle()\*\*\*\*
 
 ```php
 <?php

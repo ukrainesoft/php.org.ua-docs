@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pcntl-exec.md: pcntlexec
-  - function.pcntl-get-last-error.md: pcntlgetlasterror »
+  - function.pcntl-exec.md: « pcntl\_exec
+  - function.pcntl-get-last-error.md: pcntl\_get\_last\_error »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
-title: pcntlfork
+title: pcntl\_fork
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pcntlfork
+# pcntl\_fork
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-pcntlfork — Розгалужити (fork) поточний запущений процес
+pcntl\_fork — Розгалужити (fork) поточний запущений процес
 
 ### Опис
 
@@ -18,7 +19,7 @@ pcntlfork — Розгалужити (fork) поточний запущений 
 pcntl_fork(): int
 ```
 
-Функція **pcntlfork()** створює дочірній процес, який відрізняється від батьківського процесу лише його PID та PPID. Будь ласка, зверніться до вашого системного посібника (man) fork(2) для ознайомлення зі специфікою роботи fork на вашій системі.
+Функция**pcntl\_fork()** створює дочірній процес, який відрізняється від батьківського процесу лише його PID та PPID. Будь ласка, зверніться до вашого системного посібника (man) fork(2) для ознайомлення зі специфікою роботи fork на вашій системі.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ pcntl_fork(): int
 
 ### Приклади
 
-**Приклад #1 Приклад **pcntlfork()****
+**Пример #1 Пример**pcntl\_fork()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ if ($pid == -1) {
 
 ### Дивіться також
 
--   [pcntlrfork()](function.pcntl-rfork.md) - взаємодіє з ресурсами процесу
--   [pcntlwaitpid()](function.pcntl-waitpid.md) - Очікує чи повертає статус породженого дочірнього процесу
--   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу
--   [clisetprocesstitle()](function.cli-set-process-title.md) - Встановлює заголовок процесу
+-   [pcntl\_rfork()](function.pcntl-rfork.md) \- взаємодіє з ресурсами процесу
+-   [pcntl\_waitpid()](function.pcntl-waitpid.md) \- Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntl\_signal()](function.pcntl-signal.md) \- Встановлення оброблювача сигналу
+-   [cli\_set\_process\_title()](function.cli-set-process-title.md) \- Встановлює заголовок процесу

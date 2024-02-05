@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ui-controls-box.md: « UIControlsBox
-  - ui-controls-box.construct.md: 'ОЙControlsBox::construct »'
+  - class.ui-controls-box.md: « UI\\Controls\\Box
+  - ui-controls-box.construct.md: 'UI\\Controls\\Box::\_\_construct »'
   - index.md: PHP Manual
-  - class.ui-controls-box.md: ОЙControlsBox
-title: 'ОЙControlsBox::append'
+  - class.ui-controls-box.md: UI\\Controls\\Box
+title: 'UI\\Controls\\Box::append'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsBox::append
+# UI\\Controls\\Box::append
 
 (UI 0.9.9)
 
-ОЙControlsBox::append — Додати елемент керування
+UI\\Controls\\Box::append — Додати елемент керування
 
 ### Опис
 

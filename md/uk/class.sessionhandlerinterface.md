@@ -3,16 +3,17 @@ navigation:
   - sessionhandler.write.md: '« SessionHandler::write'
   - sessionhandlerinterface.close.md: 'SessionHandlerInterface::close »'
   - index.md: PHP Manual
-  - book.session.md: Сессии
+  - book.session.md: Сесії
 title: Клас SessionHandlerInterface
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SessionHandlerInterface
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
-**SessionHandlerInterface** - це інтерфейс, який визначає мінімальний прототип для створення користувальницького оброблювача сесії. Для надання користувальницького оброблювача сесії функції [sessionsetsavehandler()](function.session-set-save-handler.md), Використовуючи її ООП реалізацію, клас повинен реалізовувати цей інтерфейс.
+**SessionHandlerInterface** - це інтерфейс, який визначає мінімальний прототип для створення користувальницького оброблювача сесії. Для надання користувальницького оброблювача сесії функції [session\_set\_save\_handler()](function.session-set-save-handler.md), Використовуючи її ООП реалізацію, клас повинен реалізовувати цей інтерфейс.
 
 Зауважте, що callback-методи цього класу створені для внутрішніх викликів PHP і не призначені для викликів з вашого коду.
 
@@ -20,12 +21,8 @@ title: Клас SessionHandlerInterface
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      interface SessionHandlerInterface {
+     interface SessionHandlerInterface {
 
     /* Методы */
     
@@ -39,11 +36,11 @@ public write(string $id, string $data): bool
    }
 ```
 
-**Приклад #1 Приклад використання **SessionHandlerInterface****
+**Пример #1 Пример использования**SessionHandlerInterface\*\*\*\*
 
 Наступний приклад реалізує файлову сесію так само, як це реалізовано у внутрішньому обробнику сесії PHP. Цей приклад може бути легко розширений для забезпечення зберігання сесій в базі даних.
 
-Зверніть увагу, що ми використовуємо об'єктно-орієнтовані прототипи з функцією [sessionsetsavehandler()](function.session-set-save-handler.md) та реєструємо функцію завершення (shutdown) використовуючи один із параметрів цієї функції. Ця дія рекомендується проводити в більшості випадків, коли об'єкти реєструються як обробники сесії.
+Зверніть увагу, що ми використовуємо об'єктно-орієнтовані прототипи з функцією [session\_set\_save\_handler()](function.session-set-save-handler.md) та реєструємо функцію завершення (shutdown) використовуючи один із параметрів цієї функції. Ця дія рекомендується проводити в більшості випадків, коли об'єкти реєструються як обробники сесії.
 
 **Застереження**
 
@@ -66,7 +63,7 @@ class MySessionHandler implements SessionHandlerInterface
     {
         return true;
     }
-    #[ReturnTypeWillChange]
+    #[\ReturnTypeWillChange]
     public function read($id)
     {
         return (string)@file_get_contents("$this->savePath/sess_$id");
@@ -83,7 +80,7 @@ class MySessionHandler implements SessionHandlerInterface
         }
         return true;
     }
-    #[ReturnTypeWillChange]
+    #[\ReturnTypeWillChange]
     public function gc($maxlifetime)
     {
         foreach (glob("$this->savePath/sess_*") as $file) {
@@ -103,9 +100,9 @@ session_start();
 
 ## Зміст
 
--   [SessionHandlerInterface::close](sessionhandlerinterface.close.md) - Закриває сесію
--   [SessionHandlerInterface::destroy](sessionhandlerinterface.destroy.md) - Знищує сесію
--   [SessionHandlerInterface::gc](sessionhandlerinterface.gc.md) - Очищає старі сесії
--   [SessionHandlerInterface::open](sessionhandlerinterface.open.md) - Ініціалізує сесію
--   [SessionHandlerInterface::read](sessionhandlerinterface.read.md) — Читає дані сесії
--   [SessionHandlerInterface::write](sessionhandlerinterface.write.md) — Записати дані сесії
+-   [SessionHandlerInterface::close](sessionhandlerinterface.close.md) \- Закриває сесію
+-   [SessionHandlerInterface::destroy](sessionhandlerinterface.destroy.md) \- Знищує сесію
+-   [SessionHandlerInterface::gc](sessionhandlerinterface.gc.md) \- Очищає старі сесії
+-   [SessionHandlerInterface::open](sessionhandlerinterface.open.md) \- Ініціалізує сесію
+-   [SessionHandlerInterface::read](sessionhandlerinterface.read.md)— Читає дані сесії
+-   [SessionHandlerInterface::write](sessionhandlerinterface.write.md)— Записати дані сесії

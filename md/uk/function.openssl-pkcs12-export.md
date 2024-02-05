@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.openssl-pkcs12-export-to-file.md: « opensslpkcs12exportтоfile
-  - function.openssl-pkcs12-read.md: opensslpkcs12read »
+  - function.openssl-pkcs12-export-to-file.md: « openssl\_pkcs12\_export\_to\_file
+  - function.openssl-pkcs12-read.md: openssl\_pkcs12\_read »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslpkcs12export
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_pkcs12\_export
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslpkcs12export
+# openssl\_pkcs12\_export
 
-(PHP 5> = 5.2.2, PHP 7, PHP 8)
+(PHP 5 >= 5.2.2, PHP 7, PHP 8)
 
-opensslpkcs12export — Експортує сумісний із PKCS#12 файл сховища сертифікатів у змінну
+openssl\_pkcs12\_export — Експортує сумісний із PKCS#12 файл сховища сертифікатів у змінну
 
 ### Опис
 
 ```methodsynopsis
-openssl_pkcs12_export(    OpenSSLCertificate|string $certificate,    string &$output,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string $passphrase,    array $options = []): bool
+openssl_pkcs12_export(    OpenSSLCertificate|string $certificate,    string &$output,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string $passphrase,    array $options = []): bool
 ```
 
-**opensslpkcs12export()** зберігає `x509` у змінну `out` у форматі PKCS#12.
+**openssl\_pkcs12\_export()** зберігає `x509`в переменную`out`в формате PKCS#12.
 
 ### Список параметрів
 
@@ -42,18 +43,18 @@ openssl_pkcs12_export(    OpenSSLCertificate|string $certificate,    string &$ou
 
 Масив опцій. Ключі, які не описані тут, будуть проігноровані.
 
-| Ключ | Описание |
+| Ключ | Опис |
 | --- | --- |
 | `"extracerts"` | масив додаткових сертифікатів або один сертифікат для включення файлу PKCS#12. |
-| `"friendlyname"` | рядок для використання сертифікатом та ключем |
+| `"friendly_name"` | рядок для використання сертифікатом та ключем |
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
+| 8.0.0 | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL X.509 CSR` |
+| 8.0.0 | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL key`или`OpenSSL X.509` |

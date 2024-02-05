@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::getIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::getIndex
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
-ImagickPixel::getIndex — Опис
+ImagickPixel::getIndex — Отримує індекс картки піксельної палички.
 
 ### Опис
 

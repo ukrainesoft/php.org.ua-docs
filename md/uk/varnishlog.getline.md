@@ -1,10 +1,11 @@
 ---
 navigation:
-  - varnishlog.construct.md: '« VarnishLog::construct'
+  - varnishlog.construct.md: '« VarnishLog::\_\_construct'
   - varnishlog.gettagname.md: 'VarnishLog::getTagName »'
   - index.md: PHP Manual
   - class.varnishlog.md: VarnishLog
 title: 'VarnishLog::getLine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # VarnishLog::getLine
 

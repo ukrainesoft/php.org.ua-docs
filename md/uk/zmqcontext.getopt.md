@@ -1,10 +1,11 @@
 ---
 navigation:
-  - zmqcontext.construct.md: '« ZMQContext::construct'
+  - zmqcontext.construct.md: '« ZMQContext::\_\_construct'
   - zmqcontext.getsocket.md: 'ZMQContext::getSocket »'
   - index.md: PHP Manual
   - class.zmqcontext.md: ZMQContext
 title: 'ZMQContext::getOpt'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZMQContext::getOpt
 
@@ -24,7 +25,7 @@ public ZMQContext::getOpt(string $key): mixed
 
 `key`
 
-Ціле число, що відображає значення опції. Дивіться опис констант **`ZMQ::CTXOPT_*`**
+Целое число, отражающее значение опции. Смотрите описание констант\*\*`ZMQ::CTXOPT_*`\*\*
 
 ### Значення, що повертаються
 

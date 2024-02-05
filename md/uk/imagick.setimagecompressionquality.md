@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageCompressionQuality'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageCompressionQuality
 
@@ -36,7 +37,7 @@ public Imagick::setImageCompressionQuality(int $quality): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setImageCompressionQuality()****
+**Пример #1 Пример использования**Imagick::setImageCompressionQuality()\*\*\*\*
 
 ```php
 <?php

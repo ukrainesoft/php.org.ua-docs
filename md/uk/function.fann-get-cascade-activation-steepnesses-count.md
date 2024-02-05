@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-cascade-activation-functions.md: « fanngetcascadeactivationfunctions
-  - function.fann-get-cascade-activation-steepnesses.md: fanngetcascadeactivationsteepnesses »
+  - function.fann-get-cascade-activation-functions.md: « fann\_get\_cascade\_activation\_functions
+  - function.fann-get-cascade-activation-steepnesses.md: fann\_get\_cascade\_activation\_steepnesses »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetcascadeactivationsteepnessescount
+  - ref.fann.md: Функції Fann
+title: fann\_get\_cascade\_activation\_steepnesses\_count
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetcascadeactivationsteepnessescount
+# fann\_get\_cascade\_activation\_steepnesses\_count
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetcascadeactivationsteepnessescount — Кількість крутості активації
+fann\_get\_cascade\_activation\_steepnesses\_count — Кількість крутості активації
 
 ### Опис
 
@@ -18,9 +19,9 @@ fanngetcascadeactivationsteepnessescount — Кількість крутості
 fann_get_cascade_activation_steepnesses_count(resource $ann): int
 ```
 
-Кількість крутості активації в масиві [fanngetcascadeactivationfunctions()](function.fann-get-cascade-activation-functions.md)
+Кількість крутості активації в масиві [fann\_get\_cascade\_activation\_functions()](function.fann-get-cascade-activation-functions.md)
 
-Кількість крутизни за замовчуванням активації - 4.
+Кількість крутості активації за замовчуванням – 4.
 
 ### Список параметрів
 
@@ -30,9 +31,9 @@ fann_get_cascade_activation_steepnesses_count(resource $ann): int
 
 ### Значення, що повертаються
 
-Кількість крутості активації або **`false`** у разі виникнення помилки.
+Кількість крутості активації або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fanngetcascadeactivationsteepnesses()](function.fann-get-cascade-activation-steepnesses.md) - Повертає крутість каскадної активації
--   [fannsetcascadeactivationfunctions()](function.fann-set-cascade-activation-functions.md) - встановлює масив каскадних функцій активації кандидатів
+-   [fann\_get\_cascade\_activation\_steepnesses()](function.fann-get-cascade-activation-steepnesses.md) \- Повертає крутість каскадної активації
+-   [fann\_set\_cascade\_activation\_functions()](function.fann-set-cascade-activation-functions.md) \- встановлює масив каскадних функцій активації кандидатів

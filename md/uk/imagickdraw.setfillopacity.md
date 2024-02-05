@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setFillOpacity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setFillOpacity
 
@@ -20,7 +21,7 @@ public ImagickDraw::setFillOpacity(float $fillOpacity): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Встановлює непрозорість при малюванні за допомогою кольору або текстури заливки. Повністю непрозорий – 1.0.
 
@@ -36,7 +37,7 @@ public ImagickDraw::setFillOpacity(float $fillOpacity): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setFillOpacity()****
+**Пример #1 Пример использования**ImagickDraw::setFillOpacity()\*\*\*\*
 
 ```php
 <?php

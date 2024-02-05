@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagickpixel.md: GmagickPixel
 title: 'GmagickPixel::setcolorvalue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GmagickPixel::setcolorvalue
 
@@ -18,7 +19,7 @@ GmagickPixel::setcolorvalue — Встановити нормалізоване 
 public GmagickPixel::setcolorvalue(int $color, float $value): GmagickPixel
 ```
 
-Встановлює нормалізоване значення колірного каналу. Значення має бути числом з плаваючою точкою (float) у діапазоні від 0 до 1. Також ця функція може використовуватись для завдання каналу прозорості об'єкта [GmagickPixel](class.gmagickpixel.md)
+Встановлює нормалізоване значення колірного каналу. Значення має бути числом з плаваючою точкою (float) в діапазоні від 0 до 1. Також ця функція може використовуватися для визначення каналу прозорості об'єкта [GmagickPixel](class.gmagickpixel.md)
 
 ### Список параметрів
 

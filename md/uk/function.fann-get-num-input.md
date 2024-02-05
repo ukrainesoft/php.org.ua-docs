@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-network-type.md: « fanngetnetworktype
-  - function.fann-get-num-layers.md: fanngetnumlayers »
+  - function.fann-get-network-type.md: « fann\_get\_network\_type
+  - function.fann-get-num-layers.md: fann\_get\_num\_layers »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetnuminput
+  - ref.fann.md: Функції Fann
+title: fann\_get\_num\_input
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetnuminput
+# fann\_get\_num\_input
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetnuminput — Отримує кількість вхідних нейронів
+fann\_get\_num\_input — Отримує кількість вхідних нейронів
 
 ### Опис
 
@@ -28,4 +29,4 @@ fann_get_num_input(resource $ann): int
 
 ### Значення, що повертаються
 
-Кількість вхідних нейронів або **`false`** у разі виникнення помилки.
+Кількість вхідних нейронів або \*\*`false`\*\*в случае возникновения ошибки.

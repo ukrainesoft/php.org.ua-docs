@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.sessionupdatetimestamphandlerinterface.md: SessionUpdateTimestampHandlerInterface
 title: 'SessionUpdateTimestampHandlerInterface::updateTimestamp'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SessionUpdateTimestampHandlerInterface::updateTimestamp
 
@@ -32,4 +33,4 @@ public SessionUpdateTimestampHandlerInterface::updateTimestamp(string $id, strin
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо мітку часу оновлено, **`false`** в іншому випадку. Зауважте, що це значення повертається всередині PHP для обробки.
+Повертає **`true`**, если метка времени обновлена,**`false`** в іншому випадку. Зауважте, що це значення повертається всередині PHP для обробки.

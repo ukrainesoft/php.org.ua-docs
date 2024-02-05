@@ -1,14 +1,15 @@
 ---
 navigation:
   - splqueue.dequeue.md: '« SplQueue::dequeue'
-  - splqueue.setiteratormode.md: 'SplQueue::setIteratorMode »'
+  - class.splheap.md: SplHeap »
   - index.md: PHP Manual
   - class.splqueue.md: SplQueue
 title: 'SplQueue::enqueue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplQueue::enqueue
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplQueue::enqueue — Додає елемент до черги
 
@@ -18,11 +19,11 @@ SplQueue::enqueue — Додає елемент до черги
 public SplQueue::enqueue(mixed $value): void
 ```
 
-Додає `value` на кінець черги.
+Добавляет`value`в конец очереди.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **SplQueue::enqueue()** - псевдонім [SplDoublyLinkedList::push()](spldoublylinkedlist.push.md)
+> \*\*SplQueue::enqueue()\*\*- псевдоним[SplDoublyLinkedList::push()](spldoublylinkedlist.push.md)
 
 ### Список параметрів
 

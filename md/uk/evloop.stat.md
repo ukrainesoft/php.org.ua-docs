@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::stat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::stat
 
@@ -17,20 +18,20 @@ EvLoop::stat — Створює об'єкт спостерігача EvStat, п�
 ```methodsynopsis
 final
    public
-   EvLoop::stat(    
+   EvLoop::stat(    
     string
      $path
-   ,    
+   ,    
     float
      $interval
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -41,7 +42,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvSignal::construct()](evsignal.construct.md)
+Усі параметри, що й для [EvSignal::\_\_construct()](evsignal.construct.md)
 
 ### Значення, що повертаються
 
@@ -49,4 +50,4 @@ final
 
 ### Дивіться також
 
--   [EvSignal::construct()](evsignal.construct.md) - Конструктор об'єкта спостерігача EvSignal
+-   [EvSignal::\_\_construct()](evsignal.construct.md) \- Конструктор об'єкта спостерігача EvSignal

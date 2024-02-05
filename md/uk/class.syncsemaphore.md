@@ -1,10 +1,11 @@
 ---
 navigation:
   - syncmutex.unlock.md: '« SyncMutex::unlock'
-  - syncsemaphore.construct.md: 'SyncSemaphore::construct »'
+  - syncsemaphore.construct.md: 'SyncSemaphore::\_\_construct »'
   - index.md: PHP Manual
   - book.sync.md: Sync
 title: Клас SyncSemaphore
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SyncSemaphore
 
@@ -40,6 +41,6 @@ public unlock(int &$prevcount = ?): bool
 
 ## Зміст
 
--   [SyncSemaphore::construct](syncsemaphore.construct.md) — Створює новий об'єкт SyncSemaphore
--   [SyncSemaphore::lock](syncsemaphore.lock.md) — Зменшує рахунок семафора чи чекає
--   [SyncSemaphore::unlock](syncsemaphore.unlock.md) - Збільшує рахунок семафору
+-   [SyncSemaphore::\_\_construct](syncsemaphore.construct.md)— Створює новий об'єкт SyncSemaphore
+-   [SyncSemaphore::lock](syncsemaphore.lock.md)— Зменшує рахунок семафора чи чекає
+-   [SyncSemaphore::unlock](syncsemaphore.unlock.md) \- Збільшує рахунок семафору

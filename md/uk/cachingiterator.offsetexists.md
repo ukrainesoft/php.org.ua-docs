@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.cachingiterator.md: CachingIterator
 title: 'CachingIterator::offsetExists'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CachingIterator::offsetExists
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 CachingIterator::offsetExists — Призначення offsetExists
 
@@ -20,7 +21,7 @@ public CachingIterator::offsetExists(string $key): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-get-notify.md: « pggetnotify
-  - function.pg-get-result.md: пгgetresult »
+  - function.pg-get-notify.md: « pg\_get\_notify
+  - function.pg-get-result.md: pg\_get\_result »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгgetpid
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_get\_pid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгgetpid
+# pg\_get\_pid
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-пгgetpid — Отримує ID процесу сервера БД
+pg\_get\_pid — Отримує ID процесу сервера БД
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: пгgetpid
 pg_get_pid(PgSql\Connection $connection): int
 ```
 
-**пгgetpid()** отримує PID сервер бази даних. PID корисний, коли потрібно визначити, який процес надіслав `NOTIFY` повідомлення, прийняте функцією [пгgetnotify()](function.pg-get-notify.md) (точніше дізнатися, сервер його відправив чи якийсь інший процес).
+**pg\_get\_pid()** отримує PID сервер бази даних. PID корисний, коли потрібно визначити, який процес надіслав `NOTIFY` повідомлення, прийняте функцією [pg\_get\_notify()](function.pg-get-notify.md) (точніше дізнатися, сервер його відправив чи якийсь інший процес).
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
@@ -32,9 +33,9 @@ ID процесу сервера бази даних.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -55,4 +56,4 @@ $pid = pg_get_pid($conn);
 
 ### Дивіться також
 
--   [пгgetnotify()](function.pg-get-notify.md) - Отримання SQL NOTIFY повідомлення
+-   [pg\_get\_notify()](function.pg-get-notify.md) \- Отримання SQL NOTIFY повідомлення

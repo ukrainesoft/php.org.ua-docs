@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-brush-gradient.addstop.md: '« UIDrawBrushGradient::addStop'
-  - ui-draw-brush-gradient.setstop.md: 'ОЙDrawBrushGradient::setStop »'
+  - ui-draw-brush-gradient.addstop.md: '« UI\\Draw\\Brush\\Gradient::addStop'
+  - ui-draw-brush-gradient.setstop.md: 'UI\\Draw\\Brush\\Gradient::setStop »'
   - index.md: PHP Manual
-  - class.ui-draw-brush-gradient.md: ОЙDrawBrushGradient
-title: 'ОЙDrawBrushGradient::delStop'
+  - class.ui-draw-brush-gradient.md: UI\\Draw\\Brush\\Gradient
+title: 'UI\\Draw\\Brush\\Gradient::delStop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawBrushGradient::delStop
+# UI\\Draw\\Brush\\Gradient::delStop
 
 (UI 2.0.0)
 
-ОЙDrawBrushGradient::delStop — Видаляє вузол градієнта
+UI\\Draw\\Brush\\Gradient::delStop — Видаляє вузол градієнта
 
 ### Опис
 
@@ -20,7 +21,7 @@ public UI\Draw\Brush\Gradient::delStop(int $index): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

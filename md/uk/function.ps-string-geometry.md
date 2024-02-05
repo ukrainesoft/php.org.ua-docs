@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.ps-show.md: «psshow
-  - function.ps-stringwidth.md: псstringwidth »
+  - function.ps-show.md: « ps\_show
+  - function.ps-stringwidth.md: ps\_stringwidth »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псstringgeometry
+title: ps\_string\_geometry
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псstringgeometry
+# ps\_string\_geometry
 
 (PECL ps >= 1.2.0)
 
-псstringgeometry — Отримує геометрію рядка
+ps\_string\_geometry — Отримує геометрію рядка
 
 ### Опис
 
 ```methodsynopsis
-ps_string_geometry(    resource $psdoc,    string $text,    int $fontid = 0,    float $size = 0.0): array
+ps_string_geometry(    resource $psdoc,    string $text,    int $fontid = 0,    float $size = 0.0): array
 ```
 
-Функція схожа на [псstringwidth()](function.ps-stringwidth.md), але повертає масив розмірів, що містить ширину, верхню та нижню межу тексту.
+Функция похожа на[ps\_stringwidth()](function.ps-stringwidth.md), але повертає масив розмірів, що містить ширину, верхню та нижню межу тексту.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `text`
 
@@ -40,9 +41,9 @@ ps_string_geometry(    resource $psdoc,    string $text,    int $fontid = 0,    
 
 ### Значення, що повертаються
 
-Масив розмірів рядка. Елемент "width" містить ширину рядка, що повертається функцією [псstringwidth()](function.ps-stringwidth.md). Елемент "descender" містить максимальну нижню межу, а "ascender" - максимальну верхню межу елемента рядка.
+Масив розмірів рядка. Елемент "width" містить ширину рядка, що повертається функцією [ps\_stringwidth()](function.ps-stringwidth.md). . Елемент "descender" містить максимальну нижню межу, а "ascender" - максимальну верхню межу елемента рядка.
 
 ### Дивіться також
 
--   [псcontinuetext()](function.ps-continue-text.md) - Продовжує текст у наступному рядку
--   [псstringwidth()](function.ps-stringwidth.md) - Отримує ширину рядка
+-   [ps\_continue\_text()](function.ps-continue-text.md) \- Продовжує текст у наступному рядку
+-   [ps\_stringwidth()](function.ps-stringwidth.md) \- Отримує ширину рядка

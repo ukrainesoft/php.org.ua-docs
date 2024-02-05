@@ -1,10 +1,11 @@
 ---
 navigation:
   - rararchive.open.md: '« RarArchive::open'
-  - rararchive.tostring.md: 'RarArchive::toString »'
+  - rararchive.tostring.md: 'RarArchive::\_\_toString »'
   - index.md: PHP Manual
   - class.rararchive.md: RarArchive
 title: 'RarArchive::setAllowBroken'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarArchive::setAllowBroken
 
@@ -26,17 +27,17 @@ public RarArchive::setAllowBroken(bool $allow_broken): bool
 rar_allow_broken_set(RarArchive $rarfile, bool $allow_broken): bool
 ```
 
-Метод визначає, чи можна намагатись читати пошкоджений архів, чи всі операції з ним мають закінчуватися помилкою. Пошкоджені архіви - це такі архіви, які відкриваються без помилок, але при спробі прочитати записи виникають помилки.
+Метод визначає, чи можна намагатися читати пошкоджений архів, чи всі операції із нею мають закінчуватися помилкою. Пошкоджені архіви – це такі архіви, які відкриваються без помилок, але при спробі прочитати записи виникають помилки.
 
 ### Список параметрів
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [raropen()](rararchive.open.md)
+Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [rar\_open()](rararchive.open.md)
 
 `allow_broken`
 
-Чи дозволили роботу з пошкодженими архівами (**`true`**) чи ні (**`false`**
+Чи дозволяти роботу з пошкодженими архівами (**`true`**) чи ні (**`false`**
 
 ### Значення, що повертаються
 
@@ -60,7 +61,7 @@ var_dump(count($a));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 RarEntry for file "file1.txt" (52b28202)
@@ -85,4 +86,4 @@ var_dump(count($a));
 
 ### Дивіться також
 
--   [RarArchive::isBroken()](rararchive.isbroken.md) - Перевіряє, чи не зламано архів (не завершено)
+-   [RarArchive::isBroken()](rararchive.isbroken.md) \- Перевіряє, чи не зламано архів (не завершено)

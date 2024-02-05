@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::loadString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # LuaSandbox::loadString
 
@@ -59,7 +60,7 @@ var_dump( $function->call() );
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {
@@ -70,5 +71,5 @@ array(1) {
 
 ### Дивіться також
 
--   [LuaSandbox::registerLibrary()](luasandbox.registerlibrary.md) - Реєструє набір PHP-функцій як бібліотеку Lua
--   [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.md) - Обертає викликаний PHP-об'єкт у LuaSandboxFunction
+-   [LuaSandbox::registerLibrary()](luasandbox.registerlibrary.md) \- Реєструє набір PHP-функцій як бібліотеку Lua
+-   [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.md) \- Обертає викликаний PHP-об'єкт у LuaSandboxFunction

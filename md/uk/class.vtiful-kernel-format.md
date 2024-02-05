@@ -1,12 +1,13 @@
 ---
 navigation:
-  - vtiful-kernel-excel.setRow.md: '« VtifulKernelExcel::setRow'
-  - vtiful-kernel-format.align.md: 'VtifulKernelFormat::align »'
+  - vtiful-kernel-excel.setRow.md: '« Vtiful\\Kernel\\Excel::setRow'
+  - vtiful-kernel-format.align.md: 'Vtiful\\Kernel\\Format::align »'
   - index.md: PHP Manual
   - book.xlswriter.md: XLSWriter
-title: Клас VtifulKernelФормат
+title: Клас Vtiful\\Kernel\\Format
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас VtifulKernelФормат
+# Клас Vtiful\\Kernel\\Format
 
 (PECL xlswriter >= 1.2.1)
 
@@ -141,7 +142,7 @@ public underline(resource $handle, int $style)
 
 ## Зміст
 
--   [VtifulKernelFormat::align](vtiful-kernel-format.align.md) - Вирівнювання
--   [VtifulKernelFormat::bold](vtiful-kernel-format.bold.md) - Напівжирний
--   [VtifulKernelFormat::italic](vtiful-kernel-format.italic.md) - Курсив
--   [VtifulKernelFormat::underline](vtiful-kernel-format.underline.md) - Підкреслений
+-   [Vtiful\\Kernel\\Format::align](vtiful-kernel-format.align.md) \- Вирівнювання
+-   [Vtiful\\Kernel\\Format::bold](vtiful-kernel-format.bold.md) \- Напівжирний
+-   [Vtiful\\Kernel\\Format::italic](vtiful-kernel-format.italic.md) \- Курсив
+-   [Vtiful\\Kernel\\Format::underline](vtiful-kernel-format.underline.md) \- Підкреслений

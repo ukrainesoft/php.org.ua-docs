@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImagePage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImagePage
 
@@ -15,7 +16,7 @@ Imagick::setImagePage — Встановлює геометрію сторінк
 ### Опис
 
 ```methodsynopsis
-public Imagick::setImagePage(    int $width,    int $height,    int $x,    int $y): bool
+public Imagick::setImagePage(    int $width,    int $height,    int $x,    int $y): bool
 ```
 
 Встановлює геометрію сторінки зображення.

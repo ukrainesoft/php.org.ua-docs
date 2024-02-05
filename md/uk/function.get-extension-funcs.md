@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-defined-constants.md: « getdefinedconstants
-  - function.get-include-path.md: getincludepath »
+  - function.get-defined-constants.md: « get\_defined\_constants
+  - function.get-include-path.md: get\_include\_path »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: getextensionfuncs
+title: get\_extension\_funcs
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getextensionfuncs
+# get\_extension\_funcs
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-getextensionfuncs — Повертає масив імен функцій модуля
+get\_extension\_funcs — Повертає масив імен функцій модуля
 
 ### Опис
 
@@ -26,7 +27,7 @@ get_extension_funcs(string $extension): array|false
 
 Ім'я модуль.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення цього аргументу має задаватися в *нижньому регістрі*
 
@@ -44,7 +45,7 @@ print_r(get_extension_funcs("xml"));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -76,5 +77,5 @@ Array
 
 ### Дивіться також
 
--   [getloadedextensions()](function.get-loaded-extensions.md) - Повертає масив імен усіх скомпілованих та завантажених модулів
--   [ReflectionExtension::getFunctions()](reflectionextension.getfunctions.md) - Отримання функцій модуля
+-   [get\_loaded\_extensions()](function.get-loaded-extensions.md) \- Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [ReflectionExtension::getFunctions()](reflectionextension.getfunctions.md) \- Отримання функцій модуля

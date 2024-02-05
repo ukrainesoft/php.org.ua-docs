@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-public-encrypt.md: « opensslpublicencrypt
-  - function.openssl-seal.md: opensslseal »
+  - function.openssl-public-encrypt.md: « openssl\_public\_encrypt
+  - function.openssl-seal.md: openssl\_seal »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslrandompseudobytes
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_random\_pseudo\_bytes
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslrandompseudobytes
+# openssl\_random\_pseudo\_bytes
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-opensslrandompseudobytes - Генерує псевдовипадкову послідовність байт
+openssl\_random\_pseudo\_bytes - Генерує псевдовипадкову послідовність байт
 
 ### Опис
 
@@ -20,7 +21,7 @@ openssl_random_pseudo_bytes(int $length, bool &$strong_result = null): string
 
 Генерує рядок псевдовипадкових байт завдовжки `length`
 
-Також, якщо встановити необов'язковий параметр `strong_result`, Який передається за посиланням, то в нього запишеться **`true`** або **`false`**, Залежно від того, чи був використаний криптографічно сильний алгоритм.
+Також, якщо встановити необов'язковий параметр `strong_result`, який передається за посиланням, то до нього запишеться **`true`**или**`false`**, Залежно від того, чи був використаний криптографічно сильний алгоритм.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ openssl_random_pseudo_bytes(int $length, bool &$strong_result = null): string
 
 `strong_result`
 
-Якщо задано, то передану змінну буде записано **`true`** або **`false`**, Залежно від того, чи був використаний криптографічно сильний алгоритм.
+Якщо задано, то передану змінну буде записано **`true`**или**`false`**, Залежно від того, чи був використаний криптографічно сильний алгоритм.
 
 ### Значення, що повертаються
 
@@ -38,17 +39,17 @@ openssl_random_pseudo_bytes(int $length, bool &$strong_result = null): string
 
 ### Помилки
 
-Функція **opensslrandompseudobytes()** викидає виняток [Exception](class.exception.md) у разі виникнення помилки.
+Функция**openssl\_random\_pseudo\_bytes()** викидає виняток [Exception](class.exception.md)в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `strong_result` тепер допускає значення null. |
+| 8.0.0 | `strong_result` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslrandompseudobytes()****
+**Пример #1 Пример использования**openssl\_random\_pseudo\_bytes()\*\*\*\*
 
 ```php
 <?php
@@ -64,7 +65,7 @@ for ($i = 1; $i <= 4; $i++) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Lengths: Bytes: 1 and Hex: 2
@@ -86,8 +87,7 @@ bool(true)
 
 ### Дивіться також
 
--   [randombytes()](function.random-bytes.md) - Генерує криптографічно безпечні псевдовипадкові байти
--   [bin2hex()](function.bin2hex.md) - Перетворює бінарні дані на шістнадцяткове подання
--   [crypt()](function.crypt.md) - Необоротне хешування рядка
--   [мтrand()](function.mt-rand.md) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
--   [uniqid()](function.uniqid.md) - Згенерувати унікальний ID
+-   [random\_bytes()](function.random-bytes.md) \- Отримує криптографічно безпечні випадкові байти
+-   [bin2hex()](function.bin2hex.md) \- Перетворює бінарні дані на шістнадцяткове подання
+-   [crypt()](function.crypt.md) \- Необоротне хешування рядка
+-   [random\_int()](function.random-int.md) \- Отримує криптографічно безпечне, рівномірно вибране ціле число

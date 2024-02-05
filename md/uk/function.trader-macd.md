@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-ma.md: « traderма
-  - function.trader-macdext.md: tradermacdext »
+  - function.trader-ma.md: « trader\_ma
+  - function.trader-macdext.md: trader\_macdext »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermacd
+  - ref.trader.md: Функції Trader
+title: trader\_macd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermacd
+# trader\_macd
 
 (PECL trader >= 0.2.0)
 
-tradermacd — Змінна середня збіжність/дивергенція
+trader\_macd — Слизька середня збіжність/дивергенція
 
 ### Опис
 
 ```methodsynopsis
-trader_macd(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    int $signalPeriod = ?): array
+trader_macd(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    int $signalPeriod = ?): array
 ```
 
 ### Список параметрів

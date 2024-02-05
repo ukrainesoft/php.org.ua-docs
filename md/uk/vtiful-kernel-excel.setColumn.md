@@ -1,16 +1,17 @@
 ---
 navigation:
-  - vtiful-kernel-excel.output.md: '« VtifulKernelExcel::output'
-  - vtiful-kernel-excel.setRow.md: 'VtifulKernelExcel::setRow »'
+  - vtiful-kernel-excel.output.md: '« Vtiful\\Kernel\\Excel::output'
+  - vtiful-kernel-excel.setRow.md: 'Vtiful\\Kernel\\Excel::setRow »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.md: VtifulKernelExcel
-title: 'VtifulKernelExcel::setColumn'
+  - class.vtiful-kernel-excel.md: Vtiful\\Kernel\\Excel
+title: 'Vtiful\\Kernel\\Excel::setColumn'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelExcel::setColumn
+# Vtiful\\Kernel\\Excel::setColumn
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelExcel::setColumn — Встановити стовпець
+Vtiful\\Kernel\\Excel::setColumn — Встановити стовпець
 
 ### Опис
 
@@ -36,7 +37,7 @@ public Vtiful\Kernel\Excel::setColumn(string $range, float $width, resource $for
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

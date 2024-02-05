@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.readline-redisplay.md: « readlineredisplay
+  - function.readline-redisplay.md: « readline\_redisplay
   - function.readline.md: readline »
   - index.md: PHP Manual
-  - ref.readline.md: Функции Readline
-title: readlinewritehistory
+  - ref.readline.md: Опції Readline
+title: readline\_write\_history
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# readlinewritehistory
+# readline\_write\_history
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-readlinewritehistory — Записати історію команд у файл
+readline\_write\_history — Записати історію команд у файл
 
 ### Опис
 
@@ -28,10 +29,10 @@ readline_write_history(?string $filename = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `filename` тепер допускає значення null. |
+| 8.0.0 | `filename` тепер допускає значення null. |

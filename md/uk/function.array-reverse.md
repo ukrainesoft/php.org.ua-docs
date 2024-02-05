@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.array-replace.md: « arrayreplace
-  - function.array-search.md: arraysearch »
+  - function.array-replace.md: « array\_replace
+  - function.array-search.md: array\_search »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
-title: arrayreverse
+title: array\_reverse
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# arrayreverse
+# array\_reverse
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-arrayreverse — Повертає масив із елементами у зворотному порядку
+array\_reverse — Повертає масив із елементами у зворотному порядку
 
 ### Опис
 
@@ -28,7 +29,7 @@ array_reverse(array $array, bool $preserve_keys = false): array
 
 `preserve_keys`
 
-Якщо встановлено **`true`**, то числові ключі будуть збережені. Нечислові ключі не схильні до цієї опції і завжди зберігаються.
+Если установлено в\*\*`true`\*\*, то числові ключі будуть збережені. Нечислові ключі не схильні до цієї опції і завжди зберігаються.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ array_reverse(array $array, bool $preserve_keys = false): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **arrayreverse()****
+**Пример #1 Пример использования**array\_reverse()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ print_r($preserved);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -90,4 +91,4 @@ Array
 
 ### Дивіться також
 
--   [arrayflip()](function.array-flip.md) - Змінює місцями ключі з їхніми значеннями у масиві
+-   [array\_flip()](function.array-flip.md) \- Змінює місцями ключі з їх значеннями у масиві

@@ -4,9 +4,10 @@ navigation:
   - ziparchive.unchangeall.md: 'ZipArchive::unchangeAll »'
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
-title: 'ЖипАрхіві::статнаме'
+title: 'ZipArchive::statName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ЖипАрхіві::статнаме
+# ZipArchive::statName
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.5.0)
 
@@ -28,7 +29,7 @@ public ZipArchive::statName(string $name, int $flags = 0): array|false
 
 `flags`
 
-Прапор, який вказує, як має відбуватися пошук імені. Крім того, може вказуватися **`ZipArchive::FL_UNCHANGED`**, щоб запитати інформацію про вихідний файл в архіві, ігноруючи будь-які внесені зміни.
+Прапор, що вказує, як має відбуватися пошук імені. Крім того, може вказуватися **`ZipArchive::FL_UNCHANGED`**, щоб запитати інформацію про вихідний файл в архіві, ігноруючи будь-які внесені зміни.
 
 -   **`ZipArchive::FL_NOCASE`**
     
@@ -39,7 +40,7 @@ public ZipArchive::statName(string $name, int $flags = 0): array|false
 
 ### Значення, що повертаються
 
-Повертає масив, що містить детальну інформацію про елемент або **`false`** у разі виникнення помилки.
+Повертає масив, що містить детальну інформацію про елемент або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -58,7 +59,7 @@ if ($res === TRUE) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

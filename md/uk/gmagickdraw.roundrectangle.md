@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::roundrectangle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GmagickDraw::roundrectangle
 
@@ -15,7 +16,7 @@ GmagickDraw::roundrectangle — Малює прямокутник із закр�
 ### Опис
 
 ```methodsynopsis
-public GmagickDraw::roundrectangle(    float $x1,    float $y1,    float $x2,    float $y2,    float $rx,    float $ry): GmagickDraw
+public GmagickDraw::roundrectangle(    float $x1,    float $y1,    float $x2,    float $y2,    float $rx,    float $ry): GmagickDraw
 ```
 
 Малює прямокутник із закругленими кутами за двома координатами та радіусами кутів x та y, використовуючи поточне обведення, її ширину та налаштування заливки.

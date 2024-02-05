@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.mcrypt.md: « Mcrypt
-  - function.mcrypt-decrypt.md: mcryptdecrypt »
+  - function.mcrypt-decrypt.md: mcrypt\_decrypt »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
-title: mcryptcreateверб
+title: mcrypt\_create\_iv
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mcryptcreateверб
+# mcrypt\_create\_iv
 
 (PHP 4, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcryptcreateiv — Створити вектор, що ініціалізує (Initialization Vector або IV) з випадкового джерела
+mcrypt\_create\_iv — Створити ініціалізуючий вектор (Initialization Vector або IV) із випадкового джерела
 
 **Увага**
 
@@ -18,7 +19,7 @@ mcryptcreateiv — Створити вектор, що ініціалізує (I
 
 Є такі альтернативи:
 
--   [randombytes()](function.random-bytes.md)
+-   [random\_bytes()](function.random-bytes.md)
 
 ### Опис
 
@@ -38,19 +39,19 @@ IV призначений лише завдання альтернативног
 
 `source`
 
-Джерело IV. Джерело може бути задане однією з констант: **`MCRYPT_RAND`** (Системний генератор випадкових чисел), **`MCRYPT_DEV_RANDOM`** (читає дані з /dev/random) або **`MCRYPT_DEV_URANDOM`** (читає дані із /dev/urandom). До версії 5.3.0 на Windows підтримувався тільки **`MCRYPT_RAND`**
+Джерело IV. Джерело може бути задане однією з констант: **`MCRYPT_RAND`** (системний генератор випадкових чисел), **`MCRYPT_DEV_RANDOM`** (читає дані з /dev/random) або **`MCRYPT_DEV_URANDOM`** (читає дані із /dev/urandom). До версії 5.3.0 на Windows підтримувався тільки **`MCRYPT_RAND`**
 
 Зверніть увагу, що до PHP 5.6.0 значення за промовчанням було **`MCRYPT_DEV_RANDOM`**
 
-> **Зауваження**: Зверніть увагу, що **`MCRYPT_DEV_RANDOM`** може блокуватися до появи достатньої ентропії.
+> **Зауваження**: Обратите внимание, что\*\*`MCRYPT_DEV_RANDOM`\*\* може блокуватися до появи достатньої ентропії.
 
 ### Значення, що повертаються
 
-Повертає вектор, що ініціалізує, або **`false`** у разі виникнення помилки.
+Повертає вектор, що ініціалізує, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mcryptcreateiv()****
+**Пример #1 Пример использования**mcrypt\_create\_iv()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ IV призначений лише завдання альтернативног
 
 ### Дивіться також
 
--   [» http://www.ciphersbyritter.com/GLOSSARY.HTM#IV](http://www.ciphersbyritter.com/GLOSSARY.HTM#IV)
--   [» http://www.quadibloc.com/crypto/co0409.htm](http://www.quadibloc.com/crypto/co0409.htm)
+-   [» http://www.ciphersbyritter.com/GLOSSARY.HTM#IV](http://www.ciphersbyritter.com/GLOSSARY.HTM#IV)
+-   [» http://www.quadibloc.com/crypto/co0409.htm](http://www.quadibloc.com/crypto/co0409.htm)
 -   Applied Cryptography by Schneier (ISBN 0-471-11709-9), розділ 9.3
--   [randombytes()](function.random-bytes.md) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [random\_bytes()](function.random-bytes.md) \- Отримує криптографічно безпечні випадкові байти

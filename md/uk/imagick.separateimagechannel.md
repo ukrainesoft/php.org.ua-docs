@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::separateImageChannel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::separateImageChannel
 
@@ -24,7 +25,7 @@ public Imagick::separateImageChannel(int $channel): bool
 
 `channel`
 
-Визначає, який "канал" повернути. Для колірних просторів, відмінних від RGB, можна використовувати константи CHANNELRED, CHANNELGREEN, CHANNELBLUE для позначення 1-го, 2-го та 3-го каналів.
+Визначає, який 'канал' повернути. Для колірних просторів, відмінних від RGB, можна використовувати константи CHANNEL\_RED, CHANNEL\_GREEN, CHANNEL\_BLUE для позначення 1-го, 2-го та 3-го каналів.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public Imagick::separateImageChannel(int $channel): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::separateImageChannel()****
+**Пример #1 Пример использования**Imagick::separateImageChannel()\*\*\*\*
 
 ```php
 <?php

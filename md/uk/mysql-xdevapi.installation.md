@@ -4,11 +4,12 @@ navigation:
   - mysql-xdevapi.configuration.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - mysql-xdevapi.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
+Цей модуль [» PECL](https://pecl.php.net/)не поставляется вместе с PHP.
 
 Приклад процедури встановлення на Ubuntu 18.04 з PHP 7.2:
 
@@ -23,7 +24,7 @@ $ apt install php7.2-cli php7.2-dev php7.2-mysql php7.2-pdo php7.2-xml
 $ pecl install mysql_xdevapi
 ```
 
-Команда `pecl install` не включає модулі PHP (за замовчуванням), включення модулів PHP може бути зроблено кількома способами. Інший приклад PHP 7.2 в Ubuntu 18.04:
+Команда`pecl install` не включає модулі PHP (за замовчуванням), включення модулів PHP може бути зроблено кількома способами. Інший приклад PHP 7.2 в Ubuntu 18.04:
 
 ```
 // Создание собственного ini файла
@@ -44,4 +45,4 @@ mysqlnd
 pdo_mysql
 ```
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/mysqlxdevapi](https://pecl.php.net/package/mysql_xdevapi)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Встановлення PECL модулів](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/mysql\_xdevapi](https://pecl.php.net/package/mysql_xdevapi)

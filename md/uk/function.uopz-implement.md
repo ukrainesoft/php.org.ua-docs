@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-get-static.md: « uopzgetstatic
-  - function.uopz-overload.md: uopzoverload »
+  - function.uopz-get-static.md: « uopz\_get\_static
+  - function.uopz-overload.md: uopz\_overload »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzimplement
+title: uopz\_implement
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzimplement
+# uopz\_implement
 
 (PECL uopz 1, PECL uopz 2, PECL uopz 5, PECL uopz 6, PECL uopz 7 < 7.1.0)
 
-uopzimplement — Реалізує інтерфейс під час виконання
+uopz\_implement — Реалізує інтерфейс під час виконання
 
 ### Опис
 
@@ -18,7 +19,7 @@ uopzimplement — Реалізує інтерфейс під час викона
 uopz_implement(string $class, string $interface): bool
 ```
 
-Робить `class`, що реалізує `interface`
+Робить `class`, реализующий`interface`
 
 ### Список параметрів
 
@@ -28,15 +29,15 @@ uopz_implement(string $class, string $interface): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Починаючи з PHP 7.4.0, **uopzimplements()** викидає [RuntimeException](class.runtimeexception.md), якщо [OPcache](book.opcache.md) включено і запис класу `class` незмінна.
+Починаючи з PHP 7.4.0, **uopz\_implements()** викидає [RuntimeException](class.runtimeexception.md), якщо [OPcache](book.opcache.md) включено і запис класу `class`неизменна.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzimplement()****
+**Пример #1 Пример использования**uopz\_implement()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump(class_implements(myClass::class));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {

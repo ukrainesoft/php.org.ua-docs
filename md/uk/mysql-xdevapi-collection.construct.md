@@ -3,18 +3,19 @@ navigation:
   - mysql-xdevapi-collection.addorreplaceone.md: '« Collection::addOrReplaceOne'
   - mysql-xdevapi-collection.count.md: 'Collection::count »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
-title: 'Collection::construct'
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
+title: 'Collection::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Collection::construct
+# Collection::\_\_construct
 
 (No version information available, might only be in Git)
 
-Collection::construct - Конструктор класу Collection
+Collection::\_\_construct - Конструктор класу Collection
 
 ### Опис
 
-private **mysqlxdevapiCollection::construct**
+private**mysql\_xdevapi\\Collection::\_\_construct**()
 
 Створює об'єкт Collection.
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiCollection::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::getOne()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::getOne()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ print_r($collection->getOne($alfreds_id));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 00005b6b536100000000000000b1

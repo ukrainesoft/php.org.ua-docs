@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageBias'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageBias
 
@@ -22,7 +23,7 @@ Imagick::setImageBias — Встановлює зміщення зображен
 public Imagick::setImageBias(float $bias): bool
 ```
 
-Встановлює зміщення зображення для будь-якого методу, який згортає зображення (наприклад Imagick::ConvolveImage()).
+Встановлює зміщення зображення для будь-якого методу, який згортає зображення (наприклад, Imagick::ConvolveImage()).
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ public Imagick::setImageBias(float $bias): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setImageBias()****
+**Пример #1 Пример использования**Imagick::setImageBias()\*\*\*\*
 
 ```php
 <?php

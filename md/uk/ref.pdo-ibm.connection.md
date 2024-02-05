@@ -4,21 +4,22 @@ navigation:
   - ref.pdo-informix.md: Informix (PDO) »
   - index.md: PHP Manual
   - ref.pdo-ibm.md: IBM (PDO)
-title: PDOIBM DSN
+title: PDO\_IBM DSN
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# PDOIBM DSN
+# PDO\_IBM DSN
 
-(PECL PDOIBM >= 0.9.0)
+(PECL PDO\_IBM >= 0.9.0)
 
-PDOIBM DSN — З'єднання з базою даних IBM
+PDO\_IBM DSN — З'єднання з базою даних IBM
 
 ### Опис
 
-Ім'я джерела даних (Data Source Name, DSN) PDOIBM базується на IBM CLI DSN. Головний компонент PDOIBM DSN:
+Ім'я джерела даних (Data Source Name, DSN) PDO\_IBM базується на IBM CLI DSN. Головний компонент PDO\_IBM DSN:
 
 Префікс DSN
 
-Префікс DSN - **`ibm:`**
+Префикс DSN —\*\*`ibm:`\*\*
 
 DSN
 
@@ -26,9 +27,9 @@ DSN може бути одним з наступного:
 
 -   a) Налаштування джерела даних за допомогою db2cli.ini або odbc.ini
     
--   b) Каталогізоване ім'я бази даних. Тобто. псевдонім бази даних у каталозі клієнта DB2
+-   b) Каталогізоване ім'я бази даних. Т. е. псевдонім бази даних у каталозі клієнта DB2
     
--   c) Повноцінний рядок з'єднання: ``DRIVER={IBM DB2 ODBC DRIVER};DATABASE=`database`;HOSTNAME=`hostname`;PORT=`port`;PROTOCOL=TCPIP;UID=`username`;PWD=`password`;``, де параметри означають таке:
+-   c) Повноцінний рядок з'єднання:``DRIVER={IBM DB2 ODBC DRIVER};DATABASE=`database`;HOSTNAME=`hostname`;PORT=`port`;PROTOCOL=TCPIP;UID=`username`;PWD=`password`;``, де параметри означають таке:
     
     `database`
     
@@ -53,9 +54,9 @@ DSN може бути одним з наступного:
 
 ### Приклади
 
-**Приклад #1 Приклад PDOIBM DSN з використанням db2cli.ini**
+**Приклад #1 Приклад PDO\_IBM DSN із файлом db2cli.ini**
 
-Наступний приклад демонструє PDOIBM DSN для з'єднання з базою DB2, зазначеною як DB29 у db2cli.ini:
+Наступний приклад демонструє PDO\_IBM DSN для з'єднання з базою DB2, зазначеною як DB2\_9 у db2cli.ini:
 
 ```
 $db = new PDO("ibm:DSN=DB2_9", "", "");
@@ -67,9 +68,9 @@ Hostname=11.22.33.444
 Servicename=56789
 ```
 
-**Приклад #2 Приклад PDOIBM DSN з використанням рядка з'єднання**
+**Приклад #2 Приклад PDO\_IBM DSN з рядком з'єднання**
 
-Наступний приклад демонструє PDOIBM DSN для з'єднання з базою DB2 з ім'ям **`testdb`** використовуючи синтаксис з'єднання DB2 CLI.
+Наступний приклад показує PDO\_IBM DSN для з'єднання з базою DB2 з ім'ям **`testdb`**, використовуючи синтаксис з'єднання DB2 CLI.
 
 ```
 $db = new PDO("ibm:DRIVER={IBM DB2 ODBC DRIVER};DATABASE=testdb;" .

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.snmp3-walk.md: « snmpv3walk
+  - function.snmp3-walk.md: « snmp3\_walk
   - function.snmpgetnext.md: snmpgetnext »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
 title: snmpget
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # snmpget
 
@@ -15,10 +16,10 @@ snmpget — Отримує об'єкт SNMP
 ### Опис
 
 ```methodsynopsis
-snmpget(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
+snmpget(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
 ```
 
-Функція **snmpget()** використовується для читання значення об'єкта SNMP, вказаного в `object_id`
+Функция**snmpget()** використовується для читання значення об'єкта SNMP, вказаного в `object_id`
 
 ### Список параметрів
 
@@ -44,11 +45,11 @@ Read-спільнота.
 
 ### Значення, що повертаються
 
-Повертає значення об'єкта SNMP у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає значення об'єкта SNMP у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmpget()****
+**Пример #1 Пример использования**snmpget()\*\*\*\*
 
 ```php
 <?php
@@ -58,4 +59,4 @@ $syscontact = snmpget("127.0.0.1", "public", "system.SysContact.0");
 
 ### Дивіться також
 
--   [snmpset()](function.snmpset.md) - Встановлює значення об'єкта SNMP
+-   [snmpset()](function.snmpset.md) \- Встановлює значення об'єкта SNMP

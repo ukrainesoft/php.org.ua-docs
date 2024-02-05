@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.mysql-xdevapi-docresult.md: « mysqlxdevapiDocResult
+  - class.mysql-xdevapi-docresult.md: « mysql\_xdevapi\\DocResult
   - mysql-xdevapi-docresult.fetchall.md: 'DocResult::fetchAll »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-docresult.md: mysqlxdevapiDocResult
-title: 'DocResult::construct'
+  - class.mysql-xdevapi-docresult.md: mysql\_xdevapi\\DocResult
+title: 'DocResult::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DocResult::construct
+# DocResult::\_\_construct
 
 (No version information available, might only be in Git)
 
-DocResult::construct — Конструктор DocResult
+DocResult::\_\_construct — Конструктор DocResult
 
 ### Опис
 
-private **mysqlxdevapiDocResult::construct**
+private**mysql\_xdevapi\\DocResult::\_\_construct**()
 
 Отримати результати та попередження документа, створюється CollectionFind.
 
@@ -54,7 +55,7 @@ var_dump($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.geoip-asnum-by-name.md: « geoipasnumбname
-  - function.geoip-country-code-by-name.md: geoipcountrycodeбname »
+  - function.geoip-asnum-by-name.md: « geoip\_asnum\_by\_name
+  - function.geoip-country-code-by-name.md: geoip\_country\_code\_by\_name »
   - index.md: PHP Manual
-  - ref.geoip.md: Функции GeoIP
-title: geoipcontinentcodeбname
+  - ref.geoip.md: Функції GeoIP
+title: geoip\_continent\_code\_by\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# geoipcontinentcodeбname
+# geoip\_continent\_code\_by\_name
 
 (PECL geoip >= 1.0.3)
 
-geoipcontinentcodeбname — Отримати двосимвольний код континенту
+geoip\_continent\_code\_by\_name — Отримати двосимвольний код континенту
 
 ### Опис
 
@@ -18,7 +19,7 @@ geoipcontinentcodeбname — Отримати двосимвольний код 
 geoip_continent_code_by_name(string $hostname): string
 ```
 
-Функція **geoipcontinentcodeбname()** повертає двосимвольний код континенту, який відповідає імені хоста або IP-адреси.
+Функция**geoip\_continent\_code\_by\_name()** повертає двосимвольний код континенту, який відповідає імені хоста або IP-адреси.
 
 ### Список параметрів
 
@@ -44,7 +45,7 @@ geoip_continent_code_by_name(string $hostname): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoipcontinentcodeбname()****
+**Пример #1 Пример использования**geoip\_continent\_code\_by\_name()\*\*\*\*
 
 Цей приклад виведе розташування хоста example.com.
 
@@ -57,7 +58,7 @@ if ($continent) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Данный хост расположен в NA
@@ -65,4 +66,4 @@ if ($continent) {
 
 ### Дивіться також
 
--   [geoipcountrycodeбname()](function.geoip-country-code-by-name.md) - Отримати двосимвольний код країни
+-   [geoip\_country\_code\_by\_name()](function.geoip-country-code-by-name.md) \- Отримати двосимвольний код країни

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getShortName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getShortName
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getShortName — Отримує коротке ім'я функції
 
@@ -26,9 +27,9 @@ public ReflectionFunctionAbstract::getShortName(): string
 
 ### Значення, що повертаються
 
-Короткий ім'я функції.
+Коротка назва функції.
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.md) - Отримання імені простору імен
--   [пространства имён](language.namespaces.md)
+-   [ReflectionFunctionAbstract::getNamespaceName()](reflectionfunctionabstract.getnamespacename.md) \- Отримання імені простору імен
+-   [простору імен](language.namespaces.md)

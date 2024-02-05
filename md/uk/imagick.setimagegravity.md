@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageGravity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageGravity
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::setImageGravity — Встановлює гравітацію зображення
 
@@ -24,7 +25,7 @@ public Imagick::setImageGravity(int $gravity): bool
 
 `gravity`
 
-Властивість гравітації. Зверніться до списку [gravity констант](imagick.constants.md#imagick.constants.gravity)
+Свойство гравитации. Обратитесь к списку[gravity констант](imagick.constants.md#imagick.constants.gravity)
 
 ### Значення, що повертаються
 

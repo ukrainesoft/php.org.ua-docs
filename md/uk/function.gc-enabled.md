@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gc-enable.md: « gcenable
-  - function.gc-mem-caches.md: гкmemcaches »
+  - function.gc-enable.md: « gc\_enable
+  - function.gc-mem-caches.md: gc\_mem\_caches »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: гкenabled
+title: gc\_enabled
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# гкenabled
+# gc\_enabled
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-гкenabled — Повертає поточний стан збирача циклічних посилань
+gc\_enabled — Повертає поточний стан збирача циклічних посилань
 
 ### Опис
 
@@ -30,7 +31,7 @@ gc_enabled(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **гкenabled()****
+**Пример #1 Пример использования**gc\_enabled()\*\*\*\*
 
 ```php
 <?php
@@ -40,4 +41,4 @@ if(gc_enabled()) gc_collect_cycles();
 
 ### Дивіться також
 
--   [Сборка мусора](features.gc.md)
+-   [Складання сміття](features.gc.md)

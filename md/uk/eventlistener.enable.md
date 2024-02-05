@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventlistener.md: EventListener
 title: 'EventListener::enable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventListener::enable
 
@@ -27,8 +28,8 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventListener::disable()](eventlistener.disable.md) - Вимикає подію підключення до об'єкта слухача
+-   [EventListener::disable()](eventlistener.disable.md) \- Вимикає подію підключення до об'єкта слухача

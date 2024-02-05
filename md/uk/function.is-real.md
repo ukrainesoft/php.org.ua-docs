@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.is-object.md: « isobject
-  - function.is-resource.md: ісresource »
+  - function.is-object.md: « is\_object
+  - function.is-resource.md: is\_resource »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
-title: ісreal
+title: is\_real
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісreal
+# is\_real
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісreal - Псевдонім [ісfloat()](function.is-float.md)
+is\_real — Псевдоним[is\_float()](function.is-float.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ісfloat()](function.is-float.md)
+Функция — псевдоним функции:[is\_float()](function.is-float.md)
 
 **Увага**
 

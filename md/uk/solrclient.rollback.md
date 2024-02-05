@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::rollback'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::rollback
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrClient::rollback - Відкочує всі додавання/видалення, зроблені в індекс з моменту останньої фіксації
 
@@ -30,5 +31,5 @@ public SolrClient::rollback(): SolrUpdateResponse
 
 ### Дивіться також
 
--   [SolrClient::commit()](solrclient.commit.md) - Завершує всі додавання/видалення, зроблені в індексі
--   [SolrClient::optimize()](solrclient.optimize.md) - дефрагментує індекс
+-   [SolrClient::commit()](solrclient.commit.md) \- Завершує всі додавання/видалення, зроблені в індексі
+-   [SolrClient::optimize()](solrclient.optimize.md) \- дефрагментує індекс

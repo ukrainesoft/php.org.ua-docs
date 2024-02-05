@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-exp.md: « traderexp
-  - function.trader-get-compat.md: tradergetcompat »
+  - function.trader-exp.md: « trader\_exp
+  - function.trader-get-compat.md: trader\_get\_compat »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderfloor
+  - ref.trader.md: Функції Trader
+title: trader\_floor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderfloor
+# trader\_floor
 
 (PECL trader >= 0.2.0)
 
-traderfloor — Вектор найменшого числа
+trader\_floor — Вектор найменшого числа
 
 ### Опис
 

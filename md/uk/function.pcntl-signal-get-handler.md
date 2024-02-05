@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pcntl-signal-dispatch.md: pcntlsignaldispatch
-  - function.pcntl-signal.md: pcntlsignal »
+  - function.pcntl-signal-dispatch.md: « pcntl\_signal\_dispatch
+  - function.pcntl-signal.md: pcntl\_signal »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
-title: pcntlsignalgethandler
+title: pcntl\_signal\_get\_handler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pcntlsignalgethandler
+# pcntl\_signal\_get\_handler
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
-pcntlsignalgethandler — Отримати поточний обробник вказаного сигналу
+pcntl\_signal\_get\_handler — Отримати поточний обробник вказаного сигналу
 
 ### Опис
 
@@ -18,7 +19,7 @@ pcntlsignalgethandler — Отримати поточний обробник в�
 pcntl_signal_get_handler(int $signal): callable|int
 ```
 
-Функція **pcntlsignalgethandler()** отримає поточний обробник вказаного сигналу `signal`
+Функция**pcntl\_signal\_get\_handler()** отримає поточний обробник вказаного сигналу `signal`
 
 ### Список параметрів
 
@@ -28,17 +29,17 @@ pcntl_signal_get_handler(int $signal): callable|int
 
 ### Значення, що повертаються
 
-Функція поверне ціле значення, що вказує на константи **`SIG_DFL`** або **`SIG_IGN`**. Якщо заданий обробник користувача, повертається цей [callable](language.types.callable.md). функції.
+Функція поверне ціле значення, що вказує на константи **`SIG_DFL`**или**`SIG_IGN`**. Якщо заданий обробник користувача, повертається цей [callable](language.types.callable.md). функції.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Була додана функція **pcntlsignalgethandler()** |
+| 7.1.0 | Була додана функція **pcntl\_signal\_get\_handler()** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pcntlsignalgethandler()****
+**Пример #1 Пример использования**pcntl\_signal\_get\_handler()\*\*\*\*
 
 ```php
 <?php
@@ -58,4 +59,4 @@ var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: int(1)
 
 ### Дивіться також
 
--   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу
+-   [pcntl\_signal()](function.pcntl-signal.md) \- Встановлення оброблювача сигналу

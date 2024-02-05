@@ -1,16 +1,17 @@
 ---
 navigation:
-  - streamwrapper.stream-cast.md: '« streamWrapper::streamcast'
-  - streamwrapper.stream-eof.md: 'streamWrapper::streameof »'
+  - streamwrapper.stream-cast.md: '« streamWrapper::stream\_cast'
+  - streamwrapper.stream-eof.md: 'streamWrapper::stream\_eof »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
-title: 'streamWrapper::streamclose'
+title: 'streamWrapper::stream\_close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamWrapper::streamclose
+# streamWrapper::stream\_close
 
-(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::streamclose — Закриває ресурс
+streamWrapper::stream\_close — Закриває ресурс
 
 ### Опис
 
@@ -32,5 +33,5 @@ public streamWrapper::stream_close(): void
 
 ### Дивіться також
 
--   [fclose()](function.fclose.md) - Закриває відкритий дескриптор файлу
--   [streamWrapper::dirclosedir()](streamwrapper.dir-closedir.md) - Закрити дескриптор директорії
+-   [fclose()](function.fclose.md) \- Закриває відкритий дескриптор файлу
+-   [streamWrapper::dir\_closedir()](streamwrapper.dir-closedir.md) \- Закрити дескриптор директорії

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-subscribe.md: « imapsubscribe
-  - function.imap-timeout.md: imaptimeout »
+  - function.imap-subscribe.md: « imap\_subscribe
+  - function.imap-timeout.md: imap\_timeout »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapthread
+  - ref.imap.md: Функції IMAP
+title: imap\_thread
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapthread
+# imap\_thread
 
-(PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.7, PHP 5, PHP 7, PHP 8)
 
-imapthread — Отримати дерево пов'язаних повідомлень
+imap\_thread — Отримує дерево пов'язаних повідомлень
 
 ### Опис
 
@@ -24,32 +25,32 @@ imap_thread(IMAP\Connection $imap, int $flags = SE_FREE): array|false
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `flags`
 
 ### Значення, що повертаються
 
-**imapthread()** повертає асоціативний масив, що містить дерево повідомлень, пов'язаних за допомогою `REFERENCES`, або **`false`** у разі виникнення помилки.
+**imap\_thread()** повертає асоціативний масив, що містить дерево повідомлень, пов'язаних за допомогою `REFERENCES`, или\*\*`false`\*\*в случае возникновения ошибки.
 
 Кожне повідомлення у поточній поштовій скриньці буде представлене як запис у дереві в результуючому масиві:
 
--   $thread"XX.num" - Номер поточного повідомлення
+-   $thread\["XX.num"\]- Номер поточного повідомлення
     
--   $thread"ХХ.некст"
+-   $thread\["XX.next"\]
     
--   $thread"XX.branch"
+-   $thread\["XX.branch"\]
     
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imapthread()****
+**Пример #1 Пример использования**imap\_thread()\*\*\*\*
 
 ```php
 <?php

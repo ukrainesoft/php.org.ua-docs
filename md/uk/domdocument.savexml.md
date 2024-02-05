@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::saveXML'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::saveXML
 
@@ -24,21 +25,27 @@ public DOMDocument::saveXML(?DOMNode $node = null, int $options = 0): string|fal
 
 `node`
 
-Використовуйте цей аргумент для виведення лише певного вузла без оголошення XML, а не всього документа.
+Цей аргумент використовують для виведення лише певного вузла без оголошення XML, а не всього документа.
 
 `options`
 
-Додаткові налаштування. На даний момент підтримується тільки [LIBXMLNOEMPTYTAG](libxml.constants.md)
+Додаткові налаштування. Підтримуються константи [LIBXML\_NOEMPTYTAG](libxml.constants.md) і [LIBXML\_NOXMLDECL](libxml.constants.md). До версії PHP 8.3.0 підтримувалася лише константа [LIBXML\_NOEMPTYTAG](libxml.constants.md)
 
 ### Значення, що повертаються
 
-Повертає XML або **`false`** у разі виникнення помилки.
+Повертає XML або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
 **`DOM_WRONG_DOCUMENT_ERR`**
 
-Виникає, якщо `node` належить іншому документу.
+Виникає, якщо `node`принадлежит другому документу.
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.3.0 | Тепер підтримується константа [LIBXML\_NOXMLDECL](libxml.constants.md) |
 
 ### Приклади
 
@@ -69,7 +76,7 @@ echo $doc->saveXML($title);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Сохранение всего документа:
@@ -84,6 +91,6 @@ echo $doc->saveXML($title);
 
 ### Дивіться також
 
--   [DOMDocument::save()](domdocument.save.md) - Зберігає XML-дерево із внутрішнього подання до файлу
--   [DOMDocument::load()](domdocument.load.md) - Завантаження XML із файлу
--   [DOMDocument::loadXML()](domdocument.loadxml.md) - Завантаження XML з рядка
+-   [DOMDocument::save()](domdocument.save.md) \- Зберігає XML-дерево із внутрішнього подання до файлу
+-   [DOMDocument::load()](domdocument.load.md) \- Завантаження XML із файлу
+-   [DOMDocument::loadXML()](domdocument.loadxml.md) \- Завантаження XML з рядка

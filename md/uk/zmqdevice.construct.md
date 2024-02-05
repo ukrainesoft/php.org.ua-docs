@@ -4,13 +4,14 @@ navigation:
   - zmqdevice.getidletimeout.md: 'ZMQDevice::getIdleTimeout »'
   - index.md: PHP Manual
   - class.zmqdevice.md: ZMQDevice
-title: 'ZMQDevice::construct'
+title: 'ZMQDevice::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ZMQDevice::construct
+# ZMQDevice::\_\_construct
 
 (PECL zmq >= 0.5.0)
 
-ZMQDevice::construct — Створює новий пристрій
+ZMQDevice::\_\_construct — Створює новий пристрій
 
 ### Опис
 

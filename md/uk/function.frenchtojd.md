@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.easter-days.md: « easterdays
+  - function.easter-days.md: « easter\_days
   - function.gregoriantojd.md: gregoriantojd »
   - index.md: PHP Manual
-  - ref.calendar.md: Календарь
+  - ref.calendar.md: Календар
 title: frenchtojd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # frenchtojd
 
@@ -38,9 +39,9 @@ frenchtojd(int $month, int $day, int $year): int
 
 ### Значення, що повертаються
 
-Кількість днів у юліанському літочисленні для заданої дати за французьким республіканським календарем.
+Повертає кількість днів у юліанському літочисленні для заданої дати за французьким республіканським календарем.
 
 ### Дивіться також
 
--   [jdtofrench()](function.jdtofrench.md) - Переказує кількість днів у юліанському літочисленні в дату за французьким республіканським календарем
--   [calтоjd()](function.cal-to-jd.md) - Перетворює задану дату на юліанську
+-   [jdtofrench()](function.jdtofrench.md) \- Переказує кількість днів у юліанському літочисленні в дату за французьким республіканським календарем
+-   [cal\_to\_jd()](function.cal-to-jd.md) \- Перетворює задану дату на юліанську

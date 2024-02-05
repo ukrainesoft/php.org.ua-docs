@@ -3,8 +3,9 @@ navigation:
   - function.jdtofrench.md: « jdtofrench
   - function.jdtojewish.md: jdtojewish »
   - index.md: PHP Manual
-  - ref.calendar.md: Календарь
+  - ref.calendar.md: Календар
 title: jdtogregorian
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # jdtogregorian
 
@@ -32,5 +33,5 @@ jdtogregorian(int $julian_day): string
 
 ### Дивіться також
 
--   [gregoriantojd()](function.gregoriantojd.md) - Перетворює дату за григоріанським календарем на кількість днів у юліанському літочисленні
--   [calfromjd()](function.cal-from-jd.md) - Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
+-   [gregoriantojd()](function.gregoriantojd.md) \- Перетворює дату за григоріанським календарем у кількість днів у юліанському літочисленні
+-   [cal\_from\_jd()](function.cal-from-jd.md) \- Перетворює дату, задану в юліанському календарі, на дату вказаного календаря

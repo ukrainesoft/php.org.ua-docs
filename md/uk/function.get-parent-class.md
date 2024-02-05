@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-object-vars.md: « getobjectvars
-  - function.interface-exists.md: interfaceexists »
+  - function.get-object-vars.md: « get\_object\_vars
+  - function.interface-exists.md: interface\_exists »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
-title: getparentclass
+title: get\_parent\_class
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getparentclass
+# get\_parent\_class
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-getparentclass — Повертає ім'я батьківського класу для об'єкта або класу
+get\_parent\_class — Повертає ім'я батьківського класу для об'єкта або класу
 
 ### Опис
 
@@ -28,23 +29,21 @@ get_parent_class(object|string $object_or_class = ?): string|false
 
 ### Значення, що повертаються
 
-Повертає ім'я батьківського класу, якщо `object_or_class` є об'єктом чи ім'ям класу.
+Повертає ім'я батьківського класу, якщо `object_or_class` — це об'єкт чи ім'я класу.
 
-> **Зауваження**
-> 
-> Якщо об'єкт не має батька або переданого класу з такою назвою не існує, то повертається **`false`**
+Повертає **`false`**, якщо об'єкт немає батька або переданого класу з таким ім'ям не існує.
 
-Якщо функція викликана без параметрів поза об'єктом, ця функція повертає **`false`**
+Повертає **`false`**, якщо викликана поза об'єктом без параметра.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `object_or_class` тепер приймає лише об'єкти чи коректні імена класів |
+| 8.0.0 | Параметр`object_or_class` тепер приймає лише об'єкти чи коректні імена класів. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getparentclass()****
+**Пример #1 Пример использования функции**get\_parent\_class()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +75,7 @@ $bar = new child2();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 I'm Dad's son
@@ -85,6 +84,6 @@ I'm Dad's son too
 
 ### Дивіться також
 
--   [getclass()](function.get-class.md) - Повертає ім'я класу, до якого належить об'єкт
--   [ісsubclassof()](function.is-subclass-of.md) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
--   [classparents()](function.class-parents.md) - Повертає список батьківських класів заданого класу
+-   [get\_class()](function.get-class.md) \- Повертає ім'я класу, до якого належить об'єкт
+-   [is\_subclass\_of()](function.is-subclass-of.md) \- Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [class\_parents()](function.class-parents.md) \- Повертає список батьківських класів заданого класу

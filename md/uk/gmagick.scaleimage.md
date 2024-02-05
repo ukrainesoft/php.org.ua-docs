@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::scaleimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::scaleimage
 
@@ -18,7 +19,7 @@ Gmagick::scaleimage — Масштабує розмір зображення
 public Gmagick::scaleimage(int $width, int $height, bool $fit = false): Gmagick
 ```
 
-Масштабування розміру зображення до заданих розмірів. Інший параметр буде розрахований, якщо як будь-який з параметрів буде переданий 0.
+Масштабує розмір зображення до розмірів. Інший параметр буде розрахований, якщо як будь-який з параметрів буде переданий 0.
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ public Gmagick::scaleimage(int $width, int $height, bool $fit = false): Gmagick
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-set-option.md: « ftpsetoption
-  - function.ftp-size.md: ftpsize »
+  - function.ftp-set-option.md: « ftp\_set\_option
+  - function.ftp-size.md: ftp\_size »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpsite
+title: ftp\_site
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpsite
+# ftp\_site
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftpsite — Надсилає серверу команду SITE
+ftp\_site — Надсилає серверу команду SITE
 
 ### Опис
 
@@ -18,7 +19,7 @@ ftpsite — Надсилає серверу команду SITE
 ftp_site(FTP\Connection $ftp, string $command): bool
 ```
 
-**ftpsite()** відправляє вказану команду `SITE` FTP-сервер.
+\*\*ftp\_site()\*\*отправляет указанную команду`SITE` FTP-сервер.
 
 Команди `SITE` не стандартизовані та залежать від FTP-сервера. Вони можуть бути корисними для зміни прав доступу до файлів або зміни власника або групи.
 
@@ -26,7 +27,7 @@ ftp_site(FTP\Connection $ftp, string $command): bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `command`
 
@@ -34,13 +35,13 @@ ftp_site(FTP\Connection $ftp, string $command): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -66,4 +67,4 @@ if (ftp_site($ftp, 'CHMOD 0600 /home/user/privatefile')) {
 
 ### Дивіться також
 
--   [ftpraw()](function.ftp-raw.md) - Надсилає довільну команду FTP-серверу
+-   [ftp\_raw()](function.ftp-raw.md) \- Надсилає довільну команду FTP-серверу

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-repos-fs-commit-txn.md: « svnreposфсcommittxn
-  - function.svn-repos-hotcopy.md: svnreposhotcopy »
+  - function.svn-repos-fs-commit-txn.md: « svn\_repos\_fs\_commit\_txn
+  - function.svn-repos-hotcopy.md: svn\_repos\_hotcopy »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnreposфс
+title: svn\_repos\_fs
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnreposфс
+# svn\_repos\_fs
 
 (PECL svn >= 0.1.0)
 
-svnreposfs — Повертає дескриптор файлової системи для репозиторію
+svn\_repos\_fs — Повертає дескриптор файлової системи для репозиторію
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_repos_fs(resource $repos): resource
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає дескриптор файлової системи для репозиторію.
 

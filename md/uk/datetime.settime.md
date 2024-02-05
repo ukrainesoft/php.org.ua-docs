@@ -5,32 +5,33 @@ navigation:
   - index.md: PHP Manual
   - class.datetime.md: DateTime
 title: 'DateTime::setTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTime::setTime
 
-# datetimeset
+# date\_time\_set
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-DateTime::setTime -- datetimeset - Встановлює час
+DateTime::setTime -- date\_time\_set - Встановлює час
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public DateTime::setTime(    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTime
+public DateTime::setTime(    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTime
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-date_time_set(    DateTime $object,    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTime
+date_time_set(    DateTime $object,    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTime
 ```
 
 Встановлює поточне значення часу об'єкта DateTime на нове значення.
 
-Подібний до методу [DateTimeImmutable::setTime()](datetimeimmutable.settime.md), крім роботи з об'єктом [DateTime](class.datetime.md)
+Подобен методу[DateTimeImmutable::setTime()](datetimeimmutable.settime.md), крім роботи з об'єктом [DateTime](class.datetime.md)
 
 Процедурна версія приймає об'єкт [DateTime](class.datetime.md) як перший аргумент.
 
@@ -38,7 +39,7 @@ date_time_set(    DateTime $object,    int $hour,    int $minute,    int $second
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [date\_create()](function.date-create.md). Функція змінює цей об'єкт.
 
 `hour`
 
@@ -58,15 +59,15 @@ date_time_set(    DateTime $object,    int $hour,    int $minute,    int $second
 
 ### Значення, що повертаються
 
-Повертає модифікований об'єкт [DateTime](class.datetime.md) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
+Повертає модифікований об'єкт [DateTime](class.datetime.md)для применения в цепи методов.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Поведінка з подвійним існуючим годинником (під час переходу на літній час) змінилася. Раніше PHP вибирав друге входження (після переходу на літній час), а не перше (до переходу на літній час). |
-|  | Доданий параметр `microsecond` |
+| 8.1.0 | Поведінка з подвійним існуючим годинником (під час переходу на літній час) змінилася. Раніше PHP вибирав друге входження (після переходу на літній час), а не перше (до переходу на літній час). |
+| 7.1.0 | Добавлен параметр`microsecond` |
 
 ### Дивіться також
 
--   [DateTimeImmutable::setTime()](datetimeimmutable.settime.md) - Встановлює час
+-   [DateTimeImmutable::setTime()](datetimeimmutable.settime.md) \- Встановлює час

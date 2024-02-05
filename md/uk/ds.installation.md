@@ -4,11 +4,12 @@ navigation:
   - ds.constants.md: Обумовлені константи »
   - index.md: PHP Manual
   - ds.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Найпростіший спосіб встановлення через [» PECL](https://pecl.php.net/package/ds)
+Найпростіший спосіб встановлення через [» PECL](https://pecl.php.net/package/ds)
 
 ```
 pecl install ds
@@ -34,8 +35,8 @@ make clean
 phpize --clean
 ```
 
-Якщо ви використовуєте Windows, ви можете завантажити [» готовую библиотеку .dll из PECL](https://pecl.php.net/package/ds)
+Якщо ви використовуєте Windows, ви можете завантажити [» готову бібліотеку .dll з PECL](https://pecl.php.net/package/ds)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо ви використовуєте Composer, рекомендується включити [» php-ds/php-ds](https://packagist.org/packages/php-ds/php-ds) у ваш проект, щоб ваш код залишався робочим, без того, встановлено модуль чи ні.
+> Якщо ви використовуєте Composer, рекомендується включити [» php-ds/php-ds](https://packagist.org/packages/php-ds/php-ds) у ваш проект, щоб ваш код залишався робочим, без того, встановлено модуль чи ні.

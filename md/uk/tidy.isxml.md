@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.tidy.md: tidy
 title: 'tidy::isXml'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidy::isXml
 
-# tidyісxml
+# tidy\_is\_xml
 
-(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
 
-tidy::isXml -- tidyісxml — Визначає, чи документ є спільним XML-документом (не HTML/XHTML)
+tidy::isXml -- tidy\_is\_xml — Визначає, чи документ є спільним XML-документом (не HTML/XHTML)
 
 ### Опис
 

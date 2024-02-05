@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-rand-setall.md: « statsrandsetall
-  - function.stats-standard-deviation.md: statsstandarddeviation »
+  - function.stats-rand-setall.md: « stats\_rand\_setall
+  - function.stats-standard-deviation.md: stats\_standard\_deviation »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsskew
+title: stats\_skew
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsskew
+# stats\_skew
 
 (PECL stats >= 1.0.0)
 
-statsskew — Обчислює асиметрію даних у масиві
+stats\_skew — Обчислює асиметрію даних у масиві
 
 ### Опис
 
@@ -28,4 +29,4 @@ stats_skew(array $a): float
 
 ### Значення, що повертаються
 
-Повертає асиметрію значень у `a` або **`false`**, якщо `a` порожній чи не є масивом.
+Повертає асиметрію значень у `a`или\*\*`false`\*\*, якщо `a` порожній чи не є масивом.

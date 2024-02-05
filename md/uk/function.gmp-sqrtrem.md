@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-sqrt.md: « gmpsqrt
-  - function.gmp-strval.md: gmpstrval »
+  - function.gmp-sqrt.md: « gmp\_sqrt
+  - function.gmp-strval.md: gmp\_strval »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpsqrtrem
+title: gmp\_sqrtrem
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpsqrtrem
+# gmp\_sqrtrem
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpsqrtrem - Квадратний корінь із залишком
+gmp\_sqrtrem - Квадратний корінь із залишком
 
 ### Опис
 
@@ -34,7 +35,7 @@ gmp_sqrtrem(GMP|int|string $num): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpsqrtrem()****
+**Пример #1 Пример использования**gmp\_sqrtrem()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ echo gmp_strval($sqrt3) . ", " . gmp_strval($sqrt3rem) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 3, 0

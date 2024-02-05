@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.readline-completion-function.md: « readlinecompletionfunction
-  - function.readline-list-history.md: readlinelisthistory »
+  - function.readline-completion-function.md: « readline\_completion\_function
+  - function.readline-list-history.md: readline\_list\_history »
   - index.md: PHP Manual
-  - ref.readline.md: Функции Readline
-title: readlineinfo
+  - ref.readline.md: Опції Readline
+title: readline\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# readlineinfo
+# readline\_info
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-readlineinfo — Встановлює/читає різні внутрішні змінні readline
+readline\_info — Встановлює/читає різні внутрішні змінні readline
 
 ### Опис
 
@@ -32,12 +33,12 @@ readline_info(?string $var_name = null, int|string|bool|null $value = null): mix
 
 ### Значення, що повертаються
 
-Якщо викликати функцію без параметрів, буде повернуто масив значень всіх внутрішніх змінних readline. Елементи масиву матимуть наступні індекси: done, end, eraseemptyline, libraryversion, linebuffer, mark, pendinginput, point, prompt, readlinename та terminalname.
+Якщо викликати функцію без параметрів, буде повернуто масив значень всіх внутрішніх змінних readline. У елементів масиву будуть наступні індекси: `done` `end` `erase_empty_line` `library_version` `line_buffer` `mark` `pending_input` `point` `prompt` `readline_name`и`terminal_name`. Масив (array) міститиме лише ті елементи, які підтримуються бібліотекою, яка використовується для складання модуля readline.
 
 Якщо викликати з одним або двома параметрами, то повернеться старе/поточне значення змінної.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `var_name` і `value` тепер допускають значення null. |
+| 8.0.0 | `var_name`и`value` тепер допускають значення null. |

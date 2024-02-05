@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-radio.append.md: '« UIControlsRadio::append'
-  - ui-controls-radio.onselected.md: 'ОЙControlsRadio::onSelected »'
+  - ui-controls-radio.append.md: '« UI\\Controls\\Radio::append'
+  - ui-controls-radio.onselected.md: 'UI\\Controls\\Radio::onSelected »'
   - index.md: PHP Manual
-  - class.ui-controls-radio.md: ОЙControlsRadio
-title: 'ОЙControlsRadio::getSelected'
+  - class.ui-controls-radio.md: UI\\Controls\\Radio
+title: 'UI\\Controls\\Radio::getSelected'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsRadio::getSelected
+# UI\\Controls\\Radio::getSelected
 
 (UI 0.9.9)
 
-ОЙControlsRadio::getSelected — Отримати вибраний варіант
+UI\\Controls\\Radio::getSelected — Отримати вибраний варіант
 
 ### Опис
 

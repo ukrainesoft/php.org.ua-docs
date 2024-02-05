@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-entry.onchange.md: '« UIControlsEntry::onChange'
-  - ui-controls-entry.settext.md: 'ОЙControlsEntry::setText »'
+  - ui-controls-entry.onchange.md: '« UI\\Controls\\Entry::onChange'
+  - ui-controls-entry.settext.md: 'UI\\Controls\\Entry::setText »'
   - index.md: PHP Manual
-  - class.ui-controls-entry.md: ОЙControlsEntry
-title: 'ОЙControlsEntry::setReadOnly'
+  - class.ui-controls-entry.md: UI\\Controls\\Entry
+title: 'UI\\Controls\\Entry::setReadOnly'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsEntry::setReadOnly
+# UI\\Controls\\Entry::setReadOnly
 
 (UI 0.9.9)
 
-ОЙControlsEntry::setReadOnly — Встановити "тільки для читання"
+UI\\Controls\\Entry::setReadOnly — Встановити "тільки для читання"
 
 ### Опис
 

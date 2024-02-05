@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::getTimeZoneId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::getTimeZoneId
 
-# datefmtgettimezoneід
+# datefmt\_get\_timezone\_id
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::getTimeZoneId -- datefmtgettimezoneid — Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
+IntlDateFormatter::getTimeZoneId -- datefmt\_get\_timezone\_id — Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
 
 ### Опис
 
@@ -38,11 +39,11 @@ datefmt_get_timezone_id(IntlDateFormatter $formatter): string|false
 
 ### Значення, що повертаються
 
-Рядок ідентифікатора часового поясу, який використовується цим засобом форматування або **`false`** у разі виникнення помилки.
+Рядок ідентифікатора часового поясу, який використовується цим засобом форматування або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmtgettimezoneid()****
+**Пример #1 Пример использования**datefmt\_get\_timezone\_id()\*\*\*\*
 
 ```php
 <?php
@@ -78,7 +79,7 @@ echo 'Теперь timezone_id средства форматирования: ' 
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 timezone_id средства форматирования: America/Los_Angeles
@@ -87,5 +88,5 @@ timezone_id средства форматирования: America/Los_Angeles
 
 ### Дивіться також
 
--   [datefmtsettimezone()](intldateformatter.settimezone.md) - Встановлює часовий пояс засобу форматування
--   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати
+-   [datefmt\_set\_timezone()](intldateformatter.settimezone.md) \- Встановлює часовий пояс засобу форматування
+-   [datefmt\_create()](intldateformatter.create.md) \- Створює засіб форматування дати

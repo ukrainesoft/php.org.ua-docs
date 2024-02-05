@@ -1,18 +1,19 @@
 ---
 navigation:
-  - yar-concurrent-client.reset.md: '« YarConcurrentClient::reset'
-  - yar-server-exception.gettype.md: 'YarServerException::getType »'
+  - yar-concurrent-client.reset.md: '« Yar\_Concurrent\_Client::reset'
+  - yar-server-exception.gettype.md: 'Yar\_Server\_Exception::getType »'
   - index.md: PHP Manual
   - book.yar.md: Yar
-title: Клас YarServerException
+title: Клас Yar\_Server\_Exception
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YarServerException
+# Клас Yar\_Server\_Exception
 
 (No version information available, might only be in Git)
 
 ## Вступ
 
-Якщо сервіс викидає винятки, на стороні клієнта буде викинуто виняток YarServerВисновок.
+Якщо сервіс викидає винятки, на стороні клієнта буде викинуто виняток Yar\_Server\_Exception.
 
 ## Огляд класів
 
@@ -68,8 +69,8 @@ file
 
 line
 
-type
+\_type
 
 ## Зміст
 
--   [YarServerException::getType](yar-server-exception.gettype.md) — Отримати тип виключення
+-   [Yar\_Server\_Exception::getType](yar-server-exception.gettype.md)— Отримати тип виключення

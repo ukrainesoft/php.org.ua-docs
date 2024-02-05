@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-real-escape-string.md: « cubridrealescapestring
-  - function.cubrid-unbuffered-query.md: cubridunbufferedquery »
+  - function.cubrid-real-escape-string.md: « cubrid\_real\_escape\_string
+  - function.cubrid-unbuffered-query.md: cubrid\_unbuffered\_query »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridresult
+title: cubrid\_result
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridresult
+# cubrid\_result
 
 (PECL CUBRID >= 8.3.0)
 
-cubridresult — Отримати значення із заданого стовпця заданого рядка
+cubrid\_result — Отримати значення із заданого стовпця заданого рядка
 
 ### Опис
 
@@ -24,7 +25,7 @@ cubrid_result(resource $result, int $row, mixed $field = 0): string
 
 `result`
 
-`result` отриманий з [cubridexecute()](function.cubrid-execute.md)
+`result` отриманий з [cubrid\_execute()](function.cubrid-execute.md)
 
 `row`
 
@@ -32,17 +33,17 @@ cubrid_result(resource $result, int $row, mixed $field = 0): string
 
 `field`
 
-Ім'я або індекс стовпця `field`. Це може бути індекс, ім'я шпальти, ім'я таблиці з ім'ям шпальти, розділених точкою (tablename.fieldname). Якщо ім'я стовпця є псевдонімом ('select foo as bar from...'), використовуйте цей псевдонім замість реального імені стовпця. Якщо не задано, то буде використано перший стовпець.
+Ім'я або індекс стовпця `field`. . Це може бути індекс, ім'я шпальти, ім'я таблиці з ім'ям шпальти, розділених точкою (tablename.fieldname). Якщо ім'я стовпця є псевдонімом ('select foo as bar from...'), використовуйте цей псевдонім замість реального імені стовпця. Якщо не задано, то буде використано перший стовпець.
 
 ### Значення, що повертаються
 
 Значення заданого стовпця у разі успішного виконання (NULL, якщо значення null).
 
-**`false`** у разі виникнення помилки.
+\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridresult()****
+**Пример #1 Пример использования**cubrid\_result()\*\*\*\*
 
 ```php
 <?php
@@ -64,7 +65,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(1) "X"

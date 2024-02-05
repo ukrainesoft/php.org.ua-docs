@@ -1,14 +1,15 @@
 ---
 navigation:
   - fiber.getcurrent.md: '« Fiber::getCurrent'
-  - weakreference.construct.md: 'WeakReference::construct »'
+  - weakreference.construct.md: 'WeakReference::\_\_construct »'
   - index.md: PHP Manual
   - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Клас WeakReference
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас WeakReference
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 ## Вступ
 
@@ -20,14 +21,9 @@ title: Клас WeakReference
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      final
-      class WeakReference
-     
+     final
+     class WeakReference
      {
 
     /* Методы */
@@ -54,7 +50,7 @@ var_dump($weakref->get());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(stdClass)#1 (0) {
@@ -64,6 +60,6 @@ NULL
 
 ## Зміст
 
--   [WeakReference::construct](weakreference.construct.md) - Конструктор, який забороняє реалізацію
--   [WeakReference::create](weakreference.create.md) — Створює нове слабке посилання
--   [WeakReference::get](weakreference.get.md) — Отримує об'єкт із слабким посиланням
+-   [WeakReference::\_\_construct](weakreference.construct.md) \- Конструктор, який забороняє реалізацію
+-   [WeakReference::create](weakreference.create.md)— Створює нове слабке посилання
+-   [WeakReference::get](weakreference.get.md)— Отримує об'єкт із слабким посиланням

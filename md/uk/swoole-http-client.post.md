@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-http-client.on.md: '« SwooleHttpClient::on'
-  - swoole-http-client.push.md: 'SwooleHttpClient::push »'
+  - swoole-http-client.on.md: '« Swoole\\Http\\Client::on'
+  - swoole-http-client.push.md: 'Swoole\\Http\\Client::push »'
   - index.md: PHP Manual
-  - class.swoole-http-client.md: SwooleHttpClient
-title: 'SwooleHttpClient::post'
+  - class.swoole-http-client.md: Swoole\\Http\\Client
+title: 'Swoole\\Http\\Client::post'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpClient::post
+# Swoole\\Http\\Client::post
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpClient::post — Надсилає HTTP-запит POST на віддалений сервер
+Swoole\\Http\\Client::post — Надсилає HTTP-запит POST на віддалений сервер
 
 ### Опис
 

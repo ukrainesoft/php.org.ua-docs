@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::data'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanTask::data
 
@@ -15,7 +16,7 @@ GearmanTask::data — Отримати дані, повернені для за�
 ### Опис
 
 ```methodsynopsis
-public GearmanTask::data(): string
+public GearmanTask::data(): false|string
 ```
 
 Отримує дані, що повертаються обробником після завершення роботи завдання.
@@ -30,4 +31,4 @@ public GearmanTask::data(): string
 
 ### Дивіться також
 
--   [GearmanTask::dataSize()](gearmantask.datasize.md) - Отримати розмір даних, що повертаються
+-   [GearmanTask::dataSize()](gearmantask.datasize.md) \- Отримати розмір даних, що повертаються

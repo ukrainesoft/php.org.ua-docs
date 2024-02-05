@@ -1,10 +1,11 @@
 ---
 navigation:
   - evembed.sweep.md: '« EvEmbed::sweep'
-  - evfork.construct.md: 'EvFork::construct »'
+  - evfork.construct.md: 'EvFork::\_\_construct »'
   - index.md: PHP Manual
-  - book.ev.md: Єв
+  - book.ev.md: Ev
 title: Клас EvFork
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EvFork
 
@@ -108,5 +109,5 @@ public
 
 ## Зміст
 
--   [EvFork::construct](evfork.construct.md) - Конструктор спостерігача EvFork
--   [EvFork::createStopped](evfork.createstopped.md) - Створити об'єкт класу EvFork, але не стартувати його
+-   [EvFork::\_\_construct](evfork.construct.md) \- Конструктор спостерігача EvFork
+-   [EvFork::createStopped](evfork.createstopped.md) \- Створити об'єкт класу EvFork, але не стартувати його

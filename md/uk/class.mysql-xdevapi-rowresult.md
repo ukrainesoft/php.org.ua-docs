@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-result.getwarningscount.md: '« Result::getWarningsCount'
-  - mysql-xdevapi-rowresult.construct.md: 'RowResult::construct »'
+  - mysql-xdevapi-rowresult.construct.md: 'RowResult::\_\_construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Клас RowResult
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас RowResult
 
@@ -42,11 +43,11 @@ public getWarningsCount(): int
 
 ## Зміст
 
--   [RowResult::construct](mysql-xdevapi-rowresult.construct.md) - Конструктор класу RowResult
--   [RowResult::fetchAll](mysql-xdevapi-rowresult.fetchall.md) — Отримує всі рядки з результату
--   [RowResult::fetchOne](mysql-xdevapi-rowresult.fetchone.md) — Отримує рядок із результату
--   [RowResult::getColumnsCount](mysql-xdevapi-rowresult.getcolumncount.md) — Отримує кількість стовпців
--   [RowResult::getColumnNames](mysql-xdevapi-rowresult.getcolumnnames.md) — Отримує всі імена стовпців
--   [RowResult::getColumns](mysql-xdevapi-rowresult.getcolumns.md) — Отримує метадані стовпця
--   [RowResult::getWarnings](mysql-xdevapi-rowresult.getwarnings.md) — Отримує попередження останньої операції
--   [RowResult::getWarningsCount](mysql-xdevapi-rowresult.getwarningscount.md) — Отримує кількість попереджень останньої операції
+-   [RowResult::\_\_construct](mysql-xdevapi-rowresult.construct.md) \- Конструктор класу RowResult
+-   [RowResult::fetchAll](mysql-xdevapi-rowresult.fetchall.md)— Отримує всі рядки з результату
+-   [RowResult::fetchOne](mysql-xdevapi-rowresult.fetchone.md)— Отримує рядок із результату
+-   [RowResult::getColumnsCount](mysql-xdevapi-rowresult.getcolumncount.md)— Отримує кількість стовпців
+-   [RowResult::getColumnNames](mysql-xdevapi-rowresult.getcolumnnames.md)— Отримує всі імена стовпців
+-   [RowResult::getColumns](mysql-xdevapi-rowresult.getcolumns.md)— Отримує метадані стовпця
+-   [RowResult::getWarnings](mysql-xdevapi-rowresult.getwarnings.md)— Отримує попередження останньої операції
+-   [RowResult::getWarningsCount](mysql-xdevapi-rowresult.getwarningscount.md)— Отримує кількість попереджень останньої операції

@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.preg-replace-callback-array.md: « pregreplacecallbackarray
-  - function.preg-replace.md: pregreplace »
+  - function.preg-replace-callback-array.md: « preg\_replace\_callback\_array
+  - function.preg-replace.md: preg\_replace »
   - index.md: PHP Manual
-  - ref.pcre.md: Функции PCRE
-title: pregreplacecallback
+  - ref.pcre.md: Функції PCRE
+title: preg\_replace\_callback
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pregreplacecallback
+# preg\_replace\_callback
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
-pregreplacecallback — Виконує пошук за регулярним виразом та заміною з використанням callback-функції
+preg\_replace\_callback — Виконує пошук за регулярним виразом та заміною з використанням callback-функції
 
 ### Опис
 
 ```methodsynopsis
-preg_replace_callback(    string|array $pattern,    callable $callback,    string|array $subject,    int $limit = -1,    int &$count = null,    int $flags = 0): string|array|null
+preg_replace_callback(    string|array $pattern,    callable $callback,    string|array $subject,    int $limit = -1,    int &$count = null,    int $flags = 0): string|array|null
 ```
 
-Поведінка цієї функції багато в чому нагадує [pregreplace()](function.preg-replace.md), за винятком того, що замість параметра `replacement` необхідно вказувати `callback`функцію.
+Поведінка цієї функції багато в чому нагадує [preg\_replace()](function.preg-replace.md), за винятком того, що замість параметра `replacement` необхідно вказувати `callback`\-функцію.
 
 ### Список параметрів
 
@@ -34,9 +35,9 @@ Callback-функція, що викликається, якій буде пер
 handler(array $matches): string
 ```
 
-Досить часто `callback` функція, окрім як у виклику \*\*pregreplacecallback()\*\*ні в чому більше не бере участі. Виходячи з цих міркувань, можна використовувати [анонімні функції](functions.anonymous.md) для створення callback-функції безпосередньо у виклику **pregreplacecallback()**. Якщо ви використовуєте такий підхід, вся інформація, пов'язана із заміною за регулярним виразом, буде зібрана в одному місці, і простір імен функцій не буде захаращуватися записами, що не використовуються.
+Достаточно часто`callback` функція, окрім як у виклику \*\*preg\_replace\_callback()\*\*ні в чому більше не бере участі. Виходячи з цих міркувань, можна використовувати [анонімні функції](functions.anonymous.md) для створення callback-функції безпосередньо у виклику **preg\_replace\_callback()**. Якщо ви використовуєте такий підхід, вся інформація, пов'язана із заміною за регулярним виразом, буде зібрана в одному місці, і простір імен функцій не буде захаращуватися записами, що не використовуються.
 
-**Приклад #1 **pregreplacecallback()** та анонімна функція**
+**Пример #1**preg\_replace\_callback()\*\* та анонімна функція\*\*
 
 ```php
 <?php
@@ -64,7 +65,7 @@ fclose($fp);
 
 `limit`
 
-Максимально можлива кількість замін для кожного шаблону в кожному рядку `subject`. За замовчуванням одно `-1` (без обмежень).
+Максимально можлива кількість замін для кожного шаблону в кожному рядку `subject`По умолчанию равно`-1` (без обмежень).
 
 `count`
 
@@ -72,11 +73,11 @@ fclose($fp);
 
 `flags`
 
-`flags` може бути комбінацією прапорів **`PREG_OFFSET_CAPTURE`** і \*\*`PREG_UNMATCHED_AS_NULL`\*\*які впливають на формат масиву збігів. Дивіться опис у [pregmatch()](function.preg-match.md) для більш детальної інформації.
+`flags` може бути комбінацією прапорів \*\*`PREG_OFFSET_CAPTURE`**и**`PREG_UNMATCHED_AS_NULL`\*\*які впливають на формат масиву збігів. Дивіться опис у [preg\_match()](function.preg-match.md) для більш детальної інформації.
 
 ### Значення, що повертаються
 
-**pregreplacecallback()** повертає масив, якщо параметр `subject` є масивом, інакше повертається рядок. У разі помилок повертається **`null`**
+**preg\_replace\_callback()** повертає масив, якщо параметр `subject` є масивом, інакше повертається рядок. У разі помилок повертається **`null`**
 
 Якщо знайдено збіги, буде повернуто результуючий рядок, інакше `subject` повернеться незміненим.
 
@@ -86,13 +87,13 @@ fclose($fp);
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Доданий параметр `flags` |
+| 7.4.0 | Добавлен параметр`flags` |
 
 ### Приклади
 
-**Приклад #2 Приклад використання **pregreplacecallback()****
+**Пример #2 Пример использования**preg\_replace\_callback()\*\*\*\*
 
 ```php
 <?php
@@ -116,14 +117,14 @@ echo preg_replace_callback(
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 День смеха был 01/04/2003
 Последнее Рождество было 24/12/2002
 ```
 
-**Приклад #3 Рекурсивна обробка BB-кодів за допомогою **pregreplacecallback()****
+**Приклад #3 Рекурсивна обробка BB-кодів за допомогою **preg\_replace\_callback()****
 
 ```php
 <?php
@@ -150,8 +151,8 @@ echo $output;
 ### Дивіться також
 
 -   [Регулярні вирази PCRE](pcre.pattern.md)
--   [pregreplacecallbackarray()](function.preg-replace-callback-array.md) - Здійснює пошук та заміну за регулярним виразом з використанням функцій зворотного виклику
--   [pregquote()](function.preg-quote.md) - Екранує символи у регулярних виразах
--   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
--   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [preg\_replace\_callback\_array()](function.preg-replace-callback-array.md) \- Здійснює пошук та заміну за регулярним виразом з використанням функцій зворотного виклику
+-   [preg\_quote()](function.preg-quote.md) \- Екранує символи у регулярних виразах
+-   [preg\_replace()](function.preg-replace.md) \- Виконує пошук та заміну за регулярним виразом
+-   [preg\_last\_error()](function.preg-last-error.md) \- Повертає код помилки виконання останнього регулярного вираження PCRE
 -   [Анонімні функції](functions.anonymous.md)

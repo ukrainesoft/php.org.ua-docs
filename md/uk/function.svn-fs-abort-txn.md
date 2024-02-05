@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-export.md: « svnexport
-  - function.svn-fs-apply-text.md: svnфсapplytext »
+  - function.svn-export.md: « svn\_export
+  - function.svn-fs-apply-text.md: svn\_fs\_apply\_text »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсaborttxn
+title: svn\_fs\_abort\_txn
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсaborttxn
+# svn\_fs\_abort\_txn
 
 (PECL svn >= 0.2.0)
 
-svnфсaborttxn - Скасує транзакцію
+svn\_fs\_abort\_txn - Скасує транзакцію
 
 ### Опис
 
@@ -20,9 +21,9 @@ svn_fs_abort_txn(resource $txn): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
-Скасовує транзакцію.
+Скасує транзакцію.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ svn_fs_abort_txn(resource $txn): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 

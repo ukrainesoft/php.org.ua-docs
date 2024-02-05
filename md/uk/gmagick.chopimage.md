@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::chopimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::chopimage
 
@@ -15,7 +16,7 @@ Gmagick::chopimage — Видаляє область зображення та �
 ### Опис
 
 ```methodsynopsis
-public Gmagick::chopimage(    int $width,    int $height,    int $x,    int $y): Gmagick
+public Gmagick::chopimage(    int $width,    int $height,    int $x,    int $y): Gmagick
 ```
 
 Видаляє область зображення та плескає його так, щоб зайняти віддалену область.
@@ -44,4 +45,4 @@ public Gmagick::chopimage(    int $width,    int $height,    int $x,    int $y):
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

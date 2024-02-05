@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::setISODate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeImmutable::setISODate
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::setISODate — Встановлює дату у форматі ISO
 
@@ -36,11 +37,11 @@ public DateTimeImmutable::setISODate(int $year, int $week, int $dayOfWeek = 1): 
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з модифікованими даними або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) із модифікованими даними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTimeImmutable::setISODate()****
+**Пример #1 Пример использования**DateTimeImmutable::setISODate()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -70,7 +71,7 @@ echo date_format($date, 'Y-m-d') . "\n";
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 2008-01-07
@@ -94,7 +95,7 @@ echo $newDate->format('Y-m-d') . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 2008-01-13
@@ -112,7 +113,7 @@ echo $newDate->format('n');
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 3
@@ -120,5 +121,5 @@ echo $newDate->format('n');
 
 ### Дивіться також
 
--   [DateTimeImmutable::setDate()](datetimeimmutable.setdate.md) - Встановлює дату
--   [DateTimeImmutable::setTime()](datetimeimmutable.settime.md) - Встановлює час
+-   [DateTimeImmutable::setDate()](datetimeimmutable.setdate.md) \- Встановлює дату
+-   [DateTimeImmutable::setTime()](datetimeimmutable.settime.md) \- Встановлює час

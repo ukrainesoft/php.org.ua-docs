@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-priorityqueue.construct.md: '« DsPriorityQueue::construct'
-  - ds-priorityqueue.count.md: 'ДсPriorityQueue::count »'
+  - ds-priorityqueue.construct.md: '« Ds\\PriorityQueue::\_\_construct'
+  - ds-priorityqueue.count.md: 'Ds\\PriorityQueue::count »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.md: Черга з пріоритетом
-title: 'ДсPriorityQueue::copy'
+  - class.ds-priorityqueue.md: Ds\\PriorityQueue
+title: 'Ds\\PriorityQueue::copy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсPriorityQueue::copy
+# Ds\\PriorityQueue::copy
 
 (PECL ds >= 1.0.0)
 
-ДсPriorityQueue::copy — Повертає поверхневу копію черги
+Ds\\PriorityQueue::copy — Повертає поверхневу копію черги
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\PriorityQueue::copy(): Ds\PriorityQueue
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсPriorityQueue::copy()****
+**Пример #1 Пример использования**Ds\\PriorityQueue::copy()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($queue->copy());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\PriorityQueue Object

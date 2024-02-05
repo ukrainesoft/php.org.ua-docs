@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xmlrpc-encode.md: « xmlrpcencode
-  - function.xmlrpc-is-fault.md: xmlrpcісfault »
+  - function.xmlrpc-encode.md: « xmlrpc\_encode
+  - function.xmlrpc-is-fault.md: xmlrpc\_is\_fault »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcgettype
+title: xmlrpc\_get\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcgettype
+# xmlrpc\_get\_type
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcgettype — Отримує тип XML-RPC для значення PHP
+xmlrpc\_get\_type — Отримує тип XML-RPC для значення PHP
 
 ### Опис
 
@@ -53,4 +54,4 @@ echo xmlrpc_get_type(STDIN) . "\n"; // int
 
 ### Дивіться також
 
--   [xmlrpcsettype()](function.xmlrpc-set-type.md) - Встановлює тип XML-RPC, base64 або datetime для значення рядка PHP
+-   [xmlrpc\_set\_type()](function.xmlrpc-set-type.md) \- Встановлює тип XML-RPC, base64 або datetime для значення рядка PHP

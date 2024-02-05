@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-area.setsize.md: '« UIArea::setSize'
-  - ui-executor.construct.md: 'ОЙExecutor::construct »'
+  - ui-area.setsize.md: '« UI\\Area::setSize'
+  - ui-executor.construct.md: 'UI\\Executor::\_\_construct »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Планувальник виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Планувальник виконання
 
@@ -46,7 +47,7 @@ public setInterval(int $seconds, int $microseconds): bool
 
 ## Зміст
 
--   [ОЙExecutor::construct](ui-executor.construct.md) — Створити новий об'єкт Executor
--   [ОЙExecutor::kill](ui-executor.kill.md) - Зупинити виконавець
--   [ОЙExecutor::onExecute](ui-executor.onexecute.md) - Callback-функція виконання
--   [ОЙExecutor::setInterval](ui-executor.setinterval.md) - Управління інтервалом
+-   [UI\\Executor::\_\_construct](ui-executor.construct.md)— Створити новий об'єкт Executor
+-   [UI\\Executor::kill](ui-executor.kill.md) \- Зупинити виконавець
+-   [UI\\Executor::onExecute](ui-executor.onexecute.md) \- Callback-функція виконання
+-   [UI\\Executor::setInterval](ui-executor.setinterval.md) \- Управління інтервалом

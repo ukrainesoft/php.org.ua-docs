@@ -1,16 +1,17 @@
 ---
 navigation:
   - eventutil.setsocketoption.md: '« EventUtil::setSocketOption'
-  - book.ftp.md: FTP »
+  - class.eventexception.md: EventException »
   - index.md: PHP Manual
   - class.eventutil.md: EventUtil
 title: 'EventUtil::sslRandPoll'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventUtil::sslRandPoll
 
 (PECL event >= 1.2.6-beta)
 
-EventUtil::sslRandPoll — Згенерувати ентропію за допомогою RANDpoll() із OpenSSL
+EventUtil::sslRandPoll — Згенерувати ентропію за допомогою RAND\_poll() із OpenSSL
 
 ### Опис
 
@@ -20,7 +21,7 @@ public
    EventUtil::sslRandPoll(): void
 ```
 
-Генерує ентропію за допомогою `RAND_poll()` із OpenSSL. (Дивіться відповідну документацію).
+Генерує ентропію за допомогою `RAND_poll()`из OpenSSL. (смотрите соответствующую документацию).
 
 ### Список параметрів
 

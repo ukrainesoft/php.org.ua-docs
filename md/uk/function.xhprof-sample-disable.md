@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xhprof-enable.md: « xhprofenable
-  - function.xhprof-sample-enable.md: xhprofsampleenable »
+  - function.xhprof-enable.md: « xhprof\_enable
+  - function.xhprof-sample-enable.md: xhprof\_sample\_enable »
   - index.md: PHP Manual
-  - ref.xhprof.md: Функции Xhprof
-title: xhprofsampledisable
+  - ref.xhprof.md: Функції Xhprof
+title: xhprof\_sample\_disable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xhprofsampledisable
+# xhprof\_sample\_disable
 
 (PECL xhprof >= 0.9.0)
 
-xhprofsampledisable — Зупинити профілювання, що семплює, xhprof
+xhprof\_sample\_disable — Зупинити профілювання, що семплює, xhprof
 
 ### Опис
 
@@ -18,7 +19,7 @@ xhprofsampledisable — Зупинити профілювання, що семп
 xhprof_sample_disable(): array
 ```
 
-Зупинити семплююче профіль xhprof.
+Зупинити семплюючі профіль xhprof.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ xhprof_sample_disable(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xhprofsampledisable()****
+**Пример #1 Пример использования**xhprof\_sample\_disable()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ print_r($xhprof_data);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

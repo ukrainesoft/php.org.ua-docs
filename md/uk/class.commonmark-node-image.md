@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.commonmark-node-htmlinline.md: « CommonMarkNodeHTMLInline
-  - commonmark-node-image.construct.md: 'CommonMarkNodeImage::construct »'
+  - class.commonmark-node-htmlinline.md: « CommonMark\\Node\\HTMLInline
+  - commonmark-node-image.construct.md: 'CommonMark\\Node\\Image::\_\_construct »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: Image успадковує CommonMarkNode
+title: Image успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Image успадковує CommonMarkNode
+# Image успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 
@@ -102,4 +103,4 @@ public CommonMark\Node::accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNodeImage::construct](commonmark-node-image.construct.md) - Конструктор класу Image
+-   [CommonMark\\Node\\Image::\_\_construct](commonmark-node-image.construct.md) \- Конструктор класу Image

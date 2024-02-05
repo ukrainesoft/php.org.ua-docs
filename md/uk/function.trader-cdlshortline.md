@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlshootingstar.md: « tradercdlshootingstar
-  - function.trader-cdlspinningtop.md: tradercdlspinningtop »
+  - function.trader-cdlshootingstar.md: « trader\_cdlshootingstar
+  - function.trader-cdlspinningtop.md: trader\_cdlspinningtop »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlshortline
+  - ref.trader.md: Функції Trader
+title: trader\_cdlshortline
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlshortline
+# trader\_cdlshortline
 
 (PECL trader >= 0.2.0)
 
-tradercdlshortline - Свічкова модель "Свічка короткої лінії"
+trader\_cdlshortline - Свічкова модель "Свічка короткої лінії"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlshortline(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlshortline(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

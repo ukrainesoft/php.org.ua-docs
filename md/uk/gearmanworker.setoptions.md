@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::setOptions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::setOptions
 
@@ -15,7 +16,7 @@ GearmanWorker::setOptions — Встановлення налаштувань о
 ### Опис
 
 ```methodsynopsis
-public GearmanWorker::setOptions(int $option): bool
+public GearmanWorker::setOptions(int $option): true
 ```
 
 Встановлює значення однієї або кількох установок.
@@ -28,11 +29,11 @@ public GearmanWorker::setOptions(int $option): bool
 
 ### Значення, що повертаються
 
-Завжди повертає **`true`**
+Функція завжди повертає **`true`**
 
 ### Дивіться також
 
--   [GearmanWorker::options()](gearmanworker.options.md) - Отримання налаштувань обробника
--   [GearmanWorker::addOptions()](gearmanworker.addoptions.md) - Додавання налаштувань обробника
--   [GearmanWorker::removeOptions()](gearmanworker.removeoptions.md) - Видалення налаштувань обробника
--   [GearmanClient::setOptions()](gearmanclient.setoptions.md) - Встановлення налаштувань клієнта
+-   [GearmanWorker::options()](gearmanworker.options.md) \- Отримання налаштувань обробника
+-   [GearmanWorker::addOptions()](gearmanworker.addoptions.md) \- Додавання налаштувань обробника
+-   [GearmanWorker::removeOptions()](gearmanworker.removeoptions.md) \- Видалення налаштувань обробника
+-   [GearmanClient::setOptions()](gearmanclient.setoptions.md) \- Встановлення налаштувань клієнта

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-ini.readonly.md: '« YafConfigIni::readonly'
-  - yaf-config-ini.set.md: 'YafConfigIni::set »'
+  - yaf-config-ini.readonly.md: '« Yaf\_Config\_Ini::readonly'
+  - yaf-config-ini.set.md: 'Yaf\_Config\_Ini::\_\_set »'
   - index.md: PHP Manual
-  - class.yaf-config-ini.md: YafConfigIni
-title: 'YafConfigIni::rewind'
+  - class.yaf-config-ini.md: Yaf\_Config\_Ini
+title: 'Yaf\_Config\_Ini::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigIni::rewind
+# Yaf\_Config\_Ini::rewind
 
 (Yaf >=1.0.0)
 
-YafConfigIni::rewind — Призначення rewind
+Yaf\_Config\_Ini::rewind — Призначення rewind
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Ini::rewind(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

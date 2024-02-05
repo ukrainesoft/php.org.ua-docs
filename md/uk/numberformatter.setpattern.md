@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::setPattern'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NumberFormatter::setPattern
 
-# numfmtsetpattern
+# numfmt\_set\_pattern
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::setPattern -- numfmtsetpattern — Встановлює шаблон засобу форматування
+NumberFormatter::setPattern -- numfmt\_set\_pattern — Встановлює шаблон засобу форматування
 
 ### Опис
 
@@ -38,15 +39,15 @@ numfmt_set_pattern(NumberFormatter $formatter, string $pattern): bool
 
 `pattern`
 
-Шаблон у синтаксисі, описаному в [» документации ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details)
+Шаблон в синтаксисе, описанном в[» документації ICU DecimalFormat](https://unicode-org.github.io/icu-docs/apidoc/released/icu4c/classDecimalFormat.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmtsetpattern()****
+**Пример #1 Пример использования**numfmt\_set\_pattern()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ echo $fmt->format(1234567.891234567890000)."\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Шаблон: #,##0.###
@@ -83,6 +84,6 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
--   [numfmtcreate()](numberformatter.create.md) - Створює засіб форматування чисел
--   [numfmtgetpattern()](numberformatter.getpattern.md) - Отримує шаблон засобу форматування
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.md) \- Отримує останній код помилки засобу форматування
+-   [numfmt\_create()](numberformatter.create.md) \- Створює засіб форматування чисел
+-   [numfmt\_get\_pattern()](numberformatter.getpattern.md) \- Отримує шаблон засобу форматування

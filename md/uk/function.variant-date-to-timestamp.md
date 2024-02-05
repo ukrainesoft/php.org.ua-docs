@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.variant-date-from-timestamp.md: « variantdatefromtimestamp
-  - function.variant-div.md: variantdiv »
+  - function.variant-date-from-timestamp.md: « variant\_date\_from\_timestamp
+  - function.variant-div.md: variant\_div »
   - index.md: PHP Manual
-  - ref.com.md: Функции COM
-title: variantdateтоtimestamp
+  - ref.com.md: Функції COM
+title: variant\_date\_to\_timestamp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# variantdateтоtimestamp
+# variant\_date\_to\_timestamp
 
 (PHP 5, PHP 7, PHP 8)
 
-variantdateтоtimestamp — Перетворює варіант типу дата/час у часову мітку Unix
+variant\_date\_to\_timestamp — Перетворює варіант типу дата/час у часову мітку Unix
 
 ### Опис
 
@@ -18,20 +19,20 @@ variantdateтоtimestamp — Перетворює варіант типу дат
 variant_date_to_timestamp(variant $variant): ?int
 ```
 
-Конвертує `variant` зі значення **`VT_DATE`** (або аналогічного типу) у тимчасову мітку Unix. Це дозволяє простіше поєднати частину PHP у Unix-стилі з COM.
+Конвертує `variant`из значения\*\*`VT_DATE`\*\* (або аналогічного типу) у тимчасову мітку Unix. Це дозволяє простіше поєднати частину PHP у Unix-стилі з COM.
 
 ### Список параметрів
 
 `variant`
 
-Різновид.
+Варіант.
 
 ### Значення, що повертаються
 
-Повертає тимчасову мітку Unix або **`null`** у разі виникнення помилки.
+Повертає тимчасову мітку Unix або \*\*`null`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [variantdatefromtimestamp()](function.variant-date-from-timestamp.md) - Отримати подання дати для варіанта з тимчасової мітки Unix
--   [date()](function.date.md) - Форматує тимчасову мітку Unix
--   [strftime()](function.strftime.md) - Форматує поточну дату/час з урахуванням поточних налаштувань локалі
+-   [variant\_date\_from\_timestamp()](function.variant-date-from-timestamp.md) \- Отримує подання дати для варіанта з мітки часу Unix
+-   [date()](function.date.md) \- Форматує тимчасову мітку Unix
+-   [strftime()](function.strftime.md) \- Форматує поточну дату/час з урахуванням поточних налаштувань локалі

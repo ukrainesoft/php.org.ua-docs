@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::identifyFormat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::identifyFormat
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
-Imagick::identifyFormat — Опис
+Imagick::identifyFormat — Замінює будь-які вбудовані символи форматування відповідною властивістю зображення
 
 ### Опис
 
@@ -28,11 +29,11 @@ public Imagick::identifyFormat(string $embedText): string|false
 
 ### Значення, що повертаються
 
-Повертає формат або **`false`** у разі виникнення помилки.
+Повертає формат або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::identifyFormat()****
+**Пример #1 Пример использования**Imagick::identifyFormat()\*\*\*\*
 
 ```php
 <?php

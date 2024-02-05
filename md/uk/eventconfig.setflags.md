@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventconfig.md: EventConfig
 title: 'EventConfig::setFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventConfig::setFlags
 
@@ -28,12 +29,12 @@ public
 
 `flags`
 
-Одна з констант `EventBase::LOOP_*`. Дивіться [константи EventBase](class.eventbase.md#eventbase.constants)
+Одна из констант`EventBase::LOOP_*`Смотрите[константи EventBase](class.eventbase.md#eventbase.constants)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventBase::getFeatures()](eventbase.getfeatures.md) - Повертає бітову маску підтримуваних функцій
+-   [EventBase::getFeatures()](eventbase.getfeatures.md) \- Повертає бітову маску підтримуваних функцій

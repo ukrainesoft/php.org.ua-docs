@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-fetch.md: « ocifetch
-  - function.oci-field-name.md: ocifieldname »
+  - function.oci-fetch.md: « oci\_fetch
+  - function.oci-field-name.md: oci\_field\_name »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocifieldісnull
+  - ref.oci8.md: OCI8 Функції
+title: oci\_field\_is\_null
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocifieldісnull
+# oci\_field\_is\_null
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocifieldісnull — Перевіряє, чи рівне поле в поточному отриманому ряду рівним **`null`**
+oci\_field\_is\_null — Перевіряє, чи поле у ​​поточному отриманому рядку дорівнює **`null`**
 
 ### Опис
 
@@ -18,7 +19,7 @@ ocifieldісnull — Перевіряє, чи рівне поле в поточ�
 oci_field_is_null(resource $statement, string|int $column): bool
 ```
 
-Перевіряє, чи є значення, передане в поле `column` з поточного ряду `statement` рівним **`null`**
+Перевіряє, чи є значення, передане в поле `column`из текущего ряда`statement` рівним **`null`**
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ oci_field_is_null(resource $statement, string|int $column): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `column` дорівнює **`null`**, і **`false`** якщо ні.
+Повертає **`true`**, якщо `column`равен\*\*`null`**, и**`false`\*\* якщо ні.
 
 ### Приклади
 
-**Приклад #1 Приклад використання [ocifieldname()](function.oci-field-name.md)**
+**Пример #1 Пример использования[oci\_field\_name()](function.oci-field-name.md)**
 
 ```php
 <?php
@@ -71,9 +72,3 @@ oci_close($conn);
 
 ?>
 ```
-
-### Примітки
-
-> **Зауваження**
-> 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnisnull()](function.ocicolumnisnull.md). У PHP 5.0.0 і вище [ocicolumnisnull()](function.ocicolumnisnull.md) є аліасом \*\*ocifieldісnull()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

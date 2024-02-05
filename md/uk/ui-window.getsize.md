@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-window.error.md: '« UIWindow::error'
-  - ui-window.gettitle.md: 'ОЙWindow::getTitle »'
+  - ui-window.error.md: '« UI\\Window::error'
+  - ui-window.gettitle.md: 'UI\\Window::getTitle »'
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::getSize'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::getSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::getSize
+# UI\\Window::getSize
 
 (UI 0.9.9)
 
-ОЙWindow::getSize — Отримати розмір вікна
+UI\\Window::getSize — Отримати розмір вікна
 
 ### Опис
 

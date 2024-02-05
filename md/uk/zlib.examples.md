@@ -1,10 +1,11 @@
 ---
 navigation:
-  - zlib.constants.md: « Обумовлені константи
-  - ref.zlib.md: Функции Zlib »
+  - zlib.constants.md: « Зумовлені константи
+  - ref.zlib.md: Функції Zlib »
   - index.md: PHP Manual
   - book.zlib.md: Zlib
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -69,7 +70,7 @@ echo $uncompressed;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Данные для сжатия, больше данных и ещё больше данных!

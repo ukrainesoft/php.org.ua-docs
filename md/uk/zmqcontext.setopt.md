@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zmqcontext.md: ZMQContext
 title: 'ZMQContext::setOpt'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZMQContext::setOpt
 
@@ -18,17 +19,17 @@ ZMQContext::setOpt — Встановити опцію сокету
 public ZMQContext::setOpt(int $key, mixed $value): ZMQContext
 ```
 
-Встановлює опцію контексту ZMQ. Тип `value` залежить від `key`. Дивіться [Типи Констант ZMQ](class.zmq.md#zmq.constants)
+Устанавливает опцию контекста ZMQ. Тип`value`зависит от`key`Смотрите[Типи Констант ZMQ](class.zmq.md#zmq.constants)
 
 ### Список параметрів
 
 `key`
 
-Одна з констант **`ZMQ::CTXOPT_*`**
+Одна из констант\*\*`ZMQ::CTXOPT_*`\*\*
 
 `value`
 
-Значення параметру.
+Значення параметра.
 
 ### Значення, що повертаються
 

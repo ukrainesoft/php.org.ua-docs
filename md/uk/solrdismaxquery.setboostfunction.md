@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'SolrDisMaxQuery::setBoostFunction'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDisMaxQuery::setBoostFunction
 
@@ -34,7 +35,7 @@ recip(rord(myfield),1,2,3)^1.5
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::setBoostFunction()****
+**Пример #1 Пример использования**SolrDisMaxQuery::setBoostFunction()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ echo $dismaxQuery.PHP_EOL;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 q=lucene&defType=edismax&bf=recip(ms(NOW,mydatefield),3.16e-11,1,1)

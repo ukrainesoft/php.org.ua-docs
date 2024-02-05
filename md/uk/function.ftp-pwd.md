@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-put.md: « ftpput
-  - function.ftp-quit.md: ftpquit »
+  - function.ftp-put.md: « ftp\_put
+  - function.ftp-quit.md: ftp\_quit »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftppwd
+title: ftp\_pwd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftppwd
+# ftp\_pwd
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftppwd — Повертає ім'я поточної директорії
+ftp\_pwd — Повертає ім'я поточної директорії
 
 ### Опис
 
@@ -22,21 +23,21 @@ ftp_pwd(FTP\Connection $ftp): string|false
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Значення, що повертаються
 
-Повертає ім'я поточної директорії або **`false`** у разі виникнення помилки.
+Повертає ім'я поточної директорії або \*\*`false`\*\*при возникновении ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftppwd()****
+**Пример #1 Пример использования**ftp\_pwd()\*\*\*\*
 
 ```php
 <?php
@@ -60,5 +61,5 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftpchdir()](function.ftp-chdir.md) - Змінює поточну директорію на FTP-сервері
--   [ftpcdup()](function.ftp-cdup.md) - Переходить до батьківської директорії
+-   [ftp\_chdir()](function.ftp-chdir.md) \- Змінює поточну директорію на FTP-сервері
+-   [ftp\_cdup()](function.ftp-cdup.md) \- Переходить до батьківської директорії

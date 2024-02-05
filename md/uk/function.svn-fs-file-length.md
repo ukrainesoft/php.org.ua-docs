@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-file-contents.md: « svnфсfilecontents
-  - function.svn-fs-is-dir.md: svnфсісdir »
+  - function.svn-fs-file-contents.md: « svn\_fs\_file\_contents
+  - function.svn-fs-is-dir.md: svn\_fs\_is\_dir »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсfilelength
+title: svn\_fs\_file\_length
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсfilelength
+# svn\_fs\_file\_length
 
 (PECL svn >= 0.1.0)
 
-svnфсfilelength — Повертає довжину файлу з цієї файлової системи
+svn\_fs\_file\_length — Повертає довжину файлу з цієї файлової системи
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_file_length(resource $fsroot, string $path): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає довжину файлу з файлової системи.
 

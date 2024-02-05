@@ -1,10 +1,11 @@
 ---
 navigation:
-  - eio.installation.md: « Установка
+  - eio.installation.md: « Встановлення
   - eio.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - eio.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 

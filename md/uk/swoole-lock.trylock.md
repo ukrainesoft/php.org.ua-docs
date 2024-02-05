@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-lock.trylock-read.md: '« SwooleLock::trylockread'
-  - swoole-lock.unlock.md: 'SwooleLock::unlock »'
+  - swoole-lock.trylock-read.md: '« Swoole\\Lock::trylock\_read'
+  - swoole-lock.unlock.md: 'Swoole\\Lock::unlock »'
   - index.md: PHP Manual
-  - class.swoole-lock.md: SwooleLock
-title: 'SwooleLock::trylock'
+  - class.swoole-lock.md: Swoole\\Lock
+title: 'Swoole\\Lock::trylock'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleLock::trylock
+# Swoole\\Lock::trylock
 
 (PECL swoole >= 1.9.0)
 
-SwooleLock::trylock — Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
+Swoole\\Lock::trylock — Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
 
 ### Опис
 

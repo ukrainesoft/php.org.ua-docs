@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-label.settext.md: '« UIControlsLabel::setText'
-  - ui-controls-entry.construct.md: 'ОЙControlsEntry::construct »'
+  - ui-controls-label.settext.md: '« UI\\Controls\\Label::setText'
+  - ui-controls-entry.construct.md: 'UI\\Controls\\Entry::\_\_construct »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Введення"
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Введення"
 
@@ -91,9 +92,9 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsEntry::construct](ui-controls-entry.construct.md) — Створити новий об'єкт Entry
--   [ОЙControlsEntry::getText](ui-controls-entry.gettext.md) — Отримати текст
--   [ОЙControlsEntry::isReadOnly](ui-controls-entry.isreadonly.md) — Визначити, чи є елемент лише для читання
--   [ОЙControlsEntry::onChange](ui-controls-entry.onchange.md) - Обробник зміни
--   [ОЙControlsEntry::setReadOnly](ui-controls-entry.setreadonly.md) - Встановити "тільки для читання"
--   [ОЙControlsEntry::setText](ui-controls-entry.settext.md) — Встановити текст
+-   [UI\\Controls\\Entry::\_\_construct](ui-controls-entry.construct.md)— Створити новий об'єкт Entry
+-   [UI\\Controls\\Entry::getText](ui-controls-entry.gettext.md)— Отримати текст
+-   [UI\\Controls\\Entry::isReadOnly](ui-controls-entry.isreadonly.md)— Визначити, чи є елемент лише для читання
+-   [UI\\Controls\\Entry::onChange](ui-controls-entry.onchange.md) \- Обробник зміни
+-   [UI\\Controls\\Entry::setReadOnly](ui-controls-entry.setreadonly.md) - Встановити "тільки для читання"
+-   [UI\\Controls\\Entry::setText](ui-controls-entry.settext.md)— Встановити текст

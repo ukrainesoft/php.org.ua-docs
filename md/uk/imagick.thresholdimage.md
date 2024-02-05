@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::thresholdImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::thresholdImage
 
@@ -32,7 +33,7 @@ public Imagick::thresholdImage(float $threshold, int $channel = Imagick::CHANNEL
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::thresholdImage()****
+**Пример #1 Пример использования**Imagick::thresholdImage()\*\*\*\*
 
 ```php
 <?php

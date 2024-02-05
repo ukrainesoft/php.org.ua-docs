@@ -1,10 +1,11 @@
 ---
 navigation:
-  - aliases.md: « Список псевдонимов функций
+  - aliases.md: « Список псевдонімів функцій
   - reserved.keywords.md: Список ключових слів »
   - index.md: PHP Manual
-  - appendices.md: Appendices
+  - appendices.md: Програми
 title: Список зарезервованих слів
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Список зарезервованих слів
 

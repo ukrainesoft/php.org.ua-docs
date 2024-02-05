@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrobject.md: SolrObject
 title: 'SolrObject::offsetGet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrObject::offsetGet
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrObject::offsetGet — Використовується для отримання властивості
 

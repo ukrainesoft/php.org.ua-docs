@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-mse.md: « fanngetMSE
-  - function.fann-get-num-input.md: fanngetnuminput »
+  - function.fann-get-mse.md: « fann\_get\_MSE
+  - function.fann-get-num-input.md: fann\_get\_num\_input »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetnetworktype
+  - ref.fann.md: Функції Fann
+title: fann\_get\_network\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetnetworktype
+# fann\_get\_network\_type
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetnetworktype — Отримує тип нейронної мережі
+fann\_get\_network\_type — Отримує тип нейронної мережі
 
 ### Опис
 
@@ -28,4 +29,4 @@ fann_get_network_type(resource $ann): int
 
 ### Значення, що повертаються
 
-Константа [типа сети](fann.constants.md#constants.fann-nettype) або **`false`** у разі виникнення помилки.
+Константа[типу мережі](fann.constants.md#constants.fann-nettype)или\*\*`false`\*\*в случае возникновения ошибки.

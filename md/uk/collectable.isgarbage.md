@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.collectable.md: Collectable
 title: 'Collectable::isGarbage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collectable::isGarbage
 
@@ -15,7 +16,7 @@ Collectable::isGarbage — Визначає, чи позначений об'єк
 ### Опис
 
 ```methodsynopsis
-public Collectable::isGarbage(): bool
+public Collectable::isGarbage(): true
 ```
 
 Можна викликати в [Pool::collect()](pool.collect.md) визначення, чи є об'єкт сміттям.
@@ -28,6 +29,12 @@ public Collectable::isGarbage(): bool
 
 Функція завжди повертає **`true`**
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
+
 ### Дивіться також
 
--   [Pool::collect()](pool.collect.md) - Збирає посилання на виконані завдання
+-   [Pool::collect()](pool.collect.md) \- Збирає посилання на виконані завдання

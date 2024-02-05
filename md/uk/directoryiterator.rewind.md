@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.directoryiterator.md: DirectoryIterator
 title: 'DirectoryIterator::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DirectoryIterator::rewind
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::rewind — Встановлює вказівник на перший елемент DirectoryIterator
+DirectoryIterator::rewind — Перемотування ітератора DirectoryIterator назад до початку
 
 ### Опис
 
@@ -18,7 +19,7 @@ DirectoryIterator::rewind — Встановлює вказівник на пе�
 public DirectoryIterator::rewind(): void
 ```
 
-Встановлює вказівник на перший елемент [DirectoryIterator](class.directoryiterator.md)
+Перемотка итератора[DirectoryIterator](class.directoryiterator.md)назад к началу.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public DirectoryIterator::rewind(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DirectoryIterator::rewind()****
+**Пример #1 Пример использования**DirectoryIterator::rewind()\*\*\*\*
 
 ```php
 <?php
@@ -39,15 +40,15 @@ $iterator = new DirectoryIterator(dirname(__FILE__));
 $iterator->next();
 echo $iterator->key(); //1
 
-$iterator->rewind(); //переход к началу
+$iterator->rewind(); //перемотка к началу
 echo $iterator->key(); //0
 ?>
 ```
 
 ### Дивіться також
 
--   [DirectoryIterator::current()](directoryiterator.current.md) - Повертає поточний елемент DirectoryIterator
--   [DirectoryIterator::key()](directoryiterator.key.md) - Повертає ключ поточного елемента DirectoryIterator
--   [DirectoryIterator::next()](directoryiterator.next.md) - Переміщує покажчик на наступний елемент DirectoryIterator
--   [DirectoryIterator::valid()](directoryiterator.valid.md) - Перевіряє, чи є поточний елемент DirectoryIterator допустимим файлом
--   [Iterator::rewind()](iterator.rewind.md) – Повертає ітератор на перший елемент
+-   [DirectoryIterator::current()](directoryiterator.current.md) \- Повертає поточний елемент DirectoryIterator
+-   [DirectoryIterator::key()](directoryiterator.key.md) \- Повертає ключ для поточного елемента DirectoryIterator
+-   [DirectoryIterator::next()](directoryiterator.next.md) \- Перехід до наступного елементу DirectoryIterator
+-   [DirectoryIterator::valid()](directoryiterator.valid.md) \- Перевіряє, чи є поточна позиція DirectoryIterator коректним файлом
+-   [Iterator::rewind()](iterator.rewind.md)– Повертає ітератор на перший елемент

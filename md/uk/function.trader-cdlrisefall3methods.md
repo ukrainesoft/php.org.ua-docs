@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlrickshawman.md: « tradercdlrickshawman
-  - function.trader-cdlseparatinglines.md: tradercdlseparatinglines »
+  - function.trader-cdlrickshawman.md: « trader\_cdlrickshawman
+  - function.trader-cdlseparatinglines.md: trader\_cdlseparatinglines »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlrisefall3methods
+  - ref.trader.md: Функції Trader
+title: trader\_cdlrisefall3methods
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlrisefall3methods
+# trader\_cdlrisefall3methods
 
 (PECL trader >= 0.2.0)
 
-tradercdlrisefall3methods — Бича/ведмежа модель "Три методи"
+trader\_cdlrisefall3methods — Бича/ведмежа модель "Три методи"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlrisefall3methods(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlrisefall3methods(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

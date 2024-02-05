@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setPointSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setPointSize
 
-(PECL imagick 2> = 2.1.0, PECL imagick 3)
+(PECL imagick 2 >= 2.1.0, PECL imagick 3)
 
 Imagick::setPointSize — Встановлює розмір точки
 
@@ -32,7 +33,7 @@ public Imagick::setPointSize(float $point_size): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setPointSize()****
+**Пример #1 Пример использования**Imagick::setPointSize()\*\*\*\*
 
 Приклад використання Imagick::setPointSize
 
@@ -56,4 +57,4 @@ $im->newPseudoImage(100, 100, "caption:Hello");
 
 ### Дивіться також
 
--   [Imagick::getPointSize()](imagick.getpointsize.md) - Повертає розмір точки
+-   [Imagick::getPointSize()](imagick.getpointsize.md) \- Повертає розмір точки

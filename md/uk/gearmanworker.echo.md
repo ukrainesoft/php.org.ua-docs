@@ -1,10 +1,11 @@
 ---
 navigation:
-  - gearmanworker.construct.md: '« GearmanWorker::construct'
+  - gearmanworker.construct.md: '« GearmanWorker::\_\_construct'
   - gearmanworker.error.md: 'GearmanWorker::error »'
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::echo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::echo
 
@@ -32,4 +33,4 @@ public GearmanWorker::echo(string $workload): bool
 
 ### Дивіться також
 
--   [GearmanClient::echo()](gearmanclient.echo.md) - Надсилає дані всім серверам завдань, щоб перевірити відгук Застарілий метод
+-   [GearmanClient::echo()](gearmanclient.echo.md) \- Надсилає дані всім серверам завдань, щоб перевірити відгук\[Застарілий метод\]

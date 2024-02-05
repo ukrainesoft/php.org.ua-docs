@@ -1,14 +1,15 @@
 ---
 navigation:
-  - intlgregoriancalendar.construct.md: '« IntlGregorianCalendar::construct'
+  - intlgregoriancalendar.createfromdatetime.md: '« IntlGregorianCalendar::createFromDateTime'
   - intlgregoriancalendar.isleapyear.md: 'IntlGregorianCalendar::isLeapYear »'
   - index.md: PHP Manual
   - class.intlgregoriancalendar.md: IntlGregorianCalendar
 title: 'IntlGregorianCalendar::getGregorianChange'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlGregorianCalendar::getGregorianChange
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 Intel GregorianCalendar::get Gregorian Change — Отримує дату зміни григоріанського календаря
 
@@ -20,7 +21,7 @@ public IntlGregorianCalendar::getGregorianChange(): float
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

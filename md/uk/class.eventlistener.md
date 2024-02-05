@@ -1,10 +1,11 @@
 ---
 navigation:
   - eventhttprequest.sendreplystart.md: '« EventHttpRequest::sendReplyStart'
-  - eventlistener.construct.md: 'EventListener::construct »'
+  - eventlistener.construct.md: 'EventListener::\_\_construct »'
   - index.md: PHP Manual
   - book.event.md: Event
 title: Клас EventListener
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EventListener
 
@@ -59,22 +60,22 @@ title: Клас EventListener
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     EventBase
      $base
-   ,    
+   ,    
     callable
      $cb
-   ,    
+   ,    
     mixed
      $data
-   ,    
+   ,    
     int
      $flags
-   ,    
+   ,    
     int
      $backlog
-   ,    
+   ,    
     mixed
      $target
    )
@@ -113,7 +114,7 @@ public
 
 ## Властивості
 
-фд
+fd
 
 Числовий файловий дескриптор для сокету. (Додано в `event-1.6.0`
 
@@ -129,7 +130,7 @@ public
 
 **`EventListener::OPT_CLOSE_ON_EXEC`**
 
-Якщо цей прапорець встановлений, слухач з'єднання встановить прапор close-on-exec на сокет. Дивіться документацію з `fcntl` і **`FD_CLOEXEC`** для платформи.
+Якщо цей прапорець встановлений, слухач з'єднання встановить прапор close-on-exec на сокет. Дивіться документацію з `fcntl`и\*\*`FD_CLOEXEC`\*\* для платформи.
 
 **`EventListener::OPT_REUSEABLE`**
 
@@ -141,10 +142,10 @@ public
 
 ## Зміст
 
--   [EventListener::construct](eventlistener.construct.md) — Створити новий слухач з'єднання, пов'язаний із базою подій
--   [EventListener::disable](eventlistener.disable.md) — Вимикає подію підключення до об'єкта слухача
--   [EventListener::enable](eventlistener.enable.md) — Включає подію підключення до об'єкта слухача
--   [EventListener::getBase](eventlistener.getbase.md) — Повертає базу подій, пов'язану із слухачем подій
--   [EventListener::getSocketName](eventlistener.getsocketname.md) — Отримує поточну адресу, до якої прив'язаний сокет слухача
--   [EventListener::setCallback](eventlistener.setcallback.md) - Мета setCallback
--   [EventListener::setErrorCallback](eventlistener.seterrorcallback.md) - Встановлює callback-функцію помилки слухача подій
+-   [EventListener::\_\_construct](eventlistener.construct.md)— Створює нового слухача з'єднання, пов'язаного із базою події
+-   [EventListener::disable](eventlistener.disable.md)— Вимикає подію підключення до об'єкта слухача
+-   [EventListener::enable](eventlistener.enable.md)— Включає подію підключення до об'єкта слухача
+-   [EventListener::getBase](eventlistener.getbase.md)— Повертає базу подій, пов'язану із слухачем подій
+-   [EventListener::getSocketName](eventlistener.getsocketname.md)— Отримує поточну адресу, до якої прив'язаний сокет слухача
+-   [EventListener::setCallback](eventlistener.setcallback.md) \- Мета setCallback
+-   [EventListener::setErrorCallback](eventlistener.seterrorcallback.md) \- Встановлює callback-функцію помилки слухача подій

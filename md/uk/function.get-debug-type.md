@@ -1,16 +1,17 @@
 ---
 navigation:
   - function.floatval.md: « floatval
-  - function.get-defined-vars.md: getdefinedvars »
+  - function.get-defined-vars.md: get\_defined\_vars »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
-title: getdebugtype
+title: get\_debug\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getdebugtype
+# get\_debug\_type
 
 (PHP 8)
 
-getdebugtype — Повертає назву типу змінної у вигляді, що підходить для налагодження
+get\_debug\_type — Повертає назву типу змінної у вигляді, що підходить для налагодження
 
 ### Опис
 
@@ -34,20 +35,20 @@ get_debug_type(mixed $value): string
 
 | Тип + Состояние | Возвращаемое значение | Замечания |
 | --- | --- | --- |
-| null | `"null"` |  |
-| Логічні значення (true чи false) | `"bool"` |  |
-| Цілі числа | `"int"` |  |
-| Числа з плаваючою точкою | `"float"` |  |
-| Рядки | `"string"` |  |
-| Масиви | `"array"` |  |
-| Ресурси | `"resource (resourcename)"` |  |
+| null | `"null"` | \- |
+| Логічні значення (true чи false) | `"bool"` | \- |
+| Цілі числа | `"int"` | \- |
+| Числа з плаваючою точкою | `"float"` | \- |
+| Рядки | `"string"` | \- |
+| Масиви | `"array"` | \- |
+| Ресурси | `"resource (resourcename)"` | \- |
 | Ресурси (закриті) | `"resource (closed)"` | Приклад: файловий потік після закриття з допомогою fclose. |
-| Об'єкти іменованих класів | Повне ім'я класу, включаючи його простір імен, наприклад, `Foo\Bar` |  |
+| Об'єкти іменованих класів | Повне ім'я класу, включаючи його простір імен, наприклад, `Foo\Bar` | \- |
 | Об'єкти анонімних класів | `"class@anonymous"` | Анонімні класи - це класи, створені за допомогою синтаксису $x = new class { ... }. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getdebugtype()****
+**Пример #1 Пример использования**get\_debug\_type()\*\*\*\*
 
 ```php
 <?php
@@ -69,7 +70,7 @@ echo get_debug_type(new class {}) . PHP_EOL;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 null
@@ -86,5 +87,5 @@ class@anonymous
 
 ### Дивіться також
 
--   [gettype()](function.gettype.md) - Повертає тип змінної
--   [getclass()](function.get-class.md) - Повертає ім'я класу, до якого належить об'єкт
+-   [gettype()](function.gettype.md) \- Повертає тип змінної
+-   [get\_class()](function.get-class.md) \- Повертає ім'я класу, до якого належить об'єкт

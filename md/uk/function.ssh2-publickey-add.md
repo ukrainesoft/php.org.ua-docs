@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.ssh2-poll.md: « ssh2poll
-  - function.ssh2-publickey-init.md: ssh2publickeyinit »
+  - function.ssh2-poll.md: « ssh2\_poll
+  - function.ssh2-publickey-init.md: ssh2\_publickey\_init »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2publickeyadd
+title: ssh2\_publickey\_add
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2publickeyadd
+# ssh2\_publickey\_add
 
-(PECL ssh2> = 0.10)
+(PECL ssh2 >= 0.10)
 
-ssh2publickeyadd — Додає авторизований відкритий ключ
+ssh2\_publickey\_add — Додає авторизований відкритий ключ
 
 ### Опис
 
 ```methodsynopsis
-ssh2_publickey_add(    resource $pkey,    string $algoname,    string $blob,    bool $overwrite = false,    array $attributes = ?): bool
+ssh2_publickey_add(    resource $pkey,    string $algoname,    string $blob,    bool $overwrite = false,    array $attributes = ?): bool
 ```
 
-> **Зауваження**: Підсистема відкритих ключів використовується для керування відкритими ключами на сервері, на якому клієнт *вже* пройшов авторизацію. Для авторизації за допомогою відкритого ключа на віддаленій системі, використовуйте натомість функцію [ssh2authpubkeyfile()](function.ssh2-auth-pubkey-file.md)
+> **Зауваження**: Через підсистему відкритих ключів керують відкритими ключами на сервері, на якому клієнт *вже* пройшов аутентифікацію. Натомість для аутентифікації з відкритим ключем на віддаленій системі викликають функцію [ssh2\_auth\_pubkey\_file()](function.ssh2-auth-pubkey-file.md)
 
 ### Список параметрів
 
 `pkey`
 
-Ресурс підсистеми відкритого ключа, створений за допомогою [ssh2publickeyinit()](function.ssh2-publickey-init.md)
+Ресурс підсистеми відкритого ключа, створений за допомогою [ssh2\_publickey\_init()](function.ssh2-publickey-init.md)
 
 `algoname`
 
@@ -44,11 +45,11 @@ ssh2_publickey_add(    resource $pkey,    string $algoname,    string $blob,    
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Додаємо відкритий ключ за допомогою **ssh2publickeyadd()****
+**Приклад #1 Додаємо відкритий ключ за допомогою **ssh2\_publickey\_add()****
 
 ```php
 <?php
@@ -68,6 +69,6 @@ ssh2_publickey_add($pkey, 'ssh-rsa', $keyblob, false, array('comment'=>"John's K
 
 ### Дивіться також
 
--   [ssh2publickeyinit()](function.ssh2-publickey-init.md) - Ініціалізує підсистему відкритого ключа
--   [ssh2publickeyremove()](function.ssh2-publickey-remove.md) - Видаляє авторизований відкритий ключ
--   [ssh2publickeylist()](function.ssh2-publickey-list.md) - Список вже авторизованих відкритих ключів
+-   [ssh2\_publickey\_init()](function.ssh2-publickey-init.md) \- Ініціалізує підсистему відкритого ключа
+-   [ssh2\_publickey\_remove()](function.ssh2-publickey-remove.md) \- Видаляє авторизований відкритий ключ
+-   [ssh2\_publickey\_list()](function.ssh2-publickey-list.md) \- Список вже авторизованих відкритих ключів

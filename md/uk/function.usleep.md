@@ -1,10 +1,11 @@
 ---
 navigation:
   - function.unpack.md: « unpack
-  - changelog.misc.md: Список изменений »
+  - changelog.misc.md: Список змін "
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: usleep
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # usleep
 
@@ -36,33 +37,40 @@ usleep(int $microseconds): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **usleep()****
+**Пример #1 Пример использования**usleep()\*\*\*\*
 
 ```php
 <?php
 
 // Текущее время
-echo date('h:i:s') . "\n";
+echo (new DateTime('now'))->format('H:i:s.v'), "\n";
 
-// ждать 2 секунды
-usleep(2000000);
+// ждать 2 миллисекунды
+usleep(2000);
 
 // вернуться к исполнению
-echo date('h:i:s') . "\n";
+echo (new DateTime('now'))->format('H:i:s.v'), "\n";
+
+// ждать 30 миллисекунд
+usleep(30000);
+
+// вернуться к исполнению ещё раз!
+echo (new DateTime('now'))->format('H:i:s.v'), "\n";
 
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-11:13:28
-11:13:30
+11:13:28.005
+11:13:28.007
+11:13:28.037
 ```
 
 ### Дивіться також
 
--   [sleep()](function.sleep.md) - затримка виконання
--   [timenanosleep()](function.time-nanosleep.md) - Затримка на задане число секунд та наносекунд
--   [timesleepuntil()](function.time-sleep-until.md) - Відкладає виконання скрипту до заданого часу
--   [settimelimit()](function.set-time-limit.md) - Обмеження часу виконання скрипту
+-   [sleep()](function.sleep.md) \- затримка виконання
+-   [time\_nanosleep()](function.time-nanosleep.md) \- Затримка на задану кількість секунд та наносекунд
+-   [time\_sleep\_until()](function.time-sleep-until.md) \- Відкладає виконання скрипту до заданого часу
+-   [set\_time\_limit()](function.set-time-limit.md) \- Обмеження часу виконання скрипту

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::check'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::check
 
@@ -33,7 +34,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvCheck::construct()](evcheck.construct.md)
+Усі параметри, що й для [EvCheck::\_\_construct()](evcheck.construct.md)
 
 ### Значення, що повертаються
 
@@ -41,4 +42,4 @@ final
 
 ### Дивіться також
 
--   [EvCheck::construct()](evcheck.construct.md) - Конструктор об'єкту EvCheck
+-   [EvCheck::\_\_construct()](evcheck.construct.md) \- Конструктор об'єкту EvCheck

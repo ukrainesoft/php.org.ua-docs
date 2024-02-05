@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.reversed.md: '« DsSet::reversed'
-  - ds-set.sort.md: 'ДсSet::sort »'
+  - ds-set.reversed.md: '« Ds\\Set::reversed'
+  - ds-set.sort.md: 'Ds\\Set::sort »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::slice'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::slice'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::slice
+# Ds\\Set::slice
 
 (PECL ds >= 1.0.0)
 
-ДсSet::slice — Повертає піднабір із заданого діапазону
+Ds\\Set::slice — Повертає піднабір із заданого діапазону
 
 ### Опис
 
@@ -38,7 +39,7 @@ public Ds\Set::slice(int $index, int $length = ?): Ds\Set
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::slice()****
+**Пример #1 Пример использования**Ds\\Set::slice()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ print_r($set->slice(1, -1));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Set Object

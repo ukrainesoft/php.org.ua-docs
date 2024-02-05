@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::doNormal'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::doNormal
 
@@ -15,14 +16,14 @@ GearmanClient::doNormal — Виконує одиночне завдання т�
 ### Опис
 
 ```methodsynopsis
-public GearmanClient::doNormal(string $function_name, string $workload, string $unique = ?): string
+public GearmanClient::doNormal(string $function, string $workload, ?string $unique = null): string
 ```
 
 Виконує одиночне завдання та повертає рядкове подання результату. Формат результату, що повертається, визначають об'єкти. [GearmanClient](class.gearmanclient.md) і [GearmanWorker](class.gearmanworker.md)
 
 ### Список параметрів
 
-`function_name`
+`function`
 
 Зареєстрована функція, що викликається робочим процесом
 
@@ -103,7 +104,7 @@ function reverse_fn($job)
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Запуск
@@ -216,7 +217,7 @@ function reverse_fn($job)
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 Висновок оброблювача:
 
@@ -256,8 +257,8 @@ function reverse_fn($job)
 
 ### Дивіться також
 
--   [GearmanClient::doHigh()](gearmanclient.dohigh.md) - Запускає на виконання завдання із високим пріоритетом
--   [GearmanClient::doLow()](gearmanclient.dolow.md) - Запускає виконання завдання з низьким пріоритетом
--   [GearmanClient::doBackground()](gearmanclient.dobackground.md) - Запускає виконання завдання у фоновому режимі
--   [GearmanClient::doHighBackground()](gearmanclient.dohighbackground.md) - Запускає на виконання із високим пріоритетом завдання у фоновому режимі
--   [GearmanClient::doLowBackground()](gearmanclient.dolowbackground.md) - Запускає на виконання з низьким пріоритетом завдання у фоновому режимі
+-   [GearmanClient::doHigh()](gearmanclient.dohigh.md) \- Запускає на виконання завдання із високим пріоритетом
+-   [GearmanClient::doLow()](gearmanclient.dolow.md) \- Запускає виконання завдання з низьким пріоритетом
+-   [GearmanClient::doBackground()](gearmanclient.dobackground.md) \- Запускає виконання завдання у фоновому режимі
+-   [GearmanClient::doHighBackground()](gearmanclient.dohighbackground.md) \- Запускає на виконання із високим пріоритетом завдання у фоновому режимі
+-   [GearmanClient::doLowBackground()](gearmanclient.dolowbackground.md) \- Запускає на виконання з низьким пріоритетом завдання у фоновому режимі

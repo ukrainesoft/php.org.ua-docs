@@ -5,31 +5,32 @@ navigation:
   - index.md: PHP Manual
   - book.expect.md: Expect
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.
 
-**`EXP_GLOB`** (int)
+**`EXP_GLOB`**(int)
 
 Вказує на те, що шаблон є шаблоном пошуку файлу (glob).
 
-**`EXP_EXACT`** (int)
+**`EXP_EXACT`**(int)
 
 Вказує, що шаблон є точним рядком.
 
-**`EXP_REGEXP`** (int)
+**`EXP_REGEXP`**(int)
 
 Вказує, що шаблон є регулярним виразом.
 
-**`EXP_EOF`** (int)
+**`EXP_EOF`**(int)
 
-Значення, що повертається [expectexpectl()](function.expect-expectl.md), коли досягнуто кінець файлу.
+Значение, возвращаемое[expect\_expectl()](function.expect-expectl.md), коли досягнуто кінець файлу.
 
-**`EXP_TIMEOUT`** (int)
+**`EXP_TIMEOUT`**(int)
 
-Значення, що повертається [expectexpectl()](function.expect-expectl.md) після вичерпання часу очікування, заданого в [expect.timeout](expect.configuration.md#ini.expect.timeout)
+Значение, возвращаемое[expect\_expectl()](function.expect-expectl.md)после исчерпания времени ожидания, заданного в[expect.timeout](expect.configuration.md#ini.expect.timeout)
 
-**`EXP_FULLBUFFER`** (int)
+**`EXP_FULLBUFFER`**(int)
 
-Значення, що повертається [expectexpectl()](function.expect-expectl.md), коли збігів із шаблоном не знайдено.
+Значение, возвращаемое[expect\_expectl()](function.expect-expectl.md)коли збігів з шаблоном не знайдено.

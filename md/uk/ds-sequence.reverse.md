@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.remove.md: '« DsSequence::remove'
-  - ds-sequence.reversed.md: 'ДсSequence::reversed »'
+  - ds-sequence.remove.md: '« Ds\\Sequence::remove'
+  - ds-sequence.reversed.md: 'Ds\\Sequence::reversed »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::reverse'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::reverse'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::reverse
+# Ds\\Sequence::reverse
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::reverse — Перевертає поточну колекцію
+Ds\\Sequence::reverse — Перевертає поточну колекцію
 
 ### Опис
 
@@ -30,7 +31,7 @@ abstract public Ds\Sequence::reverse(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::reverse()****
+**Пример #1 Пример использования**Ds\\Sequence::reverse()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ print_r($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.xml-set-end-namespace-decl-handler.md: « xmlsetendnamespacedeclhandler
-  - function.xml-set-notation-decl-handler.md: xmlsetnotationdeclhandler »
+  - function.xml-set-end-namespace-decl-handler.md: « xml\_set\_end\_namespace\_decl\_handler
+  - function.xml-set-notation-decl-handler.md: xml\_set\_notation\_decl\_handler »
   - index.md: PHP Manual
-  - ref.xml.md: Функции парсера XML
-title: xmlsetexternalentityrefhandler
+  - ref.xml.md: Функції парсера XML
+title: xml\_set\_external\_entity\_ref\_handler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlsetexternalentityrefhandler
+# xml\_set\_external\_entity\_ref\_handler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xmlsetexternalentityrefhandler - Встановлення обробника зовнішніх сутностей
+xml\_set\_external\_entity\_ref\_handler - Встановлення обробника зовнішніх сутностей
 
 ### Опис
 
 ```methodsynopsis
-xml_set_external_entity_ref_handler(XMLParser $parser, callable $handler): bool
+xml_set_external_entity_ref_handler(XMLParser $parser, callable $handler): true
 ```
 
 Задає функцію обробник зовнішніх сутностей для XML-аналізатора `parser`
@@ -24,49 +25,51 @@ xml_set_external_entity_ref_handler(XMLParser $parser, callable $handler): bool
 
 `parser`
 
-Посилання на аналізатор XML.
+Парсер XML.
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, яка повинна бути визначена на момент виклику функції [xmlparse()](function.xml-parse.md) з аналізатора `parser`
+Якщо передається значення **`null`** або порожній рядок, обробник повертається в стан за замовчуванням.
 
-Функція з ім'ям `handler` має приймати п'ять аргументів та повертати цілий результат. Якщо обробник поверне **`false`** (як і нічого не поверне), XML аналізатор припинить роботу, а функція [xmlgeterrorcode()](function.xml-get-error-code.md) повертатиме константу **`XML_ERROR_EXTERNAL_ENTITY_HANDLING`**
+Якщо параметр `handler` є типом [callable](language.types.callable.md), то як оброблювач встановлюється callable.
+
+Якщо параметр `handler` є рядком (string), це може бути ім'я методу об'єкта, заданого за допомогою функції [xml\_set\_object()](function.xml-set-object.md)
+
+Сигнатура оброблювача має бути:
 
 ```methodsynopsis
-handler(    XMLParser $parser,    string $open_entity_names,    string $base,    string $system_id,    string $public_id)
+handler(    XMLParser $parser,    string $open_entity_names,    string|false $base,    string $system_id,    string|false $public_id): bool
 ```
 
 `parser`
 
-Перший аргумент parser є посиланням на XML-аналізатор, що викликає обробник.
+XML-парсер, що викликає оброблювач.
 
 `open_entity_names`
 
-Другий аргумент `open_entity_names` - список розділених пробілами імен сутностей, які можуть брати участь у аналізі поточної сутності (включаючи поточну сутність).
+Список розділених пробілами імен сутностей, які можуть брати участь у аналізі поточної сутності (включаючи поточну сутність).
 
 `base`
 
-Це основа для дозволу системного ідентифікатора (`system_id`) Зовнішньої сутності. На даний момент як цей аргумент завжди передається порожній рядок.
+Це основа для дозволу системного ідентифікатора (`system_id`) Зовнішньої сутності.
 
 `system_id`
 
-Четвертий аргумент `system_id` - Системний ідентифікатор у тому вигляді, як він представлений в оголошенні сутності.
+Системний ідентифікатор у вигляді, як він представлений в оголошенні сутності.
 
 `public_id`
 
-П'ятий аргумент `public_id` - загальнодоступний ідентифікатор у вигляді, як і представлений у оголошенні сутності, чи порожній рядок, якщо такого немає; пробіли в ідентифікаторі будуть нормалізовані відповідно до вимог специфікації XML.
+Загальнодоступний ідентифікатор у вигляді, як і представлений у оголошенні сутності, чи порожній рядок, якщо такого немає; пробіли в ідентифікаторі будуть нормалізовані відповідно до вимог специфікації XML.
 
-Якщо як обробник передано порожній рядок або **`false`**, цей обробник вимикається.
-
-> **Зауваження**: Як аргумент замість імені функції може бути переданий масив, що містить посилання на об'єкт та ім'я методу.
+Обработчик должен вернуть\*\*`true`\*\*якщо сутність була оброблена, інакше він повинен повернути **`false`**При возврате значения**`false`**, XML-парсер прекращает разбор, а функция[xml\_get\_error\_code()](function.xml-get-error-code.md) повертає константу **`XML_ERROR_EXTERNAL_ENTITY_HANDLING`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
-|  | Значення, що повертається `handler` більше не ігнорується, якщо модуль був зібраний із бібліотекою libxml. Раніше значення, що поверталося, ігнорувалося, а розбір ніколи не зупинявся. |
+| 8.0.0 | Параметр`parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався коректний `xml` ресурс (Resource). |
+| 7.3.0 | Возвращаемое значение`handler` більше не ігнорується, якщо модуль був зібраний із бібліотекою libxml. Раніше значення, що поверталося, ігнорувалося, а розбір ніколи не зупинявся. |

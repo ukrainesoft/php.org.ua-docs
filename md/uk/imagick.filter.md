@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::filter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::filter
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
-Imagick::filter — Опис
+Imagick::filter — Застосовує ядро ​​згортки для користувача.
 
 **Увага**
 
@@ -22,7 +23,7 @@ Imagick::filter — Опис
 public Imagick::filter(ImagickKernel $ImagickKernel, int $channel = Imagick::CHANNEL_UNDEFINED): bool
 ```
 
-Застосовує ядро ​​користувача згортки до зображення.
+Застосовується ядро ​​згортки до зображення.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public Imagick::filter(ImagickKernel $ImagickKernel, int $channel = Imagick::CHA
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно \*\*`Imagick::CHANNEL_DEFAULT`\*\*Обратитесь к списку[констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
@@ -40,7 +41,7 @@ public Imagick::filter(ImagickKernel $ImagickKernel, int $channel = Imagick::CHA
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::filter()****
+**Пример #1 Пример использования**Imagick::filter()\*\*\*\*
 
 ```php
 <?php

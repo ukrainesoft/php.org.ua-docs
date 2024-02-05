@@ -1,16 +1,17 @@
 ---
 navigation:
-  - soapclient.getfunctions.md: '« SoapClient::getFunctions'
-  - soapclient.getlastrequestheaders.md: 'SoapClient::getLastRequestHeaders »'
+  - soapclient.getfunctions.md: '« SoapClient::\_\_getFunctions'
+  - soapclient.getlastrequestheaders.md: 'SoapClient::\_\_getLastRequestHeaders »'
   - index.md: PHP Manual
   - class.soapclient.md: SoapClient
-title: 'SoapClient::getLastRequest'
+title: 'SoapClient::\_\_getLastRequest'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapClient::getLastRequest
+# SoapClient::\_\_getLastRequest
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapClient::getLastRequest - Повертає останній SOAP-запит
+SoapClient::\_\_getLastRequest - Повертає останній SOAP-запит
 
 ### Опис
 
@@ -20,7 +21,7 @@ public SoapClient::__getLastRequest(): ?string
 
 Повертає XML, переданий в останньому запиті SOAP.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Метод працює лише для об'єкта [SoapClient](class.soapclient.md), створеного з налаштуванням `trace`, рівною **`true`**
 
@@ -34,7 +35,7 @@ public SoapClient::__getLastRequest(): ?string
 
 ### Приклади
 
-**Приклад #1 Приклад використання SoapClient::getLastRequest()**
+**Приклад #1 Приклад використання SoapClient::\_\_getLastRequest()**
 
 ```php
 <?php
@@ -46,6 +47,6 @@ echo "ЗАПРОС:\n" . $client->__getLastRequest() . "\n";
 
 ### Дивіться також
 
--   [SoapClient::getLastRequestHeaders()](soapclient.getlastrequestheaders.md) - Повертає SOAP-заголовки останнього запиту
--   [SoapClient::getLastResponse()](soapclient.getlastresponse.md) - Повертає останню SOAP-відповідь
--   [SoapClient::getLastResponseHeaders()](soapclient.getlastresponseheaders.md) - Повертає SOAP-заголовки останньої відповіді
+-   [SoapClient::\_\_getLastRequestHeaders()](soapclient.getlastrequestheaders.md) \- Повертає SOAP-заголовки останнього запиту
+-   [SoapClient::\_\_getLastResponse()](soapclient.getlastresponse.md) \- Повертає останню SOAP-відповідь
+-   [SoapClient::\_\_getLastResponseHeaders()](soapclient.getlastresponseheaders.md) \- Повертає SOAP-заголовки останньої відповіді

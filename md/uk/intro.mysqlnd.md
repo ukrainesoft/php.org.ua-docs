@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.mysqlnd.md: « Mysqlnd
-  - mysqlnd.overview.md: Обзор »
+  - mysqlnd.overview.md: Огляд »
   - index.md: PHP Manual
   - book.mysqlnd.md: Mysqlnd
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 

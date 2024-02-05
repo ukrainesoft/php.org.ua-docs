@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::setTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::setTime
 
@@ -40,11 +41,11 @@ intlcal_set_time(IntlCalendar $calendar, float $timestamp): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::setTime()****
+**Пример #1 Пример использования**IntlCalendar::setTime()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ $cal->setTime(strtotime('2013-10-27 01:30:00 UTC') * 1000.);
 echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 samedi 1 juin 2013 12:00:00 heure avancée d’Europe de l’Ouest

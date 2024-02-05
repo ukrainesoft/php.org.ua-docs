@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashintset.md: QuickHashIntSet
 title: 'QuickHashIntSet::exists'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntSet::exists
 
@@ -28,11 +29,11 @@ public QuickHashIntSet::exists(int $key): bool
 
 ### Значення, що повертаються
 
-Метод повертає **`true`**, якщо запис було знайдено або **`false`**, якщо запис не знайдено.
+Метод возвращает\*\*`true`\*\*, якщо запис було знайдено або **`false`**, якщо запис не знайдено.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntSet::exists()****
+**Пример #1 Пример использования**QuickHashIntSet::exists()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ echo "Готово, $foundCount найдено: ", microtime( true ), "\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Создание набора: 1263588703.0748

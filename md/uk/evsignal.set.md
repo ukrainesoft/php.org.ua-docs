@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evsignal.md: EvSignal
 title: 'EvSignal::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvSignal::set
 
@@ -28,7 +29,7 @@ public
 
 `signum`
 
-Номер сигналу. Як описано в [EvSignal::construct()](evsignal.construct.md)
+Номер сигналу. Як описано в [EvSignal::\_\_construct()](evsignal.construct.md)
 
 ### Значення, що повертаються
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.hrtime-performancecounter.md: « HRTimePerformanceCounter
-  - hrtime-performancecounter.getticks.md: 'HRTimePerformanceCounter::getTicks »'
+  - class.hrtime-performancecounter.md: « HRTime\\PerformanceCounter
+  - hrtime-performancecounter.getticks.md: 'HRTime\\PerformanceCounter::getTicks »'
   - index.md: PHP Manual
-  - class.hrtime-performancecounter.md: HRTimePerformanceCounter
-title: 'HRTimePerformanceCounter::getFrequency'
+  - class.hrtime-performancecounter.md: HRTime\\PerformanceCounter
+title: 'HRTime\\PerformanceCounter::getFrequency'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# HRTimePerformanceCounter::getFrequency
+# HRTime\\PerformanceCounter::getFrequency
 
 (PECL hrtime >= 0.4.3)
 
-HRTimePerformanceCounter::getFrequency — Частота таймера в тиках за секунду
+HRTime\\PerformanceCounter::getFrequency — Частота таймера в тиках за секунду
 
 ### Опис
 

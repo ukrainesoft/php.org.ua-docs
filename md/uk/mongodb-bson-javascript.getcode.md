@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-javascript.construct.md: '« MongoDBBSONJavascript::construct'
-  - mongodb-bson-javascript.getscope.md: 'MongoDBBSONJavascript::getScope »'
+  - mongodb-bson-javascript.construct.md: '« MongoDB\\BSON\\Javascript::\_\_construct'
+  - mongodb-bson-javascript.getscope.md: 'MongoDB\\BSON\\Javascript::getScope »'
   - index.md: PHP Manual
-  - class.mongodb-bson-javascript.md: MongoDBBSONJavascript
-title: 'MongoDBBSONJavascript::getCode'
+  - class.mongodb-bson-javascript.md: MongoDB\\BSON\\Javascript
+title: 'MongoDB\\BSON\\Javascript::getCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONJavascript::getCode
+# MongoDB\\BSON\\Javascript::getCode
 
 (mongodb >=1.2.0)
 
-MongoDBBSONJavascript::getCode — Повертає код JavaScript
+MongoDB\\BSON\\Javascript::getCode — Повертає код JavaScript
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\BSON\Javascript::getCode(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONJavascript::getCode()****
+**Пример #1 Пример использования**MongoDB\\BSON\\Javascript::getCode()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($js->getCode());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(33) "function foo(bar) { return bar; }"
@@ -51,4 +52,4 @@ string(33) "function foo(bar) { return bar; }"
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

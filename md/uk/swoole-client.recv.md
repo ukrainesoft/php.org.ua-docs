@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-client.pipe.md: '« SwooleClient::pipe'
-  - swoole-client.resume.md: 'SwooleClient::resume »'
+  - swoole-client.pipe.md: '« Swoole\\Client::pipe'
+  - swoole-client.resume.md: 'Swoole\\Client::resume »'
   - index.md: PHP Manual
-  - class.swoole-client.md: SwooleClient
-title: 'SwooleClient::recv'
+  - class.swoole-client.md: Swoole\\Client
+title: 'Swoole\\Client::recv'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleClient::recv
+# Swoole\\Client::recv
 
 (PECL swoole >= 1.9.0)
 
-SwooleClient::recv — Отримує дані з віддаленого сокету
+Swoole\\Client::recv — Отримує дані з віддаленого сокету
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Client::recv(string $size = ?, string $flag = ?): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

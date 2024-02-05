@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.db2-last-insert-id.md: « db2lastinsertід
-  - function.db2-next-result.md: db2nextresult »
+  - function.db2-last-insert-id.md: « db2\_last\_insert\_id
+  - function.db2-next-result.md: db2\_next\_result »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2лобread
+title: db2\_lob\_read
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2лобread
+# db2\_lob\_read
 
-(PECL ibmdb2> = 1.6.0)
+(PECL ibm\_db2 >= 1.6.0)
 
-db2лобread — Отримує певний користувачем розмір LOB-файлів під час кожного виклику
+db2\_lob\_read — Отримує певний користувачем розмір LOB-файлів під час кожного виклику
 
 ### Опис
 
 ```methodsynopsis
-db2_lob_read(resource $stmt, int $colnum, int $length): string
+db2_lob_read(resource $stmt, int $colnum, int $length): string|false
 ```
 
-Використовуйте **db2лобread()** для ітерації за вказаним стовпцем набору результатів та отримання заданого користувачем розміру LOB-даних.
+Используйте**db2\_lob\_read()** для ітерації за вказаним стовпцем набору результатів та отримання заданого користувачем розміру LOB-даних.
 
 ### Список параметрів
 
@@ -106,7 +107,7 @@ if ($conn) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Loop 0: THIS I
@@ -127,9 +128,9 @@ Loop 6: TEST.
 
 ### Дивіться також
 
--   [db2bindparam()](function.db2-bind-param.md) - Зв'язує змінну PHP із параметром SQL-виразу
--   [db2exec()](function.db2-exec.md) - Виконує SQL-запит безпосередньо
--   [db2execute()](function.db2-execute.md) - Виконує підготовлений SQL-запит
--   [db2fetchrow()](function.db2-fetch-row.md) - Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
--   [db2prepare()](function.db2-prepare.md) - готує SQL-запит до виконання
--   [db2result()](function.db2-result.md) - Повертає один стовпець з рядка у наборі результатів
+-   [db2\_bind\_param()](function.db2-bind-param.md) \- Зв'язує змінну PHP із параметром SQL-виразу
+-   [db2\_exec()](function.db2-exec.md) \- Виконує SQL-запит безпосередньо
+-   [db2\_execute()](function.db2-execute.md) \- Виконує підготовлений SQL-запит
+-   [db2\_fetch\_row()](function.db2-fetch-row.md) \- Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
+-   [db2\_prepare()](function.db2-prepare.md) \- готує SQL-запит до виконання
+-   [db2\_result()](function.db2-result.md) \- Повертає один стовпець з рядка у наборі результатів

@@ -1,18 +1,19 @@
 ---
 navigation:
-  - function.finfo-file.md: « finfofile
-  - function.finfo-set-flags.md: finfosetflags »
+  - function.finfo-file.md: « finfo\_file
+  - function.finfo-set-flags.md: finfo\_set\_flags »
   - index.md: PHP Manual
-  - ref.fileinfo.md: Функции модуля Fileinfo
-title: finfoopen
+  - ref.fileinfo.md: Функції модуля Fileinfo
+title: finfo\_open
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# finfoopen
+# finfo\_open
 
-# finfo::construct
+# finfo::\_\_construct
 
 (PHP >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-finfoopen -- finfo::construct - Створює екземпляр finfo
+finfo\_open -- finfo::\_\_construct - Створює екземпляр finfo
 
 ### Опис
 
@@ -24,7 +25,7 @@ finfo_open(int $flags = FILEINFO_NONE, ?string $magic_database = null): finfo|fa
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public [finfo::construct](finfo.construct.md)(int `$flags` **`FILEINFO_NONE`**, ?string `$magic_database` **`null`**
+public[finfo::\_\_construct](finfo.construct.md)(int`$flags` **`FILEINFO_NONE`**, ?string`$magic_database` **`null`**) .
 
 Ця функція відкриває магічну базу даних та повертає екземпляр.
 
@@ -36,20 +37,20 @@ public [finfo::construct](finfo.construct.md)(int `$flags` **`FILEINFO_NONE`**, 
 
 `magic_database`
 
-Ім'я файлу магічної бази даних, зазвичай щось на кшталт цього: /path/to/magic.mime. Якщо не вказано повний шлях, буде використано змінне оточення `MAGIC`. Якщо змінна оточення не вказана, використовуватиметься вбудована в PHP магічна база даних.
+Ім'я файлу магічної бази даних, зазвичай щось на кшталт цього: /path/to/magic.mime. Якщо не вказано повний шлях, буде використано змінне оточення `MAGIC`. Якщо змінна оточення не вказана, то використовуватиметься вбудована в PHP магічна база даних.
 
-Передача **`null`** або порожній рядок еквівалентно значенням за промовчанням.
+Передача\*\*`null`\*\* або порожній рядок еквівалентно значенням за промовчанням.
 
 ### Значення, що повертаються
 
-(Тільки процедурний стиль) Повертає екземпляр [finfo](class.finfo.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
+(Тільки процедурний стиль) Повертає екземпляр [finfo](class.finfo.md) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Повертає екземпляр [finfo](class.finfo.md); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | `magic_database` тепер допускає значення null. |
+| 8.1.0 | Повертає екземпляр [finfo](class.finfo.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.0.3 | `magic_database` тепер допускає значення null. |
 
 ### Приклади
 
@@ -86,7 +87,7 @@ finfo_close($finfo);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 text/plain; charset=us-ascii
@@ -94,10 +95,10 @@ text/plain; charset=us-ascii
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Зазвичай використання вбудованої магічної бази даних (при невстановлених `magic_database` і `MAGIC`) найкращий вибір, якщо вам не потрібна певна версія магічної бази даних.
+> Зазвичай використання вбудованої магічної бази даних (при невстановлених `magic_database`и`MAGIC`) найкращий вибір, якщо вам не потрібна певна версія магічної бази даних.
 
 ### Дивіться також
 
--   [finfoclose()](function.finfo-close.md) - Закриває екземпляр finfo
+-   [finfo\_close()](function.finfo-close.md) \- Закриває екземпляр finfo

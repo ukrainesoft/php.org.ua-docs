@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.getmodulename.md: '« YafRequestAbstract::getModuleName'
-  - yaf-request-abstract.getparams.md: 'YafRequestAbstract::getParams »'
+  - yaf-request-abstract.getmodulename.md: '« Yaf\_Request\_Abstract::getModuleName'
+  - yaf-request-abstract.getparams.md: 'Yaf\_Request\_Abstract::getParams »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::getParam'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::getParam'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::getParam
+# Yaf\_Request\_Abstract::getParam
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::getParam — Отримує опцію виклику
+Yaf\_Request\_Abstract::getParam — Отримує параметр виклику
 
 ### Опис
 
@@ -28,4 +29,4 @@ public Yaf_Request_Abstract::getParam(string $name, string $default = ?): mixed
 
 ### Дивіться також
 
--   [YafRequestAbstract::setParam()](yaf-request-abstract.setparam.md) - Встановлює параметр дзвінка для запиту
+-   [Yaf\_Request\_Abstract::setParam()](yaf-request-abstract.setparam.md) \- Встановлює параметр дзвінка для запиту

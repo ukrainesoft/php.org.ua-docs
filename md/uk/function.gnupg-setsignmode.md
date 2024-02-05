@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gnupg-seterrormode.md: « gnupgseterrormode
-  - function.gnupg-sign.md: gnupgsign »
+  - function.gnupg-seterrormode.md: « gnupg\_seterrormode
+  - function.gnupg-sign.md: gnupg\_sign »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgsetsignmode
+title: gnupg\_setsignmode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgsetsignmode
+# gnupg\_setsignmode
 
 (PECL gnupg >= 0.1)
 
-gnupgsetsignmode — Встановлює режим підписування
+gnupg\_setsignmode — Встановлює режим підписування
 
 ### Опис
 
@@ -24,21 +25,21 @@ gnupg_setsignmode(resource $identifier, int $signmode): bool
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `sigmode`
 
 Режим підписування.
 
-`signmode` містить константу, що вказує, який тип підпису має бути зроблено. Можливі значення: **`GNUPG_SIG_MODE_NORMAL`** **`GNUPG_SIG_MODE_DETACH`** і **`GNUPG_SIG_MODE_CLEAR`**. За замовчуванням використовується **`GNUPG_SIG_MODE_CLEAR`**
+`signmode` містить константу, що вказує, який тип підпису має бути зроблено. Можливі значення: **`GNUPG_SIG_MODE_NORMAL`** **`GNUPG_SIG_MODE_DETACH`**и**`GNUPG_SIG_MODE_CLEAR`**По умолчанию используется**`GNUPG_SIG_MODE_CLEAR`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupgsetsignmode()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_setsignmode()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ gnupg_setsignmode($res, GNUPG_SIG_MODE_DETACH); // производить раз
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupgsetsignmode()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_setsignmode()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

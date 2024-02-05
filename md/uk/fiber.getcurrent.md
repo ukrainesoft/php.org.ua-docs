@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.fiber.md: Fiber
 title: 'Fiber::getCurrent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Fiber::getCurrent
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 Fiber::getCurrent — Отримує поточний екземпляр Fiber
 
@@ -24,4 +25,4 @@ public static Fiber::getCurrent(): ?Fiber
 
 ### Значення, що повертаються
 
-Повертає екземпляр, що виконується в даний момент. [Fiber](class.fiber.md) або \*\*`null`\*\*якщо метод викликається ззовні файбера.
+Повертає екземпляр, що виконується в даний момент. [Fiber](class.fiber.md)или\*\*`null`\*\*якщо метод викликається ззовні файбера.

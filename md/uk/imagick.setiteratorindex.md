@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setIteratorIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setIteratorIndex
 
@@ -18,7 +19,7 @@ Imagick::setIteratorIndex — Встановлює позицію ітерато
 public Imagick::setIteratorIndex(int $index): bool
 ```
 
-Встановлює ітератор у позицію списку зображень, вказану за допомогою параметра index. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Встановлює ітератор у позицію списку зображень, вказану за допомогою параметра index. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public Imagick::setIteratorIndex(int $index): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setIteratorIndex()****
+**Пример #1 Пример использования**Imagick::setIteratorIndex()\*\* :\*\*
 
 Створення зображення, встановлення та отримання індексу ітератора
 
@@ -50,6 +51,6 @@ echo $im->getIteratorIndex();
 
 ### Дивіться також
 
--   [Imagick::getIteratorIndex()](imagick.getiteratorindex.md) - Повертає індекс поточного активного зображення
--   [Imagick::getImageIndex()](imagick.getimageindex.md) - Повертає індекс поточного активного зображення
--   [Imagick::setImageIndex()](imagick.setimageindex.md) - встановлює позицію ітератора
+-   [Imagick::getIteratorIndex()](imagick.getiteratorindex.md) \- Повертає індекс поточного активного зображення
+-   [Imagick::getImageIndex()](imagick.getimageindex.md) \- Повертає індекс поточного активного зображення
+-   [Imagick::setImageIndex()](imagick.setimageindex.md) \- встановлює позицію ітератора

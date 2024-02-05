@@ -1,14 +1,15 @@
 ---
 navigation:
   - emptyiterator.valid.md: '« EmptyIterator::valid'
-  - filesystemiterator.construct.md: 'FilesystemIterator::construct »'
+  - filesystemiterator.construct.md: 'FilesystemIterator::\_\_construct »'
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас FilesystemIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас FilesystemIterator
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,65 +19,76 @@ title: Клас FilesystemIterator
 
 ```classsynopsis
 
-     
+    
+     class FilesystemIterator
     
 
     
-     
-      class FilesystemIterator
-     
-
-     
-      extends
-       DirectoryIterator
-     
+     extends
+      DirectoryIterator
      {
 
     /* Константы */
     
+     public
      const
      int
-      CURRENT_AS_PATHNAME = 32;
+      CURRENT_MODE_MASK;
 
-    const
+    public
+     const
      int
-      CURRENT_AS_FILEINFO = 0;
+      CURRENT_AS_PATHNAME;
 
-    const
+    public
+     const
      int
-      CURRENT_AS_SELF = 16;
+      CURRENT_AS_FILEINFO;
 
-    const
+    public
+     const
      int
-      CURRENT_MODE_MASK = 240;
+      CURRENT_AS_SELF;
 
-    const
+    public
+     const
      int
-      KEY_AS_PATHNAME = 0;
+      KEY_MODE_MASK;
 
-    const
+    public
+     const
      int
-      KEY_AS_FILENAME = 256;
+      KEY_AS_PATHNAME;
 
-    const
+    public
+     const
      int
-      FOLLOW_SYMLINKS = 512;
+      FOLLOW_SYMLINKS;
 
-    const
+    public
+     const
      int
-      KEY_MODE_MASK = 3840;
+      KEY_AS_FILENAME;
 
-    const
+    public
+     const
      int
-      NEW_CURRENT_AND_KEY = 256;
+      NEW_CURRENT_AND_KEY;
 
-    const
+    public
+     const
      int
-      SKIP_DOTS = 4096;
+      OTHER_MODE_MASK;
 
-    const
+    public
+     const
      int
-      UNIX_PATHS = 8192;
+      SKIP_DOTS;
+
+    public
+     const
+     int
+      UNIX_PATHS;
 
 
     /* Методы */
@@ -93,33 +105,15 @@ public setFlags(int $flags): void
 
     /* Наследуемые методы */
     public DirectoryIterator::current(): mixed
-public DirectoryIterator::getATime(): int
 public DirectoryIterator::getBasename(string $suffix = ""): string
-public DirectoryIterator::getCTime(): int
 public DirectoryIterator::getExtension(): string
 public DirectoryIterator::getFilename(): string
-public DirectoryIterator::getGroup(): int
-public DirectoryIterator::getInode(): int
-public DirectoryIterator::getMTime(): int
-public DirectoryIterator::getOwner(): int
-public DirectoryIterator::getPath(): string
-public DirectoryIterator::getPathname(): string
-public DirectoryIterator::getPerms(): int
-public DirectoryIterator::getSize(): int
-public DirectoryIterator::getType(): string
-public DirectoryIterator::isDir(): bool
 public DirectoryIterator::isDot(): bool
-public DirectoryIterator::isExecutable(): bool
-public DirectoryIterator::isFile(): bool
-public DirectoryIterator::isLink(): bool
-public DirectoryIterator::isReadable(): bool
-public DirectoryIterator::isWritable(): bool
 public DirectoryIterator::key(): mixed
 public DirectoryIterator::next(): void
 public DirectoryIterator::rewind(): void
 public DirectoryIterator::seek(int $offset): void
-public
-   DirectoryIterator::__toString(): string
+public DirectoryIterator::__toString(): string
 public DirectoryIterator::valid(): bool
 
     public SplFileInfo::getATime(): int|false
@@ -158,15 +152,15 @@ public SplFileInfo::__toString(): string
 
 **`FilesystemIterator::CURRENT_AS_PATHNAME`**
 
-Примушує метод [FilesystemIterator::current()](filesystemiterator.current.md) повернути шлях.
+Заставляет метод[FilesystemIterator::current()](filesystemiterator.current.md) повернути шлях.
 
 **`FilesystemIterator::CURRENT_AS_FILEINFO`**
 
-Примушує метод [FilesystemIterator::current()](filesystemiterator.current.md) повернути екземпляр [SplFileInfo](class.splfileinfo.md)
+Заставляет метод[FilesystemIterator::current()](filesystemiterator.current.md) повернути екземпляр [SplFileInfo](class.splfileinfo.md)
 
 **`FilesystemIterator::CURRENT_AS_SELF`**
 
-Примушує метод [FilesystemIterator::current()](filesystemiterator.current.md) повернути $this (FilesystemIterator).
+Заставляет метод[FilesystemIterator::current()](filesystemiterator.current.md)вернуть $this (FilesystemIterator).
 
 **`FilesystemIterator::CURRENT_MODE_MASK`**
 
@@ -174,15 +168,15 @@ public SplFileInfo::__toString(): string
 
 **`FilesystemIterator::KEY_AS_PATHNAME`**
 
-Примушує метод [FilesystemIterator::key()](filesystemiterator.key.md) повернути шлях.
+Заставляет метод[FilesystemIterator::key()](filesystemiterator.key.md) повернути шлях.
 
 **`FilesystemIterator::KEY_AS_FILENAME`**
 
-Примушує метод [FilesystemIterator::key()](filesystemiterator.key.md) повернути ім'я файлу.
+Заставляет метод[FilesystemIterator::key()](filesystemiterator.key.md) повернути ім'я файлу.
 
 **`FilesystemIterator::FOLLOW_SYMLINKS`**
 
-Примушує метод [RecursiveDirectoryIterator::hasChildren()](recursivedirectoryiterator.haschildren.md) слідувати символічним посиланням.
+Заставляет метод[RecursiveDirectoryIterator::hasChildren()](recursivedirectoryiterator.haschildren.md) слідувати символічним посиланням.
 
 **`FilesystemIterator::KEY_MODE_MASK`**
 
@@ -192,9 +186,13 @@ public SplFileInfo::__toString(): string
 
 Те саме, що `FilesystemIterator::KEY_AS_FILENAME | FilesystemIterator::CURRENT_AS_FILEINFO`
 
+**`FilesystemIterator::OTHER_MODE_MASK`**
+
+Маска используется для[FilesystemIterator::getFlags()](filesystemiterator.getflags.md) і [FilesystemIterator::setFlags()](filesystemiterator.setflags.md)
+
 **`FilesystemIterator::SKIP_DOTS`**
 
-Пропускає точкові файли (`.` і `..`
+Пропускає точкові файли ( и `.. .`
 
 **`FilesystemIterator::UNIX_PATHS`**
 
@@ -202,10 +200,10 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [FilesystemIterator::construct](filesystemiterator.construct.md) - Створює новий ітератор файлової системи
--   [FilesystemIterator::current](filesystemiterator.current.md) - Поточний файл
--   [FilesystemIterator::getFlags](filesystemiterator.getflags.md) — Отримання прапорів налаштувань об'єкта
--   [FilesystemIterator::key](filesystemiterator.key.md) — Визначення ключа поточного файлу
--   [FilesystemIterator::next](filesystemiterator.next.md) — Переміщення вказівника на наступний файл
--   [FilesystemIterator::rewind](filesystemiterator.rewind.md) - Переміщення покажчика на початок
--   [FilesystemIterator::setFlags](filesystemiterator.setflags.md) - Завдання прапорів обробки
+-   [FilesystemIterator::\_\_construct](filesystemiterator.construct.md) \- Створює новий ітератор файлової системи
+-   [FilesystemIterator::current](filesystemiterator.current.md) \- Поточний файл
+-   [FilesystemIterator::getFlags](filesystemiterator.getflags.md)— Отримання прапорів налаштувань об'єкта
+-   [FilesystemIterator::key](filesystemiterator.key.md)— Визначення ключа поточного файлу
+-   [FilesystemIterator::next](filesystemiterator.next.md)— Переміщення вказівника на наступний файл
+-   [FilesystemIterator::rewind](filesystemiterator.rewind.md) \- Переміщення покажчика на початок
+-   [FilesystemIterator::setFlags](filesystemiterator.setflags.md) \- Завдання прапорів обробки

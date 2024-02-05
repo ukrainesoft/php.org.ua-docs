@@ -4,9 +4,10 @@ navigation:
   - syncsharedmemory.write.md: 'SyncSharedMemory::write »'
   - index.md: PHP Manual
   - class.syncsharedmemory.md: SyncSharedMemory
-title: 'Sync Shared Memory::size'
+title: 'SyncSharedMemory::size'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Sync Shared Memory::size
+# SyncSharedMemory::size
 
 (PECL sync >= 1.1.0)
 
@@ -30,7 +31,7 @@ public SyncSharedMemory::size(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Sync Shared Memory::size()****
+**Пример #1 Пример использования**SyncSharedMemory::size()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump($mem->size());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(1024)
@@ -47,6 +48,6 @@ int(1024)
 
 ### Дивіться також
 
--   [SyncSharedMemory::construct()](syncsharedmemory.construct.md) - Створює новий об'єкт SyncSharedMemory
--   [SyncSharedMemory::write()](syncsharedmemory.write.md) - Копіює дані в іменовану пам'ять, що розділяється.
--   [SyncSharedMemory::read()](syncsharedmemory.read.md) - Копіює дані з іменованої пам'яті, що розділяється
+-   [SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.md) \- Створює новий об'єкт SyncSharedMemory
+-   [SyncSharedMemory::write()](syncsharedmemory.write.md) \- Копіює дані в іменовану пам'ять, що розділяється.
+-   [SyncSharedMemory::read()](syncsharedmemory.read.md) \- Копіює дані з іменованої пам'яті, що розділяється

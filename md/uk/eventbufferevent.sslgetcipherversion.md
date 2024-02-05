@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::sslGetCipherVersion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::sslGetCipherVersion
 
@@ -21,7 +22,7 @@ public
 
 Отримує версію шифру, який використовується поточним з'єднанням SSL.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна, лише якщо `Event` скомпільований за допомогою OpenSSL.
 
@@ -31,4 +32,4 @@ public
 
 ### Значення, що повертаються
 
-Повертає поточну версію шифрованого з'єднання SSL або **`false`** у разі виникнення помилки.
+Повертає поточну версію шифрованого з'єднання SSL або \*\*`false`\*\*в случае возникновения ошибки.

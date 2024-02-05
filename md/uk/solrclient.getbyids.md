@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::getByIds'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::getByIds
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrClient::getByIds — Отримує документи щодо їх ідентифікаторів. Використовує Solr Realtime Get (RTG)
 
@@ -32,7 +33,7 @@ ID документів
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrClient::getByIds()****
+**Пример #1 Пример использования**SolrClient::getByIds()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ print_r($response->getResponse());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -157,4 +158,4 @@ SolrObject Object
 
 ### Дивіться також
 
--   [SolrClient::getById()](solrclient.getbyid.md) - Отримує документ щодо ідентифікатора. Використовує Solr Realtime Get (RTG)
+-   [SolrClient::getById()](solrclient.getbyid.md) \- Отримує документ щодо ідентифікатора. Використовує Solr Realtime Get (RTG)

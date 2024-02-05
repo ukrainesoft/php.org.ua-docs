@@ -4,9 +4,10 @@ navigation:
   - eventbufferevent.sslsocket.md: 'EventBufferEvent::sslSocket »'
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
-title: 'Event BufferEvent::ssl Renegotiate'
+title: 'EventBufferEvent::sslRenegotiate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Event BufferEvent::ssl Renegotiate
+# EventBufferEvent::sslRenegotiate
 
 (PECL event >= 1.2.6-beta)
 
@@ -23,7 +24,7 @@ public
 
 **Увага**
 
-Виклик цієї функції перегляне SSL та викличе відповідні callback-функції буферної події. Це складна тема; це, як правило, слід уникати, якщо тільки ви дійсно знаєте, що робите, тим більше, що у багатьох версіях SSL були відомі проблеми безпеки, пов'язані з переглядом.
+Виклик цієї функції перегляне SSL та викличе відповідні callback-функції буферної події. Це складна тема; Це, як правило, слід уникати, якщо тільки ви дійсно знаєте, що робите, тим більше, що у багатьох версіях SSL були відомі проблеми безпеки, пов'язані з переглядом.
 
 ### Список параметрів
 

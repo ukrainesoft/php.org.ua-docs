@@ -3,14 +3,15 @@ navigation:
   - function.jdmonthname.md: « jdmonthname
   - function.jdtogregorian.md: jdtogregorian »
   - index.md: PHP Manual
-  - ref.calendar.md: Календарь
+  - ref.calendar.md: Календар
 title: jdtofrench
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # jdtofrench
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-jdtofrench — Переказує число днів у юліанському літочисленні в дату за французьким республіканським календарем
+jdtofrench — Переказує кількість днів у юліанському літочисленні в дату за французьким республіканським календарем.
 
 ### Опис
 
@@ -22,7 +23,7 @@ jdtofrench(int $julian_day): string
 
 ### Список параметрів
 
-`julianday`
+`julian_day`
 
 Номер дня в юліанському літочисленні
 
@@ -32,5 +33,5 @@ jdtofrench(int $julian_day): string
 
 ### Дивіться також
 
--   [frenchtojd()](function.frenchtojd.md) - Перетворює дату Французького республіканського календаря на кількість днів у Юліанському літочисленні
--   [calfromjd()](function.cal-from-jd.md) - Перетворює дату, задану в юліанському календарі, на дату вказаного календаря
+-   [frenchtojd()](function.frenchtojd.md) \- Перетворює дату Французького республіканського календаря на кількість днів у Юліанському літочисленні
+-   [cal\_from\_jd()](function.cal-from-jd.md) \- Перетворює дату, задану в юліанському календарі, на дату вказаного календаря

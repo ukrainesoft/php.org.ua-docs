@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-table.next.md: '« SwooleTable::next'
-  - swoole-table.set.md: 'SwooleTable::set »'
+  - swoole-table.next.md: '« Swoole\\Table::next'
+  - swoole-table.set.md: 'Swoole\\Table::set »'
   - index.md: PHP Manual
-  - class.swoole-table.md: SwooleTable
-title: 'SwooleTable::rewind'
+  - class.swoole-table.md: Swoole\\Table
+title: 'Swoole\\Table::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTable::rewind
+# Swoole\\Table::rewind
 
 (PECL swoole >= 1.9.0)
 
-SwooleTable::rewind - Перемотує ітератор
+Swoole\\Table::rewind - Перемотує ітератор
 
 ### Опис
 

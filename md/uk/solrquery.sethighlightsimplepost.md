@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setHighlightSimplePost'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setHighlightSimplePost
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setHighlightSimplePost — Встановлює текст, який з'являється після виділення.
 
@@ -26,7 +27,7 @@ public SolrQuery::setHighlightSimplePost(string $simplePost, string $field_overr
 
 Встановлює текст, який з'являється після виділення
 
-За замовчуванням
+По умолчанию
 
 `field_override`
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-cascade-min-out-epochs.md: « fannsetcascademinoutepochs
-  - function.fann-set-cascade-output-change-fraction.md: fannsetcascadeoutputchangefraction »
+  - function.fann-set-cascade-min-out-epochs.md: « fann\_set\_cascade\_min\_out\_epochs
+  - function.fann-set-cascade-output-change-fraction.md: fann\_set\_cascade\_output\_change\_fraction »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetcascadenumcandidategroups
+  - ref.fann.md: Функції Fann
+title: fann\_set\_cascade\_num\_candidate\_groups
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetcascadenumcandidategroups
+# fann\_set\_cascade\_num\_candidate\_groups
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetcascadenumcandidategroups - Встановлює кількість груп кандидатів
+fann\_set\_cascade\_num\_candidate\_groups - Встановлює кількість груп кандидатів
 
 ### Опис
 
@@ -36,4 +37,4 @@ fann_set_cascade_num_candidate_groups(resource $ann, int $cascade_num_candidate_
 
 ### Дивіться також
 
--   [fanngetcascadenumcandidategroups()](function.fann-get-cascade-num-candidate-groups.md) - Повертає кількість груп кандидатів
+-   [fann\_get\_cascade\_num\_candidate\_groups()](function.fann-get-cascade-num-candidate-groups.md) \- Повертає кількість груп кандидатів

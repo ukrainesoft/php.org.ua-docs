@@ -1,10 +1,11 @@
 ---
 navigation:
-  - errorexception.getseverity.md: '« ErrorException::getSeverity'
-  - error.construct.md: 'Error::construct »'
+  - class.closedgeneratorexception.md: « ClosedGeneratorException
+  - error.construct.md: 'Error::\_\_construct »'
   - index.md: PHP Manual
   - reserved.exceptions.md: Обумовлені винятки
 title: Error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Error
 
@@ -18,16 +19,13 @@ title: Error
 
 ```classsynopsis
 
-     
+    
+     class Error
     
 
     
-     
-      class Error
-     
-
-     implements 
-       Throwable {
+     implements
+      Throwable {
 
     /* Свойства */
     
@@ -109,13 +107,13 @@ trace
 
 ## Зміст
 
--   [Error::construct](error.construct.md) - Створює об'єкт класу Error
--   [Error::getMessage](error.getmessage.md) — Отримує повідомлення про помилку
--   [Error::getPrevious](error.getprevious.md) — Повертає попередній Throwable
--   [Error::getCode](error.getcode.md) — Повертає код помилки
--   [Error::getFile](error.getfile.md) — Отримує файл, у якому сталася помилка
--   [Error::getLine](error.getline.md) — Отримує номер рядка, в якому сталася помилка
--   [Error::getTrace](error.gettrace.md) — Отримує трасування стека
--   [Error::getTraceAsString](error.gettraceasstring.md) — Отримує трасування стека у вигляді рядка
--   [Error::toString](error.tostring.md) — Строкове подання помилки
--   [Error::clone](error.clone.md) - Клонує помилку
+-   [Error::\_\_construct](error.construct.md) \- Створює об'єкт класу Error
+-   [Error::getMessage](error.getmessage.md)— Отримує повідомлення про помилку
+-   [Error::getPrevious](error.getprevious.md)— Повертає попередній Throwable
+-   [Error::getCode](error.getcode.md)— Повертає код помилки
+-   [Error::getFile](error.getfile.md)— Отримує файл, у якому сталася помилка
+-   [Error::getLine](error.getline.md)— Отримує номер рядка, в якому сталася помилка
+-   [Error::getTrace](error.gettrace.md)— Отримує трасування стека
+-   [Error::getTraceAsString](error.gettraceasstring.md)— Отримує трасування стека у вигляді рядка
+-   [Error::\_\_function toString() { \[native code\] }](error.tostring.md)— Строкове подання помилки
+-   [Error::\_\_clone](error.clone.md) \- Клонує помилку

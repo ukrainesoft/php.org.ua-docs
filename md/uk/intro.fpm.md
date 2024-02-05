@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.fpm.md: Менеджер процесів FastCGI
-  - fpm.setup.md: Встановлення та налаштування »
+  - fpm.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.fpm.md: Менеджер процесів FastCGI
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 

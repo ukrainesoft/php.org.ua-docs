@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.filter-var-array.md: « filtervararray
-  - book.funchand.md: Управление функциями »
+  - function.filter-var-array.md: « filter\_var\_array
+  - book.funchand.md: Управління функціями »
   - index.md: PHP Manual
   - ref.filter.md: Функції фільтрації даних
-title: filtervar
+title: filter\_var
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# filtervar
+# filter\_var
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-filtervar — Фільтрує змінну за допомогою певного фільтра
+filter\_var — Фільтрує змінну за допомогою певного фільтра
 
 ### Опис
 
@@ -22,17 +23,17 @@ filter_var(mixed $value, int $filter = FILTER_DEFAULT, array|int $options = 0): 
 
 `value`
 
-Значення змінної фільтрації. Зверніть увагу, що скалярні значення перед фільтрацією [преобразуются к строкам](language.types.string.md#language.types.string.casting)
+Значення змінної фільтрації. Зверніть увагу, що скалярні значення перед фільтрацією [перетворюються на рядки](language.types.string.md#language.types.string.casting)
 
 `filter`
 
 Ідентифікатор (ID) фільтра. На сторінці [Типи фільтрів](filter.filters.md) наведено список доступних фільтрів.
 
-Якщо не вказано, то використовується **`FILTER_DEFAULT`**, який рівнозначний [**`FILTER_UNSAFE_RAW`**](filter.filters.sanitize.md). Це означає, що за замовчуванням не застосовується фільтр.
+Если не указан, то принимает значение по умолчанию —\*\*`FILTER_DEFAULT`\*\*, який рівнозначний значенню константи [**`FILTER_UNSAFE_RAW`**](filter.filters.sanitize.md)То есть по умолчанию значение не фильтруется.
 
 `options`
 
-Асоціативний масив властивостей чи логічна диз'юнкція (операція АБО) прапорів. Якщо фільтр приймає настройки, прапори можуть бути вказані в елементі масиву "flags". Для фільтра "callback" має бути вказаний тип [callable](language.types.callable.md). Фільтр "callback" повинен приймати один аргумент, значення фільтрації, і повертати значення після фільтрації.
+Асоціативний масив властивостей чи логічна диз'юнкція (операція АБО) прапорів. Якщо фільтр приймає настройки, прапори можуть бути вказані в елементі масиву "flags". Для фільтра "callback" має бути зазначений тип [callable](language.types.callable.md). . Фільтр "callback" повинен приймати один аргумент, значення фільтрації, і повертати значення після фільтрації.
 
 ```php
 <?php
@@ -50,7 +51,7 @@ $var = filter_var('0755', FILTER_VALIDATE_INT, $options);
 // для фильтров, который принимает только флаги, вы можете передать их непосредственно
 $var = filter_var('oops', FILTER_VALIDATE_BOOLEAN, FILTER_NULL_ON_FAILURE);
 
-// для фильтров, который принимает только флаги, вы также можете передать их как Масив
+// для фильтров, который принимает только флаги, вы также можете передать их как массив
 $var = filter_var('oops', FILTER_VALIDATE_BOOLEAN,
                   array('flags' => FILTER_NULL_ON_FAILURE));
 
@@ -78,7 +79,7 @@ $var = filter_var('Doe, Jane Sue', FILTER_CALLBACK, array('options' => 'foo'));
 
 ### Приклади
 
-**Приклад #1 Приклад використання **filtervar()****
+**Пример #1 Пример использования**filter\_var()\*\*\*\*
 
 ```php
 <?php
@@ -87,16 +88,44 @@ var_dump(filter_var('http://example.com', FILTER_VALIDATE_URL, FILTER_FLAG_PATH_
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(15) "bob@example.com"
 bool(false)
 ```
 
+**Приклад #2 Приклад фільтрації масиву**
+
+```php
+<?php
+
+$emails = [
+    "bob@example.com",
+    "test@example.local",
+    "invalidemail"
+];
+
+var_dump(filter_var($emails, FILTER_VALIDATE_EMAIL, FILTER_REQUIRE_ARRAY));
+?>
+```
+
+Результат виконання наведеного прикладу:
+
+```
+array(3) {
+  [0]=>
+  string(15) "bob@example.com"
+  [1]=>
+  string(18) "test@example.local"
+  [2]=>
+  bool(false)
+}
+```
+
 ### Дивіться також
 
--   [filtervararray()](function.filter-var-array.md) - приймає кілька змінних і, при необхідності, фільтрує їх
--   [filterinput()](function.filter-input.md) - приймає змінну ззовні PHP і, при необхідності, фільтрує її
--   [filterinputarray()](function.filter-input-array.md) - Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
+-   [filter\_var\_array()](function.filter-var-array.md) \- приймає кілька змінних і, при необхідності, фільтрує їх
+-   [filter\_input()](function.filter-input.md) \- приймає змінну ззовні PHP і, при необхідності, фільтрує її
+-   [filter\_input\_array()](function.filter-input-array.md) \- Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
 -   [Типи фільтрів](filter.filters.md)

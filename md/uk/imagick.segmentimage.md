@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::segmentImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::segmentImage
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::segmentImage — Сегментує зображення
 
 ### Опис
 
 ```methodsynopsis
-public Imagick::segmentImage(    int $COLORSPACE,    float $cluster_threshold,    float $smooth_threshold,    bool $verbose = false): bool
+public Imagick::segmentImage(    int $COLORSPACE,    float $cluster_threshold,    float $smooth_threshold,    bool $verbose = false): bool
 ```
 
 Аналізує зображення та визначає схожі об'єкти. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.5 або старшим.
@@ -24,7 +25,7 @@ public Imagick::segmentImage(    int $COLORSPACE,    float $cluster_threshold,  
 
 `COLORSPACE`
 
-Одна з [констант COLORSPACE](imagick.constants.md#imagick.constants.colorspace)
+Одна из[констант COLORSPACE](imagick.constants.md#imagick.constants.colorspace)
 
 `cluster_threshold`
 
@@ -36,13 +37,13 @@ public Imagick::segmentImage(    int $COLORSPACE,    float $cluster_threshold,  
 
 `verbose`
 
-Визначає, чи виводити детальну інформацію про розпізнані класи.
+Визначає, чи виводити докладну інформацію про розпізнані класи.
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::segmentImage()****
+**Пример #1 Пример использования**Imagick::segmentImage()\*\*\*\*
 
 ```php
 <?php

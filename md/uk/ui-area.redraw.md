@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-area.onmouse.md: '« UIArea::onMouse'
-  - ui-area.scrollto.md: 'ОЙArea::scrollTo »'
+  - ui-area.onmouse.md: '« UI\\Area::onMouse'
+  - ui-area.scrollto.md: 'UI\\Area::scrollTo »'
   - index.md: PHP Manual
-  - class.ui-area.md: ОЙArea
-title: 'ОЙArea::redraw'
+  - class.ui-area.md: UI\\Area
+title: 'UI\\Area::redraw'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙArea::redraw
+# UI\\Area::redraw
 
 (UI 0.9.9)
 
-ОЙArea::redraw — Перемалювати область
+UI\\Area::redraw — Перемалювати область
 
 ### Опис
 

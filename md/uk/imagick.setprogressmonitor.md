@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setProgressMonitor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setProgressMonitor
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
 Imagick::setProgressMonitor — Встановлює callback-функцію, яка буде викликатись під час обробки зображення Imagick
 
@@ -47,7 +48,7 @@ Callback – функція прогресу для виклику. Вона п�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setProgressMonitor()****
+**Пример #1 Пример использования**Imagick::setProgressMonitor()\*\*\*\*
 
 ```php
 <?php

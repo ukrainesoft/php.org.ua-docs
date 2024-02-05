@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-sftp-rmdir.md: « ssh2sftprmdir
-  - function.ssh2-sftp-symlink.md: ssh2sftpsymlink »
+  - function.ssh2-sftp-rmdir.md: « ssh2\_sftp\_rmdir
+  - function.ssh2-sftp-symlink.md: ssh2\_sftp\_symlink »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2sftpстати
+title: ssh2\_sftp\_stat
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2sftpстати
+# ssh2\_sftp\_stat
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2sftpstat — Інформація про файл
+ssh2\_sftp\_stat — Інформація про файл
 
 ### Опис
 
@@ -26,7 +27,7 @@ ssh2_sftp_stat(resource $sftp, string $path): array
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2\_sftp()](function.ssh2-sftp.md)
 
 `path`
 
@@ -57,6 +58,6 @@ $mode = $statinfo['mode'];
 
 ### Дивіться також
 
--   [ssh2sftplstat()](function.ssh2-sftp-lstat.md) - Інформація про символічне посилання
--   [lstat()](function.lstat.md) - Повертає інформацію про файл або символічне посилання
--   [stat()](function.stat.md) - Повертає інформацію про файл
+-   [ssh2\_sftp\_lstat()](function.ssh2-sftp-lstat.md) \- Інформація про символічне посилання
+-   [lstat()](function.lstat.md) \- Повертає інформацію про файл або символічне посилання
+-   [stat()](function.stat.md) \- Повертає інформацію про файл

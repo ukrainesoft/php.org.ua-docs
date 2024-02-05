@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::setTimestamp'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeImmutable::setTimestamp
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::setTimestamp — Встановлює дату та час на основі мітки часу Unix
 
@@ -24,15 +25,15 @@ public DateTimeImmutable::setTimestamp(int $timestamp): DateTimeImmutable
 
 `timestamp`
 
-Мітка часу Unix представляє дату. Встановлення міток часу поза діапазоном цілого числа (int) можливе при використанні методу [DateTimeImmutable::modify()](datetimeimmutable.modify.md) з форматом `@`
+Метка времени Unix, представляющая дату. Установка меток времени вне диапазона целого числа (int) возможна при использовании метода[DateTimeImmutable::modify()](datetimeimmutable.modify.md) з форматом `@`
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з модифікованими даними або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) із модифікованими даними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTimeImmutable::setTimestamp()****
+**Пример #1 Пример использования**DateTimeImmutable::setTimestamp()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -46,7 +47,7 @@ echo $newDate->format('U = Y-m-d H:i:s') . "\n";
 ?>
 ```
 
-Результатом виконання даних прикладів буде щось подібне:
+Висновок наведених прикладів буде схожим на:
 
 ```
 1272508903 = 2010-04-28 22:41:43
@@ -55,4 +56,4 @@ echo $newDate->format('U = Y-m-d H:i:s') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::getTimestamp()](datetime.gettimestamp.md) - Повертає тимчасову мітку Unix
+-   [DateTimeImmutable::getTimestamp()](datetime.gettimestamp.md) \- Повертає тимчасову мітку Unix

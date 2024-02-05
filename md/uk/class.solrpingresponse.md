@@ -1,14 +1,15 @@
 ---
 navigation:
-  - solrupdateresponse.destruct.md: '« SolrUpdateResponse::destruct'
-  - solrpingresponse.construct.md: 'SolrPingResponse::construct »'
+  - solrupdateresponse.destruct.md: '« SolrUpdateResponse::\_\_destruct'
+  - solrpingresponse.construct.md: 'SolrPingResponse::\_\_construct »'
   - index.md: PHP Manual
   - book.solr.md: Solr
 title: Клас SolrPingResponse
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SolrPingResponse
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 ## Вступ
 
@@ -74,11 +75,11 @@ public SolrResponse::success(): bool
 
 ## Властивості
 
-httpstatus
+http\_status
 
 HTTP-статус відповіді.
 
-parsermode
+parser\_mode
 
 Чи слід аналізувати документи solr як екземпляри SolrObject чи SolrDocument.
 
@@ -86,31 +87,31 @@ success
 
 Чи була помилка під час запиту
 
-httpstatusmessage
+http\_status\_message
 
 Детальне повідомлення про статус http
 
-httprequesturl
+http\_request\_url
 
 URL запиту
 
-httprawrequestheaders
+http\_raw\_request\_headers
 
 Рядок необроблених заголовків, надісланих під час запиту
 
-httprawrequest
+http\_raw\_request
 
 Необроблений запит, надісланий на сервер
 
-httprawresponseheaders
+http\_raw\_response\_headers
 
 Заголовки відповіді від сервера Solr
 
-httprawresponse
+http\_raw\_response
 
 Повідомлення у відповідь від сервера
 
-httpdigestedresponse
+http\_digested\_response
 
 Відповідь у серіалізованому форматі PHP.
 
@@ -128,6 +129,6 @@ httpdigestedresponse
 
 ## Зміст
 
--   [SolrPingResponse::construct](solrpingresponse.construct.md) - Конструктор
--   [SolrPingResponse::destruct](solrpingresponse.destruct.md) - Деструктор
--   [SolrPingResponse::getResponse](solrpingresponse.getresponse.md) — Повертає відповідь від сервера
+-   [SolrPingResponse::\_\_construct](solrpingresponse.construct.md) \- Конструктор
+-   [SolrPingResponse::\_\_destruct](solrpingresponse.destruct.md) \- Деструктор
+-   [SolrPingResponse::getResponse](solrpingresponse.getresponse.md)— Повертає відповідь від сервера

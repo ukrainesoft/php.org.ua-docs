@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagejpeg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagejpeg
 
@@ -18,7 +19,7 @@ imagejpeg — Виводить зображення до браузера або
 imagejpeg(GdImage $image, resource|string|null $file = null, int $quality = -1): bool
 ```
 
-Функція **imagejpeg()** створює файл JPEG із зображення`image`
+Функция**imagejpeg()** створює файл JPEG із зображення`image`
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ imagejpeg(GdImage $image, resource|string|null $file = null, int $quality = -1):
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 **Застереження**
 
@@ -44,9 +45,9 @@ imagejpeg(GdImage $image, resource|string|null $file = null, int $quality = -1):
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
@@ -70,7 +71,7 @@ imagedestroy($im);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Приклад виведе зображення JPEG](images/21009b70229598c6a80eef8b45bf282b-imagejpeg.jpg)
 
@@ -103,7 +104,7 @@ imagestring($im, 1, 5, 5,  'A Simple Text String', $text_color);
 // Устанавливаем тип содержимого в заголовок, в данном случае image/jpeg
 header('Content-Type: image/jpeg');
 
-// Пропускаем параметр filename, используя NULL, а затем устанавливаем качество в 75%
+// Пропускаем параметр file, используя NULL, а затем устанавливаем качество в 75%
 imagejpeg($im, NULL, 75);
 
 // Освобождаем память
@@ -113,14 +114,14 @@ imagedestroy($im);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо потрібно вивести Progressive JPEG (прогресивне представлення даних), необхідно використовувати функцію [imageinterlace()](function.imageinterlace.md) для активації відповідного режиму.
+> Якщо потрібно вивести Progressive JPEG (прогресивне представлення даних), необхідно використовувати функцію [imageinterlace()](function.imageinterlace.md)для активации соответствующего режима.
 
 ### Дивіться також
 
--   [imagepng()](function.imagepng.md) - Виведення PNG зображення у браузер або файл
--   [imagegif()](function.imagegif.md) - Виводить зображення до браузера або пише у файл
--   [imagewbmp()](function.imagewbmp.md) - Виводить зображення до браузера або пише у файл
--   [imageinterlace()](function.imageinterlace.md) - Увімкнення або вимкнення інтерлейсингу
--   [imagetypes()](function.imagetypes.md) - Повертає список типів зображень, які підтримує PHP збірка
+-   [imagepng()](function.imagepng.md) \- Виведення PNG зображення у браузер або файл
+-   [imagegif()](function.imagegif.md) \- Виводить зображення у браузер або пише у файл
+-   [imagewbmp()](function.imagewbmp.md) \- Виводить зображення у браузер або пише у файл
+-   [imageinterlace()](function.imageinterlace.md) \- Увімкнення або вимкнення інтерлейсингу
+-   [imagetypes()](function.imagetypes.md) \- Повертає список типів зображень, які підтримує PHP збірка

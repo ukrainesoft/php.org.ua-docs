@@ -1,10 +1,11 @@
 ---
 navigation:
-  - pdo.error-handling.md: « Ошибки и их обработка
+  - pdo.error-handling.md: « Помилки та їх обробка
   - class.pdo.md: PDO »
   - index.md: PHP Manual
   - book.pdo.md: PDO
 title: Великі об'єкти (LOB)
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Великі об'єкти (LOB)
 
@@ -12,7 +13,7 @@ title: Великі об'єкти (LOB)
 
 **Приклад #1 Виведення зображення, що зберігається у базі даних**
 
-У цьому прикладі змінної $lob задають у відповідність великий об'єкт LOB, а потім відсилають її до браузера за допомогою функції [fpassthru()](function.fpassthru.md). Оскільки LOB представляється як потоку, з ним можуть працювати такі функції, як [fgets()](function.fgets.md) [fread()](function.fread.md) і [streamgetcontents()](function.stream-get-contents.md)
+У цьому прикладі змінної $lob задають у відповідність великий об'єкт LOB, а потім відсилають її до браузера за допомогою функції [fpassthru()](function.fpassthru.md). Оскільки LOB представляється як потоку, з ним можуть працювати такі функції, як [fgets()](function.fgets.md) [fread()](function.fread.md) і [stream\_get\_contents()](function.stream-get-contents.md)
 
 ```php
 <?php

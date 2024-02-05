@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::hasReturnType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::hasReturnType
 
@@ -30,7 +31,7 @@ public ReflectionFunctionAbstract::hasReturnType(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад **ReflectionFunctionAbstract::hasReturnType()****
+**Пример #1 Пример**ReflectionFunctionAbstract::hasReturnType()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ $reflection1 = new ReflectionFunction('to_int');
 var_dump($reflection1->hasReturnType());
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -59,7 +60,7 @@ $reflection2 = new ReflectionFunction('array_merge');
 var_dump($reflection2->hasReturnType());
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -69,4 +70,4 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getReturnType()](reflectionfunctionabstract.getreturntype.md) - Отримує оголошений тип значення, що повертається функцією значення
+-   [ReflectionFunctionAbstract::getReturnType()](reflectionfunctionabstract.getreturntype.md) \- Отримує оголошений тип значення, що повертається функцією значення

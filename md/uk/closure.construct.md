@@ -4,19 +4,20 @@ navigation:
   - closure.bind.md: 'Closure::bind »'
   - index.md: PHP Manual
   - class.closure.md: Closure
-title: 'Closure::construct'
+title: 'Closure::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Closure::construct
+# Closure::\_\_construct
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-Closure::construct - Конструктор, що забороняє створення екземпляра
+Closure::\_\_construct - Конструктор, що забороняє створення екземпляра
 
 ### Опис
 
-private **Closure::construct**
+private**Closure::\_\_construct**()
 
-Цей метод існує лише для того, щоб заборонити створення нових об'єктів класу [Closure](class.closure.md). Об'єкти цього класу створюються способом, описаним на сторінці [анонімних функцій](functions.anonymous.md)
+Цей метод існує тільки для того, щоб заборонити створення нових об'єктів класу [Closure](class.closure.md). Об'єкти цього класу створюються способом, описаним на сторінці [анонімних функцій](functions.anonymous.md)
 
 ### Список параметрів
 

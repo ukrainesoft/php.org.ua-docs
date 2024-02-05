@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionfind.fields.md: '« CollectionFind::fields'
   - mysql-xdevapi-collectionfind.having.md: 'CollectionFind::having »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysql\_xdevapi\\CollectionFind
 title: 'CollectionFind::groupBy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionFind::groupBy
 
@@ -18,28 +19,28 @@ CollectionFind::groupBy — Встановлює критерії угрупов
 public mysql_xdevapi\CollectionFind::groupBy(string $sort_expr): mysql_xdevapi\CollectionFind
 ```
 
-Функція може використовуватися для групування набору результатів ще по одному стовпцю, часто це використовується з агрегатними функціями, такими як COUNT,MAX,MIN,SUM і т.д.
+Цю функцію викликають для угруповання набору результатів по одному або декільком стовпцям. Її часто викликають з агрегатними функціями, наприклад: `COUNT` `MAX` `MIN` `SUM`и т. д.
 
 ### Список параметрів
 
 `sort_expr`
 
-Стовпець або стовпці, які повинні використовуватися для операції угруповання, це може бути один рядок, або масив рядкових аргументів, по одному для кожного стовпця.
+Стовпець або стовпці, за якими буде проведено операцію угруповання, це може бути один рядок, або масив рядкових аргументів, по одному для кожного стовпця.
 
 ### Значення, що повертаються
 
-Об'єкт CollectionFind, який можна використовувати для подальшої обробки.
+Повертає об'єкт класу CollectionFind, з яким можна буде працювати далі.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionFind::groupBy()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\CollectionFind::groupBy()\*\*\*\*
 
 ```php
 <?php
 
-//Предполагая, что $coll является корректным объектом Collection
+// Предполагая, что $coll — корректный объект класса Collection
 
-//Извлекает все документы из коллекции и группирует результаты по полю 'name'
+// Извлекает все документы из коллекции и группирует результаты по полю 'name'
 $res = $coll->find()->groupBy('name')->execute();
 
 ?>

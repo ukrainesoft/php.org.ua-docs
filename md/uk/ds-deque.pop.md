@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.merge.md: '« DsDeque::merge'
-  - ds-deque.push.md: 'ДсDeque::push »'
+  - ds-deque.merge.md: '« Ds\\Deque::merge'
+  - ds-deque.push.md: 'Ds\\Deque::push »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::pop'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::pop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::pop
+# Ds\\Deque::pop
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::pop — Видаляє та повертає останнє значення
+Ds\\Deque::pop — Видаляє та повертає останнє значення
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Deque::pop(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::pop()****
+**Пример #1 Пример использования**Ds\\Deque::pop()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($deque->pop());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(3)

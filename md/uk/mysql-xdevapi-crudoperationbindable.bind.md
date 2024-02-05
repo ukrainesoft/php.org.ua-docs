@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-crudoperationbindable.md: « mysqlxdevapiCrudOperationBindable
-  - class.mysql-xdevapi-crudoperationlimitable.md: mysqlxdevapiCrudOperationLimitable »
+  - class.mysql-xdevapi-crudoperationbindable.md: « mysql\_xdevapi\\CrudOperationBindable
+  - class.mysql-xdevapi-crudoperationlimitable.md: mysql\_xdevapi\\CrudOperationLimitable »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-crudoperationbindable.md: mysqlxdevapiCrudOperationBindable
+  - class.mysql-xdevapi-crudoperationbindable.md: mysql\_xdevapi\\CrudOperationBindable
 title: 'CrudOperationBindable::bind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CrudOperationBindable::bind
 
@@ -22,7 +23,7 @@ abstract public mysql_xdevapi\CrudOperationBindable::bind(array $placeholder_val
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ abstract public mysql_xdevapi\CrudOperationBindable::bind(array $placeholder_val
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCrudOperationBindable::bind()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CrudOperationBindable::bind()\*\*\*\*
 
 ```php
 <?php

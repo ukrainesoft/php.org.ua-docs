@@ -1,48 +1,49 @@
 ---
 navigation:
-  - function.sqlsrv-execute.md: « sqlsrvexecute
-  - function.sqlsrv-fetch-object.md: sqlsrvfetchobject »
+  - function.sqlsrv-execute.md: « sqlsrv\_execute
+  - function.sqlsrv-fetch-object.md: sqlsrv\_fetch\_object »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvfetcharray
+title: sqlsrv\_fetch\_array
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvfetcharray
+# sqlsrv\_fetch\_array
 
 (No version information available, might only be in Git)
 
-sqlsrvfetcharray — Повертає рядок як масив
+sqlsrv\_fetch\_array — Повертає рядок як масив
 
 ### Опис
 
 ```methodsynopsis
-sqlsrv_fetch_array(    resource $stmt,    int $fetchType = ?,    int $row = ?,    int $offset = ?): array
+sqlsrv_fetch_array(    resource $stmt,    int $fetchType = ?,    int $row = ?,    int $offset = ?): array
 ```
 
-Повертає наступний доступний рядок даних у вигляді асоціативного масиву, числового масиву або й того й іншого (за умовчанням).
+Повертає наступний доступний рядок даних у вигляді асоціативного масиву, числового масиву або того й іншого (за замовчуванням).
 
 ### Список параметрів
 
 `stmt`
 
-Ресурс оператора, що повертається sqlsrvquery або sqlsrvprepare.
+Ресурс оператора, що повертається sqlsrv\_query або sqlsrv\_prepare.
 
 `fetchType`
 
-Обумовлена ​​константа, що вказує тип масива, що повертається. Можливі значення: **`SQLSRV_FETCH_ASSOC`** **`SQLSRV_FETCH_NUMERIC`** або **`SQLSRV_FETCH_BOTH`** (за замовчуванням).
+Обумовлена ​​константа, що вказує тип масива, що повертається. Можливі значення: **`SQLSRV_FETCH_ASSOC`** **`SQLSRV_FETCH_NUMERIC`**или**`SQLSRV_FETCH_BOTH`**(по умолчанию).
 
-Тип вибірки SQLSRVFETCHASSOC не слід використовувати при використанні набору результатів із кількома стовпцями з однаковим ім'ям.
+Тип вибірки SQLSRV\_FETCH\_ASSOC не слід використовувати при використанні набору результатів із кількома стовпцями з однаковим ім'ям.
 
 `row`
 
-Задає рядок для доступу в результуючому наборі, в якому використовується курсор, що прокручується. Можливі значення: **`SQLSRV_SCROLL_NEXT`** **`SQLSRV_SCROLL_PRIOR`** **`SQLSRV_SCROLL_FIRST`** **`SQLSRV_SCROLL_LAST`** **`SQLSRV_SCROLL_ABSOLUTE`** і **`SQLSRV_SCROLL_RELATIVE`** (за замовчуванням). Якщо цей параметр вказано, `fetchType` має бути явно визначений.
+Задає рядок для доступу в результуючому наборі, в якому використовується курсор, що прокручується. Можливі значення: **`SQLSRV_SCROLL_NEXT`** **`SQLSRV_SCROLL_PRIOR`** **`SQLSRV_SCROLL_FIRST`** **`SQLSRV_SCROLL_LAST`** **`SQLSRV_SCROLL_ABSOLUTE`**и**`SQLSRV_SCROLL_RELATIVE`** (за замовчуванням). Якщо цей параметр вказано, `fetchType` має бути явно визначений.
 
 `offset`
 
-Вказує рядок, до якого буде доступ, якщо для параметра рядка встановлено значення **`SQLSRV_SCROLL_ABSOLUTE`** або **`SQLSRV_SCROLL_RELATIVE`**. Зауважте, що перший рядок у наборі результатів має індекс 0.
+Вказує рядок, до якого буде доступ, якщо для параметра рядка встановлено значення \*\*`SQLSRV_SCROLL_ABSOLUTE`**или**`SQLSRV_SCROLL_RELATIVE`\*\*Обратите внимание, что первая строка в наборе результатов имеет индекс 0.
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає масив, \*\*`null`\*\*якщо в наборі результатів більше немає рядків і **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає масив, \*\*`null`\*\*якщо в наборі результатів більше немає рядків і \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -106,7 +107,7 @@ sqlsrv_free_stmt( $stmt);
 
 ### Дивіться також
 
--   [sqlsrvconnect()](function.sqlsrv-connect.md) - Відкриває з'єднання з базою даних Microsoft SQL Server
--   [sqlsrvquery()](function.sqlsrv-query.md) - готує та виконує запит
--   [sqlsrverrors()](function.sqlsrv-errors.md) - Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
--   [sqlsrvfetch()](function.sqlsrv-fetch.md) - Робить наступний рядок у наборі результатів доступного для читання
+-   [sqlsrv\_connect()](function.sqlsrv-connect.md) \- Відкриває з'єднання з базою даних Microsoft SQL Server
+-   [sqlsrv\_query()](function.sqlsrv-query.md) \- готує та виконує запит
+-   [sqlsrv\_errors()](function.sqlsrv-errors.md) \- Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
+-   [sqlsrv\_fetch()](function.sqlsrv-fetch.md) \- Робить наступний рядок у наборі результатів доступного для читання

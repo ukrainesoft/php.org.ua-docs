@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::clutImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::clutImage
 
@@ -28,7 +29,7 @@ public Imagick::clutImage(Imagick $lookup_table, int $channel = Imagick::CHANNEL
 
 `channel`
 
-Константа [Channeltype](imagick.constants.md#imagick.constants.channel). Якщо не вказано, то за замовчуванням заміна відбувається у всіх каналах.
+Константа[Channeltype](imagick.constants.md#imagick.constants.channel). Якщо не вказано, то за замовчуванням заміна відбувається у всіх каналах.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public Imagick::clutImage(Imagick $lookup_table, int $channel = Imagick::CHANNEL
 
 ### Приклади
 
-**Приклад #1 Використання **Imagick::clutImage()****
+**Пример #1 Использование**Imagick::clutImage()\*\* :\*\*
 
 Заміна кольору зображення, використовуючи таблицю відповідності.
 
@@ -52,6 +53,6 @@ $image->writeImage('test_out.jpg');
 
 ### Дивіться також
 
--   [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.md) - Додає адаптивний фільтр розмиття до зображення
--   [Imagick::motionBlurImage()](imagick.motionblurimage.md) - Імітує розмиття у русі
--   [Imagick::radialBlurImage()](imagick.radialblurimage.md) - Радіальне розмиття зображення
+-   [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.md) \- Додає адаптивний фільтр розмиття до зображення
+-   [Imagick::motionBlurImage()](imagick.motionblurimage.md) \- Імітує розмиття у русі
+-   [Imagick::radialBlurImage()](imagick.radialblurimage.md) \- Радіальне розмиття зображення

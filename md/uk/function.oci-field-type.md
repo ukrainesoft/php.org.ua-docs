@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-field-type-raw.md: « ocifieldtyperaw
-  - function.oci-free-descriptor.md: ocifreedescriptor »
+  - function.oci-field-type-raw.md: « oci\_field\_type\_raw
+  - function.oci-free-descriptor.md: oci\_free\_descriptor »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocifieldtype
+  - ref.oci8.md: OCI8 Функції
+title: oci\_field\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocifieldtype
+# oci\_field\_type
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocifieldtype — Повертає назву типу поля
+oci\_field\_type — Повертає назву типу поля
 
 ### Опис
 
@@ -32,11 +33,11 @@ oci_field_type(resource $statement, string|int $column): string|int|false
 
 ### Значення, що повертаються
 
-Повертає тип поля як рядок (string) або ціле число (int) або **`false`** у разі виникнення помилки.
+Повертає тип поля як рядок (string) або ціле число (int) або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ocifieldtype()****
+**Пример #1 Пример использования**oci\_field\_type()\*\*\*\*
 
 ```php
 <?php
@@ -90,14 +91,8 @@ oci_close($conn);
 ?>
 ```
 
-### Примітки
-
-> **Зауваження**
-> 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumntype()](function.ocicolumntype.md). У PHP 5.0.0 і вище [ocicolumntype()](function.ocicolumntype.md) є аліасом \*\*ocifieldtype()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
-
 ### Дивіться також
 
--   [ocinumfields()](function.oci-num-fields.md) - Повертає кількість полів у результаті запиту
--   [ocifieldname()](function.oci-field-name.md) - Повертає ім'я поля з результату запиту
--   [ocifieldsize()](function.oci-field-size.md) - Повертає розмір поля
+-   [oci\_num\_fields()](function.oci-num-fields.md) \- Повертає кількість полів у результаті запиту
+-   [oci\_field\_name()](function.oci-field-name.md) \- Повертає ім'я поля з результату запиту
+-   [oci\_field\_size()](function.oci-field-size.md) \- Повертає розмір поля

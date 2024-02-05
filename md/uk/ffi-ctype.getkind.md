@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ffi-ctype.getfuncreturntype.md: '« FFICType::getFuncReturnType'
-  - ffi-ctype.getname.md: 'FFICType::getName »'
+  - ffi-ctype.getfuncreturntype.md: '« FFI\\CType::getFuncReturnType'
+  - ffi-ctype.getname.md: 'FFI\\CType::getName »'
   - index.md: PHP Manual
-  - class.ffi-ctype.md: FFICType
-title: 'FFICType::getKind'
+  - class.ffi-ctype.md: FFI\\CType
+title: 'FFI\\CType::getKind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# FFICType::getKind
+# FFI\\CType::getKind
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-FFICType::getKind — Опис
+FFI\\CType::getKind — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public FFI\CType::getKind(): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

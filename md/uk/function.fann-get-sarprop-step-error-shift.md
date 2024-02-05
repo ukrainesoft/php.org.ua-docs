@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-rprop-increase-factor.md: « fanngetrpropincreasefactor
-  - function.fann-get-sarprop-step-error-threshold-factor.md: fanngetsarpropsteperrorthresholdfactor »
+  - function.fann-get-rprop-increase-factor.md: « fann\_get\_rprop\_increase\_factor
+  - function.fann-get-sarprop-step-error-threshold-factor.md: fann\_get\_sarprop\_step\_error\_threshold\_factor »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetsarpropsteperrorshift
+  - ref.fann.md: Функції Fann
+title: fann\_get\_sarprop\_step\_error\_shift
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetsarpropsteperrorshift
+# fann\_get\_sarprop\_step\_error\_shift
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetsarpropsteperrorshift — Повертає помилку зрушення кроку sarprop
+fann\_get\_sarprop\_step\_error\_shift — Повертає помилку зрушення кроку sarprop
 
 ### Опис
 
@@ -30,14 +31,14 @@ fann_get_sarprop_step_error_shift(resource $ann): float
 
 ### Значення, що повертаються
 
-Зрушення помилки кроку sarprop або **`false`** у разі виникнення помилки.
+Сдвиг ошибки шага sarprop или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
--   [fannsetsarpropsteperrorshift()](function.fann-set-sarprop-step-error-shift.md) - Встановлює зрушення помилки кроку sarprop
+-   [fann\_set\_sarprop\_step\_error\_shift()](function.fann-set-sarprop-step-error-shift.md) \- Встановлює зрушення помилки кроку sarprop

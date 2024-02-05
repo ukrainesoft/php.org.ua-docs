@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.get.md: '« DsSet::get'
-  - ds-set.isempty.md: 'ДсSet::isEmpty »'
+  - ds-set.get.md: '« Ds\\Set::get'
+  - ds-set.isempty.md: 'Ds\\Set::isEmpty »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::intersect'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::intersect'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::intersect
+# Ds\\Set::intersect
 
 (PECL ds >= 1.0.0)
 
-ДсSet::intersect — Створення нового набору, створеного перетином з іншим набором
+Ds\\Set::intersect — Створення нового набору, створеного перетином з іншим набором
 
 ### Опис
 
@@ -32,13 +33,13 @@ public Ds\Set::intersect(Ds\Set $set): Ds\Set
 
 Перетин поточного набору та переданого в `set`
 
-### Також дивіться
+### Дивіться також
 
--   [» Перетин](https://en.wikipedia.org/wiki/Intersection_(set_theory)) на Вікіпедія
+-   [» Перетин](https://en.wikipedia.org/wiki/Intersection_(set_theory))на Вікіпедія
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::intersect()****
+**Пример #1 Пример использования**Ds\\Set::intersect()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($a->intersect($b));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Set)#3 (1) {

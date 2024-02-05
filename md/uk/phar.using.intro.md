@@ -1,10 +1,11 @@
 ---
 navigation:
-  - phar.using.md: « Использование Phar-архивов
-  - phar.using.stream.md: 'Использование Phar-архивов: обёртка потока phar »'
+  - phar.using.md: « Використання Phar-архівів
+  - phar.using.stream.md: 'Використання Phar-архівів: обгортка потоку phar »'
   - index.md: PHP Manual
-  - phar.using.md: Использование Phar-архивов
+  - phar.using.md: Використання Phar-архівів
 title: 'Використання Phar-архівів: Вступ'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Використання Phar-архівів: Вступ
 
@@ -33,7 +34,7 @@ echo file_get_contents('phar:///полный/путь/к/coollibrary.phar/images
 ?>
 ```
 
-Клас [Phar](class.phar.md) реалізує розширені можливості доступу до файлів і створення phar-архівів. Використання класу Phar докладно описано [тут](phar.using.object.md)
+Класс[Phar](class.phar.md) реалізує розширені можливості доступу до файлів і створення phar-архівів. Використання класу Phar докладно описано [тут](phar.using.object.md)
 
 ```php
 <?php
@@ -100,9 +101,9 @@ openssl_pkey_export($public, $pkey);
 ?>
 ```
 
-повинен бути збережений поруч із phar-архівом, для перевірки якого він використовується. Якщо phar-архів збережений як `/путь/к/моему/архиву/my.phar`, то відкритий ключ повинен бути збережений як `/путь/к/моему/архиву/my.phar.pubkey`, інакше phar не зможе перевірити справжність підпису OpenSSL.
+повинен бути збережений поруч із phar-архівом, для перевірки якого він використовується. Якщо phar-архів збережений як `/шлях/до/моєму/архіву/my.phar`, то відкритий ключ повинен бути збережений як `/шлях/до/моєму/архіву/my.phar.pubkey`, інакше phar не зможе перевірити справжність підпису OpenSSL.
 
-Клас [Phar](class.phar.md) також надає 3 статичні методи: [Phar::webPhar()](phar.webphar.md) [Phar::mungServer()](phar.mungserver.md) і [Phar::interceptFileFuncs()](phar.interceptfilefuncs.md), які мають вирішальне значення для упаковки PHP-додатків, призначених для використання на звичайних файлових системах та для веб-додатків . [Phar::webPhar()](phar.webphar.md) реалізує фронтальний контролер, який направляє HTTP-дзвінки у правильне місце всередині phar-архіву . [Phar::mungServer()](phar.mungserver.md) використовується для зміни значень масиву [SERVER](reserved.variables.server.md)що дозволяє обдурити додатки, що обробляють ці значення . [Phar::interceptFileFuncs()](phar.interceptfilefuncs.md) інструктує Phar про необхідність перехоплення дзвінків [fopen()](function.fopen.md) [filegetcontents()](function.file-get-contents.md) [opendir()](function.opendir.md) та інших функцій, заснованих на stat ([fileexists()](function.file-exists.md) [ісreadable()](function.is-readable.md) і так далі) і перенаправлення всіх відносних шляхів усередину phar-архіву.
+Класс[Phar](class.phar.md) також надає 3 статичні методи: [Phar::webPhar()](phar.webphar.md) [Phar::mungServer()](phar.mungserver.md) і [Phar::interceptFileFuncs()](phar.interceptfilefuncs.md), які мають вирішальне значення для упаковки PHP-додатків, призначених для використання на звичайних файлових системах та для веб-додатків . [Phar::webPhar()](phar.webphar.md) реалізує фронтальний контролер, який направляє HTTP-дзвінки у правильне місце всередині phar-архіву . [Phar::mungServer()](phar.mungserver.md) використовується для зміни значень масиву [$\_SERVER](reserved.variables.server.md)що дозволяє обдурити додатки, що обробляють ці значення . [Phar::interceptFileFuncs()](phar.interceptfilefuncs.md) інструктує Phar про необхідність перехоплення дзвінків [fopen()](function.fopen.md) [file\_get\_contents()](function.file-get-contents.md) [opendir()](function.opendir.md) та інших функцій, заснованих на stat ([file\_exists()](function.file-exists.md) [is\_readable()](function.is-readable.md) і так далі) і перенаправлення всіх відносних шляхів усередину phar-архіву.
 
 Наприклад, для упаковки випуску популярної програми phpMyAdmin для його використання як phar-архів, потрібен тільки цей простий скрипт, а `phpMyAdmin.phar.tar.php` буде доступний як звичайний файл на вашому веб-сервері після зміни значень user/password:
 

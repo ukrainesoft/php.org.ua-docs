@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttpconnection.md: EventHttpConnection
 title: 'EventHttpConnection::setCloseCallback'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpConnection::setCloseCallback
 
@@ -51,7 +52,7 @@ callback(
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventHttpConnection::setCloseCallback()****
+**Пример #1 Пример использования**EventHttpConnection::setCloseCallback()\*\*\*\*
 
 ```php
 <?php

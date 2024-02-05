@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.reverse.md: '« DsDeque::reverse'
-  - ds-deque.rotate.md: 'ДсDeque::rotate »'
+  - ds-deque.reverse.md: '« Ds\\Deque::reverse'
+  - ds-deque.rotate.md: 'Ds\\Deque::rotate »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::reversed'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::reversed'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::reversed
+# Ds\\Deque::reversed
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::reversed — Повертає перегорнуту копію двосторонньої черги
+Ds\\Deque::reversed — Повертає перегорнуту копію двосторонньої черги
 
 ### Опис
 
@@ -28,13 +29,13 @@ public Ds\Deque::reversed(): Ds\Deque
 
 Перегорнута копія двосторонньої черги.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Поточна двостороння черга не зміниться.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::reversed()****
+**Пример #1 Пример использования**Ds\\Deque::reversed()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ print_r($deque);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Deque Object

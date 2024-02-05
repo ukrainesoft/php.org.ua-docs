@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-makespotcolor.md: «psmakespotcolor
-  - function.ps-new.md: псnew »
+  - function.ps-makespotcolor.md: « ps\_makespotcolor
+  - function.ps-new.md: ps\_new »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псmoveto
+title: ps\_moveto
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псmoveto
+# ps\_moveto
 
 (PECL ps >= 1.1.0)
 
-псmoveto — Встановлює поточну точку.
+ps\_moveto — Встановлює поточну точку.
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: псmoveto
 ps_moveto(resource $psdoc, float $x, float $y): bool
 ```
 
-Встановлює нові координати поточної точки. Якщо це перший виклик **псmoveto()** після того, як попередній шлях було завершено, тоді функція запустить новий шлях. Якщо функція викликається всередині шляху, вона просто встановлює поточну точку та запускає додатковий шлях.
+Встановлює нові координати поточної точки. Якщо це перший виклик **ps\_moveto()** після того, як попередній шлях було завершено, тоді функція запустить новий шлях. Якщо функція викликається всередині шляху, вона просто встановлює поточну точку та запускає додатковий шлях.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 `x`
 
@@ -36,8 +37,8 @@ ps_moveto(resource $psdoc, float $x, float $y): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псlineto()](function.ps-lineto.md) - Малює лінію
+-   [ps\_lineto()](function.ps-lineto.md) \- Малює лінію

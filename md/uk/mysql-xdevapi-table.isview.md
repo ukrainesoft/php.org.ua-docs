@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-table.insert.md: '« Table::insert'
   - mysql-xdevapi-table.select.md: 'Table::select »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: mysql\_xdevapi\\Table
 title: 'Table::isView'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Table::isView
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Table::isView(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTable::isView()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Table::isView()\*\*\*\*
 
 ```php
 <?php
@@ -52,8 +53,8 @@ if ($table->isView()) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-int(2)
+Это не представление.
 ```

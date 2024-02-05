@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayaccess.md: ArrayAccess
 title: 'ArrayAccess::offsetExists'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayAccess::offsetExists
 
@@ -22,9 +23,9 @@ public ArrayAccess::offsetExists(mixed $offset): bool
 
 Цей метод виконується під час використання [isset()](function.isset.md) або [empty()](function.empty.md) на об'єктах, що реалізують інтерфейс [ArrayAccess](class.arrayaccess.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> При використанні функції [empty()](function.empty.md), викликається метод [ArrayAccess::offsetGet()](arrayaccess.offsetget.md) і перевірка на порожнечу відбудеться, тільки якщо метод **ArrayAccess::offsetExists()** поверне **`true`**
+> При использовании функции[empty()](function.empty.md), викликається метод [ArrayAccess::offsetGet()](arrayaccess.offsetget.md) і перевірка на порожнечу відбудеться, тільки якщо метод **ArrayAccess::offsetExists()** поверне **`true`**
 
 ### Список параметрів
 
@@ -34,15 +35,15 @@ public ArrayAccess::offsetExists(mixed $offset): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення, що повертається, буде приведено до логічного типу (bool), якщо значення, що повертається, не є логічним.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayAccess::offsetExists()****
+**Пример #1 Пример использования**ArrayAccess::offsetExists()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ class obj implements ArrayAccess {
         var_dump(__METHOD__);
     }
 
-    #[ReturnTypeWillChange]
+    #[\ReturnTypeWillChange]
     public function offsetGet($var) {
         var_dump(__METHOD__);
         return "value";
@@ -83,7 +84,7 @@ var_dump(empty($obj["foobaz"]));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Выполняется obj::offsetExists()

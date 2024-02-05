@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apcu-delete.md: « apcudelete
-  - function.apcu-entry.md: apcuentry »
+  - function.apcu-delete.md: « apcu\_delete
+  - function.apcu-entry.md: apcu\_entry »
   - index.md: PHP Manual
-  - ref.apcu.md: Функции APCu
-title: apcuenabled
+  - ref.apcu.md: Функції APCu
+title: apcu\_enabled
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apcuenabled
+# apcu\_enabled
 
 (PECL apcu >= 4.0.3)
 
-apcuenabled — Чи можна використовувати APCu у поточному оточенні
+apcu\_enabled — Чи можна використовувати APCu у поточному оточенні
 
 ### Опис
 
@@ -26,4 +27,4 @@ apcu_enabled(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`** залежно від можливості використовувати APCu.
+Повертає **`true`**или**`false`** залежно від можливості використовувати APCu.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - directoryiterator.getctime.md: '« DirectoryIterator::getCTime'
+  - directoryiterator.getbasename.md: '« DirectoryIterator::getBasename'
   - directoryiterator.getfilename.md: 'DirectoryIterator::getFilename »'
   - index.md: PHP Manual
   - class.directoryiterator.md: DirectoryIterator
 title: 'DirectoryIterator::getExtension'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DirectoryIterator::getExtension
 
-(PHP 5> = 5.3.6, PHP 7, PHP 8)
+(PHP 5 >= 5.3.6, PHP 7, PHP 8)
 
-DirectoryIterator::getExtension — Повертає розширення файлу
+DirectoryIterator::getExtension — Отримує розширення файлу
 
 ### Опис
 
@@ -18,7 +19,7 @@ DirectoryIterator::getExtension — Повертає розширення фай
 public DirectoryIterator::getExtension(): string
 ```
 
-Повертає розширення файлу.
+Отримує розширення файлу.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public DirectoryIterator::getExtension(): string
 
 ### Значення, що повертаються
 
-Повертає рядок (string), який містить розширення файлу або порожній рядок (string), якщо файл не має.
+Повертає рядок (string), що містить розширення файлу або порожній рядок (string), якщо файл не має розширення.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DirectoryIterator::getExtension()****
+**Пример #1 Пример использования**DirectoryIterator::getExtension()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ foreach ($directory as $fileinfo) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 php
@@ -56,9 +57,9 @@ gz
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Іншим доступним рішенням може бути функція [pathinfo()](function.pathinfo.md)
+> Іншим способом отримання розширення є використання функції [pathinfo()](function.pathinfo.md)
 > 
 > ```php
 > <?php
@@ -68,6 +69,6 @@ gz
 
 ### Дивіться також
 
--   [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) - Повертає ім'я файлу поточного елемента DirectoryIterator
--   [DirectoryIterator::getBasename()](directoryiterator.getbasename.md) - Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
--   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу
+-   [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) \- Повертає ім'я файлу поточного елемента DirectoryIterator
+-   [DirectoryIterator::getBasename()](directoryiterator.getbasename.md) \- Отримує базове ім'я поточного елемента DirectoryIterator
+-   [pathinfo()](function.pathinfo.md) \- Повертає інформацію про шлях до файлу

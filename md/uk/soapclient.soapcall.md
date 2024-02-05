@@ -1,26 +1,27 @@
 ---
 navigation:
-  - soapclient.setsoapheaders.md: '« SoapClient::setSoapHeaders'
+  - soapclient.setsoapheaders.md: '« SoapClient::\_\_setSoapHeaders'
   - class.soapserver.md: SoapServer »
   - index.md: PHP Manual
   - class.soapclient.md: SoapClient
-title: 'SoapClient::soapCall'
+title: 'SoapClient::\_\_soapCall'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapClient::soapCall
+# SoapClient::\_\_soapCall
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapClient::soapCall — Викликає SOAP-функцію
+SoapClient::\_\_soapCall — Викликає SOAP-функцію
 
 ### Опис
 
 ```methodsynopsis
-public SoapClient::__soapCall(    string $name,    array $args,    ?array $options = null,    SoapHeader|array|null $inputHeaders = null,    array &$outputHeaders = null): mixed
+public SoapClient::__soapCall(    string $name,    array $args,    ?array $options = null,    SoapHeader|array|null $inputHeaders = null,    array &$outputHeaders = null): mixed
 ```
 
-Це низькорівнева функція API, яка дозволяє зробити SOAP-дзвінок. Зазвичай у режимі WSDL функції SOAP викликаються як методи об'єкта [SoapClient](class.soapclient.md). Цей метод корисний у режимі, відмінному від WSDL, коли `soapaction` невідомий, `uri` відрізняється від URI за замовчуванням або під час відправлення та/або отримання SOAP-заголовків.
+Це низькорівнева функція API, яка дозволяє зробити SOAP-дзвінок. Зазвичай у режимі WSDL функції SOAP викликаються як методи об'єкта [SoapClient](class.soapclient.md). Цей метод корисний у режимі, відмінному від WSDL, коли `soapaction`неизвестен,`uri` відрізняється від URI за замовчуванням або під час відправлення та/або отримання SOAP-заголовків.
 
-У разі виникнення помилки виклик SOAP-функції може призвести до виключення або повернення об'єкта [SoapFault](class.soapfault.md), якщо виключення вимкнено. Щоб перевірити, чи виклик функції завершився невдачею, зловивши виняток SoapFault, перевірте результат за допомогою [ісsoapfault()](function.is-soap-fault.md)
+У разі виникнення помилки виклик SOAP-функції може призвести до виключення або повернення об'єкта [SoapFault](class.soapfault.md), якщо виключення вимкнено. Щоб перевірити, чи виклик функції завершився невдачею, зловивши виняток SoapFault, перевірте результат за допомогою [is\_soap\_fault()](function.is-soap-fault.md)
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ public SoapClient::__soapCall(    string $name,    array $args,    ?array $optio
 
 Асоціативний масив налаштувань, що передаються клієнту.
 
-Налаштування `location` - URL віддаленої веб-служби.
+Настройка`location` - URL віддаленої веб-служби.
 
-Налаштування `uri` - Цільовий простір імен SOAP-служби.
+Настройка`uri` - Цільовий простір імен SOAP-служби.
 
-Налаштування `soapaction` - Дія для виклику.
+Настройка`soapaction` - Дія для виклику.
 
 `inputHeaders`
 
@@ -54,11 +55,11 @@ public SoapClient::__soapCall(    string $name,    array $args,    ?array $optio
 
 Функції SOAP можуть повертати одне чи кілька значень. Якщо функція SOAP повертає лише одне значення, то значення, що повертається, буде скаляром. Якщо повертається кілька значень, замість них повертається асоціативний масив іменованих вихідних параметрів.
 
-У разі виникнення помилки, якщо об'єкт [SoapClient](class.soapclient.md) був оголошений з опцією `exceptions` зі значенням **`false`**, буде повернуто об'єкт [SoapFault](class.soapfault.md)
+У разі виникнення помилки, якщо об'єкт [SoapClient](class.soapclient.md) був оголошений з опцією `exceptions`со значением\*\*`false`\*\*, буде повернуто об'єкт [SoapFault](class.soapfault.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapClient::soapCall()****
+**Пример #1 Пример использования**SoapClient::\_\_soapCall()\*\*\*\*
 
 ```php
 <?php
@@ -83,9 +84,9 @@ $client->__soapCall("SomeFunction", array($a, $b, $c),
 
 ### Дивіться також
 
--   [SoapClient::construct()](soapclient.construct.md) - Конструктор класу SoapClient
--   [SoapParam::construct()](soapparam.construct.md) - Конструктор SoapParam
--   [SoapVar::construct()](soapvar.construct.md) - Конструктор SoapVar
--   [SoapHeader::construct()](soapheader.construct.md) - Конструктор SoapHeader
--   [SoapFault::construct()](soapfault.construct.md) - Конструктор SoapFault
--   [ісsoapfault()](function.is-soap-fault.md) - Перевіряє, чи сталася помилка під час виклику SOAP
+-   [SoapClient::\_\_construct()](soapclient.construct.md) \- Конструктор класу SoapClient
+-   [SoapParam::\_\_construct()](soapparam.construct.md) \- Конструктор SoapParam
+-   [SoapVar::\_\_construct()](soapvar.construct.md) \- Конструктор SoapVar
+-   [SoapHeader::\_\_construct()](soapheader.construct.md) \- Конструктор SoapHeader
+-   [SoapFault::\_\_construct()](soapfault.construct.md) \- Конструктор SoapFault
+-   [is\_soap\_fault()](function.is-soap-fault.md) \- Перевіряє, чи сталася помилка під час виклику SOAP

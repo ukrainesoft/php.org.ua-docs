@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-mmap.md: « SwooleMmap
-  - class.swoole-mysql.md: SwooleMySQL »
+  - class.swoole-mmap.md: « Swoole\\Mmap
+  - class.swoole-mysql.md: Swoole\\MySQL »
   - index.md: PHP Manual
-  - class.swoole-mmap.md: SwooleMmap
-title: 'SwooleMmap::open'
+  - class.swoole-mmap.md: Swoole\\Mmap
+title: 'Swoole\\Mmap::open'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleMmap::open
+# Swoole\\Mmap::open
 
 (PECL swoole >= 1.9.0)
 
-SwooleMmap::open — Відобразити файл у пам'ять та повернути ресурс потоку, який може використовуватись операціями потоку PHP
+Swoole\\Mmap::open — Відобразити файл у пам'ять та повернути ресурс потоку, який може використовуватись операціями потоку PHP
 
 ### Опис
 

@@ -3,8 +3,9 @@ navigation:
   - ev.time.md: '« Ev::time'
   - class.evcheck.md: EvCheck »
   - index.md: PHP Manual
-  - class.ev.md: Єв
+  - class.ev.md: Ev
 title: 'Ev::verify'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Ev::verify
 

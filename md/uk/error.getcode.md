@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.error.md: Error
 title: 'Error::getCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Error::getCode
 
@@ -42,7 +43,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Код ошибки: 30
@@ -50,4 +51,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getCode()](throwable.getcode.md) - Повертає код виключення
+-   [Throwable::getCode()](throwable.getcode.md) \- Повертає код виключення

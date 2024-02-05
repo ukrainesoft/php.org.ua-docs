@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.tidy-get-output.md: « tidygetoutput
+  - function.tidy-get-output.md: « tidy\_get\_output
   - book.tokenizer.md: Лексер (Tokenizer) »
   - index.md: PHP Manual
   - ref.tidy.md: Tidy
-title: tidywarningcount
+title: tidy\_warning\_count
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tidywarningcount
+# tidy\_warning\_count
 
-(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
 
-tidywarningcount - Повертає число Tidy-попереджень, зустрінутих у зазначеному документі
+tidy\_warning\_count - Повертає число Tidy-попереджень, зустрінутих у зазначеному документі
 
 ### Опис
 
@@ -32,7 +33,7 @@ tidy_warning_count(tidy $tidy): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidywarningcount()****
+**Пример #1 Пример использования**tidy\_warning\_count()\*\*\*\*
 
 ```php
 <?php
@@ -48,5 +49,5 @@ echo tidy_warning_count($tidy) . "\n"; //5
 
 ### Дивіться також
 
--   [tidyerrorcount()](function.tidy-error-count.md) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
--   [tidyaccesscount()](function.tidy-access-count.md) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
+-   [tidy\_error\_count()](function.tidy-error-count.md) \- Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
+-   [tidy\_access\_count()](function.tidy-access-count.md) \- Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі

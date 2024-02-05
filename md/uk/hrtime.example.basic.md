@@ -1,10 +1,11 @@
 ---
 navigation:
   - hrtime.examples.md: « Приклади
-  - class.hrtime-performancecounter.md: HRTimePerformanceCounter »
+  - class.hrtime-performancecounter.md: HRTime\\PerformanceCounter »
   - index.md: PHP Manual
   - hrtime.examples.md: Приклади
 title: Основи використання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Основи використання
 

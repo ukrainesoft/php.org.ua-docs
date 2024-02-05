@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'SolrDisMaxQuery::setTrigramPhraseSlop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDisMaxQuery::setTrigramPhraseSlop
 
@@ -32,7 +33,7 @@ public SolrDisMaxQuery::setTrigramPhraseSlop(string $slop): SolrDisMaxQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::setTrigramPhraseSlop()****
+**Пример #1 Пример использования**SolrDisMaxQuery::setTrigramPhraseSlop()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ echo $dismaxQuery.PHP_EOL;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 q=lucene&defType=edismax&ps3=2
@@ -52,6 +53,6 @@ q=lucene&defType=edismax&ps3=2
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::addTrigramPhraseField()](solrdismaxquery.addtrigramphrasefield.md) - Додає поле триграми (параметр pf3)
--   [SolrDisMaxQuery::removeTrigramPhraseField()](solrdismaxquery.removetrigramphrasefield.md) - Видаляє поле триграми (параметр pf3)
--   [SolrDisMaxQuery::setTrigramPhraseFields()](solrdismaxquery.settrigramphrasefields.md) - Безпосередньо встановлює поля триграм фрази (параметр pf3)
+-   [SolrDisMaxQuery::addTrigramPhraseField()](solrdismaxquery.addtrigramphrasefield.md) \- Додає поле триграми (параметр pf3)
+-   [SolrDisMaxQuery::removeTrigramPhraseField()](solrdismaxquery.removetrigramphrasefield.md) \- Видаляє поле триграми (параметр pf3)
+-   [SolrDisMaxQuery::setTrigramPhraseFields()](solrdismaxquery.settrigramphrasefields.md) \- Безпосередньо встановлює поля триграм фрази (параметр pf3)

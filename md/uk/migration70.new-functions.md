@@ -3,8 +3,9 @@ navigation:
   - migration70.changed-functions.md: « Змінені функції
   - migration70.classes.md: Нові класи та інтерфейси »
   - index.md: PHP Manual
-  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
+  - migration70.md: Міграція з PHP 5.6.x на PHP 7.0.x
 title: Нові функції
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Нові функції
 
@@ -12,14 +13,14 @@ title: Нові функції
 
 -   [Closure::call()](closure.call.md)
 
-### [CSPRNG](book.csprng.md)
+### CSPRNG
 
--   [randombytes()](function.random-bytes.md)
--   [randomint()](function.random-int.md)
+-   [random\_bytes()](function.random-bytes.md)
+-   [random\_int()](function.random-int.md)
 
-### [Обработка и логирование ошибок](book.errorfunc.md)
+### [Обробка та логування помилок](book.errorfunc.md)
 
--   [errorclearlast()](function.error-clear-last.md)
+-   [error\_clear\_last()](function.error-clear-last.md)
 
 ### [Генератори](class.generator.md)
 
@@ -27,7 +28,7 @@ title: Нові функції
 
 ### [Обчислення над цілими числами з довільною точністю (GNU Multiple Precision)](book.gmp.md)
 
--   [gmprandomseed()](function.gmp-random-seed.md)
+-   [gmp\_random\_seed()](function.gmp-random-seed.md)
 
 ### [Математика](book.math.md)
 
@@ -35,16 +36,16 @@ title: Нові функції
 
 ### [PCRE](book.pcre.md)
 
--   [pregreplacecallbackarray()](function.preg-replace-callback-array.md)
+-   [preg\_replace\_callback\_array()](function.preg-replace-callback-array.md)
 
-### [Опции/информация PHP](book.info.md)
+### [Опції/інформація PHP](book.info.md)
 
--   [гкmemcaches()](function.gc-mem-caches.md)
--   [getresources()](function.get-resources.md)
+-   [gc\_mem\_caches()](function.gc-mem-caches.md)
+-   [get\_resources()](function.get-resources.md)
 
 ### [POSIX](book.posix.md)
 
--   [posixsetrlimit()](function.posix-setrlimit.md)
+-   [posix\_setrlimit()](function.posix-setrlimit.md)
 
 ### [Reflection](book.reflection.md)
 
@@ -58,9 +59,9 @@ title: Нові функції
 -   [ZipArchive::setCompressionIndex()](ziparchive.setcompressionindex.md)
 -   [ZipArchive::setCompressionName()](ziparchive.setcompressionname.md)
 
-### [Компрессия Zlib](book.zlib.md)
+### [Компресія Zlib](book.zlib.md)
 
--   [inflateadd()](function.inflate-add.md)
--   [deflateadd()](function.deflate-add.md)
--   [inflateinit()](function.inflate-init.md)
--   [deflateinit()](function.deflate-init.md)
+-   [inflate\_add()](function.inflate-add.md)
+-   [deflate\_add()](function.deflate-add.md)
+-   [inflate\_init()](function.inflate-init.md)
+-   [deflate\_init()](function.deflate-init.md)

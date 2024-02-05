@@ -1,12 +1,13 @@
 ---
 navigation:
-  - yaf-application.setappdirectory.md: '« YafApplication::setAppDirectory'
-  - class.yaf-dispatcher.md: YafDispatcher »
+  - yaf-application.setappdirectory.md: '« Yaf\_Application::setAppDirectory'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher »
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafBootstrapAbstract
+title: Клас Yaf\_Bootstrap\_Abstract
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafBootstrapAbstract
+# Клас Yaf\_Bootstrap\_Abstract
 
 (No version information available, might only be in Git)
 
@@ -14,9 +15,9 @@ title: Клас YafBootstrapAbstract
 
 Bootstrap є механізмом, який використовується для початкового конфігурування чогось до запуску програми.
 
-Користувач може визначити свій власний Bootstrap клас, успадкувавши **YafBootstrapAbstract**
+Користувач може визначити свій власний Bootstrap клас, успадкувавши **Yaf\_Bootstrap\_Abstract**
 
-Будь-який метод, оголошений у класі Bootstrap, що починається на "init", буде викликаний [YafApplication::bootstrap()](yaf-application.bootstrap.md) один за одним відповідно до заданої послідовності.
+Будь-який метод, оголошений у класі Bootstrap, що починається на "\_init", буде викликаний [Yaf\_Application::bootstrap()](yaf-application.bootstrap.md) один за одним відповідно до заданої послідовності.
 
 ## Приклади
 
@@ -45,7 +46,7 @@ Bootstrap є механізмом, який використовується д�
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(22) "Bootstrap::_initConfig"
@@ -54,7 +55,7 @@ string(22) "Bootstrap::_initPlugin"
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
     

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-connect.md: « cubridconnect
-  - function.cubrid-disconnect.md: cubriddisconnect »
+  - function.cubrid-connect.md: « cubrid\_connect
+  - function.cubrid-disconnect.md: cubrid\_disconnect »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridcurrentoid
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_current\_oid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridcurrentoid
+# cubrid\_current\_oid
 
 (PECL CUBRID >= 8.3.0)
 
-cubridcurrentoid — Повертає OID поточної позиції курсору
+cubrid\_current\_oid — Повертає OID поточної позиції курсору
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridcurrentoid — Повертає OID поточної позиції кур
 cubrid_current_oid(resource $req_identifier): string
 ```
 
-Функція **cubridcurrentoid()** використовується для одержання oid поточного положення курсору в результуючому наборі. Для використання функції **cubridcurrentoid()**, запущений запит повинен бути оновлюваним, і при запуску запиту було встановлено опцію **`CUBRID_INCLUDE_OID`**
+Функция**cubrid\_current\_oid()** використовується для одержання oid поточного положення курсору в результуючому наборі. Для використання функції **cubrid\_current\_oid()**, запущений запит повинен бути оновлюваним, і при запуску запиту було встановлено опцію **`CUBRID_INCLUDE_OID`**
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ cubrid_current_oid(resource $req_identifier): string
 
 ### Значення, що повертаються
 
-Oid поточного положення курсору, у разі успішного виконання або **`false`** у разі виникнення помилки.
+Oid поточного положення курсору, у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridcurrentoid()****
+**Пример #1 Пример использования**cubrid\_current\_oid()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -60,4 +61,4 @@ Array
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
+-   [cubrid\_execute()](function.cubrid-execute.md) \- Виконує підготовлений SQL-оператор

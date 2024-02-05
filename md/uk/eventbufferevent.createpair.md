@@ -1,10 +1,11 @@
 ---
 navigation:
-  - eventbufferevent.construct.md: '« EventBufferEvent::construct'
+  - eventbufferevent.construct.md: '« EventBufferEvent::\_\_construct'
   - eventbufferevent.disable.md: 'EventBufferEvent::disable »'
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::createPair'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::createPair
 
@@ -37,7 +38,7 @@ public
 
 `options`
 
-Константи EventBufferEvent::OPT у поєднанні з побітовим АБО (`OR`
+Константи EventBufferEvent::OPT\_\* у поєднанні з побітовим АБО (`OR`
 
 ### Значення, що повертаються
 
@@ -45,6 +46,6 @@ public
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL event 1.9.0 | Метод став статичним. |

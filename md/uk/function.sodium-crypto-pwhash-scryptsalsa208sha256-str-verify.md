@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-kx-server-session-keys.md: « sodiumcryptoкксserversessionkeys
-  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str.md: sodiumcryptopwhashscryptsalsa208sha256str »
+  - function.sodium-crypto-kx-server-session-keys.md: « sodium\_crypto\_kx\_server\_session\_keys
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str.md: sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptopwhashscryptsalsa208sha256strverify
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str\_verify
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptopwhashscryptsalsa208sha256strverify
+# sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str\_verify
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptopwhashscryptsalsa208sha256strverify — Перевірити, чи пароль є дійсним рядком перевірки пароля
+sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str\_verify — Перевірити, чи пароль є дійсним рядком перевірки пароля
 
 ### Опис
 
@@ -20,7 +21,7 @@ sodium_crypto_pwhash_scryptsalsa208sha256_str_verify(string $hash, string $passw
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

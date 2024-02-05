@@ -4,17 +4,18 @@ navigation:
   - domtext.iselementcontentwhitespace.md: 'DOMText::isElementContentWhitespace »'
   - index.md: PHP Manual
   - class.domtext.md: DOMText
-title: 'DOMText::construct'
+title: 'DOMText::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DOMText::construct
+# DOMText::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMText::construct — Створює об'єкт класу [DOMText](class.domtext.md)
+DOMText::\_\_construct — Створює об'єкт класу [DOMText](class.domtext.md)
 
 ### Опис
 
-public **DOMText::construct**(string `$data` = "")
+public**DOMText::\_\_construct**(string`$data` = "")
 
 Створює новий екземпляр класу [DOMText](class.domtext.md)
 
@@ -41,4 +42,4 @@ echo $dom->saveXML(); /* <?xml version="1.0" encoding="iso-8859-1"?><root>root v
 
 ### Дивіться також
 
--   [DOMDocument::createTextNode()](domdocument.createtextnode.md) - Створити новий текстовий вузол
+-   [DOMDocument::createTextNode()](domdocument.createtextnode.md) \- Створити новий текстовий вузол

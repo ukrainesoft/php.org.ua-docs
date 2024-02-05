@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apcu-exists.md: « apcuexists
-  - function.apcu-inc.md: apcuinc »
+  - function.apcu-exists.md: « apcu\_exists
+  - function.apcu-inc.md: apcu\_inc »
   - index.md: PHP Manual
-  - ref.apcu.md: Функции APCu
-title: apcufetch
+  - ref.apcu.md: Функції APCu
+title: apcu\_fetch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apcufetch
+# apcu\_fetch
 
 (PECL apcu >= 4.0.0)
 
-apcufetch - Витягує з кеша збережену змінну
+apcu\_fetch - Витягує з кеша збережену змінну
 
 ### Опис
 
@@ -18,31 +19,31 @@ apcufetch - Витягує з кеша збережену змінну
 apcu_fetch(mixed $key, bool &$success = ?): mixed
 ```
 
-Витягує з кеша змінну змінну.
+Витягує з кеша збережену змінну.
 
 ### Список параметрів
 
 `key`
 
-Ключ `key`, під яким запис було збережено в кеш (за допомогою [apcustore()](function.apcu-store.md)). Якщо заданий масив, то буде вилучено та повернено кожен елемент.
+Ключ`key`, під яким запис було збережено в кеш (за допомогою [apcu\_store()](function.apcu-store.md)). Якщо заданий масив, то буде вилучено та повернено кожен елемент.
 
 `success`
 
-Встановлюється в **`true`** у разі успішного виконання та **`false`** у разі виникнення помилки.
+Устанавливается в\*\*`true`\*\* у разі успішного виконання та \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Значення, що повертаються
 
-Збережена змінна чи масив; **`false`** у разі виникнення помилки
+Збережена змінна чи масив; \*\*`false`\*\*в случае возникновения ошибки
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL apcu 3.0.17 | Доданий параметр `success` |
+| PECL apcu 3.0.17 | Добавлен параметр`success` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apcufetch()****
+**Пример #1 Пример использования**apcu\_fetch()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump(apcu_fetch('foo'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(3) "BAR"
@@ -60,6 +61,6 @@ string(3) "BAR"
 
 ### Дивіться також
 
--   [apcustore()](function.apcu-store.md) - Кешує змінну
--   [apcudelete()](function.apcu-delete.md) - Видаляє збережене значення з кешу
+-   [apcu\_store()](function.apcu-store.md) \- Кешує змінну
+-   [apcu\_delete()](function.apcu-delete.md) \- Видаляє збережене значення з кешу
 -   [APCUIterator](class.apcuiterator.md)

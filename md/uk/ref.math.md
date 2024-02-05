@@ -1,62 +1,56 @@
 ---
 navigation:
-  - math.constants.md: « Обумовлені константи
+  - math.constants.md: « Зумовлені константи
   - function.abs.md: abs »
   - index.md: PHP Manual
   - book.math.md: Math
 title: Математичні функції
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Математичні функції
 
 ## Зміст
 
--   [abs](function.abs.md) - Абсолютне значення (модуль числа)
--   [acos](function.acos.md) - Арккосинус
--   [acosh](function.acosh.md) - Гіперболічний арккосинус
--   [asin](function.asin.md) - Арксінус
--   [asinh](function.asinh.md) - Гіперболічний арксинус
--   [atan2](function.atan2.md) - Арктангенс двох змінних
--   [atan](function.atan.md) - Арктангенс
--   [atanh](function.atanh.md) - Гіперболічний арктангенс
--   [baseconvert](function.base-convert.md) - Перетворення числа між довільними системами числення
--   [bindec](function.bindec.md) — Двійкове у десяткове
--   [ceil](function.ceil.md) — Заокруглює дріб у велику сторону
--   [cos](function.cos.md) - Косінус
--   [cosh](function.cosh.md) - Гіперболічний косинус
--   [decbin](function.decbin.md) — Переводить число з десяткової системи числення до двійкової.
--   [dechex](function.dechex.md) — Переводить число з десяткової системи числення до шістнадцяткової
--   [decoct](function.decoct.md) — Переказує число з десяткової системи числення до восьмирічної
--   [deg2rad](function.deg2rad.md) — Перетворює значення із градусів на радіани
--   [exp](function.exp.md) - Обчислює ступінь числа e
--   [expm1](function.expm1.md) - Повертає exp(number) - 1, розраховане таким чином, що результат точний, навіть якщо значення number близько до нуля.
--   [fdiv](function.fdiv.md) — ділить одне число на інше відповідно до IEEE 754
--   [floor](function.floor.md) — Округлює дріб у менший бік
--   [fmod](function.fmod.md) — Повертає дробовий залишок від розподілу за модулем
--   [getrandmax](function.getrandmax.md) — Повертає максимально можливе випадкове число
--   [hexdec](function.hexdec.md) — Переводить число із шістнадцяткової системи числення до десяткової
--   [hypot](function.hypot.md) - Розраховує довжину гіпотенузи прямокутного трикутника
--   [intdiv](function.intdiv.md) — Цілочисельний поділ
--   [ісfinite](function.is-finite.md) — Перевіряє, чи є значення допустимим кінцевим числом
--   [ісinfinite](function.is-infinite.md) — Перевіряє, чи є значення нескінченним
--   [ісnan](function.is-nan.md) - Перевіряє, чи є значення "не числом"
--   [lcgvalue](function.lcg-value.md) - Комбінований лінійний конгруентний генератор
--   [log10](function.log10.md) - Десятковий логарифм
--   [log1p](function.log1p.md) — Повертає log(1 + number), розрахований так, що результат точний, навіть якщо значення number близьке до нуля
--   [log](function.log.md) - Натуральний логарифм
--   [max](function.max.md) — Повертає найбільше значення
--   [min](function.min.md) — Знаходить найменше значення
--   [мтgetrandmax](function.mt-getrandmax.md) — Показує максимально можливе значення випадкового числа
--   [мтrand](function.mt-rand.md) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
--   [мтsrand](function.mt-srand.md) - Проініціалізує генератор випадкових чисел на базі Вихря Мерсенна
--   [octdec](function.octdec.md) — Переказує число з вісімкової системи числення до десяткової
--   [пі](function.pi.md) - Повертає число Пі
--   [pow](function.pow.md) - Зведення в ступінь
--   [rad2deg](function.rad2deg.md) — Перетворює значення з радіанів на градуси
--   [rand](function.rand.md) - Генерує випадкове число
--   [round](function.round.md) - Округлює число типу float
--   [sin](function.sin.md) - Сінус
--   [sinh](function.sinh.md) - Гіперболічний синус
--   [sqrt](function.sqrt.md) - Квадратний корінь
--   [srand](function.srand.md) - Змінює початкове число генератора псевдовипадкових чисел
--   [tan](function.tan.md) - Тангенс
--   [tanh](function.tanh.md) - Гіперболічний тангенс
+-   [abs](function.abs.md) \- Повертає абсолютну величину (модуль числа)
+-   [acos](function.acos.md) \- Обчислює арккосинус
+-   [acosh](function.acosh.md) \- Обчислює гіперболічний арккосинус
+-   [asin](function.asin.md) \- Обчислює арксинус
+-   [asinh](function.asinh.md) \- Обчислює гіперболічний арксинус
+-   [atan2](function.atan2.md) \- Обчислює арктангенс двох змінних
+-   [atan](function.atan.md) \- Обчислює арктангенс
+-   [atanh](function.atanh.md) \- Обчислює гіперболічний арктангенс
+-   [base\_convert](function.base-convert.md)— Перетворює числа між довільними системами числення
+-   [bindec](function.bindec.md)— Перетворює двійкове число на десяткове
+-   [ceil](function.ceil.md)— Округлює дрібне число в більшу сторону
+-   [cos](function.cos.md) \- Обчислює косинус
+-   [cosh](function.cosh.md) \- Обчислює гіперболічний косинус
+-   [decbin](function.decbin.md)— Переводить число з десяткової системи числення до двійкової.
+-   [dechex](function.dechex.md)— Переводить число з десяткової системи числення до шістнадцяткової
+-   [decoct](function.decoct.md)— Переказує число з десяткової системи числення до восьмирічної
+-   [deg2rad](function.deg2rad.md)— Перетворює значення із градусів на радіани
+-   [exp](function.exp.md) \- Обчислює ступінь числа e
+-   [expm1](function.expm1.md)— Повертає результат exp($num) - 1, обчислений так, щоб він був точним, навіть якщо значення числа близько нуля.
+-   [fdiv](function.fdiv.md)— ділить одне число на інше за правилами стандарту IEEE 754
+-   [floor](function.floor.md)— Округлює дробове число у менший бік
+-   [fmod](function.fmod.md)— Повертає дробовий залишок від розподілу за модулем
+-   [hexdec](function.hexdec.md)— Переводить число із шістнадцяткової системи числення до десяткової
+-   [hypot](function.hypot.md) \- Розраховує довжину гіпотенузи прямокутного трикутника
+-   [intdiv](function.intdiv.md)— Ділить два числа без залишку
+-   [is\_finite](function.is-finite.md)— Перевіряє, чи звісно число з плаваючою точкою
+-   [is\_infinite](function.is-infinite.md)— Перевіряє, чи нескінченне число з плаваючою точкою
+-   [is\_nan](function.is-nan.md)— Перевіряє, чи є число з плаваючою точкою нечисло
+-   [log10](function.log10.md)— Обчислює десятковий логарифм
+-   [log1p](function.log1p.md)— Повертає результат log(1 + number), обчислений так, щоб він був точним, навіть якщо значення числа близько нуля.
+-   [log](function.log.md) \- Обчислює натуральний логарифм
+-   [max](function.max.md)— Повертає найбільше значення
+-   [min](function.min.md)— Знаходить найменше значення
+-   [octdec](function.octdec.md)— Переказує число із вісімкової системи числення до десяткової
+-   [pi](function.pi.md) \- Повертає число Пі
+-   [pow](function.pow.md) \- Зводить у ступінь
+-   [rad2deg](function.rad2deg.md)— Перетворює значення з радіанів на градуси
+-   [round](function.round.md) \- Округлює число з плаваючою точкою (float)
+-   [sin](function.sin.md) \- Обчислює синус
+-   [sinh](function.sinh.md) \- Обчислює гіперболічний синус
+-   [sqrt](function.sqrt.md) \- Витягує квадратний корінь
+-   [tan](function.tan.md) \- Обчислює тангенс
+-   [tanh](function.tanh.md) \- Обчислює гіперболічний тангенс

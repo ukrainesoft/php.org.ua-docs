@@ -1,14 +1,15 @@
 ---
 navigation:
-  - regexiterator.construct.md: '« RegexIterator::construct'
+  - regexiterator.construct.md: '« RegexIterator::\_\_construct'
   - regexiterator.getmode.md: 'RegexIterator::getMode »'
   - index.md: PHP Manual
   - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::getFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RegexIterator::getFlags
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::getFlags — Отримання прапорів налаштування
 
@@ -30,7 +31,7 @@ public RegexIterator::getFlags(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RegexIterator::getFlags()****
+**Пример #1 Пример использования**RegexIterator::getFlags()\*\*\*\*
 
 ```php
 <?php
@@ -42,19 +43,19 @@ $regexIterator = new RegexIterator($arrayIterator, '/^test/');
 $regexIterator->setFlags(RegexIterator::USE_KEY);
 
 if ($regexIterator->getFlags() & RegexIterator::USE_KEY) {
-    echo 'Фильтрация на основе ключей Масива.';
+    echo 'Фильтрация на основе ключей массива.';
 } else {
-    echo 'Фильтрация на основе значений Масива.';
+    echo 'Фильтрация на основе значений массива.';
 }
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-Фильтрация на основе ключей Масива.
+Фильтрация на основе ключей массива.
 ```
 
 ### Дивіться також
 
--   [RegexIterator::setFlags()](regexiterator.setflags.md) - Установка прапорів
+-   [RegexIterator::setFlags()](regexiterator.setflags.md) \- Установка прапорів

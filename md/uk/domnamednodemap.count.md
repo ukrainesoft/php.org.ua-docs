@@ -1,14 +1,15 @@
 ---
 navigation:
   - class.domnamednodemap.md: « DOMNamedNodeMap
-  - domnamednodemap.getnameditem.md: 'DOMNamedNodeMap::getNamedItem »'
+  - domnamednodemap.getiterator.md: 'DOMNamedNodeMap::getIterator »'
   - index.md: PHP Manual
   - class.domnamednodemap.md: DOMNamedNodeMap
 title: 'DOMNamedNodeMap::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNamedNodeMap::count
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
 DOMNamedNodeMap::count — Кількість вузлів у відображенні
 

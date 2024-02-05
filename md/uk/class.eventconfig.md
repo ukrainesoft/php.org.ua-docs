@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.event.md: Event
 title: Клас EventConfig
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EventConfig
 
@@ -12,7 +13,7 @@ title: Клас EventConfig
 
 ## Вступ
 
-Представляє структуру, яку можна використовувати під час створення [EventBase](class.eventbase.md)
+Представляє структуру конфігурації, яку передають конструктор класу [EventBase](class.eventbase.md)
 
 ## Огляд класів
 
@@ -92,8 +93,8 @@ public
 
 ## Зміст
 
--   [EventConfig::avoidMethod](eventconfig.avoidmethod.md) — Попросити libevent не використати певний метод події
--   [EventConfig::construct](eventconfig.construct.md) — Створити об'єкт EventConfig
--   [EventConfig::requireFeatures](eventconfig.requirefeatures.md) — Ввести необхідні додатки властивості методу події
--   [EventConfig::setFlags](eventconfig.setflags.md) — Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
--   [EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.md) — Запобігти інверсії пріоритетів
+-   [EventConfig::avoidMethod](eventconfig.avoidmethod.md)— Попросити libevent не використати певний метод події
+-   [EventConfig::\_\_construct](eventconfig.construct.md)— Створити об'єкт EventConfig
+-   [EventConfig::requireFeatures](eventconfig.requirefeatures.md)— Ввести необхідні додатки властивості методу події
+-   [EventConfig::setFlags](eventconfig.setflags.md)— Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
+-   [EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.md)— Запобігти інверсії пріоритетів

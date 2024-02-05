@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::isDir'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::isDir
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::isDir — Вказує, чи є файл каталогом
 
@@ -26,11 +27,11 @@ public SplFileInfo::isDir(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо каталог; **`false`** в іншому випадку.
+Повертає **`true`**, если каталог;**`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::isDir()****
+**Пример #1 Пример использования**SplFileInfo::isDir()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($d->isDir());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)

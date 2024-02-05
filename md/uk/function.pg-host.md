@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-get-result.md: « pggetresult
-  - function.pg-insert.md: пгinsert »
+  - function.pg-get-result.md: « pg\_get\_result
+  - function.pg-insert.md: pg\_insert »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгhost
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_host
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгhost
+# pg\_host
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-пгhost — Повертає ім'я хоста, що відповідає підключенню
+pg\_host — Повертає ім'я хоста, що відповідає підключенню
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: пгhost
 pg_host(?PgSql\Connection $connection = null): string
 ```
 
-**пгhost()** повертає ім'я хоста, з яким встановлено задане з'єднання PostgreSQL `connection`
+**pg\_host()** повертає ім'я хоста, з яким встановлено задане з'єднання PostgreSQL `connection`
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection`указан как\*\*`null`\*\*, вибирається стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -32,18 +33,18 @@ pg_host(?PgSql\Connection $connection = null): string
 
 ### Значення, що повертаються
 
-Рядок, що містить ім'я підключеного через `connection` хоста, або порожній рядок у разі виникнення помилки.
+Рядок, що містить ім'я підключеного через `connection`хоста, либо пустая строка в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `connection` тепер допускає значення null. |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгhost()****
+**Пример #1 Пример использования**pg\_host()\*\*\*\*
 
 ```php
 <?php
@@ -60,5 +61,5 @@ if ($pgsql_conn) {
 
 ### Дивіться також
 
--   [пгconnect()](function.pg-connect.md) - Відкриває з'єднання з базою даних PostgreSQL
--   [пгpconnect()](function.pg-pconnect.md) - Відкриває постійне з'єднання із сервером PostgreSQL
+-   [pg\_connect()](function.pg-connect.md) \- Відкриває з'єднання з базою даних PostgreSQL
+-   [pg\_pconnect()](function.pg-pconnect.md) \- Відкриває постійне з'єднання із сервером PostgreSQL

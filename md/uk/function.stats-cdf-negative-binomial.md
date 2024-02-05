@@ -1,35 +1,36 @@
 ---
 navigation:
-  - function.stats-cdf-logistic.md: « statscdflogistic
-  - function.stats-cdf-noncentral-chisquare.md: statscdfnoncentralchisquare »
+  - function.stats-cdf-logistic.md: « stats\_cdf\_logistic
+  - function.stats-cdf-noncentral-chisquare.md: stats\_cdf\_noncentral\_chisquare »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statscdfnegativebinomial
+title: stats\_cdf\_negative\_binomial
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statscdfnegativebinomial
+# stats\_cdf\_negative\_binomial
 
 (PECL stats >= 1.0.0)
 
-statscdfnegativebinomial — Обчислює один із параметрів Негативного Біномінального розподілу за іншими
+stats\_cdf\_negative\_binomial — Обчислює один із параметрів Негативного Біномінального розподілу за іншими
 
 ### Опис
 
 ```methodsynopsis
-stats_cdf_negative_binomial(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_negative_binomial(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
-Повертає кумулятивну функцію негативного біномінального розподілу, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`
+Повертає кумулятивну функцію негативного біномінального розподілу, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2`и`par3`) определяются параметром`which`
 
-У наступній таблиці перераховані значення, що повертаються, і параметри в залежності від `which`. CDF, x, r та p позначає функцію кумулятивного розподілу, кількість провалених випробувань, кількість успішних випробувань та коефіцієнт успіху для кожного випробування відповідно.
+У наступній таблиці перераховані значення і параметри, що повертаються, в залежності від `which`. CDF, x, r та p позначає функцію кумулятивного розподілу, кількість провалених випробувань, кількість успішних випробувань та коефіцієнт успіху для кожного випробування відповідно.
 
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
 | --- | --- | --- | --- | --- |
-|  | CDF | з | р | п |
-|  | з | CDF | р | п |
-|  | р | з | CDF | п |
-|  | п | з | CDF | р |
+|  | CDF | x | r | p |
+|  | x | CDF | r | p |
+| 3 | r | x | CDF | p |
+| 4 | p | x | CDF | r |
 
 ### Список параметрів
 

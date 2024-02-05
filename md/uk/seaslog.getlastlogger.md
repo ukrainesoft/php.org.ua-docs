@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::getLastLogger'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::getLastLogger
 
@@ -18,7 +19,7 @@ SeasLog::getLastLogger — Отримує останній шлях реєстр
 public static SeasLog::getLastLogger(): string
 ```
 
-Використовуйте функцію **SeasLog::getLastLogger()**, щоб отримати значення [seaslog.defaultlogger](seaslog.configuration.md#ini.seaslog.default-logger), яке задано у php.ini (seaslog.ini).
+Используйте функцию**SeasLog::getLastLogger()**, щоб отримати значення [seaslog.default\_logger](seaslog.configuration.md#ini.seaslog.default-logger), яке задано у php.ini (seaslog.ini).
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public static SeasLog::getLastLogger(): string
 
 ### Значення, що повертаються
 
-Використання функції [SeasLog::setLogger()](seaslog.setlogger.md) змінить значення функції **SeasLog::getLastLogger()**
+Использование функции[SeasLog::setLogger()](seaslog.setlogger.md)изменит значение функции**SeasLog::getLastLogger()**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::getLastLogger()****
+**Пример #1 Пример использования**SeasLog::getLastLogger()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ var_dump(SeasLog::getLastLogger());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(7) "default"
@@ -50,4 +51,4 @@ string(12) "theNewLogger"
 
 ### Дивіться також
 
--   [SeasLog::setLogger()](seaslog.setlogger.md) - Встановлює ім'я реєстратора SeasLog
+-   [SeasLog::setLogger()](seaslog.setlogger.md) \- Встановлює ім'я реєстратора SeasLog

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::fetch'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::fetch
 
@@ -15,10 +16,10 @@ Memcached::fetch — Отримує наступний результат
 ### Опис
 
 ```methodsynopsis
-public Memcached::fetch(): array
+public Memcached::fetch(): array|false
 ```
 
-**Memcached::fetch()** отримує наступний результат останнього запиту.
+\*\*Memcached::fetch()\*\*получает следующий результат последнего запроса.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public Memcached::fetch(): array
 
 ### Значення, що повертаються
 
-Повертає наступний результат запиту або **`false`** в іншому випадку. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_END`** якщо результуюча вибірка закінчилася.
+Возвращает следующий результат запроса или\*\*`false`\*\* в іншому випадку. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_END`** якщо результуюча вибірка закінчилася.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::fetch()****
+**Пример #1 Пример использования**Memcached::fetch()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ while ($result = $m->fetch()) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(3) {
@@ -76,5 +77,5 @@ array(3) {
 
 ### Дивіться також
 
--   [Memcached::fetchAll()](memcached.fetchall.md) - Витягує всі отримані записи
--   [Memcached::getDelayed()](memcached.getdelayed.md) - Запитує кілька записів
+-   [Memcached::fetchAll()](memcached.fetchall.md) \- Витягує всі отримані записи
+-   [Memcached::getDelayed()](memcached.getdelayed.md) \- Запитує кілька записів

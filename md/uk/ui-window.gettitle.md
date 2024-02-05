@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-window.getsize.md: '« UIWindow::getSize'
-  - ui-window.hasborders.md: 'ОЙWindow::hasBorders »'
+  - ui-window.getsize.md: '« UI\\Window::getSize'
+  - ui-window.hasborders.md: 'UI\\Window::hasBorders »'
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::getTitle'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::getTitle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::getTitle
+# UI\\Window::getTitle
 
 (UI 0.9.9)
 
-ОЙWindow::getTitle — Отримати заголовок
+UI\\Window::getTitle — Отримати заголовок
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-mysql.on.md: '« SwooleMySQL::on'
-  - class.swoole-mysql-exception.md: SwooleMySQLException »
+  - swoole-mysql.on.md: '« Swoole\\MySQL::on'
+  - class.swoole-mysql-exception.md: Swoole\\MySQL\\Exception »
   - index.md: PHP Manual
-  - class.swoole-mysql.md: SwooleMySQL
-title: 'SwooleMySQL::query'
+  - class.swoole-mysql.md: Swoole\\MySQL
+title: 'Swoole\\MySQL::query'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleMySQL::query
+# Swoole\\MySQL::query
 
 (PECL swoole >= 1.9.0)
 
-SwooleMySQL::query — Виконує запит SQL
+Swoole\\MySQL::query — Виконує запит SQL
 
 ### Опис
 

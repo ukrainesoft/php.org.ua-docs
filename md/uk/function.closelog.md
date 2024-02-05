@@ -1,10 +1,11 @@
 ---
 navigation:
   - function.checkdnsrr.md: « checkdnsrr
-  - function.dns-check-record.md: dnscheckrecord »
+  - function.dns-check-record.md: dns\_check\_record »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: closelog
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # closelog
 
@@ -15,10 +16,10 @@ closelog — Закриває з'єднання із системним журн
 ### Опис
 
 ```methodsynopsis
-closelog(): bool
+closelog(): true
 ```
 
-Функція **closelog()** закриває дескриптор, який використовується для запису до системного журналу. Використання **closelog()** не є обов'язковим.
+Функция**closelog()** закриває дескриптор, який використовується для запису до системного журналу. Використання **closelog()** не є обов'язковим.
 
 ### Список параметрів
 
@@ -26,9 +27,9 @@ closelog(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### Дивіться також
 
--   [syslog()](function.syslog.md) - Генерує повідомлення для системного журналу
--   [openlog()](function.openlog.md) - Відкриває підключення до системного журналу
+-   [syslog()](function.syslog.md) \- Генерує повідомлення для системного журналу
+-   [openlog()](function.openlog.md) \- Відкриває підключення до системного журналу

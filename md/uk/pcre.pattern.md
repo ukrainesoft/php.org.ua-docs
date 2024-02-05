@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.pcre.md: PCRE
 title: Регулярні вирази PCRE
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Регулярні вирази PCRE
 
@@ -12,4 +13,4 @@ title: Регулярні вирази PCRE
 
 -   [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
 -   [Описує можливі модифікатори шаблонів Perl-сумісних регулярних виразів (PCRE)](reference.pcre.pattern.modifiers.md)
--   [Отличия от Perl](reference.pcre.pattern.differences.md)
+-   [Відмінності від Perl](reference.pcre.pattern.differences.md)

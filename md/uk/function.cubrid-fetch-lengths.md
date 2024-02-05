@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-fetch-field.md: « cubridfetchfield
-  - function.cubrid-fetch-object.md: cubridfetchobject »
+  - function.cubrid-fetch-field.md: « cubrid\_fetch\_field
+  - function.cubrid-fetch-object.md: cubrid\_fetch\_object »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridfetchlengths
+title: cubrid\_fetch\_lengths
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridfetchlengths
+# cubrid\_fetch\_lengths
 
 (PECL CUBRID >= 8.3.0)
 
-cubridfetchlengths - Повертає масив, що містить довжини всіх стовпців поточного рядка
+cubrid\_fetch\_lengths - Повертає масив, що містить довжини всіх стовпців поточного рядка
 
 ### Опис
 
@@ -18,27 +19,27 @@ cubridfetchlengths - Повертає масив, що містить довжи
 cubrid_fetch_lengths(resource $result): array
 ```
 
-Функція повертає індексований масив, що містить довжини стовпців у поточному рядку з результуючого набору, або **`false`** у разі виникнення помилки.
+Функція повертає індексований масив, що містить довжини стовпців у поточному рядку з результуючого набору, або \*\*`false`\*\*в случае возникновения ошибки.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо стовпець типу BLOB/CLOB, то для отримання його довжини використовуйте [cubridlobsize()](function.cubrid-lob-size.md)
+> Якщо стовпець типу BLOB/CLOB, то для отримання його довжини використовуйте [cubrid\_lob\_size()](function.cubrid-lob-size.md)
 
 ### Список параметрів
 
 `result`
 
-`Result` отриманий з [cubridexecute()](function.cubrid-execute.md)
+`Result` отриманий з [cubrid\_execute()](function.cubrid-execute.md)
 
 ### Значення, що повертаються
 
 Індексований масив.
 
-**`false`** у разі виникнення помилки.
+\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridfetchlengths()****
+**Пример #1 Пример использования**cubrid\_fetch\_lengths()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array

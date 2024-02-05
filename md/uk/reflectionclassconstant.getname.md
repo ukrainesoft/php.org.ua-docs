@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::getName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClassConstant::getName
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
 ReflectionClassConstant::getName — Отримати ім'я константи
 
@@ -28,6 +29,6 @@ public ReflectionClassConstant::getName(): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Викидає помилку [Error](class.error.md) якщо властивість name не була ініціалізована. Раніше, у разі помилки, метод повертав **`false`** |
+| 8.1.0 | Викидає помилку [Error](class.error.md) якщо властивість name не була ініціалізована. Раніше, у разі помилки, метод повертав **`false`** |

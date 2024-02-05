@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.chunk-split.md: « chunksplit
-  - function.convert-uudecode.md: convertuudecode »
+  - function.chunk-split.md: « chunk\_split
+  - function.convert-uudecode.md: convert\_uudecode »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: convertcyrstring
+title: convert\_cyr\_string
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# convertcyrstring
+# convert\_cyr\_string
 
 (PHP 4, PHP 5, PHP 7)
 
-convertcyrstring — Перетворює рядок з одного кириличного кодування на інше
+convert\_cyr\_string — Перетворює рядок з одного кириличного кодування на інше
 
 **Увага**
 
-Ця функція оголошена *Застарілої*, починаючи з PHP 7.3.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.3.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -43,8 +44,8 @@ convert_cyr_string(string $str, string $from, string $to): string
 -   k - koi8-r
 -   w - windows-1251
 -   i - iso8859-5
--   a - x-CP866
--   d - x-CP866
+-   a - x-cp866
+-   d - x-cp866
 -   m - x-mac-cyrillic
 
 ### Значення, що повертаються
@@ -57,5 +58,5 @@ convert_cyr_string(string $str, string $from, string $to): string
 
 ### Дивіться також
 
--   [мбconvertencoding()](function.mb-convert-encoding.md) - Перетворює рядок з одного кодування символів на інший
--   [iconv()](function.iconv.md) - Перетворює рядок з одного кодування символів на інший
+-   [mb\_convert\_encoding()](function.mb-convert-encoding.md) \- Перетворює рядок з одного кодування символів на інший
+-   [iconv()](function.iconv.md) \- Перетворює рядок з одного кодування символів на інший

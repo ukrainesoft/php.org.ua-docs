@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.error.md: Error
 title: 'Error::getPrevious'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Error::getPrevious
 
@@ -18,7 +19,7 @@ Error::getPrevious — Повертає попередній Throwable
 final public Error::getPrevious(): ?Throwable
 ```
 
-Повертає попередній об'єкт Throwable (третій параметр конструктора [Error::construct()](error.construct.md)
+Повертає попередній об'єкт Throwable (третій параметр конструктора [Error::\_\_construct()](error.construct.md)
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ final public Error::getPrevious(): ?Throwable
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Error::getPrevious()****
+**Пример #1 Пример использования**Error::getPrevious()\*\*\*\*
 
 Прохід та друк ланцюга винятків.
 
@@ -57,7 +58,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 /home/bjori/ex.php:8 Что-то случилось (911) [MyCustomError]
@@ -66,4 +67,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getPrevious()](throwable.getprevious.md) - Повертає попередній Throwable
+-   [Throwable::getPrevious()](throwable.getprevious.md) \- Повертає попередній Throwable

@@ -1,12 +1,13 @@
 ---
 navigation:
   - wkhtmltox.configuration.md: « Налаштування під час виконання
-  - wkhtmltox-pdf-converter.add.md: 'wkhtmltoxPDFConverter::add »'
+  - wkhtmltox-pdf-converter.add.md: 'wkhtmltox\\PDF\\Converter::add »'
   - index.md: PHP Manual
   - book.wkhtmltox.md: wkhtmltox
-title: Клас wkhtmltoxPDFConverter
+title: Клас wkhtmltox\\PDF\\Converter
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас wkhtmltoxPDFConverter
+# Клас wkhtmltox\\PDF\\Converter
 
 (wkhtmltox >= 0.1.0)
 
@@ -42,7 +43,7 @@ public getVersion(): string
 
 ## Зміст
 
--   [wkhtmltoxPDFConverter::add](wkhtmltox-pdf-converter.add.md) — Додавання об'єкта для перетворення
--   [wkhtmltoxPDFConverter::construct](wkhtmltox-pdf-converter.construct.md) — Створити новий PDF-конвертер
--   [wkhtmltoxPDFConverter::convert](wkhtmltox-pdf-converter.convert.md) — Виконати перетворення PDF
--   [wkhtmltoxPDFConverter::getVersion](wkhtmltox-pdf-converter.getversion.md) — Визначити версію конвертера
+-   [wkhtmltox\\PDF\\Converter::add](wkhtmltox-pdf-converter.add.md)— Додавання об'єкта для перетворення
+-   [wkhtmltox\\PDF\\Converter::\_\_construct](wkhtmltox-pdf-converter.construct.md)— Створити новий PDF-конвертер
+-   [wkhtmltox\\PDF\\Converter::convert](wkhtmltox-pdf-converter.convert.md)— Виконати перетворення PDF
+-   [wkhtmltox\\PDF\\Converter::getVersion](wkhtmltox-pdf-converter.getversion.md)— Визначити версію конвертера

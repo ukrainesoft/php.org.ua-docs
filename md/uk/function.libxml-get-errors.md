@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.libxml-disable-entity-loader.md: « libxmldisableentityloader
-  - function.libxml-get-last-error.md: libxmlgetlasterror »
+  - function.libxml-disable-entity-loader.md: « libxml\_disable\_entity\_loader
+  - function.libxml-get-external-entity-loader.md: libxml\_get\_external\_entity\_loader »
   - index.md: PHP Manual
   - ref.libxml.md: Функції libxml
-title: libxmlgeterrors
+title: libxml\_get\_errors
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# libxmlgeterrors
+# libxml\_get\_errors
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-libxmlgeterrors — Отримання масиву помилок, що відбулися.
+libxml\_get\_errors — Отримання масиву помилок, що відбулися.
 
 ### Опис
 
@@ -30,7 +31,7 @@ libxml_get_errors(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **libxmlgeterrors()****
+**Пример #1 Пример использования**libxml\_get\_errors()\*\*\*\*
 
 Цей приклад демонструє, як створити простий обробник помилок libxml.
 
@@ -93,7 +94,7 @@ function display_xml_error($error, $xml)
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <titles>PHP: Behind the Parser</title>
@@ -107,5 +108,5 @@ Fatal Error 76: Opening and ending tag mismatch: titles line 4 and title
 
 ### Дивіться також
 
--   [libxmlgetlasterror()](function.libxml-get-last-error.md) - Вилучення останньої помилки з libxml
--   [libxmlclearerrors()](function.libxml-clear-errors.md) - Очищення буфера помилок libxml
+-   [libxml\_get\_last\_error()](function.libxml-get-last-error.md) \- Вилучення останньої помилки з libxml
+-   [libxml\_clear\_errors()](function.libxml-clear-errors.md) \- Очищення буфера помилок libxml

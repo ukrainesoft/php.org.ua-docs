@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-errno.md: « fdferrno
-  - function.fdf-get-ap.md: fdfgetap »
+  - function.fdf-errno.md: « fdf\_errno
+  - function.fdf-get-ap.md: fdf\_get\_ap »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdferror
+title: fdf\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdferror
+# fdf\_error
 
-(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
+(PHP 4 >= 4.3.0, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdferror — Повертає опис помилки для коду помилки FDF
+fdf\_error — Повертає опис помилки для коду помилки FDF
 
 ### Опис
 
@@ -18,13 +19,13 @@ fdferror — Повертає опис помилки для коду помил
 fdf_error(int $error_code = -1): string
 ```
 
-Отримує текстовий опис коду помилки FDF, зазначеного в `error_code`
+Отримує текстовий опис коду помилки FDF, вказаного в `error_code`
 
 ### Список параметрів
 
 `error_code`
 
-Код помилки, отриманий за допомогою [fdferrno()](function.fdf-errno.md). Якщо не вказано, функція використовує код внутрішньої помилки, встановлений останньою операцією.
+Код помилки, отриманий за допомогою [fdf\_errno()](function.fdf-errno.md). Якщо не вказано, функція використовує код внутрішньої помилки, встановлений останньою операцією.
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ fdf_error(int $error_code = -1): string
 
 ### Дивіться також
 
--   [fdferrno()](function.fdf-errno.md) - Повертає код помилки для останньої операції FDF
+-   [fdf\_errno()](function.fdf-errno.md) \- Повертає код помилки для останньої операції FDF

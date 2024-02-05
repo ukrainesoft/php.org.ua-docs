@@ -1,93 +1,94 @@
 ---
 navigation:
   - ibase.resources.md: « Типи ресурсів
-  - ref.ibase.md: Функции Firebird/InterBase »
+  - ref.ibase.md: Функції Firebird/InterBase »
   - index.md: PHP Manual
   - book.ibase.md: Firebird/InterBase
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.
 
-Наступні константи можна задавати у функції [ibasetrans()](function.ibase-trans.md) визначення поведінки транзакцій.
+Наступні константи можна задавати у функції [ibase\_trans()](function.ibase-trans.md)для определения поведения транзакций.
 
 **Прапори транзакцій Firebird/InterBase**
 
-| Константа | Описание |
+| Константа | Опис |
 | --- | --- |
-| IBASEDEFAULT | Налаштування за промовчанням для нової транзакції. Це значення визначається клієнтською бібліотекою, яке в більшості випадків дорівнює IBASEWRITE |
-| IBASEREAD | Починає транзакцію лише на читання. |
-| IBASEWRITE | Починає транзакцію у режимі читання та запису. |
-| IBASECONSISTENCY | Починає транзакцію з рівнем ізоляції 'consistency' (узгодження). Це означає, що транзакція не може читати з таблиць, які вносяться зміни паралельними (конкуруючими) транзакціями. |
-| IBASECONCURRENCY | Починає транзакцію з рівнем ізоляції 'concurrency' (або 'snapshot', 'миттєвий знімок'). Це означає, що транзакція має доступ до всіх таблиць, але може бачити зміни інших транзакцій після знімка. |
-| IBASECOMMITTED | Починає транзакцію із рівнем ізоляції 'read committed' (читати фіксоване). Цей прапор має бути об'єднаний з **`IBASE_REC_VERSION`** або **`IBASE_REC_NO_VERSION`**. Цей рівень ізоляції дозволяє отримати доступ до змін, здійснених після початку транзакції. Якщо вказано прапор **`IBASE_REC_NO_VERSION`**, тільки остання версія змін може бути прочитана. Якщо вказано прапор **`IBASE_REC_VERSION`**, можна читати зміни, що у черзі у паралельних транзакціях. |
-| IBASEWAIT | Прапор, що вказує, що транзакція повинна чекати у разі конфлікту транзакцій. |
-| IBASENOWAIT | Прапор, що вказує на те, що транзакція повинна повернути помилку при виникненні конфлікту транзакцій. |
+| IBASE\_DEFAULT | Налаштування за промовчанням для нової транзакції. Це значення визначається клієнтською бібліотекою, яке в більшості випадків дорівнює IBASE\_WRITE |
+| IBASE\_READ | Починає транзакцію лише на читання. |
+| IBASE\_WRITE | Починає транзакцію у режимі читання та запису. |
+| IBASE\_CONSISTENCY | Починає транзакцію з рівнем ізоляції 'consistency' (узгодження). Це означає, що транзакція не може читати з таблиць, які вносяться зміни паралельними (конкуруючими) транзакціями. |
+| IBASE\_CONCURRENCY | Починає транзакцію з рівнем ізоляції 'concurrency' (або 'snapshot', 'миттєвий знімок'). Це означає, що транзакція має доступ до всіх таблиць, але може бачити зміни інших транзакцій після знімка. |
+| IBASE\_COMMITTED | Починає транзакцію із рівнем ізоляції 'read committed' (читати фіксоване). Цей прапор має бути об'єднаний з **`IBASE_REC_VERSION`**или**`IBASE_REC_NO_VERSION`**. . Цей рівень ізоляції дозволяє отримати доступ до змін, здійснених після початку транзакції. Якщо вказано прапор **`IBASE_REC_NO_VERSION`**, тільки остання версія змін може бути прочитана. Якщо вказано прапор **`IBASE_REC_VERSION`**, можна читати зміни, що у черзі у паралельних транзакціях. |
+| IBASE\_WAIT | Прапор, що вказує, що транзакція повинна чекати у разі конфлікту транзакцій. |
+| IBASE\_NOWAIT | Прапор, що вказує на те, що транзакція повинна повернути помилку при виникненні конфлікту транзакцій. |
 
-Наступні константи можна задавати у функціях [ibasefetchrow()](function.ibase-fetch-row.md) [ibasefetchassoc()](function.ibase-fetch-assoc.md) або [ibasefetchobject()](function.ibase-fetch-object.md)для управління поведінкою вилученням даних.
+Наступні константи можна задавати у функціях [ibase\_fetch\_row()](function.ibase-fetch-row.md) [ibase\_fetch\_assoc()](function.ibase-fetch-assoc.md) або [ibase\_fetch\_object()](function.ibase-fetch-object.md)для управління поведінкою вилученням даних.
 
 **Прапори вилучення Firebird/InterBase**
 
-| Константа | Описание |
+| Константа | Опис |
 | --- | --- |
-| IBASEFETCHBLOBS | Також можна використовувати **`IBASE_TEXT`** для забезпечення зворотної сумісності. Вимушує витягувати об'єкти BLOB повністю, а не лише їхні ідентифікатори. |
-| IBASEFETCHARRAYS | Вимушує витягувати масиви повністю, а не лише їх ідентифікатори. Ідентифікатори масивів можна використовувати тільки для операцій вставки, тому що на даний момент відсутні будь-які інші функції для роботи з ними. |
-| IBASEUNIXTIME | Вимушує поля типу дата/час витягуватися не як рядки, а як тимчасові мітки Unix (кількість секунд, що пройшли з 1 січня 1970 00:00 UTC). Може викликати проблеми на деяких системах, якщо необхідно працювати з ранніми датами. |
+| IBASE\_FETCH\_BLOBS | Також можна використовувати **`IBASE_TEXT`** для забезпечення зворотної сумісності. Вимушує витягувати об'єкти BLOB повністю, а не лише їх ідентифікатори. |
+| IBASE\_FETCH\_ARRAYS | Вимушує витягувати масиви цілком, а не лише їхні ідентифікатори. Ідентифікатори масивів можна використовувати тільки для операцій вставки, оскільки на даний момент відсутні будь-які інші функції для роботи з ними. |
+| IBASE\_UNIXTIME | Вимушує поля типу дата/час витягуватися не як рядки, а як тимчасові мітки Unix (кількість секунд, що пройшли з 1 січня 1970 00:00 UTC). Може викликати проблеми на деяких системах, якщо необхідно працювати з ранніми датами. |
 
-Наступні константи використовуються для передачі запитів і сервісних функцій API ([ibaseserverinfo()](function.ibase-server-info.md) [ibaseдбinfo()](function.ibase-db-info.md) [ibasebackup()](function.ibase-backup.md) [ibaserestore()](function.ibase-restore.md) і [ibasemaintaindb()](function.ibase-maintain-db.md)). За подробицями зверніться до документації Firebird/InterBase.
+Наступні константи використовуються для передачі запитів і сервісних функцій API ([ibase\_server\_info()](function.ibase-server-info.md) [ibase\_db\_info()](function.ibase-db-info.md) [ibase\_backup()](function.ibase-backup.md) [ibase\_restore()](function.ibase-restore.md) і [ibase\_maintain\_db()](function.ibase-maintain-db.md)). За подробицями зверніться до документації Firebird/InterBase.
 
 **`IBASE_BKP_IGNORE_CHECKSUMS`**
 
 **`IBASE_BKP_IGNORE_LIMBO`**
 
-Опція для [ibasebackup()](function.ibase-backup.md)
+Опция для[ibase\_backup()](function.ibase-backup.md)
 
 **`IBASE_BKP_METADATA_ONLY`**
 
-Опція для [ibasebackup()](function.ibase-backup.md)
+Опция для[ibase\_backup()](function.ibase-backup.md)
 
 **`IBASE_BKP_NO_GARBAGE_COLLECT`**
 
-Опція для [ibasebackup()](function.ibase-backup.md)
+Опция для[ibase\_backup()](function.ibase-backup.md)
 
 **`IBASE_BKP_OLD_DESCRIPTIONS`**
 
-Опція для [ibasebackup()](function.ibase-backup.md)
+Опция для[ibase\_backup()](function.ibase-backup.md)
 
 **`IBASE_BKP_NON_TRANSPORTABLE`**
 
-Опція для [ibasebackup()](function.ibase-backup.md)
+Опция для[ibase\_backup()](function.ibase-backup.md)
 
 **`IBASE_BKP_CONVERT`**
 
-Опція для [ibasebackup()](function.ibase-backup.md)
+Опция для[ibase\_backup()](function.ibase-backup.md)
 
 **`IBASE_RES_DEACTIVATE_IDX`**
 
-Опція для [ibaserestore()](function.ibase-restore.md)
+Опция для[ibase\_restore()](function.ibase-restore.md)
 
 **`IBASE_RES_NO_SHADOW`**
 
-Опція для [ibaserestore()](function.ibase-restore.md)
+Опция для[ibase\_restore()](function.ibase-restore.md)
 
 **`IBASE_RES_NO_VALIDITY`**
 
-Опція для [ibaserestore()](function.ibase-restore.md)
+Опция для[ibase\_restore()](function.ibase-restore.md)
 
 **`IBASE_RES_ONE_AT_A_TIME`**
 
-Опція для [ibaserestore()](function.ibase-restore.md)
+Опция для[ibase\_restore()](function.ibase-restore.md)
 
 **`IBASE_RES_REPLACE`**
 
 **`IBASE_RES_CREATE`**
 
-Опція для [ibaserestore()](function.ibase-restore.md)
+Опция для[ibase\_restore()](function.ibase-restore.md)
 
 **`IBASE_RES_USE_ALL_SPACE`**
 
-Опція для [ibaserestore()](function.ibase-restore.md)
+Опция для[ibase\_restore()](function.ibase-restore.md)
 
 **`IBASE_PRP_PAGE_BUFFERS`**
 
@@ -137,7 +138,7 @@ title: Обумовлені константи
 
 **`IBASE_RPR_SWEEP_DB`**
 
-Опція для [ibasemaintaindb()](function.ibase-maintain-db.md)
+Опция для[ibase\_maintain\_db()](function.ibase-maintain-db.md)
 
 **`IBASE_STS_DATA_PAGES`**
 
@@ -149,19 +150,19 @@ title: Обумовлені константи
 
 **`IBASE_STS_SYS_RELATIONS`**
 
-Опція для [ibaseдбinfo()](function.ibase-db-info.md)
+Опция для[ibase\_db\_info()](function.ibase-db-info.md)
 
 **`IBASE_SVC_SERVER_VERSION`**
 
-Опція для [ibaseserverinfo()](function.ibase-server-info.md)
+Опция для[ibase\_server\_info()](function.ibase-server-info.md)
 
 **`IBASE_SVC_IMPLEMENTATION`**
 
-Опція для [ibaseserverinfo()](function.ibase-server-info.md)
+Опция для[ibase\_server\_info()](function.ibase-server-info.md)
 
 **`IBASE_SVC_GET_ENV`**
 
-Опція для [ibaseserverinfo()](function.ibase-server-info.md)
+Опция для[ibase\_server\_info()](function.ibase-server-info.md)
 
 **`IBASE_SVC_GET_ENV_LOCK`**
 
@@ -173,4 +174,4 @@ title: Обумовлені константи
 
 **`IBASE_SVC_GET_USERS`**
 
-Опція для [ibaseserverinfo()](function.ibase-server-info.md)
+Опция для[ibase\_server\_info()](function.ibase-server-info.md)

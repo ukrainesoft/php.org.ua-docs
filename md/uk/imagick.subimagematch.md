@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::subImageMatch'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::subImageMatch
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
-Imagick::subImageMatch — Опис
+Imagick::subImageMatch — Шукає фрагмент зображення у поточному зображенні та повертає другорядне зображення.
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Imagick::subImageMatch(Imagick $Imagick, array &$offset = ?, float &$simi
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::subImageMatch()****
+**Пример #1 Пример использования**Imagick::subImageMatch()\*\*\*\*
 
 ```php
 <?php

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrcollapsefunction.md: SolrCollapseFunction
 title: 'SolrCollapseFunction::setNullPolicy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrCollapseFunction::setNullPolicy
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrCollapseFunction::setNullPolicy — Встановлює NULL-політику
 

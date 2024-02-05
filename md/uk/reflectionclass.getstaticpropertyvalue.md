@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getStaticPropertyValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getStaticPropertyValue
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 ReflectionClass::getStaticPropertyValue — Повертає значення статичної властивості
 
@@ -36,7 +37,7 @@ public ReflectionClass::getStaticPropertyValue(string $name, mixed &$def_value =
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getStaticPropertyValue()****
+**Пример #1 Пример использования**ReflectionClass::getStaticPropertyValue()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($class->getStaticPropertyValue('color'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(3) "Red"
@@ -57,5 +58,5 @@ string(3) "Red"
 
 ### Дивіться також
 
--   [ReflectionClass::getStaticProperties()](reflectionclass.getstaticproperties.md) - Повертає статичні властивості
--   [ReflectionClass::setStaticPropertyValue()](reflectionclass.setstaticpropertyvalue.md) - Встановлює значення статичної властивості
+-   [ReflectionClass::getStaticProperties()](reflectionclass.getstaticproperties.md) \- Повертає статичні властивості
+-   [ReflectionClass::setStaticPropertyValue()](reflectionclass.setstaticpropertyvalue.md) \- Встановлює значення статичної властивості

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pcntl-wifsignaled.md: pcntlwifsignaled
-  - function.pcntl-wstopsig.md: pcntlwstopsig »
+  - function.pcntl-wifsignaled.md: « pcntl\_wifsignaled
+  - function.pcntl-wstopsig.md: pcntl\_wstopsig »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
-title: pcntlwifstopped
+title: pcntl\_wifstopped
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pcntlwifstopped
+# pcntl\_wifstopped
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-pcntlwifstopped — Перевірити, чи зупинено дочірній процес
+pcntl\_wifstopped — Перевірити, чи зупинено дочірній процес
 
 ### Опис
 
@@ -18,13 +19,13 @@ pcntlwifstopped — Перевірити, чи зупинено дочірній
 pcntl_wifstopped(int $status): bool
 ```
 
-Перевіряє, чи зупинено дочірній процес, що викликало повернення; це можливо лише якщо функція [pcntlwaitpid()](function.pcntl-waitpid.md) викликалася з опцією `WUNTRACED`
+Перевіряє, чи зупинено дочірній процес, що викликало повернення; це можливо лише якщо функція [pcntl\_waitpid()](function.pcntl-waitpid.md) викликалася з опцією `WUNTRACED`
 
 ### Список параметрів
 
 `status`
 
-Параметр `status` - це параметр статусу, який передається для успішного виклику функції [pcntlwaitpid()](function.pcntl-waitpid.md)
+Параметр`status` — це параметр статусу, який передається для успішного виклику функції [pcntl\_waitpid()](function.pcntl-waitpid.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ pcntl_wifstopped(int $status): bool
 
 ### Дивіться також
 
--   [pcntlwaitpid()](function.pcntl-waitpid.md) - Очікує чи повертає статус породженого дочірнього процесу
+-   [pcntl\_waitpid()](function.pcntl-waitpid.md) \- Очікує чи повертає статус породженого дочірнього процесу

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-header.md: « fdfheader
-  - function.fdf-open-string.md: fdfopenstring »
+  - function.fdf-header.md: « fdf\_header
+  - function.fdf-open-string.md: fdf\_open\_string »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfnextfieldname
+title: fdf\_next\_field\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfnextfieldname
+# fdf\_next\_field\_name
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfnextfieldname — Отримує ім'я наступного поля
+fdf\_next\_field\_name — Отримує ім'я наступного поля
 
 ### Опис
 
@@ -24,7 +25,7 @@ fdf_next_field_name(resource $fdf_document, string $fieldname = ?): string
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md) або [fdf\_open\_string()](function.fdf-open-string.md)
 
 `fieldname`
 
@@ -51,4 +52,4 @@ for ($field = fdf_next_field_name($fdf);
 
 ### Дивіться також
 
--   [fdfgetvalue()](function.fdf-get-value.md) - Отримує значення поля
+-   [fdf\_get\_value()](function.fdf-get-value.md) \- Отримує значення поля

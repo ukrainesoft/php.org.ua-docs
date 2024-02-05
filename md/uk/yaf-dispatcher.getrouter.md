@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-dispatcher.getrequest.md: '« YafDispatcher::getRequest'
-  - yaf-dispatcher.initview.md: 'YafDispatcher::initView »'
+  - yaf-dispatcher.getrequest.md: '« Yaf\_Dispatcher::getRequest'
+  - yaf-dispatcher.initview.md: 'Yaf\_Dispatcher::initView »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::getRouter'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::getRouter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::getRouter
+# Yaf\_Dispatcher::getRouter
 
 (Yaf >=1.0.0)
 
-YafDispatcher::getRouter — Отримує екземпляр маршрутизатора
+Yaf\_Dispatcher::getRouter — Отримує екземпляр маршрутизатора
 
 ### Опис
 

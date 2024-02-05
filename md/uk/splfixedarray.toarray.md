@@ -1,14 +1,15 @@
 ---
 navigation:
   - splfixedarray.setsize.md: '« SplFixedArray::setSize'
-  - splfixedarray.valid.md: 'SplFixedArray::valid »'
+  - splfixedarray.unserialize.md: 'SplFixedArray::\_\_unserialize »'
   - index.md: PHP Manual
   - class.splfixedarray.md: SplFixedArray
 title: 'SplFixedArray::toArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFixedArray::toArray
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplFixedArray::toArray — Повертає звичайний PHP-масив зі значеннями фіксованого масиву
 
@@ -30,7 +31,7 @@ public SplFixedArray::toArray(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFixedArray::toArray()****
+**Пример #1 Пример использования**SplFixedArray::toArray()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ var_dump($fa->toArray());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(3) {

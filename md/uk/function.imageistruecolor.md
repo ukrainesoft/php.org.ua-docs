@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageistruecolor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imageistruecolor
 
-(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.2, PHP 5, PHP 7, PHP 8)
 
 imageistruecolor — Визначає, чи зображення є повнокольоровим.
 
@@ -18,7 +19,7 @@ imageistruecolor — Визначає, чи зображення є повнок
 imageistruecolor(GdImage $image): bool
 ```
 
-**imageistruecolor()** визначає, чи є зображення `image` повнокольоровим.
+\*\*imageistruecolor()\*\*определяет, является ли изображение`image` повнокольоровим.
 
 ### Список параметрів
 
@@ -28,13 +29,13 @@ imageistruecolor(GdImage $image): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `image` повнокольорове, **`false`** в іншому випадку.
+Повертає **`true`**, якщо `image`полноцветное,**`false`** в іншому випадку.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
@@ -66,5 +67,5 @@ if(!imageistruecolor($im))
 
 ### Дивіться також
 
--   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення
--   [imagepalettetotruecolor()](function.imagepalettetotruecolor.md) - Перетворює зображення на основі палітри на справжній колір
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) \- Створення нового повнокольорового зображення
+-   [imagepalettetotruecolor()](function.imagepalettetotruecolor.md) \- Перетворює зображення на основі палітри на справжній колір

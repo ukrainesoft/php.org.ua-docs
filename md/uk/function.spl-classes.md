@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.spl-autoload.md: « splautoload
-  - function.spl-object-hash.md: splobjecthash »
+  - function.spl-autoload.md: « spl\_autoload
+  - function.spl-object-hash.md: spl\_object\_hash »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
-title: splclasses
+title: spl\_classes
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# splclasses
+# spl\_classes
 
 (PHP 5, PHP 7, PHP 8)
 
-splclasses — Повертає доступні класи SPL
+spl\_classes — Повертає доступні класи SPL
 
 ### Опис
 
@@ -30,7 +31,7 @@ spl_classes(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **splclasses()****
+**Пример #1 Пример использования**spl\_classes()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ print_r(spl_classes());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

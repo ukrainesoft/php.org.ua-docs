@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::colorizeImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::colorizeImage
 
@@ -40,13 +41,13 @@ public Imagick::colorizeImage(mixed $colorize, mixed $opacity, bool $legacy = fa
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL imagick 2.1.0 | Для першого параметра можна передавати колір у вигляді рядка та вказувати значення прозорості у другому параметрі. Попередні версії допускали лише об'єкт ImagickPixel. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::colorizeImage()****
+**Пример #1 Пример использования**Imagick::colorizeImage()\*\*\*\*
 
 ```php
 <?php

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-clrbit.md: « gmpclrbit
-  - function.gmp-com.md: gmpcom »
+  - function.gmp-clrbit.md: « gmp\_clrbit
+  - function.gmp-com.md: gmp\_com »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpcmp
+title: gmp\_cmp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpcmp
+# gmp\_cmp
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpcmp — Порівняння чисел
+gmp\_cmp — Порівняння чисел
 
 ### Опис
 
@@ -36,7 +37,7 @@ gmp_cmp(GMP|int|string $num1, GMP|int|string $num2): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpcmp()****
+**Пример #1 Пример использования**gmp\_cmp()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ echo "$cmp1 $cmp2 $cmp3\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1 -1 0

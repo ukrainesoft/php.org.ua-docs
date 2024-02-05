@@ -1,18 +1,19 @@
 ---
 navigation:
-  - yaf-route-map.route.md: '« YafRouteMap::route'
-  - yaf-route-regex.assemble.md: 'YafRouteRegex::assemble »'
+  - yaf-route-map.route.md: '« Yaf\_Route\_Map::route'
+  - yaf-route-regex.assemble.md: 'Yaf\_Route\_Regex::assemble »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafRouteRegex
+title: Клас Yaf\_Route\_Regex
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafRouteRegex
+# Клас Yaf\_Route\_Regex
 
 (Yaf >=1.0.0)
 
 ## Вступ
 
-**YafRouteRegex** - Гнучкий маршрутизатор з усіх вбудованих маршрутизаторів Yaf.
+**Yaf\_Route\_Regex** - Гнучкий маршрутизатор з усіх вбудованих маршрутизаторів Yaf.
 
 ## Огляд класів
 
@@ -51,7 +52,7 @@ title: Клас YafRouteRegex
 
     /* Методы */
     
-   public __construct(    string $match,    array $route,    array $map = ?,    array $verify = ?,    string $reverse = ?)
+   public __construct(    string $match,    array $route,    array $map = ?,    array $verify = ?,    string $reverse = ?)
 
     public assemble(array $info, array $query = ?): ?string
 public route(Yaf_Request_Abstract $request): bool
@@ -67,16 +68,16 @@ abstract public Yaf_Route_Interface::route(Yaf_Request_Abstract $request): bool
 
 ## Властивості
 
-route
+\_route
 
-default
+\_default
 
-maps
+\_maps
 
-verify
+\_verify
 
 ## Зміст
 
--   [YafRouteRegex::assemble](yaf-route-regex.assemble.md) — Сформувати URL-адресу
--   [YafRouteRegex::construct](yaf-route-regex.construct.md) - Конструктор класу YafRouteRegex
--   [YafRouteRegex::route](yaf-route-regex.route.md) - Мета маршруту
+-   [Yaf\_Route\_Regex::assemble](yaf-route-regex.assemble.md)— Сформувати URL-адресу
+-   [Yaf\_Route\_Regex::\_\_construct](yaf-route-regex.construct.md) \- Конструктор класу Yaf\_Route\_Regex
+-   [Yaf\_Route\_Regex::route](yaf-route-regex.route.md) \- Мета маршруту

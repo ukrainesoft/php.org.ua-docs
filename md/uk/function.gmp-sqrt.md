@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-sign.md: « gmpsign
-  - function.gmp-sqrtrem.md: gmpsqrtrem »
+  - function.gmp-sign.md: « gmp\_sign
+  - function.gmp-sqrtrem.md: gmp\_sqrtrem »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpsqrt
+title: gmp\_sqrt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpsqrt
+# gmp\_sqrt
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpsqrt — Обчислення квадратного кореня
+gmp\_sqrt — Обчислення квадратного кореня
 
 ### Опис
 
@@ -32,7 +33,7 @@ gmp_sqrt(GMP|int|string $num): GMP
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpsqrt()****
+**Пример #1 Пример использования**gmp\_sqrt()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ echo gmp_strval($sqrt3) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 3

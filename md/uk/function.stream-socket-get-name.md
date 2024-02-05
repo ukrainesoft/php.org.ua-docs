@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-socket-enable-crypto.md: « streamsocketenablecrypto
-  - function.stream-socket-pair.md: streamsocketpair »
+  - function.stream-socket-enable-crypto.md: « stream\_socket\_enable\_crypto
+  - function.stream-socket-pair.md: stream\_socket\_pair »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamsocketgetname
+title: stream\_socket\_get\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamsocketgetname
+# stream\_socket\_get\_name
 
 (PHP 5, PHP 7, PHP 8)
 
-streamsocketgetname — Отримати назву локального або віддаленого сокету
+stream\_socket\_get\_name — Отримати назву локального або віддаленого сокету
 
 ### Опис
 
@@ -28,12 +29,12 @@ stream_socket_get_name(resource $socket, bool $remote): string|false
 
 `remote`
 
-Якщо встановлено **`true`**, то буде повернуто `удалённое` назву сокету, якщо встановлено **`false`**, то буде повернуто `локальное` назву.
+Если установлено в\*\*`true`**, то буде повернуто `віддалене`название сокета, если установлено в**`false`\*\*, то буде повернуто `локальне`название.
 
 ### Значення, що повертаються
 
-Назва сокету або **`false`** у разі виникнення помилки.
+Название сокета или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [streamsocketaccept()](function.stream-socket-accept.md) - Приймати з'єднання в сокеті, створеному за допомогою функції streamsocketserver
+-   [stream\_socket\_accept()](function.stream-socket-accept.md) \- Приймати з'єднання в сокеті, створеному за допомогою функції stream\_socket\_server

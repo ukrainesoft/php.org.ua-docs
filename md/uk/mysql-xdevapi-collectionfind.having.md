@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionfind.groupby.md: '« CollectionFind::groupBy'
   - mysql-xdevapi-collectionfind.limit.md: 'CollectionFind::limit »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysql\_xdevapi\\CollectionFind
 title: 'CollectionFind::having'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionFind::having
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\CollectionFind::having(string $sort_expr): mysql_xdevapi\Co
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionFind::having()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionFind::having()\*\*\*\*
 
 ```php
 <?php

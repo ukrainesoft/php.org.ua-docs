@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xmlrpc-encode-request.md: « xmlrpcencoderequest
-  - function.xmlrpc-get-type.md: xmlrpcgettype »
+  - function.xmlrpc-encode-request.md: « xmlrpc\_encode\_request
+  - function.xmlrpc-get-type.md: xmlrpc\_get\_type »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcencode
+title: xmlrpc\_encode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcencode
+# xmlrpc\_encode
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcencode — Генерує XML для значення PHP
+xmlrpc\_encode — Генерує XML для значення PHP
 
 ### Опис
 
@@ -24,4 +25,4 @@ xmlrpc_encode(mixed $value): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

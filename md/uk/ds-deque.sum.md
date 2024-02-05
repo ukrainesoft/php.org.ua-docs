@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.sorted.md: '« DsDeque::sorted'
-  - ds-deque.toarray.md: 'ДсDeque::toArray »'
+  - ds-deque.sorted.md: '« Ds\\Deque::sorted'
+  - ds-deque.toarray.md: 'Ds\\Deque::toArray »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::sum'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::sum'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::sum
+# Ds\\Deque::sum
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::sum — Повертає суму всіх значень двосторонньої черги
+Ds\\Deque::sum — Повертає суму всіх значень двосторонньої черги
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Ds\Deque::sum(): int|float
 
 Повертає суму всіх значень двосторонньої черги.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Масиви та об'єкти вважаються нулем.
 
@@ -34,7 +35,7 @@ public Ds\Deque::sum(): int|float
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::sum()** з цілими значеннями**
+**Пример #1 Пример использования**Ds\\Deque::sum()\*\* з цілими значеннями\*\*
 
 ```php
 <?php
@@ -43,13 +44,13 @@ var_dump($deque->sum());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(6)
 ```
 
-**Приклад #2 Приклад використання **ДсDeque::sum()** зі значеннями типу float**
+**Пример #2 Пример использования**Ds\\Deque::sum()\*\* зі значеннями типу float\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_dump($deque->sum());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 float(6.5)

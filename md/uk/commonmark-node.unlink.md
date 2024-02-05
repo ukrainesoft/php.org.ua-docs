@@ -1,16 +1,17 @@
 ---
 navigation:
-  - commonmark-node.replace.md: '« CommonMarkNode::replace'
-  - commonmark-node.accept.md: 'CommonMarkNode::accept »'
+  - commonmark-node.replace.md: '« CommonMark\\Node::replace'
+  - commonmark-node.accept.md: 'CommonMark\\Node::accept »'
   - index.md: PHP Manual
-  - class.commonmark-node.md: CommonMarkNode
-title: 'CommonMarkNode::unlink'
+  - class.commonmark-node.md: CommonMark\\Node
+title: 'CommonMark\\Node::unlink'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkNode::unlink
+# CommonMark\\Node::unlink
 
 (cmark >= 1.0.0)
 
-CommonMarkNode::unlink — Маніпуляції з AST (Абстрактне синтаксичне дерево)
+CommonMark\\Node::unlink — Маніпуляції з AST (Абстрактне синтаксичне дерево)
 
 ### Опис
 
@@ -20,7 +21,7 @@ public CommonMark\Node::unlink(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

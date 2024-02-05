@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-table.key.md: '« SwooleTable::key'
-  - swoole-table.rewind.md: 'SwooleTable::rewind »'
+  - swoole-table.key.md: '« Swoole\\Table::key'
+  - swoole-table.rewind.md: 'Swoole\\Table::rewind »'
   - index.md: PHP Manual
-  - class.swoole-table.md: SwooleTable
-title: 'SwooleTable::next'
+  - class.swoole-table.md: Swoole\\Table
+title: 'Swoole\\Table::next'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTable::next
+# Swoole\\Table::next
 
 (PECL swoole >= 1.9.0)
 
-SwooleTable::next — Переміщує ітератор на наступний рядок
+Swoole\\Table::next — Переміщує ітератор на наступний рядок
 
 ### Опис
 

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdllongline.md: « tradercdllongline
-  - function.trader-cdlmatchinglow.md: tradercdlmatchinglow »
+  - function.trader-cdllongline.md: « trader\_cdllongline
+  - function.trader-cdlmatchinglow.md: trader\_cdlmatchinglow »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlmarubozu
+  - ref.trader.md: Функції Trader
+title: trader\_cdlmarubozu
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlmarubozu
+# trader\_cdlmarubozu
 
 (PECL trader >= 0.2.0)
 
-tradercdlmarubozu — Марубозу.
+trader\_cdlmarubozu — Марубозу.
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlmarubozu(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlmarubozu(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

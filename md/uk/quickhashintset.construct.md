@@ -4,13 +4,14 @@ navigation:
   - quickhashintset.delete.md: 'QuickHashIntSet::delete »'
   - index.md: PHP Manual
   - class.quickhashintset.md: QuickHashIntSet
-title: 'QuickHashIntSet::construct'
+title: 'QuickHashIntSet::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# QuickHashIntSet::construct
+# QuickHashIntSet::\_\_construct
 
 (PECL quickhash >= Unknown)
 
-QuickHashIntSet::construct — Створює новий об'єкт QuickHashIntSet
+QuickHashIntSet::\_\_construct — Створює новий об'єкт QuickHashIntSet
 
 ### Опис
 
@@ -24,11 +25,11 @@ public QuickHashIntSet::__construct(int $size, int $options = ?)
 
 `size`
 
-Кількість списків, які потрібно налаштувати. Число, яке ви передасте, буде автоматично округлено до наступного ступеня 2. Воно також автоматично обмежується від `4` до `4194304`
+Кількість списків, які потрібно налаштувати. Число, яке ви передасте, буде автоматично округлено до наступного ступеня 2. Воно також автоматично обмежується від `4`до`4194304`
 
 `options`
 
-Ви можете передати такі параметри: константу \*\*`QuickHashIntSet::CHECK_FOR_DUPES`\*\*яка гарантує, що до набору не будуть додані дублікати; Константу **`QuickHashIntSet::DO_NOT_USE_ZEND_ALLOC`**, щоб не використовувати внутрішній менеджер пам'яті PHP, а також одну з констант **`QuickHashIntSet::HASHER_NO_HASH`** **`QuickHashIntSet::HASHER_JENKINS1`** або **`QuickHashIntSet::HASHER_JENKINS2`**. Останні три параметри визначають, який алгоритм хешування використати. Усі параметри можна поєднувати за допомогою побітових операторів.
+Ви можете передати такі параметри: константу \*\*`QuickHashIntSet::CHECK_FOR_DUPES`\*\*яка гарантує, що до набору не будуть додані дублікати; Константу **`QuickHashIntSet::DO_NOT_USE_ZEND_ALLOC`**, щоб не використовувати внутрішній менеджер пам'яті PHP, а також одну з констант **`QuickHashIntSet::HASHER_NO_HASH`** **`QuickHashIntSet::HASHER_JENKINS1`**или**`QuickHashIntSet::HASHER_JENKINS2`**. Останні три параметри визначають, який алгоритм хешування використати. Усі параметри можна поєднувати за допомогою побітових операторів.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public QuickHashIntSet::__construct(int $size, int $options = ?)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntSet::construct()****
+**Пример #1 Пример использования**QuickHashIntSet::\_\_construct()\*\*\*\*
 
 ```php
 <?php

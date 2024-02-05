@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-print-error.md: « fannprinterror
-  - function.fann-read-train-from-file.md: fannreadtrainfromfile »
+  - function.fann-print-error.md: « fann\_print\_error
+  - function.fann-read-train-from-file.md: fann\_read\_train\_from\_file »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannrandomizeweights
+  - ref.fann.md: Функції Fann
+title: fann\_randomize\_weights
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannrandomizeweights
+# fann\_randomize\_weights
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannrandomizeweights — Надає кожному з'єднанню випадкову вагу між minweight та maxweight
+fann\_randomize\_weights — Надає кожному з'єднанню випадкову вагу між min\_weight та max\_weight
 
 ### Опис
 
@@ -18,7 +19,7 @@ fannrandomizeweights — Надає кожному з'єднанню випад�
 fann_randomize_weights(resource $ann, float $min_weight, float $max_weight): bool
 ```
 
-Надає кожному з'єднанню випадкову вагу між `min_weight` і `max_weight`
+Надає кожному з'єднанню випадкову вагу між `min_weight`и`max_weight`
 
 З початку випадковий вага в діапазоні від -0,1 до 0,1.
 
@@ -42,4 +43,4 @@ fann_randomize_weights(resource $ann, float $min_weight, float $max_weight): boo
 
 ### Дивіться також
 
--   [fanninitweights()](function.fann-init-weights.md) - Ініціалізує ваги за допомогою алгоритму Widrow + Nguyen
+-   [fann\_init\_weights()](function.fann-init-weights.md) \- Ініціалізує ваги за допомогою алгоритму Widrow + Nguyen

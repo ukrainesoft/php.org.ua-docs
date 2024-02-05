@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setStrokeLineJoin'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setStrokeLineJoin
 
@@ -20,7 +21,7 @@ public ImagickDraw::setStrokeLineJoin(int $linejoin): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Задає форму, яка використовуватиметься в кутах контурів (або інших векторних фігур) під час їх обведення.
 
@@ -28,7 +29,7 @@ public ImagickDraw::setStrokeLineJoin(int $linejoin): bool
 
 `linejoin`
 
-Одна з констант [LINEJOIN](imagick.constants.md#imagick.constants.linejoin) `imagick::LINEJOIN_*`
+Одна из констант[LINEJOIN](imagick.constants.md#imagick.constants.linejoin) `imagick::LINEJOIN_*`
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public ImagickDraw::setStrokeLineJoin(int $linejoin): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setStrokeLineJoin()****
+**Пример #1 Пример использования**ImagickDraw::setStrokeLineJoin()\*\*\*\*
 
 ```php
 <?php

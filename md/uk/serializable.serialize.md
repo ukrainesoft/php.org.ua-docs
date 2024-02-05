@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.serializable.md: Serializable
 title: 'Serializable::serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Serializable::serialize
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 Serializable::serialize — Представляє об'єкт у вигляді рядка
 
@@ -34,5 +35,5 @@ public Serializable::serialize(): ?string
 
 ### Дивіться також
 
--   [sleep()](language.oop5.magic.md#object.sleep)
--   [serialize()](language.oop5.magic.md#object.serialize)
+-   [\_\_sleep()](language.oop5.magic.md#object.sleep)
+-   [\_\_serialize()](language.oop5.magic.md#object.serialize)

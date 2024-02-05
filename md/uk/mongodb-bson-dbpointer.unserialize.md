@@ -1,28 +1,29 @@
 ---
 navigation:
-  - mongodb-bson-dbpointer.tostring.md: '« MongoDBBSONDBPointer::toString'
-  - class.mongodb-bson-int64.md: MongoDBBSONInt64 »
+  - mongodb-bson-dbpointer.tostring.md: '« MongoDB\\BSON\\DBPointer::\_\_function toString() { [native code] }'
+  - class.mongodb-bson-int64.md: MongoDB\\BSON\\Int64 »
   - index.md: PHP Manual
-  - class.mongodb-bson-dbpointer.md: MongoDBBSONDBPointer
-title: 'MongoDBBSONDBPointer::unserialize'
+  - class.mongodb-bson-dbpointer.md: MongoDB\\BSON\\DBPointer
+title: 'MongoDB\\BSON\\DBPointer::unserialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONDBPointer::unserialize
+# MongoDB\\BSON\\DBPointer::unserialize
 
 (mongodb >=1.4.0)
 
-MongoDBBSONDBPointer::unserialize — Десеріалізує DBPointer
+MongoDB\\BSON\\DBPointer::unserialize — Десеріалізує DBPointer
 
 ### Опис
 
 ```methodsynopsis
-final public MongoDB\BSON\DBPointer::unserialize(string $serialized): void
+final public MongoDB\BSON\DBPointer::unserialize(string $data): void
 ```
 
 ### Список параметрів
 
-`serialized`
+`data`
 
-Серіалізований [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.md)
+Серіалізований [MongoDB\\BSON\\DBPointer](class.mongodb-bson-dbpointer.md)
 
 ### Значення, що повертаються
 
@@ -30,10 +31,10 @@ final public MongoDB\BSON\DBPointer::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONDBPointer::serialize()](mongodb-bson-dbpointer.serialize.md) - Серіалізує DBPointer
--   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [MongoDB\\BSON\\DBPointer::serialize()](mongodb-bson-dbpointer.serialize.md) \- Серіалізує DBPointer
+-   [unserialize()](function.unserialize.md) \- Створює PHP-значення зі збереженого уявлення
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

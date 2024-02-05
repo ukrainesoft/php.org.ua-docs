@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-buffer.md: « SwooleBuffer
-  - swoole-buffer.clear.md: 'SwooleBuffer::clear »'
+  - class.swoole-buffer.md: « Swoole\\Buffer
+  - swoole-buffer.clear.md: 'Swoole\\Buffer::clear »'
   - index.md: PHP Manual
-  - class.swoole-buffer.md: SwooleBuffer
-title: 'SwooleBuffer::append'
+  - class.swoole-buffer.md: Swoole\\Buffer
+title: 'Swoole\\Buffer::append'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleBuffer::append
+# Swoole\\Buffer::append
 
 (PECL swoole >= 1.9.0)
 
-SwooleBuffer::append — Додає рядок або двійкові дані до кінця буфера пам'яті і повертає новий розмір виділеної пам'яті
+Swoole\\Buffer::append — Додає рядок або двійкові дані до кінця буфера пам'яті і повертає новий розмір виділеної пам'яті
 
 ### Опис
 

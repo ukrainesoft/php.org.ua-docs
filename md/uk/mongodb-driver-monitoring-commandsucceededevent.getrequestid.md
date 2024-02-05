@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandsucceededevent.getreply.md: '« MongoDBDriverMonitoringCommandSucceededEvent::getReply'
-  - mongodb-driver-monitoring-commandsucceededevent.getserver.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getServer »'
+  - mongodb-driver-monitoring-commandsucceededevent.getreply.md: '« MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getReply'
+  - mongodb-driver-monitoring-commandsucceededevent.getserver.md: 'MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getServer »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
-title: 'MongoDBDriverMonitoringCommandSucceededEvent::getRequestId'
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDB\\Driver\\Monitoring\\CommandSucceededEvent
+title: 'MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getRequestId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringCommandSucceededEvent::getRequestId
+# MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getRequestId
 
 (mongodb >=1.3.0)
 
-MongoDBDriverMonitoringCommandSucceededEvent::getRequestId — Повертає ідентифікатор запиту команди
+MongoDB\\Driver\\Monitoring\\CommandSucceededEvent::getRequestId — Повертає ідентифікатор запиту команди
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverMonitoringCommandSucceededEvent::getRequestId — Повертає 
 final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getRequestId(): string
 ```
 
-Ідентифікатор запиту генерується драйвером і може бути використаний для зв'язування [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.md) з попереднім [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md)
+Ідентифікатор запиту генерується драйвером і може бути використаний для зв'язування [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.md) з попереднім [MongoDB\\Driver\\Monitoring\\CommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md)
 
 ### Список параметрів
 
@@ -30,9 +31,9 @@ final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getRequestId(): st
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverMonitoringCommandStartedEvent::getRequestId()](mongodb-driver-monitoring-commandstartedevent.getrequestid.md) - Повертає ідентифікатор запиту команди
+-   [MongoDB\\Driver\\Monitoring\\CommandStartedEvent::getRequestId()](mongodb-driver-monitoring-commandstartedevent.getrequestid.md) \- Повертає ідентифікатор запиту команди
 -   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

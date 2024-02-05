@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.stop.md: '« SwooleServer::stop'
-  - swoole-server.taskwait.md: 'SwooleServer::taskwait »'
+  - swoole-server.stop.md: '« Swoole\\Server::stop'
+  - swoole-server.taskwait.md: 'Swoole\\Server::taskwait »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::task'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::task'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::task
+# Swoole\\Server::task
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::task — Надсилає дані в робочі процеси задачі
+Swoole\\Server::task — Надсилає дані в робочі процеси задачі
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Server::task(string $data, int $dst_worker_id = ?, callable $callb
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

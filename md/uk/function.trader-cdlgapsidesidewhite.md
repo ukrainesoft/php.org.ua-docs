@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdleveningstar.md: « tradercdleveningstar
-  - function.trader-cdlgravestonedoji.md: tradercdlgravestonedoji »
+  - function.trader-cdleveningstar.md: « trader\_cdleveningstar
+  - function.trader-cdlgravestonedoji.md: trader\_cdlgravestonedoji »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlgapsidesidewhite
+  - ref.trader.md: Функції Trader
+title: trader\_cdlgapsidesidewhite
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlgapsidesidewhite
+# trader\_cdlgapsidesidewhite
 
 (PECL trader >= 0.2.0)
 
-tradercdlgapsidesidewhite - Свічкова модель "Суміжні білі свічки"
+trader\_cdlgapsidesidewhite - Свічкова модель "Суміжні білі свічки"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlgapsidesidewhite(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlgapsidesidewhite(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

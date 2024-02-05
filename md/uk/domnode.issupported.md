@@ -1,10 +1,11 @@
 ---
 navigation:
   - domnode.issamenode.md: '« DOMNode::isSameNode'
-  - domnode.lookupnamespaceuri.md: 'DOMNode::lookupNamespaceUri »'
+  - domnode.lookupnamespaceuri.md: 'DOMNode::lookupNamespaceURI »'
   - index.md: PHP Manual
   - class.domnode.md: DOMNode
 title: 'DOMNode::isSupported'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNode::isSupported
 
@@ -32,8 +33,8 @@ public DOMNode::isSupported(string $feature, string $version): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [DOMImplementation::hasFeature()](domimplementation.hasfeature.md) - Перевірка, чи реалізована певна можливість у реалізації DOM
+-   [DOMImplementation::hasFeature()](domimplementation.hasfeature.md) \- Перевірка, чи реалізована певна можливість у реалізації DOM

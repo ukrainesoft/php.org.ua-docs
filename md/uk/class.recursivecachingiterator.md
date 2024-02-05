@@ -1,57 +1,63 @@
 ---
 navigation:
   - recursivearrayiterator.haschildren.md: '« RecursiveArrayIterator::hasChildren'
-  - recursivecachingiterator.construct.md: 'RecursiveCachingIterator::construct »'
+  - recursivecachingiterator.construct.md: 'RecursiveCachingIterator::\_\_construct »'
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас RecursiveCachingIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас RecursiveCachingIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
+
+...
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class RecursiveCachingIterator
     
 
     
-     
-      class RecursiveCachingIterator
-     
+     extends
+      CachingIterator
+    
 
-     
-      extends
-       CachingIterator
-     
-
-     implements 
-       RecursiveIterator {
+    
+     implements
+      RecursiveIterator {
 
     /* Наследуемые константы */
     
+     public
      const
      int
-      CachingIterator::CALL_TOSTRING = 1;
-const
+      CachingIterator::CALL_TOSTRING;
+public
+     const
      int
-      CachingIterator::CATCH_GET_CHILD = 16;
-const
+      CachingIterator::CATCH_GET_CHILD;
+public
+     const
      int
-      CachingIterator::TOSTRING_USE_KEY = 2;
-const
+      CachingIterator::TOSTRING_USE_KEY;
+public
+     const
      int
-      CachingIterator::TOSTRING_USE_CURRENT = 4;
-const
+      CachingIterator::TOSTRING_USE_CURRENT;
+public
+     const
      int
-      CachingIterator::TOSTRING_USE_INNER = 8;
-const
+      CachingIterator::TOSTRING_USE_INNER;
+public
+     const
      int
-      CachingIterator::FULL_CACHE = 256;
+      CachingIterator::FULL_CACHE;
 
 
     /* Методы */
@@ -67,7 +73,6 @@ public hasChildren(): bool
 public CachingIterator::current(): mixed
 public CachingIterator::getCache(): array
 public CachingIterator::getFlags(): void
-public CachingIterator::getInnerIterator(): Iterator
 public CachingIterator::hasNext(): bool
 public CachingIterator::key(): scalar
 public CachingIterator::next(): void
@@ -92,6 +97,6 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [RecursiveCachingIterator::construct](recursivecachingiterator.construct.md) - Конструктор
--   [RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.md) — Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveCachingIterator
--   [RecursiveCachingIterator::hasChildren](recursivecachingiterator.haschildren.md) — Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
+-   [RecursiveCachingIterator::\_\_construct](recursivecachingiterator.construct.md) \- Конструктор
+-   [RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.md)— Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveCachingIterator
+-   [RecursiveCachingIterator::hasChildren](recursivecachingiterator.haschildren.md)— Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи

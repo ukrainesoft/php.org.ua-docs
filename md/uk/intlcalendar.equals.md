@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::equals'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::equals
 
@@ -42,11 +43,11 @@ intlcal_equals(IntlCalendar $calendar, IntlCalendar $other): bool
 
 Повертає **`true`**, якщо поточний час цього та переданого в [IntlCalendar](class.intlcalendar.md) об'єкта однакове або **`false`** в іншому випадку.
 
-У разі виникнення помилки також повертається **`false`**. Для виявлення умов помилки використовуйте [intlgeterrorcode()](function.intl-get-error-code.md) або настройте викидання [исключений](intl.configuration.md#ini.intl.use-exceptions) в Intl.
+У разі виникнення помилки також повертається \*\*`false`\*\*Для обнаружения условий ошибки используйте[intl\_get\_error\_code()](function.intl-get-error-code.md) або настройте викидання [винятків](intl.configuration.md#ini.intl.use-exceptions)в Intl.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::equals()****
+**Пример #1 Пример использования**IntlCalendar::equals()\*\*\*\*
 
 ```php
 <?php

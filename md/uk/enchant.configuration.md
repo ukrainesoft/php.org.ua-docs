@@ -1,10 +1,11 @@
 ---
 navigation:
-  - enchant.installation.md: « Установка
+  - enchant.installation.md: « Встановлення
   - enchant.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - enchant.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 

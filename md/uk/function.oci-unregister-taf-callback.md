@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-statement-type.md: « ocistatementtype
+  - function.oci-statement-type.md: « oci\_statement\_type
   - class.ocicollection.md: OCICollection »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ociunregistertafcallback
+  - ref.oci8.md: OCI8 Функції
+title: oci\_unregister\_taf\_callback
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ociunregistertafcallback
+# oci\_unregister\_taf\_callback
 
 (PHP 7.0 >= 7.0.23, PHP 8, PHP 7 >= 7.1.9, PHP 8, PECL OCI8 >= 2.1.7)
 
-ociunregistertafcallback — Видалити реєстрацію користувача callback-функції для Oracle Database TAF
+oci\_unregister\_taf\_callback — Видалити реєстрацію користувача callback-функції для Oracle Database TAF
 
 ### Опис
 
@@ -18,7 +19,7 @@ ociunregistertafcallback — Видалити реєстрацію корист�
 oci_unregister_taf_callback(resource $connection): bool
 ```
 
-Видаляє реєстрацію користувача callback-функції, зареєстровану для з'єднання `connection` за допомогою [ociregistertafcallback()](function.oci-register-taf-callback.md). Детальніше читайте [OCI8 Transparent Application Failover (TAF) Support](oci8.taf.md)
+Видаляє реєстрацію користувача callback-функції, зареєстровану для з'єднання `connection` за допомогою [oci\_register\_taf\_callback()](function.oci-register-taf-callback.md)Более подробно читайте[OCI8 Transparent Application Failover (TAF) Support](oci8.taf.md)
 
 ### Список параметрів
 
@@ -28,8 +29,8 @@ oci_unregister_taf_callback(resource $connection): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ociregistertafcallback()](function.oci-register-taf-callback.md) - Реєструє функцію зворотного виклику для Oracle Database TAF
+-   [oci\_register\_taf\_callback()](function.oci-register-taf-callback.md) \- Реєструє функцію зворотного виклику для Oracle Database TAF

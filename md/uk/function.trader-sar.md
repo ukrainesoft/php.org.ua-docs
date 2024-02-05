@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-rsi.md: « traderrsi
-  - function.trader-sarext.md: tradersarext »
+  - function.trader-rsi.md: « trader\_rsi
+  - function.trader-sarext.md: trader\_sarext »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradersar
+  - ref.trader.md: Функції Trader
+title: trader\_sar
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradersar
+# trader\_sar
 
 (PECL trader >= 0.2.0)
 
-tradersar - Параболічний SAR
+trader\_sar - Параболічний SAR
 
 ### Опис
 
 ```methodsynopsis
-trader_sar(    array $high,    array $low,    float $acceleration = ?,    float $maximum = ?): array
+trader_sar(    array $high,    array $low,    float $acceleration = ?,    float $maximum = ?): array
 ```
 
 ### Список параметрів
@@ -30,11 +31,11 @@ trader_sar(    array $high,    array $low,    float $acceleration = ?,    float 
 
 `acceleration`
 
-Коефіцієнт прискорення використовується максимального значення. Допустимий діапазон від 0 до [TRADERREALMAX](trader.constants.md#constant.trader-real-max)
+Коефіцієнт прискорення використовується максимального значення. Допустимий діапазон від 0 до [TRADER\_REAL\_MAX](trader.constants.md#constant.trader-real-max)
 
 `maximum`
 
-Коефіцієнт прискорення Максимальне значення. Допустимий діапазон від 0 до [TRADERREALMAX](trader.constants.md#constant.trader-real-max)
+Коефіцієнт прискорення Максимальне значення. Допустимий діапазон від 0 до [TRADER\_REAL\_MAX](trader.constants.md#constant.trader-real-max)
 
 ### Значення, що повертаються
 

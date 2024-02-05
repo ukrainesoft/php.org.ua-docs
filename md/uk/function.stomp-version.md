@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stomp-connect-error.md: « stompconnecterror
+  - function.stomp-connect-error.md: « stomp\_connect\_error
   - class.stomp.md: Stomp »
   - index.md: PHP Manual
-  - ref.stomp.md: Функции Stomp
-title: stompversion
+  - ref.stomp.md: Опції Stomp
+title: stomp\_version
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# stompversion
+# stomp\_version
 
 (PECL stomp >= 0.1.0)
 
-stompversion — Повертає поточну версію модуля Stomp
+stomp\_version — Повертає поточну версію модуля Stomp
 
 ### Опис
 
@@ -30,7 +31,7 @@ stomp_version(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **stompversion()****
+**Пример #1 Пример использования**stomp\_version()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ var_dump(stomp_version());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(5) "0.2.0"

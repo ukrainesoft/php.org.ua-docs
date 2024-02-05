@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.url.md: Функції URL
 title: urldecode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # urldecode
 
@@ -18,7 +19,7 @@ urldecode — Декодування URL-кодованого рядка
 urldecode(string $string): string
 ```
 
-Декодує будь-які кодовані послідовності `%##` у цьому рядку. Символ "плюс" ('`+`') декодується в символ пробілу.
+Декодує будь-які кодовані послідовності `%##` у цьому рядку. Символ "плюс" ('`+` ') декодується в символ пробілу.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ urldecode(string $string): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **urldecode()****
+**Пример #1 Пример использования**urldecode()\*\*\*\*
 
 ```php
 <?php
@@ -52,11 +53,11 @@ foreach (explode('&', $query) as $chunk) {
 
 **Увага**
 
-Змінні у суперглобальних масивах [GET](reserved.variables.get.md) і [REQUEST](reserved.variables.request.md) вже декодовані. Застосування **urldecode()** до елементів [GET](reserved.variables.get.md) або [REQUEST](reserved.variables.request.md) може призвести до несподіваних та небезпечних результатів.
+Змінні у суперглобальних масивах [$\_GET](reserved.variables.get.md) і [$\_REQUEST](reserved.variables.request.md) вже декодовані. Застосування **urldecode()** до елементів [$\_GET](reserved.variables.get.md) або [$\_REQUEST](reserved.variables.request.md) може призвести до несподіваних та небезпечних результатів.
 
 ### Дивіться також
 
--   [urlencode()](function.urlencode.md) - URL-кодування рядка
--   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
--   [rawurldecode()](function.rawurldecode.md) - Декодування URL-кодованого рядка
--   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+-   [urlencode()](function.urlencode.md) \- URL-кодування рядка
+-   [rawurlencode()](function.rawurlencode.md) \- URL-кодування рядка згідно з RFC 3986
+-   [rawurldecode()](function.rawurldecode.md) \- Декодування URL-кодованого рядка
+-   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

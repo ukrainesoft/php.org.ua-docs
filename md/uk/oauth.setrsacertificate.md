@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::setRSACertificate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::setRSACertificate
 
@@ -22,7 +23,7 @@ public OAuth::setRSACertificate(string $cert): mixed
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,17 +33,17 @@ public OAuth::setRSACertificate(string $cert): mixed
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`** (наприклад, якщо встановлено неправильний сертифікат RSA)
+Повертає **`true`**или**`false`** (наприклад, якщо встановлено неправильний сертифікат RSA)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **OAuth::setRsaCertificate()****
+**Пример #1 Пример использования**OAuth::setRsaCertificate()\*\*\*\*
 
 ```php
 <?php
@@ -54,4 +55,4 @@ $consume->setRSACertificate(file_get_contents('test.pem'));
 
 ### Дивіться також
 
--   [OAuth::setCaPath()](oauth.setcapath.md) - Встановити CA для шляху та інформації
+-   [OAuth::setCaPath()](oauth.setcapath.md) \- Встановити CA для шляху та інформації

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-plus-dm.md: « traderplusдм
-  - function.trader-roc.md: traderroc »
+  - function.trader-plus-dm.md: « trader\_plus\_dm
+  - function.trader-roc.md: trader\_roc »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderppo
+  - ref.trader.md: Функції Trader
+title: trader\_ppo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderppo
+# trader\_ppo
 
 (PECL trader >= 0.2.0)
 
-traderppo — Процентний ціновий осцилятор
+trader\_ppo — Процентний ціновий осцилятор
 
 ### Опис
 
 ```methodsynopsis
-trader_ppo(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    int $mAType = ?): array
+trader_ppo(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    int $mAType = ?): array
 ```
 
 ### Список параметрів
@@ -34,7 +35,7 @@ trader_ppo(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    i
 
 `mAType`
 
-Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
+Тип ковзної середньої. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.md)
 
 ### Значення, що повертаються
 

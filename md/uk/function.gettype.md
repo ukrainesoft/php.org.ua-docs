@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.get-resource-type.md: « getresourcetype
+  - function.get-resource-type.md: « get\_resource\_type
   - function.intval.md: intval »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: gettype
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gettype
 
@@ -32,24 +33,24 @@ gettype(mixed $value): string
 
 -   `"boolean"`
 -   `"integer"`
--   `"double"` (з історичних причин у разі типу float повертається `"double"`, а не просто `"float"`
+-   `"double"`(з історичних причин у разі типу float повертається`"double"`, а не просто`"float"`) .
 -   `"string"`
 -   `"array"`
 -   `"object"`
 -   `"resource"`
--   `"resource (closed)"` з PHP 7.2.0
+-   `"resource (closed)"`з PHP 7.2.0
 -   `"NULL"`
 -   `"unknown type"`
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Для закритих ресурсів тепер повертається `'resource (closed)'`. Раніше для закритих ресурсів поверталося `'unknown type'` |
+| 7.2.0 | Для закритих ресурсів тепер повертається `'resource (closed)'`. . Раніше для закритих ресурсів поверталося `'unknown type'` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gettype()****
+**Пример #1 Пример использования**gettype()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ foreach ($data as $value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 integer
@@ -75,19 +76,19 @@ string
 
 ### Дивіться також
 
--   [getdebugtype()](function.get-debug-type.md) - Повертає ім'я типу змінної у вигляді, що підходить для налагодження
--   [settype()](function.settype.md) - Задає тип змінної
--   [getclass()](function.get-class.md) - Повертає ім'я класу, до якого належить об'єкт
--   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
--   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
--   [ісcallable()](function.is-callable.md) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
--   [ісfloat()](function.is-float.md) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [ісint()](function.is-int.md) - Перевіряє, чи є змінна цілим числом
--   [ісnull()](function.is-null.md) - Перевіряє, чи значення змінної дорівнює null
--   [ісnumeric()](function.is-numeric.md) - Перевіряє, чи є змінна числом чи рядком, що містить число
--   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом
--   [ісresource()](function.is-resource.md) - Перевіряє, чи є змінна ресурсом
--   [ісscalar()](function.is-scalar.md) - Перевіряє, чи є змінна скалярним значенням
--   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком
--   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена
--   [methodexists()](function.method-exists.md) - Перевіряє, чи існує метод у даному класі
+-   [get\_debug\_type()](function.get-debug-type.md) \- Повертає ім'я типу змінної у вигляді, що підходить для налагодження
+-   [settype()](function.settype.md) \- Задає тип змінної
+-   [get\_class()](function.get-class.md) \- Повертає ім'я класу, до якого належить об'єкт
+-   [is\_array()](function.is-array.md) \- Визначає, чи є змінна масив
+-   [is\_bool()](function.is-bool.md) \- Перевіряє, чи є змінна логічне значення
+-   [is\_callable()](function.is-callable.md) \- Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [is\_float()](function.is-float.md) \- Перевіряє, чи є змінна число з плаваючою точкою
+-   [is\_int()](function.is-int.md) \- Перевіряє, чи є змінна ціла кількість
+-   [is\_null()](function.is-null.md) \- Перевіряє, чи значення змінної null дорівнює
+-   [is\_numeric()](function.is-numeric.md) \- Перевіряє, чи містить змінне число чи числове рядок
+-   [is\_object()](function.is-object.md) \- Перевіряє, чи є змінна об'єкт
+-   [is\_resource()](function.is-resource.md) \- Перевіряє, чи є змінна ресурс
+-   [is\_scalar()](function.is-scalar.md) \- Перевіряє, чи є змінна скаляр
+-   [is\_string()](function.is-string.md) \- Перевіряє, чи є тип змінної рядок
+-   [function\_exists()](function.function-exists.md) \- Повертає true, якщо вказана функція визначена
+-   [method\_exists()](function.method-exists.md) \- Перевіряє, чи існує метод у даному класі

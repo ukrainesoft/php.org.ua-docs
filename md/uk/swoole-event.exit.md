@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-event.del.md: '« SwooleEvent::del'
-  - swoole-event.set.md: 'SwooleEvent::set »'
+  - swoole-event.del.md: '« Swoole\\Event::del'
+  - swoole-event.set.md: 'Swoole\\Event::set »'
   - index.md: PHP Manual
-  - class.swoole-event.md: SwooleEvent
-title: 'SwooleEvent::exit'
+  - class.swoole-event.md: Swoole\\Event
+title: 'Swoole\\Event::exit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleEvent::exit
+# Swoole\\Event::exit
 
 (PECL swoole >= 1.9.0)
 
-SwooleEvent::exit — Виходить із циклу подій, доступно лише на стороні клієнта
+Swoole\\Event::exit — Виходить із циклу подій, доступно лише на стороні клієнта
 
 ### Опис
 

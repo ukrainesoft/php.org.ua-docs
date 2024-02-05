@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: symlink
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # symlink
 
@@ -18,7 +19,7 @@ symlink — Створює символічне посилання
 symlink(string $target, string $link): bool
 ```
 
-**symlink()** створює символічне посилання на існуючий файл `target` з ім'ям `link`
+**symlink()** створює символічне посилання на існуючий файл `target`с именем`link`
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ symlink(string $target, string $link): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -54,7 +55,7 @@ echo readlink($link);
 
 ### Дивіться також
 
--   [link()](function.link.md) - Створює жорстке посилання
--   [readlink()](function.readlink.md) - Повертає файл, на який вказує символічне посилання
--   [linkinfo()](function.linkinfo.md) - Повертає інформацію про посилання
--   [unlink()](function.unlink.md) - Видаляє файл
+-   [link()](function.link.md) \- Створює жорстке посилання
+-   [readlink()](function.readlink.md) \- Повертає файл, на який вказує символічне посилання
+-   [linkinfo()](function.linkinfo.md) \- Повертає інформацію про посилання
+-   [unlink()](function.unlink.md) \- Видаляє файл

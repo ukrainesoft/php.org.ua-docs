@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.yaml.md: « Введение
+  - intro.yaml.md: '" Вступ'
   - yaml.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.yaml.md: Yaml
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.number-format.md: « numberformat
-  - function.parse-str.md: parsestr »
+  - function.number-format.md: « number\_format
+  - function.parse-str.md: parse\_str »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: ord
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ord
 
@@ -18,7 +19,7 @@ ord - Конвертує перший байт рядка в число від 0
 ord(string $character): int
 ```
 
-Інтерпретує бінарне значення першого байта рядка `character` як беззнакове ціле.
+Интерпретирует бинарное значение первого байта строки`character` як беззнакове ціле.
 
 Якщо рядок створено в однобайтовому кодуванні, такому як ASCII, ISO-8859 або Windows 1252, результат функції буде еквівалентний позиції символу у відповідній таблиці кодування. У будь-якому випадку, ця функція нічого не знає про кодування і не зможе повернути кодову точку першого символу рядка, закодованого в багатобайтовому кодуванні, такому як UTF-8 або UTF-16.
 
@@ -36,7 +37,7 @@ ord(string $character): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ord()****
+**Пример #1 Пример использования**ord()\*\*\*\*
 
 ```php
 <?php
@@ -60,16 +61,16 @@ for ( $pos=0; $pos < strlen($str); $pos ++ ) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 Байт 0 рядка $str дорівнює 240  
 Байт 1 рядка $str дорівнює 159  
 Байт 2 рядки $str дорівнює 144  
-Байт 3 рядки $str дорівнює 152
+Байт 3 строки $str равен 152
 
 ### Дивіться також
 
--   [chr()](function.chr.md) - Генерує односимвольний рядок за заданим числом
--   [» Таблица ASCII-кодов](https://www.man7.org/linux/man-pages/man7/ascii.7.md)
--   [мбord()](function.mb-ord.md) - Отримує кодову точку символу Unicode
--   [IntlChar::ord()](intlchar.ord.md) - Отримати код символ Unicode
+-   [chr()](function.chr.md) \- Генерує односимвольний рядок за заданим числом
+-   [» Таблиця ASCII-кодів](https://www.man7.org/linux/man-pages/man7/ascii.7.md)
+-   [mb\_ord()](function.mb-ord.md) \- Отримує кодову точку символу Unicode
+-   [IntlChar::ord()](intlchar.ord.md) \- Отримати код символ Unicode

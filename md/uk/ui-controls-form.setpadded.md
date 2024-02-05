@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-form.ispadded.md: '« UIControlsForm::isPadded'
-  - class.ui-controls-grid.md: ОЙControlsGrid »
+  - ui-controls-form.ispadded.md: '« UI\\Controls\\Form::isPadded'
+  - class.ui-controls-grid.md: UI\\Controls\\Grid »
   - index.md: PHP Manual
-  - class.ui-controls-form.md: ОЙControlsForm
-title: 'ОЙControlsForm::setPadded'
+  - class.ui-controls-form.md: UI\\Controls\\Form
+title: 'UI\\Controls\\Form::setPadded'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsForm::setPadded
+# UI\\Controls\\Form::setPadded
 
 (UI 0.9.9)
 
-ОЙControlsForm::setPadded — Встановити заповнення
+UI\\Controls\\Form::setPadded — Встановити заповнення
 
 ### Опис
 

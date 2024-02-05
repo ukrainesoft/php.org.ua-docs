@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::recvData'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanTask::recvData
 
@@ -15,7 +16,7 @@ GearmanTask::recvData — Читання даних роботи або резу
 ### Опис
 
 ```methodsynopsis
-public GearmanTask::recvData(int $data_len): array
+public GearmanTask::recvData(int $data_len): false|array
 ```
 
 **Увага**
@@ -34,4 +35,4 @@ public GearmanTask::recvData(int $data_len): array
 
 ### Дивіться також
 
--   [GearmanTask::sendData()](gearmantask.senddata.md) - Надсилання даних завдання (застарілий метод)
+-   [GearmanTask::sendData()](gearmantask.senddata.md) \- Надсилання даних завдання (застарілий метод)

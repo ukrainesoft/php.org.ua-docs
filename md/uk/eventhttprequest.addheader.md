@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::addHeader'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::addHeader
 
@@ -42,12 +43,12 @@ public
 
 `type`
 
-Одна з констант [`EventHttpRequest::*_HEADER`](class.eventhttprequest.md#eventhttprequest.constants)
+Одна из констант[`EventHttpRequest::*_HEADER`](class.eventhttprequest.md#eventhttprequest.constants)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventHttpRequest::removeHeader()](eventhttprequest.removeheader.md) - Видаляє заголовок HTTP із заголовків запиту
+-   [EventHttpRequest::removeHeader()](eventhttprequest.removeheader.md) \- Видаляє заголовок HTTP із заголовків запиту

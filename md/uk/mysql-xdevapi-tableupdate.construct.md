@@ -3,18 +3,19 @@ navigation:
   - mysql-xdevapi-tableupdate.bind.md: '« TableUpdate::bind'
   - mysql-xdevapi-tableupdate.execute.md: 'TableUpdate::execute »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
-title: 'TableUpdate::construct'
+  - class.mysql-xdevapi-tableupdate.md: mysql\_xdevapi\\TableUpdate
+title: 'TableUpdate::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# TableUpdate::construct
+# TableUpdate::\_\_construct
 
 (No version information available, might only be in Git)
 
-TableUpdate::construct - Конструктор класу TableUpdate
+TableUpdate::\_\_construct - Конструктор класу TableUpdate
 
 ### Опис
 
-private **mysqlxdevapiTableUpdate::construct**
+private**mysql\_xdevapi\\TableUpdate::\_\_construct**()
 
 Ініціюється за допомогою методу update().
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiTableUpdate::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableUpdate::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::\_\_construct()\*\*\*\*
 
 ```php
 <?php

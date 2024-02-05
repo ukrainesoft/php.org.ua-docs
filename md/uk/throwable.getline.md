@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.throwable.md: Throwable
 title: 'Throwable::getLine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Throwable::getLine
 
@@ -30,4 +31,4 @@ public Throwable::getLine(): int
 
 ### Дивіться також
 
--   [Exception::getLine()](exception.getline.md) - Отримує рядок, у якому виник виняток
+-   [Exception::getLine()](exception.getline.md) \- Отримує рядок, у якому виник виняток

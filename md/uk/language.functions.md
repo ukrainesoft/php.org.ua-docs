@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - langref.md: Довідник мови
 title: Функції
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Функції
 
@@ -12,7 +13,7 @@ title: Функції
 
 -   [Функції, визначені користувачем](functions.user-defined.md)
 -   [Аргументи функції](functions.arguments.md)
--   [Возврат значений](functions.returning-values.md)
+-   [Повернення значень](functions.returning-values.md)
 -   [Звернення до функцій через змінні](functions.variable-functions.md)
 -   [Вбудовані функції](functions.internal.md)
 -   [Анонімні функції](functions.anonymous.md)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.apply.md: '« DsSequence::apply'
-  - ds-sequence.contains.md: 'ДсSequence::contains »'
+  - ds-sequence.apply.md: '« Ds\\Sequence::apply'
+  - ds-sequence.contains.md: 'Ds\\Sequence::contains »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::capacity'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::capacity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::capacity
+# Ds\\Sequence::capacity
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::capacity — Повертає поточну місткість
+Ds\\Sequence::capacity — Повертає поточну місткість
 
 ### Опис
 
@@ -30,7 +31,7 @@ abstract public Ds\Sequence::capacity(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::capacity()****
+**Пример #1 Пример использования**Ds\\Sequence::capacity()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ var_dump($sequence->capacity());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(10)

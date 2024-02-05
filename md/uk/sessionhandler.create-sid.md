@@ -4,13 +4,14 @@ navigation:
   - sessionhandler.destroy.md: 'SessionHandler::destroy »'
   - index.md: PHP Manual
   - class.sessionhandler.md: SessionHandler
-title: 'SessionHandler::createsid'
+title: 'SessionHandler::create\_sid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SessionHandler::createsid
+# SessionHandler::create\_sid
 
-(PHP 5> = 5.5.1, PHP 7, PHP 8)
+(PHP 5 >= 5.5.1, PHP 7, PHP 8)
 
-SessionHandler::createsid — Повертає новий ідентифікатор сесії
+SessionHandler::create\_sid — Повертає новий ідентифікатор сесії
 
 ### Опис
 
@@ -30,5 +31,5 @@ public SessionHandler::create_sid(): string
 
 ### Дивіться також
 
--   [sessionid()](function.session-id.md) - Отримує та/або встановлює ідентифікатор поточної сесії
--   [sessioncreateid()](function.session-create-id.md) - створює новий ідентифікатор сесії
+-   [session\_id()](function.session-id.md) \- Отримує та/або встановлює ідентифікатор поточної сесії
+-   [session\_create\_id()](function.session-create-id.md) \- створює новий ідентифікатор сесії

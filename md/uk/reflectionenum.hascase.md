@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionenum.md: ReflectionEnum
 title: 'ReflectionEnum::hasCase'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionEnum::hasCase
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionEnum::hasCase — Перевіряє варіант перерахування
 
@@ -32,7 +33,7 @@ public ReflectionEnum::hasCase(string $name): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionEnum::hasCase()****
+**Пример #1 Пример использования**ReflectionEnum::hasCase()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ var_dump($rEnum->hasCase('Horseshoes'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -60,6 +61,6 @@ bool(false)
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.md)
--   [ReflectionEnum::getCase()](reflectionenum.getcase.md) - Повертає певний варіант перерахування
--   [ReflectionEnum::getCases()](reflectionenum.getcases.md) - Повертає список усіх варіантів перерахування
+-   [Перерахування](language.enumerations.md)
+-   [ReflectionEnum::getCase()](reflectionenum.getcase.md) \- Повертає певний варіант перерахування
+-   [ReflectionEnum::getCases()](reflectionenum.getcases.md) \- Повертає список усіх варіантів перерахування

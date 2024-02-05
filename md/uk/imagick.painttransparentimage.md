@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::paintTransparentImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::paintTransparentImage
 
@@ -14,7 +15,7 @@ Imagick::paintTransparentImage — Змінює будь-який піксель
 
 **Увага**
 
-Функція оголошена *Застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
@@ -48,6 +49,6 @@ public Imagick::paintTransparentImage(mixed $target, float $alpha, float $fuzz):
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL imagick 2.1.0 | Тепер дозволяє використовувати рядок, що представляє колір, як перший параметр. Попередні версії допускали лише об'єкт ImagickPixel. |

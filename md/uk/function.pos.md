@@ -5,13 +5,14 @@ navigation:
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: pos
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # pos
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-pos - Псевдонім [current()](function.current.md)
+pos — Псевдоним[current()](function.current.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [current()](function.current.md)
+Функция — псевдоним функции:[current()](function.current.md)

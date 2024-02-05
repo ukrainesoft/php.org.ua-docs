@@ -1,12 +1,13 @@
 ---
 navigation:
   - compersisthelper.savetostream.md: '« COMPersistHelper::SaveToStream'
-  - ref.com.md: Функции COM »
+  - class.com-safearray-proxy.md: com\_safearray\_proxy »
   - index.md: PHP Manual
   - book.com.md: COM
-title: Клас comexception
+title: Клас com\_exception
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас comexception
+# Клас com\_exception
 
 (PHP 5, PHP 7, PHP 8)
 
@@ -16,51 +17,46 @@ title: Клас comexception
 
 ```classsynopsis
 
-     
+    
+     final
+     class com_exception
     
 
     
-     
-      final
-      class com_exception
-     
-
-     
-      extends
-       Exception
-     
-
-     implements 
-       Throwable {
+     extends
+      Exception
+     {
 
     /* Наследуемые свойства */
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */
     
-   final public Exception::getMessage(): string
+   public Exception::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+    final public Exception::getMessage(): string
 final public Exception::getPrevious(): ?Throwable
 final public Exception::getCode(): int
 final public Exception::getFile(): string
@@ -69,7 +65,6 @@ final public Exception::getTrace(): array
 final public Exception::getTraceAsString(): string
 public Exception::__toString(): string
 private Exception::__clone(): void
-
 
    }
 ```

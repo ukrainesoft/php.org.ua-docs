@@ -1,20 +1,21 @@
 ---
 navigation:
-  - yaf-route-map.assemble.md: '« YafRouteMap::assemble'
-  - yaf-route-map.route.md: 'YafRouteMap::route »'
+  - yaf-route-map.assemble.md: '« Yaf\_Route\_Map::assemble'
+  - yaf-route-map.route.md: 'Yaf\_Route\_Map::route »'
   - index.md: PHP Manual
-  - class.yaf-route-map.md: YafRouteMap
-title: 'YafRouteMap::construct'
+  - class.yaf-route-map.md: Yaf\_Route\_Map
+title: 'Yaf\_Route\_Map::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteMap::construct
+# Yaf\_Route\_Map::\_\_construct
 
 (Yaf >=1.0.0)
 
-YafRouteMap::construct - Призначення construct
+Yaf\_Route\_Map::\_\_construct — Назначение\_\_construct
 
 ### Опис
 
-public **YafRouteMap::construct**(string `$controller_prefer` **`false`**, string `$delimiter` = "")
+public**Yaf\_Route\_Map::\_\_construct**(string`$controller_prefer` **`false`**, string`$delimiter` = "")
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public **YafRouteMap::construct**(string `$controller_prefer` **`false`**, strin
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafRouteMap()****
+**Пример #1 Пример использования**Yaf\_Route\_Map()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ public **YafRouteMap::construct**(string `$controller_prefer` **`false`**, strin
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 /* для http://yourdomain.com/product/foo/bar
@@ -51,7 +52,7 @@ array(
 )
 ```
 
-**Приклад #2 Приклад використання **YafRouteMap()****
+**Пример #2 Пример использования**Yaf\_Route\_Map()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ array(
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 /* для http://yourdomain.com/user/list/_/foo/22
@@ -81,7 +82,7 @@ array(
 )
 ```
 
-**Приклад #3 Приклад використання **YafRouteMap()****
+**Пример #3 Пример использования**Yaf\_Route\_Map()\*\*\*\*
 
 ```php
 <?php
@@ -102,9 +103,9 @@ array(
 
 ### Дивіться також
 
--   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора
--   [YafRouteStatic](class.yaf-route-static.md)
--   [YafRouteSupervar](class.yaf-route-supervar.md)
--   [YafRouteSimple](class.yaf-route-simple.md)
--   [YafRouteRegex](class.yaf-route-regex.md)
--   [YafRouteRewrite](class.yaf-route-rewrite.md)
+-   [Yaf\_Router::addRoute()](yaf-router.addroute.md) \- Додає новий маршрут до маршрутизатора
+-   [Yaf\_Route\_Static](class.yaf-route-static.md)
+-   [Yaf\_Route\_Supervar](class.yaf-route-supervar.md)
+-   [Yaf\_Route\_Simple](class.yaf-route-simple.md)
+-   [Yaf\_Route\_Regex](class.yaf-route-regex.md)
+-   [Yaf\_Route\_Rewrite](class.yaf-route-rewrite.md)

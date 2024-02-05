@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.syncevent.md: SyncEvent
 title: 'SyncEvent::wait'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SyncEvent::wait
 
@@ -28,11 +29,11 @@ public SyncEvent::wait(int $wait = -1): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncEvent::wait()****
+**Пример #1 Пример использования**SyncEvent::wait()\*\*\*\*
 
 ```php
 <?php
@@ -48,4 +49,4 @@ $event->wait();
 
 ### Дивіться також
 
--   [SyncEvent::fire()](syncevent.fire.md) - Запускає/встановлює подію
+-   [SyncEvent::fire()](syncevent.fire.md) \- Запускає/встановлює подію

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - spl.setup.md: « Встановлення та налаштування
-  - spl.installation.md: Установка »
+  - spl.setup.md: '" Встановлення та налаштування'
+  - spl.installation.md: Встановлення »
   - index.md: PHP Manual
   - spl.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 

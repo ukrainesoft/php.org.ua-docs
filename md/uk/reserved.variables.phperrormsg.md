@@ -1,41 +1,42 @@
 ---
 navigation:
-  - reserved.variables.cookies.md: COOKIE
-  - reserved.variables.httpresponseheader.md: $httpresponseheader »
+  - reserved.variables.cookies.md: « $\_COOKIE
+  - reserved.variables.httpresponseheader.md: $http\_response\_header »
   - index.md: PHP Manual
   - reserved.variables.md: Зумовлені змінні
-title: $phperrormsg
+title: $php\_errormsg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# $phperrormsg
+# $php\_errormsg
 
 (PHP 4, PHP 5, PHP 7)
 
-$phperrormsg — Попереднє повідомлення про помилку
+$php\_errormsg — Попереднє повідомлення про помилку
 
 **Увага**
 
-Ця функціональність оголошена *застарілої*, починаючи з PHP 7.2.0 і її украй не рекомендується використовувати.
+Ця функціональність оголошена *застарілої* починаючи з PHP 7.2.0 і її украй не рекомендується використовувати.
 
-Використовуйте функцію [errorgetlast()](function.error-get-last.md)
+Используйте функцию[error\_get\_last()](function.error-get-last.md)
 
 ### Опис
 
-$phperrormsg є змінною, що містить текст останньої помилки, згенерованої PHP. Ця змінна буде доступна тільки в блоці коду, в якому трапилася помилка, і тільки якщо увімкнено конфігураційну опцію [trackerrors](errorfunc.configuration.md#ini.track-errors) (за замовчуванням вимкнено).
+$php\_errormsg є змінною, що містить текст останньої помилки, згенерованої PHP. Ця змінна буде доступна тільки в блоці коду, в якому трапилася помилка, і лише якщо увімкнено конфігураційну опцію [track\_errors](errorfunc.configuration.md#ini.track-errors)(по умолчанию отключена).
 
 **Увага**
 
-Якщо налаштовано користувальницький обробник помилок ([seterrorhandler()](function.set-error-handler.md)), то $phperrormsg встановлюється лише в тому випадку, якщо обробник помилки повертає **`false`**
+Якщо налаштовано користувальницький обробник помилок ([set\_error\_handler()](function.set-error-handler.md)), то $php\_errormsg встановлюється лише в тому випадку, якщо обробник помилки повертає **`false`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Директива [trackerrors](errorfunc.configuration.md#ini.track-errors), через яку стає доступним $phperrormsg була видалена. |
-|  | Директива [trackerrors](errorfunc.configuration.md#ini.track-errors), через яку стає доступним $phperrormsg, була оголошена застарілою. |
+| 8.0.0 | Директива[track\_errors](errorfunc.configuration.md#ini.track-errors), через яку стає доступним $php\_errormsg була видалена. |
+| 7.2.0 | Директива[track\_errors](errorfunc.configuration.md#ini.track-errors), через яку стає доступним $php\_errormsg, була оголошена застарілою. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання $phperrormsg**
+**Приклад #1 Приклад використання $php\_errormsg**
 
 ```php
 <?php
@@ -44,7 +45,7 @@ echo $php_errormsg;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Wrong parameter count for strpos()
@@ -52,4 +53,4 @@ Wrong parameter count for strpos()
 
 ### Дивіться також
 
--   [errorgetlast()](function.error-get-last.md) - Отримання інформації про останню помилку
+-   [error\_get\_last()](function.error-get-last.md) \- Отримання інформації про останню помилку

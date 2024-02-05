@@ -4,17 +4,18 @@ navigation:
   - solrinputdocument.fieldexists.md: 'SolrInputDocument::fieldExists »'
   - index.md: PHP Manual
   - class.solrinputdocument.md: SolrInputDocument
-title: 'SolrInputDocument::destruct'
+title: 'SolrInputDocument::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrInputDocument::destruct
+# SolrInputDocument::\_\_destruct
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrInputDocument::destruct - Деструктор
+SolrInputDocument::\_\_destruct - Деструктор
 
 ### Опис
 
-public **SolrInputDocument::destruct**
+public**SolrInputDocument::\_\_destruct**()
 
 Деструктор
 

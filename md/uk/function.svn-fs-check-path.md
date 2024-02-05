@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-change-node-prop.md: « svnфсchangenodeprop
-  - function.svn-fs-contents-changed.md: svnфсcontentschanged »
+  - function.svn-fs-change-node-prop.md: « svn\_fs\_change\_node\_prop
+  - function.svn-fs-contents-changed.md: svn\_fs\_contents\_changed »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсcheckpath
+title: svn\_fs\_check\_path
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсcheckpath
+# svn\_fs\_check\_path
 
-(PECL svn> = 0.1.0)
+(PECL svn >= 0.1.0)
 
-svnфсcheckpath - Визначає, яка сутність знаходиться в дорозі репозиторію fsroot
+svn\_fs\_check\_path - Визначає, яка сутність знаходиться в дорозі репозиторію fsroot
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_check_path(resource $fsroot, string $path): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Визначає, яка сутність перебуває у шляху репозиторію fsroot.
 

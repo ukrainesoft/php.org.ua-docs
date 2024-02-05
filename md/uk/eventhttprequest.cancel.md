@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::cancel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::cancel
 
@@ -21,7 +22,7 @@ public
 
 Скасує очікування HTTP-запиту.
 
-Скасує поточний запит HTTP. Callback-функція, пов'язана із цим запитом, не виконається, об'єкт запиту звільняється. Якщо запит в даний час обробляється, наприклад безперервний запит, відповідний об'єкт [EventHttpConnection](class.eventhttpconnection.md) буде скинутий.
+Скасує поточний запит HTTP. Callback-функція, пов'язана із цим запитом, не виконається, об'єкт запиту звільняється. Якщо запит на даний час обробляється, наприклад, безперервний запит, відповідний об'єкт [EventHttpConnection](class.eventhttpconnection.md)будет сброшен.
 
 Запит не може бути скасовано, якщо його callback-функція вже виконана. Запит може бути анульований повторно з його фрагментованої callback-функції.
 

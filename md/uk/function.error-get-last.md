@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.error-clear-last.md: « errorclearlast
-  - function.error-log.md: errorlog »
+  - function.error-clear-last.md: « error\_clear\_last
+  - function.error-log.md: error\_log »
   - index.md: PHP Manual
-  - ref.errorfunc.md: Функции обработки ошибок
-title: errorgetlast
+  - ref.errorfunc.md: Функції обробки помилок
+title: error\_get\_last
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# errorgetlast
+# error\_get\_last
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-errorgetlast — Отримання інформації про останню помилку
+error\_get\_last — Отримання інформації про останню помилку
 
 ### Опис
 
@@ -30,7 +31,7 @@ error_get_last(): ?array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **errorgetlast()****
+**Пример #1 Пример использования**error\_get\_last()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ print_r(error_get_last());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -54,8 +55,8 @@ Array
 ### Дивіться також
 
 -   [Константи помилок](errorfunc.constants.md)
--   Змінна [$phperrormsg](reserved.variables.phperrormsg.md)
--   [errorclearlast()](function.error-clear-last.md) - Очистити останню помилку
--   [Директива `display_errors`](errorfunc.configuration.md#ini.display-errors)
--   [Директива `html_errors`](errorfunc.configuration.md#ini.html-errors)
--   [Директива `xmlrpc_errors`](errorfunc.configuration.md#ini.xmlrpc-errors)
+-   Переменная[$php\_errormsg](reserved.variables.phperrormsg.md)
+-   [error\_clear\_last()](function.error-clear-last.md) \- Очистити останню помилку
+-   [Директива`display_errors`](errorfunc.configuration.md#ini.display-errors)
+-   [Директива`html_errors`](errorfunc.configuration.md#ini.md-errors)
+-   [Директива`xmlrpc_errors`](errorfunc.configuration.md#ini.xmlrpc-errors)

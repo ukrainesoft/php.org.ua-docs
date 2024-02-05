@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collection.count.md: '« Collection::count'
   - mysql-xdevapi-collection.dropindex.md: 'Collection::dropIndex »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
 title: 'Collection::createIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collection::createIndex
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Collection::createIndex(string $index_name, string $index_d
 
 `index_desc_json`
 
-Визначення індексу для створення. Містить масив об'єктів IndexField, і кожен об'єкт описує один елемент документа для додавання індексу, а також необов'язковий рядок для типу індексу, який може бути INDEX (за замовчуванням) або SPATIAL.
+Визначення індексу для створення. Містить масив об'єктів IndexField, і кожен об'єкт описує один елемент документа для додавання до індексу, а також необов'язковий рядок для типу індексу, який може бути INDEX (за замовчуванням) або SPATIAL.
 
 Один опис IndexField складається з наступних полів:
 
@@ -38,11 +39,11 @@ public mysql_xdevapi\Collection::createIndex(string $index_name, string $index_d
     
 -   `type`: рядок, один із підтримуваних типів стовпців SQL для зіставлення поля. Для числових типів можна додати необов'язкове ключове слово UNSIGNED. Для типу TEXT може бути додана довжина для індексації.
     
--   `required`: булеве, (необов'язкове) true, якщо поле має бути обов'язковим у документі. За замовчуванням використовується значення **`false`**, за винятком типу `GEOJSON`, де за замовчуванням використовується значення **`true`**
+-   `required`: логічне значення (необов'язкове) true, якщо поле має бути обов'язковим у документі. За замовчуванням використовується значення\*\*`false`**, за исключением типа`GEOJSON`, де за замовчуванням використовується значення**`true`\*\*
     
--   `options`: ціле число, (необов'язкове) прапори спеціальних опцій для використання при декодуванні даних `GEOJSON`
+-   `options`: ціле число, (необов'язкове) прапори спеціальних опцій для використання при декодуванні даних`GEOJSON`
     
--   `srid`: ціле число (необов'язкове) значення srid для використання при декодуванні даних `GEOJSON`
+-   `srid`: ціле число (необов'язкове) значення srid для використання при декодуванні даних`GEOJSON`
     
 
 Помилково включати інші поля, не описані вище, до документів IndexDefinition або IndexField.
@@ -51,7 +52,7 @@ public mysql_xdevapi\Collection::createIndex(string $index_name, string $index_d
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::createIndex()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::createIndex()\*\*\*\*
 
 ```php
 <?php

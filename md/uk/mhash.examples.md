@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mhash.constants.md: « Обумовлені константи
-  - ref.mhash.md: Функции Mhash »
+  - mhash.constants.md: « Зумовлені константи
+  - ref.mhash.md: Функції Mhash »
   - index.md: PHP Manual
   - book.mhash.md: Mhash
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -20,7 +21,7 @@ echo "Хеш HMAC - " . bin2hex($hash) . "<br />\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Хеш MD5 - d03cb659cbf9192dcd066272249f8412

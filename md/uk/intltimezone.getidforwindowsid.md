@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getIDForWindowsID'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlTimeZone::getIDForWindowsID
 
-# intltzgetідforwindowsід
+# intltz\_get\_id\_for\_windows\_id
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
-IntlTimeZone::getIDForWindowsID -- intltzgetідforwindowsid — Перетворити часовий пояс для Windows на системний часовий пояс
+IntlTimeZone::getIDForWindowsID -- intltz\_get\_id\_for\_windows\_id — Перетворити часовий пояс для Windows на системний часовий пояс
 
 ### Опис
 
@@ -28,13 +29,13 @@ public static IntlTimeZone::getIDForWindowsID(string $timezoneId, ?string $regio
 intltz_get_id_for_windows_id(string $timezoneId, ?string $region = null): string|false
 ```
 
-Переводить часовий пояс для Windows (наприклад, "Pacific Standard Time") у системний часовий пояс (наприклад, "America/Los"Angeles»).
+Переводить часовий пояс для Windows (наприклад, "Pacific Standard Time") у системний часовий пояс (наприклад, "America/Los"\_Angeles»).
 
 > **Зауваження**: Ця функція потребує ICU версії ≥ 52.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -44,14 +45,14 @@ intltz_get_id_for_windows_id(string $timezoneId, ?string $region = null): string
 
 ### Значення, що повертаються
 
-Повертає системний часовий пояс або **`false`** у разі виникнення помилки.
+Повертає системний часовий пояс або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `region` тепер припускає значення **`null`** |
+| 8.0.0 | Параметр`region` тепер припускає значення **`null`** |
 
 ### Дивіться також
 
--   [IntlTimeZone::getWindowsID()](intltimezone.getwindowsid.md) - Перетворити системний часовий пояс на часовий пояс для Windows
+-   [IntlTimeZone::getWindowsID()](intltimezone.getwindowsid.md) \- Перетворити системний часовий пояс на часовий пояс для Windows

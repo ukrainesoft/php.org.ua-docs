@@ -1,18 +1,19 @@
 ---
 navigation:
-  - class.mysqli-driver.md: « mysqlidriver
-  - mysqli-driver.embedded-server-start.md: 'mysqlidriver::embeddedserverstart »'
+  - class.mysqli-driver.md: « mysqli\_driver
+  - mysqli-driver.embedded-server-start.md: 'mysqli\_driver::embedded\_server\_start »'
   - index.md: PHP Manual
-  - class.mysqli-driver.md: mysqlidriver
-title: 'mysqlidriver::embeddedserverend'
+  - class.mysqli-driver.md: mysqli\_driver
+title: 'mysqli\_driver::embedded\_server\_end'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlidriver::embeddedserverend
+# mysqli\_driver::embedded\_server\_end
 
-# mysqliembeddedserverend
+# mysqli\_embedded\_server\_end
 
-(PHP 5> = 5.1.0, PHP 7 <7.4.0)
+(PHP 5 >= 5.1.0, PHP 7 < 7.4.0)
 
-mysqlidriver::embeddedserverend - mysqliembeddedserverend — Зупиняє вбудований сервер
+mysqli\_driver::embedded\_server\_end -- mysqli\_embedded\_server\_end — Зупиняє вбудований сервер
 
 **Увага**
 
@@ -34,4 +35,4 @@ mysqli_embedded_server_end(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

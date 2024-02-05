@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ini-alter.md: « inialter
-  - function.ini-get.md: iniget »
+  - function.ini-alter.md: « ini\_alter
+  - function.ini-get.md: ini\_get »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: inigetall
+title: ini\_get\_all
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# inigetall
+# ini\_get\_all
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-inigetall — Отримує всі налаштування конфігурації
+ini\_get\_all — Отримує всі налаштування конфігурації
 
 ### Опис
 
@@ -24,7 +25,7 @@ ini_get_all(?string $extension = null, bool $details = true): array|false
 
 `extension`
 
-Необов'язкове ім'я модуля. Якщо не **`null`** і не рядок (string) `core`, функція повертає лише параметри.
+Необов'язкове ім'я модуля. Якщо не \*\*`null`\*\*и не строка (string)`core`, функція повертає лише параметри.
 
 `details`
 
@@ -34,19 +35,19 @@ ini_get_all(?string $extension = null, bool $details = true): array|false
 
 Повертає асоціативний масив з іменами директив як ключі. Повертає **`false`** і викликає помилку рівня **`E_WARNING`**, якщо `extension` не існує.
 
-Якщо `details` дорівнює **`true`** (за замовчуванням), у масиві будуть утримуватися `global_value` (значення налаштування php.ini), `local_value` (наприклад, задане за допомогою [iniset()](function.ini-set.md) або .htaccess) та `access` (рівень доступу).
+Якщо `details`равен\*\*`true`\*\*(по умолчанию), в массиве будут содержаться`global_value`(значение настройки php.ini),`local_value`(например, заданное с помощью[ini\_set()](function.ini-set.md)или .htaccess) и`access`(уровень доступа).
 
-Якщо `details` дорівнює **`false`**, значенням масиву буде відповідне поточне налаштування.
+Якщо `details`равен\*\*`false`\*\*, значенням масиву буде відповідне поточне налаштування.
 
-Дивіться відповідний [раздел руководства](configuration.changes.modes.md), в якому наводиться опис рівнів доступу
+Смотрите соответствующий[розділ керівництва](configuration.changes.modes.md), в якому наводиться опис рівнів доступу
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Директива може мати кілька рівнів доступу, у цьому випадку `access` міститиме відповідну бітову маску.
 
 ### Приклади
 
-**Приклад #1 Приклади використання **inigetall()****
+**Приклад #1 Приклади використання **ini\_get\_all()****
 
 ```php
 <?php
@@ -55,7 +56,7 @@ print_r(ini_get_all());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -96,7 +97,7 @@ Array
 )
 ```
 
-**Приклад #2 Відключення `details`**
+**Пример #2 Отключение`details`**
 
 ```php
 <?php
@@ -105,7 +106,7 @@ print_r(ini_get_all(null, false)); // Добавлено в PHP 5.3.0
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -123,16 +124,16 @@ Array
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **inigetall()** ігнорує опції типу "масив", такі як pdo.dsn.
+> **ini\_get\_all()** ігнорує опції типу "масив", такі як pdo.dsn.\*
 
 ### Дивіться також
 
 -   [Як змінити налаштування конфігурації](configuration.changes.md)
--   [iniget()](function.ini-get.md) - Отримує значення налаштування конфігурації
--   [inirestore()](function.ini-restore.md) - Відновлює налаштування конфігурації.
--   [iniset()](function.ini-set.md) - Встановлює налаштування конфігурації
--   [getloadedextensions()](function.get-loaded-extensions.md) - Повертає масив імен усіх скомпілованих та завантажених модулів
--   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
--   [ReflectionExtension::getINIEntries()](reflectionextension.getinientries.md) - Отримання ini-налаштувань модуля
+-   [ini\_get()](function.ini-get.md) \- Отримує значення налаштування конфігурації
+-   [ini\_restore()](function.ini-restore.md) \- Відновлює налаштування конфігурації.
+-   [ini\_set()](function.ini-set.md) \- Встановлює налаштування конфігурації
+-   [get\_loaded\_extensions()](function.get-loaded-extensions.md) \- Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [phpinfo()](function.phpinfo.md) \- Виводить інформацію про поточну конфігурацію PHP
+-   [ReflectionExtension::getINIEntries()](reflectionextension.getinientries.md) \- Отримання ini-налаштувань модуля

@@ -4,17 +4,18 @@ navigation:
   - gmagickpixel.getcolor.md: 'GmagickPixel::getcolor »'
   - index.md: PHP Manual
   - class.gmagickpixel.md: GmagickPixel
-title: 'GmagickPixel::construct'
+title: 'GmagickPixel::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GmagickPixel::construct
+# GmagickPixel::\_\_construct
 
 (PECL gmagick >= Unknown)
 
-GmagickPixel::construct - Конструктора класу GmagickPixel
+GmagickPixel::\_\_construct - Конструктора класу GmagickPixel
 
 ### Опис
 
-public **GmagickPixel::construct**(string `$color`
+public**GmagickPixel::\_\_construct**(string`$color`
 
 Створює новий об'єкт класу [GmagickPixel](class.gmagickpixel.md). Якщо вказано колір, об'єкт буде ініціалізований цим кольором.
 

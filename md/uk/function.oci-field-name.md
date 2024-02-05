@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-field-is-null.md: « ocifieldісnull
-  - function.oci-field-precision.md: ocifieldprecision »
+  - function.oci-field-is-null.md: « oci\_field\_is\_null
+  - function.oci-field-precision.md: oci\_field\_precision »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocifieldname
+  - ref.oci8.md: OCI8 Функції
+title: oci\_field\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocifieldname
+# oci\_field\_name
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocifieldname — Повертає ім'я поля з результату запиту
+oci\_field\_name — Повертає ім'я поля з результату запиту
 
 ### Опис
 
@@ -18,7 +19,7 @@ ocifieldname — Повертає ім'я поля з результату за�
 oci_field_name(resource $statement, string|int $column): string|false
 ```
 
-Повертає ім'я поля `column` результату запиту.
+Повертає ім'я поля `column`из результата запроса.
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ oci_field_name(resource $statement, string|int $column): string|false
 
 ### Значення, що повертаються
 
-Повертає ім'я у вигляді рядка або **`false`** у разі виникнення помилки.
+Повертає ім'я у вигляді рядка або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ocifieldname()****
+**Пример #1 Пример использования**oci\_field\_name()\*\*\*\*
 
 ```php
 <?php
@@ -88,14 +89,8 @@ oci_close($conn);
 ?>
 ```
 
-### Примітки
-
-> **Зауваження**
-> 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnname()](function.ocicolumnname.md). У PHP 5.0.0 і вище [ocicolumnname()](function.ocicolumnname.md) є аліасом \*\*ocifieldname()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
-
 ### Дивіться також
 
--   [ocinumfields()](function.oci-num-fields.md) - Повертає кількість полів у результаті запиту
--   [ocifieldtype()](function.oci-field-type.md) - Повертає ім'я типу поля
--   [ocifieldsize()](function.oci-field-size.md) - Повертає розмір поля
+-   [oci\_num\_fields()](function.oci-num-fields.md) \- Повертає кількість полів у результаті запиту
+-   [oci\_field\_type()](function.oci-field-type.md) \- Повертає ім'я типу поля
+-   [oci\_field\_size()](function.oci-field-size.md) \- Повертає розмір поля

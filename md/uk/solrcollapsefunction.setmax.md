@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrcollapsefunction.md: SolrCollapseFunction
 title: 'SolrCollapseFunction::setMax'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrCollapseFunction::setMax
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrCollapseFunction::setMax — Вибір заголовків групи за максимальним значенням числового поля або запитом функції
 
@@ -30,7 +31,7 @@ public SolrCollapseFunction::setMax(string $max): SolrCollapseFunction
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrCollapseFunction::setMax()****
+**Пример #1 Пример использования**SolrCollapseFunction::setMax()\*\*\*\*
 
 ```php
 <?php

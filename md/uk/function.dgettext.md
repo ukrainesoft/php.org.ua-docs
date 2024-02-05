@@ -3,8 +3,9 @@ navigation:
   - function.dcngettext.md: « dcngettext
   - function.dngettext.md: dngettext »
   - index.md: PHP Manual
-  - ref.gettext.md: Функции gettext
+  - ref.gettext.md: Функції gettext
 title: dgettext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # dgettext
 
@@ -18,7 +19,7 @@ dgettext — Перевизначення поточного домену для
 dgettext(string $domain, string $message): string
 ```
 
-Функція **dgettext()** дозволяє перевизначити поточний домен `domain` для одного повідомлення.
+Функция**dgettext()** дозволяє перевизначити поточний домен `domain` для одного повідомлення.
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ dgettext(string $domain, string $message): string
 
 ### Дивіться також
 
--   [gettext()](function.gettext.md) - Шукає повідомлення у поточному домені
+-   [gettext()](function.gettext.md) \- Шукає повідомлення у поточному домені

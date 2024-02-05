@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::setBasePath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::setBasePath
 
@@ -32,7 +33,7 @@ public static SeasLog::setBasePath(string $base_path): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::setBasePath()****
+**Пример #1 Пример использования**SeasLog::setBasePath()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ public static SeasLog::setBasePath(string $base_path): bool
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 ...

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagelayereffect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagelayereffect
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 imagelayereffect — Встановлення прапора альфа пару для використання ефектів накладання зображень
 
@@ -32,11 +33,11 @@ imagelayereffect(GdImage $image, int $effect): bool
 
 **`IMG_EFFECT_REPLACE`**
 
-Використовувати заміну пікселів (аналогічно передачі **`true`** в [imagealphablending()](function.imagealphablending.md)
+Використовувати заміну пікселів (аналогічно передачі \*\*`true`\*\*в[imagealphablending()](function.imagealphablending.md)) .
 
 **`IMG_EFFECT_ALPHABLEND`**
 
-Використовувати звичайне сполучення кольорів (аналогічно передачі **`false`** в [imagealphablending()](function.imagealphablending.md)
+Використовувати звичайне сполучення кольорів (аналогічно передачі \*\*`false`\*\*в[imagealphablending()](function.imagealphablending.md)) .
 
 **`IMG_EFFECT_NORMAL`**
 
@@ -44,7 +45,7 @@ imagelayereffect(GdImage $image, int $effect): bool
 
 **`IMG_EFFECT_OVERLAY`**
 
-В результаті накладання картинки з цим ефектом чорні та білі пікселі фону зображення залишаться так само чорними та білими, а сірі змінять колір на колір пікселя зображення, що накладається.
+В результаті накладання картинки з цим ефектом чорні і білі пікселі фону зображення залишаться так само чорними і білими, а сірі змінить колір на колір пікселя зображення, що накладається.
 
 **`IMG_EFFECT_MULTIPLY`**
 
@@ -52,18 +53,18 @@ imagelayereffect(GdImage $image, int $effect): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
-|  | Додана **`IMG_EFFECT_MULTIPLY`** (вимагає системну бібліотеку libgd >= 2.1.1 або libgd, що йде в комплекті з PHP). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
+| 7.2.0 | Додана **`IMG_EFFECT_MULTIPLY`** (вимагає системну бібліотеку libgd >= 2.1.1 або libgd, що йде в комплекті з PHP). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagelayereffect()****
+**Пример #1 Пример использования**imagelayereffect()\*\*\*\*
 
 ```php
 <?php
@@ -89,6 +90,6 @@ imagedestroy($im);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: imagelayereffect()](images/21009b70229598c6a80eef8b45bf282b-imagelayereffect.png)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-current-user.md: « getcurrentuser
-  - function.get-extension-funcs.md: getextensionfuncs »
+  - function.get-current-user.md: « get\_current\_user
+  - function.get-extension-funcs.md: get\_extension\_funcs »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: getdefinedconstants
+title: get\_defined\_constants
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getdefinedconstants
+# get\_defined\_constants
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-getdefinedconstants - Повертає асоціативний масив з іменами всіх констант та їх значень
+get\_defined\_constants - Повертає асоціативний масив з іменами всіх констант та їх значень
 
 ### Опис
 
@@ -33,7 +34,7 @@ print_r(get_defined_constants(true));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -76,11 +77,11 @@ Array
 
 ### Значення, що повертаються
 
-Повертає масив виду "ім'я константи" => "значення константи", з можливістю згрупувати його на ім'я модуля, що зареєстрував константу.
+Повертає масив виду "ім'я константи" => "значення константи", з можливістю згрупувати його на ім'я модуля, який зареєстрував константу.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getdefinedconstants()****
+**Пример #1 Пример использования**get\_defined\_constants()\*\*\*\*
 
 ```php
 <?php
@@ -88,7 +89,7 @@ print_r(get_defined_constants());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -111,8 +112,8 @@ Array
 
 ### Дивіться також
 
--   [defined()](function.defined.md) - Перевіряє існування вказаної іменованої константи
--   [constant()](function.constant.md) - Повертає значення константи
--   [getloadedextensions()](function.get-loaded-extensions.md) - Повертає масив імен усіх скомпілованих та завантажених модулів
--   [getdefinedfunctions()](function.get-defined-functions.md) - Повертає масив усіх певних функцій
--   [getdefinedvars()](function.get-defined-vars.md) - Повертає масив усіх певних змінних
+-   [defined()](function.defined.md) \- Перевіряє існування вказаної іменованої константи
+-   [constant()](function.constant.md) \- Повертає значення константи
+-   [get\_loaded\_extensions()](function.get-loaded-extensions.md) \- Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [get\_defined\_functions()](function.get-defined-functions.md) \- Повертає масив усіх певних функцій
+-   [get\_defined\_vars()](function.get-defined-vars.md) \- Повертає масив усіх певних змінних

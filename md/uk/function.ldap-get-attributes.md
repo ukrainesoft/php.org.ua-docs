@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-free-result.md: « ldapfreeresult
-  - function.ldap-get-dn.md: ldapgetdn »
+  - function.ldap-free-result.md: « ldap\_free\_result
+  - function.ldap-get-dn.md: ldap\_get\_dn »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapgetattributes
+title: ldap\_get\_attributes
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapgetattributes
+# ldap\_get\_attributes
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldapgetattributes — Отримує атрибути із запису в результатах пошуку
+ldap\_get\_attributes — Отримує атрибути із запису в результатах пошуку
 
 ### Опис
 
@@ -36,22 +37,22 @@ return_value["attribute"][i] = (i+1)-ое значение атрибута
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `entry`
 
-Екземпляр [LDAPResultEntry](class.ldap-result-entry.md)
+Екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.md)
 
 ### Значення, що повертаються
 
-Повертає повну інформацію запису в багатовимірний масив у разі успішного виконання та **`false`** у разі виникнення помилки.
+Повертає повну інформацію запису багатовимірний масив.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.1.0 | Параметр`entry` тепер чекає екземпляр [LDAP\\ResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap result entry` |
 
 ### Приклади
 
@@ -78,5 +79,5 @@ for ($i=0; $i < $attrs["count"]; $i++) {
 
 ### Дивіться також
 
--   [ldapfirstattribute()](function.ldap-first-attribute.md) - Повернути перший атрибут
--   [ldapnextattribute()](function.ldap-next-attribute.md) - Отримати наступний атрибут із результату
+-   [ldap\_first\_attribute()](function.ldap-first-attribute.md) \- Повернути перший атрибут
+-   [ldap\_next\_attribute()](function.ldap-next-attribute.md) \- Отримати наступний атрибут із результату

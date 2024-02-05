@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.rrd-tune.md: « rrdtune
-  - function.rrd-version.md: rrdversion »
+  - function.rrd-tune.md: « rrd\_tune
+  - function.rrd-version.md: rrd\_version »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
-title: rrdupdate
+title: rrd\_update
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# rrdupdate
+# rrd\_update
 
 (PECL rrd >= 0.9.0)
 
-rrdupdate — Оновлює базу даних RRD
+rrd\_update — Оновлює базу даних RRD
 
 ### Опис
 
@@ -32,4 +33,4 @@ rrd_update(string $filename, array $options): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

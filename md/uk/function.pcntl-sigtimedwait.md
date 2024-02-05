@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.pcntl-sigprocmask.md: pcntlsigprocmask
-  - function.pcntl-sigwaitinfo.md: pcntlsigwaitinfo »
+  - function.pcntl-sigprocmask.md: « pcntl\_sigprocmask
+  - function.pcntl-sigwaitinfo.md: pcntl\_sigwaitinfo »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
-title: pcntlsigtimedwait
+title: pcntl\_sigtimedwait
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pcntlsigtimedwait
+# pcntl\_sigtimedwait
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-pcntlsigtimedwait — Очікує сигнали протягом заданого часу
+pcntl\_sigtimedwait — Очікує сигнали протягом заданого часу
 
 ### Опис
 
 ```methodsynopsis
-pcntl_sigtimedwait(    array $signals,    array &$info = [],    int $seconds = 0,    int $nanoseconds = 0): int|false
+pcntl_sigtimedwait(    array $signals,    array &$info = [],    int $seconds = 0,    int $nanoseconds = 0): int|false
 ```
 
-Функція **pcntlsigtimedwait()** поводиться так само як і функція [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.md) за винятком того, що приймає два додаткові аргументи, `seconds` і `nanoseconds`, які встановлюють верхню межу часу, що скрипт може простоювати.
+Функция**pcntl\_sigtimedwait()** поводиться так само як і функція [pcntl\_sigwaitinfo()](function.pcntl-sigwaitinfo.md) за винятком того, що приймає два додаткові аргументи, `seconds`и`nanoseconds`, які встановлюють верхню межу часу, що скрипт може простоювати.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ pcntl_sigtimedwait(    array $signals,    array &$info = [],    int $seconds = 0
 
 `info`
 
-`info` містить інформацію про сигнал. Дивіться функцію [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.md)
+`info`содержит информацию о сигнале. Смотрите функцию[pcntl\_sigwaitinfo()](function.pcntl-sigwaitinfo.md)
 
 `seconds`
 
@@ -40,9 +41,9 @@ pcntl_sigtimedwait(    array $signals,    array &$info = [],    int $seconds = 0
 
 ### Значення, що повертаються
 
-У разі успішного виконання **pcntlsigtimedwait()** повертає номер сигналу або **`false`** у разі виникнення помилки.
+У разі успішного виконання **pcntl\_sigtimedwait()** повертає номер сигналу або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [pcntlsigprocmask()](function.pcntl-sigprocmask.md) - Задає та витягує список сигналів, що блокуються.
--   [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.md) - Очікування сигналів
+-   [pcntl\_sigprocmask()](function.pcntl-sigprocmask.md) \- Задає та витягує список сигналів, що блокуються.
+-   [pcntl\_sigwaitinfo()](function.pcntl-sigwaitinfo.md) \- Очікування сигналів

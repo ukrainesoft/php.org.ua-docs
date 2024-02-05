@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.xmlreader.md: XMLReader
 title: 'XMLReader::XML'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLReader::XML
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 XMLReader::XML — Встановити дані, що містять XML для аналізу
 
@@ -28,15 +29,15 @@ public static XMLReader::XML(string $source, ?string $encoding = null, int $flag
 
 `encoding`
 
-Кодування документа або **`null`**
+Кодировка документа или\*\*`null`\*\*
 
 `flags`
 
-Бітова маска констант [LIBXML](libxml.constants.md)
+Битовая маска констант[LIBXML\_\*](libxml.constants.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. у разі статичного виклику або повертається [XMLReader](class.xmlreader.md) або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. у разі статичного виклику або повертається [XMLReader](class.xmlreader.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -44,11 +45,11 @@ public static XMLReader::XML(string $source, ?string $encoding = null, int $flag
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | **XMLReader::XML()** тепер оголошено як статичний метод, але все ще може бути викликаний в екземплярі [XMLReader](class.xmlreader.md) |
+| 8.0.0 | **XMLReader::XML()** тепер оголошено як статичний метод, але все ще може бути викликаний в екземплярі [XMLReader](class.xmlreader.md) |
 
 ### Дивіться також
 
--   [XMLReader::open()](xmlreader.open.md) - Встановити URI, що містить XML-документ для аналізу
--   [XMLReader::close()](xmlreader.close.md) - Закрити введення XMLReader
+-   [XMLReader::open()](xmlreader.open.md) \- Встановити URI, що містить XML-документ для аналізу
+-   [XMLReader::close()](xmlreader.close.md) \- Закрити введення XMLReader

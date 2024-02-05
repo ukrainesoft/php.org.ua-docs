@@ -1,10 +1,11 @@
 ---
 navigation:
-  - domelement.getattribute.md: '« DOMElement::getAttribute'
+  - domelement.getattributenames.md: '« DOMElement::getAttributeNames'
   - domelement.getattributenodens.md: 'DOMElement::getAttributeNodeNS »'
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
 title: 'DOMElement::getAttributeNode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMElement::getAttributeNode
 
@@ -28,10 +29,10 @@ public DOMElement::getAttributeNode(string $qualifiedName): DOMAttr|DOMNameSpace
 
 ### Значення, що повертаються
 
-Вузол атрибуту. Зверніть увагу, що для об'яв просторів імен XML (атрибути `xmlns` і `xmlns:*`) повертається екземпляр **DOMNameSpaceNode**, а не [DOMAttr](class.domattr.md)
+Вузол атрибуту. Зверніть увагу, що для оголошень просторів імен XML (атрибути `xmlns`и`xmlns:*`) повертається екземпляр [DOMNameSpaceNode](class.domnamespacenode.md), а не[DOMAttr](class.domattr.md)
 
 ### Дивіться також
 
--   [DOMElement::hasAttribute()](domelement.hasattribute.md) - Перевіряє, чи існує атрибут
--   [DOMElement::setAttributeNode()](domelement.setattributenode.md) - Додає новий вузол атрибуту елемент
--   [DOMElement::removeAttributeNode()](domelement.removeattributenode.md) - Видаляє атрибут
+-   [DOMElement::hasAttribute()](domelement.hasattribute.md) \- Перевіряє, чи існує атрибут
+-   [DOMElement::setAttributeNode()](domelement.setattributenode.md) \- Додає новий вузол атрибуту елемент
+-   [DOMElement::removeAttributeNode()](domelement.removeattributenode.md) \- Видаляє атрибут

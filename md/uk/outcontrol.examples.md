@@ -1,14 +1,15 @@
 ---
 navigation:
-  - outcontrol.constants.md: « Обумовлені константи
-  - outcontrol.examples.basic.md: Базовое использование »
+  - outcontrol.output-handler-return-values.md: '« Значення оброблювача виводу, що повертаються.'
+  - outcontrol.examples.basic.md: Основи »
   - index.md: PHP Manual
   - book.outcontrol.md: Контроль виведення
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
 ## Зміст
 
--   [Базовое использование](outcontrol.examples.basic.md)
--   [Використання перезапису виводу](outcontrol.examples.rewrite.md)
+-   [Основи](outcontrol.examples.basic.md)
+-   [Перезапис виводу](outcontrol.examples.rewrite.md)

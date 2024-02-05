@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-stack.push.md: '« DsStack::push'
-  - class.ds-queue.md: Черга »
+  - ds-stack.push.md: '« Ds\\Stack::push'
+  - class.ds-queue.md: Ds\\Queue »
   - index.md: PHP Manual
-  - class.ds-stack.md: Стек
-title: 'ДсStack::toArray'
+  - class.ds-stack.md: Ds\\Stack
+title: 'Ds\\Stack::toArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсStack::toArray
+# Ds\\Stack::toArray
 
 (PECL ds >= 1.0.0)
 
-ДсStack::toArray — Перетворює колекцію на масив (array)
+Ds\\Stack::toArray — Перетворює колекцію на масив (array)
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Ds\Stack::toArray(): array
 
 Перетворює колекцію на array.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Приведення до типу array поки що не підтримується.
 
@@ -30,11 +31,11 @@ public Ds\Stack::toArray(): array
 
 ### Значення, що повертаються
 
-Масив (array), що містить всі елементи колекції із збереженням їхнього порядку.
+Повертає масив (array), що містить всі елементи колекції зі збереженням їхнього порядку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсStack::toArray()****
+**Пример #1 Пример использования метода**Ds\\Stack::toArray()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ var_dump($stack->toArray());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(3) {

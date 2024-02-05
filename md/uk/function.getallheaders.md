@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.apache-setenv.md: « apachesetenv
+  - function.apache-setenv.md: « apache\_setenv
   - function.virtual.md: virtual »
   - index.md: PHP Manual
-  - ref.apache.md: Функции Apache
+  - ref.apache.md: Функції Apache
 title: getallheaders
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # getallheaders
 
@@ -20,7 +21,7 @@ getallheaders(): array
 
 Повертає всі заголовки для поточного запиту HTTP.
 
-Ця функція є псевдонімом функції [apacherequestheaders()](function.apache-request-headers.md). Будь ласка, зверніться до опису функції [apacherequestheaders()](function.apache-request-headers.md) для отримання детальної інформації про її роботу.
+Ця функція є псевдонімом функції [apache\_request\_headers()](function.apache-request-headers.md)Пожалуйста, обратитесь к описанию функции[apache\_request\_headers()](function.apache-request-headers.md) для отримання детальної інформації про її роботу.
 
 ### Список параметрів
 
@@ -28,17 +29,17 @@ getallheaders(): array
 
 ### Значення, що повертаються
 
-Асоціативний масив, що містить усі HTTP-заголовки для даного запиту або **`false`** у разі виникнення помилок.
+Асоціативний масив, що містить усі HTTP-заголовки для даного запиту або \*\*`false`\*\*в случае возникновения ошибок.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Ця функція стала доступною у SAPI FPM. |
+| 7.3.0 | Ця функція стала доступною у SAPI FPM. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getallheaders()****
+**Пример #1 Пример использования**getallheaders()\*\*\*\*
 
 ```php
 <?php
@@ -52,4 +53,4 @@ foreach (getallheaders() as $name => $value) {
 
 ### Дивіться також
 
--   [apacheresponseheaders()](function.apache-response-headers.md) - Повертає список усіх HTTP-заголовків відповіді Apache
+-   [apache\_response\_headers()](function.apache-response-headers.md) \- Повертає список усіх HTTP-заголовків відповіді Apache

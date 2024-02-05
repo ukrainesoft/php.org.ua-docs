@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-minus-dm.md: « traderminusдм
-  - function.trader-mult.md: tradermult »
+  - function.trader-minus-dm.md: « trader\_minus\_dm
+  - function.trader-mult.md: trader\_mult »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermom
+  - ref.trader.md: Функції Trader
+title: trader\_mom
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermom
+# trader\_mom
 
 (PECL trader >= 0.2.0)
 
-tradermom — Моментум
+trader\_mom — Моментум
 
 ### Опис
 

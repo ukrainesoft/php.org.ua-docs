@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::isDefault'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionProperty::isDefault
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionProperty::isDefault — Перевіряє, чи значення є властивістю за умовчанням
+ReflectionProperty::isDefault — Перевіряє, чи є значення властивістю за промовчанням
 
 ### Опис
 
@@ -26,11 +27,11 @@ public ReflectionProperty::isDefault(): bool
 
 ### Значення, що повертаються
 
-**`true`**, якщо властивість оголошено під час компіляції, або **`false`**, якщо він був створений під час виконання.
+**`true`**, якщо властивість оголошено під час компіляції, або **`false`**, якщо його було створено під час виконання.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionProperty::isDefault()****
+**Пример #1 Пример использования**ReflectionProperty::isDefault()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($ro->getProperty('baz')->isDefault());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -57,4 +58,4 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) - набуває значення
+-   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) \- набуває значення

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.reverse.md: '« DsSet::reverse'
-  - ds-set.slice.md: 'ДсSet::slice »'
+  - ds-set.reverse.md: '« Ds\\Set::reverse'
+  - ds-set.slice.md: 'Ds\\Set::slice »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::reversed'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::reversed'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::reversed
+# Ds\\Set::reversed
 
 (PECL ds >= 1.0.0)
 
-ДсSet::reversed — Повертає перегорнуту копію колекції
+Ds\\Set::reversed — Повертає перегорнуту копію колекції
 
 ### Опис
 
@@ -28,13 +29,13 @@ public Ds\Set::reversed(): Ds\Set
 
 Перегорнута копія колекції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Поточна колекція не зміниться.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::reversed()****
+**Пример #1 Пример использования**Ds\\Set::reversed()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ print_r($set);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Set Object

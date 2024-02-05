@@ -4,17 +4,18 @@ navigation:
   - svm.crossvalidate.md: 'SVM::crossvalidate »'
   - index.md: PHP Manual
   - class.svm.md: SVM
-title: 'SVM::construct'
+title: 'SVM::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SVM::construct
+# SVM::\_\_construct
 
 (PECL svm >= 0.1.0)
 
-SVM::construct - Конструктор класу SVM
+SVM::\_\_construct - Конструктор класу SVM
 
 ### Опис
 
-public **SVM::construct**
+public**SVM::\_\_construct**()
 
 Створює новий об'єкт SVM, готовий до прийому навчальних даних.
 

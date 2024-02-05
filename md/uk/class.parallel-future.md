@@ -1,12 +1,15 @@
 ---
 navigation:
-  - parallel-runtime.kill.md: '« parallelRuntime::kill'
-  - parallel-future.cancel.md: 'parallelFuture::cancel »'
+  - parallel-runtime.kill.md: '« parallel\\Runtime::kill'
+  - parallel-future.cancel.md: 'parallel\\Future::cancel »'
   - index.md: PHP Manual
   - book.parallel.md: parallel
-title: Клас parallelFuture
+title: Клас parallel\\Future
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас parallelFuture
+# Клас parallel\\Future
+
+(0.8.0)
 
 ## Об'єкти Future
 
@@ -24,7 +27,7 @@ printf("Привет, %s\n", $future->value());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Привет, Мир
@@ -52,7 +55,7 @@ echo "\nродительский поток продолжает работат�
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 в дочернем потоке .................................................. выход из дочернего потока
@@ -92,7 +95,7 @@ public done(): bool
 
 ## Зміст
 
--   [parallelFuture::cancel](parallel-future.cancel.md) - Припинення
--   [parallelFuture::cancelled](parallel-future.cancelled.md) — Визначення стану
--   [parallelFuture::done](parallel-future.done.md) — Визначення стану
--   [parallelFuture::value](parallel-future.value.md) - Розширення
+-   [parallel\\Future::cancel](parallel-future.cancel.md) \- Припинення
+-   [parallel\\Future::cancelled](parallel-future.cancelled.md)— Визначення стану
+-   [parallel\\Future::done](parallel-future.done.md)— Визначення стану
+-   [parallel\\Future::value](parallel-future.value.md) \- Дозвіл

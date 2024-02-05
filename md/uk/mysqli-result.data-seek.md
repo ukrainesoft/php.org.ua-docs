@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-result.current-field.md: '« mysqliresult::$currentfield'
-  - mysqli-result.fetch-all.md: 'mysqliresult::fetchall »'
+  - mysqli-result.current-field.md: '« mysqli\_result::$current\_field'
+  - mysqli-result.fetch-all.md: 'mysqli\_result::fetch\_all »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::dataseek'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::data\_seek'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::dataseek
+# mysqli\_result::data\_seek
 
-# mysqlidataseek
+# mysqli\_data\_seek
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliresult::dataseek - mysqlidataseek — Переміщує покажчик результату на вибраний рядок
+mysqli\_result::data\_seek -- mysqli\_data\_seek — Переміщує покажчик результату на вибраний рядок
 
 ### Опис
 
@@ -28,25 +29,25 @@ public mysqli_result::data_seek(int $offset): bool
 mysqli_data_seek(mysqli_result $result, int $offset): bool
 ```
 
-Функція **mysqlidataseek()** переміщує покажчик в результаті на рядок, вказаний у параметрі `offset`
+Функция\*\*mysqli\_data\_seek()\*\*перемещает указатель в результате на строку, указанную в параметре`offset`
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 `offset`
 
-Зміщення рядків. Повинно бути між нулем і числом рядків у результаті мінус один (0..[mysqlinumrows()](mysqli-result.num-rows.md)
+Зміщення рядків. Повинно бути між нулем та числом рядків у результаті мінус один (0..[mysqli\_num\_rows()](mysqli-result.num-rows.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::dataseek()****
+**Пример #1 Пример использования**mysqli::data\_seek()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -89,7 +90,7 @@ $row = mysqli_fetch_row($result);
 printf ("Город: %s  Код страны: %s\n", $row[0], $row[1]);
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Город: Benin City  Код страны: NGA
@@ -129,7 +130,7 @@ while ($row = $result->fetch_row()) {
 }
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Город: Acmbaro  Код страны: MEX
@@ -145,16 +146,16 @@ while ($row = $result->fetch_row()) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Функція може бути використана тільки з буферизованими результатами, які можна отримати за допомогою функцій [mysqlistoreresult()](mysqli.store-result.md) або [mysqliquery()](mysqli.query.md)
+> Функція може бути використана тільки з буферизованими результатами, які можна отримати за допомогою функцій [mysqli\_store\_result()](mysqli.store-result.md) або [mysqli\_query()](mysqli.query.md)
 
 ### Дивіться також
 
--   [mysqlistoreresult()](mysqli.store-result.md) - передає на клієнта результуючий набір останнього запиту
--   [mysqlifetchrow()](mysqli-result.fetch-row.md) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
--   [mysqlifetcharray()](mysqli-result.fetch-array.md) - Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
--   [mysqlifetchassoc()](mysqli-result.fetch-assoc.md) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
--   [mysqlifetchobject()](mysqli-result.fetch-object.md) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
--   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
--   [mysqlinumrows()](mysqli-result.num-rows.md) - Отримує кількість рядків у наборі результатів
+-   [mysqli\_store\_result()](mysqli.store-result.md) \- передає на клієнта результуючий набір останнього запиту
+-   [mysqli\_fetch\_row()](mysqli-result.fetch-row.md) \- Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
+-   [mysqli\_fetch\_array()](mysqli-result.fetch-array.md) \- Вибирає наступний рядок з набору результатів і поміщає його в асоціативний масив, звичайний масив або в обидва
+-   [mysqli\_fetch\_assoc()](mysqli-result.fetch-assoc.md) \- Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
+-   [mysqli\_fetch\_object()](mysqli-result.fetch-object.md) \- Вибирає наступний рядок із набору результатів у вигляді об'єкта
+-   [mysqli\_query()](mysqli.query.md) \- Виконує запит до бази даних
+-   [mysqli\_num\_rows()](mysqli-result.num-rows.md) \- Отримує кількість рядків у наборі результатів

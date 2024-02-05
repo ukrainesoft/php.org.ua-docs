@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.rrd-info.md: « rrdinfo
-  - function.rrd-lastupdate.md: rrdlastupdate »
+  - function.rrd-info.md: « rrd\_info
+  - function.rrd-lastupdate.md: rrd\_lastupdate »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
-title: rrdlast
+title: rrd\_last
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# rrdlast
+# rrd\_last
 
 (PECL rrd >= 0.9.0)
 
-rrdlast — Повертає позначку часу unix останнього зразка
+rrd\_last — Повертає позначку часу unix останнього зразка
 
 ### Опис
 

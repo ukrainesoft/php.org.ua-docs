@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.readline-info.md: « readlineinfo
-  - function.readline-on-new-line.md: readlineвінnewline »
+  - function.readline-info.md: « readline\_info
+  - function.readline-on-new-line.md: readline\_on\_new\_line »
   - index.md: PHP Manual
-  - ref.readline.md: Функции Readline
-title: readlinelisthistory
+  - ref.readline.md: Опції Readline
+title: readline\_list\_history
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# readlinelisthistory
+# readline\_list\_history
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-readlinelisthistory - Список історії команд
+readline\_list\_history - Список історії команд
 
 ### Опис
 

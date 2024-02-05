@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageOrientation'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageOrientation
 
@@ -24,7 +25,7 @@ public Imagick::setImageOrientation(int $orientation): bool
 
 `orientation`
 
-Одна з констант [ORIENTATION](imagick.constants.md#imagick.constants.orientation)
+Одна из констант[ORIENTATION](imagick.constants.md#imagick.constants.orientation)
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public Imagick::setImageOrientation(int $orientation): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setImageOrientation()****
+**Пример #1 Пример использования**Imagick::setImageOrientation()\*\*\*\*
 
 ```php
 <?php

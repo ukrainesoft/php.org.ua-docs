@@ -1,10 +1,11 @@
 ---
 navigation:
-  - tokens.md: « Список меток (tokens) парсера
+  - tokens.md: « Список тегів (tokens) парсера
   - userlandnaming.globalnamespace.md: Глобальний простір імен »
   - index.md: PHP Manual
-  - appendices.md: Appendices
+  - appendices.md: Програми
 title: Посібник з іменування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Посібник з іменування
 

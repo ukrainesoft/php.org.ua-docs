@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-set-add.md: « cubridsetadd
-  - function.cubrid-set-db-parameter.md: cubridsetдбparameter »
+  - function.cubrid-set-add.md: « cubrid\_set\_add
+  - function.cubrid-set-db-parameter.md: cubrid\_set\_db\_parameter »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridsetautocommit
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_set\_autocommit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridsetautocommit
+# cubrid\_set\_autocommit
 
 (PECL CUBRID >= 8.4.0)
 
-cubridsetautocommit — Встановлює режим автокомміту для з'єднання.
+cubrid\_set\_autocommit — Встановлює режим автокомміту для з'єднання.
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridsetautocommit — Встановлює режим автокомміту �
 cubrid_set_autocommit(resource $conn_identifier, bool $mode): bool
 ```
 
-Функція **cubridsetautocommit()** використовується для встановлення режиму автокомміту для з'єднання.
+Функция\*\*cubrid\_set\_autocommit()\*\*используется для установки режима авто-коммита для соединения.
 
 У CUBRID PHP, авто-коміт транзакцій за замовчуванням заборонено. Якщо ви увімкнете, всі очікувані транзакції будуть автоматично підтверджені.
 
@@ -37,9 +38,9 @@ cubrid_set_autocommit(resource $conn_identifier, bool $mode): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [cubridgetautocommit()](function.cubrid-get-autocommit.md) - Повертає налаштування авто-комміту для з'єднання
--   [cubridcommit()](function.cubrid-commit.md) - підтвердження транзакції
+-   [cubrid\_get\_autocommit()](function.cubrid-get-autocommit.md) \- Повертає налаштування авто-комміту для з'єднання
+-   [cubrid\_commit()](function.cubrid-commit.md) \- підтвердження транзакції

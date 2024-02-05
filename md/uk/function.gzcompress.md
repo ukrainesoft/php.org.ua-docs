@@ -3,12 +3,13 @@ navigation:
   - function.gzclose.md: « gzclose
   - function.gzdecode.md: gzdecode »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzcompress
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzcompress
 
-(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 gzcompress — Стиснути рядок
 
@@ -20,9 +21,9 @@ gzcompress(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_DEFLATE)
 
 Ця функція стискає рядок, використовуючи формат даних `ZLIB`
 
-Детальніше про алгоритм стиснення ZLIB дивіться документ "[» Формат стиснення ZLIB. Специфікація версії 3.3](http://www.faqs.org/rfcs/rfc1950)(RFC 1950).
+Детальніше про алгоритм стиснення ZLIB дивіться документ "[» Формат стиснення ZLIB. Специфікація версії 3.3](http://www.faqs.org/rfcs/rfc1950)" (RFC 1950).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Це *не* те ж саме, що і gzip-стиск, який включає деякі дані заголовка. Інформацію про gzip-стиснення дивіться [gzencode()](function.gzencode.md)
 
@@ -40,15 +41,15 @@ gzcompress(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_DEFLATE)
 
 `encoding`
 
-Одна з констант **`ZLIB_ENCODING_*`**
+Одна из констант\*\*`ZLIB_ENCODING_*`\*\*
 
 ### Значення, що повертаються
 
-Стиснутий рядок або **`false`** у разі виникнення помилки.
+Сжатая строка или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gzcompress()****
+**Пример #1 Пример использования**gzcompress()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ echo $compressed;
 
 ### Дивіться також
 
--   [gzdeflate()](function.gzdeflate.md) - Стискає рядок
--   [gzinflate()](function.gzinflate.md) - Розпакувати стислий рядок
--   [gzuncompress()](function.gzuncompress.md) - Розпакувати стислий рядок
--   [gzencode()](function.gzencode.md) - Створити стислий рядок gzip
+-   [gzdeflate()](function.gzdeflate.md) \- Стискає рядок
+-   [gzinflate()](function.gzinflate.md) \- Розпакувати стислий рядок
+-   [gzuncompress()](function.gzuncompress.md) \- Розпакувати стислий рядок
+-   [gzencode()](function.gzencode.md) \- Створити стислий рядок gzip

@@ -1,10 +1,11 @@
 ---
 navigation:
   - recursivecallbackfilteriterator.haschildren.md: '« RecursiveCallbackFilterIterator::hasChildren'
-  - recursivedirectoryiterator.construct.md: 'RecursiveDirectoryIterator::construct »'
+  - recursivedirectoryiterator.construct.md: 'RecursiveDirectoryIterator::\_\_construct »'
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас RecursiveDirectoryIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас RecursiveDirectoryIterator
 
@@ -12,63 +13,75 @@ title: Клас RecursiveDirectoryIterator
 
 ## Вступ
 
-Клас **RecursiveDirectoryIterator** надає інтерфейс рекурсивного перебору каталогів файлової системи.
+Класс**RecursiveDirectoryIterator** надає інтерфейс рекурсивного перебору каталогів файлової системи.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class RecursiveDirectoryIterator
     
 
     
-     
-      class RecursiveDirectoryIterator
-     
+     extends
+      FilesystemIterator
+    
 
-     
-      extends
-       FilesystemIterator
-     
-
-     implements 
-       RecursiveIterator {
+    
+     implements
+      RecursiveIterator {
 
     /* Наследуемые константы */
     
+     public
      const
      int
-      FilesystemIterator::CURRENT_AS_PATHNAME = 32;
-const
+      FilesystemIterator::CURRENT_MODE_MASK;
+public
+     const
      int
-      FilesystemIterator::CURRENT_AS_FILEINFO = 0;
-const
+      FilesystemIterator::CURRENT_AS_PATHNAME;
+public
+     const
      int
-      FilesystemIterator::CURRENT_AS_SELF = 16;
-const
+      FilesystemIterator::CURRENT_AS_FILEINFO;
+public
+     const
      int
-      FilesystemIterator::CURRENT_MODE_MASK = 240;
-const
+      FilesystemIterator::CURRENT_AS_SELF;
+public
+     const
      int
-      FilesystemIterator::KEY_AS_PATHNAME = 0;
-const
+      FilesystemIterator::KEY_MODE_MASK;
+public
+     const
      int
-      FilesystemIterator::KEY_AS_FILENAME = 256;
-const
+      FilesystemIterator::KEY_AS_PATHNAME;
+public
+     const
      int
-      FilesystemIterator::FOLLOW_SYMLINKS = 512;
-const
+      FilesystemIterator::FOLLOW_SYMLINKS;
+public
+     const
      int
-      FilesystemIterator::KEY_MODE_MASK = 3840;
-const
+      FilesystemIterator::KEY_AS_FILENAME;
+public
+     const
      int
-      FilesystemIterator::NEW_CURRENT_AND_KEY = 256;
-const
+      FilesystemIterator::NEW_CURRENT_AND_KEY;
+public
+     const
      int
-      FilesystemIterator::SKIP_DOTS = 4096;
-const
+      FilesystemIterator::OTHER_MODE_MASK;
+public
+     const
      int
-      FilesystemIterator::UNIX_PATHS = 8192;
+      FilesystemIterator::SKIP_DOTS;
+public
+     const
+     int
+      FilesystemIterator::UNIX_PATHS;
 
 
     /* Методы */
@@ -93,33 +106,15 @@ public FilesystemIterator::rewind(): void
 public FilesystemIterator::setFlags(int $flags): void
 
     public DirectoryIterator::current(): mixed
-public DirectoryIterator::getATime(): int
 public DirectoryIterator::getBasename(string $suffix = ""): string
-public DirectoryIterator::getCTime(): int
 public DirectoryIterator::getExtension(): string
 public DirectoryIterator::getFilename(): string
-public DirectoryIterator::getGroup(): int
-public DirectoryIterator::getInode(): int
-public DirectoryIterator::getMTime(): int
-public DirectoryIterator::getOwner(): int
-public DirectoryIterator::getPath(): string
-public DirectoryIterator::getPathname(): string
-public DirectoryIterator::getPerms(): int
-public DirectoryIterator::getSize(): int
-public DirectoryIterator::getType(): string
-public DirectoryIterator::isDir(): bool
 public DirectoryIterator::isDot(): bool
-public DirectoryIterator::isExecutable(): bool
-public DirectoryIterator::isFile(): bool
-public DirectoryIterator::isLink(): bool
-public DirectoryIterator::isReadable(): bool
-public DirectoryIterator::isWritable(): bool
 public DirectoryIterator::key(): mixed
 public DirectoryIterator::next(): void
 public DirectoryIterator::rewind(): void
 public DirectoryIterator::seek(int $offset): void
-public
-   DirectoryIterator::__toString(): string
+public DirectoryIterator::__toString(): string
 public DirectoryIterator::valid(): bool
 
     public SplFileInfo::getATime(): int|false
@@ -156,11 +151,11 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [RecursiveDirectoryIterator::construct](recursivedirectoryiterator.construct.md) - Конструктор класу RecursiveDirectoryIterator
--   [RecursiveDirectoryIterator::getChildren](recursivedirectoryiterator.getchildren.md) — Якщо поточний елемент є директорією, метод повертає ітератор для неї.
--   [RecursiveDirectoryIterator::getSubPath](recursivedirectoryiterator.getsubpath.md) — Повертає шлях до піддиректорії
--   [RecursiveDirectoryIterator::getSubPathname](recursivedirectoryiterator.getsubpathname.md) — Повертає шлях до піддиректорії та ім'я файлу
--   [RecursiveDirectoryIterator::hasChildren](recursivedirectoryiterator.haschildren.md) — Визначає, чи поточний елемент є директорією
--   [RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.md) — Повертає шлях та ім'я файлу поточного елемента
--   [RecursiveDirectoryIterator::next](recursivedirectoryiterator.next.md) — Перехід до наступного елементу
--   [RecursiveDirectoryIterator::rewind](recursivedirectoryiterator.rewind.md) — перекладає ітератор на початок директорії
+-   [RecursiveDirectoryIterator::\_\_construct](recursivedirectoryiterator.construct.md) \- Конструктор класу RecursiveDirectoryIterator
+-   [RecursiveDirectoryIterator::getChildren](recursivedirectoryiterator.getchildren.md)— Якщо поточний елемент є директорією, метод повертає ітератор для неї.
+-   [RecursiveDirectoryIterator::getSubPath](recursivedirectoryiterator.getsubpath.md)— Повертає шлях до піддиректорії
+-   [RecursiveDirectoryIterator::getSubPathname](recursivedirectoryiterator.getsubpathname.md)— Повертає шлях до піддиректорії та ім'я файлу
+-   [RecursiveDirectoryIterator::hasChildren](recursivedirectoryiterator.haschildren.md)— Визначає, чи поточний елемент є директорією
+-   [RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.md)— Повертає шлях та ім'я файлу поточного елемента
+-   [RecursiveDirectoryIterator::next](recursivedirectoryiterator.next.md)— Перехід до наступного елементу
+-   [RecursiveDirectoryIterator::rewind](recursivedirectoryiterator.rewind.md)— перекладає ітератор на початок директорії

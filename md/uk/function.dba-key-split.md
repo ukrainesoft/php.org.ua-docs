@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.dba-insert.md: « dbainsert
-  - function.dba-list.md: dbalist »
+  - function.dba-insert.md: « dba\_insert
+  - function.dba-list.md: dba\_list »
   - index.md: PHP Manual
   - ref.dba.md: Функції DBA
-title: dbakeysplit
+title: dba\_key\_split
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dbakeysplit
+# dba\_key\_split
 
 (PHP 5, PHP 7, PHP 8)
 
-dbakeysplit - розділяє ключ, заданий у вигляді рядка і створює масив з отриманих частин
+dba\_key\_split — розділяє ключ, заданий у вигляді рядка і створює масив отриманих частин
 
 ### Опис
 
@@ -18,7 +19,7 @@ dbakeysplit - розділяє ключ, заданий у вигляді ряд
 dba_key_split(string|false|null $key): array|false
 ```
 
-**dbakeysplit()** розділяє ключ, заданий у вигляді рядка і створює масив отриманих частин.
+**dba\_key\_split()** розділяє ключ, заданий у вигляді рядка і створює масив отриманих частин.
 
 ### Список параметрів
 
@@ -28,10 +29,10 @@ dba_key_split(string|false|null $key): array|false
 
 ### Значення, що повертаються
 
-Повертає масив такого виду `array(0 => group, 1 => value_name)`. Ця функція повертає **`false`**, якщо `key` дорівнює **`null`** або **`false`**
+Повертає масив такого виду `array(0 => group, 1 => value_name)`. Ця функція повертає **`false`**, якщо `key`равен\*\*`null`**или**`false`\*\*
 
 ### Дивіться також
 
--   [dbafirstkey()](function.dba-firstkey.md) - Витягує перший ключ
--   [dbanextkey()](function.dba-nextkey.md) - Витягує наступний ключ
--   [dbafetch()](function.dba-fetch.md) - Витягує дані за вказаним ключем
+-   [dba\_firstkey()](function.dba-firstkey.md) \- Витягує перший ключ
+-   [dba\_nextkey()](function.dba-nextkey.md) \- Витягує наступний ключ
+-   [dba\_fetch()](function.dba-fetch.md) \- Витягує дані за вказаним ключем

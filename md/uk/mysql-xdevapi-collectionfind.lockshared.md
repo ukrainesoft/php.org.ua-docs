@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionfind.lockexclusive.md: '« CollectionFind::lockExclusive'
   - mysql-xdevapi-collectionfind.offset.md: 'CollectionFind::offset »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysql\_xdevapi\\CollectionFind
 title: 'CollectionFind::lockShared'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionFind::lockShared
 
@@ -18,19 +19,17 @@ CollectionFind::lockShared — Виконує операцію з SHARED LOCK
 public mysql_xdevapi\CollectionFind::lockShared(int $lock_waiting_option = ?): mysql_xdevapi\CollectionFind
 ```
 
-Дозволяє розділяти документи між кількома транзакціями, які блокуються у режимі спільного використання.
+Дозволяє розділяти документи між кількома транзакціями, які блокуються в режимі спільного доступу.
 
 Інші сеанси можуть читати рядки, але не можуть змінювати їх, доки ваша транзакція не буде зафіксована.
 
-Якщо якийсь із цих рядків був змінений іншою транзакцією, яка ще не зафіксована,
-
-ваш запит почекає завершення цієї транзакції, а потім використовує найновіші значення.
+Якщо один із цих рядків був змінений іншою транзакцією, яка ще не зафіксована, запит почекає завершення цієї транзакції, а потім використовує зафіксовані значення.
 
 ### Список параметрів
 
 `lock_waiting_option`
 
-Додаткова опція очікування. За замовчуванням має значення **`MYSQLX_LOCK_DEFAULT`**. Допустимі значення представлені константами:
+Дополнительная опция ожидания. По умолчанию имеет значение\*\*`MYSQLX_LOCK_DEFAULT`\*\*. Допустимі значення представлені константами:
 
 -   **`MYSQLX_LOCK_DEFAULT`**
     
@@ -41,11 +40,11 @@ public mysql_xdevapi\CollectionFind::lockShared(int $lock_waiting_option = ?): m
 
 ### Значення, що повертаються
 
-Об'єкт CollectionFind, який можна використовувати для подальшої обробки
+Повертає об'єкт класу CollectionFind, з яким можна буде працювати далі.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionFind::lockShared()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\CollectionFind::lockShared()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +60,7 @@ $result = $collection
   ->lockShared()
   ->execute();
 
-// ... читаем объект в режиме совместного использования
+// ... читаем объект в режиме совместного доступа
 
 // Завершаем транзакцию и разблокируем документ
 $session->commit();

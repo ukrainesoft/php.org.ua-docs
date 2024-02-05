@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-ini.isset.md: '« YafConfigIni::isset'
-  - yaf-config-ini.next.md: 'YafConfigIni::next »'
+  - yaf-config-ini.isset.md: '« Yaf\_Config\_Ini::\_\_isset'
+  - yaf-config-ini.next.md: 'Yaf\_Config\_Ini::next »'
   - index.md: PHP Manual
-  - class.yaf-config-ini.md: YafConfigIni
-title: 'YafConfigIni::key'
+  - class.yaf-config-ini.md: Yaf\_Config\_Ini
+title: 'Yaf\_Config\_Ini::key'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigIni::key
+# Yaf\_Config\_Ini::key
 
 (Yaf >=1.0.0)
 
-YafConfigIni::key — Отримує ключ поточного елемента
+Yaf\_Config\_Ini::key — Отримує ключ поточного елемента
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Ini::key(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.inotify.md: « Функции Inotify
-  - function.inotify-init.md: inotifyinit »
+  - ref.inotify.md: « Функції Inotify
+  - function.inotify-init.md: inotify\_init »
   - index.md: PHP Manual
-  - ref.inotify.md: Функции Inotify
-title: inotifyaddwatch
+  - ref.inotify.md: Функції Inotify
+title: inotify\_add\_watch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# inotifyaddwatch
+# inotify\_add\_watch
 
 (PECL inotify >= 0.1.2)
 
-inotifyaddwatch — Додати спостерігача для екземпляра inotify
+inotify\_add\_watch — Додати спостерігача для екземпляра inotify
 
 ### Опис
 
@@ -18,15 +19,15 @@ inotifyaddwatch — Додати спостерігача для екземпл�
 inotify_add_watch(resource $inotify_instance, string $pathname, int $mask): int
 ```
 
-**inotifyaddwatch()** додає нового спостерігача або змінює існуючий для файлу або директорії, заданих у `pathname`
+**inotify\_add\_watch()** додає нового спостерігача або змінює існуючий для файлу або директорії, заданих у `pathname`
 
-Використання **inotifyaddwatch()** на обстеженні, що вже відстежується, замінить поточного спостерігача. використання константи **`IN_MASK_ADD`** додати (OR) події існуючому спостерігачеві.
+Использование**inotify\_add\_watch()** на обстеженні, що вже відстежується, замінить поточного спостерігача. використання константи **`IN_MASK_ADD`** додати (OR) події існуючому спостерігачеві.
 
 ### Список параметрів
 
 `inotify_instance`
 
-Ресурс, що повертається [inotifyinit()](function.inotify-init.md)
+Ресурс, що повертається [inotify\_init()](function.inotify-init.md)
 
 `pathname`
 
@@ -42,4 +43,4 @@ inotify_add_watch(resource $inotify_instance, string $pathname, int $mask): int
 
 ### Дивіться також
 
--   [inotifyinit()](function.inotify-init.md) - Ініціалізує екземпляр inotify
+-   [inotify\_init()](function.inotify-init.md) \- Ініціалізує екземпляр inotify

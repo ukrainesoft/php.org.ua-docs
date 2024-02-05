@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-include-file.md: «psincludefile
-  - function.ps-makespotcolor.md: псmakespotcolor »
+  - function.ps-include-file.md: « ps\_include\_file
+  - function.ps-makespotcolor.md: ps\_makespotcolor »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псlineto
+title: ps\_lineto
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псlineto
+# ps\_lineto
 
 (PECL ps >= 1.1.0)
 
-псlineto — Малює лінію
+ps\_lineto — Малює лінію
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: псlineto
 ps_lineto(resource $psdoc, float $x, float $y): bool
 ```
 
-Додає до поточного шляху пряму лінію від точки до заданих координат. Використовуйте [псmoveto()](function.ps-moveto.md), щоб встановити початкову точку лінії.
+Додає до поточного шляху пряму лінію від точки до заданих координат. Використовуйте [ps\_moveto()](function.ps-moveto.md), щоб встановити початкову точку лінії.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `x`
 
@@ -36,7 +37,7 @@ ps_lineto(resource $psdoc, float $x, float $y): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -69,4 +70,4 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [псmoveto()](function.ps-moveto.md) - Встановлює поточну точку
+-   [ps\_moveto()](function.ps-moveto.md) \- Встановлює поточну точку

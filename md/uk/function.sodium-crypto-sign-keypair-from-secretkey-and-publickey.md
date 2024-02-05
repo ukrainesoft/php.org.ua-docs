@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-sign-ed25519-sk-to-curve25519.md: « sodiumcryptosigned25519сктоcurve25519
-  - function.sodium-crypto-sign-keypair.md: sodiumcryptosignkeypair »
+  - function.sodium-crypto-sign-ed25519-sk-to-curve25519.md: « sodium\_crypto\_sign\_ed25519\_sk\_to\_curve25519
+  - function.sodium-crypto-sign-keypair.md: sodium\_crypto\_sign\_keypair »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptosignkeypairfromsecretkeyandpublickey
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_sign\_keypair\_from\_secretkey\_and\_publickey
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptosignkeypairfromsecretkeyandpublickey
+# sodium\_crypto\_sign\_keypair\_from\_secretkey\_and\_publickey
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptosignkeypairfromsecretkeyandpublickey — Об'єднує секретний ключ та відкритий ключ разом
+sodium\_crypto\_sign\_keypair\_from\_secretkey\_and\_publickey — Об'єднує секретний ключ та відкритий ключ разом
 
 ### Опис
 

@@ -4,17 +4,18 @@ navigation:
   - solrclient.getbyid.md: 'SolrClient::getById »'
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
-title: 'SolrClient::destruct'
+title: 'SolrClient::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrClient::destruct
+# SolrClient::\_\_destruct
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrClient::destruct — Деструктор SolrClient
+SolrClient::\_\_destruct — Деструктор SolrClient
 
 ### Опис
 
-public **SolrClient::destruct**
+public**SolrClient::\_\_destruct**()
 
 Деструктор
 
@@ -28,4 +29,4 @@ public **SolrClient::destruct**
 
 ### Дивіться також
 
--   [SolrClient::construct()](solrclient.construct.md) - Конструктор об'єкта SolrClient
+-   [SolrClient::\_\_construct()](solrclient.construct.md) \- Конструктор об'єкта SolrClient

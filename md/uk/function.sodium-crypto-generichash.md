@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-generichash-update.md: « sodiumcryptogenerichashupdate
-  - function.sodium-crypto-kdf-derive-from-key.md: sodiumcryptokdfderivefromkey »
+  - function.sodium-crypto-generichash-update.md: « sodium\_crypto\_generichash\_update
+  - function.sodium-crypto-kdf-derive-from-key.md: sodium\_crypto\_kdf\_derive\_from\_key »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptogenerichash
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_generichash
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptogenerichash
+# sodium\_crypto\_generichash
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptogenerichash — Отримати повідомлення хеша
+sodium\_crypto\_generichash — Отримати повідомлення хеша
 
 ### Опис
 
@@ -36,4 +37,4 @@ sodium_crypto_generichash(string $message, string $key = "", int $length = SODIU
 
 ### Значення, що повертаються
 
-Криптографічний хеш як необроблених байтів. Якщо бажаний висновок у шістнадцятковому коді, результат можна передати в [sodiumbin2hex()](function.sodium-bin2hex.md)
+Криптографічний хеш як необроблених байтів. Якщо бажаний висновок у шістнадцятковому коді, результат можна передати в [sodium\_bin2hex()](function.sodium-bin2hex.md)

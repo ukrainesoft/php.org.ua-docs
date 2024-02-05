@@ -4,13 +4,14 @@ navigation:
   - class.reflectiontype.md: ReflectionType »
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
-title: 'ReflectionProperty::function toString() { \[native code\] }'
+title: 'ReflectionProperty::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionProperty::function toString() { \[native code\] }
+# ReflectionProperty::\_\_function toString() { \[native code\] }
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionProperty::toString — Перетворення на рядок
+ReflectionProperty::\_\_toString — Перетворення на рядок
 
 ### Опис
 
@@ -18,11 +19,7 @@ ReflectionProperty::toString — Перетворення на рядок
 public ReflectionProperty::__toString(): string
 ```
 
-Подання у вигляді рядка.
-
-**Увага**
-
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Повертає рядкове представлення якості.
 
 ### Список параметрів
 
@@ -30,6 +27,8 @@ public ReflectionProperty::__toString(): string
 
 ### Значення, що повертаються
 
+Повертає рядкове представлення якості.
+
 ### Дивіться також
 
--   [toString()](language.oop5.magic.md#object.tostring)
+-   [\_\_toString()](language.oop5.magic.md#object.tostring)

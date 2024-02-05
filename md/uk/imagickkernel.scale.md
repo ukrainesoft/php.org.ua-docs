@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagickkernel.md: ImagickKernel
 title: 'ImagickKernel::scale'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickKernel::scale
 
 (PECL imagick >= 3.3.0)
 
-ImagickKernel::scale — Опис
+ImagickKernel::scale — Масштабує список ядер на задану величину
 
 ### Опис
 
@@ -18,17 +19,24 @@ ImagickKernel::scale — Опис
 public ImagickKernel::scale(float $scale, int $normalizeFlag = ?): void
 ```
 
-ScaleKernelInfo() масштабує заданий список ядер на задану величину з нормалізацією суми значень ядра або без неї (відповідно до заданих прапорів). Точна поведінка функції залежить від типу нормалізації, що використовується, дивіться подробиці на [http://www.imagemagick.org/api/morphology.php#ScaleKernelInfo](http://www.imagemagick.org/api/morphology.php#ScaleKernelInfo). Прапор має бути одним із наступних: Imagick::NORMALIZEKERNELVALUE, Imagick::NORMALIZEKERNELCORRELATE, Imagick::NORMALIZEKERNELPERCENT чи не встановлено.
+Масштабує заданий список ядер на задану величину з нормалізацією або без нормалізації суми значень ядер (згідно з заданими прапорами). Точна поведінка функції залежить від типу нормалізації, що використовується, дивіться подробиці на [http://www.imagemagick.org/api/morphology.php#ScaleKernelInfo](http://www.imagemagick.org/api/morphology.php#ScaleKernelInfo)
 
 ### Список параметрів
 
-Ця функція не має параметрів.
+`scale`
+
+`normalizeFlag`
+
+-   Imagick::NORMALIZE\_KERNEL\_NONE
+-   Imagick::NORMALIZE\_KERNEL\_VALUE
+-   Imagick::NORMALIZE\_KERNEL\_CORRELATE
+-   Imagick::NORMALIZE\_KERNEL\_PERCENT
 
 ### Значення, що повертаються
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickKernel::scale()****
+**Пример #1 Пример использования**ImagickKernel::scale()\*\*\*\*
 
 ```php
 <?php

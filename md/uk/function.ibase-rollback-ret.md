@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-restore.md: « ibaserestore
-  - function.ibase-rollback.md: ibaserollback »
+  - function.ibase-restore.md: « ibase\_restore
+  - function.ibase-rollback.md: ibase\_rollback »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaserollbackret
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_rollback\_ret
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaserollbackret
+# ibase\_rollback\_ret
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaserollbackret - Відкочує транзакцію, не закриваючи її
+ibase\_rollback\_ret - Відкочує транзакцію, не закриваючи її
 
 ### Опис
 
@@ -28,4 +29,4 @@ ibase_rollback_ret(resource $link_or_trans_identifier = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

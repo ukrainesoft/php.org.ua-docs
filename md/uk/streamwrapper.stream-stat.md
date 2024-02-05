@@ -1,16 +1,17 @@
 ---
 navigation:
-  - streamwrapper.stream-set-option.md: '« streamWrapper::streamsetoption'
-  - streamwrapper.stream-tell.md: 'streamWrapper::streamtell »'
+  - streamwrapper.stream-set-option.md: '« streamWrapper::stream\_set\_option'
+  - streamwrapper.stream-tell.md: 'streamWrapper::stream\_tell »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
-title: 'streamWrapper::streamстати'
+title: 'streamWrapper::stream\_stat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamWrapper::streamстати
+# streamWrapper::stream\_stat
 
-(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::streamstat — Отримання інформації про файловий ресурс
+streamWrapper::stream\_stat — Отримання інформації про файловий ресурс
 
 ### Опис
 
@@ -26,7 +27,7 @@ public streamWrapper::stream_stat(): array|false
 
 ### Значення, що повертаються
 
-Дивіться [stat()](function.stat.md)
+Смотрите[stat()](function.stat.md)
 
 ### Помилки
 
@@ -34,5 +35,5 @@ public streamWrapper::stream_stat(): array|false
 
 ### Дивіться також
 
--   [stat()](function.stat.md) - Повертає інформацію про файл
--   [streamwrapper::urlstat()](streamwrapper.url-stat.md) - Отримання інформації про файл
+-   [stat()](function.stat.md) \- Повертає інформацію про файл
+-   [streamwrapper::url\_stat()](streamwrapper.url-stat.md) \- Отримання інформації про файл

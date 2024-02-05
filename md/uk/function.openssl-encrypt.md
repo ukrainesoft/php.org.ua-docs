@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.openssl-digest.md: « openssldigest
-  - function.openssl-error-string.md: opensslerrorstring »
+  - function.openssl-digest.md: « openssl\_digest
+  - function.openssl-error-string.md: openssl\_error\_string »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslencrypt
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_encrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslencrypt
+# openssl\_encrypt
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-opensslencrypt - Шифрує дані
+openssl\_encrypt - Шифрує дані
 
 ### Опис
 
 ```methodsynopsis
-openssl_encrypt(    string $data,    string $cipher_algo,    string $passphrase,    int $options = 0,    string $iv = "",    string &$tag = null,    string $aad = "",    int $tag_length = 16): string|false
+openssl_encrypt(    string $data,    string $cipher_algo,    string $passphrase,    int $options = 0,    string $iv = "",    string &$tag = null,    string $aad = "",    int $tag_length = 16): string|false
 ```
 
 Шифрує дані із заданим шифром і ключем і повертає необроблений рядок або рядок, закодований у base64
@@ -28,7 +29,7 @@ openssl_encrypt(    string $data,    string $cipher_algo,    string $passphrase,
 
 `cipher_algo`
 
-Метод шифрування. Список доступних методів можна отримати за допомогою функції [opensslgetciphermethods()](function.openssl-get-cipher-methods.md)
+Метод шифрування. Список доступних методів можна отримати за допомогою функції [openssl\_get\_cipher\_methods()](function.openssl-get-cipher-methods.md)
 
 `passphrase`
 
@@ -52,23 +53,23 @@ openssl_encrypt(    string $data,    string $cipher_algo,    string $passphrase,
 
 `tag_length`
 
-Довжина параметра `tag`. Для режиму GCM має бути від 4 до 16.
+Длина параметра`tag`. Для режиму GCM має бути від 4 до 16.
 
 ### Значення, що повертаються
 
-Повертає зашифрований рядок або **`false`** у разі виникнення помилки.
+Повертає зашифрований рядок або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
 Видає помилку рівня **`E_WARNING`**, якщо параметр `cipher_algo` передано невідомий алгоритм шифрування.
 
-Видає помилку рівня **`E_WARNING`**, якщо параметр `iv` передано порожнє значення.
+Видає помилку рівня **`E_WARNING`**, якщо параметр `iv`передано пустое значение.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Додані параметри `tag` `aad` і `tag_length` |
+| 7.1.0 | Додані параметри `tag` `aad`и`tag_length` |
 
 ### Приклади
 
@@ -122,4 +123,4 @@ if (hash_equals($hmac, $calcmac))// сравнение, не подвержен�
 
 ### Дивіться також
 
--   [openssldecrypt()](function.openssl-decrypt.md) - Розшифровує дані
+-   [openssl\_decrypt()](function.openssl-decrypt.md) \- Розшифровує дані

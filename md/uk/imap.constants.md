@@ -1,237 +1,238 @@
 ---
 navigation:
   - imap.resources.md: « Типи ресурсів
-  - ref.imap.md: Функции IMAP »
+  - ref.imap.md: Функції IMAP »
   - index.md: PHP Manual
   - book.imap.md: IMAP
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.
 
-**`NIL`** (int)
+**`NIL`**(int)
 
 Оголошена застарілою починаючи з PHP 8.1.0.
 
-**`OP_DEBUG`** (int)
+**`OP_DEBUG`**(int)
 
-**`OP_READONLY`** (int)
+**`OP_READONLY`**(int)
 
 Відкрити поштову скриньку тільки для читання
 
-**`OP_ANONYMOUS`** (int)
+**`OP_ANONYMOUS`**(int)
 
 Не використовуйте оновлення .newsrc для новин (тільки для NNTP)
 
-**`OP_SHORTCACHE`** (int)
+**`OP_SHORTCACHE`**(int)
 
-**`OP_SILENT`** (int)
+**`OP_SILENT`**(int)
 
-**`OP_PROTOTYPE`** (int)
+**`OP_PROTOTYPE`**(int)
 
-**`OP_HALFOPEN`** (int)
+**`OP_HALFOPEN`**(int)
 
 Для IMAP та NNTP імен, відкрити з'єднання, але не відкривати поштову скриньку.
 
-**`OP_EXPUNGE`** (int)
+**`OP_EXPUNGE`**(int)
 
-**`OP_SECURE`** (int)
+**`OP_SECURE`**(int)
 
-**`CL_EXPUNGE`** (int)
+**`CL_EXPUNGE`**(int)
 
-Не надаючи жодних попереджень прати повідомлення перед тим, як закрити під час виклику [imapclose()](function.imap-close.md)
+Не надаючи жодних попереджень прати повідомлення перед тим, як закрити під час виклику [imap\_close()](function.imap-close.md)
 
-**`FT_UID`** (int)
+**`FT_UID`**(int)
 
 Параметром є UID
 
-**`FT_PEEK`** (int)
+**`FT_PEEK`**(int)
 
-Не встановлювати прапор Seen, якщо до цього він ще не встановлений
+Не встановлювати прапор \\Seen, якщо до цього він ще не встановлений
 
-**`FT_NOT`** (int)
+**`FT_NOT`**(int)
 
-**`FT_INTERNAL`** (int)
+**`FT_INTERNAL`**(int)
 
-Повертається рядок у внутрішньому форматі. Не буде канонізована до виду CRLF.
+Повертається рядок у внутрішньому форматі. Не буде канонізовано до виду CRLF.
 
-**`FT_PREFETCHTEXT`** (int)
+**`FT_PREFETCHTEXT`**(int)
 
-**`ST_UID`** (int)
+**`ST_UID`**(int)
 
-Послідовність аргументів містить ідентифікатори UID замість послідовності номерів
+Послідовність аргументів, що містить ідентифікатори UID замість послідовності номерів
 
-**`ST_SILENT`** (int)
+**`ST_SILENT`**(int)
 
-**`ST_SET`** (int)
+**`ST_SET`**(int)
 
-**`CP_UID`** (int)
+**`CP_UID`**(int)
 
 порядкові номери, що містять ідентифікатори UID
 
-**`CP_MOVE`** (int)
+**`CP_MOVE`**(int)
 
-Видалити повідомлення з поточної поштової скриньки після копіювання за допомогою [imapmailcopy()](function.imap-mail-copy.md)
+Видалити повідомлення з поточної поштової скриньки після копіювання за допомогою [imap\_mail\_copy()](function.imap-mail-copy.md)
 
-**`SE_UID`** (int)
+**`SE_UID`**(int)
 
 Повертати ідентифікатори UID замість порядкових номерів
 
-**`SE_FREE`** (int)
+**`SE_FREE`**(int)
 
-**`SE_NOPREFETCH`** (int)
+**`SE_NOPREFETCH`**(int)
 
 Не виконувати передвиборку знайдених повідомлень
 
-**`SO_FREE`** (int)
+**`SO_FREE`**(int)
 
-**`SO_NOSERVER`** (int)
+**`SO_NOSERVER`**(int)
 
-**`SA_MESSAGES`** (int)
+**`SA_MESSAGES`**(int)
 
-**`SA_RECENT`** (int)
+**`SA_RECENT`**(int)
 
-**`SA_UNSEEN`** (int)
+**`SA_UNSEEN`**(int)
 
-**`SA_UIDNEXT`** (int)
+**`SA_UIDNEXT`**(int)
 
-**`SA_UIDVALIDITY`** (int)
+**`SA_UIDVALIDITY`**(int)
 
-**`SA_ALL`** (int)
+**`SA_ALL`**(int)
 
-**`LATT_NOINFERIORS`** (int)
+**`LATT_NOINFERIORS`**(int)
 
 Ця поштова скринька не має "нащадків". (Поштові скриньки за цим відсутні)
 
-**`LATT_NOSELECT`** (int)
+**`LATT_NOSELECT`**(int)
 
 Це лише контейнер, а не поштова скринька. Ви не можете його відкрити.
 
-**`LATT_MARKED`** (int)
+**`LATT_MARKED`**(int)
 
 Ця поштова скринька позначена. Використовується лише UW-IMAPD.
 
-**`LATT_UNMARKED`** (int)
+**`LATT_UNMARKED`**(int)
 
 Ця поштова скринька не помічена. Використовується лише з UW-IMAPD.
 
-**`LATT_REFERRAL`** (int)
+**`LATT_REFERRAL`**(int)
 
 Цей контейнер має напрямки (referral) на віддалену поштову скриньку.
 
-**`LATT_HASCHILDREN`** (int)
+**`LATT_HASCHILDREN`**(int)
 
 Ця поштова скринька має підпорядковані (inferiors).
 
-**`LATT_HASNOCHILDREN`** (int)
+**`LATT_HASNOCHILDREN`**(int)
 
 Ця поштова скринька не має підлеглі (inferiors).
 
-**`SORTDATE`** (int)
+**`SORTDATE`**(int)
 
-Критерій сортування для [imapsort()](function.imap-sort.md): дата написання
+Критерій сортування для [imap\_sort()](function.imap-sort.md): дата написання
 
-**`SORTARRIVAL`** (int)
+**`SORTARRIVAL`**(int)
 
-Критерій сортування для [imapsort()](function.imap-sort.md): дата доставки
+Критерій сортування для [imap\_sort()](function.imap-sort.md): дата доставки
 
-**`SORTFROM`** (int)
+**`SORTFROM`**(int)
 
-Критерій сортування для [imapsort()](function.imap-sort.md): поштова скринька перша у полі "від кого" (поле `from`
+Критерій сортування для [imap\_sort()](function.imap-sort.md): поштова скринька перша у полі "від кого" (поле `from`) .
 
-**`SORTSUBJECT`** (int)
+**`SORTSUBJECT`**(int)
 
-Критерій сортування для [imapsort()](function.imap-sort.md): Тема листа
+Критерій сортування для [imap\_sort()](function.imap-sort.md): Тема листа
 
-**`SORTTO`** (int)
+**`SORTTO`**(int)
 
-Критерій сортування для [imapsort()](function.imap-sort.md): поштова скринька перша у полі "кому" (поле `to`
+Критерій сортування для [imap\_sort()](function.imap-sort.md): поштова скринька перша у полі "кому" (поле `to`) .
 
-**`SORTCC`** (int)
+**`SORTCC`**(int)
 
-Критерій сортування для [imapsort()](function.imap-sort.md): поштова скринька перша у полі "копія" (поле `cc`
+Критерій сортування для [imap\_sort()](function.imap-sort.md): поштова скринька перша у полі "копія" (поле `cc`) .
 
-**`SORTSIZE`** (int)
+**`SORTSIZE`**(int)
 
-Критерій сортування для [imapsort()](function.imap-sort.md): розмір повідомлення в байтах
+Критерій сортування для [imap\_sort()](function.imap-sort.md): розмір повідомлення в байтах
 
-**`TYPETEXT`** (int)
+**`TYPETEXT`**(int)
 
 Первинний тип тіла: неформатований текст
 
-**`TYPEMULTIPART`** (int)
+**`TYPEMULTIPART`**(int)
 
 Первинний тип тіла: кілька частин
 
-**`TYPEMESSAGE`** (int)
+**`TYPEMESSAGE`**(int)
 
 Первинний тип тіла повідомлення: інкапсульоване повідомлення
 
-**`TYPEAPPLICATION`** (int)
+**`TYPEAPPLICATION`**(int)
 
 Первинний тип тіла повідомлення: дані програми
 
-**`TYPEAUDIO`** (int)
+**`TYPEAUDIO`**(int)
 
 Первинний тип тіла повідомлення: аудіо
 
-**`TYPEIMAGE`** (int)
+**`TYPEIMAGE`**(int)
 
 Первинний тип тіла повідомлення: статичне зображення
 
-**`TYPEVIDEO`** (int)
+**`TYPEVIDEO`**(int)
 
 Первинний тип тіла: відео
 
-**`TYPEMODEL`** (int)
+**`TYPEMODEL`**(int)
 
 Первинний тип тіла: модель
 
-**`TYPEOTHER`** (int)
+**`TYPEOTHER`**(int)
 
 Первинний тип тіла повідомлення: невідомо
 
-**`ENC7BIT`** (int)
+**`ENC7BIT`**(int)
 
 Кодування тіла повідомлення: 7-бітові дані в семантиці SMTP
 
-**`ENC8BIT`** (int)
+**`ENC8BIT`**(int)
 
 Кодування тіла повідомлення: 8-бітові дані в семантиці SMTP
 
-**`ENCBINARY`** (int)
+**`ENCBINARY`**(int)
 
 Кодування тіла повідомлення: 7-бітові двійкові дані
 
-**`ENCBASE64`** (int)
+**`ENCBASE64`**(int)
 
 Кодування тіла повідомлення: дані закодовані у base-64
 
-**`ENCQUOTEDPRINTABLE`** (int)
+**`ENCQUOTEDPRINTABLE`**(int)
 
 Кодування тіла повідомлення: людино-читані 7-як-8 бітні дані
 
-**`ENCOTHER`** (int)
+**`ENCOTHER`**(int)
 
 Кодування тіла повідомлення: невідомо
 
-**`IMAP_OPENTIMEOUT`** (int)
+**`IMAP_OPENTIMEOUT`**(int)
 
-**`IMAP_READTIMEOUT`** (int)
+**`IMAP_READTIMEOUT`**(int)
 
-**`IMAP_WRITETIMEOUT`** (int)
+**`IMAP_WRITETIMEOUT`**(int)
 
-**`IMAP_CLOSETIMEOUT`** (int)
+**`IMAP_CLOSETIMEOUT`**(int)
 
-**`IMAP_GC_ELT`** (int)
+**`IMAP_GC_ELT`**(int)
 
 Складальник сміття, очищає елементи кешу повідомлень.
 
-**`IMAP_GC_ENV`** (int)
+**`IMAP_GC_ENV`**(int)
 
 Складальник сміття, очищає обгортку та тіло повідомлення.
 
-**`IMAP_GC_TEXTS`** (int)
+**`IMAP_GC_TEXTS`**(int)
 
 Складальник сміття, очищає текст.

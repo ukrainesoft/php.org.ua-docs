@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mailparse-msg-parse.md: « mailparsemsgparse
-  - function.mailparse-stream-encode.md: mailparsestreamencode »
+  - function.mailparse-msg-parse.md: « mailparse\_msg\_parse
+  - function.mailparse-stream-encode.md: mailparse\_stream\_encode »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
-title: mailparserfc822parseaddresses
+title: mailparse\_rfc822\_parse\_addresses
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mailparserfc822parseaddresses
+# mailparse\_rfc822\_parse\_addresses
 
 (PECL mailparse >= 0.9.0)
 
-mailparserfc822parseaddresses — Розібрати адреси відповідно до RFC 822
+mailparse\_rfc822\_parse\_addresses — Розібрати адреси відповідно до RFC 822
 
 ### Опис
 
@@ -18,7 +19,7 @@ mailparserfc822parseaddresses — Розібрати адреси відпові
 mailparse_rfc822_parse_addresses(string $addresses): array
 ```
 
-Розбирає список одержувачів відповідно до [» RFC 822](http://www.faqs.org/rfcs/rfc822). Список одержувачів зазвичай знаходиться у заголовку `To:`
+Розбирає список одержувачів відповідно до [» RFC 822](http://www.faqs.org/rfcs/rfc822). Список одержувачів зазвичай знаходиться у заголовку `To:`
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ mailparse_rfc822_parse_addresses(string $addresses): array
 
 Рядок, що містить адреси. Наприклад: `Wez Furlong <wez@example.com>, doe@example.com`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей рядок не повинен містити назву заголовка.
 
@@ -40,7 +41,7 @@ mailparse_rfc822_parse_addresses(string $addresses): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mailparserfc822parseaddresses()****
+**Пример #1 Пример использования**mailparse\_rfc822\_parse\_addresses()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ var_dump(mailparse_rfc822_parse_addresses($to));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {

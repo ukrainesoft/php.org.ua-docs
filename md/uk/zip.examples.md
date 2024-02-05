@@ -1,10 +1,11 @@
 ---
 navigation:
-  - zip.constants.md: « Обумовлені константи
+  - zip.constants.md: « Зумовлені константи
   - class.ziparchive.md: ZipArchive »
   - index.md: PHP Manual
   - book.zip.md: Zip
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

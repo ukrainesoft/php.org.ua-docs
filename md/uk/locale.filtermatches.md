@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.locale.md: Locale
 title: 'Locale::filterMatches'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Locale::filterMatches
 
-# localefiltermatches
+# locale\_filter\_matches
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::filterMatches -- localefiltermatches — Перевірити, чи відповідає тег фільтра мови локалі
+Locale::filterMatches -- locale\_filter\_matches — Перевірити, чи відповідає тег фільтра мови локалі
 
 ### Опис
 
@@ -46,13 +47,13 @@ locale_filter_matches(string $langtag, string $locale, bool $canonicalize = fals
 
 ### Значення, що повертаються
 
-**`true`** якщо `locale` підходить для `languageTag`, або **`false`**, якщо ні.
+**`true`** якщо `locale`подходит для`languageTag`, или\*\*`false`\*\*, якщо ні.
 
 Повертає \*\*`null`\*\*якщо довжина `locale` перевищує **`INTL_MAX_LOCALE_LEN`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **localefiltermatches()****
+**Пример #1 Пример использования**locale\_filter\_matches()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ echo (Locale::filterMatches('de-DE-1996','de-DE', false)) ? "Подходит" :
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Не подходит; Подходит
@@ -80,4 +81,4 @@ echo (Locale::filterMatches('de-DE-1996','de-DE', false)) ? "Подходит" :
 
 ### Дивіться також
 
--   [localelookup()](locale.lookup.md) - Пошук мовних позначок найбільш відповідних заданої локалі
+-   [locale\_lookup()](locale.lookup.md) \- Пошук мовних позначок найбільш відповідних заданої локалі

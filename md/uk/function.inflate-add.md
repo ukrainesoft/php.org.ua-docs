@@ -1,16 +1,17 @@
 ---
 navigation:
   - function.gzwrite.md: « gzwrite
-  - function.inflate-get-read-len.md: inflategetreadlen »
+  - function.inflate-get-read-len.md: inflate\_get\_read\_len »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
-title: inflateadd
+  - ref.zlib.md: Функції Zlib
+title: inflate\_add
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# inflateadd
+# inflate\_add
 
 (PHP 7, PHP 8)
 
-inflateadd — Інкрементальне розпакування закодованих даних
+inflate\_add — Інкрементальне розпакування закодованих даних
 
 ### Опис
 
@@ -26,7 +27,7 @@ inflate_add(InflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 `context`
 
-Контекст, створений за допомогою [inflateinit()](function.inflate-init.md)
+Контекст, створений за допомогою [inflate\_init()](function.inflate-init.md)
 
 `data`
 
@@ -34,11 +35,11 @@ inflate_add(InflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 `flush_mode`
 
-Одна з констант: **`ZLIB_BLOCK`** **`ZLIB_NO_FLUSH`** **`ZLIB_PARTIAL_FLUSH`** **`ZLIB_SYNC_FLUSH`** (за замовчуванням), **`ZLIB_FULL_FLUSH`** **`ZLIB_FINISH`**. Зазвичай потрібно встановити **`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** завершення роботи з останнім блоком даних. Детальний опис констант дивіться в [» руководство zlib](http://www.zlib.net/manual.md)
+Одна из констант:**`ZLIB_BLOCK`** **`ZLIB_NO_FLUSH`** **`ZLIB_PARTIAL_FLUSH`** **`ZLIB_SYNC_FLUSH`**(по умолчанию),**`ZLIB_FULL_FLUSH`** **`ZLIB_FINISH`**. Зазвичай потрібно встановити **`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** завершення роботи з останнім блоком даних. Детальний опис констант дивіться в [» керівництво zlib](http://www.zlib.net/manual.md)
 
 ### Значення, що повертаються
 
-Повертає блок розпакованих даних або **`false`** у разі виникнення помилки.
+Повертає блок розпакованих даних або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -46,10 +47,10 @@ inflate_add(InflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.md); раніше, очікувався ресурс (resource). |
+| 8.0.0 | `context` чекає на екземпляр [InflateContext](class.inflatecontext.md); раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [inflateinit()](function.inflate-init.md) - Ініціалізація контексту інкрементального розпакування
+-   [inflate\_init()](function.inflate-init.md) \- Ініціалізація контексту інкрементального розпакування

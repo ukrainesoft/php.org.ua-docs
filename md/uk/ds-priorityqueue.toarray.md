@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-priorityqueue.push.md: '« DsPriorityQueue::push'
-  - book.var_representation.md: varrepresentation »
+  - ds-priorityqueue.push.md: '« Ds\\PriorityQueue::push'
+  - book.var_representation.md: var\_representation »
   - index.md: PHP Manual
-  - class.ds-priorityqueue.md: Черга з пріоритетом
-title: 'ДсPriorityQueue::toArray'
+  - class.ds-priorityqueue.md: Ds\\PriorityQueue
+title: 'Ds\\PriorityQueue::toArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсPriorityQueue::toArray
+# Ds\\PriorityQueue::toArray
 
 (PECL ds >= 1.0.0)
 
-ДсPriorityQueue::toArray — Перетворює чергу на масив (array)
+Ds\\PriorityQueue::toArray — Перетворює чергу на масив (array)
 
 ### Опис
 
@@ -20,11 +21,11 @@ public Ds\PriorityQueue::toArray(): array
 
 Перетворює чергу на масив (array).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей метод не є руйнівним.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Приведення до типу array поки що не підтримується.
 
@@ -34,11 +35,11 @@ public Ds\PriorityQueue::toArray(): array
 
 ### Значення, що повертаються
 
-Масив (array), що містить всі елементи черги із збереженням їхнього порядку.
+Повертає масив (array), що містить всі елементи черги, зберігаючи порядок, у якому вони зберігалися.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсPriorityQueue::toArray()****
+**Пример #1 Пример использования**Ds\\PriorityQueue::toArray()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($queue->toArray());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(3) {

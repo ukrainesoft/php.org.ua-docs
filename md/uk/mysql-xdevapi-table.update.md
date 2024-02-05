@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-table.select.md: '« Table::select'
-  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete »
+  - class.mysql-xdevapi-tabledelete.md: mysql\_xdevapi\\TableDelete »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: mysql\_xdevapi\\Table
 title: 'Table::update'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Table::update
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Table::update(): mysql_xdevapi\TableUpdate
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTable::update()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Table::update()\*\*\*\*
 
 ```php
 <?php

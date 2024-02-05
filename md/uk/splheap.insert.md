@@ -5,20 +5,21 @@ navigation:
   - index.md: PHP Manual
   - class.splheap.md: SplHeap
 title: 'SplHeap::insert'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplHeap::insert
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplHeap::insert — Вставляє елемент у купу та пересортує її
 
 ### Опис
 
 ```methodsynopsis
-public SplHeap::insert(mixed $value): bool
+public SplHeap::insert(mixed $value): true
 ```
 
-Вставляє `value` в купу.
+Вставляет`value`в кучу.
 
 ### Список параметрів
 
@@ -28,4 +29,4 @@ public SplHeap::insert(mixed $value): bool
 
 ### Значення, що повертаються
 
-Завжди повертає **`true`**
+Функція завжди повертає **`true`**

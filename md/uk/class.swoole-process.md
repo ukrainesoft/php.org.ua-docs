@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.swoole-mysql-exception.md: « SwooleMySQLException
-  - swoole-process.alarm.md: 'SwooleProcess::alarm »'
+  - class.swoole-mysql-exception.md: « Swoole\\MySQL\\Exception
+  - swoole-process.alarm.md: 'Swoole\\Process::alarm »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
-title: Клас SwooleProcess
+title: Клас Swoole\\Process
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас SwooleProcess
+# Клас Swoole\\Process
 
 (PECL swoole >= 1.9.0)
 
@@ -61,22 +62,22 @@ public write(string $data): int
 
 ## Зміст
 
--   [SwooleProcess::alarm](swoole-process.alarm.md) — Таймер високої точності, який запускає сигнал із фіксованим інтервалом
--   [SwooleProcess::close](swoole-process.close.md) — Закриває канал для дочірнього процесу
--   [SwooleProcess::construct](swoole-process.construct.md) - Створює процес
--   [SwooleProcess::daemon](swoole-process.daemon.md) - Змінює процес на процес-демон
--   [SwooleProcess::destruct](swoole-process.destruct.md) - Знищує процес
--   [SwooleProcess::exec](swoole-process.exec.md) - Виконує системні команди
--   [SwooleProcess::exit](swoole-process.exit.md) - Зупиняє дочірні процеси
--   [SwooleProcess::freeQueue](swoole-process.freequeue.md) — Знищує чергу повідомлень, створену swooleprocess::useQueue
--   [SwooleProcess::kill](swoole-process.kill.md) — Надсилає сигнал дочірньому процесу
--   [SwooleProcess::name](swoole-process.name.md) — Встановлює назву процесу
--   [SwooleProcess::pop](swoole-process.pop.md) — Читає та витягує дані з черги повідомлень
--   [SwooleProcess::push](swoole-process.push.md) — Записує та поміщає дані в чергу повідомлень
--   [SwooleProcess::read](swoole-process.read.md) - Читає дані відправки в процес
--   [SwooleProcess::signal](swoole-process.signal.md) — Надсилає сигнал дочірнім процесам
--   [SwooleProcess::start](swoole-process.start.md) - Запускає процес
--   [SwooleProcess::statQueue](swoole-process.statqueue.md) — Отримує статистику черги повідомлень, яка використовується як метод зв'язку між процесами
--   [SwooleProcess::useQueue](swoole-process.usequeue.md) — Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
--   [SwooleProcess::wait](swoole-process.wait.md) — Чекає на події дочірніх процесів
--   [SwooleProcess::write](swoole-process.write.md) — Записує дані до каналу та зв'язується з батьківським процесом або дочірніми процесами
+-   [Swoole\\Process::alarm](swoole-process.alarm.md)— Таймер високої точності, який запускає сигнал із фіксованим інтервалом
+-   [Swoole\\Process::close](swoole-process.close.md)— Закриває канал для дочірнього процесу
+-   [Swoole\\Process::\_\_construct](swoole-process.construct.md) \- Створює процес
+-   [Swoole\\Process::daemon](swoole-process.daemon.md) \- Змінює процес на процес-демон
+-   [Swoole\\Process::\_\_destruct](swoole-process.destruct.md) \- Знищує процес
+-   [Swoole\\Process::exec](swoole-process.exec.md) \- Виконує системні команди
+-   [Swoole\\Process::exit](swoole-process.exit.md) \- Зупиняє дочірні процеси
+-   [Swoole\\Process::freeQueue](swoole-process.freequeue.md)— Знищує чергу повідомлень, створену swoole\_process::useQueue
+-   [Swoole\\Process::kill](swoole-process.kill.md)— Надсилає сигнал дочірньому процесу
+-   [Swoole\\Process::name](swoole-process.name.md) \- Встановлює назву процесу
+-   [Swoole\\Process::pop](swoole-process.pop.md)— Читає та витягує дані з черги повідомлень
+-   [Swoole\\Process::push](swoole-process.push.md)— Записує та поміщає дані в чергу повідомлень
+-   [Swoole\\Process::read](swoole-process.read.md) \- Читає дані відправки в процес
+-   [Swoole\\Process::signal](swoole-process.signal.md)— Надсилає сигнал дочірнім процесам
+-   [Swoole\\Process::start](swoole-process.start.md) \- Запускає процес
+-   [Swoole\\Process::statQueue](swoole-process.statqueue.md)— Отримує статистику черги повідомлень, яка використовується як метод зв'язку між процесами
+-   [Swoole\\Process::useQueue](swoole-process.usequeue.md)— Створює чергу повідомлень як метод зв'язку між батьківським процесом та дочірніми процесами
+-   [Swoole\\Process::wait](swoole-process.wait.md)— Чекає на події дочірніх процесів
+-   [Swoole\\Process::write](swoole-process.write.md)— Записує дані до каналу та зв'язується з батьківським процесом або дочірніми процесами

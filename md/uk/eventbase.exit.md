@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbase.md: EventBase
 title: 'EventBase::exit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBase::exit
 
@@ -32,8 +33,8 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventBase::stop()](eventbase.stop.md) - Повідомляє eventbase припинити відправку подій
+-   [EventBase::stop()](eventbase.stop.md) \- повідомляє event\_base припинити відправку подій

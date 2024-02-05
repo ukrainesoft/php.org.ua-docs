@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-num-fields.md: « ocinumfields
-  - function.oci-parse.md: ociparse »
+  - function.oci-num-fields.md: « oci\_num\_fields
+  - function.oci-parse.md: oci\_parse »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocinumrows
+  - ref.oci8.md: OCI8 Функції
+title: oci\_num\_rows
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocinumrows
+# oci\_num\_rows
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocinumrows — Повертає кількість рядків, змінених під час виконання запиту
+oci\_num\_rows — Повертає кількість рядків, змінених під час виконання запиту
 
 ### Опис
 
@@ -28,11 +29,11 @@ oci_num_rows(resource $statement): int|false
 
 ### Значення, що повертаються
 
-Повертає число порушених рядків у вигляді integer або **`false`** у разі виникнення помилки
+Повертає число порушених рядків у вигляді integer або \*\*`false`\*\*в случае возникновения ошибки
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ocinumrows()****
+**Пример #1 Пример использования**oci\_num\_rows()\*\*\*\*
 
 ```php
 <?php
@@ -65,10 +66,6 @@ oci_close($conn);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Функція *не* повертає кількість рядків у результаті вираження SELECT! Для запитів SELECT **ocinumrows()** поверне кількість рядків, які були прочитані в буфер за допомогою функцій **ocifetch**
-
-> **Зауваження**
-> 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocirowcount()](function.ocirowcount.md). У PHP 5.0.0 і вище [ocirowcount()](function.ocirowcount.md) є аліасом \*\*ocinumrows()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> Функция*не* повертає кількість рядків у результаті виразу SELECT! Для запитів SELECT **oci\_num\_rows()** поверне кількість рядків, які були прочитані в буфер за допомогою функцій **oci\_fetch\*()**

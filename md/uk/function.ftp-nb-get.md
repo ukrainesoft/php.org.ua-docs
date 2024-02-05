@@ -1,32 +1,33 @@
 ---
 navigation:
-  - function.ftp-nb-fput.md: « ftpнбfput
-  - function.ftp-nb-put.md: ftpнбput »
+  - function.ftp-nb-fput.md: « ftp\_nb\_fput
+  - function.ftp-nb-put.md: ftp\_nb\_put »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpнбget
+title: ftp\_nb\_get
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpнбget
+# ftp\_nb\_get
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-ftpнбget — Завантажує файл із FTP-сервера в асинхронному режимі та зберігає його у локальний файл
+ftp\_nb\_get — Завантажує файл із FTP-сервера в асинхронному режимі та зберігає його у локальний файл
 
 ### Опис
 
 ```methodsynopsis
-ftp_nb_get(    FTP\Connection $ftp,    string $local_filename,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): int
+ftp_nb_get(    FTP\Connection $ftp,    string $local_filename,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): int|false
 ```
 
-**ftpнбget()** завантажує віддалений файл з FTP-сервера та зберігає його у локальний файл.
+**ftp\_nb\_get()** завантажує віддалений файл з FTP-сервера та зберігає його у локальний файл.
 
-Різниця між цією функцією та [ftpget()](function.ftp-get.md) полягає в тому, що ця функція отримує файл асинхронно, так що ваша програма може здійснювати інші операції, поки файл завантажується.
+Різниця між цією функцією та [ftp\_get()](function.ftp-get.md) полягає в тому, що ця функція отримує файл асинхронно, так що ваша програма може здійснювати інші операції, поки файл завантажується.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `local_filename`
 
@@ -38,7 +39,7 @@ ftp_nb_get(    FTP\Connection $ftp,    string $local_filename,    string $remote
 
 `mode`
 
-Режим передачі. Має бути або **`FTP_ASCII`**, або **`FTP_BINARY`**
+Режим передачі. Має бути або **`FTP_ASCII`**, либо\*\*`FTP_BINARY`\*\*
 
 `offset`
 
@@ -46,18 +47,18 @@ ftp_nb_get(    FTP\Connection $ftp,    string $local_filename,    string $remote
 
 ### Значення, що повертаються
 
-Повертає **`FTP_FAILED`** **`FTP_FINISHED`** або **`FTP_MOREDATA`**
+Повертає **`FTP_FAILED`** **`FTP_FINISHED`**или**`FTP_MOREDATA`**или**`false`** якщо неможливо відкрити локальний файл.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 7.3.0 | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpнбget()****
+**Пример #1 Пример использования**ftp\_nb\_get()\*\*\*\*
 
 ```php
 <?php
@@ -79,7 +80,7 @@ if ($ret != FTP_FINISHED) {
 ?>
 ```
 
-**Приклад #2 Відновлення завантаження файлу за допомогою **ftpнбget()****
+**Пример #2 Возобновление скачивания файла с помощью**ftp\_nb\_get()\*\*\*\*
 
 ```php
 <?php
@@ -104,7 +105,7 @@ if ($ret != FTP_FINISHED) {
 ?>
 ```
 
-**Приклад #3 Завантаження файлу починаючи з позиції 100 в новий файл за допомогою **ftpнбget()****
+**Приклад #3 Завантаження файлу починаючи з позиції 100 в новий файл за допомогою **ftp\_nb\_get()****
 
 ```php
 <?php
@@ -128,7 +129,7 @@ while ($ret == FTP_MOREDATA) {
 
 ### Дивіться також
 
--   [ftpнбfget()](function.ftp-nb-fget.md) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі
--   [ftpнбcontinue()](function.ftp-nb-continue.md) - Продовжує асинхронну операцію
--   [ftpfget()](function.ftp-fget.md) - Завантажує файл з FTP-сервера та зберігає його у попередньо відкритому файлі
--   [ftpget()](function.ftp-get.md) - Завантажує файл із FTP-сервера
+-   [ftp\_nb\_fget()](function.ftp-nb-fget.md) \- Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі
+-   [ftp\_nb\_continue()](function.ftp-nb-continue.md) \- Продовжує асинхронну операцію
+-   [ftp\_fget()](function.ftp-fget.md) \- Завантажує файл з FTP-сервера та зберігає його у попередньо відкритому файлі
+-   [ftp\_get()](function.ftp-get.md) \- Завантажує файл із FTP-сервера

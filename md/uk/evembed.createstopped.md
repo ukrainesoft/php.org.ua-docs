@@ -1,10 +1,11 @@
 ---
 navigation:
-  - evembed.construct.md: '« EvEmbed::construct'
+  - evembed.construct.md: '« EvEmbed::\_\_construct'
   - evembed.set.md: 'EvEmbed::set »'
   - index.md: PHP Manual
   - class.evembed.md: EvEmbed
 title: 'EvEmbed::createStopped'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvEmbed::createStopped
 
@@ -18,40 +19,40 @@ EvEmbed::createStopped — Створює зупинений об'єкт спо�
 final
    public
    static
-   EvEmbed::createStopped(    
+   EvEmbed::createStopped(    
     object
      $other
-   ,    
+   ,    
     callable
      $callback
-    = ?,    
+    = ?,    
     mixed
      $data
-    = ?,    
+    = ?,    
     int
      $priority
     = ?): void
 ```
 
-Те саме, що й [EvEmbed::construct()](evembed.construct.md) , але спостерігача не буде автоматично запущено.
+Те саме, що й [EvEmbed::\_\_construct()](evembed.construct.md) , але спостерігача не буде автоматично запущено.
 
 ### Список параметрів
 
 `other`
 
-Те саме, що і для [EvEmbed::construct()](evembed.construct.md)
+Те саме, що і для [EvEmbed::\_\_construct()](evembed.construct.md)
 
 `callback`
 
-Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.md)
+Смотрите[callback-функції спостерігачів](ev.watcher-callbacks.md)
 
 `data`
 
-Дані користувача, асоційовані зі спостерігачем.
+Дані користувача, асоційовані з спостерігачем.
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
+[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
@@ -59,5 +60,5 @@ final
 
 ### Дивіться також
 
--   [EvEmbed::construct()](evembed.construct.md) - Конструктор об'єкту EvEmbed
--   [Ev::embeddableBackends()](ev.embeddablebackends.md) - Повертає набір бекендів, які можна вбудувати в інші цикли подій
+-   [EvEmbed::\_\_construct()](evembed.construct.md) \- Конструктор об'єкту EvEmbed
+-   [Ev::embeddableBackends()](ev.embeddablebackends.md) \- Повертає набір бекендів, які можна вбудувати в інші цикли подій

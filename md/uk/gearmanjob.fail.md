@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::fail'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanJob::fail
 
@@ -20,7 +21,7 @@ public GearmanJob::fail(): bool
 
 Посилає статус про невдалу обробку, вказуючи, що завдання завершилося невдало з відомих причин (на відміну невдалого завершення, коли викидається виняток).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей метод було замінено на [GearmanJob::sendFail()](gearmanjob.sendfail.md) у версії 0.6.0 модуля Gearman.
 
@@ -30,11 +31,11 @@ public GearmanJob::fail(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [GearmanJob::sendException()](gearmanjob.sendexception.md) - Відправлення виключення завдання, що виконується
--   [GearmanJob::setReturn()](gearmanjob.setreturn.md) - Встановлення значення, що повертається
--   [GearmanJob::sendStatus()](gearmanjob.sendstatus.md) - Надсилання статусу
--   [GearmanJob::sendWarning()](gearmanjob.sendwarning.md) - Відправлення попередження
+-   [GearmanJob::sendException()](gearmanjob.sendexception.md) \- Відправлення виключення завдання, що виконується
+-   [GearmanJob::setReturn()](gearmanjob.setreturn.md) \- Встановлення значення, що повертається
+-   [GearmanJob::sendStatus()](gearmanjob.sendstatus.md) \- Надсилання статусу
+-   [GearmanJob::sendWarning()](gearmanjob.sendwarning.md) \- Відправлення попередження

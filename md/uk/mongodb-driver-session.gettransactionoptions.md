@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-session.getserver.md: '« MongoDBDriverSession::getServer'
-  - mongodb-driver-session.gettransactionstate.md: 'MongoDBDriverSession::getTransactionState »'
+  - mongodb-driver-session.getserver.md: '« MongoDB\\Driver\\Session::getServer'
+  - mongodb-driver-session.gettransactionstate.md: 'MongoDB\\Driver\\Session::getTransactionState »'
   - index.md: PHP Manual
-  - class.mongodb-driver-session.md: MongoDBDriverSession
-title: 'MongoDBDriverSession::getTransactionOptions'
+  - class.mongodb-driver-session.md: MongoDB\\Driver\\Session
+title: 'MongoDB\\Driver\\Session::getTransactionOptions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverSession::getTransactionOptions
+# MongoDB\\Driver\\Session::getTransactionOptions
 
 (mongodb >=1.7.0)
 
-MongoDBDriverSession::getTransactionOptions — Повертає установки поточної транзакції
+MongoDB\\Driver\\Session::getTransactionOptions — Повертає установки поточної транзакції
 
 ### Опис
 
@@ -30,8 +31,8 @@ final public MongoDB\Driver\Session::getTransactionOptions(): ?array
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverSession::getTransactionState()](mongodb-driver-session.gettransactionstate.md) - Повертає статус транзакції для поточної сесії
+-   [MongoDB\\Driver\\Session::getTransactionState()](mongodb-driver-session.gettransactionstate.md) \- Повертає статус транзакції для поточної сесії

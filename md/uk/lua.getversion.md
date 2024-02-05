@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.lua.md: Lua
 title: 'Lua::getVersion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Lua::getVersion
 
-(PECL lua> = 0.9.0)
+(PECL lua >=0.9.0)
 
 Lua::getVersion — Повертає версію
 
@@ -20,7 +21,7 @@ public Lua::getVersion(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,4 +29,4 @@ public Lua::getVersion(): string
 
 ### Значення, що повертаються
 
-Повертає Lua::LUAVERSION.
+Повертає Lua::LUA\_VERSION.

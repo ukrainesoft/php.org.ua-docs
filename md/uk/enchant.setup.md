@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.enchant.md: « Введение
+  - intro.enchant.md: '" Вступ'
   - enchant.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.enchant.md: Enchant
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - hashcontext.construct.md: '« HashContext::construct'
-  - hashcontext.unserialize.md: 'HashContext::unserialize »'
+  - hashcontext.construct.md: '« HashContext::\_\_construct'
+  - hashcontext.unserialize.md: 'HashContext::\_\_unserialize »'
   - index.md: PHP Manual
   - class.hashcontext.md: HashContext
-title: 'HashContext::serialize'
+title: 'HashContext::\_\_serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# HashContext::serialize
+# HashContext::\_\_serialize
 
 (PHP 8)
 
-HashContext::serialize — Серіалізує об'єкт HashContext
+HashContext::\_\_serialize — Серіалізує об'єкт HashContext
 
 ### Опис
 
@@ -20,7 +21,7 @@ public HashContext::__serialize(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

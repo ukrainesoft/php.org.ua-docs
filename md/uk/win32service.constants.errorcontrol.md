@@ -4,10 +4,11 @@ navigation:
   - win32service.constants.serviceflag.md: Константи прапорів сервісу Win32Service
   - index.md: PHP Manual
   - win32service.constants.md: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 **Константи контролю помилок сервісу Win32Service**
 
-| Константа | Значение | Описание |
+| Константа | Значение | Опис |
 | --- | --- | --- |
 | **`WIN32_SERVICE_ERROR_IGNORE`** | 0x00000000 | Програма, що запускається, ігнорує помилки і продовжує запускатися. |
 | **`WIN32_SERVICE_ERROR_NORMAL`** | 0x00000001 | Програма записує помилку в журнал помилок, але продовжує запускатися. |

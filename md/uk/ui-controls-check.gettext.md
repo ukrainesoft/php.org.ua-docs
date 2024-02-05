@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-check.construct.md: '« UIControlsCheck::construct'
-  - ui-controls-check.ischecked.md: 'ОЙControlsCheck::isChecked »'
+  - ui-controls-check.construct.md: '« UI\\Controls\\Check::\_\_construct'
+  - ui-controls-check.ischecked.md: 'UI\\Controls\\Check::isChecked »'
   - index.md: PHP Manual
-  - class.ui-controls-check.md: ОЙControlsCheck
-title: 'ОЙControlsCheck::getText'
+  - class.ui-controls-check.md: UI\\Controls\\Check
+title: 'UI\\Controls\\Check::getText'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsCheck::getText
+# UI\\Controls\\Check::getText
 
 (UI 0.9.9)
 
-ОЙControlsCheck::getText — Отримати текст
+UI\\Controls\\Check::getText — Отримати текст
 
 ### Опис
 

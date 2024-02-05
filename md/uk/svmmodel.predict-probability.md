@@ -4,13 +4,14 @@ navigation:
   - svmmodel.predict.md: 'SVMModel::predict »'
   - index.md: PHP Manual
   - class.svmmodel.md: SVMModel
-title: 'SVMModel::predictprobability'
+title: 'SVMModel::predict\_probability'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SVMModel::predictprobability
+# SVMModel::predict\_probability
 
 (PECL svm >= 0.1.4)
 
-SVMModel::predictprobability — Повертає можливість класу для заданих даних
+SVMModel::predict\_probability — Повертає можливість класу для заданих даних
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-add.md: « svnadd
-  - function.svn-auth-set-parameter.md: svnauthsetparameter »
+  - function.svn-add.md: « svn\_add
+  - function.svn-auth-set-parameter.md: svn\_auth\_set\_parameter »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnauthgetparameter
+title: svn\_auth\_get\_parameter
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnauthgetparameter
+# svn\_auth\_get\_parameter
 
 (PECL svn >= 0.1.0)
 
-svnauthgetparameter — Повертає параметр автентифікації
+svn\_auth\_get\_parameter — Повертає параметр автентифікації
 
 ### Опис
 
@@ -18,7 +19,7 @@ svnauthgetparameter — Повертає параметр автентифіка
 svn_auth_get_parameter(string $key): string
 ```
 
-Повертає параметр аутентифікації за ключем `key`. Список можливих ключів та їх значень доступний у [списке констант аутентификации](svn.constants.md#svn.constants.auth)
+Повертає параметр аутентифікації за ключем `key`. Список можливих ключів та їх значень доступний у [списку констант аутентифікації](svn.constants.md#svn.constants.auth)
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ svn_auth_get_parameter(string $key): string
 
 ### Значення, що повертаються
 
-Повертає значення параметра за ключем `key` у вигляді рядка, або \*\*`null`\*\*якщо параметр не існує.
+Возвращает значение параметра по ключу`key` у вигляді рядка, або \*\*`null`\*\*якщо параметр не існує.
 
 ### Примітки
 
@@ -38,5 +39,5 @@ svn_auth_get_parameter(string $key): string
 
 ### Дивіться також
 
--   [svnauthsetparameter()](function.svn-auth-set-parameter.md) - Встановлює параметр автентифікації
+-   [svn\_auth\_set\_parameter()](function.svn-auth-set-parameter.md) \- Встановлює параметр автентифікації
 -   [Константи аутентифікації](svn.constants.md#svn.constants.auth)

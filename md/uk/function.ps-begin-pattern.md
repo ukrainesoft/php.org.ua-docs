@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.ps-begin-page.md: «psbeginpage
-  - function.ps-begin-template.md: псbegintemplate »
+  - function.ps-begin-page.md: « ps\_begin\_page
+  - function.ps-begin-template.md: ps\_begin\_template »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псbeginpattern
+title: ps\_begin\_pattern
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псbeginpattern
+# ps\_begin\_pattern
 
 (PECL ps >= 1.2.0)
 
-псbeginpattern — Починає новий візерунок
+ps\_begin\_pattern — Починає новий візерунок
 
 ### Опис
 
 ```methodsynopsis
-ps_begin_pattern(    resource $psdoc,    float $width,    float $height,    float $xstep,    float $ystep,    int $painttype): int|false
+ps_begin_pattern(    resource $psdoc,    float $width,    float $height,    float $xstep,    float $ystep,    int $painttype): int|false
 ```
 
-Починає новий візерунок. Візерунок схожий на сторінку, що містить, наприклад, малюнок, який можна використовувати для заливання областей. Він використовується як колір, викликаючи [псsetcolor()](function.ps-setcolor.md) і встановлюючи колірний простір у `pattern`
+Починає новий візерунок. Візерунок схожий на сторінку, що містить, наприклад, малюнок, який можна використовувати для заливання областей. Він використовується як колір, викликаючи [ps\_setcolor()](function.ps-setcolor.md)и устанавливая цветовое пространство в`pattern`
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `width`
 
@@ -44,11 +45,11 @@ ps_begin_pattern(    resource $psdoc,    float $width,    float $height,    floa
 
 `painttype`
 
-Може бути 1 чи 2.
+Можливо 1 або 2.
 
 ### Значення, що повертаються
 
-Ідентифікатор візерунка або **`false`** у разі виникнення помилки.
+Ідентифікатор візерунка або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -93,6 +94,6 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [псendpattern()](function.ps-end-pattern.md) - Завершує шаблон
--   [псsetcolor()](function.ps-setcolor.md) - Встановлює поточний колір
--   [псshadingpattern()](function.ps-shading-pattern.md) - Створює візерунок на основі затінення
+-   [ps\_end\_pattern()](function.ps-end-pattern.md) \- Завершує шаблон
+-   [ps\_setcolor()](function.ps-setcolor.md) \- Встановлює поточний колір
+-   [ps\_shading\_pattern()](function.ps-shading-pattern.md) \- Створює візерунок на основі затінення

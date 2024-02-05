@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-definition.construct.md: '« ComponereDefinition::construct'
-  - componere-definition.addproperty.md: 'ComponereDefinition::addProperty »'
+  - componere-definition.construct.md: '« Componere\\Definition::\_\_construct'
+  - componere-definition.addproperty.md: 'Componere\\Definition::addProperty »'
   - index.md: PHP Manual
-  - class.componere-definition.md: ComponereDefinition
-title: 'ComponereDefinition::addConstant'
+  - class.componere-definition.md: Componere\\Definition
+title: 'Componere\\Definition::addConstant'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereDefinition::addConstant
+# Componere\\Definition::addConstant
 
 (Componere 2 >= 2.1.0)
 
-ComponereDefinition::addConstant — Додає константу
+Componere\\Definition::addConstant — Додає константу
 
 ### Опис
 

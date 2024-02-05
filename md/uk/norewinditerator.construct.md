@@ -4,17 +4,18 @@ navigation:
   - norewinditerator.current.md: 'NoRewindIterator::current »'
   - index.md: PHP Manual
   - class.norewinditerator.md: NoRewindIterator
-title: 'NoRewindIterator::construct'
+title: 'NoRewindIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# NoRewindIterator::construct
+# NoRewindIterator::\_\_construct
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-NoRewindIterator::construct — Створює новий об'єкт NoRewindIterator
+NoRewindIterator::\_\_construct — Створює новий об'єкт NoRewindIterator
 
 ### Опис
 
-public **NoRewindIterator::construct**[Iterator](class.iterator.md) `$iterator`
+public**NoRewindIterator::\_\_construct** [Iterator](class.iterator.md) `$iterator`) .
 
 Створює новий об'єкт NoRewindIterator.
 
@@ -26,7 +27,7 @@ public **NoRewindIterator::construct**[Iterator](class.iterator.md) `$iterator`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **NoRewindIterator::construct()****
+**Пример #1 Пример использования**NoRewindIterator::\_\_construct()\*\*\*\*
 
 Другий цикл нічого не виведе, оскільки ітератор використовується лише один раз і не може бути повернутий на початок.
 
@@ -49,7 +50,7 @@ foreach( $it as $item ) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Фрукт А:
@@ -61,4 +62,4 @@ foreach( $it as $item ) {
 
 ### Дивіться також
 
--   [NoRewindIterator::valid()](norewinditerator.valid.md) - перевіряє ітератор
+-   [NoRewindIterator::valid()](norewinditerator.valid.md) \- перевіряє ітератор

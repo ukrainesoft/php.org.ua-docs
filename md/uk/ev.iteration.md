@@ -3,8 +3,9 @@ navigation:
   - ev.feedsignalevent.md: '« Ev::feedSignalEvent'
   - ev.now.md: 'Ev::now »'
   - index.md: PHP Manual
-  - class.ev.md: Єв
+  - class.ev.md: Ev
 title: 'Ev::iteration'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Ev::iteration
 
@@ -33,4 +34,4 @@ final
 
 ### Дивіться також
 
--   [Ev::depth()](ev.depth.md) - Здобути глибину рекурсії
+-   [Ev::depth()](ev.depth.md) \- Здобути глибину рекурсії

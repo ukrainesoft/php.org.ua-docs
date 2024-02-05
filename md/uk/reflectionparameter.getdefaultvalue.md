@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::getDefaultValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionParameter::getDefaultValue
 
-(PHP 5> = 5.0.3, PHP 7, PHP 8)
+(PHP 5 >= 5.0.3, PHP 7, PHP 8)
 
 ReflectionParameter::getDefaultValue — Отримання стандартного значення для параметра
 
@@ -30,9 +31,9 @@ public ReflectionParameter::getDefaultValue(): mixed
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Метод тепер дозволяє отримати значення за промовчанням для параметрів вбудованих функцій та вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.md) |
+| 8.0.0 | Метод тепер дозволяє отримати значення за промовчанням для параметрів вбудованих функцій та вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.md) |
 
 ### Приклади
 
@@ -57,7 +58,7 @@ foreach ($function->getParameters() as $param) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Имя: test
@@ -68,7 +69,7 @@ foreach ($function->getParameters() as $param) {
 
 ### Дивіться також
 
--   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.md) - Перевіряє, чи є аргумент необов'язковим
--   [ReflectionParameter::isDefaultValueAvailable()](reflectionparameter.isdefaultvalueavailable.md) - Перевіряє, чи є значення за замовчуванням
--   [ReflectionParameter::getDefaultValueConstantName()](reflectionparameter.getdefaultvalueconstantname.md) - Повертає ім'я константи значення за промовчанням, якщо значення за промовчанням константа або null
--   [ReflectionParameter::isPassedByReference()](reflectionparameter.ispassedbyreference.md) - Перевіряє, чи передано параметр за посиланням
+-   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.md) \- Перевіряє, чи є аргумент необов'язковим
+-   [ReflectionParameter::isDefaultValueAvailable()](reflectionparameter.isdefaultvalueavailable.md) \- Перевіряє, чи є значення за замовчуванням
+-   [ReflectionParameter::getDefaultValueConstantName()](reflectionparameter.getdefaultvalueconstantname.md) \- Повертає ім'я константи значення за промовчанням, якщо значення за промовчанням константа або null
+-   [ReflectionParameter::isPassedByReference()](reflectionparameter.ispassedbyreference.md) \- Перевіряє, чи передано параметр за посиланням

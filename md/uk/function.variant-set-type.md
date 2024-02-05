@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.variant-round.md: « variantround
-  - function.variant-set.md: variantset »
+  - function.variant-round.md: « variant\_round
+  - function.variant-set.md: variant\_set »
   - index.md: PHP Manual
-  - ref.com.md: Функции COM
-title: variantsettype
+  - ref.com.md: Функції COM
+title: variant\_set\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# variantsettype
+# variant\_set\_type
 
 (PHP 5, PHP 7, PHP 8)
 
-variantsettype — Приведення варіанта до іншого типу "за місцем"
+variant\_set\_type — Наводить варіант до іншого типу «за місцем»
 
 ### Опис
 
@@ -18,13 +19,13 @@ variantsettype — Приведення варіанта до іншого ти�
 variant_set_type(variant $variant, int $type): void
 ```
 
-Функція аналогічна [variantcast()](function.variant-cast.md) крім того, що змінюється сам варіант, а чи не створюється новий. Функції, що передаються, ідентичні параметрам функції [variantcast()](function.variant-cast.md)
+Функція аналогічна функції [variant\_cast()](function.variant-cast.md) крім того, що змінюється сам варіант, а чи не створюється новий. Функції, що передаються, ідентичні параметрам функції [variant\_cast()](function.variant-cast.md)
 
 ### Список параметрів
 
 `variant`
 
-Різновид.
+Варіант.
 
 `type`
 
@@ -34,5 +35,5 @@ variant_set_type(variant $variant, int $type): void
 
 ### Дивіться також
 
--   [variantcast()](function.variant-cast.md) - Перетворення варіанта на новий варіант іншого типу
--   [variantgettype()](function.variant-get-type.md) - Отримати тип варіанта
+-   [variant\_cast()](function.variant-cast.md) \- Перетворює варіант на новий варіант іншого типу
+-   [variant\_get\_type()](function.variant-get-type.md) \- Отримати тип варіанта

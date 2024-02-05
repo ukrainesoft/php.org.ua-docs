@@ -1,18 +1,19 @@
 ---
 navigation:
-  - datetime.construct.md: '« DateTime::construct'
+  - datetime.construct.md: '« DateTime::\_\_construct'
   - datetime.createfromimmutable.md: 'DateTime::createFromImmutable »'
   - index.md: PHP Manual
   - class.datetime.md: DateTime
 title: 'DateTime::createFromFormat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTime::createFromFormat
 
-# datecreatefromformat
+# date\_create\_from\_format
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-DateTime::createFromFormat -- datecreatefromformat — Розбирає рядок з датою згідно з вказаним форматом
+DateTime::createFromFormat -- date\_create\_from\_format — Розбирає рядок з датою згідно з вказаним форматом
 
 ### Опис
 
@@ -30,9 +31,9 @@ date_create_from_format(string $format, string $datetime, ?DateTimeZone $timezon
 
 Повертає новий об'єкт DateTime, що представляє дату та час, задані рядком `datetime`, яка була відформатована у зазначеному `format`
 
-Подібний до методу [DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.md), крім роботи з об'єктом [DateTime](class.datetime.md)
+Подобен методу[DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.md) та функції [date\_create\_immutable\_from\_format()](function.date-create-immutable-from-format.md), але створює об'єкт [DateTime](class.datetime.md)
 
-Процедурна версія приймає об'єкт [DateTime](class.datetime.md) як перший аргумент.
+Цей метод, включаючи параметри, приклади та думки, документований на сторінці [DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.md)
 
 ### Список параметрів
 
@@ -40,8 +41,22 @@ date_create_from_format(string $format, string $datetime, ?DateTimeZone $timezon
 
 ### Значення, що повертаються
 
-Повертає створений екземпляр класу DateTime або **`false`** у разі виникнення помилки.
+Повертає створений екземпляр класу DateTime або \*\*`false`\*\*в случае возникновения ошибки.
+
+### Помилки
+
+Функція викидає [ValueError](class.valueerror.md), якщо параметр `datetime` містить нульові байти.
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.0.21, 8.1.8, 8.2.0 | Тепер при передачі нульових байтів у параметр `datetime` викидається [ValueError](class.valueerror.md), Який раніше мовчки ігнорувався. |
+
+### Приклади
+
+Великий набір прикладів дивіться на сторінці [DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.md)
 
 ### Дивіться також
 
--   [DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.md) - Розбирає рядок з датою згідно з вказаним форматом
+-   [DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.md) \- Розбирає рядок з датою згідно з вказаним форматом

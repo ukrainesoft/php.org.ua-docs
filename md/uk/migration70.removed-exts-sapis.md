@@ -1,10 +1,11 @@
 ---
 navigation:
-  - migration70.sapi-changes.md: « Изменения в модулях SAPI
-  - migration70.other-changes.md: Другие изменения »
+  - migration70.sapi-changes.md: « Зміни в модулях SAPI
+  - migration70.other-changes.md: Інші зміни »
   - index.md: PHP Manual
-  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
+  - migration70.md: Міграція з PHP 5.6.x на PHP 7.0.x
 title: Віддалені модулі та SAPI
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Віддалені модулі та SAPI
 
@@ -13,13 +14,13 @@ title: Віддалені модулі та SAPI
 -   ereg
 -   mssql
 -   mysql
--   sybaseст
+-   sybase\_ct
 
 ### Віддалені SAPI
 
 -   aolserver
 -   apache
--   apachehooks
+-   apache\_hooks
 -   apache2filter
 -   caudium
 -   continuity

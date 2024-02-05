@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::inDaylightTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::inDaylightTime
 
@@ -38,11 +39,11 @@ intlcal_in_daylight_time(IntlCalendar $calendar): bool
 
 Повертає \*\*`true`\*\*якщо дата вказана в літній час, в іншому випадку повертає **`false`**
 
-У разі виникнення помилки також повертається **`false`**. Для виявлення умов помилки використовуйте [intlgeterrorcode()](function.intl-get-error-code.md) або настройте викидання [исключений](intl.configuration.md#ini.intl.use-exceptions) в Intl.
+У разі виникнення помилки також повертається \*\*`false`\*\*Для обнаружения условий ошибки используйте[intl\_get\_error\_code()](function.intl-get-error-code.md) або настройте викидання [винятків](intl.configuration.md#ini.intl.use-exceptions)в Intl.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::inDaylightTime()****
+**Пример #1 Пример использования**IntlCalendar::inDaylightTime()\*\*\*\*
 
 ```php
 <?php

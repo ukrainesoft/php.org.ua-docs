@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::isBuffering'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::isBuffering
 
@@ -28,11 +29,11 @@ public Phar::isBuffering(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`**
+Повертає **`true`**или**`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::isBuffering()****
+**Пример #1 Пример использования**Phar::isBuffering()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ var_dump($p2->isBuffering());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -71,5 +72,5 @@ bool(false)
 
 ### Дивіться також
 
--   [Phar::startBuffering()](phar.startbuffering.md) - Запуск буферизації операцій запису, відключаючи запис змін Phar-архіву на диск
--   [Phar::stopBuffering()](phar.stopbuffering.md) - Зупиняє буферизацію та записує всі зміни на диск
+-   [Phar::startBuffering()](phar.startbuffering.md) \- Запускає буферизацію операцій запису, відключаючи запис змін Phar-архіву на диск
+-   [Phar::stopBuffering()](phar.stopbuffering.md) \- Зупиняє буферизацію та записує всі зміни на диск

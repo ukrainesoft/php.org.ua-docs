@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.soapserver.md: SoapServer
 title: 'SoapServer::setObject'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SoapServer::setObject
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 SoapServer::setObject — Встановлює об'єкт, який використовуватиметься для обробки SOAP-запитів
 
@@ -32,4 +33,4 @@ public SoapServer::setObject(object $object): void
 
 ### Дивіться також
 
--   [SoapServer::setClass()](soapserver.setclass.md) - Встановлює клас, який обробляє SOAP-запити
+-   [SoapServer::setClass()](soapserver.setclass.md) \- Встановлює клас, який обробляє SOAP-запити

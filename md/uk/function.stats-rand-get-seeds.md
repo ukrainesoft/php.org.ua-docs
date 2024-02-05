@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-rand-gen-t.md: « statsrandgenт
-  - function.stats-rand-phrase-to-seeds.md: statsrandphraseтоseeds »
+  - function.stats-rand-gen-t.md: « stats\_rand\_gen\_t
+  - function.stats-rand-phrase-to-seeds.md: stats\_rand\_phrase\_to\_seeds »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsrandgetseeds
+title: stats\_rand\_get\_seeds
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsrandgetseeds
+# stats\_rand\_get\_seeds
 
 (PECL stats >= 1.0.0)
 
-statsrandgetseeds — Отримує початкові значення генератора випадкових чисел
+stats\_rand\_get\_seeds — Отримує початкові значення генератора випадкових чисел
 
 ### Опис
 

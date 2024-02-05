@@ -1,18 +1,19 @@
 ---
 navigation:
-  - yaf-controller-abstract.getcontrollername.md: '« YafActionAbstract::getControllerName'
-  - yaf-view-interface.assign.md: 'YafViewInterface::assign »'
+  - yaf-controller-abstract.getcontrollername.md: '« Yaf\_Action\_Abstract::getControllerName'
+  - yaf-view-interface.assign.md: 'Yaf\_View\_Interface::assign »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafViewInterface
+title: Клас Yaf\_View\_Interface
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafViewInterface
+# Клас Yaf\_View\_Interface
 
 (Yaf >=1.0.0)
 
 ## Вступ
 
-Yaf надає розробникам можливість використовувати їх власний движок відображення, що відрізняється від вбудованого [YafViewSimple](class.yaf-view-simple.md). Приклад реалізації дивіться у описі [YafDispatcher::setView()](yaf-dispatcher.setview.md)
+Yaf надає розробникам можливість використовувати їх власний движок відображення, що відрізняється від вбудованого [Yaf\_View\_Simple](class.yaf-view-simple.md)Пример реализации смотрите в описании[Yaf\_Dispatcher::setView()](yaf-dispatcher.setview.md)
 
 ## Огляд класів
 
@@ -40,8 +41,8 @@ abstract public setScriptPath(string $template_dir): void
 
 ## Зміст
 
--   [YafViewInterface::assign](yaf-view-interface.assign.md) — Призначає значення для движка відображення
--   [YafViewInterface::display](yaf-view-interface.display.md) — Малює та виводить шаблон
--   [YafViewInterface::getScriptPath](yaf-view-interface.getscriptpath.md) - Призначення getScriptPath
--   [YafViewInterface::render](yaf-view-interface.render.md) — Малює шаблон
--   [YafViewInterface::setScriptPath](yaf-view-interface.setscriptpath.md) - Призначення setScriptPath
+-   [Yaf\_View\_Interface::assign](yaf-view-interface.assign.md)— Призначає значення для движка відображення
+-   [Yaf\_View\_Interface::display](yaf-view-interface.display.md)— Малює та виводить шаблон
+-   [Yaf\_View\_Interface::getScriptPath](yaf-view-interface.getscriptpath.md) \- Призначення getScriptPath
+-   [Yaf\_View\_Interface::render](yaf-view-interface.render.md)— Малює шаблон
+-   [Yaf\_View\_Interface::setScriptPath](yaf-view-interface.setscriptpath.md) \- Призначення setScriptPath

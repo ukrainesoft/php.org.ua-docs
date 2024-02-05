@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::flush'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLWriter::flush
 
-# xmlwriterflush
+# xmlwriter\_flush
 
 (PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 1.0.0)
 
-XMLWriter::flush -- xmlwriterflush — Скинути поточний буфер
+XMLWriter::flush -- xmlwriter\_flush — Скинути поточний буфер
 
 ### Опис
 
@@ -34,7 +35,7 @@ xmlwriter_flush(XMLWriter $writer, bool $empty = true): string|int
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.md) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.md)
 
 `empty`
 
@@ -46,7 +47,7 @@ xmlwriter_flush(XMLWriter $writer, bool $empty = true): string|int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
-|  | Функція більше не може повертати **`false`** |
+| 8.0.0 | В параметре`writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| 8.0.0 | Функція більше не може повертати **`false`** |

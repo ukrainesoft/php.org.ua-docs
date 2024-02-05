@@ -1,16 +1,17 @@
 ---
 navigation:
-  - soapclient.getcookies.md: '« SoapClient::getCookies'
-  - soapclient.getlastrequest.md: 'SoapClient::getLastRequest »'
+  - soapclient.getcookies.md: '« SoapClient::\_\_getCookies'
+  - soapclient.getlastrequest.md: 'SoapClient::\_\_getLastRequest »'
   - index.md: PHP Manual
   - class.soapclient.md: SoapClient
-title: 'SoapClient::getFunctions'
+title: 'SoapClient::\_\_getFunctions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapClient::getFunctions
+# SoapClient::\_\_getFunctions
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapClient::getFunctions — Повертає список доступних SOAP-функцій
+SoapClient::\_\_getFunctions — Повертає список доступних SOAP-функцій
 
 ### Опис
 
@@ -20,7 +21,7 @@ public SoapClient::__getFunctions(): ?array
 
 Повертає масив функцій, описаних у WSDL для веб-служби.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція працює лише у режимі WSDL.
 
@@ -34,7 +35,7 @@ public SoapClient::__getFunctions(): ?array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapClient::getFunctions()****
+**Пример #1 Пример использования**SoapClient::\_\_getFunctions()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($client->__getFunctions());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(26) {
@@ -65,4 +66,4 @@ array(26) {
 
 ### Дивіться також
 
--   [SoapClient::construct()](soapclient.construct.md) - Конструктор класу SoapClient
+-   [SoapClient::\_\_construct()](soapclient.construct.md) \- Конструктор класу SoapClient

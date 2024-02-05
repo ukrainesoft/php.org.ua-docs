@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.xmldiff-base.md: « XMLDiffBase
-  - xmldiff-base.diff.md: 'XMLDiffBase::diff »'
+  - class.xmldiff-base.md: « XMLDiff\\Base
+  - xmldiff-base.diff.md: 'XMLDiff\\Base::diff »'
   - index.md: PHP Manual
-  - class.xmldiff-base.md: XMLDiffBase
-title: 'XMLDiffBase::construct'
+  - class.xmldiff-base.md: XMLDiff\\Base
+title: 'XMLDiff\\Base::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# XMLDiffBase::construct
+# XMLDiff\\Base::\_\_construct
 
 (PECL xmldiff >= 0.8.0)
 
-XMLDiffBase::construct — Конструктор
+XMLDiff\\Base::\_\_construct — Конструктор
 
 ### Опис
 
-public **XMLDiffBase::construct**(string `$nsname`
+public**XMLDiff\\Base::\_\_construct**(string`$nsname`) .
 
 Базовий конструктор для всіх робочих класів модуля xmldiff.
 

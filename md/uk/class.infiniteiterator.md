@@ -1,35 +1,31 @@
 ---
 navigation:
   - globiterator.count.md: '« GlobIterator::count'
-  - infiniteiterator.construct.md: 'InfiniteIterator::construct »'
+  - infiniteiterator.construct.md: 'InfiniteIterator::\_\_construct »'
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас InfiniteIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас InfiniteIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас **InfiniteIterator** дозволяє зробити нескінченний перебір ітератора без необхідності вручну перебирати ітератор до досягнення його кінця.
+Класс**InfiniteIterator** дозволяє зробити нескінченний перебір ітератора без необхідності вручну перебирати ітератор до досягнення його кінця.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class InfiniteIterator
     
 
     
-     
-      class InfiniteIterator
-     
-
-     
-      extends
-       IteratorIterator
-     
+     extends
+      IteratorIterator
      {
 
     /* Методы */
@@ -52,5 +48,5 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [InfiniteIterator::construct](infiniteiterator.construct.md) - Конструктор класу InfiniteIterator
--   [InfiniteIterator::next](infiniteiterator.next.md) — Переміщує ітератор на одну позицію вперед чи на початок
+-   [InfiniteIterator::\_\_construct](infiniteiterator.construct.md) \- Конструктор класу InfiniteIterator
+-   [InfiniteIterator::next](infiniteiterator.next.md)— Переміщує ітератор на одну позицію вперед чи на початок

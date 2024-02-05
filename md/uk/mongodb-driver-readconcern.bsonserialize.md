@@ -1,21 +1,22 @@
 ---
 navigation:
-  - class.mongodb-driver-readconcern.md: « MongoDBDriverReadConcern
-  - mongodb-driver-readconcern.construct.md: 'MongoDBDriverReadConcern::construct »'
+  - class.mongodb-driver-readconcern.md: « MongoDB\\Driver\\ReadConcern
+  - mongodb-driver-readconcern.construct.md: 'MongoDB\\Driver\\ReadConcern::\_\_construct »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readconcern.md: MongoDBDriverReadConcern
-title: 'MongoDBDriverReadConcern::bsonSerialize'
+  - class.mongodb-driver-readconcern.md: MongoDB\\Driver\\ReadConcern
+title: 'MongoDB\\Driver\\ReadConcern::bsonSerialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverReadConcern::bsonSerialize
+# MongoDB\\Driver\\ReadConcern::bsonSerialize
 
 (mongodb >=1.2.0)
 
-MongoDBDriverReadConcern::bsonSerialize — Повертає об'єкт для серіалізації BSON
+MongoDB\\Driver\\ReadConcern::bsonSerialize — Повертає об'єкт для серіалізації BSON
 
 ### Опис
 
 ```methodsynopsis
-final public MongoDB\Driver\ReadConcern::bsonSerialize(): object
+final public MongoDB\Driver\ReadConcern::bsonSerialize(): stdClass
 ```
 
 ### Список параметрів
@@ -28,11 +29,11 @@ final public MongoDB\Driver\ReadConcern::bsonSerialize(): object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverReadConcern::bsonSerialize()** з порожніми гарантіями читання**
+**Пример #1 Пример использования**MongoDB\\Driver\\ReadConcern::bsonSerialize()\*\* з порожніми гарантіями читання\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rc));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(stdClass)#2 (0) {
@@ -54,7 +55,7 @@ object(stdClass)#2 (0) {
 { }
 ```
 
-**Приклад #2 Приклад використання **MongoDBDriverReadConcern::bsonSerialize()** з локальними гарантіями читання**
+**Пример #2 Пример использования**MongoDB\\Driver\\ReadConcern::bsonSerialize()\*\* з локальними гарантіями читання\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rc));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(stdClass)#2 (1) {
@@ -80,5 +81,5 @@ object(stdClass)#2 (1) {
 
 ### Дивіться також
 
--   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) - Надає масив або документ для серіалізації у BSON
--   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)
+-   [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) \- Надає масив або документ для серіалізації у BSON
+-   [» Довідка за гарантіями читання](https://www.mongodb.com/docs/manual/reference/read-concern/)

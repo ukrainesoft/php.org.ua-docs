@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splsubject.md: SplSubject
 title: 'SplSubject::detach'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplSubject::detach
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplSubject::detach — Від'єднати спостерігача
 
@@ -22,13 +23,13 @@ public SplSubject::detach(SplObserver $observer): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `observer`
 
-Об'єкт класу [SplObserver](class.splobserver.md) для від'єднання.
+Об'єкт класу [SplObserver](class.splobserver.md)для отсоединения.
 
 ### Значення, що повертаються
 

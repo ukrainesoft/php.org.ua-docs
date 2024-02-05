@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-setbit.md: « gmpsetbit
-  - function.gmp-sqrt.md: gmpsqrt »
+  - function.gmp-setbit.md: « gmp\_setbit
+  - function.gmp-sqrt.md: gmp\_sqrt »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpsign
+title: gmp\_sign
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpsign
+# gmp\_sign
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpsign — Знак числа
+gmp\_sign — Знак числа
 
 ### Опис
 
@@ -32,7 +33,7 @@ gmp_sign(GMP|int|string $num): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpsign()****
+**Пример #1 Пример использования**gmp\_sign()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo gmp_sign("0") . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1
@@ -57,5 +58,5 @@ echo gmp_sign("0") . "\n";
 
 ### Дивіться також
 
--   [gmpabs()](function.gmp-abs.md) - Абсолютна величина
--   [abs()](function.abs.md) - Абсолютне значення (модуль числа)
+-   [gmp\_abs()](function.gmp-abs.md) \- Абсолютна величина
+-   [abs()](function.abs.md) \- Повертає абсолютну величину (модуль числа)

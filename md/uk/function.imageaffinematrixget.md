@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageaffinematrixget
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imageaffinematrixget
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 imageaffinematrixget — Отримує матрицю афінного перетворення
 
@@ -24,21 +25,21 @@ imageaffinematrixget(int $type, array|float $options): array|false
 
 `type`
 
-Одна з констант **`IMG_AFFINE_*`**
+Одна из констант\*\*`IMG_AFFINE_*`\*\*
 
 `options`
 
-Якщо `type` дорівнює **`IMG_AFFINE_TRANSLATE`** або **`IMG_AFFINE_SCALE`** `options` має бути масивом (array) з ключами `x` і `y`обидва мають значення типу float.
+Якщо `type`равен\*\*`IMG_AFFINE_TRANSLATE`**или**`IMG_AFFINE_SCALE`\*\* `options` має бути масивом (array) з ключами `x`и`y`обидва мають значення типу float.
 
-Якщо `type` дорівнює **`IMG_AFFINE_ROTATE`** **`IMG_AFFINE_SHEAR_HORIZONTAL`** або **`IMG_AFFINE_SHEAR_VERTICAL`** `options` повинен бути числом з плаваючою точкою (float), що визначає кут.
+Якщо `type`равен\*\*`IMG_AFFINE_ROTATE`\*\* **`IMG_AFFINE_SHEAR_HORIZONTAL`**или**`IMG_AFFINE_SHEAR_VERTICAL`** `options` повинен бути числом з плаваючою точкою (float), що визначає кут.
 
 ### Значення, що повертаються
 
-Матриця афінного перетворення (масив із ключами від `0` до `5` і значеннями з плаваючою точкою) або **`false`** у разі виникнення помилки.
+Матриця афінного перетворення (масив із ключами від до`5` і значеннями з плаваючою точкою) або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imageaffinematrixget()****
+**Пример #1 Пример использования**imageaffinematrixget()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ print_r($matrix);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -63,5 +64,5 @@ Array
 
 ### Дивіться також
 
--   [imageaffine()](function.imageaffine.md) - Повернути зображення, що містить афінно-перетворене зображення src, використовуючи додаткову область обмеження
--   [imageaffinematrixconcat()](function.imageaffinematrixconcat.md) - Конкатенує дві афінні матриці перетворення
+-   [imageaffine()](function.imageaffine.md) \- Повернути зображення, що містить афінно-перетворене зображення src, використовуючи додаткову область обмеження
+-   [imageaffinematrixconcat()](function.imageaffinematrixconcat.md) \- Конкатенує дві афінні матриці перетворення

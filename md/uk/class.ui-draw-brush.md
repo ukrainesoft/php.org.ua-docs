@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-draw-stroke.setthickness.md: '« UIDrawStroke::setThickness'
-  - ui-draw-brush.construct.md: 'ОЙDrawBrush::construct »'
+  - ui-draw-stroke.setthickness.md: '« UI\\Draw\\Stroke::setThickness'
+  - ui-draw-brush.construct.md: 'UI\\Draw\\Brush::\_\_construct »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Щітки
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Щітки
 
@@ -43,6 +44,6 @@ public setColor(int $color): void
 
 ## Зміст
 
--   [ОЙDrawBrush::construct](ui-draw-brush.construct.md) — Створити новий об'єкт Brush
--   [ОЙDrawBrush::getColor](ui-draw-brush.getcolor.md) - Отримати колір
--   [ОЙDrawBrush::setColor](ui-draw-brush.setcolor.md) - Встановити колір
+-   [UI\\Draw\\Brush::\_\_construct](ui-draw-brush.construct.md)— Створити новий об'єкт Brush
+-   [UI\\Draw\\Brush::getColor](ui-draw-brush.getcolor.md) \- Отримати колір
+-   [UI\\Draw\\Brush::setColor](ui-draw-brush.setcolor.md) \- Встановити колір

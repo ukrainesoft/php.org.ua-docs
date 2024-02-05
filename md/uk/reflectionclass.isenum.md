@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isEnum'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::isEnum
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionClass::isEnum — Повертає, чи є клас перерахуванням
 
@@ -18,7 +19,7 @@ ReflectionClass::isEnum — Повертає, чи є клас перераху�
 public ReflectionClass::isEnum(): bool
 ```
 
-Перевіряє, чи є клас [перечислением](language.enumerations.md)
+Перевіряє, чи є клас [перерахуванням](language.enumerations.md)
 
 ### Список параметрів
 
@@ -26,4 +27,4 @@ public ReflectionClass::isEnum(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо клас є [перечислением](language.enumerations.md), в іншому випадку повертає **`false`**
+Повертає **`true`**, якщо клас є [перерахуванням](language.enumerations.md), в іншому випадку повертає **`false`**

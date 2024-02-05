@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.event.md: Event
 title: Клас EventDnsBase
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EventDnsBase
 
@@ -50,9 +51,30 @@ title: Клас EventDnsBase
      int
       OPTIONS_ALL = 15;
 
+    const
+     int
+      DISABLE_WHEN_INACTIVE = 32768;
+
+    const
+     int
+      INITIALIZE_NAMESERVERS = 1;
+
+    const
+     int
+      NAMESERVERS_NO_DEFAULT = 65536;
+
     /* Методы */
     
    public
+   __construct(
+    EventBase
+     $base
+   , 
+    int|bool
+     $initialize
+   )
+
+    public
    addNameserverIp(
     string
      $ip
@@ -64,14 +86,6 @@ public
    ): void
 public
    clearSearch(): void
-public
-   __construct(
-    EventBase
-     $base
-   , 
-    bool
-     $initialize
-   )
 public
    countNameservers(): int
 public
@@ -108,30 +122,42 @@ public
 
 **`EventDnsBase::OPTION_SEARCH`**
 
-Вказує читати домен та пошукові поля з файлу `resolv.conf` та опції `ndots` і використовувати їх для визначення доменів (якщо є), в яких здійснюватиметься пошук по короткому імені хоста.
+Вказує читати домен та поля пошуку з файлу `resolv.conf` та опції `ndots` і використовувати їх для визначення доменів (якщо є), в яких буде здійснюватись пошук по короткому імені хоста.
 
 **`EventDnsBase::OPTION_NAMESERVERS`**
 
-Вказує використання сервера імен (nameservers) із файлу `resolv.conf`
+Вказує використання серверів імен, вказаних у записі nameservers файлу `resolv.conf`
 
 **`EventDnsBase::OPTION_MISC`**
 
 **`EventDnsBase::OPTION_HOSTSFILE`**
 
-Вказує брати список хостів із файлу `/etc/hosts` під час завантаження `resolv.conf`
+Вказує брати список хостів із файлу `/etc/hosts`при загрузке`resolv.conf`
 
 **`EventDnsBase::OPTIONS_ALL`**
 
-Вказує використовувати все, що можливо з файлу `resolv.conf`
+Вказує використовувати все, що можливо, з файлу `resolv.conf`
+
+**`EventDnsBase::DISABLE_WHEN_INACTIVE`**
+
+Не забороняйте вихід з циклу подій модуля будь-якогоvent, коли немає активних DNS-запитів.
+
+**`EventDnsBase::INITIALIZE_NAMESERVERS`**
+
+Обработать файл`resolv.conf`
+
+**`EventDnsBase::NAMESERVERS_NO_DEFAULT`**
+
+Не додавати сервер імен (nameservers) за замовчуванням, якщо у файлі `resolv.conf`нет записи nameserver.
 
 ## Зміст
 
--   [EventDnsBase::addNameserverIp](eventdnsbase.addnameserverip.md) — Додає сервер імен до бази DNS
--   [EventDnsBase::addSearch](eventdnsbase.addsearch.md) — Додає домен до списку пошукових доменів
--   [EventDnsBase::clearSearch](eventdnsbase.clearsearch.md) — Видаляє всі поточні суфікси пошуку
--   [EventDnsBase::construct](eventdnsbase.construct.md) - Конструктор об'єкта EventDnsBase
--   [EventDnsBase::countNameservers](eventdnsbase.countnameservers.md) — Отримує кількість налаштованих серверів імен
--   [EventDnsBase::loadHosts](eventdnsbase.loadhosts.md) — Завантажує файл hosts (у тому форматі, що і /etc/hosts) з файлу hosts
--   [EventDnsBase::parseResolvConf](eventdnsbase.parseresolvconf.md) — Сканує файл у форматі resolv.conf
--   [EventDnsBase::setOption](eventdnsbase.setoption.md) — Встановлює параметр конфігурації
+-   [EventDnsBase::addNameserverIp](eventdnsbase.addnameserverip.md)— Додає сервер імен до бази DNS
+-   [EventDnsBase::addSearch](eventdnsbase.addsearch.md)— Додає домен до списку пошукових доменів
+-   [EventDnsBase::clearSearch](eventdnsbase.clearsearch.md)— Видаляє всі поточні суфікси пошуку
+-   [EventDnsBase::\_\_construct](eventdnsbase.construct.md) \- Конструктор об'єкта EventDnsBase
+-   [EventDnsBase::countNameservers](eventdnsbase.countnameservers.md)— Отримує кількість налаштованих серверів імен
+-   [EventDnsBase::loadHosts](eventdnsbase.loadhosts.md)— Завантажує файл hosts (у тому ж форматі, що й /etc/hosts) із файлу hosts
+-   [EventDnsBase::parseResolvConf](eventdnsbase.parseresolvconf.md)— Сканує файл у форматі resolv.conf
+-   [EventDnsBase::setOption](eventdnsbase.setoption.md)— Встановлює параметр конфігурації
 -   [EventDnsBase::setSearchNdots](eventdnsbase.setsearchndots.md) — Встановлює 'ndots' для пошуку

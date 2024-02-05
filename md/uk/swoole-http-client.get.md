@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-http-client.execute.md: '« SwooleHttpClient::execute'
-  - swoole-http-client.isconnected.md: 'SwooleHttpClient::isConnected »'
+  - swoole-http-client.execute.md: '« Swoole\\Http\\Client::execute'
+  - swoole-http-client.isconnected.md: 'Swoole\\Http\\Client::isConnected »'
   - index.md: PHP Manual
-  - class.swoole-http-client.md: SwooleHttpClient
-title: 'SwooleHttpClient::get'
+  - class.swoole-http-client.md: Swoole\\Http\\Client
+title: 'Swoole\\Http\\Client::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpClient::get
+# Swoole\\Http\\Client::get
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpClient::get — Надсилає HTTP-запит GET на віддалений сервер
+Swoole\\Http\\Client::get — Надсилає HTTP-запит GET на віддалений сервер
 
 ### Опис
 

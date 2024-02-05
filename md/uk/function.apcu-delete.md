@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apcu-dec.md: « apcudec
-  - function.apcu-enabled.md: apcuenabled »
+  - function.apcu-dec.md: « apcu\_dec
+  - function.apcu-enabled.md: apcu\_enabled »
   - index.md: PHP Manual
-  - ref.apcu.md: Функции APCu
-title: apcudelete
+  - ref.apcu.md: Функції APCu
+title: apcu\_delete
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apcudelete
+# apcu\_delete
 
 (PECL apcu >= 4.0.0)
 
-apcudelete — Видалення збереженого значення з кешу
+apcu\_delete — Видалення збереженого значення з кешу.
 
 ### Опис
 
@@ -28,11 +29,11 @@ apcu_delete(mixed $key): mixed
 
 ### Значення, що повертаються
 
-Якщо `key` є масивом (array), повертається індексований масив (array) ключів. В іншому випадку повертається **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Якщо `key` є масивом (array), повертається індексований масив (array) ключів. В іншому випадку повертається **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apcudelete()****
+**Пример #1 Пример использования**apcu\_delete()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ apcu_delete(new APCUIterator('#^myprefix_#'));
 
 ### Дивіться також
 
--   [apcustore()](function.apcu-store.md) - Кешує змінну
--   [apcufetch()](function.apcu-fetch.md) - Витягує з кеша збережену змінну
--   [apcuclearcache()](function.apcu-clear-cache.md) - Очистити кеш APCu
+-   [apcu\_store()](function.apcu-store.md) \- Кешує змінну
+-   [apcu\_fetch()](function.apcu-fetch.md) \- Витягує з кеша збережену змінну
+-   [apcu\_clear\_cache()](function.apcu-clear-cache.md) \- Очистити кеш APCu
 -   [APCUIterator](class.apcuiterator.md)

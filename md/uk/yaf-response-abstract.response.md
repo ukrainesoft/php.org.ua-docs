@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-response-abstract.prependbody.md: '« YafResponseAbstract::prependBody'
-  - yaf-response-abstract.setallheaders.md: 'YafResponseAbstract::setAllHeaders »'
+  - yaf-response-abstract.prependbody.md: '« Yaf\_Response\_Abstract::prependBody'
+  - yaf-response-abstract.setallheaders.md: 'Yaf\_Response\_Abstract::setAllHeaders »'
   - index.md: PHP Manual
-  - class.yaf-response-abstract.md: YafResponseAbstract
-title: 'YafResponseAbstract::response'
+  - class.yaf-response-abstract.md: Yaf\_Response\_Abstract
+title: 'Yaf\_Response\_Abstract::response'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafResponseAbstract::response
+# Yaf\_Response\_Abstract::response
 
 (Yaf >=1.0.0)
 
-YafResponseAbstract::response — Надсилає відповідь
+Yaf\_Response\_Abstract::response — Надсилає відповідь
 
 ### Опис
 
@@ -28,7 +29,7 @@ public Yaf_Response_Abstract::response(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafResponseAbstract::response()****
+**Пример #1 Пример использования**Yaf\_Response\_Abstract::response()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ $response->response();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Привет, Мир
@@ -48,5 +49,5 @@ $response->response();
 
 ### Дивіться також
 
--   [YafResponseAbstract::setBody()](yaf-response-abstract.setbody.md) - Встановлює вміст відповіді
--   [YafResponseAbstract::clearBody()](yaf-response-abstract.clearbody.md) - скидає все існуюче тіло відповіді
+-   [Yaf\_Response\_Abstract::setBody()](yaf-response-abstract.setbody.md) \- Встановлює вміст відповіді
+-   [Yaf\_Response\_Abstract::clearBody()](yaf-response-abstract.clearbody.md) \- скидає все існуюче тіло відповіді

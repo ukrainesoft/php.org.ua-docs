@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlmorningstar.md: « tradercdlmorningstar
-  - function.trader-cdlpiercing.md: tradercdlpiercing »
+  - function.trader-cdlmorningstar.md: « trader\_cdlmorningstar
+  - function.trader-cdlpiercing.md: trader\_cdlpiercing »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlonneck
+  - ref.trader.md: Функції Trader
+title: trader\_cdlonneck
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlonneck
+# trader\_cdlonneck
 
 (PECL trader >= 0.2.0)
 
-tradercdlonneck - Паттерн "У лінії шиї"
+trader\_cdlonneck - Паттерн "У лінії шиї"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlonneck(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlonneck(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

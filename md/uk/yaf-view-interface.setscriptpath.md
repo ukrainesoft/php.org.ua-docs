@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-view-interface.render.md: '« YafViewInterface::render'
-  - class.yaf-view-simple.md: YafViewSimple »
+  - yaf-view-interface.render.md: '« Yaf\_View\_Interface::render'
+  - class.yaf-view-simple.md: Yaf\_View\_Simple »
   - index.md: PHP Manual
-  - class.yaf-view-interface.md: YafViewInterface
-title: 'YafViewInterface::setScriptPath'
+  - class.yaf-view-interface.md: Yaf\_View\_Interface
+title: 'Yaf\_View\_Interface::setScriptPath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafViewInterface::setScriptPath
+# Yaf\_View\_Interface::setScriptPath
 
 (Yaf >=1.0.0)
 
-YafViewInterface::setScriptPath — Призначення setScriptPath
+Yaf\_View\_Interface::setScriptPath — Призначення setScriptPath
 
 ### Опис
 
@@ -18,16 +19,16 @@ YafViewInterface::setScriptPath — Призначення setScriptPath
 abstract public Yaf_View_Interface::setScriptPath(string $template_dir): void
 ```
 
-Встановлює базовий каталог шаблонів, зазвичай викликається в [YafDispatcher](class.yaf-dispatcher.md)
+Встановлює базовий каталог шаблонів, зазвичай викликається в [Yaf\_Dispatcher](class.yaf-dispatcher.md)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `template_dir`
 
-Абсолютний шлях до каталогу шаблонів за промовчанням [YafDispatcher](class.yaf-dispatcher.md) використовується [application.directory](yaf.appconfig.md#configuration.yaf.directory) . "/views".
+Абсолютний шлях до каталогу шаблонів за промовчанням [Yaf\_Dispatcher](class.yaf-dispatcher.md) використовується [application.directory](yaf.appconfig.md#configuration.yaf.directory) . "/views".
 
 ### Значення, що повертаються

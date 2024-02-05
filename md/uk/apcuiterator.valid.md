@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.apcuiterator.md: APCUIterator
 title: 'APCUIterator::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # APCUIterator::valid
 
@@ -26,9 +27,9 @@ public APCUIterator::valid(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`**, залежно від того, чи правильна позиція.
+Повертає **`true`**или**`false`**, залежно від того, чи правильна позиція.
 
 ### Дивіться також
 
--   [APCUIterator::current()](apcuiterator.current.md) - Отримати поточний елемент
--   [Iterator::valid()](iterator.valid.md) - Перевіряє коректність поточної позиції
+-   [APCUIterator::current()](apcuiterator.current.md) \- Отримати поточний елемент
+-   [Iterator::valid()](iterator.valid.md) \- Перевіряє коректність поточної позиції

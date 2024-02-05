@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-link.md: « islink
-  - function.is-uploaded-file.md: ісuploadedfile »
+  - function.is-link.md: « is\_link
+  - function.is-uploaded-file.md: is\_uploaded\_file »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
-title: ісreadable
+title: is\_readable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісreadable
+# is\_readable
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісreadable — Визначає існування файлу і чи він доступний для читання
+is\_readable — Визначає існування файлу і чи він доступний для читання
 
 ### Опис
 
@@ -36,7 +37,7 @@ is_readable(string $filename): bool
 
 ### Приклади
 
-**Приклад #1 **ісreadable()** example**
+**Пример #1**is\_readable()**example**
 
 ```php
 <?php
@@ -57,16 +58,16 @@ if (is_readable($filename)) {
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), смотрите в разделе[Підтримувані протоколи та обгортки](wrappers.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Перевірка здійснюється з використанням реальних UID/GID замість ефективних.
 
-Ця функція може повертати **`true`** для директорій. Щоб відрізнити файл від директорії, можна скористатися функцією [ісdir()](function.is-dir.md)
+Ця функція може повертати **`true`** для директорій. Щоб відрізнити файл від директорії, можна скористатися функцією [is\_dir()](function.is-dir.md)
 
 ### Дивіться також
 
--   [ісwritable()](function.is-writable.md) - Визначає, чи доступний файл для запису
--   [fileexists()](function.file-exists.md) - Перевіряє існування вказаного файлу чи каталогу
--   [fgets()](function.fgets.md) - Читає рядок із файлу
+-   [is\_writable()](function.is-writable.md) \- Визначає, чи доступний файл для запису
+-   [file\_exists()](function.file-exists.md) \- Перевіряє існування вказаного файлу чи каталогу
+-   [fgets()](function.fgets.md) \- Читає рядок із файлу

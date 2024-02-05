@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getMethods'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getMethods
 
@@ -36,13 +37,13 @@ public ReflectionClass::getMethods(?int $filter = null): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `filter` тепер допускає значення null. |
+| 7.2.0 | `filter` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getMethods()****
+**Пример #1 Пример использования**ReflectionClass::getMethods()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_dump($methods);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(3) {
@@ -102,7 +103,7 @@ var_dump($methods);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {
@@ -125,5 +126,5 @@ array(2) {
 
 ### Дивіться також
 
--   [ReflectionClass::getMethod()](reflectionclass.getmethod.md) - Повертає екземпляр ReflectionMethod для методу класу
--   [getclassmethods()](function.get-class-methods.md) - Повертає масив імен методів класу
+-   [ReflectionClass::getMethod()](reflectionclass.getmethod.md) \- Повертає екземпляр ReflectionMethod для методу класу
+-   [get\_class\_methods()](function.get-class-methods.md) \- Повертає масив імен методів класу

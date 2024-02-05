@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-set-option.md: « ldapsetoption
-  - function.ldap-sort.md: ldapsort »
+  - function.ldap-set-option.md: « ldap\_set\_option
+  - function.ldap-sort.md: ldap\_sort »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapsetrebindproc
+title: ldap\_set\_rebind\_proc
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapsetrebindproc
+# ldap\_set\_rebind\_proc
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-ldapsetrebindproc — Встановити функцію зворотного дзвінка для повторного зв'язування під час посилального пошуку
+ldap\_set\_rebind\_proc — Встановити функцію зворотного дзвінка для повторного зв'язування під час посилального пошуку
 
 ### Опис
 
@@ -20,11 +21,11 @@ ldap_set_rebind_proc(LDAP\Connection $ldap, ?callable $callback): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `callback` тепер допускає значення null. |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.0.0 | `callback` тепер допускає значення null. |

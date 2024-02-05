@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.last.md: '« DsVector::last'
-  - ds-vector.merge.md: 'ДсVector::merge »'
+  - ds-vector.last.md: '« Ds\\Vector::last'
+  - ds-vector.merge.md: 'Ds\\Vector::merge »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::map'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::map'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::map
+# Ds\\Vector::map
 
 (PECL ds >= 1.0.0)
 
-ДсVector::map — Повертає результат застосування callback-функції до всіх значень вектора
+Ds\\Vector::map — Повертає результат застосування callback-функції до всіх значень вектора
 
 ### Опис
 
@@ -28,21 +29,21 @@ public Ds\Vector::map(callable $callback): Ds\Vector
 callback(mixed $value): mixed
 ```
 
-Аргумент типу [callable](language.types.callable.md)
+Аргумент типа[callable](language.types.callable.md)
 
 Ця функція має повертати нове значення для кожного елемента вектора.
 
 ### Значення, що повертаються
 
-Результат застосування `callback` до кожного значення вектора.
+Результат применения`callback` до кожного значення вектора.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення поточної колекції залишаться незмінними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::map()****
+**Пример #1 Пример использования**Ds\\Vector::map()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ print_r($vector);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

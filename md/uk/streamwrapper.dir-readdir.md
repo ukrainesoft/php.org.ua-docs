@@ -1,16 +1,17 @@
 ---
 navigation:
-  - streamwrapper.dir-opendir.md: '« streamWrapper::diropendir'
-  - streamwrapper.dir-rewinddir.md: 'streamWrapper::dirrewinddir »'
+  - streamwrapper.dir-opendir.md: '« streamWrapper::dir\_opendir'
+  - streamwrapper.dir-rewinddir.md: 'streamWrapper::dir\_rewinddir »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
-title: 'streamWrapper::dirreaddir'
+title: 'streamWrapper::dir\_readdir'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamWrapper::dirreaddir
+# streamWrapper::dir\_readdir
 
-(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::dirreaddir - Читання запису з дескриптора директорії
+streamWrapper::dir\_readdir - Читання запису з дескриптора директорії
 
 ### Опис
 
@@ -28,7 +29,7 @@ public streamWrapper::dir_readdir(): string
 
 Повинна повертати рядок (string), що представляє ім'я наступного файлу, або \*\*`false`\*\*якщо наступного файлу немає.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення, що повертається, буде наведено до типу string.
 
@@ -116,7 +117,7 @@ closedir($handle);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(13) "construct.xml"
@@ -147,4 +148,4 @@ string(13) "construct.xml"
 
 ### Дивіться також
 
--   [readdir()](function.readdir.md) - Отримує елемент каталогу за його дескриптором
+-   [readdir()](function.readdir.md) \- Отримує елемент каталогу за його дескриптором

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.radius-send-request.md: « radiussendrequest
-  - function.radius-strerror.md: radiusstrerror »
+  - function.radius-send-request.md: « radius\_send\_request
+  - function.radius-strerror.md: radius\_strerror »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiusserversecret
+  - ref.radius.md: Функції Radius
+title: radius\_server\_secret
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiusserversecret
+# radius\_server\_secret
 
 (PECL radius >= 1.1.0)
 
-radiusserversecret — Повертає загальний секрет
+radius\_server\_secret — Повертає загальний секрет
 
 ### Опис
 
@@ -28,4 +29,4 @@ radius_server_secret(resource $radius_handle): string
 
 ### Значення, що повертаються
 
-Повертає загальний секрет сервера у вигляді рядка або **`false`** у разі виникнення помилки.
+Повертає загальний секрет сервера у вигляді рядка або \*\*`false`\*\*в случае возникновения ошибки.

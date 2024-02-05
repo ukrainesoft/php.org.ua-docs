@@ -5,39 +5,14 @@ navigation:
   - index.md: PHP Manual
   - class.datetime.md: DateTime
 title: 'DateTime::getLastErrors'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTime::getLastErrors
 
-# dategetlasterrors
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
-
-DateTime::getLastErrors -- dategetlasterrors — Повертає попередження та помилки
+DateTime::getLastErrors — Псевдоним[DateTimeImmutable::getLastErrors()](datetimeimmutable.getlasterrors.md)
 
 ### Опис
 
-Об'єктно-орієнтований стиль
-
-```methodsynopsis
-public static DateTime::getLastErrors(): array|false
-```
-
-Процедурний стиль
-
-```methodsynopsis
-date_get_last_errors(): array|false
-```
-
-Подібний до методу [DateTimeImmutable::getLastErrors()](datetimeimmutable.getlasterrors.md), крім роботи з об'єктом [DateTime](class.datetime.md)
-
-### Список параметрів
-
-Ця функція не має параметрів.
-
-### Значення, що повертаються
-
-Повертає масив містить інформацію про помилки та попередження або **`false`**, якщо немає ні попереджень, ні помилок.
-
-### Дивіться також
-
--   [DateTimeImmutable::getLastErrors()](datetimeimmutable.getlasterrors.md) - Повертає попередження та помилки
+Функция — псевдоним функции:[DateTimeImmutable::getLastErrors()](datetimeimmutable.getlasterrors.md)

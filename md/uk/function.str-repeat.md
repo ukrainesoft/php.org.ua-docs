@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.str-pad.md: « strpad
-  - function.str-replace.md: strreplace »
+  - function.str-pad.md: « str\_pad
+  - function.str-replace.md: str\_replace »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: strrepeat
+title: str\_repeat
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# strrepeat
+# str\_repeat
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-strrepeat — Повертає рядок, що повторюється.
+str\_repeat — Повертає рядок, що повторюється.
 
 ### Опис
 
@@ -18,7 +19,7 @@ strrepeat — Повертає рядок, що повторюється.
 str_repeat(string $string, int $times): string
 ```
 
-Повертає рядок `string`, повторену `times` разів.
+Повертає рядок `string`, повторенную`times`раз.
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ str_repeat(string $string, int $times): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **strrepeat()****
+**Пример #1 Пример использования**str\_repeat()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ echo str_repeat("-=", 10);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 -=-=-=-=-=-=-=-=-=-=
@@ -55,5 +56,5 @@ echo str_repeat("-=", 10);
 ### Дивіться також
 
 -   [for](control-structures.for.md)
--   [strpad()](function.str-pad.md) - Доповнює рядок іншим рядком до заданої довжини
--   [substrcount()](function.substr-count.md) - Повертає кількість входжень підрядка
+-   [str\_pad()](function.str-pad.md) \- Доповнює рядок іншим рядком до заданої довжини
+-   [substr\_count()](function.substr-count.md) \- Повертає кількість входжень підрядка

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - userlandnaming.md: « Руководство по именованию
+  - userlandnaming.md: « Посібник з іменування
   - userlandnaming.rules.md: Правила »
   - index.md: PHP Manual
-  - userlandnaming.md: Руководство по именованию
+  - userlandnaming.md: Посібник з іменування
 title: Глобальний простір імен
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Глобальний простір імен
 

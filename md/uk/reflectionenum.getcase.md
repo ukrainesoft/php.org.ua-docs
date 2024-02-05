@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionenum.md: ReflectionEnum
 title: 'ReflectionEnum::getCase'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionEnum::getCase
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionEnum::getCase — Повертає певний варіант перерахування
 
@@ -28,11 +29,11 @@ public ReflectionEnum::getCase(string $name): ReflectionEnumUnitCase
 
 ### Значення, що повертаються
 
-Екземпляр [ReflectionEnumUnitCase](class.reflectionenumunitcase.md) або [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md) в залежності від ситуації.
+Екземпляр [ReflectionEnumUnitCase](class.reflectionenumunitcase.md) або [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)в зависимости от ситуации.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionEnum::getCase()****
+**Пример #1 Пример использования**ReflectionEnum::getCase()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($rCase->getValue());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 enum(Suit::Clubs)
@@ -60,7 +61,7 @@ enum(Suit::Clubs)
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.md)
--   [ReflectionEnum::getCases()](reflectionenum.getcases.md) - Повертає список усіх варіантів перерахування
--   [ReflectionEnum::hasCase()](reflectionenum.hascase.md) - Перевіряє варіант перерахування
--   [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) - Визначає, чи є перерахування типовим
+-   [Перерахування](language.enumerations.md)
+-   [ReflectionEnum::getCases()](reflectionenum.getcases.md) \- Повертає список усіх варіантів перерахування
+-   [ReflectionEnum::hasCase()](reflectionenum.hascase.md) \- Перевіряє варіант перерахування
+-   [ReflectionEnum::isBacked()](reflectionenum.isbacked.md) \- Визначає, чи є перерахування типовим

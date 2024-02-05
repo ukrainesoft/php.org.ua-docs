@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.geoip-country-code3-by-name.md: « geoipcountrycode3бname
-  - function.geoip-database-info.md: geoipdatabaseinfo »
+  - function.geoip-country-code3-by-name.md: « geoip\_country\_code3\_by\_name
+  - function.geoip-database-info.md: geoip\_database\_info »
   - index.md: PHP Manual
-  - ref.geoip.md: Функции GeoIP
-title: geoipcountrynameбname
+  - ref.geoip.md: Функції GeoIP
+title: geoip\_country\_name\_by\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# geoipcountrynameбname
+# geoip\_country\_name\_by\_name
 
 (PECL geoip >= 0.2.0)
 
-geoipcountrynameбname — Отримати повну назву країни
+geoip\_country\_name\_by\_name — Отримати повну назву країни
 
 ### Опис
 
@@ -18,7 +19,7 @@ geoipcountrynameбname — Отримати повну назву країни
 geoip_country_name_by_name(string $hostname): string
 ```
 
-Функція **geoipcountrynameбname()** повертає повну назву країни, що відповідає імені хоста або IP-адреси.
+Функция**geoip\_country\_name\_by\_name()** повертає повну назву країни, що відповідає імені хоста або IP-адреси.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ geoip_country_name_by_name(string $hostname): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoipcountrynameбname()****
+**Пример #1 Пример использования**geoip\_country\_name\_by\_name()\*\*\*\*
 
 Цей приклад виведе розташування хоста example.com.
 
@@ -45,7 +46,7 @@ if ($country) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Хост расположен в United States
@@ -53,5 +54,5 @@ if ($country) {
 
 ### Дивіться також
 
--   [geoipcountrycodeбname()](function.geoip-country-code-by-name.md) - Отримати двосимвольний код країни
--   [geoipcountrycode3бname()](function.geoip-country-code3-by-name.md) - Отримати трисимвольний код країни
+-   [geoip\_country\_code\_by\_name()](function.geoip-country-code-by-name.md) \- Отримати двосимвольний код країни
+-   [geoip\_country\_code3\_by\_name()](function.geoip-country-code3-by-name.md) \- Отримати трисимвольний код країни

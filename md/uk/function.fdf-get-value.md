@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-get-status.md: « fdfgetstatus
-  - function.fdf-get-version.md: fdfgetversion »
+  - function.fdf-get-status.md: « fdf\_get\_status
+  - function.fdf-get-version.md: fdf\_get\_version »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfgetvalue
+title: fdf\_get\_value
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfgetvalue
+# fdf\_get\_value
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfgetvalue — Отримує значення поля
+fdf\_get\_value — Отримує значення поля
 
 ### Опис
 
@@ -24,7 +25,7 @@ fdf_get_value(resource $fdf_document, string $fieldname, int $which = -1): mixed
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md) або [fdf\_open\_string()](function.fdf-open-string.md)
 
 `fieldname`
 
@@ -40,10 +41,10 @@ fdf_get_value(resource $fdf_document, string $fieldname, int $which = -1): mixed
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Додана підтримка масивів та параметра `which` |
+| 4.3.0 | Додана підтримка масивів та параметра `which` |
 
 ### Дивіться також
 
--   [fdfsetvalue()](function.fdf-set-value.md) - Встановлює значення поля
+-   [fdf\_set\_value()](function.fdf-set-value.md) \- Встановлює значення поля

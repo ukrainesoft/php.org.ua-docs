@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.swoole-errno.md: « swooleerrno
-  - function.swoole-event-add.md: swooleeventadd »
+  - function.swoole-errno.md: « swoole\_errno
+  - function.swoole-event-add.md: swoole\_event\_add »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swooleerrorlog
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_error\_log
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swooleerrorlog
+# swoole\_error\_log
 
 (PECL swoole >= 4.5.8)
 
-swooleerrorlog — Виводить повідомлення про помилки до журналу
+swoole\_error\_log — Виводить повідомлення про помилки до журналу
 
 ### Опис
 

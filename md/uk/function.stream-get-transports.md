@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-get-meta-data.md: « streamgetmetadata
-  - function.stream-get-wrappers.md: streamgetwrappers »
+  - function.stream-get-meta-data.md: « stream\_get\_meta\_data
+  - function.stream-get-wrappers.md: stream\_get\_wrappers »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamgettransports
+title: stream\_get\_transports
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamgettransports
+# stream\_get\_transports
 
 (PHP 5, PHP 7, PHP 8)
 
-streamgettransports — Отримати список зареєстрованих транспортів сокету
+stream\_get\_transports — Отримати список зареєстрованих транспортів сокету
 
 ### Опис
 
@@ -30,7 +31,7 @@ stream_get_transports(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **streamgettransports()****
+**Пример #1 Пример использования**stream\_get\_transports()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ print_r($xportlist);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array (
@@ -52,5 +53,5 @@ Array (
 
 ### Дивіться також
 
--   [streamgetfilters()](function.stream-get-filters.md) - Отримати список зареєстрованих фільтрів
--   [streamgetwrappers()](function.stream-get-wrappers.md) - Отримати список зареєстрованих потоків
+-   [stream\_get\_filters()](function.stream-get-filters.md) \- Отримати список зареєстрованих фільтрів
+-   [stream\_get\_wrappers()](function.stream-get-wrappers.md) \- Отримати список зареєстрованих потоків

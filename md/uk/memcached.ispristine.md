@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::isPristine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::isPristine
 
@@ -26,8 +27,8 @@ public Memcached::isPristine(): bool
 
 ### Значення, що повертаються
 
-Повертає true якщо екземпляр класу вже створено і false інакше.
+Повертає **`true`**, якщо екземпляр класу вже створено, інакше повертає **`false`**
 
 ### Дивіться також
 
--   [Memcached::isPersistent()](memcached.ispersistent.md) - Перевіряє чи використовується стійке з'єднання з сервером memcache
+-   [Memcached::isPersistent()](memcached.ispersistent.md) \- Перевіряє чи використовується стійке з'єднання з сервером memcache

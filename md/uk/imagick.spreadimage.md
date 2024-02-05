@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::spreadImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::spreadImage
 
@@ -34,7 +35,7 @@ public Imagick::spreadImage(float $radius): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::spreadImage()****
+**Пример #1 Пример использования**Imagick::spreadImage()\*\*\*\*
 
 ```php
 <?php

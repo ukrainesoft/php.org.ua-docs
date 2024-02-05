@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-path.bezierto.md: '« UIDrawPath::bezierTo'
-  - ui-draw-path.construct.md: 'ОЙDrawPath::construct »'
+  - ui-draw-path.bezierto.md: '« UI\\Draw\\Path::bezierTo'
+  - ui-draw-path.construct.md: 'UI\\Draw\\Path::\_\_construct »'
   - index.md: PHP Manual
-  - class.ui-draw-path.md: ОЙDrawPath
-title: 'ОЙDrawPath::closeFigure'
+  - class.ui-draw-path.md: UI\\Draw\\Path
+title: 'UI\\Draw\\Path::closeFigure'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawPath::closeFigure
+# UI\\Draw\\Path::closeFigure
 
 (UI 0.9.9)
 
-ОЙDrawPath::closeFigure — Закрити фігуру
+UI\\Draw\\Path::closeFigure — Закрити фігуру
 
 ### Опис
 

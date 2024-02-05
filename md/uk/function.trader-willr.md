@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-wclprice.md: « traderwclprice
-  - function.trader-wma.md: traderwma »
+  - function.trader-wclprice.md: « trader\_wclprice
+  - function.trader-wma.md: trader\_wma »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderwillr
+  - ref.trader.md: Функції Trader
+title: trader\_willr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderwillr
+# trader\_willr
 
 (PECL trader >= 0.2.0)
 
-traderwillr - Відсотковий діапазон Вільямса
+trader\_will - Відсотковий діапазон Вільямса
 
 ### Опис
 
 ```methodsynopsis
-trader_willr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_willr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

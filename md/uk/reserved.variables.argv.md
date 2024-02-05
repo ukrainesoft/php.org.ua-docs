@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - reserved.variables.md: Зумовлені змінні
 title: $argv
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # $argv
 
@@ -14,11 +15,11 @@ $argv — Масив переданих скрипту аргументів
 
 ### Опис
 
-Містить масив (array) всіх аргументів, переданих скрипту при запуску з [командного рядка](features.commandline.md)
+Містить масив (array) всіх аргументів, переданих скрипту під час запуску [командного рядка](features.commandline.md)
 
-> **Зауваження**: Перший аргумент $argv завжди містить ім'я запущеного файлу скрипта.
+> **Зауваження**: Перший аргумент $argv\[ \]всегда содержит имя файла запущенного скрипта.
 
-> **Зауваження**: Ця змінна недоступна, якщо [registerargcargv](ini.core.md#ini.register-argc-argv) вимкнено.
+> **Зауваження**: Ця змінна недоступна, якщо [register\_argc\_argv](ini.core.md#ini.register-argc-argv) вимкнено.
 
 ### Приклади
 
@@ -32,7 +33,7 @@ var_dump($argv);
 
 Запустимо приклад у командному рядку: php script.php arg1 arg2 arg3
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(4) {
@@ -49,11 +50,11 @@ array(4) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Також доступно як [SERVER\['argv'\]](reserved.variables.server.md)
+> Також доступно як [$\_SERVER\['argv'\]](reserved.variables.server.md)
 
 ### Дивіться також
 
--   [getopt()](function.getopt.md) - Отримує параметри зі списку аргументів командного рядка
+-   [getopt()](function.getopt.md) \- Отримує параметри зі списку аргументів командного рядка
 -   [](reserved.variables.argc.md)[$argc](reserved.variables.argc.md)

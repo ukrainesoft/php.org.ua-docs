@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-schema.dropcollection.md: '« Schema::dropCollection'
   - mysql-xdevapi-schema.getcollection.md: 'Schema::getCollection »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysql\_xdevapi\\Schema
 title: 'Schema::existsInDatabase'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Schema::existsInDatabase
 
 (No version information available, might only be in Git)
 
-Schema::existsInDatabase — Перевірити, чи існує у базі даних
+Schema::existsInDatabase — Перевіряє, чи існує база даних.
 
 ### Опис
 
@@ -19,10 +20,6 @@ public mysql_xdevapi\Schema::existsInDatabase(): bool
 ```
 
 Перевіряє, чи існує поточний об'єкт (схема, таблиця, колекція або вистава) в об'єкті схеми.
-
-**Увага**
-
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,7 +31,7 @@ public mysql_xdevapi\Schema::existsInDatabase(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSchema::getCollection()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::existsInDatabase()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +56,7 @@ if ($trees->existsInDatabase()) {
 }
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Да, коллекция 'trees' всё ещё существует.

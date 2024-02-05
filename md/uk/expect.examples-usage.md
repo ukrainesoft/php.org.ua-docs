@@ -1,10 +1,11 @@
 ---
 navigation:
   - expect.examples.md: « Приклади
-  - ref.expect.md: Функции Expect »
+  - ref.expect.md: Опції Expect »
   - index.md: PHP Manual
   - expect.examples.md: Приклади
 title: Приклади використання Expect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Приклади використання Expect
 

@@ -4,8 +4,9 @@ navigation:
   - apache.configuration.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - apache.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Установка PHP як модуля Apache описана в [відповідному розділі](install.md)
+Установка PHP в качестве модуля Apache описана в[відповідному розділі](install.md)

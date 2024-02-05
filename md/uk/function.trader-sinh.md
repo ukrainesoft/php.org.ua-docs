@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-sin.md: « tradersin
-  - function.trader-sma.md: tradersma »
+  - function.trader-sin.md: « trader\_sin
+  - function.trader-sma.md: trader\_sma »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradersinh
+  - ref.trader.md: Функції Trader
+title: trader\_sinh
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradersinh
+# trader\_sinh
 
 (PECL trader >= 0.2.0)
 
-tradersinh — Векторний тригонометричний гіперболічний синус
+trader\_sinh — Векторний тригонометричний гіперболічний синус
 
 ### Опис
 

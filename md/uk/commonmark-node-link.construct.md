@@ -1,28 +1,29 @@
 ---
 navigation:
-  - class.commonmark-node-link.md: « CommonMarkNodeLink
-  - class.commonmark-node-customblock.md: CommonMarkNodeCustomBlock »
+  - class.commonmark-node-link.md: « CommonMark\\Node\\Link
+  - class.commonmark-node-customblock.md: CommonMark\\Node\\CustomBlock »
   - index.md: PHP Manual
-  - class.commonmark-node-link.md: CommonMarkNodeLink
-title: 'CommonMarkNodeLink::construct'
+  - class.commonmark-node-link.md: CommonMark\\Node\\Link
+title: 'CommonMark\\Node\\Link::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkNodeLink::construct
+# CommonMark\\Node\\Link::\_\_construct
 
 (cmark >= 1.0.0)
 
-CommonMarkNodeLink::construct - Конструктор класу Link
+CommonMark\\Node\\Link::\_\_construct - Конструктор класу Link
 
 ### Опис
 
-public **CommonMarkNodeLink::construct**
+public**CommonMark\\Node\\Link::\_\_construct**()
 
-public **CommonMarkNodeLink::construct**(string `$url`
+public**CommonMark\\Node\\Link::\_\_construct**(string`$url`) .
 
-public **CommonMarkNodeLink::construct**(string `$url`, string `$title`
+public**CommonMark\\Node\\Link::\_\_construct**(string`$url`, string`$title`) .
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-editablecombo.settext.md: '« UIControlsEditableCombo::setText'
-  - ui-controls-radio.append.md: 'ОЙControlsRadio::append »'
+  - ui-controls-editablecombo.settext.md: '« UI\\Controls\\EditableCombo::setText'
+  - ui-controls-radio.append.md: 'UI\\Controls\\Radio::append »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Радіо"
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Радіо"
 
@@ -58,7 +59,7 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsRadio::append](ui-controls-radio.append.md) - Додає варіант
--   [ОЙControlsRadio::getSelected](ui-controls-radio.getselected.md) — Отримати вибраний варіант
--   [ОЙControlsRadio::onSelected](ui-controls-radio.onselected.md) - Обробник вибору
--   [ОЙControlsRadio::setSelected](ui-controls-radio.setselected.md) — Встановити вибраний варіант
+-   [UI\\Controls\\Radio::append](ui-controls-radio.append.md) \- Додає варіант
+-   [UI\\Controls\\Radio::getSelected](ui-controls-radio.getselected.md)— Отримати вибраний варіант
+-   [UI\\Controls\\Radio::onSelected](ui-controls-radio.onselected.md) \- Обробник вибору
+-   [UI\\Controls\\Radio::setSelected](ui-controls-radio.setselected.md)— Встановити вибраний варіант

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::sslGetCipherInfo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::sslGetCipherInfo
 
@@ -19,9 +20,9 @@ public
    EventBufferEvent::sslGetCipherInfo(): string
 ```
 
-Отримує опис поточного шифру за допомогою SSL API `SSL_CIPHER_description` (дивіться довідкову сторінку *SSLCIPHERgetname(3)*
+Отримує опис поточного шифру за допомогою SSL API `SSL_CIPHER_description`(смотрите справочную страницу*SSL\_CIPHER\_get\_name(3)*
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна, лише якщо `Event` скомпільований за допомогою OpenSSL.
 
@@ -31,4 +32,4 @@ public
 
 ### Значення, що повертаються
 
-Повертає текстовий опис шифру у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає текстовий опис шифру у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

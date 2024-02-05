@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::formatCurrency'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NumberFormatter::formatCurrency
 
-# numfmtformatcurrency
+# numfmt\_format\_currency
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::formatCurrency -- numfmtformatcurrency - Форматує значення валюти
+NumberFormatter::formatCurrency -- numfmt\_format\_currency - Форматує значення валюти
 
 ### Опис
 
@@ -46,11 +47,11 @@ numfmt_format_currency(NumberFormatter $formatter, float $amount, string $curren
 
 ### Значення, що повертаються
 
-Рядок, що становить форматоване значення валюти або **`false`** у разі виникнення помилки.
+Рядок, що становить форматоване значення валюти або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmtformatcurrency()****
+**Пример #1 Пример использования**numfmt\_format\_currency()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +77,7 @@ echo $fmt->formatCurrency(1234567.891234567890000, "RUR")."\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1.234.567,89 €
@@ -85,8 +86,17 @@ echo $fmt->formatCurrency(1234567.891234567890000, "RUR")."\n";
 1 234 567,89р.
 ```
 
+### Примітки
+
+> **Зауваження** :
+> 
+> Формати, досягнуті цим способом форматування, не можуть повністю використовувати можливості базової бібліотеки ICU, наприклад форматувати валюту з вузьким символом валюти.
+> 
+> Для полной поддержки, используйте функцию[msgfmt\_format\_message()](messageformatter.formatmessage.md)
+
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
--   [numfmtformat()](numberformatter.format.md) - Форматує число
--   [numfmtparsecurrency()](numberformatter.parsecurrency.md) - Розбирає номер валюти
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.md) \- Отримує останній код помилки засобу форматування
+-   [numfmt\_format()](numberformatter.format.md) \- Форматує число
+-   [numfmt\_parse\_currency()](numberformatter.parsecurrency.md) \- Розбирає номер валюти
+-   [msgfmt\_format\_message()](messageformatter.formatmessage.md) \- Швидко форматує повідомлення

@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.mcrypt-generic-deinit.md: « mcryptgenericdeinit
-  - function.mcrypt-generic.md: mcryptgeneric »
+  - function.mcrypt-generic-deinit.md: « mcrypt\_generic\_deinit
+  - function.mcrypt-generic.md: mcrypt\_generic »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
-title: mcryptgenericinit
+title: mcrypt\_generic\_init
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mcryptgenericinit
+# mcrypt\_generic\_init
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcryptgenericinit — Функція ініціалізує всі буфери, необхідні для шифрування
+mcrypt\_generic\_init — Функція ініціалізує всі буфери, необхідні для шифрування
 
 **Увага**
 
-Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -22,7 +23,7 @@ mcryptgenericinit — Функція ініціалізує всі буфери,
 mcrypt_generic_init(resource $td, string $key, string $iv): int
 ```
 
-Ви повинні викликати цю функцію перед будь-яким викликом [mcryptgeneric()](function.mcrypt-generic.md) або [mdecryptgeneric()](function.mdecrypt-generic.md)
+Ви повинні викликати цю функцію перед будь-яким викликом [mcrypt\_generic()](function.mcrypt-generic.md) або [mdecrypt\_generic()](function.mdecrypt-generic.md)
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ mcrypt_generic_init(resource $td, string $key, string $iv): int
 
 `key`
 
-Максимальна довжина ключа має бути отримана за допомогою функції [mcryptencgetkeysize()](function.mcrypt-enc-get-key-size.md) та будь-яке менше значення припустимо.
+Максимальна довжина ключа має бути отримана за допомогою функції [mcrypt\_enc\_get\_key\_size()](function.mcrypt-enc-get-key-size.md)и любое меньшее значение допустимо.
 
 `iv`
 
-Зазвичай розмір вектора (IV), що ініціалізує, повинен збігатися з розміром блоку, але ви все одно повинні отримати це значення за допомогою функції [mcryptencgetвербsize()](function.mcrypt-enc-get-iv-size.md). IV ігнорується до ECB. IV ПОВИНЕН бути присутнім у режимах CFB, CBC, STREAM, nOFB та OFB. Він має бути випадковим та унікальним (але не обов'язково секретним). Один і той же IV повинен використовуватися як при шифруванні, так і при дешифруванні. Якщо ви не бажаєте його використовувати - просто встановіть його рівним нулю, але так чинити не рекомендується.
+Зазвичай розмір вектора (IV), що ініціалізує, повинен збігатися з розміром блоку, але ви все одно повинні отримати це значення за допомогою функції [mcrypt\_enc\_get\_iv\_size()](function.mcrypt-enc-get-iv-size.md). IV ігнорується до ECB. IV ПОВИНЕН бути присутнім у режимах CFB, CBC, STREAM, nOFB та OFB. Він має бути випадковим та унікальним (але не обов'язково секретним). Один і той же IV повинен використовуватися як при шифруванні, так і при дешифруванні. Якщо ви не бажаєте його використовувати - просто встановіть його рівним нулю, але так чинити не рекомендується.
 
 ### Значення, що повертаються
 
@@ -44,4 +45,4 @@ mcrypt_generic_init(resource $td, string $key, string $iv): int
 
 ### Дивіться також
 
--   [mcryptmoduleopen()](function.mcrypt-module-open.md) - Відкриває модуль шифрування з використанням вказаних алгоритму та режиму
+-   [mcrypt\_module\_open()](function.mcrypt-module-open.md) \- Відкриває модуль шифрування з використанням вказаних алгоритму та режиму

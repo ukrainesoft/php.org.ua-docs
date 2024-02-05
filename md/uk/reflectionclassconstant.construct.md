@@ -4,17 +4,18 @@ navigation:
   - reflectionclassconstant.export.md: 'ReflectionClassConstant::export »'
   - index.md: PHP Manual
   - class.reflectionclassconstant.md: ReflectionClassConstant
-title: 'ReflectionClassConstant::construct'
+title: 'ReflectionClassConstant::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionClassConstant::construct
+# ReflectionClassConstant::\_\_construct
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
-ReflectionClassConstant::construct — Створює ReflectionClassConstant
+ReflectionClassConstant::\_\_construct — Створює об'єкт ReflectionClassConstant
 
 ### Опис
 
-public **ReflectionClassConstant::construct**(object | string `$class`, string `$constant`
+public**ReflectionClassConstant::\_\_construct**(object|string`$class`, string`$constant`) .
 
 Створює новий об'єкт [ReflectionClassConstant](class.reflectionclassconstant.md)
 
@@ -26,7 +27,7 @@ public **ReflectionClassConstant::construct**(object | string `$class`, string `
 
 `constant`
 
-Назва константи класу.
+Ім'я константи класу.
 
 ### Помилки
 

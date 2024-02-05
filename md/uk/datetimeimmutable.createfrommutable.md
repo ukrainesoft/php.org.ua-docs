@@ -5,28 +5,35 @@ navigation:
   - index.md: PHP Manual
   - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::createFromMutable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeImmutable::createFromMutable
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-DateTimeImmutable::createFromMutable — Повертає новий об'єкт DateTimeImmutable, що містить заданий об'єкт DateTime
+DateTimeImmutable::createFromMutable — Повертає новий екземпляр DateTimeImmutable, що містить заданий об'єкт DateTime
 
 ### Опис
 
 ```methodsynopsis
-public static DateTimeImmutable::createFromMutable(DateTime $object): DateTimeImmutable
+public static DateTimeImmutable::createFromMutable(DateTime $object): static
 ```
 
 ### Список параметрів
 
 `object`
 
-Об'єкт, що змінюється [DateTime](class.datetime.md), який ви хочете перетворити на незмінну версію. Цей об'єкт не змінюється, але натомість створюється новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md), що містить ту саму інформацію.
+Об'єкт, що змінюється [DateTime](class.datetime.md), який ви хочете перетворити на незмінну версію. Цей об'єкт не змінюється, але натомість створюється новий екземпляр [DateTimeImmutable](class.datetimeimmutable.md), що містить ту саму інформацію.
 
 ### Значення, що повертаються
 
 Повертає новий екземпляр [DateTimeImmutable](class.datetimeimmutable.md)
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.0.0 | Метод тепер повертає екземпляр поточного класу, що викликається; раніше він створював новий екземпляр класу [DateTimeImmutable](class.datetimeimmutable.md) |
 
 ### Приклади
 

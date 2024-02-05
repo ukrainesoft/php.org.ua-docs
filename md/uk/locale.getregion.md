@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.locale.md: Locale
 title: 'Locale::getRegion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Locale::getRegion
 
-# localegetregion
+# locale\_get\_region
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::getRegion -- localegetregion — Отримати регіон для локалі
+Locale::getRegion -- locale\_get\_region — Отримати регіон для локалі
 
 ### Опис
 
@@ -44,7 +45,7 @@ locale_get_region(string $locale): ?string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **localegetregion()****
+**Пример #1 Пример использования**locale\_get\_region()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ echo Locale::getRegion('de-CH-1901');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 CH
@@ -68,6 +69,6 @@ CH
 
 ### Дивіться також
 
--   [localegetprimarylanguage()](locale.getprimarylanguage.md) - Отримати первинну мову для локалі
--   [localegetscript()](locale.getscript.md) - Отримати алфавіт для локалі
--   [localegetallvariants()](locale.getallvariants.md) - Отримання варіантів із переданої локалі
+-   [locale\_get\_primary\_language()](locale.getprimarylanguage.md) \- Отримати первинну мову для локалі
+-   [locale\_get\_script()](locale.getscript.md) \- Отримати алфавіт для локалі
+-   [locale\_get\_all\_variants()](locale.getallvariants.md) \- Отримання варіантів із переданої локалі

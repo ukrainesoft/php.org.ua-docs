@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::parseCurrency'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NumberFormatter::parseCurrency
 
-# numfmtparsecurrency
+# numfmt\_parse\_currency
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::parseCurrency - numfmtparsecurrency — Розбирає номер валюти
+NumberFormatter::parseCurrency -- numfmt\_parse\_currency — Розбирає номер валюти
 
 ### Опис
 
@@ -25,10 +26,10 @@ public NumberFormatter::parseCurrency(string $string, string &$currency, int &$o
 Процедурний стиль
 
 ```methodsynopsis
-numfmt_parse_currency(    NumberFormatter $formatter,    string $string,    string &$currency,    int &$offset = null): float|false
+numfmt_parse_currency(    NumberFormatter $formatter,    string $string,    string &$currency,    int &$offset = null): float|false
 ```
 
-Розбирає рядок на число з плаваючою точкою та валюту за допомогою засобу форматування.
+Розбирає рядок на число з точкою, що плаває, і валюту за допомогою засобу форматування.
 
 ### Список параметрів
 
@@ -46,11 +47,11 @@ numfmt_parse_currency(    NumberFormatter $formatter,    string $string,    stri
 
 ### Значення, що повертаються
 
-Розібране числове значення або **`false`** у разі виникнення помилки.
+Разобранное числовое значение или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmtparsecurrency()****
+**Пример #1 Пример использования**numfmt\_parse\_currency()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ echo "У нас ".$fmt->parseCurrency($num, $curr)." в $curr\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 У нас 1234567.89 в USD
@@ -78,6 +79,6 @@ echo "У нас ".$fmt->parseCurrency($num, $curr)." в $curr\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
--   [numfmtparse()](numberformatter.parse.md) - Розбирає число
--   [numfmtformatcurrency()](numberformatter.formatcurrency.md) - Форматує значення валюти
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.md) \- Отримує останній код помилки засобу форматування
+-   [numfmt\_parse()](numberformatter.parse.md) \- Розбирає число
+-   [numfmt\_format\_currency()](numberformatter.formatcurrency.md) \- Форматує значення валюти

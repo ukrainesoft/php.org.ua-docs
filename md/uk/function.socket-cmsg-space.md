@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.socket-close.md: « socketclose
-  - function.socket-connect.md: socketconnect »
+  - function.socket-close.md: « socket\_close
+  - function.socket-connect.md: socket\_connect »
   - index.md: PHP Manual
-  - ref.sockets.md: Функции сокета
-title: socketcmsgspace
+  - ref.sockets.md: Опції сокету
+title: socket\_cmsg\_space
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# socketcmsgspace
+# socket\_cmsg\_space
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-socketcmsgspace — Визначити розмір буфера повідомлення
+socket\_cmsg\_space — Визначити розмір буфера повідомлення
 
 ### Опис
 
@@ -22,7 +23,7 @@ socket_cmsg_space(int $level, int $type, int $num = 0): ?int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,5 +35,5 @@ socket_cmsg_space(int $level, int $type, int $num = 0): ?int
 
 ### Дивіться також
 
--   [socketrecvmsg()](function.socket-recvmsg.md) - Прочитати повідомлення
--   [socketsendmsg()](function.socket-sendmsg.md) - Надіслати повідомлення
+-   [socket\_recvmsg()](function.socket-recvmsg.md) \- Прочитати повідомлення
+-   [socket\_sendmsg()](function.socket-sendmsg.md) \- Надіслати повідомлення

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-get-entries.md: « ldapgetentries
-  - function.ldap-get-values-len.md: ldapgetvalueslen »
+  - function.ldap-get-entries.md: « ldap\_get\_entries
+  - function.ldap-get-values-len.md: ldap\_get\_values\_len »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapgetoption
+title: ldap\_get\_option
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapgetoption
+# ldap\_get\_option
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-ldapgetoption — Отримати поточне значення цієї опції
+ldap\_get\_option — Отримати поточне значення цієї опції
 
 ### Опис
 
@@ -18,17 +19,17 @@ ldapgetoption — Отримати поточне значення цієї оп
 ldap_get_option(LDAP\Connection $ldap, int $option, array|string|int &$value = null): bool
 ```
 
-Встановлює `value` значення зазначеної опції.
+Устанавливает`value` значення зазначеної опції.
 
 ### Список параметрів
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `option`
 
-Опція `option` може бути однією з:
+Опция`option` може бути однією з:
 
 | Опция | Тип | Начиная с версии |
 | --- | --- | --- |
@@ -38,7 +39,7 @@ ldap_get_option(LDAP\Connection $ldap, int $option, array|string|int &$value = n
 | **`LDAP_OPT_NETWORK_TIMEOUT`** | int |  |
 | **`LDAP_OPT_PROTOCOL_VERSION`** | int |  |
 | **`LDAP_OPT_ERROR_NUMBER`** | int |  |
-| **`LDAP_OPT_DIAGNOSTIC_MESSAGE`** | int |  |
+| **`LDAP_OPT_DIAGNOSTIC_MESSAGE`** | string |  |
 | **`LDAP_OPT_REFERRALS`** | int |  |
 | **`LDAP_OPT_RESTART`** | int |  |
 | **`LDAP_OPT_HOST_NAME`** | string |  |
@@ -46,23 +47,23 @@ ldap_get_option(LDAP\Connection $ldap, int $option, array|string|int &$value = n
 | **`LDAP_OPT_MATCHED_DN`** | string |  |
 | **`LDAP_OPT_SERVER_CONTROLS`** | array |  |
 | **`LDAP_OPT_CLIENT_CONTROLS`** | array |  |
-| **`LDAP_OPT_X_KEEPALIVE_IDLE`** | int |  |
-| **`LDAP_OPT_X_KEEPALIVE_PROBES`** | int |  |
-| **`LDAP_OPT_X_KEEPALIVE_INTERVAL`** | int |  |
-| **`LDAP_OPT_X_TLS_CACERTDIR`** | string |  |
-| **`LDAP_OPT_X_TLS_CACERTFILE`** | string |  |
-| **`LDAP_OPT_X_TLS_CERTFILE`** | string |  |
-| **`LDAP_OPT_X_TLS_CIPHER_SUITE`** | string |  |
-| **`LDAP_OPT_X_TLS_CRLCHECK`** | int |  |
-| **`LDAP_OPT_X_TLS_CRL_NONE`** | int |  |
-| **`LDAP_OPT_X_TLS_CRL_PEER`** | int |  |
-| **`LDAP_OPT_X_TLS_CRL_ALL`** | int |  |
-| **`LDAP_OPT_X_TLS_CRLFILE`** | string |  |
-| **`LDAP_OPT_X_TLS_DHFILE`** | string |  |
-| **`LDAP_OPT_X_TLS_KEYFILE`** | string |  |
-| **`LDAP_OPT_X_TLS_PACKAGE`** | string |  |
-| **`LDAP_OPT_X_TLS_PROTOCOL_MIN`** | int |  |
-| **`LDAP_OPT_X_TLS_RANDOM_FILE`** | string |  |
+| **`LDAP_OPT_X_KEEPALIVE_IDLE`** | int | 7.1 |
+| **`LDAP_OPT_X_KEEPALIVE_PROBES`** | int | 7.1 |
+| **`LDAP_OPT_X_KEEPALIVE_INTERVAL`** | int | 7.1 |
+| **`LDAP_OPT_X_TLS_CACERTDIR`** | string | 7.1 |
+| **`LDAP_OPT_X_TLS_CACERTFILE`** | string | 7.1 |
+| **`LDAP_OPT_X_TLS_CERTFILE`** | string | 7.1 |
+| **`LDAP_OPT_X_TLS_CIPHER_SUITE`** | string | 7.1 |
+| **`LDAP_OPT_X_TLS_CRLCHECK`** | int | 7.1 |
+| **`LDAP_OPT_X_TLS_CRL_NONE`** | int | 7.1 |
+| **`LDAP_OPT_X_TLS_CRL_PEER`** | int | 7.1 |
+| **`LDAP_OPT_X_TLS_CRL_ALL`** | int | 7.1 |
+| **`LDAP_OPT_X_TLS_CRLFILE`** | string | 7.1 |
+| **`LDAP_OPT_X_TLS_DHFILE`** | string | 7.1 |
+| **`LDAP_OPT_X_TLS_KEYFILE`** | string | 7.1 |
+| **`LDAP_OPT_X_TLS_PACKAGE`** | string | 7.1 |
+| **`LDAP_OPT_X_TLS_PROTOCOL_MIN`** | int | 7.1 |
+| **`LDAP_OPT_X_TLS_RANDOM_FILE`** | string | 7.1 |
 | **`LDAP_OPT_X_TLS_REQUIRE_CERT`** | int |  |
 
 `value`
@@ -71,13 +72,13 @@ ldap_get_option(LDAP\Connection $ldap, int $option, array|string|int &$value = n
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
 
 ### Приклади
 
@@ -96,10 +97,10 @@ if (ldap_get_option($ds, LDAP_OPT_PROTOCOL_VERSION, $version)) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція доступна лише при використанні OpenLDAP 2.x.x або Netscape Directory SDK x.x.
 
 ### Дивіться також
 
--   [ldapsetoption()](function.ldap-set-option.md) - Встановити значення цієї опції
+-   [ldap\_set\_option()](function.ldap-set-option.md) \- Встановити значення цієї опції

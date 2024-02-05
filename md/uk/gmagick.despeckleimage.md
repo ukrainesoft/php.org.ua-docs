@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::despeckleimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::despeckleimage
 
@@ -30,11 +31,11 @@ public Gmagick::despeckleimage(): Gmagick
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Gmagick::despeckleimage()****
+**Пример #1 Пример использования**Gmagick::despeckleimage()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ public Gmagick::despeckleimage(): Gmagick
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 ...

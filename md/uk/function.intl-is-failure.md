@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.intl-get-error-message.md: « intlgeterrormessage
+  - function.intl-get-error-message.md: « intl\_get\_error\_message
   - book.mbstring.md: Багатобайтові рядки »
   - index.md: PHP Manual
-  - ref.intl.md: Функции intl
-title: intlісfailure
+  - ref.intl.md: Функції intl
+title: intl\_is\_failure
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# intlісfailure
+# intl\_is\_failure
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-intlісfailure — Перевірити, чи є код помилки ознакою збою
+intl\_is\_failure — Перевірити, чи є код помилки ознакою збою
 
 ### Опис
 
@@ -22,7 +23,7 @@ intl_is_failure(int $errorCode): bool
 
 `errorCode`
 
-Значення, повернене функціями: [intlgeterrorcode()](function.intl-get-error-code.md) [collatorgeterrorcode()](collator.geterrorcode.md)
+Значення, повернене функціями: [intl\_get\_error\_code()](function.intl-get-error-code.md) [collator\_get\_error\_code()](collator.geterrorcode.md)
 
 ### Значення, що повертаються
 
@@ -30,7 +31,7 @@ intl_is_failure(int $errorCode): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **intlісfailure()****
+**Пример #1 Пример использования**intl\_is\_failure()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ check( U_ILLEGAL_ARGUMENT_ERROR );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 false
@@ -56,6 +57,6 @@ true
 
 ### Дивіться також
 
--   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
--   [collatorgeterrorcode()](collator.geterrorcode.md) - Отримує останній код помилки Collator
--   [Collator-getErrorCode()](collator.geterrorcode.md) - Отримує останній код помилки Collator
+-   [intl\_get\_error\_code()](function.intl-get-error-code.md) \- Отримати код останньої помилки
+-   [collator\_get\_error\_code()](collator.geterrorcode.md) \- Отримує останній код помилки Collator
+-   [Collator-getErrorCode()](collator.geterrorcode.md) \- Отримує останній код помилки Collator

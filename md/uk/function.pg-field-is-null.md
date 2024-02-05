@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-fetch-row.md: « pgfetchrow
-  - function.pg-field-name.md: пгfieldname »
+  - function.pg-fetch-row.md: « pg\_fetch\_row
+  - function.pg-field-name.md: pg\_field\_name »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгfieldісnull
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_field\_is\_null
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгfieldісnull
+# pg\_field\_is\_null
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгfieldісnull — Перевірка поля на значення SQL `NULL`
+pg\_field\_is\_null — Проверка поля на значение SQL`NULL`
 
 ### Опис
 
@@ -22,17 +23,17 @@ pg_field_is_null(PgSql\Result $result, int $row, mixed $field): int
 pg_field_is_null(PgSql\Result $result, mixed $field): int
 ```
 
-**пгfieldісnull()** перевіряє, чи містить осередок екземпляра [PgSqlResult](class.pgsql-result.md) значення SQL `NULL`
+**pg\_field\_is\_null()** перевіряє, чи містить осередок екземпляра [PgSql\\Result](class.pgsql-result.md)значение SQL`NULL`
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Колишня назва функції: **пгfieldisnull()**
+> Прежнее наименование функции:**pg\_fieldisnull()**
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSql\\Result](class.pgsql-result.md), що повертається функціями [pg\_query()](function.pg-query.md) [pg\_query\_params()](function.pg-query-params.md) або [pg\_execute()](function.pg-execute.md)(среди прочего).
 
 `row`
 
@@ -44,17 +45,17 @@ pg_field_is_null(PgSql\Result $result, mixed $field): int
 
 ### Значення, що повертаються
 
-Повертає `1`, якщо вибране значення SQL `NULL` `0` для інших значень. Функція поверне **`false`**, якщо номер рядка буде поза допустимим діапазоном та при інших помилках.
+Повертає , якщо вибране значення SQL `NULL` для інших значень. Функція поверне **`false`**, якщо номер рядка буде поза допустимим діапазоном та при інших помилках.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгfieldісnull()****
+**Пример #1 Пример использования**pg\_field\_is\_null()\*\*\*\*
 
 ```php
 <?php

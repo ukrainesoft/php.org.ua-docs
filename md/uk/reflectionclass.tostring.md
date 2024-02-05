@@ -4,13 +4,14 @@ navigation:
   - class.reflectionclassconstant.md: ReflectionClassConstant »
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
-title: 'ReflectionClass::function toString() { \[native code\] }'
+title: 'ReflectionClass::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionClass::function toString() { \[native code\] }
+# ReflectionClass::\_\_function toString() { \[native code\] }
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::toString — Повертає рядкову виставу об'єкта класу ReflectionClass
+ReflectionClass::\_\_toString — Повертає рядкову виставу об'єкта класу ReflectionClass
 
 ### Опис
 
@@ -30,7 +31,7 @@ public ReflectionClass::__toString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::toString()****
+**Пример #1 Пример использования**ReflectionClass::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ echo $reflectionClass->__toString();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Class [ <internal:Core> class Exception ] {
@@ -105,5 +106,5 @@ Class [ <internal:Core> class Exception ] {
 
 ### Дивіться також
 
--   [ReflectionClass::export()](reflectionclass.export.md) - Експортує клас
--   [toString()](language.oop5.magic.md#object.tostring)
+-   [ReflectionClass::export()](reflectionclass.export.md) \- Експортує клас
+-   [\_\_toString()](language.oop5.magic.md#object.tostring)

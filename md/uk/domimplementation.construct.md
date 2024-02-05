@@ -4,17 +4,18 @@ navigation:
   - domimplementation.createdocument.md: 'DOMImplementation::createDocument »'
   - index.md: PHP Manual
   - class.domimplementation.md: DOMImplementation
-title: 'DOMImplementation::construct'
+title: 'DOMImplementation::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DOMImplementation::construct
+# DOMImplementation::\_\_construct
 
 (PHP 5, PHP 7)
 
-DOMImplementation::construct — Створює новий об'єкт класу DOMImplementation
+DOMImplementation::\_\_construct — Створює новий об'єкт класу DOMImplementation
 
 ### Опис
 
-**DOMImplementation::construct**
+**DOMImplementation::\_\_construct**()
 
 Створює екземпляр класу [DOMImplementation](class.domimplementation.md)
 

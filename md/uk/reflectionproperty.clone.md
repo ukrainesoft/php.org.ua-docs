@@ -1,16 +1,17 @@
 ---
 navigation:
   - class.reflectionproperty.md: « ReflectionProperty
-  - reflectionproperty.construct.md: 'ReflectionProperty::construct »'
+  - reflectionproperty.construct.md: 'ReflectionProperty::\_\_construct »'
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
-title: 'ReflectionProperty::clone'
+title: 'ReflectionProperty::\_\_clone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionProperty::clone
+# ReflectionProperty::\_\_clone
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionProperty::clone — Клонувати
+ReflectionProperty::\_\_clone — Клонувати
 
 ### Опис
 
@@ -22,7 +23,7 @@ private ReflectionProperty::__clone(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ private ReflectionProperty::__clone(): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Метод не є остаточним (final). |
+| 8.1.0 | Метод не є остаточним (final). |
 
 ### Дивіться також
 
--   [ReflectionProperty::export()](reflectionproperty.export.md) - Експорт
+-   [ReflectionProperty::export()](reflectionproperty.export.md) \- Експорт
 -   [Копіювання об'єктів](language.oop5.cloning.md)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server-port.on.md: '« SwooleServerPort::on'
-  - swoole-server.exist.md: 'SwooleServer::exist »'
+  - swoole-server-port.on.md: '« Swoole\\Server\\Port::on'
+  - swoole-server.exist.md: 'Swoole\\Server::exist »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServerPort::set'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server\\Port::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServerPort::set
+# Swoole\\Server\\Port::set
 
 (PECL swoole >= 1.9.0)
 
-SwooleServerPort::set — Встановлює протокол порту сервера
+Swoole\\Server\\Port::set — Встановлює протокол порту сервера
 
 ### Опис
 

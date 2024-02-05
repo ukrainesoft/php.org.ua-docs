@@ -5,16 +5,17 @@ navigation:
   - index.md: PHP Manual
   - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::create'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NumberFormatter::create
 
-# numfmtcreate
+# numfmt\_create
 
-# NumberFormatter::construct
+# NumberFormatter::\_\_construct
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::create -- numfmtcreate -- NumberFormatter::construct — Створює засіб форматування чисел
+NumberFormatter::create -- numfmt\_create -- NumberFormatter::\_\_construct — Створює засіб форматування чисел
 
 ### Опис
 
@@ -32,7 +33,7 @@ numfmt_create(string $locale, int $style, ?string $pattern = null): ?NumberForma
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public **NumberFormatter::construct**(string `$locale`, int `$style`, ?string `$pattern` **`null`**
+public**NumberFormatter::\_\_construct**(string`$locale`, int`$style`, ?string`$pattern` **`null`**) .
 
 Створює засіб форматування чисел.
 
@@ -40,11 +41,11 @@ public **NumberFormatter::construct**(string `$locale`, int `$style`, ?string `$
 
 `locale`
 
-Локаль, у якій буде відформатовано число (назва локалі, наприклад, enCA).
+Локаль, у якій буде відформатовано число (назва локалі, наприклад, en\_CA).
 
 `style`
 
-Стиль форматування, одна з констант [стилю форматування](class.numberformatter.md#intl.numberformatter-constants.unumberformatstyle). Якщо передано **`NumberFormatter::PATTERN_DECIMAL`** або **`NumberFormatter::PATTERN_RULEBASED`**, то формат числа відкривається з використанням даного шаблону, який повинен відповідати синтаксису, описаному в [» документации ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details) або [» документации ICU RuleBasedNumberFormat](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.md#details)відповідно.
+Стиль форматування, одна з констант [стилю форматування](class.numberformatter.md#intl.numberformatter-constants.unumberformatstyle). Якщо передано **`NumberFormatter::PATTERN_DECIMAL`**или**`NumberFormatter::PATTERN_RULEBASED`**, то формат числа відкривається з використанням даного шаблону, який повинен відповідати синтаксису, описаному в [» документації ICU DecimalFormat](https://unicode-org.github.io/icu-docs/apidoc/released/icu4c/classDecimalFormat.md) або [» документації ICU RuleBasedNumberFormat](https://unicode-org.github.io/icu/userguide/format_parse/numbers/rbnf.md)відповідно.
 
 `pattern`
 
@@ -52,17 +53,17 @@ public **NumberFormatter::construct**(string `$locale`, int `$style`, ?string `$
 
 ### Значення, що повертаються
 
-Повертає об'єкт [NumberFormatter](class.numberformatter.md) або **`null`** у разі виникнення помилки.
+Повертає об'єкт [NumberFormatter](class.numberformatter.md)или\*\*`null`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `pattern` тепер допускає значення null. |
+| 8.0.0 | `pattern` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmtcreate()****
+**Пример #1 Пример использования**numfmt\_create()\*\*\*\*
 
 ```php
 <?php
@@ -73,7 +74,7 @@ echo numfmt_format($fmt, 1142)."\n";
 ?>
 ```
 
-**Приклад #2 Приклад використання **NumberFormatter::create()****
+**Пример #2 Пример использования**NumberFormatter::create()\*\*\*\*
 
 ```php
 <?php
@@ -84,7 +85,7 @@ echo $fmt->format(1142)."\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1.234.567,891
@@ -93,5 +94,5 @@ millicentoquarantadue
 
 ### Дивіться також
 
--   [numfmtformat()](numberformatter.format.md) - Форматує число
--   [numfmtparse()](numberformatter.parse.md) - Розбирає число
+-   [numfmt\_format()](numberformatter.format.md) \- Форматує число
+-   [numfmt\_parse()](numberformatter.parse.md) \- Розбирає число

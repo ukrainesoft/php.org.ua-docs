@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-create-shortcut.md: « fanncreateshortcut
-  - function.fann-create-sparse.md: fanncreatesparse »
+  - function.fann-create-shortcut.md: « fann\_create\_shortcut
+  - function.fann-create-sparse.md: fann\_create\_sparse »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanncreatesparsearray
+  - ref.fann.md: Функції Fann
+title: fann\_create\_sparse\_array
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanncreatesparsearray
+# fann\_create\_sparse\_array
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanncreatesparsearray - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена, використовуючи масив розмірів шарів
+fann\_create\_sparse\_array - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена, використовуючи масив розмірів шарів
 
 ### Опис
 
@@ -24,7 +25,7 @@ fann_create_sparse_array(float $connection_rate, int $num_layers, array $layers)
 
 `connection_rate`
 
-Швидкість з'єднання визначає, скільки з'єднань буде у мережі. Якщо швидкість підключення встановлена ​​на 1, мережа буде повністю підключена, але якщо вона встановлена ​​на 0,5, буде встановлена ​​лише половина з'єднань. Швидкість з'єднання 1 дасть той же результат, що і [fanncreatestandard()](function.fann-create-standard.md)
+Швидкість з'єднання визначає, скільки з'єднань буде в мережі. Якщо швидкість підключення встановлена ​​на 1, мережа буде повністю підключена, але якщо вона встановлена ​​на 0,5, буде встановлена ​​лише половина з'єднань. Швидкість з'єднання 1 дасть той же результат, що і [fann\_create\_standard()](function.fann-create-standard.md)
 
 `num_layers`
 
@@ -36,10 +37,10 @@ fann_create_sparse_array(float $connection_rate, int $num_layers, array $layers)
 
 ### Значення, що повертаються
 
-Повертає ресурс нейронної мережі у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс нейронної мережі у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fanncreatesparse()](function.fann-create-sparse.md) - створює стандартну нейронну мережу зворотного поширення, яка не повністю підключена
--   [fanncreatestandard()](function.fann-create-standard.md) - Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
--   [fanncreateshortcut()](function.fann-create-shortcut.md) - Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання
+-   [fann\_create\_sparse()](function.fann-create-sparse.md) \- створює стандартну нейронну мережу зворотного поширення, яка не повністю підключена
+-   [fann\_create\_standard()](function.fann-create-standard.md) \- Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження
+-   [fann\_create\_shortcut()](function.fann-create-shortcut.md) \- Створює стандартну нейронну мережу зворотного розповсюдження, яка не повністю підключена та має швидкі з'єднання

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.zlib.md: Zlib
 title: Клас InflateContext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас InflateContext
 
@@ -16,16 +17,12 @@ title: Клас InflateContext
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class InflateContext
-     
+     final
+     class InflateContext
      {
+
    }
 ```

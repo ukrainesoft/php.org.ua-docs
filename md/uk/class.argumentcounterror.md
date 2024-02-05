@@ -1,35 +1,33 @@
 ---
 navigation:
-  - error.clone.md: '« Error::clone'
+  - error.clone.md: '« Error::\_\_clone'
   - class.arithmeticerror.md: ArithmeticError »
   - index.md: PHP Manual
   - reserved.exceptions.md: Обумовлені винятки
 title: ArgumentCountError
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArgumentCountError
 
-(PHP 7> = PHP 7.1.0, PHP 8)
+(PHP 7 >= PHP 7.1.0, PHP 8)
 
 ## Вступ
 
 **ArgumentCountError** викидається, коли в метод користувача або функцію передано недостатню кількість аргументів.
 
+Ця помилка також викидається, якщо в неваріативну вбудовану функцію передається дуже багато аргументів.
+
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class ArgumentCountError
     
 
     
-     
-      class ArgumentCountError
-     
-
-     
-      extends
-       TypeError
-     
+     extends
+      TypeError
      {
 
     /* Наследуемые свойства */
@@ -59,7 +57,9 @@ private
 
     /* Наследуемые методы */
     
-   final public Error::getMessage(): string
+   public Error::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+    final public Error::getMessage(): string
 final public Error::getPrevious(): ?Throwable
 final public Error::getCode(): int
 final public Error::getFile(): string

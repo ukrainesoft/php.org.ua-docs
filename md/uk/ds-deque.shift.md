@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.set.md: '« DsDeque::set'
-  - ds-deque.slice.md: 'ДсDeque::slice »'
+  - ds-deque.set.md: '« Ds\\Deque::set'
+  - ds-deque.slice.md: 'Ds\\Deque::slice »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::shift'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::shift'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::shift
+# Ds\\Deque::shift
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::shift — Видаляє та повертає перше значення
+Ds\\Deque::shift — Видаляє та повертає перше значення
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Deque::shift(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::shift()****
+**Пример #1 Пример использования**Ds\\Deque::shift()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($deque->shift());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"

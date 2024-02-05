@@ -4,13 +4,14 @@ navigation:
   - syncreaderwriter.readlock.md: 'SyncReaderWriter::readlock »'
   - index.md: PHP Manual
   - class.syncreaderwriter.md: SyncReaderWriter
-title: 'SyncReaderWriter::construct'
+title: 'SyncReaderWriter::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SyncReaderWriter::construct
+# SyncReaderWriter::\_\_construct
 
 (PECL sync >= 1.0.0)
 
-SyncReaderWriter::construct — Створює новий об'єкт SyncReaderWriter
+SyncReaderWriter::\_\_construct — Створює новий об'єкт SyncReaderWriter
 
 ### Опис
 
@@ -26,15 +27,15 @@ public SyncReaderWriter::__construct(string $name = ?, int $autounlock = 1)
 
 Ім'я засобу читання-запису, якщо це іменований об'єкт читання-запису.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо ім'я вже існує, воно має бути доступним для відкриття поточним користувачем, від імені якого запущено процес, інакше буде викинуто виняток із безглуздим повідомленням про помилку.
 
-> **Зауваження**: У Windows параметр `name` не повинен містити зворотних слішів.
+> **Зауваження**: В Windows параметр`name` не повинен містити зворотних слішів.
 
 `autounlock`
 
-Вказує, чи слід автоматично розблокувати засіб читання-запису під час завершення скрипту PHP.
+Вказує, чи слід автоматично розблокувати засіб читання-запису при завершенні скрипту PHP.
 
 **Увага**
 
@@ -50,7 +51,7 @@ public SyncReaderWriter::__construct(string $name = ?, int $autounlock = 1)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncReaderWriter::construct()****
+**Пример #1 Пример использования**SyncReaderWriter::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ $readwrite->writeunlock();
 
 ### Дивіться також
 
--   [SyncReaderWriter::readlock()](syncreaderwriter.readlock.md) - Чекає на блокування читання
--   [SyncReaderWriter::readunlock()](syncreaderwriter.readunlock.md) - Знімає блокування читання
--   [SyncReaderWriter::writelock()](syncreaderwriter.writelock.md) - Чекає на ексклюзивне блокування запису
--   [SyncReaderWriter::writeunlock()](syncreaderwriter.writeunlock.md) - Знімає блокування запису
+-   [SyncReaderWriter::readlock()](syncreaderwriter.readlock.md) \- Чекає на блокування читання
+-   [SyncReaderWriter::readunlock()](syncreaderwriter.readunlock.md) \- Знімає блокування читання
+-   [SyncReaderWriter::writelock()](syncreaderwriter.writelock.md) \- Чекає на ексклюзивне блокування запису
+-   [SyncReaderWriter::writeunlock()](syncreaderwriter.writeunlock.md) \- Знімає блокування запису

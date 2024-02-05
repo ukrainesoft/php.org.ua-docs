@@ -1,35 +1,36 @@
 ---
 navigation:
-  - function.stats-cdf-t.md: « statscdfт
-  - function.stats-cdf-weibull.md: statscdfweibull »
+  - function.stats-cdf-t.md: « stats\_cdf\_t
+  - function.stats-cdf-weibull.md: stats\_cdf\_weibull »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statscdfuniform
+title: stats\_cdf\_uniform
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statscdfuniform
+# stats\_cdf\_uniform
 
 (PECL stats >= 1.0.0)
 
-statscdfuniform — Обчислює один із параметрів рівномірного розподілу за рештою
+stats\_cdf\_uniform — Обчислює один із параметрів рівномірного розподілу за рештою
 
 ### Опис
 
 ```methodsynopsis
-stats_cdf_uniform(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_uniform(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
-Повертає кумулятивну функцію рівномірного розподілу, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`
+Повертає кумулятивну функцію рівномірного розподілу, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2`и`par3`) определяются параметром`which`
 
 У наступній таблиці перераховані значення і параметри, що повертаються, в залежності від `which`. CDF, x, a і b позначає функцію кумулятивного розподілу, величину випадкової змінної, нижню та верхню межу розподілу відповідно.
 
-**Значення, що повертається і параметри**
+**Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
 | --- | --- | --- | --- | --- |
-|  | CDF | з | а | в |
-|  | з | CDF | а | в |
-|  | а | з | CDF | в |
-|  | в | з | CDF | а |
+|  | CDF | x | a | b |
+|  | x | CDF | a | b |
+| 3 | a | x | CDF | b |
+| 4 | b | x | CDF | a |
 
 ### Список параметрів
 

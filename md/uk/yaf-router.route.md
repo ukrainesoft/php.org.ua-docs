@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-router.getroutes.md: '« YafRouter::getRoutes'
-  - class.yaf-route-simple.md: YafRouteSimple »
+  - yaf-router.getroutes.md: '« Yaf\_Router::getRoutes'
+  - class.yaf-route-simple.md: Yaf\_Route\_Simple »
   - index.md: PHP Manual
-  - class.yaf-router.md: YafRouter
-title: 'YafRouter::route'
+  - class.yaf-router.md: Yaf\_Router
+title: 'Yaf\_Router::route'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouter::route
+# Yaf\_Router::route
 
 (Yaf >=1.0.0)
 
-YafRouter::route — Призначення route
+Yaf\_Router::route — Призначення route
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Router::route(Yaf_Request_Abstract $request): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

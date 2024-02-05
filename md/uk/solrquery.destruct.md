@@ -1,20 +1,21 @@
 ---
 navigation:
-  - solrquery.construct.md: '« SolrQuery::construct'
+  - solrquery.construct.md: '« SolrQuery::\_\_construct'
   - solrquery.getexpand.md: 'SolrQuery::getExpand »'
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
-title: 'SolrQuery::destruct'
+title: 'SolrQuery::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrQuery::destruct
+# SolrQuery::\_\_destruct
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrQuery::destruct - Деструктор
+SolrQuery::\_\_destruct - Деструктор
 
 ### Опис
 
-public **SolrQuery::destruct**
+public**SolrQuery::\_\_destruct**()
 
 Деструктор
 

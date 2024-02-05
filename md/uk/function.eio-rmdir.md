@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.eio-rename.md: « eiorename
-  - function.eio-seek.md: eioseek »
+  - function.eio-rename.md: « eio\_rename
+  - function.eio-seek.md: eio\_seek »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiormdir
+  - ref.eio.md: Eio Функції
+title: eio\_rmdir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiormdir
+# eio\_rmdir
 
 (PECL eio >= 0.0.1dev)
 
-eiormdir - Видаляє директорію
+eio\_rmdir - Видаляє директорію
 
 ### Опис
 
 ```methodsynopsis
-eio_rmdir(    string $path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_rmdir(    string $path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
-**eiormdir()** видаляє директорію.
+**eio\_rmdir()** видаляє директорію.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ eio_rmdir(    string $path,    int $pri = EIO_PRI_DEFAULT,    callable $callback
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -48,19 +49,19 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
-Довільна змінна, що передається в `callback`функцію.
+Произвольная переменная, передаваемая в`callback`\-функцію.
 
 ### Значення, що повертаються
 
-**eiormdir()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_rmdir()** повертає покажчик на запит у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eiormdir()****
+**Пример #1 Пример использования**eio\_rmdir()\*\*\*\*
 
 ```php
 <?php
@@ -81,7 +82,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 eio_rmdir_ok
@@ -89,4 +90,4 @@ eio_rmdir_ok
 
 ### Дивіться також
 
--   [eiomkdir()](function.eio-mkdir.md) - створення директорії
+-   [eio\_mkdir()](function.eio-mkdir.md) \- створення директорії

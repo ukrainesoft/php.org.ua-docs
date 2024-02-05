@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.sendwait.md: '« SwooleServer::sendwait'
-  - swoole-server.shutdown.md: 'SwooleServer::shutdown »'
+  - swoole-server.sendwait.md: '« Swoole\\Server::sendwait'
+  - swoole-server.shutdown.md: 'Swoole\\Server::shutdown »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::set'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::set
+# Swoole\\Server::set
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::set — Встановлює налаштування часу виконання сервера swoole
+Swoole\\Server::set — Встановлює налаштування часу виконання сервера swoole
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-set-query-timeout.md: « cubridsetquerytimeout
+  - function.cubrid-set-query-timeout.md: « cubrid\_set\_query\_timeout
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridversion
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_version
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridversion
+# cubrid\_version
 
 (PECL CUBRID >= 8.3.0)
 
-cubridversion — Отримати версію модуля CUBRID PHP
+cubrid\_version — Отримати версію модуля CUBRID PHP
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridversion — Отримати версію модуля CUBRID PHP
 cubrid_version(): string
 ```
 
-Функція **cubridversion()** використовується для отримання версії CUBRID PHP.
+Функция**cubrid\_version()** використовується для отримання версії CUBRID PHP.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ cubrid_version(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridversion()****
+**Пример #1 Пример использования**cubrid\_version()\*\*\*\*
 
 ```php
 <?php
@@ -69,7 +70,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 CUBRID PHP Version:            9.1.0.0001
@@ -87,5 +88,5 @@ CUBRID Charset:                iso8859-1
 
 ### Дивіться також
 
--   [cubriderrorcode()](function.cubrid-error-code.md) - Отримати код помилки
--   [cubriderrorcodefacility()](function.cubrid-error-code-facility.md) - Отримати код рівня, на якому сталася помилка
+-   [cubrid\_error\_code()](function.cubrid-error-code.md) \- Отримати код помилки
+-   [cubrid\_error\_code\_facility()](function.cubrid-error-code-facility.md) \- Отримати код рівня, на якому сталася помилка

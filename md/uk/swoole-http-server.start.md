@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-http-server.on.md: '« SwooleHttpServer::on'
-  - class.swoole-lock.md: SwooleLock »
+  - swoole-http-server.on.md: '« Swoole\\Http\\Server::on'
+  - class.swoole-lock.md: Swoole\\Lock »
   - index.md: PHP Manual
-  - class.swoole-http-server.md: SwooleHttpServer
-title: 'SwooleHttpServer::start'
+  - class.swoole-http-server.md: Swoole\\Http\\Server
+title: 'Swoole\\Http\\Server::start'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpServer::start
+# Swoole\\Http\\Server::start
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpServer::start — Запускає http-сервер swoole
+Swoole\\Http\\Server::start — Запускає http-сервер swoole
 
 ### Опис
 

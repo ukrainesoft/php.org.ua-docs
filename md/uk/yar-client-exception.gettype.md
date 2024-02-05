@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yar-client-exception.md: « YarClientException
+  - class.yar-client-exception.md: « Yar\_Client\_Exception
   - book.xmlrpc.md: XML-RPC »
   - index.md: PHP Manual
-  - class.yar-client-exception.md: YarClientException
-title: 'YarClientException::getType'
+  - class.yar-client-exception.md: Yar\_Client\_Exception
+title: 'Yar\_Client\_Exception::getType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YarClientException::getType
+# Yar\_Client\_Exception::getType
 
 (PECL yar >= 1.0.0)
 
-YarClientException::getType — Отримати тип виключення
+Yar\_Client\_Exception::getType — Отримати тип виключення
 
 ### Опис
 
@@ -28,7 +29,7 @@ public Yar_Client_Exception::getType(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YarClientException::getType()****
+**Пример #1 Пример использования**Yar\_Client\_Exception::getType()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ public Yar_Client_Exception::getType(): string
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 ...
@@ -46,4 +47,4 @@ public Yar_Client_Exception::getType(): string
 
 ### Дивіться також
 
--   **YafServerException::getType()**
+-   **Yaf\_Server\_Exception::getType()**

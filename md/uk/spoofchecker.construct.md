@@ -4,17 +4,18 @@ navigation:
   - spoofchecker.issuspicious.md: 'Spoofchecker::isSuspicious »'
   - index.md: PHP Manual
   - class.spoofchecker.md: Spoofchecker
-title: 'Spoofchecker::construct'
+title: 'Spoofchecker::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Spoofchecker::construct
+# Spoofchecker::\_\_construct
 
 (No version information available, might only be in Git)
 
-Spoofchecker::construct - Конструктор класу
+Spoofchecker::\_\_construct - Конструктор класу
 
 ### Опис
 
-public **Spoofchecker::construct**
+public**Spoofchecker::\_\_construct**()
 
 Створює екземпляр класу Spoofchecker.
 

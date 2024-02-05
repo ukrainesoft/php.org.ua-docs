@@ -7,6 +7,7 @@ navigation:
   - index.md: PHP Manual
   - book.taint.md: Taint
 title: Додаткові подробиці
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Додаткові подробиці
 

@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.ldap-set-rebind-proc.md: « ldapsetrebindproc
-  - function.ldap-start-tls.md: ldapstarttls »
+  - function.ldap-set-rebind-proc.md: « ldap\_set\_rebind\_proc
+  - function.ldap-start-tls.md: ldap\_start\_tls »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapsort
+title: ldap\_sort
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapsort
+# ldap\_sort
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7)
 
-ldapsort — Сортування записів LDAP
+ldap\_sort — Сортування записів LDAP
 
 **Увага**
 
-Ця функція оголошена *застарілої*, починаючи з PHP 7.0.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.0.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -22,19 +23,19 @@ ldapsort — Сортування записів LDAP
 ldap_sort(resource $link, resource $result, string $sortfilter): bool
 ```
 
-Сортує результат запиту LDAP, який повертається функцією [ldapsearch()](function.ldap-search.md)
+Сортує результат запиту LDAP, який повертається функцією [ldap\_search()](function.ldap-search.md)
 
-Так як ця функція сортує результат на стороні клієнта, ви можете отримати не ті результати, які очікували у випадку, якщо був перевищений ліміт `sizelimit` на стороні сервера або вказаний у [ldapsearch()](function.ldap-search.md)
+Так як ця функція сортує результат на клієнтській стороні, ви можете отримати не ті результати, які очікували, якщо був перевищений ліміт `sizelimit` на стороні сервера або вказаний у [ldap\_search()](function.ldap-search.md)
 
 ### Список параметрів
 
 `link`
 
-Ресурс LDAP, який повертається функцією [ldapconnect()](function.ldap-connect.md)
+Ресурс LDAP, який повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `result`
 
-Дескриптор результату пошуку, що повертається функцією [ldapsearch()](function.ldap-search.md)
+Дескриптор результату пошуку, що повертається функцією [ldap\_search()](function.ldap-search.md)
 
 `sortfilter`
 
@@ -46,9 +47,9 @@ ldap_sort(resource $link, resource $result, string $sortfilter): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функцію було видалено. |
+| 8.0.0 | Функцію було видалено. |
 
 ### Приклади
 

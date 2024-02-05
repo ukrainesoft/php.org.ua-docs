@@ -5,22 +5,23 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagefttext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagefttext
 
-(PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.7, PHP 5, PHP 7, PHP 8)
 
 imagefttext — Нанесення тексту на зображення за допомогою шрифтів FreeType 2
 
 ### Опис
 
 ```methodsynopsis
-imagefttext(    GdImage $image,    float $size,    float $angle,    int $x,    int $y,    int $color,    string $font_filename,    string $text,    array $options = []): array|false
+imagefttext(    GdImage $image,    float $size,    float $angle,    int $x,    int $y,    int $color,    string $font_filename,    string $text,    array $options = []): array|false
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> До PHP 8.0.0 **imagefttext()** - це розширений варіант [imagettftext()](function.imagettftext.md), який додатково підтримує `extrainfo`. Починаючи з PHP 8.0.0, [imagettftext()](function.imagettftext.md) є псевдонімом **imagefttext()**
+> До PHP 8.0.0**imagefttext()** - це розширений варіант [imagettftext()](function.imagettftext.md), який додатково підтримує `extrainfo`. Починаючи з PHP 8.0.0, [imagettftext()](function.imagettftext.md)является псевдонимом**imagefttext()**
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ imagefttext(    GdImage $image,    float $size,    float $angle,    int $x,    i
 
 `x`
 
-Координати `x` і `y` визначають відправну точку першого символу тексту (конкретно, лівий нижній кут символу). Тут є відмінність від функції [imagestring()](function.imagestring.md), в якій `x` і `y` визначають лівий верхній кут першого символу. Наприклад, верхній лівий має координати 0,0.
+Координати `x`и`y` визначають відправну точку першого символу тексту (конкретно, лівий нижній кут символу). Тут є відмінність від функції [imagestring()](function.imagestring.md), в якій `x`и`y` визначають лівий верхній кут першого символу. Наприклад, верхній лівий має координати 0,0.
 
 `y`
 
@@ -46,13 +47,13 @@ y-координат. Це позиція базової лінії шрифту
 
 `color`
 
-Індекс потрібного кольору тексту дивіться [imagecolorexact()](function.imagecolorexact.md)
+Индекс требуемого цвета текста, смотрите[imagecolorexact()](function.imagecolorexact.md)
 
 `font_filename`
 
 Шлях до TrueType шрифту, який потрібно використовувати.
 
-Залежно від версії GD бібліотеки *якщо `font_filename` не починається з `/`, то в кінець назви файлу буде додано розширення `.ttf`*, та бібліотека намагатиметься знайти цей файл за адресою, визначеною в налаштуваннях бібліотеки.
+Залежно від версії GD бібліотеки *якщо `font_filename` не починається з , то в конец названия файла будет добавлено расширение`.ttf`*, та бібліотека намагатиметься знайти цей файл за адресою, визначеною в налаштуваннях бібліотеки.
 
 Найчастіше розміщення файлів шрифтів у директорії скрипта вирішує подібні проблеми включення файлів.
 
@@ -82,21 +83,19 @@ $font = 'SomeFont';
 
 Ця функція повертає масив, який визначає чотири точки рамки тексту. Текст усередині цих кордонів починається з лівого нижнього кута і повертається проти годинникової стрілки:
 
-td>
-
-<table class="doctable informaltable"><tbody class="tbody"><tr><td>0</td><td>нижня ліва x-координата</td></tr><tr><td>1</td><td>нижня ліва y-координата</td></tr><tr><td>2</td><td>нижня права x-координата</td></tr><tr><td>3</td><td>нижня права y-координата</td></tr><tr><td>4</td><td>верхня права x-координата</td></tr><tr><td>5</td><td>верхня права y-координата</td></tr><tr><td>6</td><td>верхня ліва x-координата</td></tr><tr><td>7</td><td>верхня ліва y-координата</td></tr></tbody></table>
+<table class="doctable informaltable"><tbody class="tbody"><tr><td>0</td><td>нижняя левая x-координата</td></tr><tr><td>1</td><td>нижняя левая y-координата</td></tr><tr><td>2</td><td>нижняя правая x-координата</td></tr><tr><td>3</td><td>нижняя правая y-координата</td></tr><tr><td>4</td><td>верхняя правая x-координата</td></tr><tr><td>5</td><td>верхняя правая y-координата</td></tr><tr><td>6</td><td>верхняя левая x-координата</td></tr><tr><td>7</td><td>верхняя левая y-координата</td></tr></tbody></table>
 
 У разі виникнення помилки повертає **`false`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagefttext()****
+**Пример #1 Пример использования**imagefttext()\*\*\*\*
 
 ```php
 <?php
@@ -124,9 +123,9 @@ imagedestroy($im);
 
 ### Примітки
 
-> **Зауваження**: Ця функція доступна лише у випадку, якщо PHP був скомпільований за допомогою freetype (**\-with-freetype-dir=DIR**
+> **Зауваження**: Ця функція доступна лише у випадку, якщо PHP був скомпільований з підтримкою freetype (**\--with-freetype-dir=DIR**) .
 
 ### Дивіться також
 
--   [imageftbbox()](function.imageftbbox.md) - Визначення меж тексту, що виводиться шрифтом freetype2
--   [imagettftext()](function.imagettftext.md) - Малювання тексту на зображенні шрифтом TrueType
+-   [imageftbbox()](function.imageftbbox.md) \- Визначення меж тексту, що виводиться шрифтом freetype2
+-   [imagettftext()](function.imagettftext.md) \- Малювання тексту на зображенні шрифтом TrueType

@@ -4,17 +4,18 @@ navigation:
   - appenditerator.current.md: 'AppendIterator::current »'
   - index.md: PHP Manual
   - class.appenditerator.md: AppendIterator
-title: 'AppendIterator::construct'
+title: 'AppendIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# AppendIterator::construct
+# AppendIterator::\_\_construct
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-AppendIterator::construct — Створює AppendIterator
+AppendIterator::\_\_construct — Створює AppendIterator
 
 ### Опис
 
-public **AppendIterator::construct**
+public **AppendIterator::\_\_construct**()
 
 Створює AppendIterator.
 
@@ -41,7 +42,7 @@ foreach ($appendIterator as $key => $item) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 0 => Margarita
@@ -78,7 +79,7 @@ while ($appendIterator->valid()) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 0 => 0 => Margarita
@@ -95,8 +96,8 @@ while ($appendIterator->valid()) {
 
 **Застереження**
 
-При використанні функції [iteratorтоarray()](function.iterator-to-array.md) Для копіювання значення AppendIterator в масив вам необхідно встановити додатковий аргумент `use_key` на значення **`false`**. Коли `use_key` не набуває значення **`false`**, якісь ключі, що повторно зустрічаються у внутрішніх ітераторах, будуть перезаписані в масив, що повертається. Зберегти оригінальні ключі неможливо.
+При использовании функции[iterator\_to\_array()](function.iterator-to-array.md) Для копіювання значення AppendIterator в масив вам необхідно встановити додатковий аргумент `use_key`в значение\*\*`false`**Когда`use_key`не принимает значение**`false`\*\*, якісь ключі, що повторно зустрічаються у внутрішніх ітераторах, будуть перезаписані в масив, що повертається. Зберегти оригінальні ключі неможливо.
 
 ### Дивіться також
 
--   [AppendIterator::append()](appenditerator.append.md) - додає ітератор
+-   [AppendIterator::append()](appenditerator.append.md) \- додає ітератор

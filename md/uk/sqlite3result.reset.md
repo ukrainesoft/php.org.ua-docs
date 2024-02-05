@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3result.md: SQLite3Result
 title: 'SQLite3Result::reset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3Result::reset
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3Result::reset — Скидає покажчик результуючого набору на перший рядок
 
@@ -26,4 +27,4 @@ public SQLite3Result::reset(): bool
 
 ### Значення, що повертаються
 
-Повертає \*\*`true`\*\*якщо результуючий набір успішно скинутий на перший рядок, або **`false`** у разі виникнення помилки.
+Повертає **`true`**, если результирующий набор успешно сброшен на первую строку, или\*\*`false`\*\*в случае возникновения ошибки.

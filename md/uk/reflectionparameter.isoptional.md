@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::isOptional'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionParameter::isOptional
 
-(PHP 5> = 5.0.3, PHP 7, PHP 8)
+(PHP 5 >= 5.0.3, PHP 7, PHP 8)
 
 ReflectionParameter::isOptional — Перевіряє, чи є аргумент необов'язковим
 
@@ -30,4 +31,4 @@ public ReflectionParameter::isOptional(): bool
 
 ### Дивіться також
 
--   [ReflectionParameter::getName()](reflectionparameter.getname.md) - Отримання імені параметра
+-   [ReflectionParameter::getName()](reflectionparameter.getname.md) \- Отримання імені параметра

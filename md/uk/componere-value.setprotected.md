@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-value.setprivate.md: '« ComponereValue::setPrivate'
-  - componere-value.setstatic.md: 'ComponereValue::setStatic »'
+  - componere-value.setprivate.md: '« Componere\\Value::setPrivate'
+  - componere-value.setstatic.md: 'Componere\\Value::setStatic »'
   - index.md: PHP Manual
-  - class.componere-value.md: ComponereValue
-title: 'ComponereValue::setProtected'
+  - class.componere-value.md: Componere\\Value
+title: 'Componere\\Value::setProtected'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereValue::setProtected
+# Componere\\Value::setProtected
 
 (Componere 2 >= 2.1.0)
 
-ComponereValue::setProtected — Зміна доступності
+Componere\\Value::setProtected — Зміна доступності
 
 ### Опис
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getPath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::getPath
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getPath — Отримує шлях без імені файлу
 
@@ -30,7 +31,7 @@ public SplFileInfo::getPath(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::getPath()****
+**Пример #1 Пример использования**SplFileInfo::getPath()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ $info = new SplFileInfo('/usr/');
 var_dump($info->getPath());?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(8) "/usr/bin"
@@ -51,6 +52,6 @@ string(4) "/usr"
 
 ### Дивіться також
 
--   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md) - Отримує абсолютний шлях до файлу
--   [SplFileInfo::getFilename()](splfileinfo.getfilename.md) - Отримує ім'я файлу
--   [SplFileInfo::getPathInfo()](splfileinfo.getpathinfo.md) - Отримує об'єкт SplFileInfo для заданого шляху
+-   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md) \- Отримує абсолютний шлях до файлу
+-   [SplFileInfo::getFilename()](splfileinfo.getfilename.md) \- Отримує ім'я файлу
+-   [SplFileInfo::getPathInfo()](splfileinfo.getpathinfo.md) \- Отримує об'єкт SplFileInfo для заданого шляху

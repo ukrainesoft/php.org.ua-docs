@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.locale.md: Locale
 title: 'Locale::getPrimaryLanguage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Locale::getPrimaryLanguage
 
-# localegetprimarylanguage
+# locale\_get\_primary\_language
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::getPrimaryLanguage -- localegetprimarylanguage — Отримати первинну мову для локалі
+Locale::getPrimaryLanguage -- locale\_get\_primary\_language — Отримати первинну мову для локалі
 
 ### Опис
 
@@ -44,7 +45,7 @@ locale_get_primary_language(string $locale): ?string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **localegetprimarylanguage()****
+**Пример #1 Пример использования**locale\_get\_primary\_language()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ echo Locale::getPrimaryLanguage('zh-Hant');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 zh
@@ -68,6 +69,6 @@ zh
 
 ### Дивіться також
 
--   [localegetscript()](locale.getscript.md) - Отримати алфавіт для локалі
--   [localegetregion()](locale.getregion.md) - Отримати регіон для локалі
--   [localegetallvariants()](locale.getallvariants.md) - Отримання варіантів із переданої локалі
+-   [locale\_get\_script()](locale.getscript.md) \- Отримати алфавіт для локалі
+-   [locale\_get\_region()](locale.getregion.md) \- Отримати регіон для локалі
+-   [locale\_get\_all\_variants()](locale.getallvariants.md) \- Отримання варіантів із переданої локалі

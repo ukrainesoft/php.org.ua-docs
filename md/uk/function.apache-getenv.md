@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apache-get-version.md: « apachegetversion
-  - function.apache-lookup-uri.md: apachelookupuri »
+  - function.apache-get-version.md: « apache\_get\_version
+  - function.apache-lookup-uri.md: apache\_lookup\_uri »
   - index.md: PHP Manual
-  - ref.apache.md: Функции Apache
-title: apachegetenv
+  - ref.apache.md: Функції Apache
+title: apache\_getenv
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apachegetenv
+# apache\_getenv
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-apachegetenv — Повертає змінну оточення підпроцесу сервера Apache
+apache\_getenv — Повертає змінну оточення підпроцесу сервера Apache
 
 ### Опис
 
@@ -32,13 +33,13 @@ apache_getenv(string $variable, bool $walk_to_top = false): string|false
 
 ### Значення, що повертаються
 
-Значення змінної оточення сервера Apache у разі успішного виконання, або **`false`** у разі виникнення помилки.
+Значення змінної оточення сервера Apache у разі успішного виконання, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apachegetenv()****
+**Пример #1 Пример использования**apache\_getenv()\*\*\*\*
 
-Нижче наведений приклад показує, як можна отримати значення змінної оточення сервера Apache SERVERADDR.
+Нижче наведений приклад показує, як можна отримати значення змінної оточення сервера Apache SERVER\_ADDR.
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo $ret;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 42.24.42.240
@@ -55,6 +56,6 @@ echo $ret;
 
 ### Дивіться також
 
--   [apachesetenv()](function.apache-setenv.md) - Встановлює змінну subprocessenv Apache
--   [getenv()](function.getenv.md) - набуття значення змінної оточення
+-   [apache\_setenv()](function.apache-setenv.md) \- Встановлює змінну subprocess\_env Apache
+-   [getenv()](function.getenv.md) \- набуває значення однієї чи всіх змінних оточення
 -   "[Суперглобальні змінні](language.variables.superglobals.md)"

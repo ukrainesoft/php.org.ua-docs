@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttp.md: EventHttp
 title: 'EventHttp::setDefaultCallback'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttp::setDefaultCallback
 
@@ -31,7 +32,7 @@ public
 
 `cb`
 
-Callback-функція [callable](language.types.callable.md). Повинна відповідати наступному прототипу:
+Callback-функция[callable](language.types.callable.md). Повинна відповідати наступному прототипу:
 
 ```methodsynopsis
 callback(
@@ -59,11 +60,11 @@ callback(
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventHttp::setDefaultCallback()****
+**Пример #1 Пример использования**EventHttp::setDefaultCallback()\*\*\*\*
 
 ```php
 <?php
@@ -87,4 +88,4 @@ $base->dispatch();
 
 ### Дивіться також
 
--   [EventHttp::setCallback()](eventhttp.setcallback.md) - Встановлює callback-функцію для зазначеного URI
+-   [EventHttp::setCallback()](eventhttp.setcallback.md) \- Встановлює callback-функцію для зазначеного URI

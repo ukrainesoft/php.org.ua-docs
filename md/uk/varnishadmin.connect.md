@@ -1,10 +1,11 @@
 ---
 navigation:
   - varnishadmin.clearpanic.md: '« VarnishAdmin::clearPanic'
-  - varnishadmin.construct.md: 'VarnishAdmin::construct »'
+  - varnishadmin.construct.md: 'VarnishAdmin::\_\_construct »'
   - index.md: PHP Manual
   - class.varnishadmin.md: VarnishAdmin
 title: 'VarnishAdmin::connect'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # VarnishAdmin::connect
 
@@ -24,4 +25,4 @@ public VarnishAdmin::connect(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

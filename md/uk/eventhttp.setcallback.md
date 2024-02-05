@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttp.md: EventHttp
 title: 'EventHttp::setCallback'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttp::setCallback
 
@@ -38,7 +39,7 @@ public
 
 `cb`
 
-Callback-функція [callable](language.types.callable.md), яка викликається за запитаним `path`. Повинна відповідати наступному прототипу:
+Callback-функция[callable](language.types.callable.md), яка викликається за запитаним `path`. Повинна відповідати наступному прототипу:
 
 ```methodsynopsis
 callback(
@@ -66,11 +67,11 @@ callback(
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventHttp::setCallback()****
+**Пример #1 Пример использования**EventHttp::setCallback()\*\*\*\*
 
 ```php
 <?php
@@ -166,7 +167,7 @@ $base->loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 a=12
@@ -177,4 +178,4 @@ Connection: close
 
 ### Дивіться також
 
--   [EventHttp::setDefaultCallback()](eventhttp.setdefaultcallback.md) - Встановлює callback-функцію за промовчанням для обробки запитів, які не перехоплюються конкретними callback-функціями
+-   [EventHttp::setDefaultCallback()](eventhttp.setdefaultcallback.md) \- Встановлює callback-функцію за промовчанням для обробки запитів, які не перехоплюються конкретними callback-функціями

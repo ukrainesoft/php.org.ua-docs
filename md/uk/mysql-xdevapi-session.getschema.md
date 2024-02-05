@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-session.getdefaultschema.md: '« Session::getDefaultSchema'
   - mysql-xdevapi-session.getschemas.md: 'Session::getSchemas »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::getSchema'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::getSchema
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\Session::getSchema(string $schema_name): mysql_xdevapi\Sche
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::getSchema()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::getSchema()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ $schema  = $session->getSchema("addressbook");
 print_r($schema);
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 mysql_xdevapi\Schema Object

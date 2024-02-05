@@ -1,10 +1,11 @@
 ---
 navigation:
-  - sem.installation.md: « Установка
+  - sem.installation.md: « Встановлення
   - sem.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - sem.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,12 +15,12 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [sysvshm.initmem](sem.configuration.md#ini.sysvshm.init-mem) |  | PHPINISYSTEM |  |
+| [sysvshm.init\_mem](sem.configuration.md#ini.sysvshm.init-mem) | 10000 | **`INI_SYSTEM`** |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
+Додаткова інформація та опис режимів INI\_\* дано у розділі «[Місця встановлення параметрів конфігурації](configuration.changes.modes.md)».
 
 Коротке пояснення конфігураційних директив.
 
-`sysvshm.init_mem` int
+`sysvshm.init_mem`int
 
 Розмір сегмента пам'яті, що розділяється, за замовчуванням.

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - syncmutex.construct.md: '« SyncMutex::construct'
+  - syncmutex.construct.md: '« SyncMutex::\_\_construct'
   - syncmutex.unlock.md: 'SyncMutex::unlock »'
   - index.md: PHP Manual
   - class.syncmutex.md: SyncMutex
 title: 'SyncMutex::lock'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SyncMutex::lock
 
@@ -28,11 +29,11 @@ public SyncMutex::lock(int $wait = -1): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncMutex::lock()****
+**Пример #1 Пример использования**SyncMutex::lock()\*\*\*\*
 
 ```php
 <?php
@@ -53,4 +54,4 @@ $mutex->unlock();
 
 ### Дивіться також
 
--   [SyncMutex::unlock()](syncmutex.unlock.md) - Розблокує м'ютекс
+-   [SyncMutex::unlock()](syncmutex.unlock.md) \- Розблокує м'ютекс

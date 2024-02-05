@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-ht-dcphase.md: « traderхтdcphase
-  - function.trader-ht-sine.md: traderхтsine »
+  - function.trader-ht-dcphase.md: « trader\_ht\_dcphase
+  - function.trader-ht-sine.md: trader\_ht\_sine »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderхтphasor
+  - ref.trader.md: Функції Trader
+title: trader\_ht\_phasor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderхтphasor
+# trader\_ht\_phasor
 
 (PECL trader >= 0.2.0)
 
-traderхтphasor - Перетворення Гільберта - Phasor Components
+trader\_ht\_phasor - Перетворення Гільберта - Phasor Components
 
 ### Опис
 

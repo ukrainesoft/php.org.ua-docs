@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-add.md: « sodiumcryptocoreristretto255add
-  - function.sodium-crypto-core-ristretto255-is-valid-point.md: sodiumcryptocoreristretto255ісvalidpoint »
+  - function.sodium-crypto-core-ristretto255-add.md: « sodium\_crypto\_core\_ristretto255\_add
+  - function.sodium-crypto-core-ristretto255-is-valid-point.md: sodium\_crypto\_core\_ristretto255\_is\_valid\_point »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptocoreristretto255fromhash
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_core\_ristretto255\_from\_hash
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptocoreristretto255fromhash
+# sodium\_crypto\_core\_ristretto255\_from\_hash
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-sodiumcryptocoreristretto255fromhash — Порівняє вектор
+sodium\_crypto\_core\_ristretto255\_from\_hash — Порівняє вектор
 
 ### Опис
 
@@ -22,7 +23,7 @@ sodium_crypto_core_ristretto255_from_hash(string $s): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ sodium_crypto_core_ristretto255_from_hash(string $s): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptocoreristretto255fromhash()****
+**Пример #1 Пример использования**sodium\_crypto\_core\_ristretto255\_from\_hash()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump(sodium_bin2hex(sodium_crypto_core_ristretto255_from_hash($hashes)));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(64) "3066f82a1a747d45120d1740f14358531a8f04bbffe6a819f86dfe50f44a0a46"
@@ -57,6 +58,6 @@ string(64) "3066f82a1a747d45120d1740f14358531a8f04bbffe6a819f86dfe50f44a0a46"
 
 ### Дивіться також
 
--   [sodiumhex2bin()](function.sodium-hex2bin.md) - Декодує рядок у шістнадцятковому поданні до бінарного
--   [sodiumbin2hex()](function.sodium-bin2hex.md) - Кодувати у шістнадцяткову виставу
--   **sodiumcryptocoreristretto255fromhash()**
+-   [sodium\_hex2bin()](function.sodium-hex2bin.md) \- Декодує рядок у шістнадцятковому поданні до бінарного
+-   [sodium\_bin2hex()](function.sodium-bin2hex.md) \- Кодувати у шістнадцяткову виставу
+-   **sodium\_crypto\_core\_ristretto255\_from\_hash()**

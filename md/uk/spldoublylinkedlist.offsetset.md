@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::offsetSet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplDoublyLinkedList::offsetSet
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplDoublyLinkedList::offsetSet — Встановлює значення за заданим індексом $index у $value
 
@@ -18,7 +19,7 @@ SplDoublyLinkedList::offsetSet — Встановлює значення за з
 public SplDoublyLinkedList::offsetSet(?int $index, mixed $value): void
 ```
 
-Встановлює значення за заданим індексом `index` в `value`
+Устанавливает значение по заданному индексу`index`в`value`
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public SplDoublyLinkedList::offsetSet(?int $index, mixed $value): void
 
 `value`
 
-Нове значення для індексу `index`
+Новое значение для индекса`index`
 
 ### Значення, що повертаються
 
@@ -36,4 +37,4 @@ public SplDoublyLinkedList::offsetSet(?int $index, mixed $value): void
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.md), коли `index` виходить за межі, або коли `index` може бути представлений як цілого числа.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md), когда`index` виходить за межі, або коли `index` може бути представлений як цілого числа.

@@ -1,14 +1,15 @@
 ---
 navigation:
-  - reflectionmethod.tostring.md: '« ReflectionMethod::toString'
+  - reflectionmethod.tostring.md: '« ReflectionMethod::\_\_function toString() { [native code] }'
   - reflectionnamedtype.getname.md: 'ReflectionNamedType::getName »'
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Клас ReflectionNamedType
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ReflectionNamedType
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
 ## Вступ
 
@@ -16,18 +17,13 @@ title: Клас ReflectionNamedType
 
 ```classsynopsis
 
-     
+    
+     class ReflectionNamedType
     
 
     
-     
-      class ReflectionNamedType
-     
-
-     
-      extends
-       ReflectionType
-     
+     extends
+      ReflectionType
      {
 
     /* Методы */
@@ -45,5 +41,5 @@ public ReflectionType::__toString(): string
 
 ## Зміст
 
--   [ReflectionNamedType::getName](reflectionnamedtype.getname.md) — Отримує ім'я типу у вигляді рядка
--   [ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.md) — Перевіряє, чи тип вбудований
+-   [ReflectionNamedType::getName](reflectionnamedtype.getname.md)— Отримує ім'я типу у вигляді рядка
+-   [ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.md)— Перевіряє, чи тип вбудований

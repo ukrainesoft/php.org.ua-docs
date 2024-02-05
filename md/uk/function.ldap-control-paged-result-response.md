@@ -1,34 +1,35 @@
 ---
 navigation:
-  - function.ldap-connect.md: « ldapconnect
-  - function.ldap-control-paged-result.md: ldapcontrolpagedresult »
+  - function.ldap-connect.md: « ldap\_connect
+  - function.ldap-control-paged-result.md: ldap\_control\_paged\_result »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapcontrolpagedresultresponse
+title: ldap\_control\_paged\_result\_response
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapcontrolpagedresultresponse
+# ldap\_control\_paged\_result\_response
 
-(PHP 5> = 5.4.0, PHP 7)
+(PHP 5 >= 5.4.0, PHP 7)
 
-ldapcontrolpagedresultresponse — Отримати вказівник на поточну сторінку LDAP
+ldap\_control\_paged\_result\_response — Отримати вказівник на поточну сторінку LDAP
 
 **Увага**
 
-Функція була оголошена *застарілої* в PHP 7.4.0 та *ВИДАЛЕНО* у PHP 8.0.0. Замість неї слід використовувати параметр `controls` в [ldapsearch()](function.ldap-search.md). Дивіться також [Керуючі об'єкти LDAP](ldap.controls.md) для отримання додаткової інформації.
+Функція була оголошена *застарілої* в PHP 7.4.0 та *ВИДАЛЕНО* у PHP 8.0.0. Замість неї слід використовувати параметр `controls`в[ldap\_search()](function.ldap-search.md)Смотрите также [Керуючі об'єкти LDAP](ldap.controls.md) для отримання додаткової інформації.
 
 ### Опис
 
 ```methodsynopsis
-ldap_control_paged_result_response(    resource $link,    resource $result,    string &$cookie = ?,    int &$estimated = ?): bool
+ldap_control_paged_result_response(    resource $link,    resource $result,    string &$cookie = ?,    int &$estimated = ?): bool
 ```
 
-Отримати вказівник на поточну сторінку результуючого набору LDAP.
+Отримати вказівник поточної сторінки результуючого набору LDAP.
 
 ### Список параметрів
 
 `link`
 
-Ресурс LDAP, який повертається функцією [ldapconnect()](function.ldap-connect.md)
+Ресурс LDAP, який повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `result`
 
@@ -42,16 +43,16 @@ ldap_control_paged_result_response(    resource $link,    resource $result,    s
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функцію було видалено. |
-|  | Функцію оголошено застарілою. |
+| 8.0.0 | Функцію було видалено. |
+| 7.4.0 | Функцію оголошено застарілою. |
 
 ### Дивіться також
 
--   [ldapcontrolpagedresult()](function.ldap-control-paged-result.md) - Надіслати серверу LDAP дані для використання посторінкового отримання результату
--   [» RFC2696 : Керуючий модуль LDAP для простих маніпуляцій результатом, що посторінково повертається](http://www.faqs.org/rfcs/rfc2696)
+-   [ldap\_control\_paged\_result()](function.ldap-control-paged-result.md) \- Надіслати серверу LDAP дані для використання посторінкового отримання результату
+-   [» RFC2696 : Керуючий модуль LDAP для простих маніпуляцій результатом, що посторінково повертається](http://www.faqs.org/rfcs/rfc2696)

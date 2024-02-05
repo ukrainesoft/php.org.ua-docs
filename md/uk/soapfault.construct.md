@@ -1,38 +1,40 @@
 ---
 navigation:
   - class.soapfault.md: « SoapFault
-  - soapfault.tostring.md: 'SoapFault::toString »'
+  - soapfault.tostring.md: 'SoapFault::\_\_toString »'
   - index.md: PHP Manual
   - class.soapfault.md: SoapFault
-title: 'SoapFault::construct'
+title: 'SoapFault::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapFault::construct
+# SoapFault::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapFault::construct - Конструктор SoapFault
+SoapFault::\_\_construct - Конструктор SoapFault
 
 ### Опис
 
-public **SoapFault::construct**  
-array|string|null `$code`  
-string `$string`  
-?string `$actor` **`null`**  
-[mixed](language.types.declarations.md#language.types.declarations.mixed) `$details` **`null`**  
-?string `$name` **`null`**  
-[mixed](language.types.declarations.md#language.types.declarations.mixed) `$headerFault` **`null`**
+public**SoapFault::\_\_construct**  
+array|string|null`$code`,  
+string`$string`,  
+?string`$actor` **`null`**,  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$details` **`null`**,  
+?string`$name` **`null`**,  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$headerFault` **`null`**  
+) .
 
-Цей клас служить для надсилання відповіді на помилку SOAP з обробника PHP . `faultcode` `faultstring` `faultactor` і `detail` є стандартними елементами SOAP.
+Цей клас служить для надсилання відповіді на помилку SOAP з обробника PHP . `faultcode` `faultstring` `faultactor`и`detail` є стандартними елементами SOAP.
 
 ### Список параметрів
 
 `faultcode`
 
-Код помилки [SoapFault](class.soapfault.md)
+Код ошибки[SoapFault](class.soapfault.md)
 
 `faultstring`
 
-Повідомлення про помилку [SoapFault](class.soapfault.md)
+Сообщение об ошибке[SoapFault](class.soapfault.md)
 
 `faultactor`
 
@@ -86,5 +88,5 @@ $server->handle();
 
 ### Дивіться також
 
--   [SoapServer::fault()](soapserver.fault.md) - змушує SoapServer повернути помилку
--   [ісsoapfault()](function.is-soap-fault.md) - Перевіряє, чи сталася помилка під час виклику SOAP
+-   [SoapServer::fault()](soapserver.fault.md) \- змушує SoapServer повернути помилку
+-   [is\_soap\_fault()](function.is-soap-fault.md) \- Перевіряє, чи сталася помилка під час виклику SOAP

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
 title: 'DOMElement::setAttributeNS'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMElement::setAttributeNS
 
@@ -18,7 +19,7 @@ DOMElement::setAttributeNS — Додає новий атрибут
 public DOMElement::setAttributeNS(?string $namespace, string $qualifiedName, string $value): void
 ```
 
-Встановлює атрибут із простором імен `namespace` та локальним ім'ям `name`. Якщо атрибут не існує, його буде створено.
+Встановлює атрибут із простором імен, переданим у параметр `namespace`, та ім'ям, переданим у параметр `qualifiedName`. Якщо атрибут не існує, його буде створено.
 
 ### Список параметрів
 
@@ -46,10 +47,10 @@ URI простір імен.
 
 **`DOM_NAMESPACE_ERR`**
 
-Виникає, якщо значення `qualifiedName` неправильно, або якщо `qualifiedName` має префікс, а `namespaceURI` **`null`**
+Виникає, якщо кваліфіковане ім'я параметра `qualifiedName` неправильно або значення параметра `qualifiedName`содержит префикс, а значение параметра`namespaceURI` **`null`**
 
 ### Дивіться також
 
--   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) - Перевіряє, чи існує заданий атрибут
--   [DOMElement::getAttributeNS()](domelement.getattributens.md) - Повертає значення атрибуту
--   [DOMElement::removeAttributeNS()](domelement.removeattributens.md) - Видаляє атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) \- Перевіряє, чи існує заданий атрибут
+-   [DOMElement::getAttributeNS()](domelement.getattributens.md) \- Повертає значення атрибуту
+-   [DOMElement::removeAttributeNS()](domelement.removeattributens.md) \- Видаляє атрибут

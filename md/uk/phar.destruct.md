@@ -4,17 +4,18 @@ navigation:
   - phar.extractto.md: 'Phar::extractTo »'
   - index.md: PHP Manual
   - class.phar.md: Phar
-title: 'Phar::destruct'
+title: 'Phar::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Phar::destruct
+# Phar::\_\_destruct
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL phar >= 1.0.0)
 
-Phar::destruct — Знищує об'єкт архіву Phar
+Phar::\_\_destruct — Знищує об'єкт архіву Phar
 
 ### Опис
 
-public **Phar::destruct**
+public**Phar::\_\_destruct**()
 
 ### Список параметрів
 

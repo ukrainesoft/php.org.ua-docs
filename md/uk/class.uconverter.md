@@ -1,10 +1,11 @@
 ---
 navigation:
   - intlpartsiterator.getbreakiterator.md: '« IntlPartsIterator::getBreakIterator'
-  - uconverter.construct.md: 'UConverter::construct »'
+  - uconverter.construct.md: 'UConverter::\_\_construct »'
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Клас UConverter
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас UConverter
 
@@ -16,180 +17,216 @@ title: Клас UConverter
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      class UConverter
-     
+     class UConverter
      {
 
-    /* Constants */
+    /* Константы */
     
+     public
      const
      int
-      REASON_UNASSIGNED = 0;
+      REASON_UNASSIGNED;
 
-    const
+    public
+     const
      int
-      REASON_ILLEGAL = 1;
+      REASON_ILLEGAL;
 
-    const
+    public
+     const
      int
-      REASON_IRREGULAR = 2;
+      REASON_IRREGULAR;
 
-    const
+    public
+     const
      int
-      REASON_RESET = 3;
+      REASON_RESET;
 
-    const
+    public
+     const
      int
-      REASON_CLOSE = 4;
+      REASON_CLOSE;
 
-    const
+    public
+     const
      int
-      REASON_CLONE = 5;
+      REASON_CLONE;
 
-    const
+    public
+     const
      int
-      UNSUPPORTED_CONVERTER = -1;
+      UNSUPPORTED_CONVERTER;
 
-    const
+    public
+     const
      int
-      SBCS = 0;
+      SBCS;
 
-    const
+    public
+     const
      int
-      DBCS = 1;
+      DBCS;
 
-    const
+    public
+     const
      int
-      MBCS = 2;
+      MBCS;
 
-    const
+    public
+     const
      int
-      LATIN_1 = 3;
+      LATIN_1;
 
-    const
+    public
+     const
      int
-      UTF8 = 4;
+      UTF8;
 
-    const
+    public
+     const
      int
-      UTF16_BigEndian = 5;
+      UTF16_BigEndian;
 
-    const
+    public
+     const
      int
-      UTF16_LittleEndian = 6;
+      UTF16_LittleEndian;
 
-    const
+    public
+     const
      int
-      UTF32_BigEndian = 7;
+      UTF32_BigEndian;
 
-    const
+    public
+     const
      int
-      UTF32_LittleEndian = 8;
+      UTF32_LittleEndian;
 
-    const
+    public
+     const
      int
-      EBCDIC_STATEFUL = 9;
+      EBCDIC_STATEFUL;
 
-    const
+    public
+     const
      int
-      ISO_2022 = 10;
+      ISO_2022;
 
-    const
+    public
+     const
      int
-      LMBCS_1 = 11;
+      LMBCS_1;
 
-    const
+    public
+     const
      int
-      LMBCS_2 = 12;
+      LMBCS_2;
 
-    const
+    public
+     const
      int
-      LMBCS_3 = 13;
+      LMBCS_3;
 
-    const
+    public
+     const
      int
-      LMBCS_4 = 14;
+      LMBCS_4;
 
-    const
+    public
+     const
      int
-      LMBCS_5 = 15;
+      LMBCS_5;
 
-    const
+    public
+     const
      int
-      LMBCS_6 = 16;
+      LMBCS_6;
 
-    const
+    public
+     const
      int
-      LMBCS_8 = 17;
+      LMBCS_8;
 
-    const
+    public
+     const
      int
-      LMBCS_11 = 18;
+      LMBCS_11;
 
-    const
+    public
+     const
      int
-      LMBCS_16 = 19;
+      LMBCS_16;
 
-    const
+    public
+     const
      int
-      LMBCS_17 = 20;
+      LMBCS_17;
 
-    const
+    public
+     const
      int
-      LMBCS_18 = 21;
+      LMBCS_18;
 
-    const
+    public
+     const
      int
-      LMBCS_19 = 22;
+      LMBCS_19;
 
-    const
+    public
+     const
      int
-      LMBCS_LAST = 22;
+      LMBCS_LAST;
 
-    const
+    public
+     const
      int
-      HZ = 23;
+      HZ;
 
-    const
+    public
+     const
      int
-      SCSU = 24;
+      SCSU;
 
-    const
+    public
+     const
      int
-      ISCII = 25;
+      ISCII;
 
-    const
+    public
+     const
      int
-      US_ASCII = 26;
+      US_ASCII;
 
-    const
+    public
+     const
      int
-      UTF7 = 27;
+      UTF7;
 
-    const
+    public
+     const
      int
-      BOCU1 = 28;
+      BOCU1;
 
-    const
+    public
+     const
      int
-      UTF16 = 29;
+      UTF16;
 
-    const
+    public
+     const
      int
-      UTF32 = 30;
+      UTF32;
 
-    const
+    public
+     const
      int
-      CESU8 = 31;
+      CESU8;
 
-    const
+    public
+     const
      int
-      IMAP_MAILBOX = 32;
+      IMAP_MAILBOX;
 
 
     /* Методы */
@@ -197,7 +234,7 @@ title: Клас UConverter
    public __construct(?string $destination_encoding = null, ?string $source_encoding = null)
 
     public convert(string $str, bool $reverse = false): string|false
-public fromUCallback(    int $reason,    array $source,    int $codePoint,    int &$error): string|int|array|null
+public fromUCallback(    int $reason,    array $source,    int $codePoint,    int &$error): string|int|array|null
 public static getAliases(string $name): array|false|null
 public static getAvailable(): array
 public getDestinationEncoding(): string|false|null
@@ -212,8 +249,8 @@ public static reasonText(int $reason): string
 public setDestinationEncoding(string $encoding): bool
 public setSourceEncoding(string $encoding): bool
 public setSubstChars(string $chars): bool
-public toUCallback(    int $reason,    string $source,    string $codeUnits,    int &$error): string|int|array|null
-public static transcode(    string $str,    string $toEncoding,    string $fromEncoding,    ?array $options = null): string|false
+public toUCallback(    int $reason,    string $source,    string $codeUnits,    int &$error): string|int|array|null
+public static transcode(    string $str,    string $toEncoding,    string $fromEncoding,    ?array $options = null): string|false
 
    }
 ```
@@ -304,22 +341,22 @@ public static transcode(    string $str,    string $toEncoding,    string $fromE
 
 ## Зміст
 
--   [UConverter::construct](uconverter.construct.md) — Створити об'єкт UConverter
--   [UConverter::convert](uconverter.convert.md) — Конвертувати рядок з одного кодування в інше
+-   [UConverter::\_\_construct](uconverter.construct.md)— Створити об'єкт UConverter
+-   [UConverter::convert](uconverter.convert.md)— Конвертувати рядок з одного кодування в інше
 -   [UConverter::fromUCallback](uconverter.fromucallback.md) — Callback-функція за промовчанням для "from"
--   [UConverter::getAliases](uconverter.getaliases.md) — Отримати псевдоніми для цього імені
--   [UConverter::getAvailable](uconverter.getavailable.md) — Отримати доступні імена канонічних конверторів
--   [UConverter::getDestinationEncoding](uconverter.getdestinationencoding.md) — Отримати кодування призначення
--   [UConverter::getDestinationType](uconverter.getdestinationtype.md) — Отримати тип конвертера призначення
--   [UConverter::getErrorCode](uconverter.geterrorcode.md) — Отримати код останньої помилки об'єкта
--   [UConverter::getErrorMessage](uconverter.geterrormessage.md) — Отримати останнє повідомлення про помилку в об'єкті
--   [UConverter::getSourceEncoding](uconverter.getsourceencoding.md) — Отримати вихідне кодування
--   [UConverter::getSourceType](uconverter.getsourcetype.md) — Отримати тип конвертера джерела
--   [UConverter::getStandards](uconverter.getstandards.md) — Отримати стандарти, пов'язані з іменами конвертерів
--   [UConverter::getSubstChars](uconverter.getsubstchars.md) — Отримати заміну символів
--   [UConverter::reasonText](uconverter.reasontext.md) — Отримати рядкове подання причини зворотного виклику
--   [UConverter::setDestinationEncoding](uconverter.setdestinationencoding.md) — Встановити кодування призначення
--   [UConverter::setSourceEncoding](uconverter.setsourceencoding.md) — Встановити вихідне кодування
--   [UConverter::setSubstChars](uconverter.setsubstchars.md) — Встановлення символів підстановки
+-   [UConverter::getAliases](uconverter.getaliases.md)— Отримати псевдоніми для цього імені
+-   [UConverter::getAvailable](uconverter.getavailable.md)— Отримати доступні імена канонічних конверторів
+-   [UConverter::getDestinationEncoding](uconverter.getdestinationencoding.md)— Отримати кодування призначення
+-   [UConverter::getDestinationType](uconverter.getdestinationtype.md)— Отримати тип конвертера призначення
+-   [UConverter::getErrorCode](uconverter.geterrorcode.md)— Отримати код останньої помилки об'єкта
+-   [UConverter::getErrorMessage](uconverter.geterrormessage.md)— Отримати останнє повідомлення про помилку в об'єкті
+-   [UConverter::getSourceEncoding](uconverter.getsourceencoding.md)— Отримати вихідне кодування
+-   [UConverter::getSourceType](uconverter.getsourcetype.md)— Отримати тип конвертера джерела
+-   [UConverter::getStandards](uconverter.getstandards.md)— Отримати стандарти, пов'язані з іменами конвертерів
+-   [UConverter::getSubstChars](uconverter.getsubstchars.md)— Отримати заміну символів
+-   [UConverter::reasonText](uconverter.reasontext.md)— Отримати рядкове подання причини зворотного виклику
+-   [UConverter::setDestinationEncoding](uconverter.setdestinationencoding.md)— Встановити кодування призначення
+-   [UConverter::setSourceEncoding](uconverter.setsourceencoding.md)— Встановити вихідне кодування
+-   [UConverter::setSubstChars](uconverter.setsubstchars.md)— Встановлення символів підстановки
 -   [UConverter::toUCallback](uconverter.toucallback.md) - Callback-функція за промовчанням для "to"
--   [UConverter::transcode](uconverter.transcode.md) — Перетворює рядок з одного кодування символів на інший
+-   [UConverter::transcode](uconverter.transcode.md)— Перетворює рядок з одного кодування символів на інший

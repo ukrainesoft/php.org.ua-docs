@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-filter-register.md: « streamfilterregister
-  - function.stream-get-contents.md: streamgetcontents »
+  - function.stream-filter-register.md: « stream\_filter\_register
+  - function.stream-get-contents.md: stream\_get\_contents »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamfilterremove
+title: stream\_filter\_remove
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamfilterremove
+# stream\_filter\_remove
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-streamfilterremove — Видалити фільтр із потоку
+stream\_filter\_remove — Видалити фільтр із потоку
 
 ### Опис
 
@@ -18,7 +19,7 @@ streamfilterremove — Видалити фільтр із потоку
 stream_filter_remove(resource $stream_filter): bool
 ```
 
-Видаляє потоковий фільтр, раніше доданий до потоку за допомогою функції [streamfilterprepend()](function.stream-filter-prepend.md) або [streamfilterappend()](function.stream-filter-append.md). Будь-які дані, що залишилися у внутрішньому буфері фільтра, будуть відправлені до наступного фільтра до його видалення.
+Видаляє потоковий фільтр, раніше доданий до потоку за допомогою функції [stream\_filter\_prepend()](function.stream-filter-prepend.md) або [stream\_filter\_append()](function.stream-filter-append.md). Будь-які дані, що залишилися у внутрішньому буфері фільтра, будуть відправлені до наступного фільтра до його видалення.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ stream_filter_remove(resource $stream_filter): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -51,7 +52,7 @@ fclose($fp);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Guvf vf a test
@@ -59,6 +60,6 @@ Guvf vf a test
 
 ### Дивіться також
 
--   [streamfilterregister()](function.stream-filter-register.md) - Реєструє потоковий фільтр, визначений користувачем
--   [streamfilterappend()](function.stream-filter-append.md) - Прикріпити фільтр до потоку
--   [streamfilterprepend()](function.stream-filter-prepend.md) - Прикріплює фільтр до потоку
+-   [stream\_filter\_register()](function.stream-filter-register.md) \- Реєструє потоковий фільтр, визначений користувачем
+-   [stream\_filter\_append()](function.stream-filter-append.md) \- Прикріпити фільтр до потоку
+-   [stream\_filter\_prepend()](function.stream-filter-prepend.md) \- Прикріплює фільтр до потоку

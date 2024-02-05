@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.deflate-init.md: « deflateinit
+  - function.deflate-init.md: « deflate\_init
   - function.gzcompress.md: gzcompress »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzclose
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzclose
 
@@ -28,11 +29,11 @@ gzclose(resource $stream): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gzclose()****
+**Пример #1 Пример использования**gzclose()\*\*\*\*
 
 ```php
 <?php
@@ -44,4 +45,4 @@ gzclose($gz);
 
 ### Дивіться також
 
--   [gzopen()](function.gzopen.md) - Відкрити gz-файл
+-   [gzopen()](function.gzopen.md) \- Відкрити gz-файл

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.recursiveregexiterator.md: RecursiveRegexIterator
 title: 'RecursiveRegexIterator::hasChildren'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RecursiveRegexIterator::hasChildren
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 RecursiveRegexIterator::hasChildren — Визначає, чи можлива навігація за вмістом поточного елемента
 
@@ -30,7 +31,7 @@ public RecursiveRegexIterator::hasChildren(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RecursiveRegexIterator::hasChildren()****
+**Пример #1 Пример использования**RecursiveRegexIterator::hasChildren()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ foreach ($rRegexIterator as $value) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -53,4 +54,4 @@ bool(true)
 
 ### Дивіться також
 
--   [RecursiveRegexIterator::getChildren()](recursiveregexiterator.getchildren.md) - Повертає ітератор для поточного елемента
+-   [RecursiveRegexIterator::getChildren()](recursiveregexiterator.getchildren.md) \- Повертає ітератор для поточного елемента

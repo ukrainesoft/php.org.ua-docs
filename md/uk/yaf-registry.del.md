@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-registry.construct.md: '« YafRegistry::construct'
-  - yaf-registry.get.md: 'YafRegistry::get »'
+  - yaf-registry.construct.md: '« Yaf\_Registry::\_\_construct'
+  - yaf-registry.get.md: 'Yaf\_Registry::get »'
   - index.md: PHP Manual
-  - class.yaf-registry.md: YafRegistry
-title: 'YafRegistry::del'
+  - class.yaf-registry.md: Yaf\_Registry
+title: 'Yaf\_Registry::del'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRegistry::del
+# Yaf\_Registry::del
 
 (Yaf >=1.0.0)
 
-YafRegistry::del — Видаляє елемент із реєстру
+Yaf\_Registry::del — Видаляє елемент із реєстру
 
 ### Опис
 

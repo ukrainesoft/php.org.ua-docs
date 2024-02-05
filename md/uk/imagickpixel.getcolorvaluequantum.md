@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::getColorValueQuantum'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::getColorValueQuantum
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
-ImagickPixel::getColorValueQuantum — Опис
+ImagickPixel::getColorValueQuantum — Отримує квантове значення кольору в ImagickPixel
 
 ### Опис
 
@@ -30,7 +31,7 @@ public ImagickPixel::getColorValueQuantum(int $color): int|float
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickPixel::getColorValueQuantum()****
+**Пример #1 Пример использования**ImagickPixel::getColorValueQuantum()\*\*\*\*
 
 ```php
 <?php

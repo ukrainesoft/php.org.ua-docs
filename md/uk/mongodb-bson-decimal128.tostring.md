@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-decimal128.serialize.md: '« MongoDBBSONDecimal128::serialize'
-  - mongodb-bson-decimal128.unserialize.md: 'MongoDBBSONDecimal128::unserialize »'
+  - mongodb-bson-decimal128.serialize.md: '« MongoDB\\BSON\\Decimal128::serialize'
+  - mongodb-bson-decimal128.unserialize.md: 'MongoDB\\BSON\\Decimal128::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-decimal128.md: MongoDBBSONDecimal128
-title: 'MongoDBBSONDecimal128::function toString() { \[native code\] }'
+  - class.mongodb-bson-decimal128.md: MongoDB\\BSON\\Decimal128
+title: 'MongoDB\\BSON\\Decimal128::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONDecimal128::function toString() { \[native code\] }
+# MongoDB\\BSON\\Decimal128::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.2.0)
 
-MongoDBBSONDecimal128::toString — Повертає рядкову виставу Decimal128
+MongoDB\\BSON\\Decimal128::\_\_toString — Повертає рядкову виставу Decimal128
 
 ### Опис
 
@@ -28,7 +29,7 @@ final public MongoDB\BSON\Decimal128::__toString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONDecimal128::toString()****
+**Пример #1 Пример использования**MongoDB\\BSON\\Decimal128::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ var_dump((string) new MongoDB\BSON\Decimal128(INF));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(9) "1234.5678"
@@ -50,5 +51,5 @@ string(8) "Infinity"
 
 ### Дивіться також
 
--   [» Формат з плаваючою точкою Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Формат з плаваючою точкою Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

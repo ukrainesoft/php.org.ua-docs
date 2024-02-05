@@ -1,30 +1,26 @@
 ---
 navigation:
   - stream.streamwrapper.example-1.md: '« Приклад класу, зареєстрованого як обгортка потоку'
-  - php-user-filter.filter.md: 'phpuserfilter::filter »'
+  - php-user-filter.filter.md: 'php\_user\_filter::filter »'
   - index.md: PHP Manual
   - book.stream.md: Потоки
-title: Клас phpuserfilter
+title: Клас php\_user\_filter
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас phpuserfilter
+# Клас php\_user\_filter
 
 (PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-Нащадки цього класу передаються у функцію [streamfilterregister()](function.stream-filter-register.md). Зверніть увагу, що метод [construct](language.oop5.decon.md#object.construct) не викликається; натомість для ініціалізації слід використовувати [phpuserfilter::onCreate()](php-user-filter.oncreate.md)
+Нащадки цього класу передаються у функцію [stream\_filter\_register()](function.stream-filter-register.md)Обратите внимание, что метод[\_\_construct](language.oop5.decon.md#object.construct) не викликається; натомість для ініціалізації слід використовувати [php\_user\_filter::onCreate()](php-user-filter.oncreate.md)
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      class php_user_filter
-     
+     class php_user_filter
      {
 
     /* Свойства */
@@ -44,7 +40,7 @@ title: Клас phpuserfilter
 
     /* Методы */
     
-   public filter(    resource $in,    resource $out,    int &$consumed,    bool $closing): int
+   public filter(    resource $in,    resource $out,    int &$consumed,    bool $closing): int
 public onClose(): void
 public onCreate(): bool
 
@@ -55,7 +51,7 @@ public onCreate(): bool
 
 filtername
 
-Ім'я фільтра, зареєстрованого функцією [streamfilterappend()](function.stream-filter-append.md)
+Ім'я фільтра, зареєстрованого функцією [stream\_filter\_append()](function.stream-filter-append.md)
 
 params
 
@@ -63,6 +59,6 @@ stream
 
 ## Зміст
 
--   [phpuserfilter::filter](php-user-filter.filter.md) — Викликається, щойно застосовується фільтр
--   [phpuserfilter::onClose](php-user-filter.onclose.md) — Викликається під час закриття фільтра
--   [phpuserfilter::onCreate](php-user-filter.oncreate.md) — Викликається під час створення об'єкта фільтра
+-   [php\_user\_filter::filter](php-user-filter.filter.md)— Викликається, щойно застосовується фільтр
+-   [php\_user\_filter::onClose](php-user-filter.onclose.md)— Викликається під час закриття фільтра
+-   [php\_user\_filter::onCreate](php-user-filter.oncreate.md)— Викликається під час створення об'єкта фільтра

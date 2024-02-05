@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-integer.md: « isinteger
-  - function.is-long.md: ісlong »
+  - function.is-integer.md: « is\_integer
+  - function.is-long.md: is\_long »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
-title: ісiterable
+title: is\_iterable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісiterable
+# is\_iterable
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
-ісiterable — Перевіряє, чи змінна ітерована
+is\_iterable — Перевіряє, чи вміст змінної, що ітерується.
 
 ### Опис
 
@@ -18,21 +19,21 @@ title: ісiterable
 is_iterable(mixed $value): bool
 ```
 
-Перевіряє, чи вміст змінної псевдотипу відповідає [iterable](language.types.iterable.md), тобто чи вона або масивом (array), або об'єктом, що реалізує [Traversable](class.traversable.md)
+Перевіряє, чи вміст змінної псевдотипу відповідає [iterable](language.types.iterable.md), тобто це або масив (array), або об'єкт, який реалізує інтерфейс [Traversable](class.traversable.md)
 
 ### Список параметрів
 
 `value`
 
-Змінна для перевірки
+Змінна для перевірки.
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` ітерована або **`false`**, якщо ні.
+Повертає **`true`**, если значение`value`итерируемо, иначе\*\*`false`\*\*
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ісiterable()****
+**Пример #1 Пример использования функции**is\_iterable()\*\*\*\*
 
 ```php
 <?php
@@ -48,4 +49,4 @@ var_dump(is_iterable(new stdClass()));  // bool(false)
 
 ### Дивіться також
 
--   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
+-   [is\_array()](function.is-array.md) \- Визначає, чи є змінна масив

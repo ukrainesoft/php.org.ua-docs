@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-result.getgeneratedids.md: '« Result::getGeneratedIds'
   - mysql-xdevapi-result.getwarningscount.md: 'Result::getWarningsCount »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-result.md: mysqlxdevapiResult
+  - class.mysql-xdevapi-result.md: mysql\_xdevapi\\Result
 title: 'Result::getWarnings'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Result::getWarnings
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Result::getWarnings(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiRowResult::getWarnings()****
+**Пример #1 Пример использования**mysql\_xdevapi\\RowResult::getWarnings()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ print_r($warnings);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

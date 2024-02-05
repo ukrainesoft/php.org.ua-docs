@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-route-simple.construct.md: '« YafRouteSimple::construct'
-  - class.yaf-route-static.md: YafRouteStatic »
+  - yaf-route-simple.construct.md: '« Yaf\_Route\_Simple::\_\_construct'
+  - class.yaf-route-static.md: Yaf\_Route\_Static »
   - index.md: PHP Manual
-  - class.yaf-route-simple.md: YafRouteSimple
-title: 'YafRouteSimple::route'
+  - class.yaf-route-simple.md: Yaf\_Route\_Simple
+title: 'Yaf\_Route\_Simple::route'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteSimple::route
+# Yaf\_Route\_Simple::route
 
 (Yaf >=1.0.0)
 
-YafRouteSimple::route — Надсилає запит
+Yaf\_Route\_Simple::route — Надсилає запит
 
 ### Опис
 
@@ -18,11 +19,11 @@ YafRouteSimple::route — Надсилає запит
 public Yaf_Route_Simple::route(Yaf_Request_Abstract $request): bool
 ```
 
-дивіться [YafRouteSimple::construct()](yaf-route-simple.construct.md)
+смотрите[Yaf\_Route\_Simple::\_\_construct()](yaf-route-simple.construct.md)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,8 +35,8 @@ public Yaf_Route_Simple::route(Yaf_Request_Abstract $request): bool
 
 ### Дивіться також
 
--   [YafRouteSupervar::route()](yaf-route-supervar.route.md) - Призначення route
--   [YafRouteStatic::route()](yaf-route-static.route.md) - Надсилає запит
--   [YafRouteRegex::route()](yaf-route-regex.route.md) - Мета маршруту
--   [YafRouteRewrite::route()](yaf-route-rewrite.route.md) - Призначення route
--   [YafRouteMap::route()](yaf-route-map.route.md) - Призначення route
+-   [Yaf\_Route\_Supervar::route()](yaf-route-supervar.route.md) \- Призначення route
+-   [Yaf\_Route\_Static::route()](yaf-route-static.route.md) \- Надсилає запит
+-   [Yaf\_Route\_Regex::route()](yaf-route-regex.route.md) \- Мета маршруту
+-   [Yaf\_Route\_Rewrite::route()](yaf-route-rewrite.route.md) \- Призначення route
+-   [Yaf\_Route\_Map::route()](yaf-route-map.route.md) \- Призначення route

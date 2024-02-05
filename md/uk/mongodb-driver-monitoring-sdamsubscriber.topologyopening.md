@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-sdamsubscriber.topologyclosed.md: '« MongoDBDriverMonitoringSDAMSubscriber::topologyClosed'
-  - class.mongodb-driver-monitoring-subscriber.md: MongoDBDriverMonitoringSubscriber »
+  - mongodb-driver-monitoring-sdamsubscriber.topologyclosed.md: '« MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyClosed'
+  - class.mongodb-driver-monitoring-subscriber.md: MongoDB\\Driver\\Monitoring\\Subscriber »
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDBDriverMonitoringSDAMSubscriber
-title: 'MongoDBDriverMonitoringSDAMSubscriber::topologyOpening'
+  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDB\\Driver\\Monitoring\\SDAMSubscriber
+title: 'MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyOpening'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringSDAMSubscriber::topologyOpening
+# MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyOpening
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringSDAMSubscriber::topologyOpening — Метод сповіщення про відкриття топології
+MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyOpening — Метод сповіщення про відкриття топології
 
 ### Опис
 
@@ -22,7 +23,7 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening(MongoD
 
 ### Список параметрів
 
-`event` [MongoDBDriverMonitoringTopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md)
+`event` [MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md)) .
 
 Об'єкт події, що містить інформацію про відкриту топологію.
 
@@ -32,10 +33,10 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening(MongoD
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverMonitoringTopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md)
--   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) - Глобальна реєстрація передплатника на подію моніторингу
--   [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) - реєструє передплатника на подію моніторингу в даному об'єкті Manager
+-   [MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md)
+-   [MongoDB\\Driver\\Monitoring\\addSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) \- Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDB\\Driver\\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) \- реєструє передплатника на подію моніторингу в даному об'єкті Manager

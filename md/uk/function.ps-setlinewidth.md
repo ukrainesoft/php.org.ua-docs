@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-setlinejoin.md: «pssetlinejoin
-  - function.ps-setmiterlimit.md: псsetmiterlimit »
+  - function.ps-setlinejoin.md: « ps\_setlinejoin
+  - function.ps-setmiterlimit.md: ps\_setmiterlimit »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псsetlinewidth
+title: ps\_setlinewidth
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псsetlinewidth
+# ps\_setlinewidth
 
 (PECL ps >= 1.1.0)
 
-псsetlinewidth - Встановлює ширину лінії
+ps\_setlinewidth - Встановлює ширину лінії
 
 ### Опис
 
@@ -24,7 +25,7 @@ ps_setlinewidth(resource $psdoc, float $width): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 `width`
 
@@ -32,10 +33,10 @@ ps_setlinewidth(resource $psdoc, float $width): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псsetlinecap()](function.ps-setlinecap.md) - Встановлює зовнішній вигляд закінчення лінії
--   [псsetlinejoin()](function.ps-setlinejoin.md) - Встановлює спосіб з'єднання ліній
--   [псsetmiterlimit()](function.ps-setmiterlimit.md) - Встановлює межу скосу
+-   [ps\_setlinecap()](function.ps-setlinecap.md) \- Встановлює зовнішній вигляд закінчення лінії
+-   [ps\_setlinejoin()](function.ps-setlinejoin.md) \- Встановлює спосіб з'єднання ліній
+-   [ps\_setmiterlimit()](function.ps-setmiterlimit.md) \- Встановлює межу скосу

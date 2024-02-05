@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-tty.md: « pgtty
-  - function.pg-untrace.md: пгuntrace »
+  - function.pg-tty.md: « pg\_tty
+  - function.pg-untrace.md: pg\_untrace »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгunescapebytea
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_unescape\_bytea
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгunescapebytea
+# pg\_unescape\_bytea
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-пгunescapebytea — Забирає екранування двійкових даних типу bytea
+pg\_unescape\_bytea — Забирає екранування двійкових даних типу bytea
 
 ### Опис
 
@@ -18,11 +19,11 @@ title: пгunescapebytea
 pg_unescape_bytea(string $string): string
 ```
 
-**пгunescapebytea()** прибирає екранування спецсимволів у значеннях типу PostgreSQL bytea. Повертає неекранований рядок, що містить двійкові дані.
+**pg\_unescape\_bytea()** прибирає екранування спецсимволів у значеннях типу PostgreSQL bytea. Повертає неекранований рядок, що містить двійкові дані.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> При вибірці SQL функцією `SELECT` даних типу bytea PostgreSQL повертає значення у восьмеричній системі числення з префіксом '' (такі як 032). Користувачеві необхідно вручну перетворювати їх на двійковий формат.
+> При вибірці SQL функцією `SELECT` даних типу bytea PostgreSQL повертає значення у восьмеричній системі числення з префіксом '\\' (такі як \\032). Користувачеві необхідно вручну перетворювати їх у двійковий формат.
 > 
 > Функція підтримується PostgreSQL версії 7.2 та вище. Для версій 7.2.0 та 7.2.1 значення мають бути перетворені до типу bytea, коли увімкнена мультибайтова підтримка. Тоді як `INSERT INTO test_table (image)VALUES ('$image_escaped'::bytea);` PostgreSQL 7.2.2 і вище не вимагає будь-яких перетворень. Виняток становить випадок, коли клієнтське (frontend) кодування не відповідає серверному (backend). При цьому виникає помилка мультибайтового потоку, і користувач повинен привести дані типу bytea, щоб її уникнути.
 
@@ -38,7 +39,7 @@ pg_unescape_bytea(string $string): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгunescapebytea()****
+**Пример #1 Пример использования**pg\_unescape\_bytea()\*\*\*\*
 
 ```php
 <?php
@@ -57,5 +58,5 @@ pg_unescape_bytea(string $string): string
 
 ### Дивіться також
 
--   [пгescapebytea()](function.pg-escape-bytea.md) - Екранує спецсимволи у рядку для вставки у поле типу bytea
--   [пгescapestring()](function.pg-escape-string.md) - Екранування спецсимволів у рядку запиту
+-   [pg\_escape\_bytea()](function.pg-escape-bytea.md) \- Екранує спецсимволи у рядку для вставки у поле типу bytea
+-   [pg\_escape\_string()](function.pg-escape-string.md) \- Екранування спецсимволів у рядку запиту

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::sendData'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanTask::sendData
 
@@ -30,8 +31,8 @@ public GearmanTask::sendData(string $data): int
 
 ### Значення, що повертаються
 
-Розмір переданих даних або **`false`** у разі невдачі.
+Розмір переданих даних або \*\*`false`\*\*в случае неудачи.
 
 ### Дивіться також
 
--   [GearmanTask::recvData()](gearmantask.recvdata.md) - Читання даних роботи чи результату завдання у буфер
+-   [GearmanTask::recvData()](gearmantask.recvdata.md) \- Читання даних роботи чи результату завдання у буфер

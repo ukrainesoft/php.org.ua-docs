@@ -1,14 +1,15 @@
 ---
 navigation:
-  - exception.clone.md: '« Exception::clone'
-  - errorexception.construct.md: 'ErrorException::construct »'
+  - exception.clone.md: '« Exception::\_\_clone'
+  - errorexception.construct.md: 'ErrorException::\_\_construct »'
   - index.md: PHP Manual
   - reserved.exceptions.md: Обумовлені винятки
 title: ErrorException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ErrorException
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,18 +19,13 @@ title: ErrorException
 
 ```classsynopsis
 
-     
+    
+     class ErrorException
     
 
     
-     
-      class ErrorException
-     
-
-     
-      extends
-       Exception
-     
+     extends
+      Exception
      {
 
     /* Свойства */
@@ -41,31 +37,31 @@ title: ErrorException
 
     /* Наследуемые свойства */
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Методы */
     
-   public __construct(    string $message = "",    int $code = 0,    int $severity = E_ERROR,    ?string $filename = null,    ?int $line = null,    ?Throwable $previous = null)
+   public __construct(    string $message = "",    int $code = 0,    int $severity = E_ERROR,    ?string $filename = null,    ?int $line = null,    ?Throwable $previous = null)
 
     final public getSeverity(): int
 
@@ -92,25 +88,27 @@ severity
 
 ## Приклади
 
-**Приклад #1 Використання [seterrorhandler()](function.set-error-handler.md) змінити повідомлення про помилки в ErrorException.**
+**Пример #1 Использование[set\_error\_handler()](function.set-error-handler.md) змінити повідомлення про помилки в ErrorException.**
 
 ```php
 <?php
-function exception_error_handler($severity, $message, $file, $line) {
-    if (!(error_reporting() & $severity)) {
+function exception_error_handler(int $errno, string $errstr, string $errfile = null, int $errline) {
+    if (!(error_reporting() & $errno)) {
         // Этот код ошибки не входит в error_reporting
         return;
     }
-    throw new ErrorException($message, 0, $severity, $file, $line);
+    throw new \ErrorException($errstr, 0, $errno, $errfile, $errline);
 }
-set_error_handler("exception_error_handler");
+set_error_handler(exception_error_handler(...));
+// До PHP 8.1.0 и введения синтаксиса callback-функции как объекта первого класса вместо этого необходимо использовать следующий вызов:
+// set_error_handler(__NAMESPACE__ . "\\exception_error_handler");
 
 /* вызываем исключение */
 strpos();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Fatal error: Uncaught exception 'ErrorException' with message 'strpos() expects at least 2 parameters, 0 given' in /home/bjori/tmp/ex.php:12
@@ -123,5 +121,5 @@ Stack trace:
 
 ## Зміст
 
--   [ErrorException::construct](errorexception.construct.md) - Створює виняток
--   [ErrorException::getSeverity](errorexception.getseverity.md) — Отримує серйозність виключення
+-   [ErrorException::\_\_construct](errorexception.construct.md) \- Створює виняток
+-   [ErrorException::getSeverity](errorexception.getseverity.md)— Отримує серйозність виключення

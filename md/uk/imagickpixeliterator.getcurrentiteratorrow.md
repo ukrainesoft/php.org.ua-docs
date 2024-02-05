@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixeliterator.md: ImagickPixelIterator
 title: 'ImagickPixelIterator::getCurrentIteratorRow'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixelIterator::getCurrentIteratorRow
 
@@ -20,7 +21,7 @@ public ImagickPixelIterator::getCurrentIteratorRow(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає поточний ряд у вигляді масиву об'єктів ImagickPixel із піксельного ітератора.
 

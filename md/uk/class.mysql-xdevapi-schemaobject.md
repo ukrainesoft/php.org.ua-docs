@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-schema.gettables.md: '« Schema::getTables'
   - mysql-xdevapi-schemaobject.getschema.md: 'SchemaObject::getSchema »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Інтерфейс SchemaObject
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс SchemaObject
 
@@ -36,4 +37,4 @@ title: Інтерфейс SchemaObject
 
 ## Зміст
 
--   [SchemaObject::getSchema](mysql-xdevapi-schemaobject.getschema.md) — Отримує об'єкт схеми
+-   [SchemaObject::getSchema](mysql-xdevapi-schemaobject.getschema.md)— Отримує об'єкт схеми

@@ -1,25 +1,26 @@
 ---
 navigation:
-  - function.get-loaded-extensions.md: « getloadedextensions
-  - function.get-magic-quotes-runtime.md: getmagicquotesruntime »
+  - function.get-loaded-extensions.md: « get\_loaded\_extensions
+  - function.get-magic-quotes-runtime.md: get\_magic\_quotes\_runtime »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: getmagicquotesgpc
+title: get\_magic\_quotes\_gpc
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getmagicquotesgpc
+# get\_magic\_quotes\_gpc
 
 (PHP 4, PHP 5, PHP 7)
 
-getmagicquotesgpc — отримання поточного значення конфігураційної установки magicquotesgpc
+get\_magic\_quotes\_gpc — отримання поточного значення конфігураційної установки magic\_quotes\_gpc
 
 **Увага**
 
-Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНО*починаючи з PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція *ЗАСТАРІЛА* починаючи з PHP 7.4.0 і була *ВИДАЛЕНО* у PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
 ```methodsynopsis
-get_magic_quotes_gpc(): bool
+get_magic_quotes_gpc(): false
 ```
 
 Завжди повертає **`false`**
@@ -34,13 +35,13 @@ get_magic_quotes_gpc(): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функцію оголошено застарілою. |
+| 7.4.0 | Функцію оголошено застарілою. |
 
 ### Дивіться також
 
--   [addslashes()](function.addslashes.md) - Екранує рядок за допомогою слішів
--   [stripslashes()](function.stripslashes.md) - Видаляє екранування символів
--   [getmagicquotesruntime()](function.get-magic-quotes-runtime.md) - Отримання поточного значення конфігурації конфігурації magicquotesruntime
--   [iniget()](function.ini-get.md) - Отримує значення налаштування конфігурації
+-   [addslashes()](function.addslashes.md) \- Екранує рядок за допомогою слішів
+-   [stripslashes()](function.stripslashes.md) \- Видаляє екранування символів
+-   [get\_magic\_quotes\_runtime()](function.get-magic-quotes-runtime.md) \- Отримання поточного значення конфігурації конфігурації magic\_quotes\_runtime
+-   [ini\_get()](function.ini-get.md) \- Отримує значення налаштування конфігурації

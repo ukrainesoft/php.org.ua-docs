@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ds-vector.md: « Вектор
-  - ds-vector.apply.md: 'ДсVector::apply »'
+  - class.ds-vector.md: « Ds\\Vector
+  - ds-vector.apply.md: 'Ds\\Vector::apply »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::allocate'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::allocate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::allocate
+# Ds\\Vector::allocate
 
 (PECL ds >= 1.0.0)
 
-ДсVector::allocate — Виділяє пам'ять під зазначену місткість
+Ds\\Vector::allocate — Виділяє пам'ять під зазначену місткість
 
 ### Опис
 
@@ -26,7 +27,7 @@ public Ds\Vector::allocate(int $capacity): void
 
 Місткість. Очікувана кількість значень.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Місткість залишиться незмінною, якщо її значення менше або дорівнює поточній місткості.
 
@@ -36,7 +37,7 @@ public Ds\Vector::allocate(int $capacity): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::allocate()****
+**Пример #1 Пример использования**Ds\\Vector::allocate()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($vector->capacity());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(10)

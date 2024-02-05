@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.readline-callback-handler-install.md: « readlinecallbackhandlerinstall
-  - function.readline-callback-read-char.md: readlinecallbackreadchar »
+  - function.readline-callback-handler-install.md: « readline\_callback\_handler\_install
+  - function.readline-callback-read-char.md: readline\_callback\_read\_char »
   - index.md: PHP Manual
-  - ref.readline.md: Функции Readline
-title: readlinecallbackhandlerremove
+  - ref.readline.md: Опції Readline
+title: readline\_callback\_handler\_remove
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# readlinecallbackhandlerremove
+# readline\_callback\_handler\_remove
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-readlinecallbackhandlerremove — Видаляє раніше зареєстровану callback-функцію та відновлює термінал
+readline\_callback\_handler\_remove — Видаляє раніше зареєстровану callback-функцію та відновлює термінал
 
 ### Опис
 
@@ -26,13 +27,13 @@ readline_callback_handler_remove(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо видалення пройшло успішно або **`false`**, якщо видаляти нічого.
+Повертає **`true`**, если удаление прошло успешно или\*\*`false`\*\*, якщо видаляти нічого.
 
 ### Приклади
 
-Приклад використання інтерфейсу callback-функцій readline дивіться на сторінці опису функції [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.md)
+Пример использования интерфейса callback-функций readline смотрите на странице описания функции[readline\_callback\_handler\_install()](function.readline-callback-handler-install.md)
 
 ### Дивіться також
 
--   [readlinecallbackhandlerinstall()](function.readline-callback-handler-install.md) - Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
--   [readlinecallbackreadchar()](function.readline-callback-read-char.md) - Читає символ та інформує callback-функцію readline, що отримано рядок
+-   [readline\_callback\_handler\_install()](function.readline-callback-handler-install.md) \- Ініціалізує callback-інтерфейс readline та термінал, друкує рядок запрошення та негайно повертає управління
+-   [readline\_callback\_read\_char()](function.readline-callback-read-char.md) \- Читає символ та інформує callback-функцію readline, що отримано рядок

@@ -1,10 +1,11 @@
 ---
 navigation:
   - domnamednodemap.getnameditemns.md: '« DOMNamedNodeMap::getNamedItemNS'
-  - class.domnode.md: DOMNode »
+  - class.domnamespacenode.md: DOMNameSpaceNode »
   - index.md: PHP Manual
   - class.domnamednodemap.md: DOMNamedNodeMap
 title: 'DOMNamedNodeMap::item'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNamedNodeMap::item
 
@@ -28,4 +29,4 @@ public DOMNamedNodeMap::item(int $index): ?DOMNode
 
 ### Значення, що повертаються
 
-Вузол з індексом `index` у відображенні або \*\*`null`\*\*якщо індекс має неприпустиме значення (більше або дорівнює кількості вузлів у відображенні).
+Вузол з індексом `index`в отображении или\*\*`null`\*\*якщо індекс має неприпустиме значення (більше або дорівнює кількості вузлів у відображенні).

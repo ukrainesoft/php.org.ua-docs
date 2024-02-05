@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssdeep-fuzzy-compare.md: « ssdeepfuzzycompare
-  - function.ssdeep-fuzzy-hash.md: ssdeepfuzzyhash »
+  - function.ssdeep-fuzzy-compare.md: « ssdeep\_fuzzy\_compare
+  - function.ssdeep-fuzzy-hash.md: ssdeep\_fuzzy\_hash »
   - index.md: PHP Manual
   - ref.ssdeep.md: Функції ssdeep
-title: ssdeepfuzzyhashfilename
+title: ssdeep\_fuzzy\_hash\_filename
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssdeepfuzzyhashfilename
+# ssdeep\_fuzzy\_hash\_filename
 
 (PECL ssdeep >= 1.0.0)
 
-ssdeepfuzzyhashfilename — Створення нечіткого хешу з файлу
+ssdeep\_fuzzy\_hash\_filename — Створення нечіткого хешу з файлу
 
 ### Опис
 
@@ -18,7 +19,7 @@ ssdeepfuzzyhashfilename — Створення нечіткого хешу з ф
 ssdeep_fuzzy_hash_filename(string $file_name): string
 ```
 
-**ssdeepfuzzyhashfilename()** обчислює хеш вказаного файлу `file_name`, використовуючи [» контекстно-переключається часткове хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та повертає його значення.
+**ssdeep\_fuzzy\_hash\_filename()** обчислює хеш вказаного файлу `file_name`, используя[» контекстно-переключається часткове хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та повертає його значення.
 
 ### Список параметрів
 

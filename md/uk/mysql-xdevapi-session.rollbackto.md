@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-session.rollback.md: '« Session::rollback'
   - mysql-xdevapi-session.setsavepoint.md: 'Session::setSavepoint »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::rollbackTo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::rollbackTo
 
 (No version information available, might only be in Git)
 
-Session::rollbackTo — Відкачує транзакцію до точки збереження
+Session::rollback To — Відкачує транзакцію до точки збереження
 
 ### Опис
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\Session::rollbackTo(string $name): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::rollbackTo()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::rollbackTo()\*\*\*\*
 
 ```php
 <?php

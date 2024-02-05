@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-process.name.md: '« SwooleProcess::name'
-  - swoole-process.push.md: 'SwooleProcess::push »'
+  - swoole-process.name.md: '« Swoole\\Process::name'
+  - swoole-process.push.md: 'Swoole\\Process::push »'
   - index.md: PHP Manual
-  - class.swoole-process.md: SwooleProcess
-title: 'SwooleProcess::pop'
+  - class.swoole-process.md: Swoole\\Process
+title: 'Swoole\\Process::pop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleProcess::pop
+# Swoole\\Process::pop
 
 (PECL swoole >= 1.9.0)
 
-SwooleProcess::pop — Читає та витягує дані з черги повідомлень
+Swoole\\Process::pop — Читає та витягує дані з черги повідомлень
 
 ### Опис
 

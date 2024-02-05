@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.rararchive.md: RarArchive
 title: 'RarArchive::close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarArchive::close
 
-# rarclose
+# rar\_close
 
 (PECL rar >= 2.0.0)
 
-RarArchive::close -- rarclose — Закриває RAR архів та звільняє всі ресурси
+RarArchive::close -- rar\_close — Закриває RAR архів та звільняє всі ресурси
 
 ### Опис
 
@@ -34,15 +35,15 @@ rar_close(RarArchive $rarfile): bool
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [raropen()](rararchive.open.md)
+Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [rar\_open()](rararchive.open.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL rar 2.0.0 | Елементи архіву, що повертаються [RarArchive::getEntry()](rararchive.getentry.md) і [RarArchive::getEntries()](rararchive.getentries.md) тепер недійсні після виклику цього методу. Це означає, що немає гарантії правильної роботи всіх методів цих елементів. |
 
@@ -59,7 +60,7 @@ echo $rar_arch."\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 RAR Archive "D:\php_rar\trunk\tests\latest_winrar.rar"

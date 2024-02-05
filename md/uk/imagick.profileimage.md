@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::profileImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::profileImage
 
@@ -15,10 +16,10 @@ Imagick::profileImage — Додає або видаляє профіль зоб
 ### Опис
 
 ```methodsynopsis
-public Imagick::profileImage(string $name, string $profile): bool
+public Imagick::profileImage(string $name, ?string $profile): bool
 ```
 
-Додає або видаляє ICC, IPTC або загальний профіль зображення. Якщо профіль NULL, він видаляється, інакше додається. Використовуйте ім'я '' і профіль NULL, щоб видалити всі профілі зображення.
+Додає або видаляє ICC, IPTC або загальний профіль зображення. Якщо профіль NULL, він видаляється, інакше додається. Використовуйте ім'я '\*' і профіль NULL, щоб видалити всі профілі зображення.
 
 ### Список параметрів
 

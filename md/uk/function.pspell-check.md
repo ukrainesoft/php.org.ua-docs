@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pspell-add-to-session.md: « pspelladdтоsession
-  - function.pspell-clear-session.md: pspellclearsession »
+  - function.pspell-add-to-session.md: « pspell\_add\_to\_session
+  - function.pspell-clear-session.md: pspell\_clear\_session »
   - index.md: PHP Manual
-  - ref.pspell.md: Функции Pspell
-title: pspellcheck
+  - ref.pspell.md: Функції Pspell
+title: pspell\_check
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pspellcheck
+# pspell\_check
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspellcheck — Перевіряє слово
+pspell\_check — Перевіряє слово
 
 ### Опис
 
@@ -18,17 +19,17 @@ pspellcheck — Перевіряє слово
 pspell_check(PSpell\Dictionary $dictionary, string $word): bool
 ```
 
-**pspellcheck()** перевіряє орфографію слова.
+**pspell\_check()** перевіряє орфографію слова.
 
 ### Список параметрів
 
 `dictionary`
 
-Екземпляр [PSpellDictionary](class.pspell-dictionary.md)
+Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.md)
 
 `word`
 
-Перевірене слово.
+Перевірочне слово.
 
 ### Значення, що повертаються
 
@@ -36,13 +37,13 @@ pspell_check(PSpell\Dictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspellcheck()****
+**Пример #1 Пример использования**pspell\_check()\*\*\*\*
 
 ```php
 <?php

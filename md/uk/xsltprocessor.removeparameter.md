@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::removeParameter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XSLTProcessor::removeParameter
 
@@ -32,9 +33,9 @@ public XSLTProcessor::removeParameter(string $namespace, string $name): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [XSLTProcessor::setParameter()](xsltprocessor.setparameter.md) - Встановлює значення параметра
--   [XSLTProcessor::getParameter()](xsltprocessor.getparameter.md) - Повертає значення параметра
+-   [XSLTProcessor::setParameter()](xsltprocessor.setparameter.md) \- Встановлює значення параметра
+-   [XSLTProcessor::getParameter()](xsltprocessor.getparameter.md) \- Повертає значення параметра

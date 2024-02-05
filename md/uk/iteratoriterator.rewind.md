@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.iteratoriterator.md: IteratorIterator
 title: 'IteratorIterator::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IteratorIterator::rewind
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 IteratorIterator::rewind — Повертає ітератор до першого елементу
 
@@ -30,5 +31,5 @@ public IteratorIterator::rewind(): void
 
 ### Дивіться також
 
--   [IteratorIterator::next()](iteratoriterator.next.md) - Переміщує ітератор до наступного елементу
--   [IteratorIterator::valid()](iteratoriterator.valid.md) - Перевіряє, чи є ітератор допустимим
+-   [IteratorIterator::next()](iteratoriterator.next.md) \- Переміщує ітератор до наступного елементу
+-   [IteratorIterator::valid()](iteratoriterator.valid.md) \- Перевіряє, чи є ітератор допустимим

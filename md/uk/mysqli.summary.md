@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysqli.constants.md: « Обумовлені константи
+  - mysqli.constants.md: « Зумовлені константи
   - class.mysqli.md: mysqli »
   - index.md: PHP Manual
   - book.mysqli.md: MySQLi
 title: Основна інформація про функції модуля MySQLi
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Основна інформація про функції модуля MySQLi
 
@@ -13,136 +14,136 @@ title: Основна інформація про функції модуля My
 | Класс mysqli |
 | --- |
 | ООП-інтерфейс |
-|  |
-| *Властивості* |
-| [$mysqli::affectedrows](mysqli.affected-rows.md) |
-| [$mysqli::clientinfo](mysqli.get-client-info.md) |
-| [$mysqli::clientversion](mysqli.get-client-version.md) |
-| [$mysqli::connecterrno](mysqli.connect-errno.md) |
-| [$mysqli::connecterror](mysqli.connect-error.md) |
+| \--- |
+| **Властивості** |
+| [$mysqli::affected\_rows](mysqli.affected-rows.md) |
+| [$mysqli::client\_info](mysqli.get-client-info.md) |
+| [$mysqli::client\_version](mysqli.get-client-version.md) |
+| [$mysqli::connect\_errno](mysqli.connect-errno.md) |
+| [$mysqli::connect\_error](mysqli.connect-error.md) |
 | [$mysqli::errno](mysqli.errno.md) |
 | [$mysqli::error](mysqli.error.md) |
-| [$mysqli::fieldcount](mysqli.field-count.md) |
-| [$mysqli::hostinfo](mysqli.get-host-info.md) |
-| [$mysqli::protocolversion](mysqli.get-proto-info.md) |
-| [$mysqli::serverinfo](mysqli.get-server-info.md) |
-| [$mysqli::serverversion](mysqli.get-server-version.md) |
+| [$mysqli::field\_count](mysqli.field-count.md) |
+| [$mysqli::host\_info](mysqli.get-host-info.md) |
+| [$mysqli::protocol\_version](mysqli.get-proto-info.md) |
+| [$mysqli::server\_info](mysqli.get-server-info.md) |
+| [$mysqli::server\_version](mysqli.get-server-version.md) |
 | [$mysqli::info](mysqli.info.md) |
-| [$mysqli::insertід](mysqli.insert-id.md) |
+| [$mysqli::insert\_id](mysqli.insert-id.md) |
 | [$mysqli::sqlstate](mysqli.sqlstate.md) |
-| [$mysqli::warningcount](mysqli.warning-count.md) |
-| *Методи* |
+| [$mysqli::warning\_count](mysqli.warning-count.md) |
+| **Методи** |
 | [mysqli::autocommit()](mysqli.autocommit.md) |
-| [mysqli::changeuser()](mysqli.change-user.md) |
-| [mysqli::charactersetname()](mysqli.character-set-name.md) |
+| [mysqli::change\_user()](mysqli.change-user.md) |
+| [mysqli::character\_set\_name()](mysqli.character-set-name.md) |
 | [mysqli::close()](mysqli.close.md) |
 | [mysqli::commit()](mysqli.commit.md) |
-| [mysqli::construct()](mysqli.construct.md) |
+| [mysqli::\_\_construct()](mysqli.construct.md) |
 | [mysqli::debug()](mysqli.debug.md) |
-| [mysqli::dumpdebuginfo()](mysqli.dump-debug-info.md) |
-| [mysqli::getcharset()](mysqli.get-charset.md) |
-| [mysqli::getconnectionstats()](mysqli.get-connection-stats.md) |
-| [mysqli::getclientinfo()](mysqli.get-client-info.md) |
+| [mysqli::dump\_debug\_info()](mysqli.dump-debug-info.md) |
+| [mysqli::get\_charset()](mysqli.get-charset.md) |
+| [mysqli::get\_connection\_stats()](mysqli.get-connection-stats.md) |
+| [mysqli::get\_client\_info()](mysqli.get-client-info.md) |
 | Н/Д |
-| [mysqli::getserverinfo()](mysqli.get-server-info.md) |
-| [mysqli::getwarnings()](mysqli.get-warnings.md) |
+| [mysqli::get\_server\_info()](mysqli.get-server-info.md) |
+| [mysqli::get\_warnings()](mysqli.get-warnings.md) |
 | [mysqli::init()](mysqli.init.md) |
 | [mysqli::kill()](mysqli.kill.md) |
-| [mysqli::moreresults()](mysqli.more-results.md) |
-| [mysqli::multiquery()](mysqli.multi-query.md) |
-| [mysqli::nextresult()](mysqli.next-result.md) |
+| [mysqli::more\_results()](mysqli.more-results.md) |
+| [mysqli::multi\_query()](mysqli.multi-query.md) |
+| [mysqli::next\_result()](mysqli.next-result.md) |
 | [mysqli::options()](mysqli.options.md) |
 | [mysqli::ping()](mysqli.ping.md) |
 | [mysqli::prepare()](mysqli.prepare.md) |
 | [mysqli::query()](mysqli.query.md) |
-| [mysqli::realconnect()](mysqli.real-connect.md) |
-| [mysqli::realescapestring()](mysqli.real-escape-string.md) [mysqli::escapestring()](function.mysqli-escape-string.md) |
-| [mysqli::realquery()](mysqli.real-query.md) |
+| [mysqli::real\_connect()](mysqli.real-connect.md) |
+| [mysqli::real\_escape\_string()](mysqli.real-escape-string.md) [mysqli::escape\_string()](function.mysqli-escape-string.md) |
+| [mysqli::real\_query()](mysqli.real-query.md) |
 | [mysqli::refresh()](mysqli.refresh.md) |
 | [mysqli::rollback()](mysqli.rollback.md) |
-| [mysqli::selectdb()](mysqli.select-db.md) |
-| [mysqli::setcharset()](mysqli.set-charset.md) |
-| [mysqli::sslset()](mysqli.ssl-set.md) |
+| [mysqli::select\_db()](mysqli.select-db.md) |
+| [mysqli::set\_charset()](mysqli.set-charset.md) |
+| [mysqli::ssl\_set()](mysqli.ssl-set.md) |
 | [mysqli::stat()](mysqli.stat.md) |
-| [mysqli::stmtinit()](mysqli.stmt-init.md) |
-| [mysqli::storeresult()](mysqli.store-result.md) |
-| [mysqli::threadid()](mysqli.thread-id.md) |
-| [mysqli::threadsafe()](mysqli.thread-safe.md) |
-| [mysqli::useresult()](mysqli.use-result.md) |
+| [mysqli::stmt\_init()](mysqli.stmt-init.md) |
+| [mysqli::store\_result()](mysqli.store-result.md) |
+| [mysqli::thread\_id()](mysqli.thread-id.md) |
+| [mysqli::thread\_safe()](mysqli.thread-safe.md) |
+| [mysqli::use\_result()](mysqli.use-result.md) |
 
-**Основна інформація про методи [mysqlistmt](class.mysqli-stmt.md)**
+**Основна інформація про методи [mysqli\_stmt](class.mysqli-stmt.md)**
 
 | MySQL\_STMT |
 | --- |
 | ООП-інтерфейс |
-|  |
-| *Властивості* |
-| [$mysqlistmt::affectedrows](mysqli-stmt.affected-rows.md) |
-| [$mysqlistmt::errno](mysqli-stmt.errno.md) |
-| [$mysqlistmt::error](mysqli-stmt.error.md) |
-| [$mysqlistmt::fieldcount](mysqli-stmt.field-count.md) |
-| [$mysqlistmt::insertід](mysqli-stmt.insert-id.md) |
-| [$mysqlistmt::numrows](mysqli-stmt.num-rows.md) |
-| [$mysqlistmt::paramcount](mysqli-stmt.param-count.md) |
-| [$mysqlistmt::sqlstate](mysqli-stmt.sqlstate.md) |
-| *Методи* |
-| [mysqlistmt::attrget()](mysqli-stmt.attr-get.md) |
-| [mysqlistmt::attrset()](mysqli-stmt.attr-set.md) |
-| [mysqlistmt::bindparam()](mysqli-stmt.bind-param.md) |
-| [mysqlistmt::bindresult()](mysqli-stmt.bind-result.md) |
-| [mysqlistmt::close()](mysqli-stmt.close.md) |
-| [mysqlistmt::dataseek()](mysqli-stmt.data-seek.md) |
-| [mysqlistmt::execute()](mysqli-stmt.execute.md) |
-| [mysqlistmt::fetch()](mysqli-stmt.fetch.md) |
-| [mysqlistmt::freeresult()](mysqli-stmt.free-result.md) |
-| [mysqlistmt::getresult()](mysqli-stmt.get-result.md) |
-| [mysqlistmt::getwarnings()](mysqli-stmt.get-warnings.md) |
-| [mysqlistmt::moreresults()](mysqli-stmt.more-results.md) |
-| [mysqlistmt::nextresult()](mysqli-stmt.next-result.md) |
-| [mysqlistmt::numrows()](mysqli-stmt.num-rows.md) |
-| [mysqlistmt::prepare()](mysqli-stmt.prepare.md) |
-| [mysqlistmt::reset()](mysqli-stmt.reset.md) |
-| [mysqlistmt::resultmetadata()](mysqli-stmt.result-metadata.md) |
-| [mysqlistmt::sendlongdata()](mysqli-stmt.send-long-data.md) |
-| [mysqlistmt::storeresult()](mysqli-stmt.store-result.md) |
+| \--- |
+| **Властивості** |
+| [$mysqli\_stmt::affected\_rows](mysqli-stmt.affected-rows.md) |
+| [$mysqli\_stmt::errno](mysqli-stmt.errno.md) |
+| [$mysqli\_stmt::error](mysqli-stmt.error.md) |
+| [$mysqli\_stmt::field\_count](mysqli-stmt.field-count.md) |
+| [$mysqli\_stmt::insert\_id](mysqli-stmt.insert-id.md) |
+| [$mysqli\_stmt::num\_rows](mysqli-stmt.num-rows.md) |
+| [$mysqli\_stmt::param\_count](mysqli-stmt.param-count.md) |
+| [$mysqli\_stmt::sqlstate](mysqli-stmt.sqlstate.md) |
+| **Методи** |
+| [mysqli\_stmt::attr\_get()](mysqli-stmt.attr-get.md) |
+| [mysqli\_stmt::attr\_set()](mysqli-stmt.attr-set.md) |
+| [mysqli\_stmt::bind\_param()](mysqli-stmt.bind-param.md) |
+| [mysqli\_stmt::bind\_result()](mysqli-stmt.bind-result.md) |
+| [mysqli\_stmt::close()](mysqli-stmt.close.md) |
+| [mysqli\_stmt::data\_seek()](mysqli-stmt.data-seek.md) |
+| [mysqli\_stmt::execute()](mysqli-stmt.execute.md) |
+| [mysqli\_stmt::fetch()](mysqli-stmt.fetch.md) |
+| [mysqli\_stmt::free\_result()](mysqli-stmt.free-result.md) |
+| [mysqli\_stmt::get\_result()](mysqli-stmt.get-result.md) |
+| [mysqli\_stmt::get\_warnings()](mysqli-stmt.get-warnings.md) |
+| [mysqli\_stmt::more\_results()](mysqli-stmt.more-results.md) |
+| [mysqli\_stmt::next\_result()](mysqli-stmt.next-result.md) |
+| [mysqli\_stmt::num\_rows()](mysqli-stmt.num-rows.md) |
+| [mysqli\_stmt::prepare()](mysqli-stmt.prepare.md) |
+| [mysqli\_stmt::reset()](mysqli-stmt.reset.md) |
+| [mysqli\_stmt::result\_metadata()](mysqli-stmt.result-metadata.md) |
+| [mysqli\_stmt::send\_long\_data()](mysqli-stmt.send-long-data.md) |
+| [mysqli\_stmt::store\_result()](mysqli-stmt.store-result.md) |
 
-**Основна інформація про методи [mysqliresult](class.mysqli-result.md)**
+**Основна інформація про методи [mysqli\_result](class.mysqli-result.md)**
 
 | mysqli\_result |
 | --- |
 | ООП-інтерфейс |
-|  |
-| *Властивості* |
-| [$mysqliresult::currentfield](mysqli-result.current-field.md) |
-| [$mysqliresult::fieldcount](mysqli-result.field-count.md) |
-| [$mysqliresult::lengths](mysqli-result.lengths.md) |
-| [$mysqliresult::numrows](mysqli-result.num-rows.md) |
-| *Методи* |
-| [mysqliresult::dataseek()](mysqli-result.data-seek.md) |
-| [mysqliresult::fetchall()](mysqli-result.fetch-all.md) |
-| [mysqliresult::fetcharray()](mysqli-result.fetch-array.md) |
-| [mysqliresult::fetchassoc()](mysqli-result.fetch-assoc.md) |
-| [mysqliresult::fetchcolumn()](mysqli-result.fetch-column.md) |
-| [mysqliresult::fetchfielddirect()](mysqli-result.fetch-field-direct.md) |
-| [mysqliresult::fetchfield()](mysqli-result.fetch-field.md) |
-| [mysqliresult::fetchfields()](mysqli-result.fetch-fields.md) |
-| [mysqliresult::fetchobject()](mysqli-result.fetch-object.md) |
-| [mysqliresult::fetchrow()](mysqli-result.fetch-row.md) |
-| [mysqliresult::fieldseek()](mysqli-result.field-seek.md) |
-| [mysqliresult::free()](mysqli-result.free.md) [mysqliresult::close](mysqli-result.free.md) [mysqliresult::freeresult](mysqli-result.free.md) |
+| \--- |
+| **Властивості** |
+| [$mysqli\_result::current\_field](mysqli-result.current-field.md) |
+| [$mysqli\_result::field\_count](mysqli-result.field-count.md) |
+| [$mysqli\_result::lengths](mysqli-result.lengths.md) |
+| [$mysqli\_result::num\_rows](mysqli-result.num-rows.md) |
+| **Методи** |
+| [mysqli\_result::data\_seek()](mysqli-result.data-seek.md) |
+| [mysqli\_result::fetch\_all()](mysqli-result.fetch-all.md) |
+| [mysqli\_result::fetch\_array()](mysqli-result.fetch-array.md) |
+| [mysqli\_result::fetch\_assoc()](mysqli-result.fetch-assoc.md) |
+| [mysqli\_result::fetch\_column()](mysqli-result.fetch-column.md) |
+| [mysqli\_result::fetch\_field\_direct()](mysqli-result.fetch-field-direct.md) |
+| [mysqli\_result::fetch\_field()](mysqli-result.fetch-field.md) |
+| [mysqli\_result::fetch\_fields()](mysqli-result.fetch-fields.md) |
+| [mysqli\_result::fetch\_object()](mysqli-result.fetch-object.md) |
+| [mysqli\_result::fetch\_row()](mysqli-result.fetch-row.md) |
+| [mysqli\_result::field\_seek()](mysqli-result.field-seek.md) |
+| [mysqli\_result::free()](mysqli-result.free.md) [mysqli\_result::close](mysqli-result.free.md) [mysqli\_result::free\_result](mysqli-result.free.md) |
 
-**Основна інформація про методи [mysqlidriver](class.mysqli-driver.md)**
+**Основна інформація про методи [mysqli\_driver](class.mysqli-driver.md)**
 
 | MySQL\_Driver |
 | --- |
 | ООП-інтерфейс |
-|  |
-| *Властивості* |
-| [$mysqlidriver::mysqlireport](mysqli-driver.report-mode.md) |
-| *Методи* |
-| [mysqlidriver::embeddedserverend()](mysqli-driver.embedded-server-end.md) |
-| [mysqlidriver::embeddedserverstart()](mysqli-driver.embedded-server-start.md) |
+| \--- |
+| **Властивості** |
+| [$mysqli\_driver::mysqli\_report](mysqli-driver.report-mode.md) |
+| **Методи** |
+| [mysqli\_driver::embedded\_server\_end()](mysqli-driver.embedded-server-end.md) |
+| [mysqli\_driver::embedded\_server\_start()](mysqli-driver.embedded-server-start.md) |
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Псевдоніми функцій призначені лише забезпечення зворотної сумісності. Не використовуйте їх у нових проектах.

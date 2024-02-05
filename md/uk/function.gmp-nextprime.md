@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-neg.md: « gmpneg
-  - function.gmp-or.md: gmpor »
+  - function.gmp-neg.md: « gmp\_neg
+  - function.gmp-or.md: gmp\_or »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpnextprime
+title: gmp\_nextprime
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpnextprime
+# gmp\_nextprime
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-gmpnextprime — Пошук наступного простого числа
+gmp\_nextprime — Пошук наступного простого числа
 
 ### Опис
 
@@ -32,7 +33,7 @@ gmp_nextprime(GMP|int|string $num): GMP
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpnextprime()****
+**Пример #1 Пример использования**gmp\_nextprime()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ echo gmp_strval($prime2) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 11
@@ -53,6 +54,6 @@ echo gmp_strval($prime2) . "\n";
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція використовує ймовірнісний алгоритм визначення простих чисел і шанси отримати складове число надзвичайно малі.

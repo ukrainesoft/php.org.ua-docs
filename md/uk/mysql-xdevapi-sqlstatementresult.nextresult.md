@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-sqlstatementresult.hasdata.md: '« SqlStatementResult::hasData'
-  - class.mysql-xdevapi-statement.md: mysqlxdevapiStatement »
+  - class.mysql-xdevapi-statement.md: mysql\_xdevapi\\Statement »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: mysql\_xdevapi\\SqlStatementResult
 title: 'SqlStatementResult::nextResult'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SqlStatementResult::nextResult
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\SqlStatementResult::nextResult(): mysql_xdevapi\Result
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\SqlStatementResult::nextResult(): mysql_xdevapi\Result
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSqlStatementResult::nextResult()****
+**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatementResult::nextResult()\*\*\*\*
 
 ```php
 <?php

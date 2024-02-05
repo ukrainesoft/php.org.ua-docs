@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-copy-to.md: « pgcopyто
-  - function.pg-delete.md: пгdelete »
+  - function.pg-copy-to.md: « pg\_copy\_to
+  - function.pg-delete.md: pg\_delete »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгdbname
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_dbname
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгdbname
+# pg\_dbname
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-пгdbname — Визначає ім'я бази даних
+pg\_dbname — Визначає ім'я бази даних
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: пгdbname
 pg_dbname(?PgSql\Connection $connection = null): string
 ```
 
-**пгdbname()** повертає ім'я бази даних, що відповідає екземпляру PostgreSQL `connection`
+**pg\_dbname()** повертає ім'я бази даних, що відповідає екземпляру PostgreSQL `connection`
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection`указан как\*\*`null`\*\*, вибирається стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -36,14 +37,14 @@ pg_dbname(?PgSql\Connection $connection = null): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `connection` тепер допускає значення null. |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгdbname()****
+**Пример #1 Пример использования**pg\_dbname()\*\*\*\*
 
 ```php
 <?php

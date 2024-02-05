@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-session.listclients.md: '« Session::listClients'
   - mysql-xdevapi-session.releasesavepoint.md: 'Session::releaseSavepoint »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::quoteName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::quoteName
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\Session::quoteName(string $name): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::quoteName()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::quoteName()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($session->quoteName($second));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(12) "MySQL's test"

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-floor.md: « traderfloor
-  - function.trader-get-unstable-period.md: tradergetunstableperiod »
+  - function.trader-floor.md: « trader\_floor
+  - function.trader-get-unstable-period.md: trader\_get\_unstable\_period »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradergetcompat
+  - ref.trader.md: Функції Trader
+title: trader\_get\_compat
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradergetcompat
+# trader\_get\_compat
 
 (PECL trader >= 0.2.2)
 
-tradergetcompat — Отримує режим сумісності
+trader\_get\_compat — Отримує режим сумісності
 
 ### Опис
 
@@ -26,4 +27,4 @@ trader_get_compat(): int
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор режиму сумісності, який можна визначити за константами [TRADERCOMPATIBILITY](trader.constants.md)
+Повертає ідентифікатор режиму сумісності, який можна визначити за константами [TRADER\_COMPATIBILITY\_\*](trader.constants.md)

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-beta.md: « traderbeta
-  - function.trader-cci.md: tradercci »
+  - function.trader-beta.md: « trader\_beta
+  - function.trader-cci.md: trader\_cci »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderbop
+  - ref.trader.md: Функції Trader
+title: trader\_bop
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderbop
+# trader\_bop
 
 (PECL trader >= 0.2.0)
 
-traderbop - Баланс сил
+trader\_bop - Баланс сил
 
 ### Опис
 
 ```methodsynopsis
-trader_bop(    array $open,    array $high,    array $low,    array $close): array
+trader_bop(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

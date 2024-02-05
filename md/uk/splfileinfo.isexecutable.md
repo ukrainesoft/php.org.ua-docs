@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::isExecutable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::isExecutable
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::isExecutable — Вказує, чи файл виконується.
 
@@ -30,7 +31,7 @@ public SplFileInfo::isExecutable(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::isExecutable()****
+**Пример #1 Пример использования**SplFileInfo::isExecutable()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ var_dump($info->isExecutable());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)

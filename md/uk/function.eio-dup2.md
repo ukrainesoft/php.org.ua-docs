@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.eio-custom.md: « eiocustom
-  - function.eio-event-loop.md: eioeventloop »
+  - function.eio-custom.md: « eio\_custom
+  - function.eio-event-loop.md: eio\_event\_loop »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiodup2
+  - ref.eio.md: Eio Функції
+title: eio\_dup2
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiodup2
+# eio\_dup2
 
 (PECL eio >= 0.0.1dev)
 
-eiodup2 — Створює дублікат дескриптора файлу
+eio\_dup2 — Створює дублікат дескриптора файлу
 
 ### Опис
 
 ```methodsynopsis
-eio_dup2(    mixed $fd,    mixed $fd2,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_dup2(    mixed $fd,    mixed $fd2,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
-**eiodup2()** Створює дублікат дескриптора файлу.
+**eio\_dup2()** Створює дублікат дескриптора файлу.
 
 ### Список параметрів
 
@@ -28,15 +29,15 @@ eio_dup2(    mixed $fd,    mixed $fd2,    int $pri = EIO_PRI_DEFAULT,    callabl
 
 `fd2`
 
-Цільовий потік, покажчик на сокет (Socket resource) або нумерований дескриптор файлу
+Цільовий потік, покажчик на сокет (Socket resource), або нумерований дескриптор файлу
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -52,12 +53,12 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
-Довільна змінна, що передається в `callback`функцію.
+Произвольная переменная, передаваемая в`callback`\-функцію.
 
 ### Значення, що повертаються
 
-**eiodup2()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_dup2()** повертає покажчик на запит у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

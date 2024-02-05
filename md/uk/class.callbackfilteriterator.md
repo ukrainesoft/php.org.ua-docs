@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас CallbackFilterIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас CallbackFilterIterator
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -16,18 +17,13 @@ title: Клас CallbackFilterIterator
 
 ```classsynopsis
 
-     
+    
+     class CallbackFilterIterator
     
 
     
-     
-      class CallbackFilterIterator
-     
-
-     
-      extends
-       FilterIterator
-     
+     extends
+      FilterIterator
      {
 
     /* Методы */
@@ -40,7 +36,6 @@ title: Клас CallbackFilterIterator
     /* Наследуемые методы */
     public FilterIterator::accept(): bool
 public FilterIterator::current(): mixed
-public FilterIterator::getInnerIterator(): Iterator
 public FilterIterator::key(): mixed
 public FilterIterator::next(): void
 public FilterIterator::rewind(): void
@@ -105,5 +100,5 @@ $files = new CallbackFilterIterator($dir, function ($current, $key, $iterator) {
 
 ## Зміст
 
--   [CallbackFilterIterator::accept](callbackfilteriterator.accept.md) — Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик
--   [CallbackFilterIterator::construct](callbackfilteriterator.construct.md) — Створює ітератор, що фільтрує, на основі іншого ітератора.
+-   [CallbackFilterIterator::accept](callbackfilteriterator.accept.md)— Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик
+-   [CallbackFilterIterator::\_\_construct](callbackfilteriterator.construct.md)— Створює ітератор, що фільтрує, на основі іншого ітератора.

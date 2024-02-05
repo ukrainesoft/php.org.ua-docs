@@ -1,14 +1,15 @@
 ---
 navigation:
-  - reflectionfiber.construct.md: '« ReflectionFiber::construct'
+  - reflectionfiber.construct.md: '« ReflectionFiber::\_\_construct'
   - reflectionfiber.getexecutingfile.md: 'ReflectionFiber::getExecutingFile »'
   - index.md: PHP Manual
   - class.reflectionfiber.md: ReflectionFiber
 title: 'ReflectionFiber::getCallable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFiber::getCallable
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionFiber::getCallable — Отримує об'єкт, що викликається, що використовується для створення файбера
 

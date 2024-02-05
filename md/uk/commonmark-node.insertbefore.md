@@ -1,16 +1,17 @@
 ---
 navigation:
-  - commonmark-node.insertafter.md: '« CommonMarkNode::insertAfter'
-  - commonmark-node.replace.md: 'CommonMarkNode::replace »'
+  - commonmark-node.insertafter.md: '« CommonMark\\Node::insertAfter'
+  - commonmark-node.replace.md: 'CommonMark\\Node::replace »'
   - index.md: PHP Manual
-  - class.commonmark-node.md: CommonMarkNode
-title: 'CommonMarkNode::insertBefore'
+  - class.commonmark-node.md: CommonMark\\Node
+title: 'CommonMark\\Node::insertBefore'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkNode::insertBefore
+# CommonMark\\Node::insertBefore
 
 (cmark >= 1.0.0)
 
-CommonMarkNode::insertBefore — Маніпуляції з AST (Абстрактне синтаксичне дерево)
+CommonMark\\Node::insertBefore — Маніпуляції з AST (Абстрактне синтаксичне дерево)
 
 ### Опис
 
@@ -20,7 +21,7 @@ public CommonMark\Node::insertBefore(CommonMark\Node $sibling): CommonMark\Node
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

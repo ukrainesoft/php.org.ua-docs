@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setResourceLimit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setResourceLimit
 
@@ -24,11 +25,11 @@ public static Imagick::setResourceLimit(int $type, int $limit): bool
 
 `type`
 
-Зверніться до списку [констант RESOURCETYPE](imagick.constants.md#imagick.constants.resourcetypes)
+Обратитесь к списку[констант RESOURCETYPE](imagick.constants.md#imagick.constants.resourcetypes)
 
 `limit`
 
-Одна з [констант RESOURCETYPE](imagick.constants.md#imagick.constants.resourcetypes). Одиниця виміру залежить від типу ресурсу, що обмежується.
+Одна из[констант RESOURCETYPE](imagick.constants.md#imagick.constants.resourcetypes)Единица измерения зависит от типа ограничиваемого ресурса.
 
 ### Значення, що повертаються
 
@@ -36,4 +37,4 @@ public static Imagick::setResourceLimit(int $type, int $limit): bool
 
 ### Дивіться також
 
--   [Imagick::getResourceLimit()](imagick.getresourcelimit.md) - Повертає заданий ліміт ресурсів
+-   [Imagick::getResourceLimit()](imagick.getresourcelimit.md) \- Повертає заданий ліміт ресурсів

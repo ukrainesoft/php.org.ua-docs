@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine-http-client.setmethod.md: '« SwooleCoroutineHttpClient::setMethod'
-  - swoole-coroutine-mysql.connect.md: 'SwooleCoroutineMySQL::connect »'
+  - swoole-coroutine-http-client.setmethod.md: '« Swoole\\Coroutine\\Http\\Client::setMethod'
+  - swoole-coroutine-mysql.connect.md: 'Swoole\\Coroutine\\MySQL::connect »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutineMySQL::close'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine\\MySQL::close'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutineMySQL::close
+# Swoole\\Coroutine\\MySQL::close
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutineMySQL::close — Опис
+Swoole\\Coroutine\\MySQL::close — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Coroutine\MySQL::close(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

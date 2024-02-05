@@ -1,10 +1,11 @@
 ---
 navigation:
-  - domattr.construct.md: '« DOMAttr::construct'
+  - domattr.construct.md: '« DOMAttr::\_\_construct'
   - class.domcdatasection.md: DOMCdataSection »
   - index.md: PHP Manual
   - class.domattr.md: DOMAttr
 title: 'DOMAttr::isId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMAttr::isId
 
@@ -20,7 +21,7 @@ public DOMAttr::isId(): bool
 
 Ця функція перевіряє, чи є певним ідентифікатором.
 
-Відповідно до стандарту DOM для цього потрібний DTD, який визначає ідентифікатор атрибута бути ідентифікатором типу. Перед використанням цієї функції необхідно перевіряти документ на дійсність за допомогою [DOMDocument::validate](domdocument.validate.md) або `DOMDocument::validateOnParse`
+Відповідно до стандарту DOM для цього потрібний DTD, який визначає ідентифікатор атрибута бути ідентифікатором типу. Перед використанням цієї функції необхідно перевіряти документ на дійсність за допомогою [DOMDocument::validate](domdocument.validate.md)или`DOMDocument::validateOnParse`
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public DOMAttr::isId(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

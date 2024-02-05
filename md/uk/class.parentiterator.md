@@ -5,31 +5,27 @@ navigation:
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас ParentIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ParentIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Це розширений клас від [FilterIterator](class.filteriterator.md), що дозволяє здійснити рекурсивну ітерацію, використовуючи клас [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)що показує тільки ті елементи, які мають нащадків.
+Це розширений клас від [FilterIterator](class.filteriterator.md), позволяющий осуществить рекурсивную итерацию, используя класс[RecursiveIteratorIterator](class.recursiveiteratoriterator.md)що показує тільки ті елементи, які мають нащадків.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class ParentIterator
     
 
     
-     
-      class ParentIterator
-     
-
-     
-      extends
-       RecursiveFilterIterator
-     
+     extends
+      RecursiveFilterIterator
      {
 
     /* Методы */
@@ -49,7 +45,6 @@ public RecursiveFilterIterator::hasChildren(): bool
 
     public FilterIterator::accept(): bool
 public FilterIterator::current(): mixed
-public FilterIterator::getInnerIterator(): Iterator
 public FilterIterator::key(): mixed
 public FilterIterator::next(): void
 public FilterIterator::rewind(): void
@@ -67,9 +62,9 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [ParentIterator::accept](parentiterator.accept.md) — Визначення доступності
--   [ParentIterator::construct](parentiterator.construct.md) - Конструктор класу ParentIterator
--   [ParentIterator::getChildren](parentiterator.getchildren.md) — Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator
--   [ParentIterator::hasChildren](parentiterator.haschildren.md) — Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
--   [ParentIterator::next](parentiterator.next.md) — Переміщує вказівник на одну позицію вперед
--   [ParentIterator::rewind](parentiterator.rewind.md) - Перекладає ітератор на початок
+-   [ParentIterator::accept](parentiterator.accept.md)— Визначення доступності
+-   [ParentIterator::\_\_construct](parentiterator.construct.md) \- Конструктор класу ParentIterator
+-   [ParentIterator::getChildren](parentiterator.getchildren.md)— Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator
+-   [ParentIterator::hasChildren](parentiterator.haschildren.md)— Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
+-   [ParentIterator::next](parentiterator.next.md)— Переміщує вказівник на одну позицію вперед
+-   [ParentIterator::rewind](parentiterator.rewind.md) \- Перекладає ітератор на початок

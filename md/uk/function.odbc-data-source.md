@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-cursor.md: « odbccursor
-  - function.odbc-do.md: odbcdo »
+  - function.odbc-cursor.md: « odbc\_cursor
+  - function.odbc-do.md: odbc\_do »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcdatasource
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_data\_source
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcdatasource
+# odbc\_data\_source
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-odbcdatasource — Повертає інформацію про доступні DSN
+odbc\_data\_source — Повертає інформацію про доступні DSN
 
 ### Опис
 
@@ -24,11 +25,11 @@ odbc_data_source(resource $odbc, int $fetch_type): array|false
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `fetch_type`
 
-`fetch_type` може бути одним з двох типів констант: **`SQL_FETCH_FIRST`** **`SQL_FETCH_NEXT`**. Використовуйте **`SQL_FETCH_FIRST`** при першому дзвінку цієї функції, після цього використовуйте **`SQL_FETCH_NEXT`**
+`fetch_type` може бути одним з двох типів констант: **`SQL_FETCH_FIRST`** **`SQL_FETCH_NEXT`**Используйте**`SQL_FETCH_FIRST`** при першому дзвінку цієї функції, після цього використовуйте **`SQL_FETCH_NEXT`**
 
 ### Значення, що повертаються
 
@@ -49,7 +50,7 @@ while ($dsn_info) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

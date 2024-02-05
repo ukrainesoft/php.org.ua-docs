@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - spl.interfaces.md: Інтерфейси
 title: Інтерфейс RecursiveIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс RecursiveIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,16 +19,11 @@ title: Інтерфейс RecursiveIterator
 
 ```classsynopsis
 
-     
     
+     interface RecursiveIterator
 
-    
-     
-      interface RecursiveIterator
-      extends
-       Iterator
-     
-     {
+    extends
+      Iterator {
 
     /* Методы */
     
@@ -47,5 +43,5 @@ public Iterator::valid(): bool
 
 ## Зміст
 
--   [RecursiveIterator::getChildren](recursiveiterator.getchildren.md) — Повертає ітератор до поточного елемента
--   [RecursiveIterator::hasChildren](recursiveiterator.haschildren.md) — Визначає, чи можна створити ітератор для поточного елемента.
+-   [RecursiveIterator::getChildren](recursiveiterator.getchildren.md)— Повертає ітератор до поточного елемента
+-   [RecursiveIterator::hasChildren](recursiveiterator.haschildren.md)— Визначає, чи можна створити ітератор для поточного елемента.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-cascade-candidate-stagnation-epochs.md: « fannsetcascadecandidatestagnationepochs
-  - function.fann-set-cascade-max-out-epochs.md: fannsetcascademaxoutepochs »
+  - function.fann-set-cascade-candidate-stagnation-epochs.md: « fann\_set\_cascade\_candidate\_stagnation\_epochs
+  - function.fann-set-cascade-max-out-epochs.md: fann\_set\_cascade\_max\_out\_epochs »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetcascademaxcandepochs
+  - ref.fann.md: Функції Fann
+title: fann\_set\_cascade\_max\_cand\_epochs
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetcascademaxcandepochs
+# fann\_set\_cascade\_max\_cand\_epochs
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetcascademaxcandepochs - Встановлює найбільший період кандидата
+fann\_set\_cascade\_max\_cand\_epochs - Встановлює найбільший період кандидата
 
 ### Опис
 
@@ -36,4 +37,4 @@ fann_set_cascade_max_cand_epochs(resource $ann, int $cascade_max_cand_epochs): b
 
 ### Дивіться також
 
--   [fanngetcascademaxcandepochs()](function.fann-get-cascade-max-cand-epochs.md) - Отримує найбільший період кандидата
+-   [fann\_get\_cascade\_max\_cand\_epochs()](function.fann-get-cascade-max-cand-epochs.md) \- Отримує найбільший період кандидата

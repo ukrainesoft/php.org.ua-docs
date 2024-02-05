@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-simple.toarray.md: '« YafConfigSimple::toArray'
-  - class.yaf-controller-abstract.md: YafControllerAbstract »
+  - yaf-config-simple.toarray.md: '« Yaf\_Config\_Simple::toArray'
+  - class.yaf-controller-abstract.md: Yaf\_Controller\_Abstract »
   - index.md: PHP Manual
-  - class.yaf-config-simple.md: YafConfigSimple
-title: 'YafConfigSimple::valid'
+  - class.yaf-config-simple.md: Yaf\_Config\_Simple
+title: 'Yaf\_Config\_Simple::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigSimple::valid
+# Yaf\_Config\_Simple::valid
 
 (Yaf >=1.0.0)
 
-YafConfigSimple::valid — Призначення valid
+Yaf\_Config\_Simple::valid — Призначення valid
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Simple::valid(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.getlasterror.md: '« SwooleServer::getLastError'
-  - swoole-server.listen.md: 'SwooleServer::listen »'
+  - swoole-server.getlasterror.md: '« Swoole\\Server::getLastError'
+  - swoole-server.listen.md: 'Swoole\\Server::listen »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::heartbeat'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::heartbeat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::heartbeat
+# Swoole\\Server::heartbeat
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::heartbeat — Перевіряє всі з'єднання на сервері
+Swoole\\Server::heartbeat — Перевіряє всі з'єднання на сервері
 
 ### Опис
 

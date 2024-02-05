@@ -1,53 +1,54 @@
 ---
 navigation:
   - apcuiterator.valid.md: '« APCUIterator::valid'
-  - intro.componere.md: Введение »
+  - intro.componere.md: Вступ "
   - index.md: PHP Manual
-  - refs.basic.php.md: Изменение поведения PHP
+  - refs.basic.php.md: Зміна поведінки PHP
 title: Componere
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Componere
 
--   [Введение](intro.componere.md)
+-   [Вступ](intro.componere.md)
 -   [Встановлення та налаштування](componere.setup.md)
     -   [Вимоги](componere.requirements.md)
     -   [Установка](componere.installation.md)
--   [ComponereAbstractDefinition](class.componere-abstract-definition.md) - Клас ComponereAbstractDefinition
-    -   [ComponereAbstractDefinition::addInterface](componere-abstract-definition.addinterface.md) — Додає інтерфейс
-    -   [ComponereAbstractDefinition::addMethod](componere-abstract-definition.addmethod.md) — Додає метод
-    -   [ComponereAbstractDefinition::addTrait](componere-abstract-definition.addtrait.md) - Додає трейт
-    -   [ComponereAbstractDefinition::getReflector](componere-abstract-definition.getreflector.md) - Reflection
--   [ComponereDefinition](class.componere-definition.md) - Клас ComponereDefinition
-    -   [ComponereDefinition::construct](componere-definition.construct.md) - Визначення конструктора
-    -   [ComponereDefinition::addConstant](componere-definition.addconstant.md) — додає константу
-    -   [ComponereDefinition::addProperty](componere-definition.addproperty.md) - Додає властивість
-    -   [ComponereDefinition::register](componere-definition.register.md) - Реєстрація
-    -   [ComponereDefinition::isRegistered](componere-definition.isregistered.md) — Визначення стану
-    -   [ComponereDefinition::getClosure](componere-definition.getclosure.md) — Отримує замикання
-    -   [ComponereDefinition::getClosures](componere-definition.getclosures.md) — Отримує замикання
--   [ComponerePatch](class.componere-patch.md) - Клас ComponerePatch
-    -   [ComponerePatch::construct](componere-patch.construct.md) - Конструктор класу Patch
-    -   [ComponerePatch::apply](componere-patch.apply.md) - Додаток
-    -   [ComponerePatch::revert](componere-patch.revert.md) - Скасування
-    -   [ComponerePatch::isApplied](componere-patch.isapplied.md) — Визначення стану
-    -   [ComponerePatch::derive](componere-patch.derive.md) - Отримання патчу
-    -   [ComponerePatch::getClosure](componere-patch.getclosure.md) — Отримує замикання
-    -   [ComponerePatch::getClosures](componere-patch.getclosures.md) — Отримує замикання
--   [ComponereMethod](class.componere-method.md) - Клас ComponereMethod
-    -   [ComponereMethod::construct](componere-method.construct.md) - Конструктор класу Method
-    -   [ComponereMethod::setPrivate](componere-method.setprivate.md) — Зміна доступності
-    -   [ComponereMethod::setProtected](componere-method.setprotected.md) — Зміна доступності
-    -   [ComponereMethod::setStatic](componere-method.setstatic.md) — Зміна доступності
-    -   [ComponereMethod::getReflector](componere-method.getreflector.md) - Reflection
--   [ComponereValue](class.componere-value.md) - Клас ComponereValue
-    -   [ComponereValue::construct](componere-value.construct.md) - Конструктор класу Value
-    -   [ComponereValue::setPrivate](componere-value.setprivate.md) — Зміна доступності
-    -   [ComponereValue::setProtected](componere-value.setprotected.md) — Зміна доступності
-    -   [ComponereValue::setStatic](componere-value.setstatic.md) — Зміна доступності
-    -   [ComponereValue::isPrivate](componere-value.isprivate.md) — Визначення доступності
-    -   [ComponereValue::isProtected](componere-value.isprotected.md) — Визначення доступності
-    -   [ComponereValue::isStatic](componere-value.isstatic.md) — Визначення доступності
-    -   [ComponereValue::hasDefault](componere-value.hasdefault.md) - Взаємодія з класом Value
--   [Функции Componere](reference.componere.md)
-    -   [Componerecast](componere.cast.md) - Приведення до типу
-    -   [Componerecastбref](componere.cast_by_ref.md) - Приведення до типу
+-   [Componere\\Abstract\\Definition](class.componere-abstract-definition.md) \- Клас Componere\\Abstract\\Definition
+    -   [Componere\\Abstract\\Definition::addInterface](componere-abstract-definition.addinterface.md)— Додає інтерфейс
+    -   [Componere\\Abstract\\Definition::addMethod](componere-abstract-definition.addmethod.md)— Додає метод
+    -   [Componere\\Abstract\\Definition::addTrait](componere-abstract-definition.addtrait.md) \- Додає трейт
+    -   [Componere\\Abstract\\Definition::getReflector](componere-abstract-definition.getreflector.md)— Reflection
+-   [Componere\\Definition](class.componere-definition.md) \- Клас Componere\\Definition
+    -   [Componere\\Definition::\_\_construct](componere-definition.construct.md) \- Визначення конструктора
+    -   [Componere\\Definition::addConstant](componere-definition.addconstant.md)— додає константу
+    -   [Componere\\Definition::addProperty](componere-definition.addproperty.md) \- Додає властивість
+    -   [Componere\\Definition::register](componere-definition.register.md) \- Реєстрація
+    -   [Componere\\Definition::isRegistered](componere-definition.isregistered.md)— Визначення стану
+    -   [Componere\\Definition::getClosure](componere-definition.getclosure.md)— Отримує замикання
+    -   [Componere\\Definition::getClosures](componere-definition.getclosures.md)— Отримує замикання
+-   [Componere\\Patch](class.componere-patch.md) \- Клас Componere\\Patch
+    -   [Componere\\Patch::\_\_construct](componere-patch.construct.md) \- Конструктор класу Patch
+    -   [Componere\\Patch::apply](componere-patch.apply.md) \- Додаток
+    -   [Componere\\Patch::revert](componere-patch.revert.md) \- Відміна
+    -   [Componere\\Patch::isApplied](componere-patch.isapplied.md)— Визначення стану
+    -   [Componere\\Patch::derive](componere-patch.derive.md) \- Отримання патчу
+    -   [Componere\\Patch::getClosure](componere-patch.getclosure.md)— Отримує замикання
+    -   [Componere\\Patch::getClosures](componere-patch.getclosures.md)— Отримує замикання
+-   [Componere\\Method](class.componere-method.md) \- Клас Componere\\Method
+    -   [Componere\\Method::\_\_construct](componere-method.construct.md) \- Конструктор класу Method
+    -   [Componere\\Method::setPrivate](componere-method.setprivate.md)— Зміна доступності
+    -   [Componere\\Method::setProtected](componere-method.setprotected.md)— Зміна доступності
+    -   [Componere\\Method::setStatic](componere-method.setstatic.md)— Зміна доступності
+    -   [Componere\\Method::getReflector](componere-method.getreflector.md)— Reflection
+-   [Componere\\Value](class.componere-value.md) \- Клас Componere\\Value
+    -   [Componere\\Value::\_\_construct](componere-value.construct.md) \- Конструктор класу Value
+    -   [Componere\\Value::setPrivate](componere-value.setprivate.md)— Зміна доступності
+    -   [Componere\\Value::setProtected](componere-value.setprotected.md)— Зміна доступності
+    -   [Componere\\Value::setStatic](componere-value.setstatic.md)— Зміна доступності
+    -   [Componere\\Value::isPrivate](componere-value.isprivate.md)— Визначення доступності
+    -   [Componere\\Value::isProtected](componere-value.isprotected.md)— Визначення доступності
+    -   [Componere\\Value::isStatic](componere-value.isstatic.md)— Визначення доступності
+    -   [Componere\\Value::hasDefault](componere-value.hasdefault.md) \- Взаємодія з класом Value
+-   [Функції Componere](reference.componere.md)
+    -   [Componere\\cast](componere.cast.md) \- Приведення до типу
+    -   [Componere\\cast\_by\_ref](componere.cast_by_ref.md) \- Приведення до типу

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-collectionfind.md: « mysqlxdevapiCollectionFind
-  - mysql-xdevapi-collectionfind.construct.md: 'CollectionFind::construct »'
+  - class.mysql-xdevapi-collectionfind.md: « mysql\_xdevapi\\CollectionFind
+  - mysql-xdevapi-collectionfind.construct.md: 'CollectionFind::\_\_construct »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysql\_xdevapi\\CollectionFind
 title: 'CollectionFind::bind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionFind::bind
 
@@ -24,7 +25,7 @@ public mysql_xdevapi\CollectionFind::bind(array $placeholder_values): mysql_xdev
 
 `placeholder_values`
 
-Значення для підстановки за умов пошуку; допускається кілька значень, які передаються у вигляді масиву, де "PLACEHOLDERNAME => PLACEHOLDERVALUE".
+Значення для підстановки за умов пошуку; допускається кілька значень, які передаються у вигляді масиву, де "PLACEHOLDER\_NAME => PLACEHOLDER\_VALUE".
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\CollectionFind::bind(array $placeholder_values): mysql_xdev
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionFind::bind()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionFind::bind()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ var_dump($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {

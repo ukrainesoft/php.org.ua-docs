@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-rootrem.md: « gmprootrem
-  - function.gmp-scan1.md: gmpscan1 »
+  - function.gmp-rootrem.md: « gmp\_rootrem
+  - function.gmp-scan1.md: gmp\_scan1 »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpscan0
+title: gmp\_scan0
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpscan0
+# gmp\_scan0
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpscan0 — Пошук нуля в числі
+gmp\_scan0 — Пошук нуля в числі
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpscan0 — Пошук нуля в числі
 gmp_scan0(GMP|int|string $num1, int $start): int
 ```
 
-Сканує `num1`, починаючи з біта `start`, Доки не знайде біт встановлений в 0.
+Сканує `num1`, начиная с бита`start`, Доки не знайде біт встановлений в 0.
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ gmp_scan0(GMP|int|string $num1, int $start): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpscan0()****
+**Пример #1 Пример использования**gmp\_scan0()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ echo gmp_scan0($s2, 5) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 3

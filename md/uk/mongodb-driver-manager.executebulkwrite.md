@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-manager.createclientencryption.md: '« MongoDBDriverManager::createClientEncryption'
-  - mongodb-driver-manager.executecommand.md: 'MongoDBDriverManager::executeCommand »'
+  - mongodb-driver-manager.createclientencryption.md: '« MongoDB\\Driver\\Manager::createClientEncryption'
+  - mongodb-driver-manager.executecommand.md: 'MongoDB\\Driver\\Manager::executeCommand »'
   - index.md: PHP Manual
-  - class.mongodb-driver-manager.md: MongoDBDriverManager
-title: 'MongoDBDriverManager::executeBulkWrite'
+  - class.mongodb-driver-manager.md: MongoDB\\Driver\\Manager
+title: 'MongoDB\\Driver\\Manager::executeBulkWrite'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverManager::executeBulkWrite
+# MongoDB\\Driver\\Manager::executeBulkWrite
 
 (mongodb >=1.0.0)
 
-MongoDBDriverManager::executeBulkWrite — Виконує одну або кілька операцій запису
+MongoDB\\Driver\\Manager::executeBulkWrite — Виконує одну або кілька операцій запису
 
 ### Опис
 
@@ -20,60 +21,60 @@ final public MongoDB\Driver\Manager::executeBulkWrite(string $namespace, MongoDB
 
 Виконує одну або кілька операцій запису на основному сервері.
 
-Об'єкт класу [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md) може бути створений з однією або декількома операціями запису різного типу (наприклад, оновлення, видалення та вставки). Драйвер спробує надіслати операції одного і того ж типу на сервер з мінімальною кількістю запитів, щоб скоротити звернення до сервера.
+Об'єкт класу [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.md) може бути створений з однією або декількома операціями запису різного типу (наприклад, оновлення, видалення та вставки). Драйвер спробує надіслати операції одного і того ж типу на сервер з мінімальною кількістю запитів, щоб скоротити звернення до сервера.
 
 ### Список параметрів
 
-`namespace` (string)
+`namespace`(string)
 
 Повністю певне ім'я (тобто . `"databaseName.collectionName"`
 
-`bulk` [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)
+`bulk` [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.md)) .
 
 Записи для виконання.
 
-`опции`
+`опції`
 
 **options**
 
-| Опция | Тип | Описание |
+| Опция | Тип | Опис |
 | --- | --- | --- |
-| session | [MongoDBDriverSession](class.mongodb-driver-session.md) |  |
+| session | [MongoDB\\Driver\\Session](class.mongodb-driver-session.md) |  |
 | Сесія зв'язування з операцією. |  |  |
 
-| | writeConcern | [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
+| | writeConcern |[MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.md)
 
 Гарантія запису для застосування до операції.
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md)
+У разі успішного виконання повертає [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.md)
 
 ### Помилки
 
--   За відсутності будь-якої операції запису в `bulk`, викидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   Якщо `bulk` вже був виконаний, викидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md). Об'єкти [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md) не можуть бути виконані кілька разів.
--   Викидається [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо опція `"session"` використовується у поєднанні з непідтвердженою гарантією запису.
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.md)
--   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
--   При помилці запису кидає виняток [MongoDBDriverExceptionBulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md)
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.md)
--   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
--   При виникненні інших помилок викидає виняток [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md)
+-   За відсутності будь-якої операції запису в`bulk`, викидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Якщо `bulk`вже був виконаний, викидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md). Об'єкти[MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.md)не можуть бути виконані кілька разів.
+-   Викидається [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо опція `"session"`вказано у поєднанні з непідтвердженою гарантією запису.
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток[MongoDB\\Driver\\Exception\\ConnectionException](class.mongodb-driver-exception-connectionexception.md)
+-   У разі невдалої аутентифікації кидає виняток[MongoDB\\Driver\\Exception\\AuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
+-   При помилці запису кидає виняток[MongoDB\\Driver\\Exception\\BulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток[MongoDB\\Driver\\Exception\\ConnectionException](class.mongodb-driver-exception-connectionexception.md)
+-   У разі невдалої аутентифікації кидає виняток[MongoDB\\Driver\\Exception\\AuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
+-   При виникненні інших помилок викидає виняток[MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL mongodb 1.4.4 | Якщо опція `"session"` використовується у поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) |
-| PECL mongodb 1.4.0 | Третій параметр `options` тепер масив. Для зворотної сумісності цей параметр ще приймає об'єкт [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md) |
-| PECL mongodb 1.3.0 | Тепер викидається виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `bulk` не містить операцій запису. Раніше викидалося [MongoDBDriverExceptionBulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md) |
+| PECL mongodb 1.4.4 | Якщо опція `"session"` використовується у поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) |
+| PECL mongodb 1.4.0 | Третій параметр `options` тепер масив. Для зворотної сумісності цей параметр ще приймає об'єкт [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.md) |
+| PECL mongodb 1.3.0 | Тепер викидається виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `bulk` не містить операцій запису. Раніше викидалося [MongoDB\\Driver\\Exception\\BulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverManager::executeBulkWrite()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Manager::executeBulkWrite()\*\*\*\*
 
 ```php
 <?php
@@ -118,7 +119,7 @@ foreach ($result->getWriteErrors() as $writeError) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Добавлено 3 документ(ов)
@@ -135,7 +136,7 @@ upsertedId[4]: int(3)
 
 ### Дивіться також
 
--   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md)
--   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
--   [MongoDBDriverServer::executeBulkWrite()](mongodb-driver-server.executebulkwrite.md) - Виконати одну або кілька операцій запису на сервері
+-   [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.md)
+-   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.md)
+-   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.md)
+-   [MongoDB\\Driver\\Server::executeBulkWrite()](mongodb-driver-server.executebulkwrite.md) \- Виконати одну або кілька операцій запису на сервері

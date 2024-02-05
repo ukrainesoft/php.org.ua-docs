@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-definition.addproperty.md: '« ComponereDefinition::addProperty'
-  - componere-definition.isregistered.md: 'ComponereDefinition::isRegistered »'
+  - componere-definition.addproperty.md: '« Componere\\Definition::addProperty'
+  - componere-definition.isregistered.md: 'Componere\\Definition::isRegistered »'
   - index.md: PHP Manual
-  - class.componere-definition.md: ComponereDefinition
-title: 'ComponereDefinition::register'
+  - class.componere-definition.md: Componere\\Definition
+title: 'Componere\\Definition::register'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereDefinition::register
+# Componere\\Definition::register
 
 (Componere 2 >= 2.1.0)
 
-ComponereDefinition::register — Реєстрація
+Componere\\Definition::register — Реєстрація
 
 ### Опис
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phardata.md: PharData
 title: 'PharData::buildFromDirectory'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharData::buildFromDirectory
 
@@ -18,7 +19,7 @@ PharData::buildFromDirectory — Створює tar/zip-архів із файл
 public PharData::buildFromDirectory(string $directory, string $pattern = ""): array
 ```
 
-Наповнює tar/zip-архів вмістом директорії. Другий опціональний параметр є регулярним виразом (pcre). Файли, імена яких підходять під регулярне вираження, будуть включені в архів, а решта немає. Якщо при створенні архіву потрібна більша вибірковість, то використовуйте метод [PharData::buildFromIterator()](phardata.buildfromiterator.md)
+Наповнює tar/zip-архів вмістом директорії. Другий опціональний параметр є регулярним виразом (pcre). Файли, імена яких підходять під регулярне вираження, будуть включені до архіву, а решта немає. Якщо при створенні архіву потрібна більша вибірковість, то використовуйте метод [PharData::buildFromIterator()](phardata.buildfromiterator.md)
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public PharData::buildFromDirectory(string $directory, string $pattern = ""): ar
 
 ### Значення, що повертаються
 
-[Phar::buildFromDirectory()](phar.buildfromdirectory.md) повертає асоціативний масив, що пов'язує шлях до файлу всередині архіву з повним шляхом до файлу на диску або **`false`** у разі виникнення помилки.
+[Phar::buildFromDirectory()](phar.buildfromdirectory.md) повертає асоціативний масив, що пов'язує шлях до файлу всередині архіву з повним шляхом до файлу на диску або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -40,13 +41,13 @@ public PharData::buildFromDirectory(string $directory, string $pattern = ""): ar
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | **PharData::buildFromDirectory()** більше не повертає значення **`false`** |
+| 8.1.0 | **PharData::buildFromDirectory()** більше не повертає значення **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharData::buildFromDirectory()****
+**Пример #1 Пример использования**PharData::buildFromDirectory()\*\*\*\*
 
 ```php
 <?php
@@ -62,5 +63,5 @@ $phar2->buildFromDirectory(dirname(__FILE__) . '/project', '/\.php$/');
 
 ### Дивіться також
 
--   [Phar::buildFromDirectory()](phar.buildfromdirectory.md) - Створює phar-архів із файлів, розташованих усередині директорії
--   [PharData::buildFromIterator()](phardata.buildfromiterator.md) - Створення tar/zip-архіву за допомогою ітератора
+-   [Phar::buildFromDirectory()](phar.buildfromdirectory.md) \- Створює phar-архів із файлів, розташованих усередині директорії
+-   [PharData::buildFromIterator()](phardata.buildfromiterator.md) \- Створення tar/zip-архіву за допомогою ітератора

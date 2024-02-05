@@ -3,8 +3,9 @@ navigation:
   - ev.now.md: '« Ev::now'
   - ev.recommendedbackends.md: 'Ev::recommendedBackends »'
   - index.md: PHP Manual
-  - class.ev.md: Єв
+  - class.ev.md: Ev
 title: 'Ev::nowUpdate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Ev::nowUpdate
 
@@ -35,4 +36,4 @@ final
 
 ### Дивіться також
 
--   [Ev::now()](ev.now.md) - Отримати час запуску останньої ітерації циклу за замовчуванням
+-   [Ev::now()](ev.now.md) \- Отримати час запуску останньої ітерації циклу за замовчуванням

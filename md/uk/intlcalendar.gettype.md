@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getType
 
@@ -36,11 +37,11 @@ intlcal_get_type(IntlCalendar $calendar): string
 
 ### Значення, що повертаються
 
-Рядок (string), що представляє тип календаря, наприклад, `'gregorian'` `'islamic'` і т.д.
+Строка (string), представляющая тип календаря, например,`'gregorian'` `'islamic'`и т.д.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::getType()****
+**Пример #1 Пример использования**IntlCalendar::getType()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ $cal = new IntlGregorianCalendar();
 var_dump($cal->getType());
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(19) "ethiopic-amete-alem"

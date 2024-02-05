@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.reverse.md: '« DsMap::reverse'
-  - ds-map.skip.md: 'ДсMap::skip »'
+  - ds-map.reverse.md: '« Ds\\Map::reverse'
+  - ds-map.skip.md: 'Ds\\Map::skip »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::reversed'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::reversed'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::reversed
+# Ds\\Map::reversed
 
 (PECL ds >= 1.0.0)
 
-ДсMap::reverse — Повертає перегорнуту копію колекції
+Ds\\Map::reversed — Повертає перегорнуту копію колекції
 
 ### Опис
 
@@ -28,13 +29,13 @@ public Ds\Map::reversed(): Ds\Map
 
 Перегорнута копія колекції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Поточна колекція не зміниться.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::reversed()****
+**Пример #1 Пример использования**Ds\\Map::reversed()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($map->reversed());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Map Object

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-create.md: « fdfcreate
-  - function.fdf-errno.md: fdferrno »
+  - function.fdf-create.md: « fdf\_create
+  - function.fdf-errno.md: fdf\_errno »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfenumvalues
+title: fdf\_enum\_values
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfenumvalues
+# fdf\_enum\_values
 
-(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
+(PHP 4 >= 4.3.0, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfenumvalues ​​— Викликає функцію користувача для кожного значення документа
+fdf\_enum\_values ​​— Викликає функцію користувача для кожного значення документа
 
 ### Опис
 
@@ -20,4 +21,4 @@ fdf_enum_values(resource $fdf_document, callable $function, mixed $userdata = ?)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

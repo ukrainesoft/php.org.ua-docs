@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evwatcher.md: EvWatcher
 title: 'EvWatcher::getLoop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvWatcher::getLoop
 
@@ -27,4 +28,4 @@ public
 
 ### Значення, що повертаються
 
-Повертає об'єкт циклу подій [EvLoop](class.evloop.md)відповідає за спостерігача.
+Повертає об'єкт циклу подій [EvLoop](class.evloop.md)відповідальний за спостерігача.

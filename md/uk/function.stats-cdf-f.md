@@ -1,35 +1,36 @@
 ---
 navigation:
-  - function.stats-cdf-exponential.md: « statscdfexponential
-  - function.stats-cdf-gamma.md: statscdfgamma »
+  - function.stats-cdf-exponential.md: « stats\_cdf\_exponential
+  - function.stats-cdf-gamma.md: stats\_cdf\_gamma »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statscdfф
+title: stats\_cdf\_f
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statscdfф
+# stats\_cdf\_f
 
 (PECL stats >= 1.0.0)
 
-statscdff — Обчислює один із параметрів розподілу Фішера за рештою
+stats\_cdf\_f — Обчислює один із параметрів розподілу Фішера за рештою
 
 ### Опис
 
 ```methodsynopsis
-stats_cdf_f(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_f(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
-Повертає кумулятивну функцію розподілу Фішера, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`
+Повертає кумулятивну функцію розподілу Фішера, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2`и`par3`) определяются параметром`which`
 
 У наступній таблиці перераховані значення і параметри, що повертаються, в залежності від `which`. CDF, x, d1 та d2 позначає функцію кумулятивного розподілу, значення випадкової змінної та ступеня свободи відповідно.
 
-**Значення, що повертається і параметри**
+**Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
 | --- | --- | --- | --- | --- |
-|  | CDF | з | д 1 | д 2 |
-|  | з | CDF | д 1 | д 2 |
-|  | д 1 | з | CDF | д 2 |
-|  | д 2 | з | CDF | д 1 |
+|  | CDF | x | d1 | d2 |
+|  | x | CDF | d1 | d2 |
+| 3 | d1 | x | CDF | d2 |
+| 4 | d2 | x | CDF | d1 |
 
 ### Список параметрів
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - reserved.md: Список зарезервованих слів
 title: Обумовлені класи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Обумовлені класи
 
@@ -18,11 +19,11 @@ title: Обумовлені класи
 
 Створюється функцією [dir()](function.dir.md)
 
-**stdClass**
+[stdClass](class.stdclass.md)
 
-Створюється [приведенням типу до об'єкту](language.types.object.md#language.types.object.casting)
+Порожній клас загального призначення, створений у результаті [перетворення на об'єкт](language.types.object.md#language.types.object.casting) або різні стандартні функції.
 
-**PHPIncompleteClass**
+**\_\_PHP\_Incomplete\_Class**
 
 Можливо, створюється функцією [unserialize()](function.unserialize.md)
 
@@ -30,15 +31,15 @@ title: Обумовлені класи
 
 [ErrorException](class.errorexception.md)
 
-[phpuserfilter](class.php-user-filter.md)
+[php\_user\_filter](class.php-user-filter.md)
 
 [Closure](class.closure.md)
 
-Обумовлений остаточний клас [Closure](class.closure.md), використовується для внутрішньої реалізації [анонімних функцій](functions.anonymous.md)
+Обумовлений остаточний клас [Closure](class.closure.md), используется для внутренней реализации[анонімних функцій](functions.anonymous.md)
 
 [Generator](class.generator.md)
 
-Обумовлений остаточний клас [Generator](class.generator.md), використовується для подання [генераторів](language.generators.md)
+Обумовлений остаточний клас [Generator](class.generator.md), используется для представления[генераторів](language.generators.md)
 
 [ArithmeticError](class.arithmeticerror.md)
 
@@ -60,7 +61,7 @@ title: Обумовлені класи
 
 **self**
 
-[Текущий класс](language.oop5.paamayim-nekudotayim.md)
+[Поточний клас](language.oop5.paamayim-nekudotayim.md)
 
 **static**
 

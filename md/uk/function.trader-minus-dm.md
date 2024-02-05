@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-minus-di.md: « traderminusді
-  - function.trader-mom.md: tradermom »
+  - function.trader-minus-di.md: « trader\_minus\_di
+  - function.trader-mom.md: trader\_mom »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderminusдм
+  - ref.trader.md: Функції Trader
+title: trader\_minus\_dm
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderminusдм
+# trader\_minus\_dm
 
 (PECL trader >= 0.2.0)
 
-traderminusdm - Мінус-спрямований рух
+trader\_minus\_dm - Мінус-спрямований рух
 
 ### Опис
 

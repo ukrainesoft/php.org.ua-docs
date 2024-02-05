@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::addSortField'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::addSortField
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::addSortField — Використовується для керування сортуванням результатів
 
@@ -28,7 +29,7 @@ public SolrQuery::addSortField(string $field, int $order = SolrQuery::ORDER_DESC
 
 `order`
 
-Напрямок сортування. Має бути або SolrQuery::ORDERASC, або SolrQuery::ORDERDESC.
+Напрямок сортування. Має бути або SolrQuery::ORDER\_ASC, або SolrQuery::ORDER\_DESC.
 
 ### Значення, що повертаються
 

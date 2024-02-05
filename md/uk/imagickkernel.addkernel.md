@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagickkernel.md: ImagickKernel
 title: 'ImagickKernel::addKernel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickKernel::addKernel
 
 (PECL imagick >= 3.3.0)
 
-ImagickKernel::addKernel — Опис
+ImagickKernel::addKernel — Приєднує інше ядро ​​до цього ядра
 
 ### Опис
 
@@ -28,7 +29,7 @@ public ImagickKernel::addKernel(ImagickKernel $ImagickKernel): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickKernel::addKernel()****
+**Пример #1 Пример использования**ImagickKernel::addKernel()\*\*\*\*
 
 ```php
 <?php

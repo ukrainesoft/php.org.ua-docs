@@ -1,18 +1,19 @@
 ---
 navigation:
-  - tidy.construct.md: '« tidy::construct'
+  - tidy.construct.md: '« tidy::\_\_construct'
   - tidy.props.errorbuffer.md: 'tidy::$errorBuffer »'
   - index.md: PHP Manual
   - class.tidy.md: tidy
 title: 'tidy::diagnose'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidy::diagnose
 
-# tidydiagnose
+# tidy\_diagnose
 
-(PHP 5, PHP 7, PHP 8, PECL tidy> = 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy >= 0.5.2)
 
-tidy::diagnose -- tidydiagnose — Запуск настроєної діагностики для розібраної та відновленої розмітки
+tidy::diagnose -- tidy\_diagnose — Запуск настроєної діагностики для розібраної та відновленої розмітки
 
 ### Опис
 
@@ -38,11 +39,11 @@ tidy_diagnose(tidy $tidy): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidy::diagnose()****
+**Пример #1 Пример использования**tidy::diagnose()\*\*\*\*
 
 ```php
 <?php
@@ -66,7 +67,7 @@ echo $tidy->errorBuffer;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 line 4 column 1 - Warning: <p> isn't allowed in <head> elements

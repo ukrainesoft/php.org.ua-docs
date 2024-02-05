@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-field-is-null.md: « pgfieldісnull
-  - function.pg-field-num.md: пгfieldnum »
+  - function.pg-field-is-null.md: « pg\_field\_is\_null
+  - function.pg-field-num.md: pg\_field\_num »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгfieldname
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_field\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгfieldname
+# pg\_field\_name
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгfieldname — Повертає назву поля
+pg\_field\_name — Повертає назву поля
 
 ### Опис
 
@@ -18,17 +19,17 @@ title: пгfieldname
 pg_field_name(PgSql\Result $result, int $field): string
 ```
 
-**пгfieldname()** повертає ім'я поля результату запиту `result` з порядковим номером `field`. Нумерація полів починається із нуля.
+\*\*pg\_field\_name()\*\*возвращает имя поля результата запроса`result` з порядковим номером `field`. Нумерація полів починається із нуля.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Колишня назва функції: **пгfieldname()**
+> Прежнее название функции:**pg\_fieldname()**
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSql\\Result](class.pgsql-result.md), що повертається функціями [pg\_query()](function.pg-query.md) [pg\_query\_params()](function.pg-query-params.md) або [pg\_execute()](function.pg-execute.md)(среди прочего).
 
 `field`
 
@@ -40,9 +41,9 @@ pg_field_name(PgSql\Result $result, int $field): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -65,7 +66,7 @@ pg_field_name(PgSql\Result $result, int $field): string
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 column 0
@@ -89,4 +90,4 @@ field type: varchar
 
 ### Дивіться також
 
--   [пгfieldnum()](function.pg-field-num.md) - Повертає порядковий номер іменованого поля
+-   [pg\_field\_num()](function.pg-field-num.md) \- Повертає порядковий номер іменованого поля

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - gearmanclient.construct.md: '« GearmanClient::construct'
+  - gearmanclient.construct.md: '« GearmanClient::\_\_construct'
   - gearmanclient.data.md: 'GearmanClient::data »'
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::context'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::context
 
@@ -30,4 +31,4 @@ public GearmanClient::context(): string
 
 ### Дивіться також
 
--   [GearmanClient::setContext()](gearmanclient.setcontext.md) - Встановити контекст програми
+-   [GearmanClient::setContext()](gearmanclient.setcontext.md) \- Встановити контекст програми

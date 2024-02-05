@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-get.md: « ftpget
-  - function.ftp-mdtm.md: ftpmdtm »
+  - function.ftp-get.md: « ftp\_get
+  - function.ftp-mdtm.md: ftp\_mdtm »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftplogin
+title: ftp\_login
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftplogin
+# ftp\_login
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftplogin — Вхід на FTP-сервер
+ftp\_login — Вхід на FTP-сервер
 
 ### Опис
 
@@ -24,7 +25,7 @@ ftp_login(FTP\Connection $ftp, string $username, string $password): bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `username`
 
@@ -40,13 +41,13 @@ ftp_login(FTP\Connection $ftp, string $username, string $password): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftplogin()****
+**Пример #1 Пример использования**ftp\_login()\*\*\*\*
 
 ```php
 <?php

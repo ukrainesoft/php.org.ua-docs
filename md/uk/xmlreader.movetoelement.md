@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.xmlreader.md: XMLReader
 title: 'XMLReader::moveToElement'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLReader::moveToElement
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 XMLReader::moveToElement — Позиціонувати курсор на батьківському елементі поточного атрибуту
 
@@ -30,7 +31,7 @@ public XMLReader::moveToElement(): bool
 
 ### Дивіться також
 
--   [XMLReader::moveToAttribute()](xmlreader.movetoattribute.md) - Перемістити курсор до атрибуту із заданим ім'ям
--   [XMLReader::moveToAttributeNo()](xmlreader.movetoattributeno.md) - Перемістити курсор на атрибут за індексом
--   [XMLReader::moveToAttributeNs()](xmlreader.movetoattributens.md) - Перемістити курсор до іменованого атрибуту
--   [XMLReader::moveToFirstAttribute()](xmlreader.movetofirstattribute.md) - Перемістити позицію курсору на перший атрибут
+-   [XMLReader::moveToAttribute()](xmlreader.movetoattribute.md) \- Перемістити курсор до атрибуту із заданим ім'ям
+-   [XMLReader::moveToAttributeNo()](xmlreader.movetoattributeno.md) \- Перемістити курсор на атрибут за індексом
+-   [XMLReader::moveToAttributeNs()](xmlreader.movetoattributens.md) \- Перемістити курсор до іменованого атрибуту
+-   [XMLReader::moveToFirstAttribute()](xmlreader.movetofirstattribute.md) \- Перемістити позицію курсору на перший атрибут

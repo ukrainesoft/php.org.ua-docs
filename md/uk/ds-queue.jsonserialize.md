@@ -1,19 +1,20 @@
 ---
 navigation:
-  - ds-queue.isempty.md: '« DsQueue::isEmpty'
-  - ds-queue.peek.md: 'ДсQueue::peek »'
+  - ds-queue.isempty.md: '« Ds\\Queue::isEmpty'
+  - ds-queue.peek.md: 'Ds\\Queue::peek »'
   - index.md: PHP Manual
-  - class.ds-queue.md: Черга
-title: 'ДсQueue::jsonSerialize'
+  - class.ds-queue.md: Ds\\Queue
+title: 'Ds\\Queue::jsonSerialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсQueue::jsonSerialize
+# Ds\\Queue::jsonSerialize
 
 (PECL ds >= 1.0.0)
 
-ДсQueue::jsonSerialize — Повертає колекцію в JSON-представництві
+Ds\\Queue::jsonSerialize — Повертає колекцію в JSON-представництві
 
-Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
+Смотрите[JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ніколи не використовуйте цю функцію безпосередньо.

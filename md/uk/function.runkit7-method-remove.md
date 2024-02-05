@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.runkit7-method-redefine.md: « runkit7methodredefine
-  - function.runkit7-method-rename.md: runkit7methodrename »
+  - function.runkit7-method-redefine.md: « runkit7\_method\_redefine
+  - function.runkit7-method-rename.md: runkit7\_method\_rename »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
-title: runkit7методremove
+title: runkit7\_method\_remove
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# runkit7методremove
+# runkit7\_method\_remove
 
-(PECL runkit7> = Unknown)
+(PECL runkit7 >= Unknown)
 
-runkit7методremove - Динамічно видаляє заданий метод
+runkit7\_method\_remove - Динамічно видаляє заданий метод
 
 ### Опис
 
@@ -18,7 +19,7 @@ runkit7методremove - Динамічно видаляє заданий ме�
 runkit7_method_remove(string $class_name, string $method_name): bool
 ```
 
-> **Зауваження**: Ця функція не може бути використана для впливу на працюючі в даний момент (або ланцюгові) методи.
+> **Зауваження**: Цю функцію не можна використовувати для впливу на працюючі в цей момент (або ланцюгові) методи.
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ runkit7_method_remove(string $class_name, string $method_name): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **runkit7методremove()****
+**Пример #1 Пример использования**runkit7\_method\_remove()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ echo implode(' ', get_class_methods('Example'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bar
@@ -69,8 +70,8 @@ bar
 
 ### Дивіться також
 
--   [runkit7methodadd()](function.runkit7-method-add.md) - Динамічно додає новий метод у заданий клас
--   [runkit7methodcopy()](function.runkit7-method-copy.md) - Копіює метод з одного класу до іншого
--   [runkit7methodredefine()](function.runkit7-method-redefine.md) - динамічно змінює код заданого методу
--   [runkit7methodrename()](function.runkit7-method-rename.md) - динамічно змінює ім'я заданого методу
--   [runkit7functionremove()](function.runkit7-function-remove.md) - Видаляє визначення функції
+-   [runkit7\_method\_add()](function.runkit7-method-add.md) \- Динамічно додає новий метод у заданий клас
+-   [runkit7\_method\_copy()](function.runkit7-method-copy.md) \- Копіює метод з одного класу до іншого
+-   [runkit7\_method\_redefine()](function.runkit7-method-redefine.md) \- динамічно змінює код заданого методу
+-   [runkit7\_method\_rename()](function.runkit7-method-rename.md) \- динамічно змінює ім'я заданого методу
+-   [runkit7\_function\_remove()](function.runkit7-function-remove.md) \- Видаляє визначення функції

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mailparse-rfc822-parse-addresses.md: « mailparserfc822parseaddresses
-  - function.mailparse-uudecode-all.md: mailparseuudecodeall »
+  - function.mailparse-rfc822-parse-addresses.md: « mailparse\_rfc822\_parse\_addresses
+  - function.mailparse-uudecode-all.md: mailparse\_uudecode\_all »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
-title: mailparsestreamencode
+title: mailparse\_stream\_encode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mailparsestreamencode
+# mailparse\_stream\_encode
 
 (PECL mailparse >= 0.9.0)
 
-mailparsestreamencode — кодує потік із файлу джерела та пише у файл одержувач.
+mailparse\_stream\_encode — кодує потік із файлу джерела та пише у файл одержувач.
 
 ### Опис
 
@@ -36,11 +37,11 @@ mailparse_stream_encode(resource $sourcefp, resource $destfp, string $encoding):
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mailparsestreamencode()****
+**Пример #1 Пример использования**mailparse\_stream\_encode()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ fpassthru($dest);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 hello, this is some text=3Dhello.

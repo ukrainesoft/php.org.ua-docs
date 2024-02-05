@@ -1,18 +1,19 @@
 ---
 navigation:
   - mysqli.stat.md: '« mysqli::stat'
-  - mysqli.store-result.md: 'mysqli::storeresult »'
+  - mysqli.store-result.md: 'mysqli::store\_result »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::stmtinit'
+title: 'mysqli::stmt\_init'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::stmtinit
+# mysqli::stmt\_init
 
-# mysqlistmtinit
+# mysqli\_stmt\_init
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::stmtinit - mysqlistmtinit — Ініціалізує запит та повертає об'єкт для використання у mysqlistmtprepare
+mysqli::stmt\_init -- mysqli\_stmt\_init — Ініціалізує запит та повертає об'єкт для використання у mysqli\_stmt\_prepare
 
 ### Опис
 
@@ -28,17 +29,17 @@ public mysqli::stmt_init(): mysqli_stmt|false
 mysqli_stmt_init(mysqli $mysql): mysqli_stmt|false
 ```
 
-Виділяє пам'ять та ініціалізує об'єкт запиту, який можна використовувати у функції [mysqlistmtprepare()](mysqli-stmt.prepare.md)
+Виділяє пам'ять та ініціалізує об'єкт запиту, який можна використовувати у функції [mysqli\_stmt\_prepare()](mysqli-stmt.prepare.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Усі наступні виклики mysqlistmt функцій викликають помилку, доки не буде викликана функція [mysqlistmtprepare()](mysqli-stmt.prepare.md)
+> Усі наступні виклики mysqli\_stmt функцій викликають помилку, доки не буде викликана функція [mysqli\_stmt\_prepare()](mysqli-stmt.prepare.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -46,4 +47,4 @@ mysqli_stmt_init(mysqli $mysql): mysqli_stmt|false
 
 ### Дивіться також
 
--   [mysqlistmtprepare()](mysqli-stmt.prepare.md) - готує затвердження SQL до виконання
+-   [mysqli\_stmt\_prepare()](mysqli-stmt.prepare.md) \- готує затвердження SQL до виконання

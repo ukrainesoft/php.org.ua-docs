@@ -4,15 +4,16 @@ navigation:
   - mysqli.rollback.md: 'mysqli::rollback »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::releasesavepoint'
+title: 'mysqli::release\_savepoint'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::releasesavepoint
+# mysqli::release\_savepoint
 
-# mysqlireleasesavepoint
+# mysqli\_release\_savepoint
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-mysqli::releasesavepoint - mysqlireleasesavepoint — Видалити іменовану точку збереження зі списку точок збереження поточної транзакції.
+mysqli::release\_savepoint -- mysqli\_release\_savepoint — Видалити іменовану точку збереження зі списку точок збереження поточної транзакції.
 
 ### Опис
 
@@ -34,7 +35,7 @@ mysqli_release_savepoint(mysqli $mysql, string $name): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 `name`
 
@@ -42,8 +43,8 @@ mysqli_release_savepoint(mysqli $mysql, string $name): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [mysqlisavepoint()](mysqli.savepoint.md) - Встановіть іменовану точку збереження транзакції
+-   [mysqli\_savepoint()](mysqli.savepoint.md) \- Встановіть іменовану точку збереження транзакції

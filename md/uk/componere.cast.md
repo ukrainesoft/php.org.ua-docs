@@ -1,16 +1,17 @@
 ---
 navigation:
-  - reference.componere.md: « Функции Componere
-  - componere.cast_by_ref.md: Componerecastбref »
+  - reference.componere.md: « Функції Componere
+  - componere.cast_by_ref.md: Componere\\cast\_by\_ref »
   - index.md: PHP Manual
-  - reference.componere.md: Функции Componere
-title: Componerecast
+  - reference.componere.md: Функції Componere
+title: Componere\\cast
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Componerecast
+# Componere\\cast
 
 (Componere 2 >= 2.1.2)
 
-Componerecast — Приведення до типу
+Componere\\cast — Приведення до типу
 
 ### Опис
 
@@ -30,7 +31,7 @@ Componere\cast(Type $type,  $object): Type
 
 ### Значення, що повертаються
 
-object типу **Type**, наведений з `object`
+object типа**Type**, наведений з `object`
 
 ### Помилки
 
@@ -56,4 +57,4 @@ object типу **Type**, наведений з `object`
 
 ### Дивіться також
 
--   [Componerecastбref](componere.cast_by_ref.md)
+-   [Componere\\cast\_by\_ref](componere.cast_by_ref.md)

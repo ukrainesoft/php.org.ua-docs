@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::addField'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::addField
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::addField — Вказує, які поля повертати в результаті
 
@@ -20,7 +21,7 @@ public SolrQuery::addField(string $field): SolrQuery
 
 Метод використовується для вказівки набору полів для повернення, тим самим обмежуючи обсяг даних, що повертаються у відповіді.
 
-Він повинен викликатись кілька разів, по одному разу для кожного імені поля.
+Він має викликатись кілька разів, по одному разу для кожного імені поля.
 
 ### Список параметрів
 

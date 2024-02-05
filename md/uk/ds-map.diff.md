@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.count.md: '« DsMap::count'
-  - ds-map.filter.md: 'ДсMap::filter »'
+  - ds-map.count.md: '« Ds\\Map::count'
+  - ds-map.filter.md: 'Ds\\Map::filter »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::diff'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::diff'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::diff
+# Ds\\Map::diff
 
 (PECL ds >= 1.0.0)
 
-ДсMap::diff — Створює нову колекцію пар з елементами, ключів яких немає в іншій колекції пар
+Ds\\Map::diff — Створює нову колекцію пар з елементами, ключів яких немає в іншій колекції пар
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсMap::diff'
 public Ds\Map::diff(Ds\Map $map): Ds\Map
 ```
 
-Повертає нову колекцію пар, яка не містить елементів із ключами, які присутні в колекції пар, переданої в `map`
+Повертає нову колекцію пар, що не містить елементів із ключами, які присутні в колекції пар, переданої в `map`
 
 `A \ B = {x ∈ A | x ∉ B}`
 
@@ -32,13 +33,13 @@ public Ds\Map::diff(Ds\Map $map): Ds\Map
 
 Результат видалення всіх елементів, ключі яких є в колекції пар, переданої в `map`
 
-### Дивись також
+### Дивіться також
 
--   [» Різниця масивів](https://en.wikipedia.org/wiki/Complement_(set_theory)) на Wikipedia
+-   [» Різниця масивів](https://en.wikipedia.org/wiki/Complement_(set_theory))на Wikipedia
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::diff()****
+**Пример #1 Пример использования**Ds\\Map::diff()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($a->diff($b));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Map)#3 (1) {

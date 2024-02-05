@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.simplexml-load-file.md: « simplexmlloadfile
+  - function.simplexml-load-file.md: « simplexml\_load\_file
   - book.wddx.md: WDDX »
   - index.md: PHP Manual
-  - ref.simplexml.md: Функции SimpleXML
-title: simplexmlloadstring
+  - ref.simplexml.md: Функції SimpleXML
+title: simplexml\_load\_string
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# simplexmlloadstring
+# simplexml\_load\_string
 
 (PHP 5, PHP 7, PHP 8)
 
-simplexmlloadstring — Інтерпретує рядок з XML в об'єкт
+simplexml\_load\_string — Інтерпретує рядок з XML в об'єкт
 
 ### Опис
 
 ```methodsynopsis
-simplexml_load_string(    string $data,    ?string $class_name = SimpleXMLElement::class,    int $options = 0,    string $namespace_or_prefix = "",    bool $is_prefix = false): SimpleXMLElement|false
+simplexml_load_string(    string $data,    ?string $class_name = SimpleXMLElement::class,    int $options = 0,    string $namespace_or_prefix = "",    bool $is_prefix = false): SimpleXMLElement|false
 ```
 
 Отримує правильно сформований XML-рядок і повертає його як об'єкт.
@@ -28,11 +29,11 @@ simplexml_load_string(    string $data,    ?string $class_name = SimpleXMLElemen
 
 `class_name`
 
-Ви можете використовувати цей необов'язковий параметр, щоб функція **simplexmlloadstring()** повертала об'єкт вказаного класу. Цей клас має розширювати клас [SimpleXMLElement](class.simplexmlelement.md)
+Ви можете використовувати цей необов'язковий параметр, щоб функція **simplexml\_load\_string()** повертала об'єкт вказаного класу. Цей клас має розширювати клас [SimpleXMLElement](class.simplexmlelement.md)
 
 `options`
 
-Починаючи з Libxml 2.6.0, ви можете також використовувати параметр `options`, щоб вказати [додаткові параметри Libxml](libxml.constants.md)
+[Побітове АБО (`OR`) .](language.operators.bitwise.md) [констант опцій libxml](libxml.constants.md)
 
 `namespace_or_prefix`
 
@@ -40,23 +41,23 @@ simplexml_load_string(    string $data,    ?string $class_name = SimpleXMLElemen
 
 `is_prefix`
 
-**`true`**, якщо `namespace_or_prefix` є префіксом, та \*\*`false`\*\*якщо URI; за умовчанням дорівнює **`false`**
+**`true`**, якщо `namespace_or_prefix` є префіксом, та **`false`**, если URI; по умолчанию равен\*\*`false`\*\*
 
 ### Значення, що повертаються
 
-Повертає об'єкт (object) класу [SimpleXMLElement](class.simplexmlelement.md) з властивостями, що містять дані, що зберігаються всередині XML-документа або **`false`** у разі виникнення помилки.
+Повертає об'єкт (object) класу [SimpleXMLElement](class.simplexmlelement.md) з властивостями, що містять дані, що зберігаються всередині XML-документа або \*\*`false`\*\*в случае возникновения ошибки.
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Логічний тип](language.types.boolean.md)Используйте[оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Помилки
 
-Генерує повідомлення про помилку рівня **`E_WARNING`** для кожної помилки, знайденої в даних XML.
+Генерирует сообщение об ошибке уровня\*\*`E_WARNING`\*\* для кожної помилки, знайденої в даних XML.
 
 **Підказка**
 
-Використовуйте функцію [libxmluseinternalerrors()](function.libxml-use-internal-errors.md) для того, щоб придушити всі помилки XML, та функцію [libxmlgeterrors()](function.libxml-get-errors.md) для проходу ними згодом.
+Используйте функцию[libxml\_use\_internal\_errors()](function.libxml-use-internal-errors.md) для того, щоб придушити всі помилки XML, та функцію [libxml\_get\_errors()](function.libxml-get-errors.md)для прохода по ним впоследствии.
 
 ### Приклади
 
@@ -82,7 +83,7 @@ print_r($xml);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 SimpleXMLElement Object
@@ -95,12 +96,12 @@ SimpleXMLElement Object
 )
 ```
 
-Тут можна використати `$xml->body` і т.д.
+Тут можна використати `$xml->body`и т.д.
 
 ### Дивіться також
 
--   [simplexmlloadfile()](function.simplexml-load-file.md) - Інтерпретує файл XML в об'єкт
--   [SimpleXMLElement::construct()](simplexmlelement.construct.md) - Створення нового об'єкта SimpleXMLElement
+-   [simplexml\_load\_file()](function.simplexml-load-file.md) \- Інтерпретує файл XML в об'єкт
+-   [SimpleXMLElement::\_\_construct()](simplexmlelement.construct.md) \- Створення нового об'єкта SimpleXMLElement
 -   [Робота з помилками XML](simplexml.examples-errors.md)
--   [libxmluseinternalerrors()](function.libxml-use-internal-errors.md) - Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
--   [Базовое использование SimpleXML](simplexml.examples-basic.md)
+-   [libxml\_use\_internal\_errors()](function.libxml-use-internal-errors.md) \- Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
+-   [Базове використання SimpleXML](simplexml.examples-basic.md)

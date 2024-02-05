@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::hasType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionProperty::hasType
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 ReflectionProperty::hasType — Перевірити, чи заданий для властивості тип
 
@@ -30,7 +31,7 @@ public ReflectionProperty::hasType(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionProperty::hasType()****
+**Пример #1 Пример использования**ReflectionProperty::hasType()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ var_dump($rp->hasType());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -52,5 +53,5 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionProperty::getType()](reflectionproperty.gettype.md) - Отримати тип властивості
--   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.md) - Перевірити, чи ініціалізована властивість
+-   [ReflectionProperty::getType()](reflectionproperty.gettype.md) \- Отримати тип якості
+-   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.md) \- Перевірити, чи ініціалізована властивість

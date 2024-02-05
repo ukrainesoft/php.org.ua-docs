@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-columnresult.getcolumnlabel.md: '« ColumnResult::getColumnLabel'
   - mysql-xdevapi-columnresult.getfractionaldigits.md: 'ColumnResult::getFractionalDigits »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
+  - class.mysql-xdevapi-columnresult.md: mysql\_xdevapi\\ColumnResult
 title: 'ColumnResult::getColumnName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ColumnResult::getColumnName
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\ColumnResult::getColumnName(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\ColumnResult::getColumnName(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiColumnResult::getColumnName()****
+**Пример #1 Пример использования**mysql\_xdevapi\\ColumnResult::getColumnName()\*\*\*\*
 
 ```php
 <?php

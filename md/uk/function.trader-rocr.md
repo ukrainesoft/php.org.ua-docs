@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-rocr100.md: « traderrocr100
-  - function.trader-rsi.md: traderrsi »
+  - function.trader-rocr100.md: « trader\_rocr100
+  - function.trader-rsi.md: trader\_rsi »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderrocr
+  - ref.trader.md: Функції Trader
+title: trader\_rocr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderrocr
+# trader\_rocr
 
 (PECL trader >= 0.2.0)
 
-traderrocr — Коефіцієнт зміни курсу: (ціна/попередня ціна)
+trader\_rocr — Коефіцієнт зміни курсу: (ціна/попередня ціна)
 
 ### Опис
 

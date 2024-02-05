@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.mysql-fetch-assoc.md: « mysqlfetchassoc
-  - function.mysql-fetch-lengths.md: mysqlfetchlengths »
+  - function.mysql-fetch-assoc.md: « mysql\_fetch\_assoc
+  - function.mysql-fetch-lengths.md: mysql\_fetch\_lengths »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlfetchfield
+title: mysql\_fetch\_field
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlfetchfield
+# mysql\_fetch\_field
 
 (PHP 4, PHP 5)
 
-mysqlfetchfield — Повертає інформацію про колонку з результату запиту як об'єкт
+mysql\_fetch\_field — Повертає інформацію про колонку з результату запиту як об'єкт
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlifetchfield()](mysqli-result.fetch-field.md)
+-   [mysqli\_fetch\_field()](mysqli-result.fetch-field.md)
 -   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md)
 
 ### Опис
@@ -31,11 +32,11 @@ mysql_fetch_field(resource $result, int $field_offset = 0): object
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
+оброблюваний [результат запиту](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.md)
 
 `field_offset`
 
-Числове усунення поля. Якщо усунення не вказано, функція повертає інформацію про першу колонку, яка ще не була оброблена цією функцією. Нумерація `field_offset` починається з `0`
+Числове усунення поля. Якщо усунення не вказано, функція повертає інформацію про першу колонку, яка ще не була оброблена цією функцією. Нумерація `field_offset` починається з
 
 ### Значення, що повертаються
 
@@ -43,11 +44,11 @@ mysql_fetch_field(resource $result, int $field_offset = 0): object
 
 -   name - назва колонки
 -   table - назва таблиці, якій належить колонка, або псевдонім таблиці, якщо він був визначений
--   maxlength - максимальна довжина колонки
--   notnull - 1, якщо колонка не може бути **`null`**
--   primarykey - 1, якщо колонка є первинним індексом
--   uniquekey - 1, якщо колонка є унікальним індексом
--   multiplekey - 1, якщо колонка є унікальним індексом
+-   max\_length – максимальна довжина колонки
+-   not\_null - 1, якщо колонка не може бути\*\*`null`\*\*
+-   primary\_key - 1, якщо колонка є первинним індексом
+-   unique\_key - 1, якщо колонка є унікальним індексом
+-   multiple\_key - 1, якщо колонка є унікальним індексом
 -   numeric - 1, якщо колонка чисельна
 -   blob - 1, якщо колонка є BLOB
 -   type - тип колонки
@@ -56,7 +57,7 @@ mysql_fetch_field(resource $result, int $field_offset = 0): object
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlfetchfield()****
+**Пример #1 Пример использования**mysql\_fetch\_field()\*\*\*\*
 
 ```php
 <?php
@@ -101,10 +102,10 @@ mysql_free_result($result);
 
 > **Зауваження**: Імена полів, що повертаються цією функцією *залежними від регістру*
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо поля або таблиці мають додаткові імена у запиті SQL, буде повернено ці додаткові імена. Вихідне ім'я може бути отримано, наприклад, за допомогою [mysqliresult::fetchfield()](mysqli-result.fetch-field.md)
+> Якщо поля або таблиці мають додаткові імена у запиті SQL, буде повернено ці додаткові імена. Вихідне ім'я може бути отримано, наприклад, за допомогою [mysqli\_result::fetch\_field()](mysqli-result.fetch-field.md)
 
 ### Дивіться також
 
--   [mysqlfieldseek()](function.mysql-field-seek.md) - Встановлює внутрішній покажчик результату на передане усунення поля
+-   [mysql\_field\_seek()](function.mysql-field-seek.md) \- Встановлює внутрішній покажчик результату на передане усунення поля

@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-authenticationexception.md: « MongoDBDriverExceptionAuthenticationException
-  - class.mongodb-driver-exception-commandexception.md: MongoDBDriverExceptionCommandException »
+  - class.mongodb-driver-exception-authenticationexception.md: « MongoDB\\Driver\\Exception\\AuthenticationException
+  - class.mongodb-driver-exception-commandexception.md: MongoDB\\Driver\\Exception\\CommandException »
   - index.md: PHP Manual
-  - mongodb.exceptions.md: MongoDBDriverException
-title: Клас MongoDBDriverExceptionBulkWriteException
+  - mongodb.exceptions.md: MongoDB\\Driver\\Exception
+title: Клас MongoDB\\Driver\\Exception\\BulkWriteException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverExceptionBulkWriteException
+# Клас MongoDB\\Driver\\Exception\\BulkWriteException
 
 (mongodb >= 1.0.0)
 
@@ -46,26 +47,26 @@ title: Клас MongoDBDriverExceptionBulkWriteException
 
     
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */

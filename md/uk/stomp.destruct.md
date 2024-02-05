@@ -1,24 +1,25 @@
 ---
 navigation:
-  - stomp.construct.md: '« Stomp::construct'
+  - stomp.construct.md: '« Stomp::\_\_construct'
   - stomp.error.md: 'Stomp::error »'
   - index.md: PHP Manual
   - class.stomp.md: Stomp
-title: 'Stomp::destruct'
+title: 'Stomp::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Stomp::destruct
+# Stomp::\_\_destruct
 
-# stompclose
+# stomp\_close
 
 (PECL stomp >= 0.1.0)
 
-Stomp::destruct - stompclose - Закриває Stomp-з'єднання
+Stomp::\_\_destruct -- stomp\_close - Закриває Stomp-з'єднання
 
 ### Опис
 
 Об'єктно-орієнтований стиль (деструктор):
 
-public **Stomp::destruct**
+public**Stomp::\_\_destruct**()
 
 Процедурний стиль:
 
@@ -32,12 +33,12 @@ stomp_close(resource $link): bool
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-Дивіться [stompconnect()](stomp.construct.md)
+Смотрите[stomp\_connect()](stomp.construct.md)

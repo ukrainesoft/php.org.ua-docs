@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.variant-pow.md: « variantpow
-  - function.variant-set-type.md: variantsettype »
+  - function.variant-pow.md: « variant\_pow
+  - function.variant-set-type.md: variant\_set\_type »
   - index.md: PHP Manual
-  - ref.com.md: Функции COM
-title: variantround
+  - ref.com.md: Функції COM
+title: variant\_round
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# variantround
+# variant\_round
 
 (PHP 5, PHP 7, PHP 8)
 
-variantround — Округлює варіант із заданою точністю
+variant\_round — Округлює варіант із заданою точністю
 
 ### Опис
 
@@ -24,22 +25,22 @@ variant_round(mixed $value, int $decimals): ?variant
 
 `value`
 
-Різновид.
+Варіант.
 
 `decimals`
 
 Точність.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.md). У об'єктів COM і DOTNET буде взято та використано їх значення за умовчанням як значення варіанта.
+> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.md). У об'єктів COM і DOTNET буде взято та використано їх значення за замовчуванням як значення варіанта.
 > 
-> Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variantadd()](function.variant-add.md) у PHP відповідає `VarAdd()` у документації MSDN.
+> Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variant\_add()](function.variant-add.md) у PHP відповідає `VarAdd()`в документации MSDN.
 
 ### Значення, що повертаються
 
-Округлене значення або **`null`** у разі виникнення помилки.
+Округлене значення або \*\*`null`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [round()](function.round.md) - Округлює кількість типу float
+-   [round()](function.round.md) \- Округлює число з плаваючою точкою (float)

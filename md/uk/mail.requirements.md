@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mail.setup.md: « Встановлення та налаштування
-  - mail.installation.md: Установка »
+  - mail.setup.md: '" Встановлення та налаштування'
+  - mail.installation.md: Встановлення »
   - index.md: PHP Manual
   - mail.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-sarprop-temperature.md: « fanngetsarproptemperature
-  - function.fann-get-total-connections.md: fanngettotalconnections »
+  - function.fann-get-sarprop-temperature.md: « fann\_get\_sarprop\_temperature
+  - function.fann-get-total-connections.md: fann\_get\_total\_connections »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetsarpropweightdecayshift
+  - ref.fann.md: Функції Fann
+title: fann\_get\_sarprop\_weight\_decay\_shift
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetsarpropweightdecayshift
+# fann\_get\_sarprop\_weight\_decay\_shift
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetsarpropweightdecayshift — Повертає зменшення ваги sarprop
+fann\_get\_sarprop\_weight\_decay\_shift — Повертає зменшення ваги sarprop
 
 ### Опис
 
@@ -30,14 +31,14 @@ fann_get_sarprop_weight_decay_shift(resource $ann): float
 
 ### Значення, що повертаються
 
-Зсув зменшення ваги sarprop або **`false`** у разі виникнення помилки.
+Сдвиг уменьшения веса sarprop или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
--   [fannsetsarpropweightdecayshift()](function.fann-set-sarprop-weight-decay-shift.md) - Встановлює зміщення згасання sarprop
+-   [fann\_set\_sarprop\_weight\_decay\_shift()](function.fann-set-sarprop-weight-decay-shift.md) \- Встановлює зміщення згасання sarprop

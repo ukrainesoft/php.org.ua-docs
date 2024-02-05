@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::getAttribute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NumberFormatter::getAttribute
 
-# numfmtgetattribute
+# numfmt\_get\_attribute
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::getAttribute -- numfmtgetattribute — Отримує атрибут
+NumberFormatter::getAttribute -- numfmt\_get\_attribute — Отримує атрибут
 
 ### Опис
 
@@ -28,7 +29,7 @@ public NumberFormatter::getAttribute(int $attribute): int|float|false
 numfmt_get_attribute(NumberFormatter $formatter, int $attribute): int|float|false
 ```
 
-Отримує числовий атрибут, пов'язаний із засобом форматування. Прикладом числового атрибута є кількість цілих цифр, що видаватиме засіб форматування.
+Отримує числовий атрибут, пов'язаний із засобом форматування. Прикладом числового атрибуту є кількість цілих цифр, що видаватиме засіб форматування.
 
 ### Список параметрів
 
@@ -38,15 +39,15 @@ numfmt_get_attribute(NumberFormatter $formatter, int $attribute): int|float|fals
 
 `attribute`
 
-Специфікатор атрибуту - одна з констант [числового атрибута](class.numberformatter.md#intl.numberformatter-constants.unumberformatattribute)
+Спецификатор атрибута - одна из констант[числового атрибуту](class.numberformatter.md#intl.numberformatter-constants.unumberformatattribute)
 
 ### Значення, що повертаються
 
-Повертає значення атрибута у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає значення атрибута у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmtgetattribute()****
+**Пример #1 Пример использования**numfmt\_get\_attribute()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ echo $fmt->format(1234567.891234567890000)."\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Цифр: 3
@@ -83,6 +84,6 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
--   [numfmtgettextattribute()](numberformatter.gettextattribute.md) - Отримує текстовий атрибут
--   [numfmtsetattribute()](numberformatter.setattribute.md) - Встановлює атрибут
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.md) \- Отримує останній код помилки засобу форматування
+-   [numfmt\_get\_text\_attribute()](numberformatter.gettextattribute.md) \- Отримує текстовий атрибут
+-   [numfmt\_set\_attribute()](numberformatter.setattribute.md) \- Встановлює атрибут

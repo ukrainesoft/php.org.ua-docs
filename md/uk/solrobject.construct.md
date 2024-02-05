@@ -1,20 +1,21 @@
 ---
 navigation:
   - class.solrobject.md: « SolrObject
-  - solrobject.destruct.md: 'SolrObject::destruct »'
+  - solrobject.destruct.md: 'SolrObject::\_\_destruct »'
   - index.md: PHP Manual
   - class.solrobject.md: SolrObject
-title: 'SolrObject::construct'
+title: 'SolrObject::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrObject::construct
+# SolrObject::\_\_construct
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrObject::construct — Створює об'єкт Solr
+SolrObject::\_\_construct — Створює об'єкт Solr
 
 ### Опис
 
-public **SolrObject::construct**
+public**SolrObject::\_\_construct**()
 
 Створює об'єкт Solr.
 
@@ -28,7 +29,7 @@ public **SolrObject::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrObject::construct()****
+**Пример #1 Пример использования**SolrObject::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -36,7 +37,7 @@ public **SolrObject::construct**
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 ...

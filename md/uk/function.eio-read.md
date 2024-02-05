@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.eio-poll.md: « eiopoll
-  - function.eio-readahead.md: eioreadahead »
+  - function.eio-poll.md: « eio\_poll
+  - function.eio-readahead.md: eio\_readahead »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eioread
+  - ref.eio.md: Eio Функції
+title: eio\_read
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eioread
+# eio\_read
 
 (PECL eio >= 0.0.1dev)
 
-eioread — Читає дані з файлу, починаючи із заданого усунення
+eio\_read — Читає дані з файлу, починаючи із заданого усунення
 
 ### Опис
 
 ```methodsynopsis
-eio_read(    mixed $fd,    int $length,    int $offset,    int $pri,    callable $callback,    mixed $data = NULL): resource
+eio_read(    mixed $fd,    int $length,    int $offset,    int $pri,    callable $callback,    mixed $data = NULL): resource
 ```
 
-**eioread()** зчитує `length` байт із файлу з описувачем `fd`, починаючи з байта `offset`. Прочитані дані передаються через параметр `result` у функцію `callback`
+**eio\_read()** зчитує `length`байт из файла с описателем`fd`, начиная с байта`offset`. Прочитані дані передаються через параметр `result` у функцію `callback`
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ eio_read(    mixed $fd,    int $length,    int $offset,    int $pri,    callable
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -56,7 +57,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
@@ -64,11 +65,11 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-**eioread()** передає лічені дані через параметр `result` у функцію `callback`
+**eio\_read()** передає лічені дані через параметр `result` у функцію `callback`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eioread()****
+**Пример #1 Пример использования**eio\_read()\*\*\*\*
 
 ```php
 <?php
@@ -113,7 +114,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(5) "34567"
@@ -121,7 +122,7 @@ string(5) "34567"
 
 ### Дивіться також
 
--   [eioopen()](function.eio-open.md) - Відкриває файл
--   [eiowrite()](function.eio-write.md) - Запис у файл
--   [eioclose()](function.eio-close.md) - Закрити файл
--   [eioeventloop()](function.eio-event-loop.md) - Взаємодіє з libeio, поки всі запити не будуть виконані
+-   [eio\_open()](function.eio-open.md) \- Відкриває файл
+-   [eio\_write()](function.eio-write.md) \- Запис у файл
+-   [eio\_close()](function.eio-close.md) \- Закрити файл
+-   [eio\_event\_loop()](function.eio-event-loop.md) \- Взаємодіє з libeio, поки всі запити не будуть виконані

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phardata.md: PharData
 title: 'PharData::addEmptyDir'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharData::addEmptyDir
 
@@ -32,7 +33,7 @@ public PharData::addEmptyDir(string $directory): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharData::addEmptyDir()****
+**Пример #1 Пример использования**PharData::addEmptyDir()\*\*\*\*
 
 ```php
 <?php
@@ -50,6 +51,6 @@ try {
 
 ### Дивіться також
 
--   [Phar::addEmptyDir()](phar.addemptydir.md) - Додає в phar-архів порожню директорію
--   [PharData::addFile()](phardata.addfile.md) - Додати існуючі файли до tar/zip-архіву
--   [PharData::addFromString()](phardata.addfromstring.md) - Створити файл із заданим вмістом у tar/zip-архіві
+-   [Phar::addEmptyDir()](phar.addemptydir.md) \- Додає в phar-архів порожню директорію
+-   [PharData::addFile()](phardata.addfile.md) \- Додати існуючі файли до tar/zip-архіву
+-   [PharData::addFromString()](phardata.addfromstring.md) \- Додає файл з рядка до архіву tar/zip

@@ -1,27 +1,28 @@
 ---
 navigation:
-  - function.mysqli-escape-string.md: '« mysqli::escapestring'
-  - function.mysqli-get-client-stats.md: mysqligetclientstats »
+  - function.mysqli-escape-string.md: '« mysqli::escape\_string'
+  - function.mysqli-get-client-stats.md: mysqli\_get\_client\_stats »
   - index.md: PHP Manual
   - ref.mysqli.md: Синоніми та застарілі функції Mysqli
-title: mysqliexecute
+title: mysqli\_execute
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliexecute
+# mysqli\_execute
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliexecute - Синонім для [mysqlistmtexecute()](mysqli-stmt.execute.md)
+mysqli\_execute — Псевдоним[mysqli\_stmt\_execute()](mysqli-stmt.execute.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [mysqlistmtexecute()](mysqli-stmt.execute.md)
+Функция — псевдоним функции:[mysqli\_stmt\_execute()](mysqli-stmt.execute.md)
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Функція **mysqliexecute()** застаріла та буде видалена.
+> Функция**mysqli\_execute()** застаріла та буде видалена.
 
 ### Дивіться також
 
--   [mysqlistmtexecute()](mysqli-stmt.execute.md) - Виконує підготовлене затвердження
+-   [mysqli\_stmt\_execute()](mysqli-stmt.execute.md) \- Виконує підготовлене затвердження

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getEndLine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getEndLine
 
@@ -30,7 +31,7 @@ public ReflectionClass::getEndLine(): int|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getEndLine()****
+**Пример #1 Пример использования**ReflectionClass::getEndLine()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ echo $rc->getEndLine();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 3
@@ -51,4 +52,4 @@ echo $rc->getEndLine();
 
 ### Дивіться також
 
--   [ReflectionClass::getStartLine()](reflectionclass.getstartline.md) - Повертає номер початкового рядка
+-   [ReflectionClass::getStartLine()](reflectionclass.getstartline.md) \- Повертає номер початкового рядка

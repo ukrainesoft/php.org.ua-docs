@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - about.md: Про це керівництво
 title: Як дізнатися більше про PHP
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Як дізнатися більше про PHP
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::charAge'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::charAge
 
@@ -26,11 +27,11 @@ public static IntlChar::charAge(int|string $codepoint): ?array
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
-Номер версії Unicode у вигляді масиву. Наприклад, версія повернеться як `[1, 3, 31, 2]`. У разі виникнення помилки повертає **`null`**
+Номер версії Unicode у вигляді масиву. Наприклад, версія *1.3.31.2* повернеться як `[1, 3, 31, 2]`. У разі виникнення помилки повертає **`null`**
 
 ### Приклади
 
@@ -43,7 +44,7 @@ var_dump(IntlChar::charage("\u{1F576}"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(4) {
@@ -70,6 +71,6 @@ array(4) {
 
 ### Дивіться також
 
--   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) - Отримати версію Unicode
--   [IntlChar::getIntPropertyMinValue()](intlchar.getintpropertyminvalue.md) - Отримати мінімальне значення для властивості Unicode
--   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) - Отримати значення властивості Unicode для символу
+-   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) \- Отримати версію Unicode
+-   [IntlChar::getIntPropertyMinValue()](intlchar.getintpropertyminvalue.md) \- Отримати мінімальне значення для властивості Unicode
+-   [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) \- Отримати значення властивості Unicode для символу

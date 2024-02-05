@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::info'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionExtension::info
 
-(PHP 5> = 5.2.4, PHP 7, PHP 8)
+(PHP 5 >= 5.2.4, PHP 7, PHP 8)
 
 ReflectionExtension::info — Виведення інформації про модуль
 
@@ -30,7 +31,7 @@ public ReflectionExtension::info(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionExtension::info()****
+**Пример #1 Пример использования**ReflectionExtension::info()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ $ext->info();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 mysqli
@@ -74,5 +75,5 @@ mysqli.cache_size => 2000 => 2000
 
 ### Дивіться також
 
--   [ReflectionExtension::getName()](reflectionextension.getname.md) - Отримання імені модуля
--   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
+-   [ReflectionExtension::getName()](reflectionextension.getname.md) \- Отримання імені модуля
+-   [phpinfo()](function.phpinfo.md) \- Виводить інформацію про поточну конфігурацію PHP

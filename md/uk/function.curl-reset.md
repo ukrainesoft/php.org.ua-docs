@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-pause.md: « curlpause
-  - function.curl-setopt-array.md: curlsetoptarray »
+  - function.curl-pause.md: « curl\_pause
+  - function.curl-setopt-array.md: curl\_setopt\_array »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlreset
+  - ref.curl.md: Опції cURL
+title: curl\_reset
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlreset
+# curl\_reset
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-curlreset — Скинути всі налаштування обробника сесії libcurl
+curl\_reset — Скинути всі налаштування обробника сесії libcurl
 
 ### Опис
 
@@ -24,7 +25,7 @@ curl_reset(CurlHandle $handle): void
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
+Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.md)
 
 ### Значення, що повертаються
 
@@ -32,13 +33,13 @@ curl_reset(CurlHandle $handle): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| 8.0.0 | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curlreset()****
+**Пример #1 Пример использования**curl\_reset()\*\*\*\*
 
 ```php
 <?php
@@ -62,10 +63,10 @@ curl_close($ch);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **curlreset()** також скидає URL, заданий як параметр [curlinit()](function.curl-init.md)
+> **curl\_reset()** також скидає URL, заданий як параметр [curl\_init()](function.curl-init.md)
 
 ### Дивіться також
 
--   [curlsetopt()](function.curl-setopt.md) - Встановлює параметр для сеансу CURL
+-   [curl\_setopt()](function.curl-setopt.md) \- Встановлює параметр для передачі cURL

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-size.construct.md: '« UISize::construct'
-  - ui-size.getwidth.md: 'ОЙSize::getWidth »'
+  - ui-size.construct.md: '« UI\\Size::\_\_construct'
+  - ui-size.getwidth.md: 'UI\\Size::getWidth »'
   - index.md: PHP Manual
-  - class.ui-size.md: ОЙSize
-title: 'ОЙSize::getHeight'
+  - class.ui-size.md: UI\\Size
+title: 'UI\\Size::getHeight'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙSize::getHeight
+# UI\\Size::getHeight
 
 (UI 0.9.9)
 
-ОЙSize::getHeight — Отримує висоту
+UI\\Size::getHeight — Отримує висоту
 
 ### Опис
 

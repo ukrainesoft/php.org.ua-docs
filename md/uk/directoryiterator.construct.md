@@ -4,43 +4,44 @@ navigation:
   - directoryiterator.current.md: 'DirectoryIterator::current »'
   - index.md: PHP Manual
   - class.directoryiterator.md: DirectoryIterator
-title: 'DirectoryIterator::construct'
+title: 'DirectoryIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DirectoryIterator::construct
+# DirectoryIterator::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-DirectoryIterator::construct — Створює новий ітератор директорій на шляху
+DirectoryIterator::\_\_construct — Створює новий ітератор каталогів зі шляху
 
 ### Опис
 
-public **DirectoryIterator::construct**(string `$directory`
+public**DirectoryIterator::\_\_construct**(string`$directory`) .
 
-Створює новий ітератор директорій на шляху.
+Створює новий ітератор каталогів із шляху.
 
 ### Список параметрів
 
 `directory`
 
-Дорога до директорії для проходу.
+Шлях до каталогу, який потрібно обійти.
 
 ### Помилки
 
-Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md) у разі, якщо директорія `directory` не існує.
+Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо `directory` не існує.
 
-Викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок.
+Викидає помилку [ValueError](class.valueerror.md), якщо `directory` є порожнім рядком.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
+| 8.0.0 | Тепер викидається помилка [ValueError](class.valueerror.md), якщо `directory` є порожнім рядком; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DirectoryIterator::construct()****
+**Пример #1 Пример использования**DirectoryIterator::\_\_construct()\*\*\*\*
 
-Приклад виведе список вмісту директорії, що містить скрипт, що виконується.
+У цьому прикладі буде виведено вміст каталогу, що містить скрипт.
 
 ```php
 <?php

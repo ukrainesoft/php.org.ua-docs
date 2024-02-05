@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagegd2
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagegd2
 
-(PHP 4> = 4.0.7, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.7, PHP 5, PHP 7, PHP 8)
 
 imagegd2 — Виведення GD2 зображення до браузера або файлу
 
 ### Опис
 
 ```methodsynopsis
-imagegd2(    GdImage $image,    ?string $file = null,    int $chunk_size = 128,    int $mode = IMG_GD2_RAW): bool
+imagegd2(    GdImage $image,    ?string $file = null,    int $chunk_size = 128,    int $mode = IMG_GD2_RAW): bool
 ```
 
 Виводить GD2 зображення у заданий файл `file`
@@ -36,11 +37,11 @@ imagegd2(    GdImage $image,    ?string $file = null,    int $chunk_size = 128, 
 
 `mode`
 
-Або **`IMG_GD2_RAW`**, або **`IMG_GD2_COMPRESSED`**. За замовчуванням **`IMG_GD2_RAW`**
+Либо\*\*`IMG_GD2_RAW`**, либо**`IMG_GD2_COMPRESSED`**По умолчанию**`IMG_GD2_RAW`\*\*
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 **Застереження**
 
@@ -48,10 +49,10 @@ imagegd2(    GdImage $image,    ?string $file = null,    int $chunk_size = 128, 
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `file` тепер допускає значення null. |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.3 | `file` тепер допускає значення null. |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
@@ -92,7 +93,7 @@ imagedestroy($im);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Формат GD2 використовується переважно для швидкого завантаження частин зображень. Слід враховувати, що формат GD2 може використовуватися тільки в GD2-сумісних додатках.
 
@@ -102,4 +103,4 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagegd()](function.imagegd.md) - Виведення GD-зображення у браузер або файл
+-   [imagegd()](function.imagegd.md) \- Виведення GD-зображення у браузер або файл

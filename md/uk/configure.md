@@ -1,10 +1,11 @@
 ---
 navigation:
-  - debugger-about.md: « Об отладке в PHP
+  - debugger-about.md: « Про налагодження в PHP
   - configure.about.md: Список основних опцій конфігурації »
   - index.md: PHP Manual
-  - appendices.md: Appendices
+  - appendices.md: Програми
 title: Опції конфігурації
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Опції конфігурації
 

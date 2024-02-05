@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::getRequestToken'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::getRequestToken
 
@@ -32,7 +33,7 @@ URL callback-функції OAuth. Якщо `callback_url` Заданий пор
 
 `http_method`
 
-HTTP-метод, наприклад `GET` або `POST`
+HTTP-метод, например`GET`или`POST`
 
 ### Значення, що повертаються
 
@@ -40,14 +41,14 @@ HTTP-метод, наприклад `GET` або `POST`
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
-| PECL oauth 0.99.9 | Доданий параметр `callback_url` |
+| PECL oauth 0.99.9 | Добавлен параметр`callback_url` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **OAuth::getRequestToken()****
+**Пример #1 Пример использования**OAuth::getRequestToken()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -77,5 +78,5 @@ Array
 
 ### Дивіться також
 
--   [OAuth::getLastResponse()](oauth.getlastresponse.md) - Отримати останню відповідь
--   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) - Отримати HTTP-інформацію про останню відповідь
+-   [OAuth::getLastResponse()](oauth.getlastresponse.md) \- Отримати останню відповідь
+-   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) \- Отримати HTTP-інформацію про останню відповідь

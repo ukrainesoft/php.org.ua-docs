@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlhighwave.md: « tradercdlhighwave
-  - function.trader-cdlhikkakemod.md: tradercdlhikkakemod »
+  - function.trader-cdlhighwave.md: « trader\_cdlhighwave
+  - function.trader-cdlhikkakemod.md: trader\_cdlhikkakemod »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlhikkake
+  - ref.trader.md: Функції Trader
+title: trader\_cdlhikkake
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlhikkake
+# trader\_cdlhikkake
 
 (PECL trader >= 0.2.0)
 
-tradercdlhikkake - Свічкова модель "Крюк"
+trader\_cdlhikkake - Свічкова модель "Крюк"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlhikkake(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlhikkake(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

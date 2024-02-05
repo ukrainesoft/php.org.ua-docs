@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.db2-server-info.md: « db2serverinfo
-  - function.db2-special-columns.md: db2specialcolumns »
+  - function.db2-server-info.md: « db2\_server\_info
+  - function.db2-special-columns.md: db2\_special\_columns »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2setoption
+title: db2\_set\_option
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2setoption
+# db2\_set\_option
 
-(PECL ibmdb2> = 1.0.0)
+(PECL ibm\_db2 >= 1.0.0)
 
-db2setoption — Встановіть опцію для з'єднання або ресурсу оператора.
+db2\_set\_option — Встановіть опцію для з'єднання або ресурсу оператора.
 
 ### Опис
 
@@ -24,7 +25,7 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `resource`
 
-Коректний ресурс оператора, отриманий з [db2prepare()](function.db2-prepare.md) або ж ресурс з'єднання, отриманий з [db2connect()](function.db2-connect.md) або [db2pconnect()](function.db2-pconnect.md)
+Коректний ресурс оператора, отриманий з [db2\_prepare()](function.db2-prepare.md) або ж ресурс з'єднання, отриманий з [db2\_connect()](function.db2-connect.md) або [db2\_pconnect()](function.db2-pconnect.md)
 
 `options`
 
@@ -32,9 +33,9 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `autocommit`
 
-`DB2_AUTOCOMMIT_ON` - увімкнути режим підтвердження транзакцій для заданого з'єднання.
+`DB2_AUTOCOMMIT_ON`\- включить режим автоподтверждения транзакций для заданного соединения.
 
-`DB2_AUTOCOMMIT_OFF` - вимкнути режим підтвердження транзакцій для заданого з'єднання.
+`DB2_AUTOCOMMIT_OFF`\- отключить режим автоподтверждения транзакций для заданного соединения.
 
 `cursor`
 
@@ -44,11 +45,11 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `binmode`
 
-`DB2_BINARY` - Визначає, що бінарні дані будуть повернуті як є. Це режим за промовчанням, він рівносильний завданню `ibm_db2.binmode=1` у php.ini.
+`DB2_BINARY` - Визначає, що бінарні дані будуть повернуті як є. Це режим за промовчанням, він рівносильний завданню `ibm_db2.binmode=1`в php.ini.
 
-`DB2_CONVERT` - Визначає, що бінарні дані будуть сконвертовані в шістнадцяткове подання. Рівносильно завдання `ibm_db2.binmode=2` у php.ini.
+`DB2_CONVERT` - Визначає, що бінарні дані будуть сконвертовані в шістнадцяткове подання. Рівносильно завдання `ibm_db2.binmode=2`в php.ini.
 
-`DB2_CONVERT` - визначає, що бінарні дані будуть сконвертовані в **`null`**. Рівносильно завдання `ibm_db2.binmode=3` у php.ini.
+`DB2_CONVERT` - визначає, що бінарні дані будуть сконвертовані в **`null`**. Рівносильно завдання `ibm_db2.binmode=3`в php.ini.
 
 `db2_attr_case`
 
@@ -64,23 +65,23 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `DB2_DEFERRED_PREPARE_OFF` - Вимикає відстрочену підготовку ресурсу оператора.
 
-Наступні нові опції i5/OS доступні в ibmdb2 версії 1.5.1 та вище. Ці опції доступні лише якщо PHP та ibmdb2 запущено на системі i5.
+Наступні нові опції i5/OS доступні в ibm\_db2 версії 1.5.1 та вище. Ці опції доступні лише якщо PHP та ibm\_db2 запущено на системі i5.
 
 `i5_fetch_only`
 
-`DB2_I5_FETCH_ON` - курсори можуть бути тільки для читання і не можуть використовуватися для позиціонування DELETE або UPDATE. Є поведінкою за умовчанням, тільки якщо змінна оточення `SQL_ATTR_FOR_FETCH_ONLY` не встановлена ​​в `SQL_FALSE`
+`DB2_I5_FETCH_ON` - курсори можуть бути тільки для читання і не можуть використовуватися для позиціонування DELETE або UPDATE. Є поведінкою за умовчанням, тільки якщо змінна оточення `SQL_ATTR_FOR_FETCH_ONLY`не установлена в`SQL_FALSE`
 
 `DB2_I5_FETCH_OFF` - курсори можна використовувати для позиціонування DELETE або UPDATE.
 
-Наступні нові опції доступні в ibmdb2 версії 1.8.0 та вище.
+Наступні нові опції доступні в ibm\_db2 версії 1.8.0 та вище.
 
 `rowcount`
 
-`DB2_ROWCOUNT_PREFETCH_ON` - клієнт може запитати кількість рядків перед вилученням, що означає, що функція [db2numrows()](function.db2-num-rows.md) поверне кількість вибраних рядків, навіть якщо використовується курсор `ROLLFORWARD_ONLY`
+`DB2_ROWCOUNT_PREFETCH_ON` - клієнт може запитати кількість рядків перед вилученням, що означає, що функція [db2\_num\_rows()](function.db2-num-rows.md) поверне кількість вибраних рядків, навіть якщо використовується курсор `ROLLFORWARD_ONLY`
 
 `DB2_ROWCOUNT_PREFETCH_OFF` - клієнт не може запитати кількість рядків перед вилученням
 
-Наступні нові опції доступні в ibmdb2 версії 1.7.0 та вище.
+Наступні нові опції доступні в ibm\_db2 версії 1.7.0 та вище.
 
 `trusted_user`
 
@@ -88,21 +89,21 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `trusted_password`
 
-Пароль (рядок), що відповідає ідентифікатору користувача, заданому в trusteduser.
+Пароль (рядок), що відповідає ідентифікатору користувача, заданому в trusted\_user.
 
-Наступні нові опції доступні в ibmdb2 версії 1.6.0 та вище. Ці опції надають корисну інформацію, яку можна отримати через [db2getoption()](function.db2-get-option.md)
+Наступні нові опції доступні в ibm\_db2 версії 1.6.0 та вище. Ці опції надають корисну інформацію, яку можна отримати через [db2\_get\_option()](function.db2-get-option.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо значення кожної опції встановлено, деякі сервери можуть не зуміти обробити всі значення та обріжуть його.
 > 
-> Для впевненості в тому, що всі опції конвертовані коректно під час передачі на хост, використовуйте лише символи A-Z, 0-9, підкреслення() та точку (.).
+> Для впевненості в тому, що всі опції конвертовані коректно під час передачі на хост, використовуйте лише символи A-Z, 0-9, підкреслення(\_) та точку (.).
 
 `userid`
 
 `SQL_ATTR_INFO_USERID` - покажчик на символьний рядок, що закінчується null-байтом і містить ідентифікатор користувача, переданий базі при з'єднанні.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > DB2 для серверів z/OS та OS/390 підтримує довжину до 16 символів. Ідентифікатор користувача не скомпрометує ідентифікатор авторизації – це різні сутності.
 
@@ -110,7 +111,7 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `SQL_ATTR_INFO_ACCTSTR` - покажчик на символьний рядок, що закінчується null-байтом і використовується для ідентифікації облікового рядка клієнта, відповідного надісланого сервера при з'єднанні.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > DB2 для серверів z/OS та OS/390 підтримує довжину до 200 символів.
 
@@ -118,7 +119,7 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `SQL_ATTR_INFO_APPLNAME` - вказівник на символьний рядок, що закінчується null-байтом і використовується для ідентифікації імені клієнтської програми, відповідної надісланої на сервер під час з'єднання.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > DB2 для серверів z/OS та OS/390 підтримує довжину до 32 символів.
 
@@ -126,7 +127,7 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `SQL_ATTR_INFO_WRKSTNNAME` - вказівник на символьний рядок, що закінчується null-байтом і використовується для ідентифікації імені робочої станції, відповідної надісланої на сервер при з'єднанні.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > DB2 для серверів z/OS та OS/390 підтримує довжину до 18 символів.
 
@@ -134,9 +135,9 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 Цілочисленне значення, що визначає тип ресурсу, який було передано у функцію.
 
-`1` - Переданий ресурс з'єднання.
+\- передан ресурс соединения.
 
-Будь-яке інше значення, відмінне від `1` означає ресурс оператора.
+Любое другое значение, отличное от означає ресурс оператора.
 
 Наступна таблиця показує, які параметри сумісні з ресурсами:
 
@@ -145,32 +146,32 @@ db2_set_option(resource $resource, array $options, int $type): bool
 | Ключ | Значение | Тип ресурса |
 | --- | --- | --- |
 |  |  | З'єднання |
-| autocommit | `DB2_AUTOCOMMIT_ON` | З |
-| autocommit | `DB2_AUTOCOMMIT_OFF` | З |
-| cursor | `DB2_SCROLLABLE` |  |
-| cursor | `DB2_FORWARD_ONLY` |  |
-| binmode | `DB2_BINARY` | З |
-| binmode | `DB2_CONVERT` | З |
-| binmode | `DB2_PASSTHRU` | З |
-| db2attrcase | `DB2_CASE_LOWER` | З |
-| db2attrcase | `DB2_CASE_UPPER` | З |
-| db2attrcase | `DB2_CASE_NATURAL` | З |
-| deferredprepare | `DB2_DEFERRED_PREPARE_ON` |  |
-| deferredprepare | `DB2_DEFERRED_PREPARE_OFF` |  |
-| і5fetchonly | `DB2_I5_FETCH_ON` |  |
-| і5fetchonly | `DB2_I5_FETCH_OFF` |  |
-| rowcount | `DB2_ROWCOUNT_PREFETCH_ON` |  |
-| rowcount | `DB2_ROWCOUNT_PREFETCH_OFF` |  |
-| trusteduser | `<USER NAME> (String)` | З |
-| trustedpassword | `<PASSWORD> (String)` | З |
-| userid | `SQL_ATTR_INFO_USERID` | З |
-| acctstr | `SQL_ATTR_INFO_ACCTSTR` | З |
-| applname | `SQL_ATTR_INFO_APPLNAME` | З |
-| wrkstnname | `SQL_ATTR_INFO_WRKSTNNAME` | З |
+| autocommit | `DB2_AUTOCOMMIT_ON` | X |
+| autocommit | `DB2_AUTOCOMMIT_OFF` | X |
+| cursor | `DB2_SCROLLABLE` | \- |
+| cursor | `DB2_FORWARD_ONLY` | \- |
+| binmode | `DB2_BINARY` | X |
+| binmode | `DB2_CONVERT` | X |
+| binmode | `DB2_PASSTHRU` | X |
+| db2\_attr\_case | `DB2_CASE_LOWER` | X |
+| db2\_attr\_case | `DB2_CASE_UPPER` | X |
+| db2\_attr\_case | `DB2_CASE_NATURAL` | X |
+| deferred\_prepare | `DB2_DEFERRED_PREPARE_ON` | \- |
+| deferred\_prepare | `DB2_DEFERRED_PREPARE_OFF` | \- |
+| i5\_fetch\_only | `DB2_I5_FETCH_ON` | \- |
+| i5\_fetch\_only | `DB2_I5_FETCH_OFF` | \- |
+| rowcount | `DB2_ROWCOUNT_PREFETCH_ON` | \- |
+| rowcount | `DB2_ROWCOUNT_PREFETCH_OFF` | \- |
+| trusted\_user | `<USER NAME> (String)` | X |
+| trusted\_password | `<PASSWORD> (String)` | X |
+| userid | `SQL_ATTR_INFO_USERID` | X |
+| acctstr | `SQL_ATTR_INFO_ACCTSTR` | X |
+| applname | `SQL_ATTR_INFO_APPLNAME` | X |
+| wrkstnname | `SQL_ATTR_INFO_WRKSTNNAME` | X |
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -194,7 +195,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
+/* Создаём ассоциативный массив опций */
 $options = array('autocommit' => DB2_AUTOCOMMIT_ON);
 
 /* Вызываем функцию */
@@ -212,7 +213,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Options Set Successfully
@@ -238,7 +239,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
+/* Создаём ассоциативный массив опций */
 $options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
                     'binmode' => DB2_PASSTHRU,
               'db2_attr_case' => DB2_CASE_UPPER,
@@ -259,7 +260,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Options Set Successfully
@@ -285,7 +286,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
+/* Создаём ассоциативный массив опций */
 $options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
              'MY_INVALID_KEY' => DB2_PASSTHRU,
               'db2_attr_case' => DB2_CASE_UPPER,
@@ -306,7 +307,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Could Not Set Options
@@ -332,7 +333,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
+/* Создаём ассоциативный массив опций */
 $options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
                     'binmode' => 'INVALID_VALUE',
               'db2_attr_case' => DB2_CASE_UPPER,
@@ -353,13 +354,13 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Could Not Set Options
 ```
 
-**Приклад #5 Setting multiple parameters with a connection resource and the wrong type**
+**Приклад #5 Setting multiple parameters with connection resource and the wrong type**
 
 ```php
 <?php
@@ -379,7 +380,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
+/* Создаём ассоциативный массив опций */
 $options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
                     'binmode' => DB2_PASSTHRU,
               'db2_attr_case' => DB2_CASE_UPPER,
@@ -400,7 +401,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Could Not Set Options
@@ -426,7 +427,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
+/* Создаём ассоциативный массив опций */
 $options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
                     'binmode' => DB2_PASSTHRU,
               'db2_attr_case' => DB2_CASE_UPPER,
@@ -449,7 +450,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Could Not Set Options
@@ -475,7 +476,7 @@ $conn_string .= "UID=$username;PWD=$password;";
 /* Получаем ресурс соединения */
 $conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
+/* Создаём ассоциативный массив опций */
 $options = array('db2_attr_case' => DB2_CASE_LOWER,
                         'cursor' => DB2_SCROLLABLE);
 
@@ -493,7 +494,7 @@ print_r(db2_fetch_assoc($stmt, 1));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -551,7 +552,7 @@ Array
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 first2 last2
@@ -559,8 +560,8 @@ first2 last2
 
 ### Дивіться також
 
--   [db2connect()](function.db2-connect.md) - Повертає з'єднання з базою даних
--   [db2pconnect()](function.db2-pconnect.md) - Повертає постійне з'єднання з базою даних
--   [db2exec()](function.db2-exec.md) - Виконує SQL-запит безпосередньо
--   [db2prepare()](function.db2-prepare.md) - готує SQL-запит до виконання
--   [db2cursortype()](function.db2-cursor-type.md) - Повертає тип курсору, який використовується у ресурсі оператора
+-   [db2\_connect()](function.db2-connect.md) \- Повертає з'єднання з базою даних
+-   [db2\_pconnect()](function.db2-pconnect.md) \- Повертає постійне з'єднання з базою даних
+-   [db2\_exec()](function.db2-exec.md) \- Виконує SQL-запит безпосередньо
+-   [db2\_prepare()](function.db2-prepare.md) \- готує SQL-запит до виконання
+-   [db2\_cursor\_type()](function.db2-cursor-type.md) \- Повертає тип курсору, який використовується у ресурсі оператора

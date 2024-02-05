@@ -1,14 +1,15 @@
 ---
 navigation:
-  - function.ftp-systype.md: « ftpsystype
+  - function.ftp-systype.md: « ftp\_systype
   - book.gearman.md: Gearman »
   - index.md: PHP Manual
   - book.ftp.md: FTP
-title: Клас FTPConnection
+title: Клас FTP\\Connection
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас FTPConnection
+# Клас FTP\\Connection
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -16,19 +17,12 @@ title: Клас FTPConnection
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-    
-     
-      final
-      class FTP\Connection
-     
+     final
+     class FTP\Connection
      {
-    
 
    }
 ```

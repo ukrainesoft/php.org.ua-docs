@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.fbird-wait-event.md: « fbirdwaitevent
-  - function.ibase-affected-rows.md: ibaseaffectedrows »
+  - function.fbird-wait-event.md: « fbird\_wait\_event
+  - function.ibase-affected-rows.md: ibase\_affected\_rows »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseadduser
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_add\_user
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseadduser
+# ibase\_add\_user
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseadduser — Додає користувача до безпечної бази даних
+ibase\_add\_user — Додає користувача до безпечної бази даних
 
 ### Опис
 
 ```methodsynopsis
-ibase_add_user(    resource $service_handle,    string $user_name,    string $password,    string $first_name = ?,    string $middle_name = ?,    string $last_name = ?): bool
+ibase_add_user(    resource $service_handle,    string $user_name,    string $password,    string $first_name = ?,    string $middle_name = ?,    string $last_name = ?): bool
 ```
 
 ### Список параметрів
@@ -46,9 +47,9 @@ ibase_add_user(    resource $service_handle,    string $user_name,    string $pa
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ibasemodifyuser()](function.ibase-modify-user.md) - Змінює користувача у безпечній базі даних
--   [ibasedeleteuser()](function.ibase-delete-user.md) - Видаляє користувача з безпечної бази даних
+-   [ibase\_modify\_user()](function.ibase-modify-user.md) \- Змінює користувача у безпечній базі даних
+-   [ibase\_delete\_user()](function.ibase-delete-user.md) \- Видаляє користувача з безпечної бази даних

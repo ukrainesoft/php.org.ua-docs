@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domnode.md: DOMNode
 title: 'DOMNode::normalize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNode::normalize
 
@@ -30,5 +31,5 @@ public DOMNode::normalize(): void
 
 ### Дивіться також
 
--   [» Спецификация DOM](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-normalize)
--   [DOMDocument::normalizeDocument()](domdocument.normalizedocument.md) - нормалізує документ
+-   [» Специфікація DOM](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-normalize)
+-   [DOMDocument::normalizeDocument()](domdocument.normalizedocument.md) \- нормалізує документ

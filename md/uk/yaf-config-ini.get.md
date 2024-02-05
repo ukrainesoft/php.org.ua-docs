@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-ini.current.md: '« YafConfigIni::current'
-  - yaf-config-ini.isset.md: 'YafConfigIni::isset »'
+  - yaf-config-ini.current.md: '« Yaf\_Config\_Ini::current'
+  - yaf-config-ini.isset.md: 'Yaf\_Config\_Ini::\_\_isset »'
   - index.md: PHP Manual
-  - class.yaf-config-ini.md: YafConfigIni
-title: 'YafConfigIni::get'
+  - class.yaf-config-ini.md: Yaf\_Config\_Ini
+title: 'Yaf\_Config\_Ini::\_\_get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigIni::get
+# Yaf\_Config\_Ini::\_\_get
 
 (Yaf >=1.0.0)
 
-YafConfigIni::get — Отримує елемент
+Yaf\_Config\_Ini::\_\_get — Отримує елемент
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Ini::__get(string $name = ?): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

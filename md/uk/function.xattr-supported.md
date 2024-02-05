@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xattr-set.md: « xattrset
+  - function.xattr-set.md: « xattr\_set
   - book.xdiff.md: xdiff »
   - index.md: PHP Manual
-  - ref.xattr.md: xattr Функции
-title: xattrsupported
+  - ref.xattr.md: xattr Функції
+title: xattr\_supported
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xattrsupported
+# xattr\_supported
 
 (PECL xattr >= 1.0.0)
 
-xattrsupported — Перевірка підтримки розширених атрибутів
+xattr\_supported — Перевірка підтримки розширених атрибутів
 
 ### Опис
 
@@ -32,11 +33,11 @@ xattr_supported(string $filename, int $flags = 0): bool
 
 ### Значення, що повертаються
 
-Функція повертає **`true`**, якщо файлова система підтримує розширені атрибути, \*\*`false`\*\*якщо це не так і **`null`**, якщо неможливо визначити (наприклад неправильний шлях до файлу, чи немає дозволу на читання файлу).
+Функція повертає **`true`**, якщо файлова система підтримує розширені атрибути, \*\*`false`\*\*якщо це не так і **`null`**, якщо неможливо визначити (наприклад неправильний шлях до файлу, або немає дозволу на читання файлу).
 
 ### Приклади
 
-**Приклад #1 **xattrsupported()** example**
+**Пример #1**xattr\_supported()**example**
 
 Перевірте, чи можна використовувати розширені атрибути.
 
@@ -53,5 +54,5 @@ if (xattr_supported($file)) {
 
 ### Дивіться також
 
--   [xattrget()](function.xattr-get.md) - Отримання розширених атрибутів файлу
--   [xattrlist()](function.xattr-list.md) - Перегляд списку розширених атрибутів файлу
+-   [xattr\_get()](function.xattr-get.md) \- Отримання розширених атрибутів файлу
+-   [xattr\_list()](function.xattr-list.md) \- Перегляд списку розширених атрибутів файлу

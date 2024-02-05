@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionmodify.construct.md: '« CollectionModify::construct'
+  - mysql-xdevapi-collectionmodify.construct.md: '« CollectionModify::\_\_construct'
   - mysql-xdevapi-collectionmodify.limit.md: 'CollectionModify::limit »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: mysql\_xdevapi\\CollectionModify
 title: 'CollectionModify::execute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionModify::execute
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\CollectionModify::execute(): mysql_xdevapi\Result
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::execute()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::execute()\*\*\*\*
 
 ```php
 <?php

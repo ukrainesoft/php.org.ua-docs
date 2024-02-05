@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-stmt.attr-set.md: '« mysqlistmt::attrset'
-  - mysqli-stmt.bind-result.md: 'mysqlistmt::bindresult »'
+  - mysqli-stmt.attr-set.md: '« mysqli\_stmt::attr\_set'
+  - mysqli-stmt.bind-result.md: 'mysqli\_stmt::bind\_result »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::bindparam'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::bind\_param'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::bindparam
+# mysqli\_stmt::bind\_param
 
-# mysqlistmtbindparam
+# mysqli\_stmt\_bind\_param
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::bindparam - mysqlistmtbindparam — Прив'язка змінних до параметрів запиту, що готується.
+mysqli\_stmt::bind\_param -- mysqli\_stmt\_bind\_param — Прив'язка змінних до параметрів запиту, що готується.
 
 ### Опис
 
@@ -25,24 +26,24 @@ public mysqli_stmt::bind_param(string $types, mixed &$var, mixed &...$vars): boo
 Процедурний стиль
 
 ```methodsynopsis
-mysqli_stmt_bind_param(    mysqli_stmt $statement,    string $types,    mixed &$var,    mixed &...$vars): bool
+mysqli_stmt_bind_param(    mysqli_stmt $statement,    string $types,    mixed &$var,    mixed &...$vars): bool
 ```
 
-Прив'язує змінні до міток параметрів у SQL-вираженні, яке було підготовлене функцією [mysqliprepare()](mysqli.prepare.md) або [mysqlistmtprepare()](mysqli-stmt.prepare.md)
+Прив'язує змінні до позначок параметрів у SQL-вираженні, яке було підготовлено функцією [mysqli\_prepare()](mysqli.prepare.md) або [mysqli\_stmt\_prepare()](mysqli-stmt.prepare.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо розмір даних змінної перевищує максимально допустимий розмір пакета (maxallowedpacket), необхідно задати значення `b` параметром `types` та використовувати функцію [mysqlistmtsendlongdata()](mysqli-stmt.send-long-data.md), яка передаватиме дані пакетами.
+> Якщо розмір даних змінної перевищує максимально допустимий розмір пакета (max\_allowed\_packet), необхідно задати значення `b`параметру`types` та використовувати функцію [mysqli\_stmt\_send\_long\_data()](mysqli-stmt.send-long-data.md), яка передаватиме дані пакетами.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> При використанні **mysqlistmtbindparam()** спільно з [calluserfuncarray()](function.call-user-func-array.md) необхідно дотримуватися особливої ​​обережності. Потрібно брати до уваги, що **mysqlistmtbindparam()** приймає як параметри лише посилання на значення, у той час як [calluserfuncarray()](function.call-user-func-array.md) приймає перелік параметрів, які можуть передаватися як за посиланням, так і за значенням.
+> При использовании**mysqli\_stmt\_bind\_param()** спільно з [call\_user\_func\_array()](function.call-user-func-array.md) необхідно дотримуватися особливої ​​обережності. Потрібно брати до уваги, що **mysqli\_stmt\_bind\_param()** приймає як параметри лише посилання на значення, у той час як [call\_user\_func\_array()](function.call-user-func-array.md) приймає перелік параметрів, які можуть передаватися як за посиланням, так і за значенням.
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 `types`
 
@@ -50,12 +51,12 @@ mysqli_stmt_bind_param(    mysqli_stmt $statement,    string $types,    mixed &$
 
 **Символи, що задають тип**
 
-| Символ | Описание |
+| Символ | Опис |
 | --- | --- |
-| і | відповідна змінна має тип integer |
-| д | відповідна змінна має тип double |
-| з | відповідна змінна має тип string |
-| в | відповідна змінна є великим двійковим об'єктом (blob) і пересилатиметься пакетами |
+| i | у відповідної змінної тип int |
+| d | у відповідної змінної тип float |
+| s | у відповідної змінної тип string |
+| b | відповідна змінна є великим двійковим об'єктом (blob) і пересилатиметься пакетами |
 
 `var`
 
@@ -65,11 +66,15 @@ mysqli_stmt_bind_param(    mysqli_stmt $statement,    string $types,    mixed &$
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+
+### Помилки
+
+Якщо сповіщення про помилки mysqli включено (**`MYSQLI_REPORT_ERROR`**) та запитана операція не вдалася, видається попередження. Якщо, крім того, встановлено режим **`MYSQLI_REPORT_STRICT`**, натомість буде викинуто виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlistmt::bindparam()****
+**Пример #1 Пример использования**mysqli\_stmt::bind\_param()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -121,16 +126,16 @@ mysqli_query($link, "DELETE FROM CountryLanguage WHERE Language='Bavarian'");
 printf("строк удалено: %d.\n", mysqli_affected_rows($link));
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 строк добавлено: 1.
 1 row deleted.
 ```
 
-**Приклад #2 Приклад використання `...` для надання аргументів**
+**Пример #2 Пример использования`...`для предоставления аргументов**
 
-Оператор `...` може використовуватися для надання списку аргументів змінної довжини, наприклад, у конструкції `WHERE IN`
+Оператор`...` може використовуватися для надання списку аргументів змінної довжини, наприклад, у конструкції `WHERE IN`
 
 ```php
 <?php
@@ -147,7 +152,7 @@ $stmt->store_result();
 printf("найдено строк: %d.\n", $stmt->num_rows());
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 найдено строк: 10.
@@ -155,10 +160,10 @@ printf("найдено строк: %d.\n", $stmt->num_rows());
 
 ### Дивіться також
 
--   [mysqlistmtbindresult()](mysqli-stmt.bind-result.md) - Прив'язка змінних до підготовленого запиту для розміщення результату
--   [mysqlistmtexecute()](mysqli-stmt.execute.md) - Виконує підготовлене затвердження
--   [mysqlistmtfetch()](mysqli-stmt.fetch.md) - пов'язує результати підготовленого виразу зі змінними
--   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
--   [mysqlistmtsendlongdata()](mysqli-stmt.send-long-data.md) - Відправлення даних блоками
--   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
--   [mysqlistmterror()](mysqli-stmt.error.md) - Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqli\_stmt\_bind\_result()](mysqli-stmt.bind-result.md) \- Прив'язка змінних до підготовленого запиту для розміщення результату
+-   [mysqli\_stmt\_execute()](mysqli-stmt.execute.md) \- Виконує підготовлене затвердження
+-   [mysqli\_stmt\_fetch()](mysqli-stmt.fetch.md) \- пов'язує результати підготовленого виразу зі змінними
+-   [mysqli\_prepare()](mysqli.prepare.md) \- готує SQL вираз до виконання
+-   [mysqli\_stmt\_send\_long\_data()](mysqli-stmt.send-long-data.md) \- Відправлення даних блоками
+-   [mysqli\_stmt\_errno()](mysqli-stmt.errno.md) \- Повертає код помилки виконання останнього запиту
+-   [mysqli\_stmt\_error()](mysqli-stmt.error.md) \- Повертає рядок із поясненням останньої помилки під час виконання запиту

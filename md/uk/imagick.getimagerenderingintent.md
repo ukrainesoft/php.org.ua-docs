@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageRenderingIntent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageRenderingIntent
 
@@ -26,7 +27,7 @@ public Imagick::getImageRenderingIntent(): int
 
 ### Значення, що повертаються
 
-Повертає [схему цветопередачи](imagick.constants.md#imagick.constants.renderingintent) зображення.
+Повертає [схему кольору](imagick.constants.md#imagick.constants.renderingintent)изображения.
 
 ### Помилки
 

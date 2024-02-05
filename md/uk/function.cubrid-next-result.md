@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-move-cursor.md: « cubridmovecursor
-  - function.cubrid-num-cols.md: cubridnumcols »
+  - function.cubrid-move-cursor.md: « cubrid\_move\_cursor
+  - function.cubrid-num-cols.md: cubrid\_num\_cols »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridnextresult
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_next\_result
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridnextresult
+# cubrid\_next\_result
 
 (PECL CUBRID >= 8.4.0)
 
-cubridnextresult — Отримує результат наступного запиту під час виконання кількох SQL-операторів.
+cubrid\_next\_result — Отримує результат наступного запиту під час виконання кількох SQL-операторів.
 
 ### Опис
 
@@ -18,21 +19,21 @@ cubridnextresult — Отримує результат наступного за
 cubrid_next_result(resource $result): bool
 ```
 
-Функція **cubridnextresult()** використовується для отримання результатів наступного запиту, якщо виконується кілька SQL-операторів та для [cubridexecute()](function.cubrid-execute.md) встановлено прапор **`CUBRID_EXEC_QUERY_ALL`**
+Функция**cubrid\_next\_result()** використовується для отримання результатів наступного запиту, якщо виконується кілька SQL-операторів та для [cubrid\_execute()](function.cubrid-execute.md)установлен флаг\*\*`CUBRID_EXEC_QUERY_ALL`\*\*
 
 ### Список параметрів
 
 `result`
 
-`result` з виклику функції [cubridexecute()](function.cubrid-execute.md)
+`result` із виклику функції [cubrid\_execute()](function.cubrid-execute.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridnextresult()****
+**Пример #1 Пример использования**cubrid\_next\_result()\*\*\*\*
 
 ```php
 <?php
@@ -88,7 +89,7 @@ function get_result_info($req)
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 ------------ get_result_info --------------------
@@ -131,4 +132,4 @@ unit                           varchar                        5
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
+-   [cubrid\_execute()](function.cubrid-execute.md) \- Виконує підготовлений SQL-оператор

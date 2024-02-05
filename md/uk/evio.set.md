@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evio.md: EvIo
 title: 'EvIo::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvIo::set
 
@@ -31,11 +32,11 @@ public
 
 `fd`
 
-Дивіться [EvIo::construct()](evio.construct.md)
+Смотрите[EvIo::\_\_construct()](evio.construct.md)
 
 `events`
 
-Дивіться [EvIo::construct()](evio.construct.md)
+Смотрите[EvIo::\_\_construct()](evio.construct.md)
 
 ### Значення, що повертаються
 

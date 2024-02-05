@@ -3,20 +3,21 @@ navigation:
   - mysql-xdevapi-collectionremove.bind.md: '« CollectionRemove::bind'
   - mysql-xdevapi-collectionremove.execute.md: 'CollectionRemove::execute »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionremove.md: mysqlxdevapiCollectionRemove
-title: 'CollectionRemove::construct'
+  - class.mysql-xdevapi-collectionremove.md: mysql\_xdevapi\\CollectionRemove
+title: 'CollectionRemove::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CollectionRemove::construct
+# CollectionRemove::\_\_construct
 
 (No version information available, might only be in Git)
 
-CollectionRemove::construct — Конструктор класу CollectionRemove
+CollectionRemove::\_\_construct — Конструктор класу CollectionRemove
 
 ### Опис
 
-private **mysqlxdevapiCollectionRemove::construct**
+private**mysql\_xdevapi\\CollectionRemove::\_\_construct**()
 
-Видаляє документи колекції та створюється екземпляром методу Collection::remove().
+Видаляє документи колекції та створюється екземпляром методу **mysql\_xdevapi\\Collection::remove()**
 
 ### Список параметрів
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiCollectionRemove::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::remove()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::remove()\*\*\*\*
 
 ```php
 <?php

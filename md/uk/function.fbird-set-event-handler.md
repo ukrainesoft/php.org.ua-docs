@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.fbird-service-detach.md: « fbirdservicedetach
-  - function.fbird-trans.md: fbirdtrans »
+  - function.fbird-service-detach.md: « fbird\_service\_detach
+  - function.fbird-trans.md: fbird\_trans »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: fbirdseteventhandler
+  - ref.ibase.md: Функції Firebird/InterBase
+title: fbird\_set\_event\_handler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fbirdseteventhandler
+# fbird\_set\_event\_handler
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdseteventhandler - Псевдонім [ibaseseteventhandler()](function.ibase-set-event-handler.md)
+fbird\_set\_event\_handler — Псевдоним[ibase\_set\_event\_handler()](function.ibase-set-event-handler.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseseteventhandler()](function.ibase-set-event-handler.md)
+Функция — псевдоним функции:[ibase\_set\_event\_handler()](function.ibase-set-event-handler.md)
 
 ### Дивіться також
 
--   [fbirdfreeeventhandler()](function.fbird-free-event-handler.md) - Псевдонім ibasefreeeventhandler
--   [fbirdwaitevent()](function.fbird-wait-event.md) - Псевдонім ibasewaitevent
+-   [fbird\_free\_event\_handler()](function.fbird-free-event-handler.md) \- Псевдонім ibase\_free\_event\_handler
+-   [fbird\_wait\_event()](function.fbird-wait-event.md) \- Псевдонім ibase\_wait\_event

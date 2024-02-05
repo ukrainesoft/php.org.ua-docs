@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.messageformatter.md: MessageFormatter
 title: 'MessageFormatter::format'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # MessageFormatter::format
 
-# msgfmtformat
+# msgfmt\_format
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-MessageFormatter::format -- msgfmtformat — Форматує повідомлення
+MessageFormatter::format -- msgfmt\_format — Форматує повідомлення
 
 ### Опис
 
@@ -42,11 +43,11 @@ msgfmt_format(MessageFormatter $formatter, array $values): string|false
 
 ### Значення, що повертаються
 
-Відформатований рядок або **`false`** у разі виникнення помилки.
+Відформатований рядок або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **msgfmtformat()****
+**Пример #1 Пример использования**msgfmt\_format()\*\*\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ echo $fmt->format(array(4560, 123, 4560/123));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 4,560 monkeys on 123 trees make 37.073 monkeys per tree
@@ -77,8 +78,8 @@ echo $fmt->format(array(4560, 123, 4560/123));
 
 ### Дивіться також
 
--   [msgfmtcreate()](messageformatter.create.md) - Створює засіб форматування повідомлень
--   [msgfmtparse()](messageformatter.parse.md) - Розбирає рядок згідно шаблону
--   [msgfmtformatmessage()](messageformatter.formatmessage.md) - Швидко форматує повідомлення
--   [msgfmtgeterrorcode()](messageformatter.geterrorcode.md) - Повертає код помилки останньої операції
--   [msgfmtgeterrormessage()](messageformatter.geterrormessage.md) - Повертає текст помилки останньої операції
+-   [msgfmt\_create()](messageformatter.create.md) \- Створює засіб форматування повідомлень
+-   [msgfmt\_parse()](messageformatter.parse.md) \- Розбирає рядок згідно шаблону
+-   [msgfmt\_format\_message()](messageformatter.formatmessage.md) \- Швидко форматує повідомлення
+-   [msgfmt\_get\_error\_code()](messageformatter.geterrorcode.md) \- Повертає код помилки останньої операції
+-   [msgfmt\_get\_error\_message()](messageformatter.geterrormessage.md) \- Повертає текст помилки останньої операції

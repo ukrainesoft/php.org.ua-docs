@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-sqrtrem.md: « gmpsqrtrem
-  - function.gmp-sub.md: gmpsub »
+  - function.gmp-sqrtrem.md: « gmp\_sqrtrem
+  - function.gmp-sub.md: gmp\_sub »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpstrval
+title: gmp\_strval
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpstrval
+# gmp\_strval
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpstrval — Перетворення GMP числа на рядок
+gmp\_strval — Перетворює числа GMP на рядок
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpstrval — Перетворення GMP числа на рядок
 gmp_strval(GMP|int|string $num, int $base = 10): string
 ```
 
-Перетворює GMP число в рядок у системі числення `base`. За замовчуванням числа перетворюються на десятирічну систему числення.
+Перетворює GMP-число на рядок у системі числення параметра `base`. За замовчуванням числа перетворюються на десяткову систему числення.
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ GMP число для конвертації.
 
 ### Приклади
 
-**Приклад #1 Перетворення GMP числа в рядок**
+**Приклад #1 Перетворення GMP-числа на рядок**
 
 ```php
 <?php

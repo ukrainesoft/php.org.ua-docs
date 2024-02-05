@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-view-simple.assign.md: '« YafViewSimple::assign'
-  - yaf-view-simple.clear.md: 'YafViewSimple::clear »'
+  - yaf-view-simple.assign.md: '« Yaf\_View\_Simple::assign'
+  - yaf-view-simple.clear.md: 'Yaf\_View\_Simple::clear »'
   - index.md: PHP Manual
-  - class.yaf-view-simple.md: YafViewSimple
-title: 'YafViewSimple::assignRef'
+  - class.yaf-view-simple.md: Yaf\_View\_Simple
+title: 'Yaf\_View\_Simple::assignRef'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafViewSimple::assignRef
+# Yaf\_View\_Simple::assignRef
 
 (Yaf >=1.0.0)
 
-YafViewSimple::assignRef — Призначення assignRef
+Yaf\_View\_Simple::assignRef — Призначення assignRef
 
 ### Опис
 
@@ -18,7 +19,7 @@ YafViewSimple::assignRef — Призначення assignRef
 public Yaf_View_Simple::assignRef(string $name, mixed &$value): bool
 ```
 
-На відміну від [YafViewSimple::assign()](yaf-view-simple.assign.md), цей метод надає значення ref движку.
+В отличие от[Yaf\_View\_Simple::assign()](yaf-view-simple.assign.md), цей метод надає значення ref движку.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public Yaf_View_Simple::assignRef(string $name, mixed &$value): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafViewSimple::assignRef()****
+**Пример #1 Пример использования**Yaf\_View\_Simple::assignRef()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ class IndexController extends Yaf_Controller_Abstract {
 ?>
 ```
 
-**Приклад #2 Приклад використання **template()****
+**Пример #2 Пример использования**template()\*\*\*\*
 
 ```php
 <html>
@@ -68,7 +69,7 @@ class IndexController extends Yaf_Controller_Abstract {
 </html>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 /* доступ к IndexController: */
@@ -77,5 +78,5 @@ changed
 
 ### Дивіться також
 
--   [YafViewSimple::assign()](yaf-view-simple.assign.md) - Призначити значення
--   [YafViewSimple::set()](yaf-view-simple.set.md) - Встановлює значення для двигуна
+-   [Yaf\_View\_Simple::assign()](yaf-view-simple.assign.md) \- Призначити значення
+-   [Yaf\_View\_Simple::\_\_set()](yaf-view-simple.set.md) \- Встановлює значення для двигуна

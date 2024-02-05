@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.ps-add-weblink.md: «psaddweblink
-  - function.ps-arcn.md: псarcn »
+  - function.ps-add-weblink.md: « ps\_add\_weblink
+  - function.ps-arcn.md: ps\_arcn »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псarc
+title: ps\_arc
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псarc
+# ps\_arc
 
 (PECL ps >= 1.1.0)
 
-псarc — Малює дугу проти годинникової стрілки.
+ps\_arc — Малює дугу проти годинникової стрілки.
 
 ### Опис
 
 ```methodsynopsis
-ps_arc(    resource $psdoc,    float $x,    float $y,    float $radius,    float $alpha,    float $beta): bool
+ps_arc(    resource $psdoc,    float $x,    float $y,    float $radius,    float $alpha,    float $beta): bool
 ```
 
-Малює частину кола із середньою точкою в точці (`x` `y`). Дуга починається під кутом `alpha` і закінчується під кутом `beta`. Вона малюється проти годинникової стрілки (використовуйте [псarcn()](function.ps-arcn.md) для малювання за годинниковою стрілкою). Дочірній шлях, доданий до поточного шляху, починається на дузі під кутом `alpha` і закінчується на дузі під кутом `beta`
+Малює частину кола із середньою точкою в точці (`x` `y`). Дуга начинается под углом`alpha` і закінчується під кутом `beta`. Вона малюється проти годинникової стрілки (використовуйте [ps\_arcn()](function.ps-arcn.md) для малювання за годинниковою стрілкою). Дочірній шлях, доданий до поточного шляху, починається на дузі під кутом `alpha` і закінчується на дузі під кутом `beta`
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `x`
 
@@ -48,8 +49,8 @@ ps_arc(    resource $psdoc,    float $x,    float $y,    float $radius,    float
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псarcn()](function.ps-arcn.md) - Малює дугу за годинниковою стрілкою
+-   [ps\_arcn()](function.ps-arcn.md) \- Малює дугу за годинниковою стрілкою

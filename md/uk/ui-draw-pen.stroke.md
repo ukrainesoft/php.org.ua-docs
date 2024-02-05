@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-pen.save.md: '« UIDrawPen::save'
-  - ui-draw-pen.transform.md: 'ОЙDrawPen::transform »'
+  - ui-draw-pen.save.md: '« UI\\Draw\\Pen::save'
+  - ui-draw-pen.transform.md: 'UI\\Draw\\Pen::transform »'
   - index.md: PHP Manual
-  - class.ui-draw-pen.md: ОЙDrawPen
-title: 'ОЙDrawPen::stroke'
+  - class.ui-draw-pen.md: UI\\Draw\\Pen
+title: 'UI\\Draw\\Pen::stroke'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawPen::stroke
+# UI\\Draw\\Pen::stroke
 
 (UI 0.9.9)
 
-ОЙDrawPen::stroke — Обвести шлях
+UI\\Draw\\Pen::stroke — Обвести шлях
 
 ### Опис
 

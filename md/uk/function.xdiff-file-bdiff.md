@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xdiff-file-bdiff-size.md: xdifffilebdiffsize
-  - function.xdiff-file-bpatch.md: xdifffilebpatch »
+  - function.xdiff-file-bdiff-size.md: « xdiff\_file\_bdiff\_size
+  - function.xdiff-file-bpatch.md: xdiff\_file\_bpatch »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
-title: xdifffilebdiff
+title: xdiff\_file\_bdiff
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xdifffilebdiff
+# xdiff\_file\_bdiff
 
 (PECL xdiff >= 1.5.0)
 
-xdifffilebdiff — Створити бінарний патч порівнюючи два файли
+xdiff\_file\_bdiff — Створити бінарний патч порівнюючи два файли
 
 ### Опис
 
@@ -18,7 +19,7 @@ xdifffilebdiff — Створити бінарний патч порівнююч
 xdiff_file_bdiff(string $old_file, string $new_file, string $dest): bool
 ```
 
-Створює файл бінарного патчу, порівнюючи два файли. Ця функція працює як з бінарними, так і текстовими файлами. Надалі отриманий патч можна застосувати за допомогою функцій [xdifffilebpatch()](function.xdiff-file-bpatch.md)[xdiffstringbpatch()](function.xdiff-string-bpatch.md)
+Створює файл бінарного патчу, порівнюючи два файли. Ця функція працює як з бінарними, так і текстовими файлами. Надалі отриманий патч можна застосувати за допомогою функцій [xdiff\_file\_bpatch()](function.xdiff-file-bpatch.md) [xdiff\_string\_bpatch()](function.xdiff-string-bpatch.md)
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ xdiff_file_bdiff(string $old_file, string $new_file, string $dest): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdifffilebdiff()****
+**Пример #1 Пример использования**xdiff\_file\_bdiff()\*\*\*\*
 
 Наступний код створює бінарний патч.
 
@@ -55,10 +56,10 @@ xdiff_file_bdiff($old_version, $new_version, 'my_script.bdiff');
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Обидва файли будуть завантажені в пам'ять, тому переконайтеся, що параметр memorylimit налаштовано коректно.
+> Обидва файли будуть завантажені в пам'ять, тому переконайтеся, що параметр memory\_limit налаштовано коректно.
 
 ### Дивіться також
 
--   [xdifffilebpatch()](function.xdiff-file-bpatch.md) - Застосувати бінарний патч до файлу
+-   [xdiff\_file\_bpatch()](function.xdiff-file-bpatch.md) \- Застосувати бінарний патч до файлу

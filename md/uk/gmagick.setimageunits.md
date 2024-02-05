@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::setimageunits'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::setimageunits
 
@@ -24,7 +25,7 @@ public Gmagick::setimageunits(int $resolution): Gmagick
 
 `resolution`
 
-Одна з констант [разрешения](gmagick.constants.md#gmagick.constants.resolution) `Gmagick::RESOLUTION_*`
+Одна из констант[дозволу](gmagick.constants.md#gmagick.constants.resolution) `Gmagick::RESOLUTION_*`
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ public Gmagick::setimageunits(int $resolution): Gmagick
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

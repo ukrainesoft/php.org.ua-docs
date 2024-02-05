@@ -1,24 +1,25 @@
 ---
 navigation:
-  - class.mysql-xdevapi-expression.md: « mysqlxdevapiExpression
-  - class.mysql-xdevapi-result.md: mysqlxdevapiResult »
+  - class.mysql-xdevapi-expression.md: « mysql\_xdevapi\\Expression
+  - class.mysql-xdevapi-result.md: mysql\_xdevapi\\Result »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-expression.md: mysqlxdevapiExpression
-title: 'Expression::construct'
+  - class.mysql-xdevapi-expression.md: mysql\_xdevapi\\Expression
+title: 'Expression::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Expression::construct
+# Expression::\_\_construct
 
 (No version information available, might only be in Git)
 
-Expression::construct - Конструктор класу Expression
+Expression::\_\_construct - Конструктор класу Expression
 
 ### Опис
 
-public **mysqlxdevapiExpression::construct**(string `$expression`
+public**mysql\_xdevapi\\Expression::\_\_construct**(string`$expression`) .
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ public **mysqlxdevapiExpression::construct**(string `$expression`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiExpression::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Expression::\_\_construct()\*\*\*\*
 
 ```php
 <?php

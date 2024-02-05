@@ -4,9 +4,10 @@ navigation:
   - solrdismaxquery.removetrigramphrasefield.md: 'SolrDisMaxQuery::removeTrigramPhraseField »'
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
-title: 'Solr DisMax Query::remove Query Field'
+title: 'SolrDisMaxQuery::removeQueryField'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Solr DisMax Query::remove Query Field
+# SolrDisMaxQuery::removeQueryField
 
 (No version information available, might only be in Git)
 
@@ -34,7 +35,7 @@ qf: При створенні DisjunctionMaxQueries з запиту корист
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Solr DisMax Query::remove Query Field()****
+**Пример #1 Пример использования**SolrDisMaxQuery::removeQueryField()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ echo $dismaxQuery->removeQueryField('second');
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 q=lucene&defType=edismax&qf=first^3 second^0.2 cat
@@ -59,4 +60,4 @@ q=lucene&defType=edismax&qf=first^3 cat
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::addQueryField()](solrdismaxquery.addqueryfield.md) - Додає поле запиту із необов'язковим підвищенням (параметр qf)
+-   [SolrDisMaxQuery::addQueryField()](solrdismaxquery.addqueryfield.md) \- Додає поле запиту із необов'язковим підвищенням (параметр qf)

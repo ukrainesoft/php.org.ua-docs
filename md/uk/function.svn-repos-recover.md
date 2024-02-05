@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-repos-open.md: « svnreposopen
-  - function.svn-revert.md: svnrevert »
+  - function.svn-repos-open.md: « svn\_repos\_open
+  - function.svn-revert.md: svn\_revert »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnreposrecover
+title: svn\_repos\_recover
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnreposrecover
+# svn\_repos\_recover
 
 (PECL svn >= 0.1.0)
 
-svnreposrecover — Запускає процедури відновлення репозиторію
+svn\_repos\_recover — Запускає процедури відновлення репозиторію
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_repos_recover(string $path): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Запускає процедури відновлення репозиторію, розташованого в `path`
 

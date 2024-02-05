@@ -1,10 +1,11 @@
 ---
 navigation:
-  - radius.setup.md: « Встановлення та налаштування
-  - radius.installation.md: Установка »
+  - radius.setup.md: '" Встановлення та налаштування'
+  - radius.installation.md: Встановлення »
   - index.md: PHP Manual
   - radius.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 

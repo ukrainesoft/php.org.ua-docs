@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.getactionname.md: '« YafRequestAbstract::getActionName'
-  - yaf-request-abstract.getcontrollername.md: 'YafRequestAbstract::getControllerName »'
+  - yaf-request-abstract.getactionname.md: '« Yaf\_Request\_Abstract::getActionName'
+  - yaf-request-abstract.getcontrollername.md: 'Yaf\_Request\_Abstract::getControllerName »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::getBaseUri'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::getBaseUri'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::getBaseUri
+# Yaf\_Request\_Abstract::getBaseUri
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::getBaseUri — Призначення getBaseUri
+Yaf\_Request\_Abstract::getBaseUri — Призначення getBaseUri
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Request_Abstract::getBaseUri(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

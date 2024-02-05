@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-next-result.md: « odbcnextresult
-  - function.odbc-num-rows.md: odbcnumrows »
+  - function.odbc-next-result.md: « odbc\_next\_result
+  - function.odbc-num-rows.md: odbc\_num\_rows »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcnumfields
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_num\_fields
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcnumfields
+# odbc\_num\_fields
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcnumfields — Повертає кількість стовпців у результаті
+odbc\_num\_fields — Повертає кількість стовпців у результаті
 
 ### Опис
 
@@ -24,7 +25,7 @@ odbc_num_fields(resource $statement): int
 
 `statement`
 
-Ідентифікатор результату, що повертається [odbcexec()](function.odbc-exec.md)
+Ідентифікатор результату, що повертається [odbc\_exec()](function.odbc-exec.md)
 
 ### Значення, що повертаються
 

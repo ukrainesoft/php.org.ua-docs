@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getKeywordValuesForLocale'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getKeywordValuesForLocale
 
@@ -34,7 +35,7 @@ intlcal_get_keyword_values_for_locale(string $keyword, string $locale, bool $onl
 
 `keyword`
 
-Ключове слово для мовного стандарту, для якого потрібно запросити релевантні значення. Підтримується лише `'calendar'`
+Ключове слово мовного стандарту, для якого потрібно задати релевантні значення. Підтримується лише `'calendar'`
 
 `locale`
 
@@ -46,11 +47,11 @@ intlcal_get_keyword_values_for_locale(string $keyword, string $locale, bool $onl
 
 ### Значення, що повертаються
 
-Ітератор, який видає рядки зі значеннями ключових слів мовного стандарту або **`false`** у разі виникнення помилки.
+Ітератор, який видає рядки зі значеннями ключових слів мовного стандарту або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::getKeyworkValuesForLocale()****
+**Пример #1 Пример использования**IntlCalendar::getKeyworkValuesForLocale()\*\*\*\*
 
 ```php
 <?php
@@ -64,7 +65,7 @@ print_r(
                         'calendar', 'fa_IR', false)));
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array

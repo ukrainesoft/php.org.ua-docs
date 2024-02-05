@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.property-exists.md: « propertyexists
+  - function.property-exists.md: « property\_exists
   - book.ctype.md: Ctype »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
-title: traitexists
+title: trait\_exists
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traitexists
+# trait\_exists
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
-traitexists — Перевіряє, чи існує трейт
+trait\_exists — Перевіряє, чи існує трейт
 
 ### Опис
 
@@ -26,7 +27,7 @@ trait_exists(string $trait, bool $autoload = true): bool
 
 `autoload`
 
-Чи намагатиметься його завантажити автоматично
+Чи потрібно [автоматично підвантажувати](language.oop5.autoload.md) клас, якщо він ще не завантажений.
 
 ### Значення, що повертаються
 

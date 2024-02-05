@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.enchant.md: Enchant
 title: Клас EnchantDictionary
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EnchantDictionary
 
@@ -16,16 +17,11 @@ title: Клас EnchantDictionary
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class EnchantDictionary
-     
+     final
+     class EnchantDictionary
      {
    }
 ```

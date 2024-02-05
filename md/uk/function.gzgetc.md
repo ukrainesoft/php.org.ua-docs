@@ -3,8 +3,9 @@ navigation:
   - function.gzfile.md: « gzfile
   - function.gzgets.md: gzgets »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzgetc
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzgetc
 
@@ -28,11 +29,11 @@ gzgetc(resource $stream): string|false
 
 ### Значення, що повертаються
 
-Символ (несжатий) або **`false`** у випадку EOF (на відміну від [gzeof()](function.gzeof.md)
+Символ (несжатий) або \*\*`false`\*\*в случае EOF (в отличие от[gzeof()](function.gzeof.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gzgetc()****
+**Пример #1 Пример использования**gzgetc()\*\*\*\*
 
 ```php
 <?php
@@ -46,5 +47,5 @@ gzclose($gz);
 
 ### Дивіться також
 
--   [gzopen()](function.gzopen.md) - Відкрити gz-файл
--   [gzgets()](function.gzgets.md) - Отримати рядок із покажчика файлу
+-   [gzopen()](function.gzopen.md) \- Відкрити gz-файл
+-   [gzgets()](function.gzgets.md) \- Отримати рядок із покажчика файлу

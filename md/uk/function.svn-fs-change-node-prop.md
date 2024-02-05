@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.svn-fs-begin-txn2.md: « svnфсbegintxn2
-  - function.svn-fs-check-path.md: svnфсcheckpath »
+  - function.svn-fs-begin-txn2.md: « svn\_fs\_begin\_txn2
+  - function.svn-fs-check-path.md: svn\_fs\_check\_path »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсchangenodeprop
+title: svn\_fs\_change\_node\_prop
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсchangenodeprop
+# svn\_fs\_change\_node\_prop
 
 (PECL svn >= 0.2.0)
 
-svnфсchangenodeprop — Повертає **`true`**, якщо операція пройшла успішно або **`false`** в іншому випадку
+svn\_fs\_change\_node\_prop — Повертає **`true`**, якщо операція пройшла успішно або **`false`** в іншому випадку
 
 ### Опис
 
 ```methodsynopsis
-svn_fs_change_node_prop(    resource $root,    string $path,    string $name,    string $value): bool
+svn_fs_change_node_prop(    resource $root,    string $path,    string $name,    string $value): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає **`true`**, якщо операція пройшла успішно або **`false`** в іншому випадку.
 

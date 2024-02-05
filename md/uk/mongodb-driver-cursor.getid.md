@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-cursor.current.md: '« MongoDBDriverCursor::current'
-  - mongodb-driver-cursor.getserver.md: 'MongoDBDriverCursor::getServer »'
+  - mongodb-driver-cursor.current.md: '« MongoDB\\Driver\\Cursor::current'
+  - mongodb-driver-cursor.getserver.md: 'MongoDB\\Driver\\Cursor::getServer »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
-title: 'MongoDBDriverCursor::getId'
+  - class.mongodb-driver-cursor.md: MongoDB\\Driver\\Cursor
+title: 'MongoDB\\Driver\\Cursor::getId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverCursor::getId
+# MongoDB\\Driver\\Cursor::getId
 
 (mongodb >=1.0.0)
 
-MongoDBDriverCursor::getId — Повертає ідентифікатор для курсору
+MongoDB\\Driver\\Cursor::getId — Повертає ідентифікатор для курсору
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverCursor::getId — Повертає ідентифікатор дл�
 final public MongoDB\Driver\Cursor::getId(): MongoDB\Driver\CursorId
 ```
 
-Повертає [MongoDBDriverCursorId](class.mongodb-driver-cursorid.md), пов'язаний із цим курсором. Ідентифікатор курсору однозначно ідентифікує курсор на сервері.
+Повертає [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.md), пов'язаний із цим курсором. Ідентифікатор курсору однозначно ідентифікує курсор на сервері.
 
 ### Список параметрів
 
@@ -26,15 +27,15 @@ final public MongoDB\Driver\Cursor::getId(): MongoDB\Driver\CursorId
 
 ### Значення, що повертаються
 
-Повертає [MongoDBDriverCursorId](class.mongodb-driver-cursorid.md) для курсору.
+Повертає [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.md)для курсора.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverCursor::getId()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Cursor::getId()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ var_dump($cursor->getId());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(MongoDB\Driver\CursorId)#5 (1) {
@@ -68,5 +69,5 @@ object(MongoDB\Driver\CursorId)#5 (1) {
 
 ### Дивіться також
 
--   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.md)
--   [MongoDBDriverCursorId::toString()](mongodb-driver-cursorid.tostring.md) - Строкове подання ідентифікатора курсору
+-   [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.md)
+-   [MongoDB\\Driver\\CursorId::\_\_toString()](mongodb-driver-cursorid.tostring.md) \- Строкове подання ідентифікатора курсору

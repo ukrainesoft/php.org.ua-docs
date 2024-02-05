@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-send-query-params.md: « pgsendqueryparams
-  - function.pg-set-client-encoding.md: пгsetclientencoding »
+  - function.pg-send-query-params.md: « pg\_send\_query\_params
+  - function.pg-set-client-encoding.md: pg\_set\_client\_encoding »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгsendquery
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_send\_query
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгsendquery
+# pg\_send\_query
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгsendquery — Надсилає асинхронний запит
+pg\_send\_query — Надсилає асинхронний запит
 
 ### Опис
 
@@ -18,9 +19,9 @@ title: пгsendquery
 pg_send_query(PgSql\Connection $connection, string $query): int|bool
 ```
 
-**пгsendquery()** відправляє виконання асинхронний запит. На відміну від [пгquery()](function.pg-query.md) запит може містити кілька SQL-виражень, розділених крапкою з комою. Для отримання результату запиту скористайтеся функцією [пгgetresult()](function.pg-get-result.md)
+**pg\_send\_query()** відправляє виконання асинхронний запит. На відміну від [pg\_query()](function.pg-query.md) запит може містити кілька SQL-виражень, розділених крапкою з комою. Для отримання результату запиту скористайтеся функцією [pg\_get\_result()](function.pg-get-result.md)
 
-Виконання запиту не перериває роботу скрипта. Для визначення зайнятості з'єднання (коли запит ще виконується) використовуйте функцію [пгconnectionbusy()](function.pg-connection-busy.md). Виконання запиту можна перервати функцією [пгcancelquery()](function.pg-cancel-query.md)
+Виконання запиту не перериває роботу скрипта. Для визначення зайнятості з'єднання (коли запит ще виконується) використовуйте функцію [pg\_connection\_busy()](function.pg-connection-busy.md). Виконання запиту можна перервати функцією [pg\_cancel\_query()](function.pg-cancel-query.md)
 
 Незважаючи на те, що можна надіслати кілька запитів за раз, їх не можна надсилати, поки з'єднання зайняте. В іншому випадку, надісланий запит дочекається завершення попереднього, зітре його результат і запуститься сам. Таким чином, ви втратите дані результату попереднього запиту.
 
@@ -28,7 +29,7 @@ pg_send_query(PgSql\Connection $connection, string $query): int|bool
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md)
 
 `query`
 
@@ -38,17 +39,17 @@ pg_send_query(PgSql\Connection $connection, string $query): int|bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання, **`false`** або `0` у разі виникнення помилки. Для отримання результату запиту скористайтеся функцією [пгgetresult()](function.pg-get-result.md)
+Повертає **`true`** у разі успішного виконання, \*\*`false`\*\*или в случае возникновения ошибки. Для получения результата запроса используйте функцию[pg\_get\_result()](function.pg-get-result.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгsendquery()****
+**Пример #1 Пример использования**pg\_send\_query()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ pg_send_query(PgSql\Connection $connection, string $query): int|bool
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Первый вызов pg_get_result(): Resource id #3
@@ -82,7 +83,7 @@ Resource id #4 содержит 1 записей
 
 ### Дивіться також
 
--   [пгquery()](function.pg-query.md) - Виконує запит
--   [пгcancelquery()](function.pg-cancel-query.md) - Зупинення асинхронного запиту.
--   [пгgetresult()](function.pg-get-result.md) - Отримання результату асинхронного запиту
--   [пгconnectionbusy()](function.pg-connection-busy.md) - Перевіряє, чи зайнято з'єднання на даний момент.
+-   [pg\_query()](function.pg-query.md) \- Виконує запит
+-   [pg\_cancel\_query()](function.pg-cancel-query.md) \- Зупинення асинхронного запиту.
+-   [pg\_get\_result()](function.pg-get-result.md) \- Отримання результату асинхронного запиту
+-   [pg\_connection\_busy()](function.pg-connection-busy.md) \- Перевіряє, чи зайнято з'єднання на даний момент.

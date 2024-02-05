@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::animateImages'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::animateImages
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::animateImages — Анімація одного або кількох зображень
 
@@ -32,4 +33,4 @@ public Imagick::animateImages(string $x_server): bool
 
 ### Дивіться також
 
--   [Imagick::displayImage()](imagick.displayimage.md) - Виводить зображення
+-   [Imagick::displayImage()](imagick.displayimage.md) \- Виводить зображення

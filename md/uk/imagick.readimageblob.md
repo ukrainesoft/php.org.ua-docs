@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::readImageBlob'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::readImageBlob
 
@@ -34,7 +35,7 @@ public Imagick::readImageBlob(string $image, string $filename = ?): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::readImageBlob()****
+**Пример #1 Пример использования**Imagick::readImageBlob()\*\*\*\*
 
 ```php
 <?php

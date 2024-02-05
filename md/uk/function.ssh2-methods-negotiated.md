@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-forward-listen.md: « ssh2forwardlisten
-  - function.ssh2-poll.md: ssh2poll »
+  - function.ssh2-forward-listen.md: « ssh2\_forward\_listen
+  - function.ssh2-poll.md: ssh2\_poll »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2методівnegotiated
+title: ssh2\_methods\_negotiated
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2методівnegotiated
+# ssh2\_methods\_negotiated
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2методівnegotiated — Повертає список узгоджених методів
+ssh2\_methods\_negotiated — Повертає список узгоджених методів
 
 ### Опис
 
@@ -24,7 +25,7 @@ ssh2_methods_negotiated(resource $session): array
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.md)
 
 ### Значення, що повертаються
 
@@ -56,4 +57,4 @@ echo "\tMAC: {$methods['server_to_client']['mac']}\n";
 
 ### Дивіться також
 
--   [ssh2connect()](function.ssh2-connect.md) - Підключення до SSH-сервера
+-   [ssh2\_connect()](function.ssh2-connect.md) \- Підключення до SSH-сервера

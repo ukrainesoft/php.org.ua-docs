@@ -4,13 +4,14 @@ navigation:
   - class.sessionupdatetimestamphandlerinterface.md: SessionUpdateTimestampHandlerInterface »
   - index.md: PHP Manual
   - class.sessionidinterface.md: SessionIdInterface
-title: 'SessionIdInterface::createsid'
+title: 'SessionIdInterface::create\_sid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SessionIdInterface::createsid
+# SessionIdInterface::create\_sid
 
-(PHP 5> = 5.5.1, PHP 7, PHP 8)
+(PHP 5 >= 5.5.1, PHP 7, PHP 8)
 
-SessionIdInterface::createsid — Створити ідентифікатор сесії
+SessionIdInterface::create\_sid — Створити ідентифікатор сесії
 
 ### Опис
 
@@ -30,4 +31,4 @@ public SessionIdInterface::create_sid(): string
 
 ### Дивіться також
 
--   [SessionHandler::createsid()](sessionhandler.create-sid.md) - Повертає новий ідентифікатор сесії
+-   [SessionHandler::create\_sid()](sessionhandler.create-sid.md) \- Повертає новий ідентифікатор сесії

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getExtensionName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getExtensionName
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getExtensionName — Отримання імені модуля
 
@@ -26,8 +27,8 @@ public ReflectionFunctionAbstract::getExtensionName(): string|false
 
 ### Значення, що повертаються
 
-Ім'я модуля або **`false`** для функцій користувача.
+Имя модуля или\*\*`false`\*\* для функцій користувача.
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getExtension()](reflectionfunctionabstract.getextension.md) - Отримує інформацію про модуль
+-   [ReflectionFunctionAbstract::getExtension()](reflectionfunctionabstract.getextension.md) \- Отримує інформацію про модуль

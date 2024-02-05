@@ -1,10 +1,11 @@
 ---
 navigation:
   - directoryiterator.getextension.md: '« DirectoryIterator::getExtension'
-  - directoryiterator.getgroup.md: 'DirectoryIterator::getGroup »'
+  - directoryiterator.isdot.md: 'DirectoryIterator::isDot »'
   - index.md: PHP Manual
   - class.directoryiterator.md: DirectoryIterator
 title: 'DirectoryIterator::getFilename'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DirectoryIterator::getFilename
 
@@ -30,9 +31,9 @@ public DirectoryIterator::getFilename(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DirectoryIterator::getFilename()****
+**Пример #1 Пример использования**DirectoryIterator::getFilename()\*\*\*\*
 
-Приклад виведе список вмісту директорії, що містить скрипт.
+У цьому прикладі буде виведено вміст каталогу, що містить скрипт.
 
 ```php
 <?php
@@ -43,7 +44,7 @@ foreach ($dir as $fileinfo) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 .
@@ -56,7 +57,7 @@ pear.jpg
 
 ### Дивіться також
 
--   [DirectoryIterator::getBasename()](directoryiterator.getbasename.md) - Повертає ім'я файлу (без розширення) поточного елемента DirectoryIterator
--   [DirectoryIterator::getPath()](directoryiterator.getpath.md) - Повертає шлях до поточного елементу DirectoryIterator без імені файлу
--   [DirectoryIterator::getPathname()](directoryiterator.getpathname.md) - Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
--   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу
+-   [DirectoryIterator::getBasename()](directoryiterator.getbasename.md) \- Отримує базове ім'я поточного елемента DirectoryIterator
+-   **DirectoryIterator::getPath()**
+-   **DirectoryIterator::getPathname()**
+-   [pathinfo()](function.pathinfo.md) \- Повертає інформацію про шлях до файлу

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.opcache.md: « Функции OPcache
-  - function.opcache-get-configuration.md: opcachegetconfiguration »
+  - ref.opcache.md: « Функції OPcache
+  - function.opcache-get-configuration.md: opcache\_get\_configuration »
   - index.md: PHP Manual
-  - ref.opcache.md: Функции OPcache
-title: opcachecompilefile
+  - ref.opcache.md: Опції OPcache
+title: opcache\_compile\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opcachecompilefile
+# opcache\_compile\_file
 
-(PHP 5> = 5.5.5, PHP 7, PHP 8, PECL ZendOpcache > 7.0.2)
+(PHP 5 >= 5.5.5, PHP 7, PHP 8, PECL ZendOpcache > 7.0.2)
 
-opcachecompilefile — Скомпілювати та закешувати, але не виконувати скрипт PHP
+opcache\_compile\_file — Скомпілювати та закешувати, але не виконувати скрипт PHP
 
 ### Опис
 
@@ -28,12 +29,12 @@ opcache_compile_file(string $filename): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `filename` успішно скомпільований або **`false`** у разі виникнення помилки.
+Повертає **`true`**, якщо `filename` успішно скомпільований або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Якщо `filename` не може бути завантажений або скомпільований, буде видана помилка рівня **`E_WARNING`**. Для придушення попередження можна використовувати[](language.operators.errorcontrol.md)
+Якщо `filename` не може бути завантажений або скомпільований, буде видана помилка рівня **`E_WARNING`**. Для придушення попередження можна використовувати [@](language.operators.errorcontrol.md)
 
 ### Дивіться також
 
--   [opcacheinvalidate()](function.opcache-invalidate.md) - анулює закешований скрипт
+-   [opcache\_invalidate()](function.opcache-invalidate.md) \- анулює закешований скрипт

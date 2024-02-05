@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-cursor.rewind.md: '« MongoDBDriverCursor::rewind'
-  - mongodb-driver-cursor.toarray.md: 'MongoDBDriverCursor::toArray »'
+  - mongodb-driver-cursor.rewind.md: '« MongoDB\\Driver\\Cursor::rewind'
+  - mongodb-driver-cursor.toarray.md: 'MongoDB\\Driver\\Cursor::toArray »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
-title: 'MongoDBDriverCursor::setTypeMap'
+  - class.mongodb-driver-cursor.md: MongoDB\\Driver\\Cursor
+title: 'MongoDB\\Driver\\Cursor::setTypeMap'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverCursor::setTypeMap
+# MongoDB\\Driver\\Cursor::setTypeMap
 
 (mongodb >=1.0.0)
 
-MongoDBDriverCursor::setTypeMap — Встановлює карту типу для десеріалізації BSON
+MongoDB\\Driver\\Cursor::setTypeMap — Встановлює карту типу для десеріалізації BSON
 
 ### Опис
 
@@ -18,11 +19,11 @@ MongoDBDriverCursor::setTypeMap — Встановлює карту типу д�
 final public MongoDB\Driver\Cursor::setTypeMap(array $typemap): void
 ```
 
-Встановлює [конфігурацію карти типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps), яка буде використовуватися при десеріалізації результатів BSON значення PHP.
+Устанавливает[конфігурацію карти типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps), яка буде використовуватися при десеріалізації результатів BSON значення PHP.
 
 ### Список параметрів
 
-`typeMap` (array)
+`typeMap`(array)
 
 [Конфігурація карти типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps)
 
@@ -32,15 +33,15 @@ final public MongoDB\Driver\Cursor::setTypeMap(array $typemap): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 При ітерації курсором може викидатися такі винятки через неправильну конфігурацію карти типів:
 
--   Викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо клас на карті типів не може бути створений або не реалізує [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.md)
+-   Викидає [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо клас на карті типів не може бути створений або не реалізує[MongoDB\\BSON\\Unserializable](class.mongodb-bson-unserializable.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverCursor::setTypeMap()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Cursor::setTypeMap()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ foreach ($cursor as $document) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {

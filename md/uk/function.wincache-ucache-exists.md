@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.wincache-ucache-delete.md: « wincacheucachedelete
-  - function.wincache-ucache-get.md: wincacheucacheget »
+  - function.wincache-ucache-delete.md: « wincache\_ucache\_delete
+  - function.wincache-ucache-get.md: wincache\_ucache\_get »
   - index.md: PHP Manual
-  - ref.wincache.md: Функции WinCache
-title: wincacheucacheexists
+  - ref.wincache.md: Функції WinCache
+title: wincache\_ucache\_exists
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# wincacheucacheexists
+# wincache\_ucache\_exists
 
 (PECL wincache >= 1.1.0)
 
-wincacheucacheexists — Перевіряє, чи існує змінна в кеші користувача.
+wincache\_ucache\_exists — Перевіряє, чи існує змінна в кеші користувача.
 
 ### Опис
 
@@ -24,7 +25,7 @@ wincache_ucache_exists(string $key): bool
 
 `key`
 
-Параметр `key`, який використовувався для зберігання змінної в кеші . `key` чутливий до регістру.
+Параметр`key`, який використовувався для зберігання змінної в кеші . `key`чувствителен к регистру.
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ wincache_ucache_exists(string $key): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **wincacheucacheexists()****
+**Пример #1 Пример использования**wincache\_ucache\_exists()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump(wincache_ucache_exists('green'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -50,10 +51,10 @@ bool(true)
 
 ### Дивіться також
 
--   [wincacheucacheset()](function.wincache-ucache-set.md) - Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
--   [wincacheucacheadd()](function.wincache-ucache-add.md) - Додає змінну в кеш користувача, тільки якщо змінна ще не існує в кеші
--   [wincacheucacheget()](function.wincache-ucache-get.md) - Отримує змінну, що зберігається в користувальницькому кеші
--   [wincacheucacheclear()](function.wincache-ucache-clear.md) - Видаляє весь вміст кешу користувача.
--   [wincacheucachedelete()](function.wincache-ucache-delete.md) - Видаляє змінні з користувальницького кешу
--   [wincacheucachememinfo()](function.wincache-ucache-meminfo.md) - Отримує інформацію про використання пам'яті кешу користувача.
--   [wincacheucacheinfo()](function.wincache-ucache-info.md) - Отримує інформацію про дані, що зберігаються в кеші користувача
+-   [wincache\_ucache\_set()](function.wincache-ucache-set.md) \- Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
+-   [wincache\_ucache\_add()](function.wincache-ucache-add.md) \- Додає змінну в кеш користувача, тільки якщо змінна ще не існує в кеші
+-   [wincache\_ucache\_get()](function.wincache-ucache-get.md) \- Отримує змінну, що зберігається в користувальницькому кеші
+-   [wincache\_ucache\_clear()](function.wincache-ucache-clear.md) \- Видаляє весь вміст користувальницького кешу
+-   [wincache\_ucache\_delete()](function.wincache-ucache-delete.md) \- Видаляє змінні з користувальницького кешу
+-   [wincache\_ucache\_meminfo()](function.wincache-ucache-meminfo.md) \- Отримує інформацію про використання пам'яті кешу користувача.
+-   [wincache\_ucache\_info()](function.wincache-ucache-info.md) \- Отримує інформацію про дані, що зберігаються в кеші користувача

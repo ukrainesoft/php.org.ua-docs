@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.preg-last-error-msg.md: « preglasterrormsg
-  - function.preg-match-all.md: pregmatchall »
+  - function.preg-last-error-msg.md: « preg\_last\_error\_msg
+  - function.preg-match-all.md: preg\_match\_all »
   - index.md: PHP Manual
-  - ref.pcre.md: Функции PCRE
-title: preglasterror
+  - ref.pcre.md: Функції PCRE
+title: preg\_last\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# preglasterror
+# preg\_last\_error
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-preglasterror — Повертає код помилки виконання останнього регулярного виразу PCRE
+preg\_last\_error — Повертає код помилки виконання останнього регулярного виразу PCRE
 
 ### Опис
 
@@ -20,7 +21,7 @@ preg_last_error(): int
 
 Повертає код помилки виконання останнього регулярного виразу PCRE.
 
-**Приклад #1 Приклад використання **preglasterror()****
+**Пример #1 Пример использования**preg\_last\_error()\*\*\*\*
 
 ```php
 <?php
@@ -34,7 +35,7 @@ if (preg_last_error() == PREG_BACKTRACK_LIMIT_ERROR) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Был исчерпан лимит обратных ссылок!
@@ -46,16 +47,16 @@ if (preg_last_error() == PREG_BACKTRACK_LIMIT_ERROR) {
 
 ### Значення, що повертаються
 
-Повертає одну з наступних констант ([описаних на окремій сторінці.](pcre.constants.md)
+Повертає одну з наступних констант ([описаних на окремій сторінці.](pcre.constants.md)):
 
 -   **`PREG_NO_ERROR`**
 -   **`PREG_INTERNAL_ERROR`**
--   **`PREG_BACKTRACK_LIMIT_ERROR`** (Дивіться також [pcre.backtracklimit](pcre.configuration.md#ini.pcre.backtrack-limit)
--   **`PREG_RECURSION_LIMIT_ERROR`** (Дивіться також [pcre.recursionlimit](pcre.configuration.md#ini.pcre.recursion-limit)
+-   **`PREG_BACKTRACK_LIMIT_ERROR`**(смотрите также[pcre.backtrack\_limit](pcre.configuration.md#ini.pcre.backtrack-limit)) .
+-   **`PREG_RECURSION_LIMIT_ERROR`**(смотрите также[pcre.recursion\_limit](pcre.configuration.md#ini.pcre.recursion-limit)) .
 -   **`PREG_BAD_UTF8_ERROR`**
 -   **`PREG_BAD_UTF8_OFFSET_ERROR`**
 -   **`PREG_JIT_STACKLIMIT_ERROR`**
 
 ### Дивіться також
 
--   [preglasterrormsg()](function.preg-last-error-msg.md) - Повертає повідомлення про помилку останньої запущеної функції PCRE
+-   [preg\_last\_error\_msg()](function.preg-last-error-msg.md) \- Повертає повідомлення про помилку останньої запущеної функції PCRE

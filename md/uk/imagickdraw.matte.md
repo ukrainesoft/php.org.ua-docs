@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::matte'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::matte
 
@@ -20,7 +21,7 @@ public ImagickDraw::matte(float $x, float $y, int $paintMethod): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Зафарбовує канал непрозорості зображення з метою зробити торкнуті пікселі прозорими.
 
@@ -36,15 +37,15 @@ public ImagickDraw::matte(float $x, float $y, int $paintMethod): bool
 
 `paintMethod`
 
-Одна з констант [PAINT](imagick.constants.md#imagick.constants.paint) `imagick::PAINT_*`
+Одна из констант[PAINT](imagick.constants.md#imagick.constants.paint) `imagick::PAINT_*`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::matte()****
+**Пример #1 Пример использования**ImagickDraw::matte()\*\*\*\*
 
 ```php
 <?php

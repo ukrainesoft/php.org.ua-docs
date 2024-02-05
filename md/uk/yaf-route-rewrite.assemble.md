@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yaf-route-rewrite.md: « YafRouteRewrite
-  - yaf-route-rewrite.construct.md: 'YafRouteRewrite::construct »'
+  - class.yaf-route-rewrite.md: « Yaf\_Route\_Rewrite
+  - yaf-route-rewrite.construct.md: 'Yaf\_Route\_Rewrite::\_\_construct »'
   - index.md: PHP Manual
-  - class.yaf-route-rewrite.md: YafRouteRewrite
-title: 'YafRouteRewrite::assemble'
+  - class.yaf-route-rewrite.md: Yaf\_Route\_Rewrite
+title: 'Yaf\_Route\_Rewrite::assemble'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteRewrite::assemble
+# Yaf\_Route\_Rewrite::assemble
 
 (Yaf >=2.3.0)
 
-YafRouteRewrite::assemble — Збирає URL
+Yaf\_Route\_Rewrite::assemble — Збирає URL
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Yaf_Route_Rewrite::assemble(array $info, array $query = ?): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafRouteRewrite::assemble()****
+**Пример #1 Пример использования**Yaf\_Route\_Rewrite::assemble()\*\*\*\*
 
 ```php
 router = new Yaf_Router();
@@ -61,7 +62,7 @@ var_dump($router->getRoute('rewrite')->assemble(
 );
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(57) "/product/foo/bar/tmpkey1/tmpval1/?tkey1=tval1&tkey2=tval2"

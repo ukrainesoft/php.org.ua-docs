@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.register-shutdown-function.md: « registershutdownfunction
-  - function.unregister-tick-function.md: unregistertickfunction »
+  - function.register-shutdown-function.md: « register\_shutdown\_function
+  - function.unregister-tick-function.md: unregister\_tick\_function »
   - index.md: PHP Manual
-  - ref.funchand.md: Функции управления функциями
-title: registertickfunction
+  - ref.funchand.md: Функції керування функціями
+title: register\_tick\_function
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# registertickfunction
+# register\_tick\_function
 
-(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.3, PHP 5, PHP 7, PHP 8)
 
-registertickfunction — Реєструє функцію для виконання при кожному тику
+register\_tick\_function — Реєструє функцію для виконання при кожному тику
 
 ### Опис
 
@@ -18,7 +19,7 @@ registertickfunction — Реєструє функцію для виконанн
 register_tick_function(callable $callback, mixed ...$args): bool
 ```
 
-Реєструє функцію `callback`, яка повинна викликатись при кожному [тике](control-structures.declare.md#control-structures.declare.ticks)
+Реєструє функцію `callback`, яка повинна викликатись при кожному [тиці](control-structures.declare.md#control-structures.declare.ticks)
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ register_tick_function(callable $callback, mixed ...$args): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **registertickfunction()****
+**Пример #1 Пример использования**register\_tick\_function()\*\*\*\*
 
 ```php
 <?php
@@ -52,4 +53,4 @@ register_tick_function(array($object, 'my_method'), true);
 ### Дивіться також
 
 -   [declare](control-structures.declare.md)
--   [unregistertickfunction()](function.unregister-tick-function.md) - Видаляє функцію зі списку зареєстрованих для виконання на кожному тику
+-   [unregister\_tick\_function()](function.unregister-tick-function.md) \- Видаляє функцію зі списку зареєстрованих для виконання на кожному тику

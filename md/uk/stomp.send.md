@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.stomp.md: Stomp
 title: 'Stomp::send'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Stomp::send
 
-# stompsend
+# stomp\_send
 
 (PECL stomp >= 0.1.0)
 
-Stomp::send -- stompsend — Надсилає повідомлення
+Stomp::send -- stomp\_send — Надсилає повідомлення
 
 ### Опис
 
@@ -25,7 +26,7 @@ public Stomp::send(string $destination, mixed $msg, array $headers = ?): bool
 Процедурний стиль:
 
 ```methodsynopsis
-stomp_send(    resource $link,    string $destination,    mixed $msg,    array $headers = ?): bool
+stomp_send(    resource $link,    string $destination,    mixed $msg,    array $headers = ?): bool
 ```
 
 Надсилає повідомлення брокеру повідомлень (Message Broker).
@@ -34,7 +35,7 @@ stomp_send(    resource $link,    string $destination,    mixed $msg,    array $
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.md)
 
 `destination`
 
@@ -50,18 +51,18 @@ stomp_send(    resource $link,    string $destination,    mixed $msg,    array $
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-Дивіться [stompack()](stomp.ack.md)
+Смотрите[stomp\_ack()](stomp.ack.md)
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Також може бути зазначений заголовок транзакції, що означає, що прийом повідомлення повинен бути частиною іменованої транзакції.
 
 **Підказка**
 
-Stomp асинхронний за своєю суттю. Синхронний зв'язок може бути реалізований додаванням receipt-заголовка. Це змусить методи нічого не повертати, поки сервер не підтвердить отримання повідомлення або буде перевищено час очікування повідомлення.
+Stomp асинхронний за своєю суттю. Синхронний зв'язок може бути реалізований додаванням receipt-заголовка. Це змусить методи нічого не повертати, доки сервер не підтвердить отримання повідомлення або буде перевищено час очікування повідомлення.

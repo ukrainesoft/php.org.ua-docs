@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-route-supervar.construct.md: '« YafRouteSupervar::construct'
-  - class.yaf-session.md: YafSession »
+  - yaf-route-supervar.construct.md: '« Yaf\_Route\_Supervar::\_\_construct'
+  - class.yaf-session.md: Yaf\_Session »
   - index.md: PHP Manual
-  - class.yaf-route-supervar.md: YafRouteSupervar
-title: 'YafRouteSupervar::route'
+  - class.yaf-route-supervar.md: Yaf\_Route\_Supervar
+title: 'Yaf\_Route\_Supervar::route'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteSupervar::route
+# Yaf\_Route\_Supervar::route
 
 (Yaf >=1.0.0)
 
-YafRouteSupervar::route — Призначення route
+Yaf\_Route\_Supervar::route — Призначення route
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Route_Supervar::route(Yaf_Request_Abstract $request): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -28,4 +29,4 @@ public Yaf_Route_Supervar::route(Yaf_Request_Abstract $request): bool
 
 ### Значення, що повертаються
 
-Якщо у $GET є ключ (який був визначений у [YafRouteSupervar::construct()](yaf-route-supervar.construct.md)), поверне **`true`**, інакше поверне **`false`**
+Якщо у $\_GET є ключ (який був визначений у [Yaf\_Route\_Supervar::\_\_construct()](yaf-route-supervar.construct.md)), поверне **`true`**, інакше поверне **`false`**

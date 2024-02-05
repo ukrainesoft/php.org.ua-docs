@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.md: « sodiumcryptosignkeypairfromsecretkeyandpublickey
-  - function.sodium-crypto-sign-open.md: sodiumcryptosignopen »
+  - function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.md: « sodium\_crypto\_sign\_keypair\_from\_secretkey\_and\_publickey
+  - function.sodium-crypto-sign-open.md: sodium\_crypto\_sign\_open »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptosignkeypair
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_sign\_keypair
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptosignkeypair
+# sodium\_crypto\_sign\_keypair
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptosignkeypair — Довільно згенерувати секретний ключ та відповідний відкритий ключ
+sodium\_crypto\_sign\_keypair — Довільно згенерувати секретний ключ та відповідний відкритий ключ
 
 ### Опис
 

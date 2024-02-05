@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.get.md: '« DsMap::get'
-  - ds-map.hasvalue.md: 'ДсMap::hasValue »'
+  - ds-map.get.md: '« Ds\\Map::get'
+  - ds-map.hasvalue.md: 'Ds\\Map::hasValue »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::hasKey'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::hasKey'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::hasKey
+# Ds\\Map::hasKey
 
 (PECL ds >= 1.0.0)
 
-ДсMap::hasKey — Перевіряє, чи колекція містить заданий ключ
+Ds\\Map::hasKey — Перевіряє, чи колекція містить заданий ключ
 
 ### Опис
 
@@ -28,11 +29,11 @@ public Ds\Map::hasKey(mixed $key): bool
 
 ### Значення, що повертаються
 
-Повертає \*\*`true`\*\*якщо ключ знайдений, інакше **`false`**
+Повертає **`true`**, если ключ найден, иначе\*\*`false`\*\*
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::hasKey()****
+**Пример #1 Пример использования**Ds\\Map::hasKey()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($map->hasKey("e")); // false
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)

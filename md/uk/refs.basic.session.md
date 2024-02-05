@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.fpm-get-status.md: « fpmgetstatus
-  - book.session.md: Сессии »
+  - function.fpm-get-status.md: « fpm\_get\_status
+  - book.session.md: Сесії »
   - index.md: PHP Manual
-  - funcref.md: Справочник функций
+  - funcref.md: Довідник функцій
 title: Модулі для роботи із сесіями
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Модулі для роботи із сесіями
 
--   [Сессии](book.session.md) - Управління сесіями
-    -   [Введение](intro.session.md)
+-   [Сесії](book.session.md) \- Управління сесіями
+    -   [Вступ](intro.session.md)
     -   [Встановлення та налаштування](session.setup.md)
     -   [Обумовлені константи](session.constants.md)
     -   [Приклади](session.examples.md)
-    -   [Отслеживание прогресса загрузки файлов с помощью сессий](session.upload-progress.md)
+    -   [Відстеження прогресу завантаження файлів за допомогою сесій](session.upload-progress.md)
     -   [Безпека сесій](session.security.md)
     -   [Функції для роботи із сесіями](ref.session.md)
-    -   [SessionHandler](class.sessionhandler.md) - Клас SessionHandler
-    -   [SessionHandlerInterface](class.sessionhandlerinterface.md) - Клас SessionHandlerInterface
-    -   [SessionIdInterface](class.sessionidinterface.md) - Інтерфейс SessionIdInterface
-    -   [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md) — Інтерфейс SessionUpdateTimestampHandlerInterface
+    -   [SessionHandler](class.sessionhandler.md) \- Клас SessionHandler
+    -   [SessionHandlerInterface](class.sessionhandlerinterface.md) \- Клас SessionHandlerInterface
+    -   [SessionIdInterface](class.sessionidinterface.md) \- Інтерфейс SessionIdInterface
+    -   [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md)— Інтерфейс SessionUpdateTimestampHandlerInterface

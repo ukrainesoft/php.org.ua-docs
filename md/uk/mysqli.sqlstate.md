@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli.set-charset.md: '« mysqli::setcharset'
-  - mysqli.ssl-set.md: 'mysqli::sslset »'
+  - mysqli.set-charset.md: '« mysqli::set\_charset'
+  - mysqli.ssl-set.md: 'mysqli::ssl\_set »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::$sqlstate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # mysqli::$sqlstate
 
-# mysqlisqlstate
+# mysqli\_sqlstate
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$sqlstate -- mysqlisqlstate — Повертає код стану SQLSTATE останньої операції MySQL
+mysqli::$sqlstate -- mysqli\_sqlstate — Повертає код стану SQLSTATE останньої операції MySQL
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-string [$mysqli->sqlstate](mysqli.sqlstate.md)
+string[$mysqli->sqlstate](mysqli.sqlstate.md)
 
 Процедурний стиль
 
@@ -26,9 +27,9 @@ string [$mysqli->sqlstate](mysqli.sqlstate.md)
 mysqli_sqlstate(mysqli $mysql): string
 ```
 
-Повертає рядок із SQLSTATE кодом останньої помилки. Цей код складається з п'яти символів . `'00000'` означає відсутність помилок. Ці коди визначені у стандарті ANSI, а також у ODBC. Переглянути список можливих значень можна на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.html](http://dev.mysql.com/doc/mysql/en/error-handling.md)
+Повертає рядок із SQLSTATE кодом останньої помилки. Цей код складається з п'яти символів . `'00000'` означає відсутність помилок. Ці коди визначені у стандарті ANSI, а також у ODBC. Переглянути список можливих значень можна на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.md](http://dev.mysql.com/doc/mysql/en/error-handling.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Слід зазначити, що ще не всі помилки MySQL мають відображення в SQLSTATE кодах. Для подібних помилок використовується код `HY000` (Загальна помилка).
 
@@ -36,7 +37,7 @@ mysqli_sqlstate(mysqli $mysql): string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -50,20 +51,15 @@ mysqli_sqlstate(mysqli $mysql): string
 
 ```php
 <?php
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 $mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
-}
-
-/* таблица City уже существует, так что мы должны получить ошибку */
-if (!$mysqli->query("CREATE TABLE City (ID INT, Name VARCHAR(30))")) {
+/* Таблица City уже существует, поэтому мы должны получить ошибку */
+try {
+    $mysqli->query("CREATE TABLE City (ID INT, Name VARCHAR(30))");
+} catch (mysqli_sql_exception) {
     printf("Ошибка - SQLSTATE %s.\n", $mysqli->sqlstate);
 }
-
-$mysqli->close();
 ?>
 ```
 
@@ -71,24 +67,19 @@ $mysqli->close();
 
 ```php
 <?php
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 $link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
-}
-
-/* таблица City уже существует, так что мы должны получить ошибку */
-if (!mysqli_query($link, "CREATE TABLE City (ID INT, Name VARCHAR(30))")) {
+/* Таблица City уже существует, поэтому мы должны получить ошибку */
+try {
+    mysqli_query($link, "CREATE TABLE City (ID INT, Name VARCHAR(30))");
+} catch (mysqli_sql_exception) {
     printf("Ошибка - SQLSTATE %s.\n", mysqli_sqlstate($link));
 }
-
-mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Ошибка - SQLSTATE 42S01.
@@ -96,5 +87,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlierrno()](mysqli.errno.md) - Повертає код помилки останнього виклику функції
--   [mysqlierror()](mysqli.error.md) - Повертає рядок із описом останньої помилки
+-   [mysqli\_errno()](mysqli.errno.md) \- Повертає код помилки останнього виклику функції
+-   [mysqli\_error()](mysqli.error.md) \- Повертає рядок із описом останньої помилки

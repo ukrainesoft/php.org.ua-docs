@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.zookeeper-dispatch.md: « zookeeperdispatch
+  - function.zookeeper-dispatch.md: « zookeeper\_dispatch
   - zookeeper.addauth.md: 'Zookeeper::addAuth »'
   - index.md: PHP Manual
   - book.zookeeper.md: ZooKeeper
 title: Клас Zookeeper
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Zookeeper
 
@@ -41,13 +42,13 @@ public
 public
    connect(string $host, callable $watcher_cb = null, int $recv_timeout = 10000): void
 public
-   create(    string $path,    string $value,    array $acls,    int $flags = null): string
+   create(    string $path,    string $value,    array $acls,    int $flags = null): string
 public
    delete(string $path, int $version = -1): bool
 public
    exists(string $path, callable $watcher_cb = null): array
 public
-   get(    string $path,    callable $watcher_cb = null,    array &$stat = null,    int $max_size = 0): string
+   get(    string $path,    callable $watcher_cb = null,    array &$stat = null,    int $max_size = 0): string
 public
    getAcl(string $path): array
 public
@@ -63,7 +64,7 @@ public
 public
    isRecoverable(): bool
 public
-   set(    string $path,    string $value,    int $version = -1,    array &$stat = null): bool
+   set(    string $path,    string $value,    int $version = -1,    array &$stat = null): bool
 public
    setAcl(string $path, int $version, array $acl): bool
 public
@@ -335,7 +336,7 @@ public
 
 **`Zookeeper::PERM_ADMIN`**
 
-Можна запускати setacl()
+Можна запускати set\_acl()
 
 **`Zookeeper::PERM_ALL`**
 
@@ -363,7 +364,7 @@ public
 
 **`Zookeeper::LOG_LEVEL_INFO`**
 
-Виводити великі повідомлення про дії, окрім помилок та попереджень
+Виводити великі повідомлення про дії, крім помилок і попереджень
 
 **`Zookeeper::LOG_LEVEL_DEBUG`**
 
@@ -441,7 +442,7 @@ TODO: допоможіть нам покращити модуль
 
 **`Zookeeper::SYSTEMERROR`**
 
-Ніколи не викидається сервером і може використовуватися лише для обмеження діапазону кодів помилок. Всі помилки більші за цю, але меншу Zookeeper::APIERROR, є системними помилками.
+Ніколи не викидається сервером і може використовуватись лише для обмеження діапазону кодів помилок. Всі помилки більші за цю, але меншу Zookeeper::APIERROR, є системними помилками.
 
 **`Zookeeper::RUNTIMEINCONSISTENCY`**
 
@@ -469,7 +470,7 @@ TODO: допоможіть нам покращити модуль
 
 **`Zookeeper::BADARGUMENTS`**
 
-Неправильний аргумент.
+Некоректний аргумент.
 
 **`Zookeeper::INVALIDSTATE`**
 
@@ -477,7 +478,7 @@ TODO: допоможіть нам покращити модуль
 
 **`Zookeeper::NEWCONFIGNOQUORUM`**
 
-Кворум нової конфігурації не підключений і синхронізований із лідером останньої підтвердженої конфігурації. Спробуйте запустити переконфігурацію після підключення та синхронізації нових серверів.
+Кворум нової конфігурації не підключений і синхронізований з лідером останньої підтвердженої конфігурації. Спробуйте запустити переконфігурацію після підключення та синхронізації нових серверів.
 
 Доступно з версії ZooKeeper 3.5.0
 
@@ -495,7 +496,7 @@ TODO: допоможіть нам покращити модуль
 
 **`Zookeeper::APIERROR`**
 
-Ніколи не викидається сервером і може використовуватися лише для обмеження діапазону кодів помилок. Всі помилки більші за цю, є помилками API (значення менші за це означають системні помилки).
+Ніколи не викидається сервером і може використовуватись лише для обмеження діапазону кодів помилок. Всі помилки більші за цю, є помилками API (значення менші за це означають системні помилки).
 
 **`Zookeeper::NONODE`**
 
@@ -567,24 +568,24 @@ ZooKeeper закривається.
 
 ## Зміст
 
--   [Zookeeper::addAuth](zookeeper.addauth.md) — Вказує облікові дані програми
--   [Zookeeper::close](zookeeper.close.md) — Закриває обробник zookeeper та звільняє будь-які ресурси
--   [Zookeeper::connect](zookeeper.connect.md) — Створює дескриптор для спілкування із zookeeper
--   [Zookeeper::construct](zookeeper.construct.md) — Створює дескриптор для спілкування із zookeeper
--   [Zookeeper::create](zookeeper.create.md) - Створює синхронно вузол
--   [Zookeeper::delete](zookeeper.delete.md) — Видаляє синхронно вузол у zookeeper
--   [Zookeeper::exists](zookeeper.exists.md) — Синхронно перевіряє наявність вузла в zookeeper
--   [Zookeeper::get](zookeeper.get.md) — Синхронно отримує дані, пов'язані із вузлом
--   [Zookeeper::getAcl](zookeeper.getacl.md) — Синхронно отримує ACL, пов'язаний із вузлом
--   [Zookeeper::getChildren](zookeeper.getchildren.md) - Виводить список нащадків вузла синхронно
--   [Zookeeper::getClientId](zookeeper.getclientid.md) — Повертає ідентифікатор сесії клієнта, дійсний лише в тому випадку, якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE)
--   [Zookeeper::getConfig](zookeeper.getconfig.md) — Отримує екземпляр ZookeeperConfig
--   [Zookeeper::getRecvTimeout](zookeeper.getrecvtimeout.md) — Повертає час очікування для сесії, дійсний тільки якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE). Це значення може змінитися після повторного підключення до сервера
--   [Zookeeper::getState](zookeeper.getstate.md) — Отримує стан з'єднання zookeeper
--   [Zookeeper::isRecoverable](zookeeper.isrecoverable.md) — Перевіряє, чи можна відновити поточний стан підключення ZooKeeper
--   [Zookeeper::set](zookeeper.set.md) - Встановлює дані, пов'язані з вузлом
--   [Zookeeper::setAcl](zookeeper.setacl.md) — Встановлює ACL, пов'язаний із вузлом синхронно
--   [Zookeeper::setDebugLevel](zookeeper.setdebuglevel.md) — Встановлює рівень логування для бібліотеки
--   [Zookeeper::setDeterministicConnOrder](zookeeper.setdeterministicconnorder.md) - Увімкнення/відключення рандомізації порядку кінцевих точок кворуму
--   [Zookeeper::setLogStream](zookeeper.setlogstream.md) — Встановлює потік, який використовуватиме бібліотека для логування
--   [Zookeeper::setWatcher](zookeeper.setwatcher.md) - Встановлює функцію спостерігача
+-   [Zookeeper::addAuth](zookeeper.addauth.md)— Вказує облікові дані програми
+-   [Zookeeper::close](zookeeper.close.md)— Закриває обробник zookeeper та звільняє будь-які ресурси
+-   [Zookeeper::connect](zookeeper.connect.md)— Створює дескриптор для спілкування із zookeeper
+-   [Zookeeper::\_\_construct](zookeeper.construct.md)— Створює дескриптор для спілкування із zookeeper
+-   [Zookeeper::create](zookeeper.create.md) \- Створює синхронно вузол
+-   [Zookeeper::delete](zookeeper.delete.md)— Видаляє синхронно вузол у zookeeper
+-   [Zookeeper::exists](zookeeper.exists.md)— Синхронно перевіряє наявність вузла в zookeeper
+-   [Zookeeper::get](zookeeper.get.md)— Синхронно отримує дані, пов'язані із вузлом
+-   [Zookeeper::getAcl](zookeeper.getacl.md)— Синхронно отримує ACL, пов'язаний із вузлом
+-   [Zookeeper::getChildren](zookeeper.getchildren.md) \- Виводить список нащадків вузла синхронно
+-   [Zookeeper::getClientId](zookeeper.getclientid.md)— Повертає ідентифікатор сесії клієнта, дійсний лише в тому випадку, якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOO\_CONNECTED\_STATE)
+-   [Zookeeper::getConfig](zookeeper.getconfig.md)— Отримує екземпляр ZookeeperConfig
+-   [Zookeeper::getRecvTimeout](zookeeper.getrecvtimeout.md)— Повертає час очікування для сесії, дійсний тільки якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOO\_CONNECTED\_STATE). Це значення може змінитися після повторного підключення до сервера
+-   [Zookeeper::getState](zookeeper.getstate.md)— Отримує стан з'єднання zookeeper
+-   [Zookeeper::isRecoverable](zookeeper.isrecoverable.md)— Перевіряє, чи можна відновити поточний стан підключення ZooKeeper
+-   [Zookeeper::set](zookeeper.set.md) \- Встановлює дані, пов'язані з вузлом
+-   [Zookeeper::setAcl](zookeeper.setacl.md)— Встановлює ACL, пов'язаний із вузлом синхронно
+-   [Zookeeper::setDebugLevel](zookeeper.setdebuglevel.md)— Встановлює рівень логування для бібліотеки
+-   [Zookeeper::setDeterministicConnOrder](zookeeper.setdeterministicconnorder.md) \- Увімкнення/відключення рандомізації порядку кінцевих точок кворуму
+-   [Zookeeper::setLogStream](zookeeper.setlogstream.md)— Встановлює потік, який використовуватиме бібліотека для логування
+-   [Zookeeper::setWatcher](zookeeper.setwatcher.md) \- Встановлює функцію спостерігача

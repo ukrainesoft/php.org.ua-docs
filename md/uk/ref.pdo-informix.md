@@ -1,33 +1,34 @@
 ---
 navigation:
-  - ref.pdo-ibm.connection.md: « PDOIBM DSN
-  - ref.pdo-informix.connection.md: PDOINFORMIX DSN »
+  - ref.pdo-ibm.connection.md: « PDO\_IBM DSN
+  - ref.pdo-informix.connection.md: PDO\_INFORMIX DSN »
   - index.md: PHP Manual
   - pdo.drivers.md: Драйвери PDO
-title: Функції Informix (PDOINFORMIX)
+title: Функції Informix (PDO\_INFORMIX)
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Функції Informix (PDOINFORMIX)
+# Функції Informix (PDO\_INFORMIX)
 
 ## Вступ
 
-PDOINFORMIX – це драйвер, що реалізує інтерфейс [PHP Data Objects (PDO)](intro.pdo.md) для доступу до бази даних Informix.
+PDO\_INFORMIX – це драйвер, що реалізує інтерфейс [PHP Data Objects (PDO)](intro.pdo.md) для доступу до бази даних Informix.
 
-## Встановлення
+## Установка
 
-Для складання модуля PDOINFORMIX знадобиться встановлений на тому ж хості Informix Client SDK 2.81 UC1 або вище. Informix Client SDK можна завантажити з [» сайта поддержки IBM Informix](http://www-306.ibm.com/software/data/informix/tools/csdk/)
+Для складання модуля PDO\_INFORMIX знадобиться встановлений на тому ж хості Informix Client SDK 2.81 UC1 або вище. Informix Client SDK можна завантажити з [» сайту підтримки IBM Informix](http://www-306.ibm.com/software/data/informix/tools/csdk/)
 
-PDOINFORMIX є модулем [» PECL](https://pecl.php.net/), так що для його встановлення дотримуйтесь наступних інструкцій [Установка модулей PECL](install.pecl.md). Виконайте команду **configure** вказавши місцезнаходження заголовкових файлів та бібліотек Informix Client SDK:
+PDO\_INFORMIX є модулем [» PECL](https://pecl.php.net/), так что для его установки следуйте следующим инструкциям[Встановлення модулів PECL](install.pecl.md). Виконайте команду **configure** вказавши місцезнаходження заголовкових файлів та бібліотек Informix Client SDK:
 
 ```
 bash$ ./configure --with-pdo-informix=/path/to/SDK[,shared]
 ```
 
-За замовчуванням команда **configure** буде використовувати значення змінної оточення `INFORMIXDIR`
+По умолчанию команда**configure** буде використовувати значення змінної оточення INFORMIXDIR.
 
 ## Перемотується курсор
 
-PDOINFORMIX підтримує курсори, що перемотуються; проте за умовчанням їх використання не дозволено. Для дозволу їхньої підтримки ви повинні вказати **`ENABLESCROLLABLECURSORS=1`** у відповідних налаштуваннях з'єднання ODBC в odbc.ini або встановити параметр **`EnableScrollableCursors=1`** у рядку з'єднання (DSN).
+PDO\_INFORMIX підтримує курсори, що перемотуються; проте за умовчанням їх використання не дозволено. Для дозволу їхньої підтримки ви повинні вказати **`ENABLESCROLLABLECURSORS=1`** у відповідних налаштуваннях з'єднання ODBC в odbc.ini або встановити параметр \*\*`EnableScrollableCursors=1`\*\*в строке соединения (DSN).
 
 ## Зміст
 
--   [PDOINFORMIX DSN](ref.pdo-informix.connection.md) — З'єднання з базою даних Informix
+-   [PDO\_INFORMIX DSN](ref.pdo-informix.connection.md)— З'єднання з базою даних Informix

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-next-entry.md: « ldapnextentry
-  - function.ldap-parse-exop.md: ldapparseexop »
+  - function.ldap-next-entry.md: « ldap\_next\_entry
+  - function.ldap-parse-exop.md: ldap\_parse\_exop »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapnextreference
+title: ldap\_next\_reference
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapnextreference
+# ldap\_next\_reference
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
-ldapnextreference — Повертає наступну довідку
+ldap\_next\_reference — Повертає наступну довідку
 
 ### Опис
 
@@ -20,4 +21,4 @@ ldap_next_reference(LDAP\Connection $ldap, LDAP\ResultEntry $entry): LDAP\Result
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

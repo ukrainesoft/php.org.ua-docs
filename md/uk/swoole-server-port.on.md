@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server-port.destruct.md: '« SwooleServerPort::destruct'
-  - swoole-server-port.set.md: 'SwooleServerPort::set »'
+  - swoole-server-port.destruct.md: '« Swoole\\Server\\Port::\_\_destruct'
+  - swoole-server-port.set.md: 'Swoole\\Server\\Port::set »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServerPort::on'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server\\Port::on'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServerPort::on
+# Swoole\\Server\\Port::on
 
 (PECL swoole >= 1.9.0)
 
-SwooleServerPort::on — Реєструє callback-функції події
+Swoole\\Server\\Port::on - Реєструє callback-функції події
 
 ### Опис
 

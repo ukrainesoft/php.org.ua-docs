@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-show2.md: «psshow2
-  - function.ps-string-geometry.md: псstringgeometry »
+  - function.ps-show2.md: « ps\_show2
+  - function.ps-string-geometry.md: ps\_string\_geometry »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псshow
+title: ps\_show
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псshow
+# ps\_show
 
 (PECL ps >= 1.1.0)
 
-псshow — Виводить текст
+ps\_show — Виводить текст
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: псshow
 ps_show(resource $psdoc, string $text): bool
 ```
 
-Виводить текст у поточній позиції. Положення тексту можна встановити, erfpfd координати X та Y у значеннях `textx` і `texty` за допомогою функції [псsetvalue()](function.ps-set-value.md). Функція видасть помилку, якщо шрифт не було встановлено раніше за допомогою [псsetfont()](function.ps-setfont.md)
+Виводить текст у поточній позиції. Положення тексту можна встановити, erfpfd координати X та Y у значеннях `textx`и`texty` за допомогою функції [ps\_set\_value()](function.ps-set-value.md). Функція видасть помилку, якщо шрифт не було встановлено раніше за допомогою [ps\_setfont()](function.ps-setfont.md)
 
-Функція **псshow()** оцінює наступні параметри та значення, встановлені [псsetparameter()](function.ps-set-parameter.md) і [псsetvalue()](function.ps-set-value.md)
+Функция**ps\_show()** оцінює наступні параметри та значення, встановлені [ps\_set\_parameter()](function.ps-set-parameter.md) і [ps\_set\_value()](function.ps-set-value.md)
 
 charspacing (значення)
 
-Відстань між двома послідовними гліфами. Якщо це значення не дорівнює нулю, всі лігатури будуть дозволені. Допускаються значення менше нуля.
+Відстань між двома послідовними гліфами. Якщо це значення не дорівнює нулю, всі лігатури буде дозволено. Допускаються значення менше нуля.
 
 kerning (параметр)
 
@@ -50,7 +51,7 @@ strikeout (параметр)
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `text`
 
@@ -58,10 +59,10 @@ strikeout (параметр)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псcontinuetext()](function.ps-continue-text.md) - Продовжує текст у наступному рядку
--   [псshowxy()](function.ps-show-xy.md) - Виводить текст у заданій позиції
--   [псsetfont()](function.ps-setfont.md) - Встановлює шрифт, який використовуватиметься для наступного висновку
+-   [ps\_continue\_text()](function.ps-continue-text.md) \- Продовжує текст у наступному рядку
+-   [ps\_show\_xy()](function.ps-show-xy.md) \- Виводить текст у заданій позиції
+-   [ps\_setfont()](function.ps-setfont.md) \- Встановлює шрифт, який використовуватиметься для наступного висновку

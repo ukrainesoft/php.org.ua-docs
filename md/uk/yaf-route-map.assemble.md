@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yaf-route-map.md: « YafRouteMap
-  - yaf-route-map.construct.md: 'YafRouteMap::construct »'
+  - class.yaf-route-map.md: « Yaf\_Route\_Map
+  - yaf-route-map.construct.md: 'Yaf\_Route\_Map::\_\_construct »'
   - index.md: PHP Manual
-  - class.yaf-route-map.md: YafRouteMap
-title: 'YafRouteMap::assemble'
+  - class.yaf-route-map.md: Yaf\_Route\_Map
+title: 'Yaf\_Route\_Map::assemble'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteMap::assemble
+# Yaf\_Route\_Map::assemble
 
 (Yaf >=2.3.0)
 
-YafRouteMap::assemble — Збирає URL
+Yaf\_Route\_Map::assemble — Збирає URL
 
 ### Опис
 
@@ -28,15 +29,15 @@ public Yaf_Route_Map::assemble(array $info, array $query = ?): string
 
 ### Значення, що повертаються
 
-Повертає рядок (string) у разі успішного виконання або **`null`** у разі виникнення помилки.
+Повертає рядок (string) у разі успішного виконання або \*\*`null`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Може викинути [YafExceptionTypeError](class.yaf-exception-typeerror.md)
+Може викинути [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafRouteMap::assemble()****
+**Пример #1 Пример использования**Yaf\_Route\_Map::assemble()\*\*\*\*
 
 ```php
 <?php
@@ -73,7 +74,7 @@ var_dump($router->getRoute('map')->assemble(
 );
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(%d) "/foo/bar?tkey1=tval1&tkey2=tval2"

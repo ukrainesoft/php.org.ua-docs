@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-set-return.md: « uopzsetreturn
-  - function.uopz-undefine.md: uopzundefine »
+  - function.uopz-set-return.md: « uopz\_set\_return
+  - function.uopz-undefine.md: uopz\_undefine »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzsetstatic
+title: uopz\_set\_static
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzsetstatic
+# uopz\_set\_static
 
-(PECL uopz 5, PECL uopz, PECL uopz 7)
+(PECL uopz 5, PECL uopz , PECL uopz 7)
 
-uopzsetstatic - Встановлює статичні змінні в області видимості функції або методу
+uopz\_set\_static - Встановлює статичні змінні в області видимості функції або методу
 
 ### Опис
 
@@ -44,7 +45,7 @@ uopz_set_static(string $class, string $function, array $static): void
 
 ### Приклади
 
-**Приклад #1 Просте використання **uopzsetstatic()****
+**Пример #1 Простое использование**uopz\_set\_static()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ foo();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(3) "qux"
@@ -65,4 +66,4 @@ string(3) "qux"
 
 ### Дивіться також
 
--   [uopzgetstatic()](function.uopz-get-static.md) - Повертає статичні змінні в області видимості функції або методу
+-   [uopz\_get\_static()](function.uopz-get-static.md) \- Повертає статичні змінні в області видимості функції або методу

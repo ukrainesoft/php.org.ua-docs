@@ -1,10 +1,11 @@
 ---
 navigation:
-  - simplexmlelement.tostring.md: '« SimpleXMLElement::toString'
+  - simplexmlelement.valid.md: '« SimpleXMLElement::valid'
   - class.simplexmliterator.md: SimpleXMLIterator »
   - index.md: PHP Manual
   - class.simplexmlelement.md: SimpleXMLElement
 title: 'SimpleXMLElement::xpath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SimpleXMLElement::xpath
 
@@ -18,7 +19,7 @@ SimpleXMLElement::xpath — Запускає запит XPath до XML-дани�
 public SimpleXMLElement::xpath(string $expression): array|null|false
 ```
 
-Метод `xpath` шукає вузли SimpleXML з дочірніми елементами, що відповідають XPath `expression`
+Метод`xpath` шукає вузли SimpleXML з дочірніми елементами, що відповідають XPath `expression`
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public SimpleXMLElement::xpath(string $expression): array|null|false
 
 ### Значення, що повертаються
 
-Повертає масив (array) об'єктів SimpleXMLElement у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає масив (array) об'єктів SimpleXMLElement у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -66,7 +67,7 @@ foreach ($result as $node) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 /a/b/c: текст
@@ -79,7 +80,7 @@ b/c: вещь
 
 ### Дивіться також
 
--   [SimpleXMLElement::registerXPathNamespace()](simplexmlelement.registerxpathnamespace.md) - Створює префікс/простір імен контексту для наступного запиту XPath
--   [SimpleXMLElement::getDocNamespaces()](simplexmlelement.getdocnamespaces.md) - Повертає простори імен, оголошених у документі
--   [SimpleXMLElement::getNamespaces()](simplexmlelement.getnamespaces.md) - Повертає простір імен, що використовуються в документі
--   [Базовое использование SimpleXML](simplexml.examples-basic.md)
+-   [SimpleXMLElement::registerXPathNamespace()](simplexmlelement.registerxpathnamespace.md) \- Створює префікс/простір імен контексту для наступного запиту XPath
+-   [SimpleXMLElement::getDocNamespaces()](simplexmlelement.getdocnamespaces.md) \- Повертає простори імен, оголошених у документі
+-   [SimpleXMLElement::getNamespaces()](simplexmlelement.getnamespaces.md) \- Повертає простір імен, які використовуються в документі
+-   [Базове використання SimpleXML](simplexml.examples-basic.md)

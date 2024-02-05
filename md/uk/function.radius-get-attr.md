@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.radius-demangle.md: « radiusdemangle
-  - function.radius-get-tagged-attr-data.md: radiusgettaggedattrdata »
+  - function.radius-demangle.md: « radius\_demangle
+  - function.radius-get-tagged-attr-data.md: radius\_get\_tagged\_attr\_data »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiusgetattr
+  - ref.radius.md: Функції Radius
+title: radius\_get\_attr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiusgetattr
+# radius\_get\_attr
 
 (PECL radius >= 1.1.0)
 
-radiusgetattr — Витягує атрибут
+radius\_get\_attr — Витягує атрибут
 
 ### Опис
 
@@ -18,7 +19,7 @@ radiusgetattr — Витягує атрибут
 radius_get_attr(resource $radius_handle): mixed
 ```
 
-Як і запити Radius, кожна відповідь може містити нуль або більше атрибутів. Після того, як відповідь була успішно отримана від [radiussendrequest()](function.radius-send-request.md), його атрибути можуть бути витягнуті один за одним за допомогою **radiusgetattr()**. Щоразу, коли викликається **radiusgetattr()**, функція отримує наступний атрибут із поточної відповіді.
+Як і запити Radius, кожна відповідь може містити нуль або більше атрибутів. Після того, як відповідь була успішно отримана від [radius\_send\_request()](function.radius-send-request.md), його атрибути можуть бути витягнуті один за одним за допомогою **radius\_get\_attr()**. Щоразу, коли викликається **radius\_get\_attr()**, функція отримує наступний атрибут із поточної відповіді.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ radius_get_attr(resource $radius_handle): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radiusgetattr()****
+**Пример #1 Пример использования**radius\_get\_attr()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ while ($resa = radius_get_attr($res)) {
 
 ### Дивіться також
 
--   [radiusputattr()](function.radius-put-attr.md) - приєднує бінарний атрибут
--   [radiusgetvendorattr()](function.radius-get-vendor-attr.md) - Витягує атрибут, що залежить від постачальника
--   [radiusputvendorattr()](function.radius-put-vendor-attr.md) - Приєднує бінарний атрибут, що залежить від постачальника
--   [radiussendrequest()](function.radius-send-request.md) - Відправляє запит і чекає на відповідь
+-   [radius\_put\_attr()](function.radius-put-attr.md) \- приєднує бінарний атрибут
+-   [radius\_get\_vendor\_attr()](function.radius-get-vendor-attr.md) \- Витягує атрибут, що залежить від постачальника
+-   [radius\_put\_vendor\_attr()](function.radius-put-vendor-attr.md) \- Приєднує бінарний атрибут, що залежить від постачальника
+-   [radius\_send\_request()](function.radius-send-request.md) \- Відправляє запит і чекає на відповідь

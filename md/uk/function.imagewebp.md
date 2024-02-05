@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagewebp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagewebp
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 imagewebp — Виведення зображення WebP у браузер або файл
 
@@ -36,7 +37,7 @@ imagewebp(GdImage $image, resource|string|null $file = null, int $quality = -1):
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 **Застереження**
 
@@ -44,9 +45,9 @@ imagewebp(GdImage $image, resource|string|null $file = null, int $quality = -1):
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::allowsNull'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionParameter::allowsNull
 
@@ -18,7 +19,7 @@ ReflectionParameter::allowsNull — Перевіряє, чи допустимо 
 public ReflectionParameter::allowsNull(): bool
 ```
 
-Перевіряє, чи допустиме значення **`null`** для параметра.
+Перевіряє, чи допустиме значення \*\*`null`\*\*для параметра.
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ public ReflectionParameter::allowsNull(): bool
 
 ### Дивіться також
 
--   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.md) - Перевіряє, чи є аргумент необов'язковим
+-   [ReflectionParameter::isOptional()](reflectionparameter.isoptional.md) \- Перевіряє, чи є аргумент необов'язковим

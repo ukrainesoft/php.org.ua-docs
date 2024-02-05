@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-table.construct.md: '« SwooleTable::construct'
-  - swoole-table.create.md: 'SwooleTable::create »'
+  - swoole-table.construct.md: '« Swoole\\Table::\_\_construct'
+  - swoole-table.create.md: 'Swoole\\Table::create »'
   - index.md: PHP Manual
-  - class.swoole-table.md: SwooleTable
-title: 'SwooleTable::count'
+  - class.swoole-table.md: Swoole\\Table
+title: 'Swoole\\Table::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTable::count
+# Swoole\\Table::count
 
 (PECL swoole >= 1.9.0)
 
-SwooleTable::count — Підраховує рядки у таблиці або підраховує всі елементи у таблиці, якщо $mode = 1
+Swoole\\Table::count — Підраховує рядки у таблиці або підраховує всі елементи у таблиці, якщо $mode = 1
 
 ### Опис
 

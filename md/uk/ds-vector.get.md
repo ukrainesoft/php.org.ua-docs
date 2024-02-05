@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.first.md: '« DsVector::first'
-  - ds-vector.insert.md: 'ДсVector::insert »'
+  - ds-vector.first.md: '« Ds\\Vector::first'
+  - ds-vector.insert.md: 'Ds\\Vector::insert »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::get'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::get
+# Ds\\Vector::get
 
 (PECL ds >= 1.0.0)
 
-ДсVector::get — Повертає значення за індексом
+Ds\\Vector::get — Повертає значення за індексом
 
 ### Опис
 
@@ -36,7 +37,7 @@ public Ds\Vector::get(int $index): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::get()****
+**Пример #1 Пример использования**Ds\\Vector::get()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($vector->get(2));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"
@@ -56,7 +57,7 @@ string(1) "b"
 string(1) "c"
 ```
 
-**Приклад #2 Приклад використання **ДсVector::get()** із синтаксисом масиву**
+**Пример #2 Пример использования**Ds\\Vector::get()\*\* із синтаксисом масиву\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ var_dump($vector[2]);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"

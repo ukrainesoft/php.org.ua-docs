@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.hash-algos.md: « hashalgos
-  - function.hash-equals.md: hashequals »
+  - function.hash-algos.md: « hash\_algos
+  - function.hash-equals.md: hash\_equals »
   - index.md: PHP Manual
-  - ref.hash.md: Функции Hash
-title: hashcopy
+  - ref.hash.md: Функції Hash
+title: hash\_copy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# hashcopy
+# hash\_copy
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-hashcopy — Копіює контекст хешування
+hash\_copy — Копіює контекст хешування
 
 ### Опис
 
@@ -22,7 +23,7 @@ hash_copy(HashContext $context): HashContext
 
 `context`
 
-Контекст хешування, повернутий [hashinit()](function.hash-init.md)
+Контекст хешування, повернутий [hash\_init()](function.hash-init.md)
 
 ### Значення, що повертаються
 
@@ -30,32 +31,32 @@ hash_copy(HashContext $context): HashContext
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Приймає та повертає [HashContext](class.hashcontext.md), а чи не ресурс. |
+| 7.2.0 | Приймає та повертає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **hashcopy()****
+**Пример #1 Пример использования**hash\_copy()\*\*\*\*
 
 ```php
 <?php
-$context = hash_init("md5");
-hash_update($context, "data");
+$context = hash_init("sha256");
+hash_update($context, "Наглый коричневый лисёнок");
 
 /* копия контекста для дальнейшего использования */
 $copy_context = hash_copy($context);
 
 echo hash_final($context), "\n";
 
-hash_update($copy_context, "data");
+hash_update($copy_context, "прыгает вокруг ленивой собаки.");
 echo hash_final($copy_context), "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-8d777f385d3dfec8815d20f7496026dc
-511ae0b1c13f95e5f08f1a0dd3da3d93
+49fd7dddcdc0e0e6b2252f966b750d78536e8cd2677bf84db0c605652f7f1699
+8b0ec9465a2a0befe6b45bc081e32e4629a7f3e39dcf1fda31af101b8d85145b
 ```

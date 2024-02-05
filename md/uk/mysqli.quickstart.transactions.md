@@ -3,12 +3,13 @@ navigation:
   - mysqli.quickstart.multiple-statement.md: « Множинні запити
   - mysqli.quickstart.metadata.md: Метадані »
   - index.md: PHP Manual
-  - mysqli.quickstart.md: Краткое руководство
+  - mysqli.quickstart.md: Короткий посібник
 title: API підтримка транзакцій
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## API підтримка транзакцій
 
-Підтримка транзакцій в СУБД MySQL залежить від використовуваного двигуна сховища даних. Починаючи з MySQL 5.5, за замовчуванням використовується двигун InnoDB. InnoDB повністю підтримує модель транзакцій ACID.
+Підтримка транзакцій в СУБД MySQL залежить від використовуваного двигуна сховища даних. Починаючи з MySQL 5.5, за умовчанням використовується двигун InnoDB. InnoDB повністю підтримує модель транзакцій ACID.
 
 Транзакції можна керувати як засобами SQL, так і викликами API-функцій. Для увімкнення та вимкнення режиму автофіксації змін (`autocommit`) рекомендується користуватися API функціями.
 
@@ -45,9 +46,9 @@ $mysqli->commit();
 
 Слід зазначити, що MySQL сервер не може відкотити результати всіх запитів. Деякі зміни фіксуються неявно.
 
-*Дивіться також*
+**Дивіться також**
 
 -   [mysqli::autocommit()](mysqli.autocommit.md)
--   [mysqli::begintransaction()](mysqli.begin-transaction.md)
+-   [mysqli::begin\_transaction()](mysqli.begin-transaction.md)
 -   [mysqli::commit()](mysqli.commit.md)
 -   [mysqli::rollback()](mysqli.rollback.md)

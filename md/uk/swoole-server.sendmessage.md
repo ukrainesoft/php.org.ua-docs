@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.sendfile.md: '« SwooleServer::sendfile'
-  - swoole-server.sendto.md: 'SwooleServer::sendto »'
+  - swoole-server.sendfile.md: '« Swoole\\Server::sendfile'
+  - swoole-server.sendto.md: 'Swoole\\Server::sendto »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::sendMessage'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::sendMessage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::sendMessage
+# Swoole\\Server::sendMessage
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::sendMessage — Надсилає повідомлення робочим процесам за ідентифікатором
+Swoole\\Server::sendMessage — Надсилає повідомлення робочим процесам за ідентифікатором
 
 ### Опис
 

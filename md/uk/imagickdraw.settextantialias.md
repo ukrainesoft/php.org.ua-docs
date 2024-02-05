@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setTextAntialias'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setTextAntialias
 
@@ -20,7 +21,7 @@ public ImagickDraw::setTextAntialias(bool $antiAlias): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Керує згладжуванням тексту. За промовчанням текст згладжується.
 
@@ -34,7 +35,7 @@ public ImagickDraw::setTextAntialias(bool $antiAlias): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setTextAntialias()****
+**Пример #1 Пример использования**ImagickDraw::setTextAntialias()\*\*\*\*
 
 ```php
 <?php

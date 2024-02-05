@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - xmlwriter.examples.md: Приклади
 title: Створення простого XML-документа
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Створення простого XML-документа
 
@@ -60,7 +61,7 @@ xmlwriter_end_document($xw);
 echo xmlwriter_output_memory($xw);
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

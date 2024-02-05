@@ -1,14 +1,15 @@
 ---
 navigation:
-  - tidynode.construct.md: '« tidyNode::construct'
+  - tidynode.construct.md: '« tidyNode::\_\_construct'
   - tidynode.haschildren.md: 'tidyNode::hasChildren »'
   - index.md: PHP Manual
   - class.tidynode.md: tidyNode
 title: 'tidyNode::getParent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidyNode::getParent
 
-(PHP 5> = 5.2.2, PHP 7, PHP 8)
+(PHP 5 >= 5.2.2, PHP 7, PHP 8)
 
 tidyNode::getParent — Повертає батьківський вузол поточного вузла
 
@@ -30,7 +31,7 @@ public tidyNode::getParent(): ?tidyNode
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **tidyNode::getParent()****
+**Пример #1 Пример использования функции**tidyNode::getParent()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ var_dump($node->getparent()->name);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(4) "head"

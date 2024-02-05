@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::adaptiveBlurImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::adaptiveBlurImage
 
@@ -18,7 +19,7 @@ Imagick::adaptiveBlurImage — Додає адаптивний фільтр ро
 public Imagick::adaptiveBlurImage(float $radius, float $sigma, int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
-Додає адаптивний фільтр розмиття до зображення. Інтенсивність адаптивного розмиття значно зменшується до країв зображення, тоді як стандартне розмиття рівномірно розподіляється по всьому зображенню. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Додає адаптивний фільтр розмиття до зображення. Інтенсивність адаптивного розмиття значно зменшується до країв зображення, тоді як стандартне розмиття рівномірно розподіляється по всьому зображенню. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public Imagick::adaptiveBlurImage(float $radius, float $sigma, int $channel = Im
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно \*\*`Imagick::CHANNEL_DEFAULT`\*\*Обратитесь к списку[констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
@@ -44,7 +45,7 @@ public Imagick::adaptiveBlurImage(float $radius, float $sigma, int $channel = Im
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::adaptiveBlurImage()****
+**Пример #1 Пример использования**Imagick::adaptiveBlurImage()\*\* :\*\*
 
 Адаптивне розмиття зображення та відображення його у браузері.
 
@@ -61,12 +62,12 @@ echo $image;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Приклад висновку: Використання Imagick::adaptiveBlurImage()](images/c0d23d2d6769e53e24a1b3136c064577-adaptiveBlurImage.gif)
 
 ### Дивіться також
 
--   [Imagick::blurImage()](imagick.blurimage.md) - Додає фільтр розмиття до зображення
--   [Imagick::motionBlurImage()](imagick.motionblurimage.md) - Імітує розмиття у русі
--   [Imagick::radialBlurImage()](imagick.radialblurimage.md) - Радіальне розмиття зображення
+-   [Imagick::blurImage()](imagick.blurimage.md) \- Додає фільтр розмиття до зображення
+-   [Imagick::motionBlurImage()](imagick.motionblurimage.md) \- Імітує розмиття у русі
+-   [Imagick::radialBlurImage()](imagick.radialblurimage.md) \- Радіальне розмиття зображення

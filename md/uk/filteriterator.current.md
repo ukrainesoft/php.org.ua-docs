@@ -1,14 +1,15 @@
 ---
 navigation:
-  - filteriterator.construct.md: '« FilterIterator::construct'
-  - filteriterator.getinneriterator.md: 'FilterIterator::getInnerIterator »'
+  - filteriterator.construct.md: '« FilterIterator::\_\_construct'
+  - filteriterator.key.md: 'FilterIterator::key »'
   - index.md: PHP Manual
   - class.filteriterator.md: FilterIterator
 title: 'FilterIterator::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FilterIterator::current
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 FilterIterator::current — Отримує значення поточного елемента
 
@@ -20,7 +21,7 @@ public FilterIterator::current(): mixed
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Отримує значення поточного елемента.
 
@@ -34,5 +35,5 @@ public FilterIterator::current(): mixed
 
 ### Дивіться також
 
--   [FilterIterator::key()](filteriterator.key.md) - Отримує поточний ключ
--   [FilterIterator::next()](filteriterator.next.md) - Переміщує ітератор до наступного елементу
+-   [FilterIterator::key()](filteriterator.key.md) \- Отримує поточний ключ
+-   [FilterIterator::next()](filteriterator.next.md) \- Переміщує ітератор до наступного елементу

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-bucket-new.md: « streambucketnew
-  - function.stream-context-create.md: streamcontextcreate »
+  - function.stream-bucket-new.md: « stream\_bucket\_new
+  - function.stream-context-create.md: stream\_context\_create »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streambucketprepend
+title: stream\_bucket\_prepend
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streambucketprepend
+# stream\_bucket\_prepend
 
 (PHP 5, PHP 7, PHP 8)
 
-streambucketprepend — Додати відро на початок бригади
+stream\_bucket\_prepend — Додає бакет на початок бригади.
 
 ### Опис
 
@@ -18,17 +19,17 @@ streambucketprepend — Додати відро на початок бригад
 stream_bucket_prepend(resource $brigade, object $bucket): void
 ```
 
-Ця функція може використовуватися для додавання відра на початок бригади відер. Зазвичай вона викликається з [phpuserfilter::filter()](php-user-filter.filter.md)
+Функція може бути використана для додавання бакета на початок бригади бакетів. Зазвичай вона викликається з методу [php\_user\_filter::filter()](php-user-filter.filter.md)
 
 ### Список параметрів
 
 `brigade`
 
-`brigade` - Ресурс, що вказує на `бригаду вёдер`яка містить один або кілька об'єктів `bucket`
+`brigade` - Ресурс, що вказує на `бригаду бакетів`яка містить один або кілька об'єктів `bucket`
 
 `bucket`
 
-Відро.
+Бакет.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ stream_bucket_prepend(resource $brigade, object $bucket): void
 
 ### Приклади
 
-**Приклад #1 Приклади використання **streambucketprepend()****
+**Приклад #1 Приклади використання **stream\_bucket\_prepend()****
 
 ```php
 <?php
@@ -47,7 +48,7 @@ class foo extends php_user_filter {
     while ($bucket = stream_bucket_make_writeable($in)) {
       $consumed += $bucket->datalen;
       if ($this->calls++ == 2) {
-        // Это ведро снова появится перед любым другим ведром.
+        // Бакет снова появится перед любым другим бакетом.
         stream_bucket_prepend($in, $bucket);
       }
     }

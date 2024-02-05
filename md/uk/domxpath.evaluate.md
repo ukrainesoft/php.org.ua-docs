@@ -1,14 +1,15 @@
 ---
 navigation:
-  - domxpath.construct.md: '« DOMXPath::construct'
+  - domxpath.construct.md: '« DOMXPath::\_\_construct'
   - domxpath.query.md: 'DOMXPath::query »'
   - index.md: PHP Manual
   - class.domxpath.md: DOMXPath
 title: 'DOMXPath::evaluate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMXPath::evaluate
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 DOMXPath::evaluate — Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
 
@@ -32,13 +33,13 @@ public DOMXPath::evaluate(string $expression, ?DOMNode $contextNode = null, bool
 
 `registerNodeNS`
 
-Додатковий параметр `registerNodeNS` можна вказати, щоб вимкнути автоматичну реєстрацію контексту вузла.
+Чи потрібно автоматично реєструвати префікси простору імен в області видимості контекстного вузла для об'єкта [DOMXPath](class.domxpath.md). Параметр допомагає уникати ручного виклику методу [DOMXPath::registerNamespace()](domxpath.registernamespace.md) для кожного простору імен у області видимості. Коли префікси простору імен конфліктують, реєструється лише префікс простору імен найближчого нащадка.
 
 ### Значення, що повертаються
 
 Повертає типізований результат, якщо це можливо, або об'єкт [DOMNodeList](class.domnodelist.md), що містить всі вузли, що відповідають заданому XPath-виразу `expression`
 
-Якщо `expression` побудовано неправильно або `contextNode` має неправильне значення, **DOMXPath::evaluate()** поверне **`false`**
+Якщо `expression`построено неправильно или`contextNode`имеет неверное значение,**DOMXPath::evaluate()** поверне **`false`**
 
 ### Приклади
 
@@ -64,7 +65,7 @@ echo "Есть $entries английские книги\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Есть 2 английские книги
@@ -72,4 +73,4 @@ echo "Есть $entries английские книги\n";
 
 ### Дивіться також
 
--   [DOMXPath::query()](domxpath.query.md) - Виконує заданий вираз XPath
+-   [DOMXPath::query()](domxpath.query.md) \- Виконує заданий вираз XPath

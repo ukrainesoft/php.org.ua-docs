@@ -1,10 +1,11 @@
 ---
 navigation:
   - phardata.delmetadata.md: '« PharData::delMetadata'
-  - phardata.destruct.md: 'PharData::destruct »'
+  - phardata.destruct.md: 'PharData::\_\_destruct »'
   - index.md: PHP Manual
   - class.phardata.md: PharData
 title: 'PharData::delete'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharData::delete
 
@@ -32,11 +33,11 @@ public PharData::delete(string $localName): bool
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.md) у разі виникнення помилки під час збереження змін на диск.
+Викидає виняток [PharException](class.pharexception.md)в случае возникновения ошибки при сохранении изменений на диск.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharData::delete()****
+**Пример #1 Пример использования**PharData::delete()\*\*\*\*
 
 ```php
 <?php
@@ -53,4 +54,4 @@ try {
 
 ### Дивіться також
 
--   [Phar::delete()](phar.delete.md) - Видаляє файл усередині phar-архіву
+-   [Phar::delete()](phar.delete.md) \- Видаляє файл усередині phar-архіву

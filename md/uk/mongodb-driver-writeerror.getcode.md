@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-writeerror.md: « MongoDBDriverWriteError
-  - mongodb-driver-writeerror.getindex.md: 'MongoDBDriverWriteError::getIndex »'
+  - class.mongodb-driver-writeerror.md: « MongoDB\\Driver\\WriteError
+  - mongodb-driver-writeerror.getindex.md: 'MongoDB\\Driver\\WriteError::getIndex »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeerror.md: MongoDBDriverWriteError
-title: 'MongoDBDriverWriteError::getCode'
+  - class.mongodb-driver-writeerror.md: MongoDB\\Driver\\WriteError
+title: 'MongoDB\\Driver\\WriteError::getCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteError::getCode
+# MongoDB\\Driver\\WriteError::getCode
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteError::getCode — Повертає код помилки WriteError
+MongoDB\\Driver\\WriteError::getCode — Повертає код помилки WriteError
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\Driver\WriteError::getCode(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteError::getCode()****
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteError::getCode()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(11000)

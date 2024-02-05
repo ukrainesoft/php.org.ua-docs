@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-scalar.md: « isscalar
+  - function.is-scalar.md: « is\_scalar
   - function.isset.md: isset »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
-title: ісstring
+title: is\_string
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісstring
+# is\_string
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісstring — Перевіряє, чи є змінним рядком
+is\_string — Перевіряє, чи є тип змінної рядок
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: ісstring
 is_string(mixed $value): bool
 ```
 
-Перевіряє, чи є цей змінний рядком.
+Перевіряє, чи є тип змінної рядок.
 
 ### Список параметрів
 
@@ -28,14 +29,15 @@ is_string(mixed $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` є рядком, та **`false`** в іншому випадку.
+Повертає **`true`**, если значение`value` - Рядок, інакше **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ісstring()****
+**Пример #1 Пример использования функции**is\_string()\*\*\*\*
 
 ```php
 <?php
+
 $values = array(false, true, null, 'abc', '23', 23, '23.5', 23.5, '', ' ', '0', 0);
 foreach ($values as $value) {
     echo "is_string(";
@@ -43,10 +45,11 @@ foreach ($values as $value) {
     echo ") = ";
     echo var_dump(is_string($value));
 }
+
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 is_string(false) = bool(false)
@@ -65,8 +68,8 @@ is_string(0) = bool(false)
 
 ### Дивіться також
 
--   [ісfloat()](function.is-float.md) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [ісint()](function.is-int.md) - Перевіряє, чи є змінна цілим числом
--   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
--   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом
--   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
+-   [is\_float()](function.is-float.md) \- Перевіряє, чи є змінна число з плаваючою точкою
+-   [is\_int()](function.is-int.md) \- Перевіряє, чи є змінна ціла кількість
+-   [is\_bool()](function.is-bool.md) \- Перевіряє, чи є змінна логічне значення
+-   [is\_object()](function.is-object.md) \- Перевіряє, чи є змінна об'єкт
+-   [is\_array()](function.is-array.md) \- Визначає, чи є змінна масив

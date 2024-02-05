@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isCloneable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::isCloneable
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 ReflectionClass::isCloneable — Перевіряє, чи можна клонувати цей клас
 
@@ -30,7 +31,7 @@ public ReflectionClass::isCloneable(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::isCloneable()****
+**Пример #1 Пример использования**ReflectionClass::isCloneable()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump($cloneable->isCloneable());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)

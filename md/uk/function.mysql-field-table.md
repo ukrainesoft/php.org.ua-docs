@@ -1,23 +1,24 @@
 ---
 navigation:
-  - function.mysql-field-seek.md: « mysqlfieldseek
-  - function.mysql-field-type.md: mysqlfieldtype »
+  - function.mysql-field-seek.md: « mysql\_field\_seek
+  - function.mysql-field-type.md: mysql\_field\_type »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlfieldtable
+title: mysql\_field\_table
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlfieldtable
+# mysql\_field\_table
 
 (PHP 4, PHP 5)
 
-mysqlfieldtable — Повертає назву таблиці, якій належить вказане поле
+mysql\_field\_table — Повертає назву таблиці, якій належить вказане поле
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) table або orgtable
--   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) table
+-   [mysqli\_fetch\_field\_direct()](mysqli-result.fetch-field-direct.md) \[table\]или\[orgtable\]
+-   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) \[table\]
 
 ### Опис
 
@@ -31,11 +32,11 @@ mysql_field_table(resource $result, int $field_offset): string
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
+оброблюваний [результат запиту](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.md)
 
 `field_offset`
 
-Числове усунення поля . `field_offset` починається з `0`. Якщо `field_offset` не існує, генерується помилка рівня **`E_WARNING`**
+Числовое смещение поля`field_offset` починається з . Якщо `field_offset` не існує, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -43,7 +44,7 @@ mysql_field_table(resource $result, int $field_offset): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlfieldtable()****
+**Пример #1 Пример использования**mysql\_field\_table()\*\*\*\*
 
 ```php
 <?php
@@ -66,10 +67,10 @@ for ($i = 0; $i < mysql_num_fields($result); ++$i) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysqlfieldtable()**
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysql\_fieldtable()**
 
 ### Дивіться також
 
--   [mysqllisttables()](function.mysql-list-tables.md) - Повертає список таблиць бази даних MySQL
+-   [mysql\_list\_tables()](function.mysql-list-tables.md) \- Повертає список таблиць бази даних MySQL

@@ -1,34 +1,35 @@
 ---
 navigation:
-  - ds-vector.unshift.md: '« DsVector::unshift'
-  - ds-deque.allocate.md: 'ДсDeque::allocate »'
+  - ds-vector.unshift.md: '« Ds\\Vector::unshift'
+  - ds-deque.allocate.md: 'Ds\\Deque::allocate »'
   - index.md: PHP Manual
   - book.ds.md: Структури даних
 title: Клас Deque
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Deque
 
-(No version information available, might only be in Git)
+(PECL ds >= 1.0.0)
 
 ## Вступ
 
-Двостороння черга – це послідовність значень у безперервному буфері, який росте та зменшуються автоматично. Deque (вимовляється як "deck") є абревіатурою від "double-ended queue" і використовується всередині **ДсQueue**
+Двостороння черга – це послідовність значень у безперервному буфері, який росте та зменшуються автоматично. Deque (вимовляється як "deck") є абревіатурою від "double-ended queue" і використовується всередині [Ds\\Queue](class.ds-queue.md)
 
-Два покажчики використовуються для відстеження початку та кінця. Покажчики можуть "обернути" кінець черги, що дозволяє уникнути переміщення значень для звільнення місця. Це робить операції shift та unshift такими швидкими, що **ДсVector** не може з цим змагатися.
+Два покажчики використовуються для відстеження початку та кінця. Покажчики можуть "обернути" кінець черги, що дозволяє уникнути переміщення значень для звільнення місця. Це робить операції shift та unshift такими швидкими, що [Ds\\Vector](class.ds-vector.md) не може з цим змагатися.
 
 Доступ до елемента за індексом вимагає перерахунку залежно від його індексу у буфері: `((head + position) % capacity)`
 
 ## Сильні сторони
 
 -   Підтримує синтаксис масиву (квадратні дужки).
--   Вимагає менше пам'яті, ніж масив (array) з тією самою кількістю значень.
+-   Потрібно менше пам'яті, ніж масив (array) з тією самою кількістю значень.
 -   Автоматично звільняє пам'ять, коли кількість елементів зменшується.
--   **get()** **set()** **push()** **pop()** **shift()** і **unshift()** мають складність O(1).
+-   **get()** **set()** **push()** **pop()** \*\*shift()**и**unshift()\*\*мають складність O(1).
 
 ## Слабкі сторони
 
 -   Місткість обмежена ступенями двійки.
--   **insert()** і **remove()** мають складність O(n).
+-   \*\*insert()**и**remove()\*\*мають складність O(n).
 
 ## Огляд класів
 
@@ -94,43 +95,43 @@ public unshift(mixed $values = ?): void
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL ds 1.3.0 | Тепер клас реалізує [ArrayAccess](class.arrayaccess.md) |
 
 ## Зміст
 
--   [ДсDeque::allocate](ds-deque.allocate.md) — Виділяє пам'ять під зазначену місткість
--   [ДсDeque::apply](ds-deque.apply.md) - Оновлює всі значення, застосовуючи callback-функцію до кожного значення
--   [ДсDeque::capacity](ds-deque.capacity.md) — Повертає поточну місткість
--   [ДсDeque::clear](ds-deque.clear.md) — Видаляє всі значення із двосторонньої черги
--   [ДсDeque::construct](ds-deque.construct.md) - Створює новий екземпляр
--   [ДсDeque::contains](ds-deque.contains.md) — Перевіряє, чи є у двосторонній черзі задані значення
--   [ДсDeque::copy](ds-deque.copy.md) — Повертає поверхневу копію колекції
--   [ДсDeque::count](ds-deque.count.md) — Повертає кількість елементів двосторонньої черги
--   [ДсDeque::filter](ds-deque.filter.md) — Створює нову двосторонню чергу з елементів, вибраних за допомогою заданої callback-функції
--   [ДсDeque::find](ds-deque.find.md) - Пошук індексу за значенням
--   [ДсDeque::first](ds-deque.first.md) — Повертає перший елемент двосторонньої черги
--   [ДсDeque::get](ds-deque.get.md) — Повертає значення за індексом
--   [ДсDeque::insert](ds-deque.insert.md) — Вставляє значення за вказаним індексом
--   [ДсDeque::isEmpty](ds-deque.isempty.md) — Перевіряє, чи порожня двостороння черга
--   [ДсDeque::join](ds-deque.join.md) - Склеює всі значення в рядок
--   [ДсDeque::jsonSerialize](ds-deque.jsonserialize.md) — Повертає колекцію в JSON-представництві
--   [ДсDeque::last](ds-deque.last.md) — Повертає останнє значення двосторонньої черги
--   [ДсDeque::map](ds-deque.map.md) — Повертає результат застосування callback-функції до всіх значень двосторонньої черги
--   [ДсDeque::merge](ds-deque.merge.md) — Повертає результат додавання всіх заданих значень у двосторонню чергу
--   [ДсDeque::pop](ds-deque.pop.md) — Видаляє та повертає останнє значення
--   [ДсDeque::push](ds-deque.push.md) — Додає значення наприкінці двосторонньої черги
--   [ДсDeque::reduce](ds-deque.reduce.md) - Зменшує колекцію до одного значення, використовуючи callback-функцію
--   [ДсDeque::remove](ds-deque.remove.md) — Видаляє та повертає значення за індексом
--   [ДсDeque::reverse](ds-deque.reverse.md) — Перевертає поточну двосторонню чергу
--   [ДсDeque::reversed](ds-deque.reversed.md) — Повертає перегорнуту копію двосторонньої черги
--   [ДсDeque::rotate](ds-deque.rotate.md) — Перемотує двосторонню чергу на задану кількість значень
--   [ДсDeque::set](ds-deque.set.md) — Замінює значення за вказаним індексом
--   [ДсDeque::shift](ds-deque.shift.md) — Видаляє та повертає перше значення
--   [ДсDeque::slice](ds-deque.slice.md) — Повертає почергово із заданого діапазону
--   [ДсDeque::sort](ds-deque.sort.md) — Сортує двосторонню чергу
--   [ДсDeque::sorted](ds-deque.sorted.md) — Повертає відсортовану за значенням копію двосторонньої черги
--   [ДсDeque::sum](ds-deque.sum.md) — Повертає суму всіх значень двосторонньої черги
--   [ДсDeque::toArray](ds-deque.toarray.md) - Перетворює двосторонню чергу на масив (array)
--   [ДсDeque::unshift](ds-deque.unshift.md) — Додає значення на початок двосторонньої черги
+-   [Ds\\Deque::allocate](ds-deque.allocate.md)— Виділяє пам'ять під зазначену місткість
+-   [Ds\\Deque::apply](ds-deque.apply.md) \- Оновлює всі значення, застосовуючи callback-функцію до кожного значення
+-   [Ds\\Deque::capacity](ds-deque.capacity.md)— Повертає поточну місткість
+-   [Ds\\Deque::clear](ds-deque.clear.md)— Видаляє всі значення із двосторонньої черги
+-   [Ds\\Deque::\_\_construct](ds-deque.construct.md) \- Створює новий екземпляр
+-   [Ds\\Deque::contains](ds-deque.contains.md)— Перевіряє, чи є у двосторонній черзі задані значення
+-   [Ds\\Deque::copy](ds-deque.copy.md)— Повертає поверхневу копію колекції
+-   [Ds\\Deque::count](ds-deque.count.md)— Повертає кількість елементів двосторонньої черги
+-   [Ds\\Deque::filter](ds-deque.filter.md)— Створює нову двосторонню чергу з елементів, вибраних за допомогою заданої callback-функції
+-   [Ds\\Deque::find](ds-deque.find.md) \- Пошук індексу за значенням
+-   [Ds\\Deque::first](ds-deque.first.md)— Повертає перший елемент двосторонньої черги
+-   [Ds\\Deque::get](ds-deque.get.md)— Повертає значення за індексом
+-   [Ds\\Deque::insert](ds-deque.insert.md)— Вставляє значення за вказаним індексом
+-   [Ds\\Deque::isEmpty](ds-deque.isempty.md)— Перевіряє, чи порожня двостороння черга
+-   [Ds\\Deque::join](ds-deque.join.md) \- Склеює всі значення в рядок
+-   [Ds\\Deque::jsonSerialize](ds-deque.jsonserialize.md)— Повертає колекцію в JSON-представництві
+-   [Ds\\Deque::last](ds-deque.last.md)— Повертає останнє значення двосторонньої черги
+-   [Ds\\Deque::map](ds-deque.map.md)— Повертає результат застосування callback-функції до всіх значень двосторонньої черги
+-   [Ds\\Deque::merge](ds-deque.merge.md)— Повертає результат додавання всіх заданих значень у двосторонню чергу
+-   [Ds\\Deque::pop](ds-deque.pop.md)— Видаляє та повертає останнє значення
+-   [Ds\\Deque::push](ds-deque.push.md)— Додає значення наприкінці двосторонньої черги
+-   [Ds\\Deque::reduce](ds-deque.reduce.md) \- Зменшує колекцію до одного значення, використовуючи callback-функцію
+-   [Ds\\Deque::remove](ds-deque.remove.md)— Видаляє та повертає значення за індексом
+-   [Ds\\Deque::reverse](ds-deque.reverse.md)— Перевертає поточну двосторонню чергу
+-   [Ds\\Deque::reversed](ds-deque.reversed.md)— Повертає перегорнуту копію двосторонньої черги
+-   [Ds\\Deque::rotate](ds-deque.rotate.md)— Перемотує двосторонню чергу на задану кількість значень
+-   [Ds\\Deque::set](ds-deque.set.md)— Замінює значення за вказаним індексом
+-   [Ds\\Deque::shift](ds-deque.shift.md)— Видаляє та повертає перше значення
+-   [Ds\\Deque::slice](ds-deque.slice.md)— Повертає почергово із заданого діапазону
+-   [Ds\\Deque::sort](ds-deque.sort.md)— Сортує двосторонню чергу
+-   [Ds\\Deque::sorted](ds-deque.sorted.md)— Повертає відсортовану за значенням копію двосторонньої черги
+-   [Ds\\Deque::sum](ds-deque.sum.md)— Повертає суму всіх значень двосторонньої черги
+-   [Ds\\Deque::toArray](ds-deque.toarray.md) \- Перетворює двосторонню чергу на масив (array)
+-   [Ds\\Deque::unshift](ds-deque.unshift.md)— Додає значення на початок двосторонньої черги

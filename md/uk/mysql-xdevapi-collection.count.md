@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-collection.construct.md: '« Collection::construct'
+  - mysql-xdevapi-collection.construct.md: '« Collection::\_\_construct'
   - mysql-xdevapi-collection.createindex.md: 'Collection::createIndex »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
 title: 'Collection::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collection::count
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Collection::count(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::count()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::count()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ var_dump($collection->count());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(2)

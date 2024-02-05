@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-dispatcher.registerplugin.md: '« YafDispatcher::registerPlugin'
-  - yaf-dispatcher.setdefaultaction.md: 'YafDispatcher::setDefaultAction »'
+  - yaf-dispatcher.registerplugin.md: '« Yaf\_Dispatcher::registerPlugin'
+  - yaf-dispatcher.setdefaultaction.md: 'Yaf\_Dispatcher::setDefaultAction »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::returnResponse'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::returnResponse'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::returnResponse
+# Yaf\_Dispatcher::returnResponse
 
 (Yaf >=1.0.0)
 
-YafDispatcher::returnResponse — Призначення returnResponse
+Yaf\_Dispatcher::returnResponse — Призначення returnResponse
 
 ### Опис
 

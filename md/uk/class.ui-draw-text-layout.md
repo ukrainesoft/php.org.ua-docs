@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-draw-brush-radialgradient.construct.md: '« UIDrawBrushRadialGradient::construct'
-  - ui-draw-text-layout.construct.md: 'ОЙDrawTextLayout::construct »'
+  - ui-draw-brush-radialgradient.construct.md: '« UI\\Draw\\Brush\\RadialGradient::\_\_construct'
+  - ui-draw-text-layout.construct.md: 'UI\\Draw\\Text\\Layout::\_\_construct »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Представляє макет тексту
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Представляє макет тексту
 
@@ -42,6 +43,6 @@ public setWidth(float $width)
 
 ## Зміст
 
--   [ОЙDrawTextLayout::construct](ui-draw-text-layout.construct.md) — Створити новий об'єкт макету тексту
--   [ОЙDrawTextLayout::setColor](ui-draw-text-layout.setcolor.md) - Встановити колір
--   [ОЙDrawTextLayout::setWidth](ui-draw-text-layout.setwidth.md) - Встановити ширину
+-   [UI\\Draw\\Text\\Layout::\_\_construct](ui-draw-text-layout.construct.md)— Створити новий об'єкт макету тексту
+-   [UI\\Draw\\Text\\Layout::setColor](ui-draw-text-layout.setcolor.md) \- Встановити колір
+-   [UI\\Draw\\Text\\Layout::setWidth](ui-draw-text-layout.setwidth.md) \- Встановити ширину

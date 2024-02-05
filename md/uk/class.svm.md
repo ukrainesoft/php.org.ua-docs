@@ -1,10 +1,11 @@
 ---
 navigation:
   - svm.examples.md: « Приклади
-  - svm.construct.md: 'SVM::construct »'
+  - svm.construct.md: 'SVM::\_\_construct »'
   - index.md: PHP Manual
   - book.svm.md: SVM
 title: Клас SVM
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SVM
 
@@ -137,7 +138,7 @@ public svm::train(array $problem, array $weights = ?): SVMModel
 
 **`SVM::NU_SVC`**
 
-Тип NUSVC використовує інший, більш гнучкий підхід до розважування помилок.
+Тип NU\_SVC використовує інший, більш гнучкий підхід до розважування помилок.
 
 **`SVM::ONE_CLASS`**
 
@@ -195,7 +196,7 @@ public svm::train(array $problem, array $weights = ?): SVMModel
 
 **`SVM::OPT_NU`**
 
-Опціональний ключ параметра nu. Використовується лише з типами NU SVM
+Опціональний ключ параметра nu. Використовується лише з типами NU\_SVM
 
 **`SVM::OPT_EPS`**
 
@@ -219,8 +220,8 @@ public svm::train(array $problem, array $weights = ?): SVMModel
 
 ## Зміст
 
--   [SVM::construct](svm.construct.md) - Конструктор класу SVM
--   [SVM::crossvalidate](svm.crossvalidate.md) — Тестування навчальних параметрів на підмножинах навчальних даних
--   [SVM::getOptions](svm.getoptions.md) — Отримати поточні параметри навчання
--   [SVM::setOptions](svm.setoptions.md) - Встановити параметри навчання
--   [SVM::train](svm.train.md) — Створити SVMModel на основі навчальних даних
+-   [SVM::\_\_construct](svm.construct.md) \- Конструктор класу SVM
+-   [SVM::crossvalidate](svm.crossvalidate.md)— Тестування навчальних параметрів на підмножинах навчальних даних
+-   [SVM::getOptions](svm.getoptions.md)— Отримати поточні параметри навчання
+-   [SVM::setOptions](svm.setoptions.md) \- Встановити параметри навчання
+-   [SVM::train](svm.train.md)— Створити SVMModel на основі навчальних даних

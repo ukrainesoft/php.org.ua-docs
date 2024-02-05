@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.db2-cursor-type.md: « db2cursortype
-  - function.db2-exec.md: db2exec »
+  - function.db2-cursor-type.md: « db2\_cursor\_type
+  - function.db2-exec.md: db2\_exec »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2escapestring
+title: db2\_escape\_string
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2escapestring
+# db2\_escape\_string
 
-(PECL ibmdb2> = 1.6.0)
+(PECL ibm\_db2 >= 1.6.0)
 
-db2escapestring — Використовується для екранування деяких символів
+db2\_escape\_string — Використовується для екранування деяких символів
 
 ### Опис
 
@@ -24,7 +25,7 @@ db2_escape_string(string $string_literal): string
 
 `string_literal`
 
-Рядок, що містить символи, які потрібно екранувати. Символи, які потрібно екранувати: `\x00` `\n` `\r` `\` `'` `"` і `\x1a`
+Рядок, що містить символи, які потрібно екранувати. Символи, які потрібно екранувати: `\x00` `\n` `\r` `\` `'` `"`и`\x1a`
 
 ### Значення, що повертаються
 
@@ -32,9 +33,9 @@ db2_escape_string(string $string_literal): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **db2escapestring()****
+**Пример #1 Пример использования**db2\_escape\_string()\*\*\*\*
 
-Результат виконання функції **db2escapestring()**
+Результат виконання функції **db2\_escape\_string()**
 
 ```php
 <?php
@@ -57,7 +58,7 @@ if ($conn) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 db2_escape_string: All characters: \0 , \n , \r , \\ , \' , \" , \Z .
@@ -71,4 +72,4 @@ db2_escape_string:
 
 ### Дивіться також
 
--   [db2prepare()](function.db2-prepare.md) - готує SQL-запит до виконання
+-   [db2\_prepare()](function.db2-prepare.md) \- готує SQL-запит до виконання

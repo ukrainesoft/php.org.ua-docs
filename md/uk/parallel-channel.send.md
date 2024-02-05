@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-channel.recv.md: '« parallelChannel::recv'
-  - parallel-channel.close.md: 'parallelChannel::close »'
+  - parallel-channel.recv.md: '« parallel\\Channel::recv'
+  - parallel-channel.close.md: 'parallel\\Channel::close »'
   - index.md: PHP Manual
-  - class.parallel-channel.md: parallelChannel
-title: 'parallelChannel::send'
+  - class.parallel-channel.md: parallel\\Channel
+title: 'parallel\\Channel::send'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelChannel::send
+# parallel\\Channel::send
 
-parallelChannel::send — Спільне використання
+(0.9.0)
+
+parallel\\Channel::send — Спільне використання
 
 ### Опис
 
@@ -22,8 +25,8 @@ public parallel\Channel::send(mixed $value): void
 
 **Увага**
 
-Викидає parallelChannelErrorClosed, якщо канал закритий.
+Викидає parallel\\Channel\\Error\\Closed, якщо канал закритий.
 
 **Увага**
 
-Викидає parallelChannelErrorIlegallegal, якщо значення неприпустимо.
+Викидає parallel\\Channel\\Error\\Ilegallegal, якщо значення неприпустимо.

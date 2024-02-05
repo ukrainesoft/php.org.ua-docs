@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::solarizeImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::solarizeImage
 
@@ -30,7 +31,7 @@ public Imagick::solarizeImage(int $threshold): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::solarizeImage()****
+**Пример #1 Пример использования**Imagick::solarizeImage()\*\*\*\*
 
 ```php
 <?php

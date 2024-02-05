@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-tableselect.lockexclusive.md: '« TableSelect::lockExclusive'
   - mysql-xdevapi-tableselect.offset.md: 'TableSelect::offset »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysql\_xdevapi\\TableSelect
 title: 'TableSelect::lockShared'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableSelect::lockShared
 
@@ -39,7 +40,7 @@ public mysql_xdevapi\TableSelect::lockShared(int $lock_waiting_option = ?): mysq
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::lockShared()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::lockShared()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ print_r($row);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

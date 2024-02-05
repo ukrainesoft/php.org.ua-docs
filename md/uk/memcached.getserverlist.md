@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::getServerList'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::getServerList
 
@@ -30,7 +31,7 @@ public Memcached::getServerList(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::getServerList()****
+**Пример #1 Пример использования**Memcached::getServerList()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($m->getServerList());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {

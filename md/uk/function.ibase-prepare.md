@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-pconnect.md: « ibasepconnect
-  - function.ibase-query.md: ibasequery »
+  - function.ibase-pconnect.md: « ibase\_pconnect
+  - function.ibase-query.md: ibase\_query »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseprepare
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_prepare
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseprepare
+# ibase\_prepare
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseprepare — Підготовка запиту для подальшого зв'язування псевдозмінних та виконання
+ibase\_prepare — Підготовка запиту для подальшого зв'язування псевдозмінних та виконання
 
 ### Опис
 
@@ -26,7 +27,7 @@ ibase_prepare(resource $link_identifier, string $query): resource
 ibase_prepare(resource $link_identifier, string $trans, string $query): resource
 ```
 
-Підготовляє запит для подальшого зв'язування псевдозмінних та виконання (за допомогою [ibaseexecute()](function.ibase-execute.md)
+Підготовляє запит для подальшого зв'язування псевдозмінних та виконання (за допомогою [ibase\_execute()](function.ibase-execute.md)
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ ibase_prepare(resource $link_identifier, string $trans, string $query): resource
 
 `link_identifier`
 
-Ідентифікатор посилання InterBase, який повертається функцією [ibaseconnect()](function.ibase-connect.md). Якщо не вказано, передбачається останнє відкрите посилання.
+Ідентифікатор посилання InterBase, який повертається функцією [ibase\_connect()](function.ibase-connect.md). Якщо не вказано, передбачається останнє відкрите посилання.
 
 `trans`
 
@@ -44,4 +45,4 @@ ibase_prepare(resource $link_identifier, string $trans, string $query): resource
 
 ### Значення, що повертаються
 
-Повертає дескриптор підготовленого запиту або **`false`** у разі виникнення помилки.
+Повертає дескриптор підготовленого запиту або \*\*`false`\*\*в случае возникновения ошибки.

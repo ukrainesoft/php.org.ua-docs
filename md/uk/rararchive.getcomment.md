@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.rararchive.md: RarArchive
 title: 'RarArchive::getComment'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarArchive::getComment
 
-# rarcommentget
+# rar\_comment\_get
 
 (PECL rar >= 2.0.0)
 
-RarArchive::getComment -- rarcommentget — Отримати текст коментаря з архіву RAR
+RarArchive::getComment -- rar\_comment\_get — Отримати текст коментаря з архіву RAR
 
 ### Опис
 
@@ -30,7 +31,7 @@ rar_comment_get(RarArchive $rarfile): string
 
 Повертає (глобальний) коментар, збережений в архіві RAR. Він може бути довжиною до 64 KiB.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Модуль не підтримує коментарів на рівні записів.
 
@@ -38,13 +39,13 @@ rar_comment_get(RarArchive $rarfile): string
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [raropen()](rararchive.open.md)
+Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [rar\_open()](rararchive.open.md)
 
 ### Значення, що повертаються
 
 Повертає коментар або \*\*`null`\*\*якщо його немає.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > RAR зараз не підтримує коментарі в unicode. Кодування результату не визначено, але, можливо, воно буде Windows-1252.
 
@@ -59,7 +60,7 @@ echo $rar_arch->getComment();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 This is the comment of the file commented.rar.

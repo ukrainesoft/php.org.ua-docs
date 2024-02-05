@@ -3,8 +3,9 @@ navigation:
   - configure.about.md: Список основних опцій конфігурації
   - ini.list.md: Список директив php.ini »
   - index.md: PHP Manual
-  - appendices.md: Appendices
+  - appendices.md: Програми
 title: Директиви php.ini
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Директиви php.ini
 

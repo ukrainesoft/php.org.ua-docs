@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::rewind
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::rewind — Перемотування файлового покажчика на початок файлу
 
@@ -34,7 +35,7 @@ public SplFileObject::rewind(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::rewind()****
+**Пример #1 Пример использования**SplFileObject::rewind()\*\*\*\*
 
 ```php
 <?php
@@ -53,8 +54,8 @@ echo $file->current();
 
 ### Дивіться також
 
--   [SplFileObject::current()](splfileobject.current.md) - Отримати поточний рядок файлу
--   [SplFileObject::key()](splfileobject.key.md) - Отримати номер рядка
--   [SplFileObject::seek()](splfileobject.seek.md) - Переклад файлового покажчика на заданий рядок
--   [SplFileObject::next()](splfileobject.next.md) - Читати наступний рядок
--   [SplFileObject::valid()](splfileobject.valid.md) - Перевіряє, чи кінець файлу (EOF) досягнуто.
+-   [SplFileObject::current()](splfileobject.current.md) \- Отримати поточний рядок файлу
+-   [SplFileObject::key()](splfileobject.key.md) \- Отримати номер рядка
+-   [SplFileObject::seek()](splfileobject.seek.md) \- Переклад файлового покажчика на заданий рядок
+-   [SplFileObject::next()](splfileobject.next.md) \- Читати наступний рядок
+-   [SplFileObject::valid()](splfileobject.valid.md) \- Перевіряє, чи кінець файлу (EOF) досягнуто.

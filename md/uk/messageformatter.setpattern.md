@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.messageformatter.md: MessageFormatter
 title: 'MessageFormatter::setPattern'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # MessageFormatter::setPattern
 
-# msgfmtsetpattern
+# msgfmt\_set\_pattern
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-MessageFormatter::setPattern -- msgfmtsetpattern — Встановлює шаблон, який використовує засіб форматування.
+MessageFormatter::setPattern -- msgfmt\_set\_pattern — Встановлює шаблон, який використовує засіб форматування.
 
 ### Опис
 
@@ -38,15 +39,15 @@ msgfmt_set_pattern(MessageFormatter $formatter, string $pattern): bool
 
 `pattern`
 
-Рядок (string) шаблону для використання у цьому засобі форматування повідомлення. У шаблоні використовується "дружній до апострофів" синтаксис; докладніше дивіться у розділі [» Quoting/Escaping](https://unicode-org.github.io/icu/userguide/format_parse/messages/#quotingescaping)
+Рядок (string) шаблону для використання у цьому засобі форматування повідомлення. У шаблоні використовується "дружній до апострофів" синтаксис; докладніше дивіться у розділі [» Quoting/Escaping](https://unicode-org.github.io/icu/userguide/format_parse/messages/#quotingescaping)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **msgfmtsetpattern()****
+**Пример #1 Пример использования**msgfmt\_set\_pattern()\*\*\*\*
 
 ```php
 <?php
@@ -74,7 +75,7 @@ echo "Formatted number: " . $fmt->format(array(123, 456)) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Default pattern: '{0,number} monkeys on {1,number} trees'
@@ -85,5 +86,5 @@ Formatted number: 123 trees hosting 456 monkeys
 
 ### Дивіться також
 
--   [msgfmtcreate()](messageformatter.create.md) - Створює засіб форматування повідомлень
--   [msgfmtgetpattern()](messageformatter.getpattern.md) - Повертає шаблон, який використовується засобом форматування
+-   [msgfmt\_create()](messageformatter.create.md) \- Створює засіб форматування повідомлень
+-   [msgfmt\_get\_pattern()](messageformatter.getpattern.md) \- Повертає шаблон, який використовується засобом форматування

@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-tableupdate.limit.md: '« TableUpdate::limit'
   - mysql-xdevapi-tableupdate.set.md: 'TableUpdate::set »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
+  - class.mysql-xdevapi-tableupdate.md: mysql\_xdevapi\\TableUpdate
 title: 'TableUpdate::orderby'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableUpdate::orderby
 
@@ -28,7 +29,7 @@ public mysql_xdevapi\TableUpdate::orderby(mixed $orderby_expr, mixed ...$orderby
 
 `orderby_exprs`
 
-Додаткові параметри sortexpr.
+Додаткові параметри sort\_expr.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public mysql_xdevapi\TableUpdate::orderby(mixed $orderby_expr, mixed ...$orderby
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableUpdate::orderby()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::orderby()\*\*\*\*
 
 ```php
 <?php

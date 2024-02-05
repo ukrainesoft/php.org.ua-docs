@@ -1,10 +1,11 @@
 ---
 navigation:
   - ziparchive.unchangeindex.md: '« ZipArchive::unchangeIndex'
-  - ref.zip.md: Функции Zip »
+  - ref.zip.md: Опції Zip »
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::unchangeName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::unchangeName
 
@@ -28,4 +29,4 @@ public ZipArchive::unchangeName(string $name): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

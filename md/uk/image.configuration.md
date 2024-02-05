@@ -1,10 +1,11 @@
 ---
 navigation:
-  - image.installation.md: « Установка
+  - image.installation.md: « Встановлення
   - image.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - image.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,24 +15,24 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [gd.jpegignorewarning](image.configuration.md#ini.gd.jpeg-ignore-warning) | "1" | PHPINIALL |  |
+| [gd.jpeg\_ignore\_warning](image.configuration.md#ini.gd.jpeg-ignore-warning) | "1" | **`INI_ALL`** |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
+Додаткова інформація та опис режимів INI\_\* дано у розділі «[Місця встановлення параметрів конфігурації](configuration.changes.modes.md)».
 
 Коротке пояснення конфігураційних директив.
 
-`gd.jpeg_ignore_warning` bool
+`gd.jpeg_ignore_warning`bool
 
 Ігнорувати попередження(але не помилки), згенеровані libjpeg(-turbo).
 
-**Список змін для `gd.jpeg_ignore_warning`**
+**Список изменений для`gd.jpeg_ignore_warning`**
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Значення gd.jpegignorewarning за замовчуванням змінено з 0 на 1. |
+| 7.1.0 | Значення gd.jpeg\_ignore\_warning за замовчуванням змінено з 0 на 1. |
 
 Дивіться також директиви налаштування [exif](exif.configuration.md)
 
 **Увага**
 
-Функції для роботи із зображеннями споживають багато пам'яті. Переконайтеся, що значення [memorylimit](ini.core.md#ini.memory-limit) досить велике, якщо використовуєте штатну бібліотеку GD.
+Функції для роботи із зображеннями споживають багато пам'яті. Переконайтеся, що значення [memory\_limit](ini.core.md#ini.memory-limit)достаточно велико, если используете штатную библиотеку GD.

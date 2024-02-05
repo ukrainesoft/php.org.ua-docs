@@ -1,10 +1,11 @@
 ---
 navigation:
   - reflectionmethod.isprotected.md: '« ReflectionMethod::isProtected'
-  - reflectionmethod.isstatic.md: 'ReflectionMethod::isStatic »'
+  - reflectionmethod.setaccessible.md: 'ReflectionMethod::setAccessible »'
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::isPublic'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionMethod::isPublic
 
@@ -30,4 +31,4 @@ public ReflectionMethod::isPublic(): bool
 
 ### Дивіться також
 
--   [ReflectionMethod::isPrivate()](reflectionmethod.isprivate.md) - Перевіряє, чи є метод закритим
+-   [ReflectionMethod::isPrivate()](reflectionmethod.isprivate.md) \- Перевіряє, чи є метод закритим

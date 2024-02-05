@@ -1,14 +1,15 @@
 ---
 navigation:
-  - spl.files.md: « Обработка файлов
-  - splfileinfo.construct.md: 'SplFileInfo::construct »'
+  - spl.files.md: « Обробка файлів
+  - splfileinfo.construct.md: 'SplFileInfo::\_\_construct »'
   - index.md: PHP Manual
-  - spl.files.md: Обработка файлов
+  - spl.files.md: Обробка файлів
 title: Клас SplFileInfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SplFileInfo
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,16 +19,13 @@ title: Клас SplFileInfo
 
 ```classsynopsis
 
-     
+    
+     class SplFileInfo
     
 
     
-     
-      class SplFileInfo
-     
-
-     implements 
-       Stringable {
+     implements
+      Stringable {
 
     /* Методы */
     
@@ -67,38 +65,38 @@ public __toString(): string
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Клас **SplFileInfo** тепер реалізує [Stringable](class.stringable.md) |
+| 8.0.0 | Класс**SplFileInfo** тепер реалізує [Stringable](class.stringable.md) |
 
 ## Зміст
 
--   [SplFileInfo::construct](splfileinfo.construct.md) — Створити новий об'єкт SplFileInfo
--   [SplFileInfo::getATime](splfileinfo.getatime.md) — Отримує час останнього доступу до файлу
--   [SplFileInfo::getBasename](splfileinfo.getbasename.md) — Отримує базове ім'я файлу
--   [SplFileInfo::getCTime](splfileinfo.getctime.md) — Повертає час останньої зміни індексного дескриптора файлу
--   [SplFileInfo::getExtension](splfileinfo.getextension.md) — Отримує розширення файлу
--   [SplFileInfo::getFileInfo](splfileinfo.getfileinfo.md) — Отримує об'єкт SplFileInfo для файлу
--   [SplFileInfo::getFilename](splfileinfo.getfilename.md) — Отримує ім'я файлу
--   [SplFileInfo::getGroup](splfileinfo.getgroup.md) — Отримує групу файлу
--   [SplFileInfo::getInode](splfileinfo.getinode.md) — Отримує індексний дескриптор для файлу
--   [SplFileInfo::getLinkTarget](splfileinfo.getlinktarget.md) — Отримує шлях заслання
--   [SplFileInfo::getMTime](splfileinfo.getmtime.md) — Отримує час останньої зміни
--   [SplFileInfo::getOwner](splfileinfo.getowner.md) — Отримує власника файлу
--   [SplFileInfo::getPath](splfileinfo.getpath.md) — Отримує шлях без імені файлу
--   [SplFileInfo::getPathInfo](splfileinfo.getpathinfo.md) — Отримує об'єкт SplFileInfo для заданого шляху
--   [SplFileInfo::getPathname](splfileinfo.getpathname.md) — Отримує шлях до файлу
--   [SplFileInfo::getPerms](splfileinfo.getperms.md) — Отримує список дозволів
--   [SplFileInfo::getRealPath](splfileinfo.getrealpath.md) — Отримує абсолютний шлях до файлу
--   [SplFileInfo::getSize](splfileinfo.getsize.md) — Отримує розмір файлу
--   [SplFileInfo::getType](splfileinfo.gettype.md) — Отримує тип файлу
--   [SplFileInfo::isDir](splfileinfo.isdir.md) — Вказує, чи файл є каталогом
--   [SplFileInfo::isExecutable](splfileinfo.isexecutable.md) — Вказує, чи файл виконуваний
--   [SplFileInfo::isFile](splfileinfo.isfile.md) — Вказує, чи об'єкт посилається на звичайний файл
--   [SplFileInfo::isLink](splfileinfo.islink.md) — Вказує, чи файл є посиланням
--   [SplFileInfo::isReadable](splfileinfo.isreadable.md) — Вказує, чи файл доступний для читання
--   [SplFileInfo::isWritable](splfileinfo.iswritable.md) — Вказує, чи файл доступний для запису
--   [SplFileInfo::openFile](splfileinfo.openfile.md) — Отримує об'єкт SplFileObject для файлу
--   [SplFileInfo::setFileClass](splfileinfo.setfileclass.md) — Задає ім'я класу, який використовуватиметься методом SplFileInfo::openFile
--   [SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md) — Вказує ім'я класу, об'єкти якого створюватимуться методами SplFileInfo::getFileInfo та SplFileInfo::getPathInfo
--   [SplFileInfo::toString](splfileinfo.tostring.md) — Повертає шлях до файлу у вигляді рядка
+-   [SplFileInfo::\_\_construct](splfileinfo.construct.md)— Створити новий об'єкт SplFileInfo
+-   [SplFileInfo::getATime](splfileinfo.getatime.md)— Отримує час останнього доступу до файлу
+-   [SplFileInfo::getBasename](splfileinfo.getbasename.md)— Отримує базове ім'я файлу
+-   [SplFileInfo::getCTime](splfileinfo.getctime.md)— Повертає час останньої зміни індексного дескриптора файлу
+-   [SplFileInfo::getExtension](splfileinfo.getextension.md)— Отримує розширення файлу
+-   [SplFileInfo::getFileInfo](splfileinfo.getfileinfo.md)— Отримує об'єкт SplFileInfo для файлу
+-   [SplFileInfo::getFilename](splfileinfo.getfilename.md)— Отримує ім'я файлу
+-   [SplFileInfo::getGroup](splfileinfo.getgroup.md)— Отримує групу файлу
+-   [SplFileInfo::getInode](splfileinfo.getinode.md)— Отримує індексний дескриптор для файлу
+-   [SplFileInfo::getLinkTarget](splfileinfo.getlinktarget.md)— Отримує шлях заслання
+-   [SplFileInfo::getMTime](splfileinfo.getmtime.md)— Отримує час останньої зміни
+-   [SplFileInfo::getOwner](splfileinfo.getowner.md)— Отримує власника файлу
+-   [SplFileInfo::getPath](splfileinfo.getpath.md)— Отримує шлях без імені файлу
+-   [SplFileInfo::getPathInfo](splfileinfo.getpathinfo.md)— Отримує об'єкт SplFileInfo для заданого шляху
+-   [SplFileInfo::getPathname](splfileinfo.getpathname.md)— Отримує шлях до файлу
+-   [SplFileInfo::getPerms](splfileinfo.getperms.md)— Отримує список дозволів
+-   [SplFileInfo::getRealPath](splfileinfo.getrealpath.md)— Отримує абсолютний шлях до файлу
+-   [SplFileInfo::getSize](splfileinfo.getsize.md)— Отримує розмір файлу
+-   [SplFileInfo::getType](splfileinfo.gettype.md)— Отримує тип файлу
+-   [SplFileInfo::isDir](splfileinfo.isdir.md)— Вказує, чи файл є каталогом
+-   [SplFileInfo::isExecutable](splfileinfo.isexecutable.md)— Вказує, чи файл виконуваний
+-   [SplFileInfo::isFile](splfileinfo.isfile.md)— Вказує, чи об'єкт посилається на звичайний файл
+-   [SplFileInfo::isLink](splfileinfo.islink.md)— Вказує, чи файл є посиланням
+-   [SplFileInfo::isReadable](splfileinfo.isreadable.md)— Вказує, чи файл доступний для читання
+-   [SplFileInfo::isWritable](splfileinfo.iswritable.md)— Вказує, чи файл доступний для запису
+-   [SplFileInfo::openFile](splfileinfo.openfile.md)— Отримує об'єкт SplFileObject для файлу
+-   [SplFileInfo::setFileClass](splfileinfo.setfileclass.md)— Задає ім'я класу, який використовуватиметься методом SplFileInfo::openFile
+-   [SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md)— Вказує ім'я класу, об'єкти якого створюватимуться методами SplFileInfo::getFileInfo та SplFileInfo::getPathInfo
+-   [SplFileInfo::\_\_function toString() { \[native code\] }](splfileinfo.tostring.md)— Повертає шлях до файлу у вигляді рядка

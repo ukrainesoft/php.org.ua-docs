@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.yaf-exception-loadfailed-module.md: « YafExceptionLoadFailedModule
-  - class.yaf-exception-loadfailed-action.md: YafExceptionLoadFailedAction »
+  - class.yaf-exception-loadfailed-module.md: « Yaf\_Exception\_LoadFailed\_Module
+  - class.yaf-exception-loadfailed-action.md: Yaf\_Exception\_LoadFailed\_Action »
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafExceptionLoadFailedController
+title: Клас Yaf\_Exception\_LoadFailed\_Controller
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafExceptionLoadFailedController
+# Клас Yaf\_Exception\_LoadFailed\_Controller
 
 (Yaf >=1.0.0)
 

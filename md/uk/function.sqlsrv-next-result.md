@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-has-rows.md: « sqlsrvhasrows
-  - function.sqlsrv-num-fields.md: sqlsrvnumfields »
+  - function.sqlsrv-has-rows.md: « sqlsrv\_has\_rows
+  - function.sqlsrv-num-fields.md: sqlsrv\_num\_fields »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvnextresult
+title: sqlsrv\_next\_result
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvnextresult
+# sqlsrv\_next\_result
 
 (No version information available, might only be in Git)
 
-sqlsrvnextresult — Робить активним наступний результат вказаного оператора
+sqlsrv\_next\_result — Робить активним наступний результат вказаного оператора
 
 ### Опис
 
@@ -28,13 +29,13 @@ sqlsrv_next_result(resource $stmt): mixed
 
 ### Значення, що повертаються
 
-Повертає \*\*`true`\*\*якщо наступний результат був успішно отриманий, **`false`**, якщо сталася помилка та \*\*`null`\*\*якщо результатів для отримання більше немає.
+Повертає \*\*`true`**якщо наступний результат був успішно отриманий, **`false`**, если произошла ошибка и**`null`\*\*якщо результатів для отримання більше немає.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvnextresult()****
+**Пример #1 Пример использования**sqlsrv\_next\_result()\*\*\*\*
 
-У наступному прикладі виконується пакетний запит, який додає записи таблицю, а потім вибирає дані з таблиці. Це дає два результати оператора: один для рядків, на які впливає INSERT, і один для рядків, які повертаються SELECT. Щоб перейти до рядків, які повертаються SELECT, необхідно викликати **sqlsrvnextresult()**, щоб пройти повз перший результат.
+У наступному прикладі виконується пакетний запит, який додає записи таблицю, а потім вибирає дані з таблиці. Це дає два результати оператора: один для рядків, на які впливає INSERT, і один для рядків, які повертаються SELECT. Щоб перейти до рядків, які повертаються SELECT, необхідно викликати **sqlsrv\_next\_result()**, щоб пройти повз перший результат.
 
 ```php
 <?php
@@ -65,6 +66,6 @@ if( $next_result ) {
 
 ### Дивіться також
 
--   [sqlsrvquery()](function.sqlsrv-query.md) - готує та виконує запит
--   [sqlsrvfetcharray()](function.sqlsrv-fetch-array.md) - Повертає рядок як масив
--   [sqlsrvrowsaffected()](function.sqlsrv-rows-affected.md) - Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE
+-   [sqlsrv\_query()](function.sqlsrv-query.md) \- готує та виконує запит
+-   [sqlsrv\_fetch\_array()](function.sqlsrv-fetch-array.md) \- Повертає рядок як масив
+-   [sqlsrv\_rows\_affected()](function.sqlsrv-rows-affected.md) \- Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE

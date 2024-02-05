@@ -1,10 +1,11 @@
 ---
 navigation:
   - timezones.antarctica.md: Антарктика
-  - timezones.asia.md: Азия »
+  - timezones.asia.md: Азія »
   - index.md: PHP Manual
   - timezones.md: Список підтримуваних часових поясів
 title: Арктика
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Арктика
 

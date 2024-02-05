@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.openssl-csr-sign.md: « opensslcsrsign
-  - function.openssl-dh-compute-key.md: opensslдхcomputekey »
+  - function.openssl-csr-sign.md: « openssl\_csr\_sign
+  - function.openssl-dh-compute-key.md: openssl\_dh\_compute\_key »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: openssldecrypt
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_decrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# openssldecrypt
+# openssl\_decrypt
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-openssldecrypt - Розшифровує дані
+openssl\_decrypt - Розшифровує дані
 
 ### Опис
 
 ```methodsynopsis
-openssl_decrypt(    string $data,    string $cipher_algo,    string $passphrase,    int $options = 0,    string $iv = "",    ?string $tag = null,    string $aad = ""): string|false
+openssl_decrypt(    string $data,    string $cipher_algo,    string $passphrase,    int $options = 0,    string $iv = "",    ?string $tag = null,    string $aad = ""): string|false
 ```
 
 Бере необроблений або кодований у base64 рядок і розшифровує його за допомогою заданого методу та ключа.
@@ -28,7 +29,7 @@ openssl_decrypt(    string $data,    string $cipher_algo,    string $passphrase,
 
 `cipher_algo`
 
-Метод шифрування. Список доступних методів можна отримати за допомогою функції [opensslgetciphermethods()](function.openssl-get-cipher-methods.md)
+Метод шифрування. Список доступних методів можна отримати за допомогою функції [openssl\_get\_cipher\_methods()](function.openssl-get-cipher-methods.md)
 
 `passphrase`
 
@@ -48,7 +49,7 @@ openssl_decrypt(    string $data,    string $cipher_algo,    string $passphrase,
 
 **Застереження**
 
-Довжина `tag` не перевіряється функцією. Сторона, що викликає, несе відповідальність за те, щоб довжина тега відповідала довжині тега, отриманого при виклику [opensslencrypt()](function.openssl-encrypt.md). В іншому випадку, дешифрування може бути успішним, якщо цей тег збігається тільки з початком правильного тега.
+Довжина `tag` не перевіряється функцією. Сторона, що викликає, несе відповідальність за те, щоб довжина тега відповідала довжині тега, отриманого при виклику [openssl\_encrypt()](function.openssl-encrypt.md). В іншому випадку, дешифрування може бути успішним, якщо цей тег збігається тільки з початком правильного тега.
 
 `aad`
 
@@ -56,21 +57,21 @@ openssl_decrypt(    string $data,    string $cipher_algo,    string $passphrase,
 
 ### Значення, що повертаються
 
-Розшифрований рядок або **`false`** у разі виникнення помилки.
+Розшифрований рядок або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
 Видає помилку рівня **`E_WARNING`**, якщо параметр `cipher_algo` передано невідомий алгоритм шифрування.
 
-Видає помилку рівня **`E_WARNING`**, якщо параметр `iv` передано порожнє значення.
+Видає помилку рівня **`E_WARNING`**, якщо параметр `iv`передано пустое значение.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `tag` тепер допускає значення null. |
-|  | Додані параметри `tag` і `aad` |
+| 8.1.0 | Параметр`tag` тепер допускає значення null. |
+| 7.1.0 | Додані параметри `tag`и`aad` |
 
 ### Дивіться також
 
--   [opensslencrypt()](function.openssl-encrypt.md) - Шифрує дані
+-   [openssl\_encrypt()](function.openssl-encrypt.md) \- Шифрує дані

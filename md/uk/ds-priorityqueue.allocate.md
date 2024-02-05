@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ds-priorityqueue.md: Черга з пріоритетом
-  - ds-priorityqueue.capacity.md: 'ДсPriorityQueue::capacity »'
+  - class.ds-priorityqueue.md: « Ds\\PriorityQueue
+  - ds-priorityqueue.capacity.md: 'Ds\\PriorityQueue::capacity »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.md: Черга з пріоритетом
-title: 'ДсPriorityQueue::allocate'
+  - class.ds-priorityqueue.md: Ds\\PriorityQueue
+title: 'Ds\\PriorityQueue::allocate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсPriorityQueue::allocate
+# Ds\\PriorityQueue::allocate
 
 (PECL ds >= 1.0.0)
 
-ДсPriorityQueue::allocate — Виділяє пам'ять під зазначену місткість
+Ds\\PriorityQueue::allocate — Виділяє пам'ять під зазначену місткість
 
 ### Опис
 
@@ -26,11 +27,11 @@ public Ds\PriorityQueue::allocate(int $capacity): void
 
 Місткість. Очікувана кількість значень.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо нове значення місткості менше поточного, воно не зміниться.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Значення місткості округляється до найближчого ступеня двійки (тобто 8, 16, 32, 64, 128 і т.д.)
 
@@ -40,7 +41,7 @@ public Ds\PriorityQueue::allocate(int $capacity): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсPriorityQueue::allocate()****
+**Пример #1 Пример использования**Ds\\PriorityQueue::allocate()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($queue->capacity());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(8)

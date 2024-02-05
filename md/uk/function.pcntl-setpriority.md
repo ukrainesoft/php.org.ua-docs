@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pcntl-rfork.md: pcntlrfork
-  - function.pcntl-signal-dispatch.md: pcntlsignaldispatch »
+  - function.pcntl-rfork.md: « pcntl\_rfork
+  - function.pcntl-signal-dispatch.md: pcntl\_signal\_dispatch »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
-title: pcntlsetpriority
+title: pcntl\_setpriority
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pcntlsetpriority
+# pcntl\_setpriority
 
 (PHP 5, PHP 7, PHP 8)
 
-pcntlsetpriority — Змінити пріоритет процесу
+pcntl\_setpriority — Змінити пріоритет процесу
 
 ### Опис
 
@@ -18,13 +19,13 @@ pcntlsetpriority — Змінити пріоритет процесу
 pcntl_setpriority(int $priority, ?int $process_id = null, int $mode = PRIO_PROCESS): bool
 ```
 
-**pcntlsetpriority()** ставить пріоритет процесу, вказаному в аргументі `process_id`
+**pcntl\_setpriority()** ставить пріоритет процесу, вказаному в аргументі `process_id`
 
 ### Список параметрів
 
 `priority`
 
-Як правило, пріоритет `priority` - це значення в інтервалі від `-20` до `20`. Пріоритет за промовчанням дорівнює `0`при тому, що нижче числове значення означає більш високий пріоритет процесу. Оскільки рівні пріоритету процесів відрізняються в різних типах операційних систем та версіях їх ядер, будь ласка, ознайомтеся з вашим системним посібником getpriority(2) для отримання детальної інформації про специфіку роботи функції у вашій системі.
+Как правило приоритет`priority` - це значення в інтервалі від `-20`до`20`Приоритет по умолчанию равен , при тому що нижче числове значення означає вищий пріоритет процесу. Оскільки рівні пріоритету процесів відрізняються в різних типах операційних систем та версіях їх ядер, будь ласка, ознайомтеся з вашим системним посібником getpriority(2) для отримання детальної інформації про специфіку роботи функції у вашій системі.
 
 `process_id`
 
@@ -32,19 +33,19 @@ pcntl_setpriority(int $priority, ?int $process_id = null, int $mode = PRIO_PROCE
 
 `mode`
 
-Може набувати значення однієї з констант **`PRIO_PGRP`** **`PRIO_USER`** **`PRIO_PROCESS`** **`PRIO_DARWIN_BG`** або **`PRIO_DARWIN_THREAD`**
+Може набувати значення однієї з констант **`PRIO_PGRP`** **`PRIO_USER`** **`PRIO_PROCESS`** **`PRIO_DARWIN_BG`**или**`PRIO_DARWIN_THREAD`**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `process_id` тепер допускає значення null. |
+| 8.0.0 | `process_id` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [pcntlgetpriority()](function.pcntl-getpriority.md) - Отримати значення пріоритету процесу
--   **pcntlsetpriority()**
+-   [pcntl\_getpriority()](function.pcntl-getpriority.md) \- Отримати значення пріоритету процесу
+-   **pcntl\_setpriority()**

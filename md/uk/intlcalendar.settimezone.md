@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::setTimeZone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::setTimeZone
 
@@ -38,22 +39,22 @@ intlcal_set_time_zone(IntlCalendar $calendar, IntlTimeZone|DateTimeZone|string|n
 
 Новий часовий пояс, який використовуватиме календар. Його можна вказати такими способами:
 
--   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування [date.timezone](datetime.configuration.md#ini.date.timezone) або за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.md) та повернена функцією [datedefaulttimezoneget()](function.date-default-timezone-get.md)
+-   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування[date.timezone](datetime.configuration.md#ini.date.timezone)або за допомогою функції[date\_default\_timezone\_set()](function.date-default-timezone-set.md)та повернена функцією[date\_default\_timezone\_get()](function.date-default-timezone-get.md)
     
 -   Об'єкт класу [IntlTimeZone](class.intltimezone.md)
     
 -   Об'єкт класу [DateTimeZone](class.datetimezone.md). Його ідентифікатор буде вилучено і на його основі буде створено об'єкт часового поясу ICU; часовий пояс буде збережено в базі даних ICU, а не PHP.
     
--   Рядок є коректним ідентифікатором часового поясу ICU. Дивіться [IntlTimeZone::createTimeZoneIDEnumeration()](intltimezone.createtimezoneidenumeration.md). "Сирі" усунення, типу `"GMT+08:30"`, також підтримуються.
+-   Рядок є коректним ідентифікатором часового поясу ICU. Дивіться[IntlTimeZone::createTimeZoneIDEnumeration()](intltimezone.createtimezoneidenumeration.md). . "Сирі" усунення, типу `"GMT+08:30"`, також підтримуються.
     
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::setTimeZone()****
+**Пример #1 Пример использования**IntlCalendar::setTimeZone()\*\*\*\*
 
 ```php
 <?php
@@ -74,7 +75,7 @@ echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
 echo "(instant {$cal->getTime()})\n";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 sábado, 1 de junio de 2013 12:00:00 Hora de verano de Europa occidental

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.ssh2.md: « Введение
+  - intro.ssh2.md: '" Вступ'
   - ssh2.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.ssh2.md: SSH2
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

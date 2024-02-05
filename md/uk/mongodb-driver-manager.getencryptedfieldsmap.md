@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-manager.executewritecommand.md: '« MongoDBDriverManager::executeWriteCommand'
-  - mongodb-driver-manager.getreadconcern.md: 'MongoDBDriverManager::getReadConcern »'
+  - mongodb-driver-manager.executewritecommand.md: '« MongoDB\\Driver\\Manager::executeWriteCommand'
+  - mongodb-driver-manager.getreadconcern.md: 'MongoDB\\Driver\\Manager::getReadConcern »'
   - index.md: PHP Manual
-  - class.mongodb-driver-manager.md: MongoDBDriverManager
-title: 'MongoDBDriverManager::getEncryptedFieldsMap'
+  - class.mongodb-driver-manager.md: MongoDB\\Driver\\Manager
+title: 'MongoDB\\Driver\\Manager::getEncryptedFieldsMap'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverManager::getEncryptedFieldsMap
+# MongoDB\\Driver\\Manager::getEncryptedFieldsMap
 
 (mongodb >=1.14.0)
 
-MongoDBDriverManager::getEncryptedFieldsMap — Повертає опцію автоматичного шифрування encryptedFieldsMap для Manager
+MongoDB\\Driver\\Manager::getEncryptedFieldsMap — Повертає опцію автоматичного шифрування encryptedFieldsMap для Manager
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverManager::getEncryptedFieldsMap — Повертає опцію ав
 final public MongoDB\Driver\Manager::getEncryptedFieldsMap(): array|object|null
 ```
 
-Повертає параметр `encryptedFieldsMap` автоматичного шифрування для Manager, якщо його вказано.
+Возвращает параметр`encryptedFieldsMap` автоматичного шифрування для Manager, якщо його вказано.
 
 ### Список параметрів
 
@@ -26,12 +27,12 @@ final public MongoDB\Driver\Manager::getEncryptedFieldsMap(): array|object|null
 
 ### Значення, що повертаються
 
-Параметр `encryptedFieldsMap` автоматичного шифрування для Manager або \*\*`null`\*\*якщо він не був вказаний.
+Параметр`encryptedFieldsMap` автоматичного шифрування для Manager або \*\*`null`\*\*якщо він не був вказаний.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.md) - Створює новий Manager MongoDB
+-   [MongoDB\\Driver\\Manager::\_\_construct()](mongodb-driver-manager.construct.md) \- Створює новий Manager MongoDB

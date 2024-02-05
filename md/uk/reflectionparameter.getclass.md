@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::getClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionParameter::getClass
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionParameter::getClass — Отримує об'єкт [ReflectionClass](class.reflectionclass.md) для відображуваного параметра або **`null`**
+ReflectionParameter::getClass — Отримує об'єкт [ReflectionClass](class.reflectionclass.md)для отражаемого параметра или\*\*`null`\*\*
 
 **Увага**
 
@@ -22,13 +23,13 @@ ReflectionParameter::getClass — Отримує об'єкт [ReflectionClass](c
 public ReflectionParameter::getClass(): ?ReflectionClass
 ```
 
-Отримує об'єкт [ReflectionClass](class.reflectionclass.md) для відображуваного параметра або **`null`**
+Отримує об'єкт [ReflectionClass](class.reflectionclass.md)для отражаемого параметра или\*\*`null`\*\*
 
 Починаючи з PHP 8.0.0, ця функція застаріла і не рекомендується. Замість неї використовуйте [ReflectionParameter::getType()](reflectionparameter.gettype.md), Щоб отримати [ReflectionType](class.reflectiontype.md) параметра, а потім опитайте об'єкт, щоб визначити тип параметра.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ public ReflectionParameter::getClass(): ?ReflectionClass
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.md) або \*\*`null`\*\*якщо тип не оголошений або якщо оголошений тип не є класом або інтерфейсом.
+Об'єкт класу [ReflectionClass](class.reflectionclass.md)или\*\*`null`\*\*якщо тип не оголошений або якщо оголошений тип не є класом або інтерфейсом.
 
 ### Приклади
 
-**Приклад #1 Приклад використання класу [ReflectionParameter](class.reflectionparameter.md)**
+**Пример #1 Пример использования класса[ReflectionParameter](class.reflectionparameter.md)**
 
 ```php
 <?php
@@ -56,4 +57,4 @@ echo $aParameter->getClass()->name;
 
 ### Дивіться також
 
--   [ReflectionParameter::getDeclaringClass()](reflectionparameter.getdeclaringclass.md) - Отримання класу, що оголошує
+-   [ReflectionParameter::getDeclaringClass()](reflectionparameter.getdeclaringclass.md) \- Отримання класу, що оголошує

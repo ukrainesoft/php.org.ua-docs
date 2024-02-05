@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImage
 
@@ -36,7 +37,7 @@ public Imagick::setImage(Imagick $replace): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setImage()****
+**Пример #1 Пример использования**Imagick::setImage()\*\*\*\*
 
 Приклад використання Imagick::setImage()
 

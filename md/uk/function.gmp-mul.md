@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-mod.md: « gmpmod
-  - function.gmp-neg.md: gmpneg »
+  - function.gmp-mod.md: « gmp\_mod
+  - function.gmp-neg.md: gmp\_neg »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpmul
+title: gmp\_mul
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpmul
+# gmp\_mul
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpmul — Збільшення чисел
+gmp\_mul — Збільшення чисел
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpmul — Збільшення чисел
 gmp_mul(GMP|int|string $num1, GMP|int|string $num2): GMP
 ```
 
-Помножує число `num1` на `num2` та повертає результат.
+Помножує число `num1`на`num2` та повертає результат.
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ gmp_mul(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.md)ю
+Об'єкт класу [GMP](class.gmp.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpmul()****
+**Пример #1 Пример использования**gmp\_mul()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ echo gmp_strval($mul) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 24691356000

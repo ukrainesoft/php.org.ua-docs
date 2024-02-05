@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.inotify-read.md: « inotifyread
+  - function.inotify-read.md: « inotify\_read
   - book.xattr.md: xattr »
   - index.md: PHP Manual
-  - ref.inotify.md: Функции Inotify
-title: inotifyрмwatch
+  - ref.inotify.md: Функції Inotify
+title: inotify\_rm\_watch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# inotifyрмwatch
+# inotify\_rm\_watch
 
 (PECL inotify >= 0.1.2)
 
-inotifyрмwatch — Видалити спостерігача
+inotify\_rm\_watch — Видалити спостерігача
 
 ### Опис
 
@@ -18,13 +19,13 @@ inotifyрмwatch — Видалити спостерігача
 inotify_rm_watch(resource $inotify_instance, int $watch_descriptor): bool
 ```
 
-**inotifyрмwatch()** видаляє спостерігача `watch_descriptor` з екземпляра inotify `inotify_instance`
+**inotify\_rm\_watch()** видаляє спостерігача `watch_descriptor` з екземпляра inotify `inotify_instance`
 
 ### Список параметрів
 
 `inotify_instance`
 
-Ресурс, що повертається [inotifyinit()](function.inotify-init.md)
+Ресурс, що повертається [inotify\_init()](function.inotify-init.md)
 
 `watch_descriptor`
 
@@ -32,8 +33,8 @@ inotify_rm_watch(resource $inotify_instance, int $watch_descriptor): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [inotifyinit()](function.inotify-init.md) - Ініціалізує екземпляр inotify
+-   [inotify\_init()](function.inotify-init.md) \- Ініціалізує екземпляр inotify

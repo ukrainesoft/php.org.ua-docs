@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.heartbeat.md: '« SwooleServer::heartbeat'
-  - swoole-server.on.md: 'SwooleServer::on »'
+  - swoole-server.heartbeat.md: '« Swoole\\Server::heartbeat'
+  - swoole-server.on.md: 'Swoole\\Server::on »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::listen'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::listen'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::listen
+# Swoole\\Server::listen
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::listen — Слухає по заданому IP та порту, тип сокету
+Swoole\\Server::listen — Слухає по заданому IP та порту, тип сокету
 
 ### Опис
 

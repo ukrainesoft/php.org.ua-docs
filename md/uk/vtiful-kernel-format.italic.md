@@ -1,16 +1,17 @@
 ---
 navigation:
-  - vtiful-kernel-format.bold.md: '« VtifulKernelFormat::bold'
-  - vtiful-kernel-format.underline.md: 'VtifulKernelFormat::underline »'
+  - vtiful-kernel-format.bold.md: '« Vtiful\\Kernel\\Format::bold'
+  - vtiful-kernel-format.underline.md: 'Vtiful\\Kernel\\Format::underline »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-format.md: VtifulKernelFormat
-title: 'VtifulKernelFormat::italic'
+  - class.vtiful-kernel-format.md: Vtiful\\Kernel\\Format
+title: 'Vtiful\\Kernel\\Format::italic'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelFormat::italic
+# Vtiful\\Kernel\\Format::italic
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelFormat::italic — Курсив
+Vtiful\\Kernel\\Format::italic — Курсив
 
 ### Опис
 
@@ -18,7 +19,7 @@ VtifulKernelFormat::italic — Курсив
 public Vtiful\Kernel\Format::italic(resource $handle)
 ```
 
-Формат курсиву [VtifulKernelFormat](class.vtiful-kernel-format.md)
+Формат курсива[Vtiful\\Kernel\\Format](class.vtiful-kernel-format.md)
 
 ### Список параметрів
 

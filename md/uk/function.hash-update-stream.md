@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.hash-update-file.md: « hashupdatefile
-  - function.hash-update.md: hashupdate »
+  - function.hash-update-file.md: « hash\_update\_file
+  - function.hash-update.md: hash\_update »
   - index.md: PHP Manual
-  - ref.hash.md: Функции Hash
-title: hashupdatestream
+  - ref.hash.md: Функції Hash
+title: hash\_update\_stream
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# hashupdatestream
+# hash\_update\_stream
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8, PECL hash> = 1.1)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL hash >= 1.1)
 
-hashupdatestream — Додає дані з відкритого потоку до активного контексту хешування
+hash\_update\_stream — Додає дані з відкритого потоку до активного контексту хешування
 
 ### Опис
 
@@ -22,7 +23,7 @@ hash_update_stream(HashContext $context, resource $stream, int $length = -1): in
 
 `context`
 
-Контекст хешування, що повертається [hashinit()](function.hash-init.md)
+Контекст хешування, що повертається [hash\_init()](function.hash-init.md)
 
 `stream`
 
@@ -30,7 +31,7 @@ hash_update_stream(HashContext $context, resource $stream, int $length = -1): in
 
 `length`
 
-Максимальна кількість символів для копіювання з `stream` у контекст хешування.
+Максимальна кількість символів для копіювання з `stream`в контекст хеширования.
 
 ### Значення, що повертаються
 
@@ -38,36 +39,39 @@ hash_update_stream(HashContext $context, resource $stream, int $length = -1): in
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
+| 7.2.0 | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **hashupdatestream()****
+**Пример #1 Пример использования**hash\_update\_stream()\*\*\*\*
 
 ```php
 <?php
 $fp = tmpfile();
-fwrite($fp, 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.');
+fwrite($fp, 'прыгает вокруг ленивой собаки.');
+
 rewind($fp);
 
-$ctx = hash_init('md5');
+$ctx = hash_init('sha256');
+hash_update($ctx, 'Наглый коричневый лисёнок ');
+
 hash_update_stream($ctx, $fp);
 echo hash_final($ctx);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-bff8b4bc8b5c1c1d5b3211dfb21d1e76
+199f52fc9f2492c64449ed96003f135f8ea428e353e50c40b0c1a16b9c16f571
 ```
 
 ### Дивіться також
 
--   [hashinit()](function.hash-init.md) - Ініціалізація інкрементального контексту хешування
--   [hashupdate()](function.hash-update.md) - Додає дані до активного контексту хешування
--   [hashfinal()](function.hash-final.md) - Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
--   [hash()](function.hash.md) - Генерує хеш-код (підпис повідомлення)
--   [hashfile()](function.hash-file.md) - Генерація хеш-значення, використовуючи вміст заданого файлу
+-   [hash\_init()](function.hash-init.md) \- Ініціалізація інкрементального контексту хешування
+-   [hash\_update()](function.hash-update.md) \- Додає дані до активного контексту хешування
+-   [hash\_final()](function.hash-final.md) \- Завершує інкрементальне хешування та повертає результат у вигляді хеш-коду
+-   [hash()](function.hash.md) \- Генерує хеш-код (підпис повідомлення)
+-   [hash\_file()](function.hash-file.md) \- Генерація хеш-значення, використовуючи вміст заданого файлу

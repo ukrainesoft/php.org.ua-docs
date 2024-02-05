@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gnupg-adddecryptkey.md: « gnupgadddecryptkey
-  - function.gnupg-addsignkey.md: gnupgaddsignkey »
+  - function.gnupg-adddecryptkey.md: « gnupg\_adddecryptkey
+  - function.gnupg-addsignkey.md: gnupg\_addsignkey »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgaddencryptkey
+title: gnupg\_addencryptkey
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgaddencryptkey
+# gnupg\_addencryptkey
 
 (PECL gnupg >= 0.5)
 
-gnupgaddencryptkey — Додає ключ для шифрування
+gnupg\_addencryptkey — Додає ключ для шифрування
 
 ### Опис
 
@@ -22,7 +23,7 @@ gnupg_addencryptkey(resource $identifier, string $fingerprint): bool
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `fingerprint`
 
@@ -30,11 +31,11 @@ gnupg_addencryptkey(resource $identifier, string $fingerprint): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Процедурний приклад використання **gnupgaddencryptkey()****
+**Приклад #1 Процедурний приклад використання **gnupg\_addencryptkey()****
 
 ```php
 <?php
@@ -43,7 +44,7 @@ gnupg_addencryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC");
 ?>
 ```
 
-**Приклад #2 Об'єктно-орієнтований приклад використання **gnupgaddencryptkey()****
+**Приклад #2 Об'єктно-орієнтований приклад використання **gnupg\_addencryptkey()****
 
 ```php
 <?php

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.stats.md: « Введение
+  - intro.stats.md: '" Вступ'
   - stats.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.stats.md: Статистика
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

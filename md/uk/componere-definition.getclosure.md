@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-definition.isregistered.md: '« ComponereDefinition::isRegistered'
-  - componere-definition.getclosures.md: 'ComponereDefinition::getClosures »'
+  - componere-definition.isregistered.md: '« Componere\\Definition::isRegistered'
+  - componere-definition.getclosures.md: 'Componere\\Definition::getClosures »'
   - index.md: PHP Manual
-  - class.componere-definition.md: ComponereDefinition
-title: 'ComponereDefinition::getClosure'
+  - class.componere-definition.md: Componere\\Definition
+title: 'Componere\\Definition::getClosure'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereDefinition::getClosure
+# Componere\\Definition::getClosure
 
 (Componere 2 >= 2.1.0)
 
-ComponereDefinition::getClosure — Отримує замикання
+Componere\\Definition::getClosure — Отримує замикання
 
 ### Опис
 
@@ -38,4 +39,4 @@ public Componere\Definition::getClosure(string $name): Closure
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md), якщо `name` не знайдено
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо `name`не найдено

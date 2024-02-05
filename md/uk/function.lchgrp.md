@@ -1,14 +1,15 @@
 ---
 navigation:
-  - function.is-writeable.md: « iswriteable
+  - function.is-writeable.md: « is\_writeable
   - function.lchown.md: lchown »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: lchgrp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # lchgrp
 
-(PHP 5> = 5.1.3, PHP 7, PHP 8)
+(PHP 5 >= 5.1.3, PHP 7, PHP 8)
 
 lchgrp — Змінює групу, якій належить символічне посилання
 
@@ -34,7 +35,7 @@ lchgrp(string $filename, string|int $group): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -43,7 +44,7 @@ lchgrp(string $filename, string|int $group): bool
 ```php
 <?php
 $target = 'output.php';
-$link = 'output.html';
+$link = 'output.md';
 symlink($target, $link);
 
 lchgrp($link, 8);
@@ -58,7 +59,7 @@ lchgrp($link, 8);
 
 ### Дивіться також
 
--   [chgrp()](function.chgrp.md) - Змінює групу файлу
--   [lchown()](function.lchown.md) - Змінює власника символічного посилання
--   [chown()](function.chown.md) - Змінює власника файлу
--   [chmod()](function.chmod.md) - Змінює режим доступу до файлу
+-   [chgrp()](function.chgrp.md) \- Змінює групу файлу
+-   [lchown()](function.lchown.md) \- Змінює власника символічного посилання
+-   [chown()](function.chown.md) \- Змінює власника файлу
+-   [chmod()](function.chmod.md) \- Змінює режим доступу до файлу

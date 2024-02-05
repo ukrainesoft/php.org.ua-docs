@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.imap-mail-move.md: « imapmailmove
-  - function.imap-mailboxmsginfo.md: imapmailboxmsginfo »
+  - function.imap-mail-move.md: « imap\_mail\_move
+  - function.imap-mailboxmsginfo.md: imap\_mailboxmsginfo »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapmail
+  - ref.imap.md: Функції IMAP
+title: imap\_mail
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapmail
+# imap\_mail
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapmail — Надіслати email
+imap\_mail — Надсилає повідомлення
 
 ### Опис
 
 ```methodsynopsis
-imap_mail(    string $to,    string $subject,    string $message,    ?string $additional_headers = null,    ?string $cc = null,    ?string $bcc = null,    ?string $return_path = null): bool
+imap_mail(    string $to,    string $subject,    string $message,    ?string $additional_headers = null,    ?string $cc = null,    ?string $bcc = null,    ?string $return_path = null): bool
 ```
 
 Ця функція дозволяє надсилати повідомлення з коректною обробкою одержувачів Cc та Bcc.
 
-Параметри `to` `cc` і `bcc` - рядки, які будуть розібрані відповідно до [» RFC822](http://www.faqs.org/rfcs/rfc822)
+Параметри `to` `cc`и`bcc` - рядки, які будуть розібрані відповідно до [» RFC822](http://www.faqs.org/rfcs/rfc822)
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ imap_mail(    string $to,    string $subject,    string $message,    ?string $ad
 
 `message`
 
-Тіло листа, дивіться [imapmailcompose()](function.imap-mail-compose.md)
+Тело письма, смотрите[imap\_mail\_compose()](function.imap-mail-compose.md)
 
 `additional_headers`
 
@@ -44,7 +45,7 @@ imap_mail(    string $to,    string $subject,    string $message,    ?string $ad
 
 `bcc`
 
-Одержувачі `bcc` отримають листа, але не будуть вказані в заголовках.
+Получатели`bcc` отримають листа, але не будуть вказані в заголовках.
 
 `return_path`
 
@@ -52,15 +53,15 @@ imap_mail(    string $to,    string $subject,    string $message,    ?string $ad
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `additional_headers` `cc` `bcc` і `return_path` тепер допускають значення null. |
+| 8.0.0 | `additional_headers` `cc` `bcc`и`return_path` тепер допускають значення null. |
 
 ### Дивіться також
 
--   [mail()](function.mail.md) - Надсилає електронну пошту
--   [imapmailcompose()](function.imap-mail-compose.md) - Створити MIME-повідомлення на основі заданих обгортки та тіла
+-   [mail()](function.mail.md) \- Надсилає електронну пошту
+-   [imap\_mail\_compose()](function.imap-mail-compose.md) \- Створює MIME-повідомлення на основі заданих обгортки та тіла

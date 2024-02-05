@@ -1,16 +1,17 @@
 ---
 navigation:
   - error.gettraceasstring.md: '« Error::getTraceAsString'
-  - error.clone.md: 'Error::clone »'
+  - error.clone.md: 'Error::\_\_clone »'
   - index.md: PHP Manual
   - class.error.md: Error
-title: 'Error::function toString() { \[native code\] }'
+title: 'Error::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Error::function toString() { \[native code\] }
+# Error::\_\_function toString() { \[native code\] }
 
 (PHP 7, PHP 8)
 
-Error::toString — Строкове подання помилки
+Error::\_\_toString — Строкове подання помилки
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Error::__toString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Error::toString()****
+**Пример #1 Пример использования**Error::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Error: Сообщение об ошибке in /home/bjori/tmp/ex.php:3
@@ -52,4 +53,4 @@ Stack trace:
 
 ### Дивіться також
 
--   [Throwable::toString()](throwable.tostring.md) - отримує рядкове подання викинутого об'єкта
+-   [Throwable::\_\_toString()](throwable.tostring.md) \- отримує рядкове подання викинутого об'єкта

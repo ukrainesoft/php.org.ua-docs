@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setTermsIncludeUpperBound'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setTermsIncludeUpperBound
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setTermsIncludeUpperBound — Включає верхню межу виразу до набору результатів
 
@@ -24,7 +25,7 @@ public SolrQuery::setTermsIncludeUpperBound(bool $flag): SolrQuery
 
 `flag`
 
-**`true`** ор **`false`**
+**`true`**or**`false`**
 
 ### Значення, що повертаються
 

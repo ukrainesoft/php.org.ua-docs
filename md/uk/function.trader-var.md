@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-ultosc.md: « traderultosc
-  - function.trader-wclprice.md: traderwclprice »
+  - function.trader-ultosc.md: « trader\_ultosc
+  - function.trader-wclprice.md: trader\_wclprice »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradervar
+  - ref.trader.md: Функції Trader
+title: trader\_var
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradervar
+# trader\_var
 
 (PECL trader >= 0.2.0)
 
-tradervar - Варіація
+trader\_var - Варіація
 
 ### Опис
 

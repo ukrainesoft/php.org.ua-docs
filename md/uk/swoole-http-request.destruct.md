@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-http-request.md: « SwooleHttpRequest
-  - swoole-http-request.rawcontent.md: 'SwooleHttpRequest::rawcontent »'
+  - class.swoole-http-request.md: « Swoole\\Http\\Request
+  - swoole-http-request.rawcontent.md: 'Swoole\\Http\\Request::rawcontent »'
   - index.md: PHP Manual
-  - class.swoole-http-request.md: SwooleHttpRequest
-title: 'SwooleHttpRequest::destruct'
+  - class.swoole-http-request.md: Swoole\\Http\\Request
+title: 'Swoole\\Http\\Request::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpRequest::destruct
+# Swoole\\Http\\Request::\_\_destruct
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpRequest::destruct — Знищує запит HTTP
+Swoole\\Http\\Request::\_\_destruct — Знищує запит HTTP
 
 ### Опис
 

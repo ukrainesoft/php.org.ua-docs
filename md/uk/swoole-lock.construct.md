@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.swoole-lock.md: « SwooleLock
-  - swoole-lock.destruct.md: 'SwooleLock::destruct »'
+  - class.swoole-lock.md: « Swoole\\Lock
+  - swoole-lock.destruct.md: 'Swoole\\Lock::\_\_destruct »'
   - index.md: PHP Manual
-  - class.swoole-lock.md: SwooleLock
-title: 'SwooleLock::construct'
+  - class.swoole-lock.md: Swoole\\Lock
+title: 'Swoole\\Lock::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleLock::construct
+# Swoole\\Lock::\_\_construct
 
 (PECL swoole >= 1.9.0)
 
-SwooleLock::construct — Створює блокування пам'яті
+Swoole\\Lock::\_\_construct — Створює блокування пам'яті
 
 ### Опис
 
-public **SwooleLock::construct**(string `$type` =?, string `$file_lock_location`
+public**Swoole\\Lock::\_\_construct**(string`$type`\= ?, string`$file_lock_location`
 
 Блокування Swoole використовується для синхронізації даних між кількома операціями чи процесами.
 

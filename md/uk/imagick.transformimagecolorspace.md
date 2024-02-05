@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::transformImageColorspace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::transformImageColorspace
 
 (PECL imagick 3)
 
-Imagick::transformImageColorspace — Перетворення зображення на новий колірний простір
+Imagick::transformImageColorspace — Перетворює зображення на новий колірний простір.
 
 ### Опис
 
@@ -24,7 +25,7 @@ public Imagick::transformImageColorspace(int $colorspace): bool
 
 `colorspace`
 
-Колірний простір, в який має бути перетворено зображення, одна з[констант COLORSPACE](imagick.constants.md#imagick.constants.colorspace)наприклад Imagick::COLORSPACECMYK.
+Колірний простір, в який має бути перетворено зображення, одна з[констант COLORSPACE](imagick.constants.md#imagick.constants.colorspace)наприклад Imagick::COLORSPACE\_CMYK.
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public Imagick::transformImageColorspace(int $colorspace): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::transformImageColorspace()****
+**Пример #1 Пример использования метода**Imagick::transformImageColorspace()\*\*\*\*
 
 Перетворює зображення на новий колірний простір, а потім витягує окремий канал, щоб можна було переглянути значення окремих каналів.
 
@@ -51,4 +52,4 @@ function transformImageColorspace($imagePath, $colorSpace, $channel) {
 
 ### Дивіться також
 
--   [Imagick::setColorSpace()](imagick.setcolorspace.md) - Встановлює колірний простір
+-   [Imagick::setColorSpace()](imagick.setcolorspace.md) \- Встановлює колірний простір

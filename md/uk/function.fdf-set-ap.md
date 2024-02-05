@@ -1,36 +1,37 @@
 ---
 navigation:
-  - function.fdf-save.md: « fdfsave
-  - function.fdf-set-encoding.md: fdfsetencoding »
+  - function.fdf-save.md: « fdf\_save
+  - function.fdf-set-encoding.md: fdf\_set\_encoding »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfsetап
+title: fdf\_set\_ap
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfsetап
+# fdf\_set\_ap
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfsetap — Встановлює зовнішній вигляд поля
+fdf\_set\_ap — Встановлює зовнішній вигляд поля
 
 ### Опис
 
 ```methodsynopsis
-fdf_set_ap(    resource $fdf_document,    string $field_name,    int $face,    string $filename,    int $page_number): bool
+fdf_set_ap(    resource $fdf_document,    string $field_name,    int $face,    string $filename,    int $page_number): bool
 ```
 
-Встановлює зовнішній вигляд поля (тобто значення ключа `/AP`
+Устанавливает внешний вид поля (т.е. значение ключа`/AP`
 
 ### Список параметрів
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md)or[fdf\_open\_string()](function.fdf-open-string.md)
 
 `field_name`
 
 `face`
 
-Допустимі значення: **`FDFNormalAP`** **`FDFRolloverAP`** і **`FDFDownAP`**
+Допустимі значення: **`FDFNormalAP`** **`FDFRolloverAP`**и**`FDFDownAP`**
 
 `filename`
 
@@ -38,4 +39,4 @@ fdf_set_ap(    resource $fdf_document,    string $field_name,    int $face,    s
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

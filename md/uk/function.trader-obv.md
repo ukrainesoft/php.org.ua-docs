@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-natr.md: « tradernatr
-  - function.trader-plus-di.md: traderplusdi »
+  - function.trader-natr.md: « trader\_natr
+  - function.trader-plus-di.md: trader\_plus\_di »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderobv
+  - ref.trader.md: Функції Trader
+title: trader\_obv
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderobv
+# trader\_obv
 
 (PECL trader >= 0.2.0)
 
-traderobv - Індикатор Балансового об'єму
+trader\_obv - Індикатор Балансового об'єму
 
 ### Опис
 

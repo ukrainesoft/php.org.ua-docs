@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getSizeOffset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getSizeOffset
 
@@ -18,7 +19,7 @@ Imagick::getSizeOffset — Повертає розмір зміщення
 public Imagick::getSizeOffset(): int
 ```
 
-Повертає розмір усунення, пов'язаний з об'єктом Imagick. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Повертає розмір усунення, пов'язаний з об'єктом Imagick. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 

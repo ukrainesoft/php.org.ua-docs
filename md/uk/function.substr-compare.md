@@ -1,24 +1,25 @@
 ---
 navigation:
   - function.strtr.md: « strtr
-  - function.substr-count.md: substrcount »
+  - function.substr-count.md: substr\_count »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: substrcompare
+title: substr\_compare
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# substrcompare
+# substr\_compare
 
 (PHP 5, PHP 7, PHP 8)
 
-substrcompare — Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
+substr\_compare - Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
 
 ### Опис
 
 ```methodsynopsis
-substr_compare(    string $haystack,    string $needle,    int $offset,    ?int $length = null,    bool $case_insensitive = false): int
+substr_compare(    string $haystack,    string $needle,    int $offset,    ?int $length = null,    bool $case_insensitive = false): int
 ```
 
-**substrcompare()** порівнює рядок `haystack` (починаючи з позиції `offset`) з рядком `needle`. У порівнянні беруть участь максимум `length` символів.
+\*\*substr\_compare()\*\*сравнивает строку`haystack` (починаючи з позиції `offset`) з рядком `needle`В сравнении участвуют максимум`length` символів.
 
 ### Список параметрів
 
@@ -36,26 +37,27 @@ substr_compare(    string $haystack,    string $needle,    int $offset,    ?int 
 
 `length`
 
-Довжина порівняння. За замовчуванням використовується максимальна з довжин `needle` і `haystack` мінус `offset`
+Довжина порівняння. За замовчуванням використовується максимальна з довжин `needle`и`haystack`минус`offset`
 
-`case_insensitivity`
+`case_insensitive`
 
-Якщо `case_insensitivity` має значення **`true`**, Порівняння виконується без урахування регістру.
+Якщо `case_insensitive`имеет значение\*\*`true`\*\*, Порівняння виконується без урахування регістру.
 
 ### Значення, що повертаються
 
-Повертає від'ємне число, якщо рядок `haystack` (починаючи з символу `offset`) менше ніж `needle`; позитивне число, якщо вона більша `needle`; 0, якщо рядки дорівнюють. Якщо `offset` більше (до PHP 7.2.18, 7.3.5) або дорівнює довжині `haystack` або `length` переданий і менше 0, **substrcompare()** виводить попередження та повертає **`false`**
+Повертає `-1`, якщо `string1`меньше`string2` , якщо `string1`больше`string2`, и якщо рядки рівні. Якщо `offset` більше (до PHP 7.2.18, 7.3.5) або дорівнює довжині `haystack`или`length` переданий і менше 0, **substr\_compare()** виводить попередження та повертає **`false`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `length` тепер допускає значення null. |
-|  | `offset` тепер може бути рівним `haystack` |
+| 8.2.0 | Функція тепер повертає `-1`или ; раніше вона повертала негативне чи позитивне число. |
+| 8.0.0 | `length` тепер допускає значення null. |
+| 7.2.18, 7.3.5 | `offset` тепер може бути рівним `haystack` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **substrcompare()****
+**Пример #1 Пример использования**substr\_compare()\*\*\*\*
 
 ```php
 <?php
@@ -71,4 +73,4 @@ echo substr_compare("abcde", "abc", 5, 1); // предупреждение
 
 ### Дивіться також
 
--   [strncmp()](function.strncmp.md) - Бінарно-безпечне порівняння перших n символів рядків
+-   [strncmp()](function.strncmp.md) \- Бінарно-безпечне порівняння перших n символів рядків

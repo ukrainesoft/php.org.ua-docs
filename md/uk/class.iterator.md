@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Інтерфейс Iterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс Iterator
 
@@ -18,15 +19,10 @@ title: Інтерфейс Iterator
 
 ```classsynopsis
 
-     
-    
+    interface Iterator
 
-    
-     interface Iterator
-      extends
-       Traversable
-     
-     {
+    extends
+      Traversable {
 
     /* Методы */
     
@@ -68,13 +64,13 @@ class myIterator implements Iterator {
         $this->position = 0;
     }
 
-    #[ReturnTypeWillChange]
+    #[\ReturnTypeWillChange]
     public function current() {
         var_dump(__METHOD__);
         return $this->array[$this->position];
     }
 
-    #[ReturnTypeWillChange]
+    #[\ReturnTypeWillChange]
     public function key() {
         var_dump(__METHOD__);
         return $this->position;
@@ -100,7 +96,7 @@ foreach($it as $key => $value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(18) "myIterator::rewind"
@@ -130,12 +126,12 @@ string(17) "myIterator::valid"
 
 ## Дивіться також
 
-Дивіться також розділ [Ітератори об'єктів](language.oop5.iterations.md)
+Смотрите также раздел[Ітератори об'єктів](language.oop5.iterations.md)
 
 ## Зміст
 
--   [Iterator::current](iterator.current.md) — Повернення поточного елемента
--   [Iterator::key](iterator.key.md) — Повертає ключ поточного елемента
--   [Iterator::next](iterator.next.md) — Переходить до наступного елементу
--   [Iterator::rewind](iterator.rewind.md) - Повертає ітератор на перший елемент
--   [Iterator::valid](iterator.valid.md) - Перевіряє коректність поточної позиції
+-   [Iterator::current](iterator.current.md)— Повернення поточного елемента
+-   [Iterator::key](iterator.key.md)— Повертає ключ поточного елемента
+-   [Iterator::next](iterator.next.md)— Переходить до наступного елементу
+-   [Iterator::rewind](iterator.rewind.md) \- Повертає ітератор на перший елемент
+-   [Iterator::valid](iterator.valid.md) \- Перевіряє коректність поточної позиції

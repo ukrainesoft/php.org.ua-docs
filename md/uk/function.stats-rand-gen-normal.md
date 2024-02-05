@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-rand-gen-noncentral-t.md: « statsrandgennoncentralт
-  - function.stats-rand-gen-t.md: statsrandgent »
+  - function.stats-rand-gen-noncentral-t.md: « stats\_rand\_gen\_noncentral\_t
+  - function.stats-rand-gen-t.md: stats\_rand\_gen\_t »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsrandгенnormal
+title: stats\_rand\_gen\_normal
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsrandгенnormal
+# stats\_rand\_gen\_normal
 
 (PECL stats >= 1.0.0)
 
-statsrandгенnormal - Генерує одне випадкове відхилення від нормального розподілу
+stats\_rand\_gen\_normal - Генерує одне випадкове відхилення від нормального розподілу
 
 ### Опис
 
@@ -18,7 +19,7 @@ statsrandгенnormal - Генерує одне випадкове відхил�
 stats_rand_gen_normal(float $av, float $sd): float
 ```
 
-Повертає випадкове відхилення від нормального розподілу із середнім значенням `av` та стандартне відхилення `sd`
+Повертає випадкове відхилення від нормального розподілу із середнім значенням `av`и стандартное отклонение`sd`
 
 ### Список параметрів
 

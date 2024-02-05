@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: gmdate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gmdate
 
@@ -28,7 +29,7 @@ gmdate(string $format, ?int $timestamp = null): string
 
 `timestamp`
 
-Необов'язковий параметр `timestamp` являє собою мітку часу типу int, за умовчанням рівну поточному локальному часу, якщо `timestamp` не вказано або **`null`**. Іншими словами, значення за замовчуванням дорівнює результату функції [time()](function.time.md)
+Необов'язковий параметр `timestamp` — це ціла (int) мітка часу, за умовчанням рівна поточному місцевому часу, якщо параметр `timestamp` не вказано або дорівнює \*\*`null`\*\*Говоря по другому, значение по умолчанию равно результату функции[time()](function.time.md)
 
 ### Значення, що повертаються
 
@@ -36,13 +37,13 @@ gmdate(string $format, ?int $timestamp = null): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `timestamp` тепер допускає значення null. |
+| 8.0.0 | `timestamp` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmdate()****
+**Пример #1 Пример использования**gmdate()\*\*\*\*
 
 Наприклад, у Фінляндії (GMT +0200), перший рядок у наступному прикладі виведе "Jan 01 1998 00:00:00", а другий - "Dec 31 1997 22:00:00".
 
@@ -55,7 +56,9 @@ echo gmdate("M d Y H:i:s", mktime(0, 0, 0, 1, 1, 1998));
 
 ### Дивіться також
 
--   [date()](function.date.md) - Форматує тимчасову мітку Unix
--   [mktime()](function.mktime.md) - Повертає позначку часу Unix для заданої дати
--   [gmmktime()](function.gmmktime.md) - Повертає локальну мітку часу Unix для часу за Грінвічем
--   [IntlDateFormatter::format()](intldateformatter.format.md) - Форматує значення дати/часу у вигляді рядка
+-   [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.md) \- Повертає новий об'єкт DateTimeImmutable
+-   [DateTimeInterface::format()](datetime.format.md) \- Повертає дату, відформатовану згідно з переданим форматом
+-   [date()](function.date.md) \- Форматує тимчасову мітку Unix
+-   [mktime()](function.mktime.md) \- Повертає позначку часу Unix для заданої дати
+-   [gmmktime()](function.gmmktime.md) \- Повертає локальну мітку часу Unix для часу за Грінвічем
+-   [IntlDateFormatter::format()](intldateformatter.format.md) \- Форматує значення дати/часу у вигляді рядка

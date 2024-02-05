@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::forwardFourierTransformImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::forwardFourierTransformImage
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
-Imagick::forwardFourierTransformImage — Опис
+Imagick::forwardFourierTransformImage — Реалізує дискретне перетворення Фур'є
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Imagick::forwardFourierTransformimage(bool $magnitude): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::forwardFourierTransformImage()****
+**Пример #1 Пример использования**Imagick::forwardFourierTransformImage()\*\*\*\*
 
 ```php
 <?php

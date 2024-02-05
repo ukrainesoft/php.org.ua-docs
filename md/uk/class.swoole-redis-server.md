@@ -1,12 +1,13 @@
 ---
 navigation:
-  - swoole-process.write.md: '« SwooleProcess::write'
-  - swoole-redis-server.format.md: 'SwooleRedisServer::format »'
+  - swoole-process.write.md: '« Swoole\\Process::write'
+  - swoole-redis-server.format.md: 'Swoole\\Redis\\Server::format »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
-title: Клас SwooleRedisServer
+title: Клас Swoole\\Redis\\Server
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас SwooleRedisServer
+# Клас Swoole\\Redis\\Server
 
 (PECL swoole >= 1.9.0)
 
@@ -63,7 +64,7 @@ title: Клас SwooleRedisServer
     /* Методы */
     
    public static format(string $type, string $value = ?): ReturnType
-public setHandler(    string $command,    string $callback,    string $number_of_string_param = ?,    string $type_of_array_param = ?): ReturnType
+public setHandler(    string $command,    string $callback,    string $number_of_string_param = ?,    string $type_of_array_param = ?): ReturnType
 public start(): ReturnType
 
 
@@ -97,7 +98,7 @@ public Swoole\Server::resume(int $fd): void
 public Swoole\Server::send(int $fd, string $data, int $reactor_id = ?): bool
 public Swoole\Server::sendfile(int $fd, string $filename, int $offset = ?): bool
 public Swoole\Server::sendMessage(int $worker_id, string $data): bool
-public Swoole\Server::sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
+public Swoole\Server::sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
 public Swoole\Server::sendwait(int $fd, string $data): bool
 public Swoole\Server::set(array $settings): ReturnType
 public Swoole\Server::shutdown(): void
@@ -106,7 +107,7 @@ public Swoole\Server::stats(): array
 public Swoole\Server::stop(int $worker_id = ?): bool
 public Swoole\Server::task(string $data, int $dst_worker_id = ?, callable $callback = ?): mixed
 public Swoole\Server::taskwait(string $data, float $timeout = ?, int $worker_id = ?): void
-public Swoole\Server::taskWaitMulti(array $tasks, double $timeout_ms = ?): void
+public Swoole\Server::taskWaitMulti(array $tasks, float $timeout_ms = ?): void
 public Swoole\Server::tick(int $interval_ms, callable $callback): void
 
 
@@ -131,6 +132,6 @@ public Swoole\Server::tick(int $interval_ms, callable $callback): void
 
 ## Зміст
 
--   [SwooleRedisServer::format](swoole-redis-server.format.md) - Опис
--   [SwooleRedisServer::setHandler](swoole-redis-server.sethandler.md) - Опис
--   [SwooleRedisServer::start](swoole-redis-server.start.md) - Опис
+-   [Swoole\\Redis\\Server::format](swoole-redis-server.format.md) \- Опис
+-   [Swoole\\Redis\\Server::setHandler](swoole-redis-server.sethandler.md) \- Опис
+-   [Swoole\\Redis\\Server::start](swoole-redis-server.start.md) \- Опис

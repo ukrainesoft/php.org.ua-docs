@@ -1,14 +1,15 @@
 ---
 navigation:
-  - splfileobject.construct.md: '« SplFileObject::construct'
+  - splfileobject.construct.md: '« SplFileObject::\_\_construct'
   - splfileobject.eof.md: 'SplFileObject::eof »'
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::current
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::current — Отримати поточний рядок файлу
 
@@ -30,7 +31,7 @@ public SplFileObject::current(): string|array|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::current()****
+**Пример #1 Пример использования**SplFileObject::current()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ foreach ($file as $k => $line) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 1: <?php
@@ -54,8 +55,8 @@ foreach ($file as $k => $line) {
 
 ### Дивіться також
 
--   [SplFileObject::key()](splfileobject.key.md) - Отримати номер рядка
--   [SplFileObject::seek()](splfileobject.seek.md) - Переклад файлового покажчика на заданий рядок
--   [SplFileObject::next()](splfileobject.next.md) - Читати наступний рядок
--   [SplFileObject::rewind()](splfileobject.rewind.md) - Перемотування файлового покажчика на початок файлу
--   [SplFileObject::valid()](splfileobject.valid.md) - Перевіряє, чи кінець файлу (EOF) досягнуто.
+-   [SplFileObject::key()](splfileobject.key.md) \- Отримати номер рядка
+-   [SplFileObject::seek()](splfileobject.seek.md) \- Переклад файлового покажчика на заданий рядок
+-   [SplFileObject::next()](splfileobject.next.md) \- Читати наступний рядок
+-   [SplFileObject::rewind()](splfileobject.rewind.md) \- Перемотування файлового покажчика на початок файлу
+-   [SplFileObject::valid()](splfileobject.valid.md) \- Перевіряє, чи кінець файлу (EOF) досягнуто.

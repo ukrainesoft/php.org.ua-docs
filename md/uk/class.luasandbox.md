@@ -1,10 +1,11 @@
 ---
 navigation:
-  - luasandbox.examples-basic.md: « Базовое использование LuaSandbox
+  - luasandbox.examples-basic.md: « Базове використання LuaSandbox
   - luasandbox.callfunction.md: 'LuaSandbox::callFunction »'
   - index.md: PHP Manual
   - book.luasandbox.md: LuaSandbox
 title: Клас LuaSandbox
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас LuaSandbox
 
@@ -67,31 +68,31 @@ public wrapPhpFunction(callable $function): LuaSandboxFunction
 
 **`LuaSandbox::SAMPLES`**
 
-Використовується з [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.md) для повернення часу у зразках.
+Використовується з [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.md)для возврата времени в образцах.
 
 **`LuaSandbox::SECONDS`**
 
-Використовується з [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.md) для часу в секундах.
+Використовується з [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.md)для возврата времени в секундах.
 
 **`LuaSandbox::PERCENT`**
 
-Використовується з [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.md) повернення часу у відсотках від загального значення.
+Використовується з [LuaSandbox::getProfilerFunctionReport()](luasandbox.getprofilerfunctionreport.md)для возврата времени в процентах от общего значения.
 
 ## Зміст
 
--   [LuaSandbox::callFunction](luasandbox.callfunction.md) — Викликає функцію у глобальній змінній Lua
--   [LuaSandbox::disableProfiler](luasandbox.disableprofiler.md) - Відключає профільник
--   [LuaSandbox::enableProfiler](luasandbox.enableprofiler.md) - Включає профільник
--   [LuaSandbox::getCPUUsage](luasandbox.getcpuusage.md) — Повертає поточний час використання процесора у середовищі Lua
--   [LuaSandbox::getMemoryUsage](luasandbox.getmemoryusage.md) — Повертає поточне використання пам'яті у середовищі Lua
--   [LuaSandbox::getPeakMemoryUsage](luasandbox.getpeakmemoryusage.md) — Повертає пікове використання пам'яті у середовищі Lua
--   [LuaSandbox::getProfilerFunctionReport](luasandbox.getprofilerfunctionreport.md) — Отримує дані профілювача
--   [LuaSandbox::getVersionInfo](luasandbox.getversioninfo.md) — Повертає версії LuaSandbox та Lua
--   [LuaSandbox::loadBinary](luasandbox.loadbinary.md) — Завантажує попередньо скомпільований двійковий фрагмент у середу Lua
--   [LuaSandbox::loadString](luasandbox.loadstring.md) — Завантажує код Lua у середу Lua
--   [LuaSandbox::pauseUsageTimer](luasandbox.pauseusagetimer.md) — Припиняє таймер використання процесора
--   [LuaSandbox::registerLibrary](luasandbox.registerlibrary.md) — Реєструє набір PHP-функцій як бібліотеку Lua
--   [LuaSandbox::setCPULimit](luasandbox.setcpulimit.md) — Встановлює обмеження часу процесора для середовища Lua
--   [LuaSandbox::setMemoryLimit](luasandbox.setmemorylimit.md) — Встановлює межу пам'яті для середовища Lua
--   [LuaSandbox::unpauseUsageTimer](luasandbox.unpauseusagetimer.md) — Відновлює таймер, зупинений LuaSandbox::pauseUsageTimer
--   [LuaSandbox::wrapPhpFunction](luasandbox.wrapphpfunction.md) — Обертає викликаний PHP-об'єкт у LuaSandboxFunction
+-   [LuaSandbox::callFunction](luasandbox.callfunction.md)— Викликає функцію у глобальній змінній Lua
+-   [LuaSandbox::disableProfiler](luasandbox.disableprofiler.md) \- Відключає профільник
+-   [LuaSandbox::enableProfiler](luasandbox.enableprofiler.md) \- Включає профільник
+-   [LuaSandbox::getCPUUsage](luasandbox.getcpuusage.md)— Повертає поточний час використання процесора у середовищі Lua
+-   [LuaSandbox::getMemoryUsage](luasandbox.getmemoryusage.md)— Повертає поточне використання пам'яті у середовищі Lua
+-   [LuaSandbox::getPeakMemoryUsage](luasandbox.getpeakmemoryusage.md)— Повертає пікове використання пам'яті у середовищі Lua
+-   [LuaSandbox::getProfilerFunctionReport](luasandbox.getprofilerfunctionreport.md)— Отримує дані профілювача
+-   [LuaSandbox::getVersionInfo](luasandbox.getversioninfo.md)— Повертає версії LuaSandbox та Lua
+-   [LuaSandbox::loadBinary](luasandbox.loadbinary.md)— Завантажує попередньо скомпільований двійковий фрагмент у середу Lua
+-   [LuaSandbox::loadString](luasandbox.loadstring.md)— Завантажує код Lua у середу Lua
+-   [LuaSandbox::pauseUsageTimer](luasandbox.pauseusagetimer.md)— Припиняє таймер використання процесора
+-   [LuaSandbox::registerLibrary](luasandbox.registerlibrary.md)— Реєструє набір PHP-функцій як бібліотеку Lua
+-   [LuaSandbox::setCPULimit](luasandbox.setcpulimit.md)— Встановлює обмеження часу процесора для середовища Lua
+-   [LuaSandbox::setMemoryLimit](luasandbox.setmemorylimit.md)— Встановлює межу пам'яті для середовища Lua
+-   [LuaSandbox::unpauseUsageTimer](luasandbox.unpauseusagetimer.md)— Відновлює таймер, зупинений LuaSandbox::pauseUsageTimer
+-   [LuaSandbox::wrapPhpFunction](luasandbox.wrapphpfunction.md)— Обертає PHP-об'єкт, що викликається в LuaSandboxFunction

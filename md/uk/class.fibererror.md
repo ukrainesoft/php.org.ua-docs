@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - reserved.exceptions.md: Обумовлені винятки
 title: FiberError
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FiberError
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -18,19 +19,14 @@ title: FiberError
 
 ```classsynopsis
 
-     
+    
+     final
+     class FiberError
     
 
     
-     
-      final
-      class FiberError
-     
-
-     
-      extends
-       Error
-     
+     extends
+      Error
      {
 
     /* Наследуемые свойства */

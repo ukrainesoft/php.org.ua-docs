@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-ht-trendmode.md: « traderхтtrendmode
-  - function.trader-linearreg-angle.md: traderlinearregangle »
+  - function.trader-ht-trendmode.md: « trader\_ht\_trendmode
+  - function.trader-linearreg-angle.md: trader\_linearreg\_angle »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderkama
+  - ref.trader.md: Функції Trader
+title: trader\_kama
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderkama
+# trader\_kama
 
 (PECL trader >= 0.2.0)
 
-traderkama - Адаптивна ковзна середня Кауфмана
+trader\_kama - Адаптивна ковзна середня Кауфмана
 
 ### Опис
 

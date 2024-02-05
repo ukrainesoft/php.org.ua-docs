@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getTraitNames'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getTraitNames
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 ReflectionClass::getTraitNames — Повертає масив імен трейтів, які використовуються у цьому класі
 
@@ -18,9 +19,7 @@ ReflectionClass::getTraitNames — Повертає масив імен трей
 public ReflectionClass::getTraitNames(): array
 ```
 
-**Увага**
-
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Отримує імена трейтів, які використовуються у цьому класі.
 
 ### Список параметрів
 
@@ -28,4 +27,4 @@ public ReflectionClass::getTraitNames(): array
 
 ### Значення, що повертаються
 
-Повертає масив, значення якого є імена трейтів. У разі виникнення помилки повертає **`null`**
+Повертає масив, значення якого є імена трейтів.

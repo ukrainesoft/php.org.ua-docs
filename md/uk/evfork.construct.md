@@ -4,17 +4,18 @@ navigation:
   - evfork.createstopped.md: 'EvFork::createStopped »'
   - index.md: PHP Manual
   - class.evfork.md: EvFork
-title: 'EvFork::construct'
+title: 'EvFork::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# EvFork::construct
+# EvFork::\_\_construct
 
 (PECL ev >= 0.2.0)
 
-EvFork::construct - Конструктор спостерігача EvFork
+EvFork::\_\_construct - Конструктор спостерігача EvFork
 
 ### Опис
 
-public **EvFork::construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` **`null`** , int `$priority`
+public**EvFork::\_\_construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` = **`null`**, int`$priority` =
 
 Створює об'єкт спостерігач EvFork та автоматично його стартує.
 
@@ -22,7 +23,7 @@ public **EvFork::construct** [callable](language.types.callable.md) `$callback` 
 
 `callback`
 
-Дивіться [callback-функції спостерігачів](ev.watcher-callbacks.md)
+Смотрите[callback-функції спостерігачів](ev.watcher-callbacks.md)
 
 `data`
 
@@ -30,9 +31,9 @@ public **EvFork::construct** [callable](language.types.callable.md) `$callback` 
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
+[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
 
 ### Дивіться також
 
--   [EvLoop::fork()](evloop.fork.md) - Створює об'єкт спостерігача EvFork, пов'язаний із поточним екземпляром циклу подій
+-   [EvLoop::fork()](evloop.fork.md) \- Створює об'єкт спостерігача EvFork, пов'язаний із поточним екземпляром циклу подій
 -   [EvCheck](class.evcheck.md)

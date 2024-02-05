@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.sorted.md: '« DsSequence::sorted'
-  - ds-sequence.unshift.md: 'ДсSequence::unshift »'
+  - ds-sequence.sorted.md: '« Ds\\Sequence::sorted'
+  - ds-sequence.unshift.md: 'Ds\\Sequence::unshift »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::sum'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::sum'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::sum
+# Ds\\Sequence::sum
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::sum — Повертає суму всіх значень колекції
+Ds\\Sequence::sum — Повертає суму всіх значень колекції
 
 ### Опис
 
@@ -20,7 +21,7 @@ abstract public Ds\Sequence::sum(): int|float
 
 Повертає суму всіх значень колекції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Масиви та об'єкти вважаються нулем.
 
@@ -34,7 +35,7 @@ abstract public Ds\Sequence::sum(): int|float
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::sum()** з цілими значеннями**
+**Пример #1 Пример использования**Ds\\Sequence::sum()\*\* з цілими значеннями\*\*
 
 ```php
 <?php
@@ -43,13 +44,13 @@ var_dump($sequence->sum());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(6)
 ```
 
-**Приклад #2 Приклад використання **ДсSequence::sum()** зі значеннями типу float**
+**Пример #2 Пример использования**Ds\\Sequence::sum()\*\* зі значеннями типу float\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_dump($sequence->sum());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 float(6.5)

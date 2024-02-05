@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-set-unstable-period.md: « tradersetunstableperiod
-  - function.trader-sinh.md: tradersinh »
+  - function.trader-set-unstable-period.md: « trader\_set\_unstable\_period
+  - function.trader-sinh.md: trader\_sinh »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradersin
+  - ref.trader.md: Функції Trader
+title: trader\_sin
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradersin
+# trader\_sin
 
 (PECL trader >= 0.2.0)
 
-tradersin — Векторний тригонометричний синус
+trader\_sin — Векторний тригонометричний синус
 
 ### Опис
 

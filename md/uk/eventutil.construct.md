@@ -4,13 +4,14 @@ navigation:
   - eventutil.getlastsocketerrno.md: 'EventUtil::getLastSocketErrno »'
   - index.md: PHP Manual
   - class.eventutil.md: EventUtil
-title: 'EventUtil::construct'
+title: 'EventUtil::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# EventUtil::construct
+# EventUtil::\_\_construct
 
 (PECL event >= 1.2.6-beta)
 
-EventUtil::construct - абстрактний конструктор
+EventUtil::\_\_construct - абстрактний конструктор
 
 ### Опис
 
@@ -20,12 +21,8 @@ abstract
    EventUtil::__construct()
 ```
 
-Клас [EventUtil](class.eventutil.md) є сінглтоном. Отже створити об'єкт цього класу за допомогою конструктора неможливо.
+Класс[EventUtil](class.eventutil.md) - Сінглтон. Тому створити об'єкт цього класу через конструктор неможливо.
 
 ### Список параметрів
 
 Ця функція не має параметрів.
-
-### Значення, що повертаються
-
-Функція не повертає значення після виконання.

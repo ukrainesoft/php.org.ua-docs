@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-point.setx.md: '« UIPoint::setX'
-  - class.ui-size.md: ОЙSize »
+  - ui-point.setx.md: '« UI\\Point::setX'
+  - class.ui-size.md: UI\\Size »
   - index.md: PHP Manual
-  - class.ui-point.md: ОЙPoint
-title: 'ОЙPoint::setY'
+  - class.ui-point.md: UI\\Point
+title: 'UI\\Point::setY'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙPoint::setY
+# UI\\Point::setY
 
 (UI 0.9.9)
 
-ОЙPoint::setY — Встановити Y
+UI\\Point::setY — Встановити Y
 
 ### Опис
 

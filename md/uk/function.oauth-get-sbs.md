@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.oauth.md: « Функции OAuth
-  - function.oauth-urlencode.md: oauthurlencode »
+  - ref.oauth.md: « Функції OAuth
+  - function.oauth-urlencode.md: oauth\_urlencode »
   - index.md: PHP Manual
-  - ref.oauth.md: Функции OAuth
-title: oauthgetsbs
+  - ref.oauth.md: Функції OAuth
+title: oauth\_get\_sbs
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# oauthgetsbs
+# oauth\_get\_sbs
 
 (PECL OAuth >=0.99.7)
 
-oauthgetsbs — Створити базовий рядок підпису (Signature Base String)
+oauth\_get\_sbs — Створити базовий рядок підпису (Signature Base String)
 
 ### Опис
 

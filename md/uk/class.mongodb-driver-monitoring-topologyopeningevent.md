@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-topologyclosedevent.gettopologyid.md: '« MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId'
-  - mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md: 'MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId »'
+  - mongodb-driver-monitoring-topologyclosedevent.gettopologyid.md: '« MongoDB\\Driver\\Monitoring\\TopologyClosedEvent::getTopologyId'
+  - mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md: 'MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent::getTopologyId »'
   - index.md: PHP Manual
-  - mongodb.monitoring.md: MongoDBDriverMonitoring
-title: Клас MongoDBDriverMonitoringTopologyOpeningEvent
+  - mongodb.monitoring.md: MongoDB\\Driver\\Monitoring
+title: Клас MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverMonitoringTopologyOpeningEvent
+# Клас MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent
 
 (mongodb >=1.13.0)
 
 ## Вступ
 
-Клас **MongoDBDriverMonitoringTopologyOpeningEvent** інкапсулює інформацію про відкриту топологію.
+Класс**MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent** інкапсулює інформацію про відкриту топологію.
 
 ## Огляд класів
 
@@ -37,4 +38,4 @@ title: Клас MongoDBDriverMonitoringTopologyOpeningEvent
 
 ## Зміст
 
--   [MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md) - Повертає ідентифікатор топології
+-   [MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent::getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md) \- Повертає ідентифікатор топології

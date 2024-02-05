@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-pkey-export.md: « opensslpkeyexport
-  - function.openssl-pkey-get-details.md: opensslpkeygetdetails »
+  - function.openssl-pkey-export.md: « openssl\_pkey\_export
+  - function.openssl-pkey-get-details.md: openssl\_pkey\_get\_details »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslpkeyfree
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_pkey\_free
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslpkeyfree
+# openssl\_pkey\_free
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-opensslpkeyfree — Звільняє ресурс закритого ключа
+openssl\_pkey\_free — Звільняє ресурс закритого ключа
 
 **Увага**
 
@@ -22,11 +23,11 @@ opensslpkeyfree — Звільняє ресурс закритого ключа
 openssl_pkey_free(OpenSSLAsymmetricKey $key): void
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Використання функції не має сенсу. До PHP 8.0.0 вона використовувалася для закриття ресурсу.
 
-Функція вивільняє ресурс закритого ключа, створений [opensslpkeynew()](function.openssl-pkey-new.md)
+Функція вивільняє ресурс закритого ключа, створений [openssl\_pkey\_new()](function.openssl-pkey-new.md)
 
 ### Список параметрів
 
@@ -40,7 +41,7 @@ openssl_pkey_free(OpenSSLAsymmetricKey $key): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функція застаріла, оскільки не має сенсу. |
-|  | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+| 8.0.0 | Функція застаріла, оскільки не має сенсу. |
+| 8.0.0 | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL key` |

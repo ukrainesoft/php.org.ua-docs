@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-priorityqueue.capacity.md: '« DsPriorityQueue::capacity'
-  - ds-priorityqueue.construct.md: 'ДсPriorityQueue::construct »'
+  - ds-priorityqueue.capacity.md: '« Ds\\PriorityQueue::capacity'
+  - ds-priorityqueue.construct.md: 'Ds\\PriorityQueue::\_\_construct »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.md: Черга з пріоритетом
-title: 'ДсPriorityQueue::clear'
+  - class.ds-priorityqueue.md: Ds\\PriorityQueue
+title: 'Ds\\PriorityQueue::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсPriorityQueue::clear
+# Ds\\PriorityQueue::clear
 
 (PECL ds >= 1.0.0)
 
-ДсPriorityQueue::clear — Видаляє всі значення
+Ds\\PriorityQueue::clear — Видаляє всі значення
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\PriorityQueue::clear(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсPriorityQueue::clear()****
+**Пример #1 Пример использования**Ds\\PriorityQueue::clear()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ print_r($queue);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\PriorityQueue Object

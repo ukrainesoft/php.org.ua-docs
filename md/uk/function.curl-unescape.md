@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-strerror.md: « curlstrerror
-  - function.curl-version.md: curlversion »
+  - function.curl-strerror.md: « curl\_strerror
+  - function.curl_upkeep.md: curl\_upkeep »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlunescape
+  - ref.curl.md: Опції cURL
+title: curl\_unescape
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlunescape
+# curl\_unescape
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-curlunescape — Декодує закодований URL-рядок
+curl\_unescape — Декодує закодований URL-рядок
 
 ### Опис
 
@@ -24,7 +25,7 @@ curl_unescape(CurlHandle $handle, string $string): string|false
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
+Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.md)
 
 `string`
 
@@ -32,17 +33,17 @@ curl_unescape(CurlHandle $handle, string $string): string|false
 
 ### Значення, що повертаються
 
-Повертає декодований рядок або **`false`** у разі виникнення помилки.
+Повертає декодований рядок або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| 8.0.0 | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [curlescape()](function.curl-escape.md)**
+**Пример #1 Пример использования[curl\_escape()](function.curl-escape.md)**
 
 ```php
 <?php
@@ -68,14 +69,14 @@ curl_close($ch);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **curlunescape()** не перетворює плюс (+) у пробіл. Це робить функцію [urldecode()](function.urldecode.md)
+> Функция**curl\_unescape()** не перетворює плюс (+) у пробіл. Це робить функцію [urldecode()](function.urldecode.md)
 
 ### Дивіться також
 
--   [curlescape()](function.curl-escape.md) - Кодує заданий рядок як URL
--   [urlencode()](function.urlencode.md) - URL-кодування рядка
--   [urldecode()](function.urldecode.md) - Декодування URL-кодованого рядка
--   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
--   [rawurldecode()](function.rawurldecode.md) - Декодування URL-кодованого рядка
+-   [curl\_escape()](function.curl-escape.md) \- Кодує заданий рядок як URL
+-   [urlencode()](function.urlencode.md) \- URL-кодування рядка
+-   [urldecode()](function.urldecode.md) \- Декодування URL-кодованого рядка
+-   [rawurlencode()](function.rawurlencode.md) \- URL-кодування рядка згідно з RFC 3986
+-   [rawurldecode()](function.rawurldecode.md) \- Декодування URL-кодованого рядка

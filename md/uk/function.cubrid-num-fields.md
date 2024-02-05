@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-list-dbs.md: « cubridlistdbs
-  - function.cubrid-ping.md: cubridping »
+  - function.cubrid-list-dbs.md: « cubrid\_list\_dbs
+  - function.cubrid-ping.md: cubrid\_ping »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridnumfields
+title: cubrid\_num\_fields
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridnumfields
+# cubrid\_num\_fields
 
 (PECL CUBRID >= 8.3.0)
 
-cubridnumfields — Отримати кількість стовпців у результуючому наборі
+cubrid\_num\_fields — Отримати кількість стовпців у результуючому наборі
 
 ### Опис
 
@@ -18,25 +19,25 @@ cubridnumfields — Отримати кількість стовпців у ре
 cubrid_num_fields(resource $result): int
 ```
 
-Повертає кількість стовпців у результуючому наборі або **`false`** у разі виникнення помилки.
+Повертає кількість стовпців у результуючому наборі або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Список параметрів
 
 `result`
 
-`result`, отриманий з [cubridexecute()](function.cubrid-execute.md) [cubridquery()](function.cubrid-query.md) або [cubridprepare()](function.cubrid-prepare.md)
+`result`, отриманий з [cubrid\_execute()](function.cubrid-execute.md) [cubrid\_query()](function.cubrid-query.md) або [cubrid\_prepare()](function.cubrid-prepare.md)
 
 ### Значення, що повертаються
 
 Кількість стовпців у разі успішного виконання.
 
-1, якщо SQL-запит був відмінним від SELECT типу.
+\-1, якщо SQL-запит був відмінним від SELECT типу.
 
-**`false`** у разі виникнення помилки.
+\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridnumfields()****
+**Пример #1 Пример использования**cubrid\_num\_fields()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Количество строк: 6

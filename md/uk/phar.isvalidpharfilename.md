@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::isValidPharFilename'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::isValidPharFilename
 
@@ -32,4 +33,4 @@ final public static Phar::isValidPharFilename(string $filename, bool $executable
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`**
+Повертає **`true`**или**`false`**

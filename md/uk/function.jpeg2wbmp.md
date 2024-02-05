@@ -5,21 +5,22 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: jpeg2wbmp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # jpeg2wbmp
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7)
 
 jpeg2wbmp — Перетворення зображення з формату JPEG на WBMP
 
 **Увага**
 
-Ця функція оголошена *Застарілої*, починаючи з PHP 7.2.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.2.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
 ```methodsynopsis
-jpeg2wbmp(    string $jpegname,    string $wbmpname,    int $dest_height,    int $dest_width,    int $threshold): bool
+jpeg2wbmp(    string $jpegname,    string $wbmpname,    int $dest_height,    int $dest_width,    int $threshold): bool
 ```
 
 Конвертує JPEG-файл у WBMP.
@@ -48,7 +49,7 @@ jpeg2wbmp(    string $jpegname,    string $wbmpname,    int $dest_height,    int
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 **Застереження**
 
@@ -56,7 +57,7 @@ jpeg2wbmp(    string $jpegname,    string $wbmpname,    int $dest_height,    int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **jpeg2wbmp()****
+**Пример #1 Пример использования**jpeg2wbmp()\*\*\*\*
 
 ```php
 <?php
@@ -73,4 +74,4 @@ jpeg2wbmp($path, './test.wbmp', $image[1], $image[0], 5);
 
 ### Дивіться також
 
--   [png2wbmp()](function.png2wbmp.md) - Перетворення PNG файлу на WBMP
+-   [png2wbmp()](function.png2wbmp.md) \- Перетворює PNG-файла на файл WBMP

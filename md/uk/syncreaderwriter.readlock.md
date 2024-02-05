@@ -1,10 +1,11 @@
 ---
 navigation:
-  - syncreaderwriter.construct.md: '« SyncReaderWriter::construct'
+  - syncreaderwriter.construct.md: '« SyncReaderWriter::\_\_construct'
   - syncreaderwriter.readunlock.md: 'SyncReaderWriter::readunlock »'
   - index.md: PHP Manual
   - class.syncreaderwriter.md: SyncReaderWriter
 title: 'SyncReaderWriter::readlock'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SyncReaderWriter::readlock
 
@@ -28,11 +29,11 @@ public SyncReaderWriter::readlock(int $wait = -1): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncReaderWriter::readlock()****
+**Пример #1 Пример использования**SyncReaderWriter::readlock()\*\*\*\*
 
 ```php
 <?php
@@ -45,4 +46,4 @@ $readwrite->readunlock();
 
 ### Дивіться також
 
--   [SyncReaderWriter::readunlock()](syncreaderwriter.readunlock.md) - Знімає блокування читання
+-   [SyncReaderWriter::readunlock()](syncreaderwriter.readunlock.md) \- Знімає блокування читання

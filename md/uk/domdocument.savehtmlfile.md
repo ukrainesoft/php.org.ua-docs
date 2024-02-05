@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::saveHTMLFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::saveHTMLFile
 
@@ -28,7 +29,7 @@ public DOMDocument::saveHTMLFile(string $filename): int|false
 
 ### Значення, що повертаються
 
-Повертає кількість записаних байт або **`false`** у разі виникнення помилки.
+Повертає кількість записаних байт або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -53,13 +54,13 @@ $title = $head->appendChild($title);
 $text = $doc->createTextNode('Это заголовок');
 $text = $title->appendChild($text);
 
-echo 'Записано: ' . $doc->saveHTMLFile("/tmp/test.html") . ' байт'; // Записано: 129 байт
+echo 'Записано: ' . $doc->saveHTMLFile("/tmp/test.md") . ' байт'; // Записано: 129 байт
 
 ?>
 ```
 
 ### Дивіться також
 
--   [DOMDocument::saveHTML()](domdocument.savehtml.md) - Зберігає документ із внутрішнього подання до рядка, використовуючи форматування HTML
--   [DOMDocument::loadHTML()](domdocument.loadhtml.md) - Завантаження HTML з рядка
--   [DOMDocument::loadHTMLFile()](domdocument.loadhtmlfile.md) - Завантаження HTML із файлу
+-   [DOMDocument::saveHTML()](domdocument.savehtml.md) \- Зберігає документ із внутрішнього подання до рядка, використовуючи форматування HTML
+-   [DOMDocument::loadHTML()](domdocument.loadhtml.md) \- Завантаження HTML з рядка
+-   [DOMDocument::loadHTMLFile()](domdocument.loadhtmlfile.md) \- Завантаження HTML із файлу

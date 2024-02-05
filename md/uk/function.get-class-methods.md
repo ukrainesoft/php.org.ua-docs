@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-called-class.md: « getcalledclass
-  - function.get-class-vars.md: getclassvars »
+  - function.get-called-class.md: « get\_called\_class
+  - function.get-class-vars.md: get\_class\_vars »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
-title: getclassметодів
+title: get\_class\_methods
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getclassметодів
+# get\_class\_methods
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-getclassmethods - Повертає масив імен методів класу
+get\_class\_methods - Повертає масив імен методів класу
 
 ### Опис
 
@@ -32,13 +33,13 @@ get_class_methods(object|string $object_or_class): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `object_or_class` тепер приймає лише об'єкти чи коректні імена класів. |
+| 8.0.0 | Параметр`object_or_class` тепер приймає лише об'єкти чи коректні імена класів. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getclassmethods()****
+**Пример #1 Пример использования**get\_class\_methods()\*\*\*\*
 
 ```php
 <?php
@@ -74,16 +75,16 @@ foreach ($class_methods as $method_name) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-myclass
+__construct
 myfunc1
 myfunc2
 ```
 
 ### Дивіться також
 
--   [getclass()](function.get-class.md) - Повертає ім'я класу, до якого належить об'єкт
--   [getclassvars()](function.get-class-vars.md) - Повертає оголошені за умовчанням властивості класу
--   [getobjectvars()](function.get-object-vars.md) - Повертає властивості вказаного об'єкту
+-   [get\_class()](function.get-class.md) \- Повертає ім'я класу, до якого належить об'єкт
+-   [get\_class\_vars()](function.get-class-vars.md) \- Повертає оголошені за умовчанням властивості класу
+-   [get\_object\_vars()](function.get-object-vars.md) \- Повертає властивості вказаного об'єкту

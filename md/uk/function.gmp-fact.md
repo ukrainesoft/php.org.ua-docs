@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-export.md: « gmpexport
-  - function.gmp-gcd.md: gmpgcd »
+  - function.gmp-export.md: « gmp\_export
+  - function.gmp-gcd.md: gmp\_gcd »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpfact
+title: gmp\_fact
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpfact
+# gmp\_fact
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpfact - Факторіал
+gmp\_fact - Факторіал
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpfact - Факторіал
 gmp_fact(GMP|int|string $num): GMP
 ```
 
-Обчислює факторіал (`num!`) числа `num`
+Обчислює факторіал (`num!`) числа`num`
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ gmp_fact(GMP|int|string $num): GMP
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.md)ю
+Об'єкт класу [GMP](class.gmp.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpfact()****
+**Пример #1 Пример использования**gmp\_fact()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ echo gmp_strval($fact2) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 120

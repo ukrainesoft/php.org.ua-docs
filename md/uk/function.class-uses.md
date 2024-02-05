@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.class-parents.md: « classparents
-  - function.iterator-apply.md: iteratorapply »
+  - function.class-parents.md: « class\_parents
+  - function.iterator-apply.md: iterator\_apply »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
-title: classuses
+title: class\_uses
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# classuses
+# class\_uses
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
-classuses — Повертає список трейтів, що використовуються заданим класом
+class\_uses — Повертає список трейтів, що використовуються заданим класом
 
 ### Опис
 
@@ -28,7 +29,7 @@ class_uses(object|string $object_or_class, bool $autoload = true): array|false
 
 `autoload`
 
-Чи викликати за замовчуванням [autoload](language.oop5.autoload.md)
+Чи потрібно [автоматично підвантажувати](language.oop5.autoload.md) клас, якщо він ще не завантажений.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ class_uses(object|string $object_or_class, bool $autoload = true): array|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **classuses()****
+**Пример #1 Пример использования**class\_uses()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ print_r(class_uses('not_loaded', true));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -77,5 +78,5 @@ Array
 
 ### Дивіться також
 
--   [classparents()](function.class-parents.md) - Повертає список батьківських класів заданого класу
--   [getdeclaredtraits()](function.get-declared-traits.md) - Повертає масив з усіма оголошеними трейтами
+-   [class\_parents()](function.class-parents.md) \- Повертає список батьківських класів заданого класу
+-   [get\_declared\_traits()](function.get-declared-traits.md) \- Повертає масив з усіма оголошеними трейтами

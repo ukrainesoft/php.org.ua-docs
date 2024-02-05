@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.ffi.md: FFI
 title: 'FFI::free'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FFI::free
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 FFI::free — Вивільняє некеровану структуру даних
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sapi-windows-cp-set.md: « sapiwindowsспset
-  - function.sapi-windows-set-ctrl-handler.md: sapiwindowssetctrlhandler »
+  - function.sapi-windows-cp-set.md: « sapi\_windows\_cp\_set
+  - function.sapi-windows-set-ctrl-handler.md: sapi\_windows\_set\_ctrl\_handler »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
-title: sapiwindowsgeneratectrlevent
+title: sapi\_windows\_generate\_ctrl\_event
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sapiwindowsgeneratectrlevent
+# sapi\_windows\_generate\_ctrl\_event
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
-sapiwindowsgeneratectrlevent — Надіслати подію CTRL іншому процесу
+sapi\_windows\_generate\_ctrl\_event — Надіслати подію CTRL іншому процесу
 
 ### Опис
 
@@ -24,21 +25,21 @@ sapi_windows_generate_ctrl_event(int $event, int $pid = 0): bool
 
 `event`
 
-Подія `CTRL` **`PHP_WINDOWS_EVENT_CTRL_C`** або **`PHP_WINDOWS_EVENT_CTRL_BREAK`**
+Подія `CTRL` **`PHP_WINDOWS_EVENT_CTRL_C`**или**`PHP_WINDOWS_EVENT_CTRL_BREAK`**
 
 `pid`
 
-Ідентифікатор процесу, якому необхідно надіслати подію. Якщо поставлено як `0`, то подія буде надіслано всім процесам групи.
+Ідентифікатор процесу, якому необхідно надіслати подію. Якщо поставлено як , то подія буде надіслано всім процесам групи.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Використання **sapiwindowsgeneratectrlevent()****
+**Пример #1 Использование**sapi\_windows\_generate\_ctrl\_event()\*\*\*\*
 
-У цьому прикладі показано, як надіслати події `CTRL+BREAK` дочірнього процесу. У цьому випадку дочірній процес друкуватиме `Я всё ещё жив!` раз на секунду, доки користувач не натисне `CTRL+BREAK`. Після цього дочірній процес завершиться.
+У цьому прикладі показано, як надіслати події `CTRL+BREAK`дочернему процессу. В данном случае дочерний процесс будет печатать`Я все ще живий!` раз на секунду, доки користувач не натисне `CTRL+BREAK`. Після цього дочірній процес завершиться.
 
 ```php
 <?php
@@ -58,5 +59,5 @@ while (true) {
 
 ### Дивіться також
 
--   [procopen()](function.proc-open.md) - Виконати команду та відкрити покажчик на файл для введення/виводу
--   [sapiwindowssetctrlhandler()](function.sapi-windows-set-ctrl-handler.md) - Встановити чи видалити обробник події CTRL
+-   [proc\_open()](function.proc-open.md) \- Виконати команду та відкрити покажчик на файл для введення/виводу
+-   [sapi\_windows\_set\_ctrl\_handler()](function.sapi-windows-set-ctrl-handler.md) \- Встановити чи видалити обробник події CTRL

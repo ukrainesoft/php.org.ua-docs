@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.socket-getsockname.md: « socketgetsockname
-  - function.socket-last-error.md: socketlasterror »
+  - function.socket-getsockname.md: « socket\_getsockname
+  - function.socket-last-error.md: socket\_last\_error »
   - index.md: PHP Manual
-  - ref.sockets.md: Функции сокета
-title: socketimportstream
+  - ref.sockets.md: Опції сокету
+title: socket\_import\_stream
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# socketimportstream
+# socket\_import\_stream
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
-socketimportstream — Імпортувати потік
+socket\_import\_stream — Імпортувати потік
 
 ### Опис
 
@@ -28,17 +29,17 @@ socket_import_stream(resource $stream): Socket|false
 
 ### Значення, що повертаються
 
-Повертає **`false`** у разі виникнення помилки.
+Повертає \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
+| 8.0.0 | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **socketimportstream()****
+**Пример #1 Пример использования**socket\_import\_stream()\*\*\*\*
 
 ```php
 <?php
@@ -49,4 +50,4 @@ $sock   = socket_import_stream($stream);
 
 ### Дивіться також
 
--   [streamsocketserver()](function.stream-socket-server.md) - Створює інтернет-сокет або доменний сокет Unix
+-   [stream\_socket\_server()](function.stream-socket-server.md) \- Створює інтернет-сокет або доменний сокет Unix

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ffi.examples.md: Приклади
 title: Callback-функції PHP
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Callback-функції PHP
 
@@ -33,7 +34,7 @@ echo "Привет, мир 3!\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Привет, мир 1!

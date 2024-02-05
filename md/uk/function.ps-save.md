@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-rotate.md: «psrotate
-  - function.ps-scale.md: псscale »
+  - function.ps-rotate.md: « ps\_rotate
+  - function.ps-scale.md: ps\_scale »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псsave
+title: ps\_save
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псsave
+# ps\_save
 
 (PECL ps >= 1.1.0)
 
-псsave — Зберігає поточний контекст
+ps\_save — Зберігає поточний контекст
 
 ### Опис
 
@@ -18,18 +19,18 @@ title: псsave
 ps_save(resource $psdoc): bool
 ```
 
-Зберігає поточний графічний контекст, що містить кольори, налаштування переміщення, повороту та багато іншого. Збережений контекст можна відновити за допомогою [псrestore()](function.ps-restore.md)
+Зберігає поточний графічний контекст, що містить кольори, налаштування переміщення, повороту та багато іншого. Збережений контекст можна відновити за допомогою [ps\_restore()](function.ps-restore.md)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псrestore()](function.ps-restore.md) - Відновлює раніше збережений контекст
+-   [ps\_restore()](function.ps-restore.md) \- Відновлює раніше збережений контекст

@@ -1,14 +1,15 @@
 ---
 navigation:
-  - function.imap-utf8.md: « imaputf8
+  - function.imap-utf8.md: « imap\_utf8
   - book.mail.md: Mail »
   - index.md: PHP Manual
   - book.imap.md: IMAP
-title: Клас IMAPConnection
+title: Клас IMAP\\Connection
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас IMAPConnection
+# Клас IMAP\\Connection
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -16,19 +17,12 @@ title: Клас IMAPConnection
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-    
-     
-      final
-      class IMAP\Connection
-     
+     final
+     class IMAP\Connection
      {
-    
 
    }
 ```

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-field-len.md: « cubridfieldlen
-  - function.cubrid-field-seek.md: cubridfieldseek »
+  - function.cubrid-field-len.md: « cubrid\_field\_len
+  - function.cubrid-field-seek.md: cubrid\_field\_seek »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridfieldname
+title: cubrid\_field\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridfieldname
+# cubrid\_field\_name
 
 (PECL CUBRID >= 8.3.0)
 
-cubridfieldname — Отримати ім'я вказаного стовпця
+cubrid\_field\_name — Отримати ім'я вказаного стовпця
 
 ### Опис
 
@@ -18,27 +19,27 @@ cubridfieldname — Отримати ім'я вказаного стовпця
 cubrid_field_name(resource $result, int $field_offset): string
 ```
 
-Функція повертає ім'я зазначеного стовпця у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція повертає ім'я зазначеного стовпця у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Список параметрів
 
 `result`
 
-`Result`, отриманий з [cubridexecute()](function.cubrid-execute.md)
+`Result`, отриманий з [cubrid\_execute()](function.cubrid-execute.md)
 
 `field_offset`
 
-Індекс поля у рядку результуючого набору . `field_offset` починається з 0. Якщо `field_offset` не заданий, то буде викликана помилка рівня **`E_WARNING`**
+Индекс поля в строке результирующего набора`field_offset` починається з 0. Якщо `field_offset` не заданий, то буде викликана помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
 Ім'я стовпця у разі успішного виконання.
 
-**`false`** у разі виникнення помилки.
+\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridfieldname()****
+**Пример #1 Пример использования**cubrid\_field\_name()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Наименование поля                 Флаги поля

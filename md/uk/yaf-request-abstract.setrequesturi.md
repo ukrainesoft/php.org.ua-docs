@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.setparam.md: '« YafRequestAbstract::setParam'
-  - yaf-request-abstract.setrouted.md: 'YafRequestAbstract::setRouted »'
+  - yaf-request-abstract.setparam.md: '« Yaf\_Request\_Abstract::setParam'
+  - yaf-request-abstract.setrouted.md: 'Yaf\_Request\_Abstract::setRouted »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::setRequestUri'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::setRequestUri'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::setRequestUri
+# Yaf\_Request\_Abstract::setRequestUri
 
-(Yaf> = 2.1.0)
+(Yaf >=2.1.0)
 
-YafRequestAbstract::setRequestUri — Призначення setRequestUri
+Yaf\_Request\_Abstract::setRequestUri — Призначення setRequestUri
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Request_Abstract::setRequestUri(string $uir): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

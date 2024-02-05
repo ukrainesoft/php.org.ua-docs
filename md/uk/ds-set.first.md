@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.filter.md: '« DsSet::filter'
-  - ds-set.get.md: 'ДсSet::get »'
+  - ds-set.filter.md: '« Ds\\Set::filter'
+  - ds-set.get.md: 'Ds\\Set::get »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::first'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::first'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::first
+# Ds\\Set::first
 
 (PECL ds >= 1.0.0)
 
-ДсSet::first — Повертає перший елемент колекції
+Ds\\Set::first — Повертає перший елемент колекції
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Set::first(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::first()****
+**Пример #1 Пример использования**Ds\\Set::first()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($set->first());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(1)

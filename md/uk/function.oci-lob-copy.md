@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-get-implicit-resultset.md: « ocigetimplicitresultset
-  - function.oci-lob-is-equal.md: ocilobісequal »
+  - function.oci-get-implicit-resultset.md: « oci\_get\_implicit\_resultset
+  - function.oci-lob-is-equal.md: oci\_lob\_is\_equal »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ociлобcopy
+  - ref.oci8.md: OCI8 Функції
+title: oci\_lob\_copy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ociлобcopy
+# oci\_lob\_copy
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ociлобcopy — Копіює об'єкт LOB
+oci\_lob\_copy — Копіює об'єкт LOB
 
 ### Опис
 
@@ -38,16 +39,16 @@ LOB призначення.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | 8.0.0, PECL OCI8 3.0.0 | `length` тепер допускає значення null. |
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Клас OCILob називався OCI-Lob до PHP 8 та PECL OCI8 3.0.0.

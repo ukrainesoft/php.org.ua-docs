@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.sum.md: '« DsSet::sum'
-  - ds-set.union.md: 'ДсSet::union »'
+  - ds-set.sum.md: '« Ds\\Set::sum'
+  - ds-set.union.md: 'Ds\\Set::union »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::toArray'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::toArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::toArray
+# Ds\\Set::toArray
 
 (PECL ds >= 1.0.0)
 
-ДсSet::toArray — Перетворює колекцію на масив (array)
+Ds\\Set::toArray — Перетворює колекцію на масив (array)
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Ds\Set::toArray(): array
 
 Перетворює колекцію на масив (array).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Приведення до типу array поки що не підтримується.
 
@@ -30,11 +31,11 @@ public Ds\Set::toArray(): array
 
 ### Значення, що повертаються
 
-Масив (array), що містить всі елементи колекції зі збереженням їхнього порядку.
+Повертає масив (array), що містить всі елементи колекції, зберігаючи порядок, у якому вони зберігалися.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::toArray()****
+**Пример #1 Пример использования метода**Ds\\Set::toArray()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ var_dump($set->toArray());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(3) {

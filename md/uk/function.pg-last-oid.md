@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-last-notice.md: « pglastnotice
-  - function.pg-lo-close.md: пглоclose »
+  - function.pg-last-notice.md: « pg\_last\_notice
+  - function.pg-lo-close.md: pg\_lo\_close »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгlastoid
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_last\_oid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгlastoid
+# pg\_last\_oid
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгlastoid — Повертає OID останнього доданого до бази рядка
+pg\_last\_oid — Повертає OID останнього доданого до бази рядка
 
 ### Опис
 
@@ -18,37 +19,37 @@ title: пгlastoid
 pg_last_oid(PgSql\Result $result): string|int|false
 ```
 
-**пгlastoid()** використовується для визначення OID, що відповідає вставленому в таблицю рядку.
+**pg\_last\_oid()** використовується для визначення OID, що відповідає вставленому в таблицю рядку.
 
-Поле OID таблиць баз даних стало необов'язковим, починаючи з версії PostgreSQL 7.2, а з версії 8.1 перестане додаватися до таблиць за замовчуванням. Якщо поле OID таблиці не встановлено, використовуйте функцію [пгresultstatus()](function.pg-result-status.md) для перевірки успішності вставлення записів у таблицю.
+Поле OID таблиць баз даних стало необов'язковим, починаючи з версії PostgreSQL 7.2, а з версії 8.1 перестане додаватися до таблиць за замовчуванням. Якщо поле OID таблиці не встановлено, використовуйте функцію [pg\_result\_status()](function.pg-result-status.md) для перевірки успішності вставлення записів у таблицю.
 
-Щоб отримати значення `SERIAL` поля після вставки рядка в таблицю, використовуйте функцію PostgreSQL `CURRVAL`, Передавши їй ім'я послідовності, значення якої потрібно отримати. Щоб дізнатися про ім'я послідовності, необхідно використовувати функцію `pg_get_serial_sequence` (PostgreSQL 8.0).
+Щоб отримати значення `SERIAL`поля после вставки строки в таблицу, используйте функцию PostgreSQL`CURRVAL`, Передавши їй ім'я послідовності, значення якої потрібно отримати. Щоб дізнатися про ім'я послідовності, необхідно використовувати функцію `pg_get_serial_sequence`(PostgreSQL 8.0).
 
 У PostgreSQL 8.1 є функція `LASTVAL`, що повертає значення найчастіше використовуваної за сесію послідовності. Так можна уникнути необхідність задавати назву послідовності, таблиці чи колонки.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Колишня назва функції: **пгgetlastoid()**
+> Прежнее название функции:**pg\_getlastoid()**
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSql\\Result](class.pgsql-result.md), що повертається функціями [pg\_query()](function.pg-query.md) [pg\_query\_params()](function.pg-query-params.md) або [pg\_execute()](function.pg-execute.md)(среди прочего).
 
 ### Значення, що повертаються
 
-Ціле число (int) або рядок (string), що містить OID останнього вставленого рядка на з'єднанні `connection`, або **`false`**, якщо помилка або поле OID недоступне.
+Ціле число (int) або рядок (string), що містить OID останнього вставленого рядка на з'єднанні `connection`, либо\*\*`false`\*\*, якщо помилка або поле OID недоступне.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгlastoid()****
+**Пример #1 Пример использования**pg\_last\_oid()\*\*\*\*
 
 ```php
 <?php
@@ -67,5 +68,5 @@ pg_last_oid(PgSql\Result $result): string|int|false
 
 ### Дивіться також
 
--   [пгquery()](function.pg-query.md) - Виконує запит
--   [пгresultstatus()](function.pg-result-status.md) - Повертає стан результату запиту
+-   [pg\_query()](function.pg-query.md) \- Виконує запит
+-   [pg\_result\_status()](function.pg-result-status.md) \- Повертає стан результату запиту

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-getgroups.md: « posixgetgroups
-  - function.posix-getpgid.md: posixgetpgid »
+  - function.posix-getgroups.md: « posix\_getgroups
+  - function.posix-getpgid.md: posix\_getpgid »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixgetlogin
+  - ref.posix.md: POSIX Функції
+title: posix\_getlogin
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixgetlogin
+# posix\_getlogin
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posixgetlogin — Повертає логін власника процесу
+posix\_getlogin — Повертає логін власника процесу
 
 ### Опис
 
@@ -26,11 +27,11 @@ posix_getlogin(): string|false
 
 ### Значення, що повертаються
 
-Повертає логін користувача як змінну типу string або **`false`** у разі виникнення помилки.
+Повертає логін користувача як змінну типу string або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posixgetlogin()****
+**Пример #1 Пример использования**posix\_getlogin()\*\*\*\*
 
 ```php
 <?php
@@ -40,5 +41,5 @@ echo posix_getlogin(); //apache
 
 ### Дивіться також
 
--   [posixgetpwnam()](function.posix-getpwnam.md) - Повертає інформацію про користувача на його ім'я
+-   [posix\_getpwnam()](function.posix-getpwnam.md) \- Повертає інформацію про користувача на його ім'я
 -   POSIX керівництво GETLOGIN(3)

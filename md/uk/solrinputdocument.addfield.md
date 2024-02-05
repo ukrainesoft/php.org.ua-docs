@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::addField'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrInputDocument::addField
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrInputDocument::addField — Додає поле до документа
 
@@ -36,4 +37,4 @@ public SolrInputDocument::addField(string $fieldName, string $fieldValue, float 
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

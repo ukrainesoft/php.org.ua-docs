@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-num-input.md: « fanngetnuminput
-  - function.fann-get-num-output.md: fanngetnumoutput »
+  - function.fann-get-num-input.md: « fann\_get\_num\_input
+  - function.fann-get-num-output.md: fann\_get\_num\_output »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetnumlayers
+  - ref.fann.md: Функції Fann
+title: fann\_get\_num\_layers
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetnumlayers
+# fann\_get\_num\_layers
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetnumlayers — Отримує кількість шарів у нейронній мережі
+fann\_get\_num\_layers — Отримує кількість шарів у нейронній мережі
 
 ### Опис
 
@@ -28,4 +29,4 @@ fann_get_num_layers(resource $ann): int
 
 ### Значення, що повертаються
 
-Кількість шарів у нейронній мережі або **`false`** у разі виникнення помилки.
+Кількість шарів у нейронній мережі або \*\*`false`\*\*в случае возникновения ошибки.

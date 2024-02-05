@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yaf-route-static.md: « YafRouteStatic
-  - yaf-route-static.match.md: 'YafRouteStatic::match »'
+  - class.yaf-route-static.md: « Yaf\_Route\_Static
+  - yaf-route-static.match.md: 'Yaf\_Route\_Static::match »'
   - index.md: PHP Manual
-  - class.yaf-route-static.md: YafRouteStatic
-title: 'YafRouteStatic::assemble'
+  - class.yaf-route-static.md: Yaf\_Route\_Static
+title: 'Yaf\_Route\_Static::assemble'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteStatic::assemble
+# Yaf\_Route\_Static::assemble
 
 (Yaf >=2.3.0)
 
-YafRouteStatic::assemble — Збирає URL
+Yaf\_Route\_Static::assemble — Збирає URL
 
 ### Опис
 
@@ -32,11 +33,11 @@ public Yaf_Route_Static::assemble(array $info, array $query = ?): string
 
 ### Помилки
 
-Викидає [YafExceptionTypeError](class.yaf-exception-typeerror.md), якщо ключі параметра `info` `':c'` and `':a'` не задані.
+Викидає [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.md), якщо ключі параметра `info` `':c'`and`':a'` не задані.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafRouteStatic::assemble()****
+**Пример #1 Пример использования**Yaf\_Route\_Static::assemble()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ var_dump($router->getRoute('static')->assemble(
 );
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(%d) "/yafmodule/yafcontroller/yafaction"

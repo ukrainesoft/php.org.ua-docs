@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-writeerror.getinfo.md: '« MongoDBDriverWriteError::getInfo'
-  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult »
+  - mongodb-driver-writeerror.getinfo.md: '« MongoDB\\Driver\\WriteError::getInfo'
+  - class.mongodb-driver-writeresult.md: MongoDB\\Driver\\WriteResult »
   - index.md: PHP Manual
-  - class.mongodb-driver-writeerror.md: MongoDBDriverWriteError
-title: 'MongoDBDriverWriteError::getMessage'
+  - class.mongodb-driver-writeerror.md: MongoDB\\Driver\\WriteError
+title: 'MongoDB\\Driver\\WriteError::getMessage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteError::getMessage
+# MongoDB\\Driver\\WriteError::getMessage
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteError::getMessage — Повертає повідомлення про помилку WriteError
+MongoDB\\Driver\\WriteError::getMessage — Повертає повідомлення про помилку WriteError
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\Driver\WriteError::getMessage(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteError::getMessage()****
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteError::getMessage()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(70) "E11000 duplicate key error index: db.collection.$_id_ dup key: { : 1 }"

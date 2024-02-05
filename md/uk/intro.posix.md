@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.posix.md: « POSIX
-  - posix.setup.md: Встановлення та налаштування »
+  - posix.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.posix.md: POSIX
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 
@@ -12,6 +13,6 @@ title: Вступ
 
 **Увага**
 
-Конфіденційні дані можуть бути отримані за допомогою POSIX функцій, наприклад [posixgetpwnam()](function.posix-getpwnam.md) та інших.
+Конфіденційні дані можуть бути отримані за допомогою POSIX функцій, наприклад [posix\_getpwnam()](function.posix-getpwnam.md) та інших.
 
 > **Зауваження**: Для Windows-платформ цей модуль недоступний.

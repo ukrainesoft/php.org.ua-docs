@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionfind.execute.md: '« CollectionFind::execute'
   - mysql-xdevapi-collectionfind.groupby.md: 'CollectionFind::groupBy »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysql\_xdevapi\\CollectionFind
 title: 'CollectionFind::fields'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionFind::fields
 
@@ -18,21 +19,21 @@ CollectionFind::fields — Встановлює фільтр поля докум
 public mysql_xdevapi\CollectionFind::fields(string $projection): mysql_xdevapi\CollectionFind
 ```
 
-Визначає шпальти для запиту, які потрібно повернути. Якщо не визначено, то повертаються усі стовпці.
+Визначає стовпці, які мають повернути запит. Якщо не визначено, то повертаються усі стовпці.
 
 ### Список параметрів
 
 `projection`
 
-Може бути одним рядком або масивом рядків, ці рядки визначають стовпці, які мають бути повернені для кожного документа, який відповідає умові пошуку.
+Може бути або одним рядком або масивом рядків, що визначають стовпці, які потрібно повернути для кожного документа, який відповідає умові пошуку.
 
 ### Значення, що повертаються
 
-Об'єкт CollectionFind, який можна використовувати для подальшої обробки.
+Повертає об'єкт класу CollectionFind, який можна використовувати для подальшої обробки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionFind::fields()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionFind::fields()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ var_dump($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {

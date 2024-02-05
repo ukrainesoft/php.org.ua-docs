@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere.cast.md: « Componerecast
-  - book.errorfunc.md: Обработка ошибок »
+  - componere.cast.md: « Componere\\cast
+  - book.errorfunc.md: Обробка помилок "
   - index.md: PHP Manual
-  - reference.componere.md: Функции Componere
-title: Componerecastбref
+  - reference.componere.md: Функції Componere
+title: Componere\\cast\_by\_ref
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Componerecastбref
+# Componere\\cast\_by\_ref
 
 (Componere 2 >= 2.1.2)
 
-Componerecastбref — Приведення до типу
+Componere\\cast\_by\_ref — Приведення до типу
 
 ### Опис
 
@@ -30,7 +31,7 @@ Componere\cast_by_ref(Type $type,  $object): Type
 
 ### Значення, що повертаються
 
-object типу **Type**, наведений з `object`де елементи є посиланнями на елементи `object`
+object типа**Type**, наведений з `object`де елементи є посиланнями на елементи `object`
 
 ### Помилки
 
@@ -56,4 +57,4 @@ object типу **Type**, наведений з `object`де елементи є
 
 ### Дивіться також
 
--   [Componerecast](componere.cast.md)
+-   [Componere\\cast](componere.cast.md)

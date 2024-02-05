@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-connection-iterator.offsetget.md: '« SwooleConnectionIterator::offsetGet'
-  - swoole-connection-iterator.offsetunset.md: 'SwooleConnectionIterator::offsetUnset »'
+  - swoole-connection-iterator.offsetget.md: '« Swoole\\Connection\\Iterator::offsetGet'
+  - swoole-connection-iterator.offsetunset.md: 'Swoole\\Connection\\Iterator::offsetUnset »'
   - index.md: PHP Manual
-  - class.swoole-connection-iterator.md: SwooleConnectionIterator
-title: 'SwooleConnectionIterator::offsetSet'
+  - class.swoole-connection-iterator.md: Swoole\\Connection\\Iterator
+title: 'Swoole\\Connection\\Iterator::offsetSet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleConnectionIterator::offsetSet
+# Swoole\\Connection\\Iterator::offsetSet
 
 (PECL swoole >= 1.9.0)
 
-SwooleConnectionIterator::offsetSet — Призначає з'єднання для зазначеного усунення
+Swoole\\Connection\\Iterator::offsetSet — Призначає з'єднання для зазначеного усунення
 
 ### Опис
 

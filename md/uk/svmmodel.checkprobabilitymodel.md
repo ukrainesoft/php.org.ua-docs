@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.svmmodel.md: « SVMModel
-  - svmmodel.construct.md: 'SVMModel::construct »'
+  - svmmodel.construct.md: 'SVMModel::\_\_construct »'
   - index.md: PHP Manual
   - class.svmmodel.md: SVMModel
 title: 'SVMModel::checkProbabilityModel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SVMModel::checkProbabilityModel
 

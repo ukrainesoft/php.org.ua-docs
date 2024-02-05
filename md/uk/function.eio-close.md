@@ -1,38 +1,39 @@
 ---
 navigation:
-  - function.eio-chown.md: « eiochown
-  - function.eio-custom.md: eiocustom »
+  - function.eio-chown.md: « eio\_chown
+  - function.eio-custom.md: eio\_custom »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eioclose
+  - ref.eio.md: Eio Функції
+title: eio\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eioclose
+# eio\_close
 
 (PECL eio >= 0.0.1dev)
 
-eioclose — Закрити файл
+eio\_close — Закрити файл
 
 ### Опис
 
 ```methodsynopsis
-eio_close(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_close(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
-**eioclose()** закриває файл, вказаний у `fd`
+**eio\_close()** закриває файл, вказаний у `fd`
 
 ### Список параметрів
 
 `fd`
 
-Потік, покажчик на сокет (Socket resource), чи числовий дескриптор файлу
+Потік, покажчик на сокет (Socket resource), або числовий дескриптор файлу
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -48,16 +49,16 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
-Довільна змінна, що передається в `callback`функцію.
+Произвольная переменная, передаваемая в`callback`\-функцію.
 
 ### Значення, що повертаються
 
-**eioclose()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_close()** повертає покажчик на запит у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [eioopen()](function.eio-open.md) - Відкриває файл
+-   [eio\_open()](function.eio-open.md) \- Відкриває файл

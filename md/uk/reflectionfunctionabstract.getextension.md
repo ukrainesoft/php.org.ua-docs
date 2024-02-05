@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getExtension'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getExtension
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getExtension — Отримує інформацію про модуль
 
@@ -26,8 +27,8 @@ public ReflectionFunctionAbstract::getExtension(): ?ReflectionExtension
 
 ### Значення, що повертаються
 
-Інформація про модуль як об'єкт [ReflectionExtension](class.reflectionextension.md) або **`null`** для функцій користувача.
+Інформація про модуль як об'єкт [ReflectionExtension](class.reflectionextension.md)или\*\*`null`\*\* для функцій користувача.
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getExtensionName()](reflectionfunctionabstract.getextensionname.md) - Отримання імені модуля
+-   [ReflectionFunctionAbstract::getExtensionName()](reflectionfunctionabstract.getextensionname.md) \- Отримання імені модуля

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashintset.md: QuickHashIntSet
 title: 'QuickHashIntSet::saveToString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntSet::saveToString
 
@@ -18,7 +19,7 @@ QuickHashIntSet::saveToString — Метод повертає серіалізо
 public QuickHashIntSet::saveToString(): string
 ```
 
-Метод повертає серіалізовану версію набору у тому форматі, який може бути прочитаний методом [QuickHashIntSet::loadFromString()](quickhashintset.loadfromstring.md)
+Метод повертає серіалізовану версію набору в тому ж форматі, що може бути прочитаний методом [QuickHashIntSet::loadFromString()](quickhashintset.loadfromstring.md)
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public QuickHashIntSet::saveToString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntSet::saveToString()****
+**Пример #1 Пример использования**QuickHashIntSet::saveToString()\*\*\*\*
 
 ```php
 <?php

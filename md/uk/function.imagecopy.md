@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecopy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecopy
 
@@ -15,10 +16,10 @@ imagecopy — Копіювання частини зображення
 ### Опис
 
 ```methodsynopsis
-imagecopy(    GdImage $dst_image,    GdImage $src_image,    int $dst_x,    int $dst_y,    int $src_x,    int $src_y,    int $src_width,    int $src_height): bool
+imagecopy(    GdImage $dst_image,    GdImage $src_image,    int $dst_x,    int $dst_y,    int $src_x,    int $src_y,    int $src_width,    int $src_height): bool
 ```
 
-Копіює частину `src_image` в `dst_image`починаючи з координат x, y `src_x` `src_y` із шириною `src_width` та заввишки `src_h`. Скопійована частина міститься на координати `dst_x` і `dst_y`
+Копіює частину `src_image`в`dst_image`, начиная с координат x, y`src_x` `src_y` із шириною `src_width` та заввишки `src_h`. Скопійована частина міститься на координати `dst_x`и`dst_y`
 
 ### Список параметрів
 
@@ -56,13 +57,13 @@ y-координата вихідного зображення.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `dst_image` і `src_image` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `dst_image`и`src_image` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -86,10 +87,10 @@ imagedestroy($src);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: Обрізання логотипу PHP.net](images/21009b70229598c6a80eef8b45bf282b-imagecopy.gif)
 
 ### Дивіться також
 
--   [imagecrop()](function.imagecrop.md) - Обрізати зображення до заданого прямокутника
+-   [imagecrop()](function.imagecrop.md) \- Обрізати зображення до заданого прямокутника

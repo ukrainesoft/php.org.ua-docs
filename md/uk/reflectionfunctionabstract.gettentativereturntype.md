@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getTentativeReturnType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getTentativeReturnType
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionFunctionAbstract::getTentativeReturnType — Повертає попередній тип значення, що повертається, пов'язаний з функцією
 
@@ -30,7 +31,7 @@ public ReflectionFunctionAbstract::getTentativeReturnType(): ?ReflectionType
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionFunctionAbstract::getTentativeReturnType()****
+**Пример #1 Пример использования**ReflectionFunctionAbstract::getTentativeReturnType()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ $method = new ReflectionMethod(\ArrayAccess::class, 'offsetGet');
 var_dump($method->getTentativeReturnType());
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(ReflectionNamedType)#2 (0) {
@@ -48,6 +49,6 @@ object(ReflectionNamedType)#2 (0) {
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getReturnType()](reflectionfunctionabstract.getreturntype.md) - Отримує оголошений тип значення, що повертається функцією значення
--   [ReflectionFunctionAbstract::hasTentativeReturnType()](reflectionfunctionabstract.hastentativereturntype.md) - Визначає, чи є у функції попередній тип значення, що повертається
+-   [ReflectionFunctionAbstract::getReturnType()](reflectionfunctionabstract.getreturntype.md) \- Отримує оголошений тип значення, що повертається функцією значення
+-   [ReflectionFunctionAbstract::hasTentativeReturnType()](reflectionfunctionabstract.hastentativereturntype.md) \- Визначає, чи є у функції попередній тип значення, що повертається
 -   [Сумісність типів значень, що повертаються, з внутрішніми класами](language.oop5.inheritance.md#language.oop5.inheritance.internal-classes)

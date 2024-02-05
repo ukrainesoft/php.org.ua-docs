@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.xml-set-character-data-handler.md: « xmlsetcharacterdatahandler
-  - function.xml-set-element-handler.md: xmlsetelementhandler »
+  - function.xml-set-character-data-handler.md: « xml\_set\_character\_data\_handler
+  - function.xml-set-element-handler.md: xml\_set\_element\_handler »
   - index.md: PHP Manual
-  - ref.xml.md: Функции парсера XML
-title: xmlsetdefaulthandler
+  - ref.xml.md: Функції парсера XML
+title: xml\_set\_default\_handler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlsetdefaulthandler
+# xml\_set\_default\_handler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xmlsetdefaulthandler — Налаштування оброблювача за замовчуванням
+xml\_set\_default\_handler — Установка стандартного оброблювача.
 
 ### Опис
 
 ```methodsynopsis
-xml_set_default_handler(XMLParser $parser, callable $handler): bool
+xml_set_default_handler(XMLParser $parser, callable $handler): true
 ```
 
 Задає стандартний обробник для XML-аналізатора `parser`
@@ -24,36 +25,36 @@ xml_set_default_handler(XMLParser $parser, callable $handler): bool
 
 `parser`
 
-Посилання на аналізатор XML.
+Парсер XML.
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.md) з аналізатора `parser`
+Якщо передається значення **`null`** або порожній рядок, обробник повертається в стан за замовчуванням.
 
-Функція з ім'ям `handler` має приймати два аргументи:
+Якщо параметр `handler` є типом [callable](language.types.callable.md), то як оброблювач встановлюється callable.
+
+Якщо параметр `handler` є рядком (string), це може бути ім'я методу об'єкта, заданого за допомогою функції [xml\_set\_object()](function.xml-set-object.md)
+
+Сигнатура оброблювача має бути:
 
 ```methodsynopsis
-handler(XmlParser $parser, string $data)
+handler(XmlParser $parser, string $data): void
 ```
 
 `parser`
 
-Перший аргумент parser є посиланням на XML-аналізатор, що викликає обробник.
+XML-парсер, що викликає оброблювач.
 
 `data`
 
-Другий аргумент `data`має містити символьні дані. Це може бути XML-оголошення, оголошення типу документа, сутності чи інші дані, котрим ще немає оброблювача.
-
-Якщо як обробник передано порожній рядок або **`false`**, цей обробник вимикається.
-
-> **Зауваження**: Як аргумент замість імені функції може бути переданий масив, що містить посилання на об'єкт та ім'я методу.
+Параметр`data` містить дані у вигляді текстового рядка. Це може бути оголошення XML, оголошення типу документа, сутності чи інші дані, котрим немає іншого оброблювача.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| 8.0.0 | Параметр`parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався коректний `xml` ресурс (Resource). |

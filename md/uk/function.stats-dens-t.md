@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-dens-pmf-poisson.md: « statsdenspmfpoisson
-  - function.stats-dens-uniform.md: statsdensuniform »
+  - function.stats-dens-pmf-poisson.md: « stats\_dens\_pmf\_poisson
+  - function.stats-dens-uniform.md: stats\_dens\_uniform »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsdensт
+title: stats\_dens\_t
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsdensт
+# stats\_dens\_t
 
 (PECL stats >= 1.0.0)
 
-statsdenst - Щільність ймовірності розподілу Стьюдента
+stats\_dens\_t - Щільність ймовірності розподілу Стьюдента
 
 ### Опис
 
@@ -18,13 +19,13 @@ statsdenst - Щільність ймовірності розподілу Сть
 stats_dens_t(float $x, float $dfr): float
 ```
 
-Повертає щільність ймовірності для `x`, де `scale` відображає кількість ступенів свободи.
+Повертає щільність ймовірності для `x`, где`scale` відображає кількість ступенів свободи.
 
 ### Список параметрів
 
 `x`
 
-Значення, для якого вважається щільність ймовірності
+Значення, для якого вважається щільність імовірності
 
 `dfr`
 
@@ -32,4 +33,4 @@ stats_dens_t(float $x, float $dfr): float
 
 ### Значення, що повертаються
 
-Щільність ймовірності для `x` або **`false`** у разі виникнення помилки.
+Щільність ймовірності для `x`или\*\*`false`\*\*в случае возникновения ошибки.

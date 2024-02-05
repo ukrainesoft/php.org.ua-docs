@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-simple.getpost.md: '« YafRequestSimple::getPost'
-  - yaf-request-simple.getrequest.md: 'YafRequestSimple::getRequest »'
+  - yaf-request-simple.getpost.md: '« Yaf\_Request\_Simple::getPost'
+  - yaf-request-simple.getrequest.md: 'Yaf\_Request\_Simple::getRequest »'
   - index.md: PHP Manual
-  - class.yaf-request-simple.md: YafRequestSimple
-title: 'YafRequestSimple::getQuery'
+  - class.yaf-request-simple.md: Yaf\_Request\_Simple
+title: 'Yaf\_Request\_Simple::getQuery'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestSimple::getQuery
+# Yaf\_Request\_Simple::getQuery
 
 (Yaf >=1.0.0)
 
-YafRequestSimple::getQuery - Призначення getQuery
+Yaf\_Request\_Simple::getQuery - Призначення getQuery
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Request_Simple::getQuery(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

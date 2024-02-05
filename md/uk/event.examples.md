@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.event.md: Event
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -84,7 +85,7 @@ $base->dispatch();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Соединение установлено.
@@ -524,7 +525,7 @@ event_base_loop($base);
 ?>
 ```
 
-**Приклад #6 Використання циклу libevent для обробки запитів модуля eio'**
+**Пример #6 Использование цикла libevent для обработки запросов модуля\`eio'**
 
 ```php
 <?php
@@ -593,9 +594,9 @@ echo "Используется событийный метод: ", $base->getMet
 
 echo "Способы:\n";
 $features = $base->getFeatures();
-($features & EventConfig::FEATURE_ET) and print("ET - одноразовое срабатывание при пересечении порога (edge-triggered IO)\n");
-($features & EventConfig::FEATURE_O1) and print("O1 - операции добавления/удаления событий со сложностью O(1)\n");
-($features & EventConfig::FEATURE_FDS) and print("FDS - обычные дескрипторы файлов, а не только сокеты\n");
+($features & EventConfig::FEATURE_ET) and print "ET — одноразовое срабатывание при пересечении порога (edge-triggered IO)\n";
+($features & EventConfig::FEATURE_O1) and print "O1 — операции добавления/удаления событий со сложностью O(1)\n";
+($features & EventConfig::FEATURE_FDS) and print "FDS — обычные дескрипторы файлов, а не только сокеты\n";
 
 // Запрашиваем способ FDS
 if ($cfg->requireFeatures(EventConfig::FEATURE_FDS)) {
@@ -603,7 +604,7 @@ if ($cfg->requireFeatures(EventConfig::FEATURE_FDS)) {
 
     $base = new EventBase($cfg);
     ($base->getFeatures() & EventConfig::FEATURE_FDS)
-        and print("FDS - обычные дескрипторы файлов, а не только сокеты\n");
+        and print "FDS — обычные дескрипторы файлов, а не только сокеты\n";
 }
 /* }}} */
 
@@ -745,7 +746,7 @@ $base->loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 a=12
@@ -945,7 +946,7 @@ echo "END\n";
 ?>
 ```
 
-**Приклад #11 Приклад використання [EventHttpConnection::makeRequest()](eventhttpconnection.makerequest.md)**
+**Пример #11 Пример использования[EventHttpConnection::makeRequest()](eventhttpconnection.makerequest.md)**
 
 ```php
 <?php
@@ -990,7 +991,7 @@ $base->loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 _request_handler

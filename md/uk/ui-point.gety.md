@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-point.getx.md: '« UIPoint::getX'
-  - ui-point.setx.md: 'ОЙPoint::setX »'
+  - ui-point.getx.md: '« UI\\Point::getX'
+  - ui-point.setx.md: 'UI\\Point::setX »'
   - index.md: PHP Manual
-  - class.ui-point.md: ОЙPoint
-title: 'ОЙPoint::getY'
+  - class.ui-point.md: UI\\Point
+title: 'UI\\Point::getY'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙPoint::getY
+# UI\\Point::getY
 
 (UI 0.9.9)
 
-ОЙPoint::getY — Отримати Y
+UI\\Point::getY — Отримати Y
 
 ### Опис
 

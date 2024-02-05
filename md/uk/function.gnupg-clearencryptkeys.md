@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gnupg-cleardecryptkeys.md: « gnupgcleardecryptkeys
-  - function.gnupg-clearsignkeys.md: gnupgclearsignkeys »
+  - function.gnupg-cleardecryptkeys.md: « gnupg\_cleardecryptkeys
+  - function.gnupg-clearsignkeys.md: gnupg\_clearsignkeys »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgclearencryptkeys
+title: gnupg\_clearencryptkeys
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgclearencryptkeys
+# gnupg\_clearencryptkeys
 
 (PECL gnupg >= 0.5)
 
-gnupgclearencryptkeys — Видалення всіх ключів, які були встановлені для шифрування раніше
+gnupg\_clearencryptkeys — Видалення всіх ключів, які були встановлені для шифрування раніше
 
 ### Опис
 
@@ -22,15 +23,15 @@ gnupg_clearencryptkeys(resource $identifier): bool
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Процедурний приклад використання **gnupgclearencryptkeys()****
+**Приклад #1 Процедурний приклад використання **gnupg\_clearencryptkeys()****
 
 ```php
 <?php
@@ -39,7 +40,7 @@ gnupg_clearencryptkeys($res);
 ?>
 ```
 
-**Приклад #2 Об'єктно-орієнтований приклад використання **gnupgclearencryptkeys()****
+**Приклад #2 Об'єктно-орієнтований приклад використання **gnupg\_clearencryptkeys()****
 
 ```php
 <?php

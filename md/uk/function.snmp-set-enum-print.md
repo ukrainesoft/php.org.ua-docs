@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.snmp-read-mib.md: « snmpreadmib
-  - function.snmp-set-oid-numeric-print.md: snmpsetoidnumericprint »
+  - function.snmp-read-mib.md: « snmp\_read\_mib
+  - function.snmp-set-oid-numeric-print.md: snmp\_set\_oid\_numeric\_print »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
-title: snmpsetenumprint
+title: snmp\_set\_enum\_print
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# snmpsetenumprint
+# snmp\_set\_enum\_print
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-snmpsetenumprint — Повертає всі значення, які є перерахуваннями, зі значенням їх перерахування замість необробленого цілого числа
+snmp\_set\_enum\_print — Повертає всі значення, які є перерахуваннями, зі значенням їх перерахування замість необробленого цілого числа
 
 ### Опис
 
 ```methodsynopsis
-snmp_set_enum_print(bool $enable): bool
+snmp_set_enum_print(bool $enable): true
 ```
 
 Функція перемикає, якщо snmpwalk/snmpget тощо. повинні автоматично шукати значення перерахування в MIB і повертати їх разом з їх рядком, що легко читається.
@@ -30,9 +31,15 @@ snmp_set_enum_print(bool $enable): bool
 
 Функція завжди повертає **`true`**
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
+
 ### Приклади
 
-**Приклад #1 Приклад використання **snmpsetenumprint()****
+**Пример #1 Пример использования**snmp\_set\_enum\_print()\*\*\*\*
 
 ```php
 <?php

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-errno.md: « ldaperrno
-  - function.ldap-escape.md: ldapescape »
+  - function.ldap-errno.md: « ldap\_errno
+  - function.ldap-escape.md: ldap\_escape »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldaperror
+title: ldap\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldaperror
+# ldap\_error
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ldaperror — Повернути повідомлення про помилку LDAP останньої команди
+ldap\_error — Повернути повідомлення про помилку LDAP останньої команди
 
 ### Опис
 
@@ -26,7 +27,7 @@ ldap_error(LDAP\Connection $ldap): string
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 ### Значення, що повертаються
 
@@ -34,11 +35,11 @@ ldap_error(LDAP\Connection $ldap): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
 
 ### Дивіться також
 
--   [ldaperr2str()](function.ldap-err2str.md) - Перетворити код помилки LDAP на рядкове повідомлення про помилку
--   [ldaperrno()](function.ldap-errno.md) - Повернути номер помилки LDAP останньої команди
+-   [ldap\_err2str()](function.ldap-err2str.md) \- Перетворити код помилки LDAP на рядкове повідомлення про помилку
+-   [ldap\_errno()](function.ldap-errno.md) \- Повернути номер помилки LDAP останньої команди

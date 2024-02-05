@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::evaluateImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::evaluateImage
 
@@ -44,7 +45,7 @@ public Imagick::evaluateImage(int $op, float $constant, int $channel = Imagick::
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::evaluateImage()****
+**Пример #1 Пример использования**Imagick::evaluateImage()\*\*\*\*
 
 Використання evaluateImage для зменшення непрозорості зображення.
 

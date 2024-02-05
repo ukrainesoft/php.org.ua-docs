@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-tanh.md: « tradertanh
-  - function.trader-trange.md: tradertrange »
+  - function.trader-tanh.md: « trader\_tanh
+  - function.trader-trange.md: trader\_trange »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradertema
+  - ref.trader.md: Функції Trader
+title: trader\_tema
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradertema
+# trader\_tema
 
 (PECL trader >= 0.2.0)
 
-tradertema — Потрійна експоненційна ковзна середня
+trader\_tema — Потрійна експоненційна ковзна середня
 
 ### Опис
 

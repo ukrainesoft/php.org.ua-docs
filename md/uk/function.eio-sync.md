@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.eio-sync-file-range.md: « eiosyncfilerange
-  - function.eio-syncfs.md: eiosyncfs »
+  - function.eio-sync-file-range.md: « eio\_sync\_file\_range
+  - function.eio-syncfs.md: eio\_syncfs »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiosync
+  - ref.eio.md: Eio Функції
+title: eio\_sync
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiosync
+# eio\_sync
 
 (PECL eio >= 0.0.1dev)
 
-eiosync — записує кеш із буфера на диск
+eio\_sync — записує кеш із буфера на диск
 
 ### Опис
 
@@ -24,4 +25,4 @@ eio_sync(int $pri = EIO_PRI_DEFAULT, callable $callback = NULL, mixed $data = NU
 
 ### Значення, що повертаються
 
-**eiosync()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_sync()** повертає покажчик на запит у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

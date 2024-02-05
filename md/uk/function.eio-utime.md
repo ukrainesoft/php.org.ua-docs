@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.eio-unlink.md: « eiounlink
-  - function.eio-write.md: eiowrite »
+  - function.eio-unlink.md: « eio\_unlink
+  - function.eio-write.md: eio\_write »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eioutime
+  - ref.eio.md: Eio Функції
+title: eio\_utime
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eioutime
+# eio\_utime
 
 (PECL eio >= 0.0.1dev)
 
-eioutime — Змінює дату та час останньої модифікації та доступу до файлу
+eio\_utime — Змінює дату та час останньої модифікації та доступу до файлу
 
 ### Опис
 
 ```methodsynopsis
-eio_utime(    string $path,    float $atime,    float $mtime,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_utime(    string $path,    float $atime,    float $mtime,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 ### Список параметрів
@@ -34,11 +35,11 @@ eio_utime(    string $path,    float $atime,    float $mtime,    int $pri = EIO_
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -54,16 +55,16 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
-Довільна змінна, що передається в `callback`функцію.
+Произвольная переменная, передаваемая в`callback`\-функцію.
 
 ### Значення, що повертаються
 
-**eioutime()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_utime()** повертає покажчик на запит у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [eiofutime()](function.eio-futime.md) - Змінює дату та час останньої модифікації та доступу до файлу
+-   [eio\_futime()](function.eio-futime.md) \- Змінює дату та час останньої модифікації та доступу до файлу

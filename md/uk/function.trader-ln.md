@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-linearreg.md: « traderlinearreg
-  - function.trader-log10.md: traderlog10 »
+  - function.trader-linearreg.md: « trader\_linearreg
+  - function.trader-log10.md: trader\_log10 »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderлн
+  - ref.trader.md: Функції Trader
+title: trader\_ln
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderлн
+# trader\_ln
 
 (PECL trader >= 0.2.0)
 
-traderln — вектор натурального логарифму.
+trader\_ln — вектор натурального логарифму.
 
 ### Опис
 

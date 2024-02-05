@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventutil.md: EventUtil
 title: 'EventUtil::getLastSocketError'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventUtil::getLastSocketError
 
@@ -37,4 +38,4 @@ public
 
 ### Дивіться також
 
--   [EventUtil::getLastSocketErrno()](eventutil.getlastsocketerrno.md) - Отримати номер останньої помилки сокету, що виникла
+-   [EventUtil::getLastSocketErrno()](eventutil.getlastsocketerrno.md) \- Отримати номер останньої помилки сокету, що виникла

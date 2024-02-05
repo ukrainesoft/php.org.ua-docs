@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collection.getschema.md: '« Collection::getSchema'
   - mysql-xdevapi-collection.modify.md: 'Collection::modify »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
 title: 'Collection::getSession'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collection::getSession
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Collection::getSession(): Session
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::getSession()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::getSession()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump($newsession);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(mysql_xdevapi\Session)#1 (0) {

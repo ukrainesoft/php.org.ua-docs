@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-tabledelete.limit.md: '« TableDelete::limit'
   - mysql-xdevapi-tabledelete.where.md: 'TableDelete::where »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete
+  - class.mysql-xdevapi-tabledelete.md: mysql\_xdevapi\\TableDelete
 title: 'TableDelete::orderby'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableDelete::orderby
 
 (No version information available, might only be in Git)
 
-TableDelete::orderby — Встановлює критерії сортування видалення
+Table Delete::order by — Встановлює критерії сортування видалення
 
 ### Опис
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableDelete::orderby(string $orderby_expr): mysql_xdevapi\T
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableDelete::orderBy()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableDelete::orderBy()\*\*\*\*
 
 ```php
 <?php

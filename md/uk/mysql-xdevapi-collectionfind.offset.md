@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionfind.lockshared.md: '« CollectionFind::lockShared'
   - mysql-xdevapi-collectionfind.sort.md: 'CollectionFind::sort »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysql\_xdevapi\\CollectionFind
 title: 'CollectionFind::offset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionFind::offset
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\CollectionFind::offset(int $position): mysql_xdevapi\Collec
 
 Пропускає (зміщує) цю кількість елементів, які інакше були б повернуті операцією пошуку. Використовуйте разом із методом limit().
 
-При значенні, що перевищує розмір набору результатів, призводить до порожнього набору.
+При значенні, яке перевищує розмір набору результатів, призводить до порожнього набору.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public mysql_xdevapi\CollectionFind::offset(int $position): mysql_xdevapi\Collec
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionFind::offset()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionFind::offset()\*\*\*\*
 
 ```php
 <?php
@@ -66,7 +67,7 @@ var_dump($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {

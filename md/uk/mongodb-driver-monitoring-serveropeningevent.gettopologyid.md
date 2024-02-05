@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serveropeningevent.getport.md: '« MongoDBDriverMonitoringServerOpeningEvent::getPort'
-  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.md: MongoDBDriverMonitoringServerHeartbeatFailedEvent »
+  - mongodb-driver-monitoring-serveropeningevent.getport.md: '« MongoDB\\Driver\\Monitoring\\ServerOpeningEvent::getPort'
+  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.md: MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent »
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serveropeningevent.md: MongoDBDriverMonitoringServerOpeningEvent
-title: 'MongoDBDriverMonitoringServerOpeningEvent::getTopologyId'
+  - class.mongodb-driver-monitoring-serveropeningevent.md: MongoDB\\Driver\\Monitoring\\ServerOpeningEvent
+title: 'MongoDB\\Driver\\Monitoring\\ServerOpeningEvent::getTopologyId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringServerOpeningEvent::getTopologyId
+# MongoDB\\Driver\\Monitoring\\ServerOpeningEvent::getTopologyId
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringServerOpeningEvent::getTopologyId — Returns the topology ID associated with this server
+MongoDB\\Driver\\Monitoring\\ServerOpeningEvent::getTopologyId — Returns the topology ID associated with this server
 
 ### Опис
 
@@ -24,8 +25,8 @@ final public MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId(): Mong
 
 ### Значення, що повертаються
 
-Відображення топології ID.
+Returns the topology ID.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.rrd-last.md: « rrdlast
-  - function.rrd-restore.md: rrdrestore »
+  - function.rrd-last.md: « rrd\_last
+  - function.rrd-restore.md: rrd\_restore »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
-title: rrdlastupdate
+title: rrd\_lastupdate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# rrdlastupdate
+# rrd\_lastupdate
 
 (PECL rrd >= 0.9.0)
 
-rrdlastupdate — Отримує інформацію про останні оновлені дані
+rrd\_lastupdate — Отримує інформацію про останні оновлені дані
 
 ### Опис
 
@@ -28,4 +29,4 @@ rrd_lastupdate(string $filename): array
 
 ### Значення, що повертаються
 
-Масив інформації про останнє оновлення або **`false`** у разі виникнення помилки.
+Массив информации о последнем обновлении или\*\*`false`\*\*в случае возникновения ошибки.

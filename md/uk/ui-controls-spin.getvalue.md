@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-spin.construct.md: '« UIControlsSpin::construct'
-  - ui-controls-spin.onchange.md: 'ОЙControlsSpin::onChange »'
+  - ui-controls-spin.construct.md: '« UI\\Controls\\Spin::\_\_construct'
+  - ui-controls-spin.onchange.md: 'UI\\Controls\\Spin::onChange »'
   - index.md: PHP Manual
-  - class.ui-controls-spin.md: ОЙControlsSpin
-title: 'ОЙControlsSpin::getValue'
+  - class.ui-controls-spin.md: UI\\Controls\\Spin
+title: 'UI\\Controls\\Spin::getValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsSpin::getValue
+# UI\\Controls\\Spin::getValue
 
 (UI 0.9.9)
 
-ОЙControlsSpin::getValue — Отримати значення
+UI\\Controls\\Spin::getValue — Отримати значення
 
 ### Опис
 

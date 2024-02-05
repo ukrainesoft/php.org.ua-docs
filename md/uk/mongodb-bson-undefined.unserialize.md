@@ -1,28 +1,29 @@
 ---
 navigation:
-  - mongodb-bson-undefined.tostring.md: '« MongoDBBSONUndefined::toString'
-  - mongodb.monitoring.md: MongoDBDriverMonitoring »
+  - mongodb-bson-undefined.tostring.md: '« MongoDB\\BSON\\Undefined::\_\_function toString() { [native code] }'
+  - mongodb.monitoring.md: MongoDB\\Driver\\Monitoring »
   - index.md: PHP Manual
-  - class.mongodb-bson-undefined.md: MongoDBBSONUndefined
-title: 'MongoDBBSONUndefined::unserialize'
+  - class.mongodb-bson-undefined.md: MongoDB\\BSON\\Undefined
+title: 'MongoDB\\BSON\\Undefined::unserialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONUndefined::unserialize
+# MongoDB\\BSON\\Undefined::unserialize
 
 (mongodb >=1.4.0)
 
-MongoDBBSONUndefined::unserialize — Десеріалізує Undefined
+MongoDB\\BSON\\Undefined::unserialize — Десеріалізує Undefined
 
 ### Опис
 
 ```methodsynopsis
-final public MongoDB\BSON\Undefined::unserialize(string $serialized): void
+final public MongoDB\BSON\Undefined::unserialize(string $data): void
 ```
 
 ### Список параметрів
 
-`serialized`
+`data`
 
-Серіалізований [MongoDBBSONUndefined](class.mongodb-bson-undefined.md)
+Серіалізований [MongoDB\\BSON\\Undefined](class.mongodb-bson-undefined.md)
 
 ### Значення, що повертаються
 
@@ -30,10 +31,10 @@ final public MongoDB\BSON\Undefined::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONUndefined::serialize()](mongodb-bson-undefined.serialize.md) - Серіалізує Undefined
--   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [MongoDB\\BSON\\Undefined::serialize()](mongodb-bson-undefined.serialize.md) \- Серіалізує Undefined
+-   [unserialize()](function.unserialize.md) \- Створює PHP-значення зі збереженого уявлення
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

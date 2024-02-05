@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.on.md: '« SwooleServer::on'
-  - swoole-server.protect.md: 'SwooleServer::protect »'
+  - swoole-server.on.md: '« Swoole\\Server::on'
+  - swoole-server.protect.md: 'Swoole\\Server::protect »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::pause'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::pause'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::pause
+# Swoole\\Server::pause
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::pause — Припиняє отримання даних від з'єднання
+Swoole\\Server::pause — Припиняє отримання даних від з'єднання
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mysqli-result.free.md: '« mysqliresult::free'
-  - mysqli-result.lengths.md: 'mysqliresult::$lengths »'
+  - mysqli-result.free.md: '« mysqli\_result::free'
+  - mysqli-result.lengths.md: 'mysqli\_result::$lengths »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::getIterator'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::getIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::getIterator
+# mysqli\_result::getIterator
 
 (PHP 8)
 
-mysqliresult::getIterator — Витягує зовнішній ітератор
+mysqli\_result::getIterator — Витягує зовнішній ітератор
 
 ### Опис
 
@@ -20,7 +21,7 @@ public mysqli_result::getIterator(): Iterator
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

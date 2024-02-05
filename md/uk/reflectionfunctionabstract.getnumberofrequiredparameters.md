@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getNumberOfRequiredParameters'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getNumberOfRequiredParameters
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getNumberOfRequiredParameters — Отримує кількість обов'язкових параметрів
 
@@ -30,4 +31,4 @@ public ReflectionFunctionAbstract::getNumberOfRequiredParameters(): int
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) - Отримує кількість параметрів
+-   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) \- Отримує кількість параметрів

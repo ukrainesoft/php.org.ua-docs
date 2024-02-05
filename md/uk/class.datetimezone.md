@@ -1,14 +1,15 @@
 ---
 navigation:
-  - datetime.wakeup.md: '« DateTime::wakeup'
-  - datetimezone.construct.md: 'DateTimeZone::construct »'
+  - datetime.wakeup.md: '« DateTime::\_\_wakeup'
+  - datetimezone.construct.md: 'DateTimeZone::\_\_construct »'
   - index.md: PHP Manual
-  - book.datetime.md: Дата/время
+  - book.datetime.md: Дата час
 title: Клас DateTimeZone
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас DateTimeZone
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,72 +19,81 @@ title: Клас DateTimeZone
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      class DateTimeZone
-     
+     class DateTimeZone
      {
 
     /* Константы */
     
+     public
      const
      int
-      AFRICA = 1;
+      AFRICA;
 
-    const
+    public
+     const
      int
-      AMERICA = 2;
+      AMERICA;
 
-    const
+    public
+     const
      int
-      ANTARCTICA = 4;
+      ANTARCTICA;
 
-    const
+    public
+     const
      int
-      ARCTIC = 8;
+      ARCTIC;
 
-    const
+    public
+     const
      int
-      ASIA = 16;
+      ASIA;
 
-    const
+    public
+     const
      int
-      ATLANTIC = 32;
+      ATLANTIC;
 
-    const
+    public
+     const
      int
-      AUSTRALIA = 64;
+      AUSTRALIA;
 
-    const
+    public
+     const
      int
-      EUROPE = 128;
+      EUROPE;
 
-    const
+    public
+     const
      int
-      INDIAN = 256;
+      INDIAN;
 
-    const
+    public
+     const
      int
-      PACIFIC = 512;
+      PACIFIC;
 
-    const
+    public
+     const
      int
-      UTC = 1024;
+      UTC;
 
-    const
+    public
+     const
      int
-      ALL = 2047;
+      ALL;
 
-    const
+    public
+     const
      int
-      ALL_WITH_BC = 4095;
+      ALL_WITH_BC;
 
-    const
+    public
+     const
      int
-      PER_COUNTRY = 4096;
+      PER_COUNTRY;
 
 
     /* Методы */
@@ -160,10 +170,10 @@ public static listIdentifiers(int $timezoneGroup = DateTimeZone::ALL, ?string $c
 
 ## Зміст
 
--   [DateTimeZone::construct](datetimezone.construct.md) — Створює новий об'єкт DateTimeZone
--   [DateTimeZone::getLocation](datetimezone.getlocation.md) — Повертає інформацію про місцезнаходження для часового поясу
--   [DateTimeZone::getName](datetimezone.getname.md) — Повертає ім'я часового поясу
--   [DateTimeZone::getOffset](datetimezone.getoffset.md) — Повертає усунення часового поясу від UTC (GMT)
--   [DateTimeZone::getTransitions](datetimezone.gettransitions.md) — Повертає всі переходи для часового поясу
--   [DateTimeZone::listAbbreviations](datetimezone.listabbreviations.md) — Повертає асоціативний масив, що містить прапор переходу на літній час, зміщення та ім'я часового поясу
--   [DateTimeZone::listIdentifiers](datetimezone.listidentifiers.md) — Повертає чисельно індексований масив із усіма ідентифікаторами часових поясів
+-   [DateTimeZone::\_\_construct](datetimezone.construct.md)— Створює новий об'єкт DateTimeZone
+-   [DateTimeZone::getLocation](datetimezone.getlocation.md)— Повертає інформацію про місцезнаходження для часового поясу
+-   [DateTimeZone::getName](datetimezone.getname.md)— Повертає ім'я часового поясу
+-   [DateTimeZone::getOffset](datetimezone.getoffset.md)— Повертає усунення часового поясу від UTC (GMT)
+-   [DateTimeZone::getTransitions](datetimezone.gettransitions.md)— Повертає всі переходи для часового поясу
+-   [DateTimeZone::listAbbreviations](datetimezone.listabbreviations.md)— Повертає асоціативний масив, що містить прапор переходу на літній час, зміщення та ім'я часового поясу
+-   [DateTimeZone::listIdentifiers](datetimezone.listidentifiers.md)— Повертає чисельно індексований масив із усіма ідентифікаторами часових поясів

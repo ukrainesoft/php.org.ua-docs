@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::addEmptyDir'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::addEmptyDir
 
@@ -28,17 +29,17 @@ public ZipArchive::addEmptyDir(string $dirname, int $flags = 0): bool
 
 `flags`
 
-Бітова маска, що складається з **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константи](zip.constants.md)
+Бітова маска, що складається з **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** \*\*`ZipArchive::FL_ENC_CP437`\*\*Поведение констант описано на странице[ZIP-константи](zip.constants.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Доданий параметр `flags` |
+| 8.0.0 / 1.18.0 | Добавлен параметр`flags` |
 
 ### Приклади
 

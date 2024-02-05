@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.taint.md: « Функции Taint
+  - ref.taint.md: « Функції Taint
   - function.taint.md: taint »
   - index.md: PHP Manual
-  - ref.taint.md: Функции Taint
-title: ісtainted
+  - ref.taint.md: Функції Taint
+title: is\_tainted
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісtainted
+# is\_tainted
 
 (PECL taint >=0.1.0)
 
-ісtainted — Перевіряє, чи зіпсований рядок
+is\_tainted — Перевіряє, чи зіпсований рядок
 
 ### Опис
 

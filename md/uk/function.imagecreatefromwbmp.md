@@ -4,11 +4,12 @@ navigation:
   - function.imagecreatefromwebp.md: imagecreatefromwebp »
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
-title: imagecreatefrombmp
+title: imagecreatefromwbmp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imagecreatefrombmp
+# imagecreatefromwbmp
 
-(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 imagecreatefromwbmp — Створення нового зображення з файлу або URL
 
@@ -18,13 +19,13 @@ imagecreatefromwbmp — Створення нового зображення з 
 imagecreatefromwbmp(string $filename): GdImage|false
 ```
 
-**imagecreatefrombmp()** повертає ідентифікатор зображення, що представляє зображення, отримане з файлу із заданим ім'ям.
+**imagecreatefromwbmp()** повертає ідентифікатор зображення, що представляє зображення, отримане з файлу із заданим ім'ям.
 
 > **Зауваження**: Зображення WBMP є Wireless Bitmaps, а не Windows Bitmaps. Останні можуть бути завантажені за допомогою [imagecreatefrombmp()](function.imagecreatefrombmp.md)
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+У цю функцію як ім'я файлу можна передавати URL-адреси, якщо була включена директива [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про те, як вказати ім'я файлу, описано в описі функції [fopen()](function.fopen.md). В розділі "[Підтримувані протоколи та обгортки](wrappers.md)» також дано посилання на інформацію про можливості підтримуваних обгорток, зауваження щодо роботи з ними та список визначених змінних, які вони дають.
 
 ### Список параметрів
 
@@ -34,13 +35,13 @@ imagecreatefromwbmp(string $filename): GdImage|false
 
 ### Значення, що повертаються
 
-Повертає об'єкт зображення у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає об'єкт зображення у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| 8.0.0 | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

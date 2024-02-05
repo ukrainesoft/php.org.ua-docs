@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-sdamsubscriber.md: « MongoDBDriverMonitoringSDAMSubscriber
-  - mongodb-driver-monitoring-sdamsubscriber.serverclosed.md: 'MongoDBDriverMonitoringSDAMSubscriber::serverClosed »'
+  - class.mongodb-driver-monitoring-sdamsubscriber.md: « MongoDB\\Driver\\Monitoring\\SDAMSubscriber
+  - mongodb-driver-monitoring-sdamsubscriber.serverclosed.md: 'MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverClosed »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDBDriverMonitoringSDAMSubscriber
-title: 'MongoDBDriverMonitoringSDAMSubscriber::serverChanged'
+  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDB\\Driver\\Monitoring\\SDAMSubscriber
+title: 'MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverChanged'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringSDAMSubscriber::serverChanged
+# MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverChanged
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringSDAMSubscriber::serverChanged — Метод сповіщення про зміну опису сервера
+MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverChanged — Метод сповіщення про зміну опису сервера
 
 ### Опис
 
@@ -22,7 +23,7 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged(MongoDB\
 
 ### Список параметрів
 
-`event` [MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)
+`event` [MongoDB\\Driver\\Monitoring\\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)) .
 
 Об'єкт події, що містить інформацію про змінений опис сервера.
 
@@ -32,10 +33,10 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged(MongoDB\
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)
--   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) - Глобальна реєстрація передплатника на подію моніторингу
--   [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) - реєструє передплатника на подію моніторингу в даному об'єкті Manager
+-   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)
+-   [MongoDB\\Driver\\Monitoring\\addSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) \- Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDB\\Driver\\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) \- реєструє передплатника на подію моніторингу в даному об'єкті Manager

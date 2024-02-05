@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.image-type-to-mime-type.md: « imagetypeтоmimetype
+  - function.image-type-to-mime-type.md: « image\_type\_to\_mime\_type
   - function.imageaffine.md: imageaffine »
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: image2wbmp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # image2wbmp
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7)
 
 image2wbmp — Виводить зображення у браузер або пише у файл
 
 **Увага**
 
-Ця функція оголошена *Застарілої*, починаючи з PHP 7.3.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.3.0 і була *ВИДАЛЕНО* у версії PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -40,7 +41,7 @@ image2wbmp(resource $image, string $filename = ?, int $foreground = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 **Застереження**
 
@@ -48,7 +49,7 @@ image2wbmp(resource $image, string $filename = ?, int $foreground = ?): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **image2wbmp()****
+**Пример #1 Пример использования**image2wbmp()\*\*\*\*
 
 ```php
 <?php
@@ -63,4 +64,4 @@ imagedestroy($image);
 
 ### Дивіться також
 
--   [imagewbmp()](function.imagewbmp.md) - Виводить зображення до браузера або пише у файл
+-   [imagewbmp()](function.imagewbmp.md) \- Виводить зображення у браузер або пише у файл

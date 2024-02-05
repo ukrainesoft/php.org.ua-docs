@@ -3,8 +3,9 @@ navigation:
   - wincache.win32build.building.md: « Компіляція та складання
   - book.xhprof.md: Xhprof »
   - index.md: PHP Manual
-  - wincache.win32build.md: Сборка для Windows
+  - wincache.win32build.md: Складання для Windows
 title: Перевірка збирання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Перевірка збирання
 
@@ -14,6 +15,6 @@ title: Перевірка збирання
     
 2.  Виконайте команду:
     
-    php.exe -n -d extension=phpwincache.dll -re wincache
+    php.exe -n -d extension=php\_wincache.dll -re wincache
     
     Якщо модуль зібраний правильно, у виведенні цієї команди будуть показані INI-директиви та функції, що підтримуються WinCache.

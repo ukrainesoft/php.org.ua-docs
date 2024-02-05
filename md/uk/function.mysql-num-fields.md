@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.mysql-list-tables.md: « mysqllisttables
-  - function.mysql-num-rows.md: mysqlnumrows »
+  - function.mysql-list-tables.md: « mysql\_list\_tables
+  - function.mysql-num-rows.md: mysql\_num\_rows »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlnumfields
+title: mysql\_num\_fields
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlnumfields
+# mysql\_num\_fields
 
 (PHP 4, PHP 5)
 
-mysqlnumfields — Повертає кількість полів результату запиту
+mysql\_num\_fields — Повертає кількість полів результату запиту
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlinumfields()](mysqli-result.field-count.md)
+-   [mysqli\_num\_fields()](mysqli-result.field-count.md)
 -   [PDOStatement::columnCount()](pdostatement.columncount.md)
 
 ### Опис
@@ -31,15 +32,15 @@ mysql_num_fields(resource $result): int|false
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
+оброблюваний [результат запиту](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.md)
 
 ### Значення, що повертаються
 
-Повертає кількість полів у результаті запиту (resource) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає кількість полів у результаті запиту (resource) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlnumfields()****
+**Пример #1 Пример использования**mysql\_num\_fields()\*\*\*\*
 
 ```php
 <?php
@@ -56,13 +57,13 @@ echo mysql_num_fields($result);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysqlnumfields()**
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysql\_numfields()**
 
 ### Дивіться також
 
--   [mysqlselectdb()](function.mysql-select-db.md) - Вибирає базу даних MySQL
--   [mysqlquery()](function.mysql-query.md) - Надсилає запит MySQL
--   [mysqlfetchfield()](function.mysql-fetch-field.md) - Повертає інформацію про колонку з результату запиту як об'єкта
--   [mysqlnumrows()](function.mysql-num-rows.md) - Повертає кількість рядів результату запиту
+-   [mysql\_select\_db()](function.mysql-select-db.md) \- Вибирає базу даних MySQL
+-   [mysql\_query()](function.mysql-query.md) \- Надсилає запит MySQL
+-   [mysql\_fetch\_field()](function.mysql-fetch-field.md) \- Повертає інформацію про колонку з результату запиту як об'єкта
+-   [mysql\_num\_rows()](function.mysql-num-rows.md) \- Повертає кількість рядів результату запиту

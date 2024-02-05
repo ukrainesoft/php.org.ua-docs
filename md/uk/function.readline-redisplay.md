@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.readline-read-history.md: « readlinereadhistory
-  - function.readline-write-history.md: readlinewritehistory »
+  - function.readline-read-history.md: « readline\_read\_history
+  - function.readline-write-history.md: readline\_write\_history »
   - index.md: PHP Manual
-  - ref.readline.md: Функции Readline
-title: readlineredisplay
+  - ref.readline.md: Опції Readline
+title: readline\_redisplay
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# readlineredisplay
+# readline\_redisplay
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-readlineredisplay — Перемалювати екран
+readline\_redisplay — Перемалювати екран
 
 ### Опис
 

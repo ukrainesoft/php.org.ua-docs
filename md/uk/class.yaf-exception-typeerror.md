@@ -1,12 +1,13 @@
 ---
 navigation:
-  - yaf-exception.getprevious.md: '« YafException::getPrevious'
-  - class.yaf-exception-startuperror.md: YafExceptionStartupError »
+  - yaf-exception.getprevious.md: '« Yaf\_Exception::getPrevious'
+  - class.yaf-exception-startuperror.md: Yaf\_Exception\_StartupError »
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafExceptionTypeError
+title: Клас Yaf\_Exception\_TypeError
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafExceptionTypeError
+# Клас Yaf\_Exception\_TypeError
 
 (Yaf >=1.0.0)
 

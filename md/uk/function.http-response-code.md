@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.headers-sent.md: « headerssent
-  - function.inet-ntop.md: inetntop »
+  - function.headers-sent.md: « headers\_sent
+  - function.inet-ntop.md: inet\_ntop »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
-title: httpresponsecode
+title: http\_response\_code
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# httpresponsecode
+# http\_response\_code
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
-httpresponsecode — Отримує або встановлює код відповіді HTTP
+http\_response\_code — Отримує або встановлює код відповіді HTTP
 
 ### Опис
 
@@ -24,7 +25,7 @@ http_response_code(int $response_code = 0): int|bool
 
 `response_code`
 
-Код відповіді встановлюється за допомогою опціонального параметра `response_code`
+Код ответа устанавливается с помощью опционального параметра`response_code`
 
 ### Значення, що повертаються
 
@@ -34,7 +35,7 @@ http_response_code(int $response_code = 0): int|bool
 
 ### Приклади
 
-**Приклад #1 Використання **httpresponsecode()** в оточенні веб-сервера**
+**Пример #1 Использование**http\_response\_code()\*\* в оточенні веб-сервера\*\*
 
 ```php
 <?php
@@ -47,14 +48,14 @@ var_dump(http_response_code());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(200)
 int(404)
 ```
 
-**Приклад #2 Використання **httpresponsecode()** у CLI**
+**Пример #2 Использование**http\_response\_code()\*\* у CLI\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ var_dump(http_response_code());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -80,5 +81,5 @@ int(201)
 
 ### Дивіться також
 
--   [header()](function.header.md) - Надсилання HTTP-заголовка
--   [headerslist()](function.headers-list.md) - Повертає список переданих заголовків (або готових до відправлення)
+-   [header()](function.header.md) \- Надсилає необроблений (сирий) HTTP-заголовок
+-   [headers\_list()](function.headers-list.md) \- Повертає список переданих заголовків (або готових до відправлення)

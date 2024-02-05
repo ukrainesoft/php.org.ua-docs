@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.fiber.md: Fiber
 title: 'Fiber::throw'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Fiber::throw
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 Fiber::throw — Відновлює виконання файбера за винятком
 
@@ -30,4 +31,4 @@ public Fiber::throw(Throwable $exception): mixed
 
 ### Значення, що повертаються
 
-Значення, надане під час першого виклику [Fiber::suspend()](fiber.suspend.md) або **`null`** у разі повернення файбера. Якщо файбер викинув виняток перед призупиненням, його буде викинуто з цього методу.
+Значення, надане під час першого виклику [Fiber::suspend()](fiber.suspend.md)или\*\*`null`\*\* у разі повернення файбера. Якщо файбер викинув виняток перед призупиненням, його буде викинуто з цього методу.

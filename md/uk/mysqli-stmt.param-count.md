@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli-stmt.num-rows.md: '« mysqlistmt::$numrows'
-  - mysqli-stmt.prepare.md: 'mysqlistmt::prepare »'
+  - mysqli-stmt.num-rows.md: '« mysqli\_stmt::$num\_rows'
+  - mysqli-stmt.prepare.md: 'mysqli\_stmt::prepare »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::$paramcount'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::$param\_count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::$paramcount
+# mysqli\_stmt::$param\_count
 
-# mysqlistmtparamcount
+# mysqli\_stmt\_param\_count
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::$paramcount - mysqlistmtparamcount — Повертає кількість параметрів у запиті
+mysqli\_stmt::$param\_count -- mysqli\_stmt\_param\_count — Повертає кількість параметрів у запиті
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int [$mysqlistmt->paramcount](mysqli-stmt.param-count.md)
+int[$mysqli\_stmt->param\_count](mysqli-stmt.param-count.md)
 
 Процедурний стиль
 
@@ -32,7 +33,7 @@ mysqli_stmt_param_count(mysqli_stmt $statement): int
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -92,7 +93,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 В запросе 2 меток.
@@ -100,4 +101,4 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
+-   [mysqli\_prepare()](mysqli.prepare.md) \- готує SQL вираз до виконання

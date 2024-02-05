@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolorsforindex
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecolorsforindex
 
@@ -36,14 +37,14 @@ imagecolorsforindex(GdImage $image, int $color): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
-|  | Функція **imagecolorsforindex()** тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `color` поза допустимим діапазоном; раніше натомість поверталося значення **`false`** |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
+| 8.0.0 | Функция**imagecolorsforindex()** тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `color` поза допустимим діапазоном; раніше натомість поверталося значення **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagecolorsforindex()****
+**Пример #1 Пример использования**imagecolorsforindex()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ print_r($color_tran);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -79,5 +80,5 @@ Array
 
 ### Дивіться також
 
--   [imagecolorat()](function.imagecolorat.md) - Отримання індексу кольору пікселя
--   [imagecolorexact()](function.imagecolorexact.md) - Отримання індексу заданого кольору
+-   [imagecolorat()](function.imagecolorat.md) \- Отримання індексу кольору пікселя
+-   [imagecolorexact()](function.imagecolorexact.md) \- Отримання індексу заданого кольору

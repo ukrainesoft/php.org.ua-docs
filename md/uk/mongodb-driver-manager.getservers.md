@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-manager.getreadpreference.md: '« MongoDBDriverManager::getReadPreference'
-  - mongodb-driver-manager.getwriteconcern.md: 'MongoDBDriverManager::getWriteConcern »'
+  - mongodb-driver-manager.getreadpreference.md: '« MongoDB\\Driver\\Manager::getReadPreference'
+  - mongodb-driver-manager.getwriteconcern.md: 'MongoDB\\Driver\\Manager::getWriteConcern »'
   - index.md: PHP Manual
-  - class.mongodb-driver-manager.md: MongoDBDriverManager
-title: 'MongoDBDriverManager::getServers'
+  - class.mongodb-driver-manager.md: MongoDB\\Driver\\Manager
+title: 'MongoDB\\Driver\\Manager::getServers'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverManager::getServers
+# MongoDB\\Driver\\Manager::getServers
 
 (mongodb >=1.0.0)
 
-MongoDBDriverManager::getServers — Повертає сервери, до яких підключено менеджера
+MongoDB\\Driver\\Manager::getServers — Повертає сервери, до яких підключено менеджера
 
 ### Опис
 
@@ -18,9 +19,9 @@ MongoDBDriverManager::getServers — Повертає сервери, до як�
 final public MongoDB\Driver\Manager::getServers(): array
 ```
 
-Повертає масив (array) екземплярів [MongoDBDriverServer](class.mongodb-driver-server.md), до яких підключено поточного менеджера.
+Повертає масив (array) екземплярів [MongoDB\\Driver\\Server](class.mongodb-driver-server.md), до яких підключено поточного менеджера.
 
-> **Зауваження**: Оскільки драйвер підключається до бази даних ліниво, цей метод може повертати порожній масив (array), якщо він викликається перед виконанням операції в [MongoDBDriverManager](class.mongodb-driver-manager.md)
+> **Зауваження**: Оскільки драйвер підключається до бази даних ліниво, цей метод може повертати порожній масив (array), якщо він викликається перед виконанням операції в [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.md)
 
 ### Список параметрів
 
@@ -28,15 +29,15 @@ final public MongoDB\Driver\Manager::getServers(): array
 
 ### Значення, що повертаються
 
-Повертає масив (array) екземплярів [MongoDBDriverServer](class.mongodb-driver-server.md), до яких підключено менеджера.
+Повертає масив (array) екземплярів [MongoDB\\Driver\\Server](class.mongodb-driver-server.md), до яких підключено менеджера.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverManager::getServers()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Manager::getServers()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ final public MongoDB\Driver\Manager::getServers(): array
 $manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
 
 /* Из-за того, что драйвер подключается к серверу лениво, вызов Manager::getServers()
- * первоначально может вернуть пустой Масив. */
+ * первоначально может вернуть пустой массив. */
 var_dump($manager->getServers());
 
 $command = new MongoDB\Driver\Command(['ping' => 1]);
@@ -55,7 +56,7 @@ var_dump($manager->getServers());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(0) {
@@ -109,5 +110,5 @@ array(1) {
 
 ### Дивіться також
 
--   [MongoDBDriverServer](class.mongodb-driver-server.md)
--   [MongoDBDriverManager::selectServer()](mongodb-driver-manager.selectserver.md) - Вибрати сервер, що відповідає перевагам читання
+-   [MongoDB\\Driver\\Server](class.mongodb-driver-server.md)
+-   [MongoDB\\Driver\\Manager::selectServer()](mongodb-driver-manager.selectserver.md) \- Вибрати сервер, що відповідає перевагам читання

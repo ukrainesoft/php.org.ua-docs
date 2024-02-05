@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-query.md: « MongoDBDriverQuery
-  - class.mongodb-driver-bulkwrite.md: MongoDBDriverBulkWrite »
+  - class.mongodb-driver-query.md: « MongoDB\\Driver\\Query
+  - class.mongodb-driver-bulkwrite.md: MongoDB\\Driver\\BulkWrite »
   - index.md: PHP Manual
-  - class.mongodb-driver-query.md: MongoDBDriverQuery
-title: 'MongoDBDriverQuery::construct'
+  - class.mongodb-driver-query.md: MongoDB\\Driver\\Query
+title: 'MongoDB\\Driver\\Query::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverQuery::construct
+# MongoDB\\Driver\\Query::\_\_construct
 
 (mongodb >=1.0.0)
 
-MongoDBDriverQuery::construct — Створює новий запит
+MongoDB\\Driver\\Query::\_\_construct — Створює новий запит
 
 ### Опис
 
@@ -18,21 +19,21 @@ MongoDBDriverQuery::construct — Створює новий запит
 final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $queryOptions = null)
 ```
 
-Створює новий [MongoDBDriverQuery](class.mongodb-driver-query.md)який є об'єктом незмінного значення, що представляє запит до бази даних. Потім запит може бути виконаний за допомогою [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.md)
+Створює новий [MongoDB\\Driver\\Query](class.mongodb-driver-query.md)який є об'єктом незмінного значення, що представляє запит до бази даних. Потім запит може бути виконаний за допомогою [MongoDB\\Driver\\Manager::executeQuery()](mongodb-driver-manager.executequery.md)
 
 ### Список параметрів
 
-`filter` (array | об'єкт)
+`filter`(array|object)
 
-[» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
+[» Предикат запиту](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
 
-> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.md) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+> **Зауваження**: При обчисленні критеріїв запиту MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [порівняння](types.comparisons.md) і [приведення типів](language.types.type-juggling.md) PHP. Коли вказано спеціальний тип BSON, критерій запиту має відповідати [класу BSON](book.bson.md) (тобто використовувати [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
 
 `queryOptions`
 
 **queryOptions**
 
-| Опция | Тип | Описание |
+| Опция | Тип | Опис |
 | --- | --- | --- |
 | allowDiskUse | bool |  |
 | Дозволяє MongoDB використовувати тимчасові файли на диску для зберігання даних, що перевищують межу системної пам'яті 100 мегабайт, при обробці операції сортування блокування. |  |  |
@@ -41,51 +42,51 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 Для запитів до ізольованої колекції повертає часткові результати з mongos, якщо деякі шарди недоступні замість видачі помилки.
 
-Повернення до застарілої `"partial"` опції, якщо вона не вказана.
+Возврат к устаревшей`"partial"` опції, якщо вона не вказана.
 
-| | awaitData | bool | Використовуйте разом із опцією `"tailable"`тимчасово заблокувати операцію getMore для курсору, якщо в кінці даних, а не повертати ніяких даних. Після закінчення часу очікування запит повертається, як завжди. | | batchSize | int |
+| | awaitData | bool | Використовуйте разом із опцією `"tailable"`тимчасово заблокувати операцію getMore для курсору, якщо в кінці даних, а не повертати жодних даних. Після закінчення часу очікування запит повертається, як завжди. | | batchSize | int |
 
 Кількість документів для повернення у першому пакеті. За замовчуванням – 101. Розмір пакета 0 означає, що курсор буде встановлений, але жодні документи не будуть повернуті у першому пакеті.
 
-У версіях MongoDB до 3.2, де запити використовують застарілий дротовий протокол OPQUERY, розмір пакета, рівний 1, буде закривати курсор незалежно від кількості документів, що збігаються.
+У версіях MongoDB до 3.2, де запити використовують застарілий дротовий протокол OP\_QUERY, розмір пакета, що дорівнює 1, буде закривати курсор незалежно від кількості документів, що збігаються.
 
-| | collation | array | об'єкт |
+| | collation | array|object |
 
-[» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/) дозволяє користувачам вказувати специфічні для конкретної мови правила для порівняння рядків, такі як реакцію на регістр літер та надрядкові знаки. Якщо поставлено зіставлення, то поле `"locale"` також обов'язково. Опис полів дивіться у розділі [» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/#collation-document)
+[» Зіставлення](https://www.mongodb.com/docs/upcoming/reference/collation/) дозволяє користувачам вказувати специфічні для конкретної мови правила для порівняння рядків, такі як реакцію на регістр літер та надрядкові знаки. Якщо поставлено зіставлення, то поле `"locale"`также обязательно. Опис полей смотрите в разделе[» Зіставлення](https://www.mongodb.com/docs/upcoming/reference/collation/#collation-document)
 
-Якщо порівняння не задано явно, але в колекції визначено зіставлення за умовчанням, буде використано воно. Якщо немає ні того, то MongoDB буде використовувати просте бінарне порівняння рядків.
+Якщо зіставлення не задано явно, але в колекції визначено зіставлення за умовчанням, буде використано воно. Якщо немає ні того, то MongoDB буде використовувати просте бінарне порівняння рядків.
 
 Ця опція доступна у MongoDB 3.4+ і, якщо буде використана для більш старих версій, викличе виняток під час виконання.
 
-| | comment | [mixed](language.types.declarations.md#language.types.declarations.mixed)
+| | comment |[mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Довільний коментар, що допомагає відстежити операцію за допомогою профільника бази даних, виводу CurrentOp та журналів.
 
 Коментар може бути будь-яким типом BSON для MongoDB 4.4+. Більш ранні версії сервера підтримують лише строкові значення.
 
-Повернення до застарілого модифікатора `"$comment"`якщо він не вказаний.
+Возврат к устаревшему модификатору`"$comment"`якщо він не вказаний.
 
 | | exhaust | bool |
 
 Потокова передача даних на повну потужність в декількох "додаткових" пакетах за умови, що клієнт повністю прочитає всі дані, що запитуються. Швидше, коли ви отримуєте багато даних і знаєте, що ви хочете все це перенести. Примітка: клієнт не має права не читати всі дані, якщо не закриває з'єднання.
 
-Ця опція не підтримується командою find у MongoDB 3.2+ і змусить драйвер використовувати застарілу версію проводового протоколу (тобто OPQUERY).
+Ця опція не підтримується командою find у MongoDB 3.2+ і змусить драйвер використовувати застарілу версію проводового протоколу (тобто OP\_QUERY).
 
 | | explain | bool |
 
-Якщо **`true`**, повернутий [MongoDBDriverCursor](class.mongodb-driver-cursor.md) міститиме один документ, який описує процес та індекси, що використовуються для повернення запиту.
+Якщо **`true`**, повернутий [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.md) міститиме один документ, який описує процес та індекси, що використовуються для повернення запиту.
 
-Повернення до застарілого модифікатора `"$explain"`якщо він не вказаний.
+Возврат к устаревшему модификатору`"$explain"`якщо він не вказаний.
 
-Ця опція не підтримується командою find в MongoDB 3.2+ і враховуватиметься лише при використанні застарілої версії проводового протоколу (тобто OPQUERY). Команда [» explain](https://www.mongodb.com/docs/manual/reference/command/explain/) має використовуватися на MongoDB 3.0+.
+Ця опція не підтримується командою find в MongoDB 3.2+ і враховуватиметься лише при використанні застарілої версії проводового протоколу (тобто OP\_QUERY). Команда[» explain](https://www.mongodb.com/docs/manual/reference/command/explain/) має використовуватися на MongoDB 3.0+.
 
-| | hint | string | array | об'єкт |
+| | hint | string|array|object |
 
-Індекс специфікації. Вкажіть або назву індексу у вигляді рядка, або шаблон ключа індексу. Якщо зазначено, то система запитів розглядатиме плани лише з використанням індексу хінтованого.
+Індекс специфікації. Вкажіть або назву індексу у вигляді рядка, або шаблон ключа індексу. Якщо вказано, то система запитів розглядатиме плани лише з використанням індексу хінтованого.
 
-Відкат до застарілої опції `"hint"`якщо вона не вказана.
+Откат к устаревшей опции`"hint"`якщо вона не вказана.
 
-| | let | array | об'єкт |
+| | let | array|object |
 
 Карта імен та значень параметрів. Значення мають бути константами або закритими виразами, які посилаються на поля документа. До параметрів можна звертатися як до змінних у контексті агрегованого виразу (наприклад, `$$var`
 
@@ -97,15 +98,15 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 Негативне значення інтерпретуватиметься як позитивне значення з параметром `"singleBatch"`, встановленим у значення **`true`**. Ця поведінка підтримується для зворотної сумісності, але її слід вважати застарілою.
 
-| | max | array | об'єкт |
+| | max | array|object |
 
 *Ексклюзивна* верхня межа для певного індексу.
 
-Повернення до застарілого модифікатора `"$max"`якщо він не вказаний.
+Возврат к устаревшему модификатору`"$max"`якщо він не вказаний.
 
 | | maxAwaitTimeMS | int |
 
-Позитивне ціле число, що означає обмеження часу в мілісекундах для сервера, щоб заблокувати операцію getMore, якщо дані недоступні. Ця опція повинна використовуватися лише у поєднанні з опціями `"tailable"` і `"awaitData"`
+Позитивне ціле число, що означає обмеження часу в мілісекундах для сервера, щоб заблокувати операцію getMore, якщо дані недоступні. Ця опція повинна використовуватися лише у поєднанні з опціями `"tailable"`и`"awaitData"`
 
 | | maxScan | int |
 
@@ -113,55 +114,55 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 Ця опція застаріла і не повинна використовуватись.
 
-Ціле позитивне число, що означає максимальну кількість документів або індексних ключів для сканування під час виконання запиту.
+Ціла позитивна кількість, що позначає максимальну кількість документів або індексних ключів для сканування при виконанні запиту.
 
-Повернення до застарілого модифікатора `"$maxScan"`якщо він не вказаний.
+Возврат к устаревшему модификатору`"$maxScan"`якщо він не вказаний.
 
 | | maxTimeMS | int |
 
 Накопичений ліміт часу у мілісекундах для операцій обробки на курсорі. MongoDB перериває операцію в найближчій точці переривання.
 
-Повернення до застарілого модифікатора `"$maxTimeMS"`якщо він не вказаний.
+Возврат к устаревшему модификатору`"$maxTimeMS"`якщо він не вказаний.
 
-| | min | array | об'єкт |
+| | min | array|object |
 
 *Включає* нижня межа для певного індексу.
 
-Повернення до застарілого модифікатора `"$min"`якщо він не вказаний.
+Возврат к устаревшему модификатору`"$min"`якщо він не вказаний.
 
-| | modifiers | array | [» Метаоператори](https://www.mongodb.com/docs/manual/reference/operator/query-modifier/), що змінюють виведення чи поведінку запиту. Використання цих операторів не рекомендується на користь іменованих опцій. | | noCursorTimeout | bool | Забороняє серверу синхронізувати незайняті курсори після періоду бездіяльності (10 хвилин). | | oplogReplay | bool |
+| | modifiers | array |[» Метаоператори](https://www.mongodb.com/docs/manual/reference/operator/query-modifier/), що змінюють виведення чи поведінку запиту. Використання цих операторів не рекомендується на користь іменованих опцій. | | noCursorTimeout | bool | Забороняє серверу синхронізувати незайняті курсори після періоду бездіяльності (10 хвилин). | | oplogReplay | bool |
 
 Внутрішнє використання для реплік наборів. Щоб використовувати oplogReplay, ви повинні включити до фільтра наступну умову:
 
-'ts' => '$gte' =>
+\[ 'ts' => \[ '$gte' => \] \]
 
 > **Зауваження**: Опція застаріла з версії 1.8.0
 
-| | проектування | array | об'єкт |
+| | projection | array|object |
 
-[» Специфікація проекції](https://www.mongodb.com/docs/manual/tutorial/project-fields-from-query-results/) для визначення полів, які необхідно включити до документів, що повертаються.
+[» Специфікація проекції](https://www.mongodb.com/docs/manual/tutorial/project-fields-from-query-results/) для визначення полів, які необхідно включити до документів, що повертаються.
 
-Якщо ви використовуєте [функцию ODM](mongodb.persistence.deserialization.md) для десеріалізації документів як їх вихідний клас PHP, переконайтеся, що ви включили поле pclass у проекцію. Це необхідно для роботи десеріалізації, і без неї драйвер поверне (за умовчанням) об'єкт **stdClass**
+Якщо ви використовуєте [функцію ODM](mongodb.persistence.deserialization.md) для десеріалізації документів як їх вихідний клас PHP, переконайтеся, що ви включили поле \_\_pclass у проекцію. Це необхідно для роботи десеріалізації, і без неї драйвер поверне (за умовчанням) об'єкт [stdClass](class.stdclass.md)
 
-| | readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md)
+| | readConcern |[MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.md)
 
-Гарантії читання застосувати до операції. За промовчанням будуть використовуватися гарантії читання з [URI подключения MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri)
+Гарантії читання застосувати до операції. За промовчанням будуть використовуватися гарантії читання з [URI підключення MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri)
 
 Ця опція доступна в MongoDB 3.2+ і призведе до виключення під час виконання, якщо вказано для старої версії сервера.
 
 | | returnKey | bool |
 
-Якщо **`true`**, повертає лише індексні ключі у результуючих документах. Значення за умовчанням є **`false`**. Якщо **`true`** і команда find не використовують індекс, повернені документи будуть порожніми.
+Якщо **`true`**, повертає лише індексні ключі у результуючих документах. Значення за умовчанням є **`false`**. Якщо **`true`** і команда find не використовують індекс, повернуті документи будуть порожніми.
 
-Повернення до застарілого модифікатора `"$returnKey"`якщо він не вказаний.
+Возврат к устаревшему модификатору`"$returnKey"`якщо він не вказаний.
 
 | | showRecordId | bool |
 
-Визначає, чи повертати ідентифікатор запису для кожного документа. Якщо **`true`**, додає поле `"$recordId"` верхнього рівня до повернутих документів.
+Визначає, чи повертати ідентифікатор запису для кожного документа. Якщо **`true`**, добавляет поле`"$recordId"` верхнього рівня до повернутих документів.
 
-Повернення до застарілого модифікатора `"$showDiskLoc"`якщо він не вказаний.
+Возврат к устаревшему модификатору`"$showDiskLoc"`якщо він не вказаний.
 
-| | singleBatch | bool | Визначає, чи закривати курсор після першого пакета. За замовчуванням **`false`**. | | skip | int | Кількість документів для перепустки. За промовчанням 0. | | snapshot | bool |
+| | singleBatch | bool | Визначає, чи закривати курсор після першого пакета. За замовчуванням **`false`**| | skip | int | Количество документов для пропуска. По умолчанию 0. | | snapshot | bool |
 
 **Увага**
 
@@ -169,54 +170,54 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 Забороняє курсору повертати документ більше одного разу через проміжну операцію запису.
 
-Повернення до застарілого модифікатора `"$snapshot"`якщо він не вказаний.
+Возврат к устаревшему модификатору`"$snapshot"`якщо він не вказаний.
 
-| | sort | array | об'єкт |
+| | sort | array|object |
 
 Специфікація сортування для впорядкування результатів.
 
-Повернення до застарілого модифікатора `"$orderby"`якщо він не вказаний.
+Возврат к устаревшему модификатору`"$orderby"`якщо він не вказаний.
 
 | | tailable | bool | Повертає курсор для обмеженої колекції. |
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL mongodb 1.14.0 |  |
-| Додана опція `"let"`. Опція `"comment"` тепер приймає будь-який тип. |  |
+| Добавлена опция`"let"`Опция`"comment"` тепер приймає будь-який тип. |  |
 
-| | PECL mongodb 1.8.0
+| | PECL mongodb 1.8.0 |
 
-Доданий параметр `"allowDiskUse"`
+Добавлен параметр`"allowDiskUse"`
 
-Параметр `"oplogReplay"` оголошено застарілим.
+Параметр`"oplogReplay"` оголошено застарілим.
 
-| | PECL mongodb 1.5.0
+| | PECL mongodb 1.5.0 |
 
-Параметри `"maxScan"` і `"snapshot"` застаріли.
+Параметри `"maxScan"`и`"snapshot"`устарели.
 
-| | PECL mongodb 1.3.0
+| | PECL mongodb 1.3.0 |
 
-Доданий параметр `"maxAwaitTimeMS"`
+Добавлен параметр`"maxAwaitTimeMS"`
 
-| | PECL mongodb 1.2.0
+| | PECL mongodb 1.2.0 |
 
-Доданий параметр `"allowPartialResults"` `"collation"` `"comment"` `"hint"` `"max"` `"maxScan"` `"maxTimeMS"` `"min"` `"returnKey"` `"showRecordId"`, і `"snapshot"`
+Добавлен параметр`"allowPartialResults"` `"collation"` `"comment"` `"hint"` `"max"` `"maxScan"` `"maxTimeMS"` `"min"` `"returnKey"` `"showRecordId"`, и`"snapshot"`
 
-Перейменовано параметр `"partial"` в `"allowPartialResults"`. Для зворотної сумісності, `"partial"` все одно буде прочитаний, якщо `"allowPartialResults"` не вказано.
+Переименован параметр`"partial"`в`"allowPartialResults"`. Для зворотної сумісності, `"partial"` все одно буде прочитаний, якщо `"allowPartialResults"` не вказано.
 
-Видалено застарілий параметр `"secondaryOk"`. Для запитів, які використовують застарілий дротовий протокол OPQUERY, драйвер встановить біт `secondaryOk` при необхідності відповідно до [» Специфікацією вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst)
+Видалено застарілий параметр `"secondaryOk"`. Для запитів, які використовують застарілий дротовий протокол OP\_QUERY, драйвер установит бит`secondaryOk` при необхідності відповідно до [» Специфікацією вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst)
 
-| | PECL mongodb 1.1.0 Доданий параметр `"readConcern"`.
+| | PECL mongodb 1.1.0 | Добавлен параметр`"readConcern"`.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverQuery::construct()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Query::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -255,5 +256,5 @@ foreach($cursor as $document) {
 
 ### Дивіться також
 
--   [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.md) - Виконує запит до бази даних
--   [MongoDBDriverCursor](class.mongodb-driver-cursor.md)
+-   [MongoDB\\Driver\\Manager::executeQuery()](mongodb-driver-manager.executequery.md) \- Виконує запит до бази даних
+-   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.md)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-exec.md: « ssh2exec
-  - function.ssh2-fingerprint.md: ssh2fingerprint »
+  - function.ssh2-exec.md: « ssh2\_exec
+  - function.ssh2-fingerprint.md: ssh2\_fingerprint »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2fetchstream
+title: ssh2\_fetch\_stream
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2fetchstream
+# ssh2\_fetch\_stream
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2fetchstream — отримання розширеного потоку даних
+ssh2\_fetch\_stream — отримання розширеного потоку даних
 
 ### Опис
 
@@ -48,6 +49,6 @@ $stderr_stream = ssh2_fetch_stream($stdio_stream, SSH2_STREAM_STDERR);
 
 ### Дивіться також
 
--   [ssh2shell()](function.ssh2-shell.md) - запитує інтерактивний термінал
--   [ssh2exec()](function.ssh2-exec.md) - Виконання команди на віддаленому сервері
--   [ssh2connect()](function.ssh2-connect.md) - Підключення до SSH-сервера
+-   [ssh2\_shell()](function.ssh2-shell.md) \- запитує інтерактивний термінал
+-   [ssh2\_exec()](function.ssh2-exec.md) \- Виконання команди на віддаленому сервері
+-   [ssh2\_connect()](function.ssh2-connect.md) \- Підключення до SSH-сервера

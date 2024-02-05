@@ -5,43 +5,44 @@ navigation:
   - index.md: PHP Manual
   - book.pthreads.md: pthreads
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.
 
-**`PTHREADS_INHERIT_ALL`** (int)
+**`PTHREADS_INHERIT_ALL`**(int)
 
 Налаштування за промовчанням для всіх потоків, вказує pthreads копіювати все оточення при створенні нового потоку (клас Thread)
 
-**`PTHREADS_INHERIT_NONE`** (int)
+**`PTHREADS_INHERIT_NONE`**(int)
 
 Нічого не наслідувати при старті нового потоку
 
-**`PTHREADS_INHERIT_INI`** (int)
+**`PTHREADS_INHERIT_INI`**(int)
 
 Наслідувати INI-налаштування при старті нового потоку
 
-**`PTHREADS_INHERIT_CONSTANTS`** (int)
+**`PTHREADS_INHERIT_CONSTANTS`**(int)
 
 Наслідувати користувальницькі константи при старті нового потоку
 
-**`PTHREADS_INHERIT_CLASSES`** (int)
+**`PTHREADS_INHERIT_CLASSES`**(int)
 
 Наслідувати користувальницькі класи при старті нового потоку
 
-**`PTHREADS_INHERIT_FUNCTIONS`** (int)
+**`PTHREADS_INHERIT_FUNCTIONS`**(int)
 
-Успадкувати функції користувача при старті нового потоку
+Наслідувати функції користувача при старті нового потоку
 
-**`PTHREADS_INHERIT_INCLUDES`** (int)
+**`PTHREADS_INHERIT_INCLUDES`**(int)
 
 Наслідувати інформацію з підключених файлів при старті нового потоку
 
-**`PTHREADS_INHERIT_COMMENTS`** (int)
+**`PTHREADS_INHERIT_COMMENTS`**(int)
 
 Наслідувати всі коментарі при старті нового потоку
 
-**`PTHREADS_ALLOW_HEADERS`** (int)
+**`PTHREADS_ALLOW_HEADERS`**(int)
 
 Дозволяти потокам відправляти заголовки (headers) у стандартний висновок (зазвичай заборонено)

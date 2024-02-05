@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.pool.md: Pool
 title: 'Pool::submitTo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Pool::submitTo
 
@@ -24,7 +25,7 @@ public Pool::submitTo(int $worker, Threaded $task): int
 
 `worker`
 
-Воркер, до якого потрібно додати завдання, починаючи з `0`
+Воркер, до якого потрібно додати завдання, починаючи з
 
 `task`
 
@@ -59,7 +60,7 @@ $pool->submitTo(1, new Task()); // не может добавить задачу
 $pool->shutdown();
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(4475011072)

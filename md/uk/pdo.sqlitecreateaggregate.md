@@ -1,21 +1,22 @@
 ---
 navigation:
-  - ref.pdo-sqlite.connection.md: « PDOSQLITE DSN
+  - ref.pdo-sqlite.connection.md: « PDO\_SQLITE DSN
   - pdo.sqlitecreatecollation.md: 'PDO::sqliteCreateCollation »'
   - index.md: PHP Manual
   - ref.pdo-sqlite.md: SQLite (PDO)
 title: 'PDO::sqliteCreateAggregate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::sqliteCreateAggregate
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdosqlite> = 1.0.0)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8, PECL pdo\_sqlite >= 1.0.0)
 
 PDO::sqlite Create Aggregate — Реєстрація агрегуючої функції користувача для використання в SQL-запитах
 
 ### Опис
 
 ```methodsynopsis
-public PDO::sqliteCreateAggregate(    string $function_name,    callable $step_func,    callable $finalize_func,    int $num_args = ?): bool
+public PDO::sqliteCreateAggregate(    string $function_name,    callable $step_func,    callable $finalize_func,    int $num_args = ?): bool
 ```
 
 **Увага**
@@ -39,7 +40,7 @@ public PDO::sqliteCreateAggregate(    string $function_name,    callable $step_f
 Ця функція має бути визначена так:
 
 ```methodsynopsis
-step(    mixed $context,    int $rownumber,    mixed $value,    mixed ...$values): mixed
+step(    mixed $context,    int $rownumber,    mixed $value,    mixed ...$values): mixed
 ```
 
 `context`
@@ -62,7 +63,7 @@ step(    mixed $context,    int $rownumber,    mixed $value,    mixed ...$values
 
 `finalize_func`
 
-Функція зворотного дзвінка для обчислення підсумкового значення агрегованого. Вона буде викликана як тільки всі рядки результуючого набору будуть оброблені, їй буде переданий контекст, що агрегує, і вона поверне фінальне значення. Ця функція має повернути значення типу зрозумілого SQLite (тобто . [скалярний тип](language.types.intro.md)
+Функція зворотного дзвінка для обчислення підсумкового агрегованого значення. Вона буде викликана як тільки всі рядки результуючого набору будуть оброблені, їй буде переданий контекст, що агрегує, і вона поверне фінальне значення. Ця функція має повернути значення типу зрозумілого SQLite (тобто . [скалярний тип](language.types.intro.md)
 
 Ця функція має бути визначена так:
 
@@ -72,7 +73,7 @@ fini(mixed $context, int $rowcount): mixed
 
 `context`
 
-Містить значення, повернене останнім викликом агрегуючої функції stepfunc.
+Містить значення, повернене останнім викликом агрегуючої функції step\_func.
 
 `rowcount`
 
@@ -82,15 +83,15 @@ fini(mixed $context, int $rowcount): mixed
 
 `num_args`
 
-Підказка для парсера SQLite, якщо функція зворотного виклику отримує задану кількість аргументів.
+Підказка для парсера SQLite, якщо функція зворотного дзвінка отримує задану кількість аргументів.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад агрегуючої функції maxlength**
+**Приклад #1 Приклад агрегуючої функції max\_length**
 
 ```php
 <?php
@@ -149,5 +150,5 @@ var_dump($db->query('SELECT max_len(a) from strings')->fetchAll());
 ### Дивіться також
 
 -   [PDO::sqliteCreateFunction](pdo.sqlitecreatefunction.md)
--   **sqlitecreatefunction()**
--   **sqlitecreateaggregate()**
+-   **sqlite\_create\_function()**
+-   **sqlite\_create\_aggregate()**

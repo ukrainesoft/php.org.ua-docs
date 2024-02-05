@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.eio-readdir.md: « eioreaddir
-  - function.eio-realpath.md: eiorealpath »
+  - function.eio-readdir.md: « eio\_readdir
+  - function.eio-realpath.md: eio\_realpath »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eioreadlink
+  - ref.eio.md: Eio Функції
+title: eio\_readlink
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eioreadlink
+# eio\_readlink
 
 (PECL eio >= 0.0.1dev)
 
-eioreadlink — Читає значення символічного посилання
+eio\_readlink — Читає значення символічного посилання
 
 ### Опис
 
 ```methodsynopsis
-eio_readlink(    string $path,    int $pri,    callable $callback,    mixed $data = NULL): resource
+eio_readlink(    string $path,    int $pri,    callable $callback,    mixed $data = NULL): resource
 ```
 
 ### Список параметрів
@@ -26,11 +27,11 @@ eio_readlink(    string $path,    int $pri,    callable $callback,    mixed $dat
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -46,7 +47,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
@@ -54,11 +55,11 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-**eioreadlink()** повертає ресурс запиту у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_readlink()** повертає ресурс запиту у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eioreadlink()****
+**Пример #1 Пример использования**eio\_readlink()\*\*\*\*
 
 ```php
 <?php
@@ -98,7 +99,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -108,4 +109,4 @@ string(16) "/tmp/symlink.dat"
 
 ### Дивіться також
 
--   [eiosymlink()](function.eio-symlink.md) - Створює символічне посилання
+-   [eio\_symlink()](function.eio-symlink.md) \- Створює символічне посилання

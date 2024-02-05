@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::isFinal'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionMethod::isFinal
 
@@ -30,4 +31,4 @@ public ReflectionMethod::isFinal(): bool
 
 ### Дивіться також
 
--   [ReflectionMethod::isStatic()](reflectionmethod.isstatic.md) - Перевіряє, чи є метод статичним
+-   **ReflectionMethod::isStatic()**

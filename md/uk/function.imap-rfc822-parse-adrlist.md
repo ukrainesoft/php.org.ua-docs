@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-reopen.md: « imapreopen
-  - function.imap-rfc822-parse-headers.md: imaprfc822parseheaders »
+  - function.imap-reopen.md: « imap\_reopen
+  - function.imap-rfc822-parse-headers.md: imap\_rfc822\_parse\_headers »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imaprfc822parseadrlist
+  - ref.imap.md: Функції IMAP
+title: imap\_rfc822\_parse\_adrlist
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imaprfc822parseadrlist
+# imap\_rfc822\_parse\_adrlist
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imaprfc822parseadrlist — Розбір адресного рядка
+imap\_rfc822\_parse\_adrlist — Розбирає адресний рядок
 
 ### Опис
 
@@ -18,7 +19,7 @@ imaprfc822parseadrlist — Розбір адресного рядка
 imap_rfc822_parse_adrlist(string $string, string $default_hostname): array
 ```
 
-Розбирає адресний рядок відповідно до [» RFC2822](http://www.faqs.org/rfcs/rfc2822) для кожної адреси.
+Розбирає адресний рядок відповідно до [» RFC2822](http://www.faqs.org/rfcs/rfc2822) для кожної адреси.
 
 ### Список параметрів
 
@@ -41,7 +42,7 @@ imap_rfc822_parse_adrlist(string $string, string $default_hostname): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imaprfc822parseadrlist()****
+**Пример #1 Пример использования**imap\_rfc822\_parse\_adrlist()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ foreach ($address_array as $id => $val) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 # 0
@@ -84,4 +85,4 @@ foreach ($address_array as $id => $val) {
 
 ### Дивіться також
 
--   [imaprfc822parseheaders()](function.imap-rfc822-parse-headers.md) - Розбір рядка заголовка листа
+-   [imap\_rfc822\_parse\_headers()](function.imap-rfc822-parse-headers.md) \- Розбирає рядок заголовка листа

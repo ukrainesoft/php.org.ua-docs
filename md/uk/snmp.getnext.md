@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.snmp.md: SNMP
 title: 'SNMP::getnext'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SNMP::getnext
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SNMP::getnext — Отримати об'єкт SNMP, який слідує за цим ідентифікатором об'єкта
 
@@ -30,11 +31,11 @@ public SNMP::getnext(array|string $objectId): mixed
 
 ### Значення, що повертаються
 
-Повертає запитані об'єкти SNMP у вигляді рядка чи масиву залежно від типу `objectId` або **`false`** у разі виникнення помилки.
+Повертає запитані об'єкти SNMP у вигляді рядка або масиву залежно від типу `objectId`или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Цей метод за промовчанням не генерує винятку. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled` класу SNMP у відповідне значення. Детальніше дивіться [поясненні параметра`SNMP::$exceptions_enabled`](class.snmp.md#snmp.props.exceptions-enabled)
+Цей метод за промовчанням не генерує виняток. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled`класса SNMP в соответствующее значение. Подробнее смотрите в[поясненні параметра `SNMP::$exceptions_enabled`](class.snmp.md#snmp.props.exceptions-enabled)
 
 ### Приклади
 
@@ -52,7 +53,7 @@ public SNMP::getnext(array|string $objectId): mixed
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 OID: NET-SNMP-MIB::netSnmpAgentOIDs.8
@@ -73,7 +74,7 @@ Array
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -85,5 +86,5 @@ Array
 
 ### Дивіться також
 
--   [SNMP::getErrno()](snmp.geterrno.md) - Отримує код останньої помилки
--   [SNMP::getError()](snmp.geterror.md) - Отримує останнє повідомлення про помилку
+-   [SNMP::getErrno()](snmp.geterrno.md) \- Отримує код останньої помилки
+-   [SNMP::getError()](snmp.geterror.md) \- Отримує останнє повідомлення про помилку

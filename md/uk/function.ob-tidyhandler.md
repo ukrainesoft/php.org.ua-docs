@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.tidy.md: « Tidy
-  - function.tidy-access-count.md: tidyaccesscount »
+  - function.tidy-access-count.md: tidy\_access\_count »
   - index.md: PHP Manual
   - ref.tidy.md: Tidy
-title: проtidyhandler
+title: ob\_tidyhandler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# проtidyhandler
+# ob\_tidyhandler
 
 (PHP 5, PHP 7, PHP 8)
 
-проtidyhandler — Функція зворотного дзвінка obstart для відновлення буфера
+ob\_tidyhandler — Функція зворотного дзвінка ob\_start для відновлення буфера
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: проtidyhandler
 ob_tidyhandler(string $input, int $mode = ?): string
 ```
 
-Функція зворотного дзвінка [проstart()](function.ob-start.md) на відновлення буфера.
+Функція зворотного дзвінка [ob\_start()](function.ob-start.md)для восстановление буфера.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ ob_tidyhandler(string $input, int $mode = ?): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **проtidyhandler()****
+**Пример #1 Пример использования**ob\_tidyhandler()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ echo '<p>test</i>';
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
@@ -62,4 +63,4 @@ echo '<p>test</i>';
 
 ### Дивіться також
 
--   [проstart()](function.ob-start.md) - Включення буферизації виводу
+-   [ob\_start()](function.ob-start.md) \- Включає буферизацію виводу

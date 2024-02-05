@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::getColorQuantum'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::getColorQuantum
 
 (No version information available, might only be in Git)
 
-ImagickPixel::getColorQuantum — Опис
+ImagickPixel::getColorQuantum — Повертає колір пікселя в масиві у вигляді квантових значень
 
 ### Опис
 
@@ -22,7 +23,7 @@ public ImagickPixel::getColorQuantum(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

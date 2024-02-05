@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::isAbstract'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionMethod::isAbstract
 
@@ -30,4 +31,4 @@ public ReflectionMethod::isAbstract(): bool
 
 ### Дивіться також
 
--   [ReflectionMethod::getDeclaringClass()](reflectionmethod.getdeclaringclass.md) - Отримує клас, що оголошує відбитий метод
+-   [ReflectionMethod::getDeclaringClass()](reflectionmethod.getdeclaringclass.md) \- Отримує клас, що оголошує відбитий метод

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::radialBlurImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::radialBlurImage
 
@@ -36,7 +37,7 @@ public Imagick::radialBlurImage(float $angle, int $channel = Imagick::CHANNEL_DE
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::radialBlurImage()****
+**Пример #1 Пример использования**Imagick::radialBlurImage()\*\*\*\*
 
 ```php
 <?php

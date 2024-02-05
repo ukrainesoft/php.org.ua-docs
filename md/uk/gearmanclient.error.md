@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::error'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::error
 
@@ -15,7 +16,7 @@ GearmanClient::error — Повернути рядок помилки для о�
 ### Опис
 
 ```methodsynopsis
-public GearmanClient::error(): string
+public GearmanClient::error(): string|false
 ```
 
 Повертає рядок помилки для останньої виявленої помилки.
@@ -26,8 +27,8 @@ public GearmanClient::error(): string
 
 ### Значення, що повертаються
 
-Докладний рядок помилки.
+Удобочитаемая строка ошибки или\*\*`false`\*\*, якщо повідомлення про помилку відсутнє.
 
 ### Дивіться також
 
--   [GearmanClient::getErrno()](gearmanclient.geterrno.md) - Отримати значення errno
+-   [GearmanClient::getErrno()](gearmanclient.geterrno.md) \- Отримати значення errno

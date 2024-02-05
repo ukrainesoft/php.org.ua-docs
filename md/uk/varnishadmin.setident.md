@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.varnishadmin.md: VarnishAdmin
 title: 'VarnishAdmin::setIdent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # VarnishAdmin::setIdent
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectiongenerator.md: ReflectionGenerator
 title: 'ReflectionGenerator::getFunction'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionGenerator::getFunction
 
@@ -26,11 +27,11 @@ public ReflectionGenerator::getFunction(): ReflectionFunctionAbstract
 
 ### Значення, що повертаються
 
-Повертає клас [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md). Може бути [ReflectionFunction](class.reflectionfunction.md) для функцій або [ReflectionMethod](class.reflectionmethod.md) для методів.
+Повертає клас [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md). Може бути [ReflectionFunction](class.reflectionfunction.md)для функций или[ReflectionMethod](class.reflectionmethod.md)для методов.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionGenerator::getFunction()****
+**Пример #1 Пример использования**ReflectionGenerator::getFunction()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ $reflectionGen = new ReflectionGenerator($gen);
 var_dump($reflectionGen->getFunction());
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(ReflectionFunction)#3 (1) {
@@ -58,5 +59,5 @@ object(ReflectionFunction)#3 (1) {
 
 ### Дивіться також
 
--   [ReflectionGenerator::getThis()](reflectiongenerator.getthis.md) - Отримує значення $this генератора
--   [ReflectionGenerator::getTrace()](reflectiongenerator.gettrace.md) - Отримати трасування запущеного генератора
+-   [ReflectionGenerator::getThis()](reflectiongenerator.getthis.md) \- Отримує значення $this генератора
+-   [ReflectionGenerator::getTrace()](reflectiongenerator.gettrace.md) \- Отримати трасування запущеного генератора

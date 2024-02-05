@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.solrparams.md: SolrParams
 title: 'SolrParams::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrParams::get
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrParams::get — Псевдонім SolrParams::getParam
+SolrParams::get — Псевдоним[SolrParams::getParam()](solrparams.getparam.md)
 
 ### Опис
 

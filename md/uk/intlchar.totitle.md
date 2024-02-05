@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::totitle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::totitle
 
 (PHP 7, PHP 8)
 
-IntlChar::totitle — Перетворює символ Unicode у titlecase
+IntlChar::totitle — Перетворює символ Unicode на титульний регістр (titlecase)
 
 ### Опис
 
@@ -24,11 +25,11 @@ public static IntlChar::totitle(int|string $codepoint): int|string|null
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
-Повертає SimpleTitlecaseMapping для символу, якщо існує. Якщо ні, повертає вихідний символ. У разі виникнення помилки повертає **`null`**
+Повертає Просте\_Зіставлення\_в\_Титульному\_Реєстр (Simple\_Titlecase\_Mapping) для символу, якщо існує. Якщо ні, повертає вихідний символ. У разі виникнення помилки повертає **`null`**
 
 Тип, що повертається повинен бути int, якщо тільки символ не був переданий як рядок UTF-8 (string), у цьому випадку повернеться рядок (string). У разі виникнення помилки повертає **`null`**
 
@@ -38,30 +39,32 @@ public static IntlChar::totitle(int|string $codepoint): int|string|null
 
 ```php
 <?php
-var_dump(IntlChar::totitle("A"));
-var_dump(IntlChar::totitle("a"));
+
+var_dump(IntlChar::totitle("Ǆ"));
+var_dump(IntlChar::totitle("ǆ"));
 var_dump(IntlChar::totitle("Φ"));
 var_dump(IntlChar::totitle("φ"));
 var_dump(IntlChar::totitle("1"));
+var_dump(IntlChar::totitle("ᾳ");
 var_dump(IntlChar::totitle(ord("A")));
-var_dump(IntlChar::totitle(ord("a")));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
-string(1) "A"
-string(1) "A"
+string(1) "ǅ"
+string(1) "ǅ"
 string(2) "Φ"
-string(2) "Φ"
+string(2) "φ"
 string(1) "1"
-int(65)
+string(1) "ᾼ"
 int(65)
 ```
 
 ### Дивіться також
 
--   [IntlChar::tolower()](intlchar.tolower.md) - Перетворення символу Unicode на нижній регістр
--   [IntlChar::toupper()](intlchar.toupper.md) - Перетворення символу Unicode у верхній регістр
--   [мбconvertcase()](function.mb-convert-case.md) - Здійснює зміну регістру символів у рядку
+-   [IntlChar::tolower()](intlchar.tolower.md) \- Перетворює символ Unicode на нижній регістр
+-   [IntlChar::toupper()](intlchar.toupper.md) \- Перетворює символ Unicode у верхній регістр
+-   [IntlChar::istitle()](intlchar.istitle.md) \- Перевірити, чи символ є титульним (Titlecase)
+-   [mb\_convert\_case()](function.mb-convert-case.md) \- Змінює регістр символів у рядку

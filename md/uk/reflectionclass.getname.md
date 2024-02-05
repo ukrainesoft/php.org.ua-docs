@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getName
 
@@ -30,7 +31,7 @@ public ReflectionClass::getName(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getName()****
+**Пример #1 Пример использования**ReflectionClass::getName()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ var_dump($function->getShortName());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -70,4 +71,4 @@ string(3) "Foo"
 
 ### Дивіться також
 
--   [ReflectionClass::getNamespaceName()](reflectionclass.getnamespacename.md) - Повертає назву простору імен
+-   [ReflectionClass::getNamespaceName()](reflectionclass.getnamespacename.md) \- Повертає назву простору імен

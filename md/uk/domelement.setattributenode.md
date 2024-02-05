@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
 title: 'DOMElement::setAttributeNode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMElement::setAttributeNode
 
@@ -18,7 +19,7 @@ DOMElement::setAttributeNode — Додає новий вузол атрибут
 public DOMElement::setAttributeNode(DOMAttr $attr): DOMAttr|null|false
 ```
 
-Додає новий вузол атрибуту `attr` елемент.
+Додає новий вузол атрибуту `attr` елемент. Якщо в елементі вже існує вузол з таким самим ім'ям, то він замінюється на `attr`
 
 ### Список параметрів
 
@@ -28,16 +29,16 @@ public DOMElement::setAttributeNode(DOMAttr $attr): DOMAttr|null|false
 
 ### Значення, що повертаються
 
-Повертає старий вузол, якщо атрибут замінено або **`null`**
+Повертає старий вузол, якщо він був замінений або **`null`**якщо старого вузла не було. Якщо видається помилка **`DOM_WRONG_DOCUMENT_ERR`**, а strictErrorChecking равно**`false`**, то повертається **`false`**
 
 ### Помилки
 
-**`DOM_NO_MODIFICATION_ALLOWED_ERR`**
+**`DOM_WRONG_DOCUMENT_ERR`**
 
-Виникає, якщо вузол доступний лише читання.
+Виникає, якщо параметр `attr`принадлежит не данному узлу, а другому документу.
 
 ### Дивіться також
 
--   [DOMElement::hasAttribute()](domelement.hasattribute.md) - Перевіряє, чи існує атрибут
--   [DOMElement::getAttributeNode()](domelement.getattributenode.md) - Повертає вузол атрибуту
--   [DOMElement::removeAttributeNode()](domelement.removeattributenode.md) - Видаляє атрибут
+-   [DOMElement::hasAttribute()](domelement.hasattribute.md) \- Перевіряє, чи існує атрибут
+-   [DOMElement::getAttributeNode()](domelement.getattributenode.md) \- Повертає вузол атрибуту
+-   [DOMElement::removeAttributeNode()](domelement.removeattributenode.md) \- Видаляє атрибут

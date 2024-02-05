@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.odbc-specialcolumns.md: « odbcspecialcolumns
-  - function.odbc-tableprivileges.md: odbctableprivileges »
+  - function.odbc-specialcolumns.md: « odbc\_specialcolumns
+  - function.odbc-tableprivileges.md: odbc\_tableprivileges »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcstatistics
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_statistics
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcstatistics
+# odbc\_statistics
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcstatistics — Отримує статистику про таблицю
+odbc\_statistics — Отримує статистику про таблицю
 
 ### Опис
 
 ```methodsynopsis
-odbc_statistics(    resource $odbc,    ?string $catalog,    string $schema,    string $table,    int $unique,    int $accuracy): resource|false
+odbc_statistics(    resource $odbc,    ?string $catalog,    string $schema,    string $table,    int $unique,    int $accuracy): resource|false
 ```
 
 Отримує статистику про таблицю та її індекси.
@@ -24,7 +25,7 @@ odbc_statistics(    resource $odbc,    ?string $catalog,    string $schema,    s
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `catalog`
 
@@ -40,15 +41,15 @@ odbc_statistics(    resource $odbc,    ?string $catalog,    string $schema,    s
 
 `unique`
 
-Тип індексу. Одна з констант **`SQL_INDEX_UNIQUE`** або **`SQL_INDEX_ALL`**
+Тип индекса. Одна из констант\*\*`SQL_INDEX_UNIQUE`**или**`SQL_INDEX_ALL`\*\*
 
 `accuracy`
 
-Одна з констант **`SQL_ENSURE`** або **`SQL_QUICK`**. Остання запитує у драйвера отримання `CARDINALITY` і `PAGES`тільки якщо вони легко доступні з сервера.
+Одна из констант\*\*`SQL_ENSURE`**или**`SQL_QUICK`\*\*Последняя запрашивает у драйвера получение`CARDINALITY`и`PAGES`тільки якщо вони легко доступні з сервера.
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор результату ODBC або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор результату ODBC або \*\*`false`\*\*в случае возникновения ошибки.
 
 У результуючому наборі є такі стовпці:
 
@@ -68,7 +69,7 @@ odbc_statistics(    resource $odbc,    ?string $catalog,    string $schema,    s
 
 Драйвери можуть повідомляти додаткові стовпці.
 
-Результуючий набір впорядковується за `NON_UNIQUE` `TYPE` `INDEX_QUALIFIER` `INDEX_NAME` і `ORDINAL_POSITION`
+Результирующий набор упорядочивается по`NON_UNIQUE` `TYPE` `INDEX_QUALIFIER` `INDEX_NAME`и`ORDINAL_POSITION`
 
 ### Приклади
 
@@ -85,7 +86,7 @@ while (($row = odbc_fetch_array($statistics))) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -108,4 +109,4 @@ Array
 
 ### Дивіться також
 
--   [odbctables()](function.odbc-tables.md) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbc\_tables()](function.odbc-tables.md) \- Отримує список імен таблиць, що зберігаються у певному джерелі даних

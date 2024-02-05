@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mailparse-msg-extract-part.md: « mailparsemsgextractpart
-  - function.mailparse-msg-free.md: mailparsemsgfree »
+  - function.mailparse-msg-extract-part.md: « mailparse\_msg\_extract\_part
+  - function.mailparse-msg-free.md: mailparse\_msg\_free »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
-title: mailparsemsgextractwholepartfile
+title: mailparse\_msg\_extract\_whole\_part\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mailparsemsgextractwholepartfile
+# mailparse\_msg\_extract\_whole\_part\_file
 
 (PECL mailparse >= 0.9.0)
 
-mailparsemsgextractwholepartfile — Вийняти розділ повідомлення разом із заголовками без декодування
+mailparse\_msg\_extract\_whole\_part\_file — Вийняти розділ повідомлення разом із заголовками без декодування
 
 ### Опис
 
@@ -20,13 +21,13 @@ mailparse_msg_extract_whole_part_file(resource $mimemail, string $filename, call
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `mimemail`
 
-Коректний `MIME`ресурс
+Коректний `MIME`\-ресурс
 
 `filename`
 
@@ -36,5 +37,5 @@ mailparse_msg_extract_whole_part_file(resource $mimemail, string $filename, call
 
 ### Дивіться також
 
--   [mailparsemsgextractpart()](function.mailparse-msg-extract-part.md) - Вийняти/декодувати секцію із повідомленням
--   [mailparsemsgextractpartfile()](function.mailparse-msg-extract-part-file.md) - Вийняти/декодувати секцію із повідомленням із файлу
+-   [mailparse\_msg\_extract\_part()](function.mailparse-msg-extract-part.md) \- Витягти/декодувати секцію з повідомленням
+-   [mailparse\_msg\_extract\_part\_file()](function.mailparse-msg-extract-part-file.md) \- Вийняти/декодувати секцію із повідомленням із файлу

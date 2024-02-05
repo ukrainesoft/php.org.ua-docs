@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.threaded.md: Threaded
 title: 'Threaded::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Threaded::count
 
@@ -42,7 +43,7 @@ var_dump(count($safe));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(10)

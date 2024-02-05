@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-javascript.getcode.md: '« MongoDBBSONJavascript::getCode'
-  - mongodb-bson-javascript.jsonserialize.md: 'MongoDBBSONJavascript::jsonSerialize »'
+  - mongodb-bson-javascript.getcode.md: '« MongoDB\\BSON\\Javascript::getCode'
+  - mongodb-bson-javascript.jsonserialize.md: 'MongoDB\\BSON\\Javascript::jsonSerialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-javascript.md: MongoDBBSONJavascript
-title: 'MongoDBBSONJavascript::getScope'
+  - class.mongodb-bson-javascript.md: MongoDB\\BSON\\Javascript
+title: 'MongoDB\\BSON\\Javascript::getScope'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONJavascript::getScope
+# MongoDB\\BSON\\Javascript::getScope
 
 (mongodb >=1.2.0)
 
-MongoDBBSONJavascript::getScope — Повертає область документа JavaScript
+MongoDB\\BSON\\Javascript::getScope — Повертає область документа JavaScript
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\BSON\Javascript::getScope(): ?object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONJavascript::getScope()****
+**Пример #1 Пример использования**MongoDB\\BSON\\Javascript::getScope()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($js->getScope());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 NULL
@@ -58,4 +59,4 @@ object(stdClass)#1 (1) {
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

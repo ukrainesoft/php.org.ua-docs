@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isUAlphabetic'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isUAlphabetic
 
@@ -26,11 +27,11 @@ public static IntlChar::isUAlphabetic(int|string $codepoint): ?bool
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `codepoint` має властивість Alphabetic, **`false`** - якщо ні. У разі виникнення помилки повертає **`null`**
+Повертає **`true`**, якщо `codepoint`имеет свойство Alphabetic,**`false`** - якщо ні. У разі виникнення помилки повертає **`null`**
 
 ### Приклади
 
@@ -44,7 +45,7 @@ var_dump(IntlChar::isUAlphabetic("\u{2603}"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -54,6 +55,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isalpha()](intlchar.isalpha.md) - Перевірити, чи є символ літерою
--   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) - Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::isalpha()](intlchar.isalpha.md) \- Перевірити, чи є символ літерою
+-   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) \- Перевірити бінарну властивість Unicode для символу
 -   **`IntlChar::PROPERTY_ALPHABETIC`**

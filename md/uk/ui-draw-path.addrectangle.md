@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ui-draw-path.md: « UIDrawPath
-  - ui-draw-path.arcto.md: 'ОЙDrawPath::arcTo »'
+  - class.ui-draw-path.md: « UI\\Draw\\Path
+  - ui-draw-path.arcto.md: 'UI\\Draw\\Path::arcTo »'
   - index.md: PHP Manual
-  - class.ui-draw-path.md: ОЙDrawPath
-title: 'ОЙDrawPath::addRectangle'
+  - class.ui-draw-path.md: UI\\Draw\\Path
+title: 'UI\\Draw\\Path::addRectangle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawPath::addRectangle
+# UI\\Draw\\Path::addRectangle
 
 (UI 0.9.9)
 
-ОЙDrawPath::addRectangle — Намалювати прямокутник
+UI\\Draw\\Path::addRectangle — Намалювати прямокутник
 
 ### Опис
 

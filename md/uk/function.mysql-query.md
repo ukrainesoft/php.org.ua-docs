@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.mysql-ping.md: « mysqlping
-  - function.mysql-real-escape-string.md: mysqlrealescapestring »
+  - function.mysql-ping.md: « mysql\_ping
+  - function.mysql-real-escape-string.md: mysql\_real\_escape\_string »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlquery
+title: mysql\_query
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlquery
+# mysql\_query
 
 (PHP 4, PHP 5)
 
-mysqlquery — Надсилає запит MySQL
+mysql\_query — Надсилає запит MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqliquery()](mysqli.query.md)
+-   [mysqli\_query()](mysqli.query.md)
 -   [PDO::query()](pdo.query.md)
 
 ### Опис
@@ -25,7 +26,7 @@ mysqlquery — Надсилає запит MySQL
 mysql_query(string $query, resource $link_identifier = NULL): mixed
 ```
 
-**mysqlquery()** посилає один запит (надсилання кількох запитів не підтримується) активній базі даних сервера, на який посилається переданий дескриптор `link_identifier`
+**mysql\_query()** посилає один запит (надсилання кількох запитів не підтримується) активній базі даних сервера, на який посилається переданий дескриптор `link_identifier`
 
 ### Список параметрів
 
@@ -37,25 +38,25 @@ SQL-запит
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, буде використано останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Для запитів SELECT, SHOW, DESCRIBE, EXPLAIN та інших запитів, що повертають результат з кількох рядів, **mysqlquery()** повертає дескриптор результату запиту (resource), або **`false`** у разі виникнення помилки.
+Для запитів SELECT, SHOW, DESCRIBE, EXPLAIN та інших запитів, що повертають результат з кількох рядів, **mysql\_query()** повертає дескриптор результату запиту (resource), або \*\*`false`\*\*в случае возникновения ошибки.
 
-Для інших типів SQL-запитів, INSERT, UPDATE, DELETE, DROP та інших, **mysqlquery()** повертає **`true`** у разі успішного виконання та **`false`** у разі виникнення помилки.
+Для інших типів SQL-запитів, INSERT, UPDATE, DELETE, DROP та інших, **mysql\_query()** повертає **`true`** у разі успішного виконання та \*\*`false`\*\*в случае возникновения ошибки.
 
-Отриманий дескриптор результату слід передати у функцію [mysqlfetchassoc()](function.mysql-fetch-assoc.md) або будь-яку іншу функцію, яка працює з результатами запитів.
+Отриманий дескриптор результату слід передати у функцію [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.md)или любую другую функцию, работающую с результатами запросов.
 
-Використовуйте [mysqlnumrows()](function.mysql-num-rows.md) для з'ясування кількості рядів в результаті SELECT-запиту або [mysqlaffectedrows()](function.mysql-affected-rows.md) для з'ясування кількості опрацьованих рядів запитами DELETE, INSERT, REPLACE та UPDATE.
+Используйте[mysql\_num\_rows()](function.mysql-num-rows.md) для з'ясування кількості рядів в результаті SELECT-запиту або [mysql\_affected\_rows()](function.mysql-affected-rows.md) для з'ясування кількості опрацьованих рядів запитами DELETE, INSERT, REPLACE та UPDATE.
 
-**mysqlquery()** також завершиться з помилкою та поверне **`false`**, якщо користувач не має доступу до будь-якої з таблиць, що фігурують у запиті.
+**mysql\_query()** також завершиться з помилкою та поверне **`false`**, якщо користувач не має доступу до будь-якої з таблиць, що фігурують у запиті.
 
 ### Приклади
 
 **Приклад #1 Неправильний запит**
 
-Наступний запит складено неправильно та **mysqlquery()** поверне **`false`**
+Следующий запрос составлен неправильно и**mysql\_query()** поверне **`false`**
 
 ```php
 <?php
@@ -69,7 +70,7 @@ if (!$result) {
 
 **Приклад #2 Вірний запит**
 
-Наступний запит вірний, тому **mysqlquery()** поверне ресурс.
+Наступний запит вірний, тому **mysql\_query()** поверне ресурс.
 
 ```php
 <?php
@@ -115,9 +116,9 @@ mysql_free_result($result);
 
 ### Дивіться також
 
--   [mysqlconnect()](function.mysql-connect.md) - Відкриває з'єднання із сервером MySQL
--   [mysqlerror()](function.mysql-error.md) - Повертає текст помилки останньої операції з MySQL
--   [mysqlrealescapestring()](function.mysql-real-escape-string.md) - Екранує спеціальні символи у рядках для використання у виразах SQL
--   [mysqlresult()](function.mysql-result.md) - Повертає дані результату запиту
--   [mysqlfetchassoc()](function.mysql-fetch-assoc.md) - Повертає ряд результату запиту як асоціативний масив.
--   [mysqlunbufferedquery()](function.mysql-unbuffered-query.md) - Надсилає запит MySQL без авто-обробки результату та його буферизації
+-   [mysql\_connect()](function.mysql-connect.md) \- Відкриває з'єднання із сервером MySQL
+-   [mysql\_error()](function.mysql-error.md) \- Повертає текст помилки останньої операції з MySQL
+-   [mysql\_real\_escape\_string()](function.mysql-real-escape-string.md) \- Екранує спеціальні символи у рядках для використання у виразах SQL
+-   [mysql\_result()](function.mysql-result.md) \- Повертає дані результату запиту
+-   [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.md) \- Повертає ряд результату запиту як асоціативний масив.
+-   [mysql\_unbuffered\_query()](function.mysql-unbuffered-query.md) \- Надсилає запит MySQL без авто-обробки результату та його буферизації

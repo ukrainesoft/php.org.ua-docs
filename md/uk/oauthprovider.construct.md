@@ -4,13 +4,14 @@ navigation:
   - oauthprovider.consumerhandler.md: 'OAuthProvider::consumerHandler »'
   - index.md: PHP Manual
   - class.oauthprovider.md: OAuthProvider
-title: 'OAuthProvider::construct'
+title: 'OAuthProvider::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# OAuthProvider::construct
+# OAuthProvider::\_\_construct
 
 (PECL OAuth >= 1.0.0)
 
-OAuthProvider::construct - Конструктор класу OAuthProvider
+OAuthProvider::\_\_construct - Конструктор класу OAuthProvider
 
 ### Опис
 
@@ -22,7 +23,7 @@ public OAuthProvider::__construct(array $params_array = ?)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public OAuthProvider::__construct(array $params_array = ?)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **OAuthProvider::construct()****
+**Пример #1 Пример использования**OAuthProvider::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -66,4 +67,4 @@ try {
 
 ### Дивіться також
 
--   [OAuthProvider::setParam()](oauthprovider.setparam.md) - Встановити параметр
+-   [OAuthProvider::setParam()](oauthprovider.setparam.md) \- Встановити параметр

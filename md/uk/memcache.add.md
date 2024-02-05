@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcache.md: Memcache
 title: 'Memcache::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcache::add
 
@@ -15,10 +16,10 @@ Memcache::add — Додати елемент із зазначеним ключ
 ### Опис
 
 ```methodsynopsis
-Memcache::add(    string $key,    mixed $var,    int $flag = ?,    int $expire = ?): bool
+Memcache::add(    string $key,    mixed $var,    int $flag = ?,    int $expire = ?): bool
 ```
 
-**Memcache::add()** записує елемент `var` із зазначеним ключем `key` тільки якщо цей ключ ще не існує на сервері. Також можна використовувати функцію **memcacheadd()**
+**Memcache::add()** записує елемент `var` із зазначеним ключем `key` тільки якщо цей ключ ще не існує на сервері. Також можна використовувати функцію **memcache\_add()**
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ Memcache::add(    string $key,    mixed $var,    int $flag = ?,    int $expire =
 
 `flag`
 
-Використовуйте **`MEMCACHE_COMPRESSED`** для запису елемента зі стисненням (використовується zlib).
+Используйте\*\*`MEMCACHE_COMPRESSED`\*\* для запису елемента зі стисненням (використовується zlib).
 
 `expire`
 
@@ -44,7 +45,7 @@ Memcache::add(    string $key,    mixed $var,    int $flag = ?,    int $expire =
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcache::add()****
+**Пример #1 Пример использования**Memcache::add()\*\*\*\*
 
 ```php
 <?php
@@ -62,5 +63,5 @@ $memcache_obj->add('var_key', 'test variable', false, 30);
 
 ### Дивіться також
 
--   [Memcache::set()](memcache.set.md) - Зберегти дані на сервері
--   [Memcache::replace()](memcache.replace.md) - Замінити значення наявного елемента
+-   [Memcache::set()](memcache.set.md) \- Зберегти дані на сервері
+-   [Memcache::replace()](memcache.replace.md) \- Замінити значення наявного елемента

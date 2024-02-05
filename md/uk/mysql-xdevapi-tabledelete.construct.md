@@ -3,18 +3,19 @@ navigation:
   - mysql-xdevapi-tabledelete.bind.md: '« TableDelete::bind'
   - mysql-xdevapi-tabledelete.execute.md: 'TableDelete::execute »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete
-title: 'TableDelete::construct'
+  - class.mysql-xdevapi-tabledelete.md: mysql\_xdevapi\\TableDelete
+title: 'TableDelete::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# TableDelete::construct
+# TableDelete::\_\_construct
 
 (No version information available, might only be in Git)
 
-TableDelete::construct - Конструктор класу TableDelete
+TableDelete::\_\_construct - Конструктор класу TableDelete
 
 ### Опис
 
-private **mysqlxdevapiTableDelete::construct**
+private**mysql\_xdevapi\\TableDelete::\_\_construct**()
 
 Ініціюється за допомогою методу delete().
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiTableDelete::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableDelete::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableDelete::\_\_construct()\*\*\*\*
 
 ```php
 <?php

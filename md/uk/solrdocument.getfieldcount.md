@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::getFieldCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDocument::getFieldCount
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrDocument::getFieldCount — Повертає кількість полів у цьому документі
 
@@ -26,4 +27,4 @@ public SolrDocument::getFieldCount(): int
 
 ### Значення, що повертаються
 
-Повертає ціле число у разі успішного виконання та **`false`** у разі виникнення помилки.
+Повертає ціле число у разі успішного виконання та \*\*`false`\*\*в случае возникновения ошибки.

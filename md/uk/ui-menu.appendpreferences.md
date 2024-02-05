@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-menu.appendcheck.md: '« UIMenu::appendCheck'
-  - ui-menu.appendquit.md: 'ОЙMenu::appendQuit »'
+  - ui-menu.appendcheck.md: '« UI\\Menu::appendCheck'
+  - ui-menu.appendquit.md: 'UI\\Menu::appendQuit »'
   - index.md: PHP Manual
-  - class.ui-menu.md: ОЙMenu
-title: 'ОЙMenu::appendPreferences'
+  - class.ui-menu.md: UI\\Menu
+title: 'UI\\Menu::appendPreferences'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙMenu::appendPreferences
+# UI\\Menu::appendPreferences
 
 (UI 0.9.9)
 
-ОЙMenu::appendPreferences — Додати пункт меню "Налаштування" (Preferences)
+UI\\Menu::appendPreferences — Додати пункт меню "Налаштування" (Preferences)
 
 ### Опис
 

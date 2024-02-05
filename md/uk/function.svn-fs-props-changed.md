@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.svn-fs-node-prop.md: « svnфсnodeprop
-  - function.svn-fs-revision-prop.md: svnфсrevisionprop »
+  - function.svn-fs-node-prop.md: « svn\_fs\_node\_prop
+  - function.svn-fs-revision-prop.md: svn\_fs\_revision\_prop »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсpropschanged
+title: svn\_fs\_props\_changed
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсpropschanged
+# svn\_fs\_props\_changed
 
 (PECL svn >= 0.2.0)
 
-svnфсpropschanged - Повертає **`true`**, якщо властивості різні або **`false`** в іншому випадку
+svn\_fs\_props\_changed — Возвращает\*\*`true`\*\*, якщо властивості різні або **`false`** в іншому випадку
 
 ### Опис
 
 ```methodsynopsis
-svn_fs_props_changed(    resource $root1,    string $path1,    resource $root2,    string $path2): bool
+svn_fs_props_changed(    resource $root1,    string $path1,    resource $root2,    string $path2): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає **`true`**, якщо властивості різні або **`false`** в іншому випадку
 

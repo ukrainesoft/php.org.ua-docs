@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-delete.md: « pgdelete
-  - function.pg-escape-bytea.md: пгescapebytea »
+  - function.pg-delete.md: « pg\_delete
+  - function.pg-escape-bytea.md: pg\_escape\_bytea »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгendcopy
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_end\_copy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгendcopy
+# pg\_end\_copy
 
-(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.3, PHP 5, PHP 7, PHP 8)
 
-пгendcopy — Синхронізує з бекендом PostgreSQL
+pg\_end\_copy — Синхронізує з бекендом PostgreSQL
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: пгendcopy
 pg_end_copy(?PgSql\Connection $connection = null): bool
 ```
 
-**пгendcopy()** синхронізує дані між фронтендом PostgreSQL (зазвичай процесом веб-сервера) та сервером PostgreSQL після завершення копіювання даних, досконалих за допомогою функції [пгputline()](function.pg-put-line.md). Використання **пгendcopy()** необхідно, щоб уникнути розсинхронізації сервера PostgreSQL з фронтендом та повідомлень про помилки.
+**pg\_end\_copy()** синхронізує дані між фронтендом PostgreSQL (зазвичай процесом веб-сервера) та сервером PostgreSQL після завершення копіювання даних, досконалих за допомогою функції [pg\_put\_line()](function.pg-put-line.md)Использование**pg\_end\_copy()** необхідно, щоб уникнути розсинхронізації сервера PostgreSQL з фронтендом та повідомлень про помилки.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection`указан как\*\*`null`\*\*, вибирається стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -32,18 +33,18 @@ pg_end_copy(?PgSql\Connection $connection = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `connection` тепер допускає значення null. |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгendcopy()****
+**Пример #1 Пример использования**pg\_end\_copy()\*\*\*\*
 
 ```php
 <?php
@@ -59,4 +60,4 @@ pg_end_copy(?PgSql\Connection $connection = null): bool
 
 ### Дивіться також
 
--   [пгputline()](function.pg-put-line.md) - Передає на PostgreSQL сервер рядок із завершальним нулем
+-   [pg\_put\_line()](function.pg-put-line.md) \- Передає на PostgreSQL сервер рядок із завершальним нулем

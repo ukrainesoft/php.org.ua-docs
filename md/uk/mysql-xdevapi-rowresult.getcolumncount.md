@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-rowresult.fetchone.md: '« RowResult::fetchOne'
   - mysql-xdevapi-rowresult.getcolumnnames.md: 'RowResult::getColumnNames »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-rowresult.md: mysqlxdevapiRowResult
+  - class.mysql-xdevapi-rowresult.md: mysql\_xdevapi\\RowResult
 title: 'RowResult::getColumnsCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RowResult::getColumnsCount
 
@@ -30,13 +31,13 @@ public mysql_xdevapi\RowResult::getColumnsCount(): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Метод перейменований з getColumnCount() на getColumnsCount(). |
+| 8.0.14 | Метод перейменований з getColumnCount() на getColumnsCount(). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiRowResult::getColumnsCount()****
+**Пример #1 Пример использования**mysql\_xdevapi\\RowResult::getColumnsCount()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ $sql = $session->sql("SELECT * from addressbook.names")->execute();
 echo $sql->getColumnsCount();
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 2

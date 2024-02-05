@@ -1,10 +1,11 @@
 ---
 navigation:
   - eventbufferevent.connect.md: '« EventBufferEvent::connect'
-  - eventbufferevent.construct.md: 'EventBufferEvent::construct »'
+  - eventbufferevent.construct.md: 'EventBufferEvent::\_\_construct »'
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::connectHost'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::connectHost
 
@@ -16,31 +17,31 @@ EventBufferEvent::connectHost — Підключається на ім'я хос
 
 ```methodsynopsis
 public
-   EventBufferEvent::connectHost(    
+   EventBufferEvent::connectHost(    
     EventDnsBase
      $dns_base
-   ,    
+   ,    
     string
      $hostname
-   ,    
+   ,    
     int
      $port
-   ,    
+   ,    
     int
      $family
      = EventUtil::AF_UNSPEC
    ): bool
 ```
 
-Дозволяє ім'я хоста DNS-імені, шукаючи адреси типу `family` (Константи `EventUtil::AF_*`). Якщо дозвіл імені не вдалося зробити, викликає callback-функцію події з подією помилки. У разі успішного виконання робить спробу підключення так само, як [EventBufferEvent::connect()](eventbufferevent.connect.md)
+Разрешает имя хоста DNS-имени, ища адреса типа`family` (Константи `EventUtil::AF_*`). Якщо дозвіл імені не вдалося зробити, викликає callback-функцію події з подією помилки. У разі успішного виконання робить спробу підключення так само, як [EventBufferEvent::connect()](eventbufferevent.connect.md)
 
-Параметр `dns_base` не є обов'язковим. Він може мати значення **`null`** або посилатися на об'єкт, створений за допомогою [EventDnsBase::construct()](eventdnsbase.construct.md). Для асинхронного дозволу імені хоста необхідно передати дійсний базовий ресурс події DNS. В іншому випадку дозвіл імені хоста буде заблоковано.
+Параметр`dns_base` не є обов'язковим. Він може мати значення **`null`** або посилатися на об'єкт, створений за допомогою [EventDnsBase::\_\_construct()](eventdnsbase.construct.md). Для асинхронного дозволу імені хоста необхідно передати дійсний базовий ресурс події DNS. В іншому випадку дозвіл імені хоста буде заблоковано.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> [EventDnsBase](class.eventdnsbase.md) доступний, тільки якщо `Event` налаштований з **\-with-event-extra** (бібліотека `event_extra` *підтримка функцій протоколу libevent, включаючи HTTP, DNS та RPC*
+> [EventDnsBase](class.eventdnsbase.md) доступний, тільки якщо `Event` налаштований з **\--with-event-extra**(библиотека`event_extra` *підтримка функцій протоколу libevent, включаючи HTTP, DNS та RPC*
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > **EventBufferEvent::connectHost()** вимагає `libevent-2.0.3-alpha` або вище.
 
@@ -54,7 +55,7 @@ public
 
 Ім'я хоста для підключення. Формати, що розпізнаються:
 
-[www.example.com](http://www.example.com) (hostname) 1.2.3.4 (ipv4address) ::1 (ipv6address) ipv6address
+[www.example.com](http://www.example.com)(hostname) 1.2.3.4 (ipv4address) ::1 (ipv6address)\[::1\] \[ipv6address\]) .
 
 `port`
 
@@ -62,15 +63,15 @@ public
 
 `family`
 
-Сімейство адрес . **`EventUtil::AF_UNSPEC`** **`EventUtil::AF_INET`** або **`EventUtil::AF_INET6`**. Зверніться до списку [констант EventUtil](class.eventutil.md#eventutil.constants)
+Семейство адресов\*\*`EventUtil::AF_UNSPEC`\*\* \*\*`EventUtil::AF_INET`**или**`EventUtil::AF_INET6`\*\*Обратитесь к списку[констант EventUtil](class.eventutil.md#eventutil.constants)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 **Приклад використання EventBufferEvent::connectHost()****
+**Пример #1**Приклад використання EventBufferEvent::connectHost()\*\*\*\*
 
 ```php
 <?php
@@ -136,7 +137,7 @@ $base->dispatch();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Connected.
@@ -163,4 +164,4 @@ Done
 
 ### Дивіться також
 
--   [EventBufferEvent::connect()](eventbufferevent.connect.md) - Підключає файловий дескриптор події буфера до вказаної адреси або сокету UNIX
+-   [EventBufferEvent::connect()](eventbufferevent.connect.md) \- Підключає файловий дескриптор події буфера до вказаної адреси або сокету UNIX

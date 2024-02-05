@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setTermsReturnRaw'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setTermsReturnRaw
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setTermsReturnRaw — Повернути необроблені символи проіндексованого виразу
 
@@ -24,7 +25,7 @@ public SolrQuery::setTermsReturnRaw(bool $flag): SolrQuery
 
 `value`
 
-**`true`** ор **`false`**
+**`true`**or**`false`**
 
 ### Значення, що повертаються
 

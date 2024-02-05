@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdl3inside.md: « tradercdl3inside
-  - function.trader-cdl3outside.md: tradercdl3outside »
+  - function.trader-cdl3inside.md: « trader\_cdl3inside
+  - function.trader-cdl3outside.md: trader\_cdl3outside »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdl3linestrike
+  - ref.trader.md: Функції Trader
+title: trader\_cdl3linestrike
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdl3linestrike
+# trader\_cdl3linestrike
 
 (PECL trader >= 0.2.0)
 
-tradercdl3linestrike - Потрійний удар
+trader\_cdl3linestrike - Потрійний удар
 
 ### Опис
 
 ```methodsynopsis
-trader_cdl3linestrike(    array $open,    array $high,    array $low,    array $close): array
+trader_cdl3linestrike(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

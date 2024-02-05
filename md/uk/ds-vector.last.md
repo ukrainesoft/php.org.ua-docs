@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.jsonserialize.md: '« DsVector::jsonSerialize'
-  - ds-vector.map.md: 'ДсVector::map »'
+  - ds-vector.jsonserialize.md: '« Ds\\Vector::jsonSerialize'
+  - ds-vector.map.md: 'Ds\\Vector::map »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::last'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::last'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::last
+# Ds\\Vector::last
 
 (PECL ds >= 1.0.0)
 
-ДсVector::last — Повертає останнє значення вектора
+Ds\\Vector::last — Повертає останнє значення вектора
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Vector::last(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::last()****
+**Пример #1 Пример использования**Ds\\Vector::last()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($vector->last());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(3)

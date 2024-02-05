@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-view-simple.isset.md: '« YafViewSimple::isset'
-  - yaf-view-simple.set.md: 'YafViewSimple::set »'
+  - yaf-view-simple.isset.md: '« Yaf\_View\_Simple::\_\_isset'
+  - yaf-view-simple.set.md: 'Yaf\_View\_Simple::\_\_set »'
   - index.md: PHP Manual
-  - class.yaf-view-simple.md: YafViewSimple
-title: 'YafViewSimple::render'
+  - class.yaf-view-simple.md: Yaf\_View\_Simple
+title: 'Yaf\_View\_Simple::render'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafViewSimple::render
+# Yaf\_View\_Simple::render
 
 (Yaf >=1.0.0)
 
-YafViewSimple::render — Відображає шаблон
+Yaf\_View\_Simple::render — Відображає шаблон
 
 ### Опис
 

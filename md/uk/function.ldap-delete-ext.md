@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-count-references.md: « ldapcountreferences
-  - function.ldap-delete.md: ldapdelete »
+  - function.ldap-count-references.md: « ldap\_count\_references
+  - function.ldap-delete.md: ldap\_delete »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapdeleteext
+title: ldap\_delete\_ext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapdeleteext
+# ldap\_delete\_ext
 
-(PHP 7> = 7.3.0, PHP 8)
+(PHP 7 >= 7.3.0, PHP 8)
 
-ldapdeleteext — Видалити запис із директорії
+ldap\_delete\_ext — Видалити запис із директорії
 
 ### Опис
 
@@ -18,25 +19,25 @@ ldapdeleteext — Видалити запис із директорії
 ldap_delete_ext(LDAP\Connection $ldap, string $dn, ?array $controls = null): LDAP\Result|false
 ```
 
-Робить те саме, що й [ldapdelete()](function.ldap-delete.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)
+Робить те саме, що й [ldap\_delete()](function.ldap-delete.md), але повертає екземпляр [LDAP\\Result](class.ldap-result.md)для разбора с помощью[ldap\_parse\_result()](function.ldap-parse-result.md)
 
 ### Список параметрів
 
-Дивіться [ldapdelete()](function.ldap-delete.md)
+Смотрите[ldap\_delete()](function.ldap-delete.md)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAPResult](class.ldap-result.md) або **`false`** у разі виникнення помилки.
+Повертає екземпляр [LDAP\\Result](class.ldap-result.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Повертає екземпляр [LDAPResult](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.1.0 | Повертає екземпляр [LDAP\\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
 
 ### Дивіться також
 
--   [ldapdelete()](function.ldap-delete.md) - Видаляє запис із директорії LDAP
--   [ldapparseresult()](function.ldap-parse-result.md) - Витягти інформацію з результату
+-   [ldap\_delete()](function.ldap-delete.md) \- Видаляє запис із директорії LDAP
+-   [ldap\_parse\_result()](function.ldap-parse-result.md) \- Витягти інформацію з результату

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageTotalInkDensity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageTotalInkDensity
 
@@ -26,4 +27,4 @@ public Imagick::getImageTotalInkDensity(): float
 
 ### Значення, що повертаються
 
-Повертає загальну щільність чорнила зображення. Викликає **ImagickException** у разі виникнення помилки.
+Повертає загальну щільність чорнила зображення. Викликає **ImagickException**в случае возникновения ошибки.

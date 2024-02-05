@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.md: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort'
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.md: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited »'
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.md: '« MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getPort'
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.md: 'MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::isAwaited »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
-title: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply'
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent
+title: 'MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getReply'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply
+# MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getReply
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply — Повертає документ відповіді heartbeat
+MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getReply — Повертає документ відповіді heartbeat
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply — Поверт�
 final public MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getReply(): object
 ```
 
-Документ відповіді буде перетворено з BSON на PHP з використанням правил [десериализации](mongodb.persistence.deserialization.md) за промовчанням (наприклад, документи BSON будуть перетворені на stdClass).
+Документ ответа будет преобразован из BSON в PHP с использованием правил[десеріалізації](mongodb.persistence.deserialization.md) за промовчанням (наприклад, документи BSON будуть перетворені на [stdClass](class.stdclass.md)
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getReply()
 
 ### Значення, що повертаються
 
-Повертає документ відповіді heartbeat у вигляді об'єкта **stdClass**
+Повертає документ відповіді heartbeat у вигляді об'єкта [stdClass](class.stdclass.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 

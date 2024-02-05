@@ -1,24 +1,25 @@
 ---
 navigation:
-  - class.yaf-session.md: « YafSession
-  - yaf-session.count.md: 'YafSession::count »'
+  - class.yaf-session.md: « Yaf\_Session
+  - yaf-session.count.md: 'Yaf\_Session::count »'
   - index.md: PHP Manual
-  - class.yaf-session.md: YafSession
-title: 'YafSession::construct'
+  - class.yaf-session.md: Yaf\_Session
+title: 'Yaf\_Session::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafSession::construct
+# Yaf\_Session::\_\_construct
 
 (Yaf >=1.0.0)
 
-YafSession::construct - Конструктор класу YafSession
+Yaf\_Session::\_\_construct - Конструктор класу Yaf\_Session
 
 ### Опис
 
-private **YafSession::construct**
+private**Yaf\_Session::\_\_construct**()
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageAlphaChannel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageAlphaChannel
 
-(PECL imagick 2> = 2.1.0, PECL imagick 3)
+(PECL imagick 2 >= 2.1.0, PECL imagick 3)
 
 Imagick::setImageAlphaChannel — Встановлює альфа-канал зображення
 
@@ -18,13 +19,13 @@ Imagick::setImageAlphaChannel — Встановлює альфа-канал з�
 public Imagick::setImageAlphaChannel(int $mode): bool
 ```
 
-Активує або деактивує альфа-канал зображення. Параметр `mode` - одна з констант **`Imagick::ALPHACHANNEL_*`**. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.8 або старшим.
+Активує або деактивує альфа-канал зображення. Параметр `mode`\- одна из констант\*\*`Imagick::ALPHACHANNEL_*`\*\*. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.8 або старшим.
 
 ### Список параметрів
 
 `mode`
 
-Одна з констант **`Imagick::ALPHACHANNEL_*`**
+Одна из констант\*\*`Imagick::ALPHACHANNEL_*`\*\*
 
 ### Значення, що повертаються
 
@@ -36,5 +37,5 @@ public Imagick::setImageAlphaChannel(int $mode): bool
 
 ### Дивіться також
 
--   [Imagick::setImageMatte()](imagick.setimagematte.md) - Встановлює матовий канал зображення
+-   [Imagick::setImageMatte()](imagick.setimagematte.md) \- Встановлює матовий канал зображення
 -   [Константи альфа-каналу Imagick](imagick.constants.md#imagick.constants.alphachannel)

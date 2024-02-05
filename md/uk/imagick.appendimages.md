@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::appendImages'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::appendImages
 
@@ -24,7 +25,7 @@ public Imagick::appendImages(bool $stack): Imagick
 
 `stack`
 
-Чи варто складати зображення вертикально. За замовчуванням (або якщо зазначено **`false`**) зображення складаються зліва направо. Якщо `stack` встановлений в \*\*`true`\*\*то зображення складаються зверху вниз.
+Чи варто складати зображення вертикально. За замовчуванням (або якщо зазначено **`false`**) зображення складаються зліва направо. Якщо `stack`установлен в\*\*`true`\*\*то зображення складаються зверху вниз.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public Imagick::appendImages(bool $stack): Imagick
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::appendImages()****
+**Пример #1 Пример использования**Imagick::appendImages()\*\*\*\*
 
 ```php
 <?php
@@ -60,6 +61,6 @@ echo $combined;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Приклад висновку: Imagick::appendImages()](images/c0d23d2d6769e53e24a1b3136c064577-floodfillpaint_intermediate.png)

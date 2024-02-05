@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.com-message-pump.md: « commessagepump
-  - function.variant-abs.md: variantabs »
+  - function.com-message-pump.md: « com\_message\_pump
+  - function.variant-abs.md: variant\_abs »
   - index.md: PHP Manual
-  - ref.com.md: Функции COM
-title: comprinttypeinfo
+  - ref.com.md: Функції COM
+title: com\_print\_typeinfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# comprinttypeinfo
+# com\_print\_typeinfo
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-comprinttypeinfo — Друкує визначення класу PHP для інтерфейсу, що наслідує IDispatch
+com\_print\_typeinfo — Друкує визначення класу PHP для інтерфейсу, що наслідує IDispatch
 
 ### Опис
 
@@ -24,7 +25,7 @@ com_print_typeinfo(variant|string $variant, ?string $dispatch_interface = null, 
 
 `variant`
 
-`variant` повинен бути екземпляром класу COM, або ім'ям бібліотеки типів (яке буде розібрано згідно з набором правил, заданим у [comloadtypelib()](function.com-load-typelib.md)
+`variant` повинен бути екземпляром класу COM, або ім'ям бібліотеки типів (яке буде розібрано згідно з набором правил, заданим у [com\_load\_typelib()](function.com-load-typelib.md)
 
 `dispatch_interface`
 
@@ -36,9 +37,9 @@ com_print_typeinfo(variant|string $variant, ?string $dispatch_interface = null, 
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [comeventsink()](function.com-event-sink.md) - Зв'язати повідомлення COM з об'єктом PHP
--   [comloadtypelib()](function.com-load-typelib.md) - Завантаження Typelib
+-   [com\_event\_sink()](function.com-event-sink.md) \- Зв'язати повідомлення COM з об'єктом PHP
+-   [com\_load\_typelib()](function.com-load-typelib.md) \- Завантаження Typelib

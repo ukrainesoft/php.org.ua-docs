@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-server-version.md: « ociserverversion
-  - function.oci-set-call-timout.md: ocisetcalltimeout »
+  - function.oci-server-version.md: « oci\_server\_version
+  - function.oci-set-call-timout.md: oci\_set\_call\_timeout »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocisetaction
+  - ref.oci8.md: OCI8 Функції
+title: oci\_set\_action
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocisetaction
+# oci\_set\_action
 
-(PHP 5> = 5.3.2, PHP 7, PHP 8, PECL OCI8> = 1.4.0)
+(PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL OCI8 >= 1.4.0)
 
-ocisetaction — Вказує ім'я для дії
+oci\_set\_action — Вказує ім'я для дії
 
 ### Опис
 
@@ -22,7 +23,7 @@ oci_set_action(resource $connection, string $action): bool
 
 Надане ім'я реєструється в базі даних під час чергового запиту від PHP, наприклад, коли запускається SQL вираз.
 
-Ім'я дії може бути витягнуте з адміністративних уявлень бази даних, таких як `V$SESSION`. Його можна використовувати для трасування та моніторингу, наприклад, за допомогою `V$SQLAREA` і `DBMS_MONITOR.SERV_MOD_ACT_STAT_ENABLE`
+Ім'я дії може бути витягнуте з адміністративних уявлень бази даних, таких як `V$SESSION`. Його можна використовувати для трасування та моніторингу, наприклад, за допомогою `V$SQLAREA`и`DBMS_MONITOR.SERV_MOD_ACT_STAT_ENABLE`
 
 Значення можна встановлювати через постійні з'єднання.
 
@@ -30,7 +31,7 @@ oci_set_action(resource $connection, string $action): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md), або [ocinewconnect()](function.oci-new-connect.md)
+Ідентифікатор з'єднання Oracle, що повертається [oci\_connect()](function.oci-connect.md) [oci\_pconnect()](function.oci-pconnect.md), или[oci\_new\_connect()](function.oci-new-connect.md)
 
 `action`
 
@@ -38,7 +39,7 @@ oci_set_action(resource $connection, string $action): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -73,13 +74,13 @@ SQL> select action from v$session;
 
 > **Зауваження** **Вимога до версії Oracle**
 > 
-> Ця функція доступна, якщо PHP злінковано з бібліотеками Oracle Database починаючи з версії 10*г* і вище.
+> Ця функція доступна, якщо PHP злінковано з бібліотеками Oracle Database починаючи з версії 10*g* і вище.
 
 **Підказка**
 
 # Продуктивність
 
-У старих версіях OCI8 або бази даних Oracle можна було встановити інформацію про клієнта за допомогою пакета `DBMS_APPLICATION_INFO`. Для цієї мети ефективніше використання функції [ocisetclientinfo()](function.oci-set-client-info.md)
+У старих версіях OCI8 або бази даних Oracle можна було встановити інформацію про клієнта за допомогою пакета `DBMS_APPLICATION_INFO`. Для цієї мети ефективніше використання функції [oci\_set\_client\_info()](function.oci-set-client-info.md)
 
 **Застереження**
 
@@ -89,7 +90,7 @@ SQL> select action from v$session;
 
 ### Дивіться також
 
--   [ocisetmodulename()](function.oci-set-module-name.md) - Задає ім'я модулю
--   [ocisetclientinfo()](function.oci-set-client-info.md) - Задає інформацію про клієнта
--   [ocisetclientidentifier()](function.oci-set-client-identifier.md) - задає ідентифікатор клієнта
--   [ocisetдбoperation()](function.oci-set-db-operation.md) - Задає операцію бази даних
+-   [oci\_set\_module\_name()](function.oci-set-module-name.md) \- Задає ім'я модулю
+-   [oci\_set\_client\_info()](function.oci-set-client-info.md) \- Задає інформацію про клієнта
+-   [oci\_set\_client\_identifier()](function.oci-set-client-identifier.md) \- задає ідентифікатор клієнта
+-   [oci\_set\_db\_operation()](function.oci-set-db-operation.md) \- Задає операцію бази даних

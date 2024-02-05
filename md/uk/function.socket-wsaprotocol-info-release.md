@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.socket-wsaprotocol-info-import.md: « socketwsaprotocolinfoimport
+  - function.socket-wsaprotocol-info-import.md: « socket\_wsaprotocol\_info\_import
   - class.socket.md: Socket »
   - index.md: PHP Manual
-  - ref.sockets.md: Функции сокета
-title: socketwsaprotocolinforelease
+  - ref.sockets.md: Опції сокету
+title: socket\_wsaprotocol\_info\_release
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# socketwsaprotocolinforelease
+# socket\_wsaprotocol\_info\_release
 
-(PHP 7> = 7.3.0, PHP 8)
+(PHP 7 >= 7.3.0, PHP 8)
 
-socketwsaprotocolinforelease — Вивільняє експортовану структуру WSAPROTOCOLINFO
+socket\_wsaprotocol\_info\_release — Вивільняє експортовану структуру WSAPROTOCOL\_INFO
 
 ### Опис
 
@@ -26,12 +27,12 @@ socket_wsaprotocol_info_release(string $info_id): bool
 
 `info_id`
 
-Ідентифікатор, отриманий під час виклику [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.md)
+Ідентифікатор, отриманий під час виклику [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.md) - Експорт структури WSAPROTOCOLINFO
+-   [socket\_wsaprotocol\_info\_export()](function.socket-wsaprotocol-info-export.md) \- Експорт структури WSAPROTOCOL\_INFO

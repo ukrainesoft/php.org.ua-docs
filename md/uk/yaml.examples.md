@@ -1,10 +1,11 @@
 ---
 navigation:
-  - yaml.constants.md: « Обумовлені константи
-  - yaml.callbacks.md: Callback-функции »
+  - yaml.constants.md: « Зумовлені константи
+  - yaml.callbacks.md: Callback-функції »
   - index.md: PHP Manual
   - book.yaml.md: Yaml
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -59,7 +60,7 @@ var_dump($parsed == $invoice);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(631) "---

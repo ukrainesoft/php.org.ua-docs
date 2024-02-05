@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.posix.md: « POSIX Функции
-  - function.posix-ctermid.md: posixctermid »
+  - ref.posix.md: « POSIX Функції
+  - function.posix-ctermid.md: posix\_ctermid »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixaccess
+  - ref.posix.md: POSIX Функції
+title: posix\_access
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixaccess
+# posix\_access
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-posixaccess — Визначає доступність файлу
+posix\_access — Визначає доступність файлу
 
 ### Опис
 
@@ -18,7 +19,7 @@ posixaccess — Визначає доступність файлу
 posix_access(string $filename, int $flags = 0): bool
 ```
 
-Функція **posixaccess()** перевіряє права користувача доступу до файлу.
+Функция\*\*posix\_access()\*\*проверяет права пользователя на доступ к файлу.
 
 ### Список параметрів
 
@@ -28,17 +29,17 @@ posix_access(string $filename, int $flags = 0): bool
 
 `flags`
 
-Маска, що складається з однієї або більше констант: **`POSIX_F_OK`** **`POSIX_R_OK`** **`POSIX_W_OK`** або **`POSIX_X_OK`**
+Маска, що складається з однієї або більше констант: **`POSIX_F_OK`** **`POSIX_R_OK`** **`POSIX_W_OK`**или**`POSIX_X_OK`**
 
-**`POSIX_R_OK`** **`POSIX_W_OK`** і **`POSIX_X_OK`** перевіряють існування та доступність файлу на читання, запис та виконання . **`POSIX_F_OK`** перевіряє лише існування файлу.
+**`POSIX_R_OK`** **`POSIX_W_OK`**и**`POSIX_X_OK`** перевіряють існування та доступність файлу на читання, запис та виконання . **`POSIX_F_OK`** перевіряє лише існування файлу.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posixaccess()****
+**Пример #1 Пример использования**posix\_access()\*\*\*\*
 
 У цьому прикладі перевіряється доступність файлу на читання та запис, інакше виводиться повідомлення про помилку.
 
@@ -63,5 +64,5 @@ if (posix_access($file, POSIX_R_OK | POSIX_W_OK)) {
 
 ### Дивіться також
 
--   [posixgetlasterror()](function.posix-get-last-error.md) - Повертає номер помилки, що сталася в останній posix функції, що завершилася невдачею
--   [posixstrerror()](function.posix-strerror.md) - Повертає системне повідомлення про помилку, ґрунтуючись на отриманому номері помилки
+-   [posix\_get\_last\_error()](function.posix-get-last-error.md) \- Повертає номер помилки, що сталася в останній posix функції, що завершилася невдачею
+-   [posix\_strerror()](function.posix-strerror.md) \- Повертає системне повідомлення про помилку, ґрунтуючись на отриманому номері помилки

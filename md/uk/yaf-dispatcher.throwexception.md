@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-dispatcher.setview.md: '« YafDispatcher::setView'
-  - class.yaf-config-abstract.md: YafConfigAbstract »
+  - yaf-dispatcher.setview.md: '« Yaf\_Dispatcher::setView'
+  - class.yaf-config-abstract.md: Yaf\_Config\_Abstract »
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::throwException'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::throwException'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::throwException
+# Yaf\_Dispatcher::throwException
 
 (Yaf >=1.0.0)
 
-YafDispatcher::throwException — Вмикає/вимикає викидання винятків
+Yaf\_Dispatcher::throwException — Вмикає/вимикає викидання винятків
 
 ### Опис
 
@@ -32,7 +33,7 @@ bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafDispatcher::throwexception()****
+**Пример #1 Пример использования**Yaf\_Dispatcher::throwexception()\*\*\*\*
 
 ```php
 <?php
@@ -54,13 +55,13 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(59) "Could not find controller script /tmp/controllers/Index.php"
 ```
 
-**Приклад #2 Приклад використання **YafDispatcher::throwexception()****
+**Пример #2 Пример использования**Yaf\_Dispatcher::throwexception()\*\*\*\*
 
 ```php
 <?php
@@ -78,7 +79,7 @@ $app->run();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 PHP Catchable fatal error:  Yaf_Application::run(): Could not find controller script /tmp/controllers/Index.php in /tmp/1.php on line 12
@@ -86,5 +87,5 @@ PHP Catchable fatal error:  Yaf_Application::run(): Could not find controller sc
 
 ### Дивіться також
 
--   [YafDispatcher::catchException()](yaf-dispatcher.catchexception.md) - Включає/вимикає перехоплення винятків
--   [YafException](class.yaf-exception.md)
+-   [Yaf\_Dispatcher::catchException()](yaf-dispatcher.catchexception.md) \- Включає/вимикає перехоплення винятків
+-   [Yaf\_Exception](class.yaf-exception.md)

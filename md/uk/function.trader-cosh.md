@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-cos.md: « tradercos
-  - function.trader-dema.md: traderdema »
+  - function.trader-cos.md: « trader\_cos
+  - function.trader-dema.md: trader\_dema »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercosh
+  - ref.trader.md: Функції Trader
+title: trader\_cosh
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercosh
+# trader\_cosh
 
 (PECL trader >= 0.2.0)
 
-tradercosh — тригонометричний вектор гіперболічного косинуса.
+trader\_cosh — тригонометричний вектор гіперболічного косинуса.
 
 ### Опис
 

@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.db2-column-privileges.md: « db2columnprivileges
-  - function.db2-commit.md: db2commit »
+  - function.db2-column-privileges.md: « db2\_column\_privileges
+  - function.db2-commit.md: db2\_commit »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2columns
+title: db2\_columns
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2columns
+# db2\_columns
 
-(PECL ibmdb2> = 1.0.0)
+(PECL ibm\_db2 >= 1.0.0)
 
-db2columns — Повертає результуючий набір, що перераховує стовпці та пов'язані з ними метадані для таблиці
+db2\_columns — Повертає результуючий набір, що перераховує стовпці та пов'язані з ними метадані для таблиці
 
 ### Опис
 
 ```methodsynopsis
-db2_columns(    resource $connection,    string $qualifier = ?,    string $schema = ?,    string $table-name = ?,    string $column-name = ?): resource
+db2_columns(    resource $connection,    ?string $qualifier = null,    ?string $schema = null,    ?string $table_name = null,    ?string $column_name = null): resource
 ```
 
-Відображає результат набору повідомлень columns і associated metadata for table.
+Returns a result set listing the columns and associated metadata for a table.
 
 ### Список параметрів
 
@@ -34,11 +35,11 @@ db2_columns(    resource $connection,    string $qualifier = ?,    string $schem
 
 Схема містить таблиці. Для вибору всіх схем вкажіть `'%'`
 
-`table-name`
+`table_name`
 
 Ім'я таблиці або подання. Для вибору всіх таблиць вкажіть **`null`** або порожній рядок.
 
-`column-name`
+`column_name`
 
 Ім'я стовпця. Для вибору всіх стовпців вкажіть **`null`** або порожній рядок.
 
@@ -46,35 +47,35 @@ db2_columns(    resource $connection,    string $qualifier = ?,    string $schem
 
 Повертає ресурс оператора з результуючим набором, що містить рядки, що описують задані умовами стовпці. Рядки містять такі поля:
 
-| Имя столбца | Описание |
+| Имя столбца | Опис |
 | --- | --- |
-| TABLECAT | Ім'я каталогу. Якщо таблиця немає каталогів, це поле міститиме NULL. |
-| TABLESCHEM | Назва схеми. |
-| TABLENAME | Ім'я таблиці або подання. |
-| COLUMNNAME | Ім'я стовпця. |
-| DATATYPE | Тип даних SQL як цілого числа. |
-| TYPENAME | Текстове подання типу даних. |
-| COLUMNSIZE | Розмір стовпця як цілого числа. |
-| BUFFERLENGTH | Максимальна кількість байт, необхідне зберігання даних із цього стовпця. |
-| DECIMALDIGITS | Кількість цифр після коми, або **`null`**, якщо не застосовується. |
-| NUMPRECRADIX | Ціле число, що дорівнює `10` (якщо довжина числа вимірюється у десяткових цифрах), `2` (якщо довжина вимірюється в бітах), або **`null`** (якщо не застосовується). |
+| TABLE\_CAT | Ім'я каталогу. Якщо таблиця немає каталогів, це поле міститиме NULL. |
+| TABLE\_SCHEM | Назва схеми. |
+| TABLE\_NAME | Ім'я таблиці або подання. |
+| COLUMN\_NAME | Ім'я стовпця. |
+| DATA\_TYPE | Тип даних SQL як цілого числа. |
+| TYPE\_NAME | Текстове подання типу даних. |
+| COLUMN\_SIZE | Розмір стовпця як цілого числа. |
+| BUFFER\_LENGTH | Максимальна кількість байт, необхідне зберігання даних із цього стовпця. |
+| DECIMAL\_DIGITS | Кількість цифр після коми, або **`null`**, якщо не застосовується. |
+| NUM\_PREC\_RADIX | Ціле число, що дорівнює `10` (якщо довжина числа вимірюється у десяткових цифрах), (якщо довжина вимірюється в бітах), або **`null`** (якщо не застосовується). |
 | NULLABLE | Ціле число, що визначає, чи може стовпець набувати значення NULL. |
 | REMARKS | Опис шпальти. |
-| COLUMNDEF | Значення поля за промовчанням. |
-| SQLDATATYPE | Ціле число, що визначає довжину запису. |
-| SQLDATETIMESUB | Повертає ціле число, що описує підтип даних Datrtime або **`null`**, якщо не застосовується. |
-| CHAROCTETLENGTH | Максимальна довжина октетів для символьних типів даних. Збігається з COLUMNSIZE для однобайтових символьних даних або **`null`** для несимвольних даних. |
-| ORDINALPOSITION | Порядковий номер стовпця в таблиці. Починаються з першого. |
-| ІСNULLABLE | Рядок дорівнює 'YES', якщо стовпець може бути NULL і 'NO', якщо ні. |
+| COLUMN\_DEF | Значення поля за промовчанням. |
+| SQL\_DATA\_TYPE | Ціле число, що визначає довжину запису. |
+| SQL\_DATETIME\_SUB | Повертає ціле число, що описує підтип даних Datrtime або **`null`**, якщо не застосовується. |
+| CHAR\_OCTET\_LENGTH | Максимальна довжина октетів для символьних типів даних. Збігається з COLUMN\_SIZE для однобайтових символьних даних або **`null`** для несимвольних даних. |
+| ORDINAL\_POSITION | Порядковий номер стовпця в таблиці. Починаються з першого. |
+| IS\_NULLABLE | Рядок дорівнює 'YES', якщо стовпець може бути NULL і 'NO', якщо ні. |
 
 ### Дивіться також
 
--   [db2columnprivileges()](function.db2-column-privileges.md) - Повертає результуючий набір, що перераховує стовпці та пов'язані з ним привілеї для таблиці
--   [db2foreignkeys()](function.db2-foreign-keys.md) - Повертає набір результатів, у якому перелічені зовнішні ключі таблиці
--   [db2primarykeys()](function.db2-primary-keys.md) - Повертає набір результатів, що містить первинні ключі таблиці
--   [db2procedurecolumns()](function.db2-procedure-columns.md) - Повертає набір результатів зі списком параметрів процедури, що зберігається.
--   [db2procedures()](function.db2-procedures.md) - Повертає набір результатів, в якому перераховані процедури, що зберігаються, зареєстровані в базі даних
--   [db2specialcolumns()](function.db2-special-columns.md) - Повертає набір результатів, у якому перераховані стовпці з унікальним ідентифікатором рядка таблиці
--   [db2statistics()](function.db2-statistics.md) - Повертає набір результатів, що містить індекс та статистику таблиці
--   [db2tableprivileges()](function.db2-table-privileges.md) - Повертає набір результатів, у якому перелічені таблиці та пов'язані з ними права доступу до бази даних
--   [db2tables()](function.db2-tables.md) - Повертає набір результатів, у якому перелічені таблиці та пов'язані метадані в базі даних
+-   [db2\_column\_privileges()](function.db2-column-privileges.md) \- Повертає результуючий набір, що перераховує стовпці та пов'язані з ним привілеї для таблиці
+-   [db2\_foreign\_keys()](function.db2-foreign-keys.md) \- Повертає набір результатів, у якому перелічені зовнішні ключі таблиці
+-   [db2\_primary\_keys()](function.db2-primary-keys.md) \- Повертає набір результатів, що містить первинні ключі таблиці
+-   [db2\_procedure\_columns()](function.db2-procedure-columns.md) \- Повертає набір результатів зі списком параметрів процедури, що зберігається.
+-   [db2\_procedures()](function.db2-procedures.md) \- Повертає набір результатів, в якому перераховані процедури, що зберігаються, зареєстровані в базі даних
+-   [db2\_special\_columns()](function.db2-special-columns.md) \- Повертає набір результатів, у якому перераховані стовпці з унікальним ідентифікатором рядка таблиці
+-   [db2\_statistics()](function.db2-statistics.md) \- Повертає набір результатів, що містить індекс та статистику таблиці
+-   [db2\_table\_privileges()](function.db2-table-privileges.md) \- Повертає набір результатів, у якому перелічені таблиці та пов'язані з ними права доступу до бази даних
+-   [db2\_tables()](function.db2-tables.md) \- Повертає набір результатів, у якому перелічені таблиці та пов'язані метадані в базі даних

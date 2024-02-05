@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-session.releasesavepoint.md: '« Session::releaseSavepoint'
   - mysql-xdevapi-session.rollbackto.md: 'Session::rollbackTo »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::rollback'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::rollback
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Session::rollback(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::rollback()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::rollback()\*\*\*\*
 
 ```php
 <?php

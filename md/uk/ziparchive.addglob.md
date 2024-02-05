@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::addGlob'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::addGlob
 
@@ -20,13 +21,13 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
 
 Додати файли з директорії відповідно до шаблону `pattern`
 
-> **Зауваження**: Для максимальної переносимості, рекомендується завжди використовувати прямі сліші (`/`) як роздільник директорій в іменах файлів.
+> **Зауваження**: Для максимальної переносимості, рекомендується завжди використовувати прямі сліші ( ) як роздільник директорій в іменах файлів.
 
 ### Список параметрів
 
 `pattern`
 
-Шаблон функції [glob()](function.glob.md), за яким вибиратимуться файли.
+Шаблон функции[glob()](function.glob.md), за яким вибиратимуться файли.
 
 `flags`
 
@@ -38,7 +39,7 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
 
 -   `"add_path"`
     
-    Префікс, який додаватиметься на початок локального шляху в архіві. Накладається після застосування операцій, заданих у `"remove_path"` або `"remove_all_path"`
+    Префікс, який додаватиметься на початок локального шляху в архіві. Накладається після застосування операцій, заданих у`"remove_path"`или`"remove_all_path"`
     
 -   `"remove_path"`
     
@@ -46,15 +47,15 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
     
 -   `"remove_all_path"`
     
-    Встановіть як **`true`** для використання лише імені файлів та складання їх у корінь архіву.
+    Встановіть як\*\*`true`\*\*для використання лише імені файлів та складання їх у корінь архіву.
     
 -   `"flags"`
     
-    Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константи](zip.constants.md)
+    Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`** \*\*`ZipArchive::FL_OPEN_FILE_NOW`\*\*Поведение констант описано на странице[ZIP-константи](zip.constants.md)
     
 -   `"comp_method"`
     
-    Метод стиснення, одна з констант **`ZipArchive::CM_*`**, дивіться сторінку [константи ZIP](zip.constants.md)
+    Метод сжатия, одна из констант\*\*`ZipArchive::CM_*`\*\*, дивіться сторінку[константи ZIP](zip.constants.md)
     
 -   `"comp_flags"`
     
@@ -62,7 +63,7 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
     
 -   `"enc_method"`
     
-    Метод шифрування, одна з констант **`ZipArchive::EM_*`**, дивіться сторінку [константи ZIP](zip.constants.md)
+    Метод шифрования, одна из констант\*\*`ZipArchive::EM_*`\*\*, дивіться сторінку[константи ZIP](zip.constants.md)
     
 -   `"enc_password"`
     
@@ -71,18 +72,19 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
 
 ### Значення, що повертаються
 
-Масив (array) доданих файлів у разі успішного виконання або **`false`** у разі виникнення помилки Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Масив (array) доданих файлів у разі успішного виконання або **`false`** у разі виникнення помилки Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Доданий параметр `"flags"` в `options` |
-|  | Додані параметри `"comp_method"` `"comp_flags"` `"enc_method"` і `"enc_password"` в `options` |
+| 8.0.0 / 1.18.0 | Добавлен параметр`"flags"`в`options` |
+| 8.0.0 / 1.18.1 | Додані параметри `"comp_method"` `"comp_flags"` `"enc_method"`и`"enc_password"`в`options` |
+| 8.3.0 / 1.22.1 | Добавлена константа\*\*`ZipArchive::FL_OPEN_FILE_NOW`\*\* |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ZipArchive::addGlob()****
+**Пример #1 Пример использования**ZipArchive::addGlob()\*\*\*\*
 
 Додати до архіву всі текстові файли та файли скриптів PHP з поточної директорії
 
@@ -102,5 +104,5 @@ if ($ret !== TRUE) {
 
 ### Дивіться також
 
--   [ZipArchive::addFile()](ziparchive.addfile.md) - Додає до ZIP-архіву файл по зазначеному шляху
--   [ZipArchive::addPattern()](ziparchive.addpattern.md) - Додати файли з директорії відповідно до шаблону регулярного вираження PCRE
+-   [ZipArchive::addFile()](ziparchive.addfile.md) \- Додає до ZIP-архіву файл по зазначеному шляху
+-   [ZipArchive::addPattern()](ziparchive.addpattern.md) \- Додати файли з директорії відповідно до шаблону регулярного вираження PCRE

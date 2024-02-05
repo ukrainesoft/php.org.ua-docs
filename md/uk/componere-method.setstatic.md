@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-method.setprotected.md: '« ComponereMethod::setProtected'
-  - componere-method.getreflector.md: 'ComponereMethod::getReflector »'
+  - componere-method.setprotected.md: '« Componere\\Method::setProtected'
+  - componere-method.getreflector.md: 'Componere\\Method::getReflector »'
   - index.md: PHP Manual
-  - class.componere-method.md: ComponereMethod
-title: 'ComponereMethod::setStatic'
+  - class.componere-method.md: Componere\\Method
+title: 'Componere\\Method::setStatic'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereMethod::setStatic
+# Componere\\Method::setStatic
 
 (Componere 2 >= 2.1.0)
 
-ComponereMethod::setStatic — Зміна доступності
+Componere\\Method::setStatic — Зміна доступності
 
 ### Опис
 

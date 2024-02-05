@@ -1,25 +1,26 @@
 ---
 navigation:
-  - ref.fileinfo.md: « Функции модуля Fileinfo
-  - function.finfo-close.md: finfoclose »
+  - ref.fileinfo.md: « Функції модуля Fileinfo
+  - function.finfo-close.md: finfo\_close »
   - index.md: PHP Manual
-  - ref.fileinfo.md: Функции модуля Fileinfo
-title: finfobuffer
+  - ref.fileinfo.md: Функції модуля Fileinfo
+title: finfo\_buffer
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# finfobuffer
+# finfo\_buffer
 
 # finfo::buffer
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-finfobuffer -- finfo::buffer — Повертає інформацію про рядок буфера
+finfo\_buffer -- finfo::buffer — Повертає інформацію про рядок буфера
 
 ### Опис
 
 Процедурний стиль
 
 ```methodsynopsis
-finfo_buffer(    finfo $finfo,    string $string,    int $flags = FILEINFO_NONE,    ?resource $context = null): string|false
+finfo_buffer(    finfo $finfo,    string $string,    int $flags = FILEINFO_NONE,    ?resource $context = null): string|false
 ```
 
 Об'єктно-орієнтований стиль
@@ -34,7 +35,7 @@ public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $cont
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.md)
+Екземпляр [finfo](class.finfo.md), що повертається функцією [finfo\_open()](function.finfo-open.md)
 
 `string`
 
@@ -48,18 +49,18 @@ public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $cont
 
 ### Значення, що повертаються
 
-Повертає текстовий опис для аргументу `string` або **`false`** у разі виникнення помилки.
+Повертає текстовий опис для аргументу `string`или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `context` тепер допускає значення null. |
+| 8.1.0 | Параметр`finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `context` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад [finfobuffer()](finfo.buffer.md)**
+**Пример #1 Пример[finfo\_buffer()](finfo.buffer.md)**
 
 ```php
 <?php
@@ -68,7 +69,7 @@ echo $finfo->buffer($_POST["script"]) . "\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 application/x-sh; charset=us-ascii
@@ -76,4 +77,4 @@ application/x-sh; charset=us-ascii
 
 ### Дивіться також
 
--   [finfofile()](finfo.file.md) - Псевдонім finfofile()
+-   [finfo\_file()](finfo.file.md) \- Псевдонім finfo\_file()

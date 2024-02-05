@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::setMetadata'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::setMetadata
 
@@ -18,13 +19,13 @@ Phar::setMetadata — Встановити метадані phar-архіву
 public Phar::setMetadata(mixed $metadata): void
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly`в . В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-Функція **Phar::setMetadata()** використовується для збереження даних, що характеризують phar-архів загалом . [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.md) використовується для встановлення метаданих для файлу. Якщо метаданих буде багато, це може знизити швидкість завантаження phar-архіву.
+Функция**Phar::setMetadata()** використовується для збереження даних, що характеризують phar-архів загалом . [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.md) використовується для встановлення метаданих для файлу. Якщо метаданих буде багато, це може знизити швидкість завантаження phar-архіву.
 
-Метадані можна використовувати, наприклад, для вказівки, який файл повинен виконуватися під час завантаження, або для вказівки розташування маніфесту, типу package.xml для модуля [» PEAR](https://pear.php.net/). Загалом будь-які корисні в контексті phar-архіву дані.
+Метадані можна використовувати, наприклад, для вказівки, який файл повинен виконуватися під час завантаження, або для вказівки розташування маніфесту, типу package.xml для модуля [» PEAR](https://pear.php.net/). Загалом будь-які корисні в контексті phar-архіву дані.
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ public Phar::setMetadata(mixed $metadata): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::setMetadata()****
+**Пример #1 Пример использования**Phar::setMetadata()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {
@@ -66,6 +67,6 @@ array(1) {
 
 ### Дивіться також
 
--   [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані phar-архіву
--   [Phar::delMetadata()](phar.delmetadata.md) - Видалити глобальні метадані в архіві phar
--   [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить phar-архів глобальні метадані
+-   [Phar::getMetadata()](phar.getmetadata.md) \- Витягти метадані phar-архіву
+-   [Phar::delMetadata()](phar.delmetadata.md) \- Видалити глобальні метадані в архіві phar
+-   [Phar::hasMetadata()](phar.hasmetadata.md) \- Перевірити, чи містить phar-архів глобальні метадані

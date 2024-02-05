@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-bin2hex.md: « sodiumbin2hex
-  - function.sodium-crypto-aead-aes256gcm-decrypt.md: sodiumcryptoaeadaes256gcmdecrypt »
+  - function.sodium-bin2hex.md: « sodium\_bin2hex
+  - function.sodium-crypto-aead-aes256gcm-decrypt.md: sodium\_crypto\_aead\_aes256gcm\_decrypt »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcompare
+  - ref.sodium.md: Опції Sodium
+title: sodium\_compare
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcompare
+# sodium\_compare
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcompare — Порівняти великі числа
+sodium\_compare — Порівняти великі числа
 
 ### Опис
 
@@ -32,8 +33,8 @@ sodium_compare(string $string1, string $string2): int
 
 ### Значення, що повертаються
 
-Повертає `-1`, якщо `string1` менше `string2`
+Повертає `-1`, якщо `string1`меньше`string2`
 
-Повертає `1`, якщо `string1` більше `string2`
+Повертає , якщо `string1`больше`string2`
 
-Повертає `0`якщо рядки рівні.
+Повертає якщо рядки рівні.

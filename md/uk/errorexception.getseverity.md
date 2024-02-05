@@ -1,14 +1,15 @@
 ---
 navigation:
-  - errorexception.construct.md: '« ErrorException::construct'
-  - class.error.md: Error »
+  - errorexception.construct.md: '« ErrorException::\_\_construct'
+  - class.closedgeneratorexception.md: ClosedGeneratorException »
   - index.md: PHP Manual
   - class.errorexception.md: ErrorException
 title: 'ErrorException::getSeverity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ErrorException::getSeverity
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ErrorException::getSeverity — Отримує серйозність виключення
 
@@ -30,7 +31,7 @@ final public ErrorException::getSeverity(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ErrorException::getSeverity()****
+**Пример #1 Пример использования**ErrorException::getSeverity()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Серьёзность этого исключения равна: 256

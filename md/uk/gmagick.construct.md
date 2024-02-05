@@ -4,17 +4,18 @@ navigation:
   - gmagick.cropimage.md: 'Gmagick::cropimage »'
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
-title: 'Gmagick::construct'
+title: 'Gmagick::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Gmagick::construct
+# Gmagick::\_\_construct
 
 (PECL gmagick >= Unknown)
 
-Gmagick::construct — Конструктор об'єкту Gmagick
+Gmagick::\_\_construct — Конструктор об'єкту Gmagick
 
 ### Опис
 
-public **Gmagick::construct**(string `$filename`
+public**Gmagick::\_\_construct**(string`$filename`
 
 Конструктор об'єкту [Gmagick](class.gmagick.md)
 
@@ -26,4 +27,4 @@ public **Gmagick::construct**(string `$filename`
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

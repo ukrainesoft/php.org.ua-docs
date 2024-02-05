@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xml-parser-create-ns.md: « xmlparsercreateнс
-  - function.xml-parser-free.md: xmlparserfree »
+  - function.xml-parser-create-ns.md: « xml\_parser\_create\_ns
+  - function.xml-parser-free.md: xml\_parser\_free »
   - index.md: PHP Manual
-  - ref.xml.md: Функции парсера XML
-title: xmlparsercreate
+  - ref.xml.md: Функції парсера XML
+title: xml\_parser\_create
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlparsercreate
+# xml\_parser\_create
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xmlparsercreate — Створення XML-аналізатора
+xml\_parser\_create — Створення XML-аналізатора
 
 ### Опис
 
@@ -18,26 +19,26 @@ xmlparsercreate — Створення XML-аналізатора
 xml_parser_create(?string $encoding = null): XMLParser
 ```
 
-**xmlparsercreate()** створює новий XML-аналізатор та повертає екземпляр [XMLParser](class.xmlparser.md), який можна використовувати в інших функціях XML.
+**xml\_parser\_create()** створює новий XML-аналізатор та повертає екземпляр [XMLParser](class.xmlparser.md), який можна використовувати в інших функціях XML.
 
 ### Список параметрів
 
 `encoding`
 
-Кодування вхідних даних визначається автоматично, а параметр `encoding` задає кодування тільки для даних, що виводяться. Якщо передається порожній рядок, аналізатор спробує визначити кодування, переглядаючи перші 3 або 4 байти. Стандартне кодування - UTF-8. Список підтримуваних кодувань: `ISO-8859-1` `UTF-8` і `US-ASCII`
+Кодування вхідних даних визначається автоматично, а параметр `encoding` задає кодування тільки для даних, що виводяться. Якщо передається порожній рядок, аналізатор спробує визначити кодування, переглядаючи перші 3 або 4 байти. Стандартне кодування - UTF-8. Список підтримуваних кодувань: `ISO-8859-1` `UTF-8`и`US-ASCII`
 
 ### Значення, що повертаються
 
-Повертає новий екземпляр [XMLParser](class.xmlparser.md) або **`false`** у разі виникнення помилки.
+Повертає новий екземпляр [XMLParser](class.xmlparser.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функція тепер повертає екземпляр [XMLParser](class.xmlparser.md); раніше повертався ресурс (resource) або **`false`** у разі виникнення помилки. |
-|  | `encoding` тепер допускає значення null. |
+| 8.0.0 | Функція тепер повертає екземпляр [XMLParser](class.xmlparser.md); раніше повертався ресурс (resource) або \*\*`false`\*\*в случае возникновения ошибки. |
+| 8.0.0 | `encoding` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [xmlparsercreatens()](function.xml-parser-create-ns.md) - Створення XML-аналізатора з підтримкою просторів імен
--   [xmlparserfree()](function.xml-parser-free.md) - Звільнення XML-аналізатора
+-   [xml\_parser\_create\_ns()](function.xml-parser-create-ns.md) \- Створення XML-аналізатора з підтримкою просторів імен
+-   [xml\_parser\_free()](function.xml-parser-free.md) \- Звільнення XML-аналізатора

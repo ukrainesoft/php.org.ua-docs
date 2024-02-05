@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-channel.construct.md: '« SwooleChannel::construct'
-  - swoole-channel.pop.md: 'SwooleChannel::pop »'
+  - swoole-channel.construct.md: '« Swoole\\Channel::\_\_construct'
+  - swoole-channel.pop.md: 'Swoole\\Channel::pop »'
   - index.md: PHP Manual
-  - class.swoole-channel.md: SwooleChannel
-title: 'SwooleChannel::destruct'
+  - class.swoole-channel.md: Swoole\\Channel
+title: 'Swoole\\Channel::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleChannel::destruct
+# Swoole\\Channel::\_\_destruct
 
 (PECL swoole >= 1.9.0)
 
-SwooleChannel::destruct — Знищує канал Swoole
+Swoole\\Channel::\_\_destruct — Знищує канал Swoole
 
 ### Опис
 

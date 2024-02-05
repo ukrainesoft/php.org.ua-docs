@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::periodic'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::periodic
 
@@ -17,20 +18,20 @@ EvLoop::periodic — Створює об'єкт спостерігача EvPerio
 ```methodsynopsis
 final
    public
-   EvLoop::periodic(    
+   EvLoop::periodic(    
     float
      $offset
-   ,    
+   ,    
     float
      $interval
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -41,7 +42,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvPeriodic::construct()](evperiodic.construct.md)
+Усі параметри, що й для [EvPeriodic::\_\_construct()](evperiodic.construct.md)
 
 ### Значення, що повертаються
 
@@ -49,4 +50,4 @@ final
 
 ### Дивіться також
 
--   [EvPeriodic::construct()](evperiodic.construct.md) - Конструктор об'єкта спостерігача EvPeriodic
+-   [EvPeriodic::\_\_construct()](evperiodic.construct.md) \- Конструктор об'єкта спостерігача EvPeriodic

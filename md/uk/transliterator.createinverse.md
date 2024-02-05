@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.transliterator.md: Transliterator
 title: 'Transliterator::createInverse'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Transliterator::createInverse
 
-# transliteratorcreateinverse
+# transliterator\_create\_inverse
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-Transliterator::createInverse -- transliteratorcreateinverse — Створити інвертований транслітератор
+Transliterator::createInverse -- transliterator\_create\_inverse — Створити інвертований транслітератор
 
 ### Опис
 
@@ -32,7 +33,7 @@ transliterator_create_inverse(Transliterator $transliterator): ?Transliterator
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -40,9 +41,9 @@ transliterator_create_inverse(Transliterator $transliterator): ?Transliterator
 
 ### Значення, що повертаються
 
-Повертає об'єкт [Transliterator](class.transliterator.md) або **`null`** у разі виникнення помилки.
+Повертає об'єкт [Transliterator](class.transliterator.md)или\*\*`null`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) - Отримати останнє повідомлення про помилку
--   [Transliterator::create()](transliterator.create.md) - Створити транслітератор
+-   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) \- Отримати останнє повідомлення про помилку
+-   [Transliterator::create()](transliterator.create.md) \- Створити транслітератор

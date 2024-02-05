@@ -3,8 +3,9 @@ navigation:
   - migration73.new-functions.md: « Нові функції
   - migration73.incompatible.md: 'Зміни, що ламають зворотну сумісність »'
   - index.md: PHP Manual
-  - migration73.md: Миграция с PHP 7.2.x на PHP 7.3.x
+  - migration73.md: Міграція з PHP 7.2.x на PHP 7.3.x
 title: Нові глобальні константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Нові глобальні константи
 
@@ -78,11 +79,11 @@ title: Нові глобальні константи
 -   **`CURL_SSLVERSION_MAX_TLSv1_2`**
 -   **`CURL_SSLVERSION_MAX_TLSv1_3`**
 -   **`CURL_SSLVERSION_TLSv1_3`**
--   **`CURL_VERSION_ALTSVC`** (починаючи з PHP 7.3.6)
+-   **`CURL_VERSION_ALTSVC`**(починаючи з PHP 7.3.6)
 -   **`CURL_VERSION_ASYNCHDNS`**
 -   **`CURL_VERSION_BROTLI`**
 -   **`CURL_VERSION_CONV`**
--   **`CURL_VERSION_CURLDEBUG`** (починаючи з PHP 7.3.6)
+-   **`CURL_VERSION_CURLDEBUG`**(починаючи з PHP 7.3.6)
 -   **`CURL_VERSION_DEBUG`**
 -   **`CURL_VERSION_GSSAPI`**
 -   **`CURL_VERSION_GSSNEGOTIATE`**
@@ -92,7 +93,7 @@ title: Нові глобальні константи
 -   **`CURL_VERSION_MULTI_SSL`**
 -   **`CURL_VERSION_NTLM`**
 -   **`CURL_VERSION_NTLM_WB`**
--   **`CURL_VERSION_PSL`** (починаючи з PHP 7.3.6)
+-   **`CURL_VERSION_PSL`**(починаючи з PHP 7.3.6)
 -   **`CURL_VERSION_SPNEGO`**
 -   **`CURL_VERSION_SSPI`**
 -   **`CURL_VERSION_TLSAUTH_SRP`**

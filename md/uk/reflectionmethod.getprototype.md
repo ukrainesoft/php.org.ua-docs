@@ -1,14 +1,15 @@
 ---
 navigation:
   - reflectionmethod.getmodifiers.md: '« ReflectionMethod::getModifiers'
-  - reflectionmethod.invoke.md: 'ReflectionMethod::invoke »'
+  - reflectionmethod.hasprototype.md: 'ReflectionMethod::hasPrototype »'
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::getPrototype'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionMethod::getPrototype
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 ReflectionMethod::getPrototype — Отримує прототип методу (якщо такий є)
 
@@ -26,15 +27,15 @@ public ReflectionMethod::getPrototype(): ReflectionMethod
 
 ### Значення, що повертаються
 
-Об'єкт [ReflectionMethod](class.reflectionmethod.md) методу прототипу.
+Об'єкт [ReflectionMethod](class.reflectionmethod.md)прототипа метода.
 
 ### Помилки
 
-Виняток [ReflectionException](class.reflectionexception.md) викидається, якщо метод не має прототипу.
+Исключение[ReflectionException](class.reflectionexception.md) викидається, якщо метод не має прототипу.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionMethod::getPrototype()****
+**Пример #1 Пример использования**ReflectionMethod::getPrototype()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_dump($reflectionMethod->getPrototype());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(ReflectionMethod)#2 (2) {
@@ -71,4 +72,5 @@ object(ReflectionMethod)#2 (2) {
 
 ### Дивіться також
 
--   [ReflectionMethod::getModifiers()](reflectionmethod.getmodifiers.md) - Отримує модифікатори методу
+-   [ReflectionMethod::getModifiers()](reflectionmethod.getmodifiers.md) \- Отримує модифікатори методу
+-   [ReflectionMethod::hasPrototype()](reflectionmethod.hasprototype.md) \- Визначає, чи має метод прототип

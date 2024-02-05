@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflectiongenerator.construct.md: '« ReflectionGenerator::construct'
+  - reflectiongenerator.construct.md: '« ReflectionGenerator::\_\_construct'
   - reflectiongenerator.getexecutinggenerator.md: 'ReflectionGenerator::getExecutingGenerator »'
   - index.md: PHP Manual
   - class.reflectiongenerator.md: ReflectionGenerator
 title: 'ReflectionGenerator::getExecutingFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionGenerator::getExecutingFile
 
@@ -30,7 +31,7 @@ public ReflectionGenerator::getExecutingFile(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionGenerator::getExecutingFile()****
+**Пример #1 Пример использования**ReflectionGenerator::getExecutingFile()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ $reflectionGen = new ReflectionGenerator($gen);
 echo "Файл: {$reflectionGen->getExecutingFile()}";
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Файл: /path/to/file/example.php
@@ -58,5 +59,5 @@ echo "Файл: {$reflectionGen->getExecutingFile()}";
 
 ### Дивіться також
 
--   [ReflectionGenerator::getExecutingLine()](reflectiongenerator.getexecutingline.md) - Отримати поточний рядок генератора, що виконується
--   [ReflectionGenerator::getExecutingGenerator()](reflectiongenerator.getexecutinggenerator.md) - Отримати запущений об'єкт Generator
+-   [ReflectionGenerator::getExecutingLine()](reflectiongenerator.getexecutingline.md) \- Отримати поточний рядок генератора, що виконується
+-   [ReflectionGenerator::getExecutingGenerator()](reflectiongenerator.getexecutinggenerator.md) \- Отримати запущений об'єкт Generator

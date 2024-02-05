@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3.md: SQLite3
 title: 'SQLite3::changes'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3::changes
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::changes — Отримати кількість рядків, які були змінені/віддалені/вставлені останнім запитом
 
@@ -30,7 +31,7 @@ public SQLite3::changes(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SQLite3::changes()****
+**Пример #1 Пример использования**SQLite3::changes()\*\*\*\*
 
 ```php
 <?php

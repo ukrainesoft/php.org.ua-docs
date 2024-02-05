@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-tableselect.execute.md: '« TableSelect::execute'
   - mysql-xdevapi-tableselect.having.md: 'TableSelect::having »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysql\_xdevapi\\TableSelect
 title: 'TableSelect::groupBy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableSelect::groupBy
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableSelect::groupBy(mixed $sort_expr): mysql_xdevapi\Table
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::groupBy()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::groupBy()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ print_r($row);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - filters.md: Список доступних фільтрів
 title: Перетворюючі фільтри
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Перетворюючі фільтри
 
-Як і фільтри string.фільтри convert. вчиняють дії, що відповідають їхнім іменам. Для отримання додаткової інформації про конкретний фільтр зверніться до сторінки посібника відповідної функції.
+Як і фільтри string.\*, фільтри convert.\* вчиняють дії, що відповідають їхнім іменам. Для отримання додаткової інформації про конкретний фільтр зверніться до сторінки посібника відповідної функції.
 
 ## convert.base64-encode та convert.base64-decode
 
-Використання цих фільтрів еквівалентно обробці всіх даних потоку функціями [base64encode()](function.base64-encode.md) і [base64decode()](function.base64-decode.md) відповідно . `convert.base64-encode` підтримує аргументи, передані як асоціативного масиву. Якщо вказано аргумент `line-length`, результат base64 буде поділений на шматки довгої `line-length` символи кожен. Якщо вказано аргумент `line-break-chars`, кожен шматок буде поділено вказаними символами. Ці параметри дають такий самий ефект, як і використання [base64encode()](function.base64-encode.md) у парі з [chunksplit()](function.chunk-split.md)
+Використання цих фільтрів еквівалентно обробці всіх даних потоку функціями [base64\_encode()](function.base64-encode.md) і [base64\_decode()](function.base64-decode.md)соответственно`convert.base64-encode` підтримує аргументи, передані як асоціативного масиву. Якщо вказано аргумент `line-length`, результат base64 буде поділено на шматки довгої `line-length` символи кожен. Якщо вказано аргумент `line-break-chars`, кожен шматок буде поділено вказаними символами. Ці параметри дають такий самий ефект, як і використання [base64\_encode()](function.base64-encode.md)в паре с[chunk\_split()](function.chunk-split.md)
 
 **Приклад #1 convert.base64-encode та convert.base64-decode**
 
@@ -43,7 +44,7 @@ fclose($fp);
 
 ## convert.quoted-printable-encode та convert.quoted-printable-decode
 
-Використання decode-версії цього фільтра еквівалентно обробці всіх даних потоку функцією [quotedprintabledecode()](function.quoted-printable-decode.md). Фільтр `convert.quoted-printable-encode` немає еквівалентної функції . `convert.quoted-printable-encode` підтримує аргументи, передані як асоціативного масиву. На додаток до аргументів, що підтримуються `convert.base64-encode` `convert.quoted-printable-encode` також підтримує boolean-аргументи `binary` і `force-encode-first`. . `convert.base64-decode` підтримує лише аргумент `line-break-chars` як підказка для чищення закодованих даних.
+Використання decode-версії цього фільтра еквівалентно обробці всіх даних потоку функцією [quoted\_printable\_decode()](function.quoted-printable-decode.md)У фильтра`convert.quoted-printable-encode` немає еквівалентної функції . `convert.quoted-printable-encode` підтримує аргументи, передані як асоціативного масиву. На додаток до аргументів, що підтримуються `convert.base64-encode` `convert.quoted-printable-encode` також підтримує boolean-аргументи `binary`и`force-encode-first`. . `convert.base64-decode` підтримує лише аргумент `line-break-chars` як підказка для чищення закодованих даних.
 
 **Приклад #2 convert.quoted-printable-encode & convert.quoted-printable-decode**
 
@@ -56,11 +57,11 @@ fwrite($fp, "This is a test.\n");
 ?>
 ```
 
-## convert.iconv.
+## convert.iconv.\*
 
-Фільтри `convert.iconv.*` доступні, якщо включена підтримка [iconv](book.iconv.md) та їх використання аналогічно обробці потокових даних за допомогою [iconv()](function.iconv.md). Ці фільтри не підтримують параметри. Натомість очікується, що вихідне та цільове кодування були задані в імені фільтра таким чином: `convert.iconv.<input-encoding>.<output-encoding>` або `convert.iconv.<input-encoding>/<output-encoding>` (обидва варіанти семантично еквівалентні).
+Фільтри `convert.iconv.*` доступні, якщо включена підтримка [iconv](book.iconv.md) та їх використання аналогічно обробці потокових даних за допомогою [iconv()](function.iconv.md). Ці фільтри не підтримують параметри. Натомість очікується, що вихідне та цільове кодування були задані в імені фільтра таким чином: `convert.iconv.<input-encoding>.<output-encoding>`или`convert.iconv.<input-encoding>/<output-encoding>` (обидва варіанти семантично еквівалентні).
 
-**Приклад # 3 convert.iconv.**
+**Приклад # 3 convert.iconv.\***
 
 ```php
 <?php

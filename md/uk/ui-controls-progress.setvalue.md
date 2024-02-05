@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-progress.getvalue.md: '« UIControlsProgress::getValue'
-  - class.ui-controls-separator.md: ОЙControlsSeparator »
+  - ui-controls-progress.getvalue.md: '« UI\\Controls\\Progress::getValue'
+  - class.ui-controls-separator.md: UI\\Controls\\Separator »
   - index.md: PHP Manual
-  - class.ui-controls-progress.md: ОЙControlsProgress
-title: 'ОЙControlsProgress::setValue'
+  - class.ui-controls-progress.md: UI\\Controls\\Progress
+title: 'UI\\Controls\\Progress::setValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsProgress::setValue
+# UI\\Controls\\Progress::setValue
 
 (UI 0.9.9)
 
-ОЙControlsProgress::setValue — Встановити значення
+UI\\Controls\\Progress::setValue — Встановити значення
 
 ### Опис
 

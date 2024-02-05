@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashintstringhash.md: QuickHashIntStringHash
 title: 'QuickHashIntStringHash::loadFromFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntStringHash::loadFromFile
 
@@ -62,7 +63,7 @@ key/value 2 (key = 3, string index = 4 ("NINE")):
 
 `size`
 
-Кількість списків, які потрібно налаштувати. Передане число буде автоматично округлено до наступного ступеня 2. Воно також автоматично обмежується від `4` до `4194304`
+Кількість списків, які потрібно налаштувати. Передане число буде автоматично округлено до наступного ступеня 2. Воно також автоматично обмежується від `4`до`4194304`
 
 `options`
 
@@ -74,7 +75,7 @@ key/value 2 (key = 3, string index = 4 ("NINE")):
 
 ### Приклади
 
-**Приклад #3 Приклад використання **QuickHashIntStringHash::loadFromFile()****
+**Пример #3 Пример использования**QuickHashIntStringHash::loadFromFile()\*\*\*\*
 
 ```php
 <?php
@@ -93,7 +94,7 @@ foreach( range( 0, 0x0f ) as $key )
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ключ   0 ( 0) не установлен

@@ -3,8 +3,9 @@ navigation:
   - ev.run.md: '« Ev::run'
   - ev.stop.md: 'Ev::stop »'
   - index.md: PHP Manual
-  - class.ev.md: Єв
+  - class.ev.md: Ev
 title: 'Ev::sleep'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Ev::sleep
 
@@ -30,7 +31,7 @@ final
 
 `seconds`
 
-Дробова кількість секунд
+Дробна кількість секунд
 
 ### Значення, що повертаються
 

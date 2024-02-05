@@ -1,20 +1,21 @@
 ---
 navigation:
   - solrquery.collapse.md: '« SolrQuery::collapse'
-  - solrquery.destruct.md: 'SolrQuery::destruct »'
+  - solrquery.destruct.md: 'SolrQuery::\_\_destruct »'
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
-title: 'SolrQuery::construct'
+title: 'SolrQuery::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SolrQuery::construct
+# SolrQuery::\_\_construct
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrQuery::construct — Конструктор
+SolrQuery::\_\_construct — Конструктор
 
 ### Опис
 
-public **SolrQuery::construct**(string `$q`
+public**SolrQuery::\_\_construct**(string`$q`
 
 Конструктор.
 
@@ -30,10 +31,10 @@ public **SolrQuery::construct**(string `$q`
 
 ### Помилки
 
-Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.md) у разі передачі неприпустимого параметра.
+Викидає [SolrIllegalArgumentException](class.solrillegalargumentexception.md)в случае передачи недопустимого параметра.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL solr 2.0.0 | Якщо `q` був неприпустимим, викидається виняток [SolrIllegalArgumentException](class.solrillegalargumentexception.md). Раніше видавалась помилка. |
+| PECL solr 2.0.0 | Якщо `q` був неприпустимим, викидається виняток [SolrIllegalArgumentException](class.solrillegalargumentexception.md). . Раніше видавалась помилка. |

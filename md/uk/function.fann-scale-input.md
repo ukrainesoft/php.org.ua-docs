@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-scale-input-train-data.md: « fannscaleinputtraindata
-  - function.fann-scale-output-train-data.md: fannscaleoutputtraindata »
+  - function.fann-scale-input-train-data.md: « fann\_scale\_input\_train\_data
+  - function.fann-scale-output-train-data.md: fann\_scale\_output\_train\_data »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannscaleinput
+  - ref.fann.md: Функції Fann
+title: fann\_scale\_input
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannscaleinput
+# fann\_scale\_input
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannscaleinput — Масштабує дані у вхідному векторі перед подачею в ann на основі раніше розрахованих параметрів
+fann\_scale\_input — Масштабує дані у вхідному векторі перед подачею в ann на основі раніше розрахованих параметрів
 
 ### Опис
 
@@ -36,5 +37,5 @@ fann_scale_input(resource $ann, array $input_vector): bool
 
 ### Дивіться також
 
--   [fanndescaleinput()](function.fann-descale-input.md) - Масштабує дані у вхідному векторі після отримання їх на основі раніше розрахованих параметрів
--   [fannscaleoutput()](function.fann-scale-output.md) - Масштабує дані у вихідному векторі перед їх передачею в ann на основі раніше розрахованих параметрів
+-   [fann\_descale\_input()](function.fann-descale-input.md) \- Масштабує дані у вхідному векторі після отримання їх на основі раніше розрахованих параметрів
+-   [fann\_scale\_output()](function.fann-scale-output.md) \- Масштабує дані у вихідному векторі перед їх передачею в ann на основі раніше розрахованих параметрів

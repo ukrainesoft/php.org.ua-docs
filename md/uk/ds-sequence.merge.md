@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.map.md: '« DsSequence::map'
-  - ds-sequence.pop.md: 'ДсSequence::pop »'
+  - ds-sequence.map.md: '« Ds\\Sequence::map'
+  - ds-sequence.pop.md: 'Ds\\Sequence::pop »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::merge'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::merge'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::merge
+# Ds\\Sequence::merge
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::merge — Повертає результат додавання всіх заданих значень до колекції
+Ds\\Sequence::merge — Повертає результат додавання всіх заданих значень до колекції
 
 ### Опис
 
@@ -24,19 +25,19 @@ abstract public Ds\Sequence::merge(mixed $values): Ds\Sequence
 
 `values`
 
-Об'єкт класу [traversable](class.traversable.md) або array.
+Об'єкт класу [traversable](class.traversable.md)или array.
 
 ### Значення, що повертаються
 
 Результат додавання всіх переданих значень до колекції. Фактично робиться копія колекції, до якої додаються значення.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Поточний екземпляр колекції залишиться недоторканим.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::merge()****
+**Пример #1 Пример использования**Ds\\Sequence::merge()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ var_dump($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Vector)#2 (6) {

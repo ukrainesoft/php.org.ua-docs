@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evembed.md: EvEmbed
 title: 'EvEmbed::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvEmbed::set
 
@@ -28,7 +29,7 @@ public
 
 `other`
 
-Дивіться [EvEmbed::construct()](evembed.construct.md)
+Смотрите[EvEmbed::\_\_construct()](evembed.construct.md)
 
 ### Значення, що повертаються
 

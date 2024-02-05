@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::getFunctions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionExtension::getFunctions
 
@@ -30,7 +31,7 @@ public ReflectionExtension::getFunctions(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionExtension::getFunctions()****
+**Пример #1 Пример использования**ReflectionExtension::getFunctions()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ print_r($dom->getFunctions());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -65,5 +66,5 @@ Array
 
 ### Дивіться також
 
--   [ReflectionExtension::getClasses()](reflectionextension.getclasses.md) - Повертає класи
--   [getextensionfuncs()](function.get-extension-funcs.md) - Повертає масив імен функцій модуля
+-   [ReflectionExtension::getClasses()](reflectionextension.getclasses.md) \- Повертає класи
+-   [get\_extension\_funcs()](function.get-extension-funcs.md) \- Повертає масив імен функцій модуля

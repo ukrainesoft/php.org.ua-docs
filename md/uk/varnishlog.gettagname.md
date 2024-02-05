@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.varnishlog.md: VarnishLog
 title: 'VarnishLog::getTagName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # VarnishLog::getTagName
 

@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-tabledelete.orderby.md: '« TableDelete::orderby'
-  - class.mysql-xdevapi-tableinsert.md: mysqlxdevapiTableInsert »
+  - class.mysql-xdevapi-tableinsert.md: mysql\_xdevapi\\TableInsert »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete
+  - class.mysql-xdevapi-tabledelete.md: mysql\_xdevapi\\TableDelete
 title: 'TableDelete::where'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableDelete::where
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableDelete::where(string $where_expr): mysql_xdevapi\Table
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableDelete::where()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableDelete::where()\*\*\*\*
 
 ```php
 <?php

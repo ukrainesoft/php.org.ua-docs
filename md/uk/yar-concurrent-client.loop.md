@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yar-concurrent-client.call.md: '« YarConcurrentClient::call'
-  - yar-concurrent-client.reset.md: 'YarConcurrentClient::reset »'
+  - yar-concurrent-client.call.md: '« Yar\_Concurrent\_Client::call'
+  - yar-concurrent-client.reset.md: 'Yar\_Concurrent\_Client::reset »'
   - index.md: PHP Manual
-  - class.yar-concurrent-client.md: YarConcurrentClient
-title: 'YarConcurrentClient::loop'
+  - class.yar-concurrent-client.md: Yar\_Concurrent\_Client
+title: 'Yar\_Concurrent\_Client::loop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YarConcurrentClient::loop
+# Yar\_Concurrent\_Client::loop
 
 (PECL yar >= 1.0.0)
 
-YarConcurrentClient::loop — Запуск усіх зареєстрованих дзвінків
+Yar\_Concurrent\_Client::loop — Запуск усіх зареєстрованих дзвінків
 
 ### Опис
 
@@ -36,7 +37,7 @@ public static Yar_Concurrent_Client::loop(callable $callback = ?, callable $erro
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YarConcurrentClient::loop()****
+**Пример #1 Пример использования**Yar\_Concurrent\_Client::loop()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ Yar_Concurrent_Client::loop("callback", "error_callback"); //запускаем 
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Так, все запросы запущены, но пока ни одного ответа
@@ -86,7 +87,7 @@ string(11) "some_method"
 
 ### Дивіться також
 
--   [YarConcurrentClient::call()](yar-concurrent-client.call.md) - Зареєструвати конкурентний виклик
--   [YarConcurrentClient::reset()](yar-concurrent-client.reset.md) - Очистити всі зареєстровані дзвінки
--   [YarServer::construct()](yar-server.construct.md) - Конструктор YarServer
--   [YarServer::handle()](yar-server.handle.md) - Запустити сервер RPC
+-   [Yar\_Concurrent\_Client::call()](yar-concurrent-client.call.md) \- Зареєструвати конкурентний виклик
+-   [Yar\_Concurrent\_Client::reset()](yar-concurrent-client.reset.md) \- Очистити всі зареєстровані дзвінки
+-   [Yar\_Server::\_\_construct()](yar-server.construct.md) \- Конструктор Yar\_Server
+-   [Yar\_Server::handle()](yar-server.handle.md) \- Запустити сервер RPC

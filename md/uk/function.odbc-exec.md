@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-errormsg.md: « odbcerrormsg
-  - function.odbc-execute.md: odbcexecute »
+  - function.odbc-errormsg.md: « odbc\_errormsg
+  - function.odbc-execute.md: odbc\_execute »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcexec
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_exec
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcexec
+# odbc\_exec
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcexec — Виконує інструкцію SQL безпосередньо
+odbc\_exec — Виконує інструкцію SQL безпосередньо
 
 ### Опис
 
@@ -24,7 +25,7 @@ odbc_exec(resource $odbc, string $query): resource|false
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `query`
 
@@ -32,15 +33,15 @@ odbc_exec(resource $odbc, string $query): resource|false
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор результату ODBC, якщо команда SQL була успішно виконана, або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор результату ODBC, якщо команда SQL була успішно виконана, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `flags` був видалений. |
+| 8.0.0 | Параметр`flags`був видалений. |
 
 ### Дивіться також
 
--   [odbcprepare()](function.odbc-prepare.md) - готує запит до виконання
--   [odbcexecute()](function.odbc-execute.md) - Виконує запит
+-   [odbc\_prepare()](function.odbc-prepare.md) \- готує запит до виконання
+-   [odbc\_execute()](function.odbc-execute.md) \- Виконує запит

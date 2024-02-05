@@ -4,13 +4,14 @@ navigation:
   - function.print.md: print »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: parsestr
+title: parse\_str
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parsestr
+# parse\_str
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-parsestr — Розбирає рядок на змінні
+parse\_str — Розбирає рядок на змінні
 
 ### Опис
 
@@ -32,7 +33,7 @@ parse_str(string $string, array &$result): void
 
 **Увага**
 
-Використовувати цю функцію без параметра `result` конче *НЕ РЕКОМЕНДУЄТЬСЯ*. Подібне використання оголошено *Застарілим* з PHP 7.2. Починаючи з PHP 8.0.0, параметр `result` є *обов'язковим*
+Використовувати цю функцію без параметра `result`крайне*НЕ РЕКОМЕНДУЄТЬСЯ*. Подібне використання оголошено *Застарілим*с PHP 7.2. Начиная с PHP 8.0.0, параметр`result`является*обов'язковим*
 
 ### Значення, що повертаються
 
@@ -40,14 +41,14 @@ parse_str(string $string, array &$result): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `result` більше не є необов'язковим. |
-|  | Використання **parsestr()** без другого параметра буде викликати помилку рівня **`E_DEPRECATED`** |
+| 8.0.0 | `result` більше не є необов'язковим. |
+| 7.2.0 | Использование**parse\_str()** без другого параметра буде викликати помилку рівня **`E_DEPRECATED`** |
 
 ### Приклади
 
-**Приклад #1 Використання **parsestr()****
+**Пример #1 Использование**parse\_str()\*\*\*\*
 
 ```php
 <?php
@@ -69,7 +70,7 @@ echo $arr[1]; // baz
 
 Так як імена змінних PHP не можуть містити пробіли та точки, ці символи будуть замінені символом підкреслення. Такі ж правила накладаються на імена ключів у масиві `result`якщо він заданий.
 
-**Приклад #2 Співвідношення імен **parsestr()****
+**Приклад #2 Співвідношення імен **parse\_str()****
 
 ```php
 <?php
@@ -83,17 +84,17 @@ echo $output['My_Value']; // Something
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Усі змінні створюються (або заносяться до масиву) вже оброблені функцією [urldecode()](function.urldecode.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для отримання поточної `QUERY_STRING`, можна використовувати змінну [SERVER\['QUERYSTRING'\]](reserved.variables.server.md). Крім того, можливо ви захочете прочитати розділ про [змінних поза PHP](language.variables.external.md)
+> Для получения текущей`QUERY_STRING`, можна використовувати змінну [$\_SERVER\['QUERY\_STRING'\]](reserved.variables.server.md). Крім того, можливо ви захочете прочитати розділ про [змінних поза PHP](language.variables.external.md)
 
 ### Дивіться також
 
--   [parseurl()](function.parse-url.md) - Розбирає URL та повертає його компоненти
--   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу
--   [httpbuildquery()](function.http-build-query.md) - Генерує URL-кодований рядок запиту
--   [urldecode()](function.urldecode.md) - Декодування URL-кодованого рядка
+-   [parse\_url()](function.parse-url.md) \- Розбирає URL та повертає його компоненти
+-   [pathinfo()](function.pathinfo.md) \- Повертає інформацію про шлях до файлу
+-   [http\_build\_query()](function.http-build-query.md) \- Генерує URL-кодований рядок запиту
+-   [urldecode()](function.urldecode.md) \- Декодування URL-кодованого рядка

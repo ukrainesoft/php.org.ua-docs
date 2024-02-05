@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isMirrored'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isMirrored
 
 (PHP 7, PHP 8)
 
-IntlChar::isMirrored — Перевірити, якщо символ має властивість BidiMirrored
+IntlChar::isMirrored — Перевірити, якщо символ має властивість Bidi\_Mirrored
 
 ### Опис
 
@@ -18,7 +19,7 @@ IntlChar::isMirrored — Перевірити, якщо символ має вл
 public static IntlChar::isMirrored(int|string $codepoint): ?bool
 ```
 
-Перевірити, якщо у символу властивість BidiMirrored.
+Перевірити, якщо у символу властивість Bidi\_Mirrored.
 
 Ця властивість зазвичай є у символів, що використовуються в контексті написання справа наліво, які необхідно відобразити "дзеркальними" гліфами.
 
@@ -26,11 +27,11 @@ public static IntlChar::isMirrored(int|string $codepoint): ?bool
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `codepoint` має властивість BidiMirrored, **`false`** - якщо ні. У разі виникнення помилки повертає **`null`**
+Повертає **`true`**, якщо `codepoint`имеет свойство Bidi\_Mirrored,**`false`** - якщо ні. У разі виникнення помилки повертає **`null`**
 
 ### Приклади
 
@@ -44,7 +45,7 @@ var_dump(IntlChar::isMirrored("("));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)

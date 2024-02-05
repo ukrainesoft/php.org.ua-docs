@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.eio-seek.md: « eioseek
-  - function.eio-set-max-idle.md: eiosetmaxidle »
+  - function.eio-seek.md: « eio\_seek
+  - function.eio-set-max-idle.md: eio\_set\_max\_idle »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiosendfile
+  - ref.eio.md: Eio Функції
+title: eio\_sendfile
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiosendfile
+# eio\_sendfile
 
 (PECL eio >= 0.0.1dev)
 
-eiosendfile — Переміщує дані між файлами
+eio\_sendfile — Переміщує дані між файлами
 
 ### Опис
 
 ```methodsynopsis
-eio_sendfile(    mixed $out_fd,    mixed $in_fd,    int $offset,    int $length,    int $pri = ?,    callable $callback = ?,    string $data = ?): resource
+eio_sendfile(    mixed $out_fd,    mixed $in_fd,    int $offset,    int $length,    int $pri = ?,    callable $callback = ?,    string $data = ?): resource
 ```
 
-**eiosendfile()** копіює дані з одного файлу до іншого. Дивіться додатковий опис `SENDFILE(2)`
+**eio\_sendfile()** копіює дані з одного файлу до іншого. Дивіться додатковий опис `SENDFILE(2)`
 
 ### Список параметрів
 
@@ -40,11 +41,11 @@ eio_sendfile(    mixed $out_fd,    mixed $in_fd,    int $offset,    int $length,
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -60,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
@@ -68,4 +69,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-**eiosendfile()** повертає ресурс запиту у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_sendfile()** повертає ресурс запиту у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

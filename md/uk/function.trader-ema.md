@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-dx.md: « traderдкс
-  - function.trader-errno.md: tradererrno »
+  - function.trader-dx.md: « trader\_dx
+  - function.trader-errno.md: trader\_errno »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderema
+  - ref.trader.md: Функції Trader
+title: trader\_ema
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderema
+# trader\_ema
 
 (PECL trader >= 0.2.0)
 
-traderema - Експоненційна ковзна середня
+trader\_ema - Експоненційна ковзна середня
 
 ### Опис
 

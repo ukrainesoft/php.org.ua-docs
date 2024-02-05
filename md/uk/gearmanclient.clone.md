@@ -1,10 +1,11 @@
 ---
 navigation:
   - gearmanclient.clearcallbacks.md: '« GearmanClient::clearCallbacks'
-  - gearmanclient.construct.md: 'GearmanClient::construct »'
+  - gearmanclient.construct.md: 'GearmanClient::\_\_construct »'
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::clone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::clone
 
@@ -26,4 +27,4 @@ public GearmanClient::clone(): GearmanClient
 
 ### Значення, що повертаються
 
-[GearmanClient](class.gearmanclient.md) у разі успішного виконання, **`false`** у разі невдачі.
+[GearmanClient](class.gearmanclient.md) у разі успішного виконання, \*\*`false`\*\*в случае неудачи.

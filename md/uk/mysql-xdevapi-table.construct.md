@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.mysql-xdevapi-table.md: « mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: « mysql\_xdevapi\\Table
   - mysql-xdevapi-table.count.md: 'Table::count »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
-title: 'Table::construct'
+  - class.mysql-xdevapi-table.md: mysql\_xdevapi\\Table
+title: 'Table::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Table::construct
+# Table::\_\_construct
 
 (No version information available, might only be in Git)
 
-Table::construct — Конструктор Table
+Table::\_\_construct — Конструктор Table
 
 ### Опис
 
-private **mysqlxdevapiTable::construct**
+private**mysql\_xdevapi\\Table::\_\_construct**()
 
 Створити об'єкти таблиці.
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiTable::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTable::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Table::\_\_construct()\*\*\*\*
 
 ```php
 <?php

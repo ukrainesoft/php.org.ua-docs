@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-midpoint.md: « tradermidpoint
-  - function.trader-min.md: tradermin »
+  - function.trader-midpoint.md: « trader\_midpoint
+  - function.trader-min.md: trader\_min »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermidprice
+  - ref.trader.md: Функції Trader
+title: trader\_midprice
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermidprice
+# trader\_midprice
 
 (PECL trader >= 0.2.0)
 
-tradermidprice — Середня ціна за період
+trader\_midprice — Середня ціна за період
 
 ### Опис
 

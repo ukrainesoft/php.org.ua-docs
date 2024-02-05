@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageColorspace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageColorspace
 
@@ -24,7 +25,7 @@ public Imagick::setImageColorspace(int $colorspace): bool
 
 `colorspace`
 
-Одна з [COLORSPACE констант](imagick.constants.md#imagick.constants.colorspace)
+Одна из[COLORSPACE констант](imagick.constants.md#imagick.constants.colorspace)
 
 ### Значення, що повертаються
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-control.hide.md: '« UIControl::hide'
-  - ui-control.isvisible.md: 'ОЙControl::isVisible »'
+  - ui-control.hide.md: '« UI\\Control::hide'
+  - ui-control.isvisible.md: 'UI\\Control::isVisible »'
   - index.md: PHP Manual
-  - class.ui-control.md: ОЙControl
-title: 'ОЙControl::isEnabled'
+  - class.ui-control.md: UI\\Control
+title: 'UI\\Control::isEnabled'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControl::isEnabled
+# UI\\Control::isEnabled
 
 (UI 0.9.9)
 
-ОЙControl::isEnabled — Визначити, чи увімкнено керуючий елемент
+UI\\Control::isEnabled — Визначити, чи увімкнено керуючий елемент
 
 ### Опис
 

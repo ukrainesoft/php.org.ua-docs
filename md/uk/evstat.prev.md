@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evstat.md: EvStat
 title: 'EvStat::prev'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvStat::prev
 
@@ -31,5 +32,5 @@ public
 
 ### Дивіться також
 
--   [EvStat::attr()](evstat.attr.md) - Повертає значення, нещодавно виявлені Ev
--   [EvStat::stat()](evstat.stat.md) - Ініціює виклик статистики
+-   [EvStat::attr()](evstat.attr.md) \- Повертає значення, нещодавно виявлені Ev
+-   [EvStat::stat()](evstat.stat.md) \- Ініціює виклик статистики

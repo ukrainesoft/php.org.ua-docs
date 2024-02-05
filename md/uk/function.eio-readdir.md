@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.eio-readahead.md: « eioreadahead
-  - function.eio-readlink.md: eioreadlink »
+  - function.eio-readahead.md: « eio\_readahead
+  - function.eio-readlink.md: eio\_readlink »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eioreaddir
+  - ref.eio.md: Eio Функції
+title: eio\_readdir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eioreaddir
+# eio\_readdir
 
 (PECL eio >= 0.0.1dev)
 
-eioreaddir - Читає вміст директорії
+eio\_readdir - Читає вміст директорії
 
 ### Опис
 
 ```methodsynopsis
-eio_readdir(    string $path,    int $flags,    int $pri,    callable $callback,    string $data = NULL): resource
+eio_readdir(    string $path,    int $flags,    int $pri,    callable $callback,    string $data = NULL): resource
 ```
 
-Читає вміст директорії (за допомогою системних викликів `opendir` `readdir` і `closedir`) і або повертає імена файлів, або передає масив як аргумент `result` у функцію `callback`. Поведінка методу залежить від значення параметра `flags`
+Читає вміст директорії (за допомогою системних викликів `opendir` `readdir`и`closedir`) і або повертає імена файлів, або передає масив як аргумент `result` у функцію `callback`Поведение метода зависит от значения параметра`flags`
 
 ### Список параметрів
 
@@ -28,15 +29,15 @@ eio_readdir(    string $path,    int $flags,    int $pri,    callable $callback,
 
 `flags`
 
-Комбінація констант *EIOREADDIR*
+Комбінація констант *EIO\_READDIR\_\**
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -52,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
@@ -60,89 +61,89 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-**eioreaddir()** повертає ресурс запиту у разі успішного виконання або **`false`** у разі виникнення помилки. Також може задавати значення аргументу `result` функції `callback` залежно від значення параметра `flags`
+**eio\_readdir()** повертає ресурс запиту у разі успішного виконання або **`false`** у разі виникнення помилки. Також може ставити значення аргументу `result` функції `callback`в зависимости от значения параметра`flags` :
 
-**`EIO_READDIR_DENTS`** (int)
+**`EIO_READDIR_DENTS`**(int)
 
-Прапор **eioreaddir()**. Якщо заданий, як аргумент callback-функції передаватиметься масив з такими ключами: `'names'` - масив імен директорії `'dents'` - масив структур типу `struct eio_dirent`, кожна з яких є масивом з ключами: `'name'` - Ім'я директорії; `'type'` - одна з констант *EIOДП* `'inode'` - номер вузла inode, якщо доступний, чи порожнє значення;
+Флаг**eio\_readdir()**. Якщо заданий, як аргумент callback-функції передаватиметься масив з такими ключами: `'names'` - масив імен директорії `'dents'` - масив структур типу `struct eio_dirent`, кожна з яких є масивом з ключами: `'name'` - Ім'я директорії; `'type'`\- одна из констант*EIO\_DT\_\** `'inode'`\- номер узла inode, если доступен, либо пустое значение;
 
-**`EIO_READDIR_DIRS_FIRST`** (int)
+**`EIO_READDIR_DIRS_FIRST`**(int)
 
 Якщо цей прапор задано, першими повертатимуться імена директорій, потім імена файлів. Порядок проходження імен у кожній групі буде оптимальним для застосування функції stat.
 
-**`EIO_READDIR_STAT_ORDER`** (int)
+**`EIO_READDIR_STAT_ORDER`**(int)
 
 Якщо цей прапор задано, імена файлів та директорій повертатимуться в порядку, зручному для збору статистики (`stat`) кожного з об'єктів. Якщо отриманий список імен передбачається передавати у функцію [stat()](function.stat.md), порядок проходження імен забезпечить найшвидшу роботу функції.
 
-**`EIO_READDIR_FOUND_UNKNOWN`** (int)
+**`EIO_READDIR_FOUND_UNKNOWN`**(int)
 
 Типи вузлів:
 
-**`EIO_DT_UNKNOWN`** (int)
+**`EIO_DT_UNKNOWN`**(int)
 
 Невідомий тип вузла (дуже часто). Необхідна обробка функцією [stat()](function.stat.md)
 
-**`EIO_DT_FIFO`** (int)
+**`EIO_DT_FIFO`**(int)
 
 Тип вузла - FIFO
 
-**`EIO_DT_CHR`** (int)
+**`EIO_DT_CHR`**(int)
 
 Тип вузла
 
-**`EIO_DT_MPC`** (int)
+**`EIO_DT_MPC`**(int)
 
 Тип вузла - складовий символьний пристрій (v7+coherent)
 
-**`EIO_DT_DIR`** (int)
+**`EIO_DT_DIR`**(int)
 
 Тип вузла - директорія
 
-**`EIO_DT_NAM`** (int)
+**`EIO_DT_NAM`**(int)
 
 Тип вузла - файл зі спеціальним Xenix найменуванням
 
-**`EIO_DT_BLK`** (int)
+**`EIO_DT_BLK`**(int)
 
 Тип вузла
 
-**`EIO_DT_MPB`** (int)
+**`EIO_DT_MPB`**(int)
 
 Складовий блоковий пристрій (v7+coherent)
 
-**`EIO_DT_REG`** (int)
+**`EIO_DT_REG`**(int)
 
 Тип вузла
 
-**`EIO_DT_NWK`** (int)
+**`EIO_DT_NWK`**(int)
 
-**`EIO_DT_CMP`** (int)
+**`EIO_DT_CMP`**(int)
 
 Спеціальний тип вузла для мереж HP-UX
 
-**`EIO_DT_LNK`** (int)
+**`EIO_DT_LNK`**(int)
 
 Тип вузла - посилання
 
-**`EIO_DT_SOCK`** (int)
+**`EIO_DT_SOCK`**(int)
 
 Тип вузла - сокет
 
-**`EIO_DT_DOOR`** (int)
+**`EIO_DT_DOOR`**(int)
 
 Тип вузла - Solaris door
 
-**`EIO_DT_WHT`** (int)
+**`EIO_DT_WHT`**(int)
 
 Тип вузла
 
-**`EIO_DT_MAX`** (int)
+**`EIO_DT_MAX`**(int)
 
 Максимальне значення типу вузла
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eioreaddir()****
+**Пример #1 Пример использования**eio\_readdir()\*\*\*\*
 
 ```php
 <?php
@@ -160,7 +161,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Вызвана функция my_readdir_callback

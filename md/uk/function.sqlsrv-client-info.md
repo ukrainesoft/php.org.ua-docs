@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-cancel.md: « sqlsrvcancel
-  - function.sqlsrv-close.md: sqlsrvclose »
+  - function.sqlsrv-cancel.md: « sqlsrv\_cancel
+  - function.sqlsrv-close.md: sqlsrv\_close »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvclientinfo
+title: sqlsrv\_client\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvclientinfo
+# sqlsrv\_client\_info
 
 (No version information available, might only be in Git)
 
-sqlsrvclientinfo — Повертає інформацію про клієнта та зазначене підключення
+sqlsrv\_client\_info — Повертає інформацію про клієнта та зазначене підключення
 
 ### Опис
 
@@ -30,18 +31,18 @@ sqlsrv_client_info(resource $conn): array
 
 Повертає асоціативний масив із ключами, описаними в таблиці нижче. В іншому випадку повертає **`false`**
 
-**Масив, що повертається sqlsrvclientinfo**
+**Масив, що повертається sqlsrv\_client\_info**
 
-| Ключ | Описание |
+| Ключ | Опис |
 | --- | --- |
 | DriverDllName | SQLNCLI10.DLL |
 | DriverODBCVer | Версія ODBC (xx.yy) |
 | DriverVer | Версія SQL Server Native Client DLL (10.5.xxx) |
-| ExtensionVer | Версія phpsqlsrv.dll (2.0.xxx.x) |
+| ExtensionVer | Версія php\_sqlsrv.dll (2.0.xxx.x) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvclientinfo()****
+**Пример #1 Пример использования**sqlsrv\_client\_info()\*\*\*\*
 
 ```php
 <?php
@@ -65,4 +66,4 @@ if( $client_info = sqlsrv_client_info( $conn)) {
 
 ### Дивіться також
 
--   [sqlsrvserverinfo()](function.sqlsrv-server-info.md) - Повертає інформацію про сервер
+-   [sqlsrv\_server\_info()](function.sqlsrv-server-info.md) \- Повертає інформацію про сервер

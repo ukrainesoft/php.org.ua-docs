@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - reserved.exceptions.md: Обумовлені винятки
 title: ArithmeticError
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArithmeticError
 
@@ -19,21 +20,16 @@ title: ArithmeticError
 ```classsynopsis
 
      
-    
-
-    
-     
       class ArithmeticError
      
 
      
       extends
        Error
-     
-     {
+      {
 
-    /* Наследуемые свойства */
-    
+     /* Наследуемые свойства */
+     
      protected
      string
       $message = "";
@@ -57,9 +53,11 @@ private
       $previous = null;
 
 
-    /* Наследуемые методы */
-    
-   final public Error::getMessage(): string
+     /* Наследуемые методы */
+     
+   public Error::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+     final public Error::getMessage(): string
 final public Error::getPrevious(): ?Throwable
 final public Error::getCode(): int
 final public Error::getFile(): string
@@ -69,5 +67,5 @@ final public Error::getTraceAsString(): string
 public Error::__toString(): string
 private Error::__clone(): void
 
-   }
+    }
 ```

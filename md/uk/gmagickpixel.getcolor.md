@@ -1,10 +1,11 @@
 ---
 navigation:
-  - gmagickpixel.construct.md: '« GmagickPixel::construct'
+  - gmagickpixel.construct.md: '« GmagickPixel::\_\_construct'
   - gmagickpixel.getcolorcount.md: 'GmagickPixel::getcolorcount »'
   - index.md: PHP Manual
   - class.gmagickpixel.md: GmagickPixel
 title: 'GmagickPixel::getcolor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GmagickPixel::getcolor
 
@@ -32,4 +33,4 @@ public GmagickPixel::getcolor(bool $as_array = false, bool $normalize_array = fa
 
 ### Значення, що повертаються
 
-string або array зі значеннями кольорів, нормованими, якщо параметр `normalize_array` встановлений в **`true`**. Кидає виняток **GmagickPixelException** у разі виникнення помилки.
+string або array зі значеннями кольорів, нормованими, якщо параметр `normalize_array`установлен в\*\*`true`\*\*. Кидає виняток **GmagickPixelException**в случае возникновения ошибки.

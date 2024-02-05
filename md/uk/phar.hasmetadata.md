@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::hasMetadata'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::hasMetadata
 
@@ -26,11 +27,11 @@ public Phar::hasMetadata(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`**
+Повертає **`true`**или**`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::hasMetadata()****
+**Пример #1 Пример использования**Phar::hasMetadata()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -57,6 +58,6 @@ bool(false)
 
 ### Дивіться також
 
--   [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані phar-архіву
--   [Phar::setMetadata()](phar.setmetadata.md) - Встановити метадані phar-архіву
--   [Phar::delMetadata()](phar.delmetadata.md) - Видалити глобальні метадані в архіві phar
+-   [Phar::getMetadata()](phar.getmetadata.md) \- Витягти метадані phar-архіву
+-   [Phar::setMetadata()](phar.setmetadata.md) \- Встановити метадані phar-архіву
+-   [Phar::delMetadata()](phar.delmetadata.md) \- Видалити глобальні метадані в архіві phar

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pathCurveToQuadraticBezierSmoothRelative'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::pathCurveToQuadraticBezierSmoothRelative
 
@@ -20,9 +21,9 @@ public ImagickDraw::pathCurveToQuadraticBezierSmoothRelative(float $x, float $y)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
-Малює квадратичну криву Безьє (з використанням відносних координат) від поточної точки до (x, y). Передбачається, що контрольна точка є відображенням контрольної точки попередньої команди щодо поточної точки. (Якщо попередня команда відсутня або не є DrawPathCurveToQuadraticBezierAbsolute, DrawPathCurveToQuadraticBezierRelative, DrawPathCurveToQuadraticBezierSmoothAbsolute або DrawPathCurveToQuadra В кінці команди нова поточна точка стає останньою парою координат (x, y), що використовується в кривій Безьє.
+Малює квадратичну криву Безьє (з використанням відносних координат) від поточної точки до (x, y). Передбачається, що контрольна точка є відображенням контрольної точки попередньої команди щодо поточної точки. (Якщо попередня команда відсутня або не є DrawPathCurveToQuadraticBezierAbsolute, DrawPathCurveToQuadraticBezierRelative, DrawPathCurveToQuadraticBezierSmoothAbsolute або DrawPathCurveToQuadra поточною). Наприкінці команди нова поточна точка стає останньою парою координат (x,y), що використовується в кривій Безьє.
 
 Функцію не можна використовувати для плавного продовження кубічної кривої Безьє. Вона може плавно продовжувати лише квадратичну криву.
 
@@ -42,7 +43,7 @@ public ImagickDraw::pathCurveToQuadraticBezierSmoothRelative(float $x, float $y)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::pathCurveToQuadraticBezierSmoothRelative()****
+**Пример #1 Пример использования**ImagickDraw::pathCurveToQuadraticBezierSmoothRelative()\*\*\*\*
 
 ```php
 <?php

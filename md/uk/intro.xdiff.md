@@ -1,10 +1,11 @@
 ---
 navigation:
-  - book.xdiff.md: xdiff
-  - xdiff.setup.md: Встановлення та налаштування »
+  - book.xdiff.md: « xdiff
+  - xdiff.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.xdiff.md: xdiff
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 
@@ -12,6 +13,6 @@ title: Вступ
 
 Модуль підтримує два режими роботи: з рядками та з файлами, також два різних формати патчів - уніфікований і бінарний. Уніфіковані патчі хороші для текстових файлів та зручні для читання людиною. Для бінарних файлів, таких як архіви або зображення, слід використовувати бінарний формат, оскільки він коректно обробляє недруковані символи.
 
-Починаючи з версії 1.5.0, існують два різні набори функцій для створення бінарних патчів. Нові функції - [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md) і [xdifffilerabdiff()](function.xdiff-file-rabdiff.md) створюють висновок, що підтримується старими функціями, але працюють швидше і результат займає менше місця. Детальніше про методи створення бінарних патчів та різницю між ними читайте на сайті [» libxdiff](http://www.xmailserver.org/xdiff-lib.md)
+Починаючи з версії 1.5.0, існують два різні набори функцій для створення бінарних патчів. Нові функції - [xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.md) і [xdiff\_file\_rabdiff()](function.xdiff-file-rabdiff.md) створюють висновок, що підтримується старими функціями, але працюють швидше і результат займає менше місця. Більш детально про методи створення бінарних патчів та різницю між ними читайте на сайті [» libxdiff](http://www.xmailserver.org/xdiff-lib.md)
 
-Модуль використовує libxdiff. Детальніше читайте на сайті [» http://www.xmailserver.org/xdiff-lib.html](http://www.xmailserver.org/xdiff-lib.md)
+Модуль использует libxdiff. Более подробно читайте на сайте[» http://www.xmailserver.org/xdiff-lib.md](http://www.xmailserver.org/xdiff-lib.md)

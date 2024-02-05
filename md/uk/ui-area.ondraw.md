@@ -1,21 +1,22 @@
 ---
 navigation:
-  - class.ui-area.md: « UIArea
-  - ui-area.onkey.md: 'ОЙArea::onKey »'
+  - class.ui-area.md: « UI\\Area
+  - ui-area.onkey.md: 'UI\\Area::onKey »'
   - index.md: PHP Manual
-  - class.ui-area.md: ОЙArea
-title: 'ОЙArea::onDraw'
+  - class.ui-area.md: UI\\Area
+title: 'UI\\Area::onDraw'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙArea::onDraw
+# UI\\Area::onDraw
 
 (UI 0.9.9)
 
-ОЙArea::onDraw - Функція зворотного виклику при малюванні
+UI\\Area::onDraw - Функція зворотного виклику при малюванні
 
 ### Опис
 
 ```methodsynopsis
-protected UI\Area::onDraw(    UI\Draw\Pen $pen,    UI\Size $areaSize,    UI\Point $clipPoint,    UI\Size $clipSize)
+protected UI\Area::onDraw(    UI\Draw\Pen $pen,    UI\Size $areaSize,    UI\Point $clipPoint,    UI\Size $clipSize)
 ```
 
 Викликається, коли ця область вимагає перемальовки

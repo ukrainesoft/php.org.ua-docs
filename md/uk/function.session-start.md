@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.session-set-save-handler.md: « sessionsetsavehandler
-  - function.session-status.md: sessionstatus »
+  - function.session-set-save-handler.md: « session\_set\_save\_handler
+  - function.session-status.md: session\_status »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
-title: sessionstart
+title: session\_start
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sessionstart
+# session\_start
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-sessionstart — Стартує нову сесію або відновлює існуючу
+session\_start — Стартує нову сесію або відновлює існуючу
 
 ### Опис
 
@@ -18,23 +19,23 @@ sessionstart — Стартує нову сесію або відновлює і
 session_start(array $options = []): bool
 ```
 
-Функція **sessionstart()** створює сесію, або відновлює існуючу, ґрунтуючись на ідентифікаторі сесії, переданому через GET або POST-запит, або переданий через cookie.
+Функция**session\_start()** створює сесію, або відновлює існуючу, ґрунтуючись на ідентифікаторі сесії, переданому через GET або POST-запит, або переданий через cookie.
 
-Коли викликана функція **sessionstart()** або коли сесія створюється автоматично, PHP викликає відкриття та читання обробників запису сесії. Це можуть бути як вбудовані обробники, так і модулі (наприклад, SQLite або Memcached); або взагалі визначений користувачем обробник, заданий функцією [sessionsetsavehandler()](function.session-set-save-handler.md). Callback-функція читання витягне всі існуючі дані сесії (збережені у спеціальному серіалізованому вигляді), десеріалізує їх і занесе до суперглобального масиву $SESSION, після чого поверне збережені дані обробнику сесій PHP.
+Коли викликана функція **session\_start()** або коли сесія створюється автоматично, PHP викликає відкриття та читання обробників запису сесії. Це можуть бути як вбудовані обробники, так і модулі (наприклад, SQLite або Memcached); або взагалі визначений користувачем обробник, заданий функцією [session\_set\_save\_handler()](function.session-set-save-handler.md). Callback-функція читання витягне всі існуючі дані сесії (збережені у спеціальному серіалізованому вигляді), десеріалізує їх і занесе до суперглобального масиву $\_SESSION, після чого поверне збережені дані обробнику сесій PHP.
 
-Для використання іменованих сесій, використовуйте [sessionname()](function.session-name.md) перед **sessionstart()**
+Для використання іменованих сесій, використовуйте [session\_name()](function.session-name.md)перед**session\_start()**
 
-Якщо дозволено опцію [session.usetranssid](session.configuration.md#ini.session.use-trans-sid), функція **sessionstart()** реєструє внутрішній обробник виводу для перезапису URL-адрес.
+Если разрешена опция[session.use\_trans\_sid](session.configuration.md#ini.session.use-trans-sid), функция**session\_start()** реєструє внутрішній обробник виводу для перезапису URL-адрес.
 
-Якщо користувач використовує `ob_gzhandler` або щось подібне спільно з функцією [проstart()](function.ob-start.md), Порядок функцій важливий для правильного виведення. Наприклад, `ob_gzhandler` має бути зареєстрований до старту сесії.
+Якщо користувач використовує `ob_gzhandler` або щось подібне спільно з функцією [ob\_start()](function.ob-start.md), Порядок функцій важливий для правильного виведення. Наприклад, `ob_gzhandler` має бути зареєстрований до старту сесії.
 
 ### Список параметрів
 
 `options`
 
-Якщо поставлено, то має бути асоціативним масивом, що перевизначає поточні [Директиви конфигурации сессий](session.configuration.md). Ключі не повинні мати префіксу `session.`
+Якщо поставлено, то має бути асоціативним масивом, що перевизначає поточні [директиви конфігурації сесій](session.configuration.md). Ключі не повинні мати префіксу `session.`
 
-На додаток до звичайного набору конфігураційних директив може бути додана опція `read_and_close`. Якщо встановлена ​​в \*\*`true`\*\*сесія буде закрита відразу ж після прочитання, теоретично дозволяючи уникнути блокування, якщо дані сесії не будуть змінюватися.
+На додаток до звичайного набору конфігураційних директив може бути додана опція `read_and_close`Если установлена в\*\*`true`\*\*сесія буде закрита відразу ж після прочитання, теоретично дозволяючи уникнути блокування, якщо дані сесії не будуть змінюватися.
 
 ### Значення, що повертаються
 
@@ -42,9 +43,9 @@ session_start(array $options = []): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | **sessionstart()** тепер повертає **`false`** і більше не ініціалізує [SESSION](reserved.variables.session.md)коли вона не змогла запустити сесію. |
+| 7.1.0 | **session\_start()** тепер повертає \*\*`false`\*\*і більше не ініціалізує[$\_SESSION](reserved.variables.session.md)коли вона не змогла запустити сесію. |
 
 ### Приклади
 
@@ -72,7 +73,7 @@ echo '<br /><a href="page2.php?' . SID . '">page 2</a>';
 ?>
 ```
 
-Після перегляду page1.php, друга сторінка page2.php чудово отримає всі дані сесії. Читайте розділ [работа с сессиями](ref.session.md), там розповідається про [передачу ідентифікаторів сесій](session.idpassing.md). Зокрема там розповідається про те, що таке константа **`SID`**
+Після перегляду page1.php, друга сторінка page2.php чудово отримає всі дані сесії. Читайте розділ [робота із сесіями](ref.session.md), там розповідається про [передачу ідентифікаторів сесій](session.idpassing.md). Зокрема там розповідається про те, що таке константа **`SID`**
 
 **Приклад #2 page2.php**
 
@@ -93,7 +94,7 @@ echo '<br /><a href="page1.php">page 1</a>';
 ?>
 ```
 
-#### Передача опцій у **sessionstart()**
+#### Передача опций в**session\_start()**
 
 **Приклад #3 Перевизначення часу життя cookie**
 
@@ -121,20 +122,20 @@ session_start([
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для використання сесій на основі cookie, функція **sessionstart()** повинна бути викликана перед виведенням чогось у браузер.
+> Для использования сессий на основе cookie, функция**session\_start()** повинна бути викликана перед виведенням чогось у браузер.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Використовуйте [zlib.outputcompression](zlib.configuration.md#ini.zlib.output-compression) замість [проgzhandler()](function.ob-gzhandler.md)
+> Используйте[zlib.output\_compression](zlib.configuration.md#ini.zlib.output-compression) замість [ob\_gzhandler()](function.ob-gzhandler.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Ця функція надсилає кілька заголовків HTTP, залежно від налаштувань. Дивіться опис функції [sessioncachelimiter()](function.session-cache-limiter.md) для керування цими заголовками.
+> Ця функція надсилає кілька заголовків HTTP, залежно від налаштувань. Дивіться опис функції [session\_cache\_limiter()](function.session-cache-limiter.md) для керування цими заголовками.
 
 ### Дивіться також
 
--   [SESSION](reserved.variables.session.md)
--   Директива конфігурації [session.autostart](session.configuration.md#ini.session.auto-start)
--   [sessionid()](function.session-id.md) - Отримує та/або встановлює ідентифікатор поточної сесії
+-   [$\_SESSION](reserved.variables.session.md)
+-   Директива конфігурації[session.auto\_start](session.configuration.md#ini.session.auto-start)
+-   [session\_id()](function.session-id.md) \- Отримує та/або встановлює ідентифікатор поточної сесії

@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.parle-errorinfo.md: « ParleErrorInfo
-  - class.parle-parserexception.md: ParleParserException »
+  - class.parle-errorinfo.md: « Parle\\ErrorInfo
+  - class.parle-parserexception.md: Parle\\ParserException »
   - index.md: PHP Manual
   - book.parle.md: Parle
-title: Клас ParleLexerException
+title: Клас Parle\\LexerException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас ParleLexerException
+# Клас Parle\\LexerException
 
 (PECL parle >= 0.5.1)
 
@@ -33,27 +34,27 @@ title: Клас ParleLexerException
 
     /* Наследуемые свойства */
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
 

@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.ui-controls-slider.md: « UIControlsSlider
-  - ui-controls-slider.getvalue.md: 'ОЙControlsSlider::getValue »'
+  - class.ui-controls-slider.md: « UI\\Controls\\Slider
+  - ui-controls-slider.getvalue.md: 'UI\\Controls\\Slider::getValue »'
   - index.md: PHP Manual
-  - class.ui-controls-slider.md: ОЙControlsSlider
-title: 'ОЙControlsSlider::construct'
+  - class.ui-controls-slider.md: UI\\Controls\\Slider
+title: 'UI\\Controls\\Slider::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsSlider::construct
+# UI\\Controls\\Slider::\_\_construct
 
 (UI 0.9.9)
 
-ОЙControlsSlider::construct — Створює новий об'єкт Slider
+UI\\Controls\\Slider::\_\_construct — Створює новий об'єкт Slider
 
 ### Опис
 
-public **ОЙControlsSlider::construct**(int `$min`, int `$max`
+public**UI\\Controls\\Slider::\_\_construct**(int`$min`, int`$max`) .
 
 Створити новий об'єкт Slider із заданим діапазоном
 

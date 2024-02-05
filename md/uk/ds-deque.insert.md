@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.get.md: '« DsDeque::get'
-  - ds-deque.isempty.md: 'ДсDeque::isEmpty »'
+  - ds-deque.get.md: '« Ds\\Deque::get'
+  - ds-deque.isempty.md: 'Ds\\Deque::isEmpty »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::insert'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::insert'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::insert
+# Ds\\Deque::insert
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::insert — Вставляє значення за вказаним індексом
+Ds\\Deque::insert — Вставляє значення за вказаним індексом
 
 ### Опис
 
@@ -26,7 +27,7 @@ public Ds\Deque::insert(int $index, mixed ...$values): void
 
 Індекс, за яким необхідно здійснити вставку . `0 <= index <= count`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Можна вказувати індекс, що дорівнює кількості елементів двосторонньої черги.
 
@@ -44,7 +45,7 @@ public Ds\Deque::insert(int $index, mixed ...$values): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::insert()****
+**Пример #1 Пример использования**Ds\\Deque::insert()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ var_dump($deque);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Deque)#1 (7) {

@@ -5,25 +5,22 @@ navigation:
   - index.md: PHP Manual
   - spl.misc.md: Різні класи та інтерфейси
 title: Інтерфейс SplSubject
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс SplSubject
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Інтерфейс **SplSubject** використовується спільно з [SplObserver](class.splobserver.md) для реалізації шаблону проектування Спостерігач (Observer).
+Інтерфейс **SplSubject** використовується спільно з [SplObserver](class.splobserver.md)для реализации шаблона проектирования Наблюдатель (Observer).
 
 ## Огляд інтерфейсів
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      interface SplSubject {
+     interface SplSubject {
 
     /* Методы */
     
@@ -36,6 +33,6 @@ public notify(): void
 
 ## Зміст
 
--   [SplSubject::attach](splsubject.attach.md) — Приєднати спостерігача (об'єкт класу SplObserver)
--   [SplSubject::detach](splsubject.detach.md) — Від'єднати спостерігача
--   [SplSubject::notify](splsubject.notify.md) — повідомити спостерігача
+-   [SplSubject::attach](splsubject.attach.md)— Приєднати спостерігача (об'єкт класу SplObserver)
+-   [SplSubject::detach](splsubject.detach.md)— Від'єднати спостерігача
+-   [SplSubject::notify](splsubject.notify.md)— повідомити спостерігача

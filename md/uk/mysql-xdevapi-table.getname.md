@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-table.existsindatabase.md: '« Table::existsInDatabase'
   - mysql-xdevapi-table.getschema.md: 'Table::getSchema »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: mysql\_xdevapi\\Table
 title: 'Table::getName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Table::getName
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Table::getName(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTable::getName()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Table::getName()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($table->getName());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(5) "names"

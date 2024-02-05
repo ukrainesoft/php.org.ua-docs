@@ -1,14 +1,15 @@
 ---
 navigation:
-  - class.ldap-connection.md: « LDAPConnection
-  - class.ldap-result-entry.md: LDAPResultEntry »
+  - class.ldap-connection.md: « LDAP\\Connection
+  - class.ldap-result-entry.md: LDAP\\ResultEntry »
   - index.md: PHP Manual
   - book.ldap.md: LDAP
-title: Клас LDAPResult
+title: Клас LDAP\\Result
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас LDAPResult
+# Клас LDAP\\Result
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -16,19 +17,11 @@ title: Клас LDAPResult
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-    
-     
-      final
-      class LDAP\Result
-     
+     class LDAP\Result
      {
-    
 
    }
 ```

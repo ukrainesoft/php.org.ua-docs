@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::addTaskStatus'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::addTaskStatus
 
@@ -15,7 +16,7 @@ GearmanClient::addTaskStatus — Додати завдання для отрим
 ### Опис
 
 ```methodsynopsis
-public GearmanClient::addTaskStatus(string $job_handle, string &$context = ?): GearmanTask
+public GearmanClient::addTaskStatus(string $job_handle, mixed $context = null): GearmanTask|false
 ```
 
 Використовується для запиту інформації про стан із сервера Gearman, який буде викликати вказаний callback-функцію статусу (задану через [GearmanClient::setStatusCallback()](gearmanclient.setstatuscallback.md)
@@ -32,13 +33,13 @@ public GearmanClient::addTaskStatus(string $job_handle, string &$context = ?): G
 
 ### Значення, що повертаються
 
-Об'єкт [GearmanTask](class.gearmantask.md)
+Об'єкт [GearmanTask](class.gearmantask.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
 **Приклад #1 Моніторинг завершення кількох фонових завдань**
 
-У цьому прикладі представлено штучну затримку в обробнику, щоб змоделювати тривалий робочий процес. Існує лише один обробник, запущений для цього прикладу.
+У цьому прикладі представлено штучну затримку в обробнику, щоб змоделювати довгий робочий процес. Існує лише один обробник, запущений для цього прикладу.
 
 ```php
 <?php
@@ -79,7 +80,7 @@ function reverse_status($task, $done)
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Выполнено: 0
@@ -111,4 +112,4 @@ function reverse_status($task, $done)
 
 ### Дивіться також
 
--   [GearmanClient::setStatusCallback()](gearmanclient.setstatuscallback.md) - завдання callback-функції, що збирає інформацію про стан обробника завдань
+-   [GearmanClient::setStatusCallback()](gearmanclient.setstatuscallback.md) \- завдання callback-функції, що збирає інформацію про стан обробника завдань

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xml-parse-into-struct.md: « xmlparseintostruct
-  - function.xml-parser-create-ns.md: xmlparsercreatens »
+  - function.xml-parse-into-struct.md: « xml\_parse\_into\_struct
+  - function.xml-parser-create-ns.md: xml\_parser\_create\_ns »
   - index.md: PHP Manual
-  - ref.xml.md: Функции парсера XML
-title: xmlparse
+  - ref.xml.md: Функції парсера XML
+title: xml\_parse
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlparse
+# xml\_parse
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xmlparse — Запускає розбір документа XML
+xml\_parse — Запускає розбір документа XML
 
 ### Опис
 
@@ -18,7 +19,7 @@ xmlparse — Запускає розбір документа XML
 xml_parse(XMLParser $parser, string $data, bool $is_final = false): int
 ```
 
-**xmlparse()** розбирає документ XML. Обробники запрограмованих подій викликаються стільки разів, скільки потрібно.
+**xml\_parse()** розбирає документ XML. Обробники запрограмованих подій викликаються стільки разів, скільки потрібно.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ xml_parse(XMLParser $parser, string $data, bool $is_final = false): int
 
 `data`
 
-Частина даних для аналізу. Документ можна розбирати частинами, викликаючи функцію **xmlparse()** кілька разів з новими даними, поки аргумент `is_final` не буде встановлений у **`true`**, Це повідомить аналізатору, що розуміється остання частина документа.
+Частина даних для аналізу. Документ можна розбирати частинами, викликаючи функцію **xml\_parse()** кілька разів з новими даними, поки аргумент `is_final`не будет установлен в\*\*`true`\*\*, Це повідомить аналізатору, що розуміється остання частина документа.
 
 `is_final`
 
@@ -38,17 +39,17 @@ xml_parse(XMLParser $parser, string $data, bool $is_final = false): int
 
 Повертає 1 при успішному завершенні, 0 інакше.
 
-У разі невдалого аналізу інформацію про помилки можна отримати за допомогою функцій [xmlgeterrorcode()](function.xml-get-error-code.md) [xmlerrorstring()](function.xml-error-string.md) [xmlgetcurrentlinenumber()](function.xml-get-current-line-number.md) [xmlgetcurrentcolumnnumber()](function.xml-get-current-column-number.md) і [xmlgetcurrentbyteindex()](function.xml-get-current-byte-index.md)
+У разі невдалого аналізу інформацію про помилки можна отримати за допомогою функцій [xml\_get\_error\_code()](function.xml-get-error-code.md) [xml\_error\_string()](function.xml-error-string.md) [xml\_get\_current\_line\_number()](function.xml-get-current-line-number.md) [xml\_get\_current\_column\_number()](function.xml-get-current-column-number.md) і [xml\_get\_current\_byte\_index()](function.xml-get-current-byte-index.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Деякі помилки (такі як помилки при розборі сутностей) видаються в кінці розбору і отримати їх можна тільки коли `is_final` встановлений в **`true`**
+> Деякі помилки (такі як помилки при розборі сутностей) видаються в кінці розбору і отримати їх можна тільки коли `is_final`установлен в\*\*`true`\*\*
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | Параметр`parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався коректний `xml` ресурс (Resource). |
 
 ### Приклади
 

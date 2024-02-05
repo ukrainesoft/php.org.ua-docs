@@ -4,23 +4,25 @@ navigation:
   - book.yar.md: Yar »
   - index.md: PHP Manual
   - class.soapvar.md: SoapVar
-title: 'SoapVar::construct'
+title: 'SoapVar::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SoapVar::construct
+# SoapVar::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-SoapVar::construct - Конструктор SoapVar
+SoapVar::\_\_construct - Конструктор SoapVar
 
 ### Опис
 
-public **SoapVar::construct**  
-[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`  
-?int `$encoding`  
-?string `$typeName` **`null`**  
-?string `$typeNamespace` **`null`**  
-?string `$nodeName` **`null`**  
-?string `$nodeNamespace` **`null`**
+public**SoapVar::\_\_construct**  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`,  
+?int`$encoding`,  
+?string`$typeName` **`null`**,  
+?string`$typeNamespace` **`null`**,  
+?string`$nodeName` **`null`**,  
+?string`$nodeNamespace` **`null`**  
+) .
 
 Створює новий об'єкт [SoapVar](class.soapvar.md)
 
@@ -32,7 +34,7 @@ public **SoapVar::construct**
 
 `encoding`
 
-Код кодування, одна з констант `XSD_...`
+Код кодировки, одна из констант`XSD_...`
 
 `type_name`
 
@@ -52,13 +54,13 @@ public **SoapVar::construct**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `typeName` `typeNamespace` `nodeName` і `nodeNamespace` тепер допускають значення null. |
+| 8.0.3 | `typeName` `typeNamespace` `nodeName`и`nodeNamespace` тепер допускають значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapVar::construct()****
+**Пример #1 Пример использования**SoapVar::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -80,5 +82,5 @@ $client->echoStruct(new SoapParam($soapstruct, "inputStruct"));
 
 ### Дивіться також
 
--   [SoapClient::soapCall()](soapclient.soapcall.md) - Викликає SOAP-функцію
--   [SoapParam::construct()](soapparam.construct.md) - Конструктор SoapParam
+-   [SoapClient::\_\_soapCall()](soapclient.soapcall.md) \- Викликає SOAP-функцію
+-   [SoapParam::\_\_construct()](soapparam.construct.md) \- Конструктор SoapParam

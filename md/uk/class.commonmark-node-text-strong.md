@@ -1,12 +1,13 @@
 ---
 navigation:
-  - commonmark-node-text.construct.md: '« CommonMarkNodeText::construct'
-  - class.commonmark-node-text-emphasis.md: CommonMarkNodeTextEmphasis »
+  - commonmark-node-text.construct.md: '« CommonMark\\Node\\Text::\_\_construct'
+  - class.commonmark-node-text-emphasis.md: CommonMark\\Node\\Text\\Emphasis »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: Strong успадковує CommonMarkNode
+title: Strong успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Strong успадковує CommonMarkNode
+# Strong успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.swoole-event-set.md: « swooleeventset
-  - function.swoole-event-write.md: swooleeventwrite »
+  - function.swoole-event-set.md: « swoole\_event\_set
+  - function.swoole-event-write.md: swoole\_event\_write »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swooleeventwait
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_event\_wait
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swooleeventwait
+# swoole\_event\_wait
 
 (PECL swoole >= 1.9.0)
 
-swooleeventwait — Запустити цикл подій
+swoole\_event\_wait — Запустити цикл подій
 
 ### Опис
 

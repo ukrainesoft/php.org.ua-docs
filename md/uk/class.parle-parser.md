@@ -1,18 +1,19 @@
 ---
 navigation:
-  - parle-rlexer.reset.md: '« ParleRLexer::reset'
-  - parle-parser.advance.md: 'ParleParser::advance »'
+  - parle-rlexer.reset.md: '« Parle\\RLexer::reset'
+  - parle-parser.advance.md: 'Parle\\Parser::advance »'
   - index.md: PHP Manual
   - book.parle.md: Parle
-title: Клас ParleParser
+title: Клас Parle\\Parser
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас ParleParser
+# Клас Parle\\Parser
 
 (PECL parle >= 0.5.1)
 
 ## Вступ
 
-Клас парсеру. Правила можна визначати на льоту. Після завершення потрібен екземпляр [ParleLexer](class.parle-lexer.md) для доставки потоку токенів.
+Клас парсеру. Правила можна визначати на льоту. Після завершення потрібен екземпляр [Parle\\Lexer](class.parle-lexer.md)для доставки потока токенов.
 
 ## Огляд класів
 
@@ -85,6 +86,8 @@ public push(string $name, string $rule): int
 public reset(int $tokenId = ?): void
 public right(string $tok): void
 public sigil(int $idx): string
+public sigilCount(): int
+public sigilName(int $idx): string
 public token(string $tok): void
 public tokenId(string $tok): int
 public trace(): string
@@ -123,19 +126,21 @@ reduceId
 
 ## Зміст
 
--   [ParleParser::advance](parle-parser.advance.md) - Обробляє наступне правило парсера
--   [ParleParser::build](parle-parser.build.md) - Завершує граматичні правила
--   [ParleParser::consume](parle-parser.consume.md) — Використовує дані для обробки
--   [ParleParser::dump](parle-parser.dump.md) - Виводить граматику
--   [ParleParser::errorInfo](parle-parser.errorinfo.md) — Отримує інформацію про помилку
--   [ParleParser::left](parle-parser.left.md) - Оголошує токен з лівою асоціативністю
--   [ParleParser::nonassoc](parle-parser.nonassoc.md) - Оголошує токен без асоціативності
--   [ParleParser::precedence](parle-parser.precedence.md) — Оголошує правило пріоритету
--   [ParleParser::push](parle-parser.push.md) — Додає граматичне правило
--   [ParleParser::reset](parle-parser.reset.md) — скидає стан парсера
--   [ParleParser::right](parle-parser.right.md) — Оголошує токен із правою асоціативністю
--   [ParleParser::sigil](parle-parser.sigil.md) — Витягує частину збігу за правилом
--   [ParleParser::token](parle-parser.token.md) - Оголошує токен
--   [ParleParser::tokenId](parle-parser.tokenid.md) — Отримує ідентифікатор токена
--   [ParleParser::trace](parle-parser.trace.md) — Слідкує за роботою парсера
--   [ParleParser::validate](parle-parser.validate.md) - Перевіряє вхідні дані
+-   [Parle\\Parser::advance](parle-parser.advance.md) \- Обробляє наступне правило парсера
+-   [Parle\\Parser::build](parle-parser.build.md) \- Завершує граматичні правила
+-   [Parle\\Parser::consume](parle-parser.consume.md)— Використовує дані для обробки
+-   [Parle\\Parser::dump](parle-parser.dump.md) \- Виводить граматику
+-   [Parle\\Parser::errorInfo](parle-parser.errorinfo.md)— Отримує інформацію про помилку
+-   [Parle\\Parser::left](parle-parser.left.md) \- Оголошує токен з лівою асоціативністю
+-   [Parle\\Parser::nonassoc](parle-parser.nonassoc.md) \- Оголошує токен без асоціативності
+-   [Parle\\Parser::precedence](parle-parser.precedence.md)— Оголошує правило пріоритету
+-   [Parle\\Parser::push](parle-parser.push.md)— Додає граматичне правило
+-   [Parle\\Parser::reset](parle-parser.reset.md)— скидає стан парсера
+-   [Parle\\Parser::right](parle-parser.right.md)— Оголошує токен із правою асоціативністю
+-   [Parle\\Parser::sigil](parle-parser.sigil.md)— Витягує частину збігу за правилом
+-   [Parle\\Parser::sigilCount](parle-parser.sigilcount.md)— Отримує кількість елементів у відповідному правилі
+-   [Parle\\Parser::sigilName](parle-parser.sigilname.md)— Отримує ім'я правила чи токена
+-   [Parle\\Parser::token](parle-parser.token.md) \- Оголошує токен
+-   [Parle\\Parser::tokenId](parle-parser.tokenid.md)— Отримує ідентифікатор токена
+-   [Parle\\Parser::trace](parle-parser.trace.md)— Слідкує за роботою парсера
+-   [Parle\\Parser::validate](parle-parser.validate.md) \- Перевіряє вхідні дані

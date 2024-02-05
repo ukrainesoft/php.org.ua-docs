@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::prepend'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBuffer::prepend
 
@@ -32,10 +33,10 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventBuffer::prependBuffer()](eventbuffer.prependbuffer.md) - Переміщує всі дані з вихідного буфера на початок поточного буфера
--   [EventBuffer::add()](eventbuffer.add.md) - Додає дані до кінця буфера подій
--   [EventBuffer::addBuffer()](eventbuffer.addbuffer.md) - Переміщує всі дані з буфера екземпляру EventBuffer
+-   [EventBuffer::prependBuffer()](eventbuffer.prependbuffer.md) \- Переміщує всі дані з вихідного буфера на початок поточного буфера
+-   [EventBuffer::add()](eventbuffer.add.md) \- Додає дані до кінця буфера подій
+-   [EventBuffer::addBuffer()](eventbuffer.addbuffer.md) \- Переміщує всі дані з буфера екземпляру EventBuffer

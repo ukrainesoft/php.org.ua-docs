@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - book.solr.md: Solr
 title: Клас SolrDocument
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SolrDocument
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 ## Вступ
 
@@ -125,36 +126,36 @@ public valid(): bool
 
 ## Зміст
 
--   [SolrDocument::addField](solrdocument.addfield.md) — Додає поле до документа
--   [SolrDocument::clear](solrdocument.clear.md) — Видаляє всі поля у документі
--   [SolrDocument::clone](solrdocument.clone.md) — Створює копію об'єкта SolrDocument
--   [SolrDocument::construct](solrdocument.construct.md) - Конструктор
--   [SolrDocument::current](solrdocument.current.md) — Отримує поточне поле
--   [SolrDocument::deleteField](solrdocument.deletefield.md) — Видаляє поле із документа
--   [SolrDocument::destruct](solrdocument.destruct.md) - Деструктор
--   [SolrDocument::fieldExists](solrdocument.fieldexists.md) — Перевіряє, чи є поле у ​​документі
--   [SolrDocument::get](solrdocument.get.md) — Доступ до поля як властивості
--   [SolrDocument::getChildDocuments](solrdocument.getchilddocuments.md) - Повертає масив дочірніх документів (SolrDocument)
--   [SolrDocument::getChildDocumentsCount](solrdocument.getchilddocumentscount.md) — Повертає кількість дочірніх документів
--   [SolrDocument::getField](solrdocument.getfield.md) — Отримує поле на ім'я
--   [SolrDocument::getFieldCount](solrdocument.getfieldcount.md) — Повертає кількість полів у цьому документі
--   [SolrDocument::getFieldNames](solrdocument.getfieldnames.md) — Повертає масив імен полів у документі
--   [SolrDocument::getInputDocument](solrdocument.getinputdocument.md) — Повертає SolrInputDocument еквівалент об'єкту
--   [SolrDocument::hasChildDocuments](solrdocument.haschilddocuments.md) — Перевіряє, чи документ має дочірні документи.
--   [SolrDocument::isset](solrdocument.isset.md) — Перевіряє, чи є поле
--   [SolrDocument::key](solrdocument.key.md) — Отримує поточний ключ
--   [SolrDocument::merge](solrdocument.merge.md) — Зливає джерело у поточний SolrDocument
--   [SolrDocument::next](solrdocument.next.md) — Переміщує внутрішній покажчик на наступне поле
--   [SolrDocument::offsetExists](solrdocument.offsetexists.md) — Перевіряє, чи існує конкретне поле
--   [SolrDocument::offsetGet](solrdocument.offsetget.md) — Отримує поле
--   [SolrDocument::offsetSet](solrdocument.offsetset.md) — Додає поле до документа
--   [SolrDocument::offsetUnset](solrdocument.offsetunset.md) - Видаляє поле
--   [SolrDocument::reset](solrdocument.reset.md) - Псевдонім SolrDocument::clear()
--   [SolrDocument::rewind](solrdocument.rewind.md) — скидає внутрішній покажчик на початок
--   [SolrDocument::serialize](solrdocument.serialize.md) — Використовується для серіалізації користувача
--   [SolrDocument::set](solrdocument.set.md) — Додає ще одне поле до документа
--   [SolrDocument::sort](solrdocument.sort.md) — Сортує поля у документі
--   [SolrDocument::toArray](solrdocument.toarray.md) — Повертає подання масиву документа
--   [SolrDocument::unserialize](solrdocument.unserialize.md) — Серіалізація об'єктів користувача SolrDocument
--   [SolrDocument::unset](solrdocument.unset.md) — Видаляє поле із документа
--   [SolrDocument::valid](solrdocument.valid.md) — Перевіряє, чи поточна позиція є внутрішньо коректною.
+-   [SolrDocument::addField](solrdocument.addfield.md)— Додає поле до документа
+-   [SolrDocument::clear](solrdocument.clear.md)— Видаляє всі поля у документі
+-   [SolrDocument::\_\_clone](solrdocument.clone.md)— Створює копію об'єкта SolrDocument
+-   [SolrDocument::\_\_construct](solrdocument.construct.md) \- Конструктор
+-   [SolrDocument::current](solrdocument.current.md)— Отримує поточне поле
+-   [SolrDocument::deleteField](solrdocument.deletefield.md)— Видаляє поле із документа
+-   [SolrDocument::\_\_destruct](solrdocument.destruct.md) \- Деструктор
+-   [SolrDocument::fieldExists](solrdocument.fieldexists.md)— Перевіряє, чи є поле у ​​документі
+-   [SolrDocument::\_\_get](solrdocument.get.md) \- Доступ до поля як властивості
+-   [SolrDocument::getChildDocuments](solrdocument.getchilddocuments.md) \- Повертає масив дочірніх документів (SolrDocument)
+-   [SolrDocument::getChildDocumentsCount](solrdocument.getchilddocumentscount.md)— Повертає кількість дочірніх документів
+-   [SolrDocument::getField](solrdocument.getfield.md)— Отримує поле на ім'я
+-   [SolrDocument::getFieldCount](solrdocument.getfieldcount.md)— Повертає кількість полів у цьому документі
+-   [SolrDocument::getFieldNames](solrdocument.getfieldnames.md)— Повертає масив імен полів у документі
+-   [SolrDocument::getInputDocument](solrdocument.getinputdocument.md)— Повертає SolrInputDocument еквівалент об'єкту
+-   [SolrDocument::hasChildDocuments](solrdocument.haschilddocuments.md)— Перевіряє, чи документ має дочірні документи.
+-   [SolrDocument::\_\_isset](solrdocument.isset.md)— Перевіряє, чи є поле
+-   [SolrDocument::key](solrdocument.key.md)— Отримує поточний ключ
+-   [SolrDocument::merge](solrdocument.merge.md)— Зливає джерело у поточний SolrDocument
+-   [SolrDocument::next](solrdocument.next.md)— Переміщує внутрішній покажчик на наступне поле
+-   [SolrDocument::offsetExists](solrdocument.offsetexists.md)— Перевіряє, чи існує конкретне поле
+-   [SolrDocument::offsetGet](solrdocument.offsetget.md)— Отримує поле
+-   [SolrDocument::offsetSet](solrdocument.offsetset.md)— Додає поле до документа
+-   [SolrDocument::offsetUnset](solrdocument.offsetunset.md) \- Видаляє поле
+-   [SolrDocument::reset](solrdocument.reset.md) \- Псевдонім SolrDocument::clear
+-   [SolrDocument::rewind](solrdocument.rewind.md)— скидає внутрішній покажчик на початок
+-   [SolrDocument::serialize](solrdocument.serialize.md)— Використовується для серіалізації користувача
+-   [SolrDocument::\_\_set](solrdocument.set.md)— Додає ще одне поле до документа
+-   [SolrDocument::sort](solrdocument.sort.md)— Сортує поля у документі
+-   [SolrDocument::toArray](solrdocument.toarray.md)— Повертає подання масиву документа
+-   [SolrDocument::unserialize](solrdocument.unserialize.md)— Серіалізація об'єктів користувача SolrDocument
+-   [SolrDocument::\_\_unset](solrdocument.unset.md)— Видаляє поле із документа
+-   [SolrDocument::valid](solrdocument.valid.md)— Перевіряє, чи поточна позиція є внутрішньо коректною.

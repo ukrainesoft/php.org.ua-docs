@@ -1,14 +1,17 @@
 ---
 navigation:
-  - class.parallel-events-input.md: « parallelEventsInput
-  - parallel-events-input.clear.md: 'parallelEventsInput::clear »'
+  - class.parallel-events-input.md: « parallel\\Events\\Input
+  - parallel-events-input.clear.md: 'parallel\\Events\\Input::clear »'
   - index.md: PHP Manual
-  - class.parallel-events-input.md: parallelEventsInput
-title: 'parallelEventsInput::add'
+  - class.parallel-events-input.md: parallel\\Events\\Input
+title: 'parallel\\Events\\Input::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelEventsInput::add
+# parallel\\Events\\Input::add
 
-parallelEventsInput::add — Вхід
+(0.9.0)
+
+parallel\\Events\\Input::add — Вхід
 
 ### Опис
 
@@ -22,8 +25,8 @@ public parallel\Events\Input::add(string $target, mixed $value): void
 
 **Увага**
 
-Викидає parallelEventsInputErrorExistence, якщо вхід до мети вже існує.
+Викидає parallel\\Events\\Input\\Error\\Existence, якщо вхід до мети вже існує.
 
 **Увага**
 
-Викидає parallelEventsInputErrorIllegalValue, якщо значення неприпустимо (object, **`null`**
+Викидає parallel\\Events\\Input\\Error\\IllegalValue, если значение недопустимо (object,**`null`**

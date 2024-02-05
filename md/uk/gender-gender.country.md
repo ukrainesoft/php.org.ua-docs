@@ -1,16 +1,17 @@
 ---
 navigation:
-  - gender-gender.construct.md: '« GenderGender::construct'
-  - gender-gender.get.md: 'GenderGender::get »'
+  - gender-gender.construct.md: '« Gender\\Gender::\_\_construct'
+  - gender-gender.get.md: 'Gender\\Gender::get »'
   - index.md: PHP Manual
-  - class.gender.md: GenderGender
-title: 'GenderGender::country'
+  - class.gender.md: Gender\\Gender
+title: 'Gender\\Gender::country'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GenderGender::country
+# Gender\\Gender::country
 
 (PECL gender >= 0.8.0)
 
-GenderGender::country — Отримати текстове подання країни
+Gender\\Gender::country — Отримати текстове подання країни
 
 ### Опис
 
@@ -24,22 +25,22 @@ public Gender\Gender::country(int $country): array|false
 
 `country`
 
-Ідентифікатор країни, заданий константою класу [GenderGender](class.gender.md)
+Ідентифікатор країни, заданий константою класу [Gender\\Gender](class.gender.md)
 
 ### Значення, що повертаються
 
-Повертає масив з коротким та повним ім'ям країни у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає масив з коротким та повним ім'ям країни у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **GenderGender::country()****
+**Пример #1 Пример использования**Gender\\Gender::country()\*\*\*\*
 
 ```php
 $gender = new Gender\Gender;
 var_dump($gender->country(Gender\Gender::BRITAIN));
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {

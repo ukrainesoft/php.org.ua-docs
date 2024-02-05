@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apache-request-headers.md: « apacherequestheaders
-  - function.apache-setenv.md: apachesetenv »
+  - function.apache-request-headers.md: « apache\_request\_headers
+  - function.apache-setenv.md: apache\_setenv »
   - index.md: PHP Manual
-  - ref.apache.md: Функции Apache
-title: apacheresponseheaders
+  - ref.apache.md: Функції Apache
+title: apache\_response\_headers
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apacheresponseheaders
+# apache\_response\_headers
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-apacheresponseheaders — Повертає список усіх заголовків HTTP відповіді Apache
+apache\_response\_headers — Повертає список усіх заголовків HTTP відповіді Apache
 
 ### Опис
 
@@ -26,11 +27,11 @@ apache_response_headers(): array|false
 
 ### Значення, що повертаються
 
-Масив HTTP-заголовків відповіді Apache у разі успішного виконання або **`false`** у разі виникнення помилки.
+Масив HTTP-заголовків відповіді Apache у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apacheresponseheaders()****
+**Пример #1 Пример использования**apache\_response\_headers()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ print_r(apache_response_headers());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -50,6 +51,6 @@ Array
 
 ### Дивіться також
 
--   [apacherequestheaders()](function.apache-request-headers.md) - Отримує список усіх заголовків HTTP-запиту
--   [headerssent()](function.headers-sent.md) - Перевіряє, чи були надіслані заголовки
--   [headerslist()](function.headers-list.md) - Повертає список переданих заголовків (або готових до відправлення)
+-   [apache\_request\_headers()](function.apache-request-headers.md) \- Отримує список усіх заголовків HTTP-запиту
+-   [headers\_sent()](function.headers-sent.md) \- Перевіряє, чи були надіслані заголовки
+-   [headers\_list()](function.headers-list.md) \- Повертає список переданих заголовків (або готових до відправлення)

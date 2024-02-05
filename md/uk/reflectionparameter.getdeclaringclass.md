@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::getDeclaringClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionParameter::getDeclaringClass
 
-(PHP 5> = 5.1.3, PHP 7, PHP 8)
+(PHP 5 >= 5.1.3, PHP 7, PHP 8)
 
 ReflectionParameter::getDeclaringClass — Отримання класу, що оголошує
 
@@ -26,7 +27,7 @@ public ReflectionParameter::getDeclaringClass(): ?ReflectionClass
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.md), або **`null`**, якщо викликано для функції.
+Об'єкт класу [ReflectionClass](class.reflectionclass.md), либо\*\*`null`\*\*, якщо викликано для функції.
 
 ### Приклади
 
@@ -50,7 +51,7 @@ $param = new \ReflectionParameter(['Baz', 'bar'], 0);
 var_dump($param->getDeclaringClass());
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(ReflectionClass)#2 (1) {
@@ -61,4 +62,4 @@ object(ReflectionClass)#2 (1) {
 
 ### Дивіться також
 
--   [ReflectionParameter::getClass()](reflectionparameter.getclass.md) - Отримує об'єкт ReflectionClass для параметра, що відображається, або null
+-   [ReflectionParameter::getClass()](reflectionparameter.getclass.md) \- Отримує об'єкт ReflectionClass для параметра, що відображається, або null

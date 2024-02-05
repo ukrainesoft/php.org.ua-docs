@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-get-ap.md: « fdfgetап
-  - function.fdf-get-encoding.md: fdfgetencoding »
+  - function.fdf-get-ap.md: « fdf\_get\_ap
+  - function.fdf-get-encoding.md: fdf\_get\_encoding »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfgetattachment
+title: fdf\_get\_attachment
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfgetattachment
+# fdf\_get\_attachment
 
-(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
+(PHP 4 >= 4.3.0, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfgetattachment — Витягує завантажений файл, вбудований у FDF
+fdf\_get\_attachment — Витягує завантажений файл, вбудований у FDF
 
 ### Опис
 
@@ -24,7 +25,7 @@ fdf_get_attachment(resource $fdf_document, string $fieldname, string $savepath):
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md) або [fdf\_open\_string()](function.fdf-open-string.md)
 
 `fieldname`
 
@@ -32,7 +33,7 @@ fdf_get_attachment(resource $fdf_document, string $fieldname, string $savepath):
 
 Можливо, це ім'я простого файлу або існуючого каталогу, в якому файл має бути створений під його вихідним ім'ям. Будь-який існуючий файл з таким самим ім'ям буде перезаписано.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Здається, немає іншого способу дізнатися вихідне ім'я файлу, крім як зберегти файл, використовуючи каталог як `savepath` та перевірити базове ім'я, під яким його було збережено.
 
@@ -40,9 +41,9 @@ fdf_get_attachment(resource $fdf_document, string $fieldname, string $savepath):
 
 Повернутий масив містить такі поля:
 
--   `path` - шлях, де зберігається файл
--   `size` - розмір файлу, що зберігається в байтах
--   `type` - mimetype, якщо він вказаний у FDF
+-   `path`\- шлях, де зберігається файл
+-   `size`\- розмір файлу, що зберігається в байтах
+-   `type`\- mimetype, якщо він вказаний у FDF
 
 ### Приклади
 

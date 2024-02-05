@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::reduceNoiseImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::reduceNoiseImage
 
@@ -14,7 +15,7 @@ Imagick::reduceNoiseImage — Згладжує контури зображенн
 
 **Увага**
 
-Функція оголошена *Застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
@@ -38,7 +39,7 @@ public Imagick::reduceNoiseImage(float $radius): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::reduceNoiseImage()****
+**Пример #1 Пример использования**Imagick::reduceNoiseImage()\*\*\*\*
 
 ```php
 <?php

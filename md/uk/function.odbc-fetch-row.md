@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-fetch-object.md: « odbcfetchobject
-  - function.odbc-field-len.md: odbcfieldlen »
+  - function.odbc-fetch-object.md: « odbc\_fetch\_object
+  - function.odbc-field-len.md: odbc\_field\_len »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcfetchrow
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_fetch\_row
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcfetchrow
+# odbc\_fetch\_row
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcfetchrow — Повертає рядок
+odbc\_fetch\_row — Повертає рядок
 
 ### Опис
 
@@ -18,7 +19,7 @@ odbcfetchrow — Повертає рядок
 odbc_fetch_row(resource $statement, ?int $row = null): bool
 ```
 
-Вибирає рядок із даних, які були повернуті [odbcdo()](function.odbc-do.md) або [odbcexec()](function.odbc-exec.md). Після виклику **odbcfetchrow()** до полів цього рядка можна отримати доступ за допомогою [odbcresult()](function.odbc-result.md)
+Вибирає рядок із даних, які були повернуті [odbc\_do()](function.odbc-do.md) або [odbc\_exec()](function.odbc-exec.md). Після виклику **odbc\_fetch\_row()** до полів цього рядка можна отримати доступ за допомогою [odbc\_result()](function.odbc-result.md)
 
 ### Список параметрів
 
@@ -28,9 +29,9 @@ odbc_fetch_row(resource $statement, ?int $row = null): bool
 
 `row`
 
-Якщо параметр `row` не вказано, **odbcfetchrow()** спробує вибрати наступний рядок у результуючому наборі. Виклики **odbcfetchrow()** з параметром `row` і без нього можна змішувати.
+Якщо параметр `row` не вказано, **odbc\_fetch\_row()** спробує вибрати наступний рядок у результуючому наборі. Виклики \*\*odbc\_fetch\_row()\*\*с параметром`row` і без нього можна змішувати.
 
-Щоб крок за кроком пройти за результатом більше одного разу, можна викликати **odbcfetchrow()** зі значенням параметра `row`, рівним 1, а потім продовжити виконання **odbcfetchrow()** без `row`, щоб переглянути результат. Якщо драйвер не підтримує вибірку рядків за номером, `row` ігнорується.
+Щоб крок за кроком пройти за результатом більше одного разу, можна викликати \*\*odbc\_fetch\_row()\*\*со значением параметра`row`, рівним 1, а потім продовжити виконання \*\*odbc\_fetch\_row()\*\*без`row`, щоб переглянути результат. Якщо драйвер не підтримує вибірку рядків за номером, `row` ігнорується.
 
 ### Значення, що повертаються
 
@@ -38,6 +39,6 @@ odbc_fetch_row(resource $statement, ?int $row = null): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `row` тепер допускає значення null. |
+| 8.0.0 | `row` тепер допускає значення null. |

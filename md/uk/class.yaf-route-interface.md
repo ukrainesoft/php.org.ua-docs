@@ -1,18 +1,19 @@
 ---
 navigation:
-  - yaf-response-abstract.tostring.md: '« YafResponseAbstract::toString'
-  - yaf-route-interface.assemble.md: 'YafRouteInterface::assemble »'
+  - yaf-response-abstract.tostring.md: '« Yaf\_Response\_Abstract::\_\_function toString() { [native code] }'
+  - yaf-route-interface.assemble.md: 'Yaf\_Route\_Interface::assemble »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafRouteInterface
+title: Клас Yaf\_Route\_Interface
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafRouteInterface
+# Клас Yaf\_Route\_Interface
 
 (Yaf >=1.0.0)
 
 ## Вступ
 
-**YafRouteInterface** використовується завдання власної маршрутизації.
+**Yaf\_Route\_Interface** використовується завдання власної маршрутизації.
 
 ## Огляд класів
 
@@ -37,5 +38,5 @@ abstract public route(Yaf_Request_Abstract $request): bool
 
 ## Зміст
 
--   [YafRouteInterface::assemble](yaf-route-interface.assemble.md) - Збирає запит
--   [YafRouteInterface::route](yaf-route-interface.route.md) — Надсилання запиту
+-   [Yaf\_Route\_Interface::assemble](yaf-route-interface.assemble.md) \- Збирає запит
+-   [Yaf\_Route\_Interface::route](yaf-route-interface.route.md)— Надсилання запиту

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::query'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::query
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrClient::query — Надсилає запит на сервер
 
@@ -38,7 +39,7 @@ public SolrClient::query(SolrParams $query): SolrQueryResponse
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrClient::query()****
+**Пример #1 Пример использования**SolrClient::query()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ print_r($response);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object

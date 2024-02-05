@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-bson-unserializable.md: « MongoDBBSONUnserializable
-  - class.mongodb-bson-binaryinterface.md: MongoDBBSONBinaryInterface »
+  - class.mongodb-bson-unserializable.md: « MongoDB\\BSON\\Unserializable
+  - class.mongodb-bson-binaryinterface.md: MongoDB\\BSON\\BinaryInterface »
   - index.md: PHP Manual
-  - class.mongodb-bson-unserializable.md: MongoDBBSONUnserializable
-title: 'MongoDBBSONUnserializable::bsonUnserialize'
+  - class.mongodb-bson-unserializable.md: MongoDB\\BSON\\Unserializable
+title: 'MongoDB\\BSON\\Unserializable::bsonUnserialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONUnserializable::bsonUnserialize
+# MongoDB\\BSON\\Unserializable::bsonUnserialize
 
 (mongodb >=1.0.0)
 
-MongoDBBSONUnserializable::bsonUnserialize — Створює об'єкт із масиву BSON або документа
+MongoDB\\BSON\\Unserializable::bsonUnserialize — Створює об'єкт із масиву BSON або документа
 
 ### Опис
 
@@ -20,13 +21,13 @@ abstract public MongoDB\BSON\Unserializable::bsonUnserialize(array $data): void
 
 Викликається під час десеріалізації об'єкта із BSON. Властивості масиву BSON або документа будуть передані методом у вигляді масиву (array).
 
-Не забудьте перевірити властивість id під час обробки даних із документа BSON.
+Не забудьте проверить свойство\_id під час обробки даних із документа BSON.
 
-> **Зауваження**: Даний метод служить як [конструктора](language.oop5.decon.md#language.oop5.decon.constructor) об'єкта Метод [construct()](language.oop5.decon.md#object.construct) *не* буде викликатись після цього методу.
+> **Зауваження**: Даний метод служить як [конструктора](language.oop5.decon.md#language.oop5.decon.constructor) об'єкта Метод [\_\_construct()](language.oop5.decon.md#object.construct) *не* буде викликатись після цього методу.
 
 ### Список параметрів
 
-`data` (array)
+`data`(array)
 
 Властивості в масиві BSON або документі.
 
@@ -36,7 +37,7 @@ abstract public MongoDB\BSON\Unserializable::bsonUnserialize(array $data): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONUnserializable::bsonUnserialize()****
+**Пример #1 Пример использования**MongoDB\\BSON\\Unserializable::bsonUnserialize()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_dump($value);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(MyDocument)#1 (1) {
@@ -72,6 +73,6 @@ object(MyDocument)#1 (1) {
 
 ### Дивіться також
 
--   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) - Надає масив або документ для серіалізації у BSON
--   [MongoDBBSONPersistable](class.mongodb-bson-persistable.md)
+-   [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) \- Надає масив або документ для серіалізації у BSON
+-   [MongoDB\\BSON\\Persistable](class.mongodb-bson-persistable.md)
 -   [Постійні дані](mongodb.persistence.md)

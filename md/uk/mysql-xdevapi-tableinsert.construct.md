@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.mysql-xdevapi-tableinsert.md: « mysqlxdevapiTableInsert
+  - class.mysql-xdevapi-tableinsert.md: « mysql\_xdevapi\\TableInsert
   - mysql-xdevapi-tableinsert.execute.md: 'TableInsert::execute »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableinsert.md: mysqlxdevapiTableInsert
-title: 'TableInsert::construct'
+  - class.mysql-xdevapi-tableinsert.md: mysql\_xdevapi\\TableInsert
+title: 'TableInsert::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# TableInsert::construct
+# TableInsert::\_\_construct
 
 (No version information available, might only be in Git)
 
-TableInsert::construct — Конструктор класу TableInsert
+TableInsert::\_\_construct — Конструктор класу TableInsert
 
 ### Опис
 
-private **mysqlxdevapiTableInsert::construct**
+private**mysql\_xdevapi\\TableInsert::\_\_construct**()
 
 Ініціюється за допомогою методу insert().
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiTableInsert::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableInsert::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableInsert::\_\_construct()\*\*\*\*
 
 ```php
 <?php

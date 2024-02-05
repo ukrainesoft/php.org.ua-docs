@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.realpath-cache-get.md: « realpathcacheget
+  - function.realpath-cache-get.md: « realpath\_cache\_get
   - function.realpath.md: realpath »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
-title: realpathcachesize
+title: realpath\_cache\_size
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# realpathcachesize
+# realpath\_cache\_size
 
-(PHP 5> = 5.3.2, PHP 7, PHP 8)
+(PHP 5 >= 5.3.2, PHP 7, PHP 8)
 
-realpathcachesize — Отримує розмір кеша realpath
+realpath\_cache\_size — Отримує розмір кеша realpath
 
 ### Опис
 
@@ -30,7 +31,7 @@ realpath_cache_size(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **realpathcachesize()****
+**Пример #1 Пример использования**realpath\_cache\_size()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ var_dump(realpath_cache_size());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(412)
@@ -46,5 +47,5 @@ int(412)
 
 ### Дивіться також
 
--   [realpathcacheget()](function.realpath-cache-get.md) - Отримує записи з кеша realpath
--   Конфігураційна опція [realpathcachesize](ini.core.md#ini.realpath-cache-size)
+-   [realpath\_cache\_get()](function.realpath-cache-get.md) \- Отримує записи з кеша realpath
+-   Конфігураційна опція [realpath\_cache\_size](ini.core.md#ini.realpath-cache-size)

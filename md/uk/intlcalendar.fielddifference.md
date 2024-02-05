@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::fieldDifference'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::fieldDifference
 
@@ -44,15 +45,15 @@ intlcal_field_difference(IntlCalendar $calendar, float $timestamp, int $field): 
 
 Поле, що становить кількість, що порівнюється.
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants)полей типа дата/время. Целое число от до\*\*`IntlCalendar::FIELD_COUNT`\*\*
 
 ### Значення, що повертаються
 
-Повертає різницю часу (зі знаком) в одиницях виміру, пов'язаних із зазначеним полем або **`false`** у разі виникнення помилки.
+Повертає різницю часу (зі знаком) в одиницях виміру, пов'язаних із зазначеним полем або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::fieldDifference()****
+**Пример #1 Пример использования**IntlCalendar::fieldDifference()\*\*\*\*
 
 ```php
 <?php
@@ -80,7 +81,7 @@ printf(
 echo "Время после: ", IntlDateFormatter::formatObject($cal1), "\n";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Время до: 29 févr. 2012 09:00:11

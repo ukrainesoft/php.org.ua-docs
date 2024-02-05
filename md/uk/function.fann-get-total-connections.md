@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-sarprop-weight-decay-shift.md: « fanngetsarpropweightdecayshift
-  - function.fann-get-total-neurons.md: fanngettotalneurons »
+  - function.fann-get-sarprop-weight-decay-shift.md: « fann\_get\_sarprop\_weight\_decay\_shift
+  - function.fann-get-total-neurons.md: fann\_get\_total\_neurons »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngettotalconnections
+  - ref.fann.md: Функції Fann
+title: fann\_get\_total\_connections
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngettotalconnections
+# fann\_get\_total\_connections
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngettotalconnections — Отримує загальну кількість з'єднань у всій мережі
+fann\_get\_total\_connections — Отримує загальну кількість з'єднань у всій мережі
 
 ### Опис
 
@@ -28,4 +29,4 @@ fann_get_total_connections(resource $ann): int
 
 ### Значення, що повертаються
 
-Загальна кількість з'єднань у всій мережі або **`false`** у разі виникнення помилки.
+Загальна кількість з'єднань у всій мережі або \*\*`false`\*\*в случае возникновения ошибки.

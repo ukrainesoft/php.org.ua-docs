@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-coroutine.md: « SwooleCoroutine
-  - swoole-coroutine.call-user-func.md: 'SwooleCoroutine::calluserfunc »'
+  - class.swoole-coroutine.md: « Swoole\\Coroutine
+  - swoole-coroutine.call-user-func.md: 'Swoole\\Coroutine::call\_user\_func »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutine::calluserfuncarray'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine::call\_user\_func\_array'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutine::calluserfuncarray
+# Swoole\\Coroutine::call\_user\_func\_array
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutine::calluserfuncarray - Викликає callback-функцію з масивом параметрів
+Swoole\\Coroutine::call\_user\_func\_array - Викликає callback-функцію з масивом параметрів
 
 ### Опис
 
@@ -18,13 +19,13 @@ SwooleCoroutine::calluserfuncarray - Викликає callback-функцію з
 public static Swoole\Coroutine::call_user_func_array(callable $callback, array $param_array): mixed
 ```
 
-Викликає callback-функцію, задану першим параметром з параметрами paramarray.
+Викликає callback-функцію, задану першим параметром з параметрами param\_array.
 
 ### Список параметрів
 
 `callback`
 
-Функція [callable](language.types.callable.md) для дзвінка.
+Функция[callable](language.types.callable.md) для дзвінка.
 
 `param_array`
 

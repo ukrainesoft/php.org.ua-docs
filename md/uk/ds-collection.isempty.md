@@ -1,21 +1,22 @@
 ---
 navigation:
-  - ds-collection.copy.md: '« DsCollection::copy'
-  - ds-collection.toarray.md: 'ДсCollection::toArray »'
+  - ds-collection.copy.md: '« Ds\\Collection::copy'
+  - ds-collection.toarray.md: 'Ds\\Collection::toArray »'
   - index.md: PHP Manual
-  - class.ds-collection.md: Коллекция
-title: 'ДсCollection::isEmpty'
+  - class.ds-collection.md: Ds\\Collection
+title: 'Ds\\Collection::isEmpty'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсCollection::isEmpty
+# Ds\\Collection::isEmpty
 
 (PECL ds >= 1.0.0)
 
-ДсCollection::isEmpty — Перевіряє, чи колекція порожня.
+Ds\\Collection::isEmpty — Перевіряє, чи колекція порожня.
 
 ### Опис
 
 ```methodsynopsis
-abstract public Ds\Collection::isEmpty(): bool
+public Ds\Collection::isEmpty(): bool
 ```
 
 Перевіряє, чи колекція порожня.
@@ -26,11 +27,11 @@ abstract public Ds\Collection::isEmpty(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо колекція порожня, та **`false`** в іншому випадку.
+Повертає **`true`**, если коллекция пуста, и\*\*`false`\*\* в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад **ДсCollection::isEmpty()****
+**Пример #1 Пример**Ds\\Collection::isEmpty()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($b->isEmpty());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.mqseries.md: « Функции mqseries
-  - function.mqseries-begin.md: mqseriesbegin »
+  - ref.mqseries.md: « Функції mqseries
+  - function.mqseries-begin.md: mqseries\_begin »
   - index.md: PHP Manual
-  - ref.mqseries.md: Функции mqseries
-title: mqseriesback
+  - ref.mqseries.md: Функції mqseries
+title: mqseries\_back
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mqseriesback
+# mqseries\_back
 
 (PECL mqseries >= 0.10.0)
 
-mqseriesback — MQSeries MQBACK
+mqseries\_back — MQSeries MQBACK
 
 ### Опис
 
@@ -18,9 +19,9 @@ mqseriesback — MQSeries MQBACK
 mqseries_back(resource $hconn, resource &$compCode, resource &$reason): void
 ```
 
-Функція **mqseriesback()** (MQBACK) здійснює відкат транзакції. Тобто. всі повідомлення, розміщені в чергу з останньої точки синхронізації, видаляються з неї. Всі повідомлення, прочитані з черги з останньої точки синхронізації, відновлюються (стають доступними).
+Функция**mqseries\_back()** (MQBACK) здійснює відкат транзакції. Тобто. всі повідомлення, розміщені в чергу з останньої точки синхронізації, видаляються з неї. Всі повідомлення, прочитані з черги з останньої точки синхронізації, відновлюються (стають доступними).
 
-Using **mqseriesback()** працює тільки спільно з [mqseriesbegin()](function.mqseries-begin.md) і тільки якщо використовується пряме з'єднання з менеджером черг, а не через інтерфейс mqclient.
+Using**mqseries\_back()** працює тільки спільно з [mqseries\_begin()](function.mqseries-begin.md) і тільки якщо використовується пряме з'єднання з менеджером черг, а не через інтерфейс mqclient.
 
 ### Список параметрів
 
@@ -44,7 +45,7 @@ Using **mqseriesback()** працює тільки спільно з [mqseriesbe
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseriesback()****
+**Пример #1 Пример использования**mqseries\_back()\*\*\*\*
 
 ```php
 <?php
@@ -58,12 +59,12 @@ Using **mqseriesback()** працює тільки спільно з [mqseriesbe
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **mqseriesback()** не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
+> **mqseries\_back()** не працює, якщо для з'єднання з менеджером черг використовується MQSeries Client.
 
 ### Дивіться також
 
--   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
--   [mqseriesbegin()](function.mqseries-begin.md) - MQseries MQBEGIN
+-   [mqseries\_conn()](function.mqseries-conn.md) \- MQSeries MQCONN
+-   [mqseries\_connx()](function.mqseries-connx.md) \- MQSeries MQCONNX
+-   [mqseries\_begin()](function.mqseries-begin.md) \- MQseries MQBEGIN

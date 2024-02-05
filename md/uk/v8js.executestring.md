@@ -1,10 +1,11 @@
 ---
 navigation:
-  - v8js.construct.md: '« V8Js::construct'
+  - v8js.construct.md: '« V8Js::\_\_construct'
   - v8js.getextensions.md: 'V8Js::getExtensions »'
   - index.md: PHP Manual
   - class.v8js.md: V8Js
 title: 'V8Js::executeString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # V8Js::executeString
 
@@ -32,7 +33,7 @@ public V8Js::executeString(string $script, string $identifier = "V8Js::executeSt
 
 `flags`
 
-Прапори запуску. Значення має бути однією з констант `V8Js::FLAG_*`, за замовчуванням **`V8Js::FLAG_NONE`**
+Прапори запуску. Значення має бути однією з констант `V8Js::FLAG_*`, по умолчанию\*\*`V8Js::FLAG_NONE`\*\*
 
 -   **`V8Js::FLAG_NONE`**: без прапорів
     

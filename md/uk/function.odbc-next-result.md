@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-longreadlen.md: « odbclongreadlen
-  - function.odbc-num-fields.md: odbcnumfields »
+  - function.odbc-longreadlen.md: « odbc\_longreadlen
+  - function.odbc-num-fields.md: odbc\_num\_fields »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcnextresult
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_next\_result
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcnextresult
+# odbc\_next\_result
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
-odbcnextresult — Перевіряє, чи є кілька результатів.
+odbc\_next\_result — Перевіряє, чи є кілька результатів.
 
 ### Опис
 
@@ -18,7 +19,7 @@ odbcnextresult — Перевіряє, чи є кілька результаті
 odbc_next_result(resource $statement): bool
 ```
 
-Перевіряє, чи доступні інші результуючі набори, а також дозволяє доступ до наступного результуючого набору за допомогою [odbcfetcharray()](function.odbc-fetch-array.md) [odbcfetchrow()](function.odbc-fetch-row.md) [odbcresult()](function.odbc-result.md) і т.д.
+Перевіряє, чи доступні інші результуючі набори, а також дозволяє доступ до наступного результуючого набору за допомогою [odbc\_fetch\_array()](function.odbc-fetch-array.md) [odbc\_fetch\_row()](function.odbc-fetch-row.md) [odbc\_result()](function.odbc-result.md)и т.д.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ odbc_next_result(resource $statement): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **odbcnextresult()****
+**Пример #1 Пример использования**odbc\_next\_result()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ var_dump(odbc_next_result($r_Results));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Вывод первого результирующего набора array(1) {

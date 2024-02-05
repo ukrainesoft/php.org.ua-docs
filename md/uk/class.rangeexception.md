@@ -3,12 +3,13 @@ navigation:
   - class.overflowexception.md: « OverflowException
   - class.runtimeexception.md: RuntimeException »
   - index.md: PHP Manual
-  - spl.exceptions.md: Исключения
+  - spl.exceptions.md: Винятки
 title: Клас RangeException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас RangeException
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -19,47 +20,44 @@ title: Клас RangeException
 ```classsynopsis
 
      
-    
-
-    
-     
       class RangeException
      
 
      
       extends
        RuntimeException
+      {
+
+     /* Наследуемые свойства */
      
-     {
-
-    /* Наследуемые свойства */
-    
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
-    /* Наследуемые методы */
-    
-   final public Exception::getMessage(): string
+     /* Наследуемые методы */
+     
+   public Exception::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+     final public Exception::getMessage(): string
 final public Exception::getPrevious(): ?Throwable
 final public Exception::getCode(): int
 final public Exception::getFile(): string
@@ -69,5 +67,5 @@ final public Exception::getTraceAsString(): string
 public Exception::__toString(): string
 private Exception::__clone(): void
 
-   }
+    }
 ```

@@ -4,25 +4,34 @@ navigation:
   - memcached.decrement.md: 'Memcached::decrement »'
   - index.md: PHP Manual
   - class.memcached.md: Memcached
-title: 'Memcached::construct'
+title: 'Memcached::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Memcached::construct
+# Memcached::\_\_construct
 
 (PECL memcached >= 0.1.0)
 
-Memcached::construct — Створює екземпляр класу Memcached
+Memcached::\_\_construct — Створює екземпляр класу Memcached
 
 ### Опис
 
-public **Memcached::construct**(string `$persistent_id`
+public**Memcached::\_\_construct**(?string`$persistent_id` **`null`**, ?[callable](language.types.callable.md) `$callback` **`null`**, ?string`$connection_str` **`null`**) .
 
-Створює екземпляр класу Memcached, що з'єднує з сервером memcache.
+Створює екземпляр класу Memcached, який з'єднує з'єднання з сервером memcache.
+
+**Увага**
+
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `persistent_id`
 
-За замовчуванням екземпляр класу Memcached знищується наприкінці запиту. Для створення екземпляра, який зберігається між запитами, потрібно використовувати `persistent_id`щоб вказати унікальний ідентифікатор для екземпляра. Усі екземпляри класу, створені з використанням одного і того ж ідентифікатора `persistent_id` будуть використовувати спільне з'єднання.
+За замовчуванням екземпляр класу Memcached знищується наприкінці запиту. Для створення екземпляра, який зберігається між запитами, необхідно використовувати `persistent_id`, щоб зазначити унікальний ідентифікатор для екземпляра. Усі екземпляри класу, створені з використанням одного і того ж ідентифікатора `persistent_id` будуть використовувати спільне з'єднання.
+
+`callback`
+
+`connection_str`
 
 ### Приклади
 

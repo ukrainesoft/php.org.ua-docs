@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-parser.advance.md: '« ParleParser::advance'
-  - parle-parser.consume.md: 'ParleParser::consume »'
+  - parle-parser.advance.md: '« Parle\\Parser::advance'
+  - parle-parser.consume.md: 'Parle\\Parser::consume »'
   - index.md: PHP Manual
-  - class.parle-parser.md: ParleParser
-title: 'ParleParser::build'
+  - class.parle-parser.md: Parle\\Parser
+title: 'Parle\\Parser::build'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleParser::build
+# Parle\\Parser::build
 
 (PECL parle >= 0.5.1)
 
-ParleParser::build — Завершує граматичні правила
+Parle\\Parser::build — Завершує граматичні правила
 
 ### Опис
 

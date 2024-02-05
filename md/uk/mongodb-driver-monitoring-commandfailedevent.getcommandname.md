@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-commandfailedevent.md: « MongoDBDriverMonitoringCommandFailedEvent
-  - mongodb-driver-monitoring-commandfailedevent.getdurationmicros.md: 'MongoDBDriverMonitoringCommandFailedEvent::getDurationMicros »'
+  - class.mongodb-driver-monitoring-commandfailedevent.md: « MongoDB\\Driver\\Monitoring\\CommandFailedEvent
+  - mongodb-driver-monitoring-commandfailedevent.getdurationmicros.md: 'MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getDurationMicros »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDBDriverMonitoringCommandFailedEvent
-title: 'MongoDBDriverMonitoringCommandFailedEvent::getCommandName'
+  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDB\\Driver\\Monitoring\\CommandFailedEvent
+title: 'MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getCommandName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringCommandFailedEvent::getCommandName
+# MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getCommandName
 
 (mongodb >=1.3.0)
 
-MongoDBDriverMonitoringCommandFailedEvent::getCommandName — Повертає ім'я команди
+MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getCommandName — Повертає ім'я команди
 
 ### Опис
 
@@ -30,7 +31,7 @@ final public MongoDB\Driver\Monitoring\CommandFailedEvent::getCommandName(): str
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 

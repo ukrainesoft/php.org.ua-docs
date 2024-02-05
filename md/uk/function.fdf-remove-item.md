@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-open.md: « fdfopen
-  - function.fdf-save-string.md: fdfsavestring »
+  - function.fdf-open.md: « fdf\_open
+  - function.fdf-save-string.md: fdf\_save\_string »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfremoveitem
+title: fdf\_remove\_item
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfremoveitem
+# fdf\_remove\_item
 
-(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
+(PHP 4 >= 4.3.0, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfremoveitem — Встановлює цільовий кадр для форми.
+fdf\_remove\_item — Встановлює цільовий кадр для форми.
 
 ### Опис
 
@@ -20,4 +21,4 @@ fdf_remove_item(resource $fdf_document, string $fieldname, int $item): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

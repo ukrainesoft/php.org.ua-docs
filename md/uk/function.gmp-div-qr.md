@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-div-q.md: « gmpdivдо
-  - function.gmp-div-r.md: gmpdivr »
+  - function.gmp-div-q.md: « gmp\_div\_q
+  - function.gmp-div-r.md: gmp\_div\_r »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpdivгр
+title: gmp\_div\_qr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpdivгр
+# gmp\_div\_qr
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpdivqr — Поділ чисел та отримання приватного та залишку
+gmp\_div\_qr — Поділ чисел та отримання приватного та залишку
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpdivqr — Поділ чисел та отримання приватного 
 gmp_div_qr(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_ROUND_ZERO): array
 ```
 
-Функція ділить `num1` на `num2`
+Функція ділить `num1`на`num2`
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ gmp_div_qr(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_
 
 `rounding_mode`
 
-У документації до функції [gmpdivq()](function.gmp-div-q.md) наведено опис аргументу `rounding_mode`
+В документации к функции[gmp\_div\_q()](function.gmp-div-q.md)приведено описание аргумента`rounding_mode`
 
 ### Значення, що повертаються
 
-Повертає масив (array), у якому перший елемент містить `[n/d]` (ціле приватне), а другий `(n - [n/d] * d)` (остача від ділення).
+Повертає масив (array), у якому перший елемент містить `[n/d]` (ціле приватне), а другий `(n - [n/d] * d)`(остаток от деления).
 
 ### Приклади
 
@@ -57,5 +58,5 @@ gmp_div_qr(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_
 
 ### Дивіться також
 
--   [gmpdivq()](function.gmp-div-q.md) - Розподіл чисел
--   [gmpdivr()](function.gmp-div-r.md) - Залишок від розподілу чисел
+-   [gmp\_div\_q()](function.gmp-div-q.md) \- Розподіл чисел
+-   [gmp\_div\_r()](function.gmp-div-r.md) \- Залишок від розподілу чисел

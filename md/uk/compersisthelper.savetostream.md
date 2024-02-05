@@ -1,10 +1,11 @@
 ---
 navigation:
   - compersisthelper.savetofile.md: '« COMPersistHelper::SaveToFile'
-  - class.com-exception.md: comexception »
+  - class.com-exception.md: com\_exception »
   - index.md: PHP Manual
   - class.compersisthelper.md: COMPersistHelper
 title: 'COMPersistHelper::SaveToStream'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # COMPersistHelper::SaveToStream
 
@@ -28,8 +29,8 @@ public COMPersistHelper::SaveToStream(resource $stream): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Викидає виняток [comexception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStream**або якщо виклик **IPersistStream::Save()** завершився помилкою.
+Викидає виняток [com\_exception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStream**або якщо виклик **IPersistStream::Save()** завершився помилкою.

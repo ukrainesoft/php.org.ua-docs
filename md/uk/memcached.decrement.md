@@ -1,10 +1,11 @@
 ---
 navigation:
-  - memcached.construct.md: '« Memcached::construct'
+  - memcached.construct.md: '« Memcached::\_\_construct'
   - memcached.decrementbykey.md: 'Memcached::decrementByKey »'
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::decrement'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::decrement
 
@@ -15,10 +16,10 @@ Memcached::decrement — Зменшує числове значення запи
 ### Опис
 
 ```methodsynopsis
-public Memcached::decrement(    string $key,    int $offset = 1,    int $initial_value = 0,    int $expiry = 0): int|false
+public Memcached::decrement(    string $key,    int $offset = 1,    int $initial_value = 0,    int $expiry = 0): int|false
 ```
 
-**Memcached::decrement()** зменшує числове значення запису на величину, вказану в `offset`. Якщо значення запису не є числовим, буде повернено помилку. Якщо функція зменшить значення запису менше нуля, буде встановлено нульове значення . **Memcached::decrement()** встановить запису значення параметра `initial_value` якщо переданого ключа немає.
+**Memcached::decrement()** зменшує числове значення запису на величину, вказану в `offset`. Якщо значення запису не є числовим, буде повернено помилку. Якщо функція зменшить значення запису менше нуля, буде встановлено нульове значення . \*\*Memcached::decrement()\*\*установит записи значение параметра`initial_value` якщо переданого ключа немає.
 
 ### Список параметрів
 
@@ -40,11 +41,11 @@ public Memcached::decrement(    string $key,    int $offset = 1,    int $initial
 
 ### Значення, що повертаються
 
-Повертає нове значення запису у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає нове значення запису у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::decrement()****
+**Пример #1 Пример использования**Memcached::decrement()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ var_dump($n);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(4)
@@ -78,6 +79,6 @@ bool(false)
 
 ### Дивіться також
 
--   [Memcached::increment()](memcached.increment.md) - Збільшує числове значення запису
--   [Memcached::incrementByKey()](memcached.incrementbykey.md) - Збільшує числове значення запису, що зберігається на вказаному сервері
--   [Memcached::decrementByKey()](memcached.decrementbykey.md) - Зменшує числове значення запису, що зберігається на певному сервері
+-   [Memcached::increment()](memcached.increment.md) \- Збільшує числове значення запису
+-   [Memcached::incrementByKey()](memcached.incrementbykey.md) \- Збільшує числове значення запису, що зберігається на вказаному сервері
+-   [Memcached::decrementByKey()](memcached.decrementbykey.md) \- Зменшує числове значення запису, що зберігається на певному сервері

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yaf-route-simple.md: « YafRouteSimple
-  - yaf-route-simple.construct.md: 'YafRouteSimple::construct »'
+  - class.yaf-route-simple.md: « Yaf\_Route\_Simple
+  - yaf-route-simple.construct.md: 'Yaf\_Route\_Simple::\_\_construct »'
   - index.md: PHP Manual
-  - class.yaf-route-simple.md: YafRouteSimple
-title: 'YafRouteSimple::assemble'
+  - class.yaf-route-simple.md: Yaf\_Route\_Simple
+title: 'Yaf\_Route\_Simple::assemble'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRouteSimple::assemble
+# Yaf\_Route\_Simple::assemble
 
 (Yaf >=2.3.0)
 
-YafRouteSimple::assemble — Збирає URL
+Yaf\_Route\_Simple::assemble — Збирає URL
 
 ### Опис
 
@@ -32,11 +33,11 @@ public Yaf_Route_Simple::assemble(array $info, array $query = ?): string
 
 ### Помилки
 
-Викидає [YafExceptionTypeError](class.yaf-exception-typeerror.md), якщо ключі параметра `info` `':c'` ор `':a'` не задані.
+Викидає [Yaf\_Exception\_TypeError](class.yaf-exception-typeerror.md), якщо ключі параметра `info` `':c'`or`':a'` не задані.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafRouteSimple::assemble()****
+**Пример #1 Пример использования**Yaf\_Route\_Simple::assemble()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ var_dump($router->getRoute('simple')->assemble(
             ));
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(64) "?m=yafmodule&c=yafcontroller&a=yafaction&tkey1=tval1&tkey2=tval2"

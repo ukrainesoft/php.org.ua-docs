@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolorstotal
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecolorstotal
 
@@ -32,13 +33,13 @@ imagecolorstotal(GdImage $image): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Отримання кількості кольорів у зображенні за допомогою **imagecolorstotal()****
+**Пример #1 Получение количества цветов в изображении, используя**imagecolorstotal()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ imagedestroy($im);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Всего цветов в изображении: 128
@@ -60,6 +61,6 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagecolorat()](function.imagecolorat.md) - Отримання індексу кольору пікселя
--   [imagecolorsforindex()](function.imagecolorsforindex.md) - Отримання кольорів, що відповідають індексу
--   [imageistruecolor()](function.imageistruecolor.md) - Визначає, чи є зображення повнокольоровим
+-   [imagecolorat()](function.imagecolorat.md) \- Отримання індексу кольору пікселя
+-   [imagecolorsforindex()](function.imagecolorsforindex.md) \- Отримання кольорів, що відповідають індексу
+-   [imageistruecolor()](function.imageistruecolor.md) \- Визначає, чи є зображення повнокольоровим

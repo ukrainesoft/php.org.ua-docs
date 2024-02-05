@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageopenpolygon
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imageopenpolygon
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
 imageopenpolygon — Малює відкритий полігон
 
@@ -23,10 +24,10 @@ imageopenpolygon(GdImage $image, array $points, int $color): bool
 Альтернативний синтаксис (починаючи з PHP 8.0.0)
 
 ```methodsynopsis
-imageopenpolygon(    GdImage $image,    array $points,    int $num_points,    int $color): bool
+imageopenpolygon(    GdImage $image,    array $points,    int $num_points,    int $color): bool
 ```
 
-**imageopenpolygon()** малює відкритий полігон на заданому зображенні (`image`). На відміну від [imagepolygon()](function.imagepolygon.md), лінія між останньою та першою точкою не малюється.
+**imageopenpolygon()** малює відкритий полігон на заданому зображенні (`image`). В отличие от[imagepolygon()](function.imagepolygon.md), лінія між останньою та першою точкою не малюється.
 
 ### Список параметрів
 
@@ -52,18 +53,18 @@ imageopenpolygon(    GdImage $image,    array $points,    int $num_points,    in
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `num_points` оголошено застарілим. |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.1.0 | Параметр`num_points` оголошено застарілим. |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imageopenpolygon()****
+**Пример #1 Пример использования**imageopenpolygon()\*\*\*\*
 
 ```php
 <?php
@@ -90,10 +91,10 @@ imagedestroy($image);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: imageopenpolygon()](images/21009b70229598c6a80eef8b45bf282b-imageopenpolygon.png)
 
 ### Дивіться також
 
--   [imagepolygon()](function.imagepolygon.md) - Малювання багатокутника
+-   [imagepolygon()](function.imagepolygon.md) \- Малювання багатокутника

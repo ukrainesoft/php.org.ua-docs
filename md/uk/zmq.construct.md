@@ -4,13 +4,14 @@ navigation:
   - class.zmqcontext.md: ZMQContext »
   - index.md: PHP Manual
   - class.zmq.md: ZMQ
-title: 'ZMQ::construct'
+title: 'ZMQ::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ZMQ::construct
+# ZMQ::\_\_construct
 
 (PECL zmq >= 0.5.0)
 
-ZMQ::construct — Конструктор ZMQ
+ZMQ::\_\_construct — Конструктор ZMQ
 
 ### Опис
 

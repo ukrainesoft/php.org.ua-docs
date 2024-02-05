@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setViewbox'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setViewbox
 
@@ -15,12 +16,12 @@ ImagickDraw::setViewbox — Встановлює загальний розмір
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::setViewbox(    int $x1,    int $y1,    int $x2,    int $y2): bool
+public ImagickDraw::setViewbox(    int $x1,    int $y1,    int $x2,    int $y2): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Встановлює загальний розмір полотна, яке буде записано з векторними даними малюнка. Зазвичай використовується розмір зображення полотна. Коли векторні дані зберігаються у форматах SVG або MVG, вікно перегляду використовується для визначення розміру зображення полотна, на якому засіб перегляду відображатиме векторні дані.
 
@@ -48,7 +49,7 @@ public ImagickDraw::setViewbox(    int $x1,    int $y1,    int $x2,    int $y2):
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setViewBox()****
+**Пример #1 Пример использования**ImagickDraw::setViewBox()\*\*\*\*
 
 ```php
 <?php

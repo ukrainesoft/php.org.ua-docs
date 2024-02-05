@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.rar-wrapper-cache-stats.md: « rarwrappercachestats
+  - function.rar-wrapper-cache-stats.md: « rar\_wrapper\_cache\_stats
   - rararchive.close.md: 'RarArchive::close »'
   - index.md: PHP Manual
   - book.rar.md: Rar
 title: Клас RarArchive
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас RarArchive
 
@@ -49,12 +50,12 @@ public __toString(): string
 
 ## Зміст
 
--   [RarArchive::close](rararchive.close.md) — Закриває RAR архів та звільняє всі ресурси
--   [RarArchive::getComment](rararchive.getcomment.md) — Отримати текст коментаря з архіву RAR
--   [RarArchive::getEntries](rararchive.getentries.md) — Повертає повний список елементів із RAR архіву
--   [RarArchive::getEntry](rararchive.getentry.md) — Повертає об'єкт елемента з архіву RAR
--   [RarArchive::isBroken](rararchive.isbroken.md) — Перевіряє, чи не зламано архів (не завершено)
--   [RarArchive::isSolid](rararchive.issolid.md) — Перевірити, чи є архів суцільним
--   [RarArchive::open](rararchive.open.md) — Відкриває архів RAR
--   [RarArchive::setAllowBroken](rararchive.setallowbroken.md) — Чи відкривати пошкоджені архіви
--   [RarArchive::toString](rararchive.tostring.md) — Отримати текстову виставу
+-   [RarArchive::close](rararchive.close.md)— Закриває RAR архів та звільняє всі ресурси
+-   [RarArchive::getComment](rararchive.getcomment.md)— Отримати текст коментаря з архіву RAR
+-   [RarArchive::getEntries](rararchive.getentries.md)— Повертає повний список елементів із RAR архіву
+-   [RarArchive::getEntry](rararchive.getentry.md)— Повертає об'єкт елемента з архіву RAR
+-   [RarArchive::isBroken](rararchive.isbroken.md)— Перевіряє, чи не зламано архів (не завершено)
+-   [RarArchive::isSolid](rararchive.issolid.md)— Перевірити, чи є архів суцільним
+-   [RarArchive::open](rararchive.open.md)— Відкриває архів RAR
+-   [RarArchive::setAllowBroken](rararchive.setallowbroken.md)— Чи відкривати пошкоджені архіви
+-   [RarArchive::\_\_function toString() { \[native code\] }](rararchive.tostring.md)— Отримати текстову виставу

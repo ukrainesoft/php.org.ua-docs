@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-response-abstract.setredirect.md: '« YafResponseAbstract::setRedirect'
-  - class.yaf-route-interface.md: YafRouteInterface »
+  - yaf-response-abstract.setredirect.md: '« Yaf\_Response\_Abstract::setRedirect'
+  - class.yaf-route-interface.md: Yaf\_Route\_Interface »
   - index.md: PHP Manual
-  - class.yaf-response-abstract.md: YafResponseAbstract
-title: 'YafResponseAbstract::function toString() { \[native code\] }'
+  - class.yaf-response-abstract.md: Yaf\_Response\_Abstract
+title: 'Yaf\_Response\_Abstract::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafResponseAbstract::function toString() { \[native code\] }
+# Yaf\_Response\_Abstract::\_\_function toString() { \[native code\] }
 
 (Yaf >=1.0.0)
 
-YafResponseAbstract::toString — Отримує все тіло у вигляді рядка
+Yaf\_Response\_Abstract::\_\_toString — Отримує все тіло у вигляді рядка
 
 ### Опис
 

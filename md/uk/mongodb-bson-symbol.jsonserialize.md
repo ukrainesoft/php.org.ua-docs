@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-symbol.construct.md: '« MongoDBBSONSymbol::construct'
-  - mongodb-bson-symbol.serialize.md: 'MongoDBBSONSymbol::serialize »'
+  - mongodb-bson-symbol.construct.md: '« MongoDB\\BSON\\Symbol::\_\_construct'
+  - mongodb-bson-symbol.serialize.md: 'MongoDB\\BSON\\Symbol::serialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-symbol.md: MongoDBBSONSymbol
-title: 'MongoDBBSONSymbol::jsonSerialize'
+  - class.mongodb-bson-symbol.md: MongoDB\\BSON\\Symbol
+title: 'MongoDB\\BSON\\Symbol::jsonSerialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONSymbol::jsonSerialize
+# MongoDB\\BSON\\Symbol::jsonSerialize
 
 (mongodb >=1.4.0)
 
-MongoDBBSONSymbol::jsonSerialize — Повертає уявлення, яке можна перетворити на JSON
+MongoDB\\BSON\\Symbol::jsonSerialize — Повертає уявлення, яке можна перетворити на JSON
 
 ### Опис
 
@@ -24,18 +25,18 @@ final public MongoDB\BSON\Symbol::jsonSerialize(): mixed
 
 ### Значення, що повертаються
 
-Повертає дані, які можуть бути серіалізовані за допомогою [jsonencode()](function.json-encode.md) для створення розширеного JSON-подання [MongoDBBSONSymbol](class.mongodb-bson-symbol.md)
+Повертає дані, які можуть бути серіалізовані за допомогою [json\_encode()](function.json-encode.md)для создания расширенного JSON-представления[MongoDB\\BSON\\Symbol](class.mongodb-bson-symbol.md)
 
-> **Зауваження**: Висновок відповідає висновку функції [MongoDBBSONtoJSON()](function.mongodb.bson-tojson.md)яка використовує успадкований, специфічний для драйвера, розширений формат JSON. Він не обов'язково підходитиме під [» relaxed](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example) або [» canonical](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example) уявлення розширеного JSON, що використовуються в [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) і [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md)відповідно.
+> **Зауваження**: Висновок відповідає висновку функції [MongoDB\\BSON\\toJSON()](function.mongodb.bson-tojson.md)яка використовує успадкований, специфічний для драйвера, розширений формат JSON. Він не обов'язково підходитиме під [» relaxed](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example) або [» canonical](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example) уявлення розширеного JSON, що використовуються в [MongoDB\\BSON\\toRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) і [MongoDB\\BSON\\toCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md)відповідно.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md) - Задає дані, які мають бути серіалізовані у JSON
--   [jsonencode()](function.json-encode.md) - Повертає JSON-подання даних
--   [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md) - Повертає Canonical Extended JSON подання для значення BSON
--   [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) - Повертає Relaxed Extended JSON подання значення BSON
--   [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+-   [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md) \- Задає дані, які мають бути серіалізовані у JSON
+-   [json\_encode()](function.json-encode.md) \- Повертає JSON-подання даних
+-   [MongoDB\\BSON\\toCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md) \- Повертає Canonical Extended JSON подання для значення BSON
+-   [MongoDB\\BSON\\toRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) \- Повертає Relaxed Extended JSON подання значення BSON
+-   [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)

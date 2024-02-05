@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-http-response.status.md: '« SwooleHttpResponse::status'
-  - class.swoole-http-server.md: SwooleHttpServer »
+  - swoole-http-response.status.md: '« Swoole\\Http\\Response::status'
+  - class.swoole-http-server.md: Swoole\\Http\\Server »
   - index.md: PHP Manual
-  - class.swoole-http-response.md: SwooleHttpResponse
-title: 'SwooleHttpResponse::write'
+  - class.swoole-http-response.md: Swoole\\Http\\Response
+title: 'Swoole\\Http\\Response::write'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpResponse::write
+# Swoole\\Http\\Response::write
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpResponse::write — Додає вміст тіла HTTP у відповідь HTTP
+Swoole\\Http\\Response::write — Додає вміст тіла HTTP у відповідь HTTP
 
 ### Опис
 

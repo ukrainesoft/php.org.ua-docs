@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.snmp-set-oid-numeric-print.md: « snmpsetoidnumericprint
-  - function.snmp-set-quick-print.md: snmpsetquickprint »
+  - function.snmp-set-oid-numeric-print.md: « snmp\_set\_oid\_numeric\_print
+  - function.snmp-set-quick-print.md: snmp\_set\_quick\_print »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
-title: snmpsetoidoutputformat
+title: snmp\_set\_oid\_output\_format
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# snmpsetoidoutputformat
+# snmp\_set\_oid\_output\_format
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-snmpsetoidoutputformat — Встановлює вихідний формат OID
+snmp\_set\_oid\_output\_format — Встановлює вихідний формат OID
 
 ### Опис
 
 ```methodsynopsis
-snmp_set_oid_output_format(int $format): bool
+snmp_set_oid_output_format(int $format): true
 ```
 
-**snmpsetoidoutputformat()** встановлює повний чи числовий формат виведення.
+**snmp\_set\_oid\_output\_format()** встановлює повний чи числовий формат виведення.
 
 ### Список параметрів
 
@@ -30,9 +31,15 @@ snmp_set_oid_output_format(int $format): bool
 
 Функція завжди повертає **`true`**
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
+
 ### Приклади
 
-**Приклад #1 Приклад використання [snmprealwalk()](function.snmprealwalk.md)**
+**Пример #1 Пример использования[snmprealwalk()](function.snmprealwalk.md)**
 
 ```php
 <?php

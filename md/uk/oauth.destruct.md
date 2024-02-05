@@ -1,16 +1,17 @@
 ---
 navigation:
-  - oauth.construct.md: '« OAuth::construct'
+  - oauth.construct.md: '« OAuth::\_\_construct'
   - oauth.disabledebug.md: 'OAuth::disableDebug »'
   - index.md: PHP Manual
   - class.oauth.md: OAuth
-title: 'OAuth::destruct'
+title: 'OAuth::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# OAuth::destruct
+# OAuth::\_\_destruct
 
 (PECL OAuth >= 0.99.9)
 
-OAuth::destruct - Деструктор
+OAuth::\_\_destruct - Деструктор
 
 ### Опис
 
@@ -22,7 +23,7 @@ public OAuth::__destruct(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,4 +35,4 @@ public OAuth::__destruct(): void
 
 ### Дивіться також
 
--   [OAuth::construct()](oauth.construct.md) - Створює новий об'єкт OAuth
+-   [OAuth::\_\_construct()](oauth.construct.md) \- Створює новий об'єкт OAuth

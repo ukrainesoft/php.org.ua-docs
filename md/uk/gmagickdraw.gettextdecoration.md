@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::gettextdecoration'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GmagickDraw::gettextdecoration
 
@@ -26,4 +27,4 @@ public GmagickDraw::gettextdecoration(): int
 
 ### Значення, що повертаються
 
-Повертає одну із констант DECORATION або 0, якщо оформлення встановлено.
+Повертає одну із констант DECORATION\_или 0, если оформление не установлено.

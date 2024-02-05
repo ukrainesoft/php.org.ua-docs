@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-server.getserverdescription.md: '« MongoDBDriverServer::getServerDescription'
-  - mongodb-driver-server.gettype.md: 'MongoDBDriverServer::getType »'
+  - mongodb-driver-server.getserverdescription.md: '« MongoDB\\Driver\\Server::getServerDescription'
+  - mongodb-driver-server.gettype.md: 'MongoDB\\Driver\\Server::getType »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.md: MongoDBDriverServer
-title: 'MongoDBDriverServer::getTags'
+  - class.mongodb-driver-server.md: MongoDB\\Driver\\Server
+title: 'MongoDB\\Driver\\Server::getTags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverServer::getTags
+# MongoDB\\Driver\\Server::getTags
 
 (mongodb >=1.0.0)
 
-MongoDBDriverServer::getTags — Повертає масив тегів, що описують сервер у наборі реплік
+MongoDB\\Driver\\Server::getTags — Повертає масив тегів, що описують сервер у наборі реплік
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverServer::getTags — Повертає масив тегів, що о
 final public MongoDB\Driver\Server::getTags(): array
 ```
 
-Повертає array [»тегів](https://www.mongodb.com/docs/manual/reference/glossary/#term-tag), що використовуються для опису цього сервера в наборі реплік. Масив буде містити нуль або більше пар string ключів та значень.
+Повертає array [» тегів](https://www.mongodb.com/docs/manual/reference/glossary/#term-tag), що використовуються для опису цього сервера в наборі реплік. Масив буде містити нуль або більше пар string ключів та значень.
 
 ### Список параметрів
 
@@ -30,8 +31,8 @@ final public MongoDB\Driver\Server::getTags(): array
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
+-   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.md) \- Повертає масив інформації, що описує сервер

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.rar.md: « Введение
+  - intro.rar.md: '" Вступ'
   - rar.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.rar.md: Rar
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

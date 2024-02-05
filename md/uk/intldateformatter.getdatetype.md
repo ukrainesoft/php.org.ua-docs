@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::getDateType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::getDateType
 
-# datefmtgetdatetype
+# datefmt\_get\_datetype
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::getDateType -- datefmtgetdatetype — Отримує тип дати, який використовується IntlDateFormatter
+IntlDateFormatter::getDateType -- datefmt\_get\_datetype — Отримує тип дати, який використовується IntlDateFormatter
 
 ### Опис
 
@@ -38,11 +39,11 @@ datefmt_get_datetype(IntlDateFormatter $formatter): int|false
 
 ### Значення, що повертаються
 
-Значення поточного [типу дати](class.intldateformatter.md#intl.intldateformatter-constants) засоби форматування або **`false`** у разі виникнення помилки.
+Значення поточного [типу дати](class.intldateformatter.md#intl.intldateformatter-constants)средства форматирования или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmtgetdatetype()****
+**Пример #1 Пример использования**datefmt\_get\_datetype()\*\*\*\*
 
 ```php
 <?php
@@ -95,7 +96,7 @@ echo 'Второй отформатированный вывод с типом �
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Тип даты средства форматирования : 0
@@ -106,5 +107,5 @@ echo 'Второй отформатированный вывод с типом �
 
 ### Дивіться також
 
--   [datefmtgettimetype()](intldateformatter.gettimetype.md) - Отримує тип часу, який використовується IntlDateFormatter
--   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати
+-   [datefmt\_get\_timetype()](intldateformatter.gettimetype.md) \- Отримує тип часу, який використовується IntlDateFormatter
+-   [datefmt\_create()](intldateformatter.create.md) \- Створює засіб форматування дати

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::registerLibrary'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # LuaSandbox::registerLibrary
 
@@ -67,5 +68,5 @@ $sandbox->registerLibrary( 'php', [
 
 ### Дивіться також
 
--   [LuaSandbox::loadString()](luasandbox.loadstring.md) - Завантажує код Lua у середу Lua
--   [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.md) - Обертає викликаний PHP-об'єкт у LuaSandboxFunction
+-   [LuaSandbox::loadString()](luasandbox.loadstring.md) \- Завантажує код Lua у середу Lua
+-   [LuaSandbox::wrapPhpFunction()](luasandbox.wrapphpfunction.md) \- Обертає викликаний PHP-об'єкт у LuaSandboxFunction

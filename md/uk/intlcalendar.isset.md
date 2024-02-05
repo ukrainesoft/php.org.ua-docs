@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::isSet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::isSet
 
@@ -26,7 +27,7 @@ public IntlCalendar::isSet(int $field): bool
 intlcal_is_set(IntlCalendar $calendar, int $field): bool
 ```
 
-Повертає, чи встановлено поле (на відміну від [clear](intlcalendar.clear.md)). Встановлені поля пріоритетніші за невстановлені поля та їх значення за замовчуванням при обчисленні дати та часу. Поля, встановлені пізніше за пріоритетніші полів, встановлених раніше.
+Возвращает, установлено ли поле (в отличие от[clear](intlcalendar.clear.md)). Встановлені поля пріоритетніші за невстановлені поля та їх значення за замовчуванням при обчисленні дати та часу. Поля, встановлені пізніше за пріоритетніші полів, встановлених раніше.
 
 ### Список параметрів
 
@@ -36,17 +37,17 @@ intlcal_is_set(IntlCalendar $calendar, int $field): bool
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants)полей типа дата/время. Целое число от до\*\*`IntlCalendar::FIELD_COUNT`\*\*
 
 ### Значення, що повертаються
 
-У разі відсутності помилок аргумент повертає **`true`**, якщо поле встановлено.
+В случае отсутствия ошибок аргумента возвращает\*\*`true`\*\*, якщо поле встановлено.
 
 ### Приклади
 
-Дивіться приклад в описі методу [IntlCalendar::clear()](intlcalendar.clear.md)
+Смотрите пример в описании метода[IntlCalendar::clear()](intlcalendar.clear.md)
 
 ### Дивіться також
 
--   [IntlCalendar::clear()](intlcalendar.clear.md) - Очищає поле чи всі поля
--   [IntlCalendar::set()](intlcalendar.set.md) - Встановлює поле часу або одразу кілька спільних полів
+-   [IntlCalendar::clear()](intlcalendar.clear.md) \- Очищає поле чи всі поля
+-   [IntlCalendar::set()](intlcalendar.set.md) \- Встановлює поле часу або одразу кілька спільних полів

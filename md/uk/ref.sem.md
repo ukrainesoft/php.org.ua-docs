@@ -1,31 +1,32 @@
 ---
 navigation:
-  - sem.constants.md: « Обумовлені константи
+  - sem.constants.md: « Зумовлені константи
   - function.ftok.md: ftok »
   - index.md: PHP Manual
   - book.sem.md: Семафори
 title: Функції семафорів
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Функції семафорів
 
 ## Зміст
 
--   [ftok](function.ftok.md) — Перетворення шляху та ідентифікатора проекту на ключ System V IPC
--   [msggetqueue](function.msg-get-queue.md) — Створення або підключення до черги повідомлень
--   [msgqueueexists](function.msg-queue-exists.md) — Перевірка існування черги повідомлень
--   [msgreceive](function.msg-receive.md) — Отримання повідомлення з черги повідомлень
--   [msgremovequeue](function.msg-remove-queue.md) — Видалення черги повідомлень
--   [msgsend](function.msg-send.md) — Надсилання повідомлення до черги повідомлень
--   [msgsetqueue](function.msg-set-queue.md) — Встановлення інформації у структурі даних черги повідомлень
--   [msgstatqueue](function.msg-stat-queue.md) — Отримання інформації із структури даних черги повідомлень
--   [semacquire](function.sem-acquire.md) - Захоплення семафору
--   [semget](function.sem-get.md) - Отримання ідентифікатора семафору
--   [semrelease](function.sem-release.md) - Звільнення семафору
--   [semremove](function.sem-remove.md) - Видалення семафору
--   [shmattach](function.shm-attach.md) — Створює або відкриває сегмент пам'яті, що розділяється.
--   [shmdetach](function.shm-detach.md) — Відключається від сегмента пам'яті, що розділяється
--   [shmgetvar](function.shm-get-var.md) — Повертає змінну з пам'яті, що розділяється.
--   [shmhasvar](function.shm-has-var.md) — Перевіряє, чи існує конкретний запис
--   [shmputvar](function.shm-put-var.md) — Вставляє або оновлює змінну в пам'яті, що розділяється.
--   [shmremovevar](function.shm-remove-var.md) — Видаляє змінну з пам'яті, що розділяється.
--   [shmremove](function.shm-remove.md) — Видаляє пам'ять із систем Unix, що розділяється.
+-   [ftok](function.ftok.md)— Перетворює шлях та ідентифікатор проекту на ключ System V IPC
+-   [msg\_get\_queue](function.msg-get-queue.md)— Створення або підключення до черги повідомлень
+-   [msg\_queue\_exists](function.msg-queue-exists.md)— Перевірка існування черги повідомлень
+-   [msg\_receive](function.msg-receive.md)— Отримання повідомлення з черги повідомлень
+-   [msg\_remove\_queue](function.msg-remove-queue.md)— Видалення черги повідомлень
+-   [msg\_send](function.msg-send.md)— Надсилання повідомлення до черги повідомлень
+-   [msg\_set\_queue](function.msg-set-queue.md)— Встановлення інформації у структурі даних черги повідомлень
+-   [msg\_stat\_queue](function.msg-stat-queue.md)— Отримання інформації із структури даних черги повідомлень
+-   [sem\_acquire](function.sem-acquire.md) \- Захоплення семафору
+-   [sem\_get](function.sem-get.md) \- Отримання ідентифікатора семафору
+-   [sem\_release](function.sem-release.md) \- Звільнення семафору
+-   [sem\_remove](function.sem-remove.md) \- Видалення семафору
+-   [shm\_attach](function.shm-attach.md)— Створює або відкриває сегмент пам'яті, що розділяється.
+-   [shm\_detach](function.shm-detach.md)— Відключається від сегмента пам'яті, що розділяється
+-   [shm\_get\_var](function.shm-get-var.md)— Повертає змінну з пам'яті, що розділяється.
+-   [shm\_has\_var](function.shm-has-var.md)— Перевіряє, чи існує конкретний запис
+-   [shm\_put\_var](function.shm-put-var.md)— Вставляє або оновлює змінну в пам'яті, що розділяється.
+-   [shm\_remove\_var](function.shm-remove-var.md)— Видаляє змінну з пам'яті, що розділяється.
+-   [shm\_remove](function.shm-remove.md)— Видаляє пам'ять із систем Unix, що розділяється.

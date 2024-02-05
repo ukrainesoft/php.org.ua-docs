@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-tabledelete.execute.md: '« TableDelete::execute'
   - mysql-xdevapi-tabledelete.orderby.md: 'TableDelete::orderby »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete
+  - class.mysql-xdevapi-tabledelete.md: mysql\_xdevapi\\TableDelete
 title: 'TableDelete::limit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableDelete::limit
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableDelete::limit(int $rows): mysql_xdevapi\TableDelete
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableDelete::limit()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableDelete::limit()\*\*\*\*
 
 ```php
 <?php

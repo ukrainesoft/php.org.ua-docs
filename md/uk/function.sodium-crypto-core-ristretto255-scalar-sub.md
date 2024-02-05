@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-scalar-reduce.md: « sodiumcryptocoreristretto255scalarreduce
-  - function.sodium-crypto-core-ristretto255-sub.md: sodiumcryptocoreristretto255sub »
+  - function.sodium-crypto-core-ristretto255-scalar-reduce.md: « sodium\_crypto\_core\_ristretto255\_scalar\_reduce
+  - function.sodium-crypto-core-ristretto255-sub.md: sodium\_crypto\_core\_ristretto255\_sub »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptocoreristretto255scalarsub
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_core\_ristretto255\_scalar\_sub
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptocoreristretto255scalarsub
+# sodium\_crypto\_core\_ristretto255\_scalar\_sub
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-sodiumcryptocoreristretto255scalarsub — Віднімає скалярне значення
+sodium\_crypto\_core\_ristretto255\_scalar\_sub — Віднімає скалярне значення
 
 ### Опис
 
@@ -18,11 +19,11 @@ sodiumcryptocoreristretto255scalarsub — Віднімає скалярне зн
 sodium_crypto_core_ristretto255_scalar_sub(string $x, string $y): string
 ```
 
-Віднімає скалярне значення `y` з `x`. Доступно, починаючи з libsodium 1.0.18.
+Віднімає скалярне значення `y`из`x`. Доступно, починаючи з libsodium 1.0.18.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -40,7 +41,7 @@ sodium_crypto_core_ristretto255_scalar_sub(string $x, string $y): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptocoreristretto255scalarsub()****
+**Пример #1 Пример использования**sodium\_crypto\_core\_ristretto255\_scalar\_sub()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ var_dump(hash_equals($foo, $value));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -63,5 +64,5 @@ bool(true)
 
 ### Дивіться також
 
--   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.md) - Генерує випадковий ключ
--   [sodiumcryptocoreristretto255scalaradd()](function.sodium-crypto-core-ristretto255-scalar-add.md) - Додає скалярне значення
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_random()](function.sodium-crypto-core-ristretto255-scalar-random.md) \- Генерує випадковий ключ
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_add()](function.sodium-crypto-core-ristretto255-scalar-add.md) \- Додає скалярне значення

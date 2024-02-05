@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-cmp.md: « gmpcmp
-  - function.gmp-div-q.md: gmpdivq »
+  - function.gmp-cmp.md: « gmp\_cmp
+  - function.gmp-div-q.md: gmp\_div\_q »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpcom
+title: gmp\_com
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpcom
+# gmp\_com
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpcom — Обчислює доповнення до одиниці числа
+gmp\_com — Обчислює доповнення до одиниці числа
 
 ### Опис
 
@@ -32,7 +33,7 @@ gmp_com(GMP|int|string $num): GMP
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpcom()****
+**Пример #1 Пример использования**gmp\_com()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ echo gmp_strval($com) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 -1235

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.dateperiod.md: DatePeriod
 title: 'DatePeriod::getEndDate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DatePeriod::getEndDate
 
-(PHP 5> = 5.6.5, PHP 7, PHP 8)
+(PHP 5 >= 5.6.5, PHP 7, PHP 8)
 
 DatePeriod::getEndDate — Повертає кінцеву дату періоду
 
@@ -28,15 +29,15 @@ public DatePeriod::getEndDate(): ?DateTimeInterface
 
 ### Значення, що повертаються
 
-Повертає **`null`**, якщо [DatePeriod](class.dateperiod.md) не містить кінцевої дати. Наприклад, при ініціалізації з параметром `recurrences` або `isostr` без зазначення кінцевої дати.
+Повертає **`null`**, якщо [DatePeriod](class.dateperiod.md) не містить кінцевої дати. Наприклад, при ініціалізації з параметром `recurrences`или`isostr` без зазначення кінцевої дати.
 
-Повертає об'єкт [DateTimeImmutable](class.datetimeimmutable.md), коли [DatePeriod](class.dateperiod.md) ініціалізований з об'єктом [DateTimeImmutable](class.datetimeimmutable.md) як параметр `end`
+Повертає об'єкт [DateTimeImmutable](class.datetimeimmutable.md), когда[DatePeriod](class.dateperiod.md) ініціалізований з об'єктом [DateTimeImmutable](class.datetimeimmutable.md) як параметр `end`
 
 В іншому випадку повертає клонований об'єкт (object) [DateTime](class.datetime.md), що представляє дату закінчення.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DatePeriod::getEndDate()****
+**Пример #1 Пример использования**DatePeriod::getEndDate()\*\*\*\*
 
 ```php
 <?php
@@ -50,13 +51,13 @@ echo $start->format(DateTime::ISO8601);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 2016-05-20T00:00:00+0000
 ```
 
-**Приклад #2 Приклад використання **DatePeriod::getEndDate()** без дати закінчення**
+**Пример #2 Пример использования**DatePeriod::getEndDate()\*\* без дати закінчення\*\*
 
 ```php
 <?php
@@ -69,7 +70,7 @@ var_dump($period->getEndDate());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 NULL
@@ -77,5 +78,5 @@ NULL
 
 ### Дивіться також
 
--   [DatePeriod::getStartDate()](dateperiod.getstartdate.md) - Повертає початкову дату періоду
--   [DatePeriod::getDateInterval()](dateperiod.getdateinterval.md) - Повертає інтервал
+-   [DatePeriod::getStartDate()](dateperiod.getstartdate.md) \- Повертає початкову дату періоду
+-   [DatePeriod::getDateInterval()](dateperiod.getdateinterval.md) \- Повертає інтервал

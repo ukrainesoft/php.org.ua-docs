@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-check.gettext.md: '« UIControlsCheck::getText'
-  - ui-controls-check.ontoggle.md: 'ОЙControlsCheck::onToggle »'
+  - ui-controls-check.gettext.md: '« UI\\Controls\\Check::getText'
+  - ui-controls-check.ontoggle.md: 'UI\\Controls\\Check::onToggle »'
   - index.md: PHP Manual
-  - class.ui-controls-check.md: ОЙControlsCheck
-title: 'ОЙControlsCheck::isChecked'
+  - class.ui-controls-check.md: UI\\Controls\\Check
+title: 'UI\\Controls\\Check::isChecked'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsCheck::isChecked
+# UI\\Controls\\Check::isChecked
 
 (UI 0.9.9)
 
-ОЙControlsCheck::isChecked — Визначення позначки
+UI\\Controls\\Check::isChecked — Визначення позначки
 
 ### Опис
 

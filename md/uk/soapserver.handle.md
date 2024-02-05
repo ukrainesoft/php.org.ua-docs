@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.soapserver.md: SoapServer
 title: 'SoapServer::handle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SoapServer::handle
 
@@ -24,7 +25,7 @@ public SoapServer::handle(?string $request = null): void
 
 `request`
 
-SOAP-запит. Якщо аргумент не заданий, передбачається, що запит знаходиться в необроблених POST-даних HTTP-запиту.
+SOAP-запит. Якщо аргумент не заданий, передбачається, що запит знаходиться у необроблених POST-даних HTTP-запиту.
 
 ### Значення, що повертаються
 
@@ -32,13 +33,13 @@ SOAP-запит. Якщо аргумент не заданий, передбач
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `request` тепер допускає значення null. |
+| 8.0.0 | `request` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapServer::handle()****
+**Пример #1 Пример использования**SoapServer::handle()\*\*\*\*
 
 ```php
 <?php
@@ -55,4 +56,4 @@ $server->handle();
 
 ### Дивіться також
 
--   [SoapServer::construct()](soapserver.construct.md) - Конструктор SoapServer
+-   [SoapServer::\_\_construct()](soapserver.construct.md) \- Конструктор SoapServer

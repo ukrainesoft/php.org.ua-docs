@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-server.getlatency.md: '« MongoDBDriverServer::getLatency'
-  - mongodb-driver-server.getserverdescription.md: 'MongoDBDriverServer::getServerDescription »'
+  - mongodb-driver-server.getlatency.md: '« MongoDB\\Driver\\Server::getLatency'
+  - mongodb-driver-server.getserverdescription.md: 'MongoDB\\Driver\\Server::getServerDescription »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.md: MongoDBDriverServer
-title: 'MongoDBDriverServer::getPort'
+  - class.mongodb-driver-server.md: MongoDB\\Driver\\Server
+title: 'MongoDB\\Driver\\Server::getPort'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverServer::getPort
+# MongoDB\\Driver\\Server::getPort
 
 (mongodb >=1.0.0)
 
-MongoDBDriverServer::getPort — Повертає порт, який слухає сервер
+MongoDB\\Driver\\Server::getPort — Повертає порт, який слухає сервер
 
 ### Опис
 
@@ -30,11 +31,11 @@ final public MongoDB\Driver\Server::getPort(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverServer::getPort()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Server::getPort()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($server->getPort());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(27017)
@@ -57,5 +58,5 @@ int(27017)
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
--   [MongoDBDriverServerDescription::getPort()](mongodb-driver-serverdescription.getport.md) - Повертає порт, на якому прослуховується цей сервер
+-   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.md) \- Повертає масив інформації, що описує сервер
+-   [MongoDB\\Driver\\ServerDescription::getPort()](mongodb-driver-serverdescription.getport.md) \- Повертає порт, на якому прослуховується цей сервер

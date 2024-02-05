@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-table.decr.md: '« SwooleTable::decr'
-  - swoole-table.destroy.md: 'SwooleTable::destroy »'
+  - swoole-table.decr.md: '« Swoole\\Table::decr'
+  - swoole-table.destroy.md: 'Swoole\\Table::destroy »'
   - index.md: PHP Manual
-  - class.swoole-table.md: SwooleTable
-title: 'SwooleTable::del'
+  - class.swoole-table.md: Swoole\\Table
+title: 'Swoole\\Table::del'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTable::del
+# Swoole\\Table::del
 
 (PECL swoole >= 1.9.0)
 
-SwooleTable::del — Видаляє рядок у таблиці Swoole за $rowkey
+Swoole\\Table::del — Видаляє рядок у таблиці Swoole за $row\_key
 
 ### Опис
 

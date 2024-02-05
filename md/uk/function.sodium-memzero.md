@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-memcmp.md: « sodiummemcmp
-  - function.sodium-pad.md: sodiumpad »
+  - function.sodium-memcmp.md: « sodium\_memcmp
+  - function.sodium-pad.md: sodium\_pad »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiummemzero
+  - ref.sodium.md: Опції Sodium
+title: sodium\_memzero
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiummemzero
+# sodium\_memzero
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiummemzero — Перезаписує рядок символами NULL
+sodium\_memzero — Перезаписує рядок символами NULL
 
 ### Опис
 
@@ -18,7 +19,7 @@ sodiummemzero — Перезаписує рядок символами NULL
 sodium_memzero(string &$string): void
 ```
 
-**sodiummemzero()** обнуляє рядок, переданий за посиланням.
+**sodium\_memzero()** обнуляє рядок, переданий за посиланням.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine.call-user-func.md: '« SwooleCoroutine::calluserfunc'
-  - swoole-coroutine.create.md: 'SwooleCoroutine::create »'
+  - swoole-coroutine.call-user-func.md: '« Swoole\\Coroutine::call\_user\_func'
+  - swoole-coroutine.create.md: 'Swoole\\Coroutine::create »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutine::cliwait'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine::cli\_wait'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutine::cliwait
+# Swoole\\Coroutine::cli\_wait
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutine::cliwait — Опис
+Swoole\\Coroutine::cli\_wait — Опис
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.toarray.md: '« DsVector::toArray'
-  - class.ds-deque.md: Двостороння черга »
+  - ds-vector.toarray.md: '« Ds\\Vector::toArray'
+  - class.ds-deque.md: Ds\\Deque »
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::unshift'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::unshift'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::unshift
+# Ds\\Vector::unshift
 
 (PECL ds >= 1.0.0)
 
-ДсVector::unshift — Додає значення на початок вектора
+Ds\\Vector::unshift — Додає значення на початок вектора
 
 ### Опис
 
@@ -26,7 +27,7 @@ public Ds\Vector::unshift(mixed $values = ?): void
 
 Значення, що додаються.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Багато значень додаються в тому порядку, як вони були передані.
 
@@ -36,7 +37,7 @@ public Ds\Vector::unshift(mixed $values = ?): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::unshift()****
+**Пример #1 Пример использования**Ds\\Vector::unshift()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ print_r($vector);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

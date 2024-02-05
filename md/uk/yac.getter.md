@@ -4,13 +4,14 @@ navigation:
   - yac.info.md: 'Yac::info »'
   - index.md: PHP Manual
   - class.yac.md: Yac
-title: 'Yac::get'
+title: 'Yac::\_\_get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Yac::get
+# Yac::\_\_get
 
 (PECL yac >= 1.0.0)
 
-Yac::get - Геттер
+Yac::\_\_get - Геттер
 
 ### Опис
 
@@ -28,4 +29,4 @@ public Yac::__get(string $key): mixed
 
 ### Значення, що повертаються
 
-Змішане значення у разі успішного виконання, **`null`** у разі виникнення помилки
+Змішане значення у разі успішного виконання, \*\*`null`\*\*в случае возникновения ошибки

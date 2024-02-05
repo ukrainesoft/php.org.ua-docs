@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-set-error-verbosity.md: « pgseterrorverbosity
-  - function.pg-trace.md: пгtrace »
+  - function.pg-set-error-verbosity.md: « pg\_set\_error\_verbosity
+  - function.pg-trace.md: pg\_trace »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгsocket
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_socket
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгsocket
+# pg\_socket
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-пгsocket — Отримати дескриптор тільки для читання на сокет, що лежить в основі з'єднання PostgreSQL
+pg\_socket — Отримати дескриптор тільки для читання на сокет, що лежить в основі з'єднання PostgreSQL
 
 ### Опис
 
@@ -18,24 +19,24 @@ title: пгsocket
 pg_socket(PgSql\Connection $connection): resource|false
 ```
 
-**пгsocket()** повертає ресурс (resource) лише читання, відповідний сокету, лежачому основу даного з'єднання PostgreSQL.
+**pg\_socket()** повертає ресурс (resource) лише читання, відповідний сокету, лежачому основу даного з'єднання PostgreSQL.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
-Ресурс сокету у разі успішного виконання або **`false`** у разі виникнення помилки.
+Ресурс сокету у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflectionparameter.construct.md: '« ReflectionParameter::construct'
+  - reflectionparameter.construct.md: '« ReflectionParameter::\_\_construct'
   - reflectionparameter.getattributes.md: 'ReflectionParameter::getAttributes »'
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::export'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionParameter::export
 
@@ -14,7 +15,7 @@ ReflectionParameter::export — Експорт
 
 **Увага**
 
-Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНО*починаючи з PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція *ЗАСТАРІЛА* починаючи з PHP 7.4.0 і була *ВИДАЛЕНО* у PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -26,7 +27,7 @@ public static ReflectionParameter::export(string $function, string $parameter, b
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -40,7 +41,7 @@ public static ReflectionParameter::export(string $function, string $parameter, b
 
 `return`
 
-Встановлення в **`true`** поверне експортоване значення, на відміну поведінки, де цей параметр опущений. Встановлення в **`false`** (за умовчанням) зробить протилежне.
+Установка в\*\*`true`\*\* поверне експортоване значення, на відміну поведінки, де цей параметр опущений. Встановлення в **`false`** (за умовчанням) зробить протилежне.
 
 ### Значення, що повертаються
 
@@ -48,4 +49,4 @@ public static ReflectionParameter::export(string $function, string $parameter, b
 
 ### Дивіться також
 
--   [ReflectionParameter::toString()](reflectionparameter.tostring.md) - Перетворення на рядок
+-   [ReflectionParameter::\_\_toString()](reflectionparameter.tostring.md) \- Перетворення на рядок

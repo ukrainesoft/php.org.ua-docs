@@ -1,16 +1,17 @@
 ---
 navigation:
-  - event.callbacks.md: « Callback-функции
+  - event.callbacks.md: « Callback-функції
   - class.event.md: Event »
   - index.md: PHP Manual
   - book.event.md: Event
 title: Створення подій для сигналів
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Створення подій для сигналів
 
-Event може відстежувати сигнали у стилі POSIX. Для створення обробника сигналу використовуйте конструктор [Event::construct()](event.construct.md) з прапором **`Event::SIGNAL`** або фабричний метод [Event::signal()](event.signal.md)
+Event може відстежувати сигнали у стилі POSIX. Для створення обробника сигналу використовуйте конструктор [Event::\_\_construct()](event.construct.md) з прапором **`Event::SIGNAL`** або фабричний метод [Event::signal()](event.signal.md)
 
-**Приклад #1 Обробка сигналу `SIGTERM`**
+**Пример #1 Обработка сигнала`SIGTERM`**
 
 ```php
 <?php
@@ -53,6 +54,6 @@ $base->loop();
 ?>
 ```
 
-Зверніть увагу, що функції зворотного дзвінка запускаються всередині подієвого циклу після отримання сигналу, так що для них цілком безпечно викликати функції, які не слід запускати зі звичайних обробників сигналів POSIX.
+Зверніть увагу, що функції зворотного дзвінка запускаються всередині подієвого циклу після отримання сигналу, тому для них цілком безпечно викликати функції, які не слід запускати зі звичайних обробників сигналів POSIX.
 
-Також почитайте [» Fast portable non-blocking network programming with Libevent, Constructing Signal Events](http://www.wangafu.net/~nickm/libevent-book/Ref4_event.md#_constructing_signal_events)
+Также почитайте[» Fast portable non-blocking network programming with Libevent, Constructing Signal Events](http://www.wangafu.net/~nickm/libevent-book/Ref4_event.md#_constructing_signal_events)

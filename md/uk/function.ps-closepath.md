@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-closepath-stroke.md: «psclosepathstroke
-  - function.ps-continue-text.md: псcontinuetext »
+  - function.ps-closepath-stroke.md: « ps\_closepath\_stroke
+  - function.ps-continue-text.md: ps\_continue\_text »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псclosepath
+title: ps\_closepath
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псclosepath
+# ps\_closepath
 
 (PECL ps >= 1.1.0)
 
-псclosepath - Замикає шлях
+ps\_closepath - Замикає шлях
 
 ### Опис
 
@@ -24,13 +25,13 @@ ps_closepath(resource $psdoc): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псclip()](function.ps-clip.md) - Відображення кліпів по поточному шляху
--   [псclosepathstroke()](function.ps-closepath-stroke.md) - Замикає та обводить контур
+-   [ps\_clip()](function.ps-clip.md) \- Відображення кліпів по поточному шляху
+-   [ps\_closepath\_stroke()](function.ps-closepath-stroke.md) \- Замикає та обводить контур

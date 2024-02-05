@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-powm.md: « gmppowm
-  - function.gmp-random-bits.md: gmprandombits »
+  - function.gmp-powm.md: « gmp\_powm
+  - function.gmp-random-bits.md: gmp\_random\_bits »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpprobprime
+title: gmp\_prob\_prime
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpprobprime
+# gmp\_prob\_prime
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpprobprime — Перевіряє, чи є число "ймовірно простим"
+gmp\_prob\_prime — Перевіряє, чи є число "ймовірно простим"
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpprobprime — Перевіряє, чи є число "ймовірно про
 gmp_prob_prime(GMP|int|string $num, int $repetitions = 10): int
 ```
 
-Функція використовує тест Міллера-Рабіна для визначення, чи є число простим.
+Функція використовує тест Міллера-Рабін для визначення, чи є число простим.
 
 ### Список параметрів
 
@@ -40,7 +41,7 @@ gmp_prob_prime(GMP|int|string $num, int $repetitions = 10): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpprobprime()****
+**Пример #1 Пример использования**gmp\_prob\_prime()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ echo gmp_prob_prime("11") . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 0

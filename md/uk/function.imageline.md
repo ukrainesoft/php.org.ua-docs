@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageline
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imageline
 
@@ -15,7 +16,7 @@ imageline — Малювання лінії
 ### Опис
 
 ```methodsynopsis
-imageline(    GdImage $image,    int $x1,    int $y1,    int $x2,    int $y2,    int $color): bool
+imageline(    GdImage $image,    int $x1,    int $y1,    int $x2,    int $y2,    int $color): bool
 ```
 
 Малює лінію, що з'єднує дві точки.
@@ -48,13 +49,13 @@ y-координата другої точки.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
@@ -93,5 +94,5 @@ function imagelinethick($image, $x1, $y1, $x2, $y2, $color, $thick = 1)
 
 ### Дивіться також
 
--   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення
--   [imagecolorallocate()](function.imagecolorallocate.md) - Створення кольору для зображення
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) \- Створення нового повнокольорового зображення
+-   [imagecolorallocate()](function.imagecolorallocate.md) \- Створення кольору для зображення

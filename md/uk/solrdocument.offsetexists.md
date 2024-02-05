@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::offsetExists'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDocument::offsetExists
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrDocument::offsetExists — Перевіряє, чи існує конкретне поле
 
@@ -28,4 +29,4 @@ public SolrDocument::offsetExists(string $fieldName): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

@@ -4,21 +4,22 @@ navigation:
   - mysqli.error.md: 'mysqli::$error »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::$errorlist'
+title: 'mysqli::$error\_list'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::$errorlist
+# mysqli::$error\_list
 
-# mysqlierrorlist
+# mysqli\_error\_list
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
-mysqli::$errorlist - mysqlierrorlist — Повертає список помилок виконання останньої запущеної команди
+mysqli::$error\_list -- mysqli\_error\_list — Повертає список помилок виконання останньої запущеної команди
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-array [$mysqli->errorlist](mysqli.error-list.md)
+array[$mysqli->error\_list](mysqli.error-list.md)
 
 Процедурний стиль
 
@@ -32,7 +33,7 @@ mysqli_error_list(mysqli $mysql): array
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -40,7 +41,7 @@ mysqli_error_list(mysqli $mysql): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання $mysqli->errorlist**
+**Приклад #1 Приклад використання $mysqli->error\_list**
 
 Об'єктно-орієнтований стиль
 
@@ -84,7 +85,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Array
@@ -101,7 +102,7 @@ Array
 
 ### Дивіться також
 
--   [mysqliconnecterrno()](mysqli.connect-errno.md) - Повертає код помилки останньої спроби з'єднання
--   [mysqliconnecterror()](mysqli.connect-error.md) - Повертає опис останньої помилки підключення
--   [mysqlierror()](mysqli.error.md) - Повертає рядок із описом останньої помилки
--   [mysqlisqlstate()](mysqli.sqlstate.md) - Повертає код стану SQLSTATE останній MySQL операції
+-   [mysqli\_connect\_errno()](mysqli.connect-errno.md) \- Повертає код помилки останньої спроби з'єднання
+-   [mysqli\_connect\_error()](mysqli.connect-error.md) \- Повертає опис останньої помилки підключення
+-   [mysqli\_error()](mysqli.error.md) \- Повертає рядок із описом останньої помилки
+-   [mysqli\_sqlstate()](mysqli.sqlstate.md) \- Повертає код стану SQLSTATE останній MySQL операції

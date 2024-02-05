@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-check.settext.md: '« UIControlsCheck::setText'
-  - ui-controls-button.construct.md: 'ОЙControlsButton::construct »'
+  - ui-controls-check.settext.md: '« UI\\Controls\\Check::setText'
+  - ui-controls-button.construct.md: 'UI\\Controls\\Button::\_\_construct »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Кнопка"
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Кнопка"
 
@@ -61,7 +62,7 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsButton::construct](ui-controls-button.construct.md) — Створити новий об'єкт Button
--   [ОЙControlsButton::getText](ui-controls-button.gettext.md) — Отримати текст
--   [ОЙControlsButton::onClick](ui-controls-button.onclick.md) - Обробник кліку
--   [ОЙControlsButton::setText](ui-controls-button.settext.md) — Встановити текст
+-   [UI\\Controls\\Button::\_\_construct](ui-controls-button.construct.md)— Створити новий об'єкт Button
+-   [UI\\Controls\\Button::getText](ui-controls-button.gettext.md)— Отримати текст
+-   [UI\\Controls\\Button::onClick](ui-controls-button.onclick.md) \- Обробник кліку
+-   [UI\\Controls\\Button::setText](ui-controls-button.settext.md)— Встановити текст

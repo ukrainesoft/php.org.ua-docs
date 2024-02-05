@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ffi-ctype.getfuncparametercount.md: '« FFICType::getFuncParameterCount'
-  - ffi-ctype.getfuncreturntype.md: 'FFICType::getFuncReturnType »'
+  - ffi-ctype.getfuncparametercount.md: '« FFI\\CType::getFuncParameterCount'
+  - ffi-ctype.getfuncreturntype.md: 'FFI\\CType::getFuncReturnType »'
   - index.md: PHP Manual
-  - class.ffi-ctype.md: FFICType
-title: 'FFICType::getFuncParameterType'
+  - class.ffi-ctype.md: FFI\\CType
+title: 'FFI\\CType::getFuncParameterType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# FFICType::getFuncParameterType
+# FFI\\CType::getFuncParameterType
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-FFICType::getFuncParameterType — Опис
+FFI\\CType::getFuncParameterType — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public FFI\CType::getFuncParameterType(int $index): FFI\CType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

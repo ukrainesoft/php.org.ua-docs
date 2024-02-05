@@ -1,44 +1,57 @@
 ---
 navigation:
-  - splstack.setiteratormode.md: '« SplStack::setIteratorMode'
-  - splqueue.construct.md: 'SplQueue::construct »'
+  - class.splstack.md: « SplStack
+  - splqueue.dequeue.md: 'SplQueue::dequeue »'
   - index.md: PHP Manual
   - spl.datastructures.md: Структури даних
 title: Клас SplQueue
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SplQueue
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас SplQueue надає основні функціональні можливості черги, реалізовані за допомогою двозв'язкового списку.
+Клас SplQueue надає основні функціональні можливості черги, реалізованої з використанням двозв'язкового списку, встановивши режим ітератора **`SplDoublyLinkedList::IT_MODE_FIFO`**
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class SplQueue
     
 
     
-     
-      class SplQueue
-     
-
-     
-      extends
-       SplDoublyLinkedList
-     
+     extends
+      SplDoublyLinkedList
      {
+
+    /* Наследуемые константы */
+    
+     public
+     const
+     int
+      SplDoublyLinkedList::IT_MODE_LIFO;
+public
+     const
+     int
+      SplDoublyLinkedList::IT_MODE_FIFO;
+public
+     const
+     int
+      SplDoublyLinkedList::IT_MODE_DELETE;
+public
+     const
+     int
+      SplDoublyLinkedList::IT_MODE_KEEP;
+
 
     /* Методы */
     
-   public SplStack::__construct()
-
-    public dequeue(): mixed
+   public dequeue(): mixed
 public enqueue(mixed $value): void
-public setIteratorMode(int $mode): void
 
 
     /* Наследуемые методы */
@@ -69,9 +82,48 @@ public SplDoublyLinkedList::valid(): bool
    }
 ```
 
+## Приклади
+
+**Пример #1 Пример использования**SplQueue\*\*\*\*
+
+```php
+<?php
+$q = new SplQueue();
+$q[] = 1;
+$q[] = 2;
+$q[] = 3;
+foreach ($q as $elem)  {
+ echo $elem."\n";
+}
+?>
+```
+
+Результат виконання наведеного прикладу:
+
+```
+1
+2
+3
+```
+
+**Приклад #2 Ефективне розв'язання задач за допомогою **SplQueue****
+
+```php
+<?php
+$q = new SplQueue();
+$q->setIteratorMode(SplQueue::IT_MODE_DELETE);
+// ... добавление некоторых задач в очередь ...
+// обработка
+foreach ($q as $task) {
+    // ... обработка $task ...
+    // добавление новых задач в очередь
+    $q[] = $newTask;
+    // ...
+}
+?>
+```
+
 ## Зміст
 
--   [SplQueue::construct](splqueue.construct.md) — Створює нову чергу, реалізовану за допомогою двозв'язкового списку
--   [SplQueue::dequeue](splqueue.dequeue.md) — Видаляє елемент із черги
--   [SplQueue::enqueue](splqueue.enqueue.md) — Додає елемент у чергу
--   [SplQueue::setIteratorMode](splqueue.setiteratormode.md) - Встановлює режим ітератора
+-   [SplQueue::dequeue](splqueue.dequeue.md)— Видаляє елемент із черги
+-   [SplQueue::enqueue](splqueue.enqueue.md)— Додає елемент у чергу

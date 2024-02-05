@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-window.construct.md: '« UIWindow::construct'
-  - ui-window.getsize.md: 'ОЙWindow::getSize »'
+  - ui-window.construct.md: '« UI\\Window::\_\_construct'
+  - ui-window.getsize.md: 'UI\\Window::getSize »'
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::error'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::error'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::error
+# UI\\Window::error
 
 (UI 0.9.9)
 
-ОЙWindow::error — Показати блок помилки
+UI\\Window::error — Показати блок помилки
 
 ### Опис
 

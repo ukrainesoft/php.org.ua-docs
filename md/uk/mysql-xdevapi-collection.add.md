@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-collection.md: « mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: « mysql\_xdevapi\\Collection
   - mysql-xdevapi-collection.addorreplaceone.md: 'Collection::addOrReplaceOne »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
 title: 'Collection::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collection::add
 
@@ -22,7 +23,7 @@ public mysql_xdevapi\Collection::add(mixed $document): mysql_xdevapi\CollectionA
 
 1.  Додавання одного документа у вигляді рядка JSON.
     
-2.  Додавання одного документа у вигляді масиву, наприклад: `[ 'field' => 'value', 'field2' => 'value2' ... ]`
+2.  Додавання одного документа у вигляді масиву, наприклад:`[ 'field' => 'value', 'field2' => 'value2' ... ]`
     
 3.  В ту саму операцію можна додати, як документ, так і кілька документів.
     
@@ -41,7 +42,7 @@ public mysql_xdevapi\Collection::add(mixed $document): mysql_xdevapi\CollectionA
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::add()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::add()\*\*\*\*
 
 ```php
 <?php
@@ -73,7 +74,7 @@ print_r($ids);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -85,6 +86,6 @@ Array
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> MySQL Server 8.0 або вище генерує унікальний id, як показано у прикладі. Поле id слід визначити вручну, якщо використовується MySQL Server 5.7.
+> MySQL Server 8.0 або вище генерує унікальний \_id, як показано у прикладі. Поле \_id слід визначити вручну, якщо використовується MySQL Server 5.7.

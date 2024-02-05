@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.recursivetreeiterator.md: RecursiveTreeIterator
 title: 'RecursiveTreeIterator::setPrefixPart'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RecursiveTreeIterator::setPrefixPart
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 RecursiveTreeIterator::setPrefixPart — Завдання частини префікса
 
@@ -22,13 +23,13 @@ public RecursiveTreeIterator::setPrefixPart(int $part, string $value): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `part`
 
-Одна з констант [RecursiveTreeIterator::PREFIX](class.recursivetreeiterator.md#recursivetreeiterator.constants)
+Одна из констант[RecursiveTreeIterator::PREFIX\_\*](class.recursivetreeiterator.md#recursivetreeiterator.constants)
 
 `value`
 

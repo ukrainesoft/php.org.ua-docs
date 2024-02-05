@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-table.count.md: '« Table::count'
   - mysql-xdevapi-table.existsindatabase.md: 'Table::existsInDatabase »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: mysql\_xdevapi\\Table
 title: 'Table::delete'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Table::delete
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Table::delete(): mysql_xdevapi\TableDelete
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTable::delete()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Table::delete()\*\*\*\*
 
 ```php
 <?php

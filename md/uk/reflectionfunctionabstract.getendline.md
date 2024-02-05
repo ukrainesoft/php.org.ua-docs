@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getEndLine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getEndLine
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getEndLine — Отримує номер рядка завершення опису функції
 
@@ -26,8 +27,8 @@ public ReflectionFunctionAbstract::getEndLine(): int|false
 
 ### Значення, що повертаються
 
-Номер останнього рядка опису визначеної користувачем функції або \*\*`false`\*\*якщо він невідомий.
+Номер останнього рядка опису певної користувачем функції або \*\*`false`\*\*якщо він невідомий.
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getStartLine()](reflectionfunctionabstract.getstartline.md) - отримує початковий номер рядка
+-   [ReflectionFunctionAbstract::getStartLine()](reflectionfunctionabstract.getstartline.md) \- отримує початковий номер рядка

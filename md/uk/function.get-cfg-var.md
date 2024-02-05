@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gc-status.md: « gcstatus
-  - function.get-current-user.md: getcurrentuser »
+  - function.gc-status.md: « gc\_status
+  - function.get-current-user.md: get\_current\_user »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: getcfgvar
+title: get\_cfg\_var
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getcfgvar
+# get\_cfg\_var
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-getcfgvar — Витягує налаштування конфігурації PHP
+get\_cfg\_var — Витягує налаштування конфігурації PHP
 
 ### Опис
 
@@ -22,7 +23,7 @@ get_cfg_var(string $option): string|array|false
 
 Функція не поверне жодної інформації, заданої під час складання PHP або вказаної в конфігураційному файлі Apache.
 
-Щоб перевірити, що система використовує [файл конфигурации](configuration.file.md)спробуйте отримати значення налаштування конфігурації cfgfilepath. Якщо це налаштування доступне, використовується файл конфігурації.
+Щоб перевірити, що система використовує [файл конфігурації](configuration.file.md)спробуйте отримати значення налаштування конфігурації cfg\_file\_path. Якщо це налаштування доступне, використовується файл конфігурації.
 
 ### Список параметрів
 
@@ -32,9 +33,9 @@ get_cfg_var(string $option): string|array|false
 
 ### Значення, що повертаються
 
-Повертає поточне значення конфігурації PHP `option` або **`false`** у разі виникнення помилки.
+Повертає поточне значення конфігурації PHP `option`или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [iniget()](function.ini-get.md) - Отримує значення налаштування конфігурації
--   [inigetall()](function.ini-get-all.md) - Отримує всі налаштування конфігурації
+-   [ini\_get()](function.ini-get.md) \- Отримує значення налаштування конфігурації
+-   [ini\_get\_all()](function.ini-get-all.md) \- Отримує всі налаштування конфігурації

@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::morphology'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::morphology
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
-Imagick::morphology — Опис
+Imagick::morphology — Застосовує зображення ядро, надане користувачем, відповідно до заданого методу морфології
 
 ### Опис
 
 ```methodsynopsis
-public Imagick::morphology(    int $morphologyMethod,    int $iterations,    ImagickKernel $ImagickKernel,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::morphology(    int $morphologyMethod,    int $iterations,    ImagickKernel $ImagickKernel,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Застосовує зображення ядро, надане користувачем, відповідно до заданого методу морфології.
@@ -24,7 +25,7 @@ public Imagick::morphology(    int $morphologyMethod,    int $iterations,    Ima
 
 `morphologyMethod`
 
-Який метод морфології використовувати: одна з констант Imagick::MORPHOLOGY
+Який метод морфології використовувати: одна з констант \\Imagick::MORPHOLOGY\_\*
 
 `iterations`
 
@@ -40,7 +41,7 @@ public Imagick::morphology(    int $morphologyMethod,    int $iterations,    Ima
 
 ### Приклади
 
-**Приклад #1 Приклад використання методу Convolve **Imagick::morphology()****
+**Пример #1 Пример использования метода Convolve**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ echo $imagick->getImageBlob();
 ?>
 ```
 
-**Приклад #2 Приклад використання методу Correlate **Imagick::morphology()****
+**Пример #2 Пример использования метода Correlate**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ echo $imagick->getImageBlob();
 ?>
 ```
 
-**Приклад #3 Приклад використання методу Erode **Imagick::morphology()****
+**Пример #3 Пример использования метода Erode**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -83,7 +84,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #4 Приклад використання методу Erode Intensity **Imagick::morphology()****
+**Пример #4 Пример использования метода Erode Intensity**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -96,7 +97,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #5 Приклад використання методу Dilate **Imagick::morphology()****
+**Пример #5 Пример использования метода Dilate**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -109,7 +110,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #6 Приклад використання методу Dilate intensity **Imagick::morphology()****
+**Пример #6 Пример использования метода Dilate intensity**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -122,7 +123,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #7 Приклад використання методу Distance із ядром Chebyshev **Imagick::morphology()****
+**Пример #7 Пример использования метода Distance с ядром Chebyshev**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -136,7 +137,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #8 Приклад використання методу Distance із ядром Manhattan **Imagick::morphology()****
+**Пример #8 Пример использования метода Distance с ядром Manhattan**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -150,7 +151,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #9 Приклад використання методу Distance з ядром ocatagonal **Imagick::morphology()****
+**Пример #9 Пример использования метода Distance с ядром ocatagonal**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -164,7 +165,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #10 Приклад використання методу Distance з ядром Euclidean **Imagick::morphology()****
+**Пример #10 Пример использования метода Distance с ядром Euclidean**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -178,7 +179,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #11 Приклад використання методу Edge **Imagick::morphology()****
+**Пример #11 Пример использования метода Edge**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -191,7 +192,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #12 Приклад використання методу Open **Imagick::morphology()****
+**Пример #12 Пример использования метода Open**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -206,7 +207,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #13 Приклад використання методу Open intensity **Imagick::morphology()****
+**Пример #13 Пример использования метода Open intensity**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -222,7 +223,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #14 Приклад використання методу Close **Imagick::morphology()****
+**Пример #14 Пример использования метода Close**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -237,7 +238,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #15 Приклад використання методу Close Intensity **Imagick::morphology()****
+**Пример #15 Пример использования метода Close Intensity**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -252,7 +253,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #16 Приклад використання методу Smooth **Imagick::morphology()****
+**Пример #16 Пример использования метода Smooth**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -265,7 +266,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #17 Приклад використання методу Edge in **Imagick::morphology()****
+**Пример #17 Пример использования метода Edge in**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -278,7 +279,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #18 Приклад використання методу Edge out **Imagick::morphology()****
+**Пример #18 Пример использования метода Edge out**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -291,7 +292,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #19 Метод "TopHat", або, точніше, "White TopHat", повертає пікселі, які були видалені відкриттям фігури, тобто пікселі, які були видалені для заокруглення крапок, та з'єднання, з'єднане мостом між фігурами . **Imagick::morphology()****
+**Приклад #19 Метод "TopHat", або, точніше, "White TopHat", повертає пікселі, які були видалені відкриттям фігури, тобто пікселі, які були видалені для заокруглення крапок, та з'єднання, з'єднане мостом між фігурами. . **Imagick::morphology()****
 
 ```php
 <?php
@@ -304,7 +305,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #20 Метод "TopHat", або, точніше, "Black TopHat", повертає пікселі, які були видалені закриттям фігури, тобто пікселі, які використовувалися для заповнення дірок, зазорів та мостів . **Imagick::morphology()****
+**Приклад #20 Метод "TopHat", або, точніше, "Black TopHat", повертає пікселі, видалені закриттям фігури, тобто пікселі, які використовувалися для заповнення дірок, зазорів і мостів. . **Imagick::morphology()****
 
 ```php
 <?php
@@ -336,7 +337,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #22 Приклад використання методу Thinning **Imagick::morphology()****
+**Пример #22 Пример использования метода Thinning**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -352,7 +353,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #23 Приклад використання методу Thicken **Imagick::morphology()****
+**Пример #23 Пример использования метода Thicken**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php
@@ -388,7 +389,7 @@ echo $canvas->getImageBlob();
 ?>
 ```
 
-**Приклад #25 Приклад використання методу Iterative morphology **Imagick::morphology()****
+**Пример #25 Пример использования метода Iterative morphology**Imagick::morphology()\*\*\*\*
 
 ```php
 <?php

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mbstring.setup.md: « Встановлення та налаштування
-  - mbstring.installation.md: Установка »
+  - mbstring.setup.md: '" Встановлення та налаштування'
+  - mbstring.installation.md: Встановлення »
   - index.md: PHP Manual
   - mbstring.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 

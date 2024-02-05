@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.time-nanosleep.md: « timenanosleep
+  - function.time-nanosleep.md: « time\_nanosleep
   - function.uniqid.md: uniqid »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
-title: timesleepuntil
+title: time\_sleep\_until
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# timesleepuntil
+# time\_sleep\_until
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-timesleepuntil - Відкладає виконання скрипту до заданого часу
+time\_sleep\_until - Відкладає виконання скрипту до заданого часу
 
 ### Опис
 
@@ -28,7 +29,7 @@ time_sleep_until(float $timestamp): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -36,7 +37,7 @@ time_sleep_until(float $timestamp): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **timesleepuntil()****
+**Пример #1 Пример использования**time\_sleep\_until()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ var_dump(time_sleep_until(microtime(true)+0.2));
 
 ### Дивіться також
 
--   [sleep()](function.sleep.md) - затримка виконання
--   [usleep()](function.usleep.md) - Затримка виконання у мікросекундах
--   [timenanosleep()](function.time-nanosleep.md) - Затримка на задану кількість секунд та наносекунд
--   [settimelimit()](function.set-time-limit.md) - Обмеження часу виконання скрипту
+-   [sleep()](function.sleep.md) \- затримка виконання
+-   [usleep()](function.usleep.md) \- Затримка виконання у мікросекундах
+-   [time\_nanosleep()](function.time-nanosleep.md) \- Затримка на задану кількість секунд та наносекунд
+-   [set\_time\_limit()](function.set-time-limit.md) \- Обмеження часу виконання скрипту

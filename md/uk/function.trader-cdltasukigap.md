@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdltakuri.md: « tradercdltakuri
-  - function.trader-cdlthrusting.md: tradercdlthrusting »
+  - function.trader-cdltakuri.md: « trader\_cdltakuri
+  - function.trader-cdlthrusting.md: trader\_cdlthrusting »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdltasukigap
+  - ref.trader.md: Функції Trader
+title: trader\_cdltasukigap
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdltasukigap
+# trader\_cdltasukigap
 
 (PECL trader >= 0.2.0)
 
-tradercdltasukigap — Розрив Тасукі
+trader\_cdltasukigap — Розрив Тасукі
 
 ### Опис
 
 ```methodsynopsis
-trader_cdltasukigap(    array $open,    array $high,    array $low,    array $close): array
+trader_cdltasukigap(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

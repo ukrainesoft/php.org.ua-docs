@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::get
 
@@ -36,7 +37,7 @@ intlcal_get(IntlCalendar $calendar, int $field): int|false
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants)полей типа дата/время. Целое число от до\*\*`IntlCalendar::FIELD_COUNT`\*\*
 
 ### Значення, що повертаються
 
@@ -44,7 +45,7 @@ intlcal_get(IntlCalendar $calendar, int $field): int|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::get()****
+**Пример #1 Пример использования**IntlCalendar::get()\*\*\*\*
 
 ```php
 <?php
@@ -66,7 +67,7 @@ foreach ($fields as $val => $name) {
 }
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(23) "Jul 1, 2013, 4:44:44 AM"

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splmaxheap.md: SplMaxHeap
 title: 'SplMaxHeap::compare'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplMaxHeap::compare
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplMaxHeap::compare — Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
 
@@ -18,7 +19,7 @@ SplMaxHeap::compare — Порівнює елементи, щоб під час 
 protected SplMaxHeap::compare(mixed $value1, mixed $value2): int
 ```
 
-Порівнює `value1` з `value2`
+Сравнивает`value1`с`value2`
 
 ### Список параметрів
 
@@ -32,8 +33,8 @@ protected SplMaxHeap::compare(mixed $value1, mixed $value2): int
 
 ### Значення, що повертаються
 
-Метод повертає позитивне значення, коли `value1` більше `value2`0 якщо вони рівні, і негативне в інших випадках.
+Метод повертає позитивне значення, коли `value1`больше`value2`0 якщо вони рівні, і негативне в інших випадках.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Наявність кількох елементів з однаковим значенням купі не рекомендується, оскільки неможливо буде відстежити точне положення конкретного елемента.

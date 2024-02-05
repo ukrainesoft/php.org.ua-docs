@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-regex.getflags.md: '« MongoDBBSONRegex::getFlags'
-  - mongodb-bson-regex.jsonserialize.md: 'MongoDBBSONRegex::jsonSerialize »'
+  - mongodb-bson-regex.getflags.md: '« MongoDB\\BSON\\Regex::getFlags'
+  - mongodb-bson-regex.jsonserialize.md: 'MongoDB\\BSON\\Regex::jsonSerialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-regex.md: MongoDBBSONRegex
-title: 'MongoDBBSONRegex::getPattern'
+  - class.mongodb-bson-regex.md: MongoDB\\BSON\\Regex
+title: 'MongoDB\\BSON\\Regex::getPattern'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONRegex::getPattern
+# MongoDB\\BSON\\Regex::getPattern
 
 (mongodb >=1.0.0)
 
-MongoDBBSONRegex::getPattern — Повертає шаблон Regex
+MongoDB\\BSON\\Regex::getPattern — Повертає шаблон Regex
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\BSON\Regex::getPattern(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONRegex::getPattern()****
+**Пример #1 Пример использования**MongoDB\\BSON\\Regex::getPattern()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($regex->getPattern());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(5) "regex"
@@ -51,4 +52,4 @@ string(5) "regex"
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

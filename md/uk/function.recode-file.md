@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.recode.md: « Функции Recode
-  - function.recode-string.md: recodestring »
+  - ref.recode.md: « Функції Recode
+  - function.recode-string.md: recode\_string »
   - index.md: PHP Manual
-  - ref.recode.md: Функции Recode
-title: recodefile
+  - ref.recode.md: Функції Recode
+title: recode\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# recodefile
+# recode\_file
 
 (PHP 4, PHP 5, PHP 7 < 7.4.0)
 
-recodefile — Перекодування з одного файлу до іншого відповідно до заданих параметрів
+recode\_file — Перекодування з одного файлу до іншого відповідно до заданих параметрів
 
 ### Опис
 
@@ -40,7 +41,7 @@ recode_file(string $request, resource $input, resource $output): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **recodefile()****
+**Пример #1 Пример использования**recode\_file()\*\*\*\*
 
 ```php
 <?php
@@ -56,4 +57,4 @@ recode_file("us..flat", $input, $output);
 
 ### Дивіться також
 
--   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [fopen()](function.fopen.md) \- Відкриває файл або URL

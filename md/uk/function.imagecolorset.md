@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolorset
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecolorset
 
@@ -15,7 +16,7 @@ imagecolorset — Встановлення набору кольорів для 
 ### Опис
 
 ```methodsynopsis
-imagecolorset(    GdImage $image,    int $color,    int $red,    int $green,    int $blue,    int $alpha = 0): ?bool
+imagecolorset(    GdImage $image,    int $color,    int $red,    int $green,    int $blue,    int $alpha = 0): ?false
 ```
 
 Функція встановлює відповідність індексу на панелі заданого кольору. Це корисно для створення ефекту подібного до заливання кольором без здійснення заливки.
@@ -48,17 +49,17 @@ imagecolorset(    GdImage $image,    int $color,    int $red,    int $green,    
 
 ### Значення, що повертаються
 
-Функція повертає **`null`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція повертає **`null`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagecolorset()****
+**Пример #1 Пример использования**imagecolorset()\*\*\*\*
 
 ```php
 <?php
@@ -84,4 +85,4 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagecolorat()](function.imagecolorat.md) - Отримання індексу кольору пікселя
+-   [imagecolorat()](function.imagecolorat.md) \- Отримання індексу кольору пікселя

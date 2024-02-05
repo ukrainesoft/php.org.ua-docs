@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.svn-fs-check-path.md: « svnфсcheckpath
-  - function.svn-fs-copy.md: svnфсcopy »
+  - function.svn-fs-check-path.md: « svn\_fs\_check\_path
+  - function.svn-fs-copy.md: svn\_fs\_copy »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсcontentschanged
+title: svn\_fs\_contents\_changed
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсcontentschanged
+# svn\_fs\_contents\_changed
 
 (PECL svn >= 0.2.0)
 
-svnфсcontentschanged - Повертає **`true`**, якщо вміст відрізняється або **`false`** в іншому випадку
+svn\_fs\_contents\_changed — Возвращает\*\*`true`\*\*, якщо вміст відрізняється або **`false`** в іншому випадку
 
 ### Опис
 
 ```methodsynopsis
-svn_fs_contents_changed(    resource $root1,    string $path1,    resource $root2,    string $path2): bool
+svn_fs_contents_changed(    resource $root1,    string $path1,    resource $root2,    string $path2): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає **`true`**, якщо вміст відрізняється або **`false`** в іншому випадку.
 

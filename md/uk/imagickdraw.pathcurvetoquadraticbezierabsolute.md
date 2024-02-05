@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pathCurveToQuadraticBezierAbsolute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::pathCurveToQuadraticBezierAbsolute
 
@@ -15,12 +16,12 @@ ImagickDraw::pathCurveToQuadraticBezierAbsolute — Малює квадрати�
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::pathCurveToQuadraticBezierAbsolute(    float $x1,    float $y1,    float $x,    float $y): bool
+public ImagickDraw::pathCurveToQuadraticBezierAbsolute(    float $x1,    float $y1,    float $x,    float $y): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Малює квадратичну криву Безьє від поточної точки до (x,y) з (x1,y1) як контрольну точку, використовуючи абсолютні координати. Наприкінці команди нова поточна точка стає останньою парою координат (x,y), що використовується в кривій Безьє.
 
@@ -48,7 +49,7 @@ public ImagickDraw::pathCurveToQuadraticBezierAbsolute(    float $x1,    float $
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::pathCurveToQuadraticBezierAbsolute()****
+**Пример #1 Пример использования**ImagickDraw::pathCurveToQuadraticBezierAbsolute()\*\*\*\*
 
 ```php
 <?php

@@ -3,12 +3,13 @@ navigation:
   - xml.case-folding.md: « Приведення до одного регістру
   - xml.encoding.md: Кодування символів »
   - index.md: PHP Manual
-  - book.xml.md: Разбор XML
+  - book.xml.md: Розбір XML
 title: Коди помилок
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Коди помилок
 
-Наступні константи визначені для кодів помилок XML (повертаються функцією) [xmlparse()](function.xml-parse.md)
+Наступні константи визначені для кодів помилок XML (повертаються функцією) [xml\_parse()](function.xml-parse.md)):
 
 -   **`XML_ERROR_NONE`**
 -   **`XML_ERROR_NO_MEMORY`**

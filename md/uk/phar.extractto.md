@@ -1,10 +1,11 @@
 ---
 navigation:
-  - phar.destruct.md: '« Phar::destruct'
+  - phar.destruct.md: '« Phar::\_\_destruct'
   - phar.getalias.md: 'Phar::getAlias »'
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::extractTo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::extractTo
 
@@ -24,7 +25,7 @@ public Phar::extractTo(string $directory, array|string|null $files = null, bool 
 
 `directory`
 
-Шлях, яким необхідно збережіть вилучені файли (`files`
+Шлях, яким необхідно збережіть вилучені файли (`files`) .
 
 `files`
 
@@ -32,7 +33,7 @@ public Phar::extractTo(string $directory, array|string|null $files = null, bool 
 
 `overwrite`
 
-Встановіть у **`true`**, якщо потрібно перезаписувати вже існуючі файли
+Установите в\*\*`true`\*\*, якщо потрібно перезаписувати вже існуючі файли
 
 ### Значення, що повертаються
 
@@ -40,11 +41,11 @@ public Phar::extractTo(string $directory, array|string|null $files = null, bool 
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.md) у разі помилки запису на диск.
+Викидає виняток [PharException](class.pharexception.md)в случае возникновения ошибки записи на диск.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::extractTo()****
+**Пример #1 Пример использования**Phar::extractTo()\*\*\*\*
 
 ```php
 <?php
@@ -63,10 +64,10 @@ try {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Файлові системи Windows NTFS не підтримують деякі символи в іменах файлів, зокрема `<|>*?":`. Імена файлів із точкою в кінці також не підтримуються. На відміну від деяких інструментів вилучення, цей метод не підтримує заміну цих символів на підкреслення, а натомість виникає помилка при вийманні таких файлів.
 
 ### Дивіться також
 
--   [PharData::extractTo()](phardata.extractto.md) - Витягти вміст tar/zip-архіву в директорію
+-   [PharData::extractTo()](phardata.extractto.md) \- Витягти вміст tar/zip-архіву в директорію

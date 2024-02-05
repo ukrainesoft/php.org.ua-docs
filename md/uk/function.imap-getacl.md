@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-get-quotaroot.md: « imapgetquotaroot
-  - function.imap-getmailboxes.md: imapgetmailboxes »
+  - function.imap-get-quotaroot.md: « imap\_get\_quotaroot
+  - function.imap-getmailboxes.md: imap\_getmailboxes »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapgetacl
+  - ref.imap.md: Функції IMAP
+title: imap\_getacl
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapgetacl
+# imap\_getacl
 
 (PHP 5, PHP 7, PHP 8)
 
-imapgetacl — Отримати ACL для заданої поштової скриньки
+imap\_getacl — Отримує ACL для заданої поштової скриньки
 
 ### Опис
 
@@ -24,29 +25,29 @@ imap_getacl(IMAP\Connection $imap, string $mailbox): array|false
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `mailbox`
 
-Ім'я поштової скриньки. Докладніше читайте у розділі, присвяченому функції [imapopen()](function.imap-open.md)
+Ім'я поштової скриньки. Докладніше читайте у розділі, присвяченому функції [imap\_open()](function.imap-open.md)
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enable\_insecure\_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив виду "folder" => "acl" або **`false`** у разі виникнення помилки.
+Повертає асоціативний масив виду "folder" => "acl" або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imapgetacl()****
+**Пример #1 Пример использования**imap\_getacl()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ print_r(imap_getacl($imap, 'user.joecool'));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -72,4 +73,4 @@ Array
 
 ### Дивіться також
 
--   [imapsetacl()](function.imap-setacl.md) - Встановлення ACL для заданої поштової скриньки
+-   [imap\_setacl()](function.imap-setacl.md) \- Встановлює ACL для заданої поштової скриньки

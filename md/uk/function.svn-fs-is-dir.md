@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-file-length.md: « svnфсfilelength
-  - function.svn-fs-is-file.md: svnфсісfile »
+  - function.svn-fs-file-length.md: « svn\_fs\_file\_length
+  - function.svn-fs-is-file.md: svn\_fs\_is\_file »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсісdir
+title: svn\_fs\_is\_dir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсісdir
+# svn\_fs\_is\_dir
 
 (PECL svn >= 0.2.0)
 
-svnфсісdir — Визначає чи знаходиться директорія даним шляхом
+svn\_fs\_is\_dir — Чи визначає директорія даним шляхом
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_is_dir(resource $root, string $path): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Визначає чи знаходиться директорія даним шляхом.
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isUUppercase'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isUUppercase
 
@@ -22,7 +23,7 @@ public static IntlChar::isUUppercase(int|string $codepoint): ?bool
 
 Те саме, що й `IntlChar::hasBinaryProperty($codepoint, IntlChar::PROPERTY_UPPERCASE)`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Відрізняється від [IntlChar::isupper()](intlchar.isupper.md) і повертає **`true`** для більшої кількості символів.
 
@@ -30,7 +31,7 @@ public static IntlChar::isUUppercase(int|string $codepoint): ?bool
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
@@ -50,7 +51,7 @@ var_dump(IntlChar::isUUppercase("1"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -63,5 +64,5 @@ bool(false)
 ### Дивіться також
 
 -   [IntlChar::isupper()](intlchar.isupper.md) - Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
--   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) - Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) \- Перевірити бінарну властивість Unicode для символу
 -   **`IntlChar::PROPERTY_UPPERCASE`**

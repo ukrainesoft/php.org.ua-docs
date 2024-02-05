@@ -1,14 +1,15 @@
 ---
 navigation:
   - ref.var.md: « Функції для роботи зі змінними
-  - function.debug-zval-dump.md: debugzvaldump »
+  - function.debug-zval-dump.md: debug\_zval\_dump »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: boolval
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # boolval
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 boolval - Повертає логічне значення змінної
 
@@ -18,7 +19,7 @@ boolval - Повертає логічне значення змінної
 boolval(mixed $value): bool
 ```
 
-Повертає значення типу bool, релевантне переданому значенню `value`
+Повертає логічне значення (bool) параметра `value`
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ boolval(mixed $value): bool
 
 ### Значення, що повертаються
 
-Приведене до типу bool значення `value`
+Повертає наведене до логічного типу (bool) значення параметра `value`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **boolval()****
+**Пример #1 Пример использования**boolval()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ echo 'stdClass: '.(boolval(new stdClass) ? 'true' : 'false')."\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 0:        false
@@ -68,9 +69,9 @@ stdClass: true
 
 ### Дивіться також
 
--   [floatval()](function.floatval.md) - Повертає значення змінної у вигляді числа з плаваючою точкою
--   [intval()](function.intval.md) - Повертає ціле значення змінної
--   [strval()](function.strval.md) - Повертає строкове значення змінної
--   [settype()](function.settype.md) - Задає тип змінної
--   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
--   [Преобразование типов](language.types.type-juggling.md)
+-   [floatval()](function.floatval.md) \- Повертає значення змінної у вигляді числа з плаваючою точкою
+-   [intval()](function.intval.md) \- Повертає ціле значення змінної
+-   [strval()](function.strval.md) \- Повертає строкове значення змінної
+-   [settype()](function.settype.md) \- Задає тип змінної
+-   [is\_bool()](function.is-bool.md) \- Перевіряє, чи є змінна логічне значення
+-   [Перетворення типів](language.types.type-juggling.md)

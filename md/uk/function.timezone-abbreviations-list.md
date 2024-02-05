@@ -1,17 +1,18 @@
 ---
 navigation:
   - function.time.md: « time
-  - function.timezone-identifiers-list.md: timezoneidentifierslist »
+  - function.timezone-identifiers-list.md: timezone\_identifiers\_list »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
-title: timezoneabbreviationslist
+title: timezone\_abbreviations\_list
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# timezoneabbreviationslist
+# timezone\_abbreviations\_list
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-timezoneabbreviationslist - Псевдонім [DateTimeZone::listAbbreviations()](datetimezone.listabbreviations.md)
+timezone\_abbreviations\_list — Псевдоним[DateTimeZone::listAbbreviations()](datetimezone.listabbreviations.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTimeZone::listAbbreviations()](datetimezone.listabbreviations.md)
+Функция — псевдоним функции:[DateTimeZone::listAbbreviations()](datetimezone.listabbreviations.md)

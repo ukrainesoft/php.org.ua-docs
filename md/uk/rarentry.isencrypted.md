@@ -1,10 +1,11 @@
 ---
 navigation:
   - rarentry.isdirectory.md: '« RarEntry::isDirectory'
-  - rarentry.tostring.md: 'RarEntry::toString »'
+  - rarentry.tostring.md: 'RarEntry::\_\_toString »'
   - index.md: PHP Manual
   - class.rarentry.md: RarEntry
 title: 'RarEntry::isEncrypted'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarEntry::isEncrypted
 
@@ -20,7 +21,7 @@ public RarEntry::isEncrypted(): bool
 
 Перевіряє, чи зашифровано поточний запис.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > В тому самому архіві для різних файлів можуть використовуватися різні паролі.
 
@@ -30,4 +31,4 @@ public RarEntry::isEncrypted(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** або **`false`** Залежно від результату.
+Повертає \*\*`true`**или**`false`\*\*в зависимости от результата.

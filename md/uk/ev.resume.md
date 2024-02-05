@@ -3,8 +3,9 @@ navigation:
   - ev.recommendedbackends.md: '« Ev::recommendedBackends'
   - ev.run.md: 'Ev::run »'
   - index.md: PHP Manual
-  - class.ev.md: Єв
+  - class.ev.md: Ev
 title: 'Ev::resume'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Ev::resume
 
@@ -21,9 +22,9 @@ final
    Ev::resume(): void
 ```
 
-Методи [Ev::suspend()](ev.suspend.md) і \*\*Ev::resume()\*\*відповідно припиняють і відновлюють роботу подієвого циклу.
+Методи [Ev::suspend()](ev.suspend.md)и\*\*Ev::resume()\*\*відповідно припиняють і відновлюють роботу подієвого циклу.
 
-Всі спостерігачі таймери будуть затримані на час, що минув між *suspend* і *resume*, і всі спостерігачі типу *periodic* будуть переплановані watchers will be rescheduled(тобто будуть втрачені всі події, що сталися під час припинення).
+Всі спостерігачі таймери будуть затримані на час, що минув між *suspend*и*resume*, і всі спостерігачі типу *periodic* будуть переплановані watchers will be rescheduled(тобто будуть втрачені всі події, що сталися під час припинення).
 
 Після виклику [Ev::suspend()](ev.suspend.md) заборонено викликати будь-які функції циклу крім **Ev::resume()**. Також забороняється викликати **Ev::resume()** якщо раніше не викликався [Ev::suspend()](ev.suspend.md)
 
@@ -39,4 +40,4 @@ final
 
 ### Дивіться також
 
--   [Ev::suspend()](ev.suspend.md) - Зупинити подійний цикл за замовчуванням
+-   [Ev::suspend()](ev.suspend.md) \- Зупинити подійний цикл за замовчуванням

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evperiodic.md: EvPeriodic
 title: 'EvPeriodic::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvPeriodic::set
 
@@ -31,11 +32,11 @@ public
 
 `offset`
 
-Те саме, що і для [EvPeriodic::construct()](evperiodic.construct.md) . Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.md)
+Те саме, що і для [EvPeriodic::\_\_construct()](evperiodic.construct.md). Смотрите[Періодичні режими роботи спостерігача](ev.periodic-modes.md)
 
 `interval`
 
-Те саме, що і для [EvPeriodic::construct()](evperiodic.construct.md) . Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.md)
+Те саме, що і для [EvPeriodic::\_\_construct()](evperiodic.construct.md). Смотрите[Періодичні режими роботи спостерігача](ev.periodic-modes.md)
 
 ### Значення, що повертаються
 

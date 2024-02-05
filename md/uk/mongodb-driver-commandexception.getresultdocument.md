@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-commandexception.md: « MongoDBDriverExceptionCommandException
-  - class.mongodb-driver-exception-connectionexception.md: MongoDBDriverExceptionConnectionException »
+  - class.mongodb-driver-exception-commandexception.md: « MongoDB\\Driver\\Exception\\CommandException
+  - class.mongodb-driver-exception-connectionexception.md: MongoDB\\Driver\\Exception\\ConnectionException »
   - index.md: PHP Manual
-  - class.mongodb-driver-exception-commandexception.md: MongoDBDriverExceptionCommandException
-title: 'MongoDBDriverExceptionCommandException::getResultDocument'
+  - class.mongodb-driver-exception-commandexception.md: MongoDB\\Driver\\Exception\\CommandException
+title: 'MongoDB\\Driver\\Exception\\CommandException::getResultDocument'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverExceptionCommandException::getResultDocument
+# MongoDB\\Driver\\Exception\\CommandException::getResultDocument
 
 (mongodb >= 1.5.0)
 
-MongoDBDriverExceptionCommandException::getResultDocument — Повертає результат документа для невдалої команди
+MongoDB\\Driver\\Exception\\CommandException::getResultDocument — Повертає результат документа для невдалої команди
 
 ### Опис
 
@@ -30,4 +31,4 @@ final public MongoDB\Driver\Exception\CommandException::getResultDocument(): obj
 
 ### Дивіться також
 
--   [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.md) - Виконує команду бази даних
+-   [MongoDB\\Driver\\Manager::executeCommand()](mongodb-driver-manager.executecommand.md) \- Виконує команду бази даних

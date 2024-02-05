@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.ps-shading-pattern.md: «psshadingpattern
-  - function.ps-shfill.md: псshfill »
+  - function.ps-shading-pattern.md: « ps\_shading\_pattern
+  - function.ps-shfill.md: ps\_shfill »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псshading
+title: ps\_shading
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псshading
+# ps\_shading
 
 (PECL ps >= 1.3.0)
 
-псshading — Створює затінення для подальшого використання
+ps\_shading — Створює затінення для подальшого використання
 
 ### Опис
 
 ```methodsynopsis
-ps_shading(    resource $psdoc,    string $type,    float $x0,    float $y0,    float $x1,    float $y1,    float $c1,    float $c2,    float $c3,    float $c4,    string $optlist): int|false
+ps_shading(    resource $psdoc,    string $type,    float $x0,    float $y0,    float $x1,    float $y1,    float $c1,    float $c2,    float $c3,    float $c4,    string $optlist): int|false
 ```
 
-Створює затінення, яке можна використовувати функцією [псshfill()](function.ps-shfill.md) або [псshadingpattern()](function.ps-shading-pattern.md)
+Створює затінення, яке можна використовувати функцією [ps\_shfill()](function.ps-shfill.md) або [ps\_shading\_pattern()](function.ps-shading-pattern.md)
 
 Колір затінення може бути в будь-якому колірному просторі, крім `pattern`
 
@@ -26,11 +27,11 @@ ps_shading(    resource $psdoc,    string $type,    float $x0,    float $y0,    
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `type`
 
-Тип затінення може бути `radial` або `axial`. Кожне затінення починається з поточного кольору заливки та закінчується заданими значеннями кольору, переданими у параметрах від `c1` до `c4` (опис їх значень дивіться в [псsetcolor()](function.ps-setcolor.md)
+Тип затінення може бути `radial`или`axial`. Кожне затінення починається з поточного кольору заливки та закінчується заданими значеннями кольору, переданими у параметрах від `c1`до`c4`(описание их значений смотрите в[ps\_setcolor()](function.ps-setcolor.md)
 
 `x0, x1, y0, y1`
 
@@ -38,17 +39,17 @@ ps_shading(    resource $psdoc,    string $type,    float $x0,    float $y0,    
 
 `c1, c2, c3, c4`
 
-Дивіться опис їх значень у [псsetcolor()](function.ps-setcolor.md)
+Смотрите описание их значений в[ps\_setcolor()](function.ps-setcolor.md)
 
 `optlist`
 
-Якщо тип затінення `radial` `optlist` також має містити параметри `r0` і `r1` з радіусом початкового та кінцевого кола.
+Якщо тип затінення `radial` `optlist` також має містити параметри `r0`и`r1` з радіусом початкового та кінцевого кола.
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор шаблону або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор шаблону або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псshadingpattern()](function.ps-shading-pattern.md) - Створює візерунок на основі затінення
--   [псshfill()](function.ps-shfill.md) - Заповнює область затіненням
+-   [ps\_shading\_pattern()](function.ps-shading-pattern.md) \- Створює візерунок на основі затінення
+-   [ps\_shfill()](function.ps-shfill.md) \- Заповнює область затіненням

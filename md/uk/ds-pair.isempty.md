@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-pair.copy.md: '« DsPair::copy'
-  - ds-pair.jsonserialize.md: 'ДсPair::jsonSerialize »'
+  - ds-pair.copy.md: '« Ds\\Pair::copy'
+  - ds-pair.jsonserialize.md: 'Ds\\Pair::jsonSerialize »'
   - index.md: PHP Manual
-  - class.ds-pair.md: Пара
-title: 'ДсPair::isEmpty'
+  - class.ds-pair.md: Ds\\Pair
+title: 'Ds\\Pair::isEmpty'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсPair::isEmpty
+# Ds\\Pair::isEmpty
 
 (No version information available, might only be in Git)
 
-ДсPair::isEmpty — Перевіряє, чи є пара порожньою
+Ds\\Pair::isEmpty — Перевіряє, чи є пара порожньою
 
 ### Опис
 
@@ -26,11 +27,11 @@ public Ds\Pair::isEmpty(): bool
 
 ### Значення, що повертаються
 
-Повертає \*\*`true`\*\*якщо пара порожня і **`false`** в іншому випадку.
+Повертає **`true`**, если пара пустая и\*\*`false`\*\* в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсPair::isEmpty()****
+**Пример #1 Пример использования**Ds\\Pair::isEmpty()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($b->isEmpty());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)

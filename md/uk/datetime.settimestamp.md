@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.datetime.md: DateTime
 title: 'DateTime::setTimestamp'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTime::setTimestamp
 
-# datetimestampset
+# date\_timestamp\_set
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-DateTime::setTimestamp -- datetimestampset — Встановлює дату та час на основі мітки часу Unix
+DateTime::setTimestamp -- date\_timestamp\_set — Встановлює дату та час на основі мітки часу Unix
 
 ### Опис
 
@@ -30,7 +31,7 @@ date_timestamp_set(DateTime $object, int $timestamp): DateTime
 
 Встановлює дату та час, ґрунтуючись на мітці часу Unix.
 
-Подібний до методу [DateTimeImmutable::setTimestamp()](datetimeimmutable.settimestamp.md), крім роботи з об'єктом [DateTime](class.datetime.md)
+Подобен методу[DateTimeImmutable::setTimestamp()](datetimeimmutable.settimestamp.md), крім роботи з об'єктом [DateTime](class.datetime.md)
 
 Процедурна версія приймає об'єкт [DateTime](class.datetime.md) як перший аргумент.
 
@@ -38,7 +39,7 @@ date_timestamp_set(DateTime $object, int $timestamp): DateTime
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [date\_create()](function.date-create.md). Функція змінює цей об'єкт.
 
 `timestamp`
 
@@ -46,8 +47,8 @@ date_timestamp_set(DateTime $object, int $timestamp): DateTime
 
 ### Значення, що повертаються
 
-Повертає модифікований об'єкт [DateTime](class.datetime.md) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
+Повертає модифікований об'єкт [DateTime](class.datetime.md)для применения в цепи методов.
 
 ### Дивіться також
 
--   [DateTimeImmutable::setTimestamp()](datetimeimmutable.settimestamp.md) - Встановлює дату та час на основі мітки часу Unix
+-   [DateTimeImmutable::setTimestamp()](datetimeimmutable.settimestamp.md) \- Встановлює дату та час на основі мітки часу Unix

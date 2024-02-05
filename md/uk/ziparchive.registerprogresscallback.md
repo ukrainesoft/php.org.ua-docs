@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::registerProgressCallback'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::registerProgressCallback
 
@@ -18,7 +19,7 @@ ZipArchive::registerProgressCallback — Реєструє callback-функці�
 public ZipArchive::registerProgressCallback(float $rate, callable $callback): bool
 ```
 
-Реєструє `callback`функцію надання оновлень при закритті архіву.
+Реєструє `callback`\-функцію надання оновлень при закритті архіву.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public ZipArchive::registerProgressCallback(float $rate, callable $callback): bo
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -53,10 +54,10 @@ if ($zip->open('php.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE)) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна, якщо PHP скомпільовано з libzip ≥ 1.6.0.
 
 ### Дивіться також
 
--   [ZipArchive::registerCancelCallback()](ziparchive.registercancelcallback.md) - Реєструє callback-функцію для дозволу скасування під час закриття архіву
+-   [ZipArchive::registerCancelCallback()](ziparchive.registercancelcallback.md) \- Реєструє callback-функцію для дозволу скасування під час закриття архіву

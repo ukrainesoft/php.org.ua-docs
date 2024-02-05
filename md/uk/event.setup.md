@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.event.md: « Введение
+  - intro.event.md: '" Вступ'
   - event.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.event.md: Event
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

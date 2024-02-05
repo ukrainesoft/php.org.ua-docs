@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-matrix.isinvertible.md: '« UIDrawMatrix::isInvertible'
-  - ui-draw-matrix.rotate.md: 'ОЙDrawMatrix::rotate »'
+  - ui-draw-matrix.isinvertible.md: '« UI\\Draw\\Matrix::isInvertible'
+  - ui-draw-matrix.rotate.md: 'UI\\Draw\\Matrix::rotate »'
   - index.md: PHP Manual
-  - class.ui-draw-matrix.md: ОЙDrawMatrix
-title: 'ОЙDrawMatrix::multiply'
+  - class.ui-draw-matrix.md: UI\\Draw\\Matrix
+title: 'UI\\Draw\\Matrix::multiply'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawMatrix::multiply
+# UI\\Draw\\Matrix::multiply
 
 (UI 0.9.9)
 
-ОЙDrawMatrix::multiply — Помножити матрицю
+UI\\Draw\\Matrix::multiply — Помножити матрицю
 
 ### Опис
 

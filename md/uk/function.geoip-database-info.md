@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.geoip-country-name-by-name.md: « geoipcountrynameбname
-  - function.geoip-db-avail.md: geoipдбavail »
+  - function.geoip-country-name-by-name.md: « geoip\_country\_name\_by\_name
+  - function.geoip-db-avail.md: geoip\_db\_avail »
   - index.md: PHP Manual
-  - ref.geoip.md: Функции GeoIP
-title: geoipdatabaseinfo
+  - ref.geoip.md: Функції GeoIP
+title: geoip\_database\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# geoipdatabaseinfo
+# geoip\_database\_info
 
 (PECL geoip >= 0.2.0)
 
-geoipdatabaseinfo — Повертає інформацію про базу GeoIP
+geoip\_database\_info — Повертає інформацію про базу GeoIP
 
 ### Опис
 
@@ -18,7 +19,7 @@ geoipdatabaseinfo — Повертає інформацію про базу GeoI
 geoip_database_info(int $database = GEOIP_COUNTRY_EDITION): string
 ```
 
-Функція **geoipdatabaseinfo()** повертає версію бази GeoIP, що відповідає визначенню у бінарному файлі.
+Функция**geoip\_database\_info()** повертає версію бази GeoIP, що відповідає визначенню у бінарному файлі.
 
 Ця функція викликається без параметрів та повертає версію бази GeoIP Free Country Edition.
 
@@ -26,15 +27,15 @@ geoip_database_info(int $database = GEOIP_COUNTRY_EDITION): string
 
 `database`
 
-Тип бази визначається цілим числом (integer). Ви можете використовувати [різноманітні константи](geoip.constants.md), визначені в цьому модулі (тобто: GEOIPEDITION).
+Тип бази визначається цілим числом (integer). Ви можете використовувати [різноманітні константи](geoip.constants.md), визначені в цьому модулі (тобто: GEOIP\_\*\_EDITION).
 
 ### Значення, що повертаються
 
-Повертає відповідну версію, або **`null`** у разі виникнення помилки.
+Повертає відповідну версію, або \*\*`null`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoipdatabaseinfo()****
+**Пример #1 Пример использования**geoip\_database\_info()\*\*\*\*
 
 Приклад демонструє виведення інформації про базу даних.
 
@@ -44,7 +45,7 @@ print geoip_database_info(GEOIP_COUNTRY_EDITION);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 GEO-106FREE 20060801 Build 1 Copyright (c) 2006 MaxMind LLC All Rights Reserved

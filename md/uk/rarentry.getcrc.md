@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.rarentry.md: RarEntry
 title: 'RarEntry::getCrc'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarEntry::getCrc
 
@@ -26,10 +27,10 @@ public RarEntry::getCrc(): string
 
 ### Значення, що повертаються
 
-Повертає CRC елемента архіву або **`false`** у разі виникнення помилки.
+Повертає CRC елемента архіву або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL rar 2.0.0 | Тепер цей метод повертає коректні значення багатотомних архівів. |

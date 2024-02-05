@@ -1,20 +1,21 @@
 ---
 navigation:
   - ref.pdo-cubrid.md: « CUBRID (PDO)
-  - pdo.cubrid-schema.md: 'PDO::cubridschema »'
+  - pdo.cubrid-schema.md: 'PDO::cubrid\_schema »'
   - index.md: PHP Manual
   - ref.pdo-cubrid.md: CUBRID (PDO)
-title: PDOCUBRID DSN
+title: PDO\_CUBRID DSN
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# PDOCUBRID DSN
+# PDO\_CUBRID DSN
 
-(PECL PDOCUBRID >= 8.3.0.0001)
+(PECL PDO\_CUBRID >= 8.3.0.0001)
 
-PDOCUBRID DSN — З'єднання з базою даних CUBRID
+PDO\_CUBRID DSN — З'єднання з базою даних CUBRID
 
 ### Опис
 
-Ім'я джерела даних (Data Source Name, DSN) PDOCUBRID складається з наступних елементів, розділених крапкою з комою:
+Ім'я джерела даних (Data Source Name, DSN) PDO\_CUBRID складається з наступних елементів, розділених крапкою з комою:
 
 Префікс DSN
 
@@ -34,15 +35,15 @@ PDOCUBRID DSN — З'єднання з базою даних CUBRID
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > При з'єднанні з CUBRID ви повинні вказати ім'я користувача та пароль.
 
 ### Приклади
 
-**Приклад #1 Приклад PDOCUBRID DSN**
+**Приклад #1 Приклад PDO\_CUBRID DSN**
 
-Наступний приклад демонструє PDOCUBRID DSN для з'єднання з базою CUBRID:
+Наступний приклад демонструє PDO\_CUBRID DSN для з'єднання з базою CUBRID:
 
 ```
 cubrid:host=localhost;port=33000;dbname=demodb

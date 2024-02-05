@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.db2-client-info.md: « db2clientinfo
-  - function.db2-column-privileges.md: db2columnprivileges »
+  - function.db2-client-info.md: « db2\_client\_info
+  - function.db2-column-privileges.md: db2\_column\_privileges »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2close
+title: db2\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2close
+# db2\_close
 
-(PECL ibmdb2> = 1.0.0)
+(PECL ibm\_db2 >= 1.0.0)
 
-db2close — Закриває з'єднання з базою даних
+db2\_close — Закриває з'єднання з базою даних
 
 ### Опис
 
@@ -18,9 +19,9 @@ db2close — Закриває з'єднання з базою даних
 db2_close(resource $connection): bool
 ```
 
-Функція закриває з'єднання з базою DB2, створене за допомогою [db2connect()](function.db2-connect.md) та повертає відповідні ресурси серверу баз даних.
+Функція закриває з'єднання з базою DB2, створене за допомогою [db2\_connect()](function.db2-connect.md) та повертає відповідні ресурси серверу баз даних.
 
-Якщо ви спробуєте закрити постійне з'єднання, створене за допомогою [db2pconnect()](function.db2-pconnect.md), запит на закриття буде проігнорований і з'єднання буде доступне для подальшого використання.
+Якщо ви спробуєте закрити постійне з'єднання, створене за допомогою [db2\_pconnect()](function.db2-pconnect.md), запит на закриття буде проігнорований і з'єднання буде доступне для подальшого використання.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ db2_close(resource $connection): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -48,7 +49,7 @@ if ($rc) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Соединение закрыто.
@@ -56,6 +57,6 @@ if ($rc) {
 
 ### Дивіться також
 
--   [db2connect()](function.db2-connect.md) - Повертає з'єднання з базою даних
--   [db2pclose()](function.db2-pclose.md) - Закриває постійне з'єднання з базою даних
--   [db2pconnect()](function.db2-pconnect.md) - Повертає постійне з'єднання з базою даних
+-   [db2\_connect()](function.db2-connect.md) \- Повертає з'єднання з базою даних
+-   [db2\_pclose()](function.db2-pclose.md) \- Закриває постійне з'єднання з базою даних
+-   [db2\_pconnect()](function.db2-pconnect.md) \- Повертає постійне з'єднання з базою даних

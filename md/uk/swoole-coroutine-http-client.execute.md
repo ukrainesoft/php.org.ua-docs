@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine-http-client.destruct.md: '« SwooleCoroutineHttpClient::destruct'
-  - swoole-coroutine-http-client.get.md: 'SwooleCoroutineHttpClient::get »'
+  - swoole-coroutine-http-client.destruct.md: '« Swoole\\Coroutine\\Http\\Client::\_\_destruct'
+  - swoole-coroutine-http-client.get.md: 'Swoole\\Coroutine\\Http\\Client::get »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutineHttpClient::execute'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine\\Http\\Client::execute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutineHttpClient::execute
+# Swoole\\Coroutine\\Http\\Client::execute
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutineHttpClient::execute — Опис
+Swoole\\Coroutine\\Http\\Client::execute — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Coroutine\Http\Client::execute(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

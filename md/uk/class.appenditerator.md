@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас AppendIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас AppendIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,18 +19,13 @@ title: Клас AppendIterator
 
 ```classsynopsis
 
-     
+    
+     class AppendIterator
     
 
     
-     
-      class AppendIterator
-     
-
-     
-      extends
-       IteratorIterator
-     
+     extends
+      IteratorIterator
      {
 
     /* Методы */
@@ -39,7 +35,6 @@ title: Клас AppendIterator
     public append(Iterator $iterator): void
 public current(): mixed
 public getArrayIterator(): ArrayIterator
-public getInnerIterator(): Iterator
 public getIteratorIndex(): ?int
 public key(): scalar
 public next(): void
@@ -60,13 +55,12 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [AppendIterator::append](appenditerator.append.md) — додає ітератор
--   [AppendIterator::construct](appenditerator.construct.md) - Створює AppendIterator
--   [AppendIterator::current](appenditerator.current.md) — Повертає поточне значення
--   [AppendIterator::getArrayIterator](appenditerator.getarrayiterator.md) - Повертає клас ітератора масиву ArrayIterator
--   [AppendIterator::getInnerIterator](appenditerator.getinneriterator.md) - Повертає внутрішній ітератор
--   [AppendIterator::getIteratorIndex](appenditerator.getiteratorindex.md) - Повертає індекс ітератора
--   [AppendIterator::key](appenditerator.key.md) — Повертає поточний ключ
--   [AppendIterator::next](appenditerator.next.md) — Переходить до наступного елементу
--   [AppendIterator::rewind](appenditerator.rewind.md) - Перемотує ітератор
--   [AppendIterator::valid](appenditerator.valid.md) — Перевіряє термін дії поточного елемента
+-   [AppendIterator::append](appenditerator.append.md)— додає ітератор
+-   [AppendIterator::\_\_construct](appenditerator.construct.md) \- Створює AppendIterator
+-   [AppendIterator::current](appenditerator.current.md)— Повертає поточне значення
+-   [AppendIterator::getArrayIterator](appenditerator.getarrayiterator.md) \- Повертає клас ітератора масиву ArrayIterator
+-   [AppendIterator::getIteratorIndex](appenditerator.getiteratorindex.md) \- Повертає індекс ітератора
+-   [AppendIterator::key](appenditerator.key.md)— Повертає поточний ключ
+-   [AppendIterator::next](appenditerator.next.md)— Переходить до наступного елементу
+-   [AppendIterator::rewind](appenditerator.rewind.md) \- Перемотує ітератор
+-   [AppendIterator::valid](appenditerator.valid.md)— Перевіряє термін дії поточного елемента

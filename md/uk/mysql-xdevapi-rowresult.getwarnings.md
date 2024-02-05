@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-rowresult.getcolumns.md: '« RowResult::getColumns'
   - mysql-xdevapi-rowresult.getwarningscount.md: 'RowResult::getWarningsCount »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-rowresult.md: mysqlxdevapiRowResult
+  - class.mysql-xdevapi-rowresult.md: mysql\_xdevapi\\RowResult
 title: 'RowResult::getWarnings'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RowResult::getWarnings
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\RowResult::getWarnings(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiRowResult::getWarnings()****
+**Пример #1 Пример использования**mysql\_xdevapi\\RowResult::getWarnings()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ print_r($warnings);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

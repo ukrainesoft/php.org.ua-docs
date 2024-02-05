@@ -4,13 +4,14 @@ navigation:
   - class.reflectionenum.md: ReflectionEnum »
   - index.md: PHP Manual
   - class.reflectionclassconstant.md: ReflectionClassConstant
-title: 'ReflectionClassConstant::toString'
+title: 'ReflectionClassConstant::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionClassConstant::toString
+# ReflectionClassConstant::\_\_function toString() { \[native code\] }
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
-ReflectionClassConstant::toString — Повертає строкове представлення об'єкта ReflectionClassConstant
+ReflectionClassConstant::\_\_toString — Повертає строкове представлення об'єкта ReflectionClassConstant
 
 ### Опис
 
@@ -30,5 +31,5 @@ public ReflectionClassConstant::__toString(): string
 
 ### Дивіться також
 
--   [ReflectionClassConstant::export()](reflectionclassconstant.export.md) - Експорт
--   [toString()](language.oop5.magic.md#object.tostring)
+-   [ReflectionClassConstant::export()](reflectionclassconstant.export.md) \- Експорт
+-   [\_\_toString()](language.oop5.magic.md#object.tostring)

@@ -1,10 +1,11 @@
 ---
 navigation:
   - zmqpoll.remove.md: '« ZMQPoll::remove'
-  - zmqdevice.construct.md: 'ZMQDevice::construct »'
+  - zmqdevice.construct.md: 'ZMQDevice::\_\_construct »'
   - index.md: PHP Manual
   - book.zmq.md: Обмін повідомленнями 0MQ
 title: Клас ZMQDevice
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ZMQDevice
 
@@ -41,11 +42,11 @@ public setTimerTimeout(int $timeout): ZMQDevice
 
 ## Зміст
 
--   [ZMQDevice::construct](zmqdevice.construct.md) — Створює новий пристрій
--   [ZMQDevice::getIdleTimeout](zmqdevice.getidletimeout.md) — Отримати час очікування бездіяльності
--   [ZMQDevice::getTimerTimeout](zmqdevice.gettimertimeout.md) - Отримати час очікування таймера
--   [ZMQDevice::run](zmqdevice.run.md) — Запуск нового пристрою
--   [ZMQDevice::setIdleCallback](zmqdevice.setidlecallback.md) - Встановити callback-функцію бездіяльності
--   [ZMQDevice::setIdleTimeout](zmqdevice.setidletimeout.md) — Встановити час очікування простою
--   [ZMQDevice::setTimerCallback](zmqdevice.settimercallback.md) - Встановити callback-функцію за таймером
--   [ZMQDevice::setTimerTimeout](zmqdevice.settimertimeout.md) - Встановити час очікування таймера
+-   [ZMQDevice::\_\_construct](zmqdevice.construct.md)— Створює новий пристрій
+-   [ZMQDevice::getIdleTimeout](zmqdevice.getidletimeout.md)— Отримати час очікування бездіяльності
+-   [ZMQDevice::getTimerTimeout](zmqdevice.gettimertimeout.md) \- Отримати час очікування таймера
+-   [ZMQDevice::run](zmqdevice.run.md)— Запуск нового пристрою
+-   [ZMQDevice::setIdleCallback](zmqdevice.setidlecallback.md) \- Встановити callback-функцію бездіяльності
+-   [ZMQDevice::setIdleTimeout](zmqdevice.setidletimeout.md)— Встановити час очікування простою
+-   [ZMQDevice::setTimerCallback](zmqdevice.settimercallback.md) \- Встановити callback-функцію за таймером
+-   [ZMQDevice::setTimerTimeout](zmqdevice.settimertimeout.md) \- Встановити час очікування таймера

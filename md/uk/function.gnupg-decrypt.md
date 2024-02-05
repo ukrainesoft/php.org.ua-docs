@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.gnupg-clearsignkeys.md: « gnupgclearsignkeys
-  - function.gnupg-decryptverify.md: gnupgdecryptverify »
+  - function.gnupg-clearsignkeys.md: « gnupg\_clearsignkeys
+  - function.gnupg-decryptverify.md: gnupg\_decryptverify »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgdecrypt
+title: gnupg\_decrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgdecrypt
+# gnupg\_decrypt
 
 (PECL gnupg >= 0.1)
 
-gnupgdecrypt — Розшифровує переданий текст
+gnupg\_decrypt — Розшифровує переданий текст
 
 ### Опис
 
 ```methodsynopsis
-gnupg_decrypt(resource $identifier, string $text): string
+gnupg_decrypt(resource $identifier, string $text): string|false
 ```
 
-Розшифровує переданий текст ключами, встановленими раніше за допомогою [gnupgadddecryptkey](function.gnupg-adddecryptkey.md)
+Розшифровує переданий текст ключами, встановленими раніше за допомогою [gnupg\_adddecryptkey](function.gnupg-adddecryptkey.md)
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `text`
 
@@ -36,7 +37,7 @@ gnupg_decrypt(resource $identifier, string $text): string
 
 ### Приклади
 
-**Приклад #1 Процедурний приклад використання **gnupgdecrypt()****
+**Приклад #1 Процедурний приклад використання **gnupg\_decrypt()****
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo $plain;
 ?>
 ```
 
-**Приклад #2 Об'єктно-орієнтований приклад використання **gnupgdecrypt()****
+**Приклад #2 Об'єктно-орієнтований приклад використання **gnupg\_decrypt()****
 
 ```php
 <?php

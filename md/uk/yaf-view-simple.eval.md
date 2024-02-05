@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-view-simple.display.md: '« YafViewSimple::display'
-  - yaf-view-simple.get.md: 'YafViewSimple::get »'
+  - yaf-view-simple.display.md: '« Yaf\_View\_Simple::display'
+  - yaf-view-simple.get.md: 'Yaf\_View\_Simple::\_\_get »'
   - index.md: PHP Manual
-  - class.yaf-view-simple.md: YafViewSimple
-title: 'YafViewSimple::eval'
+  - class.yaf-view-simple.md: Yaf\_View\_Simple
+title: 'Yaf\_View\_Simple::eval'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafViewSimple::eval
+# Yaf\_View\_Simple::eval
 
-(Yaf> = 2.2.0)
+(Yaf >=2.2.0)
 
-YafViewSimple::eval — Відображає шаблон
+Yaf\_View\_Simple::eval — Відображає шаблон
 
 ### Опис
 

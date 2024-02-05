@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashstringinthash.md: QuickHashStringIntHash
 title: 'QuickHashStringIntHash::loadFromFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashStringIntHash::loadFromFile
 
@@ -70,7 +71,7 @@ bucket lists:
 
 `size`
 
-Кількість списків, які потрібно налаштувати. Передане число буде автоматично округлено до наступного ступеня 2. Воно також автоматично обмежується від `4` до `4194304`
+Кількість списків, які потрібно налаштувати. Передане число буде автоматично округлено до наступного ступеня 2. Воно також автоматично обмежується від `4`до`4194304`
 
 `options`
 
@@ -82,7 +83,7 @@ bucket lists:
 
 ### Приклади
 
-**Приклад #3 Приклад використання **QuickHashStringIntHash::loadFromFile()****
+**Пример #3 Пример использования**QuickHashStringIntHash::loadFromFile()\*\*\*\*
 
 ```php
 <?php
@@ -100,7 +101,7 @@ foreach( range( 0, 0x0f ) as $key )
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 11l4 => 48712

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-check.setchecked.md: '« UIControlsCheck::setChecked'
-  - class.ui-controls-button.md: ОЙControlsButton »
+  - ui-controls-check.setchecked.md: '« UI\\Controls\\Check::setChecked'
+  - class.ui-controls-button.md: UI\\Controls\\Button »
   - index.md: PHP Manual
-  - class.ui-controls-check.md: ОЙControlsCheck
-title: 'ОЙControlsCheck::setText'
+  - class.ui-controls-check.md: UI\\Controls\\Check
+title: 'UI\\Controls\\Check::setText'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsCheck::setText
+# UI\\Controls\\Check::setText
 
 (UI 0.9.9)
 
-ОЙControlsCheck::setText — Встановити текст
+UI\\Controls\\Check::setText — Встановити текст
 
 ### Опис
 

@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.pool.md: « Pool
-  - pool.construct.md: 'Pool::construct »'
+  - pool.construct.md: 'Pool::\_\_construct »'
   - index.md: PHP Manual
   - class.pool.md: Pool
 title: 'Pool::collect'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Pool::collect
 
@@ -32,9 +33,9 @@ Callback - функція збирача, яка повертає логічне
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| вз | Тепер повертається ціле число, а параметр `collector` тепер необов'язковий. |
+| v3 | Тепер повертається ціле число, а параметр `collector` тепер необов'язковий. |
 
 ### Приклади
 

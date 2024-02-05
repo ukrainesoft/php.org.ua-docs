@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ssh2-sftp.md: « ssh2sftp
-  - function.ssh2-tunnel.md: ssh2tunnel »
+  - function.ssh2-sftp.md: « ssh2\_sftp
+  - function.ssh2-tunnel.md: ssh2\_tunnel »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2shell
+title: ssh2\_shell
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2shell
+# ssh2\_shell
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2shell — Запитує інтерактивний термінал
+ssh2\_shell — Запитує інтерактивний термінал
 
 ### Опис
 
 ```methodsynopsis
-ssh2_shell(    resource $session,    string $term_type = "vanilla",    ?array $env = null,    int $width = 80,    int $height = 25,    int $width_height_type = SSH2_TERM_UNIT_CHARS): resource|false
+ssh2_shell(    resource $session,    string $termtype = "vanilla",    ?array $env = null,    int $width = 80,    int $height = 25,    int $width_height_type = SSH2_TERM_UNIT_CHARS): resource|false
 ```
 
 Відкриває термінал до віддаленого сервера та виділяє йому потік.
@@ -24,11 +25,11 @@ ssh2_shell(    resource $session,    string $term_type = "vanilla",    ?array $e
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.md)
 
-`term_type`
+`termtype`
 
-Тип терміналу `term_type`. Повинен відповідати одному з перелічених у серверному файлі `/etc/termcap`
+Тип терміналу `termtype`. Повинен відповідати одному з перелічених у серверному файлі `/etc/termcap`
 
 `env`
 
@@ -44,11 +45,11 @@ ssh2_shell(    resource $session,    string $term_type = "vanilla",    ?array $e
 
 `width_height_type`
 
-`width_height_type` повинен бути **`SSH2_TERM_UNIT_CHARS`** або **`SSH2_TERM_UNIT_PIXELS`**
+`width_height_type` повинен бути **`SSH2_TERM_UNIT_CHARS`**или**`SSH2_TERM_UNIT_PIXELS`**
 
 ### Значення, що повертаються
 
-Повертає ресурс ([resource](language.types.resource.md)) потоку у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс ([resource](language.types.resource.md)) потоку у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -65,6 +66,6 @@ $stream = ssh2_shell($connection, 'vt102', null, 80, 24, SSH2_TERM_UNIT_CHARS);
 
 ### Дивіться також
 
--   [ssh2exec()](function.ssh2-exec.md) - Виконання команди на віддаленому сервері
--   [ssh2tunnel()](function.ssh2-tunnel.md) - Відкрити тунель через віддалений сервер
--   [ssh2fetchstream()](function.ssh2-fetch-stream.md) - отримання розширеного потоку даних
+-   [ssh2\_exec()](function.ssh2-exec.md) \- Виконання команди на віддаленому сервері
+-   [ssh2\_tunnel()](function.ssh2-tunnel.md) \- Відкрити тунель через віддалений сервер
+-   [ssh2\_fetch\_stream()](function.ssh2-fetch-stream.md) \- отримання розширеного потоку даних

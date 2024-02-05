@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3.md: SQLite3
 title: 'SQLite3::lastInsertRowID'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3::lastInsertRowID
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::lastInsertRowID — Повертає ідентифікатор рядка останньої вставки (INSERT) до бази даних
 
@@ -26,4 +27,4 @@ public SQLite3::lastInsertRowID(): int
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор рядка останньої вставки (INSERT) до бази даних. Якщо при цьому з'єднанні з базою даних ніколи не відбувалося успішних операцій INSERT у таблиці rowid, то **SQLite3::lastInsertRowID()** повертає `0`
+Повертає ідентифікатор рядка останньої вставки (INSERT) до бази даних. Якщо при цьому з'єднанні з базою даних ніколи не відбувалося успішних операцій INSERT у таблиці rowid, то **SQLite3::lastInsertRowID()** повертає

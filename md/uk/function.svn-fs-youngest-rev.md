@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-fs-txn-root.md: « svnфсtxnroot
-  - function.svn-import.md: svnimport »
+  - function.svn-fs-txn-root.md: « svn\_fs\_txn\_root
+  - function.svn-import.md: svn\_import »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnфсyoungestrev
+title: svn\_fs\_youngest\_rev
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnфсyoungestrev
+# svn\_fs\_youngest\_rev
 
 (PECL svn >= 0.1.0)
 
-svnфсyoungestrev — Повертає номер ранньої ревізії у файловій системі
+svn\_fs\_youngest\_rev — Повертає номер ранньої ревізії у файловій системі
 
 ### Опис
 
@@ -20,7 +21,7 @@ svn_fs_youngest_rev(resource $fs): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає номер ранньої ревізії у файловій системі
 

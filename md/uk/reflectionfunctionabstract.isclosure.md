@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::isClosure'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::isClosure
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-ReflectionFunctionAbstract::isClosure — Перевіряє, чи є функція замиканням ([Closure](class.closure.md)
+ReflectionFunctionAbstract::isClosure — Перевіряє, чи є функція замиканням ([Closure](class.closure.md)) .
 
 ### Опис
 
@@ -30,7 +31,7 @@ public ReflectionFunctionAbstract::isClosure(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання методу **ReflectionFunctionAbstract::isClosure()****
+**Пример #1 Пример использования метода**ReflectionFunctionAbstract::isClosure()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($reflection2->isClosure());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -55,4 +56,4 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::isGenerator()](reflectionfunctionabstract.isgenerator.md) - Перевіряє, чи є функція генератором
+-   [ReflectionFunctionAbstract::isGenerator()](reflectionfunctionabstract.isgenerator.md) \- Перевіряє, чи є функція генератором

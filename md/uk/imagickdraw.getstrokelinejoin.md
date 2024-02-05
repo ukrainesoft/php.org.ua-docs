@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getStrokeLineJoin'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::getStrokeLineJoin
 
@@ -20,7 +21,7 @@ public ImagickDraw::getStrokeLineJoin(): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає фігуру, яка використовуватиметься в кутах контурів (або інших векторних фігур) під час їх обведення.
 

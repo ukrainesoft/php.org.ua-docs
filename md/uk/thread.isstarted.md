@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.thread.md: Thread
 title: 'Thread::isStarted'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Thread::isStarted
 
@@ -26,7 +27,7 @@ public Thread::isStarted(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -40,7 +41,7 @@ var_dump($worker->isStarted());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)

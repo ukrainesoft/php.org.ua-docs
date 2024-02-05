@@ -1,23 +1,24 @@
 ---
 navigation:
-  - function.idn-to-ascii.md: « idnтоascii
+  - function.idn-to-ascii.md: « idn\_to\_ascii
   - class.intlchar.md: IntlChar »
   - index.md: PHP Manual
   - ref.intl.idn.md: Функції IDN
-title: idnтоutf8
+title: idn\_to\_utf8
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# idnтоutf8
+# idn\_to\_utf8
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.2, PECL idn >= 0.1)
 
-idnтоutf8 - Перетворення доменного імені з IDNA ASCII в Unicode
+idn\_to\_utf8 - Перетворення доменного імені з IDNA ASCII в Unicode
 
 ### Опис
 
 Процедурний стиль
 
 ```methodsynopsis
-idn_to_utf8(    string $domain,    int $flags = IDNA_DEFAULT,    int $variant = INTL_IDNA_VARIANT_UTS46,    array &$idna_info = null): string|false
+idn_to_utf8(    string $domain,    int $flags = IDNA_DEFAULT,    int $variant = INTL_IDNA_VARIANT_UTS46,    array &$idna_info = null): string|false
 ```
 
 Ця функція перетворює доменні імена з формату IDNA ASCII в Unicode, кодування UTF-8.
@@ -30,7 +31,7 @@ idn_to_utf8(    string $domain,    int $flags = IDNA_DEFAULT,    int $variant = 
 
 `flags`
 
-Опції перетворення - комбінація констант IDNA (крім констант IDNAERROR
+Опції перетворення - комбінація констант IDNA\_\*(кроме констант IDNA\_ERROR\_\*
 
 `variant`
 
@@ -38,22 +39,22 @@ idn_to_utf8(    string $domain,    int $flags = IDNA_DEFAULT,    int $variant = 
 
 `idna_info`
 
-Цей параметр використовується лише якщо використовується **`INTL_IDNA_VARIANT_UTS46`** в `variant`. У цьому випадку він буде заповнений масивом із ключами `'result'`, можливими помилковими результатами перетворення, `'isTransitionalDifferent'`, логічне вираз означає змінило або могло б змінити результат при використанні наскрізного механізму UTS #46, та `'errors'`, що містять ціле уявлення бітової маски з констант IDNAERROR
+Цей параметр використовується лише якщо використовується \*\*`INTL_IDNA_VARIANT_UTS46`\*\*в`variant`. У цьому випадку він буде заповнений масивом із ключами `'result'`, можливими помилковими результатами перетворення, `'isTransitionalDifferent'`, логічне вираз означає змінило або могло б змінити результат при використанні наскрізного механізму UTS #46, та `'errors'`, що містять ціле уявлення бітової маски з констант IDNA\_ERROR\_\*
 
 ### Значення, що повертаються
 
-Доменне ім'я в Unicode, кодування UTF-8 або **`false`** у разі виникнення помилки.
+Возвращает доменное имя, перекодированное из кодировки Unicode в кодировку UTF-8, или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер значення за замовчуванням `variant` змінено на **`INTL_IDNA_VARIANT_UTS46`** замість застарілої константи **`INTL_IDNA_VARIANT_2003`** |
-|  | **`INTL_IDNA_VARIANT_2003`** оголошено застарілою, замість неї використовуйте **`INTL_IDNA_VARIANT_UTS46`** |
+| 7.4.0 | Тепер значення за замовчуванням `variant`изменено на\*\*`INTL_IDNA_VARIANT_UTS46`\*\* замість застарілої константи **`INTL_IDNA_VARIANT_2003`** |
+| 7.2.0 | **`INTL_IDNA_VARIANT_2003`** оголошено застарілою, замість неї використовуйте **`INTL_IDNA_VARIANT_UTS46`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **idnтоutf8()****
+**Пример #1 Пример использования**idn\_to\_utf8()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ echo idn_to_utf8('xn--tst-qla.de');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 täst.de
@@ -71,4 +72,4 @@ täst.de
 
 ### Дивіться також
 
--   [idnтоascii()](function.idn-to-ascii.md) - Перетворити доменне ім'я на формат IDNA ASCII
+-   [idn\_to\_ascii()](function.idn-to-ascii.md) \- Перетворює доменне ім'я на формат IDNA ASCII

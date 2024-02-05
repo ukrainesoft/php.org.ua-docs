@@ -4,17 +4,18 @@ navigation:
   - sqlite3.createaggregate.md: 'SQLite3::createAggregate »'
   - index.md: PHP Manual
   - class.sqlite3.md: SQLite3
-title: 'SQLite3::construct'
+title: 'SQLite3::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SQLite3::construct
+# SQLite3::\_\_construct
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-SQLite3::construct — Створює екземпляр SQLite3 і відкриває з'єднання з базою
+SQLite3::\_\_construct — Створює екземпляр SQLite3 і відкриває з'єднання з базою
 
 ### Опис
 
-public **SQLite3::construct**(string `$filename`, int `$flags` = SQLITE3OPENREADWRITE | SQLITE3OPENCREATE, string `$encryptionKey` = "")
+public**SQLite3::\_\_construct**(string`$filename`, int`$flags`\= SQLITE3\_OPEN\_READWRITE | SQLITE3\_OPEN\_CREATE, string`$encryptionKey` = "")
 
 Створює екземпляр SQLite3 і відкриває з'єднання з базою. Якщо увімкнено шифрування, з'являється можливість використання ключа.
 
@@ -22,7 +23,7 @@ public **SQLite3::construct**(string `$filename`, int `$flags` = SQLITE3OPENREAD
 
 `filename`
 
-Шлях до SQLite бази або `:memory:`для використання бази в оперативній пам'яті. Якщо `filename` встановити як порожній рядок, то буде створено приватну, тимчасову базу даних на диску. Ця база даних буде видалена одразу після закриття з'єднання з нею.
+Путь к SQLite базе или`:memory:`для використання бази в оперативній пам'яті. Якщо `filename` встановити як порожній рядок, то буде створено приватну, тимчасову базу даних на диску. Ця база даних буде видалена одразу після закриття з'єднання з нею.
 
 `flags`
 
@@ -41,17 +42,17 @@ public **SQLite3::construct**(string `$filename`, int `$flags` = SQLITE3OPENREAD
 
 ### Помилки
 
-Викидає виняток [Exception](class.exception.md) у разі виникнення помилки.
+Викидає виняток [Exception](class.exception.md)в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `filename` можна задавати порожнім рядком для створення на диску приватної бази даних. |
+| 7.0.10 | Параметр`filename` можна задавати порожнім рядком для створення на диску приватної бази даних. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SQLite3::construct()****
+**Пример #1 Пример использования**SQLite3::\_\_construct()\*\*\*\*
 
 ```php
 <?php

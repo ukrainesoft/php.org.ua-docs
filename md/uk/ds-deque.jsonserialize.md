@@ -1,19 +1,20 @@
 ---
 navigation:
-  - ds-deque.join.md: '« DsDeque::join'
-  - ds-deque.last.md: 'ДсDeque::last »'
+  - ds-deque.join.md: '« Ds\\Deque::join'
+  - ds-deque.last.md: 'Ds\\Deque::last »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::jsonSerialize'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::jsonSerialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::jsonSerialize
+# Ds\\Deque::jsonSerialize
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::jsonSerialize — Повертає колекцію в JSON-представництві
+Ds\\Deque::jsonSerialize — Повертає колекцію в JSON-представництві
 
-Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
+Смотрите[JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ніколи не використовуйте цю функцію безпосередньо.

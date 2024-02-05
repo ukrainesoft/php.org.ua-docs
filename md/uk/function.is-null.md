@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-long.md: « islong
-  - function.is-numeric.md: ісnumeric »
+  - function.is-long.md: « is\_long
+  - function.is-numeric.md: is\_numeric »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
-title: ісnull
+title: is\_null
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісnull
+# is\_null
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-ісnull — Перевіряє, чи значення змінної дорівнює **`null`**
+is\_null — Перевіряє, чи значення змінної дорівнює **`null`**
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: ісnull
 is_null(mixed $value): bool
 ```
 
-Перевіряє, чи значення цієї змінної дорівнює **`null`**
+Перевіряє, чи значення змінної **`null`**
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ is_null(mixed $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо значення `value` одно null, або **`false`** в іншому випадку.
+Повертає **`true`**, если значение`value`— null, иначе\*\*`false`\*\*
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ісnull()****
+**Пример #1 Пример использования функции**is\_null()\*\*\*\*
 
 ```php
 <?php
@@ -53,12 +54,12 @@ bool(true)
 
 ### Дивіться також
 
--   Тип [**`null`**](language.types.null.md#language.types.null.syntax)
--   [isset()](function.isset.md) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
--   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
--   [ісnumeric()](function.is-numeric.md) - Перевіряє, чи є змінна числом чи рядком, що містить число
--   [ісfloat()](function.is-float.md) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [ісint()](function.is-int.md) - Перевіряє, чи є змінна цілим числом
--   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком
--   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом
--   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
+-   Тип[**`null`**](language.types.null.md#language.types.null.syntax)
+-   [isset()](function.isset.md) \- Визначає, чи була встановлена ​​змінна значенням, відмінним від null
+-   [is\_bool()](function.is-bool.md) \- Перевіряє, чи є змінна логічне значення
+-   [is\_numeric()](function.is-numeric.md) \- Перевіряє, чи містить змінне число чи числове рядок
+-   [is\_float()](function.is-float.md) \- Перевіряє, чи є змінна число з плаваючою точкою
+-   [is\_int()](function.is-int.md) \- Перевіряє, чи є змінна ціла кількість
+-   [is\_string()](function.is-string.md) \- Перевіряє, чи є тип змінної рядок
+-   [is\_object()](function.is-object.md) \- Перевіряє, чи є змінна об'єкт
+-   [is\_array()](function.is-array.md) \- Визначає, чи є змінна масив

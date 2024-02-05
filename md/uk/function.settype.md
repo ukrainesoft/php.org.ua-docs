@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: settype
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # settype
 
@@ -18,7 +19,7 @@ settype — Задає тип змінної
 settype(mixed &$var, string $type): bool
 ```
 
-Задає тип `type` змінної `var`
+Задає тип `type`переменной`var`
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ settype(mixed &$var, string $type): bool
 
 `type`
 
-Допустимими значеннями параметра `type` є:
+Допустимими значеннями параметра `type`являются:
 
 -   "boolean" або "bool"
 -   "integer" або "int"
@@ -40,30 +41,30 @@ settype(mixed &$var, string $type): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **settype()****
+**Пример #1 Пример использования**settype()\*\*\*\*
 
 ```php
 <?php
 $foo = "5bar"; // строка
-$bar = true;   // булевое значение
+$bar = true; // логическое значение
 
-settype($foo, "integer"); // $foo теперь 5   (целое)
+settype($foo, "integer"); // $foo теперь 5 (целое число)
 settype($bar, "string");  // $bar теперь "1" (строка)
 ?>
 ```
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Максимальне значення для "int" одно **`PHP_INT_MAX`**
 
 ### Дивіться також
 
--   [gettype()](function.gettype.md) - Повертає тип змінної
--   [Приведение типов](language.types.type-juggling.md#language.types.typecasting)
+-   [gettype()](function.gettype.md) \- Повертає тип змінної
+-   [Приведення типів](language.types.type-juggling.md#language.types.typecasting)
 -   [Маніпуляції з типами](language.types.type-juggling.md)

@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.yac.md: « Yac
-  - yac.construct.md: 'Yac::construct »'
+  - yac.construct.md: 'Yac::\_\_construct »'
   - index.md: PHP Manual
   - class.yac.md: Yac
 title: 'Yac::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Yac::add
 
@@ -40,9 +41,9 @@ public Yac::add(array $key_vals): bool
 
 ### Значення, що повертаються
 
-bool, **`true`** у разі успішного виконання, **`false`** у разі виникнення помилки
+bool,**`true`** у разі успішного виконання, \*\*`false`\*\*в случае возникновения ошибки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > **Yac::add()** може завершитися з помилкою, якщо не вдалося отримати блокування cas, тому, якщо вам потрібно, щоб значення зберігалося належним чином, ви можете написати таке:
 > 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-ls.md: « svnлс
-  - function.svn-repos-create.md: svnreposcreate »
+  - function.svn-ls.md: « svn\_ls
+  - function.svn-repos-create.md: svn\_repos\_create »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnmkdir
+title: svn\_mkdir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnmkdir
+# svn\_mkdir
 
 (PECL svn >= 0.4.0)
 
-svnmkdir — Створює директорію в робочій копії або репозиторії
+svn\_mkdir — Створює директорію в робочій копії або репозиторії
 
 ### Опис
 
@@ -28,9 +29,9 @@ svn_mkdir(string $path, string $log_message = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [svnadd()](function.svn-add.md) - Додає елементи до списку запланованих для додавання до робочої копії
--   **svncopy()**
+-   [svn\_add()](function.svn-add.md) \- Додає елементи до списку запланованих для додавання до робочої копії
+-   **svn\_copy()**

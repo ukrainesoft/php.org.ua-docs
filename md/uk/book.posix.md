@@ -1,58 +1,65 @@
 ---
 navigation:
-  - function.pcntl-wtermsig.md: pcntlwtermsig
-  - intro.posix.md: Введение »
+  - function.pcntl-wtermsig.md: « pcntl\_wtermsig
+  - intro.posix.md: Вступ "
   - index.md: PHP Manual
-  - refs.fileprocess.process.md: Модули для управления процессами программ
+  - refs.fileprocess.process.md: Модулі для керування процесами програм
 title: POSIX
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # POSIX
 
--   [Введение](intro.posix.md)
+-   [Вступ](intro.posix.md)
 -   [Встановлення та налаштування](posix.setup.md)
     -   [Вимоги](posix.requirements.md)
     -   [Установка](posix.installation.md)
     -   [Налаштування під час виконання](posix.configuration.md)
     -   [Типи ресурсів](posix.resources.md)
 -   [Обумовлені константи](posix.constants.md)
-    -   [Константи posixaccess](posix.constants.access.md)
-    -   [Константи posixmknod](posix.constants.mknod.md)
-    -   [Константи posixsetrlimit](posix.constants.setrlimit.md)
--   [POSIX Функции](ref.posix.md)
-    -   [posixaccess](function.posix-access.md) — Визначає доступність файлу
-    -   [posixctermid](function.posix-ctermid.md) — Повертає шлях керуючого терміналу
-    -   [posixerrno](function.posix-errno.md) - Псевдонім posixgetlasterror
-    -   [posixgetlasterror](function.posix-get-last-error.md) — Повертає номер помилки, яка сталася в останній posix функції, що завершилася невдачею
-    -   [posixgetcwd](function.posix-getcwd.md) — Повертає шлях поточної директорії
-    -   [posixgetegid](function.posix-getegid.md) — Повертає ефективний ідентифікатор групи поточного процесу EGID
-    -   [posixgeteuid](function.posix-geteuid.md) — Повертає ефективний ідентифікатор користувача поточного процесу EUID
-    -   [posixgetgid](function.posix-getgid.md) — Повертає дійсний ID групи поточного процесу GID
-    -   [posixgetgrgid](function.posix-getgrgid.md) — Повертає інформацію про групу за її ID
-    -   [posixgetgrnam](function.posix-getgrnam.md) — Повертає інформацію про групу, використовуючи її ім'я
-    -   [posixgetgroups](function.posix-getgroups.md) — Повертає список груп для поточного процесу
-    -   [posixgetlogin](function.posix-getlogin.md) — Повертає логін власника процесу
-    -   [posixgetpgid](function.posix-getpgid.md) — Повертає ID групи поточного процесу для менеджера завдань
-    -   [posixgetpgrp](function.posix-getpgrp.md) — Повертає ідентифікатор групи поточного процесу
-    -   [posixgetpid](function.posix-getpid.md) — Повертає ідентифікатор поточного процесу
-    -   [posixgetppid](function.posix-getppid.md) — Повертає ідентифікатор батьківського процесу
-    -   [posixgetpwnam](function.posix-getpwnam.md) — Повертає інформацію про користувача на його ім'я
-    -   [posixgetpwuid](function.posix-getpwuid.md) — Повертає інформацію про користувача, використовуючи його ID
-    -   [posixgetrlimit](function.posix-getrlimit.md) — Повертає інформацію про обмеження системних ресурсів
-    -   [posixgetsid](function.posix-getsid.md) — Повертає поточний процес SID
-    -   [posixgetuid](function.posix-getuid.md) — Повертає фактичний ідентифікатор користувача для поточного процесу UID
-    -   [posixinitgroups](function.posix-initgroups.md) — Визначає рівень доступу для групи
-    -   [posixisatty](function.posix-isatty.md) — Чи визначає файловий дескриптор інтерактивним терміналом
-    -   [posixkill](function.posix-kill.md) — Надсилає сигнал відповідному процесу
-    -   [posixmkfifo](function.posix-mkfifo.md) - Створює спеціальний fifo файл (іменований канал-pipe)
-    -   [posixmknod](function.posix-mknod.md) — Створює спеціальний чи звичайний файл (POSIX.1)
-    -   [posixsetegid](function.posix-setegid.md) — Встановлює ефективний ідентифікатор групи для поточного процесу EGID
-    -   [posixseteuid](function.posix-seteuid.md) — Встановлює ефективний ідентифікатор користувача для поточного процесу EUID
-    -   [posixsetgid](function.posix-setgid.md) — Встановлює ідентифікатор групи для поточного процесу GID
-    -   [posixsetpgid](function.posix-setpgid.md) - Встановлює ідентифікатор групи процесу для менеджера завдань
-    -   [posixsetrlimit](function.posix-setrlimit.md) - Встановлює межі системних ресурсів
-    -   [posixsetsid](function.posix-setsid.md) — Робить поточний процес лідером сесії
-    -   [posixsetuid](function.posix-setuid.md) — Встановлює UID поточного процесу
-    -   [posixstrerror](function.posix-strerror.md) — Повертає системне повідомлення про помилку, ґрунтуючись на отриманому номері помилки
-    -   [posixtimes](function.posix-times.md) — Повертає інформацію про використання процесорного часу
-    -   [posixttyname](function.posix-ttyname.md) - Визначає ім'я термінального пристрою
-    -   [posixuname](function.posix-uname.md) — Повертає інформацію про систему
+    -   [Константи функції posix\_access](posix.constants.access.md)
+    -   [Константи функції posix\_mknod](posix.constants.mknod.md)
+    -   [Константи функції posix\_setrlimit](posix.constants.setrlimit.md)
+    -   [Константи функції posix\_pathconf](posix.constants.pathconf.md)
+    -   [posix\_sysconf constants](posix.constants.sysconf.md)
+-   [POSIX Функції](ref.posix.md)
+    -   [posix\_access](function.posix-access.md)— Визначає доступність файлу
+    -   [posix\_ctermid](function.posix-ctermid.md)— Повертає шлях керуючого терміналу
+    -   [posix\_eaccess](function.posix-eaccess.md)— Визначає доступність файлу
+    -   [posix\_errno](function.posix-errno.md) \- Псевдонім posix\_get\_last\_error
+    -   [posix\_fpathconf](function.posix-fpathconf.md)— Повертає значення обмеження, що настроюється.
+    -   [posix\_get\_last\_error](function.posix-get-last-error.md)— Повертає номер помилки, яка сталася в останній posix функції, що завершилася невдачею
+    -   [posix\_getcwd](function.posix-getcwd.md)— Повертає шлях поточної директорії
+    -   [posix\_getegid](function.posix-getegid.md)— Повертає ефективний ідентифікатор групи поточного процесу EGID
+    -   [posix\_geteuid](function.posix-geteuid.md)— Повертає ефективний ідентифікатор користувача поточного процесу EUID
+    -   [posix\_getgid](function.posix-getgid.md)— Повертає дійсний ID групи поточного процесу GID
+    -   [posix\_getgrgid](function.posix-getgrgid.md)— Повертає інформацію про групу за її ID
+    -   [posix\_getgrnam](function.posix-getgrnam.md)— Повертає інформацію про групу, використовуючи її ім'я
+    -   [posix\_getgroups](function.posix-getgroups.md)— Повертає список груп для поточного процесу
+    -   [posix\_getlogin](function.posix-getlogin.md)— Повертає логін власника процесу
+    -   [posix\_getpgid](function.posix-getpgid.md)— Повертає ID групи поточного процесу для менеджера завдань
+    -   [posix\_getpgrp](function.posix-getpgrp.md)— Повертає ідентифікатор групи поточного процесу
+    -   [posix\_getpid](function.posix-getpid.md)— Повертає ідентифікатор поточного процесу
+    -   [posix\_getppid](function.posix-getppid.md)— Повертає ідентифікатор батьківського процесу
+    -   [posix\_getpwnam](function.posix-getpwnam.md)— Повертає інформацію про користувача на його ім'я
+    -   [posix\_getpwuid](function.posix-getpwuid.md)— Повертає інформацію про користувача, використовуючи його ID
+    -   [posix\_getrlimit](function.posix-getrlimit.md)— Повертає інформацію про обмеження системних ресурсів
+    -   [posix\_getsid](function.posix-getsid.md)— Повертає поточний процес SID
+    -   [posix\_getuid](function.posix-getuid.md)— Повертає фактичний ідентифікатор користувача для поточного процесу UID
+    -   [posix\_initgroups](function.posix-initgroups.md)— Визначає рівень доступу для групи
+    -   [posix\_isatty](function.posix-isatty.md)— Чи визначає файловий дескриптор інтерактивним терміналом
+    -   [posix\_kill](function.posix-kill.md)— Надсилає сигнал відповідному процесу
+    -   [posix\_mkfifo](function.posix-mkfifo.md) \- Створює спеціальний fifo файл (іменований канал-pipe)
+    -   [posix\_mknod](function.posix-mknod.md)— Створює спеціальний або звичайний файл (POSIX.1)
+    -   [posix\_pathconf](function.posix-pathconf.md)— Повертає значення обмеження, що настроюється.
+    -   [posix\_setegid](function.posix-setegid.md)— Встановлює ефективний ідентифікатор групи для поточного процесу EGID
+    -   [posix\_seteuid](function.posix-seteuid.md)— Встановлює ефективний ідентифікатор користувача для поточного процесу EUID
+    -   [posix\_setgid](function.posix-setgid.md)— Встановлює ідентифікатор групи для поточного процесу GID
+    -   [posix\_setpgid](function.posix-setpgid.md) \- Встановлює ідентифікатор групи процесу для менеджера завдань
+    -   [posix\_setrlimit](function.posix-setrlimit.md) \- Встановлює межі системних ресурсів
+    -   [posix\_setsid](function.posix-setsid.md)— Робить поточний процес лідером сесії
+    -   [posix\_setuid](function.posix-setuid.md)— Встановлює UID поточного процесу
+    -   [posix\_strerror](function.posix-strerror.md)— Повертає системне повідомлення про помилку, ґрунтуючись на отриманому номері помилки
+    -   [posix\_sysconf](function.posix-sysconf.md)— Повертає інформацію про систему під час виконання
+    -   [posix\_times](function.posix-times.md)— Повертає інформацію про використання процесорного часу
+    -   [posix\_ttyname](function.posix-ttyname.md) \- Визначає ім'я термінального пристрою
+    -   [posix\_uname](function.posix-uname.md)— Повертає інформацію про систему

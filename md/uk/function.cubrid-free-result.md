@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-fetch.md: « cubridfetch
-  - function.cubrid-get-autocommit.md: cubridgetautocommit »
+  - function.cubrid-fetch.md: « cubrid\_fetch
+  - function.cubrid-get-autocommit.md: cubrid\_get\_autocommit »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridfreeresult
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_free\_result
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridfreeresult
+# cubrid\_free\_result
 
 (PECL CUBRID >= 8.3.0)
 
-cubridfreeresult — Звільняє пам'ять, зайняту даними результату
+cubrid\_free\_result — Звільняє пам'ять, зайняту даними результату
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridfreeresult — Звільняє пам'ять, зайняту даними
 cubrid_free_result(resource $req_identifier): bool
 ```
 
-Функція звільняє пам'ять, зайняту даними результату. Вона повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Варто звернути увагу на те, що функція тепер може лише звільняти буфер вибірки клієнта, і якщо необхідно звільнити всю пам'ять, то потрібно використовувати функцію [cubridcloserequest()](function.cubrid-close-request.md)
+Функція звільняє пам'ять, зайняту даними результату. Вона повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Варто звернути увагу на те, що функція тепер може лише звільняти буфер вибірки клієнта, і якщо необхідно звільнити всю пам'ять, то потрібно використовувати функцію [cubrid\_close\_request()](function.cubrid-close-request.md)
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ cubrid_free_result(resource $req_identifier): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridfreeresult()****
+**Пример #1 Пример использования**cubrid\_free\_result()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(5) {

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::quantizeImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::quantizeImage
 
@@ -15,7 +16,7 @@ Imagick::quantizeImage — Аналізує кольори еталонного 
 ### Опис
 
 ```methodsynopsis
-public Imagick::quantizeImage(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
+public Imagick::quantizeImage(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
 ```
 
 ### Список параметрів
@@ -40,7 +41,7 @@ public Imagick::quantizeImage(    int $numberColors,    int $colorspace,    int 
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::quantizeImage()****
+**Пример #1 Пример использования**Imagick::quantizeImage()\*\*\*\*
 
 ```php
 <?php

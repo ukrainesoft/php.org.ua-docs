@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zmqcontext.md: ZMQContext
 title: 'ZMQContext::getSocket'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZMQContext::getSocket
 
@@ -24,15 +25,15 @@ public ZMQContext::getSocket(int $type, string $persistent_id = null, callable $
 
 `type`
 
-Константа \*\*`ZMQ::SOCKET_*`\*\*задає тип сокету.
+Константа\*\*`ZMQ::SOCKET_*`\*\*задає тип сокету.
 
 `persistent_id`
 
-Якщо встановлено параметр `persistent_id`, то сокет зберігатиметься між запитами.
+Если задан параметр`persistent_id`, то сокет зберігатиметься між запитами.
 
 `on_new_socket`
 
-Callback-функція, яка буде викликана під час створення нової структури сокету. Функція не буде викликана, якщо використовується постійний контекст. Функція приймає як аргументи ZMQSocket і persistentid.
+Callback-функція, яка буде викликана під час створення нової структури сокету. Функція не буде викликана, якщо використовується постійний контекст. Функція приймає як аргументи ZMQSocket і persistent\_id.
 
 ### Значення, що повертаються
 
@@ -40,11 +41,11 @@ Callback-функція, яка буде викликана під час ств
 
 ### Помилки
 
-Викидає **ZMQSocketException** у разі виникнення помилки.
+Викидає **ZMQSocketException**в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ZMQContext()****
+**Пример #1 Пример использования**ZMQContext()\*\*\*\*
 
 Основи
 

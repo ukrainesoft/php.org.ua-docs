@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.xmldiff-dom.md: « XMLDiffDOM
-  - xmldiff-dom.merge.md: 'XMLDiffDOM::merge »'
+  - class.xmldiff-dom.md: « XMLDiff\\DOM
+  - xmldiff-dom.merge.md: 'XMLDiff\\DOM::merge »'
   - index.md: PHP Manual
-  - class.xmldiff-dom.md: XMLDiffDOM
-title: 'XMLDiffDOM::diff'
+  - class.xmldiff-dom.md: XMLDiff\\DOM
+title: 'XMLDiff\\DOM::diff'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# XMLDiffDOM::diff
+# XMLDiff\\DOM::diff
 
 (PECL xmldiff >= 0.8.0)
 
-XMLDiffDOM::diff — Пошук відмінностей у двох об'єктах DOMDocument
+XMLDiff\\DOM::diff — Пошук відмінностей у двох об'єктах DOMDocument
 
 ### Опис
 

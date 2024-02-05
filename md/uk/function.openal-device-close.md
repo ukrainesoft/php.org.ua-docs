@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openal-context-suspend.md: « openalcontextsuspend
-  - function.openal-device-open.md: openaldeviceopen »
+  - function.openal-context-suspend.md: « openal\_context\_suspend
+  - function.openal-device-open.md: openal\_device\_open »
   - index.md: PHP Manual
-  - ref.openal.md: Функции OpenAL
-title: openaldeviceclose
+  - ref.openal.md: Функції OpenAL
+title: openal\_device\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# openaldeviceclose
+# openal\_device\_close
 
 (PECL openal >= 0.1.0)
 
-openaldeviceclose — Закрити пристрій OpenAL
+openal\_device\_close — Закрити пристрій OpenAL
 
 ### Опис
 
@@ -22,12 +23,12 @@ openal_device_close(resource $device): bool
 
 `device`
 
-Ресурс [Open AL(Device)](openal.resources.md) (Створений раніше за допомогою [openaldeviceopen()](function.openal-device-open.md)), який потрібно закрити.
+Ресурс[Open AL(Device)](openal.resources.md) (Створений раніше за допомогою [openal\_device\_open()](function.openal-device-open.md)), який потрібно закрити.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [openaldeviceopen()](function.openal-device-open.md) - Ініціалізувати звуковий рівень OpenAL
+-   [openal\_device\_open()](function.openal-device-open.md) \- Ініціалізувати звуковий рівень OpenAL

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::xinclude'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::xinclude
 
@@ -18,9 +19,9 @@ DOMDocument::xinclude — Вставляє XInclude в об'єкті DOMDocument
 public DOMDocument::xinclude(int $options = 0): int|false
 ```
 
-Цей метод вставляє [» блоки XInclude](http://www.w3.org/TR/xinclude/) в об'єкті класу DOMDocument.
+Цей метод вставляє [» блоки XInclude](http://www.w3.org/TR/xinclude/) в об'єкті класу DOMDocument.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Через те, що libxml2 автоматично дозволяє сутності, виклик цього методу призведе до несподіваних результатів у випадку, коли файл XML містить прикріплену схему DTD.
 
@@ -28,11 +29,11 @@ public DOMDocument::xinclude(int $options = 0): int|false
 
 `options`
 
-[Параметри libxml](libxml.constants.md). Доступно з Libxml 2.6.7.
+[Побітове АБО (`OR`) .](language.operators.bitwise.md) [констант опцій libxml](libxml.constants.md)
 
 ### Значення, що повертаються
 
-Повертає кількість XInclude у документі, -1 якщо при обробці сталася помилка, або **`false`**, якщо не було зроблено жодної заміни.
+Возвращает количество XInclude в документе, -1 если при обработке произошла ошибка, либо\*\*`false`\*\*, якщо не було зроблено жодної заміни.
 
 ### Приклади
 
@@ -72,7 +73,7 @@ echo $dom->saveXML();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 <?xml version="1.0"?>

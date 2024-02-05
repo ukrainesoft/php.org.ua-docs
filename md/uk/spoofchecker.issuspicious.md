@@ -1,10 +1,11 @@
 ---
 navigation:
-  - spoofchecker.construct.md: '« Spoofchecker::construct'
+  - spoofchecker.construct.md: '« Spoofchecker::\_\_construct'
   - spoofchecker.setallowedlocales.md: 'Spoofchecker::setAllowedLocales »'
   - index.md: PHP Manual
   - class.spoofchecker.md: Spoofchecker
 title: 'Spoofchecker::isSuspicious'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Spoofchecker::isSuspicious
 
@@ -36,7 +37,7 @@ public Spoofchecker::isSuspicious(string $string, int &$errorCode = null): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Spoofchecker::isSuspicious()****
+**Пример #1 Пример использования**Spoofchecker::isSuspicious()\*\*\*\*
 
 ```php
 <?php

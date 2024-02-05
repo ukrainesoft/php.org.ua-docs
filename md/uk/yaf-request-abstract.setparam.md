@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.setmodulename.md: '« YafRequestAbstract::setModuleName'
-  - yaf-request-abstract.setrequesturi.md: 'YafRequestAbstract::setRequestUri »'
+  - yaf-request-abstract.setmodulename.md: '« Yaf\_Request\_Abstract::setModuleName'
+  - yaf-request-abstract.setrequesturi.md: 'Yaf\_Request\_Abstract::setRequestUri »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::setParam'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::setParam'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::setParam
+# Yaf\_Request\_Abstract::setParam
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::setParam — Встановлює параметр дзвінка для запиту
+Yaf\_Request\_Abstract::setParam — Встановлює параметр дзвінка для запиту
 
 ### Опис
 
@@ -18,7 +19,7 @@ YafRequestAbstract::setParam — Встановлює параметр дзві�
 public Yaf_Request_Abstract::setParam(string $name, string $value = ?): bool
 ```
 
-Встановлює параметр для запиту, який можна отримати за допомогою [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.md)
+Встановлює параметр для запиту, який можна отримати за допомогою [Yaf\_Request\_Abstract::getParam()](yaf-request-abstract.getparam.md)
 
 ### Список параметрів
 
@@ -30,5 +31,5 @@ public Yaf_Request_Abstract::setParam(string $name, string $value = ?): bool
 
 ### Дивіться також
 
--   [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.md) - Отримує параметр дзвінка
--   [YafRequestAbstract::getParams()](yaf-request-abstract.getparams.md) - Отримує всі параметри дзвінка
+-   [Yaf\_Request\_Abstract::getParam()](yaf-request-abstract.getparam.md) \- Отримує параметр дзвінка
+-   [Yaf\_Request\_Abstract::getParams()](yaf-request-abstract.getparams.md) \- Отримує всі параметри дзвінка

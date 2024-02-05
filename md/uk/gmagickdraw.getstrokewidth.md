@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::getstrokewidth'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GmagickDraw::getstrokewidth
 
@@ -26,4 +27,4 @@ public GmagickDraw::getstrokewidth(): float
 
 ### Значення, що повертаються
 
-Повертає число з плаваючою точкою (double), що описує ширину обведення.
+Повертає число з плаваючою точкою (float), що описує ширину обведення.

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.url.md: Функції URL
 title: rawurlencode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # rawurlencode
 
@@ -18,7 +19,7 @@ rawurlencode — URL-кодування рядка згідно з RFC 3986
 rawurlencode(string $string): string
 ```
 
-Кодує рядок згідно [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+Кодирует строку согласно[» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ URL, який має бути закодований.
 
 ### Значення, що повертаються
 
-Повертає рядок, в якому всі не цифро-літерні символи, крім `-_.~`, повинні бути замінені знаком відсотка (`%`), за яким слідує два шістнадцяткових числа. Це кодування, описане в [» RFC 3986](http://www.faqs.org/rfcs/rfc3986), служить для захисту буквених символів від інтерпретації як спеціальні розмежувачі URL і захищає URL від спотворення при передачі символів з подальшою конвертацією (як у деяких поштових системах).
+Повертає рядок, в якому всі не цифро-літерні символи, крім `-_.~`, повинні бути замінені знаком відсотка (`%`), за яким слідує два шістнадцяткових числа. Це кодування, описане в [» RFC 3986](http://www.faqs.org/rfcs/rfc3986), служить для захисту буквених символів від інтерпретації як спеціальних розмежувачів URL і захищає URL від спотворення під час передачі символів з подальшою конвертацією (як у деяких поштових системах).
 
 ### Приклади
 
@@ -41,7 +42,7 @@ echo '<a href="ftp://user:', rawurlencode('foo @+%/'),
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <a href="ftp://user:foo%20%40%2B%25%2F@ftp.example.com/x.txt">
@@ -49,7 +50,7 @@ echo '<a href="ftp://user:', rawurlencode('foo @+%/'),
 
 Або, якщо ви передаєте інформацію як частину URL:
 
-**Приклад #2 Приклад використання **rawurlencode()****
+**Пример #2 Пример использования**rawurlencode()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ echo '<a href="http://example.com/department_list_script/',
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <a href="http://example.com/department_list_script/sales%20and%20marketing%2FMiami">
@@ -66,7 +67,7 @@ echo '<a href="http://example.com/department_list_script/',
 
 ### Дивіться також
 
--   [rawurldecode()](function.rawurldecode.md) - Декодування URL-кодованого рядка
--   [urldecode()](function.urldecode.md) - Декодування URL-кодованого рядка
--   [urlencode()](function.urlencode.md) - URL-кодування рядка
--   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+-   [rawurldecode()](function.rawurldecode.md) \- Декодування URL-кодованого рядка
+-   [urldecode()](function.urldecode.md) \- Декодування URL-кодованого рядка
+-   [urlencode()](function.urlencode.md) \- URL-кодування рядка
+-   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

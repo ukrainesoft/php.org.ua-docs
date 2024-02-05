@@ -1,35 +1,66 @@
 ---
 navigation:
-  - ref.pdo-firebird.connection.md: « PDOFIREBIRD DSN
-  - ref.pdo-ibm.connection.md: PDOIBM DSN »
+  - ref.pdo-firebird.connection.md: « PDO\_FIREBIRD DSN
+  - ref.pdo-ibm.connection.md: PDO\_IBM DSN »
   - index.md: PHP Manual
   - pdo.drivers.md: Драйвери PDO
-title: Функції IBM (PDOIBM)
+title: Функції IBM (PDO\_IBM)
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Функції IBM (PDOIBM)
+# Функції IBM (PDO\_IBM)
 
 ## Вступ
 
-PDOIBM – це драйвер, що реалізує інтерфейс [PHP Data Objects (PDO)](intro.pdo.md) для надання можливості працювати з базами даних IBM.
+PDO\_IBM - це драйвер, що реалізує інтерфейс [PHP Data Objects (PDO)](intro.pdo.md) для надання можливості працювати з базами даних IBM.
 
-## Встановлення
+## Установка
 
-Для складання модуля PDOIBM у вашій системі має бути встановлений DB2 Client версії v9.1 або вище. DB2 Client можна завантажити з сайту [» сайта разработки приложений IBM](http://www.ibm.com/software/data/db2/ad)
+Для складання модуля PDO\_IBM у вашій системі має бути встановлений DB2 Client версії v9.1 або вище. DB2 Client можна завантажити з сайту [» сайту розробки додатків IBM](http://www.ibm.com/software/data/db2/ad)
 
 > **Зауваження** **Зверніть увагу**
 > 
 > DB2 Client версії v9.1 та вище підтримує прямий доступ до DB2 для Linux, UNIX та Windows Server v8 та v9.1.
 > 
-> Також DB2 Client v9.1 підтримує доступ до серверів DB2 UDB для i5 та DB2 UDB для z/OS, використовуючи окремо куплений [» продукт DB2 Connect](http://www.ibm.com/software/data/db2/db2connect)
+> Також DB2 Client v9.1 підтримує доступ до серверів DB2 UDB для i5 та DB2 UDB для z/OS, використовуючи окремо куплений [» продукт DB2 Connect](http://www.ibm.com/software/data/db2/db2connect)
 
-PDOIBM – це модуль [» PECL](https://pecl.php.net/), так що дотримуйтесь інструкцій [Установка модулей PECL](install.pecl.md) для встановлення цього модуля. Не забудьте вказати команду **configure** розташування заголовних файлів DB2 Client та бібліотек:
+PDO\_IBM – це модуль [» PECL](https://pecl.php.net/), так що дотримуйтесь інструкцій [Встановлення модулів PECL](install.pecl.md)для установки данного модуля. Не забудьте указать команде**configure** розташування заголовних файлів DB2 Client та бібліотек:
 
 ```
 bash$ ./configure --with-pdo-ibm=/path/to/sqllib[,shared]
 ```
 
-Команда **configure** за умовчанням буде використовувати змінну оточення `DB2DIR`
+Команда**configure** За замовчуванням буде використовувати змінну оточення DB2DIR.
+
+## Налаштування під час виконання
+
+Поведінка цих функцій залежить від установок у php.ini.
+
+**Опції налаштування PDO\_IBM**
+
+| Имя | По умолчанию | Место изменения | Список изменений |
+| --- | --- | --- | --- |
+| [pdo\_ibm.i5\_dbcs\_alloc](ref.pdo-ibm.md#ini.pdo-ibm.i5-dbcs-alloc) | "0" | **`INI_SYSTEM`** | Додана до PDO\_IBM 1.5.0 |
+| [pdo\_ibm.i5\_override\_ccsid](ref.pdo-ibm.md#ini.pdo-ibm.i5-override-ccsid) | "0" | **`INI_SYSTEM`** | Додана до PDO\_IBM 1.5.0 |
+
+Додаткова інформація та опис режимів INI\_\* дано у розділі «[Місця встановлення параметрів конфігурації](configuration.changes.modes.md)».
+
+Коротке пояснення конфігураційних директив.
+
+`pdo_ibm.i5_dbcs_alloc`int
+
+Опція впливає на стратегію виділення внутрішнього буфера IBM i. За замовчуванням опція дорівнює 0. Коли опція встановлена, буфери виділяються з набагато більшим розміром, на випадок, якщо база даних вводить в оману щодо розміру символів під час перетворення між кодуванням. Цей параметр споживає у шість разів більше пам'яті для буферів (для врахування максимально можливих послідовностей UTF-8), але може бути потрібна, якщо повертаються усічені дані.
+
+-   0 - Виділяються буфери мінімального розміру.
+    
+-   1 — Виділяються буфери максимального розміру.
+    
+
+`pdo_ibm.i5_override_ccsid`int
+
+Ідентифікатор CCSID у кодуванні ASCII для перетворення з восьмибітного коду EBCDIC в операційній системі IBM i. Якщо встановити значення 1208, буде вибрано кодування UTF-8. За промовчанням це значення дорівнює 0, який вибере CCSID завдання ASCII за промовчанням.
+
+Дізнатися більше про ідентифікатори CCSIDs в операційній системі IBM i можна в «[» документації IBM](https://www.ibm.com/docs/en/i/7.5?topic=information-ccsid-reference)».
 
 ## Зміст
 
--   [PDOIBM DSN](ref.pdo-ibm.connection.md) — З'єднання з базою даних IBM
+-   [PDO\_IBM DSN](ref.pdo-ibm.connection.md)— З'єднання з базою даних IBM

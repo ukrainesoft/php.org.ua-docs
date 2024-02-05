@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.bzip2.md: « Введение
+  - intro.bzip2.md: '" Вступ'
   - bzip2.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.bzip2.md: Bzip2
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

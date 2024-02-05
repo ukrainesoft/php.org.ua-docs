@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.iterator-apply.md: « iteratorapply
-  - function.iterator-to-array.md: iteratorтоarray »
+  - function.iterator-apply.md: « iterator\_apply
+  - function.iterator-to-array.md: iterator\_to\_array »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
-title: iteratorcount
+title: iterator\_count
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# iteratorcount
+# iterator\_count
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-iteratorcount — Підраховує кількість елементів в ітераторі
+iterator\_count — Підраховує кількість елементів в ітераторі
 
 ### Опис
 
 ```methodsynopsis
-iterator_count(Traversable $iterator): int
+iterator_count(Traversable|array $iterator): int
 ```
 
-Підраховує кількість елементів в ітераторі . **iteratorcount()** не гарантує збереження поточної позиції `iterator`
+Підраховує кількість елементів в ітераторі . **iterator\_count()** не гарантує збереження поточної позиції `iterator`
 
 ### Список параметрів
 
@@ -30,9 +31,15 @@ iterator_count(Traversable $iterator): int
 
 Кількість елементів в ітераторі (`iterator`
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип параметра `iterator` був розширений з [Traversable](class.traversable.md)до[Traversable](class.traversable.md) |
+
 ### Приклади
 
-**Приклад #1 Приклад використання **iteratorcount()****
+**Пример #1 Пример использования**iterator\_count()\*\*\*\*
 
 ```php
 <?php
@@ -41,13 +48,13 @@ var_dump(iterator_count($iterator));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(4)
 ```
 
-**Приклад #2 **iteratorcount()** модифікує позицію**
+**Пример #2**iterator\_count()\*\* модифікує позицію\*\*
 
 ```php
 <?php
@@ -58,7 +65,7 @@ var_dump($iterator->current());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(3) "one"
@@ -66,7 +73,7 @@ int(3)
 NULL
 ```
 
-**Приклад #3 **iteratorcount()** у циклі [foreach](control-structures.foreach.md)**
+**Пример #3**iterator\_count()\*\* у циклі [foreach](control-structures.foreach.md)\*\*
 
 ```php
 <?php
@@ -76,7 +83,7 @@ foreach ($iterator as $key => $value) {
 }?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 0: one (3)

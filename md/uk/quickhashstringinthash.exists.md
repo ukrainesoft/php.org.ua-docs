@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashstringinthash.md: QuickHashStringIntHash
 title: 'QuickHashStringIntHash::exists'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashStringIntHash::exists
 
@@ -28,4 +29,4 @@ public QuickHashStringIntHash::exists(string $key): bool
 
 ### Значення, що повертаються
 
-Метод повертає **`true`**, якщо запис було знайдено або **`false`**, якщо запис не знайдено.
+Метод возвращает\*\*`true`\*\*, якщо запис було знайдено або **`false`**, якщо запис не знайдено.

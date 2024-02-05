@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.set.md: '« DsSequence::set'
-  - ds-sequence.slice.md: 'ДсSequence::slice »'
+  - ds-sequence.set.md: '« Ds\\Sequence::set'
+  - ds-sequence.slice.md: 'Ds\\Sequence::slice »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::shift'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::shift'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::shift
+# Ds\\Sequence::shift
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::shift — Видаляє та повертає перше значення
+Ds\\Sequence::shift — Видаляє та повертає перше значення
 
 ### Опис
 
@@ -34,7 +35,7 @@ abstract public Ds\Sequence::shift(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::shift()****
+**Пример #1 Пример использования**Ds\\Sequence::shift()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($sequence->shift());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"

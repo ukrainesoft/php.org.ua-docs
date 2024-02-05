@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecreatetruecolor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecreatetruecolor
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-imagecreatetruecolor — створення нового повнокольорового зображення
+imagecreatetruecolor — Створення нового кольорового зображення
 
 ### Опис
 
@@ -32,13 +33,13 @@ imagecreatetruecolor(int $width, int $height): GdImage|false
 
 ### Значення, що повертаються
 
-Повертає об'єкт зображення у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає об'єкт зображення у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+| 8.0.0 | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 
@@ -56,11 +57,11 @@ imagedestroy($im);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: Створення нового потоку GD зображення та виведення картинки.](images/21009b70229598c6a80eef8b45bf282b-imagecreatetruecolor.png)
 
 ### Дивіться також
 
--   [imagedestroy()](function.imagedestroy.md) - Знищення зображення
--   [imagecreate()](function.imagecreate.md) - Створення нового палітрового зображення
+-   [imagedestroy()](function.imagedestroy.md) \- Знищення зображення
+-   [imagecreate()](function.imagecreate.md) \- Створення нового палітрового зображення

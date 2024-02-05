@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.exception.md: Exception
 title: 'Exception::getLine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Exception::getLine
 
@@ -30,7 +31,7 @@ final public Exception::getLine(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Exception::getLine()****
+**Пример #1 Пример использования**Exception::getLine()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Исключение было создано на строке: 3
@@ -50,4 +51,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getLine()](throwable.getline.md) - Отримує рядок скрипта, в якому цей об'єкт був викинутий
+-   [Throwable::getLine()](throwable.getline.md) \- Отримує рядок скрипта, в якому цей об'єкт був викинутий

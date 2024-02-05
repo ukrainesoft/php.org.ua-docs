@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagesetinterpolation
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagesetinterpolation
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 imagesetinterpolation — Встановлює метод інтерполяції
 
@@ -34,7 +35,7 @@ imagesetinterpolation(GdImage $image, int $method = IMG_BILINEAR_FIXED): bool
 -   **`IMG_BESSEL`**: Фільтр Бесселя.
 -   **`IMG_BICUBIC`**: Бікубічна інтерполяція
 -   **`IMG_BICUBIC_FIXED`**: Фіксована точка реалізації бікубічної інтерполяції
--   **`IMG_BILINEAR_FIXED`**: Реалізація білінійної інтерполяції з фіксованою комою (`по умолчанию (также при создании изображения)`
+-   **`IMG_BILINEAR_FIXED`**: Реалізація білінійної інтерполяції з фіксованою комою (`за умовчанням (також під час створення зображення)`
 -   **`IMG_BLACKMAN`**: Віконна функція Блекмана
 -   **`IMG_BOX`**: Фільтр Коробка розмиття.
 -   **`IMG_BSPLINE`**: Сплайн-інтерполяція.
@@ -54,17 +55,17 @@ imagesetinterpolation(GdImage $image, int $method = IMG_BILINEAR_FIXED): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagesetinterpolation()****
+**Пример #1 Пример использования**imagesetinterpolation()\*\*\*\*
 
 ```php
 <?php
@@ -88,4 +89,4 @@ imagesetinterpolation($im, IMG_MITCHELL);
 
 ### Дивіться також
 
--   [imagegetinterpolation()](function.imagegetinterpolation.md) - Отримує метод інтерполяції
+-   [imagegetinterpolation()](function.imagegetinterpolation.md) \- Отримує метод інтерполяції

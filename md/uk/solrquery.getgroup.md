@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getGroup'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getGroup
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrQuery::getGroup — Повертає true, якщо угруповання увімкнено
 
@@ -28,4 +29,4 @@ public SolrQuery::getGroup(): bool
 
 ### Дивіться також
 
--   [SolrQuery::setGroup()](solrquery.setgroup.md) - Включає/вимикає групування результатів (параметр group)
+-   [SolrQuery::setGroup()](solrquery.setgroup.md) \- Включає/вимикає групування результатів (параметр group)

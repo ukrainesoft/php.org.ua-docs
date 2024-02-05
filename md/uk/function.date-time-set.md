@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.date-sunset.md: « datesunset
-  - function.date-timestamp-get.md: datetimestampget »
+  - function.date-sunset.md: « date\_sunset
+  - function.date-timestamp-get.md: date\_timestamp\_get »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
-title: datetimeset
+title: date\_time\_set
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# datetimeset
+# date\_time\_set
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-datetimeset - Псевдонім [DateTime::setTime()](datetime.settime.md)
+date\_time\_set — Псевдоним[DateTime::setTime()](datetime.settime.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [DateTime::setTime()](datetime.settime.md)
+Функция — псевдоним функции:[DateTime::setTime()](datetime.settime.md)

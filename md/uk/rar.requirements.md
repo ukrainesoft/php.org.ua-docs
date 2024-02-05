@@ -1,10 +1,11 @@
 ---
 navigation:
-  - rar.setup.md: « Встановлення та налаштування
-  - rar.installation.md: Установка »
+  - rar.setup.md: '" Встановлення та налаштування'
+  - rar.installation.md: Встановлення »
   - index.md: PHP Manual
   - rar.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 

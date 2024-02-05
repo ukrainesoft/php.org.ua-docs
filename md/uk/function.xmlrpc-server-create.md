@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xmlrpc-server-call-method.md: « xmlrpcservercallmethod
-  - function.xmlrpc-server-destroy.md: xmlrpcserverdestroy »
+  - function.xmlrpc-server-call-method.md: « xmlrpc\_server\_call\_method
+  - function.xmlrpc-server-destroy.md: xmlrpc\_server\_destroy »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcservercreate
+title: xmlrpc\_server\_create
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcservercreate
+# xmlrpc\_server\_create
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcservercreate — Створює сервер XML-RPC
+xmlrpc\_server\_create — Створює сервер XML-RPC
 
 ### Опис
 
@@ -24,4 +25,4 @@ xmlrpc_server_create(): resource
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

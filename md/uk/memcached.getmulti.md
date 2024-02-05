@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::getMulti'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::getMulti
 
@@ -15,16 +16,16 @@ Memcached::getMulti — Отримує декілька записів
 ### Опис
 
 ```methodsynopsis
-public Memcached::getMulti(array $keys, int $flags = ?): mixed
+public Memcached::getMulti(array $keys, int $get_flags = 0): array|false
 ```
 
-**Memcached::getMulti()** працює аналогічно методу [Memcached::get()](memcached.get.md), але замість одного запису отримує кілька, ключі яких були передані в масиві `keys`
+**Memcached::getMulti()** працює аналогічно методу [Memcached::get()](memcached.get.md), але замість одного запису отримує декілька, ключі яких були передані в масиві `keys`
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> До версії 3.0 використовувався другий аргумент `&cas_tokens`. Він заповнювався значеннями токена CAS для знайдених записів. Параметр `&cas_tokens` було видалено у версії 3.0. Він був замінений на новий прапор. **`Memcached::GET_EXTENDED`**, який вказується у параметрі `flags`
+> До версії 3.0 використовувався другий аргумент `&cas_tokens`. Він заповнювався значеннями токена CAS для знайдених записів. Параметр `&cas_tokens` було видалено у версії 3.0. Він був замінений на новий прапор. **`Memcached::GET_EXTENDED`**, який вказується у параметрі `get_flags`
 
-Параметр `flags` може використовуватися для вказівки додаткових параметрів для методу **Memcached::getMulti()**. На даний момент підтримуються лише наступні налаштування: **`Memcached::GET_PRESERVE_ORDER`** гарантує, що записи будуть повернуті в тому ж порядку, що і були запрошені . **`Memcached::GET_EXTENDED`** веде до того, що також буде вилучено токени CAS.
+Параметр`get_flags` може використовуватися для вказівки додаткових параметрів для методу **Memcached::getMulti()**. На даний момент підтримуються лише наступні налаштування: **`Memcached::GET_PRESERVE_ORDER`** гарантує, що записи будуть повернуті в тому ж порядку, що і були запрошені . **`Memcached::GET_EXTENDED`** веде до того, що також буде вилучено токени CAS.
 
 ### Список параметрів
 
@@ -32,23 +33,23 @@ public Memcached::getMulti(array $keys, int $flags = ?): mixed
 
 Масив ключів для запиту.
 
-`flags`
+`get_flags`
 
 Прапори для отримання записів.
 
 ### Значення, що повертаються
 
-Повертає масив знайдених записів або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
+Повертає масив знайдених записів або \*\*`false`\*\*в случае возникновения ошибки. Используйте при необходимости[Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL memcached 3.0.0 | Видалено параметр `&cas_tokens`. Додано константу **`Memcached::GET_EXTENDED`** для повернення токенів CAS. |
+| PECL memcached 3.0.0 | Видалено параметр `&cas_tokens`. . Додано константу **`Memcached::GET_EXTENDED`** для повернення токенів CAS. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::getMulti()** версії 3**
+**Пример #1 Пример использования**Memcached::getMulti()\*\* версії 3\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ var_dump($result);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {
@@ -79,7 +80,7 @@ array(2) {
 }
 ```
 
-**Приклад #2 Приклад використання **Memcached::getMulti()** версій 1 та 2**
+**Пример #2 Пример использования**Memcached::getMulti()\*\* версій 1 та 2\*\*
 
 ```php
 <?php
@@ -99,7 +100,7 @@ var_dump($result, $cas);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {
@@ -116,7 +117,7 @@ array(2) {
 }
 ```
 
-**Приклад #3 Приклад використання **`Memcached::GET_PRESERVE_ORDER`** з версією 3**
+**Пример #3 Пример использования**`Memcached::GET_PRESERVE_ORDER`\*\* з версією 3\*\*
 
 ```php
 <?php
@@ -145,7 +146,7 @@ foreach ($got as $k => $v) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 foo foo-data
@@ -156,7 +157,7 @@ kek kek-data
 zoo
 ```
 
-**Приклад #4 Приклад використання **`Memcached::GET_PRESERVE_ORDER`** з версією 1 та 2**
+**Пример #4 Пример использования**`Memcached::GET_PRESERVE_ORDER`\*\* з версією 1 та 2\*\*
 
 ```php
 <?php
@@ -186,7 +187,7 @@ foreach ($got as $k => $v) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 foo foo-data
@@ -199,6 +200,6 @@ zoo
 
 ### Дивіться також
 
--   [Memcached::getMultiByKey()](memcached.getmultibykey.md) - Отримує кілька записів із вказаного сервера
--   [Memcached::get()](memcached.get.md) - Отримання запису
--   [Memcached::getDelayed()](memcached.getdelayed.md) - Запитує кілька записів
+-   [Memcached::getMultiByKey()](memcached.getmultibykey.md) \- Отримує кілька записів із вказаного сервера
+-   [Memcached::get()](memcached.get.md) \- Отримання запису
+-   [Memcached::getDelayed()](memcached.getdelayed.md) \- Запитує кілька записів

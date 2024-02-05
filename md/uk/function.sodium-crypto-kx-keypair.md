@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-kx-client-session-keys.md: « sodiumcryptoкксclientsessionkeys
-  - function.sodium-crypto-kx-publickey.md: sodiumcryptoкксpublickey »
+  - function.sodium-crypto-kx-client-session-keys.md: « sodium\_crypto\_kx\_client\_session\_keys
+  - function.sodium-crypto-kx-publickey.md: sodium\_crypto\_kx\_publickey »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoкксkeypair
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_kx\_keypair
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoкксkeypair
+# sodium\_crypto\_kx\_keypair
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoкксkeypair — Створює нову пару ключів.
+sodium\_crypto\_kx\_keypair — Створює нову пару ключів.
 
 ### Опис
 
@@ -18,7 +19,7 @@ sodiumcryptoкксkeypair — Створює нову пару ключів.
 sodium_crypto_kx_keypair(): string
 ```
 
-Створити нову пару ключів sodium, що складається із секретного ключа (32 байти) і наступного за ним відкритого ключа (32 байти). Ключі можна отримати, викликавши [sodiumcryptoкксsecretkey()](function.sodium-crypto-kx-secretkey.md) і [sodiumcryptoкксpublickey()](function.sodium-crypto-kx-publickey.md) відповідно.
+Створити нову пару ключів sodium, що складається із секретного ключа (32 байти) і наступного за ним відкритого ключа (32 байти). Ключі можна отримати, викликавши [sodium\_crypto\_kx\_secretkey()](function.sodium-crypto-kx-secretkey.md) і [sodium\_crypto\_kx\_publickey()](function.sodium-crypto-kx-publickey.md)соответственно.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ sodium_crypto_kx_keypair(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptoкксkeypair()****
+**Пример #1 Пример использования**sodium\_crypto\_kx\_keypair()\*\*\*\*
 
 Створити нову пару ключів та витягти з неї секретний та відкритий ключі.
 
@@ -43,7 +44,7 @@ printf("секретный ключ: %s\nоткрытый ключ: %s", sodium_
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 секретный ключ: e7c5c918fdc40762e6000542c0118f4368ce8fd242b0e48c1e17202797a25daf

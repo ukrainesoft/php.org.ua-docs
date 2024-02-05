@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-randomize-weights.md: « fannrandomizeweights
-  - function.fann-reset-errno.md: fannreseterrno »
+  - function.fann-randomize-weights.md: « fann\_randomize\_weights
+  - function.fann-reset-errno.md: fann\_reset\_errno »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannreadtrainfromfile
+  - ref.fann.md: Функції Fann
+title: fann\_read\_train\_from\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannreadtrainfromfile
+# fann\_read\_train\_from\_file
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannreadtrainfromfile — Читає файл, у якому зберігаються дані навчання
+fann\_read\_train\_from\_file — Читає файл, у якому зберігаються дані навчання
 
 ### Опис
 
@@ -26,17 +27,19 @@ fann_read_train_from_file(string $filename): resource
 
 Вхідний файл у наступному форматі:
 
-numtraindata numinput numoutput вхідні дані, розділені пропуском вихідні дані, розділені пропуском
+num\_train\_data num\_input num\_output вхідні дані, розділені пропуском вихідні дані, розділені пропуском
+
+. . .
 
 вхідні дані, розділені пропуском вихідні дані, розділені пропуском
 
 ### Значення, що повертаються
 
-Повертає ресурс (resource) навчальних даних, або **`false`** у разі виникнення помилки.
+Повертає ресурс (resource) навчальних даних, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **fannreadtrainfromfile()****
+**Пример #1 Пример использования**fann\_read\_train\_from\_file()\*\*\*\*
 
 ```php
 <?php
@@ -49,8 +52,10 @@ if ($train_data) {
 
 Вміст xor.data
 
+4 2 1 -1 -1 -1 -1 1 1 1 -1 1 1 1 -1
+
 ### Дивіться також
 
--   [fanntrainвінdata()](function.fann-train-on-data.md) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fanndestroytrain()](function.fann-destroy-train.md) - Знищує тренувальні дані
--   [fannsavetrain()](function.fann-save-train.md) - Зберігає структуру навчання у файл
+-   [fann\_train\_on\_data()](function.fann-train-on-data.md) \- Навчання на всьому обсязі даних на часовому інтервалі
+-   [fann\_destroy\_train()](function.fann-destroy-train.md) \- Знищує тренувальні дані
+-   [fann\_save\_train()](function.fann-save-train.md) \- Зберігає структуру навчання у файл

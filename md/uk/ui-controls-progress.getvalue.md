@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ui-controls-progress.md: « UIControlsProgress
-  - ui-controls-progress.setvalue.md: 'ОЙControlsProgress::setValue »'
+  - class.ui-controls-progress.md: « UI\\Controls\\Progress
+  - ui-controls-progress.setvalue.md: 'UI\\Controls\\Progress::setValue »'
   - index.md: PHP Manual
-  - class.ui-controls-progress.md: ОЙControlsProgress
-title: 'ОЙControlsProgress::getValue'
+  - class.ui-controls-progress.md: UI\\Controls\\Progress
+title: 'UI\\Controls\\Progress::getValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsProgress::getValue
+# UI\\Controls\\Progress::getValue
 
 (UI 0.9.9)
 
-ОЙControlsProgress::getValue — Отримати значення
+UI\\Controls\\Progress::getValue — Отримати значення
 
 ### Опис
 

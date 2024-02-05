@@ -1,10 +1,11 @@
 ---
 navigation:
-  - bzip2.constants.md: « Обумовлені константи
+  - bzip2.constants.md: « Зумовлені константи
   - ref.bzip2.md: Функції Bzip2 »
   - index.md: PHP Manual
   - book.bzip2.md: Bzip2
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

@@ -3,10 +3,11 @@ navigation:
   - ev.nowupdate.md: '« Ev::nowUpdate'
   - ev.resume.md: 'Ev::resume »'
   - index.md: PHP Manual
-  - class.ev.md: Єв
-title: 'Ev:: recommendedBackends'
+  - class.ev.md: Ev
+title: 'Ev::recommendedBackends'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Ev:: recommendedBackends
+# Ev::recommendedBackends
 
 (PECL ev >= 0.2.0)
 
@@ -21,7 +22,7 @@ final
    Ev::recommendedBackends(): int
 ```
 
-Повертає набір всіх бекендів, вбудованих у використовувану `libev` і, також, рекомендованих для цієї платформи, у тому сенсі, що вони будуть працювати з більшістю типів дескрипторів файлів. Зазвичай цей список менший, ніж той, що повертається **євsupportedbackends()**. Наприклад, `kqueue` не працює на більшості систем `BSD` і не буде автовизначений, якщо ви примусово його не запросите. Це набір бекендів які опитуватиме `libev`якщо бекенд не заданий у явному вигляді.
+Повертає набір всіх бекендів, вбудованих у використовувану `libev` і, також, рекомендованих для цієї платформи, у тому сенсі, що вони будуть працювати з більшістю типів дескрипторів файлів. Зазвичай цей список менший, ніж той, що повертається \*\*ev\_supported\_backends()\*\*К примеру,`kqueue` не працює на більшості систем `BSD` і не буде автовизначений, якщо ви примусово його не запросите. Це набір бекендів які опитуватиме `libev`якщо бекенд не заданий у явному вигляді.
 
 ### Список параметрів
 
@@ -70,7 +71,7 @@ if ($loop_lo) {
 ### Дивіться також
 
 -   [EvEmbed](class.evembed.md)
--   [Ev::embeddableBackends()](ev.embeddablebackends.md) - Повертає набір бекендів, які можна вбудувати в інші цикли подій
--   [Ev::supportedBackends()](ev.supportedbackends.md) - Повертає набір бекендів, які підтримуються поточною конфігурацією libev
+-   [Ev::embeddableBackends()](ev.embeddablebackends.md) \- Повертає набір бекендів, які можна вбудувати в інші цикли подій
+-   [Ev::supportedBackends()](ev.supportedbackends.md) \- Повертає набір бекендів, які підтримуються поточною конфігурацією libev
 -   [Прапори бекенда](class.ev.md#ev.constants.watcher-backends)
 -   [Приклади](ev.examples.md)

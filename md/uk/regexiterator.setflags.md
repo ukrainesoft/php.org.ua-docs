@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::setFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RegexIterator::setFlags
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::setFlags — Установка прапорів
 
@@ -28,11 +29,11 @@ public RegexIterator::setFlags(int $flags): void
 
 Нижче наведено доступні прапори. Сенс та значення прапорів описані в розділі [зумовлених констант](class.regexiterator.md#regexiterator.constants)
 
-**Прапори [RegexIterator](class.regexiterator.md)**
+**Флаги[RegexIterator](class.regexiterator.md)**
 
 | значение | константа |
 | --- | --- |
-|  | [RegexIterator::USEKEY](class.regexiterator.md#regexiterator.constants.use-key) |
+|  | [RegexIterator::USE\_KEY](class.regexiterator.md#regexiterator.constants.use-key) |
 
 ### Значення, що повертаються
 
@@ -40,9 +41,9 @@ public RegexIterator::setFlags(int $flags): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RegexIterator::setFlags()****
+**Пример #1 Пример использования**RegexIterator::setFlags()\*\*\*\*
 
-Створює новий об'єкт-ітератор, який вибирає елементи, ключі яких починаються зі слова '`test`
+Створює новий об'єкт-ітератор, який вибирає елементи, ключі яких починаються зі слова '`test`'.
 
 ```php
 <?php
@@ -58,7 +59,7 @@ foreach ($regexIterator as $key => $value) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 teststr2 => another test
@@ -66,4 +67,4 @@ teststr2 => another test
 
 ### Дивіться також
 
--   [RegexIterator::getFlags()](regexiterator.getflags.md) - Отримання прапорів налаштування
+-   [RegexIterator::getFlags()](regexiterator.getflags.md) \- Отримання прапорів налаштування

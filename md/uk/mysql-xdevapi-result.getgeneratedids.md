@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-result.getautoincrementvalue.md: '« Result::getAutoIncrementValue'
   - mysql-xdevapi-result.getwarnings.md: 'Result::getWarnings »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-result.md: mysqlxdevapiResult
+  - class.mysql-xdevapi-result.md: mysql\_xdevapi\\Result
 title: 'Result::getGeneratedIds'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Result::getGeneratedIds
 
@@ -18,7 +19,7 @@ Result::getGeneratedIds — Отримує згенеровані ідентиф
 public mysql_xdevapi\Result::getGeneratedIds(): array
 ```
 
-Отримує згенеровані значення id з останньої операції. Унікальне поле ID генерується сервером MySQL.
+Отримує згенеровані значення \_id з останньої операції. Унікальне поле \_ID генерується сервером MySQL.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public mysql_xdevapi\Result::getGeneratedIds(): array
 
 ### Значення, що повертаються
 
-Масив згенерованих id з останньої операції чи порожній масив, якщо таких немає.
+Масив згенерованих \_id з останньої операції чи порожній масив, якщо таких немає.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiResult::getGeneratedIds()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Result::getGeneratedIds()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ var_dump($ids);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {

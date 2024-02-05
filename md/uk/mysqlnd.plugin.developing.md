@@ -3,14 +3,15 @@ navigation:
   - mysqlnd.plugin.api.md: « API плагінів mysqlnd
   - book.oci8.md: OCI8 »
   - index.md: PHP Manual
-  - mysqlnd.plugin.md: API для плагинов к встроенному драйверу MySQL
+  - mysqlnd.plugin.md: API для плагінів до вбудованого драйвера MySQL
 title: Розпочинаємо розробку плагіна mysqlnd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Розпочинаємо розробку плагіна mysqlnd
 
 Важливо пам'ятати, що плагін `mysqlnd` сам собою є модулем PHP.
 
-Наступний приклад показує базову структуру функції MINIT, що використовується у типовому плагіні `mysqlnd`
+Наступний приклад показує базову структуру функції MINIT, що використовується у типовому плагіні `mysqlnd` :
 
 ```
 /* my_php_mysqlnd_plugin.c */
@@ -41,7 +42,7 @@ enum_func_status MYSQLND_METHOD(mysqlnd_plugin_conn, connect)(/* ... */) {
 }
 ```
 
-*Аналіз завдання: від C до простору користувача*
+**Аналіз завдання: від C до простору користувача**
 
 ```
 class proxy extends mysqlnd_plugin_connection {
@@ -56,31 +57,31 @@ mysqlnd_plugin_set_conn_proxy(new proxy());
     
 2.  PHP: користувач викликає PHP MySQL API для з'єднання з MySQL
     
-3.  C: ext/mysql викликає метод mysqlnd
+3.  C: ext/\*mysql\*викликає метод mysqlnd
     
-4.  C: mysqlnd обривається в ext/mysqlndplugin
+4.  C: mysqlnd обривається в ext/mysqlnd\_plugin
     
-5.  C: ext/mysqlndplugin
+5.  C: ext/mysqlnd\_plugin
     
     1.  Викликає користувацьку callback-функцію
         
-    2.  Або оригінальний метод `mysqlnd`якщо вона не задана
+    2.  Або оригінальний метод`mysqlnd`якщо вона не задана
         
 
 Вам необхідно виконати такі дії:
 
-1.  Створіть у С клас "mysqlndpluginconnection"
+1.  Створіть клас клас " mysqlnd\_plugin\_connection"
     
-2.  Прийміть та зареєструйте проксі об'єкт за допомогою "mysqlnd"pluginsetconnproxy()"
+2.  Прийміть та зареєструйте проксі об'єкт за допомогою "mysqlnd"\_plugin\_set\_conn\_proxy()"
     
-3.  Викличте проксі методи простору користувача з C (оптимізація - zendinterfaces.h)
+3.  Викличте проксі методи простору користувача з C (оптимізація - zend\_interfaces.h)
     
 
 Методи об'єкта простору користувача мають бути викликані за допомогою `call_user_function()` або на рівень нижче, за допомогою `zend_call_method()`
 
-*Оптимізація: викликайте методи З за допомогою zendcallметод*
+**Оптимізація: викликайте методи З за допомогою zend\_call\_method**
 
-Наступний шмат коду демонструє прототип функції `zend_call_method`взятий з zendinterfaces.h.
+Следующий кусок кода демонстрирует прототип функции`zend_call_method`взятий з zend\_interfaces.h.
 
 ```
 ZEND_API zval* zend_call_method(
@@ -105,7 +106,7 @@ enum_func_status (*func_mysqlnd_conn__connect)(
 
 Для обходу цієї проблеми вам необхідно зробити копію `zend_call_method()` та додати необхідні параметри. Ви можете зробити це створивши набір макросів `MY_ZEND_CALL_METHOD_WRAPPER`
 
-*Звернення до простору користувача PHP*
+**Звернення до простору користувача PHP**
 
 Цей шматок коду демонструє оптимізований метод виклику функцій простору користувача з:
 
@@ -129,7 +130,7 @@ MYSQLND_METHOD(my_conn_class,connect)(
 }
 ```
 
-*Звернення до простору користувача: прості аргументи*
+**Звернення до простору користувача: прості аргументи**
 
 ```
 /* my_mysqlnd_plugin.c */
@@ -150,7 +151,7 @@ MYSQLND_METHOD(my_conn_class,connect)(
 }
 ```
 
-*Звернення до простору користувача: структури як аргументи*
+**Звернення до простору користувача: структури як аргументи**
 
 ```
 /* my_mysqlnd_plugin.c */
@@ -174,7 +175,7 @@ MYSQLND_METHOD(my_conn_class, connect)(
 
 Вказівник на об'єкт з'єднання `mysqlnd` можна порівняти зі стандартним обробником файлового вводу/виводу. Так само як і він, об'єкт з'єднання `mysqlnd` повинен бути пов'язаний із простором користувача з використанням PHP типом "resource".
 
-*З C в простір користувача і назад*
+**З C в простір користувача і назад**
 
 ```
 class proxy extends mysqlnd_plugin_connection {
@@ -199,7 +200,7 @@ mysqlnd_plugin_set_conn_proxy(new proxy());
 
 В результаті успадкування можна "уточнити" лише вибрані методи і ви можете вибрати, коли виконувати ваш код, до або після батьківського.
 
-*Вбудований клас: mysqlndpluginconnection::connect()*
+**Вбудований клас: mysqlnd\_plugin\_connection::connect()**
 
 ```
 /*  my_mysqlnd_plugin_classes.c */

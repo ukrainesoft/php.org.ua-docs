@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-multi-strerror.md: « curlmultistrerror
-  - function.curl-reset.md: curlreset »
+  - function.curl-multi-strerror.md: « curl\_multi\_strerror
+  - function.curl-reset.md: curl\_reset »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlpause
+  - ref.curl.md: Опції cURL
+title: curl\_pause
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlpause
+# curl\_pause
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-curlpause — Зупинити та відновити з'єднання
+curl\_pause — Зупинити та відновити з'єднання
 
 ### Опис
 
@@ -18,19 +19,17 @@ curlpause — Зупинити та відновити з'єднання
 curl_pause(CurlHandle $handle, int $flags): int
 ```
 
-**Увага**
-
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Припиняє або знімає з паузи сесію cURL. Сесія може бути припинена під час виконання передачі даних у напрямку читання, запису або в обох напрямках шляхом виклику цієї функції з callback-функції, зареєстрованої за допомогою [curl\_setopt()](function.curl-setopt.md)
 
 ### Список параметрів
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
+Дескриптор cURL, отриманий з [curl\_init()](function.curl-init.md)
 
 `flags`
 
-Одна з констант **`CURLPAUSE_*`**
+Одна из констант\*\*`CURLPAUSE_*`\*\*
 
 ### Значення, що повертаються
 
@@ -38,6 +37,6 @@ curl_pause(CurlHandle $handle, int $flags): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| 8.0.0 | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |

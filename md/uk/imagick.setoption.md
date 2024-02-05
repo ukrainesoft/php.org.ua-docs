@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setOption'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setOption
 
@@ -48,7 +49,7 @@ public Imagick::setOption(string $key, string $value): bool
 ?>
 ```
 
-**Приклад #2 Приклад використання **Imagick::setOption()****
+**Пример #2 Пример использования**Imagick::setOption()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ public Imagick::setOption(string $key, string $value): bool
 ?>
 ```
 
-**Приклад #3 Приклад використання **Imagick::setOption()****
+**Пример #3 Пример использования**Imagick::setOption()\*\*\*\*
 
 ```php
 <?php

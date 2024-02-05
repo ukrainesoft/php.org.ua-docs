@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ssh2-disconnect.md: « ssh2disconnect
-  - function.ssh2-fetch-stream.md: ssh2fetchstream »
+  - function.ssh2-disconnect.md: « ssh2\_disconnect
+  - function.ssh2-fetch-stream.md: ssh2\_fetch\_stream »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2exec
+title: ssh2\_exec
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2exec
+# ssh2\_exec
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2exec — Виконання команди на віддаленому сервері
+ssh2\_exec — Виконання команди на віддаленому сервері
 
 ### Опис
 
 ```methodsynopsis
-ssh2_exec(    resource $session,    string $command,    string $pty = ?,    array $env = ?,    int $width = 80,    int $height = 25,    int $width_height_type = SSH2_TERM_UNIT_CHARS): resource|false
+ssh2_exec(    resource $session,    string $command,    string $pty = ?,    array $env = ?,    int $width = 80,    int $height = 25,    int $width_height_type = SSH2_TERM_UNIT_CHARS): resource|false
 ```
 
 Запуск команди на віддаленому сервері та виділення для неї каналу.
@@ -24,7 +25,7 @@ ssh2_exec(    resource $session,    string $command,    string $pty = ?,    arra
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.md)
 
 `command`
 
@@ -44,11 +45,11 @@ ssh2_exec(    resource $session,    string $command,    string $pty = ?,    arra
 
 `width_height_type`
 
-`width_height_type` повинен бути **`SSH2_TERM_UNIT_CHARS`** або **`SSH2_TERM_UNIT_PIXELS`**
+`width_height_type` повинен бути **`SSH2_TERM_UNIT_CHARS`**или**`SSH2_TERM_UNIT_PIXELS`**
 
 ### Значення, що повертаються
 
-Повертає потік у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає потік у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -65,6 +66,6 @@ $stream = ssh2_exec($connection, '/usr/local/bin/php -i');
 
 ### Дивіться також
 
--   [ssh2connect()](function.ssh2-connect.md) - Підключення до SSH-сервера
--   [ssh2shell()](function.ssh2-shell.md) - запитує інтерактивний термінал
--   [ssh2tunnel()](function.ssh2-tunnel.md) - Відкрити тунель через віддалений сервер
+-   [ssh2\_connect()](function.ssh2-connect.md) \- Підключення до SSH-сервера
+-   [ssh2\_shell()](function.ssh2-shell.md) \- запитує інтерактивний термінал
+-   [ssh2\_tunnel()](function.ssh2-tunnel.md) \- Відкрити тунель через віддалений сервер

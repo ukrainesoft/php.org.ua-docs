@@ -3,8 +3,9 @@ navigation:
   - function.gregoriantojd.md: « gregoriantojd
   - function.jdmonthname.md: jdmonthname »
   - index.md: PHP Manual
-  - ref.calendar.md: Календарь
+  - ref.calendar.md: Календар
 title: jddayofweek
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # jddayofweek
 

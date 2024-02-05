@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - spl.interfaces.md: Інтерфейси
 title: Інтерфейс OuterIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс OuterIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,16 +19,11 @@ title: Інтерфейс OuterIterator
 
 ```classsynopsis
 
-     
     
+     interface OuterIterator
 
-    
-     
-      interface OuterIterator
-      extends
-       Iterator
-     
-     {
+    extends
+      Iterator {
 
     /* Методы */
     
@@ -46,4 +42,4 @@ public Iterator::valid(): bool
 
 ## Зміст
 
--   [OuterIterator::getInnerIterator](outeriterator.getinneriterator.md) — Повертає внутрішній ітератор для поточного елемента
+-   [OuterIterator::getInnerIterator](outeriterator.getinneriterator.md)— Повертає внутрішній ітератор для поточного елемента

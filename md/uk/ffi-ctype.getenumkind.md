@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ffi-ctype.getattributes.md: '« FFICType::getAttributes'
-  - ffi-ctype.getfuncabi.md: 'FFICType::getFuncABI »'
+  - ffi-ctype.getattributes.md: '« FFI\\CType::getAttributes'
+  - ffi-ctype.getfuncabi.md: 'FFI\\CType::getFuncABI »'
   - index.md: PHP Manual
-  - class.ffi-ctype.md: FFICType
-title: 'FFICType::getEnumKind'
+  - class.ffi-ctype.md: FFI\\CType
+title: 'FFI\\CType::getEnumKind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# FFICType::getEnumKind
+# FFI\\CType::getEnumKind
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-FFICType::getEnumKind — Опис
+FFI\\CType::getEnumKind — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public FFI\CType::getEnumKind(): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,10 +1,11 @@
 ---
 navigation:
   - function.rpmdbinfo.md: « rpmdbinfo
-  - function.rpminfo.md: rpminfo »
+  - function.rpmgetsymlink.md: rpmgetsymlink »
   - index.md: PHP Manual
   - ref.rpminfo.md: Функції RpmInfo
 title: rpmdbsearch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # rpmdbsearch
 
@@ -15,7 +16,7 @@ rpmdbsearch — Пошук RPM-пакетів
 ### Опис
 
 ```methodsynopsis
-rpmdbsearch(    string $pattern,    int $rpmtag = RPMTAG_NAME,    int $rpmmire = -1,    bool $full = false): array
+rpmdbsearch(    string $pattern,    int $rpmtag = RPMTAG_NAME,    int $rpmmire = -1,    bool $full = false): ?array
 ```
 
 Пошук пакетів у системній базі даних RPM.
@@ -28,15 +29,15 @@ rpmdbsearch(    string $pattern,    int $rpmtag = RPMTAG_NAME,    int $rpmmire =
 
 `rpmtag`
 
-Критерій пошуку. Одна з констант RPMTAG, дивіться [константи rpminfo](rpminfo.constants.md)
+Критерій пошуку. Одна з констант RPMTAG\_\*, смотрите[константи rpminfo](rpminfo.constants.md)
 
 `rpmmire`
 
-Тип шаблону. Одна з констант RPMMIRE, дивіться [константи rpminfo](rpminfo.constants.md). Якщо менше 0, то критерій повинен дорівнювати значенню і по можливості буде використаний індекс бази даних.
+Тип шаблону. Одна з констант RPMMIRE\_\*, смотрите[константи rpminfo](rpminfo.constants.md). Якщо менше 0, то критерій повинен дорівнювати значенню і по можливості буде використаний індекс бази даних.
 
 `full`
 
-Якщо **`true`**, то для файлу буде вилучено всі заголовки. Інакше буде вилучено мінімальний набір.
+Якщо **`true`**, для файлу будуть вилучені всі заголовки. Інакше буде вилучено мінімальний набір.
 
 ### Значення, що повертаються
 
@@ -53,7 +54,7 @@ print_r($info);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -72,4 +73,4 @@ Array
 
 ### Дивіться також
 
--   [rpmaddtag()](function.rpmaddtag.md) - Додає тег, отриманий у запиті
+-   [rpmaddtag()](function.rpmaddtag.md) \- Додає тег, отриманий у запиті

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - imagickpixel.construct.md: '« ImagickPixel::construct'
+  - imagickpixel.construct.md: '« ImagickPixel::\_\_construct'
   - imagickpixel.getcolor.md: 'ImagickPixel::getColor »'
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::destroy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::destroy
 
@@ -20,7 +21,7 @@ public ImagickPixel::destroy(): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Звільняє всі ресурси, що використовуються об'єктом ImagickPixel, і видаляють всі пов'язані з ним кольори. Об'єкт не слід використовувати після його знищення.
 

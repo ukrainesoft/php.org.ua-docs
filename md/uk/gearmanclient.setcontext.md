@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::setContext'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::setContext
 
@@ -15,14 +16,14 @@ GearmanClient::setContext — Встановити контекст програ
 ### Опис
 
 ```methodsynopsis
-public GearmanClient::setContext(string $context): bool
+public GearmanClient::setContext(string $data): bool
 ```
 
 Встановлює довільний рядок для надання контексту програми, яка може бути пізніше отримана за допомогою [GearmanClient::context()](gearmanclient.context.md)
 
 ### Список параметрів
 
-`context`
+`data`
 
 Довільні дані контексту
 
@@ -32,4 +33,4 @@ public GearmanClient::setContext(string $context): bool
 
 ### Дивіться також
 
--   [GearmanClient::context()](gearmanclient.context.md) - Повертає контекст програми
+-   [GearmanClient::context()](gearmanclient.context.md) \- Повертає контекст програми

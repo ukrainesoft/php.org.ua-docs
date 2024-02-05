@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - history.md: Історія PHP та суміжних проектів
 title: Книги про PHP
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Книги про PHP
 

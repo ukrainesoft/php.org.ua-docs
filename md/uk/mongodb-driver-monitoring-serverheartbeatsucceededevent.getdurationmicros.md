@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: « MongoDBDriverMonitoringServerHeartbeatSucceededEvent
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.md: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getHost »'
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: « MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.md: 'MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getHost »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
-title: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros'
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent
+title: 'MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getDurationMicros'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros
+# MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getDurationMicros
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros — Повертає тривалість heartbeat у мікросекундах
+MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent::getDurationMicros — Повертає тривалість heartbeat у мікросекундах
 
 ### Опис
 
@@ -30,4 +31,4 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getDuratio
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

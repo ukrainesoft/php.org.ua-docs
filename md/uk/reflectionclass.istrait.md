@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isTrait'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::isTrait
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 ReflectionClass::isTrait — Перевіряє, чи це трейт.
 
@@ -18,9 +19,7 @@ ReflectionClass::isTrait — Перевіряє, чи це трейт.
 public ReflectionClass::isTrait(): bool
 ```
 
-**Увага**
-
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Перевіряє, чи належить цей [ReflectionClass](class.reflectionclass.md)к трейту.
 
 ### Список параметрів
 
@@ -28,4 +27,4 @@ public ReflectionClass::isTrait(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо це є трейтом, інакше **`false`**. У разі виникнення помилки повертає **`null`**
+Повертає **`true`**, якщо це є трейтом, інакше **`false`**

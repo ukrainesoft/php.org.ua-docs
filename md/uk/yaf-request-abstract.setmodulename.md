@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.setdispatched.md: '« YafRequestAbstract::setDispatched'
-  - yaf-request-abstract.setparam.md: 'YafRequestAbstract::setParam »'
+  - yaf-request-abstract.setdispatched.md: '« Yaf\_Request\_Abstract::setDispatched'
+  - yaf-request-abstract.setparam.md: 'Yaf\_Request\_Abstract::setParam »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::setModuleName'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::setModuleName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::setModuleName
+# Yaf\_Request\_Abstract::setModuleName
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::setModuleName — Встановлює ім'я модуля
+Yaf\_Request\_Abstract::setModuleName — Встановлює ім'я модуля
 
 ### Опис
 
@@ -24,10 +25,10 @@ public Yaf_Request_Abstract::setModuleName(string $module, bool $format_name = t
 
 `module`
 
-string ім'я модуля, має бути в CamelCase, наприклад, "Index" або "FooBar"
+string ім'я модуля, має бути в CamelCase, наприклад, "Index" або "Foo\_Bar"
 
 `format_name`
 
-Додано в Yaf 3.2.0, за умовчанням Yaf відформатує ім'я CamelCase, якщо для нього встановлено значення **`false`**, Yaf встановить оригінальне ім'я на запит.
+Добавлено в Yaf 3.2.0, по умолчанию Yaf отформатирует имя в CamelCase, если для него установлено значение\*\*`false`\*\*, Yaf встановить оригінальне ім'я на запит.
 
 ### Значення, що повертаються

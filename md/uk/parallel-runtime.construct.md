@@ -1,22 +1,25 @@
 ---
 navigation:
-  - class.parallel-runtime.md: « parallelRuntime
-  - parallel-runtime.run.md: 'parallelRuntime::run »'
+  - class.parallel-runtime.md: « parallel\\Runtime
+  - parallel-runtime.run.md: 'parallel\\Runtime::run »'
   - index.md: PHP Manual
-  - class.parallel-runtime.md: parallelRuntime
-title: 'parallelRuntime::construct'
+  - class.parallel-runtime.md: parallel\\Runtime
+title: 'parallel\\Runtime::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelRuntime::construct
+# parallel\\Runtime::\_\_construct
 
-parallelRuntime::construct - Конструктор класу Runtime
+(0.8.0)
+
+parallel\\Runtime::\_\_construct - Конструктор класу Runtime
 
 ### Опис
 
-public **parallelRuntime::construct**
+public**parallel\\Runtime::\_\_construct**()
 
 Створює нове виконання без початкового завантаження.
 
-public **parallelRuntime::construct**(string `$bootstrap`
+public**parallel\\Runtime::\_\_construct**(string`$bootstrap`) .
 
 Створює нове середовище виконання з початковим завантаженням.
 
@@ -30,8 +33,8 @@ public **parallelRuntime::construct**(string `$bootstrap`
 
 **Увага**
 
-Викидає parallelRuntimeError, якщо потік не може бути створений.
+Викидає parallel\\Runtime\\Error, якщо потік не може бути створений.
 
 **Увага**
 
-Викидає parallelRuntimeBootstrap, якщо початкове завантаження завершилося з помилкою.
+Викидає parallel\\Runtime\\Bootstrap, якщо початкове завантаження завершилося з помилкою.

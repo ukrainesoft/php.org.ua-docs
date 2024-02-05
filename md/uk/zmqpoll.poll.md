@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.zmqpoll.md: ZMQPoll
 title: 'ZMQPoll::poll'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZMQPoll::poll
 
 (PECL zmq >= 0.5.0)
 
-ZMQPoll::poll — Опитати всі елементи пула
+ZMQPoll::poll — Опитати всі елементи пулу
 
 ### Опис
 
@@ -18,7 +19,7 @@ ZMQPoll::poll — Опитати всі елементи пула
 public ZMQPoll::poll(array &$readable, array &$writable, int $timeout = -1): int
 ```
 
-Опитує всі елементи пулу. Читані та записувані елементи містяться у параметрах `readable` і `writable` відповідно. Для перевірки помилок використовуйте метод [ZMQPoll::getLastErrors()](zmqpoll.getlasterrors.md)
+Опитує всі елементи пулу. Читані та записувані елементи містяться у параметрах `readable`и`writable` відповідно. Для перевірки помилок використовуйте метод [ZMQPoll::getLastErrors()](zmqpoll.getlasterrors.md)
 
 ### Список параметрів
 
@@ -40,11 +41,11 @@ public ZMQPoll::poll(array &$readable, array &$writable, int $timeout = -1): int
 
 ### Помилки
 
-Викидає **ZMQPollException** у разі виникнення помилки.
+Викидає **ZMQPollException**в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ZMQPoll()****
+**Пример #1 Пример использования**ZMQPoll()\*\*\*\*
 
 Створимо простий сервер опитування
 
@@ -65,7 +66,7 @@ $poll = new ZMQPoll();
 $id = $poll->add($server, ZMQ::POLL_IN | ZMQ::POLL_OUT);
 echo "Added object with id " . $id . "\n";
 
-/* Инициализируем Масив читаемых и записываемых элементов */
+/* Инициализируем массив читаемых и записываемых элементов */
 $readable = array();
 $writable = array();
 

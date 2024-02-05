@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-share-close.md: « curlshareclose
-  - function.curl-share-init.md: curlshareinit »
+  - function.curl-share-close.md: « curl\_share\_close
+  - function.curl-share-init.md: curl\_share\_init »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlshareerrno
+  - ref.curl.md: Опції cURL
+title: curl\_share\_errno
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlshareerrno
+# curl\_share\_errno
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
-curlshareerrno — Повертає код останньої помилки оброблюваного обробника curl
+curl\_share\_errno — Повертає код останньої помилки оброблюваного обробника curl
 
 ### Опис
 
@@ -24,19 +25,19 @@ curl_share_errno(CurlShareHandle $share_handle): int
 
 `share_handle`
 
-Обробник cURL, що розділяється, повертається [curlshareinit()](function.curl-share-init.md)
+Обробник, що розділяється cURL, повертається [curl\_share\_init()](function.curl-share-init.md)
 
 ### Значення, що повертаються
 
-Повертає код останньої помилки curl, що розділяється, у вигляді цілого числа або **`false`** у разі виникнення помилки.
+Повертає код останньої помилки оброблюваного curl, що розділяється, у вигляді цілого числа.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функція більше не повертає **`false`** у разі виникнення помилки. |
-|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.md) instance now; Попередньо, як ресурс був виявлений. |
+| 8.0.0 | Функція більше не повертає \*\*`false`\*\*в случае возникновения ошибки. |
+| 8.0.0 | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.md) instance now; previously, a resource was expected. |
 
 ### Дивіться також
 
--   [curlerrno()](function.curl-errno.md) - Повертає код останньої помилки
+-   [curl\_errno()](function.curl-errno.md) \- Повертає код останньої помилки

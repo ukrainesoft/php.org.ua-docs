@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-sign-keypair.md: « sodiumcryptosignkeypair
-  - function.sodium-crypto-sign-publickey-from-secretkey.md: sodiumcryptosignpublickeyfromsecretkey »
+  - function.sodium-crypto-sign-keypair.md: « sodium\_crypto\_sign\_keypair
+  - function.sodium-crypto-sign-publickey-from-secretkey.md: sodium\_crypto\_sign\_publickey\_from\_secretkey »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptosignopen
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_sign\_open
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptosignopen
+# sodium\_crypto\_sign\_open
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptosignopen — Перевірити, чи підписане повідомлення має коректний підпис
+sodium\_crypto\_sign\_open — Перевірити, чи підписане повідомлення має коректний підпис
 
 ### Опис
 
@@ -24,7 +25,7 @@ sodium_crypto_sign_open(string $signed_message, string $public_key): string|fals
 
 `signed_message`
 
-Повідомлення, підписане [sodiumcryptosign()](function.sodium-crypto-sign.md)
+Сообщение, подписанное[sodium\_crypto\_sign()](function.sodium-crypto-sign.md)
 
 `public_key`
 
@@ -32,4 +33,4 @@ sodium_crypto_sign_open(string $signed_message, string $public_key): string|fals
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає вихідне підписане повідомлення або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає вихідне підписане повідомлення або \*\*`false`\*\*в случае возникновения ошибки.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-dbpointer.jsonserialize.md: '« MongoDBBSONDBPointer::jsonSerialize'
-  - mongodb-bson-dbpointer.tostring.md: 'MongoDBBSONDBPointer::toString »'
+  - mongodb-bson-dbpointer.jsonserialize.md: '« MongoDB\\BSON\\DBPointer::jsonSerialize'
+  - mongodb-bson-dbpointer.tostring.md: 'MongoDB\\BSON\\DBPointer::\_\_toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-dbpointer.md: MongoDBBSONDBPointer
-title: 'MongoDBBSONDBPointer::serialize'
+  - class.mongodb-bson-dbpointer.md: MongoDB\\BSON\\DBPointer
+title: 'MongoDB\\BSON\\DBPointer::serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONDBPointer::serialize
+# MongoDB\\BSON\\DBPointer::serialize
 
 (mongodb >=1.4.0)
 
-MongoDBBSONDBPointer::serialize — Серіалізує DBPointer
+MongoDB\\BSON\\DBPointer::serialize — Серіалізує DBPointer
 
 ### Опис
 
@@ -24,14 +25,14 @@ final public MongoDB\BSON\DBPointer::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.md)
+Возвращает сериализованное представление[MongoDB\\BSON\\DBPointer](class.mongodb-bson-dbpointer.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONDBPointer::unserialize()](mongodb-bson-dbpointer.unserialize.md) - Десеріалізує DBPointer
--   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [MongoDB\\BSON\\DBPointer::unserialize()](mongodb-bson-dbpointer.unserialize.md) \- Десеріалізує DBPointer
+-   [serialize()](function.serialize.md) \- Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

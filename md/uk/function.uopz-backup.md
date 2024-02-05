@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.uopz-allow-exit.md: « uopzallowexit
-  - function.uopz-compose.md: uopzcompose »
+  - function.uopz-allow-exit.md: « uopz\_allow\_exit
+  - function.uopz-compose.md: uopz\_compose »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzbackup
+title: uopz\_backup
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzbackup
+# uopz\_backup
 
-(PECL uopz 1> = 1.0.3, PECL uopz 2)
+(PECL uopz 1 >= 1.0.3, PECL uopz 2)
 
-uopzbackup - Резервує функцію
+uopz\_backup - Резервує функцію
 
 **Увага**
 
-Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО*в PECL uopz 5.0.0.
 
 ### Опис
 
@@ -42,7 +43,7 @@ uopz_backup(string $class, string $function): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzbackup()****
+**Пример #1 Пример использования**uopz\_backup()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ var_dump(fgets());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)

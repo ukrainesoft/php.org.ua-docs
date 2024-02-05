@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplDoublyLinkedList::serialize
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SplDoublyLinkedList::serialize — Серіалізує сховище
 
@@ -22,7 +23,7 @@ public SplDoublyLinkedList::serialize(): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,4 +35,4 @@ public SplDoublyLinkedList::serialize(): string
 
 ### Дивіться також
 
--   [SplDoublyLinkedList::unserialize()](spldoublylinkedlist.unserialize.md) - десеріалізує сховище
+-   [SplDoublyLinkedList::unserialize()](spldoublylinkedlist.unserialize.md) \- десеріалізує сховище

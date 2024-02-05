@@ -1,26 +1,27 @@
 ---
 navigation:
-  - class.commonmark-node-heading.md: « CommonMarkNodeHeading
-  - class.commonmark-node-paragraph.md: CommonMarkNodeParagraph »
+  - class.commonmark-node-heading.md: « CommonMark\\Node\\Heading
+  - class.commonmark-node-paragraph.md: CommonMark\\Node\\Paragraph »
   - index.md: PHP Manual
-  - class.commonmark-node-heading.md: CommonMarkNodeHeading
-title: 'CommonMarkNodeHeading::construct'
+  - class.commonmark-node-heading.md: CommonMark\\Node\\Heading
+title: 'CommonMark\\Node\\Heading::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkNodeHeading::construct
+# CommonMark\\Node\\Heading::\_\_construct
 
 (cmark >= 1.0.0)
 
-CommonMarkNodeHeading::construct - Конструктор класу Heading
+CommonMark\\Node\\Heading::\_\_construct - Конструктор класу Heading
 
 ### Опис
 
-public **CommonMarkNodeHeading::construct**
+public**CommonMark\\Node\\Heading::\_\_construct**()
 
-public **CommonMarkNodeHeading::construct**(int `$level`
+public**CommonMark\\Node\\Heading::\_\_construct**(int`$level`) .
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

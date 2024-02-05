@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::raiseImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::raiseImage
 
@@ -15,10 +16,10 @@ Imagick::raiseImage — Створює імітацію ефекту 3D-кноп
 ### Опис
 
 ```methodsynopsis
-public Imagick::raiseImage(    int $width,    int $height,    int $x,    int $y,    bool $raise): bool
+public Imagick::raiseImage(    int $width,    int $height,    int $x,    int $y,    bool $raise): bool
 ```
 
-Створює імітацію тривимірного ефекту кнопки, освітлюючи та затемнюючи краї зображення. Ширина та висота елементів raiseinfo визначають ширину вертикального та горизонтального краю ефекту.
+Створює імітацію тривимірного ефекту кнопки, освітлюючи та затемнюючи краї зображення. Ширина та висота елементів raise\_info визначають ширину вертикального та горизонтального краю ефекту.
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ public Imagick::raiseImage(    int $width,    int $height,    int $x,    int $y,
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::raiseImage()****
+**Пример #1 Пример использования**Imagick::raiseImage()\*\*\*\*
 
 ```php
 <?php

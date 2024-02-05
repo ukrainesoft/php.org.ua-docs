@@ -1,26 +1,27 @@
 ---
 navigation:
-  - class.ui-controls-grid.md: « UIControlsGrid
-  - ui-controls-grid.ispadded.md: 'ОЙControlsGrid::isPadded »'
+  - class.ui-controls-grid.md: « UI\\Controls\\Grid
+  - ui-controls-grid.ispadded.md: 'UI\\Controls\\Grid::isPadded »'
   - index.md: PHP Manual
-  - class.ui-controls-grid.md: ОЙControlsGrid
-title: 'ОЙControlsGrid::append'
+  - class.ui-controls-grid.md: UI\\Controls\\Grid
+title: 'UI\\Controls\\Grid::append'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsGrid::append
+# UI\\Controls\\Grid::append
 
 (UI 0.9.9)
 
-ОЙControlsGrid::append — Додати елемент керування
+UI\\Controls\\Grid::append — Додати елемент керування
 
 ### Опис
 
 ```methodsynopsis
-public UI\Controls\Grid::append(    UI\Control $control,    int $left,    int $top,    int $xspan,    int $yspan,    bool $hexpand,    int $halign,    bool $vexpand,    int $valign)
+public UI\Controls\Grid::append(    UI\Control $control,    int $left,    int $top,    int $xspan,    int $yspan,    bool $hexpand,    int $halign,    bool $vexpand,    int $valign)
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

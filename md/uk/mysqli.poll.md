@@ -5,32 +5,33 @@ navigation:
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::poll'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # mysqli::poll
 
-# mysqlipoll
+# mysqli\_poll
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-mysqli::poll -- mysqlipoll — Опитування підключень
+mysqli::poll -- mysqli\_poll — Опитування підключень
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public static mysqli::poll(    ?array &$read,    ?array &$error,    array &$reject,    int $seconds,    int $microseconds = 0): int|false
+public static mysqli::poll(    ?array &$read,    ?array &$error,    array &$reject,    int $seconds,    int $microseconds = 0): int|false
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-mysqli_poll(    ?array &$read,    ?array &$error,    array &$reject,    int $seconds,    int $microseconds = 0): int|false
+mysqli_poll(    ?array &$read,    ?array &$error,    array &$reject,    int $seconds,    int $microseconds = 0): int|false
 ```
 
 Опитування підключень. Метод може використовуватись як [статичний](language.oop5.static.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступно лише з модулем [mysqlnd](book.mysqlnd.md)
 
@@ -58,11 +59,11 @@ mysqli_poll(    ?array &$read,    ?array &$error,    array &$reject,    int $sec
 
 ### Значення, що повертаються
 
-Повертає кількість готових до роботи з'єднань у разі успішного виконання, **`false`** у разі невдачі.
+Повертає кількість готових до роботи з'єднань у разі успішного виконання, \*\*`false`\*\*в случае неудачи.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlipoll()****
+**Пример #1 Пример использования**mysqli\_poll()\*\*\*\*
 
 ```php
 <?php
@@ -90,7 +91,7 @@ do {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -101,5 +102,5 @@ Array
 
 ### Дивіться також
 
--   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
--   [mysqlireapasyncquery()](mysqli.reap-async-query.md) - Отримання результату асинхронного запиту
+-   [mysqli\_query()](mysqli.query.md) \- Виконує запит до бази даних
+-   [mysqli\_reap\_async\_query()](mysqli.reap-async-query.md) \- Отримання результату асинхронного запиту

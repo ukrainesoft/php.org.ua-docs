@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-http.getpost.md: '« YafRequestHttp::getPost'
-  - yaf-request-http.getraw.md: 'YafRequestHttp::getRaw »'
+  - yaf-request-http.getpost.md: '« Yaf\_Request\_Http::getPost'
+  - yaf-request-http.getraw.md: 'Yaf\_Request\_Http::getRaw »'
   - index.md: PHP Manual
-  - class.yaf-request-http.md: YafRequestHttp
-title: 'YafRequestHttp::getQuery'
+  - class.yaf-request-http.md: Yaf\_Request\_Http
+title: 'Yaf\_Request\_Http::getQuery'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestHttp::getQuery
+# Yaf\_Request\_Http::getQuery
 
 (Yaf >=1.0.0)
 
-YafRequestHttp::getQuery — Отримує параметр запиту
+Yaf\_Request\_Http::getQuery — Отримує параметр запиту
 
 ### Опис
 
@@ -34,9 +35,9 @@ public Yaf_Request_Http::getQuery(string $name, string $default = ?): mixed
 
 ### Дивіться також
 
--   [YafRequestHttp::get()](yaf-request-http.get.md) - Отримує змінну від клієнта
--   [YafRequestHttp::getPost()](yaf-request-http.getpost.md) - Отримує змінну POST
--   [YafRequestHttp::getCookie()](yaf-request-http.getcookie.md) - Отримує змінну Cookie
--   [YafRequestHttp::getRaw()](yaf-request-http.getraw.md) - Отримує необроблене тіло запиту
--   [YafRequestAbstract::getServer()](yaf-request-abstract.getserver.md) - Отримує змінну SERVER
--   [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.md) - Отримує параметр дзвінка
+-   [Yaf\_Request\_Http::get()](yaf-request-http.get.md) \- Отримує змінну від клієнта
+-   [Yaf\_Request\_Http::getPost()](yaf-request-http.getpost.md) \- Отримує змінну POST
+-   [Yaf\_Request\_Http::getCookie()](yaf-request-http.getcookie.md) \- Отримує змінну Cookie
+-   [Yaf\_Request\_Http::getRaw()](yaf-request-http.getraw.md) \- Отримує необроблене тіло запиту
+-   [Yaf\_Request\_Abstract::getServer()](yaf-request-abstract.getserver.md) \- Отримує змінну SERVER
+-   [Yaf\_Request\_Abstract::getParam()](yaf-request-abstract.getparam.md) \- Отримує параметр дзвінка

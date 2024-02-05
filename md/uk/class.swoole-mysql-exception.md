@@ -1,12 +1,13 @@
 ---
 navigation:
-  - swoole-mysql.query.md: '« SwooleMySQL::query'
-  - class.swoole-process.md: SwooleProcess »
+  - swoole-mysql.query.md: '« Swoole\\MySQL::query'
+  - class.swoole-process.md: Swoole\\Process »
   - index.md: PHP Manual
   - book.swoole.md: Swoole
-title: Клас SwooleMySQLException
+title: Клас Swoole\\MySQL\\Exception
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас SwooleMySQLException
+# Клас Swoole\\MySQL\\Exception
 
 (PECL swoole >= 1.9.0)
 
@@ -14,7 +15,7 @@ title: Клас SwooleMySQLException
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 
@@ -33,27 +34,27 @@ title: Клас SwooleMySQLException
 
     /* Наследуемые свойства */
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
 

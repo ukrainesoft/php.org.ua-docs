@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.zip-open.md: « zipopen
+  - function.zip-open.md: « zip\_open
   - book.zlib.md: Zlib »
   - index.md: PHP Manual
-  - ref.zip.md: Функции Zip
-title: zipread
+  - ref.zip.md: Функції Zip
+title: zip\_read
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# zipread
+# zip\_read
 
 (PHP 4 >= 4.1.0, PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.0.0)
 
-zipread — Зчитує наступний запис у ZIP-архіві
+zip\_read — Зчитує наступний запис у ZIP-архіві
 
 **Увага**
 
@@ -28,21 +29,21 @@ zip_read(resource $zip): resource|false
 
 `zip`
 
-ZIP-файл, попередньо відкритий за допомогою функції [zipopen()](function.zip-open.md)
+ZIP-файл, попередньо відкритий за допомогою функції [zip\_open()](function.zip-open.md)
 
 ### Значення, що повертаються
 
-Повертає запис каталогу для подальшого використання з функціями `zip_entry_...`, або \*\*`false`\*\*якщо більше немає записів для читання, або код помилки, якщо вона відбулася.
+Повертає запис каталогу для подальшого використання з функціями `zip_entry_...`, или\*\*`false`\*\*якщо більше немає записів для читання, або код помилки, якщо вона відбулася.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.md) |
+| 8.0.0 | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.md) |
 
 ### Дивіться також
 
--   [zipopen()](function.zip-open.md) - Відкриває ZIP-архів
--   [zipclose()](function.zip-close.md) - Закриває дескриптор ZIP-архіву
--   [zipentryopen()](function.zip-entry-open.md) - відкриває директорію для читання
--   [zipentryread()](function.zip-entry-read.md) - Читає дані із відкритого раніше дескриптора директорії
+-   [zip\_open()](function.zip-open.md) \- Відкриває ZIP-архів
+-   [zip\_close()](function.zip-close.md) \- Закриває дескриптор ZIP-архіву
+-   [zip\_entry\_open()](function.zip-entry-open.md) \- відкриває директорію для читання
+-   [zip\_entry\_read()](function.zip-entry-read.md) \- Читає дані із відкритого раніше дескриптора директорії

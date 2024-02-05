@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-unset-hook.md: « uopzunsethook
-  - function.uopz-unset-return.md: uopzunsetreturn »
+  - function.uopz-unset-hook.md: « uopz\_unset\_hook
+  - function.uopz-unset-return.md: uopz\_unset\_return »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzunsetmock
+title: uopz\_unset\_mock
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzunsetmock
+# uopz\_unset\_mock
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzunsetmock — Видалити раніше встановлений імітатор
+uopz\_unset\_mock — Видалити раніше встановлений імітатор
 
 ### Опис
 
@@ -36,7 +37,7 @@ uopz_unset_mock(string $class): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzunsetmock()****
+**Пример #1 Пример использования**uopz\_unset\_mock()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ A::who();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 A
@@ -66,5 +67,5 @@ A
 
 ### Дивіться також
 
--   [uopzsetmock()](function.uopz-set-mock.md) - Використовувати імітатор замість класу для нових об'єктів
--   [uopzgetmock()](function.uopz-get-mock.md) - отримати поточний імітатор (mock) для класу
+-   [uopz\_set\_mock()](function.uopz-set-mock.md) \- Використовувати імітатор замість класу для нових об'єктів
+-   [uopz\_get\_mock()](function.uopz-get-mock.md) \- отримати поточний імітатор (mock) для класу

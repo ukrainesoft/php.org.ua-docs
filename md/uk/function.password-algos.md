@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.password.md: « Функції хешування паролів
-  - function.password-get-info.md: passwordgetinfo »
+  - function.password-get-info.md: password\_get\_info »
   - index.md: PHP Manual
   - ref.password.md: Функції хешування паролів
-title: passwordalgos
+title: password\_algos
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# passwordalgos
+# password\_algos
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
-passwordalgos — Отримує доступні ідентифікатори алгоритму хешування пароля
+password\_algos — Отримує доступні ідентифікатори алгоритму хешування пароля
 
 ### Опис
 
@@ -30,7 +31,7 @@ password_algos(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **password()****
+**Пример #1 Пример использования**password()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ print_r(password_algos());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

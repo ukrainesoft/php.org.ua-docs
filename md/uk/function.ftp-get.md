@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.ftp-get-option.md: « ftpgetoption
-  - function.ftp-login.md: ftplogin »
+  - function.ftp-get-option.md: « ftp\_get\_option
+  - function.ftp-login.md: ftp\_login »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpget
+title: ftp\_get
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpget
+# ftp\_get
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftpget — Завантажує файл із FTP-сервера
+ftp\_get — Завантажує файл із FTP-сервера
 
 ### Опис
 
 ```methodsynopsis
-ftp_get(    FTP\Connection $ftp,    string $local_filename,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
+ftp_get(    FTP\Connection $ftp,    string $local_filename,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
 ```
 
-**ftpget()** завантажує видалений файл з сервера FTP і зберігає його локально.
+**ftp\_get()** завантажує видалений файл з сервера FTP і зберігає його локально.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `local_filename`
 
@@ -36,7 +37,7 @@ ftp_get(    FTP\Connection $ftp,    string $local_filename,    string $remote_fi
 
 `mode`
 
-Режим передачі. Має бути або **`FTP_ASCII`**, або **`FTP_BINARY`**
+Режим передачі. Має бути або **`FTP_ASCII`**, либо\*\*`FTP_BINARY`\*\*
 
 `offset`
 
@@ -44,18 +45,18 @@ ftp_get(    FTP\Connection $ftp,    string $local_filename,    string $remote_fi
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 7.3.0 | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpget()****
+**Пример #1 Пример использования**ftp\_get()\*\*\*\*
 
 ```php
 <?php
@@ -85,7 +86,7 @@ ftp_close($conn_id);
 
 ### Дивіться також
 
--   [ftppasv()](function.ftp-pasv.md) - Вмикає або вимикає пасивний режим
--   [ftpfget()](function.ftp-fget.md) - Завантажує файл з FTP-сервера та зберігає його у попередньо відкритому файлі
--   [ftpнбget()](function.ftp-nb-get.md) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
--   [ftpнбfget()](function.ftp-nb-fget.md) - Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі
+-   [ftp\_pasv()](function.ftp-pasv.md) \- Вмикає або вимикає пасивний режим
+-   [ftp\_fget()](function.ftp-fget.md) \- Завантажує файл з FTP-сервера та зберігає його у попередньо відкритому файлі
+-   [ftp\_nb\_get()](function.ftp-nb-get.md) \- Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у локальний файл
+-   [ftp\_nb\_fget()](function.ftp-nb-fget.md) \- Завантажує файл з FTP-сервера в асинхронному режимі та зберігає його у попередньо відкритому файлі

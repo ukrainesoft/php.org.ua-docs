@@ -1,10 +1,11 @@
 ---
 navigation:
-  - migration73.other-changes.md: « Прочие изменения
-  - migration72.md: Миграция с PHP 7.1.x на PHP 7.2.x »
+  - migration73.other-changes.md: « Інші зміни
+  - migration72.md: Міграція з PHP 7.1.x на PHP 7.2.x »
   - index.md: PHP Manual
-  - migration73.md: Миграция с PHP 7.2.x на PHP 7.3.x
+  - migration73.md: Міграція з PHP 7.2.x на PHP 7.3.x
 title: Підтримка Windows
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Підтримка Windows
 

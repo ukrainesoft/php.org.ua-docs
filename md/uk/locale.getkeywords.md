@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.locale.md: Locale
 title: 'Locale::getKeywords'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Locale::getKeywords
 
-# localegetkeywords
+# locale\_get\_keywords
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::getKeywords -- localegetkeywords — Отримати ключові слова для локалі
+Locale::getKeywords -- locale\_get\_keywords — Отримати ключові слова для локалі
 
 ### Опис
 
@@ -44,7 +45,7 @@ locale_get_keywords(string $locale): array|false|null
 
 ### Приклади
 
-**Приклад #1 Приклад використання **localegetkeywords()****
+**Пример #1 Пример использования**locale\_get\_keywords()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ if ($keywords_arr) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 collation = PHONEBOOK
@@ -79,4 +80,4 @@ currency = EUR
 
 ### Дивіться також
 
--   [localegetallvariants()](locale.getallvariants.md) - Отримання варіантів із переданої локалі
+-   [locale\_get\_all\_variants()](locale.getallvariants.md) \- Отримання варіантів із переданої локалі

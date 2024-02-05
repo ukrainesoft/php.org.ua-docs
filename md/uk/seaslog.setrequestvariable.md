@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::setRequestVariable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::setRequestVariable
 
@@ -26,10 +27,10 @@ public static SeasLog::setRequestVariable(int $key, string $value): bool
 
 Константа, ціле число.
 
--   [SEASLOGREQUESTVARIABLEDOMAINPORT](seaslog.constants.md#constant.seaslog-request-variable-domain-port)
--   [SEASLOGREQUESTVARIABLEREQUESTURI](seaslog.constants.md#constant.seaslog-request-variable-request-uri)
--   [SEASLOGREQUESTVARIABLEREQUESTMETHOD](seaslog.constants.md#constant.seaslog-request-variable-request-method)
--   [SEASLOGREQUESTVARIABLECLIENTІП](seaslog.constants.md#constant.seaslog-request-variable-client-ip)
+-   [SEASLOG\_REQUEST\_VARIABLE\_DOMAIN\_PORT](seaslog.constants.md#constant.seaslog-request-variable-domain-port)
+-   [SEASLOG\_REQUEST\_VARIABLE\_REQUEST\_URI](seaslog.constants.md#constant.seaslog-request-variable-request-uri)
+-   [SEASLOG\_REQUEST\_VARIABLE\_REQUEST\_METHOD](seaslog.constants.md#constant.seaslog-request-variable-request-method)
+-   [SEASLOG\_REQUEST\_VARIABLE\_CLIENT\_IP](seaslog.constants.md#constant.seaslog-request-variable-client-ip)
 
 `value`
 
@@ -41,7 +42,7 @@ public static SeasLog::setRequestVariable(int $key, string $value): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::setRequestVariable()****
+**Пример #1 Пример использования**SeasLog::setRequestVariable()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ var_dump($oSeasLog->getRequestVariable($iErrorKey));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -89,4 +90,4 @@ bool(false)
 
 ### Дивіться також
 
--   [SeasLog::getRequestVariable()](seaslog.getrequestvariable.md) - Отримує змінну запиту SeasLog
+-   [SeasLog::getRequestVariable()](seaslog.getrequestvariable.md) \- Отримує змінну запиту SeasLog

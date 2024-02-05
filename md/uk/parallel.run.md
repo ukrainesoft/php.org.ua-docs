@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel.bootstrap.md: « parallelbootstrap
-  - class.parallel-runtime.md: parallelRuntime »
+  - parallel.bootstrap.md: « parallel\\bootstrap
+  - class.parallel-runtime.md: parallel\\Runtime »
   - index.md: PHP Manual
   - functional.parallel.md: Функціональний API
-title: parallelrun
+title: parallel\\run
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelrun
+# parallel\\run
 
-parallelrun - Виконання
+(1.0.0)
+
+parallel\\run - Виконання
 
 ### Опис
 
@@ -16,21 +19,21 @@ parallelrun - Виконання
 parallel\run(Closure $task): ?Future
 ```
 
-Планує `task` для виконання в parallel.
+Планирует`task` для виконання в parallel.
 
 ```methodsynopsis
 parallel\run(Closure $task, array $argv): ?Future
 ```
 
-Планує `task` для виконання в parallel, передаючи `argv` під час виконання.
+Планирует`task` для виконання в parallel, передаючи `argv` під час виконання.
 
 ### Автоматичне планування
 
-Якщо **parallelRuntime** внутрішньо створений та кешований попереднім викликом **parallelrun()** не діє, він буде використовуватися для виконання завдання. Якщо жоден **parallelRuntime** не діє, parallel створить і збереже в кеш **parallelRuntime**
+Якщо **\\parallel\\Runtime** внутрішньо створений та кешований попереднім викликом **parallel\\run()** не діє, він буде використовуватися для виконання завдання. Якщо жоден **\\parallel\\Runtime** не діє, parallel створить і збереже в кеш **\\parallel\\Runtime**
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Об'єкти **parallelRuntime**створені програмістом, не використовуються для автоматичного планування.
+> Об'єкти **\\parallel\\Runtime**створені програмістом, не використовуються для автоматичного планування.
 
 ### Список параметрів
 
@@ -47,7 +50,7 @@ parallel\run(Closure $task, array $argv): ?Future
 Замикання, заплановані для паралельного виконання, не повинні:
 
 -   приймати або повертати значення за посиланням
--   приймати або повертати внутрішні об'єкти (див. примітки)
+-   приймати чи повертати внутрішні об'єкти (дивіться примітки)
 -   виконувати обмежений набір інструкцій
 
 У замиканнях, призначених для паралельного виконання, заборонено такі інструкції:
@@ -57,11 +60,11 @@ parallel\run(Closure $task, array $argv): ?Future
 -   declare class
 -   declare named function
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Вкладені замикання можуть використовувати yield або передачу значення посилання, але не повинні містити оголошення класів або іменованих функцій.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Жодні інструкції не заборонені у файлах, які можуть включати завдання.
 
@@ -73,7 +76,7 @@ parallel\run(Closure $task, array $argv): ?Future
 -   утримувати ресурси
 -   містити внутрішні об'єкти (дивіться примітки)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > У разі ресурсів файлового потоку ресурс буде перетворено на файловий дескриптор і передано як ціле число (int), де це можливо, не підтримується у Windows.
 
@@ -81,7 +84,7 @@ parallel\run(Closure $task, array $argv): ?Future
 
 Внутрішні об'єкти зазвичай використовують структуру, що налаштовується, яку не можна безпечно скопіювати за значенням, в PHP в даний час відсутній механізм для цього (без серіалізації), і тому можуть використовуватися тільки об'єкти, які не використовують структуру, що налаштовується.
 
-Деякі внутрішні об'єкти не використовують структуру, що настроюється, наприклад, [parallelEventsEvent](class.parallel-events-event.md) і тому можуть використовуватись спільно.
+Деякі внутрішні об'єкти не використовують структуру, що настроюється, наприклад, [parallel\\Events\\Event](class.parallel-events-event.md) і тому можуть використовуватись спільно.
 
 Замикання - це особливий вид внутрішнього об'єкта, який підтримує копіювання за значенням, тому може використовуватись спільно.
 
@@ -95,30 +98,30 @@ parallel\run(Closure $task, array $argv): ?Future
 
 **Увага**
 
-Не можна ігнорувати повертається [parallelFuture](class.parallel-future.md)якщо завдання містить оператор return або throw.
+Не можна ігнорувати повертається [parallel\\Future](class.parallel-future.md)якщо завдання містить оператор return або throw.
 
 ### Винятки
 
 **Увага**
 
-Викидає parallelRuntimeErrorClosed, якщо [parallelRuntime](class.parallel-runtime.md) було закрито.
+Викидає parallel\\Runtime\\Error\\Closed, якщо [parallel\\Runtime](class.parallel-runtime.md) було закрито.
 
 **Увага**
 
-Викидає parallelRuntimeErrorIlegallegalfunction, якщо `task` є замиканням, створеним із внутрішньої функції.
+Викидає parallel\\Runtime\\Error\\IllegalFunction, если`task` є замиканням, створеним із внутрішньої функції.
 
 **Увага**
 
-Викидає parallelRuntimeErrorIlegallegalінструкції, якщо `task` містить неприпустимі інструкції.
+Викидає parallel\\Runtime\\Error\\IllegalInstruction, если`task` містить неприпустимі інструкції.
 
 **Увага**
 
-Викидає parallelRuntimeErrorIlegalкомп'ютер, якщо `task` приймає або `argv` містить неприпустимі змінні.
+Викидає parallel\\Runtime\\Error\\IllegalParameter, если`task` приймає або `argv` містить неприпустимі змінні.
 
 **Увага**
 
-Викидає parallelRuntimeErrorIllegalReturn, якщо `task` повертається некоректно.
+Викидає parallel\\Runtime\\Error\\IllegalReturn, если`task` повертається некоректно.
 
 ### Дивіться також
 
--   [parallelRuntime::run](parallel-runtime.run.md)
+-   [parallel\\Runtime::run](parallel-runtime.run.md)

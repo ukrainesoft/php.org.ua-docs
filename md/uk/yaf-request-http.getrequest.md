@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-http.getraw.md: '« YafRequestHttp::getRaw'
-  - yaf-request-http.isxmlhttprequest.md: 'YafRequestHttp::isXmlHttpRequest »'
+  - yaf-request-http.getraw.md: '« Yaf\_Request\_Http::getRaw'
+  - yaf-request-http.isxmlhttprequest.md: 'Yaf\_Request\_Http::isXmlHttpRequest »'
   - index.md: PHP Manual
-  - class.yaf-request-http.md: YafRequestHttp
-title: 'YafRequestHttp::getRequest'
+  - class.yaf-request-http.md: Yaf\_Request\_Http
+title: 'Yaf\_Request\_Http::getRequest'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestHttp::getRequest
+# Yaf\_Request\_Http::getRequest
 
 (Yaf >=1.0.0)
 
-YafRequestHttp::getRequest — Призначення getRequest
+Yaf\_Request\_Http::getRequest — Призначення getRequest
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Request_Http::getRequest(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

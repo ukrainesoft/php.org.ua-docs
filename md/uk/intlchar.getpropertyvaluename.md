@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::getPropertyValueName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::getPropertyValueName
 
@@ -20,9 +21,9 @@ public static IntlChar::getPropertyValueName(int $property, int $value, int $typ
 
 Повертає ім'я властивості Unicode за його значенням, як визначено у файлі PropertyValueAliases.txt.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Деякі імена PropertyValueAliases.txt можуть бути вилучені тільки за допомогою **`IntlChar::PROPERTY_GENERAL_CATEGORY_MASK`**, а не **`IntlChar::PROPERTY_GENERAL_CATEGORY`**. Включно з:
+> Деякі імена PropertyValueAliases.txt можуть бути вилучені тільки за допомогою **`IntlChar::PROPERTY_GENERAL_CATEGORY_MASK`**, а не\*\*`IntlChar::PROPERTY_GENERAL_CATEGORY`\*\*. Включно з:
 > 
 > -   "C" / "Інше"
 > -   "L" / "Літери"
@@ -45,10 +46,10 @@ public static IntlChar::getPropertyValueName(int $property, int $value, int $typ
 
 Селектор значення властивості. Якщо не входить у допустимий діапазон, то повернеться **`false`**
 
-В цілому, допустимий діапазон лежить в межах від `0` до деякого максимуму. Є кілька винятків:
+В цілому, допустимий діапазон лежить в межах від до деякого максимуму. Є кілька винятків:
 
--   Значення **`IntlChar::PROPERTY_BLOCK`** починаються з не нульового значення **`IntlChar::BLOCK_CODE_BASIC_LATIN`**
--   Значення **`IntlChar::PROPERTY_CANONICAL_COMBINING_CLASS`** не безперервні та лежать у діапазоні 0..240.
+-   Значения\*\*`IntlChar::PROPERTY_BLOCK`**починаються з не нульового значення**`IntlChar::BLOCK_CODE_BASIC_LATIN`\*\*
+-   Значения\*\*`IntlChar::PROPERTY_CANONICAL_COMBINING_CLASS`\*\*не безперервні та лежать у діапазоні 0..240.
 
 `type`
 
@@ -58,9 +59,9 @@ public static IntlChar::getPropertyValueName(int $property, int $value, int $typ
 
 ### Значення, що повертаються
 
-Повертає імена або **`false`** якщо `property` або `nameChoice` виходять за допустимий діапазон. У разі виникнення помилки повертає **`null`**
+Повертає імена або **`false`** якщо `property`или`nameChoice` виходять за допустимий діапазон. У разі виникнення помилки повертає **`null`**
 
-Якщо `type` повертає **`false`**, то все більші величини `type` також повернуть **`false`**, з одним винятком: якщо **`false`** повернеться для **`IntlChar::SHORT_PROPERTY_NAME`**, то **`IntlChar::LONG_PROPERTY_NAME`** (і вище) все ще можуть повернути не **`false`**
+Якщо `type` повертає **`false`**, то все більші величини `type` також повернуть **`false`**, з одним винятком: якщо **`false`** повернеться для **`IntlChar::SHORT_PROPERTY_NAME`**, то\*\*`IntlChar::LONG_PROPERTY_NAME`\*\* (і вище) все ще можуть повернути не **`false`**
 
 ### Приклади
 
@@ -75,7 +76,7 @@ var_dump(IntlChar::getPropertyValueName(IntlChar::PROPERTY_BLOCK, IntlChar::BLOC
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(16) "Greek_And_Coptic"

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::doStatus'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::doStatus
 
@@ -79,7 +80,7 @@ echo "Успешно: $result\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Запуск
@@ -95,5 +96,5 @@ echo "Успешно: $result\n";
 
 ### Дивіться також
 
--   [GearmanClient::doNormal()](gearmanclient.donormal.md) - Виконує одиночне завдання та повертає результат
--   [GearmanJob::status()](gearmanjob.status.md) - Надсилання статусу завдання (застарілий метод)
+-   [GearmanClient::doNormal()](gearmanclient.donormal.md) \- Виконує одиночне завдання та повертає результат
+-   [GearmanJob::status()](gearmanjob.status.md) \- Надсилання статусу завдання (застарілий метод)

@@ -1,28 +1,29 @@
 ---
 navigation:
-  - libxml.constants.md: « Обумовлені константи
+  - libxml.constants.md: « Зумовлені константи
   - ref.libxml.md: Функції libxml »
   - index.md: PHP Manual
   - book.libxml.md: libxml
-title: Клас libXMLError
+title: Клас LibXMLError
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас libXMLError
+# Клас LibXMLError
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Містить різну інформацію про помилки, що викидаються libxml. Коди помилок описані в офіційній [» xmlError API документации](http://www.xmlsoft.org/html/libxml-xmlerror.md)
+Містить інформацію про помилки, які видає модуль libxml. Коди помилок описані в офіційній [» документації xmlError API](http://www.xmlsoft.org/html/libxml-xmlerror.md)
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 
     
      
-      class libXMLError
+      class LibXMLError
      
      {
 
@@ -60,7 +61,7 @@ title: Клас libXMLError
 
 level
 
-Важливість помилки (одна з наступних констант: **`LIBXML_ERR_WARNING`** **`LIBXML_ERR_ERROR`** або **`LIBXML_ERR_FATAL`**
+Важливість помилки (одна з наступних констант: **`LIBXML_ERR_WARNING`** **`LIBXML_ERR_ERROR`**или**`LIBXML_ERR_FATAL`**) .
 
 code
 
@@ -70,9 +71,9 @@ column
 
 Стовпець, у якому сталася помилка.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Ця властивість реалізована в libxml не до кінця, тому в більшості випадків повертатиметься `0`
+> Ця властивість реалізована в libxml не до кінця, тому в більшості випадків повертатиметься
 
 message
 

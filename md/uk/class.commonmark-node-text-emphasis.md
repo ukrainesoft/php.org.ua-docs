@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.commonmark-node-text-strong.md: « CommonMarkNodeTextStrong
-  - class.commonmark-node-thematicbreak.md: CommonMarkNodeThematicBreak »
+  - class.commonmark-node-text-strong.md: « CommonMark\\Node\\Text\\Strong
+  - class.commonmark-node-thematicbreak.md: CommonMark\\Node\\ThematicBreak »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: Emphasis успадковує CommonMarkNode
+title: Emphasis успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Emphasis успадковує CommonMarkNode
+# Emphasis успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Клас винятків для помилок intl
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас винятків для помилок intl
 
@@ -12,54 +13,51 @@ title: Клас винятків для помилок intl
 
 ## Вступ
 
-Цей клас служить для виклику винятків у разі помилки у функціях intl. Ці винятки можуть бути викинуті лише якщо включена опція [intl.useexceptions](intl.configuration.md#ini.intl.use-exceptions)
+Цей клас служить для виклику винятків у разі помилки у функціях intl. Ці винятки можуть бути викинуті лише якщо включена опція [intl.use\_exceptions](intl.configuration.md#ini.intl.use-exceptions)
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class IntlException
     
 
     
-     
-      class IntlException
-     
-
-     
-      extends
-       Exception
-     
+     extends
+      Exception
      {
 
     /* Наследуемые свойства */
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */
     
-   final public Exception::getMessage(): string
+   public Exception::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+    final public Exception::getMessage(): string
 final public Exception::getPrevious(): ?Throwable
 final public Exception::getCode(): int
 final public Exception::getFile(): string

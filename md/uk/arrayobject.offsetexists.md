@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::offsetExists'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::offsetExists
 
@@ -30,7 +31,7 @@ public ArrayObject::offsetExists(mixed $key): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::offsetExists()****
+**Пример #1 Пример использования**ArrayObject::offsetExists()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ var_dump($arrayobj->offsetExists('notfound'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)

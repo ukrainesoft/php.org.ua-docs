@@ -1,14 +1,15 @@
 ---
 navigation:
-  - splfileinfo.tostring.md: '« SplFileInfo::toString'
-  - splfileobject.construct.md: 'SplFileObject::construct »'
+  - splfileinfo.tostring.md: '« SplFileInfo::\_\_function toString() { [native code] }'
+  - splfileobject.construct.md: 'SplFileObject::\_\_construct »'
   - index.md: PHP Manual
-  - spl.files.md: Обработка файлов
+  - spl.files.md: Обробка файлів
 title: Клас SplFileObject
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SplFileObject
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,43 +19,47 @@ title: Клас SplFileObject
 
 ```classsynopsis
 
-     
+    
+     class SplFileObject
     
 
     
-     
-      class SplFileObject
-     
+     extends
+      SplFileInfo
+    
 
-     
-      extends
-       SplFileInfo
-     
+    
+     implements
+      RecursiveIterator,
 
-     implements 
-       RecursiveIterator,  SeekableIterator {
+     SeekableIterator {
+
     /* Константы */
     
+     public
      const
      int
-      DROP_NEW_LINE = 1;
+      DROP_NEW_LINE;
 
-    const
+    public
+     const
      int
-      READ_AHEAD = 2;
+      READ_AHEAD;
 
-    const
+    public
+     const
      int
-      SKIP_EMPTY = 4;
+      SKIP_EMPTY;
 
-    const
+    public
+     const
      int
-      READ_CSV = 8;
+      READ_CSV;
 
 
     /* Методы */
     
-   public __construct(    string $filename,    string $mode = "r",    bool $useIncludePath = false,    ?resource $context = null)
+   public __construct(    string $filename,    string $mode = "r",    bool $useIncludePath = false,    ?resource $context = null)
 
     public current(): string|array|false
 public eof(): bool
@@ -65,7 +70,7 @@ public fgets(): string
 public fgetss(string $allowable_tags = ?): string
 public flock(int $operation, int &$wouldBlock = null): bool
 public fpassthru(): int
-public fputcsv(    array $fields,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\",    string $eol = "\n"): int|false
+public fputcsv(    array $fields,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\",    string $eol = "\n"): int|false
 public fread(int $length): string|false
 public fscanf(string $format, mixed &...$vars): array|int|null
 public fseek(int $offset, int $whence = SEEK_SET): int
@@ -73,11 +78,11 @@ public fstat(): array
 public ftell(): int|false
 public ftruncate(int $size): bool
 public fwrite(string $data, int $length = 0): int|false
-public getChildren(): ?RecursiveIterator
+public getChildren(): null
 public getCsvControl(): array
 public getFlags(): int
 public getMaxLineLen(): int
-public hasChildren(): bool
+public hasChildren(): false
 public key(): int
 public next(): void
 public rewind(): void
@@ -85,6 +90,7 @@ public seek(int $line): void
 public setCsvControl(string $separator = ",", string $enclosure = "\"", string $escape = "\\"): void
 public setFlags(int $flags): void
 public setMaxLineLen(int $maxLength): void
+public __toString(): string
 public valid(): bool
 
 
@@ -141,36 +147,36 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [SplFileObject::construct](splfileobject.construct.md) — Створює об'єкт SplFileObject
--   [SplFileObject::current](splfileobject.current.md) — Отримати поточний рядок файлу
--   [SplFileObject::eof](splfileobject.eof.md) — Перевіряє, чи кінець файлу досягнуто.
--   [SplFileObject::fflush](splfileobject.fflush.md) — Скидає буфер виводу у файл
--   [SplFileObject::fgetc](splfileobject.fgetc.md) — Отримує символ із файлу
--   [SplFileObject::fgetcsv](splfileobject.fgetcsv.md) — Отримати рядок із файлу та його розбір як поля CSV
--   [SplFileObject::fgets](splfileobject.fgets.md) — Отримує рядок із файлу
--   [SplFileObject::fgetss](splfileobject.fgetss.md) — Отримати рядок із файлу та видалити теги HTML
--   [SplFileObject::flock](splfileobject.flock.md) — Портоване блокування файлу
--   [SplFileObject::fpassthru](splfileobject.fpassthru.md) — Виводить весь вміст файлу, що залишився, у вихідний потік
--   [SplFileObject::fputcsv](splfileobject.fputcsv.md) — Записати масив полів у вигляді рядка CSV
--   [SplFileObject::fread](splfileobject.fread.md) - Читання з файлу
--   [SplFileObject::fscanf](splfileobject.fscanf.md) — Розбирає рядок файлу відповідно до заданого формату
--   [SplFileObject::fseek](splfileobject.fseek.md) — Переклад файлового покажчика на позицію
--   [SplFileObject::fstat](splfileobject.fstat.md) — Отримує інформацію про файл
--   [SplFileObject::ftell](splfileobject.ftell.md) — Повернути поточну позицію файлового покажчика
--   [SplFileObject::ftruncate](splfileobject.ftruncate.md) - Обрізає файл до заданої довжини
--   [SplFileObject::fwrite](splfileobject.fwrite.md) - Запис у файл
--   [SplFileObject::getChildren](splfileobject.getchildren.md) - Метод-заглушка
--   [SplFileObject::getCsvControl](splfileobject.getcsvcontrol.md) — Отримує символи роздільника, обгортання та екранування для CSV
--   [SplFileObject::getCurrentLine](splfileobject.getcurrentline.md) - Псевдонім методу SplFileObject::fgets
--   [SplFileObject::getFlags](splfileobject.getflags.md) — Отримує прапори налаштування об'єкта SplFileObject
--   [SplFileObject::getMaxLineLen](splfileobject.getmaxlinelen.md) — Отримати максимальну довжину рядка
--   [SplFileObject::hasChildren](splfileobject.haschildren.md) — Клас SplFileObject не має спадкоємців
--   [SplFileObject::key](splfileobject.key.md) — Отримати номер рядка
--   [SplFileObject::next](splfileobject.next.md) — Читати наступний рядок
--   [SplFileObject::rewind](splfileobject.rewind.md) — Перемотування файлового покажчика на початок файлу
--   [SplFileObject::seek](splfileobject.seek.md) — Переклад файлового покажчика на заданий рядок
--   [SplFileObject::setCsvControl](splfileobject.setcsvcontrol.md) — Встановлює символи роздільника, обгортання та екранування для CSV
--   [SplFileObject::setFlags](splfileobject.setflags.md) — Встановлює прапори SplFileObject
--   [SplFileObject::setMaxLineLen](splfileobject.setmaxlinelen.md) — Встановити максимальну довжину рядка
--   [SplFileObject::toString](splfileobject.tostring.md) - Псевдонім SplFileObject::fgets
--   [SplFileObject::valid](splfileobject.valid.md) — Перевіряє, чи кінець файлу (EOF) досягнуто.
+-   [SplFileObject::\_\_construct](splfileobject.construct.md)— Створює об'єкт SplFileObject
+-   [SplFileObject::current](splfileobject.current.md)— Отримати поточний рядок файлу
+-   [SplFileObject::eof](splfileobject.eof.md)— Перевіряє, чи кінець файлу досягнуто.
+-   [SplFileObject::fflush](splfileobject.fflush.md)— Скидає буфер виводу у файл
+-   [SplFileObject::fgetc](splfileobject.fgetc.md)— Отримує символ із файлу
+-   [SplFileObject::fgetcsv](splfileobject.fgetcsv.md)— Отримати рядок із файлу та його розбір як поля CSV
+-   [SplFileObject::fgets](splfileobject.fgets.md)— Отримує рядок із файлу
+-   [SplFileObject::fgetss](splfileobject.fgetss.md)— Отримати рядок із файлу та видалити теги HTML
+-   [SplFileObject::flock](splfileobject.flock.md)— Портоване блокування файлу
+-   [SplFileObject::fpassthru](splfileobject.fpassthru.md)— Виводить весь вміст файлу, що залишився, у вихідний потік
+-   [SplFileObject::fputcsv](splfileobject.fputcsv.md)— Записати масив полів у вигляді рядка CSV
+-   [SplFileObject::fread](splfileobject.fread.md) \- Читання з файлу
+-   [SplFileObject::fscanf](splfileobject.fscanf.md)— Розбирає рядок файлу відповідно до заданого формату
+-   [SplFileObject::fseek](splfileobject.fseek.md)— Переклад файлового покажчика на позицію
+-   [SplFileObject::fstat](splfileobject.fstat.md)— Отримує інформацію про файл
+-   [SplFileObject::ftell](splfileobject.ftell.md)— Повернути поточну позицію файлового покажчика
+-   [SplFileObject::ftruncate](splfileobject.ftruncate.md) \- Обрізає файл до заданої довжини
+-   [SplFileObject::fwrite](splfileobject.fwrite.md) \- Запис у файл
+-   [SplFileObject::getChildren](splfileobject.getchildren.md) \- Метод-заглушка
+-   [SplFileObject::getCsvControl](splfileobject.getcsvcontrol.md)— Отримує символи роздільника, обгортання та екранування для CSV.
+-   [SplFileObject::getCurrentLine](splfileobject.getcurrentline.md) \- Псевдонім SplFileObject::fgets
+-   [SplFileObject::getFlags](splfileobject.getflags.md)— Отримує прапори налаштування об'єкта SplFileObject
+-   [SplFileObject::getMaxLineLen](splfileobject.getmaxlinelen.md)— Отримати максимальну довжину рядка
+-   [SplFileObject::hasChildren](splfileobject.haschildren.md)— Клас SplFileObject не має спадкоємців
+-   [SplFileObject::key](splfileobject.key.md)— Отримати номер рядка
+-   [SplFileObject::next](splfileobject.next.md)— Читати наступний рядок
+-   [SplFileObject::rewind](splfileobject.rewind.md)— Перемотування файлового покажчика на початок файлу
+-   [SplFileObject::seek](splfileobject.seek.md)— Переклад файлового покажчика на заданий рядок
+-   [SplFileObject::setCsvControl](splfileobject.setcsvcontrol.md)— Встановлює символи роздільника, обгортання та екранування для CSV
+-   [SplFileObject::setFlags](splfileobject.setflags.md)— Встановлює прапори SplFileObject
+-   [SplFileObject::setMaxLineLen](splfileobject.setmaxlinelen.md)— Встановити максимальну довжину рядка
+-   [SplFileObject::\_\_function toString() { \[native code\] }](splfileobject.tostring.md)— Повертає поточний рядок у вигляді рядка
+-   [SplFileObject::valid](splfileobject.valid.md)— Перевіряє, чи кінець файлу (EOF) досягнуто.

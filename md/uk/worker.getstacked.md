@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.worker.md: Worker
 title: 'Worker::getStacked'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Worker::getStacked
 
@@ -30,7 +31,7 @@ public Worker::getStacked(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Worker::getStacked****
+**Пример #1 Пример использования**Worker::getStacked\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ for ($i = 0; $i < 5; ++$i) {
 echo "There are {$worker->getStacked()} stacked tasks\n";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 There are 5 stacked tasks

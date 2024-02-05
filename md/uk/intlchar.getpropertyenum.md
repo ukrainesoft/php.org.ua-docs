@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::getPropertyEnum'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::getPropertyEnum
 
@@ -20,9 +21,9 @@ public static IntlChar::getPropertyEnum(string $alias): int
 
 Повертає значення константи властивості на його ім'я, як задано в PropertyAliases.txt. Приймаються довгі, короткі та інші варіанти імені.
 
-Додатково ця функція пов'язує синтетичне ім'я "gcm" / "GeneralCategoryMask" з властивістю **`IntlChar::PROPERTY_GENERAL_CATEGORY_MASK`**.Цих імен немає в PropertyAliases.txt.
+Додатково ця функція пов'язує синтетичне ім'я "gcm" / "General\_Category\_Mask" з властивістю **`IntlChar::PROPERTY_GENERAL_CATEGORY_MASK`**.Цих імен немає в PropertyAliases.txt.
 
-Функція близька до [IntlChar::getPropertyName()](intlchar.getpropertyname.md)
+Функция близка с[IntlChar::getPropertyName()](intlchar.getpropertyname.md)
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public static IntlChar::getPropertyEnum(string $alias): int
 
 ### Значення, що повертаються
 
-Повертає значення константи `IntlChar::PROPERTY_`, або \*\*`IntlChar::PROPERTY_INVALID_CODE`\*\*якщо задане ім'я не відповідає жодній властивості.
+Повертає значення константи `IntlChar::PROPERTY_`, или\*\*`IntlChar::PROPERTY_INVALID_CODE`\*\*якщо задане ім'я не відповідає ніякій властивості.
 
 ### Приклади
 
@@ -47,7 +48,7 @@ var_dump(IntlChar::getPropertyEnum('Some made-up string') === IntlChar::PROPERTY
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -58,4 +59,4 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlChar::getPropertyName()](intlchar.getpropertyname.md) - Отримати Unicode ім'я властивості
+-   [IntlChar::getPropertyName()](intlchar.getpropertyname.md) \- Отримати Unicode ім'я властивості

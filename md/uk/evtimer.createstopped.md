@@ -1,10 +1,11 @@
 ---
 navigation:
-  - evtimer.construct.md: '« EvTimer::construct'
+  - evtimer.construct.md: '« EvTimer::\_\_construct'
   - evtimer.set.md: 'EvTimer::set »'
   - index.md: PHP Manual
   - class.evtimer.md: EvTimer
 title: 'EvTimer::createStopped'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvTimer::createStopped
 
@@ -18,33 +19,33 @@ EvTimer::createStopped — Створює зупинений спостеріг�
 final
    public
    static
-   EvTimer::createStopped(    
+   EvTimer::createStopped(    
     float
      $after
-   ,    
+   ,    
     float
      $repeat
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
    ): EvTimer
 ```
 
-Створює зупинений спостерігач EvTimer. На відміну від [EvTimer::construct()](evtimer.construct.md), цей метод не запускає спостерігача автоматично.
+Створює зупинений спостерігач EvTimer. На відміну від [EvTimer::\_\_construct()](evtimer.construct.md), цей метод не запускає спостерігача автоматично.
 
 ### Список параметрів
 
 `after`
 
-Налаштовує таймер для запуску через `after` секунд.
+Налаштовує таймер для запуску через `after`секунд.
 
 `repeat`
 
@@ -52,7 +53,7 @@ final
 
 `callback`
 
-Дивіться [Спостерігачі callback-функцій](ev.watcher-callbacks.md)
+Смотрите[Спостерігачі callback-функцій](ev.watcher-callbacks.md)
 
 `data`
 
@@ -60,7 +61,7 @@ final
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
+[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
@@ -94,5 +95,5 @@ Ev::run();
 
 ### Дивіться також
 
--   [EvTimer::construct()](evtimer.construct.md) - Конструктор об'єкта спостерігача EvTimer
+-   [EvTimer::\_\_construct()](evtimer.construct.md) \- Конструктор об'єкта спостерігача EvTimer
 -   [EvPeriodic](class.evperiodic.md)

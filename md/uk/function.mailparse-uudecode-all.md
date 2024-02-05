@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mailparse-stream-encode.md: « mailparsestreamencode
+  - function.mailparse-stream-encode.md: « mailparse\_stream\_encode
   - refs.math.md: Математичні модулі »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
-title: mailparseuudecodeall
+title: mailparse\_uudecode\_all
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mailparseuudecodeall
+# mailparse\_uudecode\_all
 
 (PECL mailparse >= 0.9.0)
 
-mailparseuudecodeall — Сканує дані із вказаного файлу та витягує всі вкладені файли, кодовані в uuencode
+mailparse\_uudecode\_all — Сканує дані із вказаного файлу та витягує всі вкладені файли, кодовані в uuencode
 
 ### Опис
 
@@ -32,11 +33,11 @@ mailparse_uudecode_all(resource $fp): array
 
 <table class="doctable informaltable"><tbody class="tbody"><tr><td><code class="literal">filename</code></td><td>Шлях до створеного тимчасового файлу</td></tr><tr><td><code class="literal">origfilename</code></td><td>Оригінальне ім'я файлу тільки для кодованих uuencode</td></tr></tbody></table>
 
-Перший елемент міститиме тіло повідомлення. Усі наступні - інформацію щодо вилучених вкладень.
+Перший елемент міститиме тіло повідомлення. Всі наступні - інформацію щодо вилучених вкладень.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mailparseuudecodeall()****
+**Пример #1 Пример использования**mailparse\_uudecode\_all()\*\*\*\*
 
 ```php
 <?php
@@ -71,7 +72,7 @@ unlink($data[1]["filename"]);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 BODY

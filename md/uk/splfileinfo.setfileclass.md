@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::setFileClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::setFileClass
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::setFileClass — Задає ім'я класу, який використовуватиметься методом [SplFileInfo::openFile()](splfileinfo.openfile.md)
 
@@ -18,13 +19,13 @@ SplFileInfo::setFileClass — Задає ім'я класу, який викор
 public SplFileInfo::setFileClass(string $class = SplFileObject::class): void
 ```
 
-Задає ім'я класу, яке використовуватиме метод [SplFileInfo::openFile()](splfileinfo.openfile.md). Цим класом має бути [SplFileObject](class.splfileobject.md) або спадкоємець класу [SplFileObject](class.splfileobject.md)
+Задає ім'я класу, яке використовуватиме метод [SplFileInfo::openFile()](splfileinfo.openfile.md). Цим класом має бути [SplFileObject](class.splfileobject.md)или наследник класса[SplFileObject](class.splfileobject.md)
 
 ### Список параметрів
 
 `class`
 
-Ім'я класу для методу [SplFileInfo::openFile()](splfileinfo.openfile.md)
+Имя класса для метода[SplFileInfo::openFile()](splfileinfo.openfile.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public SplFileInfo::setFileClass(string $class = SplFileObject::class): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::setFileClass()****
+**Пример #1 Пример использования**SplFileInfo::setFileClass()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($info->openFile());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(MyFoo)#2 (0) { }
@@ -54,4 +55,4 @@ object(MyFoo)#2 (0) { }
 
 ### Дивіться також
 
--   [SplFileInfo::openFile()](splfileinfo.openfile.md) - Отримує об'єкт SplFileObject для файлу
+-   [SplFileInfo::openFile()](splfileinfo.openfile.md) \- Отримує об'єкт SplFileObject для файлу

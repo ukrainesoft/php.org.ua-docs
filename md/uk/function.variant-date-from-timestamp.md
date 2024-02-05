@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.variant-cmp.md: « variantcmp
-  - function.variant-date-to-timestamp.md: variantdateтоtimestamp »
+  - function.variant-cmp.md: « variant\_cmp
+  - function.variant-date-to-timestamp.md: variant\_date\_to\_timestamp »
   - index.md: PHP Manual
-  - ref.com.md: Функции COM
-title: variantdatefromtimestamp
+  - ref.com.md: Функції COM
+title: variant\_date\_from\_timestamp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# variantdatefromtimestamp
+# variant\_date\_from\_timestamp
 
 (PHP 5, PHP 7, PHP 8)
 
-variantdatefromtimestamp — Отримати подання дати для варіанта з тимчасової мітки Unix
+variant\_date\_from\_timestamp — Отримує подання дати для варіанта з мітки часу Unix
 
 ### Опис
 
@@ -18,7 +19,7 @@ variantdatefromtimestamp — Отримати подання дати для в�
 variant_date_from_timestamp(int $timestamp): variant
 ```
 
-Перетворює `timestamp` зі значення тимчасової мітки Unix у варіант типу **`VT_DATE`**. Це дозволяє більш просто поєднати частину PHP у Unix-стилі з COM.
+Перетворює значення мітки часу Unix параметра `timestamp`в вариант типа\*\*`VT_DATE`\*\*. Це спрощує взаємодію між частинами PHP у Unix-стилі та COM.
 
 ### Список параметрів
 
@@ -32,6 +33,6 @@ variant_date_from_timestamp(int $timestamp): variant
 
 ### Дивіться також
 
--   [variantdateтоtimestamp()](function.variant-date-to-timestamp.md) - Перетворює варіант типу дата/час у часову мітку Unix
--   [mktime()](function.mktime.md) - Повертає позначку часу Unix для заданої дати
--   [time()](function.time.md) - Повертає поточну мітку системного часу Unix
+-   [variant\_date\_to\_timestamp()](function.variant-date-to-timestamp.md) \- Перетворює варіант типу дата/час у часову мітку Unix
+-   [mktime()](function.mktime.md) \- Повертає позначку часу Unix для заданої дати
+-   [time()](function.time.md) \- Повертає поточну мітку системного часу Unix

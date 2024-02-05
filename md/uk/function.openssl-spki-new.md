@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-spki-export.md: « opensslspkiexport
-  - function.openssl-spki-verify.md: opensslspkiverify »
+  - function.openssl-spki-export.md: « openssl\_spki\_export
+  - function.openssl-spki-verify.md: openssl\_spki\_verify »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslspkinew
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_spki\_new
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslspkinew
+# openssl\_spki\_new
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-opensslspkinew — Створення нового відкритого підписаного ключа з викликом
+openssl\_spki\_new — Створення нового відкритого підписаного ключа з викликом
 
 ### Опис
 
@@ -24,7 +25,7 @@ openssl_spki_new(OpenSSLAsymmetricKey $private_key, string $challenge, int $dige
 
 `private_key`
 
-`private_key` задається секретним ключем, створеним раніше функцією [opensslpkeynew()](function.openssl-pkey-new.md) (або отриманий іншим чином). Відповідна відкрита частина ключа буде використана для підпису CSR.
+`private_key` задається секретним ключем, створеним раніше функцією [openssl\_pkey\_new()](function.openssl-pkey-new.md) (або отриманий іншим чином). Відповідна відкрита частина ключа буде використана для підпису CSR.
 
 `challenge`
 
@@ -32,11 +33,11 @@ openssl_spki_new(OpenSSLAsymmetricKey $private_key, string $challenge, int $dige
 
 `digest_algo`
 
-Алгоритм хешування. Дивіться opensslgetмдmethod().
+Алгоритм хешування. Дивіться openssl\_get\_md\_method().
 
 ### Значення, що повертаються
 
-Повертає підписаний відкритий ключ із рядком дзвінка або **`false`** у разі виникнення помилки.
+Повертає підписаний відкритий ключ із рядком дзвінка або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -44,13 +45,13 @@ openssl_spki_new(OpenSSLAsymmetricKey $private_key, string $challenge, int $dige
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+| 8.0.0 | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL key` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslspkinew()****
+**Пример #1 Пример использования**openssl\_spki\_new()\*\*\*\*
 
 Створює новий SPKAC з використанням стандартного алгоритму (MD5)
 
@@ -67,7 +68,7 @@ if ($spkac !== NULL) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 MIICRzCCAS8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDM3V3sS4o4
@@ -87,9 +88,9 @@ MML5G2iNVgNozAo=
 
 ### Дивіться також
 
--   [opensslspkiverify()](function.openssl-spki-verify.md) - Перевіряє підписаний відкритий ключ та виклик
--   [opensslspkiexportchallenge()](function.openssl-spki-export-challenge.md) - Експорт виклику, пов'язаного з підписаним ключем та викликом
--   [opensslspkiexport()](function.openssl-spki-export.md) - Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
--   [opensslgetмдmethods()](function.openssl-get-md-methods.md) - Отримати список доступних методів хешування
--   [opensslcsrnew()](function.openssl-csr-new.md) - Генерує CSR
--   [opensslcsrsign()](function.openssl-csr-sign.md) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [openssl\_spki\_verify()](function.openssl-spki-verify.md) \- Перевіряє підписаний відкритий ключ та виклик
+-   [openssl\_spki\_export\_challenge()](function.openssl-spki-export-challenge.md) \- Експорт виклику, пов'язаного з підписаним ключем та викликом
+-   [openssl\_spki\_export()](function.openssl-spki-export.md) \- Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
+-   [openssl\_get\_md\_methods()](function.openssl-get-md-methods.md) \- Отримати список доступних методів хешування
+-   [openssl\_csr\_new()](function.openssl-csr-new.md) \- Генерує CSR
+-   [openssl\_csr\_sign()](function.openssl-csr-sign.md) \- Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

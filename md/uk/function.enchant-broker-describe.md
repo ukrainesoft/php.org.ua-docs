@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.enchant.md: « Функции Enchant
-  - function.enchant-broker-dict-exists.md: enchantbrokerdictexists »
+  - ref.enchant.md: « Функції Enchant
+  - function.enchant-broker-dict-exists.md: enchant\_broker\_dict\_exists »
   - index.md: PHP Manual
-  - ref.enchant.md: Функции Enchant
-title: enchantbrokerdescribe
+  - ref.enchant.md: Функції Enchant
+title: enchant\_broker\_describe
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# enchantbrokerdescribe
+# enchant\_broker\_describe
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL enchant >= 0.1.0)
 
-enchantbrokerdescribe — Перераховує провайдерів Enchant
+enchant\_broker\_describe — Перераховує провайдерів Enchant
 
 ### Опис
 
@@ -24,7 +25,7 @@ enchant_broker_describe(EnchantBroker $broker): array
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
+Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.md)
 
 ### Значення, що повертаються
 
@@ -32,10 +33,10 @@ enchant_broker_describe(EnchantBroker $broker): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | До цієї версії функція повертала **`false`** у разі виникнення помилки. |
+| 8.0.0 | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | До цієї версії функція повертала \*\*`false`\*\*в случае возникновения ошибки. |
 
 ### Приклади
 
@@ -51,7 +52,7 @@ print_r($bprovides);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Брокер предоставляет следующие бэкенды:

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-control.getparent.md: '« UIControl::getParent'
-  - ui-control.hide.md: 'ОЙControl::hide »'
+  - ui-control.getparent.md: '« UI\\Control::getParent'
+  - ui-control.hide.md: 'UI\\Control::hide »'
   - index.md: PHP Manual
-  - class.ui-control.md: ОЙControl
-title: 'ОЙControl::getTopLevel'
+  - class.ui-control.md: UI\\Control
+title: 'UI\\Control::getTopLevel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControl::getTopLevel
+# UI\\Control::getTopLevel
 
 (UI 0.9.9)
 
-ОЙControl::getTopLevel — Отримати верхній рівень
+UI\\Control::getTopLevel — Отримати верхній рівень
 
 ### Опис
 
@@ -20,7 +21,7 @@ public UI\Control::getTopLevel(): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

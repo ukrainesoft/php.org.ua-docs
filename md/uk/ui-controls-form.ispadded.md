@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-form.delete.md: '« UIControlsForm::delete'
-  - ui-controls-form.setpadded.md: 'ОЙControlsForm::setPadded »'
+  - ui-controls-form.delete.md: '« UI\\Controls\\Form::delete'
+  - ui-controls-form.setpadded.md: 'UI\\Controls\\Form::setPadded »'
   - index.md: PHP Manual
-  - class.ui-controls-form.md: ОЙControlsForm
-title: 'ОЙControlsForm::isPadded'
+  - class.ui-controls-form.md: UI\\Controls\\Form
+title: 'UI\\Controls\\Form::isPadded'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsForm::isPadded
+# UI\\Controls\\Form::isPadded
 
 (UI 0.9.9)
 
-ОЙControlsForm::isPadded — Визначення заповнення
+UI\\Controls\\Form::isPadded — Визначення заповнення
 
 ### Опис
 

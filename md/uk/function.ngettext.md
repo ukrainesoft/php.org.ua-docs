@@ -3,12 +3,13 @@ navigation:
   - function.gettext.md: « gettext
   - function.textdomain.md: textdomain »
   - index.md: PHP Manual
-  - ref.gettext.md: Функции gettext
+  - ref.gettext.md: Функції gettext
 title: ngettext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ngettext
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 ngettext — Версія gettext для повідомлень у множині
 
@@ -36,11 +37,11 @@ ngettext(string $singular, string $plural, int $count): string
 
 ### Значення, що повертаються
 
-Повертає коректну форму повідомлення у множині, що ідентифікуються за параметрами `singular` і `plural` для кількості `count`
+Повертає коректну форму повідомлення у множині, що ідентифікуються за параметрами `singular`и`plural` для кількості `count`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ngettext()****
+**Пример #1 Пример использования**ngettext()\*\*\*\*
 
 ```php
 <?php

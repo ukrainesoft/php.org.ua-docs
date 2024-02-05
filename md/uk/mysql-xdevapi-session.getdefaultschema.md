@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-session.generateuuid.md: '« Session::generateUUID'
   - mysql-xdevapi-session.getschema.md: 'Session::getSchema »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::getDefaultSchema'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::getDefaultSchema
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Session::getDefaultSchema(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::getSchema()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::getSchema()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ echo $schema;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 testx

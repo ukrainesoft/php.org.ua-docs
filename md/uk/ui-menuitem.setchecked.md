@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-menuitem.onclick.md: '« UIMenuItem::onClick'
-  - class.ui-area.md: ОЙArea »
+  - ui-menuitem.onclick.md: '« UI\\MenuItem::onClick'
+  - class.ui-area.md: UI\\Area »
   - index.md: PHP Manual
-  - class.ui-menuitem.md: ОЙMenuItem
-title: 'ОЙMenuItem::setChecked'
+  - class.ui-menuitem.md: UI\\MenuItem
+title: 'UI\\MenuItem::setChecked'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙMenuItem::setChecked
+# UI\\MenuItem::setChecked
 
 (UI 0.9.9)
 
-ОЙMenuItem::setChecked — Виберіть пункт меню
+UI\\MenuItem::setChecked — Виберіть пункт меню
 
 ### Опис
 

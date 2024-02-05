@@ -5,20 +5,21 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::resampleImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::resampleImage
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::resampleImage — Перетворює зображення до бажаного дозволу
+Imagick::resampleImage — Перетворює зображення до потрібної роздільної здатності
 
 ### Опис
 
 ```methodsynopsis
-public Imagick::resampleImage(    float $x_resolution,    float $y_resolution,    int $filter,    float $blur): bool
+public Imagick::resampleImage(    float $x_resolution,    float $y_resolution,    int $filter,    float $blur): bool
 ```
 
-Перетворює зображення до бажаного дозволу.
+Перетворює зображення до потрібної роздільної здатності.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public Imagick::resampleImage(    float $x_resolution,    float $y_resolution,  
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::resampleImage()****
+**Пример #1 Пример использования метода**Imagick::resampleImage()\*\*\*\*
 
 ```php
 <?php

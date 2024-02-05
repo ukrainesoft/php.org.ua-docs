@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.stream-socket-recvfrom.md: « streamsocketrecvfrom
-  - function.stream-socket-server.md: streamsocketserver »
+  - function.stream-socket-recvfrom.md: « stream\_socket\_recvfrom
+  - function.stream-socket-server.md: stream\_socket\_server »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamsocketsendto
+title: stream\_socket\_sendto
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamsocketsendto
+# stream\_socket\_sendto
 
 (PHP 5, PHP 7, PHP 8)
 
-streamsocketsendto — Надсилає повідомлення до сокету, незалежно від того, приєднаний він чи ні
+stream\_socket\_sendto — Надсилає повідомлення до сокету, незалежно від того, приєднаний він чи ні
 
 ### Опис
 
 ```methodsynopsis
-stream_socket_sendto(    resource $socket,    string $data,    int $flags = 0,    string $address = ""): int|false
+stream_socket_sendto(    resource $socket,    string $data,    int $flags = 0,    string $address = ""): int|false
 ```
 
-Надсилає зазначені дані `data` через сокет `socket`
+Надсилає зазначені дані `data`через сокет`socket`
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ stream_socket_sendto(    resource $socket,    string $data,    int $flags = 0,  
 
 `flags`
 
-Значення параметру `flags` може бути будь-якою з наступних комбінацій:
+Значение параметра`flags` може бути будь-якою з наступних комбінацій:
 
 <table class="doctable table"><caption><strong>можливі значення для параметра <code class="parameter">flags</code></strong></caption><tbody class="tbody"><tr><td><strong><code>STREAM_OOB</code></strong></td><td>Обробляти OOB (out-of-band, позасмугові) дані.</td></tr></tbody></table>
 
@@ -44,11 +45,11 @@ stream_socket_sendto(    resource $socket,    string $data,    int $flags = 0,  
 
 ### Значення, що повертаються
 
-Повертає код результату як ціле число або **`false`** у разі виникнення помилки.
+Повертає код результату як ціле число або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **streamsocketsendto()****
+**Пример #1 Пример использования**stream\_socket\_sendto()\*\*\*\*
 
 ```php
 <?php
@@ -68,6 +69,6 @@ fclose($socket);
 
 ### Дивіться також
 
--   [streamsocketrecvfrom()](function.stream-socket-recvfrom.md) - Отримує дані із сокету, підключеного чи ні
--   [streamsocketclient()](function.stream-socket-client.md) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [streamsocketserver()](function.stream-socket-server.md) - Створює інтернет-сокет або доменний сокет Unix
+-   [stream\_socket\_recvfrom()](function.stream-socket-recvfrom.md) \- Отримує дані із сокету, підключеного чи ні
+-   [stream\_socket\_client()](function.stream-socket-client.md) \- Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [stream\_socket\_server()](function.stream-socket-server.md) \- Створює інтернет-сокет або доменний сокет Unix

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::getIntPropertyValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::getIntPropertyValue
 
@@ -24,7 +25,7 @@ public static IntlChar::getIntPropertyValue(int|string $codepoint, int $property
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 `property`
 
@@ -34,11 +35,11 @@ public static IntlChar::getIntPropertyValue(int|string $codepoint, int $property
 
 Повертає чисельне значення для зазначеної властивості, або, для властивостей, що перераховуються, відповідну чисельному значенню константу відповідно до значення перерахованого типу властивості. У разі виникнення помилки повертає **`null`**
 
-Повертає `0` або `1` (для **`false`\*\*\*\*`true`**) для бінарних властивостей Unicode.
+Повертає или (для\*\*`false`\*\* **`true`**) для бінарних властивостей Unicode.
 
 Повертає бітовий шаблон шаблонних властивостей.
 
-Повертає `0` якщо `property` не входить у допустимий діапазон або якщо версія Unicode не містить даних для цієї властивості.
+Повертає якщо `property` не входить у допустимий діапазон або якщо версія Unicode не містить даних для цієї властивості.
 
 ### Приклади
 
@@ -52,7 +53,7 @@ var_dump(IntlChar::getIntPropertyValue("Φ", IntlChar::PROPERTY_BLOCK) === IntlC
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -62,7 +63,7 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) - Перевірити бінарну властивість Unicode для символу
--   [IntlChar::getIntPropertyMinValue()](intlchar.getintpropertyminvalue.md) - Отримати мінімальне значення для властивості Unicode
--   [IntlChar::getIntPropertyMaxValue()](intlchar.getintpropertymaxvalue.md) - Отримати мінімальне значення для властивості Unicode
--   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) - Отримати версію Unicode
+-   [IntlChar::hasBinaryProperty()](intlchar.hasbinaryproperty.md) \- Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::getIntPropertyMinValue()](intlchar.getintpropertyminvalue.md) \- Отримати мінімальне значення для властивості Unicode
+-   [IntlChar::getIntPropertyMaxValue()](intlchar.getintpropertymaxvalue.md) \- Отримати мінімальне значення для властивості Unicode
+-   [IntlChar::getUnicodeVersion()](intlchar.getunicodeversion.md) \- Отримати версію Unicode

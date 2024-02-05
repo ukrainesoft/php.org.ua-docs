@@ -3,54 +3,55 @@ navigation:
   - function.readline.md: « readline
   - book.bzip2.md: Bzip2 »
   - index.md: PHP Manual
-  - funcref.md: Справочник функций
+  - funcref.md: Довідник функцій
 title: Модулі для стиснення та архівації
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Модулі для стиснення та архівації
 
 -   [Bzip2](book.bzip2.md)
-    -   [Введение](intro.bzip2.md)
+    -   [Вступ](intro.bzip2.md)
     -   [Встановлення та налаштування](bzip2.setup.md)
     -   [Обумовлені константи](bzip2.constants.md)
     -   [Приклади](bzip2.examples.md)
     -   [Функції Bzip2](ref.bzip2.md)
 -   [LZF](book.lzf.md)
-    -   [Введение](intro.lzf.md)
+    -   [Вступ](intro.lzf.md)
     -   [Встановлення та налаштування](lzf.setup.md)
     -   [Обумовлені константи](lzf.constants.md)
     -   [Функції LZF](ref.lzf.md)
 -   [Phar](book.phar.md)
-    -   [Введение](intro.phar.md)
+    -   [Вступ](intro.phar.md)
     -   [Встановлення та налаштування](phar.setup.md)
     -   [Обумовлені константи](phar.constants.md)
-    -   [Использование Phar-архивов](phar.using.md)
-    -   [Создание Phar-архивов](phar.creating.md)
+    -   [Використання Phar-архівів](phar.using.md)
+    -   [Створення Phar-архівів](phar.creating.md)
     -   [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)
-    -   [Phar](class.phar.md) - Клас Phar
-    -   [PharData](class.phardata.md) - Клас PharData
-    -   [PharFileInfo](class.pharfileinfo.md) - Клас PharFileInfo
-    -   [PharException](class.pharexception.md) - Клас PharException
--   [Rar](book.rar.md) - Архівування Rar
-    -   [Введение](intro.rar.md)
+    -   [Phar](class.phar.md) \- Клас Phar
+    -   [PharData](class.phardata.md) \- Клас PharData
+    -   [PharFileInfo](class.pharfileinfo.md) \- Клас PharFileInfo
+    -   [PharException](class.pharexception.md) \- Клас PharException
+-   [Rar](book.rar.md) \- Архівування Rar
+    -   [Вступ](intro.rar.md)
     -   [Встановлення та налаштування](rar.setup.md)
     -   [Обумовлені константи](rar.constants.md)
     -   [Приклади](rar.examples.md)
     -   [Rar](ref.rar.md)
-    -   [RarArchive](class.rararchive.md) - Клас RarArchive
-    -   [RarEntry](class.rarentry.md) - Клас RarEntry
-    -   [RarException](class.rarexception.md) - Клас RarException
+    -   [RarArchive](class.rararchive.md) \- Клас RarArchive
+    -   [RarEntry](class.rarentry.md) \- Клас RarEntry
+    -   [RarException](class.rarexception.md) \- Клас RarException
 -   [Zip](book.zip.md)
-    -   [Введение](intro.zip.md)
+    -   [Вступ](intro.zip.md)
     -   [Встановлення та налаштування](zip.setup.md)
     -   [Обумовлені константи](zip.constants.md)
     -   [Приклади](zip.examples.md)
-    -   [ZipArchive](class.ziparchive.md) - Клас ZipArchive
-    -   [Функции Zip](ref.zip.md)
+    -   [ZipArchive](class.ziparchive.md) \- Клас ZipArchive
+    -   [Функції Zip](ref.zip.md)
 -   [Zlib](book.zlib.md)
-    -   [Введение](intro.zlib.md)
+    -   [Вступ](intro.zlib.md)
     -   [Встановлення та налаштування](zlib.setup.md)
     -   [Обумовлені константи](zlib.constants.md)
     -   [Приклади](zlib.examples.md)
-    -   [Функции Zlib](ref.zlib.md)
-    -   [DeflateContext](class.deflatecontext.md) - Клас DeflateContext
-    -   [InflateContext](class.inflatecontext.md) - Клас InflateContext
+    -   [Функції Zlib](ref.zlib.md)
+    -   [DeflateContext](class.deflatecontext.md) \- Клас DeflateContext
+    -   [InflateContext](class.inflatecontext.md) \- Клас InflateContext

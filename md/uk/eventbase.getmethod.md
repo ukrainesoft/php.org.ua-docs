@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbase.md: EventBase
 title: 'EventBase::getMethod'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBase::getMethod
 
@@ -29,7 +30,7 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventBase::getMethod()****
+**Пример #1 Пример использования**EventBase::getMethod()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ echo "Используемый метод события: ", $base->getMethod(),
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 `select' method avoided
@@ -54,4 +55,4 @@ echo "Используемый метод события: ", $base->getMethod(),
 
 ### Дивіться також
 
--   [EventBase::getFeatures()](eventbase.getfeatures.md) - Повертає бітову маску підтримуваних функцій
+-   [EventBase::getFeatures()](eventbase.getfeatures.md) \- Повертає бітову маску підтримуваних функцій

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-bodystruct.md: « imapbodystruct
-  - function.imap-clearflag-full.md: imapclearflagfull »
+  - function.imap-bodystruct.md: « imap\_bodystruct
+  - function.imap-clearflag-full.md: imap\_clearflag\_full »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapcheck
+  - ref.imap.md: Функції IMAP
+title: imap\_check
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapcheck
+# imap\_check
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapcheck — Перевірити поточну поштову скриньку
+imap\_check — Перевіряє поточну поштову скриньку
 
 ### Опис
 
@@ -24,29 +25,29 @@ imap_check(IMAP\Connection $imap): stdClass|false
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 ### Значення, що повертаються
 
 Повертає об'єкт із такими властивостями:
 
--   **`Date`** - поточний системний час у відповідному форматі [» RFC2822](http://www.faqs.org/rfcs/rfc2822)
--   **`Driver`** - протокол, який використовується для доступу до поштової скриньки: POP3, IMAP, NNTP
--   **`Mailbox`** - ім'я поштової скриньки
--   **`Nmsgs`** - кількість повідомлень
--   **`Recent`** - кількість нових повідомлень
+-   \*\*`Date`\*\*- поточний системний час у відповідному форматі[» RFC2822](http://www.faqs.org/rfcs/rfc2822)
+-   \*\*`Driver`\*\*- протокол, який використовується для доступу до поштової скриньки: POP3, IMAP, NNTP
+-   \*\*`Mailbox`\*\*- ім'я поштової скриньки
+-   \*\*`Nmsgs`\*\*- кількість повідомлень
+-   \*\*`Recent`\*\*- кількість нових повідомлень
 
 У разі виникнення помилки повертає **`false`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imapcheck()****
+**Пример #1 Пример использования**imap\_check()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ var_dump($imap);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(stdClass)(5) {

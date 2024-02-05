@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-entry.settext.md: '« UIControlsEntry::setText'
-  - ui-controls-multilineentry.append.md: 'ОЙControlsMultilineEntry::append »'
+  - ui-controls-entry.settext.md: '« UI\\Controls\\Entry::setText'
+  - ui-controls-multilineentry.append.md: 'UI\\Controls\\MultilineEntry::append »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Многорядкове введення"
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Многорядкове введення"
 
@@ -84,10 +85,10 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsMultilineEntry::append](ui-controls-multilineentry.append.md) — Додати текст
--   [ОЙControlsMultilineEntry::construct](ui-controls-multilineentry.construct.md) - Створити новий об'єкт "Многорядкове введення"
--   [ОЙControlsMultilineEntry::getText](ui-controls-multilineentry.gettext.md) — Отримати текст
--   [ОЙControlsMultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.md) - Визначення "тільки для читання"
--   [ОЙControlsMultilineEntry::onChange](ui-controls-multilineentry.onchange.md) - Обробник зміни
--   [ОЙControlsMultilineEntry::setReadOnly](ui-controls-multilineentry.setreadonly.md) - Встановити "тільки для читання"
--   [ОЙControlsMultilineEntry::setText](ui-controls-multilineentry.settext.md) — Встановити текст
+-   [UI\\Controls\\MultilineEntry::append](ui-controls-multilineentry.append.md)— Додати текст
+-   [UI\\Controls\\MultilineEntry::\_\_construct](ui-controls-multilineentry.construct.md) - Створити новий об'єкт "Многорядкове введення"
+-   [UI\\Controls\\MultilineEntry::getText](ui-controls-multilineentry.gettext.md)— Отримати текст
+-   [UI\\Controls\\MultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.md) - Визначення "тільки для читання"
+-   [UI\\Controls\\MultilineEntry::onChange](ui-controls-multilineentry.onchange.md) \- Обробник зміни
+-   [UI\\Controls\\MultilineEntry::setReadOnly](ui-controls-multilineentry.setreadonly.md) - Встановити "тільки для читання"
+-   [UI\\Controls\\MultilineEntry::setText](ui-controls-multilineentry.settext.md)— Встановити текст

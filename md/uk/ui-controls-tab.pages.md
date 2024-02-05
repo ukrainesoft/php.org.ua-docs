@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-tab.insertat.md: '« UIControlsTab::insertAt'
-  - ui-controls-tab.setmargin.md: 'ОЙControlsTab::setMargin »'
+  - ui-controls-tab.insertat.md: '« UI\\Controls\\Tab::insertAt'
+  - ui-controls-tab.setmargin.md: 'UI\\Controls\\Tab::setMargin »'
   - index.md: PHP Manual
-  - class.ui-controls-tab.md: ОЙControlsTab
-title: 'ОЙControlsTab::pages'
+  - class.ui-controls-tab.md: UI\\Controls\\Tab
+title: 'UI\\Controls\\Tab::pages'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsTab::pages
+# UI\\Controls\\Tab::pages
 
 (UI 0.9.9)
 
-ОЙControlsTab::pages — Кількість сторінок
+UI\\Controls\\Tab::pages — Кількість сторінок
 
 ### Опис
 

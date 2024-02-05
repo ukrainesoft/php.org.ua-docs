@@ -1,10 +1,11 @@
 ---
 navigation:
-  - varnish.installation.md: « Установка
+  - varnish.installation.md: « Встановлення
   - varnish.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - varnish.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 

@@ -1,10 +1,11 @@
 ---
 navigation:
   - function.gzuncompress.md: « gzuncompress
-  - function.inflate-add.md: inflateadd »
+  - function.inflate-add.md: inflate\_add »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzwrite
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzwrite
 
@@ -36,18 +37,18 @@ gzwrite(resource $stream, string $data, ?int $length = null): int|false
 
 ### Значення, що повертаються
 
-Повертає кількість записаних байт (без урахування стиснення) у потік gz-файлу або **`false`** у разі виникнення помилки.
+Повертає кількість записаних байт (без урахування стиснення) у потік gz-файлу або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `length` тепер припускає значення null; раніше значенням за умовчанням був `0` |
-|  | У разі помилки функція повертає **`false`**. раніше повертався `0` |
+| 8.0.0 | `length` тепер припускає значення null; раніше значенням за умовчанням був |
+| 7.4.0 | В случае возникновения ошибки функция возвращает\*\*`false`\*\*. . раніше повертався |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gzwrite()****
+**Пример #1 Пример использования**gzwrite()\*\*\*\*
 
 ```php
 <?php
@@ -60,5 +61,5 @@ gzclose($gz);
 
 ### Дивіться також
 
--   [gzread()](function.gzread.md) - Бінарне читання gz-файлу
--   [gzopen()](function.gzopen.md) - Відкрити gz-файл
+-   [gzread()](function.gzread.md) \- Бінарне читання gz-файлу
+-   [gzopen()](function.gzopen.md) \- Відкрити gz-файл

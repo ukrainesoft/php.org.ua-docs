@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.snmp.md: SNMP
 title: 'SNMP::walk'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SNMP::walk
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SNMP::walk — Отримує піддерево об'єкта SNMP
 
 ### Опис
 
 ```methodsynopsis
-public SNMP::walk(    array|string $objectId,    bool $suffixAsKey = false,    int $maxRepetitions = -1,    int $nonRepeaters = -1): array|false
+public SNMP::walk(    array|string $objectId,    bool $suffixAsKey = false,    int $maxRepetitions = -1,    int $nonRepeaters = -1): array|false
 ```
 
 **SNMP::walk()** використовується для читання піддерева SNMP з коренем у вказаному `objectId`
@@ -28,7 +29,7 @@ public SNMP::walk(    array|string $objectId,    bool $suffixAsKey = false,    i
 
 `suffixAsKey`
 
-За промовчанням для ключів у вихідному масиві використовується повна нотація OID. Якщо встановлено значення **`true`**, префікс піддерева буде видалено з ключів, залишиться тільки суфікс objectid.
+За промовчанням для ключів у вихідному масиві використовується повна нотація OID. Якщо встановлено значення **`true`**, префікс піддерева буде видалено з ключів, залишиться тільки суфікс object\_id.
 
 `nonRepeaters`
 
@@ -40,15 +41,15 @@ public SNMP::walk(    array|string $objectId,    bool $suffixAsKey = false,    i
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив ідентифікаторів об'єктів SNMP та їх значень у разі успішного виконання або **`false`** у разі виникнення помилки. Коли виникає помилка SNMP, [SNMP::getErrno()](snmp.geterrno.md) і [SNMP::getError()](snmp.geterror.md) можуть використовуватися для отримання номера помилки (специфічно для модуля SNMP, дивіться константи класу) та повідомлення про помилку відповідно.
+Повертає асоціативний масив ідентифікаторів об'єктів SNMP та їх значень у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки. Когда возникает ошибка SNMP,[SNMP::getErrno()](snmp.geterrno.md) і [SNMP::getError()](snmp.geterror.md) можуть використовуватися для отримання номера помилки (специфічно для модуля SNMP, дивіться константи класу) та повідомлення про помилку відповідно.
 
 ### Помилки
 
-Цей метод за промовчанням не генерує винятку. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled` класу SNMP у відповідне значення. Детальніше дивіться [поясненні параметра`SNMP::$exceptions_enabled`](class.snmp.md#snmp.props.exceptions-enabled)
+Цей метод за промовчанням не генерує виняток. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled`класса SNMP в соответствующее значение. Подробнее смотрите в[поясненні параметра `SNMP::$exceptions_enabled`](class.snmp.md#snmp.props.exceptions-enabled)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SNMP::walk()****
+**Пример #1 Пример использования**SNMP::walk()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ public SNMP::walk(    array|string $objectId,    bool $suffixAsKey = false,    i
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -73,7 +74,7 @@ Array
 )
 ```
 
-**Приклад #2 Приклад використання `suffixAsKey`**
+**Пример #2 Пример использования`suffixAsKey`**
 
 `suffixAsKey` може використовуватися при об'єднанні декількох піддерев SNMP в одне. У цьому вся прикладі імена інтерфейсів зіставляються зі своїми типом.
 
@@ -94,7 +95,7 @@ Array
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -125,5 +126,5 @@ Array
 
 ### Дивіться також
 
--   [SNMP::getErrno()](snmp.geterrno.md) - Отримує код останньої помилки
--   [SNMP::getError()](snmp.geterror.md) - Отримує останнє повідомлення про помилку
+-   [SNMP::getErrno()](snmp.geterrno.md) \- Отримує код останньої помилки
+-   [SNMP::getError()](snmp.geterror.md) \- Отримує останнє повідомлення про помилку

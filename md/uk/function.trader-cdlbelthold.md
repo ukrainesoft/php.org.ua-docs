@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdladvanceblock.md: « tradercdladvanceblock
-  - function.trader-cdlbreakaway.md: tradercdlbreakaway »
+  - function.trader-cdladvanceblock.md: « trader\_cdladvanceblock
+  - function.trader-cdlbreakaway.md: trader\_cdlbreakaway »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlbelthold
+  - ref.trader.md: Функції Trader
+title: trader\_cdlbelthold
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlbelthold
+# trader\_cdlbelthold
 
 (PECL trader >= 0.2.0)
 
-tradercdlbelthold - Захоплення за пояс
+trader\_cdlbelthold - Захоплення за пояс
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlbelthold(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlbelthold(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

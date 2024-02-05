@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.syncsharedmemory.md: SyncSharedMemory
 title: 'SyncSharedMemory::read'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SyncSharedMemory::read
 
@@ -26,7 +27,7 @@ public SyncSharedMemory::read(int $start = 0, int $length = ?)
 
 Початок/зміщення у байтах для початку читання.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо значення негативне, початкова позиція буде починатися із зазначеної кількості байтів з кінця сегмента пам'яті, що розділяється.
 
@@ -34,7 +35,7 @@ public SyncSharedMemory::read(int $start = 0, int $length = ?)
 
 Кількість байт для читання.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо не вказано інше, читання зупиниться в кінці сегмента пам'яті, що розділяється.
 > 
@@ -46,7 +47,7 @@ public SyncSharedMemory::read(int $start = 0, int $length = ?)
 
 ### Приклади
 
-**Приклад #1 Приклад використання [SyncSharedMemory::construct()](syncsharedmemory.construct.md)**
+**Пример #1 Пример использования[SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.md)**
 
 ```php
 <?php
@@ -65,7 +66,7 @@ var_dump($result);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(3) "ort"
@@ -73,7 +74,7 @@ string(3) "ort"
 
 ### Дивіться також
 
--   [SyncSharedMemory::construct()](syncsharedmemory.construct.md) - Створює новий об'єкт SyncSharedMemory
--   [SyncSharedMemory::first()](syncsharedmemory.first.md) - Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
--   [SyncSharedMemory::write()](syncsharedmemory.write.md) - Копіює дані в іменовану пам'ять, що розділяється.
+-   [SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.md) \- Створює новий об'єкт SyncSharedMemory
+-   [SyncSharedMemory::first()](syncsharedmemory.first.md) \- Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
+-   [SyncSharedMemory::write()](syncsharedmemory.write.md) \- Копіює дані в іменовану пам'ять, що розділяється.
 -   **SyncSharedMemory::read()**

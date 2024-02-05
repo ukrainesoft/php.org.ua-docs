@@ -1,10 +1,11 @@
 ---
 navigation:
   - oauth.examples.md: « Приклади
-  - ref.oauth.md: Функции OAuth »
+  - ref.oauth.md: Функції OAuth »
   - index.md: PHP Manual
   - oauth.examples.md: Приклади
 title: FireEagle
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## FireEagle
 

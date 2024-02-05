@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::hasExsltSupport'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XSLTProcessor::hasExsltSupport
 
-(PHP 5> = 5.0.4, PHP 7, PHP 8)
+(PHP 5 >= 5.0.4, PHP 7, PHP 8)
 
 XSLTProcessor::hasExsltSupport — Визначає чи має PHP підтримку EXSLT
 
@@ -18,7 +19,7 @@ XSLTProcessor::hasExsltSupport — Визначає чи має PHP підтри
 public XSLTProcessor::hasExsltSupport(): bool
 ```
 
-Цей метод визначає чи був PHP налаштований з [» библиотекой EXSLT](http://xmlsoft.org/XSLT/EXSLT/index.md)
+Цей метод визначає чи був PHP налаштований з [»Бібліотекою EXSLT](http://xmlsoft.org/XSLT/EXSLT/index.md)
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ public XSLTProcessor::hasExsltSupport(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

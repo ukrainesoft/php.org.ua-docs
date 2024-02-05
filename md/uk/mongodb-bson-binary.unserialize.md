@@ -1,28 +1,29 @@
 ---
 navigation:
-  - mongodb-bson-binary.tostring.md: '« MongoDBBSONBinary::toString'
-  - class.mongodb-bson-decimal128.md: MongoDBBSONDecimal128 »
+  - mongodb-bson-binary.tostring.md: '« MongoDB\\BSON\\Binary::\_\_function toString() { [native code] }'
+  - class.mongodb-bson-decimal128.md: MongoDB\\BSON\\Decimal128 »
   - index.md: PHP Manual
-  - class.mongodb-bson-binary.md: MongoDBBSONBinary
-title: 'MongoDBBSONBinary::unserialize'
+  - class.mongodb-bson-binary.md: MongoDB\\BSON\\Binary
+title: 'MongoDB\\BSON\\Binary::unserialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONBinary::unserialize
+# MongoDB\\BSON\\Binary::unserialize
 
 (mongodb >=1.2.0)
 
-MongoDBBSONBinary::unserialize — Десеріалізує Binary
+MongoDB\\BSON\\Binary::unserialize — Десеріалізує Binary
 
 ### Опис
 
 ```methodsynopsis
-final public MongoDB\BSON\Binary::unserialize(string $serialized): void
+final public MongoDB\BSON\Binary::unserialize(string $data): void
 ```
 
 ### Список параметрів
 
-`serialized`
+`data`
 
-Серіалізований [MongoDBBSONBinary](class.mongodb-bson-binary.md)
+Серіалізований [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.md)
 
 ### Значення, що повертаються
 
@@ -30,12 +31,12 @@ final public MongoDB\BSON\Binary::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   Видає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)якщо властивості не можуть бути десеріалізовані (наприклад, `serialized` був неправильно сформований).
--   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо властивості неприпустимі (наприклад, відсутні поля або неприпустимі значення).
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Видає[MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)якщо властивості не можуть бути десеріалізовані (наприклад,`serialized`був неправильно сформований).
+-   Видає[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо властивості неприпустимі (наприклад, відсутні поля або неприпустимі значення).
 
 ### Дивіться також
 
--   [MongoDBBSONBinary::serialize()](mongodb-bson-binary.serialize.md) - Серіалізує Binary
--   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [MongoDB\\BSON\\Binary::serialize()](mongodb-bson-binary.serialize.md) \- Серіалізує Binary
+-   [unserialize()](function.unserialize.md) \- Створює PHP-значення зі збереженого уявлення
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

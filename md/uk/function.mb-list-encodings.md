@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mb-language.md: « mblanguage
-  - function.mb-ord.md: мбord »
+  - function.mb-language.md: « mb\_language
+  - function.mb-ord.md: mb\_ord »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбlistencodings
+title: mb\_list\_encodings
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбlistencodings
+# mb\_list\_encodings
 
 (PHP 5, PHP 7, PHP 8)
 
-мбlistencodings — Повертає масив усіх кодувань, що підтримуються.
+mb\_list\_encodings — Повертає масив усіх кодувань, що підтримуються.
 
 ### Опис
 
@@ -30,11 +31,11 @@ mb_list_encodings(): array
 
 ### Помилки
 
-Ця функція не породжує жодних помилок.
+Ця функція не видає помилок.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **мбlistencodings()****
+**Пример #1 Пример использования функции**mb\_list\_encodings()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r(mb_list_encodings());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -114,4 +115,4 @@ Array
 
 ### Дивіться також
 
--   [мбencodingaliases()](function.mb-encoding-aliases.md) - Отримує псевдоніми відомого типу кодування
+-   [mb\_encoding\_aliases()](function.mb-encoding-aliases.md) \- Отримує псевдоніми відомого типу кодування

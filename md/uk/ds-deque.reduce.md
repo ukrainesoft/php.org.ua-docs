@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.push.md: '« DsDeque::push'
-  - ds-deque.remove.md: 'ДсDeque::remove »'
+  - ds-deque.push.md: '« Ds\\Deque::push'
+  - ds-deque.remove.md: 'Ds\\Deque::remove »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::reduce'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::reduce'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::reduce
+# Ds\\Deque::reduce
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::reduce — Зменшує колекцію до одного значення, використовуючи callback-функцію
+Ds\\Deque::reduce — Зменшує колекцію до одного значення, використовуючи callback-функцію
 
 ### Опис
 
@@ -46,7 +47,7 @@ callback(mixed $carry, mixed $value): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::reduce()** з початковим значенням**
+**Пример #1 Пример использования**Ds\\Deque::reduce()\*\* з початковим значенням\*\*
 
 ```php
 <?php
@@ -68,13 +69,13 @@ var_dump($deque->reduce($callback, 5));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(30)
 ```
 
-**Приклад #2 Приклад використання **ДсDeque::reduce()** без початкового значення**
+**Пример #2 Пример использования**Ds\\Deque::reduce()\*\* без початкового значення\*\*
 
 ```php
 <?php
@@ -94,7 +95,7 @@ var_dump($deque->reduce(function($carry, $value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(21)

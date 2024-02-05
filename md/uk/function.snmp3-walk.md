@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.snmp3-set.md: « snmpv3set
+  - function.snmp3-set.md: « snmp3\_set
   - function.snmpget.md: snmpget »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
-title: snmpv3walk
+title: snmp3\_walk
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# snmpv3walk
+# snmp3\_walk
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-snmpv3walk — Отримує всі об'єкти SNMP із агента
+snmp3\_walk — Отримує всі об'єкти SNMP із агента
 
 ### Опис
 
 ```methodsynopsis
-snmp3_walk(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
+snmp3_walk(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
 ```
 
-Функція **snmpv3walk()** використовується для читання всіх значень агента SNMP, зазначеного в `hostname`
+Функция**snmp3\_walk()** використовується для читання всіх значень агента SNMP, зазначеного в `hostname`
 
 Навіть якщо рівень безпеки не використовує протокол авторизації або пароль, необхідно вказати коректні значення.
 
@@ -38,7 +39,7 @@ snmp3_walk(    string $hostname,    string $security_name,    string $security_l
 
 `auth_protocol`
 
-Протокол аутентифікації (`"MD5"` `"SHA"` `"SHA256"` або `"SHA512"`
+Протокол аутентифікації (`"MD5"` `"SHA"` `"SHA256"`или`"SHA512"`
 
 `auth_passphrase`
 
@@ -68,17 +69,17 @@ snmp3_walk(    string $hostname,    string $security_name,    string $security_l
 
 ### Значення, що повертаються
 
-Повертає масив значень об'єкта SNMP, починаючи з `object_id` як корінь або **`false`** у разі виникнення помилки.
+Повертає масив значень об'єкта SNMP, починаючи з `object_id` як корінь або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `auth_protocol` тепер приймає `"SHA256"` і `"SHA512"`якщо підтримується libnetsnmp. |
+| 8.1.0 | Параметр`auth_protocol`тепер приймає`"SHA256"`и`"SHA512"`якщо підтримується libnetsnmp. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmpv3walk()****
+**Пример #1 Пример использования**snmp3\_walk()\*\*\*\*
 
 ```php
 <?php
@@ -101,4 +102,4 @@ array (
 
 ### Дивіться також
 
--   [snmpv3realwalk()](function.snmp3-real-walk.md) - Повертає всі об'єкти, включаючи їхній ідентифікатор у зазначеному об'єкті
+-   [snmp3\_real\_walk()](function.snmp3-real-walk.md) \- Повертає всі об'єкти, включаючи їхній ідентифікатор у зазначеному об'єкті

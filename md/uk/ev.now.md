@@ -3,8 +3,9 @@ navigation:
   - ev.iteration.md: '« Ev::iteration'
   - ev.nowupdate.md: 'Ev::nowUpdate »'
   - index.md: PHP Manual
-  - class.ev.md: Єв
+  - class.ev.md: Ev
 title: 'Ev::now'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Ev::now
 
@@ -33,4 +34,4 @@ final
 
 ### Дивіться також
 
--   [Ev::nowUpdate()](ev.nowupdate.md) - Встановлює поточний час шляхом запиту до ядра в процесі оновлюючи час, який повертається Ev::now
+-   [Ev::nowUpdate()](ev.nowupdate.md) \- Встановлює поточний час шляхом запиту до ядра в процесі оновлюючи час, який повертається Ev::now

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - vtiful-kernel-format.align.md: '« VtifulKernelFormat::align'
-  - vtiful-kernel-format.italic.md: 'VtifulKernelFormat::italic »'
+  - vtiful-kernel-format.align.md: '« Vtiful\\Kernel\\Format::align'
+  - vtiful-kernel-format.italic.md: 'Vtiful\\Kernel\\Format::italic »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-format.md: VtifulKernelFormat
-title: 'VtifulKernelFormat::bold'
+  - class.vtiful-kernel-format.md: Vtiful\\Kernel\\Format
+title: 'Vtiful\\Kernel\\Format::bold'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelFormat::bold
+# Vtiful\\Kernel\\Format::bold
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelFormat::bold — Напівжирний
+Vtiful\\Kernel\\Format::bold — Напівжирний
 
 ### Опис
 
@@ -18,7 +19,7 @@ VtifulKernelFormat::bold — Напівжирний
 public Vtiful\Kernel\Format::bold(resource $handle)
 ```
 
-Напівжирний формат [VtifulKernelFormat](class.vtiful-kernel-format.md)
+Напівжирний формат [Vtiful\\Kernel\\Format](class.vtiful-kernel-format.md)
 
 ### Список параметрів
 

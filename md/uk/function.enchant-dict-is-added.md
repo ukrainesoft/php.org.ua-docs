@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.enchant-dict-get-error.md: « enchantdictgeterror
-  - function.enchant-dict-is-in-session.md: enchantdictісінsession »
+  - function.enchant-dict-get-error.md: « enchant\_dict\_get\_error
+  - function.enchant-dict-is-in-session.md: enchant\_dict\_is\_in\_session »
   - index.md: PHP Manual
-  - ref.enchant.md: Функции Enchant
-title: enchantdictісadded
+  - ref.enchant.md: Функції Enchant
+title: enchant\_dict\_is\_added
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# enchantdictісadded
+# enchant\_dict\_is\_added
 
 (PHP 8)
 
-enchantdictісadded - Визначає, чи існує слово в цій орфографічній сесії
+enchant\_dict\_is\_added - Визначає, чи існує слово в цій орфографічній сесії
 
 ### Опис
 
@@ -24,7 +25,7 @@ enchant_dict_is_added(EnchantDictionary $dictionary, string $word): bool
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.md) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 
@@ -36,10 +37,10 @@ enchant_dict_is_added(EnchantDictionary $dictionary, string $word): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [enchantdictaddтоsession()](function.enchant-dict-add-to-session.md) - Додати слово у поточну сесію перевірки
+-   [enchant\_dict\_add\_to\_session()](function.enchant-dict-add-to-session.md) \- Додати слово у поточну сесію перевірки

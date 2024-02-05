@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-div.md: « gmpdiv
-  - function.gmp-export.md: gmpexport »
+  - function.gmp-div.md: « gmp\_div
+  - function.gmp-export.md: gmp\_export »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpdivexact
+title: gmp\_divexact
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpdivexact
+# gmp\_divexact
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpdivexact — Поділ чисел без залишку
+gmp\_divexact — ділить числа без залишку
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpdivexact — Поділ чисел без залишку
 gmp_divexact(GMP|int|string $num1, GMP|int|string $num2): GMP
 ```
 
-ділить число `num1` на `num2`, використовуючи швидкий алгоритм поділу без залишку. Функція видає коректний результат, тільки якщо відомо, що число `num2` ділить `num1` націло.
+ділить число `num1`на`num2`, використовуючи швидкий алгоритм поділу без залишку. Функція видає коректний результат, тільки якщо відомо, що число `num2` ділить `num1`нацело.
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ gmp_divexact(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.md)ю
+Об'єкт класу [GMP](class.gmp.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpdivexact()****
+**Пример #1 Пример использования**gmp\_divexact()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ echo gmp_strval($div2) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 5

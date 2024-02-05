@@ -3,8 +3,9 @@ navigation:
   - function.jdtounix.md: « jdtounix
   - function.juliantojd.md: juliantojd »
   - index.md: PHP Manual
-  - ref.calendar.md: Календарь
+  - ref.calendar.md: Календар
 title: jewishtojd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # jewishtojd
 
@@ -24,7 +25,7 @@ jewishtojd(int $month, int $day, int $year): int
 
 `month`
 
-Номер місяця у вигляді числа від 1 до 13, де `1` означає `Тишрей` `13` означає `Элул`, і `6` *і* `7` означає `Адар` у звичайному році, але `Адар I` і `Адар II`відповідно, у високосному.
+Номер місяця у вигляді числа від 1 до 13, де означає `Тішрей` `13` означає `Елул`, и`6` *і* `7` означає `Адар` у звичайному році, але `Адар I`и`Адар II`відповідно, у високосному.
 
 `day`
 
@@ -40,5 +41,5 @@ jewishtojd(int $month, int $day, int $year): int
 
 ### Дивіться також
 
--   [jdtojewish()](function.jdtojewish.md) - Переказує кількість днів з юліанського календаря на дату за єврейським календарем
--   [calтоjd()](function.cal-to-jd.md) - Перетворює задану дату на юліанську
+-   [jdtojewish()](function.jdtojewish.md) \- Переказує кількість днів з юліанського календаря на дату за єврейським календарем
+-   [cal\_to\_jd()](function.cal-to-jd.md) \- Перетворює задану дату на юліанську

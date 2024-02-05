@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ssh2-shell.md: « ssh2shell
+  - function.ssh2-shell.md: « ssh2\_shell
   - book.stomp.md: Stomp »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2tunnel
+title: ssh2\_tunnel
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2tunnel
+# ssh2\_tunnel
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2tunnel — Відкрити тунель через віддалений сервер
+ssh2\_tunnel — Відкрити тунель через віддалений сервер
 
 ### Опис
 
@@ -24,7 +25,7 @@ ssh2_tunnel(resource $session, string $host, int $port): resource
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.md)
 
 `host`
 
@@ -47,5 +48,5 @@ $tunnel = ssh2_tunnel($connection, '10.0.0.101', 12345);
 
 ### Дивіться також
 
--   [ssh2connect()](function.ssh2-connect.md) - Підключення до SSH-сервера
--   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [ssh2\_connect()](function.ssh2-connect.md) \- Підключення до SSH-сервера
+-   [fsockopen()](function.fsockopen.md) \- Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix

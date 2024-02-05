@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-bulkwrite.delete.md: '« MongoDBDriverBulkWrite::delete'
-  - mongodb-driver-bulkwrite.update.md: 'MongoDBDriverBulkWrite::update »'
+  - mongodb-driver-bulkwrite.delete.md: '« MongoDB\\Driver\\BulkWrite::delete'
+  - mongodb-driver-bulkwrite.update.md: 'MongoDB\\Driver\\BulkWrite::update »'
   - index.md: PHP Manual
-  - class.mongodb-driver-bulkwrite.md: MongoDBDriverBulkWrite
-title: 'MongoDBDriverBulkWrite::insert'
+  - class.mongodb-driver-bulkwrite.md: MongoDB\\Driver\\BulkWrite
+title: 'MongoDB\\Driver\\BulkWrite::insert'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverBulkWrite::insert
+# MongoDB\\Driver\\BulkWrite::insert
 
 (mongodb >=1.0.0)
 
-MongoDBDriverBulkWrite::insert — Додати операцію вставки в порцію
+MongoDB\\Driver\\BulkWrite::insert — Додати операцію вставки в порцію
 
 ### Опис
 
@@ -18,31 +19,31 @@ MongoDBDriverBulkWrite::insert — Додати операцію вставки 
 public MongoDB\Driver\BulkWrite::insert(array|object $document): mixed
 ```
 
-Додаємо операцію вставки в [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)
+Добавляем операцию вставки в[MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.md)
 
 ### Список параметрів
 
-`document` (array | об'єкт)
+`document`(array|object)
 
 Документ для вставлення.
 
 ### Значення, що повертаються
 
-Повертає `_id` доданого документа. Якщо в `document` не було задано `_id`, буде повернутий [MongoDBBSONObjectId](class.mongodb-bson-objectid.md)згенерований для вставки.
+Повертає `_id`добавленного документа. Если в`document` не було задано `_id`, буде повернутий [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md)згенерований для вставки.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL mongodb 1.3.0 | Завжди повертається `_id` для доданого документа. Раніше метод повертав значення тільки якщо [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) був створений. |
+| PECL mongodb 1.3.0 | Завжди повертається `_id` для доданого документа. Раніше метод повертав значення тільки якщо [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md) був створений. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverBulkWrite::insert()****
+**Пример #1 Пример использования**MongoDB\\Driver\\BulkWrite::insert()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ $result = $manager->executeBulkWrite('db.collection', $bulk);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(MongoDB\BSON\ObjectId)#3 (1) {
@@ -78,7 +79,7 @@ NULL
 
 ### Дивіться також
 
--   [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md) - Виконує одну або кілька операцій запису
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md)
--   [MongoDBBSONObjectId](class.mongodb-bson-objectid.md)
--   [MongoDBBSONPersistable](class.mongodb-bson-persistable.md)
+-   [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md) \- Виконує одну або кілька операцій запису
+-   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.md)
+-   [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md)
+-   [MongoDB\\BSON\\Persistable](class.mongodb-bson-persistable.md)

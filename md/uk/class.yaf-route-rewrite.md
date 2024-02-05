@@ -1,18 +1,19 @@
 ---
 navigation:
-  - yaf-route-regex.route.md: '« YafRouteRegex::route'
-  - yaf-route-rewrite.assemble.md: 'YafRouteRewrite::assemble »'
+  - yaf-route-regex.route.md: '« Yaf\_Route\_Regex::route'
+  - yaf-route-rewrite.assemble.md: 'Yaf\_Route\_Rewrite::assemble »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafRouteRewrite
+title: Клас Yaf\_Route\_Rewrite
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafRouteRewrite
+# Клас Yaf\_Route\_Rewrite
 
 (Yaf >=1.0.0)
 
 ## Вступ
 
-Приклад використання дивіться у розділі прикладів [YafRouteRewrite::construct()](yaf-route-rewrite.construct.md)
+Пример использования смотрите в разделе примеров[Yaf\_Route\_Rewrite::\_\_construct()](yaf-route-rewrite.construct.md)
 
 ## Огляд класів
 
@@ -64,14 +65,14 @@ abstract public Yaf_Route_Interface::route(Yaf_Request_Abstract $request): bool
 
 ## Властивості
 
-route
+\_route
 
-default
+\_default
 
-verify
+\_verify
 
 ## Зміст
 
--   [YafRouteRewrite::assemble](yaf-route-rewrite.assemble.md) - Збирає URL
--   [YafRouteRewrite::construct](yaf-route-rewrite.construct.md) - Конструктор класу YafRouteRewrite
--   [YafRouteRewrite::route](yaf-route-rewrite.route.md) - Призначення route
+-   [Yaf\_Route\_Rewrite::assemble](yaf-route-rewrite.assemble.md) \- Збирає URL
+-   [Yaf\_Route\_Rewrite::\_\_construct](yaf-route-rewrite.construct.md) \- Конструктор класу Yaf\_Route\_Rewrite
+-   [Yaf\_Route\_Rewrite::route](yaf-route-rewrite.route.md) \- Призначення route

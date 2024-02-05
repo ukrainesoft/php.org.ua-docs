@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-tableupdate.execute.md: '« TableUpdate::execute'
   - mysql-xdevapi-tableupdate.orderby.md: 'TableUpdate::orderby »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
+  - class.mysql-xdevapi-tableupdate.md: mysql\_xdevapi\\TableUpdate
 title: 'TableUpdate::limit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableUpdate::limit
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableUpdate::limit(int $rows): mysql_xdevapi\TableUpdate
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableUpdate::limit()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::limit()\*\*\*\*
 
 ```php
 <?php

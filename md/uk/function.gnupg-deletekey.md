@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gnupg-decryptverify.md: « gnupgdecryptverify
-  - function.gnupg-encrypt.md: gnupgencrypt »
+  - function.gnupg-decryptverify.md: « gnupg\_decryptverify
+  - function.gnupg-encrypt.md: gnupg\_encrypt »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgdeletekey
+title: gnupg\_deletekey
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgdeletekey
+# gnupg\_deletekey
 
 (PECL gnupg >= 0.5)
 
-gnupgdeletekey — Видаляє ключ зі зв'язування ключів
+gnupg\_deletekey — Видаляє ключ зі зв'язування ключів
 
 ### Опис
 
@@ -22,7 +23,7 @@ gnupg_deletekey(resource $identifier, string $key, bool $allow_secret): bool
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `key`
 
@@ -34,11 +35,11 @@ gnupg_deletekey(resource $identifier, string $key, bool $allow_secret): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupgdeletekey()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_deletekey()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ gnupg_deletekey($res, "8660281B6051D071D94B5B230549F9DC851566DC");
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupgdeletekey()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_deletekey()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

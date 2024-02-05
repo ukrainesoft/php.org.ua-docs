@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::mount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::mount
 
@@ -36,11 +37,11 @@ final public static Phar::mount(string $pharPath, string $externalPath): void
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.md) у разі виникнення помилок.
+Викидає виняток [PharException](class.pharexception.md)при возникновении ошибок.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::mount()****
+**Пример #1 Пример использования**Phar::mount()\*\*\*\*
 
 У наступному прикладі демонструється доступ до зовнішнього конфігураційного файлу, наче він знаходиться всередині архіву.
 

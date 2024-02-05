@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getMethod'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getMethod
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::getMethod — Повертає екземпляр [ReflectionMethod](class.reflectionmethod.md) для методу класу
+ReflectionClass::getMethod — Повертає екземпляр [ReflectionMethod](class.reflectionmethod.md)для метода класса
 
 ### Опис
 
@@ -18,7 +19,7 @@ ReflectionClass::getMethod — Повертає екземпляр [ReflectionMe
 public ReflectionClass::getMethod(string $name): ReflectionMethod
 ```
 
-Повертає екземпляр [ReflectionMethod](class.reflectionmethod.md) для методу класу
+Повертає екземпляр [ReflectionMethod](class.reflectionmethod.md)для метода класса.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public ReflectionClass::getMethod(string $name): ReflectionMethod
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getMethod()****
+**Пример #1 Пример использования**ReflectionClass::getMethod()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($method);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(ReflectionMethod)#2 (2) {
@@ -59,4 +60,4 @@ object(ReflectionMethod)#2 (2) {
 
 ### Дивіться також
 
--   [ReflectionClass::getMethods()](reflectionclass.getmethods.md) - Повертає список методів у вигляді масиву
+-   [ReflectionClass::getMethods()](reflectionclass.getmethods.md) \- Повертає список методів у вигляді масиву

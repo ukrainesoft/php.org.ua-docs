@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::addnoiseimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::addnoiseimage
 
@@ -24,7 +25,7 @@ public Gmagick::addnoiseimage(int $noise_type): Gmagick
 
 `noise_type`
 
-Тип шуму. Дивіться список [констант типа шума](gmagick.constants.md#gmagick.constants.noise)
+Тип шума. Смотрите список[констант типу шуму](gmagick.constants.md#gmagick.constants.noise)
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ public Gmagick::addnoiseimage(int $noise_type): Gmagick
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

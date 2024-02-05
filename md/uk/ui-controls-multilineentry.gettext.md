@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-multilineentry.construct.md: '« UIControlsMultilineEntry::construct'
-  - ui-controls-multilineentry.isreadonly.md: 'ОЙControlsMultilineEntry::isReadOnly »'
+  - ui-controls-multilineentry.construct.md: '« UI\\Controls\\MultilineEntry::\_\_construct'
+  - ui-controls-multilineentry.isreadonly.md: 'UI\\Controls\\MultilineEntry::isReadOnly »'
   - index.md: PHP Manual
-  - class.ui-controls-multilineentry.md: ОЙControlsMultilineEntry
-title: 'ОЙControlsMultilineEntry::getText'
+  - class.ui-controls-multilineentry.md: UI\\Controls\\MultilineEntry
+title: 'UI\\Controls\\MultilineEntry::getText'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsMultilineEntry::getText
+# UI\\Controls\\MultilineEntry::getText
 
 (UI 0.9.9)
 
-ОЙControlsMultilineEntry::getText — Отримати текст
+UI\\Controls\\MultilineEntry::getText — Отримати текст
 
 ### Опис
 

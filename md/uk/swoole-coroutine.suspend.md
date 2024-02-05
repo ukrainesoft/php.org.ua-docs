@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine.resume.md: '« SwooleCoroutine::resume'
-  - class.swoole-event.md: SwooleEvent »
+  - swoole-coroutine.resume.md: '« Swoole\\Coroutine::resume'
+  - class.swoole-event.md: Swoole\\Event »
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutine::suspend'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine::suspend'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutine::suspend
+# Swoole\\Coroutine::suspend
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutine::suspend — Опис
+Swoole\\Coroutine::suspend — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public static Swoole\Coroutine::suspend(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

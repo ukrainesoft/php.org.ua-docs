@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcache.md: Memcache
 title: 'Memcache::getServerStatus'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcache::getServerStatus
 
@@ -18,9 +19,9 @@ Memcache::getServerStatus — Повертає статус сервера
 Memcache::getServerStatus(string $host, int $port = 11211): int
 ```
 
-**Memcache::getServerStatus()** повертає статус онлайн/офлайн-серверів. Ви також можете використати функцію **memcachegetserverstatus()**
+**Memcache::getServerStatus()** повертає статус онлайн/офлайн-серверів. Ви також можете використати функцію **memcache\_get\_server\_status()**
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція була додана до Memcache версії 2.1.0.
 
@@ -40,7 +41,7 @@ Memcache::getServerStatus(string $host, int $port = 11211): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcache::getServerStatus()****
+**Пример #1 Пример использования**Memcache::getServerStatus()\*\*\*\*
 
 ```php
 <?php
@@ -59,5 +60,5 @@ echo memcache_get_server_status($memcache, 'memcache_host', 11211);
 
 ### Дивіться також
 
--   [Memcache::addServer()](memcache.addserver.md) - Додає сервер memcached в пул з'єднань
--   [Memcache::setServerParams()](memcache.setserverparams.md) - Змінює параметри сервера та статус під час виконання
+-   [Memcache::addServer()](memcache.addserver.md) \- Додає сервер memcached в пул з'єднань
+-   [Memcache::setServerParams()](memcache.setserverparams.md) \- Змінює параметри сервера та статус під час виконання

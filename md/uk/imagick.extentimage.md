@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::extentImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::extentImage
 
@@ -15,7 +16,7 @@ Imagick::extentImage — Встановлює розмір зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::extentImage(    int $width,    int $height,    int $x,    int $y): bool
+public Imagick::extentImage(    int $width,    int $height,    int $x,    int $y): bool
 ```
 
 Зручний спосіб встановлення розміру зображення. Метод встановлює розмір зображення і дозволяє встановити координати x,y там, де починається нова область. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.1 або старшим.
@@ -48,6 +49,6 @@ public Imagick::extentImage(    int $width,    int $height,    int $x,    int $y
 
 ### Дивіться також
 
--   [Imagick::resizeImage()](imagick.resizeimage.md) - Масштабує зображення
--   [Imagick::thumbnailImage()](imagick.thumbnailimage.md) - Змінює розмір зображення
--   [Imagick::cropImage()](imagick.cropimage.md) - Витягує область зображення
+-   [Imagick::resizeImage()](imagick.resizeimage.md) \- Масштабує зображення
+-   [Imagick::thumbnailImage()](imagick.thumbnailimage.md) \- Змінює розмір зображення
+-   [Imagick::cropImage()](imagick.cropimage.md) \- Витягує область зображення

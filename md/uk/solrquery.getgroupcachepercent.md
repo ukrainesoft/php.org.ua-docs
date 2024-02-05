@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getGroupCachePercent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getGroupCachePercent
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrQuery::getGroupCachePercent — Повертає процентне значення групового кешу
 
@@ -28,4 +29,4 @@ public SolrQuery::getGroupCachePercent(): int
 
 ### Дивіться також
 
--   [SolrQuery::setGroupCachePercent()](solrquery.setgroupcachepercent.md) - Включає кешування для угруповання результатів
+-   [SolrQuery::setGroupCachePercent()](solrquery.setgroupcachepercent.md) \- Включає кешування для угруповання результатів

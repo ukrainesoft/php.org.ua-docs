@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-queue.pop.md: '« DsQueue::pop'
-  - ds-queue.toarray.md: 'ДсQueue::toArray »'
+  - ds-queue.pop.md: '« Ds\\Queue::pop'
+  - ds-queue.toarray.md: 'Ds\\Queue::toArray »'
   - index.md: PHP Manual
-  - class.ds-queue.md: Черга
-title: 'ДсQueue::push'
+  - class.ds-queue.md: Ds\\Queue
+title: 'Ds\\Queue::push'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсQueue::push
+# Ds\\Queue::push
 
 (PECL ds >= 1.0.0)
 
-ДсQueue::push — Додає значення в чергу
+Ds\\Queue::push — Додає значення в чергу
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсQueue::push'
 public Ds\Queue::push(mixed ...$values): void
 ```
 
-Додає значення `values` в чергу.
+Добавляет значения`values` в чергу.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public Ds\Queue::push(mixed ...$values): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсQueue::push()****
+**Пример #1 Пример использования**Ds\\Queue::push()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ print_r($queue);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Queue Object

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.allocate.md: '« DsSequence::allocate'
-  - ds-sequence.capacity.md: 'ДсSequence::capacity »'
+  - ds-sequence.allocate.md: '« Ds\\Sequence::allocate'
+  - ds-sequence.capacity.md: 'Ds\\Sequence::capacity »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::apply'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::apply'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::apply
+# Ds\\Sequence::apply
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::apply — Оновлення всіх значень застосуванням до них переданої callback-функції
+Ds\\Sequence::apply — Оновлення всіх значень застосуванням до них переданої callback-функції
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсSequence::apply'
 abstract public Ds\Sequence::apply(callable $callback): void
 ```
 
-Оновлення всіх значень застосуванням до них переданої `callback`функції.
+Оновлення всіх значень застосуванням до них переданої `callback`\-функції.
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ Callback-функція має повертати нове значення, я�
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::apply()****
+**Пример #1 Пример использования**Ds\\Sequence::apply()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ print_r($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

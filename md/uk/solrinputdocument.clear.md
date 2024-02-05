@@ -1,14 +1,15 @@
 ---
 navigation:
   - solrinputdocument.addfield.md: '« SolrInputDocument::addField'
-  - solrinputdocument.clone.md: 'SolrInputDocument::clone »'
+  - solrinputdocument.clone.md: 'SolrInputDocument::\_\_clone »'
   - index.md: PHP Manual
   - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrInputDocument::clear
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrInputDocument::clear — Скидає вхідний документ
 
@@ -26,4 +27,4 @@ public SolrInputDocument::clear(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

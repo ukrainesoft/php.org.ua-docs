@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-trix.md: « tradertrix
-  - function.trader-typprice.md: tradertypprice »
+  - function.trader-trix.md: « trader\_trix
+  - function.trader-typprice.md: trader\_typprice »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradertsf
+  - ref.trader.md: Функції Trader
+title: trader\_tsf
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradertsf
+# trader\_tsf
 
 (PECL trader >= 0.2.0)
 
-tradertsf - Прогноз тимчасового ряду
+trader\_tsf - Прогноз тимчасового ряду
 
 ### Опис
 

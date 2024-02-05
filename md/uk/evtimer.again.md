@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.evtimer.md: « EvTimer
-  - evtimer.construct.md: 'EvTimer::construct »'
+  - evtimer.construct.md: 'EvTimer::\_\_construct »'
   - index.md: PHP Manual
   - class.evtimer.md: EvTimer
 title: 'EvTimer::again'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvTimer::again
 
@@ -23,7 +24,7 @@ public
 
 1.  якщо таймер перебуває в режимі очікування, його очікування очищається.
     
-2.  якщо таймер запущений, але не повторюється, зупиняє його (якби він закінчився).
+2.  якщо таймер запущено, але не повторюється, зупиняє його (якби він закінчився).
     
 3.  якщо таймер повторюється, або запускає його, за необхідності (зі значенням repeat), або скидає таймер запуску значення repeat.
     
@@ -38,4 +39,4 @@ public
 
 ### Дивіться також
 
--   [EvWatcher::stop()](evwatcher.stop.md) - зупиняє спостерігача
+-   [EvWatcher::stop()](evwatcher.stop.md) \- зупиняє спостерігача

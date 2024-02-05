@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::pullup'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBuffer::pullup
 
@@ -22,7 +23,7 @@ public
    ): string
 ```
 
-"Лінеаризує" перші `size` байти буфера, копіюючи або переміщуючи їх у міру необхідності, щоб гарантувати, що всі вони є суміжними і займають один і той же шматок пам'яті. Якщо розмір негативний, функція лінеаризує весь буфер.
+"Лінеаризує" перші `size` байти буфера, копіюючи або переміщуючи їх за необхідності, щоб гарантувати, що всі вони є суміжними і займають один і той же шматок пам'яті. Якщо розмір негативний, функція лінеаризує весь буфер.
 
 **Увага**
 
@@ -40,8 +41,8 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::copyout()](eventbuffer.copyout.md) - Копіює вказану кількість байтів з початку буфера
--   [EventBuffer::drain()](eventbuffer.drain.md) - Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
--   [EventBuffer::read()](eventbuffer.read.md) - Читає дані з evbuffer та виснажує прочитані байти
--   [EventBuffer::readLine()](eventbuffer.readline.md) - Витягує рядок із початку буфера
--   [EventBuffer::appendFrom()](eventbuffer.appendfrom.md) - Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
+-   [EventBuffer::copyout()](eventbuffer.copyout.md) \- Копіює вказану кількість байтів з початку буфера
+-   [EventBuffer::drain()](eventbuffer.drain.md) \- Видаляє вказану кількість байтів з початку буфера, нікуди не копіюючи
+-   [EventBuffer::read()](eventbuffer.read.md) \- Читає дані з evbuffer та виснажує прочитані байти
+-   [EventBuffer::readLine()](eventbuffer.readline.md) \- Витягує рядок із початку буфера
+-   [EventBuffer::appendFrom()](eventbuffer.appendfrom.md) \- Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера

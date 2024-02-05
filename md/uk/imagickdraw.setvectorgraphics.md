@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setVectorGraphics'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setVectorGraphics
 
@@ -20,7 +21,7 @@ public ImagickDraw::setVectorGraphics(string $xml): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Встановлює векторну графіку, пов'язану із зазначеним об'єктом ImagickDraw. Метод використовується з [ImagickDraw::getVectorGraphics()](imagickdraw.getvectorgraphics.md) як метод збереження стану векторної графіки.
 
@@ -32,11 +33,11 @@ XML, що містить векторну графіку.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setVectorGraphics()****
+**Пример #1 Пример использования**ImagickDraw::setVectorGraphics()\*\*\*\*
 
 ```php
 <?php

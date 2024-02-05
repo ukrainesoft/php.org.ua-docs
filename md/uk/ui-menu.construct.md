@@ -1,20 +1,21 @@
 ---
 navigation:
-  - ui-menu.appendseparator.md: '« UIMenu::appendSeparator'
-  - class.ui-menuitem.md: ОЙMenuItem »
+  - ui-menu.appendseparator.md: '« UI\\Menu::appendSeparator'
+  - class.ui-menuitem.md: UI\\MenuItem »
   - index.md: PHP Manual
-  - class.ui-menu.md: ОЙMenu
-title: 'ОЙMenu::construct'
+  - class.ui-menu.md: UI\\Menu
+title: 'UI\\Menu::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙMenu::construct
+# UI\\Menu::\_\_construct
 
 (UI 0.9.9)
 
-ОЙMenu::construct — Створити новий об'єкт Menu
+UI\\Menu::\_\_construct — Створити новий об'єкт Menu
 
 ### Опис
 
-public **ОЙMenu::construct**(string `$name`
+public**UI\\Menu::\_\_construct**(string`$name`) .
 
 Створить новий об'єкт Menu
 

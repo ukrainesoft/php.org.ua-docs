@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-get-hook.md: « uopzgethook
-  - function.uopz-get-property.md: uopzgetproperty »
+  - function.uopz-get-hook.md: « uopz\_get\_hook
+  - function.uopz-get-property.md: uopz\_get\_property »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzgetmock
+title: uopz\_get\_mock
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzgetmock
+# uopz\_get\_mock
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzgetmock — Отримати поточний імітатор для класу.
+uopz\_get\_mock — Отримати поточний імітатор для класу.
 
 ### Опис
 
@@ -32,7 +33,7 @@ uopz_get_mock(string $class): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzgetmock()****
+**Пример #1 Пример использования**uopz\_get\_mock()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ echo uopz_get_mock(A::class);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 mockA
@@ -61,5 +62,5 @@ mockA
 
 ### Дивіться також
 
--   [uopzsetmock()](function.uopz-set-mock.md) - Використовувати імітатор замість класу для нових об'єктів
--   [uopzunsetmock()](function.uopz-unset-mock.md) - Видалити раніше встановлений імітатор
+-   [uopz\_set\_mock()](function.uopz-set-mock.md) \- Використовувати імітатор замість класу для нових об'єктів
+-   [uopz\_unset\_mock()](function.uopz-unset-mock.md) \- Видалити раніше встановлений імітатор

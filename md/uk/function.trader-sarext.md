@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-sar.md: « tradersar
-  - function.trader-set-compat.md: tradersetcompat »
+  - function.trader-sar.md: « trader\_sar
+  - function.trader-set-compat.md: trader\_set\_compat »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradersarext
+  - ref.trader.md: Функції Trader
+title: trader\_sarext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradersarext
+# trader\_sarext
 
 (PECL trader >= 0.2.0)
 
-tradersarext - Параболічний SAR - розширений
+trader\_sarext - Параболічний SAR - розширений
 
 ### Опис
 
 ```methodsynopsis
-trader_sarext(    array $high,    array $low,    float $startValue = ?,    float $offsetOnReverse = ?,    float $accelerationInitLong = ?,    float $accelerationLong = ?,    float $accelerationMaxLong = ?,    float $accelerationInitShort = ?,    float $accelerationShort = ?,    float $accelerationMaxShort = ?): array
+trader_sarext(    array $high,    array $low,    float $startValue = ?,    float $offsetOnReverse = ?,    float $accelerationInitLong = ?,    float $accelerationLong = ?,    float $accelerationMaxLong = ?,    float $accelerationInitShort = ?,    float $accelerationShort = ?,    float $accelerationMaxShort = ?): array
 ```
 
 ### Список параметрів
@@ -30,35 +31,35 @@ trader_sarext(    array $high,    array $low,    float $startValue = ?,    float
 
 `startValue`
 
-Початкове значення та напрямок. 0 для автоматичного спрямування, > 0 для довгого спрямування, < 0 для короткого спрямування. Допустимий діапазон від [TRADERREALMIN](trader.constants.md#constant.trader-real-min) до [TRADERREALMAX](trader.constants.md#constant.trader-real-max)
+Початкове значення та напрямок. 0 для автоматичного спрямування, > 0 для довгого спрямування, < 0 для короткого спрямування. Допустимий діапазон від [TRADER\_REAL\_MIN](trader.constants.md#constant.trader-real-min)до[TRADER\_REAL\_MAX](trader.constants.md#constant.trader-real-max)
 
 `offsetOnReverse`
 
-Процентне зміщення додано/видалено до початкової зупинки при короткому/довгому розвороті. Допустимий діапазон від 0 до [TRADERREALMAX](trader.constants.md#constant.trader-real-max)
+Процентне зміщення додано/видалено до початкової зупинки при короткому/довгому розвороті. Допустимий діапазон від 0 до [TRADER\_REAL\_MAX](trader.constants.md#constant.trader-real-max)
 
 `accelerationInitLong`
 
-Початкове значення коефіцієнта прискорення для довгого спрямування. Допустимий діапазон від 0 до [TRADERREALMAX](trader.constants.md#constant.trader-real-max)
+Початкове значення коефіцієнта прискорення для довгого спрямування. Допустимий діапазон від 0 до [TRADER\_REAL\_MAX](trader.constants.md#constant.trader-real-max)
 
 `accelerationLong`
 
-Коефіцієнт прискорення для довгого спрямування. Допустимий діапазон від 0 до [TRADERREALMAX](trader.constants.md#constant.trader-real-max)
+Коефіцієнт прискорення для довгого спрямування. Допустимий діапазон від 0 до [TRADER\_REAL\_MAX](trader.constants.md#constant.trader-real-max)
 
 `accelerationMaxLong`
 
-Максимальне значення коефіцієнта прискорення для довгого спрямування. Допустимий діапазон від 0 до [TRADERREALMAX](trader.constants.md#constant.trader-real-max)
+Максимальне значення коефіцієнта прискорення для довгого спрямування. Допустимий діапазон від 0 до [TRADER\_REAL\_MAX](trader.constants.md#constant.trader-real-max)
 
 `accelerationInitShort`
 
-Початкове значення коефіцієнта прискорення для короткого спрямування. Допустимий діапазон від 0 до [TRADERREALMAX](trader.constants.md#constant.trader-real-max)
+Початкове значення коефіцієнта прискорення для короткого спрямування. Допустимий діапазон від 0 до [TRADER\_REAL\_MAX](trader.constants.md#constant.trader-real-max)
 
 `accelerationShort`
 
-Коефіцієнт прискорення для короткого спрямування. Допустимий діапазон від 0 до [TRADERREALMAX](trader.constants.md#constant.trader-real-max)
+Коефіцієнт прискорення для короткого спрямування. Допустимий діапазон від 0 до [TRADER\_REAL\_MAX](trader.constants.md#constant.trader-real-max)
 
 `accelerationMaxShort`
 
-Максимальне значення коефіцієнта прискорення для короткого спрямування. Допустимий діапазон від 0 до [TRADERREALMAX](trader.constants.md#constant.trader-real-max)
+Максимальне значення коефіцієнта прискорення для короткого спрямування. Допустимий діапазон від 0 до [TRADER\_REAL\_MAX](trader.constants.md#constant.trader-real-max)
 
 ### Значення, що повертаються
 

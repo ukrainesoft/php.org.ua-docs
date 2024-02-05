@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-nb-put.md: « ftpнбput
-  - function.ftp-pasv.md: ftppasv »
+  - function.ftp-nb-put.md: « ftp\_nb\_put
+  - function.ftp-pasv.md: ftp\_pasv »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpnlist
+title: ftp\_nlist
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpnlist
+# ftp\_nlist
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftpnlist — Повертає список файлів у заданій директорії
+ftp\_nlist — Повертає список файлів у заданій директорії
 
 ### Опис
 
@@ -22,7 +23,7 @@ ftp_nlist(FTP\Connection $ftp, string $directory): array|false
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `directory`
 
@@ -30,17 +31,17 @@ ftp_nlist(FTP\Connection $ftp, string $directory): array|false
 
 ### Значення, що повертаються
 
-Повертає масив імен файлів у директорії або **`false`** у разі виникнення помилки.
+Повертає масив імен файлів у директорії або \*\*`false`\*\*при возникновении ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpnlist()****
+**Пример #1 Пример использования**ftp\_nlist()\*\*\*\*
 
 ```php
 <?php
@@ -74,5 +75,5 @@ array(3) {
 
 ### Дивіться також
 
--   [ftprawlist()](function.ftp-rawlist.md) - Повертає докладний список файлів у заданій директорії
--   [ftpmlsd()](function.ftp-mlsd.md) - Повертає список файлів у заданій директорії
+-   [ftp\_rawlist()](function.ftp-rawlist.md) \- Повертає докладний список файлів у заданій директорії
+-   [ftp\_mlsd()](function.ftp-mlsd.md) \- Повертає список файлів у заданій директорії

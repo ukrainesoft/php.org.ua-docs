@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.uconverter.md: UConverter
 title: 'UConverter::toUCallback'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # UConverter::toUCallback
 
@@ -15,12 +16,12 @@ UConverter::toUCallback — Callback-функція за промовчання�
 ### Опис
 
 ```methodsynopsis
-public UConverter::toUCallback(    int $reason,    string $source,    string $codeUnits,    int &$error): string|int|array|null
+public UConverter::toUCallback(    int $reason,    string $source,    string $codeUnits,    int &$error): string|int|array|null
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
   - function.assert.md: « assert
-  - function.cli-set-process-title.md: clisetprocesstitle »
+  - function.cli-set-process-title.md: cli\_set\_process\_title »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: cligetprocesstitle
+title: cli\_get\_process\_title
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cligetprocesstitle
+# cli\_get\_process\_title
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-cligetprocesstitle — Повертає заголовок поточного процесу
+cli\_get\_process\_title — Повертає заголовок поточного процесу
 
 ### Опис
 
@@ -18,7 +19,7 @@ cligetprocesstitle — Повертає заголовок поточного п
 cli_get_process_title(): ?string
 ```
 
-Повертає заголовок поточного процесу, встановлений [clisetprocesstitle()](function.cli-set-process-title.md). Зауважте, що залежно від вашої операційної системи, це ім'я може не збігатися з тим, що покажуть утиліти **пс** і **top**
+Повертає заголовок поточного процесу, встановлений [cli\_set\_process\_title()](function.cli-set-process-title.md). Зауважте, що залежно від вашої операційної системи, це ім'я може не збігатися з тим, що покажуть утиліти **ps**и**top**
 
 Ця функція доступна лише в режимі [CLI](features.commandline.md)
 
@@ -28,7 +29,7 @@ cli_get_process_title(): ?string
 
 ### Значення, що повертаються
 
-Поверне рядок із заголовком процесу або **`null`** у разі виникнення помилки.
+Поверне рядок із заголовком процесу або \*\*`null`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -36,7 +37,7 @@ cli_get_process_title(): ?string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cligetprocesstitle()****
+**Пример #1 Пример использования**cli\_get\_process\_title()\*\*\*\*
 
 ```php
 <?php
@@ -46,4 +47,4 @@ echo "Заголовок процесса: " . cli_get_process_title() . "\n";
 
 ### Дивіться також
 
--   [clisetprocesstitle()](function.cli-set-process-title.md) - Встановлює заголовок процесу
+-   [cli\_set\_process\_title()](function.cli-set-process-title.md) \- Встановлює заголовок процесу

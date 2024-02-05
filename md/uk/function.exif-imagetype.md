@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.exif.md: « Exif Функції
-  - function.exif-read-data.md: exifreaddata »
+  - function.exif-read-data.md: exif\_read\_data »
   - index.md: PHP Manual
   - ref.exif.md: Exif Функції
-title: exifimagetype
+title: exif\_imagetype
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# exifimagetype
+# exif\_imagetype
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-exifimagetype — Визначте type of an image
+exif\_imagetype — Determine the type of an image
 
 ### Опис
 
@@ -18,9 +19,9 @@ exifimagetype — Визначте type of an image
 exif_imagetype(string $filename): int|false
 ```
 
-**exifimagetype()** зчитує початкові байти зображення та перевіряє їх сигнатуру.
+**exif\_imagetype()** зчитує початкові байти зображення та перевіряє їх сигнатуру.
 
-**exifimagetype()** може використовуватися, щоб уникнути інших викликів [exif-функций](ref.exif.md) з непідтримуваними аргументами. Також при взаємодії з [SERVER\['HTTPACCEPT'\]](reserved.variables.server.md) можна перевіряти, чи зображення відображатиметься у браузері.
+**exif\_imagetype()** може використовуватися, щоб уникнути інших викликів [exif-функцій](ref.exif.md) з непідтримуваними аргументами. Також при взаємодії з [$\_SERVER\['HTTP\_ACCEPT'\]](reserved.variables.server.md) можна перевіряти, чи зображення відображатиметься у браузері.
 
 ### Список параметрів
 
@@ -30,9 +31,9 @@ exif_imagetype(string $filename): int|false
 
 ### Значення, що повертаються
 
-Якщо виявлено коректну сигнатуру, функція поверне відповідну типу зображення константу. Інакше функція поверне **`false`**. Значення, що повертається те ж, що і в другому аргументі при поверненні з функції [getimagesize()](function.getimagesize.md), однак **exifimagetype()** значно швидше.
+Якщо виявлено коректну сигнатуру, функція поверне відповідну типу зображення константу. Інакше функція поверне **`false`**. Значення, що повертається те ж, що і в другому аргументі при поверненні з функції [getimagesize()](function.getimagesize.md), однак **exif\_imagetype()** значно швидше.
 
-Наступні певні константи представляють можливі значення функції, що повертаються **exifimagetype()**
+Наступні певні константи представляють можливі значення функції, що повертаються **exif\_imagetype()** :
 
 **Константи Imagetype**
 
@@ -40,36 +41,38 @@ exif_imagetype(string $filename): int|false
 | --- | --- |
 |  | **`IMAGETYPE_GIF`** |
 |  | **`IMAGETYPE_JPEG`** |
-|  | **`IMAGETYPE_PNG`** |
-|  | **`IMAGETYPE_SWF`** |
-|  | **`IMAGETYPE_PSD`** |
-|  | **`IMAGETYPE_BMP`** |
-|  | **`IMAGETYPE_TIFF_II`** (порядок байт intel) |
-|  | **`IMAGETYPE_TIFF_MM`** (Порядок байт motorola) |
-|  | **`IMAGETYPE_JPC`** |
-|  | **`IMAGETYPE_JP2`** |
-|  | **`IMAGETYPE_JPX`** |
-|  | **`IMAGETYPE_JB2`** |
-|  | **`IMAGETYPE_SWC`** |
-|  | **`IMAGETYPE_IFF`** |
-|  | **`IMAGETYPE_WBMP`** |
-|  | **`IMAGETYPE_XBM`** |
-|  | **`IMAGETYPE_ICO`** |
-|  | **`IMAGETYPE_WEBP`** |
+| 3 | **`IMAGETYPE_PNG`** |
+| 4 | **`IMAGETYPE_SWF`** |
+| 5 | **`IMAGETYPE_PSD`** |
+| 6 | **`IMAGETYPE_BMP`** |
+| 7 | **`IMAGETYPE_TIFF_II`** (порядок байт intel) |
+| 8 | **`IMAGETYPE_TIFF_MM`** (Порядок байт motorola) |
+| 9 | **`IMAGETYPE_JPC`** |
+| 10 | **`IMAGETYPE_JP2`** |
+| 11 | **`IMAGETYPE_JPX`** |
+| 12 | **`IMAGETYPE_JB2`** |
+| 13 | **`IMAGETYPE_SWC`** |
+| 14 | **`IMAGETYPE_IFF`** |
+| 15 | **`IMAGETYPE_WBMP`** |
+| 16 | **`IMAGETYPE_XBM`** |
+| 17 | **`IMAGETYPE_ICO`** |
+| 18 | **`IMAGETYPE_WEBP`** |
+| 19 | **`IMAGETYPE_AVIF`** |
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> У випадках, коли неможливо рахувати кількість байтів із файлу достатню для визначення типу зображення, функція **exifimagetype()** викличе попередження рівня **`E_NOTICE`** і поверне **`false`**
+> В случаях, когда невозможно считать количество байтов из файла достаточное для определения типа изображения, функция**exif\_imagetype()** викличе попередження рівня **`E_NOTICE`** і поверне **`false`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Додано підтримку WebP. |
+| 8.1.0 | Додано підтримку AVIF. |
+| 7.1.0 | Додано підтримку WebP. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **exifimagetype()****
+**Пример #1 Пример использования**exif\_imagetype()\*\*\*\*
 
 ```php
 <?php
@@ -81,5 +84,5 @@ if (exif_imagetype('image.gif') != IMAGETYPE_GIF) {
 
 ### Дивіться також
 
--   [imagetypeтоmimetype()](function.image-type-to-mime-type.md) - Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exifreaddata, exifthumbnail, exifimagetype
--   [getimagesize()](function.getimagesize.md) - Отримання розміру зображення
+-   [image\_type\_to\_mime\_type()](function.image-type-to-mime-type.md) \- Отримання Mime-типу для типу зображення, що повертається функціями getimagesize, exif\_read\_data, exif\_thumbnail, exif\_imagetype
+-   [getimagesize()](function.getimagesize.md) \- Отримання розміру зображення

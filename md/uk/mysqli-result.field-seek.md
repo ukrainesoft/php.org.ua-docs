@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-result.field-count.md: '« mysqliresult::$fieldcount'
-  - mysqli-result.free.md: 'mysqliresult::free »'
+  - mysqli-result.field-count.md: '« mysqli\_result::$field\_count'
+  - mysqli-result.free.md: 'mysqli\_result::free »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::fieldseek'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::field\_seek'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::fieldseek
+# mysqli\_result::field\_seek
 
-# mysqlifieldseek
+# mysqli\_field\_seek
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliresult::fieldseek - mysqlifieldseek — Встановити вказівник поля на певне усунення
+mysqli\_result::field\_seek -- mysqli\_field\_seek — Встановити вказівник поля на певне усунення
 
 ### Опис
 
@@ -28,9 +29,9 @@ public mysqli_result::field_seek(int $index): bool
 mysqli_field_seek(mysqli_result $result, int $index): bool
 ```
 
-Встановлює вказівник поля на задане усунення. Наступний виклик [mysqlifetchfield()](mysqli-result.fetch-field.md) дозволить отримати інформацію про стовпчик з позицією усунення.
+Встановлює вказівник поля на задане усунення. Наступний виклик [mysqli\_fetch\_field()](mysqli-result.fetch-field.md) дозволить отримати інформацію про стовпчик з позицією усунення.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Для пошуку з початку рядка необхідно встановити нульове значення усунення.
 
@@ -38,15 +39,21 @@ mysqli_field_seek(mysqli_result $result, int $index): bool
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 `index`
 
-Номер поля. Це значення має бути в наступному діапазоні: від `0` до `число полей - 1`
+Номер поля. Це значення має бути в наступному діапазоні: від до`число полів – 1`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.0.0 | Функція тепер завжди повертає значення **`true`**. . Раніше вона повертала значення \*\*`false`\*\*в случае возникновения ошибки. |
 
 ### Приклади
 
@@ -118,7 +125,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Имя:     SurfaceArea
@@ -130,4 +137,4 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlifetchfield()](mysqli-result.fetch-field.md) - Повертає наступне поле результуючого набору
+-   [mysqli\_fetch\_field()](mysqli-result.fetch-field.md) \- Повертає наступне поле результуючого набору

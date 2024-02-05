@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getConstants'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getConstants
 
@@ -32,10 +33,10 @@ public ReflectionClass::getConstants(?int $filter = null): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Доданий параметр `filter` |
+| 8.0.0 | Добавлен параметр`filter` |
 
 ### Дивіться також
 
--   [ReflectionClass::getConstant()](reflectionclass.getconstant.md) - Повертає певну константу
+-   [ReflectionClass::getConstant()](reflectionclass.getconstant.md) \- Повертає певну константу

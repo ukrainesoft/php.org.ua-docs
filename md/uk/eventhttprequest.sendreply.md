@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::sendReply'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::sendReply
 
@@ -50,5 +51,5 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::sendError()](eventhttprequest.senderror.md) - Надсилає HTML-повідомлення про помилку клієнту
--   [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.md) - Відправляє блок даних, як частина поточної фрагментованої відповіді
+-   [EventHttpRequest::sendError()](eventhttprequest.senderror.md) \- Надсилає HTML-повідомлення про помилку клієнту
+-   [EventHttpRequest::sendReplyChunk()](eventhttprequest.sendreplychunk.md) \- Відправляє блок даних, як частина поточної фрагментованої відповіді

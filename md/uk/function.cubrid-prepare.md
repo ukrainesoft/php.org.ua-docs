@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-pconnect.md: « cubridpconnect
-  - function.cubrid-put.md: cubridput »
+  - function.cubrid-pconnect.md: « cubrid\_pconnect
+  - function.cubrid-put.md: cubrid\_put »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridprepare
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_prepare
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridprepare
+# cubrid\_prepare
 
 (PECL CUBRID >= 8.3.0)
 
-cubridprepare — Підготовка SQL-виразу до виконання
+cubrid\_prepare — Підготовка SQL-виразу до виконання
 
 ### Опис
 
@@ -18,9 +19,9 @@ cubridprepare — Підготовка SQL-виразу до виконання
 cubrid_prepare(resource $conn_identifier, string $prepare_stmt, int $option = 0): resource
 ```
 
-Функція **cubridprepare()** - це свого роду API, який представляє вирази SQL, раніше скомпільовані для даного дескриптора з'єднання. Цей попередньо скомпільований SQL-вираз буде включений у функцію **cubridprepare()**
+Функция**cubrid\_prepare()** - це свого роду API, який представляє вирази SQL, раніше скомпільовані для даного дескриптора з'єднання. Цей попередньо скомпільований SQL-вираз буде включений у функцію **cubrid\_prepare()**
 
-Відповідно, ви можете ефективно використовувати цей оператор для багаторазового виконання або обробки великих даних. Можна використовувати лише один оператор, а в параметрі можна вказати знак запитання (?) у відповідну область SQL-виразу. Додайте параметр при прив'язці значення у VALUES виразу INSERT або WHERE. Зверніть увагу, що можна прив'язати значення до знака запитання (?) тільки за допомогою функції [cubridbind()](function.cubrid-bind.md)
+Відповідно, ви можете ефективно використовувати цей оператор для багаторазового виконання або обробки великих даних. Можна використовувати лише один оператор, а в параметрі можна вказати знак запитання (?) у відповідну область SQL-виразу. Додайте параметр при прив'язці значення у VALUES виразу INSERT або WHERE. Зверніть увагу, що можна прив'язати значення до знака запитання (?) тільки за допомогою функції [cubrid\_bind()](function.cubrid-bind.md)
 
 ### Список параметрів
 
@@ -34,15 +35,15 @@ cubrid_prepare(resource $conn_identifier, string $prepare_stmt, int $option = 0)
 
 `option`
 
-Опція повернення OID **`CUBRID_INCLUDE_OID`**
+Опция возврата OID\*\*`CUBRID_INCLUDE_OID`\*\*
 
 ### Значення, що повертаються
 
-Ідентифікатор запиту у разі успішного виконання або **`false`** у разі виникнення помилки.
+Ідентифікатор запиту у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridprepare()****
+**Пример #1 Пример использования**cubrid\_prepare()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +77,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 27 соревнований пройдут на олимпиаде 2004, но не в 2000. Например:
@@ -89,5 +90,5 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
--   [cubridbind()](function.cubrid-bind.md) - пов'язує змінні з підготовленим запитом
+-   [cubrid\_execute()](function.cubrid-execute.md) \- Виконує підготовлений SQL-оператор
+-   [cubrid\_bind()](function.cubrid-bind.md) \- пов'язує змінні із підготовленим запитом

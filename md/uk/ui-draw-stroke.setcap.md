@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-stroke.getthickness.md: '« UIDrawStroke::getThickness'
-  - ui-draw-stroke.setjoin.md: 'ОЙDrawStroke::setJoin »'
+  - ui-draw-stroke.getthickness.md: '« UI\\Draw\\Stroke::getThickness'
+  - ui-draw-stroke.setjoin.md: 'UI\\Draw\\Stroke::setJoin »'
   - index.md: PHP Manual
-  - class.ui-draw-stroke.md: ОЙDrawStroke
-title: 'ОЙDrawStroke::setCap'
+  - class.ui-draw-stroke.md: UI\\Draw\\Stroke
+title: 'UI\\Draw\\Stroke::setCap'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawStroke::setCap
+# UI\\Draw\\Stroke::setCap
 
 (UI 0.9.9)
 
-ОЙDrawStroke::setCap — Встановити кінець лінії
+UI\\Draw\\Stroke::setCap — Встановити кінець лінії
 
 ### Опис
 
@@ -24,4 +25,4 @@ public UI\Draw\Stroke::setCap(int $cap)
 
 `cap`
 
-ОЙDrawLineCap::Flat, UIDrawLineCap::Round або UIDrawLineCap::Square
+UI\\Draw\\Line\\Cap::Flat, UI\\Draw\\Line\\Cap::Round або UI\\Draw\\Line\\Cap::Square

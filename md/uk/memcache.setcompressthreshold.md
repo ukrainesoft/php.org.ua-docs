@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcache.md: Memcache
 title: 'Memcache::setCompressThreshold'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcache::setCompressThreshold
 
@@ -18,9 +19,9 @@ Memcache::setCompressThreshold — Увімкнути автоматичний �
 Memcache::setCompressThreshold(int $threshold, float $min_savings = ?): bool
 ```
 
-**Memcache::setCompressThreshold()** включає автоматичне стиск для великих значень. Ви також можете використати функцію **memcachesetcompressthreshold()**
+**Memcache::setCompressThreshold()** включає автоматичне стиск для великих значень. Ви також можете використати функцію **memcache\_set\_compress\_threshold()**
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція була додана до Memcache версії 2.0.0.
 
@@ -36,11 +37,11 @@ Memcache::setCompressThreshold(int $threshold, float $min_savings = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcache::setCompressThreshold()****
+**Пример #1 Пример использования**Memcache::setCompressThreshold()\*\*\*\*
 
 ```php
 <?php

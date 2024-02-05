@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.gnupg-decrypt.md: « gnupgdecrypt
-  - function.gnupg-deletekey.md: gnupgdeletekey »
+  - function.gnupg-decrypt.md: « gnupg\_decrypt
+  - function.gnupg-deletekey.md: gnupg\_deletekey »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgdecryptverify
+title: gnupg\_decryptverify
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgdecryptverify
+# gnupg\_decryptverify
 
 (PECL gnupg >= 0.2)
 
-gnupgdecrypt verify — Розшифровує та перевіряє підпис переданого тексту
+gnupg\_decrypt verify — Розшифровує та перевіряє підпис переданого тексту
 
 ### Опис
 
 ```methodsynopsis
-gnupg_decryptverify(resource $identifier, string $text, string &$plaintext): array
+gnupg_decryptverify(resource $identifier, string $text, string &$plaintext): array|false
 ```
 
 Розшифровує та перевіряє підпис переданого тексту та повертає інформацію про підпис.
@@ -24,7 +25,7 @@ gnupg_decryptverify(resource $identifier, string $text, string &$plaintext): arr
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `text`
 
@@ -32,7 +33,7 @@ gnupg_decryptverify(resource $identifier, string $text, string &$plaintext): arr
 
 `plaintext`
 
-Параметру `plaintext` передається розшифрований текст.
+Параметру`plaintext` передається розшифрований текст.
 
 ### Значення, що повертаються
 
@@ -40,7 +41,7 @@ gnupg_decryptverify(resource $identifier, string $text, string &$plaintext): arr
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupgdecryptverify()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_decryptverify()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ print_r($info);
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupgdecryptverify()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_decryptverify()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

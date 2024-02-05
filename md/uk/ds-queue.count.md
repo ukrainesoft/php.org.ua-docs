@@ -1,15 +1,16 @@
 ---
 navigation:
-  - ds-queue.copy.md: '« DsQueue::copy'
-  - ds-queue.isempty.md: 'ДсQueue::isEmpty »'
+  - ds-queue.copy.md: '« Ds\\Queue::copy'
+  - ds-queue.isempty.md: 'Ds\\Queue::isEmpty »'
   - index.md: PHP Manual
-  - class.ds-queue.md: Черга
-title: 'ДсQueue::count'
+  - class.ds-queue.md: Ds\\Queue
+title: 'Ds\\Queue::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсQueue::count
+# Ds\\Queue::count
 
 (PECL ds >= 1.0.0)
 
-ДсQueue::count — Повертає кількість елементів черги
+Ds\\Queue::count — Повертає кількість елементів черги
 
-Дивіться [Countable::count()](countable.count.md)
+Смотрите[Countable::count()](countable.count.md)

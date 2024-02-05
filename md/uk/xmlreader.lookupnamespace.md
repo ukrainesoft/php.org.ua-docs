@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.xmlreader.md: XMLReader
 title: 'XMLReader::lookupNamespace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLReader::lookupNamespace
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 XMLReader::lookupNamespace — Знайти простір імен для префікса
 
@@ -32,6 +33,6 @@ public XMLReader::lookupNamespace(string $prefix): ?string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функція більше не може повертати **`false`** |
+| 8.0.0 | Функція більше не може повертати **`false`** |

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.skip.md: '« DsMap::skip'
-  - ds-map.sort.md: 'ДсMap::sort »'
+  - ds-map.skip.md: '« Ds\\Map::skip'
+  - ds-map.sort.md: 'Ds\\Map::sort »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::slice'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::slice'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::slice
+# Ds\\Map::slice
 
 (PECL ds >= 1.0.0)
 
-ДсMap::slice — Повертає підмножину колекції із заданого діапазону.
+Ds\\Map::slice — Повертає підмножину колекції із заданого діапазону.
 
 ### Опис
 
@@ -38,7 +39,7 @@ public Ds\Map::slice(int $index, int $length = ?): Ds\Map
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::slice()****
+**Пример #1 Пример использования**Ds\\Map::slice()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ print_r($map->slice(1, -1)->toArray());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

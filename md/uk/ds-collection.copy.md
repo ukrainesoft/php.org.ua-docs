@@ -1,21 +1,22 @@
 ---
 navigation:
-  - ds-collection.clear.md: '« DsCollection::clear'
-  - ds-collection.isempty.md: 'ДсCollection::isEmpty »'
+  - ds-collection.clear.md: '« Ds\\Collection::clear'
+  - ds-collection.isempty.md: 'Ds\\Collection::isEmpty »'
   - index.md: PHP Manual
-  - class.ds-collection.md: Коллекция
-title: 'ДсCollection::copy'
+  - class.ds-collection.md: Ds\\Collection
+title: 'Ds\\Collection::copy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсCollection::copy
+# Ds\\Collection::copy
 
 (PECL ds >= 1.0.0)
 
-ДсCollection::copy — Повертає копію колекції
+Ds\\Collection::copy — Повертає копію колекції
 
 ### Опис
 
 ```methodsynopsis
-abstract public Ds\Collection::copy(): Ds\Collection
+public Ds\Collection::copy(): Ds\Collection
 ```
 
 Повертає копію колекції.
@@ -30,7 +31,7 @@ abstract public Ds\Collection::copy(): Ds\Collection
 
 ### Приклади
 
-**Приклад #1 Приклад **ДсCollection::copy()****
+**Пример #1 Пример**Ds\\Collection::copy()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($b);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

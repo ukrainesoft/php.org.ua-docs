@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.filter.md: '« DsSequence::filter'
-  - ds-sequence.first.md: 'ДсSequence::first »'
+  - ds-sequence.filter.md: '« Ds\\Sequence::filter'
+  - ds-sequence.first.md: 'Ds\\Sequence::first »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::find'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::find'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::find
+# Ds\\Sequence::find
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::find — Пошук індексу за значенням
+Ds\\Sequence::find — Пошук індексу за значенням
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсSequence::find'
 abstract public Ds\Sequence::find(mixed $value): mixed
 ```
 
-Повертає індекс значення `value`, або \*\*`false`\*\*якщо нічого не знайдено.
+Повертає індекс значення `value`, или\*\*`false`\*\*якщо нічого не знайдено.
 
 ### Список параметрів
 
@@ -30,13 +31,13 @@ abstract public Ds\Sequence::find(mixed $value): mixed
 
 Індекс елемента, або \*\*`false`\*\*якщо значення не знайдено.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Елементи порівнюються строго, за типом та значенням.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::find()****
+**Пример #1 Пример использования**Ds\\Sequence::find()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($sequence->find(1));   // 1
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(0)

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.pthreads.md: pthreads
 title: Клас Pool
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Pool
 
@@ -84,9 +85,9 @@ last
 
 ## Зміст
 
--   [Pool::collect](pool.collect.md) — Збирає посилання на виконані завдання
--   [Pool::construct](pool.construct.md) - Створює новий пул воркерів
--   [Pool::resize](pool.resize.md) - Змінює розмір пулу
--   [Pool::shutdown](pool.shutdown.md) - Вимикає всі воркери
--   [Pool::submit](pool.submit.md) - Відправляє об'єкт на виконання
--   [Pool::submitTo](pool.submitTo.md) — Надсилає завдання конкретному воркеру для виконання
+-   [Pool::collect](pool.collect.md)— Збирає посилання на виконані завдання
+-   [Pool::\_\_construct](pool.construct.md) \- Створює новий пул воркерів
+-   [Pool::resize](pool.resize.md) \- Змінює розмір пулу
+-   [Pool::shutdown](pool.shutdown.md) \- Вимикає всі воркери
+-   [Pool::submit](pool.submit.md) \- Відправляє об'єкт на виконання
+-   [Pool::submitTo](pool.submitTo.md)— Надсилає завдання конкретному воркеру для виконання

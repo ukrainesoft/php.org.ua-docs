@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::rectangle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GmagickDraw::rectangle
 
@@ -15,7 +16,7 @@ GmagickDraw::rectangle — Малює прямокутник.
 ### Опис
 
 ```methodsynopsis
-public GmagickDraw::rectangle(    float $x1,    float $y1,    float $x2,    float $y2): GmagickDraw
+public GmagickDraw::rectangle(    float $x1,    float $y1,    float $x2,    float $y2): GmagickDraw
 ```
 
 Малює прямокутник по двох координатах за допомогою поточних параметрів обведення, ширини обведення та заливки.

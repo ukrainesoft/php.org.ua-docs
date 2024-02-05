@@ -1,20 +1,21 @@
 ---
 navigation:
-  - swoole-server.defer.md: '« SwooleServer::defer'
-  - swoole-server-port.destruct.md: 'SwooleServerPort::destruct »'
+  - swoole-server.defer.md: '« Swoole\\Server::defer'
+  - swoole-server-port.destruct.md: 'Swoole\\Server\\Port::\_\_destruct »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServerPort::construct'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server\\Port::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServerPort::construct
+# Swoole\\Server\\Port::\_\_construct
 
 (PECL swoole >= 1.9.0)
 
-SwooleServerPort::construct — Створює порт сервера
+Swoole\\Server\\Port::\_\_construct — Створює порт сервера
 
 ### Опис
 
-private **SwooleServerPort::construct**
+private**Swoole\\Server\\Port::\_\_construct**()
 
 ### Список параметрів
 

@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::setCalendar'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::setCalendar
 
-# datefmtsetcalendar
+# datefmt\_set\_calendar
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::setCalendar -- datefmtsetcalendar — Встановлює тип календаря за допомогою форматування.
+IntlDateFormatter::setCalendar -- datefmt\_set\_calendar — Встановлює тип календаря за допомогою форматування.
 
 ### Опис
 
@@ -38,7 +39,7 @@ datefmt_set_calendar(IntlDateFormatter $formatter, IntlCalendar|int|null $calend
 
 `calendar`
 
-Може бути: [тип календаря](class.intldateformatter.md#intl.intldateformatter-constants.calendartypes) для використання (за замовчуванням **`IntlDateFormatter::GREGORIAN`**, який також використовується, якщо вказано значення **`null`**) або об'єкт [IntlCalendar](class.intlcalendar.md)
+Може бути: [тип календаря](class.intldateformatter.md#intl.intldateformatter-constants.calendartypes)для использования (по умолчанию\*\*`IntlDateFormatter::GREGORIAN`\*\*, який також використовується, якщо вказано значення **`null`**) або об'єкт [IntlCalendar](class.intlcalendar.md)
 
 Будь-який переданий об'єкт [IntlCalendar](class.intlcalendar.md) буде клоновано; до об'єкта аргументу не буде внесено жодних змін.
 
@@ -46,17 +47,17 @@ datefmt_set_calendar(IntlDateFormatter $formatter, IntlCalendar|int|null $calend
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | 5.5.0/PECL 3.0.0 | Додана можливість передати об'єкт [IntlCalendar](class.intlcalendar.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmtsetcalendar()****
+**Пример #1 Пример использования**datefmt\_set\_calendar()\*\*\*\*
 
 ```php
 <?php
@@ -90,14 +91,14 @@ echo 'Теперь тип календаря : ' . $fmt->getCalendar();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Тип календаря средства форматирования : 1
 Теперь тип календаря : 0
 ```
 
-**Приклад #3 Приклад використання [IntlCalendar](class.intlcalendar.md) з параметром**
+**Пример #3 Пример использования[IntlCalendar](class.intlcalendar.md)с параметром**
 
 ```php
 <?php
@@ -113,7 +114,7 @@ $formatter->setCalendar(IntlCalendar::createInstance(
 echo "После:  ", $formatter->format($time), "\n";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 До: Sunday, March 3, 2013 at 1:00:00 AM Central European Standard Time
@@ -122,6 +123,6 @@ echo "После:  ", $formatter->format($time), "\n";
 
 ### Дивіться також
 
--   [datefmtgetcalendar()](intldateformatter.getcalendar.md) - Отримує тип календаря, який використовується IntlDateFormatter
--   [datefmtgetcalendarobject()](intldateformatter.getcalendarobject.md) - Отримує копію об'єкта календаря засобу форматування
--   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати
+-   [datefmt\_get\_calendar()](intldateformatter.getcalendar.md) \- Отримує тип календаря для об'єкта IntlDateFormatter
+-   [datefmt\_get\_calendar\_object()](intldateformatter.getcalendarobject.md) \- Отримує копію об'єкта календаря засобу форматування
+-   [datefmt\_create()](intldateformatter.create.md) \- Створює засіб форматування дати

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ibm-db2.setup.md: « Встановлення та налаштування
-  - ibm-db2.installation.md: Установка »
+  - ibm-db2.setup.md: '" Встановлення та налаштування'
+  - ibm-db2.installation.md: Встановлення »
   - index.md: PHP Manual
   - ibm-db2.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 

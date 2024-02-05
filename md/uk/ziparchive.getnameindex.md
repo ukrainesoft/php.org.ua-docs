@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getNameIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::getNameIndex
 
@@ -28,15 +29,15 @@ public ZipArchive::getNameIndex(int $index, int $flags = 0): string|false
 
 `flags`
 
-Якщо прапор встановлений у **`ZipArchive::FL_UNCHANGED`**, повертається оригінальне незмінене ім'я
+Если флаг установлен в\*\*`ZipArchive::FL_UNCHANGED`\*\*, повертається оригінальне незмінене ім'я
 
 ### Значення, що повертаються
 
-Повертає ім'я при успіху або **`false`** у разі виникнення помилки.
+Возвращает имя при успехе или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ZipArchive::getnameindex()****
+**Пример #1 Пример использования**ZipArchive::getnameindex()\*\*\*\*
 
 ```php
 <?php

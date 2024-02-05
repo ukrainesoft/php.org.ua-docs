@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Інтерфейс BackedEnum
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс BackedEnum
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -18,15 +19,11 @@ title: Інтерфейс BackedEnum
 
 ```classsynopsis
 
-     
-    
-
     
      interface BackedEnum
-      extends
-       UnitEnum
-     
-     {
+
+    extends
+      UnitEnum {
 
     /* Методы */
     
@@ -42,5 +39,5 @@ public static tryFrom(int|string $value): ?static
 
 ## Зміст
 
--   [BackedEnum::from](backedenum.from.md) - Зіставляє скаляр з екземпляром перерахування
--   [BackedEnum::tryFrom](backedenum.tryfrom.md) — Порівнює скаляр з екземпляром перерахування чи null
+-   [BackedEnum::from](backedenum.from.md) \- Зіставляє скаляр з екземпляром перерахування
+-   [BackedEnum::tryFrom](backedenum.tryfrom.md)— Порівнює скаляр з екземпляром перерахування чи null

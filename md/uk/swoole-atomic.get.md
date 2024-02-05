@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-atomic.construct.md: '« SwooleAtomic::construct'
-  - swoole-atomic.set.md: 'SwooleAtomic::set »'
+  - swoole-atomic.construct.md: '« Swoole\\Atomic::\_\_construct'
+  - swoole-atomic.set.md: 'Swoole\\Atomic::set »'
   - index.md: PHP Manual
-  - class.swoole-atomic.md: SwooleAtomic
-title: 'SwooleAtomic::get'
+  - class.swoole-atomic.md: Swoole\\Atomic
+title: 'Swoole\\Atomic::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleAtomic::get
+# Swoole\\Atomic::get
 
 (PECL swoole >= 1.9.0)
 
-SwooleAtomic::get — Отримує поточне значення атомарного об'єкта
+Swoole\\Atomic::get — Отримує поточне значення атомарного об'єкта
 
 ### Опис
 

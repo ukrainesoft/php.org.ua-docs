@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.weakmap.md: WeakMap
 title: 'WeakMap::getIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # WeakMap::getIterator
 
@@ -30,4 +31,4 @@ public WeakMap::getIterator(): Iterator
 
 ### Помилки
 
-Викидає [Exception](class.exception.md) у разі виникнення помилки.
+Викидає [Exception](class.exception.md)в случае возникновения ошибки.

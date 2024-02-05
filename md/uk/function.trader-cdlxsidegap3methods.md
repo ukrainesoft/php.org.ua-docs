@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlupsidegap2crows.md: « tradercdlupsidegap2crows
-  - function.trader-ceil.md: traderceil »
+  - function.trader-cdlupsidegap2crows.md: « trader\_cdlupsidegap2crows
+  - function.trader-ceil.md: trader\_ceil »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlxsidegap3methods
+  - ref.trader.md: Функції Trader
+title: trader\_cdlxsidegap3methods
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlxsidegap3methods
+# trader\_cdlxsidegap3methods
 
 (PECL trader >= 0.2.0)
 
-tradercdlxsidegap3methods - Верх/вниз - три методи
+trader\_cdlxsidegap3methods - Верх/вниз - три методи
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlxsidegap3methods(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlxsidegap3methods(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

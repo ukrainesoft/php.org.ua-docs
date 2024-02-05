@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gnupg-geterrorinfo.md: « gnupggeterrorinfo
-  - function.gnupg-gettrustlist.md: gnupggettrustlist »
+  - function.gnupg-geterrorinfo.md: « gnupg\_geterrorinfo
+  - function.gnupg-gettrustlist.md: gnupg\_gettrustlist »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupggetprotocol
+title: gnupg\_getprotocol
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupggetprotocol
+# gnupg\_getprotocol
 
 (PECL gnupg >= 0.1)
 
-gnupggetprotocol — Повертає поточний активний протокол для всіх операцій
+gnupg\_getprotocol — Повертає поточний активний протокол для всіх операцій
 
 ### Опис
 
@@ -22,15 +23,15 @@ gnupg_getprotocol(resource $identifier): int
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 ### Значення, що повертаються
 
-Повертає поточний активний протокол, який може бути одним із **`GNUPG_PROTOCOL_OpenPGP`** або **`GNUPG_PROTOCOL_CMS`**
+Повертає поточний активний протокол, який може бути одним з **`GNUPG_PROTOCOL_OpenPGP`**или**`GNUPG_PROTOCOL_CMS`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupggetprotocol()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_getprotocol()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ echo gnupg_getprotocol($res);
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupggetprotocol()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_getprotocol()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

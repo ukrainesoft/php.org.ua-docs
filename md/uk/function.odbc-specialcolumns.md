@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.odbc-setoption.md: « odbcsetoption
-  - function.odbc-statistics.md: odbcstatistics »
+  - function.odbc-setoption.md: « odbc\_setoption
+  - function.odbc-statistics.md: odbc\_statistics »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcspecialcolumns
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_specialcolumns
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcspecialcolumns
+# odbc\_specialcolumns
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcspecialcolumns — Витягує спеціальні стовпці
+odbc\_specialcolumns — Витягує спеціальні стовпці
 
 ### Опис
 
 ```methodsynopsis
-odbc_specialcolumns(    resource $odbc,    int $type,    ?string $catalog,    string $schema,    string $table,    int $scope,    int $nullable): resource|false
+odbc_specialcolumns(    resource $odbc,    int $type,    ?string $catalog,    string $schema,    string $table,    int $scope,    int $nullable): resource|false
 ```
 
 Витягує або оптимальний набір стовпців, який однозначно визначає рядок у таблиці, або стовпці, які автоматично оновлюються, коли будь-яке значення у рядку оновлюється транзакцією.
@@ -24,11 +25,11 @@ odbc_specialcolumns(    resource $odbc,    int $type,    ?string $catalog,    st
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `type`
 
-Коли аргументом є **`SQL_BEST_ROWID`** **odbcspecialcolumns()** повертає стовпець чи стовпці, які однозначно ідентифікують кожен рядок у таблиці. Коли аргументом є **`SQL_ROWVER`** **odbcspecialcolumns()** повертає стовпець або стовпці у зазначеній таблиці, якщо вони є, які автоматично оновлюються джерелом даних, коли будь-яке значення у рядку оновлюється будь-якою транзакцією.
+Когда аргументом является\*\*`SQL_BEST_ROWID`\*\* **odbc\_specialcolumns()** повертає стовпець чи стовпці, які однозначно ідентифікують кожен рядок у таблиці. Коли аргументом є **`SQL_ROWVER`** **odbc\_specialcolumns()** повертає стовпець або стовпці у зазначеній таблиці, якщо вони є, які автоматично оновлюються джерелом даних, коли будь-яке значення у рядку оновлюється будь-якою транзакцією.
 
 `catalog`
 
@@ -44,15 +45,15 @@ odbc_specialcolumns(    resource $odbc,    int $type,    ?string $catalog,    st
 
 `scope`
 
-Область, яка впорядковує результуючий набір. Одна з констант **`SQL_SCOPE_CURROW`** **`SQL_SCOPE_TRANSACTION`** або **`SQL_SCOPE_SESSION`**
+Область, яка впорядковує результуючий набір. Одна з констант **`SQL_SCOPE_CURROW`** **`SQL_SCOPE_TRANSACTION`**или**`SQL_SCOPE_SESSION`**
 
 `nullable`
 
-Визначає, чи повертати спеціальні стовпці, які можуть мати значення NULL. Одна з констант **`SQL_NO_NULLS`** або **`SQL_NULLABLE`**
+Визначає, чи повертати спеціальні стовпці, які можуть мати значення NULL. Одна з констант **`SQL_NO_NULLS`**или**`SQL_NULLABLE`**
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор результату ODBC або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор результату ODBC або \*\*`false`\*\*в случае возникновения ошибки.
 
 У результуючому наборі є такі стовпці:
 
@@ -67,8 +68,8 @@ odbc_specialcolumns(    resource $odbc,    int $type,    ?string $catalog,    st
 
 Драйвери можуть повідомляти додаткові стовпці.
 
-Результуючий набір впорядковується за `SCOPE`
+Результирующий набор упорядочивается по`SCOPE`
 
 ### Дивіться також
 
--   [odbctables()](function.odbc-tables.md) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbc\_tables()](function.odbc-tables.md) \- Отримує список імен таблиць, що зберігаються у певному джерелі даних

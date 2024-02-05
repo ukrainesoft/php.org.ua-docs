@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getlastmod
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # getlastmod
 
@@ -28,11 +29,11 @@ getlastmod(): int|false
 
 ### Значення, що повертаються
 
-Повертає час останньої модифікації поточної сторінки. Значення є міткою часу Unix, що підходить для функції [date()](function.date.md). Функція поверне **`false`** у разі виникнення помилки.
+Повертає час останньої модифікації поточної сторінки. Значення є міткою часу Unix, що підходить для функції [date()](function.date.md). Функція поверне \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getlastmod()****
+**Пример #1 Пример использования**getlastmod()\*\*\*\*
 
 ```php
 <?php
@@ -43,10 +44,10 @@ echo "Последнее изменение: " . date ("F d Y H:i:s.", getlastmo
 
 ### Дивіться також
 
--   [date()](function.date.md) - Форматує тимчасову мітку Unix
--   [getmyuid()](function.getmyuid.md) - Отримання UID власника скрипта PHP
--   [getmygid()](function.getmygid.md) - Отримати GID власника скрипта PHP
--   [getcurrentuser()](function.get-current-user.md) - Отримує ім'я власника поточного скрипту PHP
--   [getmyinode()](function.getmyinode.md) - Отримує значення inode поточного скрипту
--   [getmypid()](function.getmypid.md) - Отримання ID процесу PHP
--   [filemtime()](function.filemtime.md) - Повертає час останньої зміни файлу
+-   [date()](function.date.md) \- Форматує тимчасову мітку Unix
+-   [getmyuid()](function.getmyuid.md) \- Отримання UID власника скрипта PHP
+-   [getmygid()](function.getmygid.md) \- Отримати GID власника скрипта PHP
+-   [get\_current\_user()](function.get-current-user.md) \- Отримує ім'я власника поточного скрипту PHP
+-   [getmyinode()](function.getmyinode.md) \- Отримує значення inode поточного скрипту
+-   [getmypid()](function.getmypid.md) \- Отримання ID процесу PHP
+-   [filemtime()](function.filemtime.md) \- Повертає час останньої зміни файлу

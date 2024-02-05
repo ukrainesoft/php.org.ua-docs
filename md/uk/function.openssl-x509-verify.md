@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-x509-read.md: « opensslx509read
+  - function.openssl-x509-read.md: « openssl\_x509\_read
   - class.opensslcertificate.md: OpenSSLCertificate »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslx509verify
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_x509\_verify
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslx509verify
+# openssl\_x509\_verify
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
-opensslx509verify — Перевірити цифровий підпис сертифіката x509 за допомогою публічного ключа
+openssl\_x509\_verify — Перевірити цифровий підпис сертифіката x509 за допомогою публічного ключа
 
 ### Опис
 
@@ -18,7 +19,7 @@ opensslx509verify — Перевірити цифровий підпис сер�
 openssl_x509_verify(OpenSSLCertificate|string $certificate, OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key): int
 ```
 
-**opensslx509verify()** перевіряє, що сертифікат `certificate` був підписаний приватним ключем, що відповідає публічному ключу `public_key`
+**openssl\_x509\_verify()** перевіряє, що сертифікат `certificate` був підписаний приватним ключем, що відповідає публічному ключу `public_key`
 
 ### Список параметрів
 
@@ -28,9 +29,9 @@ openssl_x509_verify(OpenSSLCertificate|string $certificate, OpenSSLAsymmetricKey
 
 `public_key`
 
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) - ключ, повернутий функцією [opensslgetpublickey()](function.openssl-get-publickey.md)
+[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) - ключ, повернутий функцією [openssl\_get\_publickey()](function.openssl-get-publickey.md)
 
-string - ключ у форматі PEM, такого вигляду: : "-----BEGIN PUBLIC KEY----- MIIBCgK..."
+string - ключ у форматі PEM, такого виду: `-----BEGIN PUBLIC KEY----- MIIBCgK...`
 
 ### Значення, що повертаються
 
@@ -38,14 +39,14 @@ string - ключ у форматі PEM, такого вигляду: : "-----BE
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
-|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
+| 8.0.0 | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL X.509` |
+| 8.0.0 | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL key`или`OpenSSL X.509` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslx509verify()****
+**Пример #1 Пример использования**openssl\_x509\_verify()\*\*\*\*
 
 ```php
 <?php
@@ -83,5 +84,5 @@ foreach($cont["options"]["ssl"]["peer_certificate_chain"] as $chaincert)
 
 ### Дивіться також
 
--   [opensslverify()](function.openssl-verify.md) - Звіряння сигнатури
--   [opensslgetpublickey()](function.openssl-get-publickey.md) - Псевдонім opensslpkeygetpublic
+-   [openssl\_verify()](function.openssl-verify.md) \- Звіряння сигнатури
+-   [openssl\_get\_publickey()](function.openssl-get-publickey.md) \- Псевдонім openssl\_pkey\_get\_public

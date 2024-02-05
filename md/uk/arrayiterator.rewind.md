@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayIterator::rewind
 
@@ -30,7 +31,7 @@ public ArrayIterator::rewind(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayIterator::rewind()****
+**Пример #1 Пример использования**ArrayIterator::rewind()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ $iterator = $arrayobject->getIterator();
 $iterator->next();
 echo $iterator->key(); //1
 
-$iterator->rewind(); // перемещает указатель в начало Масива
+$iterator->rewind(); // перемещает указатель в начало массива
 echo $iterator->key(); //0
 ?>
 ```

@@ -1,10 +1,11 @@
 ---
 navigation:
   - yac.info.md: '« Yac::info'
-  - yac.setter.md: 'Yac::set »'
+  - yac.setter.md: 'Yac::\_\_set »'
   - index.md: PHP Manual
   - class.yac.md: Yac
 title: 'Yac::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Yac::set
 

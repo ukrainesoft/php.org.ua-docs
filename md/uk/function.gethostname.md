@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: gethostname
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gethostname
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 gethostname — Отримує ім'я хоста
 
@@ -18,7 +19,7 @@ gethostname — Отримує ім'я хоста
 gethostname(): string|false
 ```
 
-Функція **gethostname()** отримує стандартну назву хоста для локального комп'ютера.
+Функция\*\*gethostname()\*\*получает стандартное имя хоста для локального компьютера.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ gethostname(): string|false
 
 ### Значення, що повертаються
 
-Повертає рядок з ім'ям хоста або **`false`** у разі виникнення помилки.
+Повертає рядок з ім'ям хоста або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gethostname()****
+**Пример #1 Пример использования**gethostname()\*\*\*\*
 
 ```php
 <?php
@@ -40,6 +41,6 @@ echo gethostname(); // может вывести например: sandie
 
 ### Дивіться також
 
--   [gethostbyname()](function.gethostbyname.md) - Отримує IPv4-адресу, що відповідає переданому імені хоста
--   [gethostbyaddr()](function.gethostbyaddr.md) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
--   [phpuname()](function.php-uname.md) - Повертає інформацію про операційну систему, на якій запущено PHP
+-   [gethostbyname()](function.gethostbyname.md) \- Отримує IPv4-адресу, що відповідає переданому імені хоста
+-   [gethostbyaddr()](function.gethostbyaddr.md) \- Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
+-   [php\_uname()](function.php-uname.md) \- Повертає інформацію про операційну систему, на якій запущено PHP

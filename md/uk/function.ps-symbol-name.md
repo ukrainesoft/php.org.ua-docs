@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-stroke.md: «psstroke
-  - function.ps-symbol-width.md: псsymbolwidth »
+  - function.ps-stroke.md: « ps\_stroke
+  - function.ps-symbol-width.md: ps\_symbol\_width »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псsymbolname
+title: ps\_symbol\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псsymbolname
+# ps\_symbol\_name
 
 (PECL ps >= 1.2.0)
 
-псsymbolname — Отримує ім'я гліфа
+ps\_symbol\_name — Отримує ім'я гліфа
 
 ### Опис
 
@@ -24,11 +25,11 @@ ps_symbol_name(resource $psdoc, int $ord, int $fontid = 0): string
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 `ord`
 
-Параметр `ord` - це позиція гліфа у векторі кодування шрифту.
+Параметр`ord` - це позиція гліфа у векторі кодування шрифту.
 
 `fontid`
 
@@ -40,5 +41,5 @@ ps_symbol_name(resource $psdoc, int $ord, int $fontid = 0): string
 
 ### Дивіться також
 
--   [псsymbol()](function.ps-symbol.md) - Виводить гліф
--   [псsymbolwidth()](function.ps-symbol-width.md) - Отримує ширину гліфа
+-   [ps\_symbol()](function.ps-symbol.md) \- Виводить гліф
+-   [ps\_symbol\_width()](function.ps-symbol-width.md) \- Отримує ширину гліфа

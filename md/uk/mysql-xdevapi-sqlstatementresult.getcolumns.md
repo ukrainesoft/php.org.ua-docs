@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-sqlstatementresult.getcolumnnames.md: '« SqlStatementResult::getColumnNames'
   - mysql-xdevapi-sqlstatementresult.getgeneratedids.md: 'SqlStatementResult::getGeneratedIds »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: mysql\_xdevapi\\SqlStatementResult
 title: 'SqlStatementResult::getColumns'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SqlStatementResult::getColumns
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\SqlStatementResult::getColumns(): Array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\SqlStatementResult::getColumns(): Array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSqlStatementResult::getColumns()****
+**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatementResult::getColumns()\*\*\*\*
 
 ```php
 <?php

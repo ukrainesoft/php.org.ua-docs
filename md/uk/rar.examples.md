@@ -1,10 +1,11 @@
 ---
 navigation:
-  - rar.constants.md: « Обумовлені константи
+  - rar.constants.md: « Зумовлені константи
   - ref.rar.md: Rar »
   - index.md: PHP Manual
   - book.rar.md: Rar
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

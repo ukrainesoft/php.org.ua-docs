@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.rrd-create.md: « rrdcreate
-  - function.rrd-fetch.md: rrdfetch »
+  - function.rrd-create.md: « rrd\_create
+  - function.rrd-fetch.md: rrd\_fetch »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
-title: rrderror
+title: rrd\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# rrderror
+# rrd\_error
 
 (PECL rrd >= 0.9.0)
 
-rrderror — Отримати останнє повідомлення про помилку
+rrd\_error — Отримати останнє повідомлення про помилку
 
 ### Опис
 

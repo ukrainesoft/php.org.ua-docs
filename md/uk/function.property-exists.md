@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.method-exists.md: « methodexists
-  - function.trait-exists.md: traitexists »
+  - function.method-exists.md: « method\_exists
+  - function.trait-exists.md: trait\_exists »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
-title: propertyexists
+title: property\_exists
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# propertyexists
+# property\_exists
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-propertyexists — Перевіряє, чи об'єкт або клас містить зазначений атрибут.
+property\_exists — Перевіряє, чи об'єкт чи клас атрибут міститься
 
 ### Опис
 
@@ -20,27 +21,27 @@ property_exists(object|string $object_or_class, string $property): bool
 
 Функція перевіряє, чи існує атрибут `property` у вказаному класі.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> В протилежність [isset()](function.isset.md) **propertyexists()** повертає \*\*`true`\*\*навіть якщо властивість має значення **`null`**
+> На противагу мовній конструкції [isset()](function.isset.md), функция**property\_exists()** повертає \*\*`true`\*\*навіть якщо значення властивості дорівнює **`null`**
 
 ### Список параметрів
 
 `object_or_class`
 
-Ім'я класу або об'єкт класу для перевірки
+Ім'я класу чи об'єкт класу для перевірки.
 
 `property`
 
-Ім'я якості
+Ім'я якості.
 
 ### Значення, що повертаються
 
-Повертає \*\*`true`\*\*якщо властивість існує, \*\*`false`\*\*якщо воно не існує, або **`null`** у разі виникнення помилки.
+Повертає \*\*`true`\*\*якщо властивість існує, \*\*`false`\*\*якщо не існує.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **propertyexists()****
+**Пример #1 Пример использования функции**property\_exists()\*\*\*\*
 
 ```php
 <?php
@@ -67,14 +68,14 @@ myClass::test();
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Виклик цієї функції буде використовувати всі зареєстровані [функции автозагрузки](language.oop5.autoload.md)якщо клас ще не відомий.
+> Виклик цієї функції буде використовувати всі зареєстровані [функції автозавантаження](language.oop5.autoload.md)якщо клас ще не відомий.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Функція **propertyexists()** не визначає магічно доступні властивості за допомогою методу [`__get`](language.oop5.overloading.md#language.oop5.overloading.members)
+> Функция**property\_exists()** не визначає властивості, які магічно доступні через магічний метод [`__get`](language.oop5.overloading.md#language.oop5.overloading.members)
 
 ### Дивіться також
 
--   [methodexists()](function.method-exists.md) - Перевіряє, чи існує метод у даному класі
+-   [method\_exists()](function.method-exists.md) \- Перевіряє, чи існує метод у даному класі

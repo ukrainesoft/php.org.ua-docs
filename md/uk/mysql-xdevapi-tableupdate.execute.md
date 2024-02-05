@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-tableupdate.construct.md: '« TableUpdate::construct'
+  - mysql-xdevapi-tableupdate.construct.md: '« TableUpdate::\_\_construct'
   - mysql-xdevapi-tableupdate.limit.md: 'TableUpdate::limit »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
+  - class.mysql-xdevapi-tableupdate.md: mysql\_xdevapi\\TableUpdate
 title: 'TableUpdate::execute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableUpdate::execute
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\TableUpdate::execute(): mysql_xdevapi\TableUpdate
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableUpdate::execute()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::execute()\*\*\*\*
 
 ```php
 <?php

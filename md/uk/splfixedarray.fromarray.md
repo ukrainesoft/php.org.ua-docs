@@ -1,16 +1,17 @@
 ---
 navigation:
   - splfixedarray.current.md: '« SplFixedArray::current'
-  - splfixedarray.getsize.md: 'SplFixedArray::getSize »'
+  - splfixedarray.getiterator.md: 'SplFixedArray::getIterator »'
   - index.md: PHP Manual
   - class.splfixedarray.md: SplFixedArray
 title: 'SplFixedArray::fromArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFixedArray::fromArray
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-SplFixedArray::fromArray - Імпортує PHP-масив в об'єкт класу [SplFixedArray](class.splfixedarray.md)
+SplFixedArray::fromArray — Імпортує PHP-масив в об'єкт класу [SplFixedArray](class.splfixedarray.md)
 
 ### Опис
 
@@ -36,7 +37,7 @@ public static SplFixedArray::fromArray(array $array, bool $preserveKeys = true):
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFixedArray::fromArray()****
+**Пример #1 Пример использования**SplFixedArray::fromArray()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump($fa);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(SplFixedArray)#1 (4) {

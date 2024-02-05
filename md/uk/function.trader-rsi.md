@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-rocr.md: « traderrocr
-  - function.trader-sar.md: tradersar »
+  - function.trader-rocr.md: « trader\_rocr
+  - function.trader-sar.md: trader\_sar »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderrsi
+  - ref.trader.md: Функції Trader
+title: trader\_rsi
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderrsi
+# trader\_rsi
 
 (PECL trader >= 0.2.0)
 
-traderrsi - Індекс відносної сили
+trader\_rsi - Індекс відносної сили
 
 ### Опис
 

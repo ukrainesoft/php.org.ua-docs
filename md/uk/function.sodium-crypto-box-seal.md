@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-box-seal-open.md: « sodiumcryptoboxsealopen
-  - function.sodium-crypto-box-secretkey.md: sodiumcryptoboxsecretkey »
+  - function.sodium-crypto-box-seal-open.md: « sodium\_crypto\_box\_seal\_open
+  - function.sodium-crypto-box-secretkey.md: sodium\_crypto\_box\_secretkey »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoboxseal
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_box\_seal
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoboxseal
+# sodium\_crypto\_box\_seal
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoboxseal — Шифрування відкритим ключем без автентифікації
+sodium\_crypto\_box\_seal — Шифрування відкритим ключем без автентифікації
 
 ### Опис
 
@@ -20,11 +21,11 @@ sodium_crypto_box_seal(string $message, string $public_key): string
 
 Шифрує повідомлення так, що тільки одержувач може його розшифрувати.
 
-На відміну від [sodiumcryptobox()](function.sodium-crypto-box.md)Вам потрібно знати тільки відкритий ключ одержувача, щоб використовувати **sodiumcryptoboxseal()**. Однак одним із наслідків цієї зручності є те, що зашифрований текст не прив'язаний до статичного відкритого ключа і, отже, не автентифікується. Отже, шифрування відкритим ключем без автентифікації.
+В отличие от[sodium\_crypto\_box()](function.sodium-crypto-box.md)Вам потрібно знати тільки відкритий ключ одержувача, щоб використовувати **sodium\_crypto\_box\_seal()**. Однак одним із наслідків цієї зручності є те, що зашифрований текст не прив'язаний до статичного відкритого ключа і, отже, не автентифікується. Отже, шифрування відкритим ключем без автентифікації.
 
-**sodiumcryptoboxseal()** як і забезпечує цілісність зашифрованого тексту. Тільки не перевіряє справжність відправника.
+**sodium\_crypto\_box\_seal()** як і забезпечує цілісність зашифрованого тексту. Тільки не перевіряє справжність відправника.
 
-Якщо вам також потрібна автентифікація відправника, найкраще почати з функцій [sodiumcryptosign()](function.sodium-crypto-sign.md)
+Якщо вам також потрібна автентифікація відправника, найкраще почати з функцій [sodium\_crypto\_sign()](function.sodium-crypto-sign.md)
 
 ### Список параметрів
 
@@ -42,7 +43,7 @@ sodium_crypto_box_seal(string $message, string $public_key): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptoboxseal()****
+**Пример #1 Пример использования**sodium\_crypto\_box\_seal()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ var_dump($opened);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(120) "oRBXXAV4iQBrxlV4A21Bord8Yo/D8ZlrIIGNyaRCcGBfpz0map52I3xq6l+CST+1NSgQkbV+HiYyFjXWiWiaCGupGf+zl4bgWj/A9Adtem7Jt3h3emrMsLw="

@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.luasandboxfunction.md: « LuaSandboxFunction
-  - luasandboxfunction.construct.md: 'LuaSandboxFunction::construct »'
+  - luasandboxfunction.construct.md: 'LuaSandboxFunction::\_\_construct »'
   - index.md: PHP Manual
   - class.luasandboxfunction.md: LuaSandboxFunction
 title: 'LuaSandboxFunction::call'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # LuaSandboxFunction::call
 
@@ -20,21 +21,21 @@ public LuaSandboxFunction::call(string ...$args): array|bool
 
 Викликає Lua-функцію.
 
-Помилки, викликані PHP-кодом, призведуть до того, що функція поверне `false` і буде викликано попередження \*\*`E_WARNING`\*\*наприклад, коли тип ресурсу (resource) використовується як аргумент. У разі виникнення помилок Lua буде викинуто виняток [LuaSandboxRuntimeError](class.luasandboxruntimeerror.md)
+Помилки, викликані PHP-кодом, призведуть до того, що функція поверне **`false`** і буде викликано попередження \*\*`E_WARNING`\*\*наприклад, коли тип ресурсу (resource) використовується як аргумент. У разі виникнення помилок Lua буде викинуто виняток [LuaSandboxRuntimeError](class.luasandboxruntimeerror.md)
 
 Типи PHP і Lua перетворюються так:
 
--   **`null`** в PHP - це `nil` в Lua і навпаки.
+-   \*\*`null`\*\*в PHP - це`nil`в Lua і навпаки.
     
--   Цілі числа (int) і числа з плаваючою точкою (float) у PHP перетворюються на числа Lua. Підтримуються нескінченність та **`NAN`**
+-   Цілі числа (int) і числа з плаваючою точкою (float) у PHP перетворюються на числа Lua. Підтримуються нескінченність та\*\*`NAN`\*\*
     
--   Числа Lua без дробової частини у діапазоні приблизно від `-2**53` і `2**53` перетворюються на цілі числа (int) PHP, інші - у числа PHP з плаваючою точкою (float).
+-   Числа Lua без дробової частини у діапазоні приблизно від`-2**53`и`2**53`перетворюються на цілі числа (int) PHP, інші - у числа PHP з плаваючою точкою (float).
     
 -   Логічні значення в PHP (bool) - це значення типу boolean у Lua і навпаки.
     
--   Рядки в PHP (string) - це значення типу string в Lua і навпаки.
+-   Рядки в PHP (string) - це значення типу string у Lua і навпаки.
     
--   Функції Lua – це об'єкти PHP [LuaSandboxFunction](class.luasandboxfunction.md), і навпаки. Callback-функції PHP ([callable](language.types.callable.md)) не підтримуються.
+-   Функції Lua – це об'єкти PHP[LuaSandboxFunction](class.luasandboxfunction.md), і навпаки. Callback-функції PHP ([callable](language.types.callable.md)) не підтримуються.
     
 -   Масиви PHP (array) перетворюються на таблиці Lua і навпаки.
     
@@ -44,11 +45,11 @@ public LuaSandboxFunction::call(string ...$args): array|bool
         
     -   Посилання PHP розіменовуються.
         
-    -   `__pairs` і `__ipairs` з Lua обробляються . `__index` ігнорується.
+    -   `__pairs`и`__ipairs` из Lua обрабатываются . `__index` ігнорується.
         
-    -   При перетворенні з PHP в Lua цілі ключі від `-2**53` до `2**53` видаються як числа в Lua. Всі інші ключі представлені у вигляді рядків Lua.
+    -   При перетворенні з PHP в Lua цілі ключі від`-2**53`до`2**53`видаються як числа в Lua. Всі інші ключі представлені у вигляді рядків Lua.
         
-    -   При перетворенні з Lua на PHP відмінні від рядків і чисел ключі призведуть до виникнення помилки, як і конфлікти при перетворенні чисел на рядки або навпаки (оскільки PHP вважає такі конструкції, як `$a[0]` і `$a["0"]` еквівалентними).
+    -   При перетворенні з Lua на PHP відмінні від рядків і чисел ключі призведуть до виникнення помилки, як і конфлікти при перетворенні чисел на рядки або навпаки (оскільки PHP вважає такі конструкції, як`$a[0]`и`$a["0"]`еквівалентними).
         
 -   Всі інші типи не підтримуються і викликають помилку/викинуть виняток, включаючи PHP-об'єкти (object), дані користувача Lua і типи потоків.
     
@@ -63,4 +64,4 @@ public LuaSandboxFunction::call(string ...$args): array|bool
 
 ### Значення, що повертаються
 
-Повертає масив значень (array), що повертаються функцією, який може бути порожнім, або `false` у разі виникнення помилки.
+Повертає масив значень (array), що повертаються функцією, який може бути порожнім або \*\*`false`\*\*в случае возникновения ошибки.

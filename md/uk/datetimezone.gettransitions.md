@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.datetimezone.md: DateTimeZone
 title: 'DateTimeZone::getTransitions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeZone::getTransitions
 
-# timezonetransitionsget
+# timezone\_transitions\_get
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-DateTimeZone::getTransitions -- timezonetransitionsget — Повертає всі переходи для часового поясу
+DateTimeZone::getTransitions -- timezone\_transitions\_get — Повертає всі переходи для часового поясу
 
 ### Опис
 
@@ -32,7 +33,7 @@ timezone_transitions_get(DateTimeZone $object, int $timestampBegin = PHP_INT_MIN
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.md), що повертається [timezoneopen()](function.timezone-open.md)
+Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.md), що повертається [timezone\_open()](function.timezone-open.md)
 
 `timestampBegin`
 
@@ -46,11 +47,11 @@ timezone_transitions_get(DateTimeZone $object, int $timestampBegin = PHP_INT_MIN
 
 У разі успішного виконання повертає чисельно індексований масив масивів з усіма переходами або **`false`** у разі виникнення помилки. Об'єкти DateTimeZone, що обертають тип 1 (зсув UTC) і тип 2 (скорочення), не містять переходів і виклик цього методу в такому випадку поверне **`false`**
 
-Якщо встановлено параметр `timestampBegin`, то перший запис у повертається масиві буде містити елемент переходу на момент параметра `timestampBegin`
+Если задан параметр`timestampBegin`, то перший запис у повертається масиві буде містити елемент переходу на момент параметра `timestampBegin`
 
 **Структура переходів масиву**
 
-| Ключ | Тип | Описание |
+| Ключ | Тип | Опис |
 | --- | --- | --- |
 | `ts` | int | Мітка часу Unix |
 | `time` | string | **`DateTimeInterface::ISO8601_EXPANDED`** (PHP 8.2 і пізніші версії) або **`DateTimeInterface::ISO8601`** (PHP 8.1 і раніше версії) строк часу |
@@ -60,7 +61,7 @@ timezone_transitions_get(DateTimeZone $object, int $timestampBegin = PHP_INT_MIN
 
 ### Приклади
 
-**Приклад #1 Приклад використання [timezonetransitionsget()](function.timezone-transitions-get.md)**
+**Пример #1 Пример использования[timezone\_transitions\_get()](function.timezone-transitions-get.md)**
 
 ```php
 <?php
@@ -70,7 +71,7 @@ print_r(array_slice($transitions, 0, 3));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -105,7 +106,7 @@ Array
 )
 ```
 
-**Приклад #2 Приклад використання [timezonetransitionsget()](function.timezone-transitions-get.md) із заданим параметром `timestampBegin`**
+**Пример #2 Пример использования[timezone\_transitions\_get()](function.timezone-transitions-get.md) із заданим параметром `timestampBegin`**
 
 ```php
 <?php
@@ -115,7 +116,7 @@ print_r(array_slice($transitions, 0, 3));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.inotify-add-watch.md: « inotifyaddwatch
-  - function.inotify-queue-len.md: inotifyqueuelen »
+  - function.inotify-add-watch.md: « inotify\_add\_watch
+  - function.inotify-queue-len.md: inotify\_queue\_len »
   - index.md: PHP Manual
-  - ref.inotify.md: Функции Inotify
-title: inotifyinit
+  - ref.inotify.md: Функції Inotify
+title: inotify\_init
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# inotifyinit
+# inotify\_init
 
 (PECL inotify >= 0.1.2)
 
-inotifyinit - Ініціалізує екземпляр inotify
+inotify\_init - Ініціалізує екземпляр inotify
 
 ### Опис
 
@@ -18,7 +19,7 @@ inotifyinit - Ініціалізує екземпляр inotify
 inotify_init(): resource
 ```
 
-Ініціалізує екземпляр inotify для використання в [inotifyaddwatch()](function.inotify-add-watch.md)
+Ініціалізує екземпляр inotify для використання в [inotify\_add\_watch()](function.inotify-add-watch.md)
 
 ### Список параметрів
 
@@ -72,7 +73,7 @@ fclose($fd);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(
@@ -89,8 +90,8 @@ array(
 
 ### Дивіться також
 
--   [inotifyaddwatch()](function.inotify-add-watch.md) - Додати спостерігача для екземпляра inotify
--   [inotifyрмwatch()](function.inotify-rm-watch.md) - Видалити спостерігача
--   [inotifyqueuelen()](function.inotify-queue-len.md) - Повертає кількість очікуваних подій у черзі
--   [inotifyread()](function.inotify-read.md) - Читає очікуючі повідомлення з черги
--   [fclose()](function.fclose.md) - Закриває відкритий дескриптор файлу
+-   [inotify\_add\_watch()](function.inotify-add-watch.md) \- Додати спостерігача для екземпляра inotify
+-   [inotify\_rm\_watch()](function.inotify-rm-watch.md) \- Видалити спостерігача
+-   [inotify\_queue\_len()](function.inotify-queue-len.md) \- Повертає кількість очікуваних подій у черзі
+-   [inotify\_read()](function.inotify-read.md) \- Читає очікуючі повідомлення з черги
+-   [fclose()](function.fclose.md) \- Закриває відкритий дескриптор файлу

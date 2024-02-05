@@ -1,14 +1,15 @@
 ---
 navigation:
-  - function.pspell-suggest.md: « pspellsuggest
-  - class.pspell-config.md: PSpellConfig »
+  - function.pspell-suggest.md: « pspell\_suggest
+  - class.pspell-config.md: PSpell\\Config »
   - index.md: PHP Manual
   - book.pspell.md: Pspell
-title: Клас PSpellDictionary
+title: Клас PSpell\\Dictionary
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас PSpellDictionary
+# Клас PSpell\\Dictionary
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -16,19 +17,11 @@ title: Клас PSpellDictionary
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-    
-     
-      final
-      class PSpell\Dictionary
-     
+     final
+     class PSpell\Dictionary
      {
-    
-
    }
 ```

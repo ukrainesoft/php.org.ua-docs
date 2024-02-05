@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-cmo.md: « tradercmo
-  - function.trader-cos.md: tradercos »
+  - function.trader-cmo.md: « trader\_cmo
+  - function.trader-cos.md: trader\_cos »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercorrel
+  - ref.trader.md: Функції Trader
+title: trader\_correl
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercorrel
+# trader\_correl
 
 (PECL trader >= 0.2.0)
 
-tradercorrel - Лінійний коефіцієнт кореляції r-Пірсона
+trader\_correl - Лінійний коефіцієнт кореляції r-Пірсона
 
 ### Опис
 

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-grid.setpadded.md: '« UIControlsGrid::setPadded'
-  - ui-controls-group.append.md: 'ОЙControlsGroup::append »'
+  - ui-controls-grid.setpadded.md: '« UI\\Controls\\Grid::setPadded'
+  - ui-controls-group.append.md: 'UI\\Controls\\Group::append »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Група" (розміщення)
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Група" (розміщення)
 
@@ -75,9 +76,9 @@ controls
 
 ## Зміст
 
--   [ОЙControlsGroup::append](ui-controls-group.append.md) — Додати елемент керування
--   [ОЙControlsGroup::construct](ui-controls-group.construct.md) — Створити новий об'єкт Group
--   [ОЙControlsGroup::getTitle](ui-controls-group.gettitle.md) - Отримати заголовок
--   [ОЙControlsGroup::hasMargin](ui-controls-group.hasmargin.md) - Визначення поля
--   [ОЙControlsGroup::setMargin](ui-controls-group.setmargin.md) - Встановити поле
--   [ОЙControlsGroup::setTitle](ui-controls-group.settitle.md) - Встановити заголовок
+-   [UI\\Controls\\Group::append](ui-controls-group.append.md)— Додати елемент керування
+-   [UI\\Controls\\Group::\_\_construct](ui-controls-group.construct.md)— Створити новий об'єкт Group
+-   [UI\\Controls\\Group::getTitle](ui-controls-group.gettitle.md) \- Отримати заголовок
+-   [UI\\Controls\\Group::hasMargin](ui-controls-group.hasmargin.md) \- Визначення поля
+-   [UI\\Controls\\Group::setMargin](ui-controls-group.setmargin.md) \- Встановити поле
+-   [UI\\Controls\\Group::setTitle](ui-controls-group.settitle.md) \- Встановити заголовок

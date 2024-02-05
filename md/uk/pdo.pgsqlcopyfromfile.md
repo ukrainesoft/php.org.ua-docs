@@ -5,20 +5,21 @@ navigation:
   - index.md: PHP Manual
   - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: 'PDO::pgsqlCopyFromFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::pgsqlCopyFromFile
 
-(PHP 5> = 5.3.3, PHP 7, PHP 8)
+(PHP 5 >= 5.3.3, PHP 7, PHP 8)
 
 PDO::pgsqlCopyFromFile — Скопіюйте дані з файлу до таблиці
 
 ### Опис
 
 ```methodsynopsis
-public PDO::pgsqlCopyFromFile(    string $table_name,    string $filename,    string $delimiter = "\t",    string $null_as = "\\\\N",    string $fields = ?): bool
+public PDO::pgsqlCopyFromFile(    string $table_name,    string $filename,    string $delimiter = "\t",    string $null_as = "\\\\N",    string $fields = ?): bool
 ```
 
-Копіює рядки з файлу `filename` до таблиці `table_name` використовуючи роздільник полів `delimiter` та список полів `fields`
+Копіює рядки з файлу `filename`в таблицу`table_name` використовуючи роздільник полів `delimiter` та список полів `fields`
 
 ### Список параметрів
 
@@ -44,4 +45,4 @@ public PDO::pgsqlCopyFromFile(    string $table_name,    string $filename,    st
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

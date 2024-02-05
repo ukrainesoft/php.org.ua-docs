@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-lo-truncate.md: « pgлоtruncate
-  - function.pg-lo-write.md: пглоwrite »
+  - function.pg-lo-truncate.md: « pg\_lo\_truncate
+  - function.pg-lo-write.md: pg\_lo\_write »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пглоunlink
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_lo\_unlink
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пглоunlink
+# pg\_lo\_unlink
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пглоunlink — Видалення великого об'єкта
+pg\_lo\_unlink — Видалення великого об'єкта
 
 ### Опис
 
@@ -18,19 +19,19 @@ title: пглоunlink
 pg_lo_unlink(PgSql\Connection $connection, int $oid): bool
 ```
 
-**пглоunlink()** видаляє великий об'єкт із ідентифікатором `oid`
+**pg\_lo\_unlink()** видаляє великий об'єкт із ідентифікатором `oid`
 
 Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Колишня назва функції: **пгlounlink()**
+> Прежнее название функции:**pg\_lounlink()**
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection` не вказано, буде вибрано стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -42,17 +43,17 @@ OID великий об'єкт у базі даних.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пглоunlink()****
+**Пример #1 Пример использования**pg\_lo\_unlink()\*\*\*\*
 
 ```php
 <?php
@@ -67,5 +68,5 @@ OID великий об'єкт у базі даних.
 
 ### Дивіться також
 
--   [пглоcreate()](function.pg-lo-create.md) - Створює великий об'єкт
--   [пглоimport()](function.pg-lo-import.md) - Імпорт великого об'єкта з файлу
+-   [pg\_lo\_create()](function.pg-lo-create.md) \- Створює великий об'єкт
+-   [pg\_lo\_import()](function.pg-lo-import.md) \- Імпорт великого об'єкта з файлу

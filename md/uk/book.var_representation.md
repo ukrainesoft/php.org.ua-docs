@@ -1,17 +1,18 @@
 ---
 navigation:
-  - ds-priorityqueue.toarray.md: '« DsPriorityQueue::toArray'
-  - intro.var_representation.md: Введение »
+  - ds-priorityqueue.toarray.md: '« Ds\\PriorityQueue::toArray'
+  - intro.var_representation.md: Вступ "
   - index.md: PHP Manual
   - refs.basic.other.md: Інші базові модулі
-title: varrepresentation
+title: var\_representation
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# varrepresentation
+# var\_representation
 
--   [Введение](intro.var_representation.md)
+-   [Вступ](intro.var_representation.md)
 -   [Встановлення та налаштування](var-representation.setup.md)
     -   [Вимоги](var-representation.requirements.md)
     -   [Установка](var-representation.installation.md)
 -   [Обумовлені константи](var-representation.constants.md)
--   [Функции varrepresentation](ref.var-representation.md)
-    -   [varrepresentation](function.var-representation.md) — Повертає коротку, читаючу, розбірливу строкову виставу змінної
+-   [Функції var\_representation](ref.var-representation.md)
+    -   [var\_representation](function.var-representation.md)— Повертає коротке, читанне, розбірливе рядкове подання змінної

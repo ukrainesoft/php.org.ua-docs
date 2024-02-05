@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauth.md: OAuth
 title: 'OAuth::fetch'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuth::fetch
 
@@ -15,7 +16,7 @@ OAuth::fetch — Витягти захищений ресурс OAuth
 ### Опис
 
 ```methodsynopsis
-public OAuth::fetch(    string $protected_resource_url,    array $extra_parameters = ?,    string $http_method = ?,    array $http_headers = ?): mixed
+public OAuth::fetch(    string $protected_resource_url,    array $extra_parameters = ?,    string $http_method = ?,    array $http_headers = ?): mixed
 ```
 
 Витягти ресурс.
@@ -32,7 +33,7 @@ URL захищеного ресурсу OAuth.
 
 `http_method`
 
-Один із методів **`OAUTH_HTTP_METHOD_*`**. Дивіться [константи OAUTH](oauth.constants.md)які включають GET, POST, PUT, HEAD і DELETE.
+Один из методов\*\*`OAUTH_HTTP_METHOD_*`\*\*Смотрите[константи OAUTH](oauth.constants.md)які включають GET, POST, PUT, HEAD і DELETE.
 
 HEAD (**`OAUTH_HTTP_METHOD_HEAD`**) може бути корисним для вивчення інформації перед твором запиту (якщо облікові дані OAuth у заголовку `Authorization`
 
@@ -42,19 +43,19 @@ HEAD (**`OAUTH_HTTP_METHOD_HEAD`**) може бути корисним для в
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`** |
-| PECL oauth 0.99.5 | Доданий параметр `http_method` |
-| PECL oauth 0.99.8 | Доданий параметр `http_headers` |
+| PECL oauth 0.99.5 | Добавлен параметр`http_method` |
+| PECL oauth 0.99.8 | Добавлен параметр`http_headers` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **OAuth::fetch()****
+**Пример #1 Пример использования**OAuth::fetch()\*\*\*\*
 
 ```php
 <?php
@@ -76,6 +77,6 @@ try {
 
 ### Дивіться також
 
--   [OAuth::getLastResponse()](oauth.getlastresponse.md) - Отримати останню відповідь
--   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) - Отримати HTTP-інформацію про останню відповідь
--   [OAuth::setToken()](oauth.settoken.md) - Задати токен та його пароль
+-   [OAuth::getLastResponse()](oauth.getlastresponse.md) \- Отримати останню відповідь
+-   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) \- Отримати HTTP-інформацію про останню відповідь
+-   [OAuth::setToken()](oauth.settoken.md) \- Задати токен та його пароль

@@ -1,20 +1,21 @@
 ---
 navigation:
   - class.hashcontext.md: « HashContext
-  - hashcontext.serialize.md: 'HashContext::serialize »'
+  - hashcontext.serialize.md: 'HashContext::\_\_serialize »'
   - index.md: PHP Manual
   - class.hashcontext.md: HashContext
-title: 'HashContext::construct'
+title: 'HashContext::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# HashContext::construct
+# HashContext::\_\_construct
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-HashContext::construct — Закритий конструктор для заборони безпосереднього створення об'єкта
+HashContext::\_\_construct — Закритий конструктор для заборони безпосереднього створення об'єкта
 
 ### Опис
 
-private **HashContext::construct**
+private**HashContext::\_\_construct**()
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-put.md: « cubridput
-  - function.cubrid-schema.md: cubridschema »
+  - function.cubrid-put.md: « cubrid\_put
+  - function.cubrid-schema.md: cubrid\_schema »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridrollback
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_rollback
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridrollback
+# cubrid\_rollback
 
 (PECL CUBRID >= 8.3.0)
 
-cubridrollback - Відкат транзакції
+cubrid\_rollback - Відкат транзакції
 
 ### Опис
 
@@ -18,9 +19,9 @@ cubridrollback - Відкат транзакції
 cubrid_rollback(resource $conn_identifier): bool
 ```
 
-Функція **cubridrollback()** виконує відкат транзакції, яку вказує `conn_identifier`, яка в даний момент виконується.
+Функция**cubrid\_rollback()** виконує відкат транзакції, яку вказує `conn_identifier`, яка в даний момент виконується.
 
-З'єднання з сервером закривається після дзвінка **cubridrollback()**. Однак дескриптор з'єднання все ще дійсний.
+З'єднання з сервером закривається після дзвінка **cubrid\_rollback()**. Однак дескриптор з'єднання все ще дійсний.
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ Connection identifier.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridrollback()****
+**Пример #1 Пример использования**cubrid\_rollback()\*\*\*\*
 
 ```php
 <?php
@@ -96,7 +97,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 P01 Abatis Publishers    New York        NY  USA
@@ -107,5 +108,5 @@ P04 Tenterhooks Press    Berkeley        CA  USA
 
 ### Дивіться також
 
--   [cubridcommit()](function.cubrid-commit.md) - підтвердження транзакції
--   [cubriddisconnect()](function.cubrid-disconnect.md) - Закриває з'єднання з базою даних
+-   [cubrid\_commit()](function.cubrid-commit.md) \- підтвердження транзакції
+-   [cubrid\_disconnect()](function.cubrid-disconnect.md) \- Закриває з'єднання з базою даних

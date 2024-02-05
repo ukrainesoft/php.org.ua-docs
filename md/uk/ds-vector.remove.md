@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.reduce.md: '« DsVector::reduce'
-  - ds-vector.reverse.md: 'ДсVector::reverse »'
+  - ds-vector.reduce.md: '« Ds\\Vector::reduce'
+  - ds-vector.reverse.md: 'Ds\\Vector::reverse »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::remove'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::remove'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::remove
+# Ds\\Vector::remove
 
 (PECL ds >= 1.0.0)
 
-ДсVector::remove — Видаляє та повертає значення за індексом
+Ds\\Vector::remove — Видаляє та повертає значення за індексом
 
 ### Опис
 
@@ -36,7 +37,7 @@ public Ds\Vector::remove(int $index): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::remove()****
+**Пример #1 Пример использования**Ds\\Vector::remove()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($vector->remove(0));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "b"

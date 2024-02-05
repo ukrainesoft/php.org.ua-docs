@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.mqseries-conn.md: « mqseriesconn
-  - function.mqseries-disc.md: mqseriesdisc »
+  - function.mqseries-conn.md: « mqseries\_conn
+  - function.mqseries-disc.md: mqseries\_disc »
   - index.md: PHP Manual
-  - ref.mqseries.md: Функции mqseries
-title: mqseriesconnx
+  - ref.mqseries.md: Функції mqseries
+title: mqseries\_connx
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mqseriesconnx
+# mqseries\_connx
 
 (PECL mqseries >= 0.10.0)
 
-mqseriesconnx — MQSeries MQCONNX
+mqseries\_connx — MQSeries MQCONNX
 
 ### Опис
 
 ```methodsynopsis
-mqseries_connx(    string $qManagerName,    array &$connOptions,    resource &$hconn,    resource &$compCode,    resource &$reason): void
+mqseries_connx(    string $qManagerName,    array &$connOptions,    resource &$hconn,    resource &$compCode,    resource &$reason): void
 ```
 
-Функція **mqseriesconnx()** (MQCONNX) відкриває з'єднання з менеджером черг. Вона повертає обробник з'єднання, який використовується всіма іншими функціями модуля.
+Функция**mqseries\_connx()** (MQCONNX) відкриває з'єднання з менеджером черг. Вона повертає обробник з'єднання, який використовується всіма іншими функціями модуля.
 
-Виклик функції **mqseriesconnx()** аналогічний виклику [mqseriesconn()](function.mqseries-conn.md) (MQCONN), за винятком того, що MQCONNX дозволяє встановити опції, що визначають режим роботи з менеджером.
+Виклик функції **mqseries\_connx()** аналогічний виклику [mqseries\_conn()](function.mqseries-conn.md) (MQCONN), за винятком того, що MQCONNX дозволяє встановити опції, що визначають режим роботи з менеджером.
 
 ### Список параметрів
 
@@ -56,7 +57,7 @@ mqseries_connx(    string $qManagerName,    array &$connOptions,    resource &$h
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseriesconnx()****
+**Пример #1 Пример использования**mqseries\_connx()\*\*\*\*
 
 ```php
 <?php
@@ -77,7 +78,7 @@ mqseries_connx(    string $qManagerName,    array &$connOptions,    resource &$h
 ?>
 ```
 
-**Приклад #2 Приклад використання **mqseriesconnx()** з використанням SSL та URL відповідача OCSP**
+**Пример #2 Пример использования**mqseries\_connx()\*\* з використанням SSL та URL відповідача OCSP\*\*
 
 ```php
 <?php
@@ -112,4 +113,4 @@ mqseries_connx(    string $qManagerName,    array &$connOptions,    resource &$h
 
 ### Дивіться також
 
--   [mqseriesdisc()](function.mqseries-disc.md) - MQSeries MQDISC
+-   [mqseries\_disc()](function.mqseries-disc.md) \- MQSeries MQDISC

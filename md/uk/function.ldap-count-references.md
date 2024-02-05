@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-count-entries.md: « ldapcountentries
-  - function.ldap-delete-ext.md: ldapdeleteext »
+  - function.ldap-count-entries.md: « ldap\_count\_entries
+  - function.ldap-delete-ext.md: ldap\_delete\_ext »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapcountreferences
+title: ldap\_count\_references
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapcountreferences
+# ldap\_count\_references
 
 (PHP 8)
 
-ldapcountreferences — Підраховує кількість посилань у результатах пошуку
+ldap\_count\_references — Підраховує кількість посилань у результатах пошуку
 
 ### Опис
 
@@ -24,11 +25,11 @@ ldap_count_references(LDAP\Connection $ldap, LDAP\Result $result): int
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `result`
 
-Екземпляр [LDAPResult](class.ldap-result.md), що повертається [ldaplist()](function.ldap-list.md) або [ldapsearch()](function.ldap-search.md)
+Екземпляр [LDAP\\Result](class.ldap-result.md), що повертається [ldap\_list()](function.ldap-list.md) або [ldap\_search()](function.ldap-search.md)
 
 ### Значення, що повертаються
 
@@ -36,11 +37,11 @@ ldap_count_references(LDAP\Connection $ldap, LDAP\Result $result): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [LDAP\\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap result` |
 
 ### Дивіться також
 
--   [ldapconnect()](function.ldap-connect.md) - Підключитись до сервера LDAP
+-   [ldap\_connect()](function.ldap-connect.md) \- Підключається до сервера LDAP

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pushClipPath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::pushClipPath
 
@@ -20,7 +21,7 @@ public ImagickDraw::pushClipPath(string $clip_mask_id): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Запускає визначення шляху відсічного контуру, який складається з будь-якої кількості команд малювання та завершується командою [ImagickDraw::popClipPath()](imagickdraw.popclippath.md)
 

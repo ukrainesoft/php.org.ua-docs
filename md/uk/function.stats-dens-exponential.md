@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-dens-chisquare.md: « statsdenschisquare
-  - function.stats-dens-f.md: statsdensf »
+  - function.stats-dens-chisquare.md: « stats\_dens\_chisquare
+  - function.stats-dens-f.md: stats\_dens\_f »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsdensexponential
+title: stats\_dens\_exponential
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsdensexponential
+# stats\_dens\_exponential
 
 (PECL stats >= 1.0.0)
 
-statsdensexponential - Щільність ймовірності експоненційного розподілу
+stats\_dens\_exponential - Щільність ймовірності експоненційного розподілу
 
 ### Опис
 
@@ -18,7 +19,7 @@ statsdensexponential - Щільність ймовірності експоне�
 stats_dens_exponential(float $x, float $scale): float
 ```
 
-Повертає щільність ймовірності для `x`, де `scale` є масштабним параметром.
+Повертає щільність ймовірності для `x`, где`scale` є масштабним параметром.
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ stats_dens_exponential(float $x, float $scale): float
 
 ### Значення, що повертаються
 
-Щільність ймовірності для `x` або **`false`** у разі виникнення помилки.
+Щільність ймовірності для `x`или\*\*`false`\*\*в случае возникновения ошибки.

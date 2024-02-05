@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-menu.appendpreferences.md: '« UIMenu::appendPreferences'
-  - ui-menu.appendseparator.md: 'ОЙMenu::appendSeparator »'
+  - ui-menu.appendpreferences.md: '« UI\\Menu::appendPreferences'
+  - ui-menu.appendseparator.md: 'UI\\Menu::appendSeparator »'
   - index.md: PHP Manual
-  - class.ui-menu.md: ОЙMenu
-title: 'ОЙMenu::appendQuit'
+  - class.ui-menu.md: UI\\Menu
+title: 'UI\\Menu::appendQuit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙMenu::appendQuit
+# UI\\Menu::appendQuit
 
 (UI 0.9.9)
 
-ОЙMenu::appendQuit — Додати пункт меню "Вихід" (Quit)
+UI\\Menu::appendQuit — Додати пункт меню "Вихід" (Quit)
 
 ### Опис
 

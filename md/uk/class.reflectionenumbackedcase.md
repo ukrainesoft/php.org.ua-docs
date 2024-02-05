@@ -1,48 +1,51 @@
 ---
 navigation:
   - reflectionenumunitcase.getvalue.md: '« ReflectionEnumUnitCase::getValue'
-  - reflectionenumbackedcase.construct.md: 'ReflectionEnumBackedCase::construct »'
+  - reflectionenumbackedcase.construct.md: 'ReflectionEnumBackedCase::\_\_construct »'
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Клас ReflectionEnumBackedCase
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ReflectionEnumBackedCase
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
-Клас **ReflectionEnumBackedCase** повідомляє інформацію про варіант типізованого перерахування, який має скалярний еквівалент.
+Класс**ReflectionEnumBackedCase** повідомляє інформацію про варіант типізованого перерахування, який має скалярний еквівалент.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class ReflectionEnumBackedCase
     
 
     
-     
-      class ReflectionEnumBackedCase
-     
-
-     
-      extends
-       ReflectionEnumUnitCase
-     
+     extends
+      ReflectionEnumUnitCase
      {
-    
+
     /* Наследуемые константы */
     
+     public
      const
      int
-      ReflectionClassConstant::IS_PUBLIC = 1;
-const
+      ReflectionClassConstant::IS_PUBLIC;
+public
+     const
      int
-      ReflectionClassConstant::IS_PROTECTED = 2;
-const
+      ReflectionClassConstant::IS_PROTECTED;
+public
+     const
      int
-      ReflectionClassConstant::IS_PRIVATE = 4;
+      ReflectionClassConstant::IS_PRIVATE;
+public
+     const
+     int
+      ReflectionClassConstant::IS_FINAL;
 
 
     /* Наследуемые свойства */
@@ -84,10 +87,10 @@ public ReflectionClassConstant::__toString(): string
 
 ## Дивіться також
 
--   [Перечисления](language.enumerations.md)
+-   [Перерахування](language.enumerations.md)
 -   [ReflectionEnumUnitCase](class.reflectionenumunitcase.md)
 
 ## Зміст
 
--   [ReflectionEnumBackedCase::construct](reflectionenumbackedcase.construct.md) — Створює об'єкт ReflectionEnumBackedCase
--   [ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.md) — Отримує скалярне значення варіанта перерахування
+-   [ReflectionEnumBackedCase::\_\_construct](reflectionenumbackedcase.construct.md)— Створює об'єкт ReflectionEnumBackedCase
+-   [ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.md)— Отримує скалярне значення варіанта перерахування

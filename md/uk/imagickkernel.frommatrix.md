@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagickkernel.md: ImagickKernel
 title: 'ImagickKernel::fromMatrix'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickKernel::fromMatrix
 
 (PECL imagick >= 3.3.0)
 
-ImagickKernel::fromMatrix — Опис
+ImagickKernel::fromMatrix — Створює ядро ​​з двовимірної матриці значень
 
 ### Опис
 
@@ -28,7 +29,7 @@ public static ImagickKernel::fromMatrix(array $matrix, array $origin = ?): Imagi
 
 `array`
 
-Який елемент ядра слід використовувати як вихідний піксель. Наприклад, для матриці 3x3, що визначає початок координат як , буде вказано, що нижній правий елемент має бути вихідним пікселем.
+Який елемент ядра слід використовувати як вихідний піксель. Наприклад, для матриці 3x3, що визначає початок координат як \[2, 2\], буде вказано, що нижній правий елемент має бути вихідним пікселем.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public static ImagickKernel::fromMatrix(array $matrix, array $origin = ?): Imagi
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickKernel::fromMatrix()****
+**Пример #1 Пример использования**ImagickKernel::fromMatrix()\*\*\*\*
 
 ```php
 <?php

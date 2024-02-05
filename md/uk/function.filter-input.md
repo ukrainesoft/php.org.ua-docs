@@ -1,28 +1,29 @@
 ---
 navigation:
-  - function.filter-input-array.md: « filterinputarray
-  - function.filter-list.md: filterlist »
+  - function.filter-input-array.md: « filter\_input\_array
+  - function.filter-list.md: filter\_list »
   - index.md: PHP Manual
   - ref.filter.md: Функції фільтрації даних
-title: filterinput
+title: filter\_input
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# filterinput
+# filter\_input
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-filterinput - Приймає змінну ззовні PHP і, при необхідності, фільтрує її
+filter\_input - Приймає змінну ззовні PHP і, при необхідності, фільтрує її
 
 ### Опис
 
 ```methodsynopsis
-filter_input(    int $type,    string $var_name,    int $filter = FILTER_DEFAULT,    array|int $options = 0): mixed
+filter_input(    int $type,    string $var_name,    int $filter = FILTER_DEFAULT,    array|int $options = 0): mixed
 ```
 
 ### Список параметрів
 
 `type`
 
-Одна з констант **`INPUT_GET`** **`INPUT_POST`** **`INPUT_COOKIE`** **`INPUT_SERVER`** або **`INPUT_ENV`**
+Одна из констант\*\*`INPUT_GET`\*\* **`INPUT_POST`** **`INPUT_COOKIE`** **`INPUT_SERVER`**или**`INPUT_ENV`**
 
 `var_name`
 
@@ -32,7 +33,7 @@ filter_input(    int $type,    string $var_name,    int $filter = FILTER_DEFAULT
 
 Ідентифікатор (ID) фільтра. На сторінці [Типи фільтрів](filter.filters.md) наведено список доступних фільтрів.
 
-Якщо не вказано, то використовується **`FILTER_DEFAULT`**, який рівнозначний [**`FILTER_UNSAFE_RAW`**](filter.filters.sanitize.md). Це означає, що за замовчуванням не застосовується фільтр.
+Если не указан, то принимает значение по умолчанию —\*\*`FILTER_DEFAULT`\*\*, який рівнозначний значенню константи [**`FILTER_UNSAFE_RAW`**](filter.filters.sanitize.md)То есть по умолчанию значение не фильтруется.
 
 `options`
 
@@ -40,11 +41,11 @@ filter_input(    int $type,    string $var_name,    int $filter = FILTER_DEFAULT
 
 ### Значення, що повертаються
 
-Значення запитуваної змінної у разі успішного виконання, **`false`**, якщо фільтрація завершилася невдачею, або **`null`**, якщо змінна `var_name` не визначена. Якщо встановлено прапор **`FILTER_NULL_ON_FAILURE`**, функція повертає **`false`**, якщо змінна не визначена та \*\*`null`\*\*якщо фільтрація завершилася невдачею.
+Значення запитуваної змінної у разі успішного виконання, **`false`**, якщо фільтрація завершилася невдачею, або **`null`**, если переменная`var_name`не определена. Если установлен флаг\*\*`FILTER_NULL_ON_FAILURE`\*\*, функція повертає **`false`**, якщо змінна не визначена та \*\*`null`\*\*якщо фільтрація завершилася невдачею.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **filterinput()****
+**Пример #1 Пример использования**filter\_input()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ echo "<a href='?search=$search_url'>Искать снова.</a>";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Вы искали Me &#38; son.
@@ -64,7 +65,7 @@ echo "<a href='?search=$search_url'>Искать снова.</a>";
 
 ### Дивіться також
 
--   [filtervar()](function.filter-var.md) - Фільтрує змінну за допомогою певного фільтра
--   [filterinputarray()](function.filter-input-array.md) - Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
--   [filtervararray()](function.filter-var-array.md) - приймає кілька змінних і, при необхідності, фільтрує їх
+-   [filter\_var()](function.filter-var.md) \- Фільтрує змінну за допомогою певного фільтра
+-   [filter\_input\_array()](function.filter-input-array.md) \- Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
+-   [filter\_var\_array()](function.filter-var-array.md) \- приймає кілька змінних і, при необхідності, фільтрує їх
 -   [Типи фільтрів](filter.filters.md)

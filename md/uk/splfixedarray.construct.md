@@ -4,17 +4,18 @@ navigation:
   - splfixedarray.count.md: 'SplFixedArray::count »'
   - index.md: PHP Manual
   - class.splfixedarray.md: SplFixedArray
-title: 'SplFixedArray::construct'
+title: 'SplFixedArray::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SplFixedArray::construct
+# SplFixedArray::\_\_construct
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-SplFixedArray::construct - Створює новий масив фіксованої довжини
+SplFixedArray::\_\_construct - Створює новий масив фіксованої довжини
 
 ### Опис
 
-public **SplFixedArray::construct**(int `$size`
+public**SplFixedArray::\_\_construct**(int`$size`
 
 Створює фіксований масив із числом **`null`** значень, рівних `size`
 
@@ -22,21 +23,21 @@ public **SplFixedArray::construct**(int `$size`
 
 `size`
 
-Розмір фіксованого масиву. Очікується значення між `0` і **`PHP_INT_MAX`**
+Розмір фіксованого масиву. Очікується значення між и\*\*`PHP_INT_MAX`\*\*
 
 ### Помилки
 
-Викидає виняток [ValueError](class.valueerror.md), якщо параметр `size` від'ємний.
+Викидає виняток [ValueError](class.valueerror.md), якщо параметр `size`отрицателен.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `size` від'ємний; раніше викидався виняток [InvalidArgumentException](class.invalidargumentexception.md) |
+| 8.0.0 | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `size` від'ємний; раніше викидався виняток [InvalidArgumentException](class.invalidargumentexception.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFixedArray::construct()****
+**Пример #1 Пример использования**SplFixedArray::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ foreach($array as $v) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 NULL

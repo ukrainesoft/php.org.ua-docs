@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-willr.md: « traderwillr
+  - function.trader-willr.md: « trader\_willr
   - refs.utilspec.nontext.md: Генерація нетекстових MIME-форматів
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderwma
+  - ref.trader.md: Функції Trader
+title: trader\_wma
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderwma
+# trader\_wma
 
 (PECL trader >= 0.2.0)
 
-traderwma — Зважена ковзна середня
+trader\_wma — Зважена ковзна середня
 
 ### Опис
 

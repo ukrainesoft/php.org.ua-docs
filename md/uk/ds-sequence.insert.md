@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.get.md: '« DsSequence::get'
-  - ds-sequence.join.md: 'ДсSequence::join »'
+  - ds-sequence.get.md: '« Ds\\Sequence::get'
+  - ds-sequence.join.md: 'Ds\\Sequence::join »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::insert'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::insert'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::insert
+# Ds\\Sequence::insert
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::insert — Вставляє значення за вказаним індексом
+Ds\\Sequence::insert — Вставляє значення за вказаним індексом
 
 ### Опис
 
@@ -26,7 +27,7 @@ abstract public Ds\Sequence::insert(int $index, mixed ...$values): void
 
 Індекс, за яким необхідно здійснити вставку . `0 <= index <= count`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Можна вказати індекс, який дорівнює кількості елементів колекції.
 
@@ -44,7 +45,7 @@ abstract public Ds\Sequence::insert(int $index, mixed ...$values): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::insert()****
+**Пример #1 Пример использования**Ds\\Sequence::insert()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ var_dump($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Vector)#1 (7) {

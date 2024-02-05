@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
 title: 'DOMElement::removeAttributeNode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMElement::removeAttributeNode
 
@@ -18,7 +19,7 @@ DOMElement::removeAttributeNode — Видаляє атрибут
 public DOMElement::removeAttributeNode(DOMAttr $attr): DOMAttr|false
 ```
 
-Видаляє вузол атрибуту `attr` елемент.
+Удаляет узел атрибута`attr` елемент.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public DOMElement::removeAttributeNode(DOMAttr $attr): DOMAttr|false
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -42,6 +43,6 @@ public DOMElement::removeAttributeNode(DOMAttr $attr): DOMAttr|false
 
 ### Дивіться також
 
--   [DOMElement::hasAttribute()](domelement.hasattribute.md) - Перевіряє, чи існує атрибут
--   [DOMElement::getAttributeNode()](domelement.getattributenode.md) - Повертає вузол атрибуту
--   [DOMElement::setAttributeNode()](domelement.setattributenode.md) - Додає новий вузол атрибуту елемент
+-   [DOMElement::hasAttribute()](domelement.hasattribute.md) \- Перевіряє, чи існує атрибут
+-   [DOMElement::getAttributeNode()](domelement.getattributenode.md) \- Повертає вузол атрибуту
+-   [DOMElement::setAttributeNode()](domelement.setattributenode.md) \- Додає новий вузол атрибуту елемент

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-pen.restore.md: '« UIDrawPen::restore'
-  - ui-draw-pen.stroke.md: 'ОЙDrawPen::stroke »'
+  - ui-draw-pen.restore.md: '« UI\\Draw\\Pen::restore'
+  - ui-draw-pen.stroke.md: 'UI\\Draw\\Pen::stroke »'
   - index.md: PHP Manual
-  - class.ui-draw-pen.md: ОЙDrawPen
-title: 'ОЙDrawPen::save'
+  - class.ui-draw-pen.md: UI\\Draw\\Pen
+title: 'UI\\Draw\\Pen::save'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawPen::save
+# UI\\Draw\\Pen::save
 
 (UI 0.9.9)
 
-ОЙDrawPen::save — Зберегти
+UI\\Draw\\Pen::save — Зберегти
 
 ### Опис
 

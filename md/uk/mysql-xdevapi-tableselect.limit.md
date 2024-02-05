@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-tableselect.having.md: '« TableSelect::having'
   - mysql-xdevapi-tableselect.lockexclusive.md: 'TableSelect::lockExclusive »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysql\_xdevapi\\TableSelect
 title: 'TableSelect::limit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableSelect::limit
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableSelect::limit(int $rows): mysql_xdevapi\TableSelect
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::limit()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::limit()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ print_r($row);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::setimagecolorspace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::setimagecolorspace
 
@@ -24,7 +25,7 @@ public Gmagick::setimagecolorspace(int $colorspace): Gmagick
 
 `colorspace`
 
-Одна з констант [Цветового пространства](gmagick.constants.md#gmagick.constants.colorspace) `Gmagick::COLORSPACE_*`
+Одна из констант[Колірного простору](gmagick.constants.md#gmagick.constants.colorspace) `Gmagick::COLORSPACE_*`
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ public Gmagick::setimagecolorspace(int $colorspace): Gmagick
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

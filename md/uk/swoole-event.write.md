@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-event.wait.md: '« SwooleEvent::wait'
-  - class.swoole-exception.md: SwooleException »
+  - swoole-event.wait.md: '« Swoole\\Event::wait'
+  - class.swoole-exception.md: Swoole\\Exception »
   - index.md: PHP Manual
-  - class.swoole-event.md: SwooleEvent
-title: 'SwooleEvent::write'
+  - class.swoole-event.md: Swoole\\Event
+title: 'Swoole\\Event::write'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleEvent::write
+# Swoole\\Event::write
 
 (PECL swoole >= 1.9.0)
 
-SwooleEvent::write — Записує дані в сокет
+Swoole\\Event::write — Записує дані в сокет
 
 ### Опис
 

@@ -1,12 +1,13 @@
 ---
 navigation:
-  - yaf-session.valid.md: '« YafSession::valid'
-  - yaf-exception.construct.md: 'YafException::construct »'
+  - yaf-session.valid.md: '« Yaf\_Session::valid'
+  - yaf-exception.construct.md: 'Yaf\_Exception::\_\_construct »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafException
+title: Клас Yaf\_Exception
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafException
+# Клас Yaf\_Exception
 
 (Yaf >=1.0.0)
 
@@ -31,27 +32,27 @@ title: Клас YafException
     
     /* Наследуемые свойства */
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Методы */
@@ -78,5 +79,5 @@ private Exception::__clone(): void
 
 ## Зміст
 
--   [YafException::construct](yaf-exception.construct.md) - Конструктор класу YafException
--   [YafException::getPrevious](yaf-exception.getprevious.md) — Отримати попередній виняток
+-   [Yaf\_Exception::\_\_construct](yaf-exception.construct.md) \- Конструктор класу Yaf\_Exception
+-   [Yaf\_Exception::getPrevious](yaf-exception.getprevious.md)— Отримати попередній виняток

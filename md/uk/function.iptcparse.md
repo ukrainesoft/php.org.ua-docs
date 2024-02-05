@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: iptcparse
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # iptcparse
 
@@ -18,7 +19,7 @@ iptcparse — Розбір двійкових даних IPTC на окремі 
 iptcparse(string $iptc_block): array|false
 ```
 
-Розбирає [» IPTC](http://www.iptc.org/) дані окремі теги.
+Розбирає [» IPTC](http://www.iptc.org/) дані окремі теги.
 
 ### Список параметрів
 
@@ -47,6 +48,6 @@ if(isset($info['APP13']))
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція не потребує бібліотеки GD.

@@ -1,14 +1,15 @@
 ---
 navigation:
-  - splfixedarray.construct.md: '« SplFixedArray::construct'
+  - splfixedarray.construct.md: '« SplFixedArray::\_\_construct'
   - splfixedarray.current.md: 'SplFixedArray::current »'
   - index.md: PHP Manual
   - class.splfixedarray.md: SplFixedArray
 title: 'SplFixedArray::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFixedArray::count
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplFixedArray::count — Повертає розмір масиву
 
@@ -30,7 +31,7 @@ public SplFixedArray::count(): int
 
 ### Приклади
 
-**Приклад #1 Приклад **SplFixedArray::count()****
+**Пример #1 Пример**SplFixedArray::count()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ echo count($array) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 5
@@ -49,14 +50,14 @@ echo count($array) . "\n";
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей метод еквівалентний [SplFixedArray::getSize()](splfixedarray.getsize.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Число елементів завжди дорівнює заданому розміру, т.к. всі значення спочатку ініціалізуються як **`null`**
 
 ### Дивіться також
 
--   [SplFixedArray::getSize()](splfixedarray.getsize.md) - Отримує розмір масиву
+-   [SplFixedArray::getSize()](splfixedarray.getsize.md) \- Отримує розмір масиву

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-dema.md: « traderdema
-  - function.trader-dx.md: traderdx »
+  - function.trader-dema.md: « trader\_dema
+  - function.trader-dx.md: trader\_dx »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderdiv
+  - ref.trader.md: Функції Trader
+title: trader\_div
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderdiv
+# trader\_div
 
 (PECL trader >= 0.2.0)
 
-traderdiv — Арифметичний вектор поділу.
+trader\_div — Арифметичний вектор поділу.
 
 ### Опис
 
@@ -18,7 +19,7 @@ traderdiv — Арифметичний вектор поділу.
 trader_div(array $real0, array $real1): array
 ```
 
-Поділяє кожне значення з `real0` на відповідне значення з `real1` та повертає отриманий масив.
+Делит каждое значение из`real0`на соответствующее значение из`real1` та повертає отриманий масив.
 
 ### Список параметрів
 

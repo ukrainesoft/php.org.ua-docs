@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getFromName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::getFromName
 
@@ -28,7 +29,7 @@ public ZipArchive::getFromName(string $name, int $len = 0, int $flags = 0): stri
 
 `len`
 
-Розмір даних з елемента. Якщо `0`, вміст читається повністю.
+Розмір даних з елемента. Якщо , вміст читається повністю.
 
 `flags`
 
@@ -43,7 +44,7 @@ public ZipArchive::getFromName(string $name, int $len = 0, int $flags = 0): stri
 
 ### Значення, що повертаються
 
-Повертає вміст елемента при успіху або **`false`** у разі виникнення помилки.
+Повертає вміст елемента при успіху або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -76,4 +77,4 @@ if ($z->open(dirname(__FILE__) . '/test_im.zip')) {
 
 ### Дивіться також
 
--   [ZipArchive::getFromIndex()](ziparchive.getfromindex.md) - Повертає вміст елемента за його індексом
+-   [ZipArchive::getFromIndex()](ziparchive.getfromindex.md) \- Повертає вміст елемента за його індексом

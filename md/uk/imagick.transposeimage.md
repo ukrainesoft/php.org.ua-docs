@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::transposeImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::transposeImage
 
@@ -18,7 +19,7 @@ Imagick::transposeImage — Створює вертикальне дзеркал
 public Imagick::transposeImage(): bool
 ```
 
-Створює вертикальне дзеркальне зображення, відбиваючи пікселі навколо центральної осі X, повертаючи їх у 90 градусів. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Створює вертикальне дзеркальне зображення, відбиваючи пікселі навколо центральної осі X, повертаючи їх у 90 градусів. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public Imagick::transposeImage(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::transposeImage()****
+**Пример #1 Пример использования**Imagick::transposeImage()\*\*\*\*
 
 ```php
 <?php
@@ -46,4 +47,4 @@ function transposeImage($imagePath) {
 
 ### Дивіться також
 
--   [Imagick::transverseImage()](imagick.transverseimage.md) - Створює горизонтальне дзеркальне відображення
+-   [Imagick::transverseImage()](imagick.transverseimage.md) \- Створює горизонтальне дзеркальне відображення

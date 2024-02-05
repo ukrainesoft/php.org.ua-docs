@@ -1,14 +1,15 @@
 ---
 navigation:
   - reflectionclass.newinstancewithoutconstructor.md: '« ReflectionClass::newInstanceWithoutConstructor'
-  - reflectionclass.tostring.md: 'ReflectionClass::toString »'
+  - reflectionclass.tostring.md: 'ReflectionClass::\_\_toString »'
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::setStaticPropertyValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::setStaticPropertyValue
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 ReflectionClass::setStaticPropertyValue — Встановлює значення статичної властивості
 
@@ -36,4 +37,4 @@ public ReflectionClass::setStaticPropertyValue(string $name, mixed $value): void
 
 ### Дивіться також
 
--   [ReflectionClass::getStaticPropertyValue()](reflectionclass.getstaticpropertyvalue.md) - Повертає значення статичної властивості
+-   [ReflectionClass::getStaticPropertyValue()](reflectionclass.getstaticpropertyvalue.md) \- Повертає значення статичної властивості

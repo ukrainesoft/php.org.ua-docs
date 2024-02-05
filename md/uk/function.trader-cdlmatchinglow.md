@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlmarubozu.md: « tradercdlmarubozu
-  - function.trader-cdlmathold.md: tradercdlmathold »
+  - function.trader-cdlmarubozu.md: « trader\_cdlmarubozu
+  - function.trader-cdlmathold.md: trader\_cdlmathold »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlmatchinglow
+  - ref.trader.md: Функції Trader
+title: trader\_cdlmatchinglow
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlmatchinglow
+# trader\_cdlmatchinglow
 
 (PECL trader >= 0.2.0)
 
-tradercdlmatchinglow - Свічкова модель "Збіг за нижнім рівнем"
+trader\_cdlmatchinglow - Свічкова модель "Збіг за нижнім рівнем"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlmatchinglow(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlmatchinglow(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас EmptyIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EmptyIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,16 +19,13 @@ title: Клас EmptyIterator
 
 ```classsynopsis
 
-     
+    
+     class EmptyIterator
     
 
     
-     
-      class EmptyIterator
-     
-
-     implements 
-       Iterator {
+     implements
+      Iterator {
 
     /* Методы */
     
@@ -35,15 +33,15 @@ title: Клас EmptyIterator
 public key(): never
 public next(): void
 public rewind(): void
-public valid(): bool
+public valid(): false
 
    }
 ```
 
 ## Зміст
 
--   [EmptyIterator::current](emptyiterator.current.md) - Метод current()
--   [EmptyIterator::key](emptyiterator.key.md) - Метод key()
--   [EmptyIterator::next](emptyiterator.next.md) - Метод next()
--   [EmptyIterator::rewind](emptyiterator.rewind.md) - Метод rewind()
--   [EmptyIterator::valid](emptyiterator.valid.md) - Метод valid()
+-   [EmptyIterator::current](emptyiterator.current.md) \- Метод current()
+-   [EmptyIterator::key](emptyiterator.key.md) \- Метод key()
+-   [EmptyIterator::next](emptyiterator.next.md) \- Метод next()
+-   [EmptyIterator::rewind](emptyiterator.rewind.md) \- Метод rewind()
+-   [EmptyIterator::valid](emptyiterator.valid.md) \- Метод valid()

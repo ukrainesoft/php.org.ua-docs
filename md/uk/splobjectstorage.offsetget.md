@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::offsetGet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplObjectStorage::offsetGet
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SplObjectStorage::offsetGet - Повертає дані, асоційовані з об'єктом object
 
@@ -36,14 +37,14 @@ public SplObjectStorage::offsetGet(object $object): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplObjectStorage::offsetGet()****
+**Пример #1 Пример использования**SplObjectStorage::offsetGet()\*\*\*\*
 
 ```php
 <?php
 $s = new SplObjectStorage;
 
-$o1 = new StdClass;
-$o2 = new StdClass;
+$o1 = new stdClass;
+$o2 = new stdClass;
 
 $s[$o1] = "hello";
 $s->attach($o2);
@@ -54,7 +55,7 @@ var_dump($s->offsetGet($o2)); //  $s[$o2]
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(5) "hello"
@@ -63,6 +64,6 @@ NULL
 
 ### Дивіться також
 
--   [SplObjectStorage::offsetSet()](splobjectstorage.offsetset.md) - Асоціює дані з об'єктом у контейнері
--   [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.md) - Перевіряє, чи існує об'єкт у контейнері
--   [SplObjectStorage::offsetUnset()](splobjectstorage.offsetunset.md) - Видаляє об'єкт із контейнера
+-   [SplObjectStorage::offsetSet()](splobjectstorage.offsetset.md) \- Асоціює дані з об'єктом у контейнері
+-   [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.md) \- Перевіряє, чи існує об'єкт у контейнері
+-   [SplObjectStorage::offsetUnset()](splobjectstorage.offsetunset.md) \- Видаляє об'єкт із контейнера

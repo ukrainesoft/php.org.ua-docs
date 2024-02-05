@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-colorbutton.getcolor.md: '« UIControlsColorButton::getColor'
-  - ui-controls-colorbutton.setcolor.md: 'ОЙControlsColorButton::setColor »'
+  - ui-controls-colorbutton.getcolor.md: '« UI\\Controls\\ColorButton::getColor'
+  - ui-controls-colorbutton.setcolor.md: 'UI\\Controls\\ColorButton::setColor »'
   - index.md: PHP Manual
-  - class.ui-controls-colorbutton.md: ОЙControlsColorButton
-title: 'ОЙControlsColorButton::onChange'
+  - class.ui-controls-colorbutton.md: UI\\Controls\\ColorButton
+title: 'UI\\Controls\\ColorButton::onChange'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsColorButton::onChange
+# UI\\Controls\\ColorButton::onChange
 
 (UI 0.9.9)
 
-ОЙControlsColorButton::onChange — Обробник зміни
+UI\\Controls\\ColorButton::onChange — Обробник зміни
 
 ### Опис
 

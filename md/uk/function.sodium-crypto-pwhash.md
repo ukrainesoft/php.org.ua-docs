@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.sodium-crypto-pwhash-str.md: « sodiumcryptopwhashstr
-  - function.sodium-crypto-scalarmult-base.md: sodiumcryptoscalarmultbase »
+  - function.sodium-crypto-pwhash-str.md: « sodium\_crypto\_pwhash\_str
+  - function.sodium-crypto-scalarmult-base.md: sodium\_crypto\_scalarmult\_base »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptopwhash
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_pwhash
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptopwhash
+# sodium\_crypto\_pwhash
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptopwhash — Отримує ключ із пароля, використовуючи Argon2
+sodium\_crypto\_pwhash — Отримує ключ із пароля, використовуючи Argon2
 
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_pwhash(    int $length,    string $password,    string $salt,    int $opslimit,    int $memlimit,    int $algo = SODIUM_CRYPTO_PWHASH_ALG_DEFAULT): string
+sodium_crypto_pwhash(    int $length,    string $password,    string $salt,    int $opslimit,    int $memlimit,    int $algo = SODIUM_CRYPTO_PWHASH_ALG_DEFAULT): string
 ```
 
-Ця функція надає низькорівневий доступ до функції cryptopwhash бібліотеки libsodium. Якщо у вас немає принципової необхідності в цій функції, краще використовувати [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.md) або [passwordhash()](function.password-hash.md)
+Ця функція надає низькорівневий доступ до функції crypto\_pwhash бібліотеки libsodium. Якщо у вас немає принципової необхідності в цій функції, краще використовувати [sodium\_crypto\_pwhash\_str()](function.sodium-crypto-pwhash-str.md) або [password\_hash()](function.password-hash.md)
 
-Найпоширеніша причина використання цієї конкретної функції - отримати початкові числа для криптографічних ключів з пароля та солі, а потім використовувати ці початкові числа для генерації фактичних ключів, необхідних для деяких цілей (наприклад, [sodiumcryptosigndetached()](function.sodium-crypto-sign-detached.md)
+Найпоширеніша причина використання цієї конкретної функції - отримати початкові числа для криптографічних ключів з пароля та солі, а потім використовувати ці початкові числа для генерації фактичних ключів, необхідних для деяких цілей (наприклад, [sodium\_crypto\_sign\_detached()](function.sodium-crypto-sign-detached.md)
 
 ### Список параметрів
 
@@ -34,15 +35,15 @@ string; Пароль, для якого створюється хеш.
 
 `salt`
 
-Сіль, яку потрібно додати до пароля перед хешуванням. Сіль повинна бути непередбачуваною, в ідеалі, що генерується з хорошого джерела випадкових чисел, такого як [randombytes()](function.random-bytes.md), а також бути довжиною не менше байт, зазначених у константі **`SODIUM_CRYPTO_PWHASH_SALTBYTES`**
+Сіль, яку потрібно додати до пароля перед хешуванням. Сіль повинна бути непередбачуваною, в ідеалі, що генерується з хорошого джерела випадкових чисел, такого як [random\_bytes()](function.random-bytes.md), а також бути довжиною не менше байт, зазначених у константі **`SODIUM_CRYPTO_PWHASH_SALTBYTES`**
 
 `opslimit`
 
-Збільшення цього числа призведе до того, що функції знадобиться більше циклів ЦП для обчислення ключа. Існують константи, доступні для встановлення межі операцій для відповідних значень залежно від передбачуваного використання, у порядку зменшення: **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE`** **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_MODERATE`** і **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_SENSITIVE`**
+Збільшення цього числа призведе до того, що функції знадобиться більше циклів ЦП для обчислення ключа. Існують константи, доступні для встановлення межі операцій для відповідних значень залежно від передбачуваного використання, у порядку зменшення: **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE`** **`SODIUM_CRYPTO_PWHASH_OPSLIMIT_MODERATE`**и**`SODIUM_CRYPTO_PWHASH_OPSLIMIT_SENSITIVE`**
 
 `memlimit`
 
-Максимальний обсяг ОЗП в байтах, який використовуватиме функція. Існують константи, які допоможуть вам вибрати відповідне значення як розмір: **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE`** **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_MODERATE`** і **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_SENSITIVE`**. Як правило, вони повинні поєднуватись з відповідними значеннями `opslimit`
+Максимальний обсяг ОЗП в байтах, який використовуватиме функція. Існують константи, які допоможуть вам вибрати відповідне значення як розмір: **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE`** **`SODIUM_CRYPTO_PWHASH_MEMLIMIT_MODERATE`**и**`SODIUM_CRYPTO_PWHASH_MEMLIMIT_SENSITIVE`**. Як правило, вони повинні поєднуватись з відповідними значеннями `opslimit`
 
 `algo`
 
@@ -50,11 +51,11 @@ int Число, що вказує алгоритм хешування, що ви
 
 ### Значення, що повертаються
 
-Повертає пароль для захешування. Значення, що повертається, є бінарним рядком, а не ASCII-поданням і не містить ніякої додаткової інформації про параметри, з якими генерувався хеш. Таким чином, вам необхідно самим зберігати значення використаних параметрів для перевірки коректності хешу в майбутньому. Щоб усім цим не займатися – використовуйте функцію [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.md)
+Повертає пароль для захешування. Значення, що повертається, є бінарним рядком, а не ASCII-поданням і не містить ніякої додаткової інформації про параметри, з якими генерувався хеш. Таким чином, вам необхідно самим зберігати значення використаних параметрів для перевірки коректності хешу в майбутньому. Щоб усім цим не займатися – використовуйте функцію [sodium\_crypto\_pwhash\_str()](function.sodium-crypto-pwhash-str.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання [passwordhash()](function.password-hash.md)**
+**Пример #1 Пример использования[password\_hash()](function.password-hash.md)**
 
 ```php
 <?php
@@ -74,7 +75,7 @@ echo bin2hex(
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 a18f346ba57992eb7e4ae6abf3fd30ee

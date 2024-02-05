@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - mysql.md: Огляд PHP драйверів MySQL
 title: Основні поняття
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Основні поняття
 

@@ -1,14 +1,15 @@
 ---
 navigation:
-  - recursiveregexiterator.construct.md: '« RecursiveRegexIterator::construct'
+  - recursiveregexiterator.construct.md: '« RecursiveRegexIterator::\_\_construct'
   - recursiveregexiterator.haschildren.md: 'RecursiveRegexIterator::hasChildren »'
   - index.md: PHP Manual
   - class.recursiveregexiterator.md: RecursiveRegexIterator
 title: 'RecursiveRegexIterator::getChildren'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RecursiveRegexIterator::getChildren
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 RecursiveRegexIterator::getChildren — Повертає ітератор до поточного елемента
 
@@ -34,7 +35,7 @@ public RecursiveRegexIterator::getChildren(): RecursiveRegexIterator
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RecursiveRegexIterator::getChildren()****
+**Пример #1 Пример использования**RecursiveRegexIterator::getChildren()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ foreach ($rRegexIterator as $key1 => $value1) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Нет дочерних элементов
@@ -69,4 +70,4 @@ foreach ($rRegexIterator as $key1 => $value1) {
 
 ### Дивіться також
 
--   [RecursiveRegexIterator::hasChildren()](recursiveregexiterator.haschildren.md) - Визначає, чи можлива навігація за вмістом поточного елемента
+-   [RecursiveRegexIterator::hasChildren()](recursiveregexiterator.haschildren.md) \- Визначає, чи можлива навігація за вмістом поточного елемента

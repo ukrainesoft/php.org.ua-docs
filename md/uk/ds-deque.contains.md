@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.construct.md: '« DsDeque::construct'
-  - ds-deque.copy.md: 'ДсDeque::copy »'
+  - ds-deque.construct.md: '« Ds\\Deque::\_\_construct'
+  - ds-deque.copy.md: 'Ds\\Deque::copy »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::contains'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::contains'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::contains
+# Ds\\Deque::contains
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::contains — Перевіряє, чи є у двосторонній черзі задані значення
+Ds\\Deque::contains — Перевіряє, чи є у двосторонній черзі задані значення
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Ds\Deque::contains(mixed ...$values): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::contains()****
+**Пример #1 Пример использования**Ds\\Deque::contains()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($sequece->contains(...[]));               // true
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)

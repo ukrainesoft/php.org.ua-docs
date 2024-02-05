@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::sendError'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::sendError
 
@@ -36,7 +37,7 @@ HTTP код помилки.
 
 `reason`
 
-Короткий опис помилки. Якщо **`null`**, використовуватиметься стандартне значення коду помилки.
+Краткое описание ошибки. Если\*\*`null`\*\*, використовуватиметься стандартне значення коду помилки.
 
 ### Значення, що повертаються
 
@@ -44,7 +45,7 @@ HTTP код помилки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventHttpRequest::sendError()****
+**Пример #1 Пример использования**EventHttpRequest::sendError()\*\*\*\*
 
 ```php
 <?php
@@ -64,4 +65,4 @@ $base->loop();
 
 ### Дивіться також
 
--   [EventHttpRequest::sendReply()](eventhttprequest.sendreply.md) - Відправляє HTML-відповідь клієнту
+-   [EventHttpRequest::sendReply()](eventhttprequest.sendreply.md) \- Відправляє HTML-відповідь клієнту

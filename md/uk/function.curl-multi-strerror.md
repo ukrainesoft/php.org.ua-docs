@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-multi-setopt.md: « curlmultisetopt
-  - function.curl-pause.md: curlpause »
+  - function.curl-multi-setopt.md: « curl\_multi\_setopt
+  - function.curl-pause.md: curl\_pause »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlmultistrerror
+  - ref.curl.md: Опції cURL
+title: curl\_multi\_strerror
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlmultistrerror
+# curl\_multi\_strerror
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-curlmultistrerror — Повертає рядок, що описує помилку
+curl\_multi\_strerror — Повертає рядок, що описує помилку
 
 ### Опис
 
@@ -24,7 +25,7 @@ curl_multi_strerror(int $error_code): ?string
 
 `error_code`
 
-Одна та констант [» кодов ошибок CURLM](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
+Одна та констант [»Кодів помилок CURLM](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ curl_multi_strerror(int $error_code): ?string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curlmultistrerror()****
+**Пример #1 Пример использования**curl\_multi\_strerror()\*\*\*\*
 
 ```php
 <?php
@@ -65,5 +66,5 @@ if ($status != CURLM_OK) {
 
 ### Дивіться також
 
--   [curlstrerror()](function.curl-strerror.md) - Отримати текстовий опис для коду помилки
--   [» коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
+-   [curl\_strerror()](function.curl-strerror.md) \- Отримати текстовий опис для коду помилки
+-   [» коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)

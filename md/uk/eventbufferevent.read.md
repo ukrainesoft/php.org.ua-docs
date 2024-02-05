@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::read'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::read
 
@@ -36,4 +37,4 @@ public
 
 ### Дивіться також
 
--   [EventBufferEvent::readBuffer()](eventbufferevent.readbuffer.md) - Зливає весь вміст буфера введення та поміщає його у буфер
+-   [EventBufferEvent::readBuffer()](eventbufferevent.readbuffer.md) \- Зливає весь вміст буфера введення та поміщає його у буфер

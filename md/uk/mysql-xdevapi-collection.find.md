@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collection.existsindatabase.md: '« Collection::existsInDatabase'
   - mysql-xdevapi-collection.getname.md: 'Collection::getName »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
 title: 'Collection::find'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collection::find
 
@@ -34,7 +35,7 @@ public mysql_xdevapi\Collection::find(string $search_condition = ?): mysql_xdeva
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::find()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::find()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ print_r($result->fetchAll());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array

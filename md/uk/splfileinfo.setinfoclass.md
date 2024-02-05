@@ -1,14 +1,15 @@
 ---
 navigation:
   - splfileinfo.setfileclass.md: '« SplFileInfo::setFileClass'
-  - splfileinfo.tostring.md: 'SplFileInfo::toString »'
+  - splfileinfo.tostring.md: 'SplFileInfo::\_\_toString »'
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::setInfoClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::setInfoClass
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::setInfoClass — Задає ім'я класу, об'єкти якого створюватимуться методами [SplFileInfo::getFileInfo()](splfileinfo.getfileinfo.md) і [SplFileInfo::getPathInfo()](splfileinfo.getpathinfo.md)
 
@@ -32,7 +33,7 @@ public SplFileInfo::setInfoClass(string $class = SplFileInfo::class): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання [SplFileInfo::setFileClass()](splfileinfo.setfileclass.md)**
+**Пример #1 Пример использования[SplFileInfo::setFileClass()](splfileinfo.setfileclass.md)**
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($info->getFileInfo());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(MyFoo)#2 (0) { }
@@ -54,4 +55,4 @@ object(MyFoo)#2 (0) { }
 
 ### Дивіться також
 
--   [SplFileInfo::getFileInfo()](splfileinfo.getfileinfo.md) - Отримує об'єкт SplFileInfo для файлу
+-   [SplFileInfo::getFileInfo()](splfileinfo.getfileinfo.md) \- Отримує об'єкт SplFileInfo для файлу

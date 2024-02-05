@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getMltBoost'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getMltBoost
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::getMltBoost — Повертає, чи буде запит посилено релевантністю виразу, що цікавить.
 
@@ -18,7 +19,7 @@ SolrQuery::getMltBoost — Повертає, чи буде запит посил
 public SolrQuery::getMltBoost(): bool
 ```
 
-Повертає, чи буде запит посилений релевантністю виразу, що цікавить.
+Повертає, чи буде запит посилено релевантністю виразу, що цікавить.
 
 ### Список параметрів
 

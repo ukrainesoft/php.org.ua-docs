@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ziparchive.setarchivecomment.md: '« ZipArchive::setArchiveComment'
+  - ziparchive.setarchiveflag.md: '« ZipArchive::setArchiveFlag'
   - ziparchive.setcommentname.md: 'ZipArchive::setCommentName »'
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::setCommentIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::setCommentIndex
 
@@ -32,7 +33,7 @@ public ZipArchive::setCommentIndex(int $index, string $comment): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

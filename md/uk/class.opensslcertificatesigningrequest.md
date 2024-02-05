@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.openssl.md: OpenSSL
 title: Клас OpenSSLCertificateSigningRequest
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас OpenSSLCertificateSigningRequest
 
@@ -16,16 +17,11 @@ title: Клас OpenSSLCertificateSigningRequest
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class OpenSSLCertificateSigningRequest
-     
+     final
+     class OpenSSLCertificateSigningRequest
      {
    }
 ```

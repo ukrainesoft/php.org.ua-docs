@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-max.md: « tradermax
-  - function.trader-medprice.md: tradermedprice »
+  - function.trader-max.md: « trader\_max
+  - function.trader-medprice.md: trader\_medprice »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermaxindex
+  - ref.trader.md: Функції Trader
+title: trader\_maxindex
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermaxindex
+# trader\_maxindex
 
 (PECL trader >= 0.2.0)
 
-tradermaxindex - Індекс найбільшого значення за вказаний період
+trader\_maxindex - Індекс найбільшого значення за вказаний період
 
 ### Опис
 

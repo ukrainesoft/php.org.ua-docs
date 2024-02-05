@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getDayOfWeekType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getDayOfWeekType
 
@@ -28,7 +29,7 @@ intlcal_get_day_of_week_type(IntlCalendar $calendar, int $dayOfWeek): int|false
 
 Повертає, чи вказаний день є робочим днем ​​(**`IntlCalendar::DOW_TYPE_WEEKDAY`**), вихідним днем ​​(**`IntlCalendar::DOW_TYPE_WEEKEND`**), днем, протягом якого відбувається перехід у вихідні (**`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**) або день, протягом якого припиняються вихідні (**`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`**
 
-Якщо повернення або **`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**, або \*\*`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`\*\*потім можна викликати [IntlCalendar::getWeekendTransition()](intlcalendar.getweekendtransition.md) для отримання часу переходу.
+Якщо повернення або **`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**, либо\*\*`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`\*\*потім можна викликати [IntlCalendar::getWeekendTransition()](intlcalendar.getweekendtransition.md)для получения времени перехода.
 
 Для цієї функції потрібний ICU 4.4 або новіший.
 
@@ -40,15 +41,15 @@ intlcal_get_day_of_week_type(IntlCalendar $calendar, int $dayOfWeek): int|false
 
 `dayOfWeek`
 
-Одна з констант: **`IntlCalendar::DOW_SUNDAY`** **`IntlCalendar::DOW_MONDAY`** **`IntlCalendar::DOW_SATURDAY`**
+Одна из констант:**`IntlCalendar::DOW_SUNDAY`** **`IntlCalendar::DOW_MONDAY`** **`IntlCalendar::DOW_SATURDAY`**
 
 ### Значення, що повертаються
 
-Повертає одну з констант: **`IntlCalendar::DOW_TYPE_WEEKDAY`** **`IntlCalendar::DOW_TYPE_WEEKEND`** **`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`** або **`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`** або **`false`** у разі виникнення помилки.
+Повертає одну з констант: **`IntlCalendar::DOW_TYPE_WEEKDAY`** **`IntlCalendar::DOW_TYPE_WEEKEND`** \*\*`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**или**`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`**или**`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::getDayOfWeekType()****
+**Пример #1 Пример использования**IntlCalendar::getDayOfWeekType()\*\*\*\*
 
 ```php
 <?php
@@ -69,7 +70,7 @@ foreach (array('en_US', 'ar_SA') as $locale) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Языковой стандарт: English (United States)

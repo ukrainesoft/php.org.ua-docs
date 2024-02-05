@@ -4,17 +4,18 @@ navigation:
   - transliterator.create.md: 'Transliterator::create »'
   - index.md: PHP Manual
   - class.transliterator.md: Transliterator
-title: 'Transliterator::construct'
+title: 'Transliterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Transliterator::construct
+# Transliterator::\_\_construct
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-Transliterator::construct - Приватний конструктор
+Transliterator::\_\_construct - Приватний конструктор
 
 ### Опис
 
-final private **Transliterator::construct**
+final private**Transliterator::\_\_construct**()
 
 Цей метод може бути викликаний. Він існує лише для закриття можливості створення об'єкта за допомогою оператора [new](language.oop5.basic.md#language.oop5.basic.new)
 
@@ -26,5 +27,5 @@ final private **Transliterator::construct**
 
 ### Дивіться також
 
--   [Transliterator::create()](transliterator.create.md) - Створити транслітератор
--   [Transliterator::createFromRules()](transliterator.createfromrules.md) - Створити транслітератор на основі правил
+-   [Transliterator::create()](transliterator.create.md) \- Створити транслітератор
+-   [Transliterator::createFromRules()](transliterator.createfromrules.md) \- Створити транслітератор на основі правил

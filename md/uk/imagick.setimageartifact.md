@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageArtifact'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageArtifact
 
@@ -40,7 +41,7 @@ public Imagick::setImageArtifact(string $artifact, string $value): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setImageArtifact()****
+**Пример #1 Пример использования**Imagick::setImageArtifact()\*\*\*\*
 
 ```php
 <?php
@@ -63,5 +64,5 @@ function setImageArtifact() {
 
 ### Дивіться також
 
--   [Imagick::getImageArtifact()](imagick.getimageartifact.md) - Повертає артефакт зображення
--   [Imagick::deleteImageArtifact()](imagick.deleteimageartifact.md) - Видаляє артефакт зображення
+-   [Imagick::getImageArtifact()](imagick.getimageartifact.md) \- Повертає артефакт зображення
+-   [Imagick::deleteImageArtifact()](imagick.deleteimageartifact.md) \- Видаляє артефакт зображення

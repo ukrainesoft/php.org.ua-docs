@@ -1,24 +1,25 @@
 ---
 navigation:
-  - reserved.variables.get.md: GET
-  - reserved.variables.files.md: FILES »
+  - reserved.variables.get.md: « $\_GET
+  - reserved.variables.files.md: $\_FILES »
   - index.md: PHP Manual
   - reserved.variables.md: Зумовлені змінні
-title: POST
+title: $\_POST
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# POST
+# $\_POST
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-POST — Змінні HTTP POST
+$\_POST — Змінні HTTP POST
 
 ### Опис
 
-Асоціативний масив даних, переданих скрипту через HTTP методом POST під час використання `application/x-www-form-urlencoded` або `multipart/form-data` у заголовку Content-Type запиту HTTP.
+Асоціативний масив даних, переданих скрипту через HTTP методом POST під час використання `application/x-www-form-urlencoded`или`multipart/form-data`в заголовке Content-Type запроса HTTP.
 
 ### Приклади
 
-**Приклад #1 Приклад використання $POST**
+**Приклад #1 Приклад використання $\_POST**
 
 ```php
 <?php
@@ -28,7 +29,7 @@ echo 'Привет ' . htmlspecialchars($_POST["name"]) . '!';
 
 Очевидно, що користувач надіслав через POST name=Іван
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Привет, Иван!
@@ -36,9 +37,9 @@ echo 'Привет ' . htmlspecialchars($_POST["name"]) . '!';
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Це 'суперглобальна' або автоматична глобальна змінна. Це просто означає, що вона доступна у всіх контекстах скрипту. Немає необхідності виконувати **global $variable;** для доступу до неї всередині методу чи функції.
+> Це «суперглобальна» чи автоматична глобальна змінна. Це просто означає, що вона доступна у всіх контекстах скрипту. Немає необхідності виконувати **global $variable;** для доступу до неї всередині методу чи функції.
 
 ### Дивіться також
 

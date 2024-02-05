@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.apcuiterator.md: APCUIterator
 title: 'APCUIterator::key'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # APCUIterator::key
 
@@ -26,9 +27,9 @@ public APCUIterator::key(): string
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає ключ або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає ключ або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [APCUIterator::current()](apcuiterator.current.md) - Отримати поточний елемент
--   [Iterator::key()](iterator.key.md) - Повертає ключ поточного елемента
+-   [APCUIterator::current()](apcuiterator.current.md) \- Отримати поточний елемент
+-   [Iterator::key()](iterator.key.md) \- Повертає ключ поточного елемента

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::sub'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeImmutable::sub
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::sub — Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
 
@@ -24,7 +25,7 @@ public DateTimeImmutable::sub(DateInterval $interval): DateTimeImmutable
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [date\_create()](function.date-create.md). Функція змінює цей об'єкт.
 
 `interval`
 
@@ -32,11 +33,21 @@ public DateTimeImmutable::sub(DateInterval $interval): DateTimeImmutable
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з модифікованими даними або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) із модифікованими даними.
+
+### Помилки
+
+При спробі виконати непідтримувану операцію, наприклад, якщо в об'єкті [DateInterval](class.dateinterval.md) містяться відносні характеристики часу (наприклад, `next weekday`), буде викинуто виняток.
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.3.0 | Тепер при спробі виконати операцію, що не підтримується, замість попередження викидається виняток [DateInvalidOperationException](class.dateinvalidoperationexception.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTimeImmutable::sub()****
+**Пример #1 Пример использования**DateTimeImmutable::sub()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -48,7 +59,7 @@ echo $newDate->format('Y-m-d') . "\n";
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 2000-01-10
@@ -68,7 +79,7 @@ echo $newDate->format('Y-m-d H:i:s') . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 2000-01-19 13:59:30
@@ -90,7 +101,7 @@ echo $newDate2->format('Y-m-d') . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 2001-03-30
@@ -99,6 +110,6 @@ echo $newDate2->format('Y-m-d') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::add()](datetimeimmutable.add.md) - Повертає новий об'єкт з доданою кількістю днів, місяців, років, годин, хвилин та секунд
--   [DateTimeImmutable::diff()](datetime.diff.md) - Повертає різницю між двома об'єктами DateTime
--   [DateTimeImmutable::modify()](datetimeimmutable.modify.md) - Створює новий об'єкт із зміненою тимчасовою міткою
+-   [DateTimeImmutable::add()](datetimeimmutable.add.md) \- Повертає новий об'єкт з доданою кількістю днів, місяців, років, годин, хвилин та секунд
+-   [DateTimeImmutable::diff()](datetime.diff.md) \- Повертає різницю між двома об'єктами DateTime
+-   [DateTimeImmutable::modify()](datetimeimmutable.modify.md) \- Створює новий об'єкт із зміненою тимчасовою міткою

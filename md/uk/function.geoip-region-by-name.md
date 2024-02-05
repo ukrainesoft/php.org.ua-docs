@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.geoip-record-by-name.md: « geoiprecordбname
-  - function.geoip-region-name-by-code.md: geoipregionnameбcode »
+  - function.geoip-record-by-name.md: « geoip\_record\_by\_name
+  - function.geoip-region-name-by-code.md: geoip\_region\_name\_by\_code »
   - index.md: PHP Manual
-  - ref.geoip.md: Функции GeoIP
-title: geoipregionбname
+  - ref.geoip.md: Функції GeoIP
+title: geoip\_region\_by\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# geoipregionбname
+# geoip\_region\_by\_name
 
 (PECL geoip >= 0.2.0)
 
-geoipregionбname — Повертає коди країни та регіону
+geoip\_region\_by\_name — Повертає коди країни та регіону
 
 ### Опис
 
@@ -18,13 +19,13 @@ geoipregionбname — Повертає коди країни та регіону
 geoip_region_by_name(string $hostname): array
 ```
 
-Функція**geoipregionбname()** повертає коди країни та регіону, які відповідають імені хоста або IP-адреси.
+Функція**geoip\_region\_by\_name()** повертає коди країни та регіону, які відповідають імені хоста або IP-адреси.
 
 Ця функція доступна лише для тих, хто придбав комерційну версію GeoIP Region. Якщо такої бази немає, виводиться попередження.
 
 Наступні імена ключів асоціативного масиву, що повертається:
 
--   " countrycode" -- Двохлітерний код країни (дивіться [geoipcountrycodeбname()](function.geoip-country-code-by-name.md)
+-   "country\_code" -- Двохлітерний код країни (дивіться [geoip\_country\_code\_by\_name()](function.geoip-country-code-by-name.md)) .
 -   "region" -- Код регіону (наприклад, CA для Каліфорнії)
 
 ### Список параметрів
@@ -39,7 +40,7 @@ geoip_region_by_name(string $hostname): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoipregionбname()****
+**Пример #1 Пример использования**geoip\_region\_by\_name()\*\*\*\*
 
 Виведе масив, що складається з коду країни та регіону для хоста example.com.
 
@@ -52,7 +53,7 @@ if ($region) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.xml-set-processing-instruction-handler.md: « xmlsetprocessinginstructionhandler
-  - function.xml-set-unparsed-entity-decl-handler.md: xmlsetunparsedentitydeclhandler »
+  - function.xml-set-processing-instruction-handler.md: « xml\_set\_processing\_instruction\_handler
+  - function.xml-set-unparsed-entity-decl-handler.md: xml\_set\_unparsed\_entity\_decl\_handler »
   - index.md: PHP Manual
-  - ref.xml.md: Функции парсера XML
-title: xmlsetstartnamespacedeclhandler
+  - ref.xml.md: Функції парсера XML
+title: xml\_set\_start\_namespace\_decl\_handler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlsetstartnamespacedeclhandler
+# xml\_set\_start\_namespace\_decl\_handler
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
-xmlsetstartnamespacedeclhandler - Встановлення обробника входу в межі простору імен
+xml\_set\_start\_namespace\_decl\_handler - Встановлює обробник входу в межі простору імен
 
 ### Опис
 
 ```methodsynopsis
-xml_set_start_namespace_decl_handler(XMLParser $parser, callable $handler): bool
+xml_set_start_namespace_decl_handler(XMLParser $parser, callable $handler): true
 ```
 
 Задає обробник події входу до простору імен. Тобто обробник викликається аналізатор знаходить оголошення простору імен. Подібні оголошення знаходяться у елементах, що відкривають тегах. Цей оброблювач викликається до оброблювача початку тега.
@@ -24,44 +25,44 @@ xml_set_start_namespace_decl_handler(XMLParser $parser, callable $handler): bool
 
 `parser`
 
-Посилання на аналізатор XML.
+Парсер XML.
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, яка повинна бути визначена на момент виклику функції [xmlparse()](function.xml-parse.md) з аналізатора `parser`
+Якщо передається значення **`null`** або порожній рядок, обробник повертається в стан за замовчуванням.
 
-Функція з ім'ям `handler` повинна приймати три аргументи та повертати цілий результат. Якщо обробник поверне **`false`** (як і нічого не поверне), XML-аналізатор припинить роботу, а функція [xmlgeterrorcode()](function.xml-get-error-code.md) повертатиме константу **`XML_ERROR_EXTERNAL_ENTITY_HANDLING`**
+Якщо параметр `handler` є типом [callable](language.types.callable.md), то як оброблювач встановлюється callable.
+
+Якщо параметр `handler` є рядком (string), це може бути ім'я методу об'єкта, заданого за допомогою функції [xml\_set\_object()](function.xml-set-object.md)
+
+Сигнатура обробника має бути такою:
 
 ```methodsynopsis
-handler(XMLParser $parser, string $prefix, string $uri)
+handler(XMLParser $parser, string|false $prefix, string $uri): void
 ```
 
 `parser`
 
-Перший аргумент parser є посиланням на XML-аналізатор, що викликає обробник.
+XML-парсер, що викликає оброблювач.
 
 `prefix`
 
-Префікс - рядок, що використовується як посилання на простір імен у межах об'єкта XML.
+Префікс — рядок-посилання на простір імен у межах об'єкта XML. Логічне значення \*\*`false`\*\*якщо префікс не існує.
 
 `uri`
 
 Універсальний ідентифікатор ресурсу (URI) простір імен.
 
-Якщо як обробник передано порожній рядок або **`false`**, цей обробник вимикається.
-
-> **Зауваження**: Як аргумент замість імені функції може бути переданий масив, що містить посилання на об'єкт та ім'я методу.
-
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | Параметр`parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався коректний `xml` ресурс (Resource). |
 
 ### Дивіться також
 
--   [xmlsetendnamespacedeclhandler()](function.xml-set-end-namespace-decl-handler.md) - встановлення обробника виходу за межі простору імен
+-   [xml\_set\_end\_namespace\_decl\_handler()](function.xml-set-end-namespace-decl-handler.md) \- встановлення обробника виходу за межі простору імен

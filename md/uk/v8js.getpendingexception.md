@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.v8js.md: V8Js
 title: 'V8Js::getPendingException'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # V8Js::getPendingException
 
@@ -26,4 +27,4 @@ public V8Js::getPendingException(): V8JsException
 
 ### Значення, що повертаються
 
-[V8JsException](class.v8jsexception.md) або **`null`**
+[V8JsException](class.v8jsexception.md)или\*\*`null`\*\*

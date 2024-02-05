@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.imap-setacl.md: « imapsetacl
-  - function.imap-sort.md: imapsort »
+  - function.imap-setacl.md: « imap\_setacl
+  - function.imap-sort.md: imap\_sort »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapsetflagfull
+  - ref.imap.md: Функції IMAP
+title: imap\_setflag\_full
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapsetflagfull
+# imap\_setflag\_full
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapsetflagfull — Встановити прапорці на повідомлення
+imap\_setflag\_full — Встановлює прапори на повідомлення
 
 ### Опис
 
 ```methodsynopsis
-imap_setflag_full(    IMAP\Connection $imap,    string $sequence,    string $flag,    int $options = 0): bool
+imap_setflag_full(    IMAP\Connection $imap,    string $sequence,    string $flag,    int $options = 0): true
 ```
 
 Повідомляє сервер, що треба додати прапор `flag` до набору прапорів, заданих у `sequence` повідомлень.
@@ -24,7 +25,7 @@ imap_setflag_full(    IMAP\Connection $imap,    string $sequence,    string $fla
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `sequence`
 
@@ -32,27 +33,32 @@ imap_setflag_full(    IMAP\Connection $imap,    string $sequence,    string $fla
 
 `flag`
 
-Прапори, які можна встановити: `\Seen` `\Answered` `\Flagged` `\Deleted` і `\Draft`, як визначено в [» RFC2060](http://www.faqs.org/rfcs/rfc2060)
+Прапори, які можна встановити: `\Seen` `\Answered` `\Flagged` `\Deleted`и`\Draft`, как определено в[» RFC2060](http://www.faqs.org/rfcs/rfc2060)
 
 `options`
 
 Бітова маска, яка може приймати лише одне значення:
 
--   **`ST_UID`** - Послідовність повідомлень задана не їх номерами, а за допомогою UID
+-   \*\*`ST_UID`\*\*- Послідовність повідомлень задана не їх номерами, а за допомогою UID
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
+
+### Помилки
+
+Викидає виняток [ValueError](class.valueerror.md), если значение параметра`options`недопустимо.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
+| 8.0.0 | Тепер викидається виняток[ValueError](class.valueerror.md) при неприпустимих значеннях параметра `options`. . Раніше виникало попередження та функція повертала логічне значення **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imapsetflagfull()****
+**Пример #1 Пример использования**imap\_setflag\_full()\*\*\*\*
 
 ```php
 <?php
@@ -70,4 +76,4 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imapclearflagfull()](function.imap-clearflag-full.md) - Зняти з повідомлення встановлені прапори
+-   [imap\_clearflag\_full()](function.imap-clearflag-full.md) \- Знімає з повідомлення встановлені прапори

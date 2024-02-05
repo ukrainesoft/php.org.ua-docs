@@ -1,16 +1,17 @@
 ---
 navigation:
   - reflectionparameter.canbepassedbyvalue.md: '« ReflectionParameter::canBePassedByValue'
-  - reflectionparameter.construct.md: 'ReflectionParameter::construct »'
+  - reflectionparameter.construct.md: 'ReflectionParameter::\_\_construct »'
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
-title: 'ReflectionParameter::clone'
+title: 'ReflectionParameter::\_\_clone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionParameter::clone
+# ReflectionParameter::\_\_clone
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionParameter::clone — Клонувати
+ReflectionParameter::\_\_clone — Клонувати
 
 ### Опис
 
@@ -22,7 +23,7 @@ private ReflectionParameter::__clone(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,9 +33,9 @@ private ReflectionParameter::__clone(): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Метод не є остаточним (final). |
+| 8.1.0 | Метод не є остаточним (final). |
 
 ### Дивіться також
 

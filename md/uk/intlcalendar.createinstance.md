@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intlcalendar.construct.md: '« IntlCalendar::construct'
+  - intlcalendar.construct.md: '« IntlCalendar::\_\_construct'
   - intlcalendar.equals.md: 'IntlCalendar::equals »'
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::createInstance'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::createInstance
 
@@ -28,7 +29,7 @@ intlcal_create_instance(IntlTimeZone|DateTimeZone|string|null $timezone = null, 
 
 Враховуючи часовий пояс та мовний стандарт, метод створює об'єкт [IntlCalendar](class.intlcalendar.md). Цей фабричний метод може повертати дочірній клас [IntlCalendar](class.intlcalendar.md)
 
-Створений календар представлятиме момент часу, коли він був створений, на основі системного часу. Усі поля можна очистити, викликавши **IntCalendar::clear()** без аргументів. Дивіться також [IntlGregorianCalendar::construct()](intlgregoriancalendar.construct.md)
+Створений календар представлятиме момент часу, коли він був створений, на основі системного часу. Усі поля можна очистити, викликавши **IntCalendar::clear()** без аргументів. Дивіться також [IntlGregorianCalendar::\_\_construct()](intlgregoriancalendar.construct.md)
 
 ### Список параметрів
 
@@ -36,26 +37,26 @@ intlcal_create_instance(IntlTimeZone|DateTimeZone|string|null $timezone = null, 
 
 Часовий пояс для використання.
 
--   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування [date.timezone](datetime.configuration.md#ini.date.timezone) або за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.md) та повернена функцією [datedefaulttimezoneget()](function.date-default-timezone-get.md)
+-   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування[date.timezone](datetime.configuration.md#ini.date.timezone)або за допомогою функції[date\_default\_timezone\_set()](function.date-default-timezone-set.md)та повернена функцією[date\_default\_timezone\_get()](function.date-default-timezone-get.md)
     
 -   Об'єкт класу [IntlTimeZone](class.intltimezone.md)
     
 -   Об'єкт класу [DateTimeZone](class.datetimezone.md). Його ідентифікатор буде вилучено і на його основі буде створено об'єкт часового поясу ICU; часовий пояс буде збережено в базі даних ICU, а не PHP.
     
--   Рядок є коректним ідентифікатором часового поясу ICU. Дивіться [IntlTimeZone::createTimeZoneIDEnumeration()](intltimezone.createtimezoneidenumeration.md). "Сирі" усунення, типу `"GMT+08:30"`, також підтримуються.
+-   Рядок є коректним ідентифікатором часового поясу ICU. Дивіться[IntlTimeZone::createTimeZoneIDEnumeration()](intltimezone.createtimezoneidenumeration.md). . "Сирі" усунення, типу `"GMT+08:30"`, також підтримуються.
     
 
 `locale`
 
-Використовуваний мовний стандарт або значення **`null`** для використання [мовного стандарту за замовчуванням](intl.configuration.md#ini.intl.default-locale)
+Використовуваний мовний стандарт або значення \*\*`null`\*\*для использования[мовного стандарту за замовчуванням](intl.configuration.md#ini.intl.default-locale)
 
 ### Значення, що повертаються
 
-Створений екземпляр [IntlCalendar](class.intlcalendar.md) або **`null`** у разі виникнення помилки.
+Створений екземпляр [IntlCalendar](class.intlcalendar.md)или\*\*`null`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::createInstance()****
+**Пример #1 Пример использования**IntlCalendar::createInstance()\*\*\*\*
 
 ```php
 <?php
@@ -80,7 +81,7 @@ var_dump(get_class($cal),
         IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL));
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Без аргументов
@@ -98,4 +99,4 @@ string(70) "martes 28 de Khordad de 1392 14:11:02 Hora de verano de Europa Centr
 
 ### Дивіться також
 
--   [IntlGregorianCalendar::construct()](intlgregoriancalendar.construct.md) - Конструктор класу григоріанського календаря
+-   [IntlGregorianCalendar::\_\_construct()](intlgregoriancalendar.construct.md) \- Конструктор класу григоріанського календаря

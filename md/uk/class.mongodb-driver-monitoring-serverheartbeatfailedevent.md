@@ -1,18 +1,21 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serveropeningevent.gettopologyid.md: '« MongoDBDriverMonitoringServerOpeningEvent::getTopologyId'
-  - mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.md: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros »'
+  - mongodb-driver-monitoring-serveropeningevent.gettopologyid.md: '« MongoDB\\Driver\\Monitoring\\ServerOpeningEvent::getTopologyId'
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.md: >-
+      MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getDurationMicros
+      »
   - index.md: PHP Manual
-  - mongodb.monitoring.md: MongoDBDriverMonitoring
-title: Клас MongoDBDriverMonitoringServerHeartbeatFailedEvent
+  - mongodb.monitoring.md: MongoDB\\Driver\\Monitoring
+title: Клас MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverMonitoringServerHeartbeatFailedEvent
+# Клас MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent
 
 (mongodb >=1.13.0)
 
 ## Вступ
 
-Клас **MongoDBDriverMonitoringServerHeartbeatFailedEvent** Інкапсулює інформацію про невдалий серцевийсервер.
+Класс**MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent** Інкапсулює інформацію про невдалий серцевийсервер.
 
 ## Огляд класів
 
@@ -41,8 +44,8 @@ final public isAwaited(): bool
 
 ## Зміст
 
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.md) — Повертає тривалість heartbeat у мікросекундах
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent::getError](mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.md) — Повертає виняток, пов'язаний із невдалим виконанням heartbeat
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent::getHost](mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.md) — Повертає ім'я сервера.
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent::getPort](mongodb-driver-monitoring-serverheartbeatfailedevent.getport.md) — Повертає порт, на якому прослуховується сервер
--   [MongoDBDriverMonitoringServerHeartbeatFailedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.md) — Повертає, чи використовувався в heartbeat потоковий протокол
+-   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.md)— Повертає тривалість heartbeat у мікросекундах
+-   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getError](mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.md)— Повертає виняток, пов'язаний із невдалим виконанням heartbeat
+-   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getHost](mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.md)— Повертає ім'я сервера.
+-   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::getPort](mongodb-driver-monitoring-serverheartbeatfailedevent.getport.md)— Повертає порт, на якому прослуховується сервер
+-   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.md)— Повертає, чи використовувався в heartbeat потоковий протокол

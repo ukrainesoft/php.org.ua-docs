@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbase.md: EventBase
 title: 'EventBase::getTimeOfDayCached'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBase::getTimeOfDayCached
 
@@ -19,7 +20,7 @@ public
    EventBase::getTimeOfDayCached(): float
 ```
 
-При успішному завершенні повертає поточний час (як результат функції `gettimeofday()`), переглядаючи кешоване значення в *base*, якщо це можливо, і викликаючи `gettimeofday()` або `clock_gettime()`, Залежно від ситуації, якщо немає кешованого часу.
+При успішному завершенні повертає поточний час (як результат функції `gettimeofday()`), переглядаючи кешоване значення в *base*, якщо це можливо, і викликаючи `gettimeofday()`или`clock_gettime()`, Залежно від ситуації, якщо немає кешованого часу.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pspell-add-to-personal.md: « pspelladdтоpersonal
-  - function.pspell-check.md: pspellcheck »
+  - function.pspell-add-to-personal.md: « pspell\_add\_to\_personal
+  - function.pspell-check.md: pspell\_check »
   - index.md: PHP Manual
-  - ref.pspell.md: Функции Pspell
-title: pspelladdтоsession
+  - ref.pspell.md: Функції Pspell
+title: pspell\_add\_to\_session
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pspelladdтоsession
+# pspell\_add\_to\_session
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspelladdтоsession — Додає слово до списку слів у поточній сесії
+pspell\_add\_to\_session — Додає слово до списку слів у поточній сесії
 
 ### Опис
 
@@ -18,13 +19,13 @@ pspelladdтоsession — Додає слово до списку слів у п�
 pspell_add_to_session(PSpell\Dictionary $dictionary, string $word): bool
 ```
 
-**pspelladdтоsession()** додає слово до списку слів, асоційованого з поточною сесією. Ця функція дуже схожа на функцію [pspelladdтоpersonal()](function.pspell-add-to-personal.md)
+**pspell\_add\_to\_session()** додає слово до списку слів, асоційованого з поточною сесією. Ця функція дуже схожа на функцію [pspell\_add\_to\_personal()](function.pspell-add-to-personal.md)
 
 ### Список параметрів
 
 `dictionary`
 
-Екземпляр [PSpellDictionary](class.pspell-dictionary.md)
+Екземпляр [PSpell\\Dictionary](class.pspell-dictionary.md)
 
 `word`
 
@@ -32,10 +33,10 @@ pspell_add_to_session(PSpell\Dictionary $dictionary, string $word): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`dictionary` тепер чекає екземпляр [PSpell\\Dictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

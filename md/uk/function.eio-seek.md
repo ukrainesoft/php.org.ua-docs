@@ -1,28 +1,29 @@
 ---
 navigation:
-  - function.eio-rmdir.md: « eiormdir
-  - function.eio-sendfile.md: eiosendfile »
+  - function.eio-rmdir.md: « eio\_rmdir
+  - function.eio-sendfile.md: eio\_sendfile »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eioseek
+  - ref.eio.md: Eio Функції
+title: eio\_seek
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eioseek
+# eio\_seek
 
 (PECL eio >= 0.5.0b)
 
-eioseek — Переміщує файловий покажчик файлу `fd` на число байт `offset` відповідно до директиви `whence`
+eio\_seek — Переміщує файловий покажчик файлу `fd`на число байт`offset` відповідно до директиви `whence`
 
 ### Опис
 
 ```methodsynopsis
-eio_seek(    mixed $fd,    int $offset,    int $whence,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_seek(    mixed $fd,    int $offset,    int $whence,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
-**eioseek()** змінює усунення файлового покажчика, пов'язаного з потоком, ресурсом сокету або файловим дескриптором `fd` на значення `offset`. При цьому поточна позиція файлового покажчика обчислюватиметься відповідно до значення директиви `whence` наступним чином:
+**eio\_seek()** змінює усунення файлового покажчика, пов'язаного з потоком, ресурсом сокету або файловим дескриптором `fd`на значение`offset`. При цьому поточна позиція файлового покажчика обчислюватиметься відповідно до значення директиви `whence`следующим образом:
 
--   **`EIO_SEEK_SET`** - Встановлення поточної позиції на `offset` байт з початку файла.
--   **`EIO_SEEK_CUR`** - Зміщення поточної позиції на `offset` байт уперед.
--   **`EIO_SEEK_END`** - Встановлення покажчика на позицію кінець-файлу плюс `offset` байт.
+-   \*\*`EIO_SEEK_SET`\*\*- Встановлення поточної позиції на`offset`байт от начала файла.
+-   \*\*`EIO_SEEK_CUR`\*\*- Зміщення поточної позиції на`offset`байт уперед.
+-   \*\*`EIO_SEEK_END`\*\*- Встановлення вказівника на позицію кінець-файлу плюс`offset`байт.
 
 ### Список параметрів
 
@@ -40,11 +41,11 @@ eio_seek(    mixed $fd,    int $offset,    int $whence,    int $pri = EIO_PRI_DE
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -60,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
@@ -68,4 +69,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-**eioseek()** повертає ресурс запиту у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_seek()** повертає ресурс запиту у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

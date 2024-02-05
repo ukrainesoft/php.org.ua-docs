@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-server.gettype.md: '« MongoDBDriverServer::getType'
-  - mongodb-driver-server.ishidden.md: 'MongoDBDriverServer::isHidden »'
+  - mongodb-driver-server.gettype.md: '« MongoDB\\Driver\\Server::getType'
+  - mongodb-driver-server.ishidden.md: 'MongoDB\\Driver\\Server::isHidden »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.md: MongoDBDriverServer
-title: 'MongoDBDriverServer::isArbiter'
+  - class.mongodb-driver-server.md: MongoDB\\Driver\\Server
+title: 'MongoDB\\Driver\\Server::isArbiter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverServer::isArbiter
+# MongoDB\\Driver\\Server::isArbiter
 
 (mongodb >=1.0.0)
 
-MongoDBDriverServer::isArbiter — Перевіряє, чи є сервер членом-арбітром у наборі реплік
+MongoDB\\Driver\\Server::isArbiter — Перевіряє, чи є сервер членом-арбітром у наборі реплік
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverServer::isArbiter — Перевіряє, чи є сервер чл
 final public MongoDB\Driver\Server::isArbiter(): bool
 ```
 
-Повертає, чи є цей сервер [» членом-арбітром](https://www.mongodb.com/docs/manual/reference/glossary/#term-arbiter) набір реплік.
+Повертає, чи є цей сервер [» членом-арбітром](https://www.mongodb.com/docs/manual/reference/glossary/#term-arbiter)набора реплик.
 
 ### Список параметрів
 
@@ -30,8 +31,8 @@ final public MongoDB\Driver\Server::isArbiter(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
+-   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.md) \- Повертає масив інформації, що описує сервер

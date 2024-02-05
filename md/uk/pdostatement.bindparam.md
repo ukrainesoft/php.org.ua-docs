@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.pdostatement.md: PDOStatement
 title: 'PDOStatement::bindParam'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDOStatement::bindParam
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.1.0)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8, PECL pdo >= 0.1.0)
 
 PDOStatement::bindParam — Прив'язує параметр запиту до змінної
 
 ### Опис
 
 ```methodsynopsis
-public PDOStatement::bindParam(    string|int $param,    mixed &$var,    int $type = PDO::PARAM_STR,    int $maxLength = 0,    mixed $driverOptions = null): bool
+public PDOStatement::bindParam(    string|int $param,    mixed &$var,    int $type = PDO::PARAM_STR,    int $maxLength = 0,    mixed $driverOptions = null): bool
 ```
 
 Зв'язує змінну PHP з іменованим або неіменованим параметром SQL-запиту, що готується. На відміну від [PDOStatement::bindValue()](pdostatement.bindvalue.md), змінна прив'язується за посиланням та її значення обчислюватиметься під час виклику [PDOStatement::execute()](pdostatement.execute.md)
@@ -34,17 +35,23 @@ public PDOStatement::bindParam(    string|int $param,    mixed &$var,    int $ty
 
 `type`
 
-Явно заданий тип даних параметра. Тип задається однією з [констант`PDO::PARAM_*`](pdo.constants.md). Якщо параметр використовується, у тому числі для виведення інформації з процедури, що зберігається, до значення аргументу `type` необхідно додати **`PDO::PARAM_INPUT_OUTPUT`**, використовуючи оператор побітове АБО.
+Явно заданий тип даних параметра. Тип задається однією з [констант`PDO::PARAM_*`](pdo.constants.md). Якщо параметр використовується, у тому числі для виведення інформації з процедури, що зберігається, до значення аргументу `type`необходимо добавить\*\*`PDO::PARAM_INPUT_OUTPUT`\*\*, використовуючи оператор побітове АБО.
 
 `maxLength`
 
-Розмір типу даних. Щоб вказати, що параметр використовується для виведення даних із процедури, необхідно явно задати його розмір. Має значення, тільки якщо параметр `type` встановлено значення **`PDO::PARAM_INPUT_OUTPUT`**
+Розмір типу даних. Щоб вказати, що параметр використовується для виведення даних із процедури, необхідно явно задати його розмір. Має значення, тільки якщо параметр `type`установлено значение\*\*`PDO::PARAM_INPUT_OUTPUT`\*\*
 
 `driverOptions`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+
+### Помилки
+
+Видає помилку рівня **`E_WARNING`**, якщо атрибуту **`PDO::ATTR_ERRMODE`**установлено значение**`PDO::ERRMODE_WARNING`**
+
+Викидає виняток [PDOException](class.pdoexception.md), якщо атрибуту **`PDO::ATTR_ERRMODE`**установлено значение**`PDO::ERRMODE_EXCEPTION`**
 
 ### Приклади
 
@@ -90,12 +97,12 @@ $colour = 'red';
 $sth = $dbh->prepare('CALL puree_fruit(?)');
 $sth->bindParam(1, $colour, PDO::PARAM_STR|PDO::PARAM_INPUT_OUTPUT, 12);
 $sth->execute();
-print("После приготовления фруктового пюра, цвет - $colour");
+print "После приготовления фруктового пюра, цвет - $colour";
 ?>
 ```
 
 ### Дивіться також
 
--   [PDO::prepare()](pdo.prepare.md) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
--   [PDOStatement::execute()](pdostatement.execute.md) - Запускає підготовлений запит на виконання
--   [PDOStatement::bindValue()](pdostatement.bindvalue.md) - Зв'язує параметр із заданим значенням
+-   [PDO::prepare()](pdo.prepare.md) \- готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDOStatement::execute()](pdostatement.execute.md) \- Запускає підготовлений запит на виконання
+-   [PDOStatement::bindValue()](pdostatement.bindvalue.md) \- Зв'язує параметр із заданим значенням

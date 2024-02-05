@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.normalizer.md: Normalizer
 title: 'Normalizer::getRawDecomposition'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Normalizer::getRawDecomposition
 
-# normalizergetrawdecomposition
+# normalizer\_get\_raw\_decomposition
 
-(PHP 7> = 7.3, PHP 8)
+(PHP 7 >= 7.3, PHP 8)
 
-Normalizer::getRawDecomposition -- normalizergetrawdecomposition — Витягує властивість DecompositionMapping для заданого символу UTF-8
+Normalizer::getRawDecomposition -- normalizer\_get\_raw\_decomposition — Витягує властивість Decomposition\_Mapping для заданого символу UTF-8
 
 ### Опис
 
@@ -28,7 +29,7 @@ public static Normalizer::getRawDecomposition(string $string, int $form = Normal
 normalizer_get_raw_decomposition(string $string, int $form = Normalizer::FORM_C): ?string
 ```
 
-Витягує властивість DecompositionMapping, як визначено Unicode Character Database (UCD), для заданого символу UTF-8.
+Витягує властивість Decomposition\_Mapping, як визначено Unicode Character Database (UCD), для заданого символу UTF-8.
 
 ### Список параметрів
 
@@ -38,13 +39,13 @@ normalizer_get_raw_decomposition(string $string, int $form = Normalizer::FORM_C)
 
 ### Значення, що повертаються
 
-Повертає рядок (string), що містить властивість DecompositionMapping, якщо воно є у UCD.
+Повертає рядок (string), що містить властивість Decomposition\_Mapping, якщо воно є у UCD.
 
-Повертає **`null`** якщо для символу відсутня властивість DecompositionMapping.
+Повертає **`null`** якщо для символу відсутня властивість Decomposition\_Mapping.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Normalizer::getRawDecomposition()****
+**Пример #1 Пример использования**Normalizer::getRawDecomposition()\*\*\*\*
 
 ```php
 <?php
@@ -82,7 +83,7 @@ echo $result;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 ---------------------
@@ -107,5 +108,5 @@ error info: 'Code point out of range: U_ILLEGAL_ARGUMENT_ERROR' (1)
 
 ### Дивіться також
 
--   [Normalizer::normalize()](normalizer.normalize.md) - Нормалізація рядка
--   [Normalizer::isNormalized()](normalizer.isnormalized.md) - Перевірити, чи переданий рядок відповідає заданій формі нормалізації
+-   [Normalizer::normalize()](normalizer.normalize.md) \- Нормалізація рядка
+-   [Normalizer::isNormalized()](normalizer.isnormalized.md) \- Перевірити, чи переданий рядок відповідає заданій формі нормалізації

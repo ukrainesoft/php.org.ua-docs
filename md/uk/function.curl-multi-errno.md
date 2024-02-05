@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-multi-close.md: « curlmulticlose
-  - function.curl-multi-exec.md: curlmultiexec »
+  - function.curl-multi-close.md: « curl\_multi\_close
+  - function.curl-multi-exec.md: curl\_multi\_exec »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlmultierrno
+  - ref.curl.md: Опції cURL
+title: curl\_multi\_errno
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlmultierrno
+# curl\_multi\_errno
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
-curlmultierrno — Повертає код останньої помилки множинного curl
+curl\_multi\_errno — Повертає код останньої помилки множинного curl
 
 ### Опис
 
@@ -24,7 +25,7 @@ curl_multi_errno(CurlMultiHandle $multi_handle): int
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.md)
+Мультидескриптор cURL, отриманий з [curl\_multi\_init()](function.curl-multi-init.md)
 
 ### Значення, що повертаються
 
@@ -32,11 +33,11 @@ curl_multi_errno(CurlMultiHandle $multi_handle): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функція більше не повертає **`false`** у разі виникнення помилки. |
-|  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| 8.0.0 | Функція більше не повертає \*\*`false`\*\*в случае возникновения ошибки. |
+| 8.0.0 | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [curlerrno()](function.curl-errno.md) - Повертає код останньої помилки
+-   [curl\_errno()](function.curl-errno.md) \- Повертає код останньої помилки

@@ -1,14 +1,15 @@
 ---
 navigation:
-  - solrcollapsefunction.tostring.md: '« SolrCollapseFunction::toString'
+  - solrcollapsefunction.tostring.md: '« SolrCollapseFunction::\_\_function toString() { [native code] }'
   - solrexception.getinternalinfo.md: 'SolrException::getInternalInfo »'
   - index.md: PHP Manual
   - book.solr.md: Solr
 title: Клас SolrException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SolrException
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 ## Вступ
 
@@ -48,26 +49,26 @@ title: Клас SolrException
 
     /* Наследуемые свойства */
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Методы */
@@ -100,10 +101,10 @@ sourcefile
 
 Вихідний файл c-space, де було згенеровано виняток
 
-zifname
+zif\_name
 
 Функція c-space, де було згенеровано виняток
 
 ## Зміст
 
--   [SolrException::getInternalInfo](solrexception.getinternalinfo.md) — Повертає внутрішню інформацію про те, де було викинуто виняток
+-   [SolrException::getInternalInfo](solrexception.getinternalinfo.md)— Повертає внутрішню інформацію про те, де було викинуто виняток

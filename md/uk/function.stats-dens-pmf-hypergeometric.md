@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.stats-dens-pmf-binomial.md: « statsdenspmfbinomial
-  - function.stats-dens-pmf-negative-binomial.md: statsdenspmfnegativebinomial »
+  - function.stats-dens-pmf-binomial.md: « stats\_dens\_pmf\_binomial
+  - function.stats-dens-pmf-negative-binomial.md: stats\_dens\_pmf\_negative\_binomial »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsdenspmfhypergeometric
+title: stats\_dens\_pmf\_hypergeometric
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsdenspmfhypergeometric
+# stats\_dens\_pmf\_hypergeometric
 
 (PECL stats >= 1.0.0)
 
-statsdenspmfhypergeometric - Імовірнісний захід гіпергеометричного розподілу
+stats\_dens\_pmf\_hypergeometric - Імовірнісний захід гіпергеометричного розподілу
 
 ### Опис
 
 ```methodsynopsis
-stats_dens_pmf_hypergeometric(    float $n1,    float $n2,    float $N1,    float $N2): float
+stats_dens_pmf_hypergeometric(    float $n1,    float $n2,    float $N1,    float $N2): float
 ```
 
-Повертає імовірнісний захід для `n1`, де `n2` `N1` і `N2` є кількістю невдалих спроб, числом успішних вибірок та числом невдалих вибірок відповідно.
+Повертає імовірнісний захід для `n1`, где`n2` `N1`и`N2` є кількістю невдалих спроб, числом успішних вибірок та числом невдалих вибірок відповідно.
 
 ### Список параметрів
 
@@ -40,4 +41,4 @@ stats_dens_pmf_hypergeometric(    float $n1,    float $n2,    float $N1,    floa
 
 ### Значення, що повертаються
 
-Імовірнісний захід для `n1` або **`false`** у разі виникнення помилки.
+Імовірнісний захід для `n1`или\*\*`false`\*\*в случае возникновения ошибки.

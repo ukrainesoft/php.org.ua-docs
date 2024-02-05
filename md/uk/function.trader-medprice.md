@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-maxindex.md: « tradermaxindex
-  - function.trader-mfi.md: tradermfi »
+  - function.trader-maxindex.md: « trader\_maxindex
+  - function.trader-mfi.md: trader\_mfi »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermedprice
+  - ref.trader.md: Функції Trader
+title: trader\_medprice
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermedprice
+# trader\_medprice
 
 (PECL trader >= 0.2.0)
 
-tradermedprice — Середня ціна
+trader\_medprice — Середня ціна
 
 ### Опис
 

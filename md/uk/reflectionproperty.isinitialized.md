@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::isInitialized'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionProperty::isInitialized
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 ReflectionProperty::isInitialized — Перевірити, чи ініціалізована властивість
 
@@ -36,13 +37,13 @@ public ReflectionProperty::isInitialized(?object $object = null): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `object` тепер допускає значення null. |
+| 8.0.0 | `object` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionProperty::isInitialized()****
+**Пример #1 Пример использования**ReflectionProperty::isInitialized()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ var_dump($rp->isInitialized($user));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -68,4 +69,4 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionProperty::hasType()](reflectionproperty.hastype.md) - Перевірити, чи заданий для властивості тип
+-   [ReflectionProperty::hasType()](reflectionproperty.hastype.md) \- Перевірити, чи заданий для властивості тип

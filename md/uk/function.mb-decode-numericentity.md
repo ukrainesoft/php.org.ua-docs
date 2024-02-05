@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mb-decode-mimeheader.md: « mbdecodemimeheader
-  - function.mb-detect-encoding.md: мбdetectencoding »
+  - function.mb-decode-mimeheader.md: « mb\_decode\_mimeheader
+  - function.mb-detect-encoding.md: mb\_detect\_encoding »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбdecodenumericentity
+title: mb\_decode\_numericentity
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбdecodenumericentity
+# mb\_decode\_numericentity
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-мбdecodenumericentity — Декодує посилання на числовий рядок HTML символ
+mb\_decode\_numericentity — Декодує посилання на числовий рядок HTML символ
 
 ### Опис
 
@@ -28,29 +29,29 @@ mb_decode_numericentity(string $string, array $map, ?string $encoding = null): s
 
 `map`
 
-`map` - масив (array), який визначає діапазон кодів символів.
+Параметр`map` - Масив (array), який задає область коду для перетворення.
 
 `encoding`
 
-Параметр `encoding` є символьним кодуванням. Якщо він опущений або дорівнює **`null`**, замість нього буде використано значення внутрішнього кодування.
+Параметр`encoding` - Це кодування символів. Якщо він опущений або дорівнює **`null`**, для нього буде встановлено внутрішнє кодування символів.
 
 `is_hex`
 
-Параметр не використовується.
+Параметр оголошено застарілим.
 
 ### Значення, що повертаються
 
-Перетворений рядок (string).
+Повертає перетворений рядок (string).
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Тепер параметр `encoding` може набувати значення **`null`** |
+| 8.0.0 | Тепер параметр `encoding` може набувати значення **`null`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання `map`**
+**Пример #1 Пример использования параметра`map`**
 
 ```php
 <?php
@@ -65,7 +66,7 @@ $convmap = array (
 ?>
 ```
 
-**Приклад #2 Приклад екранування рядка JavaScript за допомогою `map`**
+**Приклад #2 Приклад екранування рядка JavaScript через параметр `map`**
 
 ```php
 <?php
@@ -121,7 +122,7 @@ function escape_javascript_string($str) {
 $convmap = [ 0x0, 0xffff, 0, 0xffff ];
 $msg = '';
 for ($i=0; $i < 1000; $i++) {
-  // chr() не может сгенерировать корректный символ UTF-8 больший, чем 128. Используем mb_decode_numericentity().
+  // Функция chr() не может сгенерировать корректный символ UTF-8 больший, чем 128. Используем функцию mb_decode_numericentity().
   $msg .= mb_decode_numericentity('&#'.$i.';', $convmap, 'UTF-8');
 }
 
@@ -131,4 +132,4 @@ var_dump(escape_javascript_string($msg));
 
 ### Дивіться також
 
--   [мбencodenumericentity()](function.mb-encode-numericentity.md) - Кодує символ у числове HTML-посилання
+-   [mb\_encode\_numericentity()](function.mb-encode-numericentity.md) \- Кодує символ у числове HTML-посилання

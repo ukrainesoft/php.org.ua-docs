@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.merge.md: '« DsMap::merge'
-  - ds-map.put.md: 'ДсMap::put »'
+  - ds-map.merge.md: '« Ds\\Map::merge'
+  - ds-map.put.md: 'Ds\\Map::put »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::pairs'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::pairs'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::pairs
+# Ds\\Map::pairs
 
 (PECL ds >= 1.0.0)
 
-ДсMap::pairs — Повертає послідовність, яка містить усі пари колекції.
+Ds\\Map::pairs — Повертає послідовність, яка містить усі пари колекції.
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсMap::pairs'
 public Ds\Map::pairs(): Ds\Sequence
 ```
 
-Повертає **ДсSequence**, що містить усі пари колекції.
+Повертає [Ds\\Sequence](class.ds-sequence.md), що містить усі пари колекції.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public Ds\Map::pairs(): Ds\Sequence
 
 ### Значення, що повертаються
 
-**ДсSequence**, що містить усі пари вихідної колекції.
+[Ds\\Sequence](class.ds-sequence.md), що містить усі пари вихідної колекції.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::pairs()****
+**Пример #1 Пример использования**Ds\\Map::pairs()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ var_dump($map->pairs());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Map)#8 (3) {

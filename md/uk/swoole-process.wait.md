@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-process.usequeue.md: '« SwooleProcess::useQueue'
-  - swoole-process.write.md: 'SwooleProcess::write »'
+  - swoole-process.usequeue.md: '« Swoole\\Process::useQueue'
+  - swoole-process.write.md: 'Swoole\\Process::write »'
   - index.md: PHP Manual
-  - class.swoole-process.md: SwooleProcess
-title: 'SwooleProcess::wait'
+  - class.swoole-process.md: Swoole\\Process
+title: 'Swoole\\Process::wait'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleProcess::wait
+# Swoole\\Process::wait
 
 (PECL swoole >= 1.9.0)
 
-SwooleProcess::wait — Очікує подій дочірніх процесів
+Swoole\\Process::wait — Очікує подій дочірніх процесів
 
 ### Опис
 

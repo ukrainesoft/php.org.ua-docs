@@ -1,16 +1,17 @@
 ---
 navigation:
-  - php-user-filter.filter.md: '« phpuserfilter::filter'
-  - php-user-filter.oncreate.md: 'phpuserfilter::onCreate »'
+  - php-user-filter.filter.md: '« php\_user\_filter::filter'
+  - php-user-filter.oncreate.md: 'php\_user\_filter::onCreate »'
   - index.md: PHP Manual
-  - class.php-user-filter.md: phpuserfilter
-title: 'phpuserfilter::onClose'
+  - class.php-user-filter.md: php\_user\_filter
+title: 'php\_user\_filter::onClose'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# phpuserfilter::onClose
+# php\_user\_filter::onClose
 
 (PHP 5, PHP 7, PHP 8)
 
-phpuserfilter::onClose — Викликається при закритті фільтра
+php\_user\_filter::onClose — Викликається при закритті фільтра
 
 ### Опис
 

@@ -1,10 +1,11 @@
 ---
 navigation:
   - stomp.resources.md: « Типи ресурсів
-  - ref.stomp.md: Функции Stomp »
+  - ref.stomp.md: Опції Stomp »
   - index.md: PHP Manual
   - book.stomp.md: Stomp
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -45,7 +46,7 @@ unset($stomp);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(StompFrame)#2 (3) {
@@ -113,7 +114,7 @@ stomp_close($link);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(3) {

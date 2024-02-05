@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.dns-check-record.md: « dnscheckrecord
-  - function.dns-get-record.md: dnsgetrecord »
+  - function.dns-check-record.md: « dns\_check\_record
+  - function.dns-get-record.md: dns\_get\_record »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
-title: dnsgetмкс
+title: dns\_get\_mx
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dnsgetмкс
+# dns\_get\_mx
 
 (PHP 5, PHP 7, PHP 8)
 
-dnsgetmx - Псевдонім [getmxrr()](function.getmxrr.md)
+dns\_get\_mx — Псевдоним[getmxrr()](function.getmxrr.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [getmxrr()](function.getmxrr.md)
+Функция — псевдоним функции:[getmxrr()](function.getmxrr.md)

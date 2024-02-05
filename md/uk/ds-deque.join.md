@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.isempty.md: '« DsDeque::isEmpty'
-  - ds-deque.jsonserialize.md: 'ДсDeque::jsonSerialize »'
+  - ds-deque.isempty.md: '« Ds\\Deque::isEmpty'
+  - ds-deque.jsonserialize.md: 'Ds\\Deque::jsonSerialize »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::join'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::join'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::join
+# Ds\\Deque::join
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::join — Склеює всі значення в рядок
+Ds\\Deque::join — Склеює всі значення в рядок
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Ds\Deque::join(string $glue = ?): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::join()** з роздільником**
+**Пример #1 Пример использования**Ds\\Deque::join()\*\* з роздільником\*\*
 
 ```php
 <?php
@@ -42,13 +43,13 @@ var_dump($deque->join("|"));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(11) "a|b|c|1|2|3"
 ```
 
-**Приклад #2 Приклад використання **ДсDeque::join()** без роздільника**
+**Пример #2 Пример использования**Ds\\Deque::join()\*\* без роздільника\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ var_dump($deque->join());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(11) "abc123"

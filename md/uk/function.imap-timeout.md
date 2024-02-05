@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-thread.md: « imapthread
-  - function.imap-uid.md: imapuid »
+  - function.imap-thread.md: « imap\_thread
+  - function.imap-uid.md: imap\_uid »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imaptimeout
+  - ref.imap.md: Функції IMAP
+title: imap\_timeout
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imaptimeout
+# imap\_timeout
 
-(PHP 4> = 4.3.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.3, PHP 5, PHP 7, PHP 8)
 
-imaptimeout — Встановити або отримати час очікування imap
+imap\_timeout — Встановлює або отримує час очікування imap
 
 ### Опис
 
@@ -24,7 +25,7 @@ imap_timeout(int $timeout_type, int $timeout = -1): int|bool
 
 `timeout_type`
 
-Одна з констант: **`IMAP_OPENTIMEOUT`** **`IMAP_READTIMEOUT`** **`IMAP_WRITETIMEOUT`** або **`IMAP_CLOSETIMEOUT`**
+Одна из констант:**`IMAP_OPENTIMEOUT`** **`IMAP_READTIMEOUT`** **`IMAP_WRITETIMEOUT`**или**`IMAP_CLOSETIMEOUT`**
 
 `timeout`
 
@@ -32,13 +33,13 @@ imap_timeout(int $timeout_type, int $timeout = -1): int|bool
 
 ### Значення, що повертаються
 
-Якщо встановлено параметр `timeout`, ця функція поверне **`true`** або **`false`** залежно від успішності виконання.
+Если задан параметр`timeout`, ця функція поверне **`true`**или**`false`** залежно від успішності виконання.
 
-Якщо параметр `timeout` не заданий, або виставлений рівним -1, то буде повернено ціле число, що дорівнює поточній величині часу очікування, що відповідає заданому типу `timeout_type`
+Якщо параметр `timeout` не заданий, або виставлений рівним -1, то буде повернуто ціле число, що дорівнює поточній величині часу очікування, що відповідає заданому типу `timeout_type`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imaptimeout()****
+**Пример #1 Пример использования**imap\_timeout()\*\*\*\*
 
 ```php
 <?php

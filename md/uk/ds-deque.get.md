@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.first.md: '« DsDeque::first'
-  - ds-deque.insert.md: 'ДсDeque::insert »'
+  - ds-deque.first.md: '« Ds\\Deque::first'
+  - ds-deque.insert.md: 'Ds\\Deque::insert »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::get'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::get
+# Ds\\Deque::get
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::get — Повертає значення за індексом
+Ds\\Deque::get — Повертає значення за індексом
 
 ### Опис
 
@@ -36,7 +37,7 @@ public Ds\Deque::get(int $index): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::get()****
+**Пример #1 Пример использования**Ds\\Deque::get()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($deque->get(2));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"
@@ -56,7 +57,7 @@ string(1) "b"
 string(1) "c"
 ```
 
-**Приклад #2 Приклад використання **ДсDeque::get()** із синтаксисом масиву**
+**Пример #2 Пример использования**Ds\\Deque::get()\*\* із синтаксисом масиву\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ var_dump($deque[2]);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"

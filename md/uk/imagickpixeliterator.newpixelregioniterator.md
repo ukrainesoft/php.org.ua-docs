@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixeliterator.md: ImagickPixelIterator
 title: 'ImagickPixelIterator::newPixelRegionIterator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixelIterator::newPixelRegionIterator
 
@@ -15,12 +16,12 @@ ImagickPixelIterator::newPixelRegionIterator — Повертає новий і�
 ### Опис
 
 ```methodsynopsis
-public ImagickPixelIterator::newPixelRegionIterator(    Imagick $wand,    int $x,    int $y,    int $columns,    int $rows): bool
+public ImagickPixelIterator::newPixelRegionIterator(    Imagick $wand,    int $x,    int $y,    int $columns,    int $rows): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає новий ітератор пікселів.
 

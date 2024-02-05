@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-http-client.setmethod.md: '« SwooleHttpClient::setMethod'
-  - class.swoole-http-request.md: SwooleHttpRequest »
+  - swoole-http-client.setmethod.md: '« Swoole\\Http\\Client::setMethod'
+  - class.swoole-http-request.md: Swoole\\Http\\Request »
   - index.md: PHP Manual
-  - class.swoole-http-client.md: SwooleHttpClient
-title: 'SwooleHttpClient::upgrade'
+  - class.swoole-http-client.md: Swoole\\Http\\Client
+title: 'Swoole\\Http\\Client::upgrade'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpClient::upgrade
+# Swoole\\Http\\Client::upgrade
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpClient::upgrade — Оновлення до протоколу websocket
+Swoole\\Http\\Client::upgrade — Оновлення до протоколу websocket
 
 ### Опис
 

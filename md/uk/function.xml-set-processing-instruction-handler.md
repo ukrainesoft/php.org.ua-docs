@@ -1,77 +1,70 @@
 ---
 navigation:
-  - function.xml-set-object.md: « xmlsetobject
-  - function.xml-set-start-namespace-decl-handler.md: xmlsetstartnamespacedeclhandler »
+  - function.xml-set-object.md: « xml\_set\_object
+  - function.xml-set-start-namespace-decl-handler.md: xml\_set\_start\_namespace\_decl\_handler »
   - index.md: PHP Manual
-  - ref.xml.md: Функции парсера XML
-title: xmlsetprocessinginstructionhandler
+  - ref.xml.md: Функції парсера XML
+title: xml\_set\_processing\_instruction\_handler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlsetprocessinginstructionhandler
+# xml\_set\_processing\_instruction\_handler
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-xmlsetprocessinginstructionhandler - Встановлення обробника інструкцій препроцесора (PI)
+xml\_set\_processing\_instruction\_handler - Встановлення обробника інструкцій препроцесора (PI)
 
 ### Опис
 
 ```methodsynopsis
-xml_set_processing_instruction_handler(XMLParser $parser, callable $handler): bool
+xml_set_processing_instruction_handler(XMLParser $parser, callable $handler): true
 ```
 
 Задає обробник інструкцій препроцесора (PI) для XML-аналізатора . `parser`
 
 Інструкції мають такий формат:
 
-```
-<?
-```
+**Застереження**
 
-target data
-
-```
-??>
-```
-
-Можна вставляти PHP-код у тіло тега, але є одне обмеження: завершальний тег інструкцій (`?>`) не можна укладати в лапки, таким чином, ця послідовність символів не повинна зустрічатися в PHP-коді, який ви вставляєте за допомогою PI в XML-документи. Якщо це станеться, залишок PHP-коду буде сприйнятий як прості символьні дані.
+PHP-код розмежовується інструкцією обробки `<?php`. Таким чином, у XML-документі можна розташовувати PHP-код. Однак кінцевий тег PI (`?>`) не повинен бути частиною даних. Якщо завершальний тег PI є частиною вбудованого PHP-коду, то решта PHP-коду та "справжній" тег PI end будуть розглядатися як символьні дані.
 
 ### Список параметрів
 
 `parser`
 
-Посилання на аналізатор XML, для якого встановлюється обробник.
+Парсер XML.
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.md) з аналізатора `parser`
+Якщо передається значення **`null`** або порожній рядок, обробник повертається в стан за замовчуванням.
 
-Функція з ім'ям `handler` має приймати три аргументи:
+Якщо параметр `handler` є типом [callable](language.types.callable.md), то як оброблювач встановлюється callable.
+
+Якщо параметр `handler` є рядком (string), це може бути ім'я методу об'єкта, заданого за допомогою функції [xml\_set\_object()](function.xml-set-object.md)
+
+Сигнатура оброблювача має бути:
 
 ```methodsynopsis
-handler(XMLParser $parser, string $target, string $data)
+handler(XMLParser $parser, string $target, string $data): void
 ```
 
 `parser`
 
-Перший аргумент parser є посиланням на XML-аналізатор, що викликає обробник.
+XML-парсер, що викликає оброблювач.
 
 `target`
 
-Другий аргумент `target` містить мету застосування PI.
+Ціль застосування PI.
 
 `data`
 
-Третій аргумент `data` містить PI-дані.
-
-Якщо як обробник передано порожній рядок або **`false`**, цей обробник вимикається.
-
-> **Зауваження**: Як аргумент замість імені функції може бути переданий масив, що містить посилання на об'єкт та ім'я методу.
+PI-дані.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| 8.0.0 | Параметр`parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався коректний `xml` ресурс (Resource). |

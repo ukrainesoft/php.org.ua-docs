@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::getOutputHeaders'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::getOutputHeaders
 
@@ -29,4 +30,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::getInputHeaders()](eventhttprequest.getinputheaders.md) - Повертає асоціативний масив вхідних заголовків
+-   [EventHttpRequest::getInputHeaders()](eventhttprequest.getinputheaders.md) \- Повертає асоціативний масив вхідних заголовків

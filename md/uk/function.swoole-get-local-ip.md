@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.swoole-event-write.md: « swooleeventwrite
-  - function.swoole-last-error.md: swoolelasterror »
+  - function.swoole-event-write.md: « swoole\_event\_write
+  - function.swoole-last-error.md: swoole\_last\_error »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swoolegetlocalіп
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_get\_local\_ip
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swoolegetlocalіп
+# swoole\_get\_local\_ip
 
 (PECL swoole >= 1.9.0)
 
-swoolegetlocalip — Отримати IP-адреси у форматі IPv4 кожної мережної плати (NIC) комп'ютера
+swoole\_get\_local\_ip — Отримати IP-адреси у форматі IPv4 кожної мережної плати (NIC) комп'ютера
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.enchant-dict-is-in-session.md: « enchantdictісінsession
-  - function.enchant-dict-store-replacement.md: enchantdictstorereplacement »
+  - function.enchant-dict-is-in-session.md: « enchant\_dict\_is\_in\_session
+  - function.enchant-dict-store-replacement.md: enchant\_dict\_store\_replacement »
   - index.md: PHP Manual
-  - ref.enchant.md: Функции Enchant
-title: enchantdictquickcheck
+  - ref.enchant.md: Функції Enchant
+title: enchant\_dict\_quick\_check
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# enchantdictquickcheck
+# enchant\_dict\_quick\_check
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL enchant:0.2.0-1.0.1)
 
-enchantdictquickcheck — Перевірити, чи правильно написано слово та запропонувати варіанти заміни
+enchant\_dict\_quick\_check — Перевірити, чи правильно написано слово та запропонувати варіанти заміни
 
 ### Опис
 
@@ -24,7 +25,7 @@ enchant_dict_quick_check(EnchantDictionary $dictionary, string $word, array &$su
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.md) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 
@@ -40,13 +41,13 @@ enchant_dict_quick_check(EnchantDictionary $dictionary, string $word, array &$su
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **enchantdictquickcheck()****
+**Пример #1 Пример использования**enchant\_dict\_quick\_check()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ if (enchant_broker_dict_exists($r,$tag)) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -96,5 +97,5 @@ Array
 
 ### Дивіться також
 
--   [enchantdictcheck()](function.enchant-dict-check.md) - Перевіряє, чи правильно задано слово
--   [enchantdictsuggest()](function.enchant-dict-suggest.md) - Поверне список можливих варіантів для слова з помилкою
+-   [enchant\_dict\_check()](function.enchant-dict-check.md) \- Перевіряє, чи правильно задано слово
+-   [enchant\_dict\_suggest()](function.enchant-dict-suggest.md) \- Поверне список можливих варіантів для слова з помилкою

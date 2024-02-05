@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::offsetUnset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::offsetUnset
 
@@ -18,9 +19,9 @@ Phar::offsetUnset — Видалити файл із phar-архіву
 public Phar::offsetUnset(string $localName): void
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly`в . В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 Це реалізація інтерфейсу [ArrayAccess](class.arrayaccess.md)дозволяє маніпулювати вмістом Phar-архіву в стилі доступу до елементів масиву. offsetUnset використовується для видалення файлів і запускається щоразу, коли використовується конструкція [unset()](function.unset.md)
 
@@ -28,7 +29,7 @@ public Phar::offsetUnset(string $localName): void
 
 `localName`
 
-Назва файлу (відносний шлях).
+Ім'я файлу (відносний шлях).
 
 ### Значення, що повертаються
 
@@ -36,11 +37,11 @@ public Phar::offsetUnset(string $localName): void
 
 ### Помилки
 
-Якщо опція [phar.readonly](phar.configuration.md#ini.phar.readonly) встановлений в `1`, то буде викинуто виняток [BadMethodCallException](class.badmethodcallexception.md)Так як модифікувати Phar-архів можна тільки, якщо phar.readonly дорівнює `0`. Якщо виникнуть проблеми із записом на диск - викидається виняток [PharException](class.pharexception.md)
+Якщо опція [phar.readonly](phar.configuration.md#ini.phar.readonly)установлен в , то буде викинуто виняток [BadMethodCallException](class.badmethodcallexception.md), так як модифікувати Phar-архів можна тільки, якщо phar.readonly дорівнює . Якщо виникнуть проблеми із записом на диск - викидається виняток [PharException](class.pharexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::offsetUnset()****
+**Пример #1 Пример использования**Phar::offsetUnset()\*\*\*\*
 
 ```php
 <?php
@@ -56,8 +57,8 @@ try {
 
 ### Дивіться також
 
--   [Phar::offsetExists()](phar.offsetexists.md) - Визначити, чи є файл у архіві
--   [Phar::offsetGet()](phar.offsetget.md) - Отримати PharFileInfo об'єкт для конкретного файлу
--   [Phar::offsetSet()](phar.offsetset.md) - Зміна вмісту файлу
--   [Phar::unlinkArchive()](phar.unlinkarchive.md) - Повністю видалити архів з пам'яті та з диска
--   [Phar::delete()](phar.delete.md) - Видаляє файл усередині phar-архіву
+-   [Phar::offsetExists()](phar.offsetexists.md) \- Визначити, чи є файл у архіві
+-   [Phar::offsetGet()](phar.offsetget.md) \- Отримати PharFileInfo об'єкт для конкретного файлу
+-   [Phar::offsetSet()](phar.offsetset.md) \- Зміна вмісту файлу
+-   [Phar::unlinkArchive()](phar.unlinkarchive.md) \- Повністю видалити архів з пам'яті та з диска
+-   [Phar::delete()](phar.delete.md) \- Видаляє файл усередині phar-архіву

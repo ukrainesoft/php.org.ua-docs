@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phardata.md: PharData
 title: 'PharData::setSignatureAlgorithm'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharData::setSignatureAlgorithm
 
@@ -18,17 +19,17 @@ PharData::setSignatureAlgorithm — Встановити алгоритм під
 public PharData::setSignatureAlgorithm(int $algo, ?string $privateKey = null): void
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly`в . В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-Встановлює алгоритм підписання phar-архіву та застосовує його. Доступні такі алгоритми підписання: `Phar::MD5` `Phar::SHA1` `Phar::SHA256` `Phar::SHA512` і `Phar::OPENSSL`. (Pgp поки не підтримується, замість нього використовується SHA-1).
+Встановлює алгоритм підписання phar-архіву та застосовує його. Доступні такі алгоритми підписання: `Phar::MD5` `Phar::SHA1` `Phar::SHA256` `Phar::SHA512`и`Phar::OPENSSL`. (Pgp поки не підтримується, замість нього використовується SHA-1).
 
 ### Список параметрів
 
 `algo`
 
-Одна з констант: `Phar::MD5` `Phar::SHA1` `Phar::SHA256` `Phar::SHA512` або `Phar::OPENSSL`
+Одна из констант:`Phar::MD5` `Phar::SHA1` `Phar::SHA256` `Phar::SHA512`или`Phar::OPENSSL`
 
 ### Значення, що повертаються
 
@@ -40,11 +41,11 @@ public PharData::setSignatureAlgorithm(int $algo, ?string $privateKey = null): v
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `privateKey` тепер допускає значення null. |
+| 8.0.0 | `privateKey` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [Phar::getSupportedSignatures()](phar.getsupportedsignatures.md) - Отримати масив підтримуваних алгоритмів підпису архіву
--   [Phar::getSignature()](phar.getsignature.md) - Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву
+-   [Phar::getSupportedSignatures()](phar.getsupportedsignatures.md) \- Отримати масив підтримуваних алгоритмів підпису архіву
+-   [Phar::getSignature()](phar.getsignature.md) \- Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву

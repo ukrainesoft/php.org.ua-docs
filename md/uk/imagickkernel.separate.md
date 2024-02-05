@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagickkernel.md: ImagickKernel
 title: 'ImagickKernel::separate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickKernel::separate
 
 (PECL imagick >= 3.3.0)
 
-ImagickKernel::separate — Опис
+ImagickKernel::separate — Розділяє зв'язаний набір ядер та повертає масив ImagickKernels
 
 ### Опис
 
@@ -28,7 +29,7 @@ public ImagickKernel::separate(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickKernel::separate()****
+**Пример #1 Пример использования**ImagickKernel::separate()\*\*\*\*
 
 ```php
 <?php

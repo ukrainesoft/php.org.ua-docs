@@ -1,22 +1,23 @@
 ---
 navigation:
-  - yaf-application.clearlasterror.md: '« YafApplication::clearLastError'
-  - yaf-application.destruct.md: 'YafApplication::destruct »'
+  - yaf-application.clearlasterror.md: '« Yaf\_Application::clearLastError'
+  - yaf-application.destruct.md: 'Yaf\_Application::\_\_destruct »'
   - index.md: PHP Manual
-  - class.yaf-application.md: YafApplication
-title: 'YafApplication::construct'
+  - class.yaf-application.md: Yaf\_Application
+title: 'Yaf\_Application::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafApplication::construct
+# Yaf\_Application::\_\_construct
 
 (Yaf >=1.0.0)
 
-YafApplication::construct - Конструктор класу YafApplication
+Yaf\_Application::\_\_construct - Конструктор класу Yaf\_Application
 
 ### Опис
 
-public **YafApplication::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$config`, string `$envrion`
+public**Yaf\_Application::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$config`, string`$envrion`
 
-Екземпляр [YafApplication](class.yaf-application.md)
+Екземпляр [Yaf\_Application](class.yaf-application.md)
 
 ### Список параметрів
 
@@ -26,17 +27,17 @@ public **YafApplication::construct**[mixed](language.types.declarations.md#langu
 
 Якщо це шлях до ini-файлу, то в ньому має бути розділ з ім'ям [yaf.environ](yaf.configuration.md#ini.yaf.environ), що є за промовчанням "product".
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо ви використовуєте ini-файл, то для покращення продуктивності дозвольте опцію [yaf.cacheconfig](yaf.configuration.md#ini.yaf.cache-config)
+> Якщо ви використовуєте ini-файл, то для покращення продуктивності дозвольте опцію [yaf.cache\_config](yaf.configuration.md#ini.yaf.cache-config)
 
 Параметри конфігурації (та їх значення за промовчанням):
 
 **Приклад #1 Приклад ini-файлу**
 
-product;Ця опція не має значення за умовчанням і обов'язково має бути задана вами application.directory=APPLICATIONPATH
+\[product\];Ця опція не має значення за умовчанням і обов'язково має бути задана вами application.directory=APPLICATION\_PATH
 
-;Наступні параметри мають значення за замовчуванням, вам можна їх не чіпати application.library = APPLICATIONPATH. "/library" application.dispatcher.throwException=1 application.dispatcher.catchException=1
+;Наступні параметри мають значення за замовчуванням, вам можна їх не чіпати application.library = APPLICATION\_PATH . "/library" application.dispatcher.throwException=1 application.dispatcher.catchException=1
 
 application.baseUri=""
 
@@ -44,7 +45,7 @@ application.baseUri=""
 
 ;розширення файлів шаблонів ap.view.ext=phtml
 
-ap.dispatcher.defaultModuel=Index ap.dispatcher.defaultController=Index ap.dispatcher.defaultAction=index
+ap.dispatcher.defaultModule=Index ap.dispatcher.defaultController=Index ap.dispatcher.defaultAction=index
 
 ;Певні модулі ap.modules=Index
 
@@ -56,7 +57,7 @@ ap.dispatcher.defaultModuel=Index ap.dispatcher.defaultController=Index ap.dispa
 
 ### Приклади
 
-**Приклад #2 Приклад використання **YafApplication::construct()****
+**Пример #2 Пример использования**Yaf\_Application::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -68,9 +69,9 @@ $application->bootstrap()->run();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
-**Приклад #3 Приклад використання **YafApplication::construct()****
+**Пример #3 Пример использования**Yaf\_Application::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -86,8 +87,8 @@ $application->bootstrap()->run();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ### Дивіться також
 
--   [YafConfigIni](class.yaf-config-ini.md)
+-   [Yaf\_Config\_Ini](class.yaf-config-ini.md)

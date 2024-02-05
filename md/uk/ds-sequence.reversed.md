@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.reverse.md: '« DsSequence::reverse'
-  - ds-sequence.rotate.md: 'ДсSequence::rotate »'
+  - ds-sequence.reverse.md: '« Ds\\Sequence::reverse'
+  - ds-sequence.rotate.md: 'Ds\\Sequence::rotate »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::reversed'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::reversed'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::reversed
+# Ds\\Sequence::reversed
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::reversed — Повертає перегорнуту копію колекції
+Ds\\Sequence::reversed — Повертає перегорнуту копію колекції
 
 ### Опис
 
@@ -28,13 +29,13 @@ abstract public Ds\Sequence::reversed(): Ds\Sequence
 
 Перегорнута копія колекції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Поточна колекція не зміниться.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::reversed()****
+**Пример #1 Пример использования**Ds\\Sequence::reversed()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ print_r($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

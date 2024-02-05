@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-rowresult.getcolumncount.md: '« RowResult::getColumnsCount'
   - mysql-xdevapi-rowresult.getcolumns.md: 'RowResult::getColumns »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-rowresult.md: mysqlxdevapiRowResult
+  - class.mysql-xdevapi-rowresult.md: mysql\_xdevapi\\RowResult
 title: 'RowResult::getColumnNames'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RowResult::getColumnNames
 
@@ -22,7 +23,7 @@ public mysql_xdevapi\RowResult::getColumnNames(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public mysql_xdevapi\RowResult::getColumnNames(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiRowResult::getColumnNames()****
+**Пример #1 Пример использования**mysql\_xdevapi\\RowResult::getColumnNames()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ $colnames = $sql->getColumnNames();
 print_r($colnames);
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

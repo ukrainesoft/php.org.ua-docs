@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::isEnumCase'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClassConstant::isEnumCase
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionClassConstant::isEnumCase — Перевіряє, чи є константа класу варіантом перерахування
 
@@ -18,7 +19,7 @@ ReflectionClassConstant::isEnumCase — Перевіряє, чи є конста
 public ReflectionClassConstant::isEnumCase(): bool
 ```
 
-Перевіряє, чи є константа класу варіантом [перечисления](language.enumerations.md)
+Перевіряє, чи є константа класу варіантом [перерахування](language.enumerations.md)
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public ReflectionClassConstant::isEnumCase(): bool
 
 ### Значення, що повертаються
 
-Метод повертає \*\*`true`\*\*якщо константа класу є варіантом перерахування, в іншому випадку повертає **`false`**
+Метод возвращает\*\*`true`\*\*якщо константа класу є варіантом перерахування, в іншому випадку повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClassConstant::isEnumCase()****
+**Пример #1 Пример использования**ReflectionClassConstant::isEnumCase()\*\*\*\*
 
 Визначення варіанта перерахування та звичайної константи класу.
 
@@ -55,7 +56,7 @@ foreach ($reflection->getReflectionConstants() as $constant) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 BORING_CONSTANT - это обычная константа класса

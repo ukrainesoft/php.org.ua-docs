@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: phpversion
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # phpversion
 
@@ -28,17 +29,17 @@ phpversion(?string $extension = null): string|false
 
 ### Значення, що повертаються
 
-Повертає поточну версію PHP у вигляді рядка (string). Якщо у параметрі `extension` вказано строкове значення (string), **phpversion()** поверне версію цього модуля або **`false`**, якщо немає інформації про версію або модуль не ввімкнено.
+Повертає поточну версію PHP у вигляді рядка (string). Якщо у параметрі `extension`указано строковое значение (string),**phpversion()** поверне версію цього модуля або **`false`**, якщо немає інформації про версію або модуль не ввімкнено.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `extension` тепер допускає значення null. |
+| 8.0.0 | `extension` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **phpversion()****
+**Пример #1 Пример использования**phpversion()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ echo phpversion('tidy');
 ?>
 ```
 
-**Приклад #2 Приклад використання **`PHP_VERSION_ID`****
+**Пример #2 Пример использования**`PHP_VERSION_ID`\*\*\*\*
 
 ```php
 <?php
@@ -87,14 +88,18 @@ if (PHP_VERSION_ID < 50207) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця інформація також доступна через певну константу **`PHP_VERSION`**. Більш детальну інформацію можна отримати за допомогою констант **`PHP_VERSION_*`**
 
+> **Зауваження** :
+> 
+> Деякі модулі можуть визначати власний номер версії. Однак більшість модулів, що входять до комплекту поставки, як номер версії використовують версію PHP.
+
 ### Дивіться також
 
--   [Константи PHPVERSION](reserved.constants.md#reserved.constants.core)
--   [versioncompare()](function.version-compare.md) - Порівнює два "стандартизовані" рядки з номером версії PHP
--   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
--   [phpcredits()](function.phpcredits.md) - Виводить список розробників PHP
--   [zendversion()](function.zend-version.md) - Отримує версію двигуна Zend
+-   [Константи PHP\_VERSION](reserved.constants.md#reserved.constants.core)
+-   [version\_compare()](function.version-compare.md) \- Порівнює два «стандартизовані» рядки з номером версії PHP
+-   [phpinfo()](function.phpinfo.md) \- Виводить інформацію про поточну конфігурацію PHP
+-   [phpcredits()](function.phpcredits.md) \- Виводить список розробників PHP
+-   [zend\_version()](function.zend-version.md) \- Отримує версію двигуна Zend

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::polaroidImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::polaroidImage
 
@@ -36,7 +37,7 @@ public Imagick::polaroidImage(ImagickDraw $properties, float $angle): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::polaroidImage()****
+**Пример #1 Пример использования**Imagick::polaroidImage()\*\*\*\*
 
 Приклад використання Imagick::polaroidImage()
 

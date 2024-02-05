@@ -1,16 +1,17 @@
 ---
 navigation:
-  - streamwrapper.stream-seek.md: '« streamWrapper::streamseek'
-  - streamwrapper.stream-stat.md: 'streamWrapper::streamstat »'
+  - streamwrapper.stream-seek.md: '« streamWrapper::stream\_seek'
+  - streamwrapper.stream-stat.md: 'streamWrapper::stream\_stat »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
-title: 'streamWrapper::streamsetoption'
+title: 'streamWrapper::stream\_set\_option'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamWrapper::streamsetoption
+# streamWrapper::stream\_set\_option
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-streamWrapper::streamsetoption — Змінити параметри потоку.
+streamWrapper::stream\_set\_option — Зміна налаштувань потоку
 
 ### Опис
 
@@ -26,21 +27,21 @@ public streamWrapper::stream_set_option(int $option, int $arg1, int $arg2): bool
 
 Одне із значень:
 
--   **`STREAM_OPTION_BLOCKING`** (Метод викликаний у результаті виклику функції [streamsetblocking()](function.stream-set-blocking.md)
--   **`STREAM_OPTION_READ_TIMEOUT`** (Метод викликаний у результаті виклику функції [streamsettimeout()](function.stream-set-timeout.md)
--   **`STREAM_OPTION_WRITE_BUFFER`** (Метод викликаний у результаті виклику функції [streamsetwritebuffer()](function.stream-set-write-buffer.md)
+-   **`STREAM_OPTION_BLOCKING`**(Метод викликаний у результаті виклику функції[stream\_set\_blocking()](function.stream-set-blocking.md)) .
+-   **`STREAM_OPTION_READ_TIMEOUT`**(Метод викликаний у результаті виклику функції[stream\_set\_timeout()](function.stream-set-timeout.md)) .
+-   **`STREAM_OPTION_WRITE_BUFFER`**(Метод викликаний у результаті виклику функції[stream\_set\_write\_buffer()](function.stream-set-write-buffer.md)) .
 
 `arg1`
 
-Якщо `option` набуває значення:
+Якщо `option`принимает значение:
 
 -   **`STREAM_OPTION_BLOCKING`**: запит режиму блокування (1 - блокувати, 0 - не блокувати).
 -   **`STREAM_OPTION_READ_TIMEOUT`**: час очікування в секундах
--   **`STREAM_OPTION_WRITE_BUFFER`**: режим буферизації (**`STREAM_BUFFER_NONE`** або **`STREAM_BUFFER_FULL`**
+-   **`STREAM_OPTION_WRITE_BUFFER`**: режим буферизації (**`STREAM_BUFFER_NONE`**или**`STREAM_BUFFER_FULL`**
 
 `arg2`
 
-Якщо `option` набуває значення:
+Якщо `option`принимает значение:
 
 -   **`STREAM_OPTION_BLOCKING`**: це значення ні на що не впливає
 -   **`STREAM_OPTION_READ_TIMEOUT`**: час очікування у мілісекундах.
@@ -48,10 +49,10 @@ public streamWrapper::stream_set_option(int $option, int $arg1, int $arg2): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо `option` не реалізований, метод має повертати **`false`**
+Повертає **`true`** у разі успішного виконання або **`false`**в случае возникновения ошибки. Если`option`не реализован, метод должен возвращать**`false`**
 
 ### Дивіться також
 
--   [streamsetblocking()](function.stream-set-blocking.md) - Встановити блокуючий/неблокуючий режим у потоці
--   [streamsettimeout()](function.stream-set-timeout.md) - Встановити значення часу очікування потоку
--   [streamsetwritebuffer()](function.stream-set-write-buffer.md) - Встановлює буферизацію файлу під час запису у вказаний потік
+-   [stream\_set\_blocking()](function.stream-set-blocking.md) \- Встановити блокуючий/неблокуючий режим у потоці
+-   [stream\_set\_timeout()](function.stream-set-timeout.md) \- Встановити значення часу очікування потоку
+-   [stream\_set\_write\_buffer()](function.stream-set-write-buffer.md) \- Встановлює буферизацію файлу під час запису у вказаний потік

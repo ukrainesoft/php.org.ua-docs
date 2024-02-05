@@ -1,14 +1,15 @@
 ---
 navigation:
-  - reflectionenumbackedcase.construct.md: '« ReflectionEnumBackedCase::construct'
+  - reflectionenumbackedcase.construct.md: '« ReflectionEnumBackedCase::\_\_construct'
   - class.reflectionzendextension.md: ReflectionZendExtension »
   - index.md: PHP Manual
   - class.reflectionenumbackedcase.md: ReflectionEnumBackedCase
 title: 'ReflectionEnumBackedCase::getBackingValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionEnumBackedCase::getBackingValue
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionEnumBackedCase::getBackingValue — Отримує скалярне значення варіанта перерахування
 
@@ -30,7 +31,7 @@ public ReflectionEnumBackedCase::getBackingValue(): int|string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionEnum::getBackingValue()****
+**Пример #1 Пример использования**ReflectionEnum::getBackingValue()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump($rCase->getBackingValue());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(1) "S"
@@ -58,4 +59,4 @@ string(1) "S"
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.md)
+-   [Перерахування](language.enumerations.md)

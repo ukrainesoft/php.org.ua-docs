@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::importNode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::importNode
 
@@ -28,9 +29,9 @@ public DOMDocument::importNode(DOMNode $node, bool $deep = false): DOMNode|false
 
 `deep`
 
-Якщо встановлено значення **`true`**, цей метод буде рекурсивно імпортувати піддерево вузла `node`
+Если установлено значение\*\*`true`\*\*, цей метод буде рекурсивно імпортувати піддерево вузла `node`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Щоб скопіювалися атрибути вузла, `deep` повинен бути встановлений у **`true`**
 
@@ -44,7 +45,7 @@ public DOMDocument::importNode(DOMNode $node, bool $deep = false): DOMNode|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DOMDocument::importNode()****
+**Пример #1 Пример использования**DOMDocument::importNode()\*\*\*\*
 
 Копіювання вузлів між документами.
 
@@ -78,7 +79,7 @@ echo $newdoc->saveXML();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Новый документ перед добавлением в него узлов:

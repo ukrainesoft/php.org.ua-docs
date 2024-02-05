@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.fbird-execute.md: « fbirdexecute
-  - function.fbird-fetch-object.md: fbirdfetchobject »
+  - function.fbird-execute.md: « fbird\_execute
+  - function.fbird-fetch-object.md: fbird\_fetch\_object »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: fbirdfetchassoc
+  - ref.ibase.md: Функції Firebird/InterBase
+title: fbird\_fetch\_assoc
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fbirdfetchassoc
+# fbird\_fetch\_assoc
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdfetchassoc - Псевдонім [ibasefetchassoc()](function.ibase-fetch-assoc.md)
+fbird\_fetch\_assoc — Псевдоним[ibase\_fetch\_assoc()](function.ibase-fetch-assoc.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasefetchassoc()](function.ibase-fetch-assoc.md)
+Функция — псевдоним функции:[ibase\_fetch\_assoc()](function.ibase-fetch-assoc.md)
 
 ### Дивіться також
 
--   [fbirdfetchrow()](function.fbird-fetch-row.md) - Псевдонім ibasefetchrow
--   [fbirdfetchobject()](function.fbird-fetch-object.md) - Псевдонім ibasefetchobject
+-   [fbird\_fetch\_row()](function.fbird-fetch-row.md) \- Псевдонім ibase\_fetch\_row
+-   [fbird\_fetch\_object()](function.fbird-fetch-object.md) \- Псевдонім ibase\_fetch\_object

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-cascade-output-stagnation-epochs.md: « fanngetcascadeoutputstagnationepochs
-  - function.fann-get-connection-array.md: fanngetconnectionarray »
+  - function.fann-get-cascade-output-stagnation-epochs.md: « fann\_get\_cascade\_output\_stagnation\_epochs
+  - function.fann-get-connection-array.md: fann\_get\_connection\_array »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetcascadeweightmultiplier
+  - ref.fann.md: Функції Fann
+title: fann\_get\_cascade\_weight\_multiplier
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetcascadeweightmultiplier
+# fann\_get\_cascade\_weight\_multiplier
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetcascadeweightmultiplier — Повертає множник ваги
+fann\_get\_cascade\_weight\_multiplier — Повертає множник ваги
 
 ### Опис
 
@@ -30,8 +31,8 @@ fann_get_cascade_weight_multiplier(resource $ann): float
 
 ### Значення, що повертаються
 
-Множник ваги або **`false`** у разі виникнення помилки.
+Множитель веса или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fannsetcascadeweightmultiplier()](function.fann-set-cascade-weight-multiplier.md) - Встановлює множник ваги
+-   [fann\_set\_cascade\_weight\_multiplier()](function.fann-set-cascade-weight-multiplier.md) \- Встановлює множник ваги

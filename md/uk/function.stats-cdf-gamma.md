@@ -1,35 +1,36 @@
 ---
 navigation:
-  - function.stats-cdf-f.md: « statscdfф
-  - function.stats-cdf-laplace.md: statscdflaplace »
+  - function.stats-cdf-f.md: « stats\_cdf\_f
+  - function.stats-cdf-laplace.md: stats\_cdf\_laplace »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statscdfgamma
+title: stats\_cdf\_gamma
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statscdfgamma
+# stats\_cdf\_gamma
 
 (PECL stats >= 1.0.0)
 
-statscdfgamma — Обчислює один із параметрів Гамма-розподілу за рештою
+stats\_cdf\_gamma — Обчислює один із параметрів Гамма-розподілу за рештою
 
 ### Опис
 
 ```methodsynopsis
-stats_cdf_gamma(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_gamma(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
-Повертає кумулятивну функцію Гамма-розподілу, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`
+Повертає кумулятивну функцію Гамма-розподілу, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2`и`par3`) определяются параметром`which`
 
 У наступній таблиці перераховані значення і параметри, що повертаються, в залежності від `which`. CDF, x, k і theta позначає функцію кумулятивного розподілу, значення випадкової змінної, коефіцієнт форми та масштабу відповідно.
 
-**Значення, що повертається і параметри**
+**Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
 | --- | --- | --- | --- | --- |
-|  | CDF | з | до | theta |
-|  | з | CDF | до | theta |
-|  | до | з | CDF | theta |
-|  | theta | з | CDF | до |
+|  | CDF | x | k | theta |
+|  | x | CDF | k | theta |
+| 3 | k | x | CDF | theta |
+| 4 | theta | x | CDF | k |
 
 ### Список параметрів
 

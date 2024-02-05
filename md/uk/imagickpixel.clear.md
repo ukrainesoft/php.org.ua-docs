@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.imagickpixel.md: « ImagickPixel
-  - imagickpixel.construct.md: 'ImagickPixel::construct »'
+  - imagickpixel.construct.md: 'ImagickPixel::\_\_construct »'
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::clear
 
@@ -20,7 +21,7 @@ public ImagickPixel::clear(): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Очищає об'єкт ImagickPixel, залишаючи його в початковому стані та видаляє всі кольори, пов'язані з ним.
 

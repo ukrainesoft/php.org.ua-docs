@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine-client.isconnected.md: '« SwooleCoroutineClient::isConnected'
-  - swoole-coroutine-client.send.md: 'SwooleCoroutineClient::send »'
+  - swoole-coroutine-client.isconnected.md: '« Swoole\\Coroutine\\Client::isConnected'
+  - swoole-coroutine-client.send.md: 'Swoole\\Coroutine\\Client::send »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutineClient::recv'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine\\Client::recv'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutineClient::recv
+# Swoole\\Coroutine\\Client::recv
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutineClient::recv — Опис
+Swoole\\Coroutine\\Client::recv — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Coroutine\Client::recv(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

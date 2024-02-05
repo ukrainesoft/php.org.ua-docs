@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.pop.md: '« DsDeque::pop'
-  - ds-deque.reduce.md: 'ДсDeque::reduce »'
+  - ds-deque.pop.md: '« Ds\\Deque::pop'
+  - ds-deque.reduce.md: 'Ds\\Deque::reduce »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::push'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::push'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::push
+# Ds\\Deque::push
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::push — Додає значення до кінця двосторонньої черги
+Ds\\Deque::push — Додає значення до кінця двосторонньої черги
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Ds\Deque::push(mixed ...$values): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::push()****
+**Пример #1 Пример использования**Ds\\Deque::push()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ print_r($deque);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Deque Object

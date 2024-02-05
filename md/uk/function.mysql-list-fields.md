@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.mysql-list-dbs.md: « mysqllistdbs
-  - function.mysql-list-processes.md: mysqllistprocesses »
+  - function.mysql-list-dbs.md: « mysql\_list\_dbs
+  - function.mysql-list-processes.md: mysql\_list\_processes »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqllistfields
+title: mysql\_list\_fields
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqllistfields
+# mysql\_list\_fields
 
 (PHP 4, PHP 5)
 
-mysqllistfields — Повертає список колонок таблиці
+mysql\_list\_fields — Повертає список колонок таблиці
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 5.4.0, і, разом з [модулем MySQL](book.mysql.md)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Ця функція оголошена застарілою в PHP 5.4.0, і, разом з [модулем MySQL](book.mysql.md)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Так же смотрите раздел[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   SQL запит: `SHOW COLUMNS FROM sometable`
+-   SQL запит:`SHOW COLUMNS FROM sometable`
 
 ### Опис
 
@@ -26,7 +27,7 @@ mysql_list_fields(string $database_name, string $table_name, resource $link_iden
 
 Повертає інформацію про таблицю із переданим ім'ям.
 
-Ця функція застаріла. Замість неї рекомендується використовувати [mysqlquery()](function.mysql-query.md) із SQL-запитом `SHOW COLUMNS FROM table [LIKE 'name']`
+Ця функція застаріла. Замість неї рекомендується використовувати [mysql\_query()](function.mysql-query.md) із SQL-запитом `SHOW COLUMNS FROM table [LIKE 'name']`
 
 ### Список параметрів
 
@@ -40,17 +41,17 @@ mysql_list_fields(string $database_name, string $table_name, resource $link_iden
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, буде використано останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Дескриптор результату (resource) у разі успішного виконання, або **`false`** у разі виникнення помилки.
+Дескриптор результату (resource) у разі успішного виконання, або \*\*`false`\*\*в случае возникновения ошибки.
 
-Результат, що повертається, може бути оброблений за допомогою наступних функцій: [mysqlfieldflags()](function.mysql-field-flags.md) [mysqlfieldlen()](function.mysql-field-len.md) [mysqlfieldname()](function.mysql-field-name.md) і [mysqlfieldtype()](function.mysql-field-type.md)
+Результат, що повертається, може бути оброблений за допомогою наступних функцій: [mysql\_field\_flags()](function.mysql-field-flags.md) [mysql\_field\_len()](function.mysql-field-len.md) [mysql\_field\_name()](function.mysql-field-name.md) і [mysql\_field\_type()](function.mysql-field-type.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqllistfields()****
+**Пример #1 Пример использования**mysql\_list\_fields()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ if (mysql_num_rows($result) > 0) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -92,11 +93,11 @@ Array
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysqllistfields()**
+> Для зворотної сумісності може бути використаний наступний застарілий псевдонім: **mysql\_listfields()**
 
 ### Дивіться також
 
--   [mysqlfieldflags()](function.mysql-field-flags.md) - Повертає прапори, пов'язані із зазначеним полем результату запиту
--   [mysqlinfo()](function.mysql-info.md) - Повертає інформацію про останній запит
+-   [mysql\_field\_flags()](function.mysql-field-flags.md) \- Повертає прапори, пов'язані із зазначеним полем результату запиту
+-   [mysql\_info()](function.mysql-info.md) \- Повертає інформацію про останній запит

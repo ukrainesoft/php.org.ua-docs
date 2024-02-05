@@ -4,9 +4,10 @@ navigation:
   - solrdismaxquery.settrigramphrasefields.md: 'SolrDisMaxQuery::setTrigramPhraseFields »'
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
-title: 'Solr DisMax Query::set TieBreaker'
+title: 'SolrDisMaxQuery::setTieBreaker'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Solr DisMax Query::set TieBreaker
+# SolrDisMaxQuery::setTieBreaker
 
 (No version information available, might only be in Git)
 
@@ -24,7 +25,7 @@ public SolrDisMaxQuery::setTieBreaker(string $tieBreaker): SolrDisMaxQuery
 
 `tieBreaker`
 
-Параметр *tie* вказує значення з плаваючою точкою (яке має бути набагато менше 1) для використання як вирішення конфліктів у запитах DisMax.
+Параметр*tie* вказує значення з плаваючою точкою (яке має бути набагато менше 1) для використання як вирішення конфліктів у запитах DisMax.
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public SolrDisMaxQuery::setTieBreaker(string $tieBreaker): SolrDisMaxQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Solr DisMax Query::set TieBreaker()****
+**Пример #1 Пример использования**SolrDisMaxQuery::setTieBreaker()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ echo $dismaxQuery;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 defType=edismax&tie=0.1

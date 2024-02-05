@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-declared-traits.md: « getdeclaredtraits
-  - function.get-object-vars.md: getobjectvars »
+  - function.get-declared-traits.md: « get\_declared\_traits
+  - function.get-object-vars.md: get\_object\_vars »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
-title: getmangledobjectvars
+title: get\_mangled\_object\_vars
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getmangledobjectvars
+# get\_mangled\_object\_vars
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
-getmangledobjectvars — Повертає масив спотворених властивостей об'єкту
+get\_mangled\_object\_vars — Повертає масив спотворених властивостей об'єкту
 
 ### Опис
 
@@ -32,7 +33,7 @@ get_mangled_object_vars(object $object): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getmangledobjectvars()****
+**Пример #1 Пример использования**get\_mangled\_object\_vars()\*\*\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ $arrayObject->dynamic = 2;
 var_dump(get_mangled_object_vars($arrayObject));
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(6) {
@@ -95,5 +96,5 @@ array(2) {
 
 ### Дивіться також
 
--   [getclassvars()](function.get-class-vars.md) - Повертає оголошені за умовчанням властивості класу
--   [getobjectvars()](function.get-object-vars.md) - Повертає властивості вказаного об'єкту
+-   [get\_class\_vars()](function.get-class-vars.md) \- Повертає оголошені за умовчанням властивості класу
+-   [get\_object\_vars()](function.get-object-vars.md) \- Повертає властивості вказаного об'єкту

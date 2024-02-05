@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getGroupLimit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getGroupLimit
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrQuery::getGroupLimit — Повертає значення group.limit
 
@@ -28,4 +29,4 @@ public SolrQuery::getGroupLimit(): int
 
 ### Дивіться також
 
--   [SolrQuery::setGroupLimit()](solrquery.setgrouplimit.md) - Вказує кількість результатів, що повертаються для кожної групи. Значення сервера за промовчанням - 1
+-   [SolrQuery::setGroupLimit()](solrquery.setgrouplimit.md) \- Вказує кількість результатів, що повертаються для кожної групи. Значення сервера за промовчанням - 1

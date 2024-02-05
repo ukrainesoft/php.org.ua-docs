@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::locateName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::locateName
 
@@ -37,7 +38,7 @@ public ZipArchive::locateName(string $name, int $flags = 0): int|false
 
 ### Значення, що повертаються
 
-Повертає індекс елемента у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає індекс елемента у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -74,7 +75,7 @@ $zip->close();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 0

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-bucket-prepend.md: « streambucketprepend
-  - function.stream-context-get-default.md: streamcontextgetdefault »
+  - function.stream-bucket-prepend.md: « stream\_bucket\_prepend
+  - function.stream-context-get-default.md: stream\_context\_get\_default »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamcontextcreate
+title: stream\_context\_create
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamcontextcreate
+# stream\_context\_create
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-streamcontextcreate — Створює контекст потоку
+stream\_context\_create — Створює контекст потоку
 
 ### Опис
 
@@ -24,13 +25,13 @@ stream_context_create(?array $options = null, ?array $params = null): resource
 
 `options`
 
-Має бути асоціативним масивом у форматі `$arr['wrapper']['option'] = $value` або **`null`**. Список доступних обгорток та опцій дивіться у розділі [Опции контекста](context.md)
+Має бути асоціативним масивом у форматі `$arr['wrapper']['option'] = $value`или\*\*`null`\*\*. Список доступних обгорток та опцій дивіться у розділі [Опції контексту](context.md)
 
-Значення за замовчуванням - **`null`**
+Значение по умолчанию -**`null`**
 
 `params`
 
-Має бути асоціативним масивом у форматі `$arr['parameter'] = $value` або **`null`**. Зверніться до розділу [Опции контекста](context.params.md) за списком стандартних параметрів потоку.
+Має бути асоціативним масивом у форматі `$arr['parameter'] = $value`или\*\*`null`\*\*. Зверніться до розділу [Опції контексту](context.params.md) за списком стандартних параметрів потоку.
 
 ### Значення, що повертаються
 
@@ -38,13 +39,13 @@ stream_context_create(?array $options = null, ?array $params = null): resource
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметри `options` і `params` тепер допускають значення null. |
+| 8.0.0 | Параметри `options`и`params` тепер допускають значення null. |
 
 ### Приклади
 
-**Приклад #1 Використання **streamcontextcreate()****
+**Пример #1 Использование**stream\_context\_create()\*\*\*\*
 
 ```php
 <?php
@@ -68,6 +69,6 @@ fclose($fp);
 
 ### Дивіться також
 
--   [streamcontextsetoption()](function.stream-context-set-option.md) - Встановлює опцію для потоку/обгортки/контексту
--   Список підтримуваних обгорток ([Підтримувані протоколи та обгортки](wrappers.md)
--   Опції контексту ([Контекстні опції та параметри](context.md)
+-   [stream\_context\_set\_option()](function.stream-context-set-option.md) \- Встановлює опцію для потоку/обгортки/контексту
+-   Список підтримуваних обгорток ([Підтримувані протоколи та обгортки](wrappers.md)) .
+-   Опції контексту ([Контекстні опції та параметри](context.md)) .

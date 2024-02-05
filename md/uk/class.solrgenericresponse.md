@@ -1,14 +1,15 @@
 ---
 navigation:
   - solrpingresponse.getresponse.md: '« SolrPingResponse::getResponse'
-  - solrgenericresponse.construct.md: 'SolrGenericResponse::construct »'
+  - solrgenericresponse.construct.md: 'SolrGenericResponse::\_\_construct »'
   - index.md: PHP Manual
   - book.solr.md: Solr
 title: Клас SolrGenericResponse
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SolrGenericResponse
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 ## Вступ
 
@@ -120,5 +121,5 @@ public SolrResponse::success(): bool
 
 ## Зміст
 
--   [SolrGenericResponse::construct](solrgenericresponse.construct.md) - Конструктор
--   [SolrGenericResponse::destruct](solrgenericresponse.destruct.md) - Деструктор
+-   [SolrGenericResponse::\_\_construct](solrgenericresponse.construct.md) \- Конструктор
+-   [SolrGenericResponse::\_\_destruct](solrgenericresponse.destruct.md) \- Деструктор

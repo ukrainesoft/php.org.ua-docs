@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlsticksandwich.md: « tradercdlsticksandwich
-  - function.trader-cdltasukigap.md: tradercdltasukigap »
+  - function.trader-cdlsticksandwich.md: « trader\_cdlsticksandwich
+  - function.trader-cdltasukigap.md: trader\_cdltasukigap »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdltakuri
+  - ref.trader.md: Функції Trader
+title: trader\_cdltakuri
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdltakuri
+# trader\_cdltakuri
 
 (PECL trader >= 0.2.0)
 
-tradercdltakuri - Такурі (Стрекоза Доджі з дуже довгою нижньою тінню)
+trader\_cdltakuri - Такурі (Стрекоза Доджі з дуже довгою нижньою тінню)
 
 ### Опис
 
 ```methodsynopsis
-trader_cdltakuri(    array $open,    array $high,    array $low,    array $close): array
+trader_cdltakuri(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

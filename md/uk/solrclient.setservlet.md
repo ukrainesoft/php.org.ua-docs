@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::setServlet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::setServlet
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrClient::setServlet — Змінює вказаний тип сервлету на нове значення
 
@@ -18,7 +19,7 @@ SolrClient::setServlet — Змінює вказаний тип сервлету
 public SolrClient::setServlet(int $type, string $value): bool
 ```
 
-Змінює вказаний тип сервлету на нове значення
+Змінює цей тип сервлета на нове значення
 
 ### Список параметрів
 
@@ -26,12 +27,12 @@ public SolrClient::setServlet(int $type, string $value): bool
 
 Одне з наступних значень:
 
-SolrClient::SEARCHSERVLETTYPE
+\-SolrClient::SEARCH\_SERVLET\_TYPE
 
--   SolrClient::UPDATESERVLETTYPE
--   SolrClient::THREADSSERVLETTYPE
--   SolrClient::PINGSERVLETTYPE
--   SolrClient::TERMSSERVLETTYPE
+-   SolrClient::UPDATE\_SERVLET\_TYPE
+-   SolrClient::THREADS\_SERVLET\_TYPE
+-   SolrClient::PING\_SERVLET\_TYPE
+-   SolrClient::TERMS\_SERVLET\_TYPE
 
 `value`
 
@@ -39,4 +40,4 @@ SolrClient::SEARCHSERVLETTYPE
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

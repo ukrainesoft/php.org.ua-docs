@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.iteratoriterator.md: IteratorIterator
 title: 'IteratorIterator::next'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IteratorIterator::next
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 IteratorIterator::next — Переміщує ітератор до наступного елементу
 
@@ -30,5 +31,5 @@ public IteratorIterator::next(): void
 
 ### Дивіться також
 
--   [IteratorIterator::rewind()](iteratoriterator.rewind.md) - Повертає ітератор до першого елементу
--   [IteratorIterator::valid()](iteratoriterator.valid.md) - Перевіряє, чи є ітератор допустимим
+-   [IteratorIterator::rewind()](iteratoriterator.rewind.md) \- Повертає ітератор до першого елементу
+-   [IteratorIterator::valid()](iteratoriterator.valid.md) \- Перевіряє, чи є ітератор допустимим

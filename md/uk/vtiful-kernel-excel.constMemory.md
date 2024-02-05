@@ -1,16 +1,17 @@
 ---
 navigation:
-  - vtiful-kernel-excel.autoFilter.md: '« VtifulKernelExcel::autoFilter'
-  - vtiful-kernel-excel.construct.md: 'VtifulKernelExcel::construct »'
+  - vtiful-kernel-excel.autoFilter.md: '« Vtiful\\Kernel\\Excel::autoFilter'
+  - vtiful-kernel-excel.construct.md: 'Vtiful\\Kernel\\Excel::\_\_construct »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.md: VtifulKernelExcel
-title: 'VtifulKernelExcel::constMemory'
+  - class.vtiful-kernel-excel.md: Vtiful\\Kernel\\Excel
+title: 'Vtiful\\Kernel\\Excel::constMemory'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelExcel::constMemory
+# Vtiful\\Kernel\\Excel::constMemory
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelExcel::constMemory — Кількість пам'яті
+Vtiful\\Kernel\\Excel::constMemory — Кількість пам'яті
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Vtiful\Kernel\Excel::constMemory(string $fileName, string $sheetName = ?)
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

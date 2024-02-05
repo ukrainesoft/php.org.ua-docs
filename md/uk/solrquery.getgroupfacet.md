@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getGroupFacet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getGroupFacet
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrQuery::getGroupFacet — Повертає значення параметра group.facet
 
@@ -28,4 +29,4 @@ public SolrQuery::getGroupFacet(): bool
 
 ### Дивіться також
 
--   [SolrQuery::setGroupFacet()](solrquery.setgroupfacet.md) - Встановлює параметр group.facet
+-   [SolrQuery::setGroupFacet()](solrquery.setgroupfacet.md) \- Встановлює параметр group.facet

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evchild.md: EvChild
 title: 'EvChild::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvChild::set
 
@@ -29,11 +30,11 @@ public
 
 `pid`
 
-Дивіться [EvChild::construct()](evchild.construct.md)
+Смотрите[EvChild::\_\_construct()](evchild.construct.md)
 
 `trace`
 
-Дивіться [EvChild::construct()](evchild.construct.md)
+Смотрите[EvChild::\_\_construct()](evchild.construct.md)
 
 ### Значення, що повертаються
 
@@ -41,4 +42,4 @@ public
 
 ### Дивіться також
 
--   [EvChild::construct()](evchild.construct.md) - Створює об'єкт спостерігач EvChild
+-   [EvChild::\_\_construct()](evchild.construct.md) \- Створює об'єкт спостерігач EvChild

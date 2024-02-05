@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-share-init.md: « curlshareinit
-  - function.curl-share-strerror.md: curlsharestrerror »
+  - function.curl-share-init.md: « curl\_share\_init
+  - function.curl-share-strerror.md: curl\_share\_strerror »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlsharesetopt
+  - ref.curl.md: Опції cURL
+title: curl\_share\_setopt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlsharesetopt
+# curl\_share\_setopt
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-curlsharesetopt — Встановити опції роздільного обробника cURL
+curl\_share\_setopt — Встановити опції роздільного обробника cURL
 
 ### Опис
 
@@ -24,36 +25,36 @@ curl_share_setopt(CurlShareHandle $share_handle, int $option, mixed $value): boo
 
 `share_handle`
 
-Обробник cURL, що розділяється, повертається [curlshareinit()](function.curl-share-init.md)
+Обробник, що розділяється cURL, повертається [curl\_share\_init()](function.curl-share-init.md)
 
 `option`
 
-| Опция | Описание |
+| Опция | Опис |
 | --- | --- |
 | **`CURLSHOPT_SHARE`** | Задає тип даних, які потрібно розділяти. |
 | **`CURLSHOPT_UNSHARE`** | Вказує тип даних, які більше не треба розділяти. |
 
 `value`
 
-| Значение | Описание |
+| Значение | Опис |
 | --- | --- |
 | **`CURL_LOCK_DATA_COOKIE`** | Поділяє дані cookie. |
-| **`CURL_LOCK_DATA_DNS`** | Поділяє кеш DNS. Зверніть увагу, що якщо ви використовуєте множинний обробник cURL, всі додані обробники за умовчанням будуть розділяти DNS-кеш. |
+| **`CURL_LOCK_DATA_DNS`** | Розділяє кеш DNS. Зверніть увагу, що якщо ви використовуєте множинний обробник cURL, всі додані обробники за умовчанням будуть розділяти DNS-кеш. |
 | **`CURL_LOCK_DATA_SSL_SESSION`** | Розділяє ідентифікатори сесії SSL, скорочуючи час, що витрачається на підтвердження (handshake) SSL при повторному з'єднанні з тим самим сервером. Зверніть увагу, що ідентифікатори сесії SSL за замовчуванням перевикористовуватимуться тим самим обробником. |
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.md) instance now; Попередньо, як ресурс був виявлений. |
+| 8.0.0 | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.md) instance now; previously, a resource was expected. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curlsharesetopt()****
+**Пример #1 Пример использования**curl\_share\_setopt()\*\*\*\*
 
 У цьому прикладі ми створюємо роздільний обробник cURL, додаємо в нього два звичайні обробники і запускаємо їх. Вони будуть використовувати одні й ті ж куки.
 

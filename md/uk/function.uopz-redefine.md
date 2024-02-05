@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-overload.md: « uopzoverload
-  - function.uopz-rename.md: uopzrename »
+  - function.uopz-overload.md: « uopz\_overload
+  - function.uopz-rename.md: uopz\_rename »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzredefine
+title: uopz\_redefine
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzredefine
+# uopz\_redefine
 
 (PECL uopz 1, PECL uopz 2, PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzredefine — Перевизначити константу
+uopz\_redefine — Перевизначити константу
 
 ### Опис
 
@@ -22,7 +23,7 @@ uopz_redefine(string $constant, mixed $value): bool
 uopz_redefine(string $class, string $constant, mixed $value): bool
 ```
 
-Перевизначає задану константу `constant` на значення `value`
+Переопределяет заданную константу`constant`на значение`value`
 
 ### Список параметрів
 
@@ -40,11 +41,11 @@ uopz_redefine(string $class, string $constant, mixed $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzredefine()****
+**Пример #1 Пример использования**uopz\_redefine()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ echo MY;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1000

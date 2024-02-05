@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.pool.md: Pool
 title: 'Pool::submit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Pool::submit
 
@@ -60,7 +61,7 @@ var_dump($pool);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(Pool)#1 (6) {

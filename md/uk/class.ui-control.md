@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-window.settitle.md: '« UIWindow::setTitle'
-  - ui-control.destroy.md: 'ОЙControl::destroy »'
+  - ui-window.settitle.md: '« UI\\Window::setTitle'
+  - ui-control.destroy.md: 'UI\\Control::destroy »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління
 
@@ -46,13 +47,13 @@ public show()
 
 ## Зміст
 
--   [ОЙControl::destroy](ui-control.destroy.md) — Знищити керуючий елемент
--   [ОЙControl::disable](ui-control.disable.md) — Вимкнути керуючий елемент
--   [ОЙControl::enable](ui-control.enable.md) — Включити елемент керування
--   [ОЙControl::getParent](ui-control.getparent.md) — Отримати батьківський керуючий елемент
--   [ОЙControl::getTopLevel](ui-control.gettoplevel.md) — Здобути верхній рівень
--   [ОЙControl::hide](ui-control.hide.md) — Приховати елемент керування
--   [ОЙControl::isEnabled](ui-control.isenabled.md) — Визначити, чи включений елемент керування
--   [ОЙControl::isVisible](ui-control.isvisible.md) — Визначити, чи видимий елемент керування
--   [ОЙControl::setParent](ui-control.setparent.md) — Встановити батьківський елемент управління
--   [ОЙControl::show](ui-control.show.md) - Показати керуючий елемент
+-   [UI\\Control::destroy](ui-control.destroy.md)— Знищити керуючий елемент
+-   [UI\\Control::disable](ui-control.disable.md)— Вимкнути керуючий елемент
+-   [UI\\Control::enable](ui-control.enable.md)— Включити елемент керування
+-   [UI\\Control::getParent](ui-control.getparent.md)— Отримати батьківський керуючий елемент
+-   [UI\\Control::getTopLevel](ui-control.gettoplevel.md)— Здобути верхній рівень
+-   [UI\\Control::hide](ui-control.hide.md)— Приховати елемент керування
+-   [UI\\Control::isEnabled](ui-control.isenabled.md)— Визначити, чи включений елемент керування
+-   [UI\\Control::isVisible](ui-control.isvisible.md)— Визначити, чи видимий елемент керування
+-   [UI\\Control::setParent](ui-control.setparent.md)— Встановити батьківський елемент управління
+-   [UI\\Control::show](ui-control.show.md) \- Показати керуючий елемент

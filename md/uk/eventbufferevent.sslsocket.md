@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::sslSocket'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::sslSocket
 
@@ -17,19 +18,19 @@ EventBufferEvent::sslSocket — Створює нову буферну поді�
 ```methodsynopsis
 public
    static
-   EventBufferEvent::sslSocket(    
+   EventBufferEvent::sslSocket(    
     EventBase
      $base
-   ,    
+   ,    
     mixed
      $socket
-   ,    
+   ,    
     EventSslContext
      $ctx
-   ,    
+   ,    
     int
      $state
-   ,    
+   ,    
     int
      $options
     = ?): EventBufferEvent
@@ -45,7 +46,7 @@ public
 
 `socket`
 
-Сокет для використання для SSL. Може бути ресурсом потоку або сокету, числовим дескриптором файлу або **`null`**. Якщо `socket` дорівнює **`null`**, передбачається, що файловий дескриптор для сокету буде призначено пізніше, наприклад, за допомогою методу [EventBufferEvent::connectHost()](eventbufferevent.connecthost.md)
+Сокет для використання для SSL. Може бути ресурсом потоку або сокету, числовим дескриптором файлу або **`null`**. Якщо `socket`равен\*\*`null`\*\*, передбачається, що файловий дескриптор для сокету буде призначено пізніше, наприклад, за допомогою методу [EventBufferEvent::connectHost()](eventbufferevent.connecthost.md)
 
 `ctx`
 
@@ -53,7 +54,7 @@ public
 
 `state`
 
-Поточний стан з'єднання SSL: **`EventBufferEvent::SSL_OPEN`** **`EventBufferEvent::SSL_ACCEPTING`** або **`EventBufferEvent::SSL_CONNECTING`**
+Текущее состояние соединения SSL:**`EventBufferEvent::SSL_OPEN`** **`EventBufferEvent::SSL_ACCEPTING`**или**`EventBufferEvent::SSL_CONNECTING`**
 
 `options`
 
@@ -65,4 +66,4 @@ public
 
 ### Дивіться також
 
--   [EventBufferEvent::sslFilter()](eventbufferevent.sslfilter.md) - Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
+-   [EventBufferEvent::sslFilter()](eventbufferevent.sslfilter.md) \- Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера

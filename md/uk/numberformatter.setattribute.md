@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::setAttribute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NumberFormatter::setAttribute
 
-# numfmtsetattribute
+# numfmt\_set\_attribute
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::setAttribute -- numfmtsetattribute - Встановлює атрибут
+NumberFormatter::setAttribute -- numfmt\_set\_attribute - Встановлює атрибут
 
 ### Опис
 
@@ -28,7 +29,7 @@ public NumberFormatter::setAttribute(int $attribute, int|float $value): bool
 numfmt_set_attribute(NumberFormatter $formatter, int $attribute, int|float $value): bool
 ```
 
-Встановлює числовий атрибут, пов'язаний із засобом форматування. Прикладом числового атрибута є кількість цілих цифр, що видаватиме засіб форматування.
+Встановлює числовий атрибут, пов'язаний із засобом форматування. Прикладом числового атрибуту є кількість цілих цифр, що видаватиме засіб форматування.
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ numfmt_set_attribute(NumberFormatter $formatter, int $attribute, int|float $valu
 
 `attribute`
 
-Специфікатор атрибуту - одна з констант [числового атрибута](class.numberformatter.md#intl.numberformatter-constants.unumberformatattribute)
+Спецификатор атрибута - одна из констант[числового атрибуту](class.numberformatter.md#intl.numberformatter-constants.unumberformatattribute)
 
 `value`
 
@@ -46,11 +47,11 @@ numfmt_set_attribute(NumberFormatter $formatter, int $attribute, int|float $valu
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmtsetattribute()****
+**Пример #1 Пример использования**numfmt\_set\_attribute()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +77,7 @@ echo $fmt->format(1234567.891234567890000)."\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Цифр: 3
@@ -87,6 +88,6 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
--   [numfmtgetattribute()](numberformatter.getattribute.md) - Отримує атрибут
--   [numfmtsettextattribute()](numberformatter.settextattribute.md) - Встановлює текстовий атрибут
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.md) \- Отримує останній код помилки засобу форматування
+-   [numfmt\_get\_attribute()](numberformatter.getattribute.md) \- Отримує атрибут
+-   [numfmt\_set\_text\_attribute()](numberformatter.settextattribute.md) \- Встановлює текстовий атрибут

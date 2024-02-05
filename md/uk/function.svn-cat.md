@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-blame.md: « svnblame
-  - function.svn-checkout.md: svncheckout »
+  - function.svn-blame.md: « svn\_blame
+  - function.svn-checkout.md: svn\_checkout »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svncat
+title: svn\_cat
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svncat
+# svn\_cat
 
-(PECL svn> = 0.1.0)
+(PECL svn >= 0.1.0)
 
-svncat — Повертає вміст файлу в репозиторії
+svn\_cat — Повертає вміст файлу в репозиторії
 
 ### Опис
 
@@ -32,11 +33,11 @@ svn_cat(string $repos_url, int $revision_no = ?): string
 
 ### Значення, що повертаються
 
-Повертає вміст елемента в репозиторії у разі успішного завершення або **`false`** у разі виникнення помилки.
+Повертає вміст елемента в репозиторії у разі успішного завершення або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Простий приклад використання функції svncat()**
+**Приклад #1 Простий приклад використання функції svn\_cat()**
 
 Цей приклад показує, як отримати вміст файлу ревізії 28:
 
@@ -54,5 +55,5 @@ $contents = svn_cat('http://www.example.com/svnroot/calc/gui.c', 28)
 
 ### Дивіться також
 
--   **svnlist()**
--   [» SVN-документация по svn cat](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cat.md)
+-   **svn\_list()**
+-   [» SVN-документація з svn cat](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cat.md)

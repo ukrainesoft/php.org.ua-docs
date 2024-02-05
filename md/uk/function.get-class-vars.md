@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-class-methods.md: « getclassmethods
-  - function.get-class.md: getclass »
+  - function.get-class-methods.md: « get\_class\_methods
+  - function.get-class.md: get\_class »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
-title: getclassvars
+title: get\_class\_vars
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getclassvars
+# get\_class\_vars
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-getclassvars — Повертає оголошені за умовчанням властивості класу
+get\_class\_vars — Повертає оголошені за умовчанням властивості класу
 
 ### Опис
 
@@ -32,7 +33,7 @@ get_class_vars(string $class): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getclassvars()****
+**Пример #1 Пример использования**get\_class\_vars()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ foreach ($class_vars as $name => $value) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 var1 :
@@ -73,7 +74,7 @@ var2 : xyz
 var3 : 100
 ```
 
-**Приклад #2 **getclassvars()** та поведінка області видимості**
+**Пример #2**get\_class\_vars()\*\* та поведінка області видимості\*\*
 
 ```php
 <?php
@@ -99,7 +100,7 @@ echo format(get_class_vars('TestCase'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 // 5.0.0
@@ -117,5 +118,5 @@ a
 
 ### Дивіться також
 
--   [getclassmethods()](function.get-class-methods.md) - Повертає масив імен методів класу
--   [getobjectvars()](function.get-object-vars.md) - Повертає властивості вказаного об'єкту
+-   [get\_class\_methods()](function.get-class-methods.md) \- Повертає масив імен методів класу
+-   [get\_object\_vars()](function.get-object-vars.md) \- Повертає властивості вказаного об'єкту

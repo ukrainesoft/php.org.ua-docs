@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.uopz-compose.md: « uopzcompose
-  - function.uopz-del-function.md: uopzdelfunction »
+  - function.uopz-compose.md: « uopz\_compose
+  - function.uopz-del-function.md: uopz\_del\_function »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzcopy
+title: uopz\_copy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzcopy
+# uopz\_copy
 
 (PECL uopz 1 >= 1.0.4, PECL uopz 2)
 
-uopzcopy — Копіювати функцію
+uopz\_copy — Копіювати функцію
 
 **Увага**
 
-Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО*в PECL uopz 5.0.0.
 
 ### Опис
 
@@ -44,7 +45,7 @@ uopz_copy(string $class, string $function): Closure
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzcopy()****
+**Пример #1 Пример использования**uopz\_copy()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ var_dump(strtotime('dummy'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(5) "dummy"

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-delete.md: « ftpdelete
-  - function.ftp-fget.md: ftpfget »
+  - function.ftp-delete.md: « ftp\_delete
+  - function.ftp-fget.md: ftp\_fget »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpexec
+title: ftp\_exec
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpexec
+# ftp\_exec
 
-(PHP 4> = 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.3, PHP 5, PHP 7, PHP 8)
 
-ftpexec — Вимагає виконання команди на FTP-сервері
+ftp\_exec — Вимагає виконання команди на FTP-сервері
 
 ### Опис
 
@@ -24,7 +25,7 @@ ftp_exec(FTP\Connection $ftp, string $command): bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `command`
 
@@ -36,13 +37,13 @@ ftp_exec(FTP\Connection $ftp, string $command): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpexec()****
+**Пример #1 Пример использования**ftp\_exec()\*\*\*\*
 
 ```php
 <?php
@@ -70,4 +71,4 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftpraw()](function.ftp-raw.md) - Надсилає довільну команду FTP-серверу
+-   [ftp\_raw()](function.ftp-raw.md) \- Надсилає довільну команду FTP-серверу

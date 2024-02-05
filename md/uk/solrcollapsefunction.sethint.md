@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrcollapsefunction.md: SolrCollapseFunction
 title: 'SolrCollapseFunction::setHint'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrCollapseFunction::setHint
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrCollapseFunction::setHint — Встановлює підказку згортання
 
@@ -24,7 +25,7 @@ public SolrCollapseFunction::setHint(string $hint): SolrCollapseFunction
 
 `hint`
 
-В даний час доступна лише одна підказка "topfc", що означає FieldCache верхнього рівня.
+В даний час доступна лише одна підказка "top\_fc", що означає FieldCache верхнього рівня.
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public SolrCollapseFunction::setHint(string $hint): SolrCollapseFunction
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrCollapseFunction::setHint()****
+**Пример #1 Пример использования**SolrCollapseFunction::setHint()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ public SolrCollapseFunction::setHint(string $hint): SolrCollapseFunction
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 ...

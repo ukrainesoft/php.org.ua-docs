@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3stmt.md: SQLite3Stmt
 title: 'SQLite3Stmt::paramCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3Stmt::paramCount
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3Stmt::paramCount — Повертає кількість параметрів у підготовленому запиті
 
@@ -30,4 +31,4 @@ public SQLite3Stmt::paramCount(): int
 
 ### Дивіться також
 
--   [SQLite3::prepare()](sqlite3.prepare.md) - готує SQL-запит для виконання
+-   [SQLite3::prepare()](sqlite3.prepare.md) \- готує SQL-запит для виконання

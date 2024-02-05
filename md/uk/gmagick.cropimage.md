@@ -1,10 +1,11 @@
 ---
 navigation:
-  - gmagick.construct.md: '« Gmagick::construct'
+  - gmagick.construct.md: '« Gmagick::\_\_construct'
   - gmagick.cropthumbnailimage.md: 'Gmagick::cropthumbnailimage »'
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::cropimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::cropimage
 
@@ -15,13 +16,13 @@ Gmagick::cropimage — Обрізає зображення
 ### Опис
 
 ```methodsynopsis
-public Gmagick::cropimage(    
+public Gmagick::cropimage(    
     int
      $width
-   ,    
+   ,    
     int
      $height
-   ,    int $x,    int $y): Gmagick
+   ,    int $x,    int $y): Gmagick
 ```
 
 Обрізає зображення.
@@ -50,4 +51,4 @@ Y координата лівого верхнього кута області, 
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

@@ -4,17 +4,18 @@ navigation:
   - book.event.md: Event »
   - index.md: PHP Manual
   - class.curlstringfile.md: CURLStringFile
-title: 'CURLStringFile::construct'
+title: 'CURLStringFile::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CURLStringFile::construct
+# CURLStringFile::\_\_construct
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-CURLStringFile::construct — Створює об'єкт CURLStringFile
+CURLStringFile::\_\_construct — Створює об'єкт CURLStringFile
 
 ### Опис
 
-public **CURLStringFile::construct**(string `$data`, string `$postname`, string `$mime` = "application/octet-stream")
+public**CURLStringFile::\_\_construct**(string`$data`, string`$postname`, string`$mime` = "application/octet-stream")
 
 Створює об'єкт [CURLStringFile](class.curlstringfile.md), який використовується для завантаження файлу за допомогою **`CURLOPT_POSTFIELDS`**
 
@@ -30,11 +31,11 @@ public **CURLStringFile::construct**(string `$data`, string `$postname`, string 
 
 `mime`
 
-MIME-тип файлу (за замовчуванням `application/octet-stream`
+MIME-тип файла (по умолчанию`application/octet-stream`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **CURLStringFile::construct()****
+**Пример #1 Пример использования**CURLStringFile::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ curl_exec($ch);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(1) {
@@ -84,4 +85,4 @@ string(20) "test upload contents"
 
 ### Дивіться також
 
--   [curlsetopt()](function.curl-setopt.md) - Встановлює параметр для сеансу CURL
+-   [curl\_setopt()](function.curl-setopt.md) \- Встановлює параметр для передачі cURL

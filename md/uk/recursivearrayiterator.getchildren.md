@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.recursivearrayiterator.md: RecursiveArrayIterator
 title: 'RecursiveArrayIterator::getChildren'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RecursiveArrayIterator::getChildren
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 RecursiveArrayIterator::getChildren - Повертає ітератор для поточного елемента, якщо цей елемент є масивом (array) або об'єктом (object)
 
@@ -26,7 +27,7 @@ public RecursiveArrayIterator::getChildren(): ?RecursiveArrayIterator
 
 ### Значення, що повертаються
 
-Ітератор для поточного елемента, якщо елемент є масивом (array) чи об'єктом (object); Повертає **`null`** у разі виникнення помилки.
+Ітератор для поточного елемента, якщо елемент є масивом (array) чи об'єктом (object); Повертає \*\*`null`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -34,7 +35,7 @@ public RecursiveArrayIterator::getChildren(): ?RecursiveArrayIterator
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RecursiveArrayIterator::getChildren()****
+**Пример #1 Пример использования**RecursiveArrayIterator::getChildren()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ while ($iterator->valid()) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Дочерних элементов не обнаружено.
@@ -69,4 +70,4 @@ p : pear
 
 ### Дивіться також
 
--   [RecursiveArrayIterator::hasChildren()](recursivearrayiterator.haschildren.md) - Визначає, чи є поточний елемент масивом чи об'єктом
+-   [RecursiveArrayIterator::hasChildren()](recursivearrayiterator.haschildren.md) \- Визначає, чи є поточний елемент масивом чи об'єктом

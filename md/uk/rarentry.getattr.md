@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.rarentry.md: RarEntry
 title: 'RarEntry::getAttr'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarEntry::getAttr
 
@@ -26,11 +27,11 @@ public RarEntry::getAttr(): int
 
 ### Значення, що повертаються
 
-Повертає атрибути або **`false`** у разі виникнення помилки.
+Повертає атрибути або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RarEntry::getAttr()****
+**Пример #1 Пример использования**RarEntry::getAttr()\*\*\*\*
 
 ```php
 <?php
@@ -89,5 +90,5 @@ rar_close($rar_file);
 
 ### Дивіться також
 
--   [RarEntry::getHostOs()](rarentry.gethostos.md) - Повертає оригінальну ОС елемента
+-   [RarEntry::getHostOs()](rarentry.gethostos.md) \- Повертає оригінальну ОС елемента
 -   Константи [RarEntry](class.rarentry.md)

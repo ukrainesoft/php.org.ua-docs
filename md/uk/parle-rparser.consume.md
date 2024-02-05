@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rparser.build.md: '« ParleRParser::build'
-  - parle-rparser.dump.md: 'ParleRParser::dump »'
+  - parle-rparser.build.md: '« Parle\\RParser::build'
+  - parle-rparser.dump.md: 'Parle\\RParser::dump »'
   - index.md: PHP Manual
-  - class.parle-rparser.md: ParleRParser
-title: 'ParleRParser::consume'
+  - class.parle-rparser.md: Parle\\RParser
+title: 'Parle\\RParser::consume'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRParser::consume
+# Parle\\RParser::consume
 
 (PECL parle >= 0.7.0)
 
-ParleRParser::consume — Використовувати дані для обробки
+Parle\\RParser::consume — Використовувати дані для обробки
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-parser.token.md: '« ParleParser::token'
-  - parle-parser.trace.md: 'ParleParser::trace »'
+  - parle-parser.token.md: '« Parle\\Parser::token'
+  - parle-parser.trace.md: 'Parle\\Parser::trace »'
   - index.md: PHP Manual
-  - class.parle-parser.md: ParleParser
-title: 'ParleParser::tokenId'
+  - class.parle-parser.md: Parle\\Parser
+title: 'Parle\\Parser::tokenId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleParser::tokenId
+# Parle\\Parser::tokenId
 
 (PECL parle >= 0.5.1)
 
-ParleParser::tokenId — Отримує ідентифікатор токена
+Parle\\Parser::tokenId — Отримує ідентифікатор токена
 
 ### Опис
 
@@ -24,7 +25,7 @@ public Parle\Parser::tokenId(string $tok): int
 
 `tok`
 
-Ім'я токена, що використовується в [ParleParser::token()](parle-parser.token.md)
+Имя токена, используемое в[Parle\\Parser::token()](parle-parser.token.md)
 
 ### Значення, що повертаються
 

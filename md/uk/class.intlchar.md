@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.idn-to-utf8.md: « idnтоutf8
+  - function.idn-to-utf8.md: « idn\_to\_utf8
   - intlchar.charage.md: 'IntlChar::charAge »'
   - index.md: PHP Manual
   - book.intl.md: intl
 title: IntlChar
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar
 
@@ -20,2420 +21,3326 @@ title: IntlChar
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      class IntlChar
-     
+     class IntlChar
      {
 
-    /* Constants */
+    /* Константы */
     
+     public
      const
      string
-      UNICODE_VERSION = 6.3;
+      UNICODE_VERSION;
 
-    const
+    public
+     const
      int
-      CODEPOINT_MIN = 0;
+      CODEPOINT_MIN;
 
-    const
+    public
+     const
      int
-      CODEPOINT_MAX = 1114111;
+      CODEPOINT_MAX;
 
-    const
+    public
+     const
      float
-      NO_NUMERIC_VALUE = -123456789;
+      NO_NUMERIC_VALUE;
 
-    const
+    public
+     const
      int
-      PROPERTY_ALPHABETIC = 0;
+      PROPERTY_ALPHABETIC;
 
-    const
+    public
+     const
      int
-      PROPERTY_BINARY_START = 0;
+      PROPERTY_BINARY_START;
 
-    const
+    public
+     const
      int
-      PROPERTY_ASCII_HEX_DIGIT = 1;
+      PROPERTY_ASCII_HEX_DIGIT;
 
-    const
+    public
+     const
      int
-      PROPERTY_BIDI_CONTROL = 2;
+      PROPERTY_BIDI_CONTROL;
 
-    const
+    public
+     const
      int
-      PROPERTY_BIDI_MIRRORED = 3;
+      PROPERTY_BIDI_MIRRORED;
 
-    const
+    public
+     const
      int
-      PROPERTY_DASH = 4;
+      PROPERTY_DASH;
 
-    const
+    public
+     const
      int
-      PROPERTY_DEFAULT_IGNORABLE_CODE_POINT = 5;
+      PROPERTY_DEFAULT_IGNORABLE_CODE_POINT;
 
-    const
+    public
+     const
      int
-      PROPERTY_DEPRECATED = 6;
+      PROPERTY_DEPRECATED;
 
-    const
+    public
+     const
      int
-      PROPERTY_DIACRITIC = 7;
+      PROPERTY_DIACRITIC;
 
-    const
+    public
+     const
      int
-      PROPERTY_EXTENDER = 8;
+      PROPERTY_EXTENDER;
 
-    const
+    public
+     const
      int
-      PROPERTY_FULL_COMPOSITION_EXCLUSION = 9;
+      PROPERTY_FULL_COMPOSITION_EXCLUSION;
 
-    const
+    public
+     const
      int
-      PROPERTY_GRAPHEME_BASE = 10;
+      PROPERTY_GRAPHEME_BASE;
 
-    const
+    public
+     const
      int
-      PROPERTY_GRAPHEME_EXTEND = 11;
+      PROPERTY_GRAPHEME_EXTEND;
 
-    const
+    public
+     const
      int
-      PROPERTY_GRAPHEME_LINK = 12;
+      PROPERTY_GRAPHEME_LINK;
 
-    const
+    public
+     const
      int
-      PROPERTY_HEX_DIGIT = 13;
+      PROPERTY_HEX_DIGIT;
 
-    const
+    public
+     const
      int
-      PROPERTY_HYPHEN = 14;
+      PROPERTY_HYPHEN;
 
-    const
+    public
+     const
      int
-      PROPERTY_ID_CONTINUE = 15;
+      PROPERTY_ID_CONTINUE;
 
-    const
+    public
+     const
      int
-      PROPERTY_ID_START = 16;
+      PROPERTY_ID_START;
 
-    const
+    public
+     const
      int
-      PROPERTY_IDEOGRAPHIC = 17;
+      PROPERTY_IDEOGRAPHIC;
 
-    const
+    public
+     const
      int
-      PROPERTY_IDS_BINARY_OPERATOR = 18;
+      PROPERTY_IDS_BINARY_OPERATOR;
 
-    const
+    public
+     const
      int
-      PROPERTY_IDS_TRINARY_OPERATOR = 19;
+      PROPERTY_IDS_TRINARY_OPERATOR;
 
-    const
+    public
+     const
      int
-      PROPERTY_JOIN_CONTROL = 20;
+      PROPERTY_JOIN_CONTROL;
 
-    const
+    public
+     const
      int
-      PROPERTY_LOGICAL_ORDER_EXCEPTION = 21;
+      PROPERTY_LOGICAL_ORDER_EXCEPTION;
 
-    const
+    public
+     const
      int
-      PROPERTY_LOWERCASE = 22;
+      PROPERTY_LOWERCASE;
 
-    const
+    public
+     const
      int
-      PROPERTY_MATH = 23;
+      PROPERTY_MATH;
 
-    const
+    public
+     const
      int
-      PROPERTY_NONCHARACTER_CODE_POINT = 24;
+      PROPERTY_NONCHARACTER_CODE_POINT;
 
-    const
+    public
+     const
      int
-      PROPERTY_QUOTATION_MARK = 25;
+      PROPERTY_QUOTATION_MARK;
 
-    const
+    public
+     const
      int
-      PROPERTY_RADICAL = 26;
+      PROPERTY_RADICAL;
 
-    const
+    public
+     const
      int
-      PROPERTY_SOFT_DOTTED = 27;
+      PROPERTY_SOFT_DOTTED;
 
-    const
+    public
+     const
      int
-      PROPERTY_TERMINAL_PUNCTUATION = 28;
+      PROPERTY_TERMINAL_PUNCTUATION;
 
-    const
+    public
+     const
      int
-      PROPERTY_UNIFIED_IDEOGRAPH = 29;
+      PROPERTY_UNIFIED_IDEOGRAPH;
 
-    const
+    public
+     const
      int
-      PROPERTY_UPPERCASE = 30;
+      PROPERTY_UPPERCASE;
 
-    const
+    public
+     const
      int
-      PROPERTY_WHITE_SPACE = 31;
+      PROPERTY_WHITE_SPACE;
 
-    const
+    public
+     const
      int
-      PROPERTY_XID_CONTINUE = 32;
+      PROPERTY_XID_CONTINUE;
 
-    const
+    public
+     const
      int
-      PROPERTY_XID_START = 33;
+      PROPERTY_XID_START;
 
-    const
+    public
+     const
      int
-      PROPERTY_CASE_SENSITIVE = 34;
+      PROPERTY_CASE_SENSITIVE;
 
-    const
+    public
+     const
      int
-      PROPERTY_S_TERM = 35;
+      PROPERTY_S_TERM;
 
-    const
+    public
+     const
      int
-      PROPERTY_VARIATION_SELECTOR = 36;
+      PROPERTY_VARIATION_SELECTOR;
 
-    const
+    public
+     const
      int
-      PROPERTY_NFD_INERT = 37;
+      PROPERTY_NFD_INERT;
 
-    const
+    public
+     const
      int
-      PROPERTY_NFKD_INERT = 38;
+      PROPERTY_NFKD_INERT;
 
-    const
+    public
+     const
      int
-      PROPERTY_NFC_INERT = 39;
+      PROPERTY_NFC_INERT;
 
-    const
+    public
+     const
      int
-      PROPERTY_NFKC_INERT = 40;
+      PROPERTY_NFKC_INERT;
 
-    const
+    public
+     const
      int
-      PROPERTY_SEGMENT_STARTER = 41;
+      PROPERTY_SEGMENT_STARTER;
 
-    const
+    public
+     const
      int
-      PROPERTY_PATTERN_SYNTAX = 42;
+      PROPERTY_PATTERN_SYNTAX;
 
-    const
+    public
+     const
      int
-      PROPERTY_PATTERN_WHITE_SPACE = 43;
+      PROPERTY_PATTERN_WHITE_SPACE;
 
-    const
+    public
+     const
      int
-      PROPERTY_POSIX_ALNUM = 44;
+      PROPERTY_POSIX_ALNUM;
 
-    const
+    public
+     const
      int
-      PROPERTY_POSIX_BLANK = 45;
+      PROPERTY_POSIX_BLANK;
 
-    const
+    public
+     const
      int
-      PROPERTY_POSIX_GRAPH = 46;
+      PROPERTY_POSIX_GRAPH;
 
-    const
+    public
+     const
      int
-      PROPERTY_POSIX_PRINT = 47;
+      PROPERTY_POSIX_PRINT;
 
-    const
+    public
+     const
      int
-      PROPERTY_POSIX_XDIGIT = 48;
+      PROPERTY_POSIX_XDIGIT;
 
-    const
+    public
+     const
      int
-      PROPERTY_CASED = 49;
+      PROPERTY_CASED;
 
-    const
+    public
+     const
      int
-      PROPERTY_CASE_IGNORABLE = 50;
+      PROPERTY_CASE_IGNORABLE;
 
-    const
+    public
+     const
      int
-      PROPERTY_CHANGES_WHEN_LOWERCASED = 51;
+      PROPERTY_CHANGES_WHEN_LOWERCASED;
 
-    const
+    public
+     const
      int
-      PROPERTY_CHANGES_WHEN_UPPERCASED = 52;
+      PROPERTY_CHANGES_WHEN_UPPERCASED;
 
-    const
+    public
+     const
      int
-      PROPERTY_CHANGES_WHEN_TITLECASED = 53;
+      PROPERTY_CHANGES_WHEN_TITLECASED;
 
-    const
+    public
+     const
      int
-      PROPERTY_CHANGES_WHEN_CASEFOLDED = 54;
+      PROPERTY_CHANGES_WHEN_CASEFOLDED;
 
-    const
+    public
+     const
      int
-      PROPERTY_CHANGES_WHEN_CASEMAPPED = 55;
+      PROPERTY_CHANGES_WHEN_CASEMAPPED;
 
-    const
+    public
+     const
      int
-      PROPERTY_CHANGES_WHEN_NFKC_CASEFOLDED = 56;
+      PROPERTY_CHANGES_WHEN_NFKC_CASEFOLDED;
 
-    const
+    public
+     const
      int
-      PROPERTY_BINARY_LIMIT = 57;
+      PROPERTY_BINARY_LIMIT;
 
-    const
+    public
+     const
      int
-      PROPERTY_BIDI_CLASS = 4096;
+      PROPERTY_BIDI_CLASS;
 
-    const
+    public
+     const
      int
-      PROPERTY_INT_START = 4096;
+      PROPERTY_INT_START;
 
-    const
+    public
+     const
      int
-      PROPERTY_BLOCK = 4097;
+      PROPERTY_BLOCK;
 
-    const
+    public
+     const
      int
-      PROPERTY_CANONICAL_COMBINING_CLASS = 4098;
+      PROPERTY_CANONICAL_COMBINING_CLASS;
 
-    const
+    public
+     const
      int
-      PROPERTY_DECOMPOSITION_TYPE = 4099;
+      PROPERTY_DECOMPOSITION_TYPE;
 
-    const
+    public
+     const
      int
-      PROPERTY_EAST_ASIAN_WIDTH = 4100;
+      PROPERTY_EAST_ASIAN_WIDTH;
 
-    const
+    public
+     const
      int
-      PROPERTY_GENERAL_CATEGORY = 4101;
+      PROPERTY_GENERAL_CATEGORY;
 
-    const
+    public
+     const
      int
-      PROPERTY_JOINING_GROUP = 4102;
+      PROPERTY_JOINING_GROUP;
 
-    const
+    public
+     const
      int
-      PROPERTY_JOINING_TYPE = 4103;
+      PROPERTY_JOINING_TYPE;
 
-    const
+    public
+     const
      int
-      PROPERTY_LINE_BREAK = 4104;
+      PROPERTY_LINE_BREAK;
 
-    const
+    public
+     const
      int
-      PROPERTY_NUMERIC_TYPE = 4105;
+      PROPERTY_NUMERIC_TYPE;
 
-    const
+    public
+     const
      int
-      PROPERTY_SCRIPT = 4106;
+      PROPERTY_SCRIPT;
 
-    const
+    public
+     const
      int
-      PROPERTY_HANGUL_SYLLABLE_TYPE = 4107;
+      PROPERTY_HANGUL_SYLLABLE_TYPE;
 
-    const
+    public
+     const
      int
-      PROPERTY_NFD_QUICK_CHECK = 4108;
+      PROPERTY_NFD_QUICK_CHECK;
 
-    const
+    public
+     const
      int
-      PROPERTY_NFKD_QUICK_CHECK = 4109;
+      PROPERTY_NFKD_QUICK_CHECK;
 
-    const
+    public
+     const
      int
-      PROPERTY_NFC_QUICK_CHECK = 4110;
+      PROPERTY_NFC_QUICK_CHECK;
 
-    const
+    public
+     const
      int
-      PROPERTY_NFKC_QUICK_CHECK = 4111;
+      PROPERTY_NFKC_QUICK_CHECK;
 
-    const
+    public
+     const
      int
-      PROPERTY_LEAD_CANONICAL_COMBINING_CLASS = 4112;
+      PROPERTY_LEAD_CANONICAL_COMBINING_CLASS;
 
-    const
+    public
+     const
      int
-      PROPERTY_TRAIL_CANONICAL_COMBINING_CLASS = 4113;
+      PROPERTY_TRAIL_CANONICAL_COMBINING_CLASS;
 
-    const
+    public
+     const
      int
-      PROPERTY_GRAPHEME_CLUSTER_BREAK = 4114;
+      PROPERTY_GRAPHEME_CLUSTER_BREAK;
 
-    const
+    public
+     const
      int
-      PROPERTY_SENTENCE_BREAK = 4115;
+      PROPERTY_SENTENCE_BREAK;
 
-    const
+    public
+     const
      int
-      PROPERTY_WORD_BREAK = 4116;
+      PROPERTY_WORD_BREAK;
 
-    const
+    public
+     const
      int
-      PROPERTY_BIDI_PAIRED_BRACKET_TYPE = 4117;
+      PROPERTY_BIDI_PAIRED_BRACKET_TYPE;
 
-    const
+    public
+     const
      int
-      PROPERTY_INT_LIMIT = 4118;
+      PROPERTY_INT_LIMIT;
 
-    const
+    public
+     const
      int
-      PROPERTY_GENERAL_CATEGORY_MASK = 8192;
+      PROPERTY_GENERAL_CATEGORY_MASK;
 
-    const
+    public
+     const
      int
-      PROPERTY_MASK_START = 8192;
+      PROPERTY_MASK_START;
 
-    const
+    public
+     const
      int
-      PROPERTY_MASK_LIMIT = 8193;
+      PROPERTY_MASK_LIMIT;
 
-    const
+    public
+     const
      int
-      PROPERTY_NUMERIC_VALUE = 12288;
+      PROPERTY_NUMERIC_VALUE;
 
-    const
+    public
+     const
      int
-      PROPERTY_DOUBLE_START = 12288;
+      PROPERTY_DOUBLE_START;
 
-    const
+    public
+     const
      int
-      PROPERTY_DOUBLE_LIMIT = 12289;
+      PROPERTY_DOUBLE_LIMIT;
 
-    const
+    public
+     const
      int
-      PROPERTY_AGE = 16384;
+      PROPERTY_AGE;
 
-    const
+    public
+     const
      int
-      PROPERTY_STRING_START = 16384;
+      PROPERTY_STRING_START;
 
-    const
+    public
+     const
      int
-      PROPERTY_BIDI_MIRRORING_GLYPH = 16385;
+      PROPERTY_BIDI_MIRRORING_GLYPH;
 
-    const
+    public
+     const
      int
-      PROPERTY_CASE_FOLDING = 16386;
+      PROPERTY_CASE_FOLDING;
 
-    const
+    public
+     const
      int
-      PROPERTY_ISO_COMMENT = 16387;
+      PROPERTY_ISO_COMMENT;
 
-    const
+    public
+     const
      int
-      PROPERTY_LOWERCASE_MAPPING = 16388;
+      PROPERTY_LOWERCASE_MAPPING;
 
-    const
+    public
+     const
      int
-      PROPERTY_NAME = 16389;
+      PROPERTY_NAME;
 
-    const
+    public
+     const
      int
-      PROPERTY_SIMPLE_CASE_FOLDING = 16390;
+      PROPERTY_SIMPLE_CASE_FOLDING;
 
-    const
+    public
+     const
      int
-      PROPERTY_SIMPLE_LOWERCASE_MAPPING = 16391;
+      PROPERTY_SIMPLE_LOWERCASE_MAPPING;
 
-    const
+    public
+     const
      int
-      PROPERTY_SIMPLE_TITLECASE_MAPPING = 16392;
+      PROPERTY_SIMPLE_TITLECASE_MAPPING;
 
-    const
+    public
+     const
      int
-      PROPERTY_SIMPLE_UPPERCASE_MAPPING = 16393;
+      PROPERTY_SIMPLE_UPPERCASE_MAPPING;
 
-    const
+    public
+     const
      int
-      PROPERTY_TITLECASE_MAPPING = 16394;
+      PROPERTY_TITLECASE_MAPPING;
 
-    const
+    public
+     const
      int
-      PROPERTY_UNICODE_1_NAME = 16395;
+      PROPERTY_UNICODE_1_NAME;
 
-    const
+    public
+     const
      int
-      PROPERTY_UPPERCASE_MAPPING = 16396;
+      PROPERTY_UPPERCASE_MAPPING;
 
-    const
+    public
+     const
      int
-      PROPERTY_BIDI_PAIRED_BRACKET = 16397;
+      PROPERTY_BIDI_PAIRED_BRACKET;
 
-    const
+    public
+     const
      int
-      PROPERTY_STRING_LIMIT = 16398;
+      PROPERTY_STRING_LIMIT;
 
-    const
+    public
+     const
      int
-      PROPERTY_SCRIPT_EXTENSIONS = 28672;
+      PROPERTY_SCRIPT_EXTENSIONS;
 
-    const
+    public
+     const
      int
-      PROPERTY_OTHER_PROPERTY_START = 28672;
+      PROPERTY_OTHER_PROPERTY_START;
 
-    const
+    public
+     const
      int
-      PROPERTY_OTHER_PROPERTY_LIMIT = 28673;
+      PROPERTY_OTHER_PROPERTY_LIMIT;
 
-    const
+    public
+     const
      int
-      PROPERTY_INVALID_CODE = -1;
+      PROPERTY_INVALID_CODE;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_UNASSIGNED = 0;
+      CHAR_CATEGORY_UNASSIGNED;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_GENERAL_OTHER_TYPES = 0;
+      CHAR_CATEGORY_GENERAL_OTHER_TYPES;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_UPPERCASE_LETTER = 1;
+      CHAR_CATEGORY_UPPERCASE_LETTER;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_LOWERCASE_LETTER = 2;
+      CHAR_CATEGORY_LOWERCASE_LETTER;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_TITLECASE_LETTER = 3;
+      CHAR_CATEGORY_TITLECASE_LETTER;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_MODIFIER_LETTER = 4;
+      CHAR_CATEGORY_MODIFIER_LETTER;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_OTHER_LETTER = 5;
+      CHAR_CATEGORY_OTHER_LETTER;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_NON_SPACING_MARK = 6;
+      CHAR_CATEGORY_NON_SPACING_MARK;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_ENCLOSING_MARK = 7;
+      CHAR_CATEGORY_ENCLOSING_MARK;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_COMBINING_SPACING_MARK = 8;
+      CHAR_CATEGORY_COMBINING_SPACING_MARK;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_DECIMAL_DIGIT_NUMBER = 9;
+      CHAR_CATEGORY_DECIMAL_DIGIT_NUMBER;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_LETTER_NUMBER = 10;
+      CHAR_CATEGORY_LETTER_NUMBER;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_OTHER_NUMBER = 11;
+      CHAR_CATEGORY_OTHER_NUMBER;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_SPACE_SEPARATOR = 12;
+      CHAR_CATEGORY_SPACE_SEPARATOR;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_LINE_SEPARATOR = 13;
+      CHAR_CATEGORY_LINE_SEPARATOR;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_PARAGRAPH_SEPARATOR = 14;
+      CHAR_CATEGORY_PARAGRAPH_SEPARATOR;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_CONTROL_CHAR = 15;
+      CHAR_CATEGORY_CONTROL_CHAR;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_FORMAT_CHAR = 16;
+      CHAR_CATEGORY_FORMAT_CHAR;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_PRIVATE_USE_CHAR = 17;
+      CHAR_CATEGORY_PRIVATE_USE_CHAR;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_SURROGATE = 18;
+      CHAR_CATEGORY_SURROGATE;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_DASH_PUNCTUATION = 19;
+      CHAR_CATEGORY_DASH_PUNCTUATION;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_START_PUNCTUATION = 20;
+      CHAR_CATEGORY_START_PUNCTUATION;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_END_PUNCTUATION = 21;
+      CHAR_CATEGORY_END_PUNCTUATION;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_CONNECTOR_PUNCTUATION = 22;
+      CHAR_CATEGORY_CONNECTOR_PUNCTUATION;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_OTHER_PUNCTUATION = 23;
+      CHAR_CATEGORY_OTHER_PUNCTUATION;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_MATH_SYMBOL = 24;
+      CHAR_CATEGORY_MATH_SYMBOL;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_CURRENCY_SYMBOL = 25;
+      CHAR_CATEGORY_CURRENCY_SYMBOL;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_MODIFIER_SYMBOL = 26;
+      CHAR_CATEGORY_MODIFIER_SYMBOL;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_OTHER_SYMBOL = 27;
+      CHAR_CATEGORY_OTHER_SYMBOL;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_INITIAL_PUNCTUATION = 28;
+      CHAR_CATEGORY_INITIAL_PUNCTUATION;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_FINAL_PUNCTUATION = 29;
+      CHAR_CATEGORY_FINAL_PUNCTUATION;
 
-    const
+    public
+     const
      int
-      CHAR_CATEGORY_CHAR_CATEGORY_COUNT = 30;
+      CHAR_CATEGORY_CHAR_CATEGORY_COUNT;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_LEFT_TO_RIGHT = 0;
+      CHAR_DIRECTION_LEFT_TO_RIGHT;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_RIGHT_TO_LEFT = 1;
+      CHAR_DIRECTION_RIGHT_TO_LEFT;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_EUROPEAN_NUMBER = 2;
+      CHAR_DIRECTION_EUROPEAN_NUMBER;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_EUROPEAN_NUMBER_SEPARATOR = 3;
+      CHAR_DIRECTION_EUROPEAN_NUMBER_SEPARATOR;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_EUROPEAN_NUMBER_TERMINATOR = 4;
+      CHAR_DIRECTION_EUROPEAN_NUMBER_TERMINATOR;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_ARABIC_NUMBER = 5;
+      CHAR_DIRECTION_ARABIC_NUMBER;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_COMMON_NUMBER_SEPARATOR = 6;
+      CHAR_DIRECTION_COMMON_NUMBER_SEPARATOR;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_BLOCK_SEPARATOR = 7;
+      CHAR_DIRECTION_BLOCK_SEPARATOR;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_SEGMENT_SEPARATOR = 8;
+      CHAR_DIRECTION_SEGMENT_SEPARATOR;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_WHITE_SPACE_NEUTRAL = 9;
+      CHAR_DIRECTION_WHITE_SPACE_NEUTRAL;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_OTHER_NEUTRAL = 10;
+      CHAR_DIRECTION_OTHER_NEUTRAL;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_LEFT_TO_RIGHT_EMBEDDING = 11;
+      CHAR_DIRECTION_LEFT_TO_RIGHT_EMBEDDING;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_LEFT_TO_RIGHT_OVERRIDE = 12;
+      CHAR_DIRECTION_LEFT_TO_RIGHT_OVERRIDE;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_RIGHT_TO_LEFT_ARABIC = 13;
+      CHAR_DIRECTION_RIGHT_TO_LEFT_ARABIC;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_RIGHT_TO_LEFT_EMBEDDING = 14;
+      CHAR_DIRECTION_RIGHT_TO_LEFT_EMBEDDING;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_RIGHT_TO_LEFT_OVERRIDE = 15;
+      CHAR_DIRECTION_RIGHT_TO_LEFT_OVERRIDE;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_POP_DIRECTIONAL_FORMAT = 16;
+      CHAR_DIRECTION_POP_DIRECTIONAL_FORMAT;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_DIR_NON_SPACING_MARK = 17;
+      CHAR_DIRECTION_DIR_NON_SPACING_MARK;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_BOUNDARY_NEUTRAL = 18;
+      CHAR_DIRECTION_BOUNDARY_NEUTRAL;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_FIRST_STRONG_ISOLATE = 19;
+      CHAR_DIRECTION_FIRST_STRONG_ISOLATE;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_LEFT_TO_RIGHT_ISOLATE = 20;
+      CHAR_DIRECTION_LEFT_TO_RIGHT_ISOLATE;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_RIGHT_TO_LEFT_ISOLATE = 21;
+      CHAR_DIRECTION_RIGHT_TO_LEFT_ISOLATE;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_POP_DIRECTIONAL_ISOLATE = 22;
+      CHAR_DIRECTION_POP_DIRECTIONAL_ISOLATE;
 
-    const
+    public
+     const
      int
-      CHAR_DIRECTION_CHAR_DIRECTION_COUNT = 23;
+      CHAR_DIRECTION_CHAR_DIRECTION_COUNT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_NO_BLOCK = 0;
+      BLOCK_CODE_NO_BLOCK;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BASIC_LATIN = 1;
+      BLOCK_CODE_BASIC_LATIN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LATIN_1_SUPPLEMENT = 2;
+      BLOCK_CODE_LATIN_1_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LATIN_EXTENDED_A = 3;
+      BLOCK_CODE_LATIN_EXTENDED_A;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LATIN_EXTENDED_B = 4;
+      BLOCK_CODE_LATIN_EXTENDED_B;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_IPA_EXTENSIONS = 5;
+      BLOCK_CODE_IPA_EXTENSIONS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SPACING_MODIFIER_LETTERS = 6;
+      BLOCK_CODE_SPACING_MODIFIER_LETTERS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_COMBINING_DIACRITICAL_MARKS = 7;
+      BLOCK_CODE_COMBINING_DIACRITICAL_MARKS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_GREEK = 8;
+      BLOCK_CODE_GREEK;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CYRILLIC = 9;
+      BLOCK_CODE_CYRILLIC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ARMENIAN = 10;
+      BLOCK_CODE_ARMENIAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_HEBREW = 11;
+      BLOCK_CODE_HEBREW;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ARABIC = 12;
+      BLOCK_CODE_ARABIC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SYRIAC = 13;
+      BLOCK_CODE_SYRIAC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_THAANA = 14;
+      BLOCK_CODE_THAANA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_DEVANAGARI = 15;
+      BLOCK_CODE_DEVANAGARI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BENGALI = 16;
+      BLOCK_CODE_BENGALI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_GURMUKHI = 17;
+      BLOCK_CODE_GURMUKHI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_GUJARATI = 18;
+      BLOCK_CODE_GUJARATI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ORIYA = 19;
+      BLOCK_CODE_ORIYA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TAMIL = 20;
+      BLOCK_CODE_TAMIL;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TELUGU = 21;
+      BLOCK_CODE_TELUGU;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_KANNADA = 22;
+      BLOCK_CODE_KANNADA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MALAYALAM = 23;
+      BLOCK_CODE_MALAYALAM;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SINHALA = 24;
+      BLOCK_CODE_SINHALA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_THAI = 25;
+      BLOCK_CODE_THAI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LAO = 26;
+      BLOCK_CODE_LAO;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TIBETAN = 27;
+      BLOCK_CODE_TIBETAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MYANMAR = 28;
+      BLOCK_CODE_MYANMAR;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_GEORGIAN = 29;
+      BLOCK_CODE_GEORGIAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_HANGUL_JAMO = 30;
+      BLOCK_CODE_HANGUL_JAMO;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ETHIOPIC = 31;
+      BLOCK_CODE_ETHIOPIC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CHEROKEE = 32;
+      BLOCK_CODE_CHEROKEE;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_UNIFIED_CANADIAN_ABORIGINAL_SYLLABICS = 33;
+      BLOCK_CODE_UNIFIED_CANADIAN_ABORIGINAL_SYLLABICS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_OGHAM = 34;
+      BLOCK_CODE_OGHAM;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_RUNIC = 35;
+      BLOCK_CODE_RUNIC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_KHMER = 36;
+      BLOCK_CODE_KHMER;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MONGOLIAN = 37;
+      BLOCK_CODE_MONGOLIAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LATIN_EXTENDED_ADDITIONAL = 38;
+      BLOCK_CODE_LATIN_EXTENDED_ADDITIONAL;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_GREEK_EXTENDED = 39;
+      BLOCK_CODE_GREEK_EXTENDED;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_GENERAL_PUNCTUATION = 40;
+      BLOCK_CODE_GENERAL_PUNCTUATION;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SUPERSCRIPTS_AND_SUBSCRIPTS = 41;
+      BLOCK_CODE_SUPERSCRIPTS_AND_SUBSCRIPTS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CURRENCY_SYMBOLS = 42;
+      BLOCK_CODE_CURRENCY_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_COMBINING_MARKS_FOR_SYMBOLS = 43;
+      BLOCK_CODE_COMBINING_MARKS_FOR_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LETTERLIKE_SYMBOLS = 44;
+      BLOCK_CODE_LETTERLIKE_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_NUMBER_FORMS = 45;
+      BLOCK_CODE_NUMBER_FORMS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ARROWS = 46;
+      BLOCK_CODE_ARROWS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MATHEMATICAL_OPERATORS = 47;
+      BLOCK_CODE_MATHEMATICAL_OPERATORS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MISCELLANEOUS_TECHNICAL = 48;
+      BLOCK_CODE_MISCELLANEOUS_TECHNICAL;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CONTROL_PICTURES = 49;
+      BLOCK_CODE_CONTROL_PICTURES;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_OPTICAL_CHARACTER_RECOGNITION = 50;
+      BLOCK_CODE_OPTICAL_CHARACTER_RECOGNITION;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ENCLOSED_ALPHANUMERICS = 51;
+      BLOCK_CODE_ENCLOSED_ALPHANUMERICS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BOX_DRAWING = 52;
+      BLOCK_CODE_BOX_DRAWING;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BLOCK_ELEMENTS = 53;
+      BLOCK_CODE_BLOCK_ELEMENTS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_GEOMETRIC_SHAPES = 54;
+      BLOCK_CODE_GEOMETRIC_SHAPES;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MISCELLANEOUS_SYMBOLS = 55;
+      BLOCK_CODE_MISCELLANEOUS_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_DINGBATS = 56;
+      BLOCK_CODE_DINGBATS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BRAILLE_PATTERNS = 57;
+      BLOCK_CODE_BRAILLE_PATTERNS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CJK_RADICALS_SUPPLEMENT = 58;
+      BLOCK_CODE_CJK_RADICALS_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_KANGXI_RADICALS = 59;
+      BLOCK_CODE_KANGXI_RADICALS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_IDEOGRAPHIC_DESCRIPTION_CHARACTERS = 60;
+      BLOCK_CODE_IDEOGRAPHIC_DESCRIPTION_CHARACTERS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CJK_SYMBOLS_AND_PUNCTUATION = 61;
+      BLOCK_CODE_CJK_SYMBOLS_AND_PUNCTUATION;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_HIRAGANA = 62;
+      BLOCK_CODE_HIRAGANA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_KATAKANA = 63;
+      BLOCK_CODE_KATAKANA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BOPOMOFO = 64;
+      BLOCK_CODE_BOPOMOFO;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_HANGUL_COMPATIBILITY_JAMO = 65;
+      BLOCK_CODE_HANGUL_COMPATIBILITY_JAMO;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_KANBUN = 66;
+      BLOCK_CODE_KANBUN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BOPOMOFO_EXTENDED = 67;
+      BLOCK_CODE_BOPOMOFO_EXTENDED;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ENCLOSED_CJK_LETTERS_AND_MONTHS = 68;
+      BLOCK_CODE_ENCLOSED_CJK_LETTERS_AND_MONTHS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CJK_COMPATIBILITY = 69;
+      BLOCK_CODE_CJK_COMPATIBILITY;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A = 70;
+      BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS = 71;
+      BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_YI_SYLLABLES = 72;
+      BLOCK_CODE_YI_SYLLABLES;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_YI_RADICALS = 73;
+      BLOCK_CODE_YI_RADICALS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_HANGUL_SYLLABLES = 74;
+      BLOCK_CODE_HANGUL_SYLLABLES;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_HIGH_SURROGATES = 75;
+      BLOCK_CODE_HIGH_SURROGATES;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_HIGH_PRIVATE_USE_SURROGATES = 76;
+      BLOCK_CODE_HIGH_PRIVATE_USE_SURROGATES;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LOW_SURROGATES = 77;
+      BLOCK_CODE_LOW_SURROGATES;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_PRIVATE_USE_AREA = 78;
+      BLOCK_CODE_PRIVATE_USE_AREA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_PRIVATE_USE = 78;
+      BLOCK_CODE_PRIVATE_USE;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CJK_COMPATIBILITY_IDEOGRAPHS = 79;
+      BLOCK_CODE_CJK_COMPATIBILITY_IDEOGRAPHS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ALPHABETIC_PRESENTATION_FORMS = 80;
+      BLOCK_CODE_ALPHABETIC_PRESENTATION_FORMS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ARABIC_PRESENTATION_FORMS_A = 81;
+      BLOCK_CODE_ARABIC_PRESENTATION_FORMS_A;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_COMBINING_HALF_MARKS = 82;
+      BLOCK_CODE_COMBINING_HALF_MARKS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CJK_COMPATIBILITY_FORMS = 83;
+      BLOCK_CODE_CJK_COMPATIBILITY_FORMS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SMALL_FORM_VARIANTS = 84;
+      BLOCK_CODE_SMALL_FORM_VARIANTS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ARABIC_PRESENTATION_FORMS_B = 85;
+      BLOCK_CODE_ARABIC_PRESENTATION_FORMS_B;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SPECIALS = 86;
+      BLOCK_CODE_SPECIALS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_HALFWIDTH_AND_FULLWIDTH_FORMS = 87;
+      BLOCK_CODE_HALFWIDTH_AND_FULLWIDTH_FORMS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_OLD_ITALIC = 88;
+      BLOCK_CODE_OLD_ITALIC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_GOTHIC = 89;
+      BLOCK_CODE_GOTHIC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_DESERET = 90;
+      BLOCK_CODE_DESERET;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BYZANTINE_MUSICAL_SYMBOLS = 91;
+      BLOCK_CODE_BYZANTINE_MUSICAL_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MUSICAL_SYMBOLS = 92;
+      BLOCK_CODE_MUSICAL_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MATHEMATICAL_ALPHANUMERIC_SYMBOLS = 93;
+      BLOCK_CODE_MATHEMATICAL_ALPHANUMERIC_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS_EXTENSION_B = 94;
+      BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS_EXTENSION_B;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CJK_COMPATIBILITY_IDEOGRAPHS_SUPPLEMENT = 95;
+      BLOCK_CODE_CJK_COMPATIBILITY_IDEOGRAPHS_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TAGS = 96;
+      BLOCK_CODE_TAGS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CYRILLIC_SUPPLEMENT = 97;
+      BLOCK_CODE_CYRILLIC_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CYRILLIC_SUPPLEMENTARY = 97;
+      BLOCK_CODE_CYRILLIC_SUPPLEMENTARY;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TAGALOG = 98;
+      BLOCK_CODE_TAGALOG;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_HANUNOO = 99;
+      BLOCK_CODE_HANUNOO;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BUHID = 100;
+      BLOCK_CODE_BUHID;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TAGBANWA = 101;
+      BLOCK_CODE_TAGBANWA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MISCELLANEOUS_MATHEMATICAL_SYMBOLS_A = 102;
+      BLOCK_CODE_MISCELLANEOUS_MATHEMATICAL_SYMBOLS_A;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SUPPLEMENTAL_ARROWS_A = 103;
+      BLOCK_CODE_SUPPLEMENTAL_ARROWS_A;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SUPPLEMENTAL_ARROWS_B = 104;
+      BLOCK_CODE_SUPPLEMENTAL_ARROWS_B;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MISCELLANEOUS_MATHEMATICAL_SYMBOLS_B = 105;
+      BLOCK_CODE_MISCELLANEOUS_MATHEMATICAL_SYMBOLS_B;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SUPPLEMENTAL_MATHEMATICAL_OPERATORS = 106;
+      BLOCK_CODE_SUPPLEMENTAL_MATHEMATICAL_OPERATORS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_KATAKANA_PHONETIC_EXTENSIONS = 107;
+      BLOCK_CODE_KATAKANA_PHONETIC_EXTENSIONS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_VARIATION_SELECTORS = 108;
+      BLOCK_CODE_VARIATION_SELECTORS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SUPPLEMENTARY_PRIVATE_USE_AREA_A = 109;
+      BLOCK_CODE_SUPPLEMENTARY_PRIVATE_USE_AREA_A;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SUPPLEMENTARY_PRIVATE_USE_AREA_B = 110;
+      BLOCK_CODE_SUPPLEMENTARY_PRIVATE_USE_AREA_B;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LIMBU = 111;
+      BLOCK_CODE_LIMBU;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TAI_LE = 112;
+      BLOCK_CODE_TAI_LE;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_KHMER_SYMBOLS = 113;
+      BLOCK_CODE_KHMER_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_PHONETIC_EXTENSIONS = 114;
+      BLOCK_CODE_PHONETIC_EXTENSIONS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MISCELLANEOUS_SYMBOLS_AND_ARROWS = 115;
+      BLOCK_CODE_MISCELLANEOUS_SYMBOLS_AND_ARROWS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_YIJING_HEXAGRAM_SYMBOLS = 116;
+      BLOCK_CODE_YIJING_HEXAGRAM_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LINEAR_B_SYLLABARY = 117;
+      BLOCK_CODE_LINEAR_B_SYLLABARY;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LINEAR_B_IDEOGRAMS = 118;
+      BLOCK_CODE_LINEAR_B_IDEOGRAMS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_AEGEAN_NUMBERS = 119;
+      BLOCK_CODE_AEGEAN_NUMBERS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_UGARITIC = 120;
+      BLOCK_CODE_UGARITIC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SHAVIAN = 121;
+      BLOCK_CODE_SHAVIAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_OSMANYA = 122;
+      BLOCK_CODE_OSMANYA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CYPRIOT_SYLLABARY = 123;
+      BLOCK_CODE_CYPRIOT_SYLLABARY;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TAI_XUAN_JING_SYMBOLS = 124;
+      BLOCK_CODE_TAI_XUAN_JING_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_VARIATION_SELECTORS_SUPPLEMENT = 125;
+      BLOCK_CODE_VARIATION_SELECTORS_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ANCIENT_GREEK_MUSICAL_NOTATION = 126;
+      BLOCK_CODE_ANCIENT_GREEK_MUSICAL_NOTATION;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ANCIENT_GREEK_NUMBERS = 127;
+      BLOCK_CODE_ANCIENT_GREEK_NUMBERS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ARABIC_SUPPLEMENT = 128;
+      BLOCK_CODE_ARABIC_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BUGINESE = 129;
+      BLOCK_CODE_BUGINESE;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CJK_STROKES = 130;
+      BLOCK_CODE_CJK_STROKES;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_COMBINING_DIACRITICAL_MARKS_SUPPLEMENT = 131;
+      BLOCK_CODE_COMBINING_DIACRITICAL_MARKS_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_COPTIC = 132;
+      BLOCK_CODE_COPTIC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ETHIOPIC_EXTENDED = 133;
+      BLOCK_CODE_ETHIOPIC_EXTENDED;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ETHIOPIC_SUPPLEMENT = 134;
+      BLOCK_CODE_ETHIOPIC_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_GEORGIAN_SUPPLEMENT = 135;
+      BLOCK_CODE_GEORGIAN_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_GLAGOLITIC = 136;
+      BLOCK_CODE_GLAGOLITIC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_KHAROSHTHI = 137;
+      BLOCK_CODE_KHAROSHTHI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MODIFIER_TONE_LETTERS = 138;
+      BLOCK_CODE_MODIFIER_TONE_LETTERS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_NEW_TAI_LUE = 139;
+      BLOCK_CODE_NEW_TAI_LUE;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_OLD_PERSIAN = 140;
+      BLOCK_CODE_OLD_PERSIAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_PHONETIC_EXTENSIONS_SUPPLEMENT = 141;
+      BLOCK_CODE_PHONETIC_EXTENSIONS_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SUPPLEMENTAL_PUNCTUATION = 142;
+      BLOCK_CODE_SUPPLEMENTAL_PUNCTUATION;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SYLOTI_NAGRI = 143;
+      BLOCK_CODE_SYLOTI_NAGRI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TIFINAGH = 144;
+      BLOCK_CODE_TIFINAGH;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_VERTICAL_FORMS = 145;
+      BLOCK_CODE_VERTICAL_FORMS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_NKO = 146;
+      BLOCK_CODE_NKO;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BALINESE = 147;
+      BLOCK_CODE_BALINESE;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LATIN_EXTENDED_C = 148;
+      BLOCK_CODE_LATIN_EXTENDED_C;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LATIN_EXTENDED_D = 149;
+      BLOCK_CODE_LATIN_EXTENDED_D;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_PHAGS_PA = 150;
+      BLOCK_CODE_PHAGS_PA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_PHOENICIAN = 151;
+      BLOCK_CODE_PHOENICIAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CUNEIFORM = 152;
+      BLOCK_CODE_CUNEIFORM;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CUNEIFORM_NUMBERS_AND_PUNCTUATION = 153;
+      BLOCK_CODE_CUNEIFORM_NUMBERS_AND_PUNCTUATION;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_COUNTING_ROD_NUMERALS = 154;
+      BLOCK_CODE_COUNTING_ROD_NUMERALS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SUNDANESE = 155;
+      BLOCK_CODE_SUNDANESE;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LEPCHA = 156;
+      BLOCK_CODE_LEPCHA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_OL_CHIKI = 157;
+      BLOCK_CODE_OL_CHIKI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CYRILLIC_EXTENDED_A = 158;
+      BLOCK_CODE_CYRILLIC_EXTENDED_A;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_VAI = 159;
+      BLOCK_CODE_VAI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CYRILLIC_EXTENDED_B = 160;
+      BLOCK_CODE_CYRILLIC_EXTENDED_B;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SAURASHTRA = 161;
+      BLOCK_CODE_SAURASHTRA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_KAYAH_LI = 162;
+      BLOCK_CODE_KAYAH_LI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_REJANG = 163;
+      BLOCK_CODE_REJANG;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CHAM = 164;
+      BLOCK_CODE_CHAM;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ANCIENT_SYMBOLS = 165;
+      BLOCK_CODE_ANCIENT_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_PHAISTOS_DISC = 166;
+      BLOCK_CODE_PHAISTOS_DISC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LYCIAN = 167;
+      BLOCK_CODE_LYCIAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CARIAN = 168;
+      BLOCK_CODE_CARIAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LYDIAN = 169;
+      BLOCK_CODE_LYDIAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MAHJONG_TILES = 170;
+      BLOCK_CODE_MAHJONG_TILES;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_DOMINO_TILES = 171;
+      BLOCK_CODE_DOMINO_TILES;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SAMARITAN = 172;
+      BLOCK_CODE_SAMARITAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_UNIFIED_CANADIAN_ABORIGINAL_SYLLABICS_EXTENDED = 173;
+      BLOCK_CODE_UNIFIED_CANADIAN_ABORIGINAL_SYLLABICS_EXTENDED;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TAI_THAM = 174;
+      BLOCK_CODE_TAI_THAM;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_VEDIC_EXTENSIONS = 175;
+      BLOCK_CODE_VEDIC_EXTENSIONS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_LISU = 176;
+      BLOCK_CODE_LISU;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BAMUM = 177;
+      BLOCK_CODE_BAMUM;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_COMMON_INDIC_NUMBER_FORMS = 178;
+      BLOCK_CODE_COMMON_INDIC_NUMBER_FORMS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_DEVANAGARI_EXTENDED = 179;
+      BLOCK_CODE_DEVANAGARI_EXTENDED;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_HANGUL_JAMO_EXTENDED_A = 180;
+      BLOCK_CODE_HANGUL_JAMO_EXTENDED_A;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_JAVANESE = 181;
+      BLOCK_CODE_JAVANESE;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MYANMAR_EXTENDED_A = 182;
+      BLOCK_CODE_MYANMAR_EXTENDED_A;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TAI_VIET = 183;
+      BLOCK_CODE_TAI_VIET;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MEETEI_MAYEK = 184;
+      BLOCK_CODE_MEETEI_MAYEK;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_HANGUL_JAMO_EXTENDED_B = 185;
+      BLOCK_CODE_HANGUL_JAMO_EXTENDED_B;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_IMPERIAL_ARAMAIC = 186;
+      BLOCK_CODE_IMPERIAL_ARAMAIC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_OLD_SOUTH_ARABIAN = 187;
+      BLOCK_CODE_OLD_SOUTH_ARABIAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_AVESTAN = 188;
+      BLOCK_CODE_AVESTAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_INSCRIPTIONAL_PARTHIAN = 189;
+      BLOCK_CODE_INSCRIPTIONAL_PARTHIAN;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_INSCRIPTIONAL_PAHLAVI = 190;
+      BLOCK_CODE_INSCRIPTIONAL_PAHLAVI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_OLD_TURKIC = 191;
+      BLOCK_CODE_OLD_TURKIC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_RUMI_NUMERAL_SYMBOLS = 192;
+      BLOCK_CODE_RUMI_NUMERAL_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_KAITHI = 193;
+      BLOCK_CODE_KAITHI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_EGYPTIAN_HIEROGLYPHS = 194;
+      BLOCK_CODE_EGYPTIAN_HIEROGLYPHS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ENCLOSED_ALPHANUMERIC_SUPPLEMENT = 195;
+      BLOCK_CODE_ENCLOSED_ALPHANUMERIC_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ENCLOSED_IDEOGRAPHIC_SUPPLEMENT = 196;
+      BLOCK_CODE_ENCLOSED_IDEOGRAPHIC_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS_EXTENSION_C = 197;
+      BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS_EXTENSION_C;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MANDAIC = 198;
+      BLOCK_CODE_MANDAIC;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BATAK = 199;
+      BLOCK_CODE_BATAK;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ETHIOPIC_EXTENDED_A = 200;
+      BLOCK_CODE_ETHIOPIC_EXTENDED_A;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BRAHMI = 201;
+      BLOCK_CODE_BRAHMI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_BAMUM_SUPPLEMENT = 202;
+      BLOCK_CODE_BAMUM_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_KANA_SUPPLEMENT = 203;
+      BLOCK_CODE_KANA_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_PLAYING_CARDS = 204;
+      BLOCK_CODE_PLAYING_CARDS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MISCELLANEOUS_SYMBOLS_AND_PICTOGRAPHS = 205;
+      BLOCK_CODE_MISCELLANEOUS_SYMBOLS_AND_PICTOGRAPHS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_EMOTICONS = 206;
+      BLOCK_CODE_EMOTICONS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TRANSPORT_AND_MAP_SYMBOLS = 207;
+      BLOCK_CODE_TRANSPORT_AND_MAP_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ALCHEMICAL_SYMBOLS = 208;
+      BLOCK_CODE_ALCHEMICAL_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS_EXTENSION_D = 209;
+      BLOCK_CODE_CJK_UNIFIED_IDEOGRAPHS_EXTENSION_D;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ARABIC_EXTENDED_A = 210;
+      BLOCK_CODE_ARABIC_EXTENDED_A;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_ARABIC_MATHEMATICAL_ALPHABETIC_SYMBOLS = 211;
+      BLOCK_CODE_ARABIC_MATHEMATICAL_ALPHABETIC_SYMBOLS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_CHAKMA = 212;
+      BLOCK_CODE_CHAKMA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MEETEI_MAYEK_EXTENSIONS = 213;
+      BLOCK_CODE_MEETEI_MAYEK_EXTENSIONS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MEROITIC_CURSIVE = 214;
+      BLOCK_CODE_MEROITIC_CURSIVE;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MEROITIC_HIEROGLYPHS = 215;
+      BLOCK_CODE_MEROITIC_HIEROGLYPHS;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_MIAO = 216;
+      BLOCK_CODE_MIAO;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SHARADA = 217;
+      BLOCK_CODE_SHARADA;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SORA_SOMPENG = 218;
+      BLOCK_CODE_SORA_SOMPENG;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_SUNDANESE_SUPPLEMENT = 219;
+      BLOCK_CODE_SUNDANESE_SUPPLEMENT;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_TAKRI = 220;
+      BLOCK_CODE_TAKRI;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_COUNT = 221;
+      BLOCK_CODE_BASSA_VAH;
 
-    const
+    public
+     const
      int
-      BLOCK_CODE_INVALID_CODE = -1;
+      BLOCK_CODE_CAUCASIAN_ALBANIAN;
 
-    const
+    public
+     const
      int
-      BPT_NONE = 0;
+      BLOCK_CODE_COPTIC_EPACT_NUMBERS;
 
-    const
+    public
+     const
      int
-      BPT_OPEN = 1;
+      BLOCK_CODE_COMBINING_DIACRITICAL_MARKS_EXTENDED;
 
-    const
+    public
+     const
      int
-      BPT_CLOSE = 2;
+      BLOCK_CODE_DUPLOYAN;
 
-    const
+    public
+     const
      int
-      BPT_COUNT = 3;
+      BLOCK_CODE_ELBASAN;
 
-    const
+    public
+     const
      int
-      EA_NEUTRAL = 0;
+      BLOCK_CODE_GEOMETRIC_SHAPES_EXTENDED;
 
-    const
+    public
+     const
      int
-      EA_AMBIGUOUS = 1;
+      BLOCK_CODE_GRANTHA;
 
-    const
+    public
+     const
      int
-      EA_HALFWIDTH = 2;
+      BLOCK_CODE_KHOJKI;
 
-    const
+    public
+     const
      int
-      EA_FULLWIDTH = 3;
+      BLOCK_CODE_KHUDAWADI;
 
-    const
+    public
+     const
      int
-      EA_NARROW = 4;
+      BLOCK_CODE_LATIN_EXTENDED_E;
 
-    const
+    public
+     const
      int
-      EA_WIDE = 5;
+      BLOCK_CODE_LINEAR_A;
 
-    const
+    public
+     const
      int
-      EA_COUNT = 6;
+      BLOCK_CODE_MAHAJANI;
 
-    const
+    public
+     const
      int
-      UNICODE_CHAR_NAME = 0;
+      BLOCK_CODE_MANICHAEAN;
 
-    const
+    public
+     const
      int
-      UNICODE_10_CHAR_NAME = 1;
+      BLOCK_CODE_MENDE_KIKAKUI;
 
-    const
+    public
+     const
      int
-      EXTENDED_CHAR_NAME = 2;
+      BLOCK_CODE_MODI;
 
-    const
+    public
+     const
      int
-      CHAR_NAME_ALIAS = 3;
+      BLOCK_CODE_MRO;
 
-    const
+    public
+     const
      int
-      CHAR_NAME_CHOICE_COUNT = 4;
+      BLOCK_CODE_MYANMAR_EXTENDED_B;
 
-    const
+    public
+     const
      int
-      SHORT_PROPERTY_NAME = 0;
+      BLOCK_CODE_NABATAEAN;
 
-    const
+    public
+     const
      int
-      LONG_PROPERTY_NAME = 1;
+      BLOCK_CODE_OLD_NORTH_ARABIAN;
 
-    const
+    public
+     const
      int
-      PROPERTY_NAME_CHOICE_COUNT = 2;
+      BLOCK_CODE_OLD_PERMIC;
 
-    const
+    public
+     const
      int
-      DT_NONE = 0;
+      BLOCK_CODE_ORNAMENTAL_DINGBATS;
 
-    const
+    public
+     const
      int
-      DT_CANONICAL = 1;
+      BLOCK_CODE_PAHAWH_HMONG;
 
-    const
+    public
+     const
      int
-      DT_COMPAT = 2;
+      BLOCK_CODE_PALMYRENE;
 
-    const
+    public
+     const
      int
-      DT_CIRCLE = 3;
+      BLOCK_CODE_PAU_CIN_HAU;
 
-    const
+    public
+     const
      int
-      DT_FINAL = 4;
+      BLOCK_CODE_PSALTER_PAHLAVI;
 
-    const
+    public
+     const
      int
-      DT_FONT = 5;
+      BLOCK_CODE_SHORTHAND_FORMAT_CONTROLS;
 
-    const
+    public
+     const
      int
-      DT_FRACTION = 6;
+      BLOCK_CODE_SIDDHAM;
 
-    const
+    public
+     const
      int
-      DT_INITIAL = 7;
+      BLOCK_CODE_SINHALA_ARCHAIC_NUMBERS;
 
-    const
+    public
+     const
      int
-      DT_ISOLATED = 8;
+      BLOCK_CODE_SUPPLEMENTAL_ARROWS_C;
 
-    const
+    public
+     const
      int
-      DT_MEDIAL = 9;
+      BLOCK_CODE_TIRHUTA;
 
-    const
+    public
+     const
      int
-      DT_NARROW = 10;
+      BLOCK_CODE_WARANG_CITI;
 
-    const
+    public
+     const
      int
-      DT_NOBREAK = 11;
+      BLOCK_CODE_COUNT;
 
-    const
+    public
+     const
      int
-      DT_SMALL = 12;
+      BLOCK_CODE_INVALID_CODE;
 
-    const
+    public
+     const
      int
-      DT_SQUARE = 13;
+      BPT_NONE;
 
-    const
+    public
+     const
      int
-      DT_SUB = 14;
+      BPT_OPEN;
 
-    const
+    public
+     const
      int
-      DT_SUPER = 15;
+      BPT_CLOSE;
 
-    const
+    public
+     const
      int
-      DT_VERTICAL = 16;
+      BPT_COUNT;
 
-    const
+    public
+     const
      int
-      DT_WIDE = 17;
+      EA_NEUTRAL;
 
-    const
+    public
+     const
      int
-      DT_COUNT = 18;
+      EA_AMBIGUOUS;
 
-    const
+    public
+     const
      int
-      JT_NON_JOINING = 0;
+      EA_HALFWIDTH;
 
-    const
+    public
+     const
      int
-      JT_JOIN_CAUSING = 1;
+      EA_FULLWIDTH;
 
-    const
+    public
+     const
      int
-      JT_DUAL_JOINING = 2;
+      EA_NARROW;
 
-    const
+    public
+     const
      int
-      JT_LEFT_JOINING = 3;
+      EA_WIDE;
 
-    const
+    public
+     const
      int
-      JT_RIGHT_JOINING = 4;
+      EA_COUNT;
 
-    const
+    public
+     const
      int
-      JT_TRANSPARENT = 5;
+      UNICODE_CHAR_NAME;
 
-    const
+    public
+     const
      int
-      JT_COUNT = 6;
+      UNICODE_10_CHAR_NAME;
 
-    const
+    public
+     const
      int
-      JG_NO_JOINING_GROUP = 0;
+      EXTENDED_CHAR_NAME;
 
-    const
+    public
+     const
      int
-      JG_AIN = 1;
+      CHAR_NAME_ALIAS;
 
-    const
+    public
+     const
      int
-      JG_ALAPH = 2;
+      CHAR_NAME_CHOICE_COUNT;
 
-    const
+    public
+     const
      int
-      JG_ALEF = 3;
+      SHORT_PROPERTY_NAME;
 
-    const
+    public
+     const
      int
-      JG_BEH = 4;
+      LONG_PROPERTY_NAME;
 
-    const
+    public
+     const
      int
-      JG_BETH = 5;
+      PROPERTY_NAME_CHOICE_COUNT;
 
-    const
+    public
+     const
      int
-      JG_DAL = 6;
+      DT_NONE;
 
-    const
+    public
+     const
      int
-      JG_DALATH_RISH = 7;
+      DT_CANONICAL;
 
-    const
+    public
+     const
      int
-      JG_E = 8;
+      DT_COMPAT;
 
-    const
+    public
+     const
      int
-      JG_FEH = 9;
+      DT_CIRCLE;
 
-    const
+    public
+     const
      int
-      JG_FINAL_SEMKATH = 10;
+      DT_FINAL;
 
-    const
+    public
+     const
      int
-      JG_GAF = 11;
+      DT_FONT;
 
-    const
+    public
+     const
      int
-      JG_GAMAL = 12;
+      DT_FRACTION;
 
-    const
+    public
+     const
      int
-      JG_HAH = 13;
+      DT_INITIAL;
 
-    const
+    public
+     const
      int
-      JG_TEH_MARBUTA_GOAL = 14;
+      DT_ISOLATED;
 
-    const
+    public
+     const
      int
-      JG_HAMZA_ON_HEH_GOAL = 14;
+      DT_MEDIAL;
 
-    const
+    public
+     const
      int
-      JG_HE = 15;
+      DT_NARROW;
 
-    const
+    public
+     const
      int
-      JG_HEH = 16;
+      DT_NOBREAK;
 
-    const
+    public
+     const
      int
-      JG_HEH_GOAL = 17;
+      DT_SMALL;
 
-    const
+    public
+     const
      int
-      JG_HETH = 18;
+      DT_SQUARE;
 
-    const
+    public
+     const
      int
-      JG_KAF = 19;
+      DT_SUB;
 
-    const
+    public
+     const
      int
-      JG_KAPH = 20;
+      DT_SUPER;
 
-    const
+    public
+     const
      int
-      JG_KNOTTED_HEH = 21;
+      DT_VERTICAL;
 
-    const
+    public
+     const
      int
-      JG_LAM = 22;
+      DT_WIDE;
 
-    const
+    public
+     const
      int
-      JG_LAMADH = 23;
+      DT_COUNT;
 
-    const
+    public
+     const
      int
-      JG_MEEM = 24;
+      JT_NON_JOINING;
 
-    const
+    public
+     const
      int
-      JG_MIM = 25;
+      JT_JOIN_CAUSING;
 
-    const
+    public
+     const
      int
-      JG_NOON = 26;
+      JT_DUAL_JOINING;
 
-    const
+    public
+     const
      int
-      JG_NUN = 27;
+      JT_LEFT_JOINING;
 
-    const
+    public
+     const
      int
-      JG_PE = 28;
+      JT_RIGHT_JOINING;
 
-    const
+    public
+     const
      int
-      JG_QAF = 29;
+      JT_TRANSPARENT;
 
-    const
+    public
+     const
      int
-      JG_QAPH = 30;
+      JT_COUNT;
 
-    const
+    public
+     const
      int
-      JG_REH = 31;
+      JG_NO_JOINING_GROUP;
 
-    const
+    public
+     const
      int
-      JG_REVERSED_PE = 32;
+      JG_AIN;
 
-    const
+    public
+     const
      int
-      JG_SAD = 33;
+      JG_ALAPH;
 
-    const
+    public
+     const
      int
-      JG_SADHE = 34;
+      JG_ALEF;
 
-    const
+    public
+     const
      int
-      JG_SEEN = 35;
+      JG_BEH;
 
-    const
+    public
+     const
      int
-      JG_SEMKATH = 36;
+      JG_BETH;
 
-    const
+    public
+     const
      int
-      JG_SHIN = 37;
+      JG_DAL;
 
-    const
+    public
+     const
      int
-      JG_SWASH_KAF = 38;
+      JG_DALATH_RISH;
 
-    const
+    public
+     const
      int
-      JG_SYRIAC_WAW = 39;
+      JG_E;
 
-    const
+    public
+     const
      int
-      JG_TAH = 40;
+      JG_FEH;
 
-    const
+    public
+     const
      int
-      JG_TAW = 41;
+      JG_FINAL_SEMKATH;
 
-    const
+    public
+     const
      int
-      JG_TEH_MARBUTA = 42;
+      JG_GAF;
 
-    const
+    public
+     const
      int
-      JG_TETH = 43;
+      JG_GAMAL;
 
-    const
+    public
+     const
      int
-      JG_WAW = 44;
+      JG_HAH;
 
-    const
+    public
+     const
      int
-      JG_YEH = 45;
+      JG_TEH_MARBUTA_GOAL;
 
-    const
+    public
+     const
      int
-      JG_YEH_BARREE = 46;
+      JG_HAMZA_ON_HEH_GOAL;
 
-    const
+    public
+     const
      int
-      JG_YEH_WITH_TAIL = 47;
+      JG_HE;
 
-    const
+    public
+     const
      int
-      JG_YUDH = 48;
+      JG_HEH;
 
-    const
+    public
+     const
      int
-      JG_YUDH_HE = 49;
+      JG_HEH_GOAL;
 
-    const
+    public
+     const
      int
-      JG_ZAIN = 50;
+      JG_HETH;
 
-    const
+    public
+     const
      int
-      JG_FE = 51;
+      JG_KAF;
 
-    const
+    public
+     const
      int
-      JG_KHAPH = 52;
+      JG_KAPH;
 
-    const
+    public
+     const
      int
-      JG_ZHAIN = 53;
+      JG_KNOTTED_HEH;
 
-    const
+    public
+     const
      int
-      JG_BURUSHASKI_YEH_BARREE = 54;
+      JG_LAM;
 
-    const
+    public
+     const
      int
-      JG_FARSI_YEH = 55;
+      JG_LAMADH;
 
-    const
+    public
+     const
      int
-      JG_NYA = 56;
+      JG_MEEM;
 
-    const
+    public
+     const
      int
-      JG_ROHINGYA_YEH = 57;
+      JG_MIM;
 
-    const
+    public
+     const
      int
-      JG_COUNT = 58;
+      JG_NOON;
 
-    const
+    public
+     const
      int
-      GCB_OTHER = 0;
+      JG_NUN;
 
-    const
+    public
+     const
      int
-      GCB_CONTROL = 1;
+      JG_PE;
 
-    const
+    public
+     const
      int
-      GCB_CR = 2;
+      JG_QAF;
 
-    const
+    public
+     const
      int
-      GCB_EXTEND = 3;
+      JG_QAPH;
 
-    const
+    public
+     const
      int
-      GCB_L = 4;
+      JG_REH;
 
-    const
+    public
+     const
      int
-      GCB_LF = 5;
+      JG_REVERSED_PE;
 
-    const
+    public
+     const
      int
-      GCB_LV = 6;
+      JG_SAD;
 
-    const
+    public
+     const
      int
-      GCB_LVT = 7;
+      JG_SADHE;
 
-    const
+    public
+     const
      int
-      GCB_T = 8;
+      JG_SEEN;
 
-    const
+    public
+     const
      int
-      GCB_V = 9;
+      JG_SEMKATH;
 
-    const
+    public
+     const
      int
-      GCB_SPACING_MARK = 10;
+      JG_SHIN;
 
-    const
+    public
+     const
      int
-      GCB_PREPEND = 11;
+      JG_SWASH_KAF;
 
-    const
+    public
+     const
      int
-      GCB_REGIONAL_INDICATOR = 12;
+      JG_SYRIAC_WAW;
 
-    const
+    public
+     const
      int
-      GCB_COUNT = 13;
+      JG_TAH;
 
-    const
+    public
+     const
      int
-      WB_OTHER = 0;
+      JG_TAW;
 
-    const
+    public
+     const
      int
-      WB_ALETTER = 1;
+      JG_TEH_MARBUTA;
 
-    const
+    public
+     const
      int
-      WB_FORMAT = 2;
+      JG_TETH;
 
-    const
+    public
+     const
      int
-      WB_KATAKANA = 3;
+      JG_WAW;
 
-    const
+    public
+     const
      int
-      WB_MIDLETTER = 4;
+      JG_YEH;
 
-    const
+    public
+     const
      int
-      WB_MIDNUM = 5;
+      JG_YEH_BARREE;
 
-    const
+    public
+     const
      int
-      WB_NUMERIC = 6;
+      JG_YEH_WITH_TAIL;
 
-    const
+    public
+     const
      int
-      WB_EXTENDNUMLET = 7;
+      JG_YUDH;
 
-    const
+    public
+     const
      int
-      WB_CR = 8;
+      JG_YUDH_HE;
 
-    const
+    public
+     const
      int
-      WB_EXTEND = 9;
+      JG_ZAIN;
 
-    const
+    public
+     const
      int
-      WB_LF = 10;
+      JG_FE;
 
-    const
+    public
+     const
      int
-      WB_MIDNUMLET = 11;
+      JG_KHAPH;
 
-    const
+    public
+     const
      int
-      WB_NEWLINE = 12;
+      JG_ZHAIN;
 
-    const
+    public
+     const
      int
-      WB_REGIONAL_INDICATOR = 13;
+      JG_BURUSHASKI_YEH_BARREE;
 
-    const
+    public
+     const
      int
-      WB_HEBREW_LETTER = 14;
+      JG_FARSI_YEH;
 
-    const
+    public
+     const
      int
-      WB_SINGLE_QUOTE = 15;
+      JG_NYA;
 
-    const
+    public
+     const
      int
-      WB_DOUBLE_QUOTE = 16;
+      JG_ROHINGYA_YEH;
 
-    const
+    public
+     const
      int
-      WB_COUNT = 17;
+      JG_MANICHAEAN_ALEPH;
 
-    const
+    public
+     const
      int
-      SB_OTHER = 0;
+      JG_MANICHAEAN_AYIN;
 
-    const
+    public
+     const
      int
-      SB_ATERM = 1;
+      JG_MANICHAEAN_BETH;
 
-    const
+    public
+     const
      int
-      SB_CLOSE = 2;
+      JG_MANICHAEAN_DALETH;
 
-    const
+    public
+     const
      int
-      SB_FORMAT = 3;
+      JG_MANICHAEAN_DHAMEDH;
 
-    const
+    public
+     const
      int
-      SB_LOWER = 4;
+      JG_MANICHAEAN_FIVE;
 
-    const
+    public
+     const
      int
-      SB_NUMERIC = 5;
+      JG_MANICHAEAN_GIMEL;
 
-    const
+    public
+     const
      int
-      SB_OLETTER = 6;
+      JG_MANICHAEAN_HETH;
 
-    const
+    public
+     const
      int
-      SB_SEP = 7;
+      JG_MANICHAEAN_HUNDRED;
 
-    const
+    public
+     const
      int
-      SB_SP = 8;
+      JG_MANICHAEAN_KAPH;
 
-    const
+    public
+     const
      int
-      SB_STERM = 9;
+      JG_MANICHAEAN_LAMEDH;
 
-    const
+    public
+     const
      int
-      SB_UPPER = 10;
+      JG_MANICHAEAN_MEM;
 
-    const
+    public
+     const
      int
-      SB_CR = 11;
+      JG_MANICHAEAN_NUN;
 
-    const
+    public
+     const
      int
-      SB_EXTEND = 12;
+      JG_MANICHAEAN_ONE;
 
-    const
+    public
+     const
      int
-      SB_LF = 13;
+      JG_MANICHAEAN_PE;
 
-    const
+    public
+     const
      int
-      SB_SCONTINUE = 14;
+      JG_MANICHAEAN_QOPH;
 
-    const
+    public
+     const
      int
-      SB_COUNT = 15;
+      JG_MANICHAEAN_RESH;
 
-    const
+    public
+     const
      int
-      LB_UNKNOWN = 0;
+      JG_MANICHAEAN_SADHE;
 
-    const
+    public
+     const
      int
-      LB_AMBIGUOUS = 1;
+      JG_MANICHAEAN_SAMEKH;
 
-    const
+    public
+     const
      int
-      LB_ALPHABETIC = 2;
+      JG_MANICHAEAN_TAW;
 
-    const
+    public
+     const
      int
-      LB_BREAK_BOTH = 3;
+      JG_MANICHAEAN_TEN;
 
-    const
+    public
+     const
      int
-      LB_BREAK_AFTER = 4;
+      JG_MANICHAEAN_TETH;
 
-    const
+    public
+     const
      int
-      LB_BREAK_BEFORE = 5;
+      JG_MANICHAEAN_THAMEDH;
 
-    const
+    public
+     const
      int
-      LB_MANDATORY_BREAK = 6;
+      JG_MANICHAEAN_TWENTY;
 
-    const
+    public
+     const
      int
-      LB_CONTINGENT_BREAK = 7;
+      JG_MANICHAEAN_WAW;
 
-    const
+    public
+     const
      int
-      LB_CLOSE_PUNCTUATION = 8;
+      JG_MANICHAEAN_YODH;
 
-    const
+    public
+     const
      int
-      LB_COMBINING_MARK = 9;
+      JG_MANICHAEAN_ZAYIN;
 
-    const
+    public
+     const
      int
-      LB_CARRIAGE_RETURN = 10;
+      JG_STRAIGHT_WAW;
 
-    const
+    public
+     const
      int
-      LB_EXCLAMATION = 11;
+      JG_COUNT;
 
-    const
+    public
+     const
      int
-      LB_GLUE = 12;
+      GCB_OTHER;
 
-    const
+    public
+     const
      int
-      LB_HYPHEN = 13;
+      GCB_CONTROL;
 
-    const
+    public
+     const
      int
-      LB_IDEOGRAPHIC = 14;
+      GCB_CR;
 
-    const
+    public
+     const
      int
-      LB_INSEPARABLE = 15;
+      GCB_EXTEND;
 
-    const
+    public
+     const
      int
-      LB_INSEPERABLE = 15;
+      GCB_L;
 
-    const
+    public
+     const
      int
-      LB_INFIX_NUMERIC = 16;
+      GCB_LF;
 
-    const
+    public
+     const
      int
-      LB_LINE_FEED = 17;
+      GCB_LV;
 
-    const
+    public
+     const
      int
-      LB_NONSTARTER = 18;
+      GCB_LVT;
 
-    const
+    public
+     const
      int
-      LB_NUMERIC = 19;
+      GCB_T;
 
-    const
+    public
+     const
      int
-      LB_OPEN_PUNCTUATION = 20;
+      GCB_V;
 
-    const
+    public
+     const
      int
-      LB_POSTFIX_NUMERIC = 21;
+      GCB_SPACING_MARK;
 
-    const
+    public
+     const
      int
-      LB_PREFIX_NUMERIC = 22;
+      GCB_PREPEND;
 
-    const
+    public
+     const
      int
-      LB_QUOTATION = 23;
+      GCB_REGIONAL_INDICATOR;
 
-    const
+    public
+     const
      int
-      LB_COMPLEX_CONTEXT = 24;
+      GCB_COUNT;
 
-    const
+    public
+     const
      int
-      LB_SURROGATE = 25;
+      WB_OTHER;
 
-    const
+    public
+     const
      int
-      LB_SPACE = 26;
+      WB_ALETTER;
 
-    const
+    public
+     const
      int
-      LB_BREAK_SYMBOLS = 27;
+      WB_FORMAT;
 
-    const
+    public
+     const
      int
-      LB_ZWSPACE = 28;
+      WB_KATAKANA;
 
-    const
+    public
+     const
      int
-      LB_NEXT_LINE = 29;
+      WB_MIDLETTER;
 
-    const
+    public
+     const
      int
-      LB_WORD_JOINER = 30;
+      WB_MIDNUM;
 
-    const
+    public
+     const
      int
-      LB_H2 = 31;
+      WB_NUMERIC;
 
-    const
+    public
+     const
      int
-      LB_H3 = 32;
+      WB_EXTENDNUMLET;
 
-    const
+    public
+     const
      int
-      LB_JL = 33;
+      WB_CR;
 
-    const
+    public
+     const
      int
-      LB_JT = 34;
+      WB_EXTEND;
 
-    const
+    public
+     const
      int
-      LB_JV = 35;
+      WB_LF;
 
-    const
+    public
+     const
      int
-      LB_CLOSE_PARENTHESIS = 36;
+      WB_MIDNUMLET;
 
-    const
+    public
+     const
      int
-      LB_CONDITIONAL_JAPANESE_STARTER = 37;
+      WB_NEWLINE;
 
-    const
+    public
+     const
      int
-      LB_HEBREW_LETTER = 38;
+      WB_REGIONAL_INDICATOR;
 
-    const
+    public
+     const
      int
-      LB_REGIONAL_INDICATOR = 39;
+      WB_HEBREW_LETTER;
 
-    const
+    public
+     const
      int
-      LB_COUNT = 40;
+      WB_SINGLE_QUOTE;
 
-    const
+    public
+     const
      int
-      NT_NONE = 0;
+      WB_DOUBLE_QUOTE;
 
-    const
+    public
+     const
      int
-      NT_DECIMAL = 1;
+      WB_COUNT;
 
-    const
+    public
+     const
      int
-      NT_DIGIT = 2;
+      SB_OTHER;
 
-    const
+    public
+     const
      int
-      NT_NUMERIC = 3;
+      SB_ATERM;
 
-    const
+    public
+     const
      int
-      NT_COUNT = 4;
+      SB_CLOSE;
 
-    const
+    public
+     const
      int
-      HST_NOT_APPLICABLE = 0;
+      SB_FORMAT;
 
-    const
+    public
+     const
      int
-      HST_LEADING_JAMO = 1;
+      SB_LOWER;
 
-    const
+    public
+     const
      int
-      HST_VOWEL_JAMO = 2;
+      SB_NUMERIC;
 
-    const
+    public
+     const
      int
-      HST_TRAILING_JAMO = 3;
+      SB_OLETTER;
 
-    const
+    public
+     const
      int
-      HST_LV_SYLLABLE = 4;
+      SB_SEP;
 
-    const
+    public
+     const
      int
-      HST_LVT_SYLLABLE = 5;
+      SB_SP;
 
-    const
+    public
+     const
      int
-      HST_COUNT = 6;
+      SB_STERM;
+
+    public
+     const
+     int
+      SB_UPPER;
+
+    public
+     const
+     int
+      SB_CR;
+
+    public
+     const
+     int
+      SB_EXTEND;
+
+    public
+     const
+     int
+      SB_LF;
+
+    public
+     const
+     int
+      SB_SCONTINUE;
+
+    public
+     const
+     int
+      SB_COUNT;
+
+    public
+     const
+     int
+      LB_UNKNOWN;
+
+    public
+     const
+     int
+      LB_AMBIGUOUS;
+
+    public
+     const
+     int
+      LB_ALPHABETIC;
+
+    public
+     const
+     int
+      LB_BREAK_BOTH;
+
+    public
+     const
+     int
+      LB_BREAK_AFTER;
+
+    public
+     const
+     int
+      LB_BREAK_BEFORE;
+
+    public
+     const
+     int
+      LB_MANDATORY_BREAK;
+
+    public
+     const
+     int
+      LB_CONTINGENT_BREAK;
+
+    public
+     const
+     int
+      LB_CLOSE_PUNCTUATION;
+
+    public
+     const
+     int
+      LB_COMBINING_MARK;
+
+    public
+     const
+     int
+      LB_CARRIAGE_RETURN;
+
+    public
+     const
+     int
+      LB_EXCLAMATION;
+
+    public
+     const
+     int
+      LB_GLUE;
+
+    public
+     const
+     int
+      LB_HYPHEN;
+
+    public
+     const
+     int
+      LB_IDEOGRAPHIC;
+
+    public
+     const
+     int
+      LB_INSEPARABLE;
+
+    public
+     const
+     int
+      LB_INSEPERABLE;
+
+    public
+     const
+     int
+      LB_INFIX_NUMERIC;
+
+    public
+     const
+     int
+      LB_LINE_FEED;
+
+    public
+     const
+     int
+      LB_NONSTARTER;
+
+    public
+     const
+     int
+      LB_NUMERIC;
+
+    public
+     const
+     int
+      LB_OPEN_PUNCTUATION;
+
+    public
+     const
+     int
+      LB_POSTFIX_NUMERIC;
+
+    public
+     const
+     int
+      LB_PREFIX_NUMERIC;
+
+    public
+     const
+     int
+      LB_QUOTATION;
+
+    public
+     const
+     int
+      LB_COMPLEX_CONTEXT;
+
+    public
+     const
+     int
+      LB_SURROGATE;
+
+    public
+     const
+     int
+      LB_SPACE;
+
+    public
+     const
+     int
+      LB_BREAK_SYMBOLS;
+
+    public
+     const
+     int
+      LB_ZWSPACE;
+
+    public
+     const
+     int
+      LB_NEXT_LINE;
+
+    public
+     const
+     int
+      LB_WORD_JOINER;
+
+    public
+     const
+     int
+      LB_H2;
+
+    public
+     const
+     int
+      LB_H3;
+
+    public
+     const
+     int
+      LB_JL;
+
+    public
+     const
+     int
+      LB_JT;
+
+    public
+     const
+     int
+      LB_JV;
+
+    public
+     const
+     int
+      LB_CLOSE_PARENTHESIS;
+
+    public
+     const
+     int
+      LB_CONDITIONAL_JAPANESE_STARTER;
+
+    public
+     const
+     int
+      LB_HEBREW_LETTER;
+
+    public
+     const
+     int
+      LB_REGIONAL_INDICATOR;
+
+    public
+     const
+     int
+      LB_COUNT;
+
+    public
+     const
+     int
+      NT_NONE;
+
+    public
+     const
+     int
+      NT_DECIMAL;
+
+    public
+     const
+     int
+      NT_DIGIT;
+
+    public
+     const
+     int
+      NT_NUMERIC;
+
+    public
+     const
+     int
+      NT_COUNT;
+
+    public
+     const
+     int
+      HST_NOT_APPLICABLE;
+
+    public
+     const
+     int
+      HST_LEADING_JAMO;
+
+    public
+     const
+     int
+      HST_VOWEL_JAMO;
+
+    public
+     const
+     int
+      HST_TRAILING_JAMO;
+
+    public
+     const
+     int
+      HST_LV_SYLLABLE;
+
+    public
+     const
+     int
+      HST_LVT_SYLLABLE;
+
+    public
+     const
+     int
+      HST_COUNT;
+
+    public
+     const
+     int
+      FOLD_CASE_DEFAULT;
+
+    public
+     const
+     int
+      FOLD_CASE_EXCLUDE_SPECIAL_I;
 
 
     /* Методы */
@@ -2447,7 +3354,7 @@ public static charName(int|string $codepoint, int $type = IntlChar::UNICODE_CHAR
 public static charType(int|string $codepoint): ?int
 public static chr(int|string $codepoint): ?string
 public static digit(int|string $codepoint, int $base = 10): int|false|null
-public static enumCharNames(    int|string $start,    int|string $end,    callable $callback,    int $type = IntlChar::UNICODE_CHAR_NAME): ?bool
+public static enumCharNames(    int|string $start,    int|string $end,    callable $callback,    int $type = IntlChar::UNICODE_CHAR_NAME): bool
 public static enumCharTypes(callable $callback): void
 public static foldCase(int|string $codepoint, int $options = IntlChar::FOLD_CASE_DEFAULT): int|string|null
 public static forDigit(int $digit, int $base = 10): int
@@ -2511,7 +3418,7 @@ public static toupper(int|string $codepoint): int|string|null
 
 **`IntlChar::NO_NUMERIC_VALUE`**
 
-Special value that is returned by [IntlChar::getNumericValue()](intlchar.getnumericvalue.md) коли не numeric value is defined for a code point.
+Special value that is returned by[IntlChar::getNumericValue()](intlchar.getnumericvalue.md)when no numeric value is defined for a code point.
 
 **`IntlChar::PROPERTY_ALPHABETIC`**
 
@@ -3289,6 +4196,70 @@ Special value that is returned by [IntlChar::getNumericValue()](intlchar.getnume
 
 **`IntlChar::BLOCK_CODE_TAKRI`**
 
+**`IntlChar::BLOCK_CODE_BASSA_VAH`**
+
+**`IntlChar::BLOCK_CODE_CAUCASIAN_ALBANIAN`**
+
+**`IntlChar::BLOCK_CODE_COPTIC_EPACT_NUMBERS`**
+
+**`IntlChar::BLOCK_CODE_COMBINING_DIACRITICAL_MARKS_EXTENDED`**
+
+**`IntlChar::BLOCK_CODE_DUPLOYAN`**
+
+**`IntlChar::BLOCK_CODE_ELBASAN`**
+
+**`IntlChar::BLOCK_CODE_GEOMETRIC_SHAPES_EXTENDED`**
+
+**`IntlChar::BLOCK_CODE_GRANTHA`**
+
+**`IntlChar::BLOCK_CODE_KHOJKI`**
+
+**`IntlChar::BLOCK_CODE_KHUDAWADI`**
+
+**`IntlChar::BLOCK_CODE_LATIN_EXTENDED_E`**
+
+**`IntlChar::BLOCK_CODE_LINEAR_A`**
+
+**`IntlChar::BLOCK_CODE_MAHAJANI`**
+
+**`IntlChar::BLOCK_CODE_MANICHAEAN`**
+
+**`IntlChar::BLOCK_CODE_MENDE_KIKAKUI`**
+
+**`IntlChar::BLOCK_CODE_MODI`**
+
+**`IntlChar::BLOCK_CODE_MRO`**
+
+**`IntlChar::BLOCK_CODE_MYANMAR_EXTENDED_B`**
+
+**`IntlChar::BLOCK_CODE_NABATAEAN`**
+
+**`IntlChar::BLOCK_CODE_OLD_NORTH_ARABIAN`**
+
+**`IntlChar::BLOCK_CODE_OLD_PERMIC`**
+
+**`IntlChar::BLOCK_CODE_ORNAMENTAL_DINGBATS`**
+
+**`IntlChar::BLOCK_CODE_PAHAWH_HMONG`**
+
+**`IntlChar::BLOCK_CODE_PALMYRENE`**
+
+**`IntlChar::BLOCK_CODE_PAU_CIN_HAU`**
+
+**`IntlChar::BLOCK_CODE_PSALTER_PAHLAVI`**
+
+**`IntlChar::BLOCK_CODE_SHORTHAND_FORMAT_CONTROLS`**
+
+**`IntlChar::BLOCK_CODE_SIDDHAM`**
+
+**`IntlChar::BLOCK_CODE_SINHALA_ARCHAIC_NUMBERS`**
+
+**`IntlChar::BLOCK_CODE_SUPPLEMENTAL_ARROWS_C`**
+
+**`IntlChar::BLOCK_CODE_TIRHUTA`**
+
+**`IntlChar::BLOCK_CODE_WARANG_CITI`**
+
 **`IntlChar::BLOCK_CODE_COUNT`**
 
 **`IntlChar::BLOCK_CODE_INVALID_CODE`**
@@ -3500,6 +4471,62 @@ Special value that is returned by [IntlChar::getNumericValue()](intlchar.getnume
 **`IntlChar::JG_NYA`**
 
 **`IntlChar::JG_ROHINGYA_YEH`**
+
+**`IntlChar::JG_MANICHAEAN_ALEPH`**
+
+**`IntlChar::JG_MANICHAEAN_AYIN`**
+
+**`IntlChar::JG_MANICHAEAN_BETH`**
+
+**`IntlChar::JG_MANICHAEAN_DALETH`**
+
+**`IntlChar::JG_MANICHAEAN_DHAMEDH`**
+
+**`IntlChar::JG_MANICHAEAN_FIVE`**
+
+**`IntlChar::JG_MANICHAEAN_GIMEL`**
+
+**`IntlChar::JG_MANICHAEAN_HETH`**
+
+**`IntlChar::JG_MANICHAEAN_HUNDRED`**
+
+**`IntlChar::JG_MANICHAEAN_KAPH`**
+
+**`IntlChar::JG_MANICHAEAN_LAMEDH`**
+
+**`IntlChar::JG_MANICHAEAN_MEM`**
+
+**`IntlChar::JG_MANICHAEAN_NUN`**
+
+**`IntlChar::JG_MANICHAEAN_ONE`**
+
+**`IntlChar::JG_MANICHAEAN_PE`**
+
+**`IntlChar::JG_MANICHAEAN_QOPH`**
+
+**`IntlChar::JG_MANICHAEAN_RESH`**
+
+**`IntlChar::JG_MANICHAEAN_SADHE`**
+
+**`IntlChar::JG_MANICHAEAN_SAMEKH`**
+
+**`IntlChar::JG_MANICHAEAN_TAW`**
+
+**`IntlChar::JG_MANICHAEAN_TEN`**
+
+**`IntlChar::JG_MANICHAEAN_TETH`**
+
+**`IntlChar::JG_MANICHAEAN_THAMEDH`**
+
+**`IntlChar::JG_MANICHAEAN_TWENTY`**
+
+**`IntlChar::JG_MANICHAEAN_WAW`**
+
+**`IntlChar::JG_MANICHAEAN_YODH`**
+
+**`IntlChar::JG_MANICHAEAN_ZAYIN`**
+
+**`IntlChar::JG_STRAIGHT_WAW`**
 
 **`IntlChar::JG_COUNT`**
 
@@ -3713,68 +4740,68 @@ Special value that is returned by [IntlChar::getNumericValue()](intlchar.getnume
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Додано константу **`IntlChar::NO_NUMERIC_VALUE`** |
+| 7.0.6 | Добавлена константа\*\*`IntlChar::NO_NUMERIC_VALUE`\*\* |
 
 ## Зміст
 
 -   [IntlChar::charAge](intlchar.charage.md) — Отримати "вік" символьного коду
--   [IntlChar::charDigitValue](intlchar.chardigitvalue.md) — Отримати десяткову цифру із символу десяткової цифри
--   [IntlChar::charDirection](intlchar.chardirection.md) — Отримати категорію напряму листа для символу
--   [IntlChar::charFromName](intlchar.charfromname.md) — Знайти символ Unicode на його ім'я та повернути його код
+-   [IntlChar::charDigitValue](intlchar.chardigitvalue.md)— Отримати десяткову цифру із символу десяткової цифри
+-   [IntlChar::charDirection](intlchar.chardirection.md)— Отримати категорію напряму листа для символу
+-   [IntlChar::charFromName](intlchar.charfromname.md)— Знайти символ Unicode на його ім'я та повернути його код
 -   [IntlChar::charMirror](intlchar.charmirror.md) — Отримати "дзеркальний" символ за кодом
--   [IntlChar::charName](intlchar.charname.md) — Отримати ім'я Unicode
--   [IntlChar::charType](intlchar.chartype.md) — Отримати головну категорію, до якої входить символ
--   [IntlChar::chr](intlchar.chr.md) — Отримати символ Unicode за його кодом
--   [IntlChar::digit](intlchar.digit.md) — Отримати десяткове число із символу Unicode із заданою основою
--   [IntlChar::enumCharNames](intlchar.enumcharnames.md) — Перелічує всі присвоєні символи Unicode у заданому діапазоні
--   [IntlChar::enumCharTypes](intlchar.enumchartypes.md) — Перелік послідовностей символів Unicode згрупованих за ними.
--   [IntlChar::foldCase](intlchar.foldcase.md) — Перетворює регістр заданого символу.
--   [IntlChar::forDigit](intlchar.fordigit.md) — Отримати символ, який представляє задане число в заданій основі
--   [IntlChar::getBidiPairedBracket](intlchar.getbidipairedbracket.md) — Отримати парну дужку для символу
--   [IntlChar::getBlockCode](intlchar.getblockcode.md) — Отримати блок розміщення символу Unicode
--   [IntlChar::getCombiningClass](intlchar.getcombiningclass.md) — Отримати комбінуючий клас для символу
--   [IntlChar::getFCNFKCClosure](intlchar.getfc-nfkc-closure.md) - Отримати властивість FCNFKCClosure для символу
--   [IntlChar::getIntPropertyMaxValue](intlchar.getintpropertymaxvalue.md) — Отримати мінімальне значення для властивості Unicode
--   [IntlChar::getIntPropertyMinValue](intlchar.getintpropertyminvalue.md) — Отримати мінімальне значення для властивості Unicode
--   [IntlChar::getIntPropertyValue](intlchar.getintpropertyvalue.md) — Отримати значення властивості Unicode для символу
--   [IntlChar::getNumericValue](intlchar.getnumericvalue.md) — Отримати числову виставу для символу Unicode
--   [IntlChar::getPropertyEnum](intlchar.getpropertyenum.md) — Отримати значення константи властивості на його ім'я
--   [IntlChar::getPropertyName](intlchar.getpropertyname.md) - Отримати Unicode ім'я властивості
--   [IntlChar::getPropertyValueEnum](intlchar.getpropertyvalueenum.md) — Повернути числовий ідентифікатор властивості на його ім'я
--   [IntlChar::getPropertyValueName](intlchar.getpropertyvaluename.md) — Отримати ім'я Unicode для значення властивості
--   [IntlChar::getUnicodeVersion](intlchar.getunicodeversion.md) — Отримати версію Unicode
--   [IntlChar::hasBinaryProperty](intlchar.hasbinaryproperty.md) — Перевірити бінарну властивість Unicode для символу
--   [IntlChar::isalnum](intlchar.isalnum.md) — Перевірити, чи є символ буквою чи цифрою
--   [IntlChar::isalpha](intlchar.isalpha.md) — Перевірити, чи є символ літерою
--   [IntlChar::isbase](intlchar.isbase.md) — Перевірити, чи символ є базовим
+-   [IntlChar::charName](intlchar.charname.md)— Отримати ім'я Unicode
+-   [IntlChar::charType](intlchar.chartype.md)— Отримати головну категорію, до якої входить символ
+-   [IntlChar::chr](intlchar.chr.md)— Отримати символ Unicode за його кодом
+-   [IntlChar::digit](intlchar.digit.md)— Отримати десяткове число із символу Unicode із заданою основою
+-   [IntlChar::enumCharNames](intlchar.enumcharnames.md)— Перелічує всі присвоєні символи Unicode у заданому діапазоні
+-   [IntlChar::enumCharTypes](intlchar.enumchartypes.md)— Перелік послідовностей символів Unicode згрупованих за ними.
+-   [IntlChar::foldCase](intlchar.foldcase.md)— Перетворює регістр заданого символу.
+-   [IntlChar::forDigit](intlchar.fordigit.md)— Отримати символ, який представляє задане число в заданій основі
+-   [IntlChar::getBidiPairedBracket](intlchar.getbidipairedbracket.md)— Отримати парну дужку для символу
+-   [IntlChar::getBlockCode](intlchar.getblockcode.md)— Отримати блок розміщення символу Unicode
+-   [IntlChar::getCombiningClass](intlchar.getcombiningclass.md)— Отримати комбінуючий клас для символу
+-   [IntlChar::getFC\_NFKC\_Closure](intlchar.getfc-nfkc-closure.md) \- Отримати властивість FC\_NFKC\_Closure для символу
+-   [IntlChar::getIntPropertyMaxValue](intlchar.getintpropertymaxvalue.md)— Отримати мінімальне значення для властивості Unicode
+-   [IntlChar::getIntPropertyMinValue](intlchar.getintpropertyminvalue.md)— Отримати мінімальне значення для властивості Unicode
+-   [IntlChar::getIntPropertyValue](intlchar.getintpropertyvalue.md)— Отримати значення властивості Unicode для символу
+-   [IntlChar::getNumericValue](intlchar.getnumericvalue.md)— Отримати числову виставу для символу Unicode
+-   [IntlChar::getPropertyEnum](intlchar.getpropertyenum.md)— Отримати значення константи властивості на його ім'я
+-   [IntlChar::getPropertyName](intlchar.getpropertyname.md) \- Отримати Unicode ім'я властивості
+-   [IntlChar::getPropertyValueEnum](intlchar.getpropertyvalueenum.md)— Повернути числовий ідентифікатор властивості на його ім'я
+-   [IntlChar::getPropertyValueName](intlchar.getpropertyvaluename.md)— Отримати ім'я Unicode для значення властивості
+-   [IntlChar::getUnicodeVersion](intlchar.getunicodeversion.md)— Отримати версію Unicode
+-   [IntlChar::hasBinaryProperty](intlchar.hasbinaryproperty.md)— Перевірити бінарну властивість Unicode для символу
+-   [IntlChar::isalnum](intlchar.isalnum.md)— Перевірити, чи є символ буквою чи цифрою
+-   [IntlChar::isalpha](intlchar.isalpha.md)— Перевірити, чи є символ літерою
+-   [IntlChar::isbase](intlchar.isbase.md)— Перевірити, чи символ є базовим
 -   [IntlChar::isblank](intlchar.isblank.md) - Перевірити, чи є символ "порожнім" або "горизонтальним пропуском"
--   [IntlChar::iscntrl](intlchar.iscntrl.md) — Перевірити, чи є символ керуючим
--   [IntlChar::isdefined](intlchar.isdefined.md) — Перевірити, чи є символ.
--   [IntlChar::isdigit](intlchar.isdigit.md) — Перевірити, чи символ є цифрою
--   [IntlChar::isgraph](intlchar.isgraph.md) — Перевірити, чи є символом графічним символом
--   [IntlChar::isIDIgnorable](intlchar.isidignorable.md) — Перевірити, чи символ ігнорується
--   [IntlChar::isIDPart](intlchar.isidpart.md) — Перевірити, чи можна використовувати символ в ідентифікаторі
--   [IntlChar::isIDStart](intlchar.isidstart.md) — Перевірити, чи можна використовувати символ на початку ідентифікатора
--   [IntlChar::isISOControl](intlchar.isisocontrol.md) — Перевірити, чи є символ керуючим відповідно до ISO
--   [IntlChar::isJavaIDPart](intlchar.isjavaidpart.md) — Перевірити, чи символ допустимий в ідентифікаторі Java
--   [IntlChar::isJavaIDStart](intlchar.isjavaidstart.md) — Перевірити, чи символ може бути першим в ідентифікаторі Java
--   [IntlChar::isJavaSpaceChar](intlchar.isjavaspacechar.md) — Перевірити, чи є символ пробельним з точки зору Java
--   [IntlChar::islower](intlchar.islower.md) — Перевірити, чи у нижньому регістрі символ
--   [IntlChar::isMirrored](intlchar.ismirrored.md) — Перевірити, якщо символ має властивість BidiMirrored
--   [IntlChar::isprint](intlchar.isprint.md) — Перевіряє, чи символ відображається.
--   [IntlChar::ispunct](intlchar.ispunct.md) — Перевіряє, чи є символом пунктуації.
--   [IntlChar::isspace](intlchar.isspace.md) — Перевіряє, чи символ є пробельним.
--   [IntlChar::istitle](intlchar.istitle.md) — Перевірити, чи символ є титульним (Titlecase)
--   [IntlChar::isUAlphabetic](intlchar.isualphabetic.md) — Перевірити, чи встановлено символ символу Alphabetic
--   [IntlChar::isULowercase](intlchar.isulowercase.md) — Перевірити, чи символ є символом у нижньому регістрі
+-   [IntlChar::iscntrl](intlchar.iscntrl.md)— Перевірити, чи є символ керуючим
+-   [IntlChar::isdefined](intlchar.isdefined.md)— Перевірити, чи є символ.
+-   [IntlChar::isdigit](intlchar.isdigit.md)— Перевірити, чи символ є цифрою
+-   [IntlChar::isgraph](intlchar.isgraph.md)— Перевірити, чи є символом графічним символом
+-   [IntlChar::isIDIgnorable](intlchar.isidignorable.md)— Перевірити, чи символ ігнорується
+-   [IntlChar::isIDPart](intlchar.isidpart.md)— Перевірити, чи можна використовувати символ в ідентифікаторі
+-   [IntlChar::isIDStart](intlchar.isidstart.md)— Перевірити, чи можна використовувати символ на початку ідентифікатора
+-   [IntlChar::isISOControl](intlchar.isisocontrol.md)— Перевірити, чи є символ керуючим відповідно до ISO
+-   [IntlChar::isJavaIDPart](intlchar.isjavaidpart.md)— Перевірити, чи символ допустимий в ідентифікаторі Java
+-   [IntlChar::isJavaIDStart](intlchar.isjavaidstart.md)— Перевірити, чи символ може бути першим в ідентифікаторі Java
+-   [IntlChar::isJavaSpaceChar](intlchar.isjavaspacechar.md)— Перевірити, чи є символ пробельним з точки зору Java
+-   [IntlChar::islower](intlchar.islower.md)— Перевірити, чи у нижньому регістрі символ
+-   [IntlChar::isMirrored](intlchar.ismirrored.md)— Перевірити, якщо символ має властивість Bidi\_Mirrored
+-   [IntlChar::isprint](intlchar.isprint.md)— Перевіряє, чи символ відображається.
+-   [IntlChar::ispunct](intlchar.ispunct.md)— Перевіряє, чи є символом пунктуації.
+-   [IntlChar::isspace](intlchar.isspace.md)— Перевіряє, чи символ є пробельним.
+-   [IntlChar::istitle](intlchar.istitle.md)— Перевірити, чи символ є титульним (Titlecase)
+-   [IntlChar::isUAlphabetic](intlchar.isualphabetic.md)— Перевірити, чи встановлено символ символу Alphabetic
+-   [IntlChar::isULowercase](intlchar.isulowercase.md)— Перевірити, чи символ є символом у нижньому регістрі
 -   [IntlChar::isupper](intlchar.isupper.md) — Перевірити, чи входить символ у категорію "Lu" (літера у верхньому регістрі)
--   [IntlChar::isUUppercase](intlchar.isuuppercase.md) — Перевірити, чи символ є символом у верхньому регістрі
--   [IntlChar::isUWhiteSpace](intlchar.isuwhitespace.md) — Перевірити, чи має символ властивість WhiteSpace (пробіловий символ)
--   [IntlChar::isWhitespace](intlchar.iswhitespace.md) — Перевірити, чи символ є пробільним з точки зору ICU
--   [IntlChar::isxdigit](intlchar.isxdigit.md) — Перевірити, чи є символ шістнадцятковою цифрою
--   [IntlChar::ord](intlchar.ord.md) — Отримати код символ Unicode
--   [IntlChar::tolower](intlchar.tolower.md) — Перетворення символу Unicode на нижній регістр
--   [IntlChar::totitle](intlchar.totitle.md) — Перетворює символ Unicode у titlecase
--   [IntlChar::toupper](intlchar.toupper.md) — Перетворення символу Unicode у верхній регістр
+-   [IntlChar::isUUppercase](intlchar.isuuppercase.md)— Перевірити, чи символ є символом у верхньому регістрі
+-   [IntlChar::isUWhiteSpace](intlchar.isuwhitespace.md)— Перевірити, чи має символ властивість White\_Space (пробіловий символ)
+-   [IntlChar::isWhitespace](intlchar.iswhitespace.md)— Перевірити, чи символ є пробільним з точки зору ICU
+-   [IntlChar::isxdigit](intlchar.isxdigit.md)— Перевіряє, чи кодова точка відноситься до шістнадцяткової цифри.
+-   [IntlChar::ord](intlchar.ord.md)— Отримати код символ Unicode
+-   [IntlChar::tolower](intlchar.tolower.md)— Перетворює символ Unicode на нижній регістр
+-   [IntlChar::totitle](intlchar.totitle.md)— Перетворює символ Unicode на титульний регістр (titlecase)
+-   [IntlChar::toupper](intlchar.toupper.md)— Перетворює символ Unicode у верхній регістр

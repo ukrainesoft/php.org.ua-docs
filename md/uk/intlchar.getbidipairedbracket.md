@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::getBidiPairedBracket'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::getBidiPairedBracket
 
@@ -20,13 +21,13 @@ public static IntlChar::getBidiPairedBracket(int|string $codepoint): int|string|
 
 Отримує парну дужку для символу.
 
-Для `Bidi_Paired_Bracket_Type!=None`, це аналогічно [IntlChar::charMirror()](intlchar.charmirror.md). Якщо такого немає, повертається вихідний `codepoint`
+Для`Bidi_Paired_Bracket_Type!=None`, це аналогічно [IntlChar::charMirror()](intlchar.charmirror.md). Якщо такого немає, повертається вихідний `codepoint`
 
 ### Список параметрів
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
@@ -45,7 +46,7 @@ var_dump(IntlChar::getBidiPairedBracket('['));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(93)

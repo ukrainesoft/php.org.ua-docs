@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::setExternalAttributesIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::setExternalAttributesIndex
 
@@ -15,7 +16,7 @@ ZipArchive::setExternalAttributesIndex — Встановити зовнішні
 ### Опис
 
 ```methodsynopsis
-public ZipArchive::setExternalAttributesIndex(    int $index,    int $opsys,    int $attr,    int $flags = 0): bool
+public ZipArchive::setExternalAttributesIndex(    int $index,    int $opsys,    int $attr,    int $flags = 0): bool
 ```
 
 Встановлює зовнішні атрибути запису, заданого його індексом.
@@ -28,7 +29,7 @@ public ZipArchive::setExternalAttributesIndex(    int $index,    int $opsys,    
 
 `opsys`
 
-Код операційної системи заданий однією з констант ZipArchive::OPSYS
+Код операційної системи заданий однією з констант ZipArchive::OPSYS\_
 
 `attr`
 
@@ -40,4 +41,4 @@ public ZipArchive::setExternalAttributesIndex(    int $index,    int $opsys,    
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

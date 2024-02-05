@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-buffer.append.md: '« SwooleBuffer::append'
-  - swoole-buffer.construct.md: 'SwooleBuffer::construct »'
+  - swoole-buffer.append.md: '« Swoole\\Buffer::append'
+  - swoole-buffer.construct.md: 'Swoole\\Buffer::\_\_construct »'
   - index.md: PHP Manual
-  - class.swoole-buffer.md: SwooleBuffer
-title: 'SwooleBuffer::clear'
+  - class.swoole-buffer.md: Swoole\\Buffer
+title: 'Swoole\\Buffer::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleBuffer::clear
+# Swoole\\Buffer::clear
 
 (PECL swoole >= 1.9.0)
 
-SwooleBuffer::clear — Скидає буфер пам'яті
+Swoole\\Buffer::clear — Скидає буфер пам'яті
 
 ### Опис
 

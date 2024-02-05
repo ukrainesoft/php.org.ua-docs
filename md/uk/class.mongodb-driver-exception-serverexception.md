@@ -1,12 +1,13 @@
 ---
 navigation:
-  - mongodb-driver-runtimeexception.haserrorlabel.md: '« MongoDBDriverExceptionRuntimeException::hasErrorLabel'
-  - class.mongodb-driver-exception-sslconnectionexception.md: MongoDBDriverExceptionSSLConnectionException »
+  - mongodb-driver-runtimeexception.haserrorlabel.md: '« MongoDB\\Driver\\Exception\\RuntimeException::hasErrorLabel'
+  - class.mongodb-driver-exception-sslconnectionexception.md: MongoDB\\Driver\\Exception\\SSLConnectionException »
   - index.md: PHP Manual
-  - mongodb.exceptions.md: MongoDBDriverException
-title: Клас MongoDBDriverExceptionServerException
+  - mongodb.exceptions.md: MongoDB\\Driver\\Exception
+title: Клас MongoDB\\Driver\\Exception\\ServerException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverExceptionServerException
+# Клас MongoDB\\Driver\\Exception\\ServerException
 
 (mongodb >= 1.5.0)
 
@@ -41,26 +42,26 @@ title: Клас MongoDBDriverExceptionServerException
 
     
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */

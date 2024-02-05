@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::addServers'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::addServers
 
@@ -30,11 +31,11 @@ public Memcached::addServers(array $servers): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::addServers()****
+**Пример #1 Пример использования**Memcached::addServers()\*\*\*\*
 
 ```php
 <?php
@@ -50,5 +51,5 @@ $m->addServers($servers);
 
 ### Дивіться також
 
--   [Memcached::addServer()](memcached.addserver.md) - Додає сервер у пул
--   [Memcached::resetServerList()](memcached.resetserverlist.md) - Очищає список серверів
+-   [Memcached::addServer()](memcached.addserver.md) \- Додає сервер у пул
+-   [Memcached::resetServerList()](memcached.resetserverlist.md) \- Очищає список серверів

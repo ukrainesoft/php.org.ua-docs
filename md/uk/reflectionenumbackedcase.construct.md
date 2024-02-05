@@ -4,17 +4,18 @@ navigation:
   - reflectionenumbackedcase.getbackingvalue.md: 'ReflectionEnumBackedCase::getBackingValue »'
   - index.md: PHP Manual
   - class.reflectionenumbackedcase.md: ReflectionEnumBackedCase
-title: 'ReflectionEnumBackedCase::construct'
+title: 'ReflectionEnumBackedCase::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionEnumBackedCase::construct
+# ReflectionEnumBackedCase::\_\_construct
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-ReflectionEnumBackedCase::construct — Створює об'єкт [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
+ReflectionEnumBackedCase::\_\_construct — Створює об'єкт [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
 
 ### Опис
 
-public **ReflectionEnumBackedCase::construct**(object | string `$class`, string `$constant`
+public**ReflectionEnumBackedCase::\_\_construct**(object|string`$class`, string`$constant`) .
 
 ### Список параметрів
 

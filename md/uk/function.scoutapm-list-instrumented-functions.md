@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.scoutapm-get-calls.md: « scoutapmgetcalls
+  - function.scoutapm-get-calls.md: « scoutapm\_get\_calls
   - book.snmp.md: SNMP »
   - index.md: PHP Manual
-  - ref.scoutapm.md: Функции Scoutapm
-title: scoutapmlistinstrumentedфункцій
+  - ref.scoutapm.md: Функції Scoutapm
+title: scoutapm\_list\_instrumented\_functions
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# scoutapmlistinstrumentedфункцій
+# scoutapm\_list\_instrumented\_functions
 
 (PECL scoutapm >= 1.0.2)
 
-scoutapmlistinstrumentedfunctions — Список функцій, які scoutapm використовуватиме
+scoutapm\_list\_instrumented\_functions — Список функцій, які scoutapm використовуватиме
 
 ### Опис
 
@@ -26,7 +27,7 @@ scoutapm_list_instrumented_functions(): array
 
 ### Значення, що повертаються
 
-**scoutapmlistinstrumentedfunctions()** повертає масив, що містить список всіх функцій, які модуль scoutapm може використовувати у поточній установці.
+**scoutapm\_list\_instrumented\_functions()** повертає масив, що містить список усіх функцій, які модуль scoutapm може використовувати у поточній установці.
 
 ### Приклади
 
@@ -38,7 +39,7 @@ print_r(scoutapm_list_instrumented_functions());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

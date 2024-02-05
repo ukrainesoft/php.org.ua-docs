@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rlexer.build.md: '« ParleRLexer::build'
-  - parle-rlexer.consume.md: 'ParleRLexer::consume »'
+  - parle-rlexer.build.md: '« Parle\\RLexer::build'
+  - parle-rlexer.consume.md: 'Parle\\RLexer::consume »'
   - index.md: PHP Manual
-  - class.parle-rlexer.md: ParleRLexer
-title: 'ParleRLexer::callout'
+  - class.parle-rlexer.md: Parle\\RLexer
+title: 'Parle\\RLexer::callout'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRLexer::callout
+# Parle\\RLexer::callout
 
 (PECL parle >= 0.7.2)
 
-ParleRLexer::callout - Визначає callback-функцію токена
+Parle\\RLexer::callout - Визначає callback-функцію токена
 
 ### Опис
 

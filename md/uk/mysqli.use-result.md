@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli.thread-safe.md: '« mysqli::threadsafe'
-  - mysqli.warning-count.md: 'mysqli::$warningcount »'
+  - mysqli.thread-safe.md: '« mysqli::thread\_safe'
+  - mysqli.warning-count.md: 'mysqli::$warning\_count »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::useresult'
+title: 'mysqli::use\_result'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::useresult
+# mysqli::use\_result
 
-# mysqliuseresult
+# mysqli\_use\_result
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::useresult -- mysqliuseresult — Готує результуючий набір на сервері для використання
+mysqli::use\_result -- mysqli\_use\_result — Готує результуючий набір на сервері для використання
 
 ### Опис
 
@@ -28,13 +29,13 @@ public mysqli::use_result(): mysqli_result|false
 mysqli_use_result(mysqli $mysql): mysqli_result|false
 ```
 
-Використовується для підготовки результуючого набору останнього запиту, запущеного функцією [mysqlirealquery()](mysqli.real-query.md)
+Используется для подготовки к использованию результирующего набора последнего запроса, запущенного функцией[mysqli\_real\_query()](mysqli.real-query.md)
 
-Щоб результати запиту стали доступними, після запиту необхідно викликати або цю функцію, або [mysqlistoreresult()](mysqli.store-result.md). Також виклик будь-якому з них запобігатиме відмову наступних запитів на цьому ж з'єднанні.
+Щоб результати запиту стали доступними, після запиту необхідно викликати або цю функцію, або [mysqli\_store\_result()](mysqli.store-result.md). Також виклик будь-якому з них запобігатиме відмову наступних запитів на цьому ж з'єднанні.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **mysqliuseresult()** не передає весь результуючий набір на клієнта, а отже неможливо скористатися функцією [mysqlidataseek()](mysqli-result.data-seek.md)для переміщення по ньому. Для цього потрібно скористатися функцією [mysqlistoreresult()](mysqli.store-result.md). . **mysqliuseresult()** не слід використовувати, якщо на стороні клієнта дані результуючого набору довго обробляються, оскільки це затримує роботу сервера і не дає іншим процесам оновлювати таблиці, дані з яких є в результуючому наборі.
+> **mysqli\_use\_result()** не передає весь результуючий набір на клієнта, а отже, неможливо скористатися функцією [mysqli\_data\_seek()](mysqli-result.data-seek.md)для переміщення по ньому. Для цього потрібно скористатися функцією [mysqli\_store\_result()](mysqli.store-result.md). . **mysqli\_use\_result()** не слід використовувати, якщо на стороні клієнта дані результуючого набору довго обробляються, оскільки це затримує роботу сервера і не дає іншим процесам оновлювати таблиці, дані з яких є в результуючому наборі.
 
 ### Список параметрів
 
@@ -42,11 +43,15 @@ mysqli_use_result(mysqli $mysql): mysqli_result|false
 
 ### Значення, що повертаються
 
-Повертає небуферизований об'єкт результату запиту або **`false`** у разі помилки.
+Повертає небуферизований об'єкт результату запиту або \*\*`false`\*\*в случае возникновения ошибки.
+
+### Помилки
+
+Якщо сповіщення про помилки mysqli включено (**`MYSQLI_REPORT_ERROR`**) та запитана операція не вдалася, видається попередження. Якщо, крім того, встановлено режим **`MYSQLI_REPORT_STRICT`**, натомість буде викинуто виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::useresult()****
+**Пример #1 Пример использования**mysqli::use\_result()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -122,7 +127,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 my_user@localhost
@@ -136,5 +141,5 @@ Haarlemmermeer
 
 ### Дивіться також
 
--   [mysqlirealquery()](mysqli.real-query.md) - Виконання SQL запиту
--   [mysqlistoreresult()](mysqli.store-result.md) - передає на клієнта результуючий набір останнього запиту
+-   [mysqli\_real\_query()](mysqli.real-query.md) \- Виконання SQL запиту
+-   [mysqli\_store\_result()](mysqli.store-result.md) \- передає на клієнта результуючий набір останнього запиту

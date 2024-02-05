@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.zookeeper.md: ZooKeeper
 title: Клас ZookeeperConnectionException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ZookeeperConnectionException
 
@@ -31,27 +32,27 @@ title: Клас ZookeeperConnectionException
      {
     /* Наследуемые свойства */
     
-     protected
-     string
-      $message = "";
+      protected
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
     /* Наследуемые методы */
     

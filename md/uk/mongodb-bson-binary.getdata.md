@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-binary.construct.md: '« MongoDBBSONBinary::construct'
-  - mongodb-bson-binary.gettype.md: 'MongoDBBSONBinary::getType »'
+  - mongodb-bson-binary.construct.md: '« MongoDB\\BSON\\Binary::\_\_construct'
+  - mongodb-bson-binary.gettype.md: 'MongoDB\\BSON\\Binary::getType »'
   - index.md: PHP Manual
-  - class.mongodb-bson-binary.md: MongoDBBSONBinary
-title: 'MongoDBBSONBinary::getData'
+  - class.mongodb-bson-binary.md: MongoDB\\BSON\\Binary
+title: 'MongoDB\\BSON\\Binary::getData'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONBinary::getData
+# MongoDB\\BSON\\Binary::getData
 
 (mongodb >=1.0.0)
 
-MongoDBBSONBinary::getData — Повертає дані Binary
+MongoDB\\BSON\\Binary::getData — Повертає дані Binary
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\BSON\Binary::getData(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONBinary::getData()****
+**Пример #1 Пример использования**MongoDB\\BSON\\Binary::getData()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($binary->getData());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(3) "foo"
@@ -51,4 +52,4 @@ string(3) "foo"
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

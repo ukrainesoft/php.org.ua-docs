@@ -1,10 +1,11 @@
 ---
 navigation:
-  - evcheck.construct.md: '« EvCheck::construct'
+  - evcheck.construct.md: '« EvCheck::\_\_construct'
   - class.evchild.md: EvChild »
   - index.md: PHP Manual
   - class.evcheck.md: EvCheck
 title: 'EvCheck::createStopped'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvCheck::createStopped
 
@@ -36,7 +37,7 @@ final
 
 `callback`
 
-Дивіться [Callback-функції спостерігача](ev.watcher-callbacks.md)
+Смотрите[Callback-функції спостерігача](ev.watcher-callbacks.md)
 
 `data`
 
@@ -44,7 +45,7 @@ final
 
 `priority`
 
-[приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
+[пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 

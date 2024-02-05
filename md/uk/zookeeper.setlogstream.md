@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::setLogStream'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zookeeper::setLogStream
 
@@ -29,7 +30,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -41,5 +42,5 @@ public
 
 ### Дивіться також
 
--   [Zookeeper::setDebugLevel()](zookeeper.setdebuglevel.md) - Встановлює рівень логування для бібліотеки
+-   [Zookeeper::setDebugLevel()](zookeeper.setdebuglevel.md) \- Встановлює рівень логування для бібліотеки
 -   [ZookeeperException](class.zookeeperexception.md)

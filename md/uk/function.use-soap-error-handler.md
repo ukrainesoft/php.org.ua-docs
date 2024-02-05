@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-soap-fault.md: « issoapfault
+  - function.is-soap-fault.md: « is\_soap\_fault
   - class.soapclient.md: SoapClient »
   - index.md: PHP Manual
-  - ref.soap.md: Функции SOAP
-title: usesoaperrorhandler
+  - ref.soap.md: Функції SOAP
+title: use\_soap\_error\_handler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# usesoaperrorhandler
+# use\_soap\_error\_handler
 
 (PHP 5, PHP 7, PHP 8)
 
-usesoaperrorhandler — Визначте, чи потрібно використовувати обробник помилок SOAP.
+use\_soap\_error\_handler — Визначте, чи потрібно використовувати обробник помилок SOAP.
 
 ### Опис
 
@@ -32,5 +33,5 @@ use_soap_error_handler(bool $enable = true): bool
 
 ### Дивіться також
 
--   [seterrorhandler()](function.set-error-handler.md) - Задає користувальницький обробник помилок
--   [setexceptionhandler()](function.set-exception-handler.md) - Задає користувальницький обробник винятків
+-   [set\_error\_handler()](function.set-error-handler.md) \- Задає користувальницький обробник помилок
+-   [set\_exception\_handler()](function.set-exception-handler.md) \- Задає користувальницький обробник винятків

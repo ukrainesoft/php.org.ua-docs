@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getPackageName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getPackageName
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getPackageName — Повертає ім'я пакета ImageMagick
+Imagick::getPackageName — Повертає ім'я пакету ImageMagick
 
 ### Опис
 

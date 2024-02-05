@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
 title: snmpwalkoid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # snmpwalkoid
 
@@ -15,12 +16,12 @@ snmpwalkoid — Запит дерева інформації про мереже
 ### Опис
 
 ```methodsynopsis
-snmpwalkoid(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
+snmpwalkoid(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
 ```
 
-Функція **snmpwalkoid()** використовується для читання всіх ідентифікаторів об'єктів та їх відповідних значень агента SNMP, зазначеного в `hostname`
+Функция**snmpwalkoid()** використовується для читання всіх ідентифікаторів об'єктів та їх відповідних значень агента SNMP, зазначеного в `hostname`
 
-Функції **snmpwalkoid()** і [snmpwalk()](function.snmpwalk.md) існує з історичних причин. Обидві функції призначені для зворотної сумісності. Натомість використовуйте функцію [snmprealwalk()](function.snmprealwalk.md)
+Функції \*\*snmpwalkoid()\*\*и[snmpwalk()](function.snmpwalk.md) існує з історичних причин. Обидві функції призначені для зворотної сумісності. Натомість використовуйте функцію [snmprealwalk()](function.snmprealwalk.md)
 
 ### Список параметрів
 
@@ -48,11 +49,11 @@ Read-спільнота.
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив з ідентифікаторами об'єктів та відповідними їм значеннями об'єктів, починаючи з `object_id` як корінь або **`false`** у разі виникнення помилки.
+Повертає асоціативний масив з ідентифікаторами об'єктів та відповідними їм значеннями об'єктів, починаючи з `object_id` як корінь або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **snmpwalkoid()****
+**Пример #1 Пример использования**snmpwalkoid()\*\*\*\*
 
 ```php
 <?php
@@ -67,4 +68,4 @@ for (reset($a); $i = key($a); next($a)) {
 
 ### Дивіться також
 
--   [snmpwalk()](function.snmpwalk.md) - Отримує всі об'єкти SNMP із агента
+-   [snmpwalk()](function.snmpwalk.md) \- Отримує всі об'єкти SNMP із агента

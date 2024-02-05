@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-rename.md: « ftprename
-  - function.ftp-set-option.md: ftpsetoption »
+  - function.ftp-rename.md: « ftp\_rename
+  - function.ftp-set-option.md: ftp\_set\_option »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftprmdir
+title: ftp\_rmdir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftprmdir
+# ftp\_rmdir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftprmdir - Видаляє директорію
+ftp\_rmdir - Видаляє директорію
 
 ### Опис
 
@@ -24,7 +25,7 @@ ftp_rmdir(FTP\Connection $ftp, string $directory): bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `directory`
 
@@ -32,17 +33,17 @@ ftp_rmdir(FTP\Connection $ftp, string $directory): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftprmdir()****
+**Пример #1 Пример использования**ftp\_rmdir()\*\*\*\*
 
 ```php
 <?php
@@ -69,4 +70,4 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftpmkdir()](function.ftp-mkdir.md) - створює директорію
+-   [ftp\_mkdir()](function.ftp-mkdir.md) \- створює директорію

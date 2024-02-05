@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ps-show-xy2.md: «psshowxy2
-  - function.ps-show2.md: псshow2 »
+  - function.ps-show-xy2.md: « ps\_show\_xy2
+  - function.ps-show2.md: ps\_show2 »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псshowзі
+title: ps\_show\_xy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псshowзі
+# ps\_show\_xy
 
 (PECL ps >= 1.1.0)
 
-псshowxy — Виводить текст у заданій позиції
+ps\_show\_xy — Виводить текст у заданій позиції
 
 ### Опис
 
 ```methodsynopsis
-ps_show_xy(    resource $psdoc,    string $text,    float $x,    float $y): bool
+ps_show_xy(    resource $psdoc,    string $text,    float $x,    float $y): bool
 ```
 
 Виводить текст у заданій текстовій позиції.
@@ -24,7 +25,7 @@ ps_show_xy(    resource $psdoc,    string $text,    float $x,    float $y): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 `text`
 
@@ -40,9 +41,9 @@ ps_show_xy(    resource $psdoc,    string $text,    float $x,    float $y): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псcontinuetext()](function.ps-continue-text.md) - Продовжує текст у наступному рядку
--   [псshow()](function.ps-show.md) - Виводить текст
+-   [ps\_continue\_text()](function.ps-continue-text.md) \- Продовжує текст у наступному рядку
+-   [ps\_show()](function.ps-show.md) \- Виводить текст

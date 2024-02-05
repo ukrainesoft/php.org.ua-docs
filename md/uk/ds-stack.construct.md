@@ -1,22 +1,23 @@
 ---
 navigation:
-  - ds-stack.clear.md: '« DsStack::clear'
-  - ds-stack.copy.md: 'ДсStack::copy »'
+  - ds-stack.clear.md: '« Ds\\Stack::clear'
+  - ds-stack.copy.md: 'Ds\\Stack::copy »'
   - index.md: PHP Manual
-  - class.ds-stack.md: Стек
-title: 'ДсStack::construct'
+  - class.ds-stack.md: Ds\\Stack
+title: 'Ds\\Stack::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсStack::construct
+# Ds\\Stack::\_\_construct
 
 (PECL ds >= 1.0.0)
 
-ДсStack::construct — Створює новий екземпляр класу
+Ds\\Stack::\_\_construct — Створює новий екземпляр класу
 
 ### Опис
 
-public **ДсStack::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
+public**Ds\\Stack::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
 
-Створює новий екземпляр класу, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
+Створює новий екземпляр класу, використовуючи або об'єкт реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ public **ДсStack::construct**[mixed](language.types.declarations.md#language.t
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсStack::construct()****
+**Пример #1 Пример использования**Ds\\Stack::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ print_r($stack);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Stack Object

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::returnCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::returnCode
 
@@ -30,5 +31,5 @@ public GearmanWorker::returnCode(): int
 
 ### Дивіться також
 
--   [GearmanWorker::error()](gearmanworker.error.md) - Отримання останньої виявленої помилки
--   [GearmanWorker::getErrno()](gearmanworker.geterrno.md) - Отримання номера помилки
+-   [GearmanWorker::error()](gearmanworker.error.md) \- Отримання останньої виявленої помилки
+-   [GearmanWorker::getErrno()](gearmanworker.geterrno.md) \- Отримання номера помилки

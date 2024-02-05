@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.sodium-crypto-generichash-keygen.md: « sodiumcryptogenerichashkeygen
-  - function.sodium-crypto-generichash.md: sodiumcryptogenerichash »
+  - function.sodium-crypto-generichash-keygen.md: « sodium\_crypto\_generichash\_keygen
+  - function.sodium-crypto-generichash.md: sodium\_crypto\_generichash »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptogenerichashupdate
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_generichash\_update
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptogenerichashupdate
+# sodium\_crypto\_generichash\_update
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptogenerichashupdate — Додати повідомлення до хешу
+sodium\_crypto\_generichash\_update — Додати повідомлення до хешу
 
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_generichash_update(string &$state, string $message): bool
+sodium_crypto_generichash_update(string &$state, string $message): true
 ```
 
 Додає повідомлення до внутрішнього хеш-стану.
@@ -24,7 +25,7 @@ sodium_crypto_generichash_update(string &$state, string $message): bool
 
 `state`
 
-Значення, що повертається [sodiumcryptogenerichashinit()](function.sodium-crypto-generichash-init.md)
+Возвращаемое значение[sodium\_crypto\_generichash\_init()](function.sodium-crypto-generichash-init.md)
 
 `message`
 
@@ -32,11 +33,11 @@ sodium_crypto_generichash_update(string &$state, string $message): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Функція завжди повертає **`true`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptogenerichashupdate()****
+**Пример #1 Пример использования**sodium\_crypto\_generichash\_update()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump(sodium_bin2hex($allAtOnce));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(64) "e16e28bbbbcc39d9f5b1cbc33c41f1d217808640103e57a41f24870f79831e04"

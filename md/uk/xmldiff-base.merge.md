@@ -1,16 +1,17 @@
 ---
 navigation:
-  - xmldiff-base.diff.md: '« XMLDiffBase::diff'
-  - class.xmldiff-dom.md: XMLDiffDOM »
+  - xmldiff-base.diff.md: '« XMLDiff\\Base::diff'
+  - class.xmldiff-dom.md: XMLDiff\\DOM »
   - index.md: PHP Manual
-  - class.xmldiff-base.md: XMLDiffBase
-title: 'XMLDiffBase::merge'
+  - class.xmldiff-base.md: XMLDiff\\Base
+title: 'XMLDiff\\Base::merge'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# XMLDiffBase::merge
+# XMLDiff\\Base::merge
 
 (PECL xmldiff >= 0.8.0)
 
-XMLDiffBase::merge — Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого
+XMLDiff\\Base::merge — Створює новий документ XML, ґрунтуючись на інформації про його відмінність від іншого
 
 ### Опис
 
@@ -30,7 +31,7 @@ abstract public XMLDiff\Base::merge(mixed $src, mixed $diff): mixed
 
 `diff`
 
-Документ, створений методом, що реалізує абстрактний метод XMLDiffBase::diff.
+Документ, створений методом, що реалізує абстрактний метод XMLDiff\\Base::diff.
 
 ### Значення, що повертаються
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yaf-view-simple.md: « YafViewSimple
-  - yaf-view-simple.assignref.md: 'YafViewSimple::assignRef »'
+  - class.yaf-view-simple.md: « Yaf\_View\_Simple
+  - yaf-view-simple.assignref.md: 'Yaf\_View\_Simple::assignRef »'
   - index.md: PHP Manual
-  - class.yaf-view-simple.md: YafViewSimple
-title: 'YafViewSimple::assign'
+  - class.yaf-view-simple.md: Yaf\_View\_Simple
+title: 'Yaf\_View\_Simple::assign'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafViewSimple::assign
+# Yaf\_View\_Simple::assign
 
 (Yaf >=1.0.0)
 
-YafViewSimple::assign — Призначити значення
+Yaf\_View\_Simple::assign — Призначити значення
 
 ### Опис
 
@@ -36,7 +37,7 @@ public Yaf_View_Simple::assign(string $name, mixed $value = ?): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafViewSimple::assign()****
+**Пример #1 Пример использования**Yaf\_View\_Simple::assign()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ class IndexController extends Yaf_Controller_Abstract {
 ?>
 ```
 
-**Приклад #2 Приклад використання **template()****
+**Пример #2 Пример использования**template()\*\*\*\*
 
 ```php
 <html>
@@ -69,6 +70,6 @@ class IndexController extends Yaf_Controller_Abstract {
 
 ### Дивіться також
 
--   [YafViewSimple::assignRef()](yaf-view-simple.assignref.md) - Призначення assignRef
--   **YafViewInterface::clear()**
--   [YafViewSimple::set()](yaf-view-simple.set.md) - Встановлює значення для двигуна
+-   [Yaf\_View\_Simple::assignRef()](yaf-view-simple.assignref.md) \- Призначення assignRef
+-   **Yaf\_View\_Interface::clear()**
+-   [Yaf\_View\_Simple::\_\_set()](yaf-view-simple.set.md) \- Встановлює значення для двигуна

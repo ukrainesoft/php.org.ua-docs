@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::open'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::open
 
@@ -20,7 +21,7 @@ public ZipArchive::open(string $filename, int $flags = 0): bool|int
 
 Відкриває новий або існуючий ZIP-архів для читання, запису чи зміни.
 
-Починаючи з libzip 1.6.0, порожній файл не є коректним архівом.
+Починаючи з libzip 1.6.0, порожній файл більше не є коректним архівом.
 
 ### Список параметрів
 
@@ -45,7 +46,7 @@ public ZipArchive::open(string $filename, int $flags = 0): bool|int
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або один із наступних кодів помилки:
+Повертає **`true`** у разі успішного виконання, \*\*`false`\*\*или один из следующих кодов ошибки:
 
 **`ZipArchive::ER_EXISTS`**
 

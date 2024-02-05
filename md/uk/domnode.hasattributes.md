@@ -1,10 +1,11 @@
 ---
 navigation:
-  - domnode.getnodepath.md: '« DOMNode::getNodePath'
+  - domnode.getrootnode.md: '« DOMNode::getRootNode'
   - domnode.haschildnodes.md: 'DOMNode::hasChildNodes »'
   - index.md: PHP Manual
   - class.domnode.md: DOMNode
 title: 'DOMNode::hasAttributes'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNode::hasAttributes
 
@@ -26,8 +27,8 @@ public DOMNode::hasAttributes(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [DOMNode::hasChildNodes()](domnode.haschildnodes.md) - Перевіряє, чи має цей вузол нащадків
+-   [DOMNode::hasChildNodes()](domnode.haschildnodes.md) \- Перевіряє, чи має цей вузол нащадків

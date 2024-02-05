@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-obv.md: « traderobv
-  - function.trader-plus-dm.md: traderplusdm »
+  - function.trader-obv.md: « trader\_obv
+  - function.trader-plus-dm.md: trader\_plus\_dm »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderplusді
+  - ref.trader.md: Функції Trader
+title: trader\_plus\_di
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderplusді
+# trader\_plus\_di
 
 (PECL trader >= 0.2.0)
 
-traderplusdi — Плюс-спрямований індикатор
+trader\_plus\_di — Плюс-спрямований індикатор
 
 ### Опис
 
 ```methodsynopsis
-trader_plus_di(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_plus_di(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

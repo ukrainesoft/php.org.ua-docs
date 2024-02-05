@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.sendto.md: '« SwooleServer::sendto'
-  - swoole-server.set.md: 'SwooleServer::set »'
+  - swoole-server.sendto.md: '« Swoole\\Server::sendto'
+  - swoole-server.set.md: 'Swoole\\Server::set »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::sendwait'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::sendwait'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::sendwait
+# Swoole\\Server::sendwait
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::sendwait — Надсилає дані у віддалений сокет блокуючим способом
+Swoole\\Server::sendwait — Надсилає дані у віддалений сокет блокуючим способом
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Server::sendwait(int $fd, string $data): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.getmaxstalenessseconds.md: '« MongoDBDriverReadPreference::getMaxStalenessSeconds'
-  - mongodb-driver-readpreference.getmodestring.md: 'MongoDBDriverReadPreference::getModeString »'
+  - mongodb-driver-readpreference.getmaxstalenessseconds.md: '« MongoDB\\Driver\\ReadPreference::getMaxStalenessSeconds'
+  - mongodb-driver-readpreference.getmodestring.md: 'MongoDB\\Driver\\ReadPreference::getModeString »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
-title: 'MongoDBDriverReadPreference::getMode'
+  - class.mongodb-driver-readpreference.md: MongoDB\\Driver\\ReadPreference
+title: 'MongoDB\\Driver\\ReadPreference::getMode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverReadPreference::getMode
+# MongoDB\\Driver\\ReadPreference::getMode
 
 (mongodb >=1.0.0)
 
-MongoDBDriverReadPreference::getMode — Повертає "mode" ReadPreference
+MongoDB\\Driver\\ReadPreference::getMode — Повертає "mode" ReadPreference
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\Driver\ReadPreference::getMode(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverReadPreference::getMode()****
+**Пример #1 Пример использования**MongoDB\\Driver\\ReadPreference::getMode()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ var_dump($rp->getMode());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(1)
@@ -67,5 +68,5 @@ int(10)
 
 ### Дивіться також
 
--   [MongoDBDriverReadPreference::getModeString()](mongodb-driver-readpreference.getmodestring.md) - Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
--   [» Руководство по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [MongoDB\\Driver\\ReadPreference::getModeString()](mongodb-driver-readpreference.getmodestring.md) - Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
+-   [» Посібник з переваги читання](https://www.mongodb.com/docs/manual/core/read-preference/)

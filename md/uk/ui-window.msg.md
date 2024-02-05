@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-window.isfullscreen.md: '« UIWindow::isFullScreen'
-  - ui-window.onclosing.md: 'ОЙWindow::onClosing »'
+  - ui-window.isfullscreen.md: '« UI\\Window::isFullScreen'
+  - ui-window.onclosing.md: 'UI\\Window::onClosing »'
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::msg'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::msg'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::msg
+# UI\\Window::msg
 
 (UI 0.9.9)
 
-ОЙWindow::msg — Показати блок повідомлення
+UI\\Window::msg — Показати блок повідомлення
 
 ### Опис
 

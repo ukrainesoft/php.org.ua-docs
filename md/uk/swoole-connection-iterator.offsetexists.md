@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-connection-iterator.next.md: '« SwooleConnectionIterator::next'
-  - swoole-connection-iterator.offsetget.md: 'SwooleConnectionIterator::offsetGet »'
+  - swoole-connection-iterator.next.md: '« Swoole\\Connection\\Iterator::next'
+  - swoole-connection-iterator.offsetget.md: 'Swoole\\Connection\\Iterator::offsetGet »'
   - index.md: PHP Manual
-  - class.swoole-connection-iterator.md: SwooleConnectionIterator
-title: 'SwooleConnectionIterator::offsetExists'
+  - class.swoole-connection-iterator.md: Swoole\\Connection\\Iterator
+title: 'Swoole\\Connection\\Iterator::offsetExists'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleConnectionIterator::offsetExists
+# Swoole\\Connection\\Iterator::offsetExists
 
 (PECL swoole >= 1.9.0)
 
-SwooleConnectionIterator::offsetExists — Перевіряє, чи існує зміщення
+Swoole\\Connection\\Iterator::offsetExists — Перевіряє, чи існує зміщення
 
 ### Опис
 

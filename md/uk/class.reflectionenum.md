@@ -1,48 +1,51 @@
 ---
 navigation:
-  - reflectionclassconstant.tostring.md: '« ReflectionClassConstant::toString'
-  - reflectionenum.construct.md: 'ReflectionEnum::construct »'
+  - reflectionclassconstant.tostring.md: '« ReflectionClassConstant::\_\_function toString() { [native code] }'
+  - reflectionenum.construct.md: 'ReflectionEnum::\_\_construct »'
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Клас ReflectionEnum
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ReflectionEnum
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
-Клас **ReflectionEnum** повідомляє інформацію про перерахування.
+Класс**ReflectionEnum** повідомляє інформацію про перерахування.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class ReflectionEnum
     
 
     
-     
-      class ReflectionEnum
-     
-
-     
-      extends
-       ReflectionClass
-     
+     extends
+      ReflectionClass
      {
-    
+
     /* Наследуемые константы */
     
+     public
      const
      int
-      ReflectionClass::IS_IMPLICIT_ABSTRACT = 16;
-const
+      ReflectionClass::IS_IMPLICIT_ABSTRACT;
+public
+     const
      int
-      ReflectionClass::IS_EXPLICIT_ABSTRACT = 32;
-const
+      ReflectionClass::IS_EXPLICIT_ABSTRACT;
+public
+     const
      int
-      ReflectionClass::IS_FINAL = 64;
+      ReflectionClass::IS_FINAL;
+public
+     const
+     int
+      ReflectionClass::IS_READONLY;
 
 
     /* Наследуемые свойства */
@@ -55,7 +58,7 @@ const
     
    public __construct(object|string $objectOrClass)
 
-    public getBackingType(): ?ReflectionType
+    public getBackingType(): ?ReflectionNamedType
 public getCase(string $name): ReflectionEnumUnitCase
 public getCases(): array
 public hasCase(string $name): bool
@@ -88,7 +91,7 @@ public ReflectionClass::getReflectionConstant(string $name): ReflectionClassCons
 public ReflectionClass::getReflectionConstants(?int $filter = null): array
 public ReflectionClass::getShortName(): string
 public ReflectionClass::getStartLine(): int|false
-public ReflectionClass::getStaticProperties(): ?array
+public ReflectionClass::getStaticProperties(): array
 public ReflectionClass::getStaticPropertyValue(string $name, mixed &$def_value = ?): mixed
 public ReflectionClass::getTraitAliases(): array
 public ReflectionClass::getTraitNames(): array
@@ -108,6 +111,7 @@ public ReflectionClass::isInstantiable(): bool
 public ReflectionClass::isInterface(): bool
 public ReflectionClass::isInternal(): bool
 public ReflectionClass::isIterable(): bool
+public ReflectionClass::isReadOnly(): bool
 public ReflectionClass::isSubclassOf(ReflectionClass|string $class): bool
 public ReflectionClass::isTrait(): bool
 public ReflectionClass::isUserDefined(): bool
@@ -122,13 +126,13 @@ public ReflectionClass::__toString(): string
 
 ## Дивіться також
 
--   [Перечисления](language.enumerations.md)
+-   [Перерахування](language.enumerations.md)
 
 ## Зміст
 
--   [ReflectionEnum::construct](reflectionenum.construct.md) — Створює об'єкт ReflectionEnum
--   [ReflectionEnum::getBackingType](reflectionenum.getbackingtype.md) — Отримує тип перерахування, якщо є
--   [ReflectionEnum::getCase](reflectionenum.getcase.md) — Повертає певний варіант перерахування
--   [ReflectionEnum::getCases](reflectionenum.getcases.md) — Повертає список усіх варіантів перерахування
--   [ReflectionEnum::hasCase](reflectionenum.hascase.md) - Перевіряє варіант перерахування
--   [ReflectionEnum::isBacked](reflectionenum.isbacked.md) — Визначає, чи є перерахування типовим
+-   [ReflectionEnum::\_\_construct](reflectionenum.construct.md)— Створює об'єкт ReflectionEnum
+-   [ReflectionEnum::getBackingType](reflectionenum.getbackingtype.md)— Отримує тип перерахування, якщо є
+-   [ReflectionEnum::getCase](reflectionenum.getcase.md)— Повертає певний варіант перерахування
+-   [ReflectionEnum::getCases](reflectionenum.getcases.md)— Повертає список усіх варіантів перерахування
+-   [ReflectionEnum::hasCase](reflectionenum.hascase.md) \- Перевіряє варіант перерахування
+-   [ReflectionEnum::isBacked](reflectionenum.isbacked.md)— Визначає, чи є перерахування типовим

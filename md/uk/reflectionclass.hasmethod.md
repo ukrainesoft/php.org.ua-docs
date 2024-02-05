@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::hasMethod'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::hasMethod
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 ReflectionClass::hasMethod — Перевіряє, чи заданий метод
 
@@ -32,7 +33,7 @@ public ReflectionClass::hasMethod(string $name): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::hasMethod()****
+**Пример #1 Пример использования**ReflectionClass::hasMethod()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ var_dump($rc->hasMethod('PUBLICfOO'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -85,5 +86,5 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionClass::hasConstant()](reflectionclass.hasconstant.md) - Перевіряє, чи визначено константу
--   [ReflectionClass::hasProperty()](reflectionclass.hasproperty.md) - Перевіряє, чи визначено властивість
+-   [ReflectionClass::hasConstant()](reflectionclass.hasconstant.md) \- Перевіряє, чи визначено константу
+-   [ReflectionClass::hasProperty()](reflectionclass.hasproperty.md) \- Перевіряє, чи визначено властивість

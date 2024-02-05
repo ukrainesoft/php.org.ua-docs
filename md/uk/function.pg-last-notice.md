@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-last-error.md: « pglasterror
-  - function.pg-last-oid.md: пгlastoid »
+  - function.pg-last-error.md: « pg\_last\_error
+  - function.pg-last-oid.md: pg\_last\_oid »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгlastnotice
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_last\_notice
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгlastnotice
+# pg\_last\_notice
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-пгlastnotice — Повертає останнє повідомлення від сервера PostgreSQL
+pg\_last\_notice — Повертає останнє повідомлення від сервера PostgreSQL
 
 ### Опис
 
@@ -18,38 +19,38 @@ title: пгlastnotice
 pg_last_notice(PgSql\Connection $connection, int $mode = PGSQL_NOTICE_LAST): array|string|bool
 ```
 
-**пгlastnotice()** повертає останнє повідомлення згенероване сервером PostgreSQL на заданому з'єднанні `connection`. У деяких випадках сервер надсилає повідомлення, наприклад, при створенні в таблиці колонки типу `SERIAL`
+\*\*pg\_last\_notice()\*\*возвращает последнее уведомление, сгенерированное сервером PostgreSQL на заданном соединении`connection`. У деяких випадках сервер надсилає повідомлення, наприклад, при створенні в таблиці колонки типу `SERIAL`
 
-Завдяки **пгlastnotice()** не потрібно робити зайвих запитів, щоб дізнатися надсилала ваша транзакція повідомлення чи ні.
+Благодаря**pg\_last\_notice()** не потрібно робити зайвих запитів, щоб дізнатися надсилала ваша транзакція повідомлення чи ні.
 
-Можна відключити відстеження сповіщень установкою до 1 параметра `pgsql.ignore_notice` у файлі php.ini.
+Можно отключить отслеживание уведомлений установкой в значение 1 параметра`pgsql.ignore_notice`в файле php.ini.
 
-Можна вимкнути журналування повідомлень установкою до значення 0 параметра `pgsql.log_notice` у файлі php.ini. Поки цей параметр встановлено на 0, повідомлення неможливо записати до журналу виконання.
+Можна вимкнути журналування повідомлень налаштуванням у значення 0 параметра `pgsql.log_notice` у файлі php.ini. Поки цей параметр встановлено на 0, повідомлення неможливо записати до журналу виконання.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md)
 
 `mode`
 
-Одна з констант **`PGSQL_NOTICE_LAST`** (Для повернення останнього повідомлення), **`PGSQL_NOTICE_ALL`** (для повернення всіх повідомлень) або **`PGSQL_NOTICE_CLEAR`** (Для очищення повідомлень).
+Одна из констант\*\*`PGSQL_NOTICE_LAST`**(для возврата последнего уведомления),**`PGSQL_NOTICE_ALL`**(для возврата всех уведомлений) или**`PGSQL_NOTICE_CLEAR`\*\*(для очистки уведомлений).
 
 ### Значення, що повертаються
 
-Рядок, що містить останнє повідомлення на заданому з'єднанні, якщо задана опція **`PGSQL_NOTICE_LAST`**, масив (array), якщо опція **`PGSQL_NOTICE_ALL`** та значення типу bool у разі опції **`PGSQL_NOTICE_CLEAR`**
+Строка, содержащая последнее уведомление на заданном соединении, если задана опция\*\*`PGSQL_NOTICE_LAST`\*\*, масив (array), якщо опція **`PGSQL_NOTICE_ALL`**и значение типа bool в случае опции**`PGSQL_NOTICE_CLEAR`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Доданий параметр `mode` |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 7.1.0 | Добавлен параметр`mode` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгlastnotice()****
+**Пример #1 Пример использования**pg\_last\_notice()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ pg_last_notice(PgSql\Connection $connection, int $mode = PGSQL_NOTICE_LAST): arr
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 CREATE TABLE will create implicit sequence "test_id_seq" for "serial" column "test.id"
@@ -71,5 +72,5 @@ CREATE TABLE will create implicit sequence "test_id_seq" for "serial" column "te
 
 ### Дивіться також
 
--   [пгquery()](function.pg-query.md) - Виконує запит
--   [пгlasterror()](function.pg-last-error.md) - Отримує повідомлення про останню помилку на з'єднанні з базою даних.
+-   [pg\_query()](function.pg-query.md) \- Виконує запит
+-   [pg\_last\_error()](function.pg-last-error.md) \- Отримує повідомлення про останню помилку на з'єднанні з базою даних.

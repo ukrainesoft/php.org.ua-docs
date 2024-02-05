@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventdnsbase.md: EventDnsBase
 title: 'EventDnsBase::loadHosts'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventDnsBase::loadHosts
 
@@ -32,4 +33,4 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

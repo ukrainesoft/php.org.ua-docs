@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageResolution'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageResolution
 
@@ -36,7 +37,7 @@ public Imagick::setImageResolution(float $x_resolution, float $y_resolution): bo
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setImageResolution()****
+**Пример #1 Пример использования**Imagick::setImageResolution()\*\*\*\*
 
 ```php
 <?php

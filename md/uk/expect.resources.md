@@ -5,7 +5,8 @@ navigation:
   - index.md: PHP Manual
   - expect.setup.md: Встановлення та налаштування
 title: Типи ресурсів
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Типи ресурсів
 
-[expectpopen()](function.expect-popen.md) повертає відкритий потік PTY використовуваний [expectexpectl()](function.expect-expectl.md)
+[expect\_popen()](function.expect-popen.md) повертає відкритий потік PTY використовуваний [expect\_expectl()](function.expect-expectl.md)

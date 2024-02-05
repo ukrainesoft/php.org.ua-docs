@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::isFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::isFile
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::isFile — Вказує, чи об'єкт посилається на звичайний файл
 
@@ -30,7 +31,7 @@ public SplFileInfo::isFile(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::isFile()****
+**Пример #1 Пример использования**SplFileInfo::isFile()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($info->isFile());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)

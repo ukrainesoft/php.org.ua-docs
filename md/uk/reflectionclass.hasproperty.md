@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::hasProperty'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::hasProperty
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 ReflectionClass::hasProperty — Перевіряє, чи визначено властивість
 
@@ -32,7 +33,7 @@ public ReflectionClass::hasProperty(string $name): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::hasProperty()****
+**Пример #1 Пример использования**ReflectionClass::hasProperty()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($obj->hasProperty("p4"));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -63,5 +64,5 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionClass::hasConstant()](reflectionclass.hasconstant.md) - Перевіряє, чи визначено константу
--   [ReflectionClass::hasMethod()](reflectionclass.hasmethod.md) - Перевіряє, чи заданий метод
+-   [ReflectionClass::hasConstant()](reflectionclass.hasconstant.md) \- Перевіряє, чи визначено константу
+-   [ReflectionClass::hasMethod()](reflectionclass.hasmethod.md) \- Перевіряє, чи заданий метод

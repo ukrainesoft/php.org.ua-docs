@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlharamicross.md: « tradercdlharamicross
-  - function.trader-cdlhikkake.md: tradercdlhikkake »
+  - function.trader-cdlharamicross.md: « trader\_cdlharamicross
+  - function.trader-cdlhikkake.md: trader\_cdlhikkake »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlhighwave
+  - ref.trader.md: Функції Trader
+title: trader\_cdlhighwave
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlhighwave
+# trader\_cdlhighwave
 
 (PECL trader >= 0.2.0)
 
-tradercdlhighwave - Свічкова модель "Висока хвиля"
+trader\_cdlhighwave - Свічкова модель "Висока хвиля"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlhighwave(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlhighwave(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

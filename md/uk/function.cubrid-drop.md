@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-disconnect.md: « cubriddisconnect
-  - function.cubrid-error-code-facility.md: cubriderrorcodefacility »
+  - function.cubrid-disconnect.md: « cubrid\_disconnect
+  - function.cubrid-error-code-facility.md: cubrid\_error\_code\_facility »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubriddrop
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_drop
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubriddrop
+# cubrid\_drop
 
 (PECL CUBRID >= 8.3.0)
 
-cubriddrop — Видалення екземпляра OID
+cubrid\_drop — Видалення екземпляра OID
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubriddrop — Видалення екземпляра OID
 cubrid_drop(resource $conn_identifier, string $oid): bool
 ```
 
-Функція **cubriddrop()** використовується для видалення екземпляра з бази даних, заданого його `oid`
+Функция**cubrid\_drop()** використовується для видалення екземпляра з бази даних, заданого його `oid`
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ Oid екземпляра, який треба видалити.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubriddrop()****
+**Пример #1 Пример использования**cubrid\_drop()\*\*\*\*
 
 ```php
 <?php
@@ -78,7 +79,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 --- Before Drop: ---
@@ -140,4 +141,4 @@ array(4) {
 
 ### Дивіться також
 
--   [cubridісinstance()](function.cubrid-is-instance.md) - Перевіряє, чи існує екземпляр, на який вказує OID
+-   [cubrid\_is\_instance()](function.cubrid-is-instance.md) \- Перевіряє, чи існує екземпляр, на який вказує OID

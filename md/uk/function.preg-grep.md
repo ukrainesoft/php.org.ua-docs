@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.preg-filter.md: « pregfilter
-  - function.preg-last-error-msg.md: preglasterrormsg »
+  - function.preg-filter.md: « preg\_filter
+  - function.preg-last-error-msg.md: preg\_last\_error\_msg »
   - index.md: PHP Manual
-  - ref.pcre.md: Функции PCRE
-title: preggrep
+  - ref.pcre.md: Функції PCRE
+title: preg\_grep
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# preggrep
+# preg\_grep
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-preggrep — Повертає масив входжень, які відповідають шаблону
+preg\_grep — Повертає масив входжень, які відповідають шаблону
 
 ### Опис
 
@@ -32,11 +33,11 @@ preg_grep(string $pattern, array $array, int $flags = 0): array|false
 
 `flags`
 
-У разі, якщо встановлено **`PREG_GREP_INVERT`**, функція **preggrep()** повертає ті елементи масиву, які *Не відповідає* заданому шаблону `pattern`
+В случае, если установлен в\*\*`PREG_GREP_INVERT`**, функция**preg\_grep()\*\* повертає ті елементи масиву, які *Не відповідає*заданному шаблону`pattern`
 
 ### Значення, що повертаються
 
-Повертає масив, індексований ключами з масиву `array` або **`false`** у разі виникнення помилки.
+Повертає масив, індексований ключами з масиву `array`или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -44,11 +45,11 @@ preg_grep(string $pattern, array $array, int $flags = 0): array|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **preggrep()****
+**Пример #1 Пример использования**preg\_grep()\*\*\*\*
 
 ```php
 <?php
-// Возвращает все элементы Масива,
+// Возвращает все элементы массива,
 // содержащие числа с плавающей точкой
 $fl_array = preg_grep("/^(\d+)?\.\d+$/", $array);
 ?>
@@ -57,7 +58,7 @@ $fl_array = preg_grep("/^(\d+)?\.\d+$/", $array);
 ### Дивіться також
 
 -   [Регулярні вирази PCRE](pcre.pattern.md)
--   [pregquote()](function.preg-quote.md) - Екранує символи у регулярних виразах
--   [pregmatchall()](function.preg-match-all.md) - Виконує глобальний пошук шаблону у рядку
--   [pregfilter()](function.preg-filter.md) - Здійснює пошук та заміну за регулярним виразом
--   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [preg\_quote()](function.preg-quote.md) \- Екранує символи у регулярних виразах
+-   [preg\_match\_all()](function.preg-match-all.md) \- Виконує глобальний пошук шаблону у рядку
+-   [preg\_filter()](function.preg-filter.md) \- Здійснює пошук та заміну за регулярним виразом
+-   [preg\_last\_error()](function.preg-last-error.md) \- Повертає код помилки виконання останнього регулярного вираження PCRE

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yar-client.md: « YarClient
-  - yar-client.construct.md: 'YarClient::construct »'
+  - class.yar-client.md: « Yar\_Client
+  - yar-client.construct.md: 'Yar\_Client::\_\_construct »'
   - index.md: PHP Manual
-  - class.yar-client.md: YarClient
-title: 'YarClient::call'
+  - class.yar-client.md: Yar\_Client
+title: 'Yar\_Client::\_\_call'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YarClient::call
+# Yar\_Client::\_\_call
 
 (PECL yar >= 1.0.0)
 
-YarClient::call — Виклик сервісу
+Yar\_Client::\_\_call — Виклик сервісу
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Yar_Client::__call(string $method, array $parameters): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YarClient::call()****
+**Пример #1 Пример использования**Yar\_Client::\_\_call()\*\*\*\*
 
 ```php
 <?php
@@ -46,8 +47,8 @@ $result = $client->some_method("parameter");
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ### Дивіться також
 
--   [YarClient::setOpt()](yar-client.setopt.md) - Задати контекст виклику
+-   [Yar\_Client::setOpt()](yar-client.setopt.md) \- Задає контекст виклику

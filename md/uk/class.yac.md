@@ -1,10 +1,11 @@
 ---
 navigation:
-  - yac.constants.md: « Обумовлені константи
+  - yac.constants.md: « Зумовлені константи
   - yac.add.md: 'Yac::add »'
   - index.md: PHP Manual
   - book.yac.md: Yac
 title: Клас Yac
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Yac
 
@@ -52,17 +53,17 @@ public __set(string $keys, mixed $value): mixed
 
 ## Властивості
 
-prefix
+\_prefix
 
 ## Зміст
 
--   [Yac::add](yac.add.md) - Зберігає в кеш
--   [Yac::construct](yac.construct.md) - Конструктор класу
--   [Yac::delete](yac.delete.md) — Видаляє елементи з кешу
--   [Yac::dump](yac.dump.md) - Дамп кеша
--   [Yac::flush](yac.flush.md) - Очищає кеш
--   [Yac::get](yac.get.md) — Витягує значення з кешу
--   [Yac::get](yac.getter.md) - Геттер
--   [Yac::info](yac.info.md) - Стан кешу
--   [Yac::set](yac.set.md) - Зберігає в кеш
--   [Yac::set](yac.setter.md) - Сеттер
+-   [Yac::add](yac.add.md) \- Зберігає в кеш
+-   [Yac::\_\_construct](yac.construct.md) \- Конструктор класу
+-   [Yac::delete](yac.delete.md)— Видаляє елементи з кешу
+-   [Yac::dump](yac.dump.md) \- Дамп кеша
+-   [Yac::flush](yac.flush.md) \- Очищає кеш
+-   [Yac::get](yac.get.md)— Витягує значення з кешу
+-   [Yac::\_\_get](yac.getter.md) \- Геттер
+-   [Yac::info](yac.info.md) \- Стан кешу
+-   [Yac::set](yac.set.md) \- Зберігає в кеш
+-   [Yac::\_\_set](yac.setter.md) \- Сеттер

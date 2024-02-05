@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.getclientlist.md: '« SwooleServer::getClientList'
-  - swoole-server.heartbeat.md: 'SwooleServer::heartbeat »'
+  - swoole-server.getclientlist.md: '« Swoole\\Server::getClientList'
+  - swoole-server.heartbeat.md: 'Swoole\\Server::heartbeat »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::getLastError'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::getLastError'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::getLastError
+# Swoole\\Server::getLastError
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::getLastError — Отримує код останньої помилки
+Swoole\\Server::getLastError — Отримує код останньої помилки
 
 ### Опис
 

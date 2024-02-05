@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-scan0.md: « gmpscan0
-  - function.gmp-setbit.md: gmpsetbit »
+  - function.gmp-scan0.md: « gmp\_scan0
+  - function.gmp-setbit.md: gmp\_setbit »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpscan1
+title: gmp\_scan1
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpscan1
+# gmp\_scan1
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpscan1 — Пошук одиниці в числі
+gmp\_scan1 — Пошук одиниці в числі
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpscan1 — Пошук одиниці в числі
 gmp_scan1(GMP|int|string $num1, int $start): int
 ```
 
-Сканує `num1`, починаючи з біта `start`, Доки не знайде біт встановлений в 1.
+Сканує `num1`, начиная с бита`start`, Доки не знайде біт встановлений в 1.
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ gmp_scan1(GMP|int|string $num1, int $start): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpscan1()****
+**Пример #1 Пример использования**gmp\_scan1()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ echo gmp_scan1($s2, 5) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 3

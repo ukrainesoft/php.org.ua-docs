@@ -1,12 +1,13 @@
 ---
 navigation:
-  - mongodb-bson-maxkey.unserialize.md: '« MongoDBBSONMaxKey::unserialize'
-  - mongodb-bson-minkey.construct.md: 'MongoDBBSONMinKey::construct »'
+  - mongodb-bson-maxkey.unserialize.md: '« MongoDB\\BSON\\MaxKey::unserialize'
+  - mongodb-bson-minkey.construct.md: 'MongoDB\\BSON\\MinKey::\_\_construct »'
   - index.md: PHP Manual
-  - book.bson.md: MongoDBBSON
-title: Клас MongoDBBSONMinKey
+  - book.bson.md: MongoDB\\BSON
+title: Клас MongoDB\\BSON\\MinKey
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBBSONMinKey
+# Клас MongoDB\\BSON\\MinKey
 
 (mongodb >=1.0.0)
 
@@ -37,21 +38,21 @@ title: Клас MongoDBBSONMinKey
    final public __construct()
 final public jsonSerialize(): mixed
 final public serialize(): string
-final public unserialize(string $serialized): void
+final public unserialize(string $data): void
 
    }
 ```
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONMinKeyInterface](class.mongodb-bson-minkeyinterface.md) |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDB\\BSON\\MinKeyInterface](class.mongodb-bson-minkeyinterface.md) |
 | PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст
 
--   [MongoDBBSONMinKey::construct](mongodb-bson-minkey.construct.md) - Конструктор MinKey
--   [MongoDBBSONMinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDBBSONMinKey::serialize](mongodb-bson-minkey.serialize.md) - Серіалізує MinKey
--   [MongoDBBSONMinKey::unserialize](mongodb-bson-minkey.unserialize.md) - Десеріалізує MinKey
+-   [MongoDB\\BSON\\MinKey::\_\_construct](mongodb-bson-minkey.construct.md) \- Конструктор MinKey
+-   [MongoDB\\BSON\\MinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.md)— Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDB\\BSON\\MinKey::serialize](mongodb-bson-minkey.serialize.md) \- Серіалізує MinKey
+-   [MongoDB\\BSON\\MinKey::unserialize](mongodb-bson-minkey.unserialize.md) \- Десеріалізує MinKey

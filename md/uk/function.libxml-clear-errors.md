@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.libxml.md: « Функції libxml
-  - function.libxml-disable-entity-loader.md: libxmldisableentityloader »
+  - function.libxml-disable-entity-loader.md: libxml\_disable\_entity\_loader »
   - index.md: PHP Manual
   - ref.libxml.md: Функції libxml
-title: libxmlclearerrors
+title: libxml\_clear\_errors
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# libxmlclearerrors
+# libxml\_clear\_errors
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-libxmlclearerrors — Очищення буфера помилок libxml
+libxml\_clear\_errors — Очищення буфера помилок libxml
 
 ### Опис
 
@@ -18,7 +19,7 @@ libxmlclearerrors — Очищення буфера помилок libxml
 libxml_clear_errors(): void
 ```
 
-**libxmlclearerrors()** очищує буфер помилок libxml.
+\*\*libxml\_clear\_errors()\*\*очищает буфер ошибок libxml.
 
 ### Список параметрів
 
@@ -30,5 +31,5 @@ libxml_clear_errors(): void
 
 ### Дивіться також
 
--   [libxmlgeterrors()](function.libxml-get-errors.md) - Отримання масиву помилок, що відбулися.
--   [libxmlgetlasterror()](function.libxml-get-last-error.md) - Вилучення останньої помилки з libxml
+-   [libxml\_get\_errors()](function.libxml-get-errors.md) \- Отримання масиву помилок, що відбулися.
+-   [libxml\_get\_last\_error()](function.libxml-get-last-error.md) \- Вилучення останньої помилки з libxml

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - wrappers.md: Підтримувані протоколи та обгортки
 title: 'zlib://'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # zlib://
 
@@ -36,13 +37,17 @@ compress.zlib:// та compress.bzip2:// еквіваленти [gzopen()](functi
 
 | Атрибут | Поддержка |
 | --- | --- |
-| Обмеження по [allowurlfopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
+| Обмеження по [allow\_url\_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
 | Читання | Так |
-| Запис | Так (крім `zip://` |
-| Додавання | Так (крім `zip://` |
+| Запис | Так (крім `zip://`) . |
+| Додавання | Так (крім `zip://`) . |
 | Одночасне читання та запис | Ні |
-| Підтримка [stat()](function.stat.md) | Ні, використовуйте стандартну обгортку `file://` для отримання інформації щодо стислих файлів. |
-| Підтримка [unlink()](function.unlink.md) | Ні, використовуйте стандартну обгортку `file://` видалення стислих файлів. |
-| Підтримка [rename()](function.rename.md) | Ні |
-| Підтримка [mkdir()](function.mkdir.md) | Ні |
-| Підтримка [rmdir()](function.rmdir.md) | Ні |
+| Поддержка[stat()](function.stat.md) | Ні, використовуйте стандартну обгортку `file://` для отримання інформації щодо стислих файлів. |
+| Поддержка[unlink()](function.unlink.md) | Ні, використовуйте стандартну обгортку `file://` видалення стислих файлів. |
+| Поддержка[rename()](function.rename.md) | Ні |
+| Поддержка[mkdir()](function.mkdir.md) | Ні |
+| Поддержка[rmdir()](function.rmdir.md) | Ні |
+
+### Дивіться також
+
+-   [Zlib context options](context.zlib.md)

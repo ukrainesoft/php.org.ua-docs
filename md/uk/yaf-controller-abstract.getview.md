@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-controller-abstract.getresponse.md: '« YafControllerAbstract::getResponse'
-  - yaf-controller-abstract.getviewpath.md: 'YafControllerAbstract::getViewpath »'
+  - yaf-controller-abstract.getresponse.md: '« Yaf\_Controller\_Abstract::getResponse'
+  - yaf-controller-abstract.getviewpath.md: 'Yaf\_Controller\_Abstract::getViewpath »'
   - index.md: PHP Manual
-  - class.yaf-controller-abstract.md: YafControllerAbstract
-title: 'YafControllerAbstract::getView'
+  - class.yaf-controller-abstract.md: Yaf\_Controller\_Abstract
+title: 'Yaf\_Controller\_Abstract::getView'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafControllerAbstract::getView
+# Yaf\_Controller\_Abstract::getView
 
 (Yaf >=1.0.0)
 
-YafControllerAbstract::getView — Отримує двигун відображення
+Yaf\_Controller\_Abstract::getView — Отримує двигун відображення
 
 ### Опис
 

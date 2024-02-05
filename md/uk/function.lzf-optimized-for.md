@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.lzf-decompress.md: « lzfdecompress
+  - function.lzf-decompress.md: « lzf\_decompress
   - book.phar.md: Phar »
   - index.md: PHP Manual
   - ref.lzf.md: Функції LZF
-title: lzfoptimizedfor
+title: lzf\_optimized\_for
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# lzfoptimizedfor
+# lzf\_optimized\_for
 
 (PECL lzf >= 1.0.0)
 
-lzfoptimizedfor — Визначає режим оптимізації модуля LZF
+lzf\_optimized\_for — Визначає режим оптимізації модуля LZF
 
 ### Опис
 

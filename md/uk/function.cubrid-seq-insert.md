@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.cubrid-seq-drop.md: « cubridseqdrop
-  - function.cubrid-seq-put.md: cubridseqput »
+  - function.cubrid-seq-drop.md: « cubrid\_seq\_drop
+  - function.cubrid-seq-put.md: cubrid\_seq\_put »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridseqinsert
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_seq\_insert
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridseqinsert
+# cubrid\_seq\_insert
 
 (PECL CUBRID >= 8.3.0)
 
-cubridseqinsert — Вставляє елемент у стовпець типу послідовності за допомогою OID
+cubrid\_seq\_insert — Вставляє елемент у стовпець типу послідовності за допомогою OID
 
 ### Опис
 
 ```methodsynopsis
-cubrid_seq_insert(    resource $conn_identifier,    string $oid,    string $attr_name,    int $index,    string $seq_element): bool
+cubrid_seq_insert(    resource $conn_identifier,    string $oid,    string $attr_name,    int $index,    string $seq_element): bool
 ```
 
-Функція **cubridcolinsert()** використовується для вставлення елемента в атрибут типу послідовності у запрошеному місці.
+Функция**cubrid\_col\_insert()** використовується для вставлення елемента в атрибут типу послідовності у запрошеному місці.
 
 ### Список параметрів
 
@@ -44,11 +45,11 @@ OID екземпляра, з яким ви хочете працювати.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridseqinsert()****
+**Пример #1 Пример использования**cubrid\_seq\_insert()\*\*\*\*
 
 ```php
 <?php
@@ -76,7 +77,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(4) {
@@ -105,5 +106,5 @@ array(5) {
 
 ### Дивіться також
 
--   [cubridseqdrop()](function.cubrid-seq-drop.md) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID
--   [cubridseqput()](function.cubrid-seq-put.md) - Оновлює значення елемента стовпця типу послідовності за допомогою OID
+-   [cubrid\_seq\_drop()](function.cubrid-seq-drop.md) \- Видаляє елемент зі стовпця типу послідовності, використовуючи OID
+-   [cubrid\_seq\_put()](function.cubrid-seq-put.md) \- Оновлює значення елемента стовпця типу послідовності за допомогою OID

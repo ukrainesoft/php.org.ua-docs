@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::isCompressionMethodSupported'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::isCompressionMethodSupported
 
@@ -24,23 +25,23 @@ public static ZipArchive::isCompressionMethodSupported(int $method, bool $enc = 
 
 `method`
 
-Метод стиснення, одна з констант **`ZipArchive::CM_*`**
+Метод сжатия, одна из констант\*\*`ZipArchive::CM_*`\*\*
 
 `enc`
 
-Якщо **`true`** перевірка на стиск, інакше перевірка на декомпресію.
+Якщо \*\*`true`\*\*проверка на сжатие, иначе проверка на декомпрессию.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна лише в тому випадку, якщо PHP зібрано з libzip ≥ 1.7.0.
 
 ### Дивіться також
 
--   [ZipArchive::setCompressionIndex()](ziparchive.setcompressionindex.md) - Встановити метод стиснення запису, заданого його індексом
--   [ZipArchive::setCompressionName()](ziparchive.setcompressionname.md) - Встановити метод стиснення запису, заданого на ім'я
+-   [ZipArchive::setCompressionIndex()](ziparchive.setcompressionindex.md) \- Встановити метод стиснення запису, заданого його індексом
+-   [ZipArchive::setCompressionName()](ziparchive.setcompressionname.md) \- Встановити метод стиснення запису, заданого на ім'я

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-activation-steepness.md: « fanngetactivationsteepness
-  - function.fann-get-bit-fail-limit.md: fanngetbitfaillimit »
+  - function.fann-get-activation-steepness.md: « fann\_get\_activation\_steepness
+  - function.fann-get-bit-fail-limit.md: fann\_get\_bit\_fail\_limit »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetbiasarray
+  - ref.fann.md: Функції Fann
+title: fann\_get\_bias\_array
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetbiasarray
+# fann\_get\_bias\_array
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetbiasarray — Отримує кількість зміщень у кожному шарі мережі
+fann\_get\_bias\_array — Отримує кількість зміщень у кожному шарі мережі
 
 ### Опис
 

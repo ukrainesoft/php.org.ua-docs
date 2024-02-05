@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-setgid.md: « posixsetgid
-  - function.posix-setrlimit.md: posixsetrlimit »
+  - function.posix-setgid.md: « posix\_setgid
+  - function.posix-setrlimit.md: posix\_setrlimit »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixsetpgid
+  - ref.posix.md: POSIX Функції
+title: posix\_setpgid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixsetpgid
+# posix\_setpgid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posixsetpgid - Встановлює ідентифікатор групи процесу для менеджера завдань
+posix\_setpgid - Встановлює ідентифікатор групи процесу для менеджера завдань
 
 ### Опис
 
@@ -18,7 +19,7 @@ posixsetpgid - Встановлює ідентифікатор групи про
 posix_setpgid(int $process_id, int $process_group_id): bool
 ```
 
-Додає до процесу `process_id` ідентифікатор групи `process_group_id`
+Добавляет к процессу`process_id` ідентифікатор групи `process_group_id`
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ posix_setpgid(int $process_id, int $process_group_id): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 

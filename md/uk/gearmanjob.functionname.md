@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::functionName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanJob::functionName
 
@@ -15,7 +16,7 @@ GearmanJob::functionName — Отримання імені функції
 ### Опис
 
 ```methodsynopsis
-public GearmanJob::functionName(): string
+public GearmanJob::functionName(): false|string
 ```
 
 Повертає ім'я функції, яка обробляє дані, тобто функції, яка буде викликана для виконання завдання.
@@ -26,8 +27,8 @@ public GearmanJob::functionName(): string
 
 ### Значення, що повертаються
 
-Ім'я функції.
+Имя функции или\*\*`false`\*\*якщо завдання ще не ініціалізоване.
 
 ### Дивіться також
 
--   [GearmanTask::function()](gearmantask.function.md) - Отримати ім'я пов'язаної функції (застарілий метод)
+-   [GearmanTask::function()](gearmantask.function.md) \- Отримати ім'я пов'язаної функції (застарілий метод)

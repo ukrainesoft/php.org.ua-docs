@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setTermsSort'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setTermsSort
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setTermsSort — Визначає, як сортувати повернені умови.
 
@@ -18,13 +19,13 @@ SolrQuery::setTermsSort — Визначає, як сортувати повер
 public SolrQuery::setTermsSort(int $sortType): SolrQuery
 ```
 
-Якщо SolrQuery::TERMSSORTCOUNT сортує терміни за частотою (найбільше спочатку). Якщо SolrQuery::TERMSSORTINDEX, повертає умови у порядку індексу
+Якщо SolrQuery::TERMS\_SORT\_COUNT сортує терміни за частотою (найбільше спочатку). Якщо SolrQuery::TERMS\_SORT\_INDEX, повертає умови у порядку індексу
 
 ### Список параметрів
 
 `sortType`
 
-SolrQuery::TERMSSORTINDEX або SolrQuery::TERMSSORTCOUNT
+SolrQuery::TERMS\_SORT\_INDEX або SolrQuery::TERMS\_SORT\_COUNT
 
 ### Значення, що повертаються
 

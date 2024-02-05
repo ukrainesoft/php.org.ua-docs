@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.openssl-pkcs7-decrypt.md: « opensslpkcs7decrypt
-  - function.openssl-pkcs7-read.md: opensslpkcs7read »
+  - function.openssl-pkcs7-decrypt.md: « openssl\_pkcs7\_decrypt
+  - function.openssl-pkcs7-read.md: openssl\_pkcs7\_read »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslpkcs7encrypt
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_pkcs7\_encrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslpkcs7encrypt
+# openssl\_pkcs7\_encrypt
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-opensslpkcs7encrypt — Шифрує повідомлення S/MIME
+openssl\_pkcs7\_encrypt — Шифрує повідомлення S/MIME
 
 ### Опис
 
 ```methodsynopsis
-openssl_pkcs7_encrypt(    string $input_filename,    string $output_filename,    OpenSSLCertificate|array|string $certificate,    ?array $headers,    int $flags = 0,    int $cipher_algo = OPENSSL_CIPHER_AES_128_CBC): bool
+openssl_pkcs7_encrypt(    string $input_filename,    string $output_filename,    OpenSSLCertificate|array|string $certificate,    ?array $headers,    int $flags = 0,    int $cipher_algo = OPENSSL_CIPHER_AES_128_CBC): bool
 ```
 
-**opensslpkcs7encrypt()** читає повідомлення з файлу `input_filename`шифрує його за допомогою 40-бітного RC2 шифру таким чином, що розшифрувати його можуть тільки одержувачі, зазначеними в `certificate`
+**openssl\_pkcs7\_encrypt()** читає повідомлення з файлу `input_filename`шифрує його за допомогою 40-бітного RC2 шифру таким чином, що розшифрувати його можуть тільки одержувачі, зазначеними в `certificate`
 
 ### Список параметрів
 
@@ -38,26 +39,26 @@ openssl_pkcs7_encrypt(    string $input_filename,    string $output_filename,   
 
 `flags`
 
-`flags` використовується для налаштування процесу шифрування. Дивіться [Константи PKCS7](openssl.pkcs7.flags.md)
+`flags`используется для настройки процесса шифрования. Смотрите[Константи PKCS7](openssl.pkcs7.flags.md)
 
 `cipher_algo`
 
-Одна з [констант шифрів](openssl.ciphers.md)
+Одна из[констант шифрів](openssl.ciphers.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Алгоритм шифрування за замовчуванням (`cipher_algo`) тепер AES-128-CBC (**`OPENSSL_CIPHER_AES_128_CBC`**). Раніше використовувався алгоритм PKCS7/CMS (**`OPENSSL_CIPHER_RC2_40`** |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+| 8.1.0 | Алгоритм шифрування за замовчуванням (`cipher_algo`) тепер AES-128-CBC (**`OPENSSL_CIPHER_AES_128_CBC`**). Раніше використовувався алгоритм PKCS7/CMS (**`OPENSSL_CIPHER_RC2_40`** |
+| 8.0.0 | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL X.509 CSR` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslpkcs7encrypt()****
+**Пример #1 Пример использования**openssl\_pkcs7\_encrypt()\*\*\*\*
 
 ```php
 <?php

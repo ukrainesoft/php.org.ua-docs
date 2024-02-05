@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - filter.examples.md: Приклади
 title: Перевірка (валідація)
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Перевірка (валідація)
 
-**Приклад #1 Валідація e-mail адреси за допомогою функції [filtervar()](function.filter-var.md)**
+**Пример #1 Валидация e-mail адреса, используя функцию[filter\_var()](function.filter-var.md)**
 
 ```php
 <?php
@@ -26,14 +27,14 @@ if (filter_var($email_b, FILTER_VALIDATE_EMAIL)) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 E-mail адрес 'joe@example.com' указан верно.
 E-mail адрес 'bogus' указан неверно.
 ```
 
-**Приклад #2 Валідація IP-адреси за допомогою функції [filtervar()](function.filter-var.md)**
+**Пример #2 Валидация IP-адреса, используя функцию[filter\_var()](function.filter-var.md)**
 
 ```php
 <?php
@@ -49,13 +50,13 @@ if (filter_var($ip_b, FILTER_VALIDATE_IP)) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Адрес '127.0.0.1' указан верно.
 ```
 
-**Приклад #3 Додаткові параметри функції [filtervar()](function.filter-var.md)**
+**Приклад #3 Додаткові параметри функції [filter\_var()](function.filter-var.md)**
 
 ```php
 <?php
@@ -85,7 +86,7 @@ if (($int_c = filter_var($int_c, FILTER_VALIDATE_INT, $options)) !== FALSE) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Число A '1' является верным (от 0 до 3).

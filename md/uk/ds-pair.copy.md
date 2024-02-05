@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-pair.construct.md: '« DsPair::construct'
-  - ds-pair.isempty.md: 'ДсPair::isEmpty »'
+  - ds-pair.construct.md: '« Ds\\Pair::\_\_construct'
+  - ds-pair.isempty.md: 'Ds\\Pair::isEmpty »'
   - index.md: PHP Manual
-  - class.ds-pair.md: Пара
-title: 'ДсPair::copy'
+  - class.ds-pair.md: Ds\\Pair
+title: 'Ds\\Pair::copy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсPair::copy
+# Ds\\Pair::copy
 
 (No version information available, might only be in Git)
 
-ДсPair::copy — Повертає поверхневу копію пари
+Ds\\Pair::copy — Повертає поверхневу копію пари
 
 ### Опис
 
@@ -28,7 +29,7 @@ public Ds\Pair::copy(): Ds\Pair
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсPair::copy()****
+**Пример #1 Пример использования**Ds\\Pair::copy()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ print_r($b);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Pair Object

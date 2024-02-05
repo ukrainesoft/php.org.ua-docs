@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-bit-fail.md: « fanngetbitfail
-  - function.fann-get-cascade-activation-functions.md: fanngetcascadeactivationfunctions »
+  - function.fann-get-bit-fail.md: « fann\_get\_bit\_fail
+  - function.fann-get-cascade-activation-functions.md: fann\_get\_cascade\_activation\_functions »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetcascadeactivationфункційcount
+  - ref.fann.md: Функції Fann
+title: fann\_get\_cascade\_activation\_functions\_count
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetcascadeactivationфункційcount
+# fann\_get\_cascade\_activation\_functions\_count
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetcascadeactivationфункційcount — Повертає кількість функцій каскадної активації
+fann\_get\_cascade\_activation\_functions\_count — Повертає кількість функцій каскадної активації
 
 ### Опис
 
@@ -18,7 +19,7 @@ fanngetcascadeactivationфункційcount — Повертає кількіс�
 fann_get_cascade_activation_functions_count(resource $ann): int
 ```
 
-Кількість функцій активації у масиві [fanngetcascadeactivationfunctions()](function.fann-get-cascade-activation-functions.md)
+Кількість функцій активації у масиві [fann\_get\_cascade\_activation\_functions()](function.fann-get-cascade-activation-functions.md)
 
 Кількість функцій активації за промовчанням - 6.
 
@@ -30,9 +31,9 @@ fann_get_cascade_activation_functions_count(resource $ann): int
 
 ### Значення, що повертаються
 
-Кількість функцій каскадної активації або **`false`** у разі виникнення помилки.
+Кількість функцій каскадної активації або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fanngetcascadeactivationfunctions()](function.fann-get-cascade-activation-functions.md) - Повертає функції каскадної активації
--   [fannsetcascadeactivationfunctions()](function.fann-set-cascade-activation-functions.md) - встановлює масив каскадних функцій активації кандидатів
+-   [fann\_get\_cascade\_activation\_functions()](function.fann-get-cascade-activation-functions.md) \- Повертає функції каскадної активації
+-   [fann\_set\_cascade\_activation\_functions()](function.fann-set-cascade-activation-functions.md) \- встановлює масив каскадних функцій активації кандидатів

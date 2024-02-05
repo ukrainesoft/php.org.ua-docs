@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-set.capacity.md: '« DsSet::capacity'
-  - ds-set.construct.md: 'ДсSet::construct »'
+  - ds-set.capacity.md: '« Ds\\Set::capacity'
+  - ds-set.construct.md: 'Ds\\Set::\_\_construct »'
   - index.md: PHP Manual
-  - class.ds-set.md: Набор
-title: 'ДсSet::clear'
+  - class.ds-set.md: Ds\\Set
+title: 'Ds\\Set::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSet::clear
+# Ds\\Set::clear
 
 (PECL ds >= 1.0.0)
 
-ДсSet::clear — Видаляє всі значення з колекції
+Ds\\Set::clear — Видаляє всі значення з колекції
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Set::clear(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSet::clear()****
+**Пример #1 Пример использования**Ds\\Set::clear()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ print_r($set);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Set Object

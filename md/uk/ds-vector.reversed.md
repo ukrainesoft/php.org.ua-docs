@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.reverse.md: '« DsVector::reverse'
-  - ds-vector.rotate.md: 'ДсVector::rotate »'
+  - ds-vector.reverse.md: '« Ds\\Vector::reverse'
+  - ds-vector.rotate.md: 'Ds\\Vector::rotate »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::reversed'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::reversed'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::reversed
+# Ds\\Vector::reversed
 
 (PECL ds >= 1.0.0)
 
-ДсVector::reverse — Повертає перегорнуту копію вектора
+Ds\\Vector::reverse — Повертає перегорнуту копію вектора
 
 ### Опис
 
@@ -28,13 +29,13 @@ public Ds\Vector::reversed(): Ds\Vector
 
 Вектор перевернена копія.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Поточний вектор не зміниться.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::reversed()****
+**Пример #1 Пример использования**Ds\\Vector::reversed()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ print_r($vector);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

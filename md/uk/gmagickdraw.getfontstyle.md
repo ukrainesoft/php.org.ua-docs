@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::getfontstyle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GmagickDraw::getfontstyle
 
@@ -18,7 +19,7 @@ GmagickDraw::getfontstyle — Повертає стиль шрифту
 public GmagickDraw::getfontstyle(): int
 ```
 
-Повертає стиль шрифту, який використовується при анотуванні текстом.
+Повертає стиль шрифту, який використовується під час анотування текстом.
 
 ### Список параметрів
 
@@ -26,4 +27,4 @@ public GmagickDraw::getfontstyle(): int
 
 ### Значення, що повертаються
 
-Повертає константу стилю шрифту (STYLE), пов'язану з об'єктом [GmagickDraw](class.gmagickdraw.md), або `0`, якщо стиль не встановлено.
+Повертає константу стилю шрифту (STYLE\_), пов'язану з об'єктом [GmagickDraw](class.gmagickdraw.md), или , якщо стиль не встановлено.

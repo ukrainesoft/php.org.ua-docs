@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::echo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::echo
 
 (PECL gearman >= 0.5.0)
 
-GearmanClient::echo — Надсилає дані всім серверам завдань, щоб перевірити відгук Застарілий метод
+GearmanClient::echo — Надсилає дані всім серверам завдань, щоб перевірити відгук \[Застарілий метод\]
 
 ### Опис
 
@@ -18,7 +19,7 @@ GearmanClient::echo — Надсилає дані всім серверам за
 public GearmanClient::echo(string $workload): bool
 ```
 
-Метод **GearmanClient::echo()** застарів з pecl/gearman 1.0.0. Використовуйте [GearmanClient::ping()](gearmanclient.ping.md)
+Метод\*\*GearmanClient::echo()\*\*устарел начиная с pecl/gearman 1.0.0. Используйте[GearmanClient::ping()](gearmanclient.ping.md)
 
 ### Список параметрів
 
@@ -28,4 +29,4 @@ public GearmanClient::echo(string $workload): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.generator.md: Generator
 title: 'Generator::getReturn'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Generator::getReturn
 
@@ -28,7 +29,7 @@ public Generator::getReturn(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Generator::getReturn()****
+**Пример #1 Пример использования**Generator::getReturn()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ foreach ($gen as $val) {
 echo $gen->getReturn(), PHP_EOL;
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1

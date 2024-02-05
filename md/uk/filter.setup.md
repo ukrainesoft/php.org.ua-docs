@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.filter.md: « Введение
+  - intro.filter.md: '" Вступ'
   - filter.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.filter.md: Filter
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

@@ -4,9 +4,10 @@ navigation:
   - imagickpixeliterator.getpreviousiteratorrow.md: 'ImagickPixelIterator::getPreviousIteratorRow »'
   - index.md: PHP Manual
   - class.imagickpixeliterator.md: ImagickPixelIterator
-title: 'ImagickPixel Iterator::getNext Iterator Row'
+title: 'ImagickPixelIterator::getNextIteratorRow'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ImagickPixel Iterator::getNext Iterator Row
+# ImagickPixelIterator::getNextIteratorRow
 
 (PECL imagick 2, PECL imagick 3)
 
@@ -20,7 +21,7 @@ public ImagickPixelIterator::getNextIteratorRow(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає наступний ряд як масиву пікселів з ітератора пікселів.
 
@@ -30,7 +31,7 @@ public ImagickPixelIterator::getNextIteratorRow(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickPixel Iterator::getNext Iterator Row()****
+**Пример #1 Пример использования**ImagickPixelIterator::getNextIteratorRow()\*\*\*\*
 
 ```php
 <?php

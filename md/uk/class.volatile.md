@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.pthreads.md: pthreads
 title: Клас Volatile
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Volatile
 
@@ -12,7 +13,7 @@ title: Клас Volatile
 
 ## Вступ
 
-Клас **Volatile** з'явився в pthreads v3. Його запровадження є наслідком нової семантики незмінності [Threaded](class.threaded.md)властивостей класів [Threaded](class.threaded.md). Клас **Volatile** включає іммутабельність їх [Threaded](class.threaded.md)властивостей і також використовується для зберігання масивів PHP в контексті [Threaded](class.threaded.md)
+Класс**Volatile** з'явився в pthreads v3. Його запровадження є наслідком нової семантики незмінності [Threaded](class.threaded.md)\-властивостей класів [Threaded](class.threaded.md)Класс**Volatile** включає іммутабельність їх [Threaded](class.threaded.md)\-властивостей і також використовується для зберігання масивів PHP в контексті [Threaded](class.threaded.md)
 
 ## Огляд класів
 
@@ -66,14 +67,14 @@ class Task extends Threaded
         $this->data = new Threaded();
 
         // попытка переопределить Threaded-свойство Threaded-класса (ошибка)
-        $this->data = new StdClass();
+        $this->data = new stdClass();
     }
 }
 
 var_dump((new Task())->data);
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 RuntimeException: Threaded members previously set to Threaded objects are immutable, cannot overwrite data in %s:%d
@@ -91,14 +92,14 @@ class Task extends Volatile
         $this->data = new Threaded();
 
         // попытка переопределить Threaded-свойство Volatile-класса (корректно)
-        $this->data = new StdClass();
+        $this->data = new stdClass();
     }
 }
 
 var_dump((new Task())->data);
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(stdClass)#3 (0) {

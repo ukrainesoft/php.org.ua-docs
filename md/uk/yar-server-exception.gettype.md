@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yar-server-exception.md: « YarServerException
-  - class.yar-client-exception.md: YarClientException »
+  - class.yar-server-exception.md: « Yar\_Server\_Exception
+  - class.yar-client-exception.md: Yar\_Client\_Exception »
   - index.md: PHP Manual
-  - class.yar-server-exception.md: YarServerException
-title: 'YarServerException::getType'
+  - class.yar-server-exception.md: Yar\_Server\_Exception
+title: 'Yar\_Server\_Exception::getType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YarServerException::getType
+# Yar\_Server\_Exception::getType
 
 (PECL yar >= 1.0.0)
 
-YarServerException::getType — Отримати тип виключення
+Yar\_Server\_Exception::getType — Отримати тип виключення
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Yar_Server_Exception::getType(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YarServerException::getType()****
+**Пример #1 Пример использования**Yar\_Server\_Exception::getType()\*\*\*\*
 
 ```php
 //Server.php
@@ -59,7 +60,7 @@ try {
 }
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(16) "Custom_Exception"

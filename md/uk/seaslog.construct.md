@@ -4,21 +4,22 @@ navigation:
   - seaslog.critical.md: 'SeasLog::critical »'
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
-title: 'SeasLog::construct'
+title: 'SeasLog::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SeasLog::construct
+# SeasLog::\_\_construct
 
 (PECL seaslog >=1.0.0)
 
-SeasLog::construct — Опис
+SeasLog::\_\_construct — Опис
 
 ### Опис
 
-public **SeasLog::construct**
+public**SeasLog::\_\_construct**()
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ public **SeasLog::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::construct()****
+**Пример #1 Пример использования**SeasLog::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -36,7 +37,7 @@ public **SeasLog::construct**
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 ...

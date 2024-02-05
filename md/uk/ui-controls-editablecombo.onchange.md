@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-editablecombo.gettext.md: '« UIControlsEditableCombo::getText'
-  - ui-controls-editablecombo.settext.md: 'ОЙControlsEditableCombo::setText »'
+  - ui-controls-editablecombo.gettext.md: '« UI\\Controls\\EditableCombo::getText'
+  - ui-controls-editablecombo.settext.md: 'UI\\Controls\\EditableCombo::setText »'
   - index.md: PHP Manual
-  - class.ui-controls-editablecombo.md: ОЙControlsEditableCombo
-title: 'ОЙControlsEditableCombo::onChange'
+  - class.ui-controls-editablecombo.md: UI\\Controls\\EditableCombo
+title: 'UI\\Controls\\EditableCombo::onChange'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsEditableCombo::onChange
+# UI\\Controls\\EditableCombo::onChange
 
 (UI 0.9.9)
 
-ОЙControlsEditableCombo::onChange — Обробник зміни
+UI\\Controls\\EditableCombo::onChange — Обробник зміни
 
 ### Опис
 

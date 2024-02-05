@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagegetclip
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagegetclip
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
 imagegetclip — Отримати прямокутник, що відсікає
 
@@ -37,13 +38,13 @@ imagegetclip(GdImage $image): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagegetclip()****
+**Пример #1 Пример использования**imagegetclip()\*\*\*\*
 
 Встановлення та витяг відсікаючого прямокутника.
 
@@ -54,7 +55,7 @@ imagesetclip($im, 10,10, 89,89);
 print_r(imagegetclip($im));
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -68,4 +69,4 @@ Array
 
 ### Дивіться також
 
--   [imagesetclip()](function.imagesetclip.md) - Встановіть прямокутник обмеження
+-   [imagesetclip()](function.imagesetclip.md) \- Встановіть прямокутник обмеження

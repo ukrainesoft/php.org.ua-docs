@@ -1,10 +1,11 @@
 ---
 navigation:
   - zmqsocket.bind.md: '« ZMQSocket::bind'
-  - zmqsocket.construct.md: 'ZMQSocket::construct »'
+  - zmqsocket.construct.md: 'ZMQSocket::\_\_construct »'
   - index.md: PHP Manual
   - class.zmqsocket.md: ZMQSocket
 title: 'ZMQSocket::connect'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZMQSocket::connect
 
@@ -36,11 +37,11 @@ public ZMQSocket::connect(string $dsn, bool $force = false): ZMQSocket
 
 ### Помилки
 
-Викидає **ZMQSocketException** у разі виникнення помилки.
+Викидає **ZMQSocketException**в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ZMQContext()****
+**Пример #1 Пример использования**ZMQContext()\*\*\*\*
 
 Створити новий контекст та виділити сокет
 

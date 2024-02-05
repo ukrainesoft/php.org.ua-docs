@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.headers-list.md: « headerslist
-  - function.http-response-code.md: httpresponsecode »
+  - function.headers-list.md: « headers\_list
+  - function.http-response-code.md: http\_response\_code »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
-title: headerssent
+title: headers\_sent
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# headerssent
+# headers\_sent
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-headerssent — Перевіряє, чи надіслано заголовки.
+headers\_sent — Перевіряє, чи надіслано заголовки.
 
 ### Опис
 
@@ -26,7 +27,11 @@ headers_sent(string &$filename = null, int &$line = null): bool
 
 `filename`
 
-Якщо задані додаткові параметри `filename` і `line`, то функція **headerssent()** помістить ім'я вихідного файлу PHP та номер рядка, з якого починається виведення в змінні `filename` і `line`
+Якщо задані додаткові параметри `filename`и`line`, то функция**headers\_sent()** помістить ім'я вихідного файлу PHP та номер рядка, з якого починається виведення в змінні `filename`и`line`
+
+> **Зауваження** :
+> 
+> Якщо виведення розпочалося до виконання вихідного файлу PHP (наприклад, через помилку запуску), параметр `filename` буде встановлено як порожній рядок.
 
 `line`
 
@@ -34,11 +39,11 @@ headers_sent(string &$filename = null, int &$line = null): bool
 
 ### Значення, що повертаються
 
-Функція **headerssent()** поверне **`false`**, якщо HTTP-заголовки не були надіслані, або **`true`** якщо відправлені.
+Функция**headers\_sent()** поверне **`false`**, якщо HTTP-заголовки не були надіслані, або **`true`** якщо відправлені.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **headerssent()****
+**Пример #1 Пример использования**headers\_sent()\*\*\*\*
 
 ```php
 <?php
@@ -70,13 +75,13 @@ if (!headers_sent($filename, $linenum)) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступ до заголовків та їх висновок здійснюватиметься лише у випадку, якщо у SAPI є їх підтримка.
 
 ### Дивіться також
 
--   [проstart()](function.ob-start.md) - Включення буферизації виводу
--   [triggererror()](function.trigger-error.md) - Викликає помилку користувача/попередження/повідомлення
--   [headerslist()](function.headers-list.md) - Повертає список переданих заголовків (або готових до відправлення)
--   Дивіться інформацію щодо функції [header()](function.header.md) - Надсилання HTTP-заголовка для більш детальної інформації.
+-   [ob\_start()](function.ob-start.md) \- Включає буферизацію виводу
+-   [trigger\_error()](function.trigger-error.md) \- Викликає помилку користувача/попередження/повідомлення
+-   [headers\_list()](function.headers-list.md) \- Повертає список переданих заголовків (або готових до відправлення)
+-   Дивіться інформацію щодо функції[header()](function.header.md) \- Надсилає необроблений (сирий) HTTP-заголовок для більш детальної інформації.

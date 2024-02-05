@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.db2-connect.md: « db2connect
-  - function.db2-escape-string.md: db2escapestring »
+  - function.db2-connect.md: « db2\_connect
+  - function.db2-escape-string.md: db2\_escape\_string »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2cursortype
+title: db2\_cursor\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2cursortype
+# db2\_cursor\_type
 
-(PECL ibmdb2> = 1.0.0)
+(PECL ibm\_db2 >= 1.0.0)
 
-db2cursortype — Повертає тип курсору, який використовується у ресурсі оператора
+db2\_cursor\_type — Повертає тип курсору, який використовується у ресурсі оператора
 
 ### Опис
 
@@ -28,8 +29,8 @@ db2_cursor_type(resource $stmt): int
 
 ### Значення, що повертаються
 
-Повертає або `DB2_FORWARD_ONLY`, або `DB2_SCROLLABLE`, в залежності від типу курсора, що використовується.
+Повертає або `DB2_FORWARD_ONLY`, либо`DB2_SCROLLABLE`, в залежності від типу курсора, що використовується.
 
 ### Дивіться також
 
--   [db2prepare()](function.db2-prepare.md) - готує SQL-запит до виконання
+-   [db2\_prepare()](function.db2-prepare.md) \- готує SQL-запит до виконання

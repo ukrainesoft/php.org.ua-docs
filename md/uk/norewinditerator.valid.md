@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.norewinditerator.md: NoRewindIterator
 title: 'NoRewindIterator::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NoRewindIterator::valid
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 NoRewindIterator::valid — Перевіряє ітератор
 
@@ -22,7 +23,7 @@ public NoRewindIterator::valid(): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,8 +31,8 @@ public NoRewindIterator::valid(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [NoRewindIterator::getInnerIterator()](norewinditerator.getinneriterator.md) - отримує внутрішній ітератор
+-   **NoRewindIterator::getInnerIterator()**

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.pthreads.md: pthreads
 title: Клас Thread
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Thread
 
@@ -73,11 +74,11 @@ public Threaded::wait(int $timeout = ?): bool
 
 ## Зміст
 
--   [Thread::getCreatorId](thread.getcreatorid.md) - Ідентифікація
--   [Thread::getCurrentThread](thread.getcurrentthread.md) - Ідентифікація
--   [Thread::getCurrentThreadId](thread.getcurrentthreadid.md) - Ідентифікація
--   [Thread::getThreadId](thread.getthreadid.md) - Ідентифікація
--   [Thread::isJoined](thread.isjoined.md) — Визначення стану
--   [Thread::isStarted](thread.isstarted.md) — Визначення стану
--   [Thread::join](thread.join.md) - Синхронізація
--   [Thread::start](thread.start.md) - Виконання
+-   [Thread::getCreatorId](thread.getcreatorid.md) \- Ідентифікація
+-   [Thread::getCurrentThread](thread.getcurrentthread.md) \- Ідентифікація
+-   [Thread::getCurrentThreadId](thread.getcurrentthreadid.md) \- Ідентифікація
+-   [Thread::getThreadId](thread.getthreadid.md) \- Ідентифікація
+-   [Thread::isJoined](thread.isjoined.md)— Визначення стану
+-   [Thread::isStarted](thread.isstarted.md)— Визначення стану
+-   [Thread::join](thread.join.md) \- Синхронізація
+-   [Thread::start](thread.start.md) \- Виконання

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.pthreads.md: pthreads
 title: Інтерфейс Collectable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс Collectable
 
@@ -12,7 +13,7 @@ title: Інтерфейс Collectable
 
 ## Вступ
 
-Є об'єкт, який можна зібрати збирачем сміття.
+Представляє об'єкт, який можна зібрати збирачем сміття.
 
 ## Огляд інтерфейсів
 
@@ -27,7 +28,7 @@ title: Інтерфейс Collectable
 
     /* Методы */
     
-   public isGarbage(): bool
+   public isGarbage(): true
 
 
    }
@@ -35,4 +36,4 @@ title: Інтерфейс Collectable
 
 ## Зміст
 
--   [Collectable::isGarbage](collectable.isgarbage.md) — Визначає, чи позначений об'єкт як сміття
+-   [Collectable::isGarbage](collectable.isgarbage.md)— Визначає, чи позначений об'єкт як сміття

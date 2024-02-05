@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-mavp.md: « tradermavp
-  - function.trader-maxindex.md: tradermaxindex »
+  - function.trader-mavp.md: « trader\_mavp
+  - function.trader-maxindex.md: trader\_maxindex »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermax
+  - ref.trader.md: Функції Trader
+title: trader\_max
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermax
+# trader\_max
 
 (PECL trader >= 0.2.0)
 
-tradermax — Найбільше значення за вказаний період
+trader\_max — Найбільше значення за вказаний період
 
 ### Опис
 

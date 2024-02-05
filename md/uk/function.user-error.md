@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.trigger-error.md: « triggererror
+  - function.trigger-error.md: « trigger\_error
   - book.ffi.md: FFI »
   - index.md: PHP Manual
-  - ref.errorfunc.md: Функции обработки ошибок
-title: usererror
+  - ref.errorfunc.md: Функції обробки помилок
+title: user\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# usererror
+# user\_error
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-usererror - Псевдонім [triggererror()](function.trigger-error.md)
+user\_error — Псевдоним[trigger\_error()](function.trigger-error.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [triggererror()](function.trigger-error.md)
+Функция — псевдоним функции:[trigger\_error()](function.trigger-error.md)

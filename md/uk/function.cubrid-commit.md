@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-column-types.md: « cubridcolumntypes
-  - function.cubrid-connect-with-url.md: cubridconnectwithurl »
+  - function.cubrid-column-types.md: « cubrid\_column\_types
+  - function.cubrid-connect-with-url.md: cubrid\_connect\_with\_url »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridcommit
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_commit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridcommit
+# cubrid\_commit
 
 (PECL CUBRID >= 8.3.0)
 
-cubridcommit — Підтвердження транзакції
+cubrid\_commit — Підтвердження транзакції
 
 ### Опис
 
@@ -18,9 +19,9 @@ cubridcommit — Підтвердження транзакції
 cubrid_commit(resource $conn_identifier): bool
 ```
 
-Функція **cubridcommit()** використовується для підтвердження змін, здійснених у транзакції у з'єднанні `conn_identifier`, після виклику функції **cubridcommit()**, з'єднання з сервером буде закрито, але обробник з'єднання все ще буде коректним.
+Функция**cubrid\_commit()** використовується для підтвердження змін, здійснених у транзакції у з'єднанні `conn_identifier`, після виклику функції **cubrid\_commit()**, з'єднання з сервером буде закрито, але обробник з'єднання все ще буде коректним.
 
-У CUBRID PHP, режим авто-комміту для транзакцій за замовчуванням вимкнено. Ви можете дозволити або заборонити його за допомогою функції [cubridsetautocommit()](function.cubrid-set-autocommit.md). Дізнатися поточний статус можна функцією [cubridgetautocommit()](function.cubrid-get-autocommit.md). Перед тим, як почати транзакцію, переконайтеся, що автокоміт заборонено.
+У CUBRID PHP режим авто-комміту для транзакцій за замовчуванням вимкнено. Ви можете дозволити або заборонити його за допомогою функції [cubrid\_set\_autocommit()](function.cubrid-set-autocommit.md). Дізнатися поточний статус можна функцією [cubrid\_get\_autocommit()](function.cubrid-get-autocommit.md). Перед тим, як розпочати транзакцію, переконайтеся, що авто-коміт заборонено.
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ cubrid_commit(resource $conn_identifier): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridcommit()****
+**Пример #1 Пример использования**cubrid\_commit()\*\*\*\*
 
 ```php
 <?php
@@ -95,7 +96,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 P01 Abatis Publishers    New York        NY  USA
@@ -106,6 +107,6 @@ P04 Tenterhooks Press    Berkeley        CA  USA
 
 ### Дивіться також
 
--   [cubridrollback()](function.cubrid-rollback.md) - Відкат транзакції
--   [cubridgetautocommit()](function.cubrid-get-autocommit.md) - Повертає налаштування авто-комміту для з'єднання
--   [cubridsetautocommit()](function.cubrid-set-autocommit.md) - Встановлює режим авто-комміту для з'єднання
+-   [cubrid\_rollback()](function.cubrid-rollback.md) \- Відкат транзакції
+-   [cubrid\_get\_autocommit()](function.cubrid-get-autocommit.md) \- Повертає налаштування авто-комміту для з'єднання
+-   [cubrid\_set\_autocommit()](function.cubrid-set-autocommit.md) \- Встановлює режим авто-комміту для з'єднання

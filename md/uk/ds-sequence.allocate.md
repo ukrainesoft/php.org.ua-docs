@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ds-sequence.md: « Послідовність
-  - ds-sequence.apply.md: 'ДсSequence::apply »'
+  - class.ds-sequence.md: « Ds\\Sequence
+  - ds-sequence.apply.md: 'Ds\\Sequence::apply »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::allocate'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::allocate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::allocate
+# Ds\\Sequence::allocate
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::allocate — Виділення пам'яті під зазначену місткість
+Ds\\Sequence::allocate — Виділення пам'яті під зазначену місткість
 
 ### Опис
 
@@ -26,7 +27,7 @@ abstract public Ds\Sequence::allocate(int $capacity): void
 
 Місткість. Очікувана кількість значень.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо нове значення місткості менше поточного, вона не зміниться.
 
@@ -36,7 +37,7 @@ abstract public Ds\Sequence::allocate(int $capacity): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::allocate()****
+**Пример #1 Пример использования**Ds\\Sequence::allocate()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($sequence->capacity());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(10)

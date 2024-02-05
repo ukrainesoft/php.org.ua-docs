@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::rotateImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::rotateImage
 
@@ -36,13 +37,13 @@ public Imagick::rotateImage(mixed $background, float $degrees): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL imagick 2.1.0 | Тепер дозволено використання рядка, який представляє колір, як перший параметр. Попередні версії допускали лише об'єкт ImagickPixel. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::rotateImage()****
+**Пример #1 Пример использования**Imagick::rotateImage()\*\*\*\*
 
 ```php
 <?php

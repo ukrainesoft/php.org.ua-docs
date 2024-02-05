@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.ffi.md: FFI
 title: 'FFI::alignof'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FFI::alignof
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 FFI::alignof — Повертає величину вирівнювання
 
@@ -18,7 +19,7 @@ FFI::alignof — Повертає величину вирівнювання
 public static FFI::alignof(FFI\CData|FFI\CType &$ptr): int
 ```
 
-Повертає величину вирівнювання об'єктів [FFICData](class.ffi-cdata.md) або [FFICType](class.ffi-ctype.md)
+Повертає величину вирівнювання об'єктів [FFI\\CData](class.ffi-cdata.md) або [FFI\\CType](class.ffi-ctype.md)
 
 ### Список параметрів
 
@@ -28,4 +29,4 @@ public static FFI::alignof(FFI\CData|FFI\CType &$ptr): int
 
 ### Значення, що повертаються
 
-Повертає величину вирівнювання об'єктів [FFICData](class.ffi-cdata.md) або [FFICType](class.ffi-ctype.md)
+Повертає величину вирівнювання об'єктів [FFI\\CData](class.ffi-cdata.md) або [FFI\\CType](class.ffi-ctype.md)

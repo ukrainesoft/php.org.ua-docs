@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::blurImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::blurImage
 
@@ -32,7 +33,7 @@ public Imagick::blurImage(float $radius, float $sigma, int $channel = ?): bool
 
 `channel`
 
-Константа [Channeltype](imagick.constants.md#imagick.constants.channel). Якщо не вказано, будуть розмиті всі канали.
+Константа[Channeltype](imagick.constants.md#imagick.constants.channel). Якщо не вказано, будуть розмиті всі канали.
 
 ### Значення, що повертаються
 
@@ -44,7 +45,7 @@ public Imagick::blurImage(float $radius, float $sigma, int $channel = ?): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::blurImage()****
+**Пример #1 Пример использования**Imagick::blurImage()\*\* :\*\*
 
 Розмиття зображення та надсилання його до браузера.
 
@@ -63,6 +64,6 @@ echo $image;
 
 ### Дивіться також
 
--   [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.md) - Додає адаптивний фільтр розмиття до зображення
--   [Imagick::motionBlurImage()](imagick.motionblurimage.md) - Імітує розмиття у русі
--   [Imagick::radialBlurImage()](imagick.radialblurimage.md) - Радіальне розмиття зображення
+-   [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.md) \- Додає адаптивний фільтр розмиття до зображення
+-   [Imagick::motionBlurImage()](imagick.motionblurimage.md) \- Імітує розмиття у русі
+-   [Imagick::radialBlurImage()](imagick.radialblurimage.md) \- Радіальне розмиття зображення

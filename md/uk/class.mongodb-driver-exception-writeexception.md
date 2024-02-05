@@ -1,18 +1,19 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-unexpectedvalueexception.md: « MongoDBDriverExceptionUnexpectedValueException
-  - mongodb-driver-writeexception.getwriteresult.md: 'MongoDBDriverExceptionWriteException::getWriteResult »'
+  - class.mongodb-driver-exception-unexpectedvalueexception.md: « MongoDB\\Driver\\Exception\\UnexpectedValueException
+  - mongodb-driver-writeexception.getwriteresult.md: 'MongoDB\\Driver\\Exception\\WriteException::getWriteResult »'
   - index.md: PHP Manual
-  - mongodb.exceptions.md: MongoDBDriverException
-title: Клас MongoDBDriverExceptionWriteException
+  - mongodb.exceptions.md: MongoDB\\Driver\\Exception
+title: Клас MongoDB\\Driver\\Exception\\WriteException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverExceptionWriteException
+# Клас MongoDB\\Driver\\Exception\\WriteException
 
 (mongodb >= 1.0.0)
 
 ## Вступ
 
-Базовий клас для винятків, спричинених невдалою операцією запису. Цей виняток містить об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md)
+Базовий клас для винятків, спричинених невдалою операцією запису. Цей виняток містить об'єкт [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.md)
 
 ## Огляд класів
 
@@ -49,26 +50,26 @@ title: Клас MongoDBDriverExceptionWriteException
 
     
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Методы */
@@ -99,15 +100,15 @@ private Exception::__clone(): void
 
 writeResult
 
-Об'єкт [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md), пов'язаний із невдалою операцією запису.
+Об'єкт [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.md), пов'язаний із невдалою операцією запису.
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL mongodb 1.5.0 |  |
-| Тепер клас успадковується від [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.md) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md) |  |
+| Тепер клас успадковується від [MongoDB\\Driver\\Exception\\ServerException](class.mongodb-driver-exception-serverexception.md) замість [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.md) |  |
 
 ## Зміст
 
--   [MongoDBDriverExceptionWriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.md) — Повертає WriteResult для операції запису помилкою, що закінчилася.
+-   [MongoDB\\Driver\\Exception\\WriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.md)— Повертає WriteResult для операції запису помилкою, що закінчилася.

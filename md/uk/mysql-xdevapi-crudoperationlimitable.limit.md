@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-crudoperationlimitable.md: « mysqlxdevapiCrudOperationLimitable
-  - class.mysql-xdevapi-crudoperationskippable.md: mysqlxdevapiCrudOperationSkippable »
+  - class.mysql-xdevapi-crudoperationlimitable.md: « mysql\_xdevapi\\CrudOperationLimitable
+  - class.mysql-xdevapi-crudoperationskippable.md: mysql\_xdevapi\\CrudOperationSkippable »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-crudoperationlimitable.md: mysqlxdevapiCrudOperationLimitable
+  - class.mysql-xdevapi-crudoperationlimitable.md: mysql\_xdevapi\\CrudOperationLimitable
 title: 'CrudOperationLimitable::limit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CrudOperationLimitable::limit
 
@@ -22,7 +23,7 @@ abstract public mysql_xdevapi\CrudOperationLimitable::limit(int $rows): mysql_xd
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ abstract public mysql_xdevapi\CrudOperationLimitable::limit(int $rows): mysql_xd
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCrudOperationLimitable::limit()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CrudOperationLimitable::limit()\*\*\*\*
 
 ```php
 <?php

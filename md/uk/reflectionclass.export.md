@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflectionclass.construct.md: '« ReflectionClass::construct'
+  - reflectionclass.construct.md: '« ReflectionClass::\_\_construct'
   - reflectionclass.getattributes.md: 'ReflectionClass::getAttributes »'
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::export'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::export
 
@@ -14,7 +15,7 @@ ReflectionClass::export — Експортує клас
 
 **Увага**
 
-Ця функція *ЗАСТАРІЛА*, починаючи з PHP 7.4.0 і була *ВИДАЛЕНО*починаючи з PHP 8.0.0. Використовувати цю функцію не рекомендується.
+Ця функція *ЗАСТАРІЛА* починаючи з PHP 7.4.0 і була *ВИДАЛЕНО* у PHP 8.0.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -32,15 +33,15 @@ public static ReflectionClass::export(mixed $argument, bool $return = false): st
 
 `return`
 
-Встановлення в **`true`** поверне експортоване значення, на відміну поведінки, де цей параметр опущений. Встановлення в **`false`** (за умовчанням) зробить протилежне.
+Установка в\*\*`true`\*\* поверне експортоване значення, на відміну поведінки, де цей параметр опущений. Встановлення в **`false`** (за умовчанням) зробить протилежне.
 
 ### Значення, що повертаються
 
-Якщо параметр `return` встановлений в **`true`**, тоді експортований об'єкт буде повернутий як string, інакше буде повернутий **`null`**
+Якщо параметр `return`установлен в\*\*`true`\*\*, тоді експортований об'єкт буде повернутий як string, інакше буде повернутий **`null`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::export()****
+**Пример #1 Пример использования**ReflectionClass::export()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ ReflectionClass::export('Apple');
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Class [ <user> class Apple ] {
@@ -86,5 +87,5 @@ Class [ <user> class Apple ] {
 
 ### Дивіться також
 
--   [ReflectionClass::getName()](reflectionclass.getname.md) - Повертає ім'я класу
--   [ReflectionClass::toString()](reflectionclass.tostring.md) - Повертає рядкову виставу об'єкта класу ReflectionClass
+-   [ReflectionClass::getName()](reflectionclass.getname.md) \- Повертає ім'я класу
+-   [ReflectionClass::\_\_toString()](reflectionclass.tostring.md) \- Повертає рядкову виставу об'єкта класу ReflectionClass

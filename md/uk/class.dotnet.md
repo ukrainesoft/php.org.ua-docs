@@ -1,48 +1,43 @@
 ---
 navigation:
-  - com.construct.md: '« com::construct'
-  - dotnet.construct.md: 'dotnet::construct »'
+  - com.construct.md: '« com::\_\_construct'
+  - dotnet.construct.md: 'dotnet::\_\_construct »'
   - index.md: PHP Manual
   - book.com.md: COM
 title: Клас dotnet
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас dotnet
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
-Клас dotnet дозволяє створювати об'єкти зі збірок .Net, викликати їх методи та використовувати їх властивості, якщо клас, методи та властивості [» видимі для COM](https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.comvisibleattribute)
+Клас dotnet дозволяє створювати об'єкти зі збірок .Net, викликати їх методи та використовувати їх властивості, якщо клас, методи та властивості [» видимі для COM](https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.comvisibleattribute)
 
 Ні створення екземплярів статичних класів, ні виклик статичних методів не підтримуються. Створення екземплярів універсальних класів, таких як `System.Collections.Generic.List`, також не підтримується.
 
 Деякі класи в .Net не реалізують IDispatch, тому хоча їх об'єкти можна створювати, виклик методів або доступ до властивостей цих класів не підтримується.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Вам потрібно встановити бібліотеки часу виконання .Net на ваш веб-сервер, щоб скористатися цією функцією.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> До PHP 8.0.0 .Net framework 4.0 і пізніші версії не підтримуються класом **dotnet**. Однак якщо збірки були зареєстровані за допомогою **regasm.exe**, класи можуть бути створені як об'єкти [com](class.com.md). Починаючи з PHP 8.0.0, .Net framework 4.0 та пізніші версії підтримуються за допомогою директиви php.ini [com.dotnetversion](com.configuration.md#ini.com.dotnet-version)
+> До PHP 8.0.0 .Net framework 4.0 та пізніші версії не підтримуються класом **dotnet**. Однак якщо збірки були зареєстровані за допомогою **regasm.exe**, класи можуть бути створені як об'єкти [com](class.com.md). Починаючи з PHP 8.0.0, .Net framework 4.0 та пізніші версії підтримуються за допомогою директиви php.ini [com.dotnet\_version](com.configuration.md#ini.com.dotnet-version)
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      class dotnet
-     
+     class dotnet
+    
 
     
      extends
       variant
-    
-
      {
 
     /* Методы */
@@ -73,4 +68,4 @@ echo $stack->Pop() . $stack->Pop();
 
 ## Зміст
 
--   [dotnet::construct](dotnet.construct.md) - Конструктор класу dotnet
+-   [dotnet::\_\_construct](dotnet.construct.md) \- Конструктор класу dotnet

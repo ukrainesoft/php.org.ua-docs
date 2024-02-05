@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.array-key-last.md: « arraykeylast
-  - function.array-map.md: arraymap »
+  - function.array-key-last.md: « array\_key\_last
+  - function.array-map.md: array\_map »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
-title: arraykeys
+title: array\_keys
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# arraykeys
+# array\_keys
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-arraykeys — Повертає всі або деякі підмножини ключів масиву
+array\_keys — Повертає всі або деякі підмножини ключів масиву
 
 ### Опис
 
@@ -19,12 +20,12 @@ array_keys(array $array): array
 ```
 
 ```methodsynopsis
-array_keys(array $array, mixed $search_value, bool $strict = false): array
+array_keys(array $array, mixed $filter_value, bool $strict = false): array
 ```
 
-Функція **arraykeys()** повертає числові та рядкові ключі, що містяться в масиві `array`
+Функция**array\_keys()** повертає числові та рядкові ключі, що містяться в масиві `array`
 
-Якщо вказано параметр `search_value`, функція повертає ключі, у яких значення елементів масиву збігаються з цим параметром. В іншому випадку, функція повертає всі ключі масиву `array`
+Если указан параметр`filter_value`, функція повертає ключі, у яких значення елементів масиву збігаються з цим параметром. В іншому випадку, функція повертає всі ключі масиву `array`
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ array_keys(array $array, mixed $search_value, bool $strict = false): array
 
 Масив, що містить ключі, що повертаються.
 
-`search_value`
+`filter_value`
 
 Якщо вказано, буде повернено лише ключі, у яких значення елементів масиву збігаються з цим параметром.
 
@@ -42,11 +43,11 @@ array_keys(array $array, mixed $search_value, bool $strict = false): array
 
 ### Значення, що повертаються
 
-Повертає масив із усіма ключами `array`
+Повертає масив з усіма ключами `array`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **arraykeys()****
+**Пример #1 Пример использования**array\_keys()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ print_r(array_keys($array));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -85,7 +86,7 @@ Array
 
 ### Дивіться також
 
--   [arrayvalues()](function.array-values.md) - Вибирає всі значення масиву
--   [arraycombine()](function.array-combine.md) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень
--   [arraykeyexists()](function.array-key-exists.md) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
--   [arraysearch()](function.array-search.md) - Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання
+-   [array\_values()](function.array-values.md) \- Повертає всі значення масиву
+-   [array\_combine()](function.array-combine.md) \- Створює новий масив, використовуючи один масив як ключі, а інший для його значень
+-   [array\_key\_exists()](function.array-key-exists.md) \- Перевіряє, чи існує в масиві заданий ключ чи індекс
+-   [array\_search()](function.array-search.md) \- Здійснює пошук даного значення в масиві та повертає ключ першого знайденого елемента у разі успішного виконання

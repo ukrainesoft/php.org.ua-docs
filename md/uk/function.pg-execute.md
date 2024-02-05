@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-escape-string.md: « pgescapestring
-  - function.pg-fetch-all-columns.md: пгfetchallcolumns »
+  - function.pg-escape-string.md: « pg\_escape\_string
+  - function.pg-fetch-all-columns.md: pg\_fetch\_all\_columns »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгexecute
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_execute
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгexecute
+# pg\_execute
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-пгexecute — Запускає виконання раніше підготовленого параметризованого запиту та чекає на результат
+pg\_execute — Запускає виконання раніше підготовленого параметризованого запиту та чекає на результат
 
 ### Опис
 
@@ -20,15 +21,15 @@ pg_execute(PgSql\Connection $connection = ?, string $stmtname, array $params): P
 
 Запускає виконання раніше підготовленого параметризованого запиту та чекає на результат.
 
-**пгexecute()** аналог функції [пгqueryparams()](function.pg-query-params.md), тільки замість рядка із запитом приймає ім'я попередньо підготовленого SQL-запиту. Це дозволяє багаторазово виконувати один раз створені запити з різними параметрами. Сам запит має бути заздалегідь підготовлений у поточній сесії . **пгexecute()** підтримується PostgreSQL версії 7.4 та вище. Функція не працюватиме на з'єднаннях із сервером ранніх версій.
+**pg\_execute()** аналог функції [pg\_query\_params()](function.pg-query-params.md), тільки замість рядка із запитом приймає ім'я попередньо підготовленого SQL-запиту. Це дозволяє багаторазово виконувати один раз створені запити з різними параметрами. Сам запит має бути заздалегідь підготовлений у поточній сесії . **pg\_execute()** підтримується PostgreSQL версії 7.4 та вище. Функція не працюватиме на з'єднаннях із сервером ранніх версій.
 
-Аргументи функції ті ж, що й у [пгqueryparams()](function.pg-query-params.md), за винятком імені попередньо складеного запиту, який передається замість рядка із запитом.
+Аргументи функції ті ж, що й у [pg\_query\_params()](function.pg-query-params.md), за винятком імені попередньо складеного запиту, який передається замість рядка із запитом.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection` не вказано, буде вибрано стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -36,7 +37,7 @@ pg_execute(PgSql\Connection $connection = ?, string $stmtname, array $params): P
 
 `stmtname`
 
-Ім'я підготовленого до виконання запиту. Якщо передано порожній рядок "", буде виконано безіменний запит. Ім'я та вміст запиту мають бути підготовлені функцією [пгprepare()](function.pg-prepare.md) [пгsendprepare()](function.pg-send-prepare.md) або за допомогою SQL-команди `PREPARE`
+Ім'я підготовленого до виконання запиту. Якщо передано порожній рядок "", буде виконано безіменний запит. Ім'я та вміст запиту мають бути підготовлені функцією [pg\_prepare()](function.pg-prepare.md) [pg\_send\_prepare()](function.pg-send-prepare.md) або за допомогою SQL-команди `PREPARE`
 
 `params`
 
@@ -48,18 +49,18 @@ pg_execute(PgSql\Connection $connection = ?, string $stmtname, array $params): P
 
 ### Значення, що повертаються
 
-Екземпляр [PgSqlResult](class.pgsql-result.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Екземпляр [PgSql\\Result](class.pgsql-result.md) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Повертає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгexecute()****
+**Пример #1 Пример использования**pg\_execute()\*\*\*\*
 
 ```php
 <?php
@@ -81,6 +82,6 @@ $result = pg_execute($dbconn, "my_query", array("Clothes Clothes Clothes"));
 
 ### Дивіться також
 
--   [пгprepare()](function.pg-prepare.md) - Надсилає запит на створення параметризованого SQL виразу і чекає на його завершення
--   [пгsendprepare()](function.pg-send-prepare.md) - Надсилає запит на створення параметризованого SQL-виразу, не чекаючи його завершення
--   [пгqueryparams()](function.pg-query-params.md) - Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту
+-   [pg\_prepare()](function.pg-prepare.md) \- Надсилає запит на створення параметризованого SQL виразу і чекає на його завершення
+-   [pg\_send\_prepare()](function.pg-send-prepare.md) \- Надсилає запит на створення параметризованого SQL-виразу, не чекаючи його завершення
+-   [pg\_query\_params()](function.pg-query-params.md) \- Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту

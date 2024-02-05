@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-lsub.md: « imaplsub
-  - function.imap-mail-copy.md: imapmailcopy »
+  - function.imap-lsub.md: « imap\_lsub
+  - function.imap-mail-copy.md: imap\_mail\_copy »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapmailcompose
+  - ref.imap.md: Функції IMAP
+title: imap\_mail\_compose
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapmailcompose
+# imap\_mail\_compose
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapmailcompose — Створити MIME-повідомлення на основі заданих обгортки та тіла
+imap\_mail\_compose — Створює MIME-повідомлення на основі заданих обгортки та тіла
 
 ### Опис
 
@@ -24,7 +25,7 @@ imap_mail_compose(array $envelope, array $bodies): string|false
 
 `envelope`
 
-Асоціативний масив із полями заголовка. Допустимі ключі: `"remail"` `"return_path"` `"date"` `"from"` `"reply_to"` `"in_reply_to"` `"subject"` `"to"` `"cc"` `"bcc"` і `"message_id"`, які встановлюють відповідні заголовки повідомлень у заданий рядок (string). Для встановлення додаткових заголовків підтримується ключ `"custom_headers"`, який містить асоціативний масив інших заголовків, наприклад, `["User-Agent: My Mail Client"]`
+Асоціативний масив із полями заголовка. Допустимі ключі: `"remail"` `"return_path"` `"date"` `"from"` `"reply_to"` `"in_reply_to"` `"subject"` `"to"` `"cc"` `"bcc"`и`"message_id"`, які встановлюють відповідні заголовки повідомлень у заданий рядок (string). Для встановлення додаткових заголовків підтримується ключ `"custom_headers"`, який містить асоціативний масив інших заголовків, наприклад, `["User-Agent: My Mail Client"]`
 
 `bodies`
 
@@ -32,16 +33,16 @@ imap_mail_compose(array $envelope, array $bodies): string|false
 
 **Структура масиву тіла**
 
-| Ключ | Тип | Описание |
+| Ключ | Тип | Опис |
 | --- | --- | --- |
-| `type` | int | Тип MIME. Один з **`TYPETEXT`** (за замовчуванням), **`TYPEMULTIPART`** **`TYPEMESSAGE`** **`TYPEAPPLICATION`** **`TYPEAUDIO`** **`TYPEIMAGE`** **`TYPEMODEL`** або **`TYPEOTHER`** |
-| `encoding` | int | Значення `Content-Transfer-Encoding`. Одне з **`ENC7BIT`** (default), **`ENC8BIT`** **`ENCBINARY`** **`ENCBASE64`** **`ENCQUOTEDPRINTABLE`** або **`ENCOTHER`** |
+| `type` | int | Тип MIME. Один з **`TYPETEXT`**(по умолчанию),**`TYPEMULTIPART`** **`TYPEMESSAGE`** **`TYPEAPPLICATION`** **`TYPEAUDIO`** **`TYPEIMAGE`** **`TYPEMODEL`**или**`TYPEOTHER`** |
+| `encoding` | int | Значение`Content-Transfer-Encoding`. . Одне з **`ENC7BIT`** (default), **`ENC8BIT`** **`ENCBINARY`** **`ENCBASE64`** **`ENCQUOTEDPRINTABLE`**или**`ENCOTHER`** |
 | `charset` | string | Параметр charset типу MIME. |
 | `type.parameters` | array | Асоціативний масив (array) імен параметрів `Content-Type` та їх значень. |
-| `subtype` | string | Підтип MIME, наприклад, `'jpeg'` для **`TYPEIMAGE`** |
-| `id` | string | Значення `Content-ID` |
-| `description` | string | Значення `Content-Description` |
-| `disposition.type` | string | Значення `Content-Disposition`, наприклад, `'attachment'` |
+| `subtype` | string | Підтип MIME, наприклад, `'jpeg'`для\*\*`TYPEIMAGE`\*\* |
+| `id` | string | Значение`Content-ID` |
+| `description` | string | Значение`Content-Description` |
+| `disposition.type` | string | Значение`Content-Disposition`, например,`'attachment'` |
 | `disposition` | array | Асоціативний масив (array) імен параметрів `Content-Disposition` та їх значень. |
 | `contents.data` | string | Корисне навантаження. |
 | `lines` | int | Розмір корисного навантаження у рядках. |
@@ -50,11 +51,11 @@ imap_mail_compose(array $envelope, array $bodies): string|false
 
 ### Значення, що повертаються
 
-Повертає MIME-повідомлення у вигляді рядка (string) або **`false`** у разі виникнення помилки.
+Повертає MIME-повідомлення у вигляді рядка (string) або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imapmailcompose()****
+**Пример #1 Пример использования**imap\_mail\_compose()\*\*\*\*
 
 ```php
 <?php

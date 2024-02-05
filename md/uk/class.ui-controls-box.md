@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-group.settitle.md: '« UIControlsGroup::setTitle'
-  - ui-controls-box.append.md: 'ОЙControlsBox::append »'
+  - ui-controls-group.settitle.md: '« UI\\Controls\\Group::setTitle'
+  - ui-controls-box.append.md: 'UI\\Controls\\Box::append »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Блок керування (розміщення)
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Блок керування (розміщення)
 
@@ -91,9 +92,9 @@ controls
 
 ## Зміст
 
--   [ОЙControlsBox::append](ui-controls-box.append.md) — Додати елемент керування
--   [ОЙControlsBox::construct](ui-controls-box.construct.md) - Створити новий об'єкт Box
--   [ОЙControlsBox::delete](ui-controls-box.delete.md) — Видалити елемент керування
--   [ОЙControlsBox::getOrientation](ui-controls-box.getorientation.md) — Здобути орієнтацію
--   [ОЙControlsBox::isPadded](ui-controls-box.ispadded.md) - Визначення заповнення
--   [ОЙControlsBox::setPadded](ui-controls-box.setpadded.md) - Встановити заповнення
+-   [UI\\Controls\\Box::append](ui-controls-box.append.md)— Додати елемент керування
+-   [UI\\Controls\\Box::\_\_construct](ui-controls-box.construct.md) \- Створити новий об'єкт Box
+-   [UI\\Controls\\Box::delete](ui-controls-box.delete.md)— Видалити елемент керування
+-   [UI\\Controls\\Box::getOrientation](ui-controls-box.getorientation.md)— Здобути орієнтацію
+-   [UI\\Controls\\Box::isPadded](ui-controls-box.ispadded.md) \- Визначення заповнення
+-   [UI\\Controls\\Box::setPadded](ui-controls-box.setpadded.md) \- Встановити заповнення

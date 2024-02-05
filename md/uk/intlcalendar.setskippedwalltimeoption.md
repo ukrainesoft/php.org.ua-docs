@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::setSkippedWallTimeOption'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::setSkippedWallTimeOption
 
@@ -17,16 +18,16 @@ IntlCalendar::setSkippedWallTimeOption — Встановлює поведінк
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public IntlCalendar::setSkippedWallTimeOption(int $option): bool
+public IntlCalendar::setSkippedWallTimeOption(int $option): true
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-intlcal_set_skipped_wall_time_option(IntlCalendar $calendar, int $option): bool
+intlcal_set_skipped_wall_time_option(IntlCalendar $calendar, int $option): true
 ```
 
-Встановлює поточну стратегію для роботи з часом процесора, що пропускається щоразу, коли годинник переводиться на літній час. Значення за замовчуванням - **`IntlCalendar::WALLTIME_LAST`** (Момент, коли час процесора на годину більше). Альтернативні значення: **`IntlCalendar::WALLTIME_FIRST`** (момент, коли час процесора на одну годину менший) і **`IntlCalendar::WALLTIME_NEXT_VALID`** (Момент, коли починається літній час).
+Встановлює поточну стратегію для роботи з часом процесора, що пропускається щоразу, коли годинник переводиться на літній час. Значення за замовчуванням - **`IntlCalendar::WALLTIME_LAST`** (Момент, коли час процесора на годину більше). Альтернативні значення: **`IntlCalendar::WALLTIME_FIRST`**(момент, когда время процессора на один час меньше) и\*\*`IntlCalendar::WALLTIME_NEXT_VALID`\*\*(момент, когда начинается летнее время).
 
 Впливає лише на момент, поданий календарем (як повідомляє [IntlCalendar::getTime()](intlcalendar.gettime.md)), значення поля не буде переписано відповідним чином.
 
@@ -42,11 +43,17 @@ intlcal_set_skipped_wall_time_option(IntlCalendar $calendar, int $option): bool
 
 `option`
 
-Одна з констант: **`IntlCalendar::WALLTIME_FIRST`** **`IntlCalendar::WALLTIME_LAST`** або **`IntlCalendar::WALLTIME_NEXT_VALID`**
+Одна из констант:**`IntlCalendar::WALLTIME_FIRST`** **`IntlCalendar::WALLTIME_LAST`**или**`IntlCalendar::WALLTIME_NEXT_VALID`**
 
 ### Значення, що повертаються
 
 Функція завжди повертає **`true`**
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Тип значення, що повертається тепер **`true`**; раніше було bool. |
 
 ### Приклади
 
@@ -54,6 +61,6 @@ intlcal_set_skipped_wall_time_option(IntlCalendar $calendar, int $option): bool
 
 ### Дивіться також
 
--   [intlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.md) - отримує поведінку для обробки пропущеного часу процесора
--   [intlCalendar::setRepeatedWallTimeOption()](intlcalendar.setrepeatedwalltimeoption.md) - Встановлює поведінку для обробки часу процесора, що повторюється, при негативних переходах зміщення часового поясу
--   [intlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.md) - Отримує поведінку для обробки повторюваного часу процесора
+-   [intlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.md) \- отримує поведінку для обробки пропущеного часу процесора
+-   [intlCalendar::setRepeatedWallTimeOption()](intlcalendar.setrepeatedwalltimeoption.md) \- Встановлює поведінку для обробки часу процесора, що повторюється, при негативних переходах зміщення часового поясу
+-   [intlCalendar::getRepeatedWallTimeOption()](intlcalendar.getrepeatedwalltimeoption.md) \- Отримує поведінку для обробки повторюваного часу процесора

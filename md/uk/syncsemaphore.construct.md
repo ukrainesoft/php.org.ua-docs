@@ -4,13 +4,14 @@ navigation:
   - syncsemaphore.lock.md: 'SyncSemaphore::lock »'
   - index.md: PHP Manual
   - class.syncsemaphore.md: SyncSemaphore
-title: 'SyncSemaphore::construct'
+title: 'SyncSemaphore::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SyncSemaphore::construct
+# SyncSemaphore::\_\_construct
 
 (PECL sync >= 1.0.0)
 
-SyncSemaphore::construct — Створення нового об'єкту SyncSemaphore
+SyncSemaphore::\_\_construct — Створення нового об'єкту SyncSemaphore
 
 ### Опис
 
@@ -26,7 +27,7 @@ public SyncSemaphore::__construct(string $name = ?, int $initialval = 1, bool $a
 
 Ім'я семафора, якщо це названий об'єкт семафора.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо ім'я вже існує, воно має бути доступним для відкриття поточним користувачем, від імені якого запущено процес, інакше буде викинуто виняток із безглуздим повідомленням про помилку.
 
@@ -36,7 +37,7 @@ public SyncSemaphore::__construct(string $name = ?, int $initialval = 1, bool $a
 
 `autounlock`
 
-Вказує, чи слід автоматично розблокувати семафор після завершення скрипту PHP.
+Вказує, чи слід автоматично розблокувати семафор після завершення скрипта PHP.
 
 **Увага**
 
@@ -52,7 +53,7 @@ public SyncSemaphore::__construct(string $name = ?, int $initialval = 1, bool $a
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncSemaphore::construct()****
+**Пример #1 Пример использования**SyncSemaphore::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -73,5 +74,5 @@ $semaphore->unlock();
 
 ### Дивіться також
 
--   [SyncSemaphore::lock()](syncsemaphore.lock.md) - Зменшує рахунок семафора або чекає
--   [SyncSemaphore::unlock()](syncsemaphore.unlock.md) - Збільшує рахунок семафору
+-   [SyncSemaphore::lock()](syncsemaphore.lock.md) \- Зменшує рахунок семафора або чекає
+-   [SyncSemaphore::unlock()](syncsemaphore.unlock.md) \- Збільшує рахунок семафору

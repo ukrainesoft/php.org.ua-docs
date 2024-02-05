@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.mhash-get-block-size.md: « mhashgetblocksize
-  - function.mhash-keygen-s2k.md: mhashkeygens2k »
+  - function.mhash-get-block-size.md: « mhash\_get\_block\_size
+  - function.mhash-keygen-s2k.md: mhash\_keygen\_s2k »
   - index.md: PHP Manual
-  - ref.mhash.md: Функции Mhash
-title: mhashgethashname
+  - ref.mhash.md: Функції Mhash
+title: mhash\_get\_hash\_name
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mhashgethashname
+# mhash\_get\_hash\_name
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-mhashgethashname — Отримати ім'я вказаного хеша
+mhash\_get\_hash\_name — Отримати ім'я вказаного хеша
 
 **Увага**
 
-Функція оголошена *Застарілої*починаючи з PHP 8.1.0. Використовувати цю функцію не рекомендується.
+Функція оголошена *застарілої* починаючи з PHP 8.1.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -28,7 +29,7 @@ mhash_get_hash_name(int $algo): string|false
 
 `algo`
 
-Ідентифікатор хешу. Одна з констант **`MHASH_hashname`**
+Идентификатор хеша. Одна из констант\*\*`MHASH_hashname`\*\*
 
 ### Значення, що повертаються
 
@@ -36,13 +37,13 @@ mhash_get_hash_name(int $algo): string|false
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.md) |
+| 8.1.0 | Функцію оголошено застарілою. Використовуйте замість неї [функції `hash_*()`](ref.hash.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mhashgethashname()****
+**Пример #1 Пример использования**mhash\_get\_hash\_name()\*\*\*\*
 
 ```php
 <?php

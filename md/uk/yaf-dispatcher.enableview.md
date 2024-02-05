@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-dispatcher.dispatch.md: '« YafDispatcher::dispatch'
-  - yaf-dispatcher.flushinstantly.md: 'YafDispatcher::flushInstantly »'
+  - yaf-dispatcher.dispatch.md: '« Yaf\_Dispatcher::dispatch'
+  - yaf-dispatcher.flushinstantly.md: 'Yaf\_Dispatcher::flushInstantly »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::enableView'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::enableView'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::enableView
+# Yaf\_Dispatcher::enableView
 
 (Yaf >=1.0.0)
 
-YafDispatcher::enableView — Включає механізм перегляду
+Yaf\_Dispatcher::enableView — Включає механізм перегляду
 
 ### Опис
 

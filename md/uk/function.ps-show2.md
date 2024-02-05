@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-show-xy.md: «psshowзі
-  - function.ps-show.md: псshow »
+  - function.ps-show-xy.md: « ps\_show\_xy
+  - function.ps-show.md: ps\_show »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псshow2
+title: ps\_show2
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псshow2
+# ps\_show2
 
 (PECL ps >= 1.1.0)
 
-псshow2 — Виводить текст у поточній позиції
+ps\_show2 — Виводить текст у поточній позиції
 
 ### Опис
 
@@ -24,7 +25,7 @@ ps_show2(resource $psdoc, string $text, int $len): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 `text`
 
@@ -36,4 +37,4 @@ ps_show2(resource $psdoc, string $text, int $len): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

@@ -1,32 +1,33 @@
 ---
 navigation:
-  - function.xattr-remove.md: « xattrremove
-  - function.xattr-supported.md: xattrsupported »
+  - function.xattr-remove.md: « xattr\_remove
+  - function.xattr-supported.md: xattr\_supported »
   - index.md: PHP Manual
-  - ref.xattr.md: xattr Функции
-title: xattrset
+  - ref.xattr.md: xattr Функції
+title: xattr\_set
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xattrset
+# xattr\_set
 
 (PECL xattr >= 0.9.0)
 
-xattrset — Встановлення розширених атрибутів файлу
+xattr\_set — Встановлення розширених атрибутів файлу
 
 ### Опис
 
 ```methodsynopsis
-xattr_set(    string $filename,    string $name,    string $value,    int $flags = 0): bool
+xattr_set(    string $filename,    string $name,    string $value,    int $flags = 0): bool
 ```
 
 Ця функція встановлює розширений атрибут файлу.
 
-Розширені атрибути мають два різні простори імен: користувальницьке та кореневе (root). Користувальницький простір імен доступний для всіх користувачів, в той час як кореневе - тільки для користувачів з root-привілеями. За умовчанням xattr оперує в просторі імен, але ви можете змінити цю поведінку за допомогою аргументу `flags`
+У розширених атрибутів два простори імен: і кореневе (root). Користувальницький простір імен доступний для всіх користувачів, в той час як кореневе - тільки для користувачів з root-привілеями. За умовчанням xattr оперує в просторі імен, але ви можете змінити цю поведінку за допомогою аргументу `flags`
 
 ### Список параметрів
 
 `filename`
 
-Назва файлу, атрибут якого потрібно встановити.
+Ім'я файлу, атрибут якого потрібно встановити.
 
 `name`
 
@@ -44,7 +45,7 @@ xattr_set(    string $filename,    string $name,    string $value,    int $flags
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -65,5 +66,5 @@ printf("You've played this song %d times", xattr_get($file, 'Listen count'));
 
 ### Дивіться також
 
--   [xattrget()](function.xattr-get.md) - Отримання розширених атрибутів файлу
--   [xattrremove()](function.xattr-remove.md) - Видалення розширених атрибутів файлу
+-   [xattr\_get()](function.xattr-get.md) \- Отримання розширених атрибутів файлу
+-   [xattr\_remove()](function.xattr-remove.md) \- Видалення розширених атрибутів файлу

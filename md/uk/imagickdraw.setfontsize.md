@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setFontSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setFontSize
 
@@ -20,7 +21,7 @@ public ImagickDraw::setFontSize(float $pointsize): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Встановлює розмір шрифту для використання під час анотування текстом.
 
@@ -36,7 +37,7 @@ public ImagickDraw::setFontSize(float $pointsize): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setFontSize()****
+**Пример #1 Пример использования**ImagickDraw::setFontSize()\*\*\*\*
 
 ```php
 <?php

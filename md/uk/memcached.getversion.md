@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::getVersion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::getVersion
 
@@ -15,7 +16,7 @@ Memcached::getVersion — Отримує інформацію про версі�
 ### Опис
 
 ```methodsynopsis
-public Memcached::getVersion(): array
+public Memcached::getVersion(): array|false
 ```
 
 **Memcached::getVersion()** повертає масив, що містить інформацію про версію кожного доступного сервера memcache.
@@ -30,7 +31,7 @@ public Memcached::getVersion(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::getVersion()****
+**Пример #1 Пример использования**Memcached::getVersion()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ print_r($m->getVersion());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

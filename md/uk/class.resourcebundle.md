@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Клас ResourceBundle
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ResourceBundle
 
@@ -24,16 +25,15 @@ title: Клас ResourceBundle
 
 ```classsynopsis
 
-     
+    
+     class ResourceBundle
     
 
     
-     
-      class ResourceBundle
-     
+     implements
+      IteratorAggregate,
 
-     implements 
-       IteratorAggregate,  Countable {
+     Countable {
 
     /* Методы */
     
@@ -51,21 +51,21 @@ public static getLocales(string $bundle): array|false
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Клас **ResourceBundle** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше було реалізовано інтерфейс [Traversable](class.traversable.md) |
-|  | Клас **ResourceBundle** тепер реалізує інтерфейс [Countable](class.countable.md) |
+| 8.0.0 | Класс**ResourceBundle** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). . Раніше було реалізовано інтерфейс [Traversable](class.traversable.md) |
+| 7.4.0 | Класс**ResourceBundle** тепер реалізує інтерфейс [Countable](class.countable.md) |
 
 ## Дивіться також
 
--   [»  Менеджер ресурсов ICU](http://userguide.icu-project.org/locale/resources)
--   [» Дані ICU](http://userguide.icu-project.org/icudata)
+-   [»  Менеджер ресурсів ICU](https://unicode-org.github.io/icu/userguide/locale/resources.md)
+-   [» Дані ICU](https://unicode-org.github.io/icu/userguide/icu_data/)
 
 ## Зміст
 
--   [ResourceBundle::count](resourcebundle.count.md) — Отримати кількість елементів у пакеті
--   [ResourceBundle::create](resourcebundle.create.md) - Створити пакет ресурсів
--   [ResourceBundle::getErrorCode](resourcebundle.geterrorcode.md) — Отримати останній код помилки пакета
--   [ResourceBundle::getErrorMessage](resourcebundle.geterrormessage.md) — Отримати останнє повідомлення про помилку пакета
--   [ResourceBundle::get](resourcebundle.get.md) — Отримати дані з пакета
--   [ResourceBundle::getLocales](resourcebundle.locales.md) — Отримати підтримувані локалі
+-   [ResourceBundle::count](resourcebundle.count.md)— Отримати кількість елементів у пакеті
+-   [ResourceBundle::create](resourcebundle.create.md) \- Створити пакет ресурсів
+-   [ResourceBundle::getErrorCode](resourcebundle.geterrorcode.md)— Отримати останній код помилки пакета
+-   [ResourceBundle::getErrorMessage](resourcebundle.geterrormessage.md)— Отримати останнє повідомлення про помилку пакета
+-   [ResourceBundle::get](resourcebundle.get.md)— Отримати дані з пакета
+-   [ResourceBundle::getLocales](resourcebundle.locales.md)— Отримати підтримувані локалі

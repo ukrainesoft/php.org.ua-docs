@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.eio-utime.md: « eioutime
+  - function.eio-utime.md: « eio\_utime
   - book.ev.md: Ev »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiowrite
+  - ref.eio.md: Eio Функції
+title: eio\_write
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiowrite
+# eio\_write
 
 (PECL eio >= 0.0.1dev)
 
-eiowrite — Запис до файлу
+eio\_write — Запис до файлу
 
 ### Опис
 
 ```methodsynopsis
-eio_write(    mixed $fd,    string $str,    int $length = 0,    int $offset = 0,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_write(    mixed $fd,    string $str,    int $length = 0,    int $offset = 0,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
-**eiowrite()** записує до `length` байт з `str` у файл, починаючи з позиції `offset` байт з початку файла.
+**eio\_write()** записує до `length`байт из`str` у файл, починаючи з позиції `offset`байт от начала файла.
 
 ### Список параметрів
 
 `fd`
 
-Потік, ресурс сокету або числовий файловий дескриптор, наприклад, отриманий з [eioopen()](function.eio-open.md)
+Потік, ресурс сокету або числовий файловий дескриптор, наприклад, отриманий з [eio\_open()](function.eio-open.md)
 
 `str`
 
@@ -36,15 +37,15 @@ eio_write(    mixed $fd,    string $str,    int $length = 0,    int $offset = 0,
 
 `offset`
 
-Зміщення з початку файла.
+Зміщення з початку файлу.
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -60,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
@@ -68,8 +69,8 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-**eiowrite()** повертає ресурс запиту у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_write()** повертає ресурс запиту у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [eioopen()](function.eio-open.md) - Відкриває файл
+-   [eio\_open()](function.eio-open.md) \- Відкриває файл

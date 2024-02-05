@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlhikkake.md: « tradercdlhikkake
-  - function.trader-cdlhomingpigeon.md: tradercdlhomingpigeon »
+  - function.trader-cdlhikkake.md: « trader\_cdlhikkake
+  - function.trader-cdlhomingpigeon.md: trader\_cdlhomingpigeon »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlhikkakemod
+  - ref.trader.md: Функції Trader
+title: trader\_cdlhikkakemod
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlhikkakemod
+# trader\_cdlhikkakemod
 
 (PECL trader >= 0.2.0)
 
-tradercdlhikkakemod — Модифікована модель свічка "Крюк"
+trader\_cdlhikkakemod — Модифікована модель свічка "Крюк"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlhikkakemod(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlhikkakemod(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-result.fetch-field.md: '« mysqliresult::fetchfield'
-  - mysqli-result.fetch-object.md: 'mysqliresult::fetchobject »'
+  - mysqli-result.fetch-field.md: '« mysqli\_result::fetch\_field'
+  - mysqli-result.fetch-object.md: 'mysqli\_result::fetch\_object »'
   - index.md: PHP Manual
-  - class.mysqli-result.md: mysqliresult
-title: 'mysqliresult::fetchfields'
+  - class.mysqli-result.md: mysqli\_result
+title: 'mysqli\_result::fetch\_fields'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliresult::fetchfields
+# mysqli\_result::fetch\_fields
 
-# mysqlifetchfields
+# mysqli\_fetch\_fields
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliresult::fetchfields - mysqlifetchfields — Повертає масив об'єктів, що становлять поля результуючого набору
+mysqli\_result::fetch\_fields -- mysqli\_fetch\_fields — Повертає масив об'єктів, що становлять поля результуючого набору
 
 ### Опис
 
@@ -28,13 +29,13 @@ public mysqli_result::fetch_fields(): array
 mysqli_fetch_fields(mysqli_result $result): array
 ```
 
-Ця функція служить для тих же цілей, що й [mysqlifetchfield()](mysqli-result.fetch-field.md), З тією лише різницею, що повертає не один об'єкт для стовпця, а масив таких об'єктів.
+Ця функція служить для тих же цілей, що й [mysqli\_fetch\_field()](mysqli-result.fetch-field.md), З тією лише різницею, що повертає не один об'єкт для стовпця, а масив таких об'єктів.
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_result](class.mysqli-result.md), який повернула функція [mysqli\_query()](mysqli.query.md) [mysqli\_store\_result()](mysqli.store-result.md) [mysqli\_use\_result()](mysqli.use-result.md) або [mysqli\_stmt\_get\_result()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
@@ -42,14 +43,14 @@ mysqli_fetch_fields(mysqli_result $result): array
 
 **Властивості об'єкту**
 
-| Свойство | Описание |
+| Свойство | Опис |
 | --- | --- |
 | name | Ім'я стовпця |
 | orgname | Вихідне ім'я стовпця, якщо він має псевдонім |
 | table | Ім'я таблиці, якій належить стовпець (якщо не обчислено) |
 | orgtable | Початкове ім'я таблиці, якщо є псевдонім |
-| maxlength | Максимальна ширина поля результуючого набору. |
-| length | Довжина поля в байтах, як вона поставлена ​​при визначенні таблиці. Зверніть увагу, що дана величина (в байтах) може відрізнятися від величини символів, зазначеної у визначенні поля таблиці, так як в різних кодуваннях один символ може записуватися кількома байтами. Наприклад, набір символів utf8 має 3 байти на символ, таким чином поле VARCHAR(10) у кодуванні UTF-8 поверне довжину 30 байтів = 10 символів. 3 байти на символ, а кодування LATIN1 - довжину 10, оскільки у цьому кодуванні один символ займає один байт. |
+| max\_length | Максимальна ширина поля результуючого набору. Починаючи з PHP 8.1, це значення завжди |
+| length | Довжина поля в байтах, як вона поставлена ​​при визначенні таблиці. Зверніть увагу, що дана величина (в байтах) може відрізнятися від величини символів, зазначеної у визначенні поля таблиці, оскільки в різних кодуваннях один символ може записуватися кількома байтами. Наприклад, набір символів utf8 має 3 байти на символ, таким чином поле VARCHAR(10) у кодуванні UTF-8 поверне довжину 30 байтів = 10 символів. \* 3 байти на символ, а кодування LATIN1 - довжину 10, оскільки у цьому кодуванні один символ займає один байт. |
 | charsetnr | Числовий ідентифікатор кодування. |
 | flags | Ціла кількість, що представляє бітові прапори для поля. |
 | type | Тип даних поля |
@@ -146,7 +147,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 ======================
@@ -189,6 +190,6 @@ Flags:     20489
 
 ### Дивіться також
 
--   [mysqlinumfields()](mysqli-result.field-count.md) - Отримує кількість полів у наборі результатів
--   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) - Отримання метаданих конкретного поля
--   [mysqlifetchfield()](mysqli-result.fetch-field.md) - Повертає наступне поле результуючого набору
+-   [mysqli\_num\_fields()](mysqli-result.field-count.md) \- Отримує кількість полів у наборі результатів
+-   [mysqli\_fetch\_field\_direct()](mysqli-result.fetch-field-direct.md) \- Отримання метаданих конкретного поля
+-   [mysqli\_fetch\_field()](mysqli-result.fetch-field.md) \- Повертає наступне поле результуючого набору

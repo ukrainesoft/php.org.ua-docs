@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-tab.hasmargin.md: '« UIControlsTab::hasMargin'
-  - ui-controls-tab.pages.md: 'ОЙControlsTab::pages »'
+  - ui-controls-tab.hasmargin.md: '« UI\\Controls\\Tab::hasMargin'
+  - ui-controls-tab.pages.md: 'UI\\Controls\\Tab::pages »'
   - index.md: PHP Manual
-  - class.ui-controls-tab.md: ОЙControlsTab
-title: 'ОЙControlsTab::insertAt'
+  - class.ui-controls-tab.md: UI\\Controls\\Tab
+title: 'UI\\Controls\\Tab::insertAt'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsTab::insertAt
+# UI\\Controls\\Tab::insertAt
 
 (UI 0.9.9)
 
-ОЙControlsTab::insertAt — Вставити сторінку
+UI\\Controls\\Tab::insertAt — Вставити сторінку
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ОЙControlsTab::insertAt'
 public UI\Controls\Tab::insertAt(string $name, int $page, UI\Control $control)
 ```
 
-Вставити нову сторінку до керуючого елементу "Таб"
+Вставити нову сторінку до керуючого елементу "Таблиці"
 
 ### Список параметрів
 

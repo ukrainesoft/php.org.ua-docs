@@ -1,16 +1,17 @@
 ---
 navigation:
   - generator.throw.md: '« Generator::throw'
-  - generator.wakeup.md: 'Generator::wakeup »'
+  - generator.wakeup.md: 'Generator::\_\_wakeup »'
   - index.md: PHP Manual
   - class.generator.md: Generator
 title: 'Generator::valid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Generator::valid
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-Generator::valid — Перевірка, чи закритий ітератор
+Generator::valid — Перевіряє, чи закритий ітератор
 
 ### Опис
 
@@ -24,4 +25,4 @@ public Generator::valid(): bool
 
 ### Значення, що повертаються
 
-Повертає **`false`**, якщо ітератор закритий та **`true`** в зворотньому випадку.
+Повертає \*\*`false`\*\*якщо ітератор закритий, інакше повертає **`true`**

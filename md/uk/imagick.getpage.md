@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getPage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getPage
 
@@ -18,7 +19,7 @@ Imagick::getPage — Повертає геометрію сторінки
 public Imagick::getPage(): array
 ```
 
-Повертає геометрію сторінки, пов'язану з об'єктом Imagick, як асоціативного масиву з ключами "width", "height", "x" і "y".
+Повертає геометрію сторінки, пов'язану з об'єктом Imagick, у вигляді асоціативного масиву з ключами "width", "height", "x" та "y".
 
 ### Список параметрів
 

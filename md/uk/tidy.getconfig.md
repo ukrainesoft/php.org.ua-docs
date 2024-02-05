@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.tidy.md: tidy
 title: 'tidy::getConfig'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidy::getConfig
 
-# tidygetconfig
+# tidy\_get\_config
 
 (PHP 5, PHP 7, PHP 8, PECL tidy >= 0.7.0)
 
-tidy::getConfig -- tidygetconfig — Отримує поточну конфігурацію Tidy
+tidy::getConfig -- tidy\_get\_config — Отримує поточну конфігурацію Tidy
 
 ### Опис
 
@@ -40,11 +41,11 @@ tidy_get_config(tidy $tidy): array
 
 Повертає масив опцій конфігурації.
 
-Інформацію про кожен параметр можна отримати тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
+Інформацію про кожен параметр можна отримати тут: [» http://api.md-tidy.org/#quick-reference](http://api.md-tidy.org/#quick-reference)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **tidy::getConfig()****
+**Пример #1 Пример использования**tidy::getConfig()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ print_r($tidy->getConfig());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -151,5 +152,5 @@ Array
 
 ### Дивіться також
 
--   **tidyresetconfig()**
--   **tidysaveconfig()**
+-   **tidy\_reset\_config()**
+-   **tidy\_save\_config()**

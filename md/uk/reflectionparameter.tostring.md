@@ -4,13 +4,14 @@ navigation:
   - class.reflectionproperty.md: ReflectionProperty »
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
-title: 'ReflectionParameter::toString'
+title: 'ReflectionParameter::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionParameter::toString
+# ReflectionParameter::\_\_function toString() { \[native code\] }
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionParameter::toString — Перетворення на рядок
+ReflectionParameter::\_\_toString — Перетворення на рядок
 
 ### Опис
 
@@ -18,11 +19,7 @@ ReflectionParameter::toString — Перетворення на рядок
 public ReflectionParameter::__toString(): string
 ```
 
-Подання у вигляді рядка.
-
-**Увага**
-
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Отримує строкове представлення параметра.
 
 ### Список параметрів
 
@@ -30,7 +27,26 @@ public ReflectionParameter::__toString(): string
 
 ### Значення, що повертаються
 
+Повертає строкове представлення параметра.
+
+### Приклади
+
+**Пример #1 Пример использования**ReflectionParameter::\_\_toString()\*\*\*\*
+
+```php
+<?php
+echo new ReflectionParameter('substr', 0);
+?>
+```
+
+Висновок наведеного прикладу буде схожим на:
+
+```
+Parameter #0 [ <required> string $string ]
+```
+
 ### Дивіться також
 
--   [ReflectionParameter::export()](reflectionparameter.export.md) - Експорт
--   [toString()](language.oop5.magic.md#object.tostring)
+-   [ReflectionFunction::\_\_toString()](reflectionfunction.tostring.md) \- Повертає рядкову виставу об'єкта ReflectionFunction
+-   [ReflectionMethod::\_\_toString()](reflectionmethod.tostring.md) \- Повертає рядкову виставу об'єкта ReflectionMethod
+-   [\_\_toString()](language.oop5.magic.md#object.tostring)

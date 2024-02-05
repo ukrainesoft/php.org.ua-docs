@@ -1,17 +1,18 @@
 ---
 navigation:
   - function.closelog.md: « closelog
-  - function.dns-get-mx.md: dnsgetmx »
+  - function.dns-get-mx.md: dns\_get\_mx »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
-title: dnscheckrecord
+title: dns\_check\_record
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dnscheckrecord
+# dns\_check\_record
 
 (PHP 5, PHP 7, PHP 8)
 
-dnscheckrecord - Псевдонім [checkdnsrr()](function.checkdnsrr.md)
+dns\_check\_record — Псевдоним[checkdnsrr()](function.checkdnsrr.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [checkdnsrr()](function.checkdnsrr.md)
+Функция — псевдоним функции:[checkdnsrr()](function.checkdnsrr.md)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-queue.construct.md: '« DsQueue::construct'
-  - ds-queue.count.md: 'ДсQueue::count »'
+  - ds-queue.construct.md: '« Ds\\Queue::\_\_construct'
+  - ds-queue.count.md: 'Ds\\Queue::count »'
   - index.md: PHP Manual
-  - class.ds-queue.md: Черга
-title: 'ДсQueue::copy'
+  - class.ds-queue.md: Ds\\Queue
+title: 'Ds\\Queue::copy'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсQueue::copy
+# Ds\\Queue::copy
 
 (PECL ds >= 1.0.0)
 
-ДсQueue::copy — Повертає поверхневу копію черги
+Ds\\Queue::copy — Повертає поверхневу копію черги
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Queue::copy(): Ds\Queue
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсQueue::copy()****
+**Пример #1 Пример использования**Ds\\Queue::copy()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ print_r($b);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Queue Object

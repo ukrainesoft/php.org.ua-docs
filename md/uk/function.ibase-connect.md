@@ -1,40 +1,41 @@
 ---
 navigation:
-  - function.ibase-commit.md: « ibasecommit
-  - function.ibase-db-info.md: ibaseдбinfo »
+  - function.ibase-commit.md: « ibase\_commit
+  - function.ibase-db-info.md: ibase\_db\_info »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseconnect
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_connect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseconnect
+# ibase\_connect
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseconnect — Відкриває з'єднання з базою даних
+ibase\_connect — Відкриває з'єднання з базою даних
 
 ### Опис
 
 ```methodsynopsis
-ibase_connect(    string $database = ?,    string $username = ?,    string $password = ?,    string $charset = ?,    int $buffers = ?,    int $dialect = ?,    string $role = ?,    int $sync = ?): resource
+ibase_connect(    string $database = ?,    string $username = ?,    string $password = ?,    string $charset = ?,    int $buffers = ?,    int $dialect = ?,    string $role = ?,    int $sync = ?): resource
 ```
 
 Встановлює з'єднання із сервером Firebird/InterBase.
 
-У разі повторного виклику **ibaseconnect()** з тими ж аргументами нове посилання не буде встановлене, натомість буде повернуто ідентифікатор вже відкритого посилання. Посилання на сервер буде закрито, як тільки завершиться виконання скрипту, якщо тільки воно не було закрито раніше явним викликом [ibaseclose()](function.ibase-close.md)
+У разі повторного виклику **ibase\_connect()** з тими ж аргументами нове посилання не буде встановлене, натомість буде повернуто ідентифікатор вже відкритого посилання. Посилання на сервер буде закрито, як тільки завершиться виконання скрипту, якщо тільки воно не було закрито раніше явним викликом [ibase\_close()](function.ibase-close.md)
 
 ### Список параметрів
 
 `database`
 
-Аргумент `database` повинен бути коректним шляхом до файлу бази даних на сервері, де він знаходиться. Якщо сервер не є локальним, перед ним має стояти префікс 'hostname:' (TCP / IP), 'hostname/port:' (TCP/IP з сервером interbase на порту TCP, що настроюється), '//hostname/' (NetBEUI), залежно від протоколу з'єднання.
+Аргумент`database` повинен бути коректним шляхом до файлу бази даних на сервері, де він знаходиться. Якщо сервер не є локальним, перед ним має стояти префікс 'hostname:' (TCP / IP), 'hostname/port:' (TCP/IP з сервером interbase на порту TCP, що настроюється), '//hostname/' (NetBEUI), залежно від протоколу з'єднання.
 
 `username`
 
-Ім'я користувача. Може бути встановлений за допомогою директиви `ibase.default_user` php.ini.
+Ім'я користувача. Може бути встановлений за допомогою директиви `ibase.default_user`php.ini.
 
 `password`
 
-Пароль для `username`. Може бути встановлений за допомогою директиви `ibase.default_password` php.ini.
+Пароль для`username`. Може бути встановлений за допомогою директиви `ibase.default_password`php.ini.
 
 `charset`
 
@@ -56,15 +57,15 @@ ibase_connect(    string $database = ?,    string $username = ?,    string $pass
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор посилання Firebird/InterBase у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор посилання Firebird/InterBase у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Якщо ви отримаєте якусь помилку, наприклад "arithmetic exception, numeric overflow, or string truncation." [ibasequery()](function.ibase-query.md) ви повинні встановити набір символів (наприклад, ISO88591 або поточний набір символів).
+Якщо ви отримаєте якусь помилку, наприклад "arithmetic exception, numeric overflow, or string truncation." [ibase\_query()](function.ibase-query.md) ви повинні встановити набір символів (наприклад, ISO8859\_1 або поточний набір символів).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibaseconnect()****
+**Пример #1 Пример использования**ibase\_connect()\*\*\*\*
 
 ```php
 <?php
@@ -83,5 +84,5 @@ ibase_close($dbh);
 
 ### Дивіться також
 
--   [ibasepconnect()](function.ibase-pconnect.md) - Відкриває постійне з'єднання з базою даних InterBase
--   [ibaseclose()](function.ibase-close.md) - Закриває з'єднання з базою даних InterBase
+-   [ibase\_pconnect()](function.ibase-pconnect.md) \- Відкриває постійне з'єднання з базою даних InterBase
+-   [ibase\_close()](function.ibase-close.md) \- Закриває з'єднання з базою даних InterBase

@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.mongodb-bson-persistable.md: « MongoDBBSONPersistable
-  - mongodb-bson-serializable.bsonserialize.md: 'MongoDBBSONSerializable::bsonSerialize »'
+  - mongodb-bson-persistable.bsonserialize.md: '« MongoDB\\BSON\\Persistable::bsonSerialize'
+  - mongodb-bson-serializable.bsonserialize.md: 'MongoDB\\BSON\\Serializable::bsonSerialize »'
   - index.md: PHP Manual
-  - book.bson.md: MongoDBBSON
-title: Інтерфейс MongoDBBSONSerializable
+  - book.bson.md: MongoDB\\BSON
+title: Інтерфейс MongoDB\\BSON\\Serializable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Інтерфейс MongoDBBSONSerializable
+# Інтерфейс MongoDB\\BSON\\Serializable
 
 (mongodb >=1.0.0)
 
@@ -31,17 +32,17 @@ title: Інтерфейс MongoDBBSONSerializable
 
     /* Методы */
     
-   abstract public bsonSerialize(): array|object
+   abstract public bsonSerialize(): array|stdClass|MongoDB\BSON\Document|MongoDB\BSON\PackedArray
 
    }
 ```
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL mongodb 1.15.0 | Типи значень, що повертаються для методів оголошені як попередні в PHP 8.0 і новіше, що викликає повідомлення про старіння в коді, який реалізує цей інтерфейс без оголошення відповідних типів значень, що повертаються. Атрибут `#[ReturnTypeWillChange]` може бути доданий, щоб заглушити повідомлення про старіння. |
 
 ## Зміст
 
--   [MongoDBBSONSerializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.md) — Надає масив або документ для серіалізації у BSON
+-   [MongoDB\\BSON\\Serializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.md)— Надає масив або документ для серіалізації у BSON

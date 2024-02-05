@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.finfo-set-flags.md: « finfosetflags
+  - function.finfo-set-flags.md: « finfo\_set\_flags
   - class.finfo.md: finfo »
   - index.md: PHP Manual
-  - ref.fileinfo.md: Функции модуля Fileinfo
-title: mimecontenttype
+  - ref.fileinfo.md: Функції модуля Fileinfo
+title: mime\_content\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mimecontenttype
+# mime\_content\_type
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-mimecontenttype — Визначає тип MIME вмісту файлу.
+mime\_content\_type — Визначає тип MIME вмісту файлу.
 
 ### Опис
 
@@ -28,7 +29,7 @@ mime_content_type(resource|string $filename): string|false
 
 ### Значення, що повертаються
 
-Повертає тип вмісту у форматі MIME, наприклад `text/plain` або `application/octet-stream` або **`false`** у разі виникнення помилки.
+Повертає тип вмісту у форматі MIME, наприклад `text/plain`или`application/octet-stream`или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -36,7 +37,7 @@ mime_content_type(resource|string $filename): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад **mimecontenttype()****
+**Пример #1 Пример**mime\_content\_type()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ echo mime_content_type('test.php');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 image/gif
@@ -54,5 +55,5 @@ text/plain
 
 ### Дивіться також
 
--   [finfofile()](finfo.file.md) - Псевдонім finfofile()
--   [finfobuffer()](finfo.buffer.md) - Псевдонім finfobuffer()
+-   [finfo\_file()](finfo.file.md) \- Псевдонім finfo\_file()
+-   [finfo\_buffer()](finfo.buffer.md) \- Псевдонім finfo\_buffer()

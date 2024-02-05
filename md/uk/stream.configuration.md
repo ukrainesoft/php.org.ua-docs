@@ -1,10 +1,11 @@
 ---
 navigation:
-  - stream.installation.md: « Установка
+  - stream.installation.md: « Встановлення
   - stream.resources.md: Класи для роботи з потоками »
   - index.md: PHP Manual
   - stream.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 

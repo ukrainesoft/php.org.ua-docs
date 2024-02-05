@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.listen.md: '« SwooleServer::listen'
-  - swoole-server.pause.md: 'SwooleServer::pause »'
+  - swoole-server.listen.md: '« Swoole\\Server::listen'
+  - swoole-server.pause.md: 'Swoole\\Server::pause »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::on'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::on'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::on
+# Swoole\\Server::on
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::on — Реєструє callback-функцію на ім'я події
+Swoole\\Server::on — Реєструє callback-функцію на ім'я події
 
 ### Опис
 

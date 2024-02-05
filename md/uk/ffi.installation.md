@@ -4,10 +4,11 @@ navigation:
   - ffi.configuration.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - ffi.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Для включення модуля FFI, PHP треба налаштувати з ключем **\-with-ffi**
+Для включення модуля FFI, PHP треба налаштувати з ключем **\--with-ffi**
 
-Користувачам Windows буде потрібно додати phpffi.dll у php.ini.
+Користувачам Windows необхідно додати php\_ffi.dll у php.ini.

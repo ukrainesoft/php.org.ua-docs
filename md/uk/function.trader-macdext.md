@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-macd.md: « tradermacd
-  - function.trader-macdfix.md: tradermacdfix »
+  - function.trader-macd.md: « trader\_macd
+  - function.trader-macdfix.md: trader\_macdfix »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermacdext
+  - ref.trader.md: Функції Trader
+title: trader\_macdext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermacdext
+# trader\_macdext
 
 (PECL trader >= 0.2.0)
 
-tradermacdext - MACD з керованим типом MA
+trader\_macdext - MACD з керованим типом MA
 
 ### Опис
 
 ```methodsynopsis
-trader_macdext(    array $real,    int $fastPeriod = ?,    int $fastMAType = ?,    int $slowPeriod = ?,    int $slowMAType = ?,    int $signalPeriod = ?,    int $signalMAType = ?): array
+trader_macdext(    array $real,    int $fastPeriod = ?,    int $fastMAType = ?,    int $slowPeriod = ?,    int $slowMAType = ?,    int $signalPeriod = ?,    int $signalMAType = ?): array
 ```
 
 ### Список параметрів
@@ -30,7 +31,7 @@ trader_macdext(    array $real,    int $fastPeriod = ?,    int $fastMAType = ?, 
 
 `fastMAType`
 
-Тип ковзної середньої для швидкого ковзного середнього. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
+Тип ковзної середньої для швидкого ковзного середнього. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.md)
 
 `slowPeriod`
 
@@ -38,7 +39,7 @@ trader_macdext(    array $real,    int $fastPeriod = ?,    int $fastMAType = ?, 
 
 `slowMAType`
 
-Тип ковзної середньої для повільного ковзного середнього. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
+Тип ковзної середньої для повільного ковзного середнього. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.md)
 
 `signalPeriod`
 
@@ -46,7 +47,7 @@ trader_macdext(    array $real,    int $fastPeriod = ?,    int $fastMAType = ?, 
 
 `signalMAType`
 
-Тип ковзної середньої сигнальної лінії. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
+Тип ковзної середньої сигнальної лінії. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.md)
 
 ### Значення, що повертаються
 

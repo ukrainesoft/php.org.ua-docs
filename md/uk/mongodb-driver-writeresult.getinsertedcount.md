@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getdeletedcount.md: '« MongoDBDriverWriteResult::getDeletedCount'
-  - mongodb-driver-writeresult.getmatchedcount.md: 'MongoDBDriverWriteResult::getMatchedCount »'
+  - mongodb-driver-writeresult.getdeletedcount.md: '« MongoDB\\Driver\\WriteResult::getDeletedCount'
+  - mongodb-driver-writeresult.getmatchedcount.md: 'MongoDB\\Driver\\WriteResult::getMatchedCount »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
-title: 'MongoDBDriverWriteResult::getInsertedCount'
+  - class.mongodb-driver-writeresult.md: MongoDB\\Driver\\WriteResult
+title: 'MongoDB\\Driver\\WriteResult::getInsertedCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteResult::getInsertedCount
+# MongoDB\\Driver\\WriteResult::getInsertedCount
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteResult::getInsertedCount — Повертає кількість вставлених документів (за винятком злиття)
+MongoDB\\Driver\\WriteResult::getInsertedCount — Повертає кількість вставлених документів (за винятком злиття)
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\Driver\WriteResult::getInsertedCount(): ?int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteResult::getInsertedCount()****
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getInsertedCount()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump($result->getInsertedCount());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(1)
@@ -61,4 +62,4 @@ int(1)
 
 ### Дивіться також
 
--   [MongoDBDriverWriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.md) - Повертає, чи був запис підтверджений
+-   [MongoDB\\Driver\\WriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.md) \- Повертає, чи був запис підтверджений

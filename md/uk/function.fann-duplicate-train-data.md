@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-destroy.md: « fanndestroy
-  - function.fann-get-activation-function.md: fanngetactivationfunction »
+  - function.fann-destroy.md: « fann\_destroy
+  - function.fann-get-activation-function.md: fann\_get\_activation\_function »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannduplicatetraindata
+  - ref.fann.md: Функції Fann
+title: fann\_duplicate\_train\_data
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannduplicatetraindata
+# fann\_duplicate\_train\_data
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannduplicatetraindata — Повертає точну копію тренувальних даних
+fann\_duplicate\_train\_data — Повертає точну копію тренувальних даних
 
 ### Опис
 
@@ -28,4 +29,4 @@ fann_duplicate_train_data(resource $data): resource
 
 ### Значення, що повертаються
 
-Повертає ресурс (resource) навчальних даних, або **`false`** у разі виникнення помилки.
+Повертає ресурс (resource) навчальних даних, або \*\*`false`\*\*в случае возникновения ошибки.

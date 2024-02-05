@@ -4,14 +4,15 @@ navigation:
   - function.stat.md: stat »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
-title: setfilebuffer
+title: set\_file\_buffer
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# setfilebuffer
+# set\_file\_buffer
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-setfilebuffer - Псевдонім [streamsetwritebuffer()](function.stream-set-write-buffer.md)
+set\_file\_buffer — Псевдоним[stream\_set\_write\_buffer()](function.stream-set-write-buffer.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [streamsetwritebuffer()](function.stream-set-write-buffer.md)
+Функция — псевдоним функции:[stream\_set\_write\_buffer()](function.stream-set-write-buffer.md)

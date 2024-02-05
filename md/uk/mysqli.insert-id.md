@@ -4,21 +4,22 @@ navigation:
   - mysqli.kill.md: 'mysqli::kill »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::$insertід'
+title: 'mysqli::$insert\_id'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::$insertід
+# mysqli::$insert\_id
 
-# mysqliinsertід
+# mysqli\_insert\_id
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::$insertid - mysqliinsertid — Повертає значення, створене для стовпця AUTOINCREMENT останнім запитом
+mysqli::$insert\_id -- mysqli\_insert\_id — Повертає значення, створене для стовпця AUTO\_INCREMENT останнім запитом
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqli->insertід](mysqli.insert-id.md)
+int|string[$mysqli->insert\_id](mysqli.insert-id.md)
 
 Процедурний стиль
 
@@ -26,31 +27,31 @@ int|string [$mysqli->insertід](mysqli.insert-id.md)
 mysqli_insert_id(mysqli $mysql): int|string
 ```
 
-Повертає ідентифікатор, згенерований запитом `INSERT` або `UPDATE` для таблиці зі стовпцем, що має атрибут `AUTO_INCREMENT`. У разі багаторядкового оператора `INSERT` він повертає перше автоматично згенероване значення, яке було успішно додано.
+Повертає ідентифікатор, згенерований запитом `INSERT`или`UPDATE` для таблиці зі стовпцем, що має атрибут `AUTO_INCREMENT`. У разі багаторядкового оператора `INSERT` він повертає перше автоматично згенероване значення, яке було успішно додано.
 
-Виконання запиту `INSERT` або `UPDATE` з використанням MySQL-функції `LAST_INSERT_ID()` також змінить значення, що повертається **mysqliinsertid()**. Якщо `LAST_INSERT_ID(expr)` використовувався для генерації значення `AUTO_INCREMENT`, він повертає значення останнього `expr` замість згенерованого значення `AUTO_INCREMENT`
+Виконання запиту `INSERT`или`UPDATE`с использованием MySQL-функции`LAST_INSERT_ID()`также изменит значение, возвращаемое**mysqli\_insert\_id()**. Якщо `LAST_INSERT_ID(expr)` використовувався для генерації значення `AUTO_INCREMENT`, він повертає значення останнього `expr` замість згенерованого значення `AUTO_INCREMENT`
 
-Повертає `0`, якщо попередній оператор не змінив значення `AUTO_INCREMENT`. . **mysqliinsertid()** повинен викликатись відразу після запиту, що згенерував значення.
+Повертає , якщо попередній оператор не змінив значення `AUTO_INCREMENT`. . **mysqli\_insert\_id()** повинен викликатись відразу після запиту, що згенерував значення.
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
-Значення поля `AUTO_INCREMENT`, яке торкнулося попереднім запитом. Повертає нуль, якщо попередній запит не торкнувся таблиці, що містять поле `AUTO_INCREMENT`
+Значение поля`AUTO_INCREMENT`, яке торкнулося попереднім запитом. Повертає нуль, якщо попередній запит не торкнувся таблиці, що містять поле `AUTO_INCREMENT`
 
 Тільки запити, видані з використанням поточного з'єднання, впливають на значення, що повертається. На значення не впливають запити, видані за допомогою інших підключень або клієнтів.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо число більше за максимальне значення цілого числа, функція поверне рядок.
 
 ### Приклади
 
-**Приклад #1 Приклад функції $mysqli->insertід**
+**Приклад #1 Приклад функції $mysqli->insert\_id**
 
 Об'єктно-орієнтований стиль
 
@@ -90,7 +91,7 @@ printf("ID новой записи: %d.\n", mysqli_insert_id($link));
 mysqli_query($link, "DROP TABLE myCity");
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 ID новой записи: 1.

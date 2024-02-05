@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-queue.peek.md: '« DsQueue::peek'
-  - ds-queue.push.md: 'ДсQueue::push »'
+  - ds-queue.peek.md: '« Ds\\Queue::peek'
+  - ds-queue.push.md: 'Ds\\Queue::push »'
   - index.md: PHP Manual
-  - class.ds-queue.md: Черга
-title: 'ДсQueue::pop'
+  - class.ds-queue.md: Ds\\Queue
+title: 'Ds\\Queue::pop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсQueue::pop
+# Ds\\Queue::pop
 
 (PECL ds >= 1.0.0)
 
-ДсQueue::pop — Видаляє та повертає значення з початку черги
+Ds\\Queue::pop — Видаляє та повертає значення з початку черги
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Queue::pop(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсQueue::pop()****
+**Пример #1 Пример использования**Ds\\Queue::pop()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump($queue->pop());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "a"

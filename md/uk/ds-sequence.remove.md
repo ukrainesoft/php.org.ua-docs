@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.reduce.md: '« DsSequence::reduce'
-  - ds-sequence.reverse.md: 'ДсSequence::reverse »'
+  - ds-sequence.reduce.md: '« Ds\\Sequence::reduce'
+  - ds-sequence.reverse.md: 'Ds\\Sequence::reverse »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::remove'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::remove'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::remove
+# Ds\\Sequence::remove
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::remove — Видаляє та повертає значення за індексом
+Ds\\Sequence::remove — Видаляє та повертає значення за індексом
 
 ### Опис
 
@@ -36,7 +37,7 @@ abstract public Ds\Sequence::remove(int $index): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::remove()****
+**Пример #1 Пример использования**Ds\\Sequence::remove()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($sequence->remove(0));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "b"

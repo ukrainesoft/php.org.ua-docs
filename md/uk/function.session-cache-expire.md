@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.session-abort.md: « sessionabort
-  - function.session-cache-limiter.md: sessioncachelimiter »
+  - function.session-abort.md: « session\_abort
+  - function.session-cache-limiter.md: session\_cache\_limiter »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
-title: sessioncacheexpire
+title: session\_cache\_expire
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sessioncacheexpire
+# session\_cache\_expire
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-sessioncacheexpire — Отримує та/або встановлює термін дії поточного кешу
+session\_cache\_expire — Отримує та/або встановлює термін дії поточного кешу
 
 ### Опис
 
@@ -18,17 +19,17 @@ sessioncacheexpire — Отримує та/або встановлює терм�
 session_cache_expire(?int $value = null): int|false
 ```
 
-**sessioncacheexpire()** повертає поточне значення налаштування `session.cache_expire`
+**session\_cache\_expire()** повертає поточне значення налаштування `session.cache_expire`
 
-Термін дії скидається до значення за промовчанням (180), що зберігається в [session.cacheexpire](session.configuration.md#ini.session.cache-expire) під час запиту. Таким чином, потрібно викликати **sessioncacheexpire()** для кожного запиту (і до дзвінка [sessionstart()](function.session-start.md)
+Термін дії скидається до значення за промовчанням (180), що зберігається в [session.cache\_expire](session.configuration.md#ini.session.cache-expire) під час запиту. Таким чином, потрібно викликати **session\_cache\_expire()** для кожного запиту (і до дзвінка [session\_start()](function.session-start.md)
 
 ### Список параметрів
 
 `value`
 
-Якщо `value` заданий і не дорівнює **`null`**, поточний час життя замінюється на `value`
+Якщо `value` заданий і не дорівнює **`null`**, текущее время жизни заменяется на`value`
 
-> **Зауваження**: Налаштування `value` має значення тільки, якщо для `session.cache_limiter` встановлено значення, *відмінне* від `nocache`
+> **Зауваження**: Настройка`value` має значення тільки, якщо для `session.cache_limiter`установлено значение,*відмінне*от`nocache`
 
 ### Значення, що повертаються
 
@@ -36,13 +37,13 @@ session_cache_expire(?int $value = null): int|false
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `value` може набувати значення **`null`** |
+| 8.0.0 | `value` може набувати значення **`null`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sessioncacheexpire()****
+**Пример #1 Пример использования**session\_cache\_expire()\*\*\*\*
 
 ```php
 <?php
@@ -67,6 +68,6 @@ echo "Закешированные страницы сессии истекаю�
 
 ### Дивіться також
 
--   [session.cacheexpire](session.configuration.md#ini.session.cache-expire)
--   [session.cachelimiter](session.configuration.md#ini.session.cache-limiter)
--   [sessioncachelimiter()](function.session-cache-limiter.md) - Отримати та/або встановити поточний режим кешування
+-   [session.cache\_expire](session.configuration.md#ini.session.cache-expire)
+-   [session.cache\_limiter](session.configuration.md#ini.session.cache-limiter)
+-   [session\_cache\_limiter()](function.session-cache-limiter.md) \- Отримати та/або встановити поточний режим кешування

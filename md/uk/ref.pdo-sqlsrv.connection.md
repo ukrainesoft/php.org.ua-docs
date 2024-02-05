@@ -4,21 +4,22 @@ navigation:
   - ref.pdo-oci.md: Oracle (PDO) »
   - index.md: PHP Manual
   - ref.pdo-sqlsrv.md: MS SQL Server (PDO)
-title: PDOSQLSRV DSN
+title: PDO\_SQLSRV DSN
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# PDOSQLSRV DSN
+# PDO\_SQLSRV DSN
 
-(PECL pdosqlsrv >= 2.0.1)
+(PECL pdo\_sqlsrv >= 2.0.1)
 
-PDOSQLSRV DSN — Підключення до баз даних MS SQL Server та SQL Azure
+PDO\_SQLSRV DSN — Підключення до баз даних MS SQL Server та SQL Azure
 
 ### Опис
 
-Рядок джерела даних (Data Source Name, DSN) для PDOSQLSRV складається з наступних елементів:
+Рядок джерела даних (Data Source Name, DSN) для PDO\_SQLSRV складається з наступних елементів:
 
 Префікс DSN
 
-Префікс DSN дорівнює **`sqlsrv:`**
+Префикс DSN равен\*\*`sqlsrv:`\*\*
 
 `APP`
 
@@ -66,11 +67,11 @@ PDOSQLSRV DSN — Підключення до баз даних MS SQL Server т
 
 `TransactionIsolation`
 
-Визначає рівень ізоляції транзакцій. Допустимі значення цієї опції - PDO::SQLSRVTXNREADUNCOMMITTED, PDO::SQLSRVTXNREADCOMMITTED, PDO::SQLSRVTXNREPEATABLEREAD, PDO::SQLSRVTXNSNAPSHOT та PDO::SQLSRVTXNSERIALIZABLE.
+Визначає рівень ізоляції транзакцій. Допустимі значення цієї опції - PDO::SQLSRV\_TXN\_READ\_UNCOMMITTED, PDO::SQLSRV\_TXN\_READ\_COMMITTED, PDO::SQLSRV\_TXN\_REPEATABLE\_READ, PDO::SQLSRV\_TXN\_SNAPSHOT та PDO::SQLSRV\_TXN\_SERIALIZABLE.
 
 `TrustServerCertificate`
 
-Визначає, чи повинен клієнт приймати (1 або **`true`**) або відхиляти (0 or **`false`**) самозавірені (self-signed) сертифікати сервера.
+Определяет, должен ли клиент принимать (1 или\*\*`true`\*\*) або відхиляти (0 or **`false`**) самозавірені (self-signed) сертифікати сервера.
 
 `WSID`
 
@@ -78,7 +79,7 @@ PDOSQLSRV DSN — Підключення до баз даних MS SQL Server т
 
 ### Приклади
 
-**Приклад #1 Приклади PDOSQLSRV DSN**
+**Приклад #1 Приклади PDO\_SQLSRV DSN**
 
 Наступний приклад показує, як підключатися до певної бази даних MS SQL Server:
 
@@ -92,7 +93,7 @@ $c = new PDO("sqlsrv:Server=localhost;Database=testdb", "UserName", "Password");
 $c = new PDO("sqlsrv:Server=localhost,1521;Database=testdb", "UserName", "Password");
 ```
 
-Наступний приклад показує, як підключатися до бази даних SQL Azure з ідентифікатором сервера 12345abcde. Примітка: при з'єднанні з SQL Azure за допомогою PDO, ім'я користувача дорівнює UserName@12345abcde (UserName@ServerId).
+Наступний приклад показує, як підключатися до бази даних SQL Azure з ідентифікатором сервера 12345abcde. Примітка: при з'єднанні з SQL Azure за допомогою PDO ім'я користувача дорівнює UserName@12345abcde (UserName@ServerId).
 
 ```
 $c = new PDO("sqlsrv:Server=12345abcde.database.windows.net;Database=testdb", "UserName@12345abcde", "Password");

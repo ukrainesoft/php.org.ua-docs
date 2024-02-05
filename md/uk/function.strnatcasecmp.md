@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: strnatcasecmp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # strnatcasecmp
 
@@ -18,7 +19,7 @@ strnatcasecmp — Порівняння рядків без урахування 
 strnatcasecmp(string $string1, string $string2): int
 ```
 
-Ця функція реалізує алгоритм порівняння, який упорядковує алфавітно-цифрові рядки подібно до того, як це зробив би людина. Ця функція подібна [strnatcmp()](function.strnatcmp.md), крім того, що порівняння відбувається без урахування регістру символів. Для отримання додаткової інформації дивіться [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
+Ця функція реалізує алгоритм порівняння, який упорядковує алфавітно-цифрові рядки подібно до того, як це зробив би людина. Ця функція подібна [strnatcmp()](function.strnatcmp.md), крім того, що порівняння відбувається без урахування регістру символів. Для отримання додаткової інформації дивіться [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
 
 ### Список параметрів
 
@@ -32,11 +33,17 @@ strnatcasecmp(string $string1, string $string2): int
 
 ### Значення, що повертаються
 
-Подібно до інших функцій порівняння рядків, ця функція повертає від'ємне число, якщо `string1` менше `string2`, позитивне число, якщо `string1` більше `string2`, та 0, якщо рядки рівні.
+Повертає `-1`, якщо `string1`меньше`string2` , якщо `string1`больше`string2`, и якщо рядки рівні.
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Функція тепер повертає `-1`или ; раніше вона повертала негативне чи позитивне число. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **strnatcasecmp()****
+**Пример #1 Пример использования**strnatcasecmp()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +54,7 @@ var_dump(strnatcasecmp('apple', 'Apple'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(-1)
@@ -57,12 +64,12 @@ int(0)
 
 ### Дивіться також
 
--   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
--   [strcmp()](function.strcmp.md) - Бінарно-безпечне порівняння рядків
--   [strcasecmp()](function.strcasecmp.md) - Бінарно-безпечне порівняння рядків без урахування регістру
--   [substr()](function.substr.md) - Повертає підрядок
--   [stristr()](function.stristr.md) - Реєстронезалежний варіант функції strstr
--   [strncasecmp()](function.strncasecmp.md) - Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
--   [strncmp()](function.strncmp.md) - Бінарно-безпечне порівняння перших n символів рядків
--   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
--   [setlocale()](function.setlocale.md) - Встановлює налаштування локалі
+-   [preg\_match()](function.preg-match.md) \- Виконує перевірку на відповідність регулярному виразу
+-   [strcmp()](function.strcmp.md) \- Бінарно-безпечне порівняння рядків
+-   [strcasecmp()](function.strcasecmp.md) \- Бінарно-безпечне порівняння рядків без урахування регістру
+-   [substr()](function.substr.md) \- Повертає підрядок
+-   [stristr()](function.stristr.md) \- Реєстронезалежний варіант функції strstr
+-   [strncasecmp()](function.strncasecmp.md) \- Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
+-   [strncmp()](function.strncmp.md) \- Бінарно-безпечне порівняння перших n символів рядків
+-   [strstr()](function.strstr.md) \- Знаходить перше входження підрядка
+-   [setlocale()](function.setlocale.md) \- Встановлює налаштування локалі

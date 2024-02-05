@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.yaz-schema.md: « yazschema
-  - function.yaz-set-option.md: yazsetoption »
+  - function.yaz-schema.md: « yaz\_schema
+  - function.yaz-set-option.md: yaz\_set\_option »
   - index.md: PHP Manual
-  - ref.yaz.md: Функции YAZ
-title: yazsearch
+  - ref.yaz.md: Функції YAZ
+title: yaz\_search
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yazsearch
+# yaz\_search
 
-(PHP 4> = 4.0.1, PECL yaz> = 0.9.0)
+(PHP 4 >= 4.0.1, PECL yaz >= 0.9.0)
 
-yazsearch — Підготовка пошуку
+yaz\_search — Підготовка пошуку
 
 ### Опис
 
@@ -18,15 +19,15 @@ yazsearch — Підготовка пошуку
 yaz_search(resource $id, string $type, string $query): bool
 ```
 
-**yazsearch()** готує пошук на заданому з'єднанні.
+**yaz\_search()** готує пошук на заданому з'єднанні.
 
-Так само як і [yazconnect()](function.yaz-connect.md) ця функція не блокує і лише готує умови пошуку, який буде виконаний функцією [yazwait()](function.yaz-wait.md)
+Так само як і [yaz\_connect()](function.yaz-connect.md) ця функція не блокує і лише готує умови пошуку, який буде виконаний функцією [yaz\_wait()](function.yaz-wait.md)
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, що повертається функцією [yazconnect()](function.yaz-connect.md)
+Дескриптор з'єднання, що повертається функцією [yaz\_connect()](function.yaz-connect.md)
 
 `type`
 
@@ -38,24 +39,24 @@ yaz_search(resource $id, string $type, string $query): bool
 
 **Оператори RPN**
 
-| Конструкция | Описание |
+| Конструкция | Опис |
 | --- | --- |
 | `@and` query1 query2 | перетин query1 і query2 |
 | `@or` query1 query2 | об'єднання query1 та query2 |
 | `@not` query1 query2 | query1 і не query2 |
 | `@set` name | посилання на набір значень, що повертаються |
-| `@attrset` set query | визначає набір атрибутів `set` для запиту `query`. Ця конструкція доступна лише один раз – на самому початку запиту. |
-| `@attr` set type=value query | встановлює атрибути запиту. Значення `type` і `value` - Цілочисленні та визначають тип атрибуту та тип значення відповідно. Значення `set`, якщо його встановлено, визначає налаштування атрибутів. |
+| `@attrset` set query | визначає набір атрибутів `set` для запиту `query`. . Ця конструкція доступна лише один раз – на самому початку запиту. |
+| `@attr` \[set\] type=value query | встановлює атрибути запиту. Значення `type`и`value` - Цілочисленні та визначають тип атрибуту та тип значення відповідно. Значення `set`, якщо його встановлено, визначає налаштування атрибутів. |
 
-Всю інформацію про доступні атрибути ви можете знайти на сайті [» Z39.50 Maintenance Agency](http://www.loc.gov/z3950/agency/defns/bib1.md)
+Всю інформацію про доступні атрибути ви можете знайти на сайті [» Z39.50 Maintenance Agency](http://www.loc.gov/z3950/agency/defns/bib1.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Якщо ви хочете використовувати більш дружню нотацію, використовуйте CCL парсер - функції [yazcclconf()](function.yaz-ccl-conf.md) і [yazcclparse()](function.yaz-ccl-parse.md)
+> Якщо ви хочете використовувати більш дружню нотацію, використовуйте CCL парсер - функції [yaz\_ccl\_conf()](function.yaz-ccl-conf.md) і [yaz\_ccl\_parse()](function.yaz-ccl-parse.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -83,7 +84,7 @@ computer
 
 @and @or a b @not @or c d e
 
-в інфіксній нотації представляється як `(a или b) и ((c или d) и не e)`
+в інфіксній нотації представляється як `(a або b) та ((c або d) і не e)`
 
 ще один складніший запит:
 

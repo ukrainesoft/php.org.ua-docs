@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-session.next.md: '« YafSession::next'
-  - yaf-session.offsetget.md: 'YafSession::offsetGet »'
+  - yaf-session.next.md: '« Yaf\_Session::next'
+  - yaf-session.offsetget.md: 'Yaf\_Session::offsetGet »'
   - index.md: PHP Manual
-  - class.yaf-session.md: YafSession
-title: 'YafSession::offsetExists'
+  - class.yaf-session.md: Yaf\_Session
+title: 'Yaf\_Session::offsetExists'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafSession::offsetExists
+# Yaf\_Session::offsetExists
 
 (Yaf >=1.0.0)
 
-YafSession::offsetExists — Призначення offsetExists
+Yaf\_Session::offsetExists — Призначення offsetExists
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Session::offsetExists(string $name): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

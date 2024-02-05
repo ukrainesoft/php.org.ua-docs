@@ -5,20 +5,21 @@ navigation:
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolorresolvealpha
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # imagecolorresolvealpha
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagecolorresolvealpha — Отримує ідентифікатор конкретного кольору та альфа компонента або його найближчий аналог
 
 ### Опис
 
 ```methodsynopsis
-imagecolorresolvealpha(    GdImage $image,    int $red,    int $green,    int $blue,    int $alpha): int
+imagecolorresolvealpha(    GdImage $image,    int $red,    int $green,    int $blue,    int $alpha): int
 ```
 
-Ця функція обов'язково поверне ідентифікатор кольору для вибраного кольору, або найближчу можливу альтернативу.
+Ця функція обов'язково поверне ідентифікатор кольору для вибраного кольору або найближчу можливу його альтернативу.
 
 ### Список параметрів
 
@@ -40,7 +41,7 @@ imagecolorresolvealpha(    GdImage $image,    int $red,    int $green,    int $b
 
 `alpha`
 
-Значення в діапазоні від `0` до `127`. . `0` означає непрозорість, `127` означає абсолютну прозорість.
+Значение в диапазоне от до`127`. . означає непрозорість, `127` означає абсолютну прозорість.
 
 Параметри кольору можуть бути цілими в діапазоні від 0 до 255, або шістнадцятковими в діапазоні від 0x00 до 0xFF.
 
@@ -50,13 +51,13 @@ imagecolorresolvealpha(    GdImage $image,    int $red,    int $green,    int $b
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався коректний `gd` ресурс (Resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagecoloresolvealpha()** для отримання квітів із зображення**
+**Пример #1 Пример использования**imagecoloresolvealpha()**для получения цветов из изображения**
 
 ```php
 <?php
@@ -75,7 +76,7 @@ imagedestroy($im);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -87,4 +88,4 @@ Array
 
 ### Дивіться також
 
--   [imagecolorclosestalpha()](function.imagecolorclosestalpha.md) - Отримання індексу кольору найближчого до заданого з урахуванням прозорості
+-   [imagecolorclosestalpha()](function.imagecolorclosestalpha.md) \- Отримання індексу кольору найближчого до заданого з урахуванням прозорості

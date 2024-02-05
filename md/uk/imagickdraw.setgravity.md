@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setGravity'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setGravity
 
@@ -20,7 +21,7 @@ public ImagickDraw::setGravity(int $gravity): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Встановлює гравітацію розміщення тексту, що використовується під час його інструкції.
 
@@ -28,7 +29,7 @@ public ImagickDraw::setGravity(int $gravity): bool
 
 `gravity`
 
-Одна з констант [GRAVITY](imagick.constants.md#imagick.constants.gravity) `imagick::GRAVITY_*`
+Одна из констант[GRAVITY](imagick.constants.md#imagick.constants.gravity) `imagick::GRAVITY_*`
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public ImagickDraw::setGravity(int $gravity): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setGravity()****
+**Пример #1 Пример использования**ImagickDraw::setGravity()\*\*\*\*
 
 ```php
 <?php

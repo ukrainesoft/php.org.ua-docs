@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.zookeeper.md: « ZooKeeper
-  - zookeeper.setup.md: Встановлення та налаштування »
+  - zookeeper.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.zookeeper.md: ZooKeeper
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 

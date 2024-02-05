@@ -4,13 +4,14 @@ navigation:
   - eventbuffer.copyout.md: 'EventBuffer::copyout »'
   - index.md: PHP Manual
   - class.eventbuffer.md: EventBuffer
-title: 'EventBuffer::construct'
+title: 'EventBuffer::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# EventBuffer::construct
+# EventBuffer::\_\_construct
 
 (PECL event >= 1.2.6-beta)
 
-EventBuffer::construct — Створює об'єкт EventBuffer
+EventBuffer::\_\_construct — Створює об'єкт EventBuffer
 
 ### Опис
 
@@ -19,12 +20,8 @@ public
    EventBuffer::__construct()
 ```
 
-Створює об'єкт EventBuffer
+Створює об'єкт EventBuffer.
 
 ### Список параметрів
 
 Ця функція не має параметрів.
-
-### Значення, що повертаються
-
-Повертає об'єкт EventBuffer.

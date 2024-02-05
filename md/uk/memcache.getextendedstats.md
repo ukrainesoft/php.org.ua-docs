@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcache.md: Memcache
 title: 'Memcache::getExtendedStats'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcache::getExtendedStats
 
@@ -18,9 +19,9 @@ Memcache::getExtendedStats — Отримати статистику з усіх
 Memcache::getExtendedStats(string $type = ?, int $slabid = ?, int $limit = 100): array
 ```
 
-**Memcache::getExtendedStats()** повертає двовимірний асоціативний масив, що містить статистику сервера. Ключі масиву відповідають серверу host:port, а значення містять статистику по даному серверу. Якщо не вдалося отримати дані для будь-якого сервера, то відповідне значення буде виставлено в **`false`**. Ви також можете використати функцію **memcachegetextendedstats()**
+**Memcache::getExtendedStats()** повертає двовимірний асоціативний масив, що містить статистику сервера. Ключі масиву відповідають серверу host:port, а значення містять статистику по даному серверу. Якщо не вдалося отримати дані для будь-якого сервера, то відповідне значення буде виставлено в **`false`**. Ви також можете використати функцію **memcache\_get\_extended\_stats()**
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція була додана до Memcache версії 2.0.0.
 
@@ -36,7 +37,7 @@ Memcache::getExtendedStats(string $type = ?, int $slabid = ?, int $limit = 100):
 
 `limit`
 
-Використовується разом з `type` для обмеження кількості записів, що витягуються.
+Используется вместе с`type` для обмеження кількості записів, що витягуються.
 
 **Увага**
 
@@ -44,11 +45,11 @@ Memcache::getExtendedStats(string $type = ?, int $slabid = ?, int $limit = 100):
 
 ### Значення, що повертаються
 
-Повертає двовимірний асоціативний масив, що містить статистику серверів або **`false`** у разі невдачі.
+Повертає двовимірний асоціативний масив, що містить статистику серверів або \*\*`false`\*\*в случае неудачи.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcache::getExtendedStats()****
+**Пример #1 Пример использования**Memcache::getExtendedStats()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ Memcache::getExtendedStats(string $type = ?, int $slabid = ?, int $limit = 100):
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -95,5 +96,5 @@ Array
 
 ### Дивіться також
 
--   [Memcache::getVersion()](memcache.getversion.md) - Повернути версію сервера
--   [Memcache::getStats()](memcache.getstats.md) - Отримати статистику сервера
+-   [Memcache::getVersion()](memcache.getversion.md) \- Повернути версію сервера
+-   [Memcache::getStats()](memcache.getstats.md) \- Отримати статистику сервера

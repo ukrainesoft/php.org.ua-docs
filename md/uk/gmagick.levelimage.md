@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::levelimage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::levelimage
 
@@ -15,7 +16,7 @@ Gmagick::levelimage — Регулює рівні зображення
 ### Опис
 
 ```methodsynopsis
-public Gmagick::levelimage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Gmagick::CHANNEL_DEFAULT): mixed
+public Gmagick::levelimage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Gmagick::CHANNEL_DEFAULT): mixed
 ```
 
 Регулює рівні зображення, масштабуючи кольори, що потрапляють між зазначеними білими та чорними точками, до доступного квантового діапазону. Надані параметри є чорними, середніми і білими точками. Чорна точка вказує на темний колір зображення. Кольори темніші за крапку чорного встановлюються на нуль. Середня точка визначає гамма-корекцію, що застосовується до зображення. Біла точка визначає найсвітліший колір зображення. Кольори яскравіші за крапку білого встановлюються на максимальне квантове значення.
@@ -36,7 +37,7 @@ public Gmagick::levelimage(    float $blackPoint,    float $gamma,    float $whi
 
 `channel`
 
-Вкажіть будь-яку константу каналу, яка є дійсною для вашого режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до списку [констант канала](gmagick.constants.md#gmagick.constants.channel)
+Вкажіть будь-яку константу каналу, яка є дійсною для вашого режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до списку [констант каналу](gmagick.constants.md#gmagick.constants.channel)
 
 ### Значення, що повертаються
 
@@ -44,4 +45,4 @@ public Gmagick::levelimage(    float $blackPoint,    float $gamma,    float $whi
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

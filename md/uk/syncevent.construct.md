@@ -4,13 +4,14 @@ navigation:
   - syncevent.fire.md: 'SyncEvent::fire »'
   - index.md: PHP Manual
   - class.syncevent.md: SyncEvent
-title: 'SyncEvent::construct'
+title: 'SyncEvent::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SyncEvent::construct
+# SyncEvent::\_\_construct
 
 (PECL sync >= 1.0.0)
 
-SyncEvent::construct — Створення нового об'єкту SyncEvent
+SyncEvent::\_\_construct — Створення нового об'єкту SyncEvent
 
 ### Опис
 
@@ -26,7 +27,7 @@ public SyncEvent::__construct(string $name = ?, bool $manual = false, bool $pref
 
 Ім'я події, якщо це названий об'єкт події.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо ім'я вже існує, воно має бути доступним для відкриття поточним користувачем, від імені якого запущено процес, інакше буде викинуто виняток із безглуздим повідомленням про помилку.
 
@@ -34,15 +35,15 @@ public SyncEvent::__construct(string $name = ?, bool $manual = false, bool $pref
 
 Визначає, чи потрібно скидати об'єкт події вручну.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Об'єкти подій зі скиданням вручну дозволяють виконувати всі очікувані процеси, поки об'єкт не буде скинутий.
+> Об'єкти подій зі скиданням вручну дозволяють виконувати всі очікувані процеси, доки об'єкт не буде скинутий.
 
 `prefire`
 
-Визначає, чи потрібно заздалегідь активувати (сигналізувати) об'єкт події.
+Визначає, чи слід заздалегідь активувати (сигналізувати) об'єкт події.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Має значення тільки в тому випадку, якщо процес/потік, що викликає, першим створює об'єкт.
 
@@ -56,7 +57,7 @@ public SyncEvent::__construct(string $name = ?, bool $manual = false, bool $pref
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncEvent::construct()****
+**Пример #1 Пример использования**SyncEvent::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -72,13 +73,13 @@ $event->wait();
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL sync 1.1.0 |  |
-| Доданий параметр `prefire` |  |
+| Добавлен параметр`prefire` |  |
 
 ### Дивіться також
 
--   [SyncEvent::fire()](syncevent.fire.md) - Запускає/встановлює подію
--   [SyncEvent::reset()](syncevent.reset.md) - скидає ручну подію
--   [SyncEvent::wait()](syncevent.wait.md) - Очікує запуску/установки події
+-   [SyncEvent::fire()](syncevent.fire.md) \- Запускає/встановлює подію
+-   [SyncEvent::reset()](syncevent.reset.md) \- скидає ручну подію
+-   [SyncEvent::wait()](syncevent.wait.md) \- Очікує запуску/установки події

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-menuitem.setchecked.md: '« UIMenuItem::setChecked'
-  - ui-area.ondraw.md: 'ОЙArea::onDraw »'
+  - ui-menuitem.setchecked.md: '« UI\\MenuItem::setChecked'
+  - ui-area.ondraw.md: 'UI\\Area::onDraw »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Area
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Area
 
@@ -60,7 +61,7 @@ title: Area
 
     /* Методы */
     
-   protected onDraw(    UI\Draw\Pen $pen,    UI\Size $areaSize,    UI\Point $clipPoint,    UI\Size $clipSize)
+   protected onDraw(    UI\Draw\Pen $pen,    UI\Size $areaSize,    UI\Point $clipPoint,    UI\Size $clipSize)
 protected onKey(string $key, int $ext, int $flags)
 protected onMouse(UI\Point $areaPoint, UI\Size $areaSize, int $flags)
 public redraw()
@@ -110,9 +111,9 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙArea::onDraw](ui-area.ondraw.md) — Функція зворотного виклику під час малювання
--   [ОЙArea::onKey](ui-area.onkey.md) — Функція зворотного дзвінка під час натискання
--   [ОЙArea::onMouse](ui-area.onmouse.md) — Функція зворотного дзвінка миші
--   [ОЙArea::redraw](ui-area.redraw.md) - Перемалювати область
--   [ОЙArea::scrollTo](ui-area.scrollto.md) - Прокрутити область
--   [ОЙArea::setSize](ui-area.setsize.md) - Встановити розмір
+-   [UI\\Area::onDraw](ui-area.ondraw.md)— Функція зворотного виклику під час малювання
+-   [UI\\Area::onKey](ui-area.onkey.md)— Функція зворотного дзвінка під час натискання
+-   [UI\\Area::onMouse](ui-area.onmouse.md)— Функція зворотного дзвінка миші
+-   [UI\\Area::redraw](ui-area.redraw.md)— Перемалювати область
+-   [UI\\Area::scrollTo](ui-area.scrollto.md) \- Прокрутити область
+-   [UI\\Area::setSize](ui-area.setsize.md) \- Встановити розмір

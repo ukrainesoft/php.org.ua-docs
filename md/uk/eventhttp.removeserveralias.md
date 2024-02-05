@@ -1,10 +1,11 @@
 ---
 navigation:
-  - eventhttp.construct.md: '« EventHttp::construct'
+  - eventhttp.construct.md: '« EventHttp::\_\_construct'
   - eventhttp.setallowedmethods.md: 'EventHttp::setAllowedMethods »'
   - index.md: PHP Manual
   - class.eventhttp.md: EventHttp
 title: 'EventHttp::removeServerAlias'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttp::removeServerAlias
 
@@ -32,8 +33,8 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventHttp::addServerAlias()](eventhttp.addserveralias.md) - Додає псевдонім сервера до об'єкта HTTP-сервера
+-   [EventHttp::addServerAlias()](eventhttp.addserveralias.md) \- Додає псевдонім сервера до об'єкта HTTP-сервера

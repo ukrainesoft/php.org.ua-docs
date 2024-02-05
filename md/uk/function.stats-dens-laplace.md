@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-dens-gamma.md: « statsdensgamma
-  - function.stats-dens-logistic.md: statsdenslogistic »
+  - function.stats-dens-gamma.md: « stats\_dens\_gamma
+  - function.stats-dens-logistic.md: stats\_dens\_logistic »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsdenslaplace
+title: stats\_dens\_laplace
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsdenslaplace
+# stats\_dens\_laplace
 
 (PECL stats >= 1.0.0)
 
-statsdenslaplace - Щільність ймовірності розподілу Лапласа
+stats\_dens\_laplace - Щільність ймовірності розподілу Лапласа
 
 ### Опис
 
@@ -18,7 +19,7 @@ statsdenslaplace - Щільність ймовірності розподілу 
 stats_dens_laplace(float $x, float $ave, float $stdev): float
 ```
 
-Повертає щільність ймовірності для `x`, де `ave` і `stdev` є коефіцієнтом зсуву та параметром форми відповідно.
+Повертає щільність ймовірності для `x`, где`ave`и`stdev` є коефіцієнтом зсуву та параметром форми відповідно.
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ stats_dens_laplace(float $x, float $ave, float $stdev): float
 
 ### Значення, що повертаються
 
-Щільність ймовірності для `x` або **`false`** у разі виникнення помилки.
+Щільність ймовірності для `x`или\*\*`false`\*\*в случае возникновения ошибки.

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-get-config.md: « sqlsrvgetconfig
-  - function.sqlsrv-has-rows.md: sqlsrvhasrows »
+  - function.sqlsrv-get-config.md: « sqlsrv\_get\_config
+  - function.sqlsrv-has-rows.md: sqlsrv\_has\_rows »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvgetfield
+title: sqlsrv\_get\_field
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvgetfield
+# sqlsrv\_get\_field
 
 (No version information available, might only be in Git)
 
-sqlsrvgetfield — Отримує дані поля з поточного вибраного рядка
+sqlsrv\_get\_field — Отримує дані поля з поточного вибраного рядка
 
 ### Опис
 
@@ -24,7 +25,7 @@ sqlsrv_get_field(resource $stmt, int $fieldIndex, int $getAsType = ?): mixed
 
 `stmt`
 
-Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvexecute()](function.sqlsrv-execute.md)
+Ресурс оператора, що повертається [sqlsrv\_query()](function.sqlsrv-query.md) або [sqlsrv\_execute()](function.sqlsrv-execute.md)
 
 `fieldIndex`
 
@@ -32,17 +33,17 @@ sqlsrv_get_field(resource $stmt, int $fieldIndex, int $getAsType = ?): mixed
 
 `getAsType`
 
-Тип даних PHP для даних поля, що повертаються. Якщо цей параметр не встановлено, ці поля будуть повернуті як тип даних PHP за промовчанням. Для отримання інформації про типи даних PHP за замовчуванням дивіться [» Типи даних PHP за замовчуванням](http://msdn.microsoft.com/en-us/library/cc296193.aspx) у документації Microsoft SQLSRV.
+Тип даних PHP для даних поля, що повертаються. Якщо цей параметр не встановлено, ці поля будуть повернуті як тип даних PHP за промовчанням. Для отримання інформації про типи даних PHP за замовчуванням дивіться [» Типи даних PHP за замовчуванням](http://msdn.microsoft.com/en-us/library/cc296193.aspx)в документации Microsoft SQLSRV.
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає дані із вказаного поля. Повертає **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає дані із вказаного поля. Повертає \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvgetfield()****
+**Пример #1 Пример использования**sqlsrv\_get\_field()\*\*\*\*
 
-У наступному прикладі показано, як отримати рядок за допомогою [sqlsrvfetch()](function.sqlsrv-fetch.md) та отримати поля рядки за допомогою **sqlsrvgetfield()**
+У наступному прикладі показано, як отримати рядок за допомогою [sqlsrv\_fetch()](function.sqlsrv-fetch.md) та отримати поля рядки за допомогою **sqlsrv\_get\_field()**
 
 ```php
 <?php
@@ -78,6 +79,6 @@ echo $comment;
 
 ### Дивіться також
 
--   [sqlsrvfetch()](function.sqlsrv-fetch.md) - Робить наступний рядок у наборі результатів доступного для читання
--   [sqlsrvfetcharray()](function.sqlsrv-fetch-array.md) - Повертає рядок як масив
--   [sqlsrvfetchobject()](function.sqlsrv-fetch-object.md) - Отримує наступний рядок даних у наборі результатів як об'єкт
+-   [sqlsrv\_fetch()](function.sqlsrv-fetch.md) \- Робить наступний рядок у наборі результатів доступного для читання
+-   [sqlsrv\_fetch\_array()](function.sqlsrv-fetch-array.md) \- Повертає рядок як масив
+-   [sqlsrv\_fetch\_object()](function.sqlsrv-fetch-object.md) \- Отримує наступний рядок даних у наборі результатів як об'єкт

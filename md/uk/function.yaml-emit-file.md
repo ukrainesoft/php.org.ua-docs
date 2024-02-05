@@ -1,21 +1,22 @@
 ---
 navigation:
-  - ref.yaml.md: « Функции Yaml
-  - function.yaml-emit.md: yamlemit »
+  - ref.yaml.md: « Функції Yaml
+  - function.yaml-emit.md: yaml\_emit »
   - index.md: PHP Manual
-  - ref.yaml.md: Функции Yaml
-title: yamlemitfile
+  - ref.yaml.md: Функції Yaml
+title: yaml\_emit\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yamlemitfile
+# yaml\_emit\_file
 
 (PECL yaml >= 0.5.0)
 
-yamlemitfile — Відправляє YAML-подання значення файлу
+yaml\_emit\_file — Відправляє YAML-подання значення файлу
 
 ### Опис
 
 ```methodsynopsis
-yaml_emit_file(    string $filename,    mixed $data,    int $encoding = YAML_ANY_ENCODING,    int $linebreak = YAML_ANY_BREAK,    array $callbacks = null): bool
+yaml_emit_file(    string $filename,    mixed $data,    int $encoding = YAML_ANY_ENCODING,    int $linebreak = YAML_ANY_BREAK,    array $callbacks = null): bool
 ```
 
 Генерує YAML-подання з даних `data` і відправляє в `filename`
@@ -28,7 +29,7 @@ yaml_emit_file(    string $filename,    mixed $data,    int $encoding = YAML_ANY
 
 `data`
 
-Параметр `data` буде кодовано. Допускається будь-який тип даних, крім ресурсу (resource).
+Параметр`data` буде кодовано. Допускається будь-який тип даних, крім ресурсу (resource).
 
 `encoding`
 
@@ -48,11 +49,11 @@ yaml_emit_file(    string $filename,    mixed $data,    int $encoding = YAML_ANY
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL yaml 1.1.0 | Доданий аргумент `callbacks` |
 
 ### Дивіться також
 
--   [yamlemit()](function.yaml-emit.md) - Повертає YAML-подання значення
--   [yamlparse()](function.yaml-parse.md) - Розбирає потік YAML
+-   [yaml\_emit()](function.yaml-emit.md) \- Повертає YAML-подання значення
+-   [yaml\_parse()](function.yaml-parse.md) \- Розбирає потік YAML

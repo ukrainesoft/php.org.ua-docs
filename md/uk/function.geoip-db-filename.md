@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.geoip-db-avail.md: « geoipдбavail
-  - function.geoip-db-get-all-info.md: geoipдбgetallinfo »
+  - function.geoip-db-avail.md: « geoip\_db\_avail
+  - function.geoip-db-get-all-info.md: geoip\_db\_get\_all\_info »
   - index.md: PHP Manual
-  - ref.geoip.md: Функции GeoIP
-title: geoipдбfilename
+  - ref.geoip.md: Функції GeoIP
+title: geoip\_db\_filename
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# geoipдбfilename
+# geoip\_db\_filename
 
 (PECL geoip >= 1.0.1)
 
-geoipдбfilename — Повертає ім'я файлу відповідної бази GeoIP
+geoip\_db\_filename — Повертає ім'я файлу відповідної бази GeoIP
 
 ### Опис
 
@@ -18,7 +19,7 @@ geoipдбfilename — Повертає ім'я файлу відповідної
 geoip_db_filename(int $database): string
 ```
 
-Функція **geoipдбfilename()** повертає назву файлу відповідної бази GeoIP.
+Функция**geoip\_db\_filename()** повертає назву файлу відповідної бази GeoIP.
 
 Функція не визначає, чи існує файл на диску, лише вказує шлях, яким бібліотека шукає файл бази.
 
@@ -26,15 +27,15 @@ geoip_db_filename(int $database): string
 
 `database`
 
-Тип бази визначається цілим числом (integer). Ви можете використовувати [різноманітні константи](geoip.constants.md), визначені в цьому модулі (тобто: GEOIPEDITION).
+Тип бази визначається цілим числом (integer). Ви можете використовувати [різноманітні константи](geoip.constants.md), визначені в цьому модулі (тобто: GEOIP\_\*\_EDITION).
 
 ### Значення, що повертаються
 
-Повертає ім'я файлу відповідної бази, або **`null`** у разі виникнення помилки.
+Повертає ім'я файлу відповідної бази, або \*\*`null`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **geoipдбfilename()****
+**Пример #1 Пример использования**geoip\_db\_filename()\*\*\*\*
 
 Приклад відображення імені файлу поточної бази у вигляді рядка.
 
@@ -46,7 +47,7 @@ print geoip_db_filename(GEOIP_COUNTRY_EDITION);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 /usr/share/GeoIP/GeoIP.dat

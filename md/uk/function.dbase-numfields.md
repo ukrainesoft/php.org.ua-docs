@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.dbase-get-record.md: « dbasegetrecord
-  - function.dbase-numrecords.md: dbasenumrecords »
+  - function.dbase-get-record.md: « dbase\_get\_record
+  - function.dbase-numrecords.md: dbase\_numrecords »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
-title: dbasenumfields
+title: dbase\_numfields
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dbasenumfields
+# dbase\_numfields
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-dbasenumfields — Отримує кількість полів бази даних
+dbase\_numfields — Отримує кількість полів бази даних
 
 ### Опис
 
@@ -20,29 +21,29 @@ dbase_numfields(resource $database): int
 
 Отримує кількість полів (колонок) у вказаній базі даних.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Поле нумеруються від 0 до `dbase_numfields($db)-1`, тоді як записи бази даних від 1 до `dbase_numrecords($db)`
+> Поле номеруются от 0 до`dbase_numfields($db)-1`, тоді як записи бази даних від 1 до `dbase_numrecords($db)`
 
 ### Список параметрів
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
+Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.md) або [dbase\_create()](function.dbase-create.md)
 
 ### Значення, що повертаються
 
-Кількість полів у базі даних або **`false`** у разі виникнення помилки.
+Кількість полів у базі даних або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| dbase 7.0.0 | Параметр `database` тепер має тип ресурсу, а не int. |
+| dbase 7.0.0 | Параметр`database` тепер має тип ресурсу, а не int. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **dbasenumfields()****
+**Пример #1 Пример использования**dbase\_numfields()\*\*\*\*
 
 ```php
 <?php
@@ -78,4 +79,4 @@ dbase_close($db);
 
 ### Дивіться також
 
--   [dbasenumrecords()](function.dbase-numrecords.md) - Отримує кількість записів у базі даних
+-   [dbase\_numrecords()](function.dbase-numrecords.md) \- Отримує кількість записів у базі даних

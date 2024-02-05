@@ -1,12 +1,13 @@
 ---
 navigation:
-  - cmark.installation.md: « Установка
-  - class.commonmark-node-heading.md: CommonMarkNodeHeading »
+  - cmark.installation.md: « Встановлення
+  - class.commonmark-node-heading.md: CommonMark\\Node\\Heading »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
-title: Document успадковує CommonMarkNode
+title: Document успадковує CommonMark\\Node
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Document успадковує CommonMarkNode
+# Document успадковує CommonMark\\Node
 
 (cmark >= 1.0.0)
 

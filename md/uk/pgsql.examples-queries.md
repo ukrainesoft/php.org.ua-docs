@@ -1,10 +1,11 @@
 ---
 navigation:
-  - pgsql.examples-basic.md: « Базовое использование
-  - ref.pgsql.md: Функции PostgreSQL »
+  - pgsql.examples-basic.md: « Базове використання
+  - ref.pgsql.md: Функції PostgreSQL »
   - index.md: PHP Manual
   - pgsql.examples.md: Приклади
 title: Базове використання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Базове використання
 
@@ -49,7 +50,7 @@ ORDER BY 1;
     return pg_query($db, $query);
 }
 
-// Смотрите также pg_meta_data(). Возвращает определение поля в виде Масива.
+// Смотрите также pg_meta_data(). Возвращает определение поля в виде массива.
 function pg_list_fields($db, $table)
 {
     assert(is_resource($db));

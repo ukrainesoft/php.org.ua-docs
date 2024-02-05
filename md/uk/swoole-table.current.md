@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-table.create.md: '« SwooleTable::create'
-  - swoole-table.decr.md: 'SwooleTable::decr »'
+  - swoole-table.create.md: '« Swoole\\Table::create'
+  - swoole-table.decr.md: 'Swoole\\Table::decr »'
   - index.md: PHP Manual
-  - class.swoole-table.md: SwooleTable
-title: 'SwooleTable::current'
+  - class.swoole-table.md: Swoole\\Table
+title: 'Swoole\\Table::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTable::current
+# Swoole\\Table::current
 
 (PECL swoole >= 1.9.0)
 
-SwooleTable::current — Отримує поточний рядок
+Swoole\\Table::current — Отримує поточний рядок
 
 ### Опис
 

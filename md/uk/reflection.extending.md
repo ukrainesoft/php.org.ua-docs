@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Розширення
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Розширення
 
@@ -49,7 +50,7 @@ var_dump(new My_Reflection_Method('U', 'x'));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(My_Reflection_Method)#1 (3) {

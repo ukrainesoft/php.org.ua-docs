@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.mysql-drop-db.md: « mysqldropдб
-  - function.mysql-error.md: mysqlerror »
+  - function.mysql-drop-db.md: « mysql\_drop\_db
+  - function.mysql-error.md: mysql\_error »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlerrno
+title: mysql\_errno
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlerrno
+# mysql\_errno
 
 (PHP 4, PHP 5)
 
-mysqlerrno — Повертає чисельний код помилки виконання останньої операції з MySQL
+mysql\_errno — Повертає чисельний код помилки виконання останньої операції з MySQL
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlierrno()](mysqli.errno.md)
+-   [mysqli\_errno()](mysqli.errno.md)
 -   [PDO::errorCode()](pdo.errorcode.md)
 
 ### Опис
@@ -27,21 +28,21 @@ mysql_errno(resource $link_identifier = NULL): int
 
 Повертає код помилки останньої функції роботи з MySQL.
 
-Помилки роботи з MySQL більше не викликають повідомлень у PHP. Натомість використовуйте функцію **mysqlerrno()**, щоб отримати код помилки. Врахуйте, що функція повертає код помилки лише останньої виконаної функції (за винятком [mysqlerror()](function.mysql-error.md) і **mysqlerrno()**). Перевірте результат роботи функції до наступного виклику.
+Помилки роботи з MySQL більше не викликають повідомлень у PHP. Натомість використовуйте функцію **mysql\_errno()**, щоб отримати код помилки. Врахуйте, що функція повертає код помилки лише останньої виконаної функції (за винятком [mysql\_error()](function.mysql-error.md)и**mysql\_errno()**). Перевірте результат роботи функції до наступного виклику.
 
 ### Список параметрів
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, буде використано останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
-Повертає код помилки останньої функції роботи з MySQL, або `0` (нуль), якщо операцію виконано успішно.
+Повертає код помилки останньої функції роботи з MySQL, або (нуль), якщо операцію виконано успішно.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlerrno()****
+**Пример #1 Пример использования**mysql\_errno()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ if (!mysql_query("SELECT * FROM nonexistenttable", $link)) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 1049: Unknown database 'nonexistentdb'
@@ -67,5 +68,5 @@ if (!mysql_query("SELECT * FROM nonexistenttable", $link)) {
 
 ### Дивіться також
 
--   [mysqlerror()](function.mysql-error.md) - Повертає текст помилки останньої операції з MySQL
--   [» Коди помилок MySQL](http://dev.mysql.com/doc/mysql/en/error-handling.md)
+-   [mysql\_error()](function.mysql-error.md) \- Повертає текст помилки останньої операції з MySQL
+-   [» Коди помилок MySQL](http://dev.mysql.com/doc/mysql/en/error-handling.md)

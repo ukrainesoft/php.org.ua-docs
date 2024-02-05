@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-include-path.md: « getincludepath
-  - function.get-loaded-extensions.md: getloadedextensions »
+  - function.get-include-path.md: « get\_include\_path
+  - function.get-loaded-extensions.md: get\_loaded\_extensions »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: getincludedfiles
+title: get\_included\_files
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getincludedfiles
+# get\_included\_files
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-getincludedfiles — Повертає масив імен увімкнених у скрипт файлів
+get\_included\_files — Повертає масив імен увімкнених у скрипт файлів
 
 ### Опис
 
@@ -18,7 +19,7 @@ getincludedfiles — Повертає масив імен увімкнених �
 get_included_files(): array
 ```
 
-Отримує імена всіх файлів, які були включені до скрипту з використанням [include](function.include.md) [includeonce](function.include-once.md) [require](function.require.md) або [requireonce](function.require-once.md)
+Отримує імена всіх файлів, які були включені до скрипту з використанням [include](function.include.md) [include\_once](function.include-once.md) [require](function.require.md) або [require\_once](function.require-once.md)
 
 ### Список параметрів
 
@@ -28,13 +29,13 @@ get_included_files(): array
 
 Повертає масив, який містить імена всіх файлів.
 
-Скрипт, який був завантажений спочатку, розглядається як "включений файл", тому він також потрапить до списку файлів, включених функцією [include](function.include.md) чи іншими.
+Скрипт, який був завантажений спочатку, розглядається як "включений файл", тому він також потрапить до списку файлів, включених функцією [include](function.include.md)или другими.
 
 Файли, що додаються в скрипт неодноразово, потраплять до масиву лише в одному екземплярі.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getincludedfiles()****
+**Пример #1 Пример использования**get\_included\_files()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ foreach ($included_files as $filename) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 /path/to/abc.php
@@ -66,8 +67,8 @@ foreach ($included_files as $filename) {
 
 ### Дивіться також
 
--   [include](function.include.md) - include
--   [includeonce](function.include-once.md) - includeonce
--   [require](function.require.md) - require
--   [requireonce](function.require-once.md) - requireonce
--   [getrequiredfiles()](function.get-required-files.md) - Псевдонім getincludedfiles
+-   [include](function.include.md) \- include
+-   [include\_once](function.include-once.md) \- include\_once
+-   [require](function.require.md) \- require
+-   [require\_once](function.require-once.md) \- require\_once
+-   [get\_required\_files()](function.get-required-files.md) \- Псевдонім get\_included\_files

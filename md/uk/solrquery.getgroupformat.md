@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getGroupFormat'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getGroupFormat
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrQuery::getGroupFormat — Повертає значення group.format
 
@@ -28,4 +29,4 @@ public SolrQuery::getGroupFormat(): string
 
 ### Дивіться також
 
--   [SolrQuery::setGroupFormat()](solrquery.setgroupformat.md) - Встановлює формат групи, структуру результату (параметр group.format)
+-   [SolrQuery::setGroupFormat()](solrquery.setgroupformat.md) \- Встановлює формат групи, структуру результату (параметр group.format)

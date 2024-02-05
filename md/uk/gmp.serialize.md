@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.gmp.md: « GMP
-  - gmp.unserialize.md: 'GMP::unserialize »'
+  - gmp.construct.md: '« GMP::\_\_construct'
+  - gmp.unserialize.md: 'GMP::\_\_unserialize »'
   - index.md: PHP Manual
   - class.gmp.md: GMP
-title: 'GMP::serialize'
+title: 'GMP::\_\_serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GMP::serialize
+# GMP::\_\_serialize
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-GMP::serialize — Серіалізує об'єкт GMP
+GMP::\_\_serialize — Серіалізує об'єкт GMP
 
 ### Опис
 
@@ -20,7 +21,7 @@ public GMP::__serialize(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

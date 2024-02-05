@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'SolrDisMaxQuery::setMinimumMatch'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDisMaxQuery::setMinimumMatch
 
@@ -32,7 +33,7 @@ public SolrDisMaxQuery::setMinimumMatch(string $value): SolrDisMaxQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::setMinimumMatch()****
+**Пример #1 Пример использования**SolrDisMaxQuery::setMinimumMatch()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ echo $dismaxQuery . PHP_EOL;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 q=lucene&defType=edismax&mm=75%

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::contains'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplObjectStorage::contains
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::contains — Перевіряє, чи контейнер містить заданий об'єкт
 
@@ -32,12 +33,12 @@ public SplObjectStorage::contains(object $object): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplObjectStorage::contains()****
+**Пример #1 Пример использования**SplObjectStorage::contains()\*\*\*\*
 
 ```php
 <?php
-$o1 = new StdClass;
-$o2 = new StdClass;
+$o1 = new stdClass;
+$o2 = new stdClass;
 
 $s = new SplObjectStorage();
 
@@ -47,7 +48,7 @@ var_dump($s->contains($o2));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -56,4 +57,4 @@ bool(false)
 
 ### Дивіться також
 
--   [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.md) - Перевіряє, чи існує об'єкт у контейнері
+-   [SplObjectStorage::offsetExists()](splobjectstorage.offsetexists.md) \- Перевіряє, чи існує об'єкт у контейнері

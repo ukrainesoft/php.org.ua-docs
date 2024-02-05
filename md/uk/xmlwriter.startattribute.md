@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::startAttribute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLWriter::startAttribute
 
-# xmlwriterstartattribute
+# xmlwriter\_start\_attribute
 
 (PHP 5 >= 5.1.2, PHP 7, PHP 8, PECL xmlwriter >= 0.1.0)
 
-XMLWriter::startAttribute -- xmlwriterstartattribute - Створити початковий атрибут
+XMLWriter::startAttribute -- xmlwriter\_start\_attribute - Створити початковий атрибут
 
 ### Опис
 
@@ -34,7 +35,7 @@ xmlwriter_start_attribute(XMLWriter $writer, string $name): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriter\_open\_uri()](xmlwriter.openuri.md) або [xmlwriter\_open\_memory()](xmlwriter.openmemory.md)
 
 `name`
 
@@ -42,17 +43,17 @@ xmlwriter_start_attribute(XMLWriter $writer, string $name): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
+| 8.0.0 | В параметре`writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
-**Приклад #1 Приклад базового використання **XMLWriter::startAttribute()****
+**Пример #1 Пример базового использования**XMLWriter::startAttribute()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ $writer->endElement();
 $writer->endDocument();
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -76,7 +77,7 @@ $writer->endDocument();
 
 ### Дивіться також
 
--   [XMLWriter::startAttributeNs()](xmlwriter.startattributens.md) - Створити стартовий атрибут простору імен
--   [XMLWriter::endAttribute()](xmlwriter.endattribute.md) - Завершити атрибут
--   [XMLWriter::writeAttribute()](xmlwriter.writeattribute.md) - Записати повний атрибут
--   [XMLWriter::writeAttributeNs()](xmlwriter.writeattributens.md) - Записати повний атрибут простору імен
+-   [XMLWriter::startAttributeNs()](xmlwriter.startattributens.md) \- Створити стартовий атрибут простору імен
+-   [XMLWriter::endAttribute()](xmlwriter.endattribute.md) \- Завершити атрибут
+-   [XMLWriter::writeAttribute()](xmlwriter.writeattribute.md) \- Записати повний атрибут
+-   [XMLWriter::writeAttributeNs()](xmlwriter.writeattributens.md) \- Записати повний атрибут простору імен

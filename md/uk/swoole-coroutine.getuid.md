@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine-mysql.setdefer.md: '« SwooleCoroutineMySQL::setDefer'
-  - swoole-coroutine.resume.md: 'SwooleCoroutine::resume »'
+  - swoole-coroutine-mysql.setdefer.md: '« Swoole\\Coroutine\\MySQL::setDefer'
+  - swoole-coroutine.resume.md: 'Swoole\\Coroutine::resume »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutine::getuid'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine::getuid'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutine::getuid
+# Swoole\\Coroutine::getuid
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutine::getuid — Опис
+Swoole\\Coroutine::getuid — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public static Swoole\Coroutine::getuid(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

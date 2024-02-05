@@ -1,10 +1,11 @@
 ---
 navigation:
   - domdocument.loadxml.md: '« DOMDocument::loadXML'
-  - domdocument.registernodeclass.md: 'DOMDocument::registerNodeClass »'
+  - domdocument.prepend.md: 'DOMDocument::prepend »'
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::normalizeDocument'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::normalizeDocument
 
@@ -18,7 +19,7 @@ DOMDocument::normalizeDocument — Нормалізує документ
 public DOMDocument::normalizeDocument(): void
 ```
 
-Цей метод виконує ті ж дії, якби ви зберегли і потім завантажили документ, наводить документ до "нормальної" форми.
+Цей метод працює так, якби документ зберегли, а потім завантажили, — призводить до «нормальної» форми.
 
 ### Список параметрів
 
@@ -30,5 +31,5 @@ public DOMDocument::normalizeDocument(): void
 
 ### Дивіться також
 
--   [» Спецификация DOM](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-Document3-normalizeDocument)
--   [DOMNode::normalize()](domnode.normalize.md) - нормалізує вузол
+-   [» Специфікація DOM](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-Document3-normalizeDocument)
+-   [DOMNode::normalize()](domnode.normalize.md) \- нормалізує вузол

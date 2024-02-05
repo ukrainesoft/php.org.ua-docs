@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yaf-dispatcher.md: « YafDispatcher
-  - yaf-dispatcher.catchexception.md: 'YafDispatcher::catchException »'
+  - class.yaf-dispatcher.md: « Yaf\_Dispatcher
+  - yaf-dispatcher.catchexception.md: 'Yaf\_Dispatcher::catchException »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::autoRender'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::autoRender'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::autoRender
+# Yaf\_Dispatcher::autoRender
 
 (Yaf >=1.0.0)
 
-YafDispatcher::autoRender — Включає/вимикає авторендеринг
+Yaf\_Dispatcher::autoRender — Включає/вимикає авторендеринг
 
 ### Опис
 
@@ -18,9 +19,9 @@ YafDispatcher::autoRender — Включає/вимикає авторендер
 public Yaf_Dispatcher::autoRender(bool $flag = ?): Yaf_Dispatcher
 ```
 
-[YafDispatcher](class.yaf-dispatcher.md) буде відображатися автоматично після надсилання вхідного запиту. Ви можете запобігти рендерингу, викликавши цей метод за допомогою `flag` **`true`**
+[Yaf\_Dispatcher](class.yaf-dispatcher.md) буде відображатися автоматично після надсилання вхідного запиту. Ви можете запобігти рендерингу, викликавши цей метод за допомогою `flag` **`true`**
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ви можете просто повернути **`false`** у дії, щоб запобігти автоматичному рендерингу цієї дії
 
@@ -30,7 +31,7 @@ public Yaf_Dispatcher::autoRender(bool $flag = ?): Yaf_Dispatcher
 
 bool
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > починаючи з 2.2.0, якщо цей параметр не заданий, буде повернено поточний стан
 
@@ -38,7 +39,7 @@ bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafDispatcher::autoRender()****
+**Пример #1 Пример использования**Yaf\_Dispatcher::autoRender()\*\*\*\*
 
 ```php
 <?php
@@ -56,4 +57,4 @@ class IndexController extends Yaf_Controller_Abstract {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:

@@ -1,28 +1,29 @@
 ---
 navigation:
-  - function.pspell-clear-session.md: « pspellclearsession
-  - function.pspell-config-data-dir.md: pspellconfigdatadir »
+  - function.pspell-clear-session.md: « pspell\_clear\_session
+  - function.pspell-config-data-dir.md: pspell\_config\_data\_dir »
   - index.md: PHP Manual
-  - ref.pspell.md: Функции Pspell
-title: pspellconfigcreate
+  - ref.pspell.md: Функції Pspell
+title: pspell\_config\_create
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pspellconfigcreate
+# pspell\_config\_create
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-pspellconfigcreate — Створює конфігурацію, яка використовується для відкриття словника
+pspell\_config\_create — Створює конфігурацію, яка використовується для відкриття словника
 
 ### Опис
 
 ```methodsynopsis
-pspell_config_create(    string $language,    string $spelling = "",    string $jargon = "",    string $encoding = ""): PSpell\Config
+pspell_config_create(    string $language,    string $spelling = "",    string $jargon = "",    string $encoding = ""): PSpell\Config
 ```
 
 Створює конфігурацію для відкриття словника.
 
-**pspellconfigcreate()** має синтаксис, дуже схожий на синтаксис [pspellnew()](function.pspell-new.md). Фактично використання **pspellconfigcreate()** відразу після [pspellnewconfig()](function.pspell-new-config.md) дасть такий самий результат. Однак після створення нової конфігурації також можна використовувати функції **pspellconfig** до виклику [pspellnewconfig()](function.pspell-new-config.md) для здобуття переваг від деякої додаткової функціональності.
+\*\*pspell\_config\_create()\*\*обладает синтаксисом, очень похожим на синтаксис[pspell\_new()](function.pspell-new.md). Фактично використання \*\*pspell\_config\_create()\*\*сразу после[pspell\_new\_config()](function.pspell-new-config.md) дасть такий самий результат. Однак, після створення нової конфігурації також можна використовувати функції **pspell\_config\_\*()** до виклику [pspell\_new\_config()](function.pspell-new-config.md) для здобуття переваг від деякої додаткової функціональності.
 
-Більш детальну інформацію та приклади можна знайти у посібнику з pspell на сайті:[» http://aspell.net/](http://aspell.net/)
+Більш детальну інформацію та приклади можна знайти у посібнику з pspell на сайті:[» http://aspell.net/](http://aspell.net/)
 
 ### Список параметрів
 
@@ -40,21 +41,21 @@ pspell_config_create(    string $language,    string $spelling = "",    string $
 
 `encoding`
 
-Параметр encoding - це кодування, у якому, як очікується, дано слова. Допустимі значення: 'utf-8', 'iso8859-', 'koi8-r', 'viscii', 'cp1252', 'machine unsigned 16', 'machine unsigned 32'. Цей параметр ще не перевірено досить добре, тому будьте обережні під час його використання.
+Параметр encoding - це кодування, у якому, як очікується, дано слова. Допустимі значення: 'utf-8', 'iso8859-\*', 'koi8-r', 'viscii', 'cp1252', 'machine unsigned 16', 'machine unsigned 32'. Цей параметр ще не перевірено досить добре, тому будьте обережні під час його використання.
 
 ### Значення, що повертаються
 
-Повертає екземпляр [PSpellConfig](class.pspell-config.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає екземпляр [PSpell\\Config](class.pspell-config.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Повертає екземпляр [PSpellConfig](class.pspell-config.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Повертає екземпляр [PSpell\\Config](class.pspell-config.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pspellconfigcreate()****
+**Пример #1 Пример использования**pspell\_config\_create()\*\*\*\*
 
 ```php
 <?php

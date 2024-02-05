@@ -1,10 +1,11 @@
 ---
 navigation:
-  - readline.installation.md: « Установка
+  - readline.installation.md: « Встановлення
   - readline.resources.md: Типи ресурсів »
   - index.md: PHP Manual
   - readline.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Налаштування під час виконання
 
@@ -14,15 +15,15 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [cli.pager](readline.configuration.md#ini.cli.pager) | "" | PHPINIALL |  |
-| [cli.prompt](readline.configuration.md#ini.cli.prompt) | "в > " | PHPINIALL |  |
+| [cli.pager](readline.configuration.md#ini.cli.pager) | "" | **`INI_ALL`** |  |
+| [cli.prompt](readline.configuration.md#ini.cli.prompt) | "\\\\b \\\\> " | **`INI_ALL`** |  |
 
 Коротке пояснення конфігураційних директив.
 
-`cli.pager` string
+`cli.pager`string
 
-Зовнішня утиліта для відображення висновку в [командную строку](features.commandline.md)
+Зовнішня утиліта для відображення висновку в [командний рядок](features.commandline.md)
 
-`cli.prompt` string
+`cli.prompt`string
 
-Підказка [командного рядка](features.commandline.md)
+Подсказка[командного рядка](features.commandline.md)

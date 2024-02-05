@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-readconcern.isdefault.md: '« MongoDBDriverReadConcern::isDefault'
-  - mongodb-driver-readconcern.unserialize.md: 'MongoDBDriverReadConcern::unserialize »'
+  - mongodb-driver-readconcern.isdefault.md: '« MongoDB\\Driver\\ReadConcern::isDefault'
+  - mongodb-driver-readconcern.unserialize.md: 'MongoDB\\Driver\\ReadConcern::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readconcern.md: MongoDBDriverReadConcern
-title: 'MongoDBDriverReadConcern::serialize'
+  - class.mongodb-driver-readconcern.md: MongoDB\\Driver\\ReadConcern
+title: 'MongoDB\\Driver\\ReadConcern::serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverReadConcern::serialize
+# MongoDB\\Driver\\ReadConcern::serialize
 
 (mongodb >=1.7.0)
 
-MongoDBDriverReadConcern::serialize — Серіалізація ReadConcern
+MongoDB\\Driver\\ReadConcern::serialize — Серіалізація ReadConcern
 
 ### Опис
 
@@ -24,14 +25,14 @@ final public MongoDB\Driver\ReadConcern::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md)
+Возвращает сериализованное представление[MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverReadConcern::unserialize()](mongodb-driver-readconcern.unserialize.md) - Десеріалізація ReadConcern
--   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [MongoDB\\Driver\\ReadConcern::unserialize()](mongodb-driver-readconcern.unserialize.md) \- Десеріалізація ReadConcern
+-   [serialize()](function.serialize.md) \- Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

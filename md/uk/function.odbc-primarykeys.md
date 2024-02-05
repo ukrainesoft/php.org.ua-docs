@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.odbc-prepare.md: « odbcprepare
-  - function.odbc-procedurecolumns.md: odbcprocedurecolumns »
+  - function.odbc-prepare.md: « odbc\_prepare
+  - function.odbc-procedurecolumns.md: odbc\_procedurecolumns »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcprimarykeys
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_primarykeys
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcprimarykeys
+# odbc\_primarykeys
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcprimarykeys — Отримує первинні ключі таблиці
+odbc\_primarykeys — Отримує первинні ключі таблиці
 
 ### Опис
 
 ```methodsynopsis
-odbc_primarykeys(    resource $odbc,    ?string $catalog,    string $schema,    string $table): resource|false
+odbc_primarykeys(    resource $odbc,    ?string $catalog,    string $schema,    string $table): resource|false
 ```
 
 Повертає ідентифікатор результату, який можна використовувати для отримання імен шпальт, що становлять первинний ключ таблиці.
@@ -24,7 +25,7 @@ odbc_primarykeys(    resource $odbc,    ?string $catalog,    string $schema,    
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `catalog`
 
@@ -38,7 +39,7 @@ odbc_primarykeys(    resource $odbc,    ?string $catalog,    string $schema,    
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор результату ODBC або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор результату ODBC або \*\*`false`\*\*в случае возникновения ошибки.
 
 У результуючому наборі є такі стовпці:
 
@@ -51,7 +52,7 @@ odbc_primarykeys(    resource $odbc,    ?string $catalog,    string $schema,    
 
 Драйвери можуть повідомляти додаткові стовпці.
 
-Результуючий набір впорядковується за `TABLE_CAT` `TABLE_SCHEM` `TABLE_NAME` і `KEY_SEQ`
+Результирующий набор упорядочивается по`TABLE_CAT` `TABLE_SCHEM` `TABLE_NAME`и`KEY_SEQ`
 
 ### Приклади
 
@@ -68,7 +69,7 @@ while (($row = odbc_fetch_array($primarykeys))) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -84,5 +85,5 @@ Array
 
 ### Дивіться також
 
--   [odbctables()](function.odbc-tables.md) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
--   [odbcforeignkeys()](function.odbc-foreignkeys.md) - Повертає список зовнішніх ключів
+-   [odbc\_tables()](function.odbc-tables.md) \- Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbc\_foreignkeys()](function.odbc-foreignkeys.md) \- Повертає список зовнішніх ключів

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.appenditerator.md: AppendIterator
 title: 'AppendIterator::key'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # AppendIterator::key
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 AppendIterator::key — Повертає поточний ключ
 
@@ -30,7 +31,7 @@ public AppendIterator::key(): scalar
 
 ### Приклади
 
-**Приклад #1 Приклад використання **AppendIterator::key()****
+**Пример #1 Пример использования**AppendIterator::key()\*\*\*\*
 
 ```php
 <?php
@@ -57,7 +58,7 @@ foreach ($iterator as $key => $current) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 a aardwolf
@@ -77,8 +78,8 @@ c capybara
 
 ### Дивіться також
 
--   [Iterator::key()](iterator.key.md) - Повертає ключ поточного елемента
--   [AppendIterator::current()](appenditerator.current.md) - Повертає поточне значення
--   [AppendIterator::valid()](appenditerator.valid.md) - Перевіряє термін дії поточного елемента
--   [AppendIterator::next()](appenditerator.next.md) - Переходить до наступного елементу
--   [AppendIterator::rewind()](appenditerator.rewind.md) - перемотує ітератор
+-   [Iterator::key()](iterator.key.md) \- Повертає ключ поточного елемента
+-   [AppendIterator::current()](appenditerator.current.md) \- Повертає поточне значення
+-   [AppendIterator::valid()](appenditerator.valid.md) \- Перевіряє термін дії поточного елемента
+-   [AppendIterator::next()](appenditerator.next.md) \- Переходить до наступного елементу
+-   [AppendIterator::rewind()](appenditerator.rewind.md) \- перемотує ітератор

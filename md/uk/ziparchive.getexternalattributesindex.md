@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getExternalAttributesIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::getExternalAttributesIndex
 
 (PHP 5 >= 5.6.0, PHP 7, PHP 8, PECL zip >= 1.12.4)
 
-ZipArchive::getExternalAttributesIndex — Витягти зовнішні атрибути запису за її індексом
+ZipArchive::getExternalAttributesIndex — Витягує зовнішні атрибути запису за її індексом
 
 ### Опис
 
 ```methodsynopsis
-public ZipArchive::getExternalAttributesIndex(    int $index,    int &$opsys,    int &$attr,    int $flags = ?): bool
+public ZipArchive::getExternalAttributesIndex(    int $index,    int &$opsys,    int &$attr,    int $flags = 0): bool
 ```
 
 Витягує зовнішні атрибути запису за її індексом.
@@ -28,7 +29,7 @@ public ZipArchive::getExternalAttributesIndex(    int $index,    int &$opsys,   
 
 `opsys`
 
-У разі успішного виконання сюди записується код операційної системи, заданий однією із констант ZipArchive::OPSYS
+У разі успішного виконання сюди записується код операційної системи, заданий однією із констант ZipArchive::OPSYS\_
 
 `attr`
 
@@ -40,11 +41,11 @@ public ZipArchive::getExternalAttributesIndex(    int $index,    int &$opsys,   
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-У цьому прикладі вилучаються всі файли з архіву test.zip і встановлює їм права Unix, отримані із зовнішніх атрибутів.
+У цьому прикладі метод отримує всі файли з ZIP-архіву test.zip і встановлює їм права Unix, отримані із зовнішніх атрибутів.
 
 **Приклад #1 Витягуємо всі записи з їхніми правами Unix**
 

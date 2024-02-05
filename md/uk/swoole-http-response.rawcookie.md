@@ -1,21 +1,22 @@
 ---
 navigation:
-  - swoole-http-response.initheader.md: '« SwooleHttpResponse::initHeader'
-  - swoole-http-response.sendfile.md: 'SwooleHttpResponse::sendfile »'
+  - swoole-http-response.initheader.md: '« Swoole\\Http\\Response::initHeader'
+  - swoole-http-response.sendfile.md: 'Swoole\\Http\\Response::sendfile »'
   - index.md: PHP Manual
-  - class.swoole-http-response.md: SwooleHttpResponse
-title: 'SwooleHttpResponse::rawcookie'
+  - class.swoole-http-response.md: Swoole\\Http\\Response
+title: 'Swoole\\Http\\Response::rawcookie'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpResponse::rawcookie
+# Swoole\\Http\\Response::rawcookie
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpResponse::rawcookie — Встановлює необроблені cookie в HTTP-відповідь
+Swoole\\Http\\Response::rawcookie — Встановлює необроблені cookie в HTTP-відповідь
 
 ### Опис
 
 ```methodsynopsis
-public Swoole\Http\Response::rawcookie(    string $name,    string $value = ?,    string $expires = ?,    string $path = ?,    string $domain = ?,    string $secure = ?,    string $httponly = ?): ReturnType
+public Swoole\Http\Response::rawcookie(    string $name,    string $value = ?,    string $expires = ?,    string $path = ?,    string $domain = ?,    string $secure = ?,    string $httponly = ?): ReturnType
 ```
 
 ### Список параметрів

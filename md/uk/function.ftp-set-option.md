@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-rmdir.md: « ftprmdir
-  - function.ftp-site.md: ftpsite »
+  - function.ftp-rmdir.md: « ftp\_rmdir
+  - function.ftp-site.md: ftp\_site »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpsetoption
+title: ftp\_set\_option
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpsetoption
+# ftp\_set\_option
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-ftpsetoption — Встановлює параметри з'єднання з сервером FTP
+ftp\_set\_option — Встановлює параметри з'єднання з сервером FTP
 
 ### Опис
 
@@ -24,13 +25,13 @@ ftp_set_option(FTP\Connection $ftp, int $option, int|bool $value): bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `option`
 
 В даний час підтримуються такі параметри:
 
-<table class="doctable table"><caption><strong>Підтримувані параметри</strong></caption><tbody class="tbody"><tr><td><strong><code>FTP_TIMEOUT_SEC</code></strong></td><td>Встановлює час очікування мережевих операцій у секундах. Аргумент <code class="parameter">value</code> повинен бути цілим, більше 0. За замовчуванням час очікування дорівнює 90 секундам.</td></tr><tr><td><strong><code>FTP_AUTOSEEK</code></strong></td><td>При встановленні цього параметра перед виконанням запитів GET або PUT з параметром <code class="parameter">resumepos</code> або <code class="parameter">startpos </code>покажчик файлу буде встановлений на запитану позицію. Цей параметр встановлено за замовчуванням.</td></tr><tr><td><strong><code>FTP_USEPASVADDRESS</code></strong></td><td>Якщо вимкнено, то PHP ігноруватиме IP -адреса, повернена сервером у відповідь на команду PASV і замість нього буде використовувати IP-адресу, передану в ftp_connect(). Параметр <code class="parameter">value</code> має містити логічне значення.</td></tr></tbody></table>
+<table class="doctable table"><caption><strong>Підтримувані параметри</strong></caption><tbody class="tbody"><tr><td><strong><code>FTP_TIMEOUT_SEC</code></strong></td><td>Встановлює час очікування мережевих операцій у секундах. Аргумент <code class="parameter">value</code> повинен бути цілим, більше 0. За замовчуванням час очікування дорівнює 90 секундам.</td></tr><tr><td><strong><code>FTP_AUTOSEEK</code></strong></td><td>При встановленні цього параметра перед виконанням запитів GET або PUT з параметром <code class="parameter">resumepos</code> або <code class="parameter">startpos </code>покажчик файлу буде встановлений на запитану позицію. Цей параметр встановлено за замовчуванням.</td></tr><tr><td><strong><code>FTP_USEPASVADDRESS</code></strong></td><td>Якщо вимкнено, то PHP ігноруватиме IP -адреса, повернена сервером у відповідь на команду PASV і замість нього буде використовувати IP-адресу, передану в ftp_connect(). Параметр <code class="parameter">value</code> повинен містити логічне значення.</td></tr></tbody></table>
 
 `value`
 
@@ -38,17 +39,17 @@ ftp_set_option(FTP\Connection $ftp, int $option, int|bool $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** якщо параметр було встановлено; **`false`** в іншому випадку. Якщо значення аргументу `option` не підтримується або значення аргументу `value` не відповідає значенню аргументу `option`, буде виведено попередження
+Повертає **`true`** якщо параметр було встановлено; **`false`** в іншому випадку. Якщо значення аргументу `option` не підтримується або значення аргументу `value`не соответствует значению аргумента`option`, буде виведено попередження
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpsetoption()****
+**Пример #1 Пример использования**ftp\_set\_option()\*\*\*\*
 
 ```php
 <?php
@@ -59,4 +60,4 @@ ftp_set_option($ftp, FTP_TIMEOUT_SEC, 10);
 
 ### Дивіться також
 
--   [ftpgetoption()](function.ftp-get-option.md) - Отримує поточні параметри FTP-з'єднання
+-   [ftp\_get\_option()](function.ftp-get-option.md) \- Отримує поточні параметри FTP-з'єднання

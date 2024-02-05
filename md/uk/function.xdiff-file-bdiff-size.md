@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.xdiff.md: « Функції xdiff
-  - function.xdiff-file-bdiff.md: xdifffilebdiff »
+  - function.xdiff-file-bdiff.md: xdiff\_file\_bdiff »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
-title: xdifffilebdiffsize
+title: xdiff\_file\_bdiff\_size
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xdifffilebdiffsize
+# xdiff\_file\_bdiff\_size
 
 (PECL xdiff >= 1.5.0)
 
-xdifffilebdiffsize — Отримати розмір файлу після застосування бінарного патчу
+xdiff\_file\_bdiff\_size — Отримати розмір файлу після застосування бінарного патчу
 
 ### Опис
 
@@ -24,7 +25,7 @@ xdiff_file_bdiff_size(string $file): int
 
 `file`
 
-Шлях до бінарного патчу, створеного функціями [xdiffstringbdiff()](function.xdiff-string-bdiff.md) або [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
+Путь к бинарному патчу, созданному функциями[xdiff\_string\_bdiff()](function.xdiff-string-bdiff.md) або [xdiff\_string\_rabdiff()](function.xdiff-string-rabdiff.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ xdiff_file_bdiff_size(string $file): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdifffilebdiffsize()****
+**Пример #1 Пример использования**xdiff\_file\_bdiff\_size()\*\*\*\*
 
 Наступний код отримує розмір файлу, створеного після застосування патча.
 
@@ -45,6 +46,6 @@ echo "Размер результирующего файла будет $length 
 
 ### Дивіться також
 
--   [xdifffilebdiff()](function.xdiff-file-bdiff.md) - Створити бінарний патч порівнюючи два файли
--   [xdifffilerabdiff()](function.xdiff-file-rabdiff.md) - Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting
--   [xdifffilebpatch()](function.xdiff-file-bpatch.md) - Застосувати бінарний патч до файлу
+-   [xdiff\_file\_bdiff()](function.xdiff-file-bdiff.md) \- Створити бінарний патч порівнюючи два файли
+-   [xdiff\_file\_rabdiff()](function.xdiff-file-rabdiff.md) \- Створити бінарний патч порівнюючи два файли за допомогою поліномінального алгоритму Rabin fingerprinting
+-   [xdiff\_file\_bpatch()](function.xdiff-file-bpatch.md) \- Застосувати бінарний патч до файлу

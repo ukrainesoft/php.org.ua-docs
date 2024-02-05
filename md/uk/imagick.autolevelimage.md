@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::autoLevelImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::autoLevelImage
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
-Imagick::autoLevelImage — Опис
+Imagick::autoLevelImage — Налаштовує рівні певного каналу зображення
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Imagick::autoLevelImage(int $channel = Imagick::CHANNEL_DEFAULT): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::autoLevelImage()****
+**Пример #1 Пример использования**Imagick::autoLevelImage()\*\*\*\*
 
 ```php
 <?php

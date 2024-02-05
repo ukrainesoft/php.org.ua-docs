@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.array-slice.md: « arrayslice
-  - function.array-sum.md: arraysum »
+  - function.array-slice.md: « array\_slice
+  - function.array-sum.md: array\_sum »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
-title: arraysplice
+title: array\_splice
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# arraysplice
+# array\_splice
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-arraysplice — Видаляє частину масиву і замінює її чимось ще
+array\_splice — Видаляє частину масиву і замінює її чимось ще
 
 ### Опис
 
 ```methodsynopsis
-array_splice(    array &$array,    int $offset,    ?int $length = null,    mixed $replacement = []): array
+array_splice(    array &$array,    int $offset,    ?int $length = null,    mixed $replacement = []): array
 ```
 
-Видаляє `length` елементів, розташованих на відстані `offset` з масиву `array`, та замінює їх елементами масиву `replacement`, якщо він передано як параметр.
+Видаляє `length` елементів, розташованих на відстані `offset`из массива`array`, та замінює їх елементами масиву `replacement`, якщо він передано як параметр.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Зверніть увагу, що числові ключі в масиві `array` не зберігаються.
 
-> **Зауваження**: Якщо параметр `replacement` не є масивом, він буде [преобразован](language.types.array.md#language.types.array.casting) до нього (тобто `(array) $parameter`). Це може призвести до несподіваних результатів під час використання об'єкта або **`null`** в якості `replacement`
+> **Зауваження**: Якщо параметр `replacement` не є масивом, він буде [перетворено](language.types.array.md#language.types.array.casting) до нього (тобто `(array) $parameter`). Це може призвести до несподіваних результатів під час використання об'єкта або **`null`** в якості `replacement`
 
 ### Список параметрів
 
@@ -36,11 +37,11 @@ array_splice(    array &$array,    int $offset,    ?int $length = null,    mixed
 
 Якщо параметр `offset` позитивний, будуть видалені елементи, що знаходяться на відстані offset від початку `array`
 
-Якщо `offset` негативний, будуть видалені елементи, що знаходяться на відстані offset від кінця `input`
+Якщо `offset` негативний, будуть видалені елементи, що знаходяться на відстані offset від кінця `array`
 
 `length`
 
-Якщо параметр `length` опущено, будуть видалені всі елементи, починаючи з позиції `offset` та до кінця масиву.
+Якщо параметр `length` опущено, будуть видалені всі елементи, починаючи з позиції `offset`и до конца массива.
 
 Якщо `length` вказаний і він позитивний, буде видалено саме стільки елементів.
 
@@ -50,17 +51,17 @@ array_splice(    array &$array,    int $offset,    ?int $length = null,    mixed
 
 **Підказка**
 
-Порада: щоб видалити всі елементи масиву, починаючи з позиції `offset` до кінця масиву, тоді як вказано параметр `replacement`, використовуйте `count($input)` як параметр `length`
+Порада: щоб видалити всі елементи масиву, починаючи з позиції `offset`до конца массива, в то время как указан параметр`replacement`, используйте`count($input)` як параметр `length`
 
 `replacement`
 
 Якщо передано масив `replacement` як аргумент, тоді видалені елементи будуть замінені елементами цього масиву.
 
-Якщо параметри `offset` і `length` такі, що з вихідного масиву нічого очікувати видалено, тоді елементи масиву `replacement` буде вставлено на позицію `offset`
+Якщо параметри `offset`и`length` такі, що з вихідного масиву нічого очікувати видалено, тоді елементи масиву `replacement` буде вставлено на позицію `offset`
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Зверніть увагу, що ключі масиву `replacement` не зберігаються.
+> Обратите внимание, что ключи массива`replacement` не зберігаються.
 
 Порада: якщо `replacement` є просто одним елементом, немає необхідності укладати його в `array()` або квадратні дужки, якщо тільки цей елемент сам не є масивом, об'єктом або **`null`**
 
@@ -70,13 +71,13 @@ array_splice(    array &$array,    int $offset,    ?int $length = null,    mixed
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `length` тепер допускає значення null. |
+| 8.0.0 | `length` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклади використання **arraysplice()****
+**Приклад #1 Приклади використання **array\_splice()****
 
 ```php
 <?php
@@ -98,7 +99,7 @@ var_dump($input);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(2) {
@@ -133,7 +134,7 @@ array(5) {
 }
 ```
 
-**Приклад #2 Приклади використання **arraysplice()****
+**Приклад #2 Приклади використання **array\_splice()****
 
 Наступні вирази еквівалентні:
 
@@ -161,13 +162,13 @@ array_splice($input, 0, 0, array($x, $y));
 
 
 // заменить в $input элемент с индексом $x на значение $y
-$input[$x] = $y; // для Масивов, где ключ равен смещению
+$input[$x] = $y; // для массивов, где ключ равен смещению
 array_splice($input, $x, 1, $y);
 ?>
 ```
 
 ### Дивіться також
 
--   [arraymerge()](function.array-merge.md) - Зливає один або більше масивів
--   [arrayslice()](function.array-slice.md) - Вибирає зріз масиву
--   [unset()](function.unset.md) - Видаляє змінну
+-   [array\_merge()](function.array-merge.md) \- Зливає один або більше масивів
+-   [array\_slice()](function.array-slice.md) \- Вибирає зріз масиву
+-   [unset()](function.unset.md) \- Видаляє змінну

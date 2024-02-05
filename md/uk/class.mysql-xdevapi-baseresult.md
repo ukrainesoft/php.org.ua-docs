@@ -3,8 +3,9 @@ navigation:
   - function.mysql-xdevapi-getsession.md: « getSession
   - mysql-xdevapi-baseresult.getwarnings.md: 'BaseResult::getWarnings »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Інтерфейс BaseResult
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс BaseResult
 
@@ -35,5 +36,5 @@ abstract public getWarningsCount(): int
 
 ## Зміст
 
--   [BaseResult::getWarnings](mysql-xdevapi-baseresult.getwarnings.md) — Отримує попередження останньої операції
--   [BaseResult::getWarningsCount](mysql-xdevapi-baseresult.getwarningscount.md) — Отримує кількість попереджень останньої операції
+-   [BaseResult::getWarnings](mysql-xdevapi-baseresult.getwarnings.md)— Отримує попередження останньої операції
+-   [BaseResult::getWarningsCount](mysql-xdevapi-baseresult.getwarningscount.md)— Отримує кількість попереджень останньої операції

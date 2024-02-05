@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - mysql.md: Огляд PHP драйверів MySQL
 title: Вибір API
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вибір API
 
@@ -28,13 +29,33 @@ echo htmlentities($row['_message']);
 ?>
 ```
 
-*Порівняння можливостей*
+**Приклад #2 Порівняння підготовлених запитів**
+
+```php
+<?php
+// mysqli
+$mysqli = new mysqli("example.com", "user", "password", "database");
+$statement = $mysqli->prepare("SELECT District FROM City WHERE Name=?");
+$statement->execute(["Amersfoort"]);
+$result = $statement->get_result();
+$row = $result->fetch_assoc();
+echo htmlentities($row['District']);
+
+// PDO
+$pdo = new PDO('mysql:host=example.com;dbname=database', 'user', 'password');
+$statement = $pdo->prepare("SELECT District FROM City WHERE Name=?");
+$statement->execute(["Amersfoort"]);
+$row = $statement->fetch(PDO::FETCH_ASSOC);
+echo htmlentities($row['District']);
+```
+
+**Порівняння можливостей**
 
 Загальна продуктивність обох модулів приблизно однакова. Хоча продуктивність модуля становить лише частину загального часу виконання веб-запиту PHP, зазвичай трохи більше 0.1%.
 
 |  | ext/mysqli | PDO\_MySQL |
 | --- | --- | --- |
-| З'явилося у версії PHP |  |  |
+| З'явилося у версії PHP | 5.0 | 5.1 |
 | Працює в PHP 7.x та 8.x | Так | Так |
 | Статус розробки | Активний | Активний |
 | Життєвий цикл | Активний | Активний |
@@ -50,4 +71,4 @@ echo htmlentities($row['_message']);
 | API підтримує множинні запити | Так | Більшість |
 | API підтримує транзакції | Так | Так |
 | Можна контролювати транзакції за допомогою SQL | Так | Так |
-| Підтримує всю функціональність MySQL 5.1+ | Так | Більшість |
+| Підтримує усю функціональність MySQL 5.1+ | Так | Більшість |

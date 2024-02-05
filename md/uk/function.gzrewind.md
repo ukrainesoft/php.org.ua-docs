@@ -3,8 +3,9 @@ navigation:
   - function.gzread.md: « gzread
   - function.gzseek.md: gzseek »
   - index.md: PHP Manual
-  - ref.zlib.md: Функции Zlib
+  - ref.zlib.md: Функції Zlib
 title: gzrewind
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gzrewind
 
@@ -28,9 +29,9 @@ gzrewind(resource $stream): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [gzseek()](function.gzseek.md) - Перемістити вказівник на позицію в покажчику gz-файлу
--   [gztell()](function.gztell.md) - Повертає поточну позицію читання/запису в покажчику gz-файлу
+-   [gzseek()](function.gzseek.md) \- Перемістити вказівник на позицію в покажчику gz-файлу
+-   [gztell()](function.gztell.md) \- Повертає поточну позицію читання/запису в покажчику gz-файлу

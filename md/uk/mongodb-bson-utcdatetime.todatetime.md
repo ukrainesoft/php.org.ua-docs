@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-utcdatetime.serialize.md: '« MongoDBBSONUTCDateTime::serialize'
-  - mongodb-bson-utcdatetime.tostring.md: 'MongoDBBSONUTCDateTime::toString »'
+  - mongodb-bson-utcdatetime.serialize.md: '« MongoDB\\BSON\\UTCDateTime::serialize'
+  - mongodb-bson-utcdatetime.tostring.md: 'MongoDB\\BSON\\UTCDateTime::\_\_toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-utcdatetime.md: MongoDBBSONUTCDateTime
-title: 'MongoDBBSONUTCDateTime::toDateTime'
+  - class.mongodb-bson-utcdatetime.md: MongoDB\\BSON\\UTCDateTime
+title: 'MongoDB\\BSON\\UTCDateTime::toDateTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONUTCDateTime::toDateTime
+# MongoDB\\BSON\\UTCDateTime::toDateTime
 
 (mongodb >=1.0.0)
 
-MongoDBBSONUTCDateTime::toDateTime — Повертає уявлення DateTime цього UTCDateTime
+MongoDB\\BSON\\UTCDateTime::toDateTime — Повертає уявлення DateTime цього UTCDateTime
 
 ### Опис
 
@@ -24,15 +25,15 @@ final public MongoDB\BSON\UTCDateTime::toDateTime(): DateTime
 
 ### Значення, що повертаються
 
-Повертає виставу [DateTime](class.datetime.md) цього UTCDateTime. Повернутий [DateTime](class.datetime.md) буде використовувати часовий пояс UTC.
+Возвращает представление[DateTime](class.datetime.md) цього UTCDateTime. Повернутий [DateTime](class.datetime.md) буде використовувати часовий пояс UTC.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONUTCDatetime::toDateTime()****
+**Пример #1 Пример использования**MongoDB\\BSON\\UTCDatetime::toDateTime()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($datetime->getTimezone());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(31) "Thu, 20 Nov 2014 01:03:31 +0000"
@@ -61,4 +62,4 @@ object(DateTimeZone)#3 (2) {
 
 ### Дивіться також
 
--   [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)
+-   [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)

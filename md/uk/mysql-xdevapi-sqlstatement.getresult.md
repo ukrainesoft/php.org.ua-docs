@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-sqlstatement.getnextresult.md: '« SqlStatement::getNextResult'
   - mysql-xdevapi-sqlstatement.hasmoreresults.md: 'SqlStatement::hasMoreResults »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatement.md: mysqlxdevapiSqlStatement
+  - class.mysql-xdevapi-sqlstatement.md: mysql\_xdevapi\\SqlStatement
 title: 'SqlStatement::getResult'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SqlStatement::getResult
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\SqlStatement::getResult(): mysql_xdevapi\Result
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\SqlStatement::getResult(): mysql_xdevapi\Result
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSqlStatement::getResult()****
+**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatement::getResult()\*\*\*\*
 
 ```php
 <?php

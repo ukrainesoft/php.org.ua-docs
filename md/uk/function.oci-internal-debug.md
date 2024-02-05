@@ -1,16 +1,17 @@
 ---
 navigation:
-  - oldaliases.oci8.md: « Устаревшие наименования и функции OCI8
+  - oldaliases.oci8.md: « Застарілі найменування та функції OCI8
   - function.ocibindbyname.md: ocibindbyname »
   - index.md: PHP Manual
-  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
-title: ociinternaldebug
+  - oldaliases.oci8.md: Застарілі найменування та функції OCI8
+title: oci\_internal\_debug
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ociinternaldebug
+# oci\_internal\_debug
 
 (PHP 5, PHP 7, PECL OCI8 >= 1.1.0, PECL OCI8 <= 2.2.0)
 
-ociinternaldebug — Вмикає або вимикає внутрішній висновок налагодження
+oci\_internal\_debug — Вмикає або вимикає внутрішній висновок налагодження
 
 ### Опис
 
@@ -24,7 +25,7 @@ oci_internal_debug(bool $onoff): void
 
 `onoff`
 
-Встановіть значення **`false`** для відключення виведення налагодження або **`true`**, Щоб включити.
+Установите значение\*\*`false`\*\* для відключення виведення налагодження або **`true`**, Щоб включити.
 
 ### Значення, що повертаються
 
@@ -32,14 +33,6 @@ oci_internal_debug(bool $onoff): void
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція була видалена в PHP 8 та PECL OCI8 3.0.
-
-> **Зауваження**
-> 
-> Функція недоступна у PHP 5.6 та PECL OCI8 2.0. Замість неї використовуйте DTrace.
-
-> **Зауваження**
-> 
-> У версіях PHP до 5.0.0 замість функції слід використовувати [ociinternaldebug()](function.ociinternaldebug.md). Її все ще можна використати, вона була залишена як псевдонім **ociinternaldebug()** для зворотної сумісності. Однак, функція оголошена застарілою і не рекомендується до використання.

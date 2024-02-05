@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-fetch-assoc.md: « cubridfetchassoc
-  - function.cubrid-fetch-lengths.md: cubridfetchlengths »
+  - function.cubrid-fetch-assoc.md: « cubrid\_fetch\_assoc
+  - function.cubrid-fetch-lengths.md: cubrid\_fetch\_lengths »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridfetchfield
+title: cubrid\_fetch\_field
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridfetchfield
+# cubrid\_fetch\_field
 
 (PECL CUBRID >= 8.3.1)
 
-cubridfetchfield — Отримання інформації про стовпчик результуючого набору у вигляді об'єкта
+cubrid\_fetch\_field — Отримання інформації про стовпчик результуючого набору у вигляді об'єкта
 
 ### Опис
 
@@ -76,7 +77,7 @@ cubrid_fetch_field(resource $result, int $field_offset = 0): object
 
 `result`
 
-`Result`, отриманий з [cubridexecute()](function.cubrid-execute.md)
+`Result`, отриманий з [cubrid\_execute()](function.cubrid-execute.md)
 
 `field_offset`
 
@@ -86,11 +87,11 @@ cubrid_fetch_field(resource $result, int $field_offset = 0): object
 
 Об'єкт із описаними вище властивостями у разі успішного виконання.
 
-**`false`** у разі виникнення помилки.
+\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridfetchfield()****
+**Пример #1 Пример использования**cubrid\_fetch\_field()\*\*\*\*
 
 ```php
 <?php
@@ -123,7 +124,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(4) {

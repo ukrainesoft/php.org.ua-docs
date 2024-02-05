@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.radius-auth-open.md: « radiusauthopen
-  - function.radius-config.md: radiusconfig »
+  - function.radius-auth-open.md: « radius\_auth\_open
+  - function.radius-config.md: radius\_config »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiusclose
+  - ref.radius.md: Функції Radius
+title: radius\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiusclose
+# radius\_close
 
 (PECL radius >= 1.1.0)
 
-radiusclose - Звільняє всі ресурси
+radius\_close - Звільняє всі ресурси
 
 ### Опис
 
@@ -28,4 +29,4 @@ radius_close(resource $radius_handle): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

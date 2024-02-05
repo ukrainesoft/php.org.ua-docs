@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-fetch-row.md: « ibasefetchrow
-  - function.ibase-free-event-handler.md: ibasefreeeventhandler »
+  - function.ibase-fetch-row.md: « ibase\_fetch\_row
+  - function.ibase-free-event-handler.md: ibase\_free\_event\_handler »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibasefieldinfo
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_field\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibasefieldinfo
+# ibase\_field\_info
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibasefieldinfo — Отримує інформацію про поле
+ibase\_field\_info — Отримує інформацію про поле
 
 ### Опис
 
@@ -32,11 +33,11 @@ ibase_field_info(resource $result, int $field_number): array
 
 ### Значення, що повертаються
 
-Повертає масив із такими ключами: `name` `alias` `relation` `length` і `type`
+Повертає масив із такими ключами: `name` `alias` `relation` `length`и`type`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibasefieldinfo()****
+**Пример #1 Пример использования**ibase\_field\_info()\*\*\*\*
 
 ```php
 <?php
@@ -55,4 +56,4 @@ for ($i = 0; $i < $coln; $i++) {
 
 ### Дивіться також
 
--   [ibasenumfields()](function.ibase-num-fields.md) - Повертає кількість полів у результуючому наборі
+-   [ibase\_num\_fields()](function.ibase-num-fields.md) \- Повертає кількість полів у результуючому наборі

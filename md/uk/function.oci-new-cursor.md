@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-new-connect.md: « ocinewconnect
-  - function.oci-new-descriptor.md: ocinewdescriptor »
+  - function.oci-new-connect.md: « oci\_new\_connect
+  - function.oci-new-descriptor.md: oci\_new\_descriptor »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ocinewcursor
+  - ref.oci8.md: OCI8 Функції
+title: oci\_new\_cursor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ocinewcursor
+# oci\_new\_cursor
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ocinewcursor — Повертає ідентифікатор створеного курсору
+oci\_new\_cursor — Повертає ідентифікатор створеного курсору
 
 ### Опис
 
@@ -24,11 +25,11 @@ oci_new_cursor(resource $connection): resource|false
 
 `connection`
 
-Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.md) або [ocipconnect()](function.oci-pconnect.md)
+Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [oci\_connect()](function.oci-connect.md) або [oci\_pconnect()](function.oci-pconnect.md)
 
 ### Значення, що повертаються
 
-Повертає покажчик на новий вираз або **`false`** у разі виникнення помилки.
+Повертає покажчик на новий вираз або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -65,9 +66,3 @@ oci_close($conn);
 
 ?>
 ```
-
-### Примітки
-
-> **Зауваження**
-> 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewcursor()](function.ocinewcursor.md). У PHP 5.0.0 і вище [ocinewcursor()](function.ocinewcursor.md) є аліасом \*\*ocinewcursor()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

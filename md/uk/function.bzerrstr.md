@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.bzip2.md: Функції Bzip2
 title: bzerrstr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # bzerrstr
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 bzerrstr — Повертає рядок помилки роботи з bzip2
 
@@ -32,5 +33,5 @@ bzerrstr(resource $bz): string
 
 ### Дивіться також
 
--   [bzerrno()](function.bzerrno.md) - Повертає код помилки роботи з bzip2
--   [bzerror()](function.bzerror.md) - Повертає код та рядок помилки роботи з bzip2 у вигляді масиву
+-   [bzerrno()](function.bzerrno.md) \- Повертає код помилки роботи з bzip2
+-   [bzerror()](function.bzerror.md) \- Повертає код та рядок помилки роботи з bzip2 у вигляді масиву

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-session.getlogicalsessionid.md: '« MongoDBDriverSession::getLogicalSessionId'
-  - mongodb-driver-session.getserver.md: 'MongoDBDriverSession::getServer »'
+  - mongodb-driver-session.getlogicalsessionid.md: '« MongoDB\\Driver\\Session::getLogicalSessionId'
+  - mongodb-driver-session.getserver.md: 'MongoDB\\Driver\\Session::getServer »'
   - index.md: PHP Manual
-  - class.mongodb-driver-session.md: MongoDBDriverSession
-title: 'MongoDBDriverSession::getOperationTime'
+  - class.mongodb-driver-session.md: MongoDB\\Driver\\Session
+title: 'MongoDB\\Driver\\Session::getOperationTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverSession::getOperationTime
+# MongoDB\\Driver\\Session::getOperationTime
 
 (mongodb >=1.4.0)
 
-MongoDBDriverSession::getOperationTime — Повертає час операції для цього сеансу
+MongoDB\\Driver\\Session::getOperationTime — Повертає час операції для цього сеансу
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverSession::getOperationTime — Повертає час операц�
 final public MongoDB\Driver\Session::getOperationTime(): ?MongoDB\BSON\Timestamp
 ```
 
-Повертає час операції для цього сеансу. Якщо сеанс не використовувався для жодної операції, і [MongoDBDriverSession::advanceOperationTime()](mongodb-driver-session.advanceoperationtime.md) не був викликаний, час операції буде рівним **`null`**
+Повертає час операції для цього сеансу. Якщо сеанс не використовувався для жодної операції, і [MongoDB\\Driver\\Session::advanceOperationTime()](mongodb-driver-session.advanceoperationtime.md) не був викликаний, час операції буде рівним **`null`**
 
 ### Список параметрів
 
@@ -30,8 +31,8 @@ final public MongoDB\Driver\Session::getOperationTime(): ?MongoDB\BSON\Timestamp
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverSession::advanceOperationTime()](mongodb-driver-session.advanceoperationtime.md) - Збільшує час операції для сеансу
+-   [MongoDB\\Driver\\Session::advanceOperationTime()](mongodb-driver-session.advanceoperationtime.md) \- Збільшує час операції для сеансу

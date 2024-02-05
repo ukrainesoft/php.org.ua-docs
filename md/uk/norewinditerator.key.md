@@ -1,14 +1,15 @@
 ---
 navigation:
-  - norewinditerator.getinneriterator.md: '« NoRewindIterator::getInnerIterator'
+  - norewinditerator.current.md: '« NoRewindIterator::current'
   - norewinditerator.next.md: 'NoRewindIterator::next »'
   - index.md: PHP Manual
   - class.norewinditerator.md: NoRewindIterator
 title: 'NoRewindIterator::key'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NoRewindIterator::key
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 NoRewindIterator::key — Отримує поточний ключ
 
@@ -22,7 +23,7 @@ public NoRewindIterator::key(): mixed
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,4 +35,4 @@ public NoRewindIterator::key(): mixed
 
 ### Дивіться також
 
--   [NoRewindIterator::next()](norewinditerator.next.md) - Переміщує ітератор до наступного елементу
+-   [NoRewindIterator::next()](norewinditerator.next.md) \- Переміщує ітератор до наступного елементу

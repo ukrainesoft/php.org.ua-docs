@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.xmlrpc.md: « Функції XML-RPC
-  - function.xmlrpc-decode.md: xmlrpcdecode »
+  - function.xmlrpc-decode.md: xmlrpc\_decode »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcdecoderequest
+title: xmlrpc\_decode\_request
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcdecoderequest
+# xmlrpc\_decode\_request
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcdecoderequest — Декодує XML у типові типи PHP
+xmlrpc\_decode\_request — Декодує XML у типові типи PHP
 
 ### Опис
 
@@ -24,4 +25,4 @@ xmlrpc_decode_request(string $xml, string &$method, string $encoding = ?): mixed
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

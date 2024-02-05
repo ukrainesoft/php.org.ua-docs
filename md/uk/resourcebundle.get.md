@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.resourcebundle.md: ResourceBundle
 title: 'ResourceBundle::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ResourceBundle::get
 
-# resourcebundleget
+# resourcebundle\_get
 
 (PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-ResourceBundle::get -- resourcebundleget — Отримати дані з пакета
+ResourceBundle::get -- resourcebundle\_get — Отримати дані з пакета
 
 ### Опис
 
@@ -50,7 +51,7 @@ resourcebundle_get(ResourceBundle $bundle, string|int $index, bool $fallback = t
 
 ### Приклади
 
-**Приклад #1 Приклад використання **resourcebundleget()****
+**Пример #1 Пример использования**resourcebundle\_get()\*\*\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ echo $r->get('somestring');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 ?Hola, mundo!
@@ -76,4 +77,4 @@ echo $r->get('somestring');
 
 ### Дивіться також
 
--   [resourcebundlecount()](resourcebundle.count.md) - Отримати кількість елементів у пакеті
+-   [resourcebundle\_count()](resourcebundle.count.md) \- Отримати кількість елементів у пакеті

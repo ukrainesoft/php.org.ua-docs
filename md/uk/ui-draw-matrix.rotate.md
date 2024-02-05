@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-matrix.multiply.md: '« UIDrawMatrix::multiply'
-  - ui-draw-matrix.scale.md: 'ОЙDrawMatrix::scale »'
+  - ui-draw-matrix.multiply.md: '« UI\\Draw\\Matrix::multiply'
+  - ui-draw-matrix.scale.md: 'UI\\Draw\\Matrix::scale »'
   - index.md: PHP Manual
-  - class.ui-draw-matrix.md: ОЙDrawMatrix
-title: 'ОЙDrawMatrix::rotate'
+  - class.ui-draw-matrix.md: UI\\Draw\\Matrix
+title: 'UI\\Draw\\Matrix::rotate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawMatrix::rotate
+# UI\\Draw\\Matrix::rotate
 
 (UI 0.9.9)
 
-ОЙDrawMatrix::rotate — Перевернути матрицю
+UI\\Draw\\Matrix::rotate — Перевернути матрицю
 
 ### Опис
 

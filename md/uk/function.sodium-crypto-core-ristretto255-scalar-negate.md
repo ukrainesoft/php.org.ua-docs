@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-scalar-mul.md: « sodiumcryptocoreristretto255scalarmul
-  - function.sodium-crypto-core-ristretto255-scalar-random.md: sodiumcryptocoreristretto255scalarrandom »
+  - function.sodium-crypto-core-ristretto255-scalar-mul.md: « sodium\_crypto\_core\_ristretto255\_scalar\_mul
+  - function.sodium-crypto-core-ristretto255-scalar-random.md: sodium\_crypto\_core\_ristretto255\_scalar\_random »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptocoreristretto255scalarnegate
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_core\_ristretto255\_scalar\_negate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptocoreristretto255scalarnegate
+# sodium\_crypto\_core\_ristretto255\_scalar\_negate
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-sodiumcryptocoreristretto255scalarnegate — Скасує скалярне значення
+sodium\_crypto\_core\_ristretto255\_scalar\_negate — Скасує скалярне значення
 
 ### Опис
 
@@ -22,7 +23,7 @@ sodium_crypto_core_ristretto255_scalar_negate(string $s): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ sodium_crypto_core_ristretto255_scalar_negate(string $s): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sodiumcryptocoreristretto255scalarnegate()****
+**Пример #1 Пример использования**sodium\_crypto\_core\_ristretto255\_scalar\_negate()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump(hash_equals($foo, $reNegate));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -58,4 +59,4 @@ bool(true)
 
 ### Дивіться також
 
--   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.md) - Генерує випадковий ключ
+-   [sodium\_crypto\_core\_ristretto255\_scalar\_random()](function.sodium-crypto-core-ristretto255-scalar-random.md) \- Генерує випадковий ключ

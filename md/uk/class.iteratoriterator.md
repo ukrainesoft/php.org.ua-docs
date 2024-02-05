@@ -1,14 +1,15 @@
 ---
 navigation:
   - infiniteiterator.next.md: '« InfiniteIterator::next'
-  - iteratoriterator.construct.md: 'IteratorIterator::construct »'
+  - iteratoriterator.construct.md: 'IteratorIterator::\_\_construct »'
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас IteratorIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас IteratorIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,16 +19,13 @@ title: Клас IteratorIterator
 
 ```classsynopsis
 
-     
+    
+     class IteratorIterator
     
 
     
-     
-      class IteratorIterator
-     
-
-     implements 
-       OuterIterator {
+     implements
+      OuterIterator {
 
     /* Методы */
     
@@ -45,16 +43,16 @@ public valid(): bool
 
 ## Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Цей клас дозволяє доступ до методів внутрішнього ітератора через магічний метод call.
+> Цей клас дозволяє доступ до методів внутрішнього ітератора через магічний метод \_\_call.
 
 ## Зміст
 
--   [IteratorIterator::construct](iteratoriterator.construct.md) — Створює ітератор із чогось, що є обхідним (traversable)
--   [IteratorIterator::current](iteratoriterator.current.md) — Отримує поточне значення
--   [IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md) — Отримує внутрішній ітератор
--   [IteratorIterator::key](iteratoriterator.key.md) — Отримує ключ поточного елемента
--   [IteratorIterator::next](iteratoriterator.next.md) — Переміщує ітератор до наступного елементу
--   [IteratorIterator::rewind](iteratoriterator.rewind.md) — Повертає ітератор до першого елементу
--   [IteratorIterator::valid](iteratoriterator.valid.md) — Перевіряє, чи є ітератор допустимим
+-   [IteratorIterator::\_\_construct](iteratoriterator.construct.md)— Створює ітератор із чогось, що є обхідним (traversable)
+-   [IteratorIterator::current](iteratoriterator.current.md)— Отримує поточне значення
+-   [IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)— Отримує внутрішній ітератор
+-   [IteratorIterator::key](iteratoriterator.key.md)— Отримує ключ поточного елемента
+-   [IteratorIterator::next](iteratoriterator.next.md)— Переміщує ітератор до наступного елемента
+-   [IteratorIterator::rewind](iteratoriterator.rewind.md)— Повертає ітератор до першого елементу
+-   [IteratorIterator::valid](iteratoriterator.valid.md)— Перевіряє, чи є ітератор допустимим

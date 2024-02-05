@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domxpath.md: DOMXPath
 title: 'DOMXPath::query'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMXPath::query
 
@@ -32,13 +33,13 @@ public DOMXPath::query(string $expression, ?DOMNode $contextNode = null, bool $r
 
 `registerNodeNS`
 
-Додатковий параметр `registerNodeNS` можна вказати, щоб вимкнути автоматичну реєстрацію контексту вузла.
+Чи потрібно автоматично реєструвати префікси простору імен в області видимості контекстного вузла для об'єкта [DOMXPath](class.domxpath.md). Параметр допомагає уникати ручного виклику методу [DOMXPath::registerNamespace()](domxpath.registernamespace.md) для кожного простору імен у області видимості. Коли префікси простору імен конфліктують, реєструється лише префікс простору імен найближчого нащадка.
 
 ### Значення, що повертаються
 
 Повертає об'єкт [DOMNodeList](class.domnodelist.md), що містить вузли, що відповідають виразу XPath `expression`. Будь-який вираз, що не повертає вузли, поверне порожній об'єкт [DOMNodeList](class.domnodelist.md)
 
-Якщо `expression` побудовано неправильно або `contextNode` має неправильне значення, **DOMXPath::query()** поверне **`false`**
+Якщо `expression`построено неправильно или`contextNode`имеет неверное значение,**DOMXPath::query()** поверне **`false`**
 
 ### Приклади
 
@@ -68,7 +69,7 @@ foreach ($entries as $entry) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Найдена книга The Grapes of Wrath, автор John Steinbeck
@@ -103,4 +104,4 @@ foreach ($entries as $entry) {
 
 ### Дивіться також
 
--   [DOMXPath::evaluate()](domxpath.evaluate.md) - Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо
+-   [DOMXPath::evaluate()](domxpath.evaluate.md) \- Обчислює переданий вираз XPath і повертає типізований результат, якщо можливо

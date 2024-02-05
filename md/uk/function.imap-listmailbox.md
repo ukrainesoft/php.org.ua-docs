@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.imap-list.md: « imaplist
-  - function.imap-listscan.md: imaplistscan »
+  - function.imap-list.md: « imap\_list
+  - function.imap-listscan.md: imap\_listscan »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imaplistmailbox
+  - ref.imap.md: Функції IMAP
+title: imap\_listmailbox
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imaplistmailbox
+# imap\_listmailbox
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imaplistmailbox - Псевдонім [imaplist()](function.imap-list.md)
+imap\_listmailbox — Псевдоним[imap\_list()](function.imap-list.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [imaplist()](function.imap-list.md)
+Функция — псевдоним функции:[imap\_list()](function.imap-list.md)

@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-session.getschemas.md: '« Session::getSchemas'
   - mysql-xdevapi-session.listclients.md: 'Session::listClients »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysql\_xdevapi\\Session
 title: 'Session::getServerVersion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Session::getServerVersion
 
@@ -26,11 +27,11 @@ public mysql_xdevapi\Session::getServerVersion(): int
 
 ### Значення, що повертаються
 
-Версія сервера MySQL для сесії у вигляді цілого числа, такого як "80012".
+Версія MySQL для сесії у вигляді цілого числа, такого як "80012".
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSession::getServerVersion()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Session::getServerVersion()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ $version = $session->getServerVersion();
 var_dump($version);
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(80012)

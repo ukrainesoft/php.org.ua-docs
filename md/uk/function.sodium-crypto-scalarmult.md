@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-scalarmult-ristretto255.md: « sodiumcryptoscalarmultristretto255
-  - function.sodium-crypto-secretbox-keygen.md: sodiumcryptosecretboxkeygen »
+  - function.sodium-crypto-scalarmult-ristretto255.md: « sodium\_crypto\_scalarmult\_ristretto255
+  - function.sodium-crypto-secretbox-keygen.md: sodium\_crypto\_secretbox\_keygen »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoscalarmult
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_scalarmult
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoscalarmult
+# sodium\_crypto\_scalarmult
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoscalarmult — Обчислити загальний секрет на основі секретного ключа користувача та відкритого ключа іншого користувача
+sodium\_crypto\_scalarmult — Обчислити загальний секрет на основі секретного ключа користувача та відкритого ключа іншого користувача
 
 ### Опис
 

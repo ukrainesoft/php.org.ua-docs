@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-table.getname.md: '« Table::getName'
   - mysql-xdevapi-table.getsession.md: 'Table::getSession »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: mysql\_xdevapi\\Table
 title: 'Table::getSchema'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Table::getSchema
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Table::getSchema(): mysql_xdevapi\Schema
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTable::getSchema()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Table::getSchema()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($table->getSchema());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(mysql_xdevapi\Schema)#9 (1) {

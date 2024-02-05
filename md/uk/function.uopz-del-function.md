@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-copy.md: « uopzcopy
-  - function.uopz-delete.md: uopzdelete »
+  - function.uopz-copy.md: « uopz\_copy
+  - function.uopz-delete.md: uopz\_delete »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzdelfunction
+title: uopz\_del\_function
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzdelfunction
+# uopz\_del\_function
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzdelfunction — Видалення раніше доданої функції або методу
+uopz\_del\_function — Видалення раніше доданої функції або методу
 
 ### Опис
 
@@ -40,15 +41,15 @@ uopz_del_function(string $class, string $function, int &$all = true): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-**uopzdelfunction()** викидає [RuntimeException](class.runtimeexception.md), якщо видалені функції або метод не були додані за допомогою [uopzaddfunction()](function.uopz-add-function.md)
+**uopz\_del\_function()** викидає [RuntimeException](class.runtimeexception.md), якщо видалені функції або метод не були додані за допомогою [uopz\_add\_function()](function.uopz-add-function.md)
 
 ### Приклади
 
-**Приклад #1 Просте використання **uopzdelfunction()****
+**Пример #1 Простое использование**uopz\_del\_function()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ var_dump(function_exists('foo'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -68,5 +69,5 @@ bool(false)
 
 ### Дивіться також
 
--   [uopzaddfunction()](function.uopz-add-function.md) - Додає неіснуючу функцію чи метод
--   [uopzunsetreturn()](function.uopz-unset-return.md) - Скасує раніше встановлене значення, що повертається для функції
+-   [uopz\_add\_function()](function.uopz-add-function.md) \- Додає неіснуючу функцію чи метод
+-   [uopz\_unset\_return()](function.uopz-unset-return.md) \- Скасує раніше встановлене значення, що повертається для функції

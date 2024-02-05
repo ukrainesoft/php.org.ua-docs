@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.ssh2.md: « Функції SSH2
-  - function.ssh2-auth-hostbased-file.md: ssh2authhostbasedfile »
+  - function.ssh2-auth-hostbased-file.md: ssh2\_auth\_hostbased\_file »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2authagent
+title: ssh2\_auth\_agent
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2authagent
+# ssh2\_auth\_agent
 
-(PECL ssh2> = 0.12)
+(PECL ssh2 >= 0.12)
 
-ssh2authagent — Аутентифікація через SSH за допомогою агента ssh
+ssh2\_auth\_agent — Аутентифікація через SSH за допомогою агента ssh
 
 ### Опис
 
@@ -20,13 +21,13 @@ ssh2_auth_agent(resource $session, string $username): bool
 
 Аутентифікація через SSH за допомогою ssh.
 
-> **Зауваження**: Функція **ssh2authagent()** доступна, лише якщо модуль зібраний із бібліотекою libssh >= 1.2.3.
+> **Зауваження**: Функция**ssh2\_auth\_agent()** доступна, лише якщо модуль зібраний із бібліотекою libssh >= 1.2.3.
 
 ### Список параметрів
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2\_connect()](function.ssh2-connect.md)
 
 `username`
 
@@ -34,7 +35,7 @@ ssh2_auth_agent(resource $session, string $username): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

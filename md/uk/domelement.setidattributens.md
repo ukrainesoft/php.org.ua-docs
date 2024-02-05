@@ -1,16 +1,17 @@
 ---
 navigation:
   - domelement.setidattributenode.md: '« DOMElement::setIdAttributeNode'
-  - class.domentity.md: DOMEntity »
+  - domelement.toggleattribute.md: 'DOMElement::toggleAttribute »'
   - index.md: PHP Manual
   - class.domelement.md: DOMElement
 title: 'DOMElement::setIdAttributeNS'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMElement::setIdAttributeNS
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMElement::setIdAttributeNS — Оголошує атрибут, вказаний локальним ім'ям та URI простору імен, з ідентифікатором типу
+DOMElement::setIdAttributeNS — Оголошує атрибут з вказаними локальним ім'ям і URI простору імен тип ID
 
 ### Опис
 
@@ -18,7 +19,7 @@ DOMElement::setIdAttributeNS — Оголошує атрибут, вказани
 public DOMElement::setIdAttributeNS(string $namespace, string $qualifiedName, bool $isId): void
 ```
 
-Оголошує атрибут, вказаний локальним іменем `qualifiedName` та простором імен `namespace`, ідентифікатор типу.
+Оголошує атрибут із зазначеним кваліфікованим ім'ям `qualifiedName` та простором імен `namespace` унікальний ідентифікатор елемента.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ URI простір імен атрибута.
 
 `qualifiedName`
 
-Локальне ім'я атрибута у вигляді `prefix:tagname`
+Локальное имя атрибута в виде`prefix:tagname`
 
 `isId`
 
-Встановіть значення в **`true`** якщо ви хочете, щоб `name` мав ідентифікатор типу, **`false`** в іншому випадку.
+Параметр устанавливают в\*\*`true`\*\*якщо потрібно, щоб тип атрибута з ім'ям `name` став ідентифікатором елемента, інакше вказують **`false`**
 
 ### Значення, що повертаються
 
@@ -46,10 +47,10 @@ URI простір імен атрибута.
 
 **`DOM_NOT_FOUND`**
 
-Виникає, якщо `name` не є атрибутом елемента.
+Виникає, якщо атрибут з ім'ям `name` не належить елементу.
 
 ### Дивіться також
 
--   [DOMDocument::getElementById()](domdocument.getelementbyid.md) - Шукає елемент із певним ідентифікатором
--   [DOMElement::setIdAttribute()](domelement.setidattribute.md) - Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
--   [DOMElement::setIdAttributeNode()](domelement.setidattributenode.md) - Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
+-   [DOMDocument::getElementById()](domdocument.getelementbyid.md) \- Шукає елемент із певним ідентифікатором
+-   [DOMElement::setIdAttribute()](domelement.setidattribute.md) \- Оголошує атрибуту із зазначеним ім'ям тип ID
+-   [DOMElement::setIdAttributeNode()](domelement.setidattributenode.md) \- Оголошує вказаний вузл атрибута тип ID

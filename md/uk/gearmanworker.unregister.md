@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::unregister'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::unregister
 
@@ -32,5 +33,5 @@ public GearmanWorker::unregister(string $function_name): bool
 
 ### Дивіться також
 
--   [GearmanWorker::register()](gearmanworker.register.md) - Реєстрація функції на сервері завдань
--   [GearmanWorker::unregisterAll()](gearmanworker.unregisterall.md) - Видалення реєстрації всіх імен функцій на серверах завдань
+-   [GearmanWorker::register()](gearmanworker.register.md) \- Реєстрація функції на сервері завдань
+-   [GearmanWorker::unregisterAll()](gearmanworker.unregisterall.md) \- Видалення реєстрації всіх імен функцій на серверах завдань

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.hash-hkdf.md: « hashhkdf
-  - function.hash-hmac-file.md: hashhmacfile »
+  - function.hash-hkdf.md: « hash\_hkdf
+  - function.hash-hmac-file.md: hash\_hmac\_file »
   - index.md: PHP Manual
-  - ref.hash.md: Функции Hash
-title: hashhmacalgos
+  - ref.hash.md: Функції Hash
+title: hash\_hmac\_algos
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# hashhmacalgos
+# hash\_hmac\_algos
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-hashhmacalgos — Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac
+hash\_hmac\_algos — Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hash\_hmac
 
 ### Опис
 
@@ -24,18 +25,18 @@ hash_hmac_algos(): array
 
 ### Значення, що повертаються
 
-Повертає індексований масив зі списком підтримуваних функцією [hashhmac()](function.hash-hmac.md) алгоритмів хешування.
+Повертає індексований масив зі списком підтримуваних функцією [hash\_hmac()](function.hash-hmac.md)алгоритмов хеширования.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **hashhmacalgos()****
+**Пример #1 Пример использования**hash\_hmac\_algos()\*\*\*\*
 
 ```php
 <?php
 print_r(hash_hmac_algos());
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -89,11 +90,11 @@ Array
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> До PHP 7.2.0 єдиним варіантом отримати список підтримуваних алгоритмів було викликати функцію [hashalgos()](function.hash-algos.md), яка також повертала алгоритми, що не підтримуються [hashhmac()](function.hash-hmac.md)
+> До PHP 7.2.0 єдиним варіантом отримати список підтримуваних алгоритмів було викликати функцію [hash\_algos()](function.hash-algos.md), яка також повертала алгоритми, що не підтримуються [hash\_hmac()](function.hash-hmac.md)
 
 ### Дивіться також
 
--   [hashhmac()](function.hash-hmac.md) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
--   [hashalgos()](function.hash-algos.md) - Повертає список зареєстрованих алгоритмів хешування
+-   [hash\_hmac()](function.hash-hmac.md) \- Генерація хеш-коду на основі ключа, використовуючи метод HMAC
+-   [hash\_algos()](function.hash-algos.md) \- Повертає список зареєстрованих алгоритмів хешування

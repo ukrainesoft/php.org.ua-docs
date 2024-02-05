@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.eio-realpath.md: « eiorealpath
-  - function.eio-rmdir.md: eiormdir »
+  - function.eio-realpath.md: « eio\_realpath
+  - function.eio-rmdir.md: eio\_rmdir »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiorename
+  - ref.eio.md: Eio Функції
+title: eio\_rename
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiorename
+# eio\_rename
 
 (PECL eio >= 0.0.1dev)
 
-eiorename — Змінює ім'я або переміщує файл
+eio\_rename — Змінює ім'я або переміщує файл
 
 ### Опис
 
 ```methodsynopsis
-eio_rename(    string $path,    string $new_path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_rename(    string $path,    string $new_path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
-**eiorename()** здійснює переміщення чи перейменування файлу.
+**eio\_rename()** здійснює переміщення чи перейменування файлу.
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ eio_rename(    string $path,    string $new_path,    int $pri = EIO_PRI_DEFAULT,
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -52,7 +53,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
@@ -60,11 +61,11 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-**eiorename()** повертає ресурс запиту у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_rename()** повертає ресурс запиту у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eiorename()****
+**Пример #1 Пример использования**eio\_rename()\*\*\*\*
 
 ```php
 <?php
@@ -88,7 +89,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 eio_rename_ok

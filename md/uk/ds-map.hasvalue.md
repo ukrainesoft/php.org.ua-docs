@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.haskey.md: '« DsMap::hasKey'
-  - ds-map.intersect.md: 'ДсMap::intersect »'
+  - ds-map.haskey.md: '« Ds\\Map::hasKey'
+  - ds-map.intersect.md: 'Ds\\Map::intersect »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::hasValue'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::hasValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::hasValue
+# Ds\\Map::hasValue
 
 (PECL ds >= 1.0.0)
 
-ДсMap::hasValue — Перевіряє, чи колекція містить задане значення
+Ds\\Map::hasValue — Перевіряє, чи колекція містить задане значення
 
 ### Опис
 
@@ -28,11 +29,11 @@ public Ds\Map::hasValue(mixed $value): bool
 
 ### Значення, що повертаються
 
-Повертає \*\*`true`\*\*якщо ключ знайдений, інакше **`false`**
+Повертає **`true`**, если ключ найден, иначе\*\*`false`\*\*
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::hasValue()****
+**Пример #1 Пример использования**Ds\\Map::hasValue()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($map->hasValue(4)); // false
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)

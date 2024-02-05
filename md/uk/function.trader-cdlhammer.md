@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlgravestonedoji.md: « tradercdlgravestonedoji
-  - function.trader-cdlhangingman.md: tradercdlhangingman »
+  - function.trader-cdlgravestonedoji.md: « trader\_cdlgravestonedoji
+  - function.trader-cdlhangingman.md: trader\_cdlhangingman »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlhammer
+  - ref.trader.md: Функції Trader
+title: trader\_cdlhammer
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlhammer
+# trader\_cdlhammer
 
 (PECL trader >= 0.2.0)
 
-tradercdlhammer — Молот
+trader\_cdlhammer — Молот
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlhammer(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlhammer(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

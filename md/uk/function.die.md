@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: die
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # die
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-pen.transform.md: '« UIDrawPen::transform'
-  - class.ui-draw-path.md: ОЙDrawPath »
+  - ui-draw-pen.transform.md: '« UI\\Draw\\Pen::transform'
+  - class.ui-draw-path.md: UI\\Draw\\Path »
   - index.md: PHP Manual
-  - class.ui-draw-pen.md: ОЙDrawPen
-title: 'ОЙDrawPen::write'
+  - class.ui-draw-pen.md: UI\\Draw\\Pen
+title: 'UI\\Draw\\Pen::write'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawPen::write
+# UI\\Draw\\Pen::write
 
 (UI 0.9.9)
 
-ОЙDrawPen::write — Намалювати текст у точці
+UI\\Draw\\Pen::write — Намалювати текст у точці
 
 ### Опис
 

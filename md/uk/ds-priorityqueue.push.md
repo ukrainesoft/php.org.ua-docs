@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-priorityqueue.pop.md: '« DsPriorityQueue::pop'
-  - ds-priorityqueue.toarray.md: 'ДсPriorityQueue::toArray »'
+  - ds-priorityqueue.pop.md: '« Ds\\PriorityQueue::pop'
+  - ds-priorityqueue.toarray.md: 'Ds\\PriorityQueue::toArray »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.md: Черга з пріоритетом
-title: 'ДсPriorityQueue::push'
+  - class.ds-priorityqueue.md: Ds\\PriorityQueue
+title: 'Ds\\PriorityQueue::push'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсPriorityQueue::push
+# Ds\\PriorityQueue::push
 
 (PECL ds >= 1.0.0)
 
-ДсPriorityQueue::push — Додає значення до черги
+Ds\\PriorityQueue::push — Додає значення до черги
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсPriorityQueue::push'
 public Ds\PriorityQueue::push(mixed $value, int $priority): void
 ```
 
-Додає `value` із заданим пріоритетом `priority` в чергу.
+Добавляет`value` із заданим пріоритетом `priority` в чергу.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public Ds\PriorityQueue::push(mixed $value, int $priority): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсPriorityQueue::push()****
+**Пример #1 Пример использования**Ds\\PriorityQueue::push()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ print_r($queue->pop());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "b"

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-lob-copy.md: « ocilobcopy
-  - function.oci-new-collection.md: ocinewcollection »
+  - function.oci-lob-copy.md: « oci\_lob\_copy
+  - function.oci-new-collection.md: oci\_new\_collection »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ociлобісequal
+  - ref.oci8.md: OCI8 Функції
+title: oci\_lob\_is\_equal
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ociлобісequal
+# oci\_lob\_is\_equal
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ociлобісequal - Порівнює два об'єкти LOB/FILE
+oci\_lob\_is\_equal - Порівнює два об'єкти LOB/FILE
 
 ### Опис
 
@@ -36,6 +37,6 @@ oci_lob_is_equal(OCILob $lob1, OCILob $lob2): bool
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Клас OCILob називався OCI-Lob до PHP 8 та PECL OCI8 3.0.0.

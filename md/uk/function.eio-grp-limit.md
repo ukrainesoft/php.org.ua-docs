@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.eio-grp-cancel.md: « eiogrpcancel
-  - function.eio-grp.md: eiogrp »
+  - function.eio-grp-cancel.md: « eio\_grp\_cancel
+  - function.eio-grp.md: eio\_grp »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiogrplimit
+  - ref.eio.md: Eio Функції
+title: eio\_grp\_limit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiogrplimit
+# eio\_grp\_limit
 
 (PECL eio >= 0.0.1dev)
 
-eiogrplimit — Встановлює граничну кількість запитів у групі
+eio\_grp\_limit — Встановлює граничну кількість запитів у групі
 
 ### Опис
 
@@ -36,4 +37,4 @@ eio_grp_limit(resource $grp, int $limit): void
 
 ### Дивіться також
 
--   [eiogrpadd()](function.eio-grp-add.md) - Додає запит до групи запитів
+-   [eio\_grp\_add()](function.eio-grp-add.md) \- Додає запит до групи запитів

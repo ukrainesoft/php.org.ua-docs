@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.mcrypt-enc-is-block-mode.md: « mcryptencісblockmode
-  - function.mcrypt-encrypt.md: mcryptencrypt »
+  - function.mcrypt-enc-is-block-mode.md: « mcrypt\_enc\_is\_block\_mode
+  - function.mcrypt-encrypt.md: mcrypt\_encrypt »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
-title: mcryptencselftest
+title: mcrypt\_enc\_self\_test
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mcryptencselftest
+# mcrypt\_enc\_self\_test
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mcryptencselftest — Запуск самоперевірки відкритого модуля
+mcrypt\_enc\_self\_test — Запуск самоперевірки відкритого модуля
 
 **Увага**
 
-Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -32,4 +33,4 @@ mcrypt_enc_self_test(resource $td): int
 
 ### Значення, що повертаються
 
-Повертає `0` у разі успішного виконання та негативне int в іншому випадку.
+Повертає у разі успішного виконання та негативне int в іншому випадку.

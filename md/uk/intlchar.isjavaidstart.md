@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isJavaIDStart'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isJavaIDStart
 
 (PHP 7, PHP 8)
 
-IntlChar::isJavaIDStart — Перевірити, чи може символ бути першим в ідентифікаторі Java
+IntlChar::isJavaIDStart — Перевірити, чи символ може бути першим в ідентифікаторі Java
 
 ### Опис
 
@@ -20,13 +21,13 @@ public static IntlChar::isJavaIDStart(int|string $codepoint): ?bool
 
 Перевіряє, чи може символ бути першим в ідентифікаторі Java.
 
-На додаток до [IntlChar::isIDStart()](intlchar.isidstart.md) **`true`** повертається для символів із категорій "Sc" (символ грошової одиниці) та "Pc" (з'єднувальна пунктуація).
+В дополнение к[IntlChar::isIDStart()](intlchar.isidstart.md) **`true`** повертається для символів із категорій "Sc" (символ грошової одиниці) та "Pc" (з'єднувальна пунктуація).
 
 ### Список параметрів
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
@@ -45,7 +46,7 @@ var_dump(IntlChar::isJavaIDStart("\u{2603}"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -56,6 +57,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isIDStart()](intlchar.isidstart.md) - Перевірити, чи можна використовувати символ на початку ідентифікатора
--   [IntlChar::isJavaIDPart()](intlchar.isjavaidpart.md) - Перевірити, чи є символ допустимим в ідентифікаторі Java
--   [IntlChar::isalpha()](intlchar.isalpha.md) - Перевірити, чи є символ літерою
+-   [IntlChar::isIDStart()](intlchar.isidstart.md) \- Перевірити, чи можна використовувати символ на початку ідентифікатора
+-   [IntlChar::isJavaIDPart()](intlchar.isjavaidpart.md) \- Перевірити, чи є символ допустимим в ідентифікаторі Java
+-   [IntlChar::isalpha()](intlchar.isalpha.md) \- Перевірити, чи є символ літерою

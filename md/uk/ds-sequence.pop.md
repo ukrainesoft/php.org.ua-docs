@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.merge.md: '« DsSequence::merge'
-  - ds-sequence.push.md: 'ДсSequence::push »'
+  - ds-sequence.merge.md: '« Ds\\Sequence::merge'
+  - ds-sequence.push.md: 'Ds\\Sequence::push »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::pop'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::pop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::pop
+# Ds\\Sequence::pop
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::pop — Видаляє та повертає останнє значення
+Ds\\Sequence::pop — Видаляє та повертає останнє значення
 
 ### Опис
 
@@ -34,7 +35,7 @@ abstract public Ds\Sequence::pop(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::pop()****
+**Пример #1 Пример использования**Ds\\Sequence::pop()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($sequence->pop());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(3)

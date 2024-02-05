@@ -1,14 +1,15 @@
 ---
 navigation:
-  - solrquery.destruct.md: '« SolrQuery::destruct'
+  - solrquery.destruct.md: '« SolrQuery::\_\_destruct'
   - solrquery.getexpandfilterqueries.md: 'SolrQuery::getExpandFilterQueries »'
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getExpand'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getExpand
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrQuery::getExpand — Повертає true, якщо активовано розширення групи
 

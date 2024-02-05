@@ -5,58 +5,65 @@ navigation:
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас RegexIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас RegexIterator
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Цей ітератор може використовуватися для фільтрації іншого ітератора на основі регулярних виразів.
+Цей ітератор можна використовувати для фільтрації іншого ітератора на основі регулярних виразів.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class RegexIterator
     
 
     
-     
-      class RegexIterator
-     
-
-     
-      extends
-       FilterIterator
-     
+     extends
+      FilterIterator
      {
 
     /* Константы */
     
+     public
      const
      int
-      MATCH = 0;
+      USE_KEY;
 
-    const
+    public
+     const
      int
-      GET_MATCH = 1;
+      INVERT_MATCH;
 
-    const
+    public
+     const
      int
-      ALL_MATCHES = 2;
+      MATCH;
 
-    const
+    public
+     const
      int
-      SPLIT = 3;
+      GET_MATCH;
 
-    const
+    public
+     const
      int
-      REPLACE = 4;
+      ALL_MATCHES;
 
-    const
+    public
+     const
      int
-      USE_KEY = 1;
+      SPLIT;
+
+    public
+     const
+     int
+      REPLACE;
 
 
     /* Свойства */
@@ -67,7 +74,7 @@ title: Клас RegexIterator
 
     /* Методы */
     
-   public __construct(    Iterator $iterator,    string $pattern,    int $mode = RegexIterator::MATCH,    int $flags = 0,    int $pregFlags = 0)
+   public __construct(    Iterator $iterator,    string $pattern,    int $mode = RegexIterator::MATCH,    int $flags = 0,    int $pregFlags = 0)
 
     public accept(): bool
 public getFlags(): int
@@ -82,7 +89,6 @@ public setPregFlags(int $pregFlags): void
     /* Наследуемые методы */
     public FilterIterator::accept(): bool
 public FilterIterator::current(): mixed
-public FilterIterator::getInnerIterator(): Iterator
 public FilterIterator::key(): mixed
 public FilterIterator::next(): void
 public FilterIterator::rewind(): void
@@ -104,23 +110,23 @@ public IteratorIterator::valid(): bool
 
 **`RegexIterator::ALL_MATCHES`**
 
-Повертати всі збіги для поточного запису (дивіться [pregmatchall()](function.preg-match-all.md)
+Повертати всі збіги для поточного запису (дивіться [preg\_match\_all()](function.preg-match-all.md)
 
 **`RegexIterator::GET_MATCH`**
 
-Повертати перший збіг для поточного запису (дивіться [pregmatch()](function.preg-match.md)
+Повертати перший збіг для поточного запису (дивіться [preg\_match()](function.preg-match.md)
 
 **`RegexIterator::MATCH`**
 
-Тільки виконання порівняння (фільтра) для поточного запису (дивіться [pregmatch()](function.preg-match.md)
+Тільки виконання порівняння (фільтра) для поточного запису (дивіться [preg\_match()](function.preg-match.md)
 
 **`RegexIterator::REPLACE`**
 
-Замінити поточний запис (дивіться [pregreplace()](function.preg-replace.md); Повністю поки що не реалізовано)
+Заменить текущую запись (смотрите[preg\_replace()](function.preg-replace.md); Повністю поки що не реалізовано)
 
 **`RegexIterator::SPLIT`**
 
-Повертати розділені значення для поточного запису (див. [pregsplit()](function.preg-split.md)
+Повертати розділені значення для поточного запису (див. [preg\_split()](function.preg-split.md)
 
 ## Прапори RegexIterator
 
@@ -128,18 +134,22 @@ public IteratorIterator::valid(): bool
 
 Спеціальний прапорець: Порівняти ключ запису замість значення запису.
 
+**`RegexIterator::INVERT_MATCH`**
+
+Інвертує значення, що повертається [RegexIterator::accept()](regexiterator.accept.md)
+
 ## Властивості
 
 replacement
 
 ## Зміст
 
--   [RegexIterator::accept](regexiterator.accept.md) - Перевірка відповідності регулярному виразу
--   [RegexIterator::construct](regexiterator.construct.md) - Конструктор класу RegexIterator
--   [RegexIterator::getFlags](regexiterator.getflags.md) — Отримання прапорів налаштування
--   [RegexIterator::getMode](regexiterator.getmode.md) — Повертає режим роботи
--   [RegexIterator::getPregFlags](regexiterator.getpregflags.md) — Повертає прапори регулярного вираження
--   [RegexIterator::getRegex](regexiterator.getregex.md) — Повертає рядок поточного регулярного виразу
--   [RegexIterator::setFlags](regexiterator.setflags.md) - Установка прапорів
--   [RegexIterator::setMode](regexiterator.setmode.md) — Встановлення режиму роботи
--   [RegexIterator::setPregFlags](regexiterator.setpregflags.md) - Завдання прапорів регулярного вираження
+-   [RegexIterator::accept](regexiterator.accept.md) \- Перевірка відповідності регулярному виразу
+-   [RegexIterator::\_\_construct](regexiterator.construct.md) \- Конструктор класу RegexIterator
+-   [RegexIterator::getFlags](regexiterator.getflags.md)— Отримання прапорів налаштування
+-   [RegexIterator::getMode](regexiterator.getmode.md)— Повертає режим роботи
+-   [RegexIterator::getPregFlags](regexiterator.getpregflags.md)— Повертає прапори регулярного вираження
+-   [RegexIterator::getRegex](regexiterator.getregex.md)— Повертає рядок поточного регулярного виразу
+-   [RegexIterator::setFlags](regexiterator.setflags.md) \- Установка прапорів
+-   [RegexIterator::setMode](regexiterator.setmode.md)— Встановлення режиму роботи
+-   [RegexIterator::setPregFlags](regexiterator.setpregflags.md) \- Завдання прапорів регулярного вираження

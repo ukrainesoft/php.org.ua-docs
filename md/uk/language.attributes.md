@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - langref.md: Довідник мови
 title: Атрибути
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Атрибути
 
@@ -12,5 +13,5 @@ title: Атрибути
 
 -   [Введення в атрибути](language.attributes.overview.md)
 -   [Синтаксис атрибутів](language.attributes.syntax.md)
--   [Чтение атрибутов с помощью Reflection API](language.attributes.reflection.md)
+-   [Читання атрибутів за допомогою Reflection API](language.attributes.reflection.md)
 -   [Оголошення класів атрибутів](language.attributes.classes.md)

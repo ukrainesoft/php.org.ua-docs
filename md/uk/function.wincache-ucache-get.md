@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.wincache-ucache-exists.md: « wincacheucacheexists
-  - function.wincache-ucache-inc.md: wincacheucacheinc »
+  - function.wincache-ucache-exists.md: « wincache\_ucache\_exists
+  - function.wincache-ucache-inc.md: wincache\_ucache\_inc »
   - index.md: PHP Manual
-  - ref.wincache.md: Функции WinCache
-title: wincacheucacheget
+  - ref.wincache.md: Функції WinCache
+title: wincache\_ucache\_get
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# wincacheucacheget
+# wincache\_ucache\_get
 
 (PECL wincache >= 1.1.0)
 
-wincacheucacheget — Отримує змінну, що зберігається в кеші користувача.
+wincache\_ucache\_get — Отримує змінну, що зберігається в кеші користувача.
 
 ### Опис
 
@@ -24,21 +25,21 @@ wincache_ucache_get(mixed $key, bool &$success = ?): mixed
 
 `key`
 
-Параметр `key`, який використовувався для зберігання змінної в кеші . `key` чутливий до регістру . `key` може бути масивом ключів. У цьому випадку значення, що повертається, буде масивом значень кожного елемента в масиві `key`. Якщо повертається об'єкт або масив, що містить об'єкти, об'єкти будуть десеріалізовані. Детальніше про десеріалізацію об'єктів дивіться [wakeup()](language.oop5.magic.md#object.wakeup)
+Параметр`key`, який використовувався для зберігання змінної в кеші . `key`чувствителен к регистру`key` може бути масивом ключів. У цьому випадку значення, що повертається, буде масивом значень кожного елемента в масиві `key`. Якщо повертається об'єкт або масив, що містить об'єкти, об'єкти будуть десеріалізовані. Детальніше про десеріалізацію об'єктів дивіться [\_\_wakeup()](language.oop5.magic.md#object.wakeup)
 
 `success`
 
-Буде встановлено значення **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Будет установлено значение\*\*`true`\*\* у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Значення, що повертаються
 
-Якщо параметр `key` є рядком, функція повертає значення змінної, що зберігається із цим ключем. Для параметра `success` буде встановлено значення **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Якщо параметр `key` є рядком, функція повертає значення змінної, що зберігається із цим ключем. Для параметра `success`будет установлено значение\*\*`true`\*\* у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
-Якщо параметр `key` - це масив, параметр `success` завжди матиме значення **`true`**. Повернутий масив (пари ім'я => значення) міститиме лише ті пари ім'я => значення, для яких операція отримання в кеші користувача була успішною. Якщо жоден з ключів у масиві ключів не знаходить збігу в кеші користувача, буде повернутий порожній масив.
+Якщо параметр `key` - це масив, параметр `success` завжди матиме значення **`true`**. . Повернутий масив (пари ім'я => значення) міститиме лише ті пари ім'я => значення, для яких операція отримання в кеші користувача була успішною. Якщо жоден з ключів у масиві ключів не знаходить збігу в кеші користувача, буде повернутий порожній масив.
 
 ### Приклади
 
-**Приклад #1 **wincacheucacheget()** з `key` у вигляді рядка**
+**Пример #1**wincache\_ucache\_get()**с`key` у вигляді рядка**
 
 ```php
 <?php
@@ -48,14 +49,14 @@ var_dump($success);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(4) "blue"
 bool(true)
 ```
 
-**Приклад #2 **wincacheucacheget()** з `key` у вигляді масиву**
+**Пример #2**wincache\_ucache\_get()**с`key` у вигляді масиву**
 
 ```php
 <?php
@@ -67,7 +68,7 @@ var_dump($success);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(4) { ["green"]=> string(1) "5"
@@ -79,11 +80,11 @@ bool(true)
 
 ### Дивіться також
 
--   [wincacheucacheadd()](function.wincache-ucache-add.md) - Додає змінну в кеш користувача, тільки якщо змінна ще не існує в кеші
--   [wincacheucacheset()](function.wincache-ucache-set.md) - Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
--   [wincacheucachedelete()](function.wincache-ucache-delete.md) - Видаляє змінні з користувальницького кешу
--   [wincacheucacheclear()](function.wincache-ucache-clear.md) - Видаляє весь вміст кешу користувача.
--   [wincacheucacheexists()](function.wincache-ucache-exists.md) - Перевіряє, чи існує змінна в кеші користувача
--   [wincacheucachememinfo()](function.wincache-ucache-meminfo.md) - Отримує інформацію про використання пам'яті кешу користувача.
--   [wincacheucacheinfo()](function.wincache-ucache-info.md) - Отримує інформацію про дані, що зберігаються в кеші користувача
--   [wakeup()](language.oop5.magic.md#object.wakeup)
+-   [wincache\_ucache\_add()](function.wincache-ucache-add.md) \- Додає змінну в кеш користувача, тільки якщо змінна ще не існує в кеші
+-   [wincache\_ucache\_set()](function.wincache-ucache-set.md) \- Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
+-   [wincache\_ucache\_delete()](function.wincache-ucache-delete.md) \- Видаляє змінні з користувальницького кешу
+-   [wincache\_ucache\_clear()](function.wincache-ucache-clear.md) \- Видаляє весь вміст користувальницького кешу
+-   [wincache\_ucache\_exists()](function.wincache-ucache-exists.md) \- Перевіряє, чи існує змінна в кеші користувача
+-   [wincache\_ucache\_meminfo()](function.wincache-ucache-meminfo.md) \- Отримує інформацію про використання пам'яті кешу користувача.
+-   [wincache\_ucache\_info()](function.wincache-ucache-info.md) \- Отримує інформацію про дані, що зберігаються в кеші користувача
+-   [\_\_wakeup()](language.oop5.magic.md#object.wakeup)

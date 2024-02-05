@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-dispatcher.flushinstantly.md: '« YafDispatcher::flushInstantly'
-  - yaf-dispatcher.getdefaultaction.md: 'YafDispatcher::getDefaultAction »'
+  - yaf-dispatcher.flushinstantly.md: '« Yaf\_Dispatcher::flushInstantly'
+  - yaf-dispatcher.getdefaultaction.md: 'Yaf\_Dispatcher::getDefaultAction »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::getApplication'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::getApplication'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::getApplication
+# Yaf\_Dispatcher::getApplication
 
 (Yaf >=1.0.0)
 
-YafDispatcher::getApplication — Отримує програму
+Yaf\_Dispatcher::getApplication — Отримує програму
 
 ### Опис
 
@@ -18,7 +19,7 @@ YafDispatcher::getApplication — Отримує програму
 public Yaf_Dispatcher::getApplication(): Yaf_Application
 ```
 
-Отримує екземпляр [YafApplication](class.yaf-application.md). Те саме, що і [YafApplication::app()](yaf-application.app.md)
+Отримує екземпляр [Yaf\_Application](class.yaf-application.md). Те саме, що і [Yaf\_Application::app()](yaf-application.app.md)
 
 ### Список параметрів
 
@@ -28,4 +29,4 @@ public Yaf_Dispatcher::getApplication(): Yaf_Application
 
 ### Дивіться також
 
--   [YafApplication::app()](yaf-application.app.md) - Витягти екземпляр програми
+-   [Yaf\_Application::app()](yaf-application.app.md) \- Витягти екземпляр програми

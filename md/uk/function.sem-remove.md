@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sem-release.md: « semrelease
-  - function.shm-attach.md: shmattach »
+  - function.sem-release.md: « sem\_release
+  - function.shm-attach.md: shm\_attach »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
-title: semremove
+title: sem\_remove
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# semremove
+# sem\_remove
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-semremove — Видалення семафору
+sem\_remove — Видалення семафору
 
 ### Опис
 
@@ -18,7 +19,7 @@ semremove — Видалення семафору
 sem_remove(SysvSemaphore $semaphore): bool
 ```
 
-**semremove()** видаляє вказаний семафор.
+**sem\_remove()** видаляє вказаний семафор.
 
 Після видалення семафору він стає недоступним.
 
@@ -26,20 +27,20 @@ sem_remove(SysvSemaphore $semaphore): bool
 
 `semaphore`
 
-Семафор, повернутий [semget()](function.sem-get.md)
+Семафор, повернутий [sem\_get()](function.sem-get.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікували ресурс (resource). |
+| 8.0.0 | Параметр`semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [semget()](function.sem-get.md) - Отримання ідентифікатора семафору
--   [semrelease()](function.sem-release.md) - Звільнення семафору
--   [semacquire()](function.sem-acquire.md) - Захоплення семафору
+-   [sem\_get()](function.sem-get.md) \- Отримання ідентифікатора семафору
+-   [sem\_release()](function.sem-release.md) \- Звільнення семафору
+-   [sem\_acquire()](function.sem-acquire.md) \- Захоплення семафору

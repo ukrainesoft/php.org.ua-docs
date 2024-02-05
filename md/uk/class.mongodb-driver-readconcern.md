@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.unserialize.md: '« MongoDBDriverReadPreference::unserialize'
-  - mongodb-driver-readconcern.bsonserialize.md: 'MongoDBDriverReadConcern::bsonSerialize »'
+  - mongodb-driver-readpreference.unserialize.md: '« MongoDB\\Driver\\ReadPreference::unserialize'
+  - mongodb-driver-readconcern.bsonserialize.md: 'MongoDB\\Driver\\ReadConcern::bsonSerialize »'
   - index.md: PHP Manual
-  - book.mongodb.md: MongoDBDriver
-title: Клас MongoDBDriverReadConcern
+  - book.mongodb.md: MongoDB\\Driver
+title: Клас MongoDB\\Driver\\ReadConcern
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverReadConcern
+# Клас MongoDB\\Driver\\ReadConcern
 
 (mongodb >=1.1.0)
 
 ## Вступ
 
-**MongoDBDriverReadConcern** контролює рівень ізоляції для операцій читання для наборів реплік та сегментів наборів реплік. Ця опція потребує MongoDB 3.2 або новіше.
+**MongoDB\\Driver\\ReadConcern** контролює рівень ізоляції для операцій читання для наборів реплік та сегментів наборів реплік. Ця опція потребує MongoDB 3.2 або новіше.
 
 ## Огляд класів
 
@@ -54,12 +55,12 @@ title: Клас MongoDBDriverReadConcern
 
     /* Методы */
     
-   final public bsonSerialize(): object
+   final public bsonSerialize(): stdClass
 final public __construct(?string $level = null)
 final public getLevel(): ?string
 final public isDefault(): bool
 final public serialize(): string
-final public unserialize(string $serialized): void
+final public unserialize(string $data): void
 
    }
 ```
@@ -68,19 +69,19 @@ final public unserialize(string $serialized): void
 
 **`MongoDB\Driver\ReadConcern::AVAILABLE`**
 
-За замовчуванням для читання проти вторинних, коли `afterClusterTime` і `level` не вказані.
+За замовчуванням для читання проти вторинних, коли `afterClusterTime`и`level` не вказані.
 
-Запит повертає останні дані екземпляра. Не гарантує, що дані були записані більшості членів набору реплік (тобто можуть бути відкати).
+Запит повертає останні дані екземпляра. Не гарантує, що дані були записані більшості членів набору реплік (тобто можуть бути відкочені).
 
-Для колекцій, що не охороняються (включаючи колекції в автономному розгортанні або розгортанні набору реплік), `"local"` і `"available"` гарантії читання поводяться однаково.
+Для колекцій, що не охороняються (включаючи колекції в автономному розгортанні або розгортанні набору реплік), `"local"`и`"available"` гарантії читання поводяться однаково.
 
-Для сегментованого кластера `"available"` гарантії читання забезпечує більшу толерантність для розділів, оскільки вона не очікує гарантій узгодженості. Однак запит з `"available"` гарантіями читання може повернути втрачені документи, якщо в сегменті виконується міграція фрагментів, оскільки `"available"` гарантій читання, на відміну від `"local"` гарантій читання, що не пов'язується з первинним сервером сегмента або серверами конфігурації для отримання оновлених метаданих.
+Для сегментированного кластера`"available"` гарантії читання забезпечує більшу толерантність для розділів, оскільки вона не очікує гарантій узгодженості. Однак запит з `"available"` гарантіями читання може повернути втрачені документи, якщо у сегменті виконується міграція фрагментів, оскільки `"available"`гарантий чтения, в отличие от`"local"` гарантій читання, що не пов'язується з первинним сервером сегмента або серверами конфігурації для отримання оновлених метаданих.
 
 **`MongoDB\Driver\ReadConcern::LINEARIZABLE`**
 
 Запит повертає дані, які відображають усі успішні записи, випущені з гарантіями запису `"majority"` *і* підтверджені на початок операції читання. Для наборів реплік, які виконуються з параметром `writeConcernMajorityJournalDefault`, встановленим у значення \*\*`true`\*\*лінеаризовані гарантії читання повертають дані, які ніколи не будуть відкочуватися.
 
-Якщо для `writeConcernMajorityJournalDefault` встановлено значення **`false`**, MongoDB не буде очікувати `w: "majority"` записів буде стійким, перш ніж підтвердити запис. Таким чином, операції запису `"majority"` можуть відкочуватися у разі втрати члена набору реплік.
+Якщо для `writeConcernMajorityJournalDefault`задано значение\*\*`false`\*\*, MongoDB не буде очікувати `w: "majority"` записів буде стійким, перш ніж підтвердити запис. Таким чином, операції запису `"majority"` можуть відкочуватися у разі втрати члена набору реплік.
 
 Ви можете вказати лінеаризовані гарантії читання для операцій читання лише на основному сервері.
 
@@ -88,7 +89,7 @@ final public unserialize(string $serialized): void
 
 **Підказка**
 
-Завжди використовуйте `maxTimeMS` з лінеаризованими гарантіями читання, якщо більшість елементів, що несуть дані, недоступні . `maxTimeMS` гарантує, що операція не блокується нескінченно, і натомість гарантує, що операція повертає помилку, якщо проблема читання може бути виконана.
+Всегда используйте`maxTimeMS` з лінеаризованими гарантіями читання, якщо більшість елементів, що несуть дані, недоступні . `maxTimeMS` гарантує, що операція не блокується нескінченно, і натомість гарантує, що операція повертає помилку, якщо проблема читання може бути виконана.
 
 Для лінеаризованих гарантій читання потрібен MongoDB 3.4.
 
@@ -96,7 +97,7 @@ final public unserialize(string $serialized): void
 
 За промовчанням для читання по первинному, якщо `level` не вказано, і для читання з вторинного, якщо `level` не вказано, але встановлено `afterClusterTime`
 
-Запит повертає останні дані екземпляра. Не гарантує, що дані були записані більшості членів набору реплік (тобто можуть бути відкати).
+Запит повертає останні дані екземпляра. Не гарантує, що дані були записані більшості членів набору реплік (тобто можуть бути відкочені).
 
 **`MongoDB\Driver\ReadConcern::MAJORITY`**
 
@@ -112,34 +113,34 @@ final public unserialize(string $serialized): void
 
 Якщо транзакція є частиною причинно-узгодженої сесії, при фіксації транзакції із проблемою запису `"majority"`, операції транзакції гарантовано зчитують з моментального знімку дані, підтверджені більшістю, що забезпечує причинну узгодженість операцій, безпосередньо попередньої початку транзакції.
 
-Поза транзакціями з кількома документами, проблема читання `"snapshot"` доступна на первинних та вторинних серверах для наступних операцій читання: `find` `aggregate` і `distinct` (Для необроблених колекцій). Усі інші команди читання забороняють `"snapshot"`
+Поза транзакціями з кількома документами, проблема читання `"snapshot"` доступна на первинних та вторинних серверах для наступних операцій читання: `find` `aggregate`и`distinct` (Для необроблених колекцій). Усі інші команди читання забороняють `"snapshot"`
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL mongodb 1.11.0 |  |
-| Додано константу **`MongoDB\Driver\ReadConcern::SNAPSHOT`** |  |
+| Добавлена константа\*\*`MongoDB\Driver\ReadConcern::SNAPSHOT`\*\* |  |
 
-| | PECL mongodb 1.7.0 Реалізує [Serializable](class.serializable.md). | | PECL mongodb 1.4.0
+| | PECL mongodb 1.7.0 | Реализует[Serializable](class.serializable.md)| | PECL mongodb 1.4.0 |
 
-Додано константу **`MongoDB\Driver\ReadConcern::AVAILABLE`**
+Добавлена константа\*\*`MongoDB\Driver\ReadConcern::AVAILABLE`\*\*
 
-| | PECL mongodb 1.2.0
+| | PECL mongodb 1.2.0 |
 
-Додано константу **`MongoDB\Driver\ReadConcern::LINEARIZABLE`**
+Добавлена константа\*\*`MongoDB\Driver\ReadConcern::LINEARIZABLE`\*\*
 
-Реалізує [MongoDBBSONSerializable](class.mongodb-bson-serializable.md)
+Реалізує [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.md)
 
 ## Дивіться також
 
--   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)
+-   [» Довідка за гарантіями читання](https://www.mongodb.com/docs/manual/reference/read-concern/)
 
 ## Зміст
 
--   [MongoDBDriverReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.md) — Повертає об'єкт для серіалізації BSON
--   [MongoDBDriverReadConcern::construct](mongodb-driver-readconcern.construct.md) - Створює новий ReadConcern
--   [MongoDBDriverReadConcern::getLevel](mongodb-driver-readconcern.getlevel.md) - Повертає опцію "level" ReadConcern
--   [MongoDBDriverReadConcern::isDefault](mongodb-driver-readconcern.isdefault.md) — Перевіряє, чи є гарантією прочитання за умовчанням
--   [MongoDBDriverReadConcern::serialize](mongodb-driver-readconcern.serialize.md) - Серіалізація ReadConcern
--   [MongoDBDriverReadConcern::unserialize](mongodb-driver-readconcern.unserialize.md) - Десеріалізація ReadConcern
+-   [MongoDB\\Driver\\ReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.md)— Повертає об'єкт для серіалізації BSON
+-   [MongoDB\\Driver\\ReadConcern::\_\_construct](mongodb-driver-readconcern.construct.md) \- Створює новий ReadConcern
+-   [MongoDB\\Driver\\ReadConcern::getLevel](mongodb-driver-readconcern.getlevel.md) - Повертає опцію "level" ReadConcern
+-   [MongoDB\\Driver\\ReadConcern::isDefault](mongodb-driver-readconcern.isdefault.md)— Перевіряє, чи є гарантією прочитання за умовчанням
+-   [MongoDB\\Driver\\ReadConcern::serialize](mongodb-driver-readconcern.serialize.md) \- Серіалізація ReadConcern
+-   [MongoDB\\Driver\\ReadConcern::unserialize](mongodb-driver-readconcern.unserialize.md) \- Десеріалізація ReadConcern

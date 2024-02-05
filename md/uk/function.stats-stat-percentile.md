@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-stat-paired-t.md: « statsstatpairedт
-  - function.stats-stat-powersum.md: statsstatpowersum »
+  - function.stats-stat-paired-t.md: « stats\_stat\_paired\_t
+  - function.stats-stat-powersum.md: stats\_stat\_powersum »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsстатиpercentile
+title: stats\_stat\_percentile
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsстатиpercentile
+# stats\_stat\_percentile
 
 (PECL stats >= 1.0.0)
 
-statsстатиpercentile — Повертає значення процентилю
+stats\_stat\_percentile — Повертає значення процентилю
 
 ### Опис
 
@@ -18,7 +19,7 @@ statsстатиpercentile — Повертає значення проценти
 stats_stat_percentile(array $arr, float $perc): float
 ```
 
-Повертає значення `perc`го відсотка масиву `arr`
+Повертає значення `perc`\-го процентиля массива`arr`
 
 ### Список параметрів
 

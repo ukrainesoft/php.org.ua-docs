@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-shorthash-keygen.md: « sodiumcryptoshorthashkeygen
-  - function.sodium-crypto-sign-detached.md: sodiumcryptosigndetached »
+  - function.sodium-crypto-shorthash-keygen.md: « sodium\_crypto\_shorthash\_keygen
+  - function.sodium-crypto-sign-detached.md: sodium\_crypto\_sign\_detached »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoshorthash
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_shorthash
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoshorthash
+# sodium\_crypto\_shorthash
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoshorthash — Обчислює короткий хеш повідомлення та ключ
+sodium\_crypto\_shorthash — Обчислює короткий хеш повідомлення та ключ
 
 ### Опис
 
@@ -18,7 +19,7 @@ sodiumcryptoshorthash — Обчислює короткий хеш повідо�
 sodium_crypto_shorthash(string $message, string $key): string
 ```
 
-**sodiumcryptoshorthash()** обгортає хеш-функцію під назвою SipHash-2-4, яка ідеально підходить для реалізації хеш-таблиць, які не схильні до атак відмови в обслуговуванні через колізію хешів (Hash-DoS).
+**sodium\_crypto\_shorthash()** обгортає хеш-функцію під назвою SipHash-2-4, яка ідеально підходить для реалізації хеш-таблиць, які не схильні до атак відмови в обслуговуванні через колізію хешів (Hash-DoS).
 
 SipHash-2-4 не є криптографічною хеш-функцією загального призначення.
 

@@ -3,12 +3,13 @@ navigation:
   - class.gdimage.md: « GdImage
   - book.gmagick.md: Gmagick »
   - index.md: PHP Manual
-  - book.image.md: ДД
+  - book.image.md: GD
 title: Клас GdFont
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас GdFont
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -16,16 +17,11 @@ title: Клас GdFont
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class GdFont
-     
+     final
+     class GdFont
      {
    }
 ```

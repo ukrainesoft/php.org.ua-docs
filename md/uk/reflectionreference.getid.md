@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionreference.md: ReflectionReference
 title: 'ReflectionReference::getId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionReference::getId
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 ReflectionReference::getId — Отримати унікальний ідентифікатор посилання
 
@@ -30,7 +31,7 @@ public ReflectionReference::getId(): string
 
 ### Приклади
 
-**Приклад #1 Просте використання **ReflectionReference::getId()****
+**Пример #1 Простое использование**ReflectionReference::getId()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ var_dump($rr1->getId() === $rr3->getId());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)

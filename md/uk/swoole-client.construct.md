@@ -1,26 +1,27 @@
 ---
 navigation:
-  - swoole-client.connect.md: '« SwooleClient::connect'
-  - swoole-client.destruct.md: 'SwooleClient::destruct »'
+  - swoole-client.connect.md: '« Swoole\\Client::connect'
+  - swoole-client.destruct.md: 'Swoole\\Client::\_\_destruct »'
   - index.md: PHP Manual
-  - class.swoole-client.md: SwooleClient
-title: 'SwooleClient::construct'
+  - class.swoole-client.md: Swoole\\Client
+title: 'Swoole\\Client::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleClient::construct
+# Swoole\\Client::\_\_construct
 
 (PECL swoole >= 1.9.0)
 
-SwooleClient::construct — Створює синхронний або асинхронний TCP/UDP клієнт Swoole із підтримкою SSL або без нього
+Swoole\\Client::\_\_construct — Створює синхронний або асинхронний TCP/UDP клієнт Swoole із підтримкою SSL або без нього
 
 ### Опис
 
-public **SwooleClient::construct**(int `$sock_type`, int `$is_async`
+public**Swoole\\Client::\_\_construct**(int`$sock_type`, int`$is_async`
 
 ### Список параметрів
 
 `sock_type`
 
-Тип сокету: SWOOLETCP, SWOOLEUDP, SWOOLEASYNC, SWOOLESSL, SWOOLEKEEP.
+Тип сокету: SWOOLE\_TCP, SWOOLE\_UDP, SWOOLE\_ASYNC, SWOOLE\_SSL, SWOOLE\_KEEP.
 
 `is_async`
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.radius-put-vendor-string.md: « radiusputvendorstring
-  - function.radius-salt-encrypt-attr.md: radiussaltencryptattr »
+  - function.radius-put-vendor-string.md: « radius\_put\_vendor\_string
+  - function.radius-salt-encrypt-attr.md: radius\_salt\_encrypt\_attr »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiusrequestauthenticator
+  - ref.radius.md: Функції Radius
+title: radius\_request\_authenticator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiusrequestauthenticator
+# radius\_request\_authenticator
 
 (PECL radius >= 1.1.0)
 
-radiusrequestauthenticator — Повертає автентифікатор запиту
+radius\_request\_authenticator — Повертає автентифікатор запиту
 
 ### Опис
 
@@ -28,8 +29,8 @@ radius_request_authenticator(resource $radius_handle): string
 
 ### Значення, що повертаються
 
-Повертає автентифікатор запиту у вигляді рядка або **`false`** у разі виникнення помилки.
+Повертає автентифікатор запиту у вигляді рядка або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [radiusdemangle()](function.radius-demangle.md) - Розшифровує дані
+-   [radius\_demangle()](function.radius-demangle.md) \- Розшифровує дані

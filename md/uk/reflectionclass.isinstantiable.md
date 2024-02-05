@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isInstantiable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::isInstantiable
 
@@ -26,11 +27,11 @@ public ReflectionClass::isInstantiable(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::isInstantiable()****
+**Пример #1 Пример использования**ReflectionClass::isInstantiable()\*\*\*\*
 
 ```php
 <?php
@@ -80,7 +81,7 @@ foreach($classes  as $class ) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Можно ли создать экземпляр класса C?  bool(true)
@@ -94,4 +95,4 @@ foreach($classes  as $class ) {
 
 ### Дивіться також
 
--   [ReflectionClass::isInstance()](reflectionclass.isinstance.md) - Перевіряє, чи належить об'єкт класу
+-   [ReflectionClass::isInstance()](reflectionclass.isinstance.md) \- Перевіряє, чи належить об'єкт класу

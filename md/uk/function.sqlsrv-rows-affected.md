@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-rollback.md: « sqlsrvrollback
-  - function.sqlsrv-send-stream-data.md: sqlsrvsendstreamdata »
+  - function.sqlsrv-rollback.md: « sqlsrv\_rollback
+  - function.sqlsrv-send-stream-data.md: sqlsrv\_send\_stream\_data »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvrowsaffected
+title: sqlsrv\_rows\_affected
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvrowsaffected
+# sqlsrv\_rows\_affected
 
 (No version information available, might only be in Git)
 
-sqlsrvrowsaffected — Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE або DELETE
+sqlsrv\_rows\_affected — Повертає кількість рядків, змінених останнім запитом INSERT, UPDATE або DELETE
 
 ### Опис
 
@@ -18,7 +19,7 @@ sqlsrvrowsaffected — Повертає кількість рядків, змі�
 sqlsrv_rows_affected(resource $stmt): int|false
 ```
 
-Повертає кількість рядків, змінених останнім запитом INSERT, UPDATE або DELETE. Для отримання інформації про кількість рядків, які повертаються запитом SELECT, дивіться [sqlsrvnumrows()](function.sqlsrv-num-rows.md)
+Повертає кількість рядків, змінених останнім запитом INSERT, UPDATE або DELETE. Для отримання інформації про кількість рядків, які повертаються запитом SELECT, дивіться [sqlsrv\_num\_rows()](function.sqlsrv-num-rows.md)
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ sqlsrv_rows_affected(resource $stmt): int|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvrowsaffected()****
+**Пример #1 Пример использования**sqlsrv\_rows\_affected()\*\*\*\*
 
 ```php
 <?php
@@ -62,4 +63,4 @@ if( $rows_affected === false) {
 
 ### Дивіться також
 
--   [sqlsrvnumrows()](function.sqlsrv-num-rows.md) - Отримує кількість рядків у наборі результатів
+-   [sqlsrv\_num\_rows()](function.sqlsrv-num-rows.md) \- Отримує кількість рядків у наборі результатів

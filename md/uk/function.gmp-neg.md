@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-mul.md: « gmpmul
-  - function.gmp-nextprime.md: gmpnextprime »
+  - function.gmp-mul.md: « gmp\_mul
+  - function.gmp-nextprime.md: gmp\_nextprime »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpneg
+title: gmp\_neg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpneg
+# gmp\_neg
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpneg - Зміна знака числа
+gmp\_neg - Зміна знака числа
 
 ### Опис
 
@@ -32,7 +33,7 @@ gmp_neg(GMP|int|string $num): GMP
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpneg()****
+**Пример #1 Пример использования**gmp\_neg()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ echo gmp_strval($neg2) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 -1

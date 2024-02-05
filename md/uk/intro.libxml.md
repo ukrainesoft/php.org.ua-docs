@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.libxml.md: « libxml
-  - libxml.setup.md: Встановлення та налаштування »
+  - libxml.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.libxml.md: libxml
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 

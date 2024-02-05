@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.mqseries-cmit.md: « mqseriescmit
-  - function.mqseries-connx.md: mqseriesconnx »
+  - function.mqseries-cmit.md: « mqseries\_cmit
+  - function.mqseries-connx.md: mqseries\_connx »
   - index.md: PHP Manual
-  - ref.mqseries.md: Функции mqseries
-title: mqseriesconn
+  - ref.mqseries.md: Функції mqseries
+title: mqseries\_conn
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mqseriesconn
+# mqseries\_conn
 
 (PECL mqseries >= 0.10.0)
 
-mqseriesconn - MQSeries MQCONN
+mqseries\_conn — MQSeries MQCONN
 
 ### Опис
 
 ```methodsynopsis
-mqseries_conn(    string $qManagerName,    resource &$hconn,    resource &$compCode,    resource &$reason): void
+mqseries_conn(    string $qManagerName,    resource &$hconn,    resource &$compCode,    resource &$reason): void
 ```
 
-Функція **mqseriesconn()** (MQCONN) відкриває з'єднання з менеджером черг. Вона повертає обробник з'єднання, який використовується всіма іншими функціями модуля.
+Функция**mqseries\_conn()** (MQCONN) відкриває з'єднання з менеджером черг. Вона повертає обробник з'єднання, який використовується всіма іншими функціями модуля.
 
 ### Список параметрів
 
@@ -48,7 +49,7 @@ mqseries_conn(    string $qManagerName,    resource &$hconn,    resource &$compC
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseriesconn()****
+**Пример #1 Пример использования**mqseries\_conn()\*\*\*\*
 
 ```php
 <?php
@@ -62,4 +63,4 @@ mqseries_conn(    string $qManagerName,    resource &$hconn,    resource &$compC
 
 ### Дивіться також
 
--   [mqseriesdisc()](function.mqseries-disc.md) - MQSeries MQDISC
+-   [mqseries\_disc()](function.mqseries-disc.md) \- MQSeries MQDISC

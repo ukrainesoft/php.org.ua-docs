@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.eio-symlink.md: « eiosymlink
-  - function.eio-sync.md: eiosync »
+  - function.eio-symlink.md: « eio\_symlink
+  - function.eio-sync.md: eio\_sync »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiosyncfilerange
+  - ref.eio.md: Eio Функції
+title: eio\_sync\_file\_range
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiosyncfilerange
+# eio\_sync\_file\_range
 
 (PECL eio >= 0.0.1dev)
 
-eiosyncfilerange — Синхронізує сегмент файлу із даними файлу на зовнішньому сховищі
+eio\_sync\_file\_range — Синхронізує сегмент файлу із даними файлу на зовнішньому сховищі
 
 ### Опис
 
 ```methodsynopsis
-eio_sync_file_range(    mixed $fd,    int $offset,    int $nbytes,    int $flags,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_sync_file_range(    mixed $fd,    int $offset,    int $nbytes,    int $flags,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
-**eiosyncfilerange()** здійснює необхідні перевірки та дії при синхронізації відкритого файлу `fd` з дисковою підсистемою.
+**eio\_sync\_file\_range()** здійснює необхідні перевірки та дії при синхронізації відкритого файлу `fd` з дисковою підсистемою.
 
 ### Список параметрів
 
@@ -32,19 +33,19 @@ eio_sync_file_range(    mixed $fd,    int $offset,    int $nbytes,    int $flags
 
 `nbytes`
 
-Задає довжину сегмента файлу в байтах, яку потрібно синхронізувати. Якщо `nbytes` і нулю, будуть синхронізовані всі дані від `offset` до кінця файлу.
+Задає довжину сегмента файлу в байтах, яку потрібно синхронізувати. Якщо `nbytes` і нулю, будуть синхронізовані всі дані від `offset`до конца файла.
 
 `flags`
 
-Бітова маска. Може включати комбінацію з наступних значень: **`EIO_SYNC_FILE_RANGE_WAIT_BEFORE`** **`EIO_SYNC_FILE_RANGE_WRITE`** **`EIO_SYNC_FILE_RANGE_WAIT_AFTER`**. Ці прапори мають те саме призначення, що й аналогічні *SYNCFILERANGE* константи (дивіться сторінку керівництва `SYNC_FILE_RANGE(2)`
+Бітова маска. Може включати комбінацію з наступних значень: **`EIO_SYNC_FILE_RANGE_WAIT_BEFORE`** **`EIO_SYNC_FILE_RANGE_WRITE`** **`EIO_SYNC_FILE_RANGE_WAIT_AFTER`**. Ці прапори мають те саме призначення, що й аналогічні *SYNC\_FILE\_RANGE\_\** константи (дивіться сторінку керівництва `SYNC_FILE_RANGE(2)`
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -60,7 +61,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
@@ -68,4 +69,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-**eiosyncfilerange()** повертає ресурс запиту у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_sync\_file\_range()** повертає ресурс запиту у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

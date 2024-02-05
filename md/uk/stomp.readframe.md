@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.stomp.md: Stomp
 title: 'Stomp::readFrame'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Stomp::readFrame
 
-# stompreadframe
+# stomp\_read\_frame
 
 (PECL stomp >= 0.1.0)
 
-Stomp::readFrame -- stompreadframe — Виконує операцію читання наступного кадру
+Stomp::readFrame -- stomp\_read\_frame — Виконує операцію читання наступного кадру
 
 ### Опис
 
@@ -34,7 +35,7 @@ stomp_read_frame(resource $link): array
 
 `link`
 
-Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stompconnect()](stomp.construct.md)
+Тільки для процедурного стилю: ідентифікатор з'єднання stomp, отриманий з [stomp\_connect()](stomp.construct.md)
 
 `class_name`
 
@@ -42,15 +43,15 @@ stomp_read_frame(resource $link): array
 
 ### Значення, що повертаються
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Також може бути зазначений заголовок транзакції, що означає, що прийом повідомлення повинен бути частиною іменованої транзакції.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| Stomp 0.4.0 | Доданий параметр `class_name` |
+| Stomp 0.4.0 | Добавлен параметр`class_name` |
 
 ### Приклади
 
@@ -78,7 +79,7 @@ unset($stomp);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(StompFrame)#2 (3) {
@@ -127,7 +128,7 @@ stomp_close($link);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(3) {

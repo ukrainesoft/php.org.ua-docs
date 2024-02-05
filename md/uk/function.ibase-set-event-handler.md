@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-service-detach.md: « ibaseservicedetach
-  - function.ibase-trans.md: ibasetrans »
+  - function.ibase-service-detach.md: « ibase\_service\_detach
+  - function.ibase-trans.md: ibase\_trans »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseseteventhandler
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_set\_event\_handler
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseseteventhandler
+# ibase\_set\_event\_handler
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseseteventhandler — Реєструє callback-функцію, яка буде викликатись при публікації подій
+ibase\_set\_event\_handler — Реєструє callback-функцію, яка буде викликатись при публікації подій
 
 ### Опис
 
@@ -19,7 +20,7 @@ ibase_set_event_handler(callable $event_handler, string $event_name, string ...$
 ```
 
 ```methodsynopsis
-ibase_set_event_handler(    resource $connection,    callable $event_handler,    string $event_name,    string ...$event_names): resource
+ibase_set_event_handler(    resource $connection,    callable $event_handler,    string $event_name,    string ...$event_names): resource
 ```
 
 Функція реєструє функцію PHP в якості обробника подій для зазначених подій.
@@ -42,11 +43,11 @@ Callback-функція має повертати **`false`**, якщо обро
 
 ### Значення, що повертаються
 
-Значення, що повертається, є ресурсом події. Цей ресурс можна використовувати для звільнення обробника подій за допомогою [ibasefreeeventhandler()](function.ibase-free-event-handler.md)
+Значення, що повертається, є ресурсом події. Цей ресурс можна використовувати для звільнення обробника подій за допомогою [ibase\_free\_event\_handler()](function.ibase-free-event-handler.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibaseseteventhandler()****
+**Пример #1 Пример использования**ibase\_set\_event\_handler()\*\*\*\*
 
 ```php
 <?php
@@ -68,5 +69,5 @@ ibase_set_event_handler($link, "event_handler", "NEW_ORDER", "DB_SHUTDOWN");
 
 ### Дивіться також
 
--   [ibasefreeeventhandler()](function.ibase-free-event-handler.md) - скасовує зареєстрований обробник події
--   [ibasewaitevent()](function.ibase-wait-event.md) - Чекаємо, поки подія буде опублікована в базі даних
+-   [ibase\_free\_event\_handler()](function.ibase-free-event-handler.md) \- скасовує зареєстрований обробник події
+-   [ibase\_wait\_event()](function.ibase-wait-event.md) \- Чекаємо, поки подія буде опублікована в базі даних

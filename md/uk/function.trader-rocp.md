@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-roc.md: « traderroc
-  - function.trader-rocr100.md: traderrocr100 »
+  - function.trader-roc.md: « trader\_roc
+  - function.trader-rocr100.md: trader\_rocr100 »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderrocp
+  - ref.trader.md: Функції Trader
+title: trader\_rocp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderrocp
+# trader\_rocp
 
 (PECL trader >= 0.2.0)
 
-traderrocp — Коефіцієнт зміни у відсотках: (ціна-попередня ціна)/попередня ціна
+trader\_rocp — Коефіцієнт зміни у відсотках: (ціна-попередня ціна)/попередня ціна
 
 ### Опис
 

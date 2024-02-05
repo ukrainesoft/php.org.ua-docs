@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::useDaylightTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlTimeZone::useDaylightTime
 
-# intltzusedaylighttime
+# intltz\_use\_daylight\_time
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::useDaylightTime -- intltzusedaylighttime — Перевірити, чи використовується час цього поясу влітку.
+IntlTimeZone::useDaylightTime -- intltz\_use\_daylight\_time — Перевірити, чи використовується час цього поясу влітку.
 
 ### Опис
 
@@ -30,7 +31,7 @@ intltz_use_daylight_time(IntlTimeZone $timezone): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

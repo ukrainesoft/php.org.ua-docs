@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-status.md: « svnstatus
+  - function.svn-status.md: « svn\_status
   - book.tcpwrap.md: TCP »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnupdate
+title: svn\_update
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnupdate
+# svn\_update
 
-(PECL svn> = 0.1.0)
+(PECL svn >= 0.1.0)
 
-svnupdate — Оновлює робочу копію
+svn\_update — Оновлює робочу копію
 
 ### Опис
 
@@ -18,7 +19,7 @@ svnupdate — Оновлює робочу копію
 svn_update(string $path, int $revno = SVN_REVISION_HEAD, bool $recurse = true): int
 ```
 
-Оновлює робочу копію, розташовану в `path` до ревізії `revno`. Якщо параметр `recurse` встановлений в **`true`**, директорії буде оновлено рекурсивно.
+Оновлює робочу копію, розташовану в `path`до ревизии`revno`. Якщо параметр `recurse`установлен в\*\*`true`\*\*, директорії буде оновлено рекурсивно.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ svn_update(string $path, int $revno = SVN_REVISION_HEAD, bool $recurse = true): 
 
 Шлях до локальної робочої копії.
 
-> **Зауваження**: Відносні шляхи будуть обчислені, якби поточна робоча директорія була домашньою папкою самого PHP Щоб використовувати робочу директорію скрипта, що викликає, використовуйте [realpath()](function.realpath.md) або dirname(FILE
+> **Зауваження**: Відносні шляхи будуть обчислені, якби поточна робоча директорія була домашньою папкою самого PHP Щоб використовувати робочу директорію скрипта, що викликає, використовуйте [realpath()](function.realpath.md)или dirname(\_\_FILE\_\_
 
 `revno`
 
-Номер ревізії для оновлення, за замовчуванням **`SVN_REVISION_HEAD`**
+Номер ревизии для обновления, по умолчанию\*\*`SVN_REVISION_HEAD`\*\*
 
 `recurse`
 
@@ -38,7 +39,7 @@ svn_update(string $path, int $revno = SVN_REVISION_HEAD, bool $recurse = true): 
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає новий номер ревізії або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає новий номер ревізії або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -52,7 +53,7 @@ echo svn_update(realpath('working-copy'));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 234
@@ -66,6 +67,6 @@ echo svn_update(realpath('working-copy'));
 
 ### Дивіться також
 
--   [svncheckout()](function.svn-checkout.md) - Отримує робочу копію з репозиторію
--   [svncommit()](function.svn-commit.md) - Відправляє зміни з робочої директорії до репозиторію
--   [» SVN-документация по svn update](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.update.md)
+-   [svn\_checkout()](function.svn-checkout.md) \- Отримує робочу копію з репозиторію
+-   [svn\_commit()](function.svn-commit.md) \- Відправляє зміни з робочої директорії до репозиторію
+-   [» SVN-документація по svn update](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.update.md)

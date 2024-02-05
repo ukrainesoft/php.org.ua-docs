@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isInstance'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::isInstance
 
@@ -28,11 +29,11 @@ public ReflectionClass::isInstance(object $object): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::isInstance()** та його аналогів**
+**Пример #1 Пример использования**ReflectionClass::isInstance()\*\* та його аналогів\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ if (is_a($arg, 'Foo')) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Yes
@@ -65,7 +66,7 @@ Yes
 
 ### Дивіться також
 
--   [ReflectionClass::isInterface()](reflectionclass.isinterface.md) - Перевіряє, чи є клас інтерфейсом
+-   [ReflectionClass::isInterface()](reflectionclass.isinterface.md) \- Перевіряє, чи є клас інтерфейсом
 -   [Оператори перевірки типу (instanceof)](language.operators.type.md)
 -   [Інтерфейси об'єктів](language.oop5.interfaces.md)
--   [ісa()](function.is-a.md) - Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
+-   [is\_a()](function.is-a.md) \- Перевіряє, чи об'єкт належить до типу або підтипу

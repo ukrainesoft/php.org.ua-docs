@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getFilename'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::getFilename
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getFilename — Отримує ім'я файлу
 
@@ -30,7 +31,7 @@ public SplFileInfo::getFilename(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::getFilename()****
+**Пример #1 Пример использования**SplFileInfo::getFilename()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($info->getFilename());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(7) "foo.txt"
@@ -59,4 +60,4 @@ string(7) "svn.php"
 
 ### Дивіться також
 
--   [SplFileInfo::getBasename()](splfileinfo.getbasename.md) - Отримує базове ім'я файлу
+-   [SplFileInfo::getBasename()](splfileinfo.getbasename.md) \- Отримує базове ім'я файлу

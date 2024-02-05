@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.rrd-fetch.md: « rrdfetch
-  - function.rrd-graph.md: rrdgraph »
+  - function.rrd-fetch.md: « rrd\_fetch
+  - function.rrd-graph.md: rrd\_graph »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
-title: rrdfirst
+title: rrd\_first
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# rrdfirst
+# rrd\_first
 
 (PECL rrd >= 0.9.0)
 
-rrdfirst — Повертає позначку першого зразка з файлу rrd
+rrd\_first — Повертає позначку першого зразка з файлу rrd
 
 ### Опис
 
@@ -32,4 +33,4 @@ rrd_first(string $file, int $raaindex = 0): int
 
 ### Значення, що повертаються
 
-Номер позначки часу unix у вигляді цілого чи числа **`false`** у разі виникнення помилки.
+Номер позначки часу unix у вигляді цілого чи числа \*\*`false`\*\*в случае возникновения ошибки.

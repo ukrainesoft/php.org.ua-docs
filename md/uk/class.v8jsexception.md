@@ -4,9 +4,10 @@ navigation:
   - v8jsexception.getjsfilename.md: 'V8JsException::getJsFileName »'
   - index.md: PHP Manual
   - book.v8js.md: V8js
-title: 'Клас V8JsException'
+title: 'Класс[V8JsException](class.v8jsexception.md)'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас [V8JsException](class.v8jsexception.md)
+# Класс[V8JsException](class.v8jsexception.md)
 
 (PECL v8js >= 0.1.0)
 
@@ -46,26 +47,26 @@ title: 'Клас V8JsException'
 
     /* Наследуемые свойства */
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Методы */
@@ -103,7 +104,7 @@ JsTrace
 
 ## Зміст
 
--   [V8JsException::getJsFileName](v8jsexception.getjsfilename.md) — Отримати ім'я JavaScript
--   [V8JsException::getJsLineNumber](v8jsexception.getjslinenumber.md) — Отримати номер рядка
--   [V8JsException::getJsSourceLine](v8jsexception.getjssourceline.md) — Отримати вихідний рядок JavaScript
--   [V8JsException::getJsTrace](v8jsexception.getjstrace.md) — Отримати стек викликів
+-   [V8JsException::getJsFileName](v8jsexception.getjsfilename.md)— Отримати ім'я JavaScript
+-   [V8JsException::getJsLineNumber](v8jsexception.getjslinenumber.md)— Отримати номер рядка
+-   [V8JsException::getJsSourceLine](v8jsexception.getjssourceline.md)— Отримати вихідний рядок JavaScript
+-   [V8JsException::getJsTrace](v8jsexception.getjstrace.md)— Отримати стек викликів

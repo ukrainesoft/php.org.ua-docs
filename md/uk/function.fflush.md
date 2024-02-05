@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: fflush
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # fflush
 
-(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 fflush — Скидає буфер виводу у файл
 
@@ -28,11 +29,11 @@ fflush(resource $stream): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад запису файлу за допомогою **fflush()****
+**Пример #1 Пример записи файла с помощью**fflush()\*\*\*\*
 
 ```php
 <?php
@@ -49,5 +50,5 @@ fclose($file);
 
 ### Дивіться також
 
--   [clearstatcache()](function.clearstatcache.md) - Очищує кеш стану файлів
--   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл
+-   [clearstatcache()](function.clearstatcache.md) \- Очищає кеш стану файлів
+-   [fwrite()](function.fwrite.md) \- Бінарно-безпечний запис у файл

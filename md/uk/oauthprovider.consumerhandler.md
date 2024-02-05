@@ -1,10 +1,11 @@
 ---
 navigation:
-  - oauthprovider.construct.md: '« OAuthProvider::construct'
+  - oauthprovider.construct.md: '« OAuthProvider::\_\_construct'
   - oauthprovider.generatetoken.md: 'OAuthProvider::generateToken »'
   - index.md: PHP Manual
   - class.oauthprovider.md: OAuthProvider
 title: 'OAuthProvider::consumerHandler'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuthProvider::consumerHandler
 
@@ -22,13 +23,13 @@ public OAuthProvider::consumerHandler(callable $callback_function): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `callback_function`
 
-Функція типу [callable](language.types.callable.md)
+Функция типа[callable](language.types.callable.md)
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public OAuthProvider::consumerHandler(callable $callback_function): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **OAuthProvider::consumerHandler()****
+**Пример #1 Пример использования**OAuthProvider::consumerHandler()\*\*\*\*
 
 ```php
 <?php
@@ -57,4 +58,4 @@ function lookupConsumer($provider) {
 
 ### Дивіться також
 
--   [OAuthProvider::callConsumerHandler()](oauthprovider.callconsumerhandler.md) - Викликати callback-функцію consumerNonceHandler
+-   [OAuthProvider::callConsumerHandler()](oauthprovider.callconsumerhandler.md) \- Викликати callback-функцію consumerNonceHandler

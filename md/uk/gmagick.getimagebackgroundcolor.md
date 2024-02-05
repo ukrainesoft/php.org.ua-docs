@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::getimagebackgroundcolor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::getimagebackgroundcolor
 
@@ -18,7 +19,7 @@ Gmagick::getimagebackgroundcolor — Повертає колір тла зобр
 public Gmagick::getimagebackgroundcolor(): GmagickPixel
 ```
 
-Повертає колір тла зображення.
+Повертає колір зображення фону.
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ public Gmagick::getimagebackgroundcolor(): GmagickPixel
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

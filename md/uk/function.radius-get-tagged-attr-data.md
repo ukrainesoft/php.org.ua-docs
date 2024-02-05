@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.radius-get-attr.md: « radiusgetattr
-  - function.radius-get-tagged-attr-tag.md: radiusgettaggedattrtag »
+  - function.radius-get-attr.md: « radius\_get\_attr
+  - function.radius-get-tagged-attr-tag.md: radius\_get\_tagged\_attr\_tag »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiusgettaggedattrdata
+  - ref.radius.md: Функції Radius
+title: radius\_get\_tagged\_attr\_data
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiusgettaggedattrdata
+# radius\_get\_tagged\_attr\_data
 
 (PECL radius >= 1.3.0)
 
-radiusgettaggedattrdata — Витягує дані із зазначеного атрибуту
+radius\_get\_tagged\_attr\_data — Витягує дані із зазначеного атрибуту
 
 ### Опис
 
@@ -18,7 +19,7 @@ radiusgettaggedattrdata — Витягує дані із зазначеного 
 radius_get_tagged_attr_data(string $data): string|false
 ```
 
-Якщо з [radiusgetattr()](function.radius-get-attr.md) був повернутий тегований атрибут, **radiusgettaggedattrdata()** поверне тег із атрибуту.
+Если из[radius\_get\_attr()](function.radius-get-attr.md) був повернутий тегований атрибут, **radius\_get\_tagged\_attr\_data()** поверне тег із атрибуту.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ radius_get_tagged_attr_data(string $data): string|false
 
 ### Значення, що повертаються
 
-Повертає дані з тегованого атрибуту або **`false`** у разі виникнення помилки.
+Повертає дані з тегованого атрибуту або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radiusgettaggedattrdata()****
+**Пример #1 Пример использования**radius\_get\_tagged\_attr\_data()\*\*\*\*
 
 ```php
 <?php
@@ -55,5 +56,5 @@ while ($resa = radius_get_attr($res)) {
 
 ### Дивіться також
 
--   [radiusgetattr()](function.radius-get-attr.md) - Витягує атрибут
--   [radiusgettaggedattrtag()](function.radius-get-tagged-attr-tag.md) - Витягує тег із позначеного атрибуту
+-   [radius\_get\_attr()](function.radius-get-attr.md) \- Витягує атрибут
+-   [radius\_get\_tagged\_attr\_tag()](function.radius-get-tagged-attr-tag.md) \- Витягує тег із позначеного атрибуту

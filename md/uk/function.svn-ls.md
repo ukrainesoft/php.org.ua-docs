@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.svn-log.md: « svnlog
-  - function.svn-mkdir.md: svnmkdir »
+  - function.svn-log.md: « svn\_log
+  - function.svn-mkdir.md: svn\_mkdir »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnлс
+title: svn\_ls
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnлс
+# svn\_ls
 
 (PECL svn >= 0.1.0)
 
-svnls — Повертає список вмісту директорії репозиторію URL, опційно для конкретної ревізії
+svn\_ls — Повертає список вмісту директорії репозиторію URL, опційно для конкретної ревізії
 
 ### Опис
 
 ```methodsynopsis
-svn_ls(    string $repos_url,    int $revision_no = SVN_REVISION_HEAD,    bool $recurse = false,    bool $peg = false): array
+svn_ls(    string $repos_url,    int $revision_no = SVN_REVISION_HEAD,    bool $recurse = false,    bool $peg = false): array
 ```
 
 Ця функція будує запит на URL адресою репозиторію та отримує список файлів і директорій, опціонально для конкретної ревізії. Це еквівалентно команді SVN **`svn list $repos_url[@$revision_no]`**
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція не працює з локальними робочими копіями репозиторію. Параметр `repos_url` *повинен* бути URL-адресою репозиторію.
 
@@ -28,7 +29,7 @@ svn_ls(    string $repos_url,    int $revision_no = SVN_REVISION_HEAD,    bool $
 
 `url`
 
-URL-адреса репозиторію, наприклад **`http://www.example.com/svnroot`**. Для доступу до локального репозиторію Subversion через файлову систему використовуйте файлову URI-схему, наприклад **`file:///home/user/svn-repos`**
+URL-адрес репозитория, например\*\*`http://www.example.com/svnroot`**Для доступа к локальному репозиторию Subversion через файловую систему используйте файловую URI-схему, например**`file:///home/user/svn-repos`\*\*
 
 `revision`
 
@@ -42,11 +43,11 @@ URL-адреса репозиторію, наприклад **`http://www.exampl
 
 У разі успішного виконання ця функція повертає масив імен файлів/директорій у форматі:
 
-\=> Array ( createdrev => Номер останньої ревізії файлу/папки lastauthor => Ім'я автора останньої редагування size => Розмір файлу в байтах time => Дата останньої зміни у форматі 'M d H:i' або 'M d Y', залежно від того, скільки пройшло часу з останньої редагування. timeт => позначка часу unix про останню зміну (ціле число) name => ім'я файлу/директорії type => тип, може приймати значення 'file' (файл) або 'dir' (директорія) ) => ...
+\[ \] => Array ( \[created\_rev\] => Номер останньої ревізії файлу/папки \[last\_author\] => Ім'я автора останньої редагування \[size\] => Розмір файлу в байтах \[time\] => Дата останньої зміни у форматі 'M d H:i' або 'M d Y', залежно від того, скільки пройшло часу з останньої редагування. \[time\_t\] => позначка часу unix про останню зміну (ціле число) \[name\] => ім'я файлу/директорії \[type\] => тип, може приймати значення 'file' (файл) або 'dir' (директорія) )\[ \] => ...
 
 ### Приклади
 
-**Приклад #1 Приклад використання **svnls()****
+**Пример #1 Пример использования**svn\_ls()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ print_r( svn_ls('http://www.example.com/svnroot/') );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -90,4 +91,4 @@ Array
 
 ### Дивіться також
 
--   [» SVN-документация по svn list](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.list.md)
+-   [» SVN-документація з svn list](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.list.md)

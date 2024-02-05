@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-size.md: « ftpsize
-  - function.ftp-systype.md: ftpsystype »
+  - function.ftp-size.md: « ftp\_size
+  - function.ftp-systype.md: ftp\_systype »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpsslconnect
+title: ftp\_ssl\_connect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpsslconnect
+# ftp\_ssl\_connect
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-ftpsslconnect — Встановлює з'єднання з FTP-сервером через SSL
+ftp\_ssl\_connect — Встановлює з'єднання з FTP-сервером через SSL
 
 ### Опис
 
@@ -18,21 +19,21 @@ ftpsslconnect — Встановлює з'єднання з FTP-сервером
 ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connection|false
 ```
 
-**ftpsslconnect()** встановлює *явне* SSL з'єднання з FTP-сервером, заданим аргументом `hostname`. Це означає, що **ftpsslconnect()** буде успішним навіть якщо сервер не налаштований для SSL-FTP, або його сертифікат недійсний. Тільки коли буде викликана функція [ftplogin()](function.ftp-login.md), клієнт надішле необхідну команду AUTH FTP, так що у зазначених випадках [ftplogin()](function.ftp-login.md) завершиться помилкою.
+\*\*ftp\_ssl\_connect()\**устанавливает*явне\* SSL з'єднання з FTP-сервером, заданим аргументом `hostname`. Це означає, що **ftp\_ssl\_connect()** буде успішним навіть якщо сервер не налаштований для SSL-FTP, або його сертифікат недійсний. Тільки коли буде викликано функцію [ftp\_login()](function.ftp-login.md), клієнт надішле необхідну команду AUTH FTP, так що у зазначених випадках [ftp\_login()](function.ftp-login.md) завершиться помилкою.
 
 > **Зауваження** **Чому ця функція може бути не визначена**
 > 
-> До PHP 7.0.0 **ftpsslconnect()** була доступна тільки якщо PHP був зібраний з підтримкою [OpenSSL](ref.openssl.md); це означає, що у Windows ця функція не була визначена в офіційних збірках PHP. Щоб використовувати цю функцію під Windows, вам доведеться зібрати PHP самостійно, щоб увімкнути підтримку OpenSSL.
+> До PHP 7.0.0**ftp\_ssl\_connect()** була доступна тільки якщо PHP був зібраний з підтримкою [OpenSSL](ref.openssl.md); це означає, що у Windows ця функція не була визначена в офіційних збірках PHP. Щоб використовувати цю функцію під Windows, вам доведеться зібрати PHP самостійно, щоб увімкнути підтримку OpenSSL.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **ftpsslconnect()** не призначена для використання протоколу sFTP. Для використання sFTP із PHP дивіться функцію [ssh2sftp()](function.ssh2-sftp.md)
+> \*\*ftp\_ssl\_connect()\*\*не предназначена для использования по протоколу sFTP. Для использования sFTP из PHP смотрите функцию[ssh2\_sftp()](function.ssh2-sftp.md)
 
 ### Список параметрів
 
 `hostname`
 
-Адреса FTP-сервера. Цей параметр не повинен містити сліші в кінці та префікс `ftp://` на початку.
+Адреса FTP-сервера. Цей параметр не повинен містити сліші в кінці та префікс `ftp://`в начале.
 
 `port`
 
@@ -40,21 +41,21 @@ ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connec
 
 `timeout`
 
-Задає час очікування для всіх операцій із цим з'єднанням. За замовчуванням час очікування встановлюється за 90 секунд. Отримати та встановити значення часу очікування можна також за допомогою функцій [ftpsetoption()](function.ftp-set-option.md) і [ftpgetoption()](function.ftp-get-option.md)
+Задає час очікування для всіх операцій із цим з'єднанням. За замовчуванням час очікування встановлюється за 90 секунд. Отримати та встановити значення часу очікування можна також за допомогою функцій [ftp\_set\_option()](function.ftp-set-option.md) і [ftp\_get\_option()](function.ftp-get-option.md)
 
 ### Значення, що повертаються
 
-Повертає [FTPConnection](class.ftp-connection.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає [FTP\\Connection](class.ftp-connection.md) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Повертає екземпляр [FTPConnection](class.ftp-connection.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Повертає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **ftpsslconnect()****
+**Пример #1 Пример использования функции**ftp\_ssl\_connect()\*\*\*\*
 
 ```php
 <?php
@@ -79,4 +80,4 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftpconnect()](function.ftp-connect.md) - Встановлює з'єднання з FTP-сервером
+-   [ftp\_connect()](function.ftp-connect.md) \- Встановлює з'єднання з FTP-сервером

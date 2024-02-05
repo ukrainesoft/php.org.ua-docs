@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-simple.offsetexists.md: '« YafConfigSimple::offsetExists'
-  - yaf-config-simple.offsetset.md: 'YafConfigSimple::offsetSet »'
+  - yaf-config-simple.offsetexists.md: '« Yaf\_Config\_Simple::offsetExists'
+  - yaf-config-simple.offsetset.md: 'Yaf\_Config\_Simple::offsetSet »'
   - index.md: PHP Manual
-  - class.yaf-config-simple.md: YafConfigSimple
-title: 'YafConfigSimple::offsetGet'
+  - class.yaf-config-simple.md: Yaf\_Config\_Simple
+title: 'Yaf\_Config\_Simple::offsetGet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigSimple::offsetGet
+# Yaf\_Config\_Simple::offsetGet
 
 (Yaf >=1.0.0)
 
-YafConfigSimple::offsetGet — Призначення offsetGet
+Yaf\_Config\_Simple::offsetGet — Призначення offsetGet
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Simple::offsetGet(string $name): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

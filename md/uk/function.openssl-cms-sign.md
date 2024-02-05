@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.openssl-cms-read.md: « opensslcmsread
-  - function.openssl-cms-verify.md: opensslcmsverify »
+  - function.openssl-cms-read.md: « openssl\_cms\_read
+  - function.openssl-cms-verify.md: openssl\_cms\_verify »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslcmssign
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_cms\_sign
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslcmssign
+# openssl\_cms\_sign
 
 (PHP 8)
 
-opensslcmssign — Підписує файл
+openssl\_cms\_sign — Підписує файл
 
 ### Опис
 
 ```methodsynopsis
-openssl_cms_sign(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    ?array $headers,    int $flags = 0,    int $encoding = OPENSSL_ENCODING_SMIME,    ?string $untrusted_certificates_filename = null): bool
+openssl_cms_sign(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    ?array $headers,    int $flags = 0,    int $encoding = OPENSSL_ENCODING_SMIME,    ?string $untrusted_certificates_filename = null): bool
 ```
 
 Підписує файл сертифікатом X.509 та ключем.
@@ -32,11 +33,11 @@ openssl_cms_sign(    string $input_filename,    string $output_filename,    Open
 
 `certificate`
 
-Сертифікат підпису. Дивіться [параметри ключа/сертифіката](openssl.certparams.md) для отримання списку припустимих значень.
+Сертификат подписи. Смотрите[параметри ключа/сертифіката](openssl.certparams.md) для отримання списку припустимих значень.
 
 `private_key`
 
-Ключ, пов'язаний з `certificate`. Дивіться [параметри ключа/сертифіката](openssl.certparams.md) для отримання списку припустимих значень.
+Ключ, пов'язаний з `certificate`Смотрите[параметри ключа/сертифіката](openssl.certparams.md) для отримання списку припустимих значень.
 
 `headers`
 
@@ -44,11 +45,11 @@ openssl_cms_sign(    string $input_filename,    string $output_filename,    Open
 
 `flags`
 
-Прапори, що передаються **cmssign()**
+Прапори, що передаються **cms\_sign()**
 
 `encoding`
 
-Кодування вихідного файлу . **`OPENSSL_ENCODING_SMIME`** **`OPENSSL_ENCODING_DER`** або **`OPENSSL_ENCODING_PEM`**
+Кодування вихідного файлу . **`OPENSSL_ENCODING_SMIME`** **`OPENSSL_ENCODING_DER`**или**`OPENSSL_ENCODING_PEM`**
 
 `untrusted_certificates_filename`
 
@@ -56,11 +57,11 @@ openssl_cms_sign(    string $input_filename,    string $output_filename,    Open
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslcmssign()****
+**Пример #1 Пример использования**openssl\_cms\_sign()\*\*\*\*
 
 ```php
 <?php

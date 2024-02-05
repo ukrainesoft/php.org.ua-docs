@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'SolrDisMaxQuery::removePhraseField'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDisMaxQuery::removePhraseField
 
@@ -32,7 +33,7 @@ public SolrDisMaxQuery::removePhraseField(string $field): SolrDisMaxQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::removePhraseField()****
+**Пример #1 Пример использования**SolrDisMaxQuery::removePhraseField()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ echo $dismaxQuery->removePhraseField('second');
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 q=lucene&defType=edismax&pf=first~1^3 second~1^4 cat^55
@@ -55,5 +56,5 @@ q=lucene&defType=edismax&pf=first~1^3 cat^55
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::addPhraseField()](solrdismaxquery.addphrasefield.md) - Додає поле фрази (параметр pf)
--   [SolrDisMaxQuery::setPhraseFields()](solrdismaxquery.setphrasefields.md) - Встановлює поля фрази та їх посилення (і відхилення) за допомогою параметра pf2
+-   [SolrDisMaxQuery::addPhraseField()](solrdismaxquery.addphrasefield.md) \- Додає поле фрази (параметр pf)
+-   [SolrDisMaxQuery::setPhraseFields()](solrdismaxquery.setphrasefields.md) \- Встановлює поля фрази та їх посилення (і відхилення) за допомогою параметра pf2

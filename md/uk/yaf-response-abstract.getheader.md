@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-response-abstract.getbody.md: '« YafResponseAbstract::getBody'
-  - yaf-response-abstract.prependbody.md: 'YafResponseAbstract::prependBody »'
+  - yaf-response-abstract.getbody.md: '« Yaf\_Response\_Abstract::getBody'
+  - yaf-response-abstract.prependbody.md: 'Yaf\_Response\_Abstract::prependBody »'
   - index.md: PHP Manual
-  - class.yaf-response-abstract.md: YafResponseAbstract
-title: 'YafResponseAbstract::getHeader'
+  - class.yaf-response-abstract.md: Yaf\_Response\_Abstract
+title: 'Yaf\_Response\_Abstract::getHeader'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafResponseAbstract::getHeader
+# Yaf\_Response\_Abstract::getHeader
 
 (Yaf >=1.0.0)
 
-YafResponseAbstract::getHeader — Призначення getHeader
+Yaf\_Response\_Abstract::getHeader — Призначення getHeader
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Response_Abstract::getHeader(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,5 +31,5 @@ public Yaf_Response_Abstract::getHeader(): void
 
 ### Дивіться також
 
--   [YafResponseAbstract::setHeader()](yaf-response-abstract.setheader.md) - Встановлює заголовок відповіді
--   **YafResponseAbstract::cleanHeaders()**
+-   [Yaf\_Response\_Abstract::setHeader()](yaf-response-abstract.setheader.md) \- Встановлює заголовок відповіді
+-   **Yaf\_Response\_Abstract::cleanHeaders()**

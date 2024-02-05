@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getProperties'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getProperties
 
@@ -32,9 +33,9 @@ public ReflectionClass::getProperties(?int $filter = null): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `filter` тепер допускає значення null. |
+| 7.2.0 | `filter` тепер допускає значення null. |
 
 ### Приклади
 
@@ -64,7 +65,7 @@ var_dump($props);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 foo
@@ -89,6 +90,6 @@ array(2) {
 
 ### Дивіться також
 
--   [ReflectionClass::getProperty()](reflectionclass.getproperty.md) - Повертає екземпляр ReflectionProperty для якості класу
+-   [ReflectionClass::getProperty()](reflectionclass.getproperty.md) \- Повертає екземпляр ReflectionProperty для якості класу
 -   [ReflectionProperty](class.reflectionproperty.md)
 -   [константи ReflectionProperty](class.reflectionproperty.md#reflectionproperty.constants.modifiers)

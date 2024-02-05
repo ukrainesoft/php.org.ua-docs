@@ -1,14 +1,15 @@
 ---
 navigation:
-  - domdocument.normalizedocument.md: '« DOMDocument::normalizeDocument'
+  - domdocument.prepend.md: '« DOMDocument::prepend'
   - domdocument.relaxngvalidate.md: 'DOMDocument::relaxNGValidate »'
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::registerNodeClass'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::registerNodeClass
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 DOMDocument::registerNodeClass — Реєстрація розширеного класу, який використовується для створення типу базового вузла
 
@@ -22,11 +23,15 @@ public DOMDocument::registerNodeClass(string $baseClass, ?string $extendedClass)
 
 Цей метод не є частиною стандарту DOM.
 
+**Застереження**
+
+Конструктор об'єктів зареєстрованих класів вузлів не викликається.
+
 ### Список параметрів
 
 `baseClass`
 
-Клас DOM, який ви бажаєте розширити. Список таких класів можна побачити у [введении](book.dom.md)
+Клас DOM, який ви бажаєте розширити. Список таких класів можна побачити у [у веденні](book.dom.md)
 
 `extendedClass`
 
@@ -34,7 +39,7 @@ public DOMDocument::registerNodeClass(string $baseClass, ?string $extendedClass)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -69,7 +74,7 @@ echo $doc->saveXML();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0"?>
@@ -98,7 +103,7 @@ echo $element;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(9) "myElement"
@@ -147,7 +152,7 @@ var_dump(get_class($child->ownerDocument));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(13) "MyDOMDocument"
@@ -182,7 +187,7 @@ echo $doc->childNodes[0]->myProp, PHP_EOL;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 изменённое значение

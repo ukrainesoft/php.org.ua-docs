@@ -1,14 +1,15 @@
 ---
 navigation:
   - class.filteriterator.md: « FilterIterator
-  - filteriterator.construct.md: 'FilterIterator::construct »'
+  - filteriterator.construct.md: 'FilterIterator::\_\_construct »'
   - index.md: PHP Manual
   - class.filteriterator.md: FilterIterator
 title: 'FilterIterator::accept'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FilterIterator::accept
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 FilterIterator::accept — Перевіряє, чи поточний елемент ітератора є допустимим.
 
@@ -30,7 +31,7 @@ public FilterIterator::accept(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **FilterIterator::accept()****
+**Пример #1 Пример использования**FilterIterator::accept()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ foreach ($lengthFilter as $value) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 больше 10 символов

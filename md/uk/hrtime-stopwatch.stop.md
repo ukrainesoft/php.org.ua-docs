@@ -1,16 +1,17 @@
 ---
 navigation:
-  - hrtime-stopwatch.start.md: '« HRTimeStopWatch::start'
-  - class.hrtime-unit.md: HRTimeUnit »
+  - hrtime-stopwatch.start.md: '« HRTime\\StopWatch::start'
+  - class.hrtime-unit.md: HRTime\\Unit »
   - index.md: PHP Manual
-  - class.hrtime-stopwatch.md: HRTimeStopWatch
-title: 'HRTimeStopWatch::stop'
+  - class.hrtime-stopwatch.md: HRTime\\StopWatch
+title: 'HRTime\\StopWatch::stop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# HRTimeStopWatch::stop
+# HRTime\\StopWatch::stop
 
 (PECL hrtime >= 0.4.3)
 
-HRTimeStopWatch::stop — Зупинити вимір
+HRTime\\StopWatch::stop — Зупинити вимір
 
 ### Опис
 

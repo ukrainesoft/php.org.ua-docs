@@ -1,10 +1,11 @@
 ---
 navigation:
   - ziparchive.extractto.md: '« ZipArchive::extractTo'
-  - ziparchive.getcommentindex.md: 'ZipArchive::getCommentIndex »'
+  - ziparchive.getarchiveflag.md: 'ZipArchive::getArchiveFlag »'
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getArchiveComment'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::getArchiveComment
 
@@ -24,11 +25,11 @@ public ZipArchive::getArchiveComment(int $flags = 0): string|false
 
 `flags`
 
-Якщо прапор встановлений у **`ZipArchive::FL_UNCHANGED`**, повертається оригінальний незмінений коментар
+Если флаг установлен в\*\*`ZipArchive::FL_UNCHANGED`\*\*, повертається оригінальний незмінений коментар
 
 ### Значення, що повертаються
 
-Повертає коментар ZIP-архіву або **`false`** у разі виникнення помилки.
+Повертає коментар ZIP-архіву або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

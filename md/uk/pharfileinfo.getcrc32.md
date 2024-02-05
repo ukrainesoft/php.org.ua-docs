@@ -1,10 +1,11 @@
 ---
 navigation:
-  - pharfileinfo.destruct.md: '« PharFileInfo::destruct'
+  - pharfileinfo.destruct.md: '« PharFileInfo::\_\_destruct'
   - pharfileinfo.getcompressedsize.md: 'PharFileInfo::getCompressedSize »'
   - index.md: PHP Manual
   - class.pharfileinfo.md: PharFileInfo
 title: 'PharFileInfo::getCRC32'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharFileInfo::getCRC32
 
@@ -18,7 +19,7 @@ PharFileInfo::getCRC32 — Отримати контрольну суму CRC32
 public PharFileInfo::getCRC32(): int
 ```
 
-Повертає контрольну суму [crc32()](function.crc32.md) для файлу у Phar-архіві.
+Повертає контрольну суму [crc32()](function.crc32.md)для файла в Phar-архиве.
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ public PharFileInfo::getCRC32(): int
 
 ### Значення, що повертаються
 
-Контрольна сума [crc32()](function.crc32.md) для файлу у Phar-архіві.
+Контрольна сума [crc32()](function.crc32.md)для файла в Phar-архиве.
 
 ### Помилки
 
@@ -34,7 +35,7 @@ public PharFileInfo::getCRC32(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharFileInfo::getCRC32()****
+**Пример #1 Пример использования**PharFileInfo::getCRC32()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ try {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 3633523372

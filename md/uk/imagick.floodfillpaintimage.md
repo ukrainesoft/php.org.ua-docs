@@ -5,17 +5,18 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::floodFillPaintImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::floodFillPaintImage
 
-(PECL imagick 2> = 2.3.0, PECL imagick 3)
+(PECL imagick 2 >= 2.3.0, PECL imagick 3)
 
 Imagick::floodFillPaintImage — Змінює значення кольору будь-якого пікселя, що відповідає цільовому
 
 ### Опис
 
 ```methodsynopsis
-public Imagick::floodFillPaintImage(    mixed $fill,    float $fuzz,    mixed $target,    int $x,    int $y,    bool $invert,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::floodFillPaintImage(    mixed $fill,    float $fuzz,    mixed $target,    int $x,    int $y,    bool $invert,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Змінює значення кольору будь-якого пікселя, що відповідає цільовому та є найближчим сусідом. Даний метод – заміна застарілому [Imagick::paintFloodFillImage()](imagick.paintfloodfillimage.md). Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.8 або старшим.
@@ -44,11 +45,11 @@ public Imagick::floodFillPaintImage(    mixed $fill,    float $fuzz,    mixed $t
 
 `invert`
 
-Якщо значення дорівнює **`true`**, зафарбовує будь-який піксель, що не відповідає цільовому кольору.
+Если значение равно\*\*`true`\*\*, зафарбовує будь-який піксель, що не відповідає цільовому кольору.
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно \*\*`Imagick::CHANNEL_DEFAULT`\*\*Обратитесь к списку[констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
@@ -56,7 +57,7 @@ public Imagick::floodFillPaintImage(    mixed $fill,    float $fuzz,    mixed $t
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::floodfillPaintImage()****
+**Пример #1 Пример использования**Imagick::floodfillPaintImage()\*\*\*\*
 
 ```php
 <?php
@@ -92,7 +93,7 @@ $combined->writeImage("floodfillpaint_result.png");
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ![Висновок прикладу: Imagick::floodfillPaintImage()](images/c0d23d2d6769e53e24a1b3136c064577-floodfillpaint_intermediate.png)
 

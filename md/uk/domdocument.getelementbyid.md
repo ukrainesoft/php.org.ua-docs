@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::getElementById'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::getElementById
 
@@ -30,7 +31,7 @@ public DOMDocument::getElementById(string $elementId): ?DOMElement
 
 ### Значення, що повертаються
 
-Повертає об'єкт [DOMElement](class.domelement.md) або **`null`**, якщо елемент не знайдено.
+Повертає об'єкт [DOMElement](class.domelement.md)или\*\*`null`\*\*, якщо елемент не знайдено.
 
 ### Приклади
 
@@ -38,9 +39,9 @@ public DOMDocument::getElementById(string $elementId): ?DOMElement
 
 Наступні приклади використовують файл book.xml, який містить такі дані:
 
-\> PHP Basics Jim Smith Jane Smith [xhtml:blurb](xhtml:blurb)
+\]> PHP Basics Jim Smith Jane Smith [xhtml:blurb](xhtml:blurb)<!\[CDATA\[
 
-*PHP Basics* надає інформацію про PHP.
+*PHP Basics* provides an introduction to PHP.
 
 \\\]\\\]> PHP Advanced Programming Jon Doe
 
@@ -58,7 +59,7 @@ echo "Элемент с идентификатором 'php-basics': " . $doc->g
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Элемент с идентификатором 'php-basics': book
@@ -66,4 +67,4 @@ echo "Элемент с идентификатором 'php-basics': " . $doc->g
 
 ### Дивіться також
 
--   [DOMDocument::getElementsByTagName()](domdocument.getelementsbytagname.md) - Шукає всі елементи із заданим локальним ім'ям
+-   [DOMDocument::getElementsByTagName()](domdocument.getelementsbytagname.md) \- Шукає всі елементи із заданим локальним ім'ям

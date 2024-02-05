@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.yaf-exception-startuperror.md: « YafExceptionStartupError
-  - class.yaf-exception-routerfailed.md: YafExceptionRouterFailed »
+  - class.yaf-exception-startuperror.md: « Yaf\_Exception\_StartupError
+  - class.yaf-exception-routerfailed.md: Yaf\_Exception\_RouterFailed »
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafExceptionDispatchFailed
+title: Клас Yaf\_Exception\_DispatchFailed
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafExceptionDispatchFailed
+# Клас Yaf\_Exception\_DispatchFailed
 
 (Yaf >=1.0.0)
 

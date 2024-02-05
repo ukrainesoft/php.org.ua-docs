@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::setColorValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickPixel::setColorValue
 
@@ -18,13 +19,13 @@ ImagickPixel::setColorValue — Встановлює нормалізоване 
 public ImagickPixel::setColorValue(int $color, float $value): bool
 ```
 
-Встановлює значення зазначеного каналу поточного об'єкта за умови, що нове значення знаходиться між 0 і 1. Ця функція може бути використана для встановлення прозорості каналу об'єкта ImagickPixel.
+Встановлює значення вказаного каналу поточного об'єкта за умови, що нове значення знаходиться між 0 і 1. Ця функція може бути використана для встановлення прозорості каналу об'єкта ImagickPixel.
 
 ### Список параметрів
 
 `color`
 
-Один із констант кольору Imagick, тобто . Imagick::COLORGREEN або Imagick::COLORALPHA.
+Одна из констант цвета Imagick, т.е\\Imagick::COLOR\_GREEN или\\Imagick::COLOR\_ALPHA.
 
 `value`
 
@@ -36,7 +37,7 @@ public ImagickPixel::setColorValue(int $color, float $value): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::setColorValue()****
+**Пример #1 Пример использования**Imagick::setColorValue()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ print_r($color->getcolor(true));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array

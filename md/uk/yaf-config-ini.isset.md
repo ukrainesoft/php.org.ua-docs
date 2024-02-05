@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-ini.get.md: '« YafConfigIni::get'
-  - yaf-config-ini.key.md: 'YafConfigIni::key »'
+  - yaf-config-ini.get.md: '« Yaf\_Config\_Ini::\_\_get'
+  - yaf-config-ini.key.md: 'Yaf\_Config\_Ini::key »'
   - index.md: PHP Manual
-  - class.yaf-config-ini.md: YafConfigIni
-title: 'YafConfigIni::isset'
+  - class.yaf-config-ini.md: Yaf\_Config\_Ini
+title: 'Yaf\_Config\_Ini::\_\_isset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigIni::isset
+# Yaf\_Config\_Ini::\_\_isset
 
 (Yaf >=1.0.0)
 
-YafConfigIni::isset — Визначає, чи існує ключ
+Yaf\_Config\_Ini::\_\_isset — Визначає, чи існує ключ
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Ini::__isset(string $name): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

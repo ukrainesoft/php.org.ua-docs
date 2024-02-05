@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-unescape.md: « curlunescape
+  - function.curl_upkeep.md: « curl\_upkeep
   - class.curlhandle.md: CurlHandle »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlversion
+  - ref.curl.md: Опції cURL
+title: curl\_version
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlversion
+# curl\_version
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-curlversion — Повертає версію cURL
+curl\_version — Повертає версію cURL
 
 ### Опис
 
@@ -28,34 +29,34 @@ curl_version(): array|false
 
 Повертає асоціативний масив із такими елементами:
 
-| Ключ | Описание значения |
+| Ключ | Опис значения |
 | --- | --- |
-| versionnumber | 24-розрядний номер версії cURL |
+| version\_number | 24-розрядний номер версії cURL |
 | version | Номер версії cURL у вигляді рядка |
-| sslversionnumber | 24-бітний номер версії OpenSSL |
-| sslversion | Номер версії OpenSSL у вигляді рядка |
-| libzversion | Номер версії zlib у вигляді рядка |
+| ssl\_version\_number | 24-бітний номер версії OpenSSL |
+| ssl\_version | Номер версії OpenSSL у вигляді рядка |
+| libz\_version | Номер версії zlib у вигляді рядка |
 | host | Інформація про хост, де була зібрана cURL |
 | age |  |
-| features | Бітова маска констант `CURL_VERSION_XXX` |
+| features | Битовая маска констант`CURL_VERSION_XXX` |
 | protocols | Масив підтримуваних протоколів cURL |
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Необов'язковий параметр `age` видалено. |
-|  | Необов'язковий параметр `age` оголошено застарілим; якщо передано значення, воно ігнорується. |
+| 8.0.0 | Необов'язковий параметр `age`видалено. |
+| 7.4.0 | Необов'язковий параметр `age` оголошено застарілим; якщо передано значення, воно ігнорується. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **curlversion()****
+**Пример #1 Пример использования**curl\_version()\*\*\*\*
 
-Цей приклад перевірить, які можливості підтримує ця збірка cURL за допомогою бітової маски. `'features'`, що повертається функцією **curlversion()**
+Цей приклад перевірить, які можливості підтримує ця збірка cURL за допомогою бітової маски. `'features'`, що повертається функцією **curl\_version()**
 
 ```php
 <?php
-// Получаем Масив с информацией о версии curl
+// Получаем массив с информацией о версии curl
 $version = curl_version();
 
 // Это битовые поля, которые можно использовать

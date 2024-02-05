@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-abstract-definition.addinterface.md: '« ComponereAbstractDefinition::addInterface'
-  - componere-abstract-definition.addtrait.md: 'ComponereAbstractDefinition::addTrait »'
+  - componere-abstract-definition.addinterface.md: '« Componere\\Abstract\\Definition::addInterface'
+  - componere-abstract-definition.addtrait.md: 'Componere\\Abstract\\Definition::addTrait »'
   - index.md: PHP Manual
-  - class.componere-abstract-definition.md: ComponereAbstractDefinition
-title: 'ComponereAbstractDefinition::addMethod'
+  - class.componere-abstract-definition.md: Componere\\Abstract\\Definition
+title: 'Componere\\Abstract\\Definition::addMethod'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereAbstractDefinition::addMethod
+# Componere\\Abstract\\Definition::addMethod
 
 (Componere 2 >= 2.1.0)
 
-ComponereAbstractDefinition::addMethod — Додає метод
+Componere\\Abstract\\Definition::addMethod — Додає метод
 
 ### Опис
 
@@ -28,7 +29,7 @@ public Componere\Abstract\Definition::addMethod(string $name, Componere\Method $
 
 `method`
 
-[ComponereMethod](class.componere-method.md) раніше не доданий до іншого Definition
+[Componere\\Method](class.componere-method.md) раніше не доданий до іншого Definition
 
 ### Значення, що повертаються
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.getclientinfo.md: '« SwooleServer::getClientInfo'
-  - swoole-server.getlasterror.md: 'SwooleServer::getLastError »'
+  - swoole-server.getclientinfo.md: '« Swoole\\Server::getClientInfo'
+  - swoole-server.getlasterror.md: 'Swoole\\Server::getLastError »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::getClientList'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::getClientList'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::getClientList
+# Swoole\\Server::getClientList
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::getClientList — Отримує всі встановлені з'єднання
+Swoole\\Server::getClientList — Отримує всі встановлені з'єднання
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Server::getClientList(int $start_fd, int $pagesize = ?): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

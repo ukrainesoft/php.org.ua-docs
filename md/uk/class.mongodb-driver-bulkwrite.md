@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mongodb-driver-query.construct.md: '« MongoDBDriverQuery::construct'
-  - mongodb-driver-bulkwrite.construct.md: 'MongoDBDriverBulkWrite::construct »'
+  - mongodb-driver-query.construct.md: '« MongoDB\\Driver\\Query::\_\_construct'
+  - mongodb-driver-bulkwrite.construct.md: 'MongoDB\\Driver\\BulkWrite::\_\_construct »'
   - index.md: PHP Manual
-  - book.mongodb.md: MongoDBDriver
-title: Клас MongoDBDriverBulkWrite
+  - book.mongodb.md: MongoDB\\Driver
+title: Клас MongoDB\\Driver\\BulkWrite
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverBulkWrite
+# Клас MongoDB\\Driver\\BulkWrite
 
 (mongodb >=1.0.0)
 
 ## Вступ
 
-Клас **MongoDBDriverBulkWrite** збирає одну або кілька операцій запису, які мають бути надіслані на сервер. Після додавання будь-якої кількості операцій вставки, оновлення або видалення колекція може бути виконана за допомогою [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)
+Класс**MongoDB\\Driver\\BulkWrite** збирає одну або кілька операцій запису, які мають бути надіслані на сервер. Після додавання будь-якої кількості операцій вставки, оновлення або видалення колекція може бути виконана за допомогою [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)
 
 Операції запису можуть бути відсортовані (за замовчуванням) або відсортовані. Відсортовані операції запису надсилаються на сервер у вказаному порядку для послідовного виконання. У разі виникнення помилки запису, будь-які операції, що залишилися, будуть перервані. Невідсортовані операції надсилаються на сервер у довільному порядку, де вони можуть виконуватися паралельно. Повідомлення про помилки, які виникають, будуть надіслані після виконання всіх операцій.
 
@@ -117,7 +118,7 @@ printf("Обновлено %d документ(ов)\n", $result->getModifiedCou
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Operation#7: E11000 duplicate key error index: db.collection.$_id_ dup key: { : 3 } (11000)
@@ -125,7 +126,7 @@ Operation#7: E11000 duplicate key error index: db.collection.$_id_ dup key: { : 
 Обновлено 2 документ(ов)
 ```
 
-Якщо гарантія запису не може бути виконана, результат наведеного вище прикладу буде щось на зразок цього:
+Якщо гарантія запису не може бути виконана, результат наведеного вище прикладу буде щось на кшталт цього:
 
 ```
 waiting for replication timed out (64): array (
@@ -147,7 +148,7 @@ $bulk = new MongoDB\Driver\BulkWrite(['ordered' => false]);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Operation#7: E11000 duplicate key error index: db.collection.$_id_ dup key: { : 3 } (11000)
@@ -158,16 +159,16 @@ Updated  2 document(s)
 
 ## Дивіться також
 
--   [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md)
--   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
--   [MongoDBDriverWriteConcernError](class.mongodb-driver-writeconcernerror.md)
--   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.md)
+-   [MongoDB\\Driver\\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)
+-   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.md)
+-   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.md)
+-   [MongoDB\\Driver\\WriteConcernError](class.mongodb-driver-writeconcernerror.md)
+-   [MongoDB\\Driver\\WriteError](class.mongodb-driver-writeerror.md)
 
 ## Зміст
 
--   [MongoDBDriverBulkWrite::construct](mongodb-driver-bulkwrite.construct.md) — Створює новий об'єкт BulkWrite
--   [MongoDBDriverBulkWrite::count](mongodb-driver-bulkwrite.count.md) - Підраховує кількість операцій запису в порції
--   [MongoDBDriverBulkWrite::delete](mongodb-driver-bulkwrite.delete.md) — Додавання операції видалення порції
--   [MongoDBDriverBulkWrite::insert](mongodb-driver-bulkwrite.insert.md) - Додати операцію вставки в порцію
--   [MongoDBDriverBulkWrite::update](mongodb-driver-bulkwrite.update.md) — Додати операцію оновлення до порції
+-   [MongoDB\\Driver\\BulkWrite::\_\_construct](mongodb-driver-bulkwrite.construct.md)— Створює новий об'єкт BulkWrite
+-   [MongoDB\\Driver\\BulkWrite::count](mongodb-driver-bulkwrite.count.md) \- Підраховує кількість операцій запису в порції
+-   [MongoDB\\Driver\\BulkWrite::delete](mongodb-driver-bulkwrite.delete.md)— Додавання операції видалення порції
+-   [MongoDB\\Driver\\BulkWrite::insert](mongodb-driver-bulkwrite.insert.md) \- Додати операцію вставки в порцію
+-   [MongoDB\\Driver\\BulkWrite::update](mongodb-driver-bulkwrite.update.md)— Додати операцію оновлення до порції

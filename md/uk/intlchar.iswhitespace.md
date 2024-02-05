@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::isWhitespace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::isWhitespace
 
@@ -37,7 +38,7 @@ public static IntlChar::isWhitespace(int|string $codepoint): ?bool
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 ### Значення, що повертаються
 
@@ -57,7 +58,7 @@ var_dump(IntlChar::iswhitespace("\u{00A0}"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -69,6 +70,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isspace()](intlchar.isspace.md) - Перевіряє, чи є символ пробельним
--   [IntlChar::isJavaSpaceChar()](intlchar.isjavaspacechar.md) - Перевірити, чи є символ пробельним з погляду мови Java
--   [IntlChar::isUWhiteSpace()](intlchar.isuwhitespace.md) - Перевірити, чи має символ властивість WhiteSpace (пробіловий символ)
+-   [IntlChar::isspace()](intlchar.isspace.md) \- Перевіряє, чи є символ пробельним
+-   [IntlChar::isJavaSpaceChar()](intlchar.isjavaspacechar.md) \- Перевірити, чи є символ пробельним з точки зору Java
+-   [IntlChar::isUWhiteSpace()](intlchar.isuwhitespace.md) \- Перевірити, чи має символ властивість White\_Space (пробіловий символ)

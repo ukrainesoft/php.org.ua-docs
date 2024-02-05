@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::verify'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::verify
 
@@ -31,4 +32,4 @@ public
 
 ### Дивіться також
 
--   [Ev::verify()](ev.verify.md) - Здійснює внутрішню перевірку цілісності (для налагодження)
+-   [Ev::verify()](ev.verify.md) \- Здійснює внутрішню перевірку цілісності (для налагодження)

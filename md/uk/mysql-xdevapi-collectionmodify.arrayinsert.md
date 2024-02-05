@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionmodify.arrayappend.md: '« CollectionModify::arrayAppend'
   - mysql-xdevapi-collectionmodify.bind.md: 'CollectionModify::bind »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: mysql\_xdevapi\\CollectionModify
 title: 'CollectionModify::arrayInsert'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionModify::arrayInsert
 
@@ -18,19 +19,19 @@ CollectionModify::arrayInsert — Додає елемент до поля мас
 public mysql_xdevapi\CollectionModify::arrayInsert(string $collection_field, string $expression_or_literal): mysql_xdevapi\CollectionModify
 ```
 
-Додає елемент у поле документа, коли кілька елементів поля подаються як масиву. На відміну від arrayAppend(), arrayInsert() дозволяє вам вказати, куди додасться новий елемент, визначаючи, за яким елементом він слідує, тоді як arrayAppend() завжди додає новий елемент до кінця масиву.
+Додає елемент у поле документа, коли поле це масив з декількох елементів. Через цей метод, на відміну від методу **mysql\_xdevapi\\CollectionModify::arrayAppend()**, можна вказати, куди додасться новий елемент, визначаючи, після якого елемента він йтиме, тоді як метод **mysql\_xdevapi\\CollectionModify::arrayAppend()** додає новий елемент до кінця масиву.
 
 ### Список параметрів
 
 `collection_field`
 
-Визначте елемент у масиві, після якого додасться новий елемент. Формат цього параметра: `FIELD_NAME[ INDEX ]`де FIELDNAME – це ім'я поля документа, з якого видаляється елемент, а INDEX – це INDEX елемента у полі.
+Визначте елемент у масиві, після якого додасться новий елемент. Формат цього параметра: `FIELD_NAME[ INDEX ]`де FIELD\_NAME – це ім'я поля документа, до якого потрібно додати елемент, а INDEX – це INDEX елемента у полі.
 
-Поле INDEX засноване на нулі, тому найлівіший елемент масиву має індекс 0.
+Поле INDEX засноване на нулі, тому перший елемент масиву має індекс — 0.
 
 `expression_or_literal`
 
-Новий елемент для додавання після FIELDNAME INDEX
+Новий елемент для додавання після FIELD\_NAME\[INDEX\]
 
 ### Значення, що повертаються
 
@@ -38,7 +39,7 @@ public mysql_xdevapi\CollectionModify::arrayInsert(string $collection_field, str
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::arrayInsert()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::arrayInsert()\*\*\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ print_r($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

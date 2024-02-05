@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.pdostatement.md: PDOStatement
 title: 'PDOStatement::closeCursor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDOStatement::closeCursor
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.9.0)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8, PECL pdo >= 0.9.0)
 
 PDOStatement::closeCursor — Закриває курсор, переводячи запит у стан готовності до повторного запуску
 
@@ -41,13 +42,19 @@ do {
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+
+### Помилки
+
+Видає помилку рівня **`E_WARNING`**, якщо атрибуту **`PDO::ATTR_ERRMODE`**установлено значение**`PDO::ERRMODE_WARNING`**
+
+Викидає виняток [PDOException](class.pdoexception.md), якщо атрибуту **`PDO::ATTR_ERRMODE`**установлено значение**`PDO::ERRMODE_EXCEPTION`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PDOStatement::closeCursor()****
+**Пример #1 Пример использования**PDOStatement::closeCursor()\*\*\*\*
 
-У наведеному прикладі, об'єкт PDOStatement $stmt повертає кілька рядків, проте програма зчитує лише перший з них, залишаючи об'єкт PDOStatement у стані, коли є ще невибрані рядки. Щоб бути впевненим у тому, що програма буде працювати з усіма драйверами баз даних, автор додав виклик методу **PDOStatement::closeCursor()** об'єкта $stmt перед тим, як запустити інший запит PDOStatement $otherStmt.
+У наведеному прикладі, об'єкт PDOStatement $stmt повертає кілька рядків, проте програма зчитує лише перший з них, залишаючи об'єкт PDOStatement в стані, коли є ще невибрані рядки. Щоб бути впевненим у тому, що програма буде працювати з усіма драйверами баз даних, автор додав виклик методу **PDOStatement::closeCursor()** об'єкта $stmt перед тим, як запустити інший запит PDOStatement $otherStmt.
 
 ```php
 <?php
@@ -73,4 +80,4 @@ $otherStmt->execute();
 
 ### Дивіться також
 
--   [PDOStatement::execute()](pdostatement.execute.md) - Запускає підготовлений запит на виконання
+-   [PDOStatement::execute()](pdostatement.execute.md) \- Запускає підготовлений запит на виконання

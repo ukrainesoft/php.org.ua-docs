@@ -1,10 +1,11 @@
 ---
 navigation:
   - domdocument.relaxngvalidate.md: '« DOMDocument::relaxNGValidate'
-  - domdocument.save.md: 'DOMDocument::save »'
+  - domdocument.replacechildren.md: 'DOMDocument::replaceChildren »'
   - index.md: PHP Manual
   - class.domdocument.md: DOMDocument
 title: 'DOMDocument::relaxNGValidateSource'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMDocument::relaxNGValidateSource
 
@@ -18,7 +19,7 @@ DOMDocument::relaxNGValidateSource — Перевіряє документ за 
 public DOMDocument::relaxNGValidateSource(string $source): bool
 ```
 
-Застосовує перевірку [» relaxNG](http://www.relaxng.org/) документа на відповідність заданому джерелу RNG.
+Застосовує перевірку [» relaxNG](http://www.relaxng.org/)документа на соответствие заданному источнику RNG.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ public DOMDocument::relaxNGValidateSource(string $source): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [DOMDocument::relaxNGValidate()](domdocument.relaxngvalidate.md) - Здійснює перевірку документа на правильність побудови за допомогою relaxNG
--   [DOMDocument::schemaValidate()](domdocument.schemavalidate.md) - Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
--   [DOMDocument::schemaValidateSource()](domdocument.schemavalidatesource.md) - Перевіряє дійсність документа, ґрунтуючись на схемі
--   [DOMDocument::validate()](domdocument.validate.md) - Перевіряє документ на відповідність його DTD
+-   [DOMDocument::relaxNGValidate()](domdocument.relaxngvalidate.md) \- Здійснює перевірку документа на правильність побудови за допомогою relaxNG
+-   [DOMDocument::schemaValidate()](domdocument.schemavalidate.md) \- Перевіряє дійсність документа, ґрунтуючись на заданій схемі. Підтримується лише XML-схема 1.0.
+-   [DOMDocument::schemaValidateSource()](domdocument.schemavalidatesource.md) \- Перевіряє дійсність документа, ґрунтуючись на схемі
+-   [DOMDocument::validate()](domdocument.validate.md) \- Перевіряє документ на відповідність його DTD

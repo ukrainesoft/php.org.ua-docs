@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.mailparse.md: « Mailparse
-  - function.mailparse-msg-create.md: mailparsemsgcreate »
+  - function.mailparse-msg-create.md: mailparse\_msg\_create »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
-title: mailparsedeterminebestxferencoding
+title: mailparse\_determine\_best\_xfer\_encoding
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mailparsedeterminebestxferencoding
+# mailparse\_determine\_best\_xfer\_encoding
 
 (PECL mailparse >= 0.9.0)
 
-mailparsedeterminebestxferencoding - Визначити найкращий шлях декодування
+mailparse\_determine\_best\_xfer\_encoding - Визначити найкращий шлях декодування
 
 ### Опис
 
@@ -32,7 +33,7 @@ mailparse_determine_best_xfer_encoding(resource $fp): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mailparsedeterminebestxferencoding()****
+**Пример #1 Пример использования**mailparse\_determine\_best\_xfer\_encoding()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ echo 'Best encoding: ' . mailparse_determine_best_xfer_encoding($fp);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Best encoding: 7bit

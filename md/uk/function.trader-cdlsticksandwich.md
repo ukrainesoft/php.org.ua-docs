@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlstalledpattern.md: « tradercdlstalledpattern
-  - function.trader-cdltakuri.md: tradercdltakuri »
+  - function.trader-cdlstalledpattern.md: « trader\_cdlstalledpattern
+  - function.trader-cdltakuri.md: trader\_cdltakuri »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlsticksandwich
+  - ref.trader.md: Функції Trader
+title: trader\_cdlsticksandwich
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlsticksandwich
+# trader\_cdlsticksandwich
 
 (PECL trader >= 0.2.0)
 
-tradercdlsticksandwich - Прилиплий сендвіч
+trader\_cdlsticksandwich - Прилиплий сендвіч
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlsticksandwich(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlsticksandwich(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

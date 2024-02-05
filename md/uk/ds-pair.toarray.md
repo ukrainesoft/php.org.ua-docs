@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-pair.jsonserialize.md: '« DsPair::jsonSerialize'
-  - class.ds-set.md: Набор »
+  - ds-pair.jsonserialize.md: '« Ds\\Pair::jsonSerialize'
+  - class.ds-set.md: Ds\\Set »
   - index.md: PHP Manual
-  - class.ds-pair.md: Пара
-title: 'ДсPair::toArray'
+  - class.ds-pair.md: Ds\\Pair
+title: 'Ds\\Pair::toArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсPair::toArray
+# Ds\\Pair::toArray
 
 (PECL ds >= 1.0.0)
 
-ДсPair::toArray - Перетворює пару в масив (array)
+Ds\\Pair::toArray - Перетворює пару в масив (array)
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Ds\Pair::toArray(): array
 
 Перетворює пару на масив (array).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Приведення до масиву поки що не підтримується.
 
@@ -34,7 +35,7 @@ public Ds\Pair::toArray(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсPair::toArray()****
+**Пример #1 Пример использования**Ds\\Pair::toArray()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ var_dump($pair->toArray());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {

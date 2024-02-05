@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::charName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::charName
 
@@ -20,19 +21,19 @@ public static IntlChar::charName(int|string $codepoint, int $type = IntlChar::UN
 
 Повертає ім'я Unicode.
 
-Залежно від `type`, повернене ім'я може бути як "сучасним", так і ім'ям, визначеним у Unicode версії 1.0. Ім'я містить лише "незмінювані" символи, такі як A-Z, 0-9, пробіл і '-'. Ім'я Unicode 1.0 повертається тільки якщо воно відрізняється від "сучасного" для даного символу і якщо ICU є запис про нього.
+В зависимости от`type`, повернене ім'я може бути як "сучасним", так і ім'ям, визначеним у Unicode версії 1.0. Ім'я містить лише "незмінювані" символи, такі як A-Z, 0-9, пробіл і '-'. Ім'я Unicode 1.0 повертається тільки якщо воно відрізняється від "сучасного" для даного символу і якщо ICU є запис про нього.
 
 ### Список параметрів
 
 `codepoint`
 
-Цілочисленне (int) завдання коду символу (наприклад `0x2603` для *U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`
+Целочисленное (int) задание кода символа (например`0x2603`для*U+2603 СНІГОВИКА*), або символ закодований рядок UTF-8 (наприклад `"\u{2603}"`) .
 
 `type`
 
 Які типи символів шукати. Одна з констант:
 
--   **`IntlChar::UNICODE_CHAR_NAME`** (default)
+-   **`IntlChar::UNICODE_CHAR_NAME`**(default)
 -   **`IntlChar::UNICODE_10_CHAR_NAME`**
 -   **`IntlChar::EXTENDED_CHAR_NAME`**
 -   **`IntlChar::CHAR_NAME_ALIAS`**
@@ -55,7 +56,7 @@ var_dump(IntlChar::charName("\u{0000}"));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(9) "FULL STOP"
@@ -66,5 +67,5 @@ string(0) ""
 
 ### Дивіться також
 
--   [IntlChar::charFromName()](intlchar.charfromname.md) - Знайти символ Unicode по його імені та повернути його код
--   [IntlChar::enumCharNames()](intlchar.enumcharnames.md) - Перераховує всі присвоєні символи Unicode у заданому діапазоні
+-   [IntlChar::charFromName()](intlchar.charfromname.md) \- Знайти символ Unicode по його імені та повернути його код
+-   [IntlChar::enumCharNames()](intlchar.enumcharnames.md) \- Перераховує всі присвоєні символи Unicode у заданому діапазоні

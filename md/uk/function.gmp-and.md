@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-add.md: « gmpadd
-  - function.gmp-binomial.md: gmpbinomial »
+  - function.gmp-add.md: « gmp\_add
+  - function.gmp-binomial.md: gmp\_binomial »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpand
+title: gmp\_and
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpand
+# gmp\_and
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpand - Побітове І
+gmp\_and - Побітове І
 
 ### Опис
 
@@ -32,11 +33,11 @@ gmp_and(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ### Значення, що повертаються
 
-Результат побитового `И` як GMP числа.
+Результат побитового`І` як GMP числа.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpand()****
+**Пример #1 Пример использования**gmp\_and()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo gmp_strval($and2) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 4

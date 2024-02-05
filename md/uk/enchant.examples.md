@@ -1,10 +1,11 @@
 ---
 navigation:
-  - enchant.constants.md: « Обумовлені константи
-  - ref.enchant.md: Функции Enchant »
+  - enchant.constants.md: « Зумовлені константи
+  - ref.enchant.md: Функції Enchant »
   - index.md: PHP Manual
   - book.enchant.md: Enchant
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

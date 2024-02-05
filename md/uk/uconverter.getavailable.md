@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.uconverter.md: UConverter
 title: 'UConverter::getAvailable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # UConverter::getAvailable
 
@@ -20,7 +21,7 @@ public static UConverter::getAvailable(): array
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

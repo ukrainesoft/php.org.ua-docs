@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sqlsrv-close.md: « sqlsrvclose
-  - function.sqlsrv-configure.md: sqlsrvconfigure »
+  - function.sqlsrv-close.md: « sqlsrv\_close
+  - function.sqlsrv-configure.md: sqlsrv\_configure »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvcommit
+title: sqlsrv\_commit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvcommit
+# sqlsrv\_commit
 
 (No version information available, might only be in Git)
 
-sqlsrvcommit - Фіксує транзакцію, розпочату за допомогою [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md)
+sqlsrv\_commit - Фіксує транзакцію, розпочату за допомогою [sqlsrv\_begin\_transaction()](function.sqlsrv-begin-transaction.md)
 
 ### Опис
 
@@ -18,7 +19,7 @@ sqlsrvcommit - Фіксує транзакцію, розпочату за доп
 sqlsrv_commit(resource $conn): bool
 ```
 
-Фіксує транзакцію, розпочату за допомогою [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md). З'єднання повертається в режим автоматичної фіксації після дзвінка **sqlsrvcommit()**. Підтверджена транзакція включає всі оператори, які були виконані після виклику [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md). Явні транзакції повинні запускатися та фіксуватися або відкочуватися з використанням цих функцій замість виконання SQL-операторів, які запускають та фіксують/відкочують транзакції. Для отримання додаткової інформації дивіться [» Транзакції SQLSRV](http://msdn.microsoft.com/en-us/library/cc296206.aspx)
+Фіксує транзакцію, розпочату за допомогою [sqlsrv\_begin\_transaction()](function.sqlsrv-begin-transaction.md). З'єднання повертається в режим автоматичної фіксації після дзвінка **sqlsrv\_commit()**. Підтверджена транзакція включає всі оператори, які були виконані після виклику [sqlsrv\_begin\_transaction()](function.sqlsrv-begin-transaction.md). Явні транзакції повинні запускатися та фіксуватися або відкочуватися з використанням цих функцій замість виконання SQL-операторів, які запускають та фіксують/відкочують транзакції. Для отримання додаткової інформації дивіться [» Транзакції SQLSRV](http://msdn.microsoft.com/en-us/library/cc296206.aspx)
 
 ### Список параметрів
 
@@ -28,13 +29,13 @@ sqlsrv_commit(resource $conn): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvcommit()****
+**Пример #1 Пример использования**sqlsrv\_commit()\*\*\*\*
 
-У наступному прикладі показано, як використовувати **sqlsrvcommit()** разом з [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md) і [sqlsrvrollback()](function.sqlsrv-rollback.md)
+У наступному прикладі показано, як використовувати \*\*sqlsrv\_commit()\*\*вместе с[sqlsrv\_begin\_transaction()](function.sqlsrv-begin-transaction.md) і [sqlsrv\_rollback()](function.sqlsrv-rollback.md)
 
 ```php
 <?php
@@ -80,5 +81,5 @@ if( $stmt1 && $stmt2 ) {
 
 ### Дивіться також
 
--   [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md) - Починає транзакцію бази даних
--   [sqlsrvrollback()](function.sqlsrv-rollback.md) - Відкочує транзакцію, розпочату sqlsrvbegintransaction
+-   [sqlsrv\_begin\_transaction()](function.sqlsrv-begin-transaction.md) \- Починає транзакцію бази даних
+-   [sqlsrv\_rollback()](function.sqlsrv-rollback.md) \- Відкочує транзакцію, розпочату sqlsrv\_begin\_transaction

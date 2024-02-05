@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.oauthprovider.md: OAuthProvider
 title: 'OAuthProvider::reportProblem'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OAuthProvider::reportProblem
 
@@ -22,7 +23,7 @@ final public static OAuthProvider::reportProblem(string $oauthexception, bool $s
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -36,5 +37,5 @@ final public static OAuthProvider::reportProblem(string $oauthexception, bool $s
 
 ### Дивіться також
 
--   [OAuthProvider::checkOAuthRequest()](oauthprovider.checkoauthrequest.md) - Перевірка запиту oauth
--   [OAuthProvider::isRequestTokenEndpoint()](oauthprovider.isrequesttokenendpoint.md) - Установка isRequestTokenEndpoint
+-   [OAuthProvider::checkOAuthRequest()](oauthprovider.checkoauthrequest.md) \- Перевірка запиту oauth
+-   [OAuthProvider::isRequestTokenEndpoint()](oauthprovider.isrequesttokenendpoint.md) \- Установка isRequestTokenEndpoint

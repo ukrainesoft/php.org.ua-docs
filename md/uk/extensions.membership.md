@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - extensions.md: Список/класифікація модулів
 title: За складом
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## За складом
 
@@ -16,13 +17,11 @@ title: За складом
     
 -   [Класи та об'єкти](book.classobj.md)
     
--   [CSPRNG](book.csprng.md)
-    
--   [Дата/время](book.datetime.md)
+-   [Дата час](book.datetime.md)
     
 -   [Каталоги](book.dir.md)
     
--   [Обработка ошибок](book.errorfunc.md)
+-   [Обробка помилок](book.errorfunc.md)
     
 -   [Запуск програми](book.exec.md)
     
@@ -30,11 +29,11 @@ title: За складом
     
 -   [Менеджер процесів FastCGI](book.fpm.md)
     
--   [Управление функциями](book.funchand.md)
+-   [Управління функціями](book.funchand.md)
     
 -   [Hash](book.hash.md)
     
--   [Опции/информация PHP](book.info.md)
+-   [Опції/інформація PHP](book.info.md)
     
 -   [JSON](book.json.md)
     
@@ -44,15 +43,17 @@ title: За складом
     
 -   [Misc.](book.misc.md)
     
--   [Сеть](book.network.md)
+-   [Мережа](book.network.md)
     
 -   [OPcache](book.opcache.md)
     
 -   [Контроль виведення](book.outcontrol.md)
     
--   [Хеширование паролей](book.password.md)
+-   [Хешування паролів](book.password.md)
     
 -   [PCRE](book.pcre.md)
+    
+-   [Random](book.random.md)
     
 -   [Reflection](book.reflection.md)
     
@@ -75,7 +76,7 @@ title: За складом
     
 -   [BC Math](book.bc.md)
     
--   [Календарь](book.calendar.md)
+-   [Календар](book.calendar.md)
     
 -   [COM](book.com.md)
     
@@ -97,7 +98,7 @@ title: За складом
     
 -   [iconv](book.iconv.md)
     
--   [ДД](book.image.md)
+-   [GD](book.image.md)
     
 -   [intl](book.intl.md)
     
@@ -117,9 +118,9 @@ title: За складом
     
 -   [Семафори](book.sem.md)
     
--   [Сессии](book.session.md)
+-   [Сесії](book.session.md)
     
--   [Управление разделяемой памятью](book.shmop.md)
+-   [Управління пам'яттю, що розділяється](book.shmop.md)
     
 -   [Сокети](book.sockets.md)
     
@@ -160,7 +161,7 @@ title: За складом
     
 -   [OpenSSL](book.openssl.md)
     
--   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.md)
+-   [MS SQL Server (PDO\_DBLIB)](ref.pdo-dblib.md)
     
 -   [Firebird (PDO)](ref.pdo-firebird.md)
     
@@ -168,7 +169,7 @@ title: За складом
     
 -   [Oracle (PDO)](ref.pdo-oci.md)
     
--   [ODBC и DB2 (PDO)](ref.pdo-odbc.md)
+-   [ODBC та DB2 (PDO)](ref.pdo-odbc.md)
     
 -   [PostgreSQL (PDO)](ref.pdo-pgsql.md)
     
@@ -192,7 +193,7 @@ title: За складом
     
 -   [ODBC](book.uodbc.md)
     
--   [Разбор XML](book.xml.md)
+-   [Розбір XML](book.xml.md)
     
 -   [XMLReader](book.xmlreader.md)
     
@@ -205,7 +206,7 @@ title: За складом
 
 ## PECL модулі
 
-Ці модулі доступні в [» PECL](https://pecl.php.net/). Їм можуть знадобитися зовнішні бібліотеки. Існують інші PECL модулі, але вони поки не документовані в цьому посібнику.
+Ці модулі доступні за адресою [» PECL](https://pecl.php.net/). Для їхньої роботи можуть знадобитися зовнішні бібліотеки. Існують і інші модулі PECL, але вони поки що не документовані в посібнику з PHP.
 
 -   [APCu](book.apcu.md)
     
@@ -223,7 +224,7 @@ title: За складом
     
 -   [Eio](book.eio.md)
     
--   [Єв](book.ev.md)
+-   [Ev](book.ev.md)
     
 -   [Event](book.event.md)
     
@@ -271,7 +272,7 @@ title: За складом
     
 -   [MySQL (Original)](book.mysql.md)
     
--   [Mysqlxdevapi](book.mysql-xdevapi.md)
+-   [Mysql\_xdevapi](book.mysql-xdevapi.md)
     
 -   [OAuth](book.oauth.md)
     
@@ -289,7 +290,7 @@ title: За складом
     
 -   [MS SQL Server (PDO)](ref.pdo-sqlsrv.md)
     
--   [ПС](book.ps.md)
+-   [PS](book.ps.md)
     
 -   [pthreads](book.pthreads.md)
     
@@ -301,6 +302,8 @@ title: За складом
     
 -   [Recode](book.recode.md)
     
+-   [Rnp](book.rnp.md)
+    
 -   [RpmInfo](book.rpminfo.md)
     
 -   [RRD](book.rrd.md)
@@ -310,6 +313,8 @@ title: За складом
 -   [ScoutAPM](book.scoutapm.md)
     
 -   [Seaslog](book.seaslog.md)
+    
+-   [Simdjson](book.simdjson.md)
     
 -   [Solr](book.solr.md)
     
@@ -337,13 +342,13 @@ title: За складом
     
 -   [Trader](book.trader.md)
     
--   [ОЙ](book.ui.md)
+-   [UI](book.ui.md)
     
 -   [uopz](book.uopz.md)
     
 -   [V8js](book.v8js.md)
     
--   [varrepresentation](book.var_representation.md)
+-   [var\_representation](book.var_representation.md)
     
 -   [Varnish](book.varnish.md)
     

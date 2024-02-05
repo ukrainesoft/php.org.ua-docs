@@ -1,10 +1,11 @@
 ---
 navigation:
-  - eventbase.construct.md: '« EventBase::construct'
+  - eventbase.construct.md: '« EventBase::\_\_construct'
   - eventbase.exit.md: 'EventBase::exit »'
   - index.md: PHP Manual
   - class.eventbase.md: EventBase
 title: 'EventBase::dispatch'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBase::dispatch
 
@@ -31,8 +32,8 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [EventBase::loop()](eventbase.loop.md) - Відправлення очікуваних подій
+-   [EventBase::loop()](eventbase.loop.md) \- Відправлення очікуваних подій

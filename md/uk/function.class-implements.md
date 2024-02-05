@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.spl.md: « Функції SPL
-  - function.class-parents.md: classparents »
+  - function.class-parents.md: class\_parents »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
-title: classimplements
+title: class\_implements
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# classimplements
+# class\_implements
 
 (PHP 5, PHP 7, PHP 8)
 
-classimplements — Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+class\_implements — Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
 
 ### Опис
 
@@ -28,7 +29,7 @@ class_implements(object|string $object_or_class, bool $autoload = true): array|f
 
 `autoload`
 
-Чи викликати за замовчуванням [autoload](language.oop5.autoload.md)
+Чи потрібно [автоматично підвантажувати](language.oop5.autoload.md) клас, якщо він ще не завантажений.
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ class_implements(object|string $object_or_class, bool $autoload = true): array|f
 
 ### Приклади
 
-**Приклад #1 Приклад використання **classimplements()****
+**Пример #1 Пример использования**class\_implements()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ print_r(class_implements('not_loaded', true));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -75,7 +76,13 @@ Array
 )
 ```
 
+### Примітки
+
+> **Зауваження**: Для перевірки того, що об'єкт реалізує інтерфейс, слід використовувати [`instanceof`](language.operators.type.md)или функцию[is\_a()](function.is-a.md)
+
 ### Дивіться також
 
--   [classparents()](function.class-parents.md) - Повертає список батьківських класів заданого класу
--   [getdeclaredinterfaces()](function.get-declared-interfaces.md) - Повертає масив усіх оголошених інтерфейсів
+-   [class\_parents()](function.class-parents.md) \- Повертає список батьківських класів заданого класу
+-   [get\_declared\_interfaces()](function.get-declared-interfaces.md) \- Повертає масив усіх оголошених інтерфейсів
+-   [is\_a()](function.is-a.md) \- Перевіряє, чи об'єкт належить до типу або підтипу
+-   [`instanceof`](language.operators.type.md)

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getGroupQueries'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getGroupQueries
 
-(PECL solr> = 2.2.0)
+(PECL solr >= 2.2.0)
 
 SolrQuery::getGroupQueries — Повертає всі параметри group.query
 
@@ -30,4 +31,4 @@ array
 
 ### Дивіться також
 
--   [SolrQuery::addGroupQuery()](solrquery.addgroupquery.md) - Дозволяє групувати документи, що відповідають цьому запиту
+-   [SolrQuery::addGroupQuery()](solrquery.addgroupquery.md) \- Дозволяє групувати документи, що відповідають цьому запиту

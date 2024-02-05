@@ -1,14 +1,15 @@
 ---
 navigation:
-  - extensions.membership.md: « По составу
-  - aliases.md: Список псевдонимов функций »
+  - extensions.membership.md: « За складом
+  - aliases.md: Список псевдонімів функцій »
   - index.md: PHP Manual
   - extensions.md: Список/класифікація модулів
 title: Станом
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Станом
 
-Тут наводиться список модулів, не рекомендованих для промислового використання - вони або надто "старі" (застарілі), або "нові" (експериментальні).
+Тут наводиться список модулів, не рекомендованих для промислового використання - вони або занадто "старі" (застарілі), або "нові" (експериментальні).
 
 ## Застарілі модулі
 
@@ -20,12 +21,14 @@ title: Станом
 
 -   [ImageMagick](book.imagick.md)
     
--   [MS SQL Server (PDODBLIB)](ref.pdo-dblib.md)
+-   [MS SQL Server (PDO\_DBLIB)](ref.pdo-dblib.md)
     
 -   [Firebird (PDO)](ref.pdo-firebird.md)
     
 -   [Oracle (PDO)](ref.pdo-oci.md)
     
--   [ПС](book.ps.md)
+-   [PS](book.ps.md)
+    
+-   [Rnp](book.rnp.md)
     
 -   [XML-RPC](book.xmlrpc.md)

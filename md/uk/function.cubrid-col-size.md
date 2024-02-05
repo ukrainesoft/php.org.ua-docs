@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-col-get.md: « cubridcolget
-  - function.cubrid-column-names.md: cubridcolumnnames »
+  - function.cubrid-col-get.md: « cubrid\_col\_get
+  - function.cubrid-column-names.md: cubrid\_column\_names »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridcolsize
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_col\_size
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridcolsize
+# cubrid\_col\_size
 
 (PECL CUBRID >= 8.3.0)
 
-cubridcolsize — Отримує кількість елементів у стовпці типу колекція OID
+cubrid\_col\_size — Отримує кількість елементів у стовпці типу колекція OID
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubridcolsize — Отримує кількість елементів у сто
 cubrid_col_size(resource $conn_identifier, string $oid, string $attr_name): int
 ```
 
-Функція **cubridcolsize()** використовується для отримання кількості елементів в атрибуті типу колекції (set, multiset, sequence).
+Функция**cubrid\_col\_size()** використовується для отримання кількості елементів в атрибуті типу колекції (set, multiset, sequence).
 
 ### Список параметрів
 
@@ -36,17 +37,17 @@ OID екземпляра.
 
 ### Значення, що повертаються
 
-Кількість елементів, у разі успішного виконання або **`false`** у разі виникнення помилки.
+Кількість елементів, у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Змінено значення, що повертається: у разі невдачі повертається **`false`**, а чи не -1. |
+| 8.3.1 | Змінено значення, що повертається: у разі невдачі повертається **`false`**, а чи не -1. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridcolsize()****
+**Пример #1 Пример использования**cubrid\_col\_size()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(3) {

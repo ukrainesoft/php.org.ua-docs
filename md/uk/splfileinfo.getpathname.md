@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getPathname'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::getPathname
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getPathname — Отримує шлях до файлу
 
@@ -30,7 +31,7 @@ public SplFileInfo::getPathname(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::getPathname()****
+**Пример #1 Пример использования**SplFileInfo::getPathname()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump($info->getPathname());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(12) "/usr/bin/php"
@@ -47,4 +48,4 @@ string(12) "/usr/bin/php"
 
 ### Дивіться також
 
--   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md) - Отримує абсолютний шлях до файлу
+-   [SplFileInfo::getRealPath()](splfileinfo.getrealpath.md) \- Отримує абсолютний шлях до файлу

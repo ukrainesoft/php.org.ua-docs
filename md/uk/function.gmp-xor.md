@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-testbit.md: « gmptestbit
+  - function.gmp-testbit.md: « gmp\_testbit
   - class.gmp.md: GMP »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpxor
+title: gmp\_xor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpxor
+# gmp\_xor
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpxor - Побітове виключне АБО
+gmp\_xor - Побітове виключне АБО
 
 ### Опис
 
@@ -32,11 +33,11 @@ gmp_xor(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.md)ю
+Об'єкт класу [GMP](class.gmp.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpxor()****
+**Пример #1 Пример использования**gmp\_xor()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ echo gmp_strval($xor3, 2) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 1011110111000100

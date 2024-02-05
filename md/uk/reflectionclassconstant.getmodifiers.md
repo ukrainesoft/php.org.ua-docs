@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::getModifiers'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClassConstant::getModifiers
 
-(PHP 7> = 7.1.0, PHP 8)
+(PHP 7 >= 7.1.0, PHP 8)
 
 ReflectionClassConstant::getModifiers — Отримує модифікатори константи класу
 
@@ -30,4 +31,4 @@ public ReflectionClassConstant::getModifiers(): int
 
 ### Дивіться також
 
--   [Reflection::getModifierNames()](reflection.getmodifiernames.md) - Отримання імен модифікаторів
+-   [Reflection::getModifierNames()](reflection.getmodifiernames.md) \- Отримання імен модифікаторів

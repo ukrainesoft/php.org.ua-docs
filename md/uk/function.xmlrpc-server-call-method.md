@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.xmlrpc-server-add-introspection-data.md: « xmlrpcserveraddintrospectiondata
-  - function.xmlrpc-server-create.md: xmlrpcservercreate »
+  - function.xmlrpc-server-add-introspection-data.md: « xmlrpc\_server\_add\_introspection\_data
+  - function.xmlrpc-server-create.md: xmlrpc\_server\_create »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcservercallметод
+title: xmlrpc\_server\_call\_method
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcservercallметод
+# xmlrpc\_server\_call\_method
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcservercallmethod — Розбирає XML-запити та методи, що викликають.
+xmlrpc\_server\_call\_method — Розбирає XML-запити та методи, що викликають.
 
 ### Опис
 
 ```methodsynopsis
-xmlrpc_server_call_method(    resource $server,    string $xml,    mixed $user_data,    array $output_options = ?): string
+xmlrpc_server_call_method(    resource $server,    string $xml,    mixed $user_data,    array $output_options = ?): string
 ```
 
 **Увага**
@@ -24,4 +25,4 @@ xmlrpc_server_call_method(    resource $server,    string $xml,    mixed $user_d
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

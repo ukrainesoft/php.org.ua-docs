@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::get
 
@@ -15,10 +16,10 @@ Memcached::get — Отримання запису
 ### Опис
 
 ```methodsynopsis
-public Memcached::get(string $key, callable $cache_cb = ?, int $flags = ?): mixed
+public Memcached::get(string $key, ?callable $cache_cb = null, int $get_flags = 0): mixed
 ```
 
-**Memcached::get()** повертає запис, який раніше був збережений під ключом `key`. Якщо елемент не знайдено і для параметра `flags` поставлено **`Memcached::GET_EXTENDED`**, вона також поверне значення токена CAS для цього запису. Зверніться до документації щодо [Memcached::cas()](memcached.cas.md) для отримання інформації про використання CAS токена . [Чтение при помощи кеширующих callback-функций](memcached.callbacks.md) може бути використано за допомогою параметра `cache_cb`
+**Memcached::get()** повертає запис, який раніше був збережений під ключом `key`. Якщо елемент не знайдено і для параметра `get_flags`задано\*\*`Memcached::GET_EXTENDED`\*\*, вона також поверне значення токена CAS для цього запису. Зверніться до документації щодо [Memcached::cas()](memcached.cas.md) для отримання інформації про використання CAS токена . [Читання за допомогою кешуючих callback-функцій](memcached.callbacks.md) може бути використано за допомогою параметра `cache_cb`
 
 ### Список параметрів
 
@@ -30,23 +31,23 @@ public Memcached::get(string $key, callable $cache_cb = ?, int $flags = ?): mixe
 
 Функція зворотного виклику для читання, що кешується, або **`null`**
 
-`flags`
+`get_flags`
 
 Прапори, що визначають результат, що повертається. Якщо задана константа **`Memcached::GET_EXTENDED`**, функція також поверне CAS токен.
 
 ### Значення, що повертаються
 
-Повертає значення, що зберігається в кеші або **`false`** в іншому випадку. Якщо в `flags` встановлена ​​константа, **`Memcached::GET_EXTENDED`**, повертається масив, що містить значення та токен CAS замість єдиного значення. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_NOTFOUND`** якщо переданий ключ не існує.
+Возвращает значение хранимое в кеше или\*\*`false`\*\* в іншому випадку. Якщо в `get_flags`установлена константа,**`Memcached::GET_EXTENDED`**, повертається масив, що містить значення та токен CAS замість єдиного значення. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_NOTFOUND`** якщо переданий ключ не існує.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL memcached 3.0.0 | Видалено параметр `&cas_token`. Замість нього додано параметр `flags`, в який можна передати значення **`Memcached::GET_EXTENDED`** для того, щоб було повернуто токен CAS. |
+| PECL memcached 3.0.0 | Видалено параметр `&cas_token`. . Замість нього додано параметр `get_flags`, в який можна передати значення **`Memcached::GET_EXTENDED`** для того, щоб було повернуто токен CAS. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::get()****
+**Пример #1 Пример использования**Memcached::get()\*\*\*\*
 
 ```php
 <?php
@@ -58,13 +59,13 @@ var_dump($m->get('foo'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(100)
 ```
 
-**Приклад #2 Приклад використання **Memcached::get()****
+**Пример #2 Пример использования**Memcached::get()\*\*\*\*
 
 ```php
 <?php
@@ -85,6 +86,6 @@ if (!($ip = $m->get('ip_block'))) {
 
 ### Дивіться також
 
--   [Memcached::getByKey()](memcached.getbykey.md) - Отримує запис із певного сервера
--   [Memcached::getMulti()](memcached.getmulti.md) - Отримує кілька записів
--   [Memcached::getDelayed()](memcached.getdelayed.md) - Запитує кілька записів
+-   [Memcached::getByKey()](memcached.getbykey.md) \- Отримує запис із певного сервера
+-   [Memcached::getMulti()](memcached.getmulti.md) \- Отримує кілька записів
+-   [Memcached::getDelayed()](memcached.getdelayed.md) \- Запитує кілька записів

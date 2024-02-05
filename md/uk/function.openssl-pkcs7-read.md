@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-pkcs7-encrypt.md: « opensslpkcs7encrypt
-  - function.openssl-pkcs7-sign.md: opensslpkcs7sign »
+  - function.openssl-pkcs7-encrypt.md: « openssl\_pkcs7\_encrypt
+  - function.openssl-pkcs7-sign.md: openssl\_pkcs7\_sign »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslpkcs7read
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_pkcs7\_read
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslpkcs7read
+# openssl\_pkcs7\_read
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-opensslpkcs7read — Експортувати файл PKCS7 до масиву сертифікатів PEM
+openssl\_pkcs7\_read — Експортувати файл PKCS7 до масиву сертифікатів PEM
 
 ### Опис
 
@@ -20,7 +21,7 @@ openssl_pkcs7_read(string $data, array &$certificates): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,11 +35,11 @@ openssl_pkcs7_read(string $data, array &$certificates): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Get a PEM array from a P7B file**
+**Приклад #1 Отримання масиву PEM із файлу P7B**
 
 ```php
 <?php
@@ -62,4 +63,4 @@ print_r($p7);
 
 ### Дивіться також
 
--   [opensslcsrsign()](function.openssl-csr-sign.md) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [openssl\_csr\_sign()](function.openssl-csr-sign.md) \- Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

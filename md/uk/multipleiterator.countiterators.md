@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.multipleiterator.md: MultipleIterator
 title: 'MultipleIterator::countIterators'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # MultipleIterator::countIterators
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 MultipleIterator::countIterators — Отримує кількість приєднаних ітераторів
 
@@ -22,7 +23,7 @@ public MultipleIterator::countIterators(): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -34,4 +35,4 @@ public MultipleIterator::countIterators(): int
 
 ### Дивіться також
 
--   [MultipleIterator::containsIterator()](multipleiterator.containsiterator.md) - Перевіряє, чи приєднано ітератора
+-   [MultipleIterator::containsIterator()](multipleiterator.containsiterator.md) \- Перевіряє, чи приєднано ітератора

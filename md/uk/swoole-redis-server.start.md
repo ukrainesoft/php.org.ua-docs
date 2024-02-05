@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-redis-server.sethandler.md: '« SwooleRedisServer::setHandler'
-  - class.swoole-serialize.md: SwooleSerialize »
+  - swoole-redis-server.sethandler.md: '« Swoole\\Redis\\Server::setHandler'
+  - class.swoole-serialize.md: Swoole\\Serialize »
   - index.md: PHP Manual
-  - class.swoole-redis-server.md: SwooleRedisServer
-title: 'SwooleRedisServer::start'
+  - class.swoole-redis-server.md: Swoole\\Redis\\Server
+title: 'Swoole\\Redis\\Server::start'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleRedisServer::start
+# Swoole\\Redis\\Server::start
 
 (PECL swoole >= 1.9.0)
 
-SwooleRedisServer::start — Опис
+Swoole\\Redis\\Server::start — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Redis\Server::start(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-cdup.md: « ftpcdup
-  - function.ftp-chmod.md: ftpchmod »
+  - function.ftp-cdup.md: « ftp\_cdup
+  - function.ftp-chmod.md: ftp\_chmod »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpchdir
+title: ftp\_chdir
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpchdir
+# ftp\_chdir
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftpchdir — Змінює поточну директорію на FTP-сервері
+ftp\_chdir — Змінює поточну директорію на FTP-сервері
 
 ### Опис
 
@@ -24,7 +25,7 @@ ftp_chdir(FTP\Connection $ftp, string $directory): bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `directory`
 
@@ -36,13 +37,13 @@ ftp_chdir(FTP\Connection $ftp, string $directory): bool
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpchdir()****
+**Пример #1 Пример использования**ftp\_chdir()\*\*\*\*
 
 ```php
 <?php
@@ -74,5 +75,5 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftpcdup()](function.ftp-cdup.md) - Переходить до батьківської директорії
--   [ftppwd()](function.ftp-pwd.md) - Повертає ім'я поточної директорії
+-   [ftp\_cdup()](function.ftp-cdup.md) \- Переходить до батьківської директорії
+-   [ftp\_pwd()](function.ftp-pwd.md) \- Повертає ім'я поточної директорії

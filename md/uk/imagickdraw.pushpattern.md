@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pushPattern'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::pushPattern
 
@@ -15,12 +16,12 @@ ImagickDraw::pushPattern — Вказує, що наступні команди 
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::pushPattern(    string $pattern_id,    float $x,    float $y,    float $width,    float $height): bool
+public ImagickDraw::pushPattern(    string $pattern_id,    float $x,    float $y,    float $width,    float $height): bool
 ```
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Вказує, що наступні команди до DrawPopPattern() містять визначення іменованого патерну. Простору патерна призначаються координати верхнього лівого кута, ширина і висота, і він стає простором для малювання. Все, що можна намалювати, можна використовувати у визначенні патерну. Іменовані патерни можуть використовуватися як визначення обведення або кистей.
 
@@ -48,11 +49,11 @@ ID патерну.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::pushPattern()****
+**Пример #1 Пример использования**ImagickDraw::pushPattern()\*\*\*\*
 
 ```php
 <?php

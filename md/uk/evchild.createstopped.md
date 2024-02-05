@@ -1,10 +1,11 @@
 ---
 navigation:
-  - evchild.construct.md: '« EvChild::construct'
+  - evchild.construct.md: '« EvChild::\_\_construct'
   - evchild.set.md: 'EvChild::set »'
   - index.md: PHP Manual
   - class.evchild.md: EvChild
 title: 'EvChild::createStopped'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvChild::createStopped
 
@@ -18,39 +19,39 @@ EvChild::createStopped — Створює зупинений екземпляр 
 final
    public
    static
-   EvChild::createStopped(    
+   EvChild::createStopped(    
     int
      $pid
-   ,    
+   ,    
     bool
      $trace
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
-    = ?,    
+    = ?,    
     int
      $priority
     = ?): object
 ```
 
-Те саме, що й [EvChild::construct()](evchild.construct.md) але не відбувається автоматичного запуску спостерігача.
+Те саме, що й [EvChild::\_\_construct()](evchild.construct.md) але не відбувається автоматичного запуску спостерігача.
 
 ### Список параметрів
 
 `pid`
 
-Дивіться [EvChild::construct()](evchild.construct.md)
+Смотрите[EvChild::\_\_construct()](evchild.construct.md)
 
 `trace`
 
-Дивіться [EvChild::construct()](evchild.construct.md)
+Смотрите[EvChild::\_\_construct()](evchild.construct.md)
 
 `callback`
 
-Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.md)
+Смотрите[Callback-функції спостерігачів](ev.watcher-callbacks.md)
 
 `data`
 
@@ -58,11 +59,11 @@ final
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
+[Пріоритет спостерігача](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
 ### Дивіться також
 
--   [EvChild::construct()](evchild.construct.md) - Створює об'єкт спостерігач EvChild
--   [EvLoop::child()](evloop.child.md) - Створює об'єкт EvChild, пов'язаний із поточним циклом подій
+-   [EvChild::\_\_construct()](evchild.construct.md) \- Створює об'єкт спостерігач EvChild
+-   [EvLoop::child()](evloop.child.md) \- Створює об'єкт EvChild, пов'язаний із поточним циклом подій

@@ -4,17 +4,18 @@ navigation:
   - reflectionenumunitcase.getenum.md: 'ReflectionEnumUnitCase::getEnum »'
   - index.md: PHP Manual
   - class.reflectionenumunitcase.md: ReflectionEnumUnitCase
-title: 'ReflectionEnumUnitCase::construct'
+title: 'ReflectionEnumUnitCase::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionEnumUnitCase::construct
+# ReflectionEnumUnitCase::\_\_construct
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-ReflectionEnumUnitCase::construct — Створює екземпляр об'єкта [ReflectionEnumUnitCase](class.reflectionenumunitcase.md)
+ReflectionEnumUnitCase::\_\_construct — Створює екземпляр об'єкта [ReflectionEnumUnitCase](class.reflectionenumunitcase.md)
 
 ### Опис
 
-public **ReflectionEnumUnitCase::construct**(object | string `$class`, string `$constant`
+public**ReflectionEnumUnitCase::\_\_construct**(object|string`$class`, string`$constant`) .
 
 ### Список параметрів
 

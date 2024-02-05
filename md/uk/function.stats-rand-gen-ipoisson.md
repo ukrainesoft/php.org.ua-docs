@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-rand-gen-int.md: « statsrandgenint
-  - function.stats-rand-gen-iuniform.md: statsrandgeniuniform »
+  - function.stats-rand-gen-int.md: « stats\_rand\_gen\_int
+  - function.stats-rand-gen-iuniform.md: stats\_rand\_gen\_iuniform »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsrandгенipoisson
+title: stats\_rand\_gen\_ipoisson
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsrandгенipoisson
+# stats\_rand\_gen\_ipoisson
 
 (PECL stats >= 1.0.0)
 
-statsrandгенipoisson - Обчислює випадкове відхилення від розподілу Пуассона
+stats\_rand\_gen\_ipoisson - Обчислює випадкове відхилення від розподілу Пуассона
 
 ### Опис
 

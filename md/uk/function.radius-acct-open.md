@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.radius.md: « Функции Radius
-  - function.radius-add-server.md: radiusaddserver »
+  - ref.radius.md: « Функції Radius
+  - function.radius-add-server.md: radius\_add\_server »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiusacctopen
+  - ref.radius.md: Функції Radius
+title: radius\_acct\_open
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiusacctopen
+# radius\_acct\_open
 
 (PECL radius >= 1.1.0)
 
-radiusacctopen — Створює дескриптор Radius для обліку
+radius\_acct\_open — Створює дескриптор Radius для обліку
 
 ### Опис
 
@@ -28,7 +29,7 @@ radius_acct_open(): resource
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radiusacctopen()****
+**Пример #1 Пример использования**radius\_acct\_open()\*\*\*\*
 
 ```php
 <?php

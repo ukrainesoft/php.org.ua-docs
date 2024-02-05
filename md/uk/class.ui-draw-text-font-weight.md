@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.ui-run.md: « UIrun
-  - class.ui-draw-text-font-italic.md: ОЙDrawTextFontItalic »
+  - function.ui-run.md: « UI\\run
+  - class.ui-draw-text-font-italic.md: UI\\Draw\\Text\\Font\\Italic »
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Налаштування зображення шрифту
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Налаштування зображення шрифту
 
@@ -14,7 +15,7 @@ title: Налаштування зображення шрифту
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 

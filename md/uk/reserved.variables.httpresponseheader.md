@@ -1,37 +1,38 @@
 ---
 navigation:
-  - reserved.variables.phperrormsg.md: « $phperrormsg
+  - reserved.variables.phperrormsg.md: « $php\_errormsg
   - reserved.variables.argc.md: $argc »
   - index.md: PHP Manual
   - reserved.variables.md: Зумовлені змінні
-title: $httpresponseheader
+title: $http\_response\_header
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# $httpresponseheader
+# $http\_response\_header
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-$httpresponseheader — Заголовки відповідей HTTP
+$http\_response\_header — Заголовки відповідей HTTP
 
 ### Опис
 
-Масив (array) $httpresponseheader схожий на функцію [getheaders()](function.get-headers.md). При використанні [обёртки HTTP](wrappers.http.md), $httpresponseheader буде заповнюватись заголовками відповіді HTTP. $httpresponseheader буде створено в [локальної області видимості](language.variables.scope.md)
+Масив (array) $http\_response\_header похож на функцию[get\_headers()](function.get-headers.md)При использовании[обгортки HTTP](wrappers.http.md), $http\_response\_header буде заповнюватись заголовками відповіді HTTP. $http\_response\_header будет создан в[локальної області видимості](language.variables.scope.md)
 
 ### Приклади
 
-**Приклад #1 Приклад $httpresponseheader**
+**Приклад #1 Приклад $http\_response\_header**
 
 ```php
 <?php
 function get_contents() {
   file_get_contents("http://example.com");
-  var_dump($http_response_header);
+  var_dump($http_response_header); // переменная заполняется в локальной области видимости
 }
 get_contents();
-var_dump($http_response_header);
+var_dump($http_response_header); // вызов функции get_contents() не заполняет переменную вне области видимости функции
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(9) {
@@ -54,5 +55,7 @@ array(9) {
   [8]=>
   string(38) "Content-Type: text/html; charset=UTF-8"
 }
+
+Warning: Undefined variable $http_response_header
 NULL
 ```

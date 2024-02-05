@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.ui-draw-text-font-stretch.md: « UIDrawTextFontStretch
-  - class.ui-draw-line-join.md: ОЙDrawLineJoin »
+  - class.ui-draw-text-font-stretch.md: « UI\\Draw\\Text\\Font\\Stretch
+  - class.ui-draw-line-join.md: UI\\Draw\\Line\\Join »
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Налаштування кінців ліній
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Налаштування кінців ліній
 
@@ -14,7 +15,7 @@ title: Налаштування кінців ліній
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 

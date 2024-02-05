@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-class.md: « getclass
-  - function.get-declared-interfaces.md: getdeclaredinterfaces »
+  - function.get-class.md: « get\_class
+  - function.get-declared-interfaces.md: get\_declared\_interfaces »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
-title: getdeclaredclasses
+title: get\_declared\_classes
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getdeclaredclasses
+# get\_declared\_classes
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-getdeclaredclasses — Повертає масив з іменами оголошених класів
+get\_declared\_classes — Повертає масив з іменами оголошених класів
 
 ### Опис
 
@@ -28,19 +29,19 @@ get_declared_classes(): array
 
 Повертає масив імен оголошених класів у поточному скрипті.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Врахуйте також, що в залежності від модулів, зібраних або завантажених у PHP, може змінюватись кількість додаткових класів. Це означає, що ви не можете використовувати власні класи з цими іменами. Список визначених класів перебуває у розділі доповнення "[Обумовлені класи](reserved.classes.md)".
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Раніше **getdeclaredclasses()** завжди повертала батьківські класи перед дочірніми класами. Це не так. Для значення, що повертається **getdeclaredclasses()** Конкретний порядок не гарантується. |
+| 7.4.0 | Раніше **get\_declared\_classes()** завжди повертала батьківські класи перед дочірніми класами. Це не так. Для значення, що повертається **get\_declared\_classes()** Конкретний порядок не гарантується. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getdeclaredclasses()****
+**Пример #1 Пример использования**get\_declared\_classes()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ print_r(get_declared_classes());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -61,6 +62,6 @@ Array
 
 ### Дивіться також
 
--   [classexists()](function.class-exists.md) - Перевіряє, чи був оголошений клас
--   [getdeclaredinterfaces()](function.get-declared-interfaces.md) - Повертає масив усіх оголошених інтерфейсів
--   [getdefinedfunctions()](function.get-defined-functions.md) - Повертає масив усіх певних функцій
+-   [class\_exists()](function.class-exists.md) \- Перевіряє, чи був оголошений клас
+-   [get\_declared\_interfaces()](function.get-declared-interfaces.md) \- Повертає масив усіх оголошених інтерфейсів
+-   [get\_defined\_functions()](function.get-defined-functions.md) \- Повертає масив усіх певних функцій

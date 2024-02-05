@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-sqlstatementresult.getaffecteditemscount.md: '« SqlStatementResult::getAffectedItemsCount'
   - mysql-xdevapi-sqlstatementresult.getcolumnnames.md: 'SqlStatementResult::getColumnNames »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: mysql\_xdevapi\\SqlStatementResult
 title: 'SqlStatementResult::getColumnsCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SqlStatementResult::getColumnsCount
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\SqlStatementResult::getColumnsCount(): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,13 +33,13 @@ public mysql_xdevapi\SqlStatementResult::getColumnsCount(): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Метод перейменований з getColumnCount() на getColumnsCount(). |
+| 8.0.14 | Метод перейменований з getColumnCount() на getColumnsCount(). |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSqlStatementResult::getColumnsCount()****
+**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatementResult::getColumnsCount()\*\*\*\*
 
 ```php
 <?php

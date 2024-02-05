@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-wrapper-restore.md: « streamwrapperrestore
+  - function.stream-wrapper-restore.md: « stream\_wrapper\_restore
   - book.swoole.md: Swoole »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamwrapperunregister
+title: stream\_wrapper\_unregister
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamwrapperunregister
+# stream\_wrapper\_unregister
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-streamwrapperunregister — Скасує реєстрацію обгортки URL
+stream\_wrapper\_unregister — Скасує реєстрацію обгортки URL
 
 ### Опис
 
@@ -18,7 +19,7 @@ streamwrapperunregister — Скасує реєстрацію обгортки U
 stream_wrapper_unregister(string $protocol): bool
 ```
 
-Дозволяє вам вимкнути вже певну обгортку потоку. Як тільки обгортка буде вимкнена, ви можете перезаписати її обгорткою користувача, використовуючи [streamwrapperregister()](function.stream-wrapper-register.md) або включити її повторно, використовуючи [streamwrapperrestore()](function.stream-wrapper-restore.md)
+Дозволяє вам вимкнути вже певну обгортку потоку. Як тільки обгортка буде вимкнена, ви можете перезаписати її обгорткою користувача, використовуючи [stream\_wrapper\_register()](function.stream-wrapper-register.md) або включити її повторно, використовуючи [stream\_wrapper\_restore()](function.stream-wrapper-restore.md)
 
 ### Список параметрів
 
@@ -26,4 +27,4 @@ stream_wrapper_unregister(string $protocol): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

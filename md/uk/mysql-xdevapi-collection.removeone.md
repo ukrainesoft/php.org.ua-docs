@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collection.remove.md: '« Collection::remove'
   - mysql-xdevapi-collection.replaceone.md: 'Collection::replaceOne »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
 title: 'Collection::removeOne'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collection::removeOne
 
@@ -24,7 +25,7 @@ public mysql_xdevapi\Collection::removeOne(string $id): mysql_xdevapi\Result
 
 `id`
 
-Ідентифікатор документа колекції, який потрібно видалити. Зазвичай це id, який було згенеровано MySQL Server при додаванні запису.
+Ідентифікатор документа колекції, який потрібно видалити. Зазвичай це \_id, який було згенеровано MySQL Server при додаванні запису.
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\Collection::removeOne(string $id): mysql_xdevapi\Result
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::removeOne()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::removeOne()\*\*\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ if(!$result->getAffectedItemsCount()) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 До свидания, Alfred, ты можешь взять с собой _id 00005b6b536100000000000000cb.

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::setMtimeIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::setMtimeIndex
 
@@ -36,7 +37,7 @@ public ZipArchive::setMtimeIndex(int $index, int $timestamp, int $flags = 0): bo
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -60,10 +61,10 @@ if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція доступна лише в тому випадку, якщо збірка здійснювалася з libzip ≥ 1.0.0.
 
 ### Дивіться також
 
--   [ZipArchive::setMtimeName()](ziparchive.setmtimename.md) - Встановити час модифікації файлу на його ім'я
+-   [ZipArchive::setMtimeName()](ziparchive.setmtimename.md) \- Встановити час модифікації файлу на його ім'я

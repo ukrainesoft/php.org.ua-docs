@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-stmt.prepare.md: '« mysqlistmt::prepare'
-  - mysqli-stmt.result-metadata.md: 'mysqlistmt::resultmetadata »'
+  - mysqli-stmt.prepare.md: '« mysqli\_stmt::prepare'
+  - mysqli-stmt.result-metadata.md: 'mysqli\_stmt::result\_metadata »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::reset'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::reset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::reset
+# mysqli\_stmt::reset
 
-# mysqlistmtreset
+# mysqli\_stmt\_reset
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::reset -- mysqlistmtreset — Скидає результати підготовленого запиту.
+mysqli\_stmt::reset -- mysqli\_stmt\_reset — Скидає результати підготовленого запиту.
 
 ### Опис
 
@@ -30,20 +31,20 @@ mysqli_stmt_reset(mysqli_stmt $statement): bool
 
 Скидає результати виконання підготовленого запиту на клієнта та на сервері та переводить запит у стан, як після підготовки.
 
-Скидає запит на сервері, а також дані, передані на сервер функцією [mysqlistmtsendlongdata()](mysqli-stmt.send-long-data.md), очищає буфер результатів запиту та поточні помилки. Функція не видаляє прив'язки параметрів запиту, а також надані на клієнта результуючі набори. Результуючі набори, що містяться на клієнті, будуть очищені при наступному виконанні запиту (або його закритті).
+Скидає запит на сервер, а також дані, передані на сервер функцією [mysqli\_stmt\_send\_long\_data()](mysqli-stmt.send-long-data.md), очищає буфер результатів запиту та поточні помилки. Функція не видаляє прив'язки параметрів запиту, а також надані на клієнта результуючі набори. Результуючі набори, що містяться на клієнті, будуть очищені при наступному виконанні запиту (або його закритті).
 
-Для підготовки запиту з іншим текстом SQL, використовуйте функцію [mysqlistmtprepare()](mysqli-stmt.prepare.md)
+Для подготовки запроса с другим SQL-текстом, используйте функцию[mysqli\_stmt\_prepare()](mysqli-stmt.prepare.md)
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
+-   [mysqli\_prepare()](mysqli.prepare.md) \- готує SQL вираз до виконання

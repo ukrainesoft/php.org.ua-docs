@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflection.md: Reflection
 title: 'Reflection::getModifierNames'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Reflection::getModifierNames
 
@@ -32,7 +33,7 @@ public static Reflection::getModifierNames(int $modifiers): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Reflection::getModifierNames()****
+**Пример #1 Пример использования**Reflection::getModifierNames()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ echo $bar->getModifiers() . "\n";
 echo implode(' ', Reflection::getModifierNames($bar->getModifiers()));
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Модификаторы для метода foo():
@@ -75,7 +76,7 @@ public
 
 ### Дивіться також
 
--   [ReflectionClass::getModifiers()](reflectionclass.getmodifiers.md) - Повертає інформацію про модифікаторів класу
--   [ReflectionClassConstant::getModifiers()](reflectionclassconstant.getmodifiers.md) - Отримує модифікатори константи класу
--   [ReflectionMethod::getModifiers()](reflectionmethod.getmodifiers.md) - Отримує модифікатори методу
--   [ReflectionProperty::getModifiers()](reflectionproperty.getmodifiers.md) - Отримання модифікаторів властивостей класу
+-   [ReflectionClass::getModifiers()](reflectionclass.getmodifiers.md) \- Повертає інформацію про модифікаторів класу
+-   [ReflectionClassConstant::getModifiers()](reflectionclassconstant.getmodifiers.md) \- Отримує модифікатори константи класу
+-   [ReflectionMethod::getModifiers()](reflectionmethod.getmodifiers.md) \- Отримує модифікатори методу
+-   [ReflectionProperty::getModifiers()](reflectionproperty.getmodifiers.md) \- Отримання модифікаторів властивостей класу

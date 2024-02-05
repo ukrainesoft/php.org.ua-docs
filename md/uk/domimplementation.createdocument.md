@@ -1,10 +1,11 @@
 ---
 navigation:
-  - domimplementation.construct.md: '« DOMImplementation::construct'
+  - domimplementation.construct.md: '« DOMImplementation::\_\_construct'
   - domimplementation.createdocumenttype.md: 'DOMImplementation::createDocumentType »'
   - index.md: PHP Manual
   - class.domimplementation.md: DOMImplementation
 title: 'DOMImplementation::createDocument'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMImplementation::createDocument
 
@@ -36,7 +37,7 @@ URI простору імен створюваного елемента document
 
 ### Значення, що повертаються
 
-Новий об'єкт класу [DOMDocument](class.domdocument.md). Якщо аргументи `namespace` `qualifiedName`, і `doctype` мають значення null, об'єкт, що повертається [DOMDocument](class.domdocument.md) буде порожнім та без елемента document.
+Новий об'єкт класу [DOMDocument](class.domdocument.md)или\*\*`false`\*\* у разі виникнення помилки. Якщо аргументи `namespace` `qualifiedName`, и`doctype` мають значення null, об'єкт, що повертається [DOMDocument](class.domdocument.md) буде порожнім та без елемента document.
 
 ### Помилки
 
@@ -46,18 +47,17 @@ URI простору імен створюваного елемента document
 
 **`DOM_NAMESPACE_ERR`**
 
-Виникає, якщо виявлена ​​помилка у рядках `namespace` і `qualifiedName`
-
-До PHP 8.0.0 метод *може* викликатись статично, але викличе помилку **`E_DEPRECATED`**. Починаючи з PHP 8.0.0, виклик цього методу статично викидає виняток [Error](class.error.md)
+Виникає, якщо виявлена ​​помилка у рядках `namespace`и`qualifiedName`
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `namespace` тепер допускає значення null. |
-|  | `doctype` тепер допускає значення null. |
+| 8.0.3 | `namespace` тепер допускає значення null. |
+| 8.0.0 | `doctype` тепер допускає значення null. |
+| 8.0.0 | При статичному виклику функції тепер викидається помилка [Error](class.error.md). . Раніше видавалася помилка рівня **`E_DEPRECATED`** |
 
 ### Дивіться також
 
--   [DOMDocument::construct()](domdocument.construct.md) - Створює новий об'єкт DOMDocument
--   [DOMImplementation::createDocumentType()](domimplementation.createdocumenttype.md) - Створює порожній об'єкт класу DOMDocumentType
+-   [DOMDocument::\_\_construct()](domdocument.construct.md) \- Створює новий об'єкт DOMDocument
+-   [DOMImplementation::createDocumentType()](domimplementation.createdocumenttype.md) \- Створює порожній об'єкт класу DOMDocumentType

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.capacity.md: '« DsDeque::capacity'
-  - ds-deque.construct.md: 'ДсDeque::construct »'
+  - ds-deque.capacity.md: '« Ds\\Deque::capacity'
+  - ds-deque.construct.md: 'Ds\\Deque::\_\_construct »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::clear'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::clear
+# Ds\\Deque::clear
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::clear — Видаляє всі значення з двосторонньої черги
+Ds\\Deque::clear — Видаляє всі значення з двосторонньої черги
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Deque::clear(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::clear()****
+**Пример #1 Пример использования**Ds\\Deque::clear()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ print_r($deque);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Deque Object

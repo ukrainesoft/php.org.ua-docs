@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.odbc-primarykeys.md: « odbcprimarykeys
-  - function.odbc-procedures.md: odbcprocedures »
+  - function.odbc-primarykeys.md: « odbc\_primarykeys
+  - function.odbc-procedures.md: odbc\_procedures »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcprocedurecolumns
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_procedurecolumns
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcprocedurecolumns
+# odbc\_procedurecolumns
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcprocedurecolumns — Отримує інформацію про параметри процедур
+odbc\_procedurecolumns — Отримує інформацію про параметри процедур
 
 ### Опис
 
 ```methodsynopsis
-odbc_procedurecolumns(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $procedure = null,    ?string $column = null): resource|false
+odbc_procedurecolumns(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $procedure = null,    ?string $column = null): resource|false
 ```
 
 Отримує інформацію про параметри процедури.
@@ -24,7 +25,7 @@ odbc_procedurecolumns(    resource $odbc,    ?string $catalog = null,    ?string
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `catalog`
 
@@ -44,7 +45,7 @@ odbc_procedurecolumns(    resource $odbc,    ?string $catalog = null,    ?string
 
 ### Значення, що повертаються
 
-Повертає список вхідних та вихідних параметрів, а також стовпці, що становлять результуючий набір для зазначених процедур. Повертає ідентифікатор результату ODBC або **`false`** у разі виникнення помилки.
+Повертає список вхідних та вихідних параметрів, а також стовпці, що становлять результуючий набір для зазначених процедур. Повертає ідентифікатор результату ODBC або \*\*`false`\*\*в случае возникновения ошибки.
 
 У результуючому наборі є такі стовпці:
 
@@ -70,13 +71,13 @@ odbc_procedurecolumns(    resource $odbc,    ?string $catalog = null,    ?string
 
 Драйвери можуть повідомляти додаткові стовпці.
 
-Результуючий набір впорядковується за `PROCEDURE_CAT` `PROCEDURE_SCHEM` `PROCEDURE_NAME` і `COLUMN_TYPE`
+Результирующий набор упорядочивается по`PROCEDURE_CAT` `PROCEDURE_SCHEM` `PROCEDURE_NAME`и`COLUMN_TYPE`
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | До цієї версії функцію можна було викликати лише з одним або п'ятьма аргументами. |
+| 8.0.0 | До цієї версії функцію можна було викликати лише з одним або п'ятьма аргументами. |
 
 ### Приклади
 
@@ -93,7 +94,7 @@ while (($row = odbc_fetch_array($columns))) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -122,4 +123,4 @@ Array
 
 ### Дивіться також
 
--   [odbccolumns()](function.odbc-columns.md) - перераховує імена стовпців у зазначених таблицях
+-   [odbc\_columns()](function.odbc-columns.md) \- перераховує імена стовпців у зазначених таблицях

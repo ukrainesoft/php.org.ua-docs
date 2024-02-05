@@ -1,10 +1,11 @@
 ---
 navigation:
-  - gearman.examples-reverse.md: « Базовое использование
+  - gearman.examples-reverse.md: « Базове використання
   - gearman.examples-reverse-task.md: 'Базові клієнт та обробник Gearman, відправка завдань »'
   - index.md: PHP Manual
   - gearman.examples.md: Приклади
 title: 'Базовий клієнт та обробник Gearman, фоновий режим'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Базовий клієнт та обробник Gearman, фоновий режим
 
@@ -93,7 +94,7 @@ function reverse_fn_fast($job)
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 % php reverse_worker.php

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-picker.construct.md: '« UIControlsPicker::construct'
-  - ui-controls-form.append.md: 'ОЙControlsForm::append »'
+  - ui-controls-picker.construct.md: '« UI\\Controls\\Picker::\_\_construct'
+  - ui-controls-form.append.md: 'UI\\Controls\\Form::append »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Форма" (розташування)
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Форма" (розташування)
 
@@ -70,7 +71,7 @@ controls
 
 ## Зміст
 
--   [ОЙControlsForm::append](ui-controls-form.append.md) — Додати елемент керування
--   [ОЙControlsForm::delete](ui-controls-form.delete.md) — Видалити елемент керування
--   [ОЙControlsForm::isPadded](ui-controls-form.ispadded.md) - Визначення заповнення
--   [ОЙControlsForm::setPadded](ui-controls-form.setpadded.md) - Встановити заповнення
+-   [UI\\Controls\\Form::append](ui-controls-form.append.md)— Додати елемент керування
+-   [UI\\Controls\\Form::delete](ui-controls-form.delete.md)— Видалити елемент керування
+-   [UI\\Controls\\Form::isPadded](ui-controls-form.ispadded.md) \- Визначення заповнення
+-   [UI\\Controls\\Form::setPadded](ui-controls-form.setpadded.md) \- Встановити заповнення

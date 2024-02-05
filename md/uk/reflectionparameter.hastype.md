@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::hasType'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionParameter::hasType
 
@@ -30,7 +31,7 @@ public ReflectionParameter::hasType(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionParameter::hasType()****
+**Пример #1 Пример использования**ReflectionParameter::hasType()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($reflectionParams[0]->hasType());
 var_dump($reflectionParams[1]->hasType());
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -52,4 +53,4 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionParameter::getType()](reflectionparameter.gettype.md) - Отримати тип параметра
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.md) \- Отримати тип параметра

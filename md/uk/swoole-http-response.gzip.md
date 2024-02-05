@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-http-response.end.md: '« SwooleHttpResponse::end'
-  - swoole-http-response.header.md: 'SwooleHttpResponse::header »'
+  - swoole-http-response.end.md: '« Swoole\\Http\\Response::end'
+  - swoole-http-response.header.md: 'Swoole\\Http\\Response::header »'
   - index.md: PHP Manual
-  - class.swoole-http-response.md: SwooleHttpResponse
-title: 'SwooleHttpResponse::gzip'
+  - class.swoole-http-response.md: Swoole\\Http\\Response
+title: 'Swoole\\Http\\Response::gzip'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleHttpResponse::gzip
+# Swoole\\Http\\Response::gzip
 
 (PECL swoole >= 1.9.0)
 
-SwooleHttpResponse::gzip — Включає gzip-стиснення вмісту відповіді.
+Swoole\\Http\\Response::gzip — Включає gzip-стиснення вмісту відповіді.
 
 ### Опис
 

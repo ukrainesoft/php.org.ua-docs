@@ -1,16 +1,17 @@
 ---
 navigation:
-  - migration56.extensions.md: « Другие изменения в модулях
-  - debugger.md: Отладка в PHP »
+  - migration56.extensions.md: Інші зміни в модулях
+  - debugger.md: Налагодження в PHP »
   - index.md: PHP Manual
-  - migration56.md: Миграция с PHP 5.5.x на PHP 5.6.x
+  - migration56.md: Міграція з PHP 5.5.x на PHP 5.6.x
 title: Нові глобальні константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Нові глобальні константи
 
-### [ДД](book.image.md)
+### [GD](book.image.md)
 
--   **`IMG_WEBP`** (з PHP 5.6.25)
+-   **`IMG_WEBP`**(з PHP 5.6.25)
 
 ### [LDAP](book.ldap.md)
 

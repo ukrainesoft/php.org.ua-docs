@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.odbc-statistics.md: « odbcstatistics
-  - function.odbc-tables.md: odbctables »
+  - function.odbc-statistics.md: « odbc\_statistics
+  - function.odbc-tables.md: odbc\_tables »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbctableprivileges
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_tableprivileges
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbctableprivileges
+# odbc\_tableprivileges
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbctableprivileges — Перераховує таблиці та привілеї, пов'язані з кожною таблицею
+odbc\_tableprivileges — Перелічує таблиці та привілеї, пов'язані з кожною таблицею
 
 ### Опис
 
 ```methodsynopsis
-odbc_tableprivileges(    resource $odbc,    ?string $catalog,    string $schema,    string $table): resource|false
+odbc_tableprivileges(    resource $odbc,    ?string $catalog,    string $schema,    string $table): resource|false
 ```
 
 Перелічує таблиці у запитаному діапазоні та привілеї, пов'язані з кожною таблицею.
@@ -24,7 +25,7 @@ odbc_tableprivileges(    resource $odbc,    ?string $catalog,    string $schema,
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `catalog`
 
@@ -40,7 +41,7 @@ odbc_tableprivileges(    resource $odbc,    ?string $catalog,    string $schema,
 
 ### Значення, що повертаються
 
-Ідентифікатор результату ODBC або **`false`** у разі виникнення помилки.
+Идентификатор результата ODBC или\*\*`false`\*\*в случае возникновения ошибки.
 
 У результуючому наборі є такі стовпці:
 
@@ -54,7 +55,7 @@ odbc_tableprivileges(    resource $odbc,    ?string $catalog,    string $schema,
 
 Драйвери можуть повідомляти додаткові стовпці.
 
-Результуючий набір впорядковується за `TABLE_CAT` `TABLE_SCHEM` `TABLE_NAME` `PRIVILEGE` і `GRANTEE`
+Результирующий набор упорядочивается по`TABLE_CAT` `TABLE_SCHEM` `TABLE_NAME` `PRIVILEGE`и`GRANTEE`
 
 ### Приклади
 
@@ -71,7 +72,7 @@ while (($row = odbc_fetch_array($privileges))) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -88,4 +89,4 @@ Array
 
 ### Дивіться також
 
--   [odbctables()](function.odbc-tables.md) - Отримує список імен таблиць, що зберігаються у певному джерелі даних
+-   [odbc\_tables()](function.odbc-tables.md) \- Отримує список імен таблиць, що зберігаються у певному джерелі даних

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3.md: SQLite3
 title: 'SQLite3::open'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3::open
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::open — Відкрити базу даних SQLite
 
@@ -24,7 +25,7 @@ public SQLite3::open(string $filename, int $flags = SQLITE3_OPEN_READWRITE | SQL
 
 `filename`
 
-Шлях до БД SQLite або `:memory:` для використання БД у пам'яті.
+Шлях до БД SQLite або `:memory:`для использования БД в памяти.
 
 `flags`
 
@@ -47,7 +48,7 @@ public SQLite3::open(string $filename, int $flags = SQLITE3_OPEN_READWRITE | SQL
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SQLite3::open()****
+**Пример #1 Пример использования**SQLite3::open()\*\*\*\*
 
 ```php
 <?php

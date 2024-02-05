@@ -1,104 +1,115 @@
 ---
 navigation:
   - mysqli.query.md: '« mysqli::query'
-  - mysqli.real-escape-string.md: 'mysqli::realescapestring »'
+  - mysqli.real-escape-string.md: 'mysqli::real\_escape\_string »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::realconnect'
+title: 'mysqli::real\_connect'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::realconnect
+# mysqli::real\_connect
 
-# mysqlirealconnect
+# mysqli\_real\_connect
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::realconnect -- mysqlirealconnect — Встановлює з'єднання з сервером mysql
+mysqli::real\_connect -- mysqli\_real\_connect — Встановлює з'єднання з сервером mysql
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public mysqli::real_connect(    string $host = ?,    string $username = ?,    string $passwd = ?,    string $dbname = ?,    int $port = ?,    string $socket = ?,    int $flags = ?): bool
+public mysqli::real_connect(    ?string $hostname = null,    ?string $username = null,    ?string $password = null,    ?string $database = null,    ?int $port = null,    ?string $socket = null,    int $flags = 0): bool
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-mysqli_real_connect(    mysqli $link,    string $host = ?,    string $username = ?,    string $passwd = ?,    string $dbname = ?,    int $port = ?,    string $socket = ?,    int $flags = ?): bool
+mysqli_real_connect(    mysqli $mysql,    ?string $hostname = null,    ?string $username = null,    ?string $password = null,    ?string $database = null,    ?int $port = null,    ?string $socket = null,    int $flags = 0): bool
 ```
 
 Встановлює з'єднання із СУБД MySQL.
 
-Ця функція відрізняється від [mysqliconnect()](function.mysqli-connect.md)
+Ця функція відрізняється від [mysqli\_connect()](function.mysqli-connect.md) :
 
--   Для роботи **mysqlirealconnect()** необхідний дійсний об'єкт, створений функцією [mysqliinit()](mysqli.init.md)
+-   Для роботи\*\*mysqli\_real\_connect()\*\*необхідний дійсний об'єкт, створений функцією[mysqli\_init()](mysqli.init.md)
     
--   За допомогою функції [mysqlioptions()](mysqli.options.md) можна встановити різні налаштування підключення.
+-   За допомогою функції[mysqli\_options()](mysqli.options.md)можна встановити різні настройки підключення.
     
--   Параметр `flags`
+-   Параметр`flags`
     
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
-`host`
+`hostname`
 
-Може бути ім'ям хоста або IP-адресою. Передача **`null`** або рядка "localhost" цього параметра означає, що як хост буде використовуватися локальна машина, на якій запущено скрипт. Якщо така можливість, будуть використовуватися пайпи замість протоколу TCP/IP.
+Може бути або ім'ям хоста, або IP-адресою. При передачі **`null`**, значение извлекается из[mysqli.default\_host](mysqli.configuration.md#ini.mysqli.default-host). По можливості замість протоколу TCP/IP використовуватимуться канали. Протокол TCP/IP використовується, якщо вказано ім'я хоста і номер порту, наприклад, `localhost:3308`
 
 `username`
 
-Ім'я користувача MySQL.
+Ім'я користувача MySQL або \*\*`null`\*\*для принятия имени пользователя на основе ini-опции[mysqli.default\_user](mysqli.configuration.md#ini.mysqli.default-user)
 
-`passwd`
+`password`
 
-Якщо не заданий або дорівнює **`null`**, MySQL-сервер в першу чергу спробує аутентифікувати користувача в принципі, який має пароль, а потім буде шукати серед користувачів, у яких немає пароля. Такий підхід дозволяє одному користувачеві призначати різні права (залежно від того, задано пароль чи ні).
+Пароль MySQL или\*\*`null`\*\*для принятия пароля на основе ini-опции[mysqli.default\_pw](mysqli.configuration.md#ini.mysqli.default-pw)
 
-`dbname`
+`database`
 
-Якщо параметр встановлено, його значення буде використовуватися як ім'я бази даних за замовчуванням під час виконання запитів.
+База даних за замовчуванням, яка буде використовуватися під час виконання запитів або **`null`**
 
 `port`
 
-Порт, до якого буде здійснюватись підключення.
+Номер порту для спроби підключення до сервера MySQL або \*\*`null`\*\*для принятия порта на основе ini-опции[mysqli.default\_port](mysqli.configuration.md#ini.mysqli.default-port)
 
 `socket`
 
 Вказує номер порту для підключення до сервера MySQL.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Передача параметра `socket` явно не визначатиме тип з'єднання при підключенні до сервера MySQL. Те, як встановлюватиметься з'єднання з MySQL-сервером, визначається параметром `host`
+> Передача параметра`socket` явно не буде задавати тип з'єднання при підключенні до сервера MySQL. Те, як встановлюватиметься з'єднання з MySQL-сервером, визначається параметром `hostname`
 
 `flags`
 
-За допомогою параметра `flags` можна встановити деякі налаштування з'єднання:
+С помощью параметра`flags` можна встановити деякі налаштування з'єднання:
 
 **Прапори, що підтримуються**
 
-| Имя | Описание |
+| Имя | Опис |
 | --- | --- |
 | **`MYSQLI_CLIENT_COMPRESS`** | Використовувати протокол стиснення |
 | **`MYSQLI_CLIENT_FOUND_ROWS`** | Повертати кількість рядків, що підійшли умовам вибірки, замість кількості порушених запитом рядків |
 | **`MYSQLI_CLIENT_IGNORE_SPACE`** | Допускати пробіли після назв функцій. Робить усі імена функцій зарезервованими словами. |
-| **`MYSQLI_CLIENT_INTERACTIVE`** | Допускати `interactive_timeout` секунд (замість `wait_timeout`) простою, перш ніж закрити з'єднання |
+| **`MYSQLI_CLIENT_INTERACTIVE`** | Допускати `interactive_timeout`секунд (вместо`wait_timeout`) простою, перш ніж закрити з'єднання |
 | **`MYSQLI_CLIENT_SSL`** | Використовувати SSL (шифрування) |
 | **`MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT`** | Аналогічно **`MYSQLI_CLIENT_SSL`**, але забороняє перевірку сертифіката SSL. Працює тільки з MySQL Native Driver та MySQL 5.6 та вище. |
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> З причин безпеки, прапор **`MULTI_STATEMENT`** не підтримується у PHP. Якщо потрібно виконувати мультизапити, використовуйте функцію [mysqlimultiquery()](mysqli.multi-query.md)
+> З причин безпеки, прапор **`MULTI_STATEMENT`** не підтримується у PHP. Якщо потрібно виконувати мультизапити, використовуйте функцію [mysqli\_multi\_query()](mysqli.multi-query.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+
+### Помилки
+
+Якщо сповіщення про помилки mysqli включено (**`MYSQLI_REPORT_ERROR`**) та запитана операція не вдалася, видається попередження. Якщо, крім того, встановлено режим **`MYSQLI_REPORT_STRICT`**, натомість буде викинуто виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.md)
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 7.4.0 | Усі параметри тепер припускають значення **`null`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::realconnect()****
+**Пример #1 Пример использования**mysqli::real\_connect()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -136,7 +147,7 @@ $mysqli->close();
 
 class foo_mysqli extends mysqli {
     public function __construct($host, $user, $pass, $db) {
-        parent::init();
+        parent::__construct();
 
         if (!parent::options(MYSQLI_INIT_COMMAND, 'SET AUTOCOMMIT = 0')) {
             die('Установка MYSQLI_INIT_COMMAND завершилась провалом');
@@ -190,7 +201,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Выполнено... MySQL host info: localhost via TCP/IP
@@ -198,16 +209,16 @@ mysqli_close($link);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > MySQLnd завжди має на увазі кодування, яке використовує за умовчанням сервер. Це кодування передається під час встановлення з'єднання/авторизації, які використовує mysqlnd.
 > 
-> Libmysqlclient за умовчанням використовує кодування, встановлене в my.cnf або спеціальним викликом [mysqlioptions()](mysqli.options.md) до використання **mysqlirealconnect()**, але після [mysqliinit()](mysqli.init.md)
+> За замовчуванням Libmysqlclient використовує кодування, встановлене у файлі my.cnf або явним викликом функції [mysqli\_options()](mysqli.options.md) до виклику функції **mysqli\_real\_connect()**, але після виклику функції [mysqli\_connect()](function.mysqli-connect.md)
 
 ### Дивіться також
 
--   [mysqliconnect()](function.mysqli-connect.md) - Псевдонім mysqli::construct
--   [mysqliinit()](mysqli.init.md) - Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqlirealconnect()
--   [mysqlioptions()](mysqli.options.md) - Встановлення налаштувань
--   [mysqlisslset()](mysqli.ssl-set.md) - Використовується для встановлення безпечних з'єднань за допомогою SSL
--   [mysqliclose()](mysqli.close.md) - Закриває раніше відкрите з'єднання з базою даних
+-   [mysqli\_connect()](function.mysqli-connect.md) \- Псевдонім mysqli::\_\_construct
+-   [mysqli\_init()](mysqli.init.md) \- Ініціалізує MySQLi та повертає об'єкт для використання у функції mysqli\_real\_connect()
+-   [mysqli\_options()](mysqli.options.md) \- Встановлення налаштувань
+-   [mysqli\_ssl\_set()](mysqli.ssl-set.md) \- Використовується для встановлення безпечних з'єднань за допомогою SSL
+-   [mysqli\_close()](mysqli.close.md) \- Закриває раніше відкрите з'єднання з базою даних

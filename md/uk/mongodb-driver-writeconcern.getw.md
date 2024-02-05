@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-writeconcern.getjournal.md: '« MongoDBDriverWriteConcern::getJournal'
-  - mongodb-driver-writeconcern.getwtimeout.md: 'MongoDBDriverWriteConcern::getWtimeout »'
+  - mongodb-driver-writeconcern.getjournal.md: '« MongoDB\\Driver\\WriteConcern::getJournal'
+  - mongodb-driver-writeconcern.getwtimeout.md: 'MongoDB\\Driver\\WriteConcern::getWtimeout »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern
-title: 'MongoDBDriverWriteConcern::getW'
+  - class.mongodb-driver-writeconcern.md: MongoDB\\Driver\\WriteConcern
+title: 'MongoDB\\Driver\\WriteConcern::getW'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteConcern::getW
+# MongoDB\\Driver\\WriteConcern::getW
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteConcern::getW — Повертає опцію "w" WriteConcern
+MongoDB\\Driver\\WriteConcern::getW — Повертає опцію "w" WriteConcern
 
 ### Опис
 
@@ -28,11 +29,11 @@ final public MongoDB\Driver\WriteConcern::getW(): string|int|null
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteConcern::getW()****
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteConcern::getW()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($wc->getW());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(1)
@@ -55,4 +56,4 @@ string(8) "majority"
 
 ### Дивіться також
 
--   [» Руководство по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Посібник з гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

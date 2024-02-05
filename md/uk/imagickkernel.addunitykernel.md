@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagickkernel.md: ImagickKernel
 title: 'ImagickKernel::addUnityKernel'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickKernel::addUnityKernel
 
 (PECL imagick >= 3.3.0)
 
-ImagickKernel::addUnityKernel — Опис
+ImagickKernel::addUnityKernel — Додає ядро ​​Unity до списку ядер
 
 ### Опис
 
@@ -18,7 +19,7 @@ ImagickKernel::addUnityKernel — Опис
 public ImagickKernel::addUnityKernel(float $scale): void
 ```
 
-Додає зазначену кількість згорткового ядра 'Unity' до вказаного попередньо масштабованого та нормалізованого ядра. Це фактично додає ту кількість вихідного зображення в ядро ​​згортки, що виходить. В результаті виходить перетворення певних ядер у змішані м'які плями, нерізкі ядра або загострені ядра.
+Додає зазначену кількість згорткового ядра 'Unity' до зазначеного попередньо масштабованого та нормалізованого ядра. Це фактично додає ту кількість вихідного зображення в ядро ​​згортки, що виходить. В результаті виходить перетворення певних ядер у змішані м'які плями, нерізкі ядра або загострені ядра.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public ImagickKernel::addUnityKernel(float $scale): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickKernel::addUnityKernel()****
+**Пример #1 Пример использования**ImagickKernel::addUnityKernel()\*\*\*\*
 
 ```php
 <?php
@@ -82,7 +83,7 @@ public ImagickKernel::addUnityKernel(float $scale): void
 ?>
 ```
 
-**Приклад #2 Приклад використання **ImagickKernel::addUnityKernel()****
+**Пример #2 Пример использования**ImagickKernel::addUnityKernel()\*\*\*\*
 
 ```php
 <?php

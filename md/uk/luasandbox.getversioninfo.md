@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::getVersionInfo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # LuaSandbox::getVersionInfo
 
@@ -31,4 +32,4 @@ public static LuaSandbox::getVersionInfo(): array
 | element | type | description |
 | --- | --- | --- |
 | LuaSandbox | string | Версія модуля LuaSandbox. |
-| Lua | string | Ім'я та версія бібліотеки, визначені макросом LUARELEASE, наприклад, "Lua 5.1.5". |
+| Lua | string | Ім'я та версія бібліотеки, визначені макросом LUA\_RELEASE, наприклад, "Lua 5.1.5". |

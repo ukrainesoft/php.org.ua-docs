@@ -1,28 +1,29 @@
 ---
 navigation:
-  - migration74.other-changes.md: « Другие изменения
-  - migration73.md: Миграция с PHP 7.2.x на PHP 7.3.x »
+  - migration74.other-changes.md: « Інші зміни
+  - migration73.md: Міграція з PHP 7.2.x на PHP 7.3.x »
   - index.md: PHP Manual
-  - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x
+  - migration74.md: Міграція з PHP 7.3.x на PHP 7.4.x
 title: Підтримка Windows
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Підтримка Windows
 
-### Прапори **configure**
+### Флаги**configure**
 
-**configure** тепер враховує додаткові змінні оточення `CFLAGS` і `LDFLAGS`
+**configure** тепер враховує додаткові змінні оточення `CFLAGS`и`LDFLAGS`
 
 ### Обробка CTRL
 
-Комбінації клавіш CTRL+C та CTRL+BREAK у командному рядку можна перехопити, встановивши функцію-обробник за допомогою [sapiwindowssetctrlhandler()](function.sapi-windows-set-ctrl-handler.md)
+Комбінації клавіш CTRL+C та CTRL+BREAK у командному рядку можна перехопити, встановивши функцію-обробник за допомогою [sapi\_windows\_set\_ctrl\_handler()](function.sapi-windows-set-ctrl-handler.md)
 
-Функції [procopen()](function.proc-open.md) на Windows може бути передана опція "createprocessgroup". Це потрібно, якщо дочірній процес має обробляти події CTRL.
+Функції [proc\_open()](function.proc-open.md) на Windows може бути передана опція "create\_process\_group". Це потрібно, якщо дочірній процес має обробляти події CTRL.
 
 ### OPcache
 
-OPcache тепер підтримує довільну кількість окремих кешів на кожного користувача за допомогою INI-директиви `opcache.cache_id`. Всі процеси з однаковим ідентифікатором кешу та користувачем використовують один і той самий екземпляр OPcache.
+OPcache тепер підтримує довільну кількість окремих кешів на кожного користувача за допомогою INI-директиви `opcache.cache_id`. Всі процеси з однаковим ідентифікатором кеша та користувачем використовують один і той самий екземпляр OPcache.
 
-### стати
+### stat
 
 Поліпшено реалізацію stat.
 
@@ -33,4 +34,4 @@ OPcache тепер підтримує довільну кількість окр
 
 ### libsqlite3
 
-libsqlite3 більше не компілюється статично у phpsqlite3.dll та phppdosqlite.dll, але доступний як libsqlite3.dll. Зверніться до інструкції з установки для [SQLite3](sqlite3.installation.md) і [PDOSQLITE](ref.pdo-sqlite.md#ref.pdo-sqlite.installation) відповідно.
+libsqlite3 більше не компілюється статично у php\_sqlite3.dll та php\_pdo\_sqlite.dll, но доступен как libsqlite3.dll. Обратитесь к инструкции по установке для[SQLite3](sqlite3.installation.md) і [PDO\_SQLITE](ref.pdo-sqlite.md#ref.pdo-sqlite.installation)соответственно.

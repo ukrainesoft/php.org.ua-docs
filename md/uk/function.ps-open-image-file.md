@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ps-open-file.md: «psopenfile
-  - function.ps-open-image.md: псopenimage »
+  - function.ps-open-file.md: « ps\_open\_file
+  - function.ps-open-image.md: ps\_open\_image »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псopenimagefile
+title: ps\_open\_image\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псopenimagefile
+# ps\_open\_image\_file
 
 (PECL ps >= 1.1.0)
 
-псopenimagefile — Відкриває зображення з файлу
+ps\_open\_image\_file — Відкриває зображення з файлу
 
 ### Опис
 
 ```methodsynopsis
-ps_open_image_file(    resource $psdoc,    string $type,    string $filename,    string $stringparam = ?,    int $intparam = 0): int
+ps_open_image_file(    resource $psdoc,    string $type,    string $filename,    string $stringparam = ?,    int $intparam = 0): int
 ```
 
 Завантажує зображення для подальшого використання.
@@ -24,11 +25,11 @@ ps_open_image_file(    resource $psdoc,    string $type,    string $filename,   
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий [ps\_new()](function.ps-new.md)
 
 `type`
 
-Тип зображення. Можливі значення: `png` `jpeg` або `eps`
+Тип зображення. Можливі значення: `png` `jpeg`или`eps`
 
 `filename`
 
@@ -48,6 +49,6 @@ ps_open_image_file(    resource $psdoc,    string $type,    string $filename,   
 
 ### Дивіться також
 
--   [псopenimage()](function.ps-open-image.md) - Зчитує зображення для подальшого розміщення
--   [псplaceimage()](function.ps-place-image.md) - Розміщує зображення на сторінці
--   [псcloseimage()](function.ps-close-image.md) - Закриває зображення та звільняє пам'ять
+-   [ps\_open\_image()](function.ps-open-image.md) \- Зчитує зображення для подальшого розміщення
+-   [ps\_place\_image()](function.ps-place-image.md) \- Розміщує зображення на сторінці
+-   [ps\_close\_image()](function.ps-close-image.md) \- Закриває зображення та звільняє пам'ять

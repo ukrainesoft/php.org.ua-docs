@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::getBoost'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrInputDocument::getBoost
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrInputDocument::getBoost — Отримує поточне значення підвищення документа
 
@@ -26,4 +27,4 @@ public SolrInputDocument::getBoost(): float
 
 ### Значення, що повертаються
 
-Повертає значення підвищення у разі успішного виконання та **`false`** у разі виникнення помилки.
+Повертає значення підвищення у разі успішного виконання та \*\*`false`\*\*в случае возникновения ошибки.

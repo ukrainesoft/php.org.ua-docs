@@ -4,17 +4,18 @@ navigation:
   - reflectionclass.export.md: 'ReflectionClass::export »'
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
-title: 'ReflectionClass::construct'
+title: 'ReflectionClass::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionClass::construct
+# ReflectionClass::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::construct — Створює об'єкт класу ReflectionClass
+ReflectionClass::\_\_construct — Створює об'єкт класу ReflectionClass
 
 ### Опис
 
-public **ReflectionClass::construct**(object | string `$objectOrClass`
+public**ReflectionClass::\_\_construct**(object|string`$objectOrClass`) .
 
 Створює новий об'єкт класу [ReflectionClass](class.reflectionclass.md)
 
@@ -34,14 +35,15 @@ public **ReflectionClass::construct**(object | string `$objectOrClass`
 
 ```php
 <?php
-Reflection::export(new ReflectionClass('Exception'));
+$reflection = new ReflectionClass('Exception');
+echo $reflection;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
-Class [ <internal:Core> class Exception ] {
+Class [ <internal:Core> class Exception implements Stringable, Throwable ] {
 
   - Constants [0] {
   }
@@ -53,50 +55,92 @@ Class [ <internal:Core> class Exception ] {
   }
 
   - Properties [7] {
-    Property [ <default> protected $message ]
-    Property [ <default> private $string ]
-    Property [ <default> protected $code ]
-    Property [ <default> protected $file ]
-    Property [ <default> protected $line ]
-    Property [ <default> private $trace ]
-    Property [ <default> private $previous ]
+    Property [ protected $message = '' ]
+    Property [ private string $string = '' ]
+    Property [ protected $code = 0 ]
+    Property [ protected string $file = '' ]
+    Property [ protected int $line = 0 ]
+    Property [ private array $trace = [] ]
+    Property [ private ?Throwable $previous = NULL ]
   }
 
-  - Methods [10] {
-    Method [ <internal:Core> final private method __clone ] {
+  - Methods [11] {
+    Method [ <internal:Core> private method __clone ] {
+
+      - Parameters [0] {
+      }
+      - Return [ void ]
     }
 
     Method [ <internal:Core, ctor> public method __construct ] {
 
       - Parameters [3] {
-        Parameter #0 [ <optional> $message ]
-        Parameter #1 [ <optional> $code ]
-        Parameter #2 [ <optional> $previous ]
+        Parameter #0 [ <optional> string $message = "" ]
+        Parameter #1 [ <optional> int $code = 0 ]
+        Parameter #2 [ <optional> ?Throwable $previous = null ]
       }
     }
 
-    Method [ <internal:Core> final public method getMessage ] {
+    Method [ <internal:Core> public method __wakeup ] {
+
+      - Parameters [0] {
+      }
+      - Tentative return [ void ]
     }
 
-    Method [ <internal:Core> final public method getCode ] {
+    Method [ <internal:Core, prototype Throwable> final public method getMessage ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
     }
 
-    Method [ <internal:Core> final public method getFile ] {
+    Method [ <internal:Core, prototype Throwable> final public method getCode ] {
+
+      - Parameters [0] {
+      }
     }
 
-    Method [ <internal:Core> final public method getLine ] {
+    Method [ <internal:Core, prototype Throwable> final public method getFile ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
     }
 
-    Method [ <internal:Core> final public method getTrace ] {
+    Method [ <internal:Core, prototype Throwable> final public method getLine ] {
+
+      - Parameters [0] {
+      }
+      - Return [ int ]
     }
 
-    Method [ <internal:Core> final public method getPrevious ] {
+    Method [ <internal:Core, prototype Throwable> final public method getTrace ] {
+
+      - Parameters [0] {
+      }
+      - Return [ array ]
     }
 
-    Method [ <internal:Core> final public method getTraceAsString ] {
+    Method [ <internal:Core, prototype Throwable> final public method getPrevious ] {
+
+      - Parameters [0] {
+      }
+      - Return [ ?Throwable ]
     }
 
-    Method [ <internal:Core> public method __toString ] {
+    Method [ <internal:Core, prototype Throwable> final public method getTraceAsString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
+    }
+
+    Method [ <internal:Core, prototype Stringable> public method __toString ] {
+
+      - Parameters [0] {
+      }
+      - Return [ string ]
     }
   }
 }
@@ -104,5 +148,5 @@ Class [ <internal:Core> class Exception ] {
 
 ### Дивіться також
 
--   [ReflectionObject::construct()](reflectionobject.construct.md) - Конструктор класу ReflectionObject
+-   [ReflectionObject::\_\_construct()](reflectionobject.construct.md) \- Конструктор класу ReflectionObject
 -   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

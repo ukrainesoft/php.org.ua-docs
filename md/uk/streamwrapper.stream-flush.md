@@ -1,16 +1,17 @@
 ---
 navigation:
-  - streamwrapper.stream-eof.md: '« streamWrapper::streameof'
-  - streamwrapper.stream-lock.md: 'streamWrapper::streamlock »'
+  - streamwrapper.stream-eof.md: '« streamWrapper::stream\_eof'
+  - streamwrapper.stream-lock.md: 'streamWrapper::stream\_lock »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
-title: 'streamWrapper::streamflush'
+title: 'streamWrapper::stream\_flush'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamWrapper::streamflush
+# streamWrapper::stream\_flush
 
-(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.2, PHP 5, PHP 7, PHP 8)
 
-streamWrapper::streamflush - Скидає висновок
+streamWrapper::stream\_flush - Скидає висновок
 
 ### Опис
 
@@ -28,14 +29,14 @@ public streamWrapper::stream_flush(): bool
 
 ### Значення, що повертаються
 
-Повинен повертати **`true`**, якщо кешовані дані успішно збережені (або їх взагалі немає), або \*\*`false`\*\*якщо дані не можуть бути збережені.
+Повинен повертати \*\*`true`\*\*якщо кешовані дані успішно збережені (або їх взагалі немає), або \*\*`false`\*\*якщо дані не можуть бути збережені.
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо метод не реалізований, як значення, що повертається, належить **`false`**
 
 ### Дивіться також
 
--   [fflush()](function.fflush.md) - скидає буфер виведення у файл
+-   [fflush()](function.fflush.md) \- скидає буфер виведення у файл

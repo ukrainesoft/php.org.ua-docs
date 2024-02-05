@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.gnupg-deletekey.md: « gnupgdeletekey
-  - function.gnupg-encryptsign.md: gnupgencryptsign »
+  - function.gnupg-deletekey.md: « gnupg\_deletekey
+  - function.gnupg-encryptsign.md: gnupg\_encryptsign »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgencrypt
+title: gnupg\_encrypt
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgencrypt
+# gnupg\_encrypt
 
 (PECL gnupg >= 0.1)
 
-gnupgencrypt - Шифрує заданий текст
+gnupg\_encrypt - Шифрує заданий текст
 
 ### Опис
 
 ```methodsynopsis
-gnupg_encrypt(resource $identifier, string $plaintext): string
+gnupg_encrypt(resource $identifier, string $plaintext): string|false
 ```
 
-Шифрує заданий текст `plaintext` за допомогою ключа, заданого раніше за допомогою функції [gnupgaddencryptkey](function.gnupg-addencryptkey.md) та повертає результат.
+Шифрує заданий текст `plaintext` за допомогою ключа, заданого раніше за допомогою функції [gnupg\_addencryptkey](function.gnupg-addencryptkey.md) та повертає результат.
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `plaintext`
 
@@ -36,7 +37,7 @@ gnupg_encrypt(resource $identifier, string $plaintext): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupgencrypt()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_encrypt()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo $enc;
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupgencrypt()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_encrypt()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

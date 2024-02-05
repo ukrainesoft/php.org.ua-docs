@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdllongleggeddoji.md: « tradercdllongleggeddoji
-  - function.trader-cdlmarubozu.md: tradercdlmarubozu »
+  - function.trader-cdllongleggeddoji.md: « trader\_cdllongleggeddoji
+  - function.trader-cdlmarubozu.md: trader\_cdlmarubozu »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdllongline
+  - ref.trader.md: Функції Trader
+title: trader\_cdllongline
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdllongline
+# trader\_cdllongline
 
 (PECL trader >= 0.2.0)
 
-tradercdllongline - Свічкова модель "Довга свічка"
+trader\_cdllongline - Свічкова модель "Довга свічка"
 
 ### Опис
 
 ```methodsynopsis
-trader_cdllongline(    array $open,    array $high,    array $low,    array $close): array
+trader_cdllongline(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

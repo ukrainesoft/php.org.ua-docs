@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::isDestructor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionMethod::isDestructor
 
@@ -30,4 +31,4 @@ public ReflectionMethod::isDestructor(): bool
 
 ### Дивіться також
 
--   [ReflectionMethod::isConstructor()](reflectionmethod.isconstructor.md) - Перевіряє, чи є метод конструктором
+-   [ReflectionMethod::isConstructor()](reflectionmethod.isconstructor.md) \- Перевіряє, чи є метод конструктором

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::fork'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::fork
 
@@ -35,7 +36,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvFork::construct()](evfork.construct.md)
+Усі параметри, що й для [EvFork::\_\_construct()](evfork.construct.md)
 
 ### Значення, що повертаються
 
@@ -43,4 +44,4 @@ final
 
 ### Дивіться також
 
--   [EvFork::construct()](evfork.construct.md) - Конструктор спостерігача EvFork
+-   [EvFork::\_\_construct()](evfork.construct.md) \- Конструктор спостерігача EvFork

@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collection.find.md: '« Collection::find'
   - mysql-xdevapi-collection.getone.md: 'Collection::getOne »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysql\_xdevapi\\Collection
 title: 'Collection::getName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collection::getName
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Collection::getName(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollection::getName()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Collection::getName()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($collection->getName());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(6) "people"

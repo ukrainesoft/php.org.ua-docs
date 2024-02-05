@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::sharpenImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::sharpenImage
 
@@ -18,7 +19,7 @@ Imagick::sharpenImage — Підвищує різкість зображення
 public Imagick::sharpenImage(float $radius, float $sigma, int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
-Підвищує різкість зображення. Згортання зображення за допомогою гаусівського оператора заданого радіусу та стандартного відхилення (сигма). Для розумних результатів радіус має бути більшим за сигму. Використовуйте радіус 0, та **Imagick::sharpenImage()** вибере відповідний вам радіус.
+Підвищує різкість зображення. Згортання зображення за допомогою гаусівського оператора заданого радіусу та стандартного відхилення (сигма). Для розумних результатів радіус має бути більшим за сигму. Використовуйте радіус 0, та **Imagick::sharpenImage()** вибере потрібний вам радіус.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public Imagick::sharpenImage(float $radius, float $sigma, int $channel = Imagick
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::sharpenImage()****
+**Пример #1 Пример использования**Imagick::sharpenImage()\*\*\*\*
 
 ```php
 <?php

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-lo-export.md: « pgлоexport
-  - function.pg-lo-open.md: пглоopen »
+  - function.pg-lo-export.md: « pg\_lo\_export
+  - function.pg-lo-open.md: pg\_lo\_open »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пглоimport
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_lo\_import
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пглоimport
+# pg\_lo\_import
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пглоimport — імпорт великого об'єкта з файлу
+pg\_lo\_import — імпорт великого об'єкта з файлу
 
 ### Опис
 
@@ -18,19 +19,19 @@ title: пглоimport
 pg_lo_import(PgSql\Connection $connection = ?, string $pathname, mixed $object_id = ?): int
 ```
 
-**пглоimport()** створює великий об'єкт у базі даних, використовуючи локальний файл як джерело даних.
+**pg\_lo\_import()** створює великий об'єкт у базі даних, використовуючи локальний файл як джерело даних.
 
 Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Колишня назва функції: **пгloimport()**
+> Прежнее название функции:**pg\_loimport()**
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection` не вказано, буде вибрано стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -42,21 +43,21 @@ pg_lo_import(PgSql\Connection $connection = ?, string $pathname, mixed $object_i
 
 `object_id`
 
-Якщо заданий аргумент `object_id`, функція спробує створити об'єкт із цим ідентифікатором, інакше буде використано вільний ідентифікатор, призначений сервером. Цей аргумент ґрунтується на функціоналі, вперше реалізованому в PostgreSQL 8.1.
+Если задан аргумент`object_id`, функція спробує створити об'єкт із цим ідентифікатором, інакше буде використано вільний ідентифікатор, призначений сервером. Цей аргумент ґрунтується на функціоналі, вперше реалізованому в PostgreSQL 8.1.
 
 ### Значення, що повертаються
 
-OID створеного великого об'єкта або **`false`** у разі виникнення помилки.
+OID створеного великого об'єкта або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пглоimport()****
+**Пример #1 Пример использования**pg\_lo\_import()\*\*\*\*
 
 ```php
 <?php
@@ -69,5 +70,5 @@ OID створеного великого об'єкта або **`false`** у р
 
 ### Дивіться також
 
--   [пглоexport()](function.pg-lo-export.md) - Виведення великого об'єкта у файл
--   [пглоopen()](function.pg-lo-open.md) - Відкриває великий об'єкт бази даних
+-   [pg\_lo\_export()](function.pg-lo-export.md) \- Виведення великого об'єкта у файл
+-   [pg\_lo\_open()](function.pg-lo-open.md) \- Відкриває великий об'єкт бази даних

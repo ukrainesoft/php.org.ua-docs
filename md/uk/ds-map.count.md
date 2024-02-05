@@ -1,15 +1,16 @@
 ---
 navigation:
-  - ds-map.copy.md: '« DsMap::copy'
-  - ds-map.diff.md: 'ДсMap::diff »'
+  - ds-map.copy.md: '« Ds\\Map::copy'
+  - ds-map.diff.md: 'Ds\\Map::diff »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::count'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::count
+# Ds\\Map::count
 
 (PECL ds >= 1.0.0)
 
-ДсMap::count — Повертає кількість елементів колекції
+Ds\\Map::count — Повертає кількість елементів колекції
 
-Дивіться опис функції [Countable::count()](countable.count.md)
+Смотрите описание функции[Countable::count()](countable.count.md)

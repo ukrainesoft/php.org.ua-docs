@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-get-value.md: «psgetvalue
-  - function.ps-include-file.md: псincludefile »
+  - function.ps-get-value.md: « ps\_get\_value
+  - function.ps-include-file.md: ps\_include\_file »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псhyphenate
+title: ps\_hyphenate
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псhyphenate
+# ps\_hyphenate
 
 (PECL ps >= 1.1.1)
 
-псhyphenate - Переносить слово
+ps\_hyphenate - Переносить слово
 
 ### Опис
 
@@ -18,15 +19,15 @@ title: псhyphenate
 ps_hyphenate(resource $psdoc, string $text): array|false
 ```
 
-Переносить це слово. Функція **псhyphenate()** оцінює дефіси значення (встановлюється [псsetvalue()](function.ps-set-value.md)) та дефіси параметра (встановлюється [псsetparameter()](function.ps-set-parameter.md)). Перед викликом цієї функції необхідно встановити дефіс.
+Переносить це слово. Функція **ps\_hyphenate()** оцінює дефіси значення (встановлюється [ps\_set\_value()](function.ps-set-value.md)) та дефіси параметра (встановлюється [ps\_set\_parameter()](function.ps-set-parameter.md)). Перед викликом цієї функції необхідно встановити дефіс.
 
-Для роботи функції потрібно, щоб категорія мовного стандарту LCCTYPE було встановлено коректно. Це робиться при ініціалізації модуля з використанням змінних оточення. У системах Unix для додаткової інформації прочитайте довідкову сторінку мовних стандартів.
+Для роботи функції потрібно, щоб категорія мовного стандарту LC\_CTYPE було встановлено коректно. Це робиться при ініціалізації модуля з використанням змінних оточення. У системах Unix для отримання додаткової інформації прочитайте довідкову сторінку мовних стандартів.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `text`
 
@@ -34,7 +35,7 @@ ps_hyphenate(resource $psdoc, string $text): array|false
 
 ### Значення, що повертаються
 
-Масив цілих чисел, що вказує на положення можливих переносів у тексті або **`false`** у разі виникнення помилки.
+Масив цілих чисел, що вказує на положення можливих переносів у тексті або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -55,7 +56,7 @@ ps_delete($psdoc);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Ko-ordi-na-ten-sys-tem
@@ -63,5 +64,5 @@ Ko-ordi-na-ten-sys-tem
 
 ### Дивіться також
 
--   [псshowboxed()](function.ps-show-boxed.md) - Виводить текст у поле
+-   [ps\_show\_boxed()](function.ps-show-boxed.md) \- Виводить текст у поле
 -   locale(1)

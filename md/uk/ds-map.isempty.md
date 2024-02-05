@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.intersect.md: '« DsMap::intersect'
-  - ds-map.jsonserialize.md: 'ДсMap::jsonSerialize »'
+  - ds-map.intersect.md: '« Ds\\Map::intersect'
+  - ds-map.jsonserialize.md: 'Ds\\Map::jsonSerialize »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::isEmpty'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::isEmpty'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::isEmpty
+# Ds\\Map::isEmpty
 
 (PECL ds >= 1.0.0)
 
-ДсMap::isEmpty — Перевіряє, чи порожня колекція
+Ds\\Map::isEmpty — Перевіряє, чи порожня колекція
 
 ### Опис
 
@@ -26,11 +27,11 @@ public Ds\Map::isEmpty(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо колекція порожня, та **`false`** в іншому випадку.
+Повертає **`true`**, если коллекция пуста, и\*\*`false`\*\* в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::isEmpty()****
+**Пример #1 Пример использования**Ds\\Map::isEmpty()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($b->isEmpty());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)

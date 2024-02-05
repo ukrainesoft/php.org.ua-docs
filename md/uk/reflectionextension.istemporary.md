@@ -1,14 +1,15 @@
 ---
 navigation:
   - reflectionextension.ispersistent.md: '« ReflectionExtension::isPersistent'
-  - reflectionextension.tostring.md: 'ReflectionExtension::toString »'
+  - reflectionextension.tostring.md: 'ReflectionExtension::\_\_toString »'
   - index.md: PHP Manual
   - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::isTemporary'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionExtension::isTemporary
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 ReflectionExtension::isTemporary — Визначає, чи модуль є тимчасовим
 
@@ -18,9 +19,9 @@ ReflectionExtension::isTemporary — Визначає, чи модуль є ти
 public ReflectionExtension::isTemporary(): bool
 ```
 
-**Увага**
+Перевіряє, чи модуль тимчасовим.
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Модуль є тимчасовим, коли він завантажується за допомогою функції [dl()](function.dl.md)
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ public ReflectionExtension::isTemporary(): bool
 
 ### Дивіться також
 
--   [ReflectionExtension::isPersistent()](reflectionextension.ispersistent.md) - Визначає, чи модуль є постійним
+-   [ReflectionExtension::isPersistent()](reflectionextension.ispersistent.md) \- Визначає, чи модуль є постійним

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcache.md: Memcache
 title: 'Memcache::getStats'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcache::getStats
 
@@ -18,7 +19,7 @@ Memcache::getStats — Отримати статистику сервера
 Memcache::getStats(string $type = ?, int $slabid = ?, int $limit = 100): array|false
 ```
 
-**Memcache::getStats()** повертає асоціативний масив, який містить статистику сервера. Ключі масиву відповідають параметрам статистики, а значення – значенням параметрів. Також можна використовувати функцію **memcachegetstats()**
+**Memcache::getStats()** повертає асоціативний масив, який містить статистику сервера. Ключі масиву відповідають параметрам статистики, а значення – значенням параметрів. Також можна використовувати функцію **memcache\_get\_stats()**
 
 ### Список параметрів
 
@@ -32,13 +33,13 @@ Memcache::getStats(string $type = ?, int $slabid = ?, int $limit = 100): array|f
 
 `limit`
 
-Використовується разом з `type` для обмеження кількості записів, що витягуються.
+Используется вместе с`type` для обмеження кількості записів, що витягуються.
 
 ### Значення, що повертаються
 
-Повертає асоціативний масив, що містить статистику сервера або **`false`** у разі виникнення помилки.
+Повертає асоціативний масив, що містить статистику сервера або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [Memcache::getVersion()](memcache.getversion.md) - Повернути версію сервера
--   [Memcache::getExtendedStats()](memcache.getextendedstats.md) - Отримати статистику з усіх серверів у пулі
+-   [Memcache::getVersion()](memcache.getversion.md) \- Повернути версію сервера
+-   [Memcache::getExtendedStats()](memcache.getextendedstats.md) \- Отримати статистику з усіх серверів у пулі

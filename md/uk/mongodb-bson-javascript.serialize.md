@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-javascript.jsonserialize.md: '« MongoDBBSONJavascript::jsonSerialize'
-  - mongodb-bson-javascript.tostring.md: 'MongoDBBSONJavascript::toString »'
+  - mongodb-bson-javascript.jsonserialize.md: '« MongoDB\\BSON\\Javascript::jsonSerialize'
+  - mongodb-bson-javascript.tostring.md: 'MongoDB\\BSON\\Javascript::\_\_toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-javascript.md: MongoDBBSONJavascript
-title: 'MongoDBBSONJavascript::serialize'
+  - class.mongodb-bson-javascript.md: MongoDB\\BSON\\Javascript
+title: 'MongoDB\\BSON\\Javascript::serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONJavascript::serialize
+# MongoDB\\BSON\\Javascript::serialize
 
 (mongodb >=1.2.0)
 
-MongoDBBSONJavascript::serialize — Серіалізувати JavaScript
+MongoDB\\BSON\\Javascript::serialize — Серіалізувати JavaScript
 
 ### Опис
 
@@ -24,14 +25,14 @@ final public MongoDB\BSON\Javascript::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONJavascript](class.mongodb-bson-javascript.md)
+Возвращает сериализованное представление[MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONJavascript::unserialize()](mongodb-bson-javascript.unserialize.md) - Десеріалізувати JavaScript
--   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [MongoDB\\BSON\\Javascript::unserialize()](mongodb-bson-javascript.unserialize.md) \- Десеріалізувати JavaScript
+-   [serialize()](function.serialize.md) \- Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

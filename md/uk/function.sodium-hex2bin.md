@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-stream.md: « sodiumcryptostream
-  - function.sodium-increment.md: sodiumincrement »
+  - function.sodium-crypto-stream.md: « sodium\_crypto\_stream
+  - function.sodium-increment.md: sodium\_increment »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumhex2bin
+  - ref.sodium.md: Опції Sodium
+title: sodium\_hex2bin
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumhex2bin
+# sodium\_hex2bin
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumhex2bin - Декодує рядок у шістнадцятковому поданні в бінарне
+sodium\_hex2bin - Декодує рядок у шістнадцятковому поданні в бінарне
 
 ### Опис
 
@@ -20,7 +21,7 @@ sodium_hex2bin(string $string, string $ignore = ""): string
 
 Декодує рядок, закодований у шістнадцяткове подання до бінарного.
 
-Як і [sodiumbin2hex()](function.sodium-bin2hex.md), функція **sodiumhex2bin()** стійка до атак по стороннім каналам (side-channel attacks), на відміну функції [hex2bin()](function.hex2bin.md)
+Як і [sodium\_bin2hex()](function.sodium-bin2hex.md), функция**sodium\_hex2bin()** стійка до атак по стороннім каналам (side-channel attacks), на відміну функції [hex2bin()](function.hex2bin.md)
 
 ### Список параметрів
 

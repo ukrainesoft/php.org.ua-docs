@@ -1,28 +1,29 @@
 ---
 navigation:
-  - mongodb-bson-maxkey.serialize.md: '« MongoDBBSONMaxKey::serialize'
-  - class.mongodb-bson-minkey.md: MongoDBBSONMinKey »
+  - mongodb-bson-maxkey.serialize.md: '« MongoDB\\BSON\\MaxKey::serialize'
+  - class.mongodb-bson-minkey.md: MongoDB\\BSON\\MinKey »
   - index.md: PHP Manual
-  - class.mongodb-bson-maxkey.md: MongoDBBSONMaxKey
-title: 'MongoDBBSONMaxKey::unserialize'
+  - class.mongodb-bson-maxkey.md: MongoDB\\BSON\\MaxKey
+title: 'MongoDB\\BSON\\MaxKey::unserialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONMaxKey::unserialize
+# MongoDB\\BSON\\MaxKey::unserialize
 
 (mongodb >=1.2.0)
 
-MongoDBBSONMaxKey::unserialize — Десеріалізує MaxKey
+MongoDB\\BSON\\MaxKey::unserialize — Десеріалізує MaxKey
 
 ### Опис
 
 ```methodsynopsis
-final public MongoDB\BSON\MaxKey::unserialize(string $serialized): void
+final public MongoDB\BSON\MaxKey::unserialize(string $data): void
 ```
 
 ### Список параметрів
 
-`serialized`
+`data`
 
-Серіалізований [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.md)
+Серіалізований [MongoDB\\BSON\\MaxKey](class.mongodb-bson-maxkey.md)
 
 ### Значення, що повертаються
 
@@ -30,10 +31,10 @@ final public MongoDB\BSON\MaxKey::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONMaxKey::serialize()](mongodb-bson-maxkey.serialize.md) - Серіалізує MaxKey
--   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [MongoDB\\BSON\\MaxKey::serialize()](mongodb-bson-maxkey.serialize.md) \- Серіалізує MaxKey
+-   [unserialize()](function.unserialize.md) \- Створює PHP-значення зі збереженого уявлення
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

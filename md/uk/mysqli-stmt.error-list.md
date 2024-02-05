@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli-stmt.errno.md: '« mysqlistmt::$errno'
-  - mysqli-stmt.error.md: 'mysqlistmt::$error »'
+  - mysqli-stmt.errno.md: '« mysqli\_stmt::$errno'
+  - mysqli-stmt.error.md: 'mysqli\_stmt::$error »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::$errorlist'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::$error\_list'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::$errorlist
+# mysqli\_stmt::$error\_list
 
-# mysqlistmterrorlist
+# mysqli\_stmt\_error\_list
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
-mysqlistmt::$errorlist - mysqlistmterrorlist — Повертає список помилок виконання останнього запиту
+mysqli\_stmt::$error\_list -- mysqli\_stmt\_error\_list — Повертає список помилок виконання останнього запиту
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-array [$mysqlistmt->errorlist](mysqli-stmt.error-list.md)
+array[$mysqli\_stmt->error\_list](mysqli-stmt.error-list.md)
 
 Процедурний стиль
 
@@ -32,7 +33,7 @@ mysqli_stmt_error_list(mysqli_stmt $statement): array
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -116,9 +117,10 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
+Ошибка:
 Array
 (
     [0] => Array
@@ -133,6 +135,6 @@ Array
 
 ### Дивіться також
 
--   [mysqlistmterror()](mysqli-stmt.error.md) - Повертає рядок із поясненням останньої помилки під час виконання запиту
--   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
--   [mysqlistmtsqlstate()](mysqli-stmt.sqlstate.md) - Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
+-   [mysqli\_stmt\_error()](mysqli-stmt.error.md) \- Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqli\_stmt\_errno()](mysqli-stmt.errno.md) \- Повертає код помилки виконання останнього запиту
+-   [mysqli\_stmt\_sqlstate()](mysqli-stmt.sqlstate.md) \- Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом

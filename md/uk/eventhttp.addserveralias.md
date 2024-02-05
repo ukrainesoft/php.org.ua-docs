@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttp.md: EventHttp
 title: 'EventHttp::addServerAlias'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttp::addServerAlias
 
@@ -32,11 +33,11 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **EventHttp::addServerAlias()****
+**Пример #1 Пример использования**EventHttp::addServerAlias()\*\*\*\*
 
 ```php
 <?php
@@ -63,4 +64,4 @@ $base->dispatch();
 
 ### Дивіться також
 
--   [EventHttp::removeServerAlias()](eventhttp.removeserveralias.md) - Видаляє псевдонім сервера
+-   [EventHttp::removeServerAlias()](eventhttp.removeserveralias.md) \- Видаляє псевдонім сервера

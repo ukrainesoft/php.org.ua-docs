@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-group.construct.md: '« UIControlsGroup::construct'
-  - ui-controls-group.hasmargin.md: 'ОЙControlsGroup::hasMargin »'
+  - ui-controls-group.construct.md: '« UI\\Controls\\Group::\_\_construct'
+  - ui-controls-group.hasmargin.md: 'UI\\Controls\\Group::hasMargin »'
   - index.md: PHP Manual
-  - class.ui-controls-group.md: ОЙControlsGroup
-title: 'ОЙControlsGroup::getTitle'
+  - class.ui-controls-group.md: UI\\Controls\\Group
+title: 'UI\\Controls\\Group::getTitle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsGroup::getTitle
+# UI\\Controls\\Group::getTitle
 
 (UI 0.9.9)
 
-ОЙControlsGroup::getTitle — Отримати заголовок
+UI\\Controls\\Group::getTitle — Отримати заголовок
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-close.md: « ibaseclose
-  - function.ibase-commit.md: ibasecommit »
+  - function.ibase-close.md: « ibase\_close
+  - function.ibase-commit.md: ibase\_commit »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibasecommitret
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_commit\_ret
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibasecommitret
+# ibase\_commit\_ret
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibasecommitret - Фіксує транзакцію, не закриваючи її
+ibase\_commit\_ret - Фіксує транзакцію, не закриваючи її
 
 ### Опис
 
@@ -28,4 +29,4 @@ ibase_commit_ret(resource $link_or_trans_identifier = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

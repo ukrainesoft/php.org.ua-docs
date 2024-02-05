@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.enchant-dict-store-replacement.md: « enchantdictstorereplacement
+  - function.enchant-dict-store-replacement.md: « enchant\_dict\_store\_replacement
   - class.enchantbroker.md: EnchantBroker »
   - index.md: PHP Manual
-  - ref.enchant.md: Функции Enchant
-title: enchantdictsuggest
+  - ref.enchant.md: Функції Enchant
+title: enchant\_dict\_suggest
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# enchantdictsuggest
+# enchant\_dict\_suggest
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8, PECL enchant> = 0.1.0)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL enchant >= 0.1.0 )
 
-enchantdictsuggest — Поверне список можливих варіантів для слова з помилкою
+enchant\_dict\_suggest — Поверне список можливих варіантів для слова з помилкою
 
 ### Опис
 
@@ -22,7 +23,7 @@ enchant_dict_suggest(EnchantDictionary $dictionary, string $word): array
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchant\_broker\_request\_dict()](function.enchant-broker-request-dict.md) або [enchant\_broker\_request\_pwl\_dict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 
@@ -34,13 +35,13 @@ enchant_dict_suggest(EnchantDictionary $dictionary, string $word): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **enchantdictsuggest()****
+**Пример #1 Пример использования**enchant\_dict\_suggest()\*\*\*\*
 
 ```php
 <?php
@@ -63,5 +64,5 @@ enchant_broker_free($r);
 
 ### Дивіться також
 
--   [enchantdictcheck()](function.enchant-dict-check.md) - Перевіряє, чи правильно задано слово
--   [enchantdictquickcheck()](function.enchant-dict-quick-check.md) - Перевірити, чи правильно написано слово та запропонувати варіанти заміни
+-   [enchant\_dict\_check()](function.enchant-dict-check.md) \- Перевіряє, чи правильно задано слово
+-   [enchant\_dict\_quick\_check()](function.enchant-dict-quick-check.md) \- Перевірити, чи правильно написано слово та запропонувати варіанти заміни

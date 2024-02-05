@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.norewinditerator.md: NoRewindIterator
 title: 'NoRewindIterator::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NoRewindIterator::rewind
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 NoRewindIterator::rewind — Запобігає поверненню внутрішнього ітератора на початок
 
@@ -30,7 +31,7 @@ public NoRewindIterator::rewind(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **NoRewindIterator::rewind()****
+**Пример #1 Пример использования**NoRewindIterator::rewind()\*\*\*\*
 
 Приклад показує, що виклик операції повернення на початок об'єкта NoRewindIterator не має жодного ефекту.
 
@@ -48,7 +49,7 @@ echo $noRewindIterator->current() . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 лимон

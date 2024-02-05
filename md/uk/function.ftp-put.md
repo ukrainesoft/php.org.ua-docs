@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.ftp-pasv.md: « ftppasv
-  - function.ftp-pwd.md: ftppwd »
+  - function.ftp-pasv.md: « ftp\_pasv
+  - function.ftp-pwd.md: ftp\_pwd »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpput
+title: ftp\_put
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpput
+# ftp\_put
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ftpput — Завантажує файл на сервер FTP
+ftp\_put — Завантажує файл на сервер FTP
 
 ### Опис
 
 ```methodsynopsis
-ftp_put(    FTP\Connection $ftp,    string $remote_filename,    string $local_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
+ftp_put(    FTP\Connection $ftp,    string $remote_filename,    string $local_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
 ```
 
-**ftpput()** завантажує локальний файл на сервер FTP.
+**ftp\_put()** завантажує локальний файл на сервер FTP.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `remote_filename`
 
@@ -36,7 +37,7 @@ ftp_put(    FTP\Connection $ftp,    string $remote_filename,    string $local_fi
 
 `mode`
 
-Визначає режим передачі. Може приймати значення **`FTP_ASCII`** або **`FTP_BINARY`**
+Визначає режим передачі. Може приймати значення **`FTP_ASCII`**или**`FTP_BINARY`**
 
 `offset`
 
@@ -44,18 +45,18 @@ ftp_put(    FTP\Connection $ftp,    string $remote_filename,    string $local_fi
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 7.3.0 | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ftpput()****
+**Пример #1 Пример использования**ftp\_put()\*\*\*\*
 
 ```php
 <?php
@@ -82,7 +83,7 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftppasv()](function.ftp-pasv.md) - Вмикає або вимикає пасивний режим
--   [ftpfput()](function.ftp-fput.md) - Завантажує попередньо відкритий файл на FTP-сервер
--   [ftpнбfput()](function.ftp-nb-fput.md) - Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
--   [ftpнбput()](function.ftp-nb-put.md) - Завантажує файл на сервер FTP в асинхронному режимі
+-   [ftp\_pasv()](function.ftp-pasv.md) \- Вмикає або вимикає пасивний режим
+-   [ftp\_fput()](function.ftp-fput.md) \- Завантажує попередньо відкритий файл на FTP-сервер
+-   [ftp\_nb\_fput()](function.ftp-nb-fput.md) \- Завантажує заздалегідь відкритий файл на FTP-сервер в асинхронному режимі
+-   [ftp\_nb\_put()](function.ftp-nb-put.md) \- Завантажує файл на сервер FTP в асинхронному режимі

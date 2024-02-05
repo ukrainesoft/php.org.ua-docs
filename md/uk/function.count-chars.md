@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.convert-uuencode.md: « convertuuencode
+  - function.convert-uuencode.md: « convert\_uuencode
   - function.crc32.md: crc32 »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: countchars
+title: count\_chars
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# countchars
+# count\_chars
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-countchars — Повертає інформацію про символи, що входять до рядка
+count\_chars — Повертає інформацію про символи, що входять до рядка
 
 ### Опис
 
@@ -32,7 +33,7 @@ count_chars(string $string, int $mode = 0): array|string
 
 ### Значення, що повертаються
 
-Залежно від параметра `mode` **countchars()** повертає одне з наступних значень:
+В зависимости от параметра`mode` **count\_chars()** повертає одне з наступних значень:
 
 -   0 – масив, індексами якого є ASCII-коди, а значеннями – число входжень відповідного символу.
 -   1 - те саме, що і для 0, але інформація про символи з нульовим числом входжень не включається до масиву.
@@ -42,13 +43,13 @@ count_chars(string $string, int $mode = 0): array|string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | До цієї версії функція повертала **`false`** у разі виникнення помилки. |
+| 8.0.0 | До цієї версії функція повертала \*\*`false`\*\*в случае возникновения ошибки. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **countchars()****
+**Пример #1 Пример использования**count\_chars()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ foreach (count_chars($data, 1) as $i => $val) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 " " встречается в строке 4 раз(а).
@@ -78,5 +79,5 @@ foreach (count_chars($data, 1) as $i => $val) {
 
 ### Дивіться також
 
--   [strpos()](function.strpos.md) - Повертає позицію першого входження підрядка
--   [substrcount()](function.substr-count.md) - Повертає кількість входжень підрядка
+-   [strpos()](function.strpos.md) \- Повертає позицію першого входження підрядка
+-   [substr\_count()](function.substr-count.md) \- Повертає кількість входжень підрядка

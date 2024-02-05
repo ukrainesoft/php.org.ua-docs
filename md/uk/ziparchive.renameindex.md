@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::renameIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::renameIndex
 
@@ -24,7 +25,7 @@ public ZipArchive::renameIndex(int $index, string $new_name): bool
 
 `index`
 
-Індекс елемент для перейменування.
+Індекс елемента для перейменування.
 
 `new_name`
 
@@ -32,7 +33,7 @@ public ZipArchive::renameIndex(int $index, string $new_name): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

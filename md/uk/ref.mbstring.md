@@ -1,84 +1,86 @@
 ---
 navigation:
   - mbstring.php4.req.md: « Вимоги до кодування символів у PHP
-  - function.mb-check-encoding.md: мбcheckencoding »
+  - function.mb-check-encoding.md: mb\_check\_encoding »
   - index.md: PHP Manual
   - book.mbstring.md: Багатобайтові рядки
 title: Функції для роботи з багатобайтовими рядками
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Функції для роботи з багатобайтовими рядками
 
 # Посилання
 
-Схеми багатобайтного кодування символів та його реалізації досить складні, та його опис перебуває поза цієї документации. Більш вичерпну інформацію про кодування та їх пристрій можна отримати з наведених нижче джерел.
+Схеми багатобайтного кодування символів та пов'язані з ними проблеми складні, а їх опис виходить за межі цієї документації. Додаткова інформація про кодування та про те, як вони влаштовані, доступна в наступних джерелах:
 
 -   Матеріали по Юнікоду
     
-    [» http://www.unicode.org/](http://www.unicode.org/)
+    [» http://www.unicode.org/](http://www.unicode.org/)
     
--   Інформація про символи японського/корейського/китайського кодувань
+-   Інформація про символи японського, корейського та китайського кодувань
     
-    [» https://resources.oreilly.com/examples/9781565922242/blob/master/doc/cjk.inf](https://resources.oreilly.com/examples/9781565922242/blob/master/doc/cjk.inf)
+    [» https://resources.oreilly.com/examples/9781565922242/blob/master/doc/cjk.inf](https://resources.oreilly.com/examples/9781565922242/blob/master/doc/cjk.inf)
     
 
 ## Зміст
 
--   [мбcheckencoding](function.mb-check-encoding.md) — Перевіряє, що кодування рядків вибрано правильно
--   [мбchr](function.mb-chr.md) — Повертає символ за значенням кодової точки Unicode
--   [мбconvertcase](function.mb-convert-case.md) — Здійснює зміну регістру символів у рядку
--   [мбconvertencoding](function.mb-convert-encoding.md) — Перетворює рядок з одного кодування символів на інший
--   [мбconvertkana](function.mb-convert-kana.md) - Перетворення кодувань "kana" з одного в інше ("zen-kaku", "han-kaku" та інші)
--   [мбconvertvariables](function.mb-convert-variables.md) — Перетворює символи на змінну з одного кодування на інше
--   [мбdecodemimeheader](function.mb-decode-mimeheader.md) — Декодує рядок у MIME-заголовку
--   [мбdecodenumericentity](function.mb-decode-numericentity.md) — Декодує посилання на числовий рядок HTML на символ
--   [мбdetectencoding](function.mb-detect-encoding.md) — Визначення кодування символів
--   [мбdetectorder](function.mb-detect-order.md) — Встановлення/отримання списку кодувань для механізмів визначення кодування
--   [мбencodemimeheader](function.mb-encode-mimeheader.md) — Кодує рядок для MIME-заголовка
--   [мбencodenumericentity](function.mb-encode-numericentity.md) — Кодує символ у числове HTML-посилання
--   [мбencodingaliases](function.mb-encoding-aliases.md) — Отримує псевдоніми відомого типу кодування
--   [мбeregmatch](function.mb-ereg-match.md) — Збіг з регулярним виразом для багатобайтового рядка
--   [мбeregreplacecallback](function.mb-ereg-replace-callback.md) — Виконує пошук та заміну за регулярним виразом за допомогою багатобайтових кодувань використовуючи callback-функцію
--   [мбeregreplace](function.mb-ereg-replace.md) — Здійснює заміну за регулярним виразом за допомогою багатобайтових кодувань.
--   [мбeregsearchgetpos](function.mb-ereg-search-getpos.md) — Повертає початкову позицію наступного збігу з регулярним виразом
--   [мбeregsearchgetregs](function.mb-ereg-search-getregs.md) — Виводить результат останнього порівняння з регулярним виразом
--   [мбeregsearchinit](function.mb-ereg-search-init.md) — Ініціалізація пошуку відповідностей регулярному виразу багатобайтовим рядком та текстом регулярного вираження
--   [мбeregsearchpos](function.mb-ereg-search-pos.md) — Повертає позицію і довжину ділянки багатобайтового рядка, що збіглася з регулярним виразом.
--   [мбeregsearchregs](function.mb-ereg-search-regs.md) — Повертає частину рядка, що збіглася з регулярним виразом.
--   [мбeregsearchsetpos](function.mb-ereg-search-setpos.md) — Задає початкову позицію у рядку, з якого розпочнеться пошук відповідностей регулярному виразу
--   [мбeregsearch](function.mb-ereg-search.md) — Пошук відповідності регулярному виразу для рядків у багатобайтових кодуваннях
--   [мбereg](function.mb-ereg.md) — Збіг з регулярним виразом із підтримкою багатобайтових кодувань
--   [мбeregireplace](function.mb-eregi-replace.md) — Здійснює заміну за регулярним виразом за допомогою багатобайтових символів без урахування регістру
--   [мбeregi](function.mb-eregi.md) — Пошук відповідності регулярному виразу за допомогою багатобайтових символів без урахування регістру
--   [мбgetinfo](function.mb-get-info.md) — Отримує внутрішні налаштування mbstring
--   [мбhttpinput](function.mb-http-input.md) — Визначення кодування символів вхідних даних HTTP-запиту
--   [мбhttpoutput](function.mb-http-output.md) — Встановлення/отримання кодування символів виводу HTTP
--   [мбinternalencoding](function.mb-internal-encoding.md) — Встановлення/отримання внутрішнього кодування скрипту
--   [мбlanguage](function.mb-language.md) — Встановлює/отримує поточну мову
--   [мбlistencodings](function.mb-list-encodings.md) — Повертає масив усіх кодувань, що підтримуються.
--   [мбord](function.mb-ord.md) — Отримує кодову точку символу Unicode
--   [мбoutputhandler](function.mb-output-handler.md) - Callback-функція, що перетворює кодування символів у вихідному буфері
--   [мбparsestr](function.mb-parse-str.md) — Розбір даних запитів GET/POST/COOKIE та встановлення значень глобальних змінних
--   [мбpreferredmimename](function.mb-preferred-mime-name.md) — Отримання набору символів MIME
--   [мбregexencoding](function.mb-regex-encoding.md) — Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [мбregexsetoptions](function.mb-regex-set-options.md) — Встановлення/отримання стандартних значень для налаштування функцій mbregex
--   [мбscrub](function.mb-scrub.md) - Опис
--   [мбsendmail](function.mb-send-mail.md) — Надсилання закодованого повідомлення
--   [мбsplit](function.mb-split.md) — Поділ рядків у багатобайтних кодуваннях, використовуючи регулярний вираз
--   [мбstrsplit](function.mb-str-split.md) — Якщо заданий багатобайтовий рядок повертає масив символів
--   [мбstrcut](function.mb-strcut.md) — Отримання частини рядка
--   [мбstrimwidth](function.mb-strimwidth.md) — Отримання рядка, обрізаного до заданого розміру
--   [мбstripos](function.mb-stripos.md) — Реєстронезалежний пошук позиції першого входження одного рядка в інший
--   [мбstristr](function.mb-stristr.md) — Знаходить перше входження підрядки у рядку без урахування регістру
--   [мбstrlen](function.mb-strlen.md) — Отримує довжину рядка
--   [мбstrpos](function.mb-strpos.md) — Пошук позиції першого входження одного рядка до іншого
--   [мбstrrchr](function.mb-strrchr.md) — Пошук останнього входження одного рядка до іншого
--   [мбstrrichr](function.mb-strrichr.md) — Пошук останнього входження одного рядка в інший, нечутливий до регістру
--   [мбstrripos](function.mb-strripos.md) — Пошук останнього входження одного рядка в інший, нечутливий до регістру
--   [мбstrrpos](function.mb-strrpos.md) — Пошук позиції останнього входження одного рядка до іншого
--   [мбstrstr](function.mb-strstr.md) — Знаходить перше входження підрядка у рядку
--   [мбstrtolower](function.mb-strtolower.md) — Приведення рядка до нижнього регістру
--   [мбstrtoupper](function.mb-strtoupper.md) — Приведення рядка до верхнього регістру
--   [мбstrwidth](function.mb-strwidth.md) — Повертає ширину рядка
--   [мбsubstitutecharacter](function.mb-substitute-character.md) — Встановити/отримати символ заміни
--   [мбsubstrcount](function.mb-substr-count.md) — Повертає кількість входжень підрядка
--   [мбsubstr](function.mb-substr.md) — Повертає частину рядка
+-   [mb\_check\_encoding](function.mb-check-encoding.md)— Перевіряє, чи допустимий рядок для заданого кодування
+-   [mb\_chr](function.mb-chr.md)— Повертає символ за значенням кодової точки Unicode
+-   [mb\_convert\_case](function.mb-convert-case.md)— Змінює регістр символів у рядку
+-   [mb\_convert\_encoding](function.mb-convert-encoding.md)— Перетворює рядок з одного кодування символів на інший
+-   [mb\_convert\_kana](function.mb-convert-kana.md) \- Перетворює одне кодування "kana" в інше ("zen-kaku", "han-kaku" та інші)
+-   [mb\_convert\_variables](function.mb-convert-variables.md)— Перетворює символи на змінну з одного кодування на інше
+-   [mb\_decode\_mimeheader](function.mb-decode-mimeheader.md)— Декодує рядок у MIME-заголовку
+-   [mb\_decode\_numericentity](function.mb-decode-numericentity.md)— Декодує посилання на числовий рядок HTML на символ
+-   [mb\_detect\_encoding](function.mb-detect-encoding.md)— Визначає кодування символів
+-   [mb\_detect\_order](function.mb-detect-order.md)— Встановлює/отримує порядок визначення кодування символів
+-   [mb\_encode\_mimeheader](function.mb-encode-mimeheader.md)— Кодує рядок для MIME-заголовка
+-   [mb\_encode\_numericentity](function.mb-encode-numericentity.md)— Кодує символ у числове HTML-посилання
+-   [mb\_encoding\_aliases](function.mb-encoding-aliases.md)— Отримує псевдоніми відомого типу кодування
+-   [mb\_ereg\_match](function.mb-ereg-match.md)— Визначає, чи багатобайтовий рядок відповідає регулярному виразу.
+-   [mb\_ereg\_replace\_callback](function.mb-ereg-replace-callback.md)— Виконує пошук та заміну за регулярним виразом за допомогою багатобайтових кодувань, обробляючи збіги callback-функцією
+-   [mb\_ereg\_replace](function.mb-ereg-replace.md)— Замінює за регулярним виразом за допомогою багатобайтових кодувань
+-   [mb\_ereg\_search\_getpos](function.mb-ereg-search-getpos.md)— Повертає початкову позицію наступного збігу з регулярним виразом
+-   [mb\_ereg\_search\_getregs](function.mb-ereg-search-getregs.md)— Отримує останній збіг рядка в багатобайтовому кодуванні регулярного виразу
+-   [mb\_ereg\_search\_init](function.mb-ereg-search-init.md)— Налаштовує рядок та регулярний вираз для пошуку відповідності рядка у багатобайтовому кодуванні регулярного виразу
+-   [mb\_ereg\_search\_pos](function.mb-ereg-search-pos.md)— Повертає позицію і довжину ділянки багатобайтового рядка, що збіглася з регулярним виразом.
+-   [mb\_ereg\_search\_regs](function.mb-ereg-search-regs.md)— Повертає частину рядка, що збіглася з регулярним виразом.
+-   [mb\_ereg\_search\_setpos](function.mb-ereg-search-setpos.md)— Задає початкову позицію у рядку, з якого розпочнеться пошук відповідностей регулярному виразу
+-   [mb\_ereg\_search](function.mb-ereg-search.md)— Знаходить відповідність певного рядка в багатобайтовому кодуванні регулярного виразу
+-   [mb\_ereg](function.mb-ereg.md)— Знаходить збіг регулярного вираження за допомогою багатобайтових кодувань
+-   [mb\_eregi\_replace](function.mb-eregi-replace.md)— Замінює за регулярним виразом за допомогою багатобайтових символів без урахування регістру
+-   [mb\_eregi](function.mb-eregi.md)— Знаходить відповідність регулярному виразу за допомогою багатобайтових символів без урахування регістру
+-   [mb\_get\_info](function.mb-get-info.md)— Отримує внутрішні налаштування mbstring
+-   [mb\_http\_input](function.mb-http-input.md)— Визначає кодування символів вхідних даних HTTP-запиту
+-   [mb\_http\_output](function.mb-http-output.md)— Встановлює/отримує кодування символів виводу HTTP
+-   [mb\_internal\_encoding](function.mb-internal-encoding.md)— Встановлює/отримує внутрішнє кодування скрипту
+-   [mb\_language](function.mb-language.md)— Встановлює/отримує поточну мову
+-   [mb\_list\_encodings](function.mb-list-encodings.md)— Повертає масив усіх кодувань, що підтримуються.
+-   [mb\_ord](function.mb-ord.md)— Отримує кодову точку символу Unicode
+-   [mb\_output\_handler](function.mb-output-handler.md) \- Перетворює кодування символів у буфері виводу, виступаючи в ролі callback-функції
+-   [mb\_parse\_str](function.mb-parse-str.md)— Розбирає дані запитів GET/POST/COOKIE та встановлює значення глобальних змінних
+-   [mb\_preferred\_mime\_name](function.mb-preferred-mime-name.md)— Отримує рядок кодування MIME
+-   [mb\_regex\_encoding](function.mb-regex-encoding.md)— Встановлює/отримує кодування символів для однобайтового регулярного виразу
+-   [mb\_regex\_set\_options](function.mb-regex-set-options.md)— Встановлює/отримує значення за промовчанням для налаштувань функцій mbregex
+-   [mb\_scrub](function.mb-scrub.md)— Замінює неправильно сформовані послідовності байтів символом-замінником
+-   [mb\_send\_mail](function.mb-send-mail.md)— Надсилає закодований електронний лист
+-   [mb\_split](function.mb-split.md)— Розділяє рядки у багатобайтних кодуваннях через регулярний вираз
+-   [mb\_str\_pad](function.mb-str-pad.md)— Доповнює мультибайтовий рядок іншим мультибайтовим рядком до заданої довжини
+-   [mb\_str\_split](function.mb-str-split.md)— Повертає масив символів заданого багатобайтового рядка
+-   [mb\_strcut](function.mb-strcut.md)— Отримує частину рядка
+-   [mb\_strimwidth](function.mb-strimwidth.md)— Отримує рядок, обрізаний до заданої ширини
+-   [mb\_stripos](function.mb-stripos.md)— Знаходить позицію першого входження підрядка в рядок без урахування регістру
+-   [mb\_stristr](function.mb-stristr.md) \- Знаходить перше входження підрядки в рядок без урахування регістру
+-   [mb\_strlen](function.mb-strlen.md)— Отримує довжину рядка
+-   [mb\_strpos](function.mb-strpos.md)— Шукає позицію першого входження підрядка в рядок
+-   [mb\_strrchr](function.mb-strrchr.md)— Знаходить останнє входження символу підрядка в рядок
+-   [mb\_strrichr](function.mb-strrichr.md)— Знаходить останнє входження символу підрядка в рядок без урахування регістру
+-   [mb\_strripos](function.mb-strripos.md) \- Знаходить останнє входження підрядки в рядок без урахування регістру
+-   [mb\_strrpos](function.mb-strrpos.md)— Шукає позицію останнього входження підрядка в рядок
+-   [mb\_strstr](function.mb-strstr.md)— Знаходить перше входження підрядка у рядку
+-   [mb\_strtolower](function.mb-strtolower.md)— Приводить рядок до нижнього регістру
+-   [mb\_strtoupper](function.mb-strtoupper.md) \- Приведе рядок до верхнього регістру
+-   [mb\_strwidth](function.mb-strwidth.md)— Повертає ширину рядка
+-   [mb\_substitute\_character](function.mb-substitute-character.md)— Встановлює/отримує символ заміни
+-   [mb\_substr\_count](function.mb-substr-count.md)— Повертає кількість входжень підрядка
+-   [mb\_substr](function.mb-substr.md)— Повертає частину рядка

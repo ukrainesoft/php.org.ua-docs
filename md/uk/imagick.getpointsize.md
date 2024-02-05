@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getPointSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getPointSize
 
-(PECL imagick 2> = 2.1.0, PECL imagick 3)
+(PECL imagick 2 >= 2.1.0, PECL imagick 3)
 
 Imagick::getPointSize — Повертає розмір точки
 
@@ -30,4 +31,4 @@ public Imagick::getPointSize(): float
 
 ### Дивіться також
 
--   [Imagick::setPointSize()](imagick.setpointsize.md) - Встановлює розмір точки
+-   [Imagick::setPointSize()](imagick.setpointsize.md) \- Встановлює розмір точки

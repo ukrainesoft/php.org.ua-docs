@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3.md: SQLite3
 title: 'SQLite3::backup'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3::backup
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
 SQLite3::backup — Резервне копіювання однієї бази даних до іншої
 
@@ -32,7 +33,7 @@ public SQLite3::backup(SQLite3 $destination, string $sourceDatabase = "main", st
 
 `sourceDatabase`
 
-Назва бази даних. Для головної бази `"main"`, для тимчасової `"temp"`, або ім'я, задане після ключового слова `AS` у виразі `ATTACH` для приєднаних баз.
+Назва бази даних. Для головної бази `"main"`, для временной`"temp"`, або ім'я, задане після ключового слова `AS` у виразі `ATTACH` для приєднаних баз.
 
 `destinationDatabase`
 
@@ -40,7 +41,7 @@ public SQLite3::backup(SQLite3 $destination, string $sourceDatabase = "main", st
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

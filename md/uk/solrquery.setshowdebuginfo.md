@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setShowDebugInfo'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setShowDebugInfo
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setShowDebugInfo — Прапор для відображення налагоджувальної інформації
 
@@ -24,7 +25,7 @@ public SolrQuery::setShowDebugInfo(bool $flag): SolrQuery
 
 `flag`
 
-Чи показувати налагоджувальну інформацію . **`true`** або **`false`**
+Чи показувати налагоджувальну інформацію . **`true`**или**`false`**
 
 ### Значення, що повертаються
 

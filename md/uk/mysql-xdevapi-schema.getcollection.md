@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-schema.existsindatabase.md: '« Schema::existsInDatabase'
   - mysql-xdevapi-schema.getcollectionastable.md: 'Schema::getCollectionAsTable »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysql\_xdevapi\\Schema
 title: 'Schema::getCollection'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Schema::getCollection
 
 (No version information available, might only be in Git)
 
-Schema::getCollection — Отримати колекцію зі схеми
+Schema::getCollection — Отримує колекцію зі схеми
 
 ### Опис
 
@@ -18,7 +19,7 @@ Schema::getCollection — Отримати колекцію зі схеми
 public mysql_xdevapi\Schema::getCollection(string $name): mysql_xdevapi\Collection
 ```
 
-Отримати колекцію зі схеми.
+Отримує колекцію зі схеми.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ public mysql_xdevapi\Schema::getCollection(string $name): mysql_xdevapi\Collecti
 
 ### Значення, що повертаються
 
-Об'єкт Collection для вибраної колекції.
+Повертає об'єкт класу Collection для вибраної колекції.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSchema::getCollection()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::getCollection()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ $trees = $schema->getCollection("trees");
 var_dump($trees);
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(mysql_xdevapi\Collection)#3 (1) {

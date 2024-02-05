@@ -4,17 +4,18 @@ navigation:
   - reflectiongenerator.getexecutingfile.md: 'ReflectionGenerator::getExecutingFile »'
   - index.md: PHP Manual
   - class.reflectiongenerator.md: ReflectionGenerator
-title: 'ReflectionGenerator::construct'
+title: 'ReflectionGenerator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionGenerator::construct
+# ReflectionGenerator::\_\_construct
 
 (PHP 7, PHP 8)
 
-ReflectionGenerator::construct — Конструктор ReflectionGenerator
+ReflectionGenerator::\_\_construct — Конструктор ReflectionGenerator
 
 ### Опис
 
-public **ReflectionGenerator::construct**[Generator](class.generator.md) `$generator`
+public**ReflectionGenerator::\_\_construct** [Generator](class.generator.md) `$generator`) .
 
 Створює об'єкт [ReflectionGenerator](class.reflectiongenerator.md)
 
@@ -26,7 +27,7 @@ public **ReflectionGenerator::construct**[Generator](class.generator.md) `$gener
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionGenerator::construct()****
+**Пример #1 Пример использования**ReflectionGenerator::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo <<< output
 output;
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 gen
@@ -57,6 +58,6 @@ gen
 
 ### Дивіться також
 
--   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.md) - Отримати ім'я функції генератора
--   [ReflectionGenerator::getExecutingLine()](reflectiongenerator.getexecutingline.md) - Отримати поточний рядок генератора, що виконується
--   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.md) - Отримати ім'я файлу, з якого запущено генератор
+-   [ReflectionGenerator::getFunction()](reflectiongenerator.getfunction.md) \- Отримати ім'я функції генератора
+-   [ReflectionGenerator::getExecutingLine()](reflectiongenerator.getexecutingline.md) \- Отримати поточний рядок генератора, що виконується
+-   [ReflectionGenerator::getExecutingFile()](reflectiongenerator.getexecutingfile.md) \- Отримати ім'я файлу, з якого запущено генератор

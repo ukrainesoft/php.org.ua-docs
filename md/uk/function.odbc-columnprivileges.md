@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.odbc-close.md: « odbcclose
-  - function.odbc-columns.md: odbccolumns »
+  - function.odbc-close.md: « odbc\_close
+  - function.odbc-columns.md: odbc\_columns »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbccolumnprivileges
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_columnprivileges
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbccolumnprivileges
+# odbc\_columnprivileges
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbccolumn privileges — Перераховує стовпці та пов'язані привілеї для даної таблиці
+odbc\_column privileges — Перераховує стовпці та пов'язані привілеї для даної таблиці
 
 ### Опис
 
 ```methodsynopsis
-odbc_columnprivileges(    resource $odbc,    ?string $catalog,    string $schema,    string $table,    string $column): resource|false
+odbc_columnprivileges(    resource $odbc,    ?string $catalog,    string $schema,    string $table,    string $column): resource|false
 ```
 
 Перелічує стовпці та пов'язані привілеї даної таблиці.
@@ -24,7 +25,7 @@ odbc_columnprivileges(    resource $odbc,    ?string $catalog,    string $schema
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `catalog`
 
@@ -59,7 +60,7 @@ odbc_columnprivileges(    resource $odbc,    ?string $catalog,    string $schema
 
 Драйвери можуть повідомляти додаткові стовпці.
 
-Результуючий набір впорядковується за `TABLE_CAT` `TABLE_SCHEM` `TABLE_NAME` `COLUMN_NAME` і `PRIVILEGE`
+Результирующий набор упорядочивается по`TABLE_CAT` `TABLE_SCHEM` `TABLE_NAME` `COLUMN_NAME`и`PRIVILEGE`
 
 ### Приклади
 
@@ -76,7 +77,7 @@ while (($row = odbc_fetch_array($privileges))) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

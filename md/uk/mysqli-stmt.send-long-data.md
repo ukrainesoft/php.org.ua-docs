@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-stmt.result-metadata.md: '« mysqlistmt::resultmetadata'
-  - mysqli-stmt.sqlstate.md: 'mysqlistmt::$sqlstate »'
+  - mysqli-stmt.result-metadata.md: '« mysqli\_stmt::result\_metadata'
+  - mysqli-stmt.sqlstate.md: 'mysqli\_stmt::$sqlstate »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::sendlongdata'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::send\_long\_data'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::sendlongdata
+# mysqli\_stmt::send\_long\_data
 
-# mysqlistmtsendlongdata
+# mysqli\_stmt\_send\_long\_data
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::sendlongdata - mysqlistmtsendlongdata — Надсилання даних блоками
+mysqli\_stmt::send\_long\_data -- mysqli\_stmt\_send\_long\_data — Надсилання даних блоками
 
 ### Опис
 
@@ -34,7 +35,7 @@ mysqli_stmt_send_long_data(mysqli_stmt $statement, int $param_num, string $data)
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 `param_num`
 
@@ -46,7 +47,7 @@ mysqli_stmt_send_long_data(mysqli_stmt $statement, int $param_num, string $data)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -68,5 +69,5 @@ $stmt->execute();
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
--   [mysqlistmtbindparam()](mysqli-stmt.bind-param.md) - Прив'язка змінних до параметрів запиту, що готується.
+-   [mysqli\_prepare()](mysqli.prepare.md) \- готує SQL вираз до виконання
+-   [mysqli\_stmt\_bind\_param()](mysqli-stmt.bind-param.md) \- Прив'язка змінних до параметрів запиту, що готується.

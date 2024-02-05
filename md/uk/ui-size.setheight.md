@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-size.of.md: '« UISize::of'
-  - ui-size.setwidth.md: 'ОЙSize::setWidth »'
+  - ui-size.of.md: '« UI\\Size::of'
+  - ui-size.setwidth.md: 'UI\\Size::setWidth »'
   - index.md: PHP Manual
-  - class.ui-size.md: ОЙSize
-title: 'ОЙSize::setHeight'
+  - class.ui-size.md: UI\\Size
+title: 'UI\\Size::setHeight'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙSize::setHeight
+# UI\\Size::setHeight
 
 (UI 0.9.9)
 
-ОЙSize::setHeight — Встановити висоту
+UI\\Size::setHeight — Встановити висоту
 
 ### Опис
 

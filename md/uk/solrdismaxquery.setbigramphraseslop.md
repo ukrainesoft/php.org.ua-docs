@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'SolrDisMaxQuery::setBigramPhraseSlop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDisMaxQuery::setBigramPhraseSlop
 
@@ -32,7 +33,7 @@ public SolrDisMaxQuery::setBigramPhraseSlop(string $slop): SolrDisMaxQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::setBigramPhraseSlop()****
+**Пример #1 Пример использования**SolrDisMaxQuery::setBigramPhraseSlop()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ echo $dismaxQuery.PHP_EOL;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 q=lucene&defType=edismax&ps2=5

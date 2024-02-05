@@ -1,14 +1,15 @@
 ---
 navigation:
-  - yaconf.constants.md: « Обумовлені константи
+  - yaconf.constants.md: « Зумовлені константи
   - yaconf.get.md: 'Yaconf::get »'
   - index.md: PHP Manual
   - book.yaconf.md: Yaconf
 title: Клас Yaconf
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Yaconf
 
-(PECL yaconf> = 1.0.0)
+(PECL yaconf >= 1.0.0)
 
 ## Вступ
 
@@ -37,5 +38,5 @@ public static has(string $name): bool
 
 ## Зміст
 
--   [Yaconf::get](yaconf.get.md) — Вийняти елемент
--   [Yaconf::has](yaconf.has.md) — Визначити, чи існує елемент
+-   [Yaconf::get](yaconf.get.md)— Вийняти елемент
+-   [Yaconf::has](yaconf.has.md)— Визначити, чи існує елемент

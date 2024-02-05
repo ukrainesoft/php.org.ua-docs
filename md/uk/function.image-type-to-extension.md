@@ -1,16 +1,17 @@
 ---
 navigation:
   - function.getimagesizefromstring.md: « getimagesizefromstring
-  - function.image-type-to-mime-type.md: imagetypeтоmimetype »
+  - function.image-type-to-mime-type.md: image\_type\_to\_mime\_type »
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
-title: imagetypeтоextension
+title: image\_type\_to\_extension
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imagetypeтоextension
+# image\_type\_to\_extension
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-imagetypeтоextension — отримання розширення файлу для типу зображення
+image\_type\_to\_extension — отримання розширення файлу для типу зображення
 
 ### Опис
 
@@ -24,7 +25,7 @@ image_type_to_extension(int $image_type, bool $include_dot = true): string|false
 
 `image_type`
 
-Одна з констант `IMAGETYPE_XXX`
+Одна из констант`IMAGETYPE_XXX`
 
 `include_dot`
 
@@ -32,11 +33,11 @@ image_type_to_extension(int $image_type, bool $include_dot = true): string|false
 
 ### Значення, що повертаються
 
-Рядок з розширенням файлу, що відповідає типу зображення або **`false`** у разі виникнення помилки.
+Строка с расширением файла, соответствующим типу изображения или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imagetypeтоextension()****
+**Пример #1 Пример использования**image\_type\_to\_extension()\*\*\*\*
 
 ```php
 <?php
@@ -51,6 +52,6 @@ imagedestroy($im);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція не потребує бібліотеки GD.

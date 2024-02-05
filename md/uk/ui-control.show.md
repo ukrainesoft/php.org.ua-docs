@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-control.setparent.md: '« UIControl::setParent'
-  - class.ui-menu.md: ОЙMenu »
+  - ui-control.setparent.md: '« UI\\Control::setParent'
+  - class.ui-menu.md: UI\\Menu »
   - index.md: PHP Manual
-  - class.ui-control.md: ОЙControl
-title: 'ОЙControl::show'
+  - class.ui-control.md: UI\\Control
+title: 'UI\\Control::show'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControl::show
+# UI\\Control::show
 
 (UI 0.9.9)
 
-ОЙControl::show — Показати керуючий елемент
+UI\\Control::show — Показати керуючий елемент
 
 ### Опис
 

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::oilPaintImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::oilPaintImage
 
@@ -32,7 +33,7 @@ public Imagick::oilPaintImage(float $radius): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::oilPaintImage()****
+**Пример #1 Пример использования**Imagick::oilPaintImage()\*\*\*\*
 
 ```php
 <?php

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.str-starts-with.md: « strstartswith
+  - function.str-starts-with.md: « str\_starts\_with
   - function.strcasecmp.md: strcasecmp »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
-title: strсловоcount
+title: str\_word\_count
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# strсловоcount
+# str\_word\_count
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-strсловоcount — Повертає інформацію про слова, що входять до рядка
+str\_word\_count — Повертає інформацію про слова, що входять до рядка
 
 ### Опис
 
@@ -33,8 +34,8 @@ str_word_count(string $string, int $format = 0, ?string $characters = null): arr
 Вказує значення цієї функції, що повертається. На даний момент підтримуються такі значення:
 
 -   0 – повертає кількість знайдених слів
--   1 - повертається масив, що містить усі слова, що входять до рядка `string`
--   2 - повертається масив, індексами якого є позиції у рядку `string`а значеннями - відповідні слова.
+-   1 - повертається масив, що містить усі слова, що входять до рядка`string`
+-   2 - повертається масив, індексами якого є позиції у рядку`string`а значеннями - відповідні слова.
 
 `characters`
 
@@ -46,13 +47,13 @@ str_word_count(string $string, int $format = 0, ?string $characters = null): arr
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `characters` тепер допускає значення null. |
+| 8.0.0 | `characters` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **strсловоcount()****
+**Пример #1 Пример использования**str\_word\_count()\*\*\*\*
 
 ```php
 <?php
@@ -69,7 +70,7 @@ echo str_word_count($str);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -109,7 +110,7 @@ Array
 
 ### Дивіться також
 
--   [explode()](function.explode.md) - Розбиває рядок за допомогою роздільника
--   [pregsplit()](function.preg-split.md) - Розбиває рядок за регулярним виразом
--   [countchars()](function.count-chars.md) - Повертає інформацію про символи, що входять до рядка
--   [substrcount()](function.substr-count.md) - Повертає кількість входжень підрядка
+-   [explode()](function.explode.md) \- Розбиває рядок за допомогою роздільника
+-   [preg\_split()](function.preg-split.md) \- Розбиває рядок за регулярним виразом
+-   [count\_chars()](function.count-chars.md) \- Повертає інформацію про символи, що входять до рядка
+-   [substr\_count()](function.substr-count.md) \- Повертає кількість входжень підрядка

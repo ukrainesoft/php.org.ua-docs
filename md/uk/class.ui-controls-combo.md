@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-separator.construct.md: '« UIControlsSeparator::construct'
-  - ui-controls-combo.append.md: 'ОЙControlsCombo::append »'
+  - ui-controls-separator.construct.md: '« UI\\Controls\\Separator::\_\_construct'
+  - ui-controls-combo.append.md: 'UI\\Controls\\Combo::append »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Комбо"
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Комбо"
 
@@ -58,7 +59,7 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsCombo::append](ui-controls-combo.append.md) - Додати опцію
--   [ОЙControlsCombo::getSelected](ui-controls-combo.getselected.md) — Отримати вибрану опцію
--   [ОЙControlsCombo::onSelected](ui-controls-combo.onselected.md) - Обробник обраної опції
--   [ОЙControlsCombo::setSelected](ui-controls-combo.setselected.md) — Встановлює вибрану опцію
+-   [UI\\Controls\\Combo::append](ui-controls-combo.append.md) \- Додати опцію
+-   [UI\\Controls\\Combo::getSelected](ui-controls-combo.getselected.md)— Отримати вибрану опцію
+-   [UI\\Controls\\Combo::onSelected](ui-controls-combo.onselected.md) \- Обробник обраної опції
+-   [UI\\Controls\\Combo::setSelected](ui-controls-combo.setselected.md)— Встановлює вибрану опцію

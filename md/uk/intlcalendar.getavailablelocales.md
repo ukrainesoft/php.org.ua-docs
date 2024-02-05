@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getAvailableLocales'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::getAvailableLocales
 
@@ -38,14 +39,14 @@ intlcal_get_available_locales(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::getAvailableLocales()****
+**Пример #1 Пример использования**IntlCalendar::getAvailableLocales()\*\*\*\*
 
 ```php
 <?php
 print_r(IntlCalendar::getAvailableLocales());
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array

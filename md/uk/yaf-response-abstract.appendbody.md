@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yaf-response-abstract.md: « YafResponseAbstract
-  - yaf-response-abstract.clearbody.md: 'YafResponseAbstract::clearBody »'
+  - class.yaf-response-abstract.md: « Yaf\_Response\_Abstract
+  - yaf-response-abstract.clearbody.md: 'Yaf\_Response\_Abstract::clearBody »'
   - index.md: PHP Manual
-  - class.yaf-response-abstract.md: YafResponseAbstract
-title: 'YafResponseAbstract::appendBody'
+  - class.yaf-response-abstract.md: Yaf\_Response\_Abstract
+title: 'Yaf\_Response\_Abstract::appendBody'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafResponseAbstract::appendBody
+# Yaf\_Response\_Abstract::appendBody
 
 (Yaf >=1.0.0)
 
-YafResponseAbstract::appendBody — Додає вміст до тіла відповіді
+Yaf\_Response\_Abstract::appendBody — Додає вміст до тіла відповіді
 
 ### Опис
 
@@ -28,9 +29,9 @@ public Yaf_Response_Abstract::appendBody(string $content, string $key = ?): bool
 
 `key`
 
-Ключ контенту, ви можете встановити контент з ключем, якщо ви не вкажете, буде використовуватися YafResponseAbstract::DEFAULTBODY
+Ключ контенту, ви можете встановити контент з ключем, якщо ви не вкажете, буде використовуватися Yaf\_Response\_Abstract::DEFAULT\_BODY
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Параметр додано з 2.2.0
 
@@ -40,7 +41,7 @@ bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafResponseAbstract::appendBody()****
+**Пример #1 Пример использования**Yaf\_Response\_Abstract::appendBody()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ echo $response;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Привет, Мир
@@ -60,8 +61,8 @@ echo $response;
 
 ### Дивіться також
 
--   [YafConfigIni](class.yaf-config-ini.md)
--   [YafResponseAbstract::getBody()](yaf-response-abstract.getbody.md) - Отримує наявний вміст
--   [YafResponseAbstract::setBody()](yaf-response-abstract.setbody.md) - Встановлює вміст відповіді
--   [YafResponseAbstract::prependBody()](yaf-response-abstract.prependbody.md) - Призначення prependBody
--   [YafResponseAbstract::clearBody()](yaf-response-abstract.clearbody.md) - скидає все існуюче тіло відповіді
+-   [Yaf\_Config\_Ini](class.yaf-config-ini.md)
+-   [Yaf\_Response\_Abstract::getBody()](yaf-response-abstract.getbody.md) \- Отримує наявний вміст
+-   [Yaf\_Response\_Abstract::setBody()](yaf-response-abstract.setbody.md) \- Встановлює вміст відповіді
+-   [Yaf\_Response\_Abstract::prependBody()](yaf-response-abstract.prependbody.md) \- Призначення prependBody
+-   [Yaf\_Response\_Abstract::clearBody()](yaf-response-abstract.clearbody.md) \- скидає все існуюче тіло відповіді

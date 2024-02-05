@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-slider.construct.md: '« UIControlsSlider::construct'
-  - ui-controls-slider.onchange.md: 'ОЙControlsSlider::onChange »'
+  - ui-controls-slider.construct.md: '« UI\\Controls\\Slider::\_\_construct'
+  - ui-controls-slider.onchange.md: 'UI\\Controls\\Slider::onChange »'
   - index.md: PHP Manual
-  - class.ui-controls-slider.md: ОЙControlsSlider
-title: 'ОЙControlsSlider::getValue'
+  - class.ui-controls-slider.md: UI\\Controls\\Slider
+title: 'UI\\Controls\\Slider::getValue'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsSlider::getValue
+# UI\\Controls\\Slider::getValue
 
 (UI 0.9.9)
 
-ОЙControlsSlider::getValue — Отримати значення
+UI\\Controls\\Slider::getValue — Отримати значення
 
 ### Опис
 

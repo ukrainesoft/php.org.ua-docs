@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.base64-decode.md: « base64decode
-  - function.get-headers.md: getheaders »
+  - function.base64-decode.md: « base64\_decode
+  - function.get-headers.md: get\_headers »
   - index.md: PHP Manual
   - ref.url.md: Функції URL
-title: base64encode
+title: base64\_encode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# base64encode
+# base64\_encode
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-base64encode — Кодує дані у формат MIME base64
+base64\_encode — Кодує дані у формат MIME base64
 
 ### Опис
 
@@ -18,7 +19,7 @@ base64encode — Кодує дані у формат MIME base64
 base64_encode(string $string): string
 ```
 
-Кодує `string` з base64.
+Кодує `string`с base64.
 
 Це кодування призначене для коректної передачі бінарних даних за протоколами, які не підтримують 8-бітну передачу, наприклад, для відправлення тіла листа.
 
@@ -36,7 +37,7 @@ base64_encode(string $string): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **base64encode()****
+**Пример #1 Пример использования**base64\_encode()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ echo base64_encode($str);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 0K3RgtC+INC30LDQutC+0LTQuNGA0L7QstCw0L3QvdCw0Y8g0YHRgtGA0L7QutCw
@@ -53,7 +54,7 @@ echo base64_encode($str);
 
 ### Дивіться також
 
--   [base64decode()](function.base64-decode.md) - Декодує дані, закодовані MIME base64
--   [chunksplit()](function.chunk-split.md) - Розбиває рядок на фрагменти
--   [convertuuencode()](function.convert-uuencode.md) - Кодує рядок у форматі uuencode
--   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) розділ 6.8
+-   [base64\_decode()](function.base64-decode.md) \- Декодує дані, закодовані MIME base64
+-   [chunk\_split()](function.chunk-split.md) \- Розбиває рядок на фрагменти
+-   [convert\_uuencode()](function.convert-uuencode.md) \- Кодує рядок у форматі uuencode
+-   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045)розділ 6.8

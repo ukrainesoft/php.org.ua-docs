@@ -1,26 +1,27 @@
 ---
 navigation:
-  - class.componere-definition.md: « ComponereDefinition
-  - componere-definition.addconstant.md: 'ComponereDefinition::addConstant »'
+  - class.componere-definition.md: « Componere\\Definition
+  - componere-definition.addconstant.md: 'Componere\\Definition::addConstant »'
   - index.md: PHP Manual
-  - class.componere-definition.md: ComponereDefinition
-title: 'ComponereDefinition::construct'
+  - class.componere-definition.md: Componere\\Definition
+title: 'Componere\\Definition::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereDefinition::construct
+# Componere\\Definition::\_\_construct
 
 (Componere 2 >= 2.1.0)
 
-ComponereDefinition::construct - Визначення конструктора
+Componere\\Definition::\_\_construct - Визначення конструктора
 
 ### Опис
 
-public **ComponereDefinition::construct**(string `$name`
+public**Componere\\Definition::\_\_construct**(string`$name`) .
 
-public **ComponereDefinition::construct**(string `$name`, string `$parent`
+public**Componere\\Definition::\_\_construct**(string`$name`, string`$parent`) .
 
-public **ComponereDefinition::construct**(string `$name`, array `$interfaces`
+public**Componere\\Definition::\_\_construct**(string`$name`, array`$interfaces`) .
 
-public **ComponereDefinition::construct**(string `$name`, string `$parent`, array `$interfaces`
+public**Componere\\Definition::\_\_construct**(string`$name`, string`$parent`, array`$interfaces`) .
 
 ### Список параметрів
 
@@ -52,7 +53,7 @@ public **ComponereDefinition::construct**(string `$name`, string `$parent`, arra
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.md), якщо клас, зазначений у `interfaces` НЕ знайдений
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо клас, зазначений у `interfaces`не найден
 
 **Увага**
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-serveropeningevent.md: « MongoDBDriverMonitoringServerOpeningEvent
-  - mongodb-driver-monitoring-serveropeningevent.getport.md: 'MongoDBDriverMonitoringServerOpeningEvent::getPort »'
+  - class.mongodb-driver-monitoring-serveropeningevent.md: « MongoDB\\Driver\\Monitoring\\ServerOpeningEvent
+  - mongodb-driver-monitoring-serveropeningevent.getport.md: 'MongoDB\\Driver\\Monitoring\\ServerOpeningEvent::getPort »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serveropeningevent.md: MongoDBDriverMonitoringServerOpeningEvent
-title: 'MongoDBDriverMonitoringServerOpeningEvent::getHost'
+  - class.mongodb-driver-monitoring-serveropeningevent.md: MongoDB\\Driver\\Monitoring\\ServerOpeningEvent
+title: 'MongoDB\\Driver\\Monitoring\\ServerOpeningEvent::getHost'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringServerOpeningEvent::getHost
+# MongoDB\\Driver\\Monitoring\\ServerOpeningEvent::getHost
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringServerOpeningEvent::getHost — Повертає ім'я сервера.
+MongoDB\\Driver\\Monitoring\\ServerOpeningEvent::getHost — Повертає ім'я сервера.
 
 ### Опис
 
@@ -28,4 +29,4 @@ final public MongoDB\Driver\Monitoring\ServerOpeningEvent::getHost(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

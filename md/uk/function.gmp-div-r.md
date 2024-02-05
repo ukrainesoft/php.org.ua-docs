@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-div-qr.md: « gmpdivгр
-  - function.gmp-div.md: gmpdiv »
+  - function.gmp-div-qr.md: « gmp\_div\_qr
+  - function.gmp-div.md: gmp\_div »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpdivр
+title: gmp\_div\_r
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpdivр
+# gmp\_div\_r
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpdivr - Залишок від розподілу чисел
+gmp\_div\_r - Залишок від розподілу чисел
 
 ### Опис
 
@@ -18,7 +19,7 @@ gmpdivr - Залишок від розподілу чисел
 gmp_div_r(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_ROUND_ZERO): GMP
 ```
 
-Обчислює залишок від поділу націло числа `num1` на `num2`. Якщо число `num1` На відміну від нуля, результат буде мати знак цього числа.
+Обчислює залишок від поділу націло числа `num1`на`num2`. Якщо число `num1` На відміну від нуля, результат буде мати знак цього числа.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ gmp_div_r(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
 
 `rounding_mode`
 
-У документації до функції [gmpdivq()](function.gmp-div-q.md) наведено опис аргументу `rounding_mode`
+В документации к функции[gmp\_div\_q()](function.gmp-div-q.md)приведено описание аргумента`rounding_mode`
 
 ### Значення, що повертаються
 
@@ -44,7 +45,7 @@ gmp_div_r(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gmpdivr()****
+**Пример #1 Пример использования**gmp\_div\_r()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ gmp_div_r(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
      ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 5
@@ -61,5 +62,5 @@ gmp_div_r(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
 
 ### Дивіться також
 
--   [gmpdivq()](function.gmp-div-q.md) - Розподіл чисел
--   [gmpdivqr()](function.gmp-div-qr.md) - Поділ чисел та отримання приватного та залишку
+-   [gmp\_div\_q()](function.gmp-div-q.md) \- Розподіл чисел
+-   [gmp\_div\_qr()](function.gmp-div-qr.md) \- Поділ чисел та отримання приватного та залишку

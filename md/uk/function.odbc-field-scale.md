@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-field-precision.md: « odbcfieldprecision
-  - function.odbc-field-type.md: odbcfieldtype »
+  - function.odbc-field-precision.md: « odbc\_field\_precision
+  - function.odbc-field-type.md: odbc\_field\_type »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcfieldscale
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_field\_scale
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcfieldscale
+# odbc\_field\_scale
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcfieldscale — Повертає масштаб поля
+odbc\_field\_scale — Повертає масштаб поля
 
 ### Опис
 
@@ -32,4 +33,4 @@ odbc_field_scale(resource $statement, int $field): int|false
 
 ### Значення, що повертаються
 
-Повертає масштаб поля у вигляді цілого чи числа **`false`** у разі виникнення помилки.
+Повертає масштаб поля у вигляді цілого чи числа \*\*`false`\*\*в случае возникновения ошибки.

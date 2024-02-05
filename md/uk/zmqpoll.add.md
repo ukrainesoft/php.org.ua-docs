@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zmqpoll.md: ZMQPoll
 title: 'ZMQPoll::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZMQPoll::add
 
@@ -28,7 +29,7 @@ public ZMQPoll::add(mixed $entry, int $type): string
 
 `type`
 
-Визначає, яка активність відстежуватиметься. Дивіться константи **`ZMQ::POLL_IN`** і **`ZMQ::POLL_OUT`**
+Визначає, яка активність відстежуватиметься. Дивіться константи **`ZMQ::POLL_IN`**и**`ZMQ::POLL_OUT`**
 
 ### Значення, що повертаються
 

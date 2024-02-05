@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setResolution'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setResolution
 
@@ -40,5 +41,5 @@ public Imagick::setResolution(float $x_resolution, float $y_resolution): bool
 
 ### Дивіться також
 
--   [Imagick::setImageResolution()](imagick.setimageresolution.md) - Встановлює роздільну здатність зображення
--   [Imagick::getImageResolution()](imagick.getimageresolution.md) - Повертає роздільну здатність зображення за X і Y
+-   [Imagick::setImageResolution()](imagick.setimageresolution.md) \- Встановлює роздільну здатність зображення
+-   [Imagick::getImageResolution()](imagick.getimageresolution.md) \- Повертає роздільну здатність зображення за X і Y

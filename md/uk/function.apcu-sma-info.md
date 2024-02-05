@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apcu-key-info.md: « apcukeyinfo
-  - function.apcu-store.md: apcustore »
+  - function.apcu-key-info.md: « apcu\_key\_info
+  - function.apcu-store.md: apcu\_store »
   - index.md: PHP Manual
-  - ref.apcu.md: Функции APCu
-title: apcusmainfo
+  - ref.apcu.md: Функції APCu
+title: apcu\_sma\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apcusmainfo
+# apcu\_sma\_info
 
 (PECL apcu >= 4.0.0)
 
-apcusmainfo — Витягує інформацію про виділення пам'яті APCu, що розділяється.
+apcu\_sma\_info — Витягує інформацію про виділення пам'яті APCu, що розділяється.
 
 ### Опис
 
@@ -24,15 +25,15 @@ apcu_sma_info(bool $limited = false): array|false
 
 `limited`
 
-Якщо встановлений у **`false`** (за замовчуванням), **apcusmainfo()** поверне детальну інформацію про кожен сегмент.
+Если установлен в\*\*`false`\*\*(по умолчанию),**apcu\_sma\_info()** поверне детальну інформацію про кожен сегмент.
 
 ### Значення, що повертаються
 
-Масив даних про виділену пам'ять, що розділяється; **`false`** у разі виникнення помилки.
+Масив даних про виділену пам'ять, що розділяється; \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apcusmainfo()****
+**Пример #1 Пример использования**apcu\_sma\_info()\*\*\*\*
 
 ```php
 <?php
@@ -40,7 +41,7 @@ print_r(apcu_sma_info());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

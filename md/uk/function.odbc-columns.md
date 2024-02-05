@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.odbc-columnprivileges.md: « odbccolumnprivileges
-  - function.odbc-commit.md: odbccommit »
+  - function.odbc-columnprivileges.md: « odbc\_columnprivileges
+  - function.odbc-commit.md: odbc\_commit »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbccolumns
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_columns
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbccolumns
+# odbc\_columns
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbccolumns — Перелік імен стовпців у вказаних таблицях
+odbc\_columns — Перелік імен стовпців у вказаних таблицях
 
 ### Опис
 
 ```methodsynopsis
-odbc_columns(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $table = null,    ?string $column = null): resource|false
+odbc_columns(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $table = null,    ?string $column = null): resource|false
 ```
 
-Перелічує усі стовпці у запитаному діапазоні.
+Перелічує всі стовпці у запрошеному діапазоні.
 
 ### Список параметрів
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `catalog`
 
@@ -44,7 +45,7 @@ odbc_columns(    resource $odbc,    ?string $catalog = null,    ?string $schema 
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор результату ODBC або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор результату ODBC або \*\*`false`\*\*в случае возникновения ошибки.
 
 У результуючому наборі є такі стовпці:
 
@@ -69,13 +70,13 @@ odbc_columns(    resource $odbc,    ?string $catalog = null,    ?string $schema 
 
 Драйвери можуть повідомляти додаткові стовпці.
 
-Результуючий набір впорядковується за `TABLE_CAT` `TABLE_SCHEM` `TABLE_NAME` і `ORDINAL_POSITION`
+Результирующий набор упорядочивается по`TABLE_CAT` `TABLE_SCHEM` `TABLE_NAME`и`ORDINAL_POSITION`
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `schema` `table` і `column` тепер допускають значення null. |
+| 8.0.0 | `schema` `table`и`column` тепер допускають значення null. |
 
 ### Приклади
 
@@ -92,7 +93,7 @@ while (($row = odbc_fetch_array($columns))) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -120,5 +121,5 @@ Array
 
 ### Дивіться також
 
--   [odbccolumnprivileges()](function.odbc-columnprivileges.md) - Перераховує стовпці та пов'язані привілеї для даної таблиці
--   [odbcprocedurecolumns()](function.odbc-procedurecolumns.md) - Отримує інформацію про параметри процедур
+-   [odbc\_columnprivileges()](function.odbc-columnprivileges.md) \- Перераховує стовпці та пов'язані привілеї для даної таблиці
+-   [odbc\_procedurecolumns()](function.odbc-procedurecolumns.md) \- Отримує інформацію про параметри процедур

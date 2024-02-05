@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getinsertedcount.md: '« MongoDBDriverWriteResult::getInsertedCount'
-  - mongodb-driver-writeresult.getmodifiedcount.md: 'MongoDBDriverWriteResult::getModifiedCount »'
+  - mongodb-driver-writeresult.getinsertedcount.md: '« MongoDB\\Driver\\WriteResult::getInsertedCount'
+  - mongodb-driver-writeresult.getmodifiedcount.md: 'MongoDB\\Driver\\WriteResult::getModifiedCount »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
-title: 'MongoDBDriverWriteResult::getMatchedCount'
+  - class.mongodb-driver-writeresult.md: MongoDB\\Driver\\WriteResult
+title: 'MongoDB\\Driver\\WriteResult::getMatchedCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverWriteResult::getMatchedCount
+# MongoDB\\Driver\\WriteResult::getMatchedCount
 
 (mongodb >=1.0.0)
 
-MongoDBDriverWriteResult::getMatchedCount — Повертає кількість документів, вибраних для оновлення
+MongoDB\\Driver\\WriteResult::getMatchedCount — Повертає кількість документів, вибраних для оновлення
 
 ### Опис
 
@@ -18,7 +19,7 @@ MongoDBDriverWriteResult::getMatchedCount — Повертає кількіст�
 final public MongoDB\Driver\WriteResult::getMatchedCount(): ?int
 ```
 
-Якщо операція оновлення не призводить до зміни документа (наприклад, встановлення значення поля в його поточне значення), зіставлена ​​кількість може бути більшою, ніж значення, що повертається [MongoDBDriverWriteResult::getModifiedCount()](mongodb-driver-writeresult.getmodifiedcount.md)
+Якщо операція оновлення не призводить до зміни документа (наприклад, встановлення значення поля в його поточне значення), зіставлена ​​кількість може бути більшою, ніж значення, що повертається [MongoDB\\Driver\\WriteResult::getModifiedCount()](mongodb-driver-writeresult.getmodifiedcount.md)
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ final public MongoDB\Driver\WriteResult::getMatchedCount(): ?int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverWriteResult::getMatchedCount()****
+**Пример #1 Пример использования**MongoDB\\Driver\\WriteResult::getMatchedCount()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ var_dump($result->getMatchedCount());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(1)
@@ -63,5 +64,5 @@ int(1)
 
 ### Дивіться також
 
--   [MongoDBDriverWriteResult::getModifiedCount()](mongodb-driver-writeresult.getmodifiedcount.md) - Повертає кількість існуючих оновлених документів
--   [MongoDBDriverWriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.md) - Повертає, чи був запис підтверджений
+-   [MongoDB\\Driver\\WriteResult::getModifiedCount()](mongodb-driver-writeresult.getmodifiedcount.md) \- Повертає кількість існуючих оновлених документів
+-   [MongoDB\\Driver\\WriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.md) \- Повертає, чи був запис підтверджений

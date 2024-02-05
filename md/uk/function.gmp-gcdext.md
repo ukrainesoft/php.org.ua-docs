@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-gcd.md: « gmpgcd
-  - function.gmp-hamdist.md: gmphamdist »
+  - function.gmp-gcd.md: « gmp\_gcd
+  - function.gmp-hamdist.md: gmp\_hamdist »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpgcdext
+title: gmp\_gcdext
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpgcdext
+# gmp\_gcdext
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-gmpgcdext — Обчислення НОД та множників
+gmp\_gcdext — Обчислення НОД та множників
 
 ### Опис
 
@@ -18,9 +19,9 @@ gmpgcdext — Обчислення НОД та множників
 gmp_gcdext(GMP|int|string $num1, GMP|int|string $num2): array
 ```
 
-Обчислює величини g, s та t, у вираженні `a*s + b*t = g = gcd(a,b)`, де gcd – найбільший спільний дільник. Повертає масив, значення якого відповідають значенням величин g, s та t.
+Обчислює величини g, s і t, у виразі `a*s + b*t = g = gcd(a,b)`, де gcd – найбільший спільний дільник. Повертає масив, значення якого відповідають значенням величин g, s та t.
 
-Ця функція може використовуватися для вирішення рівнянь Діофантових з двома змінними. Це такі рівняння, які мають лише цілочисельні рішення та мають вигляд: `a*x + b*y = c`. За додатковою інформацією звертайтесь на [» сторінку "Діофантове рівняння" в MathWorld](http://mathworld.wolfram.com/DiophantineEquation.md)
+Ця функція може використовуватися для вирішення рівнянь Діофантових з двома змінними. Це такі рівняння, які мають лише цілочисельні рішення та мають вигляд: `a*x + b*y = c`. За додатковою інформацією звертайтесь на [» сторінку "Діофантове рівняння" в MathWorld](http://mathworld.wolfram.com/DiophantineEquation.md)
 
 ### Список параметрів
 

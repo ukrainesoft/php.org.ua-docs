@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine-client.set.md: '« SwooleCoroutineClient::set'
-  - swoole-coroutine-http-client.close.md: 'SwooleCoroutineHttpClient::close »'
+  - swoole-coroutine-client.set.md: '« Swoole\\Coroutine\\Client::set'
+  - swoole-coroutine-http-client.close.md: 'Swoole\\Coroutine\\Http\\Client::close »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutineHttpClient::addFile'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine\\Http\\Client::addFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutineHttpClient::addFile
+# Swoole\\Coroutine\\Http\\Client::addFile
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutineHttpClient::addFile — Опис
+Swoole\\Coroutine\\Http\\Client::addFile — Опис
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Coroutine\Http\Client::addFile(): ReturnType
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

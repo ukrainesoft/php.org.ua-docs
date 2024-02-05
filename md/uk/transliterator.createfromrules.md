@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.transliterator.md: Transliterator
 title: 'Transliterator::createFromRules'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Transliterator::createFromRules
 
-# transliteratorcreatefromrules
+# transliterator\_create\_from\_rules
 
 (PHP 5 >= 5.4.0, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-Transliterator::createFromRules -- transliteratorcreatefromrules - Створити транслітератор на основі правил
+Transliterator::createFromRules -- transliterator\_create\_from\_rules - Створити транслітератор на основі правил
 
 ### Опис
 
@@ -32,7 +33,7 @@ transliterator_create_from_rules(string $rules, int $direction = Transliterator:
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -42,13 +43,13 @@ transliterator_create_from_rules(string $rules, int $direction = Transliterator:
 
 `direction`
 
-Напрямок транслітерації. За замовчуванням [Transliterator::FORWARD](class.transliterator.md#transliterator.constants.forward). Можно використовувати [Transliterator::REVERSE](class.transliterator.md#transliterator.constants.reverse)
+Направление транслитерации. По умолчанию[Transliterator::FORWARD](class.transliterator.md#transliterator.constants.forward). Можна використовувати [Transliterator::REVERSE](class.transliterator.md#transliterator.constants.reverse)
 
 ### Значення, що повертаються
 
-Повертає об'єкт [Transliterator](class.transliterator.md) або **`null`** у разі виникнення помилки.
+Повертає об'єкт [Transliterator](class.transliterator.md)или\*\*`null`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) - Отримати останнє повідомлення про помилку
--   [Transliterator::create()](transliterator.create.md) - Створити транслітератор
+-   [Transliterator::getErrorMessage()](transliterator.geterrormessage.md) \- Отримати останнє повідомлення про помилку
+-   [Transliterator::create()](transliterator.create.md) \- Створити транслітератор

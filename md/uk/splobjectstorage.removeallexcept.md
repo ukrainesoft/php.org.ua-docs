@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::removeAllExcept'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplObjectStorage::removeAllExcept
 
-(PHP 5> = 5.3.6, PHP 7, PHP 8)
+(PHP 5 >= 5.3.6, PHP 7, PHP 8)
 
 SplObjectStorage::removeAllExcept — Видаляє з поточного контейнера всі об'єкти, яких немає в іншому контейнері
 
@@ -32,7 +33,7 @@ public SplObjectStorage::removeAllExcept(SplObjectStorage $storage): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplObjectStorage::removeAllExcept()****
+**Пример #1 Пример использования**SplObjectStorage::removeAllExcept()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ var_dump($foo->contains($b));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)

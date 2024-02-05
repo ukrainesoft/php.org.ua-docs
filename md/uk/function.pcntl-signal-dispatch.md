@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pcntl-setpriority.md: pcntlsetpriority
-  - function.pcntl-signal-get-handler.md: pcntlsignalgethandler »
+  - function.pcntl-setpriority.md: « pcntl\_setpriority
+  - function.pcntl-signal-get-handler.md: pcntl\_signal\_get\_handler »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
-title: pcntlsignaldispatch
+title: pcntl\_signal\_dispatch
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pcntlsignaldispatch
+# pcntl\_signal\_dispatch
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-pcntlsignaldispatch — Викликає обробники для сигналів очікування
+pcntl\_signal\_dispatch — Викликає обробники для сигналів очікування
 
 ### Опис
 
@@ -18,7 +19,7 @@ pcntlsignaldispatch — Викликає обробники для сигнал�
 pcntl_signal_dispatch(): bool
 ```
 
-Функція **pcntlsignaldispatch()** викликає обробники сигналів, встановлені функцією [pcntlsignal()](function.pcntl-signal.md), для кожного сигналу, що очікує.
+Функция**pcntl\_signal\_dispatch()** викликає обробники сигналів, встановлені функцією [pcntl\_signal()](function.pcntl-signal.md), для кожного сигналу, що очікує.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ pcntl_signal_dispatch(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **pcntlsignaldispatch()****
+**Пример #1 Пример использования**pcntl\_signal\_dispatch()\*\* :\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ echo "Завершено.\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Установка обработчика сигнала SIGHUP...
@@ -62,7 +63,7 @@ echo "Завершено.\n";
 
 ### Дивіться також
 
--   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу
--   [pcntlsigprocmask()](function.pcntl-sigprocmask.md) - Задає та витягує список сигналів, що блокуються.
--   [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.md) - Очікування сигналів
--   [pcntlsigtimedwait()](function.pcntl-sigtimedwait.md) - Очікує сигнали протягом заданого часу
+-   [pcntl\_signal()](function.pcntl-signal.md) \- Встановлення оброблювача сигналу
+-   [pcntl\_sigprocmask()](function.pcntl-sigprocmask.md) \- Задає та витягує список сигналів, що блокуються.
+-   [pcntl\_sigwaitinfo()](function.pcntl-sigwaitinfo.md) \- Очікування сигналів
+-   [pcntl\_sigtimedwait()](function.pcntl-sigtimedwait.md) \- Очікує сигнали протягом заданого часу

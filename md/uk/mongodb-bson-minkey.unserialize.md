@@ -1,28 +1,29 @@
 ---
 navigation:
-  - mongodb-bson-minkey.serialize.md: '« MongoDBBSONMinKey::serialize'
-  - class.mongodb-bson-objectid.md: MongoDBBSONObjectId »
+  - mongodb-bson-minkey.serialize.md: '« MongoDB\\BSON\\MinKey::serialize'
+  - class.mongodb-bson-objectid.md: MongoDB\\BSON\\ObjectId »
   - index.md: PHP Manual
-  - class.mongodb-bson-minkey.md: MongoDBBSONMinKey
-title: 'MongoDBBSONMinKey::unserialize'
+  - class.mongodb-bson-minkey.md: MongoDB\\BSON\\MinKey
+title: 'MongoDB\\BSON\\MinKey::unserialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONMinKey::unserialize
+# MongoDB\\BSON\\MinKey::unserialize
 
 (mongodb >=1.2.0)
 
-MongoDBBSONMonKey::unserialize — Десеріалізує MonKey
+MongoDB\\BSON\\MonKey::unserialize — Серіалізує MonKey
 
 ### Опис
 
 ```methodsynopsis
-final public MongoDB\BSON\MinKey::unserialize(string $serialized): void
+final public MongoDB\BSON\MinKey::unserialize(string $data): void
 ```
 
 ### Список параметрів
 
-`serialized`
+`data`
 
-Серіалізований [MongoDBBSONMinKey](class.mongodb-bson-minkey.md)
+Серіалізований [MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.md)
 
 ### Значення, що повертаються
 
@@ -30,10 +31,10 @@ final public MongoDB\BSON\MinKey::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONMinKey::serialize()](mongodb-bson-minkey.serialize.md) - Серіалізує MinKey
--   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
+-   [MongoDB\\BSON\\MinKey::serialize()](mongodb-bson-minkey.serialize.md) \- Серіалізує MinKey
+-   [unserialize()](function.unserialize.md) \- Створює PHP-значення зі збереженого уявлення
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

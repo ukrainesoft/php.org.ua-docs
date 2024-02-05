@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-tableupdate.md: « mysqlxdevapiTableUpdate
-  - mysql-xdevapi-tableupdate.construct.md: 'TableUpdate::construct »'
+  - class.mysql-xdevapi-tableupdate.md: « mysql\_xdevapi\\TableUpdate
+  - mysql-xdevapi-tableupdate.construct.md: 'TableUpdate::\_\_construct »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
+  - class.mysql-xdevapi-tableupdate.md: mysql\_xdevapi\\TableUpdate
 title: 'TableUpdate::bind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableUpdate::bind
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableUpdate::bind(array $placeholder_values): mysql_xdevapi
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableUpdate::bind()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableUpdate::bind()\*\*\*\*
 
 ```php
 <?php

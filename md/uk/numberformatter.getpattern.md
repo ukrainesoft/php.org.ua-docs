@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::getPattern'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # NumberFormatter::getPattern
 
-# numfmtgetpattern
+# numfmt\_get\_pattern
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-NumberFormatter::getPattern -- numfmtgetpattern — Отримує шаблон засобу форматування
+NumberFormatter::getPattern -- numfmt\_get\_pattern — Отримує шаблон засобу форматування
 
 ### Опис
 
@@ -38,11 +39,11 @@ numfmt_get_pattern(NumberFormatter $formatter): string|false
 
 ### Значення, що повертаються
 
-Рядок (string) шаблону, що використовується засобом форматування або **`false`** у разі виникнення помилки.
+Рядок (string) шаблону, що використовується засобом форматування або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **numfmtgetpattern()****
+**Пример #1 Пример использования**numfmt\_get\_pattern()\*\*\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ echo $fmt->format(1234567.891234567890000)."\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Шаблон: #,##0.###
@@ -79,6 +80,6 @@ echo $fmt->format(1234567.891234567890000)."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
--   [numfmtsetpattern()](numberformatter.setpattern.md) - Встановлює шаблон засобу форматування
--   [numfmtcreate()](numberformatter.create.md) - Створює засіб форматування чисел
+-   [numfmt\_get\_error\_code()](numberformatter.geterrorcode.md) \- Отримує останній код помилки засобу форматування
+-   [numfmt\_set\_pattern()](numberformatter.setpattern.md) \- Встановлює шаблон засобу форматування
+-   [numfmt\_create()](numberformatter.create.md) \- Створює засіб форматування чисел

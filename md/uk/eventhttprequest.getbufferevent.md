@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::getBufferEvent'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::getBufferEvent
 
@@ -35,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::getConnection()](eventhttprequest.getconnection.md) - Повертає об'єкт EventHttpConnection
+-   [EventHttpRequest::getConnection()](eventhttprequest.getconnection.md) \- Повертає об'єкт EventHttpConnection

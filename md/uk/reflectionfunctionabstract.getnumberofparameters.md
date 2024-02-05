@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getNumberOfParameters'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getNumberOfParameters
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getNumberOfParameters — Отримує кількість параметрів
 
@@ -30,5 +31,5 @@ public ReflectionFunctionAbstract::getNumberOfParameters(): int
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getNumberOfRequiredParameters()](reflectionfunctionabstract.getnumberofrequiredparameters.md) - Отримує кількість обов'язкових параметрів
--   [funcnumargs()](function.func-num-args.md) - Повертає кількість аргументів, переданих функції
+-   [ReflectionFunctionAbstract::getNumberOfRequiredParameters()](reflectionfunctionabstract.getnumberofrequiredparameters.md) \- Отримує кількість обов'язкових параметрів
+-   [func\_num\_args()](function.func-num-args.md) \- Повертає кількість аргументів, переданих функції

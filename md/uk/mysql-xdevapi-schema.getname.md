@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-schema.getcollections.md: '« Schema::getCollections'
   - mysql-xdevapi-schema.getsession.md: 'Schema::getSession »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysql\_xdevapi\\Schema
 title: 'Schema::getName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Schema::getName
 
 (No version information available, might only be in Git)
 
-Schema::getName — Отримати ім'я схеми
+Schema::getName — Отримує ім'я схеми
 
 ### Опис
 
@@ -18,7 +19,7 @@ Schema::getName — Отримати ім'я схеми
 public mysql_xdevapi\Schema::getName(): string
 ```
 
-Отримати назву схеми.
+Отримує ім'я схеми.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public mysql_xdevapi\Schema::getName(): string
 
 ### Значення, що повертаються
 
-Ім'я схеми у вигляді рядка, підключеного до об'єкта схеми.
+Повертає ім'я схеми у вигляді рядка, підключеного до об'єкта схеми.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSchema::getName()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::getName()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($schema->getName());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(11) "addressbook"

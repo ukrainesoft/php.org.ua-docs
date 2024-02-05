@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-resource.md: « isresource
-  - function.is-string.md: ісstring »
+  - function.is-resource.md: « is\_resource
+  - function.is-string.md: is\_string »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
-title: ісscalar
+title: is\_scalar
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісscalar
+# is\_scalar
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
-ісscalar — Перевіряє, чи є змінна скалярним значенням
+is\_scalar — Перевіряє, чи є змінна скаляр.
 
 ### Опис
 
@@ -18,17 +19,17 @@ title: ісscalar
 is_scalar(mixed $value): bool
 ```
 
-Перевіряє, чи є змінна скалярним значенням.
+Перевіряє, чи є змінна скаляр.
 
-Скалярні змінні – це змінні з типами int, float, string та bool. Типи array, object, resource і null є скалярними.
+Скалярні змінні - це змінні, що містять int, float, string та bool. Типи array, object, resource і null - не скалярні.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **ісscalar()** не вважає змінні типу resource скалярними, оскільки ресурси є абстрактними типами даних, що у час засновані цілому типі. Не варто покладатися на цю деталь реалізації, оскільки вона може змінитися.
+> Функция**is\_scalar()** не вважає ресурси (resource) скалярними значеннями, оскільки ресурси - це абстрактні типи даних, які поки що засновані на цілих числах (int). Покладатися на цю деталь не потрібно, оскільки не виключено, що в майбутньому функція розглядатиме ресурси по-іншому.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> **ісscalar()** не вважає NULL скаляром.
+> Функция**is\_scalar()** не вважає NULL скаляром.
 
 ### Список параметрів
 
@@ -38,14 +39,15 @@ is_scalar(mixed $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` є скалярним значенням, або **`false`** в іншому випадку.
+Повертає **`true`**, если значение`value`— скаляр, иначе\*\*`false`\*\*
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ісscalar()****
+**Пример #1 Пример использования функции**is\_scalar()\*\*\*\*
 
 ```php
 <?php
+
 function show_var($var)
 {
     if (is_scalar($var)) {
@@ -63,7 +65,7 @@ show_var($proteins)
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 3.1416
@@ -79,11 +81,11 @@ array(3) {
 
 ### Дивіться також
 
--   [ісfloat()](function.is-float.md) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [ісint()](function.is-int.md) - Перевіряє, чи є змінна цілим числом
--   [ісnumeric()](function.is-numeric.md) - Перевіряє, чи є змінна числом або рядком, що містить число
--   [ісreal()](function.is-real.md) - Псевдонім isfloat
--   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком
--   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
--   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом
--   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
+-   [is\_float()](function.is-float.md) \- Перевіряє, чи є змінна число з плаваючою точкою
+-   [is\_int()](function.is-int.md) \- Перевіряє, чи є змінна ціла кількість
+-   [is\_numeric()](function.is-numeric.md) \- Перевіряє, чи містить змінне число чи числове рядок
+-   [is\_real()](function.is-real.md) \- Псевдонім is\_float
+-   [is\_string()](function.is-string.md) \- Перевіряє, чи є тип змінної рядок
+-   [is\_bool()](function.is-bool.md) \- Перевіряє, чи є змінна логічне значення
+-   [is\_object()](function.is-object.md) \- Перевіряє, чи є змінна об'єкт
+-   [is\_array()](function.is-array.md) \- Визначає, чи є змінна масив

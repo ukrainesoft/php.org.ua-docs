@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.fbird-errmsg.md: « fbirderrmsg
-  - function.fbird-fetch-assoc.md: fbirdfetchassoc »
+  - function.fbird-errmsg.md: « fbird\_errmsg
+  - function.fbird-fetch-assoc.md: fbird\_fetch\_assoc »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: fbirdexecute
+  - ref.ibase.md: Функції Firebird/InterBase
+title: fbird\_execute
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fbirdexecute
+# fbird\_execute
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdexecute - Псевдонім [ibaseexecute()](function.ibase-execute.md)
+fbird\_execute — Псевдоним[ibase\_execute()](function.ibase-execute.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibaseexecute()](function.ibase-execute.md)
+Функция — псевдоним функции:[ibase\_execute()](function.ibase-execute.md)
 
 ### Дивіться також
 
--   [fbirdquery()](function.fbird-query.md) - Псевдонім ibasequery
+-   [fbird\_query()](function.fbird-query.md) \- Псевдонім ibase\_query

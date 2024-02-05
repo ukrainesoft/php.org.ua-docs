@@ -1,34 +1,35 @@
 ---
 navigation:
-  - function.ssh2-forward-accept.md: « ssh2forwardaccept
-  - function.ssh2-methods-negotiated.md: ssh2methodsnegotiated »
+  - function.ssh2-forward-accept.md: « ssh2\_forward\_accept
+  - function.ssh2-methods-negotiated.md: ssh2\_methods\_negotiated »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
-title: ssh2forwardlisten
+title: ssh2\_forward\_listen
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ssh2forwardlisten
+# ssh2\_forward\_listen
 
-(PECL ssh2> = 0.9.0)
+(PECL ssh2 >= 0.9.0)
 
-ssh2forwardlisten — Зв'язує порт на віддаленому сервері та прослуховує з'єднання
+ssh2\_forward\_listen — Зв'язує порт на віддаленому сервері та прослуховує з'єднання
 
 ### Опис
 
 ```methodsynopsis
-ssh2_forward_listen(    resource $session,    int $port,    string $host = ?,    int $max_connections = 16): resource|false
+ssh2_forward_listen(    resource $session,    int $port,    string $host = ?,    int $max_connections = 16): resource|false
 ```
 
 Зв'язує порт на віддаленому сервері та прослуховує з'єднання.
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `session`
 
-Ресурс SSH Session, отриманий через виклик [ssh2connect()](function.ssh2-connect.md)
+Ресурс SSH Session, отриманий у результаті виклику [ssh2\_connect()](function.ssh2-connect.md)
 
 `port`
 
@@ -40,8 +41,8 @@ ssh2_forward_listen(    resource $session,    int $port,    string $host = ?,   
 
 ### Значення, що повертаються
 
-Повертає SSH2 Listener або **`false`** у разі виникнення помилки.
+Возвращает SSH2 Listener или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [ssh2forwardaccept()](function.ssh2-forward-accept.md) - приймає з'єднання, створене слухачем
+-   [ssh2\_forward\_accept()](function.ssh2-forward-accept.md) \- приймає з'єднання, створене слухачем

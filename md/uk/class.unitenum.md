@@ -1,14 +1,15 @@
 ---
 navigation:
-  - stringable.tostring.md: '« Stringable::toString'
+  - stringable.tostring.md: '« Stringable::\_\_function toString() { [native code] }'
   - unitenum.cases.md: 'UnitEnum::cases »'
   - index.md: PHP Manual
   - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Інтерфейс UnitEnum
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс UnitEnum
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -18,12 +19,8 @@ title: Інтерфейс UnitEnum
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      interface UnitEnum {
+     interface UnitEnum {
 
     /* Методы */
     
@@ -34,4 +31,4 @@ title: Інтерфейс UnitEnum
 
 ## Зміст
 
--   [UnitEnum::cases](unitenum.cases.md) — Повертає перелік варіантів перерахування
+-   [UnitEnum::cases](unitenum.cases.md)— Повертає перелік варіантів перерахування

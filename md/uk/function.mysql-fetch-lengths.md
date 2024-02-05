@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.mysql-fetch-field.md: « mysqlfetchfield
-  - function.mysql-fetch-object.md: mysqlfetchobject »
+  - function.mysql-fetch-field.md: « mysql\_fetch\_field
+  - function.mysql-fetch-object.md: mysql\_fetch\_object »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlfetchlengths
+title: mysql\_fetch\_lengths
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlfetchlengths
+# mysql\_fetch\_lengths
 
 (PHP 4, PHP 5)
 
-mysqlfetchlengths - Повертає довжину кожного поля в результаті
+mysql\_fetch\_lengths - Повертає довжину кожного поля в результаті
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlifetchlengths()](mysqli-result.lengths.md)
+-   [mysqli\_fetch\_lengths()](mysqli-result.lengths.md)
 -   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md)
 
 ### Опис
@@ -27,21 +28,21 @@ mysql_fetch_lengths(resource $result): array|false
 
 Повертає масив довжин кожного поля, що міститься в останньому ряду результату, отриманому з MySQL.
 
-**mysqlfetchlengths()** повертає довжини кожного поля, що міститься в останньому ряду, обробленому функціями [mysqlfetchrow()](function.mysql-fetch-row.md) [mysqlfetchassoc()](function.mysql-fetch-assoc.md) [mysqlfetcharray()](function.mysql-fetch-array.md) і [mysqlfetchobject()](function.mysql-fetch-object.md) у масиві, що починається з 0.
+**mysql\_fetch\_lengths()** повертає довжини кожного поля, що міститься в останньому ряду, обробленому функціями [mysql\_fetch\_row()](function.mysql-fetch-row.md) [mysql\_fetch\_assoc()](function.mysql-fetch-assoc.md) [mysql\_fetch\_array()](function.mysql-fetch-array.md) і [mysql\_fetch\_object()](function.mysql-fetch-object.md) у масиві, що починається з 0.
 
 ### Список параметрів
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
+оброблюваний [результат запиту](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysql\_query()](function.mysql-query.md)
 
 ### Значення, що повертаються
 
-Масив (array) довжин у разі успішного виконання або **`false`** у разі виникнення помилки.
+Масив (array) довжин у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlfetchlengths()****
+**Пример #1 Пример использования**mysql\_fetch\_lengths()\*\*\*\*
 
 ```php
 <?php
@@ -58,7 +59,7 @@ print_r($lengths);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -75,6 +76,6 @@ Array
 
 ### Дивіться також
 
--   [mysqlfieldlen()](function.mysql-field-len.md) - Повертає довжину вказаного поля
--   [mysqlfetchrow()](function.mysql-fetch-row.md) - Обробляє ряд результату запиту та повертає масив із числовими індексами
--   [strlen()](function.strlen.md) - Повертає довжину рядка
+-   [mysql\_field\_len()](function.mysql-field-len.md) \- Повертає довжину вказаного поля
+-   [mysql\_fetch\_row()](function.mysql-fetch-row.md) \- Обробляє ряд результату запиту та повертає масив із числовими індексами
+-   [strlen()](function.strlen.md) \- Повертає довжину рядка

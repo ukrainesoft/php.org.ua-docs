@@ -3,18 +3,19 @@ navigation:
   - mysql-xdevapi-tableselect.bind.md: '« TableSelect::bind'
   - mysql-xdevapi-tableselect.execute.md: 'TableSelect::execute »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
-title: 'TableSelect::construct'
+  - class.mysql-xdevapi-tableselect.md: mysql\_xdevapi\\TableSelect
+title: 'TableSelect::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# TableSelect::construct
+# TableSelect::\_\_construct
 
 (No version information available, might only be in Git)
 
-TableSelect::construct - Конструктор класу TableSelect
+TableSelect::\_\_construct - Конструктор класу TableSelect
 
 ### Опис
 
-private **mysqlxdevapiTableSelect::construct**
+private**mysql\_xdevapi\\TableSelect::\_\_construct**()
 
 Об'єкт, який повертається методом select(); Використовуйте execute() для виконання запиту.
 
@@ -24,7 +25,7 @@ private **mysqlxdevapiTableSelect::construct**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::construct()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ print_r($row);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

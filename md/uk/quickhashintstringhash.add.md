@@ -1,10 +1,11 @@
 ---
 navigation:
   - class.quickhashintstringhash.md: « QuickHashIntStringHash
-  - quickhashintstringhash.construct.md: 'QuickHashIntStringHash::construct »'
+  - quickhashintstringhash.construct.md: 'QuickHashIntStringHash::\_\_construct »'
   - index.md: PHP Manual
   - class.quickhashintstringhash.md: QuickHashIntStringHash
 title: 'QuickHashIntStringHash::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntStringHash::add
 
@@ -32,11 +33,11 @@ public QuickHashIntStringHash::add(int $key, string $value): bool
 
 ### Значення, що повертаються
 
-Метод повертає **`true`**, якщо запис було додано та **`false`**, якщо запис не було додано.
+Метод возвращает\*\*`true`\*\*, якщо запис було додано та **`false`**, якщо запис не було додано.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **QuickHashIntStringHash::add()****
+**Пример #1 Пример использования**QuickHashIntStringHash::add()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ var_dump( $hash->add( 4, "nine" ) );
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 без проверки дубликатов

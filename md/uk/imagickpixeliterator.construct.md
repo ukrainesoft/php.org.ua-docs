@@ -4,13 +4,14 @@ navigation:
   - imagickpixeliterator.destroy.md: 'ImagickPixelIterator::destroy »'
   - index.md: PHP Manual
   - class.imagickpixeliterator.md: ImagickPixelIterator
-title: 'ImagickPixelIterator::construct'
+title: 'ImagickPixelIterator::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ImagickPixelIterator::construct
+# ImagickPixelIterator::\_\_construct
 
 (PECL imagick 2, PECL imagick 3)
 
-ImagickPixelIterator::construct — Конструктор ImagickPixelIterator
+ImagickPixelIterator::\_\_construct — Конструктор ImagickPixelIterator
 
 ### Опис
 
@@ -20,7 +21,7 @@ public ImagickPixelIterator::__construct(Imagick $wand)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Конструктор ImagickPixelIterator
 
@@ -30,7 +31,7 @@ public ImagickPixelIterator::__construct(Imagick $wand)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickPixelIterator::construct()****
+**Пример #1 Пример использования**ImagickPixelIterator::construct()\*\*\*\*
 
 ```php
 <?php

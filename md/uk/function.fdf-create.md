@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-close.md: « fdfclose
-  - function.fdf-enum-values.md: fdfenumvalues »
+  - function.fdf-close.md: « fdf\_close
+  - function.fdf-enum-values.md: fdf\_enum\_values »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfcreate
+title: fdf\_create
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfcreate
+# fdf\_create
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfcreate — Створення нового документа FDF
+fdf\_create — Створення нового документа FDF
 
 ### Опис
 
@@ -20,7 +21,7 @@ fdf_create(): resource
 
 Створює новий документ FDF.
 
-Функція необхідна, якщо потрібно заповнити дані поля введення PDF.
+Функція необхідна, якщо потрібно заповнити поля введення даних у PDF-файлі.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ fdf_create(): resource
 
 ### Значення, що повертаються
 
-Повертає дескриптор документа FDF або **`false`** у разі виникнення помилки.
+Повертає дескриптор документа FDF або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -51,6 +52,6 @@ unlink("outtest.fdf");
 
 ### Дивіться також
 
--   [fdfclose()](function.fdf-close.md) - Закриває FDF-документ
--   [fdfsave()](function.fdf-save.md) - Зберігає документ FDF
--   [fdfopen()](function.fdf-open.md) - Відкриває документ FDF
+-   [fdf\_close()](function.fdf-close.md) \- Закриває FDF-документ
+-   [fdf\_save()](function.fdf-save.md) \- Зберігає документ FDF
+-   [fdf\_open()](function.fdf-open.md) \- Відкриває документ FDF

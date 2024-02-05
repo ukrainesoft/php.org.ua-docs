@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::io'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::io
 
@@ -17,20 +18,20 @@ EvLoop::io — Створює об'єкт спостерігача EvIo, пов'
 ```methodsynopsis
 final
    public
-   EvLoop::io(    
+   EvLoop::io(    
     mixed
      $fd
-   ,    
+   ,    
     int
      $events
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -41,7 +42,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvIo::construct()](evio.construct.md)
+Усі параметри, що й для [EvIo::\_\_construct()](evio.construct.md)
 
 ### Значення, що повертаються
 
@@ -49,4 +50,4 @@ final
 
 ### Дивіться також
 
--   [EvIo::construct()](evio.construct.md) - Створює об'єкт спостерігач EvIo
+-   [EvIo::\_\_construct()](evio.construct.md) \- Створює об'єкт спостерігач EvIo

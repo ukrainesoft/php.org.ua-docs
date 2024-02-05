@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.thread.md: Thread
 title: 'Thread::getCurrentThreadId'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Thread::getCurrentThreadId
 
@@ -44,7 +45,7 @@ $my->start();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 My является потоком #123456778899

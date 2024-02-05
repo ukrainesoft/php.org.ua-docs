@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-train-stop-function.md: « fannsettrainstopfunction
-  - function.fann-set-weight-array.md: fannsetweightarray »
+  - function.fann-set-train-stop-function.md: « fann\_set\_train\_stop\_function
+  - function.fann-set-weight-array.md: fann\_set\_weight\_array »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsettrainingalgorithm
+  - ref.fann.md: Функції Fann
+title: fann\_set\_training\_algorithm
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsettrainingalgorithm
+# fann\_set\_training\_algorithm
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsettrainingalgorithm - Встановлює алгоритм навчання
+fann\_set\_training\_algorithm - Встановлює алгоритм навчання
 
 ### Опис
 
@@ -20,7 +21,7 @@ fann_set_training_algorithm(resource $ann, int $training_algorithm): bool
 
 Встановлює алгоритм навчання.
 
-Докладніша інформація доступна в [fanngettrainingalgorithm()](function.fann-get-training-algorithm.md)
+Докладніша інформація доступна в [fann\_get\_training\_algorithm()](function.fann-get-training-algorithm.md)
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ fann_set_training_algorithm(resource $ann, int $training_algorithm): bool
 
 `training_algorithm`
 
-Константа [Алгоритма обучения](fann.constants.md#constants.fann-train)
+Константа[Алгоритма навчання](fann.constants.md#constants.fann-train)
 
 ### Значення, що повертаються
 
@@ -38,4 +39,4 @@ fann_set_training_algorithm(resource $ann, int $training_algorithm): bool
 
 ### Дивіться також
 
--   [fanngettrainingalgorithm()](function.fann-get-training-algorithm.md) - Повертає алгоритм навчання
+-   [fann\_get\_training\_algorithm()](function.fann-get-training-algorithm.md) \- Повертає алгоритм навчання

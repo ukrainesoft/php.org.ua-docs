@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-parser.left.md: '« ParleParser::left'
-  - parle-parser.precedence.md: 'ParleParser::precedence »'
+  - parle-parser.left.md: '« Parle\\Parser::left'
+  - parle-parser.precedence.md: 'Parle\\Parser::precedence »'
   - index.md: PHP Manual
-  - class.parle-parser.md: ParleParser
-title: 'ParleParser::nonassoc'
+  - class.parle-parser.md: Parle\\Parser
+title: 'Parle\\Parser::nonassoc'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleParser::nonassoc
+# Parle\\Parser::nonassoc
 
 (PECL parle >= 0.5.1)
 
-ParleParser::nonassoc — Оголошує токен без асоціативності
+Parle\\Parser::nonassoc — Оголошує токен без асоціативності
 
 ### Опис
 

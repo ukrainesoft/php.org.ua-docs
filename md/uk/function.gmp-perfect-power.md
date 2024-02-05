@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gmp-or.md: « gmpор
-  - function.gmp-perfect-square.md: gmpperfectsquare »
+  - function.gmp-or.md: « gmp\_or
+  - function.gmp-perfect-square.md: gmp\_perfect\_square »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
-title: gmpperfectpower
+title: gmp\_perfect\_power
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gmpperfectpower
+# gmp\_perfect\_power
 
-(PHP 7> = 7.3.0, PHP 8)
+(PHP 7 >= 7.3.0, PHP 8)
 
-gmpperfectpower — Перевірити, чи є число "досконалим ступенем"
+gmp\_perfect\_power — Перевірити, чи є число "досконалим ступенем"
 
 ### Опис
 
@@ -32,4 +33,4 @@ gmp_perfect_power(GMP|int|string $num): bool
 
 ### Дивіться також
 
--   [gmpperfectsquare()](function.gmp-perfect-square.md) - Перевірка числа на точний квадрат
+-   [gmp\_perfect\_square()](function.gmp-perfect-square.md) \- Перевірка числа на точний квадрат

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-add-template.md: « fdfaddtemplate
-  - function.fdf-create.md: fdfcreate »
+  - function.fdf-add-template.md: « fdf\_add\_template
+  - function.fdf-create.md: fdf\_create »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfclose
+title: fdf\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfclose
+# fdf\_close
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfclose - Закриває FDF-документ
+fdf\_close - Закриває FDF-документ
 
 ### Опис
 
@@ -24,7 +25,7 @@ fdf_close(resource $fdf_document): void
 
 `fdf_document`
 
-Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор FDF-документа, повернутий функціями [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md) або [fdf\_open\_string()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +33,4 @@ fdf_close(resource $fdf_document): void
 
 ### Дивіться також
 
--   [fdfopen()](function.fdf-open.md) - Відкриває документ FDF
+-   [fdf\_open()](function.fdf-open.md) \- Відкриває документ FDF

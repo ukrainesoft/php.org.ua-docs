@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.pdo.md: PDO
 title: 'PDO::query'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDO::query
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8, PECL pdo >= 0.2.0)
 
-PDO::query — Підготовляє та виконує вираз SQL без заповнювачів
+PDO::query — Підготовка та виконання виразу SQL без заповнювачів
 
 ### Опис
 
@@ -23,7 +24,7 @@ public PDO::query(string $query, ?int $fetchMode = PDO::FETCH_COLUMN, int $colno
 ```
 
 ```methodsynopsis
-public PDO::query(    string $query,    ?int $fetchMode = PDO::FETCH_CLASS,    string $classname,    array $constructorArgs): PDOStatement|false
+public PDO::query(    string $query,    ?int $fetchMode = PDO::FETCH_CLASS,    string $classname,    array $constructorArgs): PDOStatement|false
 ```
 
 ```methodsynopsis
@@ -32,11 +33,11 @@ public PDO::query(string $query, ?int $fetchMode = PDO::FETCH_INTO, object $obje
 
 **PDO::query()** готує та виконує вираз SQL за один виклик функції, повертаючи вираз як об'єкт [PDOStatement](class.pdostatement.md)
 
-Якщо запит запускатиметься багаторазово, для покращення продуктивності програми має сенс цей запит один раз підготувати [PDOStatement](class.pdostatement.md) методом [PDO::prepare()](pdo.prepare.md), а потім запускати на виконання методом [PDOStatement::execute()](pdostatement.execute.md) стільки разів, скільки потрібно.
+Якщо запит запускатиметься багаторазово, для покращення продуктивності програми має сенс цей запит один раз підготувати [PDOStatement](class.pdostatement.md)методом[PDO::prepare()](pdo.prepare.md), а потім запускати на виконання методом [PDOStatement::execute()](pdostatement.execute.md) стільки разів, скільки потрібно.
 
 Якщо після виконання попереднього запиту ви не вибрали всі дані з результуючого набору, наступний дзвінок **PDO::query()** може зазнати невдачі. У таких випадках слід викликати метод [PDOStatement::closeCursor()](pdostatement.closecursor.md), що звільнить ресурси бази даних, зайняті попереднім об'єктом [PDOStatement](class.pdostatement.md). Після цього можна безпечно викликати **PDO::query()**
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо `query` містить заповнювачі, вираз має бути підготовлено та виконано окремо з використанням методів [PDO::prepare()](pdo.prepare.md) і [PDOStatement::execute()](pdostatement.execute.md)
 
@@ -56,7 +57,13 @@ SQL-запит для підготовки та виконання.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [PDOStatement](class.pdostatement.md) або **`false`** у разі виникнення помилки.
+Повертає об'єкт [PDOStatement](class.pdostatement.md)или\*\*`false`\*\*в случае возникновения ошибки.
+
+### Помилки
+
+Видає помилку рівня **`E_WARNING`**, якщо атрибуту **`PDO::ATTR_ERRMODE`**установлено значение**`PDO::ERRMODE_WARNING`**
+
+Викидає виняток [PDOException](class.pdoexception.md), якщо атрибуту **`PDO::ATTR_ERRMODE`**установлено значение**`PDO::ERRMODE_EXCEPTION`**
 
 ### Приклади
 
@@ -73,7 +80,7 @@ foreach ($conn->query($sql) as $row) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 apple   red     150
@@ -87,6 +94,6 @@ watermelon      pink    90
 
 ### Дивіться також
 
--   [PDO::exec()](pdo.exec.md) - Виконує SQL-запит та повертає кількість порушених рядків
--   [PDO::prepare()](pdo.prepare.md) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
--   [PDOStatement::execute()](pdostatement.execute.md) - Запускає підготовлений запит на виконання
+-   [PDO::exec()](pdo.exec.md) \- Виконує SQL-запит та повертає кількість порушених рядків
+-   [PDO::prepare()](pdo.prepare.md) \- готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDOStatement::execute()](pdostatement.execute.md) \- Запускає підготовлений запит на виконання

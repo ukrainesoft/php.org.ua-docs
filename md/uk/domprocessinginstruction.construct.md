@@ -4,17 +4,18 @@ navigation:
   - class.domtext.md: DOMText »
   - index.md: PHP Manual
   - class.domprocessinginstruction.md: DOMProcessingInstruction
-title: 'DOMProcessingInstruction::construct'
+title: 'DOMProcessingInstruction::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DOMProcessingInstruction::construct
+# DOMProcessingInstruction::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMProcessingInstruction::construct — Створює новий об'єкт класу [DOMProcessingInstruction](class.domprocessinginstruction.md)
+DOMProcessingInstruction::\_\_construct — Створює новий об'єкт класу [DOMProcessingInstruction](class.domprocessinginstruction.md)
 
 ### Опис
 
-public **DOMProcessingInstruction::construct**(string `$name`, string `$value` = "")
+public**DOMProcessingInstruction::\_\_construct**(string`$name`, string`$value` = "")
 
 Створює новий об'єкт класу [DOMProcessingInstruction](class.domprocessinginstruction.md). Цей об'єкт буде доступний лише для читання. Він може бути доданий до документа. Додаткові вузли не можна прикріпити до цього об'єкта, доки він приєднаний до будь-якого документа. Для створення вузла, що модифікується, використовуйте [DOMDocument::createProcessingInstruction](domdocument.createprocessinginstruction.md)
 
@@ -45,7 +46,7 @@ echo $dom->saveXML();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -54,4 +55,4 @@ echo $dom->saveXML();
 
 ### Дивіться також
 
--   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.md) - Створити новий PI-вузол
+-   [DOMDocument::createProcessingInstruction()](domdocument.createprocessinginstruction.md) \- Створити новий PI-вузол

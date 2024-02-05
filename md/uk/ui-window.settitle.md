@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-window.setsize.md: '« UIWindow::setSize'
-  - class.ui-control.md: ОЙControl »
+  - ui-window.setsize.md: '« UI\\Window::setSize'
+  - class.ui-control.md: UI\\Control »
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::setTitle'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::setTitle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::setTitle
+# UI\\Window::setTitle
 
 (UI 0.9.9)
 
-ОЙWindow::setTitle — Заголовок вікна
+UI\\Window::setTitle — Заголовок вікна
 
 ### Опис
 

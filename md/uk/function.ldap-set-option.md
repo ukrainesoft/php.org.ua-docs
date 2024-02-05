@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ldap-search.md: « ldapsearch
-  - function.ldap-set-rebind-proc.md: ldapsetrebindproc »
+  - function.ldap-search.md: « ldap\_search
+  - function.ldap-set-rebind-proc.md: ldap\_set\_rebind\_proc »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapsetoption
+title: ldap\_set\_option
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapsetoption
+# ldap\_set\_option
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
-ldapsetoption — Встановити значення цієї опції
+ldap\_set\_option — Встановити значення цієї опції
 
 ### Опис
 
@@ -24,11 +25,11 @@ ldap_set_option(?LDAP\Connection $ldap, int $option, array|string|int|bool $valu
 
 `ldap`
 
-Або екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md) для встановлення опції для цього з'єднання, або **`null`** для встановлення опції глобально.
+Або екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md) для встановлення опції для цього з'єднання, або \*\*`null`\*\*для установки опции глобально.
 
 `option`
 
-Опція `option` може бути однією з:
+Опция`option` може бути однією з:
 
 | Опция | Тип | Доступна с |
 | --- | --- | --- |
@@ -61,21 +62,21 @@ ldap_set_option(?LDAP\Connection $ldap, int $option, array|string|int|bool $valu
 | **`LDAP_OPT_X_TLS_RANDOM_FILE`** | string | PHP 7.1.0 |
 | **`LDAP_OPT_X_TLS_REQUIRE_CERT`** | int | PHP 7.0.5 |
 
-**`LDAP_OPT_SERVER_CONTROLS`** і **`LDAP_OPT_CLIENT_CONTROLS`** вимагають список елементів керування. Це означає, що значення має бути масивом елементів керування. Елемент управління складається з *oid*, що визначає елемент управління, опціонального *значення*, та додаткового прапора для *критичності*. У PHP елемент керування задається масивом, що містить елемент із ключем *oid* і рядковим значенням і двома необов'язковими елементами. Необов'язкові елементи є ключем *value* з рядковим значенням та ключем *iscritical* з логічним значенням . *iscritical* за замовчуванням встановлюється в ***`false`***, якщо не вказано. Для більш детальної інформації дивіться [» draft-ietf-ldapext-ldap-c-api-xx.txt](http://www.openldap.org/devel/cvsweb.cgi/~checkout~/doc/drafts/draft-ietf-ldapext-ldap-c-api-xx.txt). Дивіться також другий приклад, наведений нижче.
+**`LDAP_OPT_SERVER_CONTROLS`**и**`LDAP_OPT_CLIENT_CONTROLS`** вимагають список елементів керування. Це означає, що значення має бути масивом елементів керування. Елемент управління складається з *oid*, що визначає елемент управління, опціонального *значения* , та додаткового прапора для *критичності*. У PHP елемент керування задається масивом, що містить елемент із ключем *oid* і рядковим значенням і двома необов'язковими елементами. Необов'язкові елементи є ключем *value* з рядковим значенням та ключем *iscritical* з логічним значенням . *iscritical*по умолчанию устанавливается в\*\*\*`false`\*\*\*, якщо не вказано. Для більш детальної інформації дивіться [» draft-ietf-ldapext-ldap-c-api-xx.txt](http://www.openldap.org/devel/cvsweb.cgi/~checkout~/doc/drafts/draft-ietf-ldapext-ldap-c-api-xx.txt). Дивіться також другий приклад, наведений нижче.
 
 `value`
 
-Нове значення для зазначеної `option` (Опції).
+Новое значение для указанной`option` (Опції).
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
 
 ### Приклади
 
@@ -110,10 +111,10 @@ if (!ldap_set_option($ds, LDAP_OPT_SERVER_CONTROLS, array($ctrl1, $ctrl2))) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця функція доступна лише при використанні OpenLDAP 2.x.x або Netscape Directory SDK x.x.
 
 ### Дивіться також
 
--   [ldapgetoption()](function.ldap-get-option.md) - Отримати поточне значення цієї опції
+-   [ldap\_get\_option()](function.ldap-get-option.md) \- Отримати поточне значення цієї опції

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandfailedevent.getcommandname.md: '« MongoDBDriverMonitoringCommandFailedEvent::getCommandName'
-  - mongodb-driver-monitoring-commandfailedevent.geterror.md: 'MongoDBDriverMonitoringCommandFailedEvent::getError »'
+  - mongodb-driver-monitoring-commandfailedevent.getcommandname.md: '« MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getCommandName'
+  - mongodb-driver-monitoring-commandfailedevent.geterror.md: 'MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getError »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDBDriverMonitoringCommandFailedEvent
-title: 'MongoDBDriverMonitoringCommandFailedEvent::getDurationMicros'
+  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDB\\Driver\\Monitoring\\CommandFailedEvent
+title: 'MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getDurationMicros'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringCommandFailedEvent::getDurationMicros
+# MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getDurationMicros
 
 (mongodb >=1.3.0)
 
-MongoDBDriverMonitoringCommandFailedEvent::getDurationMicros — Повертає тривалість команди в мікросекундах
+MongoDB\\Driver\\Monitoring\\CommandFailedEvent::getDurationMicros — Повертає тривалість команди в мікросекундах
 
 ### Опис
 
@@ -30,7 +31,7 @@ final public MongoDB\Driver\Monitoring\CommandFailedEvent::getDurationMicros(): 
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 

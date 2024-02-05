@@ -1,10 +1,11 @@
 ---
 navigation:
-  - cubrid.constants.md: « Обумовлені константи
-  - ref.cubrid.md: Функции CUBRID »
+  - cubrid.constants.md: « Зумовлені константи
+  - ref.cubrid.md: Функції CUBRID »
   - index.md: PHP Manual
   - book.cubrid.md: CUBRID
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -66,27 +67,27 @@ title: Приклади
             /**
              * Выводим имена столбцов на экран.
              */
-            echo("<tr>");
+            echo "<tr>";
 
             while (list($key, $colname) = each($columns)) {
-                echo("<td align=center>$colname</td>");
+                echo "<td align=center>$colname</td>";
             }
 
-            echo("</tr>");
+            echo "</tr>";
 
             /**
              * получаем результаты из результирующего набора.
              */
             while ($row = cubrid_fetch($result)) {
-                echo("<tr>");
+                echo "<tr>";
 
                 for ($i = 0; $i < $num_fields; $i++) {
-                    echo("<td align=center>");
-                    echo($row[$i]);
-                    echo("</td>");
+                    echo "<td align=center>";
+                    echo $row[$i];
+                    echo "</td>";
                 }
 
-                echo("</tr>");
+                echo "</tr>";
             }
         }
         /**
@@ -138,12 +139,12 @@ title: Приклади
              * Обработали успешно, можно фиксировать.
              */
             cubrid_commit($cubrid_con);
-            echo("Inserted successfully ");
+            echo "Inserted successfully";
         } else {
             /**
              * Произошла ошибка, значит выводим её на экран и откатываемся.
              */
-            echo(cubrid_error_msg());
+            echo cubrid_error_msg();
             cubrid_rollback($cubrid_con);
         }
         cubrid_disconnect($cubrid_con);

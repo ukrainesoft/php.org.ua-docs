@@ -1,14 +1,15 @@
 ---
 navigation:
   - class.addressinfo.md: « AddressInfo
-  - intro.ssh2.md: Введение »
+  - intro.ssh2.md: Вступ "
   - index.md: PHP Manual
   - refs.remote.other.md: Інші служби
 title: Secure Shell2
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Secure Shell2
 
--   [Введение](intro.ssh2.md)
+-   [Вступ](intro.ssh2.md)
 -   [Встановлення та налаштування](ssh2.setup.md)
     -   [Вимоги](ssh2.requirements.md)
     -   [Установка](ssh2.installation.md)
@@ -16,37 +17,37 @@ title: Secure Shell2
     -   [Типи ресурсів](ssh2.resources.md)
 -   [Обумовлені константи](ssh2.constants.md)
 -   [Функції SSH2](ref.ssh2.md)
-    -   [ssh2authagent](function.ssh2-auth-agent.md) — Аутентифікація через SSH за допомогою агента ssh
-    -   [ssh2authhostbasedfile](function.ssh2-auth-hostbased-file.md) - Аутентифікація з використанням відкритого ключа хоста
-    -   [ssh2authnone](function.ssh2-auth-none.md) - Аутентифікація як "none"
-    -   [ssh2authpassword](function.ssh2-auth-password.md) - Аутентифікація через SSH з використанням звичайного пароля
-    -   [ssh2authpubkeyfile](function.ssh2-auth-pubkey-file.md) - Аутентифікація з відкритим ключем
-    -   [ssh2connect](function.ssh2-connect.md) — Підключення до SSH-сервера
-    -   [ssh2disconnect](function.ssh2-disconnect.md) — Закрити з'єднання з віддаленим сервером SSH
-    -   [ssh2exec](function.ssh2-exec.md) — Виконання команди на віддаленому сервері
-    -   [ssh2fetchstream](function.ssh2-fetch-stream.md) — Отримання розширеного потоку даних
-    -   [ssh2fingerprint](function.ssh2-fingerprint.md) — Отримання відбитка віддаленого сервера
-    -   [ssh2forwardaccept](function.ssh2-forward-accept.md) — Приймає з'єднання, створене слухачем
-    -   [ssh2forwardlisten](function.ssh2-forward-listen.md) — Зв'язує порт на віддаленому сервері та прослуховує з'єднання
-    -   [ssh2methodsnegotiated](function.ssh2-methods-negotiated.md) — Повертає список узгоджених методів
-    -   [ssh2poll](function.ssh2-poll.md) — Опитує канали/слухачів/потоки щодо подій
-    -   [ssh2publickeyadd](function.ssh2-publickey-add.md) — Додає авторизований відкритий ключ
-    -   [ssh2publickeyinit](function.ssh2-publickey-init.md) — Ініціалізує підсистему відкритого ключа
-    -   [ssh2publickeylist](function.ssh2-publickey-list.md) - Список вже авторизованих відкритих ключів
-    -   [ssh2publickeyremove](function.ssh2-publickey-remove.md) — Видаляє авторизований відкритий ключ
-    -   [ssh2scprecv](function.ssh2-scp-recv.md) - Запит файлу через SCP
-    -   [ssh2scpsend](function.ssh2-scp-send.md) — Надсилання файлу через SCP
-    -   [ssh2sendeof](function.ssh2-send-eof.md) - Відправляє EOF у потік
-    -   [ssh2sftpchmod](function.ssh2-sftp-chmod.md) — Зміна прав доступу
-    -   [ssh2sftplstat](function.ssh2-sftp-lstat.md) — Інформація про символічне посилання
-    -   [ssh2sftpmkdir](function.ssh2-sftp-mkdir.md) - Створити директорію
-    -   [ssh2sftpreadlink](function.ssh2-sftp-readlink.md) — Повертає об'єкт за символічним посиланням
-    -   [ssh2sftprealpath](function.ssh2-sftp-realpath.md) — Визначає повний шлях по даному рядку шляхом
-    -   [ssh2sftprename](function.ssh2-sftp-rename.md) — Перейменовує файл
-    -   [ssh2sftprmdir](function.ssh2-sftp-rmdir.md) - Видаляє директорію
-    -   [ssh2sftpstat](function.ssh2-sftp-stat.md) — Інформація про файл
-    -   [ssh2sftpsymlink](function.ssh2-sftp-symlink.md) - Створити символічне посилання
-    -   [ssh2sftpunlink](function.ssh2-sftp-unlink.md) — Видалити файл на сервері
-    -   [ssh2sftp](function.ssh2-sftp.md) - Ініціалізувати підсистему SFTP
-    -   [ssh2shell](function.ssh2-shell.md) — Запитує інтерактивний термінал
-    -   [ssh2tunnel](function.ssh2-tunnel.md) — Відкрити тунель через віддалений сервер
+    -   [ssh2\_auth\_agent](function.ssh2-auth-agent.md)— Аутентифікація через SSH за допомогою агента ssh
+    -   [ssh2\_auth\_hostbased\_file](function.ssh2-auth-hostbased-file.md) \- Аутентифікація з використанням відкритого ключа хоста
+    -   [ssh2\_auth\_none](function.ssh2-auth-none.md) - Аутентифікація як "none"
+    -   [ssh2\_auth\_password](function.ssh2-auth-password.md) \- Аутентифікація через SSH з використанням звичайного пароля
+    -   [ssh2\_auth\_pubkey\_file](function.ssh2-auth-pubkey-file.md) \- Аутентифікація з відкритим ключем
+    -   [ssh2\_connect](function.ssh2-connect.md)— Підключення до SSH-сервера
+    -   [ssh2\_disconnect](function.ssh2-disconnect.md)— Закрити з'єднання з віддаленим сервером SSH
+    -   [ssh2\_exec](function.ssh2-exec.md)— Виконання команди на віддаленому сервері
+    -   [ssh2\_fetch\_stream](function.ssh2-fetch-stream.md)— Отримання розширеного потоку даних
+    -   [ssh2\_fingerprint](function.ssh2-fingerprint.md)— Отримання відбитка віддаленого сервера
+    -   [ssh2\_forward\_accept](function.ssh2-forward-accept.md)— Приймає з'єднання, створене слухачем
+    -   [ssh2\_forward\_listen](function.ssh2-forward-listen.md)— Зв'язує порт на віддаленому сервері та прослуховує з'єднання
+    -   [ssh2\_methods\_negotiated](function.ssh2-methods-negotiated.md)— Повертає список узгоджених методів
+    -   [ssh2\_poll](function.ssh2-poll.md)— Опитує канали/слухачів/потоки щодо подій
+    -   [ssh2\_publickey\_add](function.ssh2-publickey-add.md)— Додає авторизований відкритий ключ
+    -   [ssh2\_publickey\_init](function.ssh2-publickey-init.md)— Ініціалізує підсистему відкритого ключа
+    -   [ssh2\_publickey\_list](function.ssh2-publickey-list.md) \- Список вже авторизованих відкритих ключів
+    -   [ssh2\_publickey\_remove](function.ssh2-publickey-remove.md)— Видаляє авторизований відкритий ключ
+    -   [ssh2\_scp\_recv](function.ssh2-scp-recv.md)— Запит файлу через SCP
+    -   [ssh2\_scp\_send](function.ssh2-scp-send.md)— Надсилання файлу через SCP
+    -   [ssh2\_send\_eof](function.ssh2-send-eof.md) \- Відправляє EOF у потік
+    -   [ssh2\_sftp\_chmod](function.ssh2-sftp-chmod.md)— Зміна прав доступу
+    -   [ssh2\_sftp\_lstat](function.ssh2-sftp-lstat.md)— Інформація про символічне посилання
+    -   [ssh2\_sftp\_mkdir](function.ssh2-sftp-mkdir.md) \- Створити директорію
+    -   [ssh2\_sftp\_readlink](function.ssh2-sftp-readlink.md)— Повертає об'єкт за символічним посиланням
+    -   [ssh2\_sftp\_realpath](function.ssh2-sftp-realpath.md)— Визначає повний шлях по даному рядку шляхом
+    -   [ssh2\_sftp\_rename](function.ssh2-sftp-rename.md) \- Перейменовує файл
+    -   [ssh2\_sftp\_rmdir](function.ssh2-sftp-rmdir.md) \- Видаляє директорію
+    -   [ssh2\_sftp\_stat](function.ssh2-sftp-stat.md)— Інформація про файл
+    -   [ssh2\_sftp\_symlink](function.ssh2-sftp-symlink.md) \- Створити символічне посилання
+    -   [ssh2\_sftp\_unlink](function.ssh2-sftp-unlink.md)— Видалити файл на сервері
+    -   [ssh2\_sftp](function.ssh2-sftp.md) \- Ініціалізувати підсистему SFTP
+    -   [ssh2\_shell](function.ssh2-shell.md)— Запитує інтерактивний термінал
+    -   [ssh2\_tunnel](function.ssh2-tunnel.md)— Відкрити тунель через віддалений сервер

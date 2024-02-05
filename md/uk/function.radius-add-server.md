@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.radius-acct-open.md: « radiusacctopen
-  - function.radius-auth-open.md: radiusauthopen »
+  - function.radius-acct-open.md: « radius\_acct\_open
+  - function.radius-auth-open.md: radius\_auth\_open »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiusaddserver
+  - ref.radius.md: Функції Radius
+title: radius\_add\_server
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiusaddserver
+# radius\_add\_server
 
 (PECL radius >= 1.1.0)
 
-radiusaddserver — Додає сервер
+radius\_add\_server — Додає сервер
 
 ### Опис
 
 ```methodsynopsis
-radius_add_server(    resource $radius_handle,    string $hostname,    int $port,    string $secret,    int $timeout,    int $max_tries): bool
+radius_add_server(    resource $radius_handle,    string $hostname,    int $port,    string $secret,    int $timeout,    int $max_tries): bool
 ```
 
-**radiusaddserver()** може викликатися кілька разів і може використовуватися разом з [radiusconfig()](function.radius-config.md). Можна вказати не більше 10 серверів. Коли задано кілька серверів, вони перевіряються циклічно, доки не буде отримано дійсну відповідь або доки не буде досягнуто межі `max_tries` для кожного сервера.
+**radius\_add\_server()** може викликатися кілька разів і може використовуватися разом з [radius\_config()](function.radius-config.md). Можна вказати не більше 10 серверів. Коли задано кілька серверів, вони перевіряються циклічно, доки не буде отримано дійсну відповідь або доки не буде досягнуто межі `max_tries` для кожного сервера.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ radius_add_server(    resource $radius_handle,    string $hostname,    int $port
 
 `hostname`
 
-Параметр `hostname` вказує хост сервера у вигляді повного доменного імені або IP-адреси, розділеної крапками, у текстовому вигляді.
+Параметр`hostname` вказує хост сервера у вигляді повного доменне ім'я або IP-адреси, розділеної крапками, у текстовому вигляді.
 
 `port`
 
-`port` вказує UDP-порт для зв'язку на сервері. Якщо порт задан як 0, бібліотека шукає сервіс `radius/udp` або `radacct/udp` базі даних мережевих сервісів, і використовує знайдений там порт. Якщо запис не знайдено, бібліотека використовує стандартні порти Radius, 1812 для автентифікації та 1813 для обліку.
+`port` вказує UDP-порт для зв'язку на сервері. Якщо порт задан як 0, бібліотека шукає сервіс `radius/udp`или`radacct/udp` базі даних мережевих сервісів, і використовує знайдений там порт. Якщо запис не знайдено, бібліотека використовує стандартні порти Radius, 1812 для автентифікації та 1813 для обліку.
 
 `secret`
 
@@ -46,11 +47,11 @@ radius_add_server(    resource $radius_handle,    string $hostname,    int $port
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radiusaddserver()****
+**Пример #1 Пример использования**radius\_add\_server()\*\*\*\*
 
 ```php
 <?php
@@ -63,4 +64,4 @@ if (!radius_add_server($res, 'radius.example.com', 1812, 'testing123', 3, 3)) {
 
 ### Дивіться також
 
--   [radiusconfig()](function.radius-config.md) - Примушує бібліотеку читати цей файл конфігурації
+-   [radius\_config()](function.radius-config.md) \- Примушує бібліотеку читати цей файл конфігурації

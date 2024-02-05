@@ -1,28 +1,29 @@
 ---
 navigation:
-  - function.gnupg-getprotocol.md: « gnupggetprotocol
-  - function.gnupg-import.md: gnupgimport »
+  - function.gnupg-getprotocol.md: « gnupg\_getprotocol
+  - function.gnupg-import.md: gnupg\_import »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupggettrustlist
+title: gnupg\_gettrustlist
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupggettrustlist
+# gnupg\_gettrustlist
 
 (PECL gnupg >= 0.5)
 
-gnupggettrustlist — Пошук довірчих елементів
+gnupg\_gettrustlist — Пошук довірчих елементів
 
 ### Опис
 
 ```methodsynopsis
-gnupg_gettrustlist(resource $identifier, string $pattern): array
+gnupg_gettrustlist(resource $identifier, string $pattern): ?array
 ```
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `pattern`
 
@@ -34,7 +35,7 @@ gnupg_gettrustlist(resource $identifier, string $pattern): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupggettrustlist()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_gettrustlist()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($items);
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupggettrustlist()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_gettrustlist()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

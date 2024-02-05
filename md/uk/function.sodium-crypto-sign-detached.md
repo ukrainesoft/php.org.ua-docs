@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-shorthash.md: « sodiumcryptoshorthash
-  - function.sodium-crypto-sign-ed25519-pk-to-curve25519.md: sodiumcryptosigned25519пктоcurve25519 »
+  - function.sodium-crypto-shorthash.md: « sodium\_crypto\_shorthash
+  - function.sodium-crypto-sign-ed25519-pk-to-curve25519.md: sodium\_crypto\_sign\_ed25519\_pk\_to\_curve25519 »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptosigndetached
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_sign\_detached
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptosigndetached
+# sodium\_crypto\_sign\_detached
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptosigndetached — Підписати повідомлення
+sodium\_crypto\_sign\_detached — Підписати повідомлення
 
 ### Опис
 
@@ -28,7 +29,7 @@ sodium_crypto_sign_detached(string $message, string $secret_key): string
 
 `secret_key`
 
-Секретний ключ. Дивіться [sodiumcryptosignsecretkey()](function.sodium-crypto-sign-secretkey.md)
+Секретний ключ. Дивіться [sodium\_crypto\_sign\_secretkey()](function.sodium-crypto-sign-secretkey.md)
 
 ### Значення, що повертаються
 

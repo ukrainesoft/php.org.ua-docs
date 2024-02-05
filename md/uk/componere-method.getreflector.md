@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-method.setstatic.md: '« ComponereMethod::setStatic'
-  - class.componere-value.md: ComponereValue »
+  - componere-method.setstatic.md: '« Componere\\Method::setStatic'
+  - class.componere-value.md: Componere\\Value »
   - index.md: PHP Manual
-  - class.componere-method.md: ComponereMethod
-title: 'ComponereMethod::getReflector'
+  - class.componere-method.md: Componere\\Method
+title: 'Componere\\Method::getReflector'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereMethod::getReflector
+# Componere\\Method::getReflector
 
 (Componere 2 >= 2.1.0)
 
-ComponereMethod::getReflector - Reflection
+Componere\\Method::getReflector — Reflection
 
 ### Опис
 

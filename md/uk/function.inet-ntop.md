@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.http-response-code.md: httpresponsecode
-  - function.inet-pton.md: inetpton »
+  - function.http-response-code.md: « http\_response\_code
+  - function.inet-pton.md: inet\_pton »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
-title: inetntop
+title: inet\_ntop
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# inetntop
+# inet\_ntop
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-inetntop — Конвертує упаковану інтернет-адресу в формат, що читається
+inet\_ntop — Конвертує упаковану інтернет-адресу в формат, що читається
 
 ### Опис
 
@@ -28,11 +29,11 @@ inet_ntop(string $ip): string|false
 
 ### Значення, що повертаються
 
-Повертає строкове подання адреси або **`false`** у разі виникнення помилки.
+Возвращает строковое представление адреса или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **inetntop()****
+**Пример #1 Пример использования**inet\_ntop()\*\*\*\*
 
 ```php
 <?php
@@ -52,6 +53,6 @@ echo $expanded;
 
 ### Дивіться також
 
--   [long2ip()](function.long2ip.md) - Конвертує ціле число в IPv4-адресу
--   [ip2long()](function.ip2long.md) - Конвертує рядок, що містить IPv4-адресу в ціле число
--   [inetpton()](function.inet-pton.md) - Конвертує IP-адресу, що читається, в її упаковане подання inaddr
+-   [long2ip()](function.long2ip.md) \- Конвертує ціле число в IPv4-адресу
+-   [ip2long()](function.ip2long.md) \- Конвертує рядок, що містить IPv4-адресу в ціле число
+-   [inet\_pton()](function.inet-pton.md) \- Конвертує IP-адресу, що читається, в її упаковане подання in\_addr

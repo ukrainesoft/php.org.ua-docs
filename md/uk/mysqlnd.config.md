@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysqlnd.install.md: « Установка
+  - mysqlnd.install.md: « Встановлення
   - mysqlnd.incompatibilities.md: Несумісності »
   - index.md: PHP Manual
   - book.mysqlnd.md: Mysqlnd
 title: Налаштування під час виконання
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Налаштування під час виконання
 
@@ -14,121 +15,123 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [mysqlnd.collectstatistics](mysqlnd.config.md#ini.mysqlnd.collect-statistics) | "1" | PHPINISYSTEM |  |
-| [mysqlnd.collectmemorystatistics](mysqlnd.config.md#ini.mysqlnd.collect-memory-statistics) | "0" | PHPINISYSTEM |  |
-| [mysqlnd.debug](mysqlnd.config.md#ini.mysqlnd.debug) | "" | PHPINISYSTEM |  |
-| [mysqlnd.logmask](mysqlnd.config.md#ini.mysqlnd.log-mask) |  | PHPINIALL |  |
-| [mysqlnd.mempooldefaultsize](mysqlnd.config.md#ini.mysqlnd.mempool-default-size) |  | PHPINIALL |  |
-| [mysqlnd.netreadtimeout](mysqlnd.config.md#ini.mysqlnd.net-read-timeout) | "86400" | PHPINIALL | До PHP 7.2.0 значенням за промовчанням "31536000", а місцем зміни було **`PHP_INI_SYSTEM`** |
-| [mysqlnd.netcmdbuffersize](mysqlnd.config.md#ini.mysqlnd.net-cmd-buffer-size) | 5.3.0 - "2048"; 5.3.1 - "4096" | PHPINISYSTEM |  |
-| [mysqlnd.netreadbuffersize](mysqlnd.config.md#ini.mysqlnd.net-read-buffer-size) | "32768" | PHPINISYSTEM |  |
-| [mysqlnd.sha256serverpublickey](mysqlnd.config.md#ini.mysqlnd.sha256-server-public-key) | "" | PHPINIPERDIR |  |
-| [mysqlnd.tracealloc](mysqlnd.config.md#ini.mysqlnd.trace-alloc) | "" | PHPINISYSTEM |  |
-| [mysqlnd.fetchdatacopy](mysqlnd.config.md#ini.mysqlnd.fetch_data_copy) |  | PHPINIALL |  |
+| [mysqlnd.collect\_statistics](mysqlnd.config.md#ini.mysqlnd.collect-statistics) | "1" | **`INI_SYSTEM`** |  |
+| [mysqlnd.collect\_memory\_statistics](mysqlnd.config.md#ini.mysqlnd.collect-memory-statistics) | "0" | **`INI_SYSTEM`** |  |
+| [mysqlnd.debug](mysqlnd.config.md#ini.mysqlnd.debug) | "" | **`INI_SYSTEM`** |  |
+| [mysqlnd.log\_mask](mysqlnd.config.md#ini.mysqlnd.log-mask) |  | **`INI_ALL`** |  |
+| [mysqlnd.mempool\_default\_size](mysqlnd.config.md#ini.mysqlnd.mempool-default-size) | 16000 | **`INI_ALL`** |  |
+| [mysqlnd.net\_read\_timeout](mysqlnd.config.md#ini.mysqlnd.net-read-timeout) | ""86400"" | **`INI_ALL`** | До PHP 7.2.0 значенням за промовчанням "31536000", а місцем зміни було **`INI_SYSTEM`** |
+| [mysqlnd.net\_cmd\_buffer\_size](mysqlnd.config.md#ini.mysqlnd.net-cmd-buffer-size) | 5.3.0 — "2048", 5.3.1 — "4096" | **`INI_SYSTEM`** |  |
+| [mysqlnd.net\_read\_buffer\_size](mysqlnd.config.md#ini.mysqlnd.net-read-buffer-size) | "32768" | **`INI_SYSTEM`** |  |
+| [mysqlnd.sha256\_server\_public\_key](mysqlnd.config.md#ini.mysqlnd.sha256-server-public-key) | "" | **`INI_PERDIR`** |  |
+| [mysqlnd.trace\_alloc](mysqlnd.config.md#ini.mysqlnd.trace-alloc) | "" | **`INI_SYSTEM`** |  |
+| [mysqlnd.fetch\_data\_copy](mysqlnd.config.md#ini.mysqlnd.fetch_data_copy) |  | **`INI_ALL`** | Видалено з PHP 8.1.0 |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
+Додаткова інформація та опис режимів INI\_\* дано у розділі «[Місця встановлення параметрів конфігурації](configuration.changes.modes.md)».
 
 Коротке пояснення конфігураційних директив.
 
-`mysqlnd.collect_statistics` bool
+`mysqlnd.collect_statistics`bool
 
-Включає в себе збір різної статистики клієнта, доступ до якої можна отримати за допомогою [mysqligetclientstats()](function.mysqli-get-client-stats.md) [mysqligetconnectionstats()](mysqli.get-connection-stats.md), і яка відображається у розділі `mysqlnd` виведення функції [phpinfo()](function.phpinfo.md)
+Включає в себе збір різної статистики клієнта, доступ до якої можна отримати за допомогою [mysqli\_get\_client\_stats()](function.mysqli-get-client-stats.md) [mysqli\_get\_connection\_stats()](mysqli.get-connection-stats.md), і яка відображається у розділі `mysqlnd` виведення функції [phpinfo()](function.phpinfo.md)
 
 Цей параметр конфігурації включає всю [статистику вбудованого драйвера MySQL](mysqlnd.stats.md), Окрім роботи з оперативною пам'яттю.
 
-`mysqlnd.collect_memory_statistics` bool
+`mysqlnd.collect_memory_statistics`bool
 
-Включає збирання різної статистики оперативної пам'яті, доступ до якої можна отримати за допомогою [mysqligetclientstats()](function.mysqli-get-client-stats.md) [mysqligetconnectionstats()](mysqli.get-connection-stats.md), і яка відображається у розділі `mysqlnd` виведення функції [phpinfo()](function.phpinfo.md)
+Включає збирання різної статистики оперативної пам'яті, доступ до якої можна отримати за допомогою [mysqli\_get\_client\_stats()](function.mysqli-get-client-stats.md) [mysqli\_get\_connection\_stats()](mysqli.get-connection-stats.md), і яка відображається у розділі `mysqlnd` виведення функції [phpinfo()](function.phpinfo.md)
 
 Цей параметр конфігурації включає всю статистику, що стосується роботи з оперативною пам'яттю, в загальний набір даних [статистики вбудованого драйвера MySQL](mysqlnd.stats.md)
 
-`mysqlnd.debug` string
+`mysqlnd.debug`string
 
-Записує команди з усіх модулів, які використовують `mysqlnd`у зазначений файл з логами.
+Записує команди з усіх модулів, які використовують `mysqlnd`у вказаний файл з логами.
 
-Формат параметра наступний: `mysqlnd.debug = "option1[,parameter_option1][:option2[,parameter_option2]]"`
+Формат параметра следующий:`mysqlnd.debug = "option1[,parameter_option1][:option2[,parameter_option2]]"`
 
 Можливі нижченаведені значення для рядка форматування:
 
--   А,file - Додає виведення трасування у вказаний файл. Також щоразу перевіряє успішність запису даних. Це реалізовано шляхом закриття та повторного відкриття файлу (що досить повільно). Надає гарантію цілісності файлу з логами у разі помилки програми.
+-   A\[,file\]- Додає виведення трасування у вказаний файл. Також щоразу перевіряє успішність запису даних. Це реалізовано шляхом закриття та повторного відкриття файлу (що досить повільно). Надає гарантію цілісності файлу з логами у разі помилки програми.
     
--   а,file - Додає виведення трасування у вказаний файл.
+-   a\[,file\]- Додає виведення трасування у вказаний файл.
     
--   d - Включає виведення з макросу DBUG поточного стану. Може бути доповнено списком ключових слів, щоб вибрати висновок макросу DBUG, що містить ці ключові слова. Порожній список ключових слів передбачає виведення всіх макросів.
+-   d - Включає виведення з макросу DBUG\_поточного стану. Може бути доповнено списком ключових слів, щоб вибрати висновок макросу DBUG, що тільки містить ці ключові слова. Порожній список ключових слів передбачає виведення всіх макросів.
     
--   ф,функції - обмежує дії налагоджувача зазначеним списком функцій. Порожній список функцій передбачає вибір усіх функцій.
+-   f\[,functions\]- обмежує дії налагоджувача вказаним списком функцій. Порожній список функцій передбачає вибір усіх функцій.
     
 -   F - позначає виведення кожного рядка відладчика назвою вихідного файлу, що містить код, що спричинив висновок.
     
 -   i - позначає виведення кожного рядка відладчика PID поточного процесу.
     
--   L - позначає виведення кожного рядка відладчика назвою вихідного файлу, що викликав висновок, і номером рядка у ній.
+-   L - позначає виведення кожного рядка відладчика назвою вихідного файлу, що викликав висновок, та номером рядка у ній.
     
 -   n - позначає виведення кожного рядка відладчика рівнем вкладеності поточної функції.
     
--   о,file - подібно до a,fileале перезаписує старий файл, а не дописує його.
+-   o\[,file\]- подібно до a\[,file\]але перезаписує старий файл, а не дописує його.
     
--   Про,file - подібно до A,file але перезаписує старий файл, а чи не дописує його.
+-   O\[,file\]- подібно до A\[,file\]але перезаписує старий файл, а чи не дописує його.
     
--   т,Н - Включає контроль функцій під час трасування. Максимальний рівень вкладеності визначено N і за умовчанням дорівнює 200.
+-   t\[,N\]- Включає контроль функцій під час трасування. Максимальний рівень вкладеності визначено N і за умовчанням дорівнює 200.
     
 -   x – цей параметр активує профільування.
     
 -   m - відстежувати дзвінки, пов'язані з виділеннями та вивільненням пам'яті.
     
 
-Приклад:
+Пример:
 
 ```
 d:t:x:O,/tmp/mysqlnd.trace
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Ця можливість доступна тільки для налагодження PHP. Працює на Microsoft Windows при використанні налагоджувального складання PHP, якщо PHP було зібрано за допомогою Microsoft Visual C версії 9 і вище.
 
-`mysqlnd.log_mask` int
+`mysqlnd.log_mask`int
 
-Визначає, які запити журналюватимуться. Значення за промовчанням - 0, що вимикає журнал. Значення параметра – лише ціле число, константи PHP використовувати не можна. Наприклад, при значенні 48 (16 + 32) в журнал записуватимуться повільні запити, які використовують невідповідні індекси (SERVERQUERYАЛЕGOODINDEXUSED ​​= 16), або не використовують їх взагалі SERVERQUERYАЛЕINDEXUSED ​​= 32). При значенні 2043 (1 + 2 + 8 + ... + 1024) до журналу записуватимуться всі типи повільних запитів.
+Визначає, які запити журналюватимуться. Значення за промовчанням - 0, що вимикає журнал. Значення параметра – лише ціле число, константи PHP використовувати не можна. Наприклад, при значенні 48 (16 + 32) в журнал записуватимуться повільні запити, які використовують невідповідні індекси (SERVER\_QUERY\_NO\_GOOD\_INDEX\_USED ​​= 16), або не використовують їх взагалі SERVER\_QUERY\_NO\_INDEX\_USED ​​= 32). При значенні 2043 (1 + 2 + 8 + ... + 1024) до журналу записуватимуться всі типи повільних запитів.
 
-Використовуються такі типи запитів: SERVERSTATUSІНTRANS=1, SERVERSTATUSAUTOCOMMIT=2, SERVERMORERESULTSEXISTS=8, SERVERQUERYАЛЕGOODINDEXUSED=16, SERVERQUERYАЛЕINDEXUSED=32, SERVERSTATUSCURSOREXISTS=64, SERVERSTATUSLASTROWSENT=128, SERVERSTATUSДБDROPPED=256, SERVERSTATUSАЛЕBACKSLASHESCAPES=512, і SERVERQUERYWASSLOW = 1024.
+Використовуються такі типи запитів: SERVER\_STATUS\_IN\_TRANS=1, SERVER\_STATUS\_AUTOCOMMIT=2, SERVER\_MORE\_RESULTS\_EXISTS=8, SERVER\_QUERY\_NO\_GOOD\_INDEX\_USED=16, SERVER\_QUERY\_NO\_INDEX\_USED=32, SERVER\_STATUS\_CURSOR\_EXISTS=64, SERVER\_STATUS\_LAST\_ROW\_SENT=128, SERVER\_STATUS\_DB\_DROPPED=256, SERVER\_STATUS\_NO\_BACKSLASH\_ESCAPES=512, and SERVER\_QUERY\_WAS\_SLOW=1024.
 
-`mysqlnd.mempool_default_size` int
+`mysqlnd.mempool_default_size`int
 
-Більшість розміру mysqlnd пам'яті, які використовують за результатами набору.
+Default size of the mysqlnd memory pool, which is used by result sets.
 
-`mysqlnd.net_read_timeout` int
+`mysqlnd.net_read_timeout`int
 
-`mysqlnd` та клієнтська бібліотека MySQL, `libmysqlclient`, використовують різні мережеві API . `mysqlnd` використовує потоки PHP, тоді як `libmysqlclient` - Власну обгортку над мережевими викликами операційної системи. У PHP за промовчанням виставлено 60-секундний час очікування потоків. Цей параметр виставляється у php.ini директивою `default_socket_timeout`. За умовчанням це стосується всіх потоків, яким не встановлено інше значення часу очікування . `mysqlnd` не встановлював інших значень, тому підключення тривалих запитів можуть бути відключені після `default_socket_timeout` секунд з помилкою 2006 – MySQL Server has gone away. Клієнтська бібліотека MySQL встановлює час очікування за промовчанням 24 3600 секунд (1 день) і чекає на виникнення іншого часу очікування, такого як час очікування TCP/IP. Тепер `mysqlnd` використовує такий самий дуже довгий час очікування. Це значення можна змінити через нову директиву php.ini - `mysqlnd.net_read_timeout`. . `mysqlnd.net_read_timeout` буде використовуватися будь-яким модулем (`ext/mysql` `ext/mysqli` `PDO_MySQL`), що використовує `mysqlnd`. . `mysqlnd` вказує потокам PHP використовувати `mysqlnd.net_read_timeout`. Будь ласка, зверніть увагу, що можуть бути невеликі відмінності між `MYSQL_OPT_READ_TIMEOUT` у клієнтській бібліотеці MySQL та потоках PHP, наприклад, судячи з документації, `MYSQL_OPT_READ_TIMEOUT` працює тільки для TCP/IP-підключень та, аж до MySQL 5.1.2, тільки під Windows. Потоки PHP можуть не мати таких обмежень. У разі сумнівів, прохання звірятися з документацією потоків.
+`mysqlnd`и клиентская библиотека MySQL,`libmysqlclient`, використовують різні мережеві API . `mysqlnd`использует потоки PHP, тогда как`libmysqlclient` - Власну обгортку над мережевими викликами операційної системи. У PHP за замовчуванням виставлений 60-секундний час очікування потоків. Цей параметр виставляється у php.ini директивою `default_socket_timeout`. За умовчанням це стосується всіх потоків, яким не встановлено інше значення часу очікування . `mysqlnd` не встановлював інших значень, тому підключення тривалих запитів можуть бути відключені після `default_socket_timeout`секунд с ошибкой 2006 - MySQL Server has gone away. Клиентская библиотека MySQL устанавливает время ожидания по умолчанию равное 24\* 3600 секунд (1 день) і чекає на виникнення іншого часу очікування, такого як час очікування TCP/IP. Тепер `mysqlnd` використовує такий самий дуже довгий час очікування. Це значення можна змінити через нову директиву php.ini - `mysqlnd.net_read_timeout`. . `mysqlnd.net_read_timeout` буде використовуватися будь-яким модулем (`ext/mysql` `ext/mysqli` `PDO_MySQL`), использующим`mysqlnd`. . `mysqlnd` вказує потокам PHP використовувати `mysqlnd.net_read_timeout`. Будь ласка, зверніть увагу, що можуть бути невеликі відмінності між `MYSQL_OPT_READ_TIMEOUT` у клієнтській бібліотеці MySQL та потоках PHP, наприклад, судячи з документації, `MYSQL_OPT_READ_TIMEOUT` працює тільки для TCP/IP-підключень та, аж до MySQL 5.1.2, тільки під Windows. Потоки PHP можуть не мати таких обмежень. У разі сумнівів, прохання звірятися з документацією потоків.
 
-`mysqlnd.net_cmd_buffer_size` int
+`mysqlnd.net_cmd_buffer_size`int
 
 `mysqlnd` резервує внутрішній командно-мережевий буфер розміром `mysqlnd.net_cmd_buffer_size` (У php.ini) байт для кожного з'єднання. Якщо команда клієнт-серверного протоколу MySQL, наприклад, `COM_QUERY` (звичайний запит), не вміщується в буфер, `mysqlnd` збільшить буфер до розміру, необхідного для надсилання команди. Щоразу, коли буфер був збільшений, змінна статистика `command_buffer_too_small` буде збільшено на один.
 
-Якщо `mysqlnd` доводиться збільшувати буфер понад його заданого розміру `mysqlnd.net_cmd_buffer_size` байт для більшості з'єднань, вам слід обміркувати необхідність збільшення розміру за замовчуванням, щоб уникнути повторних резервацій буфера.
+Якщо `mysqlnd` доводиться збільшувати буфер понад його заданого розміру `mysqlnd.net_cmd_buffer_size` байт для більшості з'єднань, вам слід обміркувати необхідність збільшення розміру за умовчанням, щоб уникнути повторних резервацій буфера.
 
 Розмір за замовчуванням буфера становить 4096 байт, що є найменшим можливим значенням.
 
 Це значення також може бути встановлене функцією `mysqli_options(link, MYSQLI_OPT_NET_CMD_BUFFER_SIZE, size)`
 
-`mysqlnd.net_read_buffer_size` int
+`mysqlnd.net_read_buffer_size`int
 
-Максимальний розмір частини даних при зчитуванні в байтах при обробці тіла командного пакета MySQL. Клієнт-серверний протокол MySQL повертає всі свої команди до пакетів. Пакет складається з невеликого заголовка та тіла, що містить безпосередньо дані команди. Розмір тіла закодований у заголовку . `mysqlnd` зчитує тіло частинами по `MIN(header.size, mysqlnd.net_read_buffer_size)` байт. Якщо розмір тіла пакета більший, ніж `mysqlnd.net_read_buffer_size` байт, `mysqlnd` буде викликати `read()` декілька разів.
+Максимальний розмір частини даних при зчитуванні в байтах при обробці тіла командного пакета MySQL. Клієнт-серверний протокол MySQL повертає всі свої команди до пакетів. Пакет складається з невеликого заголовка та тіла, що містить безпосередньо дані команди. Розмір тіла закодований у заголовку . `mysqlnd` зчитує тіло частинами по `MIN(header.size, mysqlnd.net_read_buffer_size)`байт. Если размер тела пакета больше, чем`mysqlnd.net_read_buffer_size`байт,`mysqlnd` буде викликати `read()` декілька разів.
 
 Це значення також може бути встановлене функцією `mysqli_options(link, MYSQLI_OPT_NET_READ_BUFFER_SIZE, size)`
 
-`mysqlnd.sha256_server_public_key` string
+`mysqlnd.sha256_server_public_key`string
 
 Ця опція відноситься до плагіну автентифікації SHA-256 і містить шлях до файлу з публічним ключем RSA MySQL-сервера.
 
-Клієнт може як не вказувати публічний ключ RSA, вказати його за допомогою цієї опції, або встановити ключ під час виконання за допомогою функції [mysqlioptions()](mysqli.options.md). Якщо публічний ключ RSA не був переданий клієнтом, то ключ буде отримано в результаті стандартної процедури автентифікації плагіну автентифікації SHA-256.
+Клієнт може як не вказувати публічний ключ RSA, вказати його за допомогою цієї опції, або встановити ключ під час виконання за допомогою функції [mysqli\_options()](mysqli.options.md). Якщо публічний ключ RSA не був переданий клієнтом, то ключ буде отримано в результаті стандартної процедури автентифікації плагіну автентифікації SHA-256.
 
-`mysqlnd.trace_alloc` string
+`mysqlnd.trace_alloc`string
 
-`mysqlnd.fetch_data_copy` int
+`mysqlnd.fetch_data_copy`int
 
-Примушує копіювати набори з внутрішнього буфера наборів PHP змінні замість використання логіки з посиланнями і "копіюванням при записі" за замовчуванням. Дивіться [реализация управления памятью](mysqlnd.memory.md) для більшої інформації.
+Примушує копіювати набори з внутрішнього буфера наборів PHP змінні замість використання логіки з посиланнями і "копіюванням при записі" за замовчуванням. Дивіться [реалізація управління пам'яттю](mysqlnd.memory.md) для більшої інформації.
 
 Копіювання результуючих наборів замість PHP змінних посилаються на них дозволяють виділяти пам'ять для PHP змінних заздалегідь. Залежно від коду користувача, реальних запитів до бази даних і розмірів їх результатів, можна знизити споживання пам'яті mysqlnd.
 
-Не застосовуйте, якщо використовується PDOMySQL. У PDOMySQL ще не додано підтримку цього нового режиму.
+Не застосовуйте, якщо використовується PDO\_MySQL. У PDO\_MySQL ще не додано підтримку цього нового режиму.
+
+> **Зауваження**: Видалено з PHP 8.1.0

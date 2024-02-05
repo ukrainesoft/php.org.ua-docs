@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::getFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::getFlags
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ArrayObject::getFlags — Отримує прапори поведінки
 
@@ -18,7 +19,7 @@ ArrayObject::getFlags — Отримує прапори поведінки
 public ArrayObject::getFlags(): int
 ```
 
-Отримує прапори поведінки [ArrayObject](class.arrayobject.md). Дивіться метод [ArrayObject::setFlags](arrayobject.setflags.md) Щоб переглянути список можливих прапорів.
+Получает флаги поведения[ArrayObject](class.arrayobject.md)Смотрите метод[ArrayObject::setFlags](arrayobject.setflags.md) Щоб переглянути список можливих прапорів.
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ public ArrayObject::getFlags(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::getFlags()****
+**Пример #1 Пример использования**ArrayObject::getFlags()\*\*\*\*
 
 ```php
 <?php
-// Масив с количеством фруктов
+// Массив с количеством фруктов
 $fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
 $fruitsArrayObject = new ArrayObject($fruits);
@@ -52,7 +53,7 @@ var_dump($flags);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(0)
@@ -61,4 +62,4 @@ int(2)
 
 ### Дивіться також
 
--   Метод [ArrayObject::setFlags()](arrayobject.setflags.md) - Встановлює прапори поведінки
+-   Метод[ArrayObject::setFlags()](arrayobject.setflags.md) \- Встановлює прапори поведінки

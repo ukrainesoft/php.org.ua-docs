@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::isLenient'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::isLenient
 
-# datefmtісlenient
+# datefmt\_is\_lenient
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::isLenient -- datefmtісlenient — Отримує поблажливість для IntlDateFormatter
+IntlDateFormatter::isLenient -- datefmt\_is\_lenient — Отримує поблажливість для IntlDateFormatter
 
 ### Опис
 
@@ -38,11 +39,11 @@ datefmt_is_lenient(IntlDateFormatter $formatter): bool
 
 ### Значення, що повертаються
 
-Повертає \*\*`true`\*\*якщо парсер поблажливий або \*\*`false`\*\*якщо парсер строгий. За промовчанням парсер поблажливий.
+Повертає **`true`**, если парсер снисходителен или\*\*`false`\*\*якщо парсер строгий. За промовчанням парсер поблажливий.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmtісlenient()****
+**Пример #1 Пример использования**datefmt\_is\_lenient()\*\*\*\*
 
 ```php
 <?php
@@ -125,7 +126,7 @@ if (intl_get_error_code() != 0) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Снисходительность средства форматирования: Да
@@ -140,5 +141,5 @@ if (intl_get_error_code() != 0) {
 
 ### Дивіться також
 
--   [datefmtsetlenient()](intldateformatter.setlenient.md) - Встановлює м'який режим аналізатора
--   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати
+-   [datefmt\_set\_lenient()](intldateformatter.setlenient.md) \- Встановлює м'який режим аналізатора
+-   [datefmt\_create()](intldateformatter.create.md) \- Створює засіб форматування дати

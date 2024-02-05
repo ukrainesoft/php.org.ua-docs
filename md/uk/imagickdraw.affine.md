@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::affine'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::affine
 
@@ -20,7 +21,7 @@ public ImagickDraw::affine(array $affine): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Коригує поточну матрицю афінного перетворення із зазначеною матрицею афінного перетворення.
 
@@ -36,7 +37,7 @@ public ImagickDraw::affine(array $affine): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::affine()****
+**Пример #1 Пример использования**ImagickDraw::affine()\*\*\*\*
 
 ```php
 <?php

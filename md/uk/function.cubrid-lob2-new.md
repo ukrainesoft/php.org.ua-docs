@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-lob2-import.md: « cubridlob2import
-  - function.cubrid-lob2-read.md: cubridlob2read »
+  - function.cubrid-lob2-import.md: « cubrid\_lob2\_import
+  - function.cubrid-lob2-read.md: cubrid\_lob2\_read »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridlob2new
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_lob2\_new
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridlob2new
+# cubrid\_lob2\_new
 
 (PECL CUBRID >= 8.4.1)
 
-cubridlob2new — Створює об'єкт LOB
+cubrid\_lob2\_new — Створює об'єкт LOB
 
 ### Опис
 
@@ -18,13 +19,13 @@ cubridlob2new — Створює об'єкт LOB
 cubrid_lob2_new(resource $conn_identifier = ?, string $type = "BLOB"): resource
 ```
 
-Функція **cubridlob2new()** використовується для створення об'єкта LOB (як BLOB, і CLOB). Її слід використовувати перед прив'язкою до об'єкта LOB.
+Функция**cubrid\_lob2\_new()** використовується для створення об'єкта LOB (як BLOB, і CLOB). Її слід використовувати перед прив'язкою LOB.
 
 ### Список параметрів
 
 `conn_identifier`
 
-Ідентифікатор підключення. Якщо ідентифікатор з'єднання не вказано, передбачається останнє підключення, відкрите за допомогою [cubridconnect()](function.cubrid-connect.md) або [cubridconnectwithurl()](function.cubrid-connect-with-url.md)
+Ідентифікатор з'єднання. Якщо ідентифікатор з'єднання не вказано, передбачається останнє підключення, відкрите за допомогою [cubrid\_connect()](function.cubrid-connect.md) або [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.md)
 
 `type`
 
@@ -32,8 +33,8 @@ cubrid_lob2_new(resource $conn_identifier = ?, string $type = "BLOB"): resource
 
 ### Значення, що повертаються
 
-Ідентифікатор LOB у разі успішного виконання або **`false`** у разі виникнення помилки.
+Ідентифікатор LOB у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [cubridlob2close()](function.cubrid-lob2-close.md) - Закриває об'єкт LOB
+-   [cubrid\_lob2\_close()](function.cubrid-lob2-close.md) \- Закриває об'єкт LOB

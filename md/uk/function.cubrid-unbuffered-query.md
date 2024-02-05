@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-result.md: « cubridresult
+  - function.cubrid-result.md: « cubrid\_result
   - oldaliases.cubrid.md: Застарілі псевдоніми та функції CUBRID »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
-title: cubridunbufferedquery
+title: cubrid\_unbuffered\_query
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridunbufferedquery
+# cubrid\_unbuffered\_query
 
 (PECL CUBRID >= 8.3.0)
 
-cubridunbufferedquery — Виконання запиту без завантаження результату на згадку
+cubrid\_unbuffered\_query — Виконання запиту без завантаження результату на згадку
 
 ### Опис
 
@@ -28,19 +29,19 @@ SQL-запит
 
 `conn_identifier`
 
-Ідентифікатор з'єднання CUBRID. Якщо не встановлено, то буде використано останнє з'єднання, повернене [cubridconnect()](function.cubrid-connect.md)
+Ідентифікатор з'єднання CUBRID. Якщо не встановлено, то буде використано останнє з'єднання, повернене [cubrid\_connect()](function.cubrid-connect.md)
 
 ### Значення, що повертаються
 
-Для SELECT, SHOW, DESCRIBE, EXPLAIN та інших запитів, що повертають результуючий набір, [cubridquery()](function.cubrid-query.md) повертає ресурс у разі успішного виконання.
+Для SELECT, SHOW, DESCRIBE, EXPLAIN та інших запитів, що повертають результуючий набір, [cubrid\_query()](function.cubrid-query.md) повертає ресурс у разі успішного виконання.
 
 Для операторів SQL іншого типу UPDATE, DELETE, DROP і т.д. повертає **`true`** у разі успішного виконання.
 
-**`false`** у разі виникнення помилки.
+\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridunbufferedquery()****
+**Пример #1 Пример использования**cubrid\_unbuffered\_query()\*\*\*\*
 
 ```php
 <?php
@@ -64,6 +65,6 @@ SQL-запит
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Переваги **cubridunbufferedquery()** мають свою ціну: ви не зможете використати [cubridnumrows()](function.cubrid-num-rows.md) і [cubriddataseek()](function.cubrid-data-seek.md) для результуючого набору, повернутий **cubridunbufferedquery()**
+> Преимущества**cubrid\_unbuffered\_query()** мають свою ціну: ви не зможете використати [cubrid\_num\_rows()](function.cubrid-num-rows.md) і [cubrid\_data\_seek()](function.cubrid-data-seek.md) для результуючого набору, повернутий **cubrid\_unbuffered\_query()**

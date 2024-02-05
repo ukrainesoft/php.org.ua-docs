@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.mb-convert-kana.md: « mbconvertkana
-  - function.mb-decode-mimeheader.md: мбdecodemimeheader »
+  - function.mb-convert-kana.md: « mb\_convert\_kana
+  - function.mb-decode-mimeheader.md: mb\_decode\_mimeheader »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
-title: мбconvertvariables
+title: mb\_convert\_variables
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# мбconvertvariables
+# mb\_convert\_variables
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-мбconvertvariables — Перетворює символи на змінну з одного кодування на інше
+mb\_convert\_variables — Перетворює символи на змінну з одного кодування на інше
 
 ### Опис
 
 ```methodsynopsis
-mb_convert_variables(    string $to_encoding,    array|string $from_encoding,    mixed &$var,    mixed &...$vars): string|false
+mb_convert_variables(    string $to_encoding,    array|string $from_encoding,    mixed &$var,    mixed &...$vars): string|false
 ```
 
-Конвертує символи в змінних `var` і `vars` з кодування `from_encoding` у кодування `to_encoding`
+Конвертує символи в змінних `var`и`vars` з кодування, зазначеного у параметрі `from_encoding`, у кодування, зазначене у параметрі `to_encoding`
 
-**мбconvertvariables()** об'єднує рядки з масиву чи об'єкта визначення їх кодування, оскільки у разі коротких рядків визначити кодування часто не вдається. Внаслідок цього неприпустимо поміщати в один масив або об'єкт рядка в різних кодуваннях.
+Функция**mb\_convert\_variables()** об'єднує рядки з масиву чи об'єкта визначення їх кодування, оскільки у разі коротких рядків визначити кодування часто вдається. Тому неприпустимо поміщати в один масив чи об'єкт рядка у різних кодуваннях.
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ mb_convert_variables(    string $to_encoding,    array|string $from_encoding,   
 
 `from_encoding`
 
-`from_encoding` задається у вигляді масиву (array) або рядка (string) з розділеними комами кодуванням. Функція спробує визначити кодування вихідного рядка на основі списку можливих кодувань в аргументі `from-coding`. Якщо `from_encoding` опущений, використовується `detect_order`
+Параметр`from_encoding` задається у вигляді масиву (array) або рядка (string) з розділеними комами кодуванням, функція спробує визначити кодування вихідного рядка на основі списку кодувань, заданих у параметрі `from-coding`. Якщо параметр `from_encoding` не заданий, буде обрано кодування, з INI-директиви з ім'ям `detect_order`
 
 `var`
 
-`var` - Посилання на змінну, вміст якої необхідно перетворити. Це може бути рядок, масив чи об'єкт . **мбconvertvariables()** приймає, що це аргументи мають однакову кодування.
+Параметр`var` - Це посилання на змінну, яку потрібно перетворити. Це може бути рядок (string), масив (array) чи об'єкт (object). Функція **mb\_convert\_variables()** передбачає, що всім параметрів задана однакова кодування.
 
 `vars`
 
@@ -42,11 +43,11 @@ mb_convert_variables(    string $to_encoding,    array|string $from_encoding,   
 
 ### Значення, що повертаються
 
-Вихідне кодування у разі успішного виконання або **`false`** у разі невдачі.
+Повертає вихідне кодування у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **мбconvertvariables()****
+**Пример #1 Пример использования функции**mb\_convert\_variables()\*\*\*\*
 
 ```php
 <?php

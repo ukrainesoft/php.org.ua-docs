@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::isReadable'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::isReadable
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::isReadable — Вказує, чи є файл доступним для читання
 
@@ -30,21 +31,19 @@ public SplFileInfo::isReadable(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::isReadable()****
+**Пример #1 Пример использования**SplFileInfo::isReadable()\*\*\*\*
 
 ```php
 <?php
-$info = new SplFileInfo(__FILE__);
-var_dump($info->isReadable());
-
-$info = new SplFileInfo('foo');
-var_dump($info->isReadable());
+$info = new SplFileInfo('readable.jpg');
+if ($info->isReadable()) {
+    echo $info->getFilename() . ' доступен для чтения';
+}
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
-bool(true)
-bool(false)
+readable.jpg доступен для чтения
 ```

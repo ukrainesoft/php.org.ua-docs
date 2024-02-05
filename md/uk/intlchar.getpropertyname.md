@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::getPropertyName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlChar::getPropertyName
 
@@ -20,7 +21,7 @@ public static IntlChar::getPropertyName(int $property, int $type = IntlChar::LON
 
 Повертає ім'я Unicode для заданої якості, як визначено в PropertyAliases.txt.
 
-Крім того, ця функція пов'язує властивість **`IntlChar::PROPERTY_GENERAL_CATEGORY_MASK`** із синтетичним ім'ям "gcm" / "GeneralCategoryMask". Цих імен немає в PropertyAliases.txt.
+Крім того, ця функція пов'язує властивість **`IntlChar::PROPERTY_GENERAL_CATEGORY_MASK`** із синтетичним ім'ям "gcm" / "General\_Category\_Mask". Цих імен немає в PropertyAliases.txt.
 
 Ця функція близька до [IntlChar::getPropertyEnum()](intlchar.getpropertyenum.md)
 
@@ -40,9 +41,9 @@ public static IntlChar::getPropertyName(int $property, int $type = IntlChar::LON
 
 ### Значення, що повертаються
 
-Повертає імена або **`false`** якщо `property` або `type` виходять за допустимий діапазон.
+Повертає імена або **`false`** якщо `property`или`type` виходять за допустимий діапазон.
 
-Якщо `type` повертає **`false`**, то все більші величини `type` також повернуть **`false`**, з одним винятком: якщо **`false`** повернеться для **`IntlChar::SHORT_PROPERTY_NAME`**, то **`IntlChar::LONG_PROPERTY_NAME`** (і вище) все ще можуть повернути не **`false`**
+Якщо `type` повертає **`false`**, то все більші величини `type` також повернуть **`false`**, з одним винятком: якщо **`false`** повернеться для **`IntlChar::SHORT_PROPERTY_NAME`**, то\*\*`IntlChar::LONG_PROPERTY_NAME`\*\* (і вище) все ще можуть повернути не **`false`**
 
 ### Приклади
 
@@ -57,7 +58,7 @@ var_dump(IntlChar::getPropertyName(IntlChar::PROPERTY_BIDI_CLASS, IntlChar::LONG
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(10) "Bidi_Class"
@@ -68,4 +69,4 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::getPropertyEnum()](intlchar.getpropertyenum.md) - Отримати значення константи властивості на його ім'я
+-   [IntlChar::getPropertyEnum()](intlchar.getpropertyenum.md) \- Отримати значення константи властивості на його ім'я

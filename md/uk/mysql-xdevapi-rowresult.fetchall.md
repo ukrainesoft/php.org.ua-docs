@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-rowresult.construct.md: '« RowResult::construct'
+  - mysql-xdevapi-rowresult.construct.md: '« RowResult::\_\_construct'
   - mysql-xdevapi-rowresult.fetchone.md: 'RowResult::fetchOne »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-rowresult.md: mysqlxdevapiRowResult
+  - class.mysql-xdevapi-rowresult.md: mysql\_xdevapi\\RowResult
 title: 'RowResult::fetchAll'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RowResult::fetchAll
 
@@ -26,11 +27,11 @@ public mysql_xdevapi\RowResult::fetchAll(): array
 
 ### Значення, що повертаються
 
-Числовий масив із усіма результатами запиту; кожен результат є асоціативний масив. Повертається порожній масив, якщо рядків немає.
+Числовий масив з усіма результатами запиту; кожен результат є асоціативний масив. Повертається порожній масив, якщо рядків немає.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiRowResult::fetchAll()****
+**Пример #1 Пример использования**mysql\_xdevapi\\RowResult::fetchAll()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ $row = $table->select('name', 'age')->execute()->fetchAll();
 print_r($row);
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

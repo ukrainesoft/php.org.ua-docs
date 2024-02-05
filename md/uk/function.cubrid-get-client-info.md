@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-get-class-name.md: « cubridgetclassname
-  - function.cubrid-get-db-parameter.md: cubridgetдбparameter »
+  - function.cubrid-get-class-name.md: « cubrid\_get\_class\_name
+  - function.cubrid-get-db-parameter.md: cubrid\_get\_db\_parameter »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridgetclientinfo
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_get\_client\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridgetclientinfo
+# cubrid\_get\_client\_info
 
 (PECL CUBRID >= 8.3.0)
 
-cubridgetclientinfo — Повертає версію клієнтської бібліотеки
+cubrid\_get\_client\_info — Повертає версію клієнтської бібліотеки
 
 ### Опис
 
@@ -24,11 +25,11 @@ cubrid_get_client_info(): string
 
 ### Значення, що повертаються
 
-Рядок, що представляє версію клієнтської бібліотеки у разі успішного виконання або **`false`** у разі виникнення помилки.
+Рядок, що представляє версію клієнтської бібліотеки у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridgetclientinfo()****
+**Пример #1 Пример использования**cubrid\_get\_client\_info()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Версия CUBRID PHP:             9.1.0.0001

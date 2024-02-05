@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.htmlspecialchars.md: « htmlspecialchars
+  - function.mdspecialchars.md: « htmlspecialchars
   - function.join.md: join »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: implode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # implode
 
@@ -48,14 +49,14 @@ implode(array $array, string $separator): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Передача `separator` після `array` більше не підтримується. |
-|  | Передача `separator` після `array` (Тобто використання недокументованого порядку параметрів) застаріла. |
+| 8.0.0 | Передача`separator`после`array`більше не підтримується. |
+| 7.4.0 | Передача`separator`после`array` (тобто використання недокументованого порядку параметрів) застаріла. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **implode()****
+**Пример #1 Пример использования**implode()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ implode(array $array, string $separator): string
 $array = ['имя', 'почта', 'телефон'];
 var_dump(implode(",", $array)); // string(32) "имя,почта,телефон"
 
-// Пустая строка при использовании пустого Масива:
+// Пустая строка при использовании пустого массива:
 var_dump(implode('привет', [])); // string(0) ""
 
 // Параметр separator не обязателен:
@@ -78,6 +79,6 @@ var_dump(implode(['a', 'b', 'c'])); // string(3) "abc"
 
 ### Дивіться також
 
--   [explode()](function.explode.md) - Розбиває рядок за допомогою роздільника
--   [pregsplit()](function.preg-split.md) - Розбиває рядок за регулярним виразом
--   [httpbuildquery()](function.http-build-query.md) - Генерує URL-кодований рядок запиту
+-   [explode()](function.explode.md) \- Розбиває рядок за допомогою роздільника
+-   [preg\_split()](function.preg-split.md) \- Розбиває рядок за регулярним виразом
+-   [http\_build\_query()](function.http-build-query.md) \- Генерує URL-кодований рядок запиту

@@ -1,28 +1,29 @@
 ---
 navigation:
-  - function.radius-get-vendor-attr.md: « radiusgetvendorattr
-  - function.radius-put-attr.md: radiusputattr »
+  - function.radius-get-vendor-attr.md: « radius\_get\_vendor\_attr
+  - function.radius-put-attr.md: radius\_put\_attr »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiusputaddr
+  - ref.radius.md: Функції Radius
+title: radius\_put\_addr
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiusputaddr
+# radius\_put\_addr
 
 (PECL radius >= 1.1.0)
 
-radiusputaddr — Приєднує атрибут IP-адреси
+radius\_put\_addr — Приєднує атрибут IP-адреси
 
 ### Опис
 
 ```methodsynopsis
-radius_put_addr(    resource $radius_handle,    int $type,    string $addr,    int $options = 0,    int $tag = ?): bool
+radius_put_addr(    resource $radius_handle,    int $type,    string $addr,    int $options = 0,    int $tag = ?): bool
 ```
 
 Приєднує атрибут IP-адреси до запиту RADIUS.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.md)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radius\_create\_request()](function.radius-create-request.md)
 
 ### Список параметрів
 
@@ -44,14 +45,14 @@ radius_put_addr(    resource $radius_handle,    int $type,    string $addr,    i
 
 `tag`
 
-Тег атрибут. Цей параметр ігнорується, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged)
+Тег атрибут. Цей параметр буде проігноровано, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| PECL radius 1.3.0 | Додані параметри `options` і `tag` |
+| PECL radius 1.3.0 | Додані параметри `options`и`tag` |

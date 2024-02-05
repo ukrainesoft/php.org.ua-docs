@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ldap-close.md: « ldapclose
-  - function.ldap-connect.md: ldapconnect »
+  - function.ldap-close.md: « ldap\_close
+  - function.ldap-connect-wallet.md: ldap\_connect\_wallet »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldapcompare
+title: ldap\_compare
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldapcompare
+# ldap\_compare
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-ldapcompare — Порівняти значення атрибута, знайденого в записі певної DN
+ldap\_compare — Порівняти атрибут, знайдений у записі певної DN
 
 ### Опис
 
 ```methodsynopsis
-ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $attribute,    string $value,    ?array $controls = null): bool|int
+ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $attribute,    string $value,    ?array $controls = null): bool|int
 ```
 
 Порівнює значення (`value`) атрибуту (`attribute`) зі значенням того ж атрибуту запису LDAP-директорії.
@@ -24,7 +25,7 @@ ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $attribute,    
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `dn`
 
@@ -40,7 +41,7 @@ ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $attribute,    
 
 `controls`
 
-Масив [управляющих констант LDAP](ldap.controls.md) для відправки у запиті.
+Массив[керуючих констант LDAP](ldap.controls.md)для отправки в запросе.
 
 ### Значення, що повертаються
 
@@ -48,11 +49,11 @@ ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $attribute,    
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
-|  | Додано підтримку параметра `controls` |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.0.0 | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+| 7.3.0 | Додано підтримку параметра `controls` |
 
 ### Приклади
 
@@ -102,4 +103,4 @@ if ($ds) {
 
 **Увага**
 
-**ldapcompare()** не може бути використана для порівняння бінарних (BINARY) значень!
+**ldap\_compare()** не може бути використана для порівняння бінарних (BINARY) значень!

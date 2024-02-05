@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.reversed.md: '« DsVector::reversed'
-  - ds-vector.set.md: 'ДсVector::set »'
+  - ds-vector.reversed.md: '« Ds\\Vector::reversed'
+  - ds-vector.set.md: 'Ds\\Vector::set »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::rotate'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::rotate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::rotate
+# Ds\\Vector::rotate
 
 (PECL ds >= 1.0.0)
 
-ДсVector::rotate — Перемотує вектор на задану кількість значень
+Ds\\Vector::rotate — Перемотує вектор на задану кількість значень
 
 ### Опис
 
@@ -32,7 +33,7 @@ public Ds\Vector::rotate(int $rotations): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::rotate()****
+**Пример #1 Пример использования**Ds\\Vector::rotate()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ print_r($vector);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 (

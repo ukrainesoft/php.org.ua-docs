@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.stats.md: « Статистика
-  - stats.setup.md: Встановлення та налаштування »
+  - stats.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.stats.md: Статистика
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 

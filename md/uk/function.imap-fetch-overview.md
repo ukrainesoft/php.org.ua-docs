@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-expunge.md: « imapexpunge
-  - function.imap-fetchbody.md: imapfetchbody »
+  - function.imap-expunge.md: « imap\_expunge
+  - function.imap-fetchbody.md: imap\_fetchbody »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapfetchoverview
+  - ref.imap.md: Функції IMAP
+title: imap\_fetch\_overview
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapfetchoverview
+# imap\_fetch\_overview
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapfetchoverview — Огляд інформації, яка міститься в заголовках повідомлень
+imap\_fetch\_overview — Оглядає інформацію із заголовків повідомлень
 
 ### Опис
 
@@ -18,13 +19,13 @@ imapfetchoverview — Огляд інформації, яка міститься
 imap_fetch_overview(IMAP\Connection $imap, string $sequence, int $flags = 0): array|false
 ```
 
-Ця функція читає заголовки повідомлень, заданих у `sequence` та повертає оглядову інформацію про їх контент.
+Ця функція читає заголовки повідомлень, заданих у параметрі `sequence`, та повертає оглядову інформацію про їх зміст.
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `sequence`
 
@@ -32,41 +33,41 @@ imap_fetch_overview(IMAP\Connection $imap, string $sequence, int $flags = 0): ar
 
 `flags`
 
-Параметр `sequence` має містити номери повідомлень. Якщо ви хочете задати в ньому їх UID, цей параметр необхідно задати значенням **`FT_UID`**
+Параметр`sequence` має містити номери повідомлень. Якщо ви хочете задати в ньому їх UID, цей параметр необхідно задати значенням **`FT_UID`**
 
 ### Значення, що повертаються
 
 Повертає масив об'єктів, кожен із яких визначає заголовок одного повідомлення. Об'єкти містять відповідні властивості, тільки якщо вони присутні. Можливі властивості:
 
--   `subject` - Тема листа
--   `from` - хто його послав
--   `to` - одержувач
--   `date` - коли воно було надіслано
--   `message_id` - Ідентифікатор повідомлення
--   `references` - є посиланням на цей ідентифікатор повідомлення
--   `in_reply_to` - є відповіддю на лист із цим ідентифікатором
--   `size` - Розмір у байтах
--   `uid` - UID повідомлення у скриньці
--   `msgno` - номер повідомлення у скриньці
--   `recent` - лист позначений як новий
+-   `subject`\- Тема листа
+-   `from`\- хто його послав
+-   `to`\- одержувач
+-   `date`\- коли воно було надіслано
+-   `message_id`\- Ідентифікатор повідомлення
+-   `references`\- є посиланням на цей ідентифікатор повідомлення
+-   `in_reply_to`\- є відповіддю на лист із цим ідентифікатором
+-   `size`\- Розмір у байтах
+-   `uid`\- UID повідомлення у скриньці
+-   `msgno`\- номер повідомлення у скриньці
+-   `recent`\- лист позначений як новий
 -   `flagged` - це повідомлення позначено (зазвичай є ознакою "важливості")
--   `answered` - повідомлення позначене як відповідь
--   `deleted` - позначено для видалення
--   `seen` - позначено як прочитане
--   `draft` - позначено як чернетка
--   `udate` - тимчасова мітка UNIX дати отримання
+-   `answered`\- повідомлення позначене як відповідь
+-   `deleted`\- позначено для видалення
+-   `seen`\- позначено як прочитане
+-   `draft`\- позначено як чернетка
+-   `udate`\- тимчасова мітка UNIX дати отримання
 
-Функція повертає **`false`** у разі виникнення помилки.
+Функція повертає \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imapfetchoverview()****
+**Пример #1 Пример использования**imap\_fetch\_overview()\*\*\*\*
 
 ```php
 <?php
@@ -87,4 +88,4 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imapfetchheader()](function.imap-fetchheader.md) - Отримати заголовок повідомлення
+-   [imap\_fetchheader()](function.imap-fetchheader.md) \- Отримує заголовок повідомлення

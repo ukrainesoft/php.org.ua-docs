@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-connectiontimeoutexception.md: « MongoDBDriverExceptionConnectionTimeoutException
-  - class.mongodb-driver-exception-exception.md: MongoDBDriverExceptionException »
+  - class.mongodb-driver-exception-connectiontimeoutexception.md: « MongoDB\\Driver\\Exception\\ConnectionTimeoutException
+  - class.mongodb-driver-exception-exception.md: MongoDB\\Driver\\Exception\\Exception »
   - index.md: PHP Manual
-  - mongodb.exceptions.md: MongoDBDriverException
-title: Клас MongoDBDriverExceptionEncryptionException
+  - mongodb.exceptions.md: MongoDB\\Driver\\Exception
+title: Клас MongoDB\\Driver\\Exception\\EncryptionException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverExceptionEncryptionException
+# Клас MongoDB\\Driver\\Exception\\EncryptionException
 
 (mongodb >= 1.7.0)
 
@@ -41,26 +42,26 @@ title: Клас MongoDBDriverExceptionEncryptionException
 
     
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.gnupg-export.md: « gnupgexport
-  - function.gnupg-geterror.md: gnupggeterror »
+  - function.gnupg-export.md: « gnupg\_export
+  - function.gnupg-geterror.md: gnupg\_geterror »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupggetengineinfo
+title: gnupg\_getengineinfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupggetengineinfo
+# gnupg\_getengineinfo
 
 (PECL gnupg >= 1.5)
 
-gnupggetengineinfo — Повертає інформацію про движок
+gnupg\_getengineinfo — Повертає інформацію про движок
 
 ### Опис
 
@@ -22,15 +23,15 @@ gnupg_getengineinfo(resource $identifier): array
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 ### Значення, що повертаються
 
-Повертає масив з інформацією про двигун, що складається з `protocol` `file_name` і `home_dir`
+Повертає масив з інформацією про двигун, що складається з `protocol` `file_name`и`home_dir`
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupggetengineinfo()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_getengineinfo()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ print_r(gnupg_getengineinfo($res));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(3) {
@@ -52,7 +53,7 @@ array(3) {
 }
 ```
 
-**Приклад #2 Приклад використання **gnupggetengineinfo()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_getengineinfo()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php
@@ -61,7 +62,7 @@ print_r($gpg->getengineinfo());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(3) {

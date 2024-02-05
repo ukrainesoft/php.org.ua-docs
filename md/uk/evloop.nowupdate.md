@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::nowUpdate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::nowUpdate
 
 (PECL ev >= 0.2.0)
 
-EvLoop::nowUpdate — Встановлює поточний час, запитуючи ядро, оновлюючи час, що повертається EvLoop::now у процесі
+EvLoop::nowUpdate — Встановлює поточний час, запитуючи ядро, оновлюючи час, який повертається EvLoop::now у процесі
 
 ### Опис
 
@@ -32,4 +33,4 @@ public
 ### Дивіться також
 
 -   [EvLoop::now()](evloop.now.md) - Повертає поточний "event loop time"
--   [Ev::nowUpdate()](ev.nowupdate.md) - Встановлює поточний час шляхом запиту до ядра в процесі оновлюючи час, який повертається Ev::now
+-   [Ev::nowUpdate()](ev.nowupdate.md) \- Встановлює поточний час шляхом запиту до ядра в процесі оновлюючи час, який повертається Ev::now

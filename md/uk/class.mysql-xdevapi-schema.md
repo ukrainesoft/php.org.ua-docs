@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-rowresult.getwarningscount.md: '« RowResult::getWarningsCount'
-  - mysql-xdevapi-schema.construct.md: 'Schema::construct »'
+  - mysql-xdevapi-schema.construct.md: 'Schema::\_\_construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Клас Schema
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Schema
 
@@ -55,14 +56,14 @@ name
 
 ## Зміст
 
--   [Schema::construct](mysql-xdevapi-schema.construct.md) - Конструктор
--   [Schema::createCollection](mysql-xdevapi-schema.createcollection.md) — Додати колекцію до схеми
--   [Schema::dropCollection](mysql-xdevapi-schema.dropcollection.md) — Видалити колекції зі схеми
--   [Schema::existsInDatabase](mysql-xdevapi-schema.existsindatabase.md) — Перевірити, чи існує у базі даних
--   [Schema::getCollection](mysql-xdevapi-schema.getcollection.md) — Отримати колекцію зі схеми
--   [Schema::getCollectionAsTable](mysql-xdevapi-schema.getcollectionastable.md) — Отримати об'єкт таблиці колекції
--   [Schema::getCollections](mysql-xdevapi-schema.getcollections.md) — Отримати всі колекції схеми
--   [Schema::getName](mysql-xdevapi-schema.getname.md) - Отримати ім'я схеми
--   [Schema::getSession](mysql-xdevapi-schema.getsession.md) — Здобути сесію схеми
--   [Schema::getTable](mysql-xdevapi-schema.gettable.md) — Отримати таблицю схеми
--   [Schema::getTables](mysql-xdevapi-schema.gettables.md) - Отримати таблиці схеми
+-   [Schema::\_\_construct](mysql-xdevapi-schema.construct.md) \- Конструктор класу Schema
+-   [Schema::createCollection](mysql-xdevapi-schema.createcollection.md)— Додає колекцію до схеми
+-   [Schema::dropCollection](mysql-xdevapi-schema.dropcollection.md)— Видаляє колекції зі схеми
+-   [Schema::existsInDatabase](mysql-xdevapi-schema.existsindatabase.md)— Перевіряє, чи існує у базі даних
+-   [Schema::getCollection](mysql-xdevapi-schema.getcollection.md)— Отримує колекцію зі схеми
+-   [Schema::getCollectionAsTable](mysql-xdevapi-schema.getcollectionastable.md)— Отримує колекцію як об'єкт класу Table
+-   [Schema::getCollections](mysql-xdevapi-schema.getcollections.md)— Отримує всі колекції схеми
+-   [Schema::getName](mysql-xdevapi-schema.getname.md)— Отримує ім'я схеми
+-   [Schema::getSession](mysql-xdevapi-schema.getsession.md)— Отримує сесію схеми
+-   [Schema::getTable](mysql-xdevapi-schema.gettable.md)— Отримує таблицю схеми
+-   [Schema::getTables](mysql-xdevapi-schema.gettables.md)— Отримує таблиці схеми

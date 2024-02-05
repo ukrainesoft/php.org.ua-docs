@@ -4,17 +4,18 @@ navigation:
   - class.datetimezone.md: DateTimeZone »
   - index.md: PHP Manual
   - class.datetimeinterface.md: DateTimeInterface
-title: 'DateTime::wakeup'
+title: 'DateTime::\_\_wakeup'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DateTime::wakeup
+# DateTime::\_\_wakeup
 
-# DateTimeImmutable::wakeup
+# DateTimeImmutable::\_\_wakeup
 
-# DateTimeInterface::wakeup
+# DateTimeInterface::\_\_wakeup
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-DateTime::wakeup -- DateTimeImmutable::wakeup -- DateTimeInterface::wakeup — Обробник wakeup
+DateTime::\_\_wakeup -- DateTimeImmutable::\_\_wakeup -- DateTimeInterface::\_\_wakeup — Обработчик\_\_wakeup
 
 ### Опис
 
@@ -30,7 +31,7 @@ public DateTimeImmutable::__wakeup(): void
 public DateTimeInterface::__wakeup(): void
 ```
 
-Обробник [wakeup()](language.oop5.magic.md#object.wakeup)
+Обработчик[\_\_wakeup()](language.oop5.magic.md#object.wakeup)
 
 ### Список параметрів
 

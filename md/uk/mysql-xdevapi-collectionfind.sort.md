@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-collectionfind.offset.md: '« CollectionFind::offset'
-  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify »
+  - class.mysql-xdevapi-collectionmodify.md: mysql\_xdevapi\\CollectionModify »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysql\_xdevapi\\CollectionFind
 title: 'CollectionFind::sort'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionFind::sort
 
@@ -18,7 +19,7 @@ CollectionFind::sort — Встановлює критерії сортуван�
 public mysql_xdevapi\CollectionFind::sort(string $sort_expr): mysql_xdevapi\CollectionFind
 ```
 
-Сортує набір результатів по полю, вибраному в аргументі sortexpr. Дозволені напрямки: ASC (за зростанням) або DESC (за спаданням). Операція еквівалентна операції SQL 'ORDER BY' і відповідає тому набору правил.
+Сортує набір результатів по полю, вибраному в аргументі sort\_expr. Дозволені напрямки: ASC (за зростанням) або DESC (за спаданням). Операція еквівалентна операції SQL 'ORDER BY' і відповідає тому набору правил.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\CollectionFind::sort(string $sort_expr): mysql_xdevapi\Coll
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionFind::sort()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionFind::sort()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ var_dump($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {

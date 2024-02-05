@@ -1,10 +1,11 @@
 ---
 navigation:
-  - cubrid.setup.md: « Встановлення та налаштування
-  - cubrid.installation.md: Установка »
+  - cubrid.setup.md: '" Встановлення та налаштування'
+  - cubrid.installation.md: Встановлення »
   - index.md: PHP Manual
   - cubrid.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-server-info.md: « ibaseserverinfo
-  - function.ibase-service-detach.md: ibaseservicedetach »
+  - function.ibase-server-info.md: « ibase\_server\_info
+  - function.ibase-service-detach.md: ibase\_service\_detach »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseserviceattach
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_service\_attach
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseserviceattach
+# ibase\_service\_attach
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseserviceattach — Підключається до диспетчера служб
+ibase\_service\_attach — Підключається до диспетчера служб
 
 ### Опис
 
@@ -34,11 +35,11 @@ ibase_service_attach(string $host, string $dba_username, string $dba_password): 
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор посилання Interbase / Firebird у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор посилання Interbase / Firebird у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibaseserviceattach()****
+**Пример #1 Пример использования**ibase\_service\_attach()\*\*\*\*
 
 ```php
 <?php
@@ -68,7 +69,7 @@ ibase_service_attach(string $host, string $dba_username, string $dba_password): 
 ?>
 ```
 
-**Приклад #2 Приклад використання **ibaseserviceattach()** із синтаксисом `hostname/port`**
+**Пример #2 Пример использования**ibase\_service\_attach()\*\* із синтаксисом `hostname/port`\*\*
 
 ```php
 <?php
@@ -100,4 +101,4 @@ ibase_service_attach(string $host, string $dba_username, string $dba_password): 
 
 ### Дивіться також
 
--   [ibaseservicedetach()](function.ibase-service-detach.md) - відключається від диспетчера служб
+-   [ibase\_service\_detach()](function.ibase-service-detach.md) \- відключається від диспетчера служб

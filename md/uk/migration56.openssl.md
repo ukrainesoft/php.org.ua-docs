@@ -1,28 +1,29 @@
 ---
 navigation:
   - migration56.new-functions.md: « Нові функції
-  - migration56.extensions.md: Другие изменения в модулях »
+  - migration56.extensions.md: Інші зміни у модулях »
   - index.md: PHP Manual
-  - migration56.md: Миграция с PHP 5.5.x на PHP 5.6.x
+  - migration56.md: Міграція з PHP 5.5.x на PHP 5.6.x
 title: Зміни OpenSSL у PHP 5.6.x
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Зміни OpenSSL у PHP 5.6.x
 
-### Обгортки потоків тепер за промовчанням перевіряють сертифікати вузлів та імена хостів при використанні SSL/TLS
+### Обгортки потоків тепер за промовчанням перевіряють сертифікати вузлів та імена хостів під час використання SSL/TLS
 
-Всі клієнтські потоки, що шифруються, тепер за замовчуванням включають перевірку бенкетів. За промовчанням використовується OpenSSL CA пакет для перевірки сертифіката бенкету. У більшості випадків нічого не потрібно робити для з'єднання з серверами з правильним SSL сертифікатом, так як зазвичай OpenSSL вже налаштований для використання хороших CA пакетів.
+Всі клієнтські потоки, що шифруються, тепер за замовчуванням включають перевірку бенкетів. За замовчуванням сертифікат бенкету перевіряється пакетом OpenSSL CA. Зазвичай нічого не потрібно робити для з'єднання з серверами з правильним SSL-сертифікатом, оскільки OpenSSL налаштований так, що вже працює з хорошими CA-пакетами.
 
 Стандартний CA пакет може бути перевизначений глобально за допомогою установки або openssl.cafile або openssl.capath рядків конфігурації, або ж на рівні кожного запиту, використовуючи опції контексту [`cafile`](context.ssl.md#context.ssl.cafile) або [`capath`](context.ssl.md#context.ssl.capath)
 
-Хоча це й не рекомендується, але можна вимкнути перевірку сертифіката бенкету для запиту, встановивши [`verify_peer`](context.ssl.md#context.ssl.verify-peer) опцію контексту в **`false`**, і можна вимкнути перевірку імені бенкету, встановивши [`verify_peer_name`](context.ssl.md#context.ssl.verify-peer-name) в **`false`**
+Хоча це і не рекомендується, але можна вимкнути перевірку сертифіката бенкету для запиту, встановивши [`verify_peer`](context.ssl.md#context.ssl.verify-peer)опцию контекста в\*\*`false`**, і можна вимкнути перевірку імені бенкету, встановивши [`verify_peer_name`](context.ssl.md#context.ssl.verify-peer-name)в**`false`\*\*
 
 ### Сигнатура сертифіката
 
-Було додано підтримку вилучення та перевірки сигнатури сертифіката. Для отримання сигнатур сертифікатів X.509 додано функцію [opensslx509fingerprint()](function.openssl-x509-fingerprint.md). Також було додано дві опції [контекста потока SSL](context.ssl.md) `capture_peer_cert` для захоплення вузлового сертифіката X.509, та `peer_fingerprint` для перевірки сертифіката на відповідність заданій сигнатурі.
+Було додано підтримку вилучення та перевірки сигнатури сертифіката. Для отримання сигнатур сертифікатів X.509 додано функцію [openssl\_x509\_fingerprint()](function.openssl-x509-fingerprint.md). Також було додано дві опції [контексту потоку SSL](context.ssl.md) `capture_peer_cert`для захвата узлового сертификата X.509, и`peer_fingerprint`для проверки сертификата на соответствие заданной сигнатуре.
 
 ### Оновлено шифри за замовчуванням
 
-Список стандартних шифрів, що використовуються PHP, був оновлений на більш безпечний відповідно до [»  рекомендациями по шифрам от Mozilla](https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_Ciphersuite), з двома додатковими винятками: анонімні шифри Діффі-Хеллмана та RC4.
+Список стандартних шифрів, що використовуються PHP, був оновлений на більш безпечний відповідно до [»  рекомендаціями щодо шифрів від Mozilla](https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_Ciphersuite), з двома додатковими винятками: анонімні шифри Діффі-Хеллмана та RC4.
 
 Цей список доступний через нову константу **`OPENSSL_DEFAULT_STREAM_CIPHERS`**, і може бути перевизначений (як і в попередніх версіях PHP) установкою опцією контексту [`ciphers`](context.ssl.md#context.ssl.ciphers)
 
@@ -32,11 +33,11 @@ title: Зміни OpenSSL у PHP 5.6.x
 
 ### Дозвіл серверу визначати свій власний порядок шифрів
 
-Додано опцію контексту `honor_cipher_order`, яка дозволяє серверу обслуговуючому зашифрований потік самому визначати шифри, якими користуватиметься клієнт. Це дозволить знизити ризик атаки типу BEAST.
+Додано опцію контексту `honor_cipher_order`, яка дозволяє серверу, що обслуговує зашифрований потік, самому визначати шифри, якими буде користуватися клієнт. Це дозволить знизити ризик атаки типу BEAST.
 
 ### Доступ до узгодженого протоколу та шифру
 
-Протокол та шифр, узгоджені для шифрованого потоку, доступні за допомогою функцій [streamgetmetadata()](function.stream-get-meta-data.md) або [streamcontextgetoptions()](function.stream-context-get-options.md), якщо опція контексту SSL `capture_session_meta` встановлена ​​як **`true`**
+Протокол та шифр, узгоджені для шифрованого потоку, доступні за допомогою функцій [stream\_get\_meta\_data()](function.stream-get-meta-data.md) або [stream\_context\_get\_options()](function.stream-context-get-options.md), если опция контекста SSL`capture_session_meta`установлена как\*\*`true`\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump($meta);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(4) {
@@ -81,17 +82,17 @@ openssl dhparam -out /path/to/my/certs/dh-2048.pem 2048
 
 `single_dh_use`
 
-Якщо встановлено як **`true`**, нова пара ключів буде створена, використовуючи параметри Діффі-Хеллмана, тим самим покращуючи пряму таємність.
+Если установлено как\*\*`true`\*\*, нова пара ключів буде створена, використовуючи параметри Діффі-Хеллмана, тим самим покращуючи пряму таємність.
 
 `single_ecdh_use`
 
-Якщо встановлено як **`true`**, нова пара ключів буде генеруватися завжди, за узгодженням шифру ECDH. Це покращує пряму таємність.
+Если установлено как\*\*`true`\*\*, нова пара ключів буде генеруватися завжди, за узгодженням шифру ECDH. Це покращує пряму таємність.
 
 ### Вибір версії SSL/TLS
 
-Тепер можна вибирати конкретну версію SSL та TLS за допомогою опції контексту `crypto_method` або вказуючи конкретний транспорт під час створення обгортки потоку (наприклад, за допомогою виклику [streamsocketclient()](function.stream-socket-client.md) або [streamsocketserver()](function.stream-socket-server.md)
+Тепер можна вибирати конкретну версію SSL та TLS за допомогою опції контексту `crypto_method` або вказуючи конкретний транспорт під час створення обгортки потоку (наприклад, за допомогою виклику [stream\_socket\_client()](function.stream-socket-client.md) або [stream\_socket\_server()](function.stream-socket-server.md)
 
-Опція контексту SSL `crypto_method` приймає бітову маску, що перераховує допустимі протоколи, як і задається в параметрі `crypto_type` функції [streamsocketenablecrypto()](function.stream-socket-enable-crypto.md)
+Опция контекста SSL`crypto_method` приймає бітову маску, що перераховує допустимі протоколи, як і задається в параметрі `crypto_type` функції [stream\_socket\_enable\_crypto()](function.stream-socket-enable-crypto.md)
 
 **Вибрана версія протоколу та відповідні опції**
 
@@ -130,9 +131,9 @@ $sock = stream_socket_client('tlsv1.2://google.com:443/');
 ?>
 ```
 
-### Додана функція [opensslgetcertlocations()](function.openssl-get-cert-locations.md)
+### Добавлена функция[openssl\_get\_cert\_locations()](function.openssl-get-cert-locations.md)
 
-Була додана функція [opensslgetcertlocations()](function.openssl-get-cert-locations.md): вона повертає розташування, в яких PHP шукатиме пакети CA за замовчуванням.
+Була додана функція [openssl\_get\_cert\_locations()](function.openssl-get-cert-locations.md): вона повертає розташування, в яких PHP шукатиме пакети CA за замовчуванням.
 
 ```php
 <?php
@@ -140,7 +141,7 @@ var_dump(openssl_get_cert_locations());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(8) {
@@ -165,7 +166,7 @@ array(8) {
 
 ### Підтримка SPKI
 
-Було додано підтримку для створення, вилучення та перевірки підписаних публічних ключів та розпізнавальних рядків (SPKAC). Були додані функції [opensslspkinew()](function.openssl-spki-new.md) [opensslspkiverify()](function.openssl-spki-verify.md) [opensslspkiexportchallenge()](function.openssl-spki-export-challenge.md) і [opensslspkiexport()](function.openssl-spki-export.md) для створення, перевірки експорту PEM публічних ключів та відповідних розпізнавальних рядків із SPKAC, створених з елементів HTML5 `KeyGen`
+Було додано підтримку для створення, вилучення та перевірки підписаних публічних ключів та розпізнавальних рядків (SPKAC). Були додані функції [openssl\_spki\_new()](function.openssl-spki-new.md) [openssl\_spki\_verify()](function.openssl-spki-verify.md) [openssl\_spki\_export\_challenge()](function.openssl-spki-export-challenge.md) і [openssl\_spki\_export()](function.openssl-spki-export.md) для створення, перевірки експорту PEM публічних ключів та відповідних розпізнавальних рядків із SPKAC, створених з елементів HTML5 `KeyGen`
 
 `openssl_spki_new`
 
@@ -180,7 +181,7 @@ $spkac = openssl_spki_new($pkey, 'challenge string');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 SPKAC=MIIBXjCByDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3L0IfUijj7+A8CPC8EmhcdNoe5fUAog7OrBdhn7EkxFButUp40P7+LiYiygYG1TmoI/a5EgsLU3s9twEz3hmgY9mYIqb/rb+SF8qlD/K6KVyUORC7Wlz1Df4L8O3DuRGzx6/+3jIW6cPBpfgH1sVuYS1vDBsP/gMMIxwTsKJ4P0CAwEAARYkYjViMzYxMTktNjY5YS00ZDljLWEyYzctMGZjNGFhMjVlMmE2MA0GCSqGSIb3DQEBAwUAA4GBAF7hu0ifzmjonhAak2FhhBRsKFDzXdKIkrWxVNe8e0bZzMrWOxFM/rqBgeH3/gtOUDRS5Fnzyq425UsTYbjfiKzxGeCYCQJb1KJ2V5Ij/mIJHZr53WYEXHQTNMGR8RPm7IxwVXVSHIgAfXsXZ9IXNbFbcaLRiSTr9/N4U+MXUWL7
@@ -215,7 +216,7 @@ echo $challenge;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 challenge string
@@ -223,7 +224,7 @@ challenge string
 
 `openssl_spki_export`
 
-Експорт публічного ключа RSA у форматі зі SPKAC.
+Експорт публічного ключа (PEM) RSA у форматі SPKAC.
 
 ```php
 <?php
@@ -235,7 +236,7 @@ echo openssl_spki_export($spkac);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 -----BEGIN PUBLIC KEY-----

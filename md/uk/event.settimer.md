@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.event.md: Event
 title: 'Event::setTimer'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Event::setTimer
 
@@ -46,9 +47,9 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [Event::construct()](event.construct.md) - Конструктор об'єкту Event
--   [Event::timer()](event.timer.md) - Створити об'єкт події таймера
+-   [Event::\_\_construct()](event.construct.md) \- Конструктор об'єкту Event
+-   [Event::timer()](event.timer.md) \- Створити об'єкт події таймера

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setOmitHeader'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::setOmitHeader
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::setOmitHeader — Виключає заголовок з результатів, що повертаються.
 
@@ -24,7 +25,7 @@ public SolrQuery::setOmitHeader(bool $flag): SolrQuery
 
 `flag`
 
-**`true`** виключає заголовок із результату.
+\*\*`true`\*\*исключает заголовок из результата.
 
 ### Значення, що повертаються
 

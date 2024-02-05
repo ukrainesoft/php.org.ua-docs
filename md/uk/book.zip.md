@@ -1,14 +1,15 @@
 ---
 navigation:
   - rarexception.setusingexceptions.md: '« RarException::setUsingExceptions'
-  - intro.zip.md: Введение »
+  - intro.zip.md: Вступ "
   - index.md: PHP Manual
   - refs.compression.md: Модулі для стиснення та архівації
 title: Zip
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zip
 
--   [Введение](intro.zip.md)
+-   [Вступ](intro.zip.md)
 -   [Встановлення та налаштування](zip.setup.md)
     -   [Вимоги](zip.requirements.md)
     -   [Установка](zip.installation.md)
@@ -16,65 +17,67 @@ title: Zip
     -   [Типи ресурсів](zip.resources.md)
 -   [Обумовлені константи](zip.constants.md)
 -   [Приклади](zip.examples.md)
--   [ZipArchive](class.ziparchive.md) - Клас ZipArchive
-    -   [ZipArchive::addEmptyDir](ziparchive.addemptydir.md) - Додає нову директорію
-    -   [ZipArchive::addFile](ziparchive.addfile.md) — Додає до ZIP-архіву файл по зазначеному шляху
-    -   [ZipArchive::addFromString](ziparchive.addfromstring.md) — Додає файл до ZIP-архіву, використовуючи його вміст
-    -   [ZipArchive::addGlob](ziparchive.addglob.md) — Додати файли з директорії відповідно до шаблону
-    -   [ZipArchive::addPattern](ziparchive.addpattern.md) — Додати файли з директорії відповідно до шаблону регулярного вираження PCRE
-    -   [ZipArchive::clearError](ziparchive.clearerror.md) — Видаляє повідомлення про помилку статусу, системні та/або повідомлення модуля zip
-    -   [ZipArchive::close](ziparchive.close.md) — Закриває активний архів (відкритий чи новостворений)
-    -   [ZipArchive::count](ziparchive.count.md) — Підраховує кількість файлів в архіві
-    -   [ZipArchive::deleteIndex](ziparchive.deleteindex.md) — Видаляє елемент в архіві, використовуючи його індекс
-    -   [ZipArchive::deleteName](ziparchive.deletename.md) — Видаляє елемент в архіві, використовуючи його ім'я
-    -   [ZipArchive::extractTo](ziparchive.extractto.md) — Витягує вміст архіву
-    -   [ZipArchive::getArchiveComment](ziparchive.getarchivecomment.md) — Повертає коментар ZIP-архіву
-    -   [ZipArchive::getCommentIndex](ziparchive.getcommentindex.md) — Повертає коментар елемента, використовуючи його індекс
-    -   [ZipArchive::getCommentName](ziparchive.getcommentname.md) — Повертає коментар елемента, використовуючи його ім'я
-    -   [ZipArchive::getExternalAttributesIndex](ziparchive.getexternalattributesindex.md) — Витягти зовнішні атрибути запису за його індексом
-    -   [ZipArchive::getExternalAttributesName](ziparchive.getexternalattributesname.md) — Витягти зовнішні атрибути запису на її ім'я
-    -   [ZipArchive::getFromIndex](ziparchive.getfromindex.md) — Повертає вміст елемента за його індексом
-    -   [ZipArchive::getFromName](ziparchive.getfromname.md) — Повертає вміст елемента на його ім'я
-    -   [ZipArchive::getNameIndex](ziparchive.getnameindex.md) — Повертає ім'я елемента за його індексом
-    -   [ZipArchive::getStatusString](ziparchive.getstatusstring.md) — Повертають статус повідомлення про помилку, системний та/або zip-статус
-    -   [ZipArchive::getStream](ziparchive.getstream.md) — Отримати дескриптор файлу елемента, визначений на ім'я елемента (тільки для читання)
-    -   [ZipArchive::getStreamIndex](ziparchive.getstreamindex.md) — Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
-    -   [ZipArchive::getStreamName](ziparchive.getstreamname.md) — Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)
-    -   [ZipArchive::isCompressionMethodSupported](ziparchive.iscompressionmethoddupported.md) — Перевіряє, чи підтримується метод стиснення libzip
-    -   [ZipArchive::isEncryptionMethodSupported](ziparchive.isencryptionmethoddupported.md) — Перевіряє, чи підтримується метод шифрування libzip
-    -   [ZipArchive::locateName](ziparchive.locatename.md) — Повертає індекс елемента в архіві
-    -   [ZipArchive::open](ziparchive.open.md) - Відкриває ZIP-архів
-    -   [ZipArchive::registerCancelCallback](ziparchive.registercancelcallback.md) — Реєструє callback-функцію для дозволу скасування під час закриття архіву
-    -   [ZipArchive::registerProgressCallback](ziparchive.registerprogresscallback.md) — Реєструє callback-функцію для надання оновлень під час закриття архіву
-    -   [ZipArchive::renameIndex](ziparchive.renameindex.md) — Перейменовує елемент за його індексом
-    -   [ZipArchive::renameName](ziparchive.renamename.md) — Перейменовує елемент на його ім'я
-    -   [ZipArchive::replaceFile](ziparchive.replacefile.md) — Замінює файл у ZIP-архіві вказаним шляхом
-    -   [ZipArchive::setArchiveComment](ziparchive.setarchivecomment.md) — Встановлює коментар до ZIP-архіву
-    -   [ZipArchive::setCommentIndex](ziparchive.setcommentindex.md) — Встановлює коментар до елемента за його індексом
-    -   [ZipArchive::setCommentName](ziparchive.setcommentname.md) — Встановлює коментар до елемента, заданого на ім'я
-    -   [ZipArchive::setCompressionIndex](ziparchive.setcompressionindex.md) — Встановити метод стиснення запису, заданого його індексом
-    -   [ZipArchive::setCompressionName](ziparchive.setcompressionname.md) — Встановити метод стиснення запису, заданого на ім'я
-    -   [ZipArchive::setEncryptionIndex](ziparchive.setencryptionindex.md) — Встановити метод шифрування запису за його індексом
-    -   [ZipArchive::setEncryptionName](ziparchive.setencryptionname.md) — Встановити метод шифрування запису на його ім'я
-    -   [ZipArchive::setExternalAttributesIndex](ziparchive.setexternalattributesindex.md) — Встановити зовнішні атрибути запису за його індексом
-    -   [ZipArchive::setExternalAttributesName](ziparchive.setexternalattributesname.md) — Встановлення зовнішніх атрибутів запису, заданого на ім'я
-    -   [ZipArchive::setMtimeIndex](ziparchive.setmtimeindex.md) — Встановити час модифікації файлу за його індексом
-    -   [ZipArchive::setMtimeName](ziparchive.setmtimename.md) — Встановити час модифікації файлу на ім'я
-    -   [ZipArchive::setPassword](ziparchive.setpassword.md) — Встановлення пароля для активного архіву
-    -   [ZipArchive::statIndex](ziparchive.statindex.md) — Отримання детальної інформації про елемент за його індексом
-    -   [ZipArchive::statName](ziparchive.statname.md) — Отримання детальної інформації про елемент на його ім'я
-    -   [ZipArchive::unchangeAll](ziparchive.unchangeall.md) — Скасовує всі зміни, зроблені в архіві
-    -   [ZipArchive::unchangeArchive](ziparchive.unchangearchive.md) — Повертає всі глобальні зміни, зроблені в архіві
-    -   [ZipArchive::unchangeIndex](ziparchive.unchangeindex.md) — Скасує всі зміни у позиції із заданим індексом
-    -   [ZipArchive::unchangeName](ziparchive.unchangename.md) — Скасує всі зміни у позиції із заданим ім'ям
--   [Функции Zip](ref.zip.md)
-    -   [zipclose](function.zip-close.md) - Закриває дескриптор ZIP-архіву
-    -   [zipentryclose](function.zip-entry-close.md) - Закриває дескриптор директорії
-    -   [zipentrycompressedsize](function.zip-entry-compressedsize.md) — Повертає стислий розмір файлу для дескриптора директорії
-    -   [zipentrycompressionmethod](function.zip-entry-compressionmethod.md) — Повертає метод стиснення дескриптора директорії
-    -   [zipentryfilesize](function.zip-entry-filesize.md) — Повертає реальний розмір файлу для дескриптора директорії
-    -   [zipentryname](function.zip-entry-name.md) — Отримує ім'я дескриптора директорії
-    -   [zipentryopen](function.zip-entry-open.md) — Відкриває директорію для читання
-    -   [zipentryread](function.zip-entry-read.md) — Читає дані із відкритого раніше дескриптора директорії
-    -   [zipopen](function.zip-open.md) - Відкриває ZIP-архів
-    -   [zipread](function.zip-read.md) — Зчитує наступний запис у ZIP-архіві
+-   [ZipArchive](class.ziparchive.md) \- Клас ZipArchive
+    -   [ZipArchive::addEmptyDir](ziparchive.addemptydir.md) \- Додає нову директорію
+    -   [ZipArchive::addFile](ziparchive.addfile.md)— Додає до ZIP-архіву файл по зазначеному шляху
+    -   [ZipArchive::addFromString](ziparchive.addfromstring.md)— Додає файл до ZIP-архіву, використовуючи його вміст
+    -   [ZipArchive::addGlob](ziparchive.addglob.md)— Додати файли з директорії відповідно до шаблону
+    -   [ZipArchive::addPattern](ziparchive.addpattern.md)— Додати файли з директорії відповідно до шаблону регулярного вираження PCRE
+    -   [ZipArchive::clearError](ziparchive.clearerror.md)— Видаляє повідомлення про помилку статусу, системні та/або повідомлення модуля zip
+    -   [ZipArchive::close](ziparchive.close.md)— Закриває активний архів (відкритий чи новостворений)
+    -   [ZipArchive::count](ziparchive.count.md)— Підраховує кількість файлів в архіві
+    -   [ZipArchive::deleteIndex](ziparchive.deleteindex.md)— Видаляє елемент в архіві, використовуючи його індекс
+    -   [ZipArchive::deleteName](ziparchive.deletename.md)— Видаляє елемент в архіві, використовуючи його ім'я
+    -   [ZipArchive::extractTo](ziparchive.extractto.md)— Витягує вміст архіву
+    -   [ZipArchive::getArchiveComment](ziparchive.getarchivecomment.md)— Повертає коментар ZIP-архіву
+    -   [ZipArchive::getArchiveFlag](ziparchive.getarchiveflag.md)— Повертає значення глобального прапора ZIP-архіву
+    -   [ZipArchive::getCommentIndex](ziparchive.getcommentindex.md)— Повертає коментар елемента, використовуючи його індекс
+    -   [ZipArchive::getCommentName](ziparchive.getcommentname.md)— Повертає коментар елемента, використовуючи його ім'я
+    -   [ZipArchive::getExternalAttributesIndex](ziparchive.getexternalattributesindex.md)— Витягує зовнішні атрибути запису за його індексом
+    -   [ZipArchive::getExternalAttributesName](ziparchive.getexternalattributesname.md)— Витягти зовнішні атрибути запису на її ім'я
+    -   [ZipArchive::getFromIndex](ziparchive.getfromindex.md)— Повертає вміст елемента за його індексом
+    -   [ZipArchive::getFromName](ziparchive.getfromname.md)— Повертає вміст елемента на його ім'я
+    -   [ZipArchive::getNameIndex](ziparchive.getnameindex.md)— Повертає ім'я елемента за його індексом
+    -   [ZipArchive::getStatusString](ziparchive.getstatusstring.md)— Повертають статус повідомлення про помилку, системний та/або zip-статус
+    -   [ZipArchive::getStream](ziparchive.getstream.md)— Отримати дескриптор файлу елемента, визначений на ім'я елемента (тільки для читання)
+    -   [ZipArchive::getStreamIndex](ziparchive.getstreamindex.md)— Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
+    -   [ZipArchive::getStreamName](ziparchive.getstreamname.md)— Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)
+    -   [ZipArchive::isCompressionMethodSupported](ziparchive.iscompressionmethoddupported.md)— Перевіряє, чи підтримується метод стиснення libzip
+    -   [ZipArchive::isEncryptionMethodSupported](ziparchive.isencryptionmethoddupported.md)— Перевіряє, чи підтримується метод шифрування libzip
+    -   [ZipArchive::locateName](ziparchive.locatename.md)— Повертає індекс елемента в архіві
+    -   [ZipArchive::open](ziparchive.open.md) \- Відкриває ZIP-архів
+    -   [ZipArchive::registerCancelCallback](ziparchive.registercancelcallback.md)— Реєструє callback-функцію для дозволу скасування під час закриття архіву
+    -   [ZipArchive::registerProgressCallback](ziparchive.registerprogresscallback.md)— Реєструє callback-функцію для надання оновлень під час закриття архіву
+    -   [ZipArchive::renameIndex](ziparchive.renameindex.md)— Перейменовує елемент за його індексом
+    -   [ZipArchive::renameName](ziparchive.renamename.md)— Перейменовує елемент на його ім'я
+    -   [ZipArchive::replaceFile](ziparchive.replacefile.md)— Замінює файл у ZIP-архіві заданим шляхом
+    -   [ZipArchive::setArchiveComment](ziparchive.setarchivecomment.md)— Встановлює коментар до ZIP-архіву
+    -   [ZipArchive::setArchiveFlag](ziparchive.setarchiveflag.md)— Встановлює глобальний прапор ZIP-архіву
+    -   [ZipArchive::setCommentIndex](ziparchive.setcommentindex.md)— Встановлює коментар до елемента за його індексом
+    -   [ZipArchive::setCommentName](ziparchive.setcommentname.md)— Встановлює коментар до елемента, заданого на ім'я
+    -   [ZipArchive::setCompressionIndex](ziparchive.setcompressionindex.md)— Встановити метод стиснення запису, заданого його індексом
+    -   [ZipArchive::setCompressionName](ziparchive.setcompressionname.md)— Встановити метод стиснення запису, заданого на ім'я
+    -   [ZipArchive::setEncryptionIndex](ziparchive.setencryptionindex.md)— Встановити метод шифрування запису за його індексом
+    -   [ZipArchive::setEncryptionName](ziparchive.setencryptionname.md)— Встановити метод шифрування запису на його ім'я
+    -   [ZipArchive::setExternalAttributesIndex](ziparchive.setexternalattributesindex.md)— Встановити зовнішні атрибути запису за його індексом
+    -   [ZipArchive::setExternalAttributesName](ziparchive.setexternalattributesname.md)— Встановлення зовнішніх атрибутів запису, заданого на ім'я
+    -   [ZipArchive::setMtimeIndex](ziparchive.setmtimeindex.md)— Встановити час модифікації файлу за його індексом
+    -   [ZipArchive::setMtimeName](ziparchive.setmtimename.md)— Встановити час модифікації файлу на ім'я
+    -   [ZipArchive::setPassword](ziparchive.setpassword.md)— Встановлення пароля для активного архіву
+    -   [ZipArchive::statIndex](ziparchive.statindex.md)— Отримання детальної інформації про елемент за його індексом
+    -   [ZipArchive::statName](ziparchive.statname.md)— Отримання детальної інформації про елемент на його ім'я
+    -   [ZipArchive::unchangeAll](ziparchive.unchangeall.md)— Скасовує всі зміни, зроблені в архіві
+    -   [ZipArchive::unchangeArchive](ziparchive.unchangearchive.md)— Повертає всі глобальні зміни, зроблені в архіві
+    -   [ZipArchive::unchangeIndex](ziparchive.unchangeindex.md)— Скасує всі зміни у позиції із заданим індексом
+    -   [ZipArchive::unchangeName](ziparchive.unchangename.md)— Скасує всі зміни у позиції із заданим ім'ям
+-   [Функції Zip](ref.zip.md)
+    -   [zip\_close](function.zip-close.md) \- Закриває дескриптор ZIP-архіву
+    -   [zip\_entry\_close](function.zip-entry-close.md) \- Закриває дескриптор директорії
+    -   [zip\_entry\_compressedsize](function.zip-entry-compressedsize.md)— Повертає стислий розмір файлу для дескриптора директорії
+    -   [zip\_entry\_compressionmethod](function.zip-entry-compressionmethod.md)— Повертає метод стиснення дескриптора директорії
+    -   [zip\_entry\_filesize](function.zip-entry-filesize.md)— Повертає реальний розмір файлу для дескриптора директорії
+    -   [zip\_entry\_name](function.zip-entry-name.md)— Отримує ім'я дескриптора директорії
+    -   [zip\_entry\_open](function.zip-entry-open.md)— Відкриває директорію для читання
+    -   [zip\_entry\_read](function.zip-entry-read.md)— Читає дані із відкритого раніше дескриптора директорії
+    -   [zip\_open](function.zip-open.md) \- Відкриває ZIP-архів
+    -   [zip\_read](function.zip-read.md)— Зчитує наступний запис у ZIP-архіві

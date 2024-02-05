@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::normalizeImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::normalizeImage
 
@@ -32,7 +33,7 @@ public Imagick::normalizeImage(int $channel = Imagick::CHANNEL_DEFAULT): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::normalizeImage()****
+**Пример #1 Пример использования**Imagick::normalizeImage()\*\*\*\*
 
 ```php
 <?php

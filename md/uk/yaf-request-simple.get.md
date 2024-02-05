@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-simple.construct.md: '« YafRequestSimple::construct'
-  - yaf-request-simple.getcookie.md: 'YafRequestSimple::getCookie »'
+  - yaf-request-simple.construct.md: '« Yaf\_Request\_Simple::\_\_construct'
+  - yaf-request-simple.getcookie.md: 'Yaf\_Request\_Simple::getCookie »'
   - index.md: PHP Manual
-  - class.yaf-request-simple.md: YafRequestSimple
-title: 'YafRequestSimple::get'
+  - class.yaf-request-simple.md: Yaf\_Request\_Simple
+title: 'Yaf\_Request\_Simple::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestSimple::get
+# Yaf\_Request\_Simple::get
 
 (Yaf >=1.0.0)
 
-YafRequestSimple::get — Призначення get
+Yaf\_Request\_Simple::get — Призначення get
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Request_Simple::get(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

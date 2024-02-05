@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::polyline'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::polyline
 
@@ -20,7 +21,7 @@ public ImagickDraw::polyline(array $coordinates): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Малює ламану лінію з використанням поточної обведення, її ширини, кольору заливки або текстури з використанням масиву координат.
 
@@ -36,7 +37,7 @@ public ImagickDraw::polyline(array $coordinates): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::polyline()****
+**Пример #1 Пример использования**ImagickDraw::polyline()\*\*\*\*
 
 ```php
 <?php

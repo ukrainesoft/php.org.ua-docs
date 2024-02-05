@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.extension-loaded.md: « extensionloaded
-  - function.gc-disable.md: гкdisable »
+  - function.extension-loaded.md: « extension\_loaded
+  - function.gc-disable.md: gc\_disable »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: гкcollectcycles
+title: gc\_collect\_cycles
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# гкcollectcycles
+# gc\_collect\_cycles
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-гкcollectcycles — Примусовий запуск збирача сміття
+gc\_collect\_cycles — Примусовий запуск збирача сміття
 
 ### Опис
 
@@ -30,4 +31,4 @@ gc_collect_cycles(): int
 
 ### Дивіться також
 
--   [Сборка мусора](features.gc.md)
+-   [Складання сміття](features.gc.md)

@@ -4,17 +4,18 @@ navigation:
   - spl.misc.md: Різні класи та інтерфейси »
   - index.md: PHP Manual
   - class.spltempfileobject.md: SplTempFileObject
-title: 'SplTempFileObject::construct'
+title: 'SplTempFileObject::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SplTempFileObject::construct
+# SplTempFileObject::\_\_construct
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
-SplTempFileObject::construct — Створює новий об'єкт тимчасового файлу
+SplTempFileObject::\_\_construct — Створює новий об'єкт тимчасового файлу
 
 ### Опис
 
-public **SplTempFileObject::construct**(int `$maxMemory`
+public**SplTempFileObject::\_\_construct**(int`$maxMemory` \* \*
 
 Створює новий об'єкт, який представляє тимчасовий файл.
 
@@ -22,17 +23,17 @@ public **SplTempFileObject::construct**(int `$maxMemory`
 
 `maxMemory`
 
-Максимальний обсяг пам'яті (у байтах, за умовчанням дорівнює 2 МБ) для тимчасового файлу. Якщо тимчасовий файл перевищує цей розмір, він буде переміщений у файл у папці тимчасових файлів.
+Максимальний обсяг пам'яті (у байтах, за умовчанням дорівнює 2 МБ) для тимчасового файлу. Якщо тимчасовий файл перевищує цей розмір, він буде переміщений у файл у папці файлів тимчасових файлів.
 
-Якщо значення `maxMemory` негативне, використовуватиметься лише пам'ять. Якщо значення `maxMemory` і нулю, то пам'ять не буде використовуватися.
+Если значение`maxMemory` негативне, використовуватиметься лише пам'ять. Якщо значення `maxMemory` і нулю, то пам'ять не буде використовуватися.
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.md) у разі виникнення помилки.
+Викидає виняток [RuntimeException](class.runtimeexception.md)в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplTempFileObject()****
+**Пример #1 Пример использования**SplTempFileObject()\*\*\*\*
 
 Цей приклад створює в пам'яті тимчасовий файл, який можна записати дані і прочитати їх.
 
@@ -51,7 +52,7 @@ foreach ($temp as $line) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Во временный файл записано 28 байт.
@@ -63,4 +64,4 @@ foreach ($temp as $line) {
 ### Дивіться також
 
 -   [SplFileObject](class.splfileobject.md)
--   [потоки введення-виведення PHP](wrappers.php.md) (для`php://temp` і `php://memory`
+-   [потоки введення-виведення PHP](wrappers.php.md)(для`php://temp`и`php://memory`) .

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-errmsg.md: « ibaseerrmsg
-  - function.ibase-fetch-assoc.md: ibasefetchassoc »
+  - function.ibase-errmsg.md: « ibase\_errmsg
+  - function.ibase-fetch-assoc.md: ibase\_fetch\_assoc »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseexecute
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_execute
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseexecute
+# ibase\_execute
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseexecute — Виконує попередньо підготовлений запит
+ibase\_execute — Виконує попередньо підготовлений запит
 
 ### Опис
 
@@ -18,15 +19,15 @@ ibaseexecute — Виконує попередньо підготовлений 
 ibase_execute(resource $query, mixed ...$values): resource
 ```
 
-Виконує запит, підготовлений за допомогою [ibaseprepare()](function.ibase-prepare.md)
+Виконує запит, підготовлений за допомогою [ibase\_prepare()](function.ibase-prepare.md)
 
-Це набагато ефективніше, ніж використання [ibasequery()](function.ibase-query.md), якщо ви повторюєте той самий тип запиту кілька разів, змінюючи лише деякі параметри.
+Це набагато ефективніше, ніж використання [ibase\_query()](function.ibase-query.md), якщо ви повторюєте той самий тип запиту кілька разів, змінюючи лише деякі параметри.
 
 ### Список параметрів
 
 `query`
 
-Запит InterBase, підготовлений за допомогою [ibaseprepare()](function.ibase-prepare.md)
+Запит InterBase, підготовлений за допомогою [ibase\_prepare()](function.ibase-prepare.md)
 
 `values`
 
@@ -34,13 +35,13 @@ ibase_execute(resource $query, mixed ...$values): resource
 
 Якщо запит викликає помилку, повертає **`false`**. Якщо запит виконаний успішно, і є (можливо порожній) набір результатів (як у запиті SELECT), повертає ідентифікатор результату. Якщо запит виконано успішно та результатів не було, повертається **`true`**
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Функція повертає кількість рядків, які торкнулися запиту (якщо > 0 і застосовується до типу оператора). Якщо запит виконаний успішно, але не торкнувся жодного рядка (наприклад, UPDATE неіснуючого запису), поверне **`true`**
+> Функція повертає кількість рядків, які торкнулися запиту (якщо > 0 і застосовується до типу оператора). Якщо запит виконано успішно, але не торкнувся жодного рядка (наприклад, UPDATE неіснуючого запису), поверне **`true`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ibaseexecute()****
+**Пример #1 Пример использования**ibase\_execute()\*\*\*\*
 
 ```php
 <?php
@@ -64,4 +65,4 @@ foreach ($updates as $baz => $bar) {
 
 ### Дивіться також
 
--   [ibasequery()](function.ibase-query.md) - Виконує запит до бази даних InterBase
+-   [ibase\_query()](function.ibase-query.md) \- Виконує запит до бази даних InterBase

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::addOptions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::addOptions
 
@@ -15,7 +16,7 @@ GearmanWorker::addOptions — Додавання налаштувань обро
 ### Опис
 
 ```methodsynopsis
-public GearmanWorker::addOptions(int $option): bool
+public GearmanWorker::addOptions(int $option): true
 ```
 
 Додає одну або кілька налаштувань до встановлених раніше.
@@ -28,10 +29,10 @@ public GearmanWorker::addOptions(int $option): bool
 
 ### Значення, що повертаються
 
-Завжди повертає **`true`**
+Функція завжди повертає **`true`**
 
 ### Дивіться також
 
--   [GearmanWorker::options()](gearmanworker.options.md) - Отримання налаштувань обробника
--   [GearmanClient::setOptions()](gearmanclient.setoptions.md) - Встановлення налаштувань клієнта
--   [GearmanClient::removeOptions()](gearmanclient.removeoptions.md) - Видалити опції клієнта
+-   [GearmanWorker::options()](gearmanworker.options.md) \- Отримання налаштувань обробника
+-   [GearmanClient::setOptions()](gearmanclient.setoptions.md) \- Встановлення налаштувань клієнта
+-   [GearmanClient::removeOptions()](gearmanclient.removeoptions.md) \- Видалити опції клієнта

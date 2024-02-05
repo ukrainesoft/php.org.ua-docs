@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.dom.md: DOM
 title: Інтерфейс DOMChildNode
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс DOMChildNode
 
@@ -14,12 +15,8 @@ title: Інтерфейс DOMChildNode
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      interface DOMChildNode {
+     interface DOMChildNode {
 
     /* Методы */
     
@@ -33,7 +30,7 @@ public replaceWith(DOMNode|string ...$nodes): void
 
 ## Зміст
 
--   [DOMChildNode::after](domchildnode.after.md) - Додає вузли після вузла
--   [DOMChildNode::before](domchildnode.before.md) - Додає вузли перед вузлом
--   [DOMChildNode::remove](domchildnode.remove.md) - Видаляє вузол
--   [DOMChildNode::replaceWith](domchildnode.replacewith.md) - Замінює вузол новими вузлами
+-   [DOMChildNode::after](domchildnode.after.md) \- Додає вузли після вузла
+-   [DOMChildNode::before](domchildnode.before.md) \- Додає вузли перед вузлом
+-   [DOMChildNode::remove](domchildnode.remove.md) \- Видаляє вузол
+-   [DOMChildNode::replaceWith](domchildnode.replacewith.md) \- Замінює вузол на нові вузли

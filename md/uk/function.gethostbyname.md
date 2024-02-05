@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: gethostbyname
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # gethostbyname
 
@@ -18,7 +19,7 @@ gethostbyname — Отримує IPv4-адресу, що відповідає п
 gethostbyname(string $hostname): string
 ```
 
-Повертає IPv4-адресу на ім'я хоста `hostname`
+Возвращает IPv4-адрес по имени хоста`hostname`
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ gethostbyname(string $hostname): string
 
 ### Значення, що повертаються
 
-Повертає адресу IPv4 або рядок, що містить незмінений `hostname` у разі виникнення помилки.
+Повертає адресу IPv4 або рядок, що містить незмінений `hostname`в случае возникновения ошибки.
 
 ### Приклади
 
@@ -44,7 +45,7 @@ echo $ip;
 
 ### Дивіться також
 
--   [gethostbyaddr()](function.gethostbyaddr.md) - Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
--   [gethostbynamel()](function.gethostbynamel.md) - Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
--   [inetpton()](function.inet-pton.md) - Конвертує IP-адресу, що читається, в її упаковане подання inaddr
--   [inetntop()](function.inet-ntop.md) - Конвертує упаковану інтернет-адресу в формат, що читається
+-   [gethostbyaddr()](function.gethostbyaddr.md) \- Отримує доменне ім'я хоста, що відповідає переданій IP-адресі
+-   [gethostbynamel()](function.gethostbynamel.md) \- Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
+-   [inet\_pton()](function.inet-pton.md) \- Конвертує IP-адресу, що читається, в її упаковане подання in\_addr
+-   [inet\_ntop()](function.inet-ntop.md) \- Конвертує упаковану інтернет-адресу в формат, що читається

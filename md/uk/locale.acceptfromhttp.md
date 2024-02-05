@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.locale.md: Locale
 title: 'Locale::acceptFromHttp'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Locale::acceptFromHttp
 
-# localeacceptfromhttp
+# locale\_accept\_from\_http
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::acceptFromHttp -- localeacceptfromhttp — Спробувати визначити найкращу локаль на основі заголовку HTTP "Accept-Language"
+Locale::acceptFromHttp -- locale\_accept\_from\_http — Спробувати визначити найкращу локаль на основі заголовку HTTP "Accept-Language"
 
 ### Опис
 
@@ -44,7 +45,7 @@ locale_accept_from_http(string $header): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **localeacceptfromhttp()****
+**Пример #1 Пример использования**locale\_accept\_from\_http()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ echo $locale;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 en_US
@@ -70,4 +71,4 @@ en_US
 
 ### Дивіться також
 
--   [localelookup()](locale.lookup.md) - Пошук мовних позначок найбільш відповідних заданої локалі
+-   [locale\_lookup()](locale.lookup.md) \- Пошук мовних позначок найбільш відповідних заданої локалі

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - mysql-xdevapi-docresult.construct.md: '« DocResult::construct'
+  - mysql-xdevapi-docresult.construct.md: '« DocResult::\_\_construct'
   - mysql-xdevapi-docresult.fetchone.md: 'DocResult::fetchOne »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-docresult.md: mysqlxdevapiDocResult
+  - class.mysql-xdevapi-docresult.md: mysql\_xdevapi\\DocResult
 title: 'DocResult::fetchAll'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DocResult::fetchAll
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\DocResult::fetchAll(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiDocResult::fetchAll()****
+**Пример #1 Пример использования**mysql\_xdevapi\\DocResult::fetchAll()\*\*\*\*
 
 ```php
 <?php
@@ -59,7 +60,7 @@ var_dump($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {

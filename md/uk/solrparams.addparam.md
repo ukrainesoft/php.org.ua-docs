@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrparams.md: SolrParams
 title: 'SolrParams::addParam'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrParams::addParam
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrParams::addParam — Додає параметр до об'єкта
 
@@ -28,8 +29,8 @@ public SolrParams::addParam(string $name, string $value): SolrParams
 
 `value`
 
-Значення параметру
+Значення параметра
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає об'єкт SolrParam та **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає об'єкт SolrParam та \*\*`false`\*\*в случае возникновения ошибки.

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getParameters'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getParameters
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getParameters — Отримує параметри
 
@@ -30,5 +31,5 @@ public ReflectionFunctionAbstract::getParameters(): array
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) - Отримує кількість параметрів
--   [funcgetargs()](function.func-get-args.md) - Повертає масив, що містить аргументи функції
+-   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) \- Отримує кількість параметрів
+-   [func\_get\_args()](function.func-get-args.md) \- Повертає масив, що містить аргументи функції

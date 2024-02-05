@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::getDebug'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::getDebug
 
-(PECL solr> = 0.9.7)
+(PECL solr >= 0.9.7)
 
 SolrClient::getDebug — Повертає дані налагодження для останньої спроби підключення
 

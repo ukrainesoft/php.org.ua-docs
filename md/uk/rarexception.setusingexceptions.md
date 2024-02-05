@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.rarexception.md: RarException
 title: 'RarException::setUsingExceptions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarException::setUsingExceptions
 
@@ -18,18 +19,18 @@ RarException::setUsingExceptions — Увімкнути або вимкнути 
 public static RarException::setUsingExceptions(bool $using_exceptions): void
 ```
 
-Якщо аргумент заданий як **`true`**, то, замість видачі попередження та повернення помилки, бібліотека UnRAR викидатиме виняток типу [RarException](class.rarexception.md) у разі виникнення помилки.
+Если аргумент задан как\*\*`true`\*\*, то, замість видачі попередження та повернення помилки, бібліотека UnRAR викидатиме виняток типу [RarException](class.rarexception.md)в случае возникновения ошибки.
 
 Також винятки будуть викинуті у разі таких помилок, що відбулися поза бібліотекою (їх код повернення повинен дорівнювати -1):
 
--   спроба здійснення дій із закритим об'єктом [RarArchive](class.rararchive.md) або об'єктом [RarEntry](class.rarentry.md) що відноситься до першого;
--   спроба витягти відсутній запис за допомогою [RarArchive::getEntry()](rararchive.getentry.md)
+-   спроба здійснення дій із закритим об'єктом[RarArchive](class.rararchive.md)або об'єктом[RarEntry](class.rarentry.md)що відноситься до першого;
+-   спроба витягти відсутній запис за допомогою[RarArchive::getEntry()](rararchive.getentry.md)
 
 ### Список параметрів
 
 `using_exceptions`
 
-**`true`** для активації генерації винятків, **`false`** для деактивації (за замовчуванням).
+**`true`**для активации генерации исключений,**`false`** для деактивації (за замовчуванням).
 
 ### Значення, що повертаються
 
@@ -37,7 +38,7 @@ public static RarException::setUsingExceptions(bool $using_exceptions): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RarException::setUsingExceptions()****
+**Пример #1 Пример использования**RarException::setUsingExceptions()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($arch); //not reached
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)
@@ -70,4 +71,4 @@ Stack trace:
 
 ### Дивіться також
 
--   [RarException::isUsingExceptions()](rarexception.isusingexceptions.md) - Перевірити, чи будуть функції повертати помилки або викидати винятки
+-   [RarException::isUsingExceptions()](rarexception.isusingexceptions.md) \- Перевірити, чи будуть функції повертати помилки або викидати винятки

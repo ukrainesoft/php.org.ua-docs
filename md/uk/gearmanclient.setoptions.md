@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::setOptions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::setOptions
 
@@ -15,14 +16,14 @@ GearmanClient::setOptions — Встановлення налаштувань к
 ### Опис
 
 ```methodsynopsis
-public GearmanClient::setOptions(int $options): bool
+public GearmanClient::setOptions(int $option): bool
 ```
 
 Встановлює одну або кілька настройок клієнта.
 
 ### Список параметрів
 
-`options`
+`option`
 
 Налаштування, що задаються
 

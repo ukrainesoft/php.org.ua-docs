@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.swoole-async-readfile.md: « swooleasyncreadfile
-  - function.swoole-async-write.md: swooleasyncwrite »
+  - function.swoole-async-readfile.md: « swoole\_async\_readfile
+  - function.swoole-async-write.md: swoole\_async\_write »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swooleasyncset
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_async\_set
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swooleasyncset
+# swoole\_async\_set
 
 (PECL swoole >= 1.9.0)
 
-swooleasyncset - Оновлення опцій асинхронного введення-виводу
+swoole\_async\_set - Оновлення опцій асинхронного введення-виводу
 
 ### Опис
 

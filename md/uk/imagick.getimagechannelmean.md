@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageChannelMean'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageChannelMean
 
@@ -28,7 +29,7 @@ public Imagick::getImageChannelMean(int $channel): array
 
 ### Значення, що повертаються
 
-Повертає масив із елементами `"mean"` і `"standardDeviation"`
+Повертає масив із елементами `"mean"`и`"standardDeviation"`
 
 ### Помилки
 

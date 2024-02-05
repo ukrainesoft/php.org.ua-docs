@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttpconnection.md: EventHttpConnection
 title: 'EventHttpConnection::setMaxBodySize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpConnection::setMaxBodySize
 
@@ -36,4 +37,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpConnection::setMaxHeadersSize()](eventhttpconnection.setmaxheaderssize.md) - Встановлює максимальний розмір заголовка
+-   [EventHttpConnection::setMaxHeadersSize()](eventhttpconnection.setmaxheaderssize.md) \- Встановлює максимальний розмір заголовка

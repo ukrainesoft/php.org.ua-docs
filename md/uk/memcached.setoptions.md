@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::setOptions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::setOptions
 
 (PECL memcached >= 2.0.0)
 
-Memcached::setOptions — Встановлює декілька параметрів Memcached
+Memcached::setOptions — Встановлює кілька параметрів Memcached
 
 ### Опис
 
@@ -18,7 +19,7 @@ Memcached::setOptions — Встановлює декілька параметр
 public Memcached::setOptions(array $options): bool
 ```
 
-**Memcached::setOptions()** аналогічний методу [Memcached::setOption()](memcached.setoption.md)але приймає масив параметрів.
+\*\*Memcached::setOptions()\*\*аналогичен методу[Memcached::setOption()](memcached.setoption.md)але приймає масив параметрів.
 
 ### Список параметрів
 
@@ -28,7 +29,7 @@ public Memcached::setOptions(array $options): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -46,7 +47,7 @@ echo "Prefix key is now: ", $m->getOption(Memcached::OPT_PREFIX_KEY), "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -56,6 +57,6 @@ Prefix key is now: widgets
 
 ### Дивіться також
 
--   [Memcached::getOption()](memcached.getoption.md) - Отримує значення Memcached параметра
--   [Memcached::setOption()](memcached.setoption.md) - Встановлює значення параметра для Memcached
+-   [Memcached::getOption()](memcached.getoption.md) \- Отримує значення Memcached параметра
+-   [Memcached::setOption()](memcached.setoption.md) \- Встановлює значення параметра для Memcached
 -   [Memcached Constants](memcached.constants.md)

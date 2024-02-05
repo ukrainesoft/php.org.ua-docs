@@ -1,10 +1,11 @@
 ---
 navigation:
-  - domtext.construct.md: '« DOMText::construct'
+  - domtext.construct.md: '« DOMText::\_\_construct'
   - domtext.iswhitespaceinelementcontent.md: 'DOMText::isWhitespaceInElementContent »'
   - index.md: PHP Manual
   - class.domtext.md: DOMText
 title: 'DOMText::isElementContentWhitespace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMText::isElementContentWhitespace
 
@@ -24,4 +25,4 @@ public DOMText::isElementContentWhitespace(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.locale.md: Locale
 title: 'Locale::canonicalize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Locale::canonicalize
 
-# localecanonicalize
+# locale\_canonicalize
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Locale::canonicalize -- localecanonicalize — Канонізувати рядок локалі
+Locale::canonicalize -- locale\_canonicalize — Канонізувати рядок локалі
 
 ### Опис
 
@@ -22,7 +23,7 @@ public static Locale::canonicalize(string $locale): ?string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

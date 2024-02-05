@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-application.environ.md: '« YafApplication::environ'
-  - yaf-application.getappdirectory.md: 'YafApplication::getAppDirectory »'
+  - yaf-application.environ.md: '« Yaf\_Application::environ'
+  - yaf-application.getappdirectory.md: 'Yaf\_Application::getAppDirectory »'
   - index.md: PHP Manual
-  - class.yaf-application.md: YafApplication
-title: 'YafApplication::execute'
+  - class.yaf-application.md: Yaf\_Application
+title: 'Yaf\_Application::execute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafApplication::execute
+# Yaf\_Application::execute
 
 (Yaf >=1.0.0)
 
-YafApplication::execute — Запустити callback-функцію
+Yaf\_Application::execute — Запустити callback-функцію
 
 ### Опис
 
@@ -18,7 +19,7 @@ YafApplication::execute — Запустити callback-функцію
 public Yaf_Application::execute(callable $entry, string ...$args): void
 ```
 
-Цей метод зазвичай використовується для запуску YafApplication через планувальник (crontab). Завдання crontab також може використовувати механізми autoloader і Bootstrap.
+Цей метод зазвичай використовується для запуску Yaf\_Application через планувальник (crontab). Завдання crontab також може використовувати механізми autoloader і Bootstrap.
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ Callback-функція
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafApplication::execute()****
+**Пример #1 Пример использования**Yaf\_Application::execute()\*\*\*\*
 
 ```php
 <?php
@@ -53,4 +54,4 @@ $application->execute("main", $argc,  $argv);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:

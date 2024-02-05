@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::adaptiveSharpenImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::adaptiveSharpenImage
 
@@ -18,7 +19,7 @@ Imagick::adaptiveSharpenImage — Адаптивна зміна різкості
 public Imagick::adaptiveSharpenImage(float $radius, float $sigma, int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
-Адаптивна зміна різкості зображення з більшою інтенсивністю на краях зображення та з меншою ближче до середини. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Адаптивна зміна різкості зображення з більшою інтенсивністю на краях зображення та з меншою ближче до середини. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public Imagick::adaptiveSharpenImage(float $radius, float $sigma, int $channel =
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно \*\*`Imagick::CHANNEL_DEFAULT`\*\*Обратитесь к списку[констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
@@ -40,7 +41,7 @@ public Imagick::adaptiveSharpenImage(float $radius, float $sigma, int $channel =
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::adaptiveSharpenImage()****
+**Пример #1 Пример использования**Imagick::adaptiveSharpenImage()\*\*\*\*
 
 Адаптивна зміна різкості зображення з радіусом 2 та сигмою 1.
 
@@ -60,4 +61,4 @@ echo $image;
 
 ### Дивіться також
 
--   [Imagick::sharpenImage()](imagick.sharpenimage.md) - Підвищує різкість зображення
+-   [Imagick::sharpenImage()](imagick.sharpenimage.md) \- Підвищує різкість зображення

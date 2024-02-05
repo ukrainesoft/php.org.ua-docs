@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-buffer.construct.md: '« SwooleBuffer::construct'
-  - swoole-buffer.expand.md: 'SwooleBuffer::expand »'
+  - swoole-buffer.construct.md: '« Swoole\\Buffer::\_\_construct'
+  - swoole-buffer.expand.md: 'Swoole\\Buffer::expand »'
   - index.md: PHP Manual
-  - class.swoole-buffer.md: SwooleBuffer
-title: 'SwooleBuffer::destruct'
+  - class.swoole-buffer.md: Swoole\\Buffer
+title: 'Swoole\\Buffer::\_\_destruct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleBuffer::destruct
+# Swoole\\Buffer::\_\_destruct
 
 (PECL swoole >= 1.9.0)
 
-SwooleBuffer::destruct — Знищує буфер пам'яті Swoole
+Swoole\\Buffer::\_\_destruct — Знищує буфер пам'яті Swoole
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Buffer::__destruct(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

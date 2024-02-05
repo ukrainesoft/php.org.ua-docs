@@ -1,22 +1,23 @@
 ---
 navigation:
-  - function.mysql-pconnect.md: « mysqlpconnect
-  - function.mysql-query.md: mysqlquery »
+  - function.mysql-pconnect.md: « mysql\_pconnect
+  - function.mysql-query.md: mysql\_query »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
-title: mysqlping
+title: mysql\_ping
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlping
+# mysql\_ping
 
-(PHP 4> = 4.3.0, PHP 5)
+(PHP 4 >= 4.3.0, PHP 5)
 
-mysqlping — Перевіряє з'єднання з сервером та переєднується за потреби
+mysql\_ping — Перевіряє з'єднання з сервером та переєднується за потреби
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і видалений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDO\_MySQL](ref.pdo-mysql.md)Смотрите также инструкцию[MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqliping()](mysqli.ping.md)
+-   [mysqli\_ping()](mysqli.ping.md)
 
 ### Опис
 
@@ -26,7 +27,7 @@ mysql_ping(resource $link_identifier = NULL): bool
 
 Перевіряє, чи з'єднання з сервером працює. Якщо вона втрачена, автоматично робиться спроба переєднання. Ця функція може бути використана у скриптах, які працюють протягом тривалого часу.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Автоматичне відновлення стандартного з'єднання відключено у версіях MySQL >= 5.0.3.
 
@@ -34,7 +35,7 @@ mysql_ping(resource $link_identifier = NULL): bool
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, буде використано останнє з'єднання, відкрите [mysql\_connect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysql\_connect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -42,7 +43,7 @@ mysql_ping(resource $link_identifier = NULL): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlping()****
+**Пример #1 Пример использования**mysql\_ping()\*\*\*\*
 
 ```php
 <?php
@@ -72,5 +73,5 @@ $result2 = mysql_query($sql2);
 
 ### Дивіться також
 
--   [mysqlthreadid()](function.mysql-thread-id.md) - Повертає ідентифікатор потоку
--   [mysqllistprocesses()](function.mysql-list-processes.md) - Повертає список процесів MySQL
+-   [mysql\_thread\_id()](function.mysql-thread-id.md) \- Повертає ідентифікатор потоку
+-   [mysql\_list\_processes()](function.mysql-list-processes.md) \- Повертає список процесів MySQL

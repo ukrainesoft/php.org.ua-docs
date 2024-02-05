@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-application.getdispatcher.md: '« YafApplication::getDispatcher'
-  - yaf-application.getlasterrorno.md: 'YafApplication::getLastErrorNo »'
+  - yaf-application.getdispatcher.md: '« Yaf\_Application::getDispatcher'
+  - yaf-application.getlasterrorno.md: 'Yaf\_Application::getLastErrorNo »'
   - index.md: PHP Manual
-  - class.yaf-application.md: YafApplication
-title: 'YafApplication::getLastErrorMsg'
+  - class.yaf-application.md: Yaf\_Application
+title: 'Yaf\_Application::getLastErrorMsg'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafApplication::getLastErrorMsg
+# Yaf\_Application::getLastErrorMsg
 
-(Yaf> = 2.1.2)
+(Yaf >=2.1.2)
 
-YafApplication::getLastErrorMsg — Отримати останнє повідомлення про помилку
+Yaf\_Application::getLastErrorMsg — Отримати останнє повідомлення про помилку
 
 ### Опис
 
@@ -26,7 +27,7 @@ public Yaf_Application::getLastErrorMsg(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafApplication::getLastErrorMsg()****
+**Пример #1 Пример использования**Yaf\_Application::getLastErrorMsg()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ $app->run();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(69) "Could not find controller script /tmp/notexists/controllers/Index.php"

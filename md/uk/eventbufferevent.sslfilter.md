@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::sslFilter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::sslFilter
 
@@ -17,19 +18,19 @@ EventBufferEvent::sslFilter — Створює нову подію буфера 
 ```methodsynopsis
 public
    static
-   EventBufferEvent::sslFilter(    
+   EventBufferEvent::sslFilter(    
     EventBase
      $base
-   ,    
+   ,    
     EventBufferEvent
      $underlying
-   ,    
+   ,    
     EventSslContext
      $ctx
-   ,    
+   ,    
     int
      $state
-   ,    
+   ,    
     int
      $options
      = 0
@@ -38,7 +39,7 @@ public
 
 Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна лише в тому випадку, якщо `Event` скомпільований за допомогою OpenSSL.
 
@@ -58,7 +59,7 @@ public
 
 `state`
 
-Поточний стан SSL-з'єднання: **`EventBufferEvent::SSL_OPEN`** **`EventBufferEvent::SSL_ACCEPTING`** або **`EventBufferEvent::SSL_CONNECTING`**
+Текущее состояние SSL-соединения:**`EventBufferEvent::SSL_OPEN`** **`EventBufferEvent::SSL_ACCEPTING`**или**`EventBufferEvent::SSL_CONNECTING`**
 
 `options`
 
@@ -219,4 +220,4 @@ new Handler();
 
 ### Дивіться також
 
--   [EventBufferEvent::sslSocket()](eventbufferevent.sslsocket.md) - Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
+-   [EventBufferEvent::sslSocket()](eventbufferevent.sslsocket.md) \- Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет

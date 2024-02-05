@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ftp-quit.md: « ftpquit
-  - function.ftp-rawlist.md: ftprawlist »
+  - function.ftp-quit.md: « ftp\_quit
+  - function.ftp-rawlist.md: ftp\_rawlist »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
-title: ftpraw
+title: ftp\_raw
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ftpraw
+# ftp\_raw
 
 (PHP 5, PHP 7, PHP 8)
 
-ftpraw — Надсилає довільну команду FTP-серверу
+ftp\_raw — Надсилає довільну команду FTP-серверу
 
 ### Опис
 
@@ -18,13 +19,13 @@ ftpraw — Надсилає довільну команду FTP-серверу
 ftp_raw(FTP\Connection $ftp, string $command): ?array
 ```
 
-Відправляє довільну команду `command` FTP-сервер.
+Отправляет произвольную команду`command` FTP-сервер.
 
 ### Список параметрів
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.md) instance.
+An[FTP\\Connection](class.ftp-connection.md)instance.
 
 `command`
 
@@ -32,17 +33,17 @@ ftp_raw(FTP\Connection $ftp, string $command): ?array
 
 ### Значення, що повертаються
 
-Повертає відповідь сервера у вигляді масиву рядків або **`null`** у разі виникнення помилки. Функція **ftpraw()** не інтерпретує відповідь сервера і не визначає, чи успішно виконано команду.
+Повертає відповідь сервера у вигляді масиву рядків або **`null`**в случае возникновения ошибки. Функция**ftp\_raw()** не інтерпретує відповідь сервера та не визначає, чи успішно виконано команду.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`ftp` тепер чекає екземпляр [FTP\\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Використання **ftpraw()** для входу на FTP-сервер**
+**Пример #1 Использование**ftp\_raw()**для входа на FTP-сервер**
 
 ```php
 <?php
@@ -57,4 +58,4 @@ ftp_raw($ftp, "PASS secret");
 
 ### Дивіться також
 
--   [ftpexec()](function.ftp-exec.md) - Запитує виконання команди на FTP-сервері
+-   [ftp\_exec()](function.ftp-exec.md) \- Запитує виконання команди на FTP-сервері

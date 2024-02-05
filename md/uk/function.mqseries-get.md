@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.mqseries-disc.md: « mqseriesdisc
-  - function.mqseries-inq.md: mqseriesinq »
+  - function.mqseries-disc.md: « mqseries\_disc
+  - function.mqseries-inq.md: mqseries\_inq »
   - index.md: PHP Manual
-  - ref.mqseries.md: Функции mqseries
-title: mqseriesget
+  - ref.mqseries.md: Функції mqseries
+title: mqseries\_get
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mqseriesget
+# mqseries\_get
 
 (PECL mqseries >= 0.10.0)
 
-mqseriesget — MQSeries MQGET
+mqseries\_get — MQSeries MQGET
 
 ### Опис
 
 ```methodsynopsis
-mqseries_get(    resource $hConn,    resource $hObj,    array &$md,    array &$gmo,    int &$bufferLength,    string &$msg,    int &$data_length,    resource &$compCode,    resource &$reason): void
+mqseries_get(    resource $hConn,    resource $hObj,    array &$md,    array &$gmo,    int &$bufferLength,    string &$msg,    int &$data_length,    resource &$compCode,    resource &$reason): void
 ```
 
-The **mqseriesget()** (MQGET) Call retrieves a message from local queue that has been opened using the [mqseriesopen()](function.mqseries-open.md) (MQOPEN) call
+The**mqseries\_get()**(MQGET) call retrieves a message from a local queue that has been opened using the[mqseries\_open()](function.mqseries-open.md)(MQOPEN) call
 
 ### Список параметрів
 
@@ -68,7 +69,7 @@ The **mqseriesget()** (MQGET) Call retrieves a message from local queue that has
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseriesget()****
+**Пример #1 Пример использования**mqseries\_get()\*\*\*\*
 
 ```php
 <?php
@@ -108,7 +109,7 @@ The **mqseriesget()** (MQGET) Call retrieves a message from local queue that has
 
 ### Дивіться також
 
--   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
--   [mqseriesopen()](function.mqseries-open.md) - MQSeries MQOPEN
--   [mqseriesput()](function.mqseries-put.md) - MQSeries MQPUT
+-   [mqseries\_conn()](function.mqseries-conn.md) \- MQSeries MQCONN
+-   [mqseries\_connx()](function.mqseries-connx.md) \- MQSeries MQCONNX
+-   [mqseries\_open()](function.mqseries-open.md) \- MQSeries MQOPEN
+-   [mqseries\_put()](function.mqseries-put.md) \- MQSeries MQPUT

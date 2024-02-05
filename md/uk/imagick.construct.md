@@ -4,17 +4,18 @@ navigation:
   - imagick.contrastimage.md: 'Imagick::contrastImage »'
   - index.md: PHP Manual
   - class.imagick.md: Imagick
-title: 'Imagick::construct'
+title: 'Imagick::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Imagick::construct
+# Imagick::\_\_construct
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::construct — Конструктор об'єкту Imagick
+Imagick::\_\_construct — Конструктор об'єкту Imagick
 
 ### Опис
 
-public **Imagick::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$files`
+public**Imagick::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$files`
 
 Створює екземпляр Imagick для окремого зображення чи групи зображень.
 

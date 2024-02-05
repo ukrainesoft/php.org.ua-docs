@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::setMode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RegexIterator::setMode
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::setMode — Встановлення режиму роботи
 
@@ -18,7 +19,7 @@ RegexIterator::setMode — Встановлення режиму роботи
 public RegexIterator::setMode(int $mode): void
 ```
 
-Визначає режим роботи.
+Встановлює режим роботи.
 
 ### Список параметрів
 
@@ -33,10 +34,10 @@ public RegexIterator::setMode(int $mode): void
 | значение | константа |
 | --- | --- |
 |  | [RegexIterator::MATCH](class.regexiterator.md#regexiterator.constants.match) |
-|  | [RegexIterator::GETMATCH](class.regexiterator.md#regexiterator.constants.get-match) |
-|  | [RegexIterator::ALLMATCHES](class.regexiterator.md#regexiterator.constants.all-matches) |
-|  | [RegexIterator::SPLIT](class.regexiterator.md#regexiterator.constants.split) |
-|  | [RegexIterator::REPLACE](class.regexiterator.md#regexiterator.constants.replace) |
+|  | [RegexIterator::GET\_MATCH](class.regexiterator.md#regexiterator.constants.get-match) |
+|  | [RegexIterator::ALL\_MATCHES](class.regexiterator.md#regexiterator.constants.all-matches) |
+| 3 | [RegexIterator::SPLIT](class.regexiterator.md#regexiterator.constants.split) |
+| 4 | [RegexIterator::REPLACE](class.regexiterator.md#regexiterator.constants.replace) |
 
 ### Значення, що повертаються
 
@@ -44,7 +45,7 @@ public RegexIterator::setMode(int $mode): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RegexIterator::setMode()****
+**Пример #1 Пример использования**RegexIterator::setMode()\*\*\*\*
 
 ```php
 <?php
@@ -63,7 +64,7 @@ foreach ($regexIterator as $key => $value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 str1 => 1
@@ -72,4 +73,4 @@ str3 => 123
 
 ### Дивіться також
 
--   [RegexIterator::getMode()](regexiterator.getmode.md) - Повертає режим роботи
+-   [RegexIterator::getMode()](regexiterator.getmode.md) \- Повертає режим роботи

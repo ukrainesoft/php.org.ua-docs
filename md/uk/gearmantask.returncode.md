@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::returnCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanTask::returnCode
 
@@ -30,4 +31,4 @@ public GearmanTask::returnCode(): int
 
 ### Дивіться також
 
--   [GearmanClient::returnCode()](gearmanclient.returncode.md) - Отримати останній код повернення Gearman
+-   [GearmanClient::returnCode()](gearmanclient.returncode.md) \- Отримати останній код повернення Gearman

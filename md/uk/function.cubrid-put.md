@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.cubrid-prepare.md: « cubridprepare
-  - function.cubrid-rollback.md: cubridrollback »
+  - function.cubrid-prepare.md: « cubrid\_prepare
+  - function.cubrid-rollback.md: cubrid\_rollback »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridput
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_put
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridput
+# cubrid\_put
 
 (PECL CUBRID >= 8.3.0)
 
-cubridput — Оновлює стовпець за допомогою OID
+cubrid\_put — Оновлює стовпець за допомогою OID
 
 ### Опис
 
 ```methodsynopsis
-cubrid_put(    resource $conn_identifier,    string $oid,    string $attr = ?,    mixed $value): bool
+cubrid_put(    resource $conn_identifier,    string $oid,    string $attr = ?,    mixed $value): bool
 ```
 
-Функція **cubridput()** використовується для оновлення атрибуту екземпляра даного `oid`
+Функция**cubrid\_put()** використовується для оновлення атрибуту екземпляра даного `oid`
 
-Ви можете оновити один атрибут, використовуючи рядковий тип даних для встановлення `attr`. У такому разі ви можете використовувати дані цілого числа, числа з плаваючою комою або числа рядкового типу як аргумент `value`. Щоб оновити кілька атрибутів, можна пропустити аргумент `attr` та встановити аргумент `value` у вигляді асоціативного масиву.
+Ви можете оновити один атрибут, використовуючи рядковий тип даних для встановлення `attr`. У такому разі ви можете використовувати дані цілого числа, числа з плаваючою комою або числа рядкового типу як аргумент `value`. Щоб оновити кілька атрибутів, можна пропустити аргумент `attr`и установить аргумент`value` у вигляді асоціативного масиву.
 
 ### Список параметрів
 
@@ -42,11 +43,11 @@ OID екземпляра, який необхідно оновити
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridput()****
+**Пример #1 Пример использования**cubrid\_put()\*\*\*\*
 
 ```php
 <?php
@@ -75,7 +76,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(3) {
@@ -98,9 +99,9 @@ array(3) {
 
 ### Дивіться також
 
--   [cubridget()](function.cubrid-get.md) - Отримує стовпець, використовуючи OID
--   [cubridsetadd()](function.cubrid-set-add.md) - Вставляє один елемент для встановлення стовпця типу за допомогою OID
--   [cubridsetdrop()](function.cubrid-set-drop.md) - Видаляє елемент із стовпця заданого типу, використовуючи OID
--   [cubridseqinsert()](function.cubrid-seq-insert.md) - Вставляє елемент у стовпець типу послідовності, використовуючи OID
--   [cubridseqdrop()](function.cubrid-seq-drop.md) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID
--   [cubridseqput()](function.cubrid-seq-put.md) - Оновлює значення елемента стовпця типу послідовності за допомогою OID
+-   [cubrid\_get()](function.cubrid-get.md) \- Отримує стовпець, використовуючи OID
+-   [cubrid\_set\_add()](function.cubrid-set-add.md) \- Вставляє один елемент для встановлення стовпця типу за допомогою OID
+-   [cubrid\_set\_drop()](function.cubrid-set-drop.md) \- Видаляє елемент із стовпця заданого типу, використовуючи OID
+-   [cubrid\_seq\_insert()](function.cubrid-seq-insert.md) \- Вставляє елемент у стовпець типу послідовності, використовуючи OID
+-   [cubrid\_seq\_drop()](function.cubrid-seq-drop.md) \- Видаляє елемент зі стовпця типу послідовності, використовуючи OID
+-   [cubrid\_seq\_put()](function.cubrid-seq-put.md) \- Оновлює значення елемента стовпця типу послідовності за допомогою OID

@@ -1,10 +1,11 @@
 ---
 navigation:
   - evprepare.createstopped.md: '« EvPrepare::createStopped'
-  - evsignal.construct.md: 'EvSignal::construct »'
+  - evsignal.construct.md: 'EvSignal::\_\_construct »'
   - index.md: PHP Manual
-  - book.ev.md: Єв
+  - book.ev.md: Ev
 title: Клас EvSignal
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EvSignal
 
@@ -53,17 +54,17 @@ public
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     int
      $signum
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -72,17 +73,17 @@ public
     final
    public
    static
-   createStopped(    
+   createStopped(    
     int
      $signum
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -130,10 +131,10 @@ public
 
 signum
 
-Номер сигналу. Дивіться константи, експортовані модулем *pcntl*. Також дивіться сторінку керівництва `signal(7)`
+Номер сигналу. Дивіться константи, експортовані модулем *pcntl*Также смотрите страницу руководства`signal(7)`
 
 ## Зміст
 
--   [EvSignal::construct](evsignal.construct.md) - Конструктор об'єкта спостерігача EvSignal
--   [EvSignal::createStopped](evsignal.createstopped.md) — Create stopped EvSignal watcher object
--   [EvSignal::set](evsignal.set.md) — Налаштування спостерігача
+-   [EvSignal::\_\_construct](evsignal.construct.md) \- Конструктор об'єкта спостерігача EvSignal
+-   [EvSignal::createStopped](evsignal.createstopped.md)— Create stopped EvSignal watcher object
+-   [EvSignal::set](evsignal.set.md)— Налаштування спостерігача

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.soapserver.md: SoapServer
 title: 'SoapServer::getFunctions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SoapServer::getFunctions
 
@@ -30,7 +31,7 @@ public SoapServer::getFunctions(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SoapServer::getFunctions()****
+**Пример #1 Пример использования**SoapServer::getFunctions()\*\*\*\*
 
 ```php
 <?php
@@ -50,6 +51,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ### Дивіться також
 
--   [SoapServer::construct()](soapserver.construct.md) - Конструктор SoapServer
--   [SoapServer::addFunction()](soapserver.addfunction.md) - Додає одну або кілька функцій для обробки запитів SOAP
--   [SoapServer::setClass()](soapserver.setclass.md) - Встановлює клас, який обробляє SOAP-запити
+-   [SoapServer::\_\_construct()](soapserver.construct.md) \- Конструктор SoapServer
+-   [SoapServer::addFunction()](soapserver.addfunction.md) \- Додає одну або кілька функцій для обробки запитів SOAP
+-   [SoapServer::setClass()](soapserver.setclass.md) \- Встановлює клас, який обробляє SOAP-запити

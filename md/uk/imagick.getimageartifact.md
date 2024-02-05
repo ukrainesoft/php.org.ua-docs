@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageArtifact'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageArtifact
 
@@ -36,5 +37,5 @@ public Imagick::getImageArtifact(string $artifact): string
 
 ### Дивіться також
 
--   [Imagick::setImageArtifact()](imagick.setimageartifact.md) - Встановлює артефакт зображення
--   [Imagick::deleteImageArtifact()](imagick.deleteimageartifact.md) - Видаляє артефакт зображення
+-   [Imagick::setImageArtifact()](imagick.setimageartifact.md) \- Встановлює артефакт зображення
+-   [Imagick::deleteImageArtifact()](imagick.deleteimageartifact.md) \- Видаляє артефакт зображення

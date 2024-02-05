@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageTicksPerSecond'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageTicksPerSecond
 
@@ -26,7 +27,7 @@ public Imagick::getImageTicksPerSecond(): int
 
 ### Значення, що повертаються
 
-Повертає кількість кадрів за секунду для зображення.
+Повертає кількість кадрів на секунду для зображення.
 
 ### Помилки
 

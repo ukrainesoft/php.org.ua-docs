@@ -4,17 +4,18 @@ navigation:
   - error.getmessage.md: 'Error::getMessage »'
   - index.md: PHP Manual
   - class.error.md: Error
-title: 'Error::construct'
+title: 'Error::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Error::construct
+# Error::\_\_construct
 
 (PHP 7, PHP 8)
 
-Error::construct — Створює об'єкт класу Error
+Error::\_\_construct — Створює об'єкт класу Error
 
 ### Опис
 
-public **Error::construct**(string `$message` = "", int `$code` [Throwable](class.throwable.md) `$previous` **`null`**
+public**Error::\_\_construct**(string`$message` = "", int `$code` [Throwable](class.throwable.md) `$previous` **`null`**) .
 
 Створює об'єкт класу Error.
 
@@ -34,6 +35,6 @@ public **Error::construct**(string `$message` = "", int `$code` [Throwable](clas
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Значення `message` *НЕ* є безпечним для бінарних даних, тобто в тексті повідомлення не можна використовувати символ із кодом
+> Значение`message` *НЕ* є безпечним для бінарних даних, тобто в тексті повідомлення не можна використовувати символ із кодом \\0.

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::backend'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::backend
 
@@ -31,4 +32,4 @@ public
 
 ### Дивіться також
 
--   [Ev::backend()](ev.backend.md) - Повертає ціле число, що описує бекенд, що використовується libev
+-   [Ev::backend()](ev.backend.md) \- Повертає ціле число, що описує бекенд, що використовується libev

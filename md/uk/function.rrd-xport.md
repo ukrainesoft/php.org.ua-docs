@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.rrd-version.md: « rrdversion
-  - function.rrdc-disconnect.md: rrdcdisconnect »
+  - function.rrd-version.md: « rrd\_version
+  - function.rrdc-disconnect.md: rrdc\_disconnect »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
-title: rrdxport
+title: rrd\_xport
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# rrdxport
+# rrd\_xport
 
 (PECL rrd >= 0.9.0)
 
-rrdxport — Експортує інформацію про базу даних RRD
+rrd\_xport — Експортує інформацію про базу даних RRD
 
 ### Опис
 
@@ -28,4 +29,4 @@ rrd_xport(array $options): array
 
 ### Значення, що повертаються
 
-Масив з інформацією про файл бази даних RRD або **`false`** у разі виникнення помилки.
+Масив з інформацією про файл бази даних RRD або \*\*`false`\*\*в случае возникновения ошибки.

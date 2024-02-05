@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.db2-close.md: « db2close
-  - function.db2-columns.md: db2columns »
+  - function.db2-close.md: « db2\_close
+  - function.db2-columns.md: db2\_columns »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2columnprivileges
+title: db2\_column\_privileges
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2columnprivileges
+# db2\_column\_privileges
 
-(PECL ibmdb2> = 1.0.0)
+(PECL ibm\_db2 >= 1.0.0)
 
-db2columnprivileges — Повертає результуючий набір, що перераховує стовпці та пов'язані з ним привілеї для таблиці
+db2\_column\_privileges - Повертає результуючий набір, що перераховує стовпці та пов'язані з ним привілеї для таблиці
 
 ### Опис
 
 ```methodsynopsis
-db2_column_privileges(    resource $connection,    string $qualifier = ?,    string $schema = ?,    string $table-name = ?,    string $column-name = ?): resource
+db2_column_privileges(    resource $connection,    ?string $qualifier = null,    ?string $schema = null,    ?string $table_name = null,    ?string $column_name = null): resource
 ```
 
 Повертає результуючий набір, що перераховує стовпці та пов'язані з ним привілеї для таблиці.
@@ -34,11 +35,11 @@ db2_column_privileges(    resource $connection,    string $qualifier = ?,    str
 
 Схема містить таблиці. Для вибору всіх схем вкажіть **`null`** або порожній рядок.
 
-`table-name`
+`table_name`
 
 Ім'я таблиці або подання. Для вибору всіх таблиць вкажіть **`null`** або порожній рядок.
 
-`column-name`
+`column_name`
 
 Ім'я стовпця. Для вибору всіх стовпців вкажіть **`null`** або порожній рядок.
 
@@ -46,25 +47,25 @@ db2_column_privileges(    resource $connection,    string $qualifier = ?,    str
 
 Повертає ресурс оператора з результуючим набором, що містить рядки, що описують привілеї, задані умовами стовпців. Рядки містять такі поля:
 
-| Имя столбца | Описание |
+| Имя столбца | Опис |
 | --- | --- |
-| TABLECAT | Ім'я каталогу. Якщо таблиця немає каталогів, це поле міститиме NULL. |
-| TABLESCHEM | Назва схеми. |
-| TABLENAME | Ім'я таблиці або подання. |
-| COLUMNNAME | Ім'я стовпця. |
+| TABLE\_CAT | Ім'я каталогу. Якщо таблиця немає каталогів, це поле міститиме NULL. |
+| TABLE\_SCHEM | Назва схеми. |
+| TABLE\_NAME | Ім'я таблиці або подання. |
+| COLUMN\_NAME | Ім'я стовпця. |
 | GRANTOR | Ідентифікатор користувача, який встановив привілей. |
 | GRANTEE | Ідентифікатор користувача, для якого встановлено привілей. |
 | PRIVILEGE | Встановлений привілей. |
-| ІСGRANTABLE | Чи може GRANTEE видавати цей привілей іншим користувачам? |
+| IS\_GRANTABLE | Чи може GRANTEE видавати цей привілей іншим користувачам? |
 
 ### Дивіться також
 
--   [db2columns()](function.db2-columns.md) - Повертає результуючий набір, що перераховує стовпці та пов'язані з ними метадані для таблиці
--   [db2foreignkeys()](function.db2-foreign-keys.md) - Повертає набір результатів, у якому перелічені зовнішні ключі таблиці
--   [db2primarykeys()](function.db2-primary-keys.md) - Повертає набір результатів, що містить первинні ключі таблиці
--   [db2procedurecolumns()](function.db2-procedure-columns.md) - Повертає набір результатів зі списком параметрів процедури, що зберігається.
--   [db2procedures()](function.db2-procedures.md) - Повертає набір результатів, в якому перераховані процедури, що зберігаються, зареєстровані в базі даних
--   [db2specialcolumns()](function.db2-special-columns.md) - Повертає набір результатів, у якому перераховані стовпці з унікальним ідентифікатором рядка таблиці
--   [db2statistics()](function.db2-statistics.md) - Повертає набір результатів, що містить індекс та статистику таблиці
--   [db2tableprivileges()](function.db2-table-privileges.md) - Повертає набір результатів, у якому перелічені таблиці та пов'язані з ними права доступу до бази даних
--   [db2tables()](function.db2-tables.md) - Повертає набір результатів, у якому перелічені таблиці та пов'язані метадані в базі даних
+-   [db2\_columns()](function.db2-columns.md) \- Повертає результуючий набір, що перераховує стовпці та пов'язані з ними метадані для таблиці
+-   [db2\_foreign\_keys()](function.db2-foreign-keys.md) \- Повертає набір результатів, у якому перелічені зовнішні ключі таблиці
+-   [db2\_primary\_keys()](function.db2-primary-keys.md) \- Повертає набір результатів, що містить первинні ключі таблиці
+-   [db2\_procedure\_columns()](function.db2-procedure-columns.md) \- Повертає набір результатів зі списком параметрів процедури, що зберігається.
+-   [db2\_procedures()](function.db2-procedures.md) \- Повертає набір результатів, в якому перераховані процедури, що зберігаються, зареєстровані в базі даних
+-   [db2\_special\_columns()](function.db2-special-columns.md) \- Повертає набір результатів, у якому перераховані стовпці з унікальним ідентифікатором рядка таблиці
+-   [db2\_statistics()](function.db2-statistics.md) \- Повертає набір результатів, що містить індекс та статистику таблиці
+-   [db2\_table\_privileges()](function.db2-table-privileges.md) \- Повертає набір результатів, у якому перелічені таблиці та пов'язані з ними права доступу до бази даних
+-   [db2\_tables()](function.db2-tables.md) \- Повертає набір результатів, у якому перелічені таблиці та пов'язані метадані в базі даних

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - timezones.md: Список підтримуваних часових поясів
 title: Антарктика
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Антарктика
 

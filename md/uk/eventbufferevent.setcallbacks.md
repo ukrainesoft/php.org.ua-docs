@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::setCallbacks'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventBufferEvent::setCallbacks
 
@@ -16,16 +17,16 @@ EventBufferEvent::setCallbacks — Призначає callback-функції д
 
 ```methodsynopsis
 public
-   EventBufferEvent::setCallbacks(    
+   EventBufferEvent::setCallbacks(    
     callable
      $readcb
-   ,    
+   ,    
     callable
      $writecb
-   ,    
+   ,    
     callable
      $eventcb
-   ,    
+   ,    
     mixed
      $arg
     = ?): void
@@ -37,15 +38,15 @@ public
 
 `readcb`
 
-Callback-функція читання. Дивіться докладніше [О callback-функциях буферов](eventbufferevent.about.callbacks.md)
+Callback-функция чтения. Смотрите подробнее[Про callback-функції буферів](eventbufferevent.about.callbacks.md)
 
 `writecb`
 
-Callback-функція запису. Дивіться докладніше [О callback-функциях буферов](eventbufferevent.about.callbacks.md)
+Callback-функция записи. Смотрите подробнее[Про callback-функції буферів](eventbufferevent.about.callbacks.md)
 
 `eventcb`
 
-Callback – функція події зміни статусу. Дивіться докладніше [О callback-функциях буферов](eventbufferevent.about.callbacks.md)
+Callback – функція події зміни статусу. Дивіться докладніше [Про callback-функції буферів](eventbufferevent.about.callbacks.md)
 
 `arg`
 
@@ -57,4 +58,4 @@ Callback – функція події зміни статусу. Дивітьс
 
 ### Дивіться також
 
--   [EventBufferEvent::construct()](eventbufferevent.construct.md) - Створює об'єкт EventBufferEvent
+-   [EventBufferEvent::\_\_construct()](eventbufferevent.construct.md) \- Створює об'єкт EventBufferEvent

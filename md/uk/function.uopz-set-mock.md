@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-set-hook.md: « uopzsethook
-  - function.uopz-set-property.md: uopzsetproperty »
+  - function.uopz-set-hook.md: « uopz\_set\_hook
+  - function.uopz-set-property.md: uopz\_set\_property »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzsetmock
+title: uopz\_set\_mock
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzsetmock
+# uopz\_set\_mock
 
 (PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
-uopzsetmock — Використовувати імітатор замість класу для нових об'єктів
+uopz\_set\_mock — Використовувати імітатор замість класу для нових об'єктів
 
 ### Опис
 
@@ -20,9 +21,9 @@ uopz_set_mock(string $class, mixed $mock): void
 
 Якщо `mock` - це рядок, що містить ім'я класу, тоді він буде створений замість `class`. . `mock` також може бути об'єктом.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Тільки динамічний доступ до властивостей та методів буде використовувати об'єкт `mock`. Статичний доступ використовуватиме оригінальний `class`. Дивіться [пример](function.uopz-set-mock.md#uopz_set_mock.example.static) нижче.
+> Тільки динамічний доступ до властивостей та методів буде використовувати об'єкт `mock`. Статичний доступ використовуватиме оригінальний `class`Смотрите[приклад](function.uopz-set-mock.md#uopz_set_mock.example.static) нижче.
 
 ### Список параметрів
 
@@ -40,13 +41,13 @@ uopz_set_mock(string $class, mixed $mock): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| uopz 6.0.0 | Імітування статичних функцій не підтримуються цією функцією. Замість цього слід використовувати [uopzredefine()](function.uopz-redefine.md) і [uopzsetreturn()](function.uopz-set-return.md), або [Componere](book.componere.md) |
+| uopz 6.0.0 | Імітування статичних функцій не підтримуються цієї функцією. Замість цього слід використовувати [uopz\_redefine()](function.uopz-redefine.md) і [uopz\_set\_return()](function.uopz-set-return.md), или[Componere](book.componere.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzsetmock()****
+**Пример #1 Пример использования**uopz\_set\_mock()\*\*\*\*
 
 ```php
 <?php
@@ -67,13 +68,13 @@ uopz_set_mock(A::class, mockA::class);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 mockA
 ```
 
-**Приклад #2 Приклад використання **uopzsetmock()****
+**Пример #2 Пример использования**uopz\_set\_mock()\*\*\*\*
 
 ```php
 <?php
@@ -92,13 +93,13 @@ uopz_set_mock(A::class, new class {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 mockA
 ```
 
-**Приклад #3 **uopzsetmock()** та статичні члени класу**
+**Пример #3**uopz\_set\_mock()\*\* та статичні члени класу\*\*
 
 Починаючи з uopz 6.0.0, імітація статичних членів класу не підтримується.
 
@@ -120,7 +121,7 @@ echo A::CON, PHP_EOL;
 A::who();
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 A
@@ -136,5 +137,5 @@ mockA
 
 ### Дивіться також
 
--   [uopzgetmock()](function.uopz-get-mock.md) - отримати поточний імітатор (mock) для класу
--   [uopzunsetmock()](function.uopz-unset-mock.md) - Видалити раніше встановлений імітатор
+-   [uopz\_get\_mock()](function.uopz-get-mock.md) \- отримати поточний імітатор (mock) для класу
+-   [uopz\_unset\_mock()](function.uopz-unset-mock.md) \- Видалити раніше встановлений імітатор

@@ -1,113 +1,130 @@
 ---
 navigation:
   - transliterator.transliterate.md: '« Transliterator::transliterate'
-  - intlbreakiterator.construct.md: 'IntlBreakIterator::construct »'
+  - intlbreakiterator.construct.md: 'IntlBreakIterator::\_\_construct »'
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Клас IntlBreakIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас IntlBreakIterator
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
 Ітератор переривання (Break iterator) - це об'єкт ICU, що надає методи для визначення меж у тексті (наприклад межі слова або речення). У PHP клас **IntlBreakIterator** служить базовим класом всім типів ітераторів переривання ICU. Є й додаткова функціональність, модуль intl може розширювати цей клас відповідними підкласами, такими як [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.md) або [IntlCodePointBreakIterator](class.intlcodepointbreakiterator.md)
 
-Цей клас реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Traversing an Ітерація **IntlBreakIterator** породжує невід'ємні цілі значення, що являють собою успішне знаходження кордонів у тексті, і рівні позиції знайденого символу UTF-8 відрахованої від початку тексту (позиція першого символу дорівнює `0`). Ключі повернутих значень являють собою послідовність натуральних чисел `{0, 1, 2, …}`
+Цей клас реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md)Traversing an Итерация**IntlBreakIterator** породжує невід'ємні цілі значення, що являють собою успішне знаходження кордонів у тексті, і рівні позиції знайденого символу UTF-8 відрахованої від початку тексту (позиція першого символу дорівнює ). Ключі повернутих значень являють собою послідовність натуральних чисел `{0, 1, 2, …}`
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class IntlBreakIterator
     
 
     
-     
-      class IntlBreakIterator
-     
-
-     implements 
-       IteratorAggregate {
+     implements
+      IteratorAggregate {
 
     /* Константы */
     
+     public
      const
      int
-      DONE = -1;
+      DONE;
 
-    const
+    public
+     const
      int
-      WORD_NONE = 0;
+      WORD_NONE;
 
-    const
+    public
+     const
      int
-      WORD_NONE_LIMIT = 100;
+      WORD_NONE_LIMIT;
 
-    const
+    public
+     const
      int
-      WORD_NUMBER = 100;
+      WORD_NUMBER;
 
-    const
+    public
+     const
      int
-      WORD_NUMBER_LIMIT = 200;
+      WORD_NUMBER_LIMIT;
 
-    const
+    public
+     const
      int
-      WORD_LETTER = 200;
+      WORD_LETTER;
 
-    const
+    public
+     const
      int
-      WORD_LETTER_LIMIT = 300;
+      WORD_LETTER_LIMIT;
 
-    const
+    public
+     const
      int
-      WORD_KANA = 300;
+      WORD_KANA;
 
-    const
+    public
+     const
      int
-      WORD_KANA_LIMIT = 400;
+      WORD_KANA_LIMIT;
 
-    const
+    public
+     const
      int
-      WORD_IDEO = 400;
+      WORD_IDEO;
 
-    const
+    public
+     const
      int
-      WORD_IDEO_LIMIT = 500;
+      WORD_IDEO_LIMIT;
 
-    const
+    public
+     const
      int
-      LINE_SOFT = 0;
+      LINE_SOFT;
 
-    const
+    public
+     const
      int
-      LINE_SOFT_LIMIT = 100;
+      LINE_SOFT_LIMIT;
 
-    const
+    public
+     const
      int
-      LINE_HARD = 100;
+      LINE_HARD;
 
-    const
+    public
+     const
      int
-      LINE_HARD_LIMIT = 200;
+      LINE_HARD_LIMIT;
 
-    const
+    public
+     const
      int
-      SENTENCE_TERM = 0;
+      SENTENCE_TERM;
 
-    const
+    public
+     const
      int
-      SENTENCE_TERM_LIMIT = 100;
+      SENTENCE_TERM_LIMIT;
 
-    const
+    public
+     const
      int
-      SENTENCE_SEP = 100;
+      SENTENCE_SEP;
 
-    const
+    public
+     const
      int
-      SENTENCE_SEP_LIMIT = 200;
+      SENTENCE_SEP_LIMIT;
 
 
     /* Методы */
@@ -124,10 +141,8 @@ public current(): int
 public first(): int
 public following(int $offset): int
 public getErrorCode(): int
-intl_get_error_code(): int
-public getErrorMessage(): string|false
-intl_get_error_message(): string
-public getLocale(int $type): string
+public getErrorMessage(): string
+public getLocale(int $type): string|false
 public getPartsIterator(string $type = IntlPartsIterator::KEY_SEQUENTIAL): IntlPartsIterator
 public getText(): ?string
 public isBoundary(int $offset): bool
@@ -135,7 +150,7 @@ public last(): int
 public next(?int $offset = null): int
 public preceding(int $offset): int
 public previous(): int
-public setText(string $text): ?bool
+public setText(string $text): bool
 
    }
 ```
@@ -182,30 +197,30 @@ public setText(string $text): ?bool
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Клас **IntlBreakIterator** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
+| 8.0.0 | Класс**IntlBreakIterator** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). . Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
 
 ## Зміст
 
--   [IntlBreakIterator::construct](intlbreakiterator.construct.md) — Закритий конструктор, який забороняє створення екземплярів об'єкту
--   [IntlBreakIterator::createCharacterInstance](intlbreakiterator.createcharacterinstance.md) — Створює ітератор переривання меж комбінування послідовностей символів.
--   [IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.md) — Створює ітератор переривання меж кодових точок.
--   [IntlBreakIterator::createLineInstance](intlbreakiterator.createlineinstance.md) — Створює ітератор переривання для логічно можливих розривів рядків
--   [IntlBreakIterator::createSentenceInstance](intlbreakiterator.createsentenceinstance.md) - Створює ітератор переривання для розривів речень
--   [IntlBreakIterator::createTitleInstance](intlbreakiterator.createtitleinstance.md) - Створює ітератор переривання для розривів заголовків
--   [IntlBreakIterator::createWordInstance](intlbreakiterator.createwordinstance.md) - Створює ітератор переривання для розривів слів
--   [IntlBreakIterator::current](intlbreakiterator.current.md) — Повертає індекс поточної позиції
--   [IntlBreakIterator::first](intlbreakiterator.first.md) — Встановлює позицію першого символу в тексті
--   [IntlBreakIterator::following](intlbreakiterator.following.md) — Переміщає ітератор до першого кордону після вказаного усунення
--   [IntlBreakIterator::getErrorCode](intlbreakiterator.geterrorcode.md) — Повертає останній код помилки об'єкту
--   [IntlBreakIterator::getErrorMessage](intlbreakiterator.geterrormessage.md) — Повертає останнє повідомлення про помилку об'єкта
--   [IntlBreakIterator::getLocale](intlbreakiterator.getlocale.md) — Повертає локаль, пов'язану з об'єктом
--   [IntlBreakIterator::getPartsIterator](intlbreakiterator.getpartsiterator.md) — створює ітератор для переміщення фрагментів між кордонами.
--   [IntlBreakIterator::getText](intlbreakiterator.gettext.md) — Повертає текст, що сканується.
--   [IntlBreakIterator::isBoundary](intlbreakiterator.isboundary.md) — Повідомляє, чи є усунення зміщенням кордону
--   [IntlBreakIterator::last](intlbreakiterator.last.md) — Встановлює позицію ітератора до індексу за останнім символом
--   [IntlBreakIterator::next](intlbreakiterator.next.md) — Переміщує ітератор до наступного кордону
--   [IntlBreakIterator::preceding](intlbreakiterator.preceding.md) — Встановлює позицію ітератора до першого кордону перед усуненням
--   [IntlBreakIterator::previous](intlbreakiterator.previous.md) — Встановлює позицію ітератора на кордоні безпосередньо перед поточною
--   [IntlBreakIterator::setText](intlbreakiterator.settext.md) — Встановлює сканований текст
+-   [IntlBreakIterator::\_\_construct](intlbreakiterator.construct.md)— Закритий конструктор, який забороняє створення екземплярів об'єкту
+-   [IntlBreakIterator::createCharacterInstance](intlbreakiterator.createcharacterinstance.md)— Створює ітератор переривання меж комбінування послідовностей символів.
+-   [IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.md)— Створює ітератор переривання меж кодових точок.
+-   [IntlBreakIterator::createLineInstance](intlbreakiterator.createlineinstance.md)— Створює ітератор переривання для логічно можливих розривів рядків
+-   [IntlBreakIterator::createSentenceInstance](intlbreakiterator.createsentenceinstance.md) \- Створює ітератор переривання для розривів речень
+-   [IntlBreakIterator::createTitleInstance](intlbreakiterator.createtitleinstance.md) \- Створює ітератор переривання для розривів заголовків
+-   [IntlBreakIterator::createWordInstance](intlbreakiterator.createwordinstance.md) \- Створює ітератор переривання для розривів слів
+-   [IntlBreakIterator::current](intlbreakiterator.current.md)— Повертає індекс поточної позиції
+-   [IntlBreakIterator::first](intlbreakiterator.first.md)— Встановлює позицію першого символу в тексті
+-   [IntlBreakIterator::following](intlbreakiterator.following.md)— Переміщає ітератор до першого кордону після вказаного усунення
+-   [IntlBreakIterator::getErrorCode](intlbreakiterator.geterrorcode.md)— Повертає останній код помилки об'єкту
+-   [IntlBreakIterator::getErrorMessage](intlbreakiterator.geterrormessage.md)— Повертає останнє повідомлення про помилку об'єкта
+-   [IntlBreakIterator::getLocale](intlbreakiterator.getlocale.md)— Повертає локаль, пов'язану з об'єктом
+-   [IntlBreakIterator::getPartsIterator](intlbreakiterator.getpartsiterator.md)— створює ітератор для переміщення фрагментів між кордонами.
+-   [IntlBreakIterator::getText](intlbreakiterator.gettext.md)— Повертає текст, що сканується.
+-   [IntlBreakIterator::isBoundary](intlbreakiterator.isboundary.md)— Повідомляє, чи є усунення зміщенням кордону
+-   [IntlBreakIterator::last](intlbreakiterator.last.md)— Встановлює позицію ітератора до індексу за останнім символом
+-   [IntlBreakIterator::next](intlbreakiterator.next.md)— Переміщує ітератор до наступного кордону
+-   [IntlBreakIterator::preceding](intlbreakiterator.preceding.md)— Встановлює позицію ітератора до першого кордону перед усуненням
+-   [IntlBreakIterator::previous](intlbreakiterator.previous.md)— Встановлює позицію ітератора на кордоні безпосередньо перед поточною
+-   [IntlBreakIterator::setText](intlbreakiterator.settext.md)— Встановлює сканований текст

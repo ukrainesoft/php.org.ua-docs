@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setImageCompression'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setImageCompression
 
@@ -22,7 +23,7 @@ public Imagick::setImageCompression(int $compression): bool
 
 `compression`
 
-Одна з **`COMPRESSION`** констант
+Одна из\*\*`COMPRESSION`\*\*констант
 
 ### Значення, що повертаються
 

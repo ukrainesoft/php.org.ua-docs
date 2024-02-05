@@ -5,7 +5,8 @@ navigation:
   - index.md: PHP Manual
   - mailparse.setup.md: Встановлення та налаштування
 title: Типи ресурсів
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Типи ресурсів
 
-Mailparse визначає тип ресурсу `mailparse_mail_structure`, який повертається функціями [mailparsemsgcreate()](function.mailparse-msg-create.md) і [mailparsemsgparsefile()](function.mailparse-msg-parse-file.md)
+Mailparse определяет тип ресурса`mailparse_mail_structure`, який повертається функціями [mailparse\_msg\_create()](function.mailparse-msg-create.md) і [mailparse\_msg\_parse\_file()](function.mailparse-msg-parse-file.md)

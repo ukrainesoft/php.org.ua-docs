@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.seaslog.md: SeasLog
 title: 'SeasLog::setLogger'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SeasLog::setLogger
 
@@ -18,7 +19,7 @@ SeasLog::setLogger — Встановлює ім'я реєстратора SeasL
 public static SeasLog::setLogger(string $logger): bool
 ```
 
-Використання функції **SeasLog::setLogger()** змінить значення функції [SeasLog::getLastLogger()](seaslog.getlastlogger.md). Отже, SeasLog запише loginfo у каталог реєстратора.
+Использование функции\*\*SeasLog::setLogger()\*\*изменит значение функции[SeasLog::getLastLogger()](seaslog.getlastlogger.md). Отже, SeasLog запише loginfo у каталог реєстратора.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public static SeasLog::setLogger(string $logger): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SeasLog::setLogger()****
+**Пример #1 Пример использования**SeasLog::setLogger()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump(SeasLog::setLogger('testModule/testLogger'));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)
@@ -50,5 +51,5 @@ bool(true)
 
 ### Дивіться також
 
--   [SeasLog::getLastLogger()](seaslog.getlastlogger.md) - Отримує останній шлях реєстратора SeasLog
--   [SeasLog::closeLoggerStream()](seaslog.closeloggerstream.md) - вручну звільняє потік від реєстратора
+-   [SeasLog::getLastLogger()](seaslog.getlastlogger.md) \- Отримує останній шлях реєстратора SeasLog
+-   [SeasLog::closeLoggerStream()](seaslog.closeloggerstream.md) \- вручну звільняє потік від реєстратора

@@ -1,16 +1,17 @@
 ---
 navigation:
   - ffi.type.md: '« FFI::type'
-  - class.ffi-cdata.md: FFICData »
+  - class.ffi-cdata.md: FFI\\CData »
   - index.md: PHP Manual
   - class.ffi.md: FFI
 title: 'FFI::typeof'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FFI::typeof
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
-FFI::typeof — Отримує FFICType для FFICData
+FFI::typeof — Отримує FFI\\CType для FFI\\CData
 
 ### Опис
 
@@ -18,7 +19,7 @@ FFI::typeof — Отримує FFICType для FFICData
 public static FFI::typeof(FFI\CData &$ptr): FFI\CType
 ```
 
-Повертає об'єкт [FFICType](class.ffi-ctype.md), що представляє тип об'єкта [FFICData](class.ffi-cdata.md)
+Повертає об'єкт [FFI\\CType](class.ffi-ctype.md), що представляє тип об'єкта [FFI\\CData](class.ffi-cdata.md)
 
 ### Список параметрів
 
@@ -28,4 +29,4 @@ public static FFI::typeof(FFI\CData &$ptr): FFI\CType
 
 ### Значення, що повертаються
 
-Повертає об'єкт [FFICType](class.ffi-ctype.md), що представляє тип об'єкта [FFICData](class.ffi-cdata.md)
+Повертає об'єкт [FFI\\CType](class.ffi-ctype.md), що представляє тип об'єкта [FFI\\CData](class.ffi-cdata.md)

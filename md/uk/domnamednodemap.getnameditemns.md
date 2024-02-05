@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.domnamednodemap.md: DOMNamedNodeMap
 title: 'DOMNamedNodeMap::getNamedItemNS'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DOMNamedNodeMap::getNamedItemNS
 
@@ -36,4 +37,4 @@ URI простору імен шуканого вузла.
 
 ### Дивіться також
 
--   [DOMNamedNodeMap::getNamedItem()](domnamednodemap.getnameditem.md) - Отримує вузол, вказаний на ім'я
+-   [DOMNamedNodeMap::getNamedItem()](domnamednodemap.getnameditem.md) \- Отримує вузол, вказаний на ім'я

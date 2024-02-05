@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrobject.md: SolrObject
 title: 'SolrObject::offsetExists'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrObject::offsetExists
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrObject::offsetExists — Перевіряє, чи існує властивість
 
@@ -28,4 +29,4 @@ public SolrObject::offsetExists(string $property_name): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

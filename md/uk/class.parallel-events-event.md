@@ -1,12 +1,15 @@
 ---
 navigation:
-  - parallel-events-input.remove.md: '« parallelEventsInput::remove'
-  - class.parallel-events-event-type.md: parallelEventsEventType »
+  - parallel-events-input.remove.md: '« parallel\\Events\\Input::remove'
+  - class.parallel-events-event-type.md: parallel\\Events\\Event\\Type »
   - index.md: PHP Manual
   - book.parallel.md: parallel
-title: Клас parallelEventsEvent
+title: Клас parallel\\Events\\Event
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас parallelEventsEvent
+# Клас parallel\\Events\\Event
+
+(0.9.0)
 
 ## Об'єкти подій
 
@@ -14,7 +17,7 @@ title: Клас parallelEventsEvent
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 

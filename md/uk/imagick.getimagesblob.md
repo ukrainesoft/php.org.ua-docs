@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImagesBlob'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImagesBlob
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImagesBlob — Повертає всі послідовності зображень у вигляді великого двійкового об'єкта
+Imagick::getImagesBlob — Повертає всі послідовності зображення у вигляді великого двійкового об'єкта
 
 ### Опис
 

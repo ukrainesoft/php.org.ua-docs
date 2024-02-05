@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::setSize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::setSize
 
@@ -18,7 +19,7 @@ Imagick::setSize — Встановлює розмір об'єкту Imagick
 public Imagick::setSize(int $columns, int $rows): bool
 ```
 
-Встановлює розмір об'єкту Imagick. Встановіть його перед читанням необробленого формату зображення, як RGB, GRAY або CMYK.
+Встановлює розмір об'єкта Imagick. Встановіть його перед читанням необробленого формату зображення, як RGB, GRAY або CMYK.
 
 ### Список параметрів
 

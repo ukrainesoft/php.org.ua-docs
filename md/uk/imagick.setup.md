@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.imagick.md: « Введение
+  - intro.imagick.md: '" Вступ'
   - imagick.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.imagick.md: ImageMagick
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

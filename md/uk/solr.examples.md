@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.solr-get-version.md: « solrgetversion
+  - function.solr-get-version.md: « solr\_get\_version
   - class.solrutils.md: SolrUtils »
   - index.md: PHP Manual
   - book.solr.md: Solr
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 
@@ -85,7 +86,7 @@ print_r($updateResponse->getResponse());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -129,7 +130,7 @@ print_r($second_doc->toArray());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -215,7 +216,7 @@ print_r($response);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -333,7 +334,7 @@ print_r($response);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -413,7 +414,7 @@ print_r($updateResponse->getResponse());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -478,7 +479,7 @@ print_r($updateResponse->getResponse());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -540,7 +541,7 @@ print_r($updateResponse->getResponse());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -598,7 +599,7 @@ print_r($facet_data);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -687,7 +688,7 @@ print_r($facet_data);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -760,7 +761,7 @@ print_r($facet_data);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -822,7 +823,7 @@ print_r($facet_data);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -851,7 +852,7 @@ SolrObject Object
 )
 ```
 
-**Приклад #13 Згортання [SolrQuery](class.solrquery.md)**
+**Пример #13 Сворачивание[SolrQuery](class.solrquery.md)**
 
 ```php
 <?php
@@ -888,7 +889,7 @@ print_r($response);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object
@@ -1141,7 +1142,7 @@ SolrObject Object
 )
 ```
 
-**Приклад #14 Приклад використання Solr Real Time Get (RTG) [SolrClient::getById()](solrclient.getbyid.md)**
+**Пример #14 Пример использования Solr Real Time Get (RTG)[SolrClient::getById()](solrclient.getbyid.md)**
 
 ```php
 <?php
@@ -1164,7 +1165,7 @@ print_r($response->getResponse());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 SolrObject Object

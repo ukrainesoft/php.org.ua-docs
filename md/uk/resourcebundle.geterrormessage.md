@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.resourcebundle.md: ResourceBundle
 title: 'ResourceBundle::getErrorMessage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ResourceBundle::getErrorMessage
 
-# resourcebundlegeterrormessage
+# resourcebundle\_get\_error\_message
 
 (PHP 5 >= 5.3.2, PHP 7, PHP 8, PECL intl >= 2.0.0)
 
-ResourceBundle::getErrorMessage -- resourcebundlegeterrormessage — Отримати останнє повідомлення про помилку пакета
+ResourceBundle::getErrorMessage -- resourcebundle\_get\_error\_message — Отримати останнє повідомлення про помилку пакета
 
 ### Опис
 
@@ -42,7 +43,7 @@ resourcebundle_get_error_message(ResourceBundle $bundle): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **resourcebundlegeterrormessage()****
+**Пример #1 Пример использования**resourcebundle\_get\_error\_message()\*\*\*\*
 
 ```php
 <?php
@@ -68,6 +69,6 @@ if(intl_is_failure(ResourceBundle::getErrorCode($r))) {
 
 ### Дивіться також
 
--   [resourcebundlegeterrorcode()](resourcebundle.geterrorcode.md) - Отримати останній код помилки пакета
--   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
--   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою
+-   [resourcebundle\_get\_error\_code()](resourcebundle.geterrorcode.md) \- Отримати останній код помилки пакета
+-   [intl\_get\_error\_code()](function.intl-get-error-code.md) \- Отримати код останньої помилки
+-   [intl\_is\_failure()](function.intl-is-failure.md) \- Перевірити, чи є код помилки ознакою збою

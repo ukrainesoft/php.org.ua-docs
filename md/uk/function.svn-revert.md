@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.svn-repos-recover.md: « svnreposrecover
-  - function.svn-status.md: svnstatus »
+  - function.svn-repos-recover.md: « svn\_repos\_recover
+  - function.svn-status.md: svn\_status »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
-title: svnrevert
+title: svn\_revert
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# svnrevert
+# svn\_revert
 
 (PECL svn >= 0.3.0)
 
-svnrevert — Скасує локальні зміни робочої копії
+svn\_revert — Скасує локальні зміни робочої копії
 
 ### Опис
 
@@ -32,9 +33,9 @@ svn_revert(string $path, bool $recursive = false): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [svndelete()](function.svn-delete.md) - Видаляє елементи з робочої копії або репозиторію
--   [svnexport()](function.svn-export.md) - Експортує вміст директорії SVN
+-   [svn\_delete()](function.svn-delete.md) \- Видаляє елементи з робочої копії або репозиторію
+-   [svn\_export()](function.svn-export.md) \- Експортує вміст директорії SVN

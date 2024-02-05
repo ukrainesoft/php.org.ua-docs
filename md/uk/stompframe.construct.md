@@ -4,17 +4,18 @@ navigation:
   - class.stompexception.md: StompException »
   - index.md: PHP Manual
   - class.stompframe.md: StompFrame
-title: 'StompFrame::construct'
+title: 'StompFrame::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# StompFrame::construct
+# StompFrame::\_\_construct
 
 (PECL stomp >= 0.1.0)
 
-StompFrame::construct — Конструктор
+StompFrame::\_\_construct — Конструктор
 
 ### Опис
 
-**StompFrame::construct**(string `$command` = ?, array `$headers` =?, string `$body`
+**StompFrame::\_\_construct**(string`$command`\= ?, array`$headers`\= ?, string`$body`
 
 Конструктор.
 

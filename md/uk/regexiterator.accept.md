@@ -1,14 +1,15 @@
 ---
 navigation:
   - class.regexiterator.md: « RegexIterator
-  - regexiterator.construct.md: 'RegexIterator::construct »'
+  - regexiterator.construct.md: 'RegexIterator::\_\_construct »'
   - index.md: PHP Manual
   - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::accept'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RegexIterator::accept
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::accept — Перевірка відповідності регулярному виразу
 
@@ -18,7 +19,7 @@ RegexIterator::accept — Перевірка відповідності регу
 public RegexIterator::accept(): bool
 ```
 
-Перевіряє відповідність рядка `(string)`, яку повернув метод **RegexIterator::current()** (або **RegexIterator::key()**, якщо встановлено прапор [RegexIterator::USEKEY](class.regexiterator.md#regexiterator.constants.use-key)), регулярному виразу.
+Перевіряє відповідність рядка `(string)`, яку повернув метод **RegexIterator::current()**(или**RegexIterator::key()**, если установлен флаг[RegexIterator::USE\_KEY](class.regexiterator.md#regexiterator.constants.use-key)), регулярному виразу.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public RegexIterator::accept(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RegexIterator::accept()****
+**Пример #1 Пример использования**RegexIterator::accept()\*\*\*\*
 
 У цьому прикладі буде здійснюватись навігація тільки по тих елементах, значення яких відповідають регулярному виразу.
 
@@ -44,7 +45,7 @@ foreach ($filter as $name) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Bob
@@ -55,4 +56,4 @@ David
 ### Дивіться також
 
 -   [Константи RegexIterator](class.regexiterator.md#regexiterator.constants)
--   [RegexIterator::setFlags()](regexiterator.setflags.md) - Установка прапорів
+-   [RegexIterator::setFlags()](regexiterator.setflags.md) \- Установка прапорів

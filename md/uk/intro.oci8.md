@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.oci8.md: « OCI8
-  - oci8.setup.md: Встановлення та налаштування »
+  - oci8.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.oci8.md: OCI8
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 

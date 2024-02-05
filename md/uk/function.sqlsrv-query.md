@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.sqlsrv-prepare.md: « sqlsrvprepare
-  - function.sqlsrv-rollback.md: sqlsrvrollback »
+  - function.sqlsrv-prepare.md: « sqlsrv\_prepare
+  - function.sqlsrv-rollback.md: sqlsrv\_rollback »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
-title: sqlsrvquery
+title: sqlsrv\_query
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sqlsrvquery
+# sqlsrv\_query
 
 (No version information available, might only be in Git)
 
-sqlsrvquery — Підготовка та виконання запиту
+sqlsrv\_query — Підготовка та виконання запиту
 
 ### Опис
 
 ```methodsynopsis
-sqlsrv_query(    resource $conn,    string $sql,    array $params = ?,    array $options = ?): mixed
+sqlsrv_query(    resource $conn,    string $sql,    array $params = ?,    array $options = ?): mixed
 ```
 
 Підготовляє та виконує запит.
@@ -24,7 +25,7 @@ sqlsrv_query(    resource $conn,    string $sql,    array $params = ?,    array 
 
 `conn`
 
-Ресурс підключення, що повертається [sqlsrvconnect()](function.sqlsrv-connect.md)
+Ресурс підключення, що повертається [sqlsrv\_connect()](function.sqlsrv-connect.md)
 
 `sql`
 
@@ -32,42 +33,42 @@ sqlsrv_query(    resource $conn,    string $sql,    array $params = ?,    array 
 
 `params`
 
-Масив, що визначає інформацію про параметри під час виконання параметризованого запиту. Елементи масиву можуть бути будь-якими з наступних:
+Масив, що визначає інформацію про параметри під час параметризованого запиту. Елементи масиву можуть бути будь-якими з наступних:
 
 -   Строкового значення
 -   Змінної PHP
--   Масиву з наступною структурою: array($value , $Direction , $phpType , $sqlType
+-   Масиву з наступною структурою: array($value\[, $direction\[, $phpType\[, $sqlType\]\]\]) .
 
 У наступній таблиці описані елементи у структурі масиву вище:
 
 **Структура масиву**
 
-| Элемент | Описание |
+| Элемент | Опис |
 | --- | --- |
 | $value | Рядкове значення, змінна PHP або змінна PHP, передана за посиланням. |
-| $direction (optional) | Одна з наступних констант SQLSRV, що використовуються для вказівки напряму параметра: SQLSRVPARAMIN, SQLSRVPARAMOUT, SQLSRVPARAMINOUT. Значення за промовчанням - SQLSRVPARAMIN. |
-| $phpType (optional) | Константа SQLSRVPHPTYPE, що вказує тип даних PHP значення, що повертається. |
-| $sqlType (optional) | Константа SQLSRVSQLTYPEвказує тип даних SQL Server вхідного значення. |
+| $direction (optional) | Одна з наступних констант SQLSRV, що використовуються для вказівки напряму параметра: SQLSRV\_PARAM\_IN, SQLSRV\_PARAM\_OUT, SQLSRV\_PARAM\_INOUT. Значення за промовчанням - SQLSRV\_PARAM\_IN. |
+| $phpType (optional) | Константа SQLSRV\_PHPTYPE\_\*, що вказує тип даних PHP значення, що повертається. |
+| $sqlType (optional) | Константа SQLSRV\_SQLTYPE\_\*вказує тип даних SQL Server вхідного значення. |
 
 `options`
 
-Масив, що визначає параметри властивостей запиту. Ключі, що підтримуються, описані в наступній таблиці:
+Масив, визначальний параметри властивостей запиту. Ключі, що підтримуються, описані в наступній таблиці:
 
 **Властивості запиту**
 
-| Ключ | Значения | Описание |
+| Ключ | Значения | Опис |
 | --- | --- | --- |
 | QueryTimeout | Позитивне ціле значення. | Встановлює час очікування в секундах. За замовчуванням драйвер чекатиме на результати нескінченно. |
-| SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`** | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. Для отримання додаткової інформації дивіться [sqlsrvsendstreamdata()](function.sqlsrv-send-stream-data.md) |
-| Scrollable | SQLSRVCURSORFORWARD, SQLSRVCURSORSTATIC, SQLSRVCURSORDYNAMIC, або SQLSRVCURSORKEYSET | Дивіться [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV. |
+| SendStreamParamsAtExec | **`true`**или**`false`** (за замовчуванням **`true`**) . | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. . Для отримання додаткової інформації дивіться [sqlsrv\_send\_stream\_data()](function.sqlsrv-send-stream-data.md) |
+| Scrollable | SQLSRV\_CURSOR\_FORWARD, SQLSRV\_CURSOR\_STATIC, SQLSRV\_CURSOR\_DYNAMIC, або SQLSRV\_CURSOR\_KEYSET | Смотрите[» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx)в документации Microsoft SQLSRV. |
 
 ### Значення, що повертаються
 
-Повертає ресурс виразу у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс виразу у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **sqlsrvquery()****
+**Пример #1 Пример использования**sqlsrv\_query()\*\*\*\*
 
 ```php
 <?php
@@ -90,9 +91,9 @@ if( $stmt === false ) {
 
 ### Примітки
 
-Для операторів, які ви плануєте виконати лише один раз, використовуйте **sqlsrvquery()**. Якщо ви маєте намір повторно виконати вираз з іншими параметрами, використовуйте комбінацію [sqlsrvprepare()](function.sqlsrv-prepare.md) і [sqlsrvexecute()](function.sqlsrv-execute.md)
+Для операторів, які ви плануєте виконати лише один раз, використовуйте **sqlsrv\_query()**. Якщо ви маєте намір повторно виконати вираз з іншими параметрами, використовуйте комбінацію [sqlsrv\_prepare()](function.sqlsrv-prepare.md) і [sqlsrv\_execute()](function.sqlsrv-execute.md)
 
 ### Дивіться також
 
--   [sqlsrvprepare()](function.sqlsrv-prepare.md) - готує запит до виконання
--   [sqlsrvexecute()](function.sqlsrv-execute.md) - Виконує запит підготовлений за допомогою sqlsrvprepare
+-   [sqlsrv\_prepare()](function.sqlsrv-prepare.md) \- готує запит до виконання
+-   [sqlsrv\_execute()](function.sqlsrv-execute.md) \- Виконує запит підготовлений за допомогою sqlsrv\_prepare

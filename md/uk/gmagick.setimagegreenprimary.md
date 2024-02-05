@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.gmagick.md: Gmagick
 title: 'Gmagick::setimagegreenprimary'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Gmagick::setimagegreenprimary
 
 (PECL gmagick >= Unknown)
 
-Gmagick::setimagegreenprimary — Встановлює кольоровість зображення зеленою первинною точкою
+Gmagick::setimagegreenprimary — Встановлює кольоровість зображення зеленою первинною точкою.
 
 ### Опис
 
@@ -36,4 +37,4 @@ Y-координата зеленої основної точки.
 
 ### Помилки
 
-Викликає **GmagickException** у разі виникнення помилки.
+Викликає **GmagickException**в случае возникновения ошибки.

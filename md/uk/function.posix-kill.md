@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-isatty.md: « posixisatty
-  - function.posix-mkfifo.md: posixmkfifo »
+  - function.posix-isatty.md: « posix\_isatty
+  - function.posix-mkfifo.md: posix\_mkfifo »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixkill
+  - ref.posix.md: POSIX Функції
+title: posix\_kill
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixkill
+# posix\_kill
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posixkill — Надсилає сигнал відповідному процесу
+posix\_kill — Надсилає сигнал відповідному процесу
 
 ### Опис
 
@@ -28,11 +29,11 @@ posix_kill(int $process_id, int $signal): bool
 
 `signal`
 
-Одна з [PCNTL констант сигналів](pcntl.constants.md)
+Одна из[PCNTL констант сигналів](pcntl.constants.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 

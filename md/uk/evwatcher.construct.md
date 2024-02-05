@@ -4,19 +4,20 @@ navigation:
   - evwatcher.feed.md: 'EvWatcher::feed »'
   - index.md: PHP Manual
   - class.evwatcher.md: EvWatcher
-title: 'EvWatcher::construct'
+title: 'EvWatcher::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# EvWatcher::construct
+# EvWatcher::\_\_construct
 
 (PECL ev >= 0.2.0)
 
-EvWatcher::construct - абстрактний конструктор об'єкта спостерігача
+EvWatcher::\_\_construct - абстрактний конструктор об'єкта спостерігача
 
 ### Опис
 
-abstract public **EvWatcher::construct**
+abstract public**EvWatcher::\_\_construct**()
 
-**EvWatcher::construct()** є абстрактним конструктором об'єкта спостерігача, реалізованого у похідних класах.
+**EvWatcher::\_\_construct()** є абстрактним конструктором об'єкта спостерігача, реалізованого у похідних класах.
 
 ### Список параметрів
 

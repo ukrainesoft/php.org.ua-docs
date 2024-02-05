@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.mqseries-put1.md: « mqseriesput1
-  - function.mqseries-set.md: mqseriesset »
+  - function.mqseries-put1.md: « mqseries\_put1
+  - function.mqseries-set.md: mqseries\_set »
   - index.md: PHP Manual
-  - ref.mqseries.md: Функции mqseries
-title: mqseriesput
+  - ref.mqseries.md: Функції mqseries
+title: mqseries\_put
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mqseriesput
+# mqseries\_put
 
 (PECL mqseries >= 0.10.0)
 
-mqseriesput — MQSeries MQPUT
+mqseries\_put — MQSeries MQPUT
 
 ### Опис
 
 ```methodsynopsis
-mqseries_put(    resource $hConn,    resource $hObj,    array &$md,    array &$pmo,    string $message,    resource &$compCode,    resource &$reason): void
+mqseries_put(    resource $hConn,    resource $hObj,    array &$md,    array &$pmo,    string $message,    resource &$compCode,    resource &$reason): void
 ```
 
-Функція **mqseriesput()** (MQPUT) містить повідомлення в чергу або список розподілу. Черга, або список розподілу, мають бути відкриті.
+Функция**mqseries\_put()** (MQPUT) містить повідомлення в чергу або список розподілу. Черга, або список розподілу, мають бути відкриті.
 
 ### Список параметрів
 
@@ -60,7 +61,7 @@ mqseries_put(    resource $hConn,    resource $hObj,    array &$md,    array &$p
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mqseriesput()****
+**Пример #1 Пример использования**mqseries\_put()\*\*\*\*
 
 ```php
 <?php
@@ -78,7 +79,7 @@ mqseries_put(    resource $hConn,    resource $hObj,    array &$md,    array &$p
                 $reason);
 // Теперь $obj содержит ссылку на объект (TESTQ)
 
-// Настраиваем Масив дескриптора сообщения. Читайте руководство MQSeries.
+// Настраиваем массив дескриптора сообщения. Читайте руководство MQSeries.
     $md = array(
                 'Version' => MQSERIES_MQMD_VERSION_1,
                 'Expiry' => MQSERIES_MQEI_UNLIMITED,
@@ -109,7 +110,7 @@ mqseries_put(    resource $hConn,    resource $hObj,    array &$md,    array &$p
 
 ### Дивіться також
 
--   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
--   [mqseriesopen()](function.mqseries-open.md) - MQSeries MQOPEN
--   [mqseriesget()](function.mqseries-get.md) - MQSeries MQGET
+-   [mqseries\_conn()](function.mqseries-conn.md) \- MQSeries MQCONN
+-   [mqseries\_connx()](function.mqseries-connx.md) \- MQSeries MQCONNX
+-   [mqseries\_open()](function.mqseries-open.md) \- MQSeries MQOPEN
+-   [mqseries\_get()](function.mqseries-get.md) \- MQSeries MQGET

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-collectionremove.md: « mysqlxdevapiCollectionRemove
-  - mysql-xdevapi-collectionremove.construct.md: 'CollectionRemove::construct »'
+  - class.mysql-xdevapi-collectionremove.md: « mysql\_xdevapi\\CollectionRemove
+  - mysql-xdevapi-collectionremove.construct.md: 'CollectionRemove::\_\_construct »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionremove.md: mysqlxdevapiCollectionRemove
+  - class.mysql-xdevapi-collectionremove.md: mysql\_xdevapi\\CollectionRemove
 title: 'CollectionRemove::bind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionRemove::bind
 
@@ -24,13 +25,13 @@ public mysql_xdevapi\CollectionRemove::bind(array $placeholder_values): mysql_xd
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `placeholder_values`
 
-Значення заповнювача для заміни за умови пошуку. Допускається використання кількох значень, які необхідно передати у вигляді масиву зіставлень PLACEHOLDERNAME->PLACEHOLDERVALUE.
+Значення заповнювача для заміни за умови пошуку. Допускається використання кількох значень, які необхідно передати у вигляді масиву зіставлень PLACEHOLDER\_NAME->PLACEHOLDER\_VALUE.
 
 ### Значення, що повертаються
 
@@ -38,7 +39,7 @@ public mysql_xdevapi\CollectionRemove::bind(array $placeholder_values): mysql_xd
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionRemove::bind()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionRemove::bind()\*\*\*\*
 
 ```php
 <?php

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.capacity.md: '« DsSequence::capacity'
-  - ds-sequence.filter.md: 'ДсSequence::filter »'
+  - ds-sequence.capacity.md: '« Ds\\Sequence::capacity'
+  - ds-sequence.filter.md: 'Ds\\Sequence::filter »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::contains'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::contains'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::contains
+# Ds\\Sequence::contains
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::contains — Перевіряє, чи містяться в колекції задані значення
+Ds\\Sequence::contains — Перевіряє, чи містяться в колекції задані значення
 
 ### Опис
 
@@ -32,7 +33,7 @@ abstract public Ds\Sequence::contains(mixed ...$values): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::contains()****
+**Пример #1 Пример использования**Ds\\Sequence::contains()\*\*\*\*
 
 ```php
 <?php
@@ -52,7 +53,7 @@ var_dump($sequece->contains(...[]));               // true
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(true)

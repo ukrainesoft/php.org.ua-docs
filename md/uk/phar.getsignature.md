@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::getSignature'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::getSignature
 
@@ -24,4 +25,4 @@ public Phar::getSignature(): array|false
 
 ### Значення, що повертаються
 
-Масив, що містить цифровий підпис відкритого архіву за ключом `hash`, і `MD5` `SHA-1` `SHA-256` `SHA-512` або `OpenSSL` за ключом `hash_type`. Підпис - це хеш, обчислений від вмісту архіву, яку можна використовуватиме перевірки його цілісності. Коректний підпис потрібен для всіх phar-архівів, що запускаються, якщо дозволена INI-змінна [phar.requirehash](phar.configuration.md#ini.phar.require-hash). Якщо сигнатури немає, функція повертає **`false`**
+Масив, що містить цифровий підпис відкритого архіву за ключом `hash`, и`MD5` `SHA-1` `SHA-256` `SHA-512`или`OpenSSL`по ключу`hash_type`. Підпис - це хеш, обчислений від вмісту архіву, яку можна використовуватиме перевірки його цілісності. Коректний підпис потрібен для всіх архівів, що запускаються, якщо дозволена INI-змінна [phar.require\_hash](phar.configuration.md#ini.phar.require-hash). Якщо сигнатури немає, функція повертає **`false`**

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - spl.interfaces.md: Інтерфейси
 title: Інтерфейс SeekableIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс SeekableIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,16 +19,11 @@ title: Інтерфейс SeekableIterator
 
 ```classsynopsis
 
-     
     
+     interface SeekableIterator
 
-    
-     
-      interface SeekableIterator
-      extends
-       Iterator
-     
-     {
+    extends
+      Iterator {
 
     /* Методы */
     
@@ -113,7 +109,7 @@ try {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 первый элемент
@@ -124,4 +120,4 @@ try {
 
 ## Зміст
 
--   [SeekableIterator::seek](seekableiterator.seek.md) — Переміщається до позиції
+-   [SeekableIterator::seek](seekableiterator.seek.md)— Переміщається до позиції

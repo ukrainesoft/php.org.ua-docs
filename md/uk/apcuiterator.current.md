@@ -1,10 +1,11 @@
 ---
 navigation:
-  - apcuiterator.construct.md: '« APCUIterator::construct'
+  - apcuiterator.construct.md: '« APCUIterator::\_\_construct'
   - apcuiterator.gettotalcount.md: 'APCUIterator::getTotalCount »'
   - index.md: PHP Manual
   - class.apcuiterator.md: APCUIterator
 title: 'APCUIterator::current'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # APCUIterator::current
 
@@ -30,5 +31,5 @@ public APCUIterator::current(): mixed
 
 ### Дивіться також
 
--   [APCUIterator::next()](apcuiterator.next.md) - Переміщує покажчик на наступний елемент
--   [Iterator::current()](iterator.current.md) - Повернення поточного елемента
+-   [APCUIterator::next()](apcuiterator.next.md) \- Переміщує покажчик на наступний елемент
+-   [Iterator::current()](iterator.current.md) \- Повернення поточного елемента

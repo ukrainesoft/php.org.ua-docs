@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::isFinal'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClassConstant::isFinal
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ReflectionClassConstant::isFinal — Перевіряє, чи є константа класу остаточною
 
@@ -30,6 +31,6 @@ public ReflectionClassConstant::isFinal(): bool
 
 ### Дивіться також
 
--   [ReflectionClassConstant::isPublic()](reflectionclassconstant.ispublic.md) - Перевіряє, чи константа є загальнодоступною
--   [ReflectionClassConstant::isPrivate()](reflectionclassconstant.isprivate.md) - Перевіряє, чи є константа закритою
--   [ReflectionClassConstant::isProtected()](reflectionclassconstant.isprotected.md) - Перевіряє, чи константа захищена
+-   [ReflectionClassConstant::isPublic()](reflectionclassconstant.ispublic.md) \- Перевіряє, чи константа є загальнодоступною
+-   [ReflectionClassConstant::isPrivate()](reflectionclassconstant.isprivate.md) \- Перевіряє, чи є константа закритою
+-   [ReflectionClassConstant::isProtected()](reflectionclassconstant.isprotected.md) \- Перевіряє, чи константа захищена

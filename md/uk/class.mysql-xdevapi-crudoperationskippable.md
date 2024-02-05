@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-crudoperationlimitable.limit.md: '« CrudOperationLimitable::limit'
   - mysql-xdevapi-crudoperationskippable.skip.md: 'CrudOperationSkippable::skip »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Інтерфейс CrudOperationSkippable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Інтерфейс CrudOperationSkippable
 
@@ -34,4 +35,4 @@ title: Інтерфейс CrudOperationSkippable
 
 ## Зміст
 
--   [CrudOperationSkippable::skip](mysql-xdevapi-crudoperationskippable.skip.md) - Кількість операцій для пропуску
+-   [CrudOperationSkippable::skip](mysql-xdevapi-crudoperationskippable.skip.md) \- Кількість операцій для пропуску

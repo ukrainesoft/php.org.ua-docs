@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-timestamp.serialize.md: '« MongoDBBSONTimestamp::serialize'
-  - mongodb-bson-timestamp.unserialize.md: 'MongoDBBSONTimestamp::unserialize »'
+  - mongodb-bson-timestamp.serialize.md: '« MongoDB\\BSON\\Timestamp::serialize'
+  - mongodb-bson-timestamp.unserialize.md: 'MongoDB\\BSON\\Timestamp::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-timestamp.md: MongoDBBSONTimestamp
-title: 'MongoDBBSONTimestamp::function toString() { \[native code\] }'
+  - class.mongodb-bson-timestamp.md: MongoDB\\BSON\\Timestamp
+title: 'MongoDB\\BSON\\Timestamp::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONTimestamp::function toString() { \[native code\] }
+# MongoDB\\BSON\\Timestamp::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.0.0)
 
-MongoDBBSONTimestamp::toString — Повертає строкову виставу Timestamp
+MongoDB\\BSON\\Timestamp::\_\_toString — Повертає строкову виставу Timestamp
 
 ### Опис
 
@@ -28,7 +29,7 @@ final public MongoDB\BSON\Timestamp::__toString(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBBSONTimestamp::toString()****
+**Пример #1 Пример использования**MongoDB\\BSON\\Timestamp::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump((string) $timestamp);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(11) "[1234:5678]"
@@ -47,4 +48,4 @@ string(11) "[1234:5678]"
 
 ### Дивіться також
 
--   [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)
+-   [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)

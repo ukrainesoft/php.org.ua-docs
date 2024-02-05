@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: defined
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # defined
 
@@ -20,9 +21,11 @@ defined(string $constant_name): bool
 
 Перевіряє існування та наявність значення зазначеної константи.
 
-> **Зауваження**
+Функція також працює з [константами класів](language.oop5.constants.md) і [переліками](language.types.enumerations.md)
+
+> **Зауваження** :
 > 
-> Якщо необхідно дізнатися про існування змінної, використовуйте [isset()](function.isset.md), так як **defined()** застосовна лише для [констант](language.constants.md). Якщо вам необхідно дізнатися про існування функції, використовуйте [functionexists()](function.function-exists.md)
+> Якщо необхідно дізнатися про існування змінної, використовуйте [isset()](function.isset.md), так как\*\*defined()\*\*применима лишь для[констант](language.constants.md). Якщо вам необхідно дізнатися про існування функції, використовуйте [function\_exists()](function.function-exists.md)
 
 ### Список параметрів
 
@@ -32,7 +35,7 @@ defined(string $constant_name): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо іменована константа, зазначена у параметрі `constant_name`, була визначена, **`false`** в іншому випадку.
+Повертає **`true`**, если именованная константа, указанная в параметре`constant_name`, була визначена, **`false`** в іншому випадку.
 
 ### Приклади
 
@@ -45,13 +48,43 @@ defined(string $constant_name): bool
 if (defined('TEST')) {
     echo TEST;
 }
+
+interface bar {
+    const test = 'foobar!';
+}
+
+class foo {
+    const test = 'foobar!';
+}
+
+var_dump(defined('bar::test')); // bool(true)
+var_dump(defined('foo::test')); // bool(true)
+
+?>
+```
+
+**Приклад #2 Перевірка варіантів перерахування (починаючи з PHP 8.1.0)**
+
+```php
+<?php
+
+enum Suit
+{
+    case Hearts;
+    case Diamonds;
+    case Clubs;
+    case Spades;
+}
+
+var_dump(defined('Suit::Hearts')); // bool(true)
+
 ?>
 ```
 
 ### Дивіться також
 
--   [define()](function.define.md) - визначає іменовану константу
--   [constant()](function.constant.md) - Повертає значення константи
--   [getdefinedconstants()](function.get-defined-constants.md) - Повертає асоціативний масив з іменами всіх констант та їх значень
--   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена
--   Дивіться розділ [Константи](language.constants.md)
+-   [define()](function.define.md) \- визначає іменовану константу
+-   [constant()](function.constant.md) \- Повертає значення константи
+-   [get\_defined\_constants()](function.get-defined-constants.md) \- Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [function\_exists()](function.function-exists.md) \- Повертає true, якщо вказана функція визначена
+-   Смотрите раздел [Константи](language.constants.md)

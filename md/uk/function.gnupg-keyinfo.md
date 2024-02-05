@@ -1,28 +1,29 @@
 ---
 navigation:
-  - function.gnupg-init.md: « gnupginit
-  - function.gnupg-listsignatures.md: gnupglistsignatures »
+  - function.gnupg-init.md: « gnupg\_init
+  - function.gnupg-listsignatures.md: gnupg\_listsignatures »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupgkeyinfo
+title: gnupg\_keyinfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupgkeyinfo
+# gnupg\_keyinfo
 
 (PECL gnupg >= 0.1)
 
-gnupgkeyinfo — Повертає масив з інформацією про всі ключі, які відповідають заданому шаблону
+gnupg\_keyinfo — Повертає масив з інформацією про всі ключі, які відповідають заданому шаблону
 
 ### Опис
 
 ```methodsynopsis
-gnupg_keyinfo(resource $identifier, string $pattern): array
+gnupg_keyinfo(resource $identifier, string $pattern): array|false
 ```
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 `pattern`
 
@@ -30,11 +31,11 @@ gnupg_keyinfo(resource $identifier, string $pattern): array
 
 ### Значення, що повертаються
 
-Повертає масив з інформацією про всі ключі, які відповідають заданому шаблону або **`false`** у разі виникнення помилки.
+Повертає масив з інформацією про всі ключі, які відповідають заданому шаблону або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupgkeyinfo()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_keyinfo()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($info);
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupgkeyinfo()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_keyinfo()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

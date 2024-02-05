@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-dens-normal.md: « statsdensnormal
-  - function.stats-dens-pmf-hypergeometric.md: statsdenspmfhypergeometric »
+  - function.stats-dens-normal.md: « stats\_dens\_normal
+  - function.stats-dens-pmf-hypergeometric.md: stats\_dens\_pmf\_hypergeometric »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsdenspmfbinomial
+title: stats\_dens\_pmf\_binomial
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsdenspmfbinomial
+# stats\_dens\_pmf\_binomial
 
 (PECL stats >= 1.0.0)
 
-statsdenspmfbinomial - Імовірнісний захід біномінального розподілу
+stats\_dens\_pmf\_binomial - Імовірнісний захід біномінального розподілу
 
 ### Опис
 
@@ -18,7 +19,7 @@ statsdenspmfbinomial - Імовірнісний захід біноміналь�
 stats_dens_pmf_binomial(float $x, float $n, float $pi): float
 ```
 
-Повертає щільність ймовірності для `x`, де `n` і `pi` є кількістю спроб та коефіцієнтом успішності відповідно.
+Повертає щільність ймовірності для `x`, где`n`и`pi` є кількістю спроб та коефіцієнтом успішності відповідно.
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ stats_dens_pmf_binomial(float $x, float $n, float $pi): float
 
 ### Значення, що повертаються
 
-Імовірнісний захід для `x` або **`false`** у разі виникнення помилки.
+Імовірнісний захід для `x`или\*\*`false`\*\*в случае возникновения ошибки.

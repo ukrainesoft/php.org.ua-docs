@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-client.send.md: '« SwooleClient::send'
-  - swoole-client.sendto.md: 'SwooleClient::sendto »'
+  - swoole-client.send.md: '« Swoole\\Client::send'
+  - swoole-client.sendto.md: 'Swoole\\Client::sendto »'
   - index.md: PHP Manual
-  - class.swoole-client.md: SwooleClient
-title: 'SwooleClient::sendfile'
+  - class.swoole-client.md: Swoole\\Client
+title: 'Swoole\\Client::sendfile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleClient::sendfile
+# Swoole\\Client::sendfile
 
 (PECL swoole >= 1.9.0)
 
-SwooleClient::sendfile — Надсилає файл у віддалений TCP-сокет
+Swoole\\Client::sendfile — Надсилає файл у віддалений TCP-сокет
 
 ### Опис
 

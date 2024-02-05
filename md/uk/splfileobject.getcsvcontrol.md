@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::getCsvControl'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileObject::getCsvControl
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 SplFileObject::getCsvControl — Отримує символи роздільника, обгортання та екранування для CSV
 
@@ -30,14 +31,14 @@ public SplFileObject::getCsvControl(): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Як символ екранування можна використовувати порожній рядок. |
-|  | Доданий символ екранування до результуючого масиву. |
+| 7.4.0 | Як символ екранування можна використовувати порожній рядок. |
+| 7.0.10 | Доданий символ екранування до результуючого масиву. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileObject::getCsvControl()****
+**Пример #1 Пример использования**SplFileObject::getCsvControl()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ print_r($file->getCsvControl());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -59,5 +60,5 @@ Array
 
 ### Дивіться також
 
--   [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md) - Встановлює символи роздільника, обгортання та екранування для CSV
--   [SplFileObject::fgetcsv()](splfileobject.fgetcsv.md) - Отримати рядок із файлу та його розбір як поля CSV
+-   [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md) \- Встановлює символи роздільника, обгортання та екранування для CSV
+-   [SplFileObject::fgetcsv()](splfileobject.fgetcsv.md) \- Отримати рядок із файлу та його розбір як поля CSV

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.db2-tables.md: « db2tables
-  - mongodb.setup.md: Встановлення та налаштування »
+  - function.db2-tables.md: « db2\_tables
+  - mongodb.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
 title: Драйвер MongoDB
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Драйвер MongoDB
 
-Цей модуль розроблено на основі бібліотек [» libmongoc](https://github.com/mongodb/mongo-c-driver) і [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson). Він надає мінімальне API для ключового функціоналу драйвера: [команди](class.mongodb-driver-command.md) [запити](class.mongodb-driver-query.md) [записи](class.mongodb-driver-bulkwrite.md) [управление соединением](class.mongodb-driver-manager.md) і [сериализация BSON](book.bson.md)
+Цей модуль розроблено на основі бібліотек [» libmongoc](https://github.com/mongodb/mongo-c-driver) і [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)Он предоставляет минимальное API для ключевого функционала драйвера:[команди](class.mongodb-driver-command.md) [запити](class.mongodb-driver-query.md) [записи](class.mongodb-driver-bulkwrite.md) [управління з'єднанням](class.mongodb-driver-manager.md) і [серіалізація BSON](book.bson.md)
 
-Саморобні бібліотеки PHP, що вимагають цей модуль, можуть надавати високорівневі API, такі як: збирачі запитів, методи-помічники для індивідуальних команд та GridFS. Розробники додатків повинні розглянути питання щодо використання цього модуля спільно з [» библиотекой MongoDB PHP](https://github.com/mongodb/mongo-php-library), яка реалізує такі ж високорівневі драйвери API MongoDB, як і для інших мов. Подібний поділ завдань дозволяє цьому драйверу сконцентруватися на головних завданнях, що стоять перед ним – підвищення продуктивності.
+Саморобні бібліотеки PHP, що вимагають цей модуль, можуть надавати високорівневі API, такі як: збирачі запитів, методи-помічники для індивідуальних команд та GridFS. Розробники додатків повинні розглянути питання щодо використання цього модуля спільно з [» бібліотекою MongoDB PHP](https://github.com/mongodb/mongo-php-library)яка реалізує такі ж високорівневі API драйвера MongoDB, як і для інших мов. Подібний поділ завдань дозволяє цьому драйверу сконцентруватися на головних завданнях, що стоять перед ним – підвищення продуктивності.
 
 -   [Встановлення та налаштування](mongodb.setup.md)
     -   [Вимоги](mongodb.requirements.md)
@@ -18,94 +19,98 @@ title: Драйвер MongoDB
     -   [Налаштування під час виконання](mongodb.configuration.md)
     -   [Обумовлені константи](mongodb.constants.md)
 -   [Навчальні матеріали](mongodb.tutorial.md)
-    -   [Использование библиотеки PHP для MongoDB (PHPLIB)](mongodb.tutorial.library.md)
+    -   [Робота бібліотеки PHP із драйвером MongoDB (PHPLIB)](mongodb.tutorial.library.md)
     -   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)
--   [Архитектура и внутреннее устройство драйвера](mongodb.architecture.md) — Огляд архітектури драйвера та її особливостей
-    -   [Архитектура](mongodb.overview.md) - Огляд архітектури
-    -   [Соединения](mongodb.connection-handling.md) — Обробка з'єднання та сталість
-    -   [Постійні дані](mongodb.persistence.md) — Серіалізація та десеріалізація змінних PHP у MongoDB
+-   [Архітектура та внутрішній пристрій драйвера](mongodb.architecture.md)— Огляд архітектури драйвера та її особливостей
+    -   [Архітектура](mongodb.overview.md) \- Огляд архітектури
+    -   [З'єднання](mongodb.connection-handling.md)— Обробка з'єднання та сталість
+    -   [Постійні дані](mongodb.persistence.md)— Серіалізація та десеріалізація змінних PHP у MongoDB
 -   [Безпека](mongodb.security.md)
     -   [Атака за допомогою ін'єкцій у запиті](mongodb.security.request_injection.md)
     -   [Атака за допомогою ін'єкцій у скриптах](mongodb.security.script_injection.md)
--   [MongoDBDriver](book.mongodb.md) - Класи драйвера MongoDB
-    -   [MongoDBDriverManager](class.mongodb-driver-manager.md) - Клас MongoDBDriverManager
-    -   [MongoDBDriverCommand](class.mongodb-driver-command.md) - Клас The MongoDBDriverCommand
-    -   [MongoDBDriverQuery](class.mongodb-driver-query.md) - Клас MongoDBDriverQuery
-    -   [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md) - Клас MongoDBDriverBulkWrite
-    -   [MongoDBDriverSession](class.mongodb-driver-session.md) - Клас MongoDBDriverSession
-    -   [MongoDBDriverClientEncryption](class.mongodb-driver-clientencryption.md) - Клас MongoDBDriverClientEncryption
-    -   [MongoDBDriverServerApi](class.mongodb-driver-serverapi.md) - Клас MongoDBDriverServerApi
-    -   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md) - Клас MongoDBDriverWriteConcern
-    -   [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md) - Клас MongoDBDriverReadPreference
-    -   [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md) - Клас MongoDBDriverReadConcern
-    -   [MongoDBDriverCursor](class.mongodb-driver-cursor.md) - Клас MongoDBDriverCursor
-    -   [MongoDBDriverCursorId](class.mongodb-driver-cursorid.md) - Клас MongoDBDriverCursorId
-    -   [MongoDBDriverCursorInterface](class.mongodb-driver-cursorinterface.md) - Інтерфейс MongoDBDriverCursorInterface
-    -   [MongoDBDriverServer](class.mongodb-driver-server.md) - Клас MongoDBDriverServer
-    -   [MongoDBDriverServerDescription](class.mongodb-driver-serverdescription.md) - Клас MongoDBDriverServerDescription
-    -   [MongoDBDriverTopologyDescription](class.mongodb-driver-topologydescription.md) - Клас MongoDBDriverTopologyDescription
-    -   [MongoDBDriverWriteConcernError](class.mongodb-driver-writeconcernerror.md) - Клас The MongoDBDriverWriteConcernError
-    -   [MongoDBDriverWriteError](class.mongodb-driver-writeerror.md) - Клас MongoDBDriverWriteError
-    -   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md) - Клас MongoDBDriverWriteResult
--   [MongoDBBSON](book.bson.md) — Класи типів BSON та функції серіалізації
+-   [MongoDB\\Driver](book.mongodb.md) \- Класи драйвера MongoDB
+    -   [MongoDB\\Driver\\Manager](class.mongodb-driver-manager.md) \- Клас MongoDB\\Driver\\Manager
+    -   [MongoDB\\Driver\\Command](class.mongodb-driver-command.md) \- Клас The MongoDB\\Driver\\Command
+    -   [MongoDB\\Driver\\Query](class.mongodb-driver-query.md) \- Клас MongoDB\\Driver\\Query
+    -   [MongoDB\\Driver\\BulkWrite](class.mongodb-driver-bulkwrite.md) \- Клас MongoDB\\Driver\\BulkWrite
+    -   [MongoDB\\Driver\\Session](class.mongodb-driver-session.md) \- Клас MongoDB\\Driver\\Session
+    -   [MongoDB\\Driver\\ClientEncryption](class.mongodb-driver-clientencryption.md) \- Клас MongoDB\\Driver\\ClientEncryption
+    -   [MongoDB\\Driver\\ServerApi](class.mongodb-driver-serverapi.md) \- Клас MongoDB\\Driver\\ServerApi
+    -   [MongoDB\\Driver\\WriteConcern](class.mongodb-driver-writeconcern.md) \- Клас MongoDB\\Driver\\WriteConcern
+    -   [MongoDB\\Driver\\ReadPreference](class.mongodb-driver-readpreference.md) \- Клас MongoDB\\Driver\\ReadPreference
+    -   [MongoDB\\Driver\\ReadConcern](class.mongodb-driver-readconcern.md) \- Клас MongoDB\\Driver\\ReadConcern
+    -   [MongoDB\\Driver\\Cursor](class.mongodb-driver-cursor.md) \- Клас MongoDB\\Driver\\Cursor
+    -   [MongoDB\\Driver\\CursorId](class.mongodb-driver-cursorid.md) \- Клас MongoDB\\Driver\\CursorId
+    -   [MongoDB\\Driver\\CursorInterface](class.mongodb-driver-cursorinterface.md) \- Інтерфейс MongoDB\\Driver\\CursorInterface
+    -   [MongoDB\\Driver\\Server](class.mongodb-driver-server.md) \- Клас MongoDB\\Driver\\Server
+    -   [MongoDB\\Driver\\ServerDescription](class.mongodb-driver-serverdescription.md) \- Клас MongoDB\\Driver\\ServerDescription
+    -   [MongoDB\\Driver\\TopologyDescription](class.mongodb-driver-topologydescription.md) \- Клас MongoDB\\Driver\\TopologyDescription
+    -   [MongoDB\\Driver\\WriteConcernError](class.mongodb-driver-writeconcernerror.md) \- Клас The MongoDB\\Driver\\WriteConcernError
+    -   [MongoDB\\Driver\\WriteError](class.mongodb-driver-writeerror.md) \- Клас MongoDB\\Driver\\WriteError
+    -   [MongoDB\\Driver\\WriteResult](class.mongodb-driver-writeresult.md) \- Клас MongoDB\\Driver\\WriteResult
+-   [MongoDB\\BSON](book.bson.md)— Класи типів BSON та функції серіалізації
     -   [Функції](ref.bson.functions.md)
-    -   [MongoDBBSONBinary](class.mongodb-bson-binary.md) - Клас MongoDBBSONBinary
-    -   [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.md) - Клас MongoDBBSONDecimal128
-    -   [MongoDBBSONJavascript](class.mongodb-bson-javascript.md) - Клас MongoDBBSONJavascript
-    -   [MongoDBBSONMaxKey](class.mongodb-bson-maxkey.md) - Клас MongoDBBSONMaxKey
-    -   [MongoDBBSONMinKey](class.mongodb-bson-minkey.md) - Клас MongoDBBSONMinKey
-    -   [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) - Клас MongoDBBSONObjectId
-    -   [MongoDBBSONRegex](class.mongodb-bson-regex.md) - Клас MongoDBBSONRegex
-    -   [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.md) - Клас MongoDBBSONTimestamp
-    -   [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.md) - Клас MongoDBBSONUTCDateTime
-    -   [MongoDBBSONType](class.mongodb-bson-type.md) - Інтерфейс MongoDBBSONType
-    -   [MongoDBBSONPersistable](class.mongodb-bson-persistable.md) - Інтерфейс MongoDBBSONPersistable
-    -   [MongoDBBSONSerializable](class.mongodb-bson-serializable.md) - Інтерфейс MongoDBBSONSerializable
-    -   [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.md) - Інтерфейс MongoDBBSONUnserializable
-    -   [MongoDBBSONBinaryInterface](class.mongodb-bson-binaryinterface.md) - Інтерфейс MongoDBBSONBinaryInterface
-    -   [MongoDBBSONDecimal128Interface](class.mongodb-bson-decimal128interface.md) - Інтерфейс MongoDBBSONDecimal128Interface
-    -   [MongoDBBSONJavascriptInterface](class.mongodb-bson-javascriptinterface.md) - Інтерфейс MongoDBBSONJavascriptInterface
-    -   [MongoDBBSONMaxKeyInterface](class.mongodb-bson-maxkeyinterface.md) - Інтерфейс MongoDBBSONMaxKeyInterface
-    -   [MongoDBBSONMinKeyInterface](class.mongodb-bson-minkeyinterface.md) - Інтерфейс MongoDBBSONMinKeyInterface
-    -   [MongoDBBSONObjectIdInterface](class.mongodb-bson-objectidinterface.md) - Інтерфейс MongoDBBSONObjectIdInterface
-    -   [MongoDBBSONRegexInterface](class.mongodb-bson-regexinterface.md) - Інтерфейс MongoDBBSONRegexInterface
-    -   [MongoDBBSONTimestampInterface](class.mongodb-bson-timestampinterface.md) - Інтерфейс MongoDBBSONTimestampInterface
-    -   [MongoDBBSONUTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.md) - Інтерфейс MongoDBBSONUTCDateTimeInterface
-    -   [MongoDBBSONDBPointer](class.mongodb-bson-dbpointer.md) - Клас MongoDBBSONDBPointer (застарілий)
-    -   [MongoDBBSONInt64](class.mongodb-bson-int64.md) - Клас MongoDBBSONInt64
-    -   [MongoDBBSONSymbol](class.mongodb-bson-symbol.md) - Клас MongoDBBSONSymbol (застарілий)
-    -   [MongoDBBSONUndefined](class.mongodb-bson-undefined.md) - Клас MongoDBBSONUndefined (застаріло)
--   [MongoDBDriverMonitoring](mongodb.monitoring.md) — Класи моніторингу та функції передплатника
+    -   [MongoDB\\BSON\\Document](class.mongodb-bson-document.md) \- Клас MongoDB\\BSON\\Document
+    -   [MongoDB\\BSON\\PackedArray](class.mongodb-bson-packedarray.md) \- Клас MongoDB\\BSON\\PackedArray
+    -   [MongoDB\\BSON\\Iterator](class.mongodb-bson-iterator.md) \- Клас MongoDB\\BSON\\Iterator
+    -   [MongoDB\\BSON\\Binary](class.mongodb-bson-binary.md) \- Клас MongoDB\\BSON\\Binary
+    -   [MongoDB\\BSON\\Decimal128](class.mongodb-bson-decimal128.md) \- Клас MongoDB\\BSON\\Decimal128
+    -   [MongoDB\\BSON\\Javascript](class.mongodb-bson-javascript.md) \- Клас MongoDB\\BSON\\Javascript
+    -   [MongoDB\\BSON\\MaxKey](class.mongodb-bson-maxkey.md) \- Клас MongoDB\\BSON\\MaxKey
+    -   [MongoDB\\BSON\\MinKey](class.mongodb-bson-minkey.md) \- Клас MongoDB\\BSON\\MinKey
+    -   [MongoDB\\BSON\\ObjectId](class.mongodb-bson-objectid.md) \- Клас MongoDB\\BSON\\ObjectId
+    -   [MongoDB\\BSON\\Regex](class.mongodb-bson-regex.md) \- Клас MongoDB\\BSON\\Regex
+    -   [MongoDB\\BSON\\Timestamp](class.mongodb-bson-timestamp.md) \- Клас MongoDB\\BSON\\Timestamp
+    -   [MongoDB\\BSON\\UTCDateTime](class.mongodb-bson-utcdatetime.md) \- Клас MongoDB\\BSON\\UTCDateTime
+    -   [MongoDB\\BSON\\Type](class.mongodb-bson-type.md) \- Інтерфейс MongoDB\\BSON\\Type
+    -   [MongoDB\\BSON\\Persistable](class.mongodb-bson-persistable.md) \- Інтерфейс MongoDB\\BSON\\Persistable
+    -   [MongoDB\\BSON\\Serializable](class.mongodb-bson-serializable.md) \- Інтерфейс MongoDB\\BSON\\Serializable
+    -   [MongoDB\\BSON\\Unserializable](class.mongodb-bson-unserializable.md) \- Інтерфейс MongoDB\\BSON\\Unserializable
+    -   [MongoDB\\BSON\\BinaryInterface](class.mongodb-bson-binaryinterface.md) \- Інтерфейс MongoDB\\BSON\\BinaryInterface
+    -   [MongoDB\\BSON\\Decimal128Interface](class.mongodb-bson-decimal128interface.md) \- Інтерфейс MongoDB\\BSON\\Decimal128Interface
+    -   [MongoDB\\BSON\\JavascriptInterface](class.mongodb-bson-javascriptinterface.md) \- Інтерфейс MongoDB\\BSON\\JavascriptInterface
+    -   [MongoDB\\BSON\\MaxKeyInterface](class.mongodb-bson-maxkeyinterface.md) \- Інтерфейс MongoDB\\BSON\\MaxKeyInterface
+    -   [MongoDB\\BSON\\MinKeyInterface](class.mongodb-bson-minkeyinterface.md) \- Інтерфейс MongoDB\\BSON\\MinKeyInterface
+    -   [MongoDB\\BSON\\ObjectIdInterface](class.mongodb-bson-objectidinterface.md) \- Інтерфейс MongoDB\\BSON\\ObjectIdInterface
+    -   [MongoDB\\BSON\\RegexInterface](class.mongodb-bson-regexinterface.md) \- Інтерфейс MongoDB\\BSON\\RegexInterface
+    -   [MongoDB\\BSON\\TimestampInterface](class.mongodb-bson-timestampinterface.md) \- Інтерфейс MongoDB\\BSON\\TimestampInterface
+    -   [MongoDB\\BSON\\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.md) \- Інтерфейс MongoDB\\BSON\\UTCDateTimeInterface
+    -   [MongoDB\\BSON\\DBPointer](class.mongodb-bson-dbpointer.md) \- Клас MongoDB\\BSON\\DBPointer (застарілий)
+    -   [MongoDB\\BSON\\Int64](class.mongodb-bson-int64.md) \- Клас MongoDB\\BSON\\Int64
+    -   [MongoDB\\BSON\\Symbol](class.mongodb-bson-symbol.md) \- Клас MongoDB\\BSON\\Symbol (застарілий)
+    -   [MongoDB\\BSON\\Undefined](class.mongodb-bson-undefined.md) \- Клас MongoDB\\BSON\\Undefined (застаріло)
+-   [MongoDB\\Driver\\Monitoring](mongodb.monitoring.md)— Класи моніторингу та функції передплатника
     -   [Функції](ref.monitoring.functions.md)
-    -   [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md) - Клас MongoDBDriverMonitoringCommandFailedEvent
-    -   [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md) - Клас MongoDBDriverMonitoringCommandStartedEvent
-    -   [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.md) - Клас MongoDBDriverMonitoringCommandSucceedEvent
-    -   [MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md) - Клас MongoDBDriverMonitoringServerChangedEvent
-    -   [MongoDBDriverMonitoringServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.md) - Клас MongoDBDriverMonitoringServerClosedEvent
-    -   [MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.md) - Клас MongoDBDriverMonitoringServerOpeningEvent
-    -   [MongoDBDriverMonitoringServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md) - Клас MongoDBDriverMonitoringServerHeartbeatFailedEvent
-    -   [MongoDBDriverMonitoringServerHeartbeatStartedEvent](class.mongodb-driver-monitoring-serverheartbeatstartedevent.md) - Клас MongoDBDriverMonitoringServerHeartbeatStartedEvent
-    -   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md) - Клас MongoDBDriverMonitoringServerHeartbeatSucceededEvent
-    -   [MongoDBDriverMonitoringTopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.md) - Клас MongoDBDriverMonitoringTopologyChangedEvent
-    -   [MongoDBDriverMonitoringTopologyClosedEvent](class.mongodb-driver-monitoring-topologyclosedevent.md) - Клас MongoDBDriverMonitoringTopologyClosedEvent
-    -   [MongoDBDriverMonitoringTopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md) - Клас MongoDBDriverMonitoringTopologyOpeningEvent
-    -   [MongoDBDriverMonitoringCommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md) - Інтерфейс The MongoDBDriverMonitoringCommandSubscriber
-    -   [MongoDBDriverMonitoringSDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md) - Інтерфейс MongoDBDriverMonitoringSDAMSubscriber
-    -   [MongoDBDriverMonitoringSubscriber](class.mongodb-driver-monitoring-subscriber.md) - Інтерфейс MongoDBDriverMonitoringSubscriber
--   [MongoDBDriverException](mongodb.exceptions.md) - Класи винятків
-    -   [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.md) - Клас MongoDBDriverExceptionAuthenticationException
-    -   [MongoDBDriverExceptionBulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md) - Клас MongoDBDriverExceptionBulkWriteException
-    -   [MongoDBDriverExceptionCommandException](class.mongodb-driver-exception-commandexception.md) - Клас MongoDBDriverExceptionCommandException
-    -   [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.md) - Клас MongoDBDriverExceptionConnectionException
-    -   [MongoDBDriverExceptionConnectionTimeoutException](class.mongodb-driver-exception-connectiontimeoutexception.md) - Клас MongoDBDriverExceptionConnectionTimeoutException
-    -   [MongoDBDriverExceptionEncryptionException](class.mongodb-driver-exception-encryptionexception.md) - Клас MongoDBDriverExceptionEncryptionException
-    -   [MongoDBDriverExceptionException](class.mongodb-driver-exception-exception.md) - Інтерфейс MongoDBDriverExceptionException
-    -   [MongoDBDriverExceptionExecutionTimeoutException](class.mongodb-driver-exception-executiontimeoutexception.md) - Клас MongoDBDriverExceptionExecutionTimeoutException
-    -   [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) - Клас MongoDBDriverExceptionInvalidArgumentException
-    -   [MongoDBDriverExceptionLogicException](class.mongodb-driver-exception-logicexception.md) - Клас MongoDBDriverExceptionLogicException
-    -   [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md) - Клас MongoDBDriverExceptionRuntimeException
-    -   [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.md) - Клас MongoDBDriverExceptionServerException
-    -   [MongoDBDriverExceptionSSLConnectionException](class.mongodb-driver-exception-sslconnectionexception.md) - Клас MongoDBDriverExceptionSSLConnectionException (застарілий)
-    -   [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) - Клас MongoDBDriverExceptionUnexpectedValueException
-    -   [MongoDBDriverExceptionWriteException](class.mongodb-driver-exception-writeexception.md) - Клас MongoDBDriverExceptionWriteException
-    -   [Class Tree](mongodb.exceptions.tree.md) - MongoDB Exception Class Tree
+    -   [MongoDB\\Driver\\Monitoring\\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md) \- Клас MongoDB\\Driver\\Monitoring\\CommandFailedEvent
+    -   [MongoDB\\Driver\\Monitoring\\CommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md) \- Клас MongoDB\\Driver\\Monitoring\\CommandStartedEvent
+    -   [MongoDB\\Driver\\Monitoring\\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.md) \- Клас MongoDB\\Driver\\Monitoring\\CommandSucceededEvent
+    -   [MongoDB\\Driver\\Monitoring\\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md) \- Клас MongoDB\\Driver\\Monitoring\\ServerChangedEvent
+    -   [MongoDB\\Driver\\Monitoring\\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.md) \- Клас MongoDB\\Driver\\Monitoring\\ServerClosedEvent
+    -   [MongoDB\\Driver\\Monitoring\\ServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.md) \- Клас MongoDB\\Driver\\Monitoring\\ServerOpeningEvent
+    -   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md) \- Клас MongoDB\\Driver\\Monitoring\\ServerHeartbeatFailedEvent
+    -   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent](class.mongodb-driver-monitoring-serverheartbeatstartedevent.md) \- Клас MongoDB\\Driver\\Monitoring\\ServerHeartbeatStartedEvent
+    -   [MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md) \- Клас MongoDB\\Driver\\Monitoring\\ServerHeartbeatSucceededEvent
+    -   [MongoDB\\Driver\\Monitoring\\TopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.md) \- Клас MongoDB\\Driver\\Monitoring\\TopologyChangedEvent
+    -   [MongoDB\\Driver\\Monitoring\\TopologyClosedEvent](class.mongodb-driver-monitoring-topologyclosedevent.md) \- Клас MongoDB\\Driver\\Monitoring\\TopologyClosedEvent
+    -   [MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md) \- Клас MongoDB\\Driver\\Monitoring\\TopologyOpeningEvent
+    -   [MongoDB\\Driver\\Monitoring\\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md) \- Інтерфейс The MongoDB\\Driver\\Monitoring\\CommandSubscriber
+    -   [MongoDB\\Driver\\Monitoring\\LogSubscriber](class.mongodb-driver-monitoring-logsubscriber.md) \- Інтерфейс MongoDB\\Driver\\Monitoring\\LogSubscriber
+    -   [MongoDB\\Driver\\Monitoring\\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md) \- Інтерфейс MongoDB\\Driver\\Monitoring\\SDAMSubscriber
+    -   [MongoDB\\Driver\\Monitoring\\Subscriber](class.mongodb-driver-monitoring-subscriber.md) \- Інтерфейс MongoDB\\Driver\\Monitoring\\Subscriber
+-   [MongoDB\\Driver\\Exception](mongodb.exceptions.md) \- Класи винятків
+    -   [MongoDB\\Driver\\Exception\\AuthenticationException](class.mongodb-driver-exception-authenticationexception.md) \- Клас MongoDB\\Driver\\Exception\\AuthenticationException
+    -   [MongoDB\\Driver\\Exception\\BulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md) \- Клас MongoDB\\Driver\\Exception\\BulkWriteException
+    -   [MongoDB\\Driver\\Exception\\CommandException](class.mongodb-driver-exception-commandexception.md) \- Клас MongoDB\\Driver\\Exception\\CommandException
+    -   [MongoDB\\Driver\\Exception\\ConnectionException](class.mongodb-driver-exception-connectionexception.md) \- Клас MongoDB\\Driver\\Exception\\ConnectionException
+    -   [MongoDB\\Driver\\Exception\\ConnectionTimeoutException](class.mongodb-driver-exception-connectiontimeoutexception.md) \- Клас MongoDB\\Driver\\Exception\\ConnectionTimeoutException
+    -   [MongoDB\\Driver\\Exception\\EncryptionException](class.mongodb-driver-exception-encryptionexception.md) \- Клас MongoDB\\Driver\\Exception\\EncryptionException
+    -   [MongoDB\\Driver\\Exception\\Exception](class.mongodb-driver-exception-exception.md) \- Інтерфейс MongoDB\\Driver\\Exception\\Exception
+    -   [MongoDB\\Driver\\Exception\\ExecutionTimeoutException](class.mongodb-driver-exception-executiontimeoutexception.md) \- Клас MongoDB\\Driver\\Exception\\ExecutionTimeoutException
+    -   [MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) \- Клас MongoDB\\Driver\\Exception\\InvalidArgumentException
+    -   [MongoDB\\Driver\\Exception\\LogicException](class.mongodb-driver-exception-logicexception.md) \- Клас MongoDB\\Driver\\Exception\\LogicException
+    -   [MongoDB\\Driver\\Exception\\RuntimeException](class.mongodb-driver-exception-runtimeexception.md) \- Клас MongoDB\\Driver\\Exception\\RuntimeException
+    -   [MongoDB\\Driver\\Exception\\ServerException](class.mongodb-driver-exception-serverexception.md) \- Клас MongoDB\\Driver\\Exception\\ServerException
+    -   [MongoDB\\Driver\\Exception\\SSLConnectionException](class.mongodb-driver-exception-sslconnectionexception.md) \- Клас MongoDB\\Driver\\Exception\\SSLConnectionException (застарілий)
+    -   [MongoDB\\Driver\\Exception\\UnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) \- Клас MongoDB\\Driver\\Exception\\UnexpectedValueException
+    -   [MongoDB\\Driver\\Exception\\WriteException](class.mongodb-driver-exception-writeexception.md) \- Клас MongoDB\\Driver\\Exception\\WriteException
+    -   [Class Tree](mongodb.exceptions.tree.md)— MongoDB Exception Class Tree

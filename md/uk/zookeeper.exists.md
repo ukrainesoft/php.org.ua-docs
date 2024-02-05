@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::exists'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zookeeper::exists
 
@@ -43,7 +44,7 @@ public
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Zookeeper::exists()****
+**Пример #1 Пример использования**Zookeeper::exists()\*\*\*\*
 
 Перевірте наявність вузла.
 
@@ -59,7 +60,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Существет
@@ -67,5 +68,5 @@ else
 
 ### Дивіться також
 
--   [Zookeeper::get()](zookeeper.get.md) - Синхронно отримує дані, пов'язані з вузлом
+-   [Zookeeper::get()](zookeeper.get.md) \- Синхронно отримує дані, пов'язані з вузлом
 -   [ZookeeperException](class.zookeeperexception.md)

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.eio-chmod.md: « eiochmod
-  - function.eio-close.md: eioclose »
+  - function.eio-chmod.md: « eio\_chmod
+  - function.eio-close.md: eio\_close »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiochown
+  - ref.eio.md: Eio Функції
+title: eio\_chown
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiochown
+# eio\_chown
 
 (PECL eio >= 0.0.1dev)
 
-eiochown — Змінює права доступу до файлу/директорії
+eio\_chown — Змінює права доступу до файлу/директорії
 
 ### Опис
 
 ```methodsynopsis
-eio_chown(    string $path,    int $uid,    int $gid = -1,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_chown(    string $path,    int $uid,    int $gid = -1,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 Змінює права доступу до файлу/директорії.
@@ -40,11 +41,11 @@ eio_chown(    string $path,    int $uid,    int $gid = -1,    int $pri = EIO_PRI
 
 `pri`
 
-Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, або **`null`**. Якщо передано **`null`**, то `pri` встановлюється в **`EIO_PRI_DEFAULT`**
+Пріоритет запитів: **`EIO_PRI_DEFAULT`** **`EIO_PRI_MIN`** **`EIO_PRI_MAX`**, или\*\*`null`**. Якщо передано **`null`**, то`pri`устанавливается в**`EIO_PRI_DEFAULT`\*\*
 
 `callback`
 
-Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
+Функция`callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
 void callback(mixed $data, int $result[, resource $req]);
@@ -60,16 +61,16 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eio\_get\_last\_error()](function.eio-get-last-error.md)
 
 `data`
 
-Довільна змінна, що передається в `callback`функцію.
+Произвольная переменная, передаваемая в`callback`\-функцію.
 
 ### Значення, що повертаються
 
-**eiochown()** повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки.
+**eio\_chown()** повертає покажчик на запит у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [eiochmod()](function.eio-chmod.md) - Змінює права доступу до файлу/директорії
+-   [eio\_chmod()](function.eio-chmod.md) \- Змінює права доступу до файлу/директорії

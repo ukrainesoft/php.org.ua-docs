@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-tab.delete.md: '« UIControlsTab::delete'
-  - ui-controls-tab.insertat.md: 'ОЙControlsTab::insertAt »'
+  - ui-controls-tab.delete.md: '« UI\\Controls\\Tab::delete'
+  - ui-controls-tab.insertat.md: 'UI\\Controls\\Tab::insertAt »'
   - index.md: PHP Manual
-  - class.ui-controls-tab.md: ОЙControlsTab
-title: 'ОЙControlsTab::hasMargin'
+  - class.ui-controls-tab.md: UI\\Controls\\Tab
+title: 'UI\\Controls\\Tab::hasMargin'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsTab::hasMargin
+# UI\\Controls\\Tab::hasMargin
 
 (UI 0.9.9)
 
-ОЙControlsTab::hasMargin — Визначення поля
+UI\\Controls\\Tab::hasMargin — Визначення поля
 
 ### Опис
 

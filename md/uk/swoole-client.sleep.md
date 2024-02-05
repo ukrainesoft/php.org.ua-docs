@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-client.set.md: '« SwooleClient::set'
-  - swoole-client.wakeup.md: 'SwooleClient::wakeup »'
+  - swoole-client.set.md: '« Swoole\\Client::set'
+  - swoole-client.wakeup.md: 'Swoole\\Client::wakeup »'
   - index.md: PHP Manual
-  - class.swoole-client.md: SwooleClient
-title: 'SwooleClient::sleep'
+  - class.swoole-client.md: Swoole\\Client
+title: 'Swoole\\Client::sleep'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleClient::sleep
+# Swoole\\Client::sleep
 
 (PECL swoole >= 1.9.0)
 
-SwooleClient::sleep — Видаляє TCP-клієнт із циклу системних подій
+Swoole\\Client::sleep — Видаляє TCP-клієнт із циклу системних подій
 
 ### Опис
 

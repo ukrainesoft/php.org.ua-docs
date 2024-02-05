@@ -1,30 +1,31 @@
 ---
 navigation:
-  - function.imap-createmailbox.md: « imapcreatemailbox
-  - function.imap-deletemailbox.md: imapdeletemailbox »
+  - function.imap-createmailbox.md: « imap\_createmailbox
+  - function.imap-deletemailbox.md: imap\_deletemailbox »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapdelete
+  - ref.imap.md: Функції IMAP
+title: imap\_delete
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapdelete
+# imap\_delete
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapdelete — Позначити повідомлення для видалення
+imap\_delete — Позначає повідомлення для видалення
 
 ### Опис
 
 ```methodsynopsis
-imap_delete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
+imap_delete(IMAP\Connection $imap, string $message_nums, int $flags = 0): true
 ```
 
-Позначає повідомлення, перелічені у `message_nums` для видалення. Позначені повідомлення залишатимуться в скриньці доки не буде викликана функція [imapexpunge()](function.imap-expunge.md), або [imapclose()](function.imap-close.md) із встановленим параметром **`CL_EXPUNGE`**
+Позначає повідомлення, перелічені у `message_nums` для видалення. Позначені повідомлення залишатимуться в скриньці доки не буде викликана функція [imap\_expunge()](function.imap-expunge.md), либо[imap\_close()](function.imap-close.md) із встановленим параметром **`CL_EXPUNGE`**
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.md)
+Екземпляр [IMAP\\Connection](class.imap-connection.md)
 
 `message_nums`
 
@@ -36,17 +37,22 @@ imap_delete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**
+Функція завжди повертає **`true`**
+
+### Помилки
+
+Викидає виняток [ValueError](class.valueerror.md), если значение параметра`flags`недопустимо.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`imap` тепер чекає екземпляр [IMAP\\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `imap` |
+| 8.0.0 | Тепер викидається виняток[ValueError](class.valueerror.md), при неприпустимих значеннях параметра `flags`. . Раніше виникало попередження та функція повертала логічне значення **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **imapdelete()****
+**Пример #1 Пример использования**imap\_delete()\*\*\*\*
 
 ```php
 <?php
@@ -73,12 +79,12 @@ imap_close($mbox);
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Скриньки IMAP можуть не зберігати прапори між з'єднаннями, тому якщо ви дійсно хочете видалити позначені повідомлення, необхідно викликати [imapexpunge()](function.imap-expunge.md) у тому з'єднанні, в якому прапори встановлювалися.
+> Скриньки IMAP можуть не зберігати прапори між з'єднаннями, отже якщо ви дійсно хочете видалити позначені повідомлення, необхідно викликати [imap\_expunge()](function.imap-expunge.md) у тому ж з'єднанні, в якому встановлювалися прапори.
 
 ### Дивіться також
 
--   [imapundelete()](function.imap-undelete.md) - Знімає з повідомлення позначку видалення
--   [imapexpunge()](function.imap-expunge.md) - Видалити всі позначені для видалення повідомлення
--   [imapclose()](function.imap-close.md) - Закрити потік IMAP
+-   [imap\_undelete()](function.imap-undelete.md) \- Знімає з повідомлення позначку видалення
+-   [imap\_expunge()](function.imap-expunge.md) \- Видаляє всі позначені для видалення повідомлення
+-   [imap\_close()](function.imap-close.md) \- Закриває потік IMAP

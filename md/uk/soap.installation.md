@@ -4,8 +4,9 @@ navigation:
   - soap.configuration.md: Налаштування під час виконання »
   - index.md: PHP Manual
   - soap.setup.md: Встановлення та налаштування
-title: Встановлення
+title: Установка
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-## Встановлення
+## Установка
 
-Для включення підтримки SOAP скомпілюйте PHP з опцією **\-enable-soap**
+Для включення підтримки SOAP скомпілюйте PHP з опцією **\--enable-soap**

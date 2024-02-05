@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-label.gettext.md: '« UIControlsLabel::getText'
-  - class.ui-controls-entry.md: ОЙControlsEntry »
+  - ui-controls-label.gettext.md: '« UI\\Controls\\Label::getText'
+  - class.ui-controls-entry.md: UI\\Controls\\Entry »
   - index.md: PHP Manual
-  - class.ui-controls-label.md: ОЙControlsLabel
-title: 'ОЙControlsLabel::setText'
+  - class.ui-controls-label.md: UI\\Controls\\Label
+title: 'UI\\Controls\\Label::setText'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsLabel::setText
+# UI\\Controls\\Label::setText
 
 (UI 0.9.9)
 
-ОЙControlsLabel::setText — Встановити текст
+UI\\Controls\\Label::setText — Встановити текст
 
 ### Опис
 

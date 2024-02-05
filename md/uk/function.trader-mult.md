@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-mom.md: « tradermom
-  - function.trader-natr.md: tradernatr »
+  - function.trader-mom.md: « trader\_mom
+  - function.trader-natr.md: trader\_natr »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradermult
+  - ref.trader.md: Функції Trader
+title: trader\_mult
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradermult
+# trader\_mult
 
 (PECL trader >= 0.2.0)
 
-tradermult — Арифметичний вектор твору
+trader\_mult — Арифметичний вектор твору
 
 ### Опис
 

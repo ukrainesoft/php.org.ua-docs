@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-stack.pop.md: '« DsStack::pop'
-  - ds-stack.toarray.md: 'ДсStack::toArray »'
+  - ds-stack.pop.md: '« Ds\\Stack::pop'
+  - ds-stack.toarray.md: 'Ds\\Stack::toArray »'
   - index.md: PHP Manual
-  - class.ds-stack.md: Стек
-title: 'ДсStack::push'
+  - class.ds-stack.md: Ds\\Stack
+title: 'Ds\\Stack::push'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсStack::push
+# Ds\\Stack::push
 
 (PECL ds >= 1.0.0)
 
-ДсStack::push — Додає значення до стек
+Ds\\Stack::push — Додає значення до стек
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: 'ДсStack::push'
 public Ds\Stack::push(mixed ...$values): void
 ```
 
-Додає значення `values` у стек
+Добавляет значения`values` у стек
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ public Ds\Stack::push(mixed ...$values): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсStack::push()****
+**Пример #1 Пример использования**Ds\\Stack::push()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ print_r($stack);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Stack Object

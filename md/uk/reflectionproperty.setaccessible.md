@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::setAccessible'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionProperty::setAccessible
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ReflectionProperty::setAccessible — Робить властивість доступним
 
@@ -52,7 +53,7 @@ echo $obj->foo;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bar
@@ -61,5 +62,5 @@ Fatal error: Uncaught Error: Cannot access private property MyClass::$foo in /in
 
 ### Дивіться також
 
--   [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.md) - Перевіряє, чи властивість закрита
--   [ReflectionProperty::isProtected()](reflectionproperty.isprotected.md) - Перевіряє, чи властивість захищена
+-   [ReflectionProperty::isPrivate()](reflectionproperty.isprivate.md) \- Перевіряє, чи властивість закрита
+-   [ReflectionProperty::isProtected()](reflectionproperty.isprotected.md) \- Перевіряє, чи властивість захищена

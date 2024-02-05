@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlbelthold.md: « tradercdlbelthold
-  - function.trader-cdlclosingmarubozu.md: tradercdlclosingmarubozu »
+  - function.trader-cdlbelthold.md: « trader\_cdlbelthold
+  - function.trader-cdlclosingmarubozu.md: trader\_cdlclosingmarubozu »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlbreakaway
+  - ref.trader.md: Функції Trader
+title: trader\_cdlbreakaway
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlbreakaway
+# trader\_cdlbreakaway
 
 (PECL trader >= 0.2.0)
 
-tradercdlbreakaway - Відрив
+trader\_cdlbreakaway - Відрив
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlbreakaway(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlbreakaway(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

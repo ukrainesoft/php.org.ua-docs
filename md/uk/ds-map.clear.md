@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-map.capacity.md: '« DsMap::capacity'
-  - ds-map.construct.md: 'ДсMap::construct »'
+  - ds-map.capacity.md: '« Ds\\Map::capacity'
+  - ds-map.construct.md: 'Ds\\Map::\_\_construct »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::clear'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::clear
+# Ds\\Map::clear
 
 (PECL ds >= 1.0.0)
 
-ДсMap::clear — Видаляє всі значення з колекції
+Ds\\Map::clear — Видаляє всі значення з колекції
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Map::clear(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::clear()****
+**Пример #1 Пример использования**Ds\\Map::clear()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ print_r($map);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Map Object

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-required-files.md: « getrequiredfiles
+  - function.get-required-files.md: « get\_required\_files
   - function.getenv.md: getenv »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: getresources
+title: get\_resources
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getresources
+# get\_resources
 
 (PHP 7, PHP 8)
 
-getresources — Повертає активні ресурси
+get\_resources — Повертає активні ресурси
 
 ### Опис
 
@@ -26,7 +27,7 @@ get_resources(?string $type = null): array
 
 `type`
 
-Якщо поставлено, то **getresources()** поверне лише ресурси зазначеного типу . [Список доступних типів ресурсів.](resource.md)
+Якщо поставлено, то **get\_resources()** поверне лише ресурси зазначеного типу . [Список доступних типів ресурсів.](resource.md)
 
 Якщо як тип заданий рядок `Unknown`, то будуть повернуті лише ресурси невідомого типу.
 
@@ -38,13 +39,13 @@ get_resources(?string $type = null): array
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `type` тепер допускає значення null. |
+| 8.0.0 | `type` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getresources()****
+**Пример #1 Пример использования**get\_resources()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ var_dump(get_resources());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {
@@ -62,7 +63,7 @@ array(1) {
 }
 ```
 
-**Приклад #2 Приклад використання **getresources()** з фільтрацією**
+**Пример #2 Пример использования**get\_resources()\*\* з фільтрацією\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ var_dump(get_resources('curl'));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {
@@ -85,7 +86,7 @@ array(0) {
 
 ### Дивіться також
 
--   [getloadedextensions()](function.get-loaded-extensions.md) - Повертає масив імен усіх скомпілованих та завантажених модулів
--   [getdefinedconstants()](function.get-defined-constants.md) - Повертає асоціативний масив з іменами всіх констант та їх значень
--   [getdefinedfunctions()](function.get-defined-functions.md) - Повертає масив усіх певних функцій
--   [getdefinedvars()](function.get-defined-vars.md) - Повертає масив усіх певних змінних
+-   [get\_loaded\_extensions()](function.get-loaded-extensions.md) \- Повертає масив імен усіх скомпілованих та завантажених модулів
+-   [get\_defined\_constants()](function.get-defined-constants.md) \- Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [get\_defined\_functions()](function.get-defined-functions.md) \- Повертає масив усіх певних функцій
+-   [get\_defined\_vars()](function.get-defined-vars.md) \- Повертає масив усіх певних змінних

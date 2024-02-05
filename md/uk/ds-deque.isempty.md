@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-deque.insert.md: '« DsDeque::insert'
-  - ds-deque.join.md: 'ДсDeque::join »'
+  - ds-deque.insert.md: '« Ds\\Deque::insert'
+  - ds-deque.join.md: 'Ds\\Deque::join »'
   - index.md: PHP Manual
-  - class.ds-deque.md: Двостороння черга
-title: 'ДсDeque::isEmpty'
+  - class.ds-deque.md: Ds\\Deque
+title: 'Ds\\Deque::isEmpty'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсDeque::isEmpty
+# Ds\\Deque::isEmpty
 
 (PECL ds >= 1.0.0)
 
-ДсDeque::isEmpty — Перевіряє, чи порожня двостороння черга
+Ds\\Deque::isEmpty — Перевіряє, чи порожня двостороння черга
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Deque::isEmpty(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсDeque::isEmpty()****
+**Пример #1 Пример использования**Ds\\Deque::isEmpty()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ var_dump($b->isEmpty());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)

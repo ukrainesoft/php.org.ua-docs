@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3result.md: SQLite3Result
 title: 'SQLite3Result::columnName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3Result::columnName
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-SQLite3Result::columnName — >Повертає ім'я n-ого стовпця
+SQLite3Result::columnName —>Повертає ім'я n-ого стовпця
 
 ### Опис
 
@@ -18,7 +19,7 @@ SQLite3Result::columnName — >Повертає ім'я n-ого стовпця
 public SQLite3Result::columnName(int $column): string|false
 ```
 
-Повертає ім'я стовпця, зазначеного в `column_number`. Зверніть увагу, що ім'я стовпця результату – це значення пропозиції `AS` для цього стовпця, якщо є пропозиція `AS`. Якщо пропозиція `AS` відсутня, тоді ім'я шпальти не вказано і може змінитися з одного випуску libsqlite3 на інший.
+Повертає ім'я стовпця, зазначеного в `column_number`. Зверніть увагу, що ім'я стовпця результату – це значення пропозиції `AS` для цього стовпця, якщо є пропозиція `AS`Если предложение`AS` відсутня, тоді ім'я стовпця не вказано і може змінитися з одного випуску libsqlite3 на інший.
 
 ### Список параметрів
 

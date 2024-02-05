@@ -4,13 +4,14 @@ navigation:
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract »
   - index.md: PHP Manual
   - class.reflectionfunction.md: ReflectionFunction
-title: 'ReflectionFunction::toString'
+title: 'ReflectionFunction::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ReflectionFunction::toString
+# ReflectionFunction::\_\_function toString() { \[native code\] }
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionFunction::toString — Подання у вигляді рядка
+ReflectionFunction::\_\_toString — Повертає строкове представлення об'єкта ReflectionFunction
 
 ### Опис
 
@@ -18,7 +19,7 @@ ReflectionFunction::toString — Подання у вигляді рядка
 public ReflectionFunction::__toString(): string
 ```
 
-Подання у вигляді рядка.
+Отримує рядкове представлення функції, її параметрів та значень, що повертаються.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public ReflectionFunction::__toString(): string
 
 ### Значення, що повертаються
 
-Результат виконання схожий на висновок [ReflectionFunction::export()](reflectionfunction.export.md)
+Метод повертає рядок.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionFunction::toString()****
+**Пример #1 Пример использования**ReflectionFunction::\_\_toString()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ echo new ReflectionFunction('title');
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Function [ <user> function title ] {
@@ -58,5 +59,5 @@ Function [ <user> function title ] {
 
 ### Дивіться також
 
--   [ReflectionFunction::export()](reflectionfunction.export.md) - Експортує функції
--   [toString()](language.oop5.magic.md#object.tostring)
+-   [ReflectionFunction::export()](reflectionfunction.export.md) \- Експортує функції
+-   [\_\_toString()](language.oop5.magic.md#object.tostring)

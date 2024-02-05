@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getNamespaceName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionClass::getNamespaceName
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 ReflectionClass::getNamespaceName — Повертає назву простору імен
 
@@ -30,7 +31,7 @@ public ReflectionClass::getNamespaceName(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionClass::getNamespaceName()****
+**Пример #1 Пример использования**ReflectionClass::getNamespaceName()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +55,7 @@ var_dump($class->getShortName());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -70,5 +71,5 @@ string(3) "Foo"
 
 ### Дивіться також
 
--   [ReflectionClass::getParentClass()](reflectionclass.getparentclass.md) - Повертає батьківський клас
+-   [ReflectionClass::getParentClass()](reflectionclass.getparentclass.md) \- Повертає батьківський клас
 -   [namespaces](language.namespaces.md)

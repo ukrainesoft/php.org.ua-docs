@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::getHash'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplObjectStorage::getHash
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SplObjectStorage::getHash — Обчислює унікальний ідентифікатор об'єктів контейнера
 
@@ -20,7 +21,7 @@ public SplObjectStorage::getHash(object $object): string
 
 Метод обчислює унікальний ідентифікатор для об'єктів, що додаються до контейнера [SplObjectStorage](class.splobjectstorage.md)
 
-Реалізація [SplObjectStorage](class.splobjectstorage.md) повертає те саме значення, що і функція [splobjecthash()](function.spl-object-hash.md)
+Реализация[SplObjectStorage](class.splobjectstorage.md) повертає те саме значення, що і функція [spl\_object\_hash()](function.spl-object-hash.md)
 
 В одному контейнері ніколи не з'явиться два об'єкти з однаковими ідентифікаторами. Таким чином, за допомогою контейнера можна реалізувати безліч (колекцію значень, кожне з яких представлено в єдиному екземплярі), в якому унікальність об'єктів визначатиметься цим ідентифікатором.
 
@@ -40,7 +41,7 @@ public SplObjectStorage::getHash(object $object): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplObjectStorage::getHash()****
+**Пример #1 Пример использования**SplObjectStorage::getHash()\*\*\*\*
 
 ```php
 <?php
@@ -70,7 +71,7 @@ echo $s[$p2], "\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 2
@@ -79,4 +80,4 @@ echo $s[$p2], "\n";
 
 ### Дивіться також
 
--   [splobjecthash()](function.spl-object-hash.md) - Повертає хеш-ідентифікатор для об'єкта
+-   [spl\_object\_hash()](function.spl-object-hash.md) \- Повертає хеш-ідентифікатор для об'єкта

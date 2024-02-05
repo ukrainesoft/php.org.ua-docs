@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cal-from-jd.md: « calfromжд
-  - function.cal-to-jd.md: calтоjd »
+  - function.cal-from-jd.md: « cal\_from\_jd
+  - function.cal-to-jd.md: cal\_to\_jd »
   - index.md: PHP Manual
-  - ref.calendar.md: Календарь
-title: calinfo
+  - ref.calendar.md: Календар
+title: cal\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# calinfo
+# cal\_info
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-calinfo — Повертає інформацію про заданий календар
+cal\_info — Повертає інформацію про заданий календар
 
 ### Опис
 
@@ -18,14 +19,14 @@ calinfo — Повертає інформацію про заданий кале
 cal_info(int $calendar = -1): array
 ```
 
-**calinfo()** повертає інформацію про заданий календар `calendar`
+**cal\_info()** повертає інформацію про заданий календар `calendar`
 
-Інформація про календар повертається у вигляді масиву з елементами `calname` `calsymbol` `month` `abbrevmonth` і `maxdaysinmonth` В якості `calendar` можуть бути використані такі назви календарів:
+Інформація про календар повертається у вигляді масиву з елементами `calname` `calsymbol` `month` `abbrevmonth`и`maxdaysinmonth` В якості `calendar` можуть бути використані такі назви календарів:
 
--   0 або **`CAL_GREGORIAN`** - Григоріанський календар
--   1 або **`CAL_JULIAN`** - Юліанський календар
--   2 or **`CAL_JEWISH`** - Єврейський календар
--   3 or **`CAL_FRENCH`** - Календар з дня Французької революції
+-   0 or\*\*`CAL_GREGORIAN`\*\*- Григоріанський календар
+-   1 or\*\*`CAL_JULIAN`\*\*- Юліанський календар
+-   2 or\*\*`CAL_JEWISH`\*\*- Єврейський календар
+-   3 or\*\*`CAL_FRENCH`\*\*- Календар з дня Французької революції
 
 Якщо параметр `calendar` не заданий, повертається інформація про всі підтримувані календарі у вигляді масиву.
 
@@ -39,7 +40,7 @@ cal_info(int $calendar = -1): array
 
 ### Приклади
 
-**Приклад #1 Приклад **calinfo()****
+**Пример #1 Пример**cal\_info()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ print_r($info);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array

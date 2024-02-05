@@ -1,10 +1,11 @@
 ---
 navigation:
-  - intro.ldap.md: « Введение
+  - intro.ldap.md: '" Вступ'
   - ldap.requirements.md: Вимоги »
   - index.md: PHP Manual
   - book.ldap.md: LDAP
 title: Встановлення та налаштування
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Встановлення та налаштування
 

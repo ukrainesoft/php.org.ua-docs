@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.filesystemiterator.md: FilesystemIterator
 title: 'FilesystemIterator::key'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FilesystemIterator::key
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 FilesystemIterator::key — Визначення ключа поточного файлу
 
@@ -28,7 +29,7 @@ public FilesystemIterator::key(): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **FilesystemIterator::key()****
+**Пример #1 Пример использования**FilesystemIterator::key()\*\*\*\*
 
 Цей приклад виведе список вмісту директорії, в якій розташований скрипт.
 
@@ -41,9 +42,11 @@ foreach ($iterator as $fileinfo) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Результат виконання наведеного прикладу PHP 8.2 аналогічний:
 
 ```
+.
+..
 apple.jpg
 banana.jpg
 example.php
@@ -52,6 +55,6 @@ example.php
 ### Дивіться також
 
 -   [FilesystemIterator constants](class.filesystemiterator.md#filesystemiterator.constants)
--   [DirectoryIterator::key()](directoryiterator.key.md) - Повертає ключ поточного елемента DirectoryIterator
--   [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) - Повертає ім'я файлу поточного елемента DirectoryIterator
--   [DirectoryIterator::getPathname()](directoryiterator.getpathname.md) - Повертає шлях та ім'я файлу поточного елемента DirectoryIterator
+-   [DirectoryIterator::key()](directoryiterator.key.md) \- Повертає ключ для поточного елемента DirectoryIterator
+-   [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) \- Повертає ім'я файлу поточного елемента DirectoryIterator
+-   **DirectoryIterator::getPathname()**

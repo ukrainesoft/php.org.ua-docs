@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.recursiveiterator.md: RecursiveIterator
 title: 'RecursiveIterator::getChildren'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RecursiveIterator::getChildren
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 RecursiveIterator::getChildren — Повертає ітератор до поточного елемента
 
@@ -30,4 +31,4 @@ public RecursiveIterator::getChildren(): ?RecursiveIterator
 
 ### Дивіться також
 
--   [RecursiveIterator::hasChildren()](recursiveiterator.haschildren.md) - Визначає, чи можна створити ітератор для поточного елемента.
+-   [RecursiveIterator::hasChildren()](recursiveiterator.haschildren.md) \- Визначає, чи можна створити ітератор для поточного елемента.

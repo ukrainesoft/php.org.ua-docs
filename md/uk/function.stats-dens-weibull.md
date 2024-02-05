@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stats-dens-uniform.md: « statsdensuniform
-  - function.stats-harmonic-mean.md: statsharmonicmean »
+  - function.stats-dens-uniform.md: « stats\_dens\_uniform
+  - function.stats-harmonic-mean.md: stats\_harmonic\_mean »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statsdensweibull
+title: stats\_dens\_weibull
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statsdensweibull
+# stats\_dens\_weibull
 
 (PECL stats >= 1.0.0)
 
-statsdensweibull - Щільність ймовірності розподілу Вейбулла
+stats\_dens\_weibull - Щільність ймовірності розподілу Вейбулла
 
 ### Опис
 
@@ -18,7 +19,7 @@ statsdensweibull - Щільність ймовірності розподілу 
 stats_dens_weibull(float $x, float $a, float $b): float
 ```
 
-Повертає щільність ймовірності для `x`, де `a` і `b` є параметром форми та масштабним параметром відповідно.
+Повертає щільність ймовірності для `x`, где`a`и`b` є параметром форми та масштабним параметром відповідно.
 
 ### Список параметрів
 
@@ -36,4 +37,4 @@ stats_dens_weibull(float $x, float $a, float $b): float
 
 ### Значення, що повертаються
 
-Щільність ймовірності для `x` або **`false`** у разі виникнення помилки.
+Щільність ймовірності для `x`или\*\*`false`\*\*в случае возникновения ошибки.

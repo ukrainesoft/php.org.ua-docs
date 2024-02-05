@@ -1,21 +1,22 @@
 ---
 navigation:
-  - class.mongodb-driver-serverapi.md: « MongoDBDriverServerApi
-  - mongodb-driver-serverapi.construct.md: 'MongoDBDriverServerApi::construct »'
+  - class.mongodb-driver-serverapi.md: « MongoDB\\Driver\\ServerApi
+  - mongodb-driver-serverapi.construct.md: 'MongoDB\\Driver\\ServerApi::\_\_construct »'
   - index.md: PHP Manual
-  - class.mongodb-driver-serverapi.md: MongoDBDriverServerApi
-title: 'MongoDBDriverServerApi::bsonSerialize'
+  - class.mongodb-driver-serverapi.md: MongoDB\\Driver\\ServerApi
+title: 'MongoDB\\Driver\\ServerApi::bsonSerialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverServerApi::bsonSerialize
+# MongoDB\\Driver\\ServerApi::bsonSerialize
 
 (mongodb >=1.10.0)
 
-MongoDBDriverServerApi::bsonSerialize — Повертає об'єкт для серіалізації BSON
+MongoDB\\Driver\\ServerApi::bsonSerialize — Повертає об'єкт для серіалізації BSON
 
 ### Опис
 
 ```methodsynopsis
-final public MongoDB\Driver\ServerApi::bsonSerialize(): object
+final public MongoDB\Driver\ServerApi::bsonSerialize(): stdClass
 ```
 
 ### Список параметрів
@@ -28,8 +29,8 @@ final public MongoDB\Driver\ServerApi::bsonSerialize(): object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) - Надає масив або документ для серіалізації у BSON
+-   [MongoDB\\BSON\\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) \- Надає масив або документ для серіалізації у BSON

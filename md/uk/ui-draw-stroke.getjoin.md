@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-draw-stroke.getcap.md: '« UIDrawStroke::getCap'
-  - ui-draw-stroke.getmiterlimit.md: 'ОЙDrawStroke::getMiterLimit »'
+  - ui-draw-stroke.getcap.md: '« UI\\Draw\\Stroke::getCap'
+  - ui-draw-stroke.getmiterlimit.md: 'UI\\Draw\\Stroke::getMiterLimit »'
   - index.md: PHP Manual
-  - class.ui-draw-stroke.md: ОЙDrawStroke
-title: 'ОЙDrawStroke::getJoin'
+  - class.ui-draw-stroke.md: UI\\Draw\\Stroke
+title: 'UI\\Draw\\Stroke::getJoin'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙDrawStroke::getJoin
+# UI\\Draw\\Stroke::getJoin
 
 (UI 0.9.9)
 
-ОЙDrawStroke::getJoin — Отримати з'єднання лінії
+UI\\Draw\\Stroke::getJoin — Отримати з'єднання лінії
 
 ### Опис
 
@@ -26,4 +27,4 @@ public UI\Draw\Stroke::getJoin(): int
 
 ### Значення, що повертаються
 
-ОЙDrawLineJoin::Miter, UIDrawLineJoin::Round або UIDrawLineJoin::Bevel
+UI\\Draw\\Line\\Join::Miter, UI\\Draw\\Line\\Join::Round або UI\\Draw\\Line\\Join::Bevel

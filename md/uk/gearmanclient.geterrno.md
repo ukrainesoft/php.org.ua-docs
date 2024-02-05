@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::getErrno'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::getErrno
 
@@ -18,7 +19,7 @@ GearmanClient::getErrno — Отримати значення errno
 public GearmanClient::getErrno(): int
 ```
 
-Значення ERRNO у разі повертається значення GEARMANERRNO.
+Значення ERRNO у разі повертається значення GEARMAN\_ERRNO.
 
 ### Список параметрів
 
@@ -30,4 +31,4 @@ public GearmanClient::getErrno(): int
 
 ### Дивіться також
 
--   [GearmanClient::error()](gearmanclient.error.md) - Повернути рядок помилки для останньої виявленої помилки
+-   [GearmanClient::error()](gearmanclient.error.md) \- Повернути рядок помилки для останньої виявленої помилки

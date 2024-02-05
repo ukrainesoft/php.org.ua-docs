@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-undefined.jsonserialize.md: '« MongoDBBSONUndefined::jsonSerialize'
-  - mongodb-bson-undefined.tostring.md: 'MongoDBBSONUndefined::toString »'
+  - mongodb-bson-undefined.jsonserialize.md: '« MongoDB\\BSON\\Undefined::jsonSerialize'
+  - mongodb-bson-undefined.tostring.md: 'MongoDB\\BSON\\Undefined::\_\_toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-undefined.md: MongoDBBSONUndefined
-title: 'MongoDBBSONUndefined::serialize'
+  - class.mongodb-bson-undefined.md: MongoDB\\BSON\\Undefined
+title: 'MongoDB\\BSON\\Undefined::serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONUndefined::serialize
+# MongoDB\\BSON\\Undefined::serialize
 
 (mongodb >=1.4.0)
 
-MongoDBBSONUndefined::serialize — Серіалізує Undefined
+MongoDB\\BSON\\Undefined::serialize — Серіалізує Undefined
 
 ### Опис
 
@@ -24,14 +25,14 @@ final public MongoDB\BSON\Undefined::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONUndefined](class.mongodb-bson-undefined.md)
+Возвращает сериализованное представление[MongoDB\\BSON\\Undefined](class.mongodb-bson-undefined.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONUndefined::unserialize()](mongodb-bson-undefined.unserialize.md) - Десеріалізує Undefined
--   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
+-   [MongoDB\\BSON\\Undefined::unserialize()](mongodb-bson-undefined.unserialize.md) \- Десеріалізує Undefined
+-   [serialize()](function.serialize.md) \- Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

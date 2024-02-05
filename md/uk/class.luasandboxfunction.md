@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.luasandbox.md: LuaSandbox
 title: Клас LuaSandboxFunction
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас LuaSandboxFunction
 
@@ -39,6 +40,6 @@ public dump(): string
 
 ## Зміст
 
--   [LuaSandboxFunction::call](luasandboxfunction.call.md) - Викликає Lua-функцію
--   [LuaSandboxFunction::construct](luasandboxfunction.construct.md) - Не використовується
--   [LuaSandboxFunction::dump](luasandboxfunction.dump.md) — Вивантажує функцію у вигляді BLOB
+-   [LuaSandboxFunction::call](luasandboxfunction.call.md) \- Викликає Lua-функцію
+-   [LuaSandboxFunction::\_\_construct](luasandboxfunction.construct.md) \- Не використовується
+-   [LuaSandboxFunction::dump](luasandboxfunction.dump.md)— Вивантажує функцію у вигляді BLOB

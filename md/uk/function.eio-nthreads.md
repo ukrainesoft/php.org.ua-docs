@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.eio-nreqs.md: « eionreqs
-  - function.eio-open.md: eioopen »
+  - function.eio-nreqs.md: « eio\_nreqs
+  - function.eio-open.md: eio\_open »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eionthreads
+  - ref.eio.md: Eio Функції
+title: eio\_nthreads
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eionthreads
+# eio\_nthreads
 
 (PECL eio >= 0.0.1dev)
 
-eionthreads — Повертає кількість потоків, що використовуються в даний момент
+eio\_nthreads — Повертає кількість потоків, що використовуються в даний момент
 
 ### Опис
 
@@ -24,13 +25,13 @@ eio_nthreads(): int
 
 ### Значення, що повертаються
 
-**eionthreads()** повертає кількість потоків, що використовуються в даний момент.
+**eio\_nthreads()** повертає кількість потоків, що використовуються в даний момент.
 
 ### Дивіться також
 
--   [eionpending()](function.eio-npending.md) - Повертає кількість завершених, але необроблених процесів
--   [eionready()](function.eio-nready.md) - Повертає кількість ще не опрацьованих запитів
--   [eionreqs()](function.eio-nreqs.md) - Повертає кількість запитів, які потрібно виконати
--   [eiosetmaxidle()](function.eio-set-max-idle.md) - Встановлює максимальну кількість очікуваних потоків
--   [eiosetmaxparallel()](function.eio-set-max-parallel.md) - Встановлює максимальну кількість паралельних потоків
--   [eiosetminparallel()](function.eio-set-min-parallel.md) - Встановлює мінімальну кількість паралельних потоків
+-   [eio\_npending()](function.eio-npending.md) \- Повертає кількість завершених, але необроблених процесів
+-   [eio\_nready()](function.eio-nready.md) \- Повертає кількість ще не опрацьованих запитів
+-   [eio\_nreqs()](function.eio-nreqs.md) \- Повертає кількість запитів, які потрібно виконати
+-   [eio\_set\_max\_idle()](function.eio-set-max-idle.md) \- Встановлює максимальну кількість очікуваних потоків
+-   [eio\_set\_max\_parallel()](function.eio-set-max-parallel.md) \- Встановлює максимальну кількість паралельних потоків
+-   [eio\_set\_min\_parallel()](function.eio-set-min-parallel.md) \- Встановлює мінімальну кількість паралельних потоків

@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.imap-scan.md: « imapscan
-  - function.imap-search.md: imapsearch »
+  - function.imap-scan.md: « imap\_scan
+  - function.imap-search.md: imap\_search »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapscanmailbox
+  - ref.imap.md: Функції IMAP
+title: imap\_scanmailbox
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapscanmailbox
+# imap\_scanmailbox
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapscanmailbox - Псевдонім [imaplistscan()](function.imap-listscan.md)
+imap\_scanmailbox — Псевдоним[imap\_listscan()](function.imap-listscan.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [imaplistscan()](function.imap-listscan.md)
+Функция — псевдоним функции:[imap\_listscan()](function.imap-listscan.md)

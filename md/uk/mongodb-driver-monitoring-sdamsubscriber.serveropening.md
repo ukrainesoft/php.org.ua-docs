@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.md: '« MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatSucceeded'
-  - mongodb-driver-monitoring-sdamsubscriber.topologychanged.md: 'MongoDBDriverMonitoringSDAMSubscriber::topologyChanged »'
+  - mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.md: '« MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverHeartbeatSucceeded'
+  - mongodb-driver-monitoring-sdamsubscriber.topologychanged.md: 'MongoDB\\Driver\\Monitoring\\SDAMSubscriber::topologyChanged »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDBDriverMonitoringSDAMSubscriber
-title: 'MongoDBDriverMonitoringSDAMSubscriber::serverOpening'
+  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDB\\Driver\\Monitoring\\SDAMSubscriber
+title: 'MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverOpening'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverMonitoringSDAMSubscriber::serverOpening
+# MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverOpening
 
 (mongodb >=1.13.0)
 
-MongoDBDriverMonitoringSDAMSubscriber::serverOpening — Метод сповіщення про відкриття сервера
+MongoDB\\Driver\\Monitoring\\SDAMSubscriber::serverOpening — Метод сповіщення про відкриття сервера
 
 ### Опис
 
@@ -22,7 +23,7 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverOpening(MongoDB\
 
 ### Список параметрів
 
-`event` [MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.md)
+`event` [MongoDB\\Driver\\Monitoring\\ServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.md)) .
 
 Об'єкт події містить інформацію про відкритий сервер.
 
@@ -32,10 +33,10 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverOpening(MongoDB\
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.md)
--   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) - Глобальна реєстрація передплатника на подію моніторингу
--   [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) - реєструє передплатника на подію моніторингу в даному об'єкті Manager
+-   [MongoDB\\Driver\\Monitoring\\ServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.md)
+-   [MongoDB\\Driver\\Monitoring\\addSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) \- Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDB\\Driver\\Manager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) \- реєструє передплатника на подію моніторингу в даному об'єкті Manager

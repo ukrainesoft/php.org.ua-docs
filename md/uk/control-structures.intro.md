@@ -1,10 +1,11 @@
 ---
 navigation:
-  - language.control-structures.md: « Управляющие конструкции
+  - language.control-structures.md: « Керуючі конструкції
   - control-structures.if.md: if »
   - index.md: PHP Manual
-  - language.control-structures.md: Управляющие конструкции
+  - language.control-structures.md: Керуючі конструкції
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вступ
 

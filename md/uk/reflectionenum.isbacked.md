@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionenum.md: ReflectionEnum
 title: 'ReflectionEnum::isBacked'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionEnum::isBacked
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
-ReflectionEnum::isBacked — Визначає, чи є перелік типовим
+ReflectionEnum::isBacked — Визначає, чи перелік типизований
 
 ### Опис
 
@@ -30,7 +31,7 @@ public ReflectionEnum::isBacked(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionEnum::isBacked()****
+**Пример #1 Пример использования**ReflectionEnum::isBacked()\*\*\*\*
 
 ```php
 <?php
@@ -55,7 +56,7 @@ var_dump((new ReflectionEnum(BackedSuit::class))->isBacked());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -64,5 +65,5 @@ bool(true)
 
 ### Дивіться також
 
--   [Перечисления](language.enumerations.md)
--   [ReflectionEnum::getBackingType()](reflectionenum.getbackingtype.md) - Отримує тип перерахування, якщо є
+-   [Перерахування](language.enumerations.md)
+-   [ReflectionEnum::getBackingType()](reflectionenum.getbackingtype.md) \- Отримує тип перерахування, якщо є

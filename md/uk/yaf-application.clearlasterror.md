@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-application.bootstrap.md: '« YafApplication::bootstrap'
-  - yaf-application.construct.md: 'YafApplication::construct »'
+  - yaf-application.bootstrap.md: '« Yaf\_Application::bootstrap'
+  - yaf-application.construct.md: 'Yaf\_Application::\_\_construct »'
   - index.md: PHP Manual
-  - class.yaf-application.md: YafApplication
-title: 'YafApplication::clearLastError'
+  - class.yaf-application.md: Yaf\_Application
+title: 'Yaf\_Application::clearLastError'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafApplication::clearLastError
+# Yaf\_Application::clearLastError
 
-(Yaf> = 2.1.2)
+(Yaf >=2.1.2)
 
-YafApplication::clearLastError — Очищення інформації з останньої помилки
+Yaf\_Application::clearLastError — Очищення інформації з останньої помилки
 
 ### Опис
 
@@ -26,7 +27,7 @@ public Yaf_Application::clearLastError(): Yaf_Application
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafApplication::clearLastError()****
+**Пример #1 Пример использования**Yaf\_Application::clearLastError()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ $app->run();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(0)

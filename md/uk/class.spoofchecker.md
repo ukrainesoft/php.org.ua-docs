@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Клас Spoofchecker
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Spoofchecker
 
@@ -20,68 +21,86 @@ title: Клас Spoofchecker
 
 ```classsynopsis
 
-     
     
-
-    
-     
-      class Spoofchecker
-     
+     class Spoofchecker
      {
 
-    /* Constants */
+    /* Константы */
     
+     public
      const
-     int|float
-      ASCII = 0x10000000;
-
-    const
-     int|float
-      HIGHLY_RESTRICTIVE = 0x30000000;
-
-    const
-     int|float
-      MODERATELY_RESTRICTIVE = 0x40000000;
-
-    const
-     int|float
-      MINIMALLY_RESTRICTIVE = 0x50000000;
-
-    const
-     int|float
-      UNRESTRICTIVE = 0x60000000;
-
-    const
-     int|float
-      SINGLE_SCRIPT_RESTRICTIVE = 0x20000000;
-
-    const
      int
-      SINGLE_SCRIPT_CONFUSABLE = 1;
+      SINGLE_SCRIPT_CONFUSABLE;
 
-    const
+    public
+     const
      int
-      MIXED_SCRIPT_CONFUSABLE = 2;
+      MIXED_SCRIPT_CONFUSABLE;
 
-    const
+    public
+     const
      int
-      WHOLE_SCRIPT_CONFUSABLE = 4;
+      WHOLE_SCRIPT_CONFUSABLE;
 
-    const
+    public
+     const
      int
-      ANY_CASE = 8;
+      ANY_CASE;
 
-    const
+    public
+     const
      int
-      SINGLE_SCRIPT = 16;
+      SINGLE_SCRIPT;
 
-    const
+    public
+     const
      int
-      INVISIBLE = 32;
+      INVISIBLE;
 
-    const
+    public
+     const
      int
-      CHAR_LIMIT = 64;
+      CHAR_LIMIT;
+
+    public
+     const
+     int
+      ASCII;
+
+    public
+     const
+     int
+      HIGHLY_RESTRICTIVE;
+
+    public
+     const
+     int
+      MODERATELY_RESTRICTIVE;
+
+    public
+     const
+     int
+      MINIMALLY_RESTRICTIVE;
+
+    public
+     const
+     int
+      UNRESTRICTIVE;
+
+    public
+     const
+     int
+      SINGLE_SCRIPT_RESTRICTIVE;
+
+    public
+     const
+     int
+      MIXED_NUMBERS;
+
+    public
+     const
+     int
+      HIDDEN_OVERLAY;
 
 
     /* Методы */
@@ -92,23 +111,12 @@ title: Клас Spoofchecker
 public isSuspicious(string $string, int &$errorCode = null): bool
 public setAllowedLocales(string $locales): void
 public setChecks(int $checks): void
+public setRestrictionLevel(int $level): void
 
    }
 ```
 
 ## Обумовлені константи
-
-**`Spoofchecker::ASCII`**
-
-**`Spoofchecker::HIGHLY_RESTRICTIVE`**
-
-**`Spoofchecker::MODERATELY_RESTRICTIVE`**
-
-**`Spoofchecker::MINIMALLY_RESTRICTIVE`**
-
-**`Spoofchecker::UNRESTRICTIVE`**
-
-**`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`**
 
 **`Spoofchecker::SINGLE_SCRIPT_CONFUSABLE`**
 
@@ -124,16 +132,33 @@ public setChecks(int $checks): void
 
 **`Spoofchecker::CHAR_LIMIT`**
 
+**`Spoofchecker::ASCII`**
+
+**`Spoofchecker::HIGHLY_RESTRICTIVE`**
+
+**`Spoofchecker::MODERATELY_RESTRICTIVE`**
+
+**`Spoofchecker::MINIMALLY_RESTRICTIVE`**
+
+**`Spoofchecker::UNRESTRICTIVE`**
+
+**`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`**
+
+**`Spoofchecker::MIXED_NUMBERS`**
+
+**`Spoofchecker::HIDDEN_OVERLAY`**
+
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Додані константи класу, які використовуються **Spoofchecker::setRestrictionLevel()**, такі як: **`Spoofchecker::ASCII`** **`Spoofchecker::HIGHLY_RESTRICTIVE`** **`Spoofchecker::MODERATELY_RESTRICTIVE`** **`Spoofchecker::MINIMALLY_RESTRICTIVE`** **`Spoofchecker::UNRESTRICTIVE`** **`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`** |
+| 7.3.0 | Додані константи класу, які використовуються [Spoofchecker::setRestrictionLevel()](spoofchecker.setrestrictionlevel.md), такі як: **`Spoofchecker::ASCII`** **`Spoofchecker::HIGHLY_RESTRICTIVE`** **`Spoofchecker::MODERATELY_RESTRICTIVE`** **`Spoofchecker::MINIMALLY_RESTRICTIVE`** **`Spoofchecker::UNRESTRICTIVE`** **`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`** |
 
 ## Зміст
 
--   [Spoofchecker::areConfusable](spoofchecker.areconfusable.md) — Перевірити, чи є рядки підозрілими
--   [Spoofchecker::construct](spoofchecker.construct.md) - Конструктор класу
--   [Spoofchecker::isSuspicious](spoofchecker.issuspicious.md) — Перевіряє, чи текст містить підозрілі символи
--   [Spoofchecker::setAllowedLocales](spoofchecker.setallowedlocales.md) — Локаль для використання у перевірках
--   [Spoofchecker::setChecks](spoofchecker.setchecks.md) — Встановити набір перевірок
+-   [Spoofchecker::areConfusable](spoofchecker.areconfusable.md)— Перевірити, чи є рядки підозрілими
+-   [Spoofchecker::\_\_construct](spoofchecker.construct.md) \- Конструктор класу
+-   [Spoofchecker::isSuspicious](spoofchecker.issuspicious.md)— Перевіряє, чи текст містить підозрілі символи
+-   [Spoofchecker::setAllowedLocales](spoofchecker.setallowedlocales.md)— Локаль для використання у перевірках
+-   [Spoofchecker::setChecks](spoofchecker.setchecks.md)— Встановити набір перевірок
+-   [Spoofchecker::setRestrictionLevel](spoofchecker.setrestrictionlevel.md) \- Встановлює рівень обмеження

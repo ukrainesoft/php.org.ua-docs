@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-num-params.md: « ibasenumparams
-  - function.ibase-pconnect.md: ibasepconnect »
+  - function.ibase-num-params.md: « ibase\_num\_params
+  - function.ibase-pconnect.md: ibase\_pconnect »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibaseparaminfo
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_param\_info
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibaseparaminfo
+# ibase\_param\_info
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibaseparaminfo — Повертає інформацію про параметр у підготовленому запиті
+ibase\_param\_info — Повертає інформацію про параметр у підготовленому запиті
 
 ### Опис
 
@@ -32,9 +33,9 @@ ibase_param_info(resource $query, int $param_number): array
 
 ### Значення, що повертаються
 
-Повертає масив із такими ключами: `name` `alias` `relation` `length` і `type`
+Повертає масив із такими ключами: `name` `alias` `relation` `length`и`type`
 
 ### Дивіться також
 
--   [ibasefieldinfo()](function.ibase-field-info.md) - Отримує інформацію про поле
--   [ibasenumparams()](function.ibase-num-params.md) - Повертає кількість параметрів у підготовленому запиті
+-   [ibase\_field\_info()](function.ibase-field-info.md) \- Отримує інформацію про поле
+-   [ibase\_num\_params()](function.ibase-num-params.md) \- Повертає кількість параметрів у підготовленому запиті

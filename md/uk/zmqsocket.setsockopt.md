@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zmqsocket.md: ZMQSocket
 title: 'ZMQSocket::setSockOpt'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZMQSocket::setSockOpt
 
@@ -18,13 +19,13 @@ ZMQSocket::setSockOpt — Встановити опцію сокету
 public ZMQSocket::setSockOpt(int $key, mixed $value): ZMQSocket
 ```
 
-Встановлює опцію сокету ZMQ. Тип параметра `value` залежить від значення параметра `key`. Дивіться [Типи констант ZMQ](class.zmq.md#zmq.constants)
+Устанавливает опцию сокета ZMQ. Тип параметра`value`зависит от значения параметра`key`Смотрите[Типи констант ZMQ](class.zmq.md#zmq.constants)
 
 ### Список параметрів
 
 `key`
 
-Одна з констант **`ZMQ::SOCKOPT_*`**
+Одна из констант\*\*`ZMQ::SOCKOPT_*`\*\*
 
 `value`
 

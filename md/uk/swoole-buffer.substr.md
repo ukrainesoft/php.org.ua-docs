@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-buffer.recycle.md: '« SwooleBuffer::recycle'
-  - swoole-buffer.tostring.md: 'SwooleBuffer::toString »'
+  - swoole-buffer.recycle.md: '« Swoole\\Buffer::recycle'
+  - swoole-buffer.tostring.md: 'Swoole\\Buffer::\_\_toString »'
   - index.md: PHP Manual
-  - class.swoole-buffer.md: SwooleBuffer
-title: 'SwooleBuffer::substr'
+  - class.swoole-buffer.md: Swoole\\Buffer
+title: 'Swoole\\Buffer::substr'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleBuffer::substr
+# Swoole\\Buffer::substr
 
 (PECL swoole >= 1.9.0)
 
-SwooleBuffer::substr — Зчитує дані з буфера пам'яті на основі усунення та довжини. Або видаляє дані з буфера пам'яті
+Swoole\\Buffer::substr — Зчитує дані з буфера пам'яті на основі усунення та довжини. Або видаляє дані з буфера пам'яті
 
 ### Опис
 

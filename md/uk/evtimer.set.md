@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evtimer.md: EvTimer
 title: 'EvTimer::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvTimer::set
 
@@ -31,7 +32,7 @@ public
 
 `after`
 
-Налаштовує таймер для запуску через `after` секунд.
+Налаштовує таймер для запуску через `after`секунд.
 
 `repeat`
 

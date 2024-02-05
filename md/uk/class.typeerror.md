@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - reserved.exceptions.md: Обумовлені винятки
 title: TypeError
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TypeError
 
@@ -12,7 +13,7 @@ title: TypeError
 
 ## Вступ
 
-Виняток **TypeError** може бути викинуто, якщо:
+Исключение**TypeError** може бути викинуто, якщо:
 
 -   Значення, що встановлюється для якості класу, відповідає відповідному оголошеному типу властивості.
 -   Тип аргументу, переданого функції, відповідає типу, оголошеному функції для цього аргументу.
@@ -22,18 +23,13 @@ title: TypeError
 
 ```classsynopsis
 
-     
+    
+     class TypeError
     
 
     
-     
-      class TypeError
-     
-
-     
-      extends
-       Error
-     
+     extends
+      Error
      {
 
     /* Наследуемые свойства */
@@ -63,7 +59,9 @@ private
 
     /* Наследуемые методы */
     
-   final public Error::getMessage(): string
+   public Error::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+    final public Error::getMessage(): string
 final public Error::getPrevious(): ?Throwable
 final public Error::getCode(): int
 final public Error::getFile(): string
@@ -78,6 +76,6 @@ private Error::__clone(): void
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Виняток **TypeError** більше не викидається, коли у вбудовану PHP-функцію у режимі strict type передається неприпустима кількість аргументів. Натомість викидається [ArgumentCountError](class.argumentcounterror.md) |
+| 7.1.0 | Исключение**TypeError** більше не викидається, коли у вбудовану PHP-функцію у режимі strict type передається неприпустима кількість аргументів. Натомість викидається [ArgumentCountError](class.argumentcounterror.md) |

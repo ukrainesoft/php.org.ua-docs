@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-query-params.md: « pgqueryparams
-  - function.pg-result-error-field.md: пгresulterrorfield »
+  - function.pg-query-params.md: « pg\_query\_params
+  - function.pg-result-error-field.md: pg\_result\_error\_field »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгquery
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_query
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгquery
+# pg\_query
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгquery — Виконує запит
+pg\_query — Виконує запит
 
 ### Опис
 
@@ -18,21 +19,21 @@ title: пгquery
 pg_query(PgSql\Connection $connection = ?, string $query): PgSql\Result|false
 ```
 
-**пгquery()** виконує `query` до вказаної в `connection` базі даних . [пгqueryparams()](function.pg-query-params.md) має бути кращим у більшості випадків.
+**pg\_query()** виконує `query` до вказаної в `connection` базі даних . [pg\_query\_params()](function.pg-query-params.md) має бути кращим у більшості випадків.
 
-У разі помилки функція повертає **`false`**, деталі помилки можна отримати за допомогою функції [пгlasterror()](function.pg-last-error.md)якщо з'єднання з БД не порушено.
+В случае возникновения ошибки функция возвращает\*\*`false`\*\*, деталі помилки можна отримати за допомогою функції [pg\_last\_error()](function.pg-last-error.md)якщо з'єднання з БД не порушено.
 
-> **Зауваження**: Незважаючи на те, що параметр `connection` може бути опущений, робити так не рекомендується, так як це може призвести до помилок, що важко перебувають у скриптах.
+> **Зауваження**: Несмотря на то, что параметр`connection` може бути опущений, робити так не рекомендується, так як це може призвести до помилок, що важко перебувають у скриптах.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Раніше ця функція називалася **пгexec()**. . **пгexec()** все ще доступна для забезпечення сумісності, але краще використовувати нове ім'я.
+> Раніше ця функція називалася **pg\_exec()**. . **pg\_exec()** все ще доступна для забезпечення сумісності, але краще використовувати нове ім'я.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection` не вказано, буде вибрано стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -44,24 +45,24 @@ pg_query(PgSql\Connection $connection = ?, string $query): PgSql\Result|false
 
 **Увага**
 
-Строкове представлення даних користувача дуже небезпечне і часто призводить до можливості [SQL ін'єкції](security.database.sql-injection.md). У більшості випадків краще передавати дані користувача параметром в [пгqueryparams()](function.pg-query-params.md), а не підставляти їх у рядок запиту.
+Строкове представлення даних користувача дуже небезпечне і часто призводить до можливості [SQL ін'єкції](security.database.sql-injection.md). У більшості випадків краще передавати дані користувача параметром в [pg\_query\_params()](function.pg-query-params.md), а не підставляти їх у рядок запиту.
 
 Будь-які дані, що передаються від користувача безпосередньо в рядок запиту, повинні бути [добре екрановані](function.pg-escape-string.md)
 
 ### Значення, що повертаються
 
-Екземпляр [PgSqlResult](class.pgsql-result.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Екземпляр [PgSql\\Result](class.pgsql-result.md) у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Повертає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгquery()****
+**Пример #1 Пример использования**pg\_query()\*\*\*\*
 
 ```php
 <?php
@@ -86,7 +87,7 @@ while ($row = pg_fetch_row($result)) {
 ?>
 ```
 
-**Приклад #2 Використання кількох виразів у **пгquery()****
+**Приклад #2 Використання кількох виразів у **pg\_query()****
 
 ```php
 <?php
@@ -106,9 +107,9 @@ pg_query($conn, $query);
 
 ### Дивіться також
 
--   [пгconnect()](function.pg-connect.md) - Відкриває з'єднання з базою даних PostgreSQL
--   [пгpconnect()](function.pg-pconnect.md) - Відкриває постійне з'єднання із сервером PostgreSQL
--   [пгfetcharray()](function.pg-fetch-array.md) - Повертає рядок результату у вигляді масиву
--   [пгfetchobject()](function.pg-fetch-object.md) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
--   [пгnumrows()](function.pg-num-rows.md) - Повертає кількість рядків у вибірці
--   [пгaffectedrows()](function.pg-affected-rows.md) - Повертає кількість порушених запитом записів (кортежів)
+-   [pg\_connect()](function.pg-connect.md) \- Відкриває з'єднання з базою даних PostgreSQL
+-   [pg\_pconnect()](function.pg-pconnect.md) \- Відкриває постійне з'єднання із сервером PostgreSQL
+-   [pg\_fetch\_array()](function.pg-fetch-array.md) \- Повертає рядок результату у вигляді масиву
+-   [pg\_fetch\_object()](function.pg-fetch-object.md) \- Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
+-   [pg\_num\_rows()](function.pg-num-rows.md) \- Повертає кількість рядків у вибірці
+-   [pg\_affected\_rows()](function.pg-affected-rows.md) \- Повертає кількість порушених запитом записів (кортежів)

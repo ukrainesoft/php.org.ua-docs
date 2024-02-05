@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.uopz-function.md: « uopzfunction
-  - function.uopz-get-hook.md: uopzgethook »
+  - function.uopz-function.md: « uopz\_function
+  - function.uopz-get-hook.md: uopz\_get\_hook »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzgetexitstatus
+title: uopz\_get\_exit\_status
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzgetexitstatus
+# uopz\_get\_exit\_status
 
-(PECL uopz 5, PECL uopz, PECL uopz 7)
+(PECL uopz 5, PECL uopz , PECL uopz 7)
 
-uopzgetexitstatus — Отримати останній встановлений статус виходу
+uopz\_get\_exit\_status — Отримати останній встановлений статус виходу
 
 ### Опис
 
@@ -30,7 +31,7 @@ uopz_get_exit_status(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzgetexitstatus()****
+**Пример #1 Пример использования**uopz\_get\_exit\_status()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ exit(123);
 echo uopz_get_exit_status();?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 123
@@ -52,4 +53,4 @@ echo uopz_get_exit_status();?>
 
 ### Дивіться також
 
--   [uopzallowexit()](function.uopz-allow-exit.md) - Дозволяє керувати вимкненим опкодом exit
+-   [uopz\_allow\_exit()](function.uopz-allow-exit.md) \- Дозволяє керувати вимкненим опкодом exit

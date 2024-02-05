@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.xmlrpc-parse-method-descriptions.md: « xmlrpcparsemethoddescriptions
-  - function.xmlrpc-server-call-method.md: xmlrpcservercallmethod »
+  - function.xmlrpc-parse-method-descriptions.md: « xmlrpc\_parse\_method\_descriptions
+  - function.xmlrpc-server-call-method.md: xmlrpc\_server\_call\_method »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
-title: xmlrpcserveraddintrospectiondata
+title: xmlrpc\_server\_add\_introspection\_data
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xmlrpcserveraddintrospectiondata
+# xmlrpc\_server\_add\_introspection\_data
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7)
 
-xmlrpcserveraddintrospectiondata — Додає документацію самоаналізу
+xmlrpc\_server\_add\_introspection\_data — Додає документацію самоаналізу
 
 ### Опис
 
@@ -24,4 +25,4 @@ xmlrpc_server_add_introspection_data(resource $server, array $desc): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

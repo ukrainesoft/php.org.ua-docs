@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-client.pause.md: '« SwooleClient::pause'
-  - swoole-client.recv.md: 'SwooleClient::recv »'
+  - swoole-client.pause.md: '« Swoole\\Client::pause'
+  - swoole-client.recv.md: 'Swoole\\Client::recv »'
   - index.md: PHP Manual
-  - class.swoole-client.md: SwooleClient
-title: 'SwooleClient::pipe'
+  - class.swoole-client.md: Swoole\\Client
+title: 'Swoole\\Client::pipe'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleClient::pipe
+# Swoole\\Client::pipe
 
 (PECL swoole >= 1.9.0)
 
-SwooleClient::pipe — Перенаправляє дані до іншого файлового дескриптора.
+Swoole\\Client::pipe — Перенаправляє дані до іншого файлового дескриптора.
 
 ### Опис
 

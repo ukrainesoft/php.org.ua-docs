@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.pdostatement.md: PDOStatement
 title: 'PDOStatement::nextRowset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PDOStatement::nextRowset
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8, PECL pdo> = 0.2.0)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8, PECL pdo >= 0.2.0)
 
 PDOStatement::nextRowset — Перехід до наступного набору рядків через запит
 
@@ -26,7 +27,7 @@ public PDOStatement::nextRowset(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -60,7 +61,7 @@ function printResultSet(&$rowset, $i) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Результирующий набор 1:
@@ -79,7 +80,7 @@ banana   yellow
 
 ### Дивіться також
 
--   [PDOStatement::columnCount()](pdostatement.columncount.md) - Повертає кількість стовпців у результуючому наборі
--   [PDOStatement::execute()](pdostatement.execute.md) - Запускає підготовлений запит на виконання
--   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) - Повертає метадані стовпця у результуючій таблиці
--   [PDO::query()](pdo.query.md) - готує та виконує вираз SQL без заповнювачів
+-   [PDOStatement::columnCount()](pdostatement.columncount.md) \- Повертає кількість стовпців у результуючому наборі
+-   [PDOStatement::execute()](pdostatement.execute.md) \- Запускає підготовлений запит на виконання
+-   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) \- Повертає метадані стовпця у результуючій таблиці
+-   [PDO::query()](pdo.query.md) \- готує та виконує вираз SQL без заповнювачів

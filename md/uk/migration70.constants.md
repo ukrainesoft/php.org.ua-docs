@@ -1,10 +1,11 @@
 ---
 navigation:
   - migration70.classes.md: « Нові класи та інтерфейси
-  - migration70.sapi-changes.md: Изменения в модулях SAPI »
+  - migration70.sapi-changes.md: Зміни у модулях SAPI »
   - index.md: PHP Manual
-  - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
+  - migration70.md: Міграція з PHP 5.6.x на PHP 7.0.x
 title: Нові глобальні константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Нові глобальні константи
 
@@ -12,9 +13,9 @@ title: Нові глобальні константи
 
 -   **`PHP_INT_MIN`**
 
-### [ДД](book.image.md)
+### [GD](book.image.md)
 
--   **`IMG_WEBP`** (з PHP 7.0.10)
+-   **`IMG_WEBP`**(з PHP 7.0.10)
 
 ### [JSON](book.json.md)
 

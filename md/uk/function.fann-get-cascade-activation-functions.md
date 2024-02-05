@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-cascade-activation-functions-count.md: « fanngetcascadeactivationfunctionscount
-  - function.fann-get-cascade-activation-steepnesses-count.md: fanngetcascadeactivationsteepnessescount »
+  - function.fann-get-cascade-activation-functions-count.md: « fann\_get\_cascade\_activation\_functions\_count
+  - function.fann-get-cascade-activation-steepnesses-count.md: fann\_get\_cascade\_activation\_steepnesses\_count »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetcascadeactivationфункцій
+  - ref.fann.md: Функції Fann
+title: fann\_get\_cascade\_activation\_functions
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetcascadeactivationфункцій
+# fann\_get\_cascade\_activation\_functions
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetcascadeactivationfunctions — Повертає функції каскадної активації
+fann\_get\_cascade\_activation\_functions — Повертає функції каскадної активації
 
 ### Опис
 
@@ -20,7 +21,7 @@ fann_get_cascade_activation_functions(resource $ann): array
 
 Масив функцій каскадної активації – це масив різних функцій активації, які використовуються кандидатами.
 
-Дивіться [fanngetcascadenumcandidates()](function.fann-get-cascade-num-candidates.md) для опису того, які нейрони кандидата генеруватимуться цим масивом.
+Смотрите[fann\_get\_cascade\_num\_candidates()](function.fann-get-cascade-num-candidates.md) для опису того, які нейрони кандидата генеруватимуться цим масивом.
 
 Функції активації за замовчуванням: **`FANN_SIGMOID`** **`FANN_SIGMOID_SYMMETRIC`** **`FANN_GAUSSIAN`** **`FANN_GAUSSIAN_SYMMETRIC`** **`FANN_ELLIOT`** **`FANN_ELLIOT_SYMMETRIC`**
 
@@ -32,9 +33,9 @@ fann_get_cascade_activation_functions(resource $ann): array
 
 ### Значення, що повертаються
 
-Функції каскадної активації або **`false`** у разі виникнення помилки.
+Функції каскадної активації або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fanngetcascadeactivationfunctionscount()](function.fann-get-cascade-activation-functions-count.md) - Повертає кількість функцій каскадної активації
--   [fannsetcascadeactivationfunctions()](function.fann-set-cascade-activation-functions.md) - встановлює масив каскадних функцій активації кандидатів
+-   [fann\_get\_cascade\_activation\_functions\_count()](function.fann-get-cascade-activation-functions-count.md) \- Повертає кількість функцій каскадної активації
+-   [fann\_set\_cascade\_activation\_functions()](function.fann-set-cascade-activation-functions.md) \- встановлює масив каскадних функцій активації кандидатів

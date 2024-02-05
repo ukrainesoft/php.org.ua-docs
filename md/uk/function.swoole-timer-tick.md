@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.swoole-timer-exists.md: « swooletimerexists
-  - function.swoole-version.md: swooleversion »
+  - function.swoole-timer-exists.md: « swoole\_timer\_exists
+  - function.swoole-version.md: swoole\_version »
   - index.md: PHP Manual
-  - ref.swoole-funcs.md: Функции Swoole
-title: swooletimertick
+  - ref.swoole-funcs.md: Функції Swoole
+title: swoole\_timer\_tick
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# swooletimertick
+# swoole\_timer\_tick
 
 (PECL swoole >= 1.9.0)
 
-swooletimertick — Викликати callback-функцію таймера тактів через певний проміжок часу
+swoole\_timer\_tick — Викликати callback-функцію таймера тактів через певний проміжок часу
 
 ### Опис
 

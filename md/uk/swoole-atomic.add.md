@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.swoole-atomic.md: « SwooleAtomic
-  - swoole-atomic.cmpset.md: 'SwooleAtomic::cmpset »'
+  - class.swoole-atomic.md: « Swoole\\Atomic
+  - swoole-atomic.cmpset.md: 'Swoole\\Atomic::cmpset »'
   - index.md: PHP Manual
-  - class.swoole-atomic.md: SwooleAtomic
-title: 'SwooleAtomic::add'
+  - class.swoole-atomic.md: Swoole\\Atomic
+title: 'Swoole\\Atomic::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleAtomic::add
+# Swoole\\Atomic::add
 
 (PECL swoole >= 1.9.0)
 
-SwooleAtomic::add — Додає число значення атомарного об'єкта
+Swoole\\Atomic::add — Додає число значення атомарного об'єкта
 
 ### Опис
 

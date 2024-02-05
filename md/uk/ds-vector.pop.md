@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.merge.md: '« DsVector::merge'
-  - ds-vector.push.md: 'ДсVector::push »'
+  - ds-vector.merge.md: '« Ds\\Vector::merge'
+  - ds-vector.push.md: 'Ds\\Vector::push »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::pop'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::pop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::pop
+# Ds\\Vector::pop
 
 (PECL ds >= 1.0.0)
 
-ДсVector::pop — Видаляє та повертає останнє значення
+Ds\\Vector::pop — Видаляє та повертає останнє значення
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Vector::pop(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::pop()****
+**Пример #1 Пример использования**Ds\\Vector::pop()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ var_dump($vector->pop());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(3)

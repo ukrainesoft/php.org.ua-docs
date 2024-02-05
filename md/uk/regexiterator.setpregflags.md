@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::setPregFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RegexIterator::setPregFlags
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::setPregFlags — Завдання прапорів регулярного виразу
 
@@ -24,7 +25,7 @@ public RegexIterator::setPregFlags(int $pregFlags): void
 
 `pregFlags`
 
-Прапори налаштування регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::construct()](regexiterator.construct.md)
+Прапори налаштування регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::\_\_construct()](regexiterator.construct.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ public RegexIterator::setPregFlags(int $pregFlags): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RegexIterator::setPregFlags()****
+**Пример #1 Пример использования**RegexIterator::setPregFlags()\*\*\*\*
 
 Створює новий об'єкт RegexIterator, який відбирає елементи масиву, ключі яких починаються зі слова 'test'.
 
@@ -51,7 +52,7 @@ foreach ($regexIterator as $key => $value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {
@@ -76,4 +77,4 @@ array(1) {
 
 ### Дивіться також
 
--   [RegexIterator::getPregFlags()](regexiterator.getpregflags.md) - Повертає прапори регулярного вираження
+-   [RegexIterator::getPregFlags()](regexiterator.getpregflags.md) \- Повертає прапори регулярного вираження

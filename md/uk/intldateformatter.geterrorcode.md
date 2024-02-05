@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::getErrorCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::getErrorCode
 
-# datefmtgeterrorcode
+# datefmt\_get\_error\_code
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-IntlDateFormatter::getErrorCode -- datefmtgeterrorcode — Отримує код помилки останньої операції
+IntlDateFormatter::getErrorCode -- datefmt\_get\_error\_code — Отримує код помилки останньої операції
 
 ### Опис
 
@@ -28,7 +29,7 @@ public IntlDateFormatter::getErrorCode(): int
 datefmt_get_error_code(IntlDateFormatter $formatter): int
 ```
 
-Отримує код помилки останньої операції. Повертає код помилки останньої операції форматування числа.
+Повертає код помилки останньої операції форматування.
 
 ### Список параметрів
 
@@ -38,14 +39,15 @@ datefmt_get_error_code(IntlDateFormatter $formatter): int
 
 ### Значення, що повертаються
 
-Код помилки є одним із значень UErrorCode. Початкове значення - UZEROERROR.
+Код помилки є одним із значень UErrorCode. Початкове значення - U\_ZERO\_ERROR.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **datefmtgeterrorcode()****
+**Пример #1 Пример использования функции**datefmt\_get\_error\_code()\*\*\*\*
 
 ```php
 <?php
+
 $fmt = datefmt_create(
     'en_US',
     IntlDateFormatter::FULL,
@@ -53,14 +55,13 @@ $fmt = datefmt_create(
     'America/Los_Angeles',
     IntlDateFormatter::GREGORIAN
 );
-$str = datefmt_format($fmt);
-if (!$str) {
-    printf(
-        "ОШИБКА: %s (%d)\n",
-        datefmt_get_error_message($fmt),
-        datefmt_get_error_code($fmt)
-    );
-}
+$str = datefmt_format($fmt, 0);
+
+printf(
+    "ОШИБКА: %s (%d)\n",
+    datefmt_get_error_message($fmt),
+    datefmt_get_error_code($fmt)
+);
 ?>
 ```
 
@@ -68,6 +69,7 @@ if (!$str) {
 
 ```php
 <?php
+
 $fmt = new IntlDateFormatter(
     'en_US',
     IntlDateFormatter::FULL,
@@ -75,18 +77,17 @@ $fmt = new IntlDateFormatter(
     'America/Los_Angeles',
     IntlDateFormatter::GREGORIAN
 );
-$str = $fmt->format();
-if (!$str) {
-    printf(
-        "ОШИБКА: %s (%d)\n",
-        $fmt->getErrorMessage(),
-        $fmt->getErrorCode()
-    );
-}
+$str = $fmt->format(0);
+
+printf(
+    "ОШИБКА: %s (%d)\n",
+    $fmt->getErrorMessage(),
+    $fmt->getErrorCode()
+);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 ОШИБКА: U_ZERO_ERROR (0)
@@ -94,6 +95,6 @@ if (!$str) {
 
 ### Дивіться також
 
--   [datefmtgeterrormessage()](intldateformatter.geterrormessage.md) - Отримує текст помилки останньої операції
--   [intlgeterrorcode()](function.intl-get-error-code.md) - Отримати код останньої помилки
--   [intlісfailure()](function.intl-is-failure.md) - Перевірити, чи є код помилки ознакою збою
+-   [datefmt\_get\_error\_message()](intldateformatter.geterrormessage.md) \- Отримує текст помилки останньої операції
+-   [intl\_get\_error\_code()](function.intl-get-error-code.md) \- Отримати код останньої помилки
+-   [intl\_is\_failure()](function.intl-is-failure.md) \- Перевірити, чи є код помилки ознакою збою

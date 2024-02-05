@@ -1,16 +1,19 @@
 ---
 navigation:
-  - class.parallel-events-event.md: « parallelEventsEvent
-  - class.parallel-sync.md: parallelSync »
+  - class.parallel-events-event.md: « parallel\\Events\\Event
+  - class.parallel-sync.md: parallel\\Sync »
   - index.md: PHP Manual
   - book.parallel.md: parallel
-title: Клас parallelEventsEventType
+title: Клас parallel\\Events\\Event\\Type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас parallelEventsEventType
+# Клас parallel\\Events\\Event\\Type
+
+(0.9.0)
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
 

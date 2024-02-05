@@ -1,14 +1,15 @@
 ---
 navigation:
-  - recursivecallbackfilteriterator.construct.md: '« RecursiveCallbackFilterIterator::construct'
+  - recursivecallbackfilteriterator.construct.md: '« RecursiveCallbackFilterIterator::\_\_construct'
   - recursivecallbackfilteriterator.haschildren.md: 'RecursiveCallbackFilterIterator::hasChildren »'
   - index.md: PHP Manual
   - class.recursivecallbackfilteriterator.md: RecursiveCallbackFilterIterator
 title: 'RecursiveCallbackFilterIterator::getChildren'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RecursiveCallbackFilterIterator::getChildren
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 RecursiveCallbackFilterIterator::getChildren — Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator
 
@@ -33,5 +34,5 @@ public RecursiveCallbackFilterIterator::getChildren(): RecursiveCallbackFilterIt
 ### Дивіться також
 
 -   [Приклади використання RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md#recursivecallbackfilteriterator.examples)
--   [RecursiveCallbackFilterIterator::construct()](recursivecallbackfilteriterator.construct.md) - Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
--   [RecursiveCallbackFilteriterator::hasChildren()](recursivecallbackfilteriterator.haschildren.md) - Перевіряє, чи містить поточний елемент внутрішнього ітератора дочірні елементи
+-   [RecursiveCallbackFilterIterator::\_\_construct()](recursivecallbackfilteriterator.construct.md) \- Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
+-   [RecursiveCallbackFilteriterator::hasChildren()](recursivecallbackfilteriterator.haschildren.md) \- Перевіряє, чи містить поточний елемент внутрішнього ітератора дочірні елементи

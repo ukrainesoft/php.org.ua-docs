@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ref.openssl.md: « Функции OpenSSL
-  - function.openssl-cms-decrypt.md: opensslcmsdecrypt »
+  - ref.openssl.md: « Функції OpenSSL
+  - function.openssl-cipher-key-length.md: openssl\_cipher\_key\_length »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslcipherвербlength
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_cipher\_iv\_length
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslcipherвербlength
+# openssl\_cipher\_iv\_length
 
-(PHP 5> = 5.3.3, PHP 7, PHP 8)
+(PHP 5 >= 5.3.3, PHP 7, PHP 8)
 
-opensslcipherвербlength — Отримує довжину вектора, що ініціалізує, шифру.
+openssl\_cipher\_iv\_length — Отримує довжину вектора, що ініціалізує, шифру.
 
 ### Опис
 
@@ -24,7 +25,7 @@ openssl_cipher_iv_length(string $cipher_algo): int|false
 
 `cipher_algo`
 
-Метод шифрування. Список потенційних значень можна отримати за допомогою [opensslgetciphermethods()](function.openssl-get-cipher-methods.md)
+Метод шифрування. Список потенційних значень можна отримати за допомогою [openssl\_get\_cipher\_methods()](function.openssl-get-cipher-methods.md)
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ openssl_cipher_iv_length(string $cipher_algo): int|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **opensslcipherвербlength()****
+**Пример #1 Пример использования**openssl\_cipher\_iv\_length()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ echo $ivlen;
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 16

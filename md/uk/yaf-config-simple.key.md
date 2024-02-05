@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-simple.isset.md: '« YafConfigSimple::isset'
-  - yaf-config-simple.next.md: 'YafConfigSimple::next »'
+  - yaf-config-simple.isset.md: '« Yaf\_Config\_Simple::\_\_isset'
+  - yaf-config-simple.next.md: 'Yaf\_Config\_Simple::next »'
   - index.md: PHP Manual
-  - class.yaf-config-simple.md: YafConfigSimple
-title: 'YafConfigSimple::key'
+  - class.yaf-config-simple.md: Yaf\_Config\_Simple
+title: 'Yaf\_Config\_Simple::key'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigSimple::key
+# Yaf\_Config\_Simple::key
 
 (Yaf >=1.0.0)
 
-YafConfigSimple::key — Призначення key
+Yaf\_Config\_Simple::key — Призначення key
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Simple::key(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

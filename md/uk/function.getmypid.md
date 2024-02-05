@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getmypid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # getmypid
 
@@ -26,7 +27,7 @@ getmypid(): int|false
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор процесу PHP або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор процесу PHP або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 
@@ -36,8 +37,8 @@ getmypid(): int|false
 
 ### Дивіться також
 
--   [getmygid()](function.getmygid.md) - Отримати GID власника скрипта PHP
--   [getmyuid()](function.getmyuid.md) - Отримання UID власника скрипта PHP
--   [getcurrentuser()](function.get-current-user.md) - Отримує ім'я власника поточного скрипту PHP
--   [getmyinode()](function.getmyinode.md) - Отримує значення inode поточного скрипту
--   [getlastmod()](function.getlastmod.md) - Отримує час останньої модифікації сторінки
+-   [getmygid()](function.getmygid.md) \- Отримати GID власника скрипта PHP
+-   [getmyuid()](function.getmyuid.md) \- Отримання UID власника скрипта PHP
+-   [get\_current\_user()](function.get-current-user.md) \- Отримує ім'я власника поточного скрипту PHP
+-   [getmyinode()](function.getmyinode.md) \- Отримує значення inode поточного скрипту
+-   [getlastmod()](function.getlastmod.md) \- Отримує час останньої модифікації сторінки

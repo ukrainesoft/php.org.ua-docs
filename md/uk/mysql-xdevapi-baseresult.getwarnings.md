@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-baseresult.md: « mysqlxdevapiBaseResult
+  - class.mysql-xdevapi-baseresult.md: « mysql\_xdevapi\\BaseResult
   - mysql-xdevapi-baseresult.getwarningscount.md: 'BaseResult::getWarningsCount »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-baseresult.md: mysqlxdevapiBaseResult
+  - class.mysql-xdevapi-baseresult.md: mysql\_xdevapi\\BaseResult
 title: 'BaseResult::getWarnings'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # BaseResult::getWarnings
 
@@ -30,7 +31,7 @@ abstract public mysql_xdevapi\BaseResult::getWarnings(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiRowResult::getWarnings()****
+**Пример #1 Пример использования**mysql\_xdevapi\\RowResult::getWarnings()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ print_r($warnings);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

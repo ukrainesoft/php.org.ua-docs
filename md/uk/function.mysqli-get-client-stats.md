@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.mysqli-execute.md: « mysqliexecute
-  - function.mysqli-get-links-stats.md: mysqligetlinksstats »
+  - function.mysqli-execute.md: « mysqli\_execute
+  - function.mysqli-get-links-stats.md: mysqli\_get\_links\_stats »
   - index.md: PHP Manual
   - ref.mysqli.md: Синоніми та застарілі функції Mysqli
-title: mysqligetclientstats
+title: mysqli\_get\_client\_stats
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqligetclientstats
+# mysqli\_get\_client\_stats
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-mysqligetclientstats - Отримати клієнтську попроцесну статистику
+mysqli\_get\_client\_stats - Отримати клієнтську попроцесну статистику
 
 ### Опис
 
@@ -20,7 +21,7 @@ mysqli_get_client_stats(): array
 
 Повертає клієнтську попроцесну статистику.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Доступно лише з модулем [mysqlnd](book.mysqlnd.md)
 
@@ -32,7 +33,7 @@ mysqli_get_client_stats(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqligetclientstats()****
+**Пример #1 Пример использования**mysqli\_get\_client\_stats()\*\*\*\*
 
 ```php
 <?php
@@ -41,7 +42,7 @@ print_r(mysqli_get_client_stats());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array
@@ -170,4 +171,4 @@ Array
 
 ### Дивіться також
 
--   [Описание метрик](mysqlnd.stats.md)
+-   [Опис метрик](mysqlnd.stats.md)

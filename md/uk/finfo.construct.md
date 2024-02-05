@@ -4,22 +4,23 @@ navigation:
   - finfo.file.md: 'finfo::file »'
   - index.md: PHP Manual
   - class.finfo.md: finfo
-title: 'finfo::construct'
+title: 'finfo::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# finfo::construct
+# finfo::\_\_construct
 
 (PHP >= 5.3.0, PHP 7, PHP 8, PECL fileinfo >= 0.1.0)
 
-finfo::construct - Псевдонім [finfoopen()](function.finfo-open.md)
+finfo::\_\_construct — Псевдоним[finfo\_open()](function.finfo-open.md)
 
 ### Опис
 
-public **finfo::construct**(int `$flags` **`FILEINFO_NONE`**, ?string `$magic_database` **`null`**
+public**finfo::\_\_construct**(int`$flags` **`FILEINFO_NONE`**, ?string`$magic_database` **`null`**) .
 
-Ця функція є псевдонімом: [finfoopen()](function.finfo-open.md)
+Функция — псевдоним функции:[finfo\_open()](function.finfo-open.md)
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `magic_database` тепер допускає значення null. |
+| 8.0.3 | `magic_database` тепер допускає значення null. |

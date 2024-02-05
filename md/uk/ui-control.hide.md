@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-control.gettoplevel.md: '« UIControl::getTopLevel'
-  - ui-control.isenabled.md: 'ОЙControl::isEnabled »'
+  - ui-control.gettoplevel.md: '« UI\\Control::getTopLevel'
+  - ui-control.isenabled.md: 'UI\\Control::isEnabled »'
   - index.md: PHP Manual
-  - class.ui-control.md: ОЙControl
-title: 'ОЙControl::hide'
+  - class.ui-control.md: UI\\Control
+title: 'UI\\Control::hide'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControl::hide
+# UI\\Control::hide
 
 (UI 0.9.9)
 
-ОЙControl::hide — Приховати елемент керування
+UI\\Control::hide — Приховати елемент керування
 
 ### Опис
 

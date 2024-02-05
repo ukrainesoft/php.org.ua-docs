@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-stmt.field-count.md: '« mysqlistmt::$fieldcount'
-  - mysqli-stmt.get-result.md: 'mysqlistmt::getresult »'
+  - mysqli-stmt.field-count.md: '« mysqli\_stmt::$field\_count'
+  - mysqli-stmt.get-result.md: 'mysqli\_stmt::get\_result »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::freeresult'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::free\_result'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::freeresult
+# mysqli\_stmt::free\_result
 
-# mysqlistmtfreeresult
+# mysqli\_stmt\_free\_result
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::freeresult -- mysqlistmtfreeresult — Звільняє пам'ять від результату запиту, вказаного дескриптором
+mysqli\_stmt::free\_result -- mysqli\_stmt\_free\_result — Звільняє пам'ять від результату запиту, вказаного дескриптором
 
 ### Опис
 
@@ -28,13 +29,13 @@ public mysqli_stmt::free_result(): void
 mysqli_stmt_free_result(mysqli_stmt $statement): void
 ```
 
-Звільняє від результату запиту пам'ять, яка була зарезервована за допомогою [mysqlistmtstoreresult()](mysqli-stmt.store-result.md)
+Звільняє від результату запиту пам'ять, яка була зарезервована за допомогою [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.md)
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -42,4 +43,4 @@ mysqli_stmt_free_result(mysqli_stmt $statement): void
 
 ### Дивіться також
 
--   [mysqlistmtstoreresult()](mysqli-stmt.store-result.md) - Зберігає набір результатів у внутрішньому буфері
+-   [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.md) \- Зберігає набір результатів у внутрішньому буфері

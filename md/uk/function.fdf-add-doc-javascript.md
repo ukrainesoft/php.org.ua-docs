@@ -1,16 +1,17 @@
 ---
 navigation:
   - ref.fdf.md: « FDF
-  - function.fdf-add-template.md: fdfaddtemplate »
+  - function.fdf-add-template.md: fdf\_add\_template »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfadddocjavascript
+title: fdf\_add\_doc\_javascript
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfadddocjavascript
+# fdf\_add\_doc\_javascript
 
-(PHP 4> = 4.3.0, PHP 5 <5.3.0, PECL fdf SVN)
+(PHP 4 >= 4.3.0, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfadddocjavascript — Додає код javascript до документа FDF
+fdf\_add\_doc\_javascript — Додає код javascript до документа FDF
 
 ### Опис
 
@@ -24,7 +25,7 @@ fdf_add_doc_javascript(resource $fdf_document, string $script_name, string $scri
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdf\_create()](function.fdf-create.md) [fdf\_open()](function.fdf-open.md) або [fdf\_open\_string()](function.fdf-open-string.md)
 
 `script_name`
 
@@ -32,11 +33,11 @@ fdf_add_doc_javascript(resource $fdf_document, string $script_name, string $scri
 
 `script_code`
 
-Код сценарію. Настійно рекомендується використовувати `\r` для перенесення рядків у коді скрипта.
+Код сценарію. Настійно рекомендується використовувати `\r`для переноса строк в коде скрипта.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

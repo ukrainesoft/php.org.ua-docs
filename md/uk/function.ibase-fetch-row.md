@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ibase-fetch-object.md: « ibasefetchobject
-  - function.ibase-field-info.md: ibasefieldinfo »
+  - function.ibase-fetch-object.md: « ibase\_fetch\_object
+  - function.ibase-field-info.md: ibase\_field\_info »
   - index.md: PHP Manual
-  - ref.ibase.md: Функции Firebird/InterBase
-title: ibasefetchrow
+  - ref.ibase.md: Функції Firebird/InterBase
+title: ibase\_fetch\_row
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ibasefetchrow
+# ibase\_fetch\_row
 
 (PHP 5, PHP 7 < 7.4.0)
 
-ibasefetchrow — Витягує рядок із бази даних InterBase
+ibase\_fetch\_row — Витягує рядок із бази даних InterBase
 
 ### Опис
 
@@ -18,9 +19,9 @@ ibasefetchrow — Витягує рядок із бази даних InterBase
 ibase_fetch_row(resource $result_identifier, int $fetch_flag = 0): array
 ```
 
-**ibasefetchrow()** витягує один рядок даних із цього набору результатів.
+**ibase\_fetch\_row()** витягує один рядок даних із цього набору результатів.
 
-Наступні дзвінки **ibasefetchrow()** повернуть наступний рядок у наборі результатів або \*\*`false`\*\*якщо рядків більше немає.
+Наступні дзвінки \*\*ibase\_fetch\_row()**вернут следующую строку в наборе результатов или**`false`\*\*якщо рядків більше немає.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ ibase_fetch_row(resource $result_identifier, int $fetch_flag = 0): array
 
 `fetch_flag`
 
-`fetch_flag` є комбінацією констант **`IBASE_TEXT`** і **`IBASE_UNIXTIME`** ORed. Передача **`IBASE_TEXT`** змусить функцію повертати вміст BLOB-об'єктів замість ідентифікаторів BLOB-об'єктів. Передача **`IBASE_UNIXTIME`** змусить функцію повертати значення дати/часу як позначки часу Unix, а не як відформатовані рядки.
+`fetch_flag` є комбінацією констант **`IBASE_TEXT`**и**`IBASE_UNIXTIME`**ORed. Передача**`IBASE_TEXT`** змусить функцію повертати вміст BLOB-об'єктів замість ідентифікаторів BLOB-об'єктів. Передача **`IBASE_UNIXTIME`** змусить функцію повертати значення дати/часу як позначки часу Unix, а не як відформатовані рядки.
 
 ### Значення, що повертаються
 
@@ -38,5 +39,5 @@ ibase_fetch_row(resource $result_identifier, int $fetch_flag = 0): array
 
 ### Дивіться також
 
--   [ibasefetchassoc()](function.ibase-fetch-assoc.md) - Витягує рядок результату із запиту у вигляді асоціативного масиву
--   [ibasefetchobject()](function.ibase-fetch-object.md) - Отримує об'єкт із бази даних InterBase
+-   [ibase\_fetch\_assoc()](function.ibase-fetch-assoc.md) \- Витягує рядок результату із запиту у вигляді асоціативного масиву
+-   [ibase\_fetch\_object()](function.ibase-fetch-object.md) \- Отримує об'єкт із бази даних InterBase

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-set-client-encoding.md: « pgsetclientencoding
-  - function.pg-socket.md: пгsocket »
+  - function.pg-set-error-context-visibility.md: « pg\_set\_error\_context\_visibility
+  - function.pg-socket.md: pg\_socket »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгseterrorverbosity
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_set\_error\_verbosity
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгseterrorverbosity
+# pg\_set\_error\_verbosity
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-пгseterrorverbosity — Визначає обсяг тексту повідомлень, що повертаються функціями [пгlasterror()](function.pg-last-error.md) і [пгresulterror()](function.pg-result-error.md)
+pg\_set\_error\_verbosity — Визначає обсяг тексту повідомлень, що повертаються функціями [pg\_last\_error()](function.pg-last-error.md) і [pg\_result\_error()](function.pg-result-error.md)
 
 ### Опис
 
@@ -18,15 +19,15 @@ title: пгseterrorverbosity
 pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 ```
 
-Визначає обсяг тексту повідомлень, що повертаються функціями [пгlasterror()](function.pg-last-error.md) і [пгresulterror()](function.pg-result-error.md)
+Визначає обсяг тексту повідомлень, що повертаються функціями [pg\_last\_error()](function.pg-last-error.md) і [pg\_result\_error()](function.pg-result-error.md)
 
-**пгseterrorverbosity()** встановлює режим, який відповідає за повноту повідомлень про помилки. В режимі **`PGSQL_ERRORS_TERSE`** повідомлення будуть містити лише важливість помилки, основний текст та місце виникнення; ця інформація зазвичай міститься в один рядок. У режимі за замовчуванням **`PGSQL_ERRORS_DEFAULT`** до повідомлень буде додано деталі помилки, підказка або поля контексту (це може зайняти кілька рядків). В режимі **`PGSQL_ERRORS_VERBOSE`** повідомлення будуть містити всі поля. Зміна режиму не торкнеться повідомлення існуючих ресурсів. Новий режим буде застосовуватися тільки до новостворених.
+**pg\_set\_error\_verbosity()**устанавливает режим, отвечающий за полноту сообщений об ошибках. В режиме**`PGSQL_ERRORS_TERSE`** повідомлення будуть містити лише важливість помилки, основний текст та місце виникнення; ця інформація зазвичай міститься в один рядок. У режимі за замовчуванням **`PGSQL_ERRORS_DEFAULT`** до повідомлень буде додано деталі помилки, підказка або поля контексту (це може зайняти кілька рядків). В режимі **`PGSQL_ERRORS_VERBOSE`** повідомлення будуть містити всі поля. Зміна режиму не торкнеться повідомлення існуючих ресурсів. Новий режим буде застосовуватися тільки до новостворених.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection` не вказано, буде вибрано стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -34,21 +35,21 @@ pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 
 `verbosity`
 
-Необхідний режим: **`PGSQL_ERRORS_TERSE`** **`PGSQL_ERRORS_DEFAULT`** або **`PGSQL_ERRORS_VERBOSE`**
+Необхідний режим: **`PGSQL_ERRORS_TERSE`** **`PGSQL_ERRORS_DEFAULT`**или**`PGSQL_ERRORS_VERBOSE`**
 
 ### Значення, що повертаються
 
-Попередній режим, що діяв до запуску функції: **`PGSQL_ERRORS_TERSE`** **`PGSQL_ERRORS_DEFAULT`** або **`PGSQL_ERRORS_VERBOSE`**
+Попередній режим, що діяв до запуску функції: **`PGSQL_ERRORS_TERSE`** **`PGSQL_ERRORS_DEFAULT`**или**`PGSQL_ERRORS_VERBOSE`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгseterrorverbosity()****
+**Пример #1 Пример использования**pg\_set\_error\_verbosity()\*\*\*\*
 
 ```php
 <?php
@@ -66,5 +67,5 @@ pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 
 ### Дивіться також
 
--   [пгlasterror()](function.pg-last-error.md) - Отримує повідомлення про останню помилку на з'єднанні з базою даних.
--   [пгresulterror()](function.pg-result-error.md) - Повертає повідомлення про помилку, пов'язане із запитом результату
+-   [pg\_last\_error()](function.pg-last-error.md) \- Отримує повідомлення про останню помилку на з'єднанні з базою даних.
+-   [pg\_result\_error()](function.pg-result-error.md) \- Повертає повідомлення про помилку, пов'язане із запитом результату

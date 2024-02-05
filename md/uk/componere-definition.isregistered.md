@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-definition.register.md: '« ComponereDefinition::register'
-  - componere-definition.getclosure.md: 'ComponereDefinition::getClosure »'
+  - componere-definition.register.md: '« Componere\\Definition::register'
+  - componere-definition.getclosure.md: 'Componere\\Definition::getClosure »'
   - index.md: PHP Manual
-  - class.componere-definition.md: ComponereDefinition
-title: 'ComponereDefinition::isRegistered'
+  - class.componere-definition.md: Componere\\Definition
+title: 'Componere\\Definition::isRegistered'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponereDefinition::isRegistered
+# Componere\\Definition::isRegistered
 
 (Componere 2 >= 2.1.0)
 
-ComponereDefinition::isRegistered — Визначення стану
+Componere\\Definition::isRegistered — Визначення стану
 
 ### Опис
 

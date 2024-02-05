@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::embossImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::embossImage
 
@@ -40,7 +41,7 @@ public Imagick::embossImage(float $radius, float $sigma): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::embossImage()****
+**Пример #1 Пример использования**Imagick::embossImage()\*\*\*\*
 
 ```php
 <?php

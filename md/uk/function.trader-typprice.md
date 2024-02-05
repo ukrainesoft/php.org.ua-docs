@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-tsf.md: « tradertsf
-  - function.trader-ultosc.md: traderultosc »
+  - function.trader-tsf.md: « trader\_tsf
+  - function.trader-ultosc.md: trader\_ultosc »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradertypprice
+  - ref.trader.md: Функції Trader
+title: trader\_typprice
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradertypprice
+# trader\_typprice
 
 (PECL trader >= 0.2.0)
 
-tradertypprice — Типова ціна
+trader\_typprice — Типова ціна
 
 ### Опис
 

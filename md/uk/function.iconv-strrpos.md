@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.iconv-strpos.md: « iconvstrpos
-  - function.iconv-substr.md: iconvsubstr »
+  - function.iconv-strpos.md: « iconv\_strpos
+  - function.iconv-substr.md: iconv\_substr »
   - index.md: PHP Manual
-  - ref.iconv.md: Функции iconv
-title: iconvstrrpos
+  - ref.iconv.md: Функції iconv
+title: iconv\_strrpos
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# iconvstrrpos
+# iconv\_strrpos
 
 (PHP 5, PHP 7, PHP 8)
 
-iconvstrrpos — Повертає позицію останнього входження підрядка
+iconv\_strrpos — Повертає позицію останнього входження підрядка
 
 ### Опис
 
@@ -18,9 +19,9 @@ iconvstrrpos — Повертає позицію останнього входж
 iconv_strrpos(string $haystack, string $needle, ?string $encoding = null): int|false
 ```
 
-Знаходить останню позицію підрядка `needle` у рядку `haystack`
+Находит последнюю позицию подстроки`needle` в рядку `haystack`
 
-На відміну від [strrpos()](function.strrpos.md) **iconvstrrpos()** повертає зміщення перед рядком у символах, а не в байтах. Кількість символів трактується залежно від вказаної параметром `encoding` кодування.
+В отличие от[strrpos()](function.strrpos.md) **iconv\_strrpos()** повертає зміщення перед рядком у символах, а не в байтах. Кількість символів трактується залежно від вказаної параметром `encoding` кодування.
 
 ### Список параметрів
 
@@ -34,28 +35,28 @@ iconv_strrpos(string $haystack, string $needle, ?string $encoding = null): int|f
 
 `encoding`
 
-Якщо параметр `encoding` не вказано, то мається на увазі, що `string` має кодування [iconv.internalencoding](iconv.configuration.md)
+Якщо параметр `encoding` не вказано, то мається на увазі, що `string` має кодування [iconv.internal\_encoding](iconv.configuration.md)
 
-Якщо `haystack` або `needle` не є рядками, вони будуть перетворені на рядок та застосовані як код символу.
+Якщо `haystack`или`needle` не є рядками, вони будуть перетворені на рядок та застосовані як код символу.
 
 ### Значення, що повертаються
 
-Повертає номер позиції останнього входження рядка `needle` в `haystack`
+Повертає номер позиції останнього входження рядка `needle`в`haystack`
 
-Якщо рядок `needle` не знайдена, **iconvstrrpos()** повертає **`false`**
+Якщо рядок `needle`не найдена,**iconv\_strrpos()** повертає **`false`**
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Логічний тип](language.types.boolean.md)Используйте[оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `encoding` тепер допускає значення null. |
+| 8.0.0 | `encoding` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [strrpos()](function.strrpos.md) - Повертає позицію останнього входження підрядка у рядку
--   [iconvstrpos()](function.iconv-strpos.md) - Повертає позицію першого входження підрядка
--   [мбstrrpos()](function.mb-strrpos.md) - Пошук позиції останнього входження одного рядка до іншого
+-   [strrpos()](function.strrpos.md) \- Повертає позицію останнього входження підрядка у рядку
+-   [iconv\_strpos()](function.iconv-strpos.md) \- Повертає позицію першого входження підрядка
+-   [mb\_strrpos()](function.mb-strrpos.md) \- Шукає позицію останнього входження підрядка у рядок

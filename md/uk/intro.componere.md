@@ -1,10 +1,11 @@
 ---
 navigation:
   - book.componere.md: « Componere
-  - componere.setup.md: Встановлення та налаштування »
+  - componere.setup.md: Встановлення та налаштування "
   - index.md: PHP Manual
   - book.componere.md: Componere
 title: Вступ
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Вступ
 
@@ -12,27 +13,27 @@ Componere (латинська, англійська: compose) призначен
 
 ##### Структура:
 
-[ComponereDefinition](class.componere-definition.md) використовується визначення (або перевизначення) класу під час виконання; Потім клас може бути зареєстрований і у разі перевизначення він замінює вихідний клас доти, доки існує [ComponereDefinition](class.componere-definition.md)
+[Componere\\Definition](class.componere-definition.md) використовується визначення (або перевизначення) класу під час виконання; Потім клас може бути зареєстрований і у разі перевизначення він замінює вихідний клас доти, доки існує [Componere\\Definition](class.componere-definition.md)
 
-public [ComponereDefinition::construct](componere-definition.construct.md)(string `$name`
+public[Componere\\Definition::\_\_construct](componere-definition.construct.md)(string`$name`) .
 
-public [ComponereDefinition::construct](componere-definition.construct.md)(string `$name`, string `$parent`
+public[Componere\\Definition::\_\_construct](componere-definition.construct.md)(string`$name`, string`$parent`) .
 
-public [ComponereDefinition::construct](componere-definition.construct.md)(string `$name`, array `$interfaces`
+public[Componere\\Definition::\_\_construct](componere-definition.construct.md)(string`$name`, array`$interfaces`) .
 
-public [ComponereDefinition::construct](componere-definition.construct.md)(string `$name`, string `$parent`, array `$interfaces`
+public[Componere\\Definition::\_\_construct](componere-definition.construct.md)(string`$name`, string`$parent`, array`$interfaces`) .
 
 ##### Патчінг:
 
-[ComponerePatch](class.componere-patch.md) використовується зміни класу конкретного екземпляра об'єкта під час виконання; Після застосування виправлення буде застосовуватися доти, доки існує [ComponerePatch](class.componere-patch.md) і його можна скасувати.
+[Componere\\Patch](class.componere-patch.md) використовується зміни класу конкретного екземпляра об'єкта під час виконання; Після застосування виправлення буде застосовуватися доти, доки існує [Componere\\Patch](class.componere-patch.md) і його можна скасувати.
 
-public [ComponerePatch::construct](componere-patch.construct.md)(object `$instance`
+public[Componere\\Patch::\_\_construct](componere-patch.construct.md)(object`$instance`) .
 
-public [ComponerePatch::construct](componere-patch.construct.md)(object `$instance`, array `$interfaces`
+public[Componere\\Patch::\_\_construct](componere-patch.construct.md)(object`$instance`, array`$interfaces`) .
 
 ##### Приведення:
 
-*Componere* функції приведення можуть наводити серед певних сумісних типів користувачів; У разі сумісності означає, що **Type** є підлеглим або супер типом `object`
+\**Componere\\\** функції приведення можуть наводити серед певних сумісних типів користувачів; У разі сумісності означає, що **Type** є підлеглим або супер типом `object`
 
 ```methodsynopsis
 Componere\cast(Type $type,  $object): Type

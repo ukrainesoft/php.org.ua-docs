@@ -1,35 +1,31 @@
 ---
 navigation:
-  - pdostatement.setfetchmode.md: '« PDOStatement::setFetchMode'
+  - class.pdorow.md: « PDORow
   - pdo.drivers.md: Драйвери PDO »
   - index.md: PHP Manual
   - book.pdo.md: PDO
 title: Клас PDOException
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас PDOException
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
-Помилка, викликана PDO. Вам не слід викидати винятки **PDOException** зі свого коду. Для додаткової інформації про винятки в PHP дивіться розділ [Исключения](language.exceptions.md)
+Помилка, викликана PDO. Вам не слід викидати винятки **PDOException** зі свого коду. Для додаткової інформації про винятки в PHP дивіться розділ [Винятки](language.exceptions.md)
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class PDOException
     
 
     
-     
-      class PDOException
-     
-
-     
-      extends
-       RuntimeException
-     
+     extends
+      RuntimeException
      {
 
     /* Свойства */
@@ -45,31 +41,33 @@ title: Клас PDOException
 
     /* Наследуемые свойства */
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */
     
-   final public Exception::getMessage(): string
+   public Exception::__construct(string $message = "", int $code = 0, ?Throwable $previous = null)
+
+    final public Exception::getMessage(): string
 final public Exception::getPrevious(): ?Throwable
 final public Exception::getCode(): int
 final public Exception::getFile(): string
@@ -90,4 +88,4 @@ errorInfo
 
 code
 
-Код помилки `SQLSTATE`. Щоб його отримати, використовуйте [Exception::getCode()](exception.getcode.md)
+Код ошибки`SQLSTATE`. Щоб його отримати, використовуйте [Exception::getCode()](exception.getcode.md)

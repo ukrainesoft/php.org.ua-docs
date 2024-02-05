@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::trimImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::trimImage
 
@@ -18,7 +19,7 @@ Imagick::trimImage — Видаляє краї зображення
 public Imagick::trimImage(float $fuzz): bool
 ```
 
-Видаляє краї, які є кольором фону із зображенням. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Видаляє краї, які є кольором фону із зображенням. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ public Imagick::trimImage(float $fuzz): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::trimImage()****
+**Пример #1 Пример использования**Imagick::trimImage()\*\* :\*\*
 
 Обріжте зображення, а потім відобразіть у браузері.
 
@@ -56,6 +57,6 @@ echo $im;
 
 ### Дивіться також
 
--   [Imagick::getQuantumDepth()](imagick.getquantumdepth.md) - Повертає величину глибини
--   [Imagick::getQuantumRange()](imagick.getquantumrange.md) - Повертає величину розміру спектру Imagick
--   [imagecropauto()](function.imagecropauto.md) - Обрізає зображення автоматично, використовуючи один із доступних режимів
+-   [Imagick::getQuantumDepth()](imagick.getquantumdepth.md) \- Повертає величину глибини
+-   [Imagick::getQuantumRange()](imagick.getquantumrange.md) \- Повертає величину розміру спектру Imagick
+-   [imagecropauto()](function.imagecropauto.md) \- Обрізає зображення автоматично на основі заданого режиму

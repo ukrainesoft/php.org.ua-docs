@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-table.getsession.md: '« Table::getSession'
   - mysql-xdevapi-table.isview.md: 'Table::isView »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: mysql\_xdevapi\\Table
 title: 'Table::insert'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Table::insert
 
@@ -36,7 +37,7 @@ public mysql_xdevapi\Table::insert(mixed $columns, mixed ...$more_columns): mysq
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTable::insert()****
+**Пример #1 Пример использования**mysql\_xdevapi\\Table::insert()\*\*\*\*
 
 ```php
 <?php

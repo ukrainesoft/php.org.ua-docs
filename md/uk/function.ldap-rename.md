@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ldap-rename-ext.md: « ldaprenameext
-  - function.ldap-sasl-bind.md: ldapsaslbind »
+  - function.ldap-rename-ext.md: « ldap\_rename\_ext
+  - function.ldap-sasl-bind.md: ldap\_sasl\_bind »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
-title: ldaprename
+title: ldap\_rename
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ldaprename
+# ldap\_rename
 
-(PHP 4> = 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.5, PHP 5, PHP 7, PHP 8)
 
-ldaprename — Змінити ім'я запису
+ldap\_rename — Змінити ім'я запису
 
 ### Опис
 
 ```methodsynopsis
-ldap_rename(    LDAP\Connection $ldap,    string $dn,    string $new_rdn,    string $new_parent,    bool $delete_old_rdn,    ?array $controls = null): bool
+ldap_rename(    LDAP\Connection $ldap,    string $dn,    string $new_rdn,    string $new_parent,    bool $delete_old_rdn,    ?array $controls = null): bool
 ```
 
 Перейменування/переміщення запису, визначеного `dn`
@@ -24,7 +25,7 @@ ldap_rename(    LDAP\Connection $ldap,    string $dn,    string $new_rdn,    str
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAP\\Connection](class.ldap-connection.md), що повертається функцією [ldap\_connect()](function.ldap-connect.md)
 
 `dn`
 
@@ -44,27 +45,27 @@ ldap_rename(    LDAP\Connection $ldap,    string $dn,    string $new_rdn,    str
 
 `controls`
 
-Масив [управляющих констант LDAP](ldap.controls.md) для відправки у запиті.
+Массив[керуючих констант LDAP](ldap.controls.md)для отправки в запросе.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
-|  | Додано підтримку параметра `controls` |
+| 8.1.0 | Параметр`ldap` тепер чекає екземпляр [LDAP\\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) `ldap link` |
+| 8.0.0 | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
+| 7.3.0 | Додано підтримку параметра `controls` |
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Ця функція працює лише з LDAPv3. Можливо, вам доведеться використати [ldapsetoption()](function.ldap-set-option.md) перед прив'язкою за допомогою LDAPv3. Ця функція доступна лише під час використання OpenLDAP 2.xx або Netscape Directory SDK x.x.
+> Ця функція працює лише з LDAPv3. Можливо, вам доведеться використати [ldap\_set\_option()](function.ldap-set-option.md) перед прив'язкою за допомогою LDAPv3. Ця функція доступна лише під час використання OpenLDAP 2.xx або Netscape Directory SDK x.x.
 
 ### Дивіться також
 
--   [ldaprenameext()](function.ldap-rename-ext.md) - Модифікувати назву запису
--   [ldapmodify()](function.ldap-modify.md) - Псевдонім ldapmodreplace
+-   [ldap\_rename\_ext()](function.ldap-rename-ext.md) \- Модифікувати назву запису
+-   [ldap\_modify()](function.ldap-modify.md) \- Псевдонім ldap\_mod\_replace

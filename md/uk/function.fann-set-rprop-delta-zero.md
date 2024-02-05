@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-set-rprop-delta-min.md: « fannsetrpropdeltamin
-  - function.fann-set-rprop-increase-factor.md: fannsetrpropincreasefactor »
+  - function.fann-set-rprop-delta-min.md: « fann\_set\_rprop\_delta\_min
+  - function.fann-set-rprop-increase-factor.md: fann\_set\_rprop\_increase\_factor »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannsetrpropdeltazero
+  - ref.fann.md: Функції Fann
+title: fann\_set\_rprop\_delta\_zero
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannsetrpropdeltazero
+# fann\_set\_rprop\_delta\_zero
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannsetrpropdeltazero — Встановлює початковий розмір кроку
+fann\_set\_rprop\_delta\_zero — Встановлює початковий розмір кроку
 
 ### Опис
 
@@ -36,6 +37,6 @@ fann_set_rprop_delta_zero(resource $ann, float $rprop_delta_zero): bool
 
 ### Дивіться також
 
--   [fanngetrpropdeltazero()](function.fann-get-rprop-delta-zero.md) - Повертає початковий розмір кроку
--   [fanngetrpropdeltamin()](function.fann-get-rprop-delta-min.md) - Повертає мінімальний розмір кроку
--   [fanngetrpropdeltamax()](function.fann-get-rprop-delta-max.md) - Повертає максимальний розмір кроку
+-   [fann\_get\_rprop\_delta\_zero()](function.fann-get-rprop-delta-zero.md) \- Повертає початковий розмір кроку
+-   [fann\_get\_rprop\_delta\_min()](function.fann-get-rprop-delta-min.md) \- Повертає мінімальний розмір кроку
+-   [fann\_get\_rprop\_delta\_max()](function.fann-get-rprop-delta-max.md) \- Повертає максимальний розмір кроку

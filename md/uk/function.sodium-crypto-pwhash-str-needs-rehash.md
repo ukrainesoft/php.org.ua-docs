@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-pwhash-scryptsalsa208sha256.md: « sodiumcryptopwhashscryptsalsa208sha256
-  - function.sodium-crypto-pwhash-str-verify.md: sodiumcryptopwhashstrverify »
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256.md: « sodium\_crypto\_pwhash\_scryptsalsa208sha256
+  - function.sodium-crypto-pwhash-str-verify.md: sodium\_crypto\_pwhash\_str\_verify »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptopwhashstrneedsrehash
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_pwhash\_str\_needs\_rehash
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptopwhashstrneedsrehash
+# sodium\_crypto\_pwhash\_str\_needs\_rehash
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptopwhashstrneedsrehash — Визначає, чи потрібно повторно використовувати пароль
+sodium\_crypto\_pwhash\_str\_needs\_rehash — Визначає, чи потрібно повторно використовувати пароль
 
 ### Опис
 
@@ -18,7 +19,7 @@ sodiumcryptopwhashstrneedsrehash — Визначає, чи потрібно п�
 sodium_crypto_pwhash_str_needs_rehash(string $password, int $opslimit, int $memlimit): bool
 ```
 
-Визначає, чи потрібно повторно використовувати пароль на основі поточного хеш-значення `opslimit` і `memlimit`
+Определяет, следует ли повторно использовать пароль, на основе текущего хеш-значения`opslimit`и`memlimit`
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ sodium_crypto_pwhash_str_needs_rehash(string $password, int $opslimit, int $meml
 
 `opslimit`
 
-Налаштований opslimit; дивіться [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.md)
+Налаштований opslimit; дивіться [sodium\_crypto\_pwhash\_str()](function.sodium-crypto-pwhash-str.md)
 
 `memlimit`
 
-Налаштований memlimit; дивіться [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.md)
+Налаштований memlimit; дивіться [sodium\_crypto\_pwhash\_str()](function.sodium-crypto-pwhash-str.md)
 
 ### Значення, що повертаються
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-connection-iterator.key.md: '« SwooleConnectionIterator::key'
-  - swoole-connection-iterator.offsetexists.md: 'SwooleConnectionIterator::offsetExists »'
+  - swoole-connection-iterator.key.md: '« Swoole\\Connection\\Iterator::key'
+  - swoole-connection-iterator.offsetexists.md: 'Swoole\\Connection\\Iterator::offsetExists »'
   - index.md: PHP Manual
-  - class.swoole-connection-iterator.md: SwooleConnectionIterator
-title: 'SwooleConnectionIterator::next'
+  - class.swoole-connection-iterator.md: Swoole\\Connection\\Iterator
+title: 'Swoole\\Connection\\Iterator::next'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleConnectionIterator::next
+# Swoole\\Connection\\Iterator::next
 
 (PECL swoole >= 1.9.0)
 
-SwooleConnectionIterator::next — Переходить до наступного з'єднання
+Swoole\\Connection\\Iterator::next — Переходить до наступного з'єднання
 
 ### Опис
 

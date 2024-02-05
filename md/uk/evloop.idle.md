@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evloop.md: EvLoop
 title: 'EvLoop::idle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvLoop::idle
 
@@ -35,7 +36,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvIdle::construct()](evidle.construct.md)
+Усі параметри, що й для [EvIdle::\_\_construct()](evidle.construct.md)
 
 ### Значення, що повертаються
 
@@ -43,4 +44,4 @@ final
 
 ### Дивіться також
 
--   [EvIdle::construct()](evidle.construct.md) - Конструктор спостерігача EvIdle
+-   [EvIdle::\_\_construct()](evidle.construct.md) \- Конструктор спостерігача EvIdle

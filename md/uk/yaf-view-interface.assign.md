@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.yaf-view-interface.md: « YafViewInterface
-  - yaf-view-interface.display.md: 'YafViewInterface::display »'
+  - class.yaf-view-interface.md: « Yaf\_View\_Interface
+  - yaf-view-interface.display.md: 'Yaf\_View\_Interface::display »'
   - index.md: PHP Manual
-  - class.yaf-view-interface.md: YafViewInterface
-title: 'YafViewInterface::assign'
+  - class.yaf-view-interface.md: Yaf\_View\_Interface
+title: 'Yaf\_View\_Interface::assign'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafViewInterface::assign
+# Yaf\_View\_Interface::assign
 
 (Yaf >=1.0.0)
 
-YafViewInterface::assign — Призначає значення для движка відображення
+Yaf\_View\_Interface::assign — Призначає значення для движка відображення
 
 ### Опис
 
@@ -22,7 +23,7 @@ abstract public Yaf_View_Interface::assign(string $name, string $value = ?): boo
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

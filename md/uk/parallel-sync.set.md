@@ -1,14 +1,17 @@
 ---
 navigation:
-  - parallel-sync.get.md: '« parallelSync::get'
-  - parallel-sync.wait.md: 'parallelSync::wait »'
+  - parallel-sync.get.md: '« parallel\\Sync::get'
+  - parallel-sync.wait.md: 'parallel\\Sync::wait »'
   - index.md: PHP Manual
-  - class.parallel-sync.md: parallelSync
-title: 'parallelSync::set'
+  - class.parallel-sync.md: parallel\\Sync
+title: 'parallel\\Sync::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# parallelSync::set
+# parallel\\Sync::set
 
-parallelSync::set — Доступ
+(1.1.0)
+
+parallel\\Sync::set — Доступ
 
 ### Опис
 
@@ -22,4 +25,4 @@ public parallel\Sync::set(scalar $value)
 
 **Увага**
 
-Викидає parallelSyncErrorIlegallegalValue, якщо `value` не є скалярним значенням.
+Викидає parallel\\Sync\\Error\\IllegalValue, если`value` не є скалярним значенням.

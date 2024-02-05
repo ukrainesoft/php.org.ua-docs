@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.memory-get-peak-usage.md: « memorygetpeakusage
-  - function.php-ini-loaded-file.md: phpiniloadedfile »
+  - function.memory-get-peak-usage.md: « memory\_get\_peak\_usage
+  - function.memory-reset-peak-usage.md: memory\_reset\_peak\_usage »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: memorygetusage
+title: memory\_get\_usage
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# memorygetusage
+# memory\_get\_usage
 
-(PHP 4> = 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.2, PHP 5, PHP 7, PHP 8)
 
-memorygetusage — Повертає кількість пам'яті, виділену для PHP
+memory\_get\_usage — Повертає кількість пам'яті для PHP.
 
 ### Опис
 
@@ -24,9 +25,9 @@ memory_get_usage(bool $real_usage = false): int
 
 `real_usage`
 
-Передача **`true`** дозволяє дізнатися реальну кількість пам'яті, виділеної PHP скрипту системою, включаючи сторінки, що не використовуються. Якщо аргумент не заданий чи дорівнює **`false`**, буде повернуто лише кількість пам'яті, що використовується.
+При наданні цього параметра значення\*\*`true`\*\* повертається загальний обсяг пам'яті, яку система виділила процесу PHP, включаючи сторінки, що не використовуються. Якщо параметр не заданий або передано аргумент **`false`**, функція повідомить лише про кількість пам'яті, зайняту PHP-скриптом.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > PHP не відстежує пам'ять, яка виділялася не `emalloc()`
 
@@ -36,7 +37,7 @@ memory_get_usage(bool $real_usage = false): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **memorygetusage()****
+**Пример #1 Пример использования**memory\_get\_usage()\*\*\*\*
 
 ```php
 <?php
@@ -58,5 +59,5 @@ echo memory_get_usage() . "\n"; // 36744
 
 ### Дивіться також
 
--   [memorygetpeakusage()](function.memory-get-peak-usage.md) - Повертає пікове значення об'єму пам'яті, виділене PHP
--   [memorylimit](ini.core.md#ini.memory-limit)
+-   [memory\_get\_peak\_usage()](function.memory-get-peak-usage.md) \- Повертає пікове значення об'єму пам'яті, виділеної PHP
+-   [memory\_limit](ini.core.md#ini.memory-limit)

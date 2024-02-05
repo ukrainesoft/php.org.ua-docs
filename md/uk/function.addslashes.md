@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: addslashes
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # addslashes
 
@@ -20,10 +21,10 @@ addslashes(string $string): string
 
 Повертає рядок зі зворотним слішем перед символами, які потрібно екранувати. Екрануються такі символи:
 
--   одинарна лапка (`'`
--   подвійна лапка (`"`
--   зворотний сліш (`\`
--   NUL (байт **`null`**
+-   одинарна лапка (`'`) .
+-   подвійна лапка (`"`) .
+-   зворотний сліш (`\`) .
+-   NUL (байт\*\*`null`\*\*) .
 
 Невеликий приклад використання функції **addslashes()** для екранування перелічених вище символів:
 
@@ -34,7 +35,7 @@ eval("echo '" . addslashes($str) . "';");
 ?>
 ```
 
-Іноді функцію **addslashes()** некоректно намагаються використати для запобігання [SQL-ін'єкцій](security.database.sql-injection.md). Чи не робіть так. Замість цього використовуйте підготовлені запити або функції екранування відповідних модулів роботи з базами даних.
+Иногда функцию**addslashes()** некоректно намагаються використати для запобігання [SQL-ін'єкцій](security.database.sql-injection.md). Не робіть так. Замість цього використовуйте підготовлені запити або функції екранування відповідних модулів роботи з базами даних.
 
 ### Список параметрів
 
@@ -48,7 +49,7 @@ eval("echo '" . addslashes($str) . "';");
 
 ### Приклади
 
-**Приклад #1 Приклад використання **addslashes()****
+**Пример #1 Пример использования**addslashes()\*\*\*\*
 
 ```php
 <?php
@@ -61,9 +62,9 @@ echo addslashes($str);
 
 ### Дивіться також
 
--   [stripcslashes()](function.stripcslashes.md) - Видаляє екранування символів, зроблене функцією addcslashes
--   [stripslashes()](function.stripslashes.md) - Видаляє екранування символів
--   [addcslashes()](function.addcslashes.md) - Екранує рядок слішами у стилі мови C
--   [htmlspecialchars()](function.htmlspecialchars.md) - Перетворює спеціальні символи на HTML-сутності
--   [quotemeta()](function.quotemeta.md) - Екранує спеціальні символи
--   [getmagicquotesgpc()](function.get-magic-quotes-gpc.md) - Отримання поточного значення конфігурації конфігурації magicquotesgpc
+-   [stripcslashes()](function.stripcslashes.md) \- Видаляє екранування символів, зроблене функцією addcslashes
+-   [stripslashes()](function.stripslashes.md) \- Видаляє екранування символів
+-   [addcslashes()](function.addcslashes.md) \- Екранує рядок слішами у стилі мови C
+-   [htmlspecialchars()](function.mdspecialchars.md) \- Перетворює спеціальні символи в HTML-сутності
+-   [quotemeta()](function.quotemeta.md) \- Екранує спеціальні символи
+-   [get\_magic\_quotes\_gpc()](function.get-magic-quotes-gpc.md) \- Отримання поточного значення конфігурації конфігурації magic\_quotes\_gpc

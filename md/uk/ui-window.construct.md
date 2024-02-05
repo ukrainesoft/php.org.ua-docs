@@ -1,20 +1,21 @@
 ---
 navigation:
-  - ui-window.add.md: '« UIWindow::add'
-  - ui-window.error.md: 'ОЙWindow::error »'
+  - ui-window.add.md: '« UI\\Window::add'
+  - ui-window.error.md: 'UI\\Window::error »'
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::construct'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::construct
+# UI\\Window::\_\_construct
 
 (UI 0.9.9)
 
-ОЙWindow::construct — Створити новий об'єкт Window
+UI\\Window::\_\_construct — Створити новий об'єкт Window
 
 ### Опис
 
-public **ОЙWindow::construct**(string `$title`, Size `$size`, bool `$menu` **`false`**
+public**UI\\Window::\_\_construct**(string`$title`, Size`$size`, bool`$menu` **`false`**) .
 
 Створить новий об'єкт Window
 

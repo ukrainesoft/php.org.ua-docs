@@ -1,10 +1,11 @@
 ---
 navigation:
   - syncsemaphore.unlock.md: '« SyncSemaphore::unlock'
-  - syncevent.construct.md: 'SyncEvent::construct »'
+  - syncevent.construct.md: 'SyncEvent::\_\_construct »'
   - index.md: PHP Manual
   - book.sync.md: Sync
 title: Клас SyncEvent
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SyncEvent
 
@@ -41,7 +42,7 @@ public wait(int $wait = -1): bool
 
 ## Зміст
 
--   [SyncEvent::construct](syncevent.construct.md) — Створює новий об'єкт SyncEvent
--   [SyncEvent::fire](syncevent.fire.md) — Запускає/встановлює подію
--   [SyncEvent::reset](syncevent.reset.md) — скидає ручну подію
--   [SyncEvent::wait](syncevent.wait.md) — Чекає на запуск/установку події
+-   [SyncEvent::\_\_construct](syncevent.construct.md)— Створює новий об'єкт SyncEvent
+-   [SyncEvent::fire](syncevent.fire.md)— Запускає/встановлює подію
+-   [SyncEvent::reset](syncevent.reset.md)— скидає ручну подію
+-   [SyncEvent::wait](syncevent.wait.md)— Чекає на запуск/установку події

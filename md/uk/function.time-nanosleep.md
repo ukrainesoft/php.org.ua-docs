@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sys-getloadavg.md: « sysgetloadavg
-  - function.time-sleep-until.md: timesleepuntil »
+  - function.sys-getloadavg.md: « sys\_getloadavg
+  - function.time-sleep-until.md: time\_sleep\_until »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
-title: timenanosleep
+title: time\_nanosleep
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# timenanosleep
+# time\_nanosleep
 
 (PHP 5, PHP 7, PHP 8)
 
-timenanosleep — Затримка на задану кількість секунд та наносекунд
+time\_nanosleep — Затримка на задану кількість секунд і наносекунд
 
 ### Опис
 
@@ -18,7 +19,7 @@ timenanosleep — Затримка на задану кількість секу
 time_nanosleep(int $seconds, int $nanoseconds): array|bool
 ```
 
-Відкладає виконання програми на задані параметри `seconds` і `nanoseconds` число секунд та наносекунд відповідно.
+Відкладає виконання програми на задані параметри `seconds`и`nanoseconds` число секунд та наносекунд відповідно.
 
 ### Список параметрів
 
@@ -34,20 +35,20 @@ time_nanosleep(int $seconds, int $nanoseconds): array|bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 Якщо відкладене виконання було перервано сигналом, повертається асоціативний масив з наступними компонентами:
 
--   `seconds` - кількість секунд, що залишилися
--   `nanoseconds` - кількість наносекунд, що залишилися
+-   `seconds`\- кількість секунд, що залишилися
+-   `nanoseconds`\- кількість наносекунд, що залишилися
 
 ### Приклади
 
-**Приклад #1 Приклад використання **timenanosleep()****
+**Пример #1 Пример использования**time\_nanosleep()\*\*\*\*
 
 ```php
 <?php
-// Внимание! Если будет возвращён Масив, то такая функция не сработает, как ожидалось
+// Внимание! Если будет возвращён массив, то такая функция не сработает, как ожидалось
 if (time_nanosleep(0, 500000000)) {
     echo "Задержка на полсекунды.\n";
 }
@@ -75,7 +76,7 @@ if ($nano === true) {
 
 ### Дивіться також
 
--   [sleep()](function.sleep.md) - затримка виконання
--   [usleep()](function.usleep.md) - Затримка виконання у мікросекундах
--   [timesleepuntil()](function.time-sleep-until.md) - Відкладає виконання скрипту до заданого часу
--   [settimelimit()](function.set-time-limit.md) - Обмеження часу виконання скрипту
+-   [sleep()](function.sleep.md) \- затримка виконання
+-   [usleep()](function.usleep.md) \- Затримка виконання у мікросекундах
+-   [time\_sleep\_until()](function.time-sleep-until.md) \- Відкладає виконання скрипту до заданого часу
+-   [set\_time\_limit()](function.set-time-limit.md) \- Обмеження часу виконання скрипту

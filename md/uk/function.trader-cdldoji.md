@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdldarkcloudcover.md: « tradercdldarkcloudcover
-  - function.trader-cdldojistar.md: tradercdldojistar »
+  - function.trader-cdldarkcloudcover.md: « trader\_cdldarkcloudcover
+  - function.trader-cdldojistar.md: trader\_cdldojistar »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdldoji
+  - ref.trader.md: Функції Trader
+title: trader\_cdldoji
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdldoji
+# trader\_cdldoji
 
 (PECL trader >= 0.2.0)
 
-tradercdldoji — Дожі
+trader\_cdldoji — Дожі
 
 ### Опис
 
 ```methodsynopsis
-trader_cdldoji(    array $open,    array $high,    array $low,    array $close): array
+trader_cdldoji(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

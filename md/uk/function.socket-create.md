@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.socket-create-pair.md: « socketcreatepair
-  - function.socket-export-stream.md: socketexportstream »
+  - function.socket-create-pair.md: « socket\_create\_pair
+  - function.socket-export-stream.md: socket\_export\_stream »
   - index.md: PHP Manual
-  - ref.sockets.md: Функции сокета
-title: socketcreate
+  - ref.sockets.md: Опції сокету
+title: socket\_create
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# socketcreate
+# socket\_create
 
-(PHP 4> = 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.1.0, PHP 5, PHP 7, PHP 8)
 
-socketcreate — Створює сокет (кінцеву точку обміну інформацією)
+socket\_create — Створює сокет (кінцеву точку обміну інформацією)
 
 ### Опис
 
@@ -24,11 +25,11 @@ socket_create(int $domain, int $type, int $protocol): Socket|false
 
 `domain`
 
-Параметр `domain` визначає сімейство протоколів, які використовуються сокетами.
+Параметр`domain` визначає сімейство протоколів, які використовуються сокетами.
 
 **Доступні сімейства адрес/протоколів**
 
-| Семейство | Описание |
+| Семейство | Опис |
 | --- | --- |
 | **`AF_INET`** | Internet-протоколи IPv4. TCP та UDP – це стандартні протоколи цього сімейства протоколів. |
 | **`AF_INET6`** | Internet-протоколи IPv6. TCP та UDP – це стандартні протоколи цього сімейства протоколів. |
@@ -36,11 +37,11 @@ socket_create(int $domain, int $type, int $protocol): Socket|false
 
 `type`
 
-Параметр `type` визначає тип обміну даними, який використовуватиметься сокетом.
+Параметр`type` визначає тип обміну даними, який використовуватиметься сокетом.
 
 **Доступні типи сокетів**
 
-| Тип | Описание |
+| Тип | Опис |
 | --- | --- |
 | **`SOCK_STREAM`** | Забезпечує послідовні, надійні, повнодуплексні, байтові потоки із встановленням з'єднання. Може підтримуватись механізм передачі позасмугових (out-of-band) даних. Протокол TCP заснований цьому типі сокетів. |
 | **`SOCK_DGRAM`** | Підтримує датаграми (ненадійні повідомлення без встановлення з'єднання фіксованої максимальної довжини). Протокол UDP ґрунтується на цьому типі сокетів. |
@@ -50,11 +51,11 @@ socket_create(int $domain, int $type, int $protocol): Socket|false
 
 `protocol`
 
-Параметр `protocol` вказує конкретний протокол у заданому сімействі протоколів `domain`, який буде використовуватися в обміні даними зі створеним сокетом. Відповідне значення може бути отримано на ім'я за допомогою функції [getprotobyname()](function.getprotobyname.md). Якщо бажаний протокол TCP чи UDP, то відповідні константи **`SOL_TCP`** і **`SOL_UDP`** також можуть бути використані.
+Параметр`protocol` вказує конкретний протокол у заданому сімействі протоколів `domain`, який буде використовуватися в обміні даними зі створеним сокетом. Відповідне значення може бути отримано на ім'я за допомогою функції [getprotobyname()](function.getprotobyname.md). Якщо бажаний протокол TCP чи UDP, то відповідні константи **`SOL_TCP`**и**`SOL_UDP`** також можуть бути використані.
 
 **Стандартні протоколи**
 
-| Название | Описание |
+| Название | Опис |
 | --- | --- |
 | icmp | ICMP (Internet Control Message Protocol, протокол міжмережевих керуючих повідомлень) використовується переважно шлюзами та хостами для повідомлення про помилки передачі датаграм. Команда "ping" (присутня у більшості сучасних операційних систем) - це приклад використання протоколу ICMP. |
 | udp | UDP (User Datagram Protocol, протокол користувальницьких датаграм) - це протокол без встановлення з'єднання, ненадійний, протокол із фіксованою довжиною записів. Через ці аспекти, UDP вимагає мінімальної кількості службової інформації. |
@@ -62,23 +63,23 @@ socket_create(int $domain, int $type, int $protocol): Socket|false
 
 ### Значення, що повертаються
 
-Функція **socketcreate()** повертає екземпляр [Socket](class.socket.md) у разі успішного виконання, або **`false`** у разі виникнення помилки. Код помилки можна отримати за допомогою виклику функції [socketlasterror()](function.socket-last-error.md). Ця помилка може бути передана функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
+Функция**socket\_create()** повертає екземпляр [Socket](class.socket.md) у разі успішного виконання, або **`false`** у разі виникнення помилки. Код помилки можна отримати за допомогою виклику функції [socket\_last\_error()](function.socket-last-error.md). Ця помилка може бути передана функції [socket\_strerror()](function.socket-strerror.md) для отримання текстового опису помилки.
 
 ### Помилки
 
-Якщо вказано неправильний параметр `domain` або `type`, функція **socketcreate()** буде використовувати за замовчуванням значення **`AF_INET`** і **`SOCK_STREAM`** відповідно, і додатково до цього видасть повідомлення **`E_WARNING`**
+Якщо вказано неправильний параметр `domain`или`type`, функция**socket\_create()** буде використовувати за замовчуванням значення **`AF_INET`**и**`SOCK_STREAM`** відповідно, і додатково до цього видасть повідомлення **`E_WARNING`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
+| 8.0.0 | У разі успішного виконання функція повертає екземпляр [Socket](class.socket.md); раніше повертався ресурс (resource). |
 
 ### Дивіться також
 
--   [socketaccept()](function.socket-accept.md) - приймає з'єднання на сокеті
--   [socketbind()](function.socket-bind.md) - Прив'язує ім'я до сокету
--   [socketconnect()](function.socket-connect.md) - Починає з'єднання із сокетом
--   [socketlisten()](function.socket-listen.md) - Прослуховує вхідні з'єднання на сокеті
--   [socketlasterror()](function.socket-last-error.md) - Повертає останню помилку на сокеті
--   [socketstrerror()](function.socket-strerror.md) - Повертає рядок, що описує помилку сокету
+-   [socket\_accept()](function.socket-accept.md) \- приймає з'єднання на сокеті
+-   [socket\_bind()](function.socket-bind.md) \- Прив'язує ім'я до сокету
+-   [socket\_connect()](function.socket-connect.md) \- Починає з'єднання із сокетом
+-   [socket\_listen()](function.socket-listen.md) \- Прослуховує вхідні з'єднання на сокеті
+-   [socket\_last\_error()](function.socket-last-error.md) \- Повертає останню помилку на сокеті
+-   [socket\_strerror()](function.socket-strerror.md) \- Повертає рядок, що описує помилку сокету

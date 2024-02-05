@@ -1,10 +1,11 @@
 ---
 navigation:
   - mysql-xdevapi-statement.hasmoreresults.md: '« Statement::hasMoreResults'
-  - mysql-xdevapi-table.construct.md: 'Table::construct »'
+  - mysql-xdevapi-table.construct.md: 'Table::\_\_construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.md: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysql\_xdevapi
 title: Клас Table
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас Table
 
@@ -57,14 +58,14 @@ name
 
 ## Зміст
 
--   [Table::construct](mysql-xdevapi-table.construct.md) - Конструктор Table
--   [Table::count](mysql-xdevapi-table.count.md) — Отримати кількість рядків
--   [Table::delete](mysql-xdevapi-table.delete.md) — Видалити рядки з таблиці
--   [Table::existsInDatabase](mysql-xdevapi-table.existsindatabase.md) — Перевірити, чи існує таблиця у базі даних
--   [Table::getName](mysql-xdevapi-table.getname.md) — Отримати ім'я таблиці
--   [Table::getSchema](mysql-xdevapi-table.getschema.md) — Отримати схему таблиці
--   [Table::getSession](mysql-xdevapi-table.getsession.md) — Отримати таблицю сесій
--   [Table::insert](mysql-xdevapi-table.insert.md) — Вставити рядки таблиці
--   [Table::isView](mysql-xdevapi-table.isview.md) — Перевірити, чи таблиця є поданням
--   [Table::select](mysql-xdevapi-table.select.md) - Вибрати рядки з таблиці
--   [Table::update](mysql-xdevapi-table.update.md) — Оновити рядки у таблиці
+-   [Table::\_\_construct](mysql-xdevapi-table.construct.md) \- Конструктор Table
+-   [Table::count](mysql-xdevapi-table.count.md)— Отримати кількість рядків
+-   [Table::delete](mysql-xdevapi-table.delete.md)— Видалити рядки з таблиці
+-   [Table::existsInDatabase](mysql-xdevapi-table.existsindatabase.md)— Перевірити, чи існує таблиця у базі даних
+-   [Table::getName](mysql-xdevapi-table.getname.md)— Отримати ім'я таблиці
+-   [Table::getSchema](mysql-xdevapi-table.getschema.md)— Отримати схему таблиці
+-   [Table::getSession](mysql-xdevapi-table.getsession.md)— Отримати таблицю сесій
+-   [Table::insert](mysql-xdevapi-table.insert.md)— Вставити рядки таблиці
+-   [Table::isView](mysql-xdevapi-table.isview.md)— Перевірити, чи таблиця є поданням
+-   [Table::select](mysql-xdevapi-table.select.md) \- Вибрати рядки з таблиці
+-   [Table::update](mysql-xdevapi-table.update.md)— Оновити рядки у таблиці

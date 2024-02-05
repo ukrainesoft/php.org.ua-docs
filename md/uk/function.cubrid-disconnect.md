@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.cubrid-current-oid.md: « cubridcurrentoid
-  - function.cubrid-drop.md: cubriddrop »
+  - function.cubrid-current-oid.md: « cubrid\_current\_oid
+  - function.cubrid-drop.md: cubrid\_drop »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubriddisconnect
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_disconnect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubriddisconnect
+# cubrid\_disconnect
 
 (PECL CUBRID >= 8.3.0)
 
-cubriddisconnect — Закриває з'єднання з базою даних
+cubrid\_disconnect — Закриває з'єднання з базою даних
 
 ### Опис
 
@@ -18,7 +19,7 @@ cubriddisconnect — Закриває з'єднання з базою даних
 cubrid_disconnect(resource $conn_identifier = ?): bool
 ```
 
-Функція **cubriddisconnect()** використовується для закриття оброблювача з'єднання та від'єднання від сервера. Якщо будь-який оброблювач запиту не буде закритий на цей момент, він буде примусово закритий. Функція аналогічна функції сумісності CUBRID MySQL [cubridclose()](function.cubrid-close.md)
+Функция**cubrid\_disconnect()** використовується для закриття оброблювача з'єднання та від'єднання від сервера. Якщо будь-який оброблювач запиту не буде закритий на цей момент, він буде примусово закритий. Функція аналогічна функції сумісності CUBRID MySQL [cubrid\_close()](function.cubrid-close.md)
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ cubrid_disconnect(resource $conn_identifier = ?): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubriddisconnect()****
+**Пример #1 Пример использования**cubrid\_disconnect()\*\*\*\*
 
 ```php
 <?php
@@ -62,6 +63,6 @@ if ($con) {
 
 ### Дивіться також
 
--   [cubridclose()](function.cubrid-close.md) - Закриває з'єднання з базою даних
--   [cubridconnect()](function.cubrid-connect.md) - Відкриває з'єднання з сервером CUBRID
--   [cubridconnectwithurl()](function.cubrid-connect-with-url.md) - Створює оточення для з'єднання із сервером CUBRID
+-   [cubrid\_close()](function.cubrid-close.md) \- Закриває з'єднання з базою даних
+-   [cubrid\_connect()](function.cubrid-connect.md) \- Відкриває з'єднання з сервером CUBRID
+-   [cubrid\_connect\_with\_url()](function.cubrid-connect-with-url.md) \- Створює оточення для з'єднання із сервером CUBRID

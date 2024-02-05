@@ -1,12 +1,13 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-serverexception.md: « MongoDBDriverExceptionServerException
-  - class.mongodb-driver-exception-unexpectedvalueexception.md: MongoDBDriverExceptionUnexpectedValueException »
+  - class.mongodb-driver-exception-serverexception.md: « MongoDB\\Driver\\Exception\\ServerException
+  - class.mongodb-driver-exception-unexpectedvalueexception.md: MongoDB\\Driver\\Exception\\UnexpectedValueException »
   - index.md: PHP Manual
-  - mongodb.exceptions.md: MongoDBDriverException
-title: Клас MongoDBDriverExceptionSSLConnectionException (застарілий)
+  - mongodb.exceptions.md: MongoDB\\Driver\\Exception
+title: Клас MongoDB\\Driver\\Exception\\SSLConnectionException (застарілий)
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverExceptionSSLConnectionException (застарілий)
+# Клас MongoDB\\Driver\\Exception\\SSLConnectionException (застарілий)
 
 (mongodb >= 1.0.0)
 
@@ -47,26 +48,26 @@ title: Клас MongoDBDriverExceptionSSLConnectionException (застаріли
 
     
     protected
-     string
-      $message = "";
+      string
+       $message = "";
 private
-     string
-      $string = "";
+      string
+       $string = "";
 protected
-     int
-      $code;
+      int
+       $code;
 protected
-     string
-      $file = "";
+      string
+       $file = "";
 protected
-     int
-      $line;
+      int
+       $line;
 private
-     array
-      $trace = [];
+      array
+       $trace = [];
 private
-     ?Throwable
-      $previous = null;
+      ?Throwable
+       $previous = null;
 
 
     /* Наследуемые методы */

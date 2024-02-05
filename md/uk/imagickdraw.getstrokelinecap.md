@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getStrokeLineCap'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::getStrokeLineCap
 
@@ -20,7 +21,7 @@ public ImagickDraw::getStrokeLineCap(): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Повертає форму, яка використовуватиметься наприкінці відкритих внутрішніх контурів під час їх обведення.
 

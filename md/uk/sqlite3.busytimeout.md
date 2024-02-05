@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sqlite3.md: SQLite3
 title: 'SQLite3::busyTimeout'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3::busyTimeout
 
-(PHP 5> = 5.3.3, PHP 7, PHP 8)
+(PHP 5 >= 5.3.3, PHP 7, PHP 8)
 
 SQLite3::busyTimeout — Встановити обробник "зайнято" на з'єднання
 
@@ -28,4 +29,4 @@ public SQLite3::busyTimeout(int $milliseconds): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

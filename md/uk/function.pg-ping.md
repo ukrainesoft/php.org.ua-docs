@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-pconnect.md: « pgpconnect
-  - function.pg-port.md: пгport »
+  - function.pg-pconnect.md: « pg\_pconnect
+  - function.pg-port.md: pg\_port »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгping
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_ping
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгping
+# pg\_ping
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-пгping — Перевірити з'єднання з базою даних
+pg\_ping — Перевірити з'єднання з базою даних
 
 ### Опис
 
@@ -18,13 +19,13 @@ title: пгping
 pg_ping(?PgSql\Connection $connection = null): bool
 ```
 
-**пгping()** перевіряє з'єднання з базою даних та перепідключається, якщо воно порушено.
+**pg\_ping()** перевіряє з'єднання з базою даних та перепідключається, якщо воно порушено.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection`указан как\*\*`null`\*\*, вибирається стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -32,18 +33,18 @@ pg_ping(?PgSql\Connection $connection = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | `connection` тепер допускає значення null. |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `connection` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгping()****
+**Пример #1 Пример использования**pg\_ping()\*\*\*\*
 
 ```php
 <?php
@@ -60,5 +61,5 @@ if (!pg_ping($conn))
 
 ### Дивіться також
 
--   [пгconnectionstatus()](function.pg-connection-status.md) - Визначає стан підключення
--   [пгconnectionreset()](function.pg-connection-reset.md) - Скидання підключення (перепідключення)
+-   [pg\_connection\_status()](function.pg-connection-status.md) \- Визначає стан підключення
+-   [pg\_connection\_reset()](function.pg-connection-reset.md) \- Скидання підключення (перепідключення)

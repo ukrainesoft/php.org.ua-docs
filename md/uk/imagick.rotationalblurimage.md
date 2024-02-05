@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::rotationalBlurImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::rotationalBlurImage
 
-(PECL imagick 3> = 3.3.0)
+(PECL imagick 3 >= 3.3.0)
 
 Imagick::rotationalBlurImage — Застосовує обертальне розмиття до зображення
 
@@ -28,7 +29,7 @@ public Imagick::rotationalBlurImage(float $angle, int $channel = Imagick::CHANNE
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно \*\*`Imagick::CHANNEL_DEFAULT`\*\*Обратитесь к списку[констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public Imagick::rotationalBlurImage(float $angle, int $channel = Imagick::CHANNE
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::rotationalBlurImage()****
+**Пример #1 Пример использования**Imagick::rotationalBlurImage()\*\*\*\*
 
 ```php
 <?php

@@ -3,8 +3,9 @@ navigation:
   - migration71.new-functions.md: « Нові функції
   - migration71.incompatible.md: 'Зміни, що ламають зворотну сумісність »'
   - index.md: PHP Manual
-  - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
+  - migration71.md: Міграція з PHP 7.0.x на PHP 7.1.x
 title: Нові глобальні константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Нові глобальні константи
 
@@ -22,7 +23,7 @@ title: Нові глобальні константи
 
 -   **`FILTER_FLAG_EMAIL_UNICODE`**
 
-### [Обработка изображений и GD](book.image.md)
+### [Обробка зображень та GD](book.image.md)
 
 -   **`IMAGETYPE_WEBP`**
 

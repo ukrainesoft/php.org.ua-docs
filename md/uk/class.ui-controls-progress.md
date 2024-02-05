@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-slider.setvalue.md: '« UIControlsSlider::setValue'
-  - ui-controls-progress.getvalue.md: 'ОЙControlsProgress::getValue »'
+  - ui-controls-slider.setvalue.md: '« UI\\Controls\\Slider::setValue'
+  - ui-controls-progress.getvalue.md: 'UI\\Controls\\Progress::getValue »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент управління "Хід виконання"
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент управління "Хід виконання"
 
@@ -56,5 +57,5 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsProgress::getValue](ui-controls-progress.getvalue.md) — Отримати значення
--   [ОЙControlsProgress::setValue](ui-controls-progress.setvalue.md) — Встановити значення
+-   [UI\\Controls\\Progress::getValue](ui-controls-progress.getvalue.md)— Отримати значення
+-   [UI\\Controls\\Progress::setValue](ui-controls-progress.setvalue.md)— Встановити значення

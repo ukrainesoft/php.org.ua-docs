@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-process.kill.md: '« SwooleProcess::kill'
-  - swoole-process.pop.md: 'SwooleProcess::pop »'
+  - swoole-process.kill.md: '« Swoole\\Process::kill'
+  - swoole-process.pop.md: 'Swoole\\Process::pop »'
   - index.md: PHP Manual
-  - class.swoole-process.md: SwooleProcess
-title: 'SwooleProcess::name'
+  - class.swoole-process.md: Swoole\\Process
+title: 'Swoole\\Process::name'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleProcess::name
+# Swoole\\Process::name
 
 (PECL swoole >= 1.9.0)
 
-SwooleProcess::name — Встановлює назву процесу
+Swoole\\Process::name — Встановлює назву процесу
 
 ### Опис
 

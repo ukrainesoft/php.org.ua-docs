@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'SolrDisMaxQuery::setQueryAlt'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrDisMaxQuery::setQueryAlt
 
@@ -20,7 +21,7 @@ public SolrDisMaxQuery::setQueryAlt(string $q): SolrDisMaxQuery
 
 Встановлює альтернативний запит (параметр q.alt).
 
-Коли основний параметр *до* не вказаний чи порожній. Використовується параметр *q.alt*
+Когда основной параметр*q* не вказаний чи порожній. Використовується параметр *q.alt*
 
 ### Список параметрів
 
@@ -34,7 +35,7 @@ public SolrDisMaxQuery::setQueryAlt(string $q): SolrDisMaxQuery
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SolrDisMaxQuery::setQueryAlt()****
+**Пример #1 Пример использования**SolrDisMaxQuery::setQueryAlt()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ $dismaxQuery->setQueryAlt('*:*');
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 defType=edismax&q.alt=*:*&q=

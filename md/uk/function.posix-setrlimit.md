@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-setpgid.md: « posixsetpgid
-  - function.posix-setsid.md: posixsetsid »
+  - function.posix-setpgid.md: « posix\_setpgid
+  - function.posix-setsid.md: posix\_setsid »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixsetrlimit
+  - ref.posix.md: POSIX Функції
+title: posix\_setrlimit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixsetrlimit
+# posix\_setrlimit
 
 (PHP 7, PHP 8)
 
-posixsetrlimit - Встановлює межі системних ресурсів
+posix\_setrlimit - Встановлює межі системних ресурсів
 
 ### Опис
 
@@ -18,15 +19,15 @@ posixsetrlimit - Встановлює межі системних ресурсі
 posix_setrlimit(int $resource, int $soft_limit, int $hard_limit): bool
 ```
 
-**posixsetrlimit()** встановлює жорсткі та м'які межі заданих системних ресурсів.
+**posix\_setrlimit()** встановлює жорсткі та м'які межі заданих системних ресурсів.
 
-З кожним ресурсом асоційовані свої м'які та жорсткі обмеження. М'які обмеження - величина, яку ядро ​​обіцяє забезпечити ресурсу. Жорсткі обмеження – це величина, що характеризує стелю м'яких ресурсів. Непривілейований процес може управляти лише своїми м'якими обмеженнями, виставляючи їх від 0 до величини жорсткого обмеження.
+З кожним ресурсом асоційовані свої м'які та жорсткі обмеження. М'які обмеження це величина, яку ядро ​​обіцяє забезпечити ресурсу. Жорсткі обмеження - це величина, що характеризує стелю м'яких ресурсів. Непривілейований процес може керувати лише своїми м'якими обмеженнями, виставляючи їх від 0 до величини жорсткого обмеження.
 
 ### Список параметрів
 
 `resource`
 
-[Константа предела ресурса](posix.constants.setrlimit.md) що відповідає за межу, яка має бути встановлена.
+[Константа межі ресурсу](posix.constants.setrlimit.md) що відповідає за межу, яка має бути встановлена.
 
 `soft_limit`
 
@@ -38,9 +39,9 @@ posix_setrlimit(int $resource, int $soft_limit, int $hard_limit): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
 -   man page SETRLIMIT(2)
--   [posixgetrlimit()](function.posix-getrlimit.md) - Повертає інформацію про обмеження системних ресурсів
+-   [posix\_getrlimit()](function.posix-getrlimit.md) \- Повертає інформацію про обмеження системних ресурсів

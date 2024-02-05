@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ps-continue-text.md: «pscontinuetext
-  - function.ps-delete.md: псdelete »
+  - function.ps-continue-text.md: « ps\_continue\_text
+  - function.ps-delete.md: ps\_delete »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псcurveto
+title: ps\_curveto
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псcurveto
+# ps\_curveto
 
 (PECL ps >= 1.1.0)
 
-псcurveto - Малює криву
+ps\_curveto - Малює криву
 
 ### Опис
 
 ```methodsynopsis
-ps_curveto(    resource $psdoc,    float $x1,    float $y1,    float $x2,    float $y2,    float $x3,    float $y3): bool
+ps_curveto(    resource $psdoc,    float $x1,    float $y1,    float $x2,    float $y2,    float $x3,    float $y3): bool
 ```
 
 Додає відрізок кубічної кривої Безьє, описаний трьома заданими контрольними точками, до поточного шляху. points to the current path.
@@ -24,7 +25,7 @@ ps_curveto(    resource $psdoc,    float $x1,    float $y1,    float $x2,    flo
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `x1`
 
@@ -52,8 +53,8 @@ ps_curveto(    resource $psdoc,    float $x1,    float $y1,    float $x2,    flo
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [псlineto()](function.ps-lineto.md) - Малює лінію
+-   [ps\_lineto()](function.ps-lineto.md) \- Малює лінію

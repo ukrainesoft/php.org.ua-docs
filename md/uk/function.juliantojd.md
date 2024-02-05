@@ -3,8 +3,9 @@ navigation:
   - function.jewishtojd.md: « jewishtojd
   - function.unixtojd.md: unixtojd »
   - index.md: PHP Manual
-  - ref.calendar.md: Календарь
+  - ref.calendar.md: Календар
 title: juliantojd
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # juliantojd
 
@@ -46,5 +47,5 @@ juliantojd(int $month, int $day, int $year): int
 
 ### Дивіться також
 
--   [jdtojulian()](function.jdtojulian.md) - Переказує кількість днів у юліанському літочисленні в дату за юліанським календарем
--   [calтоjd()](function.cal-to-jd.md) - Перетворює задану дату на юліанську
+-   [jdtojulian()](function.jdtojulian.md) \- Переказує кількість днів у юліанському літочисленні в дату за юліанським календарем
+-   [cal\_to\_jd()](function.cal-to-jd.md) \- Перетворює задану дату на юліанську

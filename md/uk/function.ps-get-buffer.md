@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-findfont.md: «psfindfont
-  - function.ps-get-parameter.md: псgetparameter »
+  - function.ps-findfont.md: « ps\_findfont
+  - function.ps-get-parameter.md: ps\_get\_parameter »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псgetbuffer
+title: ps\_get\_buffer
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псgetbuffer
+# ps\_get\_buffer
 
 (PECL ps >= 1.1.0)
 
-псgetbuffer — Отримує повний буфер, що містить PS
+ps\_get\_buffer — Отримує повний буфер, що містить PS
 
 ### Опис
 
@@ -22,14 +23,14 @@ ps_get_buffer(resource $psdoc): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 ### Дивіться також
 
--   [псopenfile()](function.ps-open-file.md) - Відкриває файл для виводу
+-   [ps\_open\_file()](function.ps-open-file.md) \- Відкриває файл для виводу

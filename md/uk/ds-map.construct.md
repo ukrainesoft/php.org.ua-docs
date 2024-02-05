@@ -1,20 +1,21 @@
 ---
 navigation:
-  - ds-map.clear.md: '« DsMap::clear'
-  - ds-map.copy.md: 'ДсMap::copy »'
+  - ds-map.clear.md: '« Ds\\Map::clear'
+  - ds-map.copy.md: 'Ds\\Map::copy »'
   - index.md: PHP Manual
-  - class.ds-map.md: Коллекция пар ключ-значение
-title: 'ДсMap::construct'
+  - class.ds-map.md: Ds\\Map
+title: 'Ds\\Map::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсMap::construct
+# Ds\\Map::\_\_construct
 
 (PECL ds >= 1.0.0)
 
-ДсMap::construct — Створює новий екземпляр
+Ds\\Map::\_\_construct — Створює новий екземпляр
 
 ### Опис
 
-public **ДсMap::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `...$values`
+public**Ds\\Map::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `...$values`) .
 
 Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, переданий як параметр `values`
 
@@ -26,7 +27,7 @@ public **ДсMap::construct**[mixed](language.types.declarations.md#language.typ
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсMap::construct()****
+**Пример #1 Пример использования**Ds\\Map::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -38,7 +39,7 @@ var_dump($map);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Map)#1 (0) {

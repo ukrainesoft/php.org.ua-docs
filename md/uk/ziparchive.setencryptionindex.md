@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::setEncryptionIndex'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::setEncryptionIndex
 
@@ -28,7 +29,7 @@ public ZipArchive::setEncryptionIndex(int $index, int $method, ?string $password
 
 `method`
 
-Метод шифрування, заданий однією із констант ZipArchive::EM
+Метод шифрування, заданий однією із констант ZipArchive::EM\_
 
 `password`
 
@@ -36,21 +37,21 @@ public ZipArchive::setEncryptionIndex(int $index, int $method, ?string $password
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `password` тепер допускає значення null. |
+| 8.0.0 | `password` тепер допускає значення null. |
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна лише якщо скомпільовано за допомогою libzip ≥ 1.2.0.
 
 ### Дивіться також
 
--   [ZipArchive::setPassword()](ziparchive.setpassword.md) - Встановлення пароля для активного архіву
--   [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.md) - Встановити метод шифрування запису на його ім'я
+-   [ZipArchive::setPassword()](ziparchive.setpassword.md) \- Встановлення пароля для активного архіву
+-   [ZipArchive::setEncryptionName()](ziparchive.setencryptionname.md) \- Встановити метод шифрування запису на його ім'я

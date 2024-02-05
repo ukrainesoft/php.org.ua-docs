@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageProperties'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageProperties
 
@@ -36,7 +37,7 @@ public Imagick::getImageProperties(string $pattern = "*", bool $include_values =
 
 ### Приклади
 
-**Приклад #1 Використання **Imagick::getImageProperties()****
+**Пример #1 Использование**Imagick::getImageProperties()\*\* :\*\*
 
 Приклад отримання EXIF-інформації.
 

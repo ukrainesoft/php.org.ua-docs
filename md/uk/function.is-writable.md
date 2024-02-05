@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-uploaded-file.md: « isuploadedfile
-  - function.is-writeable.md: ісwriteable »
+  - function.is-uploaded-file.md: « is\_uploaded\_file
+  - function.is-writeable.md: is\_writeable »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
-title: ісwritable
+title: is\_writable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісwritable
+# is\_writable
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісwritable — Визначає, чи є файл для запису.
+is\_writable — Визначає, чи є файл для запису.
 
 ### Опис
 
@@ -20,7 +21,7 @@ is_writable(string $filename): bool
 
 Повертає **`true`**, якщо файл `filename` існує та доступний для запису. Аргумент filename може бути ім'ям директорії, що дозволяє перевіряти директорії на доступність для запису.
 
-Не забувайте, що PHP може звертатися до файлу від імені користувача, від якого запущений веб-сервер (зазвичай 'nobody'). Обмеження безпечного режиму не беруться до уваги.
+Не забувайте, що PHP може звертатися до файлу від імені користувача, від якого запущений веб-сервер (зазвичай 'nobody').
 
 ### Список параметрів
 
@@ -38,7 +39,7 @@ is_writable(string $filename): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ісwritable()****
+**Пример #1 Пример использования**is\_writable()\*\*\*\*
 
 ```php
 <?php
@@ -57,10 +58,10 @@ if (is_writable($filename)) {
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), смотрите в разделе[Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 
--   [ісreadable()](function.is-readable.md) - Визначає існування файлу і чи він доступний для читання
--   [fileexists()](function.file-exists.md) - Перевіряє існування вказаного файлу чи каталогу
--   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл
+-   [is\_readable()](function.is-readable.md) \- Визначає існування файлу і чи він доступний для читання
+-   [file\_exists()](function.file-exists.md) \- Перевіряє існування вказаного файлу чи каталогу
+-   [fwrite()](function.fwrite.md) \- Бінарно-безпечний запис у файл

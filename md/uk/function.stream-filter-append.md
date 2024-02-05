@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.stream-copy-to-stream.md: « streamcopyтоstream
-  - function.stream-filter-prepend.md: streamfilterprepend »
+  - function.stream-copy-to-stream.md: « stream\_copy\_to\_stream
+  - function.stream-filter-prepend.md: stream\_filter\_prepend »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamfilterappend
+title: stream\_filter\_append
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamfilterappend
+# stream\_filter\_append
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-streamfilterappend — Прикріпити фільтр до потоку
+stream\_filter\_append — Прикріпити фільтр до потоку
 
 ### Опис
 
 ```methodsynopsis
-stream_filter_append(    resource $stream,    string $filtername,    int $read_write = ?,    mixed $params = ?): resource
+stream_filter_append(    resource $stream,    string $filtername,    int $read_write = ?,    mixed $params = ?): resource
 ```
 
-Додає `filtername` до списку фільтрів, прикріплених до `stream`
+Добавляет`filtername` до списку фільтрів, прикріплених до `stream`
 
 ### Список параметрів
 
@@ -32,17 +33,17 @@ stream_filter_append(    resource $stream,    string $filtername,    int $read_w
 
 `read_write`
 
-За замовчуванням **streamfilterappend()** буде прикріплювати фільтр до `цепочке фильтров чтения`, якщо файл був відкритий для читання (тобто режим файлу: `r`, та/або `+`). Фільтр також буде прикріплений до `цепочке фильтров записи`, якщо файл був відкритий для запису (тобто режим файлу: `w` `a`, та/або `+`). Константи **`STREAM_FILTER_READ`** **`STREAM_FILTER_WRITE`** та/або **`STREAM_FILTER_ALL`** також можуть бути передані у параметрі `read_write`, щоб перевизначити цю поведінку.
+По умолчанию\*\*stream\_filter\_append()\*\*будет прикреплять фильтр к`ланцюжку фільтрів читання`, якщо файл був відкритий для читання (тобто режим файлу: `r`, и/или`+` ). Фільтр також буде прикріплений до `ланцюжку фільтрів запису`, якщо файл був відкритий для запису (тобто режим файлу: `w` `a`, и/или`+` ). Константи **`STREAM_FILTER_READ`** **`STREAM_FILTER_WRITE`**и/или**`STREAM_FILTER_ALL`** також можуть бути передані у параметрі `read_write`, щоб перевизначити цю поведінку.
 
 `params`
 
-Цей фільтр буде додано із зазначеними `params` до *кінцю* списку і, таким чином, буде викликано останнім у списку потокових операцій. Щоб додати фільтр до початку списку, використовуйте [streamfilterprepend()](function.stream-filter-prepend.md)
+Цей фільтр буде додано із зазначеними `params`к*кінцю* списку і, таким чином, буде викликано останнім у списку потокових операцій. Щоб додати фільтр до початку списку, використовуйте [stream\_filter\_prepend()](function.stream-filter-prepend.md)
 
 ### Значення, що повертаються
 
-Повертає ресурс у разі успішного виконання або **`false`** при невдачі. Ресурс повинен бути використаний для посилання на цей екземпляр фільтра під час виклику [streamfilterremove()](function.stream-filter-remove.md)
+Повертає ресурс у разі успішного виконання або **`false`** при невдачі. Ресурс повинен бути використаний для посилання на цей екземпляр фільтра під час виклику [stream\_filter\_remove()](function.stream-filter-remove.md)
 
-Поверне **`false`**, якщо `stream` не є ресурсом або якщо `filtername` НЕ знайдений.
+Поверне **`false`**, якщо `stream` не є ресурсом або якщо `filtername`не найден.
 
 ### Приклади
 
@@ -86,14 +87,14 @@ Guvf vf n grfg
 ### Примітки
 
 > **Зауваження** **При використанні фільтрів користувача**  
-> Спочатку має бути викликана функція [streamfilterregister()](function.stream-filter-register.md) для того, щоб зареєструвати бажаний фільтр користувача на ім'я `filtername`
+> Спочатку має бути викликана функція [stream\_filter\_register()](function.stream-filter-register.md) для того, щоб зареєструвати бажаний фільтр користувача на ім'я `filtername`
 
-> **Зауваження**: Поточні дані читаються з ресурсів (як локальних, так і віддалених) по шматках, і будь-які незатребувані дані зберігаються у внутрішніх буферах. Коли новий фільтр додається в кінець потоку, дані у внутрішніх буферах обробляються через новий фільтр. Це відрізняється від поведінки функції [streamfilterprepend()](function.stream-filter-prepend.md)
+> **Зауваження**: Поточні дані читаються з ресурсів (як локальних, так і віддалених) по шматках, і будь-які незатребувані дані зберігаються у внутрішніх буферах. Коли новий фільтр додається в кінець потоку, дані у внутрішніх буферах обробляються через новий фільтр. Це відрізняється від поведінки функції [stream\_filter\_prepend()](function.stream-filter-prepend.md)
 
-> **Зауваження**: Коли фільтр додається для читання та запису, створюються два екземпляри фільтра. Функція **streamfilterappend()** повинна бути викликана двічі з **`STREAM_FILTER_READ`** і **`STREAM_FILTER_WRITE`** щоб отримати обидва ресурси фільтра.
+> **Зауваження**: Коли фільтр додається для читання та запису, створюються два екземпляри фільтра. Функція **stream\_filter\_append()** повинна бути викликана двічі з **`STREAM_FILTER_READ`**и**`STREAM_FILTER_WRITE`** щоб отримати обидва ресурси фільтра.
 
 ### Дивіться також
 
--   [streamfilterregister()](function.stream-filter-register.md) - Реєструє потоковий фільтр, визначений користувачем
--   [streamfilterprepend()](function.stream-filter-prepend.md) - Прикріплює фільтр до потоку
--   [streamgetfilters()](function.stream-get-filters.md) - Отримати список зареєстрованих фільтрів
+-   [stream\_filter\_register()](function.stream-filter-register.md) \- Реєструє потоковий фільтр, визначений користувачем
+-   [stream\_filter\_prepend()](function.stream-filter-prepend.md) \- Прикріплює фільтр до потоку
+-   [stream\_get\_filters()](function.stream-get-filters.md) \- Отримати список зареєстрованих фільтрів

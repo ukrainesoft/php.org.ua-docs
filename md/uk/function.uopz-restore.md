@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.uopz-rename.md: « uopzrename
-  - function.uopz-set-hook.md: uopzsethook »
+  - function.uopz-rename.md: « uopz\_rename
+  - function.uopz-set-hook.md: uopz\_set\_hook »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
-title: uopzrestore
+title: uopz\_restore
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# uopzrestore
+# uopz\_restore
 
-(PECL uopz 1> = 1.0.3, PECL uopz 2)
+(PECL uopz 1 >= 1.0.3, PECL uopz 2)
 
-uopzrestore — Відновити раніше зарезервовану функцію
+uopz\_restore — Відновити раніше зарезервовану функцію
 
 **Увага**
 
-Ця функція була *ВИДАЛЕНО* у PECL uopz 5.0.0.
+Ця функція була *ВИДАЛЕНО*в PECL uopz 5.0.0.
 
 ### Опис
 
@@ -42,7 +43,7 @@ uopz_restore(string $class, string $function): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **uopzrestore()****
+**Пример #1 Пример использования**uopz\_restore()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ fgets();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Warning: fgets() expects at least 1 parameter, 0 given in /path/to/script.php on line 8

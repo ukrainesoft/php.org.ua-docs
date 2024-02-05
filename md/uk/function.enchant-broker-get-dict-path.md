@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.enchant-broker-free.md: « enchantbrokerfree
-  - function.enchant-broker-get-error.md: enchantbrokergeterror »
+  - function.enchant-broker-free.md: « enchant\_broker\_free
+  - function.enchant-broker-get-error.md: enchant\_broker\_get\_error »
   - index.md: PHP Manual
-  - ref.enchant.md: Функции Enchant
-title: enchantbrokergetdictpath
+  - ref.enchant.md: Функції Enchant
+title: enchant\_broker\_get\_dict\_path
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# enchantbrokergetdictpath
+# enchant\_broker\_get\_dict\_path
 
 (PHP 5 >= 5.3.1, PHP 7, PHP 8, PECL enchant >= 1.0.1)
 
-enchantbrokergetdictpath — Повертає шлях словника для заданого бекенду
+enchant\_broker\_get\_dict\_path — Повертає шлях словника для заданого бекенду
 
 **Увага**
 
@@ -28,28 +29,28 @@ enchant_broker_get_dict_path(EnchantBroker $broker, int $type): string|false
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
+Провайдер Enchant, який повертається [enchant\_broker\_init()](function.enchant-broker-init.md)
 
 `type`
 
-Тип словників, тобто . **`ENCHANT_MYSPELL`** або **`ENCHANT_ISPELL`**
+Тип словників, тобто . **`ENCHANT_MYSPELL`**или**`ENCHANT_ISPELL`**
 
 ### Значення, що повертаються
 
-Повертає шлях до директорії словника у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає шлях до директорії словника у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.0.0 | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна, тільки якщо модуль був скомпільований з Enchant v1.
 
 ### Дивіться також
 
--   [enchantbrokersetdictpath()](function.enchant-broker-set-dict-path.md) - Встановити шлях для заданого бекенду
+-   [enchant\_broker\_set\_dict\_path()](function.enchant-broker-set-dict-path.md) \- Встановити шлях для заданого бекенду

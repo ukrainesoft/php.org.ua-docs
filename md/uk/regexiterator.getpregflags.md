@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::getPregFlags'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RegexIterator::getPregFlags
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::getPregFlags — Повертає прапори регулярного виразу
 
@@ -18,7 +19,7 @@ RegexIterator::getPregFlags — Повертає прапори регулярн
 public RegexIterator::getPregFlags(): int
 ```
 
-Повертає прапори регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::construct()](regexiterator.construct.md)
+Повертає прапори регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::\_\_construct()](regexiterator.construct.md)
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public RegexIterator::getPregFlags(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RegexIterator::getPregFlags()****
+**Пример #1 Пример использования**RegexIterator::getPregFlags()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ if ($regexIterator->getPregFlags() & PREG_SPLIT_NO_EMPTY) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Не принимать во внимание пустые участки
@@ -58,4 +59,4 @@ if ($regexIterator->getPregFlags() & PREG_SPLIT_NO_EMPTY) {
 
 ### Дивіться також
 
--   [RegexIterator::setPregFlags()](regexiterator.setpregflags.md) - Завдання прапорів регулярного вираження
+-   [RegexIterator::setPregFlags()](regexiterator.setpregflags.md) \- Завдання прапорів регулярного вираження

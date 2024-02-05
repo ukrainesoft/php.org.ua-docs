@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-config-simple.construct.md: '« YafConfigSimple::construct'
-  - yaf-config-simple.current.md: 'YafConfigSimple::current »'
+  - yaf-config-simple.construct.md: '« Yaf\_Config\_Simple::\_\_construct'
+  - yaf-config-simple.current.md: 'Yaf\_Config\_Simple::current »'
   - index.md: PHP Manual
-  - class.yaf-config-simple.md: YafConfigSimple
-title: 'YafConfigSimple::count'
+  - class.yaf-config-simple.md: Yaf\_Config\_Simple
+title: 'Yaf\_Config\_Simple::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafConfigSimple::count
+# Yaf\_Config\_Simple::count
 
 (Yaf >=1.0.0)
 
-YafConfigSimple::count — Призначення count
+Yaf\_Config\_Simple::count — Призначення count
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Yaf_Config_Simple::count(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

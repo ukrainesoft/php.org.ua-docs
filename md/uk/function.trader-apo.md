@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-adxr.md: « traderadxr
-  - function.trader-aroon.md: traderaroon »
+  - function.trader-adxr.md: « trader\_adxr
+  - function.trader-aroon.md: trader\_aroon »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderapo
+  - ref.trader.md: Функції Trader
+title: trader\_apo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderapo
+# trader\_apo
 
 (PECL trader >= 0.2.0)
 
-traderapo — Абсолютний ціновий осцилятор
+trader\_apo — Абсолютний ціновий осцилятор
 
 ### Опис
 
 ```methodsynopsis
-trader_apo(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    int $mAType = ?): array
+trader_apo(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    int $mAType = ?): array
 ```
 
 ### Список параметрів
@@ -34,7 +35,7 @@ trader_apo(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    i
 
 `mAType`
 
-Тип ковзної середньої. Слід використовувати серію констант [TRADERМАTYPE](trader.constants.md)
+Тип ковзної середньої. Слід використовувати серію констант [TRADER\_MA\_TYPE\_\*](trader.constants.md)
 
 ### Значення, що повертаються
 

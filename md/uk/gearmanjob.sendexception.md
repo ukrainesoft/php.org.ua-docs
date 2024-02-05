@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::sendException'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanJob::sendException
 
@@ -28,10 +29,10 @@ public GearmanJob::sendException(string $exception): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [GearmanJob::setReturn()](gearmanjob.setreturn.md) - Встановлення значення, що повертається
--   [GearmanJob::sendStatus()](gearmanjob.sendstatus.md) - Надсилання статусу
--   [GearmanJob::sendWarning()](gearmanjob.sendwarning.md) - Відправлення попередження
+-   [GearmanJob::setReturn()](gearmanjob.setreturn.md) \- Встановлення значення, що повертається
+-   [GearmanJob::sendStatus()](gearmanjob.sendstatus.md) \- Надсилання статусу
+-   [GearmanJob::sendWarning()](gearmanjob.sendwarning.md) \- Відправлення попередження

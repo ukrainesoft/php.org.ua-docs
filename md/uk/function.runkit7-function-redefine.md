@@ -1,25 +1,26 @@
 ---
 navigation:
-  - function.runkit7-function-copy.md: « runkit7functioncopy
-  - function.runkit7-function-remove.md: runkit7functionremove »
+  - function.runkit7-function-copy.md: « runkit7\_function\_copy
+  - function.runkit7-function-remove.md: runkit7\_function\_remove »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
-title: runkit7functionredefine
+title: runkit7\_function\_redefine
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# runkit7functionredefine
+# runkit7\_function\_redefine
 
-(PECL runkit7> = Unknown)
+(PECL runkit7 >= Unknown)
 
-runkit7functionredefine - Замінює визначення функції новою реалізацією
+runkit7\_function\_redefine - Замінює визначення функції новою реалізацією
 
 ### Опис
 
 ```methodsynopsis
-runkit7_function_redefine(    string $function_name,    string $argument_list,    string $code,    bool $return_by_reference = null,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+runkit7_function_redefine(    string $function_name,    string $argument_list,    string $code,    bool $return_by_reference = null,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
 ```
 
 ```methodsynopsis
-runkit7_function_redefine(    string $function_name,    Closure $closure,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+runkit7_function_redefine(    string $function_name,    Closure $closure,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
 ```
 
 > **Зауваження**: За замовчуванням, лише функції користувача можуть бути видалені, перейменовані або змінені. Для перекриття внутрішніх функцій, необхідно включити до php.ini опцію `runkit.internal_override`
@@ -60,11 +61,11 @@ runkit7_function_redefine(    string $function_name,    Closure $closure,    str
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **runkit7functionredefine()****
+**Пример #1 Пример использования**runkit7\_function\_redefine()\*\*\*\*
 
 ```php
 <?php
@@ -77,7 +78,7 @@ testme();
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Оригинальная реализация Testme
@@ -86,8 +87,8 @@ testme();
 
 ### Дивіться також
 
--   [runkit7functionadd()](function.runkit7-function-add.md) - Додає нову функцію, функція аналогічна createfunction
--   [runkit7functioncopy()](function.runkit7-function-copy.md) - Копіює функцію в нове ім'я функції
--   [runkit7functionrename()](function.runkit7-function-rename.md) - Змінює ім'я функції
--   [runkit7functionremove()](function.runkit7-function-remove.md) - Видаляє визначення функції
--   [runkit7methodredefine()](function.runkit7-method-redefine.md) - динамічно змінює код заданого методу
+-   [runkit7\_function\_add()](function.runkit7-function-add.md) \- Додає нову функцію, функція аналогічна create\_function
+-   [runkit7\_function\_copy()](function.runkit7-function-copy.md) \- Копіює функцію в нове ім'я функції
+-   [runkit7\_function\_rename()](function.runkit7-function-rename.md) \- Змінює ім'я функції
+-   [runkit7\_function\_remove()](function.runkit7-function-remove.md) \- Видаляє визначення функції
+-   [runkit7\_method\_redefine()](function.runkit7-method-redefine.md) \- динамічно змінює код заданого методу

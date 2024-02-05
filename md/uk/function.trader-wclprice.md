@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-var.md: « tradervar
-  - function.trader-willr.md: traderwillr »
+  - function.trader-var.md: « trader\_var
+  - function.trader-willr.md: trader\_willr »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderwclprice
+  - ref.trader.md: Функції Trader
+title: trader\_wclprice
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderwclprice
+# trader\_wclprice
 
 (PECL trader >= 0.2.0)
 
-traderwclprice — Зважена ціна закриття
+trader\_wclprice — Зважена ціна закриття
 
 ### Опис
 

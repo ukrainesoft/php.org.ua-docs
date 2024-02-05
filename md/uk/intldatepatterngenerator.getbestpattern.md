@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.intldatepatterngenerator.md: IntlDatePatternGenerator
 title: 'IntlDatePatternGenerator::getBestPattern'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDatePatternGenerator::getBestPattern
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 IntlDatePatternGenerator::getBestPattern — Визначає найбільш вдалий формат дати/часу
 
@@ -28,11 +29,11 @@ public IntlDatePatternGenerator::getBestPattern(string $skeleton): string|false
 
 ### Значення, що повертаються
 
-Повертає формат, який приймається [DateTimeInterface::format()](datetime.format.md) у разі успішного виконання, або **`false`** у разі виникнення помилки.
+Повертає формат, який приймається [DateTimeInterface::format()](datetime.format.md) у разі успішного виконання, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlDatePatternGenerator::getBestPattern()****
+**Пример #1 Пример использования**IntlDatePatternGenerator::getBestPattern()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ echo 'Английский: ', \IntlDateFormatter::formatObject($today, $pattern
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Немецкий: 24.04.2021

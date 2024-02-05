@@ -1,10 +1,11 @@
 ---
 navigation:
-  - soapserver.construct.md: '« SoapServer::construct'
+  - soapserver.construct.md: '« SoapServer::\_\_construct'
   - soapserver.getfunctions.md: 'SoapServer::getFunctions »'
   - index.md: PHP Manual
   - class.soapserver.md: SoapServer
 title: 'SoapServer::fault'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SoapServer::fault
 
@@ -15,12 +16,12 @@ SoapServer::fault — Вимушує SoapServer повернути помилк�
 ### Опис
 
 ```methodsynopsis
-public SoapServer::fault(    string $code,    string $string,    string $actor = "",    mixed $details = null,    string $name = ""): void
+public SoapServer::fault(    string $code,    string $string,    string $actor = "",    mixed $details = null,    string $name = ""): void
 ```
 
 Надсилає клієнту відповідь на поточний запит із повідомленням про помилку.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Може бути викликана лише під час обробки запиту.
 
@@ -52,4 +53,4 @@ public SoapServer::fault(    string $code,    string $string,    string $actor =
 
 ### Дивіться також
 
--   [SoapFault::construct()](soapfault.construct.md) - Конструктор SoapFault
+-   [SoapFault::\_\_construct()](soapfault.construct.md) \- Конструктор SoapFault

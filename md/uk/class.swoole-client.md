@@ -1,12 +1,13 @@
 ---
 navigation:
-  - swoole-channel.stats.md: '« SwooleChannel::stats'
-  - swoole-client.close.md: 'SwooleClient::close »'
+  - swoole-channel.stats.md: '« Swoole\\Channel::stats'
+  - swoole-client.close.md: 'Swoole\\Client::close »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
-title: Клас SwooleClient
+title: Клас Swoole\\Client
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас SwooleClient
+# Клас Swoole\\Client
 
 (PECL swoole >= 1.9.0)
 
@@ -61,7 +62,7 @@ title: Клас SwooleClient
     /* Методы */
     
    public close(bool $force = ?): bool
-public connect(    string $host,    int $port = ?,    int $timeout = ?,    int $flag = ?): bool
+public connect(    string $host,    int $port = ?,    int $timeout = ?,    int $flag = ?): bool
 public __destruct(): void
 public getpeername(): array
 public getsockname(): array
@@ -103,21 +104,21 @@ reuseCount
 
 ## Зміст
 
--   [SwooleClient::close](swoole-client.close.md) — Закриває встановлене з'єднання
--   [SwooleClient::connect](swoole-client.connect.md) — Підключається до віддаленого порту TCP або UDP
--   [SwooleClient::construct](swoole-client.construct.md) — Створює синхронний або асинхронний TCP/UDP клієнт Swoole із підтримкою SSL або без нього
--   [SwooleClient::destruct](swoole-client.destruct.md) - Знищує клієнт Swoole
--   [SwooleClient::getpeername](swoole-client.getpeername.md) — Отримує ім'я віддаленого сокету з'єднання
--   [SwooleClient::getsockname](swoole-client.getsockname.md) — Отримує локальне ім'я сокета з'єднання
--   [SwooleClient::isConnected](swoole-client.isconnected.md) — Перевіряє, чи з'єднання встановлено.
--   [SwooleClient::on](swoole-client.on.md) — Додає callback-функції, спричинені подіями
--   [SwooleClient::pause](swoole-client.pause.md) — Припиняє отримання даних
--   [SwooleClient::pipe](swoole-client.pipe.md) — Перенаправляє дані до іншого файлового дескриптора.
--   [SwooleClient::recv](swoole-client.recv.md) — Отримує дані із віддаленого сокету
--   [SwooleClient::resume](swoole-client.resume.md) — Відновлює отримання даних
--   [SwooleClient::send](swoole-client.send.md) — Надсилає дані у віддалений TCP-сокет
--   [SwooleClient::sendfile](swoole-client.sendfile.md) — Надсилає файл у віддалений TCP-сокет
--   [SwooleClient::sendto](swoole-client.sendto.md) — Надсилає дані на віддалену UDP-адресу
--   [SwooleClient::set](swoole-client.set.md) — Встановлює параметри Swoole до встановлення з'єднання
--   [SwooleClient::sleep](swoole-client.sleep.md) — Видаляє TCP-клієнт із циклу системних подій
--   [SwooleClient::wakeup](swoole-client.wakeup.md) — Додає TCP-клієнт назад у цикл системних подій
+-   [Swoole\\Client::close](swoole-client.close.md)— Закриває встановлене з'єднання
+-   [Swoole\\Client::connect](swoole-client.connect.md)— Підключається до віддаленого порту TCP або UDP
+-   [Swoole\\Client::\_\_construct](swoole-client.construct.md)— Створює синхронний або асинхронний TCP/UDP клієнт Swoole із підтримкою SSL або без нього
+-   [Swoole\\Client::\_\_destruct](swoole-client.destruct.md) \- Знищує клієнт Swoole
+-   [Swoole\\Client::getpeername](swoole-client.getpeername.md)— Отримує ім'я віддаленого сокету з'єднання
+-   [Swoole\\Client::getsockname](swoole-client.getsockname.md)— Отримує локальне ім'я сокета з'єднання
+-   [Swoole\\Client::isConnected](swoole-client.isconnected.md)— Перевіряє, чи з'єднання встановлено.
+-   [Swoole\\Client::on](swoole-client.on.md)— Додає callback-функції, спричинені подіями
+-   [Swoole\\Client::pause](swoole-client.pause.md)— Припиняє отримання даних
+-   [Swoole\\Client::pipe](swoole-client.pipe.md)— Перенаправляє дані до іншого файлового дескриптора.
+-   [Swoole\\Client::recv](swoole-client.recv.md)— Отримує дані із віддаленого сокету
+-   [Swoole\\Client::resume](swoole-client.resume.md)— Відновлює отримання даних
+-   [Swoole\\Client::send](swoole-client.send.md)— Надсилає дані у віддалений TCP-сокет
+-   [Swoole\\Client::sendfile](swoole-client.sendfile.md)— Надсилає файл у віддалений TCP-сокет
+-   [Swoole\\Client::sendto](swoole-client.sendto.md)— Надсилає дані на віддалену UDP-адресу
+-   [Swoole\\Client::set](swoole-client.set.md)— Встановлює параметри Swoole до встановлення з'єднання
+-   [Swoole\\Client::sleep](swoole-client.sleep.md)— Видаляє TCP-клієнт із циклу системних подій
+-   [Swoole\\Client::wakeup](swoole-client.wakeup.md)— Додає TCP-клієнт назад у цикл системних подій

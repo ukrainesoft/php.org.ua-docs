@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::getResultCode'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::getResultCode
 
@@ -30,7 +31,7 @@ public Memcached::getResultCode(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Memcached::getResultCode()****
+**Пример #1 Пример использования**Memcached::getResultCode()\*\*\*\*
 
 ```php
 <?php

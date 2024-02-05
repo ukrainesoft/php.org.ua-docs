@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ui-controls-group.md: « UIControlsGroup
-  - ui-controls-group.construct.md: 'ОЙControlsGroup::construct »'
+  - class.ui-controls-group.md: « UI\\Controls\\Group
+  - ui-controls-group.construct.md: 'UI\\Controls\\Group::\_\_construct »'
   - index.md: PHP Manual
-  - class.ui-controls-group.md: ОЙControlsGroup
-title: 'ОЙControlsGroup::append'
+  - class.ui-controls-group.md: UI\\Controls\\Group
+title: 'UI\\Controls\\Group::append'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsGroup::append
+# UI\\Controls\\Group::append
 
 (No version information available, might only be in Git)
 
-ОЙControlsGroup::append — Додати елемент керування
+UI\\Controls\\Group::append — Додати елемент керування
 
 ### Опис
 

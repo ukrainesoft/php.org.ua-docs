@@ -1,20 +1,21 @@
 ---
 navigation:
-  - ds-vector.clear.md: '« DsVector::clear'
-  - ds-vector.contains.md: 'ДсVector::contains »'
+  - ds-vector.clear.md: '« Ds\\Vector::clear'
+  - ds-vector.contains.md: 'Ds\\Vector::contains »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::construct'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::construct
+# Ds\\Vector::\_\_construct
 
 (PECL ds >= 1.0.0)
 
-ДсVector::construct — Створює новий екземпляр
+Ds\\Vector::\_\_construct — Створює новий екземпляр
 
 ### Опис
 
-public **ДсVector::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
+public**Ds\\Vector::\_\_construct** [mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
 
 Створює новий екземпляр, використовуючи або об'єкт реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 
@@ -26,7 +27,7 @@ public **ДсVector::construct**[mixed](language.types.declarations.md#language.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::construct()****
+**Пример #1 Пример использования**Ds\\Vector::\_\_construct()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump($vector);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Vector)#2 (0) {

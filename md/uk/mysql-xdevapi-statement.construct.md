@@ -1,24 +1,25 @@
 ---
 navigation:
-  - class.mysql-xdevapi-statement.md: « mysqlxdevapiStatement
+  - class.mysql-xdevapi-statement.md: « mysql\_xdevapi\\Statement
   - mysql-xdevapi-statement.getnextresult.md: 'Statement::getNextResult »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-statement.md: mysqlxdevapiStatement
-title: 'Statement::construct'
+  - class.mysql-xdevapi-statement.md: mysql\_xdevapi\\Statement
+title: 'Statement::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Statement::construct
+# Statement::\_\_construct
 
 (No version information available, might only be in Git)
 
-Statement::construct — Опис конструктора
+Statement::\_\_construct — Опис конструктора
 
 ### Опис
 
-private **mysqlxdevapiStatement::construct**
+private**mysql\_xdevapi\\Statement::\_\_construct**()
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -26,7 +27,7 @@ private **mysqlxdevapiStatement::construct**
 
 ### Приклади
 
-**Приклад #1 **mysqlxdevapiStatement::construct()** example**
+**Пример #1**mysql\_xdevapi\\Statement::\_\_construct()**example**
 
 ```php
 <?php

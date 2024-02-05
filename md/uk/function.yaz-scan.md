@@ -1,32 +1,33 @@
 ---
 navigation:
-  - function.yaz-scan-result.md: « yazscanresult
-  - function.yaz-schema.md: yazschema »
+  - function.yaz-scan-result.md: « yaz\_scan\_result
+  - function.yaz-schema.md: yaz\_schema »
   - index.md: PHP Manual
-  - ref.yaz.md: Функции YAZ
-title: yazscan
+  - ref.yaz.md: Функції YAZ
+title: yaz\_scan
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# yazscan
+# yaz\_scan
 
-(PHP 4> = 4.0.5, PECL yaz> = 0.9.0)
+(PHP 4 >= 4.0.5, PECL yaz >= 0.9.0)
 
-yazscan — Підготовка сканування
+yaz\_scan — Підготовка сканування
 
 ### Опис
 
 ```methodsynopsis
-yaz_scan(    resource $id,    string $type,    string $startterm,    array $flags = ?): void
+yaz_scan(    resource $id,    string $type,    string $startterm,    array $flags = ?): void
 ```
 
 Функція готує запит сканування для встановленого з'єднання протоколу Z39.50.
 
-Щоб надіслати запит сканування на сервер і отримати відповідь, потрібно викликати функцію [yazwait()](function.yaz-wait.md). Як запевняють [yazwait()](function.yaz-wait.md) викличте [yazerror()](function.yaz-error.md) для отримання помилки та [yazscanresult()](function.yaz-scan-result.md) для отримання результату.
+Щоб надіслати запит сканування на сервер і отримати відповідь, потрібно викликати функцію [yaz\_wait()](function.yaz-wait.md). Як запевняють [yaz\_wait()](function.yaz-wait.md) викличте [yaz\_error()](function.yaz-error.md)для получения ошибки и[yaz\_scan\_result()](function.yaz-scan-result.md)для получения результата.
 
 ### Список параметрів
 
 `id`
 
-Дескриптор з'єднання, повернутий [yazconnect()](function.yaz-connect.md)
+Дескриптор з'єднання, повернутий [yaz\_connect()](function.yaz-connect.md)
 
 `type`
 
@@ -38,11 +39,11 @@ yaz_scan(    resource $id,    string $type,    string $startterm,    array $flag
 
 Форма, в якій представлений початковий елемент сканування, задається параметром `type`
 
-Синтаксис цього параметра схожий на запит RPN, який описаний для [yazsearch()](function.yaz-search.md). Він складається з нуля чи більше операторних налаштувань `@attr`, За якими слідує єдина лексема.
+Синтаксис цього параметра схожий на запит RPN, який описаний для [yaz\_search()](function.yaz-search.md). Він складається з нуля чи більше операторних налаштувань `@attr`, За якими слідує єдина лексема.
 
 `flags`
 
-Цей необов'язковий параметр визначає додаткову інформацію для керування поведінкою сканування. З масиву прапорів доступні три індекси: `number` (кількість термів, що запитуються), `position` (позиція терма) та `stepSize` (Розмір кроку).
+Цей необов'язковий параметр визначає додаткову інформацію для керування поведінкою сканування. З масиву прапорів доступні три індекси: `number` (кількість термів, що запитуються), `position`(позиция терма) и`stepSize`(размер шага).
 
 ### Значення, що повертаються
 

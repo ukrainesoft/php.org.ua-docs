@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.eio-nready.md: « eionready
-  - function.eio-nthreads.md: eionthreads »
+  - function.eio-nready.md: « eio\_nready
+  - function.eio-nthreads.md: eio\_nthreads »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eionreqs
+  - ref.eio.md: Eio Функції
+title: eio\_nreqs
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eionreqs
+# eio\_nreqs
 
 (PECL eio >= 0.0.1dev)
 
-eionreqs — Повертає кількість запитів, які потрібно виконати
+eio\_nreqs — Повертає кількість запитів, які потрібно виконати
 
 ### Опис
 
@@ -18,7 +19,7 @@ eionreqs — Повертає кількість запитів, які потр
 eio_nreqs(): int
 ```
 
-**eionreqs()** може бути виконана у довільному циклі, викликаному [eiopoll()](function.eio-poll.md)
+**eio\_nreqs()** може бути виконана у довільному циклі, викликаному [eio\_poll()](function.eio-poll.md)
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ eio_nreqs(): int
 
 ### Значення, що повертаються
 
-**eionreqs()** повертає кількість запитів, які потрібно виконати.
+**eio\_nreqs()** повертає кількість запитів, які потрібно виконати.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **eionreqs()****
+**Пример #1 Пример использования**eio\_nreqs()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ while (eio_nreqs()) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "1"
@@ -62,5 +63,5 @@ int(0)
 
 ### Дивіться також
 
--   [eiopoll()](function.eio-poll.md) - Може бути викликана коли є запити, що очікують на виконання
--   [eionready()](function.eio-nready.md) - Повертає кількість ще не опрацьованих запитів
+-   [eio\_poll()](function.eio-poll.md) \- Може бути викликана коли є запити, що очікують на виконання
+-   [eio\_nready()](function.eio-nready.md) \- Повертає кількість ще не опрацьованих запитів

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-symbol.jsonserialize.md: '« MongoDBBSONSymbol::jsonSerialize'
-  - mongodb-bson-symbol.tostring.md: 'MongoDBBSONSymbol::toString »'
+  - mongodb-bson-symbol.jsonserialize.md: '« MongoDB\\BSON\\Symbol::jsonSerialize'
+  - mongodb-bson-symbol.tostring.md: 'MongoDB\\BSON\\Symbol::\_\_toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-symbol.md: MongoDBBSONSymbol
-title: 'MongoDBBSONSymbol::serialize'
+  - class.mongodb-bson-symbol.md: MongoDB\\BSON\\Symbol
+title: 'MongoDB\\BSON\\Symbol::serialize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONSymbol::serialize
+# MongoDB\\BSON\\Symbol::serialize
 
 (mongodb >=1.4.0)
 
-MongoDBBSONSymbol::serialize — Серіалізує Symbol
+MongoDB\\BSON\\Symbol::serialize — Серіалізує Symbol
 
 ### Опис
 
@@ -24,14 +25,14 @@ final public MongoDB\BSON\Symbol::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONSymbol](class.mongodb-bson-symbol.md)
+Возвращает сериализованное представление[MongoDB\\BSON\\Symbol](class.mongodb-bson-symbol.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONSymbol::unserialize()](mongodb-bson-symbol.unserialize.md) - Десеріалізує Symbol
--   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [MongoDB\\BSON\\Symbol::unserialize()](mongodb-bson-symbol.unserialize.md) \- Десеріалізує Symbol
+-   [serialize()](function.serialize.md) \- Генерує придатне для зберігання уявлення змінної
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

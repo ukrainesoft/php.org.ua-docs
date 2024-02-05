@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - book.dom.md: DOM
 title: Клас DOMNamedNodeMap
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас DOMNamedNodeMap
 
@@ -14,16 +15,15 @@ title: Клас DOMNamedNodeMap
 
 ```classsynopsis
 
-     
+    
+     class DOMNamedNodeMap
     
 
     
-     
-      class DOMNamedNodeMap
-     
+     implements
+      IteratorAggregate,
 
-     implements 
-       IteratorAggregate,  Countable {
+     Countable {
 
     /* Свойства */
     
@@ -36,6 +36,7 @@ title: Клас DOMNamedNodeMap
     /* Методы */
     
    public count(): int
+public getIterator(): Iterator
 public getNamedItem(string $qualifiedName): ?DOMNode
 public getNamedItemNS(?string $namespace, string $localName): ?DOMNode
 public item(int $index): ?DOMNode
@@ -47,18 +48,19 @@ public item(int $index): ?DOMNode
 
 length
 
-Кількість вузлів відображається. Діапазон допустимих індексів дочірніх вузлів `0` до `length - 1` включно.
+Кількість вузлів відображається. Діапазон допустимих індексів дочірніх вузлів до`length — 1` включно.
 
 ## список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Нереалізовані методи **DOMNamedNodeMap::setNamedItem()** **DOMNamedNodeMap::removeNamedItem()** **DOMNamedNodeMap::setNamedItemNS()** і **DOMNamedNodeMap::removeNamedItem()** були вилучені. |
-|  | Клас **DOMNamedNodeMap** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
+| 8.0.0 | Нереалізовані методи **DOMNamedNodeMap::setNamedItem()** **DOMNamedNodeMap::removeNamedItem()** **DOMNamedNodeMap::setNamedItemNS()**и**DOMNamedNodeMap::removeNamedItem()** були вилучені. |
+| 8.0.0 | Класс**DOMNamedNodeMap** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). . Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
 
 ## Зміст
 
--   [DOMNamedNodeMap::count](domnamednodemap.count.md) - Кількість вузлів у відображенні
--   [DOMNamedNodeMap::getNamedItem](domnamednodemap.getnameditem.md) — Отримує вузол, вказаний на ім'я
--   [DOMNamedNodeMap::getNamedItemNS](domnamednodemap.getnameditemns.md) — Отримує вузол із заданим локальним ім'ям та URI простору імен
--   [DOMNamedNodeMap::item](domnamednodemap.item.md) — Отримує вузол із заданим індексом
+-   [DOMNamedNodeMap::count](domnamednodemap.count.md) \- Кількість вузлів у відображенні
+-   [DOMNamedNodeMap::getIterator](domnamednodemap.getiterator.md)— Отримує зовнішній ітератор
+-   [DOMNamedNodeMap::getNamedItem](domnamednodemap.getnameditem.md)— Отримує вузол, вказаний на ім'я
+-   [DOMNamedNodeMap::getNamedItemNS](domnamednodemap.getnameditemns.md)— Отримує вузол із заданим локальним ім'ям та URI простору імен
+-   [DOMNamedNodeMap::item](domnamednodemap.item.md)— Отримує вузол із заданим індексом

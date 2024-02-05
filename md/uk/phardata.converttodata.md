@@ -1,10 +1,11 @@
 ---
 navigation:
-  - phardata.construct.md: '« PharData::construct'
+  - phardata.construct.md: '« PharData::\_\_construct'
   - phardata.converttoexecutable.md: 'PharData::convertToExecutable »'
   - index.md: PHP Manual
   - class.phardata.md: PharData
 title: 'PharData::convertToData'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # PharData::convertToData
 
@@ -28,35 +29,35 @@ public PharData::convertToData(?int $format = null, ?int $compression = null, ?s
 
 `format`
 
-Одна з констант: `Phar::TAR` або `Phar::ZIP`. Якщо поставити як **`null`**, то буде використано поточний формат.
+Одна из констант:`Phar::TAR`или`Phar::ZIP`. Якщо поставити як **`null`**, то буде використано поточний формат.
 
 `compression`
 
-Одна з констант: `Phar::NONE` (Для відключення стиснення всього архіву), `Phar::GZ` (для zlib-стиснення), `Phar::BZ2` (Для bzip-стиснення).
+Одна из констант:`Phar::NONE` (Для відключення стиснення всього архіву), `Phar::GZ`(для zlib-сжатия),`Phar::BZ2`(для bzip-сжатия).
 
 `extension`
 
-Цей параметр використовується для явної вказівки на розширення нового архіву. Зверніть увагу, що для архівів, що не запускаються, в жодному разі не можна допускати появу підрядка. `.phar` у будь-якому місці імені файлу.
+Цей параметр використовується для явної вказівки на розширення нового архіву. Зверніть увагу, що для архівів, що не запускаються, в жодному разі не можна допускати появу підрядка. `.phar`в любом месте имени файла.
 
-За замовчуванням для tar-архівів використовуються розширення: `.tar` `.tar.gz` і `.tar.bz2`. Для zip-архівів: `.zip`
+По умолчанию для tar-архивов используются расширения:`.tar` `.tar.gz`и`.tar.bz2`. Для zip-архівів: `.zip`
 
 ### Значення, що повертаються
 
-Метод повертає об'єкт [PharData](class.phardata.md) або **`null`** у разі виникнення помилки.
+Метод повертає об'єкт [PharData](class.phardata.md)или\*\*`null`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
-Метод викидає виняток[BadMethodCallException](class.badmethodcallexception.md) коли не може зробити стискування, коли заданий невідомий метод стиснення, для архіву включена буферизація за допомогою [Phar::startBuffering()](phar.startbuffering.md), та не відключена за допомогою [Phar::stopBuffering()](phar.stopbuffering.md). Виняток [PharException](class.pharexception.md) викидається за будь-яких проблем створення phar-архіву.
+Метод викидає виняток [BadMethodCallException](class.badmethodcallexception.md) коли не може зробити стискування, коли заданий невідомий метод стиснення, для архіву включена буферизація за допомогою [Phar::startBuffering()](phar.startbuffering.md), та не відключена за допомогою [Phar::stopBuffering()](phar.stopbuffering.md)Исключение[PharException](class.pharexception.md) викидається за будь-яких проблем створення phar-архіву.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `format` `compression` і `extension` тепер допускають значення null. |
+| 8.0.0 | `format` `compression`и`extension` тепер допускають значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **PharData::convertToData()****
+**Пример #1 Пример использования**PharData::convertToData()\*\*\*\*
 
 Використання PharData::convertToData():
 
@@ -79,6 +80,6 @@ try {
 
 ### Дивіться також
 
--   [Phar::convertToExecutable()](phar.converttoexecutable.md) - Конвертує phar-архів в інший формат файлу, що виконується.
--   [Phar::convertToData()](phar.converttodata.md) - Конвертує phar-архів в tar-або zip-файл, що не виконується.
--   [PharData::convertToExecutable()](phardata.converttoexecutable.md) - Конвертація tar/zip-архіву з даними в phar-архів, що запускається
+-   [Phar::convertToExecutable()](phar.converttoexecutable.md) \- Конвертує phar-архів в інший формат файлу, що виконується.
+-   [Phar::convertToData()](phar.converttodata.md) \- Конвертує phar-архів в tar-або zip-файл, що не виконується.
+-   [PharData::convertToExecutable()](phardata.converttoexecutable.md) \- Конвертація tar/zip-архіву з даними в phar-архів, що запускається

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.openssl-cms-verify.md: « opensslcmsverify
-  - function.openssl-csr-export.md: opensslcsrexport »
+  - function.openssl-cms-verify.md: « openssl\_cms\_verify
+  - function.openssl-csr-export.md: openssl\_csr\_export »
   - index.md: PHP Manual
-  - ref.openssl.md: Функции OpenSSL
-title: opensslcsrexportтоfile
+  - ref.openssl.md: Функції OpenSSL
+title: openssl\_csr\_export\_to\_file
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# opensslcsrexportтоfile
+# openssl\_csr\_export\_to\_file
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-opensslcsrexportтоfile — Експортує CSR у файл
+openssl\_csr\_export\_to\_file — Експортує CSR у файл
 
 ### Опис
 
@@ -18,7 +19,7 @@ opensslcsrexportтоfile — Експортує CSR у файл
 openssl_csr_export_to_file(OpenSSLCertificateSigningRequest|string $csr, string $output_filename, bool $no_text = true): bool
 ```
 
-**opensslcsrexportтоfile()** записує запит на підпис сертифіката `csr` у форматі PEM у файл `output_filename`
+**openssl\_csr\_export\_to\_file()** записує запит на підпис сертифіката `csr`в формате PEM в файл`output_filename`
 
 ### Список параметрів
 
@@ -32,21 +33,21 @@ openssl_csr_export_to_file(OpenSSLCertificateSigningRequest|string $csr, string 
 
 `no_text`
 
-Необов'язковий параметр `notext` впливає на деталізацію повідомлень виводу; якщо він встановлений у **`false`**, то у висновок додається додаткова людиночитана інформація. Значення за замовчуванням `notext` є **`true`**
+Необов'язковий параметр `notext` впливає на деталізацію повідомлень виводу; якщо він встановлений у **`false`**, то у висновок додається додаткова людиночитана інформація. Значення за замовчуванням `notext`является\*\*`true`\*\*
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+| 8.0.0 | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу`OpenSSL X.509 CSR` |
 
 ### Приклади
 
-**Приклад #1 Приклад використання opensslcsrexportтоfile()**
+**Приклад #1 Приклад використання openssl\_csr\_export\_to\_file()**
 
 ```php
 <?php
@@ -66,6 +67,6 @@ openssl_csr_export_to_file($csr, 'example-csr.pem');
 
 ### Дивіться також
 
--   [opensslcsrexport()](function.openssl-csr-export.md) - Експортує CSR у вигляді рядка
--   [opensslcsrnew()](function.openssl-csr-new.md) - Генерує CSR
--   [opensslcsrsign()](function.openssl-csr-sign.md) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [openssl\_csr\_export()](function.openssl-csr-export.md) \- Експортує CSR у вигляді рядка
+-   [openssl\_csr\_new()](function.openssl-csr-new.md) \- Генерує CSR
+-   [openssl\_csr\_sign()](function.openssl-csr-sign.md) \- Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

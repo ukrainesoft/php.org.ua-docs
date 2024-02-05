@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-window.setborders.md: '« UIWindow::setBorders'
-  - ui-window.setmargin.md: 'ОЙWindow::setMargin »'
+  - ui-window.setborders.md: '« UI\\Window::setBorders'
+  - ui-window.setmargin.md: 'UI\\Window::setMargin »'
   - index.md: PHP Manual
-  - class.ui-window.md: ОЙWindow
-title: 'ОЙWindow::setFullScreen'
+  - class.ui-window.md: UI\\Window
+title: 'UI\\Window::setFullScreen'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙWindow::setFullScreen
+# UI\\Window::setFullScreen
 
 (UI 0.9.9)
 
-ОЙWindow::setFullScreen — Використання повного екрану
+UI\\Window::setFullScreen — Використання повного екрану
 
 ### Опис
 
@@ -22,7 +23,7 @@ public UI\Window::setFullScreen(bool $full)
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

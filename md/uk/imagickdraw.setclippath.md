@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setClipPath'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ImagickDraw::setClipPath
 
@@ -20,7 +21,7 @@ public ImagickDraw::setClipPath(string $clip_mask): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 Зв'язує іменований контур відсічного контуру із зображенням. Тільки області, намальовані відсічний контур, будуть змінені, поки він залишається в силі.
 
@@ -36,7 +37,7 @@ public ImagickDraw::setClipPath(string $clip_mask): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ImagickDraw::setClipPath()****
+**Пример #1 Пример использования**ImagickDraw::setClipPath()\*\*\*\*
 
 ```php
 <?php

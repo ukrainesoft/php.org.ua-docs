@@ -1,10 +1,11 @@
 ---
 navigation:
-  - ui-controls-radio.setselected.md: '« UIControlsRadio::setSelected'
-  - ui-controls-picker.construct.md: 'ОЙControlsPicker::construct »'
+  - ui-controls-radio.setselected.md: '« UI\\Controls\\Radio::setSelected'
+  - ui-controls-picker.construct.md: 'UI\\Controls\\Picker::\_\_construct »'
   - index.md: PHP Manual
-  - book.ui.md: ОЙ
+  - book.ui.md: UI
 title: Елемент керування "Селектор"
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Елемент керування "Селектор"
 
@@ -83,4 +84,4 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsPicker::construct](ui-controls-picker.construct.md) - Створює новий об'єкт Picker
+-   [UI\\Controls\\Picker::\_\_construct](ui-controls-picker.construct.md) \- Створює новий об'єкт Picker

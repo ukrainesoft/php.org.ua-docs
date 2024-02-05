@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apcu-cas.md: « apcucas
-  - function.apcu-dec.md: apcudec »
+  - function.apcu-cas.md: « apcu\_cas
+  - function.apcu-dec.md: apcu\_dec »
   - index.md: PHP Manual
-  - ref.apcu.md: Функции APCu
-title: apcuclearcache
+  - ref.apcu.md: Функції APCu
+title: apcu\_clear\_cache
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apcuclearcache
+# apcu\_clear\_cache
 
 (PECL apcu >= 4.0.0)
 
-apcuclearcache — Очистити кеш APCu
+apcu\_clear\_cache — Очистити кеш APCu
 
 ### Опис
 
@@ -30,4 +31,4 @@ apcu_clear_cache(): bool
 
 ### Дивіться також
 
--   [apcucacheinfo()](function.apcu-cache-info.md) - Витягує закешовану інформацію зі сховища APCu
+-   [apcu\_cache\_info()](function.apcu-cache-info.md) \- Витягує закешовану інформацію зі сховища APCu

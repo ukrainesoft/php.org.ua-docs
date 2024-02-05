@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-tableselect.md: « mysqlxdevapiTableSelect
-  - mysql-xdevapi-tableselect.construct.md: 'TableSelect::construct »'
+  - class.mysql-xdevapi-tableselect.md: « mysql\_xdevapi\\TableSelect
+  - mysql-xdevapi-tableselect.construct.md: 'TableSelect::\_\_construct »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysql\_xdevapi\\TableSelect
 title: 'TableSelect::bind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # TableSelect::bind
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\TableSelect::bind(array $placeholder_values): mysql_xdevapi
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiTableSelect::bind()****
+**Пример #1 Пример использования**mysql\_xdevapi\\TableSelect::bind()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ print_r($row);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

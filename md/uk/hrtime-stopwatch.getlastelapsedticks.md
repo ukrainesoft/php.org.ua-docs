@@ -1,16 +1,17 @@
 ---
 navigation:
-  - hrtime-stopwatch.getelapsedtime.md: '« HRTimeStopWatch::getElapsedTime'
-  - hrtime-stopwatch.getlastelapsedtime.md: 'HRTimeStopWatch::getLastElapsedTime »'
+  - hrtime-stopwatch.getelapsedtime.md: '« HRTime\\StopWatch::getElapsedTime'
+  - hrtime-stopwatch.getlastelapsedtime.md: 'HRTime\\StopWatch::getLastElapsedTime »'
   - index.md: PHP Manual
-  - class.hrtime-stopwatch.md: HRTimeStopWatch
-title: 'HRTimeStopWatch::getLastElapsedTicks'
+  - class.hrtime-stopwatch.md: HRTime\\StopWatch
+title: 'HRTime\\StopWatch::getLastElapsedTicks'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# HRTimeStopWatch::getLastElapsedTicks
+# HRTime\\StopWatch::getLastElapsedTicks
 
 (PECL hrtime >= 0.4.3)
 
-HRTimeStopWatch::getLastElapsedTicks — Отримати кількість тиків, що пройшли, за останній інтервал
+HRTime\\StopWatch::getLastElapsedTicks — Отримати кількість тиків, що пройшли, за останній інтервал
 
 ### Опис
 

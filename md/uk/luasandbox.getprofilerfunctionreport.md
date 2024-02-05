@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::getProfilerFunctionReport'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # LuaSandbox::getProfilerFunctionReport
 
@@ -20,7 +21,7 @@ public LuaSandbox::getProfilerFunctionReport(int $units = LuaSandbox::SECONDS): 
 
 Для екземпляра профілювання, раніше запущеного за допомогою [LuaSandbox::enableProfiler()](luasandbox.enableprofiler.md), отримайте звіт про вартість кожної функції.
 
-Місячність unit, використовувана для вартості, визначається за $units parameter:
+The measurement unit used for the cost is determined by the $units parameter:
 
 **`LuaSandbox::SAMPLES`**
 
@@ -42,9 +43,9 @@ public LuaSandbox::getProfilerFunctionReport(int $units = LuaSandbox::SECONDS): 
 
 ### Значення, що повертаються
 
-Повертає вимірювання профілювача, відсортовані в порядку зменшення, як асоціативний масив (array). Ключі - це імена функцій Lua (з вихідним файлом і рядком, визначеними в кутових дужках), значення - це вимірювання як ціле число (int) або число плаваючою комою (float).
+Повертає вимірювання профілювача, відсортовані у порядку зменшення, як асоціативного масиву (array). Ключі - це імена функцій Lua (з вихідним файлом і рядком, визначеними в кутових дужках), значення - це вимірювання як ціле число (int) або число плаваючою комою (float).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > У Windows функція завжди повертає порожній масив. В операційних системах, які не підтримують **`CLOCK_THREAD_CPUTIME_ID`**, таких як FreeBSD та Mac OS X, функція буде повідомляти фактичний минулий час, а не час процесора.
 

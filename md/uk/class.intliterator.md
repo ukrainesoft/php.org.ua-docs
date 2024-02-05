@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Клас IntlIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас IntlIterator
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -20,16 +21,13 @@ title: Клас IntlIterator
 
 ```classsynopsis
 
-     
+    
+     class IntlIterator
     
 
     
-     
-      class IntlIterator
-     
-
-     implements 
-       Iterator {
+     implements
+      Iterator {
 
     /* Методы */
     
@@ -44,8 +42,8 @@ public valid(): bool
 
 ## Зміст
 
--   [IntlIterator::current](intliterator.current.md) — Отримати поточний елемент
--   [IntlIterator::key](intliterator.key.md) — Отримати ключ поточного елемента
--   [IntlIterator::next](intliterator.next.md) — Перейти до наступного елементу
--   [IntlIterator::rewind](intliterator.rewind.md) — Перейти до першого елементу
--   [IntlIterator::valid](intliterator.valid.md) — Перевірити, чи поточна позиція коректна
+-   [IntlIterator::current](intliterator.current.md)— Отримати поточний елемент
+-   [IntlIterator::key](intliterator.key.md)— Отримати ключ поточного елемента
+-   [IntlIterator::next](intliterator.next.md)— Перейти до наступного елементу
+-   [IntlIterator::rewind](intliterator.rewind.md)— Перейти до першого елементу
+-   [IntlIterator::valid](intliterator.valid.md)— Перевірити, чи поточна позиція коректна

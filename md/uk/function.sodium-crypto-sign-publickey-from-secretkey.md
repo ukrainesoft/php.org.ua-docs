@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-sign-open.md: « sodiumcryptosignopen
-  - function.sodium-crypto-sign-publickey.md: sodiumcryptosignpublickey »
+  - function.sodium-crypto-sign-open.md: « sodium\_crypto\_sign\_open
+  - function.sodium-crypto-sign-publickey.md: sodium\_crypto\_sign\_publickey »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptosignpublickeyfromsecretkey
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_sign\_publickey\_from\_secretkey
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptosignpublickeyfromsecretkey
+# sodium\_crypto\_sign\_publickey\_from\_secretkey
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptosignpublickeyfromsecretkey — Витягує відкритий ключ Ed25519 із секретного ключа
+sodium\_crypto\_sign\_publickey\_from\_secretkey — Витягує відкритий ключ Ed25519 із секретного ключа
 
 ### Опис
 

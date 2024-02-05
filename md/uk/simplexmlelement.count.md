@@ -1,14 +1,15 @@
 ---
 navigation:
-  - simplexmlelement.construct.md: '« SimpleXMLElement::construct'
-  - simplexmlelement.getdocnamespaces.md: 'SimpleXMLElement::getDocNamespaces »'
+  - simplexmlelement.construct.md: '« SimpleXMLElement::\_\_construct'
+  - simplexmlelement.current.md: 'SimpleXMLElement::current »'
   - index.md: PHP Manual
   - class.simplexmlelement.md: SimpleXMLElement
 title: 'SimpleXMLElement::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SimpleXMLElement::count
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SimpleXMLElement::count — Підраховує кількість дочірніх елементів у поточного елемента
 
@@ -26,7 +27,7 @@ public SimpleXMLElement::count(): int
 
 ### Значення, що повертаються
 
-Повертає кількість елементів поточного елемента.
+Повертає кількість елементів у поточного елемента.
 
 ### Приклади
 
@@ -59,7 +60,7 @@ foreach ($elem as $person) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Человек 1 имеет 3 детей.
@@ -68,4 +69,4 @@ foreach ($elem as $person) {
 
 ### Дивіться також
 
--   [SimpleXMLElement::children()](simplexmlelement.children.md) - Знаходить дочірні елементи цього вузла
+-   [SimpleXMLElement::children()](simplexmlelement.children.md) \- Знаходить дочірні елементи цього вузла

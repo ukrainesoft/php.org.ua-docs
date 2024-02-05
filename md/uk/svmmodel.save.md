@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.svmmodel.md: SVMModel
 title: 'SVMModel::save'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SVMModel::save
 
@@ -32,4 +33,4 @@ public SVMModel::save(string $filename): bool
 
 ### Дивіться також
 
--   [SVMModel::load()](svmmodel.load.md) - Завантажує збережену модель SVM
+-   [SVMModel::load()](svmmodel.load.md) \- Завантажує збережену модель SVM

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-coroutine.call-user-func-array.md: '« SwooleCoroutine::calluserfuncarray'
-  - swoole-coroutine.cli-wait.md: 'SwooleCoroutine::cliwait »'
+  - swoole-coroutine.call-user-func-array.md: '« Swoole\\Coroutine::call\_user\_func\_array'
+  - swoole-coroutine.cli-wait.md: 'Swoole\\Coroutine::cli\_wait »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.md: SwooleCoroutine
-title: 'SwooleCoroutine::calluserfunc'
+  - class.swoole-coroutine.md: Swoole\\Coroutine
+title: 'Swoole\\Coroutine::call\_user\_func'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleCoroutine::calluserfunc
+# Swoole\\Coroutine::call\_user\_func
 
 (PECL swoole >= 2.0.0)
 
-SwooleCoroutine::calluserfunc — Викликає callback-функцію, задану першим параметром
+Swoole\\Coroutine::call\_user\_func — Викликає callback-функцію, задану першим параметром
 
 ### Опис
 
@@ -18,13 +19,13 @@ SwooleCoroutine::calluserfunc — Викликає callback-функцію, за
 public static Swoole\Coroutine::call_user_func(callable $callback, mixed ...$args): mixed
 ```
 
-Викликає `callback`функцію, задану першим параметром і передає параметри, що залишилися, як аргументи.
+Викликає `callback`\-функцію, задану першим параметром і передає параметри, що залишилися, як аргументи.
 
 ### Список параметрів
 
 `callback`
 
-Функція [callable](language.types.callable.md) для дзвінка.
+Функция[callable](language.types.callable.md) для дзвінка.
 
 `args`
 

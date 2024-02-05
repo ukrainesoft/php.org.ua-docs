@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-stack.peek.md: '« DsStack::peek'
-  - ds-stack.push.md: 'ДсStack::push »'
+  - ds-stack.peek.md: '« Ds\\Stack::peek'
+  - ds-stack.push.md: 'Ds\\Stack::push »'
   - index.md: PHP Manual
-  - class.ds-stack.md: Стек
-title: 'ДсStack::pop'
+  - class.ds-stack.md: Ds\\Stack
+title: 'Ds\\Stack::pop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсStack::pop
+# Ds\\Stack::pop
 
 (PECL ds >= 1.0.0)
 
-ДсStack::pop — Видаляє та повертає значення з вершини стека
+Ds\\Stack::pop — Видаляє та повертає значення з вершини стека
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\Stack::pop(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсStack::pop()****
+**Пример #1 Пример использования**Ds\\Stack::pop()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump($stack->pop());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "c"

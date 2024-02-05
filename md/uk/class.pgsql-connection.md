@@ -1,14 +1,15 @@
 ---
 navigation:
-  - function.pg-version.md: « pgversion
-  - class.pgsql-result.md: PgSqlResult »
+  - function.pg-version.md: « pg\_version
+  - class.pgsql-result.md: PgSql\\Result »
   - index.md: PHP Manual
   - book.pgsql.md: PostgreSQL
-title: Клас PgSqlConnection
+title: Клас PgSql\\Connection
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас PgSqlConnection
+# Клас PgSql\\Connection
 
-(PHP 8> = 8.1.0)
+(PHP 8 >= 8.1.0)
 
 ## Вступ
 
@@ -16,19 +17,11 @@ title: Клас PgSqlConnection
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-    
-     
-      final
-      class PgSql\Connection
-     
+     final
+     class PgSql\Connection
      {
-    
-
    }
 ```

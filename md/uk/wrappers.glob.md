@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - wrappers.md: Підтримувані протоколи та обгортки
 title: 'glob://'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # glob://
 
@@ -24,17 +25,17 @@ glob:// — Знаходження шляхів, що відповідають �
 
 | Атрибут | Поддержка |
 | --- | --- |
-| Обмеження по [allowurlfopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
-| Обмеження по [allowurlinclude](filesystem.configuration.md#ini.allow-url-include) | Ні |
+| Обмеження по [allow\_url\_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
+| Обмеження по [allow\_url\_include](filesystem.configuration.md#ini.allow-url-include) | Ні |
 | Читання | Ні |
 | Запис | Ні |
 | Додавання | Ні |
 | Одночасне читання та запис | Ні |
-| Підтримка [stat()](function.stat.md) | Ні |
-| Підтримка [unlink()](function.unlink.md) | Ні |
-| Підтримка [rename()](function.rename.md) | Ні |
-| Підтримка [mkdir()](function.mkdir.md) | Ні |
-| Підтримка [rmdir()](function.rmdir.md) | Ні |
+| Поддержка[stat()](function.stat.md) | Ні |
+| Поддержка[unlink()](function.unlink.md) | Ні |
+| Поддержка[rename()](function.rename.md) | Ні |
+| Поддержка[mkdir()](function.mkdir.md) | Ні |
+| Поддержка[rmdir()](function.rmdir.md) | Ні |
 
 ### Приклади
 

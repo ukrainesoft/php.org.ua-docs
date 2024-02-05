@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.eio-get-last-error.md: « eiogetlasterror
-  - function.eio-grp-cancel.md: eiogrpcancel »
+  - function.eio-get-last-error.md: « eio\_get\_last\_error
+  - function.eio-grp-cancel.md: eio\_grp\_cancel »
   - index.md: PHP Manual
-  - ref.eio.md: Eio Функции
-title: eiogrpadd
+  - ref.eio.md: Eio Функції
+title: eio\_grp\_add
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# eiogrpadd
+# eio\_grp\_add
 
 (PECL eio >= 0.0.1dev)
 
-eiogrpadd — Додає запит до групи запитів
+eio\_grp\_add — Додає запит до групи запитів
 
 ### Опис
 
@@ -18,13 +19,13 @@ eiogrpadd — Додає запит до групи запитів
 eio_grp_add(resource $grp, resource $req): void
 ```
 
-**eiogrpadd()** додає запит до групи запитів.
+**eio\_grp\_add()** додає запит до групи запитів.
 
 ### Список параметрів
 
 `grp`
 
-Вказівник на групу запитів, повернутий [eiogrp()](function.eio-grp.md)
+Вказівник на групу запитів, повернутий [eio\_grp()](function.eio-grp.md)
 
 `req`
 
@@ -97,7 +98,7 @@ eio_event_loop();
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 resource(6) of type (EIO Group Descriptor)
@@ -108,6 +109,6 @@ bool(true)
 
 ### Дивіться також
 
--   [eiogrp()](function.eio-grp.md) - Створює групу запитів
--   [eiogrpcancel()](function.eio-grp-cancel.md) - Скасує групу запитів
--   [eiogrplimit()](function.eio-grp-limit.md) - Встановлює граничну кількість запитів у групі
+-   [eio\_grp()](function.eio-grp.md) \- Створює групу запитів
+-   [eio\_grp\_cancel()](function.eio-grp-cancel.md) \- Скасує групу запитів
+-   [eio\_grp\_limit()](function.eio-grp-limit.md) \- Встановлює граничну кількість запитів у групі

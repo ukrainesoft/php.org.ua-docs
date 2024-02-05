@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-field-num.md: « pgfieldnum
-  - function.pg-field-size.md: пгfieldsize »
+  - function.pg-field-num.md: « pg\_field\_num
+  - function.pg-field-size.md: pg\_field\_size »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгfieldprtlen
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_field\_prtlen
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгfieldprtlen
+# pg\_field\_prtlen
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгfieldprtlen — Повертає кількість символів, що друкуються.
+pg\_field\_prtlen — Повертає кількість символів, що друкуються.
 
 ### Опис
 
@@ -22,21 +23,21 @@ pg_field_prtlen(PgSql\Result $result, int $row_number, mixed $field_name_or_numb
 pg_field_prtlen(PgSql\Result $result, mixed $field_name_or_number): int
 ```
 
-**пгfieldprtlen()** повертає довжину рядка (кількість символів) значення поля під час виведення результату `result`. Рядки нумеруються з нуля. Функція поверне **`false`** у разі виникнення помилки.
+**pg\_field\_prtlen()** повертає довжину рядка (кількість символів) значення поля під час виведення результату `result`. Рядки нумеруються з нуля. Функція поверне \*\*`false`\*\*в случае возникновения ошибки.
 
 `field_name_or_number` Номер чи ім'я вибраного поля. Може передаватися або як int або як string. Якщо передається значення типу int, PHP розпізнає його як номер, інакше як назву поля.
 
-Ознайомтеся з прикладами на сторінці з описом функції [пгfieldname()](function.pg-field-name.md)
+Ознайомтеся з прикладами на сторінці з описом функції [pg\_field\_name()](function.pg-field-name.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Колишня назва функції: **пгfieldprtlen()**
+> Прежнее название функции:**pg\_fieldprtlen()**
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSql\\Result](class.pgsql-result.md), що повертається функціями [pg\_query()](function.pg-query.md) [pg\_query\_params()](function.pg-query-params.md) або [pg\_execute()](function.pg-execute.md)(среди прочего).
 
 `row`
 
@@ -48,9 +49,9 @@ pg_field_prtlen(PgSql\Result $result, mixed $field_name_or_number): int
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -73,7 +74,7 @@ pg_field_prtlen(PgSql\Result $result, mixed $field_name_or_number): int
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 column 0
@@ -97,4 +98,4 @@ field type: varchar
 
 ### Дивіться також
 
--   [пгfieldsize()](function.pg-field-size.md) - Повертає розмір поля
+-   [pg\_field\_size()](function.pg-field-size.md) \- Повертає розмір поля

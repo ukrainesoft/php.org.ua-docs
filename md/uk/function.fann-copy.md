@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-clear-scaling-params.md: « fannclearscalingparams
-  - function.fann-create-from-file.md: fanncreatefromfile »
+  - function.fann-clear-scaling-params.md: « fann\_clear\_scaling\_params
+  - function.fann-create-from-file.md: fann\_create\_from\_file »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanncopy
+  - ref.fann.md: Функції Fann
+title: fann\_copy
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanncopy
+# fann\_copy
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanncopy — Створює копію структури fann
+fann\_copy — Створює копію структури fann
 
 ### Опис
 
@@ -28,14 +29,14 @@ fann_copy(resource $ann): resource
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає копію ресурсу нейронного ланцюга або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає копію ресурсу нейронного ланцюга або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція доступна лише у випадку, якщо модуль fann був зібраний для libfann >= 2.2.
 
 ### Дивіться також
 
--   [fanntest()](function.fann-test.md) - Тестування з набором вхідних даних та бажаним результатом
+-   [fann\_test()](function.fann-test.md) \- Тестування з набором вхідних даних та бажаним результатом

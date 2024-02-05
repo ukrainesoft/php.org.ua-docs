@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-server.send.md: '« SwooleServer::send'
-  - swoole-server.sendmessage.md: 'SwooleServer::sendMessage »'
+  - swoole-server.send.md: '« Swoole\\Server::send'
+  - swoole-server.sendmessage.md: 'Swoole\\Server::sendMessage »'
   - index.md: PHP Manual
-  - class.swoole-server.md: SwooleServer
-title: 'SwooleServer::sendfile'
+  - class.swoole-server.md: Swoole\\Server
+title: 'Swoole\\Server::sendfile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleServer::sendfile
+# Swoole\\Server::sendfile
 
 (PECL swoole >= 1.9.0)
 
-SwooleServer::sendfile — Надсилає файл на з'єднання
+Swoole\\Server::sendfile — Надсилає файл на з'єднання
 
 ### Опис
 
@@ -20,7 +21,7 @@ public Swoole\Server::sendfile(int $fd, string $filename, int $offset = ?): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

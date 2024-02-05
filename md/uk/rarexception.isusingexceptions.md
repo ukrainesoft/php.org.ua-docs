@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.rarexception.md: RarException
 title: 'RarException::isUsingExceptions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # RarException::isUsingExceptions
 
@@ -30,7 +31,7 @@ public static RarException::isUsingExceptions(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RarException::isUsingExceptions()****
+**Пример #1 Пример использования**RarException::isUsingExceptions()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump(RarException::isUsingExceptions());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 bool(false)
@@ -47,4 +48,4 @@ bool(false)
 
 ### Дивіться також
 
--   [RarException::setUsingExceptions()](rarexception.setusingexceptions.md) - Включити або вимкнути генерацію винятків замість повернення помилок
+-   [RarException::setUsingExceptions()](rarexception.setusingexceptions.md) \- Включити або вимкнути генерацію винятків замість повернення помилок

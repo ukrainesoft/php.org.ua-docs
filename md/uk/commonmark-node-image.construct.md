@@ -1,28 +1,29 @@
 ---
 navigation:
-  - class.commonmark-node-image.md: « CommonMarkNodeImage
-  - class.commonmark-node-link.md: CommonMarkNodeLink »
+  - class.commonmark-node-image.md: « CommonMark\\Node\\Image
+  - class.commonmark-node-link.md: CommonMark\\Node\\Link »
   - index.md: PHP Manual
-  - class.commonmark-node-image.md: CommonMarkNodeImage
-title: 'CommonMarkNodeImage::construct'
+  - class.commonmark-node-image.md: CommonMark\\Node\\Image
+title: 'CommonMark\\Node\\Image::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# CommonMarkNodeImage::construct
+# CommonMark\\Node\\Image::\_\_construct
 
 (cmark >= 1.0.0)
 
-CommonMarkNodeImage::construct - Конструктор класу Image
+CommonMark\\Node\\Image::\_\_construct - Конструктор класу Image
 
 ### Опис
 
-public **CommonMarkNodeImage::construct**
+public**CommonMark\\Node\\Image::\_\_construct**()
 
-public **CommonMarkNodeImage::construct**(string `$url`
+public**CommonMark\\Node\\Image::\_\_construct**(string`$url`) .
 
-public **CommonMarkNodeImage::construct**(string `$url`, string `$title`
+public**CommonMark\\Node\\Image::\_\_construct**(string`$url`, string`$title`) .
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::count'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplObjectStorage::count
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::count — Повертає кількість об'єктів у контейнері
 
@@ -24,7 +25,7 @@ public SplObjectStorage::count(int $mode = COUNT_NORMAL): int
 
 `mode`
 
-Якщо для необов'язкового параметра `mode` встановлено значення **`COUNT_RECURSIVE`** (або 1), **SplObjectStorage::count()** рекурсивно підраховуватиме обсяг сховища.
+Якщо для необов'язкового параметра `mode`задано значение\*\*`COUNT_RECURSIVE`\*\*(или 1),**SplObjectStorage::count()** рекурсивно підраховуватиме обсяг сховища.
 
 ### Значення, що повертаються
 
@@ -32,13 +33,13 @@ public SplObjectStorage::count(int $mode = COUNT_NORMAL): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplObjectStorage::count()****
+**Пример #1 Пример использования**SplObjectStorage::count()\*\*\*\*
 
 ```php
 <?php
 $s = new SplObjectStorage();
-$o1 = new StdClass;
-$o2 = new StdClass;
+$o1 = new stdClass;
+$o2 = new stdClass;
 
 $s->attach($o1);
 $s->attach($o2);
@@ -48,7 +49,7 @@ var_dump(count($s));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(2)
@@ -57,5 +58,5 @@ int(2)
 
 ### Дивіться також
 
--   [SplObjectStorage::attach()](splobjectstorage.attach.md) - Додає об'єкт у контейнер
--   [SplObjectStorage::detach()](splobjectstorage.detach.md) - Видаляє об'єкт object із контейнера
+-   [SplObjectStorage::attach()](splobjectstorage.attach.md) \- Додає об'єкт у контейнер
+-   [SplObjectStorage::detach()](splobjectstorage.detach.md) \- Видаляє об'єкт object із контейнера

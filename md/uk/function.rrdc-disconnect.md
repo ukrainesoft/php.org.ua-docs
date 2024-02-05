@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.rrd-xport.md: « rrdxport
+  - function.rrd-xport.md: « rrd\_xport
   - class.rrdcreator.md: RRDCreator »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
-title: rrdcdisconnect
+title: rrdc\_disconnect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# rrdcdisconnect
+# rrdc\_disconnect
 
 (PECL rrd >= 1.1.2)
 
-rrdcdisconnect — Закрити будь-які незавершені підключення до демону кешування rrd
+rrdc\_disconnect — Закрити будь-які незавершені підключення до демону кешування rrd
 
 ### Опис
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - parle-rparser.consume.md: '« ParleRParser::consume'
-  - parle-rparser.errorinfo.md: 'ParleRParser::errorInfo »'
+  - parle-rparser.consume.md: '« Parle\\RParser::consume'
+  - parle-rparser.errorinfo.md: 'Parle\\RParser::errorInfo »'
   - index.md: PHP Manual
-  - class.parle-rparser.md: ParleRParser
-title: 'ParleRParser::dump'
+  - class.parle-rparser.md: Parle\\RParser
+title: 'Parle\\RParser::dump'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ParleRParser::dump
+# Parle\\RParser::dump
 
 (PECL parle >= 0.7.0)
 
-ParleRParser::dump - Виводить граматику
+Parle\\RParser::dump - Виводить граматику
 
 ### Опис
 

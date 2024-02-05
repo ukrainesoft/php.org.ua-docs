@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-stmt.construct.md: '« mysqlistmt::construct'
-  - mysqli-stmt.errno.md: 'mysqlistmt::$errno »'
+  - mysqli-stmt.construct.md: '« mysqli\_stmt::\_\_construct'
+  - mysqli-stmt.errno.md: 'mysqli\_stmt::$errno »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::dataseek'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::data\_seek'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::dataseek
+# mysqli\_stmt::data\_seek
 
-# mysqlistmtdataseek
+# mysqli\_stmt\_data\_seek
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::dataseek - mysqlistmtdataseek — Перехід до заданого рядка в результуючому наборі
+mysqli\_stmt::data\_seek -- mysqli\_stmt\_data\_seek — Коригує покажчик результату на довільний рядок у буферизованому результаті
 
 ### Опис
 
@@ -28,19 +29,19 @@ public mysqli_stmt::data_seek(int $offset): void
 mysqli_stmt_data_seek(mysqli_stmt $statement, int $offset): void
 ```
 
-Переміщує покажчик на заданий рядок у результуючому наборі.
+Функція переміщує покажчик буферизованого набору результатів у довільний рядок, заданий параметром `offset`
 
-[mysqlistmtstoreresult()](mysqli-stmt.store-result.md) must be called prior to **mysqlistmtdataseek()**
+Функція працює лише з буферизованим внутрішнім набором результатів. Функція [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.md) повинна бути викликана до **mysqli\_stmt\_data\_seek()**
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 `offset`
 
-Значення повинне бути в діапазоні від 0 до числа рядків мінус один (0. . [mysqlistmtnumrows()](mysqli-stmt.num-rows.md)
+Значення повинне бути в діапазоні від 0 до числа рядків мінус один (0. . [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.md)
 
 ### Значення, що повертаються
 
@@ -52,41 +53,24 @@ mysqli_stmt_data_seek(mysqli_stmt $statement, int $offset): void
 
 ```php
 <?php
-/* открываем соединение */
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 $mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
-}
-
 $query = "SELECT Name, CountryCode FROM City ORDER BY Name";
-if ($stmt = $mysqli->prepare($query)) {
+$stmt = $mysqli->prepare($query);
+$stmt->execute();
 
-    /* выполняем запрос */
-    $stmt->execute();
+$stmt->bind_result($name, $code);
 
-    /* привязываем переменные к результату запроса */
-    $stmt->bind_result($name, $code);
+$stmt->store_result();
 
-    /* помещаем результаты запроса в переменные */
-    $stmt->store_result();
+/* переходим к строке 400 результирующей таблицы */
+$stmt->data_seek(399);
 
-    /* переходим к строке 400 результирующей таблицы */
-    $stmt->data_seek(399);
+$stmt->fetch();
 
-    /* извлекаем данные */
-    $stmt->fetch();
-
-    printf ("Город: %s  Код страны: %s\n", $name, $code);
-
-    /* закрываем запрос */
-    $stmt->close();
-}
-
-/* закрываем соединение */
-$mysqli->close();
+printf("Город: %s  Код страны: %s\n", $name, $code);
 ?>
 ```
 
@@ -94,45 +78,29 @@ $mysqli->close();
 
 ```php
 <?php
-/* открываем соединение */
+
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 $link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
-}
-
 $query = "SELECT Name, CountryCode FROM City ORDER BY Name";
-if ($stmt = mysqli_prepare($link, $query)) {
+$stmt = mysqli_prepare($link, $query);
 
-    /* выполняем запрос */
-    mysqli_stmt_execute($stmt);
+mysqli_stmt_execute($stmt);
 
-    /* привязываем переменные к результату запроса */
-    mysqli_stmt_bind_result($stmt, $name, $code);
+mysqli_stmt_bind_result($stmt, $name, $code);
 
-    /* помещаем результаты запроса в переменные */
-    mysqli_stmt_store_result($stmt);
+mysqli_stmt_store_result($stmt);
 
-    /* переходим к строке 400 результирующей таблицы */
-    mysqli_stmt_data_seek($stmt, 399);
+/* переходим к строке 400 результирующей таблицы */
+mysqli_stmt_data_seek($stmt, 399);
 
-    /* извлекаем данные */
-    mysqli_stmt_fetch($stmt);
+mysqli_stmt_fetch($stmt);
 
-    printf ("Город: %s  Код страны: %s\n", $name, $code);
-
-    /* закрываем запрос */
-    mysqli_stmt_close($stmt);
-}
-
-/* закрываем соединение */
-mysqli_close($link);
+printf("Город: %s  Код страны: %s\n", $name, $code);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Город: Benin City  Код страны: NGA
@@ -140,4 +108,7 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
+-   [mysqli\_prepare()](mysqli.prepare.md) \- готує SQL вираз до виконання
+-   [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.md) \- Зберігає набір результатів у внутрішньому буфері
+-   [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.md) \- Повертає кількість рядків, отриманих із сервера
+-   [mysqli\_data\_seek()](mysqli-result.data-seek.md) \- Переміщує покажчик результату на вибраний рядок

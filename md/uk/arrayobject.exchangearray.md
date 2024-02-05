@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::exchangeArray'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayObject::exchangeArray
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ArrayObject::exchangeArray — Замінити масив на інший
 
@@ -32,13 +33,13 @@ public ArrayObject::exchangeArray(array|object $array): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ArrayObject::exchangeArray()****
+**Пример #1 Пример использования**ArrayObject::exchangeArray()\*\*\*\*
 
 ```php
 <?php
-// Масив с количеством фруктов
+// Массив с количеством фруктов
 $fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
-// Масив мест в Европе
+// Массив мест в Европе
 $locations = array('Amsterdam', 'Paris', 'London');
 
 $fruitsArrayObject = new ArrayObject($fruits);
@@ -51,7 +52,7 @@ print_r($fruitsArrayObject);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array

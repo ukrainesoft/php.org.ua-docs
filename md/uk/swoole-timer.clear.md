@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-timer.after.md: '« SwooleTimer::after'
-  - swoole-timer.exists.md: 'SwooleTimer::exists »'
+  - swoole-timer.after.md: '« Swoole\\Timer::after'
+  - swoole-timer.exists.md: 'Swoole\\Timer::exists »'
   - index.md: PHP Manual
-  - class.swoole-timer.md: SwooleTimer
-title: 'SwooleTimer::clear'
+  - class.swoole-timer.md: Swoole\\Timer
+title: 'Swoole\\Timer::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTimer::clear
+# Swoole\\Timer::clear
 
 (PECL swoole >= 1.9.0)
 
-SwooleTimer::clear — Видаляє таймер за ідентифікатором
+Swoole\\Timer::clear — Видаляє таймер за ідентифікатором
 
 ### Опис
 

@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageColormapColor'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageColormapColor
 
 (PECL imagick 2, PECL imagick 3)
 
-Imagick::getImageColormapColor — Повертає колір вказаного індексу панелі
+Imagick::getImageColormapColor — Повертає колір зазначеного індексу панелі
 
 ### Опис
 

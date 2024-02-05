@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-save.md: « fannsave
-  - function.fann-scale-input.md: fannscaleinput »
+  - function.fann-save.md: « fann\_save
+  - function.fann-scale-input.md: fann\_scale\_input »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fannscaleinputtraindata
+  - ref.fann.md: Функції Fann
+title: fann\_scale\_input\_train\_data
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fannscaleinputtraindata
+# fann\_scale\_input\_train\_data
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fannscaleinputtraindata — Масштабує вхідні дані до навчальних даних до вказаного діапазону
+fann\_scale\_input\_train\_data — Масштабує вхідні дані до навчальних даних до вказаного діапазону
 
 ### Опис
 
@@ -40,5 +41,5 @@ fann_scale_input_train_data(resource $train_data, float $new_min, float $new_max
 
 ### Дивіться також
 
--   [fannscaleoutputtraindata()](function.fann-scale-output-train-data.md) - Масштабує вихідні дані у навчальних даних до вказаного діапазону
--   [fannscaletraindata()](function.fann-scale-train-data.md) - Масштабує вхідні та вихідні дані у навчальних даних до вказаного діапазону
+-   [fann\_scale\_output\_train\_data()](function.fann-scale-output-train-data.md) \- Масштабує вихідні дані у навчальних даних до вказаного діапазону
+-   [fann\_scale\_train\_data()](function.fann-scale-train-data.md) \- Масштабує вхідні та вихідні дані у навчальних даних до вказаного діапазону

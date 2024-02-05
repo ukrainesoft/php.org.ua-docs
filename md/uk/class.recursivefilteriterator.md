@@ -1,14 +1,15 @@
 ---
 navigation:
   - recursivedirectoryiterator.rewind.md: '« RecursiveDirectoryIterator::rewind'
-  - recursivefilteriterator.construct.md: 'RecursiveFilterIterator::construct »'
+  - recursivefilteriterator.construct.md: 'RecursiveFilterIterator::\_\_construct »'
   - index.md: PHP Manual
   - spl.iterators.md: Ітератори
 title: Клас RecursiveFilterIterator
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас RecursiveFilterIterator
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,22 +19,19 @@ title: Клас RecursiveFilterIterator
 
 ```classsynopsis
 
-     
+    
+     abstract
+     class RecursiveFilterIterator
     
 
     
-     
-      abstract
-      class RecursiveFilterIterator
-     
+     extends
+      FilterIterator
+    
 
-     
-      extends
-       FilterIterator
-     
-
-     implements 
-       RecursiveIterator {
+    
+     implements
+      RecursiveIterator {
 
     /* Методы */
     
@@ -46,7 +44,6 @@ public hasChildren(): bool
     /* Наследуемые методы */
     public FilterIterator::accept(): bool
 public FilterIterator::current(): mixed
-public FilterIterator::getInnerIterator(): Iterator
 public FilterIterator::key(): mixed
 public FilterIterator::next(): void
 public FilterIterator::rewind(): void
@@ -64,6 +61,6 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [RecursiveFilterIterator::construct](recursivefilteriterator.construct.md) — Створює об'єкт RecursiveFilterIterator на основі об'єкта-ітератора RecursiveIterator
--   [RecursiveFilterIterator::getChildren](recursivefilteriterator.getchildren.md) — Повертає дочірні елементи внутрішнього ітератора як об'єкт RecursiveFilterIterator
--   [RecursiveFilterIterator::hasChildren](recursivefilteriterator.haschildren.md) — Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи.
+-   [RecursiveFilterIterator::\_\_construct](recursivefilteriterator.construct.md)— Створює об'єкт RecursiveFilterIterator на основі об'єкта-ітератора RecursiveIterator
+-   [RecursiveFilterIterator::getChildren](recursivefilteriterator.getchildren.md)— Повертає дочірні елементи внутрішнього ітератора як об'єкт RecursiveFilterIterator
+-   [RecursiveFilterIterator::hasChildren](recursivefilteriterator.haschildren.md)— Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи.

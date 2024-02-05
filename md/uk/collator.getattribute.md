@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.collator.md: Collator
 title: 'Collator::getAttribute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collator::getAttribute
 
-# collatorgetattribute
+# collator\_get\_attribute
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Collator::getAttribute -- collatorgetattribute — Отримує значення атрибуту зіставлення
+Collator::getAttribute -- collator\_get\_attribute — Отримує значення атрибуту зіставлення
 
 ### Опис
 
@@ -42,11 +43,11 @@ collator_get_attribute(Collator $object, int $attribute): int|false
 
 ### Значення, що повертаються
 
-Значення атрибуту або **`false`** у разі виникнення помилки.
+Значение атрибута или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **collatorgetattribute()****
+**Пример #1 Пример использования**collator\_get\_attribute()\*\*\*\*
 
 ```php
 <?php
@@ -62,5 +63,5 @@ if( $val === false )
 ### Дивіться також
 
 -   [Константи](class.collator.md#intl.collator-constants) [Collator](class.collator.md)
--   [collatorsetattribute()](collator.setattribute.md) - Встановлює атрибут зіставлення
--   [collatorgetstrength()](collator.getstrength.md) - набуває поточної сили зіставлення
+-   [collator\_set\_attribute()](collator.setattribute.md) \- Встановлює атрибут зіставлення
+-   [collator\_get\_strength()](collator.getstrength.md) \- набуває поточної сили зіставлення

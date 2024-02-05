@@ -1,12 +1,13 @@
 ---
 navigation:
-  - mongodb-driver-clientencryption.encrypt.md: '« MongoDBDriverClientEncryption::encrypt'
-  - mongodb-driver-serverapi.bsonserialize.md: 'MongoDBDriverServerApi::bsonSerialize »'
+  - mongodb-driver-clientencryption.rewrapmanydatakey.md: '« MongoDB\\Driver\\ClientEncryption::rewrapManyDataKey'
+  - mongodb-driver-serverapi.bsonserialize.md: 'MongoDB\\Driver\\ServerApi::bsonSerialize »'
   - index.md: PHP Manual
-  - book.mongodb.md: MongoDBDriver
-title: Клас MongoDBDriverServerApi
+  - book.mongodb.md: MongoDB\\Driver
+title: Клас MongoDB\\Driver\\ServerApi
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас MongoDBDriverServerApi
+# Клас MongoDB\\Driver\\ServerApi
 
 (mongodb >=1.10.0)
 
@@ -35,10 +36,10 @@ title: Клас MongoDBDriverServerApi
 
     /* Методы */
     
-   final public bsonSerialize(): object
+   final public bsonSerialize(): stdClass
 final public __construct(string $version, ?bool $strict = null, ?bool $deprecationErrors = null)
 final public serialize(): string
-final public unserialize(string $serialized): void
+final public unserialize(string $data): void
 
    }
 ```
@@ -80,7 +81,7 @@ echo $buildInfo->version, "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 4.9.0-alpha7-49-gb968ca0
@@ -117,7 +118,7 @@ echo $buildInfo->version, "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Provided apiStrict:true, but the command buildInfo is not in API Version 1
@@ -125,7 +126,7 @@ Provided apiStrict:true, but the command buildInfo is not in API Version 1
 
 ## Зміст
 
--   [MongoDBDriverServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.md) — Повертає об'єкт для серіалізації BSON
--   [MongoDBDriverServerApi::construct](mongodb-driver-serverapi.construct.md) — Створює новий примірник ServerApi
--   [MongoDBDriverServerApi::serialize](mongodb-driver-serverapi.serialize.md) - Серіалізує ServerApi
--   [MongoDBDriverServerApi::unserialize](mongodb-driver-serverapi.unserialize.md) - Десеріалізує ServerApi
+-   [MongoDB\\Driver\\ServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.md)— Повертає об'єкт для серіалізації BSON
+-   [MongoDB\\Driver\\ServerApi::\_\_construct](mongodb-driver-serverapi.construct.md)— Створює новий примірник ServerApi
+-   [MongoDB\\Driver\\ServerApi::serialize](mongodb-driver-serverapi.serialize.md) \- Серіалізує ServerApi
+-   [MongoDB\\Driver\\ServerApi::unserialize](mongodb-driver-serverapi.unserialize.md) \- Десеріалізує ServerApi

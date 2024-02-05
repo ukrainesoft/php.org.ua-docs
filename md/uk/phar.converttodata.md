@@ -1,10 +1,11 @@
 ---
 navigation:
-  - phar.construct.md: '« Phar::construct'
+  - phar.construct.md: '« Phar::\_\_construct'
   - phar.converttoexecutable.md: 'Phar::convertToExecutable »'
   - index.md: PHP Manual
   - class.phar.md: Phar
 title: 'Phar::convertToData'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Phar::convertToData
 
@@ -28,21 +29,21 @@ public Phar::convertToData(?int $format = null, ?int $compression = null, ?strin
 
 `format`
 
-Значенням цього параметра має бути одна з констант: `Phar::TAR` або `Phar::ZIP`. Якщо значення встановлено в **`null`**, то існуючий формат файлу буде збережено.
+Значенням цього параметра має бути одна з констант: `Phar::TAR`или`Phar::ZIP`Если значение установлено в\*\*`null`\*\*, то існуючий формат файлу буде збережено.
 
 `compression`
 
-Значенням цього параметра має бути одна з констант: `Phar::NONE` для відсутності стиску всього архіву, `Phar::GZ` для стиснення, заснованого на zlib, або `Phar::BZ2` для bzip-стискання.
+Значенням цього параметра має бути одна з констант: `Phar::NONE` для відсутності стиску всього архіву, `Phar::GZ`для сжатия, основанного на zlib, или`Phar::BZ2`для bzip-сжатия.
 
 `extension`
 
 Цей параметр використовується для перевизначення розширення файлу за промовчанням для конвертованого архіву. Зверніть увагу, що `.phar` не може бути використано будь-де в імені файлу невиконуваного tar- або zip-архіву.
 
-У разі конвертації phar-архіву, заснованого на tar, розширеннями за умовчанням є: `.tar` `.tar.gz` і `.tar.bz2`, Залежно від зазначеного стиснення. Для архівів, що базуються на zip, розширенням за умовчанням є `.zip`
+У разі конвертації phar-архіву, заснованого на tar, розширеннями за умовчанням є: `.tar` `.tar.gz`и`.tar.bz2`, Залежно від зазначеного стиснення. Для архівів, що базуються на zip, розширенням за умовчанням є `.zip`
 
 ### Значення, що повертаються
 
-Цей метод повертає об'єкт [PharData](class.phardata.md) у разі успішного виконання та **`null`** у разі виникнення помилки.
+Цей метод повертає об'єкт [PharData](class.phardata.md) у разі успішного виконання та \*\*`null`\*\*в случае возникновения ошибки.
 
 ### Помилки
 
@@ -50,13 +51,13 @@ public Phar::convertToData(?int $format = null, ?int $compression = null, ?strin
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `format` `compression` і `extension` тепер допускають значення null. |
+| 8.0.0 | `format` `compression`и`extension` тепер допускають значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Phar::convertToData()****
+**Пример #1 Пример использования**Phar::convertToData()\*\*\*\*
 
 Використання Phar::convertToData():
 
@@ -82,6 +83,6 @@ try {
 
 ### Дивіться також
 
--   [Phar::convertToExecutable()](phar.converttoexecutable.md) - Конвертує phar-архів в інший формат файлу, що виконується.
--   [PharData::convertToExecutable()](phardata.converttoexecutable.md) - Конвертація tar/zip-архіву з даними в phar-архів, що запускається
--   [PharData::convertToData()](phardata.converttodata.md) - Конвертація phar-архіву в tar/zip-архів, що не запускається.
+-   [Phar::convertToExecutable()](phar.converttoexecutable.md) \- Конвертує phar-архів в інший формат файлу, що виконується.
+-   [PharData::convertToExecutable()](phardata.converttoexecutable.md) \- Конвертація tar/zip-архіву з даними в phar-архів, що запускається
+-   [PharData::convertToData()](phardata.converttodata.md) \- Конвертація phar-архіву в tar/zip-архів, що не запускається.

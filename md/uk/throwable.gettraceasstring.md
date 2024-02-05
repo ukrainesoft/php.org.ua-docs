@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.throwable.md: Throwable
 title: 'Throwable::getTraceAsString'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Throwable::getTraceAsString
 
@@ -28,4 +29,4 @@ public Throwable::getTraceAsString(): string
 
 ### Дивіться також
 
--   [Exception::getTraceAsString()](exception.gettraceasstring.md) - Отримує трасування стека у вигляді рядка
+-   [Exception::getTraceAsString()](exception.gettraceasstring.md) \- Отримує трасування стека у вигляді рядка

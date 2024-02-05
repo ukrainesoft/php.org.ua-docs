@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdlgapsidesidewhite.md: « tradercdlgapsidesidewhite
-  - function.trader-cdlhammer.md: tradercdlhammer »
+  - function.trader-cdlgapsidesidewhite.md: « trader\_cdlgapsidesidewhite
+  - function.trader-cdlhammer.md: trader\_cdlhammer »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlgravestonedoji
+  - ref.trader.md: Функції Trader
+title: trader\_cdlgravestonedoji
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlgravestonedoji
+# trader\_cdlgravestonedoji
 
 (PECL trader >= 0.2.0)
 
-tradercdlgravestonedoji — Дожі-надгробки
+trader\_cdlgravestonedoji — Дожі-надгробки
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlgravestonedoji(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlgravestonedoji(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

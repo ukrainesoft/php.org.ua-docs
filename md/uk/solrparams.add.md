@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.solrparams.md: SolrParams
 title: 'SolrParams::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrParams::add
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
-SolrParams::add — Псевдонім SolrParams::addParam
+SolrParams::add — Псевдоним[SolrParams::addParam()](solrparams.addparam.md)
 
 ### Опис
 
@@ -28,7 +29,7 @@ final public SolrParams::add(string $name, string $value): SolrParams
 
 `value`
 
-Значення параметру
+Значення параметра
 
 ### Значення, що повертаються
 

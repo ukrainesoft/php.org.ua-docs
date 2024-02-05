@@ -1,16 +1,17 @@
 ---
 navigation:
-  - xmldiff-base.construct.md: '« XMLDiffBase::construct'
-  - xmldiff-base.merge.md: 'XMLDiffBase::merge »'
+  - xmldiff-base.construct.md: '« XMLDiff\\Base::\_\_construct'
+  - xmldiff-base.merge.md: 'XMLDiff\\Base::merge »'
   - index.md: PHP Manual
-  - class.xmldiff-base.md: XMLDiffBase
-title: 'XMLDiffBase::diff'
+  - class.xmldiff-base.md: XMLDiff\\Base
+title: 'XMLDiff\\Base::diff'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# XMLDiffBase::diff
+# XMLDiff\\Base::diff
 
 (PECL xmldiff >= 0.8.0)
 
-XMLDiffBase::diff — Порівняє два документи XML.
+XMLDiff\\Base::diff — Порівняє два документи XML.
 
 ### Опис
 

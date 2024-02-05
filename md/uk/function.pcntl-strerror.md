@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pcntl-sigwaitinfo.md: pcntlsigwaitinfo
-  - function.pcntl-unshare.md: pcntlunshare »
+  - function.pcntl-sigwaitinfo.md: « pcntl\_sigwaitinfo
+  - function.pcntl-unshare.md: pcntl\_unshare »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
-title: pcntlstrerror
+title: pcntl\_strerror
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pcntlstrerror
+# pcntl\_strerror
 
-(PHP 5> = 5.3.4, PHP 7, PHP 8)
+(PHP 5 >= 5.3.4, PHP 7, PHP 8)
 
-pcntlstrerror — Отримати текст помилки за її кодом
+pcntl\_strerror — Отримати текст помилки за її кодом
 
 ### Опис
 
@@ -20,7 +21,7 @@ pcntl_strerror(int $error_code): string
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ pcntl_strerror(int $error_code): string
 
 ### Дивіться також
 
--   [pcntlgetlasterror()](function.pcntl-get-last-error.md) - Отримати код останньої помилки, що виникла в pcntl-функції
+-   [pcntl\_get\_last\_error()](function.pcntl-get-last-error.md) \- Отримати код останньої помилки, що виникла в pcntl-функції

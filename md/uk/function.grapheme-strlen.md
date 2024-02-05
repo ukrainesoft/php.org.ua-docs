@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.grapheme-stristr.md: « graphemestristr
-  - function.grapheme-strpos.md: graphemestrpos »
+  - function.grapheme-stristr.md: « grapheme\_stristr
+  - function.grapheme-strpos.md: grapheme\_strpos »
   - index.md: PHP Manual
-  - ref.intl.grapheme.md: Функции Grapheme
-title: graphemestrlen
+  - ref.intl.grapheme.md: Функції Grapheme
+title: grapheme\_strlen
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# graphemestrlen
+# grapheme\_strlen
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-graphemestrlen — Отримує довжину рядка в одиницях графеми
+grapheme\_strlen — Отримує довжину рядка в одиницях графеми
 
 ### Опис
 
@@ -30,11 +31,11 @@ grapheme_strlen(string $string): int|false|null
 
 ### Значення, що повертаються
 
-Довжина рядка у разі успішного виконання або **`false`** у разі виникнення помилки.
+Довжина рядка у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **graphemestrlen()****
+**Пример #1 Пример использования**grapheme\_strlen()\*\*\*\*
 
 ```php
 <?php
@@ -47,7 +48,7 @@ print grapheme_strlen( 'abc' . $char_a_ring_nfd . $char_o_diaeresis_nfd . $char_
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 6
@@ -55,7 +56,7 @@ print grapheme_strlen( 'abc' . $char_a_ring_nfd . $char_o_diaeresis_nfd . $char_
 
 ### Дивіться також
 
--   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
--   [iconvstrlen()](function.iconv-strlen.md) - Повертає кількість символів у рядку
--   [мбstrlen()](function.mb-strlen.md) - Отримує довжину рядка
--   [strlen()](function.strlen.md) - Повертає довжину рядка
+-   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+-   [iconv\_strlen()](function.iconv-strlen.md) \- Повертає кількість символів у рядку
+-   [mb\_strlen()](function.mb-strlen.md) \- Отримує довжину рядка
+-   [strlen()](function.strlen.md) \- Повертає довжину рядка

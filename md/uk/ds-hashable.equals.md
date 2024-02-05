@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.ds-hashable.md: « Хешируемое
-  - ds-hashable.hash.md: 'ДсHashable::hash »'
+  - class.ds-hashable.md: « Ds\\Hashable
+  - ds-hashable.hash.md: 'Ds\\Hashable::hash »'
   - index.md: PHP Manual
-  - class.ds-hashable.md: Хешируемое
-title: 'ДсHashable::equals'
+  - class.ds-hashable.md: Ds\\Hashable
+title: 'Ds\\Hashable::equals'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсHashable::equals
+# Ds\\Hashable::equals
 
 (PECL ds >= 1.0.0)
 
-ДсHashable::equals — Визначає, чи дорівнює поточний екземпляр переданому об'єкту
+Ds\\Hashable::equals — Визначає, чи дорівнює поточний екземпляр переданому об'єкту
 
 ### Опис
 
@@ -20,15 +21,15 @@ abstract public Ds\Hashable::equals(object $obj): bool
 
 Визначає, чи поточний екземпляр є еквівалентним переданому іншому об'єкту.
 
-Цей метод дозволяє використовувати об'єкти як ключі в таких структурах, як **ДсMap** і **ДсSet** або будь-які інші структури, що розпізнають цей інтерфейс.
+Цей метод дозволяє використовувати об'єкти як ключі в таких структурах, як [Ds\\Map](class.ds-map.md) і [Ds\\Set](class.ds-set.md) або будь-які інші структури, що розпізнають цей інтерфейс.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Гарантує, що `obj` є екземпляром того самого класу.
 
 **Застереження**
 
-Щоб об'єкти вважалися ідентичними, необхідно, щоб вони мали однаковий хеш. Дивіться опис функції [ДсHashable::hash()](ds-hashable.hash.md)
+Щоб об'єкти вважалися ідентичними, необхідно, щоб вони мали однаковий хеш. Дивіться опис функції [Ds\\Hashable::hash()](ds-hashable.hash.md)
 
 ### Список параметрів
 

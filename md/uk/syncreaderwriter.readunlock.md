@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.syncreaderwriter.md: SyncReaderWriter
 title: 'SyncReaderWriter::readunlock'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SyncReaderWriter::readunlock
 
@@ -26,11 +27,11 @@ public SyncReaderWriter::readunlock(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SyncReaderWriter::readunlock()****
+**Пример #1 Пример использования**SyncReaderWriter::readunlock()\*\*\*\*
 
 ```php
 <?php
@@ -43,4 +44,4 @@ $readwrite->readunlock();
 
 ### Дивіться також
 
--   [SyncReaderWriter::readlock()](syncreaderwriter.readlock.md) - Чекає на блокування читання
+-   [SyncReaderWriter::readlock()](syncreaderwriter.readlock.md) \- Чекає на блокування читання

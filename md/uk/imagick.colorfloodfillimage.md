@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::colorFloodfillImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::colorFloodfillImage
 
@@ -14,12 +15,12 @@ Imagick::colorFloodfillImage — Змінює значення кольору б
 
 **Увага**
 
-Функція оголошена *Застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
+Функція оголошена *застарілої* в Imagick 3.4.4. Покладатися на цю функцію не рекомендується.
 
 ### Опис
 
 ```methodsynopsis
-public Imagick::colorFloodfillImage(    mixed $fill,    float $fuzz,    mixed $bordercolor,    int $x,    int $y): bool
+public Imagick::colorFloodfillImage(    mixed $fill,    float $fuzz,    mixed $bordercolor,    int $x,    int $y): bool
 ```
 
 Змінює значення кольору будь-якого пікселя, що відповідає цільовому та є найближчим сусідом.
@@ -56,6 +57,6 @@ public Imagick::colorFloodfillImage(    mixed $fill,    float $fuzz,    mixed $b
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
 | PECL imagick 2.1.0 | Тепер дозволяє використовувати рядок, що представляє колір, як перший і третій параметрів. Попередні версії дозволяли використовувати лише об'єкт ImagickPixel. |

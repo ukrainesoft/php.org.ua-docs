@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.quickhashinthash.md: QuickHashIntHash
 title: 'QuickHashIntHash::loadFromFile'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # QuickHashIntHash::loadFromFile
 
@@ -63,7 +64,7 @@ key/value 2 (key = 3, value = 9)
 
 ### Приклади
 
-**Приклад #3 Приклад використання **QuickHashIntHash::loadFromFile()****
+**Пример #3 Пример использования**QuickHashIntHash::loadFromFile()\*\*\*\*
 
 ```php
 <?php
@@ -82,7 +83,7 @@ foreach( range( 0, 0x0f ) as $key )
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ключ   0 ( 0) не установлен

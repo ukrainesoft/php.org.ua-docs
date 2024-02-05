@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.memcached.md: Memcached
 title: 'Memcached::resetServerList'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Memcached::resetServerList
 
@@ -26,9 +27,9 @@ public Memcached::resetServerList(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [Memcached::addServer()](memcached.addserver.md) - Додає сервер у пул
--   [Memcached::addServers()](memcached.addservers.md) - Додає кілька серверів у пул
+-   [Memcached::addServer()](memcached.addserver.md) \- Додає сервер у пул
+-   [Memcached::addServers()](memcached.addservers.md) \- Додає кілька серверів у пул

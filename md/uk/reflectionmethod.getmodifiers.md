@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::getModifiers'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionMethod::getModifiers
 
@@ -30,7 +31,7 @@ public ReflectionMethod::getModifiers(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionMethod::getModifiers()****
+**Пример #1 Пример использования**ReflectionMethod::getModifiers()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ echo implode(' ', Reflection::getModifierNames($bar->getModifiers()));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Модификаторы метода foo():
@@ -73,4 +74,4 @@ public
 
 ### Дивіться також
 
--   [Reflection::getModifierNames()](reflection.getmodifiernames.md) - Отримання імен модифікаторів
+-   [Reflection::getModifierNames()](reflection.getmodifiernames.md) \- Отримання імен модифікаторів

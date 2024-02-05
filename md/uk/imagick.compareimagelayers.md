@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::compareImageLayers'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::compareImageLayers
 
@@ -18,13 +19,13 @@ Imagick::compareImageLayers — Повертає максимальну обме
 public Imagick::compareImageLayers(int $method): Imagick
 ```
 
-Порівнює кожне зображення з наступним у послідовності і повертає максимальну область, що обмежує будь-яких виявлених відмінностей пікселів. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
+Порівнює кожне зображення з наступним у послідовності і повертає максимальну область, що обмежує будь-яких виявлених відмінностей пікселів. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим.
 
 ### Список параметрів
 
 `method`
 
-Одна з [констант метода слоя](imagick.constants.md#imagick.constants.layermethod)
+Одна из[констант методу шару](imagick.constants.md#imagick.constants.layermethod)
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ public Imagick::compareImageLayers(int $method): Imagick
 
 ### Приклади
 
-**Приклад #1 Приклад використання **Imagick::compareImageLayers()****
+**Пример #1 Пример использования**Imagick::compareImageLayers()\*\*\*\*
 
 Порівняння шарів зображення
 
@@ -54,6 +55,6 @@ $result = $im->compareImageLayers(imagick::LAYERMETHOD_COALESCE);
 
 ### Дивіться також
 
--   [Imagick::optimizeImageLayers()](imagick.optimizeimagelayers.md) - Видаляє повторювані частини зображень для оптимізації
--   [Imagick::writeImages()](imagick.writeimages.md) - Записує зображення або послідовність зображень
--   [Imagick::writeImage()](imagick.writeimage.md) - Записує зображення за вказаним ім'ям файлу
+-   [Imagick::optimizeImageLayers()](imagick.optimizeimagelayers.md) \- Видаляє повторювані частини зображень для оптимізації
+-   [Imagick::writeImages()](imagick.writeimages.md) \- Записує зображення або послідовність зображень
+-   [Imagick::writeImage()](imagick.writeimage.md) \- Записує зображення за вказаним ім'ям файлу

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-application.getappdirectory.md: '« YafApplication::getAppDirectory'
-  - yaf-application.getdispatcher.md: 'YafApplication::getDispatcher »'
+  - yaf-application.getappdirectory.md: '« Yaf\_Application::getAppDirectory'
+  - yaf-application.getdispatcher.md: 'Yaf\_Application::getDispatcher »'
   - index.md: PHP Manual
-  - class.yaf-application.md: YafApplication
-title: 'YafApplication::getConfig'
+  - class.yaf-application.md: Yaf\_Application
+title: 'Yaf\_Application::getConfig'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafApplication::getConfig
+# Yaf\_Application::getConfig
 
 (Yaf >=1.0.0)
 
-YafApplication::getConfig — Отримати екземпляр класу конфігурації
+Yaf\_Application::getConfig — Отримати екземпляр класу конфігурації
 
 ### Опис
 
@@ -24,11 +25,11 @@ public Yaf_Application::getConfig(): Yaf_Config_Abstract
 
 ### Значення, що повертаються
 
-Екземпляр класу [YafConfigAbstract](class.yaf-config-abstract.md)
+Екземпляр класу [Yaf\_Config\_Abstract](class.yaf-config-abstract.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafApplication::getConfig()****
+**Пример #1 Пример использования**Yaf\_Application::getConfig()\*\*\*\*
 
 ```php
 <?php
@@ -44,7 +45,7 @@ print_r($application->getConfig());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Yaf_Config_Simple Object

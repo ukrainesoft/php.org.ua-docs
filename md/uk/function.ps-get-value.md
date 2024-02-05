@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ps-get-parameter.md: «psgetparameter
-  - function.ps-hyphenate.md: псhyphenate »
+  - function.ps-get-parameter.md: « ps\_get\_parameter
+  - function.ps-hyphenate.md: ps\_hyphenate »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псgetvalue
+title: ps\_get\_value
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псgetvalue
+# ps\_get\_value
 
 (PECL ps >= 1.1.0)
 
-псgetvalue — Отримує певні значення
+ps\_get\_value — Отримує певні значення
 
 ### Опис
 
@@ -18,9 +19,9 @@ title: псgetvalue
 ps_get_value(resource $psdoc, string $name, float $modifier = ?): float
 ```
 
-Отримує кілька значень, встановлених [псsetvalue()](function.ps-set-value.md). Значення визначення є значеннями з плаваючою точкою.
+Отримує кілька значень, встановлених [ps\_set\_value()](function.ps-set-value.md). Значення визначення є значеннями з плаваючою точкою.
 
-Параметр `name` може мати такі значення:
+Параметр`name` може мати такі значення:
 
 `fontsize`
 
@@ -124,13 +125,13 @@ ps_get_value(resource $psdoc, string $name, float $modifier = ?): float
 
 `subminor` `revision`
 
-Патч версія pslib.
+Патч-версія pslib.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `name`
 
@@ -138,12 +139,12 @@ ps_get_value(resource $psdoc, string $name, float $modifier = ?): float
 
 `modifier`
 
-Параметр `modifier` вказує ресурс, котрим має бути отримано значення. Це може бути ідентифікатор шрифту чи зображення.
+Параметр`modifier` вказує ресурс, котрим має бути отримано значення. Це може бути ідентифікатор шрифту чи зображення.
 
 ### Значення, що повертаються
 
-Повертає значення параметра або **`false`**
+Возвращает значение параметра или\*\*`false`\*\*
 
 ### Дивіться також
 
--   [псsetvalue()](function.ps-set-value.md) - Встановлює певні значення
+-   [ps\_set\_value()](function.ps-set-value.md) \- Встановлює певні значення

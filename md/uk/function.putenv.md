@@ -1,10 +1,11 @@
 ---
 navigation:
   - function.phpversion.md: « phpversion
-  - function.restore-include-path.md: restoreincludepath »
+  - function.restore-include-path.md: restore\_include\_path »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: putenv
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # putenv
 
@@ -18,21 +19,21 @@ putenv — Встановлює значення змінного середов
 putenv(string $assignment): bool
 ```
 
-Додає `assignment` у змінні оточення сервера. Змінна існуватиме лише на час виконання поточного запиту. Після його завершення змінна повернеться до початкового стану.
+Добавляет`assignment` у змінні оточення сервера. Змінна існуватиме лише на час виконання поточного запиту. Після його завершення змінна повернеться до початкового стану.
 
 ### Список параметрів
 
 `assignment`
 
-Встановлення виду `"FOO=BAR"`
+Установка вида`"FOO=BAR"`
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Установка значення змінного середовища**
+**Приклад #1 Встановлення значення змінного середовища**
 
 ```php
 <?php
@@ -42,5 +43,5 @@ putenv("UNIQID=$uniqid");
 
 ### Дивіться також
 
--   [getenv()](function.getenv.md) - набуття значення змінної оточення
--   [apachesetenv()](function.apache-setenv.md) - Встановлює змінну subprocessenv Apache
+-   [getenv()](function.getenv.md) \- набуває значення однієї чи всіх змінних оточення
+-   [apache\_setenv()](function.apache-setenv.md) \- Встановлює змінну subprocess\_env Apache

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getResource'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getResource
 
@@ -24,7 +25,7 @@ public static Imagick::getResource(int $type): int
 
 `type`
 
-Дивіться список [констант типов ресурсов](imagick.constants.md#imagick.constants.resourcetypes)
+Смотрите список[констант типів ресурсів](imagick.constants.md#imagick.constants.resourcetypes)
 
 ### Значення, що повертаються
 

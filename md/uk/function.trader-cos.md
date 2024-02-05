@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-correl.md: « tradercorrel
-  - function.trader-cosh.md: tradercosh »
+  - function.trader-correl.md: « trader\_correl
+  - function.trader-cosh.md: trader\_cosh »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercos
+  - ref.trader.md: Функції Trader
+title: trader\_cos
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercos
+# trader\_cos
 
 (PECL trader >= 0.2.0)
 
-tradercos — вектор тригонометричних косинуса.
+trader\_cos — вектор тригонометричних косинуса.
 
 ### Опис
 

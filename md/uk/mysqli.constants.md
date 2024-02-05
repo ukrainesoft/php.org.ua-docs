@@ -5,397 +5,398 @@ navigation:
   - index.md: PHP Manual
   - book.mysqli.md: MySQLi
 title: Обумовлені константи
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Обумовлені константи
 
-Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
+Наведені нижче константи визначені цим модулем і доступні або в збірках PHP з підтримкою цього модуля, або коли модуль динамічно завантажений під час виконання коду.
 
-**`MYSQLI_READ_DEFAULT_GROUP`**
+**`MYSQLI_READ_DEFAULT_GROUP`**(int)
 
 Читати опції із зазначеної групи у файлі my.cnf або файлі, вказаному за допомогою **`MYSQLI_READ_DEFAULT_FILE`**
 
-**`MYSQLI_READ_DEFAULT_FILE`**
+**`MYSQLI_READ_DEFAULT_FILE`**(int)
 
 Читати опції із зазначеного файлу замість my.cnf
 
-**`MYSQLI_OPT_CONNECT_TIMEOUT`**
+**`MYSQLI_OPT_CONNECT_TIMEOUT`**(int)
 
 Час очікування на підключення в секундах.
 
-**`MYSQLI_OPT_READ_TIMEOUT`**
+**`MYSQLI_OPT_READ_TIMEOUT`**(int)
 
 Час очікування результату виконання команди за секунди. Доступно з PHP 7.2.0.
 
-**`MYSQLI_OPT_LOCAL_INFILE`**
+**`MYSQLI_OPT_LOCAL_INFILE`**(int)
 
 Включає команду `LOAD LOCAL INFILE`
 
-**`MYSQLI_OPT_INT_AND_FLOAT_NATIVE`**
+**`MYSQLI_OPT_INT_AND_FLOAT_NATIVE`**(int)
 
 Перетворює цілі та плаваючі стовпці назад у числа PHP. Коректно працює лише з mysqlnd.
 
-**`MYSQLI_OPT_NET_CMD_BUFFER_SIZE`**
+**`MYSQLI_OPT_NET_CMD_BUFFER_SIZE`**(int)
 
 Розмір внутрішнього буфера команди/мережі. Коректно працює лише з mysqlnd.
 
-**`MYSQLI_OPT_NET_READ_BUFFER_SIZE`**
+**`MYSQLI_OPT_NET_READ_BUFFER_SIZE`**(int)
 
 Максимальний розмір блоку читання в байтах під час читання тіла пакета команд MySQL. Тільки valid для mysqlnd.
 
-**`MYSQLI_OPT_SSL_VERIFY_SERVER_CERT`**
+**`MYSQLI_OPT_SSL_VERIFY_SERVER_CERT`**(int)
 
 Потрібно MySQL 5.1.10 і вище
 
-**`MYSQLI_INIT_COMMAND`**
+**`MYSQLI_INIT_COMMAND`**(int)
 
 Команда, яка буде виконана за умови підключення до сервера MySQL. Ця команда буде повторно викликана під час перепідключення.
 
-**`MYSQLI_CLIENT_SSL`**
+**`MYSQLI_CLIENT_SSL`**(int)
 
 Використовувати SSL (шифрований протокол). Ця опція не може бути встановлена ​​програмами; вона встановлюється усередині бібліотеки клієнта MySQL.
 
-**`MYSQLI_CLIENT_COMPRESS`**
+**`MYSQLI_CLIENT_COMPRESS`**(int)
 
 Використовувати компресію.
 
-**`MYSQLI_CLIENT_INTERACTIVE`**
+**`MYSQLI_CLIENT_INTERACTIVE`**(int)
 
-Чекати `interactive_timeout` секунд (замість `wait_timeout`) бездіяльності перед закриттям з'єднання. Змінна сесії клієнта `wait_timeout` буде встановлено значення змінної сесії `interactive_timeout`
+Чекати `interactive_timeout`секунд (вместо`wait_timeout`) бездіяльності перед закриттям з'єднання. Змінна сесії клієнта `wait_timeout`будет установлена в значение переменной сессии`interactive_timeout`
 
-**`MYSQLI_CLIENT_IGNORE_SPACE`**
+**`MYSQLI_CLIENT_IGNORE_SPACE`**(int)
 
 Дозволити пробіли після назв функцій. Робить усі імена функцій зарезервованими словами.
 
-**`MYSQLI_CLIENT_NO_SCHEMA`**
+**`MYSQLI_CLIENT_NO_SCHEMA`**(int)
 
-Заборонити синтаксис `db_name.tbl_name.col_name`
+Запретить синтаксис`db_name.tbl_name.col_name`
 
 **`MYSQLI_CLIENT_MULTI_QUERIES`**
 
-Дозволити виконання в одному дзвінку функції [mysqliquery()](mysqli.query.md) кількох запитів, розділених крапкою з комою.
+Дозволити виконання в одному дзвінку функції [mysqli\_query()](mysqli.query.md) кількох запитів, розділених крапкою з комою.
 
-**`MYSQLI_STORE_RESULT`**
+**`MYSQLI_STORE_RESULT`**(int)
 
-Для буферизації наборів даних. Значення дорівнює `0`
+Для буферизації наборів даних. Значення дорівнює
 
-**`MYSQLI_USE_RESULT`**
+**`MYSQLI_USE_RESULT`**(int)
 
-Для використання небуферизованих наборів даних. Значення дорівнює `1`
+Для використання небуферизованих наборів даних. Значення дорівнює
 
-**`MYSQLI_ASSOC`**
+**`MYSQLI_ASSOC`**(int)
 
 Результат повертається у вигляді асоціативного масиву з іменами полів як індекси.
 
-**`MYSQLI_NUM`**
+**`MYSQLI_NUM`**(int)
 
 Результат повертається як індексного масиву.
 
-**`MYSQLI_BOTH`**
+**`MYSQLI_BOTH`**(int)
 
-Результат повертається у вигляді масиву, який містить як числовий, так і асоціативний індекси.
+Результат повертається у вигляді масиву, що містить як числовий, так і асоціативний індекси.
 
-**`MYSQLI_NOT_NULL_FLAG`**
+**`MYSQLI_NOT_NULL_FLAG`**(int)
 
 Повідомляє про те, що поле визначено як `NOT NULL`
 
-**`MYSQLI_PRI_KEY_FLAG`**
+**`MYSQLI_PRI_KEY_FLAG`**(int)
 
 Поле є частиною первинного індексу.
 
-**`MYSQLI_UNIQUE_KEY_FLAG`**
+**`MYSQLI_UNIQUE_KEY_FLAG`**(int)
 
 Поле є частиною унікального індексу.
 
-**`MYSQLI_MULTIPLE_KEY_FLAG`**
+**`MYSQLI_MULTIPLE_KEY_FLAG`**(int)
 
 Поле є частиною індексу.
 
-**`MYSQLI_BLOB_FLAG`**
+**`MYSQLI_BLOB_FLAG`**(int)
 
-Поле визначено як `BLOB`
+Поле определено как`BLOB`
 
-**`MYSQLI_UNSIGNED_FLAG`**
+**`MYSQLI_UNSIGNED_FLAG`**(int)
 
-Поле визначено як `UNSIGNED`
+Поле определено как`UNSIGNED`
 
-**`MYSQLI_ZEROFILL_FLAG`**
+**`MYSQLI_ZEROFILL_FLAG`**(int)
 
-Поле визначено як `ZEROFILL`
+Поле определено как`ZEROFILL`
 
-**`MYSQLI_AUTO_INCREMENT_FLAG`**
+**`MYSQLI_AUTO_INCREMENT_FLAG`**(int)
 
-Поле визначено як `AUTO_INCREMENT`
+Поле определено как`AUTO_INCREMENT`
 
-**`MYSQLI_TIMESTAMP_FLAG`**
+**`MYSQLI_TIMESTAMP_FLAG`**(int)
 
-Поле визначено як `TIMESTAMP`
+Поле определено как`TIMESTAMP`
 
-**`MYSQLI_SET_FLAG`**
+**`MYSQLI_SET_FLAG`**(int)
 
-Поле визначено як `SET`
+Поле определено как`SET`
 
-**`MYSQLI_NUM_FLAG`**
+**`MYSQLI_NUM_FLAG`**(int)
 
-Поле визначено як `NUMERIC`
+Поле определено как`NUMERIC`
 
-**`MYSQLI_PART_KEY_FLAG`**
+**`MYSQLI_PART_KEY_FLAG`**(int)
 
 Поле є частиною мульти-індексу.
 
-**`MYSQLI_GROUP_FLAG`**
+**`MYSQLI_GROUP_FLAG`**(int)
 
-Поле є частиною `GROUP BY`
+Поле является частью`GROUP BY`
 
-**`MYSQLI_TYPE_DECIMAL`**
+**`MYSQLI_TYPE_DECIMAL`**(int)
 
-Поле визначено як `DECIMAL`
+Поле определено как`DECIMAL`
 
-**`MYSQLI_TYPE_NEWDECIMAL`**
+**`MYSQLI_TYPE_NEWDECIMAL`**(int)
 
-Математична точність полів `DECIMAL` або `NUMERIC` (MySQL 5.0.3 та вище).
+Математична точність полів `DECIMAL`или`NUMERIC` (MySQL 5.0.3 та вище).
 
-**`MYSQLI_TYPE_BIT`**
+**`MYSQLI_TYPE_BIT`**(int)
 
-Поле визначено як `BIT` (MySQL 5.0.3 та вище).
+Поле определено как`BIT` (MySQL 5.0.3 та вище).
 
-**`MYSQLI_TYPE_TINY`**
+**`MYSQLI_TYPE_TINY`**(int)
 
-Поле визначено як `TINYINT`
+Поле определено как`TINYINT`
 
-**`MYSQLI_TYPE_SHORT`**
+**`MYSQLI_TYPE_SHORT`**(int)
 
-Поле визначено як `SMALLINT`
+Поле определено как`SMALLINT`
 
-**`MYSQLI_TYPE_LONG`**
+**`MYSQLI_TYPE_LONG`**(int)
 
-Поле визначено як `INT`
+Поле определено как`INT`
 
-**`MYSQLI_TYPE_FLOAT`**
+**`MYSQLI_TYPE_FLOAT`**(int)
 
-Поле визначено як `FLOAT`
+Поле определено как`FLOAT`
 
-**`MYSQLI_TYPE_DOUBLE`**
+**`MYSQLI_TYPE_DOUBLE`**(int)
 
-Поле визначено як `DOUBLE`
+Поле определено как`DOUBLE`
 
-**`MYSQLI_TYPE_NULL`**
+**`MYSQLI_TYPE_NULL`**(int)
 
-Поле визначено як `DEFAULT NULL`
+Поле определено как`DEFAULT NULL`
 
-**`MYSQLI_TYPE_TIMESTAMP`**
+**`MYSQLI_TYPE_TIMESTAMP`**(int)
 
-Поле визначено як `TIMESTAMP`
+Поле определено как`TIMESTAMP`
 
-**`MYSQLI_TYPE_LONGLONG`**
+**`MYSQLI_TYPE_LONGLONG`**(int)
 
-Поле визначено як `BIGINT`
+Поле определено как`BIGINT`
 
-**`MYSQLI_TYPE_INT24`**
+**`MYSQLI_TYPE_INT24`**(int)
 
-Поле визначено як `MEDIUMINT`
+Поле определено как`MEDIUMINT`
 
-**`MYSQLI_TYPE_DATE`**
+**`MYSQLI_TYPE_DATE`**(int)
 
-Поле визначено як `DATE`
+Поле определено как`DATE`
 
-**`MYSQLI_TYPE_TIME`**
+**`MYSQLI_TYPE_TIME`**(int)
 
-Поле визначено як `TIME`
+Поле определено как`TIME`
 
-**`MYSQLI_TYPE_DATETIME`**
+**`MYSQLI_TYPE_DATETIME`**(int)
 
-Поле визначено як `DATETIME`
+Поле определено как`DATETIME`
 
-**`MYSQLI_TYPE_YEAR`**
+**`MYSQLI_TYPE_YEAR`**(int)
 
-Поле визначено як `YEAR`
+Поле определено как`YEAR`
 
-**`MYSQLI_TYPE_NEWDATE`**
+**`MYSQLI_TYPE_NEWDATE`**(int)
 
-Поле визначено як `DATE`
+Поле определено как`DATE`
 
-**`MYSQLI_TYPE_INTERVAL`**
+**`MYSQLI_TYPE_INTERVAL`**(int)
 
-Поле визначено як `INTERVAL`
+Поле определено как`INTERVAL`
 
-**`MYSQLI_TYPE_ENUM`**
+**`MYSQLI_TYPE_ENUM`**(int)
 
-Поле визначено як `ENUM`
+Поле определено как`ENUM`
 
-**`MYSQLI_TYPE_SET`**
+**`MYSQLI_TYPE_SET`**(int)
 
-Поле визначено як `SET`
+Поле определено как`SET`
 
-**`MYSQLI_TYPE_TINY_BLOB`**
+**`MYSQLI_TYPE_TINY_BLOB`**(int)
 
-Поле визначено як `TINYBLOB`
+Поле определено как`TINYBLOB`
 
-**`MYSQLI_TYPE_MEDIUM_BLOB`**
+**`MYSQLI_TYPE_MEDIUM_BLOB`**(int)
 
-Поле визначено як `MEDIUMBLOB`
+Поле определено как`MEDIUMBLOB`
 
-**`MYSQLI_TYPE_LONG_BLOB`**
+**`MYSQLI_TYPE_LONG_BLOB`**(int)
 
-Поле визначено як `LONGBLOB`
+Поле определено как`LONGBLOB`
 
-**`MYSQLI_TYPE_BLOB`**
+**`MYSQLI_TYPE_BLOB`**(int)
 
-Поле визначено як `BLOB`
+Поле определено как`BLOB`
 
-**`MYSQLI_TYPE_VAR_STRING`**
+**`MYSQLI_TYPE_VAR_STRING`**(int)
 
-Поле визначено як `VARCHAR`
+Поле определено как`VARCHAR`
 
-**`MYSQLI_TYPE_STRING`**
+**`MYSQLI_TYPE_STRING`**(int)
 
-Поле визначено як `CHAR` або `BINARY`
+Поле определено как`CHAR`или`BINARY`
 
-**`MYSQLI_TYPE_CHAR`**
+**`MYSQLI_TYPE_CHAR`**(int)
 
-Поле визначено як `TINYINT`. Для `CHAR` дивіться `MYSQLI_TYPE_STRING`
+Поле определено как`TINYINT`Для`CHAR`смотрите`MYSQLI_TYPE_STRING`
 
-**`MYSQLI_TYPE_GEOMETRY`**
+**`MYSQLI_TYPE_GEOMETRY`**(int)
 
-Поле визначено як `GEOMETRY`
+Поле определено как`GEOMETRY`
 
-**`MYSQLI_TYPE_JSON`**
+**`MYSQLI_TYPE_JSON`**(int)
 
-Поле визначено як `JSON`. Дійсно тільки для MySQL і MySQL 5.7.8 і вище.
+Поле определено как`JSON`. Дійсно тільки для MySQL і MySQL 5.7.8 і вище.
 
 **`MYSQLI_NEED_DATA`**
 
 Є ще дані, доступні для пов'язаних змінних.
 
-**`MYSQLI_NO_DATA`**
+**`MYSQLI_NO_DATA`**(int)
 
 Більше немає доступних даних для пов'язаних змінних.
 
-**`MYSQLI_DATA_TRUNCATED`**
+**`MYSQLI_DATA_TRUNCATED`**(int)
 
 Відбулося усічення даних. Доступно з MySQL 5.0.5.
 
-**`MYSQLI_ENUM_FLAG`**
+**`MYSQLI_ENUM_FLAG`**(int)
 
-Поле визначено як `ENUM`
+Поле определено как`ENUM`
 
-**`MYSQLI_BINARY_FLAG`**
+**`MYSQLI_BINARY_FLAG`**(int)
 
-Поле визначено як `BINARY`
+Поле определено как`BINARY`
 
-**`MYSQLI_CURSOR_TYPE_FOR_UPDATE`**
+**`MYSQLI_CURSOR_TYPE_FOR_UPDATE`**(int)
 
-**`MYSQLI_CURSOR_TYPE_NO_CURSOR`**
+**`MYSQLI_CURSOR_TYPE_NO_CURSOR`**(int)
 
-**`MYSQLI_CURSOR_TYPE_READ_ONLY`**
+**`MYSQLI_CURSOR_TYPE_READ_ONLY`**(int)
 
-**`MYSQLI_CURSOR_TYPE_SCROLLABLE`**
+**`MYSQLI_CURSOR_TYPE_SCROLLABLE`**(int)
 
-**`MYSQLI_STMT_ATTR_CURSOR_TYPE`**
+**`MYSQLI_STMT_ATTR_CURSOR_TYPE`**(int)
 
-**`MYSQLI_STMT_ATTR_PREFETCH_ROWS`**
+**`MYSQLI_STMT_ATTR_PREFETCH_ROWS`**(int)
 
-**`MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH`**
+**`MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH`**(int)
 
-**`MYSQLI_SET_CHARSET_NAME`**
+**`MYSQLI_SET_CHARSET_NAME`**(int)
 
-**`MYSQLI_REPORT_INDEX`**
+**`MYSQLI_REPORT_INDEX`**(int)
 
 Повідомляти, якщо індекс, який використовується у запиті, не вказано або перевищує максимум.
 
-**`MYSQLI_REPORT_ERROR`**
+**`MYSQLI_REPORT_ERROR`**(int)
 
-Повідомляти про помилки функцій mysqli.
+Повідомляти про помилки виклику mysqli.
 
-**`MYSQLI_REPORT_STRICT`**
+**`MYSQLI_REPORT_STRICT`**(int)
 
-Обробляти `mysqli_sql_exception` як помилки, а чи не як попередження.
+Обробляти `mysqli_sql_exception`как ошибки, а не как предупреждения.
 
-**`MYSQLI_REPORT_ALL`**
+**`MYSQLI_REPORT_ALL`**(int)
 
-Увімкнути всі повідомлення.
+Включити всі оповіщення.
 
-**`MYSQLI_REPORT_OFF`**
+**`MYSQLI_REPORT_OFF`**(int)
 
 Вимикає повідомлення.
 
-**`MYSQLI_DEBUG_TRACE_ENABLED`**
+**`MYSQLI_DEBUG_TRACE_ENABLED`**(int)
 
-Встановлено в 1, якщо використовується функція [mysqlidebug()](mysqli.debug.md)
+Установлено в 1, если используется функция[mysqli\_debug()](mysqli.debug.md)
 
-**`MYSQLI_SERVER_QUERY_NO_GOOD_INDEX_USED`**
+**`MYSQLI_SERVER_QUERY_NO_GOOD_INDEX_USED`**(int)
 
-**`MYSQLI_SERVER_QUERY_NO_INDEX_USED`**
+**`MYSQLI_SERVER_QUERY_NO_INDEX_USED`**(int)
 
-**`MYSQLI_SERVER_PUBLIC_KEY`**
+**`MYSQLI_SERVER_PUBLIC_KEY`**(int)
 
-**`MYSQLI_REFRESH_GRANT`**
+**`MYSQLI_REFRESH_GRANT`**(int)
 
 Оновлює таблицю прав доступу.
 
-**`MYSQLI_REFRESH_LOG`**
+**`MYSQLI_REFRESH_LOG`**(int)
 
 Скидає логи, так само, як і SQL вираз `FLUSH LOGS`
 
-**`MYSQLI_REFRESH_TABLES`**
+**`MYSQLI_REFRESH_TABLES`**(int)
 
 Очищає кеш таблиці, так само, як і SQL вираз `FLUSH TABLES`
 
-**`MYSQLI_REFRESH_HOSTS`**
+**`MYSQLI_REFRESH_HOSTS`**(int)
 
 Очищає кеш хоста, так само, як і SQL вираз `FLUSH HOSTS`
 
-**`MYSQLI_REFRESH_REPLICA`**
+**`MYSQLI_REFRESH_REPLICA`**(int)
 
 Аліас константи **`MYSQLI_REFRESH_SLAVE`**. Доступна починаючи з PHP 8.1.0.
 
-**`MYSQLI_REFRESH_STATUS`**
+**`MYSQLI_REFRESH_STATUS`**(int)
 
 Скидає змінні стани, так само, як і SQL вираз `FLUSH STATUS`
 
-**`MYSQLI_REFRESH_THREADS`**
+**`MYSQLI_REFRESH_THREADS`**(int)
 
 Очищує кеш потоку.
 
-**`MYSQLI_REFRESH_SLAVE`**
+**`MYSQLI_REFRESH_SLAVE`**(int)
 
 На веденому сервері, що реплікується (slave): скинути інформацію провідного сервера (master) і перезапустити ведений сервер. Аналогічно до виконання SQL виразу `RESET SLAVE`
 
-**`MYSQLI_REFRESH_MASTER`**
+**`MYSQLI_REFRESH_MASTER`**(int)
 
 На провідному сервері, що реплікується (master): видалити бінарні файли логів у бінарному індексі логів, і обрізати файл індексу. Аналогічно до виконання SQL виразу `RESET MASTER`
 
-**`MYSQLI_TRANS_COR_AND_CHAIN`**
+**`MYSQLI_TRANS_COR_AND_CHAIN`**(int)
 
-Додає "AND CHAIN" у [mysqlicommit()](mysqli.commit.md) або [mysqlirollback()](mysqli.rollback.md)
+Додає "AND CHAIN" у [mysqli\_commit()](mysqli.commit.md) або [mysqli\_rollback()](mysqli.rollback.md)
 
-**`MYSQLI_TRANS_COR_AND_NO_CHAIN`**
+**`MYSQLI_TRANS_COR_AND_NO_CHAIN`**(int)
 
-Додає "AND NO CHAIN" у [mysqlicommit()](mysqli.commit.md) або [mysqlirollback()](mysqli.rollback.md)
+Додає "AND NO CHAIN" у [mysqli\_commit()](mysqli.commit.md) або [mysqli\_rollback()](mysqli.rollback.md)
 
-**`MYSQLI_TRANS_COR_RELEASE`**
+**`MYSQLI_TRANS_COR_RELEASE`**(int)
 
-Додає "RELEASE" в [mysqlicommit()](mysqli.commit.md) або [mysqlirollback()](mysqli.rollback.md)
+Додає "RELEASE" в [mysqli\_commit()](mysqli.commit.md) або [mysqli\_rollback()](mysqli.rollback.md)
 
-**`MYSQLI_TRANS_COR_NO_RELEASE`**
+**`MYSQLI_TRANS_COR_NO_RELEASE`**(int)
 
-Додає "NO RELEASE" в [mysqlicommit()](mysqli.commit.md) або [mysqlirollback()](mysqli.rollback.md)
+Додає "NO RELEASE" в [mysqli\_commit()](mysqli.commit.md) або [mysqli\_rollback()](mysqli.rollback.md)
 
-**`MYSQLI_TRANS_START_READ_ONLY`**
+**`MYSQLI_TRANS_START_READ_ONLY`**(int)
 
-Починає транзакцію як "START TRANSACTION READ ONLY" з [mysqlibegintransaction()](mysqli.begin-transaction.md)
+Починає транзакцію як "START TRANSACTION READ ONLY" з [mysqli\_begin\_transaction()](mysqli.begin-transaction.md)
 
-**`MYSQLI_TRANS_START_READ_WRITE`**
+**`MYSQLI_TRANS_START_READ_WRITE`**(int)
 
-Починає транзакцію як "START TRANSACTION READ WRITE" з [mysqlibegintransaction()](mysqli.begin-transaction.md)
+Починає транзакцію як "START TRANSACTION READ WRITE" з [mysqli\_begin\_transaction()](mysqli.begin-transaction.md)
 
 **`MYSQLI_TRANS_START_CONSISTENT_SNAPSHOT`**
 
-Починає транзакцію як "START TRANSACTION WITH CONSISTENT SNAPSHOT" з [mysqlibegintransaction()](mysqli.begin-transaction.md)
+Починає транзакцію як "START TRANSACTION WITH CONSISTENT SNAPSHOT" з [mysqli\_begin\_transaction()](mysqli.begin-transaction.md)
 
-**`MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT`**
+**`MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT`**(int)
 
 Потрібен MySQL 5.6.5 і вище
 
-**`MYSQLI_IS_MARIADB`**
+**`MYSQLI_IS_MARIADB`**(bool)
 
 Визначає, чи зібрано модуль mysqli з клієнтською бібліотекою MariaDB. Доступно з PHP 8.1.2.

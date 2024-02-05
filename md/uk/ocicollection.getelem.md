@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.ocicollection.md: OCICollection
 title: 'OCICollection::getElem'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # OCICollection::getElem
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
 OCICollection::getElem — Повертає значення елемента
 
@@ -28,13 +29,13 @@ public OCICollection::getElem(int $index): string|float|null|false
 
 ### Значення, що повертаються
 
-Djpdhfoftn \*\*`false`\*\*якщо такого елемента немає; \*\*`null`\*\*якщо елемент дорівнює **`null`**; рядок, якщо елемент відноситься до рядкового стовпця, та число, якщо елемент є числовим полем.
+Djpdhfoftn\*\*`false`\*\*якщо такого елемента немає; \*\*`null`\*\*якщо елемент дорівнює **`null`**; рядок, якщо елемент відноситься до рядкового стовпця, та число, якщо елемент є числовим полем.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
+| 8.0.0, PECL OCI8 3.0.0 | Класс**OCI-Collection**перейменований на[OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 

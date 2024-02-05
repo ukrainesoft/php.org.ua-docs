@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.tidynode.md: tidyNode
 title: 'tidyNode::hasSiblings'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidyNode::hasSiblings
 
@@ -30,7 +31,7 @@ public tidyNode::hasSiblings(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **tidyNode::hasSiblings()****
+**Пример #1 Пример использования функции**tidyNode::hasSiblings()\*\*\*\*
 
 ```php
 <?php
@@ -74,7 +75,7 @@ var_dump($tidy->html()->child[0]->hasSiblings());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)

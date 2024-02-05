@@ -1,10 +1,11 @@
 ---
 navigation:
-  - varnish.example.stat.md: « Простое использование VarnishStat
+  - varnish.example.stat.md: « Просте використання VarnishStat
   - class.varnishadmin.md: VarnishAdmin »
   - index.md: PHP Manual
   - varnish.examples.md: Приклади
 title: Просте використання VarnishLog
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Просте використання VarnishLog
 

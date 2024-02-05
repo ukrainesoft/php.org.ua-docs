@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.socket-send.md: « socketsend
-  - function.socket-sendto.md: socketsendto »
+  - function.socket-send.md: « socket\_send
+  - function.socket-sendto.md: socket\_sendto »
   - index.md: PHP Manual
-  - ref.sockets.md: Функции сокета
-title: socketsendmsg
+  - ref.sockets.md: Опції сокету
+title: socket\_sendmsg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# socketsendmsg
+# socket\_sendmsg
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-socketsendmsg — Надіслати повідомлення
+socket\_sendmsg — Надіслати повідомлення
 
 ### Опис
 
@@ -20,7 +21,7 @@ socket_sendmsg(Socket $socket, array $message, int $flags = 0): int|false
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,15 +33,15 @@ socket_sendmsg(Socket $socket, array $message, int $flags = 0): int|false
 
 ### Значення, що повертаються
 
-Повертає кількість відправлених байтів або **`false`** у разі виникнення помилки.
+Повертає кількість відправлених байтів або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
+| 8.0.0 | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 
--   [socketrecvmsg()](function.socket-recvmsg.md) - Прочитати повідомлення
--   [socketcmsgspace()](function.socket-cmsg-space.md) - Обчислити розмір буфера повідомлення
+-   [socket\_recvmsg()](function.socket-recvmsg.md) \- Прочитати повідомлення
+-   [socket\_cmsg\_space()](function.socket-cmsg-space.md) \- Обчислити розмір буфера повідомлення

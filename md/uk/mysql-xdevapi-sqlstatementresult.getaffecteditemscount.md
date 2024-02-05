@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-sqlstatementresult.fetchone.md: '« SqlStatementResult::fetchOne'
   - mysql-xdevapi-sqlstatementresult.getcolumncount.md: 'SqlStatementResult::getColumnsCount »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: mysql\_xdevapi\\SqlStatementResult
 title: 'SqlStatementResult::getAffectedItemsCount'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SqlStatementResult::getAffectedItemsCount
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\SqlStatementResult::getAffectedItemsCount(): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\SqlStatementResult::getAffectedItemsCount(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSqlStatementResult::getAffectedItemsCount()****
+**Пример #1 Пример использования**mysql\_xdevapi\\SqlStatementResult::getAffectedItemsCount()\*\*\*\*
 
 ```php
 <?php

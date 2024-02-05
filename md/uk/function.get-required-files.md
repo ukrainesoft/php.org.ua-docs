@@ -1,17 +1,18 @@
 ---
 navigation:
-  - function.get-magic-quotes-runtime.md: « getmagicquotesruntime
-  - function.get-resources.md: getresources »
+  - function.get-magic-quotes-runtime.md: « get\_magic\_quotes\_runtime
+  - function.get-resources.md: get\_resources »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
-title: getrequiredfiles
+title: get\_required\_files
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getrequiredfiles
+# get\_required\_files
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-getrequiredfiles - Псевдонім [getincludedfiles()](function.get-included-files.md)
+get\_required\_files — Псевдоним[get\_included\_files()](function.get-included-files.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [getincludedfiles()](function.get-included-files.md)
+Функция — псевдоним функции:[get\_included\_files()](function.get-included-files.md)

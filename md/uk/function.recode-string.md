@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.recode-file.md: « recodefile
+  - function.recode-file.md: « recode\_file
   - function.recode.md: recode »
   - index.md: PHP Manual
-  - ref.recode.md: Функции Recode
-title: recodestring
+  - ref.recode.md: Функції Recode
+title: recode\_string
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# recodestring
+# recode\_string
 
 (PHP 4, PHP 5, PHP 7 < 7.4.0)
 
-recodestring — Перекодує рядок відповідно до заданих параметрів
+recode\_string — Перекодує рядок відповідно до заданих параметрів
 
 ### Опис
 
@@ -18,7 +19,7 @@ recodestring — Перекодує рядок відповідно до зад�
 recode_string(string $request, string $string): string
 ```
 
-Перекодує рядок `string` відповідно до `request`
+Перекодирует строку`string` відповідно до `request`
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ recode_string(string $request, string $string): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **recodestring()****
+**Пример #1 Пример использования**recode\_string()\*\*\*\*
 
 ```php
 <?php
@@ -51,6 +52,6 @@ echo recode_string("us..flat", "The following character has a diacritical mark: 
 ### Дивіться також
 
 -   Докладніше про запити на перекодування читайте у документації, яка входить до дистрибутиву GNU Recode.
--   [мбconvertencoding()](function.mb-convert-encoding.md) - Перетворює рядок з одного кодування символів на інший
--   [UConverter::transcode()](uconverter.transcode.md) - Перетворює рядок з одного кодування символів на інший
--   [iconv()](function.iconv.md) - Перетворює рядок з одного кодування символів на інший
+-   [mb\_convert\_encoding()](function.mb-convert-encoding.md) \- Перетворює рядок з одного кодування символів на інший
+-   [UConverter::transcode()](uconverter.transcode.md) \- Перетворює рядок з одного кодування символів на інший
+-   [iconv()](function.iconv.md) \- Перетворює рядок з одного кодування символів на інший

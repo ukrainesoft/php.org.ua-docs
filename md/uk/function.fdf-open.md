@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fdf-open-string.md: « fdfopenstring
-  - function.fdf-remove-item.md: fdfremoveitem »
+  - function.fdf-open-string.md: « fdf\_open\_string
+  - function.fdf-remove-item.md: fdf\_remove\_item »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
-title: fdfopen
+title: fdf\_open
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fdfopen
+# fdf\_open
 
 (PHP 4, PHP 5 < 5.3.0, PECL fdf SVN)
 
-fdfopen — Відкриває документ FDF
+fdf\_open — Відкриває документ FDF
 
 ### Опис
 
@@ -20,17 +21,17 @@ fdf_open(string $filename): resource
 
 Відкриває файл із даними форми.
 
-Ви також можете використовувати [fdfopenstring()](function.fdf-open-string.md) для обробки результатів POST-запиту PDF-форми.
+Ви також можете використовувати [fdf\_open\_string()](function.fdf-open-string.md) для обробки результатів POST-запиту PDF-форми.
 
 ### Список параметрів
 
 `filename`
 
-Шлях до файлу FDF. Файл повинен містити дані, повернені з форми PDF або створені за допомогою [fdfcreate()](function.fdf-create.md) і [fdfsave()](function.fdf-save.md)
+Шлях до файлу FDF. Файл повинен містити дані, повернені з форми PDF або створені за допомогою [fdf\_create()](function.fdf-create.md) і [fdf\_save()](function.fdf-save.md)
 
 ### Значення, що повертаються
 
-Повертає дескриптор документа FDF або **`false`** у разі виникнення помилки.
+Повертає дескриптор документа FDF або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
@@ -52,7 +53,7 @@ fdf_close($fdf);
 
 ### Дивіться також
 
--   [fdfopenstring()](function.fdf-open-string.md) - Читає FDF документ з рядка
--   [fdfclose()](function.fdf-close.md) - Закриває FDF-документ
--   [fdfcreate()](function.fdf-create.md) - Створює новий документ FDF
--   [fdfsave()](function.fdf-save.md) - Зберігає документ FDF
+-   [fdf\_open\_string()](function.fdf-open-string.md) \- Читає FDF документ з рядка
+-   [fdf\_close()](function.fdf-close.md) \- Закриває FDF-документ
+-   [fdf\_create()](function.fdf-create.md) \- Створює новий документ FDF
+-   [fdf\_save()](function.fdf-save.md) \- Зберігає документ FDF

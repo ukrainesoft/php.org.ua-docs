@@ -1,16 +1,17 @@
 ---
 navigation:
-  - class.mongodb-bson-timestampinterface.md: « MongoDBBSONTimestampInterface
-  - mongodb-bson-timestampinterface.gettimestamp.md: 'MongoDBBSONTimestampInterface::getTimestamp »'
+  - class.mongodb-bson-timestampinterface.md: « MongoDB\\BSON\\TimestampInterface
+  - mongodb-bson-timestampinterface.gettimestamp.md: 'MongoDB\\BSON\\TimestampInterface::getTimestamp »'
   - index.md: PHP Manual
-  - class.mongodb-bson-timestampinterface.md: MongoDBBSONTimestampInterface
-title: 'MongoDBBSONTimestampInterface::getIncrement'
+  - class.mongodb-bson-timestampinterface.md: MongoDB\\BSON\\TimestampInterface
+title: 'MongoDB\\BSON\\TimestampInterface::getIncrement'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONTimestampInterface::getIncrement
+# MongoDB\\BSON\\TimestampInterface::getIncrement
 
 (mongodb >=1.3.0)
 
-MongoDBBSONTimestampInterface::getIncrement — Повертає інкрементний компонент TimestampInterface
+MongoDB\\BSON\\TimestampInterface::getIncrement — Повертає інкрементний компонент TimestampInterface
 
 ### Опис
 
@@ -32,4 +33,4 @@ abstract public MongoDB\BSON\TimestampInterface::getIncrement(): int
 
 ### Дивіться також
 
--   [MongoDBBSONTimestamp::getIncrement()](mongodb-bson-timestamp.getincrement.md) - Повертає компонент збільшення Timestamp
+-   [MongoDB\\BSON\\Timestamp::getIncrement()](mongodb-bson-timestamp.getincrement.md) \- Повертає компонент збільшення Timestamp

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-box-secretkey.md: « sodiumcryptoboxsecretkey
-  - function.sodium-crypto-box.md: sodiumcryptobox »
+  - function.sodium-crypto-box-secretkey.md: « sodium\_crypto\_box\_secretkey
+  - function.sodium-crypto-box.md: sodium\_crypto\_box »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptoboxseedkeypair
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_box\_seed\_keypair
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptoboxseedkeypair
+# sodium\_crypto\_box\_seed\_keypair
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptoboxseedkeypair - Детерміністичний висновок ключової пари з одного ключа
+sodium\_crypto\_box\_seed\_keypair - Детерміністичний висновок ключової пари з одного ключа
 
 ### Опис
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::getImageCompressionQuality'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::getImageCompressionQuality
 
-(PECL imagick 2> = 2.2.2, PECL imagick 3)
+(PECL imagick 2 >= 2.2.2, PECL imagick 3)
 
 Imagick::getImageCompressionQuality — Повертає поточну якість стиснення зображення
 

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.phpdbg-prompt.md: « phpdbgprompt
+  - function.phpdbg-prompt.md: « phpdbg\_prompt
   - book.runkit7.md: runkit7 »
   - index.md: PHP Manual
-  - ref.phpdbg.md: Функции phpdbg
-title: phpdbgstartoplog
+  - ref.phpdbg.md: Функції phpdbg
+title: phpdbg\_start\_oplog
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# phpdbgstartoplog
+# phpdbg\_start\_oplog
 
 (PHP 7, PHP 8)
 
-phpdbgstartoplog -
+phpdbg\_start\_oplog —
 
 ### Опис
 
@@ -20,7 +21,7 @@ phpdbg_start_oplog(): void
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

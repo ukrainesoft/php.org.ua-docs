@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::getRecvTimeout'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Zookeeper::getRecvTimeout
 
 (PECL zookeeper >= 0.1.0)
 
-Zookeeper::getRecvTimeout — Повертає час очікування для сесії, дійсний, тільки якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE). Це значення може змінитися після повторного підключення до сервера
+Zookeeper::getRecvTimeout — Повертає час очікування для сесії, дійсний, тільки якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOO\_CONNECTED\_STATE). Це значення може змінитися після повторного підключення до сервера
 
 ### Опис
 
@@ -37,6 +38,6 @@ public
 
 ### Дивіться також
 
--   [Zookeeper::construct()](zookeeper.construct.md) - Створює дескриптор для спілкування з zookeeper
--   [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::\_\_construct()](zookeeper.construct.md) \- Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::connect()](zookeeper.connect.md) \- Створює дескриптор для спілкування з zookeeper
 -   [ZookeeperException](class.zookeeperexception.md)

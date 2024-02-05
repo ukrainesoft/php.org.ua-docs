@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::isDeprecated'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::isDeprecated
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::isDeprecated — Перевіряє, чи функція застаріла
 
@@ -18,7 +19,7 @@ ReflectionFunctionAbstract::isDeprecated — Перевіряє, чи функц
 public ReflectionFunctionAbstract::isDeprecated(): bool
 ```
 
-Перевіряє, чи функція застаріла.
+Перевіряє, чи є функція застарілої.
 
 ### Список параметрів
 
@@ -26,11 +27,11 @@ public ReflectionFunctionAbstract::isDeprecated(): bool
 
 ### Значення, що повертаються
 
-\*\*`true`\*\*якщо функція застаріла, **`false`** в іншому випадку.
+**`true`**, если функция устарела,**`false`** в іншому випадку.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ReflectionFunctionAbstract::isDeprecated()****
+**Пример #1 Пример использования**ReflectionFunctionAbstract::isDeprecated()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ var_dump($rf->isDeprecated());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(true)
@@ -47,4 +48,4 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getDocComment()](reflectionfunctionabstract.getdoccomment.md) - Отримує doc-коментар
+-   [ReflectionFunctionAbstract::getDocComment()](reflectionfunctionabstract.getdoccomment.md) \- Отримує doc-коментар

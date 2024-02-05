@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md: « sodiumcryptopwhashscryptsalsa208sha256strverify
-  - function.sodium-crypto-pwhash-scryptsalsa208sha256.md: sodiumcryptopwhashscryptsalsa208sha256 »
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md: « sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str\_verify
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256.md: sodium\_crypto\_pwhash\_scryptsalsa208sha256 »
   - index.md: PHP Manual
-  - ref.sodium.md: Функции Sodium
-title: sodiumcryptopwhashscryptsalsa208sha256str
+  - ref.sodium.md: Опції Sodium
+title: sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# sodiumcryptopwhashscryptsalsa208sha256str
+# sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str
 
-(PHP 7> = 7.2.0, PHP 8)
+(PHP 7 >= 7.2.0, PHP 8)
 
-sodiumcryptopwhashscryptsalsa208sha256str — Отримати закодований в ASCII хеш
+sodium\_crypto\_pwhash\_scryptsalsa208sha256\_str — Отримати закодований в ASCII хеш
 
 ### Опис
 
@@ -20,7 +21,7 @@ sodium_crypto_pwhash_scryptsalsa208sha256_str(string $password, int $opslimit, i
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

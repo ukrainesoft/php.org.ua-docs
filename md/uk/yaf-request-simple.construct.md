@@ -1,29 +1,31 @@
 ---
 navigation:
-  - class.yaf-request-simple.md: « YafRequestSimple
-  - yaf-request-simple.get.md: 'YafRequestSimple::get »'
+  - class.yaf-request-simple.md: « Yaf\_Request\_Simple
+  - yaf-request-simple.get.md: 'Yaf\_Request\_Simple::get »'
   - index.md: PHP Manual
-  - class.yaf-request-simple.md: YafRequestSimple
-title: 'YafRequestSimple::construct'
+  - class.yaf-request-simple.md: Yaf\_Request\_Simple
+title: 'Yaf\_Request\_Simple::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestSimple::construct
+# Yaf\_Request\_Simple::\_\_construct
 
 (Yaf >=1.0.0)
 
-YafRequestSimple::construct - Конструктор класу YafRequestSimple
+Yaf\_Request\_Simple::\_\_construct - Конструктор класу Yaf\_Request\_Simple
 
 ### Опис
 
-public **YafRequestSimple::construct**  
-string `$method`  
-string `$module`  
-string `$controller`  
-string `$action`  
-array `$params`
+public**Yaf\_Request\_Simple::\_\_construct**  
+string`$method`  
+string`$module`  
+string`$controller`  
+string`$action`  
+array`$params`  
+) .
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

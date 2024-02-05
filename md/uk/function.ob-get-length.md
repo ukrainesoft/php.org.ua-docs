@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.ob-get-flush.md: « obgetflush
-  - function.ob-get-level.md: проgetlevel »
+  - function.ob-get-flush.md: « ob\_get\_flush
+  - function.ob-get-level.md: ob\_get\_level »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
-title: проgetlength
+title: ob\_get\_length
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# проgetlength
+# ob\_get\_length
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-проgetlength — Повертає розмір буфера виводу
+ob\_get\_length — Повертає розмір буфера виводу
 
 ### Опис
 
@@ -30,7 +31,7 @@ ob_get_length(): int|false
 
 ### Приклади
 
-**Приклад #1 Простий приклад використання функції **проgetlength()****
+**Приклад #1 Простий приклад використання функції **ob\_get\_length()****
 
 ```php
 <?php
@@ -51,7 +52,7 @@ echo $len1 . ", " . $len2;
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 13, 19
@@ -59,5 +60,5 @@ echo $len1 . ", " . $len2;
 
 ### Дивіться також
 
--   [проstart()](function.ob-start.md) - Включення буферизації виводу
--   [проgetcontents()](function.ob-get-contents.md) - Повертає вміст буфера виводу
+-   [ob\_start()](function.ob-start.md) \- Включає буферизацію виводу
+-   [ob\_get\_contents()](function.ob-get-contents.md) \- Повертає вміст буфера виводу

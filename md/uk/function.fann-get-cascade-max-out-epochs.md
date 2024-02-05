@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-cascade-max-cand-epochs.md: « fanngetcascademaxcandepochs
-  - function.fann-get-cascade-min-cand-epochs.md: fanngetcascademincandepochs »
+  - function.fann-get-cascade-max-cand-epochs.md: « fann\_get\_cascade\_max\_cand\_epochs
+  - function.fann-get-cascade-min-cand-epochs.md: fann\_get\_cascade\_min\_cand\_epochs »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetcascademaxoutepochs
+  - ref.fann.md: Функції Fann
+title: fann\_get\_cascade\_max\_out\_epochs
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetcascademaxoutepochs
+# fann\_get\_cascade\_max\_out\_epochs
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetcascademaxoutepochs — Повертає максимальну кількість періодів
+fann\_get\_cascade\_max\_out\_epochs — Повертає максимальну кількість періодів
 
 ### Опис
 
@@ -30,8 +31,8 @@ fann_get_cascade_max_out_epochs(resource $ann): int
 
 ### Значення, що повертаються
 
-Максимальна кількість періодів або **`false`** у разі виникнення помилки.
+Максимальна кількість періодів або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fannsetcascademaxoutepochs()](function.fann-set-cascade-max-out-epochs.md) - Встановлює максимальну кількість епох
+-   [fann\_set\_cascade\_max\_out\_epochs()](function.fann-set-cascade-max-out-epochs.md) \- Встановлює максимальну кількість епох

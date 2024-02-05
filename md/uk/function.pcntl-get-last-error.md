@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pcntl-fork.md: pcntlfork
-  - function.pcntl-getpriority.md: pcntlgetpriority »
+  - function.pcntl-fork.md: « pcntl\_fork
+  - function.pcntl-getpriority.md: pcntl\_getpriority »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
-title: pcntlgetlasterror
+title: pcntl\_get\_last\_error
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# pcntlgetlasterror
+# pcntl\_get\_last\_error
 
-(PHP 5> = 5.3.4, PHP 7, PHP 8)
+(PHP 5 >= 5.3.4, PHP 7, PHP 8)
 
-pcntlgetlasterror — Отримати код останньої помилки, що виникла в pcntl-функції
+pcntl\_get\_last\_error — Отримати код останньої помилки, що виникла в pcntl-функції
 
 ### Опис
 
@@ -20,7 +21,7 @@ pcntl_get_last_error(): int
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ pcntl_get_last_error(): int
 
 ### Дивіться також
 
--   [pcntlstrerror()](function.pcntl-strerror.md) - Отримати текст помилки за її кодом
+-   [pcntl\_strerror()](function.pcntl-strerror.md) \- Отримати текст помилки за її кодом

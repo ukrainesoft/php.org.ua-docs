@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-form.append.md: '« UIControlsForm::append'
-  - ui-controls-form.ispadded.md: 'ОЙControlsForm::isPadded »'
+  - ui-controls-form.append.md: '« UI\\Controls\\Form::append'
+  - ui-controls-form.ispadded.md: 'UI\\Controls\\Form::isPadded »'
   - index.md: PHP Manual
-  - class.ui-controls-form.md: ОЙControlsForm
-title: 'ОЙControlsForm::delete'
+  - class.ui-controls-form.md: UI\\Controls\\Form
+title: 'UI\\Controls\\Form::delete'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsForm::delete
+# UI\\Controls\\Form::delete
 
 (UI 0.9.9)
 
-ОЙControlsForm::delete — Видалити елемент керування
+UI\\Controls\\Form::delete — Видалити елемент керування
 
 ### Опис
 

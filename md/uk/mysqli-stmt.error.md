@@ -1,24 +1,25 @@
 ---
 navigation:
-  - mysqli-stmt.error-list.md: '« mysqlistmt::$errorlist'
-  - mysqli-stmt.execute.md: 'mysqlistmt::execute »'
+  - mysqli-stmt.error-list.md: '« mysqli\_stmt::$error\_list'
+  - mysqli-stmt.execute.md: 'mysqli\_stmt::execute »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::$error'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::$error'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::$error
+# mysqli\_stmt::$error
 
-# mysqlistmterror
+# mysqli\_stmt\_error
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::$error -- mysqlistmterror — Повертає рядок із поясненням останньої помилки під час виконання запиту
+mysqli\_stmt::$error -- mysqli\_stmt\_error — Повертає рядок із поясненням останньої помилки під час виконання запиту
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-string [$mysqlistmt->error](mysqli-stmt.error.md)
+string[$mysqli\_stmt->error](mysqli-stmt.error.md)
 
 Процедурний стиль
 
@@ -32,7 +33,7 @@ mysqli_stmt_error(mysqli_stmt $statement): string
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -114,7 +115,7 @@ mysqli_close($link);
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Ошибка: Table 'world.myCountry' doesn't exist.
@@ -122,5 +123,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
--   [mysqlistmtsqlstate()](mysqli-stmt.sqlstate.md) - Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
+-   [mysqli\_stmt\_errno()](mysqli-stmt.errno.md) \- Повертає код помилки виконання останнього запиту
+-   [mysqli\_stmt\_sqlstate()](mysqli-stmt.sqlstate.md) \- Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом

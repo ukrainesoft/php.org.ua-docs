@@ -1,12 +1,15 @@
 ---
 navigation:
-  - parallel.run.md: « parallelrun
-  - parallel-runtime.construct.md: 'parallelRuntime::construct »'
+  - parallel.run.md: « parallel\\run
+  - parallel-runtime.construct.md: 'parallel\\Runtime::\_\_construct »'
   - index.md: PHP Manual
   - book.parallel.md: parallel
-title: Клас parallelRuntime
+title: Клас parallel\\Runtime
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас parallelRuntime
+# Клас parallel\\Runtime
+
+(0.8.0)
 
 ## Об'єкти під час виконання
 
@@ -20,7 +23,7 @@ title: Клас parallelRuntime
 
 Коли створюється нове середовище виконання, вона розділяє код із потоком (чи процесом), який її створив. Це означає, що в ньому не завантажені ті ж класи та функції, а також не встановлений той самий автозавантажувач. У деяких випадках бажане дуже легке середовище виконання, тому що завдання, які будуть заплановані, не потребують доступу до коду батьківського потоку. У тих випадках, коли завданням потрібен доступ до одного і того ж коду, достатньо встановити автозавантажувач як початкове завантаження.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Попереднє завантаження може використовуватися разом з паралельним, у цьому випадку попередньо завантажений код доступний без початкового завантаження.
 
@@ -58,7 +61,7 @@ public kill(): void
 
 ## Зміст
 
--   [parallelRuntime::construct](parallel-runtime.construct.md) - Конструктор класу Runtime
--   [parallelRuntime::run](parallel-runtime.run.md) - Виконання
--   [parallelRuntime::close](parallel-runtime.close.md) — Витончене з'єднання під час виконання
--   [parallelRuntime::kill](parallel-runtime.kill.md) — З'єднання під час виконання
+-   [parallel\\Runtime::\_\_construct](parallel-runtime.construct.md) \- Конструктор класу Runtime
+-   [parallel\\Runtime::run](parallel-runtime.run.md) \- Виконання
+-   [parallel\\Runtime::close](parallel-runtime.close.md)— Витончене з'єднання під час виконання
+-   [parallel\\Runtime::kill](parallel-runtime.kill.md)— З'єднання під час виконання

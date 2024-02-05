@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.reversed.md: '« DsSequence::reversed'
-  - ds-sequence.set.md: 'ДсSequence::set »'
+  - ds-sequence.reversed.md: '« Ds\\Sequence::reversed'
+  - ds-sequence.set.md: 'Ds\\Sequence::set »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::rotate'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::rotate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::rotate
+# Ds\\Sequence::rotate
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::rotate — Перемотує послідовність на задану кількість значень
+Ds\\Sequence::rotate — Перемотує послідовність на задану кількість значень
 
 ### Опис
 
@@ -32,7 +33,7 @@ abstract public Ds\Sequence::rotate(int $rotations): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::rotate()****
+**Пример #1 Пример использования**Ds\\Sequence::rotate()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ print_r($sequence);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 (

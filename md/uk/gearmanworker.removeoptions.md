@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::removeOptions'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanWorker::removeOptions
 
@@ -15,7 +16,7 @@ GearmanWorker::removeOptions — Видалення налаштувань об�
 ### Опис
 
 ```methodsynopsis
-public GearmanWorker::removeOptions(int $option): bool
+public GearmanWorker::removeOptions(int $option): true
 ```
 
 Видаляє одну або кілька опцій обробника.
@@ -28,10 +29,10 @@ public GearmanWorker::removeOptions(int $option): bool
 
 ### Значення, що повертаються
 
-Завжди повертає **`true`**
+Функція завжди повертає **`true`**
 
 ### Дивіться також
 
--   [GearmanWorker::options()](gearmanworker.options.md) - Отримання налаштувань обробника
--   [GearmanWorker::setOptions()](gearmanworker.setoptions.md) - Встановлення налаштувань обробника
--   [GearmanWorker::addOptions()](gearmanworker.addoptions.md) - Додавання налаштувань обробника
+-   [GearmanWorker::options()](gearmanworker.options.md) \- Отримання налаштувань обробника
+-   [GearmanWorker::setOptions()](gearmanworker.setoptions.md) \- Встановлення налаштувань обробника
+-   [GearmanWorker::addOptions()](gearmanworker.addoptions.md) \- Додавання налаштувань обробника

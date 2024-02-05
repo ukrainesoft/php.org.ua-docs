@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::importStylesheet'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XSLTProcessor::importStylesheet
 
@@ -15,8 +16,7 @@ XSLTProcessor::importStylesheet — Імпортує таблицю стилів
 ### Опис
 
 ```methodsynopsis
-public
-   XSLTProcessor::importStylesheet(object $stylesheet): bool
+public XSLTProcessor::importStylesheet(object $stylesheet): bool
 ```
 
 Цей метод імпортує таблицю стилів у [XSLTProcessor](class.xsltprocessor.md) для трансформації.
@@ -29,4 +29,4 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.

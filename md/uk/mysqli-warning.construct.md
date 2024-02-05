@@ -1,20 +1,21 @@
 ---
 navigation:
-  - class.mysqli-warning.md: « mysqliwarning
-  - mysqli-warning.next.md: 'mysqliwarning::next »'
+  - class.mysqli-warning.md: « mysqli\_warning
+  - mysqli-warning.next.md: 'mysqli\_warning::next »'
   - index.md: PHP Manual
-  - class.mysqli-warning.md: mysqliwarning
-title: 'mysqliwarning::construct'
+  - class.mysqli-warning.md: mysqli\_warning
+title: 'mysqli\_warning::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqliwarning::construct
+# mysqli\_warning::\_\_construct
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqliwarning::construct — Закритий конструктор для заборони прямого створення екземпляра
+mysqli\_warning::\_\_construct — Закритий конструктор для заборони прямого створення екземпляра
 
 ### Опис
 
-private **mysqliwarning::construct**
+private**mysqli\_warning::\_\_construct**()
 
 ### Список параметрів
 

@@ -1,14 +1,15 @@
 ---
 navigation:
   - class.datetimeimmutable.md: « DateTimeImmutable
-  - datetimeimmutable.construct.md: 'DateTimeImmutable::construct »'
+  - datetimeimmutable.construct.md: 'DateTimeImmutable::\_\_construct »'
   - index.md: PHP Manual
   - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::add'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeImmutable::add
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::add — Повертає новий об'єкт із доданою кількістю днів, місяців, років, годин, хвилин та секунд
 
@@ -18,7 +19,7 @@ DateTimeImmutable::add — Повертає новий об'єкт із дода
 public DateTimeImmutable::add(DateInterval $interval): DateTimeImmutable
 ```
 
-Створює новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) та додає до нього вказаний об'єкт [DateInterval](class.dateinterval.md) для уявлення нового значення.
+Створює новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) та додає до нього вказаний об'єкт [DateInterval](class.dateinterval.md)для представления нового значения.
 
 ### Список параметрів
 
@@ -28,11 +29,11 @@ public DateTimeImmutable::add(DateInterval $interval): DateTimeImmutable
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з модифікованими даними або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) із модифікованими даними.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTimeImmutable::add()****
+**Пример #1 Пример использования**DateTimeImmutable::add()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -58,7 +59,7 @@ echo $newDate->format('Y-m-d H:i:s') . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 2000-01-01 10:00:30
@@ -80,7 +81,7 @@ echo $newDate2->format('Y-m-d') . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 2001-01-31
@@ -89,6 +90,6 @@ echo $newDate2->format('Y-m-d') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::sub()](datetimeimmutable.sub.md) - Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
--   [DateTimeImmutable::diff()](datetime.diff.md) - Повертає різницю між двома об'єктами DateTime
--   [DateTimeImmutable::modify()](datetimeimmutable.modify.md) - Створює новий об'єкт із зміненою тимчасовою міткою
+-   [DateTimeImmutable::sub()](datetimeimmutable.sub.md) \- Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
+-   [DateTimeImmutable::diff()](datetime.diff.md) \- Повертає різницю між двома об'єктами DateTime
+-   [DateTimeImmutable::modify()](datetimeimmutable.modify.md) \- Створює новий об'єкт із зміненою тимчасовою міткою

@@ -1,26 +1,27 @@
 ---
 navigation:
-  - yaf-request-abstract.setrouted.md: '« YafRequestAbstract::setRouted'
-  - yaf-request-http.construct.md: 'YafRequestHttp::construct »'
+  - yaf-request-abstract.setrouted.md: '« Yaf\_Request\_Abstract::setRouted'
+  - yaf-request-http.construct.md: 'Yaf\_Request\_Http::\_\_construct »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
-title: Клас YafRequestHttp
+title: Клас Yaf\_Request\_Http
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас YafRequestHttp
+# Клас Yaf\_Request\_Http
 
 (Yaf >=1.0.0)
 
 ## Вступ
 
-Будь-який запит від клієнта ініціалізується як **YafRequestHttp**. Ви можете отримати інформацію про запит, наприклад URI і параметри запиту, використовуючи методи цього класу.
+Будь-який запит від клієнта ініціалізується як **Yaf\_Request\_Http**. Ви можете отримати інформацію про запит, наприклад URI і параметри запиту, використовуючи методи цього класу.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> З метою безпеки $GET/$POST доступні тільки для читання в Yaf, що означає, що якщо ви встановите значення для цих глобальних змінних, ви не зможете отримати їх за допомогою [YafRequestHttp::getQuery()](yaf-request-http.getquery.md) або [YafRequestHttp::getPost()](yaf-request-http.getpost.md)
+> З метою безпеки $\_GET/$\_POST доступні тільки для читання в Yaf, що означає, що якщо ви встановите значення для цих глобальних змінних, ви не зможете отримати їх за допомогою [Yaf\_Request\_Http::getQuery()](yaf-request-http.getquery.md) або [Yaf\_Request\_Http::getPost()](yaf-request-http.getpost.md)
 > 
 > Якщо виникає потреба у використанні такого функціоналу при модульному тестуванні, Yaf може бути зібраний за допомогою --enable-yaf-debug, який дозволить Yaf прочитати значення, задане користувачем через скрипт.
 > 
-> У цьому випадку Yaf видасть попередження ESTRICT, щоб нагадати про це: Strict Standards: you are running yaf in debug mode
+> У цьому випадку Yaf видасть попередження E\_STRICT, щоб нагадати про це: Strict Standards: you are running yaf in debug mode
 
 ## Огляд класів
 
@@ -100,15 +101,15 @@ controller
 
 action
 
-метод
+method
 
 params
 
 language
 
-exception
+\_exception
 
-baseuri
+\_base\_uri
 
 uri
 
@@ -118,12 +119,12 @@ routed
 
 ## Зміст
 
--   [YafRequestHttp::construct](yaf-request-http.construct.md) - Конструктор класу YafRequestHttp
--   [YafRequestHttp::get](yaf-request-http.get.md) — Отримує змінну від клієнта
--   [YafRequestHttp::getCookie](yaf-request-http.getcookie.md) — Отримує змінну Cookie
--   [YafRequestHttp::getFiles](yaf-request-http.getfiles.md) - Призначення getFiles
--   [YafRequestHttp::getPost](yaf-request-http.getpost.md) — Отримує змінну POST
--   [YafRequestHttp::getQuery](yaf-request-http.getquery.md) — Отримує параметр запиту
--   [YafRequestHttp::getRaw](yaf-request-http.getraw.md) — Отримує необроблене тіло запиту
--   [YafRequestHttp::getRequest](yaf-request-http.getrequest.md) - Призначення getRequest
--   [YafRequestHttp::isXmlHttpRequest](yaf-request-http.isxmlhttprequest.md) — Визначає, чи є запит Ajax-запитом
+-   [Yaf\_Request\_Http::\_\_construct](yaf-request-http.construct.md) \- Конструктор класу Yaf\_Request\_Http
+-   [Yaf\_Request\_Http::get](yaf-request-http.get.md)— Отримує змінну від клієнта
+-   [Yaf\_Request\_Http::getCookie](yaf-request-http.getcookie.md)— Отримує змінну Cookie
+-   [Yaf\_Request\_Http::getFiles](yaf-request-http.getfiles.md) \- Призначення getFiles
+-   [Yaf\_Request\_Http::getPost](yaf-request-http.getpost.md)— Отримує змінну POST
+-   [Yaf\_Request\_Http::getQuery](yaf-request-http.getquery.md)— Отримує параметр запиту
+-   [Yaf\_Request\_Http::getRaw](yaf-request-http.getraw.md)— Отримує необроблене тіло запиту
+-   [Yaf\_Request\_Http::getRequest](yaf-request-http.getrequest.md) \- Призначення getRequest
+-   [Yaf\_Request\_Http::isXmlHttpRequest](yaf-request-http.isxmlhttprequest.md)— Визначає, чи є запит Ajax-запитом

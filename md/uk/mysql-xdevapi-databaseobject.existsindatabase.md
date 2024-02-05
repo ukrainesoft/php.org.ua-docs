@@ -1,10 +1,11 @@
 ---
 navigation:
-  - class.mysql-xdevapi-databaseobject.md: « mysqlxdevapiDatabaseObject
+  - class.mysql-xdevapi-databaseobject.md: « mysql\_xdevapi\\DatabaseObject
   - mysql-xdevapi-databaseobject.getname.md: 'DatabaseObject::getName »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-databaseobject.md: mysqlxdevapiDatabaseObject
+  - class.mysql-xdevapi-databaseobject.md: mysql\_xdevapi\\DatabaseObject
 title: 'DatabaseObject::existsInDatabase'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DatabaseObject::existsInDatabase
 
@@ -30,7 +31,7 @@ abstract public mysql_xdevapi\DatabaseObject::existsInDatabase(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiDatabaseObject::existsInDatabase()****
+**Пример #1 Пример использования**mysql\_xdevapi\\DatabaseObject::existsInDatabase()\*\*\*\*
 
 ```php
 <?php

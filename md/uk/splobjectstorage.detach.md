@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::detach'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplObjectStorage::detach
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::detach — Видаляє об'єкт з контейнера.
 
@@ -32,11 +33,11 @@ public SplObjectStorage::detach(object $object): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplObjectStorage::detach()****
+**Пример #1 Пример использования**SplObjectStorage::detach()\*\*\*\*
 
 ```php
 <?php
-$o = new StdClass;
+$o = new stdClass;
 $s = new SplObjectStorage();
 $s->attach($o);
 var_dump(count($s));
@@ -45,7 +46,7 @@ var_dump(count($s));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(1)
@@ -54,5 +55,5 @@ int(0)
 
 ### Дивіться також
 
--   [SplObjectStorage::attach()](splobjectstorage.attach.md) - Додає об'єкт у контейнер
--   [SplObjectStorage::removeAll()](splobjectstorage.removeall.md) - Видаляє з поточного контейнера об'єкти, які є в іншому контейнері
+-   [SplObjectStorage::attach()](splobjectstorage.attach.md) \- Додає об'єкт у контейнер
+-   [SplObjectStorage::removeAll()](splobjectstorage.removeall.md) \- Видаляє з поточного контейнера об'єкти, які є в іншому контейнері

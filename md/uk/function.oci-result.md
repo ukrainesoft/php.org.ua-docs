@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.oci-register-taf-callback.md: « ociregistertafcallback
-  - function.oci-rollback.md: ocirollback »
+  - function.oci-register-taf-callback.md: « oci\_register\_taf\_callback
+  - function.oci-rollback.md: oci\_rollback »
   - index.md: PHP Manual
-  - ref.oci8.md: OCI8 Функции
-title: ociresult
+  - ref.oci8.md: OCI8 Функції
+title: oci\_result
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ociresult
+# oci\_result
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 >= 1.1.0)
 
-ociresult — Повертає значення поля з результату запиту
+oci\_result — Повертає значення поля з результату запиту
 
 ### Опис
 
@@ -18,9 +19,9 @@ ociresult — Повертає значення поля з результату
 oci_result(resource $statement, string|int $column): mixed
 ```
 
-Повертає дані поля `column` поточного рядка, що повертається функцією [ocifetch()](function.oci-fetch.md)
+Повертає дані поля `column` поточного рядка, що повертається функцією [oci\_fetch()](function.oci-fetch.md)
 
-За подробицями щодо відображення типів даних, що здійснюється модулем OCI8, зверніться до [типів даних, що підтримуються драйвером](oci8.datatypes.md)
+Для отримання детальнішої інформації щодо відображення типів даних модуля OCI8 зверніться до [типів даних, що підтримуються драйвером](oci8.datatypes.md)
 
 ### Список параметрів
 
@@ -32,11 +33,11 @@ oci_result(resource $statement, string|int $column): mixed
 
 ### Значення, що повертаються
 
-Повертає всі значення у вигляді рядка за винятком абстрактних типів (ROWIDs, LOBs та FILEs). Повертає **`false`** у разі виникнення помилки.
+Повертає всі значення у вигляді рядка за винятком абстрактних типів (ROWIDs, LOBs та FILEs). Повертає \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання [ocifetch()](function.oci-fetch.md) з **ociresult()****
+**Пример #1 Пример использования[oci\_fetch()](function.oci-fetch.md)с**oci\_result()\*\*\*\*
 
 ```php
 <?php
@@ -66,16 +67,10 @@ oci_close($conn);
 ?>
 ```
 
-### Примітки
-
-> **Зауваження**
-> 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ociresult()](function.ociresult.md). У PHP 5.0.0 і вище [ociresult()](function.ociresult.md) є аліасом **ociresult()** з метою зворотної сумісності. Ви можете продовжувати використовувати це ім'я, але це не рекомендується.
-
 ### Дивіться також
 
--   [ocifetcharray()](function.oci-fetch-array.md) - Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
--   [ocifetchassoc()](function.oci-fetch-assoc.md) - Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
--   [ocifetchobject()](function.oci-fetch-object.md) - Повертає наступний рядок із результату запиту у вигляді об'єкта
--   [ocifetchrow()](function.oci-fetch-row.md) - Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
--   [ocifetchall()](function.oci-fetch-all.md) - Вибирає всі рядки з результату запиту до двомірного масиву
+-   [oci\_fetch\_array()](function.oci-fetch-array.md) \- Повертає наступний рядок із результату запиту у вигляді асоціативного чи нумерованого масиву
+-   [oci\_fetch\_assoc()](function.oci-fetch-assoc.md) \- Повертає наступний рядок із результату запиту у вигляді асоціативного масиву
+-   [oci\_fetch\_object()](function.oci-fetch-object.md) \- Повертає наступний рядок із результату запиту у вигляді об'єкта
+-   [oci\_fetch\_row()](function.oci-fetch-row.md) \- Повертає наступний рядок із результату запиту у вигляді нумерованого масиву
+-   [oci\_fetch\_all()](function.oci-fetch-all.md) \- Вибирає всі рядки з результату запиту до двомірного масиву

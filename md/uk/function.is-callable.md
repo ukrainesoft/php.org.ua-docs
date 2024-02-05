@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-bool.md: « isbool
-  - function.is-countable.md: ісcountable »
+  - function.is-bool.md: « is\_bool
+  - function.is-countable.md: is\_countable »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
-title: ісcallable
+title: is\_callable
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісcallable
+# is\_callable
 
-(PHP 4> = 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.6, PHP 5, PHP 7, PHP 8)
 
-ісcallable — Перевіряє, що значення може бути викликане як функція у поточній області видимості
+is\_callable — Перевіряє, що значення може бути викликане як функція у поточній області видимості
 
 ### Опис
 
@@ -40,7 +41,7 @@ is_callable(mixed $value, bool $syntax_only = false, string &$callable_name = nu
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ісcallable()****
+**Пример #1 Пример использования**is\_callable()\*\*\*\*
 
 ```php
 <?php
@@ -62,7 +63,7 @@ var_dump(is_callable($functionVariable, false, $callable_name));  // bool(true)
 echo $callable_name, "\n";  // someFunction
 
 //
-//  Масив, содержащий метод класса
+//  Массив, содержащий метод класса
 //
 
 class someClass {
@@ -84,9 +85,9 @@ echo $callable_name, "\n";  //  someClass::someMethod
 ?>
 ```
 
-**Приклад #2 **ісcallable()** та конструктори**
+**Пример #2**is\_callable()\*\* та конструктори\*\*
 
-Функція **ісcallable()** не рахує конструктори за callable.
+Функция**is\_callable()** не рахує конструктори за callable.
 
 ```php
 <?php
@@ -103,7 +104,7 @@ var_dump(
 );
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 bool(false)
@@ -112,12 +113,12 @@ bool(false)
 
 ### Примітки
 
--   Об'єкт завжди є callable, якщо він реалізує [invoke()](language.oop5.magic.md#object.invoke), і цей метод доступний у поточній області видимості.
--   Ім'я класу є callable, якщо воно реалізує [callStatic()](language.oop5.overloading.md#object.callstatic)
--   Якщо об'єкт реалізує [call()](language.oop5.overloading.md#object.call)тоді ця функція поверне **`true`** для будь-якого методу цього об'єкта, навіть якщо метод не визначено.
+-   Об'єкт завжди є callable, якщо він реалізує[\_\_invoke()](language.oop5.magic.md#object.invoke), і цей метод доступний у поточній області видимості.
+-   Ім'я класу є callable, якщо воно реалізує[\_\_callStatic()](language.oop5.overloading.md#object.callstatic)
+-   Якщо об'єкт реалізує[\_\_call()](language.oop5.overloading.md#object.call)тоді ця функція поверне\*\*`true`\*\*для будь-якого методу цього об'єкта, навіть якщо метод не визначено.
 -   Функція може запускати автозавантаження, якщо викликається під назвою класу.
 
 ### Дивіться також
 
--   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена
--   [methodexists()](function.method-exists.md) - Перевіряє, чи існує метод у даному класі
+-   [function\_exists()](function.function-exists.md) \- Повертає true, якщо вказана функція визначена
+-   [method\_exists()](function.method-exists.md) \- Перевіряє, чи існує метод у даному класі

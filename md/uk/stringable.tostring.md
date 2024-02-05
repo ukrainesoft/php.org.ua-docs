@@ -4,13 +4,14 @@ navigation:
   - class.unitenum.md: UnitEnum »
   - index.md: PHP Manual
   - class.stringable.md: Stringable
-title: 'Stringable::toString'
+title: 'Stringable::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Stringable::toString
+# Stringable::\_\_function toString() { \[native code\] }
 
 (PHP 8)
 
-Stringable::toString — Отримує рядкову виставу об'єкта
+Stringable::\_\_toString — Отримує рядкову виставу об'єкта
 
 ### Опис
 
@@ -28,4 +29,4 @@ public Stringable::__toString(): string
 
 ### Дивіться також
 
--   [toString()](language.oop5.magic.md#object.tostring)
+-   [\_\_toString()](language.oop5.magic.md#object.tostring)

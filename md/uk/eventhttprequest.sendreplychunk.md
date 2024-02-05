@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::sendReplyChunk'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EventHttpRequest::sendReplyChunk
 
@@ -36,5 +37,5 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::sendReplyStart()](eventhttprequest.sendreplystart.md) - Ініціює фрагментарну відповідь
--   [EventHttpRequest::sendReplyEnd()](eventhttprequest.sendreplyend.md) - заповнює фрагментарну відповідь, звільняючи запит відповідним чином
+-   [EventHttpRequest::sendReplyStart()](eventhttprequest.sendreplystart.md) \- Ініціює фрагментарну відповідь
+-   [EventHttpRequest::sendReplyEnd()](eventhttprequest.sendreplyend.md) \- заповнює фрагментарну відповідь, звільняючи запит відповідним чином

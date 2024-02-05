@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getBasename'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::getBasename
 
-(PHP 5> = 5.2.2, PHP 7, PHP 8)
+(PHP 5 >= 5.2.2, PHP 7, PHP 8)
 
 SplFileInfo::getBasename — Отримує базове ім'я файлу
 
@@ -36,7 +37,7 @@ public SplFileInfo::getBasename(string $suffix = ""): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::getBasename()****
+**Пример #1 Пример использования**SplFileInfo::getBasename()\*\*\*\*
 
 ```php
 <?php
@@ -51,7 +52,7 @@ var_dump($info->getBasename('.txt'));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(8) "file.txt"
@@ -61,4 +62,4 @@ string(4) "file"
 
 ### Дивіться також
 
--   [SplFileInfo::getFilename()](splfileinfo.getfilename.md) - Отримує ім'я файлу
+-   [SplFileInfo::getFilename()](splfileinfo.getfilename.md) \- Отримує ім'я файлу

@@ -3,14 +3,15 @@ navigation:
   - mysql-xdevapi-schema.createcollection.md: '« Schema::createCollection'
   - mysql-xdevapi-schema.existsindatabase.md: 'Schema::existsInDatabase »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysql\_xdevapi\\Schema
 title: 'Schema::dropCollection'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Schema::dropCollection
 
 (No version information available, might only be in Git)
 
-Schema::dropCollection — Видалити колекції зі схеми
+Schema::dropCollection — Видаляє колекції зі схеми
 
 ### Опис
 
@@ -20,7 +21,7 @@ public mysql_xdevapi\Schema::dropCollection(string $collection_name): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 
@@ -30,7 +31,7 @@ public mysql_xdevapi\Schema::dropCollection(string $collection_name): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiSchema::getCollection()****
+**Пример #1 Пример использования метода**mysql\_xdevapi\\Schema::dropCollection()\*\*\*\*
 
 ```php
 <?php
@@ -50,7 +51,7 @@ print_r($schema->gettables());
 print_r($schema->getcollections());
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

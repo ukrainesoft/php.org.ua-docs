@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.dba-key-split.md: « dbakeysplit
-  - function.dba-nextkey.md: dbanextkey »
+  - function.dba-key-split.md: « dba\_key\_split
+  - function.dba-nextkey.md: dba\_nextkey »
   - index.md: PHP Manual
   - ref.dba.md: Функції DBA
-title: dbalist
+title: dba\_list
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dbalist
+# dba\_list
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-dbalist — Список усіх відкритих файлів бази даних
+dba\_list — Список усіх відкритих файлів бази даних
 
 ### Опис
 
@@ -18,7 +19,7 @@ dbalist — Список усіх відкритих файлів бази да�
 dba_list(): array
 ```
 
-**dbalist()** повертає список усіх відкритих файлів бази даних.
+**dba\_list()** повертає список усіх відкритих файлів бази даних.
 
 ### Список параметрів
 

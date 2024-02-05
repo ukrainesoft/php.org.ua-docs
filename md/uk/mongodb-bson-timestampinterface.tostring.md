@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-timestampinterface.gettimestamp.md: '« MongoDBBSONTimestampInterface::getTimestamp'
-  - class.mongodb-bson-utcdatetimeinterface.md: MongoDBBSONUTCDateTimeInterface »
+  - mongodb-bson-timestampinterface.gettimestamp.md: '« MongoDB\\BSON\\TimestampInterface::getTimestamp'
+  - class.mongodb-bson-utcdatetimeinterface.md: MongoDB\\BSON\\UTCDateTimeInterface »
   - index.md: PHP Manual
-  - class.mongodb-bson-timestampinterface.md: MongoDBBSONTimestampInterface
-title: 'MongoDBBSONTimestampInterface::function toString() { \[native code\] }'
+  - class.mongodb-bson-timestampinterface.md: MongoDB\\BSON\\TimestampInterface
+title: 'MongoDB\\BSON\\TimestampInterface::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONTimestampInterface::function toString() { \[native code\] }
+# MongoDB\\BSON\\TimestampInterface::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.3.0)
 
-MongoDBBSONTimestampInterface::toString — Повертає строкове уявлення TimestampInterface
+MongoDB\\BSON\\TimestampInterface::\_\_toString — Повертає строкову виставу TimestampInterface
 
 ### Опис
 
@@ -28,4 +29,4 @@ abstract public MongoDB\BSON\TimestampInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDBBSONTimestamp::toString()](mongodb-bson-timestamp.tostring.md) - Повертає рядкову виставу Timestamp
+-   [MongoDB\\BSON\\Timestamp::\_\_toString()](mongodb-bson-timestamp.tostring.md) \- Повертає рядкову виставу Timestamp

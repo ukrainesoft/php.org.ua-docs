@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.cubrid-set-db-parameter.md: « cubridsetдбparameter
-  - function.cubrid-set-query-timeout.md: cubridsetquerytimeout »
+  - function.cubrid-set-db-parameter.md: « cubrid\_set\_db\_parameter
+  - function.cubrid-set-query-timeout.md: cubrid\_set\_query\_timeout »
   - index.md: PHP Manual
-  - ref.cubrid.md: Функции CUBRID
-title: cubridsetdrop
+  - ref.cubrid.md: Функції CUBRID
+title: cubrid\_set\_drop
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# cubridsetdrop
+# cubrid\_set\_drop
 
 (PECL CUBRID >= 8.3.0)
 
-cubridsetdrop — Видаляє елемент із стовпця заданого типу, використовуючи OID
+cubrid\_set\_drop — Видаляє елемент із стовпця заданого типу, використовуючи OID
 
 ### Опис
 
 ```methodsynopsis
-cubrid_set_drop(    resource $conn_identifier,    string $oid,    string $attr_name,    string $set_element): bool
+cubrid_set_drop(    resource $conn_identifier,    string $oid,    string $attr_name,    string $set_element): bool
 ```
 
-Функція **cubridsetdrop()** використовується для видалення елемента, який ви запитуєте із заданого атрибута типу набору (set, multiset) бази даних.
+Функция**cubrid\_set\_drop()** використовується для видалення елемента, який ви запитуєте із заданого атрибута типу набору (set, multiset) бази даних.
 
 ### Список параметрів
 
@@ -40,11 +41,11 @@ OID екземпляра, з яким ви хочете працювати.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **cubridsetdrop()****
+**Пример #1 Пример использования**cubrid\_set\_drop()\*\*\*\*
 
 ```php
 <?php
@@ -72,7 +73,7 @@ cubrid_disconnect($conn);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 array(3) {
@@ -93,4 +94,4 @@ array(2) {
 
 ### Дивіться також
 
--   [cubridsetadd()](function.cubrid-set-add.md) - Вставляє один елемент для встановлення стовпця типу за допомогою OID
+-   [cubrid\_set\_add()](function.cubrid-set-add.md) \- Вставляє один елемент для встановлення стовпця типу за допомогою OID

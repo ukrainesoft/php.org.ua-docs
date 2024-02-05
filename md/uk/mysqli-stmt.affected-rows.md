@@ -1,24 +1,25 @@
 ---
 navigation:
-  - class.mysqli-stmt.md: « mysqlistmt
-  - mysqli-stmt.attr-get.md: 'mysqlistmt::attrget »'
+  - class.mysqli-stmt.md: « mysqli\_stmt
+  - mysqli-stmt.attr-get.md: 'mysqli\_stmt::attr\_get »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.md: mysqlistmt
-title: 'mysqlistmt::$affectedrows'
+  - class.mysqli-stmt.md: mysqli\_stmt
+title: 'mysqli\_stmt::$affected\_rows'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlistmt::$affectedrows
+# mysqli\_stmt::$affected\_rows
 
-# mysqlistmtaffectedrows
+# mysqli\_stmt\_affected\_rows
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqlistmt::$affectedrows - mysqlistmtaffectedrows - Повертає загальну кількість рядків, змінених, віддалених, вставлених або зіставлених останнім виконаним виразом
+mysqli\_stmt::$affected\_rows -- mysqli\_stmt\_affected\_rows - Повертає загальну кількість рядків, змінених, віддалених, вставлених або зіставлених останнім виконаним виразом
 
 ### Опис
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqlistmt->affectedrows](mysqli-stmt.affected-rows.md)
+int|string[$mysqli\_stmt->affected\_rows](mysqli-stmt.affected-rows.md)
 
 Процедурний стиль
 
@@ -26,25 +27,25 @@ int|string [$mysqlistmt->affectedrows](mysqli-stmt.affected-rows.md)
 mysqli_stmt_affected_rows(mysqli_stmt $statement): int|string
 ```
 
-Повертає кількість рядків, змінених запитом `INSERT` `UPDATE` або `DELETE`. Працює аналогічно [mysqlistmtnumrows()](mysqli-stmt.num-rows.md) для виразів `SELECT`
+Повертає кількість рядків, змінених запитом `INSERT` `UPDATE`или`DELETE`. Працює аналогічно [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.md) для виразів `SELECT`
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqli\_stmt](class.mysqli-stmt.md), який повернула функція [mysqli\_stmt\_init()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
-Ціле число більше за нуль вказує кількість порушених або вилучених рядків. Нуль означає, що записи для оператора `UPDATE` не оновлювалися, жодний рядок не відповідав виразу `WHERE` у запиті або що жодного запиту ще не було виконано . `-1` означає, що під час виконання запиту сталася помилка або для запиту `SELECT` **mysqlistmtaffectedrows()** була викликана до виклику [mysqlistmtstoreresult()](mysqli-stmt.store-result.md)
+Ціле число більше за нуль вказує кількість порушених або витягнутих рядків. Нуль означає, що записи для оператора `UPDATE` не оновлювалися, жодний рядок не відповідав виразу `WHERE` у запиті або що жодного запиту ще не було виконано . `-1` означає, що під час виконання запиту сталася помилка або для запиту `SELECT` **mysqli\_stmt\_affected\_rows()** була викликана до виклику [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.md)
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Якщо кількість змінених рядків більша за максимальне значення для цілого числа в PHP, то ця кількість буде повернена у вигляді рядкового значення.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlistmtaffectedrows()****
+**Пример #1 Пример использования**mysqli\_stmt\_affected\_rows()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -100,7 +101,7 @@ printf("Добавлено строк: %d\n", mysqli_stmt_affected_rows($stmt));
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Добавлено строк: 17
@@ -108,5 +109,5 @@ printf("Добавлено строк: %d\n", mysqli_stmt_affected_rows($stmt));
 
 ### Дивіться також
 
--   [mysqlistmtnumrows()](mysqli-stmt.num-rows.md) - Повертає кількість рядків, отриманих із сервера
--   [mysqlistmtstoreresult()](mysqli-stmt.store-result.md) - Зберігає набір результатів у внутрішньому буфері
+-   [mysqli\_stmt\_num\_rows()](mysqli-stmt.num-rows.md) \- Повертає кількість рядків, отриманих із сервера
+-   [mysqli\_stmt\_store\_result()](mysqli-stmt.store-result.md) \- Зберігає набір результатів у внутрішньому буфері

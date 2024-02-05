@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - ref.bzip2.md: Функції Bzip2
 title: bzopen
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # bzopen
 
-(PHP 4> = 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 bzopen — Відкриває файл, стислий за допомогою bzip2
 
@@ -28,7 +29,7 @@ bzopen(string|resource $file, string $mode): resource|false
 
 `mode`
 
-Підтримуються лише `'r'` (читання) та `'w'` (Запис). Все інше змусить **bzopen()** повернути **`false`**
+Підтримуються лише `'r'`(чтение) и`'w'` (Запис). Все інше змусить **bzopen()** повернути **`false`**
 
 ### Значення, що повертаються
 
@@ -36,7 +37,7 @@ bzopen(string|resource $file, string $mode): resource|false
 
 ### Приклади
 
-**Приклад #1 Приклад використання **bzopen()****
+**Пример #1 Пример использования**bzopen()\*\*\*\*
 
 ```php
 <?php
@@ -51,4 +52,4 @@ bzclose($bz);
 
 ### Дивіться також
 
--   [bzclose()](function.bzclose.md) - Закриває файл bzip2
+-   [bzclose()](function.bzclose.md) \- Закриває файл bzip2

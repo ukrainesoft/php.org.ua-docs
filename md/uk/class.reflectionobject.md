@@ -1,10 +1,11 @@
 ---
 navigation:
   - reflectionnamedtype.isbuiltin.md: '« ReflectionNamedType::isBuiltin'
-  - reflectionobject.construct.md: 'ReflectionObject::construct »'
+  - reflectionobject.construct.md: 'ReflectionObject::\_\_construct »'
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Клас ReflectionObject
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ReflectionObject
 
@@ -12,36 +13,39 @@ title: Клас ReflectionObject
 
 ## Вступ
 
-Клас **ReflectionObject** повідомляє інформацію про об'єкти (object).
+Класс**ReflectionObject** повідомляє інформацію про об'єкти (object).
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class ReflectionObject
     
 
     
-     
-      class ReflectionObject
-     
-
-     
-      extends
-       ReflectionClass
-     
+     extends
+      ReflectionClass
      {
+
     /* Наследуемые константы */
     
+     public
      const
      int
-      ReflectionClass::IS_IMPLICIT_ABSTRACT = 16;
-const
+      ReflectionClass::IS_IMPLICIT_ABSTRACT;
+public
+     const
      int
-      ReflectionClass::IS_EXPLICIT_ABSTRACT = 32;
-const
+      ReflectionClass::IS_EXPLICIT_ABSTRACT;
+public
+     const
      int
-      ReflectionClass::IS_FINAL = 64;
+      ReflectionClass::IS_FINAL;
+public
+     const
+     int
+      ReflectionClass::IS_READONLY;
 
 
     /* Наследуемые свойства */
@@ -81,7 +85,7 @@ public ReflectionClass::getReflectionConstant(string $name): ReflectionClassCons
 public ReflectionClass::getReflectionConstants(?int $filter = null): array
 public ReflectionClass::getShortName(): string
 public ReflectionClass::getStartLine(): int|false
-public ReflectionClass::getStaticProperties(): ?array
+public ReflectionClass::getStaticProperties(): array
 public ReflectionClass::getStaticPropertyValue(string $name, mixed &$def_value = ?): mixed
 public ReflectionClass::getTraitAliases(): array
 public ReflectionClass::getTraitNames(): array
@@ -101,6 +105,7 @@ public ReflectionClass::isInstantiable(): bool
 public ReflectionClass::isInterface(): bool
 public ReflectionClass::isInternal(): bool
 public ReflectionClass::isIterable(): bool
+public ReflectionClass::isReadOnly(): bool
 public ReflectionClass::isSubclassOf(ReflectionClass|string $class): bool
 public ReflectionClass::isTrait(): bool
 public ReflectionClass::isUserDefined(): bool
@@ -113,7 +118,13 @@ public ReflectionClass::__toString(): string
    }
 ```
 
+## список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.0.0 | Метод[ReflectionObject::export()](reflectionobject.export.md)був видалений. |
+
 ## Зміст
 
--   [ReflectionObject::construct](reflectionobject.construct.md) - Конструктор класу ReflectionObject
--   [ReflectionObject::export](reflectionobject.export.md) - Експорт
+-   [ReflectionObject::\_\_construct](reflectionobject.construct.md) \- Конструктор класу ReflectionObject
+-   [ReflectionObject::export](reflectionobject.export.md) \- Експорт

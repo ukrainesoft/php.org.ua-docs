@@ -1,16 +1,17 @@
 ---
 navigation:
-  - swoole-table.exist.md: '« SwooleTable::exist'
-  - swoole-table.incr.md: 'SwooleTable::incr »'
+  - swoole-table.exist.md: '« Swoole\\Table::exist'
+  - swoole-table.incr.md: 'Swoole\\Table::incr »'
   - index.md: PHP Manual
-  - class.swoole-table.md: SwooleTable
-title: 'SwooleTable::get'
+  - class.swoole-table.md: Swoole\\Table
+title: 'Swoole\\Table::get'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# SwooleTable::get
+# Swoole\\Table::get
 
 (PECL swoole >= 1.9.0)
 
-SwooleTable::get — Отримує значення в таблиці Swoole $rowkey та $columnkey
+Swoole\\Table::get — Отримує значення в таблиці Swoole $row\_key та $column\_key
 
 ### Опис
 

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getFacetSort'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrQuery::getFacetSort
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrQuery::getFacetSort — Повертає тип сортування фасету
 
@@ -18,7 +19,7 @@ SolrQuery::getFacetSort — Повертає тип сортування фас�
 public SolrQuery::getFacetSort(string $field_override = ?): int
 ```
 
-Повертає ціле число (SolrQuery::FACETSORTINDEX або SolrQuery::FACETSORTCOUNT)
+Повертає ціле число (SolrQuery::FACET\_SORT\_INDEX або SolrQuery::FACET\_SORT\_COUNT)
 
 ### Список параметрів
 
@@ -28,4 +29,4 @@ public SolrQuery::getFacetSort(string $field_override = ?): int
 
 ### Значення, що повертаються
 
-Повертає ціле число (SolrQuery::FACETSORTINDEX або SolrQuery::FACETSORTCOUNT) у разі успішного виконання та **`null`**, якщо значення не встановлено
+Повертає ціле число (SolrQuery::FACET\_SORT\_INDEX або SolrQuery::FACET\_SORT\_COUNT) у разі успішного виконання та **`null`**, якщо значення не встановлено

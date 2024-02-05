@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.arrayaccess.md: ArrayAccess
 title: 'ArrayAccess::offsetUnset'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ArrayAccess::offsetUnset
 
@@ -20,7 +21,7 @@ public ArrayAccess::offsetUnset(mixed $offset): void
 
 Видаляє зміщення (ключ).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Цей метод *не* буде викликаний при наведенні типу до [(unset)](language.types.type-juggling.md#language.types.typecasting)
 

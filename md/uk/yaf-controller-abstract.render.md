@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-controller-abstract.redirect.md: '« YafControllerAbstract::redirect'
-  - yaf-controller-abstract.setviewpath.md: 'YafControllerAbstract::setViewpath »'
+  - yaf-controller-abstract.redirect.md: '« Yaf\_Controller\_Abstract::redirect'
+  - yaf-controller-abstract.setviewpath.md: 'Yaf\_Controller\_Abstract::setViewpath »'
   - index.md: PHP Manual
-  - class.yaf-controller-abstract.md: YafControllerAbstract
-title: 'YafControllerAbstract::render'
+  - class.yaf-controller-abstract.md: Yaf\_Controller\_Abstract
+title: 'Yaf\_Controller\_Abstract::render'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafControllerAbstract::render
+# Yaf\_Controller\_Abstract::render
 
 (Yaf >=1.0.0)
 
-YafControllerAbstract::render — Відображає шаблон представлення
+Yaf\_Controller\_Abstract::render — Відображає шаблон представлення
 
 ### Опис
 

@@ -1,10 +1,11 @@
 ---
 navigation:
   - evcheck.createstopped.md: '« EvCheck::createStopped'
-  - evchild.construct.md: 'EvChild::construct »'
+  - evchild.construct.md: 'EvChild::\_\_construct »'
   - index.md: PHP Manual
-  - book.ev.md: Єв
+  - book.ev.md: Ev
 title: Клас EvChild
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас EvChild
 
@@ -14,7 +15,7 @@ title: Клас EvChild
 
 Спостерігач **EvChild** викликається тоді, коли процес отримує сигнал **`SIGCHLD`** у відповідь деякі зміни статусу дочірнього елемента (зазвичай коли дочірній процес завершує свою роботу чи виходить із нього). Дозволяється встановлювати спостерігач **`EvChild`** після того, як дочірній потік був відгалужений (що має на увазі, що він повинен був вже завершитися), доки не почалася ітерація циклу подій (або триває зі спостерігача), тобто. розгалуження і потім негайна реєстрація спостерігача для дочірнього елемента є гарною практикою, а розгалуження та реєстрація спостерігача після кількох ітерацій циклу подій або за наступного запуску callback-функції - немає.
 
-Спостерігачів **EvChild** дозволяється реєструвати тільки в *циклі за замовчуванням*
+Спостерігачі **EvChild** дозволяється реєструвати тільки в *циклі за замовчуванням*
 
 ## Огляд класів
 
@@ -57,20 +58,20 @@ public
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     int
      $pid
-   ,    
+   ,    
     bool
      $trace
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -79,19 +80,19 @@ public
     final
    public
    static
-   createStopped(    
+   createStopped(    
     int
      $pid
-   ,    
+   ,    
     bool
      $trace
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
-    = ?,    
+    = ?,    
     int
      $priority
     = ?): object
@@ -141,7 +142,7 @@ public
 
 pid
 
-*Тільки читання*. Ідентифікатор процесу, який слідкує, або \*\*`0`\*\*що означає будь-який ідентифікатор процесу.
+*Тільки читання*. Ідентифікатор процесу, який слідкує, або що означає будь-який ідентифікатор процесу.
 
 rpid
 
@@ -153,6 +154,6 @@ rstatus
 
 ## Зміст
 
--   [EvChild::construct](evchild.construct.md) - Створює об'єкт спостерігач EvChild
--   [EvChild::createStopped](evchild.createstopped.md) — Створює зупинений екземпляр спостерігача EvCheck
--   [EvChild::set](evchild.set.md) - Конфігурування спостерігача
+-   [EvChild::\_\_construct](evchild.construct.md) \- Створює об'єкт спостерігач EvChild
+-   [EvChild::createStopped](evchild.createstopped.md)— Створює зупинений екземпляр спостерігача EvCheck
+-   [EvChild::set](evchild.set.md) \- Конфігурування спостерігача

@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.tidy.md: tidy
 title: 'tidy::getOptDoc'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # tidy::getOptDoc
 
-# tidygetoptdoc
+# tidy\_get\_opt\_doc
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
-tidy::getOptDoc -- tidygetoptdoc — Повертає опис для опції із зазначеною назвою
+tidy::getOptDoc -- tidy\_get\_opt\_doc — Повертає опис для опції із зазначеною назвою
 
 ### Опис
 
@@ -28,9 +29,9 @@ public tidy::getOptDoc(string $option): string|false
 tidy_get_opt_doc(tidy $tidy, string $option): string|false
 ```
 
-Функція **tidygetoptdoc()** повертає опис для опції із зазначеною назвою.
+Функция**tidy\_get\_opt\_doc()** повертає опис для опції із зазначеною назвою.
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Для використання цієї функції вам знадобиться бібліотека libtidy мінімум від 25 квітня 2005 року.
 
@@ -77,5 +78,5 @@ foreach ($config as $opt => $val) {
 
 ### Дивіться також
 
--   [tidy::getconfig()](tidy.getconfig.md) - Отримує поточну конфігурацію Tidy
--   [tidy::getopt()](tidy.getopt.md) - Повертає значення вказаного параметра конфігурації для документа tidy
+-   [tidy::getconfig()](tidy.getconfig.md) \- Отримує поточну конфігурацію Tidy
+-   [tidy::getopt()](tidy.getopt.md) \- Повертає значення вказаного параметра конфігурації для документа tidy

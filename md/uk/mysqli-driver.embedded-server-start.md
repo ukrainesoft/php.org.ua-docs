@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli-driver.embedded-server-end.md: '« mysqlidriver::embeddedserverend'
-  - mysqli-driver.report-mode.md: 'mysqlidriver::$reportmode »'
+  - mysqli-driver.embedded-server-end.md: '« mysqli\_driver::embedded\_server\_end'
+  - mysqli-driver.report-mode.md: 'mysqli\_driver::$report\_mode »'
   - index.md: PHP Manual
-  - class.mysqli-driver.md: mysqlidriver
-title: 'mysqlidriver::embeddedserverstart'
+  - class.mysqli-driver.md: mysqli\_driver
+title: 'mysqli\_driver::embedded\_server\_start'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqlidriver::embeddedserverstart
+# mysqli\_driver::embedded\_server\_start
 
-# mysqliembeddedserverstart
+# mysqli\_embedded\_server\_start
 
-(PHP 5> = 5.1.0, PHP 7 <7.4.0)
+(PHP 5 >= 5.1.0, PHP 7 < 7.4.0)
 
-mysqlidriver::embeddedserverstart - mysqliembeddedserverstart — Ініціалізує та запускає вбудований сервер
+mysqli\_driver::embedded\_server\_start -- mysqli\_embedded\_server\_start — Ініціалізує та запускає вбудований сервер
 
 **Увага**
 
@@ -34,4 +35,4 @@ mysqli_embedded_server_start(int $start, array $arguments, array $groups): bool
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.

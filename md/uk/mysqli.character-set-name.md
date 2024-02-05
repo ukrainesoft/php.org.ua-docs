@@ -1,18 +1,19 @@
 ---
 navigation:
-  - mysqli.change-user.md: '« mysqli::changeuser'
+  - mysqli.change-user.md: '« mysqli::change\_user'
   - mysqli.close.md: 'mysqli::close »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::charactersetname'
+title: 'mysqli::character\_set\_name'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::charactersetname
+# mysqli::character\_set\_name
 
-# mysqlicharactersetname
+# mysqli\_character\_set\_name
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::charactersetname -- mysqlicharactersetname — Повертає поточне кодування, встановлене для підключення до БД.
+mysqli::character\_set\_name -- mysqli\_character\_set\_name — Повертає поточне кодування, встановлене для підключення до БД.
 
 ### Опис
 
@@ -34,7 +35,7 @@ mysqli_character_set_name(mysqli $mysql): string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -42,7 +43,7 @@ mysqli_character_set_name(mysqli $mysql): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::charactersetname()****
+**Пример #1 Пример использования**mysqli::character\_set\_name()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -77,7 +78,7 @@ $charset = mysqli_character_set_name($mysqli);
 printf("Текущая кодировка - %s\n", $charset);
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Текущая кодировка - utf8mb4
@@ -85,5 +86,5 @@ printf("Текущая кодировка - %s\n", $charset);
 
 ### Дивіться також
 
--   [mysqlisetcharset()](mysqli.set-charset.md) - Встановлює набір символів
--   [mysqlirealescapestring()](mysqli.real-escape-string.md) - Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
+-   [mysqli\_set\_charset()](mysqli.set-charset.md) \- Встановлює набір символів
+-   [mysqli\_real\_escape\_string()](mysqli.real-escape-string.md) \- Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання

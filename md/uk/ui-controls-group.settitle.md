@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-controls-group.setmargin.md: '« UIControlsGroup::setMargin'
-  - class.ui-controls-box.md: ОЙControlsBox »
+  - ui-controls-group.setmargin.md: '« UI\\Controls\\Group::setMargin'
+  - class.ui-controls-box.md: UI\\Controls\\Box »
   - index.md: PHP Manual
-  - class.ui-controls-group.md: ОЙControlsGroup
-title: 'ОЙControlsGroup::setTitle'
+  - class.ui-controls-group.md: UI\\Controls\\Group
+title: 'UI\\Controls\\Group::setTitle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙControlsGroup::setTitle
+# UI\\Controls\\Group::setTitle
 
 (UI 0.9.9)
 
-ОЙControlsGroup::setTitle — Встановити заголовок
+UI\\Controls\\Group::setTitle — Встановити заголовок
 
 ### Опис
 

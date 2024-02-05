@@ -4,18 +4,19 @@ navigation:
   - domnode.lookupprefix.md: 'DOMNode::lookupPrefix »'
   - index.md: PHP Manual
   - class.domnode.md: DOMNode
-title: 'DOMNode::lookupNamespaceUri'
+title: 'DOMNode::lookupNamespaceURI'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# DOMNode::lookupNamespaceUri
+# DOMNode::lookupNamespaceURI
 
 (PHP 5, PHP 7, PHP 8)
 
-DOMNode::lookupNamespaceUri — Отримує URI простору імен вузла за префіксом
+DOMNode::lookupNamespaceURI — Отримує URI простору імен вузла за префіксом
 
 ### Опис
 
 ```methodsynopsis
-public DOMNode::lookupNamespaceUri(string $prefix): string
+public DOMNode::lookupNamespaceURI(?string $prefix): ?string
 ```
 
 Отримує URI простору імен вузла на основі префіксу `prefix`
@@ -24,12 +25,12 @@ public DOMNode::lookupNamespaceUri(string $prefix): string
 
 `prefix`
 
-Префікс простору імен.
+Префікс, який потрібно шукати. Якщо цей параметр дорівнює **`null`**, то метод повертає URI простору імен за умовчанням, якщо є.
 
 ### Значення, що повертаються
 
-URI простір імен вузла.
+Повертає URI зв'язаного простору імен або \*\*`null`\*\*якщо воно не знайдено.
 
 ### Дивіться також
 
--   [DOMNode::lookupPrefix()](domnode.lookupprefix.md) - Повертає префікс простору імен вузла з URI простору імен
+-   [DOMNode::lookupPrefix()](domnode.lookupprefix.md) \- Повертає префікс простору імен вузла з URI простору імен

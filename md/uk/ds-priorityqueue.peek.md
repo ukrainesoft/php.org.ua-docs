@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-priorityqueue.jsonserialize.md: '« DsPriorityQueue::jsonSerialize'
-  - ds-priorityqueue.pop.md: 'ДсPriorityQueue::pop »'
+  - ds-priorityqueue.jsonserialize.md: '« Ds\\PriorityQueue::jsonSerialize'
+  - ds-priorityqueue.pop.md: 'Ds\\PriorityQueue::pop »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.md: Черга з пріоритетом
-title: 'ДсPriorityQueue::peek'
+  - class.ds-priorityqueue.md: Ds\\PriorityQueue
+title: 'Ds\\PriorityQueue::peek'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсPriorityQueue::peek
+# Ds\\PriorityQueue::peek
 
 (PECL ds >= 1.0.0)
 
-ДсPriorityQueue::peek — Повертає значення з початку черги
+Ds\\PriorityQueue::peek — Повертає значення з початку черги
 
 ### Опис
 
@@ -34,7 +35,7 @@ public Ds\PriorityQueue::peek(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсPriorityQueue::peek()****
+**Пример #1 Пример использования**Ds\\PriorityQueue::peek()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ var_dump($queue->peek());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 string(1) "b"

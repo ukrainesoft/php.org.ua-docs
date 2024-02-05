@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getPerms'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SplFileInfo::getPerms
 
-(PHP 5> = 5.1.2, PHP 7, PHP 8)
+(PHP 5 >= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getPerms — Отримує список дозволів
 
@@ -26,11 +27,11 @@ public SplFileInfo::getPerms(): int|false
 
 ### Значення, що повертаються
 
-Повертає список дозволів для файлу у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає список дозволів для файлу у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **SplFileInfo::getPerms()****
+**Пример #1 Пример использования**SplFileInfo::getPerms()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ echo substr(sprintf('%o', $info->getPerms()), -4);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 1777

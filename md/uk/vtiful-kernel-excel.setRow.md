@@ -1,16 +1,17 @@
 ---
 navigation:
-  - vtiful-kernel-excel.setColumn.md: '« VtifulKernelExcel::setColumn'
-  - class.vtiful-kernel-format.md: VtifulKernelFormat »
+  - vtiful-kernel-excel.setColumn.md: '« Vtiful\\Kernel\\Excel::setColumn'
+  - class.vtiful-kernel-format.md: Vtiful\\Kernel\\Format »
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.md: VtifulKernelExcel
-title: 'VtifulKernelExcel::setRow'
+  - class.vtiful-kernel-excel.md: Vtiful\\Kernel\\Excel
+title: 'Vtiful\\Kernel\\Excel::setRow'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# VtifulKernelExcel::setRow
+# Vtiful\\Kernel\\Excel::setRow
 
 (PECL xlswriter >= 1.2.1)
 
-VtifulKernelExcel::setRow — Встановити рядок
+Vtiful\\Kernel\\Excel::setRow — Встановити рядок
 
 ### Опис
 
@@ -36,7 +37,7 @@ public Vtiful\Kernel\Excel::setRow(string $range, float $height, resource $forma
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
+Екземпляр [Vtiful\\Kernel\\Excel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

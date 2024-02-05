@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ui-menu.appendquit.md: '« UIMenu::appendQuit'
-  - ui-menu.construct.md: 'ОЙMenu::construct »'
+  - ui-menu.appendquit.md: '« UI\\Menu::appendQuit'
+  - ui-menu.construct.md: 'UI\\Menu::\_\_construct »'
   - index.md: PHP Manual
-  - class.ui-menu.md: ОЙMenu
-title: 'ОЙMenu::appendSeparator'
+  - class.ui-menu.md: UI\\Menu
+title: 'UI\\Menu::appendSeparator'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ОЙMenu::appendSeparator
+# UI\\Menu::appendSeparator
 
 (UI 0.9.9)
 
-ОЙMenu::appendSeparator — Додати пункт меню "Розділювач" (Separator)
+UI\\Menu::appendSeparator — Додати пункт меню "Розділювач" (Separator)
 
 ### Опис
 

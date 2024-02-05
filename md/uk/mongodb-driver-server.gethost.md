@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-driver-server.executewritecommand.md: '« MongoDBDriverServer::executeWriteCommand'
-  - mongodb-driver-server.getinfo.md: 'MongoDBDriverServer::getInfo »'
+  - mongodb-driver-server.executewritecommand.md: '« MongoDB\\Driver\\Server::executeWriteCommand'
+  - mongodb-driver-server.getinfo.md: 'MongoDB\\Driver\\Server::getInfo »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.md: MongoDBDriverServer
-title: 'MongoDBDriverServer::getHost'
+  - class.mongodb-driver-server.md: MongoDB\\Driver\\Server
+title: 'MongoDB\\Driver\\Server::getHost'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBDriverServer::getHost
+# MongoDB\\Driver\\Server::getHost
 
 (mongodb >=1.0.0)
 
-MongoDBDriverServer::getHost — Повертає ім'я сервера.
+MongoDB\\Driver\\Server::getHost — Повертає ім'я сервера.
 
 ### Опис
 
@@ -30,11 +31,11 @@ final public MongoDB\Driver\Server::getHost(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При помилці парсингу аргумент кидає виняток[MongoDB\\Driver\\Exception\\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **MongoDBDriverServer::getHost()****
+**Пример #1 Пример использования**MongoDB\\Driver\\Server::getHost()\*\*\*\*
 
 ```php
 <?php
@@ -49,7 +50,7 @@ var_dump($server->getHost());
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 string(9) "localhost"
@@ -57,5 +58,5 @@ string(9) "localhost"
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
--   [MongoDBDriverServerDescription::getHost()](mongodb-driver-serverdescription.gethost.md) - Повертає ім'я сервера хоста
+-   [MongoDB\\Driver\\Server::getInfo()](mongodb-driver-server.getinfo.md) \- Повертає масив інформації, що описує сервер
+-   [MongoDB\\Driver\\ServerDescription::getHost()](mongodb-driver-serverdescription.gethost.md) \- Повертає ім'я сервера хоста

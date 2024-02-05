@@ -1,16 +1,17 @@
 ---
 navigation:
-  - hrtime-stopwatch.getelapsedticks.md: '« HRTimeStopWatch::getElapsedTicks'
-  - hrtime-stopwatch.getlastelapsedticks.md: 'HRTimeStopWatch::getLastElapsedTicks »'
+  - hrtime-stopwatch.getelapsedticks.md: '« HRTime\\StopWatch::getElapsedTicks'
+  - hrtime-stopwatch.getlastelapsedticks.md: 'HRTime\\StopWatch::getLastElapsedTicks »'
   - index.md: PHP Manual
-  - class.hrtime-stopwatch.md: HRTimeStopWatch
-title: 'HRTimeStopWatch::getElapsedTime'
+  - class.hrtime-stopwatch.md: HRTime\\StopWatch
+title: 'HRTime\\StopWatch::getElapsedTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# HRTimeStopWatch::getElapsedTime
+# HRTime\\StopWatch::getElapsedTime
 
 (PECL hrtime >= 0.4.3)
 
-HRTimeStopWatch::getElapsedTime — Отримати сумарний час усіх інтервалів, що минув.
+HRTime\\StopWatch::getElapsedTime — Отримати сумарний час усіх інтервалів, що минув.
 
 ### Опис
 
@@ -24,7 +25,7 @@ public HRTime\StopWatch::getElapsedTime(int $unit = ?): float
 
 `unit`
 
-Одиниця часу, задана однією із констант HRTimeUnit. Типово HRTimeUnit::SECOND.
+Одиниця часу, задана однією із констант HRTime\\Unit. Типово HRTime\\Unit::SECOND.
 
 ### Значення, що повертаються
 

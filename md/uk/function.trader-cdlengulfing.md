@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.trader-cdldragonflydoji.md: « tradercdldragonflydoji
-  - function.trader-cdleveningdojistar.md: tradercdleveningdojistar »
+  - function.trader-cdldragonflydoji.md: « trader\_cdldragonflydoji
+  - function.trader-cdleveningdojistar.md: trader\_cdleveningdojistar »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: tradercdlengulfing
+  - ref.trader.md: Функції Trader
+title: trader\_cdlengulfing
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# tradercdlengulfing
+# trader\_cdlengulfing
 
 (PECL trader >= 0.2.0)
 
-tradercdlengulfing - Модель поглинання
+trader\_cdlengulfing - Модель поглинання
 
 ### Опис
 
 ```methodsynopsis
-trader_cdlengulfing(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlengulfing(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

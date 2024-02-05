@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-ln.md: « traderлн
-  - function.trader-ma.md: traderma »
+  - function.trader-ln.md: « trader\_ln
+  - function.trader-ma.md: trader\_ma »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderlog10
+  - ref.trader.md: Функції Trader
+title: trader\_log10
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderlog10
+# trader\_log10
 
 (PECL trader >= 0.2.0)
 
-traderlog10 - Вектор логарифму з основи-10
+trader\_log10 - Вектор логарифму з основи-10
 
 ### Опис
 

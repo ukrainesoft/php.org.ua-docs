@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionfind.having.md: '« CollectionFind::having'
   - mysql-xdevapi-collectionfind.lockexclusive.md: 'CollectionFind::lockExclusive »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysql\_xdevapi\\CollectionFind
 title: 'CollectionFind::limit'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionFind::limit
 
@@ -32,7 +33,7 @@ public mysql_xdevapi\CollectionFind::limit(int $rows): mysql_xdevapi\CollectionF
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionFind::limit()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionFind::limit()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ var_dump($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(1) {

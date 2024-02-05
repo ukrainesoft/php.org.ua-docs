@@ -1,24 +1,25 @@
 ---
 navigation:
-  - function.xdiff-file-diff.md: xdifffilediff
-  - function.xdiff-file-patch-binary.md: xdifffilepatchbinary »
+  - function.xdiff-file-diff.md: « xdiff\_file\_diff
+  - function.xdiff-file-patch-binary.md: xdiff\_file\_patch\_binary »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
-title: xdifffilemerge3
+title: xdiff\_file\_merge3
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# xdifffilemerge3
+# xdiff\_file\_merge3
 
 (PECL xdiff >= 0.2.0)
 
-xdifffilemerge3 - Об'єднання трьох файлів в один
+xdiff\_file\_merge3 - Об'єднання трьох файлів в один
 
 ### Опис
 
 ```methodsynopsis
-xdiff_file_merge3(    string $old_file,    string $new_file1,    string $new_file2,    string $dest): mixed
+xdiff_file_merge3(    string $old_file,    string $new_file1,    string $new_file2,    string $dest): mixed
 ```
 
-Об'єднує три файли в один і зберігає результат у `dest`. Файл `old_file` є оригінальним файлом, тоді як `new_file1` і `new_file2` його модифікованими версіями.
+Об'єднує три файли в один і зберігає результат у `dest`Файл`old_file` є оригінальним файлом, тоді як `new_file1`и`new_file2` його модифікованими версіями.
 
 ### Список параметрів
 
@@ -36,7 +37,7 @@ xdiff_file_merge3(    string $old_file,    string $new_file1,    string $new_fil
 
 `dest`
 
-Шлях до результуючого файлу, який міститиме об'єднані зміни з `new_file1` і `new_file2`
+Шлях до результуючого файлу, який міститиме об'єднані зміни з `new_file1`и`new_file2`
 
 ### Значення, що повертаються
 
@@ -44,7 +45,7 @@ xdiff_file_merge3(    string $old_file,    string $new_file1,    string $new_fil
 
 ### Приклади
 
-**Приклад #1 Приклад використання **xdifffilemerge3()****
+**Пример #1 Пример использования**xdiff\_file\_merge3()\*\*\*\*
 
 Наступний код поєднує три файли.
 
@@ -64,4 +65,4 @@ if (is_string($errors)) {
 
 ### Дивіться також
 
--   [xdiffstringmerge3()](function.xdiff-string-merge3.md) - Об'єднати три рядки в один
+-   [xdiff\_string\_merge3()](function.xdiff-string-merge3.md) \- Об'єднати три рядки в один

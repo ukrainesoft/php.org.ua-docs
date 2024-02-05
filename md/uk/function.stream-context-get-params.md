@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-context-get-options.md: « streamcontextgetoptions
-  - function.stream-context-set-default.md: streamcontextsetdefault »
+  - function.stream-context-get-options.md: « stream\_context\_get\_options
+  - function.stream-context-set-default.md: stream\_context\_set\_default »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamcontextgetparams
+title: stream\_context\_get\_params
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamcontextgetparams
+# stream\_context\_get\_params
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
-streamcontextgetparams — Отримує параметри з контексту
+stream\_context\_get\_params — Отримує параметри з контексту
 
 ### Опис
 
@@ -24,7 +25,7 @@ stream_context_get_params(resource $context): array
 
 `context`
 
-Ресурс (resource) потоку чи ресурс (resource) [контекста](context.md)
+Ресурс (resource) потоку чи ресурс (resource) [контексту](context.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +33,7 @@ stream_context_get_params(resource $context): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання **streamcontextgetparams()****
+**Пример #1 Пример использования**stream\_context\_get\_params()\*\*\*\*
 
 Приклад простого використання
 
@@ -46,7 +47,7 @@ var_dump(stream_context_get_params($ctx));
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(2) {
@@ -60,5 +61,5 @@ array(2) {
 
 ### Дивіться також
 
--   [streamcontextsetoption()](function.stream-context-set-option.md) - Встановлює опцію для потоку/обгортки/контексту
--   [streamcontextsetparams()](function.stream-context-set-params.md) - Встановлює параметри потоку/обгортки/контексту
+-   [stream\_context\_set\_option()](function.stream-context-set-option.md) \- Встановлює опцію для потоку/обгортки/контексту
+-   [stream\_context\_set\_params()](function.stream-context-set-params.md) \- Встановлює параметри потоку/обгортки/контексту

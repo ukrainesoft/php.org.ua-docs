@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.shm-remove.md: « shmremove
+  - function.shm-remove.md: « shm\_remove
   - class.sysvsemaphore.md: SysvSemaphore »
   - index.md: PHP Manual
   - book.sem.md: Семафори
 title: Клас SysvMessageQueue
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас SysvMessageQueue
 
@@ -16,16 +17,11 @@ title: Клас SysvMessageQueue
 
 ## Огляд класів
 
-```synopsis
-
-     
-    
+```classsynopsis
 
     
-     
-      final
-      class SysvMessageQueue
-     
+     final
+     class SysvMessageQueue
      {
    }
 ```

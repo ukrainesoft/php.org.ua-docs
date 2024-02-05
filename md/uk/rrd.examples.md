@@ -1,10 +1,11 @@
 ---
 navigation:
-  - rrd.constants.md: « Обумовлені константи
+  - rrd.constants.md: « Зумовлені константи
   - rrd.examples-procedural.md: Процедурний приклад PECL/rrd »
   - index.md: PHP Manual
   - book.rrd.md: RRD
 title: Приклади
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Приклади
 

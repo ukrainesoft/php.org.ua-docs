@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.xmlreader.md: XMLReader
 title: 'XMLReader::setRelaxNGSchema'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # XMLReader::setRelaxNGSchema
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 XMLReader::setRelaxNGSchema — Встановити ім'я файлу або URI для схеми RelaxNG
 
@@ -28,10 +29,10 @@ public XMLReader::setRelaxNGSchema(?string $filename): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [XMLReader::setRelaxNGSchemaSource()](xmlreader.setrelaxngschemasource.md) - Встановлює дані, що містять схему RelaxNG
--   [XMLReader::setSchema()](xmlreader.setschema.md) - Перевірити документ за допомогою XSD
--   [XMLReader::isValid()](xmlreader.isvalid.md) - Показати, чи розбирається документ синтаксично правильним
+-   [XMLReader::setRelaxNGSchemaSource()](xmlreader.setrelaxngschemasource.md) \- Встановлює дані, що містять схему RelaxNG
+-   [XMLReader::setSchema()](xmlreader.setschema.md) \- Перевірити документ за допомогою XSD
+-   [XMLReader::isValid()](xmlreader.isvalid.md) \- Показати, чи розбирається документ синтаксично правильним

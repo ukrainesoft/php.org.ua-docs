@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getTZDataVersion'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlTimeZone::getTZDataVersion
 
-# intltzgetтцdataversion
+# intltz\_get\_tz\_data\_version
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::getTZDataVersion -- intltzgetтцdataversion — Отримати версію даних про часовий пояс, який зараз використовується в ICU
+IntlTimeZone::getTZDataVersion -- intltz\_get\_tz\_data\_version — Отримати версію даних про часовий пояс, який зараз використовується в ICU
 
 ### Опис
 
@@ -30,7 +31,7 @@ intltz_get_tz_data_version(): string|false
 
 **Увага**
 
-На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
+Функція поки що не документована; для знайомства доступний лише перелік аргументів.
 
 ### Список параметрів
 

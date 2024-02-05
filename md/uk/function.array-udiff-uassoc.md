@@ -1,26 +1,27 @@
 ---
 navigation:
-  - function.array-udiff-assoc.md: « arrayudiffassoc
-  - function.array-udiff.md: arrayudiff »
+  - function.array-udiff-assoc.md: « array\_udiff\_assoc
+  - function.array-udiff.md: array\_udiff »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
-title: arrayudiffuassoc
+title: array\_udiff\_uassoc
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# arrayudiffuassoc
+# array\_udiff\_uassoc
 
 (PHP 5, PHP 7, PHP 8)
 
-arrayudiffuassoc - Обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи для порівняння значень та індексів callback-функцію
+array\_udiff\_uassoc - Обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи для порівняння значень та індексів callback-функцію
 
 ### Опис
 
 ```methodsynopsis
-array_udiff_uassoc(    array $array,    array ...$arrays,    callable $value_compare_func,    callable $key_compare_func): array
+array_udiff_uassoc(    array $array,    array ...$arrays,    callable $value_compare_func,    callable $key_compare_func): array
 ```
 
 Обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи для порівняння значень та індексів callback-функцію.
 
-Зверніть увагу, що для порівняння використовуються ключі, на відміну від [arraydiff()](function.array-diff.md) і [arrayudiff()](function.array-udiff.md)
+Обратите внимание, что в отличие от функций[array\_diff()](function.array-diff.md) і [array\_udiff()](function.array-udiff.md) при порівнянні значень порівнюються і ключі.
 
 ### Список параметрів
 
@@ -40,20 +41,44 @@ array_udiff_uassoc(    array $array,    array ...$arrays,    callable $value_com
 callback(mixed $a, mixed $b): int
 ```
 
-`key_compare_func`
+**Застереження**
 
-Порівняння ключів (індексів) також здійснюється за допомогою callback-функції `key_compare_func`. Це відрізняється від поведінки [arrayudiffassoc()](function.array-udiff-assoc.md)яка порівнює індекси за допомогою вбудованої функції.
+Возвращение*нецілих* значень з функції порівняння, таких як число з плаваючою точкою (float), призведе до внутрішнього приведення значення callback-функції, що повертається, до цілого числа (int). Таким чином, значення `0.99`и`0.1` будуть приведені до цілого значення що дозволить порівняти ці значення як рівні.
 
-### Значення, що повертаються
+**Застереження**
 
-Повертає масив (array), що містить усі елементи `array`, яких немає у якомусь із інших аргументів.
-
-### Приклади
-
-**Приклад #1 Приклад використання **arrayudiffuassoc()****
+Callback-функція сортування повинна обробляти будь-яке значення з будь-якого масиву у будь-якому порядку, незалежно від того, в якому порядку вони були надані спочатку. Причина цього у тому, кожен окремий масив спочатку сортується перед порівнянням коїться з іншими масивами. Наприклад:
 
 ```php
 <?php
+
+$arrayA = ["string", 1];
+$arrayB = [["value" => 1]];
+// $item1 and $item2 can be any of "string", 1 or ["value" => 1]
+$compareFunc = static function ($item1, $item2) {
+    $value1 = is_string($item1) ? strlen($item1) : (is_array($item1) ? $item1["value"] : $item1);
+    $value2 = is_string($item2) ? strlen($item2) : (is_array($item2) ? $item2["value"] : $item2);
+    return $value1 <=> $value2;
+};
+
+?>
+```
+
+`key_compare_func`
+
+Порівняння ключів (індексів) виконується також callback-функцією `key_compare_func`. Ця поведінка відрізняється від поведінки функції [array\_udiff\_assoc()](function.array-udiff-assoc.md)яка порівнює індекси через внутрішню функцію.
+
+### Значення, що повертаються
+
+Повертає масив (array), що містить елементи аргументу `array`, яких немає в жодному іншому аргументі.
+
+### Приклади
+
+**Пример #1 Пример использования функции**array\_udiff\_uassoc()\*\*\*\*
+
+```php
+<?php
+
 class cr {
     private $priv_member;
     function __construct($val)
@@ -78,10 +103,11 @@ $b = array("0.2" => new cr(9), "0.5" => new cr(22), 0 => new cr(3), 1=> new cr(4
 
 $result = array_udiff_uassoc($a, $b, array("cr", "comp_func_cr"), array("cr", "comp_func_key"));
 print_r($result);
+
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -103,20 +129,20 @@ Array
 )
 ```
 
-У наведеному вище прикладі ви можете бачити, що пара `"1" => new cr(4)` є в обох масивах і тому відсутня у виведенні функції. Пам'ятайте, що потрібно використовувати дві функції зворотного дзвінка.
+У наведеному прикладі видно, що пара `"1" => new cr(4)` є в обох масивах, і тому її немає у висновку функції. Функція буде працювати лише тоді, коли їй надали дві функції зворотного дзвінка.
 
 ### Примітки
 
-> **Зауваження**: Будь ласка, зверніть увагу, що ця функція обробляє лише один вимір багатовимірного масиву. Зрозуміло, ви можете обробити більше одного виміру, використовуючи `array_udiff_uassoc($array1[0], $array2[0], "data_compare_func", "key_compare_func");`
+> **Зауваження**: Зверніть увагу, що функція обробляє лише перший рівень багатовимірного масиву. Значення на вкладених рівнях обробляють, наприклад, так: `array_udiff_uassoc($array1[0], $array2[0], "data_compare_func", "key_compare_func");`
 
 ### Дивіться також
 
--   [arraydiff()](function.array-diff.md) - Обчислити розбіжність масивів
--   [arraydiffassoc()](function.array-diff-assoc.md) - обчислює розбіжність масивів з додатковою перевіркою індексу
--   [arrayudiff()](function.array-udiff.md) - обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
--   [arrayudiffassoc()](function.array-udiff-assoc.md) - обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи порівняння значень callback-функцию
--   [arrayintersect()](function.array-intersect.md) - обчислює сходження масивів
--   [arrayintersectassoc()](function.array-intersect-assoc.md) - обчислює сходження масивів з додатковою перевіркою індексу
--   [arrayuintersect()](function.array-uintersect.md) - обчислює перетин масивів, використовуючи для порівняння значень callback-функцію
--   [arrayuintersectassoc()](function.array-uintersect-assoc.md) - обчислює перетин масивів з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію
--   [arrayuintersectuassoc()](function.array-uintersect-uassoc.md) - обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції
+-   [array\_diff()](function.array-diff.md) \- обчислює розбіжність масивів
+-   [array\_diff\_assoc()](function.array-diff-assoc.md) \- обчислює розбіжність масивів з додатковою перевіркою індексу
+-   [array\_udiff()](function.array-udiff.md) \- обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
+-   [array\_udiff\_assoc()](function.array-udiff-assoc.md) \- обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи порівняння значень callback-функцию
+-   [array\_intersect()](function.array-intersect.md) \- обчислює перетин масивів
+-   [array\_intersect\_assoc()](function.array-intersect-assoc.md) \- обчислює перетин масивів з додатковою перевіркою індексу
+-   [array\_uintersect()](function.array-uintersect.md) \- обчислює перетин масивів, використовуючи для порівняння значень callback-функцію
+-   [array\_uintersect\_assoc()](function.array-uintersect-assoc.md) \- обчислює перетин масивів з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію
+-   [array\_uintersect\_uassoc()](function.array-uintersect-uassoc.md) \- обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень окремі callback-функції

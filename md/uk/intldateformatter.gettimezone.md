@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::getTimeZone'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlDateFormatter::getTimeZone
 
-# datefmtgettimezone
+# datefmt\_get\_timezone
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL intl >= 3.0.0)
 
-IntlDateFormatter::getTimeZone -- datefmtgettimezone — Отримує часовий пояс засобу форматування
+IntlDateFormatter::getTimeZone -- datefmt\_get\_timezone — Отримує часовий пояс засобу форматування
 
 ### Опис
 
@@ -36,11 +37,11 @@ datefmt_get_timezone(IntlDateFormatter $formatter): IntlTimeZone|false
 
 ### Значення, що повертаються
 
-Пов'язаний об'єкт [IntlTimeZone](class.intltimezone.md) або **`false`** у разі виникнення помилки.
+Пов'язаний об'єкт [IntlTimeZone](class.intltimezone.md)или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlDateFormatter::getTimeZone()****
+**Пример #1 Пример использования**IntlDateFormatter::getTimeZone()\*\*\*\*
 
 ```php
 <?php
@@ -56,7 +57,7 @@ echo $lisbon->getTimeZone()->getId(), "\n";
 echo $lisbon->getTimeZoneId(), "\n";
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 object(IntlTimeZone)#4 (4) {
@@ -76,6 +77,6 @@ Europe/Lisbon
 
 ### Дивіться також
 
--   [IntlDateFormatter::getTimeZoneId()](intldateformatter.gettimezoneid.md) - Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
--   [IntlDateFormatter::setTimeZone()](intldateformatter.settimezone.md) - Встановлює часовий пояс засобу форматування
+-   [IntlDateFormatter::getTimeZoneId()](intldateformatter.gettimezoneid.md) \- Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
+-   [IntlDateFormatter::setTimeZone()](intldateformatter.settimezone.md) \- Встановлює часовий пояс засобу форматування
 -   [IntlTimeZone](class.intltimezone.md)

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-loader.registerlocalnamespace.md: '« YafLoader::registerLocalNamespace'
-  - yaf-loader.setlibrarypath.md: 'YafLoader::setLibraryPath »'
+  - yaf-loader.registerlocalnamespace.md: '« Yaf\_Loader::registerLocalNamespace'
+  - yaf-loader.setlibrarypath.md: 'Yaf\_Loader::setLibraryPath »'
   - index.md: PHP Manual
-  - class.yaf-loader.md: YafLoader
-title: 'YafLoader::registerNamespace'
+  - class.yaf-loader.md: Yaf\_Loader
+title: 'Yaf\_Loader::registerNamespace'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafLoader::registerNamespace
+# Yaf\_Loader::registerNamespace
 
-(Yaf> = 3.2.0)
+(Yaf >=3.2.0)
 
-YafLoader::registerNamespace — Реєструє простір імен шляхом пошуку
+Yaf\_Loader::registerNamespace — Реєструє простір імен шляхом пошуку
 
 ### Опис
 
@@ -18,9 +19,9 @@ YafLoader::registerNamespace — Реєструє простір імен шля
 public Yaf_Loader::registerNamespace(string|array $namespaces, string $path = ?): bool
 ```
 
-Реєструє простір імен шляхом пошуку, [YafLoader](class.yaf-loader.md) шукає класи в цьому просторі імен у дорозі, він також може бути налаштований за допомогою [application.library.directory.namespace](yaf.appconfig.md#configuration.yaf.library.namespace)(application.ini);
+Реєструє простір імен шляхом пошуку, [Yaf\_Loader](class.yaf-loader.md) шукає класи в цьому просторі імен у дорозі, він також може бути налаштований за допомогою [application.library.directory.namespace](yaf.appconfig.md#configuration.yaf.library.namespace)(application.ini);
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Yaf все ще розглядає, підкреслення як роздільник папок.
 
@@ -40,7 +41,7 @@ bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання **YafLoader::registerNamespace()****
+**Пример #1 Пример использования**Yaf\_Loader::registerNamespace()\*\*\*\*
 
 ```php
 <?php

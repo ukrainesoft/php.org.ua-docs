@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.radius-cvt-addr.md: « radiuscvtaddr
-  - function.radius-cvt-string.md: radiuscvtstring »
+  - function.radius-cvt-addr.md: « radius\_cvt\_addr
+  - function.radius-cvt-string.md: radius\_cvt\_string »
   - index.md: PHP Manual
-  - ref.radius.md: Функции Radius
-title: radiuscvtint
+  - ref.radius.md: Функції Radius
+title: radius\_cvt\_int
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# radiuscvtint
+# radius\_cvt\_int
 
 (PECL radius >= 1.1.0)
 
-radiuscvtint — Перетворює необроблені дані на ціле число
+radius\_cvt\_int — Перетворює необроблені дані на ціле число
 
 ### Опис
 
@@ -18,7 +19,7 @@ radiuscvtint — Перетворює необроблені дані на ці�
 radius_cvt_int(string $data): int
 ```
 
-Перетворює необроблені дані на ціле число
+Перетворює необроблені дані на ціле число.
 
 ### Список параметрів
 
@@ -32,7 +33,7 @@ radius_cvt_int(string $data): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **radiuscvtint()****
+**Пример #1 Пример использования**radius\_cvt\_int()\*\*\*\*
 
 ```php
 <?php
@@ -59,5 +60,5 @@ while ($resa = radius_get_attr($res)) {
 
 ### Дивіться також
 
--   [radiuscvtaddr()](function.radius-cvt-addr.md) - Перетворює необроблені дані на IP-адресу
--   [radiuscvtstring()](function.radius-cvt-string.md) - Перетворює необроблені дані на рядок
+-   [radius\_cvt\_addr()](function.radius-cvt-addr.md) \- Перетворює необроблені дані на IP-адресу
+-   [radius\_cvt\_string()](function.radius-cvt-string.md) \- Перетворює необроблені дані у рядок

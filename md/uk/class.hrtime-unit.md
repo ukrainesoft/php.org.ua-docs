@@ -1,12 +1,13 @@
 ---
 navigation:
-  - hrtime-stopwatch.stop.md: '« HRTimeStopWatch::stop'
+  - hrtime-stopwatch.stop.md: '« HRTime\\StopWatch::stop'
   - refs.fileprocess.file.md: Модулі для роботи з файловою системою
   - index.md: PHP Manual
   - book.hrtime.md: HRTime
-title: Клас HRTimeUnit
+title: Клас HRTime\\Unit
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# Клас HRTimeUnit
+# Клас HRTime\\Unit
 
 (PECL hrtime >= 0.4.3)
 
@@ -14,7 +15,7 @@ title: Клас HRTimeUnit
 
 ## Огляд класів
 
-```synopsis
+```classsynopsis
 
 
     

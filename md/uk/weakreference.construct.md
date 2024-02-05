@@ -4,17 +4,18 @@ navigation:
   - weakreference.create.md: 'WeakReference::create »'
   - index.md: PHP Manual
   - class.weakreference.md: WeakReference
-title: 'WeakReference::construct'
+title: 'WeakReference::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# WeakReference::construct
+# WeakReference::\_\_construct
 
-(PHP 7> = 7.4.0, PHP 8)
+(PHP 7 >= 7.4.0, PHP 8)
 
-WeakReference::construct - Конструктор, який забороняє реалізацію
+WeakReference::\_\_construct - Конструктор, який забороняє реалізацію
 
 ### Опис
 
-public **WeakReference::construct**
+public**WeakReference::\_\_construct**()
 
 Метод існує лише для заборони створення екземплярів класу [WeakReference](class.weakreference.md). Слабкі посилання мають бути створені за допомогою фабричного методу [WeakReference::create()](weakreference.create.md)
 
@@ -24,4 +25,4 @@ public **WeakReference::construct**
 
 ### Дивіться також
 
--   [WeakReference::create()](weakreference.create.md) - Створює нове слабке посилання
+-   [WeakReference::create()](weakreference.create.md) \- Створює нове слабке посилання

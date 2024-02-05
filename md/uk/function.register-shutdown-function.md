@@ -1,28 +1,29 @@
 ---
 navigation:
-  - function.get-defined-functions.md: « getdefinedfunctions
-  - function.register-tick-function.md: registertickfunction »
+  - function.get-defined-functions.md: « get\_defined\_functions
+  - function.register-tick-function.md: register\_tick\_function »
   - index.md: PHP Manual
-  - ref.funchand.md: Функции управления функциями
-title: registershutdownfunction
+  - ref.funchand.md: Функції керування функціями
+title: register\_shutdown\_function
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# registershutdownfunction
+# register\_shutdown\_function
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-registershutdownfunction — Реєструє функцію, яка виконується після завершення роботи скрипту
+register\_shutdown\_function — Реєструє функцію, яка виконується після завершення роботи скрипту
 
 ### Опис
 
 ```methodsynopsis
-register_shutdown_function(callable $callback, mixed ...$args): ?bool
+register_shutdown_function(callable $callback, mixed ...$args): void
 ```
 
 Реєструє функцію `callback`, яка виконається після завершення роботи скрипта або під час виклику функції [exit()](function.exit.md)
 
-Можлива реєстрація кількох подібних функцій за допомогою \*\*registershutdownfunction()\*\*При цьому функції будуть виконуватися в тому порядку, в якому вони були зареєстровані. Якщо ви викликаєте [exit()](function.exit.md) в одній із зареєстрованих завершальних функцій процес буде повністю зупинено і наступні завершальні функції не будуть викликані.
+Можлива реєстрація кількох подібних функцій за допомогою \*\*register\_shutdown\_function()\*\*При цьому функції будуть виконуватися в тому порядку, в якому вони були зареєстровані. Якщо ви викликаєте [exit()](function.exit.md) в одній із зареєстрованих завершальних функцій процес буде повністю зупинено і наступні завершальні функції не будуть викликані.
 
-Завершальні функції також можуть викликати самі **registershutdownfunction()**, щоб додати функцію вимкнення на кінець черги.
+Завершальні функції також можуть викликати самі **register\_shutdown\_function()**, щоб додати функцію вимкнення на кінець черги.
 
 ### Список параметрів
 
@@ -40,13 +41,9 @@ register_shutdown_function(callable $callback, mixed ...$args): ?bool
 
 Функція не повертає значення після виконання.
 
-### Помилки
-
-Якщо передано назву неіснуючої завершальної функції, то генерується помилка рівня **`E_WARNING`**
-
 ### Приклади
 
-**Приклад #1 Приклад використання **registershutdownfunction()****
+**Пример #1 Пример использования**register\_shutdown\_function()\*\*\*\*
 
 ```php
 <?php
@@ -65,21 +62,21 @@ register_shutdown_function('shutdown');
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Робоча директорія скрипта може змінитися всередині завершальної функції деяких веб-серверах, наприклад, Apache.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Функції, які виконуються при завершенні скрипту, не будуть виконані, якщо процес був убитий із сигналами SIGTERM або SIGKILL. Хоча ви не можете перехопити SIGKILL, але ви можете використовувати функцію [pcntlsignal()](function.pcntl-signal.md), щоб задати обробник сигналу SIGTERM, який використовує функцію [exit()](function.exit.md), щоб завершити скрипт правильно.
+> Функції, які виконуються при завершенні скрипту, не будуть виконані, якщо процес був убитий із сигналами SIGTERM або SIGKILL. Хоча ви не можете перехопити SIGKILL, але ви можете використовувати функцію [pcntl\_signal()](function.pcntl-signal.md), щоб задати обробник сигналу SIGTERM, який використовує функцію [exit()](function.exit.md), щоб завершити скрипт правильно.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Завершальні функції виконуються окремо від часу, що відстежується [maxexecutiontime](info.configuration.md#ini.max-execution-time). Це означає, що навіть якщо процес буде завершено через занадто довге виконання, завершальні функції все одно будуть викликані. Крім того, якщо `max_execution_time` закінчується під час роботи завершальної функції, процес не буде завершено.
+> Завершальні функції виконуються окремо від часу, що відстежується [max\_execution\_time](info.configuration.md#ini.max-execution-time). Це означає, що навіть якщо процес буде завершено через занадто довге виконання, завершальні функції все одно будуть викликані. Крім того, якщо `max_execution_time` закінчується під час роботи завершальної функції, процес не буде завершено.
 
 ### Дивіться також
 
--   [autoappendfile](ini.core.md#ini.auto-append-file)
--   [exit()](function.exit.md) - Вивести повідомлення та припинити виконання поточного скрипту
--   [fastcgifinishrequest()](function.fastcgi-finish-request.md) - скидає всі запитані дані клієнту
--   Розділ [Обработка соединений](features.connection-handling.md)
+-   [auto\_append\_file](ini.core.md#ini.auto-append-file)
+-   [exit()](function.exit.md) \- Виводить повідомлення та припиняє виконання поточного скрипту
+-   [fastcgi\_finish\_request()](function.fastcgi-finish-request.md) \- скидає всі запитані дані клієнту
+-   Розділ[Обробка з'єднань](features.connection-handling.md)

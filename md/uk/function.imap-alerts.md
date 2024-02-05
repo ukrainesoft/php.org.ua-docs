@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.imap-8bit.md: « imap8bit
-  - function.imap-append.md: imapappend »
+  - function.imap-8bit.md: « imap\_8bit
+  - function.imap-append.md: imap\_append »
   - index.md: PHP Manual
-  - ref.imap.md: Функции IMAP
-title: imapalerts
+  - ref.imap.md: Функції IMAP
+title: imap\_alerts
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# imapalerts
+# imap\_alerts
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-imapalerts — Повертає всі попереджувальні повідомлення IMAP.
+imap\_alerts — Повертає всі попереджувальні повідомлення IMAP.
 
 ### Опис
 
@@ -18,9 +19,9 @@ imapalerts — Повертає всі попереджувальні повід
 imap_alerts(): array|false
 ```
 
-Повертає всі створені попереджувальні повідомлення IMAP з моменту останнього дзвінка **imapalerts()**, або під час завантаження сторінки.
+Повертає всі створені попереджувальні повідомлення IMAP з моменту останнього дзвінка **imap\_alerts()**, або під час завантаження сторінки.
 
-Коли **imapalerts()** викликається, стек попереджень очищається. Специфікація IMAP вимагає, щоб ці повідомлення були надіслані користувачеві.
+Когда**imap\_alerts()** викликається, стек попереджень очищається. Специфікація IMAP вимагає, щоб ці повідомлення були надіслані користувачеві.
 
 ### Список параметрів
 
@@ -32,4 +33,4 @@ imap_alerts(): array|false
 
 ### Дивіться також
 
--   [imaperrors()](function.imap-errors.md) - Отримати всі помилки, що відбулися IMAP
+-   [imap\_errors()](function.imap-errors.md) \- Отримує всі помилки, що відбулися IMAP

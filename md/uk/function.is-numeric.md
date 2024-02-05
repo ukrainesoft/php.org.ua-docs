@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-null.md: « isnull
-  - function.is-object.md: ісobject »
+  - function.is-null.md: « is\_null
+  - function.is-object.md: is\_object »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
-title: ісnumeric
+title: is\_numeric
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісnumeric
+# is\_numeric
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісnumeric — Перевіряє, чи є змінна числом або рядком, що містить число
+is\_numeric — Перевіряє, чи містить змінне число або числове рядок
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: ісnumeric
 is_numeric(mixed $value): bool
 ```
 
-Визначає, чи є ця змінна числом чи [рядком, що містить число](language.types.numeric-strings.md)
+Визначає, чи є змінна число або [рядок, що містить число](language.types.numeric-strings.md)
 
 ### Список параметрів
 
@@ -28,20 +29,21 @@ is_numeric(mixed $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` є числом або [рядком, що містить число](language.types.numeric-strings.md) або **`false`** в іншому випадку.
+Повертає **`true`**, если значение`value` - Число або [рядок, що містить число](language.types.numeric-strings.md), иначе\*\*`false`\*\*
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Рядки, що складаються з чисел, що закінчуються пробілом (`"42 "`), тепер повертатимуть **`true`**. Раніше натомість поверталося **`false`** |
+| 8.0.0 | Рядки, що складаються з чисел і закінчуються пробілом (`«42 »`), тепер повертатимуть **`true`**. . Раніше натомість поверталося **`false`** |
 
 ### Приклади
 
-**Приклад #1 Приклади використання **ісnumeric()****
+**Приклад #1 Приклад використання функції **is\_numeric()****
 
 ```php
 <?php
+
 $tests = array(
     "42",
     1337,
@@ -62,15 +64,16 @@ $tests = array(
 
 foreach ($tests as $element) {
     if (is_numeric($element)) {
-        echo var_export($element, true) . " is numeric", PHP_EOL;
+        echo var_export($element, true) . " число", PHP_EOL;
     } else {
-        echo var_export($element, true) . " is NOT numeric", PHP_EOL;
+        echo var_export($element, true) . " НЕ число", PHP_EOL;
     }
 }
+
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 42 - число
@@ -91,53 +94,55 @@ NULL - НЕ число
 '' - НЕ число
 ```
 
-**Приклад #2 Приклад використання **ісnumeric()** з пропуском**
+**Пример #2 Пример использования функции**is\_numeric()\*\* з пропуском\*\*
 
 ```php
 <?php
+
 $tests = [
     " 42",
     "42 ",
-    " 9001", // неразрывный пробел
-    "9001 ", // неразрывный пробел
+    "\u{A0}9001", // Неразрывный пробел
+    "9001\u{A0}", // Неразрывный пробел
 ];
 foreach ($tests as $element) {
     if (is_numeric($element)) {
-        echo var_export($element, true) . " - число", PHP_EOL;
+        echo var_export($element, true) . " — число", PHP_EOL;
     } else {
-        echo var_export($element, true) . " - НЕ число", PHP_EOL;
+        echo var_export($element, true) . " — НЕ число", PHP_EOL;
     }
 }
+
 ?>
 ```
 
-Результат виконання цього прикладу в PHP 8:
+Результат виконання наведеного прикладу в PHP 8:
 
 ```
-' 42' - число
-'42 ' - число
-' 9001' - НЕ число
-'9001 ' - НЕ число
+' 42' — число
+'42 ' — число
+' 9001' — НЕ число
+'9001 ' — НЕ число
 ```
 
-Результат виконання цього прикладу в PHP 7:
+Результат виконання наведеного прикладу в PHP 7:
 
 ```
-' 42' - число
-'42 ' - НЕ число
-' 9001' - НЕ число
-'9001 ' - НЕ число
+' 42' — число
+'42 ' — НЕ число
+' 9001' — НЕ число
+'9001 ' — НЕ число
 ```
 
 ### Дивіться також
 
 -   [Рядки, що містять числа](language.types.numeric-strings.md)
--   [ctypedigit()](function.ctype-digit.md) - Перевіряє наявність цифрових символів у рядку
--   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
--   [ісnull()](function.is-null.md) - Перевіряє, чи значення змінної дорівнює null
--   [ісfloat()](function.is-float.md) - Перевіряє, чи є змінна числом із плаваючою точкою
--   [ісint()](function.is-int.md) - Перевіряє, чи є змінна цілим числом
--   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком
--   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом
--   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
--   [filtervar()](function.filter-var.md) - Фільтрує змінну за допомогою певного фільтра
+-   [ctype\_digit()](function.ctype-digit.md) \- Перевіряє цифрові символи
+-   [is\_bool()](function.is-bool.md) \- Перевіряє, чи є змінна логічне значення
+-   [is\_null()](function.is-null.md) \- Перевіряє, чи значення змінної null дорівнює
+-   [is\_float()](function.is-float.md) \- Перевіряє, чи є змінна число з плаваючою точкою
+-   [is\_int()](function.is-int.md) \- Перевіряє, чи є змінна ціла кількість
+-   [is\_string()](function.is-string.md) \- Перевіряє, чи є тип змінної рядок
+-   [is\_object()](function.is-object.md) \- Перевіряє, чи є змінна об'єкт
+-   [is\_array()](function.is-array.md) \- Визначає, чи є змінна масив
+-   [filter\_var()](function.filter-var.md) \- Фільтрує змінну за допомогою певного фільтра

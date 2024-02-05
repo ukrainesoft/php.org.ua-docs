@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.curl-setopt.md: « curlsetopt
-  - function.curl-share-errno.md: curlshareerrno »
+  - function.curl-setopt.md: « curl\_setopt
+  - function.curl-share-errno.md: curl\_share\_errno »
   - index.md: PHP Manual
-  - ref.curl.md: Функции cURL
-title: curlshareclose
+  - ref.curl.md: Опції cURL
+title: curl\_share\_close
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# curlshareclose
+# curl\_share\_close
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
-curlshareclose — Закрити роздільний обробник cURL
+curl\_share\_close — Закрити роздільний обробник cURL
 
 ### Опис
 
@@ -18,7 +19,7 @@ curlshareclose — Закрити роздільний обробник cURL
 curl_share_close(CurlShareHandle $share_handle): void
 ```
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Використання функції не має сенсу. До PHP 8.0.0 вона використовувалася для закриття ресурсу.
 
@@ -28,7 +29,7 @@ curl_share_close(CurlShareHandle $share_handle): void
 
 `share_handle`
 
-Обробник cURL, що розділяється, повертається [curlshareinit()](function.curl-share-init.md)
+Обробник, що розділяється cURL, повертається [curl\_share\_init()](function.curl-share-init.md)
 
 ### Значення, що повертаються
 
@@ -36,13 +37,13 @@ curl_share_close(CurlShareHandle $share_handle): void
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.md) instance now; Попередньо, як ресурс був виявлений. |
+| 8.0.0 | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.md) instance now; previously, a resource was expected. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [curlsharesetopt()](function.curl-share-setopt.md)**
+**Пример #1 Пример использования[curl\_share\_setopt()](function.curl-share-setopt.md)**
 
 У цьому прикладі ми створюємо роздільний обробник cURL, додаємо в нього два звичайні обробники і запускаємо їх. Вони будуть використовувати одні й ті ж куки.
 
@@ -78,4 +79,4 @@ curl_close($ch2);
 
 ### Дивіться також
 
--   [curlshareinit()](function.curl-share-init.md) - Ініціалізація оброблюваного обробника cURL
+-   [curl\_share\_init()](function.curl-share-init.md) \- Ініціалізація оброблюваного обробника cURL

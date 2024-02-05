@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-linearreg-slope.md: « traderlinearregslope
-  - function.trader-ln.md: traderln »
+  - function.trader-linearreg-slope.md: « trader\_linearreg\_slope
+  - function.trader-ln.md: trader\_ln »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderlinearreg
+  - ref.trader.md: Функції Trader
+title: trader\_linearreg
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderlinearreg
+# trader\_linearreg
 
 (PECL trader >= 0.2.0)
 
-traderlinearreg - Лінійна регресія
+trader\_linearreg - Лінійна регресія
 
 ### Опис
 

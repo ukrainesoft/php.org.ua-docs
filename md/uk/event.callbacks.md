@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - book.event.md: Event
 title: Callback-функції
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Callback-функції
 
-Якщо для події зареєстрована callback-функція, вона буде викликана, коли подія перейде в активний статус. Для прив'язування функції до події необхідно передати її як параметр [callable](language.types.callable.md) в [Event::construct()](event.construct.md) або [Event::set()](event.set.md) або в один із фабричних методів, таких як [Event::timer()](event.timer.md)
+Якщо для події зареєстрована callback-функція, вона буде викликана, коли подія перейде в активний статус. Для прив'язування функції до події необхідно передати її як параметр [callable](language.types.callable.md)в[Event::\_\_construct()](event.construct.md) або [Event::set()](event.set.md) або в один із фабричних методів, таких як [Event::timer()](event.timer.md)
 
 Функція повинна відповідати наступному прототипу:
 
@@ -39,7 +40,7 @@ callback(
 
 Дані користувача.
 
-Для [Event::timer()](event.timer.md) callback-функція повинна відповідати наступному прототипу:
+Для[Event::timer()](event.timer.md)callback-функция должна соответствовать следующему прототипу:
 
 ```methodsynopsis
 callback(
@@ -53,7 +54,7 @@ callback(
 
 Дані користувача.
 
-Для [Event::signal()](event.signal.md) callback-функція повинна відповідати наступному прототипу:
+Для[Event::signal()](event.signal.md)callback-функция должна соответствовать следующему прототипу:
 
 ```methodsynopsis
 callback(

@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.iconv-get-encoding.md: « iconvgetencoding
-  - function.iconv-mime-decode.md: iconvmimedecode »
+  - function.iconv-get-encoding.md: « iconv\_get\_encoding
+  - function.iconv-mime-decode.md: iconv\_mime\_decode »
   - index.md: PHP Manual
-  - ref.iconv.md: Функции iconv
-title: iconvmimedecodeheaders
+  - ref.iconv.md: Функції iconv
+title: iconv\_mime\_decode\_headers
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# iconvmimedecodeheaders
+# iconv\_mime\_decode\_headers
 
 (PHP 5, PHP 7, PHP 8)
 
-iconvmimedecodeheaders — Декодує кілька полів заголовка `MIME`
+iconv\_mime\_decode\_headers — Декодує кілька полів заголовка `MIME`
 
 ### Опис
 
@@ -18,7 +19,7 @@ iconvmimedecodeheaders — Декодує кілька полів заголов
 iconv_mime_decode_headers(string $headers, int $mode = 0, ?string $encoding = null): array|false
 ```
 
-Декодує кілька полів заголовка `MIME` за один раз.
+Декодує кілька полів заголовка `MIME`за один раз.
 
 ### Список параметрів
 
@@ -28,34 +29,34 @@ iconv_mime_decode_headers(string $headers, int $mode = 0, ?string $encoding = nu
 
 `mode`
 
-Параметр `mode` визначає поведінку, якщо **iconvmimedecodeheaders()** виявить неправильне поле заголовка `MIME`. Можна вказати будь-яку комбінацію наступних бітових масок.
+Параметр`mode`определяет поведение, если**iconv\_mime\_decode\_headers()** виявить неправильне поле заголовка `MIME`. Можна вказати будь-яку комбінацію наступних бітових масок.
 
-**Бітові маски **iconvmimedecodeheaders()****
+**Бітові маски **iconv\_mime\_decode\_headers()****
 
-| Значение | Константа | Описание |
+| Значение | Константа | Опис |
 | --- | --- | --- |
-|  | ICONVMIMEDECODESTRICT | Строго дотримуватися стандартів, визначених у [» RFC2047](http://www.faqs.org/rfcs/rfc2047). За замовчуванням ця опція відключена, оскільки багато пропрієтарних програм електронної пошти не дотримуються стандартів і створюють некоректні заголовки `MIME` |
-|  | ICONVMIMEDECODECONTINUEВІНERROR | Якщо встановлено, **iconvmimedecodeheaders()** намагатиметься ігнорувати будь-які помилки і продовжувати обробку поточного заголовка. |
+|  | ICONV\_MIME\_DECODE\_STRICT | Строго дотримуватися стандартів, визначених у [» RFC2047](http://www.faqs.org/rfcs/rfc2047). . За замовчуванням ця опція відключена, оскільки багато пропрієтарних програм електронної пошти не дотримуються стандартів і створюють некоректні заголовки `MIME` |
+|  | ICONV\_MIME\_DECODE\_CONTINUE\_ON\_ERROR | Якщо встановлено, **iconv\_mime\_decode\_headers()** намагатиметься ігнорувати будь-які помилки і продовжувати обробку поточного заголовка. |
 
 `encoding`
 
-Необов'язковий параметр `encoding` вказує кодування, в якому буде представлено результат. Якщо опущено, буде використано значення директиви [iconv.internalencoding](iconv.configuration.md)
+Необов'язковий параметр `encoding` вказує кодування, в якому буде представлено результат. Якщо опущено, буде використано значення директиви [iconv.internal\_encoding](iconv.configuration.md)
 
 ### Значення, що повертаються
 
-У разі успішного виконання повертає асоціативний масив із полями `MIME`заголовків, вказаних параметром `headers`, або **`false`** у разі виникнення помилки.
+У разі успішного виконання повертає асоціативний масив із полями `MIME`\-заголовків, вказаних параметром `headers`, или\*\*`false`\*\*в случае возникновения ошибки.
 
-Кожен ключ елемента повертається масиву є окреме ім'я поля, а сам елемент - його значення. Якщо в заголовку є кілька полів з однаковим ім'ям, **iconvmimedecodeheaders()** автоматично поміщає їх у підмасив із числовими індексами в порядку їх обробки. Зверніть увагу, що імена заголовків не *нечутливі до регістру*
+Кожен ключ елемента повертається масиву є окреме ім'я поля, а сам елемент - його значення. Якщо в заголовку є кілька полів з однаковим ім'ям, **iconv\_mime\_decode\_headers()** автоматично поміщає їх у підмасив із числовими індексами в порядку їх обробки. Зверніть увагу, що імена заголовків не *нечутливі до регістру*
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `encoding` тепер допускає значення null. |
+| 8.0.0 | `encoding` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **iconvmimedecodeheaders()****
+**Пример #1 Пример использования**iconv\_mime\_decode\_headers()\*\*\*\*
 
 ```php
 <?php
@@ -77,7 +78,7 @@ print_r($headers);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -97,8 +98,8 @@ Array
 
 ### Дивіться також
 
--   [iconvmimedecode()](function.iconv-mime-decode.md) - Декодує поле MIME-заголовка
--   [мбdecodemimeheader()](function.mb-decode-mimeheader.md) - Декодує рядок у MIME-заголовку
--   [imapmimeheaderdecode()](function.imap-mime-header-decode.md) - Декодувати елементи заголовка
--   [imapbase64()](function.imap-base64.md) - Декодувати текст закодований BASE64
--   [imapqprint()](function.imap-qprint.md) - Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок
+-   [iconv\_mime\_decode()](function.iconv-mime-decode.md) \- Декодує поле MIME-заголовка
+-   [mb\_decode\_mimeheader()](function.mb-decode-mimeheader.md) \- Декодує рядок у MIME-заголовку
+-   [imap\_mime\_header\_decode()](function.imap-mime-header-decode.md) \- декодує елементи заголовка
+-   [imap\_base64()](function.imap-base64.md) \- Декодує закодований BASE64 текст
+-   [imap\_qprint()](function.imap-qprint.md) \- Перетворює рядок з формату quoted-printable на 8-бітовий рядок

@@ -3,8 +3,9 @@ navigation:
   - mysql-xdevapi-collectionmodify.replace.md: '« CollectionModify::replace'
   - mysql-xdevapi-collectionmodify.skip.md: 'CollectionModify::skip »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: mysql\_xdevapi\\CollectionModify
 title: 'CollectionModify::set'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # CollectionModify::set
 
@@ -36,7 +37,7 @@ public mysql_xdevapi\CollectionModify::set(string $collection_field, string $exp
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqlxdevapiCollectionModify::set()****
+**Пример #1 Пример использования**mysql\_xdevapi\\CollectionModify::set()\*\*\*\*
 
 ```php
 <?php
@@ -67,7 +68,7 @@ print_r($result->fetchAll());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array

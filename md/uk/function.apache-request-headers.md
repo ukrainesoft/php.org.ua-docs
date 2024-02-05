@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.apache-note.md: « apachenote
-  - function.apache-response-headers.md: apacheresponseheaders »
+  - function.apache-note.md: « apache\_note
+  - function.apache-response-headers.md: apache\_response\_headers »
   - index.md: PHP Manual
-  - ref.apache.md: Функции Apache
-title: apacherequestheaders
+  - ref.apache.md: Функції Apache
+title: apache\_request\_headers
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# apacherequestheaders
+# apache\_request\_headers
 
-(PHP 4> = 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.3.0, PHP 5, PHP 7, PHP 8)
 
-apacherequestheaders — Отримує список усіх заголовків HTTP-запиту
+apache\_request\_headers — Отримує список усіх заголовків HTTP-запиту
 
 ### Опис
 
@@ -26,17 +27,17 @@ apache_request_headers(): array
 
 ### Значення, що повертаються
 
-Асоціативний масив, що містить усі HTTP-заголовки поточного запиту, або **`false`** у разі виникнення помилки.
+Асоціативний масив, що містить усі HTTP-заголовки поточного запиту, або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Ця функція стала доступною у SAPI FPM. |
+| 7.3.0 | Ця функція стала доступною у SAPI FPM. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **apacherequestheaders()****
+**Пример #1 Пример использования**apache\_request\_headers()\*\*\*\*
 
 ```php
 <?php
@@ -48,7 +49,7 @@ foreach ($headers as $header => $value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Accept: */*
@@ -61,10 +62,10 @@ Connection: Keep-Alive
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Також можна отримати значення широко використовуваних CGIзмінних, отримавши їх із оточення сервера; це працює незалежно від того, встановлений PHP як модуль Apache чи ні. Для того, щоб отримати список усіх доступних [змінних оточення](language.variables.predefined.md), використовуйте функцію [phpinfo()](function.phpinfo.md)
+> Також можна отримати значення широко використовуваних CGI-змінних, отримавши їх із оточення сервера; це працює незалежно від того, встановлений PHP як модуль Apache чи ні. Для того, щоб отримати список усіх доступних [змінних оточення](language.variables.predefined.md), используйте функцию[phpinfo()](function.phpinfo.md)
 
 ### Дивіться також
 
--   [apacheresponseheaders()](function.apache-response-headers.md) - Повертає список усіх HTTP-заголовків відповіді Apache
+-   [apache\_response\_headers()](function.apache-response-headers.md) \- Повертає список усіх HTTP-заголовків відповіді Apache

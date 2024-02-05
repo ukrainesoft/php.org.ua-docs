@@ -1,16 +1,17 @@
 ---
 navigation:
-  - componere-patch.apply.md: '« ComponerePatch::apply'
-  - componere-patch.isapplied.md: 'ComponerePatch::isApplied »'
+  - componere-patch.apply.md: '« Componere\\Patch::apply'
+  - componere-patch.isapplied.md: 'Componere\\Patch::isApplied »'
   - index.md: PHP Manual
-  - class.componere-patch.md: ComponerePatch
-title: 'ComponerePatch::revert'
+  - class.componere-patch.md: Componere\\Patch
+title: 'Componere\\Patch::revert'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ComponerePatch::revert
+# Componere\\Patch::revert
 
 (Componere 2 >= 2.1.0)
 
-ComponerePatch::revert — Скасувати
+Componere\\Patch::revert — Скасувати
 
 ### Опис
 

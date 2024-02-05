@@ -1,35 +1,36 @@
 ---
 navigation:
-  - function.stats-cdf-gamma.md: « statscdfgamma
-  - function.stats-cdf-logistic.md: statscdflogistic »
+  - function.stats-cdf-gamma.md: « stats\_cdf\_gamma
+  - function.stats-cdf-logistic.md: stats\_cdf\_logistic »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
-title: statscdflaplace
+title: stats\_cdf\_laplace
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# statscdflaplace
+# stats\_cdf\_laplace
 
 (PECL stats >= 1.0.0)
 
-statscdflaplace — Обчислює один із параметрів розподілу Лапласа за іншими
+stats\_cdf\_laplace — Обчислює один із параметрів розподілу Лапласа за іншими
 
 ### Опис
 
 ```methodsynopsis
-stats_cdf_laplace(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_laplace(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
-Повертає кумулятивну функцію розподілу Лапласа, обернену до неї або один із своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`
+Повертає кумулятивну функцію розподілу Лапласа, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2`и`par3`) определяются параметром`which`
 
-У наступній таблиці перераховані значення, що повертаються, і параметри в залежності від `which`. CDF, x, mu та b позначає функцію кумулятивного розподілу, значення випадкової змінної, параметр зсуву та масштабу відповідно.
+У наступній таблиці перераховані значення і параметри, що повертаються, в залежності від `which`. CDF, x, mu та b позначає функцію кумулятивного розподілу, значення випадкової змінної, параметр зсуву та масштабу відповідно.
 
 **Значення, що повертається, та параметри**
 
 | `which` | Возвращаемое значение | `par1` | `par2` | `par3` |
 | --- | --- | --- | --- | --- |
-|  | CDF | з | му | в |
-|  | з | CDF | му | в |
-|  | му | з | CDF | в |
-|  | в | з | CDF | му |
+|  | CDF | x | mu | b |
+|  | x | CDF | mu | b |
+| 3 | mu | x | CDF | b |
+| 4 | b | x | CDF | mu |
 
 ### Список параметрів
 

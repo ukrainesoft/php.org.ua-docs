@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.getcontrollername.md: '« YafRequestAbstract::getControllerName'
-  - yaf-request-abstract.getexception.md: 'YafRequestAbstract::getException »'
+  - yaf-request-abstract.getcontrollername.md: '« Yaf\_Request\_Abstract::getControllerName'
+  - yaf-request-abstract.getexception.md: 'Yaf\_Request\_Abstract::getException »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::getEnv'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::getEnv'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::getEnv
+# Yaf\_Request\_Abstract::getEnv
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::getEnv — Отримує змінну ENV
+Yaf\_Request\_Abstract::getEnv — Отримує змінну ENV
 
 ### Опис
 
@@ -36,5 +37,5 @@ public Yaf_Request_Abstract::getEnv(string $name, string $default = ?): void
 
 ### Дивіться також
 
--   [YafRequestAbstract::getServer()](yaf-request-abstract.getserver.md) - Отримує змінну SERVER
--   [YafRequestAbstract::getParam()](yaf-request-abstract.getparam.md) - Отримує параметр дзвінка
+-   [Yaf\_Request\_Abstract::getServer()](yaf-request-abstract.getserver.md) \- Отримує змінну SERVER
+-   [Yaf\_Request\_Abstract::getParam()](yaf-request-abstract.getparam.md) \- Отримує параметр дзвінка

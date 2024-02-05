@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-result-seek.md: « pgresultseek
-  - function.pg-select.md: пгselect »
+  - function.pg-result-seek.md: « pg\_result\_seek
+  - function.pg-select.md: pg\_select »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгresultstatus
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_result\_status
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгresultstatus
+# pg\_result\_status
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгresultstatus — Повернення стану результату запиту
+pg\_result\_status — Повернення стану результату запиту
 
 ### Опис
 
@@ -18,17 +19,17 @@ title: пгresultstatus
 pg_result_status(PgSql\Result $result, int $mode = PGSQL_STATUS_LONG): string|int
 ```
 
-**пгresultstatus()** повертає поточний стан екземпляра [PgSqlResult](class.pgsql-result.md), або тег завершення сервером роботи з цим ресурсом.
+**pg\_result\_status()** повертає поточний стан екземпляра [PgSql\\Result](class.pgsql-result.md), або тег завершення сервером роботи з цим ресурсом.
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSql\\Result](class.pgsql-result.md), що повертається функціями [pg\_query()](function.pg-query.md) [pg\_query\_params()](function.pg-query-params.md) або [pg\_execute()](function.pg-execute.md)(среди прочего).
 
 `mode`
 
-Приймає одне із двох значень: **`PGSQL_STATUS_LONG`** для отримання числового позначення стану `result`, або **`PGSQL_STATUS_STRING`** для отримання стану теги у вигляді рядка. За замовчуванням використовується **`PGSQL_STATUS_LONG`**
+Приймає одне із двох значень: **`PGSQL_STATUS_LONG`** для отримання числового позначення стану `result`, либо\*\*`PGSQL_STATUS_STRING`\*\* для отримання стану теги у вигляді рядка. За замовчуванням використовується **`PGSQL_STATUS_LONG`**
 
 ### Значення, що повертаються
 
@@ -36,13 +37,13 @@ pg_result_status(PgSql\Result $result, int $mode = PGSQL_STATUS_LONG): string|in
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`result` тепер чекає екземпляр [PgSql\\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгresultstatus()****
+**Пример #1 Пример использования**pg\_result\_status()\*\*\*\*
 
 ```php
 <?php
@@ -65,7 +66,7 @@ else
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Copy began.
@@ -73,4 +74,4 @@ Copy began.
 
 ### Дивіться також
 
--   [пгconnectionstatus()](function.pg-connection-status.md) - Визначає стан підключення
+-   [pg\_connection\_status()](function.pg-connection-status.md) \- Визначає стан підключення

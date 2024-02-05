@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.array-intersect-ukey.md: « arrayintersectukey
-  - function.array-is-list.md: arrayісlist »
+  - function.array-intersect-ukey.md: « array\_intersect\_ukey
+  - function.array-is-list.md: array\_is\_list »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
-title: arrayintersect
+title: array\_intersect
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# arrayintersect
+# array\_intersect
 
-(PHP 4> = 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.1, PHP 5, PHP 7, PHP 8)
 
-arrayintersect - Обчислює сходження масивів
+array\_intersect — Обчислює перетин масивів
 
 ### Опис
 
@@ -18,7 +19,7 @@ arrayintersect - Обчислює сходження масивів
 array_intersect(array $array, array ...$arrays): array
 ```
 
-Функція **arrayintersect()** повертає масив, що містить усі значення масиву `array`, що містяться у всіх аргументах. Зверніть увагу, що ключі зберігаються.
+Функция**array\_intersect()** повертає масив, що містить усі значення масиву `array`, що містяться у всіх аргументах. Зверніть увагу, що ключі зберігаються.
 
 ### Список параметрів
 
@@ -32,17 +33,17 @@ array_intersect(array $array, array ...$arrays): array
 
 ### Значення, що повертаються
 
-Повертає масив, що містить усі значення `array`, які існують у всіх переданих аргументах.
+Повертає масив, що містить усі значення параметра `array`, які існують у всіх переданих аргументах.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Функція тепер може бути викликана лише з одним параметром. Раніше потрібно не менше двох параметрів. |
+| 8.0.0 | Тепер функцію можна викликати лише з одним параметром. Раніше потрібно не менше двох параметрів. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **arrayintersect()****
+**Пример #1 Пример использования функции**array\_intersect()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ print_r($result);
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Array
@@ -65,10 +66,10 @@ Array
 
 ### Примітки
 
-> **Зауваження**: Два елементи вважаються однаковими тоді і тільки тоді, коли `(string) $elem1 === (string) $elem2`. Інакше кажучи, коли їх рядкові уявлення ідентичні.
+> **Зауваження**: Два елементи визнаються однаковими тоді і лише тоді, коли вираз `(string) $elem1 === (string) $elem2` істинно. Простіше кажучи: коли їх рядкові уявлення ідентичні.
 
 ### Дивіться також
 
--   [arrayintersectassoc()](function.array-intersect-assoc.md) - обчислює сходження масивів з додатковою перевіркою індексу
--   [arraydiff()](function.array-diff.md) - Обчислити розбіжність масивів
--   [arraydiffassoc()](function.array-diff-assoc.md) - обчислює розбіжність масивів з додатковою перевіркою індексу
+-   [array\_intersect\_assoc()](function.array-intersect-assoc.md) \- обчислює перетин масивів з додатковою перевіркою індексу
+-   [array\_diff()](function.array-diff.md) \- обчислює розбіжність масивів
+-   [array\_diff\_assoc()](function.array-diff-assoc.md) \- обчислює розбіжність масивів з додатковою перевіркою індексу

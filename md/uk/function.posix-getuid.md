@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.posix-getsid.md: « posixgetsid
-  - function.posix-initgroups.md: posixinitgroups »
+  - function.posix-getsid.md: « posix\_getsid
+  - function.posix-initgroups.md: posix\_initgroups »
   - index.md: PHP Manual
-  - ref.posix.md: POSIX Функции
-title: posixgetuid
+  - ref.posix.md: POSIX Функції
+title: posix\_getuid
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# posixgetuid
+# posix\_getuid
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-posixgetuid — Повертає фактичний ідентифікатор користувача для поточного процесу UID
+posix\_getuid — Повертає фактичний ідентифікатор користувача для поточного процесу UID
 
 ### Опис
 
@@ -30,7 +31,7 @@ posix_getuid(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **posixgetuid()****
+**Пример #1 Пример использования**posix\_getuid()\*\*\*\*
 
 ```php
 <?php
@@ -40,5 +41,5 @@ echo posix_getuid(); //10000
 
 ### Дивіться також
 
--   [posixgetpwuid()](function.posix-getpwuid.md) - Повертає інформацію про користувача, використовуючи його ID
+-   [posix\_getpwuid()](function.posix-getpwuid.md) \- Повертає інформацію про користувача, використовуючи його ID
 -   POSIX керівництво GETUID(2)

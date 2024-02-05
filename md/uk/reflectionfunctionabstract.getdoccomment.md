@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getDocComment'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionFunctionAbstract::getDocComment
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::getDocComment — Отримує doc-коментар
 
@@ -30,4 +31,4 @@ public ReflectionFunctionAbstract::getDocComment(): string|false
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getStartLine()](reflectionfunctionabstract.getstartline.md) - отримує початковий номер рядка
+-   [ReflectionFunctionAbstract::getStartLine()](reflectionfunctionabstract.getstartline.md) \- отримує початковий номер рядка

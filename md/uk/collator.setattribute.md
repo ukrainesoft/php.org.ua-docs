@@ -5,14 +5,15 @@ navigation:
   - index.md: PHP Manual
   - class.collator.md: Collator
 title: 'Collator::setAttribute'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Collator::setAttribute
 
-# collatorsetattribute
+# collator\_set\_attribute
 
 (PHP 5 >= 5.3.0, PHP 7, PHP 8, PECL intl >= 1.0.0)
 
-Collator::setAttribute -- collatorsetattribute - Встановлює атрибут зіставлення
+Collator::setAttribute -- collator\_set\_attribute - Встановлює атрибут зіставлення
 
 ### Опис
 
@@ -44,11 +45,11 @@ collator_set_attribute(Collator $object, int $attribute, int $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **collatorsetattribute()****
+**Пример #1 Пример использования**collator\_set\_attribute()\*\*\*\*
 
 ```php
 <?php
@@ -65,5 +66,5 @@ if ($val === false) {
 ### Дивіться також
 
 -   [Константи](class.collator.md#intl.collator-constants) [Collator](class.collator.md)
--   [collatorgetattribute()](collator.getattribute.md) - Отримує значення атрибуту зіставлення
--   [collatorsetstrength()](collator.setstrength.md) - встановлює силу зіставлення
+-   [collator\_get\_attribute()](collator.getattribute.md) \- Отримує значення атрибуту зіставлення
+-   [collator\_set\_strength()](collator.setstrength.md) \- встановлює силу зіставлення

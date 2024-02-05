@@ -3,8 +3,9 @@ navigation:
   - memcached.callbacks.md: « Функції зворотного виклику
   - memcached.callbacks.read-through.md: Функції зворотного виклику наскрізного читання кеша »
   - index.md: PHP Manual
-  - memcached.callbacks.md: Опції зворотного дзвінка
+  - memcached.callbacks.md: Функції зворотного дзвінка
 title: Функції зворотного дзвінка для результуючого набору
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Функції зворотного дзвінка для результуючого набору
 
@@ -31,7 +32,7 @@ function result_cb($memc, $item)
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 array(3) {

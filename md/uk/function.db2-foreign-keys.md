@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.db2-field-width.md: « db2fieldwidth
-  - function.db2-free-result.md: db2freeresult »
+  - function.db2-field-width.md: « db2\_field\_width
+  - function.db2-free-result.md: db2\_free\_result »
   - index.md: PHP Manual
   - ref.ibm-db2.md: Функції IBM DB2
-title: db2foreignkeys
+title: db2\_foreign\_keys
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# db2foreignkeys
+# db2\_foreign\_keys
 
-(PECL ibmdb2> = 1.0.0)
+(PECL ibm\_db2 >= 1.0.0)
 
-db2foreignkeys — Повертає набір результатів, в якому перелічені ключі таблиці.
+db2\_foreign\_keys — Повертає набір результатів, в якому перелічені ключі таблиці.
 
 ### Опис
 
 ```methodsynopsis
-db2_foreign_keys(    resource $connection,    string $qualifier,    string $schema,    string $table-name): resource
+db2_foreign_keys(    resource $connection,    ?string $qualifier,    ?string $schema,    string $table_name): resource
 ```
 
 Повертає набір результатів, де перелічені зовнішні ключі таблиці.
@@ -32,9 +33,9 @@ db2_foreign_keys(    resource $connection,    string $qualifier,    string $sche
 
 `schema`
 
-Схема містить таблиці. Якщо `schema` одно **`null`** **db2foreignkeys()** відповідає схемою для поточного з'єднання.
+Схема містить таблиці. Якщо `schema` одно **`null`** **db2\_foreign\_keys()** відповідає схемою для поточного з'єднання.
 
-`table-name`
+`table_name`
 
 Назва таблиці.
 
@@ -42,31 +43,31 @@ db2_foreign_keys(    resource $connection,    string $qualifier,    string $sche
 
 Повертає ресурс оператора з набором результатів, що містить рядки, що описують зовнішні ключі зазначеної таблиці. Набір результатів складається з наступних стовпців:
 
-| Название столбца | Описание |
+| Название столбца | Опис |
 | --- | --- |
-| PKTABLECAT | Назва каталогу таблиці, що містить первинний ключ. Значення NULL, якщо у цій таблиці немає каталогів. |
-| PKTABLESCHEM | Назва схеми таблиці, що містить первинний ключ. |
-| PKTABLENAME | Назва таблиці містить первинний ключ. |
-| PKCOLUMNNAME | Назва стовпця, що містить первинний ключ. |
-| FKTABLECAT | Назва каталогу таблиці містить зовнішній ключ. Значення NULL, якщо у цій таблиці немає каталогів. |
-| FKTABLESCHEM | Назву схеми таблиці, що містить зовнішній ключ. |
-| FKTABLENAME | Назва таблиці містить зовнішній ключ. |
-| FKCOLUMNNAME | Назва стовпця, що містить зовнішній ключ. |
-| KEYSEQ | Індекс (починаючи з 1) стовпця у ключі. |
-| UPDATERULE | Цілочисленне значення, що представляє дію, що застосовується до зовнішнього ключа, якщо SQL - UPDATE. |
-| DELETERULE | Цілочисленне значення, що представляє дію, що застосовується до зовнішнього ключа, якщо операція SQL – DELETE. |
-| ФКNAME | Назва зовнішнього ключа. |
-| ПКNAME | Ім'я первинного ключа. |
-| DEFERRABILITY | Цілочисленне значення, яке представляє, чи є можливість відстрочення зовнішнього ключа: SQLINITIALLYDEFERRED, SQLINITIALLYIMMEDIATE або SQLNOTDEFERRABLE. |
+| PKTABLE\_CAT | Назва каталогу таблиці, що містить первинний ключ. Значення NULL, якщо у цій таблиці немає каталогів. |
+| PKTABLE\_SCHEM | Назва схеми таблиці, що містить первинний ключ. |
+| PKTABLE\_NAME | Назва таблиці містить первинний ключ. |
+| PKCOLUMN\_NAME | Назва стовпця, що містить первинний ключ. |
+| FKTABLE\_CAT | Назва каталогу таблиці містить зовнішній ключ. Значення NULL, якщо у цій таблиці немає каталогів. |
+| FKTABLE\_SCHEM | Назву схеми таблиці, що містить зовнішній ключ. |
+| FKTABLE\_NAME | Назва таблиці містить зовнішній ключ. |
+| FKCOLUMN\_NAME | Назва стовпця, що містить зовнішній ключ. |
+| KEY\_SEQ | Індекс (починаючи з 1) стовпця у ключі. |
+| UPDATE\_RULE | Цілочисленне значення, що представляє дію, що застосовується до зовнішнього ключа, якщо SQL - UPDATE. |
+| DELETE\_RULE | Цілочисленне значення, що представляє дію, що застосовується до зовнішнього ключа, якщо операція SQL – DELETE. |
+| FK\_NAME | Назва зовнішнього ключа. |
+| PK\_NAME | Ім'я первинного ключа. |
+| DEFERRABILITY | Цілочисленне значення, яке представляє, чи є можливість відстрочення зовнішнього ключа: SQL\_INITIALLY\_DEFERRED, SQL\_INITIALLY\_IMMEDIATE або SQL\_NOT\_DEFERRABLE. |
 
 ### Дивіться також
 
--   [db2columnprivileges()](function.db2-column-privileges.md) - Повертає результуючий набір, що перераховує стовпці та пов'язані з ним привілеї для таблиці
--   [db2columns()](function.db2-columns.md) - Повертає результуючий набір, що перераховує стовпці та пов'язані з ними метадані для таблиці
--   [db2primarykeys()](function.db2-primary-keys.md) - Повертає набір результатів, що містить первинні ключі таблиці
--   [db2procedurecolumns()](function.db2-procedure-columns.md) - Повертає набір результатів зі списком параметрів процедури, що зберігається.
--   [db2procedures()](function.db2-procedures.md) - Повертає набір результатів, в якому перераховані процедури, що зберігаються, зареєстровані в базі даних
--   [db2specialcolumns()](function.db2-special-columns.md) - Повертає набір результатів, у якому перераховані стовпці з унікальним ідентифікатором рядка таблиці
--   [db2statistics()](function.db2-statistics.md) - Повертає набір результатів, що містить індекс та статистику таблиці
--   [db2tableprivileges()](function.db2-table-privileges.md) - Повертає набір результатів, у якому перелічені таблиці та пов'язані з ними права доступу до бази даних
--   [db2tables()](function.db2-tables.md) - Повертає набір результатів, у якому перелічені таблиці та пов'язані метадані в базі даних
+-   [db2\_column\_privileges()](function.db2-column-privileges.md) \- Повертає результуючий набір, що перераховує стовпці та пов'язані з ним привілеї для таблиці
+-   [db2\_columns()](function.db2-columns.md) \- Повертає результуючий набір, що перераховує стовпці та пов'язані з ними метадані для таблиці
+-   [db2\_primary\_keys()](function.db2-primary-keys.md) \- Повертає набір результатів, що містить первинні ключі таблиці
+-   [db2\_procedure\_columns()](function.db2-procedure-columns.md) \- Повертає набір результатів зі списком параметрів процедури, що зберігається.
+-   [db2\_procedures()](function.db2-procedures.md) \- Повертає набір результатів, в якому перераховані процедури, що зберігаються, зареєстровані в базі даних
+-   [db2\_special\_columns()](function.db2-special-columns.md) \- Повертає набір результатів, у якому перераховані стовпці з унікальним ідентифікатором рядка таблиці
+-   [db2\_statistics()](function.db2-statistics.md) \- Повертає набір результатів, що містить індекс та статистику таблиці
+-   [db2\_table\_privileges()](function.db2-table-privileges.md) \- Повертає набір результатів, у якому перелічені таблиці та пов'язані з ними права доступу до бази даних
+-   [db2\_tables()](function.db2-tables.md) \- Повертає набір результатів, у якому перелічені таблиці та пов'язані метадані в базі даних

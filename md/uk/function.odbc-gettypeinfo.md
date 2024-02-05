@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.odbc-free-result.md: « odbcfreeresult
-  - function.odbc-longreadlen.md: odbclongreadlen »
+  - function.odbc-free-result.md: « odbc\_free\_result
+  - function.odbc-longreadlen.md: odbc\_longreadlen »
   - index.md: PHP Manual
-  - ref.uodbc.md: Функции ODBC
-title: odbcgettypeinfo
+  - ref.uodbc.md: Функції ODBC
+title: odbc\_gettypeinfo
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# odbcgettypeinfo
+# odbc\_gettypeinfo
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-odbcgettypeinfo — Повертає інформацію про типи даних, що підтримуються джерелом даних
+odbc\_gettypeinfo — Повертає інформацію про типи даних, що підтримуються джерелом даних
 
 ### Опис
 
@@ -24,7 +25,7 @@ odbc_gettypeinfo(resource $odbc, int $data_type = 0): resource|false
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, див. [odbcconnect()](function.odbc-connect.md)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbc\_connect()](function.odbc-connect.md)
 
 `data_type`
 
@@ -32,24 +33,24 @@ odbc_gettypeinfo(resource $odbc, int $data_type = 0): resource|false
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор результату ODBC або **`false`** у разі виникнення помилки.
+Повертає ідентифікатор результату ODBC або \*\*`false`\*\*в случае возникновения ошибки.
 
 У результуючому наборі є такі стовпці:
 
--   TYPENAME
--   DATATYPE
+-   TYPE\_NAME
+-   DATA\_TYPE
 -   PRECISION
--   LITERALPREFIX
--   LITERALSUFFIX
--   CREATEPARAMS
+-   LITERAL\_PREFIX
+-   LITERAL\_SUFFIX
+-   CREATE\_PARAMS
 -   NULLABLE
--   CASESENSITIVE
+-   CASE\_SENSITIVE
 -   SEARCHABLE
--   UNSIGNEDATTRIBUTE
+-   UNSIGNED\_ATTRIBUTE
 -   MONEY
--   AUTOINCREMENT
--   LOCALTYPENAME
--   MINIMUMSCALE
--   MAXIMUMSCALE
+-   AUTO\_INCREMENT
+-   LOCAL\_TYPE\_NAME
+-   MINIMUM\_SCALE
+-   MAXIMUM\_SCALE
 
-Набір результатів упорядкований за DATATYPE та TYPENAME.
+Набір результатів упорядкований за DATA\_TYPE та TYPE\_NAME.

@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.solrclient.md: SolrClient
 title: 'SolrClient::optimize'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SolrClient::optimize
 
-(PECL solr> = 0.9.2)
+(PECL solr >= 0.9.2)
 
 SolrClient::optimize - Дефрагментує індекс
 
@@ -54,5 +55,5 @@ PECL Solr >= 2.0 підтримує лише Solr Server >= 4.0
 
 ### Дивіться також
 
--   [SolrClient::commit()](solrclient.commit.md) - Завершує всі додавання/видалення, зроблені в індексі
--   [SolrClient::rollback()](solrclient.rollback.md) - Відкочує всі додавання/видалення, зроблені в індекс з моменту останньої фіксації
+-   [SolrClient::commit()](solrclient.commit.md) \- Завершує всі додавання/видалення, зроблені в індексі
+-   [SolrClient::rollback()](solrclient.rollback.md) \- Відкочує всі додавання/видалення, зроблені в індекс з моменту останньої фіксації

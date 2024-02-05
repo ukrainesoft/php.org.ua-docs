@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.trader-cdlxsidegap3methods.md: « tradercdlxsidegap3methods
-  - function.trader-cmo.md: tradercmo »
+  - function.trader-cdlxsidegap3methods.md: « trader\_cdlxsidegap3methods
+  - function.trader-cmo.md: trader\_cmo »
   - index.md: PHP Manual
-  - ref.trader.md: Функции Trader
-title: traderceil
+  - ref.trader.md: Функції Trader
+title: trader\_ceil
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# traderceil
+# trader\_ceil
 
 (PECL trader >= 0.2.0)
 
-traderceil — Вектор найбільшого цілого числа
+trader\_ceil — вектор найбільшого цілого числа
 
 ### Опис
 

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - phar.using.intro.md: '« Использование Phar-архивов: Введение'
+  - phar.using.intro.md: '« Використання Phar-архівів: Введення'
   - phar.using.object.md: 'Використання Phar-архівів: класи Phar та PharData »'
   - index.md: PHP Manual
-  - phar.using.md: Использование Phar-архивов
+  - phar.using.md: Використання Phar-архівів
 title: 'Використання Phar-архівів: обгортка потоку phar'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Використання Phar-архівів: обгортка потоку phar
 
@@ -21,6 +22,6 @@ file_put_contents('phar://my.phar/somefile.php', 0, $context);
 ?>
 ```
 
-Обгортка потоку `phar` не працює з файлами, розташованими віддалено, і не може з ними працювати, так що її використання можливе навіть коли параметри INI [allowurlfopen](filesystem.configuration.md#ini.allow-url-fopen) і [allowurlinclude](filesystem.configuration.md#ini.allow-url-include) вимкнено.
+Обгортка потоку `phar` не працює з файлами, розташованими віддалено, і не може з ними працювати, так що її використання можливе навіть коли параметри INI [allow\_url\_fopen](filesystem.configuration.md#ini.allow-url-fopen) і [allow\_url\_include](filesystem.configuration.md#ini.allow-url-include) вимкнено.
 
 Незважаючи на наявність можливості створювати phar-архіви з нуля, просто використовуючи потокові операції, найкращим рішенням буде використання функціоналу, вбудованого в клас Phar. Обгортку потоку найкраще використовувати лише читання.

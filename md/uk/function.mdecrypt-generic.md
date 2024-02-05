@@ -1,20 +1,21 @@
 ---
 navigation:
-  - function.mcrypt-module-self-test.md: « mcryptmoduleselftest
+  - function.mcrypt-module-self-test.md: « mcrypt\_module\_self\_test
   - book.mhash.md: Mhash »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
-title: mdecryptgeneric
+title: mdecrypt\_generic
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mdecryptgeneric
+# mdecrypt\_generic
 
 (PHP 4 >= 4.0.2, PHP 5, PHP 7 < 7.2.0, PECL mcrypt >= 1.0.0)
 
-mdecryptgeneric - Дешифрування даних
+mdecrypt\_generic - Дешифрування даних
 
 **Увага**
 
-Ця функція оголошена *Застарілої*, починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
+Ця функція оголошена *застарілої* починаючи з PHP 7.1.0 і була *ВИДАЛЕНО* у версії PHP 7.2.0. Використовувати цю функцію не рекомендується.
 
 ### Опис
 
@@ -28,7 +29,7 @@ mdecrypt_generic(resource $td, string $data): string
 
 `td`
 
-Дескриптор шифрування, що повертається [mcryptmoduleopen()](function.mcrypt-module-open.md)
+Дескриптор шифрування, що повертається [mcrypt\_module\_open()](function.mcrypt-module-open.md)
 
 `data`
 
@@ -40,7 +41,7 @@ mdecrypt_generic(resource $td, string $data): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mdecryptgeneric()****
+**Пример #1 Пример использования**mdecrypt\_generic()\*\*\*\*
 
 ```php
 <?php
@@ -78,12 +79,12 @@ mdecrypt_generic(resource $td, string $data): string
 ?>
 ```
 
-Приклад вище показує, як перевірити, що дані до шифрування збігаються з даними після дешифрування. Вкрай важливо переініціалізувати буфери шифрування за допомогою [mcryptgenericinit()](function.mcrypt-generic-init.md) перед дешифруванням даних.
+Приклад вище показує, як перевірити, що дані до шифрування збігаються з даними після дешифрування. Вкрай важливо переініціалізувати буфери шифрування за допомогою [mcrypt\_generic\_init()](function.mcrypt-generic-init.md) перед дешифруванням даних.
 
-Обробник дешифрування завжди має ініціалізуватися за допомогою [mcryptgenericinit()](function.mcrypt-generic-init.md) з ключем та ініціалізуючим вектором перед викликом функції. Як тільки шифрування завершено, необхідно звільнити буфери шифрування шляхом виклику функції [mcryptgenericdeinit()](function.mcrypt-generic-deinit.md). Дивіться приклад у описі функції [mcryptmoduleopen()](function.mcrypt-module-open.md)
+Обробник дешифрування завжди має ініціалізуватися за допомогою [mcrypt\_generic\_init()](function.mcrypt-generic-init.md) з ключем та ініціалізуючим вектором перед викликом функції. Як тільки шифрування завершено, необхідно звільнити буфери шифрування шляхом виклику функції [mcrypt\_generic\_deinit()](function.mcrypt-generic-deinit.md)Смотрите пример в описании функции[mcrypt\_module\_open()](function.mcrypt-module-open.md)
 
 ### Дивіться також
 
--   [mcryptgeneric()](function.mcrypt-generic.md) - Функція шифрує дані
--   [mcryptgenericinit()](function.mcrypt-generic-init.md) - Функція ініціалізує всі буфери, необхідні для шифрування
--   [mcryptgenericdeinit()](function.mcrypt-generic-deinit.md) - Ця функція деініціалізує модуль шифрування
+-   [mcrypt\_generic()](function.mcrypt-generic.md) \- Функція шифрує дані
+-   [mcrypt\_generic\_init()](function.mcrypt-generic-init.md) \- Функція ініціалізує всі буфери, необхідні для шифрування
+-   [mcrypt\_generic\_deinit()](function.mcrypt-generic-deinit.md) \- Ця функція деініціалізує модуль шифрування

@@ -1,21 +1,22 @@
 ---
 navigation:
-  - function.ps-set-value.md: «pssetvalue
-  - function.ps-setdash.md: псsetdash »
+  - function.ps-set-value.md: « ps\_set\_value
+  - function.ps-setdash.md: ps\_setdash »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
-title: псsetcolor
+title: ps\_setcolor
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# псsetcolor
+# ps\_setcolor
 
 (PECL ps >= 1.1.0)
 
-псsetcolor — Встановлює поточний колір
+ps\_setcolor — Встановлює поточний колір
 
 ### Опис
 
 ```methodsynopsis
-ps_setcolor(    resource $psdoc,    string $type,    string $colorspace,    float $c1,    float $c2,    float $c3,    float $c4): bool
+ps_setcolor(    resource $psdoc,    string $type,    string $colorspace,    float $c1,    float $c2,    float $c3,    float $c4): bool
 ```
 
 Встановлює колір для малювання, заливки або того й іншого.
@@ -24,11 +25,11 @@ ps_setcolor(    resource $psdoc,    string $type,    string $colorspace,    floa
 
 `psdoc`
 
-Ідентифікатор ресурсу PostScript-файлу, повернутий функцією [псnew()](function.ps-new.md)
+Ідентифікатор ресурсу PostScript-файлу, повернутий функцією [ps\_new()](function.ps-new.md)
 
 `type`
 
-Параметр `type` може бути: `both` `fill` або `fillstroke`
+Параметр`type` може бути: `both` `fill`или`fillstroke`
 
 `colorspace`
 
@@ -48,11 +49,11 @@ ps_setcolor(    resource $psdoc,    string $type,    string $colorspace,    floa
 
 `c4`
 
-Повинно бути встановлене лише у колірному просторі cmyk, вказується чорний компонент.
+Повинне бути встановлене лише у колірному просторі cmyk, вказується чорний компонент.
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Примітки
 

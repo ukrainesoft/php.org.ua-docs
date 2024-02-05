@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflectionattribute.construct.md: '« ReflectionAttribute::construct'
+  - reflectionattribute.construct.md: '« ReflectionAttribute::\_\_construct'
   - reflectionattribute.getname.md: 'ReflectionAttribute::getName »'
   - index.md: PHP Manual
   - class.reflectionattribute.md: ReflectionAttribute
 title: 'ReflectionAttribute::getArguments'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ReflectionAttribute::getArguments
 

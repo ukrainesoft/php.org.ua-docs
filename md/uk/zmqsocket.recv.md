@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.zmqsocket.md: ZMQSocket
 title: 'ZMQSocket::recv'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZMQSocket::recv
 
@@ -32,7 +33,7 @@ public ZMQSocket::recv(int $mode = 0): string
 
 ### Помилки
 
-Викидає **ZMQSocketException** у разі виникнення помилки.
+Викидає **ZMQSocketException**в случае возникновения ошибки.
 
 ### Приклади
 
@@ -77,7 +78,7 @@ do {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Отправляем сообщение

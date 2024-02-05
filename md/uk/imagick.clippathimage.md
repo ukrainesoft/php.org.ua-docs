@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.imagick.md: Imagick
 title: 'Imagick::clipPathImage'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Imagick::clipPathImage
 
@@ -28,7 +29,7 @@ public Imagick::clipPathImage(string $pathname, bool $inside): bool
 
 `inside`
 
-Якщо встановлено **`true`**, то наступні операції застосовуватимуться до внутрішнього контуру. Інакше наступні операції будуть застосовуватися до зовнішнього контуру.
+Если установлено\*\*`true`\*\*, наступні операції будуть застосовуватися до внутрішнього контуру. Інакше наступні операції будуть застосовуватися до зовнішнього контуру.
 
 ### Значення, що повертаються
 

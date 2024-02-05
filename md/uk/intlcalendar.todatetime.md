@@ -5,12 +5,13 @@ navigation:
   - index.md: PHP Manual
   - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::toDateTime'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IntlCalendar::toDateTime
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a2)
 
-IntlCalendar::toDateTime — Перетворює IntlCalendar на об'єкт DateTime
+IntlCalendar::toDateTime — Перетворює об'єкт IntlCalendar на об'єкт DateTime
 
 ### Опис
 
@@ -36,11 +37,11 @@ intlcal_to_date_time(IntlCalendar $calendar): DateTime|false
 
 ### Значення, що повертаються
 
-Об'єкт [DateTime](class.datetime.md) з тим же часовим поясом, що і заданий об'єкт (хоча з використанням бази даних PHP замість ICU) і з тим самим часом, за винятком меншої точності (друга точність замість мілісекунд). Повертає **`false`** у разі виникнення помилки.
+Об'єкт [DateTime](class.datetime.md) з тим же часовим поясом, що і заданий об'єкт (хоча з використанням бази даних PHP замість ICU) і з тим самим часом, за винятком меншої точності (друга точність замість мілісекунд). Повертає \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **IntlCalendar::toDateTime()****
+**Пример #1 Пример использования**IntlCalendar::toDateTime()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ $dt = $cal->toDateTime();
 print_r($dt);
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 DateTime Object
@@ -66,7 +67,7 @@ DateTime Object
 
 ### Дивіться також
 
--   [IntlCalendar::fromDateTime()](intlcalendar.fromdatetime.md) - Створює IntlCalendar з об'єкта чи рядка DateTime
--   [IntlCalendar::getTime()](intlcalendar.gettime.md) - Отримує час, представлений на даний момент об'єктом
--   [IntlCalendar::createInstance()](intlcalendar.createinstance.md) - Створює новий об'єкт IntlCalendar
--   [DateTime::construct()](datetime.construct.md) - Конструктор класу DateTime
+-   [IntlCalendar::fromDateTime()](intlcalendar.fromdatetime.md) \- Створює IntlCalendar з об'єкта чи рядка DateTime
+-   [IntlCalendar::getTime()](intlcalendar.gettime.md) \- Отримує час, представлений на даний момент об'єктом
+-   [IntlCalendar::createInstance()](intlcalendar.createinstance.md) \- Створює новий об'єкт IntlCalendar
+-   [DateTime::\_\_construct()](datetime.construct.md) \- Конструктор класу DateTime

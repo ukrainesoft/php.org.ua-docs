@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.join.md: '« DsSequence::join'
-  - ds-sequence.map.md: 'ДсSequence::map »'
+  - ds-sequence.join.md: '« Ds\\Sequence::join'
+  - ds-sequence.map.md: 'Ds\\Sequence::map »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::last'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::last'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::last
+# Ds\\Sequence::last
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::last — Повертає останнє значення колекції
+Ds\\Sequence::last — Повертає останнє значення колекції
 
 ### Опис
 
@@ -34,7 +35,7 @@ abstract public Ds\Sequence::last(): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::last()****
+**Пример #1 Пример использования**Ds\\Sequence::last()\*\*\*\*
 
 ```php
 <?php
@@ -43,7 +44,7 @@ var_dump($sequence->last());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 int(3)

@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.evwatcher.md: EvWatcher
 title: 'EvWatcher::stop'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # EvWatcher::stop
 
@@ -31,4 +32,4 @@ public
 
 ### Дивіться також
 
--   [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача
+-   [EvWatcher::start()](evwatcher.start.md) \- Запускає спостерігача

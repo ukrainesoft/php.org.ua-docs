@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.filter-has-var.md: « filterhasvar
-  - function.filter-input-array.md: filterinputarray »
+  - function.filter-has-var.md: « filter\_has\_var
+  - function.filter-input-array.md: filter\_input\_array »
   - index.md: PHP Manual
   - ref.filter.md: Функції фільтрації даних
-title: filterід
+title: filter\_id
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# filterід
+# filter\_id
 
-(PHP 5> = 5.2.0, PHP 7, PHP 8)
+(PHP 5 >= 5.2.0, PHP 7, PHP 8)
 
-filterid — Повертає ідентифікатор, який належить іменованому фільтру
+filter\_id — Повертає ідентифікатор, який належить іменованому фільтру
 
 ### Опис
 
@@ -30,4 +31,4 @@ filter_id(string $name): int|false
 
 ### Дивіться також
 
--   [filterlist()](function.filter-list.md) - Повертає список усіх підтримуваних фільтрів
+-   [filter\_list()](function.filter-list.md) \- Повертає список усіх підтримуваних фільтрів

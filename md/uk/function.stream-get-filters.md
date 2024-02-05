@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.stream-get-contents.md: « streamgetcontents
-  - function.stream-get-line.md: streamgetline »
+  - function.stream-get-contents.md: « stream\_get\_contents
+  - function.stream-get-line.md: stream\_get\_line »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
-title: streamgetfilters
+title: stream\_get\_filters
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# streamgetfilters
+# stream\_get\_filters
 
 (PHP 5, PHP 7, PHP 8)
 
-streamgetfilters — Отримати список зареєстрованих фільтрів
+stream\_get\_filters — Отримати список зареєстрованих фільтрів
 
 ### Опис
 
@@ -30,7 +31,7 @@ stream_get_filters(): array
 
 ### Приклади
 
-**Приклад #1 Приклад використання функції **streamgetfilters()****
+**Пример #1 Пример использования функции**stream\_get\_filters()\*\*\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ print_r($streamlist);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Array (
@@ -53,5 +54,5 @@ Array (
 
 ### Дивіться також
 
--   [streamfilterregister()](function.stream-filter-register.md) - Реєструє потоковий фільтр, визначений користувачем
--   [streamgetwrappers()](function.stream-get-wrappers.md) - Отримати список зареєстрованих потоків
+-   [stream\_filter\_register()](function.stream-filter-register.md) \- Реєструє потоковий фільтр, визначений користувачем
+-   [stream\_get\_wrappers()](function.stream-get-wrappers.md) \- Отримати список зареєстрованих потоків

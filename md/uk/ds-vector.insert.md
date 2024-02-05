@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.get.md: '« DsVector::get'
-  - ds-vector.isempty.md: 'ДсVector::isEmpty »'
+  - ds-vector.get.md: '« Ds\\Vector::get'
+  - ds-vector.isempty.md: 'Ds\\Vector::isEmpty »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::insert'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::insert'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::insert
+# Ds\\Vector::insert
 
 (PECL ds >= 1.0.0)
 
-ДсVector::insert — Вставляє значення за вказаним індексом
+Ds\\Vector::insert — Вставляє значення за вказаним індексом
 
 ### Опис
 
@@ -26,7 +27,7 @@ public Ds\Vector::insert(int $index, mixed ...$values): void
 
 Індекс, за яким необхідно здійснити вставку . `0 <= index <= count`
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Можна вказати індекс, що дорівнює кількості елементів вектора.
 
@@ -44,7 +45,7 @@ public Ds\Vector::insert(int $index, mixed ...$values): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::insert()****
+**Пример #1 Пример использования**Ds\\Vector::insert()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +61,7 @@ var_dump($vector);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Vector)#1 (7) {

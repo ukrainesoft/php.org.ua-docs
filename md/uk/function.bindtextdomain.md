@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.bind-textdomain-codeset.md: « bindtextdomaincodeset
+  - function.bind-textdomain-codeset.md: « bind\_textdomain\_codeset
   - function.dcgettext.md: dcgettext »
   - index.md: PHP Manual
-  - ref.gettext.md: Функции gettext
+  - ref.gettext.md: Функції gettext
 title: bindtextdomain
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # bindtextdomain
 
@@ -18,7 +19,7 @@ bindtextdomain — Встановлює або отримує шлях для д
 bindtextdomain(string $domain, ?string $directory): string|false
 ```
 
-Функція **bindtextdomain()** встановлює чи отримує шлях для домену.
+Функция**bindtextdomain()** встановлює чи отримує шлях для домену.
 
 ### Список параметрів
 
@@ -32,17 +33,17 @@ bindtextdomain(string $domain, ?string $directory): string|false
 
 ### Значення, що повертаються
 
-Повний шлях для домену, встановленого параметром `domain` або **`false`** у разі виникнення помилки.
+Повний шлях для домену, встановленого параметром `domain`или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | `directory` тепер допускає значення null. Раніше неможливо було отримати поточний встановлений каталог. |
+| 8.0.3 | `directory` тепер допускає значення null. Раніше неможливо було отримати поточний встановлений каталог. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **bindtextdomain()****
+**Пример #1 Пример использования**bindtextdomain()\*\*\*\*
 
 ```php
 <?php
@@ -53,7 +54,7 @@ echo bindtextdomain($domain, '/usr/share/myapp/locale');
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 /usr/share/myapp/locale
@@ -61,6 +62,6 @@ echo bindtextdomain($domain, '/usr/share/myapp/locale');
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Інформація **bindtextdomain()** зберігається кожному за процесу, а чи не для потоку.

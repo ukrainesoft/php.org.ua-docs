@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.get-resource-id.md: « getresourceід
+  - function.get-resource-id.md: « get\_resource\_id
   - function.gettype.md: gettype »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
-title: getresourcetype
+title: get\_resource\_type
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# getresourcetype
+# get\_resource\_type
 
-(PHP 4> = 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.0.2, PHP 5, PHP 7, PHP 8)
 
-getresourcetype — Повертає тип ресурсу
+get\_resource\_type — Повертає тип ресурсу
 
 ### Опис
 
@@ -30,11 +31,11 @@ get_resource_type(resource $resource): string
 
 Якщо цей параметр `resource` є ресурсом, функція повертає рядок, що вказує на його тип. Якщо тип не визначається цією функцією, значенням, що повертається, буде рядок `Unknown`
 
-Функція повертає **`null`** і викликає помилку, якщо `resource` не є ресурсом (resource).
+Функція повертає **`null`** і викликає помилку, якщо `resource` перестав бути ресурсом (resource).
 
 ### Приклади
 
-**Приклад #1 Приклад використання **getresourcetype()****
+**Пример #1 Пример использования**get\_resource\_type()\*\*\*\*
 
 ```php
 <?php
@@ -45,7 +46,7 @@ echo get_resource_type($c) . "\n";
 ?>
 ```
 
-Результат виконання цього прикладу в PHP 7:
+Результат виконання наведеного прикладу в PHP 7:
 
 ```
 stream
@@ -54,4 +55,4 @@ curl
 
 ### Дивіться також
 
--   [getresourceid()](function.get-resource-id.md) - Повертає цілий ідентифікатор для даного ресурсу
+-   [get\_resource\_id()](function.get-resource-id.md) \- Повертає цілий ідентифікатор для даного ресурсу

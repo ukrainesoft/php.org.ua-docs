@@ -1,16 +1,17 @@
 ---
 navigation:
-  - mongodb-bson-objectidinterface.gettimestamp.md: '« MongoDBBSONObjectIdInterface::getTimestamp'
-  - class.mongodb-bson-regexinterface.md: MongoDBBSONRegexInterface »
+  - mongodb-bson-objectidinterface.gettimestamp.md: '« MongoDB\\BSON\\ObjectIdInterface::getTimestamp'
+  - class.mongodb-bson-regexinterface.md: MongoDB\\BSON\\RegexInterface »
   - index.md: PHP Manual
-  - class.mongodb-bson-objectidinterface.md: MongoDBBSONObjectIdInterface
-title: 'MongoDBBSONObjectIdInterface::toString'
+  - class.mongodb-bson-objectidinterface.md: MongoDB\\BSON\\ObjectIdInterface
+title: 'MongoDB\\BSON\\ObjectIdInterface::\_\_function toString() { \[native code\] }'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# MongoDBBSONObjectIdInterface::toString
+# MongoDB\\BSON\\ObjectIdInterface::\_\_function toString() { \[native code\] }
 
 (mongodb >=1.3.0)
 
-MongoDBBSONObjectIdInterface::toString — Повертає шістнадцяткову виставу ObjectIdInterface
+MongoDB\\BSON\\ObjectIdInterface::\_\_toString — Повертає шістнадцяткову виставу ObjectIdInterface
 
 ### Опис
 
@@ -28,4 +29,4 @@ abstract public MongoDB\BSON\ObjectIdInterface::__toString(): string
 
 ### Дивіться також
 
--   [MongoDBBSONObjectId::toString()](mongodb-bson-objectid.tostring.md) - Повертає шістнадцяткову виставу ObjectId
+-   [MongoDB\\BSON\\ObjectId::\_\_toString()](mongodb-bson-objectid.tostring.md) \- Повертає шістнадцяткову виставу ObjectId

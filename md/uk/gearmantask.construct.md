@@ -4,21 +4,20 @@ navigation:
   - gearmantask.create.md: 'GearmanTask::create »'
   - index.md: PHP Manual
   - class.gearmantask.md: GearmanTask
-title: 'GearmanTask::construct'
+title: 'GearmanTask::\_\_construct'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# GearmanTask::construct
+# GearmanTask::\_\_construct
 
 (PECL gearman >= 0.5.0)
 
-GearmanTask::construct — Створює об'єкт GearmanTask
+GearmanTask::\_\_construct — Створює об'єкт GearmanTask
 
 ### Опис
 
-```methodsynopsis
-public GearmanTask::__construct()
-```
+public**GearmanTask::\_\_construct**()
 
-Створює об'єкт [GearmanTask](class.gearmantask.md), що представляє завдання на обробку, яка буде відправлена ​​на сервер.
+Створює об'єкт [GearmanTask](class.gearmantask.md), що представляє завдання на обробку, яка надалі буде відправлена ​​на сервер.
 
 ### Список параметрів
 

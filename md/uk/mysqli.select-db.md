@@ -1,18 +1,19 @@
 ---
 navigation:
   - mysqli.savepoint.md: '« mysqli::savepoint'
-  - mysqli.set-charset.md: 'mysqli::setcharset »'
+  - mysqli.set-charset.md: 'mysqli::set\_charset »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
-title: 'mysqli::selectдб'
+title: 'mysqli::select\_db'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# mysqli::selectдб
+# mysqli::select\_db
 
-# mysqliselectдб
+# mysqli\_select\_db
 
 (PHP 5, PHP 7, PHP 8)
 
-mysqli::selectdb - mysqliselectdb — Встановлює базу даних для запитів, що виконуються.
+mysqli::select\_db -- mysqli\_select\_db — Встановлює базу даних для запитів, що виконуються.
 
 ### Опис
 
@@ -30,15 +31,15 @@ mysqli_select_db(mysqli $mysql, string $database): bool
 
 Встановлює базу даних, яка використовуватиметься під час виконання запитів до бази даних
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Ця функція використовується лише для зміни бази даних під час підключення. Ви можете вибрати базу даних, передавши її четвертим параметром функції [mysqliconnect()](function.mysqli-connect.md)
+> Ця функція використовується лише для зміни бази даних під час підключення. Ви можете вибрати базу даних, передавши її четвертим параметром функції [mysqli\_connect()](function.mysqli-connect.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), який повернула функція [mysqli\_connect()](function.mysqli-connect.md)или функция[mysqli\_init()](mysqli.init.md)
 
 `database`
 
@@ -46,11 +47,15 @@ mysqli_select_db(mysqli $mysql, string $database): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+
+### Помилки
+
+Якщо сповіщення про помилки mysqli включено (**`MYSQLI_REPORT_ERROR`**) та запитана операція не вдалася, видається попередження. Якщо, крім того, встановлено режим **`MYSQLI_REPORT_STRICT`**, натомість буде викинуто виняток [mysqli\_sql\_exception](class.mysqli-sql-exception.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання **mysqli::selectdb()****
+**Пример #1 Пример использования**mysqli::select\_db()\*\*\*\*
 
 Об'єктно-орієнтований стиль
 
@@ -96,7 +101,7 @@ $row = mysqli_fetch_row($result);
 printf("База данных по умолчанию: %s.\n", $row[0]);
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 База данных по умолчанию: test.
@@ -105,5 +110,5 @@ printf("База данных по умолчанию: %s.\n", $row[0]);
 
 ### Дивіться також
 
--   [mysqliconnect()](function.mysqli-connect.md) - Псевдонім mysqli::construct
--   [mysqlirealconnect()](mysqli.real-connect.md) - Встановлює з'єднання із сервером mysql
+-   [mysqli\_connect()](function.mysqli-connect.md) \- Псевдонім mysqli::\_\_construct
+-   [mysqli\_real\_connect()](mysqli.real-connect.md) \- Встановлює з'єднання із сервером mysql

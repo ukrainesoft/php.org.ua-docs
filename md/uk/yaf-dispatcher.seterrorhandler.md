@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-dispatcher.setdefaultmodule.md: '« YafDispatcher::setDefaultModule'
-  - yaf-dispatcher.setrequest.md: 'YafDispatcher::setRequest »'
+  - yaf-dispatcher.setdefaultmodule.md: '« Yaf\_Dispatcher::setDefaultModule'
+  - yaf-dispatcher.setrequest.md: 'Yaf\_Dispatcher::setRequest »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.md: YafDispatcher
-title: 'YafDispatcher::setErrorHandler'
+  - class.yaf-dispatcher.md: Yaf\_Dispatcher
+title: 'Yaf\_Dispatcher::setErrorHandler'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafDispatcher::setErrorHandler
+# Yaf\_Dispatcher::setErrorHandler
 
 (Yaf >=1.0.0)
 
-YafDispatcher::setErrorHandler — Встановлює обробник помилок
+Yaf\_Dispatcher::setErrorHandler — Встановлює обробник помилок
 
 ### Опис
 
@@ -18,7 +19,7 @@ YafDispatcher::setErrorHandler — Встановлює обробник пом�
 public Yaf_Dispatcher::setErrorHandler(call $callback, int $error_types): Yaf_Dispatcher
 ```
 
-Встановлює обробник помилок Yaf. Якщо [application.dispatcher.throwException](yaf.appconfig.md#configuration.yaf.dispatcher.throwexception) вимкнений, Yaf буде викликати помилку, що перехоплюється, у разі виникнення непередбачених помилок.
+Устанавливает обработчик ошибок для Yaf. Если[application.dispatcher.throwException](yaf.appconfig.md#configuration.yaf.dispatcher.throwexception) вимкнений, Yaf викликатиме перехоплювану помилку у разі виникнення непередбачених помилок.
 
 Таким чином, цей обробник помилок буде викликатись у разі виникнення помилки.
 
@@ -34,6 +35,6 @@ Callback-функція, що викликається
 
 ### Дивіться також
 
--   [YafDispatcher::throwException()](yaf-dispatcher.throwexception.md) - Вмикає/вимикає викидання винятків
--   [YafApplication::getLastErrorNo()](yaf-application.getlasterrorno.md) - Отримати код останньої помилки
--   [YafApplication::getLastErrorMsg()](yaf-application.getlasterrormsg.md) - Отримати останнє повідомлення про помилку
+-   [Yaf\_Dispatcher::throwException()](yaf-dispatcher.throwexception.md) \- Вмикає/вимикає викидання винятків
+-   [Yaf\_Application::getLastErrorNo()](yaf-application.getlasterrorno.md) \- Отримати код останньої помилки
+-   [Yaf\_Application::getLastErrorMsg()](yaf-application.getlasterrormsg.md) \- Отримати останнє повідомлення про помилку

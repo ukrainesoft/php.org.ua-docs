@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getCommentName'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # ZipArchive::getCommentName
 
@@ -28,11 +29,11 @@ public ZipArchive::getCommentName(string $name, int $flags = 0): string|false
 
 `flags`
 
-Якщо прапор встановлений у **`ZipArchive::FL_UNCHANGED`**, повертається оригінальний незмінений коментар
+Если флаг установлен в\*\*`ZipArchive::FL_UNCHANGED`\*\*, повертається оригінальний незмінений коментар
 
 ### Значення, що повертаються
 
-Повертає коментар при успіху або **`false`** у разі виникнення помилки.
+Повертає коментар при успіху або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 

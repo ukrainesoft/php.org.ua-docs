@@ -1,16 +1,17 @@
 ---
 navigation:
-  - yaf-request-abstract.isoptions.md: '« YafRequestAbstract::isOptions'
-  - yaf-request-abstract.isput.md: 'YafRequestAbstract::isPut »'
+  - yaf-request-abstract.isoptions.md: '« Yaf\_Request\_Abstract::isOptions'
+  - yaf-request-abstract.isput.md: 'Yaf\_Request\_Abstract::isPut »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.md: YafRequestAbstract
-title: 'YafRequestAbstract::isPost'
+  - class.yaf-request-abstract.md: Yaf\_Request\_Abstract
+title: 'Yaf\_Request\_Abstract::isPost'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# YafRequestAbstract::isPost
+# Yaf\_Request\_Abstract::isPost
 
 (Yaf >=1.0.0)
 
-YafRequestAbstract::isPost - Визначає, чи є запит POST-запитом
+Yaf\_Request\_Abstract::isPost - Визначає, чи є запит POST-запитом
 
 ### Опис
 
@@ -28,9 +29,9 @@ public Yaf_Request_Abstract::isPost(): bool
 
 ### Дивіться також
 
--   [YafRequestAbstract::isGet()](yaf-request-abstract.isget.md) - Визначає, чи є запит GET-запитом
--   [YafRequestAbstract::isCli()](yaf-request-abstract.iscli.md) - Визначає, чи є запит CLI-запитом
--   [YafRequestAbstract::isHead()](yaf-request-abstract.ishead.md) - Визначає, чи є запит HEAD-запитом
--   [YafRequestAbstract::isPut()](yaf-request-abstract.isput.md) - Визначає, чи є запит PUT-запитом
--   [YafRequestAbstract::isOptions()](yaf-request-abstract.isoptions.md) - Визначає, чи є запит OPTIONS-запитом
--   [YafRequestAbstract::isXmlHTTPRequest()](yaf-request-abstract.isxmlhttprequest.md) - Визначає, чи є запит AJAX-запитом
+-   [Yaf\_Request\_Abstract::isGet()](yaf-request-abstract.isget.md) \- Визначає, чи є запит GET-запитом
+-   [Yaf\_Request\_Abstract::isCli()](yaf-request-abstract.iscli.md) \- Визначає, чи є запит CLI-запитом
+-   [Yaf\_Request\_Abstract::isHead()](yaf-request-abstract.ishead.md) \- Визначає, чи є запит HEAD-запитом
+-   [Yaf\_Request\_Abstract::isPut()](yaf-request-abstract.isput.md) \- Визначає, чи є запит PUT-запитом
+-   [Yaf\_Request\_Abstract::isOptions()](yaf-request-abstract.isoptions.md) \- Визначає, чи є запит OPTIONS-запитом
+-   [Yaf\_Request\_Abstract::isXmlHTTPRequest()](yaf-request-abstract.isxmlhttprequest.md) \- Визначає, чи є запит AJAX-запитом

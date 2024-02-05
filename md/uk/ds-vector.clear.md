@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-vector.capacity.md: '« DsVector::capacity'
-  - ds-vector.construct.md: 'ДсVector::construct »'
+  - ds-vector.capacity.md: '« Ds\\Vector::capacity'
+  - ds-vector.construct.md: 'Ds\\Vector::\_\_construct »'
   - index.md: PHP Manual
-  - class.ds-vector.md: Вектор
-title: 'ДсVector::clear'
+  - class.ds-vector.md: Ds\\Vector
+title: 'Ds\\Vector::clear'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсVector::clear
+# Ds\\Vector::clear
 
 (PECL ds >= 1.0.0)
 
-ДсVector::clear — Видаляє всі значення
+Ds\\Vector::clear — Видаляє всі значення
 
 ### Опис
 
@@ -30,7 +31,7 @@ public Ds\Vector::clear(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсVector::clear()****
+**Пример #1 Пример использования**Ds\\Vector::clear()\*\*\*\*
 
 ```php
 <?php
@@ -42,7 +43,7 @@ print_r($vector);
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 Ds\Vector Object

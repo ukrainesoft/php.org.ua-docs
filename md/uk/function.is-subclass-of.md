@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.is-a.md: « isа
-  - function.method-exists.md: methodexists »
+  - function.is-a.md: « is\_a
+  - function.method-exists.md: method\_exists »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
-title: ісsubclassоф
+title: is\_subclass\_of
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ісsubclassоф
+# is\_subclass\_of
 
 (PHP 4, PHP 5, PHP 7, PHP 8)
 
-ісsubclassof — Перевіряє, чи містить об'єкт у дереві предків зазначений клас чи прямо реалізує його
+is\_subclass\_of — Перевіряє, чи містить об'єкт у дереві предків зазначений клас чи прямо реалізує його
 
 ### Опис
 
@@ -18,7 +19,7 @@ title: ісsubclassоф
 is_subclass_of(mixed $object_or_class, string $class, bool $allow_string = true): bool
 ```
 
-Перевіряє, чи містить об'єкт `object_or_class` у своєму дереві предків клас `class` або прямо реалізує його.
+Перевіряє, чи містить об'єкт `object_or_class` у своєму дереві предків клас `class`либо прямо реализует его.
 
 ### Список параметрів
 
@@ -32,15 +33,15 @@ is_subclass_of(mixed $object_or_class, string $class, bool $allow_string = true)
 
 `allow_string`
 
-Якщо параметр встановлено в false, то не допускається ім'я класу у вигляді рядка як параметр `object_or_class`. Це також запобігає виклику автозавантажувача, якщо клас не існує.
+Если параметр установлен в false, то не допускается имя класса в виде строки в качестве параметра`object_or_class`. Це також запобігає виклику автозавантажувача, якщо клас не існує.
 
 ### Значення, що повертаються
 
-Ця функція повертає **`true`**, якщо об'єкт `object_or_class` належить до класу, що успадковує від `class`, інакше вона повертає **`false`**
+Ця функція повертає **`true`**, якщо об'єкт `object_or_class`принадлежит к классу, наследующему от`class`, інакше вона повертає **`false`**
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ісsubclassof()****
+**Пример #1 Пример использования**is\_subclass\_of()\*\*\*\*
 
 ```php
 <?php
@@ -81,7 +82,7 @@ if (is_subclass_of('WidgetFactory_Child', 'WidgetFactory')) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 да, $WFC наследует WidgetFactory
@@ -89,7 +90,7 @@ if (is_subclass_of('WidgetFactory_Child', 'WidgetFactory')) {
 да, WidgetFactory_Child наследует WidgetFactory
 ```
 
-**Приклад #2 Приклад використання **ісsubclassof()** з інтерфейсами**
+**Пример #2 Пример использования**is\_subclass\_of()\*\* з інтерфейсами\*\*
 
 ```php
 <?php
@@ -129,7 +130,7 @@ if (is_subclass_of('MyClass', 'MyInterface')) {
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 Да, $my_object является подклассом MyInterface
@@ -138,13 +139,13 @@ if (is_subclass_of('MyClass', 'MyInterface')) {
 
 ### Примітки
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Виклик цієї функції буде використовувати всі зареєстровані [функции автозагрузки](language.oop5.autoload.md)якщо клас ще не відомий.
+> Виклик цієї функції буде використовувати всі зареєстровані [функції автозавантаження](language.oop5.autoload.md)якщо клас ще не відомий.
 
 ### Дивіться також
 
--   [getclass()](function.get-class.md) - Повертає ім'я класу, до якого належить об'єкт
--   [getparentclass()](function.get-parent-class.md) - Повертає ім'я батьківського класу для об'єкта чи класу
--   [ісa()](function.is-a.md) - Перевіряє, чи належить об'єкт до цього класу чи чи є цей клас одним із його батьків
--   [classparents()](function.class-parents.md) - Повертає список батьківських класів заданого класу
+-   [get\_class()](function.get-class.md) \- Повертає ім'я класу, до якого належить об'єкт
+-   [get\_parent\_class()](function.get-parent-class.md) \- Повертає ім'я батьківського класу для об'єкта чи класу
+-   [is\_a()](function.is-a.md) \- Перевіряє, чи об'єкт належить до типу або підтипу
+-   [class\_parents()](function.class-parents.md) \- Повертає список батьківських класів заданого класу

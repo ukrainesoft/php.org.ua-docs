@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.phpdbg-clear.md: « phpdbgclear
-  - function.phpdbg-end-oplog.md: phpdbgendoplog »
+  - function.phpdbg-clear.md: « phpdbg\_clear
+  - function.phpdbg-end-oplog.md: phpdbg\_end\_oplog »
   - index.md: PHP Manual
-  - ref.phpdbg.md: Функции phpdbg
-title: phpdbgcolor
+  - ref.phpdbg.md: Функції phpdbg
+title: phpdbg\_color
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# phpdbgcolor
+# phpdbg\_color
 
-(PHP 5> = 5.6.0, PHP 7, PHP 8)
+(PHP 5 >= 5.6.0, PHP 7, PHP 8)
 
-phpdbgcolor — Задати колір елементу
+phpdbg\_color — Задати колір елементу
 
 ### Опис
 
@@ -18,17 +19,17 @@ phpdbgcolor — Задати колір елементу
 phpdbg_color(int $element, string $color): void
 ```
 
-Встановлює колір `color` для елемента `element`
+Устанавливает цвет`color` для елемента `element`
 
 ### Список параметрів
 
 `element`
 
-Одна з констант **`PHPDBG_COLOR_*`**
+Одна из констант\*\*`PHPDBG_COLOR_*`\*\*
 
 `color`
 
-Назва кольору. Одне з: `white` `red` `green` `yellow` `blue` `purple` `cyan` або `black`. Опціонально можна використовувати суфікси `-bold` або `-underline`. Наприклад `white-bold` або `green-underline`
+Имя цвета. Одно из:`white` `red` `green` `yellow` `blue` `purple` `cyan`или`black`. Опціонально можна використовувати суфікси `-bold`или`-underline`К примеру`white-bold`или`green-underline`
 
 ### Значення, що повертаються
 
@@ -36,4 +37,4 @@ phpdbg_color(int $element, string $color): void
 
 ### Дивіться також
 
--   [phpdbgprompt()](function.phpdbg-prompt.md) - встановити запрошення командного рядка
+-   [phpdbg\_prompt()](function.phpdbg-prompt.md) \- встановити запрошення командного рядка

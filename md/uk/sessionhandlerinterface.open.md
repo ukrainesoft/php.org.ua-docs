@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.sessionhandlerinterface.md: SessionHandlerInterface
 title: 'SessionHandlerInterface::open'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SessionHandlerInterface::open
 
-(PHP 5> = 5.4.0, PHP 7, PHP 8)
+(PHP 5 >= 5.4.0, PHP 7, PHP 8)
 
 SessionHandlerInterface::open — Ініціалізує сесію
 
@@ -18,7 +19,7 @@ SessionHandlerInterface::open — Ініціалізує сесію
 public SessionHandlerInterface::open(string $path, string $name): bool
 ```
 
-Повторно ініціалізує існуючу сесію чи створює нову. Викликається коли сесія стартує або коли викликана функція [sessionstart()](function.session-start.md)
+Повторно ініціалізує існуючу сесію чи створює нову. Викликається коли сесія стартує або коли викликана функція [session\_start()](function.session-start.md)
 
 ### Список параметрів
 
@@ -36,5 +37,5 @@ public SessionHandlerInterface::open(string $path, string $name): bool
 
 ### Дивіться також
 
--   [sessionname()](function.session-name.md) - Отримати чи встановити ім'я поточної сесії
+-   [session\_name()](function.session-name.md) \- Отримати чи встановити ім'я поточної сесії
 -   Опція конфігурації [session.auto-start](session.configuration.md#ini.session.auto-start)

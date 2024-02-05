@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.fann-get-num-output.md: « fanngetnumoutput
-  - function.fann-get-quickprop-mu.md: fanngetquickpropmu »
+  - function.fann-get-num-output.md: « fann\_get\_num\_output
+  - function.fann-get-quickprop-mu.md: fann\_get\_quickprop\_mu »
   - index.md: PHP Manual
-  - ref.fann.md: Функции Fann
-title: fanngetquickpropdecay
+  - ref.fann.md: Функції Fann
+title: fann\_get\_quickprop\_decay
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# fanngetquickpropdecay
+# fann\_get\_quickprop\_decay
 
-(PECL fann> = 1.0.0)
+(PECL fann >= 1.0.0)
 
-fanngetquickpropdecay — Повертає зниження, яке є фактором, при якому ваги повинні зменшуватись на кожній ітерації під час навчання quickprop
+fann\_get\_quickprop\_decay — Повертає зниження, яке є фактором, при якому ваги повинні зменшуватись на кожній ітерації під час навчання quickprop
 
 ### Опис
 
@@ -30,8 +31,8 @@ The default decay is -0.0001.
 
 ### Значення, що повертаються
 
-Зниження або **`false`** у разі виникнення помилки.
+Снижение или\*\*`false`\*\*в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [fannsetquickpropdecay()](function.fann-set-quickprop-decay.md) - Встановлює коефіцієнт загасання quickprop
+-   [fann\_set\_quickprop\_decay()](function.fann-set-quickprop-decay.md) \- Встановлює коефіцієнт загасання quickprop

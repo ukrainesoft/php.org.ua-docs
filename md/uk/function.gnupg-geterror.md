@@ -1,28 +1,29 @@
 ---
 navigation:
-  - function.gnupg-getengineinfo.md: « gnupggetengineinfo
-  - function.gnupg-geterrorinfo.md: gnupggeterrorinfo »
+  - function.gnupg-getengineinfo.md: « gnupg\_getengineinfo
+  - function.gnupg-geterrorinfo.md: gnupg\_geterrorinfo »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
-title: gnupggeterror
+title: gnupg\_geterror
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# gnupggeterror
+# gnupg\_geterror
 
 (PECL gnupg >= 0.1)
 
-gnupggeterror — Повертає текст повідомлення про помилку, якщо функція не була виконана
+gnupg\_geterror — Повернення тексту повідомлення про помилку, якщо функція не була виконана
 
 ### Опис
 
 ```methodsynopsis
-gnupg_geterror(resource $identifier): string
+gnupg_geterror(resource $identifier): string|false
 ```
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupg\_init()](function.gnupg-init.md)или**gnupg**
 
 ### Значення, що повертаються
 
@@ -30,7 +31,7 @@ gnupg_geterror(resource $identifier): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **gnupggeterror()** у процедурному стилі**
+**Пример #1 Пример использования**gnupg\_geterror()\*\* у процедурному стилі\*\*
 
 ```php
 <?php
@@ -39,7 +40,7 @@ echo gnupg_geterror($res);
 ?>
 ```
 
-**Приклад #2 Приклад використання **gnupggeterror()** в об'єктно-орієнтованому стилі**
+**Пример #2 Пример использования**gnupg\_geterror()\*\* в об'єктно-орієнтованому стилі\*\*
 
 ```php
 <?php

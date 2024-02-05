@@ -1,14 +1,15 @@
 ---
 navigation:
-  - luasandbox.setup.md: « Встановлення та налаштування
-  - luasandbox.installation.md: Установка »
+  - luasandbox.setup.md: '" Встановлення та налаштування'
+  - luasandbox.installation.md: Встановлення »
   - index.md: PHP Manual
   - luasandbox.setup.md: Встановлення та налаштування
 title: Вимоги
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 ## Вимоги
 
-Щоб використовувати модуль, потрібно встановити Lua 5.1, доступну на [» сайте Lua](http://www.lua.org/)
+Щоб використовувати модуль, потрібно встановити Lua 5.1, доступну на [» сайті Lua](http://www.lua.org/)
 
 Щоб повністю використовувати можливості таймера, LuaSandbox має бути встановлений у Linux.
 

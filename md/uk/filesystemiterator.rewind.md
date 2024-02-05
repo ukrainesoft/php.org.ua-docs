@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.filesystemiterator.md: FilesystemIterator
 title: 'FilesystemIterator::rewind'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # FilesystemIterator::rewind
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 FilesystemIterator::rewind — Переміщення покажчика на початок
 
@@ -30,7 +31,7 @@ public FilesystemIterator::rewind(): void
 
 ### Приклади
 
-**Приклад #1 Приклад використання **FilesystemIterator::rewind()****
+**Пример #1 Пример использования**FilesystemIterator::rewind()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +47,7 @@ echo $iterator->key() . "\n";
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 apple.jpg
@@ -56,4 +57,4 @@ apple.jpg
 
 ### Дивіться також
 
--   [DirectoryIterator::rewind()](directoryiterator.rewind.md) - Встановлює покажчик на перший елемент DirectoryIterator
+-   [DirectoryIterator::rewind()](directoryiterator.rewind.md) \- Перемотування ітератора DirectoryIterator назад до початку

@@ -1,10 +1,11 @@
 ---
 navigation:
-  - function.str-word-count.md: « strwordcount
+  - function.str-word-count.md: « str\_word\_count
   - function.strchr.md: strchr »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: strcasecmp
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # strcasecmp
 
@@ -32,11 +33,17 @@ strcasecmp(string $string1, string $string2): int
 
 ### Значення, що повертаються
 
-Повертає негативне число, якщо `string1` менше `string2`, позитивне число, якщо `string1` більше `string2`, та 0, якщо рядки рівні.
+Повертає `-1`, якщо `string1`меньше`string2` , якщо `string1`больше`string2`, и якщо рядки рівні.
+
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | Функція тепер повертає `-1`или ; раніше вона повертала негативне чи позитивне число. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **strcasecmp()****
+**Пример #1 Пример использования**strcasecmp()\*\*\*\*
 
 ```php
 <?php
@@ -50,9 +57,9 @@ if (strcasecmp($var1, $var2) == 0) {
 
 ### Дивіться також
 
--   [strcmp()](function.strcmp.md) - Бінарно-безпечне порівняння рядків
--   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
--   [substrcompare()](function.substr-compare.md) - Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
--   [strncasecmp()](function.strncasecmp.md) - Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
--   [stristr()](function.stristr.md) - Реєстронезалежний варіант функції strstr
--   [substr()](function.substr.md) - Повертає підрядок
+-   [strcmp()](function.strcmp.md) \- Бінарно-безпечне порівняння рядків
+-   [preg\_match()](function.preg-match.md) \- Виконує перевірку на відповідність регулярному виразу
+-   [substr\_compare()](function.substr-compare.md) \- Бінарно-безпечне порівняння 2 рядків зі зміщенням, з урахуванням або без обліку регістру
+-   [strncasecmp()](function.strncasecmp.md) \- Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
+-   [stristr()](function.stristr.md) \- Реєстронезалежний варіант функції strstr
+-   [substr()](function.substr.md) \- Повертає підрядок

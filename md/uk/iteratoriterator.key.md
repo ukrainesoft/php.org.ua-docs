@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.iteratoriterator.md: IteratorIterator
 title: 'IteratorIterator::key'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # IteratorIterator::key
 
-(PHP 5> = 5.1.0, PHP 7, PHP 8)
+(PHP 5 >= 5.1.0, PHP 7, PHP 8)
 
 IteratorIterator::key — Отримує ключ поточного елемента
 
@@ -30,4 +31,4 @@ public IteratorIterator::key(): mixed
 
 ### Дивіться також
 
--   [IteratorIterator::current()](iteratoriterator.current.md) - Отримує поточне значення
+-   [IteratorIterator::current()](iteratoriterator.current.md) \- Отримує поточне значення

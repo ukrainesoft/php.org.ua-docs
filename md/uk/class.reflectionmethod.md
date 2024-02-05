@@ -1,10 +1,11 @@
 ---
 navigation:
-  - reflectionfunctionabstract.tostring.md: '« ReflectionFunctionAbstract::toString'
-  - reflectionmethod.construct.md: 'ReflectionMethod::construct »'
+  - reflectionfunctionabstract.tostring.md: '« ReflectionFunctionAbstract::\_\_function toString() { [native code] }'
+  - reflectionmethod.construct.md: 'ReflectionMethod::\_\_construct »'
   - index.md: PHP Manual
   - book.reflection.md: Reflection
 title: Клас ReflectionMethod
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # Клас ReflectionMethod
 
@@ -12,51 +13,53 @@ title: Клас ReflectionMethod
 
 ## Вступ
 
-Клас **ReflectionMethod** повідомляє інформацію про методи.
+Класс**ReflectionMethod** повідомляє інформацію про методи.
 
 ## Огляд класів
 
 ```classsynopsis
 
-     
+    
+     class ReflectionMethod
     
 
     
-     
-      class ReflectionMethod
-     
-
-     
-      extends
-       ReflectionFunctionAbstract
-     
+     extends
+      ReflectionFunctionAbstract
      {
+
 
     /* Константы */
     
+     public
      const
      int
-      IS_STATIC = 16;
+      IS_STATIC;
 
-    const
+    public
+     const
      int
-      IS_PUBLIC = 1;
+      IS_PUBLIC;
 
-    const
+    public
+     const
      int
-      IS_PROTECTED = 2;
+      IS_PROTECTED;
 
-    const
+    public
+     const
      int
-      IS_PRIVATE = 4;
+      IS_PRIVATE;
 
-    const
+    public
+     const
      int
-      IS_ABSTRACT = 64;
+      IS_ABSTRACT;
 
-    const
+    public
+     const
      int
-      IS_FINAL = 32;
+      IS_FINAL;
 
 
     /* Свойства */
@@ -76,11 +79,13 @@ title: Клас ReflectionMethod
    public __construct(object|string $objectOrMethod, string $method)
 public __construct(string $classMethod)
 
-    public static export(string $class, string $name, bool $return = false): string
+    public static createFromMethodName(string $method): static
+public static export(string $class, string $name, bool $return = false): string
 public getClosure(?object $object = null): Closure
 public getDeclaringClass(): ReflectionClass
 public getModifiers(): int
 public getPrototype(): ReflectionMethod
+public hasPrototype(): bool
 public invoke(?object $object, mixed ...$args): mixed
 public invokeArgs(?object $object, array $args): mixed
 public isAbstract(): bool
@@ -90,7 +95,6 @@ public isFinal(): bool
 public isPrivate(): bool
 public isProtected(): bool
 public isPublic(): bool
-public isStatic(): bool
 public setAccessible(bool $accessible): void
 public __toString(): string
 
@@ -123,6 +127,7 @@ public ReflectionFunctionAbstract::isClosure(): bool
 public ReflectionFunctionAbstract::isDeprecated(): bool
 public ReflectionFunctionAbstract::isGenerator(): bool
 public ReflectionFunctionAbstract::isInternal(): bool
+public ReflectionFunctionAbstract::isStatic(): bool
 public ReflectionFunctionAbstract::isUserDefined(): bool
 public ReflectionFunctionAbstract::isVariadic(): bool
 public ReflectionFunctionAbstract::returnsReference(): bool
@@ -147,7 +152,7 @@ class
 
 **`ReflectionMethod::IS_STATIC`**
 
-Вказує, що це статичний метод. До PHP 7.4.0, значення було `1`
+Вказує, що це статичний метод. До PHP 7.4.0, значення було
 
 **`ReflectionMethod::IS_PUBLIC`**
 
@@ -163,33 +168,40 @@ class
 
 **`ReflectionMethod::IS_ABSTRACT`**
 
-Вказує, що це абстрактний метод. До PHP 7.4.0, значення було `2`
+Вказує, що це абстрактний метод. До PHP 7.4.0, значення було
 
 **`ReflectionMethod::IS_FINAL`**
 
 Вказує, що це остаточний метод. До PHP 7.4.0, значення було `4`
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Ці константи можуть змінюватися від версії до версії PHP. Рекомендується завжди використовувати константи та не покладатися безпосередньо на значення.
+> Ці константи можуть змінюватися від версії до версії PHP. Рекомендується завжди використовувати константи і не покладатися безпосередньо на значення.
+
+## список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.0.0 | Метод[ReflectionMethod::export()](reflectionmethod.export.md)був видалений. |
 
 ## Зміст
 
--   [ReflectionMethod::construct](reflectionmethod.construct.md) - Конструктор класу ReflectionMethod
--   [ReflectionMethod::export](reflectionmethod.export.md) - Експорт відбитого методу
--   [ReflectionMethod::getClosure](reflectionmethod.getclosure.md) — Повертає динамічно створене замикання для методу
--   [ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.md) — Отримує клас, що оголошує відбитий метод
--   [ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.md) — Отримує модифікатори методу
--   [ReflectionMethod::getPrototype](reflectionmethod.getprototype.md) — Отримує прототип методу (якщо такий є)
--   [ReflectionMethod::invoke](reflectionmethod.invoke.md) - Виклик
--   [ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.md) - Виклик методу з передачею аргументів масивом
--   [ReflectionMethod::isAbstract](reflectionmethod.isabstract.md) — Перевіряє, чи є метод абстрактним
--   [ReflectionMethod::isConstructor](reflectionmethod.isconstructor.md) — Перевіряє, чи є метод конструктором
--   [ReflectionMethod::isDestructor](reflectionmethod.isdestructor.md) — Перевіряє, чи є метод деструктором
--   [ReflectionMethod::isFinal](reflectionmethod.isfinal.md) — Перевіряє, чи є метод остаточним
--   [ReflectionMethod::isPrivate](reflectionmethod.isprivate.md) — Перевіряє, чи є метод закритим
--   [ReflectionMethod::isProtected](reflectionmethod.isprotected.md) — Перевіряє, чи метод захищений
--   [ReflectionMethod::isPublic](reflectionmethod.ispublic.md) — Перевіряє, чи є метод загальнодоступним
--   [ReflectionMethod::isStatic](reflectionmethod.isstatic.md) — Перевіряє, чи метод статичний
--   [ReflectionMethod::setAccessible](reflectionmethod.setaccessible.md) — Робить метод доступним
--   [ReflectionMethod::toString](reflectionmethod.tostring.md) — Повертає рядкову виставу об'єкта ReflectionMethod
+-   [ReflectionMethod::\_\_construct](reflectionmethod.construct.md) \- Конструктор класу ReflectionMethod
+-   [ReflectionMethod::createFromMethodName](reflectionmethod.createfrommethodname.md)— Створює об'єкт класу ReflectionMethod
+-   [ReflectionMethod::export](reflectionmethod.export.md) \- Експорт відбитого методу
+-   [ReflectionMethod::getClosure](reflectionmethod.getclosure.md)— Повертає динамічно створене замикання для методу
+-   [ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.md)— Отримує клас, що оголошує відбитий метод
+-   [ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.md)— Отримує модифікатори методу
+-   [ReflectionMethod::getPrototype](reflectionmethod.getprototype.md)— Отримує прототип методу (якщо такий є)
+-   [ReflectionMethod::hasPrototype](reflectionmethod.hasprototype.md)— Визначає, чи має метод прототип
+-   [ReflectionMethod::invoke](reflectionmethod.invoke.md) \- Виклик
+-   [ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.md) \- Виклик методу з передачею аргументів масивом
+-   [ReflectionMethod::isAbstract](reflectionmethod.isabstract.md)— Перевіряє, чи є метод абстрактним
+-   [ReflectionMethod::isConstructor](reflectionmethod.isconstructor.md)— Перевіряє, чи є метод конструктором
+-   [ReflectionMethod::isDestructor](reflectionmethod.isdestructor.md)— Перевіряє, чи є метод деструктором
+-   [ReflectionMethod::isFinal](reflectionmethod.isfinal.md)— Перевіряє, чи є метод остаточним
+-   [ReflectionMethod::isPrivate](reflectionmethod.isprivate.md)— Перевіряє, чи є метод закритим
+-   [ReflectionMethod::isProtected](reflectionmethod.isprotected.md)— Перевіряє, чи метод захищений
+-   [ReflectionMethod::isPublic](reflectionmethod.ispublic.md)— Перевіряє, чи є метод загальнодоступним
+-   [ReflectionMethod::setAccessible](reflectionmethod.setaccessible.md)— Робить метод доступним
+-   [ReflectionMethod::\_\_function toString() { \[native code\] }](reflectionmethod.tostring.md)— Повертає рядкову виставу об'єкта ReflectionMethod

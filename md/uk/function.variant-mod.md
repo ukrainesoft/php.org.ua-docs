@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.variant-int.md: « variantint
-  - function.variant-mul.md: variantmul »
+  - function.variant-int.md: « variant\_int
+  - function.variant-mul.md: variant\_mul »
   - index.md: PHP Manual
-  - ref.com.md: Функции COM
-title: variantmod
+  - ref.com.md: Функції COM
+title: variant\_mod
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# variantmod
+# variant\_mod
 
 (PHP 5, PHP 7, PHP 8)
 
-variantmod - Залишок від поділу двох варіантів
+variant\_mod - Залишок від поділу двох варіантів
 
 ### Опис
 
@@ -18,7 +19,7 @@ variantmod - Залишок від поділу двох варіантів
 variant_mod(mixed $left, mixed $right): variant
 ```
 
-ділить `left` на `right` та повертає залишок.
+ділить `left`на`right` та повертає залишок.
 
 ### Список параметрів
 
@@ -30,11 +31,11 @@ variant_mod(mixed $left, mixed $right): variant
 
 Правий операнд.
 
-> **Зауваження**
+> **Зауваження** :
 > 
-> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.md). У об'єктів COM і DOTNET буде взято та використано їх значення за умовчанням як значення варіанта.
+> Як і з усіма варіантними арифметичними функціями, параметри цієї функції можуть бути як рідними типами PHP (integer, string, floating point, boolean або **`null`**), і екземплярами класів COM, VARIANT чи DOTNET. Рідні PHP типи будуть перетворені на варіанти (variants) за тими самими правилами, що і в конструкторі класу [variant](class.variant.md). У об'єктів COM і DOTNET буде взято та використано їх значення за замовчуванням як значення варіанта.
 > 
-> Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variantadd()](function.variant-add.md) у PHP відповідає `VarAdd()` у документації MSDN.
+> Варіантні арифметичні функції є обертанням навколо однойменних функцій у бібліотеці COM; для більш детальної інформації про ці функції проконсультуйтеся з бібліотекою MSDN. Назви PHP-функцій дещо відрізняються; наприклад, [variant\_add()](function.variant-add.md) у PHP відповідає `VarAdd()`в документации MSDN.
 
 ### Значення, що повертаються
 
@@ -42,9 +43,9 @@ variant_mod(mixed $left, mixed $right): variant
 
 ### Помилки
 
-Викидає виняток [comexception](class.com-exception.md) у разі виникнення помилки.
+Викидає виняток [com\_exception](class.com-exception.md)в случае возникновения ошибки.
 
 ### Дивіться також
 
--   [variantdiv()](function.variant-div.md) - Отримати результат розподілу двох варіантів
--   [variantidiv()](function.variant-idiv.md) - Перетворення варіантів до цілих з наступним поділом
+-   [variant\_div()](function.variant-div.md) \- Отримати результат розподілу двох варіантів
+-   [variant\_idiv()](function.variant-idiv.md) \- ділить перетворені на цілі числа варіанти

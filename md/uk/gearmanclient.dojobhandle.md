@@ -5,6 +5,7 @@ navigation:
   - index.md: PHP Manual
   - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::doJobHandle'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # GearmanClient::doJobHandle
 
@@ -30,4 +31,4 @@ public GearmanClient::doJobHandle(): string
 
 ### Дивіться також
 
--   [GearmanClient::jobStatus()](gearmanclient.jobstatus.md) - Набуття статусу виконання фонового завдання
+-   [GearmanClient::jobStatus()](gearmanclient.jobstatus.md) \- Набуття статусу виконання фонового завдання

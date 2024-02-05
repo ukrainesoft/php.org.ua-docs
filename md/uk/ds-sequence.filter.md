@@ -1,16 +1,17 @@
 ---
 navigation:
-  - ds-sequence.contains.md: '« DsSequence::contains'
-  - ds-sequence.find.md: 'ДсSequence::find »'
+  - ds-sequence.contains.md: '« Ds\\Sequence::contains'
+  - ds-sequence.find.md: 'Ds\\Sequence::find »'
   - index.md: PHP Manual
-  - class.ds-sequence.md: Послідовність
-title: 'ДсSequence::filter'
+  - class.ds-sequence.md: Ds\\Sequence
+title: 'Ds\\Sequence::filter'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# ДсSequence::filter
+# Ds\\Sequence::filter
 
 (PECL ds >= 1.0.0)
 
-ДсSequence::filter — Створює нову послідовність елементів, вибраних за допомогою заданої callback-функції
+Ds\\Sequence::filter — Створює нову послідовність елементів, вибраних за допомогою заданої callback-функції
 
 ### Опис
 
@@ -30,15 +31,15 @@ callback(mixed $value): bool
 
 Необов'язковий аргумент типу [callable](language.types.callable.md), який повертає **`true`**, якщо значення має бути включено та **`false`**, якщо ні.
 
-Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивися [приведение к boolean](language.types.boolean.md#language.types.boolean.casting)
+Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`**(смотри[приведення до boolean](language.types.boolean.md#language.types.boolean.casting)
 
 ### Значення, що повертаються
 
-Нова послідовність, що містить значення, для яких функція `callback` повернула **`true`**, або всі елементи, які при приведенні до логічного типу стають **`true`**, якщо параметр `callback` не заданий.
+Нова послідовність, що містить значення, для яких функція `callback` повернула **`true`**, або всі елементи, які при приведенні до логічного типу стають **`true`**, якщо параметр `callback`не задан.
 
 ### Приклади
 
-**Приклад #1 Приклад використання **ДсSequence::filter()** з callback-функцією**
+**Пример #1 Пример использования**Ds\\Sequence::filter()**с callback-функцией**
 
 ```php
 <?php
@@ -50,7 +51,7 @@ var_dump($sequence->filter(function($value) {
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Vector)#3 (2) {
@@ -61,7 +62,7 @@ object(Ds\Vector)#3 (2) {
 }
 ```
 
-**Приклад #2 Приклад використання **ДсSequence::filter()** без callback-функції**
+**Пример #2 Пример использования**Ds\\Sequence::filter()\*\* без callback-функції\*\*
 
 ```php
 <?php
@@ -71,7 +72,7 @@ var_dump($sequence->filter());
 ?>
 ```
 
-Результатом виконання цього прикладу буде щось подібне:
+Висновок наведеного прикладу буде схожим на:
 
 ```
 object(Ds\Vector)#2 (3) {

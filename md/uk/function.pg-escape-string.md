@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.pg-escape-literal.md: « pgescapeliteral
-  - function.pg-execute.md: пгexecute »
+  - function.pg-escape-literal.md: « pg\_escape\_literal
+  - function.pg-execute.md: pg\_execute »
   - index.md: PHP Manual
-  - ref.pgsql.md: Функции PostgreSQL
-title: пгescapestring
+  - ref.pgsql.md: Функції PostgreSQL
+title: pg\_escape\_string
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# пгescapestring
+# pg\_escape\_string
 
-(PHP 4> = 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 >= 4.2.0, PHP 5, PHP 7, PHP 8)
 
-пгescapestring — Екранування спецсимволів у рядку запиту
+pg\_escape\_string — Екранування спецсимволів у рядку запиту
 
 ### Опис
 
@@ -18,9 +19,9 @@ title: пгescapestring
 pg_escape_string(PgSql\Connection $connection = ?, string $data): string
 ```
 
-Функція **пгescapestring()** екранує спецсимволи у рядку запиту для бази даних. Вона повертає екранований рядок у форматі PostgreSQL. Функція **пгescapestring()** є найкращим способом екранування SQL параметрів для PostgreSQL, в той час як [addslashes()](function.addslashes.md) не має використовуватися з PostgreSQL. Якщо тип стовпця bytea, то має використовуватись функція [пгescapebytea()](function.pg-escape-bytea.md) замість pgescapestring. Функція [пгescapeidentifier()](function.pg-escape-identifier.md) використовується для екранування ідентифікаторів (наприклад, імена таблиць або полів).
+Функция**pg\_escape\_string()** екранує спецсимволи у рядку запиту для бази даних. Вона повертає екранований рядок у форматі PostgreSQL. Функція **pg\_escape\_string()** є найкращим способом екранування SQL параметрів для PostgreSQL, в той час як [addslashes()](function.addslashes.md) не має використовуватися з PostgreSQL. Якщо тип стовпця bytea, то має використовуватись функція [pg\_escape\_bytea()](function.pg-escape-bytea.md) замість pg\_escape\_string. Функция[pg\_escape\_identifier()](function.pg-escape-identifier.md) використовується для екранування ідентифікаторів (наприклад, імена таблиць або полів).
 
-> **Зауваження**
+> **Зауваження** :
 > 
 > Функція підтримується PostgreSQL версії 7.2 та вище.
 
@@ -28,7 +29,7 @@ pg_escape_string(PgSql\Connection $connection = ?, string $data): string
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSql\\Connection](class.pgsql-connection.md). Якщо параметр `connection` не вказано, буде вибрано стандартне з'єднання. Стандартне з'єднання — це останнє з'єднання, яке встановила функція [pg\_connect()](function.pg-connect.md) або [pg\_pconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -44,13 +45,13 @@ pg_escape_string(PgSql\Connection $connection = ?, string $data): string
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+| 8.1.0 | Параметр`connection` тепер чекає екземпляр [PgSql\\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
-**Приклад #1 Приклад використання **пгescapestring()****
+**Пример #1 Пример использования**pg\_escape\_string()\*\*\*\*
 
 ```php
 <?php
@@ -70,4 +71,4 @@ pg_escape_string(PgSql\Connection $connection = ?, string $data): string
 
 ### Дивіться також
 
--   [пгescapebytea()](function.pg-escape-bytea.md) - Екранує спецсимволи у рядку для вставки у поле типу bytea
+-   [pg\_escape\_bytea()](function.pg-escape-bytea.md) \- Екранує спецсимволи у рядку для вставки у поле типу bytea

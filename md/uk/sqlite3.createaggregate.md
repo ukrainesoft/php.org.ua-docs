@@ -1,21 +1,22 @@
 ---
 navigation:
-  - sqlite3.construct.md: '« SQLite3::construct'
+  - sqlite3.construct.md: '« SQLite3::\_\_construct'
   - sqlite3.createcollation.md: 'SQLite3::createCollation »'
   - index.md: PHP Manual
   - class.sqlite3.md: SQLite3
 title: 'SQLite3::createAggregate'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # SQLite3::createAggregate
 
-(PHP 5> = 5.3.0, PHP 7, PHP 8)
+(PHP 5 >= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::createAggregate — Зареєструвати функцію PHP як агрегуючу функцію SQL
 
 ### Опис
 
 ```methodsynopsis
-public SQLite3::createAggregate(    string $name,    callable $stepCallback,    callable $finalCallback,    int $argCount = -1): bool
+public SQLite3::createAggregate(    string $name,    callable $stepCallback,    callable $finalCallback,    int $argCount = -1): bool
 ```
 
 Реєструє функцію PHP або функцію користувача як агрегуючу функцію SQL для використання в запитах.
@@ -33,7 +34,7 @@ public SQLite3::createAggregate(    string $name,    callable $stepCallback,    
 Ця функція має бути визначена так:
 
 ```methodsynopsis
-step(    mixed $context,    int $rownumber,    mixed $value,    mixed ...$values): mixed
+step(    mixed $context,    int $rownumber,    mixed $value,    mixed ...$values): mixed
 ```
 
 `context`
@@ -56,7 +57,7 @@ step(    mixed $context,    int $rownumber,    mixed $value,    mixed ...$values
 
 `finalCallback`
 
-Функція зворотного дзвінка для обчислення підсумкового значення агрегованого. Вона буде викликана як тільки всі рядки результуючого набору будуть оброблені, їй буде переданий контекст, що агрегує, і вона поверне фінальне значення. Ця функція має повернути значення типу зрозумілого SQLite (тобто . [скалярний тип](language.types.intro.md)
+Функція зворотного дзвінка для обчислення підсумкового агрегованого значення. Вона буде викликана як тільки всі рядки результуючого набору будуть оброблені, їй буде переданий контекст, що агрегує, і вона поверне фінальне значення. Ця функція має повернути значення типу зрозумілого SQLite (тобто . [скалярний тип](language.types.intro.md)
 
 Ця функція має бути визначена так:
 
@@ -70,9 +71,9 @@ fini(mixed $context, int $rownumber): mixed
 
 `rownumber`
 
-Завжди `0`
+Завжди
 
-Значення цієї функції буде використано як значення, що повертається всього агрегатора.
+Значення цієї функції буде використане як значення, що повертається всього агрегатора.
 
 `argCount`
 
@@ -80,11 +81,11 @@ fini(mixed $context, int $rownumber): mixed
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
 
 ### Приклади
 
-**Приклад #1 Приклад агрегуючої функції maxlength**
+**Приклад #1 Приклад агрегуючої функції max\_length**
 
 ```php
 <?php
@@ -128,7 +129,7 @@ var_dump($db->querySingle('SELECT max_len(a) from strings'));
 ?>
 ```
 
-Результат виконання цього прикладу:
+Результат виконання наведеного прикладу:
 
 ```
 int(5)

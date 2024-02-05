@@ -5,10 +5,11 @@ navigation:
   - index.md: PHP Manual
   - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::getLastErrors'
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # DateTimeImmutable::getLastErrors
 
-(PHP 5> = 5.5.0, PHP 7, PHP 8)
+(PHP 5 >= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::getLastErrors — Повертає попередження та помилки
 
@@ -28,9 +29,15 @@ public static DateTimeImmutable::getLastErrors(): array|false
 
 Повертає масив, що містить інформацію про попередження та помилки або \*\*`false`\*\*якщо немає ні попереджень, ні помилок.
 
+### список змін
+
+| Версия | Опис |
+| --- | --- |
+| 8.2.0 | До версії PHP 8.2.0 функція не повертала \*\*`false`\*\*якщо не було попереджень або помилок. Натомість вона завжди повертала задокументовану структуру масиву. |
+
 ### Приклади
 
-**Приклад #1 Приклад використання **DateTimeImmutable::getLastErrors()****
+**Пример #1 Пример использования**DateTimeImmutable::getLastErrors()\*\*\*\*
 
 ```php
 <?php
@@ -46,7 +53,7 @@ try {
 ?>
 ```
 
-Результат виконання даних прикладів:
+Результат виконання наведених прикладів:
 
 ```
 Array

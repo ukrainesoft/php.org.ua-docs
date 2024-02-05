@@ -1,16 +1,17 @@
 ---
 navigation:
-  - function.dbase-get-header-info.md: « dbasegetheaderinfo
-  - function.dbase-get-record.md: dbasegetrecord »
+  - function.dbase-get-header-info.md: « dbase\_get\_header\_info
+  - function.dbase-get-record.md: dbase\_get\_record »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
-title: dbasegetrecordwithnames
+title: dbase\_get\_record\_with\_names
+origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# dbasegetrecordwithnames
+# dbase\_get\_record\_with\_names
 
 (PHP 5 < 5.3.0, dbase 5, dbase 7)
 
-dbasegetrecordwithnames — Отримує запис із бази даних у вигляді асоціативного масиву
+dbase\_get\_record\_with\_names — Отримує запис із бази даних у вигляді асоціативного масиву
 
 ### Опис
 
@@ -24,30 +25,30 @@ dbase_get_record_with_names(resource $database, int $number): array
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
+Ресурс бази даних, що повертається функцією [dbase\_open()](function.dbase-open.md) або [dbase\_create()](function.dbase-create.md)
 
 `number`
 
-Індекс запису (Тут відповідає фізичному номеру запису. - прим. пров.) в діапазоні від `1` до `dbase_numrecords($dbase_identifier)`
+Індекс запису (тут відповідає фізичному номеру запису. — прим. перекл.) в діапазоні від до`dbase_numrecords($dbase_identifier)`
 
 ### Значення, що повертаються
 
-Асоціативний масив із даними рядка. Масив буде включати ключ `deleted` який дорівнює 1, якщо запис позначено видалення (дивіться [dbasedeleterecord()](function.dbase-delete-record.md)). Повертає і пусті записи. Отже, цією функцією неможливо отримати значення чи ім'я поля `delete`
+Асоціативний масив із даними рядка. Масив міститиме ключ `deleted`, який дорівнює 1, якщо запис позначено видалення (дивіться опис функції [dbase\_delete\_record()](function.dbase-delete-record.md)). Повертає і пусті записи. Тому цією функцією неможливо отримати значення або ім'я поля `delete`
 
 Кожне поле перетворюється на відповідний тип PHP, за винятком:
 
--   Date перетворюється на рядок.
--   DateTime перетворюється на рядок.
--   Цілі, що виходять із діапазону **`PHP_INT_MIN`\*\*\*\*`PHP_INT_MAX`** перетворюються на рядки.
--   До dbase 7.0.0, логічні значення (`L`) перетворюються на `1` або `0`
+-   Об'єкт Date перетворюється на рядок.
+-   Об'єкт DateTime перетворюється на рядок.
+-   Цілі, що виходять із діапазону\*\*`PHP_INT_MIN`\*\* .. . **`PHP_INT_MAX`**, перетворюються на рядки.
+-   До dbase 7.0.0 логічні значення (`L`) перетворюються на или
 
-У разі виникнення помилки, **dbasegetrecordwithnames()** повертає **`false`**
+В случае возникновения ошибки функция**dbase\_get\_record\_with\_names()** повертає **`false`**
 
 ### список змін
 
-| Версия | Описание |
+| Версия | Опис |
 | --- | --- |
-| dbase 7.0.0 | Параметр `database` тепер має тип resource, а не int. |
+| dbase 7.0.0 | Параметр`database` тепер має тип ресурсу, а не int. |
 
 ### Приклади
 
@@ -77,4 +78,4 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbasegetrecord()](function.dbase-get-record.md) - Отримує записи з бази даних, як із індексованого масиву
+-   [dbase\_get\_record()](function.dbase-get-record.md) \- Отримує записи з бази даних, як із індексованого масиву

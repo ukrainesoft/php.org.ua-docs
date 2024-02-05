@@ -41,7 +41,7 @@ datefmt_get_calendar(IntlDateFormatter $formatter): int|false
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**datefmt\_get\_calendar()\*\*\*\*
+**Приклад #1 Приклад використання функції** datefmt\_get\_calendar()\*\*\*\*
 
 ```php
 <?php

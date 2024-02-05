@@ -37,7 +37,7 @@ mb_strtoupper(string $string, ?string $encoding = null): string
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**mb\_strtoupper()\*\*\*\*
+**Приклад #1 Приклад використання функції** mb\_strtoupper()\*\*\*\*
 
 ```php
 <?php

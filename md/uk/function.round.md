@@ -58,7 +58,7 @@ round(int|float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): float
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**round()\*\*\*\*
+**Приклад #1 Приклад використання функції** round()\*\*\*\*
 
 ```php
 <?php

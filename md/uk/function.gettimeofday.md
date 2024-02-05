@@ -40,7 +40,7 @@ gettimeofday(bool $as_float = false): array|float
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**gettimeofday()\*\*\*\*
+**Приклад #1 Приклад використання функції** gettimeofday()\*\*\*\*
 
 ```php
 <?php

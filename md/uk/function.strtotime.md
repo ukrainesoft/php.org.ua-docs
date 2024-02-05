@@ -53,7 +53,7 @@ strtotime(string $datetime, ?int $baseTimestamp = null): int|false
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**strtotime()\*\*\*\*
+**Приклад #1 Приклад використання функції** strtotime()\*\*\*\*
 
 ```php
 <?php

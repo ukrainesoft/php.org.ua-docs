@@ -67,7 +67,7 @@ $convmap = array (
 ?>
 ```
 
-**Приклад #2 Приклад использования функции**mb\_encode\_numericentity()\*\*\*\*
+**Приклад #2 Приклад використання функції** mb\_encode\_numericentity()\*\*\*\*
 
 ```php
 <?php

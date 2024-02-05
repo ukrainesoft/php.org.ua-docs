@@ -41,7 +41,7 @@ is_a(mixed $object_or_class, string $class, bool $allow_string = false): bool
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**is\_a()\*\*\*\*
+**Приклад #1 Приклад використання функції** is\_a()\*\*\*\*
 
 ```php
 <?php

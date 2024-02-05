@@ -51,7 +51,7 @@ mb_str_pad(    string $string,    int $length,    string $pad_string
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**mb\_str\_pad()\*\*\*\*
+**Приклад #1 Приклад використання функції** mb\_str\_pad()\*\*\*\*
 
 ```php
 <?php

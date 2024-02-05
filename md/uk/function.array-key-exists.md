@@ -47,7 +47,7 @@ array_key_exists(string|int|float|bool|resource|null $key, array $array): bool
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**array\_key\_exists()\*\*\*\*
+**Приклад #1 Приклад використання функції** array\_key\_exists()\*\*\*\*
 
 ```php
 <?php
@@ -60,7 +60,7 @@ if (array_key_exists('first', $search_array)) {
 ?>
 ```
 
-**Приклад #2 Приклад использования функции**array\_key\_exists()\*\* з мовною конструкцією [isset()](function.isset.md)\*\*
+**Приклад #2 Приклад використання функції** array\_key\_exists()\*\* з мовною конструкцією [isset()](function.isset.md)\*\*
 
 Конструкція мови [isset()](function.isset.md) не повертає **`true`** для ключів масиву, які асоційовані зі значенням **`null`**, а функция**array\_key\_exists()** - Повертає.
 

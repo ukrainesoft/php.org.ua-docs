@@ -53,7 +53,7 @@ mb_detect_order(array|string|null $encoding = null): array|bool
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**mb\_detect\_order()\*\*\*\*
+**Приклад #1 Приклад використання функції** mb\_detect\_order()\*\*\*\*
 
 ```php
 <?php

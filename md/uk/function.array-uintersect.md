@@ -68,7 +68,7 @@ $compareFunc = static function ($item1, $item2) {
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**array\_uintersect()\*\*\*\*
+**Приклад #1 Приклад використання функції** array\_uintersect()\*\*\*\*
 
 ```php
 <?php

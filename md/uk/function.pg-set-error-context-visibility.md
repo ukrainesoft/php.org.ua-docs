@@ -37,7 +37,7 @@ pg_set_error_context_visibility(PgSql\Connection $connection, int $visibility): 
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**pg\_set\_error\_context\_visibility()\*\*\*\*
+**Приклад #1 Приклад використання функції** pg\_set\_error\_context\_visibility()\*\*\*\*
 
 ```php
 <?php

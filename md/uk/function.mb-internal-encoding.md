@@ -44,7 +44,7 @@ mb_internal_encoding(?string $encoding = null): string|bool
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**mb\_internal\_encoding()\*\*\*\*
+**Приклад #1 Приклад використання функції** mb\_internal\_encoding()\*\*\*\*
 
 ```php
 <?php

@@ -31,7 +31,7 @@ public tidyNode::hasSiblings(): bool
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**tidyNode::hasSiblings()\*\*\*\*
+**Приклад #1 Приклад використання функції** tidyNode::hasSiblings()\*\*\*\*
 
 ```php
 <?php

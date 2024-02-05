@@ -43,7 +43,7 @@ grapheme_stristr(string $haystack, string $needle, bool $beforeNeedle = false): 
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**grapheme\_stristr()\*\*\*\*
+**Приклад #1 Приклад використання функції** grapheme\_stristr()\*\*\*\*
 
 ```php
 <?php

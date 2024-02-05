@@ -74,7 +74,7 @@ $compareFunc = static function ($item1, $item2) {
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**array\_udiff\_uassoc()\*\*\*\*
+**Приклад #1 Приклад використання функції** array\_udiff\_uassoc()\*\*\*\*
 
 ```php
 <?php

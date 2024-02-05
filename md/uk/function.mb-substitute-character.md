@@ -46,7 +46,7 @@ mb_substitute_character(string|int|null $substitute_character = null): string|in
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**mb\_substitute\_character()\*\*\*\*
+**Приклад #1 Приклад використання функції** mb\_substitute\_character()\*\*\*\*
 
 ```php
 <?php

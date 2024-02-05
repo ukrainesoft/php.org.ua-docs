@@ -56,7 +56,7 @@ gmstrftime(string $format, ?int $timestamp = null): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**gmstrftime()\*\*\*\*
+**Приклад #1 Приклад використання функції** gmstrftime()\*\*\*\*
 
 ```php
 <?php

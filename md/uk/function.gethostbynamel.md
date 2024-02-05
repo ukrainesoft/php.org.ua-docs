@@ -33,7 +33,7 @@ gethostbynamel(string $hostname): array|false
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**gethostbynamel()\*\*\*\*
+**Приклад #1 Приклад використання функції** gethostbynamel()\*\*\*\*
 
 ```php
 <?php

@@ -70,7 +70,7 @@ unserialize(string $data, array $options = []): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**unserialize()\*\*\*\*
+**Приклад #1 Приклад використання функції** unserialize()\*\*\*\*
 
 ```php
 <?php

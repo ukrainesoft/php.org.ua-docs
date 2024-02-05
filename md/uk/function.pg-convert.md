@@ -55,7 +55,7 @@ pg_convert(    PgSql\Connection $connection,    string $table_name,  �
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**pg\_convert()\*\*\*\*
+**Приклад #1 Приклад використання функції** pg\_convert()\*\*\*\*
 
 ```php
 <?php

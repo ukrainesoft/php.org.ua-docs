@@ -37,7 +37,7 @@ disk_free_space(string $directory): float|false
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**disk\_free\_space()\*\*\*\*
+**Приклад #1 Приклад використання функції** disk\_free\_space()\*\*\*\*
 
 ```php
 <?php

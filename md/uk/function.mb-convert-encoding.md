@@ -59,7 +59,7 @@ mb_convert_encoding(array|string $string, string $to_encoding, array|string|null
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**mb\_convert\_encoding()\*\*\*\*
+**Приклад #1 Приклад використання функції** mb\_convert\_encoding()\*\*\*\*
 
 ```php
 <?php

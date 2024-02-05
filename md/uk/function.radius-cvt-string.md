@@ -33,7 +33,7 @@ radius_cvt_string(string $data): string
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**radius\_cvt\_string()\*\*\*\*
+**Приклад #1 Приклад використання функції** radius\_cvt\_string()\*\*\*\*
 
 ```php
 <?php

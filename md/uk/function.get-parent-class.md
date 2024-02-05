@@ -43,7 +43,7 @@ get_parent_class(object|string $object_or_class = ?): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**get\_parent\_class()\*\*\*\*
+**Приклад #1 Приклад використання функції** get\_parent\_class()\*\*\*\*
 
 ```php
 <?php

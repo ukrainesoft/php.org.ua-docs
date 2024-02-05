@@ -43,7 +43,7 @@ array_intersect(array $array, array ...$arrays): array
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**array\_intersect()\*\*\*\*
+**Приклад #1 Приклад використання функції** array\_intersect()\*\*\*\*
 
 ```php
 <?php

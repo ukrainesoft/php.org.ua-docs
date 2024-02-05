@@ -41,7 +41,7 @@ property_exists(object|string $object_or_class, string $property): bool
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**property\_exists()\*\*\*\*
+**Приклад #1 Приклад використання функції** property\_exists()\*\*\*\*
 
 ```php
 <?php

@@ -39,7 +39,7 @@ An[FTP\\Connection](class.ftp-connection.md)instance.
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**ftp\_cdup()\*\*\*\*
+**Приклад #1 Приклад використання функції** ftp\_cdup()\*\*\*\*
 
 ```php
 <?php

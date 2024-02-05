@@ -74,7 +74,7 @@ mb_convert_kana(string $string, string $mode = "KV", ?string $encoding = null): 
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**mb\_convert\_kana()\*\*\*\*
+**Приклад #1 Приклад використання функції** mb\_convert\_kana()\*\*\*\*
 
 ```php
 <?php

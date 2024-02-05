@@ -55,7 +55,7 @@ mb_encode_mimeheader(    string $string,    ?string $charset = null,  
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**mb\_encode\_mimeheader()\*\*\*\*
+**Приклад #1 Приклад використання функції** mb\_encode\_mimeheader()\*\*\*\*
 
 ```php
 <?php

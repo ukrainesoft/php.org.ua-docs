@@ -55,7 +55,7 @@ ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connec
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**ftp\_ssl\_connect()\*\*\*\*
+**Приклад #1 Приклад використання функції** ftp\_ssl\_connect()\*\*\*\*
 
 ```php
 <?php

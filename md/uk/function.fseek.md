@@ -49,7 +49,7 @@ fseek(resource $stream, int $offset, int $whence = SEEK_SET): int
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**fseek()\*\*\*\*
+**Приклад #1 Приклад використання функції** fseek()\*\*\*\*
 
 ```php
 <?php

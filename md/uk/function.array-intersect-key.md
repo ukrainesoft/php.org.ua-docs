@@ -43,7 +43,7 @@ array_intersect_key(array $array, array ...$arrays): array
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**array\_intersect\_key()\*\*\*\*
+**Приклад #1 Приклад використання функції** array\_intersect\_key()\*\*\*\*
 
 ```php
 <?php

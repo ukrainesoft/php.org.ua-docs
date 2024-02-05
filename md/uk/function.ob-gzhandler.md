@@ -31,7 +31,7 @@ ob_gzhandler(string $data, int $flags): string|false
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**ob\_gzhandler()\*\*\*\*
+**Приклад #1 Приклад використання функції** ob\_gzhandler()\*\*\*\*
 
 ```php
 <?php

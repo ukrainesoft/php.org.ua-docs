@@ -49,7 +49,7 @@ callback(mixed $a, mixed $b): int
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**array\_intersect\_uassoc()\*\*\*\*
+**Приклад #1 Приклад використання функції** array\_intersect\_uassoc()\*\*\*\*
 
 ```php
 <?php

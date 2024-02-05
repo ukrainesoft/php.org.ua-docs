@@ -49,7 +49,7 @@ touch(string $filename, ?int $mtime = null, ?int $atime = null): bool
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**touch()\*\*\*\*
+**Приклад #1 Приклад використання функції** touch()\*\*\*\*
 
 ```php
 <?php

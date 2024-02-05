@@ -69,7 +69,7 @@ pathinfo(string $path, int $flags = PATHINFO_ALL): array|string
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**pathinfo()\*\*\*\*
+**Приклад #1 Приклад використання функції** pathinfo()\*\*\*\*
 
 ```php
 <?php

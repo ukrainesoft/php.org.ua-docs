@@ -61,7 +61,7 @@ mb_strimwidth(    string $string,    int $start,    int $width,  �
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**mb\_strimwidth()\*\*\*\*
+**Приклад #1 Приклад використання функції** mb\_strimwidth()\*\*\*\*
 
 ```php
 <?php

@@ -49,7 +49,7 @@ call_user_func_array(callable $callback, array $args): mixed
 
 ### Приклади
 
-**Приклад #1 Приклад использования функции**call\_user\_func\_array()\*\*\*\*
+**Приклад #1 Приклад використання функції** call\_user\_func\_array()\*\*\*\*
 
 ```php
 <?php
